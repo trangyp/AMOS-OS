@@ -1,6 +1,16 @@
 # macOS metadata
 .DS_Store
 
+# Devin session artifacts
+.devin/
+.devin copy/
+
+# Obsidian UI state (regenerated locally; only plugin code is tracked)
+.obsidian/*
+!.obsidian/plugins/
+.obsidian/plugins/3d-semantic-graph/data.json
+.obsidian/plugins/3d-semantic-graph/uploaded-vectors.json
+
 # Nested Obsidian vaults should not be created inside this vault
 AMOS OS/
 
