@@ -1,2130 +1,1956 @@
+
+
 ````markdown
 ---
-artifact_id: AMOS-LAW-HIERARCHY
-name: LAW_HIERARCHY
-title: "AMOS Law Hierarchy — Authority, Precedence, Scope, Conflict, and Supersession"
-
-document_version: "2.0.0"
-hierarchy_version: "4.4"
-amos_core_target: "v4.4"
-
-status: ACTIVE_CANON_CANDIDATE
-conclusion_class: AMOS_MODEL
-rscf_state: derived
-
-canon_group: tech-ai
-canon_type: law-hierarchy
-
-origin_architect: Trang Phan
-steward: Trang Phan
-
-created: 2026-08-25
-updated: 2026-08-25
-
 tags:
   - amos
-  - amos-os
-  - amos-core
-  - amos-core-v4-4
-  - canon
-  - law
-  - law-hierarchy
-  - authority
-  - precedence
-  - governance
-  - scope
-  - regime
-  - provenance
-  - supersession
-  - invariants
-  - conflict-resolution
+  - cognitive-matrix
+  - l01
+  - sensing-observation
+  - purpose
   - rscf
-  - canon-group/tech-ai
-  - canon/framework
-  - canon/law
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/derived
-  - topic/law-hierarchy
-
-aliases:
-  - AMOS Law Hierarchy
-  - AMOS Canon Law Hierarchy
-  - AMOS Authority Hierarchy
-  - AMOS Precedence Model
-  - AMOS Constitutional Hierarchy
-
-related:
-  - "[[00_ROOT/README.md|AMOS OS]]"
-  - "[[00_ROOT/ARCHITECTURE.md|Architecture]]"
-  - "[[00_ROOT/SYSTEM_MAP.md|System Map]]"
-  - "[[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]]"
-  - "[[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]]"
-  - "[[01_CANON/AMOS_CORE_LAWS.md|AMOS Core Laws]]"
-  - "[[01_CANON/INVARIANT_REGISTRY.md|Invariant Registry]]"
-  - "[[02_KERNEL/00_INDEX/KERNEL_MAP.md|Kernel Map]]"
-  - "[[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|Control Plane Map]]"
+  - hml
+  - control-plane
 ---
 
-# AMOS Law Hierarchy
+# L01_SENSING_OBSERVATION — Purpose
 
-**Origin architect / steward:** Trang Phan
+**Class:** `COGNITIVE_PRIMITIVE_PURPOSE_CONTRACT`  
+**Origin architect / steward:** Trang Phan  
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
+**Primitive:** `L01_SENSING_OBSERVATION`  
+**Artifact:** `PURPOSE.md`  
+**Role:** `REALITY-CONTACT / OBSERVATION-FORMATION / EVIDENCE-ENTRY PURPOSE CONTRACT`  
+**Status:** `AMOS_MODEL / SOURCE-CANON BOUNDED / UNVALIDATED`
 
-> **Status:** `ACTIVE_CANON_CANDIDATE`  
-> **AMOS Core target:** `v4.4`  
-> **Conclusion class:** `AMOS_MODEL`
+> **Epistemic boundary:** this document defines the proposed purpose contract for `L01_SENSING_OBSERVATION`. It specifies why the primitive exists, what responsibilities belong within its declared scope, what must remain outside that scope, and what conditions must hold before L01 outputs may be consumed downstream. It does not establish that any sensing capability, observation mechanism, agent, workflow, validator, or control plane has been implemented or empirically validated.
 
 ---
 
-## 0. Purpose
+# 0. Purpose
 
-The `LAW_HIERARCHY` defines how governing AMOS rules relate by:
+The purpose of `L01_SENSING_OBSERVATION` is to provide the first governed cognitive interface between an addressable reality/environment state and AMOS internal information state.
 
-- authority;
-- precedence;
-- scope;
-- regime;
-- specificity;
-- version;
-- provenance;
-- lifecycle state;
-- supersession;
-- conflict resolution.
+Its fundamental responsibility is:
 
-Its purpose is to prevent a lower-authority artifact, runtime behavior, model output, agent decision, workflow, memory entry, or implementation detail from silently overriding higher-order AMOS law.
+\[
+\boxed{
+RealityContact
+\rightarrow
+Sensing
+\rightarrow
+ObservationCandidate
+\rightarrow
+GovernedObservation
+}
+\]
+
+without silently converting:
 
 ```text
-LAW
-↓
-INVARIANT
-↓
-POLICY
-↓
-CONTRACT
-↓
-IMPLEMENTATION
-↓
-EXECUTION
-↓
-OBSERVATION
+signal into truth
+source claim into direct observation
+model output into reality
+simulation into empirical evidence
+retrieval into sensing
+interpretation into measurement
+absence into negative evidence
+uncertainty into certainty
+capability into authority
+proposal into committed state
 ````
 
-This is a governance hierarchy.
+L01 exists so downstream cognition does not need to assume that incoming information is already:
 
-It is **not** a claim that every current AMOS artifact has already been validated and promoted into one of these levels.
+```text
+real
+observed
+accurate
+current
+independent
+properly scoped
+properly typed
+provenanced
+validated
+authorized
+```
+
+Instead, those properties must be represented, checked, bounded, or left explicitly `UNKNOWN/GAP`.
 
 ---
 
-# 1. Constitutional Boundary
+# 1. Primary Purpose
 
-The first hierarchy rule is:
+The primary purpose of L01 is:
 
-```text
-AUTHORITY
-!=
-CAPABILITY
-```
-
-A component's ability to perform an operation does not establish its authority to define, modify, override, or commit governing law.
-
-Likewise:
-
-```text
-IMPLEMENTATION != LAW
-RUNTIME != CANON
-MODEL != AUTHORITY
-MEMORY != CANON
-TOOL != PERMISSION
-AGENT != GOVERNANCE
-PROPOSAL != COMMIT
-OBSERVATION != LAW
-```
-
----
-
-# 2. Canonical Authority Stack
-
-The conceptual AMOS law stack is:
-
-```text
-L0  CORE INTEGRITY LAW
-│
-├── L1  CONSTITUTIONAL / ROOT LAWS
-│
-├── L2  CANONICAL INVARIANTS
-│
-├── L3  GOVERNANCE / AUTHORITY POLICIES
-│
-├── L4  SYSTEM & PLANE CONTRACTS
-│
-├── L5  DOMAIN / REGIME RULES
-│
-├── L6  COMPONENT CONTRACTS
-│
-├── L7  EXECUTION / WORKFLOW RULES
-│
-├── L8  LOCAL CONFIGURATION
-│
-└── L9  RUNTIME DECISIONS / PROPOSALS
-```
-
-Lower levels operate inside the envelope established by higher levels.
-
-They do not automatically possess authority to rewrite them.
-
----
-
-# 3. L0 — Core Integrity Law
-
-The highest-order governing priority is:
-
-```text
-INTEGRITY
->
-COMPLETENESS
->
-FLUENCY
->
-SPEED
->
-TOKEN SAVINGS
-```
-
-This ordering constrains every lower layer.
-
-No optimization, workflow, model, runtime policy, agent strategy, or implementation convenience may legitimately invert it.
-
-Associated hard laws include:
-
-```text
-UNKNOWN/GAP != PASS
-
-MISSING_EVIDENCE
-!=
-LICENSE_TO_INVENT
-
-OPTIMIZATION
-MUST NOT
-WEAKEN INTEGRITY
-```
-
----
-
-# 4. L1 — Constitutional / Root Laws
-
-L1 contains architectural laws defining fundamental AMOS separations and authority boundaries.
-
-Examples:
-
-```text
-CANON != KERNEL
-KERNEL != CONTROL_PLANE
-CONTROL_PLANE != RUNTIME
-RUNTIME != COGNITION
-
-ORGAN != AGENT
-AGENT != SKILL
-SKILL != WORKFLOW
-WORKFLOW != PROTOCOL
-
-MEMORY != CANON
-KNOWLEDGE != AUTHORITY
-MODEL != AUTHORITY
-TOOL != PERMISSION
-
-CAPABILITY != AUTHORITY
-PROPOSAL != COMMIT
-```
-
-These are structural firewalls.
-
-A lower-level component cannot erase them by implementation.
-
----
-
-# 5. L2 — Canonical Invariants
-
-Canonical invariants operationalize constitutional laws as testable or enforceable constraints.
-
-Canonical source:
-
-```text
-[[01_CANON/INVARIANT_REGISTRY.md]]
-```
-
-Examples:
-
-```text
-SOURCE_CLAIM != VERIFIED
-MODEL != FACT
-STRUCTURAL_SIMILARITY != CAUSATION
-CORRELATION != CAUSAL_EFFECT
-
-INDEPENDENCE MUST BE DEMONSTRATED
-UNKNOWN/GAP != PASS
-
-INVALID(PREMISE)
-→
-INVALID(DEPENDENT_CONCLUSIONS)
-```
-
-An invariant may constrain multiple lower planes simultaneously.
-
----
-
-# 6. L3 — Governance / Authority Policies
-
-Governance policies define:
-
-```text
-WHO MAY DECIDE
-WHO MAY PROPOSE
-WHO MAY APPROVE
-WHO MAY COMMIT
-WHO MAY OVERRIDE
-WHO MAY ROLLBACK
-WHO MAY PROMOTE
-```
-
-These normally belong to the control-plane authority boundary.
-
-```text
-CANON
-↓ constrains
-CONTROL PLANE
-↓ authorizes
-RUNTIME
-```
-
-The control plane may enforce canon.
-
-It may not silently redefine canon unless a canon-authorized governance mechanism explicitly permits the transition.
-
----
-
-# 7. L4 — System and Plane Contracts
-
-System contracts define obligations for major AMOS planes.
-
-Examples:
-
-```text
-KERNEL CONTRACT
-CONTROL PLANE CONTRACT
-RUNTIME CONTRACT
-COGNITIVE ORGANISM CONTRACT
-MEMORY CONTRACT
-STATE CONTRACT
-PROVENANCE CONTRACT
-SECURITY CONTRACT
-OBSERVABILITY CONTRACT
-```
-
-A plane contract is subordinate to applicable constitutional law and canonical invariants.
-
-```text
-PLANE_CONTRACT
-MUST_SATISFY
-HIGHER_ORDER_LAWS
-```
-
----
-
-# 8. L5 — Domain and Regime Rules
-
-Domain-specific rules may specialize general law for a valid scope.
-
-Examples:
-
-```text
-LEGAL
-FINANCE
-RESEARCH
-CODING
-GOVERNANCE
-OPERATIONS
-SECURITY
-COUNTRY OVERLAY
-```
-
-A valid specialization may be more restrictive than a general rule.
-
-It may not silently weaken a higher-order invariant.
-
-```text
-SPECIALIZATION
-CAN NARROW
-
-SPECIALIZATION
-CANNOT SILENTLY INVALIDATE
-PARENT LAW
-```
-
----
-
-# 9. L6 — Component Contracts
-
-Component-level rules govern:
-
-```text
-AGENTS
-SKILLS
-TOOLS
-MODELS
-MEMORIES
-PROTOCOLS
-INTERFACES
-SCHEMAS
-```
-
-Example:
-
-```text
-AGENT CONTRACT
-↓
-ROLE
-CAPABILITY
-INPUT
-OUTPUT
-DEPENDENCIES
-AUTHORITY BOUNDARY
-FAILURE SEMANTICS
-```
-
-A component contract cannot grant itself authority merely by declaring it.
-
-```text
-SELF_DECLARED_AUTHORITY
-!=
-GOVERNED_AUTHORITY
-```
-
----
-
-# 10. L7 — Workflow and Execution Rules
-
-Workflow rules determine execution ordering and orchestration.
-
-```text
-STEP
-→
-GATE
-→
-TRANSITION
-→
-NEXT STEP
-```
-
-Workflow ordering does not supersede higher authority.
-
-For example:
-
-```text
-WORKFLOW_SAYS_EXECUTE
-+
-AUTHORITY_GATE_FAILS
-→
-DO_NOT_EXECUTE
-```
-
----
-
-# 11. L8 — Local Configuration
-
-Local configuration may alter permitted behavior inside an existing authority envelope.
-
-Examples:
-
-```text
-TIMEOUT
-RETRY COUNT
-MODEL SELECTION
-ROUTING WEIGHT
-DISPLAY MODE
-LOCAL FEATURE FLAG
-```
-
-Configuration cannot legitimately transform:
-
-```text
-FORBIDDEN
-→
-AUTHORIZED
-```
-
-unless the governing authority explicitly defines that configuration as an authorization mechanism.
-
----
-
-# 12. L9 — Runtime Decisions and Proposals
-
-Runtime outputs occupy the lowest governing level.
-
-Examples:
-
-```text
-MODEL OUTPUT
-AGENT RECOMMENDATION
-PROPOSAL
-WORKING HYPOTHESIS
-LOCAL DECISION
-CANDIDATE STATE
-```
-
-These may influence higher-level governance processes.
-
-They do not automatically rewrite those processes.
-
-```text
-RUNTIME_PROPOSAL
-→
-GOVERNANCE_GATE
-→
-COMMIT
-```
-
-not:
-
-```text
-RUNTIME_PROPOSAL
-=
-CANON
-```
-
----
-
-# 13. Authority Is Typed
-
-Authority is not a single scalar.
-
-AMOS should distinguish authority types where material:
-
-```text
-DEFINITION_AUTHORITY
-INTERPRETATION_AUTHORITY
-VALIDATION_AUTHORITY
-EXECUTION_AUTHORITY
-COMMIT_AUTHORITY
-OVERRIDE_AUTHORITY
-ROLLBACK_AUTHORITY
-PROMOTION_AUTHORITY
-SUPERSESSION_AUTHORITY
-```
-
-Possession of one authority type does not automatically imply another.
-
-Example:
-
-```text
-EXECUTION_AUTHORITY
-!=
-CANON_MODIFICATION_AUTHORITY
-```
-
----
-
-# 14. Authority Is Scoped
-
-Authority exists within an applicability envelope.
-
-```yaml
-authority_scope:
-  system:
-  plane:
-  domain:
-  environment:
-  operation:
-  state_class:
-  regime:
-  temporal_window:
-  version:
-```
-
-Therefore:
-
-```text
-AUTHORIZED(SCOPE_A)
-!=
-AUTHORIZED(SCOPE_B)
-```
-
-unless the authority explicitly spans both.
-
----
-
-# 15. Precedence Is Not Determined by Filename
-
-Never infer authority solely from:
-
-```text
-FILE NAME
-DIRECTORY DEPTH
-NUMBER PREFIX
-CREATION DATE
-FILE SIZE
-DOCUMENT LENGTH
-VERSION-LIKE STRING
-```
-
-Repository placement may provide structural evidence.
-
-It does not independently prove authority.
-
-```text
-PLACEMENT
-!=
-AUTHORITY
-```
-
-Authority requires valid canonical/governance provenance.
-
----
-
-# 16. Precedence Resolution Function
-
-When two rules appear to conflict, resolve using a typed precedence sequence.
+> **Convert available reality-contact signals into explicitly typed, provenance-bearing, uncertainty-bearing observation state while preserving the distinction between what exists, what was sensed, what was reported, what was inferred, and what remains unknown.**
 
 Conceptually:
 
-```text
-VALIDITY
-↓
-AUTHORITY CLASS
-↓
-SCOPE APPLICABILITY
-↓
-REGIME APPLICABILITY
-↓
-SPECIFICITY
-↓
-VERSION / SUPERSESSION
-↓
-TEMPORAL VALIDITY
-↓
-PROVENANCE
-```
-
-This is not equivalent to:
-
-```text
-NEWEST FILE ALWAYS WINS
-```
-
-or:
-
-```text
-MOST SPECIFIC ALWAYS WINS
-```
-
-Specificity only matters after higher-order compatibility is established.
-
----
-
-# 17. Conflict Resolution Protocol
-
-For candidate rules `A` and `B`:
-
-```text
-1. ARE BOTH VALID?
-2. ARE BOTH APPLICABLE?
-3. DO THEY ACTUALLY CONFLICT?
-4. WHAT AUTHORITY CLASS DOES EACH HOLD?
-5. WHAT IS EACH RULE'S SCOPE?
-6. WHAT REGIME DOES EACH RULE GOVERN?
-7. IS ONE A VALID SPECIALIZATION?
-8. IS ONE SUPERSEDED?
-9. ARE THEIR PROVENANCE CHAINS VALID?
-10. DOES AN EXPLICIT OVERRIDE EXIST?
-```
-
-Only then may precedence be determined.
-
----
-
-# 18. Apparent Conflict
-
-Two laws may differ without conflicting.
-
-Example:
-
-```text
-LAW_A applies to REGIME_A
-LAW_B applies to REGIME_B
-```
-
-If:
-
-```text
-REGIME_A != REGIME_B
-```
-
-then both may remain valid.
-
-Do not force unnecessary supersession.
-
----
-
-# 19. Genuine Conflict
-
-A genuine conflict exists when two simultaneously applicable rules require incompatible outcomes.
-
-```text
-A requires X
-B requires NOT X
-```
-
-within the same relevant:
-
-```text
-SCOPE
-REGIME
-TIME
-VERSION
-AUTHORITY CONTEXT
-```
-
-Such conflicts require explicit resolution.
-
----
-
-# 20. Unresolved Conflict
-
-If precedence cannot be validly established:
-
-```text
-STATE = COMPETING
-```
-
-or:
-
-```text
-STATE = UNKNOWN/GAP
-```
-
-depending on the evidence topology.
-
-Never resolve an authority conflict through fluent guesswork.
-
----
-
-# 21. Higher Authority Rule
-
-A valid higher-order law normally constrains a lower-order law.
-
-```text
-HIGHER_AUTHORITY
-↓
-LOWER_AUTHORITY
-```
-
-But this does not mean the higher-level rule automatically answers every local question.
-
-A lower-level specialization may legitimately provide detail when:
-
-```text
-PARENT LAW PERMITS SPECIALIZATION
-∧
-SPECIALIZATION REMAINS IN SCOPE
-∧
-SPECIALIZATION DOES NOT VIOLATE PARENT INVARIANTS
-```
-
----
-
-# 22. Specificity Rule
-
-Specific rules may refine general rules.
-
-Example:
-
-```text
-GENERAL:
-External effects require authority.
-
-SPECIFIC:
-Production deployment requires
-DEPLOYMENT_COMMIT_AUTHORITY.
-```
-
-The specific rule specializes the general one.
-
-It does not replace the constitutional law:
-
-```text
-CAPABILITY != AUTHORITY
-```
-
----
-
-# 23. Restrictive Specialization
-
-Where governance permits:
-
-```text
-CHILD_RULE
-```
-
-may impose stronger constraints than its parent.
-
-Example:
-
-```text
-PARENT:
-Human approval required for high-risk commits.
-
-CHILD:
-Two independent approvals required
-for irreversible production migration.
-```
-
-This is compatible if the parent defines a minimum rather than an exclusive requirement.
-
----
-
-# 24. Weakening Rule
-
-A lower-authority rule may not silently weaken a higher-order constraint.
-
-```text
-HIGHER:
-AUTHORITY_REQUIRED
-
-LOWER:
-AUTHORITY_OPTIONAL
-```
-
-is invalid unless an explicit higher-authority exception licenses it.
-
----
-
-# 25. Exception Contract
-
-An exception must be explicit and typed.
-
-```yaml
-exception:
-  exception_id:
-  parent_law:
-  authority:
-  scope:
-  regime:
-  condition:
-  justification:
-  effective_from:
-  expires_at:
-  evidence:
-  rollback:
-  provenance:
-```
-
-No implicit exception exists merely because implementation behaves differently.
-
----
-
-# 26. Override Contract
-
-Override is stronger than specialization.
-
-An override should declare:
-
-```text
-WHAT IS OVERRIDDEN
-WHO AUTHORIZED IT
-WHY
-WHERE
-WHEN
-FOR HOW LONG
-WHAT RISK IT CREATES
-HOW IT IS AUDITED
-HOW IT IS REVOKED
-```
-
-Conceptually:
-
-```yaml
-override:
-  override_id:
-  target_law:
-  target_version:
-
-  authority:
-  authority_provenance:
-
-  scope:
-  regime:
-
-  reason:
-
-  effective_at:
-  expires_at:
-
-  risk_class:
-
-  evidence: []
-
-  rollback:
-
-  audit_record:
-```
-
----
-
-# 27. Non-Overrideable Laws
-
-Some laws may be designated:
-
-```text
-NON_OVERRIDEABLE
-```
-
-within the AMOS governance model.
-
-Examples of candidate constitutional constraints include:
-
-```text
-UNKNOWN/GAP != PASS
-NO FABRICATED EVIDENCE
-CAPABILITY != AUTHORITY
-PROVENANCE MUST NOT BE FABRICATED
-OPTIMIZATION MUST NOT WEAKEN INTEGRITY
-```
-
-Final non-overrideable status must be bound through canon governance rather than inferred solely from this document.
-
----
-
-# 28. Supersession
-
-Law evolution uses explicit supersession.
-
-```text
-LAW_A v1
-↓
-SUPERSEDED_BY
-↓
-LAW_A v2
-```
-
-Supersession does not erase history.
-
-```text
-SUPERSEDED
-!=
-DELETED
-```
-
-Required lineage should remain recoverable.
-
----
-
-# 29. Supersession Record
-
-```yaml
-supersession:
-  supersession_id:
-
-  predecessor:
-    artifact_id:
-    semantic_id:
-    version:
-
-  successor:
-    artifact_id:
-    semantic_id:
-    version:
-
-  reason:
-
-  compatibility:
-    backward_compatible:
-    breaking_change:
-
-  affected_dependencies: []
-
-  migration_requirements: []
-
-  effective_at:
-
-  authority:
-
-  provenance:
-```
-
----
-
-# 30. Semantic Identity Rule
-
-The following identities remain distinct:
-
-```text
-FILENAME
-ARTIFACT_ID
-SEMANTIC_ID
-VERSION_ID
-PROVENANCE_ID
-RUNTIME_INSTANCE_ID
-```
+[
+\boxed{
+L01:
+E_{available}
+\rightarrow
+O_{typed}
+}
+]
+
+where:
+
+* (E_{available}) = available environment/reality-contact input;
+* (O_{typed}) = typed observation state.
+
+This mapping is not assumed lossless.
 
 Therefore:
 
-```text
-RENAME
-!=
-SUPERSESSION
-```
+[
+\boxed{
+Observation
+\neq
+Reality
+}
+]
 
 and:
 
+[
+\boxed{
+ObservationState
+================
+
+Representation(RealityContact)
+}
+]
+
+not reality itself.
+
+---
+
+# 2. Why L01 Exists
+
+Without a governed sensing/observation primitive, downstream reasoning can collapse several materially different states:
+
 ```text
-FILE_REPLACEMENT
+REALITY
+OBSERVATION
+SOURCE CLAIM
+RETRIEVED INFORMATION
+MODEL OUTPUT
+SIMULATION
+MEMORY
+DERIVATION
+INTERPRETATION
+DECISION
+```
+
+into one undifferentiated category of "information."
+
+L01 exists to prevent this collapse.
+
+Its architectural purpose is therefore both constructive and defensive.
+
+Constructively, it creates usable observation state.
+
+Defensively, it prevents unsupported epistemic promotion.
+
+---
+
+# 3. Architectural Position
+
+The intended conceptual ordering is:
+
+```text
+L00_REALITY_ENVIRONMENT
+↓
+L01_SENSING_OBSERVATION
+↓
+downstream cognitive primitives
+```
+
+L00 provides the addressable reality/environment context.
+
+L01 provides the governed observation interface.
+
+Downstream layers may then perform operations such as:
+
+```text
+distinction
+attention
+interpretation
+memory
+comparison
+prediction
+causal reasoning
+planning
+decision
+action
+```
+
+subject to their own contracts.
+
+L01 should not absorb those downstream responsibilities merely because some sensing systems perform preprocessing.
+
+---
+
+# 4. Core Purpose Boundary
+
+L01 answers:
+
+```text
+WHAT WAS AVAILABLE TO BE SENSED?
+
+WHAT SIGNAL WAS RECEIVED?
+
+WHO OR WHAT SENSED IT?
+
+WHEN WAS IT SENSED?
+
+THROUGH WHICH MODALITY?
+
+UNDER WHAT ENVIRONMENTAL CONDITIONS?
+
+WHAT OBSERVATION STATE CAN BE FORMED?
+
+WHAT UNCERTAINTY REMAINS?
+
+WHAT PROVENANCE SUPPORTS IT?
+
+WHAT SCOPE AND REGIME APPLY?
+
+IS IT RAW, TRANSFORMED, REPORTED, DERIVED, OR SYNTHETIC?
+
+IS IT ADMISSIBLE FOR DOWNSTREAM USE?
+```
+
+L01 does not, by itself, answer:
+
+```text
+WHAT DOES THIS ULTIMATELY MEAN?
+
+WHY DID IT HAPPEN?
+
+WHAT WILL HAPPEN NEXT?
+
+WHAT SHOULD THE SYSTEM DO?
+
+WHAT IS THE BEST DECISION?
+
+WHAT ACTION IS AUTHORIZED?
+
+IS THE OBSERVATION UNIVERSALLY TRUE?
+```
+
+Those questions belong to later reasoning, governance, or domain layers.
+
+---
+
+# 5. Source / Canon References
+
+## 5.1 Origin
+
+```yaml
+origin:
+  architect: Trang Phan
+  steward: Trang Phan
+
+architecture_family:
+  - AMOS
+  - AMOS OS
+  - AMOS Cognitive Matrix
+  - AMOS RSCF
+  - AMOS H/M/L
+```
+
+## 5.2 Relevant Architecture Families
+
+Relevant AMOS corpus/canon families include:
+
+```text
+AMOS_CORE lineage
+AMOS Full Brain OS
+AMOS Cognition architecture
+AMOS Reality architecture
+AMOS Universal Field architecture
+AMOS information architecture
+AMOS multimodal perception architecture
+AMOS RSCF
+AMOS H/M/L
+AMOS epistemic regimes
+AMOS provenance topology
+AMOS causal hierarchy
+AMOS memory governance
+AMOS information-boundary governance
+AMOS infrastructure/control-plane architecture
+L00_REALITY_ENVIRONMENT
+L01_SENSING_OBSERVATION sibling contracts
+```
+
+## 5.3 Source Status
+
+```yaml
+source_status:
+
+  sensing_as_reality_contact:
+    class: CORPUS_ALIGNED
+
+  observation_reality_distinction:
+    class: CORPUS_ALIGNED
+
+  provenance_requirement:
+    class: CORPUS_ALIGNED
+
+  uncertainty_preservation:
+    class: CORPUS_ALIGNED
+
+  HML_applicability:
+    class: CORPUS_ALIGNED
+
+  scope_regime_bounding:
+    class: CORPUS_ALIGNED
+
+  epistemic_typing:
+    class: CORPUS_ALIGNED
+
+  capability_authority_separation:
+    class: CORPUS_ALIGNED
+
+  proposal_commit_separation:
+    class: CORPUS_ALIGNED
+
+  exact_L01_purpose_text:
+    class: UNKNOWN/GAP
+
+  exact_L01_canonical_contract:
+    class: UNKNOWN/GAP
+
+  executable_L01_runtime:
+    class: UNKNOWN/GAP
+
+  empirical_validation:
+    class: UNKNOWN/GAP
+```
+
+Therefore:
+
+```text
+CORPUS ALIGNMENT
 !=
-VALID_CANON_PROMOTION
-```
+DIRECT L01 CANON
 
----
-
-# 31. Version Precedence
-
-Version number alone does not determine authority.
-
-```text
-v2
-```
-
-does not automatically supersede:
-
-```text
-v1
-```
-
-unless valid lineage establishes:
-
-```text
-v1
-→ SUPERSEDED_BY
-→ v2
-```
-
-Unknown lineage remains:
-
-```text
-UNKNOWN/GAP
-```
-
----
-
-# 32. Temporal Rule
-
-A law may have:
-
-```text
-effective_from
-effective_until
-review_at
-deprecated_at
-superseded_at
-```
-
-A newer law does not retroactively invalidate all historical states unless the governing semantics explicitly require it.
-
-```text
-INVALID_NOW
+ARCHITECTURAL COHERENCE
 !=
-INVALID_THEN
-```
+IMPLEMENTATION
 
----
-
-# 33. Regime Rule
-
-Rules inherit regime validity.
-
-```text
-LAW_VALID(REGIME_A)
-```
-
-does not imply:
-
-```text
-LAW_VALID(REGIME_B)
-```
-
-A detected regime shift may require:
-
-```text
-REVALIDATION
-REINTERPRETATION
-NEW SPECIALIZATION
-OR
-GOVERNANCE ESCALATION
-```
-
----
-
-# 34. Scope Rule
-
-Every consequential law should eventually expose its applicability envelope.
-
-Possible dimensions:
-
-```text
-SYSTEM
-PLANE
-DOMAIN
-POPULATION
-ENVIRONMENT
-SCALE
-TIME
-REGIME
-OPERATION
-STATE CLASS
-ASSUMPTIONS
-```
-
-Silent scope expansion is prohibited.
-
----
-
-# 35. Provenance Rule
-
-A governing law should retain sufficient provenance to determine:
-
-```text
-ORIGIN
-AUTHORITY
-REVISION
-SUPERSESSION
-DEPENDENCIES
-VALIDATION STATE
-```
-
-Repetition does not create authority.
-
-```text
-ONE CANONICAL SOURCE
-→
-100 COPIES
+IMPLEMENTATION
 !=
-100 AUTHORITIES
+VALIDATION
 ```
 
 ---
 
-# 36. Provenance Topology
+# 6. Definition
 
-Authority analysis must account for shared ancestry.
+`L01_SENSING_OBSERVATION` is the AMOS cognitive primitive responsible for governed formation of observation state from available reality/environment contact.
+
+Conceptually:
+
+[
+\boxed{
+O_t =
+\mathcal{S}
+(
+E_t,
+M_t,
+B_t,
+C_t
+)
+}
+]
+
+where:
+
+* (E_t) = available environment/reality-contact state;
+* (M_t) = sensing modality or interface;
+* (B_t) = observer/sensor state;
+* (C_t) = contextual conditions;
+* (O_t) = resulting observation state.
+
+This is an AMOS MODEL equation, not a claim of universal sensing mathematics.
+
+---
+
+# 7. Scope
+
+L01 may govern observation formation from:
+
+```text
+human observation
+machine sensors
+software instrumentation
+APIs
+databases
+documents
+files
+retrieval systems
+external tools
+multimodal interfaces
+visual inputs
+audio inputs
+textual inputs
+structured records
+environmental telemetry
+system telemetry
+explicit user-provided information
+```
+
+provided the provenance and epistemic class of each are preserved.
+
+---
+
+# 8. Out of Scope
+
+L01 does not independently own:
+
+```text
+world ontology
+ultimate reality determination
+full semantic interpretation
+causal inference
+long-term memory policy
+prediction
+planning
+decision optimization
+action authorization
+durable external commit
+ethical authorization
+domain-specific truth determination
+```
+
+It may provide evidence to those processes.
+
+It does not replace them.
+
+---
+
+# 9. Typed Inputs
+
+```yaml
+L01PurposeInput:
+
+  environment_context:
+    type: L00EnvironmentState | EnvironmentRef | UNKNOWN
+
+  signal:
+    type:
+      - PhysicalSignal
+      - DigitalSignal
+      - HumanReport
+      - DocumentInput
+      - ToolOutput
+      - APIOutput
+      - RetrievedObject
+      - StructuredRecord
+      - MultimodalInput
+      - UNKNOWN
+
+  source:
+    type: SourceRef | UNKNOWN
+
+  observer:
+    type:
+      - HumanObserverRef
+      - SensorRef
+      - AgentRef
+      - ToolRef
+      - SystemRef
+      - UNKNOWN
+
+  modality:
+    type: ModalityRef | UNKNOWN
+
+  event_time:
+    type: Timestamp | TimeEnvelope | UNKNOWN
+
+  observation_time:
+    type: Timestamp | TimeEnvelope | UNKNOWN
+
+  scope:
+    type: ScopeEnvelope | UNKNOWN
+
+  regime:
+    type: RegimeRef | UNKNOWN
+
+  HML:
+    type: H | M | L | UNKNOWN
+
+  provenance:
+    type: ProvenanceBundle | PartialProvenance | UNKNOWN
+
+  uncertainty:
+    type: UncertaintyVector
+
+  authority_context:
+    type: AuthorityContext | null
+```
+
+---
+
+# 10. Typed Outputs
+
+```yaml
+L01PurposeOutput:
+
+  observation_candidate:
+    type: ObservationCandidate
+
+  observation_state:
+    type:
+      - RAW_OBSERVATION
+      - NORMALIZED_OBSERVATION
+      - TRANSFORMED_OBSERVATION
+      - REPORTED_OBSERVATION
+      - DERIVED_OBSERVATION
+      - SYNTHETIC_OBSERVATION
+      - UNKNOWN
+
+  epistemic_class:
+    type:
+      - OBSERVATION
+      - SOURCE_CLAIM
+      - DERIVED
+      - MODEL
+      - UNKNOWN
+
+  provenance:
+    type: ProvenanceBundle
+
+  scope:
+    type: ScopeEnvelope
+
+  regime:
+    type: RegimeRef
+
+  HML:
+    type: H | M | L | UNKNOWN
+
+  uncertainty:
+    type: UncertaintyVector
+
+  validation_state:
+    type:
+      - PASS
+      - CONDITIONAL
+      - FAIL
+      - QUARANTINE
+      - UNKNOWN
+
+  admissibility:
+    type:
+      - ADMISSIBLE
+      - CONDITIONALLY_ADMISSIBLE
+      - INADMISSIBLE
+      - QUARANTINED
+      - UNKNOWN
+
+  gaps:
+    type: GapRecord[]
+```
+
+---
+
+# 11. State Variables
+
+```text
+E = environment/reality-contact state
+
+S = sensed signal
+
+O = observation state
+
+B = observer/sensor state
+
+M = modality
+
+Q = sensing quality
+
+N = noise state
+
+U = uncertainty
+
+P = provenance
+
+T = temporal state
+
+C = scope/context
+
+G = regime
+
+H = H/M/L coordinate
+
+V = validation state
+
+A = admissibility state
+
+X = transformation state
+
+K = conflict state
+
+F = freshness state
+```
+
+Candidate observation tensor:
+
+[
+\boxed{
+T_{obs}
+=======
+
+T[
+source,
+observer,
+modality,
+time,
+scope,
+regime,
+HML,
+signal,
+quality,
+uncertainty,
+provenance,
+validation
+]
+}
+]
+
+---
+
+# 12. Core Operators
+
+Candidate L01 operators include:
+
+```text
+SENSE
+CAPTURE
+OBSERVE
+REGISTER
+NORMALIZE
+FILTER
+ALIGN
+TIMESTAMP
+TYPE
+CLASSIFY_MODALITY
+ATTACH_PROVENANCE
+BOUND_SCOPE
+BOUND_REGIME
+ASSIGN_HML
+ESTIMATE_UNCERTAINTY
+CHECK_QUALITY
+CHECK_FRESHNESS
+CHECK_CONFLICT
+VALIDATE
+QUARANTINE
+REOBSERVE
+SUPERSEDE
+INVALIDATE
+ROUTE
+```
+
+These operators are architectural proposals.
+
+```text
+OPERATOR ADDRESSABILITY
+!=
+IMPLEMENTED OPERATOR
+```
+
+---
+
+# 13. Purpose of SENSE
+
+`SENSE` establishes contact with an available signal.
+
+[
+S_t =
+Sense(E_t)
+]
+
+It does not establish that the signal perfectly represents the underlying environment.
+
+Therefore:
+
+[
+\boxed{
+Signal
+\neq
+Reality
+}
+]
+
+---
+
+# 14. Purpose of OBSERVE
+
+`OBSERVE` converts sensed or reported input into an addressable observation candidate.
+
+[
+O_c =
+Observe(S,P,U)
+]
+
+where provenance and uncertainty must remain attached or explicitly unknown.
+
+---
+
+# 15. Purpose of TYPE
+
+`TYPE` prevents epistemically different information from collapsing together.
 
 Example:
 
 ```text
-CANON_LAW_A
-├── POLICY_B
-├── README_C
-├── AGENT_PROMPT_D
-└── WORKFLOW_E
+sensor reading
+→ OBSERVATION
+
+document statement
+→ SOURCE_CLAIM
+
+model prediction
+→ MODEL
+
+computed difference
+→ DERIVED
 ```
-
-The four descendants do not constitute four independent canonical laws.
-
-They remain downstream derivatives unless separately governed.
 
 ---
 
-# 37. Canon / Kernel Relationship
+# 16. Purpose of VALIDATE
+
+`VALIDATE` checks whether an observation satisfies the required contract for a declared downstream use.
+
+Validation may check:
 
 ```text
-CANON
-=
-WHAT MUST HOLD
-
-KERNEL
-=
-DETERMINISTIC MACHINERY
-THAT MAY ENFORCE
-WHAT MUST HOLD
+schema
+source identity
+time
+scope
+regime
+H/M/L
+provenance
+quality
+uncertainty
+freshness
+conflict
+transformation lineage
 ```
+
+Validation does not make an observation universally true.
+
+---
+
+# 17. Purpose of QUARANTINE
+
+`QUARANTINE` preserves potentially useful but insufficiently grounded observations without allowing unsupported promotion.
+
+Use when:
+
+```text
+source unknown
+provenance incomplete
+scope ambiguous
+regime ambiguous
+timestamp missing
+conflict unresolved
+transformation uncertain
+possible contamination
+possible synthetic/reality confusion
+```
+
+---
+
+# 18. Core Invariants
+
+Minimum proposed invariant registry:
+
+```text
+L01-PURPOSE-INV-001  Reality/Observation Separation
+L01-PURPOSE-INV-002  Signal/Reality Separation
+L01-PURPOSE-INV-003  Observation/Interpretation Separation
+L01-PURPOSE-INV-004  Observation/Source-Claim Separation
+L01-PURPOSE-INV-005  Observation/Model Separation
+L01-PURPOSE-INV-006  Observation/Simulation Separation
+L01-PURPOSE-INV-007  Provenance Preservation
+L01-PURPOSE-INV-008  Uncertainty Preservation
+L01-PURPOSE-INV-009  Temporal Preservation
+L01-PURPOSE-INV-010  Scope Preservation
+L01-PURPOSE-INV-011  Regime Preservation
+L01-PURPOSE-INV-012  H/M/L Preservation
+L01-PURPOSE-INV-013  Transformation Traceability
+L01-PURPOSE-INV-014  Unknown Preservation
+L01-PURPOSE-INV-015  Absence Non-Promotion
+L01-PURPOSE-INV-016  Validation/Truth Separation
+L01-PURPOSE-INV-017  Capability/Authority Separation
+L01-PURPOSE-INV-018  Proposal/Commit Separation
+L01-PURPOSE-INV-019  Selective Invalidation
+L01-PURPOSE-INV-020  Downstream Traceability
+```
+
+---
+
+# 19. Reality / Observation Invariant
+
+[
+\boxed{
+O
+\neq
+R
+}
+]
+
+An observation is a representation produced through an observation process.
+
+It must not be treated as ontologically identical to the observed reality.
+
+---
+
+# 20. Observation / Interpretation Invariant
+
+Example:
+
+```text
+OBSERVATION:
+"measured temperature = 40°C"
+
+INTERPRETATION:
+"the system is overheating"
+```
+
+These are different epistemic objects.
+
+The second may depend on the first but is not identical to it.
+
+---
+
+# 21. Observation / Source Claim Invariant
+
+A source reporting an event creates a report or source claim unless the architecture has sufficient basis to classify it as an observation interface.
 
 Therefore:
 
 ```text
-CANON != KERNEL
-```
-
-Kernel behavior does not automatically become canon merely because it is implemented.
-
----
-
-# 38. Kernel / Control Plane Relationship
-
-```text
-KERNEL
-=
-DETERMINISTIC OPERATORS / INVARIANTS
-
-CONTROL PLANE
-=
-AUTHORITY / POLICY / COMMIT GOVERNANCE
-```
-
-Therefore:
-
-```text
-KERNEL != CONTROL_PLANE
-```
-
-A deterministic operator does not automatically possess commit authority.
-
----
-
-# 39. Control Plane / Runtime Relationship
-
-```text
-CONTROL_PLANE
-=
-WHO / WHEN / UNDER WHAT POLICY
-
-RUNTIME
-=
-HOW EXECUTION OCCURS
-```
-
-Therefore:
-
-```text
-CONTROL_PLANE != RUNTIME
-```
-
-Runtime capability remains subordinate to authority gates.
-
----
-
-# 40. Runtime / Cognition Relationship
-
-```text
-RUNTIME
-=
-EXECUTION HARNESS
-
-COGNITION
-=
-REASONING / INTERPRETATION / MODELING
-```
-
-Therefore:
-
-```text
-RUNTIME != COGNITION
-```
-
-A cognitive conclusion does not automatically authorize execution.
-
----
-
-# 41. Agent Authority Boundary
-
-Agents are role-based workers.
-
-```text
-AGENT
-=
-ROLE + CAPABILITY + CONTRACT
-```
-
-not:
-
-```text
-AGENT
-=
-SOVEREIGN AUTHORITY
-```
-
-An agent's effective authority is inherited or delegated through governed contracts.
-
----
-
-# 42. Skill Authority Boundary
-
-A skill defines a reusable procedure.
-
-```text
-SKILL
-=
-PROCEDURAL CAPABILITY
-```
-
-not:
-
-```text
-SKILL
-=
-PERMISSION
-```
-
-Calling a skill does not bypass authorization.
-
----
-
-# 43. Workflow Authority Boundary
-
-A workflow coordinates multiple steps.
-
-```text
-WORKFLOW
-=
-ORCHESTRATION
-```
-
-not:
-
-```text
-WORKFLOW
-=
-CANON
-```
-
-Workflow structure cannot silently redefine governing laws.
-
----
-
-# 44. Model Authority Boundary
-
-Models may provide:
-
-```text
-PREDICTIONS
-CLASSIFICATIONS
-ESTIMATES
-HYPOTHESES
-RECOMMENDATIONS
-```
-
-but:
-
-```text
-MODEL OUTPUT
+"A reported X"
 !=
-GOVERNED AUTHORITY
-```
-
-A high-confidence model result does not independently authorize a state transition.
-
----
-
-# 45. Memory Authority Boundary
-
-Memory stores retained information.
-
-```text
-MEMORY
-!=
-CANON
-```
-
-Memory may contain:
-
-```text
-OBSERVATIONS
-CLAIMS
-DERIVED KNOWLEDGE
-HISTORICAL DECISIONS
-```
-
-but persistence does not promote those records to governing law.
-
----
-
-# 46. Knowledge Authority Boundary
-
-```text
-KNOWLEDGE
-!=
-AUTHORITY
-```
-
-A knowledge artifact can explain law without possessing authority to change it.
-
----
-
-# 47. Tool Authority Boundary
-
-```text
-TOOL
-=
-CAPABILITY
-```
-
-not:
-
-```text
-TOOL
-=
-AUTHORIZATION
-```
-
-The presence of an executable connector or external effector does not establish permission to use it.
-
----
-
-# 48. State Authority Boundary
-
-State records what the system currently treats as state.
-
-State itself does not define the law governing state transitions.
-
-```text
-STATE
-!=
-STATE_TRANSITION_AUTHORITY
+"AMOS directly observed X"
 ```
 
 ---
 
-# 49. Evidence Authority Boundary
+# 22. Simulation Boundary
 
-Evidence supports claims.
+[
+\boxed{
+SimulationOutput
+\neq
+ObservedReality
+}
+]
 
-```text
-EVIDENCE
-!=
-GOVERNANCE AUTHORITY
-```
-
-Strong evidence can justify changing a law through the governed process.
-
-It does not silently rewrite the law.
+Synthetic or simulated observations must preserve their synthetic status through downstream routing.
 
 ---
 
-# 50. RSCF Law Binding
+# 23. Unknown Preservation
 
-An RSCF may bind applicable law explicitly.
-
-```yaml
-rscf:
-  node_id:
-
-  claim:
-  claim_class:
-
-  governing_laws:
-    - law_id:
-      version:
-      applicability:
-
-  invariants: []
-
-  premises: []
-  evidence: []
-  provenance: []
-
-  scope:
-  regime:
-  freshness:
-
-  dependencies: []
-
-  conclusion:
-```
-
-A conclusion violating an applicable higher-order law cannot be promoted merely because its local reasoning is internally coherent.
-
----
-
-# 51. Multi-RSCF Authority
-
-Where multiple RSCFs jointly support a governed decision:
+If a field is unknown:
 
 ```text
-RSCF_A
-+
-RSCF_B
-+
-RSCF_C
-→
-DECISION
+source = UNKNOWN
+time = UNKNOWN
+scope = UNKNOWN
+regime = UNKNOWN
 ```
 
-their authority and dependencies must not be treated as independent merely because they are separate nodes.
+it must remain unknown until evidence resolves it.
 
-Shared ancestry, common assumptions, and causal coupling remain material.
-
----
-
-# 52. Fast-Path Law
-
-The AMOS v4.4 fast path does not bypass hierarchy.
-
-Local reasoning may avoid broader coordination only when required conditions are established:
+Forbidden:
 
 ```text
-DEPENDENCY_CLOSURE
-∧
-PROVENANCE_INDEPENDENCE
-∧
-SCOPE_COMPATIBILITY
-∧
-REGIME_COMPATIBILITY
-∧
-FRESHNESS
-∧
-NON_CONFLICT
-∧
-AUTHORITY_COMPATIBILITY
-```
-
-Fast path means:
-
-```text
-SMALLER SUFFICIENT PROOF
-```
-
-not:
-
-```text
-WEAKER LAW
+UNKNOWN → ASSUMED_VALID
 ```
 
 ---
 
-# 53. Proof-Based Coordination Avoidance
+# 24. Absence Invariant
 
-Coordination may be avoided only when independence is demonstrated.
+Failure to sense an event does not necessarily establish absence.
 
-```text
-PROVEN_LOCAL_INDEPENDENCE
-→
-LOCAL_FINALIZATION_MAY_BE_ALLOWED
-```
+[
+\boxed{
+NotObserved(x)
+\not\Rightarrow
+NotExists(x)
+}
+]
 
-but:
-
-```text
-ASSUMED_INDEPENDENCE
-↛
-LOCAL_FINALIZATION
-```
-
-Authority hierarchy remains applicable even when coordination is unnecessary.
+unless the sensing contract establishes adequate detection conditions.
 
 ---
 
-# 54. Causal Epoch Finality
+# 25. Dependency Structure
 
-A causal epoch cannot be considered final merely because execution has completed.
-
-Finality requires relevant dependency closure under its governing contract.
+Primary upstream dependency:
 
 ```text
-EXECUTION_COMPLETE
-!=
-CAUSAL_FINALITY
+L00_REALITY_ENVIRONMENT
 ```
 
-Material unresolved upstream dependencies may block finality.
-
----
-
-# 55. Law Conflict States
-
-Law resolution uses:
+L01 also depends conceptually on:
 
 ```text
-NO_CONFLICT
-SPECIALIZATION
-EXCEPTION
-OVERRIDE
-SUPERSEDED
-COMPETING
-UNKNOWN/GAP
-INVALID
+source identity
+modality definitions
+temporal representation
+scope representation
+regime representation
+H/M/L representation
+provenance infrastructure
+uncertainty representation
+validation contracts
+control-plane authority
 ```
 
-Do not collapse these into a binary valid/invalid model.
+Downstream consumers may depend on L01 for evidence-bearing observation state.
 
 ---
 
-# 56. Conflict Record
-
-```yaml
-law_conflict:
-  conflict_id:
-
-  law_a:
-  law_b:
-
-  scope:
-  regime:
-  time:
-
-  conflict_type:
-    - apparent
-    - direct
-    - scope
-    - regime
-    - version
-    - authority
-    - provenance
-    - interpretation
-
-  precedence_result:
-
-  evidence: []
-
-  unresolved_questions: []
-
-  authority_required:
-
-  resolution:
-
-  provenance:
-```
-
----
-
-# 57. Promotion Hierarchy
-
-Artifacts should not jump directly from existence to canon.
+# 26. Dependency Direction
 
 Conceptually:
+
+```text
+L00_REALITY_ENVIRONMENT
+↓
+L01_SENSING_OBSERVATION
+↓
+OBSERVATION-DEPENDENT COGNITION
+```
+
+Downstream interpretation must not rewrite historical observation state without an explicit supersession or correction event.
+
+---
+
+# 27. H/M/L Applicability
+
+L01 applies recursively across:
+
+```text
+L = local observations
+M = subsystem observations
+H = system/environment observations
+```
+
+The same governing distinctions should survive scale changes.
+
+---
+
+# 28. L-Level Purpose
+
+L-level sensing may represent:
+
+```text
+single signal
+single measurement
+single source statement
+single visual element
+single sensor reading
+single event
+single tool response
+```
+
+Purpose:
+
+> preserve the highest useful local observation fidelity and provenance.
+
+---
+
+# 29. M-Level Purpose
+
+M-level sensing may represent:
+
+```text
+sensor clusters
+observation windows
+multimodal combinations
+subsystem state
+aggregated measurements
+source groups
+```
+
+Purpose:
+
+> form subsystem-level observation without destroying the load-bearing local evidence.
+
+---
+
+# 30. H-Level Purpose
+
+H-level sensing may represent:
+
+```text
+environmental state
+system-wide conditions
+global summaries
+cross-subsystem observation
+high-level situation state
+```
+
+Purpose:
+
+> provide compact system-level observation while retaining recoverability to decisive M/L evidence.
+
+---
+
+# 31. Cross-Scale Invariant
+
+If:
+
+[
+O_L
+\rightarrow
+O_M
+\rightarrow
+O_H
+]
+
+then:
+
+[
+\boxed{
+LoadBearingEvidence(O_H)
+\rightsquigarrow
+O_M
+\rightsquigarrow
+O_L
+}
+]
+
+must remain recoverable at sufficient resolution.
+
+---
+
+# 32. Control-Plane Requirements
+
+L01 should operate beneath explicit control-plane governance.
+
+The control plane may determine:
+
+```text
+which sensors may operate
+which tools may be queried
+which sources may be accessed
+which modalities are available
+which observations may enter memory
+which observations may be disclosed
+which transformations are allowed
+which validators are required
+which agents may propose observation state
+which components may commit durable state
+which evidence requires quarantine
+which observation requires revalidation
+```
+
+---
+
+# 33. Capability / Authority Boundary
+
+A component may be technically capable of:
+
+```text
+reading a source
+querying an API
+capturing an image
+processing audio
+classifying a signal
+writing memory
+```
+
+without possessing authority to do so.
+
+Therefore:
+
+[
+\boxed{
+Capability
+\neq
+Authority
+}
+]
+
+---
+
+# 34. Proposal / Commit Boundary
+
+An L01 worker may produce:
+
+```text
+ObservationCandidate
+ValidationProposal
+QuarantineProposal
+MemoryAdmissionProposal
+SupersessionProposal
+InvalidationProposal
+```
+
+but durable transition requires the appropriate authority.
+
+[
+\boxed{
+Proposal
+\neq
+Commit
+}
+]
+
+---
+
+# 35. Commit-Time Requirements
+
+Before consequential downstream use or durable admission:
+
+```text
+check observation identity
+check provenance
+check freshness
+check scope
+check regime
+check H/M/L
+check uncertainty
+check conflict state
+check authority
+check revocation
+```
+
+Material change should trigger revalidation.
+
+---
+
+# 36. Agents
+
+Candidate L01 agent roles:
+
+```text
+Sensing Agent
+Observation Capture Agent
+Multimodal Observation Agent
+Source Resolution Agent
+Observation Validation Agent
+Observation Quality Agent
+Temporal Alignment Agent
+Provenance Agent
+Conflict Detection Agent
+Reobservation Agent
+Observation Repair Agent
+Observation Audit Agent
+Control-Plane Agent
+```
+
+These are architectural roles.
+
+```text
+ROLE
+!=
+DEPLOYED AGENT
+```
+
+---
+
+# 37. Skills
+
+Candidate supporting skills:
+
+```text
+multimodal perception
+structured document parsing
+source reading
+source verification
+provenance tracing
+temporal alignment
+scope/regime validation
+H/M/L mapping
+measurement integrity auditing
+uncertainty representation
+conflict detection
+information-boundary governance
+memory admission governance
+RSCF modeling
+repair/recovery
+```
+
+Skill availability does not grant authority.
+
+---
+
+# 38. Primary Workflow
+
+```text
+REALITY / ENVIRONMENT CONTACT
+↓
+SIGNAL AVAILABLE
+↓
+SENSING
+↓
+CAPTURE
+↓
+SOURCE IDENTIFICATION
+↓
+MODALITY IDENTIFICATION
+↓
+TIMESTAMP
+↓
+OBSERVATION CANDIDATE
+↓
+EPISTEMIC TYPING
+↓
+PROVENANCE ATTACHMENT
+↓
+SCOPE / REGIME / HML BINDING
+↓
+UNCERTAINTY ESTIMATION
+↓
+QUALITY / CONFLICT CHECK
+↓
+VALIDATION
+↓
+ADMIT / CONDITIONAL / QUARANTINE / REJECT
+↓
+ROUTE DOWNSTREAM
+```
+
+---
+
+# 39. Reobservation Workflow
+
+When an observation is:
+
+```text
+stale
+conflicted
+low quality
+high uncertainty
+regime-sensitive
+decision-critical
+```
+
+the preferred workflow is:
+
+```text
+EXISTING OBSERVATION
+↓
+IDENTIFY DECISION-CHANGING UNCERTAINTY
+↓
+REOBSERVATION REQUEST
+↓
+NEW SENSING EVENT
+↓
+NEW OBSERVATION
+↓
+COMPARE
+↓
+CONFIRM / COMPETE / SUPERSEDE
+↓
+SELECTIVE REVALIDATION
+```
+
+---
+
+# 40. Conflict Workflow
+
+```text
+OBSERVATION A
++
+OBSERVATION B
+↓
+CHECK SOURCE
+↓
+CHECK TIME
+↓
+CHECK SCOPE
+↓
+CHECK REGIME
+↓
+CHECK H/M/L
+↓
+CHECK MODALITY
+↓
+CHECK PROVENANCE
+↓
+CHECK TRANSFORMATIONS
+↓
+ATTEMPT DISCRIMINATING TEST
+↓
+RESOLVE OR PRESERVE COMPETING
+```
+
+Conflicting observations must not be forced into artificial agreement.
+
+---
+
+# 41. Protocols
+
+Candidate L01 protocols include:
+
+```text
+SensingRequest
+SensingResult
+ObservationCandidate
+ObservationValidationRequest
+ObservationValidationResult
+ObservationConflictEvent
+CompetingObservationSet
+ObservationReobservationRequest
+ObservationSupersessionProposal
+ObservationInvalidationProposal
+ObservationRoutingRequest
+MemoryAdmissionProposal
+StateTransitionProposal
+StateTransitionCommit
+AuditEvent
+```
+
+Every consequential protocol should carry sufficient:
+
+```text
+identity
+time
+scope
+regime
+H/M/L
+provenance
+uncertainty
+authority context
+```
+
+---
+
+# 42. Evidence / Provenance
+
+Every consequential L01 output should preserve:
+
+```text
+source
+observer
+modality
+observation time
+record time
+environment context
+scope
+regime
+H/M/L
+transformation history
+validation history
+uncertainty
+dependencies
+```
+
+A downstream object should be able to recover its load-bearing observation ancestry.
+
+---
+
+# 43. Observation Evidence Classes
+
+Minimum distinction:
+
+```text
+DIRECT_OBSERVATION
+REPORTED_OBSERVATION
+TRANSFORMED_OBSERVATION
+DERIVED_OBSERVATION
+SYNTHETIC_OBSERVATION
+UNKNOWN
+```
+
+These classes must not silently collapse.
+
+---
+
+# 44. Uncertainty Vector
+
+Candidate L01 uncertainty vector:
+
+[
+\boxed{
+U_{L01}
+=======
+
+[
+U_{signal},
+U_{measurement},
+U_{source},
+U_{temporal},
+U_{scope},
+U_{regime},
+U_{model},
+U_{provenance}
+]
+}
+]
+
+where components may remain unknown.
+
+This is an AMOS MODEL representation rather than an established universal uncertainty equation.
+
+---
+
+# 45. Confidence Ceiling
+
+Observation confidence should be bounded by load-bearing uncertainty.
+
+Conceptually:
+
+[
+\boxed{
+C(O)
+\le
+\min
+(
+C_{source},
+C_{measurement},
+C_{provenance},
+C_{scope},
+C_{regime}
+)
+}
+]
+
+where applicable.
+
+A transformation cannot increase confidence merely by making an observation more fluent or compressed.
+
+Independent validation may supply new evidence.
+
+---
+
+# 46. Failure Modes
+
+## FM-PURPOSE-01 — Reality Collapse
+
+Observation is treated as reality itself.
+
+## FM-PURPOSE-02 — Source-Claim Promotion
+
+Reported information is mislabeled as direct observation.
+
+## FM-PURPOSE-03 — Interpretation Leakage
+
+Interpretation is embedded into the observation as though measured.
+
+## FM-PURPOSE-04 — Model/Observation Confusion
+
+Model output becomes observational evidence without grounding.
+
+## FM-PURPOSE-05 — Simulation Contamination
+
+Synthetic state becomes empirical state.
+
+## FM-PURPOSE-06 — Missing Provenance
+
+Observation cannot be traced to an origin.
+
+## FM-PURPOSE-07 — Temporal Misalignment
+
+Event, observation, retrieval, or processing times are confused.
+
+## FM-PURPOSE-08 — Scope Leakage
+
+Observation is generalized outside its supported scope.
+
+## FM-PURPOSE-09 — Regime Leakage
+
+Observation is reused across incompatible regimes.
+
+## FM-PURPOSE-10 — H/M/L Collapse
+
+Evidence from one scale is treated as equivalent to another.
+
+## FM-PURPOSE-11 — Noise Promotion
+
+Noise becomes signal.
+
+## FM-PURPOSE-12 — Signal Suppression
+
+Relevant signal is removed as noise.
+
+## FM-PURPOSE-13 — Missingness Promotion
+
+Failure to observe becomes evidence of absence.
+
+## FM-PURPOSE-14 — Stale Observation
+
+Old observation is treated as current.
+
+## FM-PURPOSE-15 — False Precision
+
+Measurement resolution exceeds the sensing basis.
+
+## FM-PURPOSE-16 — False Independence
+
+Correlated observations are counted as independent.
+
+## FM-PURPOSE-17 — Unknown-as-Pass
+
+Missing validation information becomes acceptance.
+
+## FM-PURPOSE-18 — Capability/Authority Confusion
+
+Available sensing capability is used without authority.
+
+## FM-PURPOSE-19 — Proposal/Commit Confusion
+
+Candidate observation is committed without required validation.
+
+## FM-PURPOSE-20 — Provenance Loss
+
+Transformations detach observations from their origin.
+
+## FM-PURPOSE-21 — Over-Aggregation
+
+H/M-level summaries destroy decisive L-level evidence.
+
+## FM-PURPOSE-22 — Under-Invalidation
+
+Invalid observations continue supporting downstream state.
+
+## FM-PURPOSE-23 — Over-Invalidation
+
+Unrelated downstream state is discarded.
+
+## FM-PURPOSE-24 — Observer Contamination
+
+The sensing/observation process materially changes or biases what is being measured without representing that effect.
+
+## FM-PURPOSE-25 — Purpose Expansion
+
+L01 absorbs interpretation, decision, or action authority beyond its sensing/observation scope.
+
+---
+
+# 47. Repair / Recovery
+
+General L01 recovery:
+
+```text
+DETECT OBSERVATION FAILURE
+↓
+FREEZE AFFECTED PROMOTION
+↓
+IDENTIFY EARLIEST FAILED PREMISE
+↓
+CLASSIFY FAILURE
+↓
+TRACE DEPENDENTS
+↓
+PRESERVE UNAFFECTED STATE
+↓
+REOBSERVE IF POSSIBLE
+↓
+RECOVER PROVENANCE IF EVIDENCE EXISTS
+↓
+CORRECT TYPE / TIME / SCOPE / REGIME / HML
+↓
+DO NOT INVENT MISSING INFORMATION
+↓
+REVALIDATE
+↓
+SUPERSEDE / QUARANTINE / INVALIDATE
+↓
+RESTORE VALID DOWNSTREAM STATE
+```
+
+---
+
+# 48. Repair Principle
+
+Repair the earliest material failure rather than merely correcting the downstream conclusion.
+
+Example:
+
+```text
+FAULTY SENSOR
+↓
+FAULTY OBSERVATION
+↓
+FAULTY SUMMARY
+↓
+FAULTY CLAIM
+```
+
+Repairing only the claim does not repair the observation substrate.
+
+The sensing failure must be addressed or the observation invalidated.
+
+---
+
+# 49. Selective Invalidation
+
+If observation (O_i) fails:
+
+[
+Affected(O_i)
+=============
+
+Descendants_{load-bearing}(O_i)
+]
+
+Only materially dependent downstream objects should require invalidation or revalidation.
+
+Unrelated observation state should remain intact.
+
+---
+
+# 50. Tests / Validators
+
+Minimum validators:
+
+```text
+VALIDATOR_REALITY_OBSERVATION_SEPARATION
+
+VALIDATOR_SOURCE_CLASS
+
+VALIDATOR_OBSERVATION_TYPE
+
+VALIDATOR_MODALITY
+
+VALIDATOR_OBSERVER
+
+VALIDATOR_TIMESTAMP
+
+VALIDATOR_SCOPE
+
+VALIDATOR_REGIME
+
+VALIDATOR_HML
+
+VALIDATOR_PROVENANCE
+
+VALIDATOR_UNCERTAINTY
+
+VALIDATOR_TRANSFORMATION_LINEAGE
+
+VALIDATOR_FRESHNESS
+
+VALIDATOR_CONFLICT
+
+VALIDATOR_SIMULATION_BOUNDARY
+
+VALIDATOR_MISSINGNESS
+
+VALIDATOR_CAPABILITY_AUTHORITY
+
+VALIDATOR_PROPOSAL_COMMIT
+
+VALIDATOR_DOWNSTREAM_DEPENDENCY
+```
+
+---
+
+# 51. Minimum Tests
+
+```text
+TEST_PURPOSE_001
+raw signal does not automatically become validated observation
+
+TEST_PURPOSE_002
+observation does not become reality state
+
+TEST_PURPOSE_003
+document claim remains SOURCE_CLAIM unless observation criteria are satisfied
+
+TEST_PURPOSE_004
+model output remains MODEL/DERIVED unless separately grounded
+
+TEST_PURPOSE_005
+simulation remains synthetic
+
+TEST_PURPOSE_006
+UNKNOWN source remains UNKNOWN
+
+TEST_PURPOSE_007
+UNKNOWN scope does not become universal scope
+
+TEST_PURPOSE_008
+UNKNOWN regime does not become universally applicable
+
+TEST_PURPOSE_009
+observation time remains distinct from retrieval time
+
+TEST_PURPOSE_010
+transformation retains provenance
+
+TEST_PURPOSE_011
+uncertainty cannot disappear through summarization
+
+TEST_PURPOSE_012
+L-level evidence remains recoverable after M-level aggregation
+
+TEST_PURPOSE_013
+M-level evidence remains recoverable after H-level aggregation
+
+TEST_PURPOSE_014
+failure to observe does not automatically imply absence
+
+TEST_PURPOSE_015
+stale observation triggers freshness review
+
+TEST_PURPOSE_016
+conflicting observations preserve COMPETING state when unresolved
+
+TEST_PURPOSE_017
+correlated observations do not create false independent confirmation
+
+TEST_PURPOSE_018
+sensor capability does not imply permission to sense
+
+TEST_PURPOSE_019
+observation proposal does not become durable state without authority
+
+TEST_PURPOSE_020
+failed observation selectively invalidates dependent conclusions
+
+TEST_PURPOSE_021
+unrelated observations survive selective invalidation
+
+TEST_PURPOSE_022
+repair does not fabricate missing evidence
+
+TEST_PURPOSE_023
+reobservation creates new evidence rather than rewriting history
+
+TEST_PURPOSE_024
+superseded observations remain historically traceable
+
+TEST_PURPOSE_025
+downstream interpretation cannot silently modify original observation
+```
+
+---
+
+# 52. Adversarial Validators
+
+L01 should be tested against:
+
+```text
+spoofed sensors
+forged sources
+stale APIs
+duplicate sources
+correlated observations
+sensor drift
+timestamp manipulation
+missing metadata
+adversarial documents
+prompt injection in retrieved material
+synthetic data presented as empirical
+simulation/reality confusion
+misleading summaries
+unit conversion errors
+scope widening
+regime widening
+H/M/L mismatch
+selective reporting
+missing-data bias
+observer bias
+tool errors
+API errors
+partial retrieval
+source revocation
+provenance tampering
+unauthorized sensing
+unauthorized memory admission
+```
+
+---
+
+# 53. Falsifiers
+
+This purpose contract must be revised if:
+
+```text
+direct AMOS canon defines a materially different purpose for L01
+
+canonical architecture places sensing or observation at another layer
+
+canonical L01 explicitly includes responsibilities excluded here
+
+canonical L01 excludes responsibilities included here
+
+canonical H/M/L rules contradict the proposed scale behavior
+
+canonical provenance rules conflict with this contract
+
+canonical control-plane rules assign different authority boundaries
+
+canonical observation semantics materially differ from the proposed epistemic classes
+
+executed runtime evidence demonstrates that the proposed boundary cannot preserve required observation integrity
+
+formal analysis reveals contradictions among the proposed invariants
+```
+
+---
+
+# 54. Gap Matrix
+
+```yaml
+purpose_gap_status:
+
+  direct_L01_PURPOSE_canon:
+    status: GAP
+    criticality: CRITICAL
+
+  canonical_L01_definition:
+    status: GAP
+    criticality: CRITICAL
+
+  canonical_layer_boundary:
+    status: GAP
+    criticality: CRITICAL
+
+  canonical_observation_schema:
+    status: GAP
+    criticality: CRITICAL
+
+  canonical_source_classes:
+    status: GAP
+    criticality: DECISION_RELEVANT
+
+  canonical_modality_registry:
+    status: GAP
+    criticality: DECISION_RELEVANT
+
+  canonical_uncertainty_schema:
+    status: GAP
+    criticality: DECISION_RELEVANT
+
+  canonical_HML_mapping:
+    status: GAP
+    criticality: DECISION_RELEVANT
+
+  canonical_control_plane_ownership:
+    status: GAP
+    criticality: CRITICAL
+
+  definition_scope:
+    status: MODEL_COMPLETE
+
+  typed_inputs_outputs:
+    status: MODEL_COMPLETE
+
+  state_variables:
+    status: MODEL_COMPLETE
+
+  operators:
+    status: MODEL_COMPLETE
+
+  invariants:
+    status: MODEL_COMPLETE
+
+  dependencies:
+    status: MODEL_COMPLETE
+
+  HML_applicability:
+    status: MODEL_COMPLETE
+
+  control_plane_requirements:
+    status: MODEL_COMPLETE
+
+  agents:
+    status: MODEL_COMPLETE
+
+  skills:
+    status: MODEL_COMPLETE
+
+  workflows:
+    status: MODEL_COMPLETE
+
+  protocols:
+    status: MODEL_COMPLETE
+
+  evidence_provenance:
+    status: MODEL_COMPLETE
+
+  uncertainty_confidence:
+    status: MODEL_COMPLETE
+
+  failure_modes:
+    status: MODEL_COMPLETE
+
+  repair_recovery:
+    status: MODEL_COMPLETE
+
+  tests_validators:
+    status: MODEL_COMPLETE_UNEXECUTED
+
+  executable_runtime:
+    status: GAP
+    criticality: CRITICAL
+
+  empirical_validation:
+    status: GAP
+    criticality: CRITICAL
+```
+
+---
+
+# 55. Gap Priority
+
+Priority order:
+
+```text
+1. Locate direct canonical L01 purpose definition.
+
+2. Confirm exact boundary between L00 and L01.
+
+3. Confirm exact boundary between L01 and downstream cognition.
+
+4. Confirm canonical observation epistemic classes.
+
+5. Confirm canonical sensing modality definitions.
+
+6. Confirm canonical provenance requirements.
+
+7. Confirm canonical uncertainty representation.
+
+8. Confirm canonical H/M/L observation semantics.
+
+9. Confirm exact control-plane ownership and commit authority.
+
+10. Confirm memory admission relationship.
+
+11. Confirm observation supersession/invalidation semantics.
+
+12. Implement deterministic validators.
+
+13. Execute adversarial tests.
+
+14. Validate cross-scale observation lineage.
+
+15. Validate selective invalidation behavior.
+```
+
+---
+
+# 56. Hard Boundaries
 
 ```text
 PLACEHOLDER
-↓
-SOURCE_CLAIM
-↓
-MODEL / PROPOSED
-↓
-REVIEWED
-↓
+!=
+IMPLEMENTED
+
+ADDRESSABLE
+!=
 VALIDATED
-↓
-CANON_CANDIDATE
-↓
-ACTIVE_CANON
-```
-
-Exact lifecycle vocabulary may differ by registry.
-
-The governing invariant is:
-
-```text
-EXISTS != CANONICAL
-```
-
----
-
-# 58. Demotion
-
-A law may move downward in authority state if:
-
-```text
-PROVENANCE FAILS
-VALIDATION FAILS
-SCOPE CHANGES
-REGIME CHANGES
-CONTRADICTION EMERGES
-AUTHORITY IS REVOKED
-SUPERSESSION OCCURS
-```
-
-Demotion should preserve lineage.
-
----
-
-# 59. Law Invalidation
-
-Invalidation should identify:
-
-```text
-FAILED PREMISE
-FAILED PROVENANCE EDGE
-FAILED AUTHORITY
-SCOPE FAILURE
-REGIME FAILURE
-VERSION FAILURE
-SUPERSESSION
-CONTRADICTION
-```
-
-Dependent conclusions are then invalidated selectively.
-
-```text
-INVALIDATE DESCENDANTS
-PRESERVE UNAFFECTED BRANCHES
-```
-
----
-
-# 60. Rollback
-
-When a law transition fails:
-
-```text
-FAILED LAW STATE
-↓
-NEAREST VALID PREDECESSOR
-```
-
-where safe and supported by provenance.
-
-Global rollback is a last resort when local dependency repair is insufficient.
-
----
-
-# 61. Anti-Regression Gate
-
-A law change must not weaken:
-
-```text
-FACTUAL SUPPORT
-SCOPE CORRECTNESS
-CONTRADICTION VISIBILITY
-PROVENANCE RECOVERABILITY
-CAUSAL DISCIPLINE
-AUTHORITY INTEGRITY
-SAFETY
-RECOVERY
-```
-
-A performance improvement is insufficient justification for integrity regression.
-
----
-
-# 62. Change Proposal Contract
-
-```yaml
-law_change_proposal:
-  proposal_id:
-
-  target_law:
-  current_version:
-  proposed_version:
-
-  change_type:
-    - clarification
-    - extension
-    - restriction
-    - correction
-    - breaking_change
-    - deprecation
-    - supersession
-
-  rationale:
-
-  evidence: []
-
-  affected_invariants: []
-  affected_dependencies: []
-  affected_planes: []
-
-  scope_effect:
-  regime_effect:
-  authority_effect:
-
-  backward_compatibility:
-
-  migration_plan:
-  rollback_plan:
-
-  proposed_by:
-  required_authority:
-
-  status:
-```
-
-Hard rule:
-
-```text
-LAW_CHANGE_PROPOSAL
-!=
-LAW_CHANGE_COMMIT
-```
-
----
-
-# 63. Law Commit Gate
-
-Conceptually:
-
-```text
-PROPOSAL
-↓
-PROVENANCE CHECK
-↓
-DEPENDENCY CHECK
-↓
-CONFLICT CHECK
-↓
-SCOPE / REGIME CHECK
-↓
-INVARIANT CHECK
-↓
-AUTHORITY CHECK
-↓
-VALIDATION
-↓
-COMMIT
-↓
-SUPERSESSION RECORD
-↓
-DEPENDENT REVALIDATION
-```
-
-Any load-bearing:
-
-```text
-FAIL
-```
-
-blocks promotion.
-
-Material:
-
-```text
-UNKNOWN/GAP
-```
-
-blocks promotion unless governing canon explicitly permits a conditional state.
-
----
-
-# 64. Authoritative State
-
-The repository may contain many artifacts describing law.
-
-Only the authoritative-state mechanism should determine which are currently treated as governing.
-
-Relevant root artifact:
-
-```text
-[[00_ROOT/AUTHORITATIVE_STATE.md]]
-```
-
-Therefore:
-
-```text
-PRESENT_IN_REPOSITORY
-!=
-CURRENTLY_AUTHORITATIVE
-```
-
----
-
-# 65. Law Registry Requirements
-
-A mature law registry should eventually track:
-
-```yaml
-law:
-  law_id:
-  semantic_id:
-  title:
-
-  version:
-  lifecycle_state:
-
-  authority_level:
-  authority_type:
-
-  statement:
-
-  scope:
-  regime:
-
-  parent_laws: []
-  child_laws: []
-
-  invariants: []
-
-  exceptions: []
-  overrides: []
-
-  supersedes: []
-  superseded_by:
-
-  effective_from:
-  effective_until:
-
-  provenance:
-
-  validation:
-
-  dependencies: []
-
-  enforcement_points: []
-
-  failure_semantics:
-```
-
----
-
-# 66. Minimum AMOS Hierarchy Laws
-
-The minimum hierarchy set is:
-
-```text
-LH-001  INTEGRITY DOMINATES OPTIMIZATION
-LH-002  HIGHER AUTHORITY CONSTRAINS LOWER AUTHORITY
-LH-003  CAPABILITY != AUTHORITY
-LH-004  PROPOSAL != COMMIT
-LH-005  MODEL != AUTHORITY
-LH-006  MEMORY != CANON
-LH-007  KNOWLEDGE != AUTHORITY
-LH-008  TOOL != PERMISSION
-LH-009  RUNTIME != CANON
-LH-010  IMPLEMENTATION != LAW
-LH-011  SPECIFICITY DOES NOT BYPASS HIGHER LAW
-LH-012  VERSION NUMBER ALONE DOES NOT ESTABLISH SUPERSESSION
-LH-013  PLACEMENT DOES NOT ALONE ESTABLISH AUTHORITY
-LH-014  UNKNOWN AUTHORITY != AUTHORIZED
-LH-015  UNKNOWN/GAP != PASS
-LH-016  SUPERSEDED != DELETED
-LH-017  INVALIDATE DEPENDENTS, PRESERVE UNAFFECTED BRANCHES
-LH-018  FAST PATH != WEAKER GOVERNANCE
-LH-019  OVERRIDE REQUIRES EXPLICIT AUTHORITY
-LH-020  LAW EVOLUTION MUST PRESERVE PROVENANCE
-```
-
----
-
-# 67. AMOS v4.4 Evolution Alignment
-
-The law hierarchy supports the v3.0 → v4.4 evolution spine:
-
-```text
-DETERMINISTIC LOGIC
-↓
-RECURSIVE RSCF / H-M-L
-↓
-GOVERNED EVOLUTION
-↓
-CAUSAL LINEAGE
-↓
-EPISTEMIC REGIMES
-↓
-COMPETING HYPOTHESES
-↓
-PROVENANCE TOPOLOGY
-↓
-SYBIL HARDENING
-↓
-PERSISTENT PROVENANCE
-↓
-VERSION-AWARE STATE
-↓
-MVCC / CAS CONCEPTS
-↓
-ATOMIC MULTI-RSCF REASONING
-↓
-CAUSAL EPOCH FINALITY
-↓
-HARDENED SHARD-LOCAL FINALIZATION
-↓
-PROOF-BASED COORDINATION AVOIDANCE
-```
-
-The hierarchy constrains these mechanisms through governance and authority boundaries.
-
-It does not claim that repository documentation alone proves their complete runtime implementation.
-
----
-
-# 68. RSCF Node
-
-```yaml
-node_id: AMOS_LAW_HIERARCHY
-
-functional_type:
-  - CANONICAL_GOVERNANCE_MODEL
-  - AUTHORITY_HIERARCHY
-  - PRECEDENCE_MODEL
-
-lifecycle_stage:
-  CANON_CANDIDATE
-
-origin_architect:
-  Trang Phan
-
-steward:
-  Trang Phan
-
-amos_core_target:
-  v4.4
-
-claim_class:
-  AMOS_MODEL
-
-claim: >
-  AMOS law is governed through typed authority, scope, regime,
-  precedence, provenance, versioning, conflict resolution,
-  exception, override, and supersession relationships rather than
-  filename order or runtime implementation alone.
-
-dependencies:
-  - "[[01_CANON/AMOS_CORE_LAWS.md]]"
-  - "[[01_CANON/INVARIANT_REGISTRY.md]]"
-  - "[[01_CANON/00_INDEX/CANON_MAP.md]]"
-  - "[[00_ROOT/AUTHORITATIVE_STATE.md]]"
-  - "[[00_ROOT/ARCHITECTURE.md]]"
-
-critical_invariants:
-  - INTEGRITY > COMPLETENESS
-  - UNKNOWN/GAP != PASS
-  - CAPABILITY != AUTHORITY
-  - PROPOSAL != COMMIT
-  - MODEL != AUTHORITY
-  - MEMORY != CANON
-  - TOOL != PERMISSION
-  - RUNTIME != CANON
-  - IMPLEMENTATION != LAW
-  - SUPERSEDED != DELETED
-  - OPTIMIZATION MUST NOT WEAKEN INTEGRITY
-
-does_not_establish:
-  - implementation completeness
-  - empirical validation of all laws
-  - universal formal correctness
-  - automatic authority of every referenced artifact
-  - automatic promotion to final canon
-```
-
----
-
-# 69. Promotion Gate
-
-This artifact may move:
-
-```text
-ACTIVE_CANON_CANDIDATE
-→
-ACTIVE_CANON
-```
-
-only after canonical review establishes:
-
-```text
-AUTHORITY MODEL
-PRECEDENCE MODEL
-SCOPE MODEL
-REGIME MODEL
-EXCEPTION MODEL
-OVERRIDE MODEL
-SUPERSESSION MODEL
-VERSION MODEL
-PROVENANCE MODEL
-CONFLICT MODEL
-DEPENDENCY CLOSURE
-INVARIANT ALIGNMENT
-```
-
-Any unresolved load-bearing contradiction remains:
-
-```text
-COMPETING
-```
-
-or:
-
-```text
-UNKNOWN/GAP
-```
-
-rather than being silently normalized.
-
----
-
-# 70. Changelog
-
-## v2.0.0 — 2026-08-25
-
-Expanded placeholder into an AMOS v4.4 law-hierarchy model.
-
-Added:
-
-* constitutional authority stack;
-* L0–L9 hierarchy;
-* typed authority;
-* scoped authority;
-* precedence semantics;
-* conflict-resolution protocol;
-* specificity and specialization rules;
-* exception contracts;
-* override contracts;
-* supersession semantics;
-* semantic identity firewall;
-* version and temporal precedence;
-* regime and scope firewalls;
-* provenance topology;
-* plane authority boundaries;
-* RSCF law binding;
-* multi-RSCF authority;
-* fast-path governance;
-* proof-based coordination avoidance;
-* causal epoch finality;
-* promotion/demotion;
-* selective invalidation;
-* rollback;
-* anti-regression;
-* law-change proposal and commit gates;
-* authoritative-state separation;
-* minimum hierarchy-law registry.
-
-## v1.0.0 — 2026-08-25
-
-Initial placeholder reserved the canonical AMOS OS location.
-
----
-
-# 71. Final Law
-
-The AMOS law hierarchy reduces to one governing constraint:
-
-```text
-NO LOWER-AUTHORITY COMPONENT
-MAY SILENTLY REDEFINE
-A HIGHER-AUTHORITY LAW.
-```
-
-A legitimate change requires:
-
-```text
-VALID PROPOSAL
-+
-VALID PROVENANCE
-+
-DEPENDENCY CLOSURE
-+
-SCOPE / REGIME COMPATIBILITY
-+
-INVARIANT SATISFACTION
-+
-REQUIRED AUTHORITY
-+
-VALIDATION
-+
-EXPLICIT COMMIT
-+
-SUPERSESSION LINEAGE
-```
-
-Therefore:
-
-```text
-IMPLEMENTATION
-!=
-LAW
-
-EXECUTION
-!=
-AUTHORITY
-
-REPETITION
-!=
-CANON
-
-NEWER
-!=
-SUPERSEDING
 
 CAPABILITY
 !=
@@ -2133,19 +1959,566 @@ AUTHORITY
 PROPOSAL
 !=
 COMMIT
-```
 
-and when governing authority cannot be established:
-
-```text
 UNKNOWN/GAP
 !=
 PASS
 ```
 
+Additional L01 purpose boundaries:
+
+```text
+REALITY
+!=
+OBSERVATION
+
+SIGNAL
+!=
+REALITY
+
+SIGNAL
+!=
+VALIDATED OBSERVATION
+
+OBSERVATION
+!=
+INTERPRETATION
+
+OBSERVATION
+!=
+SOURCE CLAIM
+
+OBSERVATION
+!=
+MODEL OUTPUT
+
+OBSERVATION
+!=
+SIMULATION
+
+RETRIEVAL
+!=
+SENSING
+
+RETRIEVED INFORMATION
+!=
+DIRECT OBSERVATION
+
+SOURCE CLAIM
+!=
+EMPIRICAL FACT
+
+NOT OBSERVED
+!=
+DOES NOT EXIST
+
+MULTIPLE OBSERVATIONS
+!=
+INDEPENDENT CONFIRMATION
+
+VALIDATION
+!=
+TRUTH
+
+FRESH
+!=
+TRUE
+
+PROVENANCED
+!=
+TRUE
+
+HIGH CONFIDENCE
+!=
+CERTAINTY
+
+AGGREGATION
+!=
+NEW EVIDENCE
+
+TRANSFORMATION
+!=
+NEW OBSERVATION
+
+MEMORY
+!=
+REALITY
+
+DERIVATION
+!=
+OBSERVATION
+
+PURPOSE CONTRACT
+!=
+RUNTIME IMPLEMENTATION
+```
+
 ---
 
-**Related:** [[00_ROOT/README.md|AMOS OS]] · [[00_ROOT/MOC.md|MOC]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/SYSTEM_MAP.md|System Map]] · [[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]] · [[00_ROOT/PLACEMENT_RULES.md|Placement Rules]] · [[00_ROOT/NAMING_STANDARD.md|Naming Standard]] · [[01_CANON/README.md|AMOS Canon]] · [[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]] · [[01_CANON/AMOS_CORE_LAWS.md|AMOS Core Laws]] · [[01_CANON/INVARIANT_REGISTRY.md|Invariant Registry]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|Kernel Map]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|Control Plane Map]] · [[04_RUNTIME/00_INDEX/RUNTIME_MAP.md|Runtime Map]] · [[10_MEMORY/00_INDEX/MEMORY_MAP.md|Memory Map]] · [[11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture.md|AMOS Full Brain OS Architecture]] · [[12_STATE/00_INDEX/STATE_MAP.md|State Map]] · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP.md|Schema Map]] · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_MAP.md|Observability Map]] · [[18_SECURITY/00_INDEX/SECURITY_MAP.md|Security Map]] · [[19_TESTS/00_INDEX/TEST_MAP.md|Tests]] · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP.md|Operations]]
+# 57. Evidence / Provenance of This Artifact
 
+```yaml
+artifact_provenance:
+
+  artifact:
+    L01_SENSING_OBSERVATION/PURPOSE.md
+
+  origin_architect:
+    Trang Phan
+
+  supplied_basis:
+    - user-supplied L01 PURPOSE placeholder
+    - AMOS architecture context available in this conversation
+    - established L01 sibling contract structure
+
+  derivation:
+    class: AMOS_MODEL_RECONSTRUCTION
+
+  direct_L01_canon_confirmation:
+    status: GAP
+
+  executable_validation:
+    status: NOT_EXECUTED
+
+  empirical_validation:
+    status: NOT_ESTABLISHED
 ```
+
+This document must therefore not cite its own reconstructed purpose as proof of canonical L01 semantics.
+
+---
+
+# 58. Uncertainty
+
+```yaml
+uncertainty:
+
+  evidence:
+    level: HIGH
+    reason: exact direct L01 PURPOSE canon has not been established
+
+  model:
+    level: MEDIUM
+    reason: architecture is coherent with available AMOS principles but includes reconstructed L01-specific structure
+
+  scope:
+    level: MEDIUM
+
+  temporal:
+    level: MEDIUM
+
+  causal:
+    level: MEDIUM
+
+  execution:
+    level: HIGH
+    reason: no L01 runtime implementation has been validated by this artifact
+
+  provenance_independence:
+    level: MEDIUM_HIGH
+```
+
+---
+
+# 59. Confidence Ceiling
+
+The strongest warranted classification is:
+
+```text
+STRUCTURALLY COHERENT AMOS MODEL
+```
+
+not:
+
+```text
+DIRECT-CANON VERIFIED
+```
+
+not:
+
+```text
+IMPLEMENTED
+```
+
+and not:
+
+```text
+EMPIRICALLY VALIDATED
+```
+
+Therefore:
+
+[
+\boxed{
+C_{PURPOSE}
+\le
+C_{weakest\ load-bearing\ premise}
+}
+]
+
+unless independently revalidated.
+
+---
+
+# 60. RSCF Completion State
+
+```yaml
+rscf:
+
+  claim:
+    L01_SENSING_OBSERVATION exists to provide a governed interface
+    between available reality/environment contact and downstream AMOS
+    cognition by forming typed, provenance-bearing, uncertainty-bearing
+    observation state while preserving distinctions among reality,
+    signal, observation, source claim, interpretation, derivation,
+    model output, simulation, and unknown state.
+
+  claim_class:
+    MODEL
+
+  evidence:
+    - user-supplied L01 PURPOSE placeholder
+    - AMOS reality/representation separation principles
+    - AMOS provenance principles
+    - AMOS RSCF principles
+    - AMOS H/M/L principles
+    - AMOS epistemic-regime principles
+    - AMOS control-plane principles
+    - established L01 sibling contract structure
+
+  provenance:
+    origin_architect: Trang Phan
+    architecture_family: AMOS
+    primitive: L01_SENSING_OBSERVATION
+    artifact: PURPOSE.md
+    reconstruction_status: MODEL_DERIVED
+    direct_L01_canon_status: GAP
+
+  scope:
+    AMOS_OS/COGNITIVE_MATRIX/L01_SENSING_OBSERVATION/PURPOSE
+
+  regime:
+    architecture specification / sensing-observation governance
+
+  freshness:
+    revalidate_when:
+      - direct L01 canon becomes available
+      - L00 reality/environment contract changes
+      - L01 definition changes
+      - L01 variable contract changes
+      - L01 operator contract changes
+      - L01 provenance contract changes
+      - L01 H/M/L contract changes
+      - control-plane architecture changes
+      - downstream cognitive-layer boundaries change
+      - executable L01 runtime becomes available
+
+  dependencies:
+    - L00_REALITY_ENVIRONMENT
+    - L01_DEFINITION
+    - L01_VARIABLES
+    - L01_EQUATIONS
+    - L01_INVARIANTS
+    - L01_DEPENDENCIES
+    - L01_HML
+    - L01_MEMORY
+    - L01_OPERATORS
+    - L01_PROTOCOLS
+    - L01_PROVENANCE
+    - L01_CONTROL_PLANES
+    - L01_AGENTS
+    - L01_SKILLS
+    - L01_WORKFLOWS
+    - L01_FAILURE_MODES
+    - L01_REPAIR
+    - L01_GAP_MATRIX
+    - AMOS_RSCF
+    - AMOS_PROVENANCE_TOPOLOGY
+
+  competing:
+    - direct canon may define a narrower L01 purpose
+    - some observation responsibilities may belong to L00
+    - some validation responsibilities may belong primarily to the control plane
+    - multimodal sensing may require modality-specific child primitives
+    - domain-specific observation may require specialist layers
+    - exact reality-contact semantics may differ from this reconstruction
+
+  falsifiers:
+    - direct L01 canon materially contradicts this purpose
+    - canonical architecture assigns L01 a materially different role
+    - canonical layer boundaries invalidate proposed responsibilities
+    - executable validation demonstrates the proposed contract cannot preserve required distinctions
+    - formal analysis identifies incompatible invariants
+
+  uncertainty:
+    evidence: high
+    model: medium
+    scope: medium
+    temporal: medium
+    causal: medium
+    execution: high
+    provenance_independence: medium_high
+
+  confidence_ceiling:
+    structural AMOS MODEL only;
+    not direct-canon-complete;
+    not runtime-validated;
+    not empirical proof
+```
+
+---
+
+# 61. Completion State
+
+```yaml
+completion_state:
+
+  source_canon_references:
+    status: PARTIAL / GAP_BOUNDED
+
+  definition_scope:
+    status: MODEL_COMPLETE
+
+  typed_inputs_outputs:
+    status: MODEL_COMPLETE
+
+  state_variables:
+    status: MODEL_COMPLETE
+
+  operators:
+    status: MODEL_COMPLETE
+
+  invariants:
+    status: MODEL_COMPLETE
+
+  dependencies:
+    status: MODEL_COMPLETE
+
+  HML_applicability:
+    status: MODEL_COMPLETE
+
+  control_plane_requirements:
+    status: MODEL_COMPLETE
+
+  agents:
+    status: MODEL_COMPLETE
+
+  skills:
+    status: MODEL_COMPLETE
+
+  workflows:
+    status: MODEL_COMPLETE
+
+  protocols:
+    status: MODEL_COMPLETE
+
+  evidence_provenance:
+    status: MODEL_COMPLETE
+
+  uncertainty_confidence:
+    status: MODEL_COMPLETE
+
+  failure_modes:
+    status: MODEL_COMPLETE
+
+  repair_recovery:
+    status: MODEL_COMPLETE
+
+  tests_validators:
+    status: MODEL_COMPLETE / UNEXECUTED
+
+  falsifiers:
+    status: MODEL_COMPLETE
+
+  gap_status:
+    status: EXPLICIT
+
+  direct_canon_validation:
+    status: GAP
+
+  executable_implementation:
+    status: GAP
+
+  empirical_validation:
+    status: GAP
+
+  operational_validation:
+    status: GAP
+
+  overall_artifact:
+    status: COMPLETE_FOR_DECLARED_MODEL_SCOPE
+
+  conclusion_class:
+    MODEL / CONDITIONAL
+```
+
+---
+
+# 62. Final Purpose Contract
+
+The purpose of `L01_SENSING_OBSERVATION` is to create a disciplined epistemic boundary between the world AMOS is attempting to reason about and the internal representations subsequently used by cognition.
+
+The intended chain is:
+
+```text
+L00 REALITY / ENVIRONMENT
+↓
+AVAILABLE CONTACT
+↓
+SENSING
+↓
+SIGNAL
+↓
+OBSERVATION CANDIDATE
+↓
+EPISTEMIC TYPING
+↓
+PROVENANCE
+↓
+TIME / SCOPE / REGIME / HML
+↓
+UNCERTAINTY
+↓
+VALIDATION
+↓
+OBSERVATION STATE
+↓
+DOWNSTREAM COGNITION
+```
+
+The governing purpose is not:
+
+```text
+"make incoming information true"
+```
+
+but:
+
+```text
+"represent what was actually available,
+what was sensed or reported,
+how it was obtained,
+what transformations occurred,
+what uncertainty remains,
+where it applies,
+and whether it is admissible for downstream reasoning."
+```
+
+The strongest purpose invariants are:
+
+[
+\boxed{
+Reality \neq Observation
+}
+]
+
+[
+\boxed{
+Signal \neq Truth
+}
+]
+
+[
+\boxed{
+Observation \neq Interpretation
+}
+]
+
+[
+\boxed{
+SourceClaim \neq DirectObservation
+}
+]
+
+[
+\boxed{
+Simulation \neq Reality
+}
+]
+
+[
+\boxed{
+NotObserved \not\Rightarrow NotExists
+}
+]
+
+[
+\boxed{
+Unknown \neq Pass
+}
+]
+
+[
+\boxed{
+Capability \neq Authority
+}
+]
+
+[
+\boxed{
+Proposal \neq Commit
+}
+]
+
+Accordingly:
+
+```text
+L01 PURPOSE CONTRACT
+=
+REALITY-CONTACT BOUNDARY
++
+SENSING INTERFACE
++
+OBSERVATION FORMATION
++
+EPISTEMIC TYPING
++
+PROVENANCE PRESERVATION
++
+UNCERTAINTY PRESERVATION
++
+TEMPORAL BINDING
++
+SCOPE/REGIME BINDING
++
+H/M/L BINDING
++
+CONFLICT VISIBILITY
++
+CONTROL-PLANE GOVERNANCE
++
+SELECTIVE INVALIDATION
++
+REPAIRABILITY
++
+SOURCE-CANON BOUNDED
++
+RUNTIME UNVALIDATED
+```
+
+Therefore:
+
+```text
+COMPLETE_FOR_DECLARED_MODEL_SCOPE
+!=
+DIRECT-CANON COMPLETE
+
+DIRECT-CANON COMPLETE
+!=
+IMPLEMENTED
+
+IMPLEMENTED
+!=
+VALIDATED
+
+VALIDATED
+!=
+UNIVERSALLY TRUE
+```
+
+---
+
+**Related:** [[L01_SENSING_OBSERVATION]] · [[L01_SENSING_OBSERVATION — Definition]] · [[L01_SENSING_OBSERVATION — Variables]] · [[L01_SENSING_OBSERVATION — Equations]] · [[L01_SENSING_OBSERVATION — Invariants]] · [[L01_SENSING_OBSERVATION — Dependencies]] · [[L01_SENSING_OBSERVATION — Hml]] · [[L01_SENSING_OBSERVATION — Memory]] · [[L01_SENSING_OBSERVATION — Operators]] · [[L01_SENSING_OBSERVATION — Protocols]] · [[L01_SENSING_OBSERVATION — Provenance]] · [[L01_SENSING_OBSERVATION — Control Planes]] · [[L01_SENSING_OBSERVATION — Agents]] · [[L01_SENSING_OBSERVATION — Skills]] · [[L01_SENSING_OBSERVATION — Workflows]] · [[L01_SENSING_OBSERVATION — Rscf]] · [[L01_SENSING_OBSERVATION — Failure Modes]] · [[L01_SENSING_OBSERVATION — Repair]] · [[L01_SENSING_OBSERVATION — Gap Matrix]] · [[L00_REALITY_ENVIRONMENT]] · [[00-Home]] · [[06-Knowledge-Base-MOC]]
+
+```text
 ```

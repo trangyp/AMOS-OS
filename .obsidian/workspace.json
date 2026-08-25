@@ -21,8 +21,29 @@
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
+          },
+          {
+            "id": "5f90f4bc68cb7419",
+            "type": "leaf",
+            "state": {
+              "type": "semantic-graph-3d",
+              "state": {},
+              "icon": "network",
+              "title": "Semantic graph"
+            }
+          },
+          {
+            "id": "1e90c9a7338ce8bb",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,16 +175,39 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "ea50f966b944e845",
+            "type": "leaf",
+            "state": {
+              "type": "horme-connections",
+              "state": {},
+              "icon": "cable",
+              "title": "Horme connections"
+            }
+          },
+          {
+            "id": "f9fb685c6d1b5cb0",
+            "type": "leaf",
+            "state": {
+              "type": "horme-chat",
+              "state": {},
+              "icon": "cone",
+              "title": "Horme"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "horme:Open Horme chat": false,
+      "horme:Open Horme connections": false,
+      "3d-semantic-graph:Semantic graph": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -178,6 +222,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "file-explorer",
-  "lastOpenFiles": []
+  "active": "1e90c9a7338ce8bb",
+  "lastOpenFiles": [
+    "25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY/PROVENANCE.md"
+  ]
 }
