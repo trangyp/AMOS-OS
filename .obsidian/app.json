@@ -1,0 +1,10 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00_ROOT",
+  "attachmentFolderPath": "00_ROOT/attachments",
+  "promptDelete": false,
+  "strictLineBreaks": false,
+  "showLineNumber": false,
+  "rightToLeft": false
+}
