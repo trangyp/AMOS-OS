@@ -118,7 +118,7 @@ Every transition remains subject to provenance, scope, regime, authority, and in
 
 ---
 
-# 1. Canonical Seven-Part Model
+## 1. Canonical Seven-Part Model
 
 ```text
 ┌───────────────────────────────────────────────┐
@@ -167,7 +167,7 @@ Every transition remains subject to provenance, scope, regime, authority, and in
 
 ---
 
-# 2. Core Separation Laws
+## 2. Core Separation Laws
 
 The seven parts are intentionally non-equivalent.
 
@@ -199,7 +199,7 @@ These distinctions are load-bearing.
 
 ---
 
-# 3. P1 — Reality / Environment
+## 3. P1 — Reality / Environment
 
 ### Definition (P1)
 
@@ -246,7 +246,7 @@ Inference remains inference.
 
 ---
 
-# 4. P2 — Sense / Evidence
+## 4. P2 — Sense / Evidence
 
 ### Definition (P2)
 
@@ -303,7 +303,7 @@ Evidence should retain material provenance.
 
 ---
 
-# 5. P3 — Knowledge / Memory
+## 5. P3 — Knowledge / Memory
 
 ### Definition (P3)
 
@@ -347,7 +347,7 @@ Knowledge retains epistemic class.
 
 ---
 
-# 6. Fractal Knowledge Structure
+## 6. Fractal Knowledge Structure
 
 AMOS knowledge is decomposable recursively:
 
@@ -379,7 +379,7 @@ unless needed to resolve a load-bearing uncertainty.
 
 ---
 
-# 7. P4 — Cognition / Models
+## 7. P4 — Cognition / Models
 
 ### Definition (P4)
 
@@ -403,7 +403,7 @@ DECISION SUPPORT
 
 ---
 
-# 8. RSCF as a Cognitive Structure
+## 8. RSCF as a Cognitive Structure
 
 Important reasoning can be represented through an RSCF-like structure:
 
@@ -443,7 +443,7 @@ while unrelated branches remain reusable.
 
 ---
 
-# 9. Epistemic Conclusion Classes
+## 9. Epistemic Conclusion Classes
 
 Important outputs should use the weakest accurate class.
 
@@ -468,7 +468,7 @@ without appropriate validation.
 
 ---
 
-# 10. Competing Hypotheses
+## 10. Competing Hypotheses
 
 Cognition must preserve genuine competition.
 
@@ -490,7 +490,7 @@ The preferred next action is the cheapest high-information discriminating test.
 
 ---
 
-# 11. Causal Firewall
+## 11. Causal Firewall
 
 AMOS distinguishes:
 
@@ -518,7 +518,7 @@ STRUCTURAL SIMILARITY != CAUSATION
 
 ---
 
-# 12. P5 — Governance / Authority
+## 12. P5 — Governance / Authority
 
 ### Definition (P5)
 
@@ -543,7 +543,7 @@ ROLLBACK AUTHORIZATION
 
 ---
 
-# 13. Governance Firewall
+## 13. Governance Firewall
 
 ```text
 CAPABILITY != AUTHORITY
@@ -561,7 +561,7 @@ This prevents cognition and execution capability from becoming self-authorizing.
 
 ---
 
-# 14. Authority Is Typed
+## 14. Authority Is Typed
 
 Authority may include:
 
@@ -586,7 +586,7 @@ AUTHORITY(SCOPE_B)
 
 ---
 
-# 15. P6 — Execution / Agency
+## 15. P6 — Execution / Agency
 
 ### Definition (P6)
 
@@ -609,7 +609,7 @@ EFFECTORS
 
 ---
 
-# 16. Execution Hierarchy
+## 16. Execution Hierarchy
 
 A useful separation is:
 
@@ -641,7 +641,7 @@ defines interaction contracts.
 
 ---
 
-# 17. Execution Firewall
+## 17. Execution Firewall
 
 Execution cannot silently alter authority.
 
@@ -669,7 +669,7 @@ CAUSAL_FINALITY
 
 ---
 
-# 18. P7 — Evolution / Learning
+## 18. P7 — Evolution / Learning
 
 ### Definition (P7)
 
@@ -699,7 +699,7 @@ It is not uncontrolled self-modification.
 
 ---
 
-# 19. Evolution Firewall
+## 19. Evolution Firewall
 
 ```text
 NEW
@@ -727,7 +727,7 @@ Any optimization must preserve integrity.
 
 ---
 
-# 20. Anti-Regression Law
+## 20. Anti-Regression Law
 
 Evolution must not weaken:
 
@@ -752,7 +752,7 @@ or preserve the candidate as non-authoritative.
 
 ---
 
-# 21. Seven-Part Transformation Chain
+## 21. Seven-Part Transformation Chain
 
 The canonical transformation path is:
 
@@ -793,7 +793,7 @@ The smallest sufficient path should be used.
 
 ---
 
-# 22. Feedback Is Typed
+## 22. Feedback Is Typed
 
 Feedback from execution does not automatically become knowledge or canon.
 
@@ -817,7 +817,7 @@ TRUTH
 
 ---
 
-# 23. Seven-Part Input/Output Contracts
+## 23. Seven-Part Input/Output Contracts
 
 | Part          | Receives                   | Produces                                    |
 | ------------- | -------------------------- | ------------------------------------------- |
@@ -831,7 +831,7 @@ TRUTH
 
 ---
 
-# 24. Cross-Cutting Substrates
+## 24. Cross-Cutting Substrates
 
 The seven-part universe depends on cross-cutting substrates.
 
@@ -851,7 +851,7 @@ They cross multiple parts.
 
 ---
 
-# 25. Provenance Substrate
+## 25. Provenance Substrate
 
 Provenance answers:
 
@@ -869,7 +869,7 @@ Provenance must survive transitions where material.
 
 ---
 
-# 26. State Substrate
+## 26. State Substrate
 
 State may include:
 
@@ -886,7 +886,7 @@ State class must not be silently changed.
 
 ---
 
-# 27. Security Substrate
+## 27. Security Substrate
 
 Security constrains all seven parts.
 
@@ -908,7 +908,7 @@ Security is not merely an execution concern.
 
 ---
 
-# 28. Observability Substrate
+## 28. Observability Substrate
 
 Observability may capture:
 
@@ -935,7 +935,7 @@ VALID_EXECUTION
 
 ---
 
-# 29. Schema Substrate
+## 29. Schema Substrate
 
 Schemas provide typed boundaries between parts.
 
@@ -960,7 +960,7 @@ TRUE
 
 ---
 
-# 30. Tests Substrate
+## 30. Tests Substrate
 
 Testing may evaluate:
 
@@ -981,7 +981,7 @@ Passing a bounded test suite does not establish universal correctness.
 
 ---
 
-# 31. Repository Mapping
+## 31. Repository Mapping
 
 The seven-part semantic model maps onto AMOS OS repository planes approximately rather than one-to-one.
 
@@ -1042,7 +1042,7 @@ DIRECTORY
 
 ---
 
-# 32. Canon / Universe Relationship
+## 32. Canon / Universe Relationship
 
 Canon constrains all seven parts.
 
@@ -1068,7 +1068,7 @@ COMPLETE SYSTEM
 
 ---
 
-# 33. H/M/L Recursion
+## 33. H/M/L Recursion
 
 Each universe part may recursively decompose.
 
@@ -1097,7 +1097,7 @@ The same fractal principle may apply to every part.
 
 ---
 
-# 34. Recursive Universe Law
+## 34. Recursive Universe Law
 
 A subsystem may itself contain a local seven-part universe.
 
@@ -1119,7 +1119,7 @@ It does not imply that every subsystem must instantiate seven physical modules.
 
 ---
 
-# 35. Atomic Multi-RSCF Reasoning
+## 35. Atomic Multi-RSCF Reasoning
 
 A decision may depend on multiple RSCFs:
 
@@ -1143,7 +1143,7 @@ FULL DECISION SUPPORT
 
 ---
 
-# 36. Provenance Independence
+## 36. Provenance Independence
 
 Multiple evidence objects do not imply multiple independent sources.
 
@@ -1168,7 +1168,7 @@ Independence must be demonstrated where load-bearing.
 
 ---
 
-# 37. Sybil Hardening
+## 37. Sybil Hardening
 
 The universe model must resist artificial confidence amplification through repeated descendants of one origin.
 
@@ -1190,7 +1190,7 @@ without evidence of independence.
 
 ---
 
-# 38. Freshness
+## 38. Freshness
 
 Evidence, knowledge, models, policy, and state may decay differently.
 
@@ -1208,7 +1208,7 @@ Each load-bearing dependency may require its own freshness bound.
 
 ---
 
-# 39. Regime Firewall
+## 39. Regime Firewall
 
 A conclusion valid under:
 
@@ -1236,7 +1236,7 @@ without invalidating unrelated historical evidence.
 
 ---
 
-# 40. Scope Firewall
+## 40. Scope Firewall
 
 Every consequential conclusion should inherit an applicability envelope.
 
@@ -1256,7 +1256,7 @@ No silent generalization is permitted outside the supported envelope.
 
 ---
 
-# 41. Confidence Ceiling
+## 41. Confidence Ceiling
 
 Derived confidence cannot exceed the weakest load-bearing premise unless independently revalidated.
 
@@ -1274,7 +1274,7 @@ subject to valid independent revalidation.
 
 ---
 
-# 42. Sensitivity
+## 42. Sensitivity
 
 For consequential conclusions, identify the smallest condition capable of changing the result.
 
@@ -1294,7 +1294,7 @@ CONDITIONAL
 
 ---
 
-# 43. Adaptive Complexity
+## 43. Adaptive Complexity
 
 The seven-part model supports adaptive reasoning depth.
 
@@ -1323,7 +1323,7 @@ AUTHORITY AMBIGUITY
 
 ---
 
-# 44. Fast Path
+## 44. Fast Path
 
 AMOS v4.4 allows the smallest sufficient proof scope.
 
@@ -1355,7 +1355,7 @@ WEAK
 
 ---
 
-# 45. Coordination Avoidance
+## 45. Coordination Avoidance
 
 If a decision is provably local:
 
@@ -1375,7 +1375,7 @@ Independence must be demonstrated rather than assumed.
 
 ---
 
-# 46. Causal Epoch Finality
+## 46. Causal Epoch Finality
 
 Execution completion is not automatically finality.
 
@@ -1395,7 +1395,7 @@ Material unresolved dependencies prevent finality.
 
 ---
 
-# 47. Failure Recovery
+## 47. Failure Recovery
 
 Failure recovery should be local where possible.
 
@@ -1421,7 +1421,7 @@ GLOBAL INVALIDATION
 
 ---
 
-# 48. Seven-Part Failure Taxonomy
+## 48. Seven-Part Failure Taxonomy
 
 | Part          | Representative failure             |
 | ------------- | ---------------------------------- |
@@ -1437,7 +1437,7 @@ Failure type determines recovery path.
 
 ---
 
-# 49. Gap Classes
+## 49. Gap Classes
 
 Gaps should be classified:
 
@@ -1462,7 +1462,7 @@ COSMETIC
 
 ---
 
-# 50. Universe Integrity Gate
+## 50. Universe Integrity Gate
 
 A seven-part flow may be treated as sufficiently governed only when its load-bearing transitions satisfy relevant gates.
 
@@ -1491,7 +1491,7 @@ VALIDATION + ANTI-REGRESSION + PROVENANCE
 
 ---
 
-# 51. Seven-Part Minimal Invariants
+## 51. Seven-Part Minimal Invariants
 
 ```text
 7U-001 REALITY != REPRESENTATION
@@ -1537,7 +1537,7 @@ VALIDATION + ANTI-REGRESSION + PROVENANCE
 
 ---
 
-# 52. Universe Transition Contract
+## 52. Universe Transition Contract
 
 A mature implementation may represent transitions as:
 
@@ -1575,7 +1575,7 @@ transition:
 
 ---
 
-# 53. Example — Evidence to Action
+## 53. Example — Evidence to Action
 
 ```text
 REALITY
@@ -1614,7 +1614,7 @@ VERIFIED CAUSE
 
 ---
 
-# 54. Example — Canon Evolution
+## 54. Example — Canon Evolution
 
 ```text
 EXISTING CANON
@@ -1646,7 +1646,7 @@ NEW CANON
 
 ---
 
-# 55. Seven-Part Universe and AMOS OS Planes
+## 55. Seven-Part Universe and AMOS OS Planes
 
 The seven-part universe answers:
 
@@ -1668,7 +1668,7 @@ may therefore form a matrix rather than a single hierarchy.
 
 ---
 
-# 56. Cognitive Matrix Relationship
+## 56. Cognitive Matrix Relationship
 
 The `25_COGNITIVE_MATRIX` may model cross-dimensional relationships among:
 
@@ -1694,7 +1694,7 @@ SEMANTIC IDENTITY
 
 ---
 
-# 57. AMOS v4.4 Alignment
+## 57. AMOS v4.4 Alignment
 
 The seven-part canon provides an organizing envelope for the AMOS evolution spine:
 
@@ -1734,7 +1734,7 @@ It does not independently prove that every mechanism is fully implemented in the
 
 ---
 
-# 58. RSCF Node
+## 58. RSCF Node
 
 ```yaml
 node_id: AMOS_7_PART_UNIVERSE_CANON
@@ -1795,7 +1795,7 @@ does_not_establish:
 
 ---
 
-# 59. Canon Status Boundary
+## 59. Canon Status Boundary
 
 The term **7-Part Universe** is treated here as an AMOS architectural model.
 
@@ -1821,7 +1821,7 @@ This distinction is mandatory.
 
 ---
 
-# 60. Promotion Gate
+## 60. Promotion Gate
 
 Promotion:
 
@@ -1866,7 +1866,7 @@ rather than being silently filled.
 
 ---
 
-# 61. Changelog
+## 61. Changelog
 
 ## v2.0.0 — 2026-08-25
 
@@ -1912,7 +1912,7 @@ Initial placeholder reserved the canonical AMOS OS location.
 
 ---
 
-# 62. Canonical Summary
+## 62. Canonical Summary
 
 ```text
 P1  REALITY
