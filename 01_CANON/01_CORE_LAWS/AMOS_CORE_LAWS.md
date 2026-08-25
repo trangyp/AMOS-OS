@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-CORE-LAWS
 name: AMOS_CORE_LAWS
@@ -116,7 +115,7 @@ WORKFLOWS
 MODELS
 TOOLS
 DOMAIN ADAPTERS
-````
+```
 
 A downstream component may specialize these laws.
 
@@ -2293,6 +2292,3 @@ UNKNOWN/GAP
 ---
 
 **Related:** [[00_ROOT/README.md|AMOS OS]] · [[00_ROOT/MOC.md|MOC]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/SYSTEM_MAP.md|System Map]] · [[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]] · [[00_ROOT/PLACEMENT_RULES.md|Placement Rules]] · [[01_CANON/README.md|AMOS Canon]] · [[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|Kernel Map]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|Control Plane Map]] · [[04_RUNTIME/00_INDEX/RUNTIME_MAP.md|Runtime Map]] · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP.md|Cognitive Organism Map]] · [[10_MEMORY/00_INDEX/MEMORY_MAP.md|Memory Map]] · [[11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture.md|AMOS Full Brain OS Architecture]] · [[12_STATE/00_INDEX/STATE_MAP.md|State Map]] · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_MAP.md|Observability Map]] · [[18_SECURITY/00_INDEX/SECURITY_MAP.md|Security Map]] · [[19_TESTS/00_INDEX/TEST_MAP.md|Tests]] · [[24_ARCHIVE/00_LEGACY/README.md|Archive]]
-
-```
-```

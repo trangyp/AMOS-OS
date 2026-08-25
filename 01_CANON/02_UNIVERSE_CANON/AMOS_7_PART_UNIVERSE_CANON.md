@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-7-PART-UNIVERSE-CANON
 name: AMOS_7_PART_UNIVERSE_CANON
@@ -111,7 +110,7 @@ EXECUTION
 ↓
 EVOLUTION
 ↺
-````
+```
 
 The architecture is recursive rather than strictly linear.
 
@@ -202,7 +201,7 @@ These distinctions are load-bearing.
 
 # 3. P1 — Reality / Environment
 
-## Definition
+## Definition (P1)
 
 `P1_REALITY` represents the target environment about which AMOS receives information or upon which an authorized system may act.
 
@@ -249,7 +248,7 @@ Inference remains inference.
 
 # 4. P2 — Sense / Evidence
 
-## Definition
+## Definition (P2)
 
 `P2_SENSE` converts available external or internal signals into typed evidence objects.
 
@@ -306,7 +305,7 @@ Evidence should retain material provenance.
 
 # 5. P3 — Knowledge / Memory
 
-## Definition
+## Definition (P3)
 
 `P3_KNOWLEDGE` organizes retained information into retrievable structures.
 
@@ -382,7 +381,7 @@ unless needed to resolve a load-bearing uncertainty.
 
 # 7. P4 — Cognition / Models
 
-## Definition
+## Definition (P4)
 
 `P4_COGNITION` performs reasoning over available evidence, knowledge, state, and models.
 
@@ -521,7 +520,7 @@ STRUCTURAL SIMILARITY != CAUSATION
 
 # 12. P5 — Governance / Authority
 
-## Definition
+## Definition (P5)
 
 `P5_GOVERNANCE` determines what may legitimately transition from proposal into authoritative decision or committed state.
 
@@ -589,7 +588,7 @@ AUTHORITY(SCOPE_B)
 
 # 15. P6 — Execution / Agency
 
-## Definition
+## Definition (P6)
 
 `P6_EXECUTION` performs authorized operations.
 
@@ -672,7 +671,7 @@ CAUSAL_FINALITY
 
 # 18. P7 — Evolution / Learning
 
-## Definition
+## Definition (P7)
 
 `P7_EVOLUTION` governs controlled change to the system's retained knowledge, models, policies, implementations, and canonical structures.
 
@@ -1987,6 +1986,3 @@ UNKNOWN/GAP != PASS
 ---
 
 **Related:** [[00_ROOT/README.md|AMOS OS]] · [[00_ROOT/MOC.md|MOC]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/SYSTEM_MAP.md|System Map]] · [[00_ROOT/NEURAL_NETWORK.md|AMOS Neural Network]] · [[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]] · [[00_ROOT/PLACEMENT_RULES.md|Placement Rules]] · [[01_CANON/README.md|AMOS Canon]] · [[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]] · [[01_CANON/AMOS_CORE_LAWS.md|AMOS Core Laws]] · [[01_CANON/INVARIANT_REGISTRY.md|Invariant Registry]] · [[01_CANON/LAW_HIERARCHY.md|Law Hierarchy]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|Kernel Map]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|Control Plane Map]] · [[04_RUNTIME/00_INDEX/RUNTIME_MAP.md|Runtime Map]] · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP.md|Cognitive Organism]] · [[06_AGENTS/00_INDEX/AGENT_MAP.md|Agents]] · [[07_SKILLS/00_INDEX/SKILL_MAP.md|Skills]] · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP.md|Workflows]] · [[10_MEMORY/00_INDEX/MEMORY_MAP.md|Memory]] · [[11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture.md|AMOS Full Brain OS Architecture]] · [[12_STATE/00_INDEX/STATE_MAP.md|State]] · [[13_MODELS/00_INDEX/MODEL_MAP.md|Models]] · [[14_TOOLS/00_INDEX/TOOL_MAP.md|Tools]] · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_MAP.md|Observability]] · [[18_SECURITY/00_INDEX/SECURITY_MAP.md|Security]] · [[19_TESTS/00_INDEX/TEST_MAP.md|Tests]] · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP.md|Operations]] · [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP.md|Domains]] · [[22_RESEARCH/00_INDEX/README.md|Research]] · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL.md|Operating Model]] · [[25_COGNITIVE_MATRIX/00_INDEX/ARCHITECTURE.md|Cognitive Matrix]]
-
-```
-```
