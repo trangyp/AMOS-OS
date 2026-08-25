@@ -1,0 +1,8 @@
+# macOS metadata
+.DS_Store
+
+# Nested Obsidian vaults should not be created inside this vault
+AMOS OS/
+
+# Bundled archives (keep source only)
+*.zip
