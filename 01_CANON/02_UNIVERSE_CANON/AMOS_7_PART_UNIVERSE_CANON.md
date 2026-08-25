@@ -201,7 +201,7 @@ These distinctions are load-bearing.
 
 # 3. P1 — Reality / Environment
 
-## Definition (P1)
+### Definition (P1)
 
 `P1_REALITY` represents the target environment about which AMOS receives information or upon which an authorized system may act.
 
@@ -228,7 +228,7 @@ INTERNAL_MODEL_OF_REALITY
 
 ---
 
-## Boundary
+### Boundary
 
 AMOS may have access only to observations of P1.
 
@@ -248,7 +248,7 @@ Inference remains inference.
 
 # 4. P2 — Sense / Evidence
 
-## Definition (P2)
+### Definition (P2)
 
 `P2_SENSE` converts available external or internal signals into typed evidence objects.
 
@@ -281,7 +281,7 @@ UNKNOWN
 
 ---
 
-## Evidence Firewall
+### Evidence Firewall
 
 Reception does not equal validation.
 
@@ -305,7 +305,7 @@ Evidence should retain material provenance.
 
 # 5. P3 — Knowledge / Memory
 
-## Definition (P3)
+### Definition (P3)
 
 `P3_KNOWLEDGE` organizes retained information into retrievable structures.
 
@@ -325,7 +325,7 @@ HISTORICAL STATE
 
 ---
 
-## Knowledge Firewall
+### Knowledge Firewall
 
 Persistence does not transform a claim into truth.
 
@@ -381,7 +381,7 @@ unless needed to resolve a load-bearing uncertainty.
 
 # 7. P4 — Cognition / Models
 
-## Definition (P4)
+### Definition (P4)
 
 `P4_COGNITION` performs reasoning over available evidence, knowledge, state, and models.
 
@@ -520,7 +520,7 @@ STRUCTURAL SIMILARITY != CAUSATION
 
 # 12. P5 — Governance / Authority
 
-## Definition (P5)
+### Definition (P5)
 
 `P5_GOVERNANCE` determines what may legitimately transition from proposal into authoritative decision or committed state.
 
@@ -588,7 +588,7 @@ AUTHORITY(SCOPE_B)
 
 # 15. P6 — Execution / Agency
 
-## Definition (P6)
+### Definition (P6)
 
 `P6_EXECUTION` performs authorized operations.
 
@@ -671,7 +671,7 @@ CAUSAL_FINALITY
 
 # 18. P7 — Evolution / Learning
 
-## Definition (P7)
+### Definition (P7)
 
 `P7_EVOLUTION` governs controlled change to the system's retained knowledge, models, policies, implementations, and canonical structures.
 
