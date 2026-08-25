@@ -10,6 +10,11 @@
 !.obsidian/plugins/
 .obsidian/plugins/3d-semantic-graph/data.json
 .obsidian/plugins/3d-semantic-graph/uploaded-vectors.json
+.obsidian/plugins/horme/data.json
+.obsidian/plugins/horme/chat-history.json
+
+# Horme exports and local index data
+Horme/
 
 # Nested Obsidian vaults should not be created inside this vault
 AMOS OS/
