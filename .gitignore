@@ -22,6 +22,7 @@ Horme/
 
 # Generated HTML memory graph (large, reproducible from /tmp/gen_memory_graph_html.py)
 00_ROOT/AMOS_MEMORY_GRAPH.html
+00_ROOT/index.html
 
 # Nested Obsidian vaults should not be created inside this vault
 AMOS OS/
