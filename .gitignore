@@ -32,3 +32,6 @@ AMOS OS/
 
 # Bundled archives (keep source only)
 *.zip
+
+# Linked Cosmo brain vault (symlink — do not track)
+11_KNOWLEDGE/Cosmo_Brain

@@ -1198,3 +1198,7 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 - `amos-multifractal-hurst-diagnostics` — Multifractal spectrum, Hurst
 - `amos-network-structure-diagnostics` — Scale-free, small-world, fractal
 - `amos-qcla-decoherence-bypass` — 4 logic types, DRA ethics
+
+## Linked Vault (symlink)
+
+`Cosmo_Brain` → `/Users/mac/Downloads/stitch_project_cosmo` — the live Obsidian brain vault, mounted read-through at `11_KNOWLEDGE/Cosmo_Brain`. Wikilinks inside resolve within the vault itself; navigate into the folder for the canonical canon notes (`md/7PT_*_CANON.md`), MOCs, and daily notes. Git-ignored (symlink, not content).
