@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "leaf-3d-graph",
-            "type": "leaf",
-            "state": {
-              "type": "semantic-graph-3d",
-              "state": {}
-            }
-          },
-          {
             "id": "leaf-neural-network",
             "type": "leaf",
             "state": {
@@ -45,24 +37,7 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "leaf-search",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "hidden": false,
-                "sortOrder": "alphabetical"
-              }
+              "state": {}
             }
           }
         ]
@@ -71,51 +46,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "right": {
-    "id": "right-split",
-    "type": "split",
-    "children": [
-      {
-        "id": "right-tabs",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "leaf-backlink",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "00_ROOT/NEURAL_NETWORK.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
-  },
-  "left-ribbon": {
-    "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "3d-semantic-graph:Open 3D Semantic Graph": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
-    }
-  },
+  "left-ribbon": {},
   "active": "leaf-neural-network",
   "lastOpenFiles": [
-    "00_ROOT/NEURAL_NETWORK.md",
-    "00_ROOT/README.md"
+    "00_ROOT/NEURAL_NETWORK.md"
   ]
 }
