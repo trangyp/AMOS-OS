@@ -8,7 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "leaf-readme",
+            "id": "leaf-graphene",
+            "type": "leaf",
+            "state": {
+              "type": "better-graph-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "leaf-graph",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "leaf-neural-network",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,7 +72,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "leaf-readme",
+  "active": "leaf-graphene",
   "lastOpenFiles": [
     "00_ROOT/NEURAL_NETWORK.md"
   ]
