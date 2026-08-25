@@ -139,7 +139,7 @@ related:
 
 ---
 
-# 0. Purpose
+## 0. Purpose
 
 This roadmap defines the governed maturation path for `AMOS_OS`.
 
@@ -194,7 +194,7 @@ Current verified implementation state belongs in:
 
 ---
 
-# 1. Governing Promotion Order
+## 1. Governing Promotion Order
 
 The root promotion sequence is:
 
@@ -242,7 +242,7 @@ It is not simply chronological project management.
 
 ---
 
-# 2. Core Promotion Law
+## 2. Core Promotion Law
 
 No AMOS artifact is promoted because:
 
@@ -279,7 +279,7 @@ PASS
 
 ---
 
-# 3. Artifact Lifecycle
+## 3. Artifact Lifecycle
 
 Canonical lifecycle:
 
@@ -320,7 +320,7 @@ SUPERSEDED
 
 ---
 
-# 4. Promotion Evidence Contract
+## 4. Promotion Evidence Contract
 
 Every roadmap item should eventually declare:
 
@@ -364,7 +364,7 @@ RoadmapItem:
 
 ---
 
-# 5. Priority Classes
+## 5. Priority Classes
 
 Roadmap work is prioritized as:
 
@@ -378,7 +378,7 @@ P4 — OPTIONAL / EXPERIMENTAL
 
 Meaning:
 
-## P0
+### P0
 
 Failure compromises:
 
@@ -392,25 +392,25 @@ security
 rollback
 ```
 
-## P1
+### P1
 
 Required for reliable runtime execution.
 
-## P2
+### P2
 
 Adds meaningful new capability.
 
-## P3
+### P3
 
 Improves performance, ergonomics, coverage, observability, or maintainability.
 
-## P4
+### P4
 
 Experimental or research work that does not block stable operation.
 
 ---
 
-# 6. Gap Classes
+## 6. Gap Classes
 
 Every gap should be classified:
 
@@ -437,13 +437,13 @@ Do not spend effort polishing presentation while load-bearing architecture remai
 
 ---
 
-# 7. Phase 0 — Root Structure
+## 7. Phase 0 — Root Structure
 
-## Objective
+### Objective
 
 Establish deterministic repository structure and ownership.
 
-### Required artifacts
+#### Required artifacts
 
 ```text
 00_ROOT/
@@ -460,7 +460,7 @@ Establish deterministic repository structure and ownership.
 └── SYSTEM_MAP.md
 ```
 
-### Acceptance criteria
+#### Acceptance criteria
 
 ```text
 all root responsibilities defined
@@ -472,7 +472,7 @@ roadmap present
 architecture linked
 ```
 
-### Conclusion class
+#### Conclusion class
 
 ```text
 AMOS_MODEL
@@ -482,9 +482,9 @@ until repository audit verifies implementation.
 
 ---
 
-# 8. Phase 1 — Canon Surface
+## 8. Phase 1 — Canon Surface
 
-## Objective
+### Objective
 
 Establish the minimum canon needed to constrain downstream implementation.
 
@@ -502,7 +502,7 @@ persistence
 failure/recovery
 ```
 
-### Gate
+#### Gate
 
 Canon promotion requires:
 
@@ -516,7 +516,7 @@ conflict check
 owner
 ```
 
-### Do not promote
+#### Do not promote
 
 ```text
 research hypothesis
@@ -529,9 +529,9 @@ directly into active canon.
 
 ---
 
-# 9. Phase 2 — Kernel Contracts
+## 9. Phase 2 — Kernel Contracts
 
-## Objective
+### Objective
 
 Implement deterministic primitives required by higher layers.
 
@@ -551,7 +551,7 @@ K_SCOPE_REGIME
 K_FRESHNESS
 ```
 
-### Gate
+#### Gate
 
 Each kernel primitive must define:
 
@@ -566,9 +566,9 @@ tests
 
 ---
 
-# 10. Phase 3 — Identity and Versioning
+## 10. Phase 3 — Identity and Versioning
 
-## Objective
+### Objective
 
 Ensure every persistent artifact can survive rename, migration, and evolution.
 
@@ -586,7 +586,7 @@ VERSION_IDENTITY
 RUNTIME_INSTANCE
 ```
 
-### Deliverables
+#### Deliverables
 
 ```text
 artifact identity contract
@@ -597,15 +597,15 @@ migration manifest
 archive lineage rules
 ```
 
-### Gate
+#### Gate
 
 No major migration proceeds while identity is ambiguous.
 
 ---
 
-# 11. Phase 4 — Dependency Map
+## 11. Phase 4 — Dependency Map
 
-## Objective
+### Objective
 
 Build explicit dependency topology.
 
@@ -622,7 +622,7 @@ PRODUCES
 CONSUMES
 ```
 
-### Required checks
+#### Required checks
 
 ```text
 cycle detection
@@ -634,7 +634,7 @@ regime mismatch
 optional vs required distinction
 ```
 
-### Promotion condition
+#### Promotion condition
 
 ```text
 DependencyClosure(component)
@@ -646,9 +646,9 @@ for load-bearing paths.
 
 ---
 
-# 12. Phase 5 — Provenance
+## 12. Phase 5 — Provenance
 
-## Objective
+### Objective
 
 Make consequential state and knowledge traceable.
 
@@ -675,7 +675,7 @@ Provenance:
   integrity:
 ```
 
-### Required properties
+#### Required properties
 
 ```text
 source identity
@@ -687,7 +687,7 @@ regime
 correlation risk
 ```
 
-### Hard rule
+#### Hard rule
 
 ```text
 MULTIPLE COPIES
@@ -697,9 +697,9 @@ INDEPENDENT SOURCES
 
 ---
 
-# 13. Phase 6 — RSCF Integration
+## 13. Phase 6 — RSCF Integration
 
-## Objective
+### Objective
 
 Represent important reasoning as recoverable claim structures.
 
@@ -731,7 +731,7 @@ RSCF:
   confidence_ceiling:
 ```
 
-### Gate
+#### Gate
 
 Invalidation must be selective:
 
@@ -751,9 +751,9 @@ GlobalReset
 
 ---
 
-# 14. Phase 7 — Authority Plane
+## 14. Phase 7 — Authority Plane
 
-## Objective
+### Objective
 
 Separate capability from authority.
 
@@ -780,7 +780,7 @@ Authority:
   provenance:
 ```
 
-### Hard laws
+#### Hard laws
 
 ```text
 CAPABILITY != AUTHORITY
@@ -794,9 +794,9 @@ MEMORY != CURRENT AUTHORITY
 
 ---
 
-# 15. Phase 8 — Commit Governance
+## 15. Phase 8 — Commit Governance
 
-## Objective
+### Objective
 
 Prevent proposals from silently becoming effects.
 
@@ -830,9 +830,9 @@ COMMIT
 
 ---
 
-# 16. Phase 9 — State Architecture
+## 16. Phase 9 — State Architecture
 
-## Objective
+### Objective
 
 Define current authoritative, working, pending, shadow, and recovery state.
 
@@ -872,9 +872,9 @@ StateEnvelope:
 
 ---
 
-# 17. Phase 10 — Concurrency / State Finality
+## 17. Phase 10 — Concurrency / State Finality
 
-## Objective
+### Objective
 
 Introduce explicit state-version checks where concurrent state matters.
 
@@ -904,9 +904,9 @@ These remain implementation-scoped concepts until runtime evidence confirms supp
 
 ---
 
-# 18. Phase 11 — Runtime Wiring
+## 18. Phase 11 — Runtime Wiring
 
-## Objective
+### Objective
 
 Connect kernel, control plane, state, and runtime.
 
@@ -932,7 +932,7 @@ AUTHORITY CHECK
 COMMIT / RETURN
 ```
 
-### Required runtime capabilities
+#### Required runtime capabilities
 
 ```text
 session state
@@ -947,7 +947,7 @@ recovery state
 
 ---
 
-# 19. Phase 12 — Runtime Lifecycle
+## 19. Phase 12 — Runtime Lifecycle
 
 Standard lifecycle:
 
@@ -980,7 +980,7 @@ QUARANTINED
 TERMINATED
 ```
 
-### Gate
+#### Gate
 
 No runtime may collapse materially different states into generic:
 
@@ -993,9 +993,9 @@ when the distinction affects recovery or authority.
 
 ---
 
-# 20. Phase 13 — Cognitive Organism
+## 20. Phase 13 — Cognitive Organism
 
-## Objective
+### Objective
 
 Establish the cognitive integration layer.
 
@@ -1014,7 +1014,7 @@ mode interface
 expression
 ```
 
-### Gate
+#### Gate
 
 Cognitive-model terminology must remain distinct from empirical claims of:
 
@@ -1028,9 +1028,9 @@ unless independently established.
 
 ---
 
-# 21. Phase 14 — Live Cognition Field
+## 21. Phase 14 — Live Cognition Field
 
-## Objective
+### Objective
 
 Promote the cognition field from static architecture to executable state.
 
@@ -1070,9 +1070,9 @@ reset behavior
 
 ---
 
-# 22. Phase 15 — Mode System
+## 22. Phase 15 — Mode System
 
-## Objective
+### Objective
 
 Make declared mode families structurally complete before implementing deep mode logic.
 
@@ -1091,7 +1091,7 @@ ACTIVATION_RULES.md
 PROVENANCE.md
 ```
 
-### Gate
+#### Gate
 
 ```text
 FOLDER EXISTS
@@ -1111,7 +1111,7 @@ Unknown children remain `UNKNOWN/GAP`.
 
 ---
 
-# 23. Phase 16 — Reasoning Modes
+## 23. Phase 16 — Reasoning Modes
 
 Initial high-value modes:
 
@@ -1141,7 +1141,7 @@ FINALIZATION
 
 ---
 
-# 24. Phase 17 — Epistemic Modes
+## 24. Phase 17 — Epistemic Modes
 
 Candidate functions:
 
@@ -1158,9 +1158,9 @@ Do not invent canonical child mode names until source-backed or formally admitte
 
 ---
 
-# 25. Phase 18 — Agents
+## 25. Phase 18 — Agents
 
-## Objective
+### Objective
 
 Promote registered shells into real scoped workers.
 
@@ -1188,7 +1188,7 @@ ACTIVE
 
 ---
 
-# 26. Phase 19 — Agent Contract Completion
+## 26. Phase 19 — Agent Contract Completion
 
 Every active agent must declare:
 
@@ -1213,9 +1213,9 @@ Missing load-bearing fields block promotion.
 
 ---
 
-# 27. Phase 20 — Skills
+## 27. Phase 20 — Skills
 
-## Objective
+### Objective
 
 Externalize reusable procedures from agent prompts or ad hoc runtime logic.
 
@@ -1245,9 +1245,9 @@ pitfalls
 
 ---
 
-# 28. Phase 21 — Workflows
+## 28. Phase 21 — Workflows
 
-## Objective
+### Objective
 
 Externalize repeatable multi-step orchestration.
 
@@ -1270,9 +1270,9 @@ Do not bury long cross-system workflows inside one agent implementation.
 
 ---
 
-# 29. Phase 22 — Protocols
+## 29. Phase 22 — Protocols
 
-## Objective
+### Objective
 
 Define reliable interaction between independently owned components.
 
@@ -1291,9 +1291,9 @@ provenance propagation
 
 ---
 
-# 30. Phase 23 — Memory Architecture
+## 30. Phase 23 — Memory Architecture
 
-## Objective
+### Objective
 
 Separate memory classes.
 
@@ -1317,9 +1317,9 @@ VALIDATED
 
 ---
 
-# 31. Phase 24 — Knowledge Architecture
+## 31. Phase 24 — Knowledge Architecture
 
-## Objective
+### Objective
 
 Convert evidence into governed reusable knowledge.
 
@@ -1343,9 +1343,9 @@ VALIDATED KNOWLEDGE
 
 ---
 
-# 32. Phase 25 — Model Registry
+## 32. Phase 25 — Model Registry
 
-## Objective
+### Objective
 
 Make models explicit and versioned.
 
@@ -1381,9 +1381,9 @@ RETIRED
 
 ---
 
-# 33. Phase 26 — Tool Registry
+## 33. Phase 26 — Tool Registry
 
-## Objective
+### Objective
 
 Separate tool capability from agent authority.
 
@@ -1414,7 +1414,7 @@ TOOL AUTHORIZED
 
 ---
 
-# 34. Phase 27 — Interface Contracts
+## 34. Phase 27 — Interface Contracts
 
 Priority interfaces:
 
@@ -1433,9 +1433,9 @@ Every stable interface must be schema-backed or otherwise explicitly typed.
 
 ---
 
-# 35. Phase 28 — Schemas
+## 35. Phase 28 — Schemas
 
-## Objective
+### Objective
 
 Standardize typed system objects.
 
@@ -1456,9 +1456,9 @@ PROVENANCE_SCHEMA
 
 ---
 
-# 36. Phase 29 — Observability
+## 36. Phase 29 — Observability
 
-## Objective
+### Objective
 
 Make runtime behavior inspectable.
 
@@ -1487,7 +1487,7 @@ Observability enables validation; it does not replace it.
 
 ---
 
-# 37. Phase 30 — Security Hardening
+## 37. Phase 30 — Security Hardening
 
 Priority controls:
 
@@ -1503,13 +1503,13 @@ supply-chain integrity
 provenance integrity
 ```
 
-### Gate
+#### Gate
 
 High-impact tools cannot rely on agent self-declared authority.
 
 ---
 
-# 38. Phase 31 — Tests
+## 38. Phase 31 — Tests
 
 Testing ladder:
 
@@ -1541,7 +1541,7 @@ UNIVERSAL PROOF
 
 ---
 
-# 39. Phase 32 — Determinism Tests
+## 39. Phase 32 — Determinism Tests
 
 Where deterministic behavior is claimed, verify:
 
@@ -1559,7 +1559,7 @@ If environmental dependency makes this impossible, determinism scope must be nar
 
 ---
 
-# 40. Phase 33 — Replay Tests
+## 40. Phase 33 — Replay Tests
 
 For replayable subsystems:
 
@@ -1579,7 +1579,7 @@ Replay mismatch becomes a first-class failure.
 
 ---
 
-# 41. Phase 34 — Failure Injection
+## 41. Phase 34 — Failure Injection
 
 Test:
 
@@ -1600,9 +1600,9 @@ A system is not mature merely because happy-path tests pass.
 
 ---
 
-# 42. Phase 35 — Recovery
+## 42. Phase 35 — Recovery
 
-## Objective
+### Objective
 
 Build local repair paths.
 
@@ -1637,7 +1637,7 @@ PROVENANCE-PRESERVING
 
 ---
 
-# 43. Phase 36 — `IN_DOUBT`
+## 43. Phase 36 — `IN_DOUBT`
 
 Explicitly support:
 
@@ -1661,7 +1661,7 @@ FAILURE
 
 ---
 
-# 44. Phase 37 — Rollback
+## 44. Phase 37 — Rollback
 
 Every consequential mutable subsystem should eventually define:
 
@@ -1678,7 +1678,7 @@ If rollback is impossible, classify the action as irreversible or compensatable.
 
 ---
 
-# 45. Phase 38 — Reversibility Classification
+## 45. Phase 38 — Reversibility Classification
 
 Every effectful operation should declare:
 
@@ -1694,9 +1694,9 @@ High-impact + unknown reversibility blocks autonomous commit.
 
 ---
 
-# 46. Phase 39 — Freshness
+## 46. Phase 39 — Freshness
 
-## Objective
+### Objective
 
 Make temporal validity explicit.
 
@@ -1715,7 +1715,7 @@ A stale load-bearing premise requires revalidation before high-impact reuse.
 
 ---
 
-# 47. Phase 40 — Regime Handling
+## 47. Phase 40 — Regime Handling
 
 Important models and claims should define regime boundaries.
 
@@ -1736,9 +1736,9 @@ A regime transition should invalidate dependent conclusions when validity condit
 
 ---
 
-# 48. Phase 41 — Competing Hypotheses
+## 48. Phase 41 — Competing Hypotheses
 
-## Objective
+### Objective
 
 Prevent premature convergence.
 
@@ -1765,7 +1765,7 @@ not forced winner selection.
 
 ---
 
-# 49. Phase 42 — Causal Firewall
+## 49. Phase 42 — Causal Firewall
 
 For consequential causal claims, classify evidence as:
 
@@ -1785,7 +1785,7 @@ Do not convert sequence, resemblance, or co-occurrence into causation.
 
 ---
 
-# 50. Phase 43 — Sensitivity
+## 50. Phase 43 — Sensitivity
 
 For consequential conclusions identify:
 
@@ -1802,7 +1802,7 @@ Test that first.
 
 ---
 
-# 51. Phase 44 — Adversarial Validation
+## 51. Phase 44 — Adversarial Validation
 
 Challenge strong conclusions through a genuinely different route.
 
@@ -1832,7 +1832,7 @@ UNKNOWN/GAP
 
 ---
 
-# 52. Phase 45 — Calibration
+## 52. Phase 45 — Calibration
 
 Models producing predictions, estimates, or classifications need outcome feedback.
 
@@ -1865,7 +1865,7 @@ confidence calibration
 
 ---
 
-# 53. Phase 46 — Negative Memory
+## 53. Phase 46 — Negative Memory
 
 Store validated failure knowledge.
 
@@ -1883,7 +1883,7 @@ Negative knowledge must be scoped and freshness-bounded.
 
 ---
 
-# 54. Phase 47 — Domain Integration
+## 54. Phase 47 — Domain Integration
 
 Domain integrations should be added after core contracts stabilize.
 
@@ -1905,7 +1905,7 @@ Do not duplicate core mechanisms per domain.
 
 ---
 
-# 55. Phase 48 — Domain-to-Core Promotion
+## 55. Phase 48 — Domain-to-Core Promotion
 
 A domain mechanism may move into core only when:
 
@@ -1922,7 +1922,7 @@ Domain success alone is insufficient.
 
 ---
 
-# 56. Phase 49 — Research Integration
+## 56. Phase 49 — Research Integration
 
 Research should remain structurally isolated from active canon.
 
@@ -1948,7 +1948,7 @@ OPTIONAL CANON PROMOTION
 
 ---
 
-# 57. Phase 50 — Archive / Supersession
+## 57. Phase 50 — Archive / Supersession
 
 Every superseded artifact should retain:
 
@@ -1973,9 +1973,9 @@ DELETE
 
 ---
 
-# 58. Phase 51 — Cognitive Matrix
+## 58. Phase 51 — Cognitive Matrix
 
-## Objective
+### Objective
 
 Build explicit cross-cognitive relation topology without duplicating source-of-truth artifacts.
 
@@ -2001,7 +2001,7 @@ SECOND AUTHORITY SOURCE
 
 ---
 
-# 59. Phase 52 — Neural Network Graph Health
+## 59. Phase 52 — Neural Network Graph Health
 
 Vault graph health checks:
 
@@ -2022,7 +2022,7 @@ It is not proof of implementation or truth.
 
 ---
 
-# 60. Phase 53 — Operating Model
+## 60. Phase 53 — Operating Model
 
 Define human stewardship:
 
@@ -2041,7 +2041,7 @@ Machine authority and organizational authority remain distinct.
 
 ---
 
-# 61. Phase 54 — Release Governance
+## 61. Phase 54 — Release Governance
 
 Release contract:
 
@@ -2070,7 +2070,7 @@ Release:
 
 ---
 
-# 62. Phase 55 — Migration Governance
+## 62. Phase 55 — Migration Governance
 
 Migration sequence:
 
@@ -2096,7 +2096,7 @@ No destructive bulk migration without rollback path.
 
 ---
 
-# 63. Phase 56 — Full Repository Audit
+## 63. Phase 56 — Full Repository Audit
 
 Audit:
 
@@ -2131,7 +2131,7 @@ RepositoryAudit:
 
 ---
 
-# 64. Phase 57 — Authoritative State Automation
+## 64. Phase 57 — Authoritative State Automation
 
 Eventually, `AUTHORITATIVE_STATE.md` should be generated or reconciled against actual repository/runtime evidence.
 
@@ -2151,7 +2151,7 @@ Automation must not promote unknowns to success.
 
 ---
 
-# 65. Phase 58 — Dependency Closure Automation
+## 65. Phase 58 — Dependency Closure Automation
 
 Add tooling to verify:
 
@@ -2175,7 +2175,7 @@ UNKNOWN/GAP
 
 ---
 
-# 66. Phase 59 — Provenance Independence Analysis
+## 66. Phase 59 — Provenance Independence Analysis
 
 Build detection for:
 
@@ -2197,7 +2197,7 @@ rather than assuming it.
 
 ---
 
-# 67. Phase 60 — v4.4 Fast Path
+## 67. Phase 60 — v4.4 Fast Path
 
 Implement proof-based coordination avoidance where safe.
 
@@ -2224,7 +2224,7 @@ SKIP VALIDATION
 
 ---
 
-# 68. Phase 61 — Performance Optimization
+## 68. Phase 61 — Performance Optimization
 
 Only after integrity path is stable.
 
@@ -2245,7 +2245,7 @@ Optimization is accepted only if integrity remains equal or stronger.
 
 ---
 
-# 69. Phase 62 — Proof Capsule Cache
+## 69. Phase 62 — Proof Capsule Cache
 
 Reusable conclusions may be cached with:
 
@@ -2264,7 +2264,7 @@ Reuse allowed only while all validity conditions remain intact.
 
 ---
 
-# 70. Phase 63 — Selective Invalidation Engine
+## 70. Phase 63 — Selective Invalidation Engine
 
 When a premise changes:
 
@@ -2290,7 +2290,7 @@ where correctness is preserved.
 
 ---
 
-# 71. Phase 64 — Operational Maturity
+## 71. Phase 64 — Operational Maturity
 
 A subsystem reaches operational maturity only when:
 
@@ -2310,7 +2310,7 @@ authority bounded
 
 ---
 
-# 72. Phase 65 — Validated Operation
+## 72. Phase 65 — Validated Operation
 
 `VALIDATED_FOR_SCOPE` requires explicit scope.
 
@@ -2342,7 +2342,7 @@ when scope matters.
 
 ---
 
-# 73. Phase 66 — Production Readiness
+## 73. Phase 66 — Production Readiness
 
 Possible production gate:
 
@@ -2372,7 +2372,7 @@ Production status must still be bounded by the actual deployment environment.
 
 ---
 
-# 74. Phase 67 — Continuous Revalidation
+## 74. Phase 67 — Continuous Revalidation
 
 Active components should be revalidated when:
 
@@ -2391,7 +2391,7 @@ Validation is not permanent.
 
 ---
 
-# 75. Cross-Plane Dependencies
+## 75. Cross-Plane Dependencies
 
 High-level dependency spine:
 
@@ -2430,7 +2430,7 @@ OPERATIONS
 
 ---
 
-# 76. Critical Dependency Order
+## 76. Critical Dependency Order
 
 Before effectful runtime promotion:
 
@@ -2460,7 +2460,7 @@ Missing a load-bearing upstream dependency blocks downstream promotion.
 
 ---
 
-# 77. Promotion Gate Formula
+## 77. Promotion Gate Formula
 
 Conceptually:
 
@@ -2488,7 +2488,7 @@ For effectful components additionally:
 
 ---
 
-# 78. Promotion Blockers
+## 78. Promotion Blockers
 
 Automatic blockers:
 
@@ -2507,7 +2507,7 @@ critical stale evidence
 
 ---
 
-# 79. Conditional Promotion
+## 79. Conditional Promotion
 
 `CONDITIONAL` promotion may be allowed when:
 
@@ -2528,7 +2528,7 @@ while write capability remains blocked.
 
 ---
 
-# 80. No-Op / Read-Only First
+## 80. No-Op / Read-Only First
 
 New capabilities should prefer:
 
@@ -2552,7 +2552,7 @@ This minimizes irreversible risk during early promotion.
 
 ---
 
-# 81. Authority Escalation Ladder
+## 81. Authority Escalation Ladder
 
 ```text
 OBSERVE
@@ -2572,7 +2572,7 @@ Each step requires stronger validation and narrower authority.
 
 ---
 
-# 82. Adaptive Complexity Roadmap
+## 82. Adaptive Complexity Roadmap
 
 Reasoning levels:
 
@@ -2599,7 +2599,7 @@ governance impact
 
 ---
 
-# 83. Roadmap Stop Conditions
+## 83. Roadmap Stop Conditions
 
 Roadmap work on a component should stop for the current release when:
 
@@ -2617,7 +2617,7 @@ Do not overbuild non-decision-relevant infrastructure.
 
 ---
 
-# 84. Roadmap Anti-Patterns
+## 84. Roadmap Anti-Patterns
 
 Avoid:
 
@@ -2636,7 +2636,7 @@ rewrite history during migration
 
 ---
 
-# 85. Anti-Regression Gate
+## 85. Anti-Regression Gate
 
 Every optimization or refactor must preserve or improve:
 
@@ -2660,7 +2660,7 @@ ROLL BACK
 
 ---
 
-# 86. Roadmap Metrics
+## 86. Roadmap Metrics
 
 Useful implementation metrics:
 
@@ -2687,7 +2687,7 @@ They are not measures of intelligence or truth.
 
 ---
 
-# 87. Coverage Firewall
+## 87. Coverage Firewall
 
 ```text
 100% FILE COVERAGE
@@ -2709,9 +2709,9 @@ EMPIRICAL VALIDATION
 
 ---
 
-# 88. Release Milestones
+## 88. Release Milestones
 
-## Milestone A — Structural Integrity
+### Milestone A — Structural Integrity
 
 ```text
 root maps complete
@@ -2720,7 +2720,7 @@ naming standard active
 major placeholders present
 ```
 
-## Milestone B — Contract Integrity
+### Milestone B — Contract Integrity
 
 ```text
 schemas
@@ -2730,7 +2730,7 @@ identity
 versions
 ```
 
-## Milestone C — Governance Integrity
+### Milestone C — Governance Integrity
 
 ```text
 provenance
@@ -2739,7 +2739,7 @@ state
 commit semantics
 ```
 
-## Milestone D — Runtime Integrity
+### Milestone D — Runtime Integrity
 
 ```text
 runtime wiring
@@ -2748,7 +2748,7 @@ agent integration
 mode integration
 ```
 
-## Milestone E — Verification Integrity
+### Milestone E — Verification Integrity
 
 ```text
 tests
@@ -2758,7 +2758,7 @@ failure injection
 recovery
 ```
 
-## Milestone F — Operational Integrity
+### Milestone F — Operational Integrity
 
 ```text
 migration
@@ -2770,7 +2770,7 @@ validated operation
 
 ---
 
-# 89. Maturity Levels
+## 89. Maturity Levels
 
 ```text
 L0 — STRUCTURE ONLY
@@ -2787,7 +2787,7 @@ No maturity level should be inferred from folder naming.
 
 ---
 
-# 90. Current Roadmap State
+## 90. Current Roadmap State
 
 At roadmap level:
 
@@ -2819,7 +2819,7 @@ These require direct audit evidence.
 
 ---
 
-# 91. Roadmap and Authoritative State
+## 91. Roadmap and Authoritative State
 
 This file expresses:
 
@@ -2843,7 +2843,7 @@ ACTUAL STATE
 
 ---
 
-# 92. Roadmap and Full Tree
+## 92. Roadmap and Full Tree
 
 `FULL_TREE.md` answers:
 
@@ -2861,7 +2861,7 @@ A complete tree is only the beginning of implementation maturity.
 
 ---
 
-# 93. Roadmap and Dependency Map
+## 93. Roadmap and Dependency Map
 
 `DEPENDENCY_MAP.md` is load-bearing for phase ordering.
 
@@ -2877,7 +2877,7 @@ Therefore phase order is governed by dependencies, not fixed aesthetics.
 
 ---
 
-# 94. Roadmap and Research
+## 94. Roadmap and Research
 
 Research should not block core stabilization unless it is load-bearing.
 
@@ -2899,7 +2899,7 @@ ALL RESEARCH COMPLETE
 
 ---
 
-# 95. Roadmap and Archive
+## 95. Roadmap and Archive
 
 Every major promotion should preserve prior stable state where practical.
 
@@ -2919,7 +2919,7 @@ This supports rollback and lineage reconstruction.
 
 ---
 
-# 96. 7-Part Roadmap Mapping
+## 96. 7-Part Roadmap Mapping
 
 | Part              | Roadmap interpretation                         |
 | ----------------- | ---------------------------------------------- |
@@ -2935,7 +2935,7 @@ This supports rollback and lineage reconstruction.
 
 ---
 
-# 97. Roadmap Invariants
+## 97. Roadmap Invariants
 
 ```text
 RM01 ROADMAP != AUTHORITATIVE STATE
@@ -2967,7 +2967,7 @@ RM25 CRITICAL GAPS BLOCK PROMOTION
 
 ---
 
-# 98. Failure Registry
+## 98. Failure Registry
 
 ```text
 RM-F001 PLACEHOLDER_PROMOTED_AS_COMPLETE
@@ -2999,7 +2999,7 @@ RM-F025 FULL_REBUILD_USED_WHEN_LOCAL_REPAIR_SUFFICIENT
 
 ---
 
-# 99. Roadmap Item Template
+## 99. Roadmap Item Template
 
 ```yaml
 roadmap_id: RM-XXX
@@ -3066,7 +3066,7 @@ promotion_decision:
 
 ---
 
-# 100. Near-Term Priority Queue
+## 100. Near-Term Priority Queue
 
 Recommended dependency-safe near-term order:
 
@@ -3110,7 +3110,7 @@ P2.7 CALIBRATION
 
 ---
 
-# 101. Do Not Skip Ahead Gate
+## 101. Do Not Skip Ahead Gate
 
 The roadmap intentionally prevents this pattern:
 
@@ -3139,7 +3139,7 @@ Capability expansion without governance creates architectural debt.
 
 ---
 
-# 102. Validation Sufficiency
+## 102. Validation Sufficiency
 
 A roadmap item is ready to close only when:
 
@@ -3157,7 +3157,7 @@ No requirement exists to solve unrelated future architecture before closing a bo
 
 ---
 
-# 103. Unresolved Gaps
+## 103. Unresolved Gaps
 
 The following remain repository/runtime audit questions until independently checked:
 
@@ -3191,7 +3191,7 @@ UNKNOWN/GAP
 
 ---
 
-# 104. Master RSCF Node
+## 104. Master RSCF Node
 
 ```yaml
 node_id: AMOS_OS_ROADMAP
@@ -3270,9 +3270,9 @@ confidence_ceiling:
 
 ---
 
-# 105. Changelog
+## 105. Changelog
 
-## v2.0.0 — 2026-08-25
+### v2.0.0 — 2026-08-25
 
 Expanded the placeholder into the governed AMOS OS implementation and promotion roadmap.
 
@@ -3322,7 +3322,7 @@ Added:
 * dependency-safe near-term priority queue;
 * master RSCF node.
 
-## v1.0.0 — 2026-08-25
+### v1.0.0 — 2026-08-25
 
 Initial placeholder defined:
 
@@ -3351,7 +3351,7 @@ conclusion class
 
 ---
 
-# 106. Final Roadmap Law
+## 106. Final Roadmap Law
 
 The roadmap compresses to:
 

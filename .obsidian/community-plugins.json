@@ -1,3 +1,7 @@
-[
-  "graphene"
-]
+{
+  "0.15.9-installedCommunityPlugins": [
+    "horme",
+    "obsidian-graphene",
+    "3d-semantic-graph"
+  ]
+}

@@ -5,27 +5,23 @@
 .devin/
 .devin copy/
 
-# Obsidian UI state (regenerated locally; only plugin code and base config are tracked)
+# Obsidian base config is tracked; generated UI state, plugins, and embeddings are not
 .obsidian/*
-!.obsidian/plugins/
 !.obsidian/app.json
 !.obsidian/appearance.json
 !.obsidian/community-plugins.json
-!.obsidian/core-plugins.json
 !.obsidian/core-plugins-migration.json
+!.obsidian/core-plugins.json
 !.obsidian/graph.json
 !.obsidian/hotkeys.json
 !.obsidian/workspace.json
-.obsidian/plugins/3d-semantic-graph/data.json
-.obsidian/plugins/3d-semantic-graph/uploaded-vectors.json
-.obsidian/plugins/horme/data.json
-.obsidian/plugins/horme/chat-history.json
+.obsidian/plugins/
 
 # Horme exports and local index data
 Horme/
 
-# Graphene semantic graph local embeddings and settings
-.obsidian/plugins/obsidian-graphene/data.json
+# Generated HTML memory graph (large, reproducible from /tmp/gen_memory_graph_html.py)
+00_ROOT/AMOS_MEMORY_GRAPH.html
 
 # Nested Obsidian vaults should not be created inside this vault
 AMOS OS/

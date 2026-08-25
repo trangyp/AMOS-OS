@@ -1,8 +1,6 @@
 {
-  "accentColor": "",
-  "theme": "obsidian",
-  "baseFontSize": 16,
-  "interfaceFontFamily": "",
-  "textFontFamily": "",
-  "monospaceFontFamily": ""
+  "cssTheme": "",
+  "baseColorScheme": "dark",
+  "translucency": false,
+  "accentColor": "#2ca02c"
 }

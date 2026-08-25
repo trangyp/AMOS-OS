@@ -92,7 +92,7 @@ related:
 
 ---
 
-# 0. Purpose
+## 0. Purpose
 
 `CANON_MAP.md` defines the structural map of the AMOS OS canon plane.
 
@@ -132,7 +132,7 @@ Canonical status requires explicit provenance and governance state.
 
 ---
 
-# 1. Canon Plane Role
+## 1. Canon Plane Role
 
 `01_CANON` is the authoritative-definition plane of AMOS OS.
 
@@ -169,7 +169,7 @@ Canon does not execute runtime behavior.
 
 ---
 
-# 2. Canon Authority Boundary
+## 2. Canon Authority Boundary
 
 The canon plane establishes authoritative system definitions.
 
@@ -197,7 +197,7 @@ CANON != EMPIRICAL PROOF
 
 ---
 
-# 3. Canonical Authority Model
+## 3. Canonical Authority Model
 
 A useful authority topology is:
 
@@ -247,7 +247,7 @@ CANON
 
 ---
 
-# 4. Canon Conclusion Classes
+## 4. Canon Conclusion Classes
 
 AMOS canonical material should preserve epistemic typing.
 
@@ -278,7 +278,7 @@ VERIFIED EMPIRICAL CLAIM
 
 ---
 
-# 5. Evidence Types
+## 5. Evidence Types
 
 Evidence associated with canonical claims should distinguish:
 
@@ -315,7 +315,7 @@ It does not automatically establish causation.
 
 ---
 
-# 6. Canonical Provenance
+## 6. Canonical Provenance
 
 Consequential canonical claims should retain sufficient provenance to reconstruct their lineage.
 
@@ -341,7 +341,7 @@ Where hashes or revision IDs exist, they may be retained as lineage anchors.
 
 ---
 
-# 7. Provenance Topology
+## 7. Provenance Topology
 
 Multiple references do not necessarily mean multiple independent sources.
 
@@ -374,7 +374,7 @@ INDEPENDENCE
 
 ---
 
-# 8. Canonical Independence
+## 8. Canonical Independence
 
 Independent corroboration should be demonstrated rather than assumed.
 
@@ -399,7 +399,7 @@ UNKNOWN/GAP
 
 ---
 
-# 9. Canon Dependency Model
+## 9. Canon Dependency Model
 
 Canonical artifacts may depend on other canonical artifacts.
 
@@ -433,7 +433,7 @@ This preserves unaffected canonical work.
 
 ---
 
-# 10. Dependency Closure
+## 10. Dependency Closure
 
 A consequential canonical conclusion should not be treated as locally stable unless its load-bearing dependency closure is understood.
 
@@ -455,7 +455,7 @@ Do not recursively load unrelated canon merely because it exists.
 
 ---
 
-# 11. Confidence Ceiling
+## 11. Confidence Ceiling
 
 Derived confidence cannot exceed the weakest load-bearing premise unless that dependency has been independently revalidated.
 
@@ -478,7 +478,7 @@ This prevents downstream certainty inflation.
 
 ---
 
-# 12. Scope Firewall
+## 12. Scope Firewall
 
 Canonical claims should preserve their applicability envelope where material.
 
@@ -505,7 +505,7 @@ VALID_IN_ALL_SCOPES
 
 ---
 
-# 13. Regime Firewall
+## 13. Regime Firewall
 
 Claims may depend on an operating regime.
 
@@ -535,7 +535,7 @@ unless regime compatibility remains established.
 
 ---
 
-# 14. Freshness Boundary
+## 14. Freshness Boundary
 
 Canonical definitions may remain stable while empirical premises become stale.
 
@@ -555,7 +555,7 @@ A stale load-bearing premise should trigger revalidation where the conclusion de
 
 ---
 
-# 15. Causal Firewall
+## 15. Causal Firewall
 
 Canon must preserve distinctions between:
 
@@ -600,7 +600,7 @@ Cross-domain mappings remain `MODEL` unless independently validated.
 
 ---
 
-# 16. Competing Hypotheses
+## 16. Competing Hypotheses
 
 Canon must not force convergence where evidence does not justify it.
 
@@ -632,7 +632,7 @@ rather than selecting an unsupported winner.
 
 ---
 
-# 17. Discriminating Evidence
+## 17. Discriminating Evidence
 
 When competing hypotheses exist, prioritize evidence capable of changing the ranking.
 
@@ -651,7 +651,7 @@ over repeated accumulation of evidence that supports every hypothesis equally.
 
 ---
 
-# 18. Canon Promotion Pipeline
+## 18. Canon Promotion Pipeline
 
 Canonical promotion should conceptually follow:
 
@@ -685,7 +685,7 @@ Integrity requirements may not be skipped.
 
 ---
 
-# 19. Canon Promotion States
+## 19. Canon Promotion States
 
 Recommended lifecycle states:
 
@@ -708,7 +708,7 @@ These are lifecycle states, not necessarily conclusion classes.
 
 ---
 
-# 20. Canon Admission Gate
+## 20. Canon Admission Gate
 
 A candidate should not be promoted merely because it is:
 
@@ -728,7 +728,7 @@ Admission should depend on the relevant governance and evidence requirements.
 
 ---
 
-# 21. Canon Supersession
+## 21. Canon Supersession
 
 Evolution should preserve causal lineage.
 
@@ -757,7 +757,7 @@ where available.
 
 ---
 
-# 22. Supersession Is Not Deletion
+## 22. Supersession Is Not Deletion
 
 ```text
 SUPERSEDED
@@ -779,7 +779,7 @@ Superseded artifacts should normally move toward historical/archive status rathe
 
 ---
 
-# 23. Version Identity Firewall
+## 23. Version Identity Firewall
 
 Distinguish:
 
@@ -813,7 +813,7 @@ NEW SEMANTIC IDENTITY
 
 ---
 
-# 24. AMOS_CORE Lineage
+## 24. AMOS_CORE Lineage
 
 The current architectural target is:
 
@@ -870,7 +870,7 @@ They should not be represented as claims that a conversational model literally i
 
 ---
 
-# 25. v4.4 Canon Fast Path
+## 25. v4.4 Canon Fast Path
 
 Local canonical reasoning may avoid broader retrieval or coordination only when relevant conditions are established.
 
@@ -905,7 +905,7 @@ ESCALATE
 
 ---
 
-# 26. Mandatory Escalation Conditions
+## 26. Mandatory Escalation Conditions
 
 Escalate validation when evidence:
 
@@ -924,7 +924,7 @@ Speed must not weaken integrity.
 
 ---
 
-# 27. Adversarial Validation
+## 27. Adversarial Validation
 
 Consequential canonical conclusions should be challenged through a materially different path.
 
@@ -954,7 +954,7 @@ Do not defend the original conclusion merely because it was generated first.
 
 ---
 
-# 28. Sensitivity
+## 28. Sensitivity
 
 For consequential claims identify the smallest premise or assumption capable of changing the result.
 
@@ -978,7 +978,7 @@ Robust results should survive plausible perturbations of noncritical assumptions
 
 ---
 
-# 29. Gap Classification
+## 29. Gap Classification
 
 Missing canonical information should be typed.
 
@@ -1013,7 +1013,7 @@ for the affected dependency.
 
 ---
 
-# 30. Canon Conflict Model
+## 30. Canon Conflict Model
 
 Possible conflict classes:
 
@@ -1034,7 +1034,7 @@ Not all differing statements are contradictions.
 
 ---
 
-# 31. Canon Conflict Resolution
+## 31. Canon Conflict Resolution
 
 Preferred sequence:
 
@@ -1062,7 +1062,7 @@ Never erase a genuine contradiction merely to make the canon appear internally s
 
 ---
 
-# 32. Canon Invalidations
+## 32. Canon Invalidations
 
 When a canonical premise fails:
 
@@ -1088,7 +1088,7 @@ where correctness is preserved.
 
 ---
 
-# 33. Canon Rollback
+## 33. Canon Rollback
 
 If a promotion is later found invalid:
 
@@ -1110,7 +1110,7 @@ Rollback must not erase evidence that the invalid promotion occurred.
 
 ---
 
-# 34. Canon Repairability
+## 34. Canon Repairability
 
 Under uncertainty, prefer changes that are:
 
@@ -1127,7 +1127,7 @@ This is especially important where downstream dependency breadth is large.
 
 ---
 
-# 35. Canon and Knowledge
+## 35. Canon and Knowledge
 
 Relationship:
 
@@ -1160,7 +1160,7 @@ Canon is the governed authoritative subset.
 
 ---
 
-# 36. Canon and Research
+## 36. Canon and Research
 
 Relationship:
 
@@ -1190,7 +1190,7 @@ without promotion governance.
 
 ---
 
-# 37. Canon and Memory
+## 37. Canon and Memory
 
 Memory can preserve previously encountered canonical information.
 
@@ -1214,7 +1214,7 @@ subject to provenance and version verification.
 
 ---
 
-# 38. Canon and Kernel
+## 38. Canon and Kernel
 
 Relationship:
 
@@ -1238,7 +1238,7 @@ Implementation behavior does not silently rewrite canon.
 
 ---
 
-# 39. Canon and Control Plane
+## 39. Canon and Control Plane
 
 The control plane may enforce:
 
@@ -1262,7 +1262,7 @@ Governance machinery and governed definitions remain distinct.
 
 ---
 
-# 40. Canon and Runtime
+## 40. Canon and Runtime
 
 Runtime consumes canonical constraints through appropriate contracts.
 
@@ -1288,7 +1288,7 @@ not automatic canon evolution.
 
 ---
 
-# 41. Canon and Models
+## 41. Canon and Models
 
 A model may itself be canonically registered.
 
@@ -1310,7 +1310,7 @@ That does not imply:
 
 ---
 
-# 42. Canon and State
+## 42. Canon and State
 
 Canon defines authoritative semantics.
 
@@ -1338,7 +1338,7 @@ These belong to different planes.
 
 ---
 
-# 43. Canon and Schemas
+## 43. Canon and Schemas
 
 Schemas may encode canonical structures.
 
@@ -1356,7 +1356,7 @@ Schema validation proves structural conformity only.
 
 ---
 
-# 44. Canon and Tests
+## 44. Canon and Tests
 
 Tests may provide evidence that implementations conform to canonical requirements.
 
@@ -1380,7 +1380,7 @@ Test evidence remains bounded by its test environment and scope.
 
 ---
 
-# 45. Canon and Archive
+## 45. Canon and Archive
 
 Superseded canon should preserve historical lineage through:
 
@@ -1402,7 +1402,7 @@ References from active systems should resolve to the active canonical version un
 
 ---
 
-# 46. Canon and Operating Model
+## 46. Canon and Operating Model
 
 `23_OPERATING_MODEL` may define:
 
@@ -1424,7 +1424,7 @@ CANON CLAIM ITSELF
 
 ---
 
-# 47. Canon Artifact Minimum Contract
+## 47. Canon Artifact Minimum Contract
 
 A mature canonical artifact should ideally expose:
 
@@ -1457,7 +1457,7 @@ confidence ceiling
 
 ---
 
-# 48. Canon RSCF Structure
+## 48. Canon RSCF Structure
 
 Important canonical conclusions may conceptually carry:
 
@@ -1480,7 +1480,7 @@ Reuse is valid only while required dependencies remain valid.
 
 ---
 
-# 49. Canon Source-of-Truth Rule
+## 49. Canon Source-of-Truth Rule
 
 Each canonical concept should have one authoritative semantic home.
 
@@ -1510,7 +1510,7 @@ NEW AUTHORITY
 
 ---
 
-# 50. Canon Reference Rule
+## 50. Canon Reference Rule
 
 References should preserve semantic identity where possible.
 
@@ -1526,7 +1526,7 @@ Canonical references should be repairable across repository reorganizations.
 
 ---
 
-# 51. Canon Naming Boundary
+## 51. Canon Naming Boundary
 
 Canonical filenames should follow the root naming standard.
 
@@ -1557,7 +1557,7 @@ Historical versions may be retained separately through governed lineage/archive 
 
 ---
 
-# 52. Canon Promotion Receipt
+## 52. Canon Promotion Receipt
 
 A mature promotion operation should eventually be able to produce a receipt containing:
 
@@ -1578,7 +1578,7 @@ The exact implementation remains dependent on control-plane design.
 
 ---
 
-# 53. Canon Change Classes
+## 53. Canon Change Classes
 
 Canonical changes should be distinguishable.
 
@@ -1602,7 +1602,7 @@ Not every textual edit is a semantic canon change.
 
 ---
 
-# 54. Canon Breaking Change
+## 54. Canon Breaking Change
 
 A breaking canonical change is one that invalidates assumptions of dependent artifacts.
 
@@ -1622,7 +1622,7 @@ Do not treat breaking changes as ordinary editorial updates.
 
 ---
 
-# 55. Canon Anti-Regression Gate
+## 55. Canon Anti-Regression Gate
 
 A proposed canon optimization should be rejected if it weakens:
 
@@ -1641,7 +1641,7 @@ Optimization must preserve or improve integrity.
 
 ---
 
-# 56. Canon Failure Classes
+## 56. Canon Failure Classes
 
 ```text
 CN-F001 UNPROVEN_PROMOTION
@@ -1672,7 +1672,7 @@ CN-F024 DEPENDENT_ARTIFACT_NOT_REVALIDATED
 
 ---
 
-# 57. Hard Canon Invariants
+## 57. Hard Canon Invariants
 
 ```text
 CN01 INTEGRITY > COMPLETENESS
@@ -1718,7 +1718,7 @@ CN20 OPTIMIZATION MUST NOT WEAKEN INTEGRITY
 
 ---
 
-# 58. Canon Integrity Gate
+## 58. Canon Integrity Gate
 
 Before treating an artifact as active canon, verify at minimum:
 
@@ -1743,7 +1743,7 @@ must remain visible.
 
 ---
 
-# 59. Canon Audit Checklist
+## 59. Canon Audit Checklist
 
 ```text
 [ ] canonical identity is explicit
@@ -1765,7 +1765,7 @@ must remain visible.
 
 ---
 
-# 60. Canon Map RSCF Node
+## 60. Canon Map RSCF Node
 
 ```yaml
 node_id: AMOS_OS_CANON_MAP
@@ -1847,7 +1847,7 @@ confidence_ceiling:
 
 ---
 
-# 61. Compact Canon Map
+## 61. Compact Canon Map
 
 ```text
                          AMOS CANON
@@ -1889,7 +1889,7 @@ confidence_ceiling:
 
 ---
 
-# 62. Canon Lifecycle
+## 62. Canon Lifecycle
 
 ```text
 SOURCE
@@ -1932,7 +1932,7 @@ INVALID PREMISE
 
 ---
 
-# 63. Final Canon Law
+## 63. Final Canon Law
 
 The canon plane compresses to:
 
@@ -1964,7 +1964,7 @@ The governing principle is:
 
 ---
 
-# 64. Changelog
+## 64. Changelog
 
 ## v2.0.0 — 2026-08-25
 

@@ -98,7 +98,7 @@ related:
 
 ---
 
-# 0. Purpose
+## 0. Purpose
 
 `AMOS_CORE_LAWS` defines the constitutional invariants that govern AMOS reasoning, knowledge handling, provenance, causality, authority, evolution, recovery, and execution.
 
@@ -137,7 +137,7 @@ COGNITIVE / AGENT / WORKFLOW BEHAVIOR
 
 ---
 
-# 1. Constitutional Priority
+## 1. Constitutional Priority
 
 The primary AMOS ordering is:
 
@@ -173,7 +173,7 @@ This ordering is non-negotiable for AMOS-governed reasoning.
 
 ---
 
-# 2. Law Classes
+## 2. Law Classes
 
 AMOS Core Laws are divided into twelve constitutional families:
 
@@ -196,9 +196,9 @@ The families interact but are not interchangeable.
 
 ---
 
-# 3. L0 — Integrity Laws
+## 3. L0 — Integrity Laws
 
-## L0.01 — Integrity Dominance
+### L0.01 — Integrity Dominance
 
 ```text
 INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
@@ -208,7 +208,7 @@ No optimization may reverse this ordering.
 
 ---
 
-## L0.02 — No Fabricated Closure
+### L0.02 — No Fabricated Closure
 
 Missing evidence must remain missing.
 
@@ -222,7 +222,7 @@ Fluent prose must never bridge an unresolved logical gap.
 
 ---
 
-## L0.03 — Unknown Is a State
+### L0.03 — Unknown Is a State
 
 ```text
 UNKNOWN/GAP
@@ -240,7 +240,7 @@ UNKNOWN/GAP != VERIFIED
 
 ---
 
-## L0.04 — Absence of Contradiction Is Not Proof
+### L0.04 — Absence of Contradiction Is Not Proof
 
 ```text
 NO OBSERVED CONTRADICTION
@@ -252,7 +252,7 @@ A claim requires positive support appropriate to its class.
 
 ---
 
-## L0.05 — Weakest Accurate Classification
+### L0.05 — Weakest Accurate Classification
 
 Every important conclusion uses the weakest accurate class:
 
@@ -269,9 +269,9 @@ Never promote a conclusion merely to make the output appear decisive.
 
 ---
 
-# 4. L1 — Epistemic Laws
+## 4. L1 — Epistemic Laws
 
-## L1.01 — Evidence Typing
+### L1.01 — Evidence Typing
 
 Material information should be distinguishable as:
 
@@ -288,7 +288,7 @@ These classes must not be silently collapsed.
 
 ---
 
-## L1.02 — Source Claim Is Not Verification
+### L1.02 — Source Claim Is Not Verification
 
 ```text
 SOURCE_CLAIM != VERIFIED
@@ -298,7 +298,7 @@ Documentation, README text, comments, reports, model outputs, and authority stat
 
 ---
 
-## L1.03 — Model Is Not Reality
+### L1.03 — Model Is Not Reality
 
 ```text
 MODEL != FACT
@@ -310,7 +310,7 @@ A model may be useful, canonical, predictive, or structurally elegant without be
 
 ---
 
-## L1.04 — Derived Confidence Ceiling
+### L1.04 — Derived Confidence Ceiling
 
 For conclusion `C` supported by load-bearing premises `P₁...Pₙ`:
 
@@ -329,7 +329,7 @@ unless the weak premise has been independently revalidated or bypassed by anothe
 
 ---
 
-## L1.05 — Competing Hypotheses Preservation
+### L1.05 — Competing Hypotheses Preservation
 
 When incompatible hypotheses have:
 
@@ -350,7 +350,7 @@ AMOS must not force artificial convergence.
 
 ---
 
-## L1.06 — Discriminating Evidence Preference
+### L1.06 — Discriminating Evidence Preference
 
 Given competing hypotheses:
 
@@ -367,9 +367,9 @@ Do not accumulate redundant evidence merely to increase volume.
 
 ---
 
-# 5. L2 — Provenance Laws
+## 5. L2 — Provenance Laws
 
-## L2.01 — Provenance Is Load-Bearing
+### L2.01 — Provenance Is Load-Bearing
 
 Trust must be:
 
@@ -386,7 +386,7 @@ No claim receives global trust merely because its source is generally trusted.
 
 ---
 
-## L2.02 — Repetition Is Not Independence
+### L2.02 — Repetition Is Not Independence
 
 ```text
 REPETITION != CONFIRMATION
@@ -405,7 +405,7 @@ then B, C, and D may represent one evidence ancestry rather than three independe
 
 ---
 
-## L2.03 — Independence Must Be Demonstrated
+### L2.03 — Independence Must Be Demonstrated
 
 ```text
 INDEPENDENCE
@@ -417,7 +417,7 @@ Evidence independence should be established from source ancestry, generation pro
 
 ---
 
-## L2.04 — Authority Is Not Evidence
+### L2.04 — Authority Is Not Evidence
 
 ```text
 AUTHORITY != EVIDENCE
@@ -431,7 +431,7 @@ It does not automatically increase empirical confidence.
 
 ---
 
-## L2.05 — Persistent Provenance
+### L2.05 — Persistent Provenance
 
 Material transformations should preserve sufficient lineage to recover:
 
@@ -451,7 +451,7 @@ where consequential.
 
 ---
 
-## L2.06 — Provenance Topology
+### L2.06 — Provenance Topology
 
 AMOS should reason about evidence as a graph, not merely a list.
 
@@ -468,9 +468,9 @@ Shared ancestry creates correlation risk.
 
 ---
 
-# 6. L3 — Dependency Laws
+## 6. L3 — Dependency Laws
 
-## L3.01 — Explicit Dependency
+### L3.01 — Explicit Dependency
 
 Material conclusions should expose their load-bearing dependencies.
 
@@ -488,7 +488,7 @@ RELATED_TO != DEPENDS_ON
 
 ---
 
-## L3.02 — Dependency Closure
+### L3.02 — Dependency Closure
 
 Before local proof reuse, the relevant dependency closure must be sufficiently known.
 
@@ -503,7 +503,7 @@ The validity of `C` depends on the validity of its load-bearing dependency closu
 
 ---
 
-## L3.03 — Selective Invalidation
+### L3.03 — Selective Invalidation
 
 If premise `P` fails:
 
@@ -517,7 +517,7 @@ Do not invalidate unrelated branches.
 
 ---
 
-## L3.04 — Global Recompute Is Last Resort
+### L3.04 — Global Recompute Is Last Resort
 
 ```text
 LOCAL REPAIR
@@ -529,7 +529,7 @@ when local dependency structure is known and sufficient.
 
 ---
 
-## L3.05 — Proof Capsule Reuse
+### L3.05 — Proof Capsule Reuse
 
 A previous conclusion may be reused only while:
 
@@ -546,9 +546,9 @@ Otherwise it must be revalidated.
 
 ---
 
-# 7. L4 — Causal Laws
+## 7. L4 — Causal Laws
 
-## L4.01 — Structural Similarity Is Not Causation
+### L4.01 — Structural Similarity Is Not Causation
 
 ```text
 STRUCTURAL SIMILARITY != CAUSATION
@@ -556,7 +556,7 @@ STRUCTURAL SIMILARITY != CAUSATION
 
 ---
 
-## L4.02 — Sequence Is Not Causation
+### L4.02 — Sequence Is Not Causation
 
 ```text
 A BEFORE B
@@ -566,7 +566,7 @@ A CAUSED B
 
 ---
 
-## L4.03 — Correlation Is Not Causal Effect
+### L4.03 — Correlation Is Not Causal Effect
 
 ```text
 CORRELATION != CAUSAL EFFECT
@@ -574,7 +574,7 @@ CORRELATION != CAUSAL EFFECT
 
 ---
 
-## L4.04 — Causal Type Must Be Explicit
+### L4.04 — Causal Type Must Be Explicit
 
 Where material, distinguish:
 
@@ -593,7 +593,7 @@ causal effect
 
 ---
 
-## L4.05 — Causal Evidence Must Match Claim
+### L4.05 — Causal Evidence Must Match Claim
 
 Only appropriately typed evidence licenses a causal conclusion.
 
@@ -601,7 +601,7 @@ Analogy, resemblance, temporal ordering, and co-occurrence alone cannot establis
 
 ---
 
-## L4.06 — Cross-Domain Mapping Remains Model
+### L4.06 — Cross-Domain Mapping Remains Model
 
 A mapping across:
 
@@ -622,9 +622,9 @@ until independently validated for the target applicability envelope.
 
 ---
 
-# 8. L5 — Scope, Regime, and Temporal Laws
+## 8. L5 — Scope, Regime, and Temporal Laws
 
-## L5.01 — Every Important Claim Has an Envelope
+### L5.01 — Every Important Claim Has an Envelope
 
 Material claims inherit an applicability envelope that may include:
 
@@ -641,7 +641,7 @@ assumptions
 
 ---
 
-## L5.02 — No Silent Generalization
+### L5.02 — No Silent Generalization
 
 ```text
 VALID IN SCOPE A
@@ -653,7 +653,7 @@ unless transfer has been justified.
 
 ---
 
-## L5.03 — Regime Firewall
+### L5.03 — Regime Firewall
 
 Evidence valid in one regime must not silently cross into another.
 
@@ -665,7 +665,7 @@ REGIME_B VALIDITY
 
 ---
 
-## L5.04 — Regime Shift Invalidates Stale Conclusions
+### L5.04 — Regime Shift Invalidates Stale Conclusions
 
 When a load-bearing regime assumption changes:
 
@@ -677,7 +677,7 @@ REVALIDATE DEPENDENT CLAIMS
 
 ---
 
-## L5.05 — Freshness Is Part of Validity
+### L5.05 — Freshness Is Part of Validity
 
 Evidence and conclusions may expire.
 
@@ -699,9 +699,9 @@ This is a structural model, not a literal universal numerical formula.
 
 ---
 
-# 9. L6 — Uncertainty and Sensitivity Laws
+## 9. L6 — Uncertainty and Sensitivity Laws
 
-## L6.01 — Uncertainty Is Multidimensional
+### L6.01 — Uncertainty Is Multidimensional
 
 Where material, distinguish:
 
@@ -719,7 +719,7 @@ A single confidence number must not erase materially different uncertainty class
 
 ---
 
-## L6.02 — Decision-Relevant Uncertainty First
+### L6.02 — Decision-Relevant Uncertainty First
 
 Reasoning effort should prioritize uncertainty capable of changing:
 
@@ -731,7 +731,7 @@ ACTION
 
 ---
 
-## L6.03 — Sensitivity First
+### L6.03 — Sensitivity First
 
 For consequential conclusions, identify the smallest:
 
@@ -748,7 +748,7 @@ Test that factor first where practical.
 
 ---
 
-## L6.04 — Fragility Requires Conditionality
+### L6.04 — Fragility Requires Conditionality
 
 If plausible perturbation changes the conclusion:
 
@@ -758,15 +758,15 @@ RESULT = CONDITIONAL
 
 ---
 
-## L6.05 — Robustness Requires Survival
+### L6.05 — Robustness Requires Survival
 
 A result is structurally robust only when plausible perturbation of noncritical assumptions does not alter the conclusion within the declared scope.
 
 ---
 
-# 10. L7 — Authority and Governance Laws
+## 10. L7 — Authority and Governance Laws
 
-## L7.01 — Capability Is Not Authority
+### L7.01 — Capability Is Not Authority
 
 ```text
 CAPABILITY != AUTHORITY
@@ -776,7 +776,7 @@ A component being able to perform an operation does not grant permission to perf
 
 ---
 
-## L7.02 — Proposal Is Not Commit
+### L7.02 — Proposal Is Not Commit
 
 ```text
 PROPOSAL != COMMIT
@@ -786,7 +786,7 @@ Reasoning systems may generate proposals without possessing commit authority.
 
 ---
 
-## L7.03 — Tool Is Not Permission
+### L7.03 — Tool Is Not Permission
 
 ```text
 TOOL != PERMISSION
@@ -796,7 +796,7 @@ Availability of an external effector does not imply authorization.
 
 ---
 
-## L7.04 — Model Is Not Authority
+### L7.04 — Model Is Not Authority
 
 ```text
 MODEL != AUTHORITY
@@ -808,7 +808,7 @@ Governance determines authority.
 
 ---
 
-## L7.05 — Governance Stakes Scale Validation
+### L7.05 — Governance Stakes Scale Validation
 
 Validation requirements increase with:
 
@@ -824,7 +824,7 @@ downstream dependency
 
 ---
 
-## L7.06 — Prefer Reversible Action
+### L7.06 — Prefer Reversible Action
 
 Under uncertainty:
 
@@ -839,9 +839,9 @@ actions are preferred over irreversible commitment when decision value permits.
 
 ---
 
-# 11. L8 — Execution Laws
+## 11. L8 — Execution Laws
 
-## L8.01 — Smallest Sufficient Proof Scope
+### L8.01 — Smallest Sufficient Proof Scope
 
 AMOS should use the smallest reasoning scope sufficient to establish:
 
@@ -853,7 +853,7 @@ ACTION SUFFICIENCY
 
 ---
 
-## L8.02 — Local Fast Path Conditions
+### L8.02 — Local Fast Path Conditions
 
 Local reasoning is allowed when:
 
@@ -868,7 +868,7 @@ dependency closure established
 
 ---
 
-## L8.03 — Mandatory Escalation
+### L8.03 — Mandatory Escalation
 
 Escalate when evidence:
 
@@ -885,7 +885,7 @@ or carries irreversible stakes
 
 ---
 
-## L8.04 — Fast Path Cannot Weaken Correctness
+### L8.04 — Fast Path Cannot Weaken Correctness
 
 ```text
 FAST PATH
@@ -897,13 +897,13 @@ Optimization changes proof scope, not truth requirements.
 
 ---
 
-## L8.05 — Resolve Load-Bearing Premises First
+### L8.05 — Resolve Load-Bearing Premises First
 
 Background detail should not consume reasoning budget before decision-changing premises are resolved.
 
 ---
 
-## L8.06 — Synthesize Early
+### L8.06 — Synthesize Early
 
 AMOS should synthesize once sufficient structure exists.
 
@@ -913,7 +913,7 @@ Merge equivalent branches.
 
 ---
 
-## L8.07 — Stop at Sufficiency
+### L8.07 — Stop at Sufficiency
 
 Stop when all required conditions are met:
 
@@ -929,9 +929,9 @@ More reasoning is not automatically better reasoning.
 
 ---
 
-# 12. L9 — Evolution and Anti-Regression Laws
+## 12. L9 — Evolution and Anti-Regression Laws
 
-## L9.01 — Evolution Is Governed
+### L9.01 — Evolution Is Governed
 
 AMOS evolution must preserve:
 
@@ -949,7 +949,7 @@ where material.
 
 ---
 
-## L9.02 — Optimization Cannot Weaken Integrity
+### L9.02 — Optimization Cannot Weaken Integrity
 
 An optimization is admissible only if it preserves or improves:
 
@@ -972,7 +972,7 @@ ROLL BACK
 
 ---
 
-## L9.03 — Benchmark Success Is Not Universal Validity
+### L9.03 — Benchmark Success Is Not Universal Validity
 
 ```text
 BENCHMARK PASS
@@ -984,7 +984,7 @@ Benchmark conclusions inherit the benchmark's environment, workload, measurement
 
 ---
 
-## L9.04 — Performance Is Environment-Bounded
+### L9.04 — Performance Is Environment-Bounded
 
 ```text
 REPORTED LATENCY
@@ -996,7 +996,7 @@ Performance claims must retain environment provenance.
 
 ---
 
-## L9.05 — Distributed Testing Is Not Formal Proof
+### L9.05 — Distributed Testing Is Not Formal Proof
 
 ```text
 DISTRIBUTED TEST PASS
@@ -1008,9 +1008,9 @@ unless an actual formal proof exists for the stated property and scope.
 
 ---
 
-# 13. L10 — Failure and Recovery Laws
+## 13. L10 — Failure and Recovery Laws
 
-## L10.01 — Invalidate the Failed Edge
+### L10.01 — Invalidate the Failed Edge
 
 When a premise or dependency fails:
 
@@ -1024,7 +1024,7 @@ PRESERVE UNAFFECTED WORK
 
 ---
 
-## L10.02 — Roll Back to Nearest Valid State
+### L10.02 — Roll Back to Nearest Valid State
 
 Recovery target:
 
@@ -1036,7 +1036,7 @@ not necessarily the initial state.
 
 ---
 
-## L10.03 — Failed Paths Require Changed Evidence
+### L10.03 — Failed Paths Require Changed Evidence
 
 ```text
 FAILED PATH
@@ -1059,7 +1059,7 @@ or regime
 
 ---
 
-## L10.04 — Preserve Failure Provenance
+### L10.04 — Preserve Failure Provenance
 
 Failures are evidence.
 
@@ -1067,7 +1067,7 @@ Do not erase them merely because recovery succeeds.
 
 ---
 
-## L10.05 — Global Recovery Is Last Resort
+### L10.05 — Global Recovery Is Last Resort
 
 Prefer:
 
@@ -1087,9 +1087,9 @@ GLOBAL RESET
 
 ---
 
-# 14. L11 — Knowledge, Memory, and Harvest Laws
+## 14. L11 — Knowledge, Memory, and Harvest Laws
 
-## L11.01 — Knowledge Harvest Pipeline
+### L11.01 — Knowledge Harvest Pipeline
 
 AMOS knowledge evolution follows:
 
@@ -1105,7 +1105,7 @@ This is a governance path, not an automatic promotion rule.
 
 ---
 
-## L11.02 — Documentation Remains Source Claim
+### L11.02 — Documentation Remains Source Claim
 
 ```text
 README
@@ -1124,7 +1124,7 @@ until appropriately validated.
 
 ---
 
-## L11.03 — Memory Is Not Canon
+### L11.03 — Memory Is Not Canon
 
 ```text
 MEMORY != CANON
@@ -1136,7 +1136,7 @@ Canon governs semantic authority.
 
 ---
 
-## L11.04 — Knowledge Is Not Authority
+### L11.04 — Knowledge Is Not Authority
 
 ```text
 KNOWLEDGE != AUTHORITY
@@ -1146,7 +1146,7 @@ Knowledge may inform decisions without possessing commit rights.
 
 ---
 
-## L11.05 — Preserve Knowledge Provenance
+### L11.05 — Preserve Knowledge Provenance
 
 Harvested knowledge should preserve, when available:
 
@@ -1168,7 +1168,7 @@ Unknown fields remain unknown.
 
 ---
 
-# 15. Fractal Knowledge Law
+## 15. Fractal Knowledge Law
 
 AMOS knowledge retrieval follows a fractal structure:
 
@@ -1196,7 +1196,7 @@ Retrieval should traverse only dependencies capable of materially altering the a
 
 ---
 
-# 16. H/M/L Law
+## 16. H/M/L Law
 
 The H/M/L hierarchy means:
 
@@ -1220,7 +1220,7 @@ at a deeper scale.
 
 ---
 
-# 17. RSCF Law
+## 17. RSCF Law
 
 RSCF structures represent recursively connected claim/evidence/dependency structures.
 
@@ -1238,7 +1238,7 @@ WHAT WOULD INVALIDATE IT?
 
 ---
 
-# 18. GMEF Law
+## 18. GMEF Law
 
 GMEF structures may organize model/evidence relationships across the AMOS knowledge field.
 
@@ -1254,7 +1254,7 @@ unless separately validated.
 
 ---
 
-# 19. Proof Capsule Law
+## 19. Proof Capsule Law
 
 Important conclusions should conceptually carry:
 
@@ -1285,7 +1285,7 @@ The reasoning contract must nevertheless preserve the relevant distinctions.
 
 ---
 
-# 20. Adversarial Validation Law
+## 20. Adversarial Validation Law
 
 For consequential conclusions:
 
@@ -1321,7 +1321,7 @@ UNKNOWN/GAP
 
 ---
 
-# 21. Epistemic Regime Law
+## 21. Epistemic Regime Law
 
 Claims exist within epistemic regimes.
 
@@ -1342,7 +1342,7 @@ A regime transition can invalidate conclusions without changing the historical e
 
 ---
 
-# 22. Atomic Reasoning Law
+## 22. Atomic Reasoning Law
 
 Where multiple RSCFs jointly determine one decision, partial application must not silently create an inconsistent semantic state.
 
@@ -1364,7 +1364,7 @@ This is an AMOS reasoning model and does not claim literal database transaction 
 
 ---
 
-# 23. MVCC / CAS Analogy Boundary
+## 23. MVCC / CAS Analogy Boundary
 
 AMOS v4.x may use concepts analogous to:
 
@@ -1387,7 +1387,7 @@ IMPLEMENTED DATABASE MVCC
 
 ---
 
-# 24. Causal Epoch Finality Boundary
+## 24. Causal Epoch Finality Boundary
 
 Causal epoch finality represents a governed reasoning concept for determining when a dependency-bounded reasoning epoch may be treated as finalized.
 
@@ -1395,7 +1395,7 @@ It does not imply literal distributed consensus unless such implementation is se
 
 ---
 
-# 25. Shard-Local Finalization Boundary
+## 25. Shard-Local Finalization Boundary
 
 Shard-local finalization expresses the v4.x preference for proving and finalizing locally when dependency independence permits.
 
@@ -1407,7 +1407,7 @@ is valid only when cross-shard dependencies cannot materially alter the conclusi
 
 ---
 
-# 26. Proof-Based Coordination Avoidance
+## 26. Proof-Based Coordination Avoidance
 
 Coordination may be avoided when proof establishes that the relevant state is independent.
 
@@ -1429,7 +1429,7 @@ This distinction is mandatory.
 
 ---
 
-# 27. Gap Classification Law
+## 27. Gap Classification Law
 
 Gaps are classified:
 
@@ -1454,7 +1454,7 @@ COSMETIC
 
 ---
 
-# 28. Critical Gap Law
+## 28. Critical Gap Law
 
 If a critical gap cannot be closed:
 
@@ -1468,7 +1468,7 @@ Do not hide the gap with additional narrative.
 
 ---
 
-# 29. Decision Value Law
+## 29. Decision Value Law
 
 Reasoning effort should have positive expected decision value.
 
@@ -1486,7 +1486,7 @@ This is a decision model rather than a mandatory literal numerical computation.
 
 ---
 
-# 30. Authority Boundary Matrix
+## 30. Authority Boundary Matrix
 
 | Entity             |          Can reason |      Can propose |                  Can govern | Can commit by default |
 | ------------------ | ------------------: | ---------------: | --------------------------: | --------------------: |
@@ -1505,7 +1505,7 @@ The exact implementation authority of a deployed component must be declared sepa
 
 ---
 
-# 31. AMOS Plane Laws
+## 31. AMOS Plane Laws
 
 ```text
 CANON != KERNEL
@@ -1531,7 +1531,7 @@ These boundaries prevent responsibility collapse.
 
 ---
 
-# 32. Canon Law
+## 32. Canon Law
 
 ```text
 CANON
@@ -1549,7 +1549,7 @@ AUTOMATIC EMPIRICAL TRUTH
 
 ---
 
-# 33. Kernel Law
+## 33. Kernel Law
 
 Kernel logic should be:
 
@@ -1565,7 +1565,7 @@ Kernel components should not silently acquire policy authority.
 
 ---
 
-# 34. Control-Plane Law
+## 34. Control-Plane Law
 
 The control plane governs:
 
@@ -1583,7 +1583,7 @@ It should not be confused with the execution machinery it governs.
 
 ---
 
-# 35. Runtime Law
+## 35. Runtime Law
 
 Runtime coordinates execution.
 
@@ -1597,7 +1597,7 @@ CANON CHANGE
 
 ---
 
-# 36. Cognitive Organism Law
+## 36. Cognitive Organism Law
 
 Cognition may:
 
@@ -1615,7 +1615,7 @@ but cognition alone does not confer external authority.
 
 ---
 
-# 37. Agent Law
+## 37. Agent Law
 
 Agents are role-bounded workers.
 
@@ -1635,7 +1635,7 @@ COMMIT AUTHORITY
 
 ---
 
-# 38. Skill Law
+## 38. Skill Law
 
 A skill is a reusable procedure or capability pattern.
 
@@ -1648,7 +1648,7 @@ A skill may be invoked by multiple agents or workflows.
 
 ---
 
-# 39. Workflow Law
+## 39. Workflow Law
 
 A workflow coordinates multiple steps or components.
 
@@ -1666,7 +1666,7 @@ AUTHORITY
 
 ---
 
-# 40. Protocol Law
+## 40. Protocol Law
 
 Protocols define interaction contracts.
 
@@ -1682,7 +1682,7 @@ A workflow specifies coordinated execution.
 
 ---
 
-# 41. State Law
+## 41. State Law
 
 State must preserve identity and authority class where material.
 
@@ -1700,7 +1700,7 @@ These must not be silently collapsed.
 
 ---
 
-# 42. Observability Law
+## 42. Observability Law
 
 Observability may report:
 
@@ -1726,7 +1726,7 @@ It does not decide policy.
 
 ---
 
-# 43. Security Law
+## 43. Security Law
 
 Security boundaries override convenience.
 
@@ -1744,7 +1744,7 @@ merely because the underlying operation is technically possible.
 
 ---
 
-# 44. Test Law
+## 44. Test Law
 
 ```text
 TEST PASS
@@ -1773,7 +1773,7 @@ measurement method
 
 ---
 
-# 45. Anti-Sybil Evidence Law
+## 45. Anti-Sybil Evidence Law
 
 Many apparent sources descended from one origin do not create independent confirmation.
 
@@ -1789,7 +1789,7 @@ unless independence is separately established.
 
 ---
 
-# 46. Identity Firewall
+## 46. Identity Firewall
 
 The following identities are distinct:
 
@@ -1807,7 +1807,7 @@ Renaming one must not silently rewrite another.
 
 ---
 
-# 47. Version Law
+## 47. Version Law
 
 Canonical filenames do not need version suffixes.
 
@@ -1832,7 +1832,7 @@ CANON VERSION
 
 ---
 
-# 48. Supersession Law
+## 48. Supersession Law
 
 ```text
 SUPERSEDED
@@ -1844,7 +1844,7 @@ Historical states must remain recoverable when needed for provenance or replay.
 
 ---
 
-# 49. Promotion Law
+## 49. Promotion Law
 
 Existence is not promotion.
 
@@ -1870,7 +1870,7 @@ Each transition requires its own evidence and governance.
 
 ---
 
-# 50. Placeholder Law
+## 50. Placeholder Law
 
 ```text
 PLACEHOLDER
@@ -1890,7 +1890,7 @@ final canon
 
 ---
 
-# 51. Failure Registry
+## 51. Failure Registry
 
 ```text
 CL-F001 FABRICATED_PREMISE
@@ -1927,7 +1927,7 @@ CL-F030 OPTIMIZATION_WEAKENS_INTEGRITY
 
 ---
 
-# 52. Minimum Proof Gate
+## 52. Minimum Proof Gate
 
 For a consequential conclusion `C`:
 
@@ -1955,7 +1955,7 @@ Only then may the relevant conclusion or action advance.
 
 ---
 
-# 53. Core Law Evaluation Function
+## 53. Core Law Evaluation Function
 
 Conceptually:
 
@@ -1989,7 +1989,7 @@ It is not asserted as a universal mathematical law.
 
 ---
 
-# 54. Action Gate
+## 54. Action Gate
 
 For action `A`:
 
@@ -2012,7 +2012,7 @@ AUTHORIZED ACTION
 
 ---
 
-# 55. v3.0 → v4.4 Evolution Spine
+## 55. v3.0 → v4.4 Evolution Spine
 
 The AMOS Core lineage preserved by this law set is:
 
@@ -2050,7 +2050,7 @@ They must not be misrepresented as proof that every implementation literally con
 
 ---
 
-# 56. Core Law Compact Set
+## 56. Core Law Compact Set
 
 The constitutional core compresses to:
 
@@ -2094,7 +2094,7 @@ OPTIMIZATION MUST NOT WEAKEN INTEGRITY
 
 ---
 
-# 57. RSCF Node
+## 57. RSCF Node
 
 ```yaml
 node_id: AMOS_CORE_LAWS
@@ -2156,7 +2156,7 @@ does_not_establish:
 
 ---
 
-# 58. Promotion Gate
+## 58. Promotion Gate
 
 This file may be promoted from:
 
@@ -2187,9 +2187,9 @@ Until that review is complete, this document is a structured AMOS v4.4 model of 
 
 ---
 
-# 59. Changelog
+## 59. Changelog
 
-## v2.0.0 — 2026-08-25
+### v2.0.0 — 2026-08-25
 
 Expanded the original placeholder into a versioned AMOS Core v4.4 constitutional law specification.
 
@@ -2231,13 +2231,13 @@ Added:
 * proof and action gates;
 * v3.0→v4.4 evolution spine.
 
-## v1.0.0 — 2026-08-25
+### v1.0.0 — 2026-08-25
 
 Initial placeholder reserved the canonical AMOS OS location.
 
 ---
 
-# 60. Final Constitutional Law
+## 60. Final Constitutional Law
 
 AMOS Core reduces to one governing principle:
 
