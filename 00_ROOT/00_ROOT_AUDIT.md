@@ -4208,3 +4208,6 @@ OR HIDING UNKNOWN RELATIONSHIPS.
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. The separation between structural canon, runtime, validation, research, authority, provenance, and deployment is consistent with the supplied Full Brain operating rules. :contentReference[oaicite:6]{index=6} The exact current root inventory, numbering, physical layout, aliases, migration history, and some cross-plane relationships remain `UNKNOWN/GAP` until an actual current repository/canon audit establishes them.
 ```
+
+---
+**Related:** [[00-Home]]
