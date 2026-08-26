@@ -1,4 +1,8 @@
-\1aliases:\n- NAMING_STANDARD\n\nartifact_id: AMOS-OS-NAMING-STANDARD
+---
+aliases:
+- NAMING_STANDARD
+
+artifact_id: AMOS-OS-NAMING-STANDARD
 name: AMOS_OS_NAMING_STANDARD
 title: "AMOS OS Naming Standard — Canonical Identity, Namespace, Versioning, and Rename Governance"
 
