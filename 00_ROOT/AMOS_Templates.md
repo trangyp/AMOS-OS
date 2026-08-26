@@ -34,7 +34,7 @@ Index of Obsidian note and automation templates used by the AMOS vault.
 
 ## Related MOCs
 
-- [[00-Home]] — universal vault hub
+- [[AMOS Home]] — universal vault hub
 - [[00_ROOT_MOC]] — AMOS OS master map
 - [[00_ROOT/00_Cosmo_Brain_MOC.md|00 Cosmo Brain MOC]] — Cosmo Brain root stub
 - [[AMOS_Layer_Maps]] — top-level layer map index
@@ -46,6 +46,6 @@ node_id: amos_templates
 node_type: note
 path: 00_ROOT/AMOS_Templates.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

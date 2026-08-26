@@ -16,7 +16,7 @@ moc_version: 1.0.0
 name: AMOS_OS_MOC
 origin_architect: Trang Phan
 related:
-- '[[00-Home]]'
+- '[[AMOS Home]]'
 - '[[ARCHITECTURE]]'
 - '[[FULL_TREE]]'
 - '[[SYSTEM_MAP]]'
@@ -2010,13 +2010,13 @@ UNKNOWN/GAP != PASS
 
 ---
 
-**Related:** [[00-Home]] · [[ARCHITECTURE]] · [[FULL_TREE]] · [[SYSTEM_MAP]] · [[AUTHORITATIVE_STATE]] · [[DEPENDENCY_MAP]] · [[NAMING_STANDARD]] · [[PLACEMENT_RULES]] · [[ROADMAP]] · [[RSCF_NODE_INDEX]] · [[GMEF]] · [[HML_CANON]] · [[CONTROL_PLANE_CANON]] · [[AUTHORITY_CANON]] · [[COGNITION_CANON]] · [[COGNITIVE_ORGANISM_CANON]]
+**Related:** [[AMOS Home]] · [[ARCHITECTURE]] · [[FULL_TREE]] · [[SYSTEM_MAP]] · [[AUTHORITATIVE_STATE]] · [[DEPENDENCY_MAP]] · [[NAMING_STANDARD]] · [[PLACEMENT_RULES]] · [[ROADMAP]] · [[RSCF_NODE_INDEX]] · [[GMEF]] · [[HML_CANON]] · [[CONTROL_PLANE_CANON]] · [[AUTHORITY_CANON]] · [[COGNITION_CANON]] · [[COGNITIVE_ORGANISM_CANON]]
 
 ```
 ```
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[AMOS Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2024,6 +2024,6 @@ node_id: 00_root_moc
 node_type: note
 path: 00_ROOT/00_ROOT_MOC.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

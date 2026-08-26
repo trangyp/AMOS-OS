@@ -39,6 +39,7 @@ answer the question, expand only when outcome-changing uncertainty remains.
 
 - [[AMOS_Templates]] — AMOS template index
 - [[Templates/linked-note.md|linked-note template]]
+- [[AMOS Home]] — universal vault hub
 ## Operational brain — module map
 
 - 00_boot: brain/00_boot/BOOTSTRAP · ROUTER · LOAD_MAP · [[OS_Agent_Model]]
