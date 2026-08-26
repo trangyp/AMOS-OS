@@ -1,5 +1,4 @@
----
-tags: ['canon', 'core_laws', 'note']
+\1aliases:\n- GMEF\n\ntags: ['canon', 'core_laws', 'note']
 ---
 
 # L18 GMEF Law

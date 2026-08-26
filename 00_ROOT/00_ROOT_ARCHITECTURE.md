@@ -1,5 +1,4 @@
----
-artifact_id: AMOS-OS-ROOT-ARCHITECTURE
+\1aliases:\n- ARCHITECTURE\n\nartifact_id: AMOS-OS-ROOT-ARCHITECTURE
 name: AMOS_OS_ARCHITECTURE
 title: "AMOS OS Architecture — Root System Architecture"
 document_version: "2.0.0"
