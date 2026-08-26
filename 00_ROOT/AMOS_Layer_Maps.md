@@ -57,6 +57,7 @@ Canonical map index for the AMOS OS layer structure. Each top-level layer has a 
 - [[11_KNOWLEDGE/11_KNOWLEDGE_MOC.md|11_KNOWLEDGE MOC]] — knowledge layer index
 - [[00-Home]] — universal vault hub
 - [[11_KNOWLEDGE/Cosmo_Brain_MOC.md|00 Cosmo Brain MOC]] — the Cosmo Brain index
+- [[AMOS_Templates]] — AMOS template index
 
 ## Subsystem maps
 

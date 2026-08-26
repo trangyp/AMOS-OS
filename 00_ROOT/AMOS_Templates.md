@@ -36,6 +36,7 @@ Index of Obsidian note and automation templates used by the AMOS vault.
 
 - [[00-Home]] — universal vault hub
 - [[00_ROOT_MOC]] — AMOS OS master map
+- [[AMOS_Layer_Maps]] — top-level layer map index
 - [[AMOS_Obsidian_Linking_Plugins]] — Obsidian linking plugin stack
 
 ---
