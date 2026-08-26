@@ -1,0 +1,1245 @@
+---
+canon-group: reference
+rscf-state: source-claim
+arxiv_id: 0709.3388v1
+source: arxiv
+tags: [arxiv, knowledge, math, reference]
+---
+# 0709.3388v1_Loop-closure_principles_in_protein_folding
+
+> Source: 0709.3388v1_Loop-closure_principles_in_protein_folding.pdf
+
+> Pages: 27
+
+---
+
+
+## Page 1
+
+
+Loop-closure principles in protein folding
+Thomas R. Weikl
+Max Planck Institute of Colloids and Interfaces,
+Department of Theory and Bio-Systems, 14424 Potsdam, Germany
+Abstract
+Simple theoretical concepts and models have been helpful to understand the folding
+rates and routes of single-domain proteins. As reviewed in this article, a physical
+principle that appears to underly these models is loop closure.
+Key words: protein folding kinetics, native-state topology, two-state proteins,
+folding rates, contact order, topological measures, folding routes, loop-closure
+entropy, eﬀective contact order
+1
+Topology and loop closure
+The topic of this review is the relation between the folding kinetics of proteins
+and their three-dimensional, native structures. Central questions concerning
+the folding kinetics are: How do proteins fold into their native structures, and
+what are the rates and routes of folding? Since their discovery in 1991 [1],
+two-state proteins have been in the focus of experimental studies [2–5]. These
+proteins fold from the denatured state to the native state without experi-
+mentally detectable intermediate states. The size of most two-state proteins
+is rather similar, roughly between 60 and 120 residues, with a few smaller
+or larger exceptions [2, 4–6]. Nonetheless, their folding rates range over six
+orders of magnitude: the fastest proteins fold on a microsecond [7, 8] and, if
+designed for speed, sub-microsecond time scale [9,10], whereas slow two-state
+proteins fold on a time scale of seconds [11]. In 1998, Plaxco, Simons, and
+Baker [12] discovered that these folding rates correlate with a simple measure
+of the structural ‘topology’, the relative contact order (CO). The relative CO
+is the average sequence separation |i−j| of all contacts between amino acids i
+and j in the native structure, divided by the chain length. Proteins with many
+local contacts and, hence, small relative CO, tend to fold faster than proteins
+with many nonlocal, sequence-distant contacts and large relative CO. The dis-
+covery of Plaxco et al. pointed towards a ‘surprising simplicity’ [13] in protein
+arXiv:0709.3388v1  [q-bio.BM]  21 Sep 2007
+
+
+## Page 2
+
+
+folding kinetics. The folding kinetics problem, i.e. the problem of predicting
+folding rates and routes from native structures, appeared to be considerably
+simpler than the structure problem, the prediction of native structures from
+sequences, which requires detailed atomistic models [14].
+The physical principle that underlies the correlation between folding rates and
+relative CO seems to be loop closure. Contacts with small CO can be formed
+by closing a small loop, which is fast and requires a small amount of loop-
+closure entropy, compared to closing a large loop [15, 16]. It seems plausible
+that protein structures with many local contacts form faster than proteins with
+more complex structures involving many nonlocal contacts, provided that the
+loop-closure entropies, or chain entropies, dominate over sequence-dependent
+interaction energies in the folding process. The strength of the correlation be-
+tween folding rates and relative CO and related structural measures discussed
+in section 3 indicates such a dominance of topological or loop-closure aspects,
+at least for a majority of proteins. Depending on the considered set of two-state
+proteins, the absolute values |r| of the Pearson correlation coeﬃcients between
+folding rates and relative CO of two-state proteins vary between 0.75 and 0.9
+(see Table 2). The squares of these correlation coeﬃcients range roughly from
+0.6 to 0.8, which indicates that between 60 % to 80 % of the observed varia-
+tions in the folding rates can be traced back to simple aspects of the overall
+structure or topology, rather than sequence-speciﬁc energetic aspects.
+Several experimental observations support the importance of protein topol-
+ogy and loop closure. First, insertion of small loops into turns of the protein
+structure slows down folding [15,17–19]. Second, inserting covalent crosslinks
+into the protein chain speeds up the folding process [19–23]. The crosslinks
+interconnect the chain and increase the localness of some of the contacts in the
+protein structure. Third, single-residue mutations that locally perturb ener-
+getic interactions typically have a ‘less than tenfold eﬀect’ [13] on the folding
+rate, which appears small compared to the variations in folding rate observed
+for two-state proteins. For few single-residue mutants, larger changes in the
+folding rate have been observed [7,24]. Also, homologous proteins of the same
+size, which have the same structure but can diﬀer considerably in sequence,
+have folding rates that diﬀer typically by less than one or two orders of mag-
+nitude [2, 25, 26], which appears, again, small compared to the six orders of
+magnitude observed for two-state proteins.
+Can we predict folding routes from loop-closure principles? The CO or se-
+quence separation of a contact is the length of the loop that has to be closed
+to form the contact, provided that no other contacts have been formed prior
+that ‘short-circuit’ the chain. In other words, the CO measures loop lengths
+for the fully unfolded state of the protein chain. But during folding, other
+contacts may have been formed prior to a speciﬁc contact between residues i
+and j. The actual length of the loop that has be closed to form this contact
+2
+
+
+## Page 3
+
+
+in the partially folded state of the protein chain can be estimated via the
+graph-theoretical concept of eﬀective contact order (ECO) [27,28]. The ECO
+is the length of the shortest path between the two residues i and j that are
+brought in contact, see Fig. 1. The steps on this path either are bonds between
+neighboring residues in the chain, or contacts between residues that have been
+formed prior, such as contact C1 between the residues k and l in Fig. 1. In
+contrast to COs, the ECOs thus are route-dependent: they depend on the se-
+quence in which contacts are formed. On the minimum-ECO routes discussed
+in section 4, proteins fold, or ‘zip up’, in sequences of events that involve
+only closures of small loops, which minimizes the entropic loop-closure barri-
+ers during folding. The minimum-ECO routes help to understand the shape
+of Φ-value distributions from mutational analyses of the folding kinetics, see
+section 5.
+2
+Contact maps, contact clusters, and topology
+To capture the concept of native-state topology more precisely, it is helpful
+to consider native contact maps. Contact maps are two-dimensional repre-
+sentations of three-dimensional protein structures. The native contact map of
+a protein is a matrix in which element (i, j) indicates whether the residues
+i and j are in contact in the native structure. To some extent, the native
+contact map depends on the contact deﬁnition. In the map of Fig. 3(a), two
+residues are deﬁned to be in contact if the distance between their backbone
+Cα atoms is smaller than the cutoﬀdistance 7 ˚A chosen here, and in Fig. 3(b),
+if the distance between any of their non-hydrogen atoms is smaller than the
+cutoﬀdistance 4.5 ˚A. In the Cα contact map of Fig. 3(a), the contacts are
+arranged in clusters that correspond to the characteristic structural elements
+of CI2. These clusters are also present in the non-hydrogen-atom contact map
+of Fig. 3(b). In addition, the non-hydrogen-atom contact map contains more
+‘isolated’ contacts that mostly correspond to interactions of large sidechains,
+which are not represented in the backbone-centric Cα contact map. A third
+type of contact map is shown in Fig. 3(c). The diﬀerent gray tones in this map
+indicate the numbers of contacting non-hydrogen atom pairs of two residues.
+This contact map is the basis for the calculation of the relative CO.
+The contact maps of Fig. 3 indicate the chain positions i and j of contacting
+amino acids, but not which of the twenty diﬀerent types of amino acids are
+located at these positions. In other words, the contact maps do not contain
+sequence information, they just contain information on the structure. This
+structural information is rather detailed. Single-residue mutations can lead to
+deletion or addition of contacts, and homologous proteins of the same size
+can diﬀer in many native contacts. Nonetheless, single-residue mutants and
+homologous proteins have the same overall structure. To capture the overall
+3
+
+
+## Page 4
+
+
+structure or ‘structural topology’ of a protein, it is helpful to take a more
+coarse-grained view of contact maps and to focus on contact clusters, e.g. on
+the clusters in the Cα contact map of Fig. 3(a). The size of contact clusters
+may vary between wildtype and mutants of a protein, or between homologous
+proteins of similar size. But the overall location of these clusters in the contact
+map in general stays the same. The contact clusters thus capture the overall
+structural topology of a protein.
+3
+Contact order, topological measures, and folding rates
+Simple measures of native-state topology are characteristic, average properties
+of contact maps. The relative CO deﬁned by Plaxco et al. [12] is the average
+CO of all contacts between non-hydrogen atoms of the contact map shown
+in Fig. 3(c), divided by the chain length N. The CO of the contacting atoms
+simply is the sequence separation |i −j| of the two residues i ̸= j in which
+the atoms are located. Depending on the data set, the obtained correlations
+between relative CO and the folding rates of two-state proteins vary between
+0.75 and 0.92, see Table 1. Proteins with many local contacts between residues
+that are close in the chain sequence have a small relative CO and fold faster
+than proteins with many nonlocal contacts and large relative CO. The typi-
+cally fast-folding α-helical proteins have small relative COs since their contact
+maps contain many local, intra-helical contacts between residues i and i + 3
+or i + 4. Proteins with β-sheets, in contrast, have larger relative COs and,
+on average, fold slower. But also within the classes of α-helical and β-sheet
+containing proteins, signiﬁcant correlations between folding rates and relative
+CO can be observed [29].
+Related topological measures that correlate with the folding rates of two-state
+proteins are the ‘long-range order’ [30], the ‘total contact distance’ [31], and
+the number QD of nonlocal contacts with CO > 12 [32,33] (see Table 1). The
+long-range order is the number of contacts with CO > 12, divided by the
+chain length, and the total contact distance is the sum over the COs of all
+contacts, divided by the chain length squared. The topomer-search model of
+Makarov et al. [32, 33] predicts that the number QD of nonlocal contacts is
+proportional to log kf/QD where kf is the folding rate [32, 33]. The diﬀusive
+search for a topomer [32–35], i.e. for the “set of unfolded conformations that
+share a common, global topology with the native state” [33], has been sug-
+gested as a physical principle that underlies the correlation between relative
+CO and folding rates [32, 33, 36]. Recent extensive simulations with an oﬀ-
+lattice model indicate, however, that an unbiased diﬀusive search process for a
+native topomer “would take an impossibly long average time to complete” [37].
+Can topological measures capture the increase in folding rate that is caused
+4
+
+
+## Page 5
+
+
+by the insertion of covalent chain crosslinks [19–22]? Inserting crosslinks such
+as disulﬁde bonds into the protein chain increases the localness of some of
+the native contacts, since the crosslinks ‘short-circuit’ the chain. The natural
+extension of the CO of a contact in a crosslinked chain is the minimum number
+of covalently connected residues between the two residues in contact. This
+minimum number is the ECO of the contact in the crosslinked but otherwise
+unfolded chain, and the relative ECO is the natural extension of the relative
+CO for a crosslinked chain. The relative ECO appears to overestimate changes
+in the folding rates caused by crosslinks [38]. But a closely related pair of
+measures, the relative logCO and relative logECO, captures the folding rates
+of two-state proteins with and without crosslinks [38]. The relative logCO is
+the average value for the logarithm of the CO of all contacts, divided by the
+logarithm of the chain length, and the relative logECO is the natural extension
+of this measure for crosslinked chains.
+Do topological measures also predict folding rates of non-two-state proteins?
+Non-two-state proteins exhibit at least one metastable, experimentally de-
+tectable intermediate state during folding. The correlations between relative
+CO and folding rates of protein sets that contain both two-state and non-
+two-state proteins are insigniﬁcant (see Table 2). For these protein sets, the
+correlation coeﬃcients between absolute CO and folding rates are much larger
+than the correlation coeﬃcients for the relative CO [39], in contrast to two-
+state proteins (see Table 1 and 2). The absolute CO is the average CO of all
+native contacts, without the chain-length-dependent rescaling factor 1/N of
+the relative CO. Non-two-state proteins also exhibit strong correlations with
+the logarithm and the square root of the chain length N.
+There are also other simple models for protein folding rates. A conceptually
+somewhat diﬀerent topological measure that correlates with protein folding
+rates is ‘cliquishness’ [40], which characterizes the overall clustering tendency
+of native contacts. In the past years, several groups have found that protein
+folding rates correlate with secondary structure content [41–43] or secondary
+propensity [44, 45]. It has recently been suggested that secondary structure
+determines protein topology [46]. Native-state topology and loop closure thus
+may again be the principles that underlie the correlations between secondary
+structural measures and folding rates. The topology and chain-length depen-
+dence of folding rates has also been studied in lattice [47–51] and simple oﬀ-
+lattice models of proteins [52–55]. In lattice models, relatively strong correla-
+tions between folding rates and relative CO of model structures are observed
+if energetic terms that increase the folding cooperativity are included [47–49].
+5
+
+
+## Page 6
+
+
+4
+Folding routes and eﬀective contact order
+The correlations between protein folding rates and simple topological measures
+inspired the development of statistical-mechanical models based on native-
+state topology. These models can be grouped into three classes. First, there
+are models that use explicit representations of the protein chain with Go-type
+energy potentials [52, 54–64], named after the Japanese physicist Nobuhiro
+Go [65]. In these potentials, amino acids that are in contact in the native
+structure attract each other, while amino acids not in contact in the native
+structure repel each other, irrespective, at least to some extent, of the physical
+interactions between the amino acids. The second class of models assumes
+that amino acids can be in either of two states: native-like structured, or
+unstructured [66–78]. Partially folded states then are described by sets of
+structured amino acids. These models are inspired by the Zimm-Bragg model
+for helix-coil transitions [79], which assumes that amino acids in helices can
+either be in a helix or a coil state. In the third class of models, partially
+folded states are characterized by the subset of native contacts formed in
+these states [80–84]. 1
+Folding routes can be predicted from native contact maps rather directly via
+the concept of eﬀective contact order (ECO). The ECO is an estimate for the
+length of the loop that has to be closed to form a contact or contact cluster
+in a partially folded chain conformation (see Fig. 1). The contact clusters
+in a native contact map represent the characteristic structural elements of
+a protein. MD simulations indicate increased correlations between contacts
+of the same contact cluster [92]. In a coarse-grained view, individual folding
+routes can be described by the sequence in which contact clusters are formed.
+For the protein CI2, which has just four contact clusters, there are 4! = 24
+possible sequences in which the clusters can be formed. The length of the loop
+that has to be closed to form a contact cluster in general depends on the
+sequence in which the clusters are formed. For example, the contact cluster
+β1β4 in the contact map of Fig. 3(a) represents contacts between the two
+terminal strands β1 and β4 of CI2. Forming this contact cluster from the
+fully unfolded state, i.e. prior to the other three clusters, requires to close a
+relatively large loop of length 42 (see Table 3). However, forming β1β4 after the
+other three clusters α, β2β3, and β3β4 requires only to close a relatively small
+loop of length 7. The reason is that the contacts of the clusters α, β2β3, and
+β3β4 short-circuit the chain, which brings the two chain ends with the strands
+β1 and β4 into closer spatial proximity. On the minimum-ECO route [80,83],
+i.e. the folding route that minimizes the loop lengths and, thus, the entropic
+1 Other approaches that do not directly fall in one these three classes are the
+diﬀusion-collision model of Karplus and Weaver [85–87] as well as free-energy-
+functional [88,89] and perturbed-Gaussian-chain methods [90,91].
+6
+
+
+## Page 7
+
+
+loop-closure barriers, the cluster β1β4 is formed after the clusters α, β2β3, and
+β3β4. On this route, α, β2β3, and β3β4 form in parallel since the ECOs of these
+three clusters do not depend on the sequence in which they are formed (see
+Fig. 4).
+In general, there are two scenarios for two contact clusters (or structural ele-
+ments) A and B of a protein. In the ﬁrst scenario, the ECOs (or loop lengths)
+of the contact clusters A and B do not depend on the sequence in which the
+clusters are formed. The two clusters then are predicted to form parallel to each
+other. In the second scenario, the ECO of one of the two clusters, e.g. cluster
+B, is signiﬁcantly smaller if cluster A is formed prior to B. The clusters are
+then predicted to form sequentially, provided that the total loop-closure cost
+for cluster B along this route, which includes the loop-closure cost for cluster
+A, is smaller than on other routes [83]. An important point here is that the
+loop-closure dependencies between two contact clusters typically are strong in
+the second scenario, i.e. the diﬀerences in loop lengths are large if the sequence
+of events in which the clusters are formed is reversed. Therefore, simple es-
+timates of loop-closure entropies [80,82] or minimization of loop lengths [83]
+are suﬃcient to derive the dominant minimum-ECO or minimum-entropy-loss
+routes. Detailed calculations show that the entropy loss for closing a loop in
+an unfolded chain is proportional to the logarithm of the loop length for large
+loops [16,93–96], while the closure of short loops with up to about 5 residues
+is impeded by the chain stiﬀness [95–98].
+5
+Φ-value distributions and topology
+Several experimental methods provide information on folding routes. The char-
+acterization of metastable, partially folded states of non-two-state proteins
+gives direct information on folding intermediates, provided these metastable
+states or ‘on-route’ to the native state, and not ‘oﬀ-route’ traps. Structural
+information on these intermediates can be obtained with hydrogen-exchange
+or NMR methods [99–105]. Two-state proteins do not exhibit experimentally
+detectable, metastable intermediates during folding. Instead, the folding ki-
+netics of many two-state proteins has been investigated via mutational anal-
+ysis [11,106–124]. In a mutational analysis, a large number of mostly single-
+residue mutants of a protein is generated. For each mutant, the eﬀect of the
+mutation on the folding dynamics is quantiﬁed by its Φ-value [3,125]
+Φ = RT ln(kwt/kmut)
+∆GN
+(1)
+Here, kwt is the folding rate for the wildtype protein, kmut is the folding rate
+for the mutant protein, and ∆GN is the change of the protein stability induced
+7
+
+
+## Page 8
+
+
+by the mutation. The stability GN of a protein is the free energy diﬀerence
+between the denatured state D and the native state N. In a more recent
+method termed Ψ-value analysis, divalent biHis metal-ion binding sites are
+introduced into a protein, and the folding rate of the mutant protein is studied
+as a function of the metal-ion concentration [126–129].
+Φ-values have been calculated in statistical-mechanical models that are based
+on native structures [57, 59, 61–63, 66–71, 91] and from Molecular Dynamics
+unfolding simulations at elevated temperatures [130–132]. The detailed mod-
+eling of Φ-values requires estimates for mutation-induced free energy changes
+[133,134], which goes beyond simple topology-based modeling. However, on a
+more coarse-grained level, the level of average Φ-values for secondary struc-
+tural elements, important aspects of Φ-value distributions are captured by
+native-state topology. An average Φ-value close to zero for a secondary struc-
+tural element (i.e. a helix or a β-strand) indicates that mutations in the sec-
+ondary element aﬀect the folding rate only marginally, see eq. (1). In contrast,
+a large average Φ-value indicates that mutations have a strong impact on the
+folding rate. In a sense, the average Φ-values thus capture the ‘kinetic im-
+pact’ of secondary elements. The kinetic impact can also be estimated from
+minimum-ECO routes. The minimum-ECO route of the src SH3 domain is
+shown in Fig. 5. Here, an arrow pointing from a contact cluster A to a cluster
+B in the contact map indicates that A is formed prior to B. On the minimum-
+ECO route, the contact cluster RT-β4 forms after β2β3 and β3β4, and the clus-
+ter β1β5 after RT, β2β3 and β3β4. The clusters RT-β4 and β1β5 are nonlocal
+clusters and form in parallel on this route. The other three large contact clus-
+ters, the RT loop, an irregular, hairpin-like structure, and the two β-hairpins
+β2β3 and β3β4, are local clusters. Local clusters contain contacts with small
+CO and, thus, are located close to the diagonal of the contact map.
+The kinetic impact of a contact cluster can be estimated from how often the
+cluster appears along the minimum-ECO route to other clusters [83]. The
+kinetic impact here is a semi-quantitative concept and can attain the values
+high, medium, or low. The kinetic impact of β2β3 and β3β4, for example, is high
+since these clusters appear on the route to both nonlocal clusters. The kinetic
+impact of RT is medium since the cluster only appears on the route to β1β5.
+The kinetic impact of β1β5 and, thus, of the strands β1 and β5 is low since this
+cluster form last. The kinetic impact derived from the minimum-ECO route
+agrees with average Φ-values for the secondary elements (see Fig. 5). The Φ-
+value distribution of the src SH3 domain is polarized, i.e. the average Φ-values
+are large for some of the secondary elements (the strands β2, β3, and β4),
+and small for others (the strands β1 and β5). The agreement between average
+Φ-values and estimated kinetic impact shows that the polarized shape of the
+Φ-value distribution can be understood from simple topology-based modeling.
+The Φ-value distributions of two-state proteins are either polarized or diﬀuse.
+8
+
+
+## Page 9
+
+
+In a diﬀuse distribution, the average Φ-values for the secondary elements are
+of similar magnitude and diﬀer not more than, say, a factor 2 from each other.
+A diﬀuse distribution of kinetic impact occurs, e.g., if all clusters are involved
+on an ‘equal footing’ in the formation of a single rate-limiting cluster. On the
+minimum-ECO route of CI2, for example, β1β4 forms after the other three
+clusters, which results in a diﬀuse distribution of kinetic impact, in agreement
+with the experimental Φ-value distribution [83]. A polarized distribution, in
+contrast, occurs if some clusters have a central role on the minimum-ECO
+route, such as the clusters β2β3 and β3β4 of the src SH3 domain. Also for other
+two-state proteins, the diﬀuse of polarized shape of their Φ-value distributions
+can be traced back to minimum-ECO routes and native-state topology [83].
+Minimum-ECO routes also help to understand why ‘topological mutations’
+such as circular permutations can have a drastic impact on the Φ-value distri-
+bution [80]. In a circular permutation, the chain ends of a protein are covalently
+connected, and the chain is ‘opened’ at a diﬀerent location [20,135–140]. The
+protein still folds into the same structure [135], but the ‘rewiring’ of the protein
+chain changes the loop-closure connections between the structural elements,
+and hence the minimum-ECO routes. The eﬀect of circular permutations on
+folding routes and Φ-value distributions has also been studied with protein
+models that use explicit chain representations and Go-type potentials [58,141].
+The prediction of minimum-ECO routes is purely topology-based, i.e. it is
+based on native contact clusters and the entropic loop-closure dependencies
+between these clusters. Sequence-dependent, energetic eﬀects may play a role
+if parallel processes on minimum-ECO routes have a similar loop-closure cost.
+The sequence-dependent energies then can lead to a situation where one of
+these processes dominates the folding kinetics [83].
+6
+Summary and outlook
+The kinetic protein folding principle considered in this article is loop closure.
+Evidence for such a principle comes from strong correlations between protein
+folding rates and topological measures, and from experiments in which the
+eﬀect of loop insertions [15, 17–19] or crosslinks [19–23] on the kinetics is
+studied. Simple ‘zipping’ or minimum-ECO models that are based on the loop-
+closure relations between structural elements help to understand the shape of
+Φ-value distributions from mutational analysis of the folding kinetics [83].
+We have focused here an kinetic models and measures that are based on native-
+state topology. In the past years, the microsecond folding of ultrafast proteins
+has also been studied in Molecular Dynamics simulations with physical, atom-
+istic force ﬁelds [142–145]. An ultimate goal is to model both native structures
+9
+
+
+## Page 10
+
+
+and folding kinetics with such physical, sequence-based force ﬁelds. Even if this
+goal is achieved, the question remains whether there are simple principles that
+govern protein folding, such as the loop-closure principle considered here. In
+the next decade(s), detailed atomistic folding trajectories of two-state proteins
+may help to assess and establish such principles.
+Acknowledgements
+I would like to thank Ken Dill for inspiring discussions, and Purushottam
+Dixit, Matteo Palassini, and Lothar Reich for fruitful collaborations.
+References
+[1]
+S. E. Jackson, A. R. Fersht, Folding of chymotrypsin inhibitor-2. 1. Evidence
+for a two-state transition, Biochemistry 30 (1991) 10428–10435.
+[2]
+S. E. Jackson, How do small single-domain proteins fold?, Fold. Des. 3 (1998)
+R81–R91.
+[3]
+A. R. Fersht, Structure and mechanism in protein science, W. H. Freeman,
+New York, 1999.
+[4]
+V. Grantcharova, E. J. Alm, D. Baker, A. L. Horwich, Mechanisms of protein
+folding, Curr. Opin. Struct. Biol. 11 (2001) 70–82.
+[5]
+K. L. Maxwell, D. Wildes, A. Zarrine-Afsar, M. A. de los Rios, A. G. Brown,
+C. T. Friel, L. Hedberg, J. C. Horng, D. Bona, E. J. Miller, A. Vallee-
+Belisle, E. R. Main, F. Bemporad, L. Qiu, K. Teilum, N. D. Vu, A. Edwards,
+I. Ruczinski, F. M. Poulsen, B. B. Kragelund, S. W. Michnick, F. Chiti, Y. Bai,
+S. J. Hagen, L. Serrano, M. Oliveberg, D. P. Raleigh, P. Wittung-Stafshede,
+S. E. Radford, S. E. Jackson, T. R. Sosnick, S. Marqusee, A. R. Davidson,
+K. W. Plaxco, Protein folding: deﬁning a “standard” set of experimental
+conditions and a preliminary kinetic data set of two-state proteins, Protein
+Sci. 14 (2005) 602–616.
+[6]
+K. Kamagata, M. Arai, K. Kuwajima, Uniﬁcation of the folding mechanisms
+of non-two-state and two-state proteins, J. Mol. Biol. 339 (2004) 951–965.
+[7]
+W. Y. Yang, M. Gruebele, Folding at the speed limit, Nature 423 (2003) 193–
+197.
+[8]
+J. Kubelka, J. Hofrichter, W. A. Eaton, The protein folding ‘speed limit’, Curr.
+Opin. Struct. Biol. 14 (2004) 76–88.
+[9]
+Y. Xu, P. Purkayastha, F. Gai, Nanosecond folding dynamics of a three-
+stranded β-sheet, J. Am. Chem. Soc. 128 (2006) 15836–15842.
+10
+
+
+## Page 11
+
+
+[10] J. Kubelka, T. K. Chiu, D. R. Davies, W. A. Eaton, J. Hofrichter, Sub-
+microsecond protein folding, J. Mol. Biol. 359 (2006) 546–553.
+[11] F. Chiti, N. Taddei, P. M. White, M. Bucciantini, F. Magherini, M. Stefani,
+C. M. Dobson, Mutational analysis of acylphosphatase suggests the importance
+of topology and contact order in protein folding, Nat. Struct. Biol. 6 (1999)
+1005–1009.
+[12] K. W. Plaxco, K. T. Simons, D. Baker, Contact order, transition state
+placement and the refolding rates of single domain proteins, J. Mol. Biol.
+277 (1998) 985–994.
+[13] D. Baker, A surprising simplicity to protein folding, Nature 405 (2000) 39–42.
+[14] P. Bradley, K. M. Misura, D. Baker, Toward high-resolution de novo structure
+prediction for small proteins, Science 309 (2005) 1868–1871.
+[15] A. R. Fersht, Transition-state structure as a unifying basis in protein-folding
+mechanisms: Contact order, chain topology, stability, and the extended nucleus
+mechanism, Proc. Natl. Acad. Sci. USA 97 (2000) 1525–1529.
+[16] H.-X. Zhou, Loops, linkages, rings, catenanes, cages, and crowders: Entropy-
+based strategies for stabilizing proteins, Acc. Chem. Res. 37 (2004) 123–130.
+[17] A. G. Ladurner, A. R. Fersht, Glutamine, alanine or glycine repeats inserted
+into the loop of a protein have minimal eﬀects on stability and folding rates,
+J. Mol. Biol. 273 (1997) 330–337.
+[18] A.-R. Viguera, L. Serrano, Loop length, intromolecular diﬀusion, and protein
+folding, Nat. Struct. Biol. 4 (1997) 939–946.
+[19] V. P. Grantcharova, D. S. Riddle, D. Baker, Long-range order in the src SH3
+folding transition state, Proc. Natl. Acad. Sci. USA 97 (2000) 7084–7089.
+[20] D. E. Otzen, A. R. Fersht, Folding of circular and permuted chymotrypsin
+inhibitor 2: Retention of the folding nucleus, Biochemistry 37 (1998) 8139–
+8146.
+[21] N. Sch¨onbrunner, G. Pappenberger, M. Scharf, J. Engels, T. Kiefhaber, Eﬀect
+of preformed correct tertiary interactions on rapid two-state tendamistat
+folding: Evidence for hairpins as initiation sites for β-sheet formation,
+Biochemistry 36 (1997) 9057–9065.
+[22] J. A. Camarero, D. Fushman, S. Sato, I. Giriat, D. Cowburn, D. P. Raleigh,
+T. W. Muir, Rescuing a destabilized protein fold through backbone cyclization,
+J. Mol. Biol. 308 (2001) 1045–1062.
+[23] R. K. Ainavarapu, J. Brujic, H. H. Huang, A. P. Wiita, H. Lu, L. W. Li,
+K. A. Walther, M. Carrion-Vazquez, H. B. Li, J. M. Fernandez, Contour length
+and refolding rate of a small protein controlled by engineered disulﬁde bonds,
+Biophys. J. 92 (2007) 225–233.
+11
+
+
+## Page 12
+
+
+[24] R. E. Burton, G. Huang, M. A. Daugherty, P. W. Fullbright, T. G. Oas,
+Microsecond protein folding through a compact transition state, J. Mol. Biol.
+263 (1996) 311–322.
+[25] K. Gunasekaran, S. J. Eyles, A. T. Hagler, L. M. Gierasch, Keeping it in the
+family: folding studies of related proteins, Curr. Opin. Struct. Biol. 11 (2001)
+83–93.
+[26] A. Zarrine-Afsar, S. M. Larson, A. R. Davidson, The family feud: do proteins
+with similar structures fold via the same pathway?, Curr. Opion. Struct. Biol.
+15 (2005) 42–49.
+[27] K. Dill, K. M. Fiebig, H. S. Chan, Cooperativity in protein-folding kinetics,
+Proc. Natl. Acad. Sci. USA 90 (193) 1942–1946.
+[28] K. M. Fiebig, K. A. Dill, Protein core assembly processes, J. Chem. Phys. 98
+(1993) 3475–3487.
+[29] I. B. Kuznetsov, S. Rackovsky, Class-speciﬁc correlations between protein
+folding rate, structure-derived, and sequence-derived descriptors, Proteins 54
+(2004) 333–341.
+[30] M. M. Gromiha, S. Selvaraj, Comparison between long-range interactions and
+contact order in determining the folding rate of two-state proteins: Application
+of long-range order to folding rate prediction, J. Mol. Biol. 310 (2001) 27–32.
+[31] H. Zhou, Y. Zhou, Folding rate prediction using total contact distance,
+Biophys. J. 82 (2002) 458–463.
+[32] D. E. Makarov, C. A. Keller, K. W. Plaxco, H. Metiu, How the folding rate
+constant of simple, single-domain proteins depends on the number of native
+contacts, Proc. Natl. Acad. Sci. USA 99 (2002) 3535–3539.
+[33] D. E. Makarov, K. W. Plaxco, The topomer search model: A simple,
+quantitative theory of two-state protein folding kinetics, Protein Sci. 12 (2003)
+17–26.
+[34] D. A. Debe, M. J. Carlson, W. A. Goddard, The topomer-sampling model of
+protein folding, Proc. Natl Acad. Sci. USA 96 (1999) 2596–2601.
+[35] D. A. Debe, W. A. Goddard, First principles prediction of protein folding
+rates, J. Mol. Biol. 294 (1999) 619–625.
+[36] B. Gillespie, K. W. Plaxco, Using protein folding rates to test protein folding
+theories, Annu. Rev. Biochem. 73 (2004) 837–859.
+[37] S. Wallin, H. S. Chan, A critical assessment of the topomer search model
+of protein folding using a continuum explicit-chain model with extensive
+conformational sampling, Protein Sci. 14 (2005) 1643–1660.
+[38] P. D. Dixit, T. R. Weikl, A simple measure of native-state topology and chain
+connectivity predicts the folding rates of two-state proteins with and without
+crosslinks, Proteins 64 (2006) 193–197.
+12
+
+
+## Page 13
+
+
+[39] D. N. Ivankov, S. O. Garbuzynskiy, E. Alm, K. W. Plaxco, D. Baker, A. V.
+Finkelstein, Contact order revisited: Inﬂuence of protein size on the folding
+rate, Protein Sci. 12 (2003) 2057–2062.
+[40] C. Micheletti, Prediction of folding rates and transition-state placement from
+native-state geometry, Proteins 51 (2003) 74–84.
+[41] H. P. Gong, D. G. Isom, R. Srinivasan, G. D. Rose, Local secondary structure
+content predicts folding rates for simple, two-state proteins, J. Mol. Biol. 327
+(2003) 1149–1154.
+[42] N. P. Prabhu, A. K. Bhuyan, Prediction of folding rates of small proteins:
+Empirical relations based on length, secondary structure content, residue type,
+and stability, Biochemistry 45 (2006) 3805–3812.
+[43] J.-T. Huang, J.-P. Chen, H. Chen, Secondary structure length as a determinant
+of folding rate of proteins with two- and three-state kinetics, Proteins 67 (2007)
+12–17.
+[44] D. N. Ivankov, A. V. Finkelstein, Prediction of protein folding rates from
+the amino acid sequence-predicted secondary structure, Proc. Natl. Acad. Sci.
+USA 101 (2004) 8942–8944.
+[45] J.-T. Huang, J. Tian, Amino acid sequence predicts folding rate for middle-size
+two-state proteins, Proteins 63 (2006) 551–554.
+[46] P. J. Fleming, H. P. Gong, G. D. Rose, Secondary structure determines protein
+topology, Protein Sci. 15 (2006) 1829–1834.
+[47] A. I. Jewett, V. S. Pande, K. W. Plaxco, Cooperativity, smooth energy
+landscapes and the origins of topology-dependent protein folding rates, J. Mol.
+Biol. 326 (2003) 247–253.
+[48] H. Kaya, H. S. Chan, Contact order dependent protein folding rates:
+Kinetic consequences of a cooperative interplay between favorable nonlocal
+interactions and local conformational preferences, Proteins 52 (2003) 524–533.
+[49] H. S. Chan, S. Shimizu, H. Kaya, Cooperativity principles in protein folding.,
+Methods. Enzymol. 380 (2004) 350–379.
+[50] P. F. N. Faisca, M. M. T. da Gama, Native geometry and the dynamics of
+protein folding, Biophys. Chem. 115 (2005) 169–175.
+[51] S. Kachalo, H. M. Lu, J. Liang, Protein folding dynamics via quantiﬁcation of
+kinematic energy landscape, Phys. Rev. Lett. 96 (2006) 058106.
+[52] N. Koga, S. Takada, Roles of native topology and chain-length scaling in
+protein folding: A simulation study with a Go-like model, J. Mol. Biol. 313
+(2001) 171–180.
+[53] M. Cieplak, T. X. Hoang, Universality classes in folding times of proteins,
+Biophys. J. 84 (2003) 475–488.
+13
+
+
+## Page 14
+
+
+[54] M. R. Ejtehadi, S. P. Avall, S. S. Plotkin, Three-body interactions improve
+the prediction of rate and mechanism in protein folding models, Proc. Natl.
+Acad. Sci. USA 101 (2004) 15088–15093.
+[55] S. Wallin, H. S. Chan, Conformational entropic barriers in topology-dependent
+protein folding: perspectives from a simple native-centric polymer model, J.
+Phys. 18 (2006) S307–S328.
+[56] J. E. Shea, J. N. Onuchic, C. L. Brooks III, Exploring the origins of topological
+frustration: design of a minimally frustrated model of fragment B of protein
+A, Proc. Natl. Acad. Sci. USA, 96 (1999) 12512–12517.
+[57] C. Clementi, H. Nymeyer, J. N. Onuchic, Topological and energetic factors:
+What determines the structural details of the transition state ensemble
+and “en-route” intermediates for protein folding? An investigation for small
+globular proteins, J. Mol. Biol. 298 (2000) 937–953.
+[58] C. Clementi, P. A. Jennings, J. N. Onuchic, Prediction of folding mechanism
+for circular-permuted proteins, J. Mol. Biol. 311 (2001) 879–890.
+[59] C. Clementi, A. E. Garcia, J. N. Onuchic, Interplay among tertiary contacts,
+secondary structure formation and side-chain packing in the protein folding
+mechanism: All-atom representation study of protein L, J. Mol. Biol. 326
+(2003) 933–954.
+[60] T. X. Hoang, M. Cieplak, Sequencing of folding events in Go-type proteins, J.
+Chem. Phys. 113 (2000) 8319–8328.
+[61] L. Li, E. I. Shakhnovich, Constructing, verifying, and dissecting the folding
+transition state of chymotrypsin inhibitor 2 with all-atom simulations, Proc.
+Natl. Acad. Sci. USA 98 (2001) 13014–13018.
+[62] J. Karanicolas, C. L. Brooks III, The origins of asymmetry in the folding
+transition states of protein L and protein G, Protein Sci. 11 (2002) 2351–2361.
+[63] S. Brown, T. Head-Gordon, Intermediates and the folding of proteins L and
+G, Protein Sci. 13 (2004) 958–970.
+[64] M. Qin, J. Zhang, W. Wang, Eﬀects of disulﬁde bonds on folding behavior and
+mechanism of the β-sheet protein tendamistat, Biophys. J. 90 (2006) 272–286.
+[65] H. Taketomi, Y. Ueda, N. Go, Studies on protein folding, unfolding and
+ﬂuctuations by computer simulation. I. The eﬀect of speciﬁc amino acid
+sequence represented by speciﬁc inter-unit interactions, Int. J. Pept. Protein
+Res. 7 (1975) 445–459.
+[66] E. Alm, D. Baker, Prediction of protein-folding mechanisms from free-energy
+landscapes derived from native structures, Proc. Natl. Acad. Sci. USA 96
+(1999) 11305–11310.
+[67] V. Mu˜noz, W. A. Eaton, A simple model for calculating the kinetics of protein
+folding from three-dimensional structures, Proc. Natl. Acad. Sci. USA 96
+(1999) 11311–11316.
+14
+
+
+## Page 15
+
+
+[68] O. V. Galzitskaya, A. V. Finkelstein, A theoretical search for folding/unfolding
+nuclei in three-dimensional protein structures, Proc. Natl. Acad. Sci. USA 96
+(1999) 11299–11304.
+[69] S. O. Garbuzynskiy, A. V. Finkelstein, O. V. Galzitskaya, Outlining folding
+nuclei in globular proteins, J. Mol. Biol. 336 (2004) 509–525.
+[70] R. Guerois, L. Serrano, The SH3-fold family: Experimental evidence and
+prediction of variations in the folding pathways, J. Mol. Biol. 304 (2000) 967–
+982.
+[71] E. Alm, A. V. Morozov, T. Kortemme, D. Baker, Simple physical models
+connect theory and experiment in protein folding kinetics, J. Mol. Biol. 322
+(2002) 463–476.
+[72] P. Bruscolini, A. Pelizzola, Exact solution of the Mu˜noz-Eaton model for
+protein folding, Phys. Rev. Lett. 88 (2002) 258101.
+[73] J.
+Karanicolas,
+C.
+L.
+Brooks
+III,
+The
+importance
+of
+explicit
+chain
+representation in protein folding models: An examination of Ising-like models,
+Proteins 53 (2003) 740–747.
+[74] E. R. Henry, W. A. Eaton, Combinatorial modeling of protein folding kinetics:
+Free energy proﬁles and rates, Chem. Phys. 307 (2004) 163–185.
+[75] E. D. Nelson, N. V. Grishin, Alternate pathways for folding in the ﬂavodoxin
+fold family revealed by a nucleation-growth model, J. Mol. Biol. 358 (2006)
+646–653.
+[76] R. Zwanzig, Simple model of protein folding kinetics, Proc. Natl. Acad. Sci.
+92 (1995) 9801–9804.
+[77] V. J. Hilser, E. Freire, Structure-based calculation of the equilibrium folding
+pathway of proteins. Correlation with hydrogen exchange protection factors,
+J. Mol. Biol. 262 (1996) 756–772.
+[78] V. J. Hilser, B. Garcia-Moreno, T. G. Oas, G. Kapp, S. T. Whitten, A
+statistical thermodynamic model of the protein ensemble, Chem. Rev. 106
+(2006) 1545–1558.
+[79] B. H. Zimm, J. K. Bragg, Theory of the phase transition between helix and
+random coil, J. Chem. Phys. 31 (1959) 526–535.
+[80] T. R. Weikl, K. A. Dill, Folding rates and low-entropy-loss routes of two-state
+proteins, J. Mol. Biol. 329 (2003) 585–598.
+[81] T. R. Weikl, K. A. Dill, Folding kinetics of two-state proteins: Eﬀect of
+circularization, permutation, and crosslinks, J. Mol. Biol. 332 (2003) 953–963.
+[82] T. R. Weikl, M. Palassini, K. A. Dill, Cooperativity in two-state protein folding
+kinetics, Protein Sci. 13 (2004) 822–829.
+[83] T. R. Weikl, Loop-closure events during protein folding: Rationalizing the
+shape of Φ-value distributions, Proteins 60 (2005) 701–711.
+15
+
+
+## Page 16
+
+
+[84] A. Shmygelska, Search for folding nuclei in native protein structures,
+Bioinformatics 21 (2005) I394–I402.
+[85] M. Karplus, D. L. Weaver, Protein-folding dynamics, Nature 260 (1976) 404–
+406.
+[86] M. Karplus, D. Weaver, Protein-folding dynamics: The diﬀusion-collision
+model and experimental data, Protein Sci. 3 (1994) 650–668.
+[87] S. A. Islam, M. Karplus, D. L. Weaver, Application of the diﬀusion-collision
+model to the folding of three-helix bundle proteins, J. Mol. Biol. 318 (2002)
+199–215.
+[88] B. A. Shoemaker, J. Wang, P. G. Wolynes, Structural correlations in protein
+folding funnels, Proc. Natl. Acad. Sci. USA 94 (1997) 777–782.
+[89] B. A. Shoemaker, J. Wang, P. G. Wolynes, Exploring structures in protein
+folding funnels with free energy functionals: The transition state ensemble, J.
+Mol. Biol. 287 (1999) 675–694.
+[90] J. J. Portman, S. Takada, P. G. Wolynes, Microscopic theory of protein folding
+rates. I. Fine structure of the free energy proﬁle and folding routes from a
+variational approach, J. Chem. Phys. 114 (2001) 5069–5081.
+[91] T. Kameda, Importance of sequence speciﬁcity for predicting protein folding
+pathways: Perturbed Gaussian chain model, Proteins 53 (2000) 616–628.
+[92] L. Reich, T. R. Weikl, Substructural cooperativity and parallel versus
+sequential events during protein unfolding, Proteins 63 (2006) 1052–1058.
+[93] H. Jacobson, W. H. Stockmayer, Intramolecular reaction in polycondensations.
+I. The theory of linear systems, J. Chem. Phys. 18 (1950) 1600–1606.
+[94] H. S. Chan, K. A. Dill, The eﬀects of internal constraints on the conﬁgurations
+of chain molecules, J. Chem. Phys. 92 (1990) 3118–3135.
+[95] C. J. Camacho, D. Thirumalai, Theoretical predictions of folding pathways
+by using the proximity rule, with applications to bovine pancreatic trypsin
+inhibitor, Proc. Natl. Acad. Sci. USA 92 (1995) 1277–1281.
+[96] H.-X. Zhou, Loops in proteins can be modeled as worm-like chains, J. Phys.
+Chem. B 105 (2001) 6763–6766.
+[97] M. S. Kellermayer, S. B. Smith, H. L. Granzier, C. Bustamante, Folding-
+unfolding transitions in single titin molecules characterized with laser tweezers,
+Science 276 (1997) 1112–1116.
+[98] H. Dietz, F. Berkemeier, M. Bertz, M. Rief, Anisotropic deformation response
+of single protein molecules, Proc. Natl. Acad. Sci. USA 103 (2006) 12724–
+12728.
+[99] S. W. Englander, Protein folding intermediates and pathways studied by
+hydrogen exchange, Annu. Rev. Biophys. Biomol. Struct. 29 (2000) 213–238.
+16
+
+
+## Page 17
+
+
+[100] C. R. Matthews, Pathways of protein folding, Annu. Rev. Biochem. 62 (1993)
+653–683.
+[101] Y. Bai, T. R. Sosnick, L. Mayne, S. W. Englander, Protein folding
+intermediates: Native-state hydrogen exchange, Science 269 (1995) 192–197.
+[102] J. Juneja, J. B. Udgaonkar, NMR studies of protein folding, Current Science
+84 (2003) 157–172.
+[103] M. M. Krishna, L. Hoang, Y. Lin, S. W. Englander, Hydrogen exchange
+methods to study protein folding, Methods 34 (2004) 51–64.
+[104] Y. W. Bai, Protein folding pathways studied by pulsed-and native-state
+hydrogen exchange, Chem. Rev. 106 (2006) 1757–1768.
+[105] T. E. Wales, J. R. Engen, Hydrogen exchange mass spectrometry for the
+analysis of protein dynamics, Mass Spectrom. Rev. 25 (2006) 158–170.
+[106] L. S. Itzhaki, D. E. Otzen, A. R. Fersht, The structure of the transition state for
+folding of chymotrypsin inhibitor 2 analysed by protein engineering methods:
+Evidence for a nucleation-condensation mechanism for protein folding, J. Mol.
+Biol. 254 (1995) 260–288.
+[107] V. Villegas, J. C. Martinez, F. X. Aviles, L. Serrano, Structure of the transition
+state in the folding process of human procarboxypeptidase A2 activation
+domain, J. Mol. Biol. 283 (1998) 1027–1036.
+[108] T. Ternstr¨om, U. Mayor, M. Akke, M. Oliveberg, From snapshot to movie: Φ
+analysis of protein folding transition states taken one step further, Proc. Natl.
+Acad. Sci. USA 96 (1999) 14854–14859.
+[109] B. B. Kragelund, P. Osmark, T. B. Neergaard, J. Schiodt, K. Kristiansen,
+J. Knudsen, F. M. Poulsen, The formation of a native-like structure containing
+eight conserved hydrophobic residues is rate limiting in two-state protein
+folding of ACBP, Nat. Struct. Biol. 9 (1999) 594–601.
+[110] J. C. Martinez, L. Serrano, The folding transition state between SH3 domains
+is conformationally restricted and evolutionarily conserved, Nat. Struct. Biol.
+6 (1999) 1010–1016.
+[111] D. S. Riddle, V. P. Grantcharova, J. V. Santiago, E. Alm, I. Ruczinski,
+D. Baker, Experiment and theory highlight role of native state topology in
+SH3 folding, Nat. Struct. Biol. 6 (1999) 1016–1024.
+[112] K. F. Fulton, E. R. G. Main, V. Daggett, S. E. Jackson, Mapping the
+interactions present in the transition state for unfolding/folding of FKBP12,
+J. Mol. Biol. 291 (1999) 445–461.
+[113] S. J. Hamill, A. Steward, J. Clarke, The folding of an immunoglobulin-like
+greek key protein is deﬁned by a common-core nucleus and regions constrained
+by topology, J. Mol. Biol. 297 (2000) 165–178.
+17
+
+
+## Page 18
+
+
+[114] D. E. Kim, C. Fisher, D. Baker, A breakdown of symmetry in the folding
+transition state of protein L, J. Mol. Biol. 298 (2000) 971–984.
+[115] E. L. McCallister, E. Alm, D. Baker, Critical role of β-hairpin formation in
+protein G folding, Nat. Struct. Biol. 7 (2000) 669–673.
+[116] M. J¨ager, H. Nguyen, J. C. Crane, J. W. Kelly, M. Gruebele, The folding
+mechanism of a β-sheet: The WW domain, J. Mol. Biol. 311 (2001) 373–393.
+[117] D. E. Otzen, M. Oliveberg, Conformational plasticity in folding of the split
+β-α-β protein S6: Evidence for burst-phase disruption of the native state, J.
+Mol. Biol. 317 (2002) 613–627.
+[118] J. G. B. Northey, A. A. Di Nardo, A. R. Davidson, Hydrophobic core packing
+in the SH3 domain folding transition state, Nat. Struct. Biol. 9 (2002) 126–130.
+[119] S. Gianni, N. R. Guydosh, F. Khan, T. D. Caldas, U. Mayor, G. W. N. White,
+M. L. DeMarco, V. Daggett, A. R. Fersht, Unifying features in protein-folding
+mechanisms, Proc. Natl. Acad. Sci. USA 100 (2004) 13286–13291.
+[120] S. Deechongkit, H. Nguyen, E. T. Powers, P. E. Dawson, M. Gruebele, J. W.
+Kelly, Context-dependent contributions of backbone hydrogen bonding to β-
+sheet folding energetics, Nature 430 (2004) 101–105.
+[121] M. M. Garcia-Mira, D. B¨ohringer, F. X. Schmid, The folding transition state of
+the cold shock protein is strongly polarized, J. Mol. Biol. 339 (2004) 555–569.
+[122] B. Anil, S. Sato, J. H. Cho, D. P. Raleigh, Fine structure analysis of a protein
+folding transition state; distinguishing between hydrophobic stabilization and
+speciﬁc packing, J. Mol. Biol. 354 (2005) 693–705.
+[123] C. J. Wilson, P. Wittung-Stafshede, Snapshots of a dynamic folding nucleus
+in zinc-substituted Pseudomonas aeruginosa azurin, Biochemistry 44 (2005)
+10054–10062.
+[124] M. Petrovich, A. L. Jonsson, N. Ferguson, V. Daggett, A. R. Fersht, Φ-analysis
+at the experimental limits: Mechanism of β-hairpin formation, J. Mol. Biol.
+360 (2006) 865–881.
+[125] A. Matouschek, J. T. Kellis, L. Serrano, A. R. Fersht, Mapping the transition
+state and pathway of protein folding by protein engineering, Nature 340 (1989)
+122–126.
+[126] B. A. Krantz, T. R. Sosnick, Engineered metal binding sites map the
+heterogeneous folding landscape of a coiled coil, Nat. Struct. Biol. 8 (2001)
+1042–1047.
+[127] T. R. Sosnick, R. S. Dothager, B. A. Krantz, Diﬀerences in the folding
+transition state of ubiquitin indicated by Φ and Ψ analyses, Proc. Natl. Acad.
+Sci. USA 101 (2004) 17377–17382.
+[128] A. D. Pandit, A. Jha, K. F. Freed, T. R. Sosnick, Small proteins fold through
+transition states with native-like topologies, J. Mol. Biol. 361 (2006) 755–770.
+18
+
+
+## Page 19
+
+
+[129] T. R. Sosnick, B. A. Krantz, R. S. Dothager, M. Baxa, Characterizing the
+protein folding transition state using ψ analysis, Chem. Rev. 106 (2006) 1862–
+1876.
+[130] A. Li, V. Daggett, Identiﬁcation and characterization of the unfolding
+transition
+state
+of
+chymotrypsin
+inhibitor
+2
+by
+Molecular
+Dynamics
+simulations, J. Mol. Biol. 257 (1996) 412–429.
+[131] T. Lazaridis, M. Karplus, “New view” of protein folding reconciled with the
+old through multiple unfolding simulations, Science 278 (1997) 1928–1931.
+[132] R. Day, V. Daggett, Sensitivity of the folding/unfolding transition state
+ensemble of chymotrypsin inhibitor 2 to changes in temperature and solvent,
+Protein Sci. 14 (2005) 1242–1252.
+[133] C. Merlo, K. A. Dill, T. R. Weikl, Φ-values in protein folding kinetics have
+energetic and structural components, Proc. Natl. Acad. Sci. USA 102 (2005)
+10171–10175.
+[134] T. R. Weikl, K. A. Dill, Transition states in protein folding kinetics: The
+structural interpretation of Φ-values, J. Mol. Biol. 365 (2007) 1578–1586.
+[135] A. R. Viguera, L. Serrano, M. Wilmanns, Diﬀerent folding transition states
+may result in the same native structure, Nat. Struct. Biol. 3 (1996) 874–880.
+[136] M. O. Lindberg, J. Tangrot, D. E. Otzen, D. A. Dolgikh, A. V. Finkelstein,
+M. Oliveberg, Folding of circular permutants with decreased contact order:
+General trend balanced by protein stability, J. Mol. Biol. 314 (2001) 891–900.
+[137] M. Lindberg, J. Tangrot, M. Oliveberg, Complete change of the protein folding
+transition state upon circular permutation, Nat. Struct. Biol. 9 (2002) 818–822.
+[138] E. J. Miller, K. F. Fischer, S. Marqusee, Experimental evaluation of topological
+parameters determining protein-folding rates, Proc. Natl. Acad. Sci. USA 99
+(2002) 10359–10363.
+[139] G. Bulaj, R. E. Koehn, D. P. Goldenberg, Alteration of the disulﬁde-coupled
+folding pathway of BPTI by circular permutation, Protein Sci. 13 (2004) 1182–
+1196.
+[140] M. O. Lindberg, E. Haglund, I. A. Hubner, E. I. Shakhnovich, M. Oliveberg,
+Identiﬁcation of the minimal protein-folding nucleus through loop-entropy
+perturbations, Proc. Natl. Acad. Sci. USA 103 (2006) 4083–4088.
+[141] I. A. Hubner, M. Lindberg, E. Haglund, M. Oliveberg, E. I. Shakhnovich,
+Common motifs and topological eﬀects in the protein folding transition state,
+J. Mol. Biol. 359 (2006) 1075–1085.
+[142] Y. Duan, P. A. Kollman, Pathways to a protein folding intermediate observed
+in a 1-microsecond simulation in aqueous solution, Science 282 (1998) 740–744.
+[143] C. D. Snow, N. Nguyen, P. V. S., M. Gruebele, Absolute comparison of
+simulated and experimental protein-folding dynamics, Nature 420 (2002) 102–
+106.
+19
+
+
+## Page 20
+
+
+[144] C. D. Snow, L. Qiu, D. Du, F. Gai, S. J. Hagen, V. S. Pande, Trp zipper
+folding kinetics by molecular dynamics and temperature-jump spectroscopy,
+Proc. Natl. Acad. Sci. USA 101 (2004) 4077–4082.
+[145] G. Settanni, F. Rao, A. Caﬂisch, Φ-value analysis by molecular dynamics
+simulations of reversible folding, Proc. Natl. Acad. Sci. USA 102 (2005) 628–
+633.
+[146] K. W. Plaxco, K. T. Simons, I. Ruczinski, D. Baker, Topology, stability,
+sequence, and length: Deﬁning the determinants of two-state protein folding
+kinetics, Biochemistry 39 (2000) 11177–11183.
+[147] M. S. Li, D. K. Klimov, D. Thirumalai, Thermal denaturation and folding
+rates of single domain proteins: size matters, Polymer 45 (2004) 573–579.
+[148] A. N. Naganathan, V. Munoz, Scaling of folding times with protein size, J.
+Am. Chem. Soc. 127 (2005) 480–481.
+[149] C. McPhalen, M. N. James, Crystal and molecular structure of the serine
+proteinase inhibitor CI-2 from barley seeds., Biochemistry 26 (1987) 261–269.
+20
+
+
+## Page 21
+
+
+Table 1: Correlation coeﬃcients |r| between folding rates of two-state proteins and
+simple topological measures
+size of
+Authors
+Ref.
+protein set
+relCO
+absCO
+LRO
+TCD
+QD
+logCO
+Plaxco et al.
+[146], [33]
+24
+0.92
+0.88
+Gromiha & Selvaraj
+[30]
+23
+0.79(a)
+0.78
+Zhou & Zhou
+[31]
+28
+(0.74)(b)
+0.81
+0.88
+Micheletti
+[40]
+29
+0.75
+0.70
+Ivankov et al.
+[39]
+30
+0.75
+0.51
+Kamagata et al.
+[6]
+18
+0.84
+0.78
+0.88
+Dixit & Weikl
+[38]
+26
+0.92
+0.69
+0.84(c)
+0.90(c)
+0.82(c)
+0.90
+Absolute values |r| of the Pearson coeﬃcient for the correlations between folding
+rates of several sets of two-state proteins and relative contact order (relCO) [12], ab-
+solute contact order (absCO) [4], long-range order (LRO) [30], total contact distance
+(TCR) [31], and logCO [38]. In case of the number of nonlocal contacts QD [32],
+the given coeﬃcients report the correlations between QD and log kf/QD where kf
+are the folding rates.
+———–
+(a) calculated from table 1 of Ref. [30]
+(b) the value is given in brackets since a slightly diﬀerent deﬁnition for the relative
+CO has been used
+(c) the values have been calculated for the protein structures given in Ref. [38]. The
+protein set is the set of Grantcharova et al. [4], which extends the set of Plaxco et
+al. [146] by two proteins.
+21
+
+
+## Page 22
+
+
+Table 2: Correlation coeﬃcients |r| for folding rates of sets of two-state and non-
+two-state proteins
+size of
+Authors
+Ref.
+protein set
+relCO
+absCO
+ln(N)
+N1/2
+Ivankov et al., Li et al.
+[39], [147]
+57
+0.1
+0.74
+0.72
+0.71
+Naganathan & Mu˜noz
+[148]
+69
+0.74
+Kamagata et al.
+[6]
+40
+0.09
+0.72
+0.68
+0.67
+Absolute values |r| of the Pearson coeﬃcient for the correlations between folding
+rates of sets of two-state and non-two-state proteins and relative contact order
+(relCO), absolute contact order (absCO), and the logarithm and square root of the
+chain length N. The set of Naganathan and Mun˜oz [148] extends the set of Ivankov
+et al. [39] by 12 proteins. The correlation coeﬃcients for the set of Kamagata et al.
+have been calculated from the data given in Table 1 and 2 of Ref. [6].
+Table 3: Loop lengths (ECOs) for forming the strand pairing β1β4 of CI2
+structural elements
+minimum ECO
+formed prior
+for β1β4
+α + β2β3 + β3β4
+7
+α + β2β3
+12
+β2β3 + β3β4
+19
+α + β3β4
+24
+β2β3
+23
+α
+31
+β3β4
+36
+–
+42
+The given ECOs are the minimum ECOs among all contacts of the cluster β1β4.
+The contact clusters are deﬁned as in Ref. [83].
+22
+
+
+## Page 23
+
+
+C1
+C2
+i
+j
+k
+l
+Fig. 1. Loop lengths in partially folded conformations of a protein chain can be
+estimated via the graph-theoretical concept of eﬀective contact order (ECO) [27,28].
+The ECO of the contact C2 is the length of the shortest path between the two
+residues i and j forming the contact. The ‘steps’ along this shortest path either are
+covalent bonds between adjacent residues, or noncovalent contacts formed previously
+in the folding process such as the contact C1. In this example, the ECO for the
+contact C2 is 5, since the shortest path (shown in red) involves two steps from i to
+k, one step for the contact C1 between k and l, and two steps from l to j. The contact
+order (CO), in contrast, is the sequence separation |i −j| between the two residues,
+the number of residues along the blue path between i and j. In this example, the
+CO of the contact C2 is 10.
+23
+
+
+## Page 24
+
+
+β3
+β4
+β2
+β1
+α
+Fig. 2. The structure of the protein CI2 consists of an α-helix packed against a
+four-stranded β-sheet [149].
+24
+
+
+## Page 25
+
+
+10
+20
+30
+40
+50
+60
+10
+20
+30
+40
+50
+60
+α
+β2 β3
+β1 β4
+β3 β4
+10
+20
+30
+40
+50
+60
+10
+20
+30
+40
+50
+60
+10
+20
+30
+40
+50
+60
+10
+20
+30
+40
+50
+60
+(a)
+(b)
+(c)
+Fig. 3. Native contact maps of the
+protein CI2 shown in Fig. 2, for dif-
+ferent contact deﬁnitions: (a) A black
+dot at position (i, j) indicates that
+the Cα atoms of the residues i and
+j are within the cutoﬀdistance 7
+˚A. The residue numbers are speci-
+ﬁed along the two axes of the con-
+tact map. The four large clusters of
+contacts represent the structural ele-
+ments of CI2, i.e. the α-helix and the
+three β-strand pairings β2β3, β3β4,
+and β1β4. – (b) Black dots (i, j) in-
+dicate that at least two non-hydro-
+gen atoms of the residues i and j
+are within cutoﬀdistance 4.5 ˚A. As
+above, contacts (i, j) of neighboring
+or next-nearest neighboring residues
+with |i −j| ≤2 (gray dots along
+the diagonal) are not taken into ac-
+count. – (c) The gray scale of the dots
+indicates the numbers of non-hydro-
+gen-atom pairs of two residues i and
+j that are within the cutoﬀdistance
+6 ˚A. Black dots represent residue
+pairs for which more than 40 diﬀer-
+ent non-hydrogen-atom pairs are in
+contact, lighter gray colors represent
+residue pairs with fewer non-hydro-
+gen-atom contacts.
+25
+
+
+## Page 26
+
+
+Fig. 4. Minimum-ECO, or minimum-entropy-loss route of the protein CI2. Along
+this route, the strand pairing β1β4 is formed after the other three structural ele-
+ments, the α-helix and the strand pairings β2β3 and β3β4. The route minimizes the
+length of the loop that has to be closed to bring the two terminal strands β1 and
+β4 into contact (see Table 3).
+26
+
+
+## Page 27
+
+
+10
+20
+30
+40
+50
+10
+20
+30
+40
+50
+β3
+β2
+β5
+β1
+β4
+β3
+RT-β4
+RT
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+high
+med.
+low
+RT
+β1
+β5
+β4
+β3
+β2
+Φ
+kinetic impact
+src SH3 domain
+Fig. 5. (Top) Minimum-ECO route of the src SH3 domain. The arrows indicate
+the sequences of events along this route. The red arrow pointing from the contact
+cluster RT to the cluster β1β5, for example, indicates that the RT loop is formed
+prior to the strand pairing β1β5. – (Bottom) Average experimental Φ-values [111]
+for the β-strands and the RT loop (grey bars) and kinetic impact estimated from
+the minimum-ECO route (black bars). The kinetic impact of the strands β2, β3,
+and β4 is high since the clusters β2β3 and β3β4 are formed prior to both nonlocal
+clusters RT-β4 and β1β5 [83]. The kinetic impact of RT is medium since the cluster
+is formed prior to only one of the nonlocal clusters, β1β5 . The kinetic impact of β1
+and β5 is low since the cluster β1β5 forms last, parallel to RT-β4.
+27
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0709_3388v1_loop_closure_principles_in_protein_folding
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0709_3388V1_LOOP_CLOSURE_PRINCIPLES_IN_PROTEIN_FOLDING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1,0 +1,2022 @@
+---
+canon-group: reference
+rscf-state: source-claim
+arxiv_id: 1807.07099v1
+source: arxiv
+tags: [arxiv, knowledge, math, reference]
+---
+# 1807.07099v1_Comparative_study_of_Discrete_Wavelet_Transforms_and_Wavelet_Tensor_Train_decomp
+
+> Source: 1807.07099v1_Comparative_study_of_Discrete_Wavelet_Transforms_and_Wavelet_Tensor_Train_decomp.pdf
+
+> Pages: 18
+
+---
+
+
+## Page 1
+
+
+Comparative study of Discrete Wavelet Transforms and Wavelet Tensor Train
+decomposition to feature extraction of FTIR data of medicinal plants
+Pavel Kharyuka,b, Dmitry Nazarenkoc,∗, Ivan Oseledetsa,d
+aSkolkovo Institute of Science and Technology, Skolkovo Innovation Center, Building 3, Moscow, Russia, 143026
+bFaculty of Computational Mathematics and Cybernetics, Lomonosov Moscow State University, Leninskiye Gory 1-52,
+GSP-1, Moscow, Russia, 119991
+cFaculty of Chemistry, Lomonosov Moscow State University, Leninskiye Gory 1-3, GSP-1, Moscow, Russia, 119991
+dInstitute of Numerical Mathematics of the Russian Academy of Sciences, Gubkina st. 8, Moscow, Russia, 119991
+Abstract
+Fourier-transform infra-red (FTIR) spectra of samples from 7 plant species were used to explore the inﬂuence
+of preprocessing and feature extraction on eﬃciency of machine learning algorithms. Wavelet Tensor Train
+(WTT) and Discrete Wavelet Transforms (DWT) were compared as feature extraction techniques for FTIR
+data of medicinal plants. Various combinations of signal processing steps showed diﬀerent behavior when
+applied to classiﬁcation and clustering tasks. Best results for WTT and DWT found through grid search
+were similar, signiﬁcantly improving quality of clustering as well as classiﬁcation accuracy for tuned logistic
+regression in comparison to original spectra.
+Unlike DWT, WTT has only one parameter to be tuned
+(rank), making it a more versatile and easier to use as a data processing tool in various signal processing
+applications.
+Keywords:
+plant species identiﬁcation, infrared spectroscopy, machine learning, wavelet transforms,
+tensor decompositions, feature extraction
+Highlights
+• Wavelet Tensor Train (WTT) was tested as feature extraction technique for classiﬁcation and clustering
+tasks
+• Discrete Wavelet Transform (DWT) and WTT with various preprocessing techniques were compared
+in application to feature extraction from FTIR spectra
+• “Contrasting” approach based on soft thresholding of decomposition coeﬃcients before subtraction was
+proposed as a way to signiﬁcantly improve quality of clustering
+1. Introduction
+Medicinal plants continue to remain important source for new drugs development in the ﬁeld of pharma-
+cology and Western medicine [1–3]. Complimentary and alternative medicine (CAM), on the other hand,
+seeks to provide relief through use of medicinal plants and medicinal plants based preparations [4]. Recent
+decades mark rapid expansion of herbal drug production [5]. Increasing attention to Traditional Chinese
+Medicine (TCM), where about 80% of formulae include plant material, also contributed to rising popularity
+of herbal medicines [6]. Standardization and quality control of such products and raw plant materials pose
+a considerable challenge due to complexity of chemical composition [7]. Nonetheless, research and clinical
+studies continue to be conducted, albeit with limited eﬃciency [8; 9]. “Fingerprint” approach became one
+of the most popular tools to tackle this analytical problem [8]. This approach relies on combination of
+∗Corresponding author
+Preprint submitted to Elsevier
+July 18, 2018
+arXiv:1807.07099v1  [eess.SP]  18 Jul 2018
+
+
+## Page 2
+
+
+highly-informative analysis methods (mass-, NMR- and IR-spectroscopy, chromatographic methods, etc.)
+and machine learning techniques [10]. Although chromatography [11; 12] and NMR-spectroscopy [13] also
+gained signiﬁcant attention in ﬁngerprinting approaches, vibrational spectroscopy is still predominant in the
+ﬁeld [14; 15]. IR-spectroscopy is a fast and relatively low cost method, making it an attractive choice as
+instrumentation for both research and routine analysis of raw plant material and ﬁnished goods. In recent
+decades, IR data was extensively applied to georgraphical origin and species diﬀerentiation [14], quality
+control [16], plant age conﬁrmation (important for ginseng species, for example) [17], discrimination of adul-
+terated/authentic samples [18], etc. Most of above mentioned studies share similar and well established
+experimental design: collection of several samples per group, IR data acquisition, data preprocessing and
+application of machine learning technique. With the ﬁrst step depending on the topic of particular study
+and the second being rather straightforward, machine learning step usually gets the most attention. Never-
+theless, as inconspicuous as it may seem, data preprocessing may be crucial to the whole study. IR-spectra
+of complex samples reﬂect sum of spectral responses generated by individual compounds. Chemical data in
+such form is very hard to interpret by humans. Therefore, applications of spectroscopy to industrial and
+scientiﬁc tasks are often assisted by a variety of mathematical techniques [19]. Reasoning behind mathe-
+matical processing is, among other things, to separate relevant chemical information from the rest of the
+data and help answer analytical question at hand. Many vibrational spectroscopy variants (Near-infrared
+spectroscopy, NIR; mid-infrared spectroscopy, MIR; Raman spectroscopy, etc.) commonly applied to medic-
+inal plant analysis share a similar batch of accepted preprocessing techniques and approaches. Smoothed
+spectra, ﬁrst and second derivatives of spectra as well as truncated regions of original spectra are commonly
+used in plant analysis as input data for machine learning algorithms [20].
+Alternatively, application of
+wavelet transform can be a useful way to preprocess IR-data. Overall similarity of major bands in spectra
+implies, that relevant chemical information is hidden in minor (high frequency) bands. Wavelet approaches
+are exactly tailored for searching such bands in data [21] and are widely used for signal [22; 23] and image
+processing [24].
+In case of discrete wavelet decompositions, ﬁlters are predetermined and do not change according to
+the speciﬁcations of given data. Recently, adaptive wavelet-like ﬁltering based on tensor decomposition
+which can be a better alternative was proposed [25] and later applied for data compression [26; 27]. In this
+study, discrete wavelet transforms and wavelet tensor train decomposition were applied to mid-IR spectral
+data of medicinal plant extracts to explore their merits as feature extraction techniques in machine learning
+pipelines for classiﬁcation and clustering.
+2. Materials and methods
+2.1. Chemicals and plant material
+Ethanol was purchased from Merck (Germany). Deoinized water was puriﬁed with Milli-Q water sys-
+tem (Millipore, Milford, MA, USA). Plant material was partly obtained from botanists and partly from
+commercial suppliers. Plant species and their quantities are listed in Table 1.
+2.2. Sample extraction and IR experiment
+1 g of each plant was powdered in agate mortar and sonicated for 1 hour in 10 mL of 70% EtOH. 2 mL
+of crude extract were centrifuged for 10 min (10000 g); supernatant was dried in vacuum centrifuge. Dry
+extract was mixed with KBr in mortar and formed into tablets. Spectra were recorded in the mid-IR range
+between 4000 and 400 cm−1. Parts from 2000−400 cm−1 range were used in all computational experiments.
+Resulting spectra from our dataset are displayed on Figure 1.
+2.3. Classiﬁcation and clustering
+Species identiﬁcation task of unknown samples as well as exploratory analysis for dataset of analyzed
+samples may be formulated in terms of machine learning problems. Classiﬁcation techniques are applied for
+identiﬁcation: being an example of supervised learning where parameters of algorithm are tuned in order
+to minimize speciﬁc loss dependent on labels of training set, it generalizes inner properties of data in an
+2
+
+
+## Page 3
+
+
+eﬀort to be able to separate input samples from diﬀerent classes. On the other hand, in clustering task
+separation and grouping of samples are carried out without any prior information and are entirely based on
+inner structure of input data.
+Crucial step in machine learning assisted data analysis is feature extraction task. Performance of algo-
+rithms is strongly dependent on the representation of data, and an appropriate feature space may drastically
+increase it. One of the widely used tools for obtaining valuable representation of data is wavelet decompo-
+sitions. However, such representation by itself may not be suﬃcient to meet the challenge. For instance,
+data may contain noise which could be reduced with additional processing step via thresholding of wavelet
+coeﬃcients. In general, any linear transformation W of input x is often followed by mapping it to another
+feature space with speciﬁc non-linearity. In book [28] an optimal nonlinear transform of wavelet features is
+presented for searching images by handwritten pictures:
+f(Wx) = sign
+
+θhard
+τ
+(Wx)
+
+,
+(1)
+where hard thresholding θhard
+τ
+(·), τ > 0, serves as feature selector across wavelet coeﬃcients, and sign
+function sign(·) performs simple quantization of the result. In our experience such choice is also adequate
+to be used in a FTIR classiﬁcation pipeline.
+However, in clustering individual aspects of samples move to the forefront, and another strategy is
+preferred. The basic idea is to remove some kind of common trend from data. Similar approach was used
+in [29] to extract individual features from images via matrix factorization with designed properties. In this
+work such concept is referred to in a generalized sense as data contrasting. In clustering analysis it was
+explored that relatively good results are given by using data that is contrasted in the following way:
+xcontrasted = x −W −1 
+θsoft
+τ
+(Wx)
+
+,
+(2)
+where θsoft
+τ
+(·) is a soft thresholding.
+For convenience of the reader, clustering and classiﬁcation algorithms used in the work are brieﬂy de-
+scribed in Appendix.
+2.4. Discrete Wavelet Transform
+Wavelet transforms are designed to analyze signals with long low-frequency trends and fast occurrences
+of high frequency events. Wavelet decomposition makes it possible to localize both frequency and time
+(spatial) changes (however, with restrictions on resolution). Discrete wavelet transform (DWT) appears as
+a result of discretization of continuous wavelet transform which is a convolution of a signal with a speciﬁcally
+deﬁned function ψ(t) called mother wavelet:
+W(τ, s) = 1
+√s
++∞
+Z
+−∞
+f(t)ψ
+t −τ
+s
+
+dt =
+ f, ψτ,s
+
+L2,
+(3)
+where ψτ,s = s−1/2ψ( t−τ
+s ), parameters s ∈R\{0} and τ ∈R stand for scaling and translation respectively.
+It has been shown that a number of discrete wavelet transforms are related to ﬁltering of input signal by
+speciﬁc low-pass (deﬁned by scaling function ϕ(t); captures approximation of a signal) and high-pass (deﬁned
+by mother wavelet ψ(t); captures details) ﬁlters followed by down-sampling of results [30]:
+ˆylow[n] = (x ∗ϕ)[n] =
+X
+k
+x[n]ϕ[n −k],
+ylow = ˆylow ↓2,
+ˆyhigh[n] = (x ∗ψ)[n] =
+X
+k
+x[n]ψ[n −k],
+yhigh = ˆyhigh ↓2.
+(4)
+Diﬀerent mother wavelets assign speciﬁc wavelet transforms. In this study 5 families of discrete wavelet
+decompositions were used, namely: Daubechies wavelets and its modiﬁcation (symlets), coiﬂets, biorthogonal
+and reverse biorthogonal wavelets [31].
+3
+
+
+## Page 4
+
+
+In practice, all signals have ﬁnite size, and it is necessary to extend them near borders to ensure perfect
+reconstruction of input with inverse transform. Diﬀerent extension modes bring about so-called edge eﬀects
+like discontinuities of signal or its derivatives. The inﬂuence of 7 padding schemes was studied in this work:
+zero, constant, symmetric, reﬂect, periodic, smooth, and periodization extension modes (see [32]).
+It is also reasonable to perform multilevel transformation of signal where DWT is applied recursively to
+low-passed version of signal. Such scheme is usually referred to as ﬁlter bank. From this point of view one can
+deﬁne wavelet-like transformation through specifying ﬁlter bank with similar properties (like orthogonality,
+pseudosparseness of the result, and others). In the next subsection one of the techniques to generate such
+wavelet-like mappings is brieﬂy described.
+2.5. Wavelet Tensor Train decomposition
+Wavelet Tensor Train (WTT) was introduced in [25] as the algebraic tool for generating adaptive wavelet-
+like orthogonal transformations. In this decomposition, input signal x ∈Rn1·...·nd is to be virtually tensorized
+to form multi-dimensional array (tensor) X ∈Rn1×...×nd. As a multilevel DWT, WTT may be deﬁned
+recursively: at ﬁrst, unfolding matrix A(k), for the ﬁrst dimension k = 1 through decomposition with SVD,
+where left singular matrix Uk subsequently forms the ﬁrst ﬁlter; then the ﬁrst rk rows of the rest part of
+decomposition are taken and reshaped into new tensor Xk, to which considered operations are to be applied
+recursively to obtain ﬁlter bank ΦWTT:
+Xk =
+
+
+
+Tens
+n1×n2×...×nd(x),
+if k = 1,
+Tens
+(rk−1nk)×nk+1×...×nd
+
+Cutrk−1↑
+ U T
+k−1Ak−1
+
+,
+if k > 1 ,
+Ak = unfold1
+ Xk
+
+= UkΣkV T
+k ,
+ΦWTT = {Ui}d−1
+i=1 ,
+(5)
+where Cutrk↑[X] is an operator that cuts ﬁrst rk rows of matrix X,
+Tens
+n1×...×nd(x) is a tensorization (reshaping)
+of x ∈Rn1·...·nd to n1 ×. . .×nd shape, unfoldk(X) means taking the k-mode unfolding matrix. Hyperparam-
+eters (r1, . . . , rd−1) are called ranks of WTT decomposition, they control the size of each ﬁlter. As for the
+tensorization procedure, mode sizes were selected as ni = 2, and cubic interpolation of signals was used to
+ensure that their resulting length is a degree of 2. As in the DWT approach, one may use padding schemes
+(for example, zero padding) as an alternative to interpolation; however, in this case it would be diﬃcult to
+extend already learned algorithm to data sampled in a diﬀerent way, for example when using equipment
+with diﬀerent resolution.
+Computed ﬁlters may be applied to any other input of appropriate size. All parts of signal that were
+dropped at k-th step are to be concatenated and saved as output of transform. It is worth mentioning that
+origin of WTT ﬁlters is not necessarily the same signal as one to be decomposed. In [26; 27] the idea of joint
+(group) ﬁlters was elaborated for lossy compression task: given set of equally sized d-dimensional objects
+was considered as a (d + 1)-dimensional tensor, and ﬁlter computation procedure was performed for such
+stacked data. Then all ﬁlters except one for group axis were used for data compression. In this work it was
+studied how such common WTT transform performs in feature extraction task in comparison with discrete
+wavelets.
+2.6. Cross-validation and parameter selection
+For computational convenience, two-stage cross validation (CV) scheme was used. At ﬁrst, grid search
+was performed to select best parameters for all classiﬁcation algorithms by maximizing accuracy values in 4-
+fold CV with speciﬁed random state. For ﬁnal comparison of best performing algorithms, 25 times repeated
+4-fold CV (100 runs in total) with diﬀerent random state was used.
+Selection of parameters for agglomerative clustering was performed in the same way: selection of both
+clustering parameters (aﬃnity, linkage) and hyperparameters of decompositions was done on dataset ran-
+domly splitted into 4 parts with algorithm being run on respective triplets. Best parameters were used for
+clustering of the full dataset.
+4
+
+
+## Page 5
+
+
+Behavior of processing approaches was examined using 3 basic feature spaces: original signal (f), its ﬁrst
+derivative (f ′) and its second derivative (f ′′). For further processing both standard scaled and non-treated
+version were used, giving 2 additional parameters for grid search: centering and normalization by standard
+deviation. Another parameter was either taking absolute values or keeping (scaled) signals as is.
+If signal was processed with DWT (or WTT), wavelet and padding mode (or rank) were to be selected,
+followed by choosing the type of thresholding, either hard or soft, and thresholding constant, τ.
+For logistic regression, two more parameters participated in selection procedure: penalty (l1 or l2) and
+inverse of regularizing constant (C = λ−1). In clustering, changes in scores related to using contrasting were
+additionally inspected.
+To evaluate performance of classiﬁcation algorithms learned on diﬀerent feature spaces, standard quality
+metrics were used: accuracy (fraction of correctly classiﬁed samples) and F1 score (harmonic mean of
+precision, which is a fraction of relevant samples among all that were classiﬁed as current class, and recall,
+which is a fraction of correctly classiﬁed as current class samples among all samples from this class). As for
+clustering, three scores were inspected: Rand score, which is similar to accuracy, mutual information score,
+which is an information-theoretical distance measure between joint and product of marginal distributions,
+and Fowlkes-Mallows score, which is the geometric mean between precision and recall. The ﬁrst two scores
+were corrected for chance (referred to as adjusted).
+2.7. Computational tools
+All the experiments were implemented in Python programming language. Anaconda Python distribution
+[33] has been used as programming framework, it includes various pre-built packages for scientiﬁc computa-
+tions. In this study the following packages were used: numpy [34], scipy [35], pandas [36], scikit-learn [37],
+pywavelets [32], matplotlib [38], seaborn [39], statmodels [40].
+All scripts and data acquired in the study can be found at GitHub repository: https://github.com/
+kharyuk/chemfin-ftir. Computational experiments are structured as Jupyter Notebooks [41].
+3. Results and discussion
+In this study, 7 medicinal plant species were selected to generate FTIR dataset with most of them (except
+for Inula Helenium) covered by Russian Pharmacopoeia. Linear discriminant analysis, logistic regression
+classiﬁer, and agglomerative clustering were used to evaluate eﬀects of diﬀerent preprocessing steps and
+feature extraction approaches based on discrete wavelet transforms and wavelet tensor train decomposition.
+General schematic description of approaches covered by this study is summarized at Figure 2.
+It is worth noting that in our study the dimensionality of feature space is higher than the number of
+samples. Although in general large dimensionality of feature space may lead to overﬁtting, especially for
+low-sampled datasets, redundant feature space is not always a curse, if it shares several additional properties.
+For instance, in the situation of overcomplete representation, learning feature space is to be purposefully
+enlarged in order to increase robustness in presence of noise, to enforce sparseness and to facilitate matching
+of data structure [42]. As a special class of overcomplete representations, sparse representations are useful
+for classiﬁers due to the better linear separability of distinct data in higher-dimensional spaces [43; 44].
+Similar reasonings may be applied to large but sparse feature spaces, which can be achieved using wavelet
+decompositions with so-called vanishing moments followed by thresholding that ﬁlters out all small values -
+such processing makes the result sparse. As an additional measure to prevent severe overﬁtting, inspection
+of gap between quality values at training and test sets was monitored.
+F1 scores for classiﬁcation were close to accuracy values (Tables 2, 3), which is to be expected from
+nearly balanced dataset. Thus, all results were presented and analyzed on the basis of accuracy analysis.
+Clustering results were observed in terms of three scores: adjusted Rand index, adjusted mutual information
+and Fowlkes-Mallows score. Due to high degrees of correlation between these scores (see Table 4), in our
+study the most pessimistic adjusted Rand score was selected as reference point.
+5
+
+
+## Page 6
+
+
+3.1. Initial preprocessing
+Dataset was utilized in three forms: original spectra, 1st and 2nd derivative spectra. Centering, scaling
+and taking absolute value were tested as initial preprocessing steps (Figure 3, 4). Taking absolute values
+concurrently with centering lead to decreases in classiﬁcation accuracy in most cases, and standard scaling
+often increased accuracy (sometimes only scaling or centering works better). Same observations were valid
+for clustering results.
+3.2. Linear Discriminant Analysis
+In case of LDA, hard thresholding worked better than soft for DWT/WTT based approaches (Figure
+3, (a)–(b)). If sign function was applied after it (Figure 3, (d)–(e)), it made algorithms less sensitive to
+type of thresholding and also reduced the gap between accuracy on train and test parts (i.e., helped to ﬁght
+overﬁtting).
+From Table 2 and Figure 3, (a)–(e) one can see that accuracy on test part is sometimes higher than on
+train - this is a problem of relatively small dataset which must get eliminated with increasing number of
+available samples. An additional point is that such behavior was observed in case of using sign quantization.
+Even though sets of parameters selected with short CV demonstrated very promising results, large CV
+showed steep decrease in accuracy, especially for the original spectra. Such outcome was caused by averaging
+results from various random partitions of dataset. DWT had the best overall accuracy, followed by WTT
+with thresholding (without using sign function), and further below were WTT with sign function and original
+feature space. As for WTT, rank 1 showed the best accuracy on original and ﬁrst derivative spectra, while
+rank 6 was the best for second derivative spectra. Nevertheless, low absolute accuracy values showed that
+even with tuned parameters WTT decomposition evidently was not compatible with LDA classiﬁcation of
+second derivative spectra. Generally, the higher the rank, the easier it is to get overﬁtting.
+For some cases LDA performs better on thresholded features without additional quantization (for in-
+stance, WTT on original signal and second derivative). However, there is no any signiﬁcant gain in perfor-
+mance when WTT used with LDA classiﬁer. Alongside with that, features extracted by WTT are valid for
+logistic regression: there are sets of parameters which maximize the accuracy for both WTT and DWT to
+the same extent.
+Summarizing, feature extraction based on WTT/DWT decompositions coupled with non-linearity slightly
+elevated LDA eﬃciency. Nevertheless, LDA showed signiﬁcant overﬁtting tendencies for original signals and
+their thresholded decompositions, relaxed by using quantization. Overall, tuned logistic regression signiﬁ-
+cantly outperforms LDA if appropriate features were used.
+3.3. Logistic Regression
+In comparison to LDA, logistic regression algorithm requires selection of two more parameters related
+to regularization which was used as the counter-measure for overﬁtting. With that, grid search over various
+combinations of preprocessing steps and hyperparameters of decompositions for LR was performed. Original
+and derivative spectra without additional processing resulted in very poor accuracy measured in short CV
+(Figure 3, (f)) - 0.34 and 0.17 respectively.
+For DWT, padding did not signiﬁcantly inﬂuence ﬁnal performance of LR (Figure 5, (a)-(e)), it is
+assumed that tuning of other parameters can compensate for it. Even there were no vivid regular patterns
+when selecting padding scheme, apparently, it may be reasonable to optimize it manually for each problem.
+Among other wavelet families, almost all coiﬂets worked better for derivative spectra than original spectra.
+In general, most wavelets worked better with ﬁrst derivatve signals, with short gaps between train and test
+parts and consistently higher accuracy (Figure 3, (g)), while original and second derivative of signals took
+the 2nd and the 3rd places. At the same time, original spectra were signiﬁcantly worse for coiﬂets and
+Daubechies wavelets of higher orders. Additionally, it was observed that tuning of parameters can make all
+results similar, except for some rare cases. The same states with thresholding, for both DWT and WTT, -
+it also has to be tuned manually. Regretfully, there is no way around it. On the other side, even search of
+threshold on a coarse grid can give good results.
+6
+
+
+## Page 7
+
+
+As shown on Figure 5, (f), there is no clear dependency of performance on rank of decomposition for
+WTT, presumably because of the cumulative eﬀect of other tuned parameters like regularization constant
+and threshold. According to Table 3 and Figure 3, (h), properly tuned WTT slightly outperformed DWT
+on original and ﬁrst derivative spectra and lose on second derivative. One of the obvious arguments in favor
+of WTT is that sharing the similar accuracy to DWT, it has only one hyperparameter to tune, the rank. In
+case it is imperative to use second derivative spectra, coiﬂets could do worse as the initial choice. Accuracy
+on second derivative could also be elevated by using higher order approximations (in this study the 2nd
+order one was used).
+3.4. Hierarchical Agglomerative Clustering
+Apart from classiﬁcation tasks, which are usually formulated when developing tools for automatization
+of routine analysis procedures, clustering is also frequently used, mainly in chemo-taxonomic studies of
+agricultural and medicinal plants. Therefore, it is also essential to examine inﬂuence of data transformations
+on clustering performance. Better clustering (in terms of adequate grouping of similar objects) can give more
+meaningful insights into scientiﬁc problems at hand.
+From Figure 4, (a)–(c) it appears that clustering quality for signals without decomposition was substan-
+tially lower for most conﬁgurations, and relatively better performance was observed for 1st derivative of
+spectra with sample-wise scaling by standard deviation followed by taking absolute values of the result.
+While best performance without decompositions was shown by ﬁrst derivative spectra, for WTT/DWT
+processed signals best results were achieved on original spectra with contrasting and soft thresholding (Figure
+4, (d)–(i); Figure 6). It is worth to note also that centering and scaling of feature space is preferred to sample-
+wise preprocessing in case of DWT/WTT decompositions. As seen from Figure 6, (f), WTT performance
+positively correlated with rank for all used feature spaces. Coiﬂets shared the same property as observed
+in classiﬁcation with Logistic Regression: they work better with spectra derivatives (Figure 6, (b)). For
+DWT, there were no distinct dependencies between model parameters (wavelet family, padding scheme) and
+clustering quality.
+Behavior of algorithms experienced minor changes when they were applied to full dataset (Table 4): DWT
+only slightly improved performance for derivative spectra and achieved better results for second derivative
+of spectra in comparison to original signals. WTT based approach, on the other hand, showed absolute best
+results in conditions of the experiment.
+Hierarchical clustering with best performing conﬁgurations visualized in form of dendrograms plotted
+for original spectra ((a), (c), (e)) and their ﬁrst derivative ((b), (d), (f)) is shown in Figure 7.
+4. Conclusions
+In this study DWT and WTT decompositions were applied to FTIR spectra of medicinal plant extracts as
+feature extraction techniques. Diﬀerent conﬁgurations of preprocessing and decomposition parameters were
+tested for inﬂuence on the results of classiﬁcation by Linear Discriminant Analysis and Logistic Regression
+and clustering by Hierarchical Clustering Analysis. While none of the used processing parameter combina-
+tions performed well on LDA, for LR and HAC DWT/WTT approaches showed high positive eﬀects. In
+clustering, WTT decomposition demonstrated promising results as a part of processing pipeline. Overall, as
+with many other ML application, ﬁne tuning of hyperparameters played important role in achieving better
+results.
+Even though IR data was collected with no strict protocol (on either ratio of KBr or particle size before
+pressing mixtures into tablets), results showed that reasonable processing can make up for signiﬁcant portion
+of such distortions. This is especially important in real-life routine applications where data is prone to be
+distorted due to many factors that are not easy to take into account.
+Preprocessing and, co-dependently, feature extraction are vital to achieve high levels of classiﬁcation
+accuracy and get meaningful insights from clustering. Various ways of handling raw data can either enhance
+or bury relevant chemical information, contained in data.
+Robust and eﬃcient approaches for quality control of herbal medicines continue to be vigorously sought
+after. Only established and continuously veriﬁed protocols for standardization and routine analysis of herbal
+7
+
+
+## Page 8
+
+
+preparations can allow many valid practices from CAM to be correctly assessed through clinical studies and
+be eventually integrated into modern Western pharmacology and medicine. Nevertheless, lack of explicit
+descriptions for data handling techniques used can make it hard to compare results obtained by diﬀerent
+groups. The problem is further complicated by unavailability of raw data. And even though the amount
+of chemical data, cumulatively acquired through recent decades of plant research is massive and could
+potentially help advance the ﬁeld, no major changes can be spotted as of now. In the long run, it can be
+rewarding to encourage and support practices of providing open access to raw scientiﬁc data when publishing
+new ﬁndings.
+Acknowledgement
+This work is supported by Skoltech NGP Program (Skoltech-MIT joint project) and by the Ministry of
+Education and Science of the Russian Federation under grant 14.756.31.0001.
+[1] D. S. Fabricant, N. R. Farnsworth, The value of plants used in traditional medicine for drug discovery, Environmental
+health perspectives 109 (2001).
+[2] J. W.-H. Li, J. C. Vederas, Drug discovery and natural products: End of an era or an endless frontier?, Science 325 (2009)
+161–165. doi:10.1126/science.1168243.
+[3] M. J. Balunas, A. D. Kinghorn, Drug discovery from medicinal plants, Life Sciences 78 (2005) 431–441. doi:10.1016/j.
+lfs.2005.09.012.
+[4] H. T. Debas, R. Laxminarayan, S. E. Straus,
+Complementary and alternative medicine,
+Disease control priorities in
+developing countries 2 (2006). doi:10.1596/978-0-8213-6179-5.
+[5] L. G. Zhou, J. Y. Wu, Development and application of medicinal plant tissue cultures for production of drugs and herbal
+medicinals in China, Natural Product Reports 23 (2006) 789–810.
+[6] C.-Z. Wang, H. He, X. Wang, C.-S. Yuan, Trends in scientiﬁc publications of Chinese medicine, The American journal of
+Chinese medicine 40 (2012) 1099–1108.
+[7] P. Li, L.-W. Qi, E.-H. Liu, J.-L. Zhou, X.-D. Wen, Analysis of Chinese herbal medicines with holistic approaches and
+integrated evaluation models, Trends in Analytical Chemistry 27 (2008) 66–77.
+[8] N. Sahoo, P. Manchikanti, S. Dey, Herbal drugs: standards and regulation, Fitoterapia 81 (2010) 462–471.
+[9] R. R. Chaudhury,
+Herbal remedies and traditional medicines in reproductive health care practices and their clinical
+evaluation, Journal of Reproductive Health and Medicine 1 (2015) 44–46.
+[10] H. A. Gad, S. H. El-Ahmady, M. I. Abou-Shoer, M. M. Al-Azizi, Application of chemometrics in authentication of herbal
+medicines: a review, Phytochemical Analysis 24 (2013) 1–24.
+[11] J. Sun, P. Chen, Diﬀerentiation of Panax quinquefolius grown in the USA and China using LC/MS-based chromatographic
+ﬁngerprinting and chemometric approaches, Analytical and bioanalytical chemistry 399 (2011) 1877–1889.
+[12] Y. Ni, Y. Peng, S. Kokot, Fingerprint analysis of Eucommia bark by LC-DAD and LC-MS with the aid of chemometrics,
+Chromatographia 67 (2008) 211–217.
+[13] D. Kumar, Nuclear magnetic resonance (NMR) spectroscopy for metabolic proﬁling of medicinal plants and their products,
+Critical reviews in analytical chemistry 46 (2016) 400–412.
+[14] P. Wang, Z. Yu,
+Species authentication and geographical origin discrimination of herbal medicines by near infrared
+spectroscopy: a review, Journal of Pharmaceutical Analysis 5 (2015) 277–284.
+[15] H. Schulz, M. Baranska, Identiﬁcation and quantiﬁcation of valuable plant substances by IR and Raman spectroscopy,
+Vibrational Spectroscopy 43 (2007) 13–25.
+[16] W. Li, Z. Cheng, Y. Wang, H. Qu, Quality control of Lonicerae Japonicae Flos using near infrared spectroscopy and
+chemometrics, Journal of pharmaceutical and biomedical analysis 72 (2013) 33–39.
+[17] B.-J. Lee, H.-Y. Kim, S. R. Lim, L. Huang, H.-K. Choi, Discrimination and prediction of cultivation age and parts of
+Panax ginseng by Fourier-transform infrared spectroscopy combined with multivariate statistical analysis, PloS one 12
+(2017).
+[18] F. Wang, Z. Zhang, X. Cui, P. d. B. Harrington, Identiﬁcation of rhubarbs by using NIR spectrometry and temperature-
+constrained cascade correlation networks, Talanta 70 (2006) 1170–1176.
+[19] H. W. Siesler, Y. Ozaki, S. Kawata, H. M. Heise, Near-infrared spectroscopy: principles, instruments, applications, John
+Wiley & Sons, 2008.
+[20] M. Kokalj, M. Rihtariˇc, S. Kreft, Commonly applied smoothing of IR spectra showed unappropriate for the identiﬁcation
+of plant leaf samples, Chemometrics and Intelligent Laboratory Systems 108 (2011) 154–161.
+[21] C. K. Chui, Wavelets: a tutorial in theory and applications, Wavelet Analysis and its Applications, San Diego, CA:
+Academic Press,| c1992, edited by Chui, Charles K. (1992).
+[22] Y. Meyer, R. Ryan, Wavelets: Algorithms and Applications, SIAM, 1993.
+[23] S. Mallat, A wavelet tour of signal processing: the sparse way, Academic press, 2008.
+[24] T. F. Chan, J. J. Shen, Image processing and analysis: variational, PDE, wavelet, and stochastic methods, volume 94,
+SIAM, 2005.
+[25] I. V. Oseledets, E. E. Tyrtyshnikov, Algebraic wavelet transform via quantics tensor train decomposition, SIAM Journal
+on Scientiﬁc Computing 33 (2011) 1315–1328.
+8
+
+
+## Page 9
+
+
+[26] P. Kharyuk, I. Oseledets, Wtt decomposition for the compression of array’s families and its application to image processing,
+Numerical methods and programming (in Russian) 15 (2014) 229–238.
+[27] P. Kharyuk, I. Oseledets, V. Ushakov, Compression of fMRI data using wavelet tensor train decomposition, Numerical
+methods and programming (in Russian) 15 (2014) 669–676.
+[28] E. J. Stollnitz, T. D. DeRose, D. H. Salesin, Wavelets for computer graphics: theory and applications, Morgan Kaufmann,
+1996.
+[29] G. Zhou, A. Cichocki, Y. Zhang, D. P. Mandic, Group component analysis for multiblock data: Common and individual
+feature extraction, IEEE transactions on neural networks and learning systems 27 (2016) 2426–2439.
+[30] G. Strang, T. Nguyen, Wavelets and ﬁlter banks, SIAM, 1996.
+[31] I. Daubechies, Ten lectures on wavelets, volume 61, SIAM, 1992.
+[32] G. R. Lee, F. Wasilewski, R. Gommers, K. Wohlfahrt, A. O’Leary, H. Nahrstaedt, PyWavelets – wavelet transforms in
+Python, 2006. URL: https://github.com/PyWavelets/pywt, [Online; accessed July 18, 2018].
+[33] C. Analytics, Anaconda software distribution, Computer software. Vers. 2-2.4.0., 2015. URL: https://continuum.io.
+[34] T. E. Oliphant, A guide to NumPy, volume 1, Trelgol Publishing USA, 2006.
+[35] E. Jones, T. Oliphant, P. Peterson, et al., SciPy: Open source scientiﬁc tools for Python, 2001. URL: http://www.scipy.
+org/, [Online; accessed July 18, 2018].
+[36] W. McKinney, et al., Data structures for statistical computing in python, in: Proceedings of the 9th Python in Science
+Conference, volume 445, Austin, TX, 2010, pp. 51–56.
+[37] F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss,
+V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, E. Duchesnay,
+Scikit-learn: machine
+learning in Python, Journal of Machine Learning Research 12 (2011) 2825–2830.
+[38] J. D. Hunter, Matplotlib: A 2D graphics environment, Computing in science & engineering 9 (2007) 90–95.
+[39] M. Waskom, O. Botvinnik, D. O’Kane, P. Hobson, S. Lukauskas, D. C. Gemperline, T. Augspurger, Y. Halchenko, J. B.
+Cole, J. Warmenhoven, J. de Ruiter, C. Pye, S. Hoyer, J. Vanderplas, S. Villalba, G. Kunter, E. Quintero, P. Bachant,
+M. Martin, K. Meyer, A. Miles, Y. Ram, T. Yarkoni, M. L. Williams, C. Evans, C. Fitzgerald, Brian, C. Fonnesbeck,
+A. Lee, A. Qalieh, Seaborn: statistical data visualization, v.0.8.1 (September 2017), 2017. URL: https://doi.org/10.
+5281/zenodo.883859. doi:10.5281/zenodo.883859.
+[40] S. Seabold, J. Perktold,
+Statsmodels: econometric and statistical modeling with Python,
+in: 9th Python in Science
+Conference, 2010.
+[41] T. Kluyver, B. Ragan-Kelley, F. P´erez, B. Granger, M. Bussonnier, J. Frederic, K. Kelley, J. Hamrick, J. Grout, S. Corlay,
+P. Ivanov, D. Avila, S. Abdalla, C. Willing, Jupyter notebooks – a publishing format for reproducible computational
+workﬂows,
+in: F. Loizides, B. Schmidt (Eds.), Positioning and Power in Academic Publishing: Players, Agents and
+Agendas, IOS Press, 2016, pp. 87 – 90.
+[42] M. S. Lewicki, T. J. Sejnowski, Learning overcomplete representations, Neural computation 12 (2000) 337–365.
+[43] M. aurelio Ranzato, Y. lan Boureau, Y. L. Cun, Sparse feature learning for deep belief networks, in: J. C. Platt, D. Koller,
+Y. Singer, S. T. Roweis (Eds.), Advances in Neural Information Processing Systems 20, Curran Associates, Inc., 2008, pp.
+1185–1192. URL: http://papers.nips.cc/paper/3363-sparse-feature-learning-for-deep-belief-networks.pdf.
+[44] M. Henaﬀ, K. Jarrett, K. Kavukcuoglu, Y. LeCun, Unsupervised learning of sparse features for scalable audio classiﬁcation.,
+in: ISMIR, volume 11, 2011.
+[45] J. Friedman, T. Hastie, R. Tibshirani, The elements of statistical learning (second edition), volume 1, Springer series in
+statistics New York, 2009.
+[46] G. James, D. Witten, T. Hastie, R. Tibshirani, An introduction to statistical learning, volume 112, Springer, 2013.
+[47] A. Ng, CS229 Machine Learning (Lecture notes) (2017).
+Appendix A: Classiﬁcation and clustering algorithms
+Linear discriminant analysis
+Linear discriminant analysis (LDA) can be deﬁned as a direct approximation of Bayesian classiﬁer with
+normaly distributed continuous variables. According to the Bayes theorem, conditional probability of ob-
+served sample x ∈Rn to be a representative of class s = 1, S is expressed as
+P(y = s|X = x) =
+P (y=s)P (X=x|y=s)
+PS
+j=1 P (y=j)P (X=x|y=j)
+(6)
+P(X = x|y = s) =
+ (2π)n/2det(Σs)
+−1 exp
+ −1
+2(x −µs)T Σ−1
+s (x −µs)
+
+(7)
+where µs is a mean of s-th class, and all covariance matrices Σs here are assumed to be equal, Σs = Σ. It
+may be shown that s which maximizing expression
+ Σ−1x, µs
+
+−1
+2
+ Σ−1µs, µs
+
++ lnP(y = s) also maximizes
+the log-likelihood of the P(y = s|X = x) what means that s is the most probable prediction for a given
+sample x. Theoretical quantities µs, Σ are estimated from samples, and estimation of P(y = s) is a simple
+occurrence frequency of class representatives in a training set. More complete explanation of LDA can be
+found in [45; 46].
+9
+
+
+## Page 10
+
+
+Logistic regression
+Basic logistic regression model is designed for binary classiﬁcation problem and can be seen as a special
+case of generalized linear model. Multilabel case may be covered in diﬀerent ways, for instance, one may
+train S binary classiﬁers according to “one versus rest” strategy and select the label with maximal output
+among all S classiﬁers. Binary logistic regression model uses the following hypothesis on the dependent
+variable:
+yk = h(xk) = θ
+ n
+X
+i=1
+ωixki
+!
+= θ(wT xk),
+(8)
+where θ(z) = tanh(z) ( or θ(z) = (1 + e−z)−1, if yk ∈{0, 1} ) is a sigmoid function, w ∈Rn is a vector of
+parameters, xk ∈Rn is an input sample, k = 1, m.
+In a logistic regression model one makes an attempt to estimate posterior probabilities using the above-
+mentioned hypothesis. Parameters w are computed in order to minimize cross-entropy loss which is widely
+used to measure error between predicted output and true value of dependent variable:
+w = arg min
+w
+"
+1
+m
+m
+X
+k=1
+ln(1 + e−yk·(w,xk)) + λ∥w∥2
+p
+#
+,
+(9)
+(xk, yk) - k-th sample and its label, xk ∈Rn, yk ∈{−1, +1}, w ∈Rn - vector of parameters to estimate.
+The second additive component is a regularization term: it penalizes high values of w with weight λ. Widely
+used types of regularizers are l1 (p = 1, Lasso logistic regression) and l2 (p = 2, Ridge logistic regression)
+ones. Detailed explanation of the algorithm can be found in [45–47].
+Hierarchical agglomerative clustering
+Clustering task in a general form may be formulated as follows: divide the samples by means of a speciﬁed
+distance function into such non-overlapping subsets that objects inside each subset (cluster) are as close as
+possible to each other and as far apart from members of other clusters. Instead of working with samples as in
+classical k-means approach, pairwise object-to-object similarities (or distances) may be utilized to perform
+clustering. One of clustering algorithms based on measuring certain pair-wise metrics for a set of objects is
+hierarchical agglomerative clustering. This clustering algorithm does not require any priors on the number
+of clusters. The only two things to be speciﬁed are metric of dissimilarities between objects and linkage that
+allows to recompute distances between merged objects or clusters. Initially, each object is associated with a
+single cluster. On further steps two currently closest clusters are merged into a new one, and the process is
+stopped with single remaining cluster which contains all objects from original set. Merging process may be
+visualized as a binary tree called dendrogram. Its structure may give insights into structure of the original
+dataset; however, this is a rather exploratory technique, and drawing conclusions based only on dendrogram
+plots should be avoided [45; 46].
+Table 1: List of plant species used in the study.
+Species
+Quantity
+Linum usitatissimum
+12
+Glycyrrhiza glabra
+11
+Arctium lappa
+12
+Silybum marianum
+11
+Anethum graveolens
+14
+Inula helenium
+9
+Valeriana oﬃcinalis
+11
+Table 2: Comparative results for best performing models on Linear Discriminant Analysis (mean of 25 times repeated 4-fold
+CV).
+10
+
+
+## Page 11
+
+
+Feature space
+Accuracy
+F1 (weighted)
+f
+f ′
+f ′′
+f
+f ′
+f ′′
+original
+(train)
+1.000 0.982
+0.943
+1.000 0.982 0.944
+(test)
+0.833
+0.849 0.800 0.827
+0.841
+0.786
+DWT (thr)
+(train)
+0.991 0.948
+0.955
+0.991
+0.949 0.956
+(test)
+0.867
+0.798 0.802 0.860
+0.787
+0.788
+DWT (sign)
+(train)
+0.902 0.851
+0.851 0.902 0.854
+0.854
+(test)
+0.861
+0.871 0.871 0.856
+0.865
+0.865
+WTT (thr)
+(train)
+0.982 0.963
+0.943
+0.982 0.963
+0.944
+(test)
+0.858
+0.838 0.803 0.849
+0.829
+0.790
+WTT (sign)
+(train)
+0.960
+0.844
+0.794 0.960 0.847
+0.799
+(test)
+0.812
+0.853 0.770 0.803
+0.848
+0.760
+Table 3: Comparative results for best performing models on Logistic Regression (mean of 25 times repeated 4-fold CV).
+Feature space
+Accuracy
+F1 (weighted)
+f
+f ′
+f ′′
+f
+f ′
+f ′′
+original
+(train)
+0.884
+0.987 0.986 0.882
+0.987
+0.986
+(test)
+0.723
+0.946 0.885
+0.711
+0.944 0.877
+DWT
+(train)
+1.000 1.000
+1.000
+1.000
+1.000 1.000
+(test)
+0.965
+0.944 0.956
+0.963
+0.941 0.954
+WTT
+(train)
+1.000 1.000
+1.000
+1.000
+1.000 1.000
+(test)
+0.969
+0.959 0.897
+0.968
+0.957 0.894
+Table 4: Comparative results for best performing models on Agglomerative Clustering (all samples were used; scored on precise
+number of classes).
+Score
+Feature space
+original
+DWT
+WTT
+f/f ′/f ′′
+f/f ′/f ′′
+f/f ′/f ′′
+Adjusted Rand index
+0.067/0.263/0.132
+0.487/0.292/0.147
+0.501/0.387/0.299
+Adjusted Mutual Information
+0.125/0.370/0.264 0.616/0.400/0.225
+0.622/0.516/0.439
+Fowlkes-Mallows score
+0.229/0.400/0.369
+0.573/0.470/0.283 0.582/0.474/0.414
+11
+
+
+## Page 12
+
+
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+2000
+cm−1
+0.0
+0.2
+0.4
+0.6
+0.8
+Absorbance
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+2000
+cm−1
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Absorbance
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+2000
+cm−1
+0.0
+0.2
+0.4
+0.6
+0.8
+Absorbance
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+2000
+cm−1
+0.0
+0.5
+1.0
+1.5
+Absorbance
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+2000
+cm−1
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Absorbance
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+2000
+cm−1
+0.00
+0.25
+0.50
+0.75
+1.00
+1.25
+1.50
+Absorbance
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+2000
+cm−1
+0.0
+0.2
+0.4
+0.6
+0.8
+Absorbance
+Linum usitatissimum
+Glycyrrhiza glabra
+Arctium lappa
+Silybum marianum
+Anethum graveolens
+Inula helenium
+Valeriana oﬃcinalis
+Figure 1: Fourier-transform infra-red spectra used in the study.
+12
+
+
+## Page 13
+
+
+Signal
+Standard scaling / absolute value
+DWT
+WTT
+Nonlinearity
+Classiﬁcation algorithm
+Feature extraction
+(a)
+Signal
+Standard scaling / absolute value
+DWT
+WTT
+Nonlinearity
+Contrasting
+Clustering algorithm
+Feature extraction
+(b)
+Figure 2: Schematic representation of general pipelines used in the study. (a): classiﬁcation pipeline; (b) clustering pipeline;
+silver block (“contrasting”) may be either used or ignored.
+13
+
+
+## Page 14
+
+
+
+HH
+abs/
+XXX
+mean/
+HH
+std
+
+HH
+abs/
+XXX
+mean/std
+
+HH
+abs/mean/
+HH
+std
+
+HH
+abs/mean/std
+abs/
+XXX
+mean/
+HH
+std
+abs/
+XXX
+mean/std
+abs/mean/
+HH
+std
+abs/mean/std
+f
+f ′
+f ′′
+0.60
+0.65
+0.70
+0.75
+0.80
+0.85
+0.90
+0.95
+1.00
+Accuracy (train)
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+Accuracy (test)
+(a)
+0.60
+0.65
+0.70
+0.75
+0.80
+0.85
+0.90
+0.95
+1.00
+Accuracy (train)
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+Accuracy (test)
+(b)
+0.75
+0.80
+0.85
+0.90
+0.95
+1.00
+Accuracy (train)
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+Accuracy (test)
+(c)
+0.60
+0.65
+0.70
+0.75
+0.80
+0.85
+0.90
+0.95
+1.00
+Accuracy (train)
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+Accuracy (test)
+(d)
+0.60
+0.65
+0.70
+0.75
+0.80
+0.85
+0.90
+0.95
+1.00
+Accuracy (train)
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+Accuracy (test)
+(e)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Accuracy (train)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Accuracy (test)
+(f)
+0.75
+0.80
+0.85
+0.90
+0.95
+1.00
+Accuracy (train)
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+Accuracy (test)
+(g)
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+Accuracy (train)
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+Accuracy (test)
+(h)
+Figure 3: Visualization of accuracy values achieved on train and test parts of data for best performing models depending on
+diﬀerent preprocessing steps (mean of 4-fold CV). (a) LDA, DWT with hard/soft thresholding; (b) LDA, WTT with hard/soft
+thresholding; (c) LDA, without decomposition; (d) LDA, DWT hard/soft thresholding followed by taking a signum; (e) LDA,
+DWT hard/soft thresholding followed by taking a signum; (f) LR, without decomposition; (g) LR, DWT hard/soft threshold
+followed by taking a signum; (h) LR, WTT hard/soft thresholding followed by taking a signum. In (a), (b), (d), (e), (g), (h)
+ﬁlled shapes correspond to hard thresholding, empty shapes - to soft thresholding.
+14
+
+
+## Page 15
+
+
+0
+0.2
+0.4
+0.6
+0.8
+1
+Adjusted Rand Index
+1
+0
+Standard scaling axis
+abs/mean/
+HH
+std
+abs/mean/std
+abs/
+XXX
+mean/
+HH
+std
+abs/
+XXX
+mean/std
+
+HH
+abs/mean/
+HH
+std
+
+HH
+abs/mean/std
+
+HH
+abs/
+XXX
+mean/
+HH
+std
+
+HH
+abs/
+XXX
+mean/std
+(a)
+1
+0
+Standard scaling axis
+abs/mean/
+HH
+std
+abs/mean/std
+abs/
+XXX
+mean/
+HH
+std
+abs/
+XXX
+mean/std
+
+HH
+abs/mean/
+HH
+std
+
+HH
+abs/mean/std
+
+HH
+abs/
+XXX
+mean/
+HH
+std
+
+HH
+abs/
+XXX
+mean/std
+(b)
+1
+0
+Standard scaling axis
+abs/mean/
+HH
+std
+abs/mean/std
+abs/
+XXX
+mean/
+HH
+std
+abs/
+XXX
+mean/std
+
+HH
+abs/mean/
+HH
+std
+
+HH
+abs/mean/std
+
+HH
+abs/
+XXX
+mean/
+HH
+std
+
+HH
+abs/
+XXX
+mean/std
+(c)
+1
+0
+Standard scaling axis
+abs/mean/
+HH
+std
+abs/mean/std
+abs/
+XXX
+mean/
+HH
+std
+abs/
+XXX
+mean/std
+
+HH
+abs/mean/
+HH
+std
+
+HH
+abs/mean/std
+
+HH
+abs/
+XXX
+mean/
+HH
+std
+
+HH
+abs/
+XXX
+mean/std
+hard
+soft
+Threshold
+False
+True
+Subtract
+(d)
+1
+0
+Standard scaling axis
+abs/mean/
+HH
+std
+abs/mean/std
+abs/
+XXX
+mean/
+HH
+std
+abs/
+XXX
+mean/std
+
+HH
+abs/mean/
+HH
+std
+
+HH
+abs/mean/std
+
+HH
+abs/
+XXX
+mean/
+HH
+std
+
+HH
+abs/
+XXX
+mean/std
+hard
+soft
+Threshold
+False
+True
+Subtract
+(e)
+1
+0
+Standard scaling axis
+abs/mean/
+HH
+std
+abs/mean/std
+abs/
+XXX
+mean/
+HH
+std
+abs/
+XXX
+mean/std
+
+HH
+abs/mean/
+HH
+std
+
+HH
+abs/mean/std
+
+HH
+abs/
+XXX
+mean/
+HH
+std
+
+HH
+abs/
+XXX
+mean/std
+hard
+soft
+Threshold
+False
+True
+Subtract
+(f)
+1
+0
+Standard scaling axis
+abs/mean/
+HH
+std
+abs/mean/std
+abs/
+XXX
+mean/
+HH
+std
+abs/
+XXX
+mean/std
+
+HH
+abs/mean/
+HH
+std
+
+HH
+abs/mean/std
+
+HH
+abs/
+XXX
+mean/
+HH
+std
+
+HH
+abs/
+XXX
+mean/std
+hard
+soft
+Threshold
+False
+True
+Subtract
+(g)
+1
+0
+Standard scaling axis
+abs/mean/
+HH
+std
+abs/mean/std
+abs/
+XXX
+mean/
+HH
+std
+abs/
+XXX
+mean/std
+
+HH
+abs/mean/
+HH
+std
+
+HH
+abs/mean/std
+
+HH
+abs/
+XXX
+mean/
+HH
+std
+
+HH
+abs/
+XXX
+mean/std
+hard
+soft
+Threshold
+False
+True
+Subtract
+(h)
+1
+0
+Standard scaling axis
+abs/mean/
+HH
+std
+abs/mean/std
+abs/
+XXX
+mean/
+HH
+std
+abs/
+XXX
+mean/std
+
+HH
+abs/mean/
+HH
+std
+
+HH
+abs/mean/std
+
+HH
+abs/
+XXX
+mean/
+HH
+std
+
+HH
+abs/
+XXX
+mean/std
+hard
+soft
+Threshold
+False
+True
+Subtract
+(i)
+Figure 4: Inﬂuence of diﬀerent parameter conﬁgurations on clustering results by means of adjusted Rand score. (a), (b), (c) -
+clustering without DWT/WTT decomposition, using original signal and its 1st and 2nd derivatives respectively; (d), (e), (f)
+- clustering with best performing DWT decompositions, using original signal and its 1st and 2nd derivatives respectively; (g),
+(h), (i) - clustering with best performring WTT decomposition using original signal and its 1st and 2nd derivatives respectively.
+Results were computed as mean of 4-fold CV-like scheme.
+15
+
+
+## Page 16
+
+
+f (train)
+f (test)
+f ′ (train)
+f ′ (test)
+f ′′ (train)
+f ′′ (test)
+bior1.1
+periodic
+bior1.3
+periodic
+bior1.5
+periodiz.
+bior2.2
+zero
+bior2.4
+periodic
+bior2.6
+periodic
+bior2.8
+periodic
+bior3.1
+symmet.
+bior3.3
+periodic
+bior3.5
+const.
+bior3.7
+periodiz.
+bior3.9
+const.
+bior4.4
+zero
+bior5.5
+const.
+bior6.8
+zero
+0.80
+0.85
+0.90
+0.95
+1.00
+(a)
+coif1
+periodiz.
+coif2
+const.
+coif3
+periodic
+coif4
+periodiz.
+coif5
+periodic
+coif6
+zero
+coif7
+periodiz.
+coif8
+periodiz.
+coif9
+periodiz.
+coif10
+zero
+coif11
+periodic
+coif12
+periodic
+coif13
+periodiz.
+coif14
+zero
+coif15
+periodiz.
+coif16
+periodiz.
+coif17
+periodiz.
+0.80
+0.85
+0.90
+0.95
+1.00
+(b)
+db1
+zero
+db2
+periodiz.
+db3
+zero
+db4
+symmet.
+db5
+periodic
+db6
+const.
+db7
+periodiz.
+db8
+const.
+db9
+reﬂect
+db10
+zero
+db11
+periodiz.
+db12
+zero
+db13
+zero
+db14
+periodic
+db15
+periodic
+db16
+const.
+db17
+smooth
+db18
+periodiz.
+db19
+reﬂect
+db20
+symmet.
+0.80
+0.85
+0.90
+0.95
+1.00
+(c)
+rbio1.1
+zero
+rbio1.3
+zero
+rbio1.5
+periodiz.
+rbio2.2
+smooth
+rbio2.4
+zero
+rbio2.6
+periodiz.
+rbio2.8
+periodiz.
+rbio3.1
+periodiz.
+rbio3.3
+const.
+rbio3.5
+periodiz.
+rbio3.7
+periodiz.
+rbio3.9
+periodic
+rbio4.4
+zero
+rbio5.5
+periodic
+rbio6.8
+symmet.
+0.80
+0.85
+0.90
+0.95
+1.00
+(d)
+sym2
+periodiz.
+sym3
+zero
+sym4
+smooth
+sym5
+smooth
+sym6
+zero
+sym7
+zero
+sym8
+zero
+sym9
+zero
+sym10
+periodiz.
+sym11
+periodiz.
+sym12
+zero
+sym13
+const.
+sym14
+periodiz.
+sym15
+periodiz.
+sym16
+periodiz.
+sym17
+reﬂect
+sym18
+zero
+sym19
+zero
+sym20
+periodic
+0.80
+0.85
+0.90
+0.95
+1.00
+(e)
+rank 1
+rank 2
+rank 3
+rank 4
+rank 5
+rank 6
+rank 7
+rank 8
+rank 9 rank 10 rank 11 rank 12 rank 13 rank 14 rank 15 rank 16 rank 17 rank 18 rank 19 rank 20
+0.80
+0.85
+0.90
+0.95
+1.00
+(f)
+Figure 5: Performance of logistic regression depending on DWT/WTT decompositions and diﬀerent values of hyperparameters.
+(a) biorthogonal wavelets; (b) coiﬂets; (c) Daubechies wavelets; (d) reverse biorthogonal wavelets; (e) symlets; (f) WTT with
+diﬀerent ranks. In (a)–(e) padding was chosen to maximize accuracy for given wavelet on both original and derivative spectra
+with other parameters being individual for each type of spectra. Results were obtained by taking mean of accuracy values in
+4-fold CV.
+16
+
+
+## Page 17
+
+
+f
+f ′
+f ′′
+bior1.1
+const.
+bior1.3
+const.
+bior1.5
+periodic
+bior2.2
+reﬂect
+bior2.4
+reﬂect
+bior2.6
+smooth
+bior2.8
+zero
+bior3.1
+reﬂect
+bior3.3
+periodiz.
+bior3.5
+symmet.
+bior3.7
+zero
+bior3.9
+symmet.
+bior4.4
+reﬂect
+bior5.5
+const.
+bior6.8
+smooth
+0.0
+0.2
+0.4
+0.6
+(a)
+coif1
+reﬂect
+coif2
+symmet.
+coif3
+symmet.
+coif4
+zero
+coif5
+smooth
+coif6
+zero
+coif7
+zero
+coif8
+zero
+coif9
+zero
+coif10
+const.
+coif11
+zero
+coif12
+const.
+coif13
+periodic
+coif14
+symmet.
+coif15
+periodic
+coif16
+zero
+coif17
+periodic
+0.0
+0.2
+0.4
+0.6
+(b)
+db1
+const.
+db2
+reﬂect
+db3
+const.
+db4
+periodic
+db5
+const.
+db6
+const.
+db7
+zero
+db8
+reﬂect
+db9
+const.
+db10
+symmet.
+db11
+smooth
+db12
+zero
+db13
+smooth
+db14
+symmet.
+db15
+symmet.
+db16
+smooth
+db17
+zero
+db18
+zero
+db19
+reﬂect
+db20
+smooth
+0.0
+0.2
+0.4
+0.6
+(c)
+rbio1.1
+const.
+rbio1.3
+reﬂect
+rbio1.5
+periodic
+rbio2.2
+const.
+rbio2.4
+symmet.
+rbio2.6
+symmet.
+rbio2.8
+const.
+rbio3.1
+reﬂect
+rbio3.3
+symmet.
+rbio3.5
+reﬂect
+rbio3.7
+smooth
+rbio3.9
+const.
+rbio4.4
+symmet.
+rbio5.5
+const.
+rbio6.8
+reﬂect
+0.0
+0.2
+0.4
+0.6
+(d)
+sym2
+reﬂect
+sym3
+const.
+sym4
+const.
+sym5
+zero
+sym6
+symmet.
+sym7
+smooth
+sym8
+const.
+sym9
+zero
+sym10
+zero
+sym11
+smooth
+sym12
+const.
+sym13
+symmet.
+sym14
+symmet.
+sym15
+smooth
+sym16
+reﬂect
+sym17
+smooth
+sym18
+zero
+sym19
+zero
+sym20
+const.
+0.0
+0.2
+0.4
+0.6
+(e)
+rank 1
+rank 2
+rank 3
+rank 4
+rank 5
+rank 6
+rank 7
+rank 8
+rank 9 rank 10 rank 11 rank 12 rank 13 rank 14 rank 15 rank 16 rank 17 rank 18 rank 19 rank 20
+0.0
+0.2
+0.4
+0.6
+(f)
+Figure 6: Performance of agglomerative clustering in terms of adjusted Rand index (ARI) for 5 DWT families and WTT
+decomposition. (a) biorthogonal wavelets; (b) coiﬂets; (c) Daubechies wavelets; (d) reverse biorthogonal wavelets; (e) symlets;
+(f) WTT with diﬀerent ranks. In (a)–(e) padding was chosen to maximize ARI for given wavelet on both original and derivative
+spectra with other parameters being individual for each type of spectra.
+17
+
+
+## Page 18
+
+
+Linum usitatissimum
+Glycyrrhiza glabra
+Arctium lappa
+Silybum marianum
+Anethum graveolens
+Inula helenium
+Valeriana oﬃcinalis
+(a)
+(b)
+(c)
+(d)
+(e)
+(f)
+Figure 7: Dendrogram plots computed as the result of hierarchical agglomerative clustering of all available samples.
+(a)
+clustering without DWT/WTT processing, oriiginal signal; (b) clustering without DWT/WTT processing, ﬁrst derivative; (c)
+clustering with best performing DWT, original signal; (d) clustering with best performing DWT, ﬁrst derivative; (e) clustering
+with best performing WTT, original signal; (f) clustering with best performing WTT, ﬁrst derivative.
+18
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1807_07099v1_comparative_study_of_discrete_wavelet_transforms_and_wavelet_tensor_train_decomp
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1807_07099V1_COMPARATIVE_STUDY_OF_DISCRETE_WAVELET_TRANSFORMS_AND_WAVELET_TENSOR_TRAIN_DECOMP.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

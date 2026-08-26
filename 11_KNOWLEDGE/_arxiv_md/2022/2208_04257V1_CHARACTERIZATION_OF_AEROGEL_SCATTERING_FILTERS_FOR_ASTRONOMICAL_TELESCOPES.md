@@ -1,0 +1,419 @@
+---
+canon-group: reference
+rscf-state: source-claim
+arxiv_id: 2208.04257v1
+source: arxiv
+tags: [arxiv, knowledge, quantum, reference]
+---
+# 2208.04257v1_Characterization of aerogel scattering filters for astronomical telescopes
+
+> Source: 2208.04257v1_Characterization of aerogel scattering filters for astronomical telescopes.pdf
+
+> Pages: 7
+
+---
+
+
+## Page 1
+
+
+Characterization of aerogel scattering ﬁlters for astronomical
+telescopes
+Alyssa Barlisa, Stefan Arseneaub, Charles L. Bennettb, Thomas Essinger-Hilemana, Haiquan
+Guoc, Kyle R. Helsona,d, Tobias Marriageb, Manuel A. Quijadaa, Ariel E. Tokarze, Stephanie
+L. Vivode, and Edward J. Wollacka
+aNASA Goddard Space Flight Center, Greenbelt, MD, USA
+bJohns Hopkins University Department of Physics & Astronomy, Baltimore, MD, USA
+cUniversities Space Research Association, Columbia, MD, USA
+dThe University of Maryland, Baltimore County, Baltimore, MD, USA
+eNASA Glenn Research Center, Cleveland, OH, USA
+ABSTRACT
+We have developed a suite of novel infrared-blocking ﬁlters made by embedding scattering particles in a polymer
+aerogel substrate. Our developments allow us to tune the spectral performance of the ﬁlters based on both the
+composition of the base aerogel material and the properties of the scattering particles. Our ﬁlters are targeted
+for use in a variety of applications, from ground-based CMB experiments to planetary science probes.
+We
+summarize the formulations we have fabricated and tested to date, including several polyimide base aerogel
+formulations incorporating a range of size distributions of diamond scattering particles. We also describe the
+spectral characterization techniques used to measure the ﬁlters’ optical properties, including the development of
+a mm-wave Fourier transform spectrometer testbed.
+Keywords: aerogel, ﬁlter, blocking, scattering, Fourier Transform Spectroscopy
+1. INTRODUCTION
+Astronomical telescope receivers in the far-infrared and sub-mm spectral ranges require high-quality optical
+ﬁltration in order to reject out-of-band infrared (IR) thermal loading on highly-sensitive cryogenic detectors.
+Equally importantly, optical ﬁlters must also allow signal in the science band of interest to reach the detectors
+unimpeded. As receiver instruments under development require increased aperture size (∼1 m in diameter),
+improvements in detector sensitivity require increasingly stringent optical ﬁltering.
+IR-blocking ﬁlters can use several physical mechanisms to reject out-of-band radiation, including reﬂection,
+absorption, and scattering. Reﬂective metal-mesh ﬁlters are widely used and oﬀer eﬀective IR rejection.1 When
+incorporated into a stack of multiple ﬁlters, however, metal-mesh ﬁlters provide diminishing returns as it becomes
+diﬃcult to direct radiation that is reﬂected multiple times away from the receiver entirely.2 Absorptive ﬁlters
+including those made from alumina, nylon, and polytetraﬂuoroethylene can conduct radiation away from cold
+focal plane stages, but this mechanism proves challenging with increasing ﬁlter diameter because the ﬁlters
+themselves tend to heat up and re-radiate in all directions. Absorptive ﬁlters also typically require anti-reﬂection
+(AR) coating, which adds complexity to ﬁlter fabrication, limits ﬁlter bandwidth, and can pose mechanical
+challenges. Often a combination of ﬁlter types is used to meet the unique requirements of a speciﬁc instrument.3–6
+As an alternative to the above approaches, we have developed a suite of aerogel blocking ﬁlters by embedding
+diamond scattering particles in a base polyimide aerogel matrix. Their optical performance can be tuned by
+varying the scattering particle size and density. In particular, we investigate ﬁlters suitable for use in the EXper-
+iment for Cryogenic Large Aperture Intensity Mapping (EXCLAIM) which will ﬁeld sensitive superconducting
+detectors in the 420–540 GHz band.7–9 We also target ﬁlters for application on the 2.5 THz heterodyne receiver
+on the Submillimeter Solar Observation Lunar Volatiles Experiment (SSOLVE).10
+Further author information: (Send correspondence to A.B)
+A.B.: E-mail: alyssa.barlis@nasa.gov, Telephone: 1 301 286 6558
+1
+arXiv:2208.04257v1  [astro-ph.IM]  8 Aug 2022
+
+
+## Page 2
+
+
+Figure 1.
+Aerogel scattering ﬁlter test sample fabricated as a ﬁlm sheet. This sample consisted of an aerogel backbone
+of BAPB with DMBZ/BPDA/TAB embedded with 40 mg/cc 40–60 µm particles, 20 mg/cc 10–20 µm particles, and 20
+mg/cc 3–6 µm particles. The ﬁlm density is 0.2 g/cm3 with 90.6% porosity, and has a thermal conductivity of 25.1 mW
+m−1 K−1. Left: The full sample sheet, which takes on a yellow hue due to the polyimide aerogel base. Right: SEM image
+of the aerogel pore structure, characterized by very large internal surface area.
+2. FILTER DESIGN AND FABRICATION
+In general, polyimide aerogels are highly porous solids that are lightweight and mechanically robust with very
+low density. They are marked by an open-celled material composition derived from a gel in which the liquid
+is removed while maintaining a self-assembled three-dimensional backbone.11
+The resulting aerogels can be
+formed or molded into a variety of shapes and sizes depending on desired application. The polyimide aerogel
+formulations we describe here exhibit mechanical ﬂexibility and robustness.
+Figure 2. Diagrams of the monomeric precursors used in our polyimide aerogel formulations.
+The aerogels investigated for this work were fabricated using biphenyl-3,3’,4,4’-tetracarbooxylic dianhydride
+(BPDA) as dianhydride, 2,2’-dimethylbenzidine (DMBZ) as diamine in combination with 1,12-dodecyldiamine
+(DADD) or 4,4’-bis (4-aminophenoxy) biphenyl (BAPB), and 3,5-triaminophenoxybenzene (TAB) as cross-linker
+(see Fig. 2). Diamond scattering particles were embedded into the gel formula prior to curing and drying.∗By
+varying the scattering particle size and density relative to the base aerogel, we tuned the optical performance of
+the ﬁlters. While our group’s previous work had investigated using silicon scattering particles,12 we chose to use
+diamond for this work due to greater commercial availability of diamond particles with known size distributions.
+The optical properties of diamond are also well-known, most notably low loss in the far-infrared and millimeter
+spectral ranges.13 We used a Mie scattering model to design the desired optical cut-on properties.14
+∗The
+particles
+were
+purchased
+from
+Pureon:
+https://pureon.com/products/diamond-powder/monocrystalline-
+microdiamant-mono-eco
+2
+
+
+## Page 3
+
+
+100
+101
+102
+103
+Frequency (THz)
+10
+5
+10
+4
+10
+3
+10
+2
+10
+1
+100
+Specular Transmission
+DADD with DMBZ/BPDA/TAB
+unloaded
+50mg/cc 3-6 m
+100
+101
+102
+103
+Frequency (THz)
+BAPB with DMBZ/BPDA/TAB
+unloaded
+50mg/cc 3-6 m
+Figure 3.
+We compared optical performance of two base aerogel formulations with and without diamond scattering
+particle loading. In addition to DADD or BAPB as diamine, all four ﬁlms used a combination of DMBZ (diamine),
+BPDA (dianhydride), and TAB (cross-linker) as the base aerogel chemistry. The measured ﬁlm thicknesses were: 0.12 mm
+(DADD unloaded) 0.10 mm (DADD loaded), 0.11 mm (BAPB unloaded), 0.12 mm (BAPB loaded).
+For ease of optical characterization, the aerogel scattering ﬁlter formulations were formed into ﬁlm sheets
+6–12 inches square. To form the ﬁlm, the gel was ﬁlm cast using a doctor blade prior to the drying process.
+The ﬁlms shrink by approximately 10% in all directions as they dry. Once dry, we cut 1 inch diameter circular
+sections of the ﬁlm and use double-sided adhesive tape to mount the sections to washers for compatibility with
+the optical characterization facilities.
+3. OPTICAL CHARACTERIZATION
+To fully characterize the optical performance of the aerogel scattering ﬁlters, we endeavor to measure the samples’
+specular and total hemispherical transmittance and reﬂectance over as broad a spectral range as possible. We
+use several spectrometer instruments to do this.
+The PerkinElmer LAMBDA 950 instrument is a dual-beam monochromator that operates at optical wave-
+lengths between 200–3300 nm.
+We use several detectors to cover this range: a photomultiplier tube in the
+200–900 nm range and a PbS photocell detector in the 800 nm–3300 nm range. An integrating sphere coated
+with Spectralon† is used to measure total hemispherical transmittance and reﬂectance. The instrument’s spectral
+accuracy is < ±0.3 nm. The PerkinElmer instrument operates at ambient atmospheric pressure.
+The Bruker 125HR instrument is a versatile Fourier Transform Interferometer that operates at optical wave-
+lengths between 500 nm and 1 mm. To span this range, we combine data taken in several instrument conﬁgu-
+rations. For wavelengths between 14 µm and 1 mm, we use a mercury arc lamp as a white light source, Mylar
+ﬁlm beam splitter, and Si bolometer cooled to 4.2 K as a detector. For wavelengths 2–14 µm, we use a Globar
+white light source, KBr beam splitter, and room temperature deuterated L-alanine doped triglycine sulphate
+(DTGS) detector. In addition to a basic sample mount translation stage for measuring specular transmittance,
+we utilize an accessory stage for measuring specular reﬂectance at 10◦angle of incidence referenced to a gold
+mirror. To measure total hemispherical transmittance and reﬂectance for wavelengths in the range 2–20 µm, we
+use an accessory that couples an integrating sphere coated with a Lambertian gold surface to a DTGS detec-
+tor. The spectral resolution of the Bruker 125HR is 0.0063 cm−1, while the photometric precision is ±1%. All
+measurements with the Bruker are performed under vacuum (pressure below 0.4 T).
+To extend our measurement capabilities beyond 1 mm, our group has also been developing a testbed built
+around a compact mm-wavelength Fourier Transform Spectrometer (FTS). The FTS is designed to operate at
+wavelengths from 0.9–6 mm, and the design of the spectrometer itself is described in Ref. 15. The spectrometer,
+†https://www.labsphere.com/product/spectralon-diﬀuse-reﬂectance-material/
+3
+
+
+## Page 4
+
+
+Figure 4.
+We are developing a long-wavelength FTS testbed. Left: Photo of the spectrometer unit itself (long edge
+measures 10 inches). Right: The FTS incorporated into our testbed with blackbody source at the left and a port for a
+detector at right. The green laser beam was used for initial alignment of the coupling optics.
+shown in Fig. 4, incorporates two sets of orthogonal wire polarizing grids as beamsplitters, and machined alu-
+minum elliptical mirrors that attach to the sides of the spectrometer enclosure. The non-optical surfaces of the
+enclosure are covered with foam absorber material and 3D-printed black strips surround the mirrors. We have
+integrated the FTS with a cavity blackbody outﬁtted with an optical chopper wheel to serve as a white light
+source.‡ We also designed a set of coupling optics to collimate the beam and allow space for an optical sample to
+be mounted. For the testbed, we use a liquid helium-cooled dual-bolometer system as a detector.§ The system
+contains two Si bolometers: one operating at 4.2 K for wavelengths below 1 mm and one operating at 1.6 K for
+wavelengths above 1 mm. We are working on developing the testbed into a user facility capable of measuring
+specular transmittance of our aerogel scattering ﬁlters.
+4. FILTER PERFORMANCE
+Here we present the optical characterization of nine samples of aerogel scattering ﬁlters, seven of which were
+loaded with diamond scattering particles. Fig. 3 shows a direct comparison of the aerogel base formulations
+using either BAPB or DADD, with and without equal concentrations of diamond scattering particles. Specular
+transmittance measurements for four samples fabricated using the BAPB with DMBZ/BPDA/TAB base aerogel
+formulation are shown in Fig. 5. Their thicknesses and diamond particle loading concentrations are listed in
+Table 1.
+Two of these formulations were targeted towards speciﬁc mission applications. Sample D is the candidate
+ﬁlter formulation for use on the EXCLAIM mission. EXCLAIM requires a 50% cut-oﬀfrequency of 2 THz and
+out-of-band rejection by a factor of 1000 beyond 10 THz. We measure a 50% cut-oﬀfrequency of 2.05 THz and
+transmittance below 3 × 10−3 between 10 and 18 THz (the increase beyond 18 THz is due to an increasing noise
+ﬂoor in the bolometer detector). Sample C, which is 0.08 mm thick and contains 60 mg/cc 10-20µm and 20 mg/cc
+3-6µm scattering particles, is a candidate ﬁlter for use on the SSOLVE mission. SSOLVE requires transmittance
+above 94% at 2.5 THz. We measure 90.3% transmittance at 2.5 THz. For both projects’ candidate formulations,
+the samples tested represent an initial design and fabrication cycle. With further iteration we anticipate the
+aerogel scattering ﬁlters will meet project requirements.
+Full optical characterization of another sample is shown in Fig. 6.
+This sample used the BAPB with
+DMBZ/BPDA/TAB aerogel base formulation with 80 mg/cc loading of 3–6 µm diamond scattering particles,
+and was measured to be 0.12 mm thick. We estimated the absorptance of the sample by subtracting the total
+hemispherical reﬂectance and transmittance from unity.
+‡Infrared Systems IR-564/301 https://www.infraredsystems.com/Products/blackbody564.html
+§Infrared Laboratories: https://www.irlabs.com/products/bolometers/bolometer-systems/
+4
+
+
+## Page 5
+
+
+Table 1. Aerogel sample properties
+Sample
+Thickness (mm)
+Particle Loading
+A
+0.09
+50 mg/cc 40–60µm
+B
+0.16
+40 mg/cc 40–60µm, 20 mg/cc 10–20µm, 20 mg/cc 3–6µm
+C
+0.08
+60 mg/cc 10–20µm, 20 mg/cc 3–6µm
+D
+1.14
+40 mg/cc 40–60µm, 20 mg/cc 10–20µm, 20 mg/cc 3–6µm
+100
+101
+Frequency (THz)
+10
+4
+10
+3
+10
+2
+10
+1
+100
+Specular Transmittance
+Sample A
+Sample B
+Sample C
+Sample D
+Figure 5. We characterize the specular transmittance of 4 formulations of aerogel ﬁlters incorporating diamond scattering
+particles. Sample properties are described in Table 1. The spectral bands of the EXCLAIM (shaded yellow) and SSOLVE
+(dashed orange) instruments are shown in yellow.
+4.1 Environmental Testing
+All the optical characterization data presented here were taken with the ﬁlter samples at room temperature.
+Our previous work has demonstrated that the polyimide aerogel material survives cryogenic cycling. Although
+we expect only minimal changes in optical performance as a function of temperature, we plan to characterize
+the ﬁlter transmittance at cryogenic temperatures since the entire EXCLAIM instrument including the optics
+are submerged in a liquid helium dewar.
+We also performed an initial test to investigate the susceptibility of the aerogel ﬁlters to changes in ambient
+humidity. We measured the specular transmittance of a 1 inch square sample of an aerogel sample loaded with
+diamond scattering particles (the formulation matches the one shown in Figure 3 as the unloaded BAPB sample).
+We exposed the sample to a warm, humid environment by placing it in an oven set to 50◦C for 24 hours, and
+then immediately remeasured its specular transmittance. As shown in Figure 7, the transmittance spectrum
+changed by less than 2% across the 2–220 µm band we measured, and we saw no evidence of spectral features of
+water.
+ACKNOWLEDGMENTS
+The authors gratefully acknowledge the National Aeronautics and Space Administration under grant numbers
+NNX14AB76A and NNH18ZDA001N-18-APRA18-0008, as well as the National Science Foundation Division of
+Astronomical Sciences for their support of this work under Grant Numbers 0959349, 1429236, 1636634, and
+1654494. K.H acknowledges that the material is based upon work supported by NASA under award number
+80GSFC17M0002. We also gratefully acknowledge support under the Goddard Internal Research and Develop-
+ment (IRAD) program.
+5
+
+
+## Page 6
+
+
+100
+101
+102
+103
+Frequency (THz)
+10
+5
+10
+4
+10
+3
+10
+2
+10
+1
+100
+Transmittance or Reflectance
+Specular Transmittance
+Total Hemispherical Transmittance
+Total Hemispherical Reflectance
+Specular Reflectance
+Est. Absorptance
+Figure 6.
+We characterize the optical performance of aerogel scattering ﬁlters by measuring their specular and total
+hemispherical transmittance and reﬂectance. This sample was 0.12 mm thick and loaded with 80 mg/cc 3–6 µm diamond
+scattering particles.
+0.2
+0.4
+0.6
+0.8
+1.0
+Specular
+ Transmittance
+Dry
+Humidified
+0
+5
+10
+15
+20
+25
+Frequency (THz)
+0.025
+0.000
+0.025
+Difference
+Figure 7.
+Specular Transmittance before and after exposure to a humid environment. This sample measured 0.12 mm
+thick and was fabricated using the BAPB with DMBZ/BPDA/TAB base chemistry, loaded with 50 mg/cc 3–6µm diamond
+scattering particles. The bottom panel shows the diﬀerence between the measurements (humidiﬁed spectrum subtracted
+from the dry spectrum).
+REFERENCES
+[1] Ade, P. A. R., Pisano, G., Tucker, C., and Weaver, S., “A review of metal mesh ﬁlters,” in [Society of Photo-
+Optical Instrumentation Engineers (SPIE) Conference Series], Zmuidzinas, J., Holland, W. S., Withington,
+S., and Duncan, W. D., eds., Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series
+6275, 62750U (June 2006).
+[2] Sharp, E. H., Benford, D. J., Fixsen, D. J., Moseley, S. H., Staguhn, J. G., and Wollack, E. J., “Stray light
+suppression in the Goddard IRAM 2-Millimeter Observer (GISMO),” in [Millimeter, Submillimeter, and
+Far-Infrared Detectors and Instrumentation for Astronomy VI], Holland, W. S. and Zmuidzinas, J., eds.,
+Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series 8452, 84523I (Sept. 2012).
+[3] Halpern, M., Gush, H. P., Wishnow, E., and de Cosmo, V., “Far infrared transmission of dielectrics at
+cryogenic and room temperatures: glass, Fluorogold, Eccosorb, Stycast, and various plastics,” Applied
+Optics 25, 565–570 (Feb. 1986).
+6
+
+
+## Page 7
+
+
+[4] Munson, C. D., Choi, S. K., Coughlin, K. P., McMahon, J. J., Miller, K. H., Page, L. A., and Wollack,
+E. J., “Composite reﬂective/absorptive IR-blocking ﬁlters embedded in metamaterial antireﬂection-coated
+silicon,” Applied Optics 56, 5349 (June 2017).
+[5] Bock, J. J. and Lange, A. E., “Performance of a low-pass ﬁlter for far-infrared wavelengths,” Applied
+Optics 34, 7254–7257 (Nov. 1995).
+[6] Armstrong, K. R. and Low, F. J., “Far-infrared ﬁlters utilizing small particle scattering and antireﬂection
+coatings.,” Applied Optics 13, 425–430 (Jan. 1974).
+[7] Essinger-Hileman, T. M., Ade, P., Anderson, C., Barlis, A., Barrentine, E., Beeman, J., Bellis, N., Bolatto,
+A., Breysse, P., Bulcha, B., Cataldo, G., Chevres Fernandez, L. R., Cho, C., Connors, J., Ehsan, N.,
+Glenn, J., Golec, J., Hays-Wehle, J., Hess, L., Jahromi, A., Jenkins, T., Kimball, M., Kogut, A., Lowe,
+L., Mauskopf, P., McMahon, J., Mirzaei, M., Moseley, H., Mugge-Durum, J., Noroozian, O., Oxholm, T.,
+Parekh, T., Pen, U.-L., Pullen, A., Rahmani, M., Ramirez, M., Roselli, F., Shire, K., Siebert, G., Sinclair,
+A., Somerville, R., Stephenson, R., Stevenson, T., Switzer, E., Timbie, P., Termini, J., Trenkamp, J.,
+Tucker, C., Visbal, E., Volpert, C., Watson, J., Wollack, E., Yang, S., and Yung, A., “EXCLAIM: The
+EXperiment for Cryogenic Large-Aperture Intensity Mapping,” in [Millimeter, Submillimeter, and Far-
+Infrared Detectors and Instrumentation for Astronomy XI], Gao, J.-R. and Zmuidzinas, J., eds., Society of
+Photo-Optical Instrumentation Engineers (SPIE) Conference Series 12190 (2022).
+[8] Volpert, C. G., Barrentine, E. M., Mirzaei, M., Barlis, A., Bolatto, A. D., Bulcha, B. T., Cataldo, G., Con-
+nors, J. A., Costen, N., Ehsan, N., Essinger-Hileman, T., Glenn, J., Hays-Wehle, J. P., Hess, L. A., Kogut,
+A. J., Moseley, H., Mugge-Durum, J., Noroozian, O., Oxholm, T. M., Rahmani, M., Stevenson, T., Switzer,
+E. R., Watson, J., and Wollack, E. J., “Developing a new generation of integrated micro-spec far-infrared
+spectrometers for the experiment for cryogenic large-aperture intensity mapping (EXCLAIM),” in [Space
+Telescopes and Instrumentation 2022: Optical, Infrared, and Millimeter Wave], Coyle, L. E., Matsuura,
+S., and Perrin, M. D., eds., Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series
+12180 (2022).
+[9] Rahmani, M., Barlis, A., Barrentine, E. M., Brown, A. D., Bulcha, B. T., Cataldo, G., Connors, J.,
+Ehsan, N., Essinger-Hileman, T. M., Grant, H., Hays-Wehle, J., Hsieh, W.-T., Mikula, V., Moseley, S. H.,
+Noroozian, O., Oxholm, T. R., Quijada, M. A., Patel, J., Stevenson, T. R., Switzer, E. R., Tucker, C., U-
+Yen, K., Volpert, Carolyn, and Wollack, E. J., “Optical characterization and testbed development for µ-Spec
+integrated spectrometers,” in [Space Telescopes and Instrumentation 2022: Optical, Infrared, and Millimeter
+Wave], Coyle, L. E., Matsuura, S., and Perrin, M. D., eds., Society of Photo-Optical Instrumentation
+Engineers (SPIE) Conference Series 12180 (2022).
+[10] Livengood, T. A., Anderson, C. M., Bradley, D. C., Bulcha, B. T., Chin, G., Hewagama, T., Jamison-Hooks,
+T. L., and Racette, P. E., “Submillimeter Solar Observation Lunar Volatiles Experiment (SSOLVE),” in
+[EPSC-DPS Joint Meeting 2019], 2019, EPSC–DPS2019–1173 (Sept. 2019).
+[11] Meador, M. A. B., Malow, E. J., Silva, R., Wright, S., Quade, D., Vivod, S. L., Guo, H., Guo, J., and
+Cakmak, M., “Mechanically strong, ﬂexible polyimide aerogels cross-linked with aromatic triamine,” ACS
+applied materials & interfaces 4(2), 536–544 (2012). Publisher: ACS Publications.
+[12] Essinger-Hileman, T., Bennett, C. L., Corbett, L., Guo, H., Helson, K., Marriage, T., Meador, M. A. B.,
+Rostem, K., and Wollack, E. J., “Aerogel scattering ﬁlters for cosmic microwave background observations,”
+Applied Optics 59, 5439–5446 (June 2020). Publisher: Optica Publishing Group.
+[13] Thomas, M. E. and Tropf, W. J., “Optical properties of diamond,” in [Window and Dome Technologies and
+Materials IV], 2286, 144–151, SPIE (Sept. 1994).
+[14] Helson, K. R., Arseneau, S., Barlis, A., Bennett, C. L., Essinger-Hileman, T., Guo, H., Marriage, T.,
+Tokarz, A. E., Vivod, S. L., and Wollack, E. J., “Novel infrared-blocking aerogel scattering ﬁlters and their
+applications in astrophysical and planetary science observations,” in [Millimeter, Submillimeter, and Far-
+Infrared Detectors and Instrumentation for Astronomy XI], Gao, J.-R. and Zmuidzinas, J., eds., Society of
+Photo-Optical Instrumentation Engineers (SPIE) Conference Series 12190 (2022).
+[15] Pan, Z., Pan, Z., Pan, Z., Liu, M., Liu, M., Thakur, R. B., Benson, B. A., Benson, B. A., Benson, B. A.,
+Fixsen, D. J., Fixsen, D. J., Goksu, H., Rath, E., Meyer, S. S., Meyer, S. S., Meyer, S. S., and Meyer, S. S.,
+“Compact millimeter-wavelength Fourier-transform spectrometer,” Applied Optics 58, 6257–6267 (Aug.
+2019). Publisher: Optica Publishing Group.
+7
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 2208_04257v1_characterization_of_aerogel_scattering_filters_for_astronomical_telescopes
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2022/2208_04257V1_CHARACTERIZATION_OF_AEROGEL_SCATTERING_FILTERS_FOR_ASTRONOMICAL_TELESCOPES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL
