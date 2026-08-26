@@ -1787,6 +1787,14 @@ confidence_ceiling:
 
 ---
 
+## Related MOCs
+
+- [[00 Cosmo Brain MOC]] — the Cosmo Brain index
+- [[11_KNOWLEDGE_MOC]] — the knowledge layer index
+- [[AMOS_Obsidian_Linking_Plugins]] — Obsidian vault linking plugin stack
+
+---
+
 # 48. Changelog
 
 ## v2.0.0 — 2026-08-25
