@@ -74,6 +74,7 @@ tags: [moc, index, knowledge]
 - [[AMOS_Obsidian_Linking_Plugins]] — Obsidian vault linking plugin stack
 
 - [[AMOS_Layer_Maps]] — top-level AMOS layer map index
+- [[AMOS_Templates]] — AMOS template index
 ## tensor
 - [[CLAIM_TENSOR]] — AMOS Claim Tensor
 - [[EVIDENCE_TENSOR]] — AMOS Evidence Tensor
