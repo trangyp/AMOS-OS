@@ -25,21 +25,21 @@
       "query": "path:02_KERNEL/",
       "color": {
         "a": 1,
-        "rgb": 4041727
+        "rgb": 37375
       }
     },
     {
       "query": "path:03_CONTROL_PLANE/",
       "color": {
         "a": 1,
-        "rgb": 13132287
+        "rgb": 14680304
       }
     },
     {
       "query": "path:11_KNOWLEDGE/",
       "color": {
         "a": 1,
-        "rgb": 16744631
+        "rgb": 16727441
       }
     },
     {
