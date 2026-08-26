@@ -903,6 +903,8 @@ Universal hub for the AMOS OS vault.
 - [[SKILL_MAP]]
 - [[SKILLS_README]]
 - [[SKILLS_SKILL_CONTRACT]]
+- [[SKILL_NAMING_AUDIT]]
+- [[SKILL_RENAME_MANIFEST]]
 - [[amos-7-part-universe-canon]]
 - [[amos-7-part-universe]]
 - [[amos-flow-canon]]

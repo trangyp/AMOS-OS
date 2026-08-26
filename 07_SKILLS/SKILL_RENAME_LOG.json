@@ -1,0 +1,562 @@
+[
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-new-math",
+    "new_dir": "amos-math"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-legal-super",
+    "new_dir": "amos-legal"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-omega-infinity-stack",
+    "new_dir": "amos-stack"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-super-omega-brain",
+    "new_dir": "amos-brain"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-coding-omega",
+    "new_dir": "amos-coding"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-kernel-super",
+    "new_dir": "amos-kernel"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-super-engine-vomni",
+    "new_dir": "amos-engine"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-quantum-omega",
+    "new_dir": "amos-quantum"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-quantum-omega-final-report",
+    "new_dir": "amos-quantum-2"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-super-mind-os",
+    "new_dir": "amos-mind-os"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-absolute-logic-db",
+    "new_dir": "amos-logic-db"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-full-brain-os",
+    "new_dir": "amos-brain-os"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-qfm-max-power",
+    "new_dir": "amos-qfm-power"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-absolute-human-spec",
+    "new_dir": "amos-human-spec"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-scientific-super",
+    "new_dir": "amos-scientific"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-absolute-omniverse-u",
+    "new_dir": "amos-omniverse-u"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-omega-fx-platform",
+    "new_dir": "amos-fx-platform"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-omega-ultimate-integration",
+    "new_dir": "amos-integration"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-19x19-family-complete",
+    "new_dir": "amos-19x19-family"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-core-full-runtime",
+    "new_dir": "amos-core-runtime"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-coding-omega-engine",
+    "new_dir": "amos-coding-engine-2"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-communication-omega",
+    "new_dir": "amos-communication"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-earth-ecology-super",
+    "new_dir": "amos-earth-ecology"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-quantum-omega-brain",
+    "new_dir": "amos-quantum-brain"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-super-kernel-engine",
+    "new_dir": "amos-kernel-engine"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-vomni-kernel-master",
+    "new_dir": "amos-kernel-master"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-vomni-master-kernel",
+    "new_dir": "amos-master-kernel"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-physics-cosmos-super",
+    "new_dir": "amos-physics-cosmos"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-super-factory-engine",
+    "new_dir": "amos-factory-engine"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-omega-thinking-engine",
+    "new_dir": "amos-thinking-engine"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-full-architecture-complete-form",
+    "new_dir": "amos-architecture-form"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-absolute-protocol-synthesis",
+    "new_dir": "amos-protocol-synthesis"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-absolute-human-omnistructure",
+    "new_dir": "amos-human-omnistructure"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-quantum-enhancement-complete-report",
+    "new_dir": "amos-quantum-enhancement"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-super-fabrication-factory",
+    "new_dir": "amos-fabrication-factory"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-omega-fx-structural-engine",
+    "new_dir": "amos-fx-structural-engine"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-quantum-fractal-math-ultimate",
+    "new_dir": "amos-quantum-fractal-math-2"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-full-brain-os-architecture",
+    "new_dir": "amos-brain-os-architecture"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-khung-trang-full-equations",
+    "new_dir": "amos-khung-trang-equations"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-omniverse-brain-max-power",
+    "new_dir": "amos-omniverse-brain-power"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-universe-brain-super-engine",
+    "new_dir": "amos-universe-brain-engine"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-qfm-curation-best-practices",
+    "new_dir": "amos-qfm-curation-practices"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-trang-grand-full-logic-spec",
+    "new_dir": "amos-trang-grand-logic-spec"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-khung-trang-full-architecture",
+    "new_dir": "amos-khung-trang-architecture"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-brain-quantum-enhancement-report",
+    "new_dir": "amos-brain-quantum-enhancement"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-qfm-max-power-9phase-pipeline",
+    "new_dir": "amos-qfm-power-9phase-pipeline"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-quantum-stack-full-integration",
+    "new_dir": "amos-quantum-stack-integration"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-quantum-fractal-math-max-power",
+    "new_dir": "amos-quantum-fractal-math-power"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-omega-thinking-engine-with-coding",
+    "new_dir": "amos-thinking-engine-with-coding"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-agent-orchestration-best-practices",
+    "new_dir": "amos-agent-orchestration-practices"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-cognitive-max-ubi-quantum-fractal",
+    "new_dir": "amos-cognitive-ubi-quantum-fractal"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-trang-\u2205-framework-formalization",
+    "new_dir": "amos-trang-framework-formalization"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-agent-skill-workflow-best-practices",
+    "new_dir": "amos-agent-skill-workflow-practices"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-qec-real-time-system-best-practices",
+    "new_dir": "amos-qec-real-time-system-practices"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-quantum-omega-cognitive-architecture",
+    "new_dir": "amos-quantum-cognitive-architecture"
+  },
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/skills",
+    "old_dir": "amos-quantum-omega-brain-self-analysis-7pt",
+    "new_dir": "amos-quantum-brain-self-analysis-7pt"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-new-math",
+    "new_dir": "amos-math"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-legal-super",
+    "new_dir": "amos-legal"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-omega-infinity-stack",
+    "new_dir": "amos-stack"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-super-omega-brain",
+    "new_dir": "amos-brain"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-coding-omega",
+    "new_dir": "amos-coding"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-kernel-super",
+    "new_dir": "amos-kernel"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-super-engine-vomni",
+    "new_dir": "amos-engine"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-quantum-omega",
+    "new_dir": "amos-quantum"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-quantum-omega-final-report",
+    "new_dir": "amos-quantum-2"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-super-mind-os",
+    "new_dir": "amos-mind-os"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-absolute-logic-db",
+    "new_dir": "amos-logic-db"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-full-brain-os",
+    "new_dir": "amos-brain-os"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-qfm-max-power",
+    "new_dir": "amos-qfm-power"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-absolute-human-spec",
+    "new_dir": "amos-human-spec"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-scientific-super",
+    "new_dir": "amos-scientific"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-absolute-omniverse-u",
+    "new_dir": "amos-omniverse-u"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-omega-fx-platform",
+    "new_dir": "amos-fx-platform"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-omega-ultimate-integration",
+    "new_dir": "amos-integration"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-19x19-family-complete",
+    "new_dir": "amos-19x19-family"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-core-full-runtime",
+    "new_dir": "amos-core-runtime"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-coding-omega-engine",
+    "new_dir": "amos-coding-engine-2"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-communication-omega",
+    "new_dir": "amos-communication"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-earth-ecology-super",
+    "new_dir": "amos-earth-ecology"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-quantum-omega-brain",
+    "new_dir": "amos-quantum-brain"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-super-kernel-engine",
+    "new_dir": "amos-kernel-engine"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-vomni-kernel-master",
+    "new_dir": "amos-kernel-master"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-vomni-master-kernel",
+    "new_dir": "amos-master-kernel"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-physics-cosmos-super",
+    "new_dir": "amos-physics-cosmos"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-super-factory-engine",
+    "new_dir": "amos-factory-engine"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-omega-thinking-engine",
+    "new_dir": "amos-thinking-engine"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-full-architecture-complete-form",
+    "new_dir": "amos-architecture-form"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-absolute-protocol-synthesis",
+    "new_dir": "amos-protocol-synthesis"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-absolute-human-omnistructure",
+    "new_dir": "amos-human-omnistructure"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-quantum-enhancement-complete-report",
+    "new_dir": "amos-quantum-enhancement"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-super-fabrication-factory",
+    "new_dir": "amos-fabrication-factory"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-omega-fx-structural-engine",
+    "new_dir": "amos-fx-structural-engine"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-quantum-fractal-math-ultimate",
+    "new_dir": "amos-quantum-fractal-math-2"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-full-brain-os-architecture",
+    "new_dir": "amos-brain-os-architecture"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-khung-trang-full-equations",
+    "new_dir": "amos-khung-trang-equations"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-omniverse-brain-max-power",
+    "new_dir": "amos-omniverse-brain-power"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-universe-brain-super-engine",
+    "new_dir": "amos-universe-brain-engine"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-qfm-curation-best-practices",
+    "new_dir": "amos-qfm-curation-practices"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-trang-grand-full-logic-spec",
+    "new_dir": "amos-trang-grand-logic-spec"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-khung-trang-full-architecture",
+    "new_dir": "amos-khung-trang-architecture"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-brain-quantum-enhancement-report",
+    "new_dir": "amos-brain-quantum-enhancement"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-qfm-max-power-9phase-pipeline",
+    "new_dir": "amos-qfm-power-9phase-pipeline"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-quantum-stack-full-integration",
+    "new_dir": "amos-quantum-stack-integration"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-quantum-fractal-math-max-power",
+    "new_dir": "amos-quantum-fractal-math-power"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-omega-thinking-engine-with-coding",
+    "new_dir": "amos-thinking-engine-with-coding"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-agent-orchestration-best-practices",
+    "new_dir": "amos-agent-orchestration-practices"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-cognitive-max-ubi-quantum-fractal",
+    "new_dir": "amos-cognitive-ubi-quantum-fractal"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-trang-\u2205-framework-formalization",
+    "new_dir": "amos-trang-framework-formalization"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-agent-skill-workflow-best-practices",
+    "new_dir": "amos-agent-skill-workflow-practices"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-qec-real-time-system-best-practices",
+    "new_dir": "amos-qec-real-time-system-practices"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-quantum-omega-cognitive-architecture",
+    "new_dir": "amos-quantum-cognitive-architecture"
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/skills",
+    "old_dir": "amos-quantum-omega-brain-self-analysis-7pt",
+    "new_dir": "amos-quantum-brain-self-analysis-7pt"
+  }
+]
