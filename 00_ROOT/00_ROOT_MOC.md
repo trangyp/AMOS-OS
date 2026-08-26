@@ -760,6 +760,8 @@ OBSERVATION
 
 ## `14_TOOLS`
 
+- [[AMOS_Obsidian_Linking_Plugins]] — Obsidian linking plugin stack and Templater starter (vault/brain surface)
+
 Tools provide deterministic or external capability.
 
 Examples:
