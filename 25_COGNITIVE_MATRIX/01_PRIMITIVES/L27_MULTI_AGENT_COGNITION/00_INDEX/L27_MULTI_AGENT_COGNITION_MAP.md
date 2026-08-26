@@ -1,28 +1,28 @@
 ---
-tags: ['cognitive_matrix', 'primitives', 'l27_multi_agent_cognition', 'index', 'map']
+tags: ['cognitive_matrix', 'l27_multi_agent_cognition']
 ---
 
-# L27 Multi Agent Cognition Map
+# L27 MULTI AGENT COGNITION MAP
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Map artifact: index of sibling artifacts and their relations within this package.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+Canonical content lives in the package's CONTRACT.md. This MAP is a navigation artifact — it does not carry independent authority.
+
+## Inventory
+See [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
-
----
 RSCF-NODE
-node_id: l27_multi_agent_cognition_map
+node_id: cognitive_matrix_multi_agent_cognition_00_index_l27_multi_agent_cognition_map
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION/00_INDEX/L27_MULTI_AGENT_COGNITION_MAP.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

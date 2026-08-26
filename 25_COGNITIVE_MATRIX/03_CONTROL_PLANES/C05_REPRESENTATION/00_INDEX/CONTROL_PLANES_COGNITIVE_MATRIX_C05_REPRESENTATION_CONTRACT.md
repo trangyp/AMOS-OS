@@ -1,28 +1,33 @@
 ---
-tags: ['cognitive_matrix', 'control_planes', 'c05_representation', 'index', 'contract']
+tags: ['cognitive_matrix', 'c05_representation']
 ---
 
-# C05 REPRESENTATION Contract
+# CONTROL PLANES COGNITIVE MATRIX C05 REPRESENTATION CONTRACT
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Subsystem contract: typed artifact surface, fail-closed gates, receipts for consequential decisions. Canonical content per Cognitive Matrix subsystem conventions.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## Invariants
+Scope containment · regime isolation · freshness · UNKNOWN/GAP ≠ PASS.
+
+## Gaps
+Executable binding PARTIAL — see [[VALIDATION_EVIDENCE]] receipts.
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]
 
 ---
 RSCF-NODE
-node_id: control_planes_cognitive_matrix_c05_representation_contract
+node_id: cm_n_00_index_control_planes_cognitive_matrix_c05_representation_contract
 node_type: note
 path: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C05_REPRESENTATION/00_INDEX/CONTROL_PLANES_COGNITIVE_MATRIX_C05_REPRESENTATION_CONTRACT.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

@@ -2,20 +2,39 @@
 tags: ['cognitive_matrix', 'primitives', 'l18_action', 'contract']
 ---
 
-# L18 Action Contract
+# L18_ACTION — Action Contract
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## 0. Purpose
+Authorized effect execution via worker paths only; receipts emitted..
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## 1. Canonical home
+Related canon: P6 plane; INV-005/030.
+
+## 2. Contract surface
+- **Inputs**: upstream layer outputs (typed, provenance-stamped)
+- **Outputs**: typed artifacts carrying SOURCE/DERIVED/MODEL/UNKNOWN class + confidence ceiling
+- **Invariants**: scope containment, regime isolation, freshness, fail-closed on unknown
+- **Failure modes**: stale input, class mixing, silent scope expansion — each fails closed
+
+## 3. H/M/L applicability
+- **H**: contract integrity, epistemic class discipline
+- **M**: domain-specific tuning
+- **L**: mechanical checks (types, epochs, digests)
+
+## 4. Gaps
+Runtime binding to executable engines is PARTIAL; see subsystem validation receipts.
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -24,5 +43,5 @@ node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L18_ACTION/COGNITIVE_MATRIX_L18_ACTION_CONTRACT.md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - CHILD_OF: [[COGNITIVE_MATRIX_PRIMITIVES_CONTRACT]]
 claim_class: AMOS_MODEL

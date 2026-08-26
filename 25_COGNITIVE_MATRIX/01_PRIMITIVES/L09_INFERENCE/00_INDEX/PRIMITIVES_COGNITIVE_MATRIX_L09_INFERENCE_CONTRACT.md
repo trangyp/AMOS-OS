@@ -1,28 +1,33 @@
 ---
-tags: ['cognitive_matrix', 'primitives', 'l09_inference', 'index', 'contract']
+tags: ['cognitive_matrix', 'l09_inference']
 ---
 
-# L09 INFERENCE Contract
+# PRIMITIVES COGNITIVE MATRIX L09 INFERENCE CONTRACT
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Index mirror of `COGNITIVE_MATRIX_L09_INFERENCE_CONTRACT.md` (canonical contract in parent directory). This copy exists for 00_INDEX navigation only; canonical content lives in the parent. See [[COGNITIVE_MATRIX_L09_INFERENCE_CONTRACT]].
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## Invariants
+Scope containment · regime isolation · freshness · UNKNOWN/GAP ≠ PASS.
+
+## Gaps
+Executable binding PARTIAL — see [[VALIDATION_EVIDENCE]] receipts.
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]
 
 ---
 RSCF-NODE
-node_id: primitives_cognitive_matrix_l09_inference_contract
+node_id: cm__inference_00_index_primitives_cognitive_matrix_l09_inference_contract
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE/00_INDEX/PRIMITIVES_COGNITIVE_MATRIX_L09_INFERENCE_CONTRACT.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

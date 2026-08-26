@@ -1,28 +1,28 @@
 ---
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o12_plan', 'index', 'readme']
+tags: ['cognitive_matrix', 'o12_plan']
 ---
 
-# O12 Plan Index
+# INDEX O12 PLAN LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Subsystem readme: navigation, purpose, and artifact inventory for this package.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+Canonical content lives in the package's CONTRACT.md. This README is a navigation artifact — it does not carry independent authority.
+
+## Inventory
+See [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
-
----
 RSCF-NODE
-node_id: index_o12_plan_lifecycle_operations_cognitive_matrix_readme
+node_id: cognitive_matrix__index_o12_plan_lifecycle_operations_cognitive_matrix_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O12_PLAN/00_INDEX/INDEX_O12_PLAN_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

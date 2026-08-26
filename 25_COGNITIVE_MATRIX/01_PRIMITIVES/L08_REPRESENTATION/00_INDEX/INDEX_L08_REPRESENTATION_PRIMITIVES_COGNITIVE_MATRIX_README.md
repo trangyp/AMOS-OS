@@ -1,28 +1,28 @@
 ---
-tags: ['cognitive_matrix', 'primitives', 'l08_representation', 'index', 'readme']
+tags: ['cognitive_matrix', 'l08_representation']
 ---
 
-# L08 Representation Index
+# INDEX L08 REPRESENTATION PRIMITIVES COGNITIVE MATRIX README
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Subsystem readme: navigation, purpose, and artifact inventory for this package.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+Canonical content lives in the package's CONTRACT.md. This README is a navigation artifact — it does not carry independent authority.
+
+## Inventory
+See [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
-
----
 RSCF-NODE
-node_id: index_l08_representation_primitives_cognitive_matrix_readme
+node_id: cognitive_matrix__index_l08_representation_primitives_cognitive_matrix_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION/00_INDEX/INDEX_L08_REPRESENTATION_PRIMITIVES_COGNITIVE_MATRIX_README.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

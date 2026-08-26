@@ -1,28 +1,28 @@
 ---
-tags: ['cognitive_matrix', 'scales', 'l_low_scale', 'index', 'readme']
+tags: ['cognitive_matrix', 'l_low_scale']
 ---
 
-# L Low Scale Index
+# INDEX L LOW SCALE SCALES COGNITIVE MATRIX README
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Subsystem readme: navigation, purpose, and artifact inventory for this package.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+Canonical content lives in the package's CONTRACT.md. This README is a navigation artifact — it does not carry independent authority.
+
+## Inventory
+See [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
-
----
 RSCF-NODE
-node_id: index_l_low_scale_scales_cognitive_matrix_readme
+node_id: cognitive_matrix_le_00_index_index_l_low_scale_scales_cognitive_matrix_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE/00_INDEX/INDEX_L_LOW_SCALE_SCALES_COGNITIVE_MATRIX_README.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
