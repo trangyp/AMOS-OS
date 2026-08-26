@@ -1,6 +1,5 @@
 # DELEGATION.md
 
-````markdown
 ---
 title: "AMOS Delegation Architecture"
 artifact: "DELEGATION.md"
@@ -49,7 +48,7 @@ agent spawning;
 workflow routing;
 
 or commit.
-````
+```
 
 The canonical delegation chain is:
 

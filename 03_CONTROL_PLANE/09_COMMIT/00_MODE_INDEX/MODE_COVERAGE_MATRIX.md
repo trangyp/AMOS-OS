@@ -3918,12 +3918,10 @@ mode_coverage_matrix:
 
 Example structure:
 
-```markdown
 | Mode | Info | Analysis | Research | Planning | Execution | Recovery | Governance |
 |---|---|---|---|---|---|---|---|
 | MODE_A | FULL | FULL | PARTIAL | UNKNOWN | NOT_COVERED | NOT_COVERED | NOT_COVERED |
 | MODE_B | PARTIAL | FULL | FULL | FULL | CONDITIONAL | PARTIAL | NOT_COVERED |
-```
 
 This table is only a view over typed coverage cells.
 

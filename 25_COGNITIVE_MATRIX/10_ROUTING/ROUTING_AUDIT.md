@@ -1,4 +1,3 @@
-````md
 ---
 artifact_id: AMOS-CM-10-ROUTING-ROUTING-AUDIT
 title: "10_ROUTING — Routing Audit"
@@ -243,7 +242,7 @@ VALIDATE
 
 AUTHORIZE
 != COMMIT
-````
+```
 
 ---
 
