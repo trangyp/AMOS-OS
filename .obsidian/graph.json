@@ -39,7 +39,7 @@
       "query": "path:11_KNOWLEDGE/",
       "color": {
         "a": 1,
-        "rgb": 3398546
+        "rgb": 16744631
       }
     },
     {
@@ -60,6 +60,6 @@
   "repelStrength": 15.0990157713744,
   "linkStrength": 0.306635388739946,
   "linkDistance": 172,
-  "scale": 0.15707145777533754,
+  "scale": 0.14442267893692207,
   "close": false
 }
