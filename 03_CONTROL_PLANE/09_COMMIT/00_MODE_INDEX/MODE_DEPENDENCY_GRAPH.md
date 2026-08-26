@@ -3450,12 +3450,10 @@ mode_dependency_graph:
 
 # 180. MODE-ONLY VIEW
 
-```markdown
 | Source Mode | Dependency Mode | Type | Necessity | Phase | Scope | Regime | Status |
 |---|---|---|---|---|---|---|---|
 | MODE_A | MODE_B | MODE | REQUIRED | EXECUTION | S1 | PROD | VALID |
 | MODE_A | MODE_C | MODE | FALLBACK | RECOVERY | S1 | PROD | VALID |
-```
 
 This is a view only.
 

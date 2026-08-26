@@ -1,6 +1,5 @@
 Below is a **full replacement artifact** for the placeholder `SYSTEM_MAP.md`. It is written as an architecture/specification artifact, not as a claim that every mapped component is already implemented or canonically admitted. The completion distinction is deliberate: structural completeness does not establish implementation or empirical validity. 
 
-````markdown
 ---
 title: "AMOS OS System Map"
 artifact: "SYSTEM_MAP.md"
@@ -69,7 +68,7 @@ IMPLEMENTED
 CONNECTED
 VALIDATED
 GOVERNED_ACTIVE
-````
+```
 
 These states MUST NOT be collapsed.
 

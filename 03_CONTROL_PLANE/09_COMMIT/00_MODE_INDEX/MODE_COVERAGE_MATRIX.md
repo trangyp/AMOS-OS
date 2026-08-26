@@ -3941,12 +3941,10 @@ Again, the display must not erase scope/regime/validation metadata.
 
 # 195. MATRIX VIEW — COVERAGE QUALITY
 
-```markdown
 | Requirement | Primary Mode | Fallback | Independent? | Current? | Conflict? | Gap |
 |---|---|---|---|---|---|---|
 | R1 | MODE_A | MODE_B | PARTIAL | YES | NO | NONE |
 | R2 | MODE_C | NONE | NO | STALE | YES | CRITICAL |
-```
 
 ---
 
