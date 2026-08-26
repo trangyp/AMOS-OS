@@ -73,6 +73,7 @@ tags: [moc, index, knowledge]
 - [[COSMO_BRAIN_MOC]] — 00 Cosmo Brain MOC
 - [[AMOS_Obsidian_Linking_Plugins]] — Obsidian vault linking plugin stack
 
+- [[AMOS_Layer_Maps]] — top-level AMOS layer map index
 ## tensor
 - [[CLAIM_TENSOR]] — AMOS Claim Tensor
 - [[EVIDENCE_TENSOR]] — AMOS Evidence Tensor

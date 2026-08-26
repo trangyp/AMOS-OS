@@ -32,6 +32,9 @@ answer the question, expand only when outcome-changing uncertainty remains.
 ### Obsidian linking stack
 
 - [[AMOS_Obsidian_Linking_Plugins]] — configured plugin IDs, Templater starter, and linking checklist
+### Layer map index
+
+- [[AMOS_Layer_Maps]] — top-level AMOS layer map index
 ## Operational brain — module map
 
 - 00_boot: brain/00_boot/BOOTSTRAP · ROUTER · LOAD_MAP · [[OS_Agent_Model]]
