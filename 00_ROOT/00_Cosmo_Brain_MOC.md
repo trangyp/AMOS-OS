@@ -27,3 +27,5 @@ Lightweight navigation hub for the AMOS brain layer. The full canonical index li
 - [[AMOS_RSCF_NODES]]
 - [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 - [[11_KNOWLEDGE/Cosmo_Brain_MOC.md|00 Cosmo Brain MOC]]
+- [[AMOS_Layer_Maps]] — top-level AMOS layer map index
+- [[AMOS_Obsidian_Linking_Plugins]] — Obsidian vault linking plugin stack
