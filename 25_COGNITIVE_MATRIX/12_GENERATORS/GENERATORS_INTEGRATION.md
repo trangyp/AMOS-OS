@@ -3971,9 +3971,6 @@ Promotion / Canon / Finality
 That keeps the Generator subsystem integrated with AMOS infrastructure without turning it into an all-purpose framework, authority engine, or direct execution layer.
 
 ---
-**Related:** [[00-Home]]
-
----
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
