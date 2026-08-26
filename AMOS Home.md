@@ -26,7 +26,7 @@ aliases:
 RSCF-NODE
 node_id: 00_home_root
 node_type: note
-path: 00-Home.md
+path: AMOS Home.md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT/00-Home.md]]
   - INDEXED_BY: [[00_ROOT_MOC]]
