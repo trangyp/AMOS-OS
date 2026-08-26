@@ -1,11 +1,4 @@
 ---
-tags: ['00_root', 'note']
----
-
-# 00 Root Boundaries
-
-```yaml
----
 title: "AMOS OS Root Boundaries"
 artifact: "00_ROOT_BOUNDARIES.md"
 artifact_id: "AMOS_ROOT_BOUNDARIES_000"
@@ -3349,10 +3342,3 @@ The governing root law is:
 
 ```
 ```
-
----
-
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
-
----
-**Related:** [[00-Home]]
