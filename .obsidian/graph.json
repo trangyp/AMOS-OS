@@ -6,7 +6,50 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:00_ROOT/",
+      "color": {
+        "a": 1,
+        "rgb": 16766720
+      }
+    },
+    {
+      "query": "path:01_CANON/",
+      "color": {
+        "a": 1,
+        "rgb": 16739179
+      }
+    },
+    {
+      "query": "path:02_KERNEL/",
+      "color": {
+        "a": 1,
+        "rgb": 5164484
+      }
+    },
+    {
+      "query": "path:03_CONTROL_PLANE/",
+      "color": {
+        "a": 1,
+        "rgb": 9883316
+      }
+    },
+    {
+      "query": "path:11_KNOWLEDGE/",
+      "color": {
+        "a": 1,
+        "rgb": 3447003
+      }
+    },
+    {
+      "query": "path:25_COGNITIVE_MATRIX/",
+      "color": {
+        "a": 1,
+        "rgb": 10181046
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -1.3,
