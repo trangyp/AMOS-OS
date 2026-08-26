@@ -1839,6 +1839,7 @@ confidence_ceiling:
 
 ---
 
+- [[AMOS_Layer_Maps]] — top-level layer map index
 # 48. Changelog
 
 ## v2.0.0 — 2026-08-25
