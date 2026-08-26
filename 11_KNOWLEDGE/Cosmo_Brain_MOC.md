@@ -28,6 +28,10 @@ answer the question, expand only when outcome-changing uncertainty remains.
 - **Agent skills:** `.devin/skills/` (20,324 skills — **~100% coverage** of all ~81,700 brain spec Markdown files including subdirectories, 2026-08-24)
 - **Always-on contract:** `.github/copilot-instructions.md`, `GEMINI.md`
 
+
+### Obsidian linking stack
+
+- [[AMOS_Obsidian_Linking_Plugins]] — configured plugin IDs, Templater starter, and linking checklist
 ## Operational brain — module map
 
 - 00_boot: brain/00_boot/BOOTSTRAP · ROUTER · LOAD_MAP · [[OS_Agent_Model]]

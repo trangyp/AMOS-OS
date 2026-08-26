@@ -22,7 +22,7 @@
   "audio-recorder": true,
   "workspaces": true,
   "sync": false,
-  "outgoing-link": false,
+  "outgoing-link": true,
   "file-recovery": false,
   "publish": false,
   "canvas": true,

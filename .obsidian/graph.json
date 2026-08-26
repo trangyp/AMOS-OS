@@ -32,14 +32,14 @@
       "query": "path:03_CONTROL_PLANE/",
       "color": {
         "a": 1,
-        "rgb": 14680304
+        "rgb": 16736709
       }
     },
     {
       "query": "path:11_KNOWLEDGE/",
       "color": {
         "a": 1,
-        "rgb": 16727441
+        "rgb": 16769044
       }
     },
     {
@@ -60,6 +60,6 @@
   "repelStrength": 15.0990157713744,
   "linkStrength": 0.306635388739946,
   "linkDistance": 172,
-  "scale": 0.04522965451728213,
+  "scale": 0.03488039312954423,
   "close": false
 }
