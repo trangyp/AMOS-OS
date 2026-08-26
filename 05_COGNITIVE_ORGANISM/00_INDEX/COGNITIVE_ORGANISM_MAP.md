@@ -1,4 +1,4 @@
-# COGNITIVE ORGANISM MAP
+# 05 Cognitive Organism Map
 
 STATUS: PLACEHOLDER
 

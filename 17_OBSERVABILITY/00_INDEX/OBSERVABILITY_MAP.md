@@ -1,4 +1,4 @@
-# OBSERVABILITY MAP
+# 17 Observability Map
 
 STATUS: PLACEHOLDER
 
