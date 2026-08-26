@@ -3,9 +3,6 @@ aliases:
 - AMOS Home
 ---
 
-
----
-
 ## Vault MOCs and tools
 
 - [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]] — AMOS OS master map
