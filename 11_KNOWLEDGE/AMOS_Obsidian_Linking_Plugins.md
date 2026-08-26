@@ -121,6 +121,8 @@ related:
 
 ---
 
+
+> **Pre-configured:** Templater is already set to use the `Templates` folder (`.obsidian/plugins/templater-obsidian/data.json`).
 ## Related
 
 - [[00 Cosmo Brain MOC]]
