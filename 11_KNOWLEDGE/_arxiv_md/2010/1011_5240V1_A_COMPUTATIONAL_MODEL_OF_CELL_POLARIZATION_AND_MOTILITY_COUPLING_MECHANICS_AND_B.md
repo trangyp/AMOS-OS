@@ -1,0 +1,1073 @@
+---
+tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
+---
+arxiv_id: 1011.5240v1
+source: arxiv
+rscf-state: source-claim
+canon-group: reference
+
+# 1011.5240v1_A_computational_model_of_cell_polarization_and_motility_coupling_mechanics_and_b
+
+> Source: 1011.5240v1_A_computational_model_of_cell_polarization_and_motility_coupling_mechanics_and_b.pdf
+
+> Pages: 19
+
+---
+
+
+## Page 1
+
+
+A computational model of cell polarization and motility coupling
+mechanics and biochemistry
+Ben Vanderlei, James J. Feng, Leah Edelstein-Keshet
+March 5, 2022
+Abstract
+The motion of a eukaryotic cell presents a variety of interesting and challenging problems from both
+a modeling and a computational perspective. The processes span many spatial scales (from molecular to
+tissue) as well as disparate time scales, with reaction kinetics on the order of seconds, and the deformation
+and motion of the cell occurring on the order of minutes. The computational diﬃculty, even in 2D,
+resides in the fact that the problem is inherently one of deforming, non-stationary domains, bounded
+by an elastic perimeter, inside of which there is redistribution of biochemical signaling substances. Here
+we report the results of a computational scheme using the immersed boundary method to address this
+problem. We adopt a simple reaction-diﬀusion system that represents an internal regulatory mechanism
+controlling the polarization of a cell, and determining the strength of protrusion forces at the front of
+its elastic perimeter. Using this computational scheme we are able to study the eﬀect of protrusive and
+elastic forces on cell shapes on their own, the distribution of the reaction-diﬀusion system in irregular
+domains on its own, and the coupled mechanical-chemical system. We ﬁnd that this representation of
+cell crawling can recover important aspects of the spontaneous polarization and motion of certain types
+of crawling cells.
+1
+Introduction
+Eukaryotic cell crawling is a complex process that involves interactions between mechanical forces and
+dynamics of biochemically active signaling molecules. The deformation and motion of such cells are
+governed by a dynamic internal structure (the cytoskeleton) that is regulated by numerous kinds of
+proteins and lipids. Unlike bacteria, whose motility is powered by ﬂagella, eukaryotic cells move by a
+combination of protrusion, retraction, and contraction. To crawl in a directed way, the cell has to ﬁrst
+polarize and form a front, where the cytoskeleton assembles and leads to protrusion, and a rear, where
+either contraction or passive elastic forces dominate. The determination of front and rear depends on
+external stimuli (e.g. gradients of chemo-attractant) and has to be dynamic, sensitive, and yet robust.
+How cells manage this complex task is a question of great interest in current cellular biology.
+Mathematical and computational researchers can provide techniques that help to dissect this complex
+process into simpler, more easily understood modules. Prototypical “in silico” cells that share certain
+qualitative features with crawling cells allow us to address important questions that are not as accessible
+in real cells. For example, in simulations, we can easily ask how mechanics decoupled from biochemistry
+(or vice versa) aﬀects the changing shape of a cell as it polarizes and crawls, and how the coupling between
+the two leads to emergent properties not present in each on its own. We can explore the feedbacks
+between cell shape and the internal reaction-diﬀusion system that determines the chemical distribution.
+Such questions are diﬃcult to probe in experimental systems, and easy to test computationally.
+In order to investigate the mechanical-chemical coupling in cell shape and cell motion, we need
+suitable models and computational algorithms. Simulating the motion of a eukaryotic cell is a diﬃcult
+undertaking because it leads to solving chemical equations on a moving and deforming domain. Such
+problems are recognized as numerically challenging. Here we present the results of simulations that aim to
+meet this challenge at an intermediate level of complexity. We describe a simulation package, developed
+from a composite of well-established techniques, that allows us to simulate the chemical polarization of
+the cell (determining front and back), the forces of protrusion at the front (based on implicit growth of
+the cytoskeleton), and deformation of the cell, culminating in its motility in two spatial dimensions.
+1
+arXiv:1011.5240v1  [q-bio.CB]  23 Nov 2010
+
+
+## Page 2
+
+
+We are not the ﬁrst to simulate the motion of a eukaryotic cell. In [6] a 1D continuum model is
+developed describing viscoelastic properties of the cytoplasm in response to internal stresses generated
+by the contraction. Treating the cell as a two-phase reactive ﬂuid is a well-studied idea in which the
+cytoplasm is treated locally as being a mixture, one phase of actin network and another of cytosol
+[31, 8, 7]. The immersed boundary method has been used to model explicitly the actin network and its
+adhesive links to a substrate [2]. The cell was modeled as a 2D elastic plate in [23]. Level set methods
+have also been used to include chemistry dynamics on a deforming cell domain [33, 32]. In most of these
+models, the asymmetries that lead to the motion of the cell are imposed rather than self-organized.
+Other models such as [24] couple chemical distribution on the cell edge with protrusion from a central
+hub. A previous work [16] using the Potts model approach includes more detailed biochemistry, with a
+Hamiltonian approach where mechanical forces are implicit, rather than explicit.
+Our simulations belong to the class of mechanical/ﬂuid-based models with the following features:
+(1) The perimeter of our cell is elastic. This elasticity is attributable to the cortex, that part of the
+cytoskeleton directly adjacent to the cell membrane, generally composed of a network of actin ﬁlaments.
+While we do not represent that network explicitly, we assign its elastic properties to the “cell boundary”.
+(2) We model explicit forces, representing protrusion of the cytoskeleton, to the cell edge. Thus, we
+can also study the interplay between elastic and protrusive forces. This diﬀers from level set models
+(or cellular Potts models) that do not explicitly represent these mechanical properties of the edge of
+the cell.
+Level set methods can prescribe a velocity, e.g. see [33, 32], but the boundary curve has
+no mechanical properties of its own. (3) Our platform is one of ﬂuid-based computations. We can
+simulate both the diﬀusion and advection of substances inside the cell. In Potts models and many other
+simulations, net ﬂows of substances inside the cell are not tracked. (4) Our simulation currently has a
+simple but eﬀective module that represents the internal self-organization of the cell. Other models have
+included simple or more detailed internal biochemistry. For example, Zajac et. al. studied the eﬀect
+of the balanced inactivation model of [14] in their 2D level-set cell, and Mare´e et. al. included three
+interacting regulatory proteins of the small GTPase family, and later added lipids such as PIP2 PIP3
+etc [16]. Keeping the regulatory system simple but biologically faithful (to small GTPases) allows us
+to establish overall qualitative properties of the system, while pointing to the emergent aspects of the
+coupling between chemistry and mechanics.
+In this paper we describe how the simulation package was assembled and present some its ﬁrst results.
+The mathematical model at the core of the simulation comprises two coupled systems of equations. The
+ﬁrst system is the mechanical model which describes the ﬂuid ﬂow and the motion of the elastic cell
+edge. The second system is a set of reaction-diﬀusion equations that describe a reduced model for cell
+polarization analyzed in 1D in [18]. These equations will be solved on the two-dimensional deforming
+domain that represents the model cell. The solution of the reaction-diﬀusion system will be directly
+coupled to the forces that the cell generates to crawl and deform. The shape of the cell domain will, in
+turn, inﬂuence the solution of the the reaction-diﬀusion system.
+We use our platform to probe three distinct but interrelated regimes of behaviour. In the ﬁrst, we
+consider the eﬀect of mechanical forces that are artiﬁcially prescribed, and investigate the shape of the
+cell for various force and elastic regimes.
+We show that even such simple cases lead to shapes and
+motility relevant to some cell types. Next, we consider the regulatory reaction-diﬀusion system on a
+static but irregular domain. We show how the shape of the domain inﬂuences the distribution of peaks
+of activity, and in particular, the eﬀect of curvature on the ability of multiple peaks to persist. Finally,
+we couple the mechanical and regulatory systems, assigning forces to the cell boundary in direct relation
+to the local level of the active molecules. We show that such cells have very well-deﬁned self-organized
+polarization and reasonable shapes, and that they move in a realistic manner.
+2
+Model Equations
+2.1
+Mechanical model
+Our model is a two-dimensional (2D) representation of a cell, viewed from the top-down perspective.
+(See Fig. 1a,e). We follow the common convention of ignoring the cell body and nucleus as a passive
+load. This is reasonable in view of the fact that cell fragments (e.g. of keratocytes) devoid of nuclei
+can still migrate [30]. The cell is assumed to be resting on and adhering uniformly to a ﬂat substrate.
+Typical dimensions of cell fragments are 10-30 µm diameter, and 0.1-0.2 µm thickness.
+2
+
+
+## Page 3
+
+
+The regulatory module represents proteins (Rho GTPases) that have an active form, a, bound to
+the cell membrane (grey surface in Fig. 1b,c), and an inactive form b, in the ﬂuid cytosol (white portion
+of same panels). The interconversion a ↔b is regulated by other proteins (GEFs, GAPs, not explicitly
+modeled) with positive feedback from a assumed in b →a (dashed arrow in Fig. 1c). The membrane vs
+cytosolic residence of the proteins aﬀects their rates of diﬀusion Db ≫Da, but is not explicitly modeled,
+i.e. we abstract the view in Fig. 1 panel (c) by the simpler representation in (d).
+The cell is represented as a 2D domain Ωc(t) (Fig. 1c). We associate a concentration of the signaling
+chemicals a and b to every element of area in Ωc(t), since every such element corresponds to a small
+“sandwich” of cytosol and membrane. This description is in contrast with many current models [17, 15,
+12, 3] that model chemicals distributed only along the 1D cell boundary ∂Ωc. The thinness of the “cell”
+is taken to mean that no signiﬁcant gradients form in a direction orthogonal to Ωc(t).
+Mechanically, the cell domain has an elastic perimeter enclosing a viscous incompressible ﬂuid. The
+elastic perimeter represents the cell cortex as previously deﬁned. For the purposes of the mechanical
+description of the cell, it is only the perimeter of Ωc that is endowed with elasticity and bears forces due
+to the actin network. So long as it is unstimulated, the model cell is symmetric, assuming a circular
+shape with homogeneous internal chemical distribution; its perimeter is then under no elastic tension.
+At this point in model development, the actin network and the cell adhesion to the substrate are assumed
+implicitly, rather than modeled explicitly. That is, we connect the internal actin-regulating biochemistry
+directly to forces of protrusion at the cell perimeter, rather than modeling the regulated growth of the
+actin network that actually produces the force (but see [16, 23, 22]).
+a
+b
+a
+b
+(a)
+(b)
+(c)
+(d)
+(e)
+Figure 1: (a) Schematic diagram of a crawling cell in top down view (with nucleus and cytoskele-
+ton). (b) Side view of a cell fragment with diameter ≈10µm, and thickness ≈0.1 −0.2µm showing
+membrane (grey) and cytosol (white). Rectangular region from (b) is enlarged in (c) to show the
+interconversion of two proteins, a the active membrane-bound form and b the inactive cytosolic form.
+The regulatory system includes (in)activation (with positive feedback, dashed arrow) and diﬀusion
+of a, b everywhere inside the cell domain Ωc. (d) In the simulation, we do not distinguish membrane
+from cytosol in the interior of Ωc, so a, b occupy the same “compartment”, with Db ≫Da. (e) We
+model the 2D top-down projection of the cell Ωc, devoid of nucleus and other structures, with elastic
+boundary representing the cortex, assuming a uniform thickness. The cell moves in the direction of
+the outward normal forces.
+The mechanical model represents the interaction of the elastic membrane of the cell with a viscous
+incompressible ﬂuid. To model this physical system, we use the well known formulation of the Immersed
+Boundary Method (IBM) [21]. The key idea of this method is to replace the physical boundary conditions
+at the cell edge with a suitable contribution to a force density term (3) in the ﬂuid equations (1)-(2),
+that are then solved by more conventional means. To compute ﬂuid ﬂows, we use Stokes’ equations.
+This utilizes the well-known fact that at the cellular scale, the ﬂow is at a very low Reynold’s number,
+and inertial eﬀects are negligible. The other distinguishing feature of the IBM is the use of Lagrangian
+marker points to track the boundary of Ωc(t) for the purposes of computing a numerical solution. The
+evolution of these material points are then used to compute the elastic stresses in the membrane.
+3
+
+
+## Page 4
+
+
+Ωc
+Xk
+Figure 2: The cell domain Ωc is the interior of a closed loop deﬁned by Xk, a discrete collection
+of Lagrangian marker points. The RD polarization model is deﬁned only on Ωc, while the ﬂuid
+equations are deﬁned both inside and outside Ωc.
+The position of the membrane is given by a vector function X(s, t), where s is arc length with respect
+to some reference conﬁguration, and t is time. The boundary condition at X(s, t) is replaced by a singular
+force density term in the ﬂuid momentum equation. In order to satisfy the no-slip boundary condition
+along the membrane, the boundary moves with the local ﬂuid velocity u (4).
+Then the immersed
+boundary equations are
+0
+=
+−∇p + µ∆u + f(x, t),
+(1)
+0
+=
+∇· u,
+(2)
+f(x, t)
+=
+Z
+Γ
+F(s, t)δ(x −X(s, t))ds,
+(3)
+∂X
+∂t
+=
+u(X(s, t), t),
+(4)
+where p is pressure, and µ viscosity. The function F(s, t) is the magnitude of the singular force density
+(units: force per unit arc length s) deﬁned along the boundary, Γ, of the domain Ωc(t). It is composed of
+a force due to the elasticity of the membrane, and a protrusive force due to the (implicit) polymerization
+of network, represented by h(a). We take
+F(s, t) = Fel + Fnet,
+Fel = ∂
+∂s [T(s, t)τ(s, t)] ,
+Fnet = h(a)n(s, t).
+(5)
+where Fel is the elastic force, and Fnet is the protrusive network force. In Fel, the quantity τ(s, t) is a
+unit vector in the tangential direction, T0 is the elastic modulus, and T is the tension, assumed to take
+the form
+T(s, t) = T0
+
+
+∂X
+∂s
+
+ −1
+
+.
+(6)
+In Fnet, n(s, t) is the outward unit normal vector and h(a) is a constitutive relationship between the
+local concentration of the activated signaling system and the force generated by the network. At this
+point, the mechanics equations are coupled to the biochemical reaction-diﬀusion equations that depict
+the cell polarization and signaling.
+2.2
+Biochemical model
+In [16] we considered a multi-layer signaling biochemistry that regulates the cell polarization, and controls
+the growth and decay, protrusion and contraction of the actin cytoskeleton. Those models include such
+proteins as Rho GTPases (Cdc42, Rac, Rho), phosphoinositides (PIP, PIP2, PIP3), actin, and Arp2/3.
+However, for the purposes of establishing polarization and determining front and back of the cell, we later
+showed that a far simpler model, consisting of a single Rho GTPase in active/inactive forms, suﬃces.
+That model, described in [18] in 1D, suits our purposes here. It is suﬃciently simple for the preliminary
+tests of our simulation platform, while producing results in 2D that have inherent features of interest.
+4
+
+
+## Page 5
+
+
+Recall that the computational cell is a two-dimensional projection of a thin three-dimensional cell.
+The active form of the signaling protein, a(x, t), and the inactive form b(x, t), diﬀuse in the domain Ωc
+with disparate diﬀusion coeﬃcients Da and Db. The two forms exchange at rate g(a, b). The dynamics
+of our signaling model are thus governed by a pair of reaction-diﬀusion advection equations
+at + u · ∇a
+=
+Da∆a + g(a, b), ,
+(7)
+bt + u · ∇b
+=
+Db∆b −g(a, b), .
+(8)
+The advection terms in (7, 8) account for the fact that the domain Ωc(t) moves with respect to lab
+coordinates, and carries the biochemistry along. For g(a, b), we assume positive feedback enhancing the
+conversion of the inactive form b to the active form a, but a constant rate δ for converting a to b:
+g(a, b) =
+
+k0 +
+γa2
+K2 + a2
+
+b −δa.
+(9)
+In this term k0 is a basal rate of activation and γ is the magnitude of the feedback activation rate. The
+parameters k0, γ, and δ all have dimensions s−1. The parameter K has units of concentration of a and
+we normalize concentrations so that K = 1.
+As shown in 1D in [18], under appropriate conditions, the system (7-9) supports solutions in the
+form of a travelling wave that stalls inside the domain (The wave is then said to be “pinned”). In a
+pinned wave, the domain is roughly subdivided into one region that supports a high plateau of a, while
+the remaining region has a low a plateau; a sharp interface separates these zones, while the level of b is
+relatively uniform throughout. We refer to the high (low) levels of a as a+ (respectively a−). Such a
+solution will be our description of a polarized cell, with a+ the front portion and a−the rear portion
+of the cell. Two features of the model essential for this kind of polarized outcome are Db ≫Da and
+conservation of total a and b. We therefore impose no ﬂux conditions for both a and b at the boundary
+of Ωc. A third necessary condition is that for a ﬁxed b = b0 within some range of values, the function
+g(a, b0) has three steady-states (a−, ah, a+), the outer two of which are stable i.e. that the well-mixed
+system is bistable in the variable a. We choose initial conditions that place b within the appropriate
+range and a close to the value a−(b).
+2.3
+Coupling biochemistry and mechanics
+We approximate the complex mechanical-biochemical coupling by assuming a direct link between the
+concentration of the activated signal protein a and the local force normal to the cell membrane. This
+assumption shortcuts the dynamics of growth of the actin cytoskeleton and replaces the actin polymer-
+ization force by an “eﬀective force of protrusion” due to local activation of the Rho GTPase. That
+is, when a is above some threshold value a0, we assume that there is a local force directed outwards.
+For our study we take the force magnitude h(a) to be a piecewise quadratic function, with adjustable
+parameters H and a0. A convenient form for the relationship of force to the level a of the activated
+protein is
+h(a) =
+(
+H
+
+1 −(a−a+)2
+(a0−a+)2
+
+if a > a0,
+0
+otherwise.
+(10)
+This type of force distribution parallels experimentally observed distribution of actin ﬁlament ends
+that push on the leading edge in cells such as keratocytes [11]. However, we stress that for now, our
+representation of the force distribution is meant to be qualitative.
+3
+Numerical Methods
+The primary diﬃculty in solving the model equations numerically is that the immersed boundary equa-
+tions are coupled to the reaction-diﬀusion system through the speciﬁcation of the cell domain. The
+solution of the immersed boundary equations determines the locations of marker points, Xk, which
+comprise the discretization of the immersed boundary. The location of these marker points deﬁne Ωc on
+which the reaction diﬀusion system is to be solved. The solution of the reaction-diﬀusion system is then
+coupled to the immersed boundary model since it appears in the forcing term f(x, t). To further add to
+the diﬃculty, the reaction kinetics happen on the time scale of seconds, much faster than the motion of
+the cell (typically on the order of minutes or longer).
+5
+
+
+## Page 6
+
+
+We couple together several known and tested numerical methods and tools in the solution of our
+model equations. We use the immersed boundary method for the formulation of the mechanical boundary
+condition and discretization of the boundary [21], the method of regularized stokeslets for the ﬂow
+computation [4], and the immersed interface method for the solution of the reaction-diﬀusion system on
+the cell domain [10]. In order to represent the interface and track its location, we compute a level-set
+function. In addition, we use adaptivity locally in time in order to make the computation robust.
+The solution of the model equations is carried out in the following steps:
+1. Compute the force distribution along the cell boundary due to membrane elasticity and protrusion.
+2. Compute the ﬂow ﬁeld at the boundary marker points and on an internal cartesian grid that holds
+the signal concentrations.
+3. Advect the membrane using the computed velocity.
+4. Advect the solution of a and b according to the current ﬂuid velocity.
+5. Evolve the solution of a and b according to the reaction-diﬀusion system.
+We deﬁne the three time steps ∆tfl, ∆tad, ∆trd for the coupled system. These represent the dis-
+cretization of time in the ﬂuid equations, the coupling advection term, and the reaction diﬀusion system
+respectively. The motivation for this method of splitting is that there is a wide seperation among the
+time scales of the diﬀerent processes and a time step restriction that is a result of the stiﬀimmersed
+boundary equations. We allow for the possibility of taking multiple time steps in the ﬂuid equations
+before updating the reaction-diﬀusion system. A further reason for this split is that there is further
+computational overhead in the advection of a and b. This will be discussed shortly. The time-marching
+scheme is thus comprised of the following steps.
+1. Carry out m time steps of the immersed boundary system.
+2. Carry out a single time step of the advection of the signal concentration.
+3. Carry out n time steps of the reaction-diﬀusion system.
+We will take m∆tfl = n∆trd = ∆tad and set each of the time steps small enough to accurately capture
+the associated physical phenomenon. We discuss each of these steps in detail.
+3.1
+Fluid velocity
+The simulation of the immersed elastic membrane is a well documented canonical problem that is
+treated by the immersed boundary method [19, 20, 25, 28]. We discuss here only the computation of
+the terms in (5) that comprise F(s, t) in our model. The restoring elastic force of the membrane, Fel, is
+treated identically with other immersed boundary models. We take a centered diﬀerence discretization
+of derivatives comprising Fel, T(s, t), and τ(s, t):
+Fel(sk, t)
+=
+T(Xk−1/2, t)τ(Xk−1/2, t) −T(Xk+1/2, t)τ(Xk+1/2, t)
+∆s
+,
+(11)
+T(Xk+1/2, t)
+=
+T0
+|Xk+1 −Xk|
+∆s
+−1
+
+,
+(12)
+τ(Xk+1/2, t)
+=
+Xk+1 −Xk
+|Xk+1 −Xk|.
+(13)
+Substituting (12) and (13) into (11), one can rewrite the formula for Fel as follows.
+Fel(sk, t) =
+k+1
+X
+i=k−1
+T0
+∆s(|Xi −Xk| −∆s)
+ Xi −Xk
+|Xi −Xk|
+ 1
+∆s.
+(14)
+From (14) we see that the elastic force is equivalent to a force produced by discrete springs connecting
+the point Xk with its neighbors. The resting length of the springs is ∆s, taken in our calculation to be
+the spacing of the initial discretization of the immersed boundary points. We deﬁne the spring constant
+σ =
+T0
+∆s. Note that while T0 has units of force, σ has units of force/length.
+To compute Fnet, we
+determine the local value of a using a piecewise constant reconstruction evaluated at Xk.
+The analytic representation of the Stokes ﬂow that results from a single point force in the absence
+of external boundaries is known as the Stokeslet. This velocity ﬁeld is singular at the location of the
+6
+
+
+## Page 7
+
+
+Xk
+Ωc
+Wk
+Figure 3: In order to enforce the condition of zero ﬂow far away from the cell, additional immersed
+boundary points, Wk, are included in the computation as the representation of a ﬁxed wall.
+point source. For the purpose of computing the Stokes ﬂow that results from a discrete collection of
+point forces Fk located at Xk, we use the method of regularized Stokeslets [4]. The method replaces the
+singular force with a regularized force and computes an approximation of the true ﬂow, which does not
+have the singularity. We use the following regularization found in [27].
+u(x) = −f0
+4πµ
+1
+2 ln (r2 + ϵ2) −
+ϵ2
+r2 + ϵ2
+
++ f0
+4πµ [f · (x −x0))] (x −x0)
+
+1
+r2 + ϵ2
+
+(15)
+Here, f0 is the strength of the regularized singularity positioned at x0, r is the distance between x
+and x0, and ϵ is the regularization parameter. Based on linearity of the Stokes’ equations, we obtain
+the velocity due to a collection of point forces by simple superposition. (See [5] for an example of the
+application of the method to a three-dimensional model of a swimming microorganism.)
+In typical immersed boundary models, the solution of the ﬂuid equations is found on a periodic
+rectangular domain with standard Stokes solvers. In some models, ﬁxed boundaries are included by
+means of another discretized boundary, along which forces are distributed in order to produce zero ﬂow
+at the boundaries. In this formulation, the problem is ill-posed when the integral of the forces does not
+vanish. Furthermore, the solution is only unique up to an arbitrary constant. The work in [26] discusses
+this problem and presents a solution method.
+A similar issue arises with the use of regularized Stokeslets due to the logarithmic growth of the
+Stokeslet as r →∞. If the integral of the forces is non-zero, the velocity will be non-zero at inﬁnity
+due to Stokes’ paradox.
+The inclusion of protrusive forces in our model means that we must take
+additional measures to ensure that the ﬂow will decrease to zero away from the cell domain Ωc(t). For
+this purpose, we include ﬁxed walls in our computation, at which we enforce the condition that the ﬂow
+velocity vanishes. This is achieved by discretizing the wall and distributing forces that cancel the ﬂow
+due to the logarithmic term.
+The computation of the ﬂow velocity due to a collection of N point forces is the superposition of
+their individual contributions due to the linearity of the equations. The velocity at a point Xj due to
+the point forces Fk positioned at Xk is thus a sum,
+u(Xj) =
+X
+k
+Sjk · Fk.
+(16)
+In this sum, the Sij are the terms in (15) that multiply the forces Fk. Alternatively, this may be written
+as a matrix multiplication where f is a vector of the forces, u is a vector of the unknown velocities, and
+S is a 2N × 2N matrix,
+Sf = u.
+(17)
+The inverse of this problem can also be considered, where the velocity at a collection of points is speciﬁed,
+and the forces that produce the velocity are unknown. The ﬂow around a cylinder is demonstrated in
+[4] using this method.
+7
+
+
+## Page 8
+
+
+In our model, we include a collection of wall points Wk as shown in Fig. 3, at which the velocity will
+be zero. To compute the ﬂow at a given point in the ﬂuid domain due to the point forces Fk at Xk, we
+take the following steps.
+1. Compute the velocity at the wall points Wk. Call this velocity uw.
+2. Solve a linear system for unknown forces Gk positioned at Wk that will produce −uw at Wk.
+3. Sum over contributions to the velocity from Fk and Gk.
+Although we must solve a dense system for Gk at every time step, the matrix remains the same since
+the position of the wall points does not vary. We can therefore compute a Choleseky decomposition once,
+and perform back substitution to obtain the solution needed at each time step. We use the standard
+routines in LAPACK for these calculations.
+3.2
+Reaction-diﬀusion equations
+Next, we describe the solution of the reaction-diﬀusion system on the irregular cell domain. We will
+address the motion the domain shortly, but for now, we focus on approximating the solution of this
+system subject to no ﬂux boundary conditions on a static domain of arbitrary shape. The approach
+we take is that of the immersed interface method. The irregular domain is embedded in a rectangular
+domain on which a regular cartesian grid is used. We produce a numerical solution at all grid points. For
+grid points outside the irregular domain, we set the numerical solution to zero. For grid points inside the
+domain, away from the irregular boundary, we use the standard centered ﬁnite diﬀerence approximations
+to the second derivatives in the Laplacian. It remains to deal with grid points inside the domain next
+to the boundary, where the standard discretization fails. These are denoted irregular points. At these
+irregular points we must use a special ﬁnite diﬀerence formula that incorporates the no ﬂux condition
+and the local geometry of the boundary. To reiterate, the solution of the reaction-diﬀusion system will
+be nonzero only on grid points determined to be inside the closed loop deﬁned by the current location
+of the marker points.
+Ψ0
+Ψ1
+Ψ2
+ΨE
+ΨN
+Ψ3
+(a) acceptable
+(b) acceptable
+(c) unacceptable
+(d) unacceptable
+Figure 4: The points included in the ﬁnite diﬀerence scheme at an typical irregular point are shown
+in (a). ΨN and ΨE are the (unknown) values of the solution to the RD system on the “cell perimeter”.
+Ψi for i = 0...3 are the values of the solution at the grid points inside the computational domain
+Ωc. The conﬁguration in (b) is treated similarly. At times when the boundary is in unacceptable
+conﬁgurations, we interpolate the solution to a ﬁner mesh in order to proceed with the computation.
+We use the discretization scheme presented in [10] and refer the reader to that work for the details
+of the derivation. We summarize here the main idea and comment on the robustness with respect to
+geometry. See Fig. 4 for the typical irregular point geometry. If the boundary conditions were Dirichlet,
+we would know the solution values ΨN and ΨE at the Lagrangian marker points. We could then write
+a discretization of Ψxx using ΨE and the unknowns Ψ0 and Ψ1 and a discretization of Ψyy using ΨN
+and the unknowns Ψ0 and Ψ2. However, for our model, we must employ Neumann (no ﬂux) boundary
+conditions. Thus, we do not have the values of ΨN and ΨE. Instead, these values must be interpolated
+from Ψ0,Ψ1,Ψ3, and Ψ4 using the fact that Ψn = 0 along the boundary.
+A system of two algebraic equations can be written down for the unknowns ΨN and ΨE. We solve
+this system analytically and write down ΨN and ΨE explicitly in terms of Ψ0,Ψ1,Ψ3, and Ψ4. In order
+8
+
+
+## Page 9
+
+
+to make the method robust, we enforce a lower bound on the determinant of the system. This precludes
+cases where the geometry is nearly degenerate as is the case when the interface is very near a grid point.
+This is a common problem observed in similar numerical methods.
+The matrix of coeﬃcients depends on the positions of the projections ΨN and ΨE as well as the
+unit normal vectors at these points. We must therefore have some continuous representation of the
+boundary constructed from the immersed boundary points Xk. The representation we use is a level set,
+as discussed in the next section.
+A further complication we face in making the computation robust is that we must handle all potential
+conﬁgurations of the boundary with respect to the grid. For example, the discretization scheme just
+described will fail for conﬁgurations such as those indicated in Fig. 4c,d. One approach would be to
+write out discretizations for all conﬁgurations [1]. We choose instead to use an adaptive grid to avoid all
+cases except for the two conﬁgurations shown in Fig. 4a,b (and their rotations). We perform reﬁnements
+of the grid and bilinear interpolations of the solution until the unwanted cases are eliminated. The
+reﬁnements are performed globally in space but locally in time. That is, for any time step we check for
+unwanted conﬁgurations. If any are found, we reﬁne the grid everywhere, interpolate the solution to
+the ﬁne grid, and repeat if necessary. Once we have a satisfactory grid, we evolve the system and then
+project the solution back to the original grid.
+With the spatial discretization established, it remains to choose a suitable temporal discretization.
+We use a fully implicit time method for the diﬀusion operator in order to alleviate the otherwise pro-
+hibitive restriction on the time step size. We use an explicit step for the reaction term. This means that
+we must solve two sparse linear systems at every time step
+Aa an+1
+=
+an + ∆t g(an, bn),
+Ab bn+1
+=
+bn −∆t g(an, bn).
+We use a GMRES method that is implemented in the library IML++.
+3.3
+Advection and coupling
+In order to couple the mechanical system and the chemical system, we use a method ﬁrst described
+in [29] for the computation of multi-ﬂuid ﬂows. The idea is to construct a regularized version of an
+indicator function for the cell domain, that is, a function that is equal to one in Ωc, zero outside Ωc, and
+varies smoothly within a transition region near the boundary. Having such a function eliminates the
+need to do complicated routines to track which of the cartesian grid points are inside Ωc at any given
+time, knowing only the trajectories of the Lagrangian markers Xk. We can further use this indicator
+function to compute a level curve to use as a convenient representation of the boundary of Ωc when
+ﬁnding the discretizations needed for the irregular points in the Immersed Interface Method.
+Given only the location of the marker points, we compute Iϵ(x), the regularized indicator function
+which deﬁnes the domain on which the reaction-diﬀusion system will be solved. The gradient of the
+discontinuous indicator function I(x) is zero everywhere except at the interface, where it has a singularity.
+For the purpose of approximation, this singularity is represented again with the regularized delta function
+δϵ and the gradient is then written as
+∇Iϵ =
+X
+k
+δϵ(x −Xk)nk∆sk.
+(18)
+We then take the numerical divergence of ∇Iϵ to ﬁnd ∆Iϵ. There only remains to solve the following
+Poisson problem in order to obtain Iϵ.
+∆Iϵ = ∇· G
+(19)
+This problem will be solved on a rectangular domain which contains Ωc. We position the rectangular
+domain such that its boundary is not near ∂Ωc, so that the Dirichlet data for (19) is zero.
+Note here that a coarse discretization of the boundary of Ωc relative to the cartesian grid will produce
+an Iϵ with a level curve that is oscillatory. For this reason it is important that (19) is only solved once
+on the coarsest grid. This solution is then interpolated to any reﬁnements necessary for the solution of
+the reaction-diﬀusion problem.
+The ﬁnal detail that remains is to specify how to determine the solution of a and b at new points that
+enter Ωc as it evolves with time. We need a way to map the solution of a and b from the previous domain
+9
+
+
+## Page 10
+
+
+Ωn
+c
+Ωn+1
+c
+Figure 5: The known concentration at grid points in the domain Ωn
+c get advected with the ﬂuid
+velocity to the grid points in the domain at the next time step Ωn+1
+c
+. As the cell perimeter moves,
+new grid points (marked with crosses) enter Ωc. The advection deﬁnes values of the solution at these
+points in a way that is consistent with the model equations.
+to the current domain (Fig. 5). We use an upwind discretization of the advection term that couples the
+reaction-diﬀusion equations to the ﬂow equations. Our Stokeslet solution to the ﬂuid equations allows
+us to compute the ﬂow anywhere. Speciﬁcally we can compute the velocity on the same grid as we are
+using for a and b. At each grid point xij in the current domain we use the ﬂuid velocity to approximate
+the previous location of the material.
+xn−1
+ij
+= xn
+ij −∆tadun
+ij.
+(20)
+The location xn−1
+ij
+will normally not lie on a grid point, but we can now use solution value of a and b
+at neighboring grid points to interpolate their value at xn−1
+ij
+. We have found that a simple piecewise
+constant interpolation is accurate enough to preserve the solution proﬁle through this mapping.
+The advection scheme should conserve the total mass of the system Mtot =
+R
+Ωc(a + b) dx.
+We
+approximate this integral with a discrete sum Mh, again making use of the smooth indicator function:
+Mh =
+X
+(xi,yj)∈Ωc
+Iϵ(xi, yj)(a(xi, yj) + b(xi, yj))h2.
+(21)
+In the sum, points that are near the boundary of Ωc are weighted with a value less than h2 since the
+area inside Ωc that is associated with boundary points is less than h2. When preforming the advection
+we want to preserve the quantity Mtot as well as the proﬁle of the solution. That is, we do not want
+to destroy internal gradients through the advection step. It is also important to keep the zero outward
+normal derivative that is consistent with the discretization of the diﬀusion operator for boundary points.
+For our application, we focus on preserving the solution proﬁle and modify the advection step so as
+to preserve Mtot by adding or subtracting a small constant amount that may be lost in the upwinding
+scheme. We found that by so doing, we could retain the correct total mass to within 1% of its ﬁxed
+value at any given advection timestep. The mass change due to the diﬀusion discretization is orders of
+magnitude smaller. Thus, by implementing the small correction, we ﬁnd that the average total mass
+is well-preserved. Experimenting with a variety of other advection schemes that preserve the mass, we
+found that other small oscillations in the solution proﬁle would tend to occur, leading to a magniﬁed
+loss from the diﬀusion scheme.
+4
+Results
+We present numerical experiments to illustrate separately the eﬀects of protrusive forces along the
+domain edge ∂Ωc, the internal reaction-diﬀusion solver on a static irregular domain Ωc, and the coupled
+system with self-organized forces emanating from the reaction-diﬀusion system.
+10
+
+
+## Page 11
+
+
+t = 0
+t = 10
+t = 100
+t = 200
+t = 360
+Figure 6: Mechanical model on its own. A time-sequence showing the initial conﬁguration of the
+model cell, and its evolving shape over time. Simulation was carried out using an elastic modulus
+T0 = 0.1pN/µm, protrusion force H = 12pN/µm, and viscosity µ = 0.01g/cm·s. By time t = 360s,
+the cell is in steady-state motion at speed v = 12µm/s with the shape shown
+4.1
+Mechanical model
+In our current simulations, the computational ﬂuid is a means for distributing forces and determining
+marker point motion. At present we use a ﬂuid of similar viscosity inside and outside the domain. Real
+cells have a much higher internal viscosity than their ambient environment, a feature that is not yet
+represented.
+We ﬁrst consider a domain with no internal chemistry. Starting in each case with a disk-shaped
+domain Ω(0), we prescribe half of the cell boundary to be the “front” and apply the protrusion force
+along this portion for the duration of the simulation.
+We assign an outwards normal force whose
+magnitude has a parabolic proﬁle that varies from a maximum of H at the front center to zero at the
+cell sides.
+As our curved domain edge is elastic, we can experiment with a variety of physical edge properties
+and examine how these aﬀect the evolving shape of the domain. Note that this is one feature that
+makes the immersed boundary method distinct from level set methods, wherein the domain edge has
+no mechanical properties in and of itself. The protrusive forces cause the perimeter of the domain to
+deform, and to move in the direction of the force. The front edge that is under forcing tends to stretch
+as it translocates, while the rear edge (on which no force is prescribed) responds passively via the elastic
+tension along the edge. Figs. 6-7 illustrate solutions with typical shapes that are produced.
+Fig. 6
+illustrates the transition in time between the initial circularly shaped cell and its steady-state shape.
+The transition in this example occurs over a time span of 360s. For cells with a smaller value of H, a
+steady-state shape is reached in less time.
+To determine how mechanical parameters inﬂuence the shapes, and if such mechanics-only solutions
+achieve a steady-state. To study this, we varied the three parameters in our mechanical system, the
+ﬂuid viscosity µ, the membrane elasticity T0, and the protrusion force H. The ranges over which these
+parameters are varied include estimates for membrane elasticity, and the forces and ﬂuids relevant to
+them, since we are aiming to tailor our computation to solving problems on the scale of cell size and
+motion. We use the viscosity of water (µ = 0.01g·cm/s) since the ﬂuid is most analogous to the cytosol,
+and typical forces (in pN) and edge tension (pN per µm) estimated in [11].
+Fig. 7 illustrates the variety of shapes obtained by varying the force on the leading edge, and the
+elasticity of the membrane keeping the viscosity 0.01g/cm·s constant. For a relatively small value of
+T0 ≈0.1pN/µm, we see a variety of cell shapes. At low force magnitude, H ≈1pN/µm, cell shape
+resembles a teardrop (top left). At higher protrusive force, H ≈5pN/µm, the teardrop develops a
+longer tail, often resulting in cusp-like endpoint. At yet higher protrusion, the cell ﬂattens out into a
+“canoe” shape, and then a narrow crescent. Our current implementation of the IBM does not produce an
+accurate result when the magnitude of the protrusive force is much greater than the force due to elasticity.
+For example, when T0 = 0.1pN/µm, values of H greater than 12pN/µm lead to large deformations that
+are not adequately resolved, and steady shapes then fail to form (bottom left is a transient shape, beyond
+the range of applicability of the method).
+When the elastic modulus is larger T0 ≈5 −100pN/µm, the transition between shapes as H is
+increased is less dramatic, since protrusion forces are counterbalanced by increasing tendency to “round-
+11
+
+
+## Page 12
+
+
+H (pN/µm)
+T0 (pN/µm)
+0.1
+1.0
+10
+100
+1
+5
+10
+25
+Figure 7: Mechanical model on its own. A plot of cell shapes obtained as the protrusion force
+magnitude, H, and the elastic modulus T0 vary, for a ﬁxed, prescribed force distributed parabolically
+along the nodes that form the front half of the domain edge at time zero. The direction of steady-
+state motion of these shapes is towards the top. Viscosity was 0.01g/cm·s. Note that the shape
+in the bottom left is a transient shape included only for completeness. For force in the range of
+1-25pN/µm, shapes obtained resemble a variety of biological cell phenotypes, from neutrophils to
+keratocytes.
+up”. Shapes produced for reasonable protrusion forces of 1-50pN/µm and reasonable membrane elas-
+ticity ranges of 0.1-100pN/µm resemble a transition of shapes of cells such as neutrophils (teardrop) to
+keratocytes (ﬂattened canoes), cells whose motility is commonly studied experimentally.
+Varying the viscosity (of the computational ﬂuid inside and outside the domain) has little eﬀect on
+the shapes that develop. The dominant eﬀect is to stretch the timescale over which those shapes are
+established. We ran tests for the range 0.01 ≤µ ≤10g/cm ·s and found similar shapes for corresponding
+values of the force and elasticity.
+4.2
+Biochemical model
+We next tested the reaction-diﬀusion solver on its own. To do so, we selected a number of typical static
+domain shapes with various features and solved a set of pattern-forming PDEs on the given domain.
+We considered a circular, star-shaped, and ellipsoidal “cell” shape. Shown in Fig. 8 are solutions to
+the “wave-pinning” system Eqs. 7-9 [18]. The initial state of the system is spatially homogeneous with
+a = 0.27 and b = 2.0.
+At t = 0 a temporary gradient is introduced via a transient reaction term
+s(x, y, t)b(x, y, t) that is added to (9), with
+s(x, y, t) =
+
+
+
+
+
+S(1 + x)
+for 0 < t1
+and −1 ≤x ≤1
+S(1 + x)
+
+1 −t−t1
+t2−t1
+
+for t1 ≤t < t2 and −1 ≤x ≤1
+0
+for t2 ≤t.
+(22)
+12
+
+
+## Page 13
+
+
+where S is a parameter that controls the magnitude of the stimulus.
+This gradient stimulates a portion of the cell to become activated, meaning a = a+ locally, and a
+travelling wave is initiated. As discussed in [18], as the level of b is reduced by the reaction, the speed
+of the wave slows and eventually stalls midway through the cell. Based on related studies [18, 16] we
+anticipate solutions to the reaction-diﬀusion system with relatively ﬂat (low or high) plateaus, separated
+by a sharp interface. As shown in Fig. 8, solutions have this character. In 2D with no ﬂux conditions
+on the boundary of the cell domain, ∂Ωc, the level curves (shown in Fig. 8) also have to meet the curve
+∂Ωc orthogonally.
+The most interesting feature to observe is that the geometry of the domain inﬂuences the nature of
+the solutions. This is related to phenomena studied by Mar´ee et al (personal communication) showing
+the tendency of the kind of RD system considered here to minimize the curvature and the total length
+of the interface. (Mar´ee et al consider a related but more biochemically detailed wave-pinning system,
+but our simple caricature has similar properties. See also [9]). In the star-shaped domain, three distinct
+peaks of activation can be maintained in three “arms” of the star, a phenomemon that would not occur
+in the simple circular domain. We can understand this as heuristically as the energy of the interface
+being at some local minimum. An application of similar ideas to the dynamics of plant Rho-GTPases in
+the pavement-cells of leaves has been proposed by V Grieneisen et al. On the elliptical domain, in the
+Figure 8: The chemical model on its own. Solutions to the reaction-diﬀusion wave-pinning system
+given by Eqs. (7)-(9) are shown in a variety of static geometries. (a) circular disk (b) domain with
+convex and concave edges (c) ellipses. Time increases from top to bottom with snapshots shown
+at t = 20s, 50s and 200s. The ﬁrst row is the transient phase, during which there is a travelling
+wave. The middle row shows the solution after the wave has been pinned. The bottom row shows the
+solutions after a long time. The RD-solution correctly tracks the expected wave-like and stalled wave
+position, and shows the eﬀect of concavity of the domain on the eventual location of its maximum.
+Reaction parameter values used were: γ = δ = 1s−1 and k0 = 0.067s−1. Initial conditions were:
+a = 0.27 and b = 2.0. A transient gradient term (22) was applied with S = 0.07, t1 = 5, and t2 = 15.
+13
+
+
+## Page 14
+
+
+short time-scale, the peak of activation is in the direction of the polarizing stimulus. Once the stimulus
+is turned oﬀ, the polarization persists for a long time in this meta-stable conﬁguration. Eventually
+however, the peak reorients to occupy the high curvature pole of the ellipse: this allows for the interface
+length to shrink, and ultimately creates a stable conﬁguration.
+4.3
+Coupled mechanical-chemical model: self-organized cell shapes and motil-
+ity
+Having tested the mechanical and chemical models separately, we now combine the two and allow the
+forces on the cell edge to be determined directly by the solutions of the RD system. As described earlier,
+this leads to a number of new challenges, which are associated with solving a RD system on a moving
+domain, that are accounted for using the solution algorithm described earlier. We used parameter values
+as in Fig. 7 for the mechanical properties, and values as in Fig. 8 for the RD system of Eqs. (7-9).
+Initially, the system is in equilibrium both mechanically and chemically. This means the membrane
+is relaxed to its equilibrium conﬁguration and the cell is disk-shaped. Both b and a are spatially uniform
+inside Ωc, and the active form is at a low steady-state level, a(x, t) = a−. At t = 0, the same temporary
+gradient as was used in Fig. 8 is introduced via the transient reaction term in the signaling system. The
+inactive protein, b diﬀuses rapidly and is almost spatially uniform (but decreasing in level) as polarization
+proceeds. As discussed in [18], as the level of b is reduced by the reaction, the speed of the wave slows
+and eventually stalls midway through the cell. Here the forces are not prescribed; rather, they depend
+directly on the local magnitude of the active protein a(x, t) through (10).
+Fig. 9 is a time sequence showing the evolution of the cell shape and internal chemistry. The RD
+system rapidly becomes polarized on a timescale of 30-60s and the cell starts to move and deform as a
+result. The teardrop shaped outline and constant speed is then a steady-state moving solution to the
+combined RD-mechanical system.
+To illustrate the distribution of the ﬂuid ﬂow and pushing force, Fig. 10 shows two snapshots at the
+early stages of motion and polarization. The ﬂuid velocity is highest at the front of the cell where the
+forces are largest. Circulations in the ﬂow that are directed from the front of the cell around to the sides
+give rise to changes in the membrane shape. After this transient regime, the ﬂow becomes approximately
+Figure 9: Mechanical and chemical model combined. Forces on the “front” edge are determined
+by the reaction-diﬀusion system inside the evolving, moving cell domain. Top: A time sequence of
+cell shapes and positions, from t = 0s to t = 800s at intervals of 100s starting from the circle at the
+left. The distance scale is in cm (10−4cm = 1 µm). Bottom: Sample shots of the same moving cell
+at intervals of 200s showing the internal chemical distribution. The cell is initially disk-shaped, with
+homogeneous internal concentrations of a, b. At t = 0 a stimulus (biased towards the right) leads to
+chemical polarization. RD equations (7-9) were solved in the domain Ωc using parameter values as
+in Fig. 8. The RD system very rapidly polarizes and maintains the polarization of the cell. There is
+a slight change in the cell’s direction of travel over long times.
+14
+
+
+## Page 15
+
+
+Figure 10: Computational ﬂuid speed (red arrows) and chemically-regulated forces on the cell
+edge (green arrows) are shown at two times, close to the start of cell motion.
+constant in the vicinity of the cell. Since the membrane moves with the local ﬂuid velocity, the steady
+cell shapes are observed.
+We asked how varying the mechanical parameters (elastic modulus T0, viscosity µ, and maximal
+force H) aﬀect resulting shapes for the coupled system. Recall that H sets the maximal level of force
+for a = a+= maximal chemical concentration. Fig. 11 shows the results, analogous to Fig. 7. The
+chemical distribution within these “cell” outlines are similar to those of Fig. 9, with rapid polarization
+on a timescale of 30 −60s and steady-state shapes by about 400s.
+H (pN/µm)
+T0 (pN/µm)
+0.1
+1.0
+10
+100
+1
+5
+10
+25
+Figure 11: Steady-state shapes predicted by the full mechanical-chemical system: As in Fig. 7
+but with the leading edge regulated by the signaling system. Cell shapes are much less sensitive to
+the magnitudes of H in this self-organized system.
+15
+
+
+## Page 16
+
+
+Fig. 11 shows that increasing the maximal force magnitude in the chemistry-regulated cells tends
+to produce a transition from oval to teardrop shape. Fig. 11 similarly shows how varying the elastic
+modulus and the maximal force aﬀects the behaviour. As expected, with larger elastic modulus T0, the
+steady-state shapes are rounder. A striking change seen from the mechanical to the mechanical-chemical
+system (Fig. 7 vs. Fig. 11) is that the self-organized chemistry makes for much more stable and persistent
+cell shapes. We can understand this as follows: with internal chemistry that is a self-organized polarized
+distribution, the nodes that are assigned protrusion forces are governed by the fraction of nodes at high
+concentration of the reactant a. If the front stretches, nodes previously experiencing large protrusive
+force leave the region of high a, and no longer carry such forces. This means that the self-regulated
+system is much more stable, and resists forming wide fronts or narrow crescent shapes.
+5
+Discussion
+As described, the implementation of the immersed-boundary method leads to a convenient way to
+represent forces along the interface of the cell boundary. Thus, we can capture actual forces and elastic
+deformations of the cell boundary (depicting the cytoskeletal cortex of the cell). This allows us to track
+the cell shape deformation and the motion of the cell that results from a coupling between internal
+reaction-diﬀusion and boundary forces. Regions of highest activity (largest values of a(x, t)) develop
+spontaneously, determine the front, and result in distributed forces. The linear elastic cell boundary
+reacting to the protrusion force, deforms to produce steady-state cell shape and motion.
+The simulations with mechanical forces alone, in the absence of internal regulation produced, a variety
+of shapes spanning morphologies of cells from neutrophils (teardrop shapes) to keratocytes (canoe or
+crescent shapes) as protrusion forces increase relative to elastic forces. This suggests that the properties
+of the cortex and the strength of actin-generated protrusive forces diﬀer from one cell type to another,
+and at least broadly deﬁne the cell’s morphology. Interestingly, once the simple regulatory system is
+incorporated, cell shapes are less varied and settle into a round/elliptical shape or teardrop, with no
+crescents (compare Figs. 7 and 11). We can explain this fact based on the nature of the reaction-diﬀusion
+system, (7-9), as previously discussed. The two key features of this system is that (1) it tends to form a
+sharp interface whose length tends to be minimized by its dynamics (2) the interface meets the boundary
+orthogonally (by the no-ﬂux condition). When forces tend to push nodes apart at the cell front, the RD
+interface gets stretched. It reacts by ﬁnding a new conﬁguration satisfying (1) and (2). This returns
+the peak of activity to nodes that are not too far apart, and hence avoids the continual broadening of
+the front edge of the cell. The interaction of the RD with direct outwards forces on the boundary thus
+self-regulates the shape of the front, even as the force or membrane properties are varied. Needless to
+say, other RD systems with interesting dynamics would, we predict, lead to other cell shape dynamics
+and steady-state shapes.
+In the current simulations, the IBM is used as a computational device to update the cell edge, and to
+track the chemical distribution inside the cell domain. We do not interpret the internal ﬂuid as cytoplasm,
+and the cell is not swimming. Indeed, a limitation of the current platform is the equal viscosity inside
+and outside the cell that makes such interpretations ﬂawed. Forces are present only along the boundary
+curve, so that stress ﬁbers of some cell types (e.g. ﬁbroblasts) that lead to internal contractions are not
+yet simulated. This could be done by including “negative pressure” terms in future ﬂuid computations.
+The simulation is much more costly than a Potts model, but comparable or less costly than ﬁnite element
+or level set methods. Part of the cost stems from the need for an indicator function that tracks the cell
+inside and outside, and is recomputed at each time step. Such computational costs tend to limit the
+exploration of parameter space or sets of assumptions that can be eﬀectively explored.
+Applying the numerical scheme in its mechanical, chemical, and coupled variants, we found a number
+of intriguing results.
+1. Cell shapes generated by protrusion mechanics and passive elasticity, on their own, already lead
+to morphologies that resemble some cell shapes.
+2. Higher protrusion forces (distributed along the front half of the cell) lead to ﬂatter, more crescent-
+shaped cells, whereas larger elastic modulus leads to rounder cells (Fig. 7).
+3. The wave-pinning mechanism of Mori et al [18] suﬃces to polarize the cell once a small bias is
+introduced transiently. Previously, this system was studied in a 1D setting and in a rectangular
+domain [9], and we explore it here for the ﬁrst time in irregular and deforming domains.
+16
+
+
+## Page 17
+
+
+4. The shape of the domain feeds back on the chemical distribution.
+Parts of the domain with
+higher curvature tend to “attract” the peaks of the active chemical (Fig. 8.) This phenomenon
+was discussed by AFM Mar´ee in a related (but more biochemically detailed) cell biology context
+(personal communication).
+5. Coupling the chemical and mechanical systems leads to more stable cell shapes that are less sensitive
+to variations in such parameters as the magnitude of the protrusion force.
+Here we concentrated on shapes produced exclusively by the wave-pinning biochemical model. These
+tend to form robust, broad plateaus of activity at the “cell front”. Changing the internal regulatory
+module is a future step of interest, as it would reveal how qualitative aspects of the regulatory system
+would aﬀect qualitative aspects of cell shape.
+These results can be compared with the recent work of Zajac and Wolgemuth [32].
+They eﬀect
+cell deformation by modifying the spatial variation in an adhesion coeﬃcient. The primary factor that
+determines our cell shapes is the strength of the polymerization force relative to the membrane elasticity.
+We also observed a dramatic diﬀerence in shape between cells in which the pushing force on the front
+was imposed, and cells in which the front was regulated by the chemistry. In [32] a velocity with a
+hyperbolic tangent proﬁle is assumed. Prescribing this velocity is most similar to our mechanical model
+without any chemistry, in which we prescribed a front and the proﬁle of protrusive forces acting upon
+it. In our coupled system we have gone one step further and produced a cell that polarizes in response
+to a transient signal, and then maintains a steady shape and direction, without specifying the front of
+the cell in advance.
+Future development of such simulations will aim at addressing a number of questions. First, we
+will explore how contraction at the rear of the cell aﬀects cell shape (recall that here contraction is
+absent). We plan to investigate a variety of internal regulatory modules, including those that have a
+greater diversity of spatio-temporal dynamics. As a later step, we plan to introduce a more explicit
+representation of the actin cytoskeleton and of the lipids and proteins that regulate it. By gradually
+including such features one by one, we hope to learn how tuning speciﬁc aspects of cell mechanics and
+biochemistry can lead to the repertoire of responses, deformation, and motility observed in real cells.
+6
+Acknowledgements
+LEK is funded by the Natural Sciences and Engineering Research Council (NSERC discovery and ac-
+celerator grants) Canada. LEK is also funded by a subcontract from the National Institutes of Health
+(Grant Number R01 GM086882 to Anders Carlsson, Washington University, St Louis). JJF acknowl-
+edges support by the Petroleum Research Fund, the Canada Research Chair program, NSERC (Discov-
+ery, Accelerator and Strategic grants) and the Canadian Foundation for Innovation. The computation
+was done at WestGrid. We grateful to Lisa Fauci, Ricardo Cortez, AFM Mare´e, V Grieneisen, A Jilkine,
+and A Mogilner for helpful discussions.
+References
+[1] J. K. Aaron Fogelson, Immersed interface methods for neumann and related problems in two
+and three dimensions, SIAM Journal on Scientiﬁc Computing, 22 (2000), pp. 1630–1654.
+[2] D. Bottino, A. Mogilner, T. Roberts, M. Stewart, and G. Oster, How nematode sperm
+crawl., Journal of Cell Science, 115 (2002), pp. 367–384.
+[3] C. Chou, Q. Nie, and T. Yi, Modeling robustness tradeoﬀs in yeast cell polarization induced by
+spatial gradients, PLoS ONE, 3 (2008), p. 3103.
+[4] R. Cortez, The method of regularized stokeslets, SIAM Journal of Scientiﬁc Computing, 23 (2001),
+pp. 1204–1225.
+[5] R. Cortez, L. Fauci, and A. Medovikov, The method of regularized stokeslets in three dimen-
+sions: Analysis, validation, and application to helical swimming., Physics of Fluids, 17 (2005).
+[6] M. Gracheva and H. Othmer, A continuum model of motility in ameboid cells., Bulletin of
+Mathematical Biology, 66 (2004), pp. 167–193.
+[7] M. Herant, V. Heinrich, and M. Dembo, Mechanics of neutrophil phagocytosis: experiments
+and qualitative models., Journal of Cell Science, 119 (2006), pp. 1903–1913.
+17
+
+
+## Page 18
+
+
+[8] M. Herant, W. Marganski, and M. Dembo, The mechanics of neutrophils: Synthetic modeling
+of three experiments, Biophysical Journal, 84 (2003), pp. 3389–3413.
+[9] A. Jilkine, A Wave-Pinning Mechanism for Eukaryotic Cell Polarization Based on Rho GTPase
+Dynamics, PhD thesis, University of British Columbia, 2009.
+[10] Z. Jomaa and C. Macaskill, Numerical solution of the 2d poisson equation on an irregular
+domain with robin boundary conditions, ANZIAM Journal, 50 (2008), pp. C413–C428.
+[11] K. Keren, Z. Pincus, G. M. Allend, E. L. Barnhart, G. Marriott, A. Mogilner, and
+J. Theriot, Mechanism of shape determinaztion in motile cells, Nature, 453 (2008), pp. 475–480.
+[12] J. Krishnan and P. Iglesias, Receptor-mediated and intrinsic polarization and their interaction
+in chemotaxing cells, Biophysical journal, 92 (2007), pp. 816–830.
+[13] M. Laskowski, V. Grieneisen, H. Hofhuis, C. A. ten Hove, P. Hogeweg, A. F. Maree,
+and B. Scheres, Root system architecture from coupling cell shape to auxin transport, PLoS
+Biology, 6 (2008), pp. 2721–2735.
+[14] H. Levine, D. Kessler, and W. Rappel, Directional sensing in eukaryotic chemotaxis: a
+balanced inactivation model, Proceedings of the National Academy of Sciences, 103 (2006), p. 9761.
+[15] L. Ma, C. Janetopoulos, L. Yang, P. Devreotes, and P. Iglesias, Two complementary,
+local excitation, global inhibition mechanisms acting in parallel can explain the chemoattractant-
+induced regulation of PI (3, 4, 5) P3 response in Dictyostelium cells, Biophysical journal, 87 (2004),
+pp. 3764–3774.
+[16] A. F. Maree, A. Jilkine, A. Dawes, V. A. Grieneisen, and L. Edelstein-Keshet, Polar-
+ization and movement of keratocytes: A multiscale modelling approach., Bulletin of Mathematical
+Biology, (2006), pp. 1169–1211.
+[17] H. Meinhardt, Orientation of chemotactic cells and growth cones: models and mechanisms, Jour-
+nal of Cell Science, 112 (1999), pp. 2867–2874.
+[18] Y. Mori, A. Jilkine, and L. Edelstein-Keshet, Wave-pinning and cell polarity from a bistable
+reaction-diﬀusion system., Biophysical Journal, 94 (2008), pp. 3684–3697.
+[19] E. P. Newren, A. L. Fogelson, R. D. Guy, and R. M. Kirby, Unconditionally stable dis-
+cretizations of the immersed boundary equations, Journal of Computational Physics, 222 (2007),
+pp. 702–719.
+[20]
+, A comparison of implicit solvers for the immersed boundary equations, Comput. Methods
+Appl. Mech. Engrg., 197 (2008), pp. 2290–2304.
+[21] C. Peskin, The immersed boundary method, Acta Numerica, (2002), pp. 479–517.
+[22] B. Rubinstein, M. Fournier, K. Jacobson, A. Verkhovsky, and A. Mogilner, Actin-
+myosin viscoelastic ﬂow in the keratocyte lamellipod, Biophysical Journal, 97 (2009), pp. 1853–1863.
+[23] B. Rubinstein, K. Jacobson, and A. Mogilner, Multiscale two-dimensional modeling of a
+motile simple-shaped cell., Multiscale Model.Simul., 3 (2005), pp. 413–439.
+[24] J. Satulovsky, R. Lui, and Y. Wang, Exploring the control circuit of cell migration by mathe-
+matical modeling, Biophysical journal, 94 (2008), pp. 3671–3683.
+[25] J. M. Stockie and B. T. R. Wetton, Analysis of stiﬀness in the immersed boundary method and
+implications for time-stepping schemes., Journal Of Computational Physics, 154 (1999), pp. 41–64.
+[26] J. Teran and C. Peskin, Tether force constraints in stokes ﬂow by the immersed boundary method
+on a periodic domain., SIAM J. Sci. Comp., 31 (2009), pp. 3404–3416.
+[27] S. Tlupova and R. Cortez, Boundary integral solutions of coupled stokes and darcy ﬂows,
+Journal of Computational Physics, 228 (2009), pp. 158–179.
+[28] C. Tu and C. Peskin, Stability and instability in the computation of ﬂows with moving immersed
+boundaries: A comparison of three methods, SIAM J. Sci. Stat. Computing, 13 (1992), pp. 1361–
+1376.
+[29] S. O. Unverdi and G. Tryggvason, A front-tracking method for viscous, incompressible, multi-
+ﬂuid ﬂows, Journal of Computational Physics, 100 (1992), pp. 25–37.
+[30] A. Verkhovsky, T. Svitkina, and G. Borisy, Self-polarization and directional motility of
+cytoplasm, Current Biology, 9 (1999), pp. 11–20.
+18
+
+
+## Page 19
+
+
+[31] M. D. Wolfgang Alt, Cyotplasm dynamics and cell motion: two-phase ﬂow models., Mathemat-
+ical Biosciences, 156 (1999), pp. 207–228.
+[32] C. Wolgemuth and M. Zajac, The moving boundary node method: A level set-based, ﬁnite
+volume algorithm with applications to cell motility, Journal of computational physics, (2010).
+[33] L. Yang, J. Effler, B. Kutscher, S. Sullivan, D. Robinson, and P. Iglesias, Modeling
+cellular deformations using the level set formalism., BMC Systems Biology, (2008).
+19
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

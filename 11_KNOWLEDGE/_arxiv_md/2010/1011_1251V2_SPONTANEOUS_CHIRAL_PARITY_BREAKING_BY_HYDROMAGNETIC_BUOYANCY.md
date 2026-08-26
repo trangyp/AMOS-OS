@@ -1,0 +1,439 @@
+---
+tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
+---
+arxiv_id: 1011.1251v2
+source: arxiv
+rscf-state: source-claim
+canon-group: reference
+
+# 1011.1251v2_Spontaneous_chiral_parity_breaking_by_hydromagnetic_buoyancy
+
+> Source: 1011.1251v2_Spontaneous_chiral_parity_breaking_by_hydromagnetic_buoyancy.pdf
+
+> Pages: 5
+
+---
+
+
+## Page 1
+
+
+arXiv:1011.1251v2  [astro-ph.SR]  24 Aug 2011
+NORDITA 2010-98
+Spontaneous chiral symmetry breaking by hydromagnetic buoyancy
+Piyali Chatterjee,1 Dhrubaditya Mitra,1 Axel Brandenburg,1,2 and Matthias Rheinhardt1
+1NORDITA, AlbaNova University Center, Roslagstullsbacken 23, SE-10691 Stockholm, Sweden
+2Department of Astronomy, Stockholm University, SE 10691 Stockholm, Sweden
+(Dated: Received 13 November 2010; October 31, 2018, Revision: 1.162 )
+Evidence for the parity-breaking nature of the magnetic buoyancy instability in a stably stratiﬁed gas is
+reported. In the absence of rotation, no helicity is produced, but the non-helical state is found to be unstable to
+small helical perturbations during the development of the instability. The parity-breaking nature of an instability
+in magnetohydrodynamics appears to be the ﬁrst of its kind and has properties similar to those in chiral symmetry
+breaking in biochemistry. Applications to the production of mean ﬁelds in galaxy clusters are discussed.
+PACS numbers: 52.35.Py, 11.30.Qc, 07.55.Db, 47.20.Bp
+The phenomenon of spontaneous breakdown of chiral sym-
+metry, i.e., the bifurcation of an achiral state into two states
+with opposite chirality (handedness), has attracted attention
+in many different ﬁelds of physics, even at the macroscopic
+level.
+A well studied example from hydrodynamics is the
+Taylor–Couette ﬂow with counter-rotating cylinders. In this
+case, linear stability analysis reveals the presence of two op-
+positely helical states (spiral vortices) with identical growth
+rates. Experiments and weakly nonlinear analysis show that,
+depending on the initial conditions, one of these two heli-
+cal states is selected [1]. One might suppose that rotation
+(which is an axial vector) is essential to enable the occurrence
+of such symmetry-degenerate unstable eigenmodes and hence
+the breaking of chiral symmetry. In other words, the conjec-
+ture is that, in the absence of such a vector helical states will
+never show up. Then the question arises naturally whether an-
+other global axial vector can replace rotation in this respect.
+Here the magnetic ﬁeld is a suggestive candidate.
+However, more puzzlingly, helical ﬂows are possible even
+in non-rotating, non-magnetic setups as demonstrated in
+Ref. [2] for one of the asymmetric square patterns of B´enard
+convection. There, the sign of helicity realized in a given cell
+is expected to depend only on the initial condition. Yet, when
+considering that this type of pattern emerges not by a bifurca-
+tion from the trivial (non-convective) solution, but from con-
+vective rolls instead, we can again identify an axial vector in
+the unstable reference state, namely the vorticity of the rolls.
+Note that this vector can, at least with respect to a single roll,
+be considered global.
+As helical ﬂows are known to be crucial in producing
+large-scale magnetic ﬁelds by the so-called α effect [3], the
+strongest interest in such ﬂows is likely to be found in those
+branches of astrophysics, geophysics and planetology which
+deal with the origin of galactic, stellar and planetary magnetic
+ﬁelds. However, helicity in astrophysical ﬂows is normally
+not supposed to be caused by a spontaneous parity breaking.
+Indeed, bodies such as the Sun tend to produce helicity with
+opposite signs in their two hemispheres. This is not surpris-
+ing, because the Sun is stratiﬁed in the radial direction by its
+own central gravity g and rotates with ﬁnite angular velocity
+Ω. These two vectors form a pseudoscalar g · Ωthat changes
+sign about the equatorial plane and is, by virtue of the Coriolis
+force, directly related to the kinetic helicity.
+The question now emerges whether ﬁnite kinetic and mag-
+netic helicity can also be produced in the absence of ingredi-
+ents that are a priori given as, for example g or Ω. In search
+of such a process we have to look for an instability which
+shows a preference for amplifying helical velocity (and pos-
+sibly magnetic) perturbations in comparison with non-helical
+perturbations, but showing of course no preference for one
+speciﬁc sign of helicity. One particular example is the mag-
+netic buoyancy instability. It is well known that this instability
+can produce helical magnetic and velocity ﬁelds owing to the
+presence of rotation and stratiﬁcation [4]. Nevertheless, it has
+been explicitly stated [4, 5] that, in the absence of rotation
+or at the equator, the α effect must vanish because the eigen-
+modes of the instability are then degenerate and have opposite
+helicities. By contrast, recent work [6] delivered indications
+that ﬁnite helicity can emerge even at the equator. In this pa-
+per we elaborate on the possibility that helicity may be ﬁnite,
+even in the absence of rotation. We present new simulations
+and argue that our ﬁndings provide strong evidence for spon-
+taneous chiral symmetry breaking during the nonlinear phase
+of the magnetic buoyancy instability. In addition to our ex-
+ample, there is now also that of the Tayler instability which
+leads to spontaneous chiral symmetry breaking [7]. In both
+cases there is no rotation and helicity emerges in the absence
+of quantities that are a priori given such as Ωand either g or
+at least boundary effects.
+There is quite a number of cases where spontaneous chiral
+symmetry breaking has been discussed. A somewhat hypo-
+thetical example is the production of magnetic helicity during
+electroweak baryogenesis [8] and may be connected with the
+emergence of baryon asymmetry [9]. Chiral symmetry break-
+ing is also known in biochemistry where it refers to the conse-
+quent selection of one of two possible forms of biomolecules
+(mainly sugars and amino acids) that are mirror images of
+each other. This selection may have taken place during the
+emergence of life on Earth [10].
+It requires the preferred
+replication of molecules of the same handedness, known as
+autocatalysis [11, 12]. Equally important is the effect of mu-
+tual antagonism. This has been identiﬁed in the context of
+DNA polymerization, where it characterizes the inability to
+continue polymerization with monomers of opposite handed-
+ness [13]. Thus, an initial imbalance in chirality is strongly
+ampliﬁed and the ﬁnal selection of one chirality over the other
+
+
+## Page 2
+
+
+2
+consequently is a result of random ﬂuctuations in the equipar-
+tition of right and left-handed monomers in a prebiotic mix-
+ture [14].
+The equations governing the agent concentrations in bio-
+chemistry [e.g., Ref. 10] on the one hand and the velocity
+mode amplitudes in hydrodynamics [e.g., 15] on the other
+show remarkable similarities. Hence, it could be fruitful to
+keep the mentioned biochemical processes in mind when try-
+ing to understand bifurcations into helical states in hydrody-
+namics. In particular, it deserves interest if something like
+‘mutual antagonism’ can be identiﬁed in the nonlinear evolu-
+tion of two competing eigenmodes with opposite helicity.
+We consider a Cartesian slab of ideal gas with a stable strat-
+iﬁcation in the z direction which is altered by the presence
+of a narrow horizontal magnetic layer in magnetostatic equi-
+librium. That is, in the layer a fraction of the gas pressure
+is substituted by magnetic pressure. Equilibrium is achieved
+by reducing the temperature correspondingly, but keeping the
+density unchanged, so the magnetic layer is initially not buoy-
+ant. However, the local temperature change in the layer per-
+turbs the thermodynamicequilibrium. We solve the compress-
+ible hydromagnetic equations in a setup described in detail in
+Ref. [6], but focus here on the case without rotation, Ω= 0,
+which shows no a priori preference of positive or negative he-
+licity.
+Our computational domain has an aspect ratio Lx : Ly :
+Lz = 1 : 3 : 1. The ratio of the thickness of the mag-
+netic layer, HB, to pressure scale height Hp and Lz is HB :
+Hp : Lz = 0.1 : 0.3 : 1. Our ﬂuid and magnetic Prandtl
+numbers are equal to 4. The Lundquist number based on the
+thickness of the magnetic layer is vA0HB/η = 1000, where
+vA0 = B0/√ρ0µ0 is the Alfv´en speed associated with the
+initial magnetic ﬁeld of strength B0 in the y direction, ρ0 is
+the initial density at the bottom of the domain, µ0 the vacuum
+permeability, and η the magnetic diffusivity. The initial strat-
+iﬁcation is a polytrope with index 3, so density scales to tem-
+perature like ρ ∼T 3. We use the fully compressible PENCIL
+CODE [30] for all our calculations and the number of mesh
+points is 643.
+Considering reﬂectional symmetries of the basic equations
+together with the unperturbed initial state and the boundary
+conditions, we observe that reﬂections at planes z = const
+clearly change the system already due to its stratiﬁcation. In
+contrast, reﬂections at planes y = const leave it unchanged
+while those at planes x = const are equivalent with merely
+changing the sign of the initial ﬁeld of the magnetic layer.
+Hence there is no essential difference in the behavior of a so-
+lution and a corresponding counterpart obtained by one of the
+two latter reﬂections. In particular, if there are helical eigen-
+modes of the linearized system they should occur in pairs with
+opposite helicities, but equal growth (or decay) rates. Further,
+if there were stable quasi-stationary helical solutions of the
+nonlinear system they should again occur in such pairs.
+Our results depend decisively on the details of the initial
+velocity perturbations, which possess a slight imbalance of
+random sign in net kinetic helicity. Depending on this sign we
+ﬁnd exponential ampliﬁcation of positive or negative kinetic
+and current helicities during the initial stage of the instability.
+An important consequence of this parity breaking is the oc-
+currence of what is known in dynamo theory as the α effect.
+This effect is crucial for the ampliﬁcation and sustainment of
+a mean magnetic ﬁeld B. Its evolution is essentially governed
+by the mean electromotive force, E, which is the correlation
+u × b of velocity and magnetic ﬁeld ﬂuctuations, u = U −U
+and b = B−B, respectively, where the overbars indicate hor-
+izontal (xy) averaging. If u lacks reﬂectional symmetry, and
+in particular, if it exhibits handedness, u × b can have a con-
+stituent proportional to the mean ﬁeld:
+(u × b)i = αij ◦Bj −ηij ◦Jj,
+(1)
+where the operator “◦” denotes convolution in space, and in
+general also in time, but this will be ignored here. Note that
+αij and ηij are tensorial kernels, the former a pseudo and the
+latter a true tensor. The symmetric part of αij results in the
+aforementioned α effect, while that of ηij describes what is
+known as turbulent diffusion. Given that we are working with
+horizontal averages, B = B(z, t), we have Bz = 0 in the
+absence of an imposed ﬁeld. Therefore, the evolution of B is
+governed only by 2 × 2 components of both αij and ηij with
+αxx and αyy being of particular interest.
+In Fourier space (with respect to z) the convolutions in
+Eq. (1) turn into multiplications with tensors that depend on z
+wavenumber k. However, due to the intrinsic inhomogeneity
+of our system they depend at the same time also explicitly on
+z. The functions ˆαij(z, k) and ˆηij(z, k) can be directly de-
+termined by the so-called test-ﬁeld method [16, 17]; for spe-
+ciﬁc details see [6]. For the purpose of the present paper it
+sufﬁces to consider the Fourier constituents with the smallest
+wavenumber, k = π/Lz and we omit the argument k in what
+follows.
+In this paper we discuss two pairs of runs, A± and B±. For
+each pair, the initial velocity of one run is an exact mirror im-
+age of that of the other one with respect to a vertical plane.
+Consequently, the two runs have opposite initial kinetic helic-
+ity. Depending on its sign, the runs are labeled by + or −.
+In both pairs the initial velocity contains a random pattern of
+horizontal eddies with Mach numbers of the order of 10−5.
+In pair A±, there are additional random vertical motions with
+the same Mach number, whereas in pair B± these are set to
+zero. Thus, the pair A± differs from pair B± in the mag-
+nitude of the initial kinetic helicity, whose normalized value
+⟨w · u⟩/urmswrms is ≈2 × 10−5 for the former and, due to
+numerical noise only, ≈4 × 10−10 for the latter. In the linear
+phase of the instability the two runs of each pair yield exactly
+the same growth rate. Likewise, the magnetic and kinetic en-
+ergies in the saturated stage are nearly the same. The evolu-
+tion of the normalized kinetic helicity is shown in Fig. 1 for all
+four runs. Here, angular brackets denote the average over the
+full computational domain. Note that parity breaking becomes
+obvious after about one Alfv´en time, tA0 = Ly/vA0. In the
+lower panel of Fig. 1 we show the moduli of the kinetic helic-
+ity together with the energy of the components Bx,z generated
+from the initial By by the instability. Evidently, the evolution
+of the magnetic energy is nearly the same in all cases. Note
+that, along with the kinetic helicity, the current helicity also
+is generated with the same growth rate, again with positive
+
+
+## Page 3
+
+
+3
+FIG. 1: (Color online) Upper panel: Evolution of the normalized ki-
+netic helicity for runs A± and B±. Lower panel: Same as above but
+for the absolute value (dotted) overplotted with a solid line to indicate
+the intervals of positive kinetic helicity. Inset: M⊥= ⟨B2
+x + B2
+z⟩,
+normalized by the averaged initial magnetic energy density, M0 =
+⟨B2
+y0⟩for the same set of runs.
+or negative sign, depending on the initial condition. Further-
+more, the ﬁnal sign of the helicity does not need to agree with
+the initial one. For example, A+ had positive helicity ini-
+tially, but ends up with negative helicity, undergoing several
+sign changes during the kinematic stage. Given that the he-
+licity is a volume integral comprising patches with opposite
+signs of w · u, such sign changes can be understood in terms
+of local volume changes of these patches. The sign change
+for the A+ solution at t/tA0 = 1.7 could then be explained
+by a gradual shrinking of a patch with positive helicity that
+occupied a much larger fraction at earlier times. We specu-
+late that this scenario might be analogous to the case of chiral
+molecules, where patches of one handedness would shrink in
+the direction of the curvature vector [18].
+In Fig. 2 we plot the dependence of ˆαxx and ˆαyy on z and
+t for the runs A±. Note that their patterns reﬂect the rise of
+the magnetic layer from its original position at z = 0.3 Lz to
+the top of the domain at z = Lz. Obviously, within each pair
+of runs the ˆαyy map of the run with negative initial helicity,
+labeled “−”, can be obtained from the one of the run with
+positive initial helicity, labeled “+” to reasonable accuracy by
+a simple sign inversion.
+The component ˆαxx has been found to have the same sign
+throughout the entire domain at any instant of time. Hence it is
+sufﬁcient to consider the evolution of the average ⟨ˆαxx⟩which
+is shown in Fig. 3 for all four runs. Its behavior is similar to
+that of ⟨w · u⟩in Fig. 1 which, however, shows a sign change
+at t/tA0 ≈2, whereas the sign of ⟨ˆαxx⟩does never change.
+FIG. 2: (Color online) ˆαxx and ˆαyy as functions of time and height
+for runs A+ (top) and A−(bottom). Values scaled by 103/vA0.
+FIG. 3: (Color online) ⟨ˆαxx⟩as a function of time for runs A± and
+B±.
+The phenomenon of spontaneous parity breaking has been
+observed earlier for hydrodynamic instabilities, in particu-
+lar those of the Taylor-Couette ﬂow [19].
+For such insta-
+bilities, systems of amplitude equations of weakly nonlin-
+ear, Ginzburg–Landau type have already been described in
+Refs. [15, 19]. In all these cases, the helical states, consist-
+ing of traveling waves, emerge due to the presence of rotation
+which is an axial vector. In our case this role is played by the
+magnetic ﬁeld. Deriving nonlinear amplitude equations for
+the present problem is nontrivial and will be described else-
+where. Here it sufﬁces to say that the amplitude equations in
+Ref. [15] show a striking similarity to the equations that de-
+scribe homochirality in the biological context [11]. In particu-
+lar both sets of equations contain terms of mutual antagonism
+which allows one sign of helicity to grow at the expense of the
+other. The analogies between homochirality and the present
+problem extend even further: (a) In both cases one can start
+with an initial state with small excess of one sign of helicity
+or chirality, but the ﬁnal state can have the opposite sign [18],
+here, e.g., the set of runs A. (b) In a closed system, which in
+
+
+## Page 4
+
+
+4
+the biological context implies that the resources available to
+the evolving species are ﬁnite, both problems fail to reach a
+statistically stationary state [12, 20].
+As eluded to in the beginning, we are not aware of any sim-
+ilar spontaneous parity breaking instability in magnetohydro-
+dynamics. A related example is the selection of one type of
+non-mirror symmetric crystals during their growth in the pres-
+ence of grinding [21, 22]. In the case of the hydromagnetic
+buoyancy instability presented here, we can only speculate
+about possible applications. In any case we must be thinking
+of a stably stratiﬁed layer with negligible rotation. A prime
+example ﬁtting this description is clusters of galaxies. Indeed,
+magnetic and thermal buoyancy effects are invoked to explain
+what looks like cold bubbles in such clusters [23].
+However, the magnetic buoyancy instability might be just
+one example showing the parity-breaking property described
+here. The magneto-rotational instability (MRI) could be an-
+other one. In that case there is rotation, but in the absence
+of stratiﬁcation and current density there would still be no
+pseudo-scalar constructible and hence no net helicity, unless
+the MRI were capable of spontaneous parity breaking.
+Large-scale magnetic ﬁelds have been found in simulations
+without net helicity including cases with shear, in particular
+the MRI [24] and the magnetic buoyancy instability with a
+sinusoidal shear proﬁle [25]. Magnetic ﬁeld generation oc-
+curs also in the case of a linear shear ﬂow with isotropic non-
+helically forced turbulence Although it is not clear whether in
+this case an instability (like the magnetic buoyancy instabil-
+ity) is really required for parity breaking, it should be noted
+that there is generally a production of mean vorticity [26, 27],
+whose possible importance has been discussed in connection
+with dynamos from linear shear ﬂows [28]. Such a vorticity
+production would indeed be the result of a (hydrodynamic)
+instability, supporting the idea that an instability might be
+needed for parity breaking. An alternative explanation for the
+origin of large-scale ﬁelds in this setup is the incoherent α–
+shear dynamo [29], where kinetic helicity is expected to ﬂuc-
+tuate about zero. Revisiting this assertion in the light of the
+present results could be a worthwhile effort.
+In conclusion, we have found a mechanism that is able to
+amplify magnetic and velocity ﬁelds with either sign of he-
+licity, but the selection of one of them occurs during the non-
+linear stage where it gives rise to an α effect under otherwise
+parity-invariant conditions. This mechanism might be appli-
+cable to clusters of galaxies. Moreover, it is very likely that
+the magnetic buoyancy instability is just a ﬁrst example in a
+class of spontaneous parity-breaking instabilities in magneto-
+hydrodynamics.
+Acknowledgments
+The authors thank the National Supercomputer Centre in
+Link¨oping and the Center for Parallel Computers at the Royal
+Institute of Technology in Sweden. This work was supported
+in part by the Swedish Research Council, grant No. 621-2007-
+4064, and the European Research Council under the AstroDyn
+Research Project No. 227952.
+[1] C. Hoffmann, M. L¨ucke, and A. Pinter , Phys. Rev. E 72,
+056311 (2005).
+[2] A. Demircan and N. Seehafer , Geophys. Astrophys. Fluid Dyn.
+96, 461 (2002).
+[3] F. Krause and K.-H. R¨adler, Mean-Field Magnetohydrodyna-
+mics and Dynamo Theory. Pergamon Press, Oxford (1980).
+[4] J. C. Thelen, Mon. Not. R. Astron. Soc. 315, 155 (2000).
+[5] C. R. Davies and D. W. Hughes, Astrophys. J. 727, 112 (2011).
+[6] P. Chatterjee, D. Mitra, M. Rheinhardt, and A. Brandenburg
+Astron. & Astrophys., in press, eprint arXiv:1011.1218 (2011)
+[7] M. Gellert, G. R¨udiger, and R. Hollerbach, Mon. Not. R. As-
+tron. Soc. 414, 2696 (2011).
+[8] T. Vachaspati, Phys. Rev. Lett. 87, 251302 (2001).
+[9] M. Joyce and M. Shaposhnikov, Phys. Rev. Lett. 79, 1193
+(1997).
+[10] D. K. Kondepudi and G. W. Nelson, Phys. Lett. 106A, 203
+(1984).; P. G. H. Sandars, Orig. Life Evol. Biosph. 33, 575
+(2003).; A. Brandenburg, A. C. Andersen, S. H¨ofner, and M.
+Nilsson, Orig. Life Evol. Biosph. 35, 225 (2005).
+[11] F. C. Frank, Biochim. Biophys. Acta 11, 459 (1953).
+[12] K. Soai, T. Shibata, H. Morioka, and K. Choji, Nature 378, 767
+(1995).
+[13] G. F. Joyce, G. M. Visser, C. A. A. van Boeckel, J. H. van
+Boom, L. E. Orgel, and J. Westrenen, Nature 310, 602 (1984).
+[14] A. Brandenburg, H. J. Lehto, and K. M. Lehto, Astrobiol. 7,
+725 (2007).
+[15] S. Fauve, S. Douady, and O. Thual, J. Phys. II 1, 311 (1991).
+[16] M. Schrinner, K.-H. R¨adler, D. Schmitt, M. Rheinhardt, and U.
+Christensen, Astron. Nachr. 326, 245 (2005).
+[17] M. Schrinner, K.-H. R¨adler, D. Schmitt, M. Rheinhardt, and
+U. R. Christensen, Geophys. Astrophys. Fluid Dyn. 101, 81
+(2007).
+[18] A. Brandenburg and T. Multam¨aki, Int. J. Astrobiol. 3, 209
+(2004).
+[19] A. Pinter, M. L¨ucke, and C. Hoffmann, Phys. Rev. Lett. 96,
+044506 (2006).
+[20] R. Plasson and A. Brandenburg, Orig. Life Evol. Biosph. 40, 93
+(2010).
+[21] W. L. Noorduin, T. Izumi, A. Millemaggi, et al., J. Am. Chem.
+Soc. 130, 1158 (2008).
+[22] J. M. McBride, and J. C. Tully, Nature 452, 161 (2008).
+[23] K. Robinson, L. J. Dursi, P. M. Ricker, et al., Astrophys. J. 601,
+621 (2004).
+[24] A. Brandenburg, ˚A. Nordlund, R. F. Stein, and I. Torkelsson,
+Astrophys. J. 446, 741 (1995).
+[25] K. S. Cline, N. H. Brummell, and F. Cattaneo, Astrophys. J.
+599, 1449 (2003).
+[26] T. Elperin, I. Golubev, N. Kleeorin, and I. Rogachevskii, Phys.
+Rev. E 76, 066310 (2007).
+[27] P. J. K¨apyl¨a, D. Mitra, and A. Brandenburg, Phys. Rev. E 79,
+016302 (2009).
+[28] T. A. Yousef, T. Heinemann, A. A. Schekochihin, N. Klee-
+orin, I. Rogachevskii, A.B. Iskakov, S. C. Cowley, and J. C.
+McWilliams, Phys. Rev. Lett. 100, 184501 (2008).
+
+
+## Page 5
+
+
+5
+[29] E. T. Vishniac and A. Brandenburg, Astrophys. J. 475, 263
+(1997).
+[30] http://www.pencil-code.googlecode.com
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
