@@ -5,6 +5,7 @@ aliases:
 - AMOS Master Index
 - AMOS Root Map
 - AMOS OS Navigation Hub
+- MOC
 amos_core_target: v4.4
 artifact_id: AMOS-OS-MOC
 canon_group: tech-ai

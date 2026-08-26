@@ -71,6 +71,14 @@ python3 25_COGNITIVE_MATRIX/11_VALIDATION/routing_policy_validator.py
 
 ---
 
+## Related MOCs
+
+- [[00-Home]] — universal vault hub
+- [[00_ROOT_MOC]] — AMOS OS master map
+- [[AMOS_RSCF_NODES]] — RSCF node index
+
+---
+
 RSCF-NODE
 node_id: routing_policy_validation_receipt
 node_type: note
