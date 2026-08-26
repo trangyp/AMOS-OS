@@ -2,7 +2,6 @@ Below is the **full replacement content** for `00_ROOT_MAP.md` / `00 Root Map`.
 
 This is not just a directory index. In AMOS, the Root Map should function as the **canonical navigation, ownership, lineage, and topological entry contract** for the whole OS while remaining distinct from the actual canon, dependency graph, runtime, control plane, and deployment layers. The source-defined Full Brain OS is a structural orchestration specification, and preserving its architecture does not by itself prove empirical validity or implementation.  
 
-````md
 ---
 id: AMOS-00-ROOT-MAP
 title: "AMOS OS — 00 Root Map"
@@ -84,7 +83,7 @@ Which artifacts are placeholders?
 Which versions supersede others?
 
 Which boundaries remain unresolved?
-````
+```
 
 The Root Map provides **orientation and addressability**.
 
