@@ -97,38 +97,55 @@ Canonical map index for the AMOS OS layer structure. Each top-level layer has a 
 - [[ROLLBACK_MAP]]
 
 ### 04_RUNTIME
+- [[RUNTIME_MAP]] — Runtime layer map
 
 ### 05_COGNITIVE_ORGANISM
+- [[COGNITIVE_ORGANISM_MAP]] — Cognitive organism layer map
 
 ### 06_AGENTS
+- [[AGENT_MAP]] — Agent layer map
 
 ### 07_SKILLS
+- [[SKILL_MAP]] — Skill layer map
 
 ### 08_WORKFLOWS
+- [[WORKFLOW_MAP]] — Workflow layer map
 
 ### 09_PROTOCOLS
+- [[PROTOCOL_MAP]] — Protocol layer map
 
 ### 10_MEMORY
+- [[MEMORY_MEMORY_MAP]] — Memory layer map
 
 ### 11_KNOWLEDGE
+- [[11_KNOWLEDGE_MOC]] — Knowledge layer MOC
 
 ### 12_STATE
+- [[STATE_STATE_MAP]] — State layer map
 
 ### 13_MODELS
+- [[MODEL_MAP]] — Model layer map
 
 ### 14_TOOLS
+- [[TOOL_MAP]] — Tool layer map
 
 ### 15_INTERFACES
+- [[INTERFACE_MAP]] — Interface layer map
 
 ### 16_SCHEMAS
+- [[SCHEMA_MAP]] — Schema layer map
 
 ### 17_OBSERVABILITY
+- [[OBSERVABILITY_OBSERVABILITY_MAP]] — Observability layer map
 
 ### 18_SECURITY
+- [[SECURITY_MAP]] — Security layer map
 
 ### 19_TESTS
+- [[TEST_MAP]] — Test layer map
 
 ### 20_OPERATIONS
+- [[OPERATIONS_MAP]] — Operations layer map
 
 ### 21_DOMAINS
 - [[SOFTWARE_MAP]]
