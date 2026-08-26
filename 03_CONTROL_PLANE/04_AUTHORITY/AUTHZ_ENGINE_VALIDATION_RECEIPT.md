@@ -58,6 +58,13 @@ redispatch (032–034), multi-origin composition (044–046), H/M/L mapping
 (047). The INV files themselves remain PLACEHOLDER canon; this engine is a
 DERIVED reference implementation pending promotion.
 
+## Related MOCs
+
+- [[AMOS Home]] — universal vault hub
+- [[00_ROOT_MOC]] — AMOS OS master map
+- [[03_CONTROL_PLANE/04_AUTHORITY/AUTHORITY_CONTROL_PLANE_README|AUTHORITY readme]]
+- [[AMOS_RSCF_NODES]] — RSCF node index
+
 ## Reproduce
 
 ```bash
