@@ -1,13 +1,13 @@
-Below is the **full replacement content** for `00_INDEX_AUDIT.md`.
+Below is the **full replacement content** for `00_ROOT_AUDIT.md`.
 
-This artifact should not be just a checklist of filenames. In AMOS, the Index Audit should verify that the **logical index of the OS matches the actual architecture, provenance, ownership, status, version lineage, validation state, and physical repository state** without silently promoting placeholders, aliases, research artifacts, or stale entries into canon. The source-defined Full Brain OS is a structural orchestration specification, and its architecture must remain distinct from empirical validation or literal implementation claims.  The primary canon source for the Full Brain architecture is `AMOS_FULL_BRAIN_OS.json`. 
+`00 Root Audit` should sit above ordinary branch/index checks and verify whether the **root architecture itself is coherent**: whether the major AMOS planes exist where expected, whether ownership and boundaries are consistent, whether root identities have drifted, whether canonical and derived layers have been collapsed, and whether the root topology still preserves Full Brain OS, v4.4 lineage, provenance, validation, dependency, governance, and deployment separation. The Full Brain source is a structural orchestration specification; preserving that structure does not itself establish empirical validity or literal implementation.  The primary Full Brain canon source is `AMOS_FULL_BRAIN_OS.json`. 
 
 ````md
 ---
-id: AMOS-00-INDEX-AUDIT
-title: "AMOS OS — 00 Index Audit"
+id: AMOS-00-ROOT-AUDIT
+title: "AMOS OS — 00 Root Audit"
 origin_architect: "Trang Phan"
-artifact_type: "root_index_audit_contract"
+artifact_type: "root_architecture_audit_contract"
 
 class: "MATRIX_INFRASTRUCTURE"
 conclusion_class: "DERIVED"
@@ -21,46 +21,50 @@ parent:
 
 related:
   - "00_ROOT_MAP.md"
+  - "00_INDEX_AUDIT.md"
   - "09_DEPENDENCY_GRAPH/DEPENDENCY_AUDIT.md"
   - "11_VALIDATION/VALIDATION_LEVELS.md"
   - "11_VALIDATION/VALIDATION_EVIDENCE.md"
   - "12_GENERATORS/README.md"
 
 scope:
-  - index_integrity
-  - root_inventory
-  - logical_identity
-  - physical_path_integrity
+  - root_architecture
+  - root_identity
+  - root_topology
   - ownership
-  - canonical_status
-  - placeholder_status
+  - root_boundaries
+  - canon_separation
+  - runtime_separation
+  - governance_separation
+  - validation_separation
+  - dependency_separation
+  - deployment_separation
+  - domain_roots
+  - research_roots
+  - provenance_roots
   - version_lineage
-  - aliases
-  - duplicate_identity
-  - cross_references
-  - provenance
-  - validation_references
-  - dependency_references
-  - orphan_detection
-  - broken_reference_detection
   - supersession
-  - archive_integrity
+  - migration
+  - alias_resolution
+  - architecture_drift
   - gap_visibility
 
 runtime_dependencies:
   - "AMOS_FULL_BRAIN_OS"
   - "AMOS_OS_KERNEL_v4.4"
   - "00_ROOT_MAP"
+  - "00_INDEX_AUDIT"
   - "PROVENANCE"
   - "GOVERNANCE"
   - "09_DEPENDENCY_GRAPH"
+  - "10_CONTROL_PLANE"
   - "11_VALIDATION"
   - "OBSERVABILITY"
 
-hard_rule: "INDEXED != CANONICAL != IMPLEMENTED != VALIDATED"
+hard_rule: "ROOT_STRUCTURE != CANON_PROOF != IMPLEMENTATION != AUTHORITY"
 ---
 
-# 00 Index Audit
+# 00 Root Audit
 
 **Class:** `MATRIX_INFRASTRUCTURE`
 
@@ -72,80 +76,83 @@ hard_rule: "INDEXED != CANONICAL != IMPLEMENTED != VALIDATED"
 
 # 1. Purpose
 
-`00 Index Audit` defines how AMOS verifies the integrity of its root and subsystem indexes.
+`00 Root Audit` defines how AMOS verifies the integrity of the **root architecture itself**.
 
-The audit answers:
+It is responsible for determining whether:
 
 ```text
-What is indexed?
+the major AMOS architecture planes are represented
 
-What is missing?
+root identities are unique and stable
 
-What is duplicated?
+root ownership is coherent
 
-What is misplaced?
+root boundaries remain intact
 
-What is only a placeholder?
+canon and research remain separated
 
-What is research?
+architecture and runtime remain separated
 
-What is canonical?
+validation and authority remain separated
 
-What is source-defined?
+dependency structure is referenced correctly
 
-What is derived?
+deployment bindings do not replace ontology
 
-What is implemented?
+root numbering or naming has drifted
 
-What is validated?
+aliases have become ambiguous
 
-What is stale?
+supersession lineage remains recoverable
 
-What is superseded?
+historical roots remain traceable
 
-What is broken?
+new roots overlap existing ownership
 
-What points to the wrong owner?
+root migrations preserve logical identity
 
-What aliases are unresolved?
+placeholders remain visible as placeholders
 
-Which entries no longer match the physical repository?
-
-Which entries no longer match canon?
-
-Which entries have lost provenance?
-
-Which entries have become orphaned?
-
-Which index claims remain UNKNOWN/GAP?
+unresolved architecture remains UNKNOWN/GAP
 ````
 
-The purpose is not to maximize the number of indexed artifacts.
+The Root Audit is therefore broader than:
 
-The purpose is to keep the AMOS index **accurate, typed, provenance-aware, current, and non-deceptive**.
+```text
+"do these folders exist?"
+```
+
+It asks:
+
+```text
+"does the top-level AMOS architecture still represent
+the intended system without semantic collapse?"
+```
 
 ---
 
 # 2. Core Definition
 
 ```text
-IndexAudit
+RootAudit
 =
-IdentityAudit
+RootIdentityAudit
 +
-PathAudit
+TopologyAudit
 +
 OwnershipAudit
 +
-StatusAudit
+BoundaryAudit
 +
-ProvenanceAudit
+CanonAudit
++
+LineageAudit
 +
 ReferenceAudit
 +
-VersionAudit
+MigrationAudit
 +
-SupersessionAudit
+GovernanceAudit
 +
 GapAudit
 ```
@@ -153,216 +160,193 @@ GapAudit
 Conceptually:
 
 ```text
-AUDIT(index)
+RA:
+RootArchitectureSnapshot
 →
 {
-  valid_entries,
-  broken_entries,
-  missing_entries,
-  duplicate_entries,
-  stale_entries,
-  unresolved_entries,
-  conflicting_entries,
+  valid_roots,
+  conflicts,
+  overlaps,
+  missing_roots,
+  misplaced_roots,
+  boundary_violations,
+  lineage_failures,
+  unresolved_gaps,
   repair_proposals
 }
 ```
 
 ---
 
-# 3. Architectural Position
+# 3. Root Audit vs Root Map
 
 ```text
-AMOS CORPUS / REPOSITORY
-          ↓
-     00 ROOT MAP
-          ↓
-      INDEX LAYER
-          ↓
-     00 INDEX AUDIT
-          │
-          ├── compare logical IDs
-          ├── compare paths
-          ├── compare owners
-          ├── compare status
-          ├── compare provenance
-          ├── compare validation refs
-          ├── compare dependencies
-          └── compare supersession
-          ↓
-     AUDIT FINDINGS
-          ↓
-  GOVERNANCE / REPAIR
-          ↓
-       COMMIT
+ROOT_MAP
+=
+declared navigational/topological model
 ```
 
-The Index Audit does not own canon.
+```text
+ROOT_AUDIT
+=
+verification that the root model remains coherent
+against source, repository, lineage, and governance state
+```
 
-It verifies whether the index correctly represents canon and architecture.
+Therefore:
+
+```text
+ROOT_MAP != ROOT_AUDIT
+```
 
 ---
 
-# 4. Index vs Root Map
+# 4. Root Audit vs Index Audit
 
-```text
-ROOT MAP
-=
-navigation/topology definition
-```
+`00 Index Audit` primarily checks the indexed inventory.
 
-```text
-INDEX
-=
-enumerated addressable entries
-```
+`00 Root Audit` primarily checks the **architecture that gives the inventory meaning**.
 
 ```text
 INDEX AUDIT
-=
-verification that the enumerated entries
-still match architecture and repository reality
+asks:
+"are the entries correct?"
 ```
 
-These roles should remain separate.
+```text
+ROOT AUDIT
+asks:
+"are the major architecture partitions themselves correct?"
+```
+
+Both are required.
 
 ---
 
-# 5. Index vs Filesystem
+# 5. Root Audit vs Dependency Audit
 
 ```text
-INDEX
-!=
-FILESYSTEM
+ROOT AUDIT
+checks major architecture relations and ownership
 ```
-
-A filesystem may contain:
 
 ```text
-temporary files
-archives
-generated artifacts
-tests
-runtime state
-local caches
-research artifacts
+DEPENDENCY AUDIT
+checks typed dependency topology and invalidation closure
 ```
 
-that should not all be treated as canonical indexed architecture.
+The Root Audit may detect that:
 
-Likewise an index may contain logical entries whose physical implementation is not yet present.
+```text
+11_VALIDATION
+incorrectly contains
+09_DEPENDENCY_GRAPH
+```
+
+but dependency semantics themselves belong to `09_DEPENDENCY_GRAPH`.
 
 ---
 
-# 6. Index vs Canon
+# 6. Root Audit vs Canon
 
 Mandatory:
 
 ```text
-INDEXED
+ROOT_AUDIT
 !=
-CANONICAL
+CANON_AUTHORITY
 ```
 
-An entry can be indexed as:
+An audit may conclude:
 
 ```text
-RESEARCH
-PLACEHOLDER
-DERIVED
-DEPRECATED
-UNKNOWN/GAP
+current root placement conflicts with source canon
 ```
 
-without being canon.
+but the audit does not itself rewrite canon.
 
 ---
 
-# 7. Index vs Implementation
+# 7. Root Audit vs Governance
 
 ```text
-INDEX_ENTRY_EXISTS
-!=
-IMPLEMENTATION_EXISTS
+AUDIT
+=
+evidence + findings + repair proposals
 ```
 
-A path may be reserved in architecture while content remains absent.
+```text
+GOVERNANCE
+=
+decision over accepted architecture state
+```
 
-This is valid when clearly marked.
+Therefore:
+
+```text
+FINDING != GOVERNANCE_DECISION
+```
 
 ---
 
-# 8. Index vs Validation
+# 8. Root Audit vs Control Plane
+
+An audit can find:
 
 ```text
-INDEXED
-!=
-VALIDATED
+authority boundary missing
 ```
 
-Index Audit may confirm:
+but cannot grant or revoke effect authority unless separately authorized.
 
 ```text
-"the validation artifact exists at this location"
+CAPABILITY != AUTHORITY
 ```
-
-without proving:
-
-```text
-"the artifact itself is valid"
-```
-
-Validation belongs to `11_VALIDATION`.
 
 ---
 
-# 9. Index vs Authority
+# 9. Hard Boundaries
 
 ```text
-INDEX_ENTRY
-!=
-AUTHORITY_GRANT
-```
+ROOT_EXISTS != ROOT_CANONICAL
 
-Being listed under a governance or control-plane branch does not itself grant any effect permission.
+ROOT_CANONICAL != ROOT_IMPLEMENTED
 
----
+ROOT_IMPLEMENTED != ROOT_VALIDATED
 
-# 10. Hard Boundaries
+ROOT_NAME != ROOT_IDENTITY
 
-```text
-INDEXED != CANONICAL
+ROOT_NUMBER != ROOT_IDENTITY
 
-INDEXED != IMPLEMENTED
+PATH != LOGICAL_IDENTITY
 
-INDEXED != VALIDATED
+PARENT != OWNER
 
-PATH_EXISTS != LOGICAL_IDENTITY_CONFIRMED
+OWNER != AUTHORITY
 
-LOGICAL_IDENTITY != PHYSICAL_PATH
+CONTAINMENT != DEPENDENCY
+
+REFERENCE != DEPENDENCY
+
+ARCHITECTURE != RUNTIME
+
+RUNTIME != CANON
+
+RESEARCH != CANON
+
+DEPLOYMENT_BINDING != ONTOLOGY
+
+HOST_SKILL != AMOS_ENGINE
+
+AGENT != ENGINE
+
+GENERATOR != VALIDATOR
+
+VALIDATION != AUTHORIZATION
 
 PLACEHOLDER != IMPLEMENTED
 
 ADDRESSABLE != VALIDATED
-
-SOURCE_DEFINED != EMPIRICALLY_VERIFIED
-
-DERIVED != SOURCE_DEFINED
-
-RESEARCH != CANON
-
-ALIAS != CANONICAL_ID
-
-SIMILAR_NAME != SAME_IDENTITY
-
-SUPERSEDED != FALSE
-
-ARCHIVED != DELETED
-
-BROKEN_REFERENCE != NONEXISTENCE
-
-MISSING_FROM_INDEX != NONEXISTENCE
-
-CAPABILITY != AUTHORITY
 
 PROPOSAL != COMMIT
 
@@ -371,62 +355,51 @@ UNKNOWN/GAP != PASS
 
 ---
 
-# 11. Audit Target
+# 10. Root Object
 
-An Index Audit must specify which index is being audited.
-
-```yaml
-audit_target:
-  index_id: null
-  index_version: null
-  root_scope: null
-  physical_scope: null
-  logical_scope: null
-  audit_time: null
-```
-
-Do not claim whole-AMOS coverage if only one branch was scanned.
-
----
-
-# 12. Index Entry Contract
-
-Every material index entry should support:
+Every root should be auditable as:
 
 ```yaml
-index_entry:
+root:
+  root_id: null
 
-  id: null
+  name: null
 
-  logical_id: null
-
-  title: null
+  logical_address: null
 
   physical_path: null
 
-  artifact_type: null
+  class: null
 
-  owner_branch: null
+  role: null
 
-  parent_id: null
+  owner: null
 
-  status:
-    canon: null
-    implementation: null
-    validation: null
-    lifecycle: null
+  parent: null
+
+  children: []
 
   source_basis: null
 
-  provenance_refs: []
+  canon_status: null
 
-  dependency_refs: []
+  implementation_status: null
 
-  validation_refs: []
+  validation_status: null
 
-  aliases: []
+  lifecycle_status: null
+
+  HML_role: null
+
+  references: []
+
+  dependencies_summary: []
+
+  provenance: []
 
   version: null
+
+  aliases: []
 
   supersedes: []
 
@@ -434,787 +407,373 @@ index_entry:
 
   freshness: null
 
-  gap_status: null
+  gaps: []
 ```
 
 ---
 
-# 13. Index Entry State Classes
+# 11. Root Classes
 
-Recommended:
-
-```text
-ACTIVE
-
-PLACEHOLDER
-
-DERIVED
-
-RESEARCH
-
-CONDITIONAL
-
-CANONICAL
-
-DEPRECATED
-
-SUPERSEDED
-
-ARCHIVED
-
-BROKEN
-
-ORPHANED
-
-CONFLICTING
-
-UNKNOWN/GAP
-```
-
-These should not be collapsed into one ambiguous `status`.
-
----
-
-# 14. Canon Status
-
-Keep separate:
-
-```text
-CANONICAL
-
-NON_CANONICAL
-
-CONDITIONAL
-
-RESEARCH
-
-UNKNOWN
-```
-
----
-
-# 15. Implementation Status
-
-Keep separate:
-
-```text
-UNIMPLEMENTED
-
-PARTIAL
-
-IMPLEMENTED
-
-TESTED
-
-DEPLOYED
-
-UNKNOWN
-```
-
----
-
-# 16. Validation Status
-
-Keep separate:
-
-```text
-UNVALIDATED
-
-STRUCTURALLY_VALIDATED
-
-LOGICALLY_VALIDATED
-
-IMPLEMENTATION_VALIDATED
-
-BEHAVIORALLY_VALIDATED
-
-EMPIRICALLY_VALIDATED
-
-STALE
-
-UNKNOWN
-```
-
-Exact level labels should defer to `11_VALIDATION`.
-
----
-
-# 17. Lifecycle Status
-
-Suggested:
-
-```text
-ACTIVE
-
-DEPRECATED
-
-SUPERSEDED
-
-ARCHIVED
-
-REMOVED
-
-UNKNOWN
-```
-
----
-
-# 18. Primary Audit Dimensions
-
-The audit should evaluate:
-
-```text
-IDENTITY
-
-PATH
-
-OWNERSHIP
-
-PARENTAGE
-
-CLASS
-
-STATUS
-
-CANON
-
-IMPLEMENTATION
-
-VALIDATION
-
-PROVENANCE
-
-ALIASES
-
-REFERENCES
-
-DEPENDENCIES
-
-VERSION
-
-SUPERSESSION
-
-ARCHIVE
-
-FRESHNESS
-
-GAPS
-```
-
----
-
-# 19. Identity Audit
-
-Verify:
-
-```text
-Does each indexed object have a stable logical identity?
-
-Does that ID resolve to one intended object?
-
-Are duplicate IDs present?
-
-Are similar names being wrongly merged?
-
-Has identity changed without migration history?
-```
-
----
-
-# 20. Identity Invariant
-
-```text
-ONE_LOGICAL_ID
-→
-ONE_LOGICAL_OBJECT
-```
-
-unless explicit version or variant semantics are defined.
-
----
-
-# 21. Duplicate Identity
-
-Failure:
-
-```text
-File A:
-id = AMOS-C05
-
-File B:
-id = AMOS-C05
-```
-
-Potential classifications:
-
-```text
-duplicate
-
-version
-
-alias
-
-variant
-
-conflict
-
-UNKNOWN
-```
-
-Do not arbitrarily choose one.
-
----
-
-# 22. Similar-Name Audit
-
-Example:
-
-```text
-C05_mind_behavior
-
-C05_mind_behavior_SUPER_x100k
-
-AMOS_CC05_mind_behavior
-```
-
-These must not be assumed identical from naming alone.
-
-Audit should resolve:
-
-```text
-canonical identity
-
-variant identity
-
-alias relation
-
-supersession
-
-unknown
-```
-
-through provenance.
-
----
-
-# 23. Path Audit
-
-Verify:
-
-```text
-Does the physical path exist?
-
-Does it match the logical entry?
-
-Has the file moved?
-
-Is a migration record present?
-
-Does the path point to the correct artifact class?
-```
-
----
-
-# 24. Path Invariant
-
-```text
-physical_path
-may change
-```
-
-while:
-
-```text
-logical_identity
-may remain stable
-```
-
-Therefore:
-
-```text
-PATH != IDENTITY
-```
-
----
-
-# 25. Missing Physical Artifact
-
-If index entry exists but file does not:
-
-possible state:
-
-```text
-PLACEHOLDER
-
-BROKEN_REFERENCE
-
-MOVED
-
-UNIMPLEMENTED
-
-UNKNOWN/GAP
-```
-
-Audit must discriminate rather than assume deletion.
-
----
-
-# 26. Unindexed Physical Artifact
-
-If file exists but index entry does not:
-
-possible state:
-
-```text
-new artifact
-
-temporary file
-
-runtime artifact
-
-research artifact
-
-generated artifact
-
-legacy artifact
-
-missing index entry
-```
-
-Audit should classify before adding.
-
----
-
-# 27. Ownership Audit
-
-Verify which branch owns the definition.
-
-Example:
-
-```text
-11_VALIDATION
-owns validation contracts
-```
-
-while:
-
-```text
-09_DEPENDENCY_GRAPH
-references validation status
-```
-
-Reference does not transfer ownership.
-
----
-
-# 28. Ownership Invariant
-
-Prefer:
-
-```text
-one primary owner
-+
-many references
-```
-
-over:
-
-```text
-many competing owners
-```
-
-unless source architecture explicitly defines shared ownership.
-
----
-
-# 29. Parentage Audit
-
-Verify containment/navigation parent.
-
-Parent does not imply:
-
-```text
-authority
-
-runtime dependency
-
-causal relation
-```
-
-Parentage is a navigational/organizational relation.
-
----
-
-# 30. Orphan Entry
-
-An orphan entry has no expected parent or owner.
-
-Possible meanings:
-
-```text
-valid root
-
-misplaced artifact
-
-legacy artifact
-
-research artifact
-
-missing parent reference
-```
-
-Audit before repair.
-
----
-
-# 31. Class Audit
-
-Verify that artifact type and class match actual role.
-
-Example invalid mapping:
-
-```text
-GENERATOR_TESTS.md
-class = DOMAIN_MODEL
-```
-
-should fail class consistency.
-
----
-
-# 32. Status Audit
-
-Check consistency among:
-
-```text
-PLACEHOLDER
-IMPLEMENTATION
-VALIDATION
-CANON
-LIFECYCLE
-```
-
-Example invalid state:
-
-```yaml
-canon: CANONICAL
-implementation: UNIMPLEMENTED
-validation: EMPIRICALLY_VALIDATED
-source_basis: null
-```
-
-This requires investigation.
-
----
-
-# 33. Placeholder Audit
-
-A placeholder should:
-
-```text
-declare itself placeholder
-
-avoid implementation claims
-
-avoid empirical claims
-
-avoid final-canon claims
-
-contain replacement/promotion rule
-```
-
-It may reserve a legitimate address.
-
----
-
-# 34. Placeholder Invariant
-
-```text
-PLACEHOLDER
-!=
-IMPLEMENTED
-```
-
-Audit should fail any index view that visually or semantically erases that distinction.
-
----
-
-# 35. Canon Audit
-
-If entry is marked:
-
-```text
-CANONICAL
-```
-
-require:
-
-```text
-source evidence
-
-governance evidence
-
-or explicit canonical reference
-```
-
-The Full Brain canon source identifies `AMOS_FULL_BRAIN_OS.json` as primary. 
-
----
-
-# 36. Source-Defined Audit
-
-An artifact may be classified:
-
-```text
-SOURCE_DEFINED
-```
-
-when directly supported by source corpus.
-
-Do not convert this into:
-
-```text
-EMPIRICALLY_VERIFIED
-```
-
-The AMOS Full Brain rules explicitly separate source architecture from external empirical validation. 
-
----
-
-# 37. Derived Audit
-
-A derived artifact should record:
-
-```text
-which source material it was derived from
-
-which transformation created it
-
-which assumptions were introduced
-```
-
-Derived does not mean wrong.
-
-It means not directly source-defined.
-
----
-
-# 38. Research Audit
-
-Research entries should remain:
-
-```text
-MODEL
-
-COMPETING
-
-UNVALIDATED
-
-OPEN
-```
-
-as appropriate.
-
-Research location alone must not imply canon.
-
----
-
-# 39. Provenance Audit
-
-Verify every consequential entry can answer:
-
-```text
-Where did this identity come from?
-
-What source defined it?
-
-What version?
-
-Was it generated?
-
-Was it manually transformed?
-
-What superseded it?
-
-What does it supersede?
-```
-
----
-
-# 40. Provenance Invariant
-
-```text
-CANON CLAIM
-requires
-RECOVERABLE SOURCE / GOVERNANCE BASIS
-```
-
----
-
-# 41. Broken Provenance
-
-If an entry claims source-defined status but source cannot be recovered:
-
-```text
-PROVENANCE_GAP
-```
-
-must be recorded.
-
-Do not silently preserve canonical confidence.
-
----
-
-# 42. Reference Audit
-
-Check:
-
-```text
-Does every reference resolve?
-
-What relation type is intended?
-
-Is the target current?
-
-Has the target been superseded?
-
-Does an alias redirect exist?
-```
-
----
-
-# 43. Reference Types
-
-Suggested:
+Suggested derived root classes:
 
 ```text
 NAVIGATION
 
-CONTAINMENT
+CANON
 
-DEPENDENCY
+KERNEL
+
+RUNTIME
+
+RSCF
+
+HML
+
+MEMORY
 
 PROVENANCE
 
+GOVERNANCE
+
+DEPENDENCY
+
+CONTROL_PLANE
+
 VALIDATION
 
-SUPERSESSION
+GENERATION
 
-DEPLOYMENT_BINDING
+AGENT
 
-CROSS_DOMAIN
+SKILL
 
-RESEARCH_REFERENCE
-```
+WORKFLOW
 
-Do not use one generic `link` relation when semantics matter.
+PROTOCOL
 
----
+TOOL
 
-# 44. Broken Reference
+OBSERVABILITY
 
-An index reference that does not resolve should become:
+DEPLOYMENT
 
-```text
-BROKEN_REFERENCE
-```
+DOMAIN
 
-not be silently removed.
+RESEARCH
 
----
+ARCHIVE
 
-# 45. Stale Reference
-
-A link may still resolve but target a superseded version.
-
-Audit should flag:
-
-```text
-STALE_REFERENCE
-```
-
----
-
-# 46. Alias Audit
-
-Each alias should resolve to:
-
-```text
-canonical ID
-
-variant
-
-historical ID
-
-deprecated ID
+GAP
 
 UNKNOWN
 ```
 
+Exact canonical enumeration remains open unless explicitly sourced.
+
 ---
 
-# 47. Alias Invariant
+# 12. Root Identity
+
+Root identity should survive cosmetic renaming where semantics remain unchanged.
+
+Example:
 
 ```text
-similar string
+09_DEPENDENCY_GRAPH
+```
+
+may have a stable logical ID such as:
+
+```text
+AMOS-DEPENDENCY-GRAPH
+```
+
+even if a future physical migration changes numbering.
+
+---
+
+# 13. Root Numbering
+
+Root numbering is an organizational representation.
+
+```text
+09_
+10_
+11_
+12_
+```
+
+does not itself determine ontology.
+
+Therefore:
+
+```text
+NUMBER != SEMANTIC_IDENTITY
+```
+
+---
+
+# 14. Root Naming
+
+A root name should communicate its owning role.
+
+Invalid ambiguity:
+
+```text
+11_SYSTEM
+```
+
+if the branch actually mixes:
+
+```text
+validation
+deployment
+governance
+research
+```
+
+without clear ownership.
+
+---
+
+# 15. Root Ownership
+
+Each root should own a distinct architecture responsibility.
+
+Example:
+
+```text
+09_DEPENDENCY_GRAPH
+owns dependency topology
+
+11_VALIDATION
+owns validation contracts
+
+12_GENERATORS
+owns generator contracts
+```
+
+This reduces duplication and drift.
+
+---
+
+# 16. Ownership Invariant
+
+Prefer:
+
+```text
+ONE PRIMARY OWNER
++
+MULTIPLE REFERENCES
+```
+
+rather than:
+
+```text
+MULTIPLE UNRESOLVED OWNERS
+```
+
+for the same semantic responsibility.
+
+---
+
+# 17. Shared Ownership
+
+Shared ownership is permitted only when explicit.
+
+Example:
+
+```yaml
+ownership:
+  type: SHARED
+  owners:
+    - A
+    - B
+  boundary_contract: required
+```
+
+Do not infer shared ownership merely because two branches reference each other.
+
+---
+
+# 18. Root Parentage
+
+Parentage should describe organization/navigation.
+
+It must not imply:
+
+```text
+causal dependence
+
+authority inheritance
+
+implementation inheritance
+```
+
+unless a typed relation separately establishes it.
+
+---
+
+# 19. Root Topology
+
+The top-level AMOS architecture should be treated as:
+
+```text
+TREE-LIKE NAVIGATION
+over
+GRAPH-SHAPED RELATIONS
+```
+
+A strict folder tree is insufficient to represent all source-defined cross-links.
+
+---
+
+# 20. Root Topology Audit
+
+Check:
+
+```text
+Are roots incorrectly nested?
+
+Are independent architecture planes collapsed?
+
+Are cross-plane references encoded as containment?
+
+Are major roots duplicated?
+
+Are roots split without preserving ownership?
+
+Are roots merged without governance?
+```
+
+---
+
+# 21. Canon Root
+
+A canon root should own:
+
+```text
+source-defined architecture
+
+governed canonical artifacts
+
+canonical version references
+
+approved supersession state
+```
+
+It should not absorb unvalidated research merely to centralize files.
+
+---
+
+# 22. Canon Boundary
+
+```text
+CANON
 !=
-verified alias
+ALL AMOS CONTENT
 ```
 
-Alias relation requires provenance or governance.
+AMOS can contain:
+
+```text
+canon
+
+derived architecture
+
+research models
+
+experiments
+
+runtime state
+
+generated artifacts
+
+deployment bindings
+```
+
+simultaneously.
 
 ---
 
-# 48. Alias Collision
+# 23. Full Brain Canon Anchor
 
-If one alias resolves to multiple targets:
+For Full Brain architecture, the primary canon source is:
 
 ```text
-ALIAS_CONFLICT
+AMOS_FULL_BRAIN_OS.json
 ```
 
-must remain open until resolved.
+as defined by the operationalized Full Brain canon resource. 
 
 ---
 
-# 49. Version Audit
+# 24. Source / Empirical Firewall
 
-Every versioned object should expose:
+The Full Brain rules state that preservation of an architecture, framework, equation, or ontology does not itself establish external empirical validity. 
+
+Therefore root audit must preserve:
 
 ```text
-current version
-
-previous version
-
-supersession
-
-compatibility
-
-migration
+CORPUS_CANON_STATUS
 ```
 
-where applicable.
+separately from:
+
+```text
+EXTERNAL_EMPIRICAL_STATUS
+```
 
 ---
 
-# 50. Version Invariant
+# 25. Kernel Root
+
+Kernel root should own kernel-level reasoning architecture.
+
+Potential source-derived fields include:
 
 ```text
-newest timestamp
-!=
-canonical current version
+Omni Kernel
+
+AMOS OS Kernel lineage
+
+routing
+
+admission
+
+RSCF integration
+
+finalization patterns
+
+repair logic
 ```
 
-unless governance/version policy says so.
+Do not assume these are one identical object.
 
 ---
 
-# 51. AMOS Core Lineage Audit
+# 26. Omni Kernel Boundary
 
-The current architecture should preserve the v3.0→v4.4 evolution spine:
+Omni Kernel belongs to Full Brain orchestration.
+
+It should not be silently reclassified as:
 
 ```text
-deterministic logic
+generic agent
+
+ordinary domain
+
+deployment tool
+```
+
+---
+
+# 27. v4.4 Runtime Lineage
+
+Root architecture should preserve the evolution spine:
+
+```text
+v3.0 deterministic logic
 ↓
 recursive RSCF/HML
 ↓
@@ -1226,7 +785,7 @@ epistemic regimes
 ↓
 competing hypotheses
 ↓
-provenance topology
+provenance topology / Sybil hardening
 ↓
 persistent provenance
 ↓
@@ -1241,967 +800,1226 @@ hardened shard-local finalization
 proof-based coordination avoidance
 ```
 
-These are architectural reasoning patterns, not proof that the host literally implements every distributed mechanism.
+These are reasoning architecture patterns.
+
+They are not a claim that ChatGPT literally runs a distributed consensus system.
 
 ---
 
-# 52. Supersession Audit
+# 28. Runtime Root
 
-Verify:
+Runtime root should own:
 
 ```text
-A superseded by B
+active state
 
-B exists
+active tasks
 
-B is valid replacement
+state snapshots
 
-history preserved
+runtime epochs
 
-old references redirected or marked
+scheduler state
+
+repair state
+
+finalization state
 ```
 
----
-
-# 53. Supersession Cycle
-
-Invalid:
-
-```text
-A supersedes B
-
-B supersedes A
-```
-
-unless version-specific semantics resolve it.
+It should not contain source canon merely because runtime reads canon.
 
 ---
 
-# 54. Archive Audit
-
-Archived artifacts should remain:
+# 29. Runtime Boundary
 
 ```text
-addressable
-
-historically traceable
-
-non-active
-```
-
-where provenance requires retention.
-
----
-
-# 55. Archive Boundary
-
-```text
-ARCHIVED
+RUNTIME_STATE
 !=
-DELETED
+CANON
 ```
 
----
-
-# 56. Validation Reference Audit
-
-The index may store:
-
-```text
-validation_ref
-```
-
-but must not duplicate the entire validation record.
-
-Audit:
-
-```text
-Does validation reference resolve?
-
-Is it fresh?
-
-Does it apply to this version?
-
-Does scope match?
-```
-
----
-
-# 57. Validation Drift
-
-Failure:
-
-```text
-index says VALIDATED
-
-validation record says STALE
-```
-
-Correct action:
-
-```text
-update index status
-```
-
-not rewrite validation evidence.
-
----
-
-# 58. Dependency Reference Audit
-
-The index may store high-level dependency references.
-
-Detailed dependency topology belongs to `09_DEPENDENCY_GRAPH`.
-
-Audit should verify references still resolve.
-
----
-
-# 59. Dependency Drift
-
-If index says:
-
-```text
-A depends on B
-```
-
-but dependency graph says:
-
-```text
-A depends on C
-```
-
-flag:
-
-```text
-DEPENDENCY_REFERENCE_DRIFT
-```
-
----
-
-# 60. Root Map Drift
-
-Compare Index against `00 Root Map`.
-
-Potential findings:
-
-```text
-root missing from index
-
-index entry not in root map
-
-owner mismatch
-
-class mismatch
-
-status mismatch
-
-path mismatch
-```
-
----
-
-# 61. Physical Inventory Audit
-
-Compare indexed objects with physical repository observations.
-
-Categories:
-
-```text
-INDEXED_AND_PRESENT
-
-INDEXED_BUT_MISSING
-
-PRESENT_BUT_UNINDEXED
-
-MOVED
-
-DUPLICATE
-
-UNKNOWN
-```
-
----
-
-# 62. Logical Inventory Audit
-
-Logical identity inventory is more important than filename count.
-
-Multiple physical files may represent:
-
-```text
-versions
-
-variants
-
-snapshots
-
-aliases
-
-exports
-```
-
-of one logical object.
-
----
-
-# 63. Index Completeness
-
-Completeness must be scoped.
-
-Valid:
-
-```text
-Index complete for 11_VALIDATION
-```
-
-Not justified:
-
-```text
-AMOS index is absolutely complete
-```
-
-without exhaustive proof.
-
----
-
-# 64. Open-World Rule
-
-Absence from the index may mean:
-
-```text
-not indexed
-
-outside current scope
-
-not yet discovered
-
-does not exist
-
-unknown
-```
-
-Therefore:
-
-```text
-NOT_INDEXED
-!=
-DOES_NOT_EXIST
-```
-
----
-
-# 65. Index Coverage
-
-Track:
-
-```yaml
-coverage:
-  roots: null
-  indexed_artifacts: null
-  physical_inventory: null
-  provenance: null
-  validation_refs: null
-  dependency_refs: null
-  supersession: null
-  aliases: null
-```
-
-Avoid one misleading percentage.
-
----
-
-# 66. Index Audit State Variables
-
-Recommended:
-
-```text
-IA_index_version
-
-IA_entry_count
-
-IA_present_count
-
-IA_missing_count
-
-IA_unindexed_count
-
-IA_placeholder_count
-
-IA_research_count
-
-IA_canonical_count
-
-IA_derived_count
-
-IA_duplicate_id_count
-
-IA_alias_conflict_count
-
-IA_broken_reference_count
-
-IA_stale_reference_count
-
-IA_owner_conflict_count
-
-IA_version_conflict_count
-
-IA_supersession_conflict_count
-
-IA_provenance_gap_count
-
-IA_validation_drift_count
-
-IA_dependency_drift_count
-
-IA_gap_count
-
-IA_last_audit
-```
-
----
-
-# 67. Index Audit Operators
-
-Architecture-level operators:
-
-```text
-SCAN_INDEX()
-
-SCAN_PHYSICAL_INVENTORY()
-
-RESOLVE_ENTRY(id)
-
-RESOLVE_PATH(path)
-
-COMPARE_INDEX_TO_ROOT_MAP()
-
-COMPARE_INDEX_TO_FILESYSTEM()
-
-COMPARE_INDEX_TO_CANON()
-
-COMPARE_INDEX_TO_PROVENANCE()
-
-COMPARE_INDEX_TO_VALIDATION()
-
-COMPARE_INDEX_TO_DEPENDENCIES()
-
-DETECT_DUPLICATES()
-
-DETECT_ORPHANS()
-
-DETECT_BROKEN_REFERENCES()
-
-DETECT_ALIAS_CONFLICTS()
-
-DETECT_STATUS_DRIFT()
-
-DETECT_VERSION_DRIFT()
-
-DETECT_SUPERSESSION_CONFLICTS()
-
-PROPOSE_REPAIR()
-
-REVALIDATE_ENTRY()
-```
-
-These are semantic operators, not claims of existing implementation.
-
----
-
-# 68. H/M/L Applicability
-
-Index Audit applies recursively.
-
-```text
-H:
-whole AMOS OS index
-
-M:
-branch index
-
-L:
-individual artifact/index entry
-```
-
----
-
-# 69. H-Level Audit
-
-Questions:
-
-```text
-Are all major architecture planes represented?
-
-Are any whole branches missing?
-
-Are branches incorrectly merged?
-```
-
----
-
-# 70. M-Level Audit
-
-Questions:
-
-```text
-Are subsystem indexes complete enough?
-
-Do owners match?
-
-Are cross-references correct?
-```
-
----
-
-# 71. L-Level Audit
-
-Questions:
-
-```text
-Does this one entry have correct ID/path/status/provenance?
-```
-
----
-
-# 72. Fractal Audit
-
-Any branch can have its own local index.
-
-Example:
-
-```text
-00 root index
-→
-11_VALIDATION index
-→
-VALIDATION_EVIDENCE local entry
-```
-
-Local audits should inherit top-level identity rules.
-
----
-
-# 73. Minimum-Sufficient Audit
-
-Do not scan every artifact for every request.
-
-Use:
-
-```text
-target
-→ branch
-→ affected index entries
-→ source evidence only if needed
-```
-
----
-
-# 74. Full Index Audit
-
-Use a full audit when:
-
-```text
-major migration
-
-major canon update
-
-large folder expansion
-
-version lineage update
-
-many placeholder replacements
-
-root renumbering
-
-suspected duplicate architecture
-
-provenance corruption
-```
-
----
-
-# 75. Differential Audit
-
-Compare:
-
-```text
-Index vN
-vs
-Index vN+1
-```
-
-Report:
-
-```text
-added
-
-removed
-
-moved
-
-renamed
-
-reclassified
-
-promoted
-
-demoted
-
-superseded
-
-archived
-
-validation-changed
-```
-
----
-
-# 76. Snapshot Audit
-
-A snapshot audit compares index state at a moment in time.
-
-Useful for:
-
-```text
-migration verification
-
-release verification
-
-repository reconstruction
-```
-
----
-
-# 77. Canon Differential Audit
-
-Compare index against current canon source.
-
-For the Full Brain architecture, `AMOS_FULL_BRAIN_OS.json` is the primary canon source identified by the operationalized canon resource. 
-
----
-
-# 78. Corpus / Empirical Firewall
-
-The Full Brain operating rules require preserving the distinction between corpus structure and external empirical validity. 
-
-Thus:
-
-```text
-index confirms architecture element exists in corpus
-```
-
-does not imply:
-
-```text
-architecture element is empirically verified in reality
-```
-
----
-
-# 79. Full Brain Index Audit
-
-The Full Brain index should preserve major source-defined components such as:
-
-```text
-Brain Core
-
-Omni Kernel
-
-Omniverse Brain
-
-Personality
-
-Expression Translation
-
-Gap / Integrity Management
-```
-
-where source-defined.
-
-Do not flatten the architecture into one universal chain if source structure is graph-shaped.
-
----
-
-# 80. Brain Core Index Audit
-
-Verify:
-
-```text
-domain engine identities
-
-biological/human engine identities
-
-technology/fabrication engines
-
-high-depth variants
-
-aliases
-
-versions
-```
-
-without assuming similarly named variants are equivalent.
-
----
-
-# 81. Domain Index Audit
-
-For C01–C12 domains verify:
-
-```text
-primary domain ID
-
-master knowledge artifact
-
-canon refs
-
-research refs
-
-validation refs
-
-cross-domain refs
-
-aliases
-
-variants
-```
-
----
-
-# 82. Domain Canon Boundary
-
-A domain master knowledge file may be:
-
-```text
-DERIVED DOMAIN ARTIFACT
-```
-
-without being source canon.
-
-Index must preserve that distinction.
-
----
-
-# 83. Research Index Audit
-
-Research entries should include:
-
-```text
-MODEL status
-
-validation status
-
-source provenance
-
-competing models
-
-falsifiers
-
-promotion gates
-```
-
----
-
-# 84. Validation Branch Index Audit
-
-Verify entries such as:
-
-```text
-VALIDATION_LEVELS.md
-
-VALIDATION_EVIDENCE.md
-
-validator registry
-
-validation profiles
-
-revalidation records
-
-failure records
-```
-
-where implemented.
-
----
-
-# 85. Generator Branch Index Audit
-
-Verify:
-
-```text
-generator registry
-
-generator tests
-
-generator contracts
-
-generator families
-
-validation links
-
-authority boundaries
-```
-
----
-
-# 86. Dependency Branch Index Audit
-
-Verify:
-
-```text
-dependency registry
-
-edge taxonomy
-
-dependency audit
-
-provenance topology
-
-impact analysis
-```
-
-where implemented.
-
----
-
-# 87. Control Plane Index Audit
-
-Verify:
-
-```text
-authority definitions
-
-read/write-set contracts
-
-commit policy
-
-rollback policy
-
-effect bounds
-```
-
-without treating their existence as active authority.
-
----
-
-# 88. Runtime Index Audit
-
-Runtime artifacts should not be indexed as canon.
-
-Use:
-
-```text
-STATE
-```
-
-or:
+and:
 
 ```text
 RUNTIME_OBSERVATION
+!=
+ARCHITECTURE_DEFINITION
 ```
-
-classification.
 
 ---
 
-# 89. Memory Index Audit
+# 30. RSCF Root
 
-Verify memory categories are separated from:
+RSCF root should own reasoning-state structures.
+
+Material RSCF should preserve:
 
 ```text
-canon
+claim
 
-state
+class
+
+premises
 
 evidence
 
-decisions
-```
-
----
-
-# 90. Provenance Index Audit
-
-Verify provenance registries themselves are:
-
-```text
-addressable
-
-versioned
-
-traceable
-```
-
----
-
-# 91. Governance Index Audit
-
-Verify canonical promotion, deprecation, and supersession policies have stable ownership.
-
----
-
-# 92. Agent Index Audit
-
-For each agent entry:
-
-```text
-identity
-
-purpose
+provenance
 
 scope
 
-authority
+regime
 
-runtime status
+freshness
 
-deployment binding
+dependencies
 
-validation state
-```
+competing
 
-must remain separate.
+falsifiers
 
----
-
-# 93. Skill Index Audit
-
-Verify a host Skill is indexed as:
-
-```text
-DEPLOYMENT_BINDING
-```
-
-rather than silently becoming a canonical AMOS engine identity.
-
----
-
-# 94. Workflow Index Audit
-
-Verify:
-
-```text
-workflow definition
-
-implementation binding
-
-owner
-
-dependency refs
-
-authority refs
-
-validation refs
+confidence ceiling
 ```
 
 ---
 
-# 95. Tool Index Audit
+# 31. HML Root
 
-Verify:
+HML root should own fractal scale semantics.
 
 ```text
-tool identity
+H
+→ high-level
 
-availability
+M
+→ subsystem
 
-binding
+L
+→ local/detail
+```
 
-permissions
+but H/M/L must remain recursive rather than rigidly absolute.
 
-version
+---
 
-validation
+# 32. Memory Root
+
+Memory root should separate:
+
+```text
+working memory
+
+semantic memory
+
+episodic memory
+
+provenance memory
+
+decision memory
+
+state history
+```
+
+from canon and validation evidence.
+
+---
+
+# 33. Provenance Root
+
+Provenance root should own:
+
+```text
+source identity
+
+ancestry
+
+transformation
+
+versions
+
+hashes
+
+supersession lineage
+
+correlation groups
 ```
 
 where applicable.
 
 ---
 
-# 96. Observability Index Audit
+# 34. Governance Root
 
-Verify logs/snapshots are indexed as evidence/state infrastructure, not canon.
-
----
-
-# 97. Deployment Index Audit
-
-Verify:
+Governance root should own:
 
 ```text
-deployment artifacts
+canon promotion
 
-environment
+supersession
 
-version
+policy
 
-host binding
+role boundaries
 
-authority constraints
+approval
+
+architecture change governance
 ```
+
+It should not be confused with execution control.
 
 ---
 
-# 98. Index Provenance
+# 35. Dependency Root
 
-The Index itself must be provenance-bearing.
-
-```yaml
-index_provenance:
-  origin_architect: Trang Phan
-  source_basis:
-    - AMOS_FULL_BRAIN_OS.json
-  transformation:
-    - root_index_completion
-  version: null
-  hash: null
-```
-
----
-
-# 99. Audit Provenance
-
-Every audit result should record:
+Dependency root should own:
 
 ```text
-index version
+typed dependency graph
 
-physical inventory snapshot
+dependency audit
 
-root-map version
+closure
 
-canon source version
+critical dependencies
 
-validator versions
+invalidation impact
 
-audit time
-
-operator/agent
-
-repair proposals
+cross-domain bridges
 ```
 
 ---
 
-# 100. Audit Capsule
+# 36. Control Plane Root
+
+Control plane should own:
+
+```text
+authority
+
+effect bounds
+
+read sets
+
+write sets
+
+commit eligibility
+
+rollback permission
+```
+
+where such structures are implemented.
+
+---
+
+# 37. Validation Root
+
+Validation should own:
+
+```text
+validation levels
+
+validation evidence
+
+validators
+
+validation profiles
+
+revalidation
+
+validation failures
+```
+
+---
+
+# 38. Generator Root
+
+Generators should own:
+
+```text
+generation contracts
+
+generator registry
+
+generator tests
+
+candidate generation semantics
+```
+
+and preserve:
+
+```text
+GENERATED != VERIFIED
+```
+
+---
+
+# 39. Agent Root
+
+Agents should own bounded agency definitions:
+
+```text
+goal
+
+scope
+
+memory
+
+tools
+
+authority
+
+termination
+
+escalation
+
+audit
+```
+
+---
+
+# 40. Skill Root
+
+Skills should represent deployment-facing bindings.
+
+Mandatory:
+
+```text
+SKILL
+!=
+AMOS ENGINE
+```
+
+unless explicit source architecture says otherwise.
+
+---
+
+# 41. Workflow Root
+
+Workflow root should own:
+
+```text
+ordered processes
+
+branching
+
+handoffs
+
+failure handling
+
+rollback
+
+termination
+```
+
+---
+
+# 42. Protocol Root
+
+Protocol root should own formal interaction rules.
+
+Examples:
+
+```text
+message exchange
+
+agent handoff
+
+evidence admission
+
+validation protocol
+
+transaction protocol
+```
+
+---
+
+# 43. Tool Root
+
+Tools should own effect-capable or computational interfaces.
+
+Tool existence does not establish:
+
+```text
+availability
+
+authority
+
+correctness
+
+validation
+```
+
+---
+
+# 44. Observability Root
+
+Observability should own:
+
+```text
+logs
+
+metrics
+
+events
+
+snapshots
+
+audit records
+
+traces
+```
+
+while preserving:
+
+```text
+OBSERVATION != INTERPRETATION
+```
+
+---
+
+# 45. Deployment Root
+
+Deployment should own host/runtime bindings.
+
+Examples:
+
+```text
+skills
+
+agents
+
+containers
+
+services
+
+APIs
+
+scripts
+
+external executors
+```
+
+It must not redefine source ontology.
+
+---
+
+# 46. Domain Root
+
+Domain root should organize substantive knowledge domains.
+
+Example C01–C12 conceptual set:
+
+```text
+C01 Meta / Logic
+
+C02 Mathematics / Computation
+
+C03 Physics / Cosmos
+
+C04 Biology / Neuro
+
+C05 Mind / Behavior
+
+C06 Society / Culture
+
+C07 Economics / Finance
+
+C08 Strategy / Game
+
+C09 Organization / Law / Policy
+
+C10 Technology / Engineering
+
+C11 Design / Language
+
+C12 Earth / Ecology
+```
+
+Exact names should follow current source artifacts where conflicts exist.
+
+---
+
+# 47. Domain Ownership
+
+Each domain should have:
+
+```text
+one primary domain identity
+```
+
+with variants/aliases separately tracked.
+
+Do not create new canonical domains from every variant filename.
+
+---
+
+# 48. Cross-Domain Relations
+
+Domains may have cross-links.
+
+Example:
+
+```text
+C12 Earth Ecology
+↔ C05 Mind Behavior
+```
+
+But cross-domain reference:
+
+```text
+!= causal proof
+```
+
+---
+
+# 49. Research Root
+
+Research should own:
+
+```text
+hypotheses
+
+competing models
+
+experiments
+
+simulations
+
+falsifiers
+
+validation plans
+
+unvalidated extensions
+```
+
+---
+
+# 50. Research Boundary
+
+```text
+RESEARCH
+!=
+CANON
+```
+
+Research can be deeply developed without canonical promotion.
+
+---
+
+# 51. Archive Root
+
+Archive should preserve:
+
+```text
+superseded versions
+
+deprecated structures
+
+historic root maps
+
+old indexes
+
+migration records
+```
+
+without active routing.
+
+---
+
+# 52. Gap Root
+
+`99_GAPS` or equivalent should preserve unresolved architecture.
+
+Examples:
+
+```text
+unknown root placement
+
+unresolved aliases
+
+unknown ownership
+
+uncertain supersession
+
+unknown implementation status
+
+unverified cross-plane relationship
+```
+
+---
+
+# 53. Gap Boundary
+
+```text
+GAP
+!=
+ERROR
+```
+
+An explicit gap is an integrity-preserving state.
+
+---
+
+# 54. Root Presence Audit
+
+For each expected root ask:
+
+```text
+Does a logical root exist?
+
+Does a physical location exist?
+
+Is that location current?
+
+Is it a placeholder?
+
+Does its owner match its purpose?
+```
+
+---
+
+# 55. Missing Root
+
+A missing expected root may indicate:
+
+```text
+not implemented
+
+merged elsewhere
+
+renamed
+
+not yet created
+
+obsolete architecture
+
+audit assumption wrong
+```
+
+Therefore classify before repair.
+
+---
+
+# 56. Unexpected Root
+
+A root not known to the architecture may be:
+
+```text
+new legitimate root
+
+research branch
+
+host deployment artifact
+
+legacy artifact
+
+duplicate
+
+misplaced subtree
+```
+
+Do not automatically delete or canonize.
+
+---
+
+# 57. Duplicate Root
+
+Two root branches may accidentally own the same role.
+
+Example:
+
+```text
+11_VALIDATION
+```
+
+and:
+
+```text
+18_VALIDATION_SYSTEM
+```
+
+both claim validation ownership.
+
+Audit should determine:
+
+```text
+duplicate
+
+variant
+
+migration
+
+specialization
+
+conflict
+```
+
+---
+
+# 58. Root Overlap
+
+Some overlap is legitimate.
+
+Example:
+
+```text
+PROVENANCE
+```
+
+is used by validation and dependency graph.
+
+But:
+
+```text
+used_by
+!=
+owned_by
+```
+
+Root audit must distinguish this.
+
+---
+
+# 59. Ownership Conflict
+
+Finding:
+
+```text
+ROOT_OWNER_CONFLICT
+```
+
+when two branches both declare primary ownership of the same semantic contract without explicit shared governance.
+
+---
+
+# 60. Containment Conflict
+
+Finding:
+
+```text
+ROOT_CONTAINMENT_CONFLICT
+```
+
+when architecture planes are nested in a way inconsistent with source-defined independence.
+
+---
+
+# 61. Canon/Research Collapse
+
+Critical failure:
+
+```text
+research model
+stored or indexed
+as canonical architecture
+without promotion record
+```
+
+---
+
+# 62. Runtime/Canon Collapse
+
+Critical failure:
+
+```text
+runtime snapshot
+treated as source canon
+```
+
+---
+
+# 63. Validation/Authority Collapse
+
+Critical failure:
+
+```text
+validated
+→ automatically authorized
+```
+
+Mandatory boundary:
+
+```text
+VALIDATION != AUTHORIZATION
+```
+
+---
+
+# 64. Generator/Authority Collapse
+
+Critical failure:
+
+```text
+generator can produce effect instruction
+→ generator allowed to commit effect
+```
+
+Invalid without independent authority.
+
+---
+
+# 65. Skill/Ontology Collapse
+
+Critical structural error:
+
+```text
+host Skill name
+replaces
+AMOS source-defined engine identity
+```
+
+without explicit equivalence.
+
+---
+
+# 66. Agent/Engine Collapse
+
+Do not interpret an engine as an agent merely because it is callable.
+
+```text
+ENGINE != AGENT
+```
+
+---
+
+# 67. Domain/Runtime Collapse
+
+Domain knowledge should not be overwritten by transient runtime state.
+
+---
+
+# 68. Root Source Basis
+
+Every consequential root should record:
+
+```text
+SOURCE_DEFINED
+
+DERIVED_FROM_SOURCE
+
+GOVERNANCE_DEFINED
+
+IMPLEMENTATION_DISCOVERED
+
+RESEARCH_PROPOSED
+
+UNKNOWN
+```
+
+---
+
+# 69. Root Provenance
+
+Minimum:
 
 ```yaml
-index_audit:
+provenance:
+  source: null
+  source_version: null
+  source_hash: null
+  introduced_at: null
+  introduced_by_process: null
+  transformed_from: []
+```
 
+---
+
+# 70. Root Canon Status
+
+Suggested:
+
+```text
+SOURCE_CANON
+
+GOVERNED_CANON
+
+DERIVED_CONDITIONAL
+
+RESEARCH
+
+NON_CANONICAL
+
+UNKNOWN
+```
+
+Exact labels remain conditional.
+
+---
+
+# 71. Root Implementation Status
+
+Suggested:
+
+```text
+NOT_IMPLEMENTED
+
+PARTIAL
+
+IMPLEMENTED
+
+TESTED
+
+DEPLOYED
+
+UNKNOWN
+```
+
+---
+
+# 72. Root Validation Status
+
+Reference `11_VALIDATION`.
+
+The Root Audit should not invent a validation level if no validation record exists.
+
+---
+
+# 73. Root Lifecycle
+
+Suggested:
+
+```text
+ACTIVE
+
+MIGRATING
+
+DEPRECATED
+
+SUPERSEDED
+
+ARCHIVED
+
+UNKNOWN
+```
+
+---
+
+# 74. Root Versioning
+
+Each root may have:
+
+```text
+root schema version
+
+content version
+
+implementation version
+```
+
+These should not necessarily be conflated.
+
+---
+
+# 75. Root Migration
+
+Moving:
+
+```text
+/old/root/path
+```
+
+to:
+
+```text
+/new/root/path
+```
+
+should preserve logical root ID if semantics remain unchanged.
+
+---
+
+# 76. Root Rename
+
+Rename may be:
+
+```text
+cosmetic
+```
+
+or:
+
+```text
+semantic
+```
+
+Audit should distinguish them.
+
+---
+
+# 77. Semantic Rename
+
+If root meaning changes materially:
+
+```text
+new identity or version
+```
+
+may be required.
+
+---
+
+# 78. Alias Audit
+
+Root aliases should record:
+
+```text
+canonical ID
+
+historical name
+
+alternate spelling
+
+deprecated name
+
+source basis
+```
+
+---
+
+# 79. Alias Conflict
+
+One alias mapping to multiple current roots:
+
+```text
+ALIAS_CONFLICT
+```
+
+must remain unresolved until evidence distinguishes them.
+
+---
+
+# 80. Supersession
+
+Root supersession should preserve:
+
+```text
+old ID
+
+new ID
+
+reason
+
+effective time
+
+governance record
+
+migration guidance
+```
+
+---
+
+# 81. Supersession Invariant
+
+```text
+SUPERSEDED
+!=
+ERASED
+```
+
+Historical architecture remains provenance-addressable.
+
+---
+
+# 82. Root Lineage Graph
+
+Example:
+
+```text
+Root v1
+↓
+Root v2
+↓
+Root v3
+```
+
+with branches if competing revisions existed.
+
+---
+
+# 83. Lineage Conflict
+
+If two successors both claim sole canonical supersession:
+
+```text
+COMPETING
+```
+
+until governance resolves precedence.
+
+---
+
+# 84. Root Reference Audit
+
+Root references may be:
+
+```text
+navigation
+
+dependency summary
+
+validation reference
+
+provenance reference
+
+governance reference
+
+deployment binding
+
+cross-domain relation
+```
+
+Relation type must be explicit.
+
+---
+
+# 85. Broken Root Reference
+
+A root reference that no longer resolves should be classified:
+
+```text
+BROKEN_REFERENCE
+```
+
+and repaired or superseded.
+
+---
+
+# 86. Root Dependency Summary
+
+Root Audit may check high-level dependencies such as:
+
+```text
+12_GENERATORS
+→ depends on validation + control plane
+```
+
+Detailed edge semantics remain under dependency graph ownership.
+
+---
+
+# 87. Root Validation Reference
+
+A root may display:
+
+```yaml
+validation_ref: VAL-...
+```
+
+but validation details belong to `11_VALIDATION`.
+
+---
+
+# 88. Root Governance Reference
+
+Canon roots should link to:
+
+```text
+promotion policy
+
+supersession policy
+
+owner/steward
+
+governance decision
+```
+
+where applicable.
+
+---
+
+# 89. Root Authority Reference
+
+Effectful roots may link to authority requirements.
+
+Presence of reference does not grant authority.
+
+---
+
+# 90. Root H/M/L Position
+
+Top root audit is primarily H-level.
+
+```text
+H:
+whole AMOS architecture
+
+M:
+major root branches
+
+L:
+individual root metadata and boundary contracts
+```
+
+---
+
+# 91. Fractal Root Audit
+
+Each branch can be treated as a local root.
+
+Example:
+
+```text
+11_VALIDATION
+```
+
+may itself contain:
+
+```text
+H:
+validation branch
+
+M:
+evidence / levels / validators
+
+L:
+specific artifacts
+```
+
+---
+
+# 92. Root Audit Objective
+
+Every audit should declare objective.
+
+Examples:
+
+```text
+verify root completeness
+
+detect ownership overlap
+
+validate migration
+
+check canon separation
+
+check root version lineage
+
+detect new unclassified roots
+```
+
+---
+
+# 93. Root Audit Capsule
+
+```yaml
+root_audit:
   audit_id: null
 
-  index_id: null
+  objective: null
+
+  root_map_version: null
 
   index_version: null
 
-  root_map_version: null
+  repository_snapshot: null
+
+  canon_refs: []
 
   scope: null
 
   regime: null
 
-  audit_time: null
+  roots_examined: []
 
   checks: []
 
@@ -2222,95 +2040,7 @@ index_audit:
 
 ---
 
-# 101. Finding Classes
-
-Recommended:
-
-```text
-MISSING_INDEX_ENTRY
-
-UNINDEXED_ARTIFACT
-
-BROKEN_REFERENCE
-
-STALE_REFERENCE
-
-DUPLICATE_ID
-
-ALIAS_CONFLICT
-
-OWNER_CONFLICT
-
-PARENT_CONFLICT
-
-CANON_STATUS_CONFLICT
-
-IMPLEMENTATION_STATUS_CONFLICT
-
-VALIDATION_STATUS_DRIFT
-
-VERSION_CONFLICT
-
-SUPERSESSION_CONFLICT
-
-ORPHAN_ENTRY
-
-MOVED_ARTIFACT
-
-PATH_MISMATCH
-
-PROVENANCE_GAP
-
-DEPENDENCY_REFERENCE_DRIFT
-
-UNKNOWN_CLASSIFICATION
-```
-
----
-
-# 102. Finding Severity
-
-Derived severity labels may include:
-
-```text
-INFO
-
-LOW
-
-MODERATE
-
-HIGH
-
-CRITICAL
-```
-
-Exact canonical severity system remains open unless sourced.
-
----
-
-# 103. Critical Finding Examples
-
-```text
-canonical ID collision
-
-canon entry has no provenance
-
-research artifact indexed as canon
-
-placeholder indexed as implemented
-
-superseded version indexed as current
-
-authority implied from index placement
-
-validation marked current when source record is stale
-
-canonical owner conflict
-```
-
----
-
-# 104. Index Audit Result States
+# 94. Audit Result Classes
 
 ```text
 PASS
@@ -2326,874 +2056,1656 @@ INCONCLUSIVE
 UNKNOWN/GAP
 ```
 
-A whole index should rarely receive simple `PASS` without a declared scope.
+Always qualify whole-root `PASS` by scope.
 
 ---
 
-# 105. Audit Uncertainty
-
-Track separately:
-
-```yaml
-uncertainty:
-  physical_inventory: null
-  identity: null
-  ownership: null
-  canon_status: null
-  provenance: null
-  version_precedence: null
-  validation_alignment: null
-  dependency_alignment: null
-```
-
----
-
-# 106. Confidence Ceiling
-
-Audit confidence cannot exceed the weakest load-bearing source state.
-
-```text
-C_audit
-≤
-min(
-  index snapshot confidence,
-  physical inventory confidence,
-  canon mapping confidence,
-  provenance confidence
-)
-```
-
-where materially relevant.
-
----
-
-# 107. Missing Index Evidence
-
-If physical inventory cannot be read completely:
-
-```text
-INDEX_COMPLETENESS
-=
-UNKNOWN/PARTIAL
-```
-
-not:
-
-```text
-PASS
-```
-
----
-
-# 108. Index Freshness
-
-An index becomes stale after:
-
-```text
-file moves
-
-new artifacts
-
-deletions
-
-canon changes
-
-version changes
-
-validation changes
-
-supersession
-
-ownership changes
-```
-
----
-
-# 109. Freshness State
+# 95. Root Finding Classes
 
 Suggested:
 
 ```text
-CURRENT
+MISSING_ROOT
 
-AGING
+UNEXPECTED_ROOT
 
-STALE
+DUPLICATE_ROOT
 
-UNKNOWN
+ROOT_ID_CONFLICT
+
+ROOT_NAME_CONFLICT
+
+OWNER_CONFLICT
+
+CONTAINMENT_CONFLICT
+
+BOUNDARY_COLLAPSE
+
+CANON_RESEARCH_COLLAPSE
+
+RUNTIME_CANON_COLLAPSE
+
+VALIDATION_AUTHORITY_COLLAPSE
+
+DEPLOYMENT_ONTOLOGY_COLLAPSE
+
+ALIAS_CONFLICT
+
+VERSION_CONFLICT
+
+SUPERSESSION_CONFLICT
+
+PATH_DRIFT
+
+PROVENANCE_GAP
+
+STALE_ROOT
+
+UNKNOWN_ROOT_ROLE
 ```
 
 ---
 
-# 110. Revalidation Triggers
+# 96. Root Severity
 
-Re-audit when:
+Possible derived severity:
 
 ```text
-root map changes
+INFO
 
-repository structure changes
+LOW
 
-canon changes
+MODERATE
 
-domain engine added
+HIGH
 
-placeholder replaced
-
-alias mapping changes
-
-version lineage changes
-
-validation state changes
-
-dependency graph changes
+CRITICAL
 ```
 
----
-
-# 111. Failure Modes
-
-## F01 — Placeholder Inflation
-
-Placeholder shown as complete artifact.
-
-## F02 — False Canonization
-
-Index location used to imply canon.
-
-## F03 — Identity Collision
-
-Two logical objects share same ID.
-
-## F04 — Alias Collapse
-
-Variants merged without evidence.
-
-## F05 — Path Drift
-
-Index points to old path.
-
-## F06 — Broken Reference
-
-Target missing.
-
-## F07 — Unindexed Artifact
-
-Substantive artifact omitted.
-
-## F08 — Duplicate Artifact
-
-Same logical artifact duplicated without version semantics.
-
-## F09 — Owner Drift
-
-Index owner differs from architecture owner.
-
-## F10 — Validation Drift
-
-Index validation status stale.
-
-## F11 — Dependency Drift
-
-Index reference diverges from dependency graph.
-
-## F12 — Canon Drift
-
-Index status diverges from canon.
-
-## F13 — Supersession Loss
-
-Old/new relation missing.
-
-## F14 — Archive Loss
-
-Historical artifact disappears.
-
-## F15 — Provenance Loss
-
-Entry cannot trace source.
-
-## F16 — Research/Canon Collapse
-
-Research appears canonical.
-
-## F17 — Runtime/Canon Collapse
-
-State snapshot appears canonical.
-
-## F18 — Deployment/Ontology Collapse
-
-Host Skill/Agent treated as source-defined engine.
-
-## F19 — False Completeness
-
-Partial audit represented as exhaustive.
-
-## F20 — Gap Suppression
-
-Unknown identity forced into index.
+Exact canonical severity scheme remains `UNKNOWN/GAP`.
 
 ---
 
-# 112. Critical Failure Policy
+# 97. Critical Root Findings
 
-Automatically block canonical promotion when:
+Treat as critical when:
 
 ```text
-identity unresolved
+canonical root identity unresolved
 
-canonical owner unresolved
+source-defined architecture overwritten
 
-source provenance missing
+research promoted without governance
 
-research/canon conflict unresolved
+authority inferred from architecture placement
 
-supersession conflict unresolved
+two canonical owners conflict
 
-placeholder/implementation mismatch unresolved
+supersession lineage breaks current routing
+
+major root disappears with no migration record
+
+runtime artifact replaces canonical definition
 ```
 
 ---
 
-# 113. Repair / Recovery
-
-Use local repair.
+# 98. Root Audit Workflow
 
 ```text
-detect finding
-↓
-identify affected entry
-↓
-resolve source/provenance
-↓
-classify mismatch
-↓
-propose correction
-↓
-update smallest affected index region
-↓
-revalidate references
-↓
-persist repair lineage
-```
-
-Do not rebuild entire index for one broken path.
-
----
-
-# 114. Broken Path Repair
-
-Possible flow:
-
-```text
-old path missing
-↓
-search migration history
-↓
-resolve logical ID
-↓
-find new path
-↓
-update path
-↓
-preserve old path as historical alias
-```
-
----
-
-# 115. Duplicate Repair
-
-```text
-duplicate ID detected
-↓
-compare provenance
-↓
-determine:
-  same object
-  version
-  variant
-  alias
-  conflict
-↓
-update index
-```
-
----
-
-# 116. Alias Repair
-
-If alias unverified:
-
-```text
-mark ALIAS_UNRESOLVED
-```
-
-Do not force resolution.
-
----
-
-# 117. Canon Conflict Repair
-
-If two entries claim current canonical status:
-
-```text
-preserve COMPETING
-```
-
-until governance/provenance resolves precedence.
-
----
-
-# 118. Supersession Repair
-
-Keep both artifacts.
-
-Correct:
-
-```text
-old → superseded
-new → current
-```
-
-Do not erase lineage.
-
----
-
-# 119. Validation Drift Repair
-
-Update index reference to current validation record.
-
-Do not modify validation evidence inside the index.
-
----
-
-# 120. Index Audit Tests
-
-Minimum tests:
-
-```text
-unique logical ID test
-
-path resolution test
-
-owner resolution test
-
-parent resolution test
-
-status consistency test
-
-canon evidence test
-
-placeholder boundary test
-
-alias integrity test
-
-version integrity test
-
-supersession integrity test
-
-reference integrity test
-
-provenance integrity test
-
-validation-reference integrity test
-
-dependency-reference integrity test
-
-research/canon separation test
-```
-
----
-
-# 121. Unique ID Test
-
-Input:
-
-```text
-two entries
-same logical_id
-```
-
-Expected:
-
-```text
-DUPLICATE_ID
-```
-
-unless explicit version/variant semantics resolve it.
-
----
-
-# 122. Placeholder Boundary Test
-
-Entry:
-
-```text
-status = PLACEHOLDER
-```
-
-Expected:
-
-```text
-implementation != IMPLEMENTED
-```
-
-unless implementation evidence exists and status is updated.
-
----
-
-# 123. Canon Evidence Test
-
-Entry:
-
-```text
-canon = CANONICAL
-```
-
-Expected:
-
-```text
-source/governance reference present
-```
-
----
-
-# 124. Research Boundary Test
-
-Entry classified:
-
-```text
-RESEARCH_MODEL
-```
-
-must not appear as:
-
-```text
-VERIFIED_CANON
-```
-
-without promotion evidence.
-
----
-
-# 125. Alias Test
-
-Alias resolves to target only if:
-
-```text
-provenance supports equivalence
-```
-
----
-
-# 126. Version Test
-
-Current index version must match active supersession chain.
-
----
-
-# 127. Path Test
-
-Every physical path should either:
-
-```text
-resolve
-
-be marked placeholder
-
-be marked external
-
-be marked broken
-```
-
----
-
-# 128. Reference Test
-
-Every internal reference should resolve to:
-
-```text
-valid ID
-
-valid alias
-
-explicit UNKNOWN/GAP
-```
-
----
-
-# 129. Validation Reference Test
-
-Validation reference must:
-
-```text
-resolve
-
-match object version
-
-match scope
-
-not be stale
-```
-
-where applicable.
-
----
-
-# 130. Dependency Reference Test
-
-Dependency summary must not contradict the authoritative dependency graph.
-
----
-
-# 131. Provenance Test
-
-Entries claiming source-defined status require recoverable source basis.
-
----
-
-# 132. Supersession Test
-
-Reject unexplained cycles.
-
----
-
-# 133. Index Agents
-
-An Index Audit agent may:
-
-```text
-scan entries
-
-scan folders
-
-resolve IDs
-
-compare maps
-
-detect drift
-
-generate findings
-
-propose repairs
-```
-
-It should not silently mutate canon.
-
----
-
-# 134. Index Agent Contract
-
-```yaml
-agent:
-  role: index_audit
-
-  scope: explicit
-
-  default_authority: READ_ONLY_OR_PROPOSE_ONLY
-
-  read_sources:
-    - root_map
-    - filesystem
-    - provenance
-    - validation
-    - dependency_graph
-
-  writes:
-    - proposal_only
-
-  escalation: required
-
-  termination: required
-
-  audit_log: required
-```
-
----
-
-# 135. Skills
-
-A host Skill may expose:
-
-```text
-audit AMOS index
-
-find missing entries
-
-detect duplicates
-
-resolve aliases
-
-compare index to architecture
-```
-
-Skill remains deployment infrastructure.
-
----
-
-# 136. Tools
-
-Potential tools:
-
-```text
-filesystem listing
-
-Drive/repository search
-
-hashing
-
-schema validation
-
-diff tools
-
-graph tools
-
-version control
-
-provenance store
-```
-
-Tool output should be treated as observation, not canon by itself.
-
----
-
-# 137. Workflow
-
-Recommended:
-
-```text
-DEFINE AUDIT SCOPE
+DEFINE AUDIT OBJECTIVE
 ↓
 LOAD ROOT MAP
 ↓
 LOAD INDEX
 ↓
-LOAD PHYSICAL INVENTORY
+LOAD SOURCE/CANON REFERENCES
 ↓
-RESOLVE IDS
+LOAD PHYSICAL ROOT INVENTORY
 ↓
-CHECK PATHS
+RESOLVE ROOT IDENTITIES
 ↓
-CHECK OWNERS
+CHECK ROOT CLASSES
 ↓
-CHECK STATUS
+CHECK OWNERSHIP
 ↓
-CHECK CANON
+CHECK BOUNDARIES
 ↓
-CHECK PROVENANCE
+CHECK CANON STATUS
+↓
+CHECK IMPLEMENTATION STATUS
+↓
+CHECK VALIDATION REFERENCES
+↓
+CHECK VERSION / SUPERSESSION
 ↓
 CHECK ALIASES
 ↓
-CHECK VERSION
+CHECK PROVENANCE
 ↓
-CHECK SUPERSESSION
+CHECK MIGRATION
 ↓
-CHECK VALIDATION REFS
-↓
-CHECK DEPENDENCY REFS
-↓
-IDENTIFY GAPS
+CHECK GAPS
 ↓
 CHALLENGE FINDINGS
 ↓
-PROPOSE REPAIR
+PROPOSE LOCAL REPAIR
 ↓
 PERSIST AUDIT
 ```
 
 ---
 
-# 138. Audit Protocol
+# 99. Minimum-Sufficient Root Audit
+
+Do not inspect every low-level file if the question only concerns one root relation.
+
+Use:
 
 ```text
-AUDIT_INDEX(index_id, scope)
-```
-
-should:
-
-```text
-resolve target index
-
-capture version
-
-capture repository snapshot
-
-load root map
-
-compare entries
-
-classify findings
-
-preserve uncertainty
-
-produce repair proposals
-
-persist provenance
+root
+→ immediate boundaries
+→ load-bearing references
+→ source only where needed
 ```
 
 ---
 
-# 139. Differential Protocol
+# 100. Full Root Audit
+
+Use full audit after:
 
 ```text
-COMPARE_INDEX(v1, v2)
+major architecture migration
+
+root renumbering
+
+mass placeholder creation
+
+domain restructuring
+
+canon update
+
+Full Brain integration changes
+
+control-plane redesign
+
+validation architecture redesign
+
+deployment reorganization
 ```
 
-returns:
+---
+
+# 101. Differential Root Audit
+
+Compare:
 
 ```text
-added
+Root Architecture A
+vs
+Root Architecture B
+```
 
-removed
+Report:
+
+```text
+roots added
+
+roots removed
+
+roots renamed
+
+roots moved
+
+owners changed
+
+boundaries changed
+
+canon status changed
+
+supersession changed
+```
+
+---
+
+# 102. Canon Differential
+
+Compare root declarations with current source/canon artifacts.
+
+For Full Brain architecture, primary reference is:
+
+```text
+AMOS_FULL_BRAIN_OS.json
+```
+
+
+
+---
+
+# 103. Source Architecture Boundary
+
+The Full Brain operating contract requires preserving source-defined terminology and treating the source as structural orchestration, not proof of literal consciousness or autonomous embodiment. 
+
+Root audit should detect any branch that violates this distinction.
+
+---
+
+# 104. Full Brain Root Audit
+
+Audit whether Full Brain-related architecture preserves major fields such as:
+
+```text
+Brain Core
+
+Omni Kernel
+
+Omniverse Brain
+
+Personality
+
+Expression Translation
+
+Gap / Integrity Management
+```
+
+where source-defined.
+
+---
+
+# 105. Expression Translation Boundary
+
+Expression Translation should remain a semantic translation/gateway function.
+
+It should not be silently merged with:
+
+```text
+domain cognition
+
+personality
+
+validation
+
+control plane
+```
+
+unless source artifacts justify such integration.
+
+---
+
+# 106. Personality Boundary
+
+Personality architecture may shape expression and interaction.
+
+It must not replace epistemic validation.
+
+```text
+PERSONALITY
+!=
+TRUTH ENGINE
+```
+
+---
+
+# 107. Gap/Integrity Boundary
+
+Gap handling must remain first-class.
+
+Unknown architecture should not be completed through naming convenience.
+
+---
+
+# 108. Brain Core Audit
+
+Check whether Brain Core:
+
+```text
+retains domain/capability architecture
+
+has not been flattened into agent inventory
+
+has not been conflated with runtime state
+```
+
+---
+
+# 109. Omniverse Brain Audit
+
+Check whether Omniverse Brain remains distinct from ordinary domain indexing.
+
+Its role is broader world/system representation.
+
+---
+
+# 110. Full Brain / Super Mind Relationship
+
+Unless source lineage explicitly fixes containment:
+
+```text
+FULL_BRAIN_OS
+↔
+SUPER_MIND_OS
+```
+
+relationship should remain:
+
+```text
+UNKNOWN / COMPATIBLE / SEPARATE PLANE
+```
+
+rather than fabricated nesting.
+
+---
+
+# 111. Full Brain / Omega Relationship
+
+Likewise:
+
+```text
+FULL_BRAIN
+↔
+OMEGA_STACK
+```
+
+must follow source evidence.
+
+Structural similarity is insufficient.
+
+---
+
+# 112. Domain Root Audit
+
+For C01–C12 or successor domain structure, verify:
+
+```text
+every canonical domain ID is unique
+
+variants are not mistaken for domains
+
+aliases are explicit
+
+cross-domain references are typed
+
+research does not overwrite domain canon
+```
+
+---
+
+# 113. Domain Expansion
+
+If adding more domains beyond existing C01–C12:
+
+audit whether they are:
+
+```text
+new top-level domains
+
+subdomains
+
+cross-cutting planes
+
+research domains
+
+deployment categories
+```
+
+before assigning root-level identity.
+
+---
+
+# 114. Domain Exhaustiveness Boundary
+
+Do not claim:
+
+```text
+domain taxonomy exhaustive
+```
+
+unless source/governance explicitly establishes closure.
+
+AMOS should remain open-world.
+
+---
+
+# 115. Open-World Root Rule
+
+Absence of a root means:
+
+```text
+not represented
+```
+
+not necessarily:
+
+```text
+does not exist
+```
+
+---
+
+# 116. Root Completeness
+
+Use:
+
+```text
+COMPLETE_FOR(scope, version)
+```
+
+rather than:
+
+```text
+ABSOLUTELY COMPLETE
+```
+
+---
+
+# 117. Root Audit State Variables
+
+Recommended:
+
+```text
+RA_root_count
+
+RA_expected_root_count
+
+RA_missing_root_count
+
+RA_unexpected_root_count
+
+RA_duplicate_root_count
+
+RA_owner_conflict_count
+
+RA_boundary_violation_count
+
+RA_alias_conflict_count
+
+RA_path_drift_count
+
+RA_version_conflict_count
+
+RA_supersession_conflict_count
+
+RA_provenance_gap_count
+
+RA_stale_root_count
+
+RA_unknown_role_count
+
+RA_last_audit
+```
+
+---
+
+# 118. Root Audit Operators
+
+Architecture-level semantic operators:
+
+```text
+LOAD_ROOT_MAP()
+
+SCAN_ROOTS()
+
+RESOLVE_ROOT_ID()
+
+RESOLVE_ROOT_OWNER()
+
+RESOLVE_ROOT_CLASS()
+
+CHECK_BOUNDARY()
+
+CHECK_CANON_STATUS()
+
+CHECK_IMPLEMENTATION_STATUS()
+
+CHECK_VALIDATION_STATUS()
+
+CHECK_PROVENANCE()
+
+CHECK_ALIASES()
+
+CHECK_VERSION()
+
+CHECK_SUPERSESSION()
+
+CHECK_MIGRATION()
+
+DETECT_OVERLAP()
+
+DETECT_DUPLICATES()
+
+DETECT_MISSING_ROOTS()
+
+DETECT_UNEXPECTED_ROOTS()
+
+PROPOSE_ROOT_REPAIR()
+
+REVALIDATE_ROOT()
+```
+
+These names do not assert implementation.
+
+---
+
+# 119. Root Identity Validator
+
+Should answer:
+
+```text
+Does this root have one stable logical ID?
+
+Does its source basis support that identity?
+
+Has its identity changed?
+
+If changed, is migration recorded?
+```
+
+---
+
+# 120. Root Ownership Validator
+
+Should answer:
+
+```text
+Which root owns this semantic responsibility?
+
+Does another root make the same primary ownership claim?
+
+Is shared ownership explicit?
+```
+
+---
+
+# 121. Root Boundary Validator
+
+Should detect inappropriate collapse among:
+
+```text
+canon
+
+runtime
+
+research
+
+validation
+
+authority
+
+deployment
+
+domain
+
+provenance
+```
+
+---
+
+# 122. Root Canon Validator
+
+Should require source/governance basis for:
+
+```text
+CANONICAL
+```
+
+classification.
+
+---
+
+# 123. Root Path Validator
+
+Should determine:
+
+```text
+present
 
 moved
 
-renamed
+placeholder
 
-status_changed
+missing
 
-owner_changed
+external
 
-canon_changed
-
-validation_changed
-
-supersession_changed
+unknown
 ```
 
 ---
 
-# 140. Repair Protocol
+# 124. Root Version Validator
+
+Should verify current version against supersession chain.
+
+---
+
+# 125. Root Alias Validator
+
+Should reject alias equivalence based only on naming similarity.
+
+---
+
+# 126. Root Supersession Validator
+
+Should ensure:
 
 ```text
-REPAIR_INDEX(finding)
-```
+old remains historical
 
-should:
+new is current where governed
 
-```text
-resolve intended identity
-
-identify authoritative source
-
-modify only affected entries
-
-preserve history
-
-revalidate references
-
-commit only with authority
+cycles absent or explained
 ```
 
 ---
 
-# 141. Control-Plane Requirements
+# 127. Root Provenance Validator
 
-Default audit mode:
+Should verify architecture claims remain traceable to source or governance.
+
+---
+
+# 128. Root Audit Tests
+
+Minimum:
+
+```text
+unique root ID test
+
+root role test
+
+root owner test
+
+root boundary test
+
+path test
+
+canon test
+
+placeholder test
+
+alias test
+
+version test
+
+supersession test
+
+provenance test
+
+migration test
+
+validation-reference test
+
+dependency-reference test
+
+research/canon separation test
+
+deployment/ontology separation test
+```
+
+---
+
+# 129. Unique Root ID Test
+
+Two active roots with same logical identity:
+
+```text
+FAIL
+```
+
+unless explicit version/variant semantics apply.
+
+---
+
+# 130. Root Role Test
+
+Example:
+
+```text
+11_VALIDATION
+```
+
+should not primarily describe:
+
+```text
+code deployment
+```
+
+if validation ownership remains canonical.
+
+---
+
+# 131. Root Boundary Test
+
+Inject invalid configuration:
+
+```text
+12_GENERATORS
+owns commit authority
+```
+
+Expected:
+
+```text
+BOUNDARY_VIOLATION
+```
+
+unless governance explicitly defines that ownership.
+
+---
+
+# 132. Placeholder Test
+
+A placeholder root should not be counted as implemented root capability.
+
+---
+
+# 133. Research Canon Test
+
+A research root artifact marked canonical without promotion evidence should fail.
+
+---
+
+# 134. Runtime Canon Test
+
+A runtime snapshot declared canonical architecture should fail.
+
+---
+
+# 135. Deployment Ontology Test
+
+A host skill renamed as source-defined engine should fail unless provenance supports equivalence.
+
+---
+
+# 136. Alias Conflict Test
+
+One alias points to two active roots.
+
+Expected:
+
+```text
+ALIAS_CONFLICT
+```
+
+---
+
+# 137. Supersession Test
+
+Mutual unexplained supersession should fail.
+
+---
+
+# 138. Migration Test
+
+Moved root without migration lineage:
+
+```text
+MIGRATION_GAP
+```
+
+---
+
+# 139. Validation Reference Test
+
+Root states:
+
+```text
+VALIDATED
+```
+
+but referenced validation is stale.
+
+Expected:
+
+```text
+ROOT_VALIDATION_DRIFT
+```
+
+---
+
+# 140. Dependency Reference Test
+
+Root summary conflicts with dependency graph.
+
+Expected:
+
+```text
+ROOT_DEPENDENCY_DRIFT
+```
+
+---
+
+# 141. Root Audit Evidence
+
+Possible evidence types:
+
+```text
+SOURCE_CLAIM
+
+OBSERVATION
+
+DERIVED
+
+GOVERNANCE_RECORD
+
+PROVENANCE_RECORD
+
+VALIDATION_RECORD
+
+DEPENDENCY_RECORD
+
+UNKNOWN
+```
+
+---
+
+# 142. Root Audit Provenance
+
+Every finding should identify:
+
+```text
+source artifact
+
+root-map version
+
+index version
+
+repository snapshot
+
+governance state
+
+validator versions
+
+audit time
+```
+
+---
+
+# 143. Root Finding Object
+
+```yaml
+finding:
+  finding_id: null
+
+  class: null
+
+  severity: null
+
+  root_ids: []
+
+  evidence: []
+
+  provenance: []
+
+  scope: null
+
+  impact: null
+
+  repair_options: []
+
+  confidence_ceiling: null
+
+  status: OPEN
+```
+
+---
+
+# 144. Uncertainty Vector
+
+Track:
+
+```yaml
+uncertainty:
+  root_inventory: null
+  root_identity: null
+  ownership: null
+  source_alignment: null
+  canon_status: null
+  version_lineage: null
+  physical_path: null
+  cross_plane_relationships: null
+```
+
+---
+
+# 145. Confidence Ceiling
+
+Audit confidence must remain bounded by source/provenance quality.
+
+Conceptually:
+
+```text
+C_root_finding
+≤
+min(
+  C_source,
+  C_identity,
+  C_provenance,
+  C_repository_observation
+)
+```
+
+where load-bearing.
+
+---
+
+# 146. Root Freshness
+
+Root audits become stale after:
+
+```text
+root migration
+
+canon update
+
+new root creation
+
+root deletion
+
+owner change
+
+major version change
+
+domain expansion
+
+validation architecture change
+
+control-plane change
+```
+
+---
+
+# 147. Root Audit Regime
+
+This contract applies to:
+
+```text
+AMOS architecture / corpus / repository topology
+```
+
+It does not validate external scientific claims represented inside AMOS.
+
+---
+
+# 148. Failure Modes
+
+## F01 — False Root Canonization
+
+Root declared canonical only because it exists.
+
+## F02 — Root Identity Collision
+
+Two roots share identity.
+
+## F03 — Root Role Drift
+
+A root's content changes meaning without architecture update.
+
+## F04 — Ownership Collision
+
+Two roots both claim sole ownership.
+
+## F05 — Containment Collapse
+
+Independent planes nested incorrectly.
+
+## F06 — Canon/Research Collapse
+
+Research mixed into canon.
+
+## F07 — Runtime/Canon Collapse
+
+Runtime state becomes canon.
+
+## F08 — Validation/Authority Collapse
+
+Validation used as permission.
+
+## F09 — Generator/Authority Collapse
+
+Generator gains implicit commit power.
+
+## F10 — Deployment/Ontology Collapse
+
+Host binding replaces source ontology.
+
+## F11 — Alias Collapse
+
+Variants merged without provenance.
+
+## F12 — Path/Identity Collapse
+
+Physical path treated as identity.
+
+## F13 — Supersession Loss
+
+Old architecture becomes untraceable.
+
+## F14 — Migration Loss
+
+Root move breaks lineage.
+
+## F15 — Provenance Loss
+
+Source basis missing.
+
+## F16 — Version Drift
+
+Root current version unresolved.
+
+## F17 — Placeholder Inflation
+
+Empty root counted as implemented capability.
+
+## F18 — False Completeness
+
+Partial architecture presented as exhaustive.
+
+## F19 — Gap Suppression
+
+Unknown root relationship fabricated.
+
+## F20 — Boundary Duplication
+
+Multiple roots reimplement the same contract and diverge.
+
+---
+
+# 149. Critical Failures
+
+Automatically block architectural promotion when:
+
+```text
+source-defined root overwritten
+
+canonical root identity unresolved
+
+canonical ownership conflict unresolved
+
+research/canon collapse detected
+
+authority boundary missing for effectful architecture
+
+supersession state contradictory
+
+critical provenance lost
+
+placeholder represented as implemented canon
+```
+
+---
+
+# 150. Repair Principles
+
+Repair locally.
+
+```text
+detect root failure
+↓
+identify affected root relation
+↓
+preserve stable identity
+↓
+recover source/provenance
+↓
+repair ownership / path / status / reference
+↓
+revalidate affected boundaries
+↓
+preserve unaffected roots
+```
+
+---
+
+# 151. No Global Rewrite Rule
+
+One root inconsistency should not trigger whole-AMOS restructuring unless evidence shows systemic architecture failure.
+
+---
+
+# 152. Root Identity Repair
+
+If ID conflict:
+
+```text
+preserve both objects
+↓
+inspect provenance
+↓
+classify:
+  duplicate
+  version
+  alias
+  variant
+  conflict
+↓
+assign repair
+```
+
+---
+
+# 153. Root Ownership Repair
+
+If ownership overlaps:
+
+```text
+identify semantic contract
+↓
+find source/governance owner
+↓
+convert secondary roots to reference if appropriate
+```
+
+---
+
+# 154. Boundary Repair
+
+If two architecture planes were collapsed:
+
+```text
+separate semantic contracts
+↓
+restore references
+↓
+preserve migration lineage
+```
+
+---
+
+# 155. Canon Boundary Repair
+
+If research entered canon without promotion:
+
+```text
+reclassify research
+↓
+restore canonical source
+↓
+retain research reference
+```
+
+Do not delete research.
+
+---
+
+# 156. Path Repair
+
+If root moved:
+
+```text
+resolve logical identity
+↓
+update physical path
+↓
+preserve old path as migration history
+```
+
+---
+
+# 157. Supersession Repair
+
+If current root unclear:
+
+```text
+preserve competing versions
+↓
+recover governance evidence
+↓
+select only when justified
+```
+
+---
+
+# 158. Placeholder Repair
+
+When substantive content replaces placeholder:
+
+```text
+update status
+↓
+retain provenance of placeholder origin
+↓
+validate new content
+```
+
+Do not simply delete all history if lineage matters.
+
+---
+
+# 159. Root Falsifiers
+
+A root architecture claim should expose what would invalidate it.
+
+Example:
+
+```text
+Claim:
+11_VALIDATION is the primary owner of validation contracts.
+
+Falsifier:
+Current canonical governance assigns validation ownership elsewhere.
+```
+
+---
+
+# 160. Falsifiers for This Audit Architecture
+
+This Root Audit contract should be revised if:
+
+```text
+root identity cannot be separated from physical path
+
+ownership cannot be represented
+
+root boundaries cannot be tested
+
+source-defined and derived roots cannot be separated
+
+canon and research cannot be distinguished
+
+migration cannot preserve identity
+
+root audit duplicates Index Audit without additional value
+
+root audit causes systematic false canonization
+
+architecture cannot represent graph-shaped cross-root relations
+```
+
+---
+
+# 161. Root Audit Agents
+
+A root-audit agent may:
+
+```text
+scan root structure
+
+compare root map
+
+compare index
+
+compare source canon
+
+detect ownership overlap
+
+detect drift
+
+generate findings
+
+propose migrations
+```
+
+---
+
+# 162. Root Audit Agent Authority
+
+Default:
 
 ```text
 READ_ONLY
 ```
 
-Repair generation:
+or:
 
 ```text
 PROPOSE_ONLY
 ```
 
-Actual index mutation:
+for architecture modifications.
 
-```text
-AUTHORIZED_WRITE
+---
+
+# 163. Root Audit Agent Contract
+
+```yaml
+agent:
+  role: root_architecture_audit
+
+  scope: explicit
+
+  default_authority: PROPOSE_ONLY
+
+  read_access:
+    - root_map
+    - index
+    - canon
+    - provenance
+    - dependency_graph
+    - validation
+
+  write_access:
+    - proposal_only
+
+  termination: required
+
+  escalation: required
+
+  audit_log: required
 ```
 
 ---
 
-# 142. Authority Boundary
+# 164. Skills
 
-Index agent may discover:
-
-```text
-"this entry is stale"
-```
-
-but cannot automatically:
+A host skill may expose:
 
 ```text
-delete it
+audit AMOS roots
 
-promote another artifact to canon
+find architecture drift
 
-change canonical ownership
+resolve root ownership
+
+compare root versions
+
+detect canonical overlap
 ```
 
-without authority.
+but remains deployment infrastructure.
 
 ---
 
-# 143. Proposal / Commit Boundary
+# 165. Tools
+
+Potential audit tools:
 
 ```text
-AUDIT_FINDING
+filesystem inspection
+
+Drive/repository search
+
+schema validators
+
+graph tools
+
+version control
+
+hashing
+
+diff utilities
+
+provenance registries
+```
+
+Tool output is evidence, not canon by itself.
+
+---
+
+# 166. Workflow Integration
+
+Root Audit can participate in:
+
+```text
+architecture migration workflow
+
+canon update workflow
+
+repository expansion workflow
+
+domain expansion workflow
+
+release audit workflow
+```
+
+---
+
+# 167. Protocols
+
+Possible root protocols:
+
+```text
+REGISTER_ROOT
+
+MOVE_ROOT
+
+RENAME_ROOT
+
+RECLASSIFY_ROOT
+
+MERGE_ROOT
+
+SPLIT_ROOT
+
+DEPRECATE_ROOT
+
+SUPERSEDE_ROOT
+
+ARCHIVE_ROOT
+
+RESTORE_ROOT
+```
+
+---
+
+# 168. Root Registration Protocol
+
+Before creating a root:
+
+```text
+resolve purpose
+
+check existing owners
+
+check existing roots
+
+check domain overlap
+
+check source basis
+
+define status
+
+define provenance
+
+define governance
+```
+
+---
+
+# 169. Root Move Protocol
+
+```text
+MOVE_ROOT(root,new_path)
+```
+
+must preserve logical identity unless semantics change.
+
+---
+
+# 170. Root Split Protocol
+
+If one overloaded root is split:
+
+```text
+old root
+→ child A
+→ child B
+```
+
+record:
+
+```text
+ownership redistribution
+
+migration
+
+references
+
+supersession where applicable
+```
+
+---
+
+# 171. Root Merge Protocol
+
+Merging roots requires proof that their semantic roles should become one.
+
+Similarity alone is insufficient.
+
+---
+
+# 172. Root Promotion Protocol
+
+A root may move:
+
+```text
+PLACEHOLDER
+→ DEFINED
+```
+
+when contract exists.
+
+But:
+
+```text
+DEFINED
+→ CANONICAL
+```
+
+requires appropriate source/governance.
+
+---
+
+# 173. Root Deprecation Protocol
+
+Deprecation should retain:
+
+```text
+reason
+
+replacement
+
+effective date
+
+migration
+
+historical identity
+```
+
+---
+
+# 174. Control-Plane Requirements
+
+Root architecture mutation may affect:
+
+```text
+routing
+
+canon resolution
+
+validation
+
+dependency resolution
+
+deployment
+```
+
+Therefore significant root writes require governance/control-plane authority.
+
+---
+
+# 175. Root Read Authority
+
+Most audits should use read-only access to:
+
+```text
+root map
+
+index
+
+canon
+
+provenance
+
+repository state
+
+validation records
+```
+
+---
+
+# 176. Root Write Authority
+
+Changes to:
+
+```text
+canonical root ID
+
+canonical owner
+
+root supersession
+
+root hierarchy
+
+root numbering
+```
+
+require elevated architecture governance.
+
+---
+
+# 177. Proposal / Commit Boundary
+
+```text
+AUDIT FINDING
 !=
-INDEX_CHANGE
+ARCHITECTURE CHANGE
 ```
 
 ```text
-REPAIR_PROPOSAL
+REPAIR PLAN
 !=
 COMMIT
 ```
 
 ---
 
-# 144. Evidence Types
+# 178. Root Audit Evidence Requirements
 
-Index Audit may use:
+For consequential findings:
 
 ```text
-OBSERVATION
-  physical path exists
+source basis
 
+repository observation
+
+provenance
+
+version state
+
+governance state
+```
+
+should be recoverable.
+
+---
+
+# 179. Root Audit Source Types
+
+Possible:
+
+```text
 SOURCE_CLAIM
-  source says component exists
+
+OBSERVATION
 
 DERIVED
-  entry is inconsistent with map
 
 GOVERNANCE_RECORD
-  artifact promoted to canon
 
 VALIDATION_RECORD
-  status changed
+
+PROVENANCE_RECORD
 
 UNKNOWN
-  ownership unresolved
 ```
 
 ---
 
-# 145. Source Boundary
+# 180. RSCF Completion State
 
-The AMOS Full Brain rules require source-derived structures to remain distinct from external empirical claims. 
-
-Therefore:
-
-```text
-index confirms source component
-```
-
-does not imply:
-
-```text
-real-world scientific validity
-```
-
----
-
-# 146. RSCF Completion State
-
-The original placeholder:
+The original placeholder state:
 
 ```yaml
 claim_class: UNKNOWN/GAP
@@ -3225,101 +3737,109 @@ claim_class: DERIVED
 evidence:
   - AMOS Full Brain OS architectural rules
   - AMOS Full Brain canon reference
+  - AMOS OS v4.4 lineage principles
   - 00 Root Map architecture
+  - 00 Index Audit architecture
   - dependency audit architecture
   - validation architecture
-  - provenance principles
+  - provenance and governance principles
 
 provenance:
   origin_architect: Trang Phan
-  transformation: index_audit_architecture_completion
+  transformation: root_audit_architecture_completion
   status: derived_from_amos_corpus
 
 scope:
   branch: 00_ROOT
-  artifact: INDEX_AUDIT
-  role: index_integrity_and_drift_detection
+  artifact: ROOT_AUDIT
+  role: root_architecture_integrity
 
 regime:
   architecture: AMOS OS
-  repository_state: current_or_snapshot
 
 freshness:
   revalidate_on:
-    - repository_change
-    - root_map_change
     - canon_change
-    - alias_change
-    - version_change
-    - validation_change
-    - supersession_change
+    - root_map_change
+    - index_change
+    - repository_migration
+    - root_ownership_change
+    - version_lineage_change
+    - governance_change
 
 dependencies:
   - AMOS_FULL_BRAIN_OS
+  - AMOS_OS_KERNEL_v4.4
   - 00_ROOT_MAP
+  - 00_INDEX_AUDIT
   - PROVENANCE
   - GOVERNANCE
   - 09_DEPENDENCY_GRAPH
+  - 10_CONTROL_PLANE
   - 11_VALIDATION
 
 competing:
-  - filesystem_only_index
-  - pure_graph_index
-  - per_branch_indexes_without_global_index
+  - filesystem_root_only_model
+  - pure_graph_without_root_ownership
+  - monolithic_single_root_architecture
+  - independently_owned_subsystem_roots
 
 falsifiers:
-  - logical identity cannot be reconciled with physical inventory
-  - audit cannot distinguish placeholder from implementation
-  - canon cannot be separated from index presence
-  - aliases cannot be represented without identity collapse
-  - version lineage cannot be preserved
-  - index audit creates more inconsistency than it detects
+  - root identity cannot survive physical migration
+  - ownership cannot be represented coherently
+  - canon/research separation cannot be maintained
+  - root boundaries cannot be validated
+  - root audit adds no value beyond index audit
+  - architecture is less recoverable after adopting this contract
 
 confidence_ceiling:
   architecture: CONDITIONAL
-  exact_index_inventory: UNKNOWN_OR_PARTIAL
-  exact_repository_state: REQUIRES_CURRENT_OBSERVATION
+  exact_root_inventory: UNKNOWN_OR_PARTIAL
+  exact_root_numbering: UNKNOWN_OR_PARTIAL
+  implementation: UNKNOWN
 ```
 
 ---
 
-# 147. Gap Status
+# 181. Known Gaps
 
-The following remain `UNKNOWN/GAP` until repository/canon evidence resolves them:
+The following remain `UNKNOWN/GAP` until actual current source/repository evidence resolves them:
 
 ```text
-exact current root inventory
+exact current AMOS root inventory
 
-exact physical file inventory
+exact canonical root numbering
 
-exact canonical index filenames
+exact physical paths of every root
 
-exact index registry schema
+exact root registry schema
 
-canonical alias registry
+exact ownership of every historical root
 
-canonical owner of every branch
+exact alias relationships
 
-canonical path migration history
+exact migration history
 
-canonical version precedence across all historical artifacts
+exact Full Brain ↔ Super Mind relationship
 
-exact status of all placeholder roots
+exact Full Brain ↔ Omega relationship
 
-exact current validation references
+exact Brain Core ↔ runtime binding
 
-exact current dependency references
+exact Omni Kernel ↔ Control Plane precedence
 
-exact current archive inventory
+exact domain root count beyond current source-defined structures
 
-exact current supersession graph
+exact deployment-root implementation
+
+exact archive/supersession root layout
 ```
 
-These gaps should remain explicit.
+These gaps should not be closed by architectural guesswork.
 
 ---
 
-# 148. Completion Status
+# 182. Completion Status
 
 This artifact should no longer remain:
 
@@ -3340,51 +3860,81 @@ canon_status: CONDITIONAL
 
 implementation_status: PARTIAL_OR_UNKNOWN
 
-current_index_inventory_status: UNKNOWN_OR_PARTIAL
+live_root_inventory_status: UNKNOWN_OR_PARTIAL
 
-physical_repository_audit_status: NOT_PERFORMED_OR_PARTIAL
+repository_root_audit_status: NOT_PERFORMED_OR_PARTIAL
 
 validation_status: ARCHITECTURE_DEFINED
 ```
 
 ---
 
-# 149. Core Index Laws
+# 183. Core Root Laws
 
 ```text
-INDEXED
+ROOT
 !=
-CANONICAL
-```
-
-```text
-INDEXED
-!=
-IMPLEMENTED
-```
-
-```text
-INDEXED
-!=
-VALIDATED
-```
-
-```text
 PATH
-!=
-IDENTITY
 ```
 
 ```text
-SIMILAR_NAME
+ROOT
 !=
-SAME_OBJECT
+CANON
 ```
 
 ```text
-ALIAS
+ROOT
 !=
-CANONICAL_ID
+RUNTIME
+```
+
+```text
+ROOT
+!=
+AUTHORITY
+```
+
+```text
+ROOT_NAME
+!=
+ROOT_IDENTITY
+```
+
+```text
+ROOT_NUMBER
+!=
+ROOT_IDENTITY
+```
+
+```text
+PARENT
+!=
+OWNER
+```
+
+```text
+OWNER
+!=
+AUTHORITY
+```
+
+```text
+CONTAINMENT
+!=
+DEPENDENCY
+```
+
+```text
+REFERENCE
+!=
+DEPENDENCY
+```
+
+```text
+ARCHITECTURE
+!=
+IMPLEMENTATION
 ```
 
 ```text
@@ -3400,27 +3950,21 @@ CANON
 ```
 
 ```text
-SUPERSEDED
+RUNTIME_STATE
 !=
-FALSE
+CANON
 ```
 
 ```text
-ARCHIVED
+DEPLOYMENT_BINDING
 !=
-DELETED
+ONTOLOGY
 ```
 
 ```text
-MISSING_FROM_INDEX
+VALIDATED
 !=
-NONEXISTENT
-```
-
-```text
-BROKEN_REFERENCE
-!=
-PROOF_TARGET_NEVER_EXISTED
+AUTHORIZED
 ```
 
 ```text
@@ -3455,138 +3999,132 @@ PASS
 
 ---
 
-# 150. Index Audit Decision Table
+# 184. Root Audit Decision Table
 
 ```text
-Entry listed and physical artifact exists?
-→ PRESENT
+Expected logical root missing?
+→ MISSING_ROOT
 
-Entry listed but physical artifact absent?
-→ PLACEHOLDER / MOVED / BROKEN / UNKNOWN
+Unrecognized root present?
+→ UNEXPECTED_ROOT
 
-Physical artifact exists but not indexed?
-→ UNINDEXED_ARTIFACT
+Same role owned by two roots?
+→ OWNER_CONFLICT
 
-Same logical ID appears twice?
-→ DUPLICATE_ID
+Same logical ID used twice?
+→ ROOT_ID_CONFLICT
 
-Similar names with unclear relation?
+Root moved without migration?
+→ PATH_DRIFT / MIGRATION_GAP
+
+Research placed as canon?
+→ CANON_RESEARCH_COLLAPSE
+
+Runtime state presented as canon?
+→ RUNTIME_CANON_COLLAPSE
+
+Validated treated as authorized?
+→ VALIDATION_AUTHORITY_COLLAPSE
+
+Host skill replacing source engine?
+→ DEPLOYMENT_ONTOLOGY_COLLAPSE
+
+Similar names with no provenance?
 → ALIAS_OR_VARIANT_UNKNOWN
 
-Source establishes identity?
-→ SOURCE_DEFINED
-
-Identity inferred from architecture?
-→ DERIVED
-
-Research artifact indexed under canon?
-→ CANON_BOUNDARY_VIOLATION
-
-Validation ref stale?
-→ VALIDATION_DRIFT
-
-Dependency ref differs from dependency graph?
-→ DEPENDENCY_DRIFT
-
-Old version still marked current?
-→ VERSION_DRIFT
-
-Superseded object still active?
+Current root superseded?
 → SUPERSESSION_DRIFT
 
-No provenance for canonical claim?
+Source basis missing?
 → PROVENANCE_GAP
 
-Uncertainty unresolved?
-→ UNKNOWN/GAP
+Root role cannot be resolved?
+→ UNKNOWN_ROOT_ROLE
+
+Critical relation unresolved?
+→ UNKNOWN/GAP / BLOCK
 ```
 
 ---
 
-# 151. Final Index Audit Contract
+# 185. Final Root Audit Contract
 
-Before AMOS treats an index as sufficiently reliable, it should be able to answer:
+Before AMOS treats the top-level architecture as sufficiently coherent, it should be able to answer:
 
 ```text
-WHAT index was audited?
+WHAT are the current logical roots?
 
-WHICH version?
+WHAT source or governance basis supports each root?
 
-WHAT repository snapshot?
+WHICH roots are source-defined?
 
-WHAT root-map version?
+WHICH are derived?
 
-WHAT canon source version?
+WHICH are research?
 
-WHAT scope was covered?
+WHICH remain placeholders?
 
-WHICH artifacts are indexed?
+WHAT role does each root own?
 
-WHICH indexed artifacts physically exist?
+DO any roots duplicate ownership?
 
-WHICH indexed artifacts are placeholders?
+DO any roots overlap semantically?
 
-WHICH physical artifacts are not indexed?
+ARE overlaps intentional?
 
-WHICH IDs are duplicated?
+IS each root identity unique?
 
-WHICH names are aliases?
+ARE root names aliases, variants, or distinct identities?
 
-WHICH aliases are actually verified?
+ARE physical paths current?
 
-WHICH artifacts are variants rather than aliases?
-
-WHICH owners are authoritative?
-
-WHICH parent relationships are valid?
-
-WHICH entries are canonical?
-
-WHAT evidence supports canonical status?
-
-WHICH entries are research?
-
-WHICH entries are derived?
-
-WHICH entries are implemented?
-
-WHICH entries are validated?
-
-WHICH validation references are stale?
-
-WHICH dependency references are stale?
-
-WHICH artifacts moved?
+HAVE roots moved?
 
 IS migration lineage preserved?
 
-WHICH versions are current?
+WHICH root versions are current?
 
-WHICH versions are superseded?
+WHICH are superseded?
 
-ARE any supersession cycles present?
+ARE any supersession conflicts unresolved?
 
-WHICH references are broken?
+ARE canon and research separated?
 
-WHICH entries are orphaned?
+ARE runtime and canon separated?
 
-WHICH entries have lost provenance?
+ARE validation and authority separated?
+
+ARE generation and commit authority separated?
+
+ARE deployment bindings separate from ontology?
+
+ARE domain roots distinct and correctly owned?
+
+ARE cross-domain relationships represented as references rather than false containment?
+
+IS provenance recoverable?
+
+ARE validation references current?
+
+ARE dependency references current?
 
 WHAT gaps remain?
 
-WHAT repairs are proposed?
+WHAT root relationships are still UNKNOWN?
 
-WHAT requires governance?
+WHAT findings require governance?
 
-WHAT can be changed safely?
+WHAT repairs are reversible?
 
-WHAT remains UNKNOWN/GAP?
+WHAT would falsify the current root interpretation?
+
+WHEN must this audit be rerun?
 ```
 
-If these questions cannot be answered for a material region of the index:
+If these questions cannot be answered for a load-bearing root boundary:
 
 ```text
-INDEX AUDIT STATE
+ROOT AUDIT STATE
 =
 PARTIAL
 or
@@ -3601,44 +4139,50 @@ PASS
 
 ---
 
-# 152. Final State
+# 186. Final State
 
-`00 Index Audit` is the integrity layer for AMOS's addressable architecture inventory.
+`00 Root Audit` is the architecture-integrity check for the highest level of AMOS OS.
 
-Its job is to make sure:
+Its purpose is to ensure that:
 
 ```text
-the map says what actually exists,
+the roots still mean what they are supposed to mean,
 
-the index knows what each thing is,
+each architecture responsibility has a recoverable owner,
 
-the repository location matches the logical identity,
+source canon is not diluted by derived or research material,
 
-the status matches evidence,
+runtime state does not overwrite architecture,
 
-the version lineage is recoverable,
+validation does not become authority,
 
-the aliases do not collapse distinct objects,
+deployment does not replace ontology,
 
-the research/canon boundary remains intact,
+variants do not become duplicate canonical identities,
 
-the placeholders remain visible,
+migration preserves lineage,
 
-and unresolved gaps stay unresolved.
+and unresolved architecture remains visible.
 ```
 
-The correct model is:
+The correct relationship is:
 
 ```text
+ROOT MAP
+=
+what the architecture says exists
+
 INDEX
 =
-ADDRESSABLE VIEW OF AMOS
+what is addressably registered
+
+ROOT AUDIT
+=
+whether the architecture partition itself is still sound
 
 INDEX AUDIT
 =
-PROOF THAT THE VIEW
-HAS NOT DRIFTED
-BEYOND ITS EVIDENCE
+whether the registered inventory accurately reflects it
 ```
 
 The governing AMOS principle remains:
@@ -3653,21 +4197,19 @@ FLUENCY
 SPEED
 ```
 
-and specifically for `00 Index Audit`:
+and specifically for `00 Root Audit`:
 
 ```text
-DO NOT MAKE THE INDEX
-LOOK COMPLETE
+DO NOT FORCE
+A CLEAN ROOT TREE
 
-BY HIDING
-WHAT IS MISSING,
-DUPLICATED,
-STALE,
-UNVALIDATED,
-OR UNKNOWN.
+BY COLLAPSING
+DISTINCT ARCHITECTURE PLANES,
+ERASING LINEAGE,
+OR HIDING UNKNOWN RELATIONSHIPS.
 ```
 
 ```
 
-**Conclusion class:** `DERIVED / CONDITIONAL`. The architecture above follows the source-grounded AMOS principles of typed status, provenance preservation, gap visibility, and separation between source architecture and external validation. :contentReference[oaicite:7]{index=7} The exact live index inventory, physical paths, aliases, version precedence, and repository state remain `UNKNOWN/GAP` until an actual current repository/index audit is performed.
+**Conclusion class:** `DERIVED / CONDITIONAL`. The separation between structural canon, runtime, validation, research, authority, provenance, and deployment is consistent with the supplied Full Brain operating rules. :contentReference[oaicite:6]{index=6} The exact current root inventory, numbering, physical layout, aliases, migration history, and some cross-plane relationships remain `UNKNOWN/GAP` until an actual current repository/canon audit establishes them.
 ```
