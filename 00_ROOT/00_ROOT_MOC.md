@@ -28,7 +28,8 @@ related:
 - '[[RSCF_NODE_INDEX]]'
 - '[[GMEF]]'
 - '[[HML_CANON]]'
-- '[[00 Cosmo Brain MOC]]'
+- '[[11_KNOWLEDGE/Cosmo_Brain_MOC.md|00 Cosmo Brain MOC]]'
+- '[[11_KNOWLEDGE/11_KNOWLEDGE_MOC.md|11_KNOWLEDGE MOC]]'
 - '[[AMOS_Obsidian_Linking_Plugins]]'
 rscf_state: derived
 scope:
@@ -349,6 +350,7 @@ Use when asking:
 - [[00_ROOT_RELEASE_NOTES]]
 - [[00_ROOT_STATUS]]
 - [[00_ROOT_VERSIONING]]
+- [[00_Cosmo_Brain_MOC]]
 - [[COGNITIVE_MATRIX_INTEGRATION]]
 - [[NEURAL_NETWORK]]
 - [[SYSTEM_MAP_v1]]
@@ -1789,8 +1791,8 @@ confidence_ceiling:
 
 ## Related MOCs
 
-- [[00 Cosmo Brain MOC]] — the Cosmo Brain index
-- [[11_KNOWLEDGE_MOC]] — the knowledge layer index
+- [[11_KNOWLEDGE/Cosmo_Brain_MOC.md|00 Cosmo Brain MOC]] — the canonical Cosmo Brain index
+- [[11_KNOWLEDGE/11_KNOWLEDGE_MOC.md|11_KNOWLEDGE MOC]] — the knowledge layer index
 - [[AMOS_Obsidian_Linking_Plugins]] — Obsidian vault linking plugin stack
 
 ---
