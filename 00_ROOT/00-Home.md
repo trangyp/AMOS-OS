@@ -68990,3 +68990,4 @@ path: 00_ROOT/00-Home.md
 RSCF-RELATIONS:
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL · [[COGNITIVE_MATRIX_MOC]] · [[GENERATORS_MAP]] · [[L17_RSCF]] · [[K_RSCF]]
+- [[00_Cosmo_Brain_MOC]]
