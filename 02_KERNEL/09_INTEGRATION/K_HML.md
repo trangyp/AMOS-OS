@@ -5,7 +5,7 @@
 **AMOS Core target:** `v4.4`
 **Origin architect / steward:** Trang Phan
 
-I broadened the corpus search beyond the literal filename. The relevant AMOS corpus contains major architecture/state artifacts including **AMOS ARCHITECTURE**, **AMOS OS**, the max-detail Reality Architecture master, and the Trang Reality Architecture corpus.    
+I broadened the corpus search beyond the literal filename. The relevant AMOS corpus contains major architecture/state artifacts including **AMOS ARCHITECTURE**, **AMOS OS**, the max-detail Reality Architecture master, and the Trang Reality Architecture corpus.
 
 There is still no independently identified artifact titled `K_HML`. Therefore the document below is the **full kernel reconstruction consistent with the supplied AMOS v4.4 H/M/L contract**, not falsely presented as a verbatim historical source file.
 
@@ -115,9 +115,7 @@ RAW EVIDENCE
 
 Default:
 
-RAW_EVIDENCE
-=
-DO_NOT_LOAD_UNLESS_REQUIRED
+RAW_EVIDENCE = DO_NOT_LOAD_UNLESS_REQUIRED
 
 ---
 
@@ -256,16 +254,11 @@ L_SOURCE_ANCESTRY
 
 Therefore:
 
-H/M/L
-=
-RELATIVE FRACTAL SCALE
+H/M/L = RELATIVE FRACTAL SCALE
 
 not:
 
-H/M/L
-=
-THREE ABSOLUTE
-DATABASE TABLES
+H/M/L = THREE ABSOLUTE DATABASE TABLES
 
 ---
 
@@ -273,20 +266,11 @@ DATABASE TABLES
 
 For knowledge region K:
 
-H(K)
-=
-high-level representation
-of K
+H(K) = high-level representation of K
 
-M(K)
-=
-decision-relevant
-decomposition of H(K)
+M(K) = decision-relevant decomposition of H(K)
 
-L(K)
-=
-detail sufficient
-to resolve M(K)
+L(K) = detail sufficient to resolve M(K)
 
 And any L node may recursively expose:
 
@@ -536,11 +520,7 @@ It must preserve every fact capable of changing the supported decision.
 
 Define:
 
-DecisionLoss(C)
-=
-information removed by compression
-that could change
-the supported decision.
+DecisionLoss(C) = information removed by compression that could change the supported decision.
 
 Required:
 
@@ -2589,37 +2569,19 @@ Required evidence:
 
 Until then:
 
-HML ARCHITECTURE
-=
-AMOS MODEL
+HML ARCHITECTURE = AMOS MODEL
 
-HML RETRIEVAL CONTRACT
-=
-AMOS v4.4 CANON-COMPATIBLE MODEL
+HML RETRIEVAL CONTRACT = AMOS v4.4 CANON-COMPATIBLE MODEL
 
-FULL HISTORICAL
-K_HML SOURCE
-=
-UNKNOWN/GAP
+FULL HISTORICAL K_HML SOURCE = UNKNOWN/GAP
 
-FULL RUNTIME
-IMPLEMENTATION
-=
-UNKNOWN/GAP
+FULL RUNTIME IMPLEMENTATION = UNKNOWN/GAP
 
-DISTRIBUTED
-SHARD FINALITY
-=
-UNKNOWN/GAP
+DISTRIBUTED SHARD FINALITY = UNKNOWN/GAP
 
-FORMAL VERIFICATION
-=
-UNKNOWN/GAP
+FORMAL VERIFICATION = UNKNOWN/GAP
 
-EMPIRICAL
-UNIVERSALITY
-=
-UNKNOWN/GAP
+EMPIRICAL UNIVERSALITY = UNKNOWN/GAP
 
 ---
 
