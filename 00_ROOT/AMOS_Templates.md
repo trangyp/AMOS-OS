@@ -37,3 +37,13 @@ Index of Obsidian note and automation templates used by the AMOS vault.
 - [[00-Home]] — universal vault hub
 - [[00_ROOT_MOC]] — AMOS OS master map
 - [[AMOS_Obsidian_Linking_Plugins]] — Obsidian linking plugin stack
+
+---
+RSCF-NODE
+node_id: amos_templates
+node_type: note
+path: 00_ROOT/AMOS_Templates.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

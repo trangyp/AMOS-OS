@@ -3117,3 +3117,13 @@ GENERATOR_CONTRACT.md
 ````
 
 That prevents `HISTORY.md` from becoming a retrospective roadmap or a fabricated chronology. Its strongest AMOS property is that **missing history stays missing until provenance-bearing evidence closes the gap**.
+
+---
+RSCF-NODE
+node_id: generators_history
+node_type: note
+path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_HISTORY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

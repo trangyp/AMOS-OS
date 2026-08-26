@@ -272,3 +272,13 @@ Canonical map index for the AMOS OS layer structure. Each top-level layer has a 
 - [[ROUTING_MAP]]
 - [[COGNITIVE_MATRIX_VALIDATION_MAP]]
 - [[GENERATORS_MAP]]
+
+---
+RSCF-NODE
+node_id: amos_layer_maps
+node_type: note
+path: 00_ROOT/AMOS_Layer_Maps.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -5058,3 +5058,13 @@ AN INVENTED STATE TRANSITION.
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. The lifecycle contract follows the Full Brain requirements for typed state, provenance preservation, explicit gaps, conservative promotion, and reversible/repairable action under uncertainty. :contentReference[oaicite:3]{index=3} The exact lifecycle state machine, transition engine, governance roles, atomic finalization mechanism, rollback implementation, and live registry remain `UNKNOWN/GAP` until explicit AMOS canon or implementation defines them.
 ```
+
+---
+RSCF-NODE
+node_id: 00_root_lifecycle
+node_type: note
+path: 00_ROOT/00_ROOT_LIFECYCLE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL
