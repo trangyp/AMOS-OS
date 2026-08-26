@@ -1,486 +1,240 @@
+Below is a **full replacement artifact** for the placeholder `SYSTEM_MAP.md`. It is written as an architecture/specification artifact, not as a claim that every mapped component is already implemented or canonically admitted. The completion distinction is deliberate: structural completeness does not establish implementation or empirical validity. 
+
 ---
-artifact_id: AMOS-OS-SYSTEM-MAP
-name: AMOS_OS_SYSTEM_MAP
-title: "AMOS OS System Map — Authoritative Plane Topology and Cross-System Relationship Map"
-
-document_version: "2.0.0"
-map_version: "1.0.0"
-amos_core_target: "v4.4"
-
-status: ACTIVE_MAP
-conclusion_class: AMOS_MODEL
-rscf_state: derived
-
-canon_group: tech-ai
-canon_type: system-map
-
-origin_architect: Trang Phan
-steward: Trang Phan
-
-created: 2026-08-25
-updated: 2026-08-25
-
-scope:
-  - AMOS_OS
-  - repository_topology
-  - system_planes
-  - authority_boundaries
-  - execution_topology
-  - cross_cutting_substrates
-  - dependency_topology
-
-tags:
-  - amos
-  - amos-os
-  - system-map
-  - architecture
-  - topology
-  - repository-topology
-  - system-planes
-  - plane-map
-  - dependency-map
-  - authority
-  - provenance
-  - canon
-  - kernel
-  - control-plane
-  - runtime
-  - cognition
-  - cognitive-organism
-  - agents
-  - skills
-  - workflows
-  - protocols
-  - memory
-  - knowledge
-  - state
-  - models
-  - tools
-  - interfaces
-  - schemas
-  - observability
-  - security
-  - tests
-  - operations
-  - domains
-  - research
-  - operating-model
-  - archive
-  - cognitive-matrix
-  - rscf
-  - hml
-  - provenance
-  - governance
-  - failure-recovery
-  - canon-group/tech-ai
-  - canon/system-map
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/derived
-  - topic/amos-os
-  - topic/system-map
-  - topic/system-topology
-  - topic/repository-architecture
-
-aliases:
-  - AMOS System Map
-  - AMOS OS System Map
-  - AMOS Plane Map
-  - AMOS Architecture Map
-  - AMOS Repository Map
-
-related:
-  - "[[00_ROOT/README.md|AMOS OS]]"
-  - "[[00_ROOT/MOC.md|MOC]]"
-  - "[[00_ROOT/NEURAL_NETWORK.md|Neural Network]]"
-  - "[[00_ROOT/ARCHITECTURE.md|Architecture]]"
-  - "[[00_ROOT/FULL_TREE.md|Full Tree]]"
-  - "[[00_ROOT/DEPENDENCY_MAP.md|Dependency Map]]"
-  - "[[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]]"
-  - "[[00_ROOT/NAMING_STANDARD.md|Naming Standard]]"
-  - "[[00_ROOT/PLACEMENT_RULES.md|Placement Rules]]"
-  - "[[00_ROOT/ROADMAP.md|Roadmap]]"
+title: "AMOS OS System Map"
+artifact: "SYSTEM_MAP.md"
+origin_architect: "Trang Phan"
+steward: "Trang Phan"
+system: "AMOS OS"
+artifact_class: "SYSTEM_ARCHITECTURE_MAP"
+status: "PROPOSED / STRUCTURALLY_COMPLETE / IMPLEMENTATION-UNVALIDATED"
+epistemic_class: "MODEL"
+version: "1.0.0"
+updated: "2026-08-26"
+canonical_status: "UNKNOWN/GAP"
+runtime_status: "UNKNOWN/GAP"
+validation_status: "UNKNOWN/GAP"
 ---
 
-# AMOS OS System Map
+# AMOS OS — System Map
 
-**Origin architect / steward:** Trang Phan
+## 0. Purpose
 
-> **Status:** `ACTIVE_MAP`  
-> **AMOS_CORE target:** `v4.4`  
-> **Conclusion class:** `AMOS_MODEL`
+`SYSTEM_MAP.md` defines the top-level structural map of AMOS OS.
+
+Its purpose is to establish a common architectural coordinate system for:
+
+- cognitive primitives;
+- lifecycle operations;
+- control planes;
+- H/M/L scale decomposition;
+- agents;
+- Skills;
+- workflows;
+- protocols;
+- authority;
+- policy;
+- capability;
+- provenance;
+- memory;
+- evidence;
+- RSCF;
+- governance;
+- transactions;
+- commit boundaries;
+- observability;
+- validation;
+- repair;
+- revocation;
+- and system evolution.
+
+This artifact answers:
+
+> **What major AMOS OS components exist in the declared architecture, what responsibilities belong to each layer, how may they interact, and where must authority, provenance, validation, and commit boundaries be enforced?**
+
+It is a system architecture map.
+
+It is not evidence that every mapped node currently has an executable implementation.
 
 ---
 
-# 0. Purpose
+# 1. Architectural Status
 
-This document is the root topology map for `AMOS_OS`.
-
-It defines:
+The system map distinguishes five different states:
 
 ```text
-WHAT MAJOR PLANES EXIST
-WHERE RESPONSIBILITIES BELONG
-HOW PLANES RELATE
-WHERE AUTHORITY LIVES
-WHERE EXECUTION LIVES
-WHERE KNOWLEDGE LIVES
-WHERE STATE LIVES
-WHERE EXTERNAL EFFECTS OCCUR
+DEFINED
+IMPLEMENTED
+CONNECTED
+VALIDATED
+GOVERNED_ACTIVE
 ```
 
-It is primarily a **structural map**.
+These states MUST NOT be collapsed.
 
-It does not establish that every mapped component is implemented, integrated, tested, or operational.
-
-Hard boundary:
+Therefore:
 
 ```text
-SYSTEM MAP
-!=
-AUTHORITATIVE IMPLEMENTATION STATE
+DEFINED != IMPLEMENTED
+
+IMPLEMENTED != INTEGRATED
+
+INTEGRATED != VALIDATED
+
+VALIDATED != AUTHORIZED
+
+CAPABILITY != AUTHORITY
+
+POLICY_ALLOW != AUTHORIZATION
+
+AUTHORIZATION != COMMIT
+
+PROPOSAL != COMMIT
+
+UNKNOWN/GAP != PASS
 ```
 
-Use:
+A component may appear in this system map because it is architecturally addressable while still being:
 
 ```text
-[[00_ROOT/FULL_TREE.md]]
+UNKNOWN/GAP
 ```
 
-for expected detailed placement.
-
-Use:
-
-```text
-[[00_ROOT/DEPENDENCY_MAP.md]]
-```
-
-for typed dependency relationships.
-
-Use:
-
-```text
-[[00_ROOT/AUTHORITATIVE_STATE.md]]
-```
-
-for current validated implementation state.
+at implementation or validation level.
 
 ---
 
-# 1. Top-Level Repository Map
+# 2. Origin / Canon Boundary
+
+Origin architect and steward:
 
 ```text
-AMOS_OS/
-│
-├── 00_ROOT
-│
-├── 01_CANON
-├── 02_KERNEL
-├── 03_CONTROL_PLANE
-├── 04_RUNTIME
-├── 05_COGNITIVE_ORGANISM
-├── 06_AGENTS
-├── 07_SKILLS
-├── 08_WORKFLOWS
-├── 09_PROTOCOLS
-├── 10_MEMORY
-├── 11_KNOWLEDGE
-├── 12_STATE
-├── 13_MODELS
-├── 14_TOOLS
-├── 15_INTERFACES
-├── 16_SCHEMAS
-├── 17_OBSERVABILITY
-├── 18_SECURITY
-├── 19_TESTS
-├── 20_OPERATIONS
-├── 21_DOMAINS
-├── 22_RESEARCH
-├── 23_OPERATING_MODEL
-├── 24_ARCHIVE
-└── 25_COGNITIVE_MATRIX
+Trang Phan
+```
+
+Primary AMOS source/canon material remains authoritative according to its own provenance, version, supersession, scope, and admission state.
+
+The governing source boundary is:
+
+```text
+SOURCE_CANON
+    !=
+GENERATED_ARCHITECTURE_MODEL
+    !=
+IMPLEMENTED_RUNTIME
+    !=
+VALIDATED_RUNTIME
+```
+
+This `SYSTEM_MAP.md` is therefore classified:
+
+```yaml
+claim_class: MODEL
+structural_status: COMPLETE_FOR_DECLARED_SCOPE
+implementation_status: UNKNOWN/GAP
+validation_status: UNKNOWN/GAP
+canonical_status: UNKNOWN/GAP
+```
+
+The AMOS canon reference identifies Trang Phan as origin/steward and directs symbolic relations to remain MODEL unless independently validated. 
+
+---
+
+# 3. Top-Level System
+
+AMOS OS is represented structurally as:
+
+```text
+┌───────────────────────────────────────────────────────────┐
+│                         AMOS OS                           │
+├───────────────────────────────────────────────────────────┤
+│  SOURCE / CANON                                          │
+│  KNOWLEDGE / EVIDENCE                                    │
+│  COGNITIVE PRIMITIVES                                    │
+│  LIFECYCLE OPERATIONS                                    │
+│  H/M/L SCALE SYSTEM                                      │
+│  AGENTS                                                  │
+│  SKILLS                                                  │
+│  WORKFLOWS                                               │
+│  PROTOCOLS                                               │
+│  CONTROL PLANES                                          │
+│  AUTHORITY / POLICY / AUTHORIZATION                      │
+│  CAPABILITY                                              │
+│  MEMORY / STATE                                          │
+│  RSCF / CLAIM SYSTEM                                     │
+│  TRANSACTIONS / COMMIT                                   │
+│  PROVENANCE / AUDIT                                      │
+│  OBSERVABILITY                                           │
+│  VALIDATION / TESTING                                    │
+│  REPAIR / RECOVERY                                       │
+│  REVOCATION                                              │
+│  GMEF / EVOLUTION GOVERNANCE                             │
+└───────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-# 2. Root Architectural Spine
+# 4. Primary Architectural Flow
 
-The primary conceptual flow is:
+The high-level governed path is:
 
 ```text
-CANON
-  ↓
-KERNEL
-  ↓
-CONTROL PLANE
-  ↓
-RUNTIME
-  ↓
-COGNITIVE ORGANISM
-  ↓
-AGENTS / SKILLS / WORKFLOWS
-  ↓
-TOOLS / MODELS / DOMAIN ADAPTERS
-  ↓
-EXTERNAL EFFECTS
+SOURCE / OBSERVATION / REQUEST
+              │
+              ▼
+      PERCEPTION / INGESTION
+              │
+              ▼
+       NORMALIZED STATE
+              │
+              ▼
+       COGNITIVE LAYERS
+              │
+              ▼
+       RSCF / EVIDENCE
+              │
+              ▼
+       PLAN / PROPOSAL
+              │
+              ▼
+       CAPABILITY MATCH
+              │
+              ▼
+      AUTHORITY RESOLUTION
+              │
+              ▼
+        POLICY ENGINE
+              │
+              ▼
+       AUTHORIZATION
+              │
+              ▼
+     TRANSACTION / RESERVE
+              │
+              ▼
+   COMMIT-TIME REVALIDATION
+              │
+              ▼
+            COMMIT
+              │
+              ▼
+           EFFECT
+              │
+              ▼
+      OBSERVATION / AUDIT
+              │
+              ▼
+     MEMORY / EVIDENCE UPDATE
+              │
+              ▼
+     REPAIR / LEARNING / GMEF
 ```
 
-This is a responsibility and governance spine.
-
-It is **not** a claim that every runtime operation literally traverses every layer.
-
-The smallest sufficient valid dependency path should be used.
-
----
-
-# 3. Cross-Cutting Substrates
-
-The execution spine is supported by cross-cutting systems:
+Critical law:
 
 ```text
-                    ┌──────────────┐
-                    │    CANON     │
-                    └──────┬───────┘
-                           │
-                    ┌──────▼───────┐
-                    │    KERNEL    │
-                    └──────┬───────┘
-                           │
-                    ┌──────▼──────────┐
-                    │ CONTROL PLANE   │
-                    └──────┬──────────┘
-                           │
-                    ┌──────▼───────┐
-                    │   RUNTIME    │
-                    └──────┬───────┘
-                           │
-               ┌───────────▼────────────┐
-               │ COGNITIVE ORGANISM     │
-               └───────────┬────────────┘
-                           │
-          ┌────────────────┼────────────────┐
-          │                │                │
-      ┌───▼────┐      ┌────▼────┐      ┌────▼──────┐
-      │ AGENTS │      │ SKILLS  │      │ WORKFLOWS │
-      └───┬────┘      └────┬────┘      └────┬──────┘
-          └────────────────┼────────────────┘
-                           │
-                 ┌─────────▼─────────┐
-                 │ TOOLS / MODELS /  │
-                 │ DOMAIN ADAPTERS   │
-                 └─────────┬─────────┘
-                           │
-                    EXTERNAL EFFECTS
-```
-
-Cross-cutting across this topology:
-
-```text
-MEMORY
-KNOWLEDGE
-STATE
-PROVENANCE
-OBSERVABILITY
-SECURITY
-SCHEMAS
-TESTS
-OPERATIONS
-```
-
----
-
-# 4. Plane Classification
-
-AMOS OS planes fall into six broad structural classes.
-
-```text
-A. DEFINITION / CONSTRAINT
-B. GOVERNANCE / EXECUTION
-C. COGNITIVE / CAPABILITY
-D. PERSISTENT SUBSTRATES
-E. SUPPORT / VERIFICATION
-F. DOMAIN / ORGANIZATIONAL / HISTORICAL
-```
-
-Mapping:
-
-| Class                                | Planes                                                                                                    |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------- |
-| Definition / Constraint              | `01_CANON`, `02_KERNEL`                                                                                   |
-| Governance / Execution               | `03_CONTROL_PLANE`, `04_RUNTIME`                                                                          |
-| Cognitive / Capability               | `05_COGNITIVE_ORGANISM`, `06_AGENTS`, `07_SKILLS`, `08_WORKFLOWS`, `09_PROTOCOLS`                         |
-| Persistent Substrates                | `10_MEMORY`, `11_KNOWLEDGE`, `12_STATE`, `13_MODELS`                                                      |
-| Support / Verification               | `14_TOOLS`, `15_INTERFACES`, `16_SCHEMAS`, `17_OBSERVABILITY`, `18_SECURITY`, `19_TESTS`, `20_OPERATIONS` |
-| Domain / Organizational / Historical | `21_DOMAINS`, `22_RESEARCH`, `23_OPERATING_MODEL`, `24_ARCHIVE`, `25_COGNITIVE_MATRIX`                    |
-
-This classification is organizational, not a replacement for typed dependency relationships.
-
----
-
-# 5. `00_ROOT` — Root Coordination Layer
-
-## Role
-
-`00_ROOT` provides repository-level orientation and architectural coordination.
-
-Expected root artifacts include:
-
-```text
-README.md
-MOC.md
-NEURAL_NETWORK.md
-ARCHITECTURE.md
-AUTHORITATIVE_STATE.md
-DEPENDENCY_MAP.md
-FULL_TREE.md
-NAMING_STANDARD.md
-PLACEMENT_RULES.md
-ROADMAP.md
-SYSTEM_MAP.md
-```
-
-## Responsibility
-
-```text
-orientation
-repository navigation
-global architecture
-global placement
-global naming
-system topology
-dependency overview
-roadmap
-authoritative-state pointer
-```
-
-## Boundary
-
-```text
-ROOT DOCUMENTATION
-!=
-CANON
-```
-
-unless a specific artifact is explicitly admitted into canon.
-
----
-
-# 6. `01_CANON` — Canon Plane
-
-## Role
-
-Contains authoritative AMOS definitions and governing source law.
-
-Typical content:
-
-```text
-official definitions
-core laws
-canonical invariants
-accepted architecture definitions
-formal terminology
-governed framework definitions
-```
-
-## Authority relationship
-
-```text
-CANON
-↓ constrains
-KERNEL
-CONTROL PLANE
-RUNTIME
 COGNITION
-AGENTS
-SKILLS
-WORKFLOWS
-```
-
-## Hard boundary
-
-```text
-CANON
-!=
-IMPLEMENTATION
-```
-
-Canon states what is authoritative.
-
-It does not itself execute.
-
----
-
-# 7. `02_KERNEL` — Deterministic Kernel Plane
-
-## Role
-
-Implements deterministic primitives and invariants required by higher layers.
-
-Candidate families include:
-
-```text
-identity
-RSCF
-dependency
-provenance
-validation
-state transition
-contradiction
-scope/regime
-freshness
-hashing
-routing primitives
-```
-
-Conceptually:
-
-```text
-CANON
-↓
-KERNEL
-↓
-DETERMINISTIC CONSTRAINT / OPERATOR
-```
-
-## Boundary
-
-```text
-KERNEL
-!=
-CONTROL_PLANE
-```
-
-The kernel provides primitives.
-
-The control plane decides how governed operations use them.
-
----
-
-# 8. `03_CONTROL_PLANE` — Governance Plane
-
-## Role
-
-Owns governed decision and authority coordination.
-
-Responsibilities may include:
-
-```text
-authority
-policy
-commit governance
-provenance enforcement
-validation gates
-state transition authorization
-coordination
-finalization
-rollback governance
-```
-
-Canonical distinction:
-
-```text
-CAPABILITY
-!=
+does not directly imply
 AUTHORITY
 ```
 
@@ -488,2155 +242,3631 @@ and:
 
 ```text
 PROPOSAL
-!=
-COMMIT
+does not directly imply
+EFFECT
 ```
 
 ---
 
-# 9. `04_RUNTIME` — Execution Plane
+# 5. Major Plane Separation
 
-## Role
-
-Coordinates live execution.
-
-Candidate responsibilities:
+AMOS OS SHOULD distinguish at least:
 
 ```text
-task lifecycle
-scheduler
-router
-execution harness
-session
-step/tick
-runtime state
-mode activation
-worker invocation
-tool invocation coordination
-failure handling
+KNOWLEDGE PLANE
+COGNITIVE PLANE
+EXECUTION PLANE
+CONTROL PLANE
+EVIDENCE PLANE
+GOVERNANCE PLANE
 ```
 
-Conceptual flow:
-
-```text
-REQUEST
-↓
-PARSE
-↓
-SCOPE
-↓
-ROUTE
-↓
-LOAD REQUIRED DEPENDENCIES
-↓
-EXECUTE
-↓
-VALIDATE
-↓
-RETURN / PROPOSE COMMIT
-```
-
-## Boundary
-
-```text
-RUNTIME
-!=
-CONTROL_PLANE
-```
-
-Runtime performs orchestration.
-
-Control plane governs authority and commit semantics.
+These planes may interact but MUST NOT be silently collapsed.
 
 ---
 
-# 10. `05_COGNITIVE_ORGANISM` — Cognitive Integration Plane
+# 6. Knowledge Plane
 
-## Role
+The knowledge plane contains information available for reasoning.
 
-Integrates AMOS cognitive subsystems.
-
-Potential subsystems include:
+Potential components:
 
 ```text
-perception
-attention
-working cognition
-reasoning
-hypothesis field
-uncertainty
-metacognition
-memory interface
-mode interface
-expression
+SOURCE CANON
+
+CORPUS
+
+DOCUMENTS
+
+REPOSITORIES
+
+OBSERVATIONS
+
+EXTERNAL SOURCES
+
+MEMORY
+
+RSCF KNOWLEDGE
+
+PROVENANCE GRAPH
+
+ONTOLOGY
+
+VARIABLE REGISTRY
+
+FRAMEWORK REGISTRY
+
+EVIDENCE CAPSULES
 ```
 
-Conceptually:
+The knowledge plane does not itself authorize action.
 
 ```text
-INPUT
-↓
+KNOWLEDGE
+!=
+AUTHORITY
+```
+
+---
+
+# 7. Cognitive Plane
+
+The cognitive plane transforms available information into structured representations, hypotheses, plans, evaluations, or proposals.
+
+It may contain:
+
+```text
+COGNITIVE PRIMITIVES
+
 PERCEPTION
-↓
+
+OBJECT / ENTITY FORMATION
+
+DISTINCTION
+
+RELATION
+
+CONSTRAINT
+
+PREDICTION
+
+COUNTERFACTUAL
+
+MEMORY RETRIEVAL
+
+CAUSAL REASONING
+
 ATTENTION
-↓
-WORKING FIELD
-↓
-HYPOTHESES
-↓
-REASONING
-↓
+
 METACOGNITION
-↓
-OUTPUT / ACTION PROPOSAL
+
+PLANNING
+
+REPAIR REASONING
 ```
 
-## Epistemic boundary
-
-This is an architectural model.
-
-It does not establish literal biological cognition, subjective consciousness, or embodiment.
-
----
-
-# 11. `06_AGENTS` — Worker Plane
-
-## Role
-
-Contains role-scoped workers.
-
-Examples may include:
+The cognitive plane may produce:
 
 ```text
-EnvironmentScan_Agent
-Executor_Agent
-Investment_Agent
-```
+CLAIM
 
-Agent responsibility:
+HYPOTHESIS
 
-```text
-ROLE
-+
-SCOPE
-+
-CAPABILITY
-+
-INPUT CONTRACT
-+
-OUTPUT CONTRACT
-```
-
-Authority must remain external or explicitly granted.
-
-Hard law:
-
-```text
-AGENT
-!=
-AUTHORITY
-```
-
----
-
-# 12. `07_SKILLS` — Reusable Procedure Plane
-
-## Role
-
-Contains reusable bounded procedures.
-
-A skill should generally define:
-
-```text
-trigger
-goal
-prerequisites
-decision gates
-steps
-verification
-pitfalls
-```
-
-Boundary:
-
-```text
-AGENT
-!=
-SKILL
-```
-
-An agent is a role-oriented worker.
-
-A skill is a reusable procedure.
-
----
-
-# 13. `08_WORKFLOWS` — Orchestration Graph Plane
-
-## Role
-
-Contains multi-step orchestration structures.
-
-Typical topology:
-
-```text
-TRIGGER
-↓
-PRECONDITION
-↓
-STAGE A
-↓
-STAGE B
-↓
-VALIDATION
-↓
-AUTHORITY CHECKPOINT
-↓
-OUTPUT
-```
-
-Boundary:
-
-```text
-SKILL
-!=
-WORKFLOW
-```
-
-A skill is reusable procedure logic.
-
-A workflow coordinates multiple steps or components.
-
----
-
-# 14. `09_PROTOCOLS` — Interaction Contract Plane
-
-## Role
-
-Defines contracts between independently owned components.
-
-Candidate protocol families:
-
-```text
-agent handoff
-tool invocation
-authority request
-commit
-rollback
-state transition
-knowledge promotion
-provenance propagation
-```
-
-Boundary:
-
-```text
-WORKFLOW
-!=
-PROTOCOL
-```
-
-Workflow defines orchestration.
-
-Protocol defines interaction semantics.
-
----
-
-# 15. `10_MEMORY` — Memory Plane
-
-## Role
-
-Stores remembered information used by cognition and runtime.
-
-Candidate classes:
-
-```text
-working memory
-episodic memory
-case memory
-negative memory
-validated long-term memory
-```
-
-Hard boundaries:
-
-```text
-MEMORY
-!=
-CANON
-```
-
-```text
-MEMORY
-!=
-VALIDATED KNOWLEDGE
-```
-
-```text
-REMEMBERED
-!=
-TRUE
-```
-
----
-
-# 16. `11_KNOWLEDGE` — Knowledge Plane
-
-## Role
-
-Stores evidence, claims, RSCFs, framework knowledge, and validated reusable knowledge.
-
-Potential progression:
-
-```text
-SOURCE
-↓
-SOURCE_CLAIM
-↓
-EVIDENCE
-↓
-DERIVED CLAIM
-↓
-VALIDATION
-↓
-VALIDATED KNOWLEDGE
-```
-
-Possible knowledge classes:
-
-```text
-SOURCE_CLAIM
-OBSERVATION
-DERIVED
 MODEL
-DECISION
-UNKNOWN/GAP
+
+PLAN
+
+PROPOSAL
+
+DECISION CANDIDATE
+
+ACTION CANDIDATE
 ```
+
+It MUST NOT self-promote these into authoritative effects.
 
 ---
 
-# 17. `12_STATE` — State Plane
+# 8. Execution Plane
 
-## Role
-
-Stores system state.
-
-State classes may include:
-
-```text
-AUTHORITATIVE
-WORKING
-SHADOW
-PENDING
-RECOVERY
-QUARANTINED
-```
-
-Boundary:
-
-```text
-KNOWLEDGE
-!=
-STATE
-```
-
-Knowledge describes what is believed or established.
-
-State describes the current system condition.
-
----
-
-# 18. `13_MODELS` — Model Plane
-
-## Role
-
-Contains explicit models used by AMOS components.
-
-Potential model classes:
-
-```text
-foundation models
-domain models
-calibration models
-prediction models
-decision-support models
-simulation models
-```
-
-Hard boundary:
-
-```text
-MODEL
-!=
-AUTHORITY
-```
-
-and:
-
-```text
-MODEL OUTPUT
-!=
-OBSERVATION
-```
-
----
-
-# 19. `14_TOOLS` — Tool / Effector Plane
-
-## Role
-
-Contains connectors and external effectors.
+The execution plane contains mechanisms capable of changing runtime or external state.
 
 Examples:
 
 ```text
-filesystem
-database
-API
-browser
-shell
-external services
-device connectors
+TOOLS
+
+APIS
+
+DATABASE OPERATIONS
+
+FILE WRITES
+
+NETWORK REQUESTS
+
+MESSAGING
+
+EXTERNAL DISCLOSURE
+
+FINANCIAL ACTION
+
+DEPLOYMENT
+
+SYSTEM CONFIGURATION
+
+AGENT ACTION
+
+SKILL EXECUTION
+
+WORKFLOW EFFECT
 ```
 
-Critical boundary:
+Execution capability alone does not confer authority.
 
 ```text
-TOOL
+CAN_EXECUTE
 !=
-PERMISSION
+MAY_EXECUTE
 ```
-
-Tool availability establishes capability only.
 
 ---
 
-# 20. `15_INTERFACES` — Interface Plane
+# 9. Control Plane
 
-## Role
+The control plane governs whether a proposed effect may proceed.
 
-Defines system access surfaces.
-
-Potential interfaces:
+Core responsibilities include:
 
 ```text
-USER
-API
-CLI
-MCP
-UI
-AGENT
-SERVICE
-```
+IDENTITY
 
-Conceptual map:
-
-```text
-EXTERNAL ACTOR
-↓
-INTERFACE
-↓
-RUNTIME
-↓
-AMOS SYSTEM
-```
-
-Interfaces should not silently bypass control-plane authority.
-
----
-
-# 21. `16_SCHEMAS` — Typed Schema Plane
-
-## Role
-
-Defines machine-readable object contracts.
-
-Priority schema families:
-
-```text
-AGENT
-RSCF
-STATE
 AUTHORITY
-MODE
-TOOL
-PROTOCOL
-EXECUTION_REQUEST
-EXECUTION_RECEIPT
+
+DELEGATION
+
+REVOCATION
+
+POLICY
+
+AUTHORIZATION
+
+CAPABILITY CONTRACTS
+
+CONSTRAINT ENFORCEMENT
+
+TRANSACTION CONTROL
+
+COMMIT CONTROL
+
 PROVENANCE
+
+FRESHNESS
+
+STATE VERSIONING
+
+OBSERVABILITY
+
+AUDIT
+
+RECOVERY
 ```
 
-Schemas provide structure.
-
-They do not establish truth.
-
-```text
-SCHEMA VALID
-!=
-SEMANTICALLY CORRECT
-```
+The control plane should remain distinct from domain cognition.
 
 ---
 
-# 22. `17_OBSERVABILITY` — Observability Plane
+# 10. Evidence Plane
 
-## Role
+The evidence plane preserves why the system believes something.
 
-Makes runtime behavior inspectable.
-
-Substrates:
+Objects may include:
 
 ```text
-logs
-traces
-metrics
-events
-health
-audit records
-provenance diagnostics
-failure diagnostics
-```
+SOURCE_CLAIM
 
-Boundary:
+OBSERVATION
 
-```text
-OBSERVED
-!=
-CORRECT
-```
+DERIVED CLAIM
 
-Observability provides evidence for validation.
-
----
-
-# 23. `18_SECURITY` — Security Plane
-
-## Role
-
-Protects AMOS identities, capabilities, data, state, tools, and interfaces.
-
-Candidate responsibilities:
-
-```text
-authentication
-authorization
-secrets
-threat model
-input validation
-execution isolation
-tool permissions
-supply-chain integrity
-provenance integrity
-```
-
-Security is cross-cutting.
-
-It does not belong exclusively at the external boundary.
-
----
-
-# 24. `19_TESTS` — Verification Plane
-
-## Role
-
-Contains verification assets.
-
-Testing hierarchy:
-
-```text
-UNIT
-↓
-INTEGRATION
-↓
-REGRESSION
-↓
-PROPERTY
-↓
-ADVERSARIAL
-↓
-FAILURE / RECOVERY
-↓
-RUNTIME VERIFICATION
-```
-
-Hard boundary:
-
-```text
-TEST PASS
-!=
-UNIVERSAL PROOF
-```
-
-Every test result inherits its scope.
-
----
-
-# 25. `20_OPERATIONS` — Operations Plane
-
-## Role
-
-Contains operational lifecycle infrastructure.
-
-Candidate areas:
-
-```text
-deployment
-release
-migration
-runbooks
-incident handling
-backup
-restore
-rollback
-recovery
-health procedures
-```
-
-Operations governs the transition between architecture and sustained execution.
-
----
-
-# 26. `21_DOMAINS` — Domain Adapter Plane
-
-## Role
-
-Contains domain-specific adapters and mappings.
-
-Conceptual topology:
-
-```text
-DOMAIN INPUT
-↓
-DOMAIN ADAPTER
-↓
-AMOS CORE CONTRACT
-↓
-AMOS SYSTEM
-↓
-DOMAIN OUTPUT
-```
-
-Hard rule:
-
-```text
-DOMAIN SPECIALIZATION
-!=
-CORE LAW
-```
-
-Domain-specific assumptions should not silently leak into the universal core.
-
----
-
-# 27. `22_RESEARCH` — Research Plane
-
-## Role
-
-Contains:
-
-```text
-papers
-experiments
-external evidence
-hypotheses
-exploratory models
-benchmarks
-research notes
-```
-
-Boundary:
-
-```text
-RESEARCH
-!=
-CANON
-```
-
-Research may inform canon promotion.
-
-It does not automatically become canon.
-
----
-
-# 28. `23_OPERATING_MODEL` — Human Governance Plane
-
-## Role
-
-Defines organizational stewardship.
-
-Potential areas:
-
-```text
-roles
-decision rights
-review forums
-promotion authority
-incident authority
-canon admission authority
-deprecation authority
-```
-
-Boundary:
-
-```text
-ORGANIZATIONAL AUTHORITY
-!=
-RUNTIME AUTHORITY
-```
-
-The two may interact but should remain explicitly modeled.
-
----
-
-# 29. `24_ARCHIVE` — Historical Plane
-
-## Role
-
-Preserves:
-
-```text
-legacy
-deprecated
-superseded
-historical
-migration artifacts
-```
-
-Archive law:
-
-```text
-ARCHIVE
-!=
-DELETE
-```
-
-Historical provenance should remain reconstructable where required.
-
----
-
-# 30. `25_COGNITIVE_MATRIX` — Cognitive Relationship Plane
-
-## Role
-
-Maps cross-component cognitive relationships.
-
-Examples:
-
-```text
-agent ↔ mode
-mode ↔ memory
-attention ↔ reasoning
-knowledge ↔ cognition
-state ↔ hypothesis
-model ↔ decision
-domain ↔ agent
-```
-
-Boundary:
-
-```text
-RELATION MAP
-!=
-SOURCE OF TRUTH
-```
-
-The matrix references authoritative artifacts rather than duplicating them.
-
----
-
-# 31. Core Authority Flow
-
-Conceptual authority flow:
-
-```text
-CANON
-↓ constrains
-KERNEL
-↓ provides deterministic enforcement primitives
-CONTROL PLANE
-↓ grants / checks authority
-RUNTIME
-↓ invokes
-WORKERS / TOOLS
-↓ may produce
-EXTERNAL EFFECT
-```
-
-Critical firewall:
-
-```text
-CAPABILITY
-!=
-AUTHORITY
-```
-
-No lower plane acquires authority merely because it can perform an operation.
-
----
-
-# 32. Information Flow
-
-Typical information path:
-
-```text
-INTERFACE
-↓
-RUNTIME
-↓
-COGNITIVE ORGANISM
-↓
-AGENT / SKILL / WORKFLOW
-↓
-KNOWLEDGE / MEMORY / MODELS
-↓
-RESULT
-↓
-VALIDATION
-↓
-INTERFACE
-```
-
-Effectful path adds:
-
-```text
-AUTHORITY CHECK
-↓
-COMMIT
-↓
-TOOL
-↓
-EXTERNAL EFFECT
-```
-
----
-
-# 33. Knowledge Flow
-
-```text
-SOURCE
-↓
-RESEARCH / INGEST
-↓
-KNOWLEDGE
-↓
-RSCF / CLAIM STRUCTURE
-↓
-VALIDATION
-↓
-REUSABLE KNOWLEDGE
-```
-
-Potential canon promotion:
-
-```text
-VALIDATED KNOWLEDGE
-↓
-GOVERNANCE
-↓
-CANON CANDIDATE
-↓
-CANON
-```
-
-This is governed promotion, not automatic escalation.
-
----
-
-# 34. State Flow
-
-Conceptual state path:
-
-```text
-AUTHORITATIVE STATE
-↓
-WORKING STATE
-↓
-PROPOSED CHANGE
-↓
-VALIDATION
-↓
-AUTHORITY
-↓
-COMMIT
-↓
-NEW AUTHORITATIVE STATE
-```
-
-Failure branch:
-
-```text
-VALIDATION FAILURE
-or
-COMMIT FAILURE
-↓
-RECOVERY / QUARANTINE / ROLLBACK
-```
-
----
-
-# 35. Provenance Flow
-
-Provenance should travel with consequential information:
-
-```text
-SOURCE
-↓
-CLAIM
-↓
-DERIVATION
-↓
-DECISION
-↓
-ACTION
-↓
-RECEIPT
-```
-
-The desired property is:
-
-```text
-OUTPUT
-→ ancestry
-→ dependencies
-→ source
-```
-
-where required by scope and governance.
-
----
-
-# 36. RSCF Topology
-
-Conceptually:
-
-```text
-CLAIM
-├── PREMISES
-├── EVIDENCE
-├── PROVENANCE
-├── DEPENDENCIES
-├── SCOPE
-├── REGIME
-├── FRESHNESS
-├── COMPETING HYPOTHESES
-├── FALSIFIERS
-└── CONFIDENCE CEILING
-```
-
-RSCFs primarily belong to knowledge/reasoning structures but may be consumed across multiple planes.
-
----
-
-# 37. H/M/L Knowledge Topology
-
-AMOS knowledge retrieval may be organized fractally:
-
-```text
-H — DOMAIN
-↓
-M — SUBSYSTEM
-↓
-L — DETAIL
-↓
-RAW EVIDENCE
-```
-
-Default principle:
-
-```text
-LOAD SMALLEST SUFFICIENT DEPENDENCY PATH
-```
-
-Raw evidence should not be loaded unless required to alter the answer or verify a load-bearing premise.
-
----
-
-# 38. Agent–Skill–Workflow Relationship
-
-```text
-AGENT
-=
-ROLE-BASED WORKER
-
-SKILL
-=
-REUSABLE PROCEDURE
-
-WORKFLOW
-=
-MULTI-STEP ORCHESTRATION
-```
-
-Typical relation:
-
-```text
-AGENT
-↓ invokes
-SKILL
-↓ participates in
-WORKFLOW
-```
-
-But none of these relationships are mandatory in every case.
-
----
-
-# 39. Agent–Tool Relationship
-
-```text
-AGENT
-↓ requests capability
-RUNTIME
-↓ evaluates route
-CONTROL PLANE
-↓ checks authority
-TOOL
-↓ performs effect
-```
-
-Preferred architecture avoids:
-
-```text
-AGENT
-────────────→ TOOL
-```
-
-for consequential actions when that path bypasses authority controls.
-
----
-
-# 40. Model Relationship
-
-Models may support:
-
-```text
-COGNITION
-AGENTS
-SKILLS
-WORKFLOWS
-DOMAIN ADAPTERS
-```
-
-But:
-
-```text
 MODEL
-↓ informs
+
 DECISION
+
+UNKNOWN/GAP
+
+RSCF CAPSULE
+
+PROVENANCE EDGE
+
+FALSIFIER
+
+COMPETING HYPOTHESIS
+
+SCOPE
+
+REGIME
+
+FRESHNESS
+
+CONFIDENCE CEILING
+```
+
+---
+
+# 11. Governance Plane
+
+The governance plane governs changes to the system itself.
+
+It may include:
+
+```text
+CANON ADMISSION
+
+SUPERSESSION
+
+POLICY CHANGE
+
+AUTHORITY CHANGE
+
+CAPABILITY PROMOTION
+
+SKILL PROMOTION
+
+AGENT PROMOTION
+
+SYSTEM EVOLUTION
+
+ROLLBACK
+
+GMEF
+
+SECURITY REVIEW
+
+VALIDATION GATES
+```
+
+---
+
+# 12. Core Architectural Stack
+
+```text
+┌──────────────────────────────────────────────┐
+│ GOVERNANCE                                   │
+├──────────────────────────────────────────────┤
+│ CONTROL PLANE                                │
+├──────────────────────────────────────────────┤
+│ WORKFLOWS / PROTOCOLS                        │
+├──────────────────────────────────────────────┤
+│ AGENTS / SKILLS                              │
+├──────────────────────────────────────────────┤
+│ COGNITIVE PRIMITIVES                         │
+├──────────────────────────────────────────────┤
+│ STATE / MEMORY / RSCF                        │
+├──────────────────────────────────────────────┤
+│ KNOWLEDGE / EVIDENCE / PROVENANCE            │
+├──────────────────────────────────────────────┤
+│ TOOLS / EXECUTION ENVIRONMENT                │
+└──────────────────────────────────────────────┘
+```
+
+This is a responsibility map, not a claim of literal physical layering.
+
+---
+
+# 13. Cognitive Matrix
+
+The cognitive matrix currently reserves architectural surfaces for:
+
+```text
+01_PRIMITIVES
+02_LIFECYCLE_OPERATIONS
+03_CONTROL_PLANES
+04_SCALES
+```
+
+The existence of a package or placeholder means:
+
+```text
+ADDRESSABLE
 ```
 
 not:
 
 ```text
-MODEL
-=
-DECISION AUTHORITY
+IMPLEMENTED
 ```
 
 ---
 
-# 41. Memory Relationship
+# 14. Primitive Layer
 
-Memory may support:
+The primitive layer provides atomic or near-atomic cognitive functions from which larger reasoning processes may be composed.
 
-```text
-RUNTIME
-COGNITION
-AGENTS
-WORKFLOWS
-```
-
-Memory writes should preserve appropriate:
+The declared primitive namespace includes:
 
 ```text
-source
-time
-scope
-provenance
-confidence
-validation state
+L00 ... L29
 ```
 
-when material.
+Exact primitive semantics MUST come from the applicable AMOS source/canon or approved specification.
+
+No primitive definition should be inferred solely from its name when source support is absent.
 
 ---
 
-# 42. Schema Relationship
+# 15. Percept Formation
 
-Schemas type objects crossing system boundaries.
+Example primitive:
+
+```text
+L03_PERCEPT_FORMATION
+```
+
+Conceptually occupies the transition:
+
+```text
+RAW / OBSERVED INPUT
+        ↓
+BOUND / NORMALIZED SIGNAL
+        ↓
+PERCEPT CANDIDATE
+```
+
+Its exact operators, variables, thresholds, and equations remain governed by its own artifact set.
+
+---
+
+# 16. Object / Entity Formation
+
+Example primitive:
+
+```text
+L04_OBJECT_ENTITY_FORMATION
+```
+
+Conceptually occupies:
+
+```text
+PERCEPTS
+   ↓
+DISTINCTIONS
+   ↓
+BOUND FEATURES
+   ↓
+OBJECT / ENTITY CANDIDATE
+```
+
+Entity formation MUST NOT automatically establish real-world existence.
+
+```text
+REPRESENTED_ENTITY
+!=
+VERIFIED_REAL_ENTITY
+```
+
+---
+
+# 17. Lifecycle Operations
+
+Lifecycle operations provide transitions acting upon cognitive or system state.
+
+Namespace:
+
+```text
+O00 ... O16
+```
+
+Possible lifecycle concerns include:
+
+```text
+creation;
+
+activation;
+
+observation;
+
+update;
+
+adaptation;
+
+repair;
+
+suspension;
+
+termination;
+
+archival;
+
+supersession.
+```
+
+Exact mappings require source support.
+
+---
+
+# 18. Control-Plane Namespace
+
+The cognitive matrix reserves:
+
+```text
+C01 ... C09
+```
+
+for control-plane concerns.
+
+Control-plane packages MUST obey the higher-level AMOS authority boundary:
+
+```text
+COGNITIVE OUTPUT
+→ PROPOSAL
+
+CONTROL PLANE
+→ ELIGIBILITY / AUTHORITY DECISION
+
+COMMIT SYSTEM
+→ DURABLE EFFECT
+```
+
+---
+
+# 19. H/M/L Scale Architecture
+
+AMOS uses recursive:
+
+```text
+H
+M
+L
+```
+
+decomposition.
 
 Conceptually:
 
 ```text
-PRODUCER
-↓
-SCHEMA
-↓
-PROTOCOL
-↓
-CONSUMER
+H = governing / higher-order context
+M = subsystem / mechanism / operational context
+L = local / detailed / effect-level context
 ```
 
-This reduces silent semantic drift.
+The interpretation is scope-dependent.
+
+H/M/L MUST NOT automatically be interpreted as:
+
+```text
+importance ranking;
+
+organizational hierarchy;
+
+physical scale;
+
+causal direction;
+
+or authority ranking.
+```
+
+unless the applicable domain contract establishes that mapping.
 
 ---
 
-# 43. Security Relationship
+# 20. H/M/L Recursion
 
-Security overlays:
+Any node may itself be decomposed:
 
 ```text
-INTERFACES
-RUNTIME
-CONTROL PLANE
-AGENTS
-TOOLS
-STATE
-MEMORY
-KNOWLEDGE
-OPERATIONS
+H
+├── M1
+│   ├── L1
+│   ├── L2
+│   └── L3
+├── M2
+│   ├── L1
+│   └── L2
+└── M3
 ```
 
-Security therefore behaves as a cross-cutting enforcement plane.
+A local `L` node may become the `H` context of a deeper decomposition.
+
+Therefore H/M/L is recursive and relative.
 
 ---
 
-# 44. Observability Relationship
+# 21. RSCF Layer
 
-Observability consumes signals from:
+RSCF provides structured claim representation.
 
-```text
-RUNTIME
-CONTROL PLANE
-AGENTS
-TOOLS
-STATE
-SECURITY
-OPERATIONS
-```
+A minimal RSCF object SHOULD preserve:
 
-and produces:
+```yaml
+claim:
+  id: string
+  class:
+    - VERIFIED
+    - DERIVED
+    - MODEL
+    - CONDITIONAL
+    - COMPETING
+    - UNKNOWN/GAP
 
-```text
-logs
-traces
-metrics
-health
-audit evidence
-```
+premises: []
 
----
+evidence: []
 
-# 45. Test Relationship
+provenance: []
 
-Tests validate bounded claims about:
+scope: {}
 
-```text
-KERNEL
-CONTROL PLANE
-RUNTIME
-COGNITION
-AGENTS
-SKILLS
-WORKFLOWS
-PROTOCOLS
-STATE
-MODELS
-TOOLS
-INTERFACES
-SECURITY
-OPERATIONS
-```
+regime: {}
 
-Testing is cross-plane.
+freshness: {}
 
----
+dependencies: []
 
-# 46. Operations Relationship
+competing: []
 
-Operations consumes:
+falsifiers: []
 
-```text
-runtime state
-observability
-security events
-test evidence
-release artifacts
-```
-
-and governs:
-
-```text
-deploy
-migrate
-recover
-rollback
-restore
-incident response
+confidence_ceiling: null
 ```
 
 ---
 
-# 47. Research-to-Canon Firewall
+# 22. RSCF Dependency Rule
 
-Required conceptual boundary:
+Derived confidence MUST NOT exceed the weakest load-bearing premise unless independently revalidated.
 
-```text
-RESEARCH
-↓
-EVIDENCE
-↓
-VALIDATION
-↓
-GOVERNANCE
-↓
-CANON
-```
-
-Forbidden shortcut:
+Conceptually:
 
 ```text
-RESEARCH
-────────→
-CANON
+C(derived)
+≤
+min(
+  C(load-bearing premises)
+)
 ```
 
-without admission governance.
+This is an AMOS governance rule/model, not a universal statistical theorem.
 
 ---
 
-# 48. Archive Relationship
+# 23. Claim Classes
 
-Supersession path:
-
-```text
-ACTIVE ARTIFACT
-↓
-SUPERSEDED
-↓
-MIGRATION
-↓
-ARCHIVE
-```
-
-Archive retains lineage.
-
-Active runtime dependencies should not silently point to deprecated artifacts.
-
----
-
-# 49. Cognitive Matrix Relationship
-
-The cognitive matrix should consume references from:
+Canonical reasoning classes used by this architecture:
 
 ```text
-COGNITIVE ORGANISM
-AGENTS
-MEMORY
-KNOWLEDGE
-MODELS
-DOMAINS
-STATE
-```
+VERIFIED
 
-but not duplicate their canonical definitions.
-
----
-
-# 50. Plane Ownership Matrix
-
-| Plane                   | Primary ownership                   |
-| ----------------------- | ----------------------------------- |
-| `00_ROOT`               | global architecture/navigation      |
-| `01_CANON`              | authoritative definitions           |
-| `02_KERNEL`             | deterministic primitives            |
-| `03_CONTROL_PLANE`      | authority/governance                |
-| `04_RUNTIME`            | execution orchestration             |
-| `05_COGNITIVE_ORGANISM` | cognitive integration               |
-| `06_AGENTS`             | role-based workers                  |
-| `07_SKILLS`             | reusable procedures                 |
-| `08_WORKFLOWS`          | orchestration graphs                |
-| `09_PROTOCOLS`          | interaction contracts               |
-| `10_MEMORY`             | remembered information              |
-| `11_KNOWLEDGE`          | claims/evidence/validated knowledge |
-| `12_STATE`              | system state                        |
-| `13_MODELS`             | model registry                      |
-| `14_TOOLS`              | effectors/connectors                |
-| `15_INTERFACES`         | access surfaces                     |
-| `16_SCHEMAS`            | typed contracts                     |
-| `17_OBSERVABILITY`      | traces/metrics/logs                 |
-| `18_SECURITY`           | protection/enforcement              |
-| `19_TESTS`              | verification                        |
-| `20_OPERATIONS`         | deployment/recovery                 |
-| `21_DOMAINS`            | domain adapters                     |
-| `22_RESEARCH`           | experiments/external evidence       |
-| `23_OPERATING_MODEL`    | human governance                    |
-| `24_ARCHIVE`            | historical lineage                  |
-| `25_COGNITIVE_MATRIX`   | relationship topology               |
-
----
-
-# 51. Critical Separation Laws
-
-```text
-CANON != KERNEL
-
-KERNEL != CONTROL_PLANE
-
-CONTROL_PLANE != RUNTIME
-
-RUNTIME != COGNITION
-
-ORGAN != AGENT
-
-AGENT != SKILL
-
-SKILL != WORKFLOW
-
-WORKFLOW != PROTOCOL
-
-MEMORY != CANON
-
-MEMORY != KNOWLEDGE
-
-KNOWLEDGE != STATE
-
-MODEL != AUTHORITY
-
-TOOL != PERMISSION
-
-CAPABILITY != AUTHORITY
-
-PROPOSAL != COMMIT
-
-RESEARCH != CANON
-
-ARCHIVE != ACTIVE STATE
-
-OBSERVABILITY != VALIDATION
-
-TEST PASS != UNIVERSAL PROOF
-```
-
-These boundaries prevent responsibility collapse.
-
----
-
-# 52. External Effect Boundary
-
-External effects should conceptually occur only after required validation and authority checks.
-
-```text
-INTERNAL PROPOSAL
-↓
-VALIDATION
-↓
-AUTHORITY
-↓
-COMMIT PREPARATION
-↓
-TOOL
-↓
-EXTERNAL EFFECT
-↓
-VERIFICATION
-↓
-RECEIPT
-```
-
-For irreversible or high-impact actions, governance requirements increase.
-
----
-
-# 53. Failure Boundary
-
-Failure should remain typed.
-
-Examples:
-
-```text
-VALIDATION_FAILED
-AUTHORITY_DENIED
-DEPENDENCY_MISSING
-STATE_CONFLICT
-TOOL_FAILED
-EXTERNAL_EFFECT_UNKNOWN
-ROLLBACK_FAILED
-PROVENANCE_INVALID
-SECURITY_BLOCKED
-```
-
-Do not collapse all failures into:
-
-```text
-ERROR
-```
-
-when recovery semantics differ.
-
----
-
-# 54. Recovery Topology
-
-```text
-FAILURE
-↓
-CLASSIFY
-↓
-IDENTIFY AFFECTED DEPENDENCIES
-↓
-PRESERVE UNAFFECTED STATE
-↓
-INVALIDATE DEPENDENTS
-↓
-ROLLBACK / COMPENSATE / QUARANTINE
-↓
-REROUTE
-↓
-REVALIDATE
-```
-
-Primary principle:
-
-```text
-LOCAL REPAIR
->
-GLOBAL RESET
-```
-
-when local repair preserves correctness.
-
----
-
-# 55. v4.4 Fast-Path Relationship
-
-A local execution path may avoid unnecessary broader coordination only when required conditions are established:
-
-```text
-DEPENDENCY CLOSURE
-∧
-PROVENANCE INDEPENDENCE
-∧
-SCOPE COMPATIBILITY
-∧
-REGIME COMPATIBILITY
-∧
-FRESHNESS
-∧
-NON-CONFLICT
-```
-
-Otherwise:
-
-```text
-ESCALATE
-```
-
-Fast path means reduced unnecessary coordination.
-
-It does not mean reduced integrity.
-
----
-
-# 56. Mode-System Placement
-
-Mode architecture may interact with:
-
-```text
-COGNITIVE_ORGANISM
-RUNTIME
-AGENTS
-SKILLS
-WORKFLOWS
-MEMORY
-KNOWLEDGE
-STATE
-```
-
-but mode definitions should be explicitly placed according to their semantic role.
-
-A mode directory existing does not establish an implemented mode.
-
-```text
-MODE FOLDER
-!=
-MODE IMPLEMENTATION
-```
-
----
-
-# 57. Repository Placement Rule
-
-Canonical placement follows semantic ownership.
-
-```text
-SOURCE LAW
-→ 01_CANON
-
-DETERMINISTIC OPERATOR
-→ 02_KERNEL
-
-AUTHORITY / POLICY / COMMIT
-→ 03_CONTROL_PLANE
-
-EXECUTION HARNESS
-→ 04_RUNTIME
-
-COGNITIVE SUBSYSTEM
-→ 05_COGNITIVE_ORGANISM
-
-ROLE WORKER
-→ 06_AGENTS
-
-REUSABLE PROCEDURE
-→ 07_SKILLS
-
-ORCHESTRATION GRAPH
-→ 08_WORKFLOWS
-
-INTERACTION CONTRACT
-→ 09_PROTOCOLS
-
-MEMORY
-→ 10_MEMORY
-
-KNOWLEDGE
-→ 11_KNOWLEDGE
-
-STATE
-→ 12_STATE
+DERIVED
 
 MODEL
-→ 13_MODELS
 
-TOOL
-→ 14_TOOLS
+CONDITIONAL
 
-INTERFACE
-→ 15_INTERFACES
+COMPETING
 
-SCHEMA
-→ 16_SCHEMAS
+UNKNOWN/GAP
+```
 
-OBSERVABILITY
-→ 17_OBSERVABILITY
+The weakest accurate class SHOULD be used.
 
-SECURITY
-→ 18_SECURITY
+---
 
-TEST
-→ 19_TESTS
+# 24. Evidence Topology
 
-OPERATIONS
-→ 20_OPERATIONS
+Evidence SHOULD preserve ancestry.
 
-DOMAIN ADAPTER
-→ 21_DOMAINS
+```text
+SOURCE A
+   ↓
+DERIVATION B
+   ↓
+SUMMARY C
+   ↓
+CLAIM D
+```
 
-RESEARCH
-→ 22_RESEARCH
+B, C, and D are not four independent sources.
 
-ORGANIZATIONAL GOVERNANCE
-→ 23_OPERATING_MODEL
+Therefore:
 
-LEGACY / SUPERSEDED
-→ 24_ARCHIVE
-
-COGNITIVE RELATION MAP
-→ 25_COGNITIVE_MATRIX
+```text
+MULTIPLE ARTIFACTS
+!=
+MULTIPLE INDEPENDENT ORIGINS
 ```
 
 ---
 
-# 58. Dependency Direction
+# 25. Provenance Graph
 
-Preferred dependency direction follows:
+Conceptually:
 
 ```text
-HIGHER-LEVEL CAPABILITY
-↓ depends on
-LOWER-LEVEL CONTRACT / PRIMITIVE
+SOURCE
+  │
+  ├── OBSERVATION
+  │      │
+  │      └── DERIVED CLAIM
+  │              │
+  │              └── DECISION
+  │
+  └── MODEL
+         │
+         └── PROPOSAL
 ```
 
-Examples:
+Every material transformation SHOULD retain its parent edges.
+
+---
+
+# 26. Memory Architecture
+
+Memory SHOULD be treated as typed persisted state rather than an undifferentiated truth store.
+
+Possible classes:
 
 ```text
-AGENT
-→ RUNTIME
-→ CONTROL_PLANE
-→ KERNEL
-→ CANON
+FACTUAL MEMORY
+
+EXPERIENTIAL MEMORY
+
+WORKING MEMORY
+
+PROCEDURAL MEMORY
+
+SYSTEM STATE
+
+RSCF MEMORY
+
+PROVENANCE MEMORY
+
+NEGATIVE MEMORY
+
+QUARANTINED MEMORY
+```
+
+Memory does not automatically equal truth.
+
+```text
+REMEMBERED
+!=
+VERIFIED
+```
+
+---
+
+# 27. Memory Admission
+
+Preferred path:
+
+```text
+CANDIDATE MEMORY
+      ↓
+PROVENANCE CHECK
+      ↓
+SCOPE CHECK
+      ↓
+CONTRADICTION CHECK
+      ↓
+TRUST CLASSIFICATION
+      ↓
+RETENTION CLASS
+      ↓
+ADMIT / QUARANTINE / REJECT
+```
+
+---
+
+# 28. Memory Retrieval
+
+Retrieval SHOULD preserve:
+
+```text
+identity;
+
+source;
+
+time;
+
+scope;
+
+regime;
+
+confidence;
+
+contradictions;
+
+supersession;
+
+and applicability.
+```
+
+Retrieval does not automatically authorize reuse.
+
+---
+
+# 29. Agent Layer
+
+An AMOS agent is an actor capable of performing bounded reasoning and/or actions under an assigned role.
+
+Conceptually:
+
+```yaml
+agent:
+  agent_id: string
+  role: string
+
+  capabilities: []
+  authority: []
+  tools: []
+  skills: []
+
+  constraints: []
+  scope: {}
+  temporal_validity: {}
+
+  provenance: {}
+```
+
+---
+
+# 30. Agent Boundary
+
+Critical law:
+
+```text
+AGENT ROLE
+!=
+AGENT AUTHORITY
 ```
 
 and:
 
 ```text
-WORKFLOW
-→ SKILL / AGENT / PROTOCOL
-```
-
-Cross-cutting dependencies may legitimately break simple directory-number ordering.
-
-Therefore:
-
-```text
-DIRECTORY NUMBER
+AGENT CAPABILITY
 !=
-DEPENDENCY PROOF
+AGENT AUTHORITY
 ```
+
+An agent may technically be able to perform an operation without possessing authority to commit the effect.
 
 ---
 
-# 59. Source-of-Truth Rule
+# 31. Worker / Control Separation
 
-Each semantic concept should have one authoritative home.
-
-Other locations should reference it.
-
-Preferred:
+Preferred architecture:
 
 ```text
-CANONICAL ARTIFACT
-↑
-references
-↑
-MOCs / MAPS / MATRIX / INDEXES
+WORKER
+  ↓
+reason / analyze / propose
+
+CONTROL PLANE
+  ↓
+validate / authorize / constrain
+
+COMMIT SYSTEM
+  ↓
+finalize effect
 ```
 
-Avoid:
-
-```text
-COPY A
-COPY B
-COPY C
-```
-
-silently becoming independent authorities.
+Stochastic cognition SHOULD NOT independently own authoritative finality for consequential state.
 
 ---
 
-# 60. Neural Network Relationship
+# 32. Skills Layer
 
-`NEURAL_NETWORK.md` provides graph connectivity.
+A Skill packages reusable procedural expertise.
 
-`SYSTEM_MAP.md` provides semantic topology.
-
-Therefore:
+A Skill may contain:
 
 ```text
-NEURAL_NETWORK
-=
-NAVIGATION / GRAPH HUB
+instructions;
 
-SYSTEM_MAP
-=
-SYSTEM RESPONSIBILITY MAP
+schemas;
+
+validators;
+
+scripts;
+
+references;
+
+workflows;
+
+tool mappings;
+
+tests;
+
+recovery logic.
 ```
 
-They are related but not interchangeable.
-
----
-
-# 61. Full Tree Relationship
+A Skill does not automatically possess authority.
 
 ```text
-SYSTEM_MAP
-=
-WHAT THE PLANES MEAN
-```
-
-```text
-FULL_TREE
-=
-WHERE EXPECTED ARTIFACTS LIVE
-```
-
-The system map should remain relatively stable even when the detailed tree grows.
-
----
-
-# 62. Dependency Map Relationship
-
-```text
-SYSTEM_MAP
-=
-MACRO TOPOLOGY
-```
-
-```text
-DEPENDENCY_MAP
-=
-TYPED DEPENDENCY EDGES
-```
-
-A system map should not attempt to duplicate every dependency edge.
-
----
-
-# 63. Authoritative State Relationship
-
-```text
-SYSTEM_MAP
-=
-EXPECTED STRUCTURAL MODEL
-```
-
-```text
-AUTHORITATIVE_STATE
-=
-CURRENT VERIFIED IMPLEMENTATION STATE
-```
-
-Therefore:
-
-```text
-MAPPED
+SKILL
 !=
-ACTIVE
+AUTHORITY
 ```
 
 ---
 
-# 64. Roadmap Relationship
-
-```text
-SYSTEM_MAP
-=
-WHERE
-```
-
-```text
-ROADMAP
-=
-WHEN / IN WHAT PROMOTION ORDER
-```
-
-```text
-AUTHORITATIVE_STATE
-=
-WHAT IS CURRENTLY VERIFIED
-```
-
-Together:
-
-```text
-SYSTEM_MAP
-+
-FULL_TREE
-+
-DEPENDENCY_MAP
-+
-ROADMAP
-+
-AUTHORITATIVE_STATE
-```
-
-provide the root architectural control surface.
-
----
-
-# 65. MOC Relationship
-
-Each major plane should have a local MOC or index.
+# 33. Skill Invocation
 
 Conceptually:
 
 ```text
-ROOT MOC
-↓
-PLANE MOC
-↓
-SUBSYSTEM MOC
-↓
-COMPONENT
+TASK
+ ↓
+ROUTER
+ ↓
+SKILL MATCH
+ ↓
+SKILL LOAD
+ ↓
+LOCAL REASONING / EXECUTION
+ ↓
+OUTPUT / PROPOSAL
 ```
 
-This supports fractal navigation.
+If the Skill can cause governed effects:
+
+```text
+OUTPUT
+ ↓
+CONTROL-PLANE VALIDATION
+ ↓
+AUTHORIZATION
+ ↓
+COMMIT
+```
 
 ---
 
-# 66. H/M/L Repository Mapping
+# 34. Skill Composition
 
-A practical repository interpretation:
+Skills may compose:
 
 ```text
-H
-=
-TOP-LEVEL PLANE
-
-M
-=
-SUBSYSTEM / CATEGORY
-
-L
-=
-COMPONENT / DETAIL
+Skill A
+  ↓
+Skill B
+  ↓
+Skill C
 ```
+
+Composition MUST NOT enlarge authority.
+
+```text
+AUTHORITY(A ∘ B)
+≤
+AUTHORIZED COMPOSITION ENVELOPE
+```
+
+No chain of individually allowed operations may reconstruct a prohibited semantic effect.
+
+---
+
+# 35. Workflow Layer
+
+A workflow coordinates ordered or conditional operations.
+
+Conceptually:
+
+```yaml
+workflow:
+  workflow_id: string
+  objective: string
+
+  inputs: []
+  steps: []
+  dependencies: []
+  conditions: []
+
+  authority_requirements: []
+  state_transitions: []
+
+  rollback: {}
+  provenance: {}
+```
+
+---
+
+# 36. Workflow State
+
+Recommended states:
+
+```text
+CREATED
+
+VALIDATING
+
+READY
+
+RUNNING
+
+WAITING
+
+BLOCKED
+
+REVALIDATION_REQUIRED
+
+COMMIT_PENDING
+
+COMMITTED
+
+FAILED
+
+ROLLED_BACK
+
+TERMINATED
+```
+
+---
+
+# 37. Protocol Layer
+
+Protocols define interaction contracts between components.
+
+Examples:
+
+```text
+AGENT ↔ SKILL
+
+SKILL ↔ TOOL
+
+WORKER ↔ CONTROL PLANE
+
+AUTHORITY RESOLVER ↔ AUTHORIZATION ENGINE
+
+POLICY ENGINE ↔ AUTHORIZATION ENGINE
+
+TRANSACTION ↔ COMMIT GUARD
+
+MEMORY ↔ PROVENANCE
+
+RSCF ↔ EVIDENCE STORE
+```
+
+---
+
+# 38. Protocol Requirements
+
+Every consequential protocol SHOULD specify:
+
+```text
+message type;
+
+schema version;
+
+sender identity;
+
+recipient;
+
+operation;
+
+scope;
+
+authority requirements;
+
+state version;
+
+provenance;
+
+timestamp;
+
+response semantics;
+
+failure semantics.
+```
+
+---
+
+# 39. Capability Layer
+
+Capability answers:
+
+> What can this component technically do?
+
+A capability record may contain:
+
+```yaml
+capability:
+  capability_id: string
+  provider: string
+  operations: []
+  input_schema: {}
+  output_schema: {}
+  effects: []
+  constraints: []
+  reversibility: null
+  implementation_state: string
+  validation_state: string
+```
+
+---
+
+# 40. Capability Contract
+
+A capability contract defines the technical behavior and effect envelope of a capability.
+
+It MUST NOT grant authority.
+
+```text
+CAPABILITY CONTRACT
+!=
+AUTHORITY GRANT
+```
+
+---
+
+# 41. Capability Manifest
+
+The capability manifest provides discoverability.
+
+Conceptually:
+
+```text
+COMPONENT
+   ↓
+CAPABILITIES
+   ↓
+OPERATIONS
+   ↓
+EFFECT TYPES
+   ↓
+CONSTRAINTS
+```
+
+Discoverability is not permission.
+
+---
+
+# 42. Authority Layer
+
+Authority answers:
+
+> Who or what may cause which governed effect, over what scope, for what purpose, under what constraints, until when?
+
+Conceptually:
+
+```yaml
+authority:
+  authority_id: string
+  principal: string
+  operations: []
+  resources: []
+  effects: []
+  recipients: []
+  purposes: []
+  constraints: []
+  valid_from: timestamp
+  valid_until: timestamp
+  provenance: {}
+```
+
+---
+
+# 43. Authority Resolution
+
+Authority resolution should determine current effective authority from:
+
+```text
+principal identity;
+
+root authority;
+
+delegations;
+
+attenuation;
+
+revocations;
+
+scope;
+
+purpose;
+
+recipient;
+
+resource;
+
+operation;
+
+effect;
+
+time;
+
+regime;
+
+constraints.
+```
+
+---
+
+# 44. Authority Witness
+
+An authority witness is a bounded proof/evidence object describing the authority state used for a decision.
+
+Conceptually:
+
+```yaml
+authority_witness:
+  witness_id: string
+  principal_id: string
+
+  authority_path: []
+  authority_scope: {}
+
+  dependencies: []
+  state_versions: []
+
+  generated_at: timestamp
+  valid_until: null
+
+  provenance: {}
+```
+
+---
+
+# 45. Delegation
+
+Delegation transfers or attenuates authority according to explicit rules.
+
+Core law:
+
+```text
+CHILD_AUTHORITY
+⊆
+PARENT_DELEGABLE_AUTHORITY
+```
+
+Delegation MUST NOT create authority from nothing.
+
+---
+
+# 46. Delegation Graph
+
+```text
+ROOT AUTHORITY
+      ↓
+DELEGATION A
+      ↓
+PRINCIPAL B
+      ↓
+DELEGATION B
+      ↓
+PRINCIPAL C
+```
+
+Each edge SHOULD preserve:
+
+```text
+issuer;
+
+recipient;
+
+scope;
+
+attenuation;
+
+time;
+
+purpose;
+
+constraints;
+
+provenance.
+```
+
+---
+
+# 47. Revocation
+
+Revocation invalidates or narrows authority.
+
+Conceptually:
+
+```text
+AUTHORITY
+   ↓
+REVOCATION
+   ↓
+DEPENDENCY ANALYSIS
+   ↓
+WITNESS INVALIDATION
+   ↓
+AUTHORIZATION INVALIDATION
+   ↓
+TRANSACTION REVALIDATION
+```
+
+Revocation MUST NOT be reduced to deletion.
+
+---
+
+# 48. Policy Layer
+
+Policy answers:
+
+> Under current rules, is this proposed action permitted, denied, constrained, escalated, or unresolved?
+
+Policy does not itself establish underlying authority.
+
+```text
+POLICY_ALLOW
+!=
+AUTHORITY
+```
+
+---
+
+# 49. Policy Registry
+
+The policy registry SHOULD preserve:
+
+```text
+policy_id;
+
+version;
+
+status;
+
+scope;
+
+priority;
+
+conditions;
+
+effects;
+
+issuer;
+
+authority;
+
+effective time;
+
+supersession;
+
+provenance.
+```
+
+---
+
+# 50. Policy Engine
+
+Conceptually:
+
+```text
+ACTION REQUEST
+      ↓
+NORMALIZATION
+      ↓
+APPLICABLE POLICY LOOKUP
+      ↓
+SCOPE / REGIME FILTER
+      ↓
+PRECEDENCE RESOLUTION
+      ↓
+CONDITION EVALUATION
+      ↓
+POLICY DECISION
+```
+
+Possible outcomes:
+
+```text
+ALLOW
+
+DENY
+
+ALLOW_WITH_CONSTRAINTS
+
+ESCALATE
+
+REVALIDATE
+
+BLOCK_CONFLICT
+
+UNKNOWN_GAP
+```
+
+---
+
+# 51. Authorization
+
+Authorization combines relevant authority and policy conditions for a specific requested action.
+
+Conceptually:
+
+```text
+Authorization
+=
+CurrentAuthority
+∩
+ApplicablePolicy
+∩
+CapabilityEligibility
+∩
+CurrentConstraints
+∩
+TransactionConditions
+```
+
+This is an AMOS MODEL representation, not a universal mathematical identity.
+
+---
+
+# 52. Authorization Decision
+
+```yaml
+authorization_decision:
+  decision_id: string
+
+  principal: string
+  action: {}
+  resource: {}
+  effect: {}
+
+  authority_witness: string
+  policy_decisions: []
+
+  result:
+    - ALLOW
+    - DENY
+    - ALLOW_WITH_CONSTRAINTS
+    - REVALIDATE
+    - BLOCK_CONFLICT
+    - UNKNOWN_GAP
+
+  evaluated_at: timestamp
+  provenance: {}
+```
+
+---
+
+# 53. Proposal Boundary
+
+A cognitive or agent output becomes:
+
+```text
+PROPOSAL
+```
+
+before it becomes:
+
+```text
+AUTHORIZED ACTION
+```
+
+Preferred path:
+
+```text
+COGNITION
+ ↓
+PROPOSAL
+ ↓
+VALIDATION
+ ↓
+AUTHORIZATION
+ ↓
+RESERVATION
+ ↓
+COMMIT
+```
+
+---
+
+# 54. Transaction Layer
+
+Transactions protect state changes from stale authority, partial updates, and race conditions.
+
+Possible states:
+
+```text
+PROPOSED
+
+VALIDATED
+
+AUTHORIZED
+
+RESERVED
+
+PREPARED
+
+COMMIT_PENDING
+
+COMMITTED
+
+ABORTED
+
+ROLLED_BACK
+
+RECONCILIATION_REQUIRED
+```
+
+---
+
+# 55. Commit Boundary
+
+The commit boundary is where a proposal becomes authoritative durable state or an external governed effect.
+
+Critical law:
+
+```text
+PRE-COMMIT STATE
+!=
+COMMITTED STATE
+```
+
+---
+
+# 56. Commit-Time Revalidation
+
+Before consequential commit, the control plane SHOULD revalidate load-bearing mutable state.
+
+Potential read set:
+
+```text
+authority;
+
+delegation;
+
+revocation;
+
+policy;
+
+capability;
+
+constraints;
+
+resource version;
+
+recipient;
+
+transaction state;
+
+reservation;
+
+budget;
+
+provenance.
+```
+
+---
+
+# 57. MVCC / CAS Pattern
+
+Where mutable state can change between check and commit:
+
+```text
+READ VERSION V1
+
+VALIDATE AGAINST V1
+
+STATE CHANGES TO V2
+
+COMMIT REQUIRES V1
+```
+
+Result:
+
+```text
+VERSION CONFLICT
+→ REVALIDATE
+```
+
+This represents the AMOS concurrency-control pattern; it does not assert a specific implementation.
+
+---
+
+# 58. Atomicity
+
+Related authoritative updates SHOULD commit atomically where partial persistence would create invalid system state.
 
 Example:
 
 ```text
-06_AGENTS
-↓
-MONEY_SYSTEM
-↓
-Investment_Agent
+AUTHORITY UPDATE
++
+REVOCATION UPDATE
++
+WITNESS INVALIDATION
++
+TRANSACTION STATE
 ```
 
-This is a navigation model and should not be treated as a universal semantic identity rule.
+may require one governed transaction boundary.
 
 ---
 
-# 67. Structural Invariants
+# 59. Provenance Layer
+
+Provenance answers:
 
 ```text
-SM01 EACH TOP-LEVEL PLANE HAS ONE PRIMARY ROLE
+where did this come from?
 
-SM02 CANON DOES NOT EXECUTE
+who created it?
 
-SM03 KERNEL DOES NOT OWN POLICY AUTHORITY
+what transformed it?
 
-SM04 CONTROL PLANE DOES NOT REPLACE RUNTIME
+which version was used?
 
-SM05 RUNTIME DOES NOT BECOME CANON
+what dependencies were load-bearing?
 
-SM06 COGNITION DOES NOT IMPLY AUTHORITY
+what evidence supported it?
 
-SM07 AGENTS DO NOT SELF-GRANT AUTHORITY
-
-SM08 SKILLS DO NOT BECOME AGENTS BY CONTAINING LOGIC
-
-SM09 WORKFLOWS DO NOT REPLACE PROTOCOLS
-
-SM10 MEMORY DOES NOT BECOME CANON BY PERSISTENCE
-
-SM11 KNOWLEDGE DOES NOT BECOME STATE
-
-SM12 MODEL OUTPUT DOES NOT BECOME OBSERVATION
-
-SM13 TOOL AVAILABILITY DOES NOT IMPLY PERMISSION
-
-SM14 SCHEMA VALIDITY DOES NOT PROVE SEMANTIC VALIDITY
-
-SM15 OBSERVABILITY DOES NOT PROVE CORRECTNESS
-
-SM16 TEST SUCCESS IS SCOPE-BOUND
-
-SM17 RESEARCH DOES NOT AUTO-PROMOTE TO CANON
-
-SM18 ARCHIVE PRESERVES LINEAGE
-
-SM19 COGNITIVE MATRIX DOES NOT DUPLICATE AUTHORITY
-
-SM20 SYSTEM MAP DOES NOT CLAIM IMPLEMENTATION COMPLETENESS
+what superseded it?
 ```
 
 ---
 
-# 68. Failure Registry
+# 60. Provenance Record
 
-```text
-SM-F001 PLANE_RESPONSIBILITY_COLLISION
-SM-F002 DUPLICATE_SOURCE_OF_TRUTH
-SM-F003 CANON_IMPLEMENTATION_COLLAPSE
-SM-F004 KERNEL_POLICY_COLLAPSE
-SM-F005 CONTROL_RUNTIME_COLLAPSE
-SM-F006 RUNTIME_COGNITION_COLLAPSE
-SM-F007 AGENT_AUTHORITY_LEAK
-SM-F008 SKILL_WORKFLOW_COLLAPSE
-SM-F009 MEMORY_CANON_COLLAPSE
-SM-F010 MEMORY_KNOWLEDGE_COLLAPSE
-SM-F011 KNOWLEDGE_STATE_COLLAPSE
-SM-F012 MODEL_OBSERVATION_COLLAPSE
-SM-F013 TOOL_PERMISSION_COLLAPSE
-SM-F014 RESEARCH_CANON_LEAK
-SM-F015 ARCHIVE_ACTIVE_DEPENDENCY
-SM-F016 MATRIX_AUTHORITY_DUPLICATION
-SM-F017 BROKEN_CROSS_PLANE_REFERENCE
-SM-F018 UNKNOWN_PLACEMENT
-SM-F019 SYSTEM_MAP_STATE_OVERCLAIM
-SM-F020 UNGOVERNED_EXTERNAL_EFFECT
+```yaml
+provenance:
+  object_id: string
+  object_version: string
+
+  origin: []
+  parents: []
+  transformations: []
+
+  created_at: timestamp
+  created_by: string
+
+  source_hashes: []
+  environment: {}
+
+  supersedes: []
+  superseded_by: []
 ```
 
 ---
 
-# 69. Map Integrity Checks
+# 61. Provenance Independence
 
-A repository audit should eventually verify:
+Independence MUST be demonstrated, not assumed.
 
 ```text
-all top-level planes exist
-all planes have an index/MOC
-all planes have declared ownership
-all major artifacts have canonical placement
-cross-plane references resolve
-no duplicate authoritative definitions
-no active dependencies point only to archive
-authority paths are explicit
-external-effect paths are governed
-unknown placement is surfaced
+SOURCE A
+ ↓
+ARTICLE B
+ ↓
+SUMMARY C
+```
+
+B and C cannot independently confirm A.
+
+---
+
+# 62. Sybil-Hardening Boundary
+
+Evidence aggregation SHOULD resolve semantic and provenance ancestry before counting independent support.
+
+Therefore:
+
+```text
+10 PARAPHRASES
+OF
+1 SOURCE
+```
+
+remain approximately one provenance origin for independence analysis.
+
+---
+
+# 63. Observability
+
+The observability layer records system behavior needed for:
+
+```text
+monitoring;
+
+anomaly detection;
+
+audit;
+
+incident reconstruction;
+
+performance analysis;
+
+validation;
+
+repair;
+
+replay.
+```
+
+Observability MUST respect information-access boundaries.
+
+---
+
+# 64. Observability Envelope
+
+Potential observables:
+
+```text
+request ID;
+
+agent ID;
+
+Skill ID;
+
+workflow ID;
+
+tool call;
+
+policy decision;
+
+authority witness;
+
+authorization result;
+
+transaction ID;
+
+state versions;
+
+commit result;
+
+latency;
+
+error;
+
+provenance references.
 ```
 
 ---
 
-# 70. Current Evidence Boundary
+# 65. Audit Layer
 
-This map defines the intended AMOS OS topology.
-
-It does **not** by itself establish:
+Audit reconstructs:
 
 ```text
-every directory exists
-every directory is populated
-every placeholder is filled
-every registry is active
-every component is implemented
-every component is integrated
-every test passes
-every authority path exists
-every recovery path works
-every runtime subsystem is operational
+WHAT happened
+
+WHO initiated it
+
+WHAT authority existed
+
+WHICH policy applied
+
+WHICH evidence was used
+
+WHICH state versions were read
+
+WHAT was committed
+
+WHEN it happened
+
+WHAT changed afterward
 ```
 
-Those remain audit questions.
+---
 
-Conclusion:
+# 66. Validation Layer
+
+Validation may include:
 
 ```text
-SYSTEM TOPOLOGY
+schema validation;
+
+invariant validation;
+
+unit tests;
+
+integration tests;
+
+property tests;
+
+adversarial tests;
+
+replay tests;
+
+regression tests;
+
+security tests;
+
+benchmarking;
+
+formal verification where applicable.
+```
+
+Passing one validation class does not imply all others.
+
+---
+
+# 67. Test Evidence Boundary
+
+```text
+TEST SPECIFIED
+!=
+TEST EXECUTED
+
+TEST EXECUTED
+!=
+TEST PASSED
+
+TEST PASSED
+!=
+SYSTEM VALIDATED
+
+BENCHMARK PASSED
+!=
+UNIVERSAL CORRECTNESS
+
+FORMAL PROPERTY PROVED
+!=
+ALL SYSTEM PROPERTIES PROVED
+```
+
+---
+
+# 68. Repair Layer
+
+Repair restores valid operation after detected failure.
+
+Preferred pattern:
+
+```text
+DETECT FAILURE
+      ↓
+IDENTIFY FAILED PREMISE / EDGE
+      ↓
+IDENTIFY DEPENDENTS
+      ↓
+QUARANTINE AFFECTED STATE
+      ↓
+PRESERVE UNAFFECTED STATE
+      ↓
+REPAIR MINIMAL TARGET
+      ↓
+REVALIDATE
+      ↓
+RESTORE
+```
+
+---
+
+# 69. Selective Repair
+
+Core law:
+
+```text
+FAILED PREMISE
+→ INVALIDATE DEPENDENTS
+```
+
+not:
+
+```text
+FAILED PREMISE
+→ DELETE ENTIRE SYSTEM STATE
+```
+
+Global recomputation is a last resort.
+
+---
+
+# 70. Rollback
+
+Rollback returns mutable system state to a previously valid state where feasible.
+
+Rollback MUST preserve:
+
+```text
+history;
+
+reason;
+
+target version;
+
+affected objects;
+
+provenance;
+
+and subsequent revalidation requirements.
+```
+
+---
+
+# 71. Recovery
+
+Recovery differs from rollback.
+
+```text
+ROLLBACK
 =
-DEFINED
+return toward earlier state
 
-IMPLEMENTATION COMPLETENESS
+RECOVERY
 =
+restore valid operation
+```
+
+Recovery may require forward repair rather than reverting.
+
+---
+
+# 72. Failure Containment
+
+Potential containment states:
+
+```text
+BLOCKED
+
+SUSPENDED
+
+QUARANTINED
+
+READ_ONLY
+
+REVALIDATION_REQUIRED
+
+DEGRADED
+
+UNKNOWN_GAP
+```
+
+Containment should be proportional to proven dependency impact.
+
+---
+
+# 73. GMEF / Governed Evolution
+
+Changes to AMOS itself should pass governed evolution.
+
+Conceptually:
+
+```text
+CHANGE PROPOSAL
+      ↓
+CLASSIFY CHANGE
+      ↓
+DEPENDENCY ANALYSIS
+      ↓
+INVARIANT ANALYSIS
+      ↓
+AUTHORITY CHECK
+      ↓
+VALIDATION PLAN
+      ↓
+SANDBOX
+      ↓
+TEST
+      ↓
+REVIEW
+      ↓
+PROMOTE / REJECT
+      ↓
+ROLLBACK CAPABILITY
+```
+
+---
+
+# 74. Evolution Boundary
+
+Self-modification capability does not confer authority to modify the system.
+
+```text
+CAN_CHANGE_SYSTEM
+!=
+MAY_CHANGE_SYSTEM
+```
+
+---
+
+# 75. Canon Admission
+
+New material SHOULD NOT become canon merely because it:
+
+```text
+exists;
+
+is coherent;
+
+was generated;
+
+passes syntax validation;
+
+is implemented;
+
+or appears useful.
+```
+
+Canon admission requires the applicable provenance and governance process.
+
+---
+
+# 76. Supersession
+
+Supersession SHOULD preserve lineage:
+
+```text
+VERSION A
+   ↓ superseded by
+VERSION B
+```
+
+Never:
+
+```text
+VERSION B
+silently overwrites
+VERSION A
+```
+
+where historical reconstruction matters.
+
+---
+
+# 77. Dependency Graph
+
+Conceptually:
+
+```text
+CANON
+  ↓
+DEFINITIONS
+  ↓
+VARIABLES
+  ↓
+OPERATORS
+  ↓
+INVARIANTS
+  ↓
+SKILLS / AGENTS
+  ↓
+WORKFLOWS
+  ↓
+CONTROL PLANE
+  ↓
+AUTHORIZATION
+  ↓
+TRANSACTION
+  ↓
+COMMIT
+```
+
+Actual dependency edges must be explicitly recorded rather than inferred solely from this diagram.
+
+---
+
+# 78. System Graph Node Types
+
+Recommended node classes:
+
+```text
+CANON
+
+SOURCE
+
+CLAIM
+
+EVIDENCE
+
+VARIABLE
+
+OPERATOR
+
+INVARIANT
+
+PRIMITIVE
+
+AGENT
+
+SKILL
+
+WORKFLOW
+
+PROTOCOL
+
+CAPABILITY
+
+POLICY
+
+AUTHORITY
+
+DELEGATION
+
+REVOCATION
+
+WITNESS
+
+TRANSACTION
+
+COMMIT
+
+MEMORY
+
+TEST
+
+VALIDATOR
+
+REPAIR
+
+GOVERNANCE_CHANGE
+```
+
+---
+
+# 79. System Graph Edge Types
+
+Recommended edge classes:
+
+```text
+DEPENDS_ON
+
+DERIVED_FROM
+
+IMPLEMENTS
+
+VALIDATES
+
+AUTHORIZES
+
+DELEGATES_TO
+
+REVOKES
+
+CONSTRAINS
+
+CALLS
+
+READS
+
+WRITES
+
+PRODUCES
+
+CONSUMES
+
+SUPERSEDES
+
+INVALIDATES
+
+REPAIRS
+
+OBSERVES
+
+COMMITS
+
+ROLLS_BACK
+```
+
+---
+
+# 80. Typed System Map
+
+```yaml
+system_map:
+  system_id: "AMOS_OS"
+
+  planes:
+    knowledge: {}
+    cognition: {}
+    execution: {}
+    control: {}
+    evidence: {}
+    governance: {}
+
+  components: []
+
+  dependencies: []
+
+  authority_edges: []
+
+  dataflows: []
+
+  workflows: []
+
+  protocols: []
+
+  validation_edges: []
+
+  provenance_edges: []
+
+  repair_edges: []
+
+  unresolved_gaps: []
+```
+
+---
+
+# 81. Control-Plane Map
+
+The control plane should structurally contain or interface with:
+
+```text
+IDENTITY RESOLUTION
+
+CAPABILITY REGISTRY
+
+CAPABILITY CONTRACT
+
+AUTHORITY RESOLVER
+
+AUTHORITY WITNESS
+
+DELEGATION
+
+REVOCATION
+
+POLICY REGISTRY
+
+POLICY ENGINE
+
+AUTHORIZATION ENGINE
+
+CONSTRAINT ENGINE
+
+TRANSACTION MANAGER
+
+COMMIT GUARD
+
+PROVENANCE
+
+AUDIT
+
+OBSERVABILITY
+
+RECOVERY
+```
+
+---
+
+# 82. Governed Action Path
+
+```text
+USER / SYSTEM INTENT
+        ↓
+NORMALIZE REQUEST
+        ↓
+IDENTIFY PRINCIPAL
+        ↓
+RESOLVE CAPABILITY
+        ↓
+RESOLVE AUTHORITY
+        ↓
+CHECK REVOCATION
+        ↓
+LOAD POLICIES
+        ↓
+EVALUATE CONSTRAINTS
+        ↓
+AUTHORIZE
+        ↓
+CREATE TRANSACTION
+        ↓
+RESERVE EFFECT
+        ↓
+REVALIDATE MUTABLE READS
+        ↓
+COMMIT
+        ↓
+RECORD PROVENANCE
+        ↓
+OBSERVE RESULT
+```
+
+---
+
+# 83. Cognitive Action Path
+
+```text
+INPUT
+ ↓
+PERCEPTION
+ ↓
+ENTITY / OBJECT FORMATION
+ ↓
+RELATION / CONTEXT
+ ↓
+MEMORY RETRIEVAL
+ ↓
+HYPOTHESIS
+ ↓
+COMPETING HYPOTHESES
+ ↓
+CAUSAL / COUNTERFACTUAL ANALYSIS
+ ↓
+PREDICTION
+ ↓
+PLAN
+ ↓
+PROPOSAL
+```
+
+At that boundary cognition stops owning finality.
+
+---
+
+# 84. Knowledge Harvest Path
+
+```text
+EPHEMERAL SOURCE
+      ↓
+CAPTURE
+      ↓
+PROVENANCE
+      ↓
+PARSE
+      ↓
+CLAIM EXTRACTION
+      ↓
+CONTRADICTION CHECK
+      ↓
+RSCF
+      ↓
+VALIDATION
+      ↓
+PERSISTENT EVIDENCE
+      ↓
+VALIDATED KNOWLEDGE
+```
+
+Never:
+
+```text
+SOURCE INGESTED
+=
+KNOWLEDGE VALIDATED
+```
+
+---
+
+# 85. Memory Path
+
+```text
+EVENT / RESULT
+      ↓
+MEMORY CANDIDATE
+      ↓
+PROVENANCE BINDING
+      ↓
+ADMISSION CONTROL
+      ↓
+RETENTION CLASS
+      ↓
+MEMORY STORE
+      ↓
+RETRIEVAL
+      ↓
+APPLICABILITY CHECK
+      ↓
+REUSE
+```
+
+---
+
+# 86. Revocation Path
+
+```text
+REVOCATION REQUEST
+      ↓
+REVOCATION AUTHORITY
+      ↓
+TARGET RESOLUTION
+      ↓
+DEPENDENCY CLOSURE
+      ↓
+REVOCATION COMMIT
+      ↓
+AUTHORITY INVALIDATION
+      ↓
+WITNESS INVALIDATION
+      ↓
+AUTHORIZATION INVALIDATION
+      ↓
+TRANSACTION REVALIDATION
+```
+
+---
+
+# 87. Repair Path
+
+```text
+ANOMALY
+ ↓
+DIAGNOSIS
+ ↓
+ROOT / CAUSAL TARGET
+ ↓
+DEPENDENCY CUT
+ ↓
+CONTAINMENT
+ ↓
+REPAIR PROPOSAL
+ ↓
+VALIDATION
+ ↓
+AUTHORIZED REPAIR
+ ↓
+COMMIT
+ ↓
+REGRESSION CHECK
+ ↓
+RESTORE
+```
+
+---
+
+# 88. Counterfactual Path
+
+```text
+OBSERVED STATE
+      ↓
+SELECT INTERVENTION VARIABLE
+      ↓
+FREEZE RELEVANT CONDITIONS
+      ↓
+GENERATE ALTERNATIVE STATE
+      ↓
+PROPAGATE CONSEQUENCES
+      ↓
+COMPARE OUTCOMES
+      ↓
+CLASSIFY:
+CAUSAL / CONDITIONAL / SPECULATIVE
+```
+
+Counterfactual coherence alone does not prove causal truth.
+
+---
+
+# 89. Prediction Path
+
+```text
+HISTORICAL EVIDENCE
+      ↓
+REGIME CHECK
+      ↓
+MODEL
+      ↓
+PREDICTIVE DISTRIBUTION
+      ↓
+CALIBRATION
+      ↓
+UNCERTAINTY
+      ↓
+DECISION THRESHOLD
+      ↓
+POST-OUTCOME SCORING
+```
+
+Prediction MUST remain separate from retrospective explanation.
+
+---
+
+# 90. System Invariants
+
+## INV-SYS-001 — Origin Integrity
+
+Origin/stewardship metadata MUST not be silently reassigned.
+
+## INV-SYS-002 — Canon Separation
+
+Generated architecture MUST not be represented as recovered canon without source support.
+
+## INV-SYS-003 — Implementation Separation
+
+Defined architecture MUST not be represented as implemented runtime.
+
+## INV-SYS-004 — Validation Separation
+
+Implementation MUST not be represented as validated merely because it executes.
+
+## INV-SYS-005 — Capability Separation
+
+Capability MUST remain separate from authority.
+
+## INV-SYS-006 — Proposal Separation
+
+Proposal MUST remain separate from commit.
+
+## INV-SYS-007 — Evidence Lineage
+
+Material claims SHOULD preserve provenance.
+
+## INV-SYS-008 — Dependency Visibility
+
+Load-bearing dependencies MUST remain identifiable.
+
+## INV-SYS-009 — Unknown Preservation
+
+UNKNOWN/GAP MUST remain visible.
+
+## INV-SYS-010 — Selective Invalidation
+
+A failed dependency SHOULD invalidate dependent state, not unrelated state.
+
+---
+
+# 91. System Invariants — Continued
+
+## INV-SYS-011
+
+Independent evidence MUST not be inferred from repetition.
+
+## INV-SYS-012
+
+Structural similarity MUST not establish causality.
+
+## INV-SYS-013
+
+Scope MUST propagate with claims.
+
+## INV-SYS-014
+
+Regime validity MUST propagate with claims.
+
+## INV-SYS-015
+
+Freshness MUST propagate where temporal validity matters.
+
+## INV-SYS-016
+
+Authority MUST be current at consequential commit where mutable authority exists.
+
+## INV-SYS-017
+
+Revocation MUST invalidate stale dependent authority.
+
+## INV-SYS-018
+
+Skill composition MUST not enlarge authority.
+
+## INV-SYS-019
+
+Agent creation MUST not manufacture authority.
+
+## INV-SYS-020
+
+Memory MUST not silently become fact.
+
+---
+
+# 92. System Invariants — State / Transactions
+
+## INV-SYS-021
+
+Mutable load-bearing state SHOULD be versioned.
+
+## INV-SYS-022
+
+Stale reads MUST trigger revalidation where they can alter commit validity.
+
+## INV-SYS-023
+
+Atomic multi-object effects SHOULD not expose partial authoritative state.
+
+## INV-SYS-024
+
+Committed history SHOULD remain reconstructable.
+
+## INV-SYS-025
+
+Rollback SHOULD preserve provenance.
+
+## INV-SYS-026
+
+Repair SHOULD preserve unaffected valid state.
+
+## INV-SYS-027
+
+External irreversible effects MUST be distinguished from internal state rollback.
+
+## INV-SYS-028
+
+Compensating actions require their own authority.
+
+## INV-SYS-029
+
+Authorization decisions SHOULD bind to their load-bearing state.
+
+## INV-SYS-030
+
+Commit-time state dominates stale pre-commit assumptions.
+
+---
+
+# 93. System Invariants — Governance
+
+## INV-SYS-031
+
+System evolution requires governance appropriate to impact.
+
+## INV-SYS-032
+
+Optimization MUST NOT weaken integrity invariants.
+
+## INV-SYS-033
+
+Canonical supersession MUST preserve lineage.
+
+## INV-SYS-034
+
+Policy mutation MUST be provenance-bound.
+
+## INV-SYS-035
+
+Authority mutation MUST be provenance-bound.
+
+## INV-SYS-036
+
+High-impact irreversible actions require stronger validation.
+
+## INV-SYS-037
+
+Governance authority MUST remain distinct from technical capability.
+
+## INV-SYS-038
+
+Unknown governance state MUST NOT be treated as approval.
+
+## INV-SYS-039
+
+Conflicting authority MUST fail closed where consequence warrants.
+
+## INV-SYS-040
+
+System completion claims MUST be scoped.
+
+---
+
+# 94. Failure Modes
+
+```text
+FM-SYS-001 canon/model conflation
+
+FM-SYS-002 placeholder treated as implementation
+
+FM-SYS-003 implementation treated as validation
+
+FM-SYS-004 capability treated as authority
+
+FM-SYS-005 policy allow treated as authority
+
+FM-SYS-006 authorization treated as permanent authority
+
+FM-SYS-007 proposal treated as commit
+
+FM-SYS-008 stale authority used at commit
+
+FM-SYS-009 revoked authority reused
+
+FM-SYS-010 provenance lost
+
+FM-SYS-011 correlated sources counted independent
+
+FM-SYS-012 scope lost
+
+FM-SYS-013 regime lost
+
+FM-SYS-014 stale evidence reused
+
+FM-SYS-015 unknown state treated as pass
+
+FM-SYS-016 conflicting evidence silently merged
+
+FM-SYS-017 competing hypothesis prematurely collapsed
+
+FM-SYS-018 causal inference from association
+
+FM-SYS-019 memory treated as verified fact
+
+FM-SYS-020 agent role treated as authority
+
+FM-SYS-021 Skill treated as authority
+
+FM-SYS-022 Skill composition expands authority
+
+FM-SYS-023 child agent expands authority
+
+FM-SYS-024 transaction commits stale state
+
+FM-SYS-025 partial commit
+
+FM-SYS-026 rollback loses provenance
+
+FM-SYS-027 repair destroys unaffected state
+
+FM-SYS-028 global invalidation unnecessarily used
+
+FM-SYS-029 policy registry/version conflict
+
+FM-SYS-030 authority registry/version conflict
+
+FM-SYS-031 revocation propagation incomplete
+
+FM-SYS-032 witness remains valid after revocation
+
+FM-SYS-033 authorization cache remains valid after revocation
+
+FM-SYS-034 external effect confused with internal state
+
+FM-SYS-035 compensation treated as automatic
+
+FM-SYS-036 governance bypass
+
+FM-SYS-037 system self-modification without authority
+
+FM-SYS-038 benchmark overgeneralization
+
+FM-SYS-039 test specification treated as executed evidence
+
+FM-SYS-040 structural completeness treated as empirical validity
+```
+
+---
+
+# 95. Adversarial Failure Modes
+
+```text
+authority laundering through Skill chains;
+
+policy laundering through aliases;
+
+agent spawning to escape revocation;
+
+memory poisoning;
+
+provenance stripping;
+
+source duplication to simulate consensus;
+
+semantic renaming of prohibited effects;
+
+splitting one prohibited effect into individually permitted actions;
+
+stale witness replay;
+
+stale authorization replay;
+
+race between authorization and revocation;
+
+race between policy check and commit;
+
+registry rollback;
+
+version rollback;
+
+split-brain authority state;
+
+cross-regime evidence reuse;
+
+scope expansion during transformation;
+
+fake independent provenance;
+
+repair path used to bypass normal authorization;
+
+emergency mode used as permanent authority;
+
+benchmark evidence promoted beyond tested environment.
+```
+
+---
+
+# 96. Repair / Recovery Contract
+
+When a system-map invariant fails:
+
+```text
+DETECT
+ ↓
+CLASSIFY FAILURE
+ ↓
+IDENTIFY LOAD-BEARING OBJECT
+ ↓
+IDENTIFY DEPENDENCY DESCENDANTS
+ ↓
+CONTAIN AFFECTED STATE
+ ↓
+PRESERVE UNAFFECTED STATE
+ ↓
+RESTORE AUTHORITATIVE SOURCE
+ ↓
+RECOMPUTE MINIMAL DEPENDENCY CLOSURE
+ ↓
+REVALIDATE
+ ↓
+COMMIT REPAIR
+ ↓
+RECORD PROVENANCE
+```
+
+---
+
+# 97. Gap Classification
+
+All unresolved system gaps SHOULD be classified:
+
+```text
+CRITICAL
+
+DECISION_RELEVANT
+
+EXPLANATORY
+
+COSMETIC
+```
+
+Resolution order:
+
+```text
+CRITICAL
+   ↓
+DECISION_RELEVANT
+   ↓
+EXPLANATORY
+   ↓
+COSMETIC
+```
+
+---
+
+# 98. Critical Gaps
+
+Examples:
+
+```text
+unknown authority source;
+
+missing revocation state;
+
+missing transaction finality;
+
+unknown target identity;
+
+missing provenance for load-bearing evidence;
+
+conflicting canonical definitions;
+
+unknown policy precedence;
+
+unknown irreversible-effect status.
+```
+
+Critical gaps may block execution.
+
+---
+
+# 99. Decision-Relevant Gaps
+
+Examples:
+
+```text
+uncertain dependency;
+
+uncertain scope;
+
+uncertain regime;
+
+uncertain freshness;
+
+uncertain capability behavior;
+
+uncertain repair cost.
+```
+
+These should be resolved when they can change the decision.
+
+---
+
+# 100. System Validators
+
+Minimum structural validators:
+
+```text
+validate_system_schema
+
+validate_component_identity
+
+validate_component_class
+
+validate_component_status
+
+validate_dependency_graph
+
+validate_no_missing_required_nodes
+
+validate_no_invalid_cycles
+
+validate_scope
+
+validate_regime
+
+validate_provenance
+
+validate_version_lineage
+
+validate_authority_edges
+
+validate_delegation_edges
+
+validate_revocation_edges
+
+validate_policy_dependencies
+
+validate_capability_contracts
+
+validate_agent_authority
+
+validate_skill_authority
+
+validate_workflow_authority
+
+validate_transaction_dependencies
+
+validate_commit_freshness
+
+validate_memory_provenance
+
+validate_rscf_dependencies
+
+validate_gap_registry
+
+validate_repair_paths
+
+validate_supersession
+```
+
+---
+
+# 101. System Tests
+
+```text
+T-SYS-001 load system map
+
+T-SYS-002 validate all node IDs unique
+
+T-SYS-003 validate all dependency targets exist
+
+T-SYS-004 detect invalid circular dependency
+
+T-SYS-005 detect missing authority resolver
+
+T-SYS-006 detect missing revocation path
+
+T-SYS-007 detect missing provenance path
+
+T-SYS-008 detect missing commit guard
+
+T-SYS-009 reject capability-as-authority
+
+T-SYS-010 reject policy-as-authority
+
+T-SYS-011 reject proposal-as-commit
+
+T-SYS-012 reject UNKNOWN/GAP-as-pass
+
+T-SYS-013 detect stale authority witness
+
+T-SYS-014 detect revoked delegation
+
+T-SYS-015 detect stale policy version
+
+T-SYS-016 detect transaction version conflict
+
+T-SYS-017 selective dependency invalidation
+
+T-SYS-018 preserve independent authority path
+
+T-SYS-019 preserve independent evidence path
+
+T-SYS-020 detect correlated provenance
+
+T-SYS-021 detect scope leakage
+
+T-SYS-022 detect regime leakage
+
+T-SYS-023 detect stale evidence
+
+T-SYS-024 preserve competing hypotheses
+
+T-SYS-025 reject unsupported causal promotion
+
+T-SYS-026 memory admission quarantine
+
+T-SYS-027 memory supersession
+
+T-SYS-028 Skill composition authority test
+
+T-SYS-029 child-agent authority test
+
+T-SYS-030 workflow authorization test
+
+T-SYS-031 commit-time revocation test
+
+T-SYS-032 partial transaction failure
+
+T-SYS-033 rollback provenance
+
+T-SYS-034 repair selective invalidation
+
+T-SYS-035 governance-change authorization
+
+T-SYS-036 canon/model separation
+
+T-SYS-037 implementation/validation separation
+
+T-SYS-038 benchmark scope boundary
+
+T-SYS-039 system completion scope
+
+T-SYS-040 unresolved critical gap blocks promotion
+```
+
+---
+
+# 102. Adversarial Tests
+
+```text
+T-SYS-A01 stale witness replay
+
+T-SYS-A02 stale authorization replay
+
+T-SYS-A03 Skill-chain authority laundering
+
+T-SYS-A04 agent-spawn authority laundering
+
+T-SYS-A05 alias-based policy bypass
+
+T-SYS-A06 semantic-effect splitting
+
+T-SYS-A07 provenance Sybil attack
+
+T-SYS-A08 memory poisoning
+
+T-SYS-A09 source supersession rollback
+
+T-SYS-A10 policy registry rollback
+
+T-SYS-A11 authority registry rollback
+
+T-SYS-A12 revocation race
+
+T-SYS-A13 commit race
+
+T-SYS-A14 cross-regime evidence injection
+
+T-SYS-A15 scope expansion attack
+
+T-SYS-A16 partial-commit exploit
+
+T-SYS-A17 repair-path authorization bypass
+
+T-SYS-A18 emergency-authority persistence
+
+T-SYS-A19 benchmark overclaim
+
+T-SYS-A20 UNKNOWN/GAP permissive coercion
+```
+
+---
+
+# 103. Falsifiers
+
+The system-map architecture is structurally falsified for declared scope if a required governed path cannot be represented.
+
+Examples:
+
+```text
+a consequential effect can bypass authorization;
+
+revoked authority can still independently commit;
+
+a Skill can enlarge authority merely through composition;
+
+an agent can manufacture authority by spawning another agent;
+
+a policy decision can create authority without an authority source;
+
+a committed effect has no provenance;
+
+a mutable authority dependency cannot be revalidated;
+
+a failed premise cannot identify dependent conclusions;
+
+a canonical supersession destroys previous lineage;
+
+or UNKNOWN/GAP is structurally interpreted as PASS.
+```
+
+---
+
+# 104. Confidence Ceiling
+
+For any system-level conclusion:
+
+```text
+C_system
+≤
+min(
+  C_source,
+  C_identity,
+  C_dependency_map,
+  C_scope,
+  C_regime,
+  C_freshness,
+  C_provenance,
+  C_validation
+)
+```
+
+Where a load-bearing component remains unvalidated:
+
+```text
+SYSTEM_VALIDATION
+cannot exceed
+that load-bearing validation ceiling
+```
+
+without independent evidence.
+
+---
+
+# 105. Uncertainty Vector
+
+```yaml
+system_uncertainty:
+  source_canon: null
+  component_identity: null
+  implementation: null
+  integration: null
+  validation: null
+  authority: null
+  policy: null
+  capability: null
+  dependency_closure: null
+  scope: null
+  regime: null
+  freshness: null
+  provenance: null
+  concurrency: null
+  transaction_finality: null
+  repairability: null
+  governance: null
+```
+
+---
+
+# 106. System RSCF
+
+```yaml
+rscf:
+  claim:
+    id: "AMOS_OS_SYSTEM_MAP"
+    class: MODEL
+
+    text: >
+      AMOS OS is represented as a governed layered system in which
+      cognition, evidence, agents, Skills, workflows, capabilities,
+      authority, policy, authorization, transactions, provenance,
+      validation, repair, and evolution remain explicitly separated
+      and interact through typed, provenance-aware control boundaries.
+
+  premises:
+    - component_classes_are_distinct
+    - dependencies_are_explicit
+    - authority_is_separate_from_capability
+    - policy_is_separate_from_authority
+    - proposal_is_separate_from_commit
+    - provenance_is_preserved
+    - unknown_state_is_not_pass
+
+  scope:
+    system: "AMOS OS"
+    artifact: "SYSTEM_MAP.md"
+
+  regime:
+    - ARCHITECTURE
+    - DESIGN
+    - GOVERNANCE_MODEL
+
+  provenance:
+    origin_architect: "Trang Phan"
+    steward: "Trang Phan"
+
+  competing:
+    - monolithic cognition_and_control
+    - capability_implies_authority
+    - policy_only_governance
+    - agent_owned_finality
+    - untyped_memory
+    - provenance_free_reasoning
+
+  falsifiers:
+    - consequential action bypasses control plane
+    - revoked authority commits successfully
+    - provenance cannot reconstruct a material decision
+    - unknown state is interpreted as approval
+    - system change bypasses governance
+
+  confidence_ceiling: 0
+```
+
+---
+
+# 107. Promotion States
+
+```text
+PLACEHOLDER
+      ↓
+STRUCTURAL_MODEL
+      ↓
+SCHEMA_VALIDATED
+      ↓
+COMPONENT_IMPLEMENTED
+      ↓
+INTEGRATED
+      ↓
+UNIT_TESTED
+      ↓
+INTEGRATION_TESTED
+      ↓
+ADVERSARIALLY_TESTED
+      ↓
+SECURITY_REVIEWED
+      ↓
+GOVERNANCE_APPROVED
+      ↓
+GOVERNED_ACTIVE
+```
+
+No transition is automatic.
+
+---
+
+# 108. Component Status Schema
+
+Every major component SHOULD expose:
+
+```yaml
+component_status:
+  component_id: string
+
+  definition:
+    state: string
+
+  implementation:
+    state: string
+    version: null
+
+  integration:
+    state: string
+
+  validation:
+    state: string
+    evidence: []
+
+  authority:
+    state: string
+
+  provenance:
+    state: string
+
+  canonical_status:
+    state: string
+
+  gaps: []
+```
+
+---
+
+# 109. Completion Matrix
+
+| System Surface               | Structural State  |
+| ---------------------------- | ----------------- |
+| System planes                | COMPLETE_AS_MODEL |
+| Cognitive plane              | COMPLETE_AS_MODEL |
+| Knowledge plane              | COMPLETE_AS_MODEL |
+| Execution plane              | COMPLETE_AS_MODEL |
+| Control plane                | COMPLETE_AS_MODEL |
+| Evidence plane               | COMPLETE_AS_MODEL |
+| Governance plane             | COMPLETE_AS_MODEL |
+| H/M/L                        | COMPLETE_AS_MODEL |
+| RSCF                         | COMPLETE_AS_MODEL |
+| Memory                       | COMPLETE_AS_MODEL |
+| Agents                       | COMPLETE_AS_MODEL |
+| Skills                       | COMPLETE_AS_MODEL |
+| Workflows                    | COMPLETE_AS_MODEL |
+| Protocols                    | COMPLETE_AS_MODEL |
+| Capabilities                 | COMPLETE_AS_MODEL |
+| Authority                    | COMPLETE_AS_MODEL |
+| Delegation                   | COMPLETE_AS_MODEL |
+| Revocation                   | COMPLETE_AS_MODEL |
+| Policy                       | COMPLETE_AS_MODEL |
+| Authorization                | COMPLETE_AS_MODEL |
+| Transactions                 | COMPLETE_AS_MODEL |
+| Commit boundary              | COMPLETE_AS_MODEL |
+| Provenance                   | COMPLETE_AS_MODEL |
+| Observability                | COMPLETE_AS_MODEL |
+| Validation                   | COMPLETE_AS_MODEL |
+| Repair                       | COMPLETE_AS_MODEL |
+| GMEF / evolution             | COMPLETE_AS_MODEL |
+| Runtime implementation       | UNKNOWN/GAP       |
+| Full component integration   | UNKNOWN/GAP       |
+| Executed validation evidence | UNKNOWN/GAP       |
+| Production readiness         | UNKNOWN/GAP       |
+| Formal verification          | UNKNOWN/GAP       |
+| Canon admission              | UNKNOWN/GAP       |
+
+---
+
+# 110. Canonical Dependency Summary
+
+```text
+AMOS SOURCE / CANON
+        │
+        ▼
+DEFINITIONS / ONTOLOGY
+        │
+        ▼
+COGNITIVE PRIMITIVES
+        │
+        ▼
+LIFECYCLE OPERATIONS
+        │
+        ▼
+AGENTS / SKILLS
+        │
+        ▼
+WORKFLOWS / PROTOCOLS
+        │
+        ▼
+CAPABILITY
+        │
+        ├───────────────┐
+        ▼               │
+AUTHORITY               │
+        │               │
+DELEGATION              │
+        │               │
+REVOCATION              │
+        │               │
+        ▼               │
+POLICY                  │
+        │               │
+        └──────┬────────┘
+               ▼
+        AUTHORIZATION
+               │
+               ▼
+         TRANSACTION
+               │
+               ▼
+          COMMIT GUARD
+               │
+               ▼
+             EFFECT
+               │
+               ▼
+       PROVENANCE / AUDIT
+               │
+               ▼
+       MEMORY / EVIDENCE
+               │
+               ▼
+       REPAIR / EVOLUTION
+```
+
+---
+
+# 111. System Control Equation
+
+AMOS MODEL:
+
+```text
+GovernedEffect
+=
+Proposal
+∧ CapabilityAvailable
+∧ AuthorityValid
+∧ PolicyCompatible
+∧ ConstraintsSatisfied
+∧ TransactionValid
+∧ CommitStateFresh
+```
+
+Any missing load-bearing term results in:
+
+```text
+BLOCK
+```
+
+or:
+
+```text
 UNKNOWN/GAP
 ```
 
+depending on the nature of the missing state.
+
 ---
 
-# 71. System Map RSCF Node
+# 112. System Integrity Equation
+
+AMOS MODEL:
+
+```text
+Integrity
+=
+DependencyConsistency
+× ProvenanceIntegrity
+× AuthorityIntegrity
+× StateFreshness
+× ScopeCompatibility
+× RegimeCompatibility
+× ValidationIntegrity
+```
+
+This is an architectural modeling relation, not an empirically established physical law.
+
+Its purpose is to encode the principle that failure of a load-bearing integrity dimension can invalidate the resulting system claim or action.
+
+---
+
+# 113. System Completion Rule
+
+System completion MUST be scoped.
+
+Correct:
+
+```text
+COMPLETE_FOR_DECLARED_ARCHITECTURAL_SCOPE
+```
+
+Incorrect:
+
+```text
+AMOS IS COMPLETE
+```
+
+unless all relevant scope, implementation, validation, governance, dependency, and canon conditions have actually been established.
+
+---
+
+# 114. Current Gap Status
+
+This artifact itself resolves the previous structural placeholder for the **system-map specification surface**.
+
+It does not close runtime gaps.
+
+Current status:
 
 ```yaml
-node_id: AMOS_OS_SYSTEM_MAP
+gap_status:
+  SYSTEM_MAP_STRUCTURE:
+    state: COMPLETE_FOR_SCOPE
 
-node_type: system_map
+  SOURCE_CANON_ALIGNMENT:
+    state: CONDITIONAL
 
-domain: AMOS_OS
+  COMPONENT_IMPLEMENTATION:
+    state: UNKNOWN/GAP
 
-functional_type:
-  - TOPOLOGY
-  - RESPONSIBILITY_MAP
-  - PLANE_BOUNDARY_MAP
+  COMPONENT_INTEGRATION:
+    state: UNKNOWN/GAP
 
-lifecycle_stage:
-  ACTIVE_MAP
+  EXECUTED_VALIDATION:
+    state: UNKNOWN/GAP
 
-origin_architect:
-  Trang Phan
+  SECURITY_VALIDATION:
+    state: UNKNOWN/GAP
 
-steward:
-  Trang Phan
+  FORMAL_VERIFICATION:
+    state: UNKNOWN/GAP
 
-claim_class:
-  AMOS_MODEL
+  PRODUCTION_DEPLOYMENT:
+    state: UNKNOWN/GAP
 
-claim: >
-  AMOS OS is organized into distinct authoritative, deterministic,
-  governance, runtime, cognitive, capability, persistence, support,
-  domain, research, organizational, historical, and relationship planes
-  whose responsibilities should remain explicitly separated.
-
-premises:
-  - semantic responsibilities require explicit ownership
-  - capability and authority must remain separate
-  - persistent memory, knowledge, and state are distinct
-  - runtime execution is distinct from control-plane governance
-  - repository topology does not establish implementation completeness
-
-dependencies:
-  - "[[00_ROOT/ARCHITECTURE.md]]"
-  - "[[00_ROOT/PLACEMENT_RULES.md]]"
-  - "[[00_ROOT/DEPENDENCY_MAP.md]]"
-  - "[[00_ROOT/FULL_TREE.md]]"
-
-hard_invariants:
-  - CANON != KERNEL
-  - KERNEL != CONTROL_PLANE
-  - CONTROL_PLANE != RUNTIME
-  - RUNTIME != COGNITION
-  - ORGAN != AGENT
-  - AGENT != SKILL
-  - SKILL != WORKFLOW
-  - WORKFLOW != PROTOCOL
-  - MEMORY != CANON
-  - KNOWLEDGE != STATE
-  - MODEL != AUTHORITY
-  - TOOL != PERMISSION
-  - CAPABILITY != AUTHORITY
-  - PROPOSAL != COMMIT
-  - SYSTEM_MAP != AUTHORITATIVE_STATE
-
-does_not_establish:
-  - implementation completeness
-  - runtime availability
-  - test success
-  - empirical validity
-  - production readiness
-
-falsifiers:
-  - approved root architecture changes plane ownership
-  - canonical placement rules supersede this topology
-  - repository governance formally introduces or removes a top-level plane
-
-confidence_ceiling:
-  topology_model: high
-  implementation_state: UNKNOWN/GAP
+  CANON_ADMISSION:
+    state: UNKNOWN/GAP
 ```
 
 ---
 
-# 72. Compact System Map
+# 115. Hard Boundary Block
 
 ```text
-                         AMOS OS
-                            │
-        ┌───────────────────┼────────────────────┐
-        │                   │                    │
-   DEFINITION           EXECUTION            SUPPORT
-        │                   │                    │
-   ┌────┴────┐       ┌──────┴──────┐      ┌──────┴─────────┐
- CANON    KERNEL   CONTROL       RUNTIME   SCHEMAS       SECURITY
-                         │            │     OBSERVABILITY  TESTS
-                         │            │     OPERATIONS
-                         │            │
-                         │      COGNITIVE ORGANISM
-                         │            │
-                         │     ┌──────┼──────┐
-                         │   AGENTS SKILLS WORKFLOWS
-                         │            │
-                         │        PROTOCOLS
-                         │
-                 ┌───────┴───────────────┐
-                 │                       │
-             PERSISTENCE              EFFECTORS
-                 │                       │
-          MEMORY / KNOWLEDGE        TOOLS / MODELS
-          STATE / MODELS            INTERFACES
-                                         │
-                                  EXTERNAL EFFECTS
-```
+SYSTEM_MAP != IMPLEMENTATION
 
-Additional overlays:
+ARCHITECTURE != RUNTIME
 
-```text
-DOMAINS
-RESEARCH
-OPERATING MODEL
-ARCHIVE
-COGNITIVE MATRIX
+PLACEHOLDER != IMPLEMENTED
+
+ADDRESSABLE != VALIDATED
+
+DEFINED != IMPLEMENTED
+
+IMPLEMENTED != INTEGRATED
+
+INTEGRATED != VALIDATED
+
+VALIDATED != AUTHORIZED
+
+CAPABILITY != AUTHORITY
+
+ROLE != AUTHORITY
+
+SKILL != AUTHORITY
+
+AGENT != AUTHORITY
+
+POLICY_ALLOW != AUTHORITY
+
+AUTHORITY != AUTHORIZATION
+
+AUTHORIZATION != COMMIT
+
+PROPOSAL != COMMIT
+
+MEMORY != FACT
+
+RETRIEVAL != VALIDATION
+
+REPETITION != INDEPENDENT EVIDENCE
+
+STRUCTURAL_SIMILARITY != CAUSATION
+
+CORRELATION != CAUSAL EFFECT
+
+MODEL != EMPIRICAL FACT
+
+BENCHMARK_PASS != UNIVERSAL_VALIDITY
+
+TEST_DEFINED != TEST_EXECUTED
+
+TEST_EXECUTED != TEST_PASSED
+
+TEST_PASSED != FORMAL_PROOF
+
+REVOCATION != DELETION
+
+ROLLBACK != RECOVERY
+
+COMPENSATION != REVERSAL_OF_HISTORY
+
+UNKNOWN/GAP != PASS
+
+CONFLICT != ALLOW
+
+STRUCTURAL_COMPLETENESS != SYSTEM_VALIDATION
+
+SYSTEM_COMPLETION != UNIVERSAL_COMPLETENESS
 ```
 
 ---
 
-# 73. Final System Law
+# 116. Final System Contract
 
-The system map compresses to:
-
-```text
-DEFINE
-↓
-CONSTRAIN
-↓
-GOVERN
-↓
-EXECUTE
-↓
-COGNIZE
-↓
-DELEGATE
-↓
-ACT
-↓
-OBSERVE
-↓
-VERIFY
-↓
-RECOVER
-```
-
-while preserving:
+AMOS OS SHALL preserve the following architectural separation:
 
 ```text
-MEMORY
-KNOWLEDGE
-STATE
+REALITY / SOURCE
+      ↓
+OBSERVATION
+      ↓
+PERCEPTION
+      ↓
+REPRESENTATION
+      ↓
+COGNITION
+      ↓
+RSCF / EVIDENCE
+      ↓
+PLAN
+      ↓
+PROPOSAL
+      ↓
+CAPABILITY
+      ↓
+AUTHORITY
+      ↓
+POLICY
+      ↓
+AUTHORIZATION
+      ↓
+TRANSACTION
+      ↓
+COMMIT-TIME VALIDATION
+      ↓
+COMMIT
+      ↓
+EFFECT
+      ↓
+OBSERVATION
+      ↓
 PROVENANCE
-SECURITY
-SCHEMAS
+      ↓
+MEMORY
+      ↓
+VALIDATION
+      ↓
+REPAIR / EVOLUTION
 ```
 
-across the lifecycle.
+No lower layer may silently assume the authority of a governing layer.
 
-The primary invariant is:
+No reasoning output may become a consequential committed effect solely because it is coherent, high-confidence, generated by an agent, produced by a Skill, supported by a capability, or allowed by one policy rule.
 
-> **Every AMOS OS artifact should have one clear semantic home, and no plane should silently acquire the authority, truth status, state ownership, or execution responsibility of another plane merely because it can reference or invoke it.**
-
-The second invariant is:
-
-> **The system map defines architecture and responsibility boundaries; it does not convert planned structure into evidence of implementation.**
-
----
-
-# 74. Changelog
-
-## v2.0.0 — 2026-08-25
-
-Expanded the root placeholder into the AMOS OS system topology map.
-
-Added:
-
-* plane classification;
-* root architectural spine;
-* cross-cutting substrate topology;
-* responsibilities for all 26 top-level planes;
-* authority flow;
-* information flow;
-* knowledge flow;
-* state flow;
-* provenance flow;
-* RSCF topology;
-* H/M/L topology;
-* agent/skill/workflow relationships;
-* tool and authority firewall;
-* memory/model/schema/security/observability relationships;
-* research-to-canon firewall;
-* archive and cognitive-matrix boundaries;
-* plane ownership matrix;
-* external-effect boundary;
-* failure and recovery topology;
-* v4.4 fast-path boundary;
-* mode-system placement;
-* source-of-truth rule;
-* root-document relationships;
-* H/M/L repository interpretation;
-* 20 structural invariants;
-* 20 system-map failure classes;
-* map-integrity checks;
-* master RSCF node.
-
-## v1.0.0 — 2026-08-25
-
-Initial placeholder established the 26-plane repository topology and the boundary:
+Every consequential effect SHOULD remain traceable through:
 
 ```text
-SYSTEM MAP
-!=
-IMPLEMENTATION PROOF
+INTENT
+→ PROPOSAL
+→ PRINCIPAL
+→ CAPABILITY
+→ AUTHORITY
+→ POLICY
+→ AUTHORIZATION
+→ TRANSACTION
+→ COMMIT
+→ EFFECT
+→ PROVENANCE
 ```
+
+Every material conclusion SHOULD remain traceable through:
+
+```text
+CLAIM
+→ PREMISES
+→ EVIDENCE
+→ PROVENANCE
+→ SCOPE
+→ REGIME
+→ FRESHNESS
+→ DEPENDENCIES
+→ COMPETING HYPOTHESES
+→ FALSIFIERS
+→ CONFIDENCE CEILING
+```
+
+Every material failure SHOULD support:
+
+```text
+FAILURE
+→ FAILED PREMISE / COMPONENT
+→ DEPENDENCY CLOSURE
+→ CONTAINMENT
+→ SELECTIVE INVALIDATION
+→ REPAIR
+→ REVALIDATION
+→ RESTORATION
+```
+
+Every system change SHOULD support:
+
+```text
+CHANGE PROPOSAL
+→ AUTHORITY
+→ IMPACT ANALYSIS
+→ INVARIANT CHECK
+→ VALIDATION
+→ GOVERNANCE
+→ PROMOTION
+→ OBSERVATION
+→ ROLLBACK / REPAIR
+```
+
+The governing architectural principle is:
+
+> **AMOS OS separates cognition from control, capability from authority, proposal from commit, memory from evidence, model from validated fact, and structural completeness from runtime validity, while preserving provenance, dependency closure, scope, regime, uncertainty, revocation, repairability, and governed evolution across the system.**
+
+Where the required evidence, authority, dependency state, provenance, scope, regime, freshness, implementation state, or validation state cannot be established, AMOS SHALL preserve:
+
+```text
+UNKNOWN/GAP
+```
+
+rather than manufacture completion.
+
+Integrity remains prior to completeness, fluency, speed, convenience, or optimization.
 
 ---
 
-**Related:** [[00_ROOT/README.md|AMOS OS]] · [[00_ROOT/MOC.md|MOC]] · [[00_ROOT/NEURAL_NETWORK.md|Neural Network]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/FULL_TREE.md|Full Tree]] · [[00_ROOT/DEPENDENCY_MAP.md|Dependency Map]] · [[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]] · [[00_ROOT/NAMING_STANDARD.md|Naming Standard]] · [[00_ROOT/PLACEMENT_RULES.md|Placement Rules]] · [[00_ROOT/ROADMAP.md|Roadmap]] · [[01_CANON/00_INDEX/CANON_MAP.md|CANON]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|KERNEL]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|CONTROL_PLANE]] · [[04_RUNTIME/00_INDEX/RUNTIME_MAP.md|RUNTIME]] · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP.md|COGNITIVE_ORGANISM]] · [[06_AGENTS/00_INDEX/AGENT_MAP.md|AGENTS]] · [[07_SKILLS/00_INDEX/SKILL_MAP.md|SKILLS]] · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP.md|WORKFLOWS]] · [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP.md|PROTOCOLS]] · [[10_MEMORY/00_INDEX/MEMORY_MAP.md|MEMORY]] · [[11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture.md|KNOWLEDGE]] · [[12_STATE/00_INDEX/STATE_MAP.md|STATE]] · [[13_MODELS/00_INDEX/MODEL_MAP.md|MODELS]] · [[14_TOOLS/00_INDEX/TOOL_MAP.md|TOOLS]] · [[15_INTERFACES/00_INDEX/INTERFACE_MAP.md|INTERFACES]] · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP.md|SCHEMAS]] · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_MAP.md|OBSERVABILITY]] · [[18_SECURITY/00_INDEX/SECURITY_MAP.md|SECURITY]] · [[19_TESTS/00_INDEX/TEST_MAP.md|TESTS]] · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP.md|OPERATIONS]] · [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP.md|DOMAINS]] · [[22_RESEARCH/00_INDEX/README.md|RESEARCH]] · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL.md|OPERATING_MODEL]] · [[24_ARCHIVE/00_LEGACY/README.md|ARCHIVE]] · [[25_COGNITIVE_MATRIX/00_INDEX/ARCHITECTURE.md|COGNITIVE_MATRIX]]
+# END — SYSTEM_MAP.md
 
 ```
 ```
