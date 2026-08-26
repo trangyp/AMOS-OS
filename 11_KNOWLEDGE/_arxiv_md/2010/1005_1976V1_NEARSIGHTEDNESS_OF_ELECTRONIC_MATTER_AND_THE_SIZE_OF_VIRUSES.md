@@ -200,3 +200,6 @@ biology which stands for the biology described using physics.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

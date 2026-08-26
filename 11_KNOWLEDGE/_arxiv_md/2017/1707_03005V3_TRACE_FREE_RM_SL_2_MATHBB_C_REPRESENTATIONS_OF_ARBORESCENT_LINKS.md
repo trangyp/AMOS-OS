@@ -1000,3 +1000,6 @@ SL2(C)-characters of a knot group. Math. Ann. 354 (2012), 967–1002.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

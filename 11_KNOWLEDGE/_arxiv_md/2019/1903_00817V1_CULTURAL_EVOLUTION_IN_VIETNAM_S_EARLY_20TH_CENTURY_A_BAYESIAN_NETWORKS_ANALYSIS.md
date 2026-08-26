@@ -1789,3 +1789,6 @@ of cultural evolution. Palgrave Communications, 4(1), 120. doi:10.1057/s41599-
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

@@ -4053,3 +4053,6 @@ This preserves the source as a stable research object while validation evolves i
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

@@ -1589,3 +1589,6 @@ Adapted from : http://en.wikipedia.org/wiki/Image:Habitable_zone-en.svg
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

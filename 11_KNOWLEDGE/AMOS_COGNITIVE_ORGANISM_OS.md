@@ -3389,3 +3389,6 @@ This is the level at which “AMOS organism” becomes structurally useful: not 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

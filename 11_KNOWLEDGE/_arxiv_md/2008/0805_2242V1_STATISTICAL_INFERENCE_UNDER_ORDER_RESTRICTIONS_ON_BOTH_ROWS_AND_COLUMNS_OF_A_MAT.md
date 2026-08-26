@@ -1216,3 +1216,6 @@ Pharmacology 200 40–47.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

@@ -368,3 +368,6 @@ http://www.scientificamerican.com/article.cfm?id=rise-of-the-robots
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

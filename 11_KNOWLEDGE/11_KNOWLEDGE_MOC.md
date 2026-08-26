@@ -86,3 +86,7 @@ tags: [moc, index, knowledge]
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+- [[00_ROOT_MOC]]
+- [[ARXIV_QFM_MOC]]
+- [[ARXIV_QFM_CLAIMS]]
+- [[ARXIV_QFM_MURK_AUDIT]]

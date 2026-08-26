@@ -935,3 +935,6 @@ Ruhlen, Merritt.1994. The Origin of Language. New York: John Wiley & Sons, Inc.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

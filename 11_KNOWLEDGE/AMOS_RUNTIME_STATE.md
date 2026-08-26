@@ -172101,3 +172101,6 @@ For machine consumption, retain the raw JSON sidecar in the same folder.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

@@ -2501,3 +2501,6 @@ The architecture should be used as an operational systems model—not as proof t
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

@@ -805,3 +805,6 @@ Macaulay monomial ideals, Bull. Math. Soc. Sci. Math. Roumanie (N. S.)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

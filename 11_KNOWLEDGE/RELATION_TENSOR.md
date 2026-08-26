@@ -1809,3 +1809,6 @@ This makes the Relation Tensor the typed connective substrate between **Distinct
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

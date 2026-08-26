@@ -959,3 +959,6 @@ These are not defects to hide. In AMOS they become explicit validation targets.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]
