@@ -1,104 +1,99 @@
 ---
-artifact_id: AMOS-OS-MOC
-name: AMOS_OS_MOC
-title: "AMOS OS — Master Map of Content"
-document_version: "2.0.0"
-moc_version: "1.0.0"
-amos_core_target: "v4.4"
-
-status: ACTIVE_MOC
-conclusion_class: "SOURCE_CLAIM / AMOS_MODEL"
-rscf_state: "derived"
-canon_group: "tech-ai"
-canon_type: "navigation"
-
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-
-created: "2026-08-25"
-updated: "2026-08-25"
-
-scope:
-  - AMOS_OS
-  - root_navigation
-  - architecture_navigation
-  - dependency_navigation
-  - governance_navigation
-  - runtime_navigation
-  - cognitive_navigation
-  - knowledge_navigation
-
-tags:
-  - amos
-  - amos-os
-  - moc
-  - map-of-content
-  - root-index
-  - architecture
-  - system-map
-  - dependency-map
-  - navigation
-  - canon
-  - kernel
-  - control-plane
-  - runtime
-  - cognitive-organism
-  - agents
-  - skills
-  - workflows
-  - protocols
-  - memory
-  - knowledge
-  - state
-  - models
-  - tools
-  - interfaces
-  - schemas
-  - observability
-  - security
-  - tests
-  - operations
-  - domains
-  - research
-  - operating-model
-  - archive
-  - cognitive-matrix
-  - rscf
-  - gmef
-  - hml
-  - provenance
-  - authority
-  - lifecycle
-  - failure-recovery
-  - canon-group/tech-ai
-  - canon/navigation
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/derived
-  - topic/amos-os
-  - topic/moc
-  - topic/root-navigation
-
 aliases:
-  - AMOS MOC
-  - AMOS OS MOC
-  - AMOS Master Index
-  - AMOS Root Map
-  - AMOS OS Navigation Hub
-
+- AMOS MOC
+- AMOS OS MOC
+- AMOS Master Index
+- AMOS Root Map
+- AMOS OS Navigation Hub
+amos_core_target: v4.4
+artifact_id: AMOS-OS-MOC
+canon_group: tech-ai
+canon_type: navigation
+conclusion_class: SOURCE_CLAIM / AMOS_MODEL
+created: 2026-08-25
+document_version: 2.0.0
+moc_version: 1.0.0
+name: AMOS_OS_MOC
+origin_architect: Trang Phan
 related:
-  - "[[00-Home]]"
-  - "[[ARCHITECTURE]]"
-  - "[[FULL_TREE]]"
-  - "[[SYSTEM_MAP]]"
-  - "[[AUTHORITATIVE_STATE]]"
-  - "[[DEPENDENCY_MAP]]"
-  - "[[NAMING_STANDARD]]"
-  - "[[PLACEMENT_RULES]]"
-  - "[[ROADMAP]]"
-  - "[[RSCF_NODE_INDEX]]"
-  - "[[GMEF]]"
-  - "[[HML_CANON]]"
+- '[[00-Home]]'
+- '[[ARCHITECTURE]]'
+- '[[FULL_TREE]]'
+- '[[SYSTEM_MAP]]'
+- '[[AUTHORITATIVE_STATE]]'
+- '[[DEPENDENCY_MAP]]'
+- '[[NAMING_STANDARD]]'
+- '[[PLACEMENT_RULES]]'
+- '[[ROADMAP]]'
+- '[[RSCF_NODE_INDEX]]'
+- '[[GMEF]]'
+- '[[HML_CANON]]'
+- '[[00 Cosmo Brain MOC]]'
+- '[[AMOS_Obsidian_Linking_Plugins]]'
+rscf_state: derived
+scope:
+- AMOS_OS
+- root_navigation
+- architecture_navigation
+- dependency_navigation
+- governance_navigation
+- runtime_navigation
+- cognitive_navigation
+- knowledge_navigation
+status: ACTIVE_MOC
+steward: Trang Phan
+tags:
+- amos
+- amos-os
+- moc
+- map-of-content
+- root-index
+- architecture
+- system-map
+- dependency-map
+- navigation
+- canon
+- kernel
+- control-plane
+- runtime
+- cognitive-organism
+- agents
+- skills
+- workflows
+- protocols
+- memory
+- knowledge
+- state
+- models
+- tools
+- interfaces
+- schemas
+- observability
+- security
+- tests
+- operations
+- domains
+- research
+- operating-model
+- archive
+- cognitive-matrix
+- rscf
+- gmef
+- hml
+- provenance
+- authority
+- lifecycle
+- failure-recovery
+- canon-group/tech-ai
+- canon/navigation
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/amos-os
+- topic/moc
+- topic/root-navigation
+title: AMOS OS — Master Map of Content
+updated: 2026-08-26
 ---
 
 # AMOS OS — Master Map of Content
@@ -1766,6 +1761,11 @@ confidence_ceiling:
 ---
 
 # 48. Changelog
+## Related MOCs
+
+- [[00 Cosmo Brain MOC]] — the Cosmo Brain index
+- [[AMOS_Obsidian_Linking_Plugins]] — Obsidian vault linking plugin stack
+
 
 ## v2.0.0 — 2026-08-25
 
