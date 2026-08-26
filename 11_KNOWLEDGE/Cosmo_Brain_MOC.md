@@ -1206,3 +1206,6 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]
