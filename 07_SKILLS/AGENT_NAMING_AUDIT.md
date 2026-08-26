@@ -99,3 +99,15 @@ The current canonical count in `amos-agent-registry-index.md` is **674** agents.
 2. Decide whether to rename files to the `amos-{role}-agent` plain form and update any in-vault wikilinks.
 3. Verify `depends_on_workflows` mappings against the actual `.devin/workflows/` inventory.
 4. Refresh `amos-agent-registry-index.md` to reflect the full 834-agent set if desired.
+
+### v4 — Filename Rename to Naming Standard
+
+A final pass applied the AMOS Naming Standard to `.devin/agents` filenames across all three trees:
+
+- `stitch_project_cosmo/.devin/agents` — 0 renames (already clean), 28 short descriptions fixed, 120 `depends_on_skills` canonicalised
+- `AMOS_OS/.devin/agents` — 232 renames, 0 short descriptions (already clean), 171 `depends_on_skills` canonicalised
+- `My Drive/Projects/.devin/agents` — 233 renames, 28 short descriptions fixed, 128 `depends_on_skills` canonicalised
+
+Decorative/suffix tokens removed from filenames: `full`, `complete`, `super`, `ultimate`, `omega`, `max`, `vomni`, `x100k`, `x1000`, `x2700`, `x25000`, `x50000`, `x10800`, `v0`–`v23`, `report`, `spec`, `x3000`, `50000`, `30000`, `25000`, `5000`, `vinfinity`, `master`, `core7`, `domains7`, `cognitive4`.
+
+`depends_on_skills` arrays were re-pointed at the canonical post-rename skill names in each tree. The full manifest is in `07_SKILLS/AGENT_RENAME_PASS.json`.

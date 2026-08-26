@@ -1,0 +1,1882 @@
+[
+  {
+    "root": "/Users/mac/Downloads/stitch_project_cosmo/.devin/agents",
+    "renames": [],
+    "descriptions_fixed": 28,
+    "depends_updated": 120
+  },
+  {
+    "root": "/Users/mac/Documents/AMOS_OS/.devin/agents",
+    "renames": [
+      {
+        "old": "amos-19x19-family-complete-agent.json",
+        "new": "amos-19x19-family-agent.json"
+      },
+      {
+        "old": "amos-19x19-four-layer-family-complete-full-agent.json",
+        "new": "amos-19x19-four-layer-family-agent.json"
+      },
+      {
+        "old": "amos-19x19-sparse-coupling-matrix-full-agent.json",
+        "new": "amos-19x19-sparse-coupling-matrix-agent.json"
+      },
+      {
+        "old": "amos-7-part-universe-canon-full-agent.json",
+        "new": "amos-7-part-universe-canon-agent.json"
+      },
+      {
+        "old": "amos-absolute-human-spec-agent.json",
+        "new": "amos-absolute-human-agent-2.json"
+      },
+      {
+        "old": "amos-absolute-human-omnistructure-full-agent.json",
+        "new": "amos-absolute-human-omnistructure-agent-2.json"
+      },
+      {
+        "old": "amos-absolute-logic-db-full-agent.json",
+        "new": "amos-absolute-logic-db-agent-2.json"
+      },
+      {
+        "old": "amos-absolute-omniverse-u-full-agent.json",
+        "new": "amos-absolute-omniverse-u-agent.json"
+      },
+      {
+        "old": "amos-agent-registry-schema-full-agent.json",
+        "new": "amos-agent-registry-schema-agent.json"
+      },
+      {
+        "old": "amos-ai-entropy-architecture-v2-agent.json",
+        "new": "amos-ai-entropy-architecture-agent-2.json"
+      },
+      {
+        "old": "amos-ai-equation-architecture-25000-agent.json",
+        "new": "amos-ai-equation-architecture-agent-2.json"
+      },
+      {
+        "old": "amos-all-domain-fractal-25000-quantum-math-master-agent.json",
+        "new": "amos-all-domain-fractal-quantum-math-agent.json"
+      },
+      {
+        "old": "amos-all-frameworks-bio-logical-computing-full-agent.json",
+        "new": "amos-all-frameworks-bio-logical-computing-agent.json"
+      },
+      {
+        "old": "amos-all-frameworks-canon-hierarchy-full-agent.json",
+        "new": "amos-all-frameworks-canon-hierarchy-agent-2.json"
+      },
+      {
+        "old": "amos-all-frameworks-master-agent.json",
+        "new": "amos-all-frameworks-agent.json"
+      },
+      {
+        "old": "amos-architecture-spec-agent.json",
+        "new": "amos-architecture-agent-2.json"
+      },
+      {
+        "old": "amos-automation-engine-v1-agent.json",
+        "new": "amos-automation-engine-agent.json"
+      },
+      {
+        "old": "amos-biology-cognition-engine-full-agent.json",
+        "new": "amos-biology-cognition-engine-agent-2.json"
+      },
+      {
+        "old": "amos-biology-fractal-25000-quantum-coherence-agent.json",
+        "new": "amos-biology-fractal-quantum-coherence-agent.json"
+      },
+      {
+        "old": "amos-bizfin-kernel-v0-agent.json",
+        "new": "amos-bizfin-kernel-agent.json"
+      },
+      {
+        "old": "amos-brain-core-cognitive-max-agent.json",
+        "new": "amos-brain-core-cognitive-agent.json"
+      },
+      {
+        "old": "amos-brain-master-os-agent.json",
+        "new": "amos-brain-os-agent.json"
+      },
+      {
+        "old": "amos-full-brain-os-agent.json",
+        "new": "amos-brain-os-agent-2.json"
+      },
+      {
+        "old": "amos-brain-master-os-core-agent.json",
+        "new": "amos-brain-os-core-agent.json"
+      },
+      {
+        "old": "amos-brain-master-os-gap-management-agent.json",
+        "new": "amos-brain-os-gap-management-agent.json"
+      },
+      {
+        "old": "amos-brain-quantum-enhancement-report-agent.json",
+        "new": "amos-brain-quantum-enhancement-agent.json"
+      },
+      {
+        "old": "amos-brain-superxc-ubi-cognitive-max-agent.json",
+        "new": "amos-brain-superxc-ubi-cognitive-agent.json"
+      },
+      {
+        "old": "amos-brain-v3-kernel-agent.json",
+        "new": "amos-brain-kernel-agent.json"
+      },
+      {
+        "old": "amos-business-finance-super-agent.json",
+        "new": "amos-business-finance-agent.json"
+      },
+      {
+        "old": "amos-c-canon-super-x100k-agent.json",
+        "new": "amos-c-canon-agent.json"
+      },
+      {
+        "old": "amos-c-canon-super-agent.json",
+        "new": "amos-c-canon-agent-2.json"
+      },
+      {
+        "old": "amos-c01-meta-logic-super-agent.json",
+        "new": "amos-c01-meta-logic-agent-2.json"
+      },
+      {
+        "old": "amos-c01-meta-logic-super-x100k-agent.json",
+        "new": "amos-c01-meta-logic-agent-3.json"
+      },
+      {
+        "old": "amos-c02-math-compute-super-x100k-agent.json",
+        "new": "amos-c02-math-compute-agent-2.json"
+      },
+      {
+        "old": "amos-c02-math-compute-super-agent.json",
+        "new": "amos-c02-math-compute-agent-3.json"
+      },
+      {
+        "old": "amos-c03-physics-cosmos-max-agent.json",
+        "new": "amos-c03-physics-cosmos-agent-2.json"
+      },
+      {
+        "old": "amos-c03-physics-cosmos-x3000-agent.json",
+        "new": "amos-c03-physics-cosmos-agent-3.json"
+      },
+      {
+        "old": "amos-c08-strategy-game-super-x100k-agent.json",
+        "new": "amos-c08-strategy-game-agent.json"
+      },
+      {
+        "old": "amos-c08-strategy-game-super-agent.json",
+        "new": "amos-c08-strategy-game-agent-2.json"
+      },
+      {
+        "old": "amos-c12-earth-ecology-super-agent.json",
+        "new": "amos-c12-earth-ecology-agent.json"
+      },
+      {
+        "old": "amos-canon-cryptographic-infrastructure-full-agent.json",
+        "new": "amos-canon-cryptographic-infrastructure-agent-2.json"
+      },
+      {
+        "old": "amos-cc05-mind-behavior-super-agent.json",
+        "new": "amos-cc05-mind-behavior-agent.json"
+      },
+      {
+        "old": "amos-cil-canon-integration-full-agent.json",
+        "new": "amos-cil-canon-integration-agent.json"
+      },
+      {
+        "old": "amos-coding-omega-agent.json",
+        "new": "amos-coding-agent-2.json"
+      },
+      {
+        "old": "amos-coding-omega-engine-agent.json",
+        "new": "amos-coding-engine-agent.json"
+      },
+      {
+        "old": "amos-coding-engine-v0-agent.json",
+        "new": "amos-coding-engine-agent-2.json"
+      },
+      {
+        "old": "amos-cognitive-architecture-matrix-governance-full-agent.json",
+        "new": "amos-cognitive-architecture-matrix-governance-agent.json"
+      },
+      {
+        "old": "amos-cognitive-max-ubi-quantum-fractal-agent.json",
+        "new": "amos-cognitive-ubi-quantum-fractal-agent.json"
+      },
+      {
+        "old": "amos-cognitive-substrate-full-agent.json",
+        "new": "amos-cognitive-substrate-agent-2.json"
+      },
+      {
+        "old": "amos-communication-omega-agent.json",
+        "new": "amos-communication-agent.json"
+      },
+      {
+        "old": "amos-consulting-engine-super-agent.json",
+        "new": "amos-consulting-engine-agent.json"
+      },
+      {
+        "old": "amos-consulting-super-x100k-agent.json",
+        "new": "amos-consulting-agent.json"
+      },
+      {
+        "old": "amos-control-systems-kernel-v0-agent.json",
+        "new": "amos-control-systems-kernel-agent-2.json"
+      },
+      {
+        "old": "amos-core-full-spec-agent.json",
+        "new": "amos-core-agent.json"
+      },
+      {
+        "old": "amos-core-full-agent.json",
+        "new": "amos-core-agent-2.json"
+      },
+      {
+        "old": "amos-core-full-runtime-agent.json",
+        "new": "amos-core-runtime-agent.json"
+      },
+      {
+        "old": "amos-core-systems-full-agent.json",
+        "new": "amos-core-systems-agent.json"
+      },
+      {
+        "old": "amos-corp-doc-engine-super-agent.json",
+        "new": "amos-corp-doc-engine-agent.json"
+      },
+      {
+        "old": "amos-corp-doc-super-x100k-agent.json",
+        "new": "amos-corp-doc-agent.json"
+      },
+      {
+        "old": "amos-design-engine-v3-agent.json",
+        "new": "amos-design-engine-agent.json"
+      },
+      {
+        "old": "amos-design-language-engine-v0-cognitive4-agent.json",
+        "new": "amos-design-language-engine-agent.json"
+      },
+      {
+        "old": "amos-design-language-super-agent.json",
+        "new": "amos-design-language-agent.json"
+      },
+      {
+        "old": "amos-earth-ecology-super-full-agent.json",
+        "new": "amos-earth-ecology-agent.json"
+      },
+      {
+        "old": "amos-electrical-power-engine-v0-cognitive4-agent.json",
+        "new": "amos-electrical-power-engine-agent.json"
+      },
+      {
+        "old": "amos-emotion-engine-v0-core7-agent.json",
+        "new": "amos-emotion-engine-agent-2.json"
+      },
+      {
+        "old": "amos-engineering-and-mathematics-engine-v0-cognitive4-agent.json",
+        "new": "amos-engineering-and-mathematics-engine-agent-2.json"
+      },
+      {
+        "old": "amos-engineering-math-super-agent.json",
+        "new": "amos-engineering-math-agent-2.json"
+      },
+      {
+        "old": "amos-engineering-math-kernel-v0-agent.json",
+        "new": "amos-engineering-math-kernel-agent-2.json"
+      },
+      {
+        "old": "amos-engineering-math-kernel-vinfinity-full-agent.json",
+        "new": "amos-engineering-math-kernel-agent-3.json"
+      },
+      {
+        "old": "amos-entropy-lacunarity-viability-full-agent.json",
+        "new": "amos-entropy-lacunarity-viability-agent-2.json"
+      },
+      {
+        "old": "amos-equations-master-registry-agent.json",
+        "new": "amos-equations-registry-agent.json"
+      },
+      {
+        "old": "amos-ev-infra-super-x100k-agent.json",
+        "new": "amos-ev-infra-agent.json"
+      },
+      {
+        "old": "amos-expression-translation-vinfinity-agent.json",
+        "new": "amos-expression-translation-agent.json"
+      },
+      {
+        "old": "amos-formal-rscf-suite-v6-agent.json",
+        "new": "amos-formal-rscf-suite-agent.json"
+      },
+      {
+        "old": "amos-fractal-architecture-master-25000-agent.json",
+        "new": "amos-fractal-architecture-agent-2.json"
+      },
+      {
+        "old": "amos-fractal-architecture-framework-5000-agent.json",
+        "new": "amos-fractal-architecture-framework-agent-2.json"
+      },
+      {
+        "old": "amos-fractal-architecture-reality-full-agent.json",
+        "new": "amos-fractal-architecture-reality-agent-2.json"
+      },
+      {
+        "old": "amos-fractal-cognitive-architecture-v2-agent.json",
+        "new": "amos-fractal-cognitive-architecture-agent-2.json"
+      },
+      {
+        "old": "amos-fractal-equation-families-full-agent.json",
+        "new": "amos-fractal-equation-families-agent-2.json"
+      },
+      {
+        "old": "amos-fractal-forex-economy-master-agent.json",
+        "new": "amos-fractal-forex-economy-agent-2.json"
+      },
+      {
+        "old": "amos-fractal-quantum-500000-master-agent.json",
+        "new": "amos-fractal-quantum-500000-agent.json"
+      },
+      {
+        "old": "amos-fractal-runtime-cells-full-agent.json",
+        "new": "amos-fractal-runtime-cells-agent-2.json"
+      },
+      {
+        "old": "amos-full-architecture-complete-form-agent.json",
+        "new": "amos-architecture-form-agent.json"
+      },
+      {
+        "old": "amos-full-brain-os-architecture-agent.json",
+        "new": "amos-brain-os-architecture-agent.json"
+      },
+      {
+        "old": "amos-full-brain-os-canon-full-agent.json",
+        "new": "amos-brain-os-canon-agent.json"
+      },
+      {
+        "old": "amos-full-brain-os-canon-agent.json",
+        "new": "amos-brain-os-canon-agent-2.json"
+      },
+      {
+        "old": "amos-gap-registry-test-suite-full-agent.json",
+        "new": "amos-gap-registry-test-suite-agent.json"
+      },
+      {
+        "old": "amos-heritage-ancient-fractal-math-v2-agent.json",
+        "new": "amos-heritage-ancient-fractal-math-agent-2.json"
+      },
+      {
+        "old": "amos-vomni-master-kernel-full-agent.json",
+        "new": "amos-kernel-agent.json"
+      },
+      {
+        "old": "amos-kernel-super-vinfinity-agent.json",
+        "new": "amos-kernel-agent-2.json"
+      },
+      {
+        "old": "amos-vomni-kernel-master-agent.json",
+        "new": "amos-kernel-agent-3.json"
+      },
+      {
+        "old": "amos-khung-trang-full-architecture-agent.json",
+        "new": "amos-khung-trang-architecture-agent.json"
+      },
+      {
+        "old": "amos-khung-trang-master-equations-agent.json",
+        "new": "amos-khung-trang-equations-agent.json"
+      },
+      {
+        "old": "amos-khung-trang-full-equations-agent.json",
+        "new": "amos-khung-trang-equations-agent-2.json"
+      },
+      {
+        "old": "amos-legal-super-vinfinity-agent.json",
+        "new": "amos-legal-agent-2.json"
+      },
+      {
+        "old": "amos-logic-core-engine-v0-agent.json",
+        "new": "amos-logic-core-engine-agent.json"
+      },
+      {
+        "old": "amos-master-equation-agent.json",
+        "new": "amos-equation-agent.json"
+      },
+      {
+        "old": "amos-master-equation-cosmos-agent.json",
+        "new": "amos-equation-cosmos-agent.json"
+      },
+      {
+        "old": "amos-master-equation-cosmos-full-agent.json",
+        "new": "amos-equation-cosmos-agent-2.json"
+      },
+      {
+        "old": "amos-master-equation-registry-agent.json",
+        "new": "amos-equation-registry-agent.json"
+      },
+      {
+        "old": "amos-math-fractal-25000-quantum-bridge-agent.json",
+        "new": "amos-math-fractal-quantum-bridge-agent.json"
+      },
+      {
+        "old": "amos-medical-clinical-super-agent.json",
+        "new": "amos-medical-clinical-agent.json"
+      },
+      {
+        "old": "amos-meta-engines-index-vinfinity-agent.json",
+        "new": "amos-meta-engines-index-agent.json"
+      },
+      {
+        "old": "amos-meta-logic-super-agent.json",
+        "new": "amos-meta-logic-agent.json"
+      },
+      {
+        "old": "amos-monogram-engine-v0-dsc4-agent.json",
+        "new": "amos-monogram-engine-dsc4-agent.json"
+      },
+      {
+        "old": "amos-monogram-kernal-engine-v0-dsc4-agent.json",
+        "new": "amos-monogram-kernal-engine-dsc4-agent.json"
+      },
+      {
+        "old": "amos-multifractal-hurst-diagnostics-full-agent.json",
+        "new": "amos-multifractal-hurst-diagnostics-agent-2.json"
+      },
+      {
+        "old": "amos-multifractal-hurst-diagnostics-layer-full-agent.json",
+        "new": "amos-multifractal-hurst-diagnostics-layer-agent.json"
+      },
+      {
+        "old": "amos-nbi-engine-full-agent.json",
+        "new": "amos-nbi-engine-agent-2.json"
+      },
+      {
+        "old": "amos-omega-fx-platform-agent.json",
+        "new": "amos-fx-platform-agent.json"
+      },
+      {
+        "old": "amos-omega-fx-structural-engine-agent.json",
+        "new": "amos-fx-structural-engine-agent.json"
+      },
+      {
+        "old": "amos-omega-infinity-stack-agent.json",
+        "new": "amos-infinity-stack-agent.json"
+      },
+      {
+        "old": "amos-omega-infinity-stack-full-agent.json",
+        "new": "amos-infinity-stack-agent-2.json"
+      },
+      {
+        "old": "amos-omega-thinking-engine-agent.json",
+        "new": "amos-thinking-engine-agent.json"
+      },
+      {
+        "old": "amos-omega-thinking-engine-with-coding-agent.json",
+        "new": "amos-thinking-engine-with-coding-agent.json"
+      },
+      {
+        "old": "amos-omega-ultimate-integration-agent.json",
+        "new": "amos-integration-agent.json"
+      },
+      {
+        "old": "amos-omniverse-brain-max-power-agent.json",
+        "new": "amos-omniverse-brain-power-agent.json"
+      },
+      {
+        "old": "amos-operations-super-agent.json",
+        "new": "amos-operations-agent.json"
+      },
+      {
+        "old": "amos-optimization-kernel-v0-agent.json",
+        "new": "amos-optimization-kernel-agent-2.json"
+      },
+      {
+        "old": "amos-orchestrator-routing-x1000-agent.json",
+        "new": "amos-orchestrator-routing-agent.json"
+      },
+      {
+        "old": "amos-organism-os-python-arc-full-agent.json",
+        "new": "amos-organism-os-python-arc-agent-2.json"
+      },
+      {
+        "old": "amos-os-agent-v0-agent.json",
+        "new": "amos-os-agent-agent.json"
+      },
+      {
+        "old": "amos-os-masterfile-spec-agent.json",
+        "new": "amos-os-masterfile-agent-2.json"
+      },
+      {
+        "old": "amos-os-masterfile-full-agent.json",
+        "new": "amos-os-masterfile-agent-3.json"
+      },
+      {
+        "old": "amos-physics-cosmos-engine-v0-cognitive4-agent.json",
+        "new": "amos-physics-cosmos-engine-agent.json"
+      },
+      {
+        "old": "amos-physics-cosmos-super-x3000-agent.json",
+        "new": "amos-physics-cosmos-agent.json"
+      },
+      {
+        "old": "amos-political-dynamics-kernel-v0-agent.json",
+        "new": "amos-political-dynamics-kernel-agent.json"
+      },
+      {
+        "old": "amos-probability-statistics-kernel-v0-agent.json",
+        "new": "amos-probability-statistics-kernel-agent-2.json"
+      },
+      {
+        "old": "amos-qci-claim-class-governance-full-agent.json",
+        "new": "amos-qci-claim-class-governance-agent-2.json"
+      },
+      {
+        "old": "amos-qcla-official-manual-full-agent.json",
+        "new": "amos-qcla-official-manual-agent.json"
+      },
+      {
+        "old": "amos-qfm-adversarial-hardening-full-agent.json",
+        "new": "amos-qfm-adversarial-hardening-agent-2.json"
+      },
+      {
+        "old": "amos-qfm-architecture-refinement-full-agent.json",
+        "new": "amos-qfm-architecture-refinement-agent-2.json"
+      },
+      {
+        "old": "amos-qfm-audit-family-15-layers-full-agent.json",
+        "new": "amos-qfm-audit-family-15-layers-agent.json"
+      },
+      {
+        "old": "amos-qfm-bridge-governance-entropy-lacunarity-full-agent.json",
+        "new": "amos-qfm-bridge-governance-entropy-lacunarity-agent.json"
+      },
+      {
+        "old": "amos-qfm-five-layer-architecture-full-agent.json",
+        "new": "amos-qfm-five-layer-architecture-agent.json"
+      },
+      {
+        "old": "amos-qfm-five-layer-master-router-v2-agent.json",
+        "new": "amos-qfm-five-layer-router-agent.json"
+      },
+      {
+        "old": "amos-qfm-five-layer-master-router-agent.json",
+        "new": "amos-qfm-five-layer-router-agent-2.json"
+      },
+      {
+        "old": "amos-qfm-five-layer-max-power-router-agent.json",
+        "new": "amos-qfm-five-layer-power-router-agent.json"
+      },
+      {
+        "old": "amos-qfm-governance-family-full-agent.json",
+        "new": "amos-qfm-governance-family-agent.json"
+      },
+      {
+        "old": "amos-qfm-max-power-9phase-pipeline-agent.json",
+        "new": "amos-qfm-power-9phase-pipeline-agent.json"
+      },
+      {
+        "old": "amos-qfm-max-power-agent.json",
+        "new": "amos-qfm-power-agent.json"
+      },
+      {
+        "old": "amos-qfm-max-power-v3-ultimate-agent.json",
+        "new": "amos-qfm-power-agent-2.json"
+      },
+      {
+        "old": "amos-qfm-max-power-v2-agent.json",
+        "new": "amos-qfm-power-agent-3.json"
+      },
+      {
+        "old": "amos-qft-yang-mills-mapping-full-agent.json",
+        "new": "amos-qft-yang-mills-mapping-agent.json"
+      },
+      {
+        "old": "amos-qls-official-manual-full-agent.json",
+        "new": "amos-qls-official-manual-agent.json"
+      },
+      {
+        "old": "amos-qls-ucp-collapse-governance-full-agent.json",
+        "new": "amos-qls-ucp-collapse-governance-agent-2.json"
+      },
+      {
+        "old": "amos-quantum-agent-ecosystem-full-agent.json",
+        "new": "amos-quantum-agent-ecosystem-agent.json"
+      },
+      {
+        "old": "amos-quantum-cloning-approximation-full-agent.json",
+        "new": "amos-quantum-cloning-approximation-agent.json"
+      },
+      {
+        "old": "amos-quantum-enhancement-complete-report-agent.json",
+        "new": "amos-quantum-enhancement-agent.json"
+      },
+      {
+        "old": "amos-quantum-enhancement-reports-agent.json",
+        "new": "amos-quantum-enhancement-agent-2.json"
+      },
+      {
+        "old": "amos-quantum-financial-tensor-field-full-agent.json",
+        "new": "amos-quantum-financial-tensor-field-agent-2.json"
+      },
+      {
+        "old": "amos-quantum-fractal-math-ultimate-v2-agent.json",
+        "new": "amos-quantum-fractal-math-agent-2.json"
+      },
+      {
+        "old": "amos-quantum-fractal-math-ultimate-agent.json",
+        "new": "amos-quantum-fractal-math-agent-3.json"
+      },
+      {
+        "old": "amos-quantum-fractal-math-master-agent.json",
+        "new": "amos-quantum-fractal-math-agent-4.json"
+      },
+      {
+        "old": "amos-quantum-fractal-math-convergence-master-agent.json",
+        "new": "amos-quantum-fractal-math-convergence-agent.json"
+      },
+      {
+        "old": "amos-quantum-fractal-math-master-index-agent.json",
+        "new": "amos-quantum-fractal-math-index-agent.json"
+      },
+      {
+        "old": "amos-quantum-fractal-math-max-power-agent.json",
+        "new": "amos-quantum-fractal-math-power-agent.json"
+      },
+      {
+        "old": "amos-quantum-library-bounds-invariants-full-agent.json",
+        "new": "amos-quantum-library-bounds-invariants-agent.json"
+      },
+      {
+        "old": "amos-quantum-library-qec-canonical-full-agent.json",
+        "new": "amos-quantum-library-qec-canonical-agent.json"
+      },
+      {
+        "old": "amos-quantum-library-qft-canonical-full-agent.json",
+        "new": "amos-quantum-library-qft-canonical-agent.json"
+      },
+      {
+        "old": "amos-quantum-library-qi-information-full-agent.json",
+        "new": "amos-quantum-library-qi-information-agent.json"
+      },
+      {
+        "old": "amos-quantum-library-qm-foundations-full-agent.json",
+        "new": "amos-quantum-library-qm-foundations-agent.json"
+      },
+      {
+        "old": "amos-quantum-library-v070-audit-full-agent.json",
+        "new": "amos-quantum-library-v070-audit-agent.json"
+      },
+      {
+        "old": "amos-quantum-library-v1-master-agent.json",
+        "new": "amos-quantum-library-agent.json"
+      },
+      {
+        "old": "amos-quantum-machine-learning-full-agent.json",
+        "new": "amos-quantum-machine-learning-agent.json"
+      },
+      {
+        "old": "amos-quantum-omega-brain-agent.json",
+        "new": "amos-quantum-brain-agent.json"
+      },
+      {
+        "old": "amos-quantum-omega-brain-full-spec-agent.json",
+        "new": "amos-quantum-brain-agent-2.json"
+      },
+      {
+        "old": "amos-quantum-omega-brain-full-agent.json",
+        "new": "amos-quantum-brain-agent-3.json"
+      },
+      {
+        "old": "amos-quantum-omega-brain-self-analysis-7pt-agent.json",
+        "new": "amos-quantum-brain-self-analysis-7pt-agent.json"
+      },
+      {
+        "old": "amos-quantum-omega-canon-agent.json",
+        "new": "amos-quantum-canon-agent.json"
+      },
+      {
+        "old": "amos-quantum-omega-cognitive-architecture-agent.json",
+        "new": "amos-quantum-cognitive-architecture-agent.json"
+      },
+      {
+        "old": "amos-quantum-omega-final-report-agent.json",
+        "new": "amos-quantum-agent.json"
+      },
+      {
+        "old": "amos-quantum-os-full-spec-agent.json",
+        "new": "amos-quantum-os-agent-2.json"
+      },
+      {
+        "old": "amos-quantum-physics-knowledge-base-full-agent.json",
+        "new": "amos-quantum-physics-knowledge-base-agent.json"
+      },
+      {
+        "old": "amos-quantum-processor-fleet-full-agent.json",
+        "new": "amos-quantum-processor-fleet-agent-2.json"
+      },
+      {
+        "old": "amos-quantum-processor-fleet-real-spec-full-agent.json",
+        "new": "amos-quantum-processor-fleet-real-agent.json"
+      },
+      {
+        "old": "amos-quantum-regime-risk-full-agent.json",
+        "new": "amos-quantum-regime-risk-agent.json"
+      },
+      {
+        "old": "amos-quantum-stack-core7-full-spec-agent.json",
+        "new": "amos-quantum-stack-agent-2.json"
+      },
+      {
+        "old": "amos-quantum-stack-core7-full-agent.json",
+        "new": "amos-quantum-stack-agent-3.json"
+      },
+      {
+        "old": "amos-quantum-stack-core7-v0-agent.json",
+        "new": "amos-quantum-stack-agent-4.json"
+      },
+      {
+        "old": "amos-quantum-stack-core7-agent.json",
+        "new": "amos-quantum-stack-agent-5.json"
+      },
+      {
+        "old": "amos-quantum-stack-full-integration-agent.json",
+        "new": "amos-quantum-stack-integration-agent.json"
+      },
+      {
+        "old": "amos-quantum-supremacy-integration-full-agent.json",
+        "new": "amos-quantum-supremacy-integration-agent-2.json"
+      },
+      {
+        "old": "amos-rg-fractal-bridge-deep-full-agent.json",
+        "new": "amos-rg-fractal-bridge-deep-agent.json"
+      },
+      {
+        "old": "amos-science-engine-v0-sector-packs7-agent.json",
+        "new": "amos-science-engine-sector-packs7-agent.json"
+      },
+      {
+        "old": "amos-scientific-super-vinfinity-agent.json",
+        "new": "amos-scientific-agent-2.json"
+      },
+      {
+        "old": "amos-scientific-engine-v0-unipower4-agent.json",
+        "new": "amos-scientific-engine-unipower4-agent.json"
+      },
+      {
+        "old": "amos-scientific-kernel-v0-agent.json",
+        "new": "amos-scientific-kernel-agent.json"
+      },
+      {
+        "old": "amos-si-engine-full-agent.json",
+        "new": "amos-si-engine-agent-2.json"
+      },
+      {
+        "old": "amos-signal-processing-engine-v0-agent.json",
+        "new": "amos-signal-processing-engine-agent-2.json"
+      },
+      {
+        "old": "amos-signal-processing-kernel-v0-agent.json",
+        "new": "amos-signal-processing-kernel-agent.json"
+      },
+      {
+        "old": "amos-simulation-kernel-v0-agent.json",
+        "new": "amos-simulation-kernel-agent-2.json"
+      },
+      {
+        "old": "amos-strategy-game-super-agent.json",
+        "new": "amos-strategy-game-agent.json"
+      },
+      {
+        "old": "amos-strict-fractal-30000-quantum-atlas-agent.json",
+        "new": "amos-strict-fractal-quantum-atlas-agent.json"
+      },
+      {
+        "old": "amos-super-engine-vomni-x1000-agent.json",
+        "new": "amos-engine-agent.json"
+      },
+      {
+        "old": "amos-super-fabrication-factory-agent.json",
+        "new": "amos-fabrication-factory-agent.json"
+      },
+      {
+        "old": "amos-super-factory-engine-agent.json",
+        "new": "amos-factory-engine-agent.json"
+      },
+      {
+        "old": "amos-super-kernel-engine-agent.json",
+        "new": "amos-kernel-engine-agent.json"
+      },
+      {
+        "old": "amos-super-mind-os-agent.json",
+        "new": "amos-mind-os-agent.json"
+      },
+      {
+        "old": "amos-super-mind-os-systems-agent.json",
+        "new": "amos-mind-os-systems-agent.json"
+      },
+      {
+        "old": "amos-super-omega-brain-agent.json",
+        "new": "amos-brain-agent.json"
+      },
+      {
+        "old": "amos-tech-quantum-augmentation-7layer-full-agent.json",
+        "new": "amos-tech-quantum-augmentation-7layer-agent.json"
+      },
+      {
+        "old": "amos-tech-quantum-engine-v0-domains7-agent.json",
+        "new": "amos-tech-quantum-engine-agent-2.json"
+      },
+      {
+        "old": "amos-tech-quantum-engine-vinfinity-agent.json",
+        "new": "amos-tech-quantum-engine-agent-3.json"
+      },
+      {
+        "old": "amos-tech-quantum-engine-vinfinity-full-agent.json",
+        "new": "amos-tech-quantum-engine-agent-4.json"
+      },
+      {
+        "old": "amos-tensor-registry-full-agent.json",
+        "new": "amos-tensor-registry-agent-2.json"
+      },
+      {
+        "old": "amos-tensor-registry-contracts-full-agent.json",
+        "new": "amos-tensor-registry-contracts-agent-2.json"
+      },
+      {
+        "old": "amos-tests-logic-bridge-full-agent.json",
+        "new": "amos-tests-logic-bridge-agent.json"
+      },
+      {
+        "old": "amos-trang-grand-full-logic-spec-agent.json",
+        "new": "amos-trang-grand-logic-agent.json"
+      },
+      {
+        "old": "amos-trang-grand-system-codex-full-agent.json",
+        "new": "amos-trang-grand-system-codex-agent-2.json"
+      },
+      {
+        "old": "amos-trang-grand-system-full-agent.json",
+        "new": "amos-trang-grand-system-agent.json"
+      },
+      {
+        "old": "amos-trang-master-equation-registry-agent.json",
+        "new": "amos-trang-equation-registry-agent.json"
+      },
+      {
+        "old": "amos-trang-reality-architecture-master-agent.json",
+        "new": "amos-trang-reality-architecture-agent-2.json"
+      },
+      {
+        "old": "amos-trang-∅-framework-formalization-agent.json",
+        "new": "amos-trang-empty-framework-formalization-agent.json"
+      },
+      {
+        "old": "amos-ubi-engine-v0-agent.json",
+        "new": "amos-ubi-engine-agent.json"
+      },
+      {
+        "old": "amos-ubi-kernel-full-agent.json",
+        "new": "amos-ubi-kernel-agent.json"
+      },
+      {
+        "old": "amos-ulk-full-spec-agent.json",
+        "new": "amos-ulk-agent.json"
+      },
+      {
+        "old": "amos-unified-coding-engine-v0-domains7-agent.json",
+        "new": "amos-unified-coding-engine-agent.json"
+      },
+      {
+        "old": "amos-universe-brain-super-engine-agent.json",
+        "new": "amos-universe-brain-engine-agent.json"
+      },
+      {
+        "old": "amos-universe-kernel-vinfinity-agent.json",
+        "new": "amos-universe-kernel-agent.json"
+      },
+      {
+        "old": "amos-universe-os-full-bundle-agent.json",
+        "new": "amos-universe-os-bundle-agent.json"
+      },
+      {
+        "old": "amos-universe-os-master-spec-agent.json",
+        "new": "amos-universe-os-agent.json"
+      },
+      {
+        "old": "amos-universe-total-canon-full-agent.json",
+        "new": "amos-universe-total-canon-agent.json"
+      },
+      {
+        "old": "amos-universe-total-canon-spec-agent.json",
+        "new": "amos-universe-total-canon-agent-2.json"
+      },
+      {
+        "old": "amos-unknown-unknown-registry-full-agent.json",
+        "new": "amos-unknown-unknown-registry-agent.json"
+      },
+      {
+        "old": "amos-utc-master-file-full-agent.json",
+        "new": "amos-utc-file-agent.json"
+      },
+      {
+        "old": "amos-utc-master-file-agent.json",
+        "new": "amos-utc-file-agent-2.json"
+      },
+      {
+        "old": "amos-vn-driver-charging-super-agent.json",
+        "new": "amos-vn-driver-charging-agent.json"
+      },
+      {
+        "old": "amos-vn-omnistructure-super-x100k-agent.json",
+        "new": "amos-vn-omnistructure-agent.json"
+      },
+      {
+        "old": "amos-waves-journey-v1-agent.json",
+        "new": "amos-waves-journey-agent.json"
+      },
+      {
+        "old": "amos-wealth-equation-master-50000-agent.json",
+        "new": "amos-wealth-equation-agent-2.json"
+      },
+      {
+        "old": "amos-wealth-game-50000-fractal-quantum-economy-agent.json",
+        "new": "amos-wealth-game-fractal-quantum-economy-agent.json"
+      }
+    ],
+    "descriptions_fixed": 0,
+    "depends_updated": 171
+  },
+  {
+    "root": "/Users/mac/Library/CloudStorage/GoogleDrive-phanqtrang@gmail.com/My Drive/Projects/.devin/agents",
+    "renames": [
+      {
+        "old": "amos-19x19-family-complete-agent.json",
+        "new": "amos-19x19-family-agent.json"
+      },
+      {
+        "old": "amos-19x19-four-layer-family-complete-full-agent.json",
+        "new": "amos-19x19-four-layer-family-agent.json"
+      },
+      {
+        "old": "amos-19x19-sparse-coupling-matrix-full-agent.json",
+        "new": "amos-19x19-sparse-coupling-matrix-agent.json"
+      },
+      {
+        "old": "amos-7-part-universe-canon-full-agent.json",
+        "new": "amos-7-part-universe-canon-agent.json"
+      },
+      {
+        "old": "amos-absolute-human-spec-agent.json",
+        "new": "amos-absolute-human-agent-2.json"
+      },
+      {
+        "old": "amos-absolute-human-omnistructure-full-agent.json",
+        "new": "amos-absolute-human-omnistructure-agent-2.json"
+      },
+      {
+        "old": "amos-absolute-logic-db-full-agent.json",
+        "new": "amos-absolute-logic-db-agent-2.json"
+      },
+      {
+        "old": "amos-absolute-omniverse-u-full-agent.json",
+        "new": "amos-absolute-omniverse-u-agent.json"
+      },
+      {
+        "old": "amos-agent-registry-schema-full-agent.json",
+        "new": "amos-agent-registry-schema-agent.json"
+      },
+      {
+        "old": "amos-ai-entropy-architecture-v2-agent.json",
+        "new": "amos-ai-entropy-architecture-agent-2.json"
+      },
+      {
+        "old": "amos-ai-equation-architecture-25000-agent.json",
+        "new": "amos-ai-equation-architecture-agent-2.json"
+      },
+      {
+        "old": "amos-all-domain-fractal-25000-quantum-math-master-agent.json",
+        "new": "amos-all-domain-fractal-quantum-math-agent.json"
+      },
+      {
+        "old": "amos-all-frameworks-bio-logical-computing-full-agent.json",
+        "new": "amos-all-frameworks-bio-logical-computing-agent.json"
+      },
+      {
+        "old": "amos-all-frameworks-canon-hierarchy-full-agent.json",
+        "new": "amos-all-frameworks-canon-hierarchy-agent-2.json"
+      },
+      {
+        "old": "amos-all-frameworks-master-agent.json",
+        "new": "amos-all-frameworks-agent.json"
+      },
+      {
+        "old": "amos-amos-architecture-spec-agent.json",
+        "new": "amos-amos-architecture-agent.json"
+      },
+      {
+        "old": "amos-amos-core-full-spec-agent.json",
+        "new": "amos-amos-core-agent.json"
+      },
+      {
+        "old": "amos-amos-core-full-agent.json",
+        "new": "amos-amos-core-agent-2.json"
+      },
+      {
+        "old": "amos-amos-core-full-runtime-agent.json",
+        "new": "amos-amos-core-runtime-agent.json"
+      },
+      {
+        "old": "amos-amos-os-masterfile-full-agent.json",
+        "new": "amos-amos-os-masterfile-agent-2.json"
+      },
+      {
+        "old": "amos-amos-os-masterfile-spec-agent.json",
+        "new": "amos-amos-os-masterfile-agent-3.json"
+      },
+      {
+        "old": "amos-arxiv-qfm-master-index-agent.json",
+        "new": "amos-arxiv-qfm-index-agent.json"
+      },
+      {
+        "old": "amos-automation-engine-v1-agent.json",
+        "new": "amos-automation-engine-agent.json"
+      },
+      {
+        "old": "amos-biology-cognition-engine-full-agent.json",
+        "new": "amos-biology-cognition-engine-agent-2.json"
+      },
+      {
+        "old": "amos-biology-fractal-25000-quantum-coherence-agent.json",
+        "new": "amos-biology-fractal-quantum-coherence-agent.json"
+      },
+      {
+        "old": "amos-bizfin-kernel-v0-agent.json",
+        "new": "amos-bizfin-kernel-agent.json"
+      },
+      {
+        "old": "amos-brain-core-cognitive-max-agent.json",
+        "new": "amos-brain-core-cognitive-agent.json"
+      },
+      {
+        "old": "amos-brain-master-os-agent.json",
+        "new": "amos-brain-os-agent.json"
+      },
+      {
+        "old": "amos-full-brain-os-agent.json",
+        "new": "amos-brain-os-agent-2.json"
+      },
+      {
+        "old": "amos-brain-master-os-core-agent.json",
+        "new": "amos-brain-os-core-agent.json"
+      },
+      {
+        "old": "amos-brain-master-os-gap-management-agent.json",
+        "new": "amos-brain-os-gap-management-agent.json"
+      },
+      {
+        "old": "amos-brain-quantum-enhancement-report-agent.json",
+        "new": "amos-brain-quantum-enhancement-agent.json"
+      },
+      {
+        "old": "amos-brain-superxc-ubi-cognitive-max-agent.json",
+        "new": "amos-brain-superxc-ubi-cognitive-agent.json"
+      },
+      {
+        "old": "amos-brain-v3-kernel-agent.json",
+        "new": "amos-brain-kernel-agent.json"
+      },
+      {
+        "old": "amos-business-finance-super-agent.json",
+        "new": "amos-business-finance-agent.json"
+      },
+      {
+        "old": "amos-c-canon-super-x100k-agent.json",
+        "new": "amos-c-canon-agent.json"
+      },
+      {
+        "old": "amos-c-canon-super-agent.json",
+        "new": "amos-c-canon-agent-2.json"
+      },
+      {
+        "old": "amos-c01-meta-logic-super-agent.json",
+        "new": "amos-c01-meta-logic-agent-2.json"
+      },
+      {
+        "old": "amos-c01-meta-logic-super-x100k-agent.json",
+        "new": "amos-c01-meta-logic-agent-3.json"
+      },
+      {
+        "old": "amos-c02-math-compute-super-x100k-agent.json",
+        "new": "amos-c02-math-compute-agent-2.json"
+      },
+      {
+        "old": "amos-c02-math-compute-super-agent.json",
+        "new": "amos-c02-math-compute-agent-3.json"
+      },
+      {
+        "old": "amos-c03-physics-cosmos-max-agent.json",
+        "new": "amos-c03-physics-cosmos-agent-2.json"
+      },
+      {
+        "old": "amos-c03-physics-cosmos-x3000-agent.json",
+        "new": "amos-c03-physics-cosmos-agent-3.json"
+      },
+      {
+        "old": "amos-c08-strategy-game-super-agent.json",
+        "new": "amos-c08-strategy-game-agent.json"
+      },
+      {
+        "old": "amos-c08-strategy-game-super-x100k-agent.json",
+        "new": "amos-c08-strategy-game-agent-2.json"
+      },
+      {
+        "old": "amos-c12-earth-ecology-super-agent.json",
+        "new": "amos-c12-earth-ecology-agent.json"
+      },
+      {
+        "old": "amos-canon-cryptographic-infrastructure-full-agent.json",
+        "new": "amos-canon-cryptographic-infrastructure-agent-2.json"
+      },
+      {
+        "old": "amos-cc05-mind-behavior-super-agent.json",
+        "new": "amos-cc05-mind-behavior-agent.json"
+      },
+      {
+        "old": "amos-cil-canon-integration-full-agent.json",
+        "new": "amos-cil-canon-integration-agent.json"
+      },
+      {
+        "old": "amos-coding-omega-agent.json",
+        "new": "amos-coding-agent-2.json"
+      },
+      {
+        "old": "amos-coding-omega-engine-agent.json",
+        "new": "amos-coding-engine-agent.json"
+      },
+      {
+        "old": "amos-coding-engine-v0-agent.json",
+        "new": "amos-coding-engine-agent-2.json"
+      },
+      {
+        "old": "amos-cognitive-architecture-matrix-governance-full-agent.json",
+        "new": "amos-cognitive-architecture-matrix-governance-agent.json"
+      },
+      {
+        "old": "amos-cognitive-max-ubi-quantum-fractal-agent.json",
+        "new": "amos-cognitive-ubi-quantum-fractal-agent.json"
+      },
+      {
+        "old": "amos-cognitive-substrate-full-agent.json",
+        "new": "amos-cognitive-substrate-agent-2.json"
+      },
+      {
+        "old": "amos-communication-omega-agent.json",
+        "new": "amos-communication-agent.json"
+      },
+      {
+        "old": "amos-consulting-engine-super-agent.json",
+        "new": "amos-consulting-engine-agent.json"
+      },
+      {
+        "old": "amos-consulting-super-x100k-agent.json",
+        "new": "amos-consulting-agent.json"
+      },
+      {
+        "old": "amos-control-systems-kernel-v0-agent.json",
+        "new": "amos-control-systems-kernel-agent-2.json"
+      },
+      {
+        "old": "amos-core-systems-full-agent.json",
+        "new": "amos-core-systems-agent.json"
+      },
+      {
+        "old": "amos-corp-doc-engine-super-agent.json",
+        "new": "amos-corp-doc-engine-agent.json"
+      },
+      {
+        "old": "amos-corp-doc-super-x100k-agent.json",
+        "new": "amos-corp-doc-agent.json"
+      },
+      {
+        "old": "amos-design-engine-v3-agent.json",
+        "new": "amos-design-engine-agent.json"
+      },
+      {
+        "old": "amos-design-language-engine-v0-cognitive4-agent.json",
+        "new": "amos-design-language-engine-agent.json"
+      },
+      {
+        "old": "amos-design-language-super-agent.json",
+        "new": "amos-design-language-agent.json"
+      },
+      {
+        "old": "amos-earth-ecology-super-full-agent.json",
+        "new": "amos-earth-ecology-agent.json"
+      },
+      {
+        "old": "amos-electrical-power-engine-v0-cognitive4-agent.json",
+        "new": "amos-electrical-power-engine-agent.json"
+      },
+      {
+        "old": "amos-emotion-engine-v0-core7-agent.json",
+        "new": "amos-emotion-engine-agent-2.json"
+      },
+      {
+        "old": "amos-engineering-and-mathematics-engine-v0-cognitive4-agent.json",
+        "new": "amos-engineering-and-mathematics-engine-agent-2.json"
+      },
+      {
+        "old": "amos-engineering-math-super-agent.json",
+        "new": "amos-engineering-math-agent-2.json"
+      },
+      {
+        "old": "amos-engineering-math-kernel-vinfinity-full-agent.json",
+        "new": "amos-engineering-math-kernel-agent-2.json"
+      },
+      {
+        "old": "amos-engineering-math-kernel-v0-agent.json",
+        "new": "amos-engineering-math-kernel-agent-3.json"
+      },
+      {
+        "old": "amos-entropy-lacunarity-viability-full-agent.json",
+        "new": "amos-entropy-lacunarity-viability-agent-2.json"
+      },
+      {
+        "old": "amos-equations-master-registry-agent.json",
+        "new": "amos-equations-registry-agent.json"
+      },
+      {
+        "old": "amos-ev-infra-super-x100k-agent.json",
+        "new": "amos-ev-infra-agent.json"
+      },
+      {
+        "old": "amos-expression-translation-vinfinity-agent.json",
+        "new": "amos-expression-translation-agent.json"
+      },
+      {
+        "old": "amos-formal-rscf-suite-v6-agent.json",
+        "new": "amos-formal-rscf-suite-agent.json"
+      },
+      {
+        "old": "amos-fractal-architecture-master-25000-agent.json",
+        "new": "amos-fractal-architecture-agent-2.json"
+      },
+      {
+        "old": "amos-fractal-architecture-framework-5000-agent.json",
+        "new": "amos-fractal-architecture-framework-agent-2.json"
+      },
+      {
+        "old": "amos-fractal-architecture-reality-full-agent.json",
+        "new": "amos-fractal-architecture-reality-agent-2.json"
+      },
+      {
+        "old": "amos-fractal-cognitive-architecture-v2-agent.json",
+        "new": "amos-fractal-cognitive-architecture-agent-2.json"
+      },
+      {
+        "old": "amos-fractal-equation-families-full-agent.json",
+        "new": "amos-fractal-equation-families-agent-2.json"
+      },
+      {
+        "old": "amos-fractal-forex-economy-master-agent.json",
+        "new": "amos-fractal-forex-economy-agent-2.json"
+      },
+      {
+        "old": "amos-fractal-quantum-500000-master-agent.json",
+        "new": "amos-fractal-quantum-500000-agent.json"
+      },
+      {
+        "old": "amos-fractal-runtime-cells-full-agent.json",
+        "new": "amos-fractal-runtime-cells-agent-2.json"
+      },
+      {
+        "old": "amos-full-architecture-complete-form-agent.json",
+        "new": "amos-architecture-form-agent.json"
+      },
+      {
+        "old": "amos-full-brain-os-architecture-agent.json",
+        "new": "amos-brain-os-architecture-agent.json"
+      },
+      {
+        "old": "amos-full-brain-os-canon-full-agent.json",
+        "new": "amos-brain-os-canon-agent.json"
+      },
+      {
+        "old": "amos-full-brain-os-canon-agent.json",
+        "new": "amos-brain-os-canon-agent-2.json"
+      },
+      {
+        "old": "amos-gap-registry-test-suite-full-agent.json",
+        "new": "amos-gap-registry-test-suite-agent.json"
+      },
+      {
+        "old": "amos-heritage-ancient-fractal-math-v2-agent.json",
+        "new": "amos-heritage-ancient-fractal-math-agent-2.json"
+      },
+      {
+        "old": "amos-vomni-kernel-master-agent.json",
+        "new": "amos-kernel-agent.json"
+      },
+      {
+        "old": "amos-vomni-master-kernel-full-agent.json",
+        "new": "amos-kernel-agent-2.json"
+      },
+      {
+        "old": "amos-kernel-super-vinfinity-agent.json",
+        "new": "amos-kernel-agent-3.json"
+      },
+      {
+        "old": "amos-khung-trang-full-architecture-agent.json",
+        "new": "amos-khung-trang-architecture-agent.json"
+      },
+      {
+        "old": "amos-khung-trang-full-equations-agent.json",
+        "new": "amos-khung-trang-equations-agent.json"
+      },
+      {
+        "old": "amos-khung-trang-master-equations-agent.json",
+        "new": "amos-khung-trang-equations-agent-2.json"
+      },
+      {
+        "old": "amos-legal-super-vinfinity-agent.json",
+        "new": "amos-legal-agent-2.json"
+      },
+      {
+        "old": "amos-logic-core-engine-v0-agent.json",
+        "new": "amos-logic-core-engine-agent.json"
+      },
+      {
+        "old": "amos-master-equation-agent.json",
+        "new": "amos-equation-agent.json"
+      },
+      {
+        "old": "amos-master-equation-cosmos-agent.json",
+        "new": "amos-equation-cosmos-agent.json"
+      },
+      {
+        "old": "amos-master-equation-cosmos-full-agent.json",
+        "new": "amos-equation-cosmos-agent-2.json"
+      },
+      {
+        "old": "amos-master-equation-registry-agent.json",
+        "new": "amos-equation-registry-agent.json"
+      },
+      {
+        "old": "amos-math-fractal-25000-quantum-bridge-agent.json",
+        "new": "amos-math-fractal-quantum-bridge-agent.json"
+      },
+      {
+        "old": "amos-medical-clinical-super-agent.json",
+        "new": "amos-medical-clinical-agent.json"
+      },
+      {
+        "old": "amos-meta-engines-index-vinfinity-agent.json",
+        "new": "amos-meta-engines-index-agent.json"
+      },
+      {
+        "old": "amos-meta-logic-super-agent.json",
+        "new": "amos-meta-logic-agent.json"
+      },
+      {
+        "old": "amos-monogram-engine-v0-dsc4-agent.json",
+        "new": "amos-monogram-engine-dsc4-agent.json"
+      },
+      {
+        "old": "amos-monogram-kernal-engine-v0-dsc4-agent.json",
+        "new": "amos-monogram-kernal-engine-dsc4-agent.json"
+      },
+      {
+        "old": "amos-multifractal-hurst-diagnostics-full-agent.json",
+        "new": "amos-multifractal-hurst-diagnostics-agent-2.json"
+      },
+      {
+        "old": "amos-multifractal-hurst-diagnostics-layer-full-agent.json",
+        "new": "amos-multifractal-hurst-diagnostics-layer-agent.json"
+      },
+      {
+        "old": "amos-nbi-engine-full-agent.json",
+        "new": "amos-nbi-engine-agent-2.json"
+      },
+      {
+        "old": "amos-omega-fx-platform-agent.json",
+        "new": "amos-fx-platform-agent.json"
+      },
+      {
+        "old": "amos-omega-fx-structural-engine-agent.json",
+        "new": "amos-fx-structural-engine-agent.json"
+      },
+      {
+        "old": "amos-omega-infinity-stack-agent.json",
+        "new": "amos-infinity-stack-agent.json"
+      },
+      {
+        "old": "amos-omega-infinity-stack-full-agent.json",
+        "new": "amos-infinity-stack-agent-2.json"
+      },
+      {
+        "old": "amos-omega-thinking-engine-agent.json",
+        "new": "amos-thinking-engine-agent.json"
+      },
+      {
+        "old": "amos-omega-thinking-engine-with-coding-agent.json",
+        "new": "amos-thinking-engine-with-coding-agent.json"
+      },
+      {
+        "old": "amos-omega-ultimate-integration-agent.json",
+        "new": "amos-integration-agent.json"
+      },
+      {
+        "old": "amos-omniverse-brain-max-power-agent.json",
+        "new": "amos-omniverse-brain-power-agent.json"
+      },
+      {
+        "old": "amos-operations-super-agent.json",
+        "new": "amos-operations-agent.json"
+      },
+      {
+        "old": "amos-optimization-kernel-v0-agent.json",
+        "new": "amos-optimization-kernel-agent-2.json"
+      },
+      {
+        "old": "amos-orchestrator-routing-x1000-agent.json",
+        "new": "amos-orchestrator-routing-agent.json"
+      },
+      {
+        "old": "amos-organism-os-python-arc-full-agent.json",
+        "new": "amos-organism-os-python-arc-agent-2.json"
+      },
+      {
+        "old": "amos-os-agent-v0-agent.json",
+        "new": "amos-os-agent-agent.json"
+      },
+      {
+        "old": "amos-physics-cosmos-engine-v0-cognitive4-agent.json",
+        "new": "amos-physics-cosmos-engine-agent.json"
+      },
+      {
+        "old": "amos-physics-cosmos-super-x3000-agent.json",
+        "new": "amos-physics-cosmos-agent.json"
+      },
+      {
+        "old": "amos-political-dynamics-kernel-v0-agent.json",
+        "new": "amos-political-dynamics-kernel-agent.json"
+      },
+      {
+        "old": "amos-probability-statistics-kernel-v0-agent.json",
+        "new": "amos-probability-statistics-kernel-agent-2.json"
+      },
+      {
+        "old": "amos-qci-claim-class-governance-full-agent.json",
+        "new": "amos-qci-claim-class-governance-agent-2.json"
+      },
+      {
+        "old": "amos-qcla-official-manual-full-agent.json",
+        "new": "amos-qcla-official-manual-agent.json"
+      },
+      {
+        "old": "amos-qfm-adversarial-hardening-full-agent.json",
+        "new": "amos-qfm-adversarial-hardening-agent-2.json"
+      },
+      {
+        "old": "amos-qfm-architecture-refinement-full-agent.json",
+        "new": "amos-qfm-architecture-refinement-agent-2.json"
+      },
+      {
+        "old": "amos-qfm-audit-family-15-layers-full-agent.json",
+        "new": "amos-qfm-audit-family-15-layers-agent.json"
+      },
+      {
+        "old": "amos-qfm-bridge-governance-entropy-lacunarity-full-agent.json",
+        "new": "amos-qfm-bridge-governance-entropy-lacunarity-agent.json"
+      },
+      {
+        "old": "amos-qfm-five-layer-architecture-full-agent.json",
+        "new": "amos-qfm-five-layer-architecture-agent.json"
+      },
+      {
+        "old": "amos-qfm-five-layer-master-router-agent.json",
+        "new": "amos-qfm-five-layer-router-agent.json"
+      },
+      {
+        "old": "amos-qfm-five-layer-master-router-v2-agent.json",
+        "new": "amos-qfm-five-layer-router-agent-2.json"
+      },
+      {
+        "old": "amos-qfm-five-layer-max-power-router-agent.json",
+        "new": "amos-qfm-five-layer-power-router-agent.json"
+      },
+      {
+        "old": "amos-qfm-governance-family-full-agent.json",
+        "new": "amos-qfm-governance-family-agent.json"
+      },
+      {
+        "old": "amos-qfm-max-power-9phase-pipeline-agent.json",
+        "new": "amos-qfm-power-9phase-pipeline-agent.json"
+      },
+      {
+        "old": "amos-qfm-max-power-agent.json",
+        "new": "amos-qfm-power-agent.json"
+      },
+      {
+        "old": "amos-qfm-max-power-v3-ultimate-agent.json",
+        "new": "amos-qfm-power-agent-2.json"
+      },
+      {
+        "old": "amos-qfm-max-power-v2-agent.json",
+        "new": "amos-qfm-power-agent-3.json"
+      },
+      {
+        "old": "amos-qft-yang-mills-mapping-full-agent.json",
+        "new": "amos-qft-yang-mills-mapping-agent.json"
+      },
+      {
+        "old": "amos-qls-official-manual-full-agent.json",
+        "new": "amos-qls-official-manual-agent.json"
+      },
+      {
+        "old": "amos-qls-ucp-collapse-governance-full-agent.json",
+        "new": "amos-qls-ucp-collapse-governance-agent-2.json"
+      },
+      {
+        "old": "amos-quantum-agent-ecosystem-full-agent.json",
+        "new": "amos-quantum-agent-ecosystem-agent.json"
+      },
+      {
+        "old": "amos-quantum-cloning-approximation-full-agent.json",
+        "new": "amos-quantum-cloning-approximation-agent.json"
+      },
+      {
+        "old": "amos-quantum-enhancement-complete-report-agent.json",
+        "new": "amos-quantum-enhancement-agent.json"
+      },
+      {
+        "old": "amos-quantum-enhancement-reports-agent.json",
+        "new": "amos-quantum-enhancement-agent-2.json"
+      },
+      {
+        "old": "amos-quantum-financial-tensor-field-full-agent.json",
+        "new": "amos-quantum-financial-tensor-field-agent-2.json"
+      },
+      {
+        "old": "amos-quantum-fractal-math-master-agent.json",
+        "new": "amos-quantum-fractal-math-agent-2.json"
+      },
+      {
+        "old": "amos-quantum-fractal-math-ultimate-agent.json",
+        "new": "amos-quantum-fractal-math-agent-3.json"
+      },
+      {
+        "old": "amos-quantum-fractal-math-ultimate-v2-agent.json",
+        "new": "amos-quantum-fractal-math-agent-4.json"
+      },
+      {
+        "old": "amos-quantum-fractal-math-convergence-master-agent.json",
+        "new": "amos-quantum-fractal-math-convergence-agent.json"
+      },
+      {
+        "old": "amos-quantum-fractal-math-master-index-agent.json",
+        "new": "amos-quantum-fractal-math-index-agent.json"
+      },
+      {
+        "old": "amos-quantum-fractal-math-max-power-agent.json",
+        "new": "amos-quantum-fractal-math-power-agent.json"
+      },
+      {
+        "old": "amos-quantum-library-bounds-invariants-full-agent.json",
+        "new": "amos-quantum-library-bounds-invariants-agent.json"
+      },
+      {
+        "old": "amos-quantum-library-qec-canonical-full-agent.json",
+        "new": "amos-quantum-library-qec-canonical-agent.json"
+      },
+      {
+        "old": "amos-quantum-library-qft-canonical-full-agent.json",
+        "new": "amos-quantum-library-qft-canonical-agent.json"
+      },
+      {
+        "old": "amos-quantum-library-qi-information-full-agent.json",
+        "new": "amos-quantum-library-qi-information-agent.json"
+      },
+      {
+        "old": "amos-quantum-library-qm-foundations-full-agent.json",
+        "new": "amos-quantum-library-qm-foundations-agent.json"
+      },
+      {
+        "old": "amos-quantum-library-v070-audit-full-agent.json",
+        "new": "amos-quantum-library-v070-audit-agent.json"
+      },
+      {
+        "old": "amos-quantum-library-v1-master-agent.json",
+        "new": "amos-quantum-library-agent.json"
+      },
+      {
+        "old": "amos-quantum-machine-learning-full-agent.json",
+        "new": "amos-quantum-machine-learning-agent.json"
+      },
+      {
+        "old": "amos-quantum-omega-brain-full-agent.json",
+        "new": "amos-quantum-brain-agent.json"
+      },
+      {
+        "old": "amos-quantum-omega-brain-full-spec-agent.json",
+        "new": "amos-quantum-brain-agent-2.json"
+      },
+      {
+        "old": "amos-quantum-omega-brain-agent.json",
+        "new": "amos-quantum-brain-agent-3.json"
+      },
+      {
+        "old": "amos-quantum-omega-brain-self-analysis-7pt-agent.json",
+        "new": "amos-quantum-brain-self-analysis-7pt-agent.json"
+      },
+      {
+        "old": "amos-quantum-omega-canon-agent.json",
+        "new": "amos-quantum-canon-agent.json"
+      },
+      {
+        "old": "amos-quantum-omega-cognitive-architecture-agent.json",
+        "new": "amos-quantum-cognitive-architecture-agent.json"
+      },
+      {
+        "old": "amos-quantum-omega-final-report-agent.json",
+        "new": "amos-quantum-agent.json"
+      },
+      {
+        "old": "amos-quantum-os-full-spec-agent.json",
+        "new": "amos-quantum-os-agent-2.json"
+      },
+      {
+        "old": "amos-quantum-physics-knowledge-base-full-agent.json",
+        "new": "amos-quantum-physics-knowledge-base-agent.json"
+      },
+      {
+        "old": "amos-quantum-processor-fleet-full-agent.json",
+        "new": "amos-quantum-processor-fleet-agent-2.json"
+      },
+      {
+        "old": "amos-quantum-processor-fleet-real-spec-full-agent.json",
+        "new": "amos-quantum-processor-fleet-real-agent.json"
+      },
+      {
+        "old": "amos-quantum-regime-risk-full-agent.json",
+        "new": "amos-quantum-regime-risk-agent.json"
+      },
+      {
+        "old": "amos-quantum-stack-core7-agent.json",
+        "new": "amos-quantum-stack-agent-2.json"
+      },
+      {
+        "old": "amos-quantum-stack-core7-full-agent.json",
+        "new": "amos-quantum-stack-agent-3.json"
+      },
+      {
+        "old": "amos-quantum-stack-core7-full-spec-agent.json",
+        "new": "amos-quantum-stack-agent-4.json"
+      },
+      {
+        "old": "amos-quantum-stack-core7-v0-agent.json",
+        "new": "amos-quantum-stack-agent-5.json"
+      },
+      {
+        "old": "amos-quantum-stack-full-integration-agent.json",
+        "new": "amos-quantum-stack-integration-agent.json"
+      },
+      {
+        "old": "amos-quantum-supremacy-integration-full-agent.json",
+        "new": "amos-quantum-supremacy-integration-agent-2.json"
+      },
+      {
+        "old": "amos-rg-fractal-bridge-deep-full-agent.json",
+        "new": "amos-rg-fractal-bridge-deep-agent.json"
+      },
+      {
+        "old": "amos-science-engine-v0-sector-packs7-agent.json",
+        "new": "amos-science-engine-sector-packs7-agent.json"
+      },
+      {
+        "old": "amos-scientific-super-vinfinity-agent.json",
+        "new": "amos-scientific-agent-2.json"
+      },
+      {
+        "old": "amos-scientific-engine-v0-unipower4-agent.json",
+        "new": "amos-scientific-engine-unipower4-agent.json"
+      },
+      {
+        "old": "amos-scientific-kernel-v0-agent.json",
+        "new": "amos-scientific-kernel-agent.json"
+      },
+      {
+        "old": "amos-si-engine-full-agent.json",
+        "new": "amos-si-engine-agent-2.json"
+      },
+      {
+        "old": "amos-signal-processing-engine-v0-agent.json",
+        "new": "amos-signal-processing-engine-agent-2.json"
+      },
+      {
+        "old": "amos-signal-processing-kernel-v0-agent.json",
+        "new": "amos-signal-processing-kernel-agent.json"
+      },
+      {
+        "old": "amos-simulation-kernel-v0-agent.json",
+        "new": "amos-simulation-kernel-agent-2.json"
+      },
+      {
+        "old": "amos-strategy-game-super-agent.json",
+        "new": "amos-strategy-game-agent.json"
+      },
+      {
+        "old": "amos-strict-fractal-30000-quantum-atlas-agent.json",
+        "new": "amos-strict-fractal-quantum-atlas-agent.json"
+      },
+      {
+        "old": "amos-super-engine-vomni-x1000-agent.json",
+        "new": "amos-engine-agent.json"
+      },
+      {
+        "old": "amos-super-fabrication-factory-agent.json",
+        "new": "amos-fabrication-factory-agent.json"
+      },
+      {
+        "old": "amos-super-factory-engine-agent.json",
+        "new": "amos-factory-engine-agent.json"
+      },
+      {
+        "old": "amos-super-kernel-engine-agent.json",
+        "new": "amos-kernel-engine-agent.json"
+      },
+      {
+        "old": "amos-super-mind-os-agent.json",
+        "new": "amos-mind-os-agent.json"
+      },
+      {
+        "old": "amos-super-mind-os-systems-agent.json",
+        "new": "amos-mind-os-systems-agent.json"
+      },
+      {
+        "old": "amos-super-omega-brain-agent.json",
+        "new": "amos-brain-agent.json"
+      },
+      {
+        "old": "amos-tech-quantum-augmentation-7layer-full-agent.json",
+        "new": "amos-tech-quantum-augmentation-7layer-agent.json"
+      },
+      {
+        "old": "amos-tech-quantum-engine-v0-domains7-agent.json",
+        "new": "amos-tech-quantum-engine-agent-2.json"
+      },
+      {
+        "old": "amos-tech-quantum-engine-vinfinity-agent.json",
+        "new": "amos-tech-quantum-engine-agent-3.json"
+      },
+      {
+        "old": "amos-tech-quantum-engine-vinfinity-full-agent.json",
+        "new": "amos-tech-quantum-engine-agent-4.json"
+      },
+      {
+        "old": "amos-tensor-registry-full-agent.json",
+        "new": "amos-tensor-registry-agent-2.json"
+      },
+      {
+        "old": "amos-tensor-registry-contracts-full-agent.json",
+        "new": "amos-tensor-registry-contracts-agent-2.json"
+      },
+      {
+        "old": "amos-tests-logic-bridge-full-agent.json",
+        "new": "amos-tests-logic-bridge-agent.json"
+      },
+      {
+        "old": "amos-trang-grand-full-logic-spec-agent.json",
+        "new": "amos-trang-grand-logic-agent.json"
+      },
+      {
+        "old": "amos-trang-grand-system-codex-full-agent.json",
+        "new": "amos-trang-grand-system-codex-agent-2.json"
+      },
+      {
+        "old": "amos-trang-grand-system-full-agent.json",
+        "new": "amos-trang-grand-system-agent.json"
+      },
+      {
+        "old": "amos-trang-master-equation-registry-agent.json",
+        "new": "amos-trang-equation-registry-agent.json"
+      },
+      {
+        "old": "amos-trang-reality-architecture-master-agent.json",
+        "new": "amos-trang-reality-architecture-agent-2.json"
+      },
+      {
+        "old": "amos-trang-∅-framework-formalization-agent.json",
+        "new": "amos-trang-empty-framework-formalization-agent.json"
+      },
+      {
+        "old": "amos-ubi-engine-v0-agent.json",
+        "new": "amos-ubi-engine-agent.json"
+      },
+      {
+        "old": "amos-ubi-kernel-full-agent.json",
+        "new": "amos-ubi-kernel-agent.json"
+      },
+      {
+        "old": "amos-ulk-full-spec-agent.json",
+        "new": "amos-ulk-agent.json"
+      },
+      {
+        "old": "amos-unified-coding-engine-v0-domains7-agent.json",
+        "new": "amos-unified-coding-engine-agent.json"
+      },
+      {
+        "old": "amos-universe-brain-super-engine-agent.json",
+        "new": "amos-universe-brain-engine-agent.json"
+      },
+      {
+        "old": "amos-universe-kernel-vinfinity-agent.json",
+        "new": "amos-universe-kernel-agent.json"
+      },
+      {
+        "old": "amos-universe-os-full-bundle-agent.json",
+        "new": "amos-universe-os-bundle-agent.json"
+      },
+      {
+        "old": "amos-universe-os-master-spec-agent.json",
+        "new": "amos-universe-os-agent.json"
+      },
+      {
+        "old": "amos-universe-total-canon-spec-agent.json",
+        "new": "amos-universe-total-canon-agent.json"
+      },
+      {
+        "old": "amos-universe-total-canon-full-agent.json",
+        "new": "amos-universe-total-canon-agent-2.json"
+      },
+      {
+        "old": "amos-unknown-unknown-registry-full-agent.json",
+        "new": "amos-unknown-unknown-registry-agent.json"
+      },
+      {
+        "old": "amos-utc-master-file-agent.json",
+        "new": "amos-utc-file-agent.json"
+      },
+      {
+        "old": "amos-utc-master-file-full-agent.json",
+        "new": "amos-utc-file-agent-2.json"
+      },
+      {
+        "old": "amos-vn-driver-charging-super-agent.json",
+        "new": "amos-vn-driver-charging-agent.json"
+      },
+      {
+        "old": "amos-vn-omnistructure-super-x100k-agent.json",
+        "new": "amos-vn-omnistructure-agent.json"
+      },
+      {
+        "old": "amos-waves-journey-v1-agent.json",
+        "new": "amos-waves-journey-agent.json"
+      },
+      {
+        "old": "amos-wealth-equation-master-50000-agent.json",
+        "new": "amos-wealth-equation-agent-2.json"
+      },
+      {
+        "old": "amos-wealth-game-50000-fractal-quantum-economy-agent.json",
+        "new": "amos-wealth-game-fractal-quantum-economy-agent.json"
+      }
+    ],
+    "descriptions_fixed": 28,
+    "depends_updated": 128
+  }
+]
