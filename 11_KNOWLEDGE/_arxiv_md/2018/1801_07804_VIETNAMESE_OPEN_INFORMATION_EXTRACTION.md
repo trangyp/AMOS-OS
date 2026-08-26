@@ -1051,7 +1051,7 @@ Proceedings of the 48th Annual Meeting of the Association for Computational
 Linguistics (ACL 2010), pp. 118-127, Uppsala, Sweden, 11-16 July 2010.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

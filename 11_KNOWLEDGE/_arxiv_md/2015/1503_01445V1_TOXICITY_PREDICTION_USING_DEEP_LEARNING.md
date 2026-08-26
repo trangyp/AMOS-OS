@@ -1186,7 +1186,7 @@ nal of Medicinal Chemistry, 47(18):4463–4470, August
 2004.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

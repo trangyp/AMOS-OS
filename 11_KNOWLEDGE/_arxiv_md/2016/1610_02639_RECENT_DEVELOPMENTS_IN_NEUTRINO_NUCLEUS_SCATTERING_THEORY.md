@@ -468,7 +468,7 @@ T. Sato, D. Uno and T.-S. H. Lee: Phys. Rev. C 67 065201 (2003)
 New York, 1989), Vol.19, Chap. 2.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

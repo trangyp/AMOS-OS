@@ -1671,7 +1671,7 @@ of both IEEE (2008) and ACM (2010). Recent awards: two of his papers obtained di
 in 2015 and 2018.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1314,7 +1314,7 @@ the required contradiction required to exclude the last case. This completes the
 proof.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

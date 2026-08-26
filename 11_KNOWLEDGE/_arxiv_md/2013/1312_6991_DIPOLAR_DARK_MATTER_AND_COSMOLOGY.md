@@ -587,7 +587,7 @@ bispectrum. Phys. Rev. D, 63:063001, 2001.
 2013.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

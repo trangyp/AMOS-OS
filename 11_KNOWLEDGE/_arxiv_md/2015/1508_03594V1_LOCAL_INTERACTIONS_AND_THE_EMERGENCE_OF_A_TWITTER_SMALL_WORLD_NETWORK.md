@@ -460,7 +460,7 @@ Milgram S (1967) The small world problem. Psychol Today 2: 60–67.
 De Sola Pool I, Kochen M (1979) Contacts and influence. Soc Networks 1: 5–51.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

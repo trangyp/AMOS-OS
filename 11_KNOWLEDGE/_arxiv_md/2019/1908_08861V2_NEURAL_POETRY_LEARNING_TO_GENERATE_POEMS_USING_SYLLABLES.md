@@ -710,7 +710,7 @@ In: Proceedings of the 2014 Conference on Empirical Methods in Natural Language
 Processing (EMNLP). pp. 670–680 (2014)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

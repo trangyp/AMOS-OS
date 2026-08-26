@@ -740,7 +740,7 @@ artefact which does not correspond physically to a covalent
 bond.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1450,7 +1450,7 @@ In our numerical experiments we found that often Φ(1) = Φ. When this is the ca
 to consider O(|Λ|) partitions only.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

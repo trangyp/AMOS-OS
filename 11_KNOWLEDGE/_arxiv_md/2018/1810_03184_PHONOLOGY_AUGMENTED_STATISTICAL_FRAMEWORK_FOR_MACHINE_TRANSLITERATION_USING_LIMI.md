@@ -2190,7 +2190,7 @@ Language Processing Grant (2011), and the NIH Ruth L. Kirschstein National
 Research Award (2004-2008).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

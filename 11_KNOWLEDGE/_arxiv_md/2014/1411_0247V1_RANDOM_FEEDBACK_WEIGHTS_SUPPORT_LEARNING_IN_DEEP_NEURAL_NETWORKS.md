@@ -1138,7 +1138,7 @@ Here s = (B˜y)T (B˜y).
 27
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

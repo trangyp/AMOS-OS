@@ -623,7 +623,7 @@ representations for bidirectional lstm recurrent neural network. In: HLT-NAACL.
 pp. 527–533 (2016)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1261,7 +1261,7 @@ Deyuan et al. [21]
 Table 1. Summary of properties of process-based TCM criteria.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

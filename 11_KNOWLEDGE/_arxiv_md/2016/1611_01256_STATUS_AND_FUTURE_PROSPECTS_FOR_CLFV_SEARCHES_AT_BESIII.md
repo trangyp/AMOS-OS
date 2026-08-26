@@ -222,7 +222,7 @@ Ward and Z. Was, PRD 63, 113009 (2001)
 23. M. Ablikim et al, Phys. Rev. D 87, 112007 (2013)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -825,7 +825,7 @@ no. 1, pp. 75–86, 2004.
 10
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

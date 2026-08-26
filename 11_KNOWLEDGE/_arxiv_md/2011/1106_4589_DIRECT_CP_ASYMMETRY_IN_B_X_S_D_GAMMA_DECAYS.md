@@ -457,7 +457,7 @@ References
 14. T. Hurth, T. Mannel, Phys. Lett. B 511, 196 (2001).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

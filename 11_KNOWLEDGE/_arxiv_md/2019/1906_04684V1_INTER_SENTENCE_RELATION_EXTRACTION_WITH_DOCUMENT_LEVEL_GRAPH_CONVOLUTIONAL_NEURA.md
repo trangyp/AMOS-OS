@@ -959,7 +959,7 @@ posed model.
 5https://www.tensorflow.org
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

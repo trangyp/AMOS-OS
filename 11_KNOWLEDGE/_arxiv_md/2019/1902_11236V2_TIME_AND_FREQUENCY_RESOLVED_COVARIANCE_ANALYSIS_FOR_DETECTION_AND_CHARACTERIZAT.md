@@ -820,7 +820,7 @@ and comparison of algorithms. Clinical Neurophysiology, 113(12):1873–1881.
 21
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

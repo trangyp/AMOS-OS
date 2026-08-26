@@ -382,7 +382,7 @@ al., Phys. Rev. B 51, 2363 (1995); P. Fendley et al., Phys. Rev. Lett. 75, 2196 
 10. M. Guigou, A. Popoﬀ, T. Martin, and A. Cr´epieux, cond-mat/0611627.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

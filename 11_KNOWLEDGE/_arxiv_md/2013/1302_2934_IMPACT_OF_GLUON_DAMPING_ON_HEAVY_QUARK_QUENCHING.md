@@ -291,7 +291,7 @@ Rev. C 84 (2011) 044905; X. Dong [for the STAR Collab.], arXiv:1210.6677 [nucl-e
 [16] P. B. Gossiaux, M. Nahrgang, M. Bluhm, T. Gousset, J. Aichelin, Quark Matter 2012 proceedings.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

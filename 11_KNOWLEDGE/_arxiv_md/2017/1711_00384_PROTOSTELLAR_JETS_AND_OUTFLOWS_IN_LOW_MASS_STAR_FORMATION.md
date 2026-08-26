@@ -748,7 +748,7 @@ M. N., & Inutsuka, S. 2015b, ApJL, 810, L26
 Wu, Y., Wei, Y., Zhao, M., et al. 2004, A&A, 426, 503
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

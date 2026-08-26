@@ -487,7 +487,7 @@ References
 39. G. Sigl and A. van Vliet, arXiv:1407.6577
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

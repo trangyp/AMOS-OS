@@ -605,7 +605,7 @@ Witten, I.H. and Frank, E. (2005). Data Mining: Practical machine learning tools
 (2nd ed.). San Francisco: Morgan Kaufmann.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

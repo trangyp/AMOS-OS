@@ -1093,7 +1093,7 @@ Perception, 2000. 29(10): p. 1209-1217.
 222. Chalmers, D.J., The virtual and the real. Disputatio, 2016.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

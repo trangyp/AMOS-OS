@@ -2561,7 +2561,7 @@ no. 3, 479–506.
 32
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

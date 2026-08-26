@@ -378,7 +378,7 @@ found in the environment.
 [31] 10 times in all HA sequences.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

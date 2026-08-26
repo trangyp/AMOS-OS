@@ -3249,7 +3249,7 @@ Phong, C., et al., Robust and tunable circadian rhythms from different
 domains. Proc Natl Acad Sci U S A, 2013. 110(3): p. 1124‐9.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

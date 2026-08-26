@@ -905,7 +905,7 @@ Conference on Spoken :Language Processing (Interspeech 2004),
 2729-2732, Jeju, Korea.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

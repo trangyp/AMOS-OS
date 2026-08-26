@@ -1935,7 +1935,7 @@ E-mail address, Sakai: sakai@kurume-nct.ac.jp
 (Sakai) Kurume National College of Technology, Fukuoka 830-8555, Japan.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -4714,7 +4714,7 @@ Appendix 9 - figure 2. The correlations between the fMRI signal-to-noise ratio (
 and the predicted imaging subscores in the healthy controls.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

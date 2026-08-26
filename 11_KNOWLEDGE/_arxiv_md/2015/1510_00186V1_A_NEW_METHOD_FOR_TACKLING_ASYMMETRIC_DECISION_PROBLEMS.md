@@ -703,7 +703,7 @@ tiﬁcial Intelligence, 195:291–315.
 with Chain Event Graphs, Artiﬁcial Intelligence, 174:889–909.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

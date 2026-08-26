@@ -1467,7 +1467,7 @@ Physical Review A, 40(8):4731, 1989.
 28
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

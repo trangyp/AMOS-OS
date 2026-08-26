@@ -525,7 +525,7 @@ R Heineman, Vesselin Shanov, Beyond graphene foam, a new form of three-dimension
 graphene for supercapacitor electrodes. Journal of Materials Chemistry A, 2016. 4(5): p. 11.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

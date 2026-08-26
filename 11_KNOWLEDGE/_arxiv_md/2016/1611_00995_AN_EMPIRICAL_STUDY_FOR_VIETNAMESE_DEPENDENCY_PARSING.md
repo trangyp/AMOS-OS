@@ -1116,7 +1116,7 @@ Association for Computational Linguistics: Human
 Language Technologies, pages 188–193.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

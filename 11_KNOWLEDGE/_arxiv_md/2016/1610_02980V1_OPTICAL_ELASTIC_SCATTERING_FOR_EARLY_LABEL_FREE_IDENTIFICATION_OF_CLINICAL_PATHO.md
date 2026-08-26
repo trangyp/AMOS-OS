@@ -566,7 +566,7 @@ Average correct classification rate: 93.0% ± 0.7%*
 * standard deviation over ten 10-fold cross-validations
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

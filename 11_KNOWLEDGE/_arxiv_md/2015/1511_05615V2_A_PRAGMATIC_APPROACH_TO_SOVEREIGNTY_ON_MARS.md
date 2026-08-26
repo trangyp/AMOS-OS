@@ -727,7 +727,7 @@ Governance Beyond Earth: Implications for Freedom. Springer; 2015. p. 43-50.
 [27] Goldman NC. American Space Law: International and Domestic. Univelt, San Diego; 1996.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -244,7 +244,7 @@ illness: Social network interventions' characteristics, effectiveness, and appli
 Issues in Mental Health Nursing, 26(6), 591-609.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

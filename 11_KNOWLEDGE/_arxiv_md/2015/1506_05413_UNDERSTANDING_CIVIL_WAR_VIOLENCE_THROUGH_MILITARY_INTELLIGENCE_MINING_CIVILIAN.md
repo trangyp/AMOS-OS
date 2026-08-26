@@ -1940,7 +1940,7 @@ of the American Statistical Association, 58(301), 236–244.
 31
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

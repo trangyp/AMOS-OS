@@ -846,7 +846,7 @@ probability in clinical diagnosis: a study using a computer
 simulation" Medical Decision Making, 1991, 11,38-41.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

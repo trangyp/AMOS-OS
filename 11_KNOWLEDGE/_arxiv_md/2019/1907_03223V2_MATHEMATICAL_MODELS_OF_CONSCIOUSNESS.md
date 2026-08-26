@@ -3776,7 +3776,7 @@ Munich Center for Mathematical Philosophy, Ludwig Maximilian University of Mu-
 nich, Geschwister-Scholl-Platz 1, 80539 Munich, Germany
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

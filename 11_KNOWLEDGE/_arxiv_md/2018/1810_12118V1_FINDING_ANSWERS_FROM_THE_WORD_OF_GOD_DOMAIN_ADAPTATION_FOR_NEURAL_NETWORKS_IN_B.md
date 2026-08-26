@@ -1005,7 +1005,7 @@ networks. In European conference on computer vision, pages 818–833. Springer,
 19
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

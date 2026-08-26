@@ -1585,7 +1585,7 @@ parameters on CIFAR-10 dataset: β1 = β2 = 1, β3 = 1.
 4https://github.com/google-research/simclr
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

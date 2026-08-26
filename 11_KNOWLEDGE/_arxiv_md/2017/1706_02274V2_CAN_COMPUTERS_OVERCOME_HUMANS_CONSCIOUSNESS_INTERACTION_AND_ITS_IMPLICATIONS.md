@@ -1067,7 +1067,7 @@ Verschure, “The Morphospace of Consciousness.”
 vol. 17, no. 3, pp. 887–910, Sep. 2008.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

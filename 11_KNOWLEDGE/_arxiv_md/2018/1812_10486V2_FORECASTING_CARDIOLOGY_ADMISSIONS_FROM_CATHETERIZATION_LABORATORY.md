@@ -392,7 +392,7 @@ Modelling and Forecasting Emergency Department Visits in a Medical Center in Sou
 vol. 7, pp. 1-7, 2017.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -866,7 +866,7 @@ flow trials showed larger evoked potential activation than the flow trials (t(18
 p=0.0001).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

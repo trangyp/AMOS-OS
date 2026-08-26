@@ -1132,7 +1132,7 @@ HCl pH 7.6. After total reduction of FMNox by NADH, ActVA (60 µM) was added. Th
 model.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

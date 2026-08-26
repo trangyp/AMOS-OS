@@ -1949,7 +1949,7 @@ Mixture model of Dynamic pedestrian-Agents, 2012 IEEE Conference on Computer Vis
 and Pattern Recognition, (2012), 2871–2878.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1280,7 +1280,7 @@ in false alarm detection in intensive care units,” Entropy, vol. 20, no. 3,
 p. 190, 2018.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

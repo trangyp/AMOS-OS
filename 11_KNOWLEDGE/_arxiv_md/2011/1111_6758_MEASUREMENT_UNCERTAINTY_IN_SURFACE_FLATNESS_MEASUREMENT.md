@@ -711,7 +711,7 @@ giá phép đo độ phẳng bàn máp. Tạp chí cơ khí châu âu, tập 38,
 học của bàn máp. Annals of CIRP, 1980 (trang 385-390) (tiếng Anh).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

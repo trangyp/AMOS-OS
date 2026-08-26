@@ -1006,7 +1006,7 @@ and virtual knots, J. Knot Theory Ramiﬁcations, 15 (2006) 1049–1059.
 20
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

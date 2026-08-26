@@ -1851,7 +1851,7 @@ To square both sides of the above inequality, and we complete the proof.
 □
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

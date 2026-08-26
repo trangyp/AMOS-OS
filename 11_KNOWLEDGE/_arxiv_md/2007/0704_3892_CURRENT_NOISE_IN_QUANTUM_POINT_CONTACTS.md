@@ -572,7 +572,7 @@ iat et al. (Elsevier, Amsterdam, 2005), cond-mat/0501208.
 40. A. Golub et al., Phys. Rev. Lett. 97, 186801 (2006).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

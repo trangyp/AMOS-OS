@@ -1524,7 +1524,7 @@ S4 Fig: Average phi plotted over time (node sampling = random walk, node sample 
 nodes, β = 0.6535, p=0.00026.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -872,7 +872,7 @@ Zapata, L. A., Palau, A., Galv´an-Madrid, R., et al.
 2015, MNRAS , 447, 1826
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

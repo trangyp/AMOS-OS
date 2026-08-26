@@ -510,7 +510,7 @@ arXiv:0901.0002.
 19. The NNPDF Collaboration, R. D. Ball et al., (2013), arXiv:1308.0598.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

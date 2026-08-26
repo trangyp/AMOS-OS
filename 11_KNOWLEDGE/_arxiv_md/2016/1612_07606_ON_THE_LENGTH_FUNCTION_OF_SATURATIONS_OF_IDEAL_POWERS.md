@@ -1086,7 +1086,7 @@ MATHEMATICS AND APPLIED SCIENCES, THANG LONG UNIVERSITY, HANOI, VIETNAM.
 E-mail address: quyph@fe.edu.vn
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

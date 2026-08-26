@@ -1417,7 +1417,7 @@ static ﬁeld problems, SIAM J. Control and Optim., 51, 3624–3651 (2013).
 21
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -2853,7 +2853,7 @@ estimation of R0 and secure vaccination coverage. J. R. Stat.
 Soc. Series B Stat. Methodol. 63, 705–715.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

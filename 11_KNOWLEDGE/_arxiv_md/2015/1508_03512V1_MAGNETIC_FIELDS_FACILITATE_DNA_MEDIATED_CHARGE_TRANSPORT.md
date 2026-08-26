@@ -739,7 +739,7 @@ H.; Jones, M.; Radman, M. EMBO J. 1986, 5, 3697. 
 Insert Table of Contents artwork here
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

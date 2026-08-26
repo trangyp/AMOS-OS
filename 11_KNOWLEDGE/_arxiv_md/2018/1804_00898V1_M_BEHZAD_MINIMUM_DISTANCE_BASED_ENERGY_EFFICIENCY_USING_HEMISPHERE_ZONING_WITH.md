@@ -672,7 +672,7 @@ Field of study
 Wireless Sensor Networks, Wireless Communication
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -906,7 +906,7 @@ Acta 1820 (1): 44–55
 sida S (2013) Bioinformatics 29 (1): 126-128
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

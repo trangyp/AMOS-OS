@@ -481,7 +481,7 @@ Kim, G. A. Mashour and R. E. Harris, Sci. Rep. 8, 243.
 (2018)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

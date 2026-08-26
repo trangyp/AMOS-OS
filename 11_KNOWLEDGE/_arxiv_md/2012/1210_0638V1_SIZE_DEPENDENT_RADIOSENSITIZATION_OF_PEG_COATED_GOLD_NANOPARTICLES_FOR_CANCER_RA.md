@@ -1544,7 +1544,7 @@ Zheng Y, Hunting DJ, Ayotte P, Sanche L.
 Radiosensitization of DNA by gold nanoparticles
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

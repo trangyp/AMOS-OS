@@ -870,7 +870,7 @@ In 13th International Workshop on Ontology Matching, pp. 76–116, 2018.
 tional Toxicology, pp. 100114, 2019.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

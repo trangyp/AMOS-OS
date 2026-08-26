@@ -4391,7 +4391,7 @@ rived Categories”, Progress in Mathematics, 88 (1990), 247–435.
 64
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

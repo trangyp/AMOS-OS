@@ -748,7 +748,7 @@ Electronics and Instrumentation Engineering, Vol. 2, Special Issue 1,
 December 2013, ISSN: 2278-8875.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

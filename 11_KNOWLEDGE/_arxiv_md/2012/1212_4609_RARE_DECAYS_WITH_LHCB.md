@@ -422,7 +422,7 @@ C. Bobeth et al., JHEP 1201 107 (2012).
 21. Y. Keum et al., Phys. Rev. D 72 014013 (2005).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

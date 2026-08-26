@@ -1423,7 +1423,7 @@ Denker (2018), On the extent of the moat ﬂow in axisymmetric
 sunspots, ASNA, 2018;00:1–8.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

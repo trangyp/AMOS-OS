@@ -284,7 +284,7 @@ N. Agrait, and J. M. Van Ruitenbeek. Nature, 395, 783
 13. J. J. Palacios, Phys. Rev. B 72, 125424 (2005).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

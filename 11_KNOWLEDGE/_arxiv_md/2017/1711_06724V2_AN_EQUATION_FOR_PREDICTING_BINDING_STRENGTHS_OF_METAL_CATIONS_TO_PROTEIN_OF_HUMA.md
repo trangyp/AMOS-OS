@@ -2152,7 +2152,7 @@ Pu-hTF complex (21.25±0.75) 43 and Ti-hTF (26.8) 79 are available and used to c
 Pu4+-hTF and Ti4+-hTF are in bold cases.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

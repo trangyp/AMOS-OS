@@ -904,7 +904,7 @@ Theory proposed here.
 20
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

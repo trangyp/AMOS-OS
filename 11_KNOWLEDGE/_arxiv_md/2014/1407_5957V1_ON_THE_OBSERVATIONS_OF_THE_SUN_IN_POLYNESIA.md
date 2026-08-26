@@ -381,7 +381,7 @@ I was warmly accepted by the
 participants of the conference.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

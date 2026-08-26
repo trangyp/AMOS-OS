@@ -1499,7 +1499,7 @@ possible that they all could be one theory and not the other. Please classify ea
 indicative of one theory or the other even if you are not sure of your answer.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -2601,7 +2601,7 @@ for semideﬁnite programming, SIAM Journal on Optimization, 20 (2010), pp. 1737
 32
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

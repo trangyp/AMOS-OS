@@ -3618,7 +3618,7 @@ people. A feast of entering into heaven. The
 two banks of Horus rejoice.”
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

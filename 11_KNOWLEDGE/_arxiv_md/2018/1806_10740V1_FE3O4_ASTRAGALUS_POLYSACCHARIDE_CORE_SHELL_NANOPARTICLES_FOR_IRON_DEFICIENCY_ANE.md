@@ -568,7 +568,7 @@ Figure 2. (Wang K. et al.)
 Figure 3. (Wang K. et al.)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -952,7 +952,7 @@ Zhao, X. P., Hoeksema, J. T., & Rich, N. B., 2002, Adv. Space Res., Vol. 29, No.
 Article number, page 9 of 9
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

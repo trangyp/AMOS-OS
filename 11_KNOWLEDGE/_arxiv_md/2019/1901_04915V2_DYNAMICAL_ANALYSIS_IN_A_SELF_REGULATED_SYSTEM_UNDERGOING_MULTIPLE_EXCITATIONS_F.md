@@ -4279,7 +4279,7 @@ Dynamical system modeling of self-regulated systems undergoing multiple excitati
 59
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

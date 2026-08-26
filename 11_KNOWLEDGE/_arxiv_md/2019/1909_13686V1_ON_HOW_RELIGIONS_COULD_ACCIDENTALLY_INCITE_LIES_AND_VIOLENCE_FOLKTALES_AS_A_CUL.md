@@ -1639,7 +1639,7 @@ religiously pluralistic society. International Journal of Offender Therapy and C
 Criminology, 61(15), 1739-1759. doi:10.1177/0306624X16657622
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

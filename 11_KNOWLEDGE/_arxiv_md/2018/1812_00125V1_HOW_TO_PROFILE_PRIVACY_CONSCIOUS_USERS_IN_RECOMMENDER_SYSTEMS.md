@@ -400,7 +400,7 @@ ence on Recommender Systems (RecSys 2012), pages 195–202. ACM Press, September
 6
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

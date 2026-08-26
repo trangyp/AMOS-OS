@@ -2172,7 +2172,7 @@ Waller D (1977) Optimisation of Quadratic Forms Associated with Graphs. Glasgow 
 27
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

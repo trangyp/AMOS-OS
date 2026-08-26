@@ -1790,7 +1790,7 @@ and passive authentication via touch biometrics: An
 experimental study on smartphones. In SOUPS, 2014.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

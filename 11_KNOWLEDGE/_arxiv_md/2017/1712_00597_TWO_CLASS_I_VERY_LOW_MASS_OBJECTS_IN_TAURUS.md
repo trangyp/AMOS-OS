@@ -474,7 +474,7 @@ Bourke, T. L., et al. 2006, ApJ, 649, L37
 Luhman, K. L. 2012, ARA&A, 50, 65
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

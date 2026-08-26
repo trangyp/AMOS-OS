@@ -1836,7 +1836,7 @@ GOS, Glasgow Outcome Scale; MCS, minimally conscious state; TBI, traumatic brain
 vegetative state/unresponsive wakefulness syndrome.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

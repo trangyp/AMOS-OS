@@ -424,7 +424,7 @@ doi:10.1103/PhysRevD.93.051104 [arXiv:1601.05037 [hep-ex]].
 11. M. Ghosh, Phys. Rev. D 93, no. 7, 073003 (2016) [arXiv:1512.02226 [hep-ph]].
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -3064,7 +3064,7 @@ lines) or the average bisector (solid lines).
 Article number, page 19 of 19
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

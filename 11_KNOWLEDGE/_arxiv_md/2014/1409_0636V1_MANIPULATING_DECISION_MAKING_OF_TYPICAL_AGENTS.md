@@ -1862,7 +1862,7 @@ as a fellow of the AAAS (American Association for the Advancement of
 Science) since October 2013.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

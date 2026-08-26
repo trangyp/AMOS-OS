@@ -3924,7 +3924,7 @@ as our plug-in target for NP classiﬁcation.
 50
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

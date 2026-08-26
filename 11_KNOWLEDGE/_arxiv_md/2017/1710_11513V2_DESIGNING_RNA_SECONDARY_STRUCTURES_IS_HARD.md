@@ -1088,7 +1088,7 @@ Computational Biology and Biomedical Informatics. ACM-BCB 2013, page 229, 2013.
 and auxiliary information. Nucleic acids research, 9(1):133–148, 1981.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

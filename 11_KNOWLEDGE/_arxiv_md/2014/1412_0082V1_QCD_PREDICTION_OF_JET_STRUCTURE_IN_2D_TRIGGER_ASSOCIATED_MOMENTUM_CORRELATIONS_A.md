@@ -1206,7 +1206,7 @@ Phys. J. C 70, 555 (2010).
 [29] P. Bartalini and L. Fano, arXiv:1003.4220.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

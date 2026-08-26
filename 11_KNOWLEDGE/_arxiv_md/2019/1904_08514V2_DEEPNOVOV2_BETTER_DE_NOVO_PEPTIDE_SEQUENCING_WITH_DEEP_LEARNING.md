@@ -450,7 +450,7 @@ and Illia Polosukhin. Attention is all you need. In Advances in Neural Informati
 9
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

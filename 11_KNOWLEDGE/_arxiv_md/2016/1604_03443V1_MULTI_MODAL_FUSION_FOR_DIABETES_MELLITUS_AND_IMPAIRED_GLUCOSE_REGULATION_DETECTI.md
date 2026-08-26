@@ -1376,7 +1376,7 @@ using quantitative chromatic feature,Expert Systems with Applications,
 2013, 40(9): 3738-3746.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

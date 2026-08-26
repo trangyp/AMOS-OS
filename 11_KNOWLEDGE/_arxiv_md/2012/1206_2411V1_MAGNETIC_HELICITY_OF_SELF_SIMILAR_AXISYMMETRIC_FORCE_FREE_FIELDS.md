@@ -713,7 +713,7 @@ poles in the Z direction. The length of each axis in the left panels is 100 sola
 axis in the right panels is 5 solar radius. The central red sphere in each panel shows the size of the Sun.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

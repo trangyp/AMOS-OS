@@ -2387,7 +2387,7 @@ p<.0001
 p<.0001
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

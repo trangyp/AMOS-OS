@@ -1248,7 +1248,7 @@ reactions become increasingly frequent, and of greater duration and size.
 28
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

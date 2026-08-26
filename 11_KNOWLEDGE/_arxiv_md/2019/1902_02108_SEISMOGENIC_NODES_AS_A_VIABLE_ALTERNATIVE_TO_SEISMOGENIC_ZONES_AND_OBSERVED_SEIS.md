@@ -893,7 +893,7 @@ losses due to incorrect seismic hazard estimates. Nat. Haz., 62, 927–935,
 http://dx.doi.org/10.1007/s11069- 012-0125-5.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

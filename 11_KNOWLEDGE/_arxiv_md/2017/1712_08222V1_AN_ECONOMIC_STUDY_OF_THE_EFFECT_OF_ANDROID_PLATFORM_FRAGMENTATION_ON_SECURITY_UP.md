@@ -2670,7 +2670,7 @@ into C1 + S1
  qmin2, respectively. ⊓⊔
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

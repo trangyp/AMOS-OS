@@ -1634,7 +1634,7 @@ Figure 1. A reproduced social diagram from one participant
 Figure 2. A screenshot of www.choraline.com
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

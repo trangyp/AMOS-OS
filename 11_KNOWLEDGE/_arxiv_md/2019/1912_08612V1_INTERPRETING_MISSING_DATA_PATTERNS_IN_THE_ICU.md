@@ -642,7 +642,7 @@ Pasko V, Batushkin V. Platelet aggregation in patients with heart failure of isc
 depends on blood levels of iron and bilirubin. Atherosclerosis. 2018 Aug 1;275:e145–6.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

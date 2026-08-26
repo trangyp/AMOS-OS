@@ -1689,7 +1689,7 @@ S. Laureys, and A. Barrett, PLOS One 10, 1 (2015).
 J. Reichardt, Chaos 21, 037107 (2011).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -2146,7 +2146,7 @@ Interface 9, 1224–32.
 19
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

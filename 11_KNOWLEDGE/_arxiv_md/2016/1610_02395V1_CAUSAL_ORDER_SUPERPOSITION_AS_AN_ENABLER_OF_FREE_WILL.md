@@ -258,7 +258,7 @@ online at: https://arxiv.org/abs/1608.01683
 [10] Stapp H P (2007) Mindful Universe (Springer, Berlin, Heidelberg, New York)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

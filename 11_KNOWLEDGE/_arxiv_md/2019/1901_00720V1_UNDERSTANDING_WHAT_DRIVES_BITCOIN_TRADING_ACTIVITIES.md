@@ -538,7 +538,7 @@ Yahoo (2018). DJI Real Time Price. Retrieved from https://finance.yahoo.com/quot
 April 19.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

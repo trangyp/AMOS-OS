@@ -1750,7 +1750,7 @@ solid line shows Equation (10) ﬁtted to all sunspots. The dashed curve is a pa
 sunspots. The error bars are the standard deviation of mean.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -427,7 +427,7 @@ with a Recurrent Neural Network, Proc. of SICE Annual Conf. 2010, FB03-1.pdf
 4
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

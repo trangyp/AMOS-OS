@@ -864,7 +864,7 @@ http://www.python.org
 25. MATLAB R2019a, The Mathworks Inc. Natick, Massachusetts.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

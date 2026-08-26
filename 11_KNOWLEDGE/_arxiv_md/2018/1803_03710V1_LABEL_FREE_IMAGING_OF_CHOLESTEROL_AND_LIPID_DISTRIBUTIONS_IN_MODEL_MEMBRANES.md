@@ -463,7 +463,7 @@ Membrane Lipids: 1, 2-Dipalmitoyl Phosphatidylcholine-d9 and-d62. Biochim. Bioph
 Acta (BBA)-Lipids Lipid Metab. 1977, 489 (2), 191–206.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

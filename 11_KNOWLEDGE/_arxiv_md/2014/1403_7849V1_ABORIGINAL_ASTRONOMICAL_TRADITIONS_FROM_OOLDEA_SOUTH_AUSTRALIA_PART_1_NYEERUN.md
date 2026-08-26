@@ -1396,7 +1396,7 @@ Australia and Oceania. He earned graduate degrees in astrophysics and Indigenous
 studies and works as a consultant curator at Sydney Observatory.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

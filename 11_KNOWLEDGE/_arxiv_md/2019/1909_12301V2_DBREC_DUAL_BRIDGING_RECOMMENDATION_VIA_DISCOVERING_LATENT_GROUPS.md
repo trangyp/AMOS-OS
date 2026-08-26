@@ -1483,7 +1483,7 @@ Collaborative Filtering and Semi-Supervised Learning: A Neural Approach for
 POI Recommendation. In KDD. ACM.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

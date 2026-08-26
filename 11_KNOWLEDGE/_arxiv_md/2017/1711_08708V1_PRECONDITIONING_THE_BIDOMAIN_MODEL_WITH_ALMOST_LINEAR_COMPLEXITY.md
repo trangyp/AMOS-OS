@@ -1726,7 +1726,7 @@ cardiac electric ﬁeld. Math. Methods Appl. Sci., 29(14):1631–1661, 2006.
 
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

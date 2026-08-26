@@ -445,7 +445,7 @@ E-mail address: ohsugi@rikkyo.ac.jp
 7
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -325,7 +325,7 @@ References
 14. Planck Collaboration XIII, A&A 536, A13 (2011).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

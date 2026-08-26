@@ -1384,7 +1384,7 @@ the fitted mean RD of the DOC patients after the exclusion of those with a CRS-R
 score of 23.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

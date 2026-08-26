@@ -1137,7 +1137,7 @@ Wittgenstein, L. (1958). Philosophical Investigations. Trans. G.E.M.Anscombe.
 Blackwell.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1782,7 +1782,7 @@ Center II in SOR from D.
 baarsii reacted with H2O2
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

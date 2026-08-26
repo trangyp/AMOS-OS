@@ -532,7 +532,7 @@ Wiesemeyer, H., Hezareh, T., Kreysa, E., et al. 2014,
 PASP, 126, 1027
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

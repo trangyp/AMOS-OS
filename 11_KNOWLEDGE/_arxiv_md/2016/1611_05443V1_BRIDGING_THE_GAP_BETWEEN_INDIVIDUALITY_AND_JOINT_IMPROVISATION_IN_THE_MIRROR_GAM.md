@@ -1670,7 +1670,7 @@ logical cybernetics, 110(2),151-169, 2016.
 25
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

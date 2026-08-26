@@ -570,7 +570,7 @@ and C. Paultre, Am. J. Physiol.
 Heart Circ. Physiol. 266, H1993 (1994).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

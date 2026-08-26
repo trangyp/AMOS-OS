@@ -531,7 +531,7 @@ arXiv:1607.00011 [hep-ph]
 23. A. Bungau, etal, arXiv:1205,5790 [physics-acc-ph]
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

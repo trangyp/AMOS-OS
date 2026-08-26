@@ -165,7 +165,7 @@ box. (C) The decision tree as visualized in Branch. (D) The search bar used to a
 split nodes to the decision tree.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

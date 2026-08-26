@@ -770,7 +770,7 @@ a functional connectivity toolbox for correlated and anticorre-
 lated brain networks. Brain connectivity, 2(3):125–141, 2012.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1584,7 +1584,7 @@ c
 ⃝2011 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

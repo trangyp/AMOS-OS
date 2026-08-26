@@ -1366,7 +1366,7 @@ to a latent variable is the number of its possible values.
 Figure 4. Joint clustering model for Phlegm-Dampness.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

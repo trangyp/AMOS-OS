@@ -778,7 +778,7 @@ D. L. Hocker, T. S. Ho, R. Wu, and H. Rabitz ,
 arXiv:1112.0333.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1621,7 +1621,7 @@ Turing, A. M. I.—COMPUTING MACHINERY AND INTELLIGENCE. Mind LIX, 433-460, doi:
 32 / 32
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

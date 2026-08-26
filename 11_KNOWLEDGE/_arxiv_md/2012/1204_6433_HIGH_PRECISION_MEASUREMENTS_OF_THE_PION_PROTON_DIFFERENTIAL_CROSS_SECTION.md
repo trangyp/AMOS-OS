@@ -1751,7 +1751,7 @@ Figure 5: Diﬀerential cross section of the elastic π−p-scattering as a func
 17. A.I. Baz, Zh.Eksp.Teor.Fiz. 33, 923 (1957)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

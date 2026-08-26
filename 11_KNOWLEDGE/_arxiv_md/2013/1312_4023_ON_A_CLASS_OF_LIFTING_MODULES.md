@@ -685,7 +685,7 @@ Department of Mathematics, Hacettepe University, 06550 Ankara, Turkey
 E-mail address: harmanci@hacettepe.edu.tr
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

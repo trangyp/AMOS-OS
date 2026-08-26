@@ -494,7 +494,7 @@ ex]].
 17. K. S. Babu and C. F. Kolda, Phys. Rev. Lett. 84, 228 (2000) [arXiv:hep-ph/9909476].
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

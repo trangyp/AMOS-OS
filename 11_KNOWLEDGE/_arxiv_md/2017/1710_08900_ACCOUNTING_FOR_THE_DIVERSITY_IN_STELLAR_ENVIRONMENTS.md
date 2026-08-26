@@ -370,7 +370,7 @@ ApJS, 192, 9
 Vaytet, N., & Haugbølle, T. 2016, A&A, 598, A116
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

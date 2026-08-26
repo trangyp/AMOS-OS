@@ -549,7 +549,7 @@ professor. His research interests are multimedia processing, coding satellite im
 processing  and  computer  vision.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

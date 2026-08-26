@@ -1228,7 +1228,7 @@ and β5 is low since the cluster β1β5 forms last, parallel to RT-β4.
 27
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

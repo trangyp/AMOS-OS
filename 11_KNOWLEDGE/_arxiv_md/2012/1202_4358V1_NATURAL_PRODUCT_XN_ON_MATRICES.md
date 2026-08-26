@@ -56687,7 +56687,7 @@ Florentin Smarandache got the 2011 New Mexico Book Award for
 Algebraic Structures. He can be contacted at smarand@unm.edu
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

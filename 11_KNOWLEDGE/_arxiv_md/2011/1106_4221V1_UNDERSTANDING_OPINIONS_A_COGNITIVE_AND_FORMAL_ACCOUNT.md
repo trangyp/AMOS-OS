@@ -812,7 +812,7 @@ varying graphs and social network analysis: Temporal indicators and metrics. SNA
 MAS 2011, 2010.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

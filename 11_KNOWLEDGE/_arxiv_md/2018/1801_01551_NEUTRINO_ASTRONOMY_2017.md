@@ -476,7 +476,7 @@ Atel,
 http://www.astronomerstelegram.org/?read=10817, 2017.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

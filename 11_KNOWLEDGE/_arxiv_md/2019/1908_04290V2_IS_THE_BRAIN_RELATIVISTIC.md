@@ -1534,7 +1534,7 @@ to 24 Months in Infants With Autism. J. Psychiatry 2012; 169(6): 589-600.
 Preussische Akademie der Wissenschaften, Sitzungsberichte, 1917 (part 1), 142–152.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

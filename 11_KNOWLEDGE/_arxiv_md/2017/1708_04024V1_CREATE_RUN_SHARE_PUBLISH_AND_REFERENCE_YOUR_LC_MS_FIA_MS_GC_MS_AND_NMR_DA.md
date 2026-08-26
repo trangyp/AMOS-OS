@@ -2383,7 +2383,7 @@ using nonlinear peak alignment, matching, and identification. Analytical Chemist
 2006;78:779-787.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

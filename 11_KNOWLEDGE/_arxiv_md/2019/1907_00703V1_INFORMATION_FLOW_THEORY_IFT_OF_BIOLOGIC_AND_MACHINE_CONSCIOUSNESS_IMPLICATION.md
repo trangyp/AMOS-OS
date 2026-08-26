@@ -804,7 +804,7 @@ photoreceptors with a vertebrate-type opsin in an invertebrate brain. Science (8
 ). 2004. doi:10.1126/science.1099955
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

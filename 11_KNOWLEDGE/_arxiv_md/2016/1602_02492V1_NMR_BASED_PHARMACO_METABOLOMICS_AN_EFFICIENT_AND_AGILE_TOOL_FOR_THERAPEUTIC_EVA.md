@@ -625,7 +625,7 @@ Ekman, D. R.; Fabian, E. Metabolomics in toxicology and preclinical research. Al
 applications. Toxicological Sciences 2010,  kfq358.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

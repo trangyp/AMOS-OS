@@ -786,7 +786,7 @@ of Thought Processes, pp.75-91, 1959.
 [11] Ashby, W.R. Design for a Brain, New York, Wiley, 1954.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

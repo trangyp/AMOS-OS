@@ -451,7 +451,7 @@ Balgrist Campus, BAA D, Lengghalde 5, 8092 Zurich
 patrick.schwab@hest.ethz.ch
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -994,7 +994,7 @@ hCG and this for the different treatments, DMSO versus ADX68692 (A), DMSO versus
 (B), and ADX68692 versus ADX68693 (C) as indicated.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

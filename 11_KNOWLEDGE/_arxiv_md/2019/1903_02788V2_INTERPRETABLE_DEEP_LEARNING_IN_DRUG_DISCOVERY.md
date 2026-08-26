@@ -926,7 +926,7 @@ cient python library for de novo molecular generation. Science and Technology of
 Advanced Materials 18(1), 972–976 (2017)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -896,7 +896,7 @@ Lys48-NH3
 21
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

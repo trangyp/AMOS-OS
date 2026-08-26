@@ -294,7 +294,7 @@ Decision Process: Opportunities for Decision Support Tools to Help. In Proceedin
 Factors in Computing Systems (CHI ’16). ACM, New York, NY, USA, 4477–4488. https://doi.org/10.1145/2858036.2858373
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

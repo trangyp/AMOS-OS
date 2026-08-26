@@ -963,7 +963,7 @@ conferences. Currently, he is interested in: 1) high performance computing,
 dynamical systems with application to data hiding and privacy.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -298,7 +298,7 @@ ph.HE] (2013)
 14. The Pierre Auger Coll., arXiv:1307.0226 [astro-ph.IM] (2013)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

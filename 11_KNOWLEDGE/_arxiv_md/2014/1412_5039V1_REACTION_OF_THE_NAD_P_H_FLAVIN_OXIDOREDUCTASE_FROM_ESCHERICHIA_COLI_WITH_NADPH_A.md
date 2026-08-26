@@ -972,7 +972,7 @@ s-1, k2 = 52 s-1, k3 = 31 s-1, k4 = 9.6 s-1. The dashed line is the spectrum of 
 (37 M) and Rf (147 M) in buffer A.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1793,7 +1793,7 @@ Würthwein E. and Fischer A. A The Text of the Old Testament: An Introduction to
 translated by Erroll F. Rhodes. Eerdmans (Grand Rapids), 2014.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

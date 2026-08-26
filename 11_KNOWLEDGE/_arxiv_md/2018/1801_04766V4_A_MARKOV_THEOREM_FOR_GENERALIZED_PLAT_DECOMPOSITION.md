@@ -1432,7 +1432,7 @@ e-mail: bostjan.gabrovsek@fmf.uni-lj.si
 30
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

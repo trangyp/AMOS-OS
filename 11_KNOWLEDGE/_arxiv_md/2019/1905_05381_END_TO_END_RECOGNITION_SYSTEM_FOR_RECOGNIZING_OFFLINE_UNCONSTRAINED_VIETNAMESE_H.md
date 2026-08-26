@@ -721,7 +721,7 @@ IEEE-RIVF International Conference on Computing and
 Communication Technologies, pp. 147–151, 2013.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1396,7 +1396,7 @@ Ta-You Wu and Y.C.Lee The Clock Paradox in the Relativity Theory Int.J.Theor.Phy
 (1972) 5, 307-323
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

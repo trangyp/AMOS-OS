@@ -147,7 +147,7 @@ Figure 2:   The number of cancers in 180 female rats as a function of the absorp
 radio frequency radiation.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

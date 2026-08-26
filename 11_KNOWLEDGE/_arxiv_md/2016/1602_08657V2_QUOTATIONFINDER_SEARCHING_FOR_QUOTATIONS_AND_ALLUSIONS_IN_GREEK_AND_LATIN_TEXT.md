@@ -170,7 +170,7 @@ Tischer U., Binternagel A. (eds.) Fremde Rede – Eigene Rede. Zitieren und verw
 Lang (Frankfurt a.M.) 2010:93–109.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

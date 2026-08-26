@@ -1404,7 +1404,7 @@ Zhang, Y., & Kwok, S. 2015, ApJ, 728, 37
 Zhu,C., Lu, G., S & Wang, Z. 2015, MNRAS, 451, 1561
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

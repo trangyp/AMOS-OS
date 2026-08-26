@@ -941,7 +941,7 @@ perception. Biological cybernetics, 90(1):33–40, 2004.
 23
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

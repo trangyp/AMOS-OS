@@ -387,7 +387,7 @@ Saman Parvaneh
 saman.parvaneh@philips.com
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

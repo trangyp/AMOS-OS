@@ -860,7 +860,7 @@ correlate of cortical idling: A review,” International Journal of
 Psychophysiology, vol. 24, no. 1-2, pp. 39-46, Nov. 1996.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -462,7 +462,7 @@ extraction gold standard. WebSci2013 ACM 2013.
 15. Good B, Su A: Crowdsourcing for bioinformatics. Bioinformatics 2013, 29(16):1925-1933.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

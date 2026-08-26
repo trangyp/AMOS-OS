@@ -549,7 +549,7 @@ reduction relative to the cost-optimum without any constraints
 with and without transmission grid.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

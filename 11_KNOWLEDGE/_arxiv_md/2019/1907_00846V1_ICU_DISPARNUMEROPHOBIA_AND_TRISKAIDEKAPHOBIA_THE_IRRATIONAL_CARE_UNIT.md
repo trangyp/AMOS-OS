@@ -253,7 +253,7 @@ Care Med. 2001;164:122–30.
 6/6
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

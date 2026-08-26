@@ -1458,7 +1458,7 @@ Received November 2017; Revised May 2018; Revised November 2018; Accepted Januar
 Proc. ACM Interact. Mob. Wearable Ubiquitous Technol., Vol. 3, No. 1, Article 1. Publication date: March 2019.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

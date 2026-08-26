@@ -198,7 +198,7 @@ ics doctoral program, Ph.D. thesis, University of Central Florida (2007).
 [7] S. Konar and S. Das, Pramana 62, 1241 (2004). arXiv:hep-ph/0209259.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1019,7 +1019,7 @@ V. K. Oikonomou, Phys. Rev. D 99 (2019) 044050 [arXiv:1811.07790].
 [34] G. Hikmawan, J. Soda, A. Suroso, and F. P. Zen, Phys. Rev. D 93 (2016) 068301 [arXiv:1512.00222].
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

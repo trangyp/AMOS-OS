@@ -550,7 +550,7 @@ www.iep.utm.edu/lp-argue.
 [34] R. Srikanth, Uncomputability, causality and cognition (2013), under preparation.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

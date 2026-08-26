@@ -1752,7 +1752,7 @@ Yang, J.-Y., & Li, Y. 2007, MNRAS, 375, 403
 Zhang, Q.-S., & Li, Y. 2009, RAA, 9, 585
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

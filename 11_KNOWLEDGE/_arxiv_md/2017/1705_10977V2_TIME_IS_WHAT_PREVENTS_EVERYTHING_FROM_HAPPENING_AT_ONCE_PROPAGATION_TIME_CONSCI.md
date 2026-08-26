@@ -2175,7 +2175,7 @@ MaxG
 Fig. 9: Inﬂuence spread vs p: (a-c) p = 0.05; (d-f) p = 0.1.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

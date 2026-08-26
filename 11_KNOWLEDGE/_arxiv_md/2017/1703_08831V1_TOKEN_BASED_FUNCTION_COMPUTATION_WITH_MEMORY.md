@@ -2021,7 +2021,7 @@ H.-K. Hwang and S. Janson, “Local limit theorems for ﬁnite and inﬁnite urn
 vol. 51, no. 1, pp. 125-131, 1989.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

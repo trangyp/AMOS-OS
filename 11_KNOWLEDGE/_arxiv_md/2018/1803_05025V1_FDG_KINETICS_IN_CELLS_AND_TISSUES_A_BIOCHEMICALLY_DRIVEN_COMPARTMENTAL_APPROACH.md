@@ -2553,7 +2553,7 @@ Wernick MN, Aarsvold JN (2004) Emission Tomography: The Fundamentals
 of PET and SPECT. Elsevier Academic Press, San Diego, pp 499–535
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

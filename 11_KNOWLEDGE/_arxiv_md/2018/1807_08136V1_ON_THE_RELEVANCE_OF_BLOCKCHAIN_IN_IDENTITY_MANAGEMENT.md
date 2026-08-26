@@ -853,7 +853,7 @@ https://shocard.com/wp-content/uploads/2016/11/
 travel-identity-of-the-future.pdf[Accessed:2018-07-19]
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

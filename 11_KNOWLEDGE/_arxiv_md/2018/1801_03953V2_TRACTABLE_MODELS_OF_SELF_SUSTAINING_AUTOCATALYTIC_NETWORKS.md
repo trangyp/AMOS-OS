@@ -1193,7 +1193,7 @@ genes, Biology Direct, 7:1 (2012).
 19
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

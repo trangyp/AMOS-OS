@@ -662,7 +662,7 @@ near-optimal social network defense against sybil attacks”, In IEEE
 Symposium on Security and Privacy, pp. 305–317, 2008.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

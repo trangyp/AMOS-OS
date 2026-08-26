@@ -2637,7 +2637,7 @@ Yannaras, C.,  Postmodern Metaphysics, Brookline, MS: Holy Cross Orthodox  Press
 2004.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

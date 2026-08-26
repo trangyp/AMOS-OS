@@ -1475,7 +1475,7 @@ independent dynamic segments: an extended view of binding events. Trends Biochem
 description of reaction mechanism. Proc Natl Acad Sci USA 106(33):13737-13741
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

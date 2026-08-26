@@ -1836,7 +1836,7 @@ cidelman@eiu.edu, roberts@wustl.edu
 Algebraic & Geometric Topology XX (20XX)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

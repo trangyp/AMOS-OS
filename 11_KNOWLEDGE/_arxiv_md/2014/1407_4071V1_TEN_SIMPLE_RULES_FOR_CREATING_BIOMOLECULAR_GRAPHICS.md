@@ -174,7 +174,7 @@ PLoS Computational Biology (2010), 6(8): e1000918.
 http://dx.doi.org/10.1371/journal.pcbi.1000918 ♦ PMID 20865174
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

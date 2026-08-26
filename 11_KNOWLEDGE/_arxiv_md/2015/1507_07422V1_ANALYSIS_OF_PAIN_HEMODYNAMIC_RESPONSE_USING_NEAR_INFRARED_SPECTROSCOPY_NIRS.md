@@ -1392,7 +1392,7 @@ functional stimulation: is there a physiological meaning to the lag between para
 Neuroimage, vol. 36, pp. 100-107, 2007.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

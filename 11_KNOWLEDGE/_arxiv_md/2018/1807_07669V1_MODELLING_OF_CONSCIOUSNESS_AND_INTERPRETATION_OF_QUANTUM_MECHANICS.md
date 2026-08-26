@@ -7440,7 +7440,7 @@ Probabilities: Inverting Born’s Rule. arXiv:1105.4810v1[quant-ph]. (2011)
 117
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

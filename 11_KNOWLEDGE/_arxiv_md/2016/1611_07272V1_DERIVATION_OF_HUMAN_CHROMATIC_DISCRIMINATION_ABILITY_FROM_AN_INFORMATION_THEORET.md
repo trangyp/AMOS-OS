@@ -1376,7 +1376,7 @@ Intensity. PLoS ONE 6(5), e19248. doi:10.1371/journal.pone. 0019248.
 23
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -412,7 +412,7 @@ universe: critical behaviour and self-similarity,” Class. Quant. Grav. 30
 6
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

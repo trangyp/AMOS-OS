@@ -502,7 +502,7 @@ Zimmermann, M. (1989), ‘The Nervous System in the Context of Information Theor
 Physiology, R.F. Schmidt and G. Thews (Berlin: Springer).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

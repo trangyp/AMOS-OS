@@ -2015,7 +2015,7 @@ and Br, correspondingly. Color code corresponds to the same used in Figure 6.
 SOLA: manuscript.tex; 1 March 2022; 21:16; p. 29
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

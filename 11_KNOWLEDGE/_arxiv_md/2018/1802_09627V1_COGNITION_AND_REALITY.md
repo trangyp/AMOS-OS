@@ -622,7 +622,7 @@ Womelsdorf,T. & Fries,P. (2007) The role of neuronal synchronization in selectiv
 Current Opinion in Neurobiology,17, 154-160.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

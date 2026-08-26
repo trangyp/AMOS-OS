@@ -1398,7 +1398,7 @@ organization of voxel-based resting-state functional connectivity in the human b
 Neuroimage 43 528-39
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

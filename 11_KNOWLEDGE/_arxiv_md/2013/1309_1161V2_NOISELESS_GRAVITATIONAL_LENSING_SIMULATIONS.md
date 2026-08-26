@@ -1279,7 +1279,7 @@ Xu D. D. et al., 2009, MNRAS, 398, 1235
 c⃝2013 RAS, MNRAS 000, 1–13
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

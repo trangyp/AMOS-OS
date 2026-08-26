@@ -1008,7 +1008,7 @@ two categories: input and output phrases with three words, and input and output 
 14
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

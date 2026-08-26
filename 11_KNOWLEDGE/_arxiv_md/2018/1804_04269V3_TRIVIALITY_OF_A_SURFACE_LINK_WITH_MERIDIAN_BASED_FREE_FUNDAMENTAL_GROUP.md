@@ -263,7 +263,7 @@ Studies 60 (1966), 69-72.
 6
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

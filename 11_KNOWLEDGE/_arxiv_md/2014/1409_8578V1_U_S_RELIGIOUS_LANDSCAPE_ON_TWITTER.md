@@ -1171,7 +1171,7 @@ study of computer mediated religious communications.
 In Proceedings of CSCW, ACM (2006), 199–208.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

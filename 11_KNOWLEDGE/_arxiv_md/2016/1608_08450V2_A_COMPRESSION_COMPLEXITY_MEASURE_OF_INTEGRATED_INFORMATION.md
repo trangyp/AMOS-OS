@@ -2053,7 +2053,7 @@ above tables shows the hierarchy of these networks with respect to their <LZ ΦC
 3
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

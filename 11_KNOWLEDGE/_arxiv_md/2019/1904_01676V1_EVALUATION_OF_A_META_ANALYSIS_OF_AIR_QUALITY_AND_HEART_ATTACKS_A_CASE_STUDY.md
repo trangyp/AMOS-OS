@@ -2399,7 +2399,7 @@ Good
 2 General quality rating of study assigned by Mustafic et al. (2012).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

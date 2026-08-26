@@ -307,7 +307,7 @@ sectors Le-Minh, T., Nguyen, N. Thu., Shiokawa, K., & Tran-Quoc, Ha, 2017, Journ
 Geophysical Research: Space Physics, 122(6), 65436551.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

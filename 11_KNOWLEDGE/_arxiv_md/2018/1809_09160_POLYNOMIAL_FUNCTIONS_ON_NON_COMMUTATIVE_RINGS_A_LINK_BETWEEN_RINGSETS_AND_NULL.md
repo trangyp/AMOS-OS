@@ -513,7 +513,7 @@ gasse 24, 8010 Graz, Austria
 E-mail address: frisch@math.tugraz.at
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

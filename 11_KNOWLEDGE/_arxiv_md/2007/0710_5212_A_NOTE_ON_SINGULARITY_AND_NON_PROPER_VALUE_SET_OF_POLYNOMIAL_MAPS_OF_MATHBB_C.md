@@ -510,7 +510,7 @@ Institute of Mathematics
 E-mail address: nvchau@math.ac.vn
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

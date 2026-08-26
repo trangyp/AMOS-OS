@@ -1019,7 +1019,7 @@ possibilities: Essays on the importance of alternative possi-
 bilities. Routledge.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

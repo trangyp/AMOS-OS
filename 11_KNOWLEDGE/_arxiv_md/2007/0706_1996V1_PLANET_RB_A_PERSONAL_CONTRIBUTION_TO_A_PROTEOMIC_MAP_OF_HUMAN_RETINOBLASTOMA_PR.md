@@ -230,7 +230,7 @@ Radulescu, R.T. 2005. Potential extracellular roles of the tumor suppressor reti
 protein (RB): insulin-binding protein and beyond. Logical Biol. 5:122-124.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

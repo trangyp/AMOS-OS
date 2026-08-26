@@ -906,7 +906,7 @@ Keith, ApJ, 761, 84 (2012). DOI 10.1088/0004-637X/761/2/84
 10.1103/PhysRevD.87.064036
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

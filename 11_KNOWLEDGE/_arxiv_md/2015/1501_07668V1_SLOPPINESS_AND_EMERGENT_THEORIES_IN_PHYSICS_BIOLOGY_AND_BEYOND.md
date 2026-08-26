@@ -1562,7 +1562,7 @@ Royal Society of London B: Biological Sciences 280 (2013),
 10.1098/rspb.2012.2863.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

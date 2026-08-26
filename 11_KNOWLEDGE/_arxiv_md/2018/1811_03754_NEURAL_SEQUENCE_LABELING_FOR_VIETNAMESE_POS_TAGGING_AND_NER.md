@@ -743,7 +743,7 @@ Association for Computational Linguis-
 tics, 2003, pp. 142–147.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

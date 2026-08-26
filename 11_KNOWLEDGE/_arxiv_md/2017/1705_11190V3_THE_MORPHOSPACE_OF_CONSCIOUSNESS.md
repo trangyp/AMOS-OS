@@ -1237,7 +1237,7 @@ intelligence factor in the performance of human groups. Science 330(6004), 686â€
 stability and local memory. PLoS Biol 4(5), e120 (2006)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] Â· [[AMOS_RSCF_NODES]]
 
 ---
 

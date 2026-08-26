@@ -2503,7 +2503,7 @@ tions of the observations. Ann. Math. Statist. 15, 358-372.
 31
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

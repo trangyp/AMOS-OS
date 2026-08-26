@@ -672,7 +672,7 @@ analyzed with the parameter d = 3, .., 6 and τ = 1.
 9
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

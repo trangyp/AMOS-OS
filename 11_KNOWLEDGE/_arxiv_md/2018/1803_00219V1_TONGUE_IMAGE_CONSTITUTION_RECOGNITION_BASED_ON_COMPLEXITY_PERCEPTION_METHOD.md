@@ -1967,7 +1967,7 @@ techniques for lung cancer in CT images. Biomedical Signal Processing 
 https://doi.org/10.1016/j.bspc.2017.11.017
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

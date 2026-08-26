@@ -464,7 +464,7 @@ Sukhovoj A.M,. Khitrov V.A., Physics of Paricl. And Nuclei, 36(4) (2005)
 359.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

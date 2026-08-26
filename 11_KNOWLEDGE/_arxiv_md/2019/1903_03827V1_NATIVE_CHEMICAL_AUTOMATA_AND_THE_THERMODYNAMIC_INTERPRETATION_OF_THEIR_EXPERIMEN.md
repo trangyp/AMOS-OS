@@ -936,7 +936,7 @@ Bioﬁzika 9:306–311.
 21
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

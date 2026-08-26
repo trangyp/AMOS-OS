@@ -807,7 +807,7 @@ Tool for Dependency Parsing. In In Proceedings of the Sixth International
 Language Resources and Evaluation, LREC, 2008.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

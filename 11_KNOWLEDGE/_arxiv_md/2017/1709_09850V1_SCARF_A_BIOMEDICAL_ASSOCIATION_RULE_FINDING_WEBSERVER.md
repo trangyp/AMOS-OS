@@ -250,7 +250,7 @@ Alzheimer’s database. Archives of Gerontology and Geriatrics, 73, 300–307.
 5
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

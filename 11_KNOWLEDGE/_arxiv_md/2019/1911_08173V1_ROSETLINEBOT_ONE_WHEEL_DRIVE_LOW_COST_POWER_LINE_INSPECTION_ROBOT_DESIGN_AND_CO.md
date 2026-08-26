@@ -261,7 +261,7 @@ doi: 10.1109/TIE.2011.2159691
 International Journal of Applied Mathematics and Computer Science, Vol. 14, No. 4, pages 477-496.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

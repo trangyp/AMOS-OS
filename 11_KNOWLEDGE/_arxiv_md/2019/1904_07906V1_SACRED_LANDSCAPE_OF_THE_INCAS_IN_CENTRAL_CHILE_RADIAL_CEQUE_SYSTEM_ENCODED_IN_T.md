@@ -361,7 +361,7 @@ Peak elevation and name of mountains were found in at military geographic instit
 Supplementary Figures and Tables
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -747,7 +747,7 @@ ceedings of the 2013 International Conference on Control, Automation
 and Information Sciences (ICCAIS), IEEE. pp 48–52, 2013.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

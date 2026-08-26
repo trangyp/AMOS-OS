@@ -915,7 +915,7 @@ Fig. 6 The mean and standard deviation of the RMSE results as a function of the 
 BCLA, EM-R, median, and mean voting approaches. Inset: A close-up of the RMSE results when using 11 annotators or less.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

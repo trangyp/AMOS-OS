@@ -1359,7 +1359,7 @@ Santiago Apóstol y Virgen de la Candelaria del poblado de Belén, hacia el cent
 de los autores sobre un mapa cortesía de Google Maps.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

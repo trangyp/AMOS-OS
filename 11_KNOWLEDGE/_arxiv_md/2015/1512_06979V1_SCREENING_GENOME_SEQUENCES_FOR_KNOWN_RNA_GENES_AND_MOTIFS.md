@@ -911,7 +911,7 @@ discovery of small RNAs in Staphylococcus aureus reveals a riboregulator of cent
 metabolism. Nucleic Acids Res. 2010; 38:6620-36.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

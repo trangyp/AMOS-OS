@@ -421,7 +421,7 @@ in Birds. BIOPHYS J 78:707–718
 10. Mardia KV, Jupp PE (2000) Directional Statistics. John Wiley and Sons, Chichester
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

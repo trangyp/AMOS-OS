@@ -1328,7 +1328,7 @@ k1,··· ,km
 19/19
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

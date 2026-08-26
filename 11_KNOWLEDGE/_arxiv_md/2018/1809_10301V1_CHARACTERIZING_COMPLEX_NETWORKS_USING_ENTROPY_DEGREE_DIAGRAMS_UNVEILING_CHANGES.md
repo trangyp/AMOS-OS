@@ -575,7 +575,7 @@ Chialvo, and D. Nutt, Frontiers in Human Neuroscience 8, 20 (2014).
 21
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

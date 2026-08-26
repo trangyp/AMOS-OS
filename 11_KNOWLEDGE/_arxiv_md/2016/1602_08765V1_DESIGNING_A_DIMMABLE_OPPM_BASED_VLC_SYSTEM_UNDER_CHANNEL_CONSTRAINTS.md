@@ -932,7 +932,7 @@ detection channels,” IEEE Trans. Commun., vol. 37, no. 5, pp. 481–487,
 1989.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

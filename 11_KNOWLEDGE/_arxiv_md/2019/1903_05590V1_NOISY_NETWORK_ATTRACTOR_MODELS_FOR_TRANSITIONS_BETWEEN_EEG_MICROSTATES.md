@@ -1009,7 +1009,7 @@ for EEG microstate sequence analysis”. NeuroImage. 2015;125:1104–1106.
 16
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1433,7 +1433,7 @@ hueco en la construcción de ermitas asociado posiblemente a las erupciones de
 Timanfaya en la primera mitad del siglo XVIII.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

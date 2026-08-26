@@ -877,7 +877,7 @@ Zimmer, C. (1999). Life after chaos. Science, 284,83–86.
 24
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

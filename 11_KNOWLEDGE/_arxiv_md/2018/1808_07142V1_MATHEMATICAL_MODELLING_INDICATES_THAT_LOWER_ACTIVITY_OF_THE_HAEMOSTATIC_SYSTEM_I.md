@@ -667,7 +667,7 @@ Team, R. C. R: A language and environment for statistical computing. R Foundatio
 Computing (2016). <http://www.R-project.org/>.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

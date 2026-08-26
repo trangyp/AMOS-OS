@@ -1133,7 +1133,7 @@ the 20th International Conference on Computational
 Linguistics and Intelligent Text Processing.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

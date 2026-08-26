@@ -3661,7 +3661,7 @@ Phys. Rev. C 72, 064901 (2005).
 335, 261 (1990).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1170,7 +1170,7 @@ and Ratios of Complexity in Cellular Automata Rule Spaces, International Journal
 cation and Chaos, vol. 13, no. 9.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

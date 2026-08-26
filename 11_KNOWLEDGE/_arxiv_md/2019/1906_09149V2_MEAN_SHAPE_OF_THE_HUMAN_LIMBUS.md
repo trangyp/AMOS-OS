@@ -593,7 +593,7 @@ different directions of vertical gaze, Optom Vis Sci. 2006, 83:715–722.
 Refract Surg 1998;24(4):503-508.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

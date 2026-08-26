@@ -409,7 +409,7 @@ word vectors for 157 languages, arXiv Prepr. arXiv1802.06893, 2018.
 url: https://github.com/sonvx/word2vecVN
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

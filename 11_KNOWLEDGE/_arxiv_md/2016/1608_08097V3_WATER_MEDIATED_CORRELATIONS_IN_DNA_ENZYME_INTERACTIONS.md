@@ -2398,7 +2398,7 @@ Mechanics (Wiley, 1977).
 (New York, McGraw-Hill, 1980).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

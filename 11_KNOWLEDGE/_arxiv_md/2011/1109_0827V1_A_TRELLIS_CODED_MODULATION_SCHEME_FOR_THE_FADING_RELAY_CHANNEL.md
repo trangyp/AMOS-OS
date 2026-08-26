@@ -2994,7 +2994,7 @@ channels: Code construction and performance analysis”, IEEE J. Select.
 Areas Commun., Vol. SAC-7, pp. 1356-1368, Dec. 1989.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

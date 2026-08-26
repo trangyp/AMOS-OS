@@ -884,7 +884,7 @@ monocular stereopsis: an EEG study. M Uji, I Jentzsch, J Redburn, D Vishwanath -
 Neuropsychologia, 2019 - Elsevier
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

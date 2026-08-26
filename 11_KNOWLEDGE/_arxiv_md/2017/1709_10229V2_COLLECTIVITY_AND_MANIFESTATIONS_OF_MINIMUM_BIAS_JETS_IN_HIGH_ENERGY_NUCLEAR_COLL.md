@@ -1144,7 +1144,7 @@ References
 [19] J. Adam et al. (ALICE Collaboration), Phys. Rev. C 91, no. 6, 064905 (2015).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

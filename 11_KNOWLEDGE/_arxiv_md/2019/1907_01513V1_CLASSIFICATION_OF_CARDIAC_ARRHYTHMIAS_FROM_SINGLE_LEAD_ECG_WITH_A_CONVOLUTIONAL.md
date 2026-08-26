@@ -978,7 +978,7 @@ electrocardiogram classiﬁcation. In 2017 Computing
 in Cardiology (CinC), pages 1–4.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

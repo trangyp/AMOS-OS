@@ -1427,7 +1427,7 @@ and tyrosyl ring deiodinase activities in rat cerebrum, cerebellum, and
 hypothalamus. J Clin Invest 67, 1208-14.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -670,7 +670,7 @@ CreatedBy
 Table 5: Accuracy per relation.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

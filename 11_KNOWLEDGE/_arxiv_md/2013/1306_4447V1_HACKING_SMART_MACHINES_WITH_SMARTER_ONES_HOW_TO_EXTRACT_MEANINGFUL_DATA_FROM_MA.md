@@ -1876,7 +1876,7 @@ where H(S) represents the Entropy of the entire dataset and Sv is the subset of
 S for which attribute A has value v.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1778,7 +1778,7 @@ Theresienstraße 39, 80333 M¨unchen
 Email: hensel@math.lmu.de
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

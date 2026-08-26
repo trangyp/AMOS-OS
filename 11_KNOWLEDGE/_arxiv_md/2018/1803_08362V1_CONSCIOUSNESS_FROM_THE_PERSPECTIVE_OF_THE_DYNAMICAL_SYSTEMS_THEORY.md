@@ -747,7 +747,7 @@ Thanks are due to Dr. A. Hindi, for his enlightening insights and discussions, a
 Professor S. Hedayat, for his review of the manuscript and many helpful suggestions.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

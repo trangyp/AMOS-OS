@@ -2021,7 +2021,7 @@ Zwerger, T. 1995, PhD thesis, PhD Thesis, TechnischeUniversit¨at
 M¨unchen, (1995)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

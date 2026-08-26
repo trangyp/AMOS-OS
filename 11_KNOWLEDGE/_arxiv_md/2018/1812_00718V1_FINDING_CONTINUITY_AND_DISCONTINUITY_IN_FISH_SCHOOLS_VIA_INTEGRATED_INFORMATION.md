@@ -10940,7 +10940,7 @@ the cost of transforming one cause-effect structure C(S) into another C(SP→) i
 32
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

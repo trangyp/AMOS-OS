@@ -399,7 +399,7 @@ The authors declare no conflict of interest.
 2To whom correspondence may be addressed, E-mail: dmills@biology.sdu.dk
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

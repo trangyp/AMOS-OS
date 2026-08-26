@@ -1499,7 +1499,7 @@ above 100 acording to Uni-G that are not classiﬁed by our cardiologist as ST).
 17
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

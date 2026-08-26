@@ -861,7 +861,7 @@ graph with polygonal schema deﬁned in (a). (d)Draw graph with polygonal schema
 deﬁned in (b).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

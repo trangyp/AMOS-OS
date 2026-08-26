@@ -2668,7 +2668,7 @@ Feynman, R. (1982) Simulating Physics with Computers, International Journal of T
 Physics, 21:6/7, pp. 467-488.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

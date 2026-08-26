@@ -1127,7 +1127,7 @@ marks abundances determined from a single spectral feature or a very limited spe
 lighter-coloured symbols.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -3090,7 +3090,7 @@ signals. Journal of Electrocardiology 42(6), 622–630 (2009)
 Computation 9(8), 1735–1780 (1997)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

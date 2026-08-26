@@ -348,7 +348,7 @@ measurement via a pulse model based iterative deconvolution method,”
 Physics in medicine and biology, vol. 58, pp. 7815–7827, 10 2013.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

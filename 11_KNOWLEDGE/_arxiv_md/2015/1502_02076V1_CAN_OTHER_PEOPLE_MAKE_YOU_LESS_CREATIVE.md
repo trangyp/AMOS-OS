@@ -393,7 +393,7 @@ Environmental Stimulation Technique (REST) on jazz improvisation. Music and Medi
 3, 234-238.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

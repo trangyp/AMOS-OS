@@ -1780,7 +1780,7 @@ New York: Springer 1988
 24
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

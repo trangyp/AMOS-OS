@@ -793,7 +793,7 @@ pdf/44/9/zsab100/41327815/zsab100.pdf.
 [45] Using the conventional MQC sequence design.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

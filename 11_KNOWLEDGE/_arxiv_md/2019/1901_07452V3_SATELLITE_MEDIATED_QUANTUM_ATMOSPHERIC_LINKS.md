@@ -4705,7 +4705,7 @@ in quantum-key-distribution postprocessing, Phys. Rev.
 A 81, 012318 (2010).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

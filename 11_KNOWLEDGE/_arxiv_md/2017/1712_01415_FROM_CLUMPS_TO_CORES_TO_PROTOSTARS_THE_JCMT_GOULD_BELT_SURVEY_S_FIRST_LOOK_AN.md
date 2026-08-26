@@ -375,7 +375,7 @@ ness location assuming vp = 0.7 km s−1 (magenta, dashed lines) plotted along w
 lines). This ﬁgure is taken from Mairs et al. (2016).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

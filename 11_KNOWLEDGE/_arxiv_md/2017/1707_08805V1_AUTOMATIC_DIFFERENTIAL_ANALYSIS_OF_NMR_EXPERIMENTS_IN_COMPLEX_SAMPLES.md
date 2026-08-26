@@ -1302,7 +1302,7 @@ Supp Info 2 can be found at https://github.com/delsuc/plasmodesma/blob/master/An
 35
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

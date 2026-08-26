@@ -522,7 +522,7 @@ hep-ph/0201195)
 [13] Helenius I and Eskola K J Work in progress
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

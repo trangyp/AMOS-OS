@@ -3907,7 +3907,7 @@ Table 2: Description of structural features used in the biochemistry data analys
 47
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

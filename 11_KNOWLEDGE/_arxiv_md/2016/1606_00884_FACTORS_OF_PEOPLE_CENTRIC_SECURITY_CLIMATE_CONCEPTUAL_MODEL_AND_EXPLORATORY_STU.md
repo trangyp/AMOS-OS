@@ -807,7 +807,7 @@ License, which permits non-commercial use, distribution, and reproduction in any
 the original author and ACIS are credited.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

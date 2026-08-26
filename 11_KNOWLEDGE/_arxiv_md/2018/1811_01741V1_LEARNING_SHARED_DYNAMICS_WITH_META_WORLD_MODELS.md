@@ -1033,7 +1033,7 @@ Figure 7: The visualized results on evaluation set. The ﬁrst column is the obs
 zo by V model Vo. The rest columns correspond to the decoding results of zo from vision models of Γh, Γt, Γc, Γm, Γv.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -5699,7 +5699,7 @@ Kuhn, H. W. The Hungarian method for the assignment problem. Nav. Res. Logist. Q
 (1955).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

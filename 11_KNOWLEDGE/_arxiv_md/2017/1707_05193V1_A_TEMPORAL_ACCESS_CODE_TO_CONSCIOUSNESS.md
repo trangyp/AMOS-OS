@@ -1571,7 +1571,7 @@ variations from “interesting” to “dull” may produce variable, subjective
 of events.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

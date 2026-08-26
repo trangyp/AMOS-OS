@@ -843,7 +843,7 @@ tributed reaction–times. Journal of Mathematical Psychology, 37, 513–525.
 17
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

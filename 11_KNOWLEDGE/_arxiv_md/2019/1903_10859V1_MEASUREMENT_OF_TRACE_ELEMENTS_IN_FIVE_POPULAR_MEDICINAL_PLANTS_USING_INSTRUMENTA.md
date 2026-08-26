@@ -416,7 +416,7 @@ amount of Br, Na and K in six wheat samples with neutron activation analysis (NA
 Arak, I.R. Iran. J. Radioanal. Nucl. Chem.  295 163–166 (2012)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

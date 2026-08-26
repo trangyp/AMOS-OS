@@ -695,7 +695,7 @@ Pseudomonas aeruginosa from Selayang Hospital,
 Malaysia. Biomed Res. 2011;22(3).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

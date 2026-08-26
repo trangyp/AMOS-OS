@@ -1235,7 +1235,7 @@ Association for Computational Linguistics, 2009, p. 923-
 931.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

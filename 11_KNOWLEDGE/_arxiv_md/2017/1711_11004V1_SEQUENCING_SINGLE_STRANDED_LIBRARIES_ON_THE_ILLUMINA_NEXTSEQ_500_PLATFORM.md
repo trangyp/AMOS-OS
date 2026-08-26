@@ -286,7 +286,7 @@ DOI:10.18632/oncotarget.10827.
 5
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

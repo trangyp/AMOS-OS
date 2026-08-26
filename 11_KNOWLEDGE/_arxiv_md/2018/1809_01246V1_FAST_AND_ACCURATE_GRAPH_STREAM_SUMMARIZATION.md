@@ -2234,7 +2234,7 @@ based approach to continuous pattern detection in streaming graphs,”
 Computer Science, vol. 93, no. 8, pp. 939–945, 2015.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

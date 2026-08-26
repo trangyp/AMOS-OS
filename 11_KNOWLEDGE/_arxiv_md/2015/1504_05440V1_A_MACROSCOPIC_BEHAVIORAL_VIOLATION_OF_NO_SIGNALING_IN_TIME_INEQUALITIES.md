@@ -858,7 +858,7 @@ P(Q_2= -1)=P(Q_1= +1, P(Q2=-1)+P(Q_1= -1, P(Q2=-1)
 0.0754
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

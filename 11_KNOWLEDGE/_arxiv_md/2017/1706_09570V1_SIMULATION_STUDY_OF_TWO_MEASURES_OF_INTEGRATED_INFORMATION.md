@@ -505,7 +505,7 @@ Conference (SciPy2008), Gäel Varoquaux, Travis Vaught, and Jarrod Millman (Eds)
 (Pasadena, CA USA), pp. 11–15.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

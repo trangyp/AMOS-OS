@@ -2290,7 +2290,7 @@ Table 12: Examples of order-preserving lexicon-aware translation that needs mino
 frequency of the named entities are the number of occurrences each named entity appears in the whole dataset.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

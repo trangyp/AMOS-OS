@@ -618,7 +618,7 @@ THERMAL EXCITATION OF 630.0 NM EMISSIONS
 12
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

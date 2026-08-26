@@ -560,7 +560,7 @@ References
 31. B. Revenu and V. Marin. 33rd ICRC, number 398, July 2013.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

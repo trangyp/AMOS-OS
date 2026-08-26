@@ -1726,7 +1726,7 @@ implantation compared to surgical aortic valve replacement in the intermediate s
 International Journal of Cardiology, vol. 294, 1 November 2019, pp. 17-22
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

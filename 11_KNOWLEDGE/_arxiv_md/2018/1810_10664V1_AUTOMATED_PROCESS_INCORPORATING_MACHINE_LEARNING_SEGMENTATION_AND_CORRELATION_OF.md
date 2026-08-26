@@ -1701,7 +1701,7 @@ modiﬁed gingival index for use in clinical trials.” Clinical preventive
 dentistry, vol. 8, no. 1, pp. 3–6, 1986.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

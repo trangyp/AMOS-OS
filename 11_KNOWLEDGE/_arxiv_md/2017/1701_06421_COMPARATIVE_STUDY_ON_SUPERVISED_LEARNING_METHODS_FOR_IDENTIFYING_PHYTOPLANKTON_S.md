@@ -925,7 +925,7 @@ international conference on, New York, USA, 2006, pp. 1033-1040.
 Data Analysis and Data Mining," R package version 1.31.4, 2015.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

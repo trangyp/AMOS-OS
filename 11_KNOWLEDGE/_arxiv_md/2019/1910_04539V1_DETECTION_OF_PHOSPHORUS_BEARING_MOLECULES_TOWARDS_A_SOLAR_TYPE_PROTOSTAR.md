@@ -1046,7 +1046,7 @@ Ziurys, L. M., Milam, S. N., Apponi, A. J., & Woolf, N. J.
 2007, Nature, 447, 1094, doi: 10.1038/nature05905
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

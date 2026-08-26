@@ -712,7 +712,7 @@ Prog. Biochem. Biophys.
 e22487(2011) .
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

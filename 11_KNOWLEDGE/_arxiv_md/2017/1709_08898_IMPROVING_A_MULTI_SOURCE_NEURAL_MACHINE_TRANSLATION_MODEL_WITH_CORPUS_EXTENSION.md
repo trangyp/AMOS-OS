@@ -646,7 +646,7 @@ Corpus-Parallel and Free: http://logos. uio. no/opus.
 LREC.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

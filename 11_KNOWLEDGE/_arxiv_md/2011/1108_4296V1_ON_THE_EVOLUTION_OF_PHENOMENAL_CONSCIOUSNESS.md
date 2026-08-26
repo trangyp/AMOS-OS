@@ -741,7 +741,7 @@ théories contemporaines à la lumière d'une hypothèse modulariste. PhD
 Dissertation.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

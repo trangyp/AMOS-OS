@@ -576,7 +576,7 @@ histology images. In Journal of pathology informatics, 2013.
 11
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

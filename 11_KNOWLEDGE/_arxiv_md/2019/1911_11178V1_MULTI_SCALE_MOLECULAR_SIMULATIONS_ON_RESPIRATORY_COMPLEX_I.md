@@ -1092,7 +1092,7 @@ along the membrane domain. Movement of Q along its tunnel (in gray) couples to
 release of redox energy that is employed to push the proton(s) across the membrane.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

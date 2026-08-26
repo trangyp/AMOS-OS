@@ -1958,7 +1958,7 @@ Table 10: Number of mined parallel sentences as a function of how many languages
 between
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

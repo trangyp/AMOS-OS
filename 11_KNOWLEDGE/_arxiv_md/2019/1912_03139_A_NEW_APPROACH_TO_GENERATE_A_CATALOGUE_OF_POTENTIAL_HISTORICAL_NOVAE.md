@@ -2101,7 +2101,7 @@ of the SNR is marked with a red dot and highlighted by a star
 with seven spikes.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

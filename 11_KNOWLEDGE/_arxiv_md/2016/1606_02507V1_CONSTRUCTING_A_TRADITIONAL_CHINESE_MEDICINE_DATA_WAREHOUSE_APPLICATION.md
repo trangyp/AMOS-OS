@@ -547,7 +547,7 @@ permits non-commercial use, distribution, and reproduction in any medium, provid
 author and ACIS are credited.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

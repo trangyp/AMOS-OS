@@ -1635,7 +1635,7 @@ Estimation with Quantum Inspired Techniques and Multiple-Model Filters. In 2018 
 Guidance, Navigation, and Control Conference (p. 1124).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

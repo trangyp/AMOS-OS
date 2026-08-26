@@ -678,7 +678,7 @@ nition with neural character embeddings. In: Proceedings of NEWS 2015 The Fifth
 Named Entities Workshop. pp. 25–33 (2015)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

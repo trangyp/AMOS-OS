@@ -463,7 +463,7 @@ Pennsylvania. United States: Association for Computational Linguistics,
 2002, pp. 311–318.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

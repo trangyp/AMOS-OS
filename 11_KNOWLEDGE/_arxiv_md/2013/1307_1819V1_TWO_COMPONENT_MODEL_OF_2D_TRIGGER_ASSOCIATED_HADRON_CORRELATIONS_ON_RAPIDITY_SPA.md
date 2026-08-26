@@ -2419,7 +2419,7 @@ C 82, 024912 (2010).
 J. C 70, 555 (2010).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

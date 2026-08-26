@@ -944,7 +944,7 @@ vol. 2, no. 3,  pp. 7-9, July 1998.
 from, Biology to Engineering and back”. MIT Press.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

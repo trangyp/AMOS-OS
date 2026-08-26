@@ -818,7 +818,7 @@ Mintaka set
 not matched
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

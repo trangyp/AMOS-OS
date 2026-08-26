@@ -1823,7 +1823,7 @@ Transactions on Automatic Control 56(2): 414–418.
 31
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

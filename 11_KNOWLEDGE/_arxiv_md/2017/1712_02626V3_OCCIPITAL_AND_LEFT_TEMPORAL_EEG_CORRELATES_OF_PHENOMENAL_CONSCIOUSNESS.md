@@ -703,7 +703,7 @@ synchronizationanddesynchronization:basicprinciples.ClinicalNeurophysiology,
 110,1842–1857.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

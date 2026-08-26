@@ -886,7 +886,7 @@ structure of surgical activity for a suturing and knot-tying task,” PloS
 one, vol. 11, no. 3, p. e0149174, 2016.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

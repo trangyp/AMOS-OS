@@ -669,7 +669,7 @@ son, C. Rodriguez, B.S. Sathyaprakash, C. Van Den Broeck, and K. W´jcik. A Mock
 Data Challenge for the Einstein Gravitational-Wave Telescope. 2011.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

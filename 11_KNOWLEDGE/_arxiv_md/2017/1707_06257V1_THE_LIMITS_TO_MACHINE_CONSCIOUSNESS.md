@@ -680,7 +680,7 @@ Phys. 75: 715-775 (2003)
 48. S. Kak, Veiled nonlocality and quantum Darwinism. NeuroQuantology 13, 10 – 19 (2015)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

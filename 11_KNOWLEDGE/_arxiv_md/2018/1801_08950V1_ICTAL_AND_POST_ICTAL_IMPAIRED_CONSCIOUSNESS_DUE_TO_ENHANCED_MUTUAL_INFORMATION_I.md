@@ -1587,7 +1587,7 @@ epileptic signals using a macroscopic physiological model of the EEG, Clin. Neur
 1218.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

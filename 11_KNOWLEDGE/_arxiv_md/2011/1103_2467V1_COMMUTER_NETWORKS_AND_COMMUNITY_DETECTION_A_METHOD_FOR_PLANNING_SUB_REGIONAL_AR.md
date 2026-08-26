@@ -1086,7 +1086,7 @@ Zadeh LA, 1977, “Fuzzy set and their application to pattern classification and
 Clustering Ed J Van Ryzin (Accademic Press, New York) pp 251-299
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

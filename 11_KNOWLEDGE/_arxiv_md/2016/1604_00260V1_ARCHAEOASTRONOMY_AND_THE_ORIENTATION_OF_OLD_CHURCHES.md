@@ -336,7 +336,7 @@ BAAA, 58, 2016
 3
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

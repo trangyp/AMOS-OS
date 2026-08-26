@@ -2065,7 +2065,7 @@ method.” http://www.phidot.org/software/mark/docs/book/pdf/app_2.pdf. Publishe
 Accessed October 3, 2019.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

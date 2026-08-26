@@ -1980,7 +1980,7 @@ by the 3 colours in the bar under the dendrogram).
 25
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

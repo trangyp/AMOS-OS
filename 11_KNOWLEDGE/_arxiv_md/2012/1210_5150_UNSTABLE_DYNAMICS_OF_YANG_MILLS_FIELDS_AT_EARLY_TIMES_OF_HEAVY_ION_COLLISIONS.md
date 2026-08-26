@@ -280,7 +280,7 @@ nucl-th/0409068)
 [31] Ipp A and Somkuti P 2012 (Preprint 1207.0197)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1531,7 +1531,7 @@ dmLAkn, 2017.
 Knowledge Graph Search API, https://goo.gl/iJQ8xH, 2017.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

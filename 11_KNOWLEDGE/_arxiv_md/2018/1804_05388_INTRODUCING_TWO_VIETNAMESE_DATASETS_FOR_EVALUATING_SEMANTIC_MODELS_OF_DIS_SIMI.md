@@ -850,7 +850,7 @@ evaluation of graded lexical entailment. Computa-
 tional Linguistics 43(4):781–835.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

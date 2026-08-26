@@ -469,7 +469,7 @@ Deep Learning Based Health Recommender System Using Collaborative
 Filtering. Computation, 7(2), 25.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

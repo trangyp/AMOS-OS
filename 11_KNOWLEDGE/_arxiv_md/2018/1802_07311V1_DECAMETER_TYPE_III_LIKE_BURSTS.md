@@ -824,7 +824,7 @@ Young, C.W., Spencer, C.L., Moreton, G.E., Roberts, J.A.: 1961, Astrophys. J. 13
 Zheleznyakov, V.V.: 1964, Radio Emission of the Sun and Planets, Nauka, Moscow, 560.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

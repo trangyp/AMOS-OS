@@ -1407,7 +1407,7 @@ punumber=8100282
 36
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

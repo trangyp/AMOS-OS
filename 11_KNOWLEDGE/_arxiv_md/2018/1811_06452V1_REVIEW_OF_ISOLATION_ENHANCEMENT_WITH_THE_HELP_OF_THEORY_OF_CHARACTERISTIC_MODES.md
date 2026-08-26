@@ -522,7 +522,7 @@ Designed Using Characteristic Modes,” IEEE Antennas and Wireless
 Propagation Letters, vol. 15, no. , pp. 758-761, 2016.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

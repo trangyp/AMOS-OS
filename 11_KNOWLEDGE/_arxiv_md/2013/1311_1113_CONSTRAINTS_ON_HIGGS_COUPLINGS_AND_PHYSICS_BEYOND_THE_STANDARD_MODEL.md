@@ -524,7 +524,7 @@ H →WW∗→ℓνℓν,” http://doi.org/10.7484/INSPIREHEP.DATA.26B4.TY5F
 28. CMS Collaboration, CMS-HIG-13-013.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

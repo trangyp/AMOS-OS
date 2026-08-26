@@ -1311,7 +1311,7 @@ Distributed Multipoles in the AMOEBA Force Field. J Chem Theory Comput 2012, 8 (
 1981, 59 (3), 341-350.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

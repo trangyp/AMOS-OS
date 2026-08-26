@@ -940,7 +940,7 @@ Gailly, N., Khoffi, I., Ford, B. Keeping Authorities “Honest or Bust”
 with Decentralized Witness Cosigning. IEEE S&P, 2016.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

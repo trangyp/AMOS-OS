@@ -843,7 +843,7 @@ ATLAS Collaboration ATLAS Conference Note ATLAS-CONF-2013-041 (2013).
 Phys. Rev. D 86 (2012) 010001, doi:10.1103/PhysRevD.86.010001.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

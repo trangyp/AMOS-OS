@@ -455,7 +455,7 @@ Vogel, C., ‘Sol aequinoctialis. Problèmes et technique de l’orienta
 Religieuses, Vol. 36 (1962), pp. 175‐211.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -573,7 +573,7 @@ Figure S10: ATR-IR spectrum of 3.
 Figure S11: TGA plots of 2 and 3 at 10 K/min heating rate under a nitrogen atmosphere.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

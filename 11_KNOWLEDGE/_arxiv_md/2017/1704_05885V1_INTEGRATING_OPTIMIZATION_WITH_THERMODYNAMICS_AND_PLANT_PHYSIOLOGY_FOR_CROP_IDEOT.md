@@ -2854,7 +2854,7 @@ F
 Figure S2:  Sensitivity analysis of the traits obtained from GA optimization.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

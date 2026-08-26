@@ -540,7 +540,7 @@ California: Addison-Wesley, 1990.
 puter view. arXiv: gr-qc/0304032.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

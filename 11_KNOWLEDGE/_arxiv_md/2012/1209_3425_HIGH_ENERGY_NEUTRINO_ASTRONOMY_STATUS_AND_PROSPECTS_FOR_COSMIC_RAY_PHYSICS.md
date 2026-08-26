@@ -367,7 +367,7 @@ ICRC (2011), Beijing (China), arXiv:1111.2735.
 V. Van Elewyck [KM3NeT Coll.], PoS TEXAS 2010 (2010) 235.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

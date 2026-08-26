@@ -1610,7 +1610,7 @@ Figure 1. Joint clustering model for Yang Deficiency.
 Figure 2. Joint clustering model for Qi Deficiency.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

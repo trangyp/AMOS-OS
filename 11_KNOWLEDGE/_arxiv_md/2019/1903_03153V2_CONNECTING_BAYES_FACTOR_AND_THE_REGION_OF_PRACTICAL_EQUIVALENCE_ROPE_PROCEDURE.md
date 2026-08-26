@@ -520,7 +520,7 @@ infarction: An overview of the randomized trials,” Progress in Cardiovascular 
 14
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

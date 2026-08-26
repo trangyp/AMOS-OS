@@ -904,7 +904,7 @@ of the calculus of variations, Commun. Pure Appl. Anal. 3 (2004), no. 3, 491–5
 9
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

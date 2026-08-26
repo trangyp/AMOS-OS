@@ -1341,7 +1341,7 @@ psychiatry 71, 1 (2010), 26–31.
 10
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

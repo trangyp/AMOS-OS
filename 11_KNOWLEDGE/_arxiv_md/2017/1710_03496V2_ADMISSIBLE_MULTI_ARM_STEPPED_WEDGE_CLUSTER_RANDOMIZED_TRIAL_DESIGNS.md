@@ -8226,7 +8226,7 @@ could reduce the required sample size in cluster randomized trials. J Clin Epide
 31
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

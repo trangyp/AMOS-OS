@@ -1124,7 +1124,7 @@ Weinberg, S. (1992). Dreams of a Final Theory. Pantheon Books.
 Wittgenstein, L. (1953). Philosophical Investigations. G.E.M. Anscombe (Trans.). Blackwell. §304
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

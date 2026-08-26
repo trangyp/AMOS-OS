@@ -1323,7 +1323,7 @@ E. Bazellieres, J. Casademunt, X. Trepat, Nature Physics (2018)
 116. J. Howard, S.W. Grill, J.S. Bois, Nature Reviews Molecular Cell Biology 12(6), 392 (2011)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

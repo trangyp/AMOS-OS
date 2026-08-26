@@ -1273,7 +1273,7 @@ ciobiology” in the Scientiﬁc Literature?, Evolutionary Psychology, 5(4), 683
 (2007).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1017,7 +1017,7 @@ local circuit computation in the entorhinal-hippocampal loop, Neuron 64: 267-280
 [116] (JPlex freeware). (2011). Computational Topology group, Stanford University.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

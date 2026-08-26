@@ -1830,7 +1830,7 @@ distribution of Φ at all the partitions. The red solid line indicates Φ at the
 indicate Φ at the partitions found by Queyranne’s algorithm. (a) ΦSI, (b) ΦG.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

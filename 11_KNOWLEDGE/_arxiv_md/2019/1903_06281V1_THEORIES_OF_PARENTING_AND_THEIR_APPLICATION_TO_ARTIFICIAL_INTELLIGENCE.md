@@ -5222,7 +5222,7 @@ http://www.theverge.com/2016/3/24/11297050/tay-microsoft-chat
 bot-racist
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

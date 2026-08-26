@@ -642,7 +642,7 @@ C. f. Wong, Phys. Rev. D 87 (2013) no.9, 093007.
 30. M. Drewes and B. Garbrecht, JHEP 1303 (2013) 096.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

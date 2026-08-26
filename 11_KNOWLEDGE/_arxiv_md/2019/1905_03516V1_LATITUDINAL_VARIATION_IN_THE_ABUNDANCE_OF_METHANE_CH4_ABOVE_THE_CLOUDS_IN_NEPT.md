@@ -1344,7 +1344,7 @@ to a ﬁrst approximation, as a proxy for the abundance of CH4 immediately above
 main cloud top at ∼2 bar.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -975,7 +975,7 @@ Handbook of creativity (pp. 189-212). Cambridge, UK: Cambridge University Press.
 Weisberg, R. W. (2006). Creativity. New York: John Wiley and Son.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

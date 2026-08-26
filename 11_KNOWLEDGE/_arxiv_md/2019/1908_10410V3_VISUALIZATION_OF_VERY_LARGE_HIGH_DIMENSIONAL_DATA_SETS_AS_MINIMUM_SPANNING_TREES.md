@@ -1135,7 +1135,7 @@ same data sets with the same parameters. Whereas the output of TMAP is perceived
 the results yielded by UMAP show considerable differences between each run.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -575,7 +575,7 @@ nom. 70, 117 (1994).
 [20] E. Beaurepaire et al., Phys. Rev. Lett. 76, 4250 (1996).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

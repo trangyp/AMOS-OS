@@ -866,7 +866,7 @@ self-sustained activity for activations originating from left and right V1 (noti
 results as in Panel A, but using the ROI in the left and right A1 instead.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

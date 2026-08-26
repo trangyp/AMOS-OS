@@ -1517,7 +1517,7 @@ tion. emergence, complexity and computation. Chap. 6. Springer.
 31
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

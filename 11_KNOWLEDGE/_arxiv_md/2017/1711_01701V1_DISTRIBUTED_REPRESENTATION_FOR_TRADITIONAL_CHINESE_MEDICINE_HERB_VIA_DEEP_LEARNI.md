@@ -999,7 +999,7 @@ Artiﬁcial Intelligence in medicine
 48(2):139–152.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

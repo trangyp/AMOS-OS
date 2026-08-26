@@ -956,7 +956,7 @@ Psychological Science, 4(3):294–298, 2009.
 18
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

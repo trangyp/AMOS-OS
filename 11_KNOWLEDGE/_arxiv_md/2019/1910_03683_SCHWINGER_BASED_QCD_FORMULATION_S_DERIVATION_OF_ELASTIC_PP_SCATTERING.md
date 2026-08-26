@@ -423,7 +423,7 @@ DOI:
 10.1073/pnas.1010113107
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

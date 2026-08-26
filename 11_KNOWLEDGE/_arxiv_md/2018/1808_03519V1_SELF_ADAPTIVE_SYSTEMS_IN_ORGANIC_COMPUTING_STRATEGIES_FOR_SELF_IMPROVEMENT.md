@@ -830,7 +830,7 @@ in Proceedings of the 5th International Conference on Model-Driven
 Engineering and Software Development, 2017, pp. 503508.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

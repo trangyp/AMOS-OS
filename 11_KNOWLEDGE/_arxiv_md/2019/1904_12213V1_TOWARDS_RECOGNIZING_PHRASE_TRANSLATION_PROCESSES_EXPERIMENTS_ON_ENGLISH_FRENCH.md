@@ -730,7 +730,7 @@ pp. 102–111 (2018)
 12 / 12
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

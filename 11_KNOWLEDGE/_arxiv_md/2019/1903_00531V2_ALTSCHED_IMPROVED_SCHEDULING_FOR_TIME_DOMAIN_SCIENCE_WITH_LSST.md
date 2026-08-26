@@ -1153,7 +1153,7 @@ ALTSched
 Figure 13. Per-band inter-night visit gap histograms for minion 1016 and ALTSched, for the g, i, and y bands.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

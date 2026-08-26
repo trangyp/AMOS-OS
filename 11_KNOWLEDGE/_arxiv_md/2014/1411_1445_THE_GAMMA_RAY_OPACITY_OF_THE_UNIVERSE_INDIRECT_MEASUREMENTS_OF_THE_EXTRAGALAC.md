@@ -289,7 +289,7 @@ References
 19. M. Orr, F. Krennrich and E. Dwek Astrophysical Journal 733, 77 (2011).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

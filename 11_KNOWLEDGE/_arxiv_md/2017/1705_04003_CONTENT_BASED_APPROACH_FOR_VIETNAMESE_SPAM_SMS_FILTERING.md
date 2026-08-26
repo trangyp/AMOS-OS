@@ -531,7 +531,7 @@ networks for text classiﬁcation,” in Proceedings of the 28th Advances
 in Neural Information Processing Systems, 2015, pp. 649–657.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

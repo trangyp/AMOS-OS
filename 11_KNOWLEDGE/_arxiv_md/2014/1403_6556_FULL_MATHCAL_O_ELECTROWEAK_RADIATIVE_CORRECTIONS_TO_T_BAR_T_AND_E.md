@@ -345,7 +345,7 @@ Phys. Rept. 430, 117 (2006) [hep-ph/0308080].
 T. Ueda et al., Eur. Phys. J. C 73, 2400 (2013) [arXiv:1211.1112 [hep-ph]].
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

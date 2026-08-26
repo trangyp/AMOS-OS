@@ -3058,7 +3058,7 @@ Weldon, W. R. F. (1902). Mendel’s law of alternative in-
 heritance in peas. Biometrika 1 228–254.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

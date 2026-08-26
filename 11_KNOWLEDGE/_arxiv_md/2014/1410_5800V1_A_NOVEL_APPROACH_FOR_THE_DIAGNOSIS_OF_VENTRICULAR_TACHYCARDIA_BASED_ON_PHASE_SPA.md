@@ -210,7 +210,7 @@ Fig 2. Box counting mean and standard deviation trends for patient with healthy 
 arrhythmic patient respectively.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -805,7 +805,7 @@ Pathway I. d) Pump-probe relation for the involved residues (n=20).
 Graphical Abstract.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

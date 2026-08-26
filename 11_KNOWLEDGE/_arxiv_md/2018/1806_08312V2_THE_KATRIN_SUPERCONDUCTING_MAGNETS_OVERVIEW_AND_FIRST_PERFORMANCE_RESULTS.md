@@ -2535,7 +2535,7 @@ photo-electron source for the commissioning of the KATRIN experiment. Eur. Phys.
 – 44 –
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1029,7 +1029,7 @@ Single-Cell RNA Profiling of Pooled Genetic Screens. Cell. 2016;167(7):1853-
 1866.e17. doi:10.1016/j.cell.2016.11.038.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

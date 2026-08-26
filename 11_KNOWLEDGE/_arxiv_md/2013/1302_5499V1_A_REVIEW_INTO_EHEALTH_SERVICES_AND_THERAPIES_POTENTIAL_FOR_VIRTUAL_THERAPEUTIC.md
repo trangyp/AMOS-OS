@@ -787,7 +787,7 @@ ICTs: Information Communication Technologies
 Therapeutic Communities: Participatory, Group Approach to Therapy
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

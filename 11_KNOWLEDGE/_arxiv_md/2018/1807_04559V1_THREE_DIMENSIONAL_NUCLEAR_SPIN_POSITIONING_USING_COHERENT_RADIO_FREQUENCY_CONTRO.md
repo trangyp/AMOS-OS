@@ -672,7 +672,7 @@ H. Park, and M. D. Lukin, Science 351, 836 (2016).
 [33] J. A. Sidles, Proc. Natl. Acad. Sci. USA 106, 2477 (2009).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

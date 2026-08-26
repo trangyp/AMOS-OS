@@ -1441,7 +1441,7 @@ Symptom
 0.07
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

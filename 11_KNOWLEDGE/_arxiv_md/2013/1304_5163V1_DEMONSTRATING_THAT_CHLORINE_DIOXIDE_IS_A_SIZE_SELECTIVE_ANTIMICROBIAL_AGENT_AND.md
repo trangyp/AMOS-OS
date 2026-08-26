@@ -2818,7 +2818,7 @@ microbiological technique. Acta Derm. Venereol, 75 (1) 24-30 (1995).
 Biofilms in chronic wounds. Wound Repair Regen, 16 (1) 37-44 (2008).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

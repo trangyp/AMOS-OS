@@ -1851,7 +1851,7 @@ echocardiography.” In: Eur. J. Echocardiogr. 4 (2003), pp. 237–261.
 31
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

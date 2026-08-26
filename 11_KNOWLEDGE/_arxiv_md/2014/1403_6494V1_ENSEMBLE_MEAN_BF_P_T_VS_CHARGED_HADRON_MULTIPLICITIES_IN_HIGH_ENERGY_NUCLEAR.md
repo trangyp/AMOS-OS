@@ -1557,7 +1557,7 @@ PoS CFRNC2006, 004 (2006).
 [32] T. A. Trainor and D. J. Prindle, hep-ph/0411217.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

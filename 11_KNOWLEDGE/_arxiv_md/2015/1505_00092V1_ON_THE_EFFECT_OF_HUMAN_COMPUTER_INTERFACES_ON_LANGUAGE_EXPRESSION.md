@@ -394,7 +394,7 @@ while letters shown on the black background are preferred by mobile phone / tabl
 background are not preferred by either population.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

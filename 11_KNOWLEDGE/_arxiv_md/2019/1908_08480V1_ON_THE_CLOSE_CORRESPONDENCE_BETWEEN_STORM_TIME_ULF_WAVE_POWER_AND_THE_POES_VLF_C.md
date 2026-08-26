@@ -1243,7 +1243,7 @@ October-November 2003 Solar Activity, Space Weather, 2, S03008, doi:10.1029/
 –16–
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

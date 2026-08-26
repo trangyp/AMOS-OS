@@ -1291,7 +1291,7 @@ prediction of rat oral acute toxicity using relevance vector machine and consens
 Cheminform 8:6 . doi: 10.1186/s13321-016-0117-7
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

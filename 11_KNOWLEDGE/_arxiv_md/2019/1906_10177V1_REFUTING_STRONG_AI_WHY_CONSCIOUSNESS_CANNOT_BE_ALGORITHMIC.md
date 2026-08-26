@@ -1021,7 +1021,7 @@ Interpretation. Oxford University Press.
 Zuboff, A., 1990. One self: The logic of experience. Inquiry, 33(1), pp.39-68.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

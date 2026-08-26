@@ -1690,7 +1690,7 @@ Communications in Mathematical Sciences, 12: 779–89 Available on arXiv as
 http://arxiv.org/abs/1408.4114.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

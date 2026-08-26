@@ -617,7 +617,7 @@ February 2013, from http://www.w3.org/standards/techs/owl - w3c_all
 w3schools. 2012. "Introduction to Owl," in: RDF Tutorial. w3schools.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

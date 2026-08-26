@@ -805,7 +805,7 @@ Yaeger, L., 1994, Computational genetics, physiology, metabolism, neural systems
 Polyworld: Life in a new context. In: Artificial Life-3, pp. 263-298. Redwood City, CA, Addison Wesley.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

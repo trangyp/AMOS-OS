@@ -380,7 +380,7 @@ National Research Council, http://www.nap.edu/catalog/10079.html.
 25. C. Schmid, D.J. Schwarz and P. Widerin, Phys. Rev. Lett. 78 (1997) 791-794.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1224,7 +1224,7 @@ Alberta, Canada, Tel: +1(403)220-7007, Fax: +1(403)210-8876, E-mail: csimo@ucalg
 13
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1104,7 +1104,7 @@ kinetic term Int. J. Mod. Phys. D 26 1750072 (Preprint arXiv:1702.08308)
 Rev. D 96 023529
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

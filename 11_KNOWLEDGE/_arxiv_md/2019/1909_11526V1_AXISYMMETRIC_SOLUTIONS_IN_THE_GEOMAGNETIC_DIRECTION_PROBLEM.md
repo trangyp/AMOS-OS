@@ -6448,7 +6448,7 @@ Proctor, M. R. E., Gubbins, D., Analysis of geomagnetic directional data. Geophy
 67
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

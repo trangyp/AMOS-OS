@@ -1408,7 +1408,7 @@ Zames G (1960) Nonlinear operators for system analysis. Tech. Rept. 370, M.I.T. 
 Laboratory of Electronics, Cambridge, Mass.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

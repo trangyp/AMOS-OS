@@ -2455,7 +2455,7 @@ EBIT
 *Correlation is significant at the 0.05 level (2-tailed)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

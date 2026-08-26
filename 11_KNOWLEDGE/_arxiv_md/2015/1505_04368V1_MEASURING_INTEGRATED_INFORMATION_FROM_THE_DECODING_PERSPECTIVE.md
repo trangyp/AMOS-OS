@@ -1753,7 +1753,7 @@ References
 and theoretical framework. PLoS Comput Biol 4, e1000091.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

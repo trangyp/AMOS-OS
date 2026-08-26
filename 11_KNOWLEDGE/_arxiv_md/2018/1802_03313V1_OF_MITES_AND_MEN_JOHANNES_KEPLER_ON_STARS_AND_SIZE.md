@@ -640,7 +640,7 @@ Westman, Robert S. 2011. The Copernican Question: Prognostication, Skepticism, a
 Order. Berkeley, California: University of California Press.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

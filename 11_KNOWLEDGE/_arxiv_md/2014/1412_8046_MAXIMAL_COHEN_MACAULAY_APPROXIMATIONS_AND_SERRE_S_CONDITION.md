@@ -333,7 +333,7 @@ E-mail address: takahashi@math.nagoya-u.ac.jp
 URL: http://www.math.nagoya-u.ac.jp/~takahashi/
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -2627,7 +2627,7 @@ the measured SFHs as inputs; see detailed discussion in § 4.3. The energies are
 from the present (t = 0) to lookback times of 500 Myr.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

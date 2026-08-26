@@ -138,7 +138,7 @@ hadron physics program of the 7th EU program period.
 3. O. Nachtmann, Annals of Physics, 209 (1991) 436, and references therein.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

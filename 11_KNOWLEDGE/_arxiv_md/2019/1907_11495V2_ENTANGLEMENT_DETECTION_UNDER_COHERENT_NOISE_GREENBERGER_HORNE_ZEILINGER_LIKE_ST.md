@@ -2122,7 +2122,7 @@ and J.-W. Pan, Phys. Rev. X 8,
 Information 5, 83 (2019).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

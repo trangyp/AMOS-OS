@@ -769,7 +769,7 @@ ploring Network Structure, Dynamics, and Function using
 NetworkX Other info: (2008) Proc. SciPy, 11-16.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

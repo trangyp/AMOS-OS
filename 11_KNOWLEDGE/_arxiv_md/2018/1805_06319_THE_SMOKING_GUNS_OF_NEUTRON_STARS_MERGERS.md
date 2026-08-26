@@ -851,7 +851,7 @@ ive:1604.01424].
 [38] I. Mandel, ApJ, 853 (2018) L12 [arXiv:1712.03958].
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

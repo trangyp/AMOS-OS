@@ -1160,7 +1160,7 @@ Figure 5. Bar chart displaying mean rating scores for each condition for Experim
 represent standard errors.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

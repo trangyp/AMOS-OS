@@ -627,7 +627,7 @@ smoking status and income level. M=male, F=Female, NS=non-smoker, S=Smoker, NFA=
 asthma, FA= family history of asthma. Reference age of 50 years and BMI of 33 were used
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

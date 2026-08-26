@@ -1492,7 +1492,7 @@ diseases: report of a Joint WHO/FAO Expert Consultation. WHO Technical Report
 Series 916 (2003).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

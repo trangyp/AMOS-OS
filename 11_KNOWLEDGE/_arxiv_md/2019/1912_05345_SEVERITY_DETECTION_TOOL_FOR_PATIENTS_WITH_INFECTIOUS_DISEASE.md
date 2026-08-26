@@ -867,7 +867,7 @@ in tetanus. American Journal of Tropical Medicine
 8
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

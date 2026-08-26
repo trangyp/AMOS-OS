@@ -737,7 +737,7 @@ ing System. In Proceedings of the 2009 International Conference on Asian Languag
 Processing. Singapore, 152–155.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

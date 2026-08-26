@@ -2762,7 +2762,7 @@ recognition: Variances and strategies,” IEEE Transactions on Affec-
 tive Computing, vol. 1, no. 2, pp. 119–131, 2010.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

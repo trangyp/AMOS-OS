@@ -999,7 +999,7 @@ Zhang Q, Zhou D, Zeng X 2017 HeartID: A Multiresolution Convolutional Neural Net
 Human Identification in Smart Health Applications. IEEE Access. doi:10.1109/ACCESS.2017.2707460
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

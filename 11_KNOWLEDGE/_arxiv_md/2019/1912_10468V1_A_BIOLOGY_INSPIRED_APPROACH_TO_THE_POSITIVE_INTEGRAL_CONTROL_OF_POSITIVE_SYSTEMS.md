@@ -3260,7 +3260,7 @@ putational design of nucleic acid feedback control circuits. ACS Synthetic Biolo
 52
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

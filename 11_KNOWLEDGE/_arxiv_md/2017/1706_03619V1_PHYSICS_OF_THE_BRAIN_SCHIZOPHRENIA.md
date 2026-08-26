@@ -599,7 +599,7 @@ neuroscientific perspective. Schizophr Bull. 2007;
 Paul Dirac
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

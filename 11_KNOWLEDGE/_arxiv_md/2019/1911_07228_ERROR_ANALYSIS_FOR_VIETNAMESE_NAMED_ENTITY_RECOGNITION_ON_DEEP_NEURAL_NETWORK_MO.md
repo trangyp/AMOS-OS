@@ -687,7 +687,7 @@ to-use program for named-entity recognition based on neural networks.
 12
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

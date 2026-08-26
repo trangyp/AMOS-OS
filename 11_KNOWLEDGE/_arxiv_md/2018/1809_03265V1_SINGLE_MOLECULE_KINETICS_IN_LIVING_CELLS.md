@@ -1541,7 +1541,7 @@ genotyping of a pooled strain library after characterizing complex phenotypes.
 Mol. Syst. Biol. 13(10):947
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

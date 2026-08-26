@@ -1040,7 +1040,7 @@ For the shake of clarity, only the following traces are presented: (
 the initial velocity of the oxidation of center II as a function of [Fe-SOD].
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

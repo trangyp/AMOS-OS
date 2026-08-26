@@ -1383,7 +1383,7 @@ elastic net. Journal of the Royal Statistical Society: Series B (Statistical
 Methodology), 67(2):301–320, 2005.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

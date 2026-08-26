@@ -834,7 +834,7 @@ electromagnetic field equations”, IEEE Trans. Electromagnetic Compatibility, v
 Computational physics, vol. 114, 1994, pp. 185-200.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

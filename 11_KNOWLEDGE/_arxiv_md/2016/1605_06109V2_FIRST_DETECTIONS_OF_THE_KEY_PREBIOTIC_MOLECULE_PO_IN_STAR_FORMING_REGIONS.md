@@ -1051,7 +1051,7 @@ Zhang Q., Ho P. T. P., Ohashi N., 1998, ApJ, 494, 636
 Ziurys L. M., Friberg P., 1987, ApJL, 314, L49
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

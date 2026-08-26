@@ -475,7 +475,7 @@ arXiv:1509.02910 [physics.ins-det].
 J. Low. Temp. Phys. 167 (2012) 1093. doi:10.1007/s10909-011-0440-3
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

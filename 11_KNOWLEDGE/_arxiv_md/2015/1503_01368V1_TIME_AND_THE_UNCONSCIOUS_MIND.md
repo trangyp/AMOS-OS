@@ -326,7 +326,7 @@ Spottiswoode, S. & May, E. 2003. Skin conductance prestimulus response: Analyses
 and a pilot study. Journal of Scientific Exploration, 17:617-641.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

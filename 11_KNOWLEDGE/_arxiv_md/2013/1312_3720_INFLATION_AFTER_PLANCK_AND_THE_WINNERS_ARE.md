@@ -754,7 +754,7 @@ References
 22. C. Ringeval, arXiv:1312.2347.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

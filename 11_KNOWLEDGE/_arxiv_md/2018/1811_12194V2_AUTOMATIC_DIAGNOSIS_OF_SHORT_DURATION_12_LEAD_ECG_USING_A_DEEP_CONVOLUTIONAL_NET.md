@@ -680,7 +680,7 @@ Table 3: Confusion matrices for the neural network.
 11
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

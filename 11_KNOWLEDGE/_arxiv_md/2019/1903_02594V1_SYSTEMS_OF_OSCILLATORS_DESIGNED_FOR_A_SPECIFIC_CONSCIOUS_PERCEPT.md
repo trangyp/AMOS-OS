@@ -797,7 +797,7 @@ Philosophical Transactions of the Royal Society B-Biological Sciences,
 367(2012) 1424-1438.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

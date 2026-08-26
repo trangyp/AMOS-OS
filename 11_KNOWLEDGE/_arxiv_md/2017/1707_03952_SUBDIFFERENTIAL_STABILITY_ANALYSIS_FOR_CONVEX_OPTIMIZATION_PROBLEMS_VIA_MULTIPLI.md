@@ -1031,7 +1031,7 @@ nonlinear programming. Math. Progr. Study 17, 28–66 (1982)
 29, 1019–1036 (1991)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

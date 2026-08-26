@@ -379,7 +379,7 @@ Rathborne, J. M., Longmore, S. N., Jackson, J. M.,
 et al. 2014, ApJ, 795, L25
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

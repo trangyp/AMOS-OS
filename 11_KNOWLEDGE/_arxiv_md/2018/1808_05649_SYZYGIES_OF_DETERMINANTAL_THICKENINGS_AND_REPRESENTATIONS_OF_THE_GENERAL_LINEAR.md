@@ -763,7 +763,7 @@ Department of Mathematics, University of Connecticut, Storrs, CT 06269
 E-mail address: jerzy.weyman@uconn.edu
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

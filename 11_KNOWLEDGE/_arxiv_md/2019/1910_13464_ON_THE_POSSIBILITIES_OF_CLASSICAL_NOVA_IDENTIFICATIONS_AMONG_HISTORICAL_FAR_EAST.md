@@ -850,7 +850,7 @@ cations among historical Far Eastern guest star observations,
 A.N., 2019; : .
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

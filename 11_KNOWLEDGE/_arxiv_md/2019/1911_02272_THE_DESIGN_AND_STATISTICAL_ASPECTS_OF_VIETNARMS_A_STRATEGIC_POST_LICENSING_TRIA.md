@@ -1034,7 +1034,7 @@ at 21, 985 at 22, 1037 at 23 and 1092 at 24. See Supplementary Figure 1, Additio
 cumulative probability of stopping a group.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

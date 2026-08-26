@@ -527,7 +527,7 @@ Fig. 6. Validation diagram
 Fig. 7. Web page showing the complete workﬂow
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

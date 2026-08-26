@@ -317,7 +317,7 @@ Nucl. Phys. B 580, 29 (2000) [hep-ph/0001002], and references therein.
 ph]].
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

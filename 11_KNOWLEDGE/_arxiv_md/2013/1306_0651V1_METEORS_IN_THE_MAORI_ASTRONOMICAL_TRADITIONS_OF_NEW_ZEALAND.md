@@ -385,7 +385,7 @@ completing a PhD at Macquarie University studying Aboriginal astronomy. He also
 works as a consultant curator and astronomy educator at Sydney Observatory.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -414,7 +414,7 @@ S.A. 2000, ApJ, 541, L21
 6
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

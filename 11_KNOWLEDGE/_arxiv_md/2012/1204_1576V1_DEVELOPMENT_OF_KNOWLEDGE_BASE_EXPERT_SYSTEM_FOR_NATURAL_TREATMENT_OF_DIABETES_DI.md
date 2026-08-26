@@ -310,7 +310,7 @@ years. His areas of interest include Artificial
 Intelligence, Expert System and Software Testing.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

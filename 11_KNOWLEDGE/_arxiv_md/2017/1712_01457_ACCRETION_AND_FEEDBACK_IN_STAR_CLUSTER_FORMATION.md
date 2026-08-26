@@ -512,7 +512,7 @@ Zamora-Avil´es, M., V´azquez-Semadeni, E., & Col´ın,
 P. 2012, ApJ, 751, 77
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

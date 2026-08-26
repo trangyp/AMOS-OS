@@ -1169,7 +1169,7 @@ Journal of Statistics 12, 3295–3311.
 18
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

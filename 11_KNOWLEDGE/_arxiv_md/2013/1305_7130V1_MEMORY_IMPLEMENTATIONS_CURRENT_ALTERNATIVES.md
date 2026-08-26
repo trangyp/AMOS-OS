@@ -867,7 +867,7 @@ http://www.ai-cbr.org/classroom/cbr-review.html#Introduction
 Edition (Addison-Wesley; 2005).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

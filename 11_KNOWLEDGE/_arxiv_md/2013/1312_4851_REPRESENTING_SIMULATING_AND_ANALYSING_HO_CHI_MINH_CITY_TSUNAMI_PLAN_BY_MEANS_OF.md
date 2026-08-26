@@ -792,7 +792,7 @@ This figure "YAWL_Symbol.jpg" is available in "jpg"
 http://arxiv.org/ps/1312.4851v2
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

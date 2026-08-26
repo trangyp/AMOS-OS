@@ -924,7 +924,7 @@ entropy) that are not optimal for sensorimotor processing.
 18
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1141,7 +1141,7 @@ Figure 16: Sample evaluator questions
 36
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

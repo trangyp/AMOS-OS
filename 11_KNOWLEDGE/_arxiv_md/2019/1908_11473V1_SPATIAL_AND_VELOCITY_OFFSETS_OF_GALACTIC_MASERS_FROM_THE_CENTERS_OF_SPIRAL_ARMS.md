@@ -1289,7 +1289,7 @@ c) Near the Sagittarius arm.
 d) Near the Scutum arm.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -425,7 +425,7 @@ Ming Zhang
 mzhang_cs@pku.edu.cn
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

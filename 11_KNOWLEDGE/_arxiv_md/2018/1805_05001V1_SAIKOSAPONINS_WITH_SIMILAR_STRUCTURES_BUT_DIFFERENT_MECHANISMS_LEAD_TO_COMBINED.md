@@ -626,7 +626,7 @@ Fig. 7. Hepatoxicity mechanisms combined with SSb2 and SSd. RET, reversed electr
 transfer; FET, forwarded electron transfer.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

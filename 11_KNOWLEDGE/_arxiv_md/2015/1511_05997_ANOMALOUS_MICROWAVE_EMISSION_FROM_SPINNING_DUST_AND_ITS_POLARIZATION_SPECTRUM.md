@@ -620,7 +620,7 @@ omy, 2012:1, 2012.
 41. R G´enova-Santos, J A Rubi˜no Mart´ın, R Rebolo, and et al., MNRAS, 452:4169, 2015.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

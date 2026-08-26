@@ -177,7 +177,7 @@ Greenwald, A. G., Nosek, B. A., and Banaji, M. R. (2003), ‘Understanding and u
 Test: I. An improved scoring algorithm.’ Journal of Personality and Social Psychology, 85(2), 197-216.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1993,7 +1993,7 @@ Zheng, W. J., Brooks, B. R., and Thirumalai, D. (2006). Low-frequency normal mod
 nanomachines are robust to sequence variations. Proc. Natl. Acad. Sci. U.S.A., 103(20):7664–7669.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -533,7 +533,7 @@ Human Behav, 24, 309–324.
 11
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

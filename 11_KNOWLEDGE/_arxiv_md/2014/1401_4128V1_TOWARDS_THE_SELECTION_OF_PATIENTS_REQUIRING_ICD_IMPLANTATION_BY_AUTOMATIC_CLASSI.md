@@ -520,7 +520,7 @@ Charles-Henri Cappelaere, Sorin CRM
 ch.cappelaere@gmail.com
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

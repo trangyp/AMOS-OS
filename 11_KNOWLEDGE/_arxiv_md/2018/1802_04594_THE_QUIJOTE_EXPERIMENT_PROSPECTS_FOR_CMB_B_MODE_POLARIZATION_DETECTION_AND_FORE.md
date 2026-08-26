@@ -332,7 +332,7 @@ Rebolo, R.; Beckman, J. E., 1994, Nature V.367, NO.6461/JAN27, P. 333.
 20. F. Poidevin and the QUIJOTE collaboration, 2018, In prep.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

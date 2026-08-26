@@ -841,7 +841,7 @@ Math. 4:58-63
 npj Quantum Information  2: 16021.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -968,7 +968,7 @@ Virgil, Georgica, in Virgil. Eclogues, Georgics, Aeneid I-VI, trans. H.R. Faircl
 Goold, Loeb Classical Library, Harvard University Press, Cambridge MA, 1999.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

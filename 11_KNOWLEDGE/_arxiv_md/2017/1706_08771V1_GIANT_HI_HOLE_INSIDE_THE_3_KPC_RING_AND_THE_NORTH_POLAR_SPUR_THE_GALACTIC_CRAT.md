@@ -749,7 +749,7 @@ Uchiyama H., Nobukawa M., Tsuru T. G., Koyama K., 2013, PASJ, 65,
 19
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

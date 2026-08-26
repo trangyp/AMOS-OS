@@ -533,7 +533,7 @@ optical architecture”, Proceedings of Annual Conference of the Japan
 Society of Applied Physics, pp. 734, Sept. 1988.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

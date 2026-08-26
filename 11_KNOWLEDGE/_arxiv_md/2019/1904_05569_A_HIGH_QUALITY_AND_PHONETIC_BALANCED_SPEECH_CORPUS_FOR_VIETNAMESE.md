@@ -729,7 +729,7 @@ Oriental COCOSDA 2018
 7-8 May 2018, Miyazaki, Japan
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -847,7 +847,7 @@ putational Linguistics, pages 577–584. Association
 for Computational Linguistics.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1166,7 +1166,7 @@ supply chain management, quality management, and supply chain risk
 management.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

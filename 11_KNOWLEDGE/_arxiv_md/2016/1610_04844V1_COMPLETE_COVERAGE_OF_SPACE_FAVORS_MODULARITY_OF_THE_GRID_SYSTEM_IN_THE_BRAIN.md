@@ -1391,7 +1391,7 @@ and A. V. Herz, bioRxiv
 [25] W. L. Stevens, Ann. Eugenics 9, 315 (1939).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

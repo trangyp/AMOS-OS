@@ -4479,7 +4479,7 @@ TABLE A9. Time range covered: 2013/01/01 through to 2021/10/24. Median rank and 
 rank days for each calendar year for ‘god’.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

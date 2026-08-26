@@ -457,7 +457,7 @@ Whittet, D. C. B., Hough, J. H., Lazarian, A., & Hoang, T.
 2008, ApJ, 674, 304
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -4719,7 +4719,7 @@ likely, exploration of the information paradox will continue to be our guiding p
 quantum theory with relativity.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

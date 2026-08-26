@@ -1107,7 +1107,7 @@ Stix, M. 2002, The sun: an introduction
 Article number, page 9 of 9
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

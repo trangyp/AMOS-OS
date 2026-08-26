@@ -652,7 +652,7 @@ The origin of GRBs
 351
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

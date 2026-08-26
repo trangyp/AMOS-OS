@@ -522,7 +522,7 @@ References
 26. R. Takahashi et al., Astrophys. J. 761, 152 (2012).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

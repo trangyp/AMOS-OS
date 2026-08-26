@@ -952,7 +952,7 @@ Computing (Cambridge University Press, New York, NY,
 USA, 2007), 3rd edn.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

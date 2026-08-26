@@ -1885,7 +1885,7 @@ experiments were performed on HPC environment using an intel16-k80 cluster, with
 two Nvidia Tesla k80 GPUs.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

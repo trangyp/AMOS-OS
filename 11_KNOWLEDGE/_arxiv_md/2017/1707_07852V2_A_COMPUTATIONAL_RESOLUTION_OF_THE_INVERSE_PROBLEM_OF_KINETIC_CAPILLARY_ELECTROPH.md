@@ -421,7 +421,7 @@ on Unconventional Computing and Natural Computation, pages 240–249. Springer, 
 & Biologically Inspired Computing (NaBIC), pages 210–214. IEEE, 2009.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

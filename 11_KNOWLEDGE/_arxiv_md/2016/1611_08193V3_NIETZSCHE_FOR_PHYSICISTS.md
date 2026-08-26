@@ -677,7 +677,7 @@ Wald, Robert [1984], General relativity, Chicago: The University of Chicago Pres
 14
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

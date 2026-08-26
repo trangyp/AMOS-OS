@@ -596,7 +596,7 @@ Zhang, K., Blake, G. A., & Bergin, E. A., ApJ, 806,
 L7, 2015.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

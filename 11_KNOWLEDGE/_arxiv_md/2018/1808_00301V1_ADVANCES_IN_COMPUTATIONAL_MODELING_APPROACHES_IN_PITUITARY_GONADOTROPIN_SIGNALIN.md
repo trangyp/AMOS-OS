@@ -1133,7 +1133,7 @@ http://yvinec.perso.math.cnrs.fr/Publi/RYPCERAPFC_18_advances_gonado_supp.pdf
 35
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

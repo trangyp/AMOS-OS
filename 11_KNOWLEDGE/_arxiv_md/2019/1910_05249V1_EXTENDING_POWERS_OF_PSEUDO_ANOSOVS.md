@@ -418,7 +418,7 @@ and Geometric Topology 6 (2006), 1331-1340.
 9
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

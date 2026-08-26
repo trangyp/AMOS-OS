@@ -500,7 +500,7 @@ http://www.alicebot.org/about.html (2001)
 Communication between Man and Machine. Commun. ACM pp. 23–28 (1983)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

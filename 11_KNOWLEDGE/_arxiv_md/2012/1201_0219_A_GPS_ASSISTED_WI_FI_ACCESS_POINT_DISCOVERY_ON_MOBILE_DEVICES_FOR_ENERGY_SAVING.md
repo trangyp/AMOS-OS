@@ -686,7 +686,7 @@ alternatives in multiple attribute decision making problems based on
 TOPSIS, Applied Soft Computing 11 (2011) 900–907.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

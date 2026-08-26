@@ -1121,7 +1121,7 @@ The diﬀerence between estimated p-values from two methods is minimal with a me
 squared deviation of 1.15 × 10−4. The diagonal red line indicates the identity.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

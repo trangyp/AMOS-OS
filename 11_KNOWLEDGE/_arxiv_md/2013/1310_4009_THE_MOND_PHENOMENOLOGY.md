@@ -403,7 +403,7 @@ References
 40. G. Angus et al, Mon. Not. Roy. Astron. Soc. , arXiv:1309.6094 (2013).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

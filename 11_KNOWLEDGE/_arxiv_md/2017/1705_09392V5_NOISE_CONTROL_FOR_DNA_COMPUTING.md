@@ -2006,7 +2006,7 @@ n,¯n(si, ¯si).
 Algorithm 1. The noise-control algorithm.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

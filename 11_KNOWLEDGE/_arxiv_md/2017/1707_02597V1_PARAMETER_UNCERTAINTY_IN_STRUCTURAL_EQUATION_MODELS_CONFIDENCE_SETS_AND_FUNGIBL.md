@@ -3086,7 +3086,7 @@ CONFIDENCE SETS AND FUNGIBLE ESTIMATES
 Figure 6: Fungible parameter contours for Example 3.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

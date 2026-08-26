@@ -816,7 +816,7 @@ black line. For the intermediate scattering function, f(q,t), we use a stretched
 t/τ]β. From these fits we extract f(q,t) curves which are plotted in Figure 4.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

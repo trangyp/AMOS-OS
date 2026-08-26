@@ -575,7 +575,7 @@ Cognitive Sciences, 10(7):301–308, 2006.
 10
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

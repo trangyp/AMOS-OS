@@ -5478,7 +5478,7 @@ HerBS Sample - SCUBA-2 Observations
 MNRAS 000, 1–24 (2017)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

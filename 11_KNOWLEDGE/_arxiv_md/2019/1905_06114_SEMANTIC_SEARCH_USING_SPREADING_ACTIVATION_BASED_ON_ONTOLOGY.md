@@ -1327,7 +1327,7 @@ and Knowledge Management (CIKM-2010), pp. 1433-1436.
 ngày chấp nhận đăng: 16-12-2013)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

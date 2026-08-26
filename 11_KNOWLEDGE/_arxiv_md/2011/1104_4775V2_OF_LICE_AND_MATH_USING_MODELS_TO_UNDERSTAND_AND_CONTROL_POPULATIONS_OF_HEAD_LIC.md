@@ -2456,7 +2456,7 @@ in group of 20 heads, as a function of the eﬃcacy of each application. Squares
 systematic treatments, whereas triangles represent non-systematic ones.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

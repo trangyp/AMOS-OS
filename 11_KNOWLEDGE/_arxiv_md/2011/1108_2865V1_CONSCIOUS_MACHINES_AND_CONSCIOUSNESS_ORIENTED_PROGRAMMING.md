@@ -1198,7 +1198,7 @@ http://www.youtube.com/watch?v=oTIEpqMwCbk,\from\3:20\to\3:
 25
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

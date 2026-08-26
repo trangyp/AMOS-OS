@@ -2483,7 +2483,7 @@ Lett. 23, 880 (1969).
 [26] M. Zukowksi and C. Brukner, Quantum non-locality —it ain’t necessarily so. . ., J. Phys. A 47, 424009 (2014).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

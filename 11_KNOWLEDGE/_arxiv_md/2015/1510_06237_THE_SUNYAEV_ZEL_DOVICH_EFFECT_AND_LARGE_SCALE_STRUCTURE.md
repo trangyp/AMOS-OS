@@ -528,7 +528,7 @@ References
 38. Chluba, J., & Jeong, D. 2014, MNRAS, 438, 2065
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

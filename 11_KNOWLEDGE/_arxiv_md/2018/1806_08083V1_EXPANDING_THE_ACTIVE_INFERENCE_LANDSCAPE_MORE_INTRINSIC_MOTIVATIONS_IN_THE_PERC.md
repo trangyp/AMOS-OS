@@ -3007,7 +3007,7 @@ Winn, J. and Bishop, C. M. (2005). Variational Message Passing. Journal of Machi
 53
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

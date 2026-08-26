@@ -571,7 +571,7 @@ International Conference on Social Informatics (Springer, 2014) pp. 544-560.
 48. Holme, P. & Saram¨aki, J. Temporal networks. Phys. Rep. 519, 97-125 (2012).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

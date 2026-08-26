@@ -1204,7 +1204,7 @@ distributed under the terms and conditions of the Creative Commons Attribution l
 (http://creativecommons.org/licenses/by/3.0/).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

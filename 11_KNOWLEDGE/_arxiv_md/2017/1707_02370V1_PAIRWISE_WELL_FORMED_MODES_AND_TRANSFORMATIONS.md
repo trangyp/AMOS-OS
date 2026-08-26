@@ -829,7 +829,7 @@ Publications, 2004.
 10. Noll, T. Ionian Theorem. Journal of Mathematics and Music 3(3) (2009): 137–151.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -230,7 +230,7 @@ Pasteur, L., Ann. Phys. 166, 504 (1853).
 Sandars, P. G. H., Orig. Life Evol. Biosph. 33, 575 (2003).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

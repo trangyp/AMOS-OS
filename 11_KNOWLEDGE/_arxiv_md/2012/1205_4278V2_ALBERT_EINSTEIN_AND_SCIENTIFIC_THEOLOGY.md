@@ -407,7 +407,7 @@ in History and Philosophy of Modern Physics (2004): 9-10.
 29 Philip, 192.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

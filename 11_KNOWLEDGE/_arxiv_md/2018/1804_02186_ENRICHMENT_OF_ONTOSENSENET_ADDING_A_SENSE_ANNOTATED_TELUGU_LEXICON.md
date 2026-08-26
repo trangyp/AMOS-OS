@@ -641,7 +641,7 @@ resource-poor language. In: International Conference on Intelligent Text Process
 and Computational Linguistics. pp. 364–374. Springer (2015)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

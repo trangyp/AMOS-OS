@@ -1048,7 +1048,7 @@ Sburlan, D. (2011). “Computing by folding,” Int. J. Comput. Commun. Controls
 12
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -3189,7 +3189,7 @@ Vision and Pattern Recognition (CVPR), June 2016.
 recurrent neural networks for electrocardiogram classiﬁcation. Computing, 44:1, 2017.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

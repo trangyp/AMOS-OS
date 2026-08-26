@@ -1051,7 +1051,7 @@ Biol. doi 10.1101
 26
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

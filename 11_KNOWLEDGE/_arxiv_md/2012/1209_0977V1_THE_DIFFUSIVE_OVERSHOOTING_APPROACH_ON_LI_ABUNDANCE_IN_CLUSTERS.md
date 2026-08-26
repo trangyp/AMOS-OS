@@ -1292,7 +1292,7 @@ Zhang Q.S., & Li Y., 2012b, ApJ, 750, 11
 c⃝2012 RAS, MNRAS 000, 1–8
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

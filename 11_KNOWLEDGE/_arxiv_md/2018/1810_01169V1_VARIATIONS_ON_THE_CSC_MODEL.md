@@ -1444,7 +1444,7 @@ that
 which proves that r 7→d(y, Br) is convex.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1621,7 +1621,7 @@ Full space adaptivity for subspace deformations,” ACM Transactions on
 Graphics (TOG), vol. 34, no. 4, p. 76, 2015.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

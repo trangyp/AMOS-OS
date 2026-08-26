@@ -1240,7 +1240,7 @@ Cox, D. R. Regression Models with Life Tables. J. R. Stat. Soc. Ser. B (1972).
 Supplementary Figure 1 Summary of data used in the study.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

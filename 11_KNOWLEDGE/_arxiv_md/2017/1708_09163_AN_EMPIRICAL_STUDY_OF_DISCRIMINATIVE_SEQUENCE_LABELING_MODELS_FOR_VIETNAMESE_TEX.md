@@ -964,7 +964,7 @@ els for Vietnamese named entity recognition: Word-level vs. character-
 level,” in Proceedings of PACLING, Yangon, Myanmar, 2017.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

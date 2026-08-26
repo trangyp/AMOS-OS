@@ -1553,7 +1553,7 @@ Y. E. Kraus, Z. Ringel, and O. Zilberberg, Four-dimensional quantum Hall effect 
 dimensional quasicrystal, Phys. Rev. Lett. 111, 226401 (2013).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

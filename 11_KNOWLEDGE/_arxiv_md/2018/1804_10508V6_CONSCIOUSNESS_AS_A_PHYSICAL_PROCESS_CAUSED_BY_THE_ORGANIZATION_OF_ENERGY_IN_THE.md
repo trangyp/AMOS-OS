@@ -1189,7 +1189,7 @@ Ziv, J., and Lempel, A. (1977). A universal algorithm for sequential data compre
 Trans Inf Theory. 23(3), 337–343.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

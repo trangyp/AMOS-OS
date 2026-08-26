@@ -954,7 +954,7 @@ In Computer Vision and Pattern Recognition Workshops
 pages 97–104. IEEE, 2012. 3
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

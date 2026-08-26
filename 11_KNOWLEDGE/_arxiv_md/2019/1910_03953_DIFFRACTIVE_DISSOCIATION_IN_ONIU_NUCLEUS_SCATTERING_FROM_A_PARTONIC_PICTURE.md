@@ -385,7 +385,7 @@ Physica Polonica).
 16. B. Derrida and P. Mottishaw, EPL (Europhysics Letters) 115, 40005 (2016)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

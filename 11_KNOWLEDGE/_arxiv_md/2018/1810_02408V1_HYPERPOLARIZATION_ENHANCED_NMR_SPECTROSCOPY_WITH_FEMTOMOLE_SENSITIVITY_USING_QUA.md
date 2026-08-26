@@ -554,7 +554,7 @@ quantities of water dissolved in the DMSO-d6. In all spectra, the frequency axis
 methyl resonance line.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

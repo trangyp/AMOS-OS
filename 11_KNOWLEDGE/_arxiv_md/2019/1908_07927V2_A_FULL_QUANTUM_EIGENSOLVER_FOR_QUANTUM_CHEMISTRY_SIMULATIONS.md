@@ -1379,7 +1379,7 @@ other situations, FQE behaves in a oscillation manner, such as
 in H2 and LiH.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

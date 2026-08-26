@@ -385,7 +385,7 @@ A Tip for Landscape Riders:
 Multi-Field Inﬂation Can Fulﬁll the Swampland Distance Conjecture. 2019.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

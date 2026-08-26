@@ -394,7 +394,7 @@ RIVF-VLSP 2013
 Workshop.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -549,7 +549,7 @@ D. E. Woodgate, and J. A. Conquer. Effects of a stimulant-free dietary supplemen
 obese adults: a six-week exploratory study. Current Therapeutic Research. 2003, 64 (4): 248-262.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

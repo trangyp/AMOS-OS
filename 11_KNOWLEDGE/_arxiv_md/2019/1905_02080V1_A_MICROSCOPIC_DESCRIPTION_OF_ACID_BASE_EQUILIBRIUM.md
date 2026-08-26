@@ -782,7 +782,7 @@ simple. Phys. Rev. Lett. 1996, 77, 3865–3868.
 18
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

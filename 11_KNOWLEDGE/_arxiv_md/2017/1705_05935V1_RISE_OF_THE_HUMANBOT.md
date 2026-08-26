@@ -986,7 +986,7 @@ artiﬁcial intelligence save or destroy us?. Random
 House. New York.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

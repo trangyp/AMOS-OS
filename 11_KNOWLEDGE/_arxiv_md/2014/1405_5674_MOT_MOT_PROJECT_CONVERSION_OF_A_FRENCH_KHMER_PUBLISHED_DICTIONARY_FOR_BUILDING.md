@@ -723,7 +723,7 @@ Linguistics and 44th Annual Meeting of the Association
 for Computational Linguistics, Sydney.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

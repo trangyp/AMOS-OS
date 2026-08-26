@@ -659,7 +659,7 @@ ex]].
 19. G. Mahlon and S. J. Parke, Phys. Rev. D 81, 074024 (2010) [arXiv:1001.3422 [hep-ph]].
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

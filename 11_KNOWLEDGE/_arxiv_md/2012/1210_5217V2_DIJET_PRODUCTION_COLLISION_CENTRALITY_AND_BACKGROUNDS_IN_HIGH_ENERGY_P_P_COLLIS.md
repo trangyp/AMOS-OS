@@ -2280,7 +2280,7 @@ S. I. Troyan, Z. Phys. C 27, 65 (1985), Z. Phys. C 31,
 [25] S. Gieseke, C. Rohr and A. Siodmok, arXiv:1206.2205.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

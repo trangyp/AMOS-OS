@@ -2645,7 +2645,7 @@ Annual Meeting of the Cognitive Science Society, pp. 983–989.
 41
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

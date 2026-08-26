@@ -933,7 +933,7 @@ Psychometrika, 75(1), 158-175.
 Discrete & Computational Geometry, 33(2), pp. 249-274
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

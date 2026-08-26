@@ -1138,7 +1138,7 @@ nucco. SEVERE WITHDRAWAL (AND RECOVERY).
 Journal of Philosophical Logic, 29:501–547, 2000.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1255,7 +1255,7 @@ edited by SIF, Academic Press.
 Wootters, William K., Zurek Wojciech H. 1982. A single quantum cannot be cloned. Nature 299.5886: 802-803.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

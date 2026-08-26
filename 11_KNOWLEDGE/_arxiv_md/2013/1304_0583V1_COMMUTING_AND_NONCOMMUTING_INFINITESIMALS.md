@@ -833,7 +833,7 @@ Chevaleret, 75013 Paris
 E-mail address: ericleichtnam(strudel)math.jussieu.fr
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -498,7 +498,7 @@ learning, and learning to learn. Exercise and sport sciences reviews,
 38(1):3-9, 2010.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

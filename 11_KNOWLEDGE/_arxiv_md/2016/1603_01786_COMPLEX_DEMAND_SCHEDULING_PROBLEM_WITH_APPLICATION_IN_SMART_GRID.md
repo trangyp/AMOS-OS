@@ -2205,7 +2205,7 @@ vectors. Hence, by the inductive hypothesis, the same bound holds up to r vector
 26
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

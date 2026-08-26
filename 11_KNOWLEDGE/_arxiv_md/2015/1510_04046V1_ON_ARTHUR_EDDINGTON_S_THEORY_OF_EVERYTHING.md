@@ -772,7 +772,7 @@ Weyl, Hermann (1919). “Eine neue Erweiterung der Relativitätstheorie.“ Ann.
 Whittaker, Edmund T. (1937). [Review of RTPE]. Observatory 60, 14-23.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

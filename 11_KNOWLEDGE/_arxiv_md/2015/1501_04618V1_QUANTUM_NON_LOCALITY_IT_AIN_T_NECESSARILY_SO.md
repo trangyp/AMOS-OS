@@ -442,7 +442,7 @@ the results on Alice’s side is deterministic too. Of course such an asymmetry 
 we assumed an irreducible stochasticity, s, at both sides of the experiment, for all settings.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

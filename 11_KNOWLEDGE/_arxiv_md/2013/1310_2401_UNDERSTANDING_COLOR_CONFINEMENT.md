@@ -291,7 +291,7 @@ References
 19. D. Diakonov, Acta Phys.Polon. B39 3365 (2008)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

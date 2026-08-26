@@ -2519,7 +2519,7 @@ adaptive systems. In ICSE Workshop on Software Engineering for Adaptive and Self
 Systems (pp. 155–164). IEEE. https://doi.org/10.1109/SEAMS.2012.6224402
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

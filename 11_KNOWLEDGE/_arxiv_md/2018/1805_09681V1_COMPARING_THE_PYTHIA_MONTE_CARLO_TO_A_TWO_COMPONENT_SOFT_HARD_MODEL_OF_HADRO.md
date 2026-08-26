@@ -3479,7 +3479,7 @@ J. C 74, 3077 (2014).
 [58] G. Wolschin, Phys. Rev. C 91, no. 1, 014905 (2015).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

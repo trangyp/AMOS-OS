@@ -2183,7 +2183,7 @@ conferences, including 16 papers on ACM TOG.
 He is a member of the IEEE.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

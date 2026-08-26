@@ -547,7 +547,7 @@ References
 [48] G.W. Angus, et al. arXiv:1309.6094 (2013)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

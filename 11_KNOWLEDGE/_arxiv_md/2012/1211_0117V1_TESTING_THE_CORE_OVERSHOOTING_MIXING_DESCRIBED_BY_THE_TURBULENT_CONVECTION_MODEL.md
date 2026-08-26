@@ -1388,7 +1388,7 @@ Zhang, Q. S. 2012, MNRAS, accepted, arXiv:1209.0977v1,
 (http://arxiv.org/abs/1209.0977)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

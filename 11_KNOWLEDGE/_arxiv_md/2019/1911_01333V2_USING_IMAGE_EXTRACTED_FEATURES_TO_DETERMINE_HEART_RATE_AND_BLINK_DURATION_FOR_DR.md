@@ -610,7 +610,7 @@ Noninvasive Electrocardiology, vol. 1, pp. 151-
 181, 1996.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

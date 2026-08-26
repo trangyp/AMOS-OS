@@ -549,7 +549,7 @@ orange: S), as noted in the following ﬁgures.
 15/21
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

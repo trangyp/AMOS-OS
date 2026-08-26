@@ -615,7 +615,7 @@ Sequence Estimation,” in Proc. IEEE Int. Conf. Communications ICC
 ’95 Seattle, vol. 1, 1995, pp. 1–6.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

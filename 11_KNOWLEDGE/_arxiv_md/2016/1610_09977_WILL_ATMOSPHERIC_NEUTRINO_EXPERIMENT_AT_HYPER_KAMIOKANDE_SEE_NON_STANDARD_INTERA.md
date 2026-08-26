@@ -618,7 +618,7 @@ doi:10.1088/1126-6708/2009/08/090 [arXiv:0907.0097 [hep-ph]].
 Otranto, Italy.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

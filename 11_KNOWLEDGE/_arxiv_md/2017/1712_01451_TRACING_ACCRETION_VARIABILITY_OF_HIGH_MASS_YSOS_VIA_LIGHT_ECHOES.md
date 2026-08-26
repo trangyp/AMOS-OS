@@ -298,7 +298,7 @@ Figure 2. Top and center - brightness ratio images showing the bipolar light ech
 at the bottom indicates the ratio values. Bottom - Echo simulation for a circumstellar disk with an inclination of 75◦.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

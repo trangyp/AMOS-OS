@@ -458,7 +458,7 @@ Figure 13. Accuracy of TOF
 Figure 10. Bin size of TCM                       Figure 11. Bin size of FDM
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

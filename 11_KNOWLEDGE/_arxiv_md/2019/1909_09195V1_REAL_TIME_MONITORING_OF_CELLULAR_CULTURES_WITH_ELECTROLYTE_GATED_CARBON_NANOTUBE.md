@@ -905,7 +905,7 @@ Optical measurements were carried out on a Perkin Elmer λ1050 spectrophotometer
 tungsten lamp as the excitation source.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

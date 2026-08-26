@@ -1582,7 +1582,7 @@ q
 (see Appendix A). The TCM parameters show RV T,cz = 0.384.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

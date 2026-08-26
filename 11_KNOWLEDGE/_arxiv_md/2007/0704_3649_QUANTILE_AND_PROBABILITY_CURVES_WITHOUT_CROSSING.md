@@ -1736,7 +1736,7 @@ statistics, New York: Springer.
 [61] Villani, C. (2003): Topics in Optimal Transportation, Providence: American Mathematical Society.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

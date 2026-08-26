@@ -639,7 +639,7 @@ Wright, T. (1750), An Original Theory or New Hypothesis of the Universe,
 London : H. Chapelle.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -610,7 +610,7 @@ ing. URL:https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17176 ,
 21. Natural Language Toolkit. URL: https://www.nltk.org/.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

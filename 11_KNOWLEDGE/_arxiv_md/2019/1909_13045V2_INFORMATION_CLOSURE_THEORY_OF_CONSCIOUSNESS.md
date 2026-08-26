@@ -1377,7 +1377,7 @@ variables and dependencies are omitted for clarity.) . . . . . . . . . . . . .
 27
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

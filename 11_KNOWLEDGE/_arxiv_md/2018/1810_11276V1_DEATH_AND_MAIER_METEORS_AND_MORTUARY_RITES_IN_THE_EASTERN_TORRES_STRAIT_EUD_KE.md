@@ -1102,7 +1102,7 @@ development of a new Indigenous program at Sydney Observatory. Journal of
 Astronomical History and Heritage, 17(2): 195-204.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

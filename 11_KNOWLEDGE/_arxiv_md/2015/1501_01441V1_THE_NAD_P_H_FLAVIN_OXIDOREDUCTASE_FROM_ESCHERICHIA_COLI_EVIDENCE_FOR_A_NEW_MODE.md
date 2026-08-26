@@ -863,7 +863,7 @@ from [4R-2H] NADH enzymatic oxidation.
 TABLES
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

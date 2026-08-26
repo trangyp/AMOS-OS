@@ -1180,7 +1180,7 @@ Systems '94. 'Advanced Robotic Systems and the Real World', IROS '94. Vol. 2, pp
 -995.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -261,7 +261,7 @@ Walsh, V. (2003). A theory of magnitude: common cortical metrics of time, space 
 quantity, Trends in Cognitive Sciences 7(11), 483–488.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

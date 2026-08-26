@@ -2072,7 +2072,7 @@ Conference on Management of Data, SIGMOD ’04, pages
 14
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

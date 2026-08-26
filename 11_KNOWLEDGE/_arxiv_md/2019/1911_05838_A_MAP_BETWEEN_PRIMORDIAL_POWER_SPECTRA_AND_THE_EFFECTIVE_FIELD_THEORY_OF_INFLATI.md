@@ -655,7 +655,7 @@ Astron. Astrophys. 594 (2016) A11
 15. S. Gottlober, V. Muller and A. A. Starobinsky, Phys. Rev. D 43 (1991) 2510.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

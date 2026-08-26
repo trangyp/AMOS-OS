@@ -4125,7 +4125,7 @@ et l’ACU. Des voies de collaboration devraient être envisagées avec ces gran
 de l’éducation.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -696,7 +696,7 @@ and H. Takagi, ArXiv e-
 prints arXiv:1401.1066 [cond-mat].
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

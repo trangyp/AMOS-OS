@@ -1430,7 +1430,7 @@ the measured velocity of the single individual in Fig. 16. That is, from Fig. 16
 1 m/s and 2 m/s. It also conﬁrms that the “slowing down” is no longer relevant when 25 individuals push from behind.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

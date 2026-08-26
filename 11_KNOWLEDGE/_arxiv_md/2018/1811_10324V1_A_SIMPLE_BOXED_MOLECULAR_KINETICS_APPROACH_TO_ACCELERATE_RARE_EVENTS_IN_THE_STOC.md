@@ -1238,7 +1238,7 @@ Physics, 2015, 17, 8372-8381.
 65. D. R. Glowacki, A. J. Orr-Ewing and J. N. Harvey, J Chem Phys, 2015, 143.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

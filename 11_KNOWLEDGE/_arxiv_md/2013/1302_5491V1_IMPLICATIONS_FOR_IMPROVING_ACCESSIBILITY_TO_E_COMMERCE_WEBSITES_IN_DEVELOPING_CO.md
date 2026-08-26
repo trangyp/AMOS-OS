@@ -1284,7 +1284,7 @@ USA, 1
 Not Specified, 27
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

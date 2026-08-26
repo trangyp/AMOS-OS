@@ -1084,7 +1084,7 @@ culture and the medieval cosmos in modern times.
 50 Cited in Battistessa, ‘Introducción’, p. 38.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

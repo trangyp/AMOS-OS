@@ -918,7 +918,7 @@ bse0580133h.indd   150
 10-07-2015   11:54:47
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

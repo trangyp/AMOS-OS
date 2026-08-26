@@ -1179,7 +1179,7 @@ Part I. The role of traditional knowledge in
 healthcare and agriculture. New York: USA, 3-6.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

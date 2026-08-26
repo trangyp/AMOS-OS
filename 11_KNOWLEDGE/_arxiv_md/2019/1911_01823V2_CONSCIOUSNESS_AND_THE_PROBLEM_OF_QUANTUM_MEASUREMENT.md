@@ -618,7 +618,7 @@ archive.pitt.edu/id/eprint/22180. (2024).
 Consciousness20.nb  13
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

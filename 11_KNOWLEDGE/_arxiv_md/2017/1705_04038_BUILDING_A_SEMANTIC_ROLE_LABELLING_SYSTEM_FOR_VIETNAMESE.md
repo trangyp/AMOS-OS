@@ -1077,7 +1077,7 @@ of the 20th International Conference on Computational Linguistics,
 University of Geneva, Switzerland, 2004, pp. 1346–1352.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

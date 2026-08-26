@@ -3097,7 +3097,7 @@ Res., 42, D191–8.
 36
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

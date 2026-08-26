@@ -759,7 +759,7 @@ Phys. 82, 2421 (2010).
 [27] H. Ding et al., Europhys. Lett. 83, 47001 (2008).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

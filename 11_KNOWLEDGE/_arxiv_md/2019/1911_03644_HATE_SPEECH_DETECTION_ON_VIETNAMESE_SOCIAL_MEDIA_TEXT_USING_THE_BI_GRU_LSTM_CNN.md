@@ -342,7 +342,7 @@ rnn encoder-decoder for statistical machine translation,” arXiv preprint
 arXiv:1406.1078, 2014.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

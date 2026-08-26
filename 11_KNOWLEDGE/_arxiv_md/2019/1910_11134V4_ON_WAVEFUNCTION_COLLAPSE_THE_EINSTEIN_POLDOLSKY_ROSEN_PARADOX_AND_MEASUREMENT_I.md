@@ -2779,7 +2779,7 @@ and Human Intelligence, (Harvard University Press, 1988).
 54. P. J. Lewis, What is it like to be Schr¨odinger’s cat?, Analysis 60 (2000) 22–29.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

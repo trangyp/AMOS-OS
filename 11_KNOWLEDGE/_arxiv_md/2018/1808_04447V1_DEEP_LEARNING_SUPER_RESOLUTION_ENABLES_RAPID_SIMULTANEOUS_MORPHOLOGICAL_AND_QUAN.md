@@ -439,7 +439,7 @@ osteoarthritis and cartilage repair procedures. Osteoarthritis and cartilage / O
 Osteoarthritis Research Society 21(10) (2013) 1474–84
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

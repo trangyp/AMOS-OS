@@ -2703,7 +2703,7 @@ Email address: gromada@math.uni-sb.de
 Email address: weber@math.uni-sb.de
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

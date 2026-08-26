@@ -202,7 +202,7 @@ advanced research series, and references quoted therein.
 14. F. Fayette et al., Eur. Phys. J. C63 (2009) 33.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

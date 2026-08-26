@@ -2357,7 +2357,7 @@ visual cortex of the rhesus monkey. Nature,
 27
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

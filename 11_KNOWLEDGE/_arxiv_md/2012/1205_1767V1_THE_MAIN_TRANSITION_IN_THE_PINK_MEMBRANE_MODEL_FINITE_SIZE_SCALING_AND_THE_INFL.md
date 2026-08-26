@@ -1226,7 +1226,7 @@ isotropic-to-nematic transitions, Phys. Rev. B 80, 014107
 (2009)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

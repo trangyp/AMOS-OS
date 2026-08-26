@@ -837,7 +837,7 @@ I would like to say thanks to John D. Barrow for corrections about the historica
 the natural selection theory of the universes and about the mathematical universe concept.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

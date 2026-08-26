@@ -621,7 +621,7 @@ Series, Volume 23, Issue , pp. 454-458 (2013)
 Immagine Solstiziale del 23 dicembre durante le misure (foto Enrico Giuliani)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -2043,7 +2043,7 @@ Supplementary Table S4. Table of Parameters for Simulating Data with Realistic M
 1.55247017444e-05
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

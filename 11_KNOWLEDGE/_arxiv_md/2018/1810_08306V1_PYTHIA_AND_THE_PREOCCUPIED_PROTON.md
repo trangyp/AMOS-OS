@@ -976,7 +976,7 @@ References
 [18] B. B. Abelev et al. (ALICE Collaboration), Phys. Lett. B 728, 25 (2014).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -3166,7 +3166,7 @@ N (u′|u, σ) ∇u′qπ (s, u′) du′
 Where we used integration by parts.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

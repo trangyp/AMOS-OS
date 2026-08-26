@@ -803,7 +803,7 @@ K.; "A 3-bit soft-decision IC for powerful forward error correction in
 circuits, 40(8), pp.1695-1705, 2005.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

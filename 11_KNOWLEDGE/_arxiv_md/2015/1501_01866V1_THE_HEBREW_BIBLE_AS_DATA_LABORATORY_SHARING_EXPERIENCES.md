@@ -554,7 +554,7 @@ van Zundert, Joris et al. (2012), Proceedings of the leuven2012 interedition wor
 http://interedition.eu/wiki/index.php/Leuven2012_Proceedings.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

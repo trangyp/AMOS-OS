@@ -400,7 +400,7 @@ Department of Mathematics, Krishnanath College, Baharampur, West Bengal 742101, 
 E-mail address: rajib raju786@yahoo.com
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1050,7 +1050,7 @@ Figure 7: Annotations generated using our method for “MC 5: Dosing interval”
 Figure 8: Annotations generated using our method for “MC 6: Necropsy timing”.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

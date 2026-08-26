@@ -1042,7 +1042,7 @@ Awareness (SA) of the agent in both a losing scenario and a winning scenario.
 15
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

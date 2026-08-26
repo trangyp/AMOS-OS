@@ -8546,7 +8546,7 @@ Position 166
 Y166V-Y174D
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

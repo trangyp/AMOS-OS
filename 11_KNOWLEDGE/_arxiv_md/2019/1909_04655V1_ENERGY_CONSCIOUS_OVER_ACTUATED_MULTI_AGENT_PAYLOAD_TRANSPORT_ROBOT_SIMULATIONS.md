@@ -1182,7 +1182,7 @@ system,” in ICRA workshop on open source software, vol. 3, no. 3.2.
 Kobe, 2009, p. 5.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

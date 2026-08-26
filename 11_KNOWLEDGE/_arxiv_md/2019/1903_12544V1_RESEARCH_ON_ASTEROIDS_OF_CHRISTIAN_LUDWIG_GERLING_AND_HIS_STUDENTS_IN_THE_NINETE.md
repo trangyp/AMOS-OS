@@ -923,7 +923,7 @@ erwinschwab.de/asteroid-marburg, (accessed 7 August 2017).
 Prepared using sagej.cls
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

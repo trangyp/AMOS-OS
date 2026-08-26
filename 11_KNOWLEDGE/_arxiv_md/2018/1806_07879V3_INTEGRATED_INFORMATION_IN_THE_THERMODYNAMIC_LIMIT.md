@@ -1555,7 +1555,7 @@ establishing and norm-following in autonomous agency,”
 Artiﬁcial Life 20, 5–28 (2014).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

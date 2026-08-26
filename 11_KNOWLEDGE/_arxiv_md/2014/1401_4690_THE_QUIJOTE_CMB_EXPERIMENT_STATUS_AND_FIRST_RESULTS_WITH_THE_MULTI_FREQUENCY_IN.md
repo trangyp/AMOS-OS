@@ -333,7 +333,7 @@ References
 20. Planck Collaboration Results 2013 XXIII arXiv1303.5083 , (2013).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

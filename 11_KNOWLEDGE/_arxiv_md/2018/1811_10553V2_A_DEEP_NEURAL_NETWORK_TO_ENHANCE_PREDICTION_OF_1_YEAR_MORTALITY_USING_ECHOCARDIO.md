@@ -1718,7 +1718,7 @@ Extended Data Figure 6: Interface of the web application developed for cardiolog
 survival one year after echocardiography.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

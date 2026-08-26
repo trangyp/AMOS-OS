@@ -1322,7 +1322,7 @@ Object Oriented Design, IEEE Transactions on Software
 Engineering, Vol. 20, No. 6, June 1994.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -268,7 +268,7 @@ of the mean value of x1 when compared to the J/ψ case. This makes the quantitat
 and the ψ′ indistinguishable.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

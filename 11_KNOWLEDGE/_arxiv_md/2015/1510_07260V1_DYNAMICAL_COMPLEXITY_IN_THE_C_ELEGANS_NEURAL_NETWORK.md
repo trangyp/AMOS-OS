@@ -870,7 +870,7 @@ tural properties of the “Caenorhabditis elegans” neuronal network’, PLOS C
 20
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

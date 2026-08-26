@@ -468,7 +468,7 @@ uniformly from the band and smooth it to create a new signal.
 11
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

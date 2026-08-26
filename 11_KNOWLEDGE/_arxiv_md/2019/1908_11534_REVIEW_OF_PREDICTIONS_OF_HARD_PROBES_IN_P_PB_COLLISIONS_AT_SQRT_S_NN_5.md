@@ -380,7 +380,7 @@ References
 25. A. M. Sirunyan et al. [CMS Collaboration], Phys. Rev. Lett. 119, 242001 (2017).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

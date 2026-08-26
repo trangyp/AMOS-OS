@@ -159,7 +159,7 @@ Fig.2
 Gobekli Tepe, 9100 BC. Rising of Sirius at azimuth 172°, a few days before summer solstice.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1776,7 +1776,7 @@ Whysong D., Antonucci R., 2004, Ap.J., 602, 16.
 Young A.J., Wilson A.S., Mundell C.G., 2002, Ap.J., 579, 560.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

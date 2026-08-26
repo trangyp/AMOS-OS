@@ -590,7 +590,7 @@ Bitmap-Index-Based Regular Expression Matching For Text Analytics," IEEE Int. Sy
 Cirt. Syst. (ISCAS) (2017) 2667-2670.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

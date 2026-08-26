@@ -1343,7 +1343,7 @@ dimensional periodic particle-particle/particle-mesh program, Comp. Phys. Commun
 35 (1984) 618-619.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

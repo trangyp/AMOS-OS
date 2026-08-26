@@ -532,7 +532,7 @@ Eur. Phys. J. A 49, 67 (2013).
 12. S. X. Nakamura, H. Kamano, and T. Sato, Phys. Rev. D 92, 074024 (2015).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

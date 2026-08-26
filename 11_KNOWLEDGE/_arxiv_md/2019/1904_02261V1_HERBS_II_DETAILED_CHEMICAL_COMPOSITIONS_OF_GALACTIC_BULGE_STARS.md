@@ -2239,7 +2239,7 @@ Same as [11], but for Eu
 MNRAS 000, 1–13 (2018)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

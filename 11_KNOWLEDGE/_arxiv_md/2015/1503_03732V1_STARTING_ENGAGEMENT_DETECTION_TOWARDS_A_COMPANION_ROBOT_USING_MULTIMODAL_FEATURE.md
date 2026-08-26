@@ -1302,7 +1302,7 @@ Table 8: MRMR algorithm output on the 32 features set.
 25
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

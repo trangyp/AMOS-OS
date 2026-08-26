@@ -274,7 +274,7 @@ Taikaigakujutsukoenrombunshu (2014), 23–28.
 [27] Tsutomu Yamamoto. 2006. Butsuzo no himitsu. Asahi Shuppansha.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

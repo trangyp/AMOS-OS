@@ -273,7 +273,7 @@ Antennas and Propagation, vol. 60, no. 12, pp. 5947–5957, dec 2012.
 [Online]. Available: http://ieeexplore.ieee.org/document/6266702/
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

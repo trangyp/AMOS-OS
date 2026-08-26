@@ -1372,7 +1372,7 @@ Wang X Q et al 2012 The Solar Wind interactions with Lunar Magnetic Anomalies: A
 the Chang’E-2 plasma data near the Serenitatis antipode Adv. in Space Res. 50(12) 1600
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -480,7 +480,7 @@ Verwer, Sicco E. and Hammerschmidt, Christian A. ﬂexfringe: A
 Passive Automaton Learning Package. September 2017.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

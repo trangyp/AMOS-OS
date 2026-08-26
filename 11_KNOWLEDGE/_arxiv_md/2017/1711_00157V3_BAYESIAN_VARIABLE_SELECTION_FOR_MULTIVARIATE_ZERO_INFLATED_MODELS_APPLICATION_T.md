@@ -1774,7 +1774,7 @@ Journal of statistical software, 27(8):1–25.
 29
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

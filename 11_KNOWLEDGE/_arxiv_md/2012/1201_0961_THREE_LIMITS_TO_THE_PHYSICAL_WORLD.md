@@ -124,7 +124,7 @@ Figure 1. The ξ-η diagram (see text) in log-log scale with ξ=η=1 at
 the origin (Planck scale) and ξη=1/√ρΛ~1060on the Einstein limit.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

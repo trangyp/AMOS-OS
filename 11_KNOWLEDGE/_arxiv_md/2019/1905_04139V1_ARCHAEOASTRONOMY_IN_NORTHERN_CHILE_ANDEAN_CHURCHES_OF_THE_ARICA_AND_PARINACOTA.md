@@ -256,7 +256,7 @@ Reinhard J. 1983. Las montañas sagradas. Un estudio etnoarqueológico de ruinas
 cumbres andinas. Cuadernos de Historia 3: 27.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

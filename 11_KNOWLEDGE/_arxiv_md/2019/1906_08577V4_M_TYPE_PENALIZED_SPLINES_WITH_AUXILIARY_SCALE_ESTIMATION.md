@@ -1727,7 +1727,7 @@ Linear Model. Annals of Statistics 7(2), 258–268.
 26
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -634,7 +634,7 @@ Management. In Procedings of Web Intelligence 2005,
 pp. 94-100, IEEE ComputerSocie
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

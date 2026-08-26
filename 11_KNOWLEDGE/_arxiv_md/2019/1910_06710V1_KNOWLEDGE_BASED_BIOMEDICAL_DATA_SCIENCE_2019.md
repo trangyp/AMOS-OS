@@ -8764,7 +8764,7 @@ Browse at http://www.irisa.fr/LIS/ferre/sparklis/
 Abbreviations: ALD, Australian Faunal Directory; ALA, Atlas of Living Australia; NGLY1, N-glycanase 1; OBO, Open Biomedical Ontology; URI, Universal Resource Identifier.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

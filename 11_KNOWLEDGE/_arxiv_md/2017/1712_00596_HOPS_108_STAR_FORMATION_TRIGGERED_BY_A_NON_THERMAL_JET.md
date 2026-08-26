@@ -149,7 +149,7 @@ Megeath, S. T., Gutermuth, R., Muzerolle, J., et al.,
 2012, AJ144, 192.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

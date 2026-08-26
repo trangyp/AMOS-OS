@@ -848,7 +848,7 @@ null hypothesis ORR = 0.45 and PFS4 = 0.30 and the statistical power is maximize
 hypothesis ORR = 0.65 and PFS4 = 0.45.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

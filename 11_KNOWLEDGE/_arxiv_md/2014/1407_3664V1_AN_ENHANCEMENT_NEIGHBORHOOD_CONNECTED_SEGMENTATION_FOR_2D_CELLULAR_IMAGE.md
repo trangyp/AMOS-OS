@@ -659,7 +659,7 @@ Fig. 6, the result of segmentation using the JSEG
 algorithm.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

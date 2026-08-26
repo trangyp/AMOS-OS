@@ -565,7 +565,7 @@ Research 2011; 12: 2825–2830.
 through self-play. Science 2018; 362(6419): 1140–1144.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

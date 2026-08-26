@@ -681,7 +681,7 @@ Nozi`eres and S. Schmitt-Rink, J. Lowe Temp. Phys. 59, 195 (1985).
 18. C.A. Bertulani and M.S. Hussein, arXiv:0705.3998.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -519,7 +519,7 @@ Systems for Spoken Language Domains. arxiv, 2015.
 struct Deep Recurrent Neural Networks. CoRR abs/1312.6026 (2013)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

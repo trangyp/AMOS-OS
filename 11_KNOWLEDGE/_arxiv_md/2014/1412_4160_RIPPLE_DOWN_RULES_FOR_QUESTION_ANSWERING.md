@@ -2260,7 +2260,7 @@ man Language Technology Research, pages 399–404. Morgan
 Kaufmann Publishers Inc., 2002.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

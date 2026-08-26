@@ -1388,7 +1388,7 @@ Xu, H.-Y., & Li, Y. 2004a, A&A, 418, 213
 Xu, H.-Y., & Li, Y. 2004b, A&A, 418, 225
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

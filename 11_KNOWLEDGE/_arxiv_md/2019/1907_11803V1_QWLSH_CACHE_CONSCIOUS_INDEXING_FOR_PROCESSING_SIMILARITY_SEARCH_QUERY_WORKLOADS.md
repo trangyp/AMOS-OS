@@ -1247,7 +1247,7 @@ on Management of Data, SIGMOD ’16, pages 2023–2037, New York,
 NY, USA, 2016. ACM.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

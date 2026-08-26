@@ -653,7 +653,7 @@ Auletta, G.; Ellis, G.F.; Jaeger, L. Top-down causation by information control: 
 to a scientiﬁc research programme. Journal of the Royal Society Interface 2008, 5, 1159–1172.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

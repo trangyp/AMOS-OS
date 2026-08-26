@@ -324,7 +324,7 @@ our basic physical assumptions are wrong?”
 arXiv:1212.6274 [math-ph]
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

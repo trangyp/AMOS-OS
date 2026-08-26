@@ -1531,7 +1531,7 @@ Xuyen, L. T. (2013). Việt Điện U Linh [Spiritual powers in the Viet realm].
 https://quangduc.com/a4657/viet-dien-u-linh-tap-pdf
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

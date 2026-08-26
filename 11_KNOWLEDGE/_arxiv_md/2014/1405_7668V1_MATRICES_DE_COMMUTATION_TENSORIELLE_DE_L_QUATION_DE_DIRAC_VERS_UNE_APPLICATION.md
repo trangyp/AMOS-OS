@@ -7714,7 +7714,7 @@ trices and Some Generalizations of the Pauli Matrices, en préparation,
 (2013).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

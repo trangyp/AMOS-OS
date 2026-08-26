@@ -401,7 +401,7 @@ Zibetti, S., Charlot, S., & Rix, H.-W. 2009, MNRAS,
 400, 1181
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

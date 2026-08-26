@@ -1295,7 +1295,7 @@ rodolfo.aguilar-aguilar@univ-grenoble-alpes.fr
 21
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

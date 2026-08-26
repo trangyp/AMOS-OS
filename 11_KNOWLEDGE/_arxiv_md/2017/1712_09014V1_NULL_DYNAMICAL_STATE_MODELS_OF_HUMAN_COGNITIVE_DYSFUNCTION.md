@@ -2452,7 +2452,7 @@ Hudson, London, 1996).
 [135] S. Pinker, How the Mind Works (Norton, 1997).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

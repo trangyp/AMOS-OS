@@ -901,7 +901,7 @@ N.Hosoito and H.Hashizume,J.Magn.Magn.Mater 286 65 (2005)
 [26] S.Demirtas,M.R.Hosu,R.E.Camley,H.C.Mireles and A.R.Koymen,Phys.Rev.B87 184433 (2005)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

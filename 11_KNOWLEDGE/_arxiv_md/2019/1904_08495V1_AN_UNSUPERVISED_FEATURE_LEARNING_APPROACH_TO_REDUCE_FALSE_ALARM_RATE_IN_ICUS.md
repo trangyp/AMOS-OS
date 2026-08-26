@@ -789,7 +789,7 @@ transform in the ecg signal,” Journal of electrocardiology, vol. 47, 08
 2014.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -635,7 +635,7 @@ shop on Knowledge Management and Acquisition
 for Smart Systems and Services, pages 165–179.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

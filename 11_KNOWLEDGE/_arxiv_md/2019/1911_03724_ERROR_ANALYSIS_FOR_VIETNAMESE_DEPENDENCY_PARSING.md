@@ -1423,7 +1423,7 @@ national Joint Conference on Natural Language Processing (IJCNLP),
 Japan, 2013.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

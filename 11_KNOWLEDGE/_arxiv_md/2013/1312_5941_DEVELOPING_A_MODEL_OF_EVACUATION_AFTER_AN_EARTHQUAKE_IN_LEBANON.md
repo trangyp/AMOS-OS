@@ -862,7 +862,7 @@ Methodology for Agent-Oriented Analysis and Design”, Journal of
 Autonomous Agents and Multi-Agent Systems, 2000, 3(3) 285-312.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

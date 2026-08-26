@@ -907,7 +907,7 @@ star size problem, see (Schofield 1989, 41), (Granada 2008, 480).
 55 (Kepler 1618, 36)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

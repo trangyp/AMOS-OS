@@ -4261,7 +4261,7 @@ Wold, S., K. Esbensen, et al. (1987). "Principal Component Analysis." Chemometri
 and Intelligent Laboratory Systems 2(1-3): 37-52.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

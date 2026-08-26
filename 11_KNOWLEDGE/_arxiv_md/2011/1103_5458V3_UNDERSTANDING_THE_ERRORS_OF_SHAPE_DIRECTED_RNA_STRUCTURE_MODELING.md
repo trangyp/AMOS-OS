@@ -4951,7 +4951,7 @@ Kwon, M., and Strobel, S. A. (2008) Chemical basis of glycine riboswitch
 cooperativity, RNA 14, 25-34.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

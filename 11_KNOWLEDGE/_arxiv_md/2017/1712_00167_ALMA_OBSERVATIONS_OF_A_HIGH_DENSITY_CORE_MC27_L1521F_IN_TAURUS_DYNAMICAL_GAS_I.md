@@ -84,7 +84,7 @@ Black cross in each panel represents the position of the
 protostar identiﬁed with Spitzer observations.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

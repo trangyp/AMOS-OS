@@ -2824,7 +2824,7 @@ dynamics
 http://www.maths.qmul.ac.uk/ lacasa/Software.html
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

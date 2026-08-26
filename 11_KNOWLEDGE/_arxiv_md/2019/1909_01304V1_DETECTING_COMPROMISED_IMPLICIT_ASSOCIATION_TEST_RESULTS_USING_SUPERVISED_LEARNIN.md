@@ -619,7 +619,7 @@ tion Test and the Implicit Association Test. Psychological
 Reports, 109:219–230, 2011.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

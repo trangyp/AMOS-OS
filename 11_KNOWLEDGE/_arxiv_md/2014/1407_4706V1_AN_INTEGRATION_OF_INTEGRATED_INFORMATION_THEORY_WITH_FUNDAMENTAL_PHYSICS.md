@@ -524,7 +524,7 @@ Biol. Bull. 215(3), 216-242.
 10
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

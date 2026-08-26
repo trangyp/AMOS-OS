@@ -582,7 +582,7 @@ doi:10.1142/S0218194095000071
 Copyright © 2012 SciRes.                                                                                 JSEA
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -402,7 +402,7 @@ Eurographics Proceedings c
 ⃝2017 The Eurographics Association.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

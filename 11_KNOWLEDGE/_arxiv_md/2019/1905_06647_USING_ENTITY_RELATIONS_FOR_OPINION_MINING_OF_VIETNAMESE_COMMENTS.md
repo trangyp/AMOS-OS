@@ -749,7 +749,7 @@ Science and Technology, Ho Chi Minh City University of Education, Vol. 61(95), (
 44-59.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

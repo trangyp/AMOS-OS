@@ -1083,7 +1083,7 @@ ibid: 120, no. 19, 199903 (2018).
 46. F. Noferini [ALICE Collaboration], J. Phys. Conf. Ser. 1014, no. 1, 012010 (2018).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

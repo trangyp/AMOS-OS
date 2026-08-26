@@ -908,7 +908,7 @@ l2 ∼[K3/(Dρv2
 if K < Dρ.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1952,7 +1952,7 @@ Thus fp,r satisfies the criteria for a potential flow. The others follow similar
 3/3
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

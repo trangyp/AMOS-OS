@@ -639,7 +639,7 @@ DiMasi, J.A., R.W. Hansen, and H.G. Grabowski, The price of innovation: new esti
 drug development costs. J Health Econ, 2003. 22(2): p. 151-85.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

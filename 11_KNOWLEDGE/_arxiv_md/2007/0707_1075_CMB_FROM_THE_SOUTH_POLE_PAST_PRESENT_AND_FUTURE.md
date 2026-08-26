@@ -426,7 +426,7 @@ W. L. 2002, Nature, 420, 772 (astro-ph/0209478)
 8
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

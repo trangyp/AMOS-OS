@@ -2029,7 +2029,7 @@ opposition, S-L-M. When the light distribution is modified, the origin, shape, a
 must change accordingly in order to maintain sufficient information flow.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

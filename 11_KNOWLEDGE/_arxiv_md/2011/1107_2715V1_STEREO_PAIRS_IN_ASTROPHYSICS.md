@@ -1383,7 +1383,7 @@ knowledge of Python to be implemented); simply contact F.V. at fvogt@mso.anu.edu
 Fig. 10 : Idem as Fig. 9, but for θ0 = 50◦and θ0 = 80◦
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -201,7 +201,7 @@ Journal of Consulting & Clinical Psychology (1994)
 62:69-74
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

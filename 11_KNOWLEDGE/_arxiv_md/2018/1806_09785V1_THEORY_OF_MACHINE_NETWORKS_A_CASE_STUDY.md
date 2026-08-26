@@ -401,7 +401,7 @@ dren’s understanding of deception. Cognition, 13(1):103–128,1983
 [9]  Assetto Corsa. Key Features - Assetto Corsa.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

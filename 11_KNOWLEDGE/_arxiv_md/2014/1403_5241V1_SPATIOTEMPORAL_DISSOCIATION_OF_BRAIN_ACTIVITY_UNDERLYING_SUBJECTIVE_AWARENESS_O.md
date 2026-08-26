@@ -2622,7 +2622,7 @@ denote s.e.m. across subjects.
 
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

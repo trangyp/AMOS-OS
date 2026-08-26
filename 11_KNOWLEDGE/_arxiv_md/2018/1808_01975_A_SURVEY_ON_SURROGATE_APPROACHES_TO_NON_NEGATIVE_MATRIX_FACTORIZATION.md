@@ -3344,7 +3344,7 @@ for some function ˜C, which only depends on A. This shows the separability of t
 surrogate.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

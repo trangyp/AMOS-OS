@@ -1525,7 +1525,7 @@ research interest includes human action and activity
 recognition, hand gesture recognition and machine learning.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

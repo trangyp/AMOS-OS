@@ -456,7 +456,7 @@ The Quarterly Journal of Economics 106 (4), 1039-1061.
 Weyl, H. (1952) Symmetry. Princeton: Princeton University Press.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

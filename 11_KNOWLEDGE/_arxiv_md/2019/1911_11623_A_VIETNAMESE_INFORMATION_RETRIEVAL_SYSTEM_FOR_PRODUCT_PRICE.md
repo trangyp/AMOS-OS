@@ -554,7 +554,7 @@ an ontology-based e-commerce product information re-
 trieval system,” JCP, vol. 4, no. 6, pp. 436–443, 2009.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

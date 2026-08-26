@@ -1363,7 +1363,7 @@ Taliaferro, eds., A Companion to Philosophy of Religion (Malden, MA: Blackwell P
 57  Karl F. Kuhn, In Quest of the Universe (Boston: Jones and Bartlett Publications, 1998), p. 557.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -9809,7 +9809,7 @@ J. Phys. Chem. Ref. Data., 19:1049–1073, 1990.
 Weidenfeld and Nicolson.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

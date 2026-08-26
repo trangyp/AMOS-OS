@@ -1185,7 +1185,7 @@ Service  Applications. In. Los Alamos: National Center for Genome Research;
 2006.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

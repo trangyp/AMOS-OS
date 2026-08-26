@@ -3675,7 +3675,7 @@ Sara Linse, and Tuomas PJ Knowles. Molecular mechanisms of protein aggregation f
 Nature protocols, 11(2):252–272, 2016.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

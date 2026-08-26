@@ -1034,7 +1034,7 @@ material and the building blocks of extraterrestrial life,
 arXiv:1907.05427 [astro-ph.EP].
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -2213,7 +2213,7 @@ approaches for detecting and preventing Aedes aegypti population outbreaks: Basi
 alert and control system, Mem´orias do Instituto Oswaldo Cruz 103(1):50-59 (February 2008).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

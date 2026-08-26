@@ -398,7 +398,7 @@ Zhu, Z., Hartmann, L., Gammie, C.F., et al. 2010 ApJ,
 Zwintz, K. 2008, ApJ, 673, 1088
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

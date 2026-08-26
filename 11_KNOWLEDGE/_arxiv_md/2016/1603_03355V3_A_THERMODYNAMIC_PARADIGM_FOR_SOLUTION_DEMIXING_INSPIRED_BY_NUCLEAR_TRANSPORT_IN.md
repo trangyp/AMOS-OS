@@ -1650,7 +1650,7 @@ FIG. S5: Phase diagram of nuclear localization and entropy production. (A) total
 nM (B) [C]tot = 50 nM and (C) [C]tot = 100 nM. Other parameters used are the same as in FIG.3 and 4: [Ran]tot = 75 nM.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

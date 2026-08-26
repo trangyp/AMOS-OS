@@ -543,7 +543,7 @@ the c-value/nc-value method. International Journal on Digital Libraries 3(2) (Au
 2000) 115–130
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

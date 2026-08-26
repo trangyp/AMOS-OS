@@ -3019,7 +3019,7 @@ lization bottleneck by cocrystallization. Cryst. Growth Des., 7:2219–2225.
 44
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

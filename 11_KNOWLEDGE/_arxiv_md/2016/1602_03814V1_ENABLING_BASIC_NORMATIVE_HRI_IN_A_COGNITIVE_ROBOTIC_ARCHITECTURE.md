@@ -458,7 +458,7 @@ engine: Algorithm and examples,” Artiﬁcial intelligence, vol. 41, no. 1,
 pp. 1–63, 1989.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1004,7 +1004,7 @@ least linked species; S: specialist scenario, extinctions go sequentially from t
 the most linked species.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

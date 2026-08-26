@@ -9619,7 +9619,7 @@ reporting subjects. This strategy has proven useful in the study of mindfulness 
 previously considered ‘spiritual’.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

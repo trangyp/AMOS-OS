@@ -1908,7 +1908,7 @@ completed a research project on Tasmanian Aboriginal Astronomy,
 for which she received a High Distinction.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

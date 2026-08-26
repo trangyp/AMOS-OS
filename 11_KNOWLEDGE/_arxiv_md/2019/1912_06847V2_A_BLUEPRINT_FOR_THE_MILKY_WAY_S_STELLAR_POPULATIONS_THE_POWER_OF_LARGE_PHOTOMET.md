@@ -914,7 +914,7 @@ Zolotov, A., Willman, B., Brooks, A. M., et al. 2009, ApJ,
 702, 1058
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

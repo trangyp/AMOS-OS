@@ -1462,7 +1462,7 @@ B. N. Rogers, Physics of Plasmas 7, 1904 (2000),
 https://doi.org/10.1063/1.874014.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

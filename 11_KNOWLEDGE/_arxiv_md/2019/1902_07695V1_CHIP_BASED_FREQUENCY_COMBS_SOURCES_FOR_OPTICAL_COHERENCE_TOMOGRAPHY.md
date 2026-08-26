@@ -312,7 +312,7 @@ observed, including delineation of the fibrous cap, calcium, and layered structu
 within OCT images.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

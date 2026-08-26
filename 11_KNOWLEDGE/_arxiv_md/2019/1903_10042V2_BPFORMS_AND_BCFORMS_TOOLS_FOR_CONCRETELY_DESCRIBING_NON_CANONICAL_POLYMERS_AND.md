@@ -1278,7 +1278,7 @@ Examples of the BcForms grammar for describing complexes.
 21
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

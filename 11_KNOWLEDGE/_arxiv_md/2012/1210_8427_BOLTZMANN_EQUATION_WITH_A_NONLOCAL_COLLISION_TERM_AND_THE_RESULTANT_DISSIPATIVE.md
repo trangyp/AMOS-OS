@@ -298,7 +298,7 @@ Applications (Amsterdam: North-Holland) p 18
 [17] Bjorken J D 1983 Phys. Rev. D 27 140
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

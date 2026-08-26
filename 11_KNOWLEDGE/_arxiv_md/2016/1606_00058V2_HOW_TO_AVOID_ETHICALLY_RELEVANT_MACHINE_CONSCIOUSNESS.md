@@ -1683,7 +1683,7 @@ Die Mechanik des Seelenwagens. Eine neuronale Theorie der Handlungsregulation, H
 International Journal of Machine Consciousness 1:2, p., World Scientific,  2011
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

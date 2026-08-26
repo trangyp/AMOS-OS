@@ -1423,7 +1423,7 @@ Representing general relational knowledge in ConceptNet 5.
 In: LREC; 2012. p. 3679–3686.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

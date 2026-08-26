@@ -1125,7 +1125,7 @@ under dependence, with applications to DNA microarrays. Technical Report
 microarrays applied to the ionizing radiation response. PNAS 98 5116–5124.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

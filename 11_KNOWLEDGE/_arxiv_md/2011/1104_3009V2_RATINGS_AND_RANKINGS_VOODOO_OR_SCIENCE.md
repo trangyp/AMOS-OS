@@ -2199,7 +2199,7 @@ pling approaches for the fourier amplitudes sensitivity test (fast). Computation
 Statistics and Data Analysis 55, 184–198.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

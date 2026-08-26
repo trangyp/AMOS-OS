@@ -2313,7 +2313,7 @@ on Genetic  and  evolutionary computation, GECCO  ’11, ACM, New York,
 NY, USA, 2011, pp. 543–550.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

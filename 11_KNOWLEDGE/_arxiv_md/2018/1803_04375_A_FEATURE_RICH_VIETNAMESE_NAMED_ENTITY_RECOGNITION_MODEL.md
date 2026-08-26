@@ -746,7 +746,7 @@ Vietnamese Word Segmenter. In: Proceedings of the 11th International Conference
 on Language Resources and Evaluation (LREC 2018). (2018)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

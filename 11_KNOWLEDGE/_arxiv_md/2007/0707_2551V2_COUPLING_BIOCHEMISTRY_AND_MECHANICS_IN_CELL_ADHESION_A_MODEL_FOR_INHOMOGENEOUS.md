@@ -1495,7 +1495,7 @@ regions are shown as insets. These results agree qualitatively with the experime
 Peterson et al., shown in Fig. 2.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

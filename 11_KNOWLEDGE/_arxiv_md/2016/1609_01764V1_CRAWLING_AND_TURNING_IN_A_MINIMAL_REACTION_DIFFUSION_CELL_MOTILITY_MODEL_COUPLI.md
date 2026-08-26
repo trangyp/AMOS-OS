@@ -1614,7 +1614,7 @@ from the perspective of front propagation. Physical Review E, 88
 (4):042708, 2013.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

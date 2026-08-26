@@ -1618,7 +1618,7 @@ Kao W F and Lin I-C 2014 Bianchi type I expanding universe in Weyl-invariant mas
 D 90 063003
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

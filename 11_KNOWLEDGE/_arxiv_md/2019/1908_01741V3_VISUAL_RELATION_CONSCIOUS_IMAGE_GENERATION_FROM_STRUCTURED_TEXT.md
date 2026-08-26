@@ -1337,7 +1337,7 @@ image recognition. In: ICLR. (2015) 9
 detection with region proposal networks. In: NIPS. (2015) 12
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

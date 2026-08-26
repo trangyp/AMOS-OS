@@ -1266,7 +1266,7 @@ and Reid, I. 2018. Towards effective low-bitwidth convolu-
 tional neural networks. In CVPR, 7920–7928.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

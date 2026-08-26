@@ -587,7 +587,7 @@ Braunschweig/Wiesbaden: Vieweg,  1995.
 17 G. Gorelik, with A. W. Bouis, The World of Andrei Sakharov. Oxford University Press. 2005.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

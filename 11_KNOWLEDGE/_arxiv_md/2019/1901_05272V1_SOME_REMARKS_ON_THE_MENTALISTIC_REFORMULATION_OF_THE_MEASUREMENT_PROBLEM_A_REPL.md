@@ -872,7 +872,7 @@ losophy of Quantum Physics, chapter 5, pages 179 – 220. Springer.
 16
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

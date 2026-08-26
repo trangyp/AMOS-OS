@@ -454,7 +454,7 @@ for Electrocardiogram Classification," 2017.
 fibrillation: European perspective," vol. 2014, no. default, pp. 213-220, 2014.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1007,7 +1007,7 @@ ing, fog computing, software-deﬁned networking,
 and mathematical modeling.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

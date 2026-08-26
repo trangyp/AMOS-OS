@@ -4726,7 +4726,7 @@ Yi, G. Y. (2017). Statistical Analysis with Measurement Error or Misclassiﬁcat
 York, NY: Spriger.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

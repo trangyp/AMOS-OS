@@ -3542,7 +3542,7 @@ no. 2, Princeton University Press, Princeton, N. J., 1940.
 [95] L. A. Zadeh, Fuzzy sets, Information and Control 8 (1965), 338–353.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

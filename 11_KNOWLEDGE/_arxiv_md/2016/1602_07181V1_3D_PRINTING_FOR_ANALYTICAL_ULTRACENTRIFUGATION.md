@@ -927,7 +927,7 @@ Figure 5
 Figure 6
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

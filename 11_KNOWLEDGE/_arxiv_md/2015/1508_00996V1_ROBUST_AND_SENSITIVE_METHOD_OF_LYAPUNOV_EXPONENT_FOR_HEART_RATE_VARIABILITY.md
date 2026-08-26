@@ -967,7 +967,7 @@ now. From 2011 until now, he works as a researcher in Alexandria University. In 
 as a lecturer in Al Baha International college of Science, KSA.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

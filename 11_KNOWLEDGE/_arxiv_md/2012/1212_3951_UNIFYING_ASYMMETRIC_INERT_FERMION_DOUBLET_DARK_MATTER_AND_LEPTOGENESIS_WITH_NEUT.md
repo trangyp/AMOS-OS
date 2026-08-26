@@ -374,7 +374,7 @@ References
 10. S. Kim, H. Bhang, J. Choi, W. Kang, B. Kim, et al, Phys. Rev. Lett. 108, 181301 (2012).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

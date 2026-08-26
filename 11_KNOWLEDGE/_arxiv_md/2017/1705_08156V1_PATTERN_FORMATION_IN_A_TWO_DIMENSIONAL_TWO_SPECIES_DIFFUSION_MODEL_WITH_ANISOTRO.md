@@ -1257,7 +1257,7 @@ ed (Cambridge: Cambridge University Press) ISBN 9781107074026
 [24] Tarasevich Y Y, Lebovka N I and Laptev V V 2012 Phys. Rev. E 86(6) 061116 ISSN 2470-0045
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

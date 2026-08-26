@@ -468,7 +468,7 @@ momentum-dependent asymmetric dark matter, JCAP 11 (2016) 007,
 [arXiv:1605.06502].
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

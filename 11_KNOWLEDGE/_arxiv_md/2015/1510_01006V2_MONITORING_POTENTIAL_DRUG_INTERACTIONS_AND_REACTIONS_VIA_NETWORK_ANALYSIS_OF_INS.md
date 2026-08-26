@@ -2415,7 +2415,7 @@ date: Tue, Mar 31 2015 @ 18:03 
 I'd be thankful xo #Depression #anxiety #Bipolar #Prozac #mood_swings
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

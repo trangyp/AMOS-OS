@@ -1479,7 +1479,7 @@ Theoret. Comput. Sci. 8 (1979), no. 2, 189–201. 1.1
 1.1
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

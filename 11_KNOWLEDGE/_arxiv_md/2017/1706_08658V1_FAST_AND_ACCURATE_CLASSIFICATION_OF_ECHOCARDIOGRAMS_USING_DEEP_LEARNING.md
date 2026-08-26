@@ -786,7 +786,7 @@ Figure 7. Confidence for first and second guesses on image classification.
 Figure 8. Example native-resolution image.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

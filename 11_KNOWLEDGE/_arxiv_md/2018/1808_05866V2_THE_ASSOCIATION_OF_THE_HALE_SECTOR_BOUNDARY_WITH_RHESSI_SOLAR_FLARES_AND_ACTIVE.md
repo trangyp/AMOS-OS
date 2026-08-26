@@ -1549,7 +1549,7 @@ is indicated by the red bars (right panels).
 Article number, page 13 of 13
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

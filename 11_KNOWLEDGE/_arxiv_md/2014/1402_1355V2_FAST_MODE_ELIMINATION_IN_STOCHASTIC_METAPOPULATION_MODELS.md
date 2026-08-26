@@ -2065,7 +2065,7 @@ Genetics
 (Springer-Verlag, Berlin, 2004) Second edition.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

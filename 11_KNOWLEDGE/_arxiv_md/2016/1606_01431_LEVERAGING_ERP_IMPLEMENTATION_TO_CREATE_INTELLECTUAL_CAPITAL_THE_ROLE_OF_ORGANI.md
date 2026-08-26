@@ -1146,7 +1146,7 @@ use, distribution, and reproduction in any medium, provided the original authors
 credited.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

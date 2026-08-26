@@ -471,7 +471,7 @@ with COLA, Journal of Cosmology and Astroparticle Physics 6,
 036 (2013), arXiv:1301.0322 [astro-ph.CO].
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

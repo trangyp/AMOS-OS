@@ -4473,7 +4473,7 @@ Figure!S4.***Activations*associated*with*loving_kindness*and*compassion*mediatio
 *
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

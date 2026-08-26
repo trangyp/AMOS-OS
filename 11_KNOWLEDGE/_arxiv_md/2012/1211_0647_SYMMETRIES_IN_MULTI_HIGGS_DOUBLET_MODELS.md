@@ -259,7 +259,7 @@ Costa, Phys. Rev. D 84, 117901 (2011).
 9. I. P. Ivanov and E. Vdovin, arXiv:1210.6553 [hep-ph].
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

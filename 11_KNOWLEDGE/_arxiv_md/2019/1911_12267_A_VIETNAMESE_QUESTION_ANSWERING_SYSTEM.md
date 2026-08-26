@@ -765,7 +765,7 @@ Integration on the Web, 2003.
 APPENDIX A. COLTECH – VNU ONTOLOGY
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

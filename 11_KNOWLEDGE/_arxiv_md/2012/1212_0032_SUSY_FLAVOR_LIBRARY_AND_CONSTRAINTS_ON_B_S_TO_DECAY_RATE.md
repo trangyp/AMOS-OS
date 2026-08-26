@@ -471,7 +471,7 @@ experiments”, LHCb-CONF-2012-017, CMS-PAS-BPH-12-009, ATLAS-CONF-2012-061.
 15. M. Blanke, A. Buras, D. Guadagnoli and C. Tarantino, JHEP 0610, 2006 (003).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -522,7 +522,7 @@ Refounding legitimacy towards Aethogenesis – Olivier Auber 2016 – 2017
  10/9
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

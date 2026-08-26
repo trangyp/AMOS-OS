@@ -516,7 +516,7 @@ Gaan: Gated attention networks for learning on large and
 spatiotemporal graphs. CoRR, abs/1803.07294, 2018.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

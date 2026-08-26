@@ -1756,7 +1756,7 @@ Appendix A. The US presidential election projections: A year at the polls
      Source: Real Clear Politics.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

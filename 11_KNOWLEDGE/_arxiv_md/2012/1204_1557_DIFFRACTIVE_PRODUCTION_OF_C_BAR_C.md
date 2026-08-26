@@ -718,7 +718,7 @@ R.J.M. Covolan and M.S. Soares, Phys. Rev. D67 (2003) 077504.
 11. M.  Luszczak, R. Maciu la and A. Szczurek, hep-ph: 1111.3255.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1536,7 +1536,7 @@ and R. J.
 Ellis, EMBO J. 19, 3870 (2000).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

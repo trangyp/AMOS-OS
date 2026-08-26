@@ -291,7 +291,7 @@ Trevino-Morales 2015, PhD Thesis, Universidad de
 Granada
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

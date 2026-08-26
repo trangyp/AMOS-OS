@@ -853,7 +853,7 @@ blocks represent transitions, which account for instrument reconﬁguration dead
 ﬁlter changes and telescope slews add some dead time.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

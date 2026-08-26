@@ -3854,7 +3854,7 @@ C 86, 064905 (2012).
 [74] T. A. Trainor, Mod. Phys. Lett. A 23, 569 (2008).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

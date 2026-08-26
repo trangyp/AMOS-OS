@@ -730,7 +730,7 @@ the lsa dimension. In KDIR, pages 309–313, 2011.
 14
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

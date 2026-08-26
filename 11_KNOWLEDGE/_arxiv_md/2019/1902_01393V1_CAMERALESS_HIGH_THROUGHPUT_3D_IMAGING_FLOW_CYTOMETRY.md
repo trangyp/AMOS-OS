@@ -833,7 +833,7 @@ image detection. DO, 50X/0.55 detection objective lens; SF, spatial filter; PMT,
 for transmission detection. Single slit with dimensions of 50 µm by 2 mm.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

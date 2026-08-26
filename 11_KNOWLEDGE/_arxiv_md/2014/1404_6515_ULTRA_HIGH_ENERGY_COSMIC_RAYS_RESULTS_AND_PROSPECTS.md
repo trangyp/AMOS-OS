@@ -609,7 +609,7 @@ arXiv:1310.0647.
 46. M J Hardcastle, Mon. Not. R Astron. Soc. 405, 2810 (2010).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

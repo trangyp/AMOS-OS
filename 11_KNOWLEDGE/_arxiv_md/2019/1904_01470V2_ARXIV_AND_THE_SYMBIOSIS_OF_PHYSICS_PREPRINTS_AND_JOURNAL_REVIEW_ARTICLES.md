@@ -2026,7 +2026,7 @@ Wang, L, Zhan, Y. 2019. A conceptual peer review model for arXiv and other prepr
 Learned Publishing, pp. 1-7.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

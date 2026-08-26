@@ -775,7 +775,7 @@ method and z-score for field normalization of citations at the level of Web of
 Science subject categories. Scientometrics, 101(3), 1679-1693.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

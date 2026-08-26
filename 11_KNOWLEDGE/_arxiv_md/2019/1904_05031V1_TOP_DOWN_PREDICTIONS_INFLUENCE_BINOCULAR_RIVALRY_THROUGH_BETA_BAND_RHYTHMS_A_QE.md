@@ -374,7 +374,7 @@ A, et al. Neural communication through theta-gamma cross-frequency coupling in a
 bistable motion perception task. J Integr Neurosci. 2016 Dec 1;15(04):539–51.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

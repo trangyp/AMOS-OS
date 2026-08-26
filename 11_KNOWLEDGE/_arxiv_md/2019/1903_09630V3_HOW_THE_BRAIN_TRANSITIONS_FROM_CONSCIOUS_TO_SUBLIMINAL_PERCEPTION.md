@@ -1282,7 +1282,7 @@ structure in networks. Phys. Rev. E, 91, 032803.
 10
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

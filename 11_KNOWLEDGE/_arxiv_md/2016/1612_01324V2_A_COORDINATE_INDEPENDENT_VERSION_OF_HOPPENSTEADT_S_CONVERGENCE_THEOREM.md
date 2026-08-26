@@ -1284,7 +1284,7 @@ parameter multiplying the derivative (in Russian). Math. Sb. 31, 575–
 26
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

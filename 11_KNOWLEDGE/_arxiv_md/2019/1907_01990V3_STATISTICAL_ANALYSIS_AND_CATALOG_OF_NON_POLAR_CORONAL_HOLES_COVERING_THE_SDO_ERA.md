@@ -2375,7 +2375,7 @@ signiﬁcance level higher than 0.05 were omitted. The parameters are listed in 
 SOLA: main.tex; 7 October 2019; 0:52; p. 30
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

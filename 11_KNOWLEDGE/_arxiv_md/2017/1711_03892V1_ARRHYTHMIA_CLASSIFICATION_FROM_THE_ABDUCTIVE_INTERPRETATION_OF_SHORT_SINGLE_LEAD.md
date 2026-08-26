@@ -455,7 +455,7 @@ Rúa de Jenaro de la Fuente Domínguez, S/N, CITIUS Building
 tomas.teijeiro@usc.es
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

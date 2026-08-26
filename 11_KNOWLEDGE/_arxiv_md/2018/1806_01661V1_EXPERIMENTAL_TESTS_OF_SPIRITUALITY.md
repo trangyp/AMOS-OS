@@ -115,7 +115,7 @@ advisory board for the Breakthrough Starshot project.
 Credit: Nick Higgins
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

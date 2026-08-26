@@ -508,7 +508,7 @@ sur l’évaluation de l’ambiance d’un espace architectural, Proceedings of 
 Homme-Machine, IHM, 49-56.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

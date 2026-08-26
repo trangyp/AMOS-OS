@@ -450,7 +450,7 @@ medical relation extraction. in 2013 AAAI Fall
 Symposium Series. 2013.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

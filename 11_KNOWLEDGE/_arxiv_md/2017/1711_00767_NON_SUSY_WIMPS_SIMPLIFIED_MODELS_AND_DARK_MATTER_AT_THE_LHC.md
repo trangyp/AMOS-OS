@@ -525,7 +525,7 @@ are not so Simple. JHEP, 08:053, 2017.
 Standard Model through an Anomalous Z′. 2017.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

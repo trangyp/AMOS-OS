@@ -1054,7 +1054,7 @@ CL−USER( 3 7 4 ) :
 C
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

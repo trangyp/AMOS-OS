@@ -451,7 +451,7 @@ Systems Division of the German Physical Society and co-founder of ETH
 Zurich’s Risk Center.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -653,7 +653,7 @@ Attridge (New Haven, CT: Yale University Press, 2009), 94.
 49Barbour, Religion in an Age of Science: The Gifford Lectures 1989-1991, Vol. 1, 21.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

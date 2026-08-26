@@ -1141,7 +1141,7 @@ value theorem. The American Mathematical Monthly, 104(3), 231-
 Wittgenstein, L. (2005). Recherches philosophiques. Paris : Gallimard.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

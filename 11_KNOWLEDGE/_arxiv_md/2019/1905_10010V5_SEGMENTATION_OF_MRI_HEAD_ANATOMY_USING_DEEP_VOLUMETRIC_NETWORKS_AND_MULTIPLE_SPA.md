@@ -865,7 +865,7 @@ set. Segmentation colors are arbitrarily chosen to represent the following tissu
 gray-matter = gray, bone = yellow, skin = brown, air = green, background = black.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

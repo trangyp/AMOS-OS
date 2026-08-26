@@ -1878,7 +1878,7 @@ Yoshida, R. and West, M. (2010). Bayesian learning in sparse graphical factor mo
 annealing. Journal of Machine Learning Research 11 1771–1798.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

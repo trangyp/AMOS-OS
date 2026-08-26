@@ -501,7 +501,7 @@ The inset shows the low temperature range.
 14
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

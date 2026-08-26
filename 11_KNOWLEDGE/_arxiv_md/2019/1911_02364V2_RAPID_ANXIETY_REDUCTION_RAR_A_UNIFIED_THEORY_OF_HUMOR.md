@@ -231,7 +231,7 @@ and error avoidance. J. Neurosci. Off. J. Soc. Neurosci. 26, 4769–4773 (2006).
 26. mandkyeo. Emerson - Mommy’s Nose is Scary! (Original).
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1650,7 +1650,7 @@ Total MQS at baseline
 8
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

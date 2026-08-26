@@ -1219,7 +1219,7 @@ experimentally. In this figure the structure of the prepore is drawn to illustra
 experimental data reported in our study.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

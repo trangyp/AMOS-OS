@@ -2121,7 +2121,7 @@ Commun., vol. E84-B, no. 1, pp. 116–119, Jan. 2001.
 sity, Lund, Sweden, May 2012.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1034,7 +1034,7 @@ and 10 ms () after the pulse.
 41
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

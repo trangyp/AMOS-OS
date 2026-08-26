@@ -931,7 +931,7 @@ multidimensional permanent, Phys. Rev. A 91, 022316 (2015).
 15
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

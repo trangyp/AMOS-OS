@@ -1478,7 +1478,7 @@ Zhang, C., Deng, L., Xiong, D. & Christensen-Dalsgaard, J. 2012, ApJ, 759, L14
 This preprint was prepared with the AAS LATEX macros v5.2.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

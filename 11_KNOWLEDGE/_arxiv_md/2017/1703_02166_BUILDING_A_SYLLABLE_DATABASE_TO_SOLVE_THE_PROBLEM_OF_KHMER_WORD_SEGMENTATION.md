@@ -1135,7 +1135,7 @@ Natural Language Processing, Artificial Intelligence, Information Systems. All h
 articles were stored on Mediafire: https://www.mediafire.com/folder/9b81l9mfnt7xa/BaiBaoKhoaHoc.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

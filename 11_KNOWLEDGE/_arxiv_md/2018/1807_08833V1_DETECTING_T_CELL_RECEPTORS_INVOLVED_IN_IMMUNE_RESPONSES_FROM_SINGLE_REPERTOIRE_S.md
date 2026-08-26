@@ -1173,7 +1173,7 @@ FIG. S4. Number of immune response signatures for
 immunotherapy than before.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

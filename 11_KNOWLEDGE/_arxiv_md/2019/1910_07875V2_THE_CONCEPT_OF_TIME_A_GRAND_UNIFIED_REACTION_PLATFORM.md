@@ -1037,7 +1037,7 @@ Medusa Transforming into Polyps and Cell Transdiﬀerentiatin in Turritopsis nut
 Biol. Bull. 190, 302 (1996)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

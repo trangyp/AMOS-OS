@@ -1085,7 +1085,7 @@ von Neumann, J., 1932.  Mathematical Foundations of Quantum Mechanics.  Princeto
 University Press.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

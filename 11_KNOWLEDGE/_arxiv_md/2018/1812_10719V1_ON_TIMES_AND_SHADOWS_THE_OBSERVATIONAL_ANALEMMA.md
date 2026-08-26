@@ -255,7 +255,7 @@ Fernando Karaseur is currently finishing his degree as a Physics Teacher at CEFI
 Buenos Aires.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

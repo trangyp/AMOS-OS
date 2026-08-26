@@ -1137,7 +1137,7 @@ U.S.A. 103, 17174 (2006).
 38 A. ˇSiber, unpublished.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

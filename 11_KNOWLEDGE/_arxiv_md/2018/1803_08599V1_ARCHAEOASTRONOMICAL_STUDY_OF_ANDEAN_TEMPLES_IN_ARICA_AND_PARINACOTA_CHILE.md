@@ -627,7 +627,7 @@ Vázquez de Espinosa, A. 1948 [1629]. Compendio y descripción de las Indias Occ
 Smithsonian miscellaneous collections, vol. 108, Washington.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

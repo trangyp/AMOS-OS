@@ -559,7 +559,7 @@ P. Ko and J. S. Lee, Phys. Lett. B 708, 157 (2012)
 9. P. Ko, Y. Omura and C. Yu, KIAS Preprint P12084, arXiv:1212.4607 [hep-ph]
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

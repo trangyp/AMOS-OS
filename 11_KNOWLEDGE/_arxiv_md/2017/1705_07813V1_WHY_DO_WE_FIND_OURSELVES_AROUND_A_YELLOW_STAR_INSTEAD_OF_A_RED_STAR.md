@@ -1074,7 +1074,7 @@ Yang, J., Boué, G., Fabrycky, D.C. & Abbot, D.S. (2014). Strong dependence of t
 on planetary rotation rate. The Astrophysical Journal Letters 787, L2.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

@@ -1117,7 +1117,7 @@ SEQUENCE VII
 2. Which pattern(s) or rule(s) have you been following to perform the task?
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

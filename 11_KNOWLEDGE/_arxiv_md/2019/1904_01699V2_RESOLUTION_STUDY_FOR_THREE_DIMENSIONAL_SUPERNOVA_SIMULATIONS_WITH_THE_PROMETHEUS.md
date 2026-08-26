@@ -5395,7 +5395,7 @@ Yeung, P. K., & Zhou, Y. 1997, PhRvE, 56, 1746
 Yoshida, T., Takiwaki, T., Kotake, K., et al. 2019, ApJ, 881, 16
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

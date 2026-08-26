@@ -1109,7 +1109,7 @@ Yes  n (%)
 19 (16.2%)
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

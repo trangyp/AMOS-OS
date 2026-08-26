@@ -1207,7 +1207,7 @@ of ▼a and then [F]c = [F]b1 = F.
 This kind of analysis seems to be related with ﬂowgraphs in MELL [21,22].
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

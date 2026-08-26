@@ -248,7 +248,7 @@ knowledge through graph databases. PLoS ONE 12, 7 (jul 2017), e0179130. https://
 4
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

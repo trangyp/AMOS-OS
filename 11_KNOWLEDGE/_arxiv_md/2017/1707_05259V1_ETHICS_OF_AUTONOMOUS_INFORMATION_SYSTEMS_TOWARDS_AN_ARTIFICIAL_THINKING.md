@@ -902,7 +902,7 @@ Niestlé, 1992.
 66. L. A. Zadeh. Fuzzy Sets. Information and Control, 8:338-353, 1965.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 

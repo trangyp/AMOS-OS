@@ -147,7 +147,7 @@ two other NTP results, the observation that exposed rats lived longer than unexp
 and the cancer rate in female rats was significantly less than in male rats.
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 
