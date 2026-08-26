@@ -2,20 +2,31 @@
 tags: ['canon', 'core_laws', 'note']
 ---
 
-# L15 Fractal Knowledge Law
+# L15 Fractal Knowledge Laws
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## 0. Status
+Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: CONDITIONAL.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## 2. Laws
+- **FK-1 Family Declaration**: fractal claims name their canonical family (FR001–FR025) and validation method.
+- **FK-2 Fit Before Claim**: statistical families require audited fits (MLE alpha with CI, x_min declared, alternative-model duel) — log-log eyeballing rejected.
+- **FK-3 Constructive Trace**: generative families (IFS/L-system/tiling) require rule trace + convergence evidence, not visual similarity.
+- **FK-4 Analogy ≠ Isomorphism**: structural resemblance never licenses semantic transfer without bridge governance.
+
+## 4. Falsifiers
+F1: recovered fractal canon defines different family taxonomy.
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
 
 ---
 RSCF-NODE
@@ -25,4 +36,5 @@ path: 01_CANON/01_CORE_LAWS/L15_FRACTAL_KNOWLEDGE.md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - CHILD_OF: [[LAW_HIERARCHY]]
 claim_class: AMOS_MODEL

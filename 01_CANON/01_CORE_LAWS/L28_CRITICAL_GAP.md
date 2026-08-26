@@ -4,18 +4,29 @@ tags: ['canon', 'core_laws', 'note']
 
 # L28 Critical Gap Law
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## 0. Status
+Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: CONDITIONAL.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## 2. Laws
+- **CG-1 Critical Classification**: gaps blocking safety/integrity/authority are CRITICAL and fail closed immediately.
+- **CG-2 No Consequential Path Through Critical Gap**: operations routing through unresolved critical gaps are denied, not warned.
+- **CG-3 Visible Escalation**: critical gaps surface at top of status artifacts, never buried.
+- **CG-4 Owner Required**: each critical gap names an owner or owning process.
+
+## 4. Falsifiers
+F1: authoritative canon permits consequential execution across critical gaps.
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
 
 ---
 RSCF-NODE
@@ -25,4 +36,5 @@ path: 01_CANON/01_CORE_LAWS/L28_CRITICAL_GAP.md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - CHILD_OF: [[LAW_HIERARCHY]]
 claim_class: AMOS_MODEL

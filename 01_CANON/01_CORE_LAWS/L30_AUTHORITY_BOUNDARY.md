@@ -2,20 +2,31 @@
 tags: ['canon', 'core_laws', 'note']
 ---
 
-# L30 Authority Boundary Matrix
+# L30 Authority Boundary Law
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## 0. Status
+Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: CONDITIONAL.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## 2. Laws
+- **AB-1 Envelope Not Gradient**: authority is a typed envelope, not an influence gradient — being consulted ≠ being authorized.
+- **AB-2 Root Attestation**: enforcement roots are agent-immutable, attested, fresh (ERA discipline).
+- **AB-3 Boundary Checks First**: field-specific checks precede catch-all contracts.
+- **AB-4 Separability**: Capability ≠ Reachability ≠ Identity ≠ Authorization ≠ Delegation ≠ Observability ≠ Enforcement ≠ Finality ≠ Consequence.
+
+## 4. Falsifiers
+F1: authoritative authority canon merges any separated term.
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
 
 ---
 RSCF-NODE
@@ -25,4 +36,5 @@ path: 01_CANON/01_CORE_LAWS/L30_AUTHORITY_BOUNDARY.md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - CHILD_OF: [[LAW_HIERARCHY]]
 claim_class: AMOS_MODEL

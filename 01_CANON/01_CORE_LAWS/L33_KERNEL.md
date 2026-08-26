@@ -4,18 +4,29 @@ tags: ['canon', 'core_laws', 'note']
 
 # L33 Kernel Law
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## 0. Status
+Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: CONDITIONAL.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## 2. Laws
+- **K-1 Kernel Minimalism**: the kernel holds only invariants that must never be bypassed; everything else is pluggable.
+- **K-2 Kernel Immutability Under Operation**: runtime operations cannot rewrite kernel laws; evolution uses supersession.
+- **K-3 Boot Order**: kernel loads before dependents; boot fails closed on missing kernel pieces.
+- **K-4 Executable Kernel**: kernel invariants are executable checks, not prose promises.
+
+## 4. Falsifiers
+F1: authoritative kernel canon defines different minimality contract.
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
 
 ---
 RSCF-NODE
@@ -25,4 +36,5 @@ path: 01_CANON/01_CORE_LAWS/L33_KERNEL.md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - CHILD_OF: [[LAW_HIERARCHY]]
 claim_class: AMOS_MODEL

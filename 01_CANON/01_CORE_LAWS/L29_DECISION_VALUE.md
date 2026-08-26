@@ -2,20 +2,31 @@
 tags: ['canon', 'core_laws', 'note']
 ---
 
-# L29 Decision Value Law
+# L29 Decision Value Laws
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## 0. Status
+Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: CONDITIONAL.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## 2. Laws
+- **DV-1 Value Before Volume**: prefer fewer, decision-grade outputs over exhaustive low-value ones.
+- **DV-2 Reversibility Weighting**: irreversible actions demand higher evidence than reversible ones.
+- **DV-3 Cost Of Being Wrong Asymmetry**: asymmetric downside dominates expected-value framing.
+- **DV-4 Decide Or Defer Explicitly**: ambiguity produces explicit defer-with-owner, not silent drift.
+
+## 4. Falsifiers
+F1: authoritative decision canon defines different value hierarchy.
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
 
 ---
 RSCF-NODE
@@ -25,4 +36,5 @@ path: 01_CANON/01_CORE_LAWS/L29_DECISION_VALUE.md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - CHILD_OF: [[LAW_HIERARCHY]]
 claim_class: AMOS_MODEL

@@ -2,20 +2,31 @@
 tags: ['canon', 'core_laws', 'note']
 ---
 
-# L19 Proof Capsule Law
+# L19 Proof Capsule Laws
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## 0. Status
+Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: CONDITIONAL.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## 2. Laws
+- **PC-1 Mandatory Fields**: claim / class / established / not_established / load_bearing_gaps / falsifiers / confidence_ceiling.
+- **PC-2 Honest Ceilings**: implementation_claims ceiling reflects actual executed validations, zero if none.
+- **PC-3 Competing Preserved**: competing hypotheses listed, never averaged away.
+- **PC-4 Supersede Don't Patch Silently**: successful falsifier triggers supersession ceremony.
+
+## 4. Falsifiers
+F1: authoritative proof-capsule canon defines different required fields.
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
 
 ---
 RSCF-NODE
@@ -25,4 +36,5 @@ path: 01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE.md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - CHILD_OF: [[LAW_HIERARCHY]]
 claim_class: AMOS_MODEL
