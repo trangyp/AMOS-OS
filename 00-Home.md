@@ -32,3 +32,19 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT_MOC]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+
+## Vault dashboard
+
+```dataview
+LIST FROM #moc OR #index OR #templates
+SORT file.name ASC
+```
+
+### Layer map index
+
+```dataview
+LIST
+WHERE file.path = "00_ROOT/AMOS_Layer_Maps.md"
+```
