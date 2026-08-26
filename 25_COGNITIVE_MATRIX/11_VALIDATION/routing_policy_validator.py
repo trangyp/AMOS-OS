@@ -192,8 +192,11 @@ def run_tests() -> list[tuple[str, bool, str]]:
 
     # T-RPOL-001 specialist + default → specialist eligible/preferred
     spec = _base_c(name="repair-agent", specificity=3,
-                   capabilities=frozenset({"repair"}))
-    dflt = _base_c(name="default", specificity=0)
+                   capabilities=frozenset({"repair"}),
+                   scope=frozenset({"r"}))
+    dflt = _base_c(name="default", specificity=0,
+                   capabilities=frozenset({"core"}),
+                   scope=frozenset({"r"}))
     req = RouteRequest(required_capabilities=frozenset({"repair"}),
                        scope=frozenset({"r"}), regime="A")
     r = evaluate([dflt, spec], req, PolicyState())
