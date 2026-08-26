@@ -1,3 +1,6 @@
 {
-  "baseColorScheme": "dark"
+  "baseColorScheme": "dark",
+  "userIgnoreFilters": [
+    ".devin/skills/"
+  ]
 }
