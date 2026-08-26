@@ -7,6 +7,7 @@
 
 # Obsidian base config is tracked; generated UI state, plugins, and embeddings are not
 .obsidian/*
+.obsidian-mcp/
 !.obsidian/app.json
 !.obsidian/appearance.json
 !.obsidian/community-plugins.json

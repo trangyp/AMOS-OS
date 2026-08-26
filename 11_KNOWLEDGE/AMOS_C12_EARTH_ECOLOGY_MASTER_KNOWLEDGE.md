@@ -10,7 +10,7 @@ canon_status: "DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES"
 language: "en"
 architecture: "HML_fractal_single_file"
 placeholder_status: "NONE"
-version: "1.0"
+version: "1.1"
 source_lineage:
   - "AMOS_C12_Earth_Ecology_SUPER.md"
 source_family_mapping:
@@ -1584,6 +1584,79 @@ observe
 ```
 
 This is the correct operational form of C12 rather than a static x100k registry.
+
+---
+
+# C12 ↔ CC05 Mind & Behavior Reference Bridge
+
+## Cross-domain reference
+
+**Canonical reference:** `AMOS_CC05_mind_behavior`
+
+C12 owns Earth-system, ecological, environmental, resource, and coupled human–Earth state.
+`AMOS_CC05_mind_behavior` owns mind/behavior mechanisms such as perception, cognition,
+emotion, motivation, learning, decision behavior, social behavior, and behavioral adaptation.
+
+The reference is bidirectional at the conceptual layer but does **not** merge domain ownership.
+
+## C12 → CC05 handoff
+
+C12 may provide environmental inputs such as:
+- heat, air quality, noise, crowding, and other exposures;
+- disaster and extreme-event experience;
+- food/water/resource insecurity;
+- ecological degradation or restoration;
+- environmental risk signals;
+- displacement and livelihood pressure;
+- urban and built-environment conditions;
+- climate/ecological uncertainty.
+
+CC05 may then model behavioral or psychological responses within its own scope.
+
+## CC05 → C12 handoff
+
+CC05 outputs may become human-system drivers in C12 when behavior changes:
+- energy or water demand;
+- mobility;
+- consumption;
+- land-use decisions;
+- conservation behavior;
+- risk preparation;
+- evacuation or migration;
+- technology adoption;
+- institutional compliance;
+- collective-resource use.
+
+## Causal firewall
+
+Environmental condition → mind/behavior → Earth-system outcome is a mediated causal chain.
+C12 must not infer psychological states directly from environmental measurements, and CC05
+behavioral constructs must not be treated as ecological observations.
+
+Example:
+
+```text
+heat exposure [C12]
+→ perceived thermal stress / cognition / behavior [CC05]
+→ cooling behavior [CC05]
+→ electricity demand [C12-linked human system]
+→ grid/emissions consequence [C12]
+```
+
+Every cross-domain arrow inherits its own evidence, population, environment, timescale,
+confounders, and uncertainty.
+
+## Reference declaration
+
+```yaml
+cross_domain_refs:
+  - id: AMOS_CC05_mind_behavior
+    relation: coupled_human_earth_behavior
+    direction: bidirectional
+    ownership_rule: preserve_domain_boundaries
+    causal_status: mediated_not_assumed
+    confidence_rule: weakest_load_bearing_edge
+```
 
 ---
 
