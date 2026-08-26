@@ -8,8 +8,6 @@
 I broadened the corpus search beyond the literal filename. The relevant AMOS corpus contains major architecture/state artifacts including **AMOS ARCHITECTURE**, **AMOS OS**, the max-detail Reality Architecture master, and the Trang Reality Architecture corpus.    
 
 There is still no independently identified artifact titled `K_HML`. Therefore the document below is the **full kernel reconstruction consistent with the supplied AMOS v4.4 H/M/L contract**, not falsely presented as a verbatim historical source file.
-
-```markdown
 ---
 artifact_id: AMOS-OS-K-HML
 canonical_name: K_HML
@@ -2711,7 +2709,6 @@ FLUENCY
 SPEED
 >
 TOKEN SAVINGS.
-```
 
 The provenance boundary is important: the Drive corpus clearly contains very large AMOS architecture sources—the main `AMOS ARCHITECTURE.md` is ~841 KB, `AMOS OS.md` ~751 KB, and the max-detail Reality Architecture master ~2.16 MB.    The corpus also contains later Core branches such as v4.7, v4.8, v5.3, and v5.8; I have **not** silently imported those later-version semantics into the v4.4 target above.    
 
