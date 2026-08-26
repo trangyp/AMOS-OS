@@ -1961,6 +1961,8 @@ confidence_ceiling:
 - [[11_KNOWLEDGE/Cosmo_Brain_MOC.md|00 Cosmo Brain MOC]] — the canonical Cosmo Brain index
 - [[11_KNOWLEDGE/11_KNOWLEDGE_MOC.md|11_KNOWLEDGE MOC]] — the knowledge layer index
 - [[AMOS_Obsidian_Linking_Plugins]] — Obsidian vault linking plugin stack
+- [[00-Home]] — universal vault hub (00_ROOT)
+- [[AMOS Home]] — root AMOS Home
 
 ---
 
