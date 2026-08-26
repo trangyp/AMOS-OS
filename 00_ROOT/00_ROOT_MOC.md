@@ -549,6 +549,12 @@ AMOS Full Brain OS should be interpreted structurally; its declared biological, 
 
 ---
 
+
+### Key cognitive organism indexes
+
+- [[COGNITIVE_ORGANISM_MAP]]
+- [[INDEX_COGNITIVE_ORGANISM_README]]
+- [[INDEX_COGNITIVE_ORGANISM_COGNITIVE_ORGANISM_CONTRACT]]
 # 8. Agents
 
 ## `06_AGENTS`
@@ -592,6 +598,12 @@ AgentAuthority
 
 ---
 
+
+### Key agents indexes
+
+- [[AGENT_MAP]]
+- [[INDEX_AGENTS_README]]
+- [[INDEX_AGENTS_AGENT_CONTRACT]]
 # 9. Skills
 
 ## `07_SKILLS`
@@ -629,6 +641,12 @@ epistemically gated
 
 ---
 
+
+### Key skills indexes
+
+- [[SKILL_MAP]]
+- [[INDEX_SKILLS_README]]
+- [[INDEX_SKILLS_SKILL_CONTRACT]]
 # 10. Workflows
 
 ## `08_WORKFLOWS`
@@ -657,6 +675,12 @@ STORE LEARNING
 
 ---
 
+
+### Key workflows indexes
+
+- [[WORKFLOW_MAP]]
+- [[INDEX_WORKFLOWS_README]]
+- [[INDEX_WORKFLOWS_WORKFLOW_CONTRACT]]
 # 11. Protocols
 
 ## `09_PROTOCOLS`
@@ -690,6 +714,12 @@ rollback
 
 ---
 
+
+### Key protocols indexes
+
+- [[PROTOCOL_MAP]]
+- [[INDEX_PROTOCOLS_README]]
+- [[INDEX_PROTOCOLS_PROTOCOL_CONTRACT]]
 # 12. Memory
 
 ## `10_MEMORY`
@@ -719,6 +749,12 @@ A remembered claim is not automatically validated.
 
 ---
 
+
+### Key memory indexes
+
+- [[MEMORY_MEMORY_MAP]]
+- [[INDEX_MEMORY_README]]
+- [[INDEX_MEMORY_MEMORY_CONTRACT]]
 # 13. Knowledge
 
 ## `11_KNOWLEDGE`
@@ -762,6 +798,10 @@ VALIDATED KNOWLEDGE
 
 ---
 
+
+### Key knowledge indexes
+
+- [[11_KNOWLEDGE_MOC]]
 # 14. State
 
 ## `12_STATE`
@@ -794,6 +834,12 @@ Knowledge
 
 ---
 
+
+### Key state indexes
+
+- [[STATE_STATE_MAP]]
+- [[INDEX_STATE_README]]
+- [[INDEX_STATE_STATE_CONTRACT]]
 # 15. Models
 
 ## `13_MODELS`
@@ -823,6 +869,12 @@ OBSERVATION
 
 ---
 
+
+### Key models indexes
+
+- [[MODEL_MAP]]
+- [[INDEX_MODELS_README]]
+- [[INDEX_MODELS_MODEL_CONTRACT]]
 # 16. Tools
 
 ## `14_TOOLS`
@@ -855,6 +907,12 @@ Tool Authorized
 
 ---
 
+
+### Key tools indexes
+
+- [[TOOL_MAP]]
+- [[INDEX_TOOLS_README]]
+- [[INDEX_TOOLS_TOOL_CONTRACT]]
 # 17. Interfaces
 
 ## `15_INTERFACES`
@@ -874,6 +932,12 @@ external-system contracts
 
 ---
 
+
+### Key interfaces indexes
+
+- [[INTERFACE_MAP]]
+- [[INDEX_INTERFACES_README]]
+- [[INDEX_INTERFACES_INTERFACE_CONTRACT]]
 # 18. Schemas
 
 ## `16_SCHEMAS`
@@ -894,6 +958,12 @@ migration rules
 
 ---
 
+
+### Key schemas indexes
+
+- [[SCHEMA_MAP]]
+- [[INDEX_SCHEMAS_README]]
+- [[INDEX_SCHEMAS_SCHEMA_CONTRACT]]
 # 19. Observability
 
 ## `17_OBSERVABILITY`
@@ -923,6 +993,12 @@ Correct
 
 ---
 
+
+### Key observability indexes
+
+- [[OBSERVABILITY_OBSERVABILITY_MAP]]
+- [[INDEX_OBSERVABILITY_README]]
+- [[INDEX_OBSERVABILITY_OBSERVABILITY_CONTRACT]]
 # 20. Security
 
 ## `18_SECURITY`
@@ -955,6 +1031,12 @@ traceability
 
 ---
 
+
+### Key security indexes
+
+- [[SECURITY_MAP]]
+- [[INDEX_SECURITY_README]]
+- [[INDEX_SECURITY_SECURITY_CONTRACT]]
 # 21. Tests
 
 ## `19_TESTS`
@@ -987,6 +1069,12 @@ UniversalProof
 
 ---
 
+
+### Key tests indexes
+
+- [[TEST_MAP]]
+- [[INDEX_TESTS_README]]
+- [[INDEX_TESTS_TEST_CONTRACT]]
 # 22. Operations
 
 ## `20_OPERATIONS`
@@ -1008,6 +1096,12 @@ deprecation
 
 ---
 
+
+### Key operations indexes
+
+- [[OPERATIONS_MAP]]
+- [[INDEX_OPERATIONS_README]]
+- [[INDEX_OPERATIONS_OPERATIONS_CONTRACT]]
 # 23. Domains
 
 ## `21_DOMAINS`
@@ -1043,6 +1137,12 @@ DomainCanMateriallyChangeOutcome
 
 ---
 
+
+### Key domains indexes
+
+- [[DOMAIN_ALIAS_MAP]]
+- [[INDEX_DOMAINS_README]]
+- [[INDEX_DOMAINS_DOMAIN_ALIAS_CONTRACT]]
 # 24. Modes
 
 Mode families typically live inside the domain architecture.
@@ -1105,6 +1205,12 @@ Promotion requires validation.
 
 ---
 
+
+### Key research indexes
+
+- [[RESEARCH_RESEARCH_MAP]]
+- [[INDEX_RESEARCH_README]]
+- [[INDEX_RESEARCH_RESEARCH_CONTRACT]]
 # 26. Operating Model
 
 ## `23_OPERATING_MODEL`
@@ -1126,6 +1232,12 @@ stewardship
 
 ---
 
+
+### Key operating model indexes
+
+- [[OPERATING_MODEL_MAP]]
+- [[INDEX_OPERATING_MODEL_README]]
+- [[INDEX_OPERATING_MODEL_OPERATING_MODEL_CONTRACT]]
 # 27. Archive
 
 ## `24_ARCHIVE`
@@ -1153,6 +1265,12 @@ Active
 
 ---
 
+
+### Key archive indexes
+
+- [[ARCHIVE_MAP]]
+- [[INDEX_ARCHIVE_README]]
+- [[INDEX_ARCHIVE_ARCHIVE_CONTRACT]]
 # 28. Cognitive Matrix
 
 ## `25_COGNITIVE_MATRIX`
@@ -1178,6 +1296,12 @@ It is a relationship map, not an unrestricted second ontology.
 
 ---
 
+
+### Key cognitive matrix indexes
+
+- [[COGNITIVE_MATRIX_MAP]]
+- [[INDEX_COGNITIVE_MATRIX_README]]
+- [[INDEX_COGNITIVE_MATRIX_COGNITIVE_MATRIX_CONTRACT]]
 # 29. H/M/L Map
 
 AMOS uses recursive H/M/L decomposition.
