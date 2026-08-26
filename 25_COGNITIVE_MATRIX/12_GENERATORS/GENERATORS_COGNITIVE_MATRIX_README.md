@@ -2676,4 +2676,4 @@ This is the appropriate replacement for the current placeholder README: the **br
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[GENERATORS_MAP]]

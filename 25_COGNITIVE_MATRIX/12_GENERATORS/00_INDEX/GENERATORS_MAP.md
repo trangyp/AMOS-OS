@@ -1,18 +1,37 @@
 ---
+canon-group: reference
+rscf-state: derived
 tags: ['cognitive_matrix', 'generators', 'index', 'map']
 ---
 
 # 12 Generators Map
 
-STATUS: PLACEHOLDER
+Map of all generator artifacts in `25_COGNITIVE_MATRIX/12_GENERATORS`.
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
-
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+- [[COGNITIVE_MATRIX_GENERATORS_CONTRACT]]
+- [[GENERATORS_AUDIT]]
+- [[GENERATORS_BENCHMARKS]]
+- [[GENERATORS_CHANGE_LOG]]
+- [[GENERATORS_COGNITIVE_MATRIX_README]]
+- [[GENERATORS_HISTORY]]
+- [[GENERATORS_INTEGRATION]]
+- [[GENERATORS_PROVENANCE]]
+- [[GENERATORS_ROADMAP]]
+- [[GENERATORS_TESTS]]
+- [[GENERATORS_VALIDATION]]
+- [[GENERATORS_VERSIONING]]
+- [[GENERATOR_ADMISSION]]
+- [[GENERATOR_CONTRACT]]
+- [[GENERATOR_FALSIFICATION]]
+- [[GENERATOR_OUTPUT]]
+- [[GENERATOR_PROMOTION]]
+- [[GENERATOR_REGISTRY]]
+- [[GENERATOR_SEED]]
+- [[GENERATOR_SUPERSESSION]]
+- [[GENERATOR_TEMPLATES]]
+- [[GENERATOR_TESTS]]
+- [[GENERATOR_VALIDATION]]
+- [[GENERATOR_VERSIONING]]
 
 ---
-
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
-
----
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
