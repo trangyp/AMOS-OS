@@ -8,185 +8,45 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:00_root",
+      "query": "path:00_ROOT/",
       "color": {
         "a": 1,
-        "rgb": 16744192
+        "rgb": 65331
       }
     },
     {
-      "query": "tag:canon",
+      "query": "path:01_CANON/",
       "color": {
         "a": 1,
-        "rgb": 3447003
+        "rgb": 2420991
       }
     },
     {
-      "query": "tag:kernel",
+      "query": "path:02_KERNEL/",
       "color": {
         "a": 1,
-        "rgb": 10894824
+        "rgb": 4041727
       }
     },
     {
-      "query": "tag:control_plane",
+      "query": "path:03_CONTROL_PLANE/",
       "color": {
         "a": 1,
-        "rgb": 5620990
+        "rgb": 9764813
       }
     },
     {
-      "query": "tag:runtime",
+      "query": "path:11_KNOWLEDGE/",
       "color": {
         "a": 1,
-        "rgb": 15158332
+        "rgb": 3398546
       }
     },
     {
-      "query": "tag:cognitive_organism",
+      "query": "path:25_COGNITIVE_MATRIX/",
       "color": {
         "a": 1,
-        "rgb": 3066993
-      }
-    },
-    {
-      "query": "tag:agents",
-      "color": {
-        "a": 1,
-        "rgb": 15105570
-      }
-    },
-    {
-      "query": "tag:skills",
-      "color": {
-        "a": 1,
-        "rgb": 15844367
-      }
-    },
-    {
-      "query": "tag:workflows",
-      "color": {
-        "a": 1,
-        "rgb": 10038562
-      }
-    },
-    {
-      "query": "tag:protocols",
-      "color": {
-        "a": 1,
-        "rgb": 9807270
-      }
-    },
-    {
-      "query": "tag:memory",
-      "color": {
-        "a": 1,
-        "rgb": 8359053
-      }
-    },
-    {
-      "query": "tag:knowledge",
-      "color": {
-        "a": 1,
-        "rgb": 3407616
-      }
-    },
-    {
-      "query": "tag:state",
-      "color": {
-        "a": 1,
-        "rgb": 6323595
-      }
-    },
-    {
-      "query": "tag:models",
-      "color": {
-        "a": 1,
-        "rgb": 15195360
-      }
-    },
-    {
-      "query": "tag:tools",
-      "color": {
-        "a": 1,
-        "rgb": 16576685
-      }
-    },
-    {
-      "query": "tag:interfaces",
-      "color": {
-        "a": 1,
-        "rgb": 16312092
-      }
-    },
-    {
-      "query": "tag:schemas",
-      "color": {
-        "a": 1,
-        "rgb": 12632256
-      }
-    },
-    {
-      "query": "tag:observability",
-      "color": {
-        "a": 1,
-        "rgb": 15844660
-      }
-    },
-    {
-      "query": "tag:security",
-      "color": {
-        "a": 1,
-        "rgb": 15548997
-      }
-    },
-    {
-      "query": "tag:tests",
-      "color": {
-        "a": 1,
-        "rgb": 13085556
-      }
-    },
-    {
-      "query": "tag:operations",
-      "color": {
-        "a": 1,
-        "rgb": 16776960
-      }
-    },
-    {
-      "query": "tag:domains",
-      "color": {
-        "a": 1,
-        "rgb": 11027200
-      }
-    },
-    {
-      "query": "tag:research",
-      "color": {
-        "a": 1,
-        "rgb": 65535
-      }
-    },
-    {
-      "query": "tag:operating_model",
-      "color": {
-        "a": 1,
-        "rgb": 3426654
-      }
-    },
-    {
-      "query": "tag:archive",
-      "color": {
-        "a": 1,
-        "rgb": 11119017
-      }
-    },
-    {
-      "query": "tag:cognitive_matrix",
-      "color": {
-        "a": 1,
-        "rgb": 15277667
+        "rgb": 13696865
       }
     }
   ],
@@ -194,12 +54,12 @@
   "showArrow": true,
   "textFadeMultiplier": -1.3,
   "nodeSizeMultiplier": 1.23988494191242,
-  "lineSizeMultiplier": 0.933908623771224,
+  "lineSizeMultiplier": 0.891214253798034,
   "collapse-forces": false,
   "centerStrength": 0.796414209115282,
   "repelStrength": 15.0990157713744,
   "linkStrength": 0.306635388739946,
   "linkDistance": 172,
-  "scale": 0.15863592865651632,
+  "scale": 0.15707145777533754,
   "close": false
 }
