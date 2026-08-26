@@ -1488,3 +1488,16 @@ shows that as m goes to inﬁnity C1 goes to 1.
 Fig. 6.— Plots of HR/(4πFϕ) against γ for n = 5, 7, 9 families of solutions. These plots show that
 the relationship HR ≤4πFϕ also valid for n = 5, 7, 9 families, so it may be a general relationship
 valid for all n values.
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1_knowledge__arxiv_md_misc_0603011v1_magnetic_field_confinement_in_the_corona__the_role_of_magnetic_helicity_accumula_md
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/misc/0603011v1_Magnetic_Field_Confinement_in_the_Corona__The_Role_of_Magnetic_Helicity_Accumula.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

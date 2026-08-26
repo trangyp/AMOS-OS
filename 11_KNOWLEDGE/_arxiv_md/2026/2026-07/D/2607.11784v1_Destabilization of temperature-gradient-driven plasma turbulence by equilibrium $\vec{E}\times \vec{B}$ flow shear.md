@@ -1291,3 +1291,16 @@ Figure 9) lies at, or below, the onset of the destabiliza-
 tion, as for shot 51653 in Section IV. This is consistent
 with the differential rotation being limited by the associ-
 ated increase in the heat transport.
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: v1_destabilization_of_temperature_gradient_driven_plasma_turbulence_by_equilibrium___vec_e__times__vec_b___flow_shear_md
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2026/2026-07/D/2607.11784v1_Destabilization of temperature-gradient-driven plasma turbulence by equilibrium $\vec{E}\times \vec{B}$ flow shear.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

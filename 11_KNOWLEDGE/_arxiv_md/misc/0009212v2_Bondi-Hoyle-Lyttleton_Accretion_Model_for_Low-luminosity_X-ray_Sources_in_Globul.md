@@ -576,3 +576,16 @@ Verbunt, F., & Johnston, H. M. 2000, A&A, 358, 910
 Watters, W. A., Joshi, K. J., & Rasio, F. A. 2000, ApJ, 539, 331
 Zane, S., Turolla, R., & Treves, A. 1996, ApJ, 471, 248
 Zane, S., Turolla, R., & Treves, A. 2000, ApJ, 537, 387
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1_knowledge__arxiv_md_misc_0009212v2_bondi_hoyle_lyttleton_accretion_model_for_low_luminosity_x_ray_sources_in_globul_md
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/misc/0009212v2_Bondi-Hoyle-Lyttleton_Accretion_Model_for_Low-luminosity_X-ray_Sources_in_Globul.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

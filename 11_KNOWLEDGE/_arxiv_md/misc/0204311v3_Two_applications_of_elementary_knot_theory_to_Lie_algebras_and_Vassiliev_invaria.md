@@ -1719,3 +1719,16 @@ Dylan Thurston, Torus actions for the LMO invariant, in preparation
 Pierre Vogel, Algebraic structures on modules of diagrams, Tech. report, Uni-
 versit´e Paris VII (July 1995)
 Geometry & Topology, Volume 7 (2003)
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1_knowledge__arxiv_md_misc_0204311v3_two_applications_of_elementary_knot_theory_to_lie_algebras_and_vassiliev_invaria_md
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/misc/0204311v3_Two_applications_of_elementary_knot_theory_to_Lie_algebras_and_Vassiliev_invaria.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

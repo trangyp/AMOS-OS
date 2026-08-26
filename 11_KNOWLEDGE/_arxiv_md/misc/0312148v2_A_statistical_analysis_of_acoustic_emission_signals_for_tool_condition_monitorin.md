@@ -386,3 +386,16 @@ Acoustic Emission, ”Wear 76, 247-261.
 Jemielniak, K. and Otman, O. (1998) “Catastrophic tool failure detection based on acoustic emission signal
 analysis,” Annals of CIRP 47(1), 31-34.
 Whitehouse, D.J. (1978). “Beta functions for surface typologie?,” Annals of CIRP 27, 491-497.
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1_knowledge__arxiv_md_misc_0312148v2_a_statistical_analysis_of_acoustic_emission_signals_for_tool_condition_monitorin_md
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/misc/0312148v2_A_statistical_analysis_of_acoustic_emission_signals_for_tool_condition_monitorin.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

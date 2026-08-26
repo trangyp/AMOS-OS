@@ -1945,3 +1945,16 @@ k(T) / (cm
 −1
 ) 
 37
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: ly_rearranged_rovibrational_hamiltonian__a_full_dimensional_case_study_of_the_h__2____d___rightarrow__hd___h_reaction_md
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2026/2026-07/E/2607.11418v1_Efficient, direct calculation of reaction rate coefficients based on a partially rearranged rovibrational Hamiltonian. A full-dimensional case study of the H$_2$ + D $\rightarrow$ HD + H reaction.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

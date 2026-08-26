@@ -880,3 +880,16 @@ E-mail address: rozansky@math.uic.edu
 Department of Mathematics, University of California at Berkeley, Berkeley CA 94720-
 3840, USA
 E-mail address: dpt@math.berkeley.edu
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 11_knowledge__arxiv_md_misc_9703025v3_wheels__wheeling__and_the_kontsevich_integral_of_the_unknot_md
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/misc/9703025v3_Wheels__Wheeling__and_the_Kontsevich_Integral_of_the_Unknot.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

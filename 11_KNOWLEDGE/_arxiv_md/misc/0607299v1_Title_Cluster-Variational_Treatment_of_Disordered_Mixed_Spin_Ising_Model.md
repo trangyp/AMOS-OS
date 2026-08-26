@@ -1669,3 +1669,16 @@ REFERENCES
  
  
 29
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 11_knowledge__arxiv_md_misc_0607299v1_title_cluster_variational_treatment_of_disordered_mixed_spin_ising_model_md
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/misc/0607299v1_Title_Cluster-Variational_Treatment_of_Disordered_Mixed_Spin_Ising_Model.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -335,3 +335,16 @@ G.Welters A Theorem of Gieseker-Petri type for Prym varieties Ann.Sci. Ec.
 Norm. 4s., t 18, 1985, 671-683
 Mathematics Department, Tufts University, Medford, MA02155
 E-mail address: montserrat.teixidoribigas@tufts.edu
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 11_knowledge__arxiv_md_misc_0309265v2_injectivity_of_the_symmetric_map_for_line_bundles_md
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/misc/0309265v2_Injectivity_of_the_symmetric_map_for_line_bundles.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

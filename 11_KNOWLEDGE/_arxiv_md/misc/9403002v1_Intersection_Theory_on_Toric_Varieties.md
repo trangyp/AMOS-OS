@@ -1367,3 +1367,16 @@ Algebra 34 (1993) 15–30.
 3 (1994) 207–236.
 [17] B. Totaro: “Chow groups of linear varieties”, preprint.
 24
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 11_knowledge__arxiv_md_misc_9403002v1_intersection_theory_on_toric_varieties_md
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/misc/9403002v1_Intersection_Theory_on_Toric_Varieties.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

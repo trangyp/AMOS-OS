@@ -388,3 +388,16 @@ Convallaria
 1000
 56
 8
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1_knowledge__arxiv_md_misc_0102029v1_extraction_of_cs_137_by_alcohol_water_solvents_from_plants_containing_cardiac_gl_md
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/misc/0102029v1_Extraction_of_Cs-137_by_alcohol-water_solvents_from_plants_containing_cardiac_gl.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

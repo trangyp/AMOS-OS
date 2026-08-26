@@ -603,3 +603,16 @@ coated with an evaporated ∼120 nm gold layer (b).
  
 100 µm 
 (b)
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 11_knowledge__arxiv_md_misc_0405219v1_weak_links_and_phase_slip_centers_in_superconducting_mgb2_wires_md
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/misc/0405219v1_Weak_links_and_phase_slip_centers_in_superconducting_MgB2_wires.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -439,3 +439,16 @@ Whitmore, B. astro-ph/0403709
 Wong, T. & Blitz, L. 2002 ApJ 569, 157
 Zhang, Q. & Fall, S. M. 1999 ApJ 527, 81
 Zhang, Q., Fall, S. M. & Whitmore, B. 2001 ApJ 561, 727
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 11_knowledge__arxiv_md_misc_0407248v2_formation_of_globular_clusters_in_galaxy_mergers_md
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/misc/0407248v2_Formation_of_Globular_Clusters_in_Galaxy_Mergers.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1350,3 +1350,16 @@ algebra, J. of Alg. 207 (1998) 333-341.
 [31] M. Vigu´e-Poirrier, Dans le ﬁbr´e de l’espace des lacets, la ﬁbre n’est pas en g´en´eral
 totalement non cohomologue
 z´ero, Math. Z. 181 (1982) 537-542.
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 11_knowledge__arxiv_md_misc_0109145v1_on_the_cohomology_algebra_of_free_loop_spaces_md
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/misc/0109145v1_On_the_cohomology_algebra_of_free_loop_spaces.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

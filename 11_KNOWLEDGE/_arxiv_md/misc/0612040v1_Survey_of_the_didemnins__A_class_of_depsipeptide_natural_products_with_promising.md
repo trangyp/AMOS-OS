@@ -572,3 +572,16 @@ E. Galliera,
 P. Borsotti,
 G. Taraboletti, E. Erba, M. Sironi, J. Jimeno, G. Fair-
 cloth, R. Giavazzi, et al., Leukemia 17, 52 (2003).
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1_knowledge__arxiv_md_misc_0612040v1_survey_of_the_didemnins__a_class_of_depsipeptide_natural_products_with_promising_md
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/misc/0612040v1_Survey_of_the_didemnins__A_class_of_depsipeptide_natural_products_with_promising.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

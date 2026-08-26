@@ -709,3 +709,16 @@ RMS Frequency Distributions
 0.30
 100% worn
 Entropy=-1.99
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1_knowledge__arxiv_md_misc_0404128v1_statistical_properties_of_acoustic_emission_signals_from_metal_cutting_processes_md
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/misc/0404128v1_Statistical_properties_of_acoustic_emission_signals_from_metal_cutting_processes.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL
