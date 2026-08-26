@@ -103,6 +103,8 @@ related:
 
 ---
 
+
+> **Template file:** [[Templates/linked-note.md|Templates/linked-note.md]] — save this as a Templater template and bind it to QuickAdd or a hotkey.
 ## Recommended first-run checklist
 
 1. Install and enable the above community plugins from `Settings → Community plugins`.

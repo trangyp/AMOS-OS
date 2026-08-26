@@ -240,6 +240,8 @@
   },
   "active": "a6546e3b49246fde",
   "lastOpenFiles": [
+    "Templates/linked-note.md",
+    "Templates",
     "00_ROOT/AMOS_Layer_Maps.md",
     "01_CANON/07_PROVENANCE/00_INDEX/PROVENANCE_CANON_MAP.md",
     "00-Home.md",
@@ -265,7 +267,6 @@
     "11_KNOWLEDGE/_arxiv_md/2024/2024-11/2411.19795v1_Characterization_of_Spatial-Temporal_Channel_Statistics_from_Measurement_Data_at.md",
     "11_KNOWLEDGE/_arxiv_md/2024/2024-11/2411.19794v1_Examining_quality_of_DGNSS_derived_positioning_in_data_in_urban_city_--_A_case_s.md",
     "11_KNOWLEDGE/_arxiv_md/2024/2024-11/2411.19763v1_Forecasting_Foreign_Exchange_Market_Prices_Using_Technical_Indicators_with_Deep_.md",
-    "11_KNOWLEDGE/_arxiv_md/2024/2024-11/2411.19747v1_A_Multi-Loss_Strategy_for_Vehicle_Trajectory_Prediction__Combining_Off-Road__Div.md",
     "11_KNOWLEDGE/_arxiv_md/2024/2024-09",
     "11_KNOWLEDGE/_arxiv_md/2024/2024-12",
     "11_KNOWLEDGE/_arxiv_md/2024/2024-11",
@@ -274,7 +275,6 @@
     "11_KNOWLEDGE/_arxiv_md/2024/2024-02",
     "11_KNOWLEDGE/_arxiv_md/2024/2024-07",
     "11_KNOWLEDGE/_arxiv_md/2024/2024-06",
-    "11_KNOWLEDGE/_arxiv_md/2024/2024-04",
-    "11_KNOWLEDGE/_arxiv_md/2024/2024-05"
+    "11_KNOWLEDGE/_arxiv_md/2024/2024-04"
   ]
 }
