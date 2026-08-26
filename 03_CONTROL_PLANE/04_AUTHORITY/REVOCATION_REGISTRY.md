@@ -4,23 +4,56 @@ tags: ['control_plane', 'authority', 'note']
 
 # Revocation Registry
 
-STATUS: PROPOSED_SPECIFICATION
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-updated: 2026-08-26
+## Purpose
+Registry for **REVOCATION REGISTRY** within the Control Plane plane (governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback context).
 
-## 0. Contract
-Fast lookup of active revocations.
+## Entry schema
+```yaml
+entry_id: null          # unique within registry
+version: null           # explicit; material change ⇒ new version
+artifact_type: null     # typed
+epistemic_class: MODEL  # SOURCE | DERIVED | MODEL | UNKNOWN/GAP
+scope: null             # domain / regime / H-M-L applicability
+provenance: []          # source lineage, transformations
+authority_ref: null     # granting authority, epoch-bound
+freshness: null         # valid_until / max_age
+status: REGISTERED      # REGISTERED | SUPERSEDED | REVOKED | QUARANTINED
+```
 
-## 1. Invariants
-Fail-closed · UNKNOWN ≠ PERMISSION · receipts for consequential acts · append-only logs.
+## Current contents
+Registry population is EMPTY-BY-HONESTY: no fabricated entries. Entries are added only with provenance and authority refs.
 
-## 2. Executed reference
-`authz_invariant_engine.py` — 17/17 probes across separation/binding/freshness/delegation/provenance/budget/emergency families.
+## Registry laws
+- ADDRESSABLE ≠ IMPLEMENTED ≠ VALIDATED ≠ AUTHORIZED.
+- Same id + changed semantics ⇒ version bump, never silent overwrite.
+- Revocation preserves history (append-only).
 
-## 3. Gaps
-Full ledger/receipt paths (INV-035..037) and multi-origin composition (044..046) remain OPEN.
+## Gaps
+Registry backend, uniqueness enforcement, and automated schema validation remain OPEN ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
+## Worked semantics
+Given an operation touching `REVOCATION REGISTRY` within the Control Plane plane:
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
+## Promotion-gate checklist
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+## Cross-plane bindings
+- Governed by canon — [[01_CANON_README]] · [[LAW_HIERARCHY]]
+- Kernel interaction — [[KERNEL_README]]
+- Control-plane gates — [[CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS_README]]
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

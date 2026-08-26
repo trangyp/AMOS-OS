@@ -4,20 +4,66 @@ tags: ['control_plane', '02_deep_analysis']
 
 # DEEP ANALYSIS COMMIT CONTROL PLANE README
 
-STATUS: PROPOSED_SPECIFICATION
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-updated: 2026-08-26
-
 ## Purpose
-Package readme: purpose and inventory. Canonical contract carries the normative content.
+`DEEP ANALYSIS COMMIT CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS`.
+The Control Plane plane governs governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
 
-## Invariants
-Fail-closed · UNKNOWN ≠ PERMISSION · receipts · append-only logs · scope/regime containment.
+## Sibling artifacts
+- [[COMMIT_CONTROL_PLANE_ALIASES]]
+- [[COMMIT_CONTROL_PLANE_BENCHMARKS]]
+- [[COMMIT_CONTROL_PLANE_COMPOSITION]]
+- [[COMMIT_CONTROL_PLANE_DEPRECATION_SUPERSESSION]]
+- [[COMMIT_CONTROL_PLANE_DOMAIN_WEIGHTS]]
+- [[COMMIT_CONTROL_PLANE_ENGINE_WEIGHTS]]
+- [[COMMIT_CONTROL_PLANE_EXIT_CRITERIA]]
+- [[COMMIT_CONTROL_PLANE_FAILURE_RECOVERY]]
+- [[COMMIT_CONTROL_PLANE_GOVERNANCE]]
+- [[COMMIT_CONTROL_PLANE_INPUT_CONTRACT]]
+- [[COMMIT_CONTROL_PLANE_LAYER_WEIGHTS]]
+- [[COMMIT_CONTROL_PLANE_OBSERVABILITY]]
+- [[COMMIT_CONTROL_PLANE_OUTPUT_CONTRACT]]
+- [[COMMIT_CONTROL_PLANE_PRECONDITIONS]]
+- [[COMMIT_CONTROL_PLANE_PURPOSE_SCOPE]]
+- [[COMMIT_CONTROL_PLANE_ROUTING_BINDINGS]]
+- [[COMMIT_CONTROL_PLANE_SAFETY_GATES]]
+- [[COMMIT_CONTROL_PLANE_TESTS]]
+- [[COMMIT_CONTROL_PLANE_TRANSITION_RULES]]
+- [[COMMIT_CONTROL_PLANE_VALIDATION]]
+- [[DEEP_ANALYSIS_COMMIT_CONTROL_PLANE_ACTIVATION_RULES]]
+- [[DEEP_ANALYSIS_COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY]]
+- [[DEEP_ANALYSIS_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
+- [[DEEP_ANALYSIS_COMMIT_CONTROL_PLANE_MODE_SPEC]]
+- … 1 more
+
+## Contract discipline
+Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
 ## Gaps
-Executable binding PARTIAL — see [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] and [[ROUTING_POLICY_VALIDATION_RECEIPT]].
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
+## Worked semantics
+Given an operation touching `DEEP ANALYSIS COMMIT CONTROL PLANE README` within the Control Plane plane:
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
+## Promotion-gate checklist
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+## Cross-plane bindings
+- Governed by canon — [[01_CANON_README]] · [[LAW_HIERARCHY]]
+- Kernel interaction — [[KERNEL_README]]
+- Control-plane gates — [[CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS_README]]
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

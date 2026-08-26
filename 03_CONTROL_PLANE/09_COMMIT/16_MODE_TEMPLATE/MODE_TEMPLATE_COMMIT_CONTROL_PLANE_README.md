@@ -4,20 +4,66 @@ tags: ['control_plane', '16_mode_template']
 
 # MODE TEMPLATE COMMIT CONTROL PLANE README
 
-STATUS: PROPOSED_SPECIFICATION
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-updated: 2026-08-26
-
 ## Purpose
-Package readme: purpose and inventory. Canonical contract carries the normative content.
+`MODE TEMPLATE COMMIT CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMIT/16_MODE_TEMPLATE`.
+The Control Plane plane governs governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
 
-## Invariants
-Fail-closed · UNKNOWN ≠ PERMISSION · receipts · append-only logs · scope/regime containment.
+## Sibling artifacts
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_ACTIVATION_RULES]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_ALIASES]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_BENCHMARKS]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_COMPOSITION]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_DEPRECATION_SUPERSESSION]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_DOMAIN_WEIGHTS]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_ENGINE_WEIGHTS]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_EXIT_CRITERIA]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_FAILURE_RECOVERY]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_GOVERNANCE]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_INPUT_CONTRACT]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_LAYER_WEIGHTS]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_MODE_SPEC]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_OBSERVABILITY]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_OUTPUT_CONTRACT]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_PRECONDITIONS]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_PROVENANCE]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_PURPOSE_SCOPE]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_ROUTING_BINDINGS]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_SAFETY_GATES]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_TESTS]]
+- [[MODE_TEMPLATE_COMMIT_CONTROL_PLANE_TRANSITION_RULES]]
+- … 1 more
+
+## Contract discipline
+Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
 ## Gaps
-Executable binding PARTIAL — see [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] and [[ROUTING_POLICY_VALIDATION_RECEIPT]].
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
+## Worked semantics
+Given an operation touching `MODE TEMPLATE COMMIT CONTROL PLANE README` within the Control Plane plane:
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
+## Promotion-gate checklist
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+## Cross-plane bindings
+- Governed by canon — [[01_CANON_README]] · [[LAW_HIERARCHY]]
+- Kernel interaction — [[KERNEL_README]]
+- Control-plane gates — [[CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS_README]]
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

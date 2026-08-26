@@ -1,0 +1,22 @@
+{
+ "date": "2026-08-26",
+ "generator": "25_COGNITIVE_MATRIX/12_GENERATORS/fill_infra_readmes.py",
+ "filled": 5,
+ "skipped_already_filled": 0,
+ "status": "INFRA_README_FILL_PASS_2",
+ "untouched_authoritative_specs": [
+  "10_ROUTING/ROUTING_POLICY.md",
+  "10_ROUTING/BINDING_RULES.md",
+  "10_ROUTING/ROUTING_AUDIT.md",
+  "10_ROUTING/ROUTING_COGNITIVE_MATRIX_README.md",
+  "11_VALIDATION/PROMOTION_GATES.md",
+  "11_VALIDATION/VALIDATION_EVIDENCE.md",
+  "11_VALIDATION/VALIDATION_LEVELS.md",
+  "11_VALIDATION/VALIDATION_COGNITIVE_MATRIX_README.md"
+ ],
+ "boundaries": [
+  "NOT implemented",
+  "NOT validated",
+  "DERIVED/MODEL only"
+ ]
+}

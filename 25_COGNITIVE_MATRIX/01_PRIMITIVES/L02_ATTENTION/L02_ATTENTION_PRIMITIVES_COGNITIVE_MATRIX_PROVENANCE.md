@@ -4,9 +4,10 @@ tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'note']
 
 # L02_ATTENTION — Provenance
 
-**Class:** `COGNITIVE_PRIMITIVE_PLACEHOLDER`
-**Origin architect / steward:** Trang Phan
-**Status:** `PLACEHOLDER / UNVALIDATED`
+**Class:** `COGNITIVE_MATRIX_CONTRACT`
+**Origin architect / steward:** Trang Phan  
+**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
+**Filled by:** governed normalization pass · **Date:** `2026-08-26`
 
 ## Purpose
 

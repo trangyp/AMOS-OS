@@ -89,6 +89,29 @@ A further pass focused on the two examples you corrected (`amos-information-meas
 - `depends_on_skills` now includes the matching skill itself plus `## Related Skills`.
 - All 834 agents were re-verified: `name` matches filename, all required schema fields present, `exclusions` is an array, descriptions ≥ 80 chars.
 
+### v5 — Final canonical real-content fill
+
+The `AMOS_OS/.devin/agents` tree is now fully canonical (no additional filename renames were possible without collisions). A final pass re-filled every agent from the canonical `AMOS_OS/.devin/skills/` tree:
+
+- 834/834 agents re-filled from a `SKILL.md`
+  - 595 exact skill matches
+  - 239 prefix skill matches (e.g., `-2` duplicates, variants)
+  - 0 agents with no matching skill
+- `name` → filename: 0 mismatches
+- All required schema fields: 834/834
+- Short descriptions (< 80 chars): 0 (75 skill `## Description` extracts were too short and got a contextualized fallback)
+- `exclusions` and `integrity_requirements` as string arrays with sentence punctuation: 834/834
+- `capabilities` sourced from `## Capabilities` → `## Key Operations` → `## Steps`
+- `operations.protocol`/`scope` mirror the first 6–8 capabilities
+- `integrity_requirements` derived from `## Anti-Overclaim` / `## Invariants` (or defaults where missing)
+- `depends_on_skills` starts with the matched skill, followed by canonical `## Related Skills`
+- `depends_on_skills` canonicalized: 648 agents had at least one dependency re-pointed to an existing `AMOS_OS/.devin/skills/` name (e.g., `amos-unified-coherence-protocol` → `amos-coherence-protocol`)
+- Non-skill and workflow entries were removed from `depends_on_skills`; valid `-workflow.md` references were moved to `depends_on_workflows`
+- `depends_on_workflows` are parallel to `depends_on_skills`: one `amos-{skill}-workflow.md` entry for each skill that has a matching workflow file
+- `depends_on_workflows` matched against the `AMOS_OS/.devin/workflows/` inventory
+
+The `AGENT_RENAME_PASS.json` manifest reflects the current canonical tree (0 additional renames needed for `AMOS_OS`).
+
 ## Registry Note
 
 The current canonical count in `amos-agent-registry-index.md` is **674** agents. The actual on-disk count is **834**. The registry should be updated or split into `canonical` vs `full` counts if the 674 number is meant to track only the canonical subset.
