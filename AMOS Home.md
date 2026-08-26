@@ -23,6 +23,16 @@ aliases:
 - [[AMOS_RSCF_NODES]]
 
 ---
+
+## README and architecture stubs
+
+- [[00_ROOT/README]] — root README
+- [[00_ROOT/ARCHITECTURE]] — root architecture overview
+- [[17_OBSERVABILITY/00_INDEX/README]] — observability layer README
+- [[19_TESTS/00_INDEX/README]] — tests layer README
+
+---
+
 RSCF-NODE
 node_id: 00_home_root
 node_type: note
