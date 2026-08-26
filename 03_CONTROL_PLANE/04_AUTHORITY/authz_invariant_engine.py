@@ -113,7 +113,8 @@ class AuthzEngine:
         for label, fn in checks:
             v = fn(p, op)
             if v is not None:
-                return v, f"{label} failed"
+                verdict = v[0] if isinstance(v, tuple) else v
+                return verdict, f"{label} failed"
 
         # commit-time revalidation (INV-030) happens after all static gates
         return Verdict.GRANT, "all invariants pass; commit-time revalidation scheduled"
