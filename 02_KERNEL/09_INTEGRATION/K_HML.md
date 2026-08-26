@@ -2457,6 +2457,7 @@ SHARD-LOCAL-FINALIZATION TEST
 
 # 95. RSCF Node
 
+```yaml
 RSCF-NODE:
   node_id: AMOS-OS-K-HML
   node_type: fractal_abstraction_retrieval_kernel
@@ -2534,6 +2535,8 @@ RSCF-NODE:
       - 02_KERNEL/K_RISK_CONSTRAINT
       - 02_KERNEL/K_EFFECT_CLASSIFICATION
       - 02_KERNEL/K_INFORMATION_EXPOSURE
+
+```
 
 ---
 
