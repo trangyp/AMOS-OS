@@ -36,14 +36,18 @@
             "id": "1e90c9a7338ce8bb",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "INVARIANT_REGISTRY"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -224,7 +228,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "1e90c9a7338ce8bb",
+  "active": "5f90f4bc68cb7419",
   "lastOpenFiles": [
     "23_OPERATING_MODEL/05_SERVICE_LEVELS/OPERATING_MODEL_SERVICE_LEVELS_CONTRACT.md",
     "23_OPERATING_MODEL/04_ESCALATION/00_INDEX/ESCALATION_OPERATING_MODEL_ESCALATION_CONTRACT.md",
