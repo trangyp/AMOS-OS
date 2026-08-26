@@ -396,6 +396,19 @@ A canonical definition may exist even when runtime support remains incomplete.
 
 ---
 
+
+### Key canon indexes
+
+- [[CANON_MAP]]
+- [[INDEX_CANON_README]]
+- [[AMOS_CORE_LAWS]]
+- [[HML_CANON]]
+- [[UNIVERSE_CANON_MAP]]
+- [[COGNITION_CANON_MAP]]
+- [[INFRASTRUCTURE_CANON_MAP]]
+- [[GLOSSARY_MAP]]
+- [[PROVENANCE_CANON_MAP]]
+- [[SUPERSESSION_MAP]]
 # 4. Kernel Layer
 
 ## `02_KERNEL`
@@ -420,6 +433,20 @@ AMOS_CORE lineage progresses from deterministic reasoning through recursive RSCF
 
 ---
 
+
+### Key kernel maps
+
+- [[KERNEL_MAP]]
+- [[INDEX_KERNEL_README]]
+- [[META_LOGIC_MAP]]
+- [[COGNITION_MAP]]
+- [[CAUSAL_MAP]]
+- [[KERNEL_STATE_MAP]]
+- [[KERNEL_MEMORY_MAP]]
+- [[RISK_REPAIR_MAP]]
+- [[KERNEL_AUTHORITY_MAP]]
+- [[KERNEL_PROVENANCE_MAP]]
+- [[INTEGRATION_MAP]]
 # 5. Control Plane
 
 ## `03_CONTROL_PLANE`
