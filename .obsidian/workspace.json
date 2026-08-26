@@ -1,1 +1,280 @@
-{}
+{
+  "main": {
+    "id": "main",
+    "type": "split",
+    "children": [
+      {
+        "id": "f609054881e3c90b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "file-explorer",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5f90f4bc68cb7419",
+            "type": "leaf",
+            "state": {
+              "type": "semantic-graph-3d",
+              "state": {},
+              "icon": "network",
+              "title": "Semantic graph"
+            }
+          },
+          {
+            "id": "1e90c9a7338ce8bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "INVARIANT_REGISTRY"
+            }
+          },
+          {
+            "id": "a6546e3b49246fde",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "left",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5e388f94985d6a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "file-explorer-side",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e06b6ef8ac77ab8d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e63141259b249d33",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "right",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d192cc19e1cbbeb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0dcd64c3a1ad3b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "e8ff8d858b8bd9c8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f831f94a07dafcd8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "91295c756ffd22fc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "ea50f966b944e845",
+            "type": "leaf",
+            "state": {
+              "type": "horme-connections",
+              "state": {},
+              "icon": "cable",
+              "title": "Horme connections"
+            }
+          },
+          {
+            "id": "f9fb685c6d1b5cb0",
+            "type": "leaf",
+            "state": {
+              "type": "horme-chat",
+              "state": {},
+              "icon": "cone",
+              "title": "Horme"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "horme:Open Horme chat": false,
+      "horme:Open Horme connections": false,
+      "3d-semantic-graph:Semantic graph": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "a6546e3b49246fde",
+  "lastOpenFiles": [
+    "11_KNOWLEDGE/TENSORS.md",
+    "11_KNOWLEDGE/INVESTMENT_AGENT.md",
+    "11_KNOWLEDGE/EXECUTOR_AGENT.md",
+    "11_KNOWLEDGE/ENVIRONMENT_SCAN_AGENT.md",
+    "11_KNOWLEDGE/AGENT_TEMPLATES.md",
+    "11_KNOWLEDGE/AMOS_INFRASTRUCTURE_CROSS_SKILL_PROOF_COMPOSITION_REPORT.md",
+    "11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE.md",
+    "11_KNOWLEDGE/COSMO_BRAIN_MOC.md",
+    "11_KNOWLEDGE/INTEGRATED_AGENT.md",
+    "11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md",
+    "11_KNOWLEDGE/AGENT_SCHEMA.md",
+    "11_KNOWLEDGE/AMOS_CONTENT_AGENT_MATRIX_SYSTEM.md",
+    "11_KNOWLEDGE/AMOS_UBI_OMNIS_USE_CASES.md",
+    "11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS.md",
+    "11_KNOWLEDGE/AMOS_EV_VIETNAM.md",
+    "11_KNOWLEDGE/AMOS_VALUE_CREATION_OS.md",
+    "01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY.md",
+    "23_OPERATING_MODEL/05_SERVICE_LEVELS/OPERATING_MODEL_SERVICE_LEVELS_CONTRACT.md",
+    "23_OPERATING_MODEL/04_ESCALATION/00_INDEX/ESCALATION_OPERATING_MODEL_ESCALATION_CONTRACT.md",
+    "23_OPERATING_MODEL/04_ESCALATION/00_INDEX/INDEX_ESCALATION_OPERATING_MODEL_README.md",
+    "23_OPERATING_MODEL/04_ESCALATION/OPERATING_MODEL_ESCALATION_CONTRACT.md",
+    "23_OPERATING_MODEL/04_ESCALATION/ESCALATION_OPERATING_MODEL_README.md",
+    "23_OPERATING_MODEL/02_DECISION_RIGHTS/00_INDEX/INDEX_DECISION_RIGHTS_OPERATING_MODEL_README.md",
+    "23_OPERATING_MODEL/02_DECISION_RIGHTS/00_INDEX/DECISION_RIGHTS_OPERATING_MODEL_DECISION_RIGHTS_CONTRACT.md",
+    "23_OPERATING_MODEL/02_DECISION_RIGHTS/DECISION_RIGHTS_OPERATING_MODEL_README.md",
+    "23_OPERATING_MODEL/02_DECISION_RIGHTS/OPERATING_MODEL_DECISION_RIGHTS_CONTRACT.md",
+    "25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY/00_INDEX",
+    "25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O10_VALUE/00_INDEX",
+    "25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O14_ACTION/00_INDEX",
+    "25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O12_PLAN/00_INDEX",
+    "25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O02_RELATION/00_INDEX",
+    "25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O09_SIMULATION/00_INDEX",
+    "25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION/00_INDEX",
+    "25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O06_MODEL/00_INDEX",
+    "25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O11_GOAL/00_INDEX",
+    "25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O13_DECISION/00_INDEX"
+  ]
+}
