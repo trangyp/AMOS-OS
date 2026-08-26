@@ -219,3 +219,125 @@ class AuthzEngine:
             if op.budget_cost > self.budget_limit * 0.2:
                 return (Verdict.DENY, "")  # emergency can't exceed 20% cap
         return None
+
+
+# ---------------------------------------------------------------------------
+# Test suite — one or more probes per invariant family
+# ---------------------------------------------------------------------------
+
+def run_tests() -> list[tuple[str, bool, str]]:
+    results = []
+
+    def t(tid, ok, note=""):
+        results.append((tid, bool(ok), note))
+
+    E = AuthzEngine(current_epoch=2)
+
+    # INV-001/002: unauthenticated → DENY; authenticated w/o grant → AUTHORITY_REQUIRED
+    ghost = Principal("ghost", authenticated=False)
+    v, why = E.authorize(ghost, Operation("read", frozenset({"x"}), "d1", "t1", "dom:src"))
+    t("INV-001", v == Verdict.DENY)
+
+    anon = Principal("anon", authenticated=True)
+    v, why = E.authorize(anon, Operation("read", frozenset({"x"}), "d1", "t1", "dom:src"))
+    t("INV-002", v == Verdict.AUTHORITY_REQUIRED)
+
+    # Valid grant for happy path
+    E.grant(AuthorityGrant("alice", frozenset({"db:users"}), epoch_granted=2))
+
+    alice = Principal("alice", authenticated=True)
+    op_ok = Operation("write", frozenset({"db:users"}), "digest-A",
+                      "tx-1", "crm:update-user")
+    v, why = E.authorize(alice, op_ok)
+    t("HAPPY-PATH", v == Verdict.GRANT, why if v != Verdict.GRANT else "")
+
+    # INV-003/014: capability vs authorization — having capability field ≠ grant
+    cap_only = Principal("capbot", authenticated=True)
+    E.grant(AuthorityGrant("capbot", frozenset(), epoch_granted=2))
+    v, _ = E.authorize(cap_only, Operation("write", frozenset({"db:users"}),
+                                           "d", "t", "crm:x"))
+    t("INV-003", v == Verdict.DENY, "capability without scope fails")
+
+    # INV-007: principal mismatch
+    mallory = Principal("mallory", authenticated=True)
+    E.grant(AuthorityGrant("alice", frozenset({"db:users"}), 2))  # re-grant alice only
+    v, _ = E.authorize(mallory, op_ok)
+    t("INV-007", v == Verdict.AUTHORITY_REQUIRED)  # no grant for mallory
+
+    # INV-009/011: empty target / scope expansion
+    v, _ = E.authorize(alice, replace(op_ok, target_scope=frozenset()))
+    t("INV-009", v == Verdict.DENY, "unresolvable target")
+
+    v, _ = E.authorize(alice, replace(op_ok,
+                       target_scope=frozenset({"db:users", "db:payroll"})))
+    t("INV-011", v == Verdict.DENY, "scope expansion blocked")
+
+    # INV-012/040: unknown-scope component
+    v, _ = E.authorize(alice, replace(op_ok,
+                       target_scope=frozenset({"?unknown"})))
+    t("INV-012+040", v == Verdict.DENY, "unknown is not permission")
+
+    # INV-021: stale grant
+    old = Principal("old", authenticated=True)
+    E.grant(AuthorityGrant("old", frozenset({"db:users"}), epoch_granted=1))
+    v, _ = E.authorize(old, Operation("read", frozenset({"db:users"}),
+                                      "d", "t", "crm:r"))
+    t("INV-021", v == Verdict.STALE, "stale grant requires re-auth")
+
+    # INV-022: revocation freshness
+    bob = Principal("bob", authenticated=True)
+    E.grant(AuthorityGrant("bob", frozenset({"db:users"}), 2))
+    E.revoke("bob")
+    v, _ = E.authorize(bob, Operation("read", frozenset({"db:users"}),
+                                      "d", "t", "crm:r"))
+    t("INV-022", v == Verdict.AUTHORITY_REQUIRED, "revocation effective immediately")
+
+    # INV-038: agent self-authorization
+    ag = Principal("agent:auto", authenticated=True)
+    E.grant(AuthorityGrant("agent:auto", frozenset({"db:users"}), 2))
+    v, _ = E.authorize(ag, op_ok)
+    t("INV-038", v == Verdict.AUTHORITY_REQUIRED,
+      "agent with no delegator cannot self-authorize")
+
+    # delegated agent passes (attenuated chain has a human root)
+    ag2 = Principal("agent:child", authenticated=True)
+    E.grant(AuthorityGrant("agent:child", frozenset({"db:users"}), 2,
+                           delegated_from="alice"))
+    v, _ = E.authorize(ag2, op_ok)
+    t("INV-018", v == Verdict.GRANT, "delegated authority with human root OK")
+
+    # INV-043: semantic origin required
+    v, _ = E.authorize(alice, replace(op_ok, semantic_origin="?"))
+    t("INV-043", v == Verdict.DENY, "origin must be known and preserved")
+
+    # INV-048: stale user intent
+    v, _ = E.authorize(alice, replace(op_ok,
+                       semantic_origin="crm:update-user:stale-intent"))
+    t("INV-048", v == Verdict.STALE, "stale intent needs re-confirmation")
+
+    # INV-041: cumulative budget
+    E.budget_spent["alice"] = 9.5
+    v, _ = E.authorize(alice, replace(op_ok, budget_cost=1.0))
+    t("INV-041", v == Verdict.DENY, "budget exhausted")
+    E.budget_spent["alice"] = 0.0
+
+    # INV-050: emergency boundedness
+    v, _ = E.authorize(alice, replace(op_ok, is_emergency=True,
+                                      budget_cost=5.0))
+    t("INV-050", v == Verdict.DENY, "emergency capped at 20% of limit")
+
+    v, _ = E.authorize(alice, replace(op_ok, is_emergency=True,
+                                      budget_cost=1.5))
+    t("INV-050b", v in (Verdict.GRANT, Verdict.REVALIDATED),
+      "bounded emergency permitted")
+
+    return results
+
+
+if __name__ == "__main__":
+    res = run_tests()
+    passed = sum(1 for _, ok, _ in res if ok)
+    for tid, ok, note in res:
+        print(f"[{'PASS' if ok else 'FAIL'}] {tid}" + (f" — {note}" if note else ""))
+    print(f"\n{passed}/{len(res)} AUTHZ invariant tests pass")
+    raise SystemExit(0 if passed == len(res) else 1)
