@@ -48,3 +48,30 @@ SORT file.name ASC
 LIST
 WHERE file.path = "00_ROOT/AMOS_Layer_Maps.md"
 ```
+
+### Backlink leaderboard
+
+```dataview
+TABLE length(file.inlinks) as Backlinks
+FROM #moc OR #index OR #map OR #templates
+SORT length(file.inlinks) DESC
+LIMIT 15
+```
+
+### Recent changes
+
+```dataview
+LIST
+FROM ""
+SORT file.mtime DESC
+LIMIT 10
+```
+
+### Orphan watch
+
+```dataview
+LIST
+FROM ""
+WHERE length(file.inlinks) = 0 AND length(file.outlinks) = 0
+LIMIT 20
+```
