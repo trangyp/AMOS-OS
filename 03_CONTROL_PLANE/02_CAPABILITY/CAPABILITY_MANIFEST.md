@@ -1,3893 +1,3233 @@
-Below is the **paste-ready MAX-detail replacement** for the `K COUNTERFACTUAL` placeholder.
-
-The historical spine is source-grounded: the recovered `Counterfactual_Reasoning_Kernel` identifies version `1.0.0`, Meta-Cognition placement, priority `9`, required status, dependencies on Meta Logic / Meta Epistemology / Probability-Statistics, four counterfactual types, validity criteria, functions, safety constraints, tests, and failure modes. 
-
-The wider Drive corpus also contains relevant counterfactual research on harm, partial identification, uncertainty quantification, causal responsibility, multi-agent reasoning, and counterfactual causal benchmarks. Those materials can strengthen validation, but they remain **external/reference evidence**, not automatically AMOS canon.    
+Below is the **full paste-ready `CAPABILITY_MANIFEST.md`**, designed to sit beside `CAPABILITY_CONTRACT.md`. It is a substantive manifest specification, not a placeholder, while preserving the boundary between architecture definition and validated runtime implementation.
 
 ---
-artifact_id: AMOS-OS-K-COUNTERFACTUAL
-canonical_name: K_COUNTERFACTUAL
-historical_kernel_id: Counterfactual_Reasoning_Kernel
-historical_version: "1.0.0"
-
-artifact_class: KERNEL
-kernel_family: META_COGNITION
-plane: KERNEL
-canonical_location: 02_KERNEL/K_COUNTERFACTUAL.md
-
-origin_architect: Trang Phan
-steward: Trang Phan
-
-amos_core_target: v4.4
-
-status: CANDIDATE_CANON
-conclusion_class: DERIVED
-
-historical_state:
-  kernel_defined: true
-  historical_version: "1.0.0"
-  priority: 9
-  required: true
-  category: Meta_Cognition
-  omni_position: 6
-
-historical_dependencies:
-  - Meta_Logic_Kernel
-  - Meta_Epistemology_Kernel
-  - Probability_Statistics_Kernel
-
-historical_binding_rules:
-  - Law_of_Law
-  - Rule_of_2
-  - Rule_of_4
-  - Absolute_Integrity
-
-supersedes:
-  - K_COUNTERFACTUAL_PLACEHOLDER
-
-promotion_required: true
-
-implementation_status: UNKNOWN/GAP
-formal_verification_status: UNKNOWN/GAP
-universal_empirical_validation: UNKNOWN/GAP
-
-provenance_strata:
-
-  S0_DIRECT_SOURCE:
-    meaning: >
-      Explicitly present in the recovered historical
-      Counterfactual_Reasoning_Kernel source.
-
-  S1_AMOS_LINEAGE:
-    meaning: >
-      Explicitly inherited from broader AMOS architecture,
-      dependencies, or later AMOS_CORE lineage.
-
-  S2_V4_4_INTEGRATION:
-    meaning: >
-      Integration required to preserve current AMOS_CORE v4.4
-      integrity, causal, provenance, scope, regime, RSCF,
-      H/M/L, recovery, and governance doctrine.
-
-  S3_DERIVED_FORMALIZATION:
-    meaning: >
-      Formal schema, equations, state machines, algorithms,
-      tests, or normalized contracts constructed from source
-      semantics but not asserted as verbatim historical text.
-
-  S4_EXTERNAL_REFERENCE:
-    meaning: >
-      External causal/counterfactual research used only for
-      validation, comparison, or knowledge harvest.
-
-  S5_UNKNOWN_GAP:
-    meaning: >
-      Canonical detail not presently established.
-
+title: "AMOS Capability Manifest"
+artifact: "CAPABILITY_MANIFEST.md"
+origin_architect: "Trang Phan"
+steward: "Trang Phan"
+system: "AMOS OS"
+artifact_class: "GOVERNED_CAPABILITY_MANIFEST"
+status: "PROPOSED / STRUCTURALLY_COMPLETE / IMPLEMENTATION-UNVALIDATED"
+epistemic_class: "MODEL"
+version: "1.0.0"
+updated: "2026-08-26"
+authority: "NONE_BY_DEFAULT"
 ---
 
-# K COUNTERFACTUAL
+# AMOS Capability Manifest
 
-## 0. CANONICAL STATUS
+## 0. Status
 
-`K_COUNTERFACTUAL` is the AMOS OS kernel for disciplined reasoning over
-alternative worlds.
+This document defines the AMOS OS manifest structure for discovering, indexing, resolving, validating, governing, versioning, and auditing capabilities.
 
-The historical AMOS corpus establishes a dedicated
-`Counterfactual_Reasoning_Kernel`.
-
-The present artifact reconstructs that historical kernel into a full
-AMOS_CORE v4.4-compatible specification.
-
-It MUST NOT be interpreted as evidence that:
-
-- every section below appeared verbatim in historical v1.0.0;
-- every formal equation below was historically implemented;
-- every causal model used by AMOS is empirically valid;
-- every counterfactual is identifiable;
-- counterfactual generation constitutes factual observation;
-- a model result creates action authority;
-- a detailed specification proves executable implementation.
-
-The governing epistemic boundary is:
+It is the machine-oriented companion to:
 
 ```text
-HISTORICAL SOURCE
-!=
-DERIVED FORMALIZATION
+CAPABILITY_CONTRACT.md
+```
 
-COUNTERFACTUAL
-!=
-FACT
+The contract defines what a valid AMOS capability means.
 
-MODEL
-!=
-OBSERVATION
+The manifest defines how capability declarations are represented as an addressable governed inventory.
 
-PLAUSIBLE
-!=
-PROBABLE
+This document provides a complete structural specification.
 
-PROBABLE
-!=
-CERTAIN
+It does **not** assert that:
 
-ASSOCIATION
-!=
-CAUSATION
+* every capability listed or addressable in AMOS is implemented;
+* every provider exists at runtime;
+* every declared interface has been tested;
+* every capability has been canonically approved;
+* every capability is currently available;
+* every capability is authorized for invocation;
+* every capability is authorized to create effects;
+* every capability has passed empirical validation;
+* every proposed capability entry may be promoted into active runtime state.
 
-PREDICTION
-!=
-INTERVENTION
+The governing distinctions are:
 
-INTERVENTION
-!=
-INDIVIDUAL COUNTERFACTUAL
-
-SIMULATION
-!=
-EMPIRICAL VALIDATION
-
-MULTIPLE DERIVATIONS
-!=
-MULTIPLE INDEPENDENT SOURCES
+```text
+MANIFEST_ENTRY != IMPLEMENTATION
+DECLARED != AVAILABLE
+ADDRESSABLE != VALIDATED
+DISCOVERABLE != AUTHORIZED
+CAPABILITY != AUTHORITY
+CAPABILITY != PERMISSION
+COMPATIBLE != SELECTED
+SELECTED != INVOKED
+INVOKED != SUCCEEDED
+SUCCEEDED != VALIDATED
+VALIDATED != COMMITTED
+PROPOSAL != COMMIT
+UNKNOWN/GAP != PASS
 ```
 
 ---
 
-# 1. MISSION
+# 1. Purpose
 
-The mission of `K_COUNTERFACTUAL` is:
-
-> Construct, evaluate, compare, challenge, and govern alternative-world
-> reasoning while preserving factual anchoring, minimal intervention,
-> causal discipline, uncertainty, provenance, scope, regime validity,
-> competing explanations, falsifiability, and action governance.
-
-The kernel answers questions such as:
+The AMOS Capability Manifest provides the canonical inventory surface through which AMOS components can determine:
 
 ```text
-What would have happened if X had been different?
-
-What could happen if X changes?
-
-What does this system structure imply under altered conditions?
-
-Would Y still occur without X?
-
-Would introducing X be sufficient for Y?
-
-Which intervention is most likely to change Y?
-
-Which causal model best explains the observed difference?
-
-What assumption is carrying the counterfactual conclusion?
-
-What evidence would discriminate competing alternative worlds?
+what capabilities are declared;
+who or what provides them;
+which version is being referenced;
+what functional class they belong to;
+which inputs and outputs they expose;
+what dependencies they require;
+what scopes and regimes they support;
+what effects they may create;
+which authority they require;
+which policies constrain them;
+which control planes govern them;
+what validation state they occupy;
+what evidence supports them;
+what provenance they carry;
+whether they are fresh;
+whether they have been revoked;
+whether they supersede another capability;
+and whether they are eligible for runtime consideration.
 ```
+
+The manifest exists to make capability topology explicit rather than allowing capability assumptions to remain embedded implicitly inside agents, Skills, prompts, workflows, or code.
 
 ---
 
-# 2. HISTORICAL PURPOSE — S0
+# 2. Manifest Role in AMOS
 
-The historical kernel exists for:
-
-```text
-counterfactual reasoning
-
-what-if analysis
-
-alternative scenario reasoning
-
-reasoning about events that did not happen
-
-causal inference through comparison of actual
-and hypothetical states
-
-scenario analysis
-```
-
-Its historical domains are:
-
-```yaml
-domains:
-  - counterfactual
-  - what_if
-  - alternative_scenarios
-  - causal_inference
-  - hypothetical_reasoning
-  - scenario_analysis
-```
-
----
-
-# 3. HISTORICAL COUNTERFACTUAL TYPES — S0
-
-The historical source defines four principal classes.
-
-## 3.1 PAST COUNTERFACTUAL
-
-Question:
+The capability layer SHOULD be separated into at least four conceptual artifacts:
 
 ```text
-What would have happened
-if something in the past
-had been different?
-```
-
-Example class:
-
-```text
-"If we had launched earlier..."
-```
-
-Normalized structure:
-
-```yaml
-PastCounterfactual:
-  factual_history:
-  intervention_time:
-  intervention:
-  divergence_point:
-  preserved_history:
-  recomputed_history:
-  queried_outcome:
-```
-
----
-
-## 3.2 FUTURE COUNTERFACTUAL
-
-Question:
-
-```text
-What would happen
-if something changes
-in the future?
-```
-
-Example class:
-
-```text
-"If we increase price by 10%..."
-```
-
-Normalized structure:
-
-```yaml
-FutureCounterfactual:
-  current_state:
-  proposed_intervention:
-  implementation_time:
-  horizon:
-  response_model:
-  scenario_outcomes:
-  early_warning_signals:
-```
-
-A future counterfactual is not automatically a forecast.
-
----
-
-## 3.3 STRUCTURAL COUNTERFACTUAL
-
-Question:
-
-```text
-What does the system structure imply
-under different conditions?
-```
-
-Example:
-
-```text
-"Given this system design,
-if load doubles..."
-```
-
-Normalized structure:
-
-```yaml
-StructuralCounterfactual:
-  factual_structure:
-  changed_condition:
-  invariant_mechanisms:
-  modified_mechanisms:
-  capacity_constraints:
-  thresholds:
-  feedback:
-  resulting_structure:
-```
-
----
-
-## 3.4 CAUSAL COUNTERFACTUAL
-
-Question:
-
-```text
-What can be inferred about causation
-by comparing what happened
-with what would have happened
-without the candidate cause?
-```
-
-Normalized structure:
-
-```yaml
-CausalCounterfactual:
-  factual_candidate_cause:
-  factual_outcome:
-  alternative_intervention:
-  counterfactual_outcome:
-  causal_model:
-  confounding:
-  competing_explanations:
-  attribution_confidence:
-```
-
----
-
-# 4. HISTORICAL VALIDITY CRITERIA — S0
-
-The historical kernel defines five validity criteria.
-
-## CF-H01 — PLAUSIBLE INITIAL STATE
-
-The starting point must be:
-
-```text
-PLAUSIBLE
-```
-
-or explicitly marked:
-
-```text
-IMPLAUSIBLE / EXPLORATORY
-```
-
-It must not silently receive real-world confidence merely because it is
-internally coherent.
-
----
-
-## CF-H02 — MINIMAL CHANGE
-
-Change only what is required.
-
-Do not silently alter unrelated variables.
-
----
-
-## CF-H03 — CAUSAL CHAIN CONSERVATION
-
-If:
-
-```text
-A causes B
-B causes C
-```
-
-then intervention on `A` should propagate through `B` before reaching `C`.
-
----
-
-## CF-H04 — UNCERTAINTY PROPORTIONAL TO DISTANCE
-
-Counterfactual uncertainty increases as the alternative world departs from
-actuality.
-
-Near counterfactuals may support greater confidence than far
-counterfactuals, all else equal.
-
----
-
-## CF-H05 — ASSUMPTION TRANSPARENCY
-
-All assumptions about how the world differs must remain explicit.
-
----
-
-# 5. HISTORICAL CORE RULES — S0
-
-```yaml
-counterfactual_needs_causal_model:
-  rule: >
-    Valid causal counterfactual reasoning requires
-    a causal model of how relevant variables are connected.
-
-uncertainty_grows_with_distance:
-  rule: >
-    The farther the counterfactual world is from actuality,
-    the larger the uncertainty envelope.
-
-minimal_intervention:
-  rule: >
-    Change only what is specified plus consequences
-    justified by the model.
-
-counterfactual_is_not_prediction:
-  rule: >
-    Counterfactual reasoning explores alternatives.
-    It must not be presented as prediction merely
-    because it concerns another possible outcome.
-```
-
----
-
-# 6. FUNDAMENTAL COUNTERFACTUAL OBJECT — S3
-
-Define:
-
-[
-CF =
-\langle
-F,
-I,
-M,
-C,
-Q,
-S,
-R,
-T,
-E,
-P,
-U,
-A
-\rangle
-]
-
-where:
-
-```text
-F = factual state
-
-I = intervention
-
-M = causal / structural model
-
-C = counterfactual state
-
-Q = queried outcome
-
-S = scope
-
-R = regime
-
-T = temporal envelope
-
-E = evidence
-
-P = provenance topology
-
-U = uncertainty
-
-A = assumptions
-```
-
-The counterfactual is decision-grade only if every load-bearing component is
-either:
-
-```text
-known
-
-explicitly modeled
-
-or explicitly UNKNOWN/GAP
-```
-
----
-
-# 7. FACTUAL ANCHOR
-
-Every counterfactual begins from a factual or declared baseline.
-
-```yaml
-FactualAnchor:
-
-  anchor_id:
-
-  entity:
-
-  system:
-
-  population:
-
-  environment:
-
-  observed_state: {}
-
-  observations: []
-
-  source_claims: []
-
-  derived_state: []
-
-  temporal:
-    observed_at:
-    valid_from:
-    valid_until:
-
-  scope:
-
-  regime:
-
-  measurement_method:
-
-  provenance: []
-
-  uncertainty:
-
-  conflicts: []
-```
-
-No consequential counterfactual should silently reason from an undefined
-baseline.
-
----
-
-# 8. ACTUAL / COUNTERFACTUAL FIREWALL
-
-Canonical invariant:
-
-```text
-ACTUAL WORLD
-must remain recoverable
-after counterfactual construction.
-```
-
-Conceptual world tree:
-
-```text
-W0 ACTUAL
-│
-├── CF1
-│
-├── CF2
-│
-└── CF3
-```
-
-Forbidden:
-
-```text
-W0 ACTUAL
-↓
-overwritten by CF1
-```
-
----
-
-# 9. INTERVENTION
-
-Intervention object:
-
-```yaml
-Intervention:
-
-  intervention_id:
-
-  intervention_type:
-
-    - VALUE_CHANGE
-    - ACTION_ADDITION
-    - ACTION_REMOVAL
-    - ACTION_SUBSTITUTION
-    - TIMING_CHANGE
-    - ORDER_CHANGE
-    - INFORMATION_CHANGE
-    - BELIEF_CHANGE
-    - POLICY_CHANGE
-    - RESOURCE_CHANGE
-    - PARAMETER_CHANGE
-    - STRUCTURAL_CHANGE
-    - ENVIRONMENT_CHANGE
-    - CONSTRAINT_CHANGE
-    - EVENT_INJECTION
-    - EVENT_REMOVAL
-
-  target:
-
-  factual_value:
-
-  counterfactual_value:
-
-  time:
-
-  duration:
-
-  magnitude:
-
-  explicit_auxiliary_changes: []
-
-  hidden_changes_allowed: false
-
-  assumptions: []
-```
-
----
-
-# 10. INTERVENTION BINDING
-
-An intervention should bind, when material:
-
-```text
-identity
-
-target variable
-
-factual value
-
-alternative value
-
-time
-
-duration
-
-magnitude
-
-scope
-
-environment
-
-regime
-
-authority
-```
-
-Example:
-
-```text
-"What if spending increased?"
-```
-
-is not fully specified when the result depends on:
-
-```text
-how much?
-
-what category?
-
-when?
-
-for how long?
-
-funded from where?
-
-what else changes?
-```
-
-If unresolved details can alter the conclusion:
-
-```text
-CLASS = CONDITIONAL
-```
-
-or:
-
-```text
-UNKNOWN/GAP
-```
-
----
-
-# 11. MINIMAL SURGERY
-
-For a structural system:
-
-[
-V_i=f_i(PA_i,U_i)
-]
-
-an intervention:
-
-[
-do(X=x')
-]
-
-changes the generating mechanism for `X` in the counterfactual branch while
-preserving unaffected mechanisms.
-
-Conceptually:
-
-[
-M =
-{f_1,...,f_X,...,f_n}
-]
-
-becomes:
-
-[
-M_I =
-{f_1,...,X:=x',...,f_n}
-]
-
-unless the intervention explicitly modifies additional mechanisms.
-
-This formalization is `S3_DERIVED_FORMALIZATION`.
-
----
-
-# 12. MINIMAL CHANGE INVARIANT
-
-Let:
-
-[
-Changed(CF)
-]
-
-be all world variables that differ from actuality.
-
-Then:
-
-[
-Changed(CF)
-\subseteq
-Intervention
-\cup
-LicensedDescendants
-\cup
-ExplicitAuxiliaryChanges
-]
-
-by default.
-
-Any unexplained change is:
-
-```text
-E_CF_HIDDEN_CHANGE
-```
-
----
-
-# 13. HIDDEN CO-INTERVENTION
-
-Suppose intervention is:
-
-```text
-X := x'
-```
-
-but generated world also changes:
-
-```text
-Z := z'
-```
-
-`Z` must be typed:
-
-```yaml
-change_Z:
-
-  CAUSALLY_ENTAILED:
-    valid: potentially
-
-  EXPLICIT_AUXILIARY_INTERVENTION:
-    valid: if declared
-
-  SYSTEM_REACTION:
-    valid: if modeled
-
-  HIDDEN_CHANGE:
-    valid: false
-```
-
----
-
-# 14. CAUSAL MODEL
-
-```yaml
-CausalModel:
-
-  model_id:
-
-  version:
-
-  nodes: []
-
-  edges:
-
-    - source:
-      target:
-      relation_type:
-      evidence:
-      provenance:
-      scope:
-      regime:
-      confidence:
-      falsifier:
-
-  exogenous_variables: []
-
-  endogenous_variables: []
-
-  assumptions: []
-
-  validity_envelope:
-
-  competing_models: []
-```
-
----
-
-# 15. CAUSAL RELATION TYPES
-
-```yaml
-relation_types:
-
-  ASSOCIATION:
-    causal_license: false
-
-  CORRELATION:
-    causal_license: false
-
-  TEMPORAL_PRECEDENCE:
-    causal_license: false
-
-  MECHANISM:
-    causal_license: conditional
-
-  ENABLES:
-    causal_license: conditional
-
-  NECESSARY_FOR:
-    causal_license: conditional
-
-  SUFFICIENT_FOR:
-    causal_license: conditional
-
-  MEDIATES:
-    causal_license: conditional
-
-  MODERATES:
-    causal_license: conditional
-
-  CONFOUNDS:
-    causal_license: blocks_naive_attribution
-
-  FEEDBACK:
-    causal_license: requires_dynamic_model
-
-  CAUSES:
-    causal_license: supported_when_validated
-```
-
----
-
-# 16. CAUSAL FIREWALL
-
-These transformations are forbidden without an evidential bridge:
-
-```text
-A precedes B
-→
-A causes B
-```
-
-```text
-A correlates with B
-→
-changing A changes B
-```
-
-```text
-A structurally resembles C
-→
-A has same causal effect as C
-```
-
-```text
-model predicts B
-→
-B would happen in reality
-```
-
-```text
-source says A causes B
-→
-causal relation verified
-```
-
----
-
-# 17. ASSOCIATIONAL / INTERVENTIONAL / COUNTERFACTUAL SEPARATION
-
-Canonical distinction:
-
-[
-P(Y|X=x)
-]
-
-is observational/associational.
-
-[
-P(Y|do(X=x))
-]
-
-is interventional.
-
-[
-P(Y_{x'}|X=x,Y=y,E=e)
-]
-
-is counterfactual for a factual context.
-
-AMOS MUST NOT silently substitute one for another.
-
----
-
-# 18. ABDUCTION
-
-Given observations:
-
-[
-E=e
-]
-
-infer possible latent/background state:
-
-[
-P(U|E=e,M)
-]
-
-If:
-
-```text
-U1
-U2
-U3
-```
-
-all remain compatible, the counterfactual should propagate all
-decision-relevant latent alternatives.
-
----
-
-# 19. ACTION
-
-Apply intervention:
-
-[
-M_I=Intervene(M,I)
-]
-
-Only explicit intervention semantics may modify the governing model.
-
----
-
-# 20. COUNTERFACTUAL PROJECTION
-
-Propagate:
-
-[
-Y_{CF}
-======
-
-Predict(M_I,U)
-]
-
-or, under latent uncertainty:
-
-[
-P(Y_{CF})
-=========
-
-\sum_U
-P(Y_{CF}|U,M_I)P(U|E)
-]
-
-where probability semantics are justified.
-
-If probability is not justified, preserve a nonprobabilistic alternative set.
-
----
-
-# 21. ABDUCTION → ACTION → PROJECTION
-
-Canonical derived runtime:
-
-```text
-OBSERVED FACTUAL STATE
+CAPABILITY_CONTRACT.md
         ↓
-ABDUCTION
+defines capability semantics
+
+CAPABILITY_MANIFEST.md
         ↓
-LATENT/BACKGROUND STATE(S)
+defines manifest semantics and registry structure
+
+CAPABILITY_REGISTRY
         ↓
-INTERVENTION
+contains instantiated capability records
+
+CONTROL PLANE
         ↓
-MODIFIED CAUSAL MODEL
-        ↓
-PROJECTION
-        ↓
-COUNTERFACTUAL OUTCOME(S)
+resolves and governs runtime use
 ```
-
----
-
-# 22. DEPENDENCY CLOSURE
-
-For intervention target `X` and queried target `Y`:
-
-[
-Closure(X,Y)
-]
-
-contains all load-bearing nodes required to evaluate the effect of `X` on
-`Y`.
-
-The kernel SHOULD avoid retrieving or recomputing unrelated world state.
-
-This is the v4.4 smallest-sufficient-proof rule applied to counterfactuals.
-
----
-
-# 23. DESCENDANT PROPAGATION
-
-If:
-
-```text
-X → A → B → Y
-```
-
-then intervention on `X` may require recomputation of:
-
-```text
-A
-B
-Y
-```
-
-but not independent:
-
-```text
-Z
-```
-
-unless new regime/environment interactions connect it.
-
----
-
-# 24. CAUSAL CLOSURE FAILURE
-
-If the path:
-
-```text
-X → ? → Y
-```
-
-contains a load-bearing unknown mechanism:
-
-```text
-do not invent the missing bridge
-```
-
-Correct state:
-
-```text
-UNKNOWN/GAP
-```
-
-or:
-
-```text
-CONDITIONAL
-```
-
-if an explicit model assumption is acceptable.
-
----
-
-# 25. CONFOUNDING
-
-Pattern:
-
-```text
-Z → X
-Z → Y
-```
-
-can produce association:
-
-```text
-X ↔ Y
-```
-
-without:
-
-```text
-X → Y
-```
-
-Counterfactual causal inference must therefore record:
-
-```yaml
-confounders:
-  known: []
-  suspected: []
-  unresolved: []
-  ruled_out: []
-```
-
----
-
-# 26. MEDIATION
-
-Pattern:
-
-```text
-X → M → Y
-```
-
-Changing `X` may change `M`, which changes `Y`.
-
-Holding `M` fixed defines a different counterfactual from allowing mediation.
-
-Therefore the kernel must preserve mediation semantics.
-
----
-
-# 27. MODERATION
-
-If:
-
-[
-Effect(X\rightarrow Y)
-]
-
-depends on:
-
-[
-Z
-]
-
-then the effect is conditional.
-
-```text
-CF(X|Z=z1)
-!=
-CF(X|Z=z2)
-```
-
-may hold.
-
----
-
-# 28. NECESSITY
-
-Question:
-
-```text
-Would Y have happened without X?
-```
-
-Candidate form:
-
-[
-Y_{x'}\neq Y_x
-]
-
-where (x') removes or changes candidate cause `X`.
-
-Necessity must remain scope- and model-bounded.
-
----
-
-# 29. SUFFICIENCY
-
-Question:
-
-```text
-Would introducing X be sufficient for Y?
-```
-
-A condition may be:
-
-```text
-necessary but not sufficient
-
-sufficient but not necessary
-
-both
-
-neither
-```
-
-Do not collapse these categories.
-
----
-
-# 30. OVERDETERMINATION
-
-Suppose:
-
-```text
-A → Y
-B → Y
-```
-
-and either is sufficient.
-
-Removing `A` may not prevent `Y` because `B` remains active.
 
 Therefore:
 
 ```text
-Y remains under ¬A
+CONTRACT = rules
+
+MANIFEST = governed inventory representation
+
+REGISTRY = instantiated state
+
+CONTROL PLANE = enforcement and resolution
 ```
 
-does not prove:
-
-```text
-A had no causal role
-```
+These objects MUST NOT be silently conflated.
 
 ---
 
-# 31. PREEMPTION
+# 3. Non-Purpose
 
-If:
+The capability manifest is not:
 
 ```text
-A causes Y first
-B would cause Y otherwise
+an authorization list;
+an access-control list;
+a runtime scheduler;
+a Skill registry replacement;
+an agent registry replacement;
+a policy registry replacement;
+a workflow definition;
+a tool implementation;
+an empirical benchmark;
+a proof of capability;
+a proof of provider availability;
+a proof of provider trustworthiness;
+a commit ledger.
 ```
 
-then removal of `A` may activate `B`.
+It may reference these structures.
 
-Naive but-for tests can therefore mischaracterize causal contribution.
-
-Use deeper causal-role analysis when consequential.
+It MUST NOT impersonate them.
 
 ---
 
-# 32. SYSTEM REACTIONS
+# 4. Manifest Object
 
-Historical kernel explicitly warns against ignoring system reactions.
-
-Canonical dynamic sequence:
+Conceptually:
 
 ```text
-INTERVENTION
-↓
-DIRECT EFFECT
-↓
-SYSTEM RESPONSE
-↓
-SECOND-ORDER EFFECT
-↓
-FEEDBACK
-↓
-NEW TRAJECTORY
+CapabilityManifest :=
+    ManifestIdentity
+  × ManifestVersion
+  × CapabilityEntries
+  × ProviderIndex
+  × DependencyTopology
+  × GovernanceBindings
+  × ValidationBindings
+  × ProvenanceBindings
+  × SupersessionTopology
+  × GapState
 ```
 
-System responses may include:
-
-```text
-adaptation
-
-substitution
-
-compensation
-
-gaming
-
-policy response
-
-competitive response
-
-resource reallocation
-
-behavioral change
-
-equilibrium shift
-```
-
----
-
-# 33. FEEDBACK
-
-If:
-
-[
-X_t\rightarrow Y_{t+1}
-]
-
-and:
-
-[
-Y_t\rightarrow X_{t+1}
-]
-
-the counterfactual must preserve time.
-
-Static propagation can be invalid.
-
-Candidate transition:
-
-[
-S_{CF}(t+1)
-===========
-
-F(S_{CF}(t),I_t,E_t,M)
-]
-
----
-
-# 34. TEMPORAL STATE
+Canonical top-level representation:
 
 ```yaml
-temporal_counterfactual:
+capability_manifest:
+  manifest_id: "AMOS_CAPABILITY_MANIFEST"
+  version: "1.0.0"
+  schema_version: "1.0.0"
 
-  factual_time:
+  origin_architect: "Trang Phan"
+  steward: "Trang Phan"
 
-  intervention_time:
+  system: "AMOS OS"
 
-  divergence_time:
+  status: "PROPOSED"
+  epistemic_class: "MODEL"
 
-  outcome_horizon:
+  generated_at: null
+  updated_at: "2026-08-26"
 
-  lag_structure:
-
-  persistence:
-
-  delayed_effects:
-
-  feedback_period:
+  capabilities: []
+  providers: []
+  dependencies: []
+  policies: []
+  control_planes: []
+  validators: []
+  supersession: []
+  gaps: []
 ```
 
 ---
 
-# 35. PRE-INTERVENTION INVARIANCE
+# 5. Manifest Identity
 
-By default:
+Every manifest instance MUST possess a stable identity.
 
-[
-t<t_I
-\Rightarrow
-W_{CF}(t)=W_F(t)
-]
+```yaml
+manifest_identity:
+  manifest_id: string
+  canonical_name: "AMOS Capability Manifest"
+  version: string
+  schema_version: string
+  origin_architect: "Trang Phan"
+  steward: "Trang Phan"
+```
 
-unless the counterfactual explicitly changes earlier history.
-
-This prevents backward leakage.
-
----
-
-# 36. HISTORICAL COUNTERFACTUAL
-
-For divergence at:
-
-[
-t_d
-]
-
-preserve:
-
-[
-History_{CF}(t<t_d)
-===================
-
-History_F(t<t_d)
-]
-
-and recompute affected descendants after `t_d`.
+Manifest identity MUST remain separate from the identities of individual capabilities.
 
 ---
 
-# 37. COUNTERFACTUAL DISTANCE
+# 6. Capability Entry
 
-Historical law:
+The atomic manifest unit is a `CapabilityEntry`.
+
+Minimum form:
+
+```yaml
+capability:
+  capability_id: string
+  canonical_name: string
+  version: string
+
+  provider_id: string
+  provider_type: string
+
+  status: string
+  validation_state: string
+
+  capability_classes: []
+
+  input_contract: []
+  output_contract: []
+
+  dependencies: []
+
+  scope: {}
+  regime: {}
+
+  authority_requirements: {}
+  effect_class: string
+
+  provenance: {}
+```
+
+A manifest entry is a **declaration record**.
+
+Its existence does not establish implementation.
+
+---
+
+# 7. Canonical Full Capability Record
+
+Recommended full record:
+
+```yaml
+capability:
+  identity:
+    capability_id: "CAP_*"
+    canonical_name: string
+    aliases: []
+    version: string
+    schema_version: string
+
+  ownership:
+    origin_architect: "Trang Phan"
+    steward: "Trang Phan"
+
+  provider:
+    provider_id: string
+    provider_type: AGENT | SKILL | TOOL | WORKFLOW | SERVICE | MODEL | RUNTIME | CONTROL_PLANE | DETERMINISTIC_FUNCTION
+    provider_version: null
+
+  classification:
+    capability_classes: []
+    epistemic_class: MODEL
+    consequence_class: null
+    sensitivity_class: null
+
+  lifecycle:
+    declaration_state: DECLARED
+    implementation_state: UNKNOWN
+    availability_state: UNKNOWN
+    validation_state: UNVALIDATED
+    governance_state: UNREVIEWED
+    revocation_state: ACTIVE
+
+  inputs: []
+
+  outputs: []
+
+  state_requirements: []
+
+  preconditions: []
+
+  postconditions: []
+
+  dependencies: []
+
+  scope:
+    domains: []
+    systems: []
+    populations: []
+    environments: []
+    scales: []
+    observers: []
+    exclusions: []
+
+  regime:
+    allowed: []
+    prohibited: []
+    assumptions: []
+
+  hml:
+    H: false
+    M: false
+    L: false
+
+  effects:
+    maximum_effect_class: E0_READ_ONLY
+    possible_effects: []
+    reversible: null
+    rollback_contract: null
+
+  authority:
+    invocation_required: true
+    effect_authority_required: true
+    commit_authority_required: true
+    authority_classes: []
+
+  governance:
+    policy_refs: []
+    control_plane_refs: []
+    escalation_refs: []
+
+  validation:
+    level: V0_DECLARED
+    validators: []
+    evidence_refs: []
+    last_validated_at: null
+    expires_at: null
+
+  provenance:
+    source_refs: []
+    ancestry: []
+    derivation_refs: []
+    independence_status: UNKNOWN
+
+  uncertainty:
+    evidence: null
+    model: null
+    scope: null
+    temporal: null
+    causal: null
+    execution: null
+    provenance_independence: null
+
+  confidence_ceiling: 0
+
+  failures: []
+
+  repair:
+    supported: null
+    strategy_refs: []
+
+  tests: []
+
+  falsifiers: []
+
+  supersession:
+    supersedes: []
+    superseded_by: null
+
+  gaps: []
+```
+
+---
+
+# 8. Capability Classes
+
+The manifest SHOULD support the following base classes:
 
 ```text
-farther from actuality
-→
-greater uncertainty
+PERCEPTION
+OBSERVATION
+INGESTION
+RETRIEVAL
+SEARCH
+MEMORY_READ
+MEMORY_WRITE
+
+TRANSFORMATION
+TRANSLATION
+NORMALIZATION
+CLASSIFICATION
+EXTRACTION
+COMPRESSION
+
+REASONING
+ANALYSIS
+INFERENCE
+CAUSAL_ANALYSIS
+COUNTERFACTUAL_ANALYSIS
+
+PREDICTION
+FORECASTING
+SIMULATION
+
+PLANNING
+DECISION_SUPPORT
+OPTIMIZATION
+
+GENERATION
+SYNTHESIS
+CODE_GENERATION
+DOCUMENT_GENERATION
+
+VALIDATION
+VERIFICATION
+TESTING
+AUDIT
+
+ORCHESTRATION
+ROUTING
+COORDINATION
+
+CONTROL
+POLICY_EVALUATION
+AUTHORITY_EVALUATION
+COMMIT_CONTROL
+
+REPAIR
+RECOVERY
+ROLLBACK
+
+COMMUNICATION
+EXTERNAL_ACTION
+EXECUTION
+
+OBSERVABILITY
+PROVENANCE
+GOVERNANCE
 ```
 
-Candidate derived representation:
+Capability class assignment is descriptive.
 
-[
-D_{CF}
-======
+It does not grant authority.
 
-f(
-D_I,
-D_S,
-D_T,
-D_R,
-D_A
+---
+
+# 9. Provider Manifest
+
+Providers SHOULD be independently registered.
+
+```yaml
+provider:
+  provider_id: string
+  canonical_name: string
+  provider_type: string
+  version: string
+
+  status:
+    registered: true
+    implementation: UNKNOWN
+    availability: UNKNOWN
+    validation: UNVALIDATED
+
+  capabilities: []
+
+  provenance:
+    source_refs: []
+
+  supersession:
+    supersedes: []
+    superseded_by: null
+```
+
+This prevents provider metadata from being duplicated inconsistently across capability entries.
+
+---
+
+# 10. Provider Types
+
+Supported provider types SHOULD include:
+
+```text
+AGENT
+SKILL
+TOOL
+WORKFLOW
+SERVICE
+MODEL
+RUNTIME
+CONTROL_PLANE
+DETERMINISTIC_FUNCTION
+EXTERNAL_SYSTEM
+HUMAN_AUTHORITY
+```
+
+`HUMAN_AUTHORITY` may provide governance decisions but SHOULD NOT automatically be represented as equivalent to computational providers.
+
+---
+
+# 11. Capability-to-Provider Relation
+
+Canonical relation:
+
+```text
+Provider(P) --PROVIDES--> Capability(C)
+```
+
+A provider may expose many capabilities:
+
+```text
+P → {C1, C2, C3}
+```
+
+A capability may have multiple providers:
+
+```text
+C ← {P1, P2, P3}
+```
+
+However:
+
+```text
+P1 provides C
+AND
+P2 provides C
+```
+
+does NOT establish:
+
+```text
+behavior(P1) = behavior(P2)
+```
+
+Provider substitution requires compatibility evidence.
+
+---
+
+# 12. Input Manifest
+
+Each input MUST be typed.
+
+```yaml
+input:
+  name: string
+  type: string
+
+  required: true
+  nullable: false
+
+  schema_ref: null
+
+  units: null
+  domain: null
+
+  scope_requirement: null
+  regime_requirement: null
+
+  provenance_required: true
+  freshness_requirement: null
+
+  sensitivity_class: null
+```
+
+Input types SHOULD be sufficiently precise to prevent unsafe coercion.
+
+---
+
+# 13. Output Manifest
+
+Each output SHOULD declare:
+
+```yaml
+output:
+  name: string
+  type: string
+
+  schema_ref: null
+
+  epistemic_class:
+    - OBSERVATION
+    - SOURCE_CLAIM
+    - DERIVED
+    - MODEL
+    - PREDICTION
+    - PROPOSAL
+    - DECISION
+    - EFFECT
+    - UNKNOWN/GAP
+
+  provenance_required: true
+  uncertainty_required: true
+```
+
+Outputs MUST NOT silently change epistemic class downstream.
+
+---
+
+# 14. Capability State Model
+
+Manifest state MUST distinguish independent lifecycle dimensions.
+
+## Declaration
+
+```text
+PLACEHOLDER
+DECLARED
+STRUCTURALLY_COMPLETE
+```
+
+## Implementation
+
+```text
+UNKNOWN
+NOT_IMPLEMENTED
+PARTIALLY_IMPLEMENTED
+IMPLEMENTED
+```
+
+## Availability
+
+```text
+UNKNOWN
+AVAILABLE
+DEGRADED
+UNAVAILABLE
+```
+
+## Validation
+
+```text
+UNVALIDATED
+PARTIALLY_VALIDATED
+VALIDATED
+INVALIDATED
+```
+
+## Governance
+
+```text
+UNREVIEWED
+CONDITIONAL
+APPROVED
+DENIED
+QUARANTINED
+```
+
+## Revocation
+
+```text
+ACTIVE
+SUSPENDED
+REVOKED
+```
+
+These axes MUST remain independent.
+
+For example:
+
+```yaml
+implementation_state: IMPLEMENTED
+validation_state: UNVALIDATED
+governance_state: UNREVIEWED
+```
+
+is valid.
+
+It MUST NOT be automatically normalized to `VALIDATED`.
+
+---
+
+# 15. Manifest State Invariant
+
+No convenience status field may erase the underlying state vector.
+
+Conceptually:
+
+```text
+CapabilityState =
+(
+ declaration,
+ implementation,
+ availability,
+ validation,
+ governance,
+ revocation
 )
-]
-
-where:
-
-```text
-D_I = intervention distance
-
-D_S = structural distance
-
-D_T = temporal distance
-
-D_R = regime distance
-
-D_A = assumption distance
 ```
 
-No canonical numeric weights are asserted.
+A summary label MAY be generated.
+
+The original vector MUST remain recoverable.
 
 ---
 
-# 38. NEAR / MID / FAR WORLDS
+# 16. Dependency Manifest
+
+Dependencies SHOULD be explicit edges.
 
 ```yaml
-counterfactual_distance_class:
+dependency:
+  dependency_id: string
 
-  NEAR:
-    same_regime: usually
-    small_intervention: true
-    few_dependencies: true
+  from_capability: string
+  to_object: string
 
-  MID:
-    multiple_dependencies: true
-    moderate_adaptation: possible
+  dependency_type:
+    - CAPABILITY
+    - PROVIDER
+    - SKILL
+    - TOOL
+    - DATA
+    - MODEL
+    - POLICY
+    - AUTHORITY
+    - CONTROL_PLANE
+    - SCHEMA
+    - MEMORY
+    - SERVICE
+    - VALIDATOR
+    - ENVIRONMENT
 
-  FAR:
-    regime_change: possible
-    long_horizon: possible
-    structural_change: possible
-    high_assumption_burden: true
+  required: true
 
-  INCOHERENT:
-    violates_hard_constraints: true
+  version_constraint: null
+  freshness_constraint: null
+
+  validation_required: true
+
+  failure_behavior:
+    - FAIL_CLOSED
+    - DEGRADE
+    - ESCALATE
 ```
 
 ---
 
-# 39. STRUCTURAL COUNTERFACTUAL
+# 17. Dependency Invariant
 
-A structural intervention changes a mechanism:
+For required dependency `d`:
 
-[
-f_Y
-\rightarrow
-f'_Y
-]
+```text
+required(d)
+AND
+unsatisfied(d)
+→
+capability not fully eligible
+```
 
-rather than merely a variable value.
-
-This can invalidate wide portions of prior dependency closure.
-
-Therefore structural interventions SHOULD trigger deeper revalidation.
+Unless an explicitly declared fallback exists.
 
 ---
 
-# 40. PARAMETRIC COUNTERFACTUAL
+# 18. Optional Dependencies
 
-A parametric intervention:
+Optional dependencies MUST NOT be disguised as mandatory requirements.
 
-[
-\theta\rightarrow\theta'
-]
+```yaml
+required: false
+```
 
-may preserve model structure.
+The manifest SHOULD describe what changes when the dependency is unavailable.
 
-This is more compatible with local reasoning if regime and dependencies stay
-stable.
+Example:
+
+```yaml
+degradation:
+  without_dependency:
+    capability_scope_reduced: true
+    unavailable_outputs:
+      - "high_confidence_validation"
+```
 
 ---
 
-# 41. REGIME
+# 19. Capability Composition Graph
 
-Represent:
+The manifest MAY describe compositional relationships:
+
+```text
+CAP_A
+  ↓
+CAP_B
+  ↓
+CAP_C
+```
+
+or:
+
+```text
+CAP_A ─┐
+       ├→ CAP_D
+CAP_B ─┘
+```
+
+Graph edges MUST distinguish:
+
+```text
+REQUIRES
+OPTIONALLY_USES
+VALIDATES
+SUPERVISES
+PRODUCES_INPUT_FOR
+CONSUMES_OUTPUT_OF
+REPAIRS
+FALLBACK_FOR
+SUPERSEDES
+CONFLICTS_WITH
+```
+
+---
+
+# 20. Circular Dependency Detection
+
+Cycles MUST be visible.
+
+Example:
+
+```text
+CAP_A requires CAP_B
+CAP_B requires CAP_C
+CAP_C requires CAP_A
+```
+
+The registry MUST NOT interpret such a cycle as satisfied merely because every capability is addressable.
+
+Cycle resolution requires:
+
+```text
+external base condition;
+cycle-breaking provider;
+lazy dependency;
+or explicit recursive semantics.
+```
+
+Otherwise:
+
+```text
+dependency_state = GAP
+```
+
+---
+
+# 21. H/M/L Manifest
+
+Each capability SHOULD declare scale applicability.
+
+```yaml
+hml:
+  H:
+    applicable: true
+    role: "system-level governance"
+
+  M:
+    applicable: true
+    role: "workflow/subsystem coordination"
+
+  L:
+    applicable: false
+```
+
+H/M/L applicability does not mean the same implementation is valid at every scale.
+
+---
+
+# 22. Cross-Scale Capability Relations
+
+The manifest MAY declare:
+
+```text
+H constrains M
+M constrains L
+L produces evidence for M
+M aggregates evidence for H
+```
+
+Cross-scale mappings MUST preserve:
+
+```text
+scope
+meaning
+provenance
+confidence
+authority
+```
+
+A local result MUST NOT automatically become a global system claim.
+
+---
+
+# 23. Scope Manifest
+
+Capabilities MUST declare an applicability envelope when material.
+
+```yaml
+scope:
+  domains: []
+  systems: []
+  populations: []
+  resources: []
+  environments: []
+  scales: []
+  observers: []
+  time_horizons: []
+  exclusions: []
+```
+
+Empty scope fields mean:
+
+```text
+UNKNOWN / UNSPECIFIED
+```
+
+unless the schema explicitly defines a universal wildcard.
+
+They MUST NOT silently mean:
+
+```text
+ALL
+```
+
+---
+
+# 24. Regime Manifest
+
+Capabilities SHOULD declare regime assumptions.
 
 ```yaml
 regime:
-  regime_id:
-  environment:
-  constraints:
-  dominant_mechanisms:
-  thresholds:
-  validity_conditions:
+  allowed:
+    - development
+    - simulation
+
+  prohibited:
+    - production
+
+  assumptions:
+    - string
+
+  transition_revalidation_required: true
+```
+
+A capability validated in simulation MUST NOT automatically inherit production validity.
+
+---
+
+# 25. Effect Manifest
+
+Every capability MUST declare its maximum possible effect class.
+
+Recommended classes:
+
+```text
+E0_READ_ONLY
+
+E1_EPHEMERAL_STATE
+
+E2_REVERSIBLE_LOCAL_WRITE
+
+E3_PERSISTENT_WRITE
+
+E4_EXTERNAL_COMMUNICATION
+
+E5_RESOURCE_OR_FINANCIAL_EFFECT
+
+E6_SECURITY_OR_AUTHORITY_EFFECT
+
+E7_HIGH_CONSEQUENCE_OR_IRREVERSIBLE_EFFECT
+```
+
+Example:
+
+```yaml
+effects:
+  maximum_effect_class: E3_PERSISTENT_WRITE
+
+  possible_effects:
+    - "memory_write"
+    - "artifact_update"
+
+  irreversible_effects: []
+
+  rollback:
+    supported: true
 ```
 
 ---
 
-# 42. REGIME FIREWALL
+# 26. Effect-Class Invariant
 
-If:
+A capability MUST NOT produce an effect stronger than its manifest permits.
 
-[
-R_F\neq R_{CF}
-]
+```text
+actual_effect_class
+≤
+declared_maximum_effect_class
+```
 
-then inherited relationships require revalidation.
+Any violation is a contract breach.
+
+---
+
+# 27. Capability and Authority
+
+Authority metadata MUST be separate from capability metadata.
+
+```yaml
+authority:
+  invocation_required: true
+
+  required_scopes: []
+
+  effect_authority_required: true
+
+  commit_authority_required: true
+
+  authority_registry_refs: []
+
+  freshness_required: true
+```
+
+The manifest MUST NOT contain:
+
+```yaml
+capability:
+  authorized: true
+```
+
+without an external authority basis and applicability context.
+
+Authority is contextual.
+
+---
+
+# 28. Authority Invariant
+
+```text
+CAPABILITY(C)
++
+PROVIDER(P)
++
+AVAILABLE(P)
+```
+
+does NOT entail:
+
+```text
+AUTHORIZED(P, C)
+```
+
+Authorization requires an independent authority evaluation.
+
+---
+
+# 29. Policy Binding
+
+Capabilities SHOULD reference applicable policy rather than embedding all policy logic locally.
+
+```yaml
+governance:
+  policy_refs:
+    - "POLICY_*"
+
+  control_plane_refs:
+    - "CONTROL_PLANE_*"
+
+  authority_refs: []
+
+  escalation_refs: []
+```
+
+Policy references MUST be version-aware when policy changes could alter eligibility.
+
+---
+
+# 30. Control-Plane Binding
+
+A capability MAY be governed by one or more control planes.
 
 Examples:
 
 ```text
-normal → crisis
-
-low load → saturation
-
-stable market → panic
-
-peace → conflict
-
-ordinary governance → emergency governance
+SESSION_CONTROL
+AUTHORITY_CONTROL
+POLICY_CONTROL
+PROVENANCE_CONTROL
+MEMORY_CONTROL
+INFORMATION_EXPOSURE_CONTROL
+COMMIT_CONTROL
+RECOVERY_CONTROL
+OBSERVABILITY_CONTROL
 ```
 
----
-
-# 43. SCOPE
+Manifest entry:
 
 ```yaml
-scope:
-  system:
-  entity:
-  population:
-  geography:
-  environment:
-  scale:
-  time:
-  measurement:
-  assumptions:
+control_planes:
+  required:
+    - CONTROL_PLANE_AUTHORITY
+    - CONTROL_PLANE_PROVENANCE
+
+  optional:
+    - CONTROL_PLANE_OBSERVABILITY
 ```
 
-A counterfactual conclusion valid for one scope may not silently generalize
-to another.
+A capability MUST NOT silently bypass a required control plane.
 
 ---
 
-# 44. CROSS-SCALE FIREWALL
+# 31. Agent Binding
 
-```text
-MICRO EFFECT
-!=
-MACRO EFFECT
-```
-
-without aggregation evidence.
-
-System-level emergence may invalidate additive composition.
-
----
-
-# 45. CROSS-DOMAIN FIREWALL
-
-Structural resemblance between domains remains:
-
-```text
-MODEL
-```
-
-not:
-
-```text
-VERIFIED CAUSAL TRANSFER
-```
-
-unless independently validated.
-
----
-
-# 46. MULTI-AGENT COUNTERFACTUAL
-
-When agents react strategically:
-
-```text
-A action
-→
-B response
-→
-A adaptation
-→
-C response
-```
-
-holding all other agents fixed may be invalid.
-
-Relevant counterfactual state:
+Agent relationships SHOULD be explicit.
 
 ```yaml
-multi_agent_CF:
-  focal_intervention:
-  agent_models:
-  response_rules:
-  information_states:
-  strategic_dependencies:
-  equilibrium_or_trajectory:
+agents:
+  providers: []
+  consumers: []
+  validators: []
+  supervisors: []
 ```
+
+Roles MUST remain distinguishable.
+
+An agent that consumes a capability does not thereby become its provider.
+
+An agent that provides a capability does not thereby become its validator.
 
 ---
 
-# 47. INFORMATION COUNTERFACTUAL
+# 32. Skill Binding
 
-Question:
+Capability-to-Skill relations SHOULD include:
+
+```yaml
+skills:
+  provided_by: []
+  required_by: []
+  validated_by: []
+  composed_with: []
+```
+
+A Skill MAY expose multiple capabilities.
+
+The capability manifest SHOULD remain the authority-neutral description of those capabilities.
+
+---
+
+# 33. Workflow Binding
+
+Capabilities MAY declare workflow participation:
+
+```yaml
+workflows:
+  entrypoints: []
+  used_by: []
+  predecessor_capabilities: []
+  successor_capabilities: []
+  rollback_workflows: []
+  recovery_workflows: []
+```
+
+Workflow membership does not imply universal capability availability.
+
+---
+
+# 34. Protocol Binding
+
+A capability SHOULD declare its invocation protocol.
+
+```yaml
+protocol:
+  request_schema_ref: null
+  response_schema_ref: null
+
+  timeout_policy_ref: null
+  retry_policy_ref: null
+
+  transaction_required: false
+  idempotent: null
+
+  streaming_supported: false
+
+  cancellation_supported: null
+```
+
+Protocol compatibility SHOULD be checked during provider resolution.
+
+---
+
+# 35. Validation Manifest
+
+Each capability SHOULD expose validation evidence separately from declaration state.
+
+```yaml
+validation:
+  level: V0_DECLARED
+
+  evidence_refs: []
+
+  validators: []
+
+  test_refs: []
+
+  environment_refs: []
+
+  last_validated_at: null
+
+  expires_at: null
+
+  unresolved_failures: []
+```
+
+Recommended validation ladder:
 
 ```text
-What if agent A knew F?
+V0_DECLARED
+V1_STRUCTURALLY_VALID
+V2_STATICALLY_CHECKED
+V3_LOCALLY_TESTED
+V4_INTEGRATION_TESTED
+V5_ENVIRONMENT_VALIDATED
+V6_INDEPENDENTLY_VALIDATED
+V7_GOVERNED_PRODUCTION_VALIDATED
 ```
 
-requires:
+These are proposed manifest states, not empirical claims about existing AMOS runtime coverage.
+
+---
+
+# 36. Validation Scope
+
+Validation MUST carry scope.
+
+Example:
+
+```yaml
+validation_scope:
+  provider_version: "1.2.0"
+  environment: "development"
+  operating_system: null
+  dependency_versions: {}
+  input_classes: []
+  output_classes: []
+  regime: []
+```
+
+A validation result outside its envelope becomes:
 
 ```text
-information
-→
-belief
-→
-decision
-→
-action
-→
-response
-→
-outcome
+NON-APPLICABLE
 ```
 
-Knowledge does not automatically determine action.
+rather than automatically false or true.
 
 ---
 
-# 48. BELIEF COUNTERFACTUAL
+# 37. Evidence Manifest
 
-Changing belief:
+Evidence record:
+
+```yaml
+evidence:
+  evidence_id: string
+
+  evidence_class:
+    - SOURCE_CLAIM
+    - DOCUMENTED_INTERFACE
+    - STATIC_INSPECTION
+    - UNIT_TEST
+    - INTEGRATION_TEST
+    - RUNTIME_OBSERVATION
+    - BENCHMARK
+    - FORMAL_CHECK
+    - INDEPENDENT_VALIDATION
+    - PRODUCTION_OBSERVATION
+
+  source_id: string
+  source_version: null
+
+  observed_at: null
+
+  environment: null
+
+  supports: []
+  contradicts: []
+
+  ancestry: []
+
+  independence_status:
+    - INDEPENDENT
+    - CORRELATED
+    - SHARED_ORIGIN
+    - UNKNOWN
+```
+
+---
+
+# 38. Provenance Manifest
+
+Each capability SHOULD preserve:
+
+```yaml
+provenance:
+  source_refs: []
+  source_versions: []
+
+  origin_refs: []
+
+  derivation_refs: []
+
+  ancestry: []
+
+  hashes: []
+
+  generated_by: null
+
+  generated_at: null
+
+  independence_status: UNKNOWN
+```
+
+A capability synthesized from multiple files SHOULD preserve those source relations rather than presenting itself as source-independent canon.
+
+---
+
+# 39. Provenance Independence
+
+Evidence multiplicity is not independence.
+
+For evidence:
 
 ```text
-Belief(A) := B'
+E1
+E2
+E3
 ```
 
-is not changing world truth.
-
-AMOS must preserve:
+if:
 
 ```text
-WORLD STATE
-!=
-BELIEF STATE
+ancestor(E1) = ancestor(E2) = ancestor(E3)
+```
+
+then three entries do not constitute three independent confirmations.
+
+The manifest SHOULD preserve this topology.
+
+---
+
+# 40. Freshness Manifest
+
+Capability validity may decay when its environment changes.
+
+```yaml
+freshness:
+  manifest_checked_at: null
+  provider_checked_at: null
+  validation_checked_at: null
+  authority_checked_at: null
+  policy_checked_at: null
+
+  expires_at: null
+
+  invalidation_events:
+    - provider_version_change
+    - schema_change
+    - policy_change
+    - authority_revocation
+    - dependency_change
+    - environment_change
 ```
 
 ---
 
-# 49. REFLEXIVITY
+# 41. Supersession Manifest
 
-Prediction or publication may alter behavior:
+Version lineage MUST be explicit.
+
+```yaml
+supersession:
+  capability_id: string
+  version: string
+
+  supersedes:
+    - capability_id: string
+      version: string
+
+  superseded_by: null
+
+  reason: string
+
+  compatibility:
+    backward_compatible: null
+    semantic_equivalence: null
+
+  validation_inherited: false
+```
+
+Validation SHOULD NOT automatically transfer across a material semantic change.
+
+---
+
+# 42. Aliases
+
+Aliases MAY support discovery.
+
+```yaml
+aliases:
+  - name: string
+    type:
+      - LEGACY_NAME
+      - SHORT_NAME
+      - HUMAN_LABEL
+      - MIGRATION_ALIAS
+```
+
+Aliases MUST resolve to one canonical capability identity within a declared version context.
+
+---
+
+# 43. Capability Conflict Registry
+
+Capabilities MAY conflict.
+
+```yaml
+conflicts:
+  - capability_id: string
+    conflict_type:
+      - MUTUALLY_EXCLUSIVE
+      - POLICY_CONFLICT
+      - STATE_CONFLICT
+      - RESOURCE_CONFLICT
+      - SEMANTIC_CONFLICT
+    reason: string
+```
+
+Conflict MUST NOT be silently resolved through arbitrary provider ordering.
+
+---
+
+# 44. Fallback Manifest
+
+Fallbacks SHOULD be explicit.
+
+```yaml
+fallbacks:
+  - capability_id: string
+
+    conditions:
+      - "primary unavailable"
+
+    equivalence:
+      semantic: UNKNOWN
+      output_schema: COMPATIBLE
+
+    validation_required: true
+```
+
+A fallback is not assumed equivalent merely because it accepts the same inputs.
+
+---
+
+# 45. Capability Resolution
+
+Resolution SHOULD produce candidate capabilities.
+
+Conceptually:
 
 ```text
-prediction
-→
-agent response
-→
-outcome
+Resolve(requirement, context, manifest)
+    →
+CandidateSet
 ```
 
-Thus counterfactual reasoning can become part of the causal environment.
-
----
-
-# 50. SELF-MODIFYING SYSTEMS
-
-If:
-
-[
-M_t\rightarrow M_{t+1}
-]
-
-then intervention may change future causal structure itself.
-
-Counterfactual projection may require:
-
-[
-M_t
-\xrightarrow{I}
-M'*{t+1}
-\xrightarrow{}
-M'*{t+2}
-]
-
-not just fixed-model simulation.
-
----
-
-# 51. MULTI-INTERVENTION
-
-For:
-
-[
-I=
-{I_1,...,I_n}
-]
-
-do not assume additivity:
-
-[
-Effect(I_1+I_2)
-===============
-
-Effect(I_1)+Effect(I_2)
-]
-
-Interactions may be:
+Candidate eligibility SHOULD consider:
 
 ```text
-independent
+semantic match
+input compatibility
+output compatibility
+scope
+regime
+dependencies
+availability
+validation
+freshness
+effect class
+governance requirements
+```
 
-synergistic
+Authority SHOULD remain a separate gate.
 
-antagonistic
+---
 
-threshold-dependent
+# 46. Candidate Record
 
-order-dependent
+```yaml
+candidate:
+  capability_id: string
+  provider_id: string
+
+  match:
+    semantic: null
+    input: null
+    output: null
+    scope: null
+    regime: null
+
+  validation_state: string
+  availability_state: string
+
+  unresolved_dependencies: []
+
+  governance_requirements: []
+
+  authority_state: UNKNOWN
+
+  eligible_for_consideration: null
+```
+
+`eligible_for_consideration` is not `authorized`.
+
+---
+
+# 47. Capability Selection
+
+Selection SHOULD preserve why a candidate was selected.
+
+```yaml
+selection:
+  requirement_id: string
+
+  selected_capability: string
+  selected_provider: string
+
+  alternatives: []
+
+  reasons: []
+
+  rejected_candidates:
+    - capability_id: string
+      reason: string
+
+  unresolved_uncertainty: []
+
+  decision_class:
+    - VERIFIED
+    - DERIVED
+    - MODEL
+    - CONDITIONAL
+    - COMPETING
+    - UNKNOWN/GAP
 ```
 
 ---
 
-# 52. ORDER EFFECTS
+# 48. Competing Providers
 
-In general:
+When two providers are materially incomparable:
 
-[
-CF(CF(W,I_1),I_2)
-\neq
-CF(CF(W,I_2),I_1)
-]
+```text
+P1 → C
+P2 → C
+```
 
-for path-dependent systems.
-
----
-
-# 53. COMPETING MODELS
-
-Let:
-
-[
-\mathcal M
-==========
-
-{M_1,...,M_n}
-]
-
-Then evaluate:
-
-[
-CF_i=CF(W,I,M_i)
-]
-
-If outcomes differ materially and support remains unresolved:
+and no evidence establishes dominance, the manifest/resolver SHOULD preserve:
 
 ```text
 COMPETING
 ```
 
-is the correct conclusion.
+rather than inventing convergence.
 
----
-
-# 54. MODEL ROBUSTNESS
-
-If:
+Discriminating evidence may include:
 
 ```text
-M1 → outcome A
-M2 → outcome A
-M3 → outcome A
+validation strength
+scope match
+freshness
+failure rate
+cost
+latency
+effect surface
+security posture
+dependency burden
 ```
-
-the result is model-robust only to the extent the models are genuinely
-different and independently supported.
-
-Shared ancestry reduces independence.
 
 ---
 
-# 55. PROVENANCE TOPOLOGY
+# 49. Uncertainty Vector
+
+Each capability MAY carry:
 
 ```yaml
-provenance_item:
-  evidence_id:
-  evidence_type:
-  source:
-  source_identity:
-  ancestry:
-  collected_at:
-  freshness:
-  scope:
-  regime:
-  method:
-  dependency_edges:
+uncertainty:
+  evidence: 1.0
+  model: 1.0
+  scope: 1.0
+  temporal: 1.0
+  causal: 1.0
+  execution: 1.0
+  provenance_independence: 1.0
 ```
+
+The numerical representation is optional.
+
+If used, its scale MUST be explicitly defined.
+
+The manifest MUST NOT pretend undefined confidence numbers are objective measurements.
 
 ---
 
-# 56. SYBIL HARDENING
+# 50. Confidence Ceiling
 
-Suppose:
-
-```text
-source S
-↓
-10 summaries
-↓
-10 models
-↓
-100 counterfactual branches
-```
-
-This does not create:
-
-```text
-100 independent causal confirmations
-```
-
-The evidence ancestry remains shared.
-
----
-
-# 57. EVIDENCE TYPES
-
-```text
-SOURCE_CLAIM
-
-OBSERVATION
-
-DERIVED
-
-MODEL
-
-DECISION
-
-UNKNOWN
-```
-
-Counterfactual branches remain MODEL/DERIVED unless separately validated.
-
----
-
-# 58. CONFIDENCE CEILING
-
-For load-bearing premises:
-
-[
-P_1,...,P_n
-]
-
-candidate rule:
-
-[
-Conf(CF)
-\le
-\min_i Conf(P_i)
-]
-
-unless a weak premise is independently revalidated or bypassed by another
-valid proof path.
-
----
-
-# 59. UNCERTAINTY VECTOR
-
-[
-U_{CF}
-======
-
-(
-U_E,
-U_M,
-U_S,
-U_T,
-U_C,
-U_I,
-U_P,
-U_X
-)
-]
-
-where:
-
-```text
-U_E = evidence uncertainty
-
-U_M = model uncertainty
-
-U_S = scope uncertainty
-
-U_T = temporal uncertainty
-
-U_C = causal uncertainty
-
-U_I = intervention uncertainty
-
-U_P = provenance-independence uncertainty
-
-U_X = execution uncertainty
-```
-
----
-
-# 60. IDENTIFIABILITY
-
-Distinguish:
-
-```text
-DEFINED
-
-IDENTIFIABLE
-
-ESTIMABLE
-
-ESTIMATED
-
-VALIDATED
-```
-
-A counterfactual can be well-defined but not identifiable.
-
-Correct response:
-
-```text
-Counterfactual is defined,
-but available evidence does not identify it.
-```
-
----
-
-# 61. PARTIAL IDENTIFICATION
-
-If exact counterfactual value is unavailable but bounds are defensible:
-
-[
-L\le CF\le U
-]
-
-report bounds rather than inventing a point estimate.
-
-If decision is the same across the whole interval, decision sufficiency may
-still be achieved.
-
----
-
-# 62. PLAUSIBILITY VS PROBABILITY
-
-```text
-POSSIBLE
-!=
-PLAUSIBLE
-!=
-PROBABLE
-```
-
-Branch count is not probability.
-
-Generated frequency is not empirical probability.
-
----
-
-# 63. PROBABILITY FIREWALL
-
-Historical scenario analysis specifies:
-
-```text
-probability assignments if available
-```
-
-Therefore:
-
-```text
-NO JUSTIFIED PROBABILITY MODEL
-→
-NO INVENTED NUMERIC PROBABILITY
-```
-
-Use qualitative rankings or `UNKNOWN`.
-
----
-
-# 64. SCENARIO ANALYSIS — S0 + S3
-
-Historical function contract:
-
-```yaml
-scenario_analysis:
-
-  inputs:
-    - current_state
-    - scenario_list
-    - uncertainty_model
-    - decision_criteria
-
-  outputs:
-    - scenario_outcomes
-    - probability_assignments_if_available
-    - recommended_preparation
-    - early_warning_signals
-    - scenario_comparison
-```
-
----
-
-# 65. CONSTRUCT_COUNTERFACTUAL — S0
-
-```yaml
-construct_counterfactual:
-
-  inputs:
-    - actual_state
-    - intervention_description
-    - causal_model
-    - plausibility_constraints
-
-  outputs:
-    - counterfactual_state
-    - causal_chain
-    - uncertainties
-    - assumption_list
-    - plausibility_assessment
-    - alternative_outcomes
-```
-
----
-
-# 66. COMPARE_ACTUAL_VS_COUNTERFACTUAL — S0
-
-```yaml
-compare_actual_vs_counterfactual:
-
-  inputs:
-    - actual_outcome
-    - counterfactual_outcome
-    - causal_model
-    - confidence_levels
-
-  outputs:
-    - difference_analysis
-    - causal_attribution
-    - confounding_factors
-    - attribution_confidence
-    - alternative_explanation
-```
-
----
-
-# 67. FULL CONSTRUCTION ALGORITHM — S3
-
-```text
-FUNCTION K_COUNTERFACTUAL(Q):
-
-  1. PARSE query.
-
-  2. DETECT:
-       past
-       future
-       structural
-       causal.
-
-  3. BIND factual anchor.
-
-  4. BIND intervention.
-
-  5. BIND queried outcome.
-
-  6. RETRIEVE smallest sufficient causal/model dependency closure.
-
-  7. CLASSIFY evidence.
-
-  8. VERIFY provenance ancestry.
-
-  9. CHECK causal model sufficiency.
-
- 10. CHECK confounding.
-
- 11. CHECK mediation.
-
- 12. CHECK feedback.
-
- 13. CHECK scope.
-
- 14. CHECK regime.
-
- 15. CHECK temporal validity/freshness.
-
- 16. IF critical causal gap:
-       RETURN UNKNOWN/GAP.
-
- 17. ABDUCE latent/background state where required.
-
- 18. APPLY minimal intervention.
-
- 19. PROPAGATE licensed descendants.
-
- 20. MODEL system reactions.
-
- 21. GENERATE materially distinct competing outcomes.
-
- 22. ASSESS plausibility.
-
- 23. COMPUTE / represent uncertainty.
-
- 24. APPLY weakest-premise confidence ceiling.
-
- 25. IDENTIFY smallest result-flipping premise.
-
- 26. RUN adversarial validation if consequential.
-
- 27. PRESERVE COMPETING when unresolved.
-
- 28. IDENTIFY falsifiers.
-
- 29. CLASSIFY conclusion.
-
- 30. IF action requested:
-       apply risk / authorization / reversibility governance.
-
- 31. RETURN proof-capsule-compatible result.
-```
-
----
-
-# 68. COUNTERFACTUAL RSCF
-
-```yaml
-CounterfactualRSCF:
-
-  claim:
-    statement:
-    class:
-
-  factual_anchor:
-
-  intervention:
-
-  queried_outcome:
-
-  premises: []
-
-  evidence: []
-
-  provenance:
-
-  causal_model:
-
-  dependency_closure: []
-
-  scope:
-
-  regime:
-
-  freshness:
-
-  assumptions: []
-
-  competing_hypotheses: []
-
-  contradictions: []
-
-  falsifiers: []
-
-  sensitivity:
-
-  confidence_ceiling:
-
-  invalidation_conditions: []
-```
-
----
-
-# 69. RSCF RECURSION
-
-Counterfactual conclusions may depend on sub-RSCFs:
-
-```text
-CF-RSCF
-├── causal-edge RSCF
-├── factual-state RSCF
-├── intervention-validity RSCF
-└── regime-validity RSCF
-```
-
-Invalidating one sub-RSCF invalidates only dependent conclusions.
-
----
-
-# 70. ATOMIC MULTI-RSCF
-
-When scenario validity depends jointly on several RSCFs:
-
-```text
-technical
-
-financial
-
-governance
-
-safety
-```
-
-they must be jointly coherent at the decision boundary.
-
-Mixed causal epochs or stale partial states may not be silently combined.
-
----
-
-# 71. H/M/L INTEGRATION
-
-Retrieve:
-
-```text
-BOOTSTRAP
-↓
-H domain
-↓
-M causal subsystem
-↓
-L load-bearing detail
-↓
-raw evidence only if necessary
-```
-
-The kernel should not load unrelated raw corpus material.
-
----
-
-# 72. GMEF INTEGRATION
-
-Counterfactual reasoning may support governed evolution:
-
-```text
-candidate change
-↓
-counterfactual consequences
-↓
-risk / benefit
-↓
-GMEF governance
-↓
-accept / reject / test
-```
-
-Counterfactual desirability does not itself authorize change.
-
----
-
-# 73. WORLD MODEL INTEGRATION
-
-```text
-K_SYSTEM_STATE
-↓
-K_WORLD_MODEL
-↓
-K_COUNTERFACTUAL
-↓
-COUNTERFACTUAL WORLD BRANCH
-```
-
-If world-model structure is missing:
-
-```text
-UNKNOWN/GAP
-```
-
-rather than invented mechanics.
-
----
-
-# 74. CONTEXT STATE
-
-```yaml
-context:
-  active_world:
-    ACTUAL | COUNTERFACTUAL
-
-  factual_parent:
-
-  branch_id:
-
-  intervention:
-
-  goal:
-
-  scope:
-
-  regime:
-```
-
-Leaving counterfactual mode must restore `ACTUAL` context.
-
----
-
-# 75. MEMORY ADMISSION
-
-Counterfactual memory must retain its type.
-
-Forbidden:
-
-```text
-MODEL COUNTERFACTUAL
-→
-MEMORY
-→
-FACT
-```
-
-Correct:
-
-```yaml
-memory_record:
-  type: COUNTERFACTUAL_MODEL
-  factual_anchor:
-  intervention:
-  causal_model:
-  assumptions:
-  class:
-  scope:
-  regime:
-  provenance:
-  freshness:
-```
-
----
-
-# 76. MEMORY RETRIEVAL
-
-Before reuse verify:
-
-```text
-factual anchor compatible?
-
-model version compatible?
-
-causal epoch compatible?
-
-scope compatible?
-
-regime compatible?
-
-fresh enough?
-
-new conflicts?
-
-new evidence?
-```
-
-If not:
-
-```text
-STALE / REVALIDATE
-```
-
----
-
-# 77. CAUSAL EPOCH
-
-Candidate v4.4 binding:
-
-```yaml
-causal_epoch:
-  epoch_id:
-  causal_model_version:
-  evidence_snapshot:
-  dependency_snapshot:
-  regime:
-  provenance_snapshot:
-  validity_conditions:
-```
-
-Counterfactual proof capsules are reusable only within compatible epochs.
-
----
-
-# 78. MVCC/CAS REASONING MAPPING
+A capability confidence ceiling MAY be derived from load-bearing validation premises.
 
 Conceptually:
 
 ```text
-READ factual state @ V0
-↓
-compute counterfactual
-↓
-before consequential reuse:
-check factual dependencies
-↓
-compatible?
-  yes → reuse
-  no  → revalidate affected closure
+C_cap ≤ min(
+    C_identity,
+    C_provider,
+    C_interface,
+    C_dependencies,
+    C_scope,
+    C_regime,
+    C_validation,
+    C_freshness
+)
 ```
 
-This is a reasoning pattern, not an implementation claim.
+unless independently validated evidence changes the dependency structure.
+
+This is an AMOS MODEL governance equation.
 
 ---
 
-# 79. FAST PATH
+# 51. Manifest Operators
 
-Local counterfactual reasoning is allowed only when:
+The capability manifest SHOULD support these logical operations.
 
-```yaml
-fast_path:
-
-  factual_anchor_valid: true
-
-  intervention_unambiguous: true
-
-  dependency_closure_established: true
-
-  causal_model_adequate: true
-
-  provenance_independence_adequate: true
-
-  scope_compatible: true
-
-  regime_compatible: true
-
-  freshness_valid: true
-
-  material_conflict_absent: true
-
-  stakes_reversible_or_limited: true
-```
-
----
-
-# 80. ESCALATION
-
-Escalate for:
+## `REGISTER`
 
 ```text
-causal ambiguity
-
-shared ancestry
-
-contradiction
-
-stale premise
-
-cross-regime reasoning
-
-scope transfer
-
-structural intervention
-
-feedback
-
-nonlinearity
-
-strategic agents
-
-high irreversibility
-
-legal / financial / safety exposure
-
-governance consequences
-
-large dependency closure
+REGISTER(entry)
 ```
+
+Adds an addressable declaration.
 
 ---
 
-# 81. ADVERSARIAL VALIDATION
-
-Challenge questions:
+## `UPDATE`
 
 ```text
-Is the factual baseline wrong?
-
-Is the intervention ambiguous?
-
-Is the causal edge only correlational?
-
-Could reverse causality explain this?
-
-Is there hidden confounding?
-
-Was a mediator frozen incorrectly?
-
-Was feedback ignored?
-
-Did the regime change?
-
-Did scope silently expand?
-
-Are supporting sources correlated?
-
-Is evidence stale?
-
-Does another model reverse the decision?
-
-What is the smallest assumption that flips the result?
+UPDATE(entry, revision)
 ```
+
+Creates a new governed state while preserving lineage.
 
 ---
 
-# 82. SENSITIVITY
-
-Conceptual flip premise:
-
-[
-p^*
-===
-
-\arg\min_p
-ChangeRequiredToFlip(Result)
-]
-
-Record:
-
-```yaml
-sensitivity:
-  flip_premise:
-  flip_threshold:
-  flip_observation:
-  decision_impact:
-```
-
-Small plausible flip:
+## `RESOLVE`
 
 ```text
-CONDITIONAL
+RESOLVE(requirement)
 ```
 
----
-
-# 83. FALSIFIERS
-
-```yaml
-falsifiers:
-
-  - observation:
-    threshold:
-    affected_premise:
-    affected_causal_edge:
-    affected_conclusion:
-
-  - regime_change:
-
-  - confounder_discovered:
-
-  - intervention_failed:
-
-  - mechanism_disconfirmed:
-```
+Returns candidate entries.
 
 ---
 
-# 84. LOCAL INVALIDATION
-
-Core law:
-
-[
-Invalid(p)
-\Rightarrow
-Invalidate(Descendants(p))
-]
-
-not:
-
-[
-Invalid(p)
-\Rightarrow
-Invalidate(All)
-]
-
----
-
-# 85. FAILURE RECOVERY
+## `VALIDATE`
 
 ```text
-DETECT FAILED PREMISE
-↓
-IDENTIFY DEPENDENT NODES
-↓
-INVALIDATE ONLY DESCENDANTS
-↓
-ROLL BACK TO NEAREST VALID STATE
-↓
-CHANGE EVIDENCE / MODEL / ASSUMPTION
-↓
-RECOMPUTE LOCAL CLOSURE
-↓
+VALIDATE(entry, evidence)
+```
+
+Updates validation state if evidence warrants it.
+
+---
+
+## `INVALIDATE`
+
+```text
+INVALIDATE(entry, failed_premise)
+```
+
+Invalidates dependent claims.
+
+---
+
+## `SUSPEND`
+
+```text
+SUSPEND(entry)
+```
+
+Temporarily removes active eligibility.
+
+---
+
+## `REVOKE`
+
+```text
+REVOKE(entry)
+```
+
+Blocks governed future use.
+
+---
+
+## `SUPERSEDE`
+
+```text
+SUPERSEDE(old, new)
+```
+
+Preserves version lineage.
+
+---
+
+## `QUARANTINE`
+
+```text
+QUARANTINE(entry, reason)
+```
+
+Removes uncertain or suspect entries from normal resolution without deleting evidence.
+
+---
+
+## `REVALIDATE`
+
+```text
+REVALIDATE(entry, current_context)
+```
+
+Checks stale capability assumptions.
+
+---
+
+# 52. Manifest Invariants
+
+## INV-MAN-001 — Stable Identity
+
+Every active entry MUST have a stable capability ID and version.
+
+## INV-MAN-002 — No Implicit Authority
+
+Manifest presence grants no authority.
+
+## INV-MAN-003 — No Implicit Implementation
+
+Declaration does not prove implementation.
+
+## INV-MAN-004 — No Implicit Validation
+
+Implementation does not prove correctness.
+
+## INV-MAN-005 — No Unknown-as-Pass
+
+Required unknown fields remain gaps.
+
+## INV-MAN-006 — Provenance Required
+
+Material entries require provenance.
+
+## INV-MAN-007 — Version Lineage
+
+Material semantic changes require version/supersession treatment.
+
+## INV-MAN-008 — Scope Preservation
+
+Scope restrictions survive resolution and composition.
+
+## INV-MAN-009 — Regime Preservation
+
+Regime restrictions survive resolution and composition.
+
+## INV-MAN-010 — Effect Bound
+
+Actual effect cannot exceed declared maximum effect.
+
+## INV-MAN-011 — Revocation Dominance
+
+Revoked entries cannot remain normally eligible.
+
+## INV-MAN-012 — Validation Locality
+
+Validation applies only to its validated provider/version/scope/regime.
+
+## INV-MAN-013 — Dependency Visibility
+
+Load-bearing dependencies cannot be hidden.
+
+## INV-MAN-014 — Correlated Provenance
+
+Shared ancestry cannot masquerade as independent evidence.
+
+## INV-MAN-015 — Proposal/Commit Separation
+
+No manifest state may convert an effect proposal into commit authority.
+
+---
+
+# 53. Manifest Failure Modes
+
+## FM-MAN-001 — Ghost Entry
+
+Manifest references a provider or implementation that does not exist.
+
+## FM-MAN-002 — Duplicate Identity
+
+Different capabilities occupy the same ID/version.
+
+## FM-MAN-003 — Semantic Alias Collision
+
+One alias resolves to incompatible capability meanings.
+
+## FM-MAN-004 — Stale Provider
+
+Manifest references an obsolete provider version.
+
+## FM-MAN-005 — Stale Validation
+
+Validation remains marked current after invalidating changes.
+
+## FM-MAN-006 — Orphan Capability
+
+Capability has no resolvable provider.
+
+## FM-MAN-007 — Orphan Dependency
+
+Required dependency cannot be resolved.
+
+## FM-MAN-008 — Circular Dependency
+
+Dependency graph cannot reach a valid base state.
+
+## FM-MAN-009 — Capability Inflation
+
+Manifest scope exceeds evidence.
+
+## FM-MAN-010 — Effect Understatement
+
+Actual side effects exceed declared effect class.
+
+## FM-MAN-011 — Authority Smuggling
+
+Permission is encoded as capability metadata.
+
+## FM-MAN-012 — Provenance Collapse
+
+Source ancestry is lost.
+
+## FM-MAN-013 — Validation Laundering
+
+Validation from one provider/version is transferred to another without evidence.
+
+## FM-MAN-014 — Supersession Loss
+
+New entry silently replaces an older capability without lineage.
+
+## FM-MAN-015 — Quarantine Bypass
+
+Quarantined capability remains resolvable through alias or fallback.
+
+## FM-MAN-016 — Revocation Bypass
+
+Revoked provider remains reachable through cached resolution.
+
+## FM-MAN-017 — Scope Wildcard Error
+
+Empty scope is interpreted as universal applicability.
+
+## FM-MAN-018 — Regime Wildcard Error
+
+Unknown regime becomes universal regime.
+
+## FM-MAN-019 — Confidence Inflation
+
+Repeated dependent evidence raises confidence as if independent.
+
+## FM-MAN-020 — Manifest/Runtime Divergence
+
+Manifest declares behavior different from actual runtime behavior.
+
+---
+
+# 54. Repair / Recovery
+
+Canonical repair sequence:
+
+```text
+DETECT
+  ↓
+FREEZE AFFECTED ENTRY
+  ↓
+PRESERVE EVIDENCE
+  ↓
+IDENTIFY FAILED FIELD / EDGE
+  ↓
+QUARANTINE IF NECESSARY
+  ↓
+INVALIDATE DEPENDENTS
+  ↓
+PRESERVE UNAFFECTED ENTRIES
+  ↓
+RECONSTRUCT PROVIDER / DEPENDENCY STATE
+  ↓
 REVALIDATE
+  ↓
+RESTORE OR SUPERSEDE
 ```
 
-Do not blindly retry unchanged failure paths.
+Global registry reconstruction SHOULD be a last resort.
 
 ---
 
-# 86. GOVERNANCE
+# 55. Selective Invalidation
 
-Counterfactual action burden rises with:
+If:
 
 ```text
-irreversibility
-
-financial exposure
-
-legal exposure
-
-health/safety impact
-
-institutional impact
-
-downstream dependency
-
-uncertainty
-
-causal ambiguity
+CAP_A depends on CAP_B
+CAP_C does not depend on CAP_B
 ```
 
-Prefer reversible, staged, observable intervention where possible.
+and `CAP_B` becomes invalid:
+
+```text
+invalidate CAP_A-derived eligibility
+preserve CAP_C
+```
+
+This is preferred over global invalidation.
 
 ---
 
-# 87. ACTION AUTHORITY
+# 56. Quarantine
 
-Canonical invariant:
+Quarantine SHOULD preserve the entry for investigation.
 
-```text
-COUNTERFACTUAL RECOMMENDATION
-!=
-EXECUTION AUTHORITY
+```yaml
+quarantine:
+  active: true
+  reason: string
+  entered_at: timestamp
+  triggering_evidence: []
+  affected_versions: []
+  release_conditions: []
 ```
 
-Before execution validate:
+Quarantine is not deletion.
+
+---
+
+# 57. Tests / Validators
+
+Minimum manifest tests:
 
 ```text
-capability
+T-MAN-001 schema validity
+T-MAN-002 unique capability identity
+T-MAN-003 unique provider identity
+T-MAN-004 alias resolution
+T-MAN-005 provider resolution
+T-MAN-006 dependency resolution
+T-MAN-007 cycle detection
+T-MAN-008 scope preservation
+T-MAN-009 regime preservation
+T-MAN-010 effect-bound validation
+T-MAN-011 authority-separation validation
+T-MAN-012 revocation enforcement
+T-MAN-013 quarantine enforcement
+T-MAN-014 supersession lineage
+T-MAN-015 provenance ancestry
+T-MAN-016 correlated-evidence detection
+T-MAN-017 freshness invalidation
+T-MAN-018 validation-scope isolation
+T-MAN-019 provider substitution protection
+T-MAN-020 unknown-not-pass
+T-MAN-021 stale-cache rejection
+T-MAN-022 capability/implementation distinction
+T-MAN-023 proposal/commit distinction
+T-MAN-024 selective invalidation
+T-MAN-025 runtime-manifest consistency
+```
 
-authorization
+---
 
+# 58. Schema Validator
+
+A structural validator SHOULD reject entries missing critical fields such as:
+
+```text
+capability_id
+version
+provider_id
+provider_type
+declaration state
 effect class
-
-risk
-
-current state
-
-commit-time authority
+authority requirement
+provenance
 ```
 
----
-
-# 88. COUNTERFACTUAL HARM
-
-Potential counterfactual harm should be considered where decisions affect
-others.
-
-Candidate dimensions:
-
-```yaml
-counterfactual_harm:
-  direct_harm:
-  distributional_harm:
-  opportunity_harm:
-  irreversible_harm:
-  informational_harm:
-  governance_harm:
-  uncertainty_harm:
-```
-
-External counterfactual-harm research may inform validation but remains
-`S4_EXTERNAL_REFERENCE` unless promoted.
-
----
-
-# 89. REVERSIBILITY PREFERENCE
-
-Under uncertainty, prefer:
+unless the entry is explicitly classified:
 
 ```text
-observation
-
-simulation
-
-sandbox
-
-limited experiment
-
-reversible pilot
-
-staged rollout
-
-monitored deployment
+PLACEHOLDER / UNKNOWN/GAP
 ```
 
-before irreversible action when feasible.
-
 ---
 
-# 90. VALUE OF INFORMATION
+# 59. Semantic Validator
 
-Candidate:
+Schema validity is insufficient.
 
-[
-VOI(T)
-======
-
-## ExpectedDecisionImprovement(T)
-
-## Cost(T)
-
-Risk(T)
-]
-
-Choose evidence that can change the decision rather than accumulating
-redundant support.
-
----
-
-# 91. DISCRIMINATING TEST
-
-For models:
+A semantic validator SHOULD inspect:
 
 ```text
-M1
-M2
+contradictory lifecycle states;
+invalid provider relationships;
+scope contradictions;
+regime contradictions;
+impossible dependency constraints;
+effect-class contradictions;
+authority leakage;
+invalid supersession;
+unresolved canonical aliases.
 ```
-
-choose:
-
-[
-T^*
-===
-
-\arg\max_T
-ExpectedDiscrimination(T;M_1,M_2)
-]
-
-subject to cost and governance.
 
 ---
 
-# 92. COUNTERFACTUAL PROOF CAPSULE
+# 60. Runtime Validator
+
+Where implementation exists, runtime validation SHOULD compare:
+
+```text
+manifest declaration
+vs
+observed behavior
+```
+
+Including:
+
+```text
+accepted input types
+returned output types
+side effects
+dependency usage
+failure behavior
+latency assumptions where relevant
+rollback behavior
+provider identity
+```
+
+A mismatch becomes evidence against the manifest claim.
+
+---
+
+# 61. Falsifiers
+
+A manifest capability claim is falsified when reliable evidence demonstrates that:
+
+```text
+the provider does not expose the capability;
+the declared interface is materially wrong;
+the provider cannot accept declared valid inputs;
+the provider cannot produce declared outputs;
+the capability violates declared scope;
+the capability violates declared regime restrictions;
+actual side effects exceed declared effects;
+required dependencies are missing;
+validation evidence cannot be reproduced;
+provider identity is wrong;
+version lineage is wrong;
+authority can be bypassed contrary to contract;
+revocation is ineffective;
+quarantine is ineffective;
+provenance cannot be reconstructed.
+```
+
+Falsification SHOULD remain claim-local unless broader evidence supports systemic invalidation.
+
+---
+
+# 62. Manifest Query Surface
+
+The registry SHOULD support conceptual queries such as:
+
+```text
+find capability by ID
+find capability by alias
+find capabilities by class
+find providers for capability
+find capabilities by Skill
+find capabilities by agent
+find capabilities by workflow
+find capabilities by effect class
+find capabilities by control plane
+find capabilities by validation state
+find capabilities with unresolved gaps
+find stale capabilities
+find revoked capabilities
+find quarantined capabilities
+find dependency descendants
+find supersession lineage
+```
+
+Queryability is part of addressability.
+
+It is not validation.
+
+---
+
+# 63. Capability Discovery Response
+
+Recommended response:
 
 ```yaml
-CounterfactualProofCapsule:
+capability_discovery:
+  query: {}
 
-  capsule_id:
+  candidates: []
 
+  unresolved:
+    - requirement: null
+      reason: null
+
+  excluded:
+    - capability_id: null
+      reason: null
+
+  epistemic_class: DERIVED
+```
+
+Discovery MUST preserve exclusions when they materially explain why a seemingly relevant capability was not selected.
+
+---
+
+# 64. Capability Promotion
+
+Recommended promotion path:
+
+```text
+PLACEHOLDER
+    ↓
+DECLARED
+    ↓
+STRUCTURALLY_COMPLETE
+    ↓
+ADDRESSABLE
+    ↓
+IMPLEMENTED
+    ↓
+TESTED
+    ↓
+VALIDATED
+    ↓
+GOVERNED_ACTIVE
+```
+
+Promotion gates MUST be explicit.
+
+---
+
+# 65. Promotion Requirements
+
+## PLACEHOLDER → DECLARED
+
+Requires:
+
+```text
+identity
+purpose
+provider hypothesis
+basic capability class
+```
+
+## DECLARED → STRUCTURALLY_COMPLETE
+
+Requires:
+
+```text
+input/output contract
+scope
+regime
+dependencies
+effects
+authority requirements
+failure contract
+provenance
+```
+
+## STRUCTURALLY_COMPLETE → ADDRESSABLE
+
+Requires:
+
+```text
+registry admission
+unique identity
+schema validation
+```
+
+## ADDRESSABLE → IMPLEMENTED
+
+Requires:
+
+```text
+resolvable implementation evidence
+```
+
+## IMPLEMENTED → TESTED
+
+Requires:
+
+```text
+executed test evidence
+```
+
+## TESTED → VALIDATED
+
+Requires:
+
+```text
+scope-specific validation
+```
+
+## VALIDATED → GOVERNED_ACTIVE
+
+Requires:
+
+```text
+policy compatibility
+control-plane compatibility
+authority model
+freshness
+no unresolved critical gaps
+```
+
+---
+
+# 66. No Automatic Promotion
+
+The following transitions are prohibited:
+
+```text
+PLACEHOLDER → VALIDATED
+
+DECLARED → GOVERNED_ACTIVE
+
+ADDRESSABLE → VALIDATED
+
+IMPLEMENTED → GOVERNED_ACTIVE
+```
+
+without intermediate evidence satisfying the missing gates.
+
+---
+
+# 67. Gap Classification
+
+Manifest gaps SHOULD be typed:
+
+```text
+CRITICAL
+DECISION_RELEVANT
+EXPLANATORY
+COSMETIC
+```
+
+Example:
+
+```yaml
+gap:
+  gap_id: string
+  capability_id: string
+
+  class: CRITICAL
+
+  field: "authority.commit"
+
+  description: string
+
+  blocks:
+    - GOVERNED_ACTIVE
+
+  resolution_requirement: string
+```
+
+---
+
+# 68. Critical Gaps
+
+Critical gaps SHOULD block promotion where they affect:
+
+```text
+identity
+provider resolution
+authority
+security
+effect class
+critical dependency
+provenance
+commit semantics
+irreversible action
+```
+
+A critical gap cannot be waived merely for completeness.
+
+---
+
+# 69. Manifest Gap Matrix
+
+| Manifest Surface              |                      Required | Specification State |
+| ----------------------------- | ----------------------------: | ------------------- |
+| Manifest identity             |                           Yes | Defined             |
+| Capability identity           |                           Yes | Defined             |
+| Provider model                |                           Yes | Defined             |
+| Capability classes            |                           Yes | Defined             |
+| Input schema                  |                           Yes | Defined             |
+| Output schema                 |                           Yes | Defined             |
+| Lifecycle state               |                           Yes | Defined             |
+| Dependency model              |                           Yes | Defined             |
+| H/M/L                         |                           Yes | Defined             |
+| Scope                         |                           Yes | Defined             |
+| Regime                        |                           Yes | Defined             |
+| Effects                       |                           Yes | Defined             |
+| Authority boundary            |                           Yes | Defined             |
+| Policy binding                |                           Yes | Defined             |
+| Control-plane binding         |                           Yes | Defined             |
+| Agent binding                 |                           Yes | Defined             |
+| Skill binding                 |                           Yes | Defined             |
+| Workflow binding              |                           Yes | Defined             |
+| Protocol binding              |                           Yes | Defined             |
+| Validation                    |                           Yes | Defined             |
+| Evidence                      |                           Yes | Defined             |
+| Provenance                    |                           Yes | Defined             |
+| Freshness                     |                           Yes | Defined             |
+| Supersession                  |                           Yes | Defined             |
+| Uncertainty                   |                           Yes | Defined             |
+| Failure modes                 |                           Yes | Defined             |
+| Repair                        |                           Yes | Defined             |
+| Tests                         |                           Yes | Defined             |
+| Falsifiers                    |                           Yes | Defined             |
+| Runtime capability population |        Required for operation | UNKNOWN/GAP         |
+| Provider-specific evidence    |       Required for validation | UNKNOWN/GAP         |
+| Executed validation suite     |       Required for validation | UNKNOWN/GAP         |
+| Canon approval                | Required for canonical status | UNKNOWN/GAP         |
+
+---
+
+# 70. RSCF Binding
+
+Capability manifest entries SHOULD support an RSCF projection.
+
+```yaml
+rscf:
   claim:
-    text:
-    class:
+    id: "RSCF_CAP_MANIFEST_*"
+    class: MODEL
+    text: >
+      Provider P declares capability C under scope S,
+      regime R, dependency set D, and governance envelope G.
 
-  factual_anchor:
-
-  intervention:
-
-  queried_outcome:
-
-  causal_model:
-    model_id:
-    version:
-    causal_epoch:
-
-  load_bearing_premises: []
+  premises:
+    - manifest_identity_valid
+    - capability_identity_valid
+    - provider_identity_valid
+    - interface_structurally_valid
 
   evidence: []
 
   provenance: []
 
-  dependency_closure: []
+  scope: null
 
-  causal_structure:
-    mechanisms:
-    mediators:
-    moderators:
-    confounders:
-    feedback:
+  regime: null
 
-  counterfactual_state:
+  freshness: null
 
-  alternative_outcomes: []
+  dependencies: []
 
-  competing_explanations: []
+  competing: []
 
-  scope:
+  falsifiers: []
 
-  regime:
+  confidence_ceiling: 0
+```
+
+---
+
+# 71. Capability Evidence Promotion
+
+RSCF class SHOULD strengthen only as evidence strengthens.
+
+Example:
+
+```text
+manifest declaration
+    →
+SOURCE_CLAIM / MODEL
+
+static implementation inspection
+    →
+DERIVED
+
+executed test
+    →
+DERIVED with runtime evidence
+
+independent scoped validation
+    →
+potential VERIFIED claim within tested envelope
+```
+
+No artifact should be labeled `VERIFIED` merely because its manifest entry is structurally complete.
+
+---
+
+# 72. GMEF Binding
+
+Capability changes SHOULD enter governed evolution when they modify:
+
+```text
+semantic behavior
+input access
+output semantics
+side-effect class
+authority requirements
+memory access
+network access
+policy dependency
+control-plane dependency
+security boundary
+rollback semantics
+validation requirements
+provider substitution
+```
+
+Manifest diff alone is not sufficient evidence that a change is safe.
+
+---
+
+# 73. Manifest Change Record
+
+Recommended change object:
+
+```yaml
+manifest_change:
+  change_id: string
+
+  capability_id: string
+
+  from_version: string
+  to_version: string
+
+  change_class:
+    - PATCH
+    - MINOR
+    - MAJOR
+
+  semantic_change: null
+  authority_change: null
+  effect_change: null
+  dependency_change: null
+  security_change: null
+
+  evidence_refs: []
+
+  validation_required: true
+
+  rollback_plan: null
+```
+
+---
+
+# 74. Commit Boundary
+
+The capability manifest may inform commit governance.
+
+It MUST NOT execute commit merely because:
+
+```text
+capability exists;
+provider is available;
+capability is validated;
+provider succeeded;
+proposal passed schema validation.
+```
+
+Commit still requires the relevant:
+
+```text
+authority
+policy
+constraint
+freshness
+target-state
+transaction
+```
+
+checks.
+
+---
+
+# 75. Manifest / Control-Plane Separation
+
+The manifest answers:
+
+```text
+"What capability records exist?"
+```
+
+The control plane answers:
+
+```text
+"May this capability be used here, now, by this principal,
+against this resource, for this effect?"
+```
+
+This separation is mandatory.
+
+---
+
+# 76. Manifest / Policy Separation
+
+The manifest may say:
+
+```yaml
+policy_refs:
+  - POLICY_MEMORY_WRITE
+```
+
+The policy registry defines what that policy means.
+
+The capability manifest MUST NOT silently redefine referenced policy semantics.
+
+---
+
+# 77. Manifest / Agent Separation
+
+An agent may query the manifest.
+
+An agent may propose a capability.
+
+An agent may execute a capability when permitted.
+
+But:
+
+```text
+agent preference
+!=
+capability validity
+
+agent selection
+!=
+authority
+
+agent confidence
+!=
+validation
+```
+
+---
+
+# 78. Manifest / Skill Separation
+
+A Skill may declare capability exposure.
+
+The manifest provides the system-level representation.
+
+A Skill MUST NOT be treated as universally safe merely because its capability appears in the manifest.
+
+---
+
+# 79. Manifest / Memory Separation
+
+Capability metadata MAY be persisted.
+
+Persistent memory about capability behavior MUST preserve:
+
+```text
+source
+provider version
+environment
+time
+scope
+validation state
+```
+
+Historical success MUST NOT silently become permanent capability truth.
+
+---
+
+# 80. Manifest / Provenance Separation
+
+The manifest references provenance.
+
+It is not itself the complete provenance ledger.
+
+The provenance layer SHOULD retain detailed evidence ancestry beyond what the manifest needs for efficient capability resolution.
+
+---
+
+# 81. Caching
+
+Capability resolution MAY be cached.
+
+Cache entries SHOULD include:
+
+```yaml
+cache:
+  capability_id: string
+  provider_id: string
+  version: string
+
+  resolved_at: timestamp
+  expires_at: timestamp
+
+  policy_version: null
+  dependency_versions: {}
+  validation_epoch: null
+```
+
+Cached resolution MUST be invalidated when load-bearing state changes.
+
+---
+
+# 82. Cache Invalidation Events
+
+Examples:
+
+```text
+provider update
+capability revocation
+policy change
+authority change
+dependency change
+schema change
+validation failure
+security incident
+regime transition
+supersession
+```
+
+---
+
+# 83. Manifest Security Requirements
+
+Capability metadata itself can become a security boundary.
+
+The system SHOULD protect against:
+
+```text
+malicious capability registration;
+provider impersonation;
+alias hijacking;
+effect-class understatement;
+authority metadata injection;
+validation forgery;
+provenance stripping;
+revocation rollback;
+registry rollback;
+stale-cache resurrection.
+```
+
+---
+
+# 84. Registration Authority
+
+Not every provider SHOULD necessarily be allowed to register itself as active.
+
+Registration authority MAY distinguish:
+
+```text
+PROPOSE_ENTRY
+REGISTER_ENTRY
+VALIDATE_ENTRY
+ACTIVATE_ENTRY
+REVOKE_ENTRY
+```
+
+A provider SHOULD NOT automatically possess all five.
+
+---
+
+# 85. Two-Phase Admission
+
+For higher-consequence capabilities, admission SHOULD conceptually separate:
+
+```text
+PHASE 1 — PROPOSE
+
+PHASE 2 — VALIDATE / ADMIT
+```
+
+Thus:
+
+```text
+PROPOSED_ENTRY != ACTIVE_ENTRY
+```
+
+---
+
+# 86. Manifest Observability
+
+Material manifest operations SHOULD produce events:
+
+```text
+CAPABILITY_REGISTERED
+CAPABILITY_UPDATED
+CAPABILITY_VALIDATED
+CAPABILITY_INVALIDATED
+CAPABILITY_QUARANTINED
+CAPABILITY_RESTORED
+CAPABILITY_REVOKED
+CAPABILITY_SUPERSEDED
+PROVIDER_CHANGED
+DEPENDENCY_CHANGED
+```
+
+Events SHOULD preserve actor, timestamp, affected identity, and reason where available.
+
+---
+
+# 87. Audit Questions
+
+A manifest audit SHOULD be able to answer:
+
+1. Which capabilities exist?
+2. Which are placeholders?
+3. Which have implementations?
+4. Which have executed evidence?
+5. Which are validated?
+6. Under what scope?
+7. Under what regime?
+8. Which are stale?
+9. Which are revoked?
+10. Which are quarantined?
+11. Who provides them?
+12. What do they depend on?
+13. Which policies govern them?
+14. Which control planes govern them?
+15. Which can create persistent effects?
+16. Which can communicate externally?
+17. Which require commit authority?
+18. Which have unresolved critical gaps?
+19. Which entries share evidence ancestry?
+20. Which capabilities have supersession conflicts?
+
+---
+
+# 88. Minimum Active Entry
+
+A capability SHOULD NOT become `GOVERNED_ACTIVE` without at least:
+
+```yaml
+minimum_active_entry:
+  capability_id: required
+  version: required
+
+  provider_id: required
+  provider_version: required
+
+  inputs: required
+  outputs: required
+
+  scope: required
+  regime: required
+
+  dependencies: required
+
+  effects:
+    maximum_effect_class: required
+
+  authority:
+    invocation_required: required
+    commit_authority_required: required
+
+  governance:
+    policy_refs: required
+    control_plane_refs: required
+
+  provenance:
+    source_refs: required
+
+  validation:
+    state: required
 
   freshness:
-
-  uncertainty:
-    evidence:
-    model:
-    scope:
-    temporal:
-    causal:
-    intervention:
-    execution:
-    provenance_independence:
-
-  sensitivity:
-    flip_premise:
-    flip_threshold:
-
-  falsifiers: []
-
-  confidence_ceiling:
-
-  invalidation_conditions: []
+    checked_at: required
 ```
 
 ---
 
-# 93. HISTORICAL COMMON ERRORS — S0
+# 89. Example Read-Only Capability
 
 ```yaml
-over_determination:
-  meaning: >
-    Treating one hypothetical outcome as certain
-    while ignoring other influences.
-
-ignoring_system_reactions:
-  meaning: >
-    Holding an adaptive/reactive system artificially static.
-
-confusing_correlation_with_causation:
-  meaning: >
-    Assuming changing A changes B merely because A and B
-    are associated or sequential.
-
-unrealistic_baseline:
-  meaning: >
-    Comparing actuality to a cherry-picked or implausible world.
-
-hidden_changes:
-  meaning: >
-    Modifying multiple variables while claiming only one
-    intervention.
-```
-
----
-
-# 94. HISTORICAL SAFETY CONSTRAINTS — S0
-
-```yaml
-never_present_counterfactual_as_fact: true
-
-never_ignore_uncertainty_in_far_counterfactuals: true
-
-always_state_assumptions_explicitly: true
-
-always_label_counterfactual_as_counterfactual: true
-
-never_use_counterfactual_to_over_determine_outcomes: true
-```
-
-These remain hard constraints.
-
----
-
-# 95. HISTORICAL INTEGRATION — S0
-
-```yaml
-provides_to:
-  - Meta_Logic_Kernel
-  - Multi_Perspective_Reasoning_Kernel
-  - Strategy_Game_Engine
-  - Risk_Assessment
-
-used_by:
-  - Decision analysis
-  - Risk assessment
-  - Strategic planning
-  - Causal inference
-  - Policy evaluation
-```
-
----
-
-# 96. HISTORICAL UNIT TESTS — S0
-
-```yaml
-unit_tests:
-
-  past_counterfactual_with_causal_model:
-    expected:
-      - counterfactual_state
-      - causal_chain
-      - uncertainties
-
-  actual_vs_counterfactual:
-    expected:
-      - difference_analysis
-      - causal_attribution
-      - confounding_factors
-
-  over_determination_detection:
-    expected:
-      - error_flagged
-
-  three_scenario_analysis:
-    expected:
-      - scenario_outcomes
-      - recommended_preparation
-```
-
----
-
-# 97. EXTENDED TEST SUITE — S2/S3
-
-```text
-FACTUAL-ANCHOR TEST
-
-INTERVENTION-BINDING TEST
-
-MINIMAL-CHANGE TEST
-
-HIDDEN-CHANGE TEST
-
-CAUSAL-CHAIN-CONSERVATION TEST
-
-CONFOUNDING TEST
-
-MEDIATION TEST
-
-MODERATION TEST
-
-FEEDBACK TEST
-
-SYSTEM-REACTION TEST
-
-REGIME-SHIFT TEST
-
-SCOPE-TRANSFER TEST
-
-TEMPORAL-VALIDITY TEST
-
-PROVENANCE-INDEPENDENCE TEST
-
-SYBIL-HARDENING TEST
-
-COMPETING-MODEL TEST
-
-PARTIAL-IDENTIFICATION TEST
-
-FALSE-PROBABILITY TEST
-
-UNCERTAINTY-DISTANCE TEST
-
-CONFIDENCE-CEILING TEST
-
-SENSITIVITY TEST
-
-FALSIFIER TEST
-
-ADVERSARIAL-CHALLENGE TEST
-
-LOCAL-INVALIDATION TEST
-
-MEMORY-TYPING TEST
-
-STALE-REUSE TEST
-
-ACTION-AUTHORITY TEST
-
-REVERSIBILITY TEST
-```
-
----
-
-# 98. NEGATIVE TESTS
-
-```text
-CORRELATION
-→
-CAUSAL COUNTERFACTUAL
-
-MUST FAIL
-```
-
-```text
-MODEL OUTPUT
-→
-OBSERVED FACT
-
-MUST FAIL
-```
-
-```text
-ONE SOURCE
-→
-TEN SUMMARIES
-→
-TEN INDEPENDENT SOURCES
-
-MUST FAIL
-```
-
-```text
-CHANGE X
-→
-SILENTLY CHANGE Z
-
-MUST FAIL
-```
-
-```text
-NO PROBABILITY MODEL
-→
-71.3% PROBABILITY
-
-MUST FAIL
-```
-
-```text
-COMPETING MODELS
-→
-ONE CERTAIN ANSWER
-
-MUST FAIL
-```
-
-```text
-STALE CAUSAL MODEL
-→
-CURRENT VALIDITY
-
-MUST FAIL
-WITHOUT REVALIDATION
-```
-
-```text
-COUNTERFACTUAL SUGGESTS ACTION
-→
-AUTHORIZED EXECUTION
-
-MUST FAIL
-```
-
----
-
-# 99. PROPERTY INVARIANTS
-
-For an unobserved counterfactual branch:
-
-[
-Observed(CF)=false
-]
-
-For load-bearing confidence:
-
-[
-Conf(CF)
-\le
-WeakestPremise(CF)
-]
-
-For minimal intervention:
-
-[
-Changed(CF)
-\subseteq
-I
-\cup
-LicensedDescendants(I)
-\cup
-ExplicitAuxiliaryChanges
-]
-
-For branch multiplicity:
-
-[
-BranchCount
-\not\Rightarrow
-EvidenceCount
-]
-
-For correlation:
-
-[
-Correlation
-\not\Rightarrow
-CounterfactualCausation
-]
-
----
-
-# 100. METAMORPHIC TESTS
-
-If irrelevant independent variable `Z` changes:
-
-```text
-CF target should remain unchanged
-```
-
-if independence is established.
-
-If load-bearing edge `X→Y` is removed and no alternative path exists:
-
-```text
-counterfactual effect on Y
-must disappear or become UNKNOWN
-```
-
-If supported regime changes to unsupported regime:
-
-```text
-confidence must be downgraded or revalidated
-```
-
----
-
-# 101. ERROR REGISTRY — CANDIDATE
-
-```yaml
-E_CF_NO_BASELINE:
-
-E_CF_AMBIGUOUS_INTERVENTION:
-
-E_CF_HIDDEN_CHANGE:
-
-E_CF_CAUSAL_MODEL_MISSING:
-
-E_CF_CAUSAL_OVERREACH:
-
-E_CF_CONFOUNDING:
-
-E_CF_MEDIATOR_ERROR:
-
-E_CF_MODERATOR_ERROR:
-
-E_CF_FEEDBACK_IGNORED:
-
-E_CF_SYSTEM_REACTION_IGNORED:
-
-E_CF_SCOPE_LEAK:
-
-E_CF_REGIME_LEAK:
-
-E_CF_TEMPORAL_ERROR:
-
-E_CF_PROVENANCE_COLLAPSE:
-
-E_CF_BRANCH_SYBIL:
-
-E_CF_FALSE_PROBABILITY:
-
-E_CF_FALSE_PRECISION:
-
-E_CF_COMPETING_COLLAPSE:
-
-E_CF_STALE_REUSE:
-
-E_CF_AUTHORITY_ESCALATION:
-
-E_CF_IDENTIFIABILITY_GAP:
-
-E_CF_UNKNOWN:
-```
-
----
-
-# 102. KCF LAW REGISTRY — CANDIDATE
-
-```text
-KCF-001 FACTUAL ANCHOR
-
-KCF-002 ACTUAL / COUNTERFACTUAL SEPARATION
-
-KCF-003 EXPLICIT INTERVENTION
-
-KCF-004 MINIMAL SURGERY
-
-KCF-005 CAUSAL CHAIN CONSERVATION
-
-KCF-006 NO HIDDEN CHANGE
-
-KCF-007 CAUSAL MODEL REQUIREMENT
-
-KCF-008 CORRELATION FIREWALL
-
-KCF-009 SYSTEM REACTION AWARENESS
-
-KCF-010 UNCERTAINTY-DISTANCE DISCIPLINE
-
-KCF-011 ASSUMPTION TRANSPARENCY
-
-KCF-012 SCOPE PRESERVATION
-
-KCF-013 REGIME REVALIDATION
-
-KCF-014 TEMPORAL VALIDITY
-
-KCF-015 PROVENANCE CONTINUITY
-
-KCF-016 SYBIL HARDENING
-
-KCF-017 COMPETING PRESERVATION
-
-KCF-018 IDENTIFIABILITY DISCIPLINE
-
-KCF-019 CONFIDENCE CEILING
-
-KCF-020 SENSITIVITY FIRST
-
-KCF-021 FALSIFIER VISIBILITY
-
-KCF-022 LOCAL INVALIDATION
-
-KCF-023 MEMORY TYPING
-
-KCF-024 ACTION NON-AUTHORIZATION
-
-KCF-025 REVERSIBILITY PREFERENCE
-
-KCF-026 MINIMUM SUFFICIENT PROOF
-
-KCF-027 NO FALSE PRECISION
-
-KCF-028 NO PROBABILITY INVENTION
-
-KCF-029 CAUSAL-EPOCH BINDING
-
-KCF-030 INTEGRITY OVER FLUENCY
-```
-
-Identifiers above are candidate registry names, not recovered historical
-identifiers.
-
----
-
-# 103. USER-FACING OUTPUT CONTRACT
-
-```yaml
-counterfactual_result:
-
-  label: COUNTERFACTUAL
-
-  type:
-    PAST | FUTURE | STRUCTURAL | CAUSAL
-
-  factual_baseline:
-
-  intervention:
-
-  queried_outcome:
-
-  conclusion:
-    statement:
-    class:
-      VERIFIED |
-      DERIVED |
-      MODEL |
-      CONDITIONAL |
-      COMPETING |
-      UNKNOWN/GAP
-
-  causal_basis: []
-
-  assumptions: []
-
-  system_reactions: []
-
-  competing_outcomes: []
-
-  alternative_explanations: []
-
-  confounders: []
+capability:
+  identity:
+    capability_id: "CAP_EXAMPLE_READ"
+    canonical_name: "Example Read Capability"
+    version: "1.0.0"
+
+  provider:
+    provider_id: "PROVIDER_EXAMPLE"
+    provider_type: TOOL
+    provider_version: "1.0.0"
+
+  classification:
+    capability_classes:
+      - RETRIEVAL
+
+    epistemic_class: MODEL
+
+  lifecycle:
+    declaration_state: STRUCTURALLY_COMPLETE
+    implementation_state: UNKNOWN
+    availability_state: UNKNOWN
+    validation_state: UNVALIDATED
+    governance_state: UNREVIEWED
+    revocation_state: ACTIVE
+
+  inputs:
+    - name: query
+      type: string
+      required: true
+      provenance_required: false
+
+  outputs:
+    - name: results
+      type: array
+      epistemic_class: OBSERVATION
+      provenance_required: true
+
+  dependencies: []
 
   scope:
+    domains: []
+    environments: []
+    exclusions: []
 
   regime:
+    allowed: []
+    prohibited: []
 
-  temporal_validity:
+  hml:
+    H: false
+    M: true
+    L: true
 
-  uncertainty_vector:
+  effects:
+    maximum_effect_class: E0_READ_ONLY
+    possible_effects: []
 
-  confidence_ceiling:
+  authority:
+    invocation_required: true
+    effect_authority_required: false
+    commit_authority_required: false
 
-  sensitivity:
+  governance:
+    policy_refs: []
+    control_plane_refs: []
 
-  falsifiers: []
+  validation:
+    level: V0_DECLARED
+    evidence_refs: []
 
-  invalidation_conditions: []
+  provenance:
+    source_refs: []
+    ancestry: []
+    independence_status: UNKNOWN
 
-  discriminating_test:
+  uncertainty:
+    evidence: 1.0
+    model: 1.0
+    scope: 1.0
+    temporal: 1.0
+    causal: 1.0
+    execution: 1.0
+    provenance_independence: 1.0
 
-  reversible_action:
+  confidence_ceiling: 0
+
+  gaps:
+    - implementation evidence
+    - runtime validation
 ```
+
+This example is intentionally unvalidated.
 
 ---
 
-# 104. ADAPTIVE COMPLEXITY
-
-```text
-C0 DIRECT
-
-C1 COMPACT
-
-C2 STRUCTURED
-
-C3 DEEP
-
-C4 MAXIMUM
-```
-
-Escalate for:
-
-```text
-high stakes
-
-irreversibility
-
-novelty
-
-weak evidence
-
-stale evidence
-
-causal ambiguity
-
-scope mismatch
-
-regime shift
-
-competing models
-
-governance impact
-
-provenance uncertainty
-```
-
----
-
-# 105. STOP CONDITIONS
-
-Stop when:
-
-```text
-CLAIM SUFFICIENCY
-
-AND
-
-DECISION SUFFICIENCY
-
-AND
-
-ACTION SUFFICIENCY
-```
-
-Additional scenario generation after this point is not automatically useful.
-
----
-
-# 106. CANONICAL COMPRESSION
-
-```text
-K_COUNTERFACTUAL
-=
-DISCIPLINED
-ALTERNATIVE-WORLD
-REASONING.
-
-ANCHOR
-THE FACTUAL WORLD.
-
-DEFINE
-THE INTERVENTION.
-
-CHANGE ONLY
-WHAT THE INTERVENTION
-AND DEFENSIBLE
-CAUSAL CONSEQUENCES
-REQUIRE.
-
-PRESERVE
-CAUSAL STRUCTURE.
-
-MODEL
-SYSTEM REACTIONS.
-
-EXPOSE
-ALL ASSUMPTIONS.
-
-KEEP
-COUNTERFACTUAL
-SEPARATE FROM FACT.
-
-KEEP
-COUNTERFACTUAL
-SEPARATE FROM PREDICTION.
-
-KEEP
-CORRELATION
-SEPARATE FROM CAUSATION.
-
-INCREASE
-UNCERTAINTY
-AS THE WORLD
-MOVES FARTHER
-FROM ACTUALITY.
-
-PRESERVE
-COMPETING MODELS.
-
-PRESERVE
-PROVENANCE ANCESTRY.
-
-DO NOT
-COUNT
-DERIVED COPIES
-AS INDEPENDENT EVIDENCE.
-
-DO NOT
-GENERALIZE
-OUTSIDE SCOPE.
-
-DO NOT
-REUSE
-ACROSS REGIMES
-WITHOUT VALIDATION.
-
-DO NOT
-INVENT
-MISSING CAUSAL EDGES.
-
-DO NOT
-INVENT
-PROBABILITIES.
-
-WHEN
-IDENTIFICATION FAILS:
-
-RETURN
-BOUNDS
-OR
-UNKNOWN/GAP.
-
-WHEN
-A PREMISE FAILS:
-
-INVALIDATE
-ONLY DEPENDENT
-DESCENDANTS.
-
-WHEN
-A RESULT IS FRAGILE:
-
-RETURN
-CONDITIONAL.
-
-WHEN
-SUPPORTED MODELS
-DISAGREE:
-
-RETURN
-COMPETING.
-
-WHEN
-A REVERSIBLE
-HIGH-INFORMATION
-TEST EXISTS:
-
-PREFER
-THE TEST
-OVER
-MORE SPECULATION.
-
-AND NEVER
-LET
-FLUENCY,
-COMPLETENESS,
-SPEED,
-OR NUMERICAL PRECISION
-OUTRUN
-INTEGRITY.
-```
-
----
-
-# 107. FORMAL KERNEL CONTRACT
-
-Candidate full contract:
-
-[
-K_{CF}:
-(F,I,M,E,S,R,T,P)
-\rightarrow
-(C,C_{class},U,D,Fals)
-]
-
-where:
-
-```text
-F = factual state
-
-I = intervention
-
-M = causal model
-
-E = evidence
-
-S = scope
-
-R = regime
-
-T = temporal state
-
-P = provenance topology
-
-C = counterfactual conclusion
-
-C_class = epistemic class
-
-U = uncertainty vector
-
-D = dependency/invalidation topology
-
-Fals = falsifiers
-```
-
-subject to:
-
-[
-FactualIntegrity
-]
-
-[
-MinimalIntervention
-]
-
-[
-CausalValidity
-]
-
-[
-ScopeIntegrity
-]
-
-[
-RegimeIntegrity
-]
-
-[
-TemporalIntegrity
-]
-
-[
-ProvenanceIntegrity
-]
-
-[
-AssumptionTransparency
-]
-
-and:
-
-[
-Conf(C)
-\le
-WeakestLoadBearingPremise
-]
-
-unless independently revalidated.
-
----
-
-# 108. HISTORICAL / DERIVED BOUNDARY
-
-## S0 — DIRECTLY SOURCE-SUPPORTED
-
-Direct historical source establishes:
-
-```text
-Counterfactual_Reasoning_Kernel
-
-version 1.0.0
-
-Meta_Cognition placement
-
-priority 9
-
-required true
-
-domains
-
-dependencies
-
-binding rules
-
-past counterfactual
-
-future counterfactual
-
-structural counterfactual
-
-causal counterfactual
-
-plausible initial state
-
-minimal change principle
-
-causal chain conservation
-
-uncertainty proportionate to distance
-
-assumption transparency
-
-common errors
-
-core rules
-
-construct_counterfactual
-
-compare_actual_vs_counterfactual
-
-scenario_analysis
-
-integration
-
-safety constraints
-
-unit tests
-
-failure modes
-```
-
-## S1 / S2 — AMOS v4.4 INTEGRATION
-
-Integrated later architecture:
-
-```text
-RSCF
-
-H/M/L
-
-GMEF
-
-typed evidence
-
-epistemic regimes
-
-competing hypotheses
-
-provenance topology
-
-Sybil hardening
-
-scope/regime firewall
-
-causal epoch
-
-weakest-premise confidence ceiling
-
-local invalidation
-
-version-aware reuse
-
-atomic multi-RSCF reasoning
-
-proof-based local reasoning
-
-reversibility governance
-```
-
-## S3 — DERIVED FORMALIZATION
-
-Derived but source-compatible:
-
-```text
-SCM-style notation
-
-abduction/action/projection procedure
-
-causal-edge taxonomy
-
-counterfactual distance formalization
-
-uncertainty vector
-
-identifiability states
-
-partial-identification contract
-
-full proof capsule
-
-fast-path schema
-
-failure registry
-
-property tests
-
-metamorphic tests
-
-KCF law identifiers
-```
-
-## S4 — EXTERNAL REFERENCE
-
-External counterfactual research may inform:
-
-```text
-counterfactual harm
-
-partial identification
-
-uncertainty quantification
-
-causal responsibility
-
-multi-agent counterfactual testing
-
-counterfactual benchmarks
-```
-
-but remains external evidence until harvested and promoted.
-
----
-
-# 109. REMAINING GAPS
+# 90. Example Persistent-Write Capability
 
 ```yaml
-gaps:
-
-  - id: KCF-GAP-001
-    class: DECISION-RELEVANT
-    issue: >
-      Byte-identical historical original
-      md/Core/AMOS_Counterfactual_Reasoning_Kernel_v0.md
-      has not been independently recovered.
-
-  - id: KCF-GAP-002
-    class: DECISION-RELEVANT
-    issue: >
-      Complete historical executable implementation
-      corresponding exactly to v1.0.0 is not established.
-
-  - id: KCF-GAP-003
-    class: EXPLANATORY
-    issue: >
-      Formal supersession record connecting the historical
-      kernel to the present K_COUNTERFACTUAL naming remains
-      incomplete.
-
-  - id: KCF-GAP-004
-    class: EXPLANATORY
-    issue: >
-      No universal calibrated probability model exists for
-      all counterfactual domains.
-
-  - id: KCF-GAP-005
-    class: UNKNOWN/GAP
-    issue: >
-      Universal empirical validity is not established.
-
-  - id: KCF-GAP-006
-    class: UNKNOWN/GAP
-    issue: >
-      Formal proof of universal causal correctness is not established.
-```
-
----
-
-# 110. PROMOTION GATE
-
-Before promotion to authoritative canon:
-
-```text
-[ ] historical source registered
-
-[ ] source lineage recorded
-
-[ ] original-file disposition recorded
-
-[ ] dependencies verified
-
-[ ] conflicts registered
-
-[ ] duplicates resolved
-
-[ ] Meta Logic compatibility checked
-
-[ ] Meta Epistemology compatibility checked
-
-[ ] Probability/Statistics dependency checked
-
-[ ] RSCF integration checked
-
-[ ] H/M/L integration checked
-
-[ ] GMEF integration checked
-
-[ ] scope/regime firewall tested
-
-[ ] provenance/Sybil logic tested
-
-[ ] causal-model gap behavior tested
-
-[ ] hidden-change behavior tested
-
-[ ] competing-model behavior tested
-
-[ ] confidence ceiling tested
-
-[ ] memory typing tested
-
-[ ] causal epoch behavior tested
-
-[ ] action-authority firewall tested
-
-[ ] failure recovery tested
-
-[ ] supersession log written
-
-[ ] authoritative-state record updated
-
-[ ] steward approval completed
-```
-
----
-
-# 111. FINAL STATE
-
-```yaml
-K_COUNTERFACTUAL:
-
-  historical_kernel:
-    id: Counterfactual_Reasoning_Kernel
+capability:
+  identity:
+    capability_id: "CAP_EXAMPLE_WRITE"
+    canonical_name: "Example Persistent Write"
     version: "1.0.0"
-    state: SOURCE_SUPPORTED
 
-  current_full_artifact:
-    state: CANDIDATE_CANON
-    class: DERIVED
+  provider:
+    provider_id: "PROVIDER_EXAMPLE"
+    provider_type: TOOL
 
-  v4_4_alignment:
-    state: INTEGRATED
-    class: LINEAGE_EXTENSION
+  classification:
+    capability_classes:
+      - EXECUTION
 
-  executable_implementation:
-    state: UNKNOWN/GAP
+  lifecycle:
+    declaration_state: STRUCTURALLY_COMPLETE
+    implementation_state: UNKNOWN
+    availability_state: UNKNOWN
+    validation_state: UNVALIDATED
+    governance_state: UNREVIEWED
+    revocation_state: ACTIVE
 
-  universal_empirical_validation:
-    state: UNKNOWN/GAP
+  inputs:
+    - name: target
+      type: resource_identifier
+      required: true
 
-  formal_universal_proof:
-    state: UNKNOWN/GAP
+    - name: payload
+      type: object
+      required: true
 
-  supersession:
-    placeholder:
-      state: REPLACED_BY_CANDIDATE
-    final_canon:
-      state: NOT_YET_PROMOTED
+  outputs:
+    - name: proposal
+      type: effect_proposal
+      epistemic_class: PROPOSAL
+
+  effects:
+    maximum_effect_class: E3_PERSISTENT_WRITE
+
+    possible_effects:
+      - persistent_write
+
+    rollback:
+      supported: UNKNOWN
+
+  authority:
+    invocation_required: true
+    effect_authority_required: true
+    commit_authority_required: true
+
+  governance:
+    policy_refs:
+      - POLICY_PERSISTENT_WRITE
+
+    control_plane_refs:
+      - CONTROL_PLANE_AUTHORITY
+      - CONTROL_PLANE_COMMIT
+      - CONTROL_PLANE_PROVENANCE
+
+  validation:
+    level: V0_DECLARED
+
+  confidence_ceiling: 0
+
+  gaps:
+    - implementation
+    - validation
+    - rollback verification
 ```
 
-The kernel's ultimate integrity law is:
+Again:
 
-[
-\boxed{
-\text{Never claim an unrealized world more strongly than the causal model,
-evidence, provenance, scope, regime, and uncertainty permit.}
-}
-]
-
-And its operational law is:
-
-[
-\boxed{
-\text{Change only what the intervention and defensible consequences require.}
-}
-]
-
-# END — K COUNTERFACTUAL
-
+```text
+manifest declaration != operational permission
 ```
 
-This is the version I would use to replace the placeholder: it is substantially deeper than the prior drafts, incorporates the actual historical kernel spine, and keeps every later formal extension provenance-typed instead of laundering reconstructed material into historical canon.
+---
+
+# 91. RSCF Completion State
+
+```yaml
+claim_class: MODEL
+
+claim:
+  text: >
+    CAPABILITY_MANIFEST.md defines the proposed governed inventory
+    and registry semantics for AMOS capability declarations.
+
+evidence:
+  - structural derivation from AMOS capability/control-plane requirements
+
+provenance:
+  origin_architect: "Trang Phan"
+  artifact: "CAPABILITY_MANIFEST.md"
+  derivation_class: "AMOS MODEL synthesis"
+
+scope:
+  system: "AMOS OS"
+  layer: "Capability registry / infrastructure"
+  function:
+    - capability inventory
+    - discovery
+    - resolution
+    - lifecycle representation
+    - governance binding
+
+regime:
+  - architecture
+  - implementation
+  - governed_runtime
+
+freshness:
+  reviewed_at: "2026-08-26"
+
+  invalidation_triggers:
+    - capability contract supersession
+    - registry architecture change
+    - authority architecture change
+    - control-plane architecture change
+    - canon supersession
+
+dependencies:
+  - CAPABILITY_CONTRACT.md
+  - POLICY_REGISTRY.md
+  - CONTROL_PLANE_MAP.md
+  - provenance architecture
+  - authority architecture
+
+competing:
+  - >
+    Runtime implementation may require a smaller physical manifest
+    with this document serving as the normative logical schema.
+
+  - >
+    Individual domain runtimes may require stricter capability
+    metadata than this base manifest.
+
+falsifiers:
+  - >
+    Source canon establishes incompatible capability-manifest semantics.
+
+  - >
+    Runtime requirements demonstrate that a proposed mandatory field
+    violates an existing canonical AMOS invariant.
+
+  - >
+    Governance review rejects a proposed manifest invariant.
+
+confidence_ceiling:
+  structural_model: 0.90
+  canonical_status: 0.00
+  implementation_status: 0.00
+  executed_validation: 0.00
+```
+
+---
+
+# 92. Current Completion State
+
+```yaml
+completion:
+  definition: COMPLETE_AS_MODEL
+  manifest_schema: COMPLETE_AS_MODEL
+  provider_model: COMPLETE_AS_MODEL
+  lifecycle_model: COMPLETE_AS_MODEL
+  dependency_model: COMPLETE_AS_MODEL
+  governance_boundary: COMPLETE_AS_MODEL
+  provenance_model: COMPLETE_AS_MODEL
+  validation_model: COMPLETE_AS_MODEL
+  failure_model: COMPLETE_AS_MODEL
+  repair_model: COMPLETE_AS_MODEL
+  test_surface: COMPLETE_AS_MODEL
+
+  runtime_population: UNKNOWN/GAP
+  implementation: UNKNOWN/GAP
+  executed_tests: UNKNOWN/GAP
+  empirical_validation: UNKNOWN/GAP
+  canon_approval: UNKNOWN/GAP
+```
+
+---
+
+# 93. Hard Boundary Block
+
+```text
+MANIFEST != RUNTIME
+
+MANIFEST_ENTRY != IMPLEMENTATION
+
+PLACEHOLDER != IMPLEMENTED
+
+DECLARED != IMPLEMENTED
+
+ADDRESSABLE != AVAILABLE
+
+AVAILABLE != VALIDATED
+
+CAPABILITY != AUTHORITY
+
+CAPABILITY != PERMISSION
+
+DISCOVERABLE != AUTHORIZED
+
+COMPATIBLE != AUTHORIZED
+
+SELECTED != AUTHORIZED
+
+PROPOSAL != COMMIT
+
+EXECUTION_SUCCESS != CLAIM_TRUTH
+
+VALIDATION != UNIVERSAL_VALIDITY
+
+UNKNOWN/GAP != PASS
+
+CORRELATED_EVIDENCE != INDEPENDENT_CONFIRMATION
+
+MODEL != EMPIRICAL_FACT
+```
+
+---
+
+# 94. Canon Boundary
+
+Trang Phan remains the origin architect / steward of AMOS.
+
+This artifact is a substantive AMOS architecture proposal derived to complete the capability-manifest surface.
+
+Its structural completeness MUST NOT be confused with canonical admission.
+
+Until separately admitted through the appropriate canon/provenance/supersession process:
+
+```text
+artifact_status:
+    PROPOSED
+
+epistemic_class:
+    MODEL
+
+canonical_status:
+    UNKNOWN/GAP
+
+runtime_status:
+    UNKNOWN/GAP
+
+validation_status:
+    UNKNOWN/GAP
+```
+
+Where verified source canon conflicts with generated manifest structure:
+
+```text
+applicable SOURCE CANON
+        >
+generated MODEL
+```
+
+subject to version, scope, and supersession resolution.
+
+---
+
+# 95. Final Manifest Law
+
+The AMOS Capability Manifest SHALL preserve the following rule:
+
+> The manifest describes what capabilities are declared and how they are governed as addressable system objects. It does not grant permission, prove implementation, prove correctness, or authorize durable effects.
+
+Therefore:
+
+```text
+DECLARATION
+    ↓
+MANIFEST ENTRY
+    ↓
+STRUCTURAL VALIDATION
+    ↓
+REGISTRATION
+    ↓
+DISCOVERY
+    ↓
+RESOLUTION
+    ↓
+DEPENDENCY / SCOPE / REGIME CHECK
+    ↓
+PROVIDER VALIDATION
+    ↓
+AUTHORITY CHECK
+    ↓
+INVOCATION
+    ↓
+RESULT VALIDATION
+    ↓
+EFFECT PROPOSAL
+    ↓
+COMMIT-TIME REVALIDATION
+    ↓
+AUTHORIZED COMMIT
+    ↓
+PROVENANCE-PRESERVED EFFECT
+```
+
+No earlier state in this chain implies a later state.
+
+Any unresolved load-bearing requirement remains:
+
+```text
+UNKNOWN/GAP
+```
+
+until evidence, authority, or governance resolves it.
+
+---
+
+# END — CAPABILITY_MANIFEST.md
+
+```
 ```

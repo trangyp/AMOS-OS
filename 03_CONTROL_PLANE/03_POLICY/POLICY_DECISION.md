@@ -1,3776 +1,4186 @@
-Below is the **full paste-ready `K_COUNTERFACTUAL` artifact**, not a placeholder. I’m keeping a strict provenance boundary: the historical Drive artifact explicitly defines `Counterfactual_Reasoning_Kernel` v1.0.0 as required Meta-Cognition logic, with four counterfactual types, five validity criteria, three core functions, safety constraints, tests, and dependencies on Meta Logic, Meta Epistemology, and Probability/Statistics.  The expanded v4.4 portions below are therefore marked as normalized/integrated specification rather than misrepresented as verbatim historical canon.
+Below is the **full paste-ready `POLICY_DECISION.md`**. It is written as a substantive AMOS OS governance/control-plane contract, not a placeholder. It preserves the critical separation between policy evaluation, capability, authority, proposal, effect release, and durable commit.
 
 ---
-artifact_id: AMOS-OS-K-COUNTERFACTUAL
-canonical_name: K_COUNTERFACTUAL
-title: K COUNTERFACTUAL
-artifact_class: KERNEL
-kernel_family: META_COGNITION
-plane: KERNEL
-
-origin_architect: Trang Phan
-steward: Trang Phan
-
-amos_core_target: v4.4
-
-status: CANDIDATE_CANON
-conclusion_class: DERIVED
-
-historical_kernel:
-  kernel_id: Counterfactual_Reasoning_Kernel
-  version: "1.0.0"
-  category: Meta_Cognition
-  priority: 9
-  required: true
-  historical_status: defined
-
-supersedes:
-  - K_COUNTERFACTUAL_PLACEHOLDER
-
-implementation_status: UNKNOWN/GAP
-empirical_validation_status: UNKNOWN/GAP
-formal_verification_status: UNKNOWN/GAP
-promotion_required: true
-
-updated: 2026-08-26
+title: "AMOS Policy Decision"
+artifact: "POLICY_DECISION.md"
+origin_architect: "Trang Phan"
+steward: "Trang Phan"
+system: "AMOS OS"
+artifact_class: "GOVERNED_POLICY_DECISION_CONTRACT"
+status: "PROPOSED / STRUCTURALLY_COMPLETE / IMPLEMENTATION-UNVALIDATED"
+epistemic_class: "MODEL"
+version: "1.0.0"
+updated: "2026-08-26"
+authority: "NONE_BY_DEFAULT"
 ---
 
-# K COUNTERFACTUAL
-
-> STATUS: `CANDIDATE_CANON`
->
-> CONCLUSION CLASS: `DERIVED`
->
-> AMOS CORE TARGET: `v4.4`
->
-> ORIGIN ARCHITECT: `Trang Phan`
->
-> SUPERSEDES: `K_COUNTERFACTUAL PLACEHOLDER`
-
-# 0. PURPOSE
-
-`K_COUNTERFACTUAL` is the AMOS OS kernel for disciplined reasoning about
-alternative states of reality.
+# AMOS Policy Decision
 
-It governs reasoning of the form:
+## 0. Status
 
-- What would have happened if X had been different?
-- What could happen if X changes?
-- What would happen under a different system condition?
-- Would Y still have occurred without X?
-- Is X necessary for Y?
-- Is X sufficient for Y?
-- What causal information can be obtained by comparing actuality with a
-  hypothetical alternative?
-- Which intervention is most likely to alter an outcome?
-- Which assumptions determine the counterfactual result?
-- Which competing causal explanation survives intervention?
-- What observation could discriminate between competing models?
+`POLICY_DECISION.md` defines the AMOS OS contract for representing, evaluating, composing, validating, recording, invalidating, and consuming policy decisions.
 
-The kernel exists to prevent hypothetical reasoning from silently becoming:
+A policy decision is the governed result of applying one or more applicable policy rules to a specific:
 
-- invented fact;
-- unsupported prediction;
-- causal overclaim;
-- hidden multi-variable intervention;
-- false probability;
-- false precision;
-- unbounded scenario generation;
-- scope leakage;
-- regime leakage;
-- provenance laundering;
-- decision authority.
+- principal;
+- action;
+- capability;
+- target;
+- resource;
+- context;
+- scope;
+- regime;
+- authority state;
+- evidence state;
+- proposed effect;
+- and evaluation epoch.
 
-The fundamental object is:
+This document defines the logical architecture of that decision object.
 
-    ACTUAL WORLD
-          ↓
-    EXPLICIT INTERVENTION
-          ↓
-    CAUSAL / STRUCTURAL MODEL
-          ↓
-    COUNTERFACTUAL WORLD
-          ↓
-    COMPARISON
-          ↓
-    UNCERTAINTY
-          ↓
-    CONCLUSION
+It does **not** assert that:
 
-The counterfactual world remains epistemically distinct from the actual world.
+- a policy engine implementing this contract currently exists;
+- every AMOS policy has been encoded;
+- every policy is canonical;
+- every policy decision can be automatically computed;
+- a policy decision grants capability;
+- a policy decision grants authority;
+- `ALLOW` automatically permits execution;
+- execution success proves policy compliance;
+- policy compliance proves factual correctness;
+- policy compliance authorizes durable commit;
+- this document has already been admitted into final AMOS canon.
 
-# 1. HISTORICAL AMOS CONTRACT
+The governing distinctions are:
 
-The historical AMOS kernel defines:
+```text
+POLICY != POLICY_DECISION
 
-    kernel_id = Counterfactual_Reasoning_Kernel
-    version   = 1.0.0
-    category  = Meta_Cognition
-    priority  = 9
-    required  = true
+POLICY_DECISION != AUTHORITY
 
-Historical domains:
+POLICY_DECISION != CAPABILITY
 
-    counterfactual
-    what_if
-    alternative_scenarios
-    causal_inference
-    hypothetical_reasoning
-    scenario_analysis
+POLICY_DECISION != EXECUTION
 
-Historical dependencies:
+ALLOW != COMMIT
 
-    Meta_Logic_Kernel
-    Meta_Epistemology_Kernel
-    Probability_Statistics_Kernel
+ALLOW != SUCCESS
 
-Historical binding rules:
+DENY != TECHNICAL_IMPOSSIBILITY
 
-    Law_of_Law
-    Rule_of_2
-    Rule_of_4
-    Absolute_Integrity
+CONDITIONAL != ALLOW
 
-This v4.4 artifact preserves that spine while integrating it with the later
-AMOS integrity, provenance, RSCF, H/M/L, causal-regime, and governed-evolution
-architecture.
+ESCALATE != DENY
 
-# 2. EPISTEMIC FIREWALL
+UNKNOWN/GAP != ALLOW
 
-Hard distinctions:
+UNKNOWN/GAP != PASS
 
-    COUNTERFACTUAL != FACT
+CAPABILITY != AUTHORITY
 
-    HYPOTHETICAL != OBSERVATION
+PROPOSAL != COMMIT
 
-    MODEL != OBSERVATION
+VALIDATION != AUTHORIZATION
 
-    SOURCE_CLAIM != VERIFIED
+AUTHORIZATION != EXECUTION
 
-    ASSOCIATION != CAUSATION
+EXECUTION != FINALITY
 
-    CORRELATION != CAUSATION
+RECEIPT_ID != VERIFIED_COMPLETION
 
-    TEMPORAL PRECEDENCE != CAUSATION
+ADDRESSABLE != VALIDATED
 
-    PREDICTION != INTERVENTION
+PLACEHOLDER != IMPLEMENTED
+```
 
-    INTERVENTION != COUNTERFACTUAL
+---
 
-    SIMULATION != EMPIRICAL VALIDATION
+# 1. Purpose
 
-    PLAUSIBILITY != PROBABILITY
+The purpose of `POLICY_DECISION.md` is to establish one explicit governed object for answering:
 
-    PROBABILITY != CERTAINTY
+> Given a particular principal, requested operation, target, capability, context, evidence state, authority state, and policy set, what does the applicable AMOS policy layer currently conclude?
 
-    MODEL AGREEMENT != INDEPENDENT EVIDENCE
+The policy decision object exists so that downstream systems do not infer permission from:
 
-    STRUCTURAL SIMILARITY != CAUSAL EQUIVALENCE
+* capability existence;
+* provider availability;
+* agent preference;
+* Skill selection;
+* successful tool invocation;
+* previous authorization;
+* stale cached decisions;
+* undocumented conventions;
+* model confidence;
+* or absence of an explicit prohibition.
 
-Therefore a counterfactual result normally carries one of:
-
-    DERIVED
-    MODEL
-    CONDITIONAL
-    COMPETING
-    UNKNOWN/GAP
-
-A stronger classification requires independent validation appropriate to the
-claim.
-
-# 3. HISTORICAL COUNTERFACTUAL TYPES
-
-AMOS recognizes four primary counterfactual types.
-
-## 3.1 PAST COUNTERFACTUAL
-
-Question:
-
-    What would have happened if something in the past
-    had been different?
-
-Structure:
-
-    ACTUAL HISTORY
-          ↓
-    DIVERGENCE POINT
-          ↓
-    ALTERNATIVE EVENT
-          ↓
-    CAUSAL PROPAGATION
-          ↓
-    ALTERNATIVE HISTORY
-
-Schema:
-
-    PastCounterfactual:
-      actual_history
-      divergence_time
-      intervention
-      preserved_history
-      affected_dependencies
-      alternative_trajectory
-      queried_outcome
-      assumptions
-      uncertainty
-
-Default rule:
-
-    HISTORY BEFORE DIVERGENCE
-    REMAINS FACTUAL
-
-unless the intervention explicitly changes an earlier state.
-
-## 3.2 FUTURE COUNTERFACTUAL
-
-Question:
-
-    What could happen if something changes in the future?
-
-Structure:
-
-    CURRENT STATE
-         ↓
-    PROPOSED INTERVENTION
-         ↓
-    RESPONSE
-         ↓
-    ADAPTATION
-         ↓
-    POSSIBLE FUTURE STATES
-
-Schema:
-
-    FutureCounterfactual:
-      current_state
-      intervention
-      intervention_time
-      horizon
-      causal_model
-      system_response
-      scenarios
-      uncertainty
-      early_warning_signals
-
-A future counterfactual is not automatically a forecast.
-
-## 3.3 STRUCTURAL COUNTERFACTUAL
-
-Question:
-
-    What does the system structure imply would happen
-    under different conditions?
-
-Schema:
-
-    StructuralCounterfactual:
-      factual_structure
-      structural_intervention
-      preserved_mechanisms
-      changed_mechanisms
-      constraints
-      feedback
-      thresholds
-      regime
-      resulting_structure
-
-Structural interventions may alter dependency topology itself.
-
-They therefore require deeper validation than simple parameter changes.
-
-## 3.4 CAUSAL COUNTERFACTUAL
-
-Question:
-
-    What can be inferred about causation by comparing
-    what happened with what would have happened
-    under another intervention?
-
-Schema:
-
-    CausalCounterfactual:
-      factual_cause
-      factual_outcome
-      alternative_intervention
-      alternative_outcome
-      causal_model
-      confounders
-      mediators
-      moderators
-      competing_explanations
-      attribution_confidence
-
-# 4. VALID COUNTERFACTUAL CRITERIA
-
-The historical kernel establishes five load-bearing criteria.
-
-## 4.1 PLAUSIBLE INITIAL STATE
-
-The counterfactual starting point must be:
-
-    PLAUSIBLE
-
-or explicitly marked:
-
-    IMPLAUSIBLE
-    MODEL-ONLY
-    STRESS-TEST
-    UNKNOWN
-
-The kernel must not smuggle an impossible initial state into a seemingly
-realistic conclusion.
-
-## 4.2 MINIMAL CHANGE PRINCIPLE
-
-Change only what is necessary for the counterfactual.
-
-Do not silently modify unrelated variables.
-
-## 4.3 CAUSAL CHAIN CONSERVATION
-
-If:
-
-    A → B → C
-
-then an intervention on A should normally propagate through:
-
-    A'
-     ↓
-    B'
-     ↓
-    C'
-
-rather than jumping directly from A' to C' without an independently supported
-direct path.
-
-## 4.4 UNCERTAINTY PROPORTIONAL TO DISTANCE
-
-Near counterfactuals generally require fewer assumptions than far
-counterfactuals.
+Policy evaluation MUST produce an explicit decision state.
+
+---
+
+# 2. Position in AMOS OS
+
+Conceptually:
+
+```text
+TASK / INTENT
+      ↓
+CAPABILITY RESOLUTION
+      ↓
+POLICY CONTEXT
+      ↓
+POLICY REGISTRY
+      ↓
+POLICY APPLICABILITY
+      ↓
+POLICY EVALUATION
+      ↓
+POLICY COMPOSITION
+      ↓
+POLICY_DECISION
+      ↓
+AUTHORITY / CONSTRAINT / FRESHNESS CHECKS
+      ↓
+EFFECT PROPOSAL
+      ↓
+COMMIT-TIME REVALIDATION
+      ↓
+EFFECT RELEASE DECISION
+      ↓
+COMMIT / BLOCK / RECONCILE
+```
+
+A policy decision is therefore an intermediate governed state.
+
+It is not the final effect-release state.
+
+---
+
+# 3. Relationship to POLICY_REGISTRY.md
+
+`POLICY_REGISTRY.md` answers:
+
+```text
+Which policy objects exist?
+```
+
+`POLICY_DECISION.md` answers:
+
+```text
+What is the result of applying the relevant policy objects
+to this specific requested action and context?
+```
 
 Therefore:
 
-    COUNTERFACTUAL DISTANCE ↑
-              ⇒
-    UNCERTAINTY SHOULD NOT DECREASE
-    WITHOUT NEW INFORMATION
+```text
+POLICY_REGISTRY
+        ↓
+policy discovery
 
-This is a qualitative integrity constraint, not a universal numerical law.
+APPLICABILITY RESOLUTION
+        ↓
+applicable policy set
 
-## 4.5 ASSUMPTION TRANSPARENCY
+POLICY EVALUATION
+        ↓
+individual policy results
 
-Every load-bearing assumption must be exposed.
+POLICY COMPOSITION
+        ↓
+POLICY_DECISION
+```
 
-Hidden assumptions cannot silently function as evidence.
+A policy decision MUST preserve references to the policy versions from which it was derived.
 
-# 5. COUNTERFACTUAL OBJECT
+---
 
-Normalized v4.4 representation:
+# 4. Relationship to CAPABILITY_MANIFEST.md
 
-    CF = <F, I, M, E, C, Q, S, R, T, P, U, A>
+Capability resolution answers:
 
-where:
+```text
+Can a known provider potentially perform operation X?
+```
 
-    F = factual anchor
-    I = intervention
-    M = causal / structural model
-    E = evidence
-    C = counterfactual state
-    Q = queried outcome
-    S = scope
-    R = regime
-    T = temporal envelope
-    P = provenance topology
-    U = uncertainty
-    A = assumptions
+Policy evaluation answers:
 
-A decision-grade counterfactual requires each load-bearing component to be:
+```text
+Does applicable policy permit, deny, constrain,
+or escalate operation X in this context?
+```
 
-    KNOWN
+These are separate questions.
 
-    EXPLICITLY MODELED
+Therefore:
 
-or
+```text
+CAPABILITY(C)
+AND
+AVAILABLE(C)
+```
 
-    UNKNOWN/GAP
+does not imply:
 
-Missing structure must not be filled with fluent speculation.
+```text
+POLICY_ALLOW(C)
+```
 
-# 6. FACTUAL ANCHOR
+and:
 
-Every counterfactual begins with an actual-state anchor.
+```text
+POLICY_ALLOW(C)
+```
 
-    FactualAnchor:
+does not imply:
 
-      anchor_id
+```text
+CAPABLE(C)
+```
 
-      system
-      entity
-      population
-      environment
+Both may be required.
 
-      observed_state
+---
 
-      observations
+# 5. Relationship to Authority
 
-      source_claims
+Policy and authority MUST remain separate.
 
-      derived_state
+Policy answers:
 
-      temporal:
-        observed_at
-        valid_from
-        valid_until
+```text
+What do the applicable rules permit or prohibit?
+```
 
-      scope
+Authority answers:
 
-      regime
-
-      measurement_method
-
-      provenance
-
-      uncertainty
-
-      contradictions
-
-Hard law:
-
-    NO DEFENSIBLE FACTUAL ANCHOR
-              ↓
-    NO DECISION-GRADE COUNTERFACTUAL
-
-# 7. ACTUAL / COUNTERFACTUAL SEPARATION
-
-World topology:
-
-    W0 = ACTUAL WORLD
-
-    W0
-    ├── CF1
-    ├── CF2
-    ├── CF3
-    └── CFn
-
-A branch does not mutate its factual parent.
-
-Invariant:
-
-    FACTUAL PARENT MUST REMAIN RECOVERABLE
-
-Forbidden transition:
-
-    COUNTERFACTUAL
-          ↓
-    MEMORY / SUMMARY
-          ↓
-    FACT
-
-without independent observation.
-
-# 8. INTERVENTION
-
-An intervention explicitly modifies one or more components of the factual or
-modeled world.
-
-    Intervention:
-
-      intervention_id
-
-      type:
-        VALUE_CHANGE
-        ACTION_ADDITION
-        ACTION_REMOVAL
-        ACTION_SUBSTITUTION
-        TIMING_CHANGE
-        ORDER_CHANGE
-        INFORMATION_CHANGE
-        BELIEF_CHANGE
-        POLICY_CHANGE
-        RESOURCE_CHANGE
-        PARAMETER_CHANGE
-        STRUCTURAL_CHANGE
-        ENVIRONMENT_CHANGE
-        CONSTRAINT_CHANGE
-        EVENT_INJECTION
-        EVENT_REMOVAL
-
-      target
-
-      factual_value
-
-      counterfactual_value
-
-      intervention_time
-
-      duration
-
-      magnitude
-
-      scope
-
-      explicit_auxiliary_changes
-
-      assumptions
-
-# 9. INTERVENTION BINDING
-
-A materially consequential intervention should bind:
-
-    TARGET
-    ORIGINAL VALUE
-    ALTERNATIVE VALUE
-    MAGNITUDE
-    TIME
-    DURATION
-    SCOPE
-    ENVIRONMENT
-    REGIME
-
-Example:
-
-    "What if investment increases?"
-
-may be underdetermined.
-
-Decision-relevant missing fields may include:
-
-    investment in what?
-    increase by how much?
-    when?
-    for how long?
-    funded from where?
-    under what market conditions?
-    what other constraints remain fixed?
-
-If unresolved values can flip the result:
-
-    CONDITIONAL
-
-or:
-
-    UNKNOWN/GAP
-
-is required.
-
-# 10. MINIMAL INTERVENTION
-
-Let:
-
-    Changed(CF)
-
-denote all variables that differ from actuality.
-
-Then the default integrity condition is:
-
-    Changed(CF)
-      ⊆
-    DeclaredIntervention
-      ∪
-    LicensedCausalDescendants
-      ∪
-    ExplicitAuxiliaryChanges
-
-Any unexplained alteration is:
-
-    E_CF_HIDDEN_CHANGE
-
-# 11. MINIMAL SURGERY FORMALIZATION
-
-For structural equations:
-
-    Vi = fi(PAi, Ui)
-
-an intervention:
-
-    do(X = x')
-
-conceptually replaces the generating mechanism for X with:
-
-    X := x'
-
-while preserving unaffected mechanisms.
+```text
+Does this principal possess valid authority
+to perform this operation against this target?
+```
 
 Thus:
 
-    M =
-    {f1, f2, ..., fX, ..., fn}
+```text
+PolicyAllow(P, A, R)
+∧
+AuthorityValid(P, A, R)
+```
 
-becomes:
+may be required before execution.
 
-    MI =
-    {f1, f2, ..., X:=x', ..., fn}
+But:
 
-unless additional structural changes are explicitly declared.
+```text
+PolicyAllow(P, A, R)
+```
 
-This is a formal specification pattern.
+alone is insufficient.
 
-It is not a claim that every AMOS runtime literally executes a structural
-causal model implementation.
+Likewise:
 
-# 12. HIDDEN CO-INTERVENTION
+```text
+AuthorityValid(P, A, R)
+```
 
-Suppose:
+does not override applicable policy unless a valid policy explicitly defines such an override mechanism.
 
-    X := x'
+---
 
-is declared.
+# 6. Relationship to Control Plane
 
-But the generated scenario also changes:
+The policy decision is evidence consumed by the control plane.
 
-    Z := z'
-
-Then Z's change must be classified as:
-
-    CAUSALLY_ENTAILED
-
-    SYSTEM_REACTION
-
-    EXPLICIT_AUXILIARY_INTERVENTION
-
-or:
-
-    HIDDEN_CHANGE
-
-`HIDDEN_CHANGE` invalidates the branch until corrected.
-
-# 13. CAUSAL MODEL REQUIREMENT
-
-Historical AMOS rule:
-
-    VALID COUNTERFACTUAL REASONING
-    REQUIRES A CAUSAL MODEL
-    OF HOW RELEVANT THINGS ARE CONNECTED.
-
-Without adequate causal structure, the output is speculative.
-
-Normalized representation:
-
-    CausalModel:
-
-      model_id
-      version
-      causal_epoch
-
-      nodes
-
-      edges:
-        source
-        target
-        relation_type
-        evidence
-        provenance
-        scope
-        regime
-        freshness
-        confidence
-        falsifier
-
-      exogenous_variables
-
-      endogenous_variables
-
-      assumptions
-
-      validity_envelope
-
-      competing_models
-
-# 14. CAUSAL RELATION TYPES
-
-AMOS must distinguish:
-
-    ASSOCIATION
-    CORRELATION
-    TEMPORAL_PRECEDENCE
-    MECHANISM
-    ENABLEMENT
-    NECESSITY
-    SUFFICIENCY
-    MEDIATION
-    MODERATION
-    CONFOUNDING
-    FEEDBACK
-    CAUSAL_EFFECT
-
-These are not interchangeable.
-
-# 15. CAUSAL FIREWALL
-
-Forbidden:
-
-    A happened before B
-          ↓
-    A caused B
-
-Forbidden:
-
-    A correlates with B
-          ↓
-    changing A changes B
-
-Forbidden:
-
-    A resembles C
-          ↓
-    A and C share causal behavior
-
-Forbidden:
-
-    model predicts Y
-          ↓
-    Y certainly occurs
-
-Forbidden:
-
-    source says X caused Y
-          ↓
-    causal relation verified
-
-Causal inference requires appropriately typed evidence.
-
-# 16. OBSERVATION / INTERVENTION / COUNTERFACTUAL
-
-Observational quantity:
-
-    P(Y | X=x)
-
-Interventional quantity:
-
-    P(Y | do(X=x))
-
-Counterfactual quantity:
-
-    P(Yx' | X=x, Y=y, E=e)
-
-These answer different questions.
-
-AMOS must not silently substitute one level for another.
-
-# 17. ABDUCTION
-
-Given evidence:
-
-    E = e
-
-infer plausible background or latent states:
-
-    P(U | E=e, M)
-
-where probabilistic semantics are justified.
-
-If several latent states remain materially possible:
-
-    U1
-    U2
-    U3
-
-preserve them.
-
-Do not silently choose whichever latent state produces the preferred
-counterfactual.
-
-# 18. ACTION
-
-Apply the intervention:
-
-    MI = Intervene(M, I)
-
-Only explicitly licensed intervention semantics may alter the causal model.
-
-# 19. PROJECTION
-
-Propagate the modified model.
+The policy decision MUST NOT impersonate the control plane itself.
 
 Conceptually:
 
-    YCF = Predict(MI, U)
-
-or, where probabilistically justified:
-
-    P(YCF)
-      =
-    ΣU P(YCF | U, MI) P(U | E)
-
-If probability semantics are not justified, return:
-
-    possible outcomes
-    ordering
-    qualitative likelihood
-    bounds
-    or UNKNOWN
-
-rather than invented numerical probability.
-
-# 20. CORE RUNTIME
-
-    FACTUAL STATE
-          ↓
-    ABDUCTION
-          ↓
-    BACKGROUND STATE
-          ↓
-    INTERVENTION
-          ↓
-    MODIFIED MODEL
-          ↓
-    CAUSAL PROPAGATION
-          ↓
-    SYSTEM RESPONSE
-          ↓
-    COUNTERFACTUAL STATE
-          ↓
-    UNCERTAINTY
-          ↓
-    ADVERSARIAL VALIDATION
-          ↓
-    CONCLUSION
-
-# 21. CAUSAL CHAIN CONSERVATION
-
-Given:
-
-    A → B → C → D
-
-intervening on A requires evaluating affected descendants:
-
-    A'
-     ↓
-    B'
-     ↓
-    C'
-     ↓
-    D'
-
-unless an edge is independently shown to be irrelevant or blocked.
-
-The kernel must not skip B and C merely because D is the queried outcome.
-
-# 22. DEPENDENCY CLOSURE
-
-Define:
-
-    Closure(I,Q)
-
-as the smallest set of variables, mechanisms, premises, evidence, and
-dependencies capable of changing the answer to query Q under intervention I.
-
-Example:
-
-    X → A → B → Y
-
-requires consideration of:
-
-    X
-    A
-    B
-    Y
-
-but an independently irrelevant Z need not be loaded.
-
-This implements the v4.4 smallest-sufficient-proof principle.
-
-# 23. CAUSAL CLOSURE FAILURE
-
-If:
-
-    X → ? → Y
-
-contains an unknown load-bearing mechanism:
-
-    DO NOT INVENT THE EDGE.
-
-Return:
-
-    UNKNOWN/GAP
-
-or, if an explicit hypothetical assumption is useful:
-
-    CONDITIONAL
-
-with that assumption exposed.
-
-# 24. CONFOUNDING
-
-Pattern:
-
-        Z
-       / \
-      ↓   ↓
-      X   Y
-
-may create observed association between X and Y without:
-
-    X → Y
-
-Track:
-
-    confounding:
-      known
-      suspected
-      unresolved
-      ruled_out
-
-Material unresolved confounding caps causal attribution.
-
-# 25. MEDIATION
-
-For:
-
-    X → M → Y
-
-the following interventions differ:
-
-    CHANGE X
-    AND ALLOW M TO RESPOND
-
-versus:
-
-    CHANGE X
-    WHILE HOLDING M FIXED
-
-They represent different counterfactual worlds.
-
-AMOS must preserve the distinction.
-
-# 26. MODERATION
-
-If:
-
-    Effect(X → Y | Z=z1)
-        !=
-    Effect(X → Y | Z=z2)
-
-then Z is decision-relevant.
-
-The conclusion inherits the condition.
-
-# 27. NECESSITY
-
-Question:
-
-    Would Y have occurred without X?
-
-Compare:
-
-    Yx
-
-with:
-
-    Yx'
-
-where x' removes or changes X.
-
-Necessity is always bounded by:
-
-    model
-    scope
-    regime
-    time
-    assumptions
-
-# 28. SUFFICIENCY
-
-Question:
-
-    Would introducing X be enough to produce Y?
-
-Possible classifications:
-
-    NECESSARY BUT NOT SUFFICIENT
-
-    SUFFICIENT BUT NOT NECESSARY
-
-    BOTH NECESSARY AND SUFFICIENT
-
-    NEITHER
-
-These categories must remain distinct.
-
-# 29. OVERDETERMINATION
-
-Suppose:
-
-    A → Y
-    B → Y
-
-and either A or B is sufficient.
-
-Removing A may leave Y unchanged because B remains.
-
-Therefore:
-
-    Y still occurs without A
-
-does not necessarily imply:
-
-    A had no causal role.
-
-# 30. PREEMPTION
-
-Suppose:
-
-    A causes Y first
-
-while:
-
-    B would have caused Y
-    if A had not done so.
-
-Removing A can activate B.
-
-Simple but-for analysis may therefore mischaracterize causal contribution.
-
-# 31. SYSTEM REACTION
-
-Historical AMOS explicitly warns against treating reactive systems as static.
-
-Full reaction chain:
-
-    INTERVENTION
-          ↓
-    DIRECT EFFECT
-          ↓
-    SYSTEM RESPONSE
-          ↓
-    SECOND-ORDER EFFECT
-          ↓
-    FEEDBACK
-          ↓
-    NEW TRAJECTORY
-
-Responses may include:
-
-    adaptation
-    substitution
-    compensation
-    gaming
-    competitive response
-    policy response
-    behavioral change
-    resource reallocation
-    equilibrium change
-
-If a model freezes a reactive system, that must be an explicit assumption.
-
-# 32. FEEDBACK
-
-If:
-
-    Xt → Yt+1
-
-and:
-
-    Yt → Xt+1
-
-static one-step reasoning may be inadequate.
-
-Dynamic form:
-
-    SCF(t+1)
-      =
-    F(SCF(t), It, Et, M)
-
-may be required.
-
-# 33. TEMPORAL STATE
-
-    TemporalCounterfactual:
-
-      factual_time
-      intervention_time
-      divergence_time
-      outcome_horizon
-      lag_structure
-      persistence
-      delayed_effects
-      feedback_period
-
-# 34. PRE-INTERVENTION INVARIANCE
-
-Default:
-
-    for t < intervention_time:
-
-        WorldCF(t)
-          =
-        WorldActual(t)
-
-unless earlier history is explicitly intervened upon.
-
-# 35. COUNTERFACTUAL DISTANCE
-
-Define qualitative counterfactual distance as a function of:
-
-    intervention distance
-    structural distance
-    temporal distance
-    regime distance
-    assumption distance
-
-Conceptually:
-
-    DCF =
-    f(DI, DS, DT, DR, DA)
-
-No universal weighting is asserted.
-
-# 36. DISTANCE CLASSES
-
-    NEAR
-
-      small intervention
-      stable regime
-      limited dependency change
-      low assumption burden
-
-    MID
-
-      several dependencies
-      possible adaptation
-      moderate assumption burden
-
-    FAR
-
-      structural change
-      possible regime change
-      long horizon
-      high assumption burden
-
-    INCOHERENT
-
-      violates hard constraints
-      internally inconsistent
-      impossible under declared model
-
-# 37. UNCERTAINTY-DISTANCE LAW
-
-Historical AMOS principle:
-
-    FARTHER FROM ACTUALITY
-            ↓
-    GREATER UNCERTAINTY
-
-Normalized law:
-
-    if DCF2 > DCF1
-
-then confidence in CF2 must not exceed CF1 merely because CF2 is narrated in
-greater detail.
-
-Detail is not evidence.
-
-# 38. STRUCTURAL INTERVENTION
-
-A structural intervention changes a mechanism:
-
-    fY → f'Y
-
-rather than only changing a variable value:
-
-    Y := y'
-
-Structural changes may invalidate broad dependency closures.
-
-Therefore:
-
-    STRUCTURAL CHANGE
-          ↓
-    DEEPER REVALIDATION
-
-# 39. PARAMETRIC INTERVENTION
-
-A parametric intervention changes:
-
-    θ → θ'
-
-while potentially preserving model topology.
-
-Local reasoning may remain valid if:
-
-    scope stable
-    regime stable
-    topology stable
-    mechanism stable
-    dependency closure stable
-
-# 40. REGIME
-
-    Regime:
-
-      regime_id
-      environment
-      constraints
-      dominant_mechanisms
-      thresholds
-      validity_conditions
-
-# 41. REGIME FIREWALL
-
-If:
-
-    RegimeActual
-      !=
-    RegimeCounterfactual
-
-then inherited causal relations require revalidation.
+```text
+POLICY ENGINE
+    ↓
+POLICY_DECISION
+    ↓
+CONTROL PLANE
+    ↓
+final admissibility / commit checks
+```
+
+The control plane may reject an action even when:
+
+```text
+policy_decision = ALLOW
+```
+
+because another load-bearing condition failed.
 
 Examples:
 
-    NORMAL → CRISIS
+```text
+authority stale;
+capability contract changed;
+resource state changed;
+read set stale;
+constraint context changed;
+effect digest changed;
+transaction lineage changed;
+observability requirements unmet;
+release ledger ambiguous;
+receiver completion uncertain.
+```
 
-    LOW LOAD → SATURATION
+---
 
-    STABLE MARKET → PANIC
+# 7. Core Policy Decision Object
 
-    PEACE → CONFLICT
+Canonical conceptual object:
 
-    NORMAL GOVERNANCE → EMERGENCY GOVERNANCE
+```text
+POLICY_DECISION :=
+    Identity
+  × Subject
+  × RequestedAction
+  × Target
+  × CapabilityContext
+  × PolicySet
+  × Applicability
+  × EvidenceContext
+  × AuthorityContext
+  × ConstraintContext
+  × EvaluationResults
+  × CompositionResult
+  × Obligations
+  × Prohibitions
+  × Conditions
+  × Scope
+  × Regime
+  × Freshness
+  × Provenance
+  × Uncertainty
+  × FinalDecision
+```
 
-# 42. SCOPE
+---
 
-    Scope:
+# 8. Canonical Representation
 
-      system
-      entity
-      population
-      geography
-      environment
-      scale
-      time
-      measurement
-      assumptions
+```yaml
+policy_decision:
+  identity:
+    decision_id: "PD_*"
+    version: "1.0.0"
+    schema_version: "1.0.0"
 
-Counterfactual conclusions inherit their applicability envelope.
+  subject:
+    principal_id: null
+    principal_type: null
+    delegation_chain: []
 
-# 43. CROSS-SCALE FIREWALL
+  request:
+    action: null
+    operation: null
+    capability_id: null
+    provider_id: null
+    target_id: null
+    resource_ids: []
+    effect_class: null
 
-    MICRO EFFECT
-       !=
-    MACRO EFFECT
+  context:
+    task_id: null
+    transaction_id: null
+    session_id: null
+    environment: null
+    scope: {}
+    regime: {}
+    time: null
 
-without justified aggregation.
+  policies:
+    discovered: []
+    applicable: []
+    non_applicable: []
+    unresolved: []
 
-Emergent system effects can invalidate naive composition.
+  evaluations: []
 
-# 44. CROSS-DOMAIN FIREWALL
+  composition:
+    strategy: null
+    conflicts: []
+    unresolved_conflicts: []
 
-    STRUCTURAL RESEMBLANCE
-           !=
-    CAUSAL TRANSFER
+  obligations: []
+  prohibitions: []
+  conditions: []
 
-Cross-domain mappings remain:
+  authority:
+    state: UNKNOWN
+    witness_refs: []
 
-    MODEL
+  constraints:
+    state: UNKNOWN
+    refs: []
 
-until independently validated.
+  evidence:
+    refs: []
 
-# 45. MULTI-AGENT COUNTERFACTUAL
+  provenance:
+    policy_versions: []
+    source_refs: []
+    ancestry: []
 
-For strategic systems:
+  freshness:
+    evaluated_at: null
+    expires_at: null
+    invalidation_events: []
 
-    A acts
-      ↓
-    B responds
-      ↓
-    A adapts
-      ↓
-    C responds
+  decision:
+    state: UNKNOWN_GAP
+    reason_codes: []
 
-Schema:
+  uncertainty:
+    evidence: null
+    applicability: null
+    policy_interpretation: null
+    scope: null
+    temporal: null
+    authority: null
+    provenance_independence: null
 
-    MultiAgentCounterfactual:
+  confidence_ceiling: 0
+```
 
-      focal_intervention
-      agents
-      agent_models
-      information_states
-      response_rules
-      strategic_dependencies
-      equilibrium_or_trajectory
-      uncertainty
+---
 
-Holding all agents fixed can itself be an unrealistic assumption.
+# 9. Policy Decision States
 
-# 46. INFORMATION COUNTERFACTUAL
+The base AMOS policy-decision state space SHOULD include:
 
-Question:
+```text
+ALLOW
+DENY
+CONDITIONAL
+ESCALATE
+REVALIDATE
+CONFLICT
+NOT_APPLICABLE
+UNKNOWN_GAP
+```
 
-    What if agent A knew information F?
+These states MUST remain semantically distinct.
 
-Requires:
+---
 
-    INFORMATION
-       ↓
-    BELIEF UPDATE
-       ↓
-    DECISION
-       ↓
-    ACTION
-       ↓
-    SYSTEM RESPONSE
-       ↓
-    OUTCOME
+# 10. ALLOW
 
-Information does not automatically determine action.
+`ALLOW` means:
 
-# 47. BELIEF COUNTERFACTUAL
+> The applicable policy set, under the evaluated scope, regime, evidence, policy versions, and context, does not prohibit the requested operation and all policy-local mandatory conditions evaluated by this policy decision have been satisfied.
 
-Changing:
+It does **not** mean:
 
-    Belief(A) := B'
+```text
+AUTHORIZED
+EXECUTABLE
+SAFE
+CORRECT
+COMMITTABLE
+COMMITTED
+```
 
-does not change:
+A downstream authority or commit gate may still block the action.
 
-    WorldTruth
+---
 
-Hard distinction:
+# 11. DENY
 
-    WORLD STATE
-        !=
-    BELIEF STATE
+`DENY` means:
 
-# 48. REFLEXIVE COUNTERFACTUAL
+> At least one applicable governing policy prohibits the requested action and no valid higher-precedence rule resolves the prohibition in favor of execution.
 
-A prediction may itself enter the causal system:
+A denial SHOULD include:
 
-    PREDICTION
-       ↓
-    AGENT RESPONSE
-       ↓
-    SYSTEM CHANGE
-       ↓
-    OUTCOME
+```yaml
+denial:
+  policy_id: string
+  rule_id: string
+  reason_code: string
+  explanation: string
+  scope: {}
+  remediation_possible: null
+```
 
-The forecast cannot then be treated as causally external.
+A denial MUST NOT be silently converted into `ALLOW` because an agent believes the action is useful.
 
-# 49. SELF-MODIFYING SYSTEMS
+---
+
+# 12. CONDITIONAL
+
+`CONDITIONAL` means:
+
+> Policy permits the action only if explicitly identified conditions are satisfied.
+
+Example:
+
+```yaml
+decision:
+  state: CONDITIONAL
+
+conditions:
+  - condition_id: "COND_001"
+    requirement: "human approval required"
+    state: UNSATISFIED
+```
+
+Until all mandatory conditions are satisfied:
+
+```text
+CONDITIONAL != ALLOW
+```
+
+---
+
+# 13. ESCALATE
+
+`ESCALATE` means:
+
+> The policy layer has identified a decision that cannot be safely or legitimately resolved at the current authority, evidence, or governance level.
+
+Examples:
+
+```text
+policy ambiguity;
+high-consequence action;
+conflicting governing policies;
+missing authority interpretation;
+unresolved legal constraint;
+exception request;
+insufficient policy coverage;
+required human decision.
+```
+
+Escalation is not denial.
+
+It is also not permission.
+
+---
+
+# 14. REVALIDATE
+
+`REVALIDATE` means:
+
+> A previously usable policy result cannot safely be reused because one or more load-bearing validity conditions may have changed.
+
+Examples:
+
+```text
+policy version changed;
+policy registry changed;
+authority changed;
+resource state changed;
+scope changed;
+regime changed;
+capability contract changed;
+effect changed;
+freshness expired.
+```
+
+---
+
+# 15. CONFLICT
+
+`CONFLICT` means:
+
+> Two or more applicable policies produce incompatible requirements and the conflict cannot be deterministically resolved using valid precedence, specificity, scope, supersession, or exception rules.
+
+The conflict MUST remain visible.
+
+```text
+CONFLICT != DENY
+CONFLICT != ALLOW
+```
+
+unless a governing conflict-resolution rule explicitly defines the outcome.
+
+---
+
+# 16. NOT_APPLICABLE
+
+`NOT_APPLICABLE` means:
+
+> A policy or policy decision does not govern the requested action under the evaluated applicability envelope.
+
+This state SHOULD be used for individual policy evaluation.
+
+A final decision cannot infer `ALLOW` merely because one discovered policy is not applicable.
+
+---
+
+# 17. UNKNOWN_GAP
+
+`UNKNOWN_GAP` means:
+
+> The policy result cannot be established with sufficient integrity from available policy, context, evidence, or applicability information.
+
+This state is mandatory when a load-bearing policy question is unresolved.
+
+```text
+UNKNOWN/GAP != ALLOW
+UNKNOWN/GAP != PASS
+```
+
+---
+
+# 18. Decision Subject
+
+Every policy decision MUST identify the governed subject where applicable.
+
+```yaml
+subject:
+  principal_id: string
+
+  principal_type:
+    - HUMAN
+    - AGENT
+    - SERVICE
+    - WORKFLOW
+    - SYSTEM
+    - ORGANIZATION
+    - CONTROL_PLANE
+
+  acting_as: null
+
+  delegation_chain: []
+
+  tenant_id: null
+  organization_id: null
+```
+
+Identity alone does not establish authority.
+
+---
+
+# 19. Requested Action
+
+The requested action SHOULD be represented independently of natural-language intent.
+
+```yaml
+request:
+  action_id: string
+
+  action_class:
+    - READ
+    - SEARCH
+    - RETRIEVE
+    - TRANSFORM
+    - GENERATE
+    - ANALYZE
+    - PREDICT
+    - PROPOSE
+    - WRITE
+    - UPDATE
+    - DELETE
+    - EXECUTE
+    - COMMUNICATE
+    - TRANSFER
+    - COMMIT
+    - ADMINISTER
+    - DELEGATE
+
+  operation: string
+
+  capability_id: null
+  provider_id: null
+
+  target_id: null
+  resource_ids: []
+
+  parameters_hash: null
+
+  effect_class: null
+```
+
+Policy evaluation SHOULD use the normalized operation where possible rather than relying only on natural-language labels.
+
+---
+
+# 20. Effect Intent
+
+For effect-producing actions, policy evaluation SHOULD receive an explicit effect intent.
+
+```yaml
+effect_intent:
+  effect_id: string
+
+  effect_type: string
+
+  target: string
+
+  payload_digest: string
+
+  effect_class: string
+
+  persistent: boolean
+
+  externally_visible: boolean
+
+  reversible: null
+
+  compensation_available: null
+```
+
+Policy SHOULD evaluate the proposed effect, not merely the tool name.
+
+---
+
+# 21. Policy Applicability
+
+Before evaluating a policy's rule body, AMOS SHOULD establish whether that policy applies.
+
+Applicability may depend on:
+
+```text
+principal type;
+action class;
+capability;
+provider;
+target;
+resource;
+domain;
+environment;
+jurisdiction;
+scope;
+regime;
+time;
+effect class;
+sensitivity;
+consequence;
+delegation state.
+```
+
+---
+
+# 22. Applicability Record
+
+```yaml
+applicability:
+  policy_id: string
+  policy_version: string
+
+  result:
+    - APPLICABLE
+    - NOT_APPLICABLE
+    - CONDITIONAL
+    - UNKNOWN_GAP
+
+  matched_conditions: []
+  failed_conditions: []
+  unresolved_conditions: []
+
+  scope_match: null
+  regime_match: null
+  principal_match: null
+  action_match: null
+  target_match: null
+  temporal_match: null
+```
+
+---
+
+# 23. Applicability Invariant
+
+Unknown applicability for a potentially governing policy MUST NOT silently become non-applicability.
+
+Formally:
+
+```text
+PotentiallyGoverning(P)
+∧
+Applicability(P) = UNKNOWN
+→
+FinalDecision ≠ ALLOW
+```
+
+unless another canonical rule explicitly proves that the unresolved policy cannot change the outcome.
+
+---
+
+# 24. Individual Policy Evaluation
+
+Each applicable policy SHOULD generate an independent evaluation record.
+
+```yaml
+policy_evaluation:
+  policy_id: string
+  policy_version: string
+
+  rule_id: string
+
+  applicability: APPLICABLE
+
+  result:
+    - ALLOW
+    - DENY
+    - CONDITIONAL
+    - ESCALATE
+    - UNKNOWN_GAP
+
+  reasons: []
+
+  obligations: []
+  prohibitions: []
+  conditions: []
+
+  evidence_refs: []
+
+  scope: {}
+  regime: {}
+
+  confidence_ceiling: null
+```
+
+The final decision is composed from these records.
+
+---
+
+# 25. Policy Composition
+
+Multiple policies may govern one action.
+
+Conceptually:
+
+```text
+P1 → D1
+P2 → D2
+P3 → D3
+
+Compose(D1, D2, D3)
+        ↓
+POLICY_DECISION
+```
+
+Composition MUST NOT use arbitrary ordering unless ordering itself is canonical policy.
+
+---
+
+# 26. Composition Inputs
+
+Policy composition SHOULD consider:
+
+```text
+policy precedence;
+scope specificity;
+principal specificity;
+resource specificity;
+effect specificity;
+version/supersession;
+exception relationships;
+jurisdiction;
+temporal validity;
+explicit override relationships;
+hard-vs-soft constraint class.
+```
+
+---
+
+# 27. Policy Precedence
+
+Where precedence exists, it MUST be explicit.
+
+```yaml
+precedence:
+  policy_id: string
+  outranks:
+    - policy_id: string
+  basis:
+    - CANON
+    - LAW
+    - ORGANIZATIONAL_AUTHORITY
+    - POLICY_HIERARCHY
+    - EXPLICIT_SUPERSESSION
+```
+
+No policy receives precedence merely because it was loaded first.
+
+---
+
+# 28. Only-Tighten Principle
+
+Where applicable to a policy family, delegated or lower-level policy SHOULD be allowed to tighten a governing constraint but not silently weaken it.
+
+Conceptually:
+
+```text
+Allowed_lower ⊆ Allowed_upper
+```
+
+unless the upper policy explicitly grants exception authority.
+
+This is a governance model rule and MUST be scoped to policy families where such inheritance is defined.
+
+---
+
+# 29. Deny Dominance
+
+For hard constraints:
+
+```text
+HardDeny(P)
+→
+DENY
+```
+
+unless a valid explicit override rule exists.
+
+The system MUST NOT infer an override from:
+
+```text
+agent preference;
+business value;
+model confidence;
+technical capability;
+successful previous execution.
+```
+
+---
+
+# 30. Conditional Composition
 
 If:
 
-    Mt → Mt+1
+```text
+P1 = ALLOW
+P2 = CONDITIONAL(C1)
+P3 = CONDITIONAL(C2)
+```
 
-then intervention may alter future causal structure.
+then:
 
-Projection may require:
+```text
+Final = CONDITIONAL(C1 ∧ C2)
+```
 
-    M0
-     ↓ intervention
-    M1'
-     ↓
-    M2'
-     ↓
-    M3'
+unless precedence rules establish otherwise.
 
-rather than a permanently fixed M.
+---
 
-# 50. MULTIPLE INTERVENTIONS
+# 31. Unknown Composition
 
-For:
+If an unresolved policy could materially change the decision:
 
-    I = {I1, I2, ..., In}
+```text
+OutcomeSensitiveUnknown = true
+```
 
-do not assume:
+then:
 
-    Effect(I1 + I2)
-       =
-    Effect(I1) + Effect(I2)
+```text
+FinalDecision = UNKNOWN_GAP
+```
 
-Interactions may be:
+or:
 
-    INDEPENDENT
-    SYNERGISTIC
-    ANTAGONISTIC
-    THRESHOLD_DEPENDENT
-    ORDER_DEPENDENT
+```text
+ESCALATE
+```
 
-# 51. ORDER EFFECT
+depending on governance rules.
 
-In path-dependent systems:
+---
 
-    CF(CF(W,I1),I2)
-
-may differ from:
-
-    CF(CF(W,I2),I1)
-
-Therefore intervention ordering may itself be load-bearing.
-
-# 52. COMPETING CAUSAL MODELS
-
-Let:
-
-    M = {M1, M2, ..., Mn}
-
-Then evaluate:
-
-    CF1 = CF(W,I,M1)
-    CF2 = CF(W,I,M2)
-    ...
-    CFn = CF(W,I,Mn)
-
-If supported models produce materially incompatible outcomes:
-
-    CONCLUSION CLASS = COMPETING
-
-until discriminating evidence resolves them.
-
-# 53. MODEL ROBUSTNESS
+# 32. Conflict Preservation
 
 Suppose:
 
-    M1 → conclusion A
-    M2 → conclusion A
-    M3 → conclusion A
+```text
+P1 → REQUIRE(A)
+P2 → PROHIBIT(A)
+```
 
-This increases robustness only if M1, M2, and M3 are genuinely distinct in
-their load-bearing assumptions or evidence.
+and neither has valid precedence.
 
-Shared ancestry reduces independence.
+Then:
 
-# 54. PROVENANCE TOPOLOGY
+```text
+FinalDecision = CONFLICT
+```
 
-    ProvenanceItem:
+The system MUST NOT select whichever result is more convenient.
 
-      evidence_id
-      evidence_type
-      source
-      source_identity
-      ancestry
-      collected_at
-      freshness
-      scope
-      regime
-      method
-      dependencies
+---
 
-Counterfactual confidence must account for evidence ancestry.
+# 33. Obligations
 
-# 55. SYBIL HARDENING
+Policy may permit an action while imposing obligations.
 
-    ONE ORIGINAL CLAIM
-          ↓
-    10 SUMMARIES
-          ↓
-    100 DERIVED NOTES
-          ↓
-    1000 SCENARIO BRANCHES
+```yaml
+obligation:
+  obligation_id: string
 
-does not become:
+  type:
+    - LOG
+    - AUDIT
+    - NOTIFY
+    - APPROVAL
+    - REDACT
+    - ENCRYPT
+    - RETAIN
+    - DELETE_AFTER
+    - RECORD_PROVENANCE
+    - REQUIRE_RECEIPT
+    - REQUIRE_ROLLBACK
+    - REQUIRE_REVALIDATION
 
-    1000 INDEPENDENT CONFIRMATIONS
+  requirement: string
 
-Generated branches are reasoning products, not independent evidence.
+  timing:
+    - PRE_ACTION
+    - DURING_ACTION
+    - POST_ACTION
+    - COMMIT_TIME
 
-# 56. EVIDENCE TYPES
+  state:
+    - UNSATISFIED
+    - SATISFIED
+    - WAIVED
+    - UNKNOWN_GAP
 
-Evidence topology distinguishes:
+  evidence_refs: []
+```
 
-    SOURCE_CLAIM
-    OBSERVATION
-    DERIVED
-    MODEL
-    DECISION
-    UNKNOWN
+---
 
-Counterfactual states are normally:
+# 34. Obligation Invariant
 
-    MODEL
+Mandatory pre-action obligations MUST be satisfied before action release.
 
-or:
+```text
+MandatoryPreObligation
+∧
+state != SATISFIED
+→
+not releasable
+```
 
-    DERIVED
+A post-action obligation may not necessarily block execution, but MUST remain tracked.
 
-not observation.
+---
 
-# 57. CONFIDENCE CEILING
+# 35. Prohibitions
 
-For load-bearing premises:
+Explicit prohibitions SHOULD be represented independently.
 
-    P1 ... Pn
+```yaml
+prohibition:
+  prohibition_id: string
 
-candidate v4.4 rule:
+  policy_id: string
 
-    Confidence(CF)
-      <=
-    min(
-      Confidence(P1),
-      ...
-      Confidence(Pn)
-    )
+  prohibited_operation: string
 
-unless a weak premise is independently revalidated or removed from the proof
-path.
+  scope: {}
 
-Reasoning fluency cannot increase evidential confidence.
+  regime: {}
 
-# 58. UNCERTAINTY VECTOR
+  exception_refs: []
 
-    UCF =
-    (
-      evidence_uncertainty,
-      model_uncertainty,
-      scope_uncertainty,
-      temporal_uncertainty,
-      causal_uncertainty,
-      intervention_uncertainty,
-      execution_uncertainty,
-      provenance_independence_uncertainty
-    )
+  hard: true
+```
 
-These should remain separate where they could change a decision.
+This prevents prohibitions from disappearing into explanatory prose.
 
-# 59. IDENTIFIABILITY
+---
 
-Distinguish:
+# 36. Conditions
 
-    DEFINED
+Conditions differ from obligations.
 
-    IDENTIFIABLE
+A condition determines whether policy permission becomes valid.
 
-    ESTIMABLE
+An obligation describes something that must be performed as part of governed execution.
 
-    ESTIMATED
+Example:
 
-    VALIDATED
+```text
+CONDITION:
+user approval must exist.
 
-A counterfactual can be conceptually meaningful but not identifiable from
-available evidence.
+OBLIGATION:
+record approval provenance.
+```
 
-Correct response:
+These SHOULD remain separate.
 
-    COUNTERFACTUAL DEFINED
-    BUT NOT IDENTIFIED
-    FROM AVAILABLE EVIDENCE
+---
 
-# 60. PARTIAL IDENTIFICATION
+# 37. Exception Model
 
-If exact value is unavailable but defensible bounds exist:
+Exceptions MUST be explicit governed objects.
 
-    L <= CF <= U
+```yaml
+policy_exception:
+  exception_id: string
 
-return the interval.
+  policy_id: string
+  rule_id: string
 
-Do not invent a point estimate.
+  principal_scope: []
+  action_scope: []
+  resource_scope: []
 
-If every value within the interval produces the same decision, decision
-sufficiency may nevertheless be achieved.
+  valid_from: null
+  valid_until: null
 
-# 61. PLAUSIBILITY / PROBABILITY FIREWALL
+  issuer: null
 
-    POSSIBLE
-       !=
-    PLAUSIBLE
-       !=
-    PROBABLE
+  authority_ref: null
 
-Also:
+  conditions: []
 
-    BRANCH COUNT
-       !=
-    PROBABILITY
+  provenance: []
 
-and:
+  revoked: false
+```
 
-    GENERATED FREQUENCY
-       !=
-    EMPIRICAL FREQUENCY
+---
 
-Without a justified probability model:
+# 38. Exception Invariant
 
-    DO NOT INVENT NUMERIC PROBABILITIES
+An exception MUST NOT broaden beyond its explicit envelope.
 
-# 62. CONSTRUCT_COUNTERFACTUAL
+```text
+ExceptionScope ⊆ AuthorizedExceptionScope
+```
 
-Historical function contract:
+Expired or revoked exceptions MUST NOT be reused.
 
-    construct_counterfactual
+---
 
-Inputs:
+# 39. Policy Decision Scope
 
-    actual_state
-    intervention_description
-    causal_model
-    plausibility_constraints
+Every material decision SHOULD preserve:
 
-Outputs:
+```yaml
+scope:
+  principal: []
+  capability: []
+  provider: []
+  resource: []
+  operation: []
+  environment: []
+  domain: []
+  scale: []
+  jurisdiction: []
+  exclusions: []
+```
 
-    counterfactual_state
-    causal_chain
-    uncertainties
-    assumption_list
-    plausibility_assessment
-    alternative_outcomes
+Empty scope does not automatically mean universal scope.
 
-Expanded contract:
+---
 
-    FUNCTION construct_counterfactual(
-        actual_state,
-        intervention,
-        causal_model,
-        plausibility_constraints
-    ):
+# 40. Regime
 
-        validate actual_state
+Policy validity may depend on regime.
 
-        validate intervention
+```yaml
+regime:
+  allowed:
+    - DEVELOPMENT
+    - TEST
 
-        establish scope
+  prohibited:
+    - PRODUCTION
 
-        establish regime
+  assumptions: []
 
-        establish temporal envelope
+  transition_revalidation_required: true
+```
 
-        determine dependency closure
+A development `ALLOW` MUST NOT silently become a production `ALLOW`.
 
-        verify causal model sufficiency
+---
 
-        identify assumptions
+# 41. Temporal Validity
 
-        identify confounders
+Every reusable policy decision SHOULD carry temporal validity.
 
-        apply minimal intervention
+```yaml
+freshness:
+  evaluated_at: timestamp
+  valid_from: timestamp
+  expires_at: timestamp
 
-        propagate causal descendants
+  policy_registry_epoch: string
+  policy_versions: {}
 
-        model system reactions
+  invalidation_events: []
+```
 
-        construct counterfactual state
+A policy decision is not permanently valid.
 
-        generate materially distinct alternatives
+---
 
-        assess uncertainty
+# 42. Freshness Invariant
 
-        identify sensitivity
+If a load-bearing policy changes:
 
-        identify falsifiers
+```text
+PolicyVersion_now != PolicyVersion_evaluated
+```
 
-        return CounterfactualResult
+then dependent policy decisions MUST be revalidated.
 
-# 63. COMPARE_ACTUAL_VS_COUNTERFACTUAL
+Likewise for:
 
-Historical inputs:
+```text
+authority change;
+scope change;
+regime change;
+target change;
+capability-contract change;
+effect change;
+constraint change.
+```
 
-    actual_outcome
-    counterfactual_outcome
-    causal_model
-    confidence_levels
+---
 
-Historical outputs:
+# 43. Fine-Grained Read Set
 
-    difference_analysis
-    causal_attribution
-    confounding_factors
-    attribution_confidence
-    alternative_explanation
+Where infrastructure supports precise dependency tracking, the policy decision SHOULD preserve the authoritative policy objects actually read during evaluation.
 
-Expanded comparison:
-
-    ACTUAL
-      vs
-    COUNTERFACTUAL
-
-along:
-
-    outcome
-    causal pathway
-    timing
-    magnitude
-    system response
-    uncertainty
-    distributional effect
-    assumptions
-    provenance
-    competing explanation
-
-# 64. SCENARIO_ANALYSIS
-
-Historical inputs:
-
-    current_state
-    scenario_list
-    uncertainty_model
-    decision_criteria
-
-Historical outputs:
-
-    scenario_outcomes
-    probability_assignments_if_available
-    recommended_preparation
-    early_warning_signals
-    scenario_comparison
-
-The phrase:
-
-    IF AVAILABLE
-
-is load-bearing.
-
-No justified probability model means:
-
-    NO FABRICATED PROBABILITY ASSIGNMENT
-
-# 65. SCENARIO SET
-
-    ScenarioSet:
-
-      factual_anchor
-
-      scenarios:
-        - scenario_id
-          intervention
-          assumptions
-          causal_model
-          outcome
-          uncertainty
-          early_warning_signals
-
-      comparison_dimensions
-
-      discriminating_evidence
-
-      decision_criteria
-
-# 66. SCENARIO DIVERSITY
-
-Do not generate many cosmetic variants.
-
-Branches should differ only where the difference can materially alter:
-
-    causal mechanism
-    outcome
-    risk
-    decision
-    action
-    governance
-
-Equivalent branches should be merged.
-
-# 67. FULL COUNTERFACTUAL RUNTIME
-
-    FUNCTION K_COUNTERFACTUAL(query):
-
-      1. Parse objective.
-
-      2. Determine:
-           scope,
-           stakes,
-           horizon,
-           deliverable.
-
-      3. Classify:
-           PAST,
-           FUTURE,
-           STRUCTURAL,
-           CAUSAL.
-
-      4. Bind factual anchor.
-
-      5. Bind intervention.
-
-      6. Bind queried outcome.
-
-      7. Identify decision-changing uncertainty.
-
-      8. Retrieve smallest sufficient dependency closure.
-
-      9. Retrieve causal model.
-
-     10. Type evidence.
-
-     11. Resolve provenance ancestry.
-
-     12. Check freshness.
-
-     13. Check scope.
-
-     14. Check regime.
-
-     15. Check causal epoch.
-
-     16. Check causal-model sufficiency.
-
-     17. Check confounding.
-
-     18. Check mediation.
-
-     19. Check moderation.
-
-     20. Check feedback.
-
-     21. Check system / strategic response.
-
-     22. If critical causal gap:
-           return UNKNOWN/GAP.
-
-     23. Perform abduction if required.
-
-     24. Apply minimal intervention.
-
-     25. Propagate licensed descendants.
-
-     26. Construct alternative state.
-
-     27. Generate only materially distinct alternatives.
-
-     28. Preserve competing models.
-
-     29. Assess plausibility.
-
-     30. Represent uncertainty.
-
-     31. Apply confidence ceiling.
-
-     32. Find smallest result-flipping premise.
-
-     33. Run adversarial validation when consequential.
-
-     34. Identify falsifiers.
-
-     35. Classify conclusion.
-
-     36. Apply action governance if action is requested.
-
-     37. Return proof-capsule-compatible result.
-
-# 68. COUNTERFACTUAL RSCF
-
-    CounterfactualRSCF:
-
-      claim:
-        statement
-        class
-
-      factual_anchor
-
-      intervention
-
-      queried_outcome
-
-      premises
-
-      evidence
-
-      provenance
-
-      causal_model
-
-      dependency_closure
-
-      scope
-
-      regime
-
-      causal_epoch
-
-      freshness
-
-      assumptions
-
-      competing_hypotheses
-
-      contradictions
-
-      falsifiers
-
-      sensitivity
-
-      uncertainty
-
-      confidence_ceiling
-
-      invalidation_conditions
-
-# 69. RECURSIVE RSCF
-
-    COUNTERFACTUAL RSCF
-    │
-    ├── FACTUAL STATE RSCF
-    │
-    ├── CAUSAL EDGE RSCF
-    │
-    ├── INTERVENTION VALIDITY RSCF
-    │
-    ├── SCOPE VALIDITY RSCF
-    │
-    ├── REGIME VALIDITY RSCF
-    │
-    └── PROVENANCE RSCF
-
-If a premise fails:
-
-    INVALIDATE ONLY
-    DEPENDENT DESCENDANTS
-
-# 70. ATOMIC MULTI-RSCF REASONING
-
-A consequential counterfactual decision may depend simultaneously on:
-
-    causal validity
-    technical feasibility
-    financial feasibility
-    safety
-    authorization
-    governance
-
-These load-bearing views should not be composed from mutually incompatible
-state snapshots.
-
-# 71. H/M/L INTEGRATION
-
-Retrieval path:
-
-    BOOTSTRAP CAPSULE
-          ↓
-    H DOMAIN
-          ↓
-    M SUBSYSTEM
-          ↓
-    L LOAD-BEARING DETAIL
-          ↓
-    RAW EVIDENCE
-    ONLY IF REQUIRED
-
-Raw evidence defaults:
-
-    DO_NOT_LOAD_UNLESS_REQUIRED
-
-The counterfactual kernel should not retrieve unrelated material merely to
-increase apparent depth.
-
-# 72. GMEF INTEGRATION
-
-Counterfactual reasoning may support governed evolution:
-
-    PROPOSED CHANGE
-          ↓
-    COUNTERFACTUAL CONSEQUENCES
-          ↓
-    COMPETING OUTCOMES
-          ↓
-    RISK / BENEFIT
-          ↓
-    GMEF
-          ↓
-    GOVERNED DECISION
-
-A favorable counterfactual does not itself authorize evolution.
-
-# 73. WORLD MODEL INTEGRATION
-
-Conceptual relation:
-
-    K_SYSTEM_STATE
-          ↓
-    K_WORLD_MODEL
-          ↓
-    K_COUNTERFACTUAL
-          ↓
-    COUNTERFACTUAL WORLD
-
-If required world-model mechanics are unavailable:
-
-    UNKNOWN/GAP
-
-must be preserved.
-
-# 74. CONTEXT STATE INTEGRATION
-
-    CounterfactualContext:
-
-      active_world:
-        ACTUAL
-        COUNTERFACTUAL
-
-      factual_parent
-
-      branch_id
-
-      intervention
-
-      goal
-
-      scope
-
-      regime
-
-      causal_epoch
-
-Leaving counterfactual mode restores factual context.
-
-# 75. MEMORY ADMISSION
-
-Counterfactual outputs retain their epistemic type.
-
-Forbidden:
-
-    COUNTERFACTUAL MODEL
-          ↓
-    MEMORY
-          ↓
-    FACT
-
-Correct memory representation:
-
-    MemoryRecord:
-
-      type: COUNTERFACTUAL_MODEL
-
-      factual_anchor
-
-      intervention
-
-      causal_model
-
-      assumptions
-
-      conclusion_class
-
-      scope
-
-      regime
-
-      provenance
-
-      freshness
-
-# 76. MEMORY RETRIEVAL
-
-Before reuse ask:
-
-    Is factual anchor still valid?
-
-    Is causal model compatible?
-
-    Is causal epoch compatible?
-
-    Is scope compatible?
-
-    Is regime compatible?
-
-    Is evidence fresh?
-
-    Has contradictory evidence appeared?
-
-    Did a load-bearing premise change?
-
-If yes to an invalidating condition:
-
-    REVALIDATION_REQUIRED
-
-# 77. CAUSAL EPOCH
-
-    CausalEpoch:
-
-      epoch_id
-      causal_model_version
-      evidence_snapshot
-      dependency_snapshot
-      provenance_snapshot
-      regime
-      validity_conditions
-
-Counterfactual capsules are reusable only across compatible causal epochs.
-
-# 78. CAUSAL EPOCH FINALITY
-
-A counterfactual conclusion finalized under epoch:
-
-    CE0
-
-cannot silently inherit validity under:
-
-    CE1
-
-if CE1 changes a load-bearing:
-
-    causal edge
-    mechanism
-    dependency
-    regime
-    evidence basis
-    provenance relation
-
-Revalidate affected closure only.
-
-# 79. MVCC / CAS REASONING PATTERN
+```yaml
+observed_policy_read_set:
+  - object_id: "POLICY_*"
+    version: string
+    content_hash: string
+```
 
 Conceptually:
 
-    READ FACTUAL STATE @ V0
-          ↓
-    COMPUTE COUNTERFACTUAL
-          ↓
-    BEFORE CONSEQUENTIAL USE:
-    CHECK LOAD-BEARING DEPENDENCIES
-          ↓
-       UNCHANGED?
-       /      \
-     YES      NO
-      ↓        ↓
-    REUSE   REVALIDATE
-            AFFECTED CLOSURE
+```text
+ReadSet =
+{
+  (object_id, version, content_hash)
+  actually observed during decision formation
+}
+```
 
-This is a reasoning pattern.
+A change to an unread unrelated policy SHOULD NOT invalidate the decision merely because the global registry changed.
 
-It is not a claim that the conversational runtime literally implements a
-distributed MVCC database.
+---
 
-# 80. FAST PATH
+# 44. Selective Invalidation
 
-Local reasoning is permitted only when:
+Suppose:
 
-    factual_anchor_valid = true
+```text
+Decision D1 depends on P1 and P2.
+Decision D2 depends on P3.
+```
 
-    intervention_unambiguous = true
+If `P2` changes:
 
-    dependency_closure_established = true
+```text
+invalidate D1
+preserve D2
+```
 
-    causal_model_adequate = true
+unless another dependency establishes broader impact.
 
-    provenance_independence_adequate = true
+This is preferred over indiscriminate global recomputation.
 
-    scope_compatible = true
+---
 
-    regime_compatible = true
+# 45. Policy Context
 
-    causal_epoch_compatible = true
+The policy evaluator SHOULD receive an explicit context object.
 
-    freshness_valid = true
+```yaml
+policy_context:
+  principal: {}
+  request: {}
+  capability: {}
+  target: {}
+  effect_intent: {}
 
-    material_conflict_absent = true
+  environment: {}
+  session: {}
 
-    stakes_reversible_or_limited = true
+  authority_context: {}
+  constraint_context: {}
 
-# 81. FAST-PATH INVALIDATORS
+  observed_state: {}
 
-Escalate when any material condition exists:
+  time_context: {}
 
-    causal ambiguity
-    confounding
-    correlated provenance
-    contradiction
-    stale premise
-    regime shift
-    scope transfer
-    structural intervention
-    feedback
-    nonlinearity
-    multi-agent response
-    irreversible consequence
-    safety exposure
-    legal exposure
-    financial exposure
-    institutional impact
-    governance impact
-    ambiguous dependency
+  provenance_context: {}
+```
 
-# 82. ADVERSARIAL VALIDATION
+Missing load-bearing context remains a gap.
 
-For consequential claims, challenge the strongest supported counterfactual.
+---
 
-Ask:
+# 46. Authority Context
 
-    Is the factual baseline wrong?
+Policy evaluation MAY depend on authority state.
 
-    Is the intervention ambiguous?
+However, authority MUST come from an authority-governed source.
 
-    Is a causal edge only correlational?
+```yaml
+authority_context:
+  authority_id: null
+  principal: null
 
-    Could reverse causality explain the observation?
+  operation: null
+  target: null
 
-    Is there hidden confounding?
+  valid_from: null
+  valid_until: null
 
-    Was a mediator incorrectly frozen?
+  revocation_state: UNKNOWN
 
-    Was a moderator ignored?
+  witness_ref: null
+```
 
-    Was feedback ignored?
+Policy logic MUST NOT fabricate authority.
 
-    Was system reaction ignored?
+---
 
-    Did the regime change?
+# 47. Constraint Context
 
-    Did scope expand silently?
+Policies may depend on constraints such as:
 
-    Are multiple sources descendants of one origin?
+```text
+legal;
+security;
+privacy;
+resource;
+safety;
+temporal;
+transactional;
+organizational;
+system integrity.
+```
 
-    Is evidence stale?
+Recommended representation:
 
-    Does another supported causal model reverse the result?
+```yaml
+constraint_context:
+  constraints: []
 
-    What is the smallest assumption that flips the conclusion?
+  version: null
+  hash: null
 
-If the challenge succeeds:
+  checked_at: null
+```
 
-    DOWNGRADE
+Constraint freshness may require commit-time revalidation.
 
-    CONDITION
+---
 
-    PRESERVE COMPETING
+# 48. Evidence
 
-or:
+A policy decision SHOULD retain evidence supporting material predicates.
 
-    RETURN UNKNOWN/GAP
+```yaml
+evidence:
+  evidence_id: string
 
-# 83. SENSITIVITY
+  evidence_class:
+    - OBSERVATION
+    - SOURCE_CLAIM
+    - DOCUMENT
+    - SYSTEM_STATE
+    - AUTHORITY_WITNESS
+    - POLICY_OBJECT
+    - VALIDATION_RESULT
+    - USER_INPUT
+    - TOOL_OBSERVATION
 
-Find the smallest premise, threshold, assumption, or observation capable of
-flipping the result.
+  source_id: string
+
+  observed_at: null
+
+  supports: []
+  contradicts: []
+
+  provenance: []
+```
+
+---
+
+# 49. Evidence Sufficiency
+
+Policy evaluation SHOULD distinguish:
+
+```text
+predicate known true;
+predicate known false;
+predicate unknown;
+predicate conflicting.
+```
+
+A missing value MUST NOT be coerced into the value most favorable to execution.
+
+---
+
+# 50. Provenance
+
+Every consequential policy decision SHOULD preserve sufficient provenance to reconstruct:
+
+```text
+which policies were evaluated;
+which versions;
+which rules fired;
+which context was used;
+which evidence supported predicates;
+which authority witness was consulted;
+which constraints were observed;
+when evaluation occurred;
+which evaluator produced the decision.
+```
+
+---
+
+# 51. Provenance Object
+
+```yaml
+provenance:
+  evaluator_id: string
+  evaluator_version: string
+
+  policy_refs: []
+  policy_versions: {}
+
+  evidence_refs: []
+
+  authority_refs: []
+  constraint_refs: []
+
+  source_ancestry: []
+
+  evaluation_time: null
+
+  environment: null
+
+  transaction_id: null
+```
+
+---
+
+# 52. Provenance Independence
+
+Multiple policy interpretations derived from one underlying source MUST NOT be treated as independent policy authority.
+
+For:
+
+```text
+P1 ← Source S
+P2 ← Source S
+P3 ← Source S
+```
+
+the existence of three policy objects does not establish three independent governing sources.
+
+Where material, ancestry SHOULD remain visible.
+
+---
+
+# 53. Decision Reason Codes
+
+Machine-readable reason codes SHOULD accompany policy decisions.
+
+Examples:
+
+```text
+ALLOW_POLICY_SATISFIED
+
+DENY_EXPLICIT_PROHIBITION
+DENY_EFFECT_CLASS
+DENY_RESOURCE_SCOPE
+DENY_PRINCIPAL_SCOPE
+DENY_REGIME
+DENY_REVOKED_EXCEPTION
+
+CONDITIONAL_APPROVAL_REQUIRED
+CONDITIONAL_REDACTION_REQUIRED
+CONDITIONAL_RECEIPT_REQUIRED
+
+ESCALATE_HIGH_CONSEQUENCE
+ESCALATE_POLICY_AMBIGUITY
+ESCALATE_AUTHORITY_REQUIRED
+
+REVALIDATE_POLICY_CHANGED
+REVALIDATE_AUTHORITY_CHANGED
+REVALIDATE_SCOPE_CHANGED
+REVALIDATE_EFFECT_CHANGED
+
+CONFLICT_POLICY_PRECEDENCE
+CONFLICT_JURISDICTION
+
+UNKNOWN_POLICY_COVERAGE
+UNKNOWN_APPLICABILITY
+UNKNOWN_AUTHORITY
+UNKNOWN_SCOPE
+UNKNOWN_REGIME
+UNKNOWN_EVIDENCE
+```
+
+Reason codes SHOULD NOT replace explanatory provenance.
+
+---
+
+# 54. Policy Decision Explanation
+
+The decision MAY expose a concise explanation:
+
+```yaml
+explanation:
+  summary: >
+    Operation is conditionally permitted under POLICY_X,
+    subject to approval and commit-time authority revalidation.
+
+  decisive_rules:
+    - "POLICY_X:R12"
+
+  unresolved:
+    - "commit authority freshness"
+```
+
+The explanation MUST reflect the structured decision.
+
+It MUST NOT override it.
+
+---
+
+# 55. Decision Hash
+
+A policy decision MAY be cryptographically or deterministically bound to its relevant inputs.
 
 Conceptually:
 
-    p*
-      =
-    minimum decision-relevant perturbation
-    capable of changing conclusion C
+```text
+DecisionHash =
+H(
+    principal
+  || action
+  || target
+  || effect_digest
+  || policy_read_set
+  || scope
+  || regime
+  || context
+  || decision
+)
+```
 
-Record:
+The exact hashing scheme is implementation-dependent.
 
-    Sensitivity:
+The purpose is to prevent reuse of a policy decision for a materially different action.
 
-      flip_premise
-      flip_threshold
-      flip_observation
-      decision_impact
+---
 
-If a small plausible perturbation changes the conclusion:
+# 56. Decision Binding
 
-    CONCLUSION CLASS = CONDITIONAL
+A policy decision for:
 
-# 84. FALSIFIERS
+```text
+WRITE(resource_A, payload_X)
+```
 
-    Falsifiers:
+MUST NOT automatically authorize:
 
-      observation:
-        threshold
-        affected_premise
-        affected_edge
-        affected_conclusion
+```text
+WRITE(resource_B, payload_X)
+```
 
-      regime_change
+or:
 
-      confounder_discovered
+```text
+WRITE(resource_A, payload_Y)
+```
 
-      intervention_failure
+unless the policy decision's explicit scope covers those variants.
 
-      mechanism_disconfirmed
+---
 
-      provenance_failure
+# 57. Parameter Binding
 
-      factual_anchor_invalidated
+Consequential policy decisions SHOULD bind to normalized action parameters or a canonical parameter digest.
 
-A counterfactual should expose what could invalidate it.
+```yaml
+binding:
+  operation: string
+  target_id: string
+  parameters_hash: string
+  effect_digest: string
+```
 
-# 85. LOCAL INVALIDATION
+Parameter mutation after evaluation requires revalidation when policy-sensitive.
 
-Core law:
+---
 
-    Invalid(p)
-        ⇒
-    Invalidate(
-      dependent descendants of p
-    )
+# 58. Capability Binding
+
+If policy depends on capability characteristics, the decision SHOULD bind to the resolved capability contract.
+
+```yaml
+capability_binding:
+  capability_id: string
+  capability_version: string
+  provider_id: string
+  resolved_contract_hash: string
+```
+
+A provider substitution may therefore invalidate policy applicability.
+
+---
+
+# 59. Observability Requirements
+
+Policy MAY impose observability obligations.
+
+Example:
+
+```yaml
+observability_requirements:
+  require:
+    - action_log
+    - provenance_record
+    - effect_digest
+    - authority_witness
+    - receiver_receipt
+```
+
+However:
+
+```text
+POLICY REQUIRES OBSERVABILITY
+```
+
+does not prove:
+
+```text
+OBSERVABILITY IS ACTUALLY PRESENT
+```
+
+Coverage MUST be validated by the infrastructure/control plane.
+
+---
+
+# 60. Policy and Effect Release
+
+Policy `ALLOW` is not effect release.
+
+For durable or external effects:
+
+```text
+POLICY_ALLOW
+      ↓
+AUTHORITY_VALID
+      ↓
+CONSTRAINTS_VALID
+      ↓
+OBSERVABILITY_VALID
+      ↓
+TRANSACTION_VALID
+      ↓
+RELEASE_LEDGER_VALID
+      ↓
+COMMITTABLE
+```
+
+Any required gate may still block release.
+
+---
+
+# 61. Durable Effect Boundary
+
+For persistent/external/model-promotion effects, the control plane SHOULD revalidate at commit time at least the load-bearing:
+
+```text
+policy state;
+authority state;
+effect identity;
+transaction identity;
+constraint state;
+observed authoritative read set;
+release-ledger state;
+observability envelope.
+```
+
+This protects against stale preflight decisions.
+
+---
+
+# 62. Proposal vs Commit
+
+Policy may permit a system to generate a proposal without permitting the proposal to be committed.
+
+Example:
+
+```text
+ALLOW_PROPOSAL
+```
+
+may coexist with:
+
+```text
+COMMIT_REQUIRES_HUMAN_AUTHORITY
+```
+
+Therefore:
+
+```text
+ProposalPermission != CommitPermission
+```
+
+---
+
+# 63. Effect Classes
+
+Policy MAY discriminate by effect class.
+
+Recommended base effect classes:
+
+```text
+E0_READ_ONLY
+
+E1_EPHEMERAL_STATE
+
+E2_REVERSIBLE_LOCAL_WRITE
+
+E3_PERSISTENT_WRITE
+
+E4_EXTERNAL_COMMUNICATION
+
+E5_RESOURCE_OR_FINANCIAL_EFFECT
+
+E6_SECURITY_OR_AUTHORITY_EFFECT
+
+E7_HIGH_CONSEQUENCE_OR_IRREVERSIBLE_EFFECT
+```
+
+Higher consequence MAY require stronger policy conditions.
+
+---
+
+# 64. Consequence-Aware Escalation
+
+A policy may require escalation based on:
+
+```text
+irreversibility;
+financial magnitude;
+privacy sensitivity;
+security impact;
+external visibility;
+institutional impact;
+legal exposure;
+safety consequence;
+downstream dependency fan-out.
+```
+
+Example:
+
+```yaml
+escalation:
+  trigger:
+    effect_class:
+      - E6_SECURITY_OR_AUTHORITY_EFFECT
+      - E7_HIGH_CONSEQUENCE_OR_IRREVERSIBLE_EFFECT
+
+  destination:
+    - HUMAN_AUTHORITY
+```
+
+---
+
+# 65. Decision Finality
+
+A policy decision is final only relative to its policy-evaluation scope.
+
+It is not necessarily final relative to:
+
+```text
+authority;
+execution;
+external effect completion;
+transaction commit;
+receiver acknowledgement;
+system state.
+```
+
+Use explicit terminology:
+
+```text
+POLICY_FINAL
+```
+
+rather than generic:
+
+```text
+FINAL
+```
+
+where ambiguity is possible.
+
+---
+
+# 66. Receiver Completion
+
+A policy decision MAY require receiver-attested completion for external effects.
+
+But:
+
+```text
+receipt_id exists
+```
+
+is not sufficient evidence of completion.
+
+Where receiver attestation is required, the infrastructure SHOULD verify:
+
+```text
+receiver/service identity;
+effect digest;
+idempotency key;
+transaction identity;
+authority identity;
+principal;
+operation;
+signature/trust status;
+temporal validity.
+```
+
+---
+
+# 67. Idempotency Policy
+
+Policy MAY require stable idempotency for durable effects.
+
+```yaml
+idempotency:
+  required: true
+  key_required: true
+  duplicate_dispatch_prohibited: true
+```
+
+Policy can require this property.
+
+Infrastructure must enforce the actual release state.
+
+---
+
+# 68. Ambiguous Externalization
+
+If an external effect may have occurred but completion cannot be established:
+
+```text
+EXTERNALIZED_UNKNOWN
+```
+
+the system SHOULD NOT blindly retry merely because policy still says `ALLOW`.
+
+The appropriate state may be:
+
+```text
+RECONCILE
+```
+
+before another dispatch.
+
+---
+
+# 69. Cached Policy Decisions
+
+Policy decisions MAY be cached only when reuse conditions remain valid.
+
+Cache record:
+
+```yaml
+policy_decision_cache:
+  decision_id: string
+
+  decision_hash: string
+
+  principal_id: string
+  operation: string
+  target_id: string
+
+  policy_read_set: []
+
+  evaluated_at: null
+  expires_at: null
+
+  invalidation_conditions: []
+```
+
+---
+
+# 70. Cache Reuse Invariant
+
+A cached policy decision MUST NOT be reused when a load-bearing binding changed.
+
+Examples:
+
+```text
+principal changed;
+target changed;
+operation changed;
+effect digest changed;
+policy changed;
+authority changed;
+regime changed;
+scope changed;
+capability contract changed;
+exception revoked.
+```
+
+---
+
+# 71. Policy Decision Operators
+
+The policy-decision architecture SHOULD support the following conceptual operators.
+
+## `DISCOVER_POLICY`
+
+```text
+DISCOVER_POLICY(context)
+→ CandidatePolicySet
+```
+
+---
+
+## `RESOLVE_APPLICABILITY`
+
+```text
+RESOLVE_APPLICABILITY(policy, context)
+→ ApplicabilityResult
+```
+
+---
+
+## `EVALUATE_POLICY`
+
+```text
+EVALUATE_POLICY(policy, context)
+→ PolicyEvaluation
+```
+
+---
+
+## `COMPOSE_POLICY_RESULTS`
+
+```text
+COMPOSE_POLICY_RESULTS({D1 ... Dn})
+→ PolicyDecision
+```
+
+---
+
+## `VALIDATE_DECISION`
+
+```text
+VALIDATE_DECISION(decision)
+→ VALID | INVALID | UNKNOWN_GAP
+```
+
+---
+
+## `REVALIDATE_DECISION`
+
+```text
+REVALIDATE_DECISION(decision, current_state)
+→ PolicyDecision'
+```
+
+---
+
+## `INVALIDATE_DECISION`
+
+```text
+INVALIDATE_DECISION(decision, failed_dependency)
+```
+
+---
+
+## `ESCALATE_DECISION`
+
+```text
+ESCALATE_DECISION(decision, authority_target)
+```
+
+---
+
+## `SUPERSEDE_DECISION`
+
+```text
+SUPERSEDE_DECISION(old_decision, new_decision)
+```
+
+---
+
+# 72. State Variables
+
+Recommended policy-decision state variables:
+
+```text
+D_id       decision identity
+P          principal
+A          requested action
+C          capability
+T          target/resource
+E          effect intent
+Π          discovered policy set
+Π*         applicable policy set
+R          individual rule evaluations
+Ω          obligations
+X          prohibitions
+K          conditions
+S          scope
+G          regime
+Au         authority context
+Ct         constraint context
+Pr         provenance
+F          freshness
+U          uncertainty vector
+Y          final policy decision
+```
+
+Conceptually:
+
+```text
+Y =
+PolicyCompose(
+    P,
+    A,
+    C,
+    T,
+    E,
+    Π*,
+    R,
+    Ω,
+    X,
+    K,
+    S,
+    G,
+    Au,
+    Ct,
+    F
+)
+```
+
+This is an AMOS MODEL representation, not a claim of a universal mathematical policy law.
+
+---
+
+# 73. Decision Sufficiency
+
+A policy decision is structurally sufficient only when the information required to determine its policy-local result is available.
+
+Conceptually:
+
+```text
+PolicySufficient =
+IdentityValid
+∧ RequestBound
+∧ ApplicablePoliciesResolved
+∧ LoadBearingPredicatesResolved
+∧ ConflictsResolvedOrPreserved
+∧ ScopeKnown
+∧ RegimeKnown
+∧ FreshnessValid
+```
+
+If a required term is unresolved:
+
+```text
+PolicySufficient = false
+```
+
+---
+
+# 74. Confidence Ceiling
+
+The confidence of a policy decision MUST NOT exceed its weakest load-bearing premise unless independently revalidated.
+
+Conceptually:
+
+```text
+C_policy ≤ min(
+    C_policy_identity,
+    C_applicability,
+    C_context,
+    C_scope,
+    C_regime,
+    C_evidence,
+    C_freshness,
+    C_composition
+)
+```
+
+This is an AMOS MODEL governance equation.
+
+It is not an empirically calibrated probability unless calibration evidence exists.
+
+---
+
+# 75. Uncertainty Vector
+
+Recommended representation:
+
+```yaml
+uncertainty:
+  policy_identity: null
+  applicability: null
+  interpretation: null
+  evidence: null
+  scope: null
+  regime: null
+  temporal: null
+  authority: null
+  constraint: null
+  provenance_independence: null
+```
+
+Uncertainty SHOULD remain multidimensional where collapsing it would hide a decision-relevant weakness.
+
+---
+
+# 76. Policy Decision Invariants
+
+## INV-PD-001 — Explicit Decision
+
+Every completed policy evaluation MUST produce an explicit state.
+
+---
+
+## INV-PD-002 — No Capability-to-Permission Collapse
+
+```text
+CAPABILITY != POLICY_ALLOW
+```
+
+---
+
+## INV-PD-003 — No Policy-to-Authority Collapse
+
+```text
+POLICY_ALLOW != AUTHORITY
+```
+
+---
+
+## INV-PD-004 — No Allow-to-Commit Collapse
+
+```text
+ALLOW != COMMIT
+```
+
+---
+
+## INV-PD-005 — Unknown Is Not Pass
+
+```text
+UNKNOWN_GAP != ALLOW
+```
+
+---
+
+## INV-PD-006 — Scope Preservation
+
+A decision MUST NOT be reused outside its validated scope.
+
+---
+
+## INV-PD-007 — Regime Preservation
+
+A decision MUST NOT be reused across incompatible regimes without revalidation.
+
+---
+
+## INV-PD-008 — Version Binding
+
+Material decisions MUST preserve load-bearing policy versions.
+
+---
+
+## INV-PD-009 — Conflict Visibility
+
+Unresolved policy conflict MUST remain visible.
+
+---
+
+## INV-PD-010 — No Silent Override
+
+Overrides require explicit authority and policy basis.
+
+---
+
+## INV-PD-011 — Condition Preservation
+
+Unsatisfied mandatory conditions prevent unconditional `ALLOW`.
+
+---
+
+## INV-PD-012 — Obligation Preservation
+
+Mandatory obligations MUST survive downstream handoff.
+
+---
+
+## INV-PD-013 — Provenance Preservation
+
+Material decisions MUST preserve reconstructable policy provenance.
+
+---
+
+## INV-PD-014 — Freshness Preservation
+
+Stale policy decisions MUST NOT masquerade as current.
+
+---
+
+## INV-PD-015 — Parameter Binding
+
+Material parameter changes require revalidation when policy-sensitive.
+
+---
+
+## INV-PD-016 — Effect Binding
+
+Policy approval for one effect MUST NOT automatically transfer to a different effect.
+
+---
+
+## INV-PD-017 — Selective Invalidation
+
+Only conclusions dependent on a failed premise SHOULD be invalidated unless broader dependency exists.
+
+---
+
+## INV-PD-018 — Revocation Dominance
+
+Revoked exceptions or authority MUST NOT remain effective through stale cached decisions.
+
+---
+
+## INV-PD-019 — No Evidence Inflation
+
+Correlated evidence MUST NOT be counted as independent confirmation.
+
+---
+
+## INV-PD-020 — Proposal/Commit Separation
+
+Permission to propose an effect MUST NOT be interpreted as permission to commit it.
+
+---
+
+# 77. Failure Modes
+
+## FM-PD-001 — Missing Policy
+
+A governing policy exists but is not discovered.
+
+---
+
+## FM-PD-002 — False Applicability
+
+A policy is applied outside its scope.
+
+---
+
+## FM-PD-003 — Missed Applicability
+
+A governing policy is incorrectly classified `NOT_APPLICABLE`.
+
+---
+
+## FM-PD-004 — Stale Decision
+
+An old decision is reused after a load-bearing change.
+
+---
+
+## FM-PD-005 — Scope Leakage
+
+A narrow policy result is generalized.
+
+---
+
+## FM-PD-006 — Regime Leakage
+
+A decision crosses environments or regimes without validation.
+
+---
+
+## FM-PD-007 — Authority Smuggling
+
+Policy `ALLOW` is treated as authority.
+
+---
+
+## FM-PD-008 — Capability Smuggling
+
+Capability availability is treated as policy permission.
+
+---
+
+## FM-PD-009 — Commit Smuggling
+
+Policy permission is treated as durable commit authority.
+
+---
+
+## FM-PD-010 — Conflict Suppression
+
+Incompatible policies are silently collapsed.
+
+---
+
+## FM-PD-011 — Unknown Suppression
+
+Missing policy information is treated as permission.
+
+---
+
+## FM-PD-012 — Exception Expansion
+
+A narrow exception is applied broadly.
+
+---
+
+## FM-PD-013 — Revoked Exception Reuse
+
+A revoked exception survives through cache or stale state.
+
+---
+
+## FM-PD-014 — Policy Version Drift
+
+Decision provenance points to the wrong policy version.
+
+---
+
+## FM-PD-015 — Parameter Drift
+
+Action parameters change after policy evaluation.
+
+---
+
+## FM-PD-016 — Target Drift
+
+The target changes while the decision is reused.
+
+---
+
+## FM-PD-017 — Effect Drift
+
+The actual effect differs from the evaluated effect intent.
+
+---
+
+## FM-PD-018 — Obligation Loss
+
+Required obligations disappear between policy evaluation and execution.
+
+---
+
+## FM-PD-019 — Provenance Loss
+
+The basis of the decision cannot be reconstructed.
+
+---
+
+## FM-PD-020 — Precedence Error
+
+Policies are ordered using an invalid hierarchy.
+
+---
+
+## FM-PD-021 — Override Forgery
+
+An override is accepted without valid authority.
+
+---
+
+## FM-PD-022 — Correlated Policy Inflation
+
+Multiple derivatives of one source are treated as independent governing authority.
+
+---
+
+## FM-PD-023 — Cached Allow Resurrection
+
+A revoked or changed policy state is bypassed through an old `ALLOW`.
+
+---
+
+## FM-PD-024 — Policy/Runtime Divergence
+
+The runtime performs an action inconsistent with the recorded policy decision.
+
+---
+
+## FM-PD-025 — Post-Evaluation Mutation
+
+The proposal changes after policy evaluation without revalidation.
+
+---
+
+# 78. Repair / Recovery
+
+Canonical repair sequence:
+
+```text
+DETECT POLICY DECISION FAILURE
+        ↓
+FREEZE AFFECTED DECISION
+        ↓
+PRESERVE DECISION + EVIDENCE
+        ↓
+IDENTIFY FAILED PREMISE / POLICY / EDGE
+        ↓
+INVALIDATE DEPENDENT RESULT
+        ↓
+PRESERVE UNAFFECTED RESULTS
+        ↓
+REFRESH POLICY / CONTEXT / AUTHORITY
+        ↓
+RE-EVALUATE APPLICABILITY
+        ↓
+RE-COMPOSE POLICY RESULTS
+        ↓
+REVALIDATE
+        ↓
+RESTORE / SUPERSEDE / DENY / ESCALATE
+```
+
+Do not rerun the same failed path without changed evidence or state.
+
+---
+
+# 79. Repair Principle
+
+Repair SHOULD target the smallest causal failure.
+
+If:
+
+```text
+D depends on P1, P2, P3
+```
+
+and only:
+
+```text
+P2 version changed
+```
+
+then re-evaluate the dependencies affected by `P2`.
+
+Do not automatically discard unrelated valid evidence.
+
+---
+
+# 80. Rollback
+
+If an invalid policy decision influenced a staged but uncommitted action:
+
+```text
+discard or regenerate proposal
+```
+
+If it influenced a committed reversible effect:
+
+```text
+invoke governed compensation / rollback where authorized
+```
+
+If it influenced an irreversible effect:
+
+```text
+record incident
+preserve provenance
+contain downstream effects where possible
+escalate
+```
+
+Policy repair MUST NOT pretend an irreversible effect never occurred.
+
+---
+
+# 81. Tests / Validators
+
+Minimum policy-decision test surface:
+
+```text
+T-PD-001 schema validity
+
+T-PD-002 explicit decision state
+
+T-PD-003 policy identity resolution
+
+T-PD-004 policy version binding
+
+T-PD-005 applicability resolution
+
+T-PD-006 scope matching
+
+T-PD-007 regime matching
+
+T-PD-008 principal binding
+
+T-PD-009 action binding
+
+T-PD-010 target binding
+
+T-PD-011 effect binding
+
+T-PD-012 deny handling
+
+T-PD-013 conditional handling
+
+T-PD-014 escalation handling
+
+T-PD-015 unknown-not-pass
+
+T-PD-016 conflict preservation
+
+T-PD-017 precedence resolution
+
+T-PD-018 exception validation
+
+T-PD-019 exception expiry
+
+T-PD-020 exception revocation
+
+T-PD-021 obligation preservation
+
+T-PD-022 prohibition preservation
+
+T-PD-023 freshness validation
+
+T-PD-024 cache invalidation
+
+T-PD-025 selective invalidation
+
+T-PD-026 authority separation
+
+T-PD-027 capability separation
+
+T-PD-028 proposal/commit separation
+
+T-PD-029 provenance reconstruction
+
+T-PD-030 correlated-provenance detection
+
+T-PD-031 policy-read-set validation
+
+T-PD-032 post-evaluation mutation detection
+
+T-PD-033 control-plane handoff
+
+T-PD-034 effect-class escalation
+
+T-PD-035 stale-allow rejection
+
+T-PD-036 revoked-authority rejection
+
+T-PD-037 provider substitution revalidation
+
+T-PD-038 scope-wildcard protection
+
+T-PD-039 regime-wildcard protection
+
+T-PD-040 policy/runtime consistency
+```
+
+---
+
+# 82. Schema Validator
+
+The schema validator SHOULD reject consequential policy decisions missing:
+
+```text
+decision_id;
+principal;
+action;
+policy references;
+policy versions;
+decision state;
+scope;
+regime;
+evaluation time;
+provenance;
+reason basis.
+```
+
+unless explicitly classified:
+
+```text
+UNKNOWN_GAP
+```
+
+---
+
+# 83. Semantic Validator
+
+Structural schema validity is insufficient.
+
+Semantic validation SHOULD inspect:
+
+```text
+contradictory decision states;
+ALLOW with unsatisfied mandatory conditions;
+ALLOW despite unresolved hard deny;
+expired exceptions;
+revoked exceptions;
+scope contradictions;
+regime contradictions;
+invalid precedence;
+policy-version mismatch;
+authority leakage;
+commit leakage;
+missing effect binding.
+```
+
+---
+
+# 84. Commit-Time Validator
+
+For durable effects, commit-time validation SHOULD test whether the policy decision remains applicable to the exact staged effect.
+
+Conceptually:
+
+```text
+CurrentPolicyReadSet == PreparedPolicyReadSet
+AND
+CurrentEffectDigest == PreparedEffectDigest
+AND
+CurrentPrincipal == PreparedPrincipal
+AND
+CurrentTarget == PreparedTarget
+AND
+CurrentScope compatible
+AND
+CurrentRegime compatible
+```
+
+where each comparison is scoped to load-bearing dependencies rather than irrelevant global state.
+
+---
+
+# 85. Adversarial Validator
+
+For high-consequence decisions, validation SHOULD challenge:
+
+```text
+Was a governing policy omitted?
+
+Was applicability interpreted too narrowly?
+
+Is the ALLOW based on stale state?
+
+Did a lower policy weaken a higher constraint?
+
+Was an exception overextended?
+
+Did authority expire?
+
+Did the effect change after evaluation?
+
+Are apparently independent policies descendants of one source?
+
+Did an UNKNOWN become an implicit PASS?
+
+Did the decision cross scope or regime?
+
+Could a stronger applicable prohibition exist?
+```
+
+A successful challenge requires downgrade, revalidation, conflict preservation, escalation, or denial as appropriate.
+
+---
+
+# 86. Falsifiers
+
+A policy decision claim is falsified if reliable evidence establishes that:
+
+```text
+an applicable hard prohibition was ignored;
+
+a required policy was omitted;
+
+the policy version used was incorrect;
+
+a policy had already been superseded;
+
+the policy was outside its validity period;
+
+the principal did not match the evaluated principal;
+
+the target differed from the evaluated target;
+
+the actual operation differed from the evaluated operation;
+
+the effect differed materially from the evaluated effect;
+
+a mandatory condition was unsatisfied;
+
+an exception was invalid, expired, or revoked;
+
+policy precedence was incorrectly applied;
+
+a conflict was suppressed;
+
+an UNKNOWN was treated as ALLOW;
+
+the recorded provenance cannot reconstruct the decision;
+
+or runtime behavior violated the recorded decision.
+```
+
+---
+
+# 87. Decision Query Surface
+
+AMOS SHOULD be able to query policy decisions by:
+
+```text
+decision ID;
+principal;
+action;
+capability;
+provider;
+target;
+resource;
+policy;
+policy version;
+decision state;
+effect class;
+transaction;
+session;
+scope;
+regime;
+time;
+authority;
+unresolved gap;
+obligation;
+exception;
+supersession lineage.
+```
+
+---
+
+# 88. Decision Audit Surface
+
+An auditor SHOULD be able to answer:
+
+1. What action was evaluated?
+2. Who requested it?
+3. Against which target?
+4. Through which capability/provider?
+5. Which policies were discovered?
+6. Which were applicable?
+7. Which were excluded?
+8. Why were they excluded?
+9. Which rules fired?
+10. Which policies denied?
+11. Which policies allowed?
+12. Which conditions remained?
+13. Which obligations were created?
+14. Which exception was used?
+15. Was the exception valid?
+16. Which precedence rule resolved conflicts?
+17. What evidence supported the decision?
+18. What policy versions were used?
+19. What was the scope?
+20. What was the regime?
+21. When was the decision evaluated?
+22. Is it still fresh?
+23. Was authority independently checked?
+24. Was the effect identical at commit?
+25. Was the decision reused?
+26. Were load-bearing dependencies unchanged?
+27. Was the action ultimately committed?
+28. If committed, under what authority?
+29. What receipt or effect evidence exists?
+30. What could falsify the decision?
+
+---
+
+# 89. H/M/L Applicability
+
+The policy-decision architecture applies across AMOS H/M/L scales.
+
+## H — Governing / System Scale
+
+Examples:
+
+```text
+enterprise policy;
+system-wide safety policy;
+constitutional constraint;
+cross-domain authority rule;
+global effect-class restriction;
+canon governance.
+```
+
+H-level policy may constrain M and L decisions.
+
+---
+
+## M — Subsystem / Workflow Scale
+
+Examples:
+
+```text
+workflow policy;
+agent coordination policy;
+memory-write policy;
+tool-routing policy;
+domain-control policy;
+transaction policy.
+```
+
+M-level policy SHOULD remain compatible with governing H-level constraints.
+
+---
+
+## L — Local Operation Scale
+
+Examples:
+
+```text
+specific tool call;
+specific resource read;
+specific memory write;
+specific message send;
+specific transaction effect.
+```
+
+L-level decisions provide concrete execution-policy results.
+
+---
+
+# 90. Cross-Scale Invariant
+
+Lower-scale policy decisions MUST NOT silently weaken higher-scale governing constraints.
+
+Conceptually:
+
+```text
+Allowed_L
+⊆
+Allowed_M
+⊆
+Allowed_H
+```
+
+where the policy hierarchy defines tightening inheritance.
+
+This relationship is not universal across all conceivable policies; it applies where AMOS policy inheritance is explicitly defined.
+
+---
+
+# 91. Agent Roles
+
+Recommended agent roles:
+
+```text
+POLICY_DISCOVERY_AGENT
+POLICY_APPLICABILITY_AGENT
+POLICY_EVALUATION_AGENT
+POLICY_CONFLICT_AUDITOR
+POLICY_PROVENANCE_AUDITOR
+POLICY_REVALIDATION_AGENT
+```
+
+These are architectural roles.
+
+They do not imply autonomous authority.
+
+An agent may propose a policy decision.
+
+The control plane remains responsible for enforcing governing boundaries.
+
+---
+
+# 92. Skill Roles
+
+Relevant Skill classes MAY include:
+
+```text
+policy interpretation;
+policy registry resolution;
+authority verification;
+provenance validation;
+constraint propagation;
+scope/regime validation;
+conflict resolution;
+commit-time authorization;
+effect-release validation.
+```
+
+A Skill's presence does not prove implementation or authority.
+
+---
+
+# 93. Workflow
+
+Canonical policy-decision workflow:
+
+```text
+1. RECEIVE TASK / EFFECT INTENT
+
+2. NORMALIZE PRINCIPAL
+
+3. NORMALIZE ACTION
+
+4. RESOLVE TARGET / RESOURCE
+
+5. RESOLVE CAPABILITY CONTRACT
+
+6. DISCOVER POTENTIALLY GOVERNING POLICIES
+
+7. VERIFY POLICY IDENTITY + VERSION
+
+8. RESOLVE POLICY APPLICABILITY
+
+9. LOAD MINIMUM REQUIRED CONTEXT
+
+10. EVALUATE INDIVIDUAL POLICY RULES
+
+11. PRESERVE UNKNOWN PREDICATES
+
+12. COLLECT OBLIGATIONS / PROHIBITIONS / CONDITIONS
+
+13. DETECT CONFLICTS
+
+14. APPLY VALID PRECEDENCE / SUPERSESSION
+
+15. COMPOSE POLICY RESULT
+
+16. BIND RESULT TO ACTION / TARGET / EFFECT
+
+17. RECORD POLICY READ SET
+
+18. RECORD PROVENANCE
+
+19. SET FRESHNESS ENVELOPE
+
+20. EMIT POLICY_DECISION
+
+21. HAND OFF TO CONTROL PLANE
+
+22. REVALIDATE LOAD-BEARING POLICY STATE AT COMMIT
+
+23. INVALIDATE / RECOMPUTE IF NECESSARY
+```
+
+---
+
+# 94. Protocol
+
+Recommended request:
+
+```yaml
+policy_decision_request:
+  request_id: string
+
+  principal: {}
+
+  action: {}
+
+  capability: {}
+
+  target: {}
+
+  effect_intent: {}
+
+  context: {}
+
+  authority_context: {}
+
+  constraint_context: {}
+
+  requested_at: timestamp
+```
+
+Recommended response:
+
+```yaml
+policy_decision_response:
+  request_id: string
+
+  decision_id: string
+
+  decision:
+    state: string
+    reason_codes: []
+
+  applicable_policies: []
+
+  obligations: []
+  prohibitions: []
+  conditions: []
+
+  conflicts: []
+
+  unresolved: []
+
+  scope: {}
+  regime: {}
+
+  freshness: {}
+
+  provenance: {}
+
+  confidence_ceiling: null
+```
+
+---
+
+# 95. Control-Plane Return Mapping
+
+The policy layer itself MAY use:
+
+```text
+ALLOW
+DENY
+CONDITIONAL
+ESCALATE
+REVALIDATE
+CONFLICT
+UNKNOWN_GAP
+```
+
+The infrastructure/control plane may translate these into stronger runtime states such as:
+
+```text
+COMMITTABLE
+
+BLOCK_POLICY
+
+BLOCK_AUTHORITY
+
+BLOCK_CONFLICT
+
+BLOCK_EVIDENCE
+
+BLOCK_OBSERVABILITY
+
+BLOCK_SEMANTIC_TRANSACTION
+
+REVALIDATE_STALE_READ
+
+REVALIDATE_CONSTRAINTS
+
+REVALIDATE_OBSERVABILITY
+
+REVALIDATE_EFFECT_LEDGER
+
+RECONCILE_EFFECT
+
+UNKNOWN_GAP
+```
+
+The policy decision MUST NOT falsely claim those infrastructure states unless it actually owns that control-plane responsibility.
+
+---
+
+# 96. Policy Decision Example — Read
+
+```yaml
+policy_decision:
+  identity:
+    decision_id: "PD_EXAMPLE_READ_001"
+    version: "1.0.0"
+
+  subject:
+    principal_id: "AGENT_EXAMPLE"
+    principal_type: AGENT
+
+  request:
+    action: READ
+    operation: "read_resource"
+    capability_id: "CAP_RESOURCE_READ"
+    provider_id: "PROVIDER_EXAMPLE"
+    target_id: "RESOURCE_001"
+    effect_class: "E0_READ_ONLY"
+
+  policies:
+    applicable:
+      - policy_id: "POLICY_RESOURCE_READ"
+        version: "1.0.0"
+
+  evaluations:
+    - policy_id: "POLICY_RESOURCE_READ"
+      result: ALLOW
+      obligations:
+        - RECORD_PROVENANCE
+
+  composition:
+    strategy: "single_applicable_policy"
+
+  obligations:
+    - obligation_id: "OBL_001"
+      type: RECORD_PROVENANCE
+      timing: POST_ACTION
+      state: UNSATISFIED
+
+  decision:
+    state: ALLOW
+    reason_codes:
+      - ALLOW_POLICY_SATISFIED
+
+  authority:
+    state: UNKNOWN
+
+  provenance:
+    policy_versions:
+      - "POLICY_RESOURCE_READ@1.0.0"
+
+  confidence_ceiling: 0
+```
+
+The example remains structurally illustrative.
+
+It does not assert runtime validation.
+
+---
+
+# 97. Policy Decision Example — Conditional Write
+
+```yaml
+policy_decision:
+  identity:
+    decision_id: "PD_EXAMPLE_WRITE_001"
+    version: "1.0.0"
+
+  subject:
+    principal_id: "AGENT_EXAMPLE"
+    principal_type: AGENT
+
+  request:
+    action: WRITE
+    operation: "persistent_write"
+    capability_id: "CAP_EXAMPLE_WRITE"
+    target_id: "RESOURCE_001"
+    effect_class: "E3_PERSISTENT_WRITE"
+
+  policies:
+    applicable:
+      - policy_id: "POLICY_PERSISTENT_WRITE"
+        version: "1.0.0"
+
+  evaluations:
+    - policy_id: "POLICY_PERSISTENT_WRITE"
+      result: CONDITIONAL
+
+      conditions:
+        - "valid write authority"
+        - "commit-time revalidation"
+
+      obligations:
+        - "record provenance"
+        - "record transaction identity"
+
+  conditions:
+    - condition_id: "COND_AUTH"
+      requirement: "valid write authority"
+      state: UNSATISFIED
+
+    - condition_id: "COND_COMMIT"
+      requirement: "commit-time revalidation"
+      state: UNSATISFIED
+
+  decision:
+    state: CONDITIONAL
+
+    reason_codes:
+      - CONDITIONAL_APPROVAL_REQUIRED
+
+  confidence_ceiling: 0
+```
+
+This MUST NOT be interpreted as authorization to write.
+
+---
+
+# 98. Policy Decision Example — Conflict
+
+```yaml
+policy_decision:
+  identity:
+    decision_id: "PD_EXAMPLE_CONFLICT_001"
+
+  evaluations:
+    - policy_id: "POLICY_A"
+      result: ALLOW
+
+    - policy_id: "POLICY_B"
+      result: DENY
+
+  composition:
+    conflicts:
+      - policies:
+          - POLICY_A
+          - POLICY_B
+
+        type: "ALLOW_DENY_CONFLICT"
+
+        precedence_resolution: UNKNOWN_GAP
+
+  decision:
+    state: CONFLICT
+
+    reason_codes:
+      - CONFLICT_POLICY_PRECEDENCE
+
+  confidence_ceiling: 0
+```
+
+AMOS MUST preserve the conflict until discriminating governance evidence exists.
+
+---
+
+# 99. Policy Decision Example — Stale Allow
+
+Prepared state:
+
+```yaml
+decision:
+  state: ALLOW
+
+freshness:
+  policy_versions:
+    POLICY_X: "1.0.0"
+```
+
+Current state:
+
+```yaml
+current_policy_versions:
+  POLICY_X: "2.0.0"
+```
+
+If `POLICY_X` was load-bearing:
+
+```text
+ALLOW
+    ↓
+REVALIDATE
+```
 
 not:
 
-    Invalid(p)
-        ⇒
-    Invalidate entire knowledge state
+```text
+ALLOW
+    ↓
+COMMIT
+```
 
-This preserves unaffected reasoning.
+---
 
-# 86. FAILURE RECOVERY
+# 100. Promotion Model
 
-    DETECT FAILED PREMISE
-          ↓
-    TRACE DEPENDENCY EDGES
-          ↓
-    INVALIDATE DEPENDENT DESCENDANTS
-          ↓
-    ROLLBACK TO NEAREST VALID STATE
-          ↓
-    CHANGE EVIDENCE / MODEL / ASSUMPTION
-          ↓
-    RECOMPUTE LOCAL CLOSURE
-          ↓
-    REVALIDATE
+Recommended maturity path:
 
-Do not repeat the same failed path without changed evidence or assumptions.
+```text
+PLACEHOLDER
+    ↓
+STRUCTURAL MODEL
+    ↓
+SCHEMA VALIDATED
+    ↓
+POLICY REGISTRY INTEGRATED
+    ↓
+EXECUTABLE EVALUATOR
+    ↓
+TESTED
+    ↓
+INTEGRATION VALIDATED
+    ↓
+ADVERSARIALLY VALIDATED
+    ↓
+GOVERNED ACTIVE
+```
 
-# 87. COUNTERFACTUAL HARM
+No stage automatically implies the next.
 
-    CounterfactualHarm:
+---
 
-      direct_harm
-      indirect_harm
-      distributional_harm
-      opportunity_harm
-      irreversible_harm
-      informational_harm
-      governance_harm
-      uncertainty_harm
+# 101. Promotion Requirements
 
-Potential harm is itself model-dependent and retains its appropriate
-epistemic classification.
+## Structural Model → Schema Validated
 
-# 88. ACTION GOVERNANCE
+Requires:
 
-Validation burden increases with:
+```text
+machine-readable schema;
+decision enum validation;
+required-field validation;
+policy-reference validation.
+```
 
-    irreversibility
-    cost
-    legal exposure
-    financial exposure
-    health / safety exposure
-    institutional impact
-    downstream dependency
-    uncertainty
-    causal ambiguity
+## Schema Validated → Registry Integrated
 
-Prefer, where feasible:
+Requires:
 
-    OBSERVATION
+```text
+policy identity resolution;
+version resolution;
+supersession support;
+applicability lookup.
+```
+
+## Registry Integrated → Executable Evaluator
+
+Requires:
+
+```text
+deterministic or governed evaluation semantics;
+predicate handling;
+conflict handling;
+unknown handling.
+```
+
+## Executable Evaluator → Tested
+
+Requires executed tests.
+
+## Tested → Integration Validated
+
+Requires cross-component validation with:
+
+```text
+capability resolution;
+authority;
+control plane;
+provenance;
+transaction;
+effect release.
+```
+
+## Integration Validated → Governed Active
+
+Requires:
+
+```text
+authority boundary validated;
+rollback/recovery;
+observability;
+freshness handling;
+security review;
+no unresolved critical gaps.
+```
+
+---
+
+# 102. No Automatic Promotion
+
+The following transitions are prohibited without evidence:
+
+```text
+MODEL → IMPLEMENTED
+
+IMPLEMENTED → VALIDATED
+
+ALLOW → AUTHORIZED
+
+ALLOW → COMMITTABLE
+
+TEST_PASS → UNIVERSALLY_VALID
+
+STRUCTURALLY_COMPLETE → CANONICAL
+```
+
+---
+
+# 103. Gap Classification
+
+Policy-decision gaps SHOULD be classified:
+
+```text
+CRITICAL
+DECISION_RELEVANT
+EXPLANATORY
+COSMETIC
+```
+
+Example:
+
+```yaml
+gap:
+  gap_id: "GAP_PD_001"
+
+  class: CRITICAL
+
+  field: "policy_precedence"
+
+  description: >
+    Two applicable policies conflict and no canonical
+    precedence rule has been established.
+
+  blocks:
+    - ALLOW
+    - COMMIT
+
+  required_resolution:
+    - "canonical precedence evidence"
+```
+
+---
+
+# 104. Critical Gaps
+
+Critical policy-decision gaps include unresolved:
+
+```text
+governing policy identity;
+hard prohibition;
+authority boundary;
+effect class;
+policy precedence;
+scope;
+regime;
+exception validity;
+commit requirement;
+security restriction;
+irreversible-action condition.
+```
+
+Critical gaps MUST NOT be downgraded for fluency or convenience.
+
+---
+
+# 105. Gap Matrix
+
+| Surface                     |                      Required | Current Specification State |
+| --------------------------- | ----------------------------: | --------------------------- |
+| Decision identity           |                           Yes | Defined                     |
+| Principal                   |                           Yes | Defined                     |
+| Action                      |                           Yes | Defined                     |
+| Target/resource             |                           Yes | Defined                     |
+| Capability binding          |                Material cases | Defined                     |
+| Effect intent               |               Effectful cases | Defined                     |
+| Policy discovery            |                           Yes | Defined                     |
+| Applicability               |                           Yes | Defined                     |
+| Individual evaluation       |                           Yes | Defined                     |
+| Composition                 |                           Yes | Defined                     |
+| Precedence                  |                           Yes | Defined structurally        |
+| Conditions                  |                           Yes | Defined                     |
+| Obligations                 |                           Yes | Defined                     |
+| Prohibitions                |                           Yes | Defined                     |
+| Exceptions                  |                           Yes | Defined                     |
+| Scope                       |                           Yes | Defined                     |
+| Regime                      |                           Yes | Defined                     |
+| Freshness                   |                           Yes | Defined                     |
+| Read-set binding            |           Consequential reuse | Defined                     |
+| Authority separation        |                           Yes | Defined                     |
+| Control-plane separation    |                           Yes | Defined                     |
+| Effect-release separation   |                           Yes | Defined                     |
+| Provenance                  |                           Yes | Defined                     |
+| Uncertainty                 |                           Yes | Defined                     |
+| Failure modes               |                           Yes | Defined                     |
+| Repair                      |                           Yes | Defined                     |
+| Tests                       |                           Yes | Defined                     |
+| Falsifiers                  |                           Yes | Defined                     |
+| Executable implementation   |          Required for runtime | UNKNOWN/GAP                 |
+| Canonical policy population |   Required for full operation | UNKNOWN/GAP                 |
+| Executed validator results  |       Required for validation | UNKNOWN/GAP                 |
+| Canon admission             | Required for canonical status | UNKNOWN/GAP                 |
+
+---
+
+# 106. RSCF Binding
+
+Recommended RSCF representation:
+
+```yaml
+rscf:
+  claim:
+    id: "RSCF_POLICY_DECISION"
+    class: MODEL
+
+    text: >
+      Under policy set Π, scope S, regime G, principal P,
+      action A, target T, and evaluation context C,
+      the policy layer returns decision D.
+
+  premises:
+    - policy_identity_valid
+    - policy_versions_valid
+    - applicability_resolved
+    - action_bound
+    - target_bound
+    - scope_valid
+    - regime_valid
+    - composition_valid
+
+  evidence: []
+
+  provenance: []
+
+  scope: {}
+
+  regime: {}
+
+  freshness: null
+
+  dependencies: []
+
+  competing: []
+
+  falsifiers: []
+
+  confidence_ceiling: 0
+```
+
+---
+
+# 107. RSCF Conclusion Classes
+
+Policy-related claims SHOULD use the weakest accurate class:
+
+```text
+VERIFIED
+DERIVED
+MODEL
+CONDITIONAL
+COMPETING
+UNKNOWN/GAP
+```
+
+Examples:
+
+```text
+MODEL:
+proposed policy composition semantics.
+
+DERIVED:
+decision deterministically derived from validated policy objects.
+
+CONDITIONAL:
+policy decision depends on unresolved approval.
+
+COMPETING:
+two unresolved policy interpretations remain viable.
+
+UNKNOWN/GAP:
+governing policy cannot be determined.
+```
+
+---
+
+# 108. GMEF Binding
+
+Changes to policy-decision semantics SHOULD enter governed evolution when they modify:
+
+```text
+decision states;
+precedence;
+override rules;
+applicability;
+effect classes;
+authority interaction;
+commit requirements;
+exception semantics;
+unknown handling;
+conflict handling;
+freshness;
+revocation;
+provenance requirements.
+```
+
+A seemingly small change to `ALLOW` semantics may materially change the system's authority boundary and therefore requires stronger governance than a cosmetic schema change.
+
+---
+
+# 109. Policy Decision Change Record
+
+```yaml
+policy_decision_change:
+  change_id: string
+
+  artifact: "POLICY_DECISION.md"
+
+  from_version: string
+  to_version: string
+
+  semantic_change: true
+
+  affected_surfaces:
+    - decision_state
+    - applicability
+    - authority_boundary
+
+  evidence_refs: []
+
+  validators_required: []
+
+  rollback_plan: null
+
+  approval_state: PROPOSED
+```
+
+---
+
+# 110. Security Requirements
+
+The policy-decision layer SHOULD defend against:
+
+```text
+policy injection;
+policy deletion;
+policy downgrade;
+policy-version rollback;
+exception forgery;
+exception widening;
+authority smuggling;
+scope widening;
+regime widening;
+effect understatement;
+decision-cache poisoning;
+decision replay;
+decision substitution;
+provenance deletion;
+conflict suppression;
+unknown-to-allow coercion;
+post-evaluation parameter mutation.
+```
+
+---
+
+# 111. Replay Protection
+
+A policy decision SHOULD NOT be replayed against a materially different transaction.
+
+Where necessary, bind:
+
+```text
+decision_id
+transaction_id
+principal
+operation
+target
+effect_digest
+policy_read_set
+authority context
+```
+
+Replay validity must be explicitly evaluated.
+
+---
+
+# 112. Policy Decision Persistence
+
+Persistent policy decisions SHOULD retain enough state for later audit.
+
+At minimum:
+
+```text
+decision identity;
+principal;
+operation;
+target;
+decision;
+policy IDs/versions;
+rule IDs;
+scope;
+regime;
+evaluation timestamp;
+provenance;
+conditions;
+obligations;
+conflicts;
+invalidation state.
+```
+
+Persistence does not imply permanent validity.
+
+---
+
+# 113. Decision Lifecycle
+
+Recommended lifecycle:
+
+```text
+CREATED
+   ↓
+EVALUATING
+   ↓
+RESOLVED
+   ↓
+ACTIVE
+   ↓
+CONSUMED
+```
+
+Possible side transitions:
+
+```text
+EVALUATING → UNKNOWN_GAP
+EVALUATING → CONFLICT
+RESOLVED → REVALIDATE
+ACTIVE → INVALIDATED
+ACTIVE → SUPERSEDED
+ACTIVE → EXPIRED
+ANY → QUARANTINED
+```
+
+---
+
+# 114. Quarantine
+
+Policy decisions with suspicious provenance, corrupted policy references, or unresolved integrity failures SHOULD be quarantinable.
+
+```yaml
+quarantine:
+  active: true
+
+  reason: string
+
+  entered_at: timestamp
+
+  affected_decision_id: string
+
+  evidence_refs: []
+
+  release_conditions: []
+```
+
+Quarantine MUST preserve evidence.
+
+---
+
+# 115. Supersession
+
+When a policy decision is recomputed after a load-bearing change:
+
+```yaml
+supersession:
+  decision_id: "PD_NEW"
+
+  supersedes:
+    - "PD_OLD"
+
+  reason:
+    - "policy version changed"
+
+  old_decision_reusable: false
+```
+
+Historical decisions SHOULD remain auditable.
+
+---
+
+# 116. Observability Events
+
+Material operations SHOULD emit events such as:
+
+```text
+POLICY_DECISION_REQUESTED
+
+POLICY_DISCOVERED
+
+POLICY_APPLICABILITY_RESOLVED
+
+POLICY_EVALUATED
+
+POLICY_CONFLICT_DETECTED
+
+POLICY_DECISION_CREATED
+
+POLICY_DECISION_REVALIDATED
+
+POLICY_DECISION_INVALIDATED
+
+POLICY_DECISION_EXPIRED
+
+POLICY_DECISION_QUARANTINED
+
+POLICY_DECISION_SUPERSEDED
+
+POLICY_ESCALATION_REQUESTED
+```
+
+Events SHOULD preserve:
+
+```text
+decision ID;
+actor;
+timestamp;
+transaction;
+policy identity;
+reason;
+state transition.
+```
+
+---
+
+# 117. Minimum Policy Decision
+
+Minimum structurally meaningful object:
+
+```yaml
+policy_decision:
+  decision_id: string
+
+  principal_id: string
+
+  operation: string
+
+  target_id: string
+
+  applicable_policies:
+    - policy_id: string
+      version: string
+
+  decision:
+    state:
+      - ALLOW
+      - DENY
+      - CONDITIONAL
+      - ESCALATE
+      - REVALIDATE
+      - CONFLICT
+      - UNKNOWN_GAP
+
+  scope: {}
+
+  regime: {}
+
+  evaluated_at: timestamp
+
+  provenance: {}
+
+  confidence_ceiling: null
+```
+
+For consequential effects, the minimum object SHOULD be expanded with effect, authority, constraint, freshness, and transaction bindings.
+
+---
+
+# 118. Canonical Decision Law
+
+The core policy-decision law is:
+
+```text
+POLICY DECISION
+=
+context-bound policy conclusion
+```
+
+not:
+
+```text
+POLICY DECISION
+=
+universal permission
+```
+
+Therefore every material decision inherits its:
+
+```text
+principal
+action
+target
+scope
+regime
+policy versions
+evidence
+freshness
+dependencies
+```
+
+---
+
+# 119. Commit Boundary Law
+
+For durable effects:
+
+```text
+PolicyAllow
+≠
+CommitAuthority
+```
+
+The final release path remains:
+
+```text
+POLICY DECISION
         ↓
-    SIMULATION
+AUTHORITY VALIDATION
         ↓
-    SANDBOX
+CONSTRAINT VALIDATION
         ↓
-    LIMITED EXPERIMENT
+SEMANTIC TRANSACTION VALIDATION
         ↓
-    REVERSIBLE PILOT
+OBSERVABILITY VALIDATION
         ↓
-    STAGED ROLLOUT
+FRESHNESS / READ-SET VALIDATION
         ↓
-    MONITORED DEPLOYMENT
+EFFECT-LEDGER VALIDATION
+        ↓
+COMMITTABLE
+        ↓
+AUTHORIZED EFFECT RELEASE
+```
 
-before irreversible commitment.
+No earlier stage implies a later stage.
 
-# 89. ACTION AUTHORITY FIREWALL
+---
 
-Hard invariant:
+# 120. Current Completion State
 
-    COUNTERFACTUAL RECOMMENDATION
-            !=
-    EXECUTION AUTHORITY
+```yaml
+completion:
+  definition: COMPLETE_AS_MODEL
 
-Before real action:
+  scope: COMPLETE_AS_MODEL
 
-    CHECK CAPABILITY
+  decision_object: COMPLETE_AS_MODEL
 
-    CHECK AUTHORIZATION
+  decision_states: COMPLETE_AS_MODEL
 
-    CHECK EFFECT CLASS
+  applicability: COMPLETE_AS_MODEL
 
-    CHECK RISK
+  composition: COMPLETE_AS_MODEL
 
-    CHECK CURRENT STATE
+  precedence: COMPLETE_AS_MODEL
 
-    CHECK COMMIT-TIME AUTHORITY
+  conditions: COMPLETE_AS_MODEL
 
-# 90. VALUE OF INFORMATION
+  obligations: COMPLETE_AS_MODEL
 
-When uncertainty matters, prefer evidence that can change the decision.
+  prohibitions: COMPLETE_AS_MODEL
 
-Conceptually:
+  exceptions: COMPLETE_AS_MODEL
 
-    VOI(test)
-      =
-    expected decision improvement
-      -
-    test cost
-      -
-    test risk
+  capability_boundary: COMPLETE_AS_MODEL
 
-No universal numeric VOI formula is asserted.
+  authority_boundary: COMPLETE_AS_MODEL
 
-# 91. DISCRIMINATING TEST
+  control_plane_boundary: COMPLETE_AS_MODEL
 
-For competing models:
+  commit_boundary: COMPLETE_AS_MODEL
 
-    M1
-    M2
+  HML: COMPLETE_AS_MODEL
 
-prefer a test T whose predicted observations differ materially.
+  provenance: COMPLETE_AS_MODEL
 
-    T*
-      =
-    highest-information feasible
-    discriminating test
+  uncertainty: COMPLETE_AS_MODEL
+
+  failure_modes: COMPLETE_AS_MODEL
+
+  repair: COMPLETE_AS_MODEL
+
+  tests: COMPLETE_AS_MODEL
+
+  falsifiers: COMPLETE_AS_MODEL
+
+  runtime_implementation: UNKNOWN/GAP
+
+  policy_registry_population: UNKNOWN/GAP
+
+  executed_tests: UNKNOWN/GAP
+
+  empirical_validation: UNKNOWN/GAP
+
+  formal_verification: UNKNOWN/GAP
+
+  canon_approval: UNKNOWN/GAP
+```
+
+---
+
+# 121. Hard Boundary Block
+
+```text
+POLICY != POLICY_DECISION
+
+POLICY_DECISION != AUTHORITY
+
+POLICY_DECISION != CAPABILITY
+
+POLICY_DECISION != CONTROL_PLANE
+
+POLICY_DECISION != COMMIT
+
+POLICY_ALLOW != AUTHORITY
+
+POLICY_ALLOW != EXECUTION
+
+POLICY_ALLOW != COMMITTABLE
+
+POLICY_ALLOW != COMMITTED
+
+CAPABILITY != AUTHORITY
+
+AUTHORITY != POLICY COMPLIANCE
+
+VALIDATION != AUTHORIZATION
+
+PROPOSAL != COMMIT
+
+EXECUTION_SUCCESS != POLICY_VALIDITY
+
+EXECUTION_SUCCESS != CLAIM_TRUTH
+
+RECEIPT_ID != VERIFIED_RECEIPT
+
+ADDRESSABLE != VALIDATED
+
+PLACEHOLDER != IMPLEMENTED
+
+UNKNOWN/GAP != PASS
+
+UNKNOWN/GAP != ALLOW
+
+CONFLICT != ALLOW
+
+CONDITIONAL != ALLOW
+
+CORRELATED_EVIDENCE != INDEPENDENT_CONFIRMATION
+
+MODEL != EMPIRICAL FACT
+```
+
+---
+
+# 122. Canon Boundary
+
+Trang Phan remains the origin architect and steward of AMOS.
+
+This artifact is a substantive AMOS architecture specification intended to complete the `POLICY_DECISION.md` surface.
+
+Its structural completeness does not itself establish canonical admission.
+
+Until separately admitted through the appropriate canon, provenance, governance, validation, and supersession process:
+
+```yaml
+artifact_status: PROPOSED
+
+epistemic_class: MODEL
+
+canonical_status: UNKNOWN/GAP
+
+runtime_status: UNKNOWN/GAP
+
+validation_status: UNKNOWN/GAP
+```
+
+Where applicable verified source canon conflicts with generated model structure:
+
+```text
+APPLICABLE SOURCE CANON
+        >
+GENERATED MODEL
+```
 
 subject to:
 
-    cost
-    risk
-    authorization
-    reversibility
-    time
-
-# 92. PROOF CAPSULE
-
-    CounterfactualProofCapsule:
-
-      capsule_id
-
-      claim:
-        text
-        class
-
-      factual_anchor
-
-      intervention
-
-      queried_outcome
-
-      causal_model:
-        model_id
-        version
-        causal_epoch
-
-      load_bearing_premises
-
-      evidence
-
-      provenance
-
-      dependency_closure
-
-      causal_structure:
-        mechanisms
-        mediators
-        moderators
-        confounders
-        feedback
-
-      counterfactual_state
-
-      alternative_outcomes
-
-      competing_explanations
-
-      scope
-
-      regime
-
-      freshness
-
-      uncertainty:
-        evidence
-        model
-        scope
-        temporal
-        causal
-        intervention
-        execution
-        provenance_independence
-
-      sensitivity:
-        flip_premise
-        flip_threshold
-
-      falsifiers
-
-      confidence_ceiling
-
-      invalidation_conditions
-
-# 93. HISTORICAL COMMON ERRORS
-
-Historical AMOS identifies:
-
-    OVER_DETERMINATION
-
-Assuming the counterfactual outcome would definitely be X without considering
-other influencing factors.
-
-    IGNORING_SYSTEM_REACTIONS
-
-Treating the system as static when it would react to the intervention.
-
-    CONFUSING_CORRELATION_WITH_CAUSATION
-
-Assuming that because B followed A, changing A would necessarily change B.
-
-    UNREALISTIC_BASELINE
-
-Comparing actuality against an unrealistic or cherry-picked baseline.
-
-    HIDDEN_CHANGES
-
-Silently changing multiple variables in the counterfactual.
-
-# 94. EXTENDED FAILURE MODES
-
-    CF-F01 — OVERDETERMINATION
-
-    CF-F02 — SYSTEM REACTION FAILURE
-
-    CF-F03 — CORRELATION / CAUSATION COLLAPSE
-
-    CF-F04 — UNREALISTIC BASELINE
-
-    CF-F05 — HIDDEN CHANGE
-
-    CF-F06 — FALSE PRECISION
-
-    CF-F07 — FALSE PROBABILITY
-
-    CF-F08 — REGIME LEAK
-
-    CF-F09 — SCOPE LEAK
-
-    CF-F10 — PROVENANCE COLLAPSE
-
-    CF-F11 — STALE REUSE
-
-    CF-F12 — COMPETING COLLAPSE
-
-    CF-F13 — FACTUAL CONTAMINATION
-
-    CF-F14 — AUTHORITY ESCALATION
-
-    CF-F15 — CAUSAL CHAIN SKIP
-
-    CF-F16 — MEDIATOR FREEZE
-
-    CF-F17 — MODERATOR OMISSION
-
-    CF-F18 — FEEDBACK OMISSION
-
-    CF-F19 — IDENTIFIABILITY OVERCLAIM
-
-    CF-F20 — BRANCH SYBIL
-
-# 95. HISTORICAL SAFETY CONSTRAINTS
-
-The historical kernel requires:
-
-    never_present_counterfactual_as_fact = true
-
-    never_ignore_uncertainty_in_far_counterfactuals = true
-
-    always_state_assumptions_explicitly = true
-
-    always_label_counterfactual_as_counterfactual = true
-
-    never_use_counterfactual_to_over_determine_outcomes = true
-
-# 96. V4.4 HARD SAFETY CONSTRAINTS
-
-Additionally:
-
-    never_invent_missing_causal_edges = true
-
-    never_convert_correlation_into_causation_without_evidence = true
-
-    never_silently_change_unrelated_variables = true
-
-    never_invent_probability = true
-
-    never_force_competing_models_into_false_consensus = true
-
-    never_generalize_across_scope_without_validation = true
-
-    never_generalize_across_regime_without_validation = true
-
-    never_count_shared_provenance_as_independent_confirmation = true
-
-    never_treat_counterfactual_output_as_execution_authority = true
-
-    never_allow_fluency_to_raise_confidence = true
-
-# 97. INTEGRATION CONTRACT
-
-Historical integration provides to:
-
-    Meta_Logic_Kernel
-    Multi_Perspective_Reasoning_Kernel
-    Strategy_Game_Engine
-    Risk_Assessment
-
-Historical use contexts include:
-
-    Decision analysis
-    Risk assessment
-    Strategic planning
-    Causal inference
-    Policy evaluation
-
-Routing:
-
-    ROUTE_DEFAULT
-
-or specialized domain routes when the counterfactual is domain-specific.
-
-v4.4 integration additionally includes:
-
-    RSCF
-    H/M/L
-    GMEF
-    K_WORLD_MODEL
-    K_SYSTEM_STATE
-    K_CONTEXT_STATE
-    K_MEMORY_ADMISSION
-    K_MEMORY_RETRIEVAL
-    K_CAUSAL_EPOCH
-    K_PROVENANCE
-    K_PROVENANCE_TOPOLOGY
-    K_SYBIL_HARDENING
-    K_RISK_CONSTRAINT
-    K_CAPABILITY_AUTHORIZATION
-    K_COMMIT_TIME_AUTHORITY
-
-where those canonical artifacts exist and are compatible.
-
-# 98. HISTORICAL UNIT TESTS
-
-Required historical behaviors include:
-
-    TEST 1
-
-    Construct past counterfactual with causal model.
-
-    EXPECT:
-
-      counterfactual_state
-      causal_chain
-      uncertainties
-
-    TEST 2
-
-    Compare actual vs counterfactual.
-
-    EXPECT:
-
-      difference_analysis
-      causal_attribution
-      confounding_factors
-
-    TEST 3
-
-    Detect over-determination.
-
-    EXPECT:
-
-      error_flagged
-
-    TEST 4
-
-    Scenario analysis with three alternatives.
-
-    EXPECT:
-
-      scenario_outcomes
-      recommended_preparation
-
-# 99. EXTENDED VALIDATION SUITE
-
-    FACTUAL_ANCHOR_TEST
-
-    INTERVENTION_BINDING_TEST
-
-    MINIMAL_CHANGE_TEST
-
-    HIDDEN_CHANGE_TEST
-
-    CAUSAL_CHAIN_TEST
-
-    CAUSAL_CLOSURE_TEST
-
-    CONFOUNDING_TEST
-
-    MEDIATION_TEST
-
-    MODERATION_TEST
-
-    OVERDETERMINATION_TEST
-
-    PREEMPTION_TEST
-
-    FEEDBACK_TEST
-
-    SYSTEM_REACTION_TEST
-
-    REGIME_SHIFT_TEST
-
-    SCOPE_TRANSFER_TEST
-
-    TEMPORAL_VALIDITY_TEST
-
-    PROVENANCE_INDEPENDENCE_TEST
-
-    SYBIL_HARDENING_TEST
-
-    COMPETING_MODEL_TEST
-
-    PARTIAL_IDENTIFICATION_TEST
-
-    FALSE_PROBABILITY_TEST
-
-    FALSE_PRECISION_TEST
-
-    UNCERTAINTY_DISTANCE_TEST
-
-    CONFIDENCE_CEILING_TEST
-
-    SENSITIVITY_TEST
-
-    FALSIFIER_TEST
-
-    ADVERSARIAL_CHALLENGE_TEST
-
-    LOCAL_INVALIDATION_TEST
-
-    MEMORY_TYPING_TEST
-
-    STALE_REUSE_TEST
-
-    CAUSAL_EPOCH_TEST
-
-    ACTION_AUTHORITY_TEST
-
-    REVERSIBILITY_TEST
-
-# 100. NEGATIVE TESTS
-
-    CORRELATION
-       ↓
-    CAUSAL COUNTERFACTUAL
-
-    MUST FAIL
+```text
+version
+scope
+regime
+supersession
+provenance
+```
+
+resolution.
 
 ---
 
-    MODEL OUTPUT
-       ↓
-    OBSERVED FACT
+# 123. Final Policy Decision Contract
 
-    MUST FAIL
+AMOS SHALL preserve the following policy-decision chain:
+
+```text
+REQUEST
+    ↓
+PRINCIPAL RESOLUTION
+    ↓
+ACTION NORMALIZATION
+    ↓
+TARGET / EFFECT BINDING
+    ↓
+CAPABILITY RESOLUTION
+    ↓
+POLICY DISCOVERY
+    ↓
+POLICY VERSION RESOLUTION
+    ↓
+APPLICABILITY
+    ↓
+RULE EVALUATION
+    ↓
+CONDITION / OBLIGATION / PROHIBITION EXTRACTION
+    ↓
+CONFLICT DETECTION
+    ↓
+VALID PRECEDENCE / SUPERSESSION
+    ↓
+POLICY COMPOSITION
+    ↓
+POLICY_DECISION
+    ↓
+PROVENANCE + READ-SET BINDING
+    ↓
+CONTROL-PLANE HANDOFF
+    ↓
+AUTHORITY / CONSTRAINT / OBSERVABILITY CHECKS
+    ↓
+COMMIT-TIME POLICY REVALIDATION
+    ↓
+EFFECT-RELEASE VALIDATION
+    ↓
+AUTHORIZED COMMIT OR BLOCK
+```
+
+The central invariant is:
+
+> **A policy decision is a scoped, versioned, provenance-bound conclusion about policy applicability to a particular action. It is not capability, authority, execution, or commit.**
+
+Therefore:
+
+```text
+ALLOW
+```
+
+means only that the evaluated policy layer permits the bound action within the decision's applicability envelope.
+
+It does not mean:
+
+```text
+AUTHORIZED
+COMMITTABLE
+COMMITTED
+VALIDATED OUTCOME
+```
+
+Any unresolved load-bearing policy, scope, regime, authority, provenance, freshness, or conflict condition remains:
+
+```text
+UNKNOWN/GAP
+```
+
+or the appropriate explicit blocking/escalation state.
+
+AMOS MUST NOT convert missing information into permission.
+
+AMOS MUST NOT convert capability into authority.
+
+AMOS MUST NOT convert proposal into commit.
+
+AMOS MUST NOT convert successful execution into proof of policy validity.
+
+Integrity remains prior to completeness, fluency, speed, and optimization.
 
 ---
 
-    ONE SOURCE
-       ↓
-    TEN SUMMARIES
-       ↓
-    TEN INDEPENDENT SOURCES
+# END — POLICY_DECISION.md
 
-    MUST FAIL
-
----
-
-    CHANGE X
-       ↓
-    SILENTLY CHANGE Z
-
-    MUST FAIL
-
----
-
-    NO PROBABILITY MODEL
-       ↓
-    "73.8% PROBABILITY"
-
-    MUST FAIL
-
----
-
-    SUPPORTED COMPETING MODELS
-       ↓
-    ONE CERTAIN CONCLUSION
-
-    MUST FAIL
-
----
-
-    STALE CAUSAL MODEL
-       ↓
-    CURRENT VALIDITY
-
-    MUST FAIL WITHOUT REVALIDATION
-
----
-
-    COUNTERFACTUAL RECOMMENDATION
-       ↓
-    EXECUTION AUTHORITY
-
-    MUST FAIL
-
-# 101. PROPERTY INVARIANTS
-
-    Observed(Counterfactual) = false
-
-unless the previously counterfactual state later becomes actual and is
-independently observed.
-
-    Confidence(CF)
-      <=
-    WeakestLoadBearingPremise
-
-unless independently revalidated.
-
-    Changed(CF)
-      ⊆
-    Intervention
-      ∪
-    LicensedDescendants
-      ∪
-    ExplicitAuxiliaryChanges
-
-    BranchCount
-      !=
-    EvidenceCount
-
-    Correlation
-      !=
-    CounterfactualCausation
-
-    ModelAgreement
-      !=
-    IndependentEvidence
-
-# 102. METAMORPHIC TESTS
-
-If independently irrelevant Z changes:
-
-    TARGET COUNTERFACTUAL
-    SHOULD NOT CHANGE
-
-when independence is established.
-
-If load-bearing edge:
-
-    X → Y
-
-is removed and no alternative path exists:
-
-    EFFECT ON Y
-    MUST DISAPPEAR
-    OR BECOME UNKNOWN
-
-If regime changes outside validated scope:
-
-    CONFIDENCE MUST FALL
-    OR REVALIDATION MUST OCCUR
-
-If multiple apparent evidence sources collapse to one ancestor:
-
-    PROVENANCE-INDEPENDENCE CONFIDENCE
-    MUST FALL
-
-# 103. ERROR REGISTRY
-
-    E_CF_NO_BASELINE
-
-      factual anchor unavailable
-
-    E_CF_AMBIGUOUS_INTERVENTION
-
-      intervention insufficiently specified
-
-    E_CF_HIDDEN_CHANGE
-
-      undeclared world modification
-
-    E_CF_CAUSAL_MODEL_MISSING
-
-      required causal structure unavailable
-
-    E_CF_CAUSAL_OVERREACH
-
-      causal conclusion exceeds evidence
-
-    E_CF_CONFOUNDING
-
-      unresolved material confounding
-
-    E_CF_MEDIATOR_ERROR
-
-      mediation incorrectly modeled
-
-    E_CF_MODERATOR_ERROR
-
-      conditional effect ignored
-
-    E_CF_FEEDBACK_IGNORED
-
-      material feedback omitted
-
-    E_CF_SYSTEM_REACTION_IGNORED
-
-      adaptive response omitted
-
-    E_CF_SCOPE_LEAK
-
-      conclusion exceeds supported scope
-
-    E_CF_REGIME_LEAK
-
-      unsupported regime transfer
-
-    E_CF_TEMPORAL_ERROR
-
-      temporal structure invalid
-
-    E_CF_PROVENANCE_COLLAPSE
-
-      ancestry treated as independence
-
-    E_CF_BRANCH_SYBIL
-
-      generated branches treated as independent evidence
-
-    E_CF_FALSE_PROBABILITY
-
-      unsupported probability assignment
-
-    E_CF_FALSE_PRECISION
-
-      unsupported numerical precision
-
-    E_CF_COMPETING_COLLAPSE
-
-      unresolved models falsely merged
-
-    E_CF_STALE_REUSE
-
-      invalid counterfactual reused
-
-    E_CF_AUTHORITY_ESCALATION
-
-      reasoning result treated as execution authority
-
-    E_CF_IDENTIFIABILITY_GAP
-
-      target counterfactual not identifiable
-
-    E_CF_UNKNOWN
-
-      unresolved counterfactual failure
-
-# 104. LAW REGISTRY
-
-    KCF-001  FACTUAL ANCHOR
-
-    KCF-002  ACTUAL / COUNTERFACTUAL SEPARATION
-
-    KCF-003  EXPLICIT INTERVENTION
-
-    KCF-004  MINIMAL CHANGE
-
-    KCF-005  CAUSAL CHAIN CONSERVATION
-
-    KCF-006  NO HIDDEN CHANGE
-
-    KCF-007  CAUSAL MODEL REQUIREMENT
-
-    KCF-008  CORRELATION FIREWALL
-
-    KCF-009  SYSTEM REACTION AWARENESS
-
-    KCF-010  UNCERTAINTY-DISTANCE DISCIPLINE
-
-    KCF-011  ASSUMPTION TRANSPARENCY
-
-    KCF-012  SCOPE PRESERVATION
-
-    KCF-013  REGIME REVALIDATION
-
-    KCF-014  TEMPORAL VALIDITY
-
-    KCF-015  PROVENANCE CONTINUITY
-
-    KCF-016  SYBIL HARDENING
-
-    KCF-017  COMPETING PRESERVATION
-
-    KCF-018  IDENTIFIABILITY DISCIPLINE
-
-    KCF-019  CONFIDENCE CEILING
-
-    KCF-020  SENSITIVITY FIRST
-
-    KCF-021  FALSIFIER VISIBILITY
-
-    KCF-022  LOCAL INVALIDATION
-
-    KCF-023  MEMORY TYPING
-
-    KCF-024  ACTION NON-AUTHORIZATION
-
-    KCF-025  REVERSIBILITY PREFERENCE
-
-    KCF-026  MINIMUM SUFFICIENT PROOF
-
-    KCF-027  NO FALSE PRECISION
-
-    KCF-028  NO PROBABILITY INVENTION
-
-    KCF-029  CAUSAL-EPOCH BINDING
-
-    KCF-030  INTEGRITY OVER FLUENCY
-
-These KCF identifiers are normalized candidate-canon identifiers.
-
-They are not asserted to be historical v1.0 numbering.
-
-# 105. OUTPUT CONTRACT
-
-    CounterfactualResult:
-
-      label: COUNTERFACTUAL
-
-      type:
-        PAST
-        FUTURE
-        STRUCTURAL
-        CAUSAL
-
-      factual_baseline
-
-      intervention
-
-      queried_outcome
-
-      conclusion:
-        statement
-        class:
-          VERIFIED
-          DERIVED
-          MODEL
-          CONDITIONAL
-          COMPETING
-          UNKNOWN/GAP
-
-      causal_basis
-
-      assumptions
-
-      system_reactions
-
-      competing_outcomes
-
-      alternative_explanations
-
-      confounders
-
-      scope
-
-      regime
-
-      temporal_validity
-
-      uncertainty
-
-      confidence_ceiling
-
-      sensitivity
-
-      falsifiers
-
-      invalidation_conditions
-
-      discriminating_test
-
-      reversible_action
-
-# 106. ADAPTIVE COMPLEXITY
-
-    C0 — DIRECT
-
-Simple, local, low-stakes counterfactual.
-
-    C1 — COMPACT
-
-Small dependency chain with explicit assumptions.
-
-    C2 — STRUCTURED
-
-Multiple causal dependencies or meaningful uncertainty.
-
-    C3 — DEEP
-
-Competing models, causal ambiguity, regime sensitivity, consequential
-decision.
-
-    C4 — MAXIMUM
-
-Irreversible, high-impact, governance-relevant, safety-critical, highly
-uncertain, or structurally novel counterfactual.
-
-Escalate for:
-
-    high stakes
-    irreversibility
-    novelty
-    weak evidence
-    stale evidence
-    contradiction
-    causal ambiguity
-    scope mismatch
-    regime shift
-    competing models
-    governance impact
-    provenance uncertainty
-
-De-escalate when decision-changing uncertainty has been resolved.
-
-# 107. STOP CONDITIONS
-
-Stop expansion when:
-
-    CLAIM SUFFICIENCY
-          AND
-    DECISION SUFFICIENCY
-          AND
-    ACTION SUFFICIENCY
-
-are achieved.
-
-More branches do not automatically produce more knowledge.
-
-# 108. PROVENANCE STRATA
-
-    S0_DIRECT_SOURCE
-
-Historical AMOS Counterfactual Reasoning Kernel material directly recovered
-from corpus.
-
-    S1_AMOS_LINEAGE
-
-Material explicitly inherited from broader AMOS architecture.
-
-    S2_V4_4_INTEGRATION
-
-Integration needed to align K_COUNTERFACTUAL with the v4.4 integrity,
-provenance, scope, regime, RSCF, causal-epoch, and governance architecture.
-
-    S3_DERIVED_FORMALIZATION
-
-Schemas, algorithms, equations, test structures, normalized laws, and
-contracts derived from AMOS principles but not represented as verbatim
-historical source.
-
-    S4_EXTERNAL_REFERENCE
-
-External causal/counterfactual research used only where explicitly cited and
-not silently promoted into AMOS canon.
-
-    S5_UNKNOWN_GAP
-
-Canonical, implementation, formal, or empirical detail not established.
-
-# 109. HISTORICAL / DERIVED BOUNDARY
-
-SOURCE-SUPPORTED HISTORICAL SPINE:
-
-    Counterfactual_Reasoning_Kernel
-
-    version 1.0.0
-
-    Meta_Cognition
-
-    priority 9
-
-    required = true
-
-    past counterfactual
-
-    future counterfactual
-
-    structural counterfactual
-
-    causal counterfactual
-
-    plausible initial state
-
-    minimal change principle
-
-    causal chain conservation
-
-    uncertainty proportionate to distance
-
-    assumption transparency
-
-    construct_counterfactual
-
-    compare_actual_vs_counterfactual
-
-    scenario_analysis
-
-    common counterfactual errors
-
-    counterfactual safety constraints
-
-V4.4 INTEGRATION:
-
-    RSCF
-
-    H/M/L
-
-    GMEF
-
-    typed evidence
-
-    competing hypotheses
-
-    provenance topology
-
-    Sybil hardening
-
-    scope firewall
-
-    regime firewall
-
-    causal epoch
-
-    weakest-premise confidence ceiling
-
-    local invalidation
-
-    atomic multi-RSCF reasoning
-
-    proof-based local reasoning
-
-    reversible-action governance
-
-DERIVED FORMALIZATION:
-
-    structural-equation notation
-
-    abduction → action → projection
-
-    causal relation taxonomy
-
-    counterfactual distance decomposition
-
-    uncertainty vector
-
-    identifiability states
-
-    partial-identification contract
-
-    proof capsule schema
-
-    fast-path schema
-
-    error registry
-
-    KCF law identifiers
-
-    metamorphic tests
-
-These derived structures must not be misrepresented as byte-identical
-historical AMOS source.
-
-# 110. KNOWN GAPS
-
-    KCF-GAP-001
-
-    CLASS:
-      DECISION-RELEVANT
-
-    ISSUE:
-      Exact byte-identical correspondence between every historical
-      counterfactual artifact and this normalized K_COUNTERFACTUAL
-      specification has not been established.
-
----
-
-    KCF-GAP-002
-
-    CLASS:
-      DECISION-RELEVANT
-
-    ISSUE:
-      An executable implementation corresponding exactly to every
-      mechanism specified here is not established.
-
----
-
-    KCF-GAP-003
-
-    CLASS:
-      EXPLANATORY
-
-    ISSUE:
-      Complete supersession history between all historical
-      counterfactual filenames and the normalized canonical name
-      remains incomplete.
-
----
-
-    KCF-GAP-004
-
-    CLASS:
-      DECISION-RELEVANT
-
-    ISSUE:
-      No universal calibrated probability model exists for every
-      counterfactual domain.
-
----
-
-    KCF-GAP-005
-
-    CLASS:
-      UNKNOWN/GAP
-
-    ISSUE:
-      Universal empirical validity is not established.
-
----
-
-    KCF-GAP-006
-
-    CLASS:
-      UNKNOWN/GAP
-
-    ISSUE:
-      Universal formal proof of counterfactual correctness is not
-      established.
-
-# 111. PROMOTION GATE
-
-Before promotion from:
-
-    CANDIDATE_CANON
-
-to an authoritative canon state:
-
-    [ ] historical source registered
-
-    [ ] provenance lineage recorded
-
-    [ ] duplicate artifacts resolved
-
-    [ ] supersession graph recorded
-
-    [ ] dependencies verified
-
-    [ ] conflicts registered
-
-    [ ] Meta Logic compatibility checked
-
-    [ ] Meta Epistemology compatibility checked
-
-    [ ] Probability / Statistics dependency checked
-
-    [ ] RSCF integration tested
-
-    [ ] H/M/L integration tested
-
-    [ ] GMEF integration tested
-
-    [ ] causal firewall tested
-
-    [ ] scope firewall tested
-
-    [ ] regime firewall tested
-
-    [ ] provenance topology tested
-
-    [ ] Sybil hardening tested
-
-    [ ] causal-model gap behavior tested
-
-    [ ] hidden-change detection tested
-
-    [ ] competing-model behavior tested
-
-    [ ] confidence ceiling tested
-
-    [ ] partial-identification behavior tested
-
-    [ ] memory typing tested
-
-    [ ] causal epoch behavior tested
-
-    [ ] local invalidation tested
-
-    [ ] action-authority firewall tested
-
-    [ ] failure recovery tested
-
-    [ ] authoritative-state record updated
-
-    [ ] steward approval completed
-
-Existence of this artifact does not satisfy those gates.
-
-# 112. CANONICAL COMPRESSION
-
-    K_COUNTERFACTUAL
-    =
-    DISCIPLINED
-    ALTERNATIVE-WORLD
-    REASONING.
-
-    ANCHOR
-    THE FACTUAL WORLD.
-
-    DECLARE
-    THE INTERVENTION.
-
-    CHANGE ONLY
-    WHAT THE INTERVENTION
-    AND DEFENSIBLE
-    CAUSAL CONSEQUENCES
-    REQUIRE.
-
-    PRESERVE
-    CAUSAL STRUCTURE.
-
-    MODEL
-    SYSTEM REACTIONS.
-
-    EXPOSE
-    ASSUMPTIONS.
-
-    PRESERVE
-    UNCERTAINTY.
-
-    KEEP
-    COUNTERFACTUAL
-    SEPARATE FROM FACT.
-
-    KEEP
-    PREDICTION
-    SEPARATE FROM
-    INTERVENTION.
-
-    KEEP
-    CORRELATION
-    SEPARATE FROM
-    CAUSATION.
-
-    INCREASE
-    UNCERTAINTY
-    AS THE ALTERNATIVE WORLD
-    MOVES FARTHER
-    FROM ACTUALITY.
-
-    PRESERVE
-    COMPETING MODELS.
-
-    PRESERVE
-    PROVENANCE ANCESTRY.
-
-    DO NOT
-    COUNT DERIVED COPIES
-    AS INDEPENDENT EVIDENCE.
-
-    DO NOT
-    GENERALIZE
-    OUTSIDE SCOPE.
-
-    DO NOT
-    TRANSFER
-    ACROSS REGIMES
-    WITHOUT REVALIDATION.
-
-    DO NOT
-    INVENT
-    MISSING CAUSAL EDGES.
-
-    DO NOT
-    INVENT
-    PROBABILITIES.
-
-    WHEN
-    IDENTIFICATION FAILS:
-
-      RETURN BOUNDS
-
-      OR
-
-      UNKNOWN/GAP.
-
-    WHEN
-    A PREMISE FAILS:
-
-      INVALIDATE ONLY
-      DEPENDENT DESCENDANTS.
-
-    WHEN
-    THE RESULT IS FRAGILE:
-
-      RETURN CONDITIONAL.
-
-    WHEN
-    SUPPORTED MODELS DISAGREE:
-
-      RETURN COMPETING.
-
-    WHEN
-    A CHEAP,
-    REVERSIBLE,
-    HIGH-INFORMATION
-    DISCRIMINATING TEST EXISTS:
-
-      PREFER THE TEST
-      OVER MORE SPECULATION.
-
-    NEVER LET
-
-      COMPLETENESS,
-      FLUENCY,
-      SPEED,
-      OR NUMERICAL PRECISION
-
-    OUTRUN
-
-      INTEGRITY.
-
-# 113. FORMAL KERNEL CONTRACT
-
-Conceptually:
-
-    K_COUNTERFACTUAL:
-
-      (
-        F,
-        I,
-        M,
-        E,
-        S,
-        R,
-        T,
-        P
-      )
-
-      →
-
-      (
-        C,
-        Class,
-        U,
-        D,
-        Falsifiers
-      )
-
-where:
-
-    F = factual state
-
-    I = intervention
-
-    M = causal model
-
-    E = evidence
-
-    S = scope
-
-    R = regime
-
-    T = temporal state
-
-    P = provenance topology
-
-    C = counterfactual conclusion
-
-    Class = epistemic conclusion class
-
-    U = uncertainty vector
-
-    D = dependency / invalidation topology
-
-subject to:
-
-    FACTUAL INTEGRITY
-
-    MINIMAL INTERVENTION
-
-    CAUSAL VALIDITY
-
-    SCOPE INTEGRITY
-
-    REGIME INTEGRITY
-
-    TEMPORAL INTEGRITY
-
-    PROVENANCE INTEGRITY
-
-    ASSUMPTION TRANSPARENCY
-
-and:
-
-    Confidence(C)
-      <=
-    WeakestLoadBearingPremise
-
-unless independently revalidated.
-
-# 114. CANONICAL STATE
-
-    K_COUNTERFACTUAL:
-
-      historical_lineage:
-
-        kernel:
-          Counterfactual_Reasoning_Kernel
-
-        historical_version:
-          1.0.0
-
-        historical_category:
-          Meta_Cognition
-
-        historical_state:
-          SOURCE_SUPPORTED
-
-      normalized_artifact:
-
-        name:
-          K_COUNTERFACTUAL
-
-        status:
-          CANDIDATE_CANON
-
-        conclusion_class:
-          DERIVED
-
-      amos_core_target:
-
-        version:
-          v4.4
-
-        alignment:
-          INTEGRATED_MODEL
-
-      executable_implementation:
-
-        status:
-          UNKNOWN/GAP
-
-      empirical_validation:
-
-        status:
-          UNKNOWN/GAP
-
-      universal_formal_verification:
-
-        status:
-          UNKNOWN/GAP
-
-      supersession:
-
-        K_COUNTERFACTUAL_PLACEHOLDER:
-
-          status:
-            SUPERSEDED_BY_CANDIDATE
-
-        authoritative_final_canon:
-
-          status:
-            NOT_YET_PROMOTED
-
-# 115. TERMINAL INTEGRITY LAW
-
-The governing counterfactual law:
-
-    NEVER CLAIM AN UNREALIZED WORLD
-    MORE STRONGLY THAN
-    THE CAUSAL MODEL,
-    EVIDENCE,
-    PROVENANCE,
-    SCOPE,
-    REGIME,
-    TEMPORAL VALIDITY,
-    AND UNCERTAINTY
-    PERMIT.
-
-The governing intervention law:
-
-    CHANGE ONLY WHAT
-    THE DECLARED INTERVENTION
-    AND DEFENSIBLE
-    CAUSAL CONSEQUENCES
-    REQUIRE.
-
-The governing causal law:
-
-    STRUCTURE,
-    SEQUENCE,
-    ASSOCIATION,
-    ANALOGY,
-    AND CORRELATION
-    DO NOT BY THEMSELVES
-    ESTABLISH
-    COUNTERFACTUAL CAUSATION.
-
-The governing epistemic law:
-
-    WHEN THE EVIDENCE
-    CANNOT DISTINGUISH
-    THE ALTERNATIVE WORLDS,
-
-    PRESERVE COMPETING
-
-    OR
-
-    RETURN UNKNOWN/GAP.
-
-The governing uncertainty law:
-
-    THE FARTHER
-    THE COUNTERFACTUAL WORLD
-    MOVES FROM ACTUALITY,
-
-    THE MORE ASSUMPTION BURDEN
-    MUST BE EXPOSED,
-
-    AND CONFIDENCE
-    MUST NOT INCREASE
-    WITHOUT NEW SUPPORT.
-
-The governing provenance law:
-
-    MANY DESCENDANTS
-    OF ONE EVIDENTIAL ANCESTOR
-
-    DO NOT BECOME
-
-    MANY INDEPENDENT
-    CONFIRMATIONS.
-
-The governing recovery law:
-
-    WHEN A LOAD-BEARING
-    PREMISE FAILS,
-
-    INVALIDATE
-    ONLY THE CONCLUSIONS
-    THAT DEPEND ON IT.
-
-The governing operational law:
-
-    UNDER CONSEQUENTIAL
-    UNCERTAINTY,
-
-    PREFER THE CHEAPEST
-    SAFE,
-    REVERSIBLE,
-    HIGH-INFORMATION
-    DISCRIMINATING TEST
-
-    OVER
-
-    UNSUPPORTED CERTAINTY.
-
-The governing AMOS law:
-
-    INTEGRITY
-    >
-    COMPLETENESS
-    >
-    FLUENCY
-    >
-    SPEED
-    >
-    TOKEN SAVINGS.
-
-# END — K COUNTERFACTUAL
-
-The source boundary here is materially stronger than the original placeholder: the Drive corpus directly supports the kernel's identity, purpose, dependencies, four counterfactual classes, validity criteria, errors, functions, integration points, safety constraints, and original evaluation requirements.  I have **not** promoted the reconstructed v4.4 extensions to verified implementation or final canon; those remain `DERIVED`/`CANDIDATE_CANON` pending the promotion process.
+```
+```

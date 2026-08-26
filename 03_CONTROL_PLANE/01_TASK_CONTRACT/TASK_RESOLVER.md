@@ -1,2199 +1,5930 @@
-# K COUNTERFACTUAL
+Confirmed: the Drive artifact `TASK_RESOLVER.md` exists in the intended Task Contract subsystem, but its current content is the same erroneous `# K COUNTERFACTUAL` placeholder rather than a substantive resolver specification.  
 
-```yaml
-artifact_id: K-COUNTERFACTUAL
-kernel_id: Counterfactual_Reasoning_Kernel
-canonical_alias: K_COUNTERFACTUAL
-historical_version: "1.0.0"
-target_lineage: AMOS_CORE_v4.4
+The tree places it alongside `TASK_CONTRACT.md` under `03_CONTROL_PLANE/01_TASK_CONTRACT`. 
+
+Below is the full substantive replacement.
+
+---
+artifact_id: AMOS-OS-CP-TASK-RESOLVER
+title: AMOS OS Task Resolver
+canonical_name: TASK_RESOLVER
+
+artifact_class: CONTROL_PLANE_RESOLVER
+plane: CONTROL_PLANE
+subsystem: TASK_CONTRACT
+canonical_location: 03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_RESOLVER.md
+
 origin_architect: Trang Phan
-group: Kernels.Meta_Cognition
-category: Meta_Cognition
-priority: 9
-required: true
+amos_core_target: v4.4
 
-status:
-  historical_kernel: DEFINED
-  historical_source_spine: SOURCE_CLAIM
-  v4_4_normalization: DERIVED
-  exact_original_file: PARTIALLY_RECOVERED
-
+status: CANDIDATE_CANON
 conclusion_class: DERIVED
 
-integrity_contract:
-  historical_material: preserve
-  extensions: explicitly_label
-  missing_material: never_invent
-  counterfactual_as_fact: forbidden
-```
+parent:
+  - 03_CONTROL_PLANE/01_TASK_CONTRACT
 
-The historical source identifies `Counterfactual_Reasoning_Kernel` version `1.0.0`, places it in `Kernels.Meta_Cognition`, assigns priority `9`, marks it required, names Trang Phan as Origin Architect, and binds it to `Law_of_Law`, `Rule_of_2`, `Rule_of_4`, and `Absolute_Integrity`. Its explicit dependencies are `Meta_Logic_Kernel`, `Meta_Epistemology_Kernel`, and `Probability_Statistics_Kernel`. 
+siblings:
+  - TASK_CONTRACT.md
 
-The Omni kernel independently places `Counterfactual_Reasoning_Kernel` in the meta-cognition stack alongside Meta Epistemology, Meta Ontology, Meta Logic, Cognitive Compression, Analogy/Abstraction, and Multi-Perspective Reasoning. Its blueprint is marked `defined`. 
+upstream:
+  - 00_ROOT
+  - 01_CANON
+  - 02_KERNEL
+  - 03_CONTROL_PLANE/00_INDEX/README.md
+  - 03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md
+  - 03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT.md
+
+downstream:
+  - 03_CONTROL_PLANE/02_CAPABILITY
+  - 03_CONTROL_PLANE/03_POLICY
+  - 03_CONTROL_PLANE/04_AUTHORITY
+  - 03_CONTROL_PLANE/05_PROVENANCE
+  - 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
+  - 03_CONTROL_PLANE/07_OBSERVABILITY
+  - 03_CONTROL_PLANE/08_EFFECTS
+  - 03_CONTROL_PLANE/09_COMMIT
+  - 04_RUNTIME
+
+implementation_status: SPECIFICATION
+empirical_validation_status: NOT_CLAIMED
+formal_verification_status: NOT_CLAIMED
+
+updated: 2026-08-26
+---
+
+# AMOS OS — TASK RESOLVER
+
+> **Layer:** `03_CONTROL_PLANE/01_TASK_CONTRACT`
+>
+> **Artifact:** `TASK_RESOLVER.md`
+>
+> **Status:** `CANDIDATE_CANON`
+>
+> **AMOS CORE target:** `v4.4`
+>
+> **Origin Architect:** Trang Phan
 
 ---
 
-# 1. PURPOSE
+# 0. Purpose
 
-`K_COUNTERFACTUAL` governs disciplined reasoning about worlds that differ from actuality.
+The Task Resolver converts an incoming request, event, delegated objective,
+recovery requirement, or other task-producing signal into a bounded
+`TaskContract`.
 
-Its historical purpose is to support:
-
-* what-if analysis;
-* alternative-scenario reasoning;
-* reasoning about events that did not happen;
-* hypothetical reasoning;
-* scenario analysis;
-* causal inference through comparison of actual and hypothetical states. 
-
-The fundamental distinction is:
+Conceptually:
 
 ```text
-ACTUAL WORLD
-    ≠
-COUNTERFACTUAL WORLD
-    ≠
-PREDICTION
-    ≠
-EMPIRICALLY OBSERVED OUTCOME
-```
-
-A counterfactual describes what a model supports under an intervention.
-
-It does **not** establish that the hypothetical event occurred.
-
-It does **not** automatically establish that the hypothetical event will occur.
-
-It does **not** establish causation merely because an alternative scenario can be narrated coherently.
-
----
-
-# 2. DOMAIN
-
-Historical source:
-
-```yaml
-domains:
-  - counterfactual
-  - what_if
-  - alternative_scenarios
-  - causal_inference
-  - hypothetical_reasoning
-  - scenario_analysis
-```
-
-
-
-Operationally, the kernel therefore sits at the boundary between:
-
-```text
-ACTUAL STATE
-      ↓
-CAUSAL / STRUCTURAL MODEL
-      ↓
-INTERVENTION
-      ↓
-ALTERNATIVE STATE
-      ↓
-COMPARISON
-      ↓
-DECISION / EXPLANATION / PREPARATION
-```
-
----
-
-# 3. CORE COUNTERFACTUAL TYPES
-
-The historical kernel defines four types. 
-
-## 3.1 Past counterfactual
-
-Form:
-
-```text
-What would have happened
-if some past condition had been different?
-```
-
-Example structure:
-
-```text
-Actual history:
-    X = x
+RAW REQUEST
     ↓
-    Y = y
-
-Counterfactual intervention:
-    X := x'
-
-Question:
-    Y under X := x' = ?
+TASK RESOLVER
+    ↓
+RESOLVED TASK CONTRACT
 ```
 
-Symbolically:
+Its responsibility is not merely to understand language.
 
-[
-Y_{do(X=x')}
-]
-
-The kernel must preserve as much of the actual historical state as possible while changing the requested condition and whatever consequences legitimately follow from it.
-
----
-
-# 4. FUTURE COUNTERFACTUAL
-
-Form:
+Its responsibility is to establish enough semantic certainty for the Control
+Plane to determine:
 
 ```text
-What could happen
-if a future condition changes?
+WHAT IS BEING ASKED?
+
+WHAT DOES THE REQUEST ACTUALLY REFER TO?
+
+WHAT IS THE OBJECTIVE?
+
+WHAT OUTPUT IS EXPECTED?
+
+WHAT IS THE SCOPE?
+
+WHAT CONSTRAINTS APPLY?
+
+WHAT INPUTS ARE REQUIRED?
+
+WHAT ASSUMPTIONS ARE LOAD-BEARING?
+
+WHAT UNCERTAINTIES REMAIN?
+
+WHAT EFFECTS ARE IMPLIED?
+
+WHAT COMPLETION MEANS?
+
+IS THE TASK SUFFICIENTLY BOUND TO PROCEED?
 ```
 
-A future counterfactual is not automatically a forecast.
-
-Instead:
+The Task Resolver is therefore a semantic boundary between:
 
 ```text
-Current State
-      +
-Potential Intervention
-      +
-System Model
-      +
-Uncertainty
-      ↓
-Possible Future State(s)
+UNSTRUCTURED / PARTIALLY STRUCTURED INTENT
 ```
-
-The correct output may therefore be:
-
-```yaml
-outcomes:
-  - scenario_A
-  - scenario_B
-  - scenario_C
-
-state: COMPETING
-```
-
-rather than one falsely precise prediction.
-
----
-
-# 5. STRUCTURAL COUNTERFACTUAL
-
-Form:
-
-```text
-Given this system structure,
-what happens under different conditions?
-```
-
-Structural counterfactual reasoning examines:
-
-```text
-architecture
-constraints
-dependencies
-capacity
-thresholds
-feedback
-bottlenecks
-coupling
-system reactions
-```
-
-Example:
-
-```text
-Observed system:
-    load = L
-    architecture = A
-
-Intervention:
-    load := 2L
-
-Question:
-    what does A imply under 2L?
-```
-
-Structural resemblance alone does not establish causal equivalence.
-
----
-
-# 6. CAUSAL COUNTERFACTUAL
-
-Historical formulation:
-
-```text
-Compare what happened
-with what would have happened
-without the candidate cause.
-```
-
-
-
-Operational form:
-
-```text
-Actual:
-    X occurred
-    Y occurred
-
-Counterfactual:
-    remove/change X
-
-Evaluate:
-    does Y change?
-```
-
-But:
-
-```text
-Y changes in model
-        ≠
-causal relationship empirically proven
-```
-
-A causal counterfactual requires an adequate causal model.
-
----
-
-# 7. VALID COUNTERFACTUAL CRITERIA
-
-The historical kernel defines five validity criteria. 
-
-## 7.1 Plausible initial state
-
-```text
-Counterfactual starting state
-must be plausible
-OR
-explicitly labeled implausible.
-```
-
-Operational invariant:
-
-```text
-plausible(CF₀)
-OR
-class(CF₀) = IMPLAUSIBLE_EXPLORATION
-```
-
-An implausible counterfactual can still be useful for boundary exploration, but its epistemic class cannot silently become realistic.
-
----
-
-# 8. MINIMAL CHANGE PRINCIPLE
-
-Historical rule:
-
-> Change only what is necessary for the counterfactual; do not silently change other things. 
-
-Operationalization:
-
-[
-CF^* =
-\arg\min_{CF}
-D(CF,A)
-]
-
-subject to:
-
-[
-I(CF)=true
-]
 
 and:
 
-[
-CF \models M
-]
-
-where:
-
 ```text
-A  = actual state
-CF = counterfactual state
-I  = requested intervention
-M  = accepted causal/structural model
-D  = distance from actuality
-```
-
-Therefore:
-
-```text
-Change requested variable
-        ↓
-propagate required consequences
-        ↓
-do not modify unrelated variables
+GOVERNABLE WORK
 ```
 
 ---
 
-# 9. CAUSAL CHAIN CONSERVATION
-
-Historical criterion:
-
-> Respect causal structure: if A causes B causes C, changing A propagates through B to C. 
-
-Thus:
+# 1. Core Law
 
 ```text
-A → B → C
+DO NOT EXECUTE
+AN UNRESOLVED REQUEST
+AS THOUGH IT WERE
+A FULLY BOUND TASK.
+```
+
+Expanded:
+
+```text
+REQUEST
+   ↓
+PRESERVE SOURCE
+   ↓
+INTERPRET
+   ↓
+RESOLVE REFERENCES
+   ↓
+IDENTIFY OBJECTIVE
+   ↓
+BOUND SCOPE
+   ↓
+EXTRACT CONSTRAINTS
+   ↓
+IDENTIFY GAPS
+   ↓
+TEST SUFFICIENCY
+   ↓
+TASK CONTRACT
+```
+
+---
+
+# 2. Fundamental Distinction
+
+```text
+REQUEST INTERPRETATION
+!=
+TASK EXECUTION
+```
+
+and:
+
+```text
+TASK RESOLUTION
+!=
+AUTHORIZATION
+```
+
+and:
+
+```text
+TASK RESOLUTION
+!=
+POLICY APPROVAL
+```
+
+and:
+
+```text
+TASK RESOLUTION
+!=
+CAPABILITY CONFIRMATION
+```
+
+and:
+
+```text
+TASK RESOLUTION
+!=
+COMMIT APPROVAL
+```
+
+The resolver establishes task semantics.
+
+Other Control Plane systems determine whether and how those semantics may be
+executed.
+
+---
+
+# 3. Resolver Role
+
+The resolver sits conceptually here:
+
+```text
+INPUT / REQUEST
+      ↓
+┌─────────────────────────┐
+│      TASK RESOLVER      │
+│                         │
+│ preserve source         │
+│ identify intent         │
+│ resolve references      │
+│ infer bounded fields    │
+│ expose ambiguity        │
+│ classify gaps           │
+│ determine sufficiency   │
+└─────────────────────────┘
+      ↓
+TASK CONTRACT
+      ↓
+CONTROL PLANE
+```
+
+---
+
+# 4. Resolver Contract
+
+The resolver accepts:
+
+```text
+REQUEST
++
+AVAILABLE CONTEXT
++
+CANONICAL CONSTRAINTS
++
+RELEVANT STATE
+```
+
+and produces one of:
+
+```text
+RESOLVED
+
+CONDITIONAL
+
+COMPETING
+
+BLOCKED
+
+UNKNOWN/GAP
+```
+
+with an associated Task Contract or partial Task Contract.
+
+---
+
+# 5. Resolver Inputs
+
+Potential resolver inputs include:
+
+```text
+USER REQUEST
+
+SYSTEM REQUEST
+
+EVENT
+
+PARENT TASK
+
+DELEGATED SUBTASK
+
+RECOVERY REQUEST
+
+SCHEDULED TRIGGER
+
+CANONICAL REQUIREMENT
+
+RUNTIME FAILURE
+
+CONTROL-PLANE ESCALATION
+```
+
+The resolver must preserve the origin class.
+
+---
+
+# 6. Source Preservation
+
+Before interpretation:
+
+```text
+PRESERVE ORIGINAL REQUEST
+```
+
+where practical.
+
+Do not replace:
+
+```text
+SOURCE
 ```
 
 with:
 
 ```text
-do(A := A')
+INTERPRETATION
 ```
 
-requires evaluation of:
-
-```text
-B'
-↓
-C'
-```
-
-The kernel may not arbitrarily jump:
-
-```text
-A' → C'
-```
-
-while ignoring load-bearing intermediate mechanisms unless the model independently licenses that shortcut.
-
----
-
-# 10. UNCERTAINTY PROPORTIONALITY
-
-Historical source states that farther counterfactuals require greater uncertainty and that near-counterfactuals are more reliable than distant ones. 
-
-Core monotonicity constraint:
-
-[
-D(CF,A)\uparrow
-\Rightarrow
-C_{\max}(CF)\not\uparrow
-]
-
-without new independent evidence.
+and discard the source.
 
 Conceptually:
 
-```text
-NEAR COUNTERFACTUAL
-small intervention
-few changed mechanisms
-same regime
-short temporal distance
-        ↓
-potentially tighter uncertainty
-
-FAR COUNTERFACTUAL
-many changes
-different regime
-long causal chain
-large structural departure
-        ↓
-larger uncertainty
+```yaml
+source:
+  raw_request:
+  source_type:
+  source_reference:
+  timestamp:
+  provenance:
 ```
 
 ---
 
-# 11. ASSUMPTION TRANSPARENCY
+# 7. Source vs Resolution
 
-Historical rule:
-
-> All assumptions about how the world would differ must be explicit. 
-
-Therefore every consequential counterfactual should expose:
-
-```yaml
-assumptions:
-  - assumption
-  - assumption
-  - assumption
-```
-
-Load-bearing assumptions must never disappear into fluent prose.
-
----
-
-# 12. HISTORICAL CORE RULES
-
-The source defines four explicit rules. 
-
-```yaml
-counterfactual_needs_causal_model:
-  rule: >
-    Valid counterfactual reasoning requires a causal model
-    of how relevant variables are connected.
-  failure:
-    UNKNOWN/GAP
-
-uncertainty_grows_with_distance:
-  rule: >
-    Increasing distance from actuality increases the
-    required uncertainty envelope.
-
-minimal_intervention:
-  rule: >
-    Change only what is specified plus consequences
-    licensed by the model.
-
-counterfactual_is_not_prediction:
-  rule: >
-    Counterfactual analysis explores alternatives.
-    It must not be represented as prediction merely
-    because it concerns another possible state.
-```
-
----
-
-# 13. ACTUAL-STATE MODEL
-
-A counterfactual cannot be stronger than its baseline.
-
-Derived normalized representation:
-
-```yaml
-ActualState:
-  state_id: string
-
-  observations: []
-  source_claims: []
-  derived_claims: []
-
-  variables: {}
-
-  scope:
-    system: null
-    population: null
-    environment: null
-    scale: null
-
-  temporal:
-    observed_at: null
-    freshness: null
-
-  regime: null
-
-  provenance: []
-
-  uncertainty: {}
-```
-
-If the actual baseline itself is uncertain, the counterfactual inherits that uncertainty.
-
----
-
-# 14. INTERVENTION MODEL
-
-```yaml
-Intervention:
-  intervention_id: string
-
-  type:
-    - past
-    - future
-    - structural
-    - causal
-
-  target_variables: []
-
-  before: {}
-  after: {}
-
-  explicit_changes: []
-
-  auxiliary_changes: []
-
-  justification: []
-
-  hidden_changes_allowed: false
-```
-
-Invariant:
-
-[
-Changes(CF)
-\subseteq
-I \cup Descendants_M(I) \cup ExplicitAuxiliary
-]
-
----
-
-# 15. CAUSAL MODEL
-
-```yaml
-CausalModel:
-  model_id: string
-
-  nodes: []
-
-  edges:
-    - source
-    - target
-    - relation
-    - confidence
-    - provenance
-
-  relation_types:
-    - causal_effect
-    - mechanism
-    - enabling_condition
-    - necessary_condition
-    - sufficient_condition
-    - mediation
-    - confounding
-    - feedback
-    - association
-    - correlation
-```
-
-The last two categories do not independently license causal attribution.
-
----
-
-# 16. CAUSAL FIREWALL
-
-Later AMOS lineage strengthens the historical causal-model requirement.
-
-```yaml
-association:
-  causal_license: false
-
-correlation:
-  causal_license: false
-
-sequence:
-  causal_license: false
-
-structural_similarity:
-  causal_license: false
-
-mechanism:
-  causal_license: CONDITIONAL
-
-enabling_condition:
-  causal_license: CONDITIONAL
-
-necessary_condition:
-  causal_license: CONDITIONAL
-
-sufficient_condition:
-  causal_license: CONDITIONAL
-
-mediation:
-  causal_license: CONDITIONAL
-
-confounding:
-  effect: BLOCK_NAIVE_ATTRIBUTION
-
-feedback:
-  effect: REQUIRE_DYNAMIC_REASONING
-
-causal_effect:
-  causal_license: SUPPORTED_ONLY_WITH_ADEQUATE_EVIDENCE
-```
-
-This section is a **v4.4 lineage normalization**, not claimed as verbatim historical v1.0.0 text.
-
----
-
-# 17. EVIDENCE TYPOLOGY
-
-Counterfactual reasoning must preserve evidence class.
-
-```yaml
-SOURCE_CLAIM:
-  meaning: reported by source
-
-OBSERVATION:
-  meaning: directly observed/recorded evidence
-
-DERIVED:
-  meaning: inferred from premises
-
-MODEL:
-  meaning: model-generated representation
-
-DECISION:
-  meaning: selected action/judgment
-
-UNKNOWN:
-  meaning: evidence or model insufficient
-```
-
-Forbidden transformation:
+The resolver must preserve:
 
 ```text
-MODEL
-↓
-OBSERVATION
+WHAT WAS SAID
 ```
 
-without empirical validation.
-
-Likewise:
+separately from:
 
 ```text
-SOURCE_CLAIM
-↓
-VERIFIED FACT
+WHAT THE SYSTEM RESOLVED IT TO MEAN
 ```
 
-requires appropriate validation.
+This permits later detection of semantic drift.
 
 ---
 
-# 18. PROVENANCE TOPOLOGY
+# 8. Resolver Objective
 
-Evidence independence must be demonstrated rather than inferred from source count.
+The resolver's primary objective is:
+
+```text
+CONSTRUCT
+THE SMALLEST SUFFICIENT
+TASK CONTRACT
+THAT FAITHFULLY REPRESENTS
+THE REQUEST
+WITHOUT INVENTING
+LOAD-BEARING SEMANTICS.
+```
+
+---
+
+# 9. Minimum Necessary Resolution
+
+Do not resolve more than necessary.
+
+If:
+
+```text
+OBJECTIVE
++
+SCOPE
++
+DELIVERABLE
++
+HARD CONSTRAINTS
++
+COMPLETION
+```
+
+are sufficient for a low-stakes read-only task, the resolver should not
+manufacture unnecessary fields.
+
+---
+
+# 10. Adaptive Resolution Depth
+
+Resolution depth should scale with:
+
+```text
+AMBIGUITY
+
+STAKES
+
+IRREVERSIBILITY
+
+EFFECT CLASS
+
+NOVELTY
+
+SCOPE SIZE
+
+DEPENDENCY COMPLEXITY
+
+POLICY SENSITIVITY
+
+AUTHORITY SENSITIVITY
+
+PROVENANCE UNCERTAINTY
+```
+
+---
+
+# 11. Resolver Complexity Classes
+
+Candidate resolver complexity:
+
+```text
+R0 DIRECT
+
+R1 COMPACT
+
+R2 STRUCTURED
+
+R3 DEEP
+
+R4 MAXIMUM
+```
+
+These correspond conceptually to adaptive task complexity, but are resolver
+states rather than claims of a specific implementation.
+
+---
+
+# 12. R0 Direct
+
+Use when the request is:
+
+```text
+CLEAR
+
+LOCAL
+
+LOW-STAKES
+
+READ-ONLY
+
+REVERSIBLE
+
+SELF-CONTAINED
+
+NON-CONTRADICTORY
+```
 
 Example:
 
 ```text
-Source A
- ├── Article B
- ├── Summary C
- └── Database D
-```
-
-is one ancestry family, not three independent confirmations.
-
-Counterfactual confidence therefore depends on:
-
-```text
-evidence quality
-+
-model quality
-+
-provenance independence
-+
-scope compatibility
-+
-regime compatibility
-+
-freshness
+"Summarize this paragraph."
 ```
 
 ---
 
-# 19. CONSTRUCT_COUNTERFACTUAL
+# 13. R1 Compact
 
-Historical function contract: 
+Use when minor inference is required but ambiguity is low.
+
+Example:
+
+```text
+"Compare these two files and tell me what changed."
+```
+
+The resolver may need to identify:
+
+```text
+FILE A
+
+FILE B
+
+COMPARISON DIMENSION
+
+DELIVERABLE
+```
+
+without deep branching.
+
+---
+
+# 14. R2 Structured
+
+Use when multiple fields require explicit resolution.
+
+Examples:
+
+```text
+MULTIPLE INPUTS
+
+MULTIPLE OUTPUT REQUIREMENTS
+
+SCOPE BOUNDARIES
+
+FRESHNESS REQUIREMENTS
+
+NONTRIVIAL CONSTRAINTS
+```
+
+---
+
+# 15. R3 Deep
+
+Use when material ambiguity affects:
+
+```text
+DECISION
+
+CAUSAL CLAIM
+
+EXTERNAL EFFECT
+
+AUTHORITY
+
+POLICY
+
+HIGH-VALUE OUTPUT
+```
+
+---
+
+# 16. R4 Maximum
+
+Use when:
+
+```text
+IRREVERSIBLE STAKES
+
+LARGE DOWNSTREAM DEPENDENCY
+
+MULTI-SYSTEM EFFECTS
+
+COMPLEX GOVERNANCE
+
+SEVERE PROVENANCE CONFLICT
+
+MULTIPLE COMPETING INTERPRETATIONS
+```
+
+make semantic error costly.
+
+---
+
+# 17. Resolution Pipeline
+
+Canonical conceptual pipeline:
+
+```text
+1. CAPTURE
+2. NORMALIZE
+3. CLASSIFY
+4. RESOLVE REFERENCES
+5. EXTRACT OBJECTIVE
+6. EXTRACT DELIVERABLE
+7. BOUND SCOPE
+8. EXTRACT CONSTRAINTS
+9. IDENTIFY INPUTS
+10. IDENTIFY ASSUMPTIONS
+11. CLASSIFY STAKES
+12. IDENTIFY EFFECT ENVELOPE
+13. IDENTIFY FRESHNESS
+14. IDENTIFY DEPENDENCIES
+15. IDENTIFY UNCERTAINTY
+16. CLASSIFY GAPS
+17. GENERATE INTERPRETATIONS
+18. TEST COMPETING INTERPRETATIONS
+19. RUN SUFFICIENCY CHECK
+20. EMIT TASK CONTRACT
+```
+
+Not every request requires every stage at maximum depth.
+
+---
+
+# 18. Capture
+
+Capture preserves the incoming signal.
+
+Conceptually:
 
 ```yaml
-construct_counterfactual:
-
-  inputs:
-    - actual_state
-    - intervention_description
-    - causal_model
-    - plausibility_constraints
-
-  outputs:
-    - counterfactual_state
-    - causal_chain
-    - uncertainties
-    - assumption_list
-    - plausibility_assessment
-    - alternative_outcomes
+capture:
+  source:
+  raw_content:
+  received_at:
+  source_identity:
+  provenance:
 ```
 
-Operational form:
+The resolver should not begin by rewriting the source destructively.
+
+---
+
+# 19. Normalize
+
+Normalization may include:
 
 ```text
-construct_counterfactual(A, I, M, P):
+FORMAT NORMALIZATION
 
-    validate A
+REFERENCE NORMALIZATION
 
-    validate I
+DATE NORMALIZATION
 
-    determine counterfactual type
+UNIT NORMALIZATION
 
-    if causal inference required:
-        verify M is sufficient
+STRUCTURE EXTRACTION
+```
 
-    if M insufficient:
-        return UNKNOWN/GAP
+Normalization must not alter intent.
 
-    CF := copy(A)
+---
 
-    apply explicit I
+# 20. Semantic-Preserving Normalization
 
-    affected :=
-        causal descendants of I
+Allowed:
 
-    propagate consequences through M
+```text
+"tomorrow at 3"
+→
+resolved timestamp
+```
 
-    detect system reactions
+when temporal context is known.
 
-    detect feedback
+Not allowed:
 
-    expose all assumptions
+```text
+"maybe send it"
+→
+"send it"
+```
 
-    evaluate plausibility against P
+because modality changed.
 
-    generate materially distinct alternatives
+---
 
-    calculate uncertainty envelope
+# 21. Modality Preservation
 
-    enforce confidence ceiling
+Preserve distinctions such as:
 
-    return:
-        CF
-        causal_chain
-        uncertainty
-        assumptions
-        plausibility
-        alternatives
+```text
+MAY
+
+MIGHT
+
+SHOULD
+
+MUST
+
+DO
+
+DO NOT
+
+CONSIDER
+
+DRAFT
+
+PREVIEW
+
+EXECUTE
+```
+
+These can materially alter effect semantics.
+
+---
+
+# 22. Negation Preservation
+
+Negation is load-bearing.
+
+```text
+DO NOT SEND
+```
+
+must never normalize into:
+
+```text
+SEND
+```
+
+Likewise:
+
+```text
+EXCLUDE X
+```
+
+must remain an exclusion.
+
+---
+
+# 23. Conditional Preservation
+
+Conditional requests must remain conditional.
+
+```text
+IF A,
+THEN B
+```
+
+must not become:
+
+```text
+B
+```
+
+unless `A` has been independently established.
+
+---
+
+# 24. Request Classification
+
+The resolver may classify task type.
+
+Candidate classes:
+
+```text
+INFORMATION
+
+ANALYSIS
+
+SYNTHESIS
+
+COMPARISON
+
+RESEARCH
+
+DECISION
+
+PLANNING
+
+GENERATION
+
+TRANSFORMATION
+
+VALIDATION
+
+EXECUTION
+
+RECOVERY
+
+GOVERNANCE
+
+MONITORING
+```
+
+Multiple classes may apply.
+
+---
+
+# 25. Information Task
+
+Goal:
+
+```text
+RETURN EXISTING INFORMATION
+```
+
+Example:
+
+```text
+"What does this file say?"
 ```
 
 ---
 
-# 20. PROPAGATION
+# 26. Analysis Task
 
-Given:
-
-```text
-X → A
-X → B
-A → C
-B → C
-C → Y
-```
-
-intervention:
+Goal:
 
 ```text
-do(X := X')
+DERIVE STRUCTURE,
+RELATIONSHIPS,
+OR CONCLUSIONS
+FROM AVAILABLE INPUT
 ```
-
-requires:
-
-```text
-X'
-├── A'
-│    └── C'
-└── B'
-     └── C'
-          ↓
-          Y'
-```
-
-The kernel must not assume independent branches if they share causal ancestry.
 
 ---
 
-# 21. SYSTEM REACTIONS
+# 27. Synthesis Task
 
-Historical source explicitly identifies ignoring system reactions as an error. 
-
-Therefore:
+Goal:
 
 ```text
-Intervention
-     ↓
-direct consequence
-     ↓
-system adaptation
-     ↓
-secondary consequence
-     ↓
-feedback
-     ↓
-new equilibrium / dynamic trajectory
+COMBINE MULTIPLE INPUTS
+INTO A COHERENT RESULT
 ```
 
-must be considered where material.
-
-A static model is insufficient when the actual system is adaptive.
+Synthesis must preserve contradictions rather than erase them.
 
 ---
 
-# 22. COMPARE_ACTUAL_VS_COUNTERFACTUAL
+# 28. Comparison Task
 
-Historical contract: 
+Requires:
+
+```text
+OBJECTS TO COMPARE
+
+COMPARISON DIMENSIONS
+
+OUTPUT EXPECTATION
+```
+
+If the dimension is materially ambiguous, resolution may be required.
+
+---
+
+# 29. Research Task
+
+Usually activates:
+
+```text
+EVIDENCE REQUIREMENTS
+
+PROVENANCE
+
+FRESHNESS
+
+SOURCE INDEPENDENCE
+
+CONTRADICTION CHECKING
+```
+
+---
+
+# 30. Decision Task
+
+Requires enough information for:
+
+```text
+DECISION SUFFICIENCY
+```
+
+rather than exhaustive knowledge.
+
+---
+
+# 31. Planning Task
+
+Produces:
+
+```text
+PROPOSED ACTION STRUCTURE
+```
+
+Planning does not itself authorize action.
+
+---
+
+# 32. Generation Task
+
+Produces a new artifact.
+
+Examples:
+
+```text
+TEXT
+
+CODE
+
+DOCUMENT
+
+DESIGN
+
+MODEL
+
+SCHEMA
+```
+
+---
+
+# 33. Transformation Task
+
+Transforms an existing artifact.
+
+Examples:
+
+```text
+REWRITE
+
+TRANSLATE
+
+CONVERT
+
+REFORMAT
+
+RESTRUCTURE
+```
+
+---
+
+# 34. Validation Task
+
+Tests an existing claim, artifact, plan, or result.
+
+Validation must define:
+
+```text
+WHAT STANDARD?
+
+WHAT EVIDENCE?
+
+WHAT FAILURE CONDITION?
+```
+
+---
+
+# 35. Execution Task
+
+Requests a state-changing operation.
+
+This activates stronger resolution requirements.
+
+---
+
+# 36. Recovery Task
+
+Requests repair after failure or invalidation.
+
+The resolver should identify:
+
+```text
+FAILED STATE
+
+DESIRED VALID STATE
+
+RECOVERY BOUNDARY
+
+PRESERVED STATE
+
+EFFECTS TO REPAIR
+```
+
+---
+
+# 37. Governance Task
+
+May alter:
+
+```text
+POLICY
+
+AUTHORITY
+
+CANON
+
+CONTROL RULES
+
+SYSTEM STRUCTURE
+```
+
+Such tasks require higher scrutiny.
+
+---
+
+# 38. Monitoring Task
+
+Requires:
+
+```text
+OBSERVATION TARGET
+
+CONDITION
+
+CADENCE OR TRIGGER
+
+TERMINATION CONDITION
+
+NOTIFICATION / EFFECT EXPECTATION
+```
+
+where material.
+
+---
+
+# 39. Intent Extraction
+
+The resolver should distinguish:
+
+```text
+SURFACE WORDING
+```
+
+from:
+
+```text
+TASK INTENT
+```
+
+but must not invent hidden intent.
+
+Intent resolution should rely on:
+
+```text
+EXPLICIT REQUEST
+
+LOCAL CONTEXT
+
+VALID PRIOR CONTEXT
+
+CANONICAL SEMANTICS
+
+HIGH-CONFIDENCE REFERENCE RESOLUTION
+```
+
+---
+
+# 40. Intent Confidence
+
+Intent confidence should be bounded by evidence.
+
+Conceptually:
+
+```text
+INTENT_CONFIDENCE
+≤
+SUPPORT FROM
+REQUEST + VALID CONTEXT
+```
+
+Fluent plausibility is not evidence.
+
+---
+
+# 41. Explicit vs Inferred Fields
+
+Every material field should conceptually be classifiable as:
+
+```text
+EXPLICIT
+
+RESOLVED
+
+INFERRED
+
+DEFAULTED
+
+UNKNOWN
+```
+
+This distinction is valuable for auditability.
+
+---
+
+# 42. Explicit
+
+Directly stated by the source.
+
+Example:
+
+```text
+"Create a PDF."
+```
+
+Deliverable type:
+
+```text
+PDF
+```
+
+is explicit.
+
+---
+
+# 43. Resolved
+
+Derived by deterministic or near-deterministic reference resolution.
+
+Example:
+
+```text
+"this file"
+```
+
+when exactly one active file exists.
+
+---
+
+# 44. Inferred
+
+Supported but not explicitly stated.
+
+Example:
+
+```text
+"compare A and B"
+```
+
+may imply a comparison deliverable.
+
+Inference must remain bounded.
+
+---
+
+# 45. Defaulted
+
+A field filled using an established default.
+
+Defaults must be:
+
+```text
+KNOWN
+
+VALID IN CURRENT SCOPE
+
+NON-CONFLICTING
+
+REVERSIBLE WHERE POSSIBLE
+```
+
+---
+
+# 46. Unknown
+
+If support is insufficient:
+
+```text
+UNKNOWN
+```
+
+must remain available.
+
+---
+
+# 47. Reference Resolution
+
+Requests frequently contain references such as:
+
+```text
+THIS
+
+THAT
+
+IT
+
+THE FILE
+
+THE REPORT
+
+THE LATEST VERSION
+
+THE PREVIOUS ONE
+
+HERE
+
+THERE
+
+TODAY
+
+TOMORROW
+
+THE SAME FORMAT
+```
+
+The resolver must bind such references before consequential execution.
+
+---
+
+# 48. Reference Candidate Set
+
+For reference `R`, construct:
+
+```text
+Candidates(R)
+=
+{
+C1,
+C2,
+...
+Cn
+}
+```
+
+using only relevant accessible context.
+
+---
+
+# 49. Unique Resolution
+
+If exactly one candidate is materially plausible:
+
+```text
+|Candidates(R)| = 1
+```
+
+then the resolver may bind it.
+
+---
+
+# 50. Multiple Candidates
+
+If:
+
+```text
+|Candidates(R)| > 1
+```
+
+and the candidates imply materially different tasks:
+
+```text
+PRESERVE AMBIGUITY
+```
+
+Do not select arbitrarily.
+
+---
+
+# 51. Material Ambiguity
+
+Ambiguity is material if choosing a different interpretation could alter:
+
+```text
+OBJECTIVE
+
+TARGET
+
+SCOPE
+
+CONSTRAINT
+
+EFFECT
+
+AUTHORITY REQUIREMENT
+
+POLICY OUTCOME
+
+DELIVERABLE
+
+COMPLETION
+```
+
+---
+
+# 52. Immaterial Ambiguity
+
+Minor wording ambiguity that cannot change the task outcome does not require
+escalation.
+
+Example:
+
+```text
+"make it concise"
+```
+
+may permit reasonable stylistic interpretation.
+
+---
+
+# 53. Ambiguity Budget
+
+Do not eliminate every ambiguity.
+
+Resolve only ambiguity with positive expected decision value.
+
+Conceptually:
+
+```text
+RESOLVE A
+IF
+EXPECTED VALUE OF RESOLVING A
+>
+COST OF RESOLUTION
+```
+
+subject to integrity constraints.
+
+---
+
+# 54. Objective Extraction
+
+The resolver should identify:
+
+```text
+PRIMARY OBJECTIVE
+```
+
+first.
+
+Then:
+
+```text
+SECONDARY OBJECTIVES
+```
+
+if present.
+
+---
+
+# 55. Objective Test
+
+Ask conceptually:
+
+```text
+IF ALL OUTPUTS WERE PRODUCED,
+WHAT WOULD HAVE TO BE TRUE
+FOR THE REQUEST TO COUNT
+AS SATISFIED?
+```
+
+That often reveals the objective.
+
+---
+
+# 56. Activity vs Objective
+
+Request:
+
+```text
+"Research database X."
+```
+
+Activity:
+
+```text
+RESEARCH X
+```
+
+Possible objective remains unknown unless context supplies it.
+
+Do not invent:
+
+```text
+"prove X is best"
+```
+
+without support.
+
+---
+
+# 57. Objective Conflict Detection
+
+If the request contains incompatible goals:
+
+```text
+FASTEST
+```
+
+and:
+
+```text
+MOST COMPREHENSIVE
+```
+
+the resolver should determine whether:
+
+```text
+ONE IS HARD
+
+ONE IS SOFT
+
+A TRADE-OFF IS ACCEPTABLE
+
+OR CLARIFICATION IS REQUIRED
+```
+
+---
+
+# 58. Deliverable Resolution
+
+The resolver should identify:
+
+```text
+WHAT MUST BE RETURNED OR PRODUCED?
+```
+
+Possible deliverables:
+
+```text
+TEXT ANSWER
+
+TABLE
+
+FILE
+
+CODE
+
+PLAN
+
+DECISION
+
+RECOMMENDATION
+
+STATE CHANGE
+
+MESSAGE
+
+REPORT
+
+DATA STRUCTURE
+```
+
+---
+
+# 59. Deliverable Format
+
+Format may be:
+
+```text
+EXPLICIT
+
+INFERRED FROM CONTEXT
+
+DEFAULTED
+
+UNKNOWN
+```
+
+Do not let formatting ambiguity block a task unless format materially affects
+success.
+
+---
+
+# 60. Scope Resolution
+
+Scope must be bounded enough to prevent uncontrolled task expansion.
+
+Potential dimensions:
+
+```text
+SYSTEM
+
+FILES
+
+DATA
+
+POPULATION
+
+DOMAIN
+
+TIME
+
+ENVIRONMENT
+
+REGIME
+
+SCALE
+
+VERSION
+```
+
+---
+
+# 61. Scope Inclusion
+
+Extract explicit inclusions.
+
+Example:
+
+```text
+"Use only the uploaded files."
+```
+
+becomes:
 
 ```yaml
-compare_actual_vs_counterfactual:
-
-  inputs:
-    - actual_outcome
-    - counterfactual_outcome
-    - causal_model
-    - confidence_levels
-
-  outputs:
-    - difference_analysis
-    - causal_attribution
-    - confounding_factors
-    - attribution_confidence
-    - alternative_explanation
+scope:
+  include:
+    - uploaded files
 ```
 
-Define:
+---
 
-[
-\Delta Y = Y_A - Y_{CF}
-]
+# 62. Scope Exclusion
+
+Extract explicit exclusions.
+
+Example:
+
+```text
+"Don't use web sources."
+```
+
+becomes:
+
+```yaml
+scope:
+  exclude:
+    - web sources
+```
+
+---
+
+# 63. Negative Scope Is Load-Bearing
+
+Exclusions must not be treated as optional preferences.
+
+```text
+DO NOT USE X
+```
+
+is generally a hard scope constraint.
+
+---
+
+# 64. Scope Inference
+
+Infer scope only when context makes it sufficiently clear.
+
+Example:
+
+```text
+"Summarize this document."
+```
+
+with one attached document can resolve locally.
+
+---
+
+# 65. Unbounded Scope Detection
+
+Signals include:
+
+```text
+EVERYTHING
+
+ALL POSSIBLE
+
+FULL UNIVERSE
+
+ANYTHING RELEVANT
+```
+
+without an operational completion boundary.
+
+The resolver should seek a finite stopping rule.
+
+---
+
+# 66. Constraint Extraction
+
+Identify:
+
+```text
+HARD CONSTRAINTS
+
+SOFT CONSTRAINTS
+```
+
+separately.
+
+---
+
+# 67. Hard Constraint Signals
+
+Examples:
+
+```text
+MUST
+
+MUST NOT
+
+ONLY
+
+NEVER
+
+REQUIRED
+
+EXCLUDE
+
+DO NOT
+
+WITHOUT
+```
+
+Context still matters, but these are strong signals.
+
+---
+
+# 68. Soft Constraint Signals
+
+Examples:
+
+```text
+PREFER
+
+IF POSSIBLE
+
+IDEALLY
+
+TRY TO
+
+KEEP IT
+```
+
+---
+
+# 69. Constraint Precedence
+
+The resolver should not invent precedence between conflicting hard
+constraints.
+
+If upstream canon resolves precedence, apply it.
+
+Otherwise:
+
+```text
+CONFLICT
+```
+
+remains explicit.
+
+---
+
+# 70. Input Resolution
+
+Determine:
+
+```text
+WHAT INFORMATION OR ARTIFACTS
+ARE REQUIRED TO SATISFY
+THE OBJECTIVE?
+```
+
+Classify:
+
+```text
+REQUIRED
+
+OPTIONAL
+
+PROHIBITED
+```
+
+---
+
+# 71. Missing Required Input
+
+If required input is absent:
+
+```text
+CLASSIFY GAP
+```
+
+Do not fill it with a plausible substitute unless such substitution is
+authorized and non-material.
+
+---
+
+# 72. Context as Input
+
+Conversation or runtime context may supply task fields.
+
+But context must satisfy:
+
+```text
+RELEVANCE
+
+IDENTITY
+
+FRESHNESS
+
+SCOPE
+
+NON-CONFLICT
+```
+
+before becoming load-bearing.
+
+---
+
+# 73. Prior Task Context
+
+Previous tasks may inform the current task.
 
 But:
 
-[
-\Delta Y \neq causal\ effect
-]
+```text
+PREVIOUS TASK
+!=
+CURRENT TASK
+```
 
-by definition.
+unless continuity is established.
 
-Causal attribution additionally requires sufficient support for:
+---
+
+# 74. Continuation Resolution
+
+Signals:
 
 ```text
-intervention validity
-causal-model validity
-confounding treatment
-mechanism
-scope compatibility
-regime compatibility
-provenance independence
+continue
+
+same as before
+
+next
+
+now do X
+
+also
+
+use the same format
 ```
 
----
+may establish lineage.
 
-# 23. ATTRIBUTION CONFIDENCE
-
-Derived operational ceiling:
-
-[
-C_{attrib}
-\leq
-\min(
-C_I,
-C_M,
-C_C,
-C_P,
-C_S,
-C_R,
-C_T
-)
-]
-
-where:
+The resolver should preserve:
 
 ```text
-C_I = intervention validity
-C_M = causal-model validity
-C_C = confounding treatment
-C_P = provenance independence
-C_S = scope compatibility
-C_R = regime compatibility
-C_T = temporal validity
+PARENT / PREDECESSOR TASK
 ```
 
-This follows the v4.4 rule that derived confidence cannot exceed the weakest load-bearing premise unless that premise is independently revalidated.
+when relevant.
 
 ---
 
-# 24. SCENARIO_ANALYSIS
+# 75. Assumption Extraction
 
-Historical function:
+Identify assumptions required for the resolved interpretation.
 
-```yaml
-scenario_analysis:
-  description: >
-    Analyze multiple future counterfactual scenarios.
+Example:
+
+```text
+"update the existing file"
 ```
 
-The surviving source has malformed serialization around the `inputs` key, but the intended input list is recoverable from the text. This correction is therefore **DERIVED**, not silently promoted to verbatim source. 
+may require:
 
-Corrected operational contract:
+```text
+ASSUMPTION:
+there is exactly one relevant existing file
+```
 
-```yaml
-inputs:
-  - current_state
-  - scenario_list
-  - uncertainty_model
-  - decision_criteria
+If multiple exist, the assumption fails.
 
-outputs:
-  - scenario_outcomes
-  - probability_assignments_if_available
-  - recommended_preparation
-  - early_warning_signals
-  - scenario_comparison
+---
+
+# 76. Load-Bearing Assumption Test
+
+Ask:
+
+```text
+IF THIS ASSUMPTION WERE FALSE,
+COULD THE TASK MEANING
+OR SAFE EXECUTION CHANGE?
+```
+
+If yes:
+
+```text
+LOAD_BEARING
 ```
 
 ---
 
-# 25. MULTI-SCENARIO EXECUTION
+# 77. Default Resolution
+
+Defaults may reduce unnecessary clarification.
+
+Candidate rule:
+
+```text
+USE DEFAULT
+ONLY IF
+DEFAULT IS KNOWN,
+LOW-RISK,
+NON-CONFLICTING,
+AND DOES NOT EXPAND EFFECTS.
+```
+
+---
+
+# 78. Unsafe Default
+
+Never default a missing field in a way that increases:
+
+```text
+IRREVERSIBILITY
+
+AUTHORITY
+
+SCOPE
+
+INFORMATION EXPOSURE
+
+EXTERNAL EFFECT
+
+FINANCIAL COMMITMENT
+```
+
+without adequate support.
+
+---
+
+# 79. Least-Effect Default
+
+Under unresolved effect ambiguity:
+
+```text
+PREFER
+THE LEAST EFFECTFUL
+INTERPRETATION
+THAT STILL SATISFIES
+THE EXPLICIT REQUEST.
+```
+
+Example:
+
+```text
+"write an email"
+```
+
+normally resolves to:
+
+```text
+DRAFT EMAIL
+```
+
+not automatically:
+
+```text
+SEND EMAIL
+```
+
+unless sending is explicitly requested or otherwise clearly established.
+
+---
+
+# 80. Preview vs Execute
+
+The resolver must preserve:
+
+```text
+SHOW ME
+```
+
+vs:
+
+```text
+DO IT
+```
+
+and:
+
+```text
+DRAFT
+```
+
+vs:
+
+```text
+SEND
+```
+
+and:
+
+```text
+PLAN
+```
+
+vs:
+
+```text
+EXECUTE
+```
+
+---
+
+# 81. Effect Intent Resolution
+
+Candidate effect classes:
+
+```text
+NONE
+
+READ
+
+COMPUTE
+
+GENERATE
+
+EPHEMERAL WRITE
+
+PERSISTENT WRITE
+
+EXTERNAL COMMUNICATION
+
+STATE MUTATION
+
+DESTRUCTIVE EFFECT
+
+FINANCIAL EFFECT
+
+GOVERNANCE EFFECT
+```
+
+Actual effect classification may be refined downstream.
+
+---
+
+# 82. Effect Ambiguity
+
+If two interpretations differ only in whether an external effect occurs:
+
+```text
+TREAT AMBIGUITY AS MATERIAL
+```
+
+unless a canonical least-effect rule resolves it.
+
+---
+
+# 83. Stakes Resolution
+
+The resolver should identify stakes sufficient to select governance depth.
+
+It need not perform complete risk analysis.
+
+Potential signals:
+
+```text
+MONEY
+
+LEGAL
+
+HEALTH
+
+SAFETY
+
+PRODUCTION
+
+PUBLICATION
+
+PRIVATE DATA
+
+DESTRUCTIVE OPERATION
+
+INSTITUTIONAL DECISION
+
+LARGE DOWNSTREAM DEPENDENCY
+```
+
+---
+
+# 84. Stakes Escalation
+
+When uncertain between lower and higher stakes:
+
+```text
+DO NOT DOWNGRADE
+WITHOUT SUPPORT
+```
+
+A conservative governance classification may be appropriate while semantic
+facts remain unresolved.
+
+---
+
+# 85. Freshness Resolution
+
+Determine whether the task depends on:
 
 ```text
 CURRENT STATE
-      │
-      ├── Intervention A
-      │       ↓
-      │    Scenario A
-      │
-      ├── Intervention B
-      │       ↓
-      │    Scenario B
-      │
-      └── Intervention C
-              ↓
-           Scenario C
 ```
 
-For each branch:
+or:
 
 ```text
-construct
-→ propagate
-→ react
-→ assess plausibility
-→ expose assumptions
-→ quantify uncertainty if justified
-→ evaluate decision implications
+HISTORICAL / STATIC INFORMATION
 ```
-
-Then compare branches.
 
 ---
 
-# 26. PROBABILITY FIREWALL
+# 86. Freshness Signals
 
-Historical output says:
-
-```text
-probability_assignments_if_available
-```
-
-not:
+Examples:
 
 ```text
-probability_assignments_required
+CURRENT
+
+LATEST
+
+TODAY
+
+NOW
+
+STILL
+
+AVAILABLE
+
+PRICE
+
+STATUS
+
+BALANCE
+
+VERSION
+
+SCHEDULE
 ```
 
+These may require fresh retrieval.
 
+---
 
-Therefore probability must not be fabricated merely because scenario analysis benefits from numbers.
+# 87. Temporal Reference Resolution
 
-Correct behavior:
+Relative references should be converted to explicit temporal scope when
+possible.
+
+Example:
+
+```text
+"today"
+```
+
+→
+
+```text
+DATE @ REQUEST CONTEXT
+```
+
+not a permanently reusable abstract `today`.
+
+---
+
+# 88. Regime Resolution
+
+Identify regime when it can materially alter validity.
+
+Examples:
+
+```text
+SOFTWARE VERSION
+
+POLICY VERSION
+
+JURISDICTION
+
+MARKET REGIME
+
+HARDWARE
+
+EXPERIMENTAL ENVIRONMENT
+```
+
+---
+
+# 89. Dependency Resolution
+
+Identify dependencies necessary before execution.
+
+Possible dependencies:
+
+```text
+FILES
+
+STATE
+
+PRIOR TASKS
+
+EVIDENCE
+
+CAPABILITIES
+
+AUTHORITY
+
+POLICY
+
+EXTERNAL SYSTEMS
+```
+
+The resolver need not fully validate all downstream dependencies.
+
+It must identify them sufficiently for routing.
+
+---
+
+# 90. Hidden Dependency Detection
+
+Ask:
+
+```text
+WHAT MUST BE TRUE
+FOR THIS TASK
+TO MEAN WHAT WE THINK IT MEANS?
+```
+
+This can expose hidden dependencies.
+
+---
+
+# 91. Uncertainty Vector
+
+For material tasks, classify uncertainty across:
+
+```text
+EVIDENCE
+
+MODEL
+
+SCOPE
+
+TEMPORAL
+
+CAUSAL
+
+EXECUTION
+
+PROVENANCE INDEPENDENCE
+```
+
+The resolver focuses especially on:
+
+```text
+SCOPE
+
+TEMPORAL
+
+EXECUTION
+
+SEMANTIC
+```
+
+uncertainty.
+
+---
+
+# 92. Semantic Uncertainty
+
+Task resolution also requires a resolver-specific uncertainty:
+
+```text
+SEMANTIC UNCERTAINTY
+```
+
+meaning uncertainty about what the request itself means.
+
+Conceptually:
 
 ```yaml
-if_probability_model_supported:
-  probability: value
-
-else:
-  probability: UNKNOWN
-  ranking: optional
-  qualitative_uncertainty: explicit
+resolver_uncertainty:
+  semantic:
 ```
 
 ---
 
-# 27. COMPETING HYPOTHESES
+# 93. Competing Interpretations
 
-A later AMOS v4.4 integration requires preservation of genuine competing explanations.
-
-Suppose:
+If the request supports multiple incompatible interpretations:
 
 ```text
-H1:
-X causes Y
+I1
 
-H2:
-Z causes both X and Y
+I2
 
-H3:
-X enables Y only under regime R
-
-H4:
-observed X/Y relationship is incidental
+I3
 ```
 
-If available evidence cannot discriminate them:
+preserve them as competing candidates.
+
+---
+
+# 94. Interpretation Candidate
+
+Conceptual form:
 
 ```yaml
-state: COMPETING
-```
+interpretation:
 
-The kernel must not collapse them into one explanation for narrative convenience.
+  id:
+
+  objective:
+
+  target:
+
+  scope:
+
+  deliverable:
+
+  constraints:
+
+  implied_effects:
+
+  support:
+
+  contradictions:
+
+  confidence_ceiling:
+```
 
 ---
 
-# 28. DISCRIMINATING TEST
+# 95. Candidate Ranking
 
-When competing models materially affect the decision:
-
-[
-Test^*
-======
-
-\arg\max_T
-\frac{
-ExpectedDecisionInformation(T)
-}{
-ExpectedCost(T)
-}
-]
-
-subject to:
+Interpretations may be ranked by:
 
 ```text
-safety
-legality
-reversibility
-governance
-resource constraints
+EXPLICIT SUPPORT
+
+CONTEXTUAL SUPPORT
+
+CANONICAL CONSISTENCY
+
+SCOPE FIT
+
+LOWER ASSUMPTION COUNT
+
+LOWER EFFECT EXPANSION
+
+NON-CONTRADICTION
 ```
 
-The preferred test attacks the smallest uncertainty capable of changing the decision.
+Popularity or fluency are not sufficient criteria.
 
 ---
 
-# 29. SENSITIVITY
+# 96. Interpretation Dominance
 
-For consequential counterfactuals:
-
-```yaml
-sensitivity:
-  smallest_flip_premise: null
-  smallest_flip_threshold: null
-  smallest_flip_observation: null
-  fragile_assumption: null
-```
-
-Decision rule:
+Interpretation `I1` may dominate `I2` when:
 
 ```text
-if plausible perturbation flips result:
-    conclusion = CONDITIONAL
+I1
+HAS STRICTLY STRONGER SUPPORT
+AND
+NO MATERIAL NEW ASSUMPTION
+AND
+NO GREATER EFFECT EXPANSION
 ```
 
-A robust conclusion should survive reasonable variation in noncritical assumptions.
+Then `I2` may be discarded.
 
 ---
 
-# 30. COUNTERFACTUAL DISTANCE
+# 97. Incomparable Interpretations
 
-The historical kernel specifies the principle but not a numerical metric.
+If:
 
-A v4.4-compatible **MODEL** can represent distance as:
+```text
+I1
+```
 
-[
-D_{CF}
-======
+and:
 
-w_I D_I
+```text
+I2
+```
+
+have different support and neither dominates:
+
+```text
+PRESERVE COMPETING
+```
+
+when the difference matters.
+
+---
+
+# 98. Cheap Discriminating Test
+
+When interpretations compete:
+
+```text
+FIND
+THE CHEAPEST
+HIGH-INFORMATION TEST
+THAT CAN DISCRIMINATE THEM.
+```
+
+Possible tests:
+
+```text
+CHECK ACTIVE FILE
+
+CHECK PRIOR MESSAGE
+
+CHECK CURRENT STATE
+
+CHECK TASK LINEAGE
+
+ASK ONE TARGETED QUESTION
+```
+
+---
+
+# 99. Clarification Principle
+
+Clarification is a tool, not the default.
+
+Ask a clarification question only when:
+
+```text
+A MATERIAL GAP EXISTS
+AND
+AVAILABLE CONTEXT / RETRIEVAL
+CANNOT RESOLVE IT SAFELY
+AND
+THE TASK CANNOT PROCEED
+UNDER A SAFE BOUNDED INTERPRETATION.
+```
+
+---
+
+# 100. Do Not Over-Clarify
+
+Do not ask:
+
+```text
+WHAT FORMAT?
+```
+
+when a reasonable default format cannot change the substantive outcome.
+
+Do ask:
+
+```text
+WHICH ACCOUNT?
+```
+
+before a consequential action when multiple accounts are plausible.
+
+---
+
+# 101. Minimum Clarification
+
+When clarification is necessary:
+
+```text
+ASK
+THE MINIMUM QUESTION
+THAT CLOSES
+THE HIGHEST-PRIORITY GAP.
+```
+
+Do not ask a long questionnaire when one discriminating answer is sufficient.
+
+---
+
+# 102. Gap Classification
+
+Resolver gaps:
+
+```text
+CRITICAL
+
+DECISION-RELEVANT
+
+EXPLANATORY
+
+COSMETIC
+```
+
+Resolve in that order.
+
+---
+
+# 103. Critical Semantic Gap
+
+Examples:
+
+```text
+UNKNOWN DESTRUCTIVE TARGET
+
+UNKNOWN RECIPIENT
+
+UNKNOWN AMOUNT
+
+UNKNOWN ACCOUNT
+
+UNKNOWN ENVIRONMENT
+
+CONTRADICTORY HARD REQUIREMENTS
+```
+
+when consequential action depends on them.
+
+---
+
+# 104. Decision-Relevant Semantic Gap
+
+Example:
+
+```text
+"Which is better?"
+```
+
+when the optimization criterion could change the recommendation.
+
+---
+
+# 105. Explanatory Semantic Gap
+
+Example:
+
+A missing reason for a preference that does not change the requested output.
+
+---
+
+# 106. Cosmetic Semantic Gap
+
+Example:
+
+Exact heading style.
+
+Do not block substantive work for cosmetic ambiguity.
+
+---
+
+# 107. Resolver Sensitivity Test
+
+For each unresolved material field:
+
+```text
+IF THIS FIELD CHANGED,
+COULD THE TASK RESULT
+OR EFFECT CHANGE?
+```
+
+If no:
+
+```text
+LOW PRIORITY
+```
+
+If yes:
+
+```text
+RESOLVE OR CONDITION
+```
+
+---
+
+# 108. Objective Sensitivity
+
+Objective is almost always load-bearing.
+
+If objective ambiguity exists:
+
+```text
+ESCALATE RESOLUTION
+```
+
+unless competing objectives can safely be returned as alternatives.
+
+---
+
+# 109. Target Sensitivity
+
+Target ambiguity is especially important for effectful tasks.
+
+```text
+UNKNOWN TARGET
 +
-w_S D_S
-+
-w_T D_T
-+
-w_R D_R
-+
-w_A D_A
-]
-
-where:
-
-```text
-D_I = intervention distance
-D_S = structural distance
-D_T = temporal distance
-D_R = regime distance
-D_A = assumption distance
+IRREVERSIBLE EFFECT
+=
+BLOCK
 ```
-
-This equation is an operational model, **not recovered historical canon**.
 
 ---
 
-# 31. UNCERTAINTY VECTOR
+# 110. Parameter Sensitivity
 
-Rather than compressing every uncertainty into one score:
+Parameters such as:
+
+```text
+AMOUNT
+
+DATE
+
+QUANTITY
+
+RECIPIENT
+
+PATH
+
+VERSION
+
+ENVIRONMENT
+```
+
+should be tested for decision/effect sensitivity.
+
+---
+
+# 111. Constraint Sensitivity
+
+A missing soft constraint may be tolerable.
+
+A missing hard constraint may invalidate the task.
+
+---
+
+# 112. Resolver Fast Path
+
+Use the fast path only when:
+
+```text
+ONE DOMINANT INTERPRETATION
+
+DEPENDENCY CLOSURE SUFFICIENT
+
+NO MATERIAL CONFLICT
+
+NO MATERIAL REFERENCE AMBIGUITY
+
+NO MATERIAL FRESHNESS ISSUE
+
+NO EFFECT EXPANSION
+
+NO CRITICAL GAP
+```
+
+---
+
+# 113. Fast Path Output
+
+Conceptually:
 
 ```yaml
-uncertainty:
-  evidence: U_e
-  model: U_m
-  scope: U_s
-  temporal: U_t
-  causal: U_c
-  execution: U_x
-  provenance_independence: U_p
-```
+resolver_result:
 
-This prevents strong evidence in one dimension from masking a critical weakness in another.
+  status: RESOLVED
+
+  complexity: R0
+
+  task_contract:
+    objective:
+    deliverable:
+    scope:
+    constraints:
+    completion:
+```
 
 ---
 
-# 32. SCOPE FIREWALL
+# 114. Fast Path Independence Requirement
 
-Every consequential counterfactual should inherit an applicability envelope:
+Do not assume a task is local merely because it is syntactically simple.
+
+Example:
+
+```text
+"Delete it."
+```
+
+is short but may require deep reference and authority resolution.
+
+---
+
+# 115. Resolver Escalation Triggers
+
+Escalate when:
+
+```text
+REFERENCE AMBIGUITY
+
+CONTRADICTION
+
+SCOPE CONFLICT
+
+STALE CONTEXT
+
+MULTIPLE PLAUSIBLE TARGETS
+
+CAUSAL REQUIREMENT
+
+PROVENANCE CONFLICT
+
+REGIME SHIFT
+
+IRREVERSIBLE EFFECT
+
+GOVERNANCE IMPACT
+
+UNKNOWN AUTHORITY-RELEVANT PRINCIPAL
+
+AMBIGUOUS DEPENDENCIES
+```
+
+---
+
+# 116. Resolver De-Escalation
+
+Once decision-changing semantic uncertainty is resolved:
+
+```text
+STOP EXPANDING
+```
+
+and emit the contract.
+
+---
+
+# 117. Resolver Stop Condition
+
+Resolution is sufficient when:
+
+```text
+OBJECTIVE BOUND
+∧
+SCOPE BOUND
+∧
+DELIVERABLE BOUND
+∧
+HARD CONSTRAINTS KNOWN
+∧
+CRITICAL REFERENCES RESOLVED
+∧
+CRITICAL GAPS CLOSED
+∧
+COMPLETION DEFINED
+```
+
+plus any additional stake-dependent requirements.
+
+---
+
+# 118. Task Sufficiency
+
+Candidate function:
+
+```text
+TaskSufficient(T)
+```
+
+returns true only when the unresolved fields cannot materially prevent safe
+Control Plane evaluation.
+
+---
+
+# 119. Resolution Does Not Require Perfect Knowledge
+
+A resolver does not need to know:
+
+```text
+EVERY IMPLEMENTATION DETAIL
+
+EVERY POSSIBLE DEPENDENCY
+
+EVERY FUTURE FAILURE
+```
+
+before producing a task.
+
+It needs enough semantic closure for downstream governance.
+
+---
+
+# 120. Partial Task Contract
+
+When some fields are known:
 
 ```yaml
-applicability:
-  system_or_population: null
-  environment: null
-  scale: null
-  time: null
-  regime: null
-  measurement_method: null
-  assumptions: []
+task_contract:
+  objective: KNOWN
+  target: UNKNOWN
+  scope: PARTIAL
+  constraints: KNOWN
 ```
 
-A result established for:
+preserve the partial structure.
+
+Do not discard valid resolved fields because one field remains unknown.
+
+---
+
+# 121. Selective Resolution
+
+If only target is unresolved:
 
 ```text
-system A
-regime R1
-scale S1
-time T1
+RESOLVE TARGET
 ```
 
-cannot silently become a conclusion about:
+not the entire task again.
+
+This follows AMOS selective invalidation principles.
+
+---
+
+# 122. Resolver State
+
+Candidate states:
 
 ```text
-system B
-regime R2
-scale S2
-time T2
+CAPTURED
+
+PARSING
+
+RESOLVING
+
+COMPETING
+
+BLOCKED
+
+RESOLVED
+
+CONDITIONAL
+
+INVALIDATED
+
+SUPERSEDED
 ```
 
 ---
 
-# 33. REGIME SHIFT
+# 123. Captured
 
-If the mechanism changes:
+Source request has been preserved but not yet semantically processed.
+
+---
+
+# 124. Parsing
+
+Surface structure is being extracted.
+
+---
+
+# 125. Resolving
+
+References, objectives, scope, or constraints are being bound.
+
+---
+
+# 126. Competing
+
+Multiple materially incompatible interpretations remain viable.
+
+---
+
+# 127. Blocked
+
+A critical gap prevents sufficient task resolution.
+
+---
+
+# 128. Resolved
+
+One sufficiently supported task interpretation has been established.
+
+---
+
+# 129. Conditional
+
+The task is resolvable only under explicit assumptions.
+
+Example:
 
 ```text
-M_R1 ≠ M_R2
+IF "the report" refers to REPORT-A,
+THEN TASK = ...
+```
+
+This may be adequate for non-effectful analysis but not for irreversible
+execution.
+
+---
+
+# 130. Invalidated
+
+Previously resolved semantics are no longer valid because a dependency
+changed.
+
+---
+
+# 131. Superseded
+
+A newer resolver result replaces the prior one.
+
+Preserve lineage.
+
+---
+
+# 132. Resolver Output
+
+Conceptual resolver result:
+
+```yaml
+TaskResolverResult:
+
+  resolver_id:
+
+  source:
+    request:
+    provenance:
+
+  status:
+
+  complexity:
+
+  selected_interpretation:
+
+  competing_interpretations: []
+
+  task_contract:
+
+  unresolved:
+    critical: []
+    decision_relevant: []
+    explanatory: []
+    cosmetic: []
+
+  assumptions:
+    load_bearing: []
+
+  evidence:
+
+  provenance:
+
+  invalidation_conditions:
+
+  next_route:
+```
+
+---
+
+# 133. Next Route
+
+Possible next routes:
+
+```text
+TASK_CONTRACT_READY
+
+REQUEST_CLARIFICATION
+
+RETRIEVE_CONTEXT
+
+CAPABILITY_RESOLUTION
+
+POLICY_RESOLUTION
+
+AUTHORITY_RESOLUTION
+
+PROVENANCE_RESOLUTION
+
+BLOCK
+
+RETURN_UNKNOWN
+```
+
+---
+
+# 134. Resolver Provenance
+
+The resolver should retain provenance for material semantic bindings.
+
+Example:
+
+```yaml
+binding:
+  field: target
+  value: FILE-A
+  basis:
+    - explicit reference
+    - active attachment
+```
+
+This permits later auditing.
+
+---
+
+# 135. Binding Strength
+
+Candidate classes:
+
+```text
+EXPLICIT
+
+DETERMINISTIC
+
+STRONGLY_RESOLVED
+
+INFERRED
+
+DEFAULTED
+
+CONDITIONAL
+
+UNKNOWN
+```
+
+The exact enum remains implementation-dependent.
+
+---
+
+# 136. Binding Confidence Ceiling
+
+A task field should not be represented with greater certainty than its
+support permits.
+
+Example:
+
+```text
+TARGET = FILE-A
+```
+
+may be:
+
+```text
+CONDITIONAL
+```
+
+if two files exist and context only weakly favors A.
+
+---
+
+# 137. Provenance Topology
+
+When interpretation relies on multiple contextual sources, check whether they
+are independent.
+
+Example:
+
+```text
+MESSAGE B
+quotes
+MESSAGE A
+```
+
+Then B is not independent confirmation of A's interpretation.
+
+---
+
+# 138. Persistent Provenance
+
+Once a material task field is resolved, preserve the resolution basis through
+downstream processing.
+
+Do not allow:
+
+```text
+TARGET RESOLVED FROM SOURCE A
+```
+
+to become merely:
+
+```text
+TARGET = X
+```
+
+with the source forgotten.
+
+---
+
+# 139. Freshness-Bounded Resolution
+
+Some bindings expire.
+
+Example:
+
+```text
+"the current production version"
+```
+
+resolved at time `T1`.
+
+At `T2`, before execution, that binding may need revalidation.
+
+---
+
+# 140. Resolution Epoch
+
+Conceptually, a resolver result may bind to:
+
+```text
+TASK EPOCH
+
+CONTEXT EPOCH
+
+STATE VERSION
+```
+
+when mutable state matters.
+
+This is a reasoning pattern, not a claim about a specific runtime mechanism.
+
+---
+
+# 141. MVCC Pattern
+
+Resolver reads:
+
+```text
+CONTEXT @ V1
+```
+
+and resolves:
+
+```text
+TASK @ V1
+```
+
+Before consequential commit:
+
+```text
+COMPARE CURRENT CONTEXT
+WITH V1
+```
+
+If a load-bearing semantic dependency changed:
+
+```text
+INVALIDATE DEPENDENT TASK FIELDS
+```
+
+---
+
+# 142. CAS Pattern
+
+For a mutable task binding:
+
+```text
+IF CURRENT_BINDING_VERSION
+=
+EXPECTED_BINDING_VERSION
+THEN CONTINUE
+ELSE REVALIDATE
+```
+
+Conceptually.
+
+---
+
+# 143. Resolver Dependency Graph
+
+Task fields may depend on other resolved fields.
+
+Example:
+
+```text
+REQUEST
+   ↓
+TARGET
+   ↓
+SCOPE
+   ↓
+EFFECT ENVELOPE
+```
+
+If target changes, scope and effect analysis may need revalidation.
+
+---
+
+# 144. Selective Invalidation
+
+Example:
+
+```text
+TARGET → ENVIRONMENT → EFFECT
+
+FORMAT → DELIVERABLE_PRESENTATION
+```
+
+If target changes:
+
+```text
+INVALIDATE:
+TARGET DESCENDANTS
+```
+
+Do not invalidate unrelated formatting decisions.
+
+---
+
+# 145. Resolver Repair
+
+When a binding fails:
+
+```text
+LOCALIZE FAILED BINDING
+↓
+INVALIDATE DESCENDANTS
+↓
+RETURN TO NEAREST VALID STATE
+↓
+RESOLVE ALTERNATIVE
+↓
+RECHECK SUFFICIENCY
+```
+
+---
+
+# 146. Failed Path Rule
+
+Do not repeat a failed interpretation path without changed evidence.
+
+```text
+I1 FAILED
++
+NO NEW EVIDENCE
+→
+DO NOT RESELECT I1
+```
+
+unless failure itself was procedural rather than semantic.
+
+---
+
+# 147. Resolver Contradiction Detection
+
+Search for contradictions between:
+
+```text
+REQUEST PARTS
+
+REQUEST AND CONTEXT
+
+CURRENT AND PRIOR TASK
+
+SCOPE AND CONSTRAINTS
+
+OBJECTIVE AND EFFECT
+
+DELIVERABLE AND PROHIBITIONS
+```
+
+---
+
+# 148. Request/Internal Contradiction
+
+Example:
+
+```text
+"Send this now,
+but don't contact anyone."
+```
+
+Preserve conflict.
+
+Do not choose one clause silently.
+
+---
+
+# 149. Request/Context Contradiction
+
+Example:
+
+Current request:
+
+```text
+"use version 4"
+```
+
+prior context:
+
+```text
+"use version 3"
+```
+
+The current explicit request may supersede prior context, but the transition
+should be recognized.
+
+---
+
+# 150. Current Explicit Intent
+
+Candidate precedence principle:
+
+```text
+CURRENT EXPLICIT TASK INTENT
+```
+
+normally dominates:
+
+```text
+OLDER INFERRED TASK INTENT
+```
+
+unless upstream canon or governance rules establish otherwise.
+
+---
+
+# 151. User Correction
+
+If the source corrects prior semantics:
+
+```text
+"Not A — B."
 ```
 
 then:
 
 ```text
-CF conclusion under R1
+A
 ```
 
-may no longer be valid under `R2`.
+must be invalidated as a current task binding.
 
-Thus:
+Preserve history; update active resolution.
+
+---
+
+# 152. Resolver Causal Firewall
+
+If request asks:
 
 ```text
-regime shift detected
-        ↓
-inspect validity conditions
-        ↓
-invalidate affected conclusions
-        ↓
-preserve unaffected conclusions
+"Did X cause Y?"
+```
+
+resolver must classify it as causal.
+
+Do not silently resolve it as:
+
+```text
+"Are X and Y associated?"
 ```
 
 ---
 
-# 34. COMMON ERRORS
+# 153. Resolver Scope Firewall
 
-The historical source defines five. 
-
-## Over-determination
+If request asks:
 
 ```text
-"Had X changed, Y definitely would have happened."
+"Does this work in environment A?"
 ```
 
-without accounting for other relevant factors.
-
-## Ignoring system reactions
-
-Treating an adaptive system as static.
-
-## Correlation → causation
-
-Assuming:
+do not silently broaden to:
 
 ```text
-A before B
+"Does this work universally?"
 ```
-
-means:
-
-```text
-do(A') → B'
-```
-
-## Unrealistic baseline
-
-Comparing against an implausible or cherry-picked alternative.
-
-## Hidden changes
-
-Claiming to alter one condition while silently altering several.
 
 ---
 
-# 35. EXTENDED FAILURE TAXONOMY
+# 154. Resolver Regime Firewall
+
+If context comes from regime `R1` but task targets `R2`:
+
+```text
+R1 EVIDENCE
+```
+
+cannot silently bind `R2` semantics.
+
+---
+
+# 155. Resolver Temporal Firewall
+
+If the task asks:
+
+```text
+LATEST
+```
+
+do not resolve from stale context merely because it is available.
+
+---
+
+# 156. Resolver Effect Firewall
+
+Do not transform:
+
+```text
+ANALYZE
+```
+
+into:
+
+```text
+ACT
+```
+
+or:
+
+```text
+DRAFT
+```
+
+into:
+
+```text
+SEND
+```
+
+without support.
+
+---
+
+# 157. Resolver Authority Firewall
+
+Do not infer:
+
+```text
+USER REQUESTED ACTION
+```
+
+therefore:
+
+```text
+USER IS AUTHORIZED FOR ACTION
+```
+
+Authority is downstream.
+
+---
+
+# 158. Resolver Capability Firewall
+
+Do not infer:
+
+```text
+TASK REQUIRES X
+```
+
+therefore:
+
+```text
+X IS AVAILABLE
+```
+
+Capability resolution is downstream.
+
+---
+
+# 159. Resolver Policy Firewall
+
+Do not mutate a prohibited task into a different task merely to make it
+permissible unless the system is explicitly constructing a safe alternative.
+
+If constructing an alternative:
+
+```text
+ORIGINAL TASK
+```
+
+and:
+
+```text
+SAFE ALTERNATIVE
+```
+
+must remain distinct.
+
+---
+
+# 160. Safe Alternative
+
+Conceptual output:
 
 ```yaml
-scope_leakage:
-  result: CONDITION_OR_INVALIDATE
+original_task:
+  status: BLOCKED
 
-regime_leakage:
-  result: REBUILD
+alternative_task:
+  status: PROPOSED
+  relationship: SAFE_ALTERNATIVE
+```
 
-shared_provenance:
-  result: DOWNGRADE_INDEPENDENCE
+Do not claim the alternative is what the requester originally asked for.
 
-missing_causal_model:
-  result: UNKNOWN/GAP
+---
 
-false_probability:
-  result: REMOVE_PROBABILITY
+# 161. Adversarial Resolver Validation
 
-counterfactual_as_prediction:
-  result: RELABEL
+For consequential task resolution, challenge the selected interpretation.
 
-counterfactual_as_fact:
-  result: HARD_FAIL
+Ask:
 
-unsupported_precision:
-  result: WIDEN_UNCERTAINTY
+```text
+WHAT ELSE COULD THIS MEAN?
 
-hidden_intervention:
-  result: REJECT_OR_EXPOSE
+WHAT REFERENCE COULD BE WRONG?
 
-ignored_feedback:
-  result: RECOMPUTE_DYNAMICALLY
+WHAT CONTEXT COULD BE STALE?
+
+WHAT NEGATION COULD HAVE BEEN MISREAD?
+
+WHAT EFFECT COULD HAVE BEEN SILENTLY EXPANDED?
+
+WHAT SCOPE COULD HAVE LEAKED?
+
+WHAT ASSUMPTION IS HIDDEN?
 ```
 
 ---
 
-# 36. SAFETY CONSTRAINTS
+# 162. Independent Challenge Path
 
-Historical constraints: 
+The challenge should use a genuinely different route.
+
+Example:
+
+Primary path:
+
+```text
+LINGUISTIC INTERPRETATION
+```
+
+Challenge path:
+
+```text
+TASK HISTORY + ACTIVE STATE + EFFECT ANALYSIS
+```
+
+---
+
+# 163. Challenge Success
+
+If challenge reveals a plausible materially different interpretation:
+
+```text
+DOWNGRADE RESOLUTION
+```
+
+to:
+
+```text
+CONDITIONAL
+
+COMPETING
+
+BLOCKED
+
+UNKNOWN
+```
+
+as appropriate.
+
+---
+
+# 164. Challenge Failure
+
+If no alternative survives:
+
+```text
+KEEP SELECTED INTERPRETATION
+```
+
+but do not upgrade it to `VERIFIED` merely because challenge failed.
+
+---
+
+# 165. Resolver Proof Capsule
+
+Consequential resolution should conceptually carry:
 
 ```yaml
-never_present_counterfactual_as_fact: true
+TaskResolverProofCapsule:
 
-never_ignore_uncertainty_in_far_counterfactuals: true
+  source_request:
 
-always_state_assumptions_explicitly: true
+  selected_interpretation:
 
-always_label_counterfactual_as_counterfactual: true
+  task_class:
 
-never_use_counterfactual_to_over_determine_outcomes: true
-```
+  objective_binding:
+    value:
+    basis:
+    class:
 
-These are hard integrity boundaries.
+  target_binding:
+    value:
+    basis:
+    class:
 
----
+  scope_binding:
 
-# 37. ACTION GOVERNANCE
+  constraint_binding:
 
-Counterfactual analysis becomes more demanding as action stakes rise.
+  deliverable_binding:
 
-Validation should increase with:
+  effect_binding:
 
-```text
-irreversibility
-financial exposure
-legal exposure
-health/safety exposure
-institutional impact
-dependency depth
-uncertainty
-causal ambiguity
-```
+  assumptions:
 
-Under unresolved uncertainty:
+  competing_interpretations:
 
-```text
-prefer:
-    staged
-    reversible
-    observable
-    repairable
+  discriminating_evidence:
 
-over:
-    irreversible
-    opaque
-    high-dependency
-    assumption-sensitive
+  unresolved_gaps:
+
+  falsifiers:
+
+  invalidation_conditions:
+
+  confidence_ceiling:
 ```
 
 ---
 
-# 38. ADVERSARIAL VALIDATION
+# 166. Resolver Invalidation Conditions
 
-For consequential conclusions, construct two reasoning paths.
-
-## Path A — strongest supported case
+Examples:
 
 ```text
-actual evidence
-→ causal model
-→ intervention
-→ propagated world
-→ outcome
-```
+NEW USER CORRECTION
 
-## Path B — challenge
+TARGET CHANGES
 
-Seek:
+ACTIVE FILE CHANGES
 
-```text
-contradiction
-confounder
-shared provenance
-stale evidence
-scope leakage
-regime mismatch
-hidden intervention
-feedback
-alternative mechanism
-model misspecification
-```
+CURRENT VERSION CHANGES
 
-Resolution:
+CONTEXT EXPIRES
 
-```text
-challenge succeeds
-        ↓
-downgrade / condition / compete / invalidate
-```
+REGIME CHANGES
 
-Not:
+NEW CONTRADICTORY EVIDENCE
 
-```text
-challenge succeeds
-        ↓
-ignore challenge
-        ↓
-retain fluent conclusion
+PARENT TASK SUPERSEDED
 ```
 
 ---
 
-# 39. LOCAL INVALIDATION
+# 167. Parent Task Resolution
 
-Suppose:
+A child task must inherit only relevant parent semantics.
 
-```text
-P1 ─┐
-    ├→ C1 → C3
-P2 ─┘
-
-P3 ─────→ C2
-```
-
-If `P2` fails:
+Conceptually:
 
 ```text
-invalidate C1
-invalidate C3
-preserve P1
-preserve P3
-preserve C2
+PARENT TASK
+   ↓
+INHERIT:
+  applicable scope
+  applicable constraints
+  lineage
+   ↓
+CHILD TASK
 ```
 
-Core rule:
+---
 
-[
-Invalid(p)
-\Rightarrow
-Invalidate(Descendants(p))
-]
+# 168. Parent Constraint Inheritance
+
+A child task may narrow constraints.
+
+It may not silently remove a parent hard constraint.
+
+```text
+PARENT HARD CONSTRAINT
+→
+CHILD
+```
+
+unless explicit supersession is valid.
+
+---
+
+# 169. Child Scope
+
+Candidate invariant:
+
+```text
+CHILD_SCOPE
+⊆
+PARENT_SCOPE
+```
+
+unless a separate scope expansion is authorized.
+
+---
+
+# 170. Delegated Task Resolution
+
+Delegation must resolve:
+
+```text
+SUBTASK OBJECTIVE
+
+SUBTASK SCOPE
+
+RETURN CONTRACT
+
+DEPENDENCIES
+
+CONSTRAINTS
+```
+
+Do not delegate a vague fragment that cannot be independently evaluated.
+
+---
+
+# 171. Multi-Agent Resolver
+
+For multiple agents:
+
+```text
+ROOT TASK
+   ↓
+TASK RESOLVER
+   ↓
+SUBTASK CONTRACTS
+   ↓
+AGENTS
+```
+
+Each subtask must retain root lineage.
+
+---
+
+# 172. Agent Independence
+
+Separate agents are not automatically independent.
+
+Check shared:
+
+```text
+STATE
+
+PROVENANCE
+
+TARGETS
+
+EFFECTS
+
+AUTHORITIES
+
+DEPENDENCIES
+```
+
+---
+
+# 173. Atomic Resolution
+
+Some fields must be resolved jointly.
+
+Example:
+
+```text
+TARGET
++
+ENVIRONMENT
++
+ACTION
+```
+
+may jointly determine the actual task.
+
+Resolving each independently can create an impossible combination.
+
+---
+
+# 174. Atomic Multi-RSCF Reasoning
+
+Where multiple RSCF structures jointly determine task semantics, resolution
+must preserve atomic consistency.
+
+Conceptually:
+
+```text
+RSCF-A
++
+RSCF-B
++
+RSCF-C
+→
+ONE TASK BINDING
+```
+
+if no independent resolution is valid.
+
+---
+
+# 175. Causal Epoch Finality
+
+When a task depends on causally related mutable state, a resolver result
+should not be treated as permanently final merely because local parsing is
+complete.
+
+Conceptually:
+
+```text
+SEMANTIC RESOLUTION
++
+CAUSAL STATE VALIDITY
+→
+EXECUTION-RELEVANT FINALITY
+```
+
+---
+
+# 176. Shard-Local Resolution
+
+Local resolution is permitted when:
+
+```text
+DEPENDENCY CLOSURE IS LOCAL
+
+NO CROSS-SHARD CONFLICT
+
+PROVENANCE INDEPENDENCE ESTABLISHED
+
+SCOPE/REGIME COMPATIBLE
+
+FRESHNESS VALID
+```
+
+This is a reasoning architecture pattern, not a claim of literal distributed
+deployment.
+
+---
+
+# 177. Coordination Avoidance
+
+Do not coordinate globally if local proof establishes that remote state
+cannot change task semantics.
+
+Conceptually:
+
+```text
+PROOF OF INDEPENDENCE
+→
+SAFE LOCAL RESOLUTION
+```
 
 not:
 
-[
-Invalid(p)
-\Rightarrow
-Invalidate(All)
-]
-
----
-
-# 40. RECOVERY
-
 ```text
-detect failed premise
-        ↓
-identify dependency closure
-        ↓
-invalidate affected descendants
-        ↓
-rollback to nearest valid state
-        ↓
-retrieve changed evidence/model
-        ↓
-reroute locally
-        ↓
-re-evaluate
+ASSUMED INDEPENDENCE
+→
+SKIP COORDINATION
 ```
 
-Do not repeat a failed reasoning path without changed evidence.
+---
+
+# 178. Proof-Based Coordination Avoidance
+
+Before avoiding broader coordination, establish:
+
+```text
+DEPENDENCY CLOSURE
+
+NO SHARED LOAD-BEARING STATE
+
+NO SHARED EFFECT TARGET
+
+NO MATERIAL PROVENANCE CORRELATION
+
+NO GOVERNANCE COUPLING
+```
+
+where relevant.
 
 ---
 
-# 41. RSCF COUNTERFACTUAL CAPSULE
+# 179. Resolver and Fractal Knowledge Network
+
+Use smallest sufficient retrieval:
+
+```text
+BOOTSTRAP
+↓
+H DOMAIN
+↓
+M SUBSYSTEM
+↓
+L DETAIL
+↓
+RAW EVIDENCE
+ONLY IF REQUIRED
+```
+
+---
+
+# 180. Resolver Bootstrap
+
+Bootstrap should contain enough information to determine:
+
+```text
+LIKELY DOMAIN
+
+LIKELY TASK CLASS
+
+RELEVANT CANON
+
+LIKELY DEPENDENCY PATH
+```
+
+without loading the full corpus.
+
+---
+
+# 181. H-Level Resolution
+
+Use H domain knowledge when the task domain itself is ambiguous or
+domain-level rules affect interpretation.
+
+---
+
+# 182. M-Level Resolution
+
+Use M subsystem knowledge when a particular subsystem determines task
+semantics.
+
+---
+
+# 183. L-Level Resolution
+
+Use L detail when exact implementation, field, rule, or artifact semantics
+are load-bearing.
+
+---
+
+# 184. Raw Evidence
+
+Load raw evidence only when required to:
+
+```text
+DISAMBIGUATE
+
+VERIFY A LOAD-BEARING FIELD
+
+RESOLVE CONTRADICTION
+
+ESTABLISH PROVENANCE
+
+CHECK FRESHNESS
+
+TEST A FALSIFIER
+```
+
+---
+
+# 185. Retrieval Failure
+
+If required evidence cannot be retrieved:
+
+```text
+DO NOT BRIDGE THE GAP
+WITH PLAUSIBLE SEMANTICS.
+```
+
+Return:
+
+```text
+CONDITIONAL
+
+BLOCKED
+
+UNKNOWN/GAP
+```
+
+depending on materiality.
+
+---
+
+# 186. Resolver and RSCF
+
+Task resolution may instantiate RSCF around:
+
+```text
+REQUEST
+
+REFERENCES
+
+OBJECTIVE
+
+SCOPE
+
+CONSTRAINTS
+
+DEPENDENCIES
+```
+
+The RSCF is bounded by task resolution needs.
+
+---
+
+# 187. Resolver and GMEF
+
+If resolving the request reveals that the task proposes changing system
+governance or canonical architecture:
+
+```text
+ROUTE TO GMEF-RELEVANT GOVERNANCE
+```
+
+rather than treating it as an ordinary generation task.
+
+---
+
+# 188. Resolver and Memory
+
+Memory can support resolution only when:
+
+```text
+RELEVANT
+
+VALID
+
+NON-CONFLICTING
+
+FRESH ENOUGH
+
+SCOPE-COMPATIBLE
+```
+
+Do not let stale memory override current explicit intent.
+
+---
+
+# 189. Resolver and World Model
+
+A world model may help resolve contextual references.
+
+But:
+
+```text
+MODEL STATE
+!=
+OBSERVED CURRENT STATE
+```
+
+For consequential bindings, revalidation may be necessary.
+
+---
+
+# 190. Resolver and Provenance
+
+Every material inferred field should remain traceable to:
+
+```text
+SOURCE
+
+CONTEXT
+
+RULE
+
+OR EVIDENCE
+```
+
+that produced it.
+
+---
+
+# 191. Resolver and Semantic Transaction
+
+Once a task is sufficiently resolved, the resolved contract may become part
+of a semantic transaction.
+
+The semantic transaction should bind to:
+
+```text
+TASK ID
+
+TASK VERSION
+
+RESOLVER RESULT
+
+RELEVANT SNAPSHOT
+```
+
+where material.
+
+---
+
+# 192. Resolver and Commit
+
+Before commit, downstream systems may ask:
+
+```text
+IS THIS STILL
+THE SAME TASK
+THAT WAS RESOLVED?
+```
+
+If not:
+
+```text
+RETURN TO RESOLUTION
+```
+
+for affected fields.
+
+---
+
+# 193. Commit-Time Resolver Check
+
+Candidate check:
+
+```text
+CURRENT TASK VERSION
+=
+PLANNED TASK VERSION
+
+AND
+
+NO LOAD-BEARING
+RESOLUTION DEPENDENCY
+HAS CHANGED
+```
+
+Otherwise:
+
+```text
+REVALIDATE
+```
+
+---
+
+# 194. Resolver and Observability
+
+Resolution should identify what must later be observed to know whether the
+task was completed.
+
+Example:
+
+```text
+"Make sure the file was uploaded."
+```
+
+requires observable upload state, not merely tool invocation.
+
+---
+
+# 195. Resolver and Effects
+
+The resolver identifies intended effect semantics.
+
+The effect subsystem determines actual effect class and governance.
+
+Distinction:
+
+```text
+INTENDED EFFECT
+!=
+OBSERVED EFFECT
+```
+
+---
+
+# 196. Resolver and Finalizer
+
+The finalizer evaluates actual results against the resolved Task Contract.
+
+Therefore:
+
+```text
+BAD RESOLUTION
+→
+BAD COMPLETION TEST
+```
+
+even if runtime execution itself is technically correct.
+
+---
+
+# 197. Resolver and Replay
+
+Replay must use the resolver result associated with the original task
+version.
+
+Do not reinterpret historical requests using current context and then treat
+the new interpretation as the historical task.
+
+---
+
+# 198. Historical Resolution
+
+Historical audit should distinguish:
+
+```text
+WHAT THE REQUEST MEANT
+UNDER THEN-AVAILABLE CONTEXT
+```
+
+from:
+
+```text
+WHAT IT WOULD MEAN
+UNDER CURRENT CONTEXT
+```
+
+---
+
+# 199. Resolver Anti-Fabrication Rules
+
+Never perform:
+
+```text
+UNKNOWN TARGET
+→
+PLAUSIBLE TARGET
+```
+
+```text
+UNKNOWN OBJECTIVE
+→
+CONVENIENT OBJECTIVE
+```
+
+```text
+AMBIGUOUS RECIPIENT
+→
+MOST LIKELY RECIPIENT
+```
+
+for consequential execution without sufficient support.
+
+Never perform:
+
+```text
+MISSING CONSTRAINT
+→
+ASSUME NONE
+```
+
+when context indicates constraints may be material.
+
+---
+
+# 200. Resolver Anti-Expansion Rules
+
+Never silently transform:
+
+```text
+READ
+→
+WRITE
+```
+
+```text
+DRAFT
+→
+SEND
+```
+
+```text
+PREVIEW
+→
+EXECUTE
+```
+
+```text
+LOCAL
+→
+GLOBAL
+```
+
+```text
+ONE FILE
+→
+ALL FILES
+```
+
+```text
+CURRENT TASK
+→
+ALL FUTURE TASKS
+```
+
+---
+
+# 201. Resolver Anti-Compression Rule
+
+Compression must not erase:
+
+```text
+NEGATION
+
+CONDITION
+
+TARGET
+
+SCOPE
+
+HARD CONSTRAINT
+
+EFFECT CLASS
+
+UNCERTAINTY
+
+COMPETING INTERPRETATION
+```
+
+when load-bearing.
+
+---
+
+# 202. Resolver Anti-Fluency Rule
+
+A fluent interpretation is not necessarily a supported interpretation.
+
+```text
+LINGUISTIC PLAUSIBILITY
+!=
+SEMANTIC PROOF
+```
+
+---
+
+# 203. Resolver Anti-Popularity Rule
+
+The most common interpretation is not necessarily the correct interpretation
+for the current task.
+
+---
+
+# 204. Resolver Anti-Authority Rule
+
+Do not use apparent authority of a source to fill missing task semantics.
+
+Authority to request an action and clarity of requested semantics are separate
+questions.
+
+---
+
+# 205. Resolver Anti-Causal Rule
+
+Do not convert:
+
+```text
+WHY DID X HAPPEN?
+```
+
+into a confident causal task if the source only supports association.
+
+The task may still ask a causal question; the eventual answer may be
+`UNKNOWN/GAP`.
+
+---
+
+# 206. Resolver Anti-Scope-Leak Rule
+
+Context outside the active task must not silently enter scope merely because
+it is available.
+
+---
+
+# 207. Resolver Anti-Staleness Rule
+
+Previously resolved references must not be reused indefinitely.
+
+Freshness is binding-specific.
+
+---
+
+# 208. Resolver Anti-Sybil Rule
+
+Multiple context fragments derived from the same origin do not provide
+independent support for an interpretation.
+
+---
+
+# 209. Resolver Anti-Regression Gate
+
+Any optimization to task resolution must preserve or improve:
+
+```text
+INTENT FIDELITY
+
+REFERENCE CORRECTNESS
+
+SCOPE CORRECTNESS
+
+NEGATION PRESERVATION
+
+CONSTRAINT VISIBILITY
+
+PROVENANCE
+
+CONTRADICTION VISIBILITY
+
+EFFECT BOUNDARIES
+
+FRESHNESS
+
+REPAIRABILITY
+
+AUDITABILITY
+
+USER FIT
+```
+
+Otherwise reject or roll back the optimization.
+
+---
+
+# 210. Resolver Invariants
+
+```text
+TR-I01
+SOURCE REQUEST MUST REMAIN TRACEABLE.
+
+TR-I02
+RESOLVED INTENT MUST NOT BE CONFUSED WITH SOURCE WORDING.
+
+TR-I03
+LOAD-BEARING SEMANTICS MUST NOT BE INVENTED.
+
+TR-I04
+NEGATION MUST BE PRESERVED.
+
+TR-I05
+CONDITIONS MUST BE PRESERVED.
+
+TR-I06
+MATERIAL REFERENCE AMBIGUITY MUST NOT BE SILENTLY COLLAPSED.
+
+TR-I07
+OBJECTIVE MUST BE BOUND BEFORE CONSEQUENTIAL EXECUTION.
+
+TR-I08
+TARGET MUST BE BOUND BEFORE TARGET-SENSITIVE CONSEQUENTIAL EXECUTION.
+
+TR-I09
+SCOPE MUST NOT EXPAND SILENTLY.
+
+TR-I10
+HARD CONSTRAINTS MUST NOT BE DROPPED.
+
+TR-I11
+DRAFT MUST NOT BE RESOLVED AS SEND WITHOUT SUPPORT.
+
+TR-I12
+PREVIEW MUST NOT BE RESOLVED AS COMMIT WITHOUT SUPPORT.
+
+TR-I13
+PLAN MUST NOT BE RESOLVED AS EXECUTION WITHOUT SUPPORT.
+
+TR-I14
+TASK RESOLUTION DOES NOT GRANT AUTHORITY.
+
+TR-I15
+TASK RESOLUTION DOES NOT ESTABLISH CAPABILITY.
+
+TR-I16
+TASK RESOLUTION DOES NOT ESTABLISH POLICY PERMISSION.
+
+TR-I17
+COMPETING MATERIAL INTERPRETATIONS MUST REMAIN VISIBLE.
+
+TR-I18
+CLARIFICATION SHOULD TARGET THE HIGHEST-VALUE UNRESOLVED GAP.
+
+TR-I19
+LOW-VALUE AMBIGUITY SHOULD NOT BLOCK SUFFICIENTLY BOUNDED WORK.
+
+TR-I20
+FRESHNESS-SENSITIVE BINDINGS MUST EXPIRE OR REVALIDATE.
+
+TR-I21
+PROVENANCE OF MATERIAL INFERENCES MUST REMAIN RECOVERABLE.
+
+TR-I22
+RESOLUTION CONFIDENCE MUST NOT EXCEED SUPPORT.
+
+TR-I23
+FAILED BINDINGS SHOULD INVALIDATE ONLY DEPENDENT FIELDS.
+
+TR-I24
+LOCAL FAST-PATH RESOLUTION REQUIRES PROVEN DEPENDENCY SUFFICIENCY.
+
+TR-I25
+OPTIMIZATION MUST NOT ALTER TASK MEANING.
+```
+
+These identifiers remain candidate specification IDs until separately
+registered as canonical invariants.
+
+---
+
+# 211. Example — Direct Resolution
+
+Request:
+
+```text
+"Summarize this file."
+```
+
+Context:
+
+```text
+exactly one attached file
+```
+
+Resolver:
 
 ```yaml
-CounterfactualProofCapsule:
+status: RESOLVED
 
-  claim:
-    statement: ""
-    class:
-      - VERIFIED
-      - DERIVED
-      - MODEL
-      - CONDITIONAL
-      - COMPETING
-      - UNKNOWN/GAP
+objective:
+  summarize attached file
 
-  actual_world:
-    observations: []
-    source_claims: []
-    derived_state: []
-    provenance: []
+target:
+  attached_file_1
 
-  intervention:
-    targets: []
-    changes: []
-    minimality:
-      status: PASS|FAIL|UNKNOWN
+deliverable:
+  text summary
 
-  causal_model:
-    model_id: null
-    supported_edges: []
-    uncertain_edges: []
-    confounders: []
-    mediators: []
-    feedback_loops: []
+scope:
+  include:
+    - attached_file_1
 
-  counterfactual_world:
-    state: {}
-    causal_chain: []
-    system_reactions: []
+effects:
+  - read
+  - analyze
+  - respond
+```
 
-  load_bearing_premises: []
+No clarification required.
 
-  assumptions: []
+---
 
-  alternative_outcomes: []
+# 212. Example — Ambiguous Target
 
-  competing_explanations: []
+Request:
 
-  applicability:
-    system: null
-    environment: null
-    scale: null
-    time: null
-    regime: null
+```text
+"Delete the old one."
+```
 
-  freshness:
-    validated_at: null
-    expires_at: null
+Context:
+
+```text
+FILE-A
+FILE-B
+FILE-C
+```
+
+with no unique age relation.
+
+Resolver:
+
+```yaml
+status: BLOCKED
+
+gap:
+  class: CRITICAL
+  field: target
+```
+
+Required action:
+
+```text
+RESOLVE TARGET
+```
+
+before destructive execution.
+
+---
+
+# 213. Example — Draft vs Send
+
+Request:
+
+```text
+"Write an email to Alex explaining the delay."
+```
+
+Resolver:
+
+```text
+GENERATE EMAIL DRAFT
+```
+
+unless context explicitly establishes sending intent.
+
+Do not resolve automatically to:
+
+```text
+SEND EMAIL
+```
+
+---
+
+# 214. Example — Explicit Send
+
+Request:
+
+```text
+"Send Alex an email explaining the delay."
+```
+
+Resolver:
+
+```yaml
+objective:
+  communicate delay to Alex
+
+deliverable:
+  sent email
+
+effect_intent:
+  external_communication
+
+recipient:
+  Alex
+```
+
+If multiple Alex identities are plausible and recipient choice matters:
+
+```text
+RECIPIENT GAP
+```
+
+must be resolved.
+
+---
+
+# 215. Example — Current Data
+
+Request:
+
+```text
+"What's the current price?"
+```
+
+Resolver should identify:
+
+```text
+FRESHNESS REQUIRED
+```
+
+and bind the relevant asset.
+
+A stale cached value does not satisfy the resolved task.
+
+---
+
+# 216. Example — Comparison Ambiguity
+
+Request:
+
+```text
+"Which one is better?"
+```
+
+Objects:
+
+```text
+A
+B
+```
+
+If no evaluation criterion exists and different criteria could reverse the
+answer:
+
+```text
+DECISION-RELEVANT GAP
+```
+
+Possible response:
+
+```text
+better by what criterion?
+```
+
+or use a clearly labeled multi-criteria comparison if that safely satisfies
+the task.
+
+---
+
+# 217. Example — Safe Default
+
+Request:
+
+```text
+"Give me a short summary."
+```
+
+Exact word count is unspecified.
+
+The resolver may safely default to a concise summary because exact length is
+not load-bearing.
+
+---
+
+# 218. Example — Unsafe Default
+
+Request:
+
+```text
+"Transfer the money."
+```
+
+Missing:
+
+```text
+AMOUNT
+
+SOURCE ACCOUNT
+
+DESTINATION
+```
+
+No defaults.
+
+Result:
+
+```text
+BLOCKED
+```
+
+---
+
+# 219. Example — Competing Interpretation
+
+Request:
+
+```text
+"Use the latest model."
+```
+
+Possible meanings:
+
+```text
+latest released model
+
+latest model in repository
+
+latest approved model
+
+latest model used in prior task
+```
+
+If the distinction affects outcome:
+
+```text
+COMPETING
+```
+
+until discriminated.
+
+---
+
+# 220. Example — Scope Continuation
+
+Prior task:
+
+```text
+analyze files A and B
+```
+
+Current request:
+
+```text
+"Now compare their security assumptions."
+```
+
+Resolver may inherit:
+
+```text
+A and B
+```
+
+because continuation is strongly established.
+
+It should not add file C merely because C is available.
+
+---
+
+# 221. Example — Correction
+
+Prior:
+
+```text
+"Use report A."
+```
+
+Current:
+
+```text
+"Actually use report B."
+```
+
+Resolver:
+
+```text
+INVALIDATE target=A
+BIND target=B
+```
+
+Dependent reasoning based on A becomes stale.
+
+---
+
+# 222. Example — Conditional Task
+
+Request:
+
+```text
+"If deployment finished, run the validation."
+```
+
+Resolver:
+
+```yaml
+condition:
+  deployment_finished: REQUIRED_TRUE
+
+action:
+  run_validation
+```
+
+Do not execute validation merely because the action clause is clear.
+
+---
+
+# 223. Example — Causal Task
+
+Request:
+
+```text
+"Did the policy change cause the decline?"
+```
+
+Resolver:
+
+```yaml
+task_class:
+  - ANALYSIS
+  - CAUSAL
+
+objective:
+  assess causal relationship
+
+causal_requirement:
+  true
+```
+
+The downstream evidence process must respect the causal firewall.
+
+---
+
+# 224. Example — Governance Task
+
+Request:
+
+```text
+"Change the canonical rule so this case is always allowed."
+```
+
+Resolver should identify:
+
+```text
+GOVERNANCE EFFECT
+```
+
+and route accordingly.
+
+It is not merely a text-editing task.
+
+---
+
+# 225. Example — Recovery Task
+
+Request:
+
+```text
+"Undo only the changes caused by the failed migration."
+```
+
+Resolver must bind:
+
+```text
+FAILED MIGRATION
+
+DEPENDENT CHANGES
+
+UNAFFECTED CHANGES
+
+RECOVERY SCOPE
+```
+
+before rollback.
+
+---
+
+# 226. Example — Historical Task
+
+Request:
+
+```text
+"What did the resolver specification say in v3?"
+```
+
+Task scope:
+
+```text
+HISTORICAL
+```
+
+Current v4.4 semantics must not silently replace v3 content.
+
+---
+
+# 227. Example — Corpus vs Empirical Claim
+
+Request:
+
+```text
+"Does AMOS prove this architecture is universally correct?"
+```
+
+Resolver must distinguish:
+
+```text
+CORPUS MODEL CLAIM
+```
+
+from:
+
+```text
+EMPIRICAL / FORMAL UNIVERSAL VALIDITY
+```
+
+The latter requires independent evidence.
+
+---
+
+# 228. Resolver Machine Form
+
+```yaml
+task_resolver:
+
+  resolver_id:
+
+  source:
+    type:
+    raw_request:
+    provenance:
+    timestamp:
+
+  context:
+    task_lineage:
+    active_objects:
+    temporal_context:
+    environment:
+    regime:
+
+  classification:
+    task_types: []
+    complexity:
+
+  bindings:
+
+    objective:
+      value:
+      class:
+      basis:
+
+    target:
+      value:
+      class:
+      basis:
+
+    deliverable:
+      value:
+      class:
+      basis:
+
+    scope:
+      value:
+      class:
+      basis:
+
+    constraints:
+      hard: []
+      soft: []
+
+    inputs:
+      required: []
+      optional: []
+      prohibited: []
+
+    assumptions:
+      load_bearing: []
+      noncritical: []
+
+    freshness:
+
+    stakes:
+
+    effects:
+
+    dependencies:
+
+  competing_interpretations: []
 
   uncertainty:
-    evidence: null
-    model: null
-    scope: null
-    temporal: null
-    causal: null
-    execution: null
-    provenance_independence: null
+    semantic:
+    evidence:
+    model:
+    scope:
+    temporal:
+    causal:
+    execution:
+    provenance_independence:
 
-  falsifiers: []
+  gaps:
+    critical: []
+    decision_relevant: []
+    explanatory: []
+    cosmetic: []
 
-  invalidation_conditions: []
+  sufficiency:
+    objective:
+    scope:
+    constraints:
+    references:
+    completion:
+    overall:
 
-  confidence_ceiling: null
+  output:
+    status:
+    task_contract:
+    next_route:
+
+  provenance:
+
+  invalidation_conditions:
 ```
-
-This structure is a v4.4-compatible normalization rather than verbatim historical v1.0.0 source.
 
 ---
 
-# 42. CONCLUSION CLASSES
-
-```yaml
-VERIFIED:
-  meaning: >
-    Strongly established proposition within its declared
-    evidential and applicability envelope.
-
-DERIVED:
-  meaning: >
-    Follows from supported premises and valid reasoning.
-
-MODEL:
-  meaning: >
-    Generated by an explicit hypothetical/causal model.
-
-CONDITIONAL:
-  meaning: >
-    Holds only under identified assumptions or thresholds.
-
-COMPETING:
-  meaning: >
-    Multiple incompatible alternatives remain live.
-
-UNKNOWN/GAP:
-  meaning: >
-    Required evidence/model/dependency is missing.
-```
-
-Counterfactual outcomes normally begin no stronger than `MODEL` or `DERIVED` within a model unless separately validated.
-
----
-
-# 43. RUNTIME
+# 229. Resolver Pseudocode
 
 ```text
-INPUT Q
+function resolve_task(request, context):
 
-↓
-Detect counterfactual intent
+    source = preserve(request)
 
-↓
-Classify:
-past / future / structural / causal
+    normalized = normalize_without_semantic_expansion(source)
 
-↓
-Extract actual baseline
+    task_class = classify(normalized)
 
-↓
-Extract explicit intervention
+    references = resolve_material_references(
+        normalized,
+        context
+    )
 
-↓
-Identify requested outcome or decision
+    objective = resolve_objective(
+        normalized,
+        context,
+        references
+    )
 
-↓
-Retrieve load-bearing evidence only
+    deliverable = resolve_deliverable(
+        normalized,
+        context
+    )
 
-↓
-Check causal-model sufficiency
+    scope = resolve_scope(
+        normalized,
+        context,
+        references
+    )
 
-├── insufficient
-│      ↓
-│   UNKNOWN/GAP
-│
-└── sufficient
-       ↓
+    constraints = extract_constraints(
+        normalized,
+        context
+    )
 
-Establish scope / regime / freshness
+    inputs = identify_required_inputs(
+        objective,
+        scope,
+        constraints
+    )
 
-↓
-Apply minimal intervention
+    assumptions = identify_load_bearing_assumptions(
+        objective,
+        references,
+        scope,
+        inputs
+    )
 
-↓
-Propagate causal descendants
+    freshness = resolve_freshness_requirement(
+        normalized,
+        inputs,
+        context
+    )
 
-↓
-Model system reactions
+    stakes = classify_resolution_stakes(
+        objective,
+        scope,
+        context
+    )
 
-↓
-Model feedback where relevant
+    effects = resolve_effect_intent(
+        normalized,
+        objective
+    )
 
-↓
-Generate materially distinct alternatives
+    dependencies = identify_dependencies(
+        objective,
+        references,
+        scope,
+        effects
+    )
 
-↓
-Check confounding
+    uncertainty = classify_uncertainty(
+        source,
+        context,
+        dependencies
+    )
 
-↓
-Check hidden changes
+    interpretations = generate_supported_interpretations(
+        source,
+        context
+    )
 
-↓
-Evaluate plausibility
+    interpretations = eliminate_dominated_interpretations(
+        interpretations
+    )
 
-↓
-Represent uncertainty
+    if materially_competing(interpretations):
+        evidence = run_cheapest_discriminating_test(
+            interpretations
+        )
 
-↓
-Run sensitivity analysis
+        interpretations = update(
+            interpretations,
+            evidence
+        )
 
-↓
-Run adversarial challenge if consequential
+    gaps = classify_gaps(
+        objective,
+        references,
+        scope,
+        constraints,
+        inputs,
+        effects
+    )
 
-↓
-Classify weakest accurate conclusion
+    if critical_gap(gaps):
+        return BLOCKED(
+            partial_task_contract,
+            gaps
+        )
 
-↓
-OUTPUT
+    selected = select_supported_interpretation(
+        interpretations
+    )
+
+    contract = build_task_contract(
+        selected,
+        objective,
+        deliverable,
+        scope,
+        constraints,
+        inputs,
+        assumptions,
+        freshness,
+        stakes,
+        effects,
+        dependencies,
+        uncertainty
+    )
+
+    if not sufficient(contract):
+        return CONDITIONAL_OR_CLARIFY(
+            contract,
+            gaps
+        )
+
+    challenge = adversarial_validate_resolution(
+        contract,
+        source,
+        context
+    )
+
+    if challenge.material_failure:
+        return downgrade_resolution(
+            contract,
+            challenge
+        )
+
+    return RESOLVED(contract)
 ```
+
+This pseudocode is conceptual and does not claim literal runtime
+implementation.
 
 ---
 
-# 44. FAST PATH
+# 230. Resolver Sufficiency Function
 
-A compact counterfactual may be used only when:
-
-```yaml
-dependency_closure: established
-provenance_independence: adequate
-scope_compatibility: established
-regime_compatibility: established
-freshness: adequate
-material_conflict: absent
-causal_coupling: bounded
-stakes: low_or_reversible
-```
-
-Escalation triggers:
+Conceptually:
 
 ```text
-shared ancestry
-conflict
-stale evidence
-cross-regime reasoning
-strong causal coupling
-ambiguous dependency
-irreversible stakes
-governance impact
-weak causal model
+ResolveSufficient(T)
+=
+ObjectiveBound(T)
+∧
+DeliverableBound(T)
+∧
+ScopeBound(T)
+∧
+HardConstraintsKnown(T)
+∧
+CriticalReferencesBound(T)
+∧
+CriticalGapsClosed(T)
+∧
+CompletionDefined(T)
 ```
+
+with additional predicates activated by stakes.
 
 ---
 
-# 45. HISTORICAL INTEGRATION
+# 231. Consequential Sufficiency
 
-Historical source explicitly says the kernel provides to: 
-
-```yaml
-provides_to:
-  - Meta_Logic_Kernel
-  - Multi_Perspective_Reasoning_Kernel
-  - Strategy_Game_Engine
-  - Risk_Assessment
-```
-
-It is used by:
-
-```yaml
-used_by:
-  - Decision analysis
-  - Risk assessment
-  - Strategic planning
-  - Causal inference
-  - Policy evaluation
-```
-
-Routing:
-
-```yaml
-routes_to:
-  default: ROUTE_DEFAULT
-  domain_specific: specialized_route
-```
-
----
-
-# 46. META-COGNITION POSITION
-
-The Omni source places:
+For consequential tasks:
 
 ```text
-Meta_Epistemology_Kernel
-Meta_Ontology_Kernel
-Meta_Logic_Kernel
-Cognitive_Compression_Kernel
-Analogy_Abstraction_Kernel
-Counterfactual_Reasoning_Kernel
-Multi_Perspective_Reasoning_Kernel
+ResolveSufficientConsequential(T)
+=
+ResolveSufficient(T)
+∧
+TargetBound(T)
+∧
+EffectIntentBound(T)
+∧
+FreshnessSufficient(T)
+∧
+NoMaterialSemanticConflict(T)
 ```
 
-inside the `meta_cognition` component. 
-
-This establishes architectural placement, but not by itself runtime implementation.
+This still does not establish authority or policy permission.
 
 ---
 
-# 47. EVALUATION
+# 232. Resolution Confidence
 
-Historical unit tests: 
-
-```yaml
-unit_tests:
-
-  - test: past_counterfactual_with_causal_model
-    expected:
-      - counterfactual_state
-      - causal_chain
-      - uncertainties
-
-  - test: actual_vs_counterfactual
-    expected:
-      - difference_analysis
-      - causal_attribution
-      - confounding_factors
-
-  - test: over_determination_detection
-    expected:
-      - error_flagged
-
-  - test: three_scenario_analysis
-    expected:
-      - scenario_outcomes
-      - recommended_preparation
-```
-
----
-
-# 48. EXTENDED V4.4 TESTS
-
-```yaml
-integrity_tests:
-
-  hidden_change_detection:
-    pass_if: >
-      undeclared interventions are rejected or surfaced
-
-  causal_firewall:
-    pass_if: >
-      correlation alone never yields causal attribution
-
-  distance_uncertainty:
-    pass_if: >
-      unsupported counterfactual distance cannot increase confidence
-
-  competing_preservation:
-    pass_if: >
-      unresolved incompatible alternatives remain COMPETING
-
-  provenance_sybil:
-    pass_if: >
-      descendants of one source are not counted as independent evidence
-
-  regime_shift:
-    pass_if: >
-      conclusions dependent on obsolete regime assumptions are invalidated
-
-  weakest_premise:
-    pass_if: >
-      derived confidence respects load-bearing confidence ceiling
-
-  local_invalidation:
-    pass_if: >
-      failed premise invalidates dependent descendants only
-
-  fact_boundary:
-    pass_if: >
-      hypothetical output never becomes observation
-```
-
----
-
-# 49. HISTORICAL FAILURE MODES
-
-The historical kernel explicitly lists: 
-
-```yaml
-failure_modes:
-  - Presenting counterfactual as certain prediction
-  - Ignoring system reactions to change
-  - Over-determining outcome without considering alternatives
-  - Hidden multiple changes in counterfactual
-```
-
----
-
-# 50. OUTPUT CONTRACT
-
-Minimal:
-
-```yaml
-counterfactual_result:
-
-  label: COUNTERFACTUAL
-
-  type:
-    past|future|structural|causal
-
-  intervention: {}
-
-  conclusion:
-    class: MODEL
-    statement: ""
-
-  assumptions: []
-
-  causal_basis: []
-
-  uncertainty: []
-```
-
-Consequential:
-
-```yaml
-counterfactual_result:
-
-  label: COUNTERFACTUAL
-
-  actual_baseline: {}
-
-  intervention: {}
-
-  conclusion:
-    class:
-      DERIVED|MODEL|CONDITIONAL|COMPETING|UNKNOWN/GAP
-    statement: ""
-
-  causal_chain: []
-
-  system_reactions: []
-
-  assumptions: []
-
-  competing_outcomes: []
-
-  alternative_explanations: []
-
-  confounders: []
-
-  scope: {}
-
-  regime: {}
-
-  freshness: {}
-
-  uncertainty_vector:
-    evidence: null
-    model: null
-    scope: null
-    temporal: null
-    causal: null
-    execution: null
-    provenance_independence: null
-
-  confidence_ceiling: null
-
-  falsifiers: []
-
-  invalidation_conditions: []
-
-  discriminating_test: null
-
-  reversible_action: null
-```
-
----
-
-# 51. STOP CONDITIONS
-
-Counterfactual reasoning stops when additional reasoning no longer materially changes:
-
-```yaml
-claim_sufficiency:
-  question: >
-    Is the conclusion adequately supported and correctly classified?
-
-decision_sufficiency:
-  question: >
-    Is remaining uncertainty unlikely to change the decision?
-
-action_sufficiency:
-  question: >
-    Is there a safe, proportionate action under the remaining uncertainty?
-```
-
-Completeness is not achieved by generating every imaginable hypothetical world.
-
-It is achieved by resolving the alternatives that can materially change the conclusion or action.
-
----
-
-# 52. GAP REGISTER
-
-```yaml
-gaps:
-
-  - id: CF-G1
-    class: DECISION-RELEVANT
-    missing:
-      exact_original_md/Core/AMOS_Counterfactual_Reasoning_Kernel_v0.md
-    status: NOT_DIRECTLY_RECOVERED
-    effect: >
-      Prevents claiming exact byte/text equivalence between this
-      reconstruction and the original source file.
-
-  - id: CF-G2
-    class: DECISION-RELEVANT
-    missing:
-      historical_devin_counterfactual_skill_contents
-    status: NOT_DIRECTLY_RECOVERED
-    effect: >
-      Runtime skill implementation cannot be reconstructed as verified
-      implementation solely from the kernel specification.
-
-  - id: CF-G3
-    class: EXPLANATORY
-    missing:
-      exact_executable_v1_0_0_implementation
-    status: UNKNOWN
-    effect: >
-      Historical specification does not prove executable realization.
-
-  - id: CF-G4
-    class: EXPLANATORY
-    missing:
-      explicit_supersession_record_v1_to_current_K_COUNTERFACTUAL
-    status: UNKNOWN
-```
-
----
-
-# 53. SOURCE / EXTENSION BOUNDARY
-
-## SOURCE-SUPPORTED HISTORICAL SPINE
-
-Directly supported by the recovered historical source:
+Conceptually:
 
 ```text
-Counterfactual_Reasoning_Kernel
-version 1.0.0
-Meta_Cognition
-priority 9
-required true
-dependencies
-binding rules
-four counterfactual types
-five validity criteria
-five common errors
-four core rules
-three functions
-function inputs/outputs
-integration
-safety constraints
-unit tests
-failure modes
-```
-
-
-
-## INDEPENDENT ARCHITECTURAL CORROBORATION
-
-The Omni kernel independently supports the existence and meta-cognition placement of `Counterfactual_Reasoning_Kernel`, with its blueprint marked `defined`. 
-
-## V4.4 LINEAGE EXTENSIONS
-
-The following portions of this reconstructed `K_COUNTERFACTUAL` are normalization/extensions rather than claimed verbatim historical v1.0.0 content:
-
-```text
-RSCF proof capsule
-typed evidence topology
-provenance-independence firewall
-scope/regime firewall
-uncertainty vector
-confidence ceiling
-counterfactual-distance equation
-competing-hypothesis state
-discriminating-test optimization
-sensitivity/flip analysis
-adversarial validation
-local invalidation
-fast path
-action governance
-expanded runtime/output contracts
-```
-
----
-
-# 54. CANONICAL K_COUNTERFACTUAL CONTRACT
-
-```yaml
-K_COUNTERFACTUAL:
-
-  mission: >
-    Construct, propagate, compare, and evaluate minimally changed
-    hypothetical worlds without confusing hypothetical states with
-    observed reality, prediction, or unsupported causal claims.
-
-  historical_kernel:
-    id: Counterfactual_Reasoning_Kernel
-    version: "1.0.0"
-    category: Meta_Cognition
-    priority: 9
-    required: true
-
-  dependencies:
-    - Meta_Logic_Kernel
-    - Meta_Epistemology_Kernel
-    - Probability_Statistics_Kernel
-
-  counterfactual_types:
-    - past
-    - future
-    - structural
-    - causal
-
-  hard_invariants:
-
-    - COUNTERFACTUAL_NEVER_EQUALS_FACT
-
-    - CAUSAL_ATTRIBUTION_REQUIRES_CAUSAL_MODEL
-
-    - APPLY_MINIMAL_INTERVENTION
-
-    - PRESERVE_CAUSAL_CHAIN
-
-    - EXPOSE_ASSUMPTIONS
-
-    - MODEL_SYSTEM_REACTIONS
-
-    - PRESERVE_MATERIAL_ALTERNATIVES
-
-    - DO_NOT_INFER_CAUSATION_FROM_CORRELATION
-
-    - DO_NOT_HIDE_CO_INTERVENTIONS
-
-    - UNCERTAINTY_MUST_REFLECT_COUNTERFACTUAL_DISTANCE
-
-    - CONFIDENCE_CANNOT_EXCEED_LOAD_BEARING_SUPPORT
-
-    - PRESERVE_SCOPE_AND_REGIME
-
-    - PRESERVE_PROVENANCE_TOPOLOGY
-
-    - INVALIDATE_DEPENDENT_DESCENDANTS_ONLY
-
-  functions:
-
-    construct_counterfactual:
-      in:
-        - actual_state
-        - intervention_description
-        - causal_model
-        - plausibility_constraints
-
-      out:
-        - counterfactual_state
-        - causal_chain
-        - uncertainties
-        - assumption_list
-        - plausibility_assessment
-        - alternative_outcomes
-
-    compare_actual_vs_counterfactual:
-      in:
-        - actual_outcome
-        - counterfactual_outcome
-        - causal_model
-        - confidence_levels
-
-      out:
-        - difference_analysis
-        - causal_attribution
-        - confounding_factors
-        - attribution_confidence
-        - alternative_explanation
-
-    scenario_analysis:
-      in:
-        - current_state
-        - scenario_list
-        - uncertainty_model
-        - decision_criteria
-
-      out:
-        - scenario_outcomes
-        - probability_assignments_if_available
-        - recommended_preparation
-        - early_warning_signals
-        - scenario_comparison
-
-  conclusion_classes:
-    - VERIFIED
-    - DERIVED
-    - MODEL
-    - CONDITIONAL
-    - COMPETING
-    - UNKNOWN/GAP
-
-  escalation:
-    when:
-      - provenance_dependency
-      - contradiction
-      - stale_evidence
-      - regime_shift
-      - causal_ambiguity
-      - hidden_dependency
-      - irreversible_stakes
-      - governance_impact
-
-  recovery:
-    principle: >
-      Invalidate the failed premise and dependent descendants,
-      preserve unaffected work, then reroute from the nearest
-      valid state.
-
-  stop:
-    - CLAIM_SUFFICIENCY
-    - DECISION_SUFFICIENCY
-    - ACTION_SUFFICIENCY
-```
-
-# 55. FINAL INVARIANT
-
-[
-\boxed{
-\text{Counterfactual quality}
-\neq
-\text{narrative plausibility}
-}
-]
-
-The governing relation is instead:
-
-[
-\boxed{
-Q_{CF}
-======
-
-f(
-A,,
-I,,
-M,,
-P,,
-S,,
-R,,
-T,,
-U
+Confidence(TaskResolution)
+≤
+MIN(
+  Confidence(ObjectiveBinding),
+  Confidence(TargetBinding),
+  Confidence(ScopeBinding),
+  Confidence(HardConstraintBinding)
 )
-}
-]
-
-where:
-
-```text
-A = integrity of actual baseline
-I = intervention validity/minimality
-M = causal-model support
-P = provenance quality and independence
-S = scope compatibility
-R = regime compatibility
-T = temporal validity/freshness
-U = explicit uncertainty
 ```
 
-And the confidence ceiling remains:
+for whichever bindings are load-bearing.
 
-[
-\boxed{
-C_{CF}
-\leq
-\min(C_{\text{load-bearing premises}})
-}
-]
+---
 
-unless the weak premise is independently revalidated.
+# 233. Resolver Decision Rule
 
-**`K_COUNTERFACTUAL` therefore exists to explore alternatives without allowing hypothetical reasoning to outrun evidence, causality, provenance, scope, or uncertainty.**
+```text
+IF
+ONE INTERPRETATION
+DOMINATES
+AND
+CRITICAL FIELDS
+ARE BOUND
+THEN
+RESOLVE
+
+ELSE IF
+SAFE CONDITIONAL EXECUTION
+IS POSSIBLE
+THEN
+CONDITIONAL
+
+ELSE IF
+MATERIAL INTERPRETATIONS
+REMAIN INCOMPARABLE
+THEN
+COMPETING
+
+ELSE IF
+A CRITICAL GAP
+CAN BE CLOSED
+BY TARGETED CLARIFICATION
+THEN
+CLARIFY
+
+ELSE
+BLOCK / UNKNOWN
+```
+
+---
+
+# 234. Resolver Optimization Law
+
+Optimize in this order:
+
+```text
+SEMANTIC INTEGRITY
+
+TASK SUFFICIENCY
+
+LOW EFFECT EXPANSION
+
+LOW CLARIFICATION BURDEN
+
+LOW RETRIEVAL COST
+
+LOW LATENCY
+
+LOW TOKEN COST
+```
+
+Never invert the first two for speed.
+
+---
+
+# 235. Resolver Compression Law
+
+A compressed resolver output is valid only if decompression would preserve:
+
+```text
+OBJECTIVE
+
+TARGET
+
+SCOPE
+
+CONSTRAINTS
+
+EFFECT INTENT
+
+UNCERTAINTY
+
+GAPS
+
+PROVENANCE
+```
+
+where load-bearing.
+
+---
+
+# 236. Resolver Failure Classes
+
+Candidate classes:
+
+```text
+REFERENCE_FAILURE
+
+OBJECTIVE_FAILURE
+
+SCOPE_FAILURE
+
+CONSTRAINT_CONFLICT
+
+INPUT_FAILURE
+
+TEMPORAL_FAILURE
+
+REGIME_FAILURE
+
+PROVENANCE_FAILURE
+
+COMPETING_INTERPRETATION
+
+CRITICAL_GAP
+
+CONTEXT_STALE
+
+TASK_SUPERSEDED
+```
+
+---
+
+# 237. Reference Failure
+
+A material reference cannot be uniquely bound.
+
+Response:
+
+```text
+LOCALIZE REFERENCE
+→
+RETRIEVE OR CLARIFY
+```
+
+---
+
+# 238. Objective Failure
+
+No sufficiently supported primary objective can be identified.
+
+Response:
+
+```text
+BLOCK TASK FORMATION
+```
+
+rather than inventing one.
+
+---
+
+# 239. Scope Failure
+
+Task boundaries cannot be determined sufficiently.
+
+Response:
+
+```text
+NARROW
+OR
+CLARIFY
+```
+
+---
+
+# 240. Constraint Conflict
+
+Two hard requirements cannot simultaneously hold.
+
+Response:
+
+```text
+PRESERVE CONFLICT
+```
+
+until precedence or correction is established.
+
+---
+
+# 241. Input Failure
+
+Required input is unavailable.
+
+Response:
+
+```text
+RETRIEVE
+REQUEST
+OR
+RETURN GAP
+```
+
+depending on task.
+
+---
+
+# 242. Temporal Failure
+
+A freshness-sensitive reference cannot be validated.
+
+Response:
+
+```text
+STALE / UNKNOWN
+```
+
+not current fact.
+
+---
+
+# 243. Regime Failure
+
+Available context applies to a different regime.
+
+Response:
+
+```text
+SCOPE/REGIME GAP
+```
+
+---
+
+# 244. Provenance Failure
+
+The source of a load-bearing semantic binding is unknown or unreliable.
+
+Response:
+
+```text
+DOWNGRADE
+OR
+REVALIDATE
+```
+
+---
+
+# 245. Competing Interpretation Failure
+
+Multiple interpretations remain viable after economical discrimination.
+
+Response:
+
+```text
+COMPETING
+```
+
+rather than forced selection.
+
+---
+
+# 246. Critical Gap Failure
+
+A critical field remains unresolved.
+
+Response:
+
+```text
+BLOCK CONSEQUENTIAL EXECUTION
+```
+
+---
+
+# 247. Stale Context Failure
+
+A previously resolved task relied on context that changed.
+
+Response:
+
+```text
+SELECTIVE INVALIDATION
++
+RE-RESOLUTION
+```
+
+---
+
+# 248. Supersession Failure
+
+A newer task replaces the active one.
+
+Response:
+
+```text
+STOP OLD TASK
++
+PRESERVE LINEAGE
++
+ACTIVATE SUCCESSOR
+```
+
+subject to downstream effect state.
+
+---
+
+# 249. Resolver Test Matrix
+
+A resolver implementation should eventually be tested against at least:
+
+```text
+CLEAR READ-ONLY REQUEST
+
+AMBIGUOUS REFERENCE
+
+AMBIGUOUS DESTRUCTIVE TARGET
+
+NEGATION
+
+CONDITIONAL REQUEST
+
+MULTIPLE OBJECTIVES
+
+CONFLICTING CONSTRAINTS
+
+STALE CONTEXT
+
+CURRENT/LATEST REQUEST
+
+DRAFT VS SEND
+
+PLAN VS EXECUTE
+
+PARENT/CHILD TASK
+
+USER CORRECTION
+
+COMPETING INTERPRETATIONS
+
+SCOPE EXPANSION ATTEMPT
+
+PROVENANCE CORRELATION
+
+CAUSAL QUESTION
+
+REGIME SHIFT
+
+RECOVERY TASK
+
+GOVERNANCE TASK
+```
+
+This is a specification-level test matrix, not evidence that such tests have
+already passed.
+
+---
+
+# 250. Property-Oriented Tests
+
+Candidate properties:
+
+```text
+P1:
+Adding irrelevant context must not change the resolved task.
+
+P2:
+Removing a load-bearing reference must invalidate dependent bindings.
+
+P3:
+Changing "send" to "draft" must change effect intent.
+
+P4:
+Changing target identity must invalidate target-dependent scope/effects.
+
+P5:
+Equivalent paraphrases should resolve to semantically equivalent contracts.
+
+P6:
+Contradictory hard constraints must not produce READY.
+
+P7:
+A stale freshness-sensitive binding must not remain final.
+
+P8:
+Two descendants of one provenance origin must not count as independent support.
+
+P9:
+A correction must supersede the corrected binding.
+
+P10:
+A read-only task must not acquire write effects through resolution.
+```
+
+---
+
+# 251. Metamorphic Resolution Tests
+
+Example:
+
+Original:
+
+```text
+"Summarize file A."
+```
+
+Paraphrase:
+
+```text
+"Give me a summary of file A."
+```
+
+Expected:
+
+```text
+SEMANTICALLY EQUIVALENT TASK CONTRACT
+```
+
+---
+
+# 252. Negation Metamorphic Test
+
+Original:
+
+```text
+"Send the report."
+```
+
+Mutation:
+
+```text
+"Do not send the report."
+```
+
+Expected:
+
+```text
+EFFECT INTENT MUST CHANGE
+```
+
+Any resolver producing equivalent contracts fails.
+
+---
+
+# 253. Scope Metamorphic Test
+
+Original:
+
+```text
+"Analyze A."
+```
+
+Mutation:
+
+```text
+"Analyze only A."
+```
+
+Expected:
+
+```text
+EXCLUSION OF OTHER TARGETS
+BECOMES EXPLICIT
+```
+
+---
+
+# 254. Temporal Metamorphic Test
+
+Original:
+
+```text
+"What was the price yesterday?"
+```
+
+Mutation:
+
+```text
+"What is the price now?"
+```
+
+Expected:
+
+```text
+TEMPORAL SCOPE
+AND
+FRESHNESS REQUIREMENT
+CHANGE
+```
+
+---
+
+# 255. Effect Metamorphic Test
+
+Original:
+
+```text
+"Draft a message."
+```
+
+Mutation:
+
+```text
+"Send the message."
+```
+
+Expected:
+
+```text
+EXTERNAL EFFECT REQUIREMENT
+CHANGES
+```
+
+---
+
+# 256. Resolver Audit Questions
+
+For any consequential resolved task, an auditor should be able to ask:
+
+```text
+WHAT WAS THE ORIGINAL REQUEST?
+
+WHAT OBJECTIVE WAS RESOLVED?
+
+WHAT TARGET WAS RESOLVED?
+
+WHY?
+
+WHAT SCOPE WAS USED?
+
+WHAT CONSTRAINTS WERE EXTRACTED?
+
+WHAT WAS INFERRED?
+
+WHAT WAS DEFAULTED?
+
+WHAT REMAINED UNKNOWN?
+
+WHAT COMPETING INTERPRETATIONS EXISTED?
+
+WHAT EVIDENCE DISCRIMINATED THEM?
+
+WHAT WOULD INVALIDATE THIS RESOLUTION?
+```
+
+---
+
+# 257. Resolver Governance Boundary
+
+The resolver may say:
+
+```text
+THE TASK APPEARS TO REQUEST X
+```
+
+It must not itself conclude:
+
+```text
+THEREFORE X IS AUTHORIZED
+```
+
+unless authority resolution is explicitly integrated under a higher-level
+governed transaction.
+
+Conceptually, the distinctions remain separate.
+
+---
+
+# 258. Resolver Output Classes
+
+Use the weakest accurate class:
+
+```text
+RESOLVED
+
+CONDITIONAL
+
+COMPETING
+
+UNKNOWN/GAP
+```
+
+`RESOLVED` means semantic sufficiency, not empirical truth of task premises.
+
+---
+
+# 259. Resolver Integrity Hierarchy
+
+```text
+INTENT FIDELITY
+>
+COMPLETENESS
+>
+FLUENCY
+>
+SPEED
+>
+TOKEN SAVINGS
+```
+
+A shorter resolver path is desirable only if it preserves the task.
+
+---
+
+# 260. Canonical Compression
+
+```text
+TASK RESOLVER
+=
+THE AMOS OS CONTROL-PLANE FUNCTION
+THAT CONVERTS
+A REQUEST
+INTO
+A BOUNDED TASK CONTRACT.
+
+IT PRESERVES
+THE SOURCE.
+
+IT RESOLVES
+REFERENCES.
+
+IT BINDS
+THE OBJECTIVE.
+
+IT IDENTIFIES
+THE DELIVERABLE.
+
+IT BOUNDS
+THE SCOPE.
+
+IT EXTRACTS
+HARD AND SOFT CONSTRAINTS.
+
+IT IDENTIFIES
+REQUIRED INPUTS.
+
+IT EXPOSES
+LOAD-BEARING ASSUMPTIONS.
+
+IT DETECTS
+FRESHNESS,
+REGIME,
+DEPENDENCY,
+AND EFFECT REQUIREMENTS.
+
+IT PRESERVES
+COMPETING INTERPRETATIONS
+WHEN EVIDENCE DOES NOT
+JUSTIFY CONVERGENCE.
+
+IT ASKS
+ONLY THE MINIMUM
+DECISION-RELEVANT
+CLARIFICATION.
+
+IT NEVER
+INVENTS
+A CONSEQUENTIAL TARGET.
+
+IT NEVER
+EXPANDS
+READ INTO WRITE,
+DRAFT INTO SEND,
+PREVIEW INTO COMMIT,
+OR PLAN INTO EXECUTION
+WITHOUT SUPPORT.
+
+IT NEVER
+TREATS TASK RESOLUTION
+AS AUTHORITY,
+POLICY APPROVAL,
+CAPABILITY,
+OR COMMIT PERMISSION.
+
+IT USES
+THE SMALLEST SUFFICIENT
+PROOF SCOPE.
+
+IT INVALIDATES
+ONLY THE TASK FIELDS
+DEPENDENT ON
+FAILED SEMANTIC PREMISES.
+
+AND IT STOPS
+AS SOON AS
+THE TASK IS
+SUFFICIENTLY BOUND
+FOR THE REST
+OF THE CONTROL PLANE
+TO GOVERN IT.
+```
+
+---
+
+# 261. Master Resolver Contract
+
+Conceptually:
+
+```text
+TaskResolver
+:
+(
+  Request,
+  Context,
+  Canon,
+  RelevantState
+)
+→
+(
+  TaskContract,
+  ResolutionState,
+  Gaps,
+  Provenance,
+  InvalidationConditions
+)
+```
+
+subject to:
+
+```text
+NO FABRICATION
+∧
+NO SILENT SCOPE EXPANSION
+∧
+NO SILENT EFFECT EXPANSION
+∧
+NO HIDDEN CONSTRAINT DROPPING
+∧
+NO FORCED INTERPRETATION CONVERGENCE
+```
+
+---
+
+# 262. Final Law
+
+```text
+A REQUEST
+IS NOT EXECUTABLE
+MERELY BECAUSE
+ITS WORDS ARE GRAMMATICALLY CLEAR.
+
+FIRST PRESERVE
+WHAT WAS ACTUALLY REQUESTED.
+
+THEN RESOLVE
+WHAT EACH MATERIAL REFERENCE MEANS.
+
+THEN IDENTIFY
+THE OBJECTIVE.
+
+THEN BIND
+THE TARGET.
+
+THEN BOUND
+THE SCOPE.
+
+THEN EXTRACT
+THE CONSTRAINTS.
+
+THEN IDENTIFY
+THE REQUIRED INPUTS,
+ASSUMPTIONS,
+FRESHNESS,
+DEPENDENCIES,
+AND EFFECTS.
+
+THEN EXPOSE
+WHAT REMAINS UNKNOWN.
+
+IF MULTIPLE
+MATERIALLY DIFFERENT
+INTERPRETATIONS SURVIVE,
+KEEP THEM COMPETING
+UNTIL DISCRIMINATING
+EVIDENCE EXISTS.
+
+IF A CRITICAL GAP
+REMAINS,
+DO NOT INVENT
+THE MISSING SEMANTICS.
+
+IF THE TASK
+CAN BE SAFELY BOUNDED,
+EMIT
+THE SMALLEST SUFFICIENT
+TASK CONTRACT.
+
+ONLY THEN
+MAY CAPABILITY,
+POLICY,
+AUTHORITY,
+PROVENANCE,
+TRANSACTION,
+EFFECT,
+AND COMMIT
+GOVERNANCE CONTINUE.
+```
+
+# END — AMOS OS TASK RESOLVER
+
+```
+
+This is a **substantive candidate replacement**, not recovered pre-existing canon: the actual Drive artifact currently contains only the misplaced placeholder text, so claiming that the specification above was the file's existing full content would be unsupported. :contentReference[oaicite:3]{index=3}
+```
