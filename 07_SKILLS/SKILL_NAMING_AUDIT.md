@@ -38,7 +38,14 @@ description: AMOS skill naming audit produced from .devin/skills across vault an
 
 See `[[SKILL_RENAME_MANIFEST]]` for the full mapping.
 
+## Enhancement Pass
+After the rename, a second pass ran through all `SKILL.md` files:
+
+- Filled empty `description` frontmatter fields from body content: **451** skills.
+- Updated internal references to renamed skills in redirect/consolidated notes: **358** substitutions.
+- Verified `amos-19x19-family` retains its own full specification (not a redirect).
+
 ## Next Steps
 1. Review the manifest for source-protected names (e.g., `absolute-logic`, `supercurrent`, `omega` if source-defined).
-2. Decide whether to keep deprecated names as redirect stubs or replace outright.
-3. Approve the cosmetic/automated renames or request a source-aware pass.
+2. Verify runtime skill resolution in a fresh session.
+3. Add any remaining canonical skills to the `07_SKILLS/` index if needed.
