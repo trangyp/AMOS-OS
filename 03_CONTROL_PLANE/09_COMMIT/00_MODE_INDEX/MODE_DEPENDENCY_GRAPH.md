@@ -3472,12 +3472,10 @@ The typed graph remains authoritative.
 
 # 182. SPOF VIEW
 
-```markdown
 | Requirement | SPOF | Domain | Affected Paths | Recovery |
 |---|---|---|---|---|
 | R1 | X | RUNTIME | P1, P2 | NONE |
 | R2 | Y | AUTHORITY | P3 | FAILOVER |
-```
 
 ---
 
