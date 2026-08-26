@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-OS-ROOT
 name: AMOS_OS
@@ -136,7 +135,7 @@ FLUENCY
 SPEED
 >
 TOKEN SAVINGS
-````
+```
 
 ---
 

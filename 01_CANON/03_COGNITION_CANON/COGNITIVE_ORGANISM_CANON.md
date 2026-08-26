@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-COGNITIVE-ORGANISM-CANON
 name: COGNITIVE_ORGANISM_CANON
@@ -119,7 +118,7 @@ DECISION SUPPORT
 METACOGNITIVE VALIDATION
 ↓
 PROPOSAL / COGNITIVE OUTPUT
-````
+```
 
 Cross-cutting cognitive substrates:
 

@@ -2,7 +2,6 @@ Drive inspection confirms that the `L02_ATTENTION` folder currently contains onl
 
 Below is the source-bounded, paste-ready protocol contract. Protocol names and message schemas are therefore **AMOS_MODEL**, not recovered canon.
 
-````markdown
 ---
 tags:
   - amos
@@ -74,7 +73,7 @@ VALIDATION
 VALIDATION
 !=
 COMMIT
-````
+```
 
 ---
 

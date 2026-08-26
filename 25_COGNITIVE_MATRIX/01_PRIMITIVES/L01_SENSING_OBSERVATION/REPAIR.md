@@ -1,4 +1,3 @@
-````markdown
 ---
 tags:
   - amos
@@ -59,7 +58,7 @@ CONFIRM / COMPETE / SUPERSEDE / QUARANTINE / INVALIDATE
 SELECTIVELY REVALIDATE DEPENDENTS
 ↓
 COMMIT ONLY IF AUTHORIZED
-````
+```
 
 The core rule is:
 

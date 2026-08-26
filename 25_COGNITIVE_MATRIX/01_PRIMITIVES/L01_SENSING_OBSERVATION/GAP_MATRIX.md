@@ -1,4 +1,3 @@
-````markdown
 ---
 tags:
   - amos
@@ -44,7 +43,7 @@ THEREFORE ARCHITECTURE COMPLETE
 THEREFORE IMPLEMENTED
 ↓
 THEREFORE VALIDATED
-````
+```
 
 The correct progression is:
 

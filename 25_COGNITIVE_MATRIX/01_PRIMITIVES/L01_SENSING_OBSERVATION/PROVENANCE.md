@@ -1,4 +1,3 @@
-````markdown
 ---
 tags:
   - amos
@@ -53,7 +52,7 @@ which uncertainty remains?
 which downstream claims depend on it?
 has anything in its lineage been revoked or invalidated?
 can the lineage be reconstructed?
-````
+```
 
 The conceptual chain is:
 

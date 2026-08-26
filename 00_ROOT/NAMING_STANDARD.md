@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-OS-NAMING-STANDARD
 name: AMOS_OS_NAMING_STANDARD
@@ -126,7 +125,7 @@ RENAMED
 MIGRATED
 DEPRECATED
 ARCHIVED
-````
+```
 
 without collapsing filesystem representation into semantic identity.
 

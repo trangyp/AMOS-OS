@@ -1,6 +1,5 @@
 The source placeholder explicitly defines L02 as **“attention allocation; budget scarce reasoning/observation resources”** and requires operators/kernels, invariants, H/M/L, interfaces, dependencies, provenance, repair, tests, governance, freshness, and version lineage before promotion. It also explicitly prohibits inventing missing canon or implementation status. 
 
-````markdown
 ---
 tags:
   - amos
@@ -76,7 +75,7 @@ AUTHORITY OPERATOR
 OPERATOR RESULT
 !=
 COMMIT
-````
+```
 
 ---
 

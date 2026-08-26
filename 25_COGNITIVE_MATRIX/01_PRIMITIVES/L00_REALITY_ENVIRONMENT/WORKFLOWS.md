@@ -1,4 +1,3 @@
-````markdown
 ---
 tags:
   - amos
@@ -69,7 +68,7 @@ VERIFY EFFECT
 REOBSERVE
 ↓
 UPDATE
-````
+```
 
 without collapsing any of those stages.
 

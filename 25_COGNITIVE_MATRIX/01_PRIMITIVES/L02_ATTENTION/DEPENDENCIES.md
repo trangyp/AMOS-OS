@@ -1,6 +1,5 @@
 Below is the **full replacement content** for `L02_ATTENTION/DEPENDENCIES.md`. It treats dependency structure as an AMOS model contract while keeping exact canonical edges unresolved unless source-supported.
 
-````markdown
 ---
 tags:
   - amos
@@ -56,7 +55,7 @@ uncertainty
 dependency criticality
 authority context
 H/M/L state
-````
+```
 
 while remaining distinct from those functions.
 

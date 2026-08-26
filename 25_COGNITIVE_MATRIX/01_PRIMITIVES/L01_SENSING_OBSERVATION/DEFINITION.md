@@ -1,4 +1,3 @@
-````markdown
 ---
 tags:
   - amos
@@ -75,7 +74,7 @@ REPRESENTATION
 INTERPRETATION
 ↓
 INFERENCE
-````
+```
 
 L01 owns the sensing/observation boundary.
 

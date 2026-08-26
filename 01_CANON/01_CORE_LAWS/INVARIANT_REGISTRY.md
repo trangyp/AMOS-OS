@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-INVARIANT-REGISTRY
 name: INVARIANT_REGISTRY
@@ -115,7 +114,7 @@ VALIDATION
 EVIDENCE
 ↓
 STATE TRANSITION
-````
+```
 
 The registry answers:
 

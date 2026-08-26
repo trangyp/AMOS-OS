@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-FULL-BRAIN-OS-CANON
 name: FULL_BRAIN_OS_CANON
@@ -109,7 +108,7 @@ CAUSAL DISCIPLINE
 DEPENDENCY TRACEABILITY
 FAILURE LOCALITY
 RECOVERY
-````
+```
 
 Canonical abstraction:
 

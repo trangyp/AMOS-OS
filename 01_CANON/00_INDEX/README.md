@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-OS-CANON-README
 name: AMOS_OS_CANON_README
@@ -112,7 +111,7 @@ WHAT CANONICAL LINEAGE IS ACTIVE
 WHAT HAS BEEN SUPERSEDED
 WHAT REMAINS COMPETING
 WHAT REMAINS UNKNOWN/GAP
-````
+```
 
 The canon plane is authoritative for AMOS semantic structure.
 

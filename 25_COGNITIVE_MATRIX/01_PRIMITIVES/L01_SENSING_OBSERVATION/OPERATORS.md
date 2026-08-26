@@ -1,6 +1,5 @@
 Below is the full paste-ready `L01_SENSING_OBSERVATION / OPERATORS.md`. I’m keeping the exact L01 operator registry explicitly **MODEL / canon-bounded**, rather than presenting reconstructed operators as validated canon.
 
-````markdown
 ---
 tags:
   - amos
@@ -45,7 +44,7 @@ with what uncertainty
 at which H/M/L scale
 under whose authority
 with what resulting epistemic class
-````
+```
 
 The core transformation is conceptually:
 

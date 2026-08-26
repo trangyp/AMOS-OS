@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "L00_REALITY_ENVIRONMENT — Purpose"
 aliases:
@@ -54,7 +53,7 @@ MEMORY
 DECISION
 ACTION
 EFFECT
-````
+```
 
 into one undifferentiated notion of "truth."
 

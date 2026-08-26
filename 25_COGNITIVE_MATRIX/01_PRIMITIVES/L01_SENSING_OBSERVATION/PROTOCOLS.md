@@ -1,4 +1,3 @@
-````markdown
 ---
 tags:
   - amos
@@ -49,7 +48,7 @@ whether validation is required
 whether a durable effect is permitted
 how failure is represented
 how recovery occurs
-````
+```
 
 The protocol layer exists to prevent an otherwise valid observation from becoming invalid through unsafe exchange, ambiguous semantics, lost provenance, unauthorized routing, stale state, or accidental promotion.
 

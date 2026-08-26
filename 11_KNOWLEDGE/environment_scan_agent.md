@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-ENVIRONMENT-SCAN-AGENT
 name: EnvironmentScan_Agent
@@ -72,7 +71,7 @@ ENSURE context["trace"] EXISTS
 APPEND "run" TRACE EVENT
 ↓
 RETURN ORIGINAL CONTEXT
-````
+```
 
 Therefore:
 

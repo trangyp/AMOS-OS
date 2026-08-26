@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "L00_REALITY_ENVIRONMENT — Repair"
 aliases:
@@ -83,7 +82,7 @@ REPAIR != RECOVERY
 REPAIR != VALIDATION
 
 LOCAL FIX != SYSTEM RECOVERY
-````
+```
 
 A modified output may look correct while the underlying failure remains active.
 

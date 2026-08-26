@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "L00_REALITY_ENVIRONMENT — Skills"
 aliases:
@@ -77,7 +76,7 @@ AUTHORITY
 SKILL OUTPUT
 !=
 VERIFIED REALITY
-````
+```
 
 The purpose of the L00 skill layer is therefore to ensure that capabilities interacting with reality-sensitive state preserve:
 

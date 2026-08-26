@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-OS-ROOT
 name: AMOS_OS
@@ -143,7 +142,7 @@ CANON
 MODEL
 does not become
 OBSERVATION
-````
+```
 
 The operating principle is:
 

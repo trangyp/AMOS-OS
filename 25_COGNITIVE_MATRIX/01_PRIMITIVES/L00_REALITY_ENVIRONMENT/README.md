@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "L00_REALITY_ENVIRONMENT — README"
 aliases:
@@ -57,7 +56,7 @@ MEMORY
 DECISION
 ACTION
 EFFECT
-````
+```
 
 so that internal reasoning cannot silently substitute representation for reality.
 

@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "L00_REALITY_ENVIRONMENT — RSCF"
 aliases:
@@ -52,7 +51,7 @@ prediction
 decision
 action
 effect
-````
+```
 
 into one undifferentiated concept of "truth."
 

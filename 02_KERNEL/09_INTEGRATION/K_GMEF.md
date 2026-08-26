@@ -1,6 +1,5 @@
 Below is the substantive `K_GMEF` replacement, grounded in the retrieved AMOS Core lineage rather than treating the placeholder as implemented canon. The v4.4 source explicitly describes GMEF as a **Governed Meta-Evolution** runtime, requires governance burden to be monotonic with recursive depth/consequence radius/irreversibility, and includes constitutional locking, external judging, failure memory, rollback, mutation classes, lineage/traceability, bounded mutation, and stale/replay protection. It also explicitly warns that its numerical thresholds are runtime/benchmark policy parameters—not empirical laws—and that the distributed mechanisms are not universal Byzantine-consensus proofs. 
 
-````markdown
 ---
 artifact_id: AMOS-OS-K-GMEF
 canonical_name: K_GMEF
@@ -54,7 +53,7 @@ AND
 WHO / WHAT
 GOVERNS
 THE CHANGE MECHANISM ITSELF?
-````
+```
 
 GMEF makes that recursion explicit rather than allowing it to disappear into implementation.
 
@@ -2853,7 +2852,6 @@ Yes. The previous version was too synthetic. I checked the actual GMEF source di
 
 One important provenance correction first: the standalone source defines **GMEF = Governed Machine Evolution Framework**, while a later AMOS implementation note calls the runtime module **Governance Mutation Evaluation Framework**. Those should not be silently collapsed. The former is the formal structural framework; the latter is an implementation-specific gate/module description.  
 
-````markdown
 ---
 artifact_id: AMOS-OS-K-GMEF
 canonical_name: K_GMEF
@@ -2914,7 +2912,7 @@ BYZANTINE CONSENSUS
 
 FORMAL VERIFICATION
 OF EVERY IMPLEMENTATION
-````
+```
 
 The source explicitly characterizes GMEF as independent of any particular product, model, company, deployment environment, or COSMO-specific implementation. 
 

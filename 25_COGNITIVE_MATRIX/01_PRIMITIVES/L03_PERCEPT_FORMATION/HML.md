@@ -1,4 +1,3 @@
-````markdown id="l03-hml-contract"
 ---
 tags:
   - amos

@@ -1,4 +1,3 @@
-````markdown
 ---
 tags:
   - amos
@@ -49,7 +48,7 @@ quarantined observation
 superseded observation
 invalidated observation
 committed observation state
-````
+```
 
 The conceptual lifecycle is:
 

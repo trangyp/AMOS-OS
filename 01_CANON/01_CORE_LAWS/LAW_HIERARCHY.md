@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-LAW-HIERARCHY
 name: LAW_HIERARCHY
@@ -107,7 +106,7 @@ IMPLEMENTATION
 EXECUTION
 ↓
 OBSERVATION
-````
+```
 
 This is a governance hierarchy.
 

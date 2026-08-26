@@ -1,6 +1,5 @@
 Below is the **full replacement content** for `L02_ATTENTION/EQUATIONS.md`. The key safeguard is that only source-supported equations are marked `SOURCE_CANON`; the attention scoring/allocation equations are explicitly `AMOS_MODEL` until direct L02 canon is recovered.
 
-````markdown
 ---
 tags:
   - amos
@@ -63,7 +62,7 @@ dependency-aware
 provenance-aware
 H/M/L-aware
 control-plane compatible
-````
+```
 
 They are not presented as established neuroscience or psychology.
 

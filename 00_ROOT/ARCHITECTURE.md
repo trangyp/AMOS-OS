@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-OS-ROOT-ARCHITECTURE
 name: AMOS_OS_ARCHITECTURE
@@ -127,7 +126,7 @@ MODELS / TOOLS / INTERFACES
 OBSERVABILITY / SECURITY / TESTS / OPERATIONS
 ↓
 DOMAINS
-````
+```
 
 without collapsing their responsibilities into one layer.
 

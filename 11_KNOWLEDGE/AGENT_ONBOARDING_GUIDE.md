@@ -49,7 +49,7 @@ governing_law: "integrity > completeness > fluency > speed > token savings"
 origin:
   architect: Trang Phan
   role: Origin architect and steward of AMOS
-````
+```
 
 Agents MUST NOT:
 

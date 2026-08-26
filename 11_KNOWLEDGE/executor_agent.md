@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-EXECUTOR-AGENT
 name: Executor_Agent
@@ -75,7 +74,7 @@ ENSURE context["trace"] EXISTS
 APPEND EXECUTOR RUN EVENT
 ↓
 RETURN CONTEXT
-````
+```
 
 Therefore:
 

@@ -1,6 +1,5 @@
 Below is the full paste-ready `L01_SENSING_OBSERVATION/FAILURE_MODES.md`. I’m keeping the failure taxonomy as an **AMOS structural contract**, not claiming that these failure modes are already implemented, runtime-validated, or exhaustive empirical laws.
 
-````markdown
 ---
 tags:
   - amos
@@ -65,7 +64,7 @@ validation
 admission
 ↓
 downstream use
-````
+```
 
 A failure may occur at any edge or state.
 

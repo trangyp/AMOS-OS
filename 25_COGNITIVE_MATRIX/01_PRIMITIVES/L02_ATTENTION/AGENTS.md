@@ -1,4 +1,3 @@
-````markdown id="l02-attention-agents"
 ---
 tags:
   - amos

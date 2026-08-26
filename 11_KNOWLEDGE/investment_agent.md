@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-INVESTMENT-AGENT
 name: Investment_Agent
@@ -81,7 +80,7 @@ rebalance positions
 place orders
 move money
 manage brokerage accounts
-````
+```
 
 Its source behavior is limited to:
 

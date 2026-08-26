@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "L00_REALITY_ENVIRONMENT — Provenance"
 aliases:
@@ -89,7 +88,7 @@ REALITY / ENVIRONMENT
         │
         ▼
    OBSERVATION
-````
+```
 
 Every transition should preserve the lineage necessary to reconstruct the previous state.
 

@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-PERSISTENCE-CANON
 name: PERSISTENCE_CANON
@@ -101,7 +100,7 @@ AUTHORITY
 COMMIT STATUS
 FINALITY
 RECOVERY INFORMATION
-````
+```
 
 The canonical objective is:
 

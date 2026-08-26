@@ -1,4 +1,3 @@
-````markdown id="g1lqrm"
 ---
 tags:
   - amos
@@ -58,7 +57,7 @@ validation → admission
 state change → reobservation / invalidation
 
 observation → downstream cognition
-````
+```
 
 The fundamental distinction is:
 

@@ -1,6 +1,5 @@
 Here is the full `L01_SENSING_OBSERVATION/README.md` content to paste. I’m keeping the README as the **integration/index contract** for the L01 primitive rather than duplicating every sibling file in full.
 
-````markdown
 ---
 tags:
   - amos
@@ -44,7 +43,7 @@ L01_SENSING_OBSERVATION
 TYPED OBSERVATION STATE
 ↓
 DOWNSTREAM COGNITION
-````
+```
 
 Its core architectural responsibility is:
 

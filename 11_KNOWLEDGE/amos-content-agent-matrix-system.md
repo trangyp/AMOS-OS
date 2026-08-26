@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-CONTENT-AGENT-MATRIX
 name: amos-content-agent-matrix-system
@@ -70,7 +69,7 @@ Mục tiêu không chỉ là:
 
 ```text
 generate posts
-````
+```
 
 mà là:
 

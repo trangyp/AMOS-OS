@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-OS-NEURAL-NETWORK
 name: AMOS_OS_NEURAL_NETWORK
@@ -133,7 +132,7 @@ COMPONENTS
 CLAIMS / MODELS / STATE
 ↓
 PROVENANCE / DEPENDENCIES / EVIDENCE
-````
+```
 
 In Obsidian graph view, this note acts as a high-connectivity routing node between the major architectural planes.
 

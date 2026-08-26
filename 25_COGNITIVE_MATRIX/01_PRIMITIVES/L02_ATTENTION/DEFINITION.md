@@ -1,6 +1,5 @@
 Below is the **full replacement content** for `L02_ATTENTION/DEFINITION.md`, written to stay source-bounded and to distinguish recovered primitive meaning from AMOS model completion.
 
-````markdown
 ---
 tags:
   - amos
@@ -49,7 +48,7 @@ RESOURCE ALLOCATION PROPOSAL
 GOVERNED ATTENTION STATE
 ↓
 DEEPER COGNITIVE PROCESSING
-````
+```
 
 The primitive answers:
 

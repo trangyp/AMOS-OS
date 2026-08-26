@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-OS-MOC
 name: AMOS_OS_MOC
@@ -165,7 +164,7 @@ TESTS
 FAILURE
 +
 RECOVERY
-````
+```
 
 The Full Brain OS source is treated as a structural orchestration specification, not evidence of literal consciousness, embodiment, or autonomous authority. 
 

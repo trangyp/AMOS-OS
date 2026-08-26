@@ -1,4 +1,3 @@
-````markdown id="l03-percept-formation-readme"
 ---
 tags:
   - amos

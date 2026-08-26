@@ -1,4 +1,3 @@
-````markdown
 ---
 tags:
   - amos
@@ -37,7 +36,7 @@ The contract governs:
 L — atomic/local observation
 M — subsystem/composite observation
 H — system/environment observation
-````
+```
 
 and the transformations:
 

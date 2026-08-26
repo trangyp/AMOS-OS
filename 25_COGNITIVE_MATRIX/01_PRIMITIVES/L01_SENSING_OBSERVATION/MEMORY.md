@@ -1,4 +1,3 @@
-````markdown
 ---
 tags:
   - amos
@@ -46,7 +45,7 @@ whether it remains valid
 whether it was superseded
 whether it was revoked
 whether it can safely be reused
-````
+```
 
 The core boundary is:
 

@@ -1,6 +1,5 @@
 Below is the full paste-ready `L01_SENSING_OBSERVATION/INVARIANTS.md`. I keep the L01-specific invariant set at `AMOS_MODEL / CONDITIONAL` rather than presenting reconstructed rules as direct canon.
 
-````markdown
 ---
 tags:
   - amos
@@ -62,7 +61,7 @@ FALSE INDEPENDENT CONFIRMATION
 UNKNOWN
 →
 PASS
-````
+```
 
 The invariant layer is therefore a **constraint layer**, not an evidence generator.
 

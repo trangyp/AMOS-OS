@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-UNIVERSAL-RENAME-ENGINE
 name: amos-universal-rename-engine
@@ -75,7 +74,7 @@ ADDS _v0 WHEN VERSION IS ABSENT
 RENAMES DIRECTORIES DEEPEST-FIRST
 ↓
 RENAMES SUPPORTED FILES
-````
+```
 
 Its current source behavior is materially stronger than a stub.
 

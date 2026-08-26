@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-HML-CANON
 name: HML_CANON
@@ -92,7 +91,7 @@ M — MID / SUBSYSTEM
 L — LOW / DETAIL
 ↓
 RAW EVIDENCE
-````
+```
 
 The purpose is not merely hierarchical organization.
 

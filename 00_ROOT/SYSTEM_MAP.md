@@ -1,4 +1,3 @@
-````markdown
 ---
 artifact_id: AMOS-OS-SYSTEM-MAP
 name: AMOS_OS_SYSTEM_MAP
@@ -128,7 +127,7 @@ WHERE EXECUTION LIVES
 WHERE KNOWLEDGE LIVES
 WHERE STATE LIVES
 WHERE EXTERNAL EFFECTS OCCUR
-````
+```
 
 It is primarily a **structural map**.
 

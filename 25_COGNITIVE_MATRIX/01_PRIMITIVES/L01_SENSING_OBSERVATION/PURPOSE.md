@@ -1,6 +1,5 @@
 
 
-````markdown
 ---
 tags:
   - amos
@@ -58,7 +57,7 @@ absence into negative evidence
 uncertainty into certainty
 capability into authority
 proposal into committed state
-````
+```
 
 L01 exists so downstream cognition does not need to assume that incoming information is already:
 
