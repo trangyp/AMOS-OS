@@ -2542,3 +2542,6 @@ artifact:
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]] · [[ARXIV_QFM_MOC]] · [[11_KNOWLEDGE_MOC]]
