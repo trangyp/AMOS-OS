@@ -3931,11 +3931,9 @@ The underlying cells remain authoritative.
 
 # 194. MATRIX VIEW — CONTROL PLANE
 
-```markdown
 | Mode | Task | Capability | Policy | Authority | Provenance | Effects | Commit | Recovery |
 |---|---|---|---|---|---|---|---|---|
 | MODE_A | FULL | PARTIAL | NOT_COVERED | NOT_COVERED | FULL | PARTIAL | NOT_COVERED | PARTIAL |
-```
 
 Again, the display must not erase scope/regime/validation metadata.
 

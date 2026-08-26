@@ -1,6 +1,5 @@
 # REVOCATION.md
 
-````markdown
 ---
 title: "AMOS Revocation Architecture"
 artifact: "REVOCATION.md"
@@ -41,7 +40,7 @@ changing a policy;
 marking an object inactive;
 
 or writing "revoked" into memory.
-````
+```
 
 The canonical revocation path is:
 

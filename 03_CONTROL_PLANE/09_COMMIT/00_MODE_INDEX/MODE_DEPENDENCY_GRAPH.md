@@ -1,6 +1,5 @@
 The Drive artifact `MODE_DEPENDENCY_GRAPH.md` is currently only the reservation placeholder, so the substantive specification below is a **DERIVED / CANDIDATE_CANON replacement**, not recovered original canon. 
 
-````markdown
 ---
 artifact_id: AMOS-OS-MODE-DEPENDENCY-GRAPH
 title: AMOS OS Mode Dependency Graph
@@ -126,7 +125,7 @@ CAN THIS SUBGRAPH BE REASONED ABOUT LOCALLY?
 
 WHAT IS THE SMALLEST DEPENDENCY CLOSURE NEEDED
 FOR THE CURRENT TASK?
-````
+```
 
 The graph is therefore not merely a list of imports or references.
 
