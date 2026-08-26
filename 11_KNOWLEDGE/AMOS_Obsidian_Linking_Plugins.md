@@ -128,3 +128,4 @@ related:
 - [[00-Home]]
 - [[AMOS_Layer_Maps]] — top-level AMOS layer map index
 - [[11_KNOWLEDGE/11_KNOWLEDGE_MOC.md|11_KNOWLEDGE MOC]] — the knowledge layer index
+- [[AMOS_Templates]] — AMOS template index

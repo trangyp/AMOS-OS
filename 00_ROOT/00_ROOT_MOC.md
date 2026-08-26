@@ -1965,6 +1965,7 @@ confidence_ceiling:
 ---
 
 - [[AMOS_Layer_Maps]] — top-level layer map index
+- [[AMOS_Templates]] — AMOS template index
 # 48. Changelog
 
 ## v2.0.0 — 2026-08-25
