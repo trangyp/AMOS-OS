@@ -31,6 +31,7 @@ related:
 - '[[11_KNOWLEDGE/Cosmo_Brain_MOC.md|00 Cosmo Brain MOC]]'
 - '[[11_KNOWLEDGE/11_KNOWLEDGE_MOC.md|11_KNOWLEDGE MOC]]'
 - '[[AMOS_Obsidian_Linking_Plugins]]'
+- '[[AMOS_Layer_Maps]]'
 rscf_state: derived
 scope:
 - AMOS_OS
