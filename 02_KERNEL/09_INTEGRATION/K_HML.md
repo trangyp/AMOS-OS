@@ -8,6 +8,8 @@
 I broadened the corpus search beyond the literal filename. The relevant AMOS corpus contains major architecture/state artifacts including **AMOS ARCHITECTURE**, **AMOS OS**, the max-detail Reality Architecture master, and the Trang Reality Architecture corpus.    
 
 There is still no independently identified artifact titled `K_HML`. Therefore the document below is the **full kernel reconstruction consistent with the supplied AMOS v4.4 H/M/L contract**, not falsely presented as a verbatim historical source file.
+
+```yaml
 ---
 artifact_id: AMOS-OS-K-HML
 canonical_name: K_HML
@@ -26,6 +28,7 @@ scope: AMOS_OS
 
 updated: 2026-08-26
 ---
+```
 
 # K HML
 
