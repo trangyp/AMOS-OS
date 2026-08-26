@@ -1,4068 +1,4886 @@
-Yes. Below is the **complete paste-ready file**, with the placeholder removed and the status kept at `CANDIDATE_CANON` rather than falsely asserting implementation or final canon. The Drive corpus contains both a dedicated historical counterfactual kernel file and a larger Meta-Cognition version, so the artifact preserves that historical lineage rather than treating the placeholder as the source.  
+The current Drive artifact `CAPABILITY_RESOLVER.md` is **not substantive canon**. It contains the same misplaced `# K COUNTERFACTUAL` placeholder and explicitly says it is only reserving the canonical location.  The architecture tree places it with `CAPABILITY_CONTRACT.md` and `CAPABILITY_MANIFEST.md` in the Capability subsystem. 
+
+So the following is a **substantive candidate replacement**, not recovered pre-existing content.
 
 ---
-artifact_id: AMOS-OS-K-COUNTERFACTUAL
-canonical_name: K_COUNTERFACTUAL
-title: K COUNTERFACTUAL
+artifact_id: AMOS-OS-CP-CAPABILITY-RESOLVER
+title: AMOS OS Capability Resolver
+canonical_name: CAPABILITY_RESOLVER
 
-artifact_class: KERNEL
-kernel_family: META_COGNITION
-plane: KERNEL
-canonical_location: 02_KERNEL/K_COUNTERFACTUAL.md
+artifact_class: CONTROL_PLANE_RESOLVER
+plane: CONTROL_PLANE
+subsystem: CAPABILITY
+canonical_location: 03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_RESOLVER.md
 
 origin_architect: Trang Phan
-steward: Trang Phan
-
 amos_core_target: v4.4
 
 status: CANDIDATE_CANON
 conclusion_class: DERIVED
 
-historical_kernel:
-  id: Counterfactual_Reasoning_Kernel
-  historical_version: "1.0.0"
-  historical_category: Meta_Cognition
-  historical_priority: 9
-  historical_required: true
+parent:
+  - 03_CONTROL_PLANE/02_CAPABILITY
 
-supersedes:
-  - K_COUNTERFACTUAL_PLACEHOLDER
+siblings:
+  - CAPABILITY_CONTRACT.md
+  - CAPABILITY_MANIFEST.md
 
-promotion_required: true
-implementation_status: UNKNOWN/GAP
-formal_verification_status: UNKNOWN/GAP
-empirical_validation_status: UNKNOWN/GAP
+upstream:
+  - 00_ROOT
+  - 01_CANON
+  - 02_KERNEL
+  - 03_CONTROL_PLANE/00_INDEX
+  - 03_CONTROL_PLANE/01_TASK_CONTRACT
+  - 03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_MANIFEST.md
+  - 03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_CONTRACT.md
+
+downstream:
+  - 03_CONTROL_PLANE/03_POLICY
+  - 03_CONTROL_PLANE/04_AUTHORITY
+  - 03_CONTROL_PLANE/05_PROVENANCE
+  - 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
+  - 03_CONTROL_PLANE/07_OBSERVABILITY
+  - 03_CONTROL_PLANE/08_EFFECTS
+  - 03_CONTROL_PLANE/09_COMMIT
+  - 04_RUNTIME
+
+implementation_status: SPECIFICATION
+empirical_validation_status: NOT_CLAIMED
+formal_verification_status: NOT_CLAIMED
 
 updated: 2026-08-26
 ---
 
-# K COUNTERFACTUAL
+# AMOS OS — CAPABILITY RESOLVER
 
+> **Layer:** `03_CONTROL_PLANE/02_CAPABILITY`
+>
+> **Artifact:** `CAPABILITY_RESOLVER.md`
+>
 > **Status:** `CANDIDATE_CANON`
 >
-> **Conclusion class:** `DERIVED`
+> **AMOS CORE target:** `v4.4`
 >
-> **AMOS_CORE target:** `v4.4`
->
-> **Origin architect:** Trang Phan
->
-> **Supersedes:** `K_COUNTERFACTUAL_PLACEHOLDER`
+> **Origin Architect:** Trang Phan
 
 ---
 
-# 0. PURPOSE
+# 0. Purpose
 
-`K_COUNTERFACTUAL` is the AMOS OS kernel for disciplined reasoning over
-alternative worlds.
+The Capability Resolver determines whether a resolved AMOS task can be
+satisfied using the capabilities that are actually available, applicable,
+sufficient, fresh, compatible, and governable in the current execution
+context.
 
-Its purpose is to construct, evaluate, compare, challenge, and govern
-counterfactual states while preserving:
-
-- factual anchoring;
-- explicit intervention semantics;
-- minimal-change discipline;
-- causal-chain conservation;
-- causal-model integrity;
-- uncertainty;
-- assumption transparency;
-- competing hypotheses;
-- provenance;
-- scope;
-- regime;
-- temporal validity;
-- dependency closure;
-- falsifiability;
-- sensitivity;
-- reversibility;
-- action governance.
-
-The kernel answers questions of the form:
-
-- What would have happened if X had been different?
-- What might happen if X changes?
-- Would Y still have occurred without X?
-- Would introducing X be sufficient for Y?
-- What changes if a structural assumption changes?
-- Which intervention could alter Y?
-- Which causal explanation best survives counterfactual testing?
-- Which premise carries the result?
-- What observation would distinguish competing counterfactual models?
-
-`K_COUNTERFACTUAL` does not create facts about unrealized worlds.
-
-It creates explicitly typed reasoning artifacts about them.
-
----
-
-# 1. CANONICAL EPISTEMIC BOUNDARY
-
-The following distinctions are hard boundaries:
+Conceptually:
 
 ```text
-COUNTERFACTUAL != FACT
-
-HYPOTHETICAL != OBSERVED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED FACT
-
-ASSOCIATION != CAUSATION
-
-CORRELATION != CAUSATION
-
-TEMPORAL ORDER != CAUSATION
-
-PREDICTION != INTERVENTION
-
-INTERVENTION != COUNTERFACTUAL
-
-SIMULATION != EMPIRICAL VALIDATION
-
-PLAUSIBILITY != PROBABILITY
-
-PROBABILITY != CERTAINTY
-
-STRUCTURAL SIMILARITY != CAUSAL EQUIVALENCE
-
-MULTIPLE DERIVATIONS != INDEPENDENT EVIDENCE
+TASK CONTRACT
+    ↓
+CAPABILITY RESOLVER
+    ↓
+CAPABILITY PLAN
 ```
 
-A counterfactual output must therefore remain typed as:
+Its responsibility is not merely:
 
 ```text
-MODEL
+DOES A TOOL EXIST?
+```
 
-DERIVED
+Its responsibility is to determine:
+
+```text
+WHAT CAPABILITY DOES THE TASK REQUIRE?
+
+WHICH AVAILABLE CAPABILITIES COULD SATISFY IT?
+
+ARE THEY ACTUALLY ACCESSIBLE?
+
+DO THEIR INPUT/OUTPUT CONTRACTS MATCH?
+
+DO THEY APPLY IN THE CURRENT ENVIRONMENT?
+
+ARE THEY FRESH ENOUGH?
+
+ARE THEIR LIMITS COMPATIBLE WITH THE TASK?
+
+DO THEY REQUIRE OTHER CAPABILITIES?
+
+DO THEY CREATE EFFECTS?
+
+CAN THE REQUIRED CAPABILITY COMPOSITION BE EXECUTED?
+
+WHAT REMAINS UNKNOWN?
+
+WHAT MUST BE GOVERNED DOWNSTREAM?
+```
+
+The Capability Resolver is therefore the Control Plane boundary between:
+
+```text
+SEMANTICALLY RESOLVED WORK
+```
+
+and:
+
+```text
+EXECUTIONALLY REALIZABLE WORK
+```
+
+---
+
+# 1. Core Law
+
+```text
+DO NOT EQUATE
+A REQUESTED OPERATION
+WITH
+AN AVAILABLE CAPABILITY.
+```
+
+Expanded:
+
+```text
+TASK CONTRACT
+    ↓
+DERIVE REQUIREMENTS
+    ↓
+DISCOVER CANDIDATES
+    ↓
+VALIDATE AVAILABILITY
+    ↓
+VALIDATE COMPATIBILITY
+    ↓
+VALIDATE SCOPE / REGIME
+    ↓
+VALIDATE FRESHNESS
+    ↓
+RESOLVE DEPENDENCIES
+    ↓
+ASSESS EFFECTS
+    ↓
+TEST SUFFICIENCY
+    ↓
+CAPABILITY PLAN
+```
+
+---
+
+# 2. Fundamental Distinctions
+
+```text
+TASK REQUIREMENT
+!=
+CAPABILITY
+```
+
+```text
+CAPABILITY DECLARATION
+!=
+CAPABILITY AVAILABILITY
+```
+
+```text
+CAPABILITY AVAILABILITY
+!=
+CAPABILITY SUFFICIENCY
+```
+
+```text
+CAPABILITY SUFFICIENCY
+!=
+POLICY PERMISSION
+```
+
+```text
+CAPABILITY SUFFICIENCY
+!=
+AUTHORITY
+```
+
+```text
+CAPABILITY SUFFICIENCY
+!=
+SUCCESSFUL EXECUTION
+```
+
+```text
+CAPABILITY INVOCATION
+!=
+OBSERVED EFFECT
+```
+
+The resolver establishes execution possibility.
+
+It does not establish permission, authority, successful completion, or
+empirical truth.
+
+---
+
+# 3. Resolver Position
+
+```text
+TASK CONTRACT
+      ↓
+┌─────────────────────────────┐
+│     CAPABILITY RESOLVER     │
+│                             │
+│ derive requirements         │
+│ inspect manifests           │
+│ discover candidates         │
+│ validate availability       │
+│ validate compatibility      │
+│ resolve dependencies        │
+│ construct capability plan   │
+│ expose capability gaps      │
+└─────────────────────────────┘
+      ↓
+CAPABILITY CONTRACT / PLAN
+      ↓
+POLICY / AUTHORITY /
+PROVENANCE / TRANSACTION
+```
+
+---
+
+# 4. Resolver Objective
+
+The resolver should construct:
+
+```text
+THE SMALLEST SUFFICIENT
+CAPABILITY SET
+THAT CAN SATISFY
+THE TASK CONTRACT
+WITHOUT INVENTING
+CAPABILITIES,
+EXPANDING EFFECTS,
+OR IGNORING LIMITS.
+```
+
+---
+
+# 5. Inputs
+
+The resolver may consume:
+
+```text
+TASK CONTRACT
+
+CAPABILITY MANIFESTS
+
+CAPABILITY CONTRACTS
+
+CURRENT RUNTIME STATE
+
+CONNECTOR STATE
+
+TOOL STATE
+
+MODEL CAPABILITIES
+
+LOCAL EXECUTION CAPABILITIES
+
+EXTERNAL SERVICE CAPABILITIES
+
+ENVIRONMENT INFORMATION
+
+VERSION INFORMATION
+
+DEPENDENCY STATE
+
+FRESHNESS INFORMATION
+```
+
+Only information relevant to the task should become load-bearing.
+
+---
+
+# 6. Output Classes
+
+The resolver produces one of:
+
+```text
+RESOLVED
 
 CONDITIONAL
 
 COMPETING
 
-or
+DEGRADED
+
+BLOCKED
 
 UNKNOWN/GAP
 ```
 
-unless independent evidence licenses a stronger classification.
-
 ---
 
-# 2. HISTORICAL KERNEL SPINE
+# 7. Resolved
 
-The historical AMOS counterfactual lineage defines four principal
-counterfactual classes:
-
-```text
-PAST
-
-FUTURE
-
-STRUCTURAL
-
-CAUSAL
-```
-
-The historical validity spine contains:
-
-```text
-PLAUSIBLE INITIAL STATE
-
-MINIMAL CHANGE
-
-CAUSAL CHAIN CONSERVATION
-
-UNCERTAINTY PROPORTIONAL TO DISTANCE
-
-ASSUMPTION TRANSPARENCY
-```
-
-These principles remain load-bearing in the v4.4 integration.
-
----
-
-# 3. COUNTERFACTUAL TYPES
-
-## 3.1 PAST COUNTERFACTUAL
-
-Question:
-
-```text
-What would have happened if a past event,
-decision, condition, or variable had been different?
-```
-
-Canonical structure:
+Use when a sufficient capability plan is established.
 
 ```yaml
-PastCounterfactual:
-  factual_history:
-  divergence_time:
-  intervention:
-  preserved_history:
-  affected_dependencies:
-  recomputed_history:
-  queried_outcome:
-  assumptions:
-  uncertainty:
+status: RESOLVED
+capability_plan:
+  - capability_a
+  - capability_b
 ```
 
-Default law:
+This means:
 
 ```text
-HISTORY BEFORE THE DECLARED DIVERGENCE
-REMAINS FACTUAL
-UNLESS THE COUNTERFACTUAL EXPLICITLY
-INTERVENES EARLIER.
-```
-
----
-
-## 3.2 FUTURE COUNTERFACTUAL
-
-Question:
-
-```text
-What could happen if a future intervention occurs?
-```
-
-Canonical structure:
-
-```yaml
-FutureCounterfactual:
-  current_state:
-  intervention:
-  intervention_time:
-  horizon:
-  causal_model:
-  response_model:
-  scenarios:
-  uncertainty:
-  early_warning_signals:
-```
-
-A future counterfactual is not automatically a forecast.
-
----
-
-## 3.3 STRUCTURAL COUNTERFACTUAL
-
-Question:
-
-```text
-What would the system do if its structure,
-constraint, mechanism, topology, or operating
-condition were different?
-```
-
-Canonical structure:
-
-```yaml
-StructuralCounterfactual:
-  factual_structure:
-  structural_intervention:
-  preserved_mechanisms:
-  modified_mechanisms:
-  constraints:
-  thresholds:
-  feedback:
-  regime:
-  resulting_structure:
-```
-
-Structural interventions receive a higher validation burden because they can
-invalidate wide dependency closures.
-
----
-
-## 3.4 CAUSAL COUNTERFACTUAL
-
-Question:
-
-```text
-Would the outcome have been different
-under another intervention?
-```
-
-Canonical structure:
-
-```yaml
-CausalCounterfactual:
-  factual_cause:
-  factual_outcome:
-  alternative_intervention:
-  counterfactual_outcome:
-  causal_model:
-  confounders:
-  mediators:
-  moderators:
-  competing_explanations:
-  attribution_confidence:
-```
-
----
-
-# 4. FUNDAMENTAL COUNTERFACTUAL OBJECT
-
-Define:
-
-CF = <F, I, M, E, C, Q, S, R, T, P, U, A>
-
-where:
-
-```text
-F = factual anchor
-I = intervention
-M = causal / structural model
-E = evidence
-C = counterfactual world
-Q = queried outcome
-S = scope
-R = regime
-T = temporal envelope
-P = provenance topology
-U = uncertainty
-A = assumptions
-```
-
-A consequential counterfactual is valid only to the extent that its
-load-bearing components are:
-
-```text
-KNOWN
-
-MODELED EXPLICITLY
-
-or
-
-MARKED UNKNOWN/GAP
-```
-
-Missing causal structure must never be silently bridged with fluent prose.
-
----
-
-# 5. FACTUAL ANCHOR
-
-Every counterfactual begins from a factual or explicitly assumed baseline.
-
-```yaml
-FactualAnchor:
-
-  anchor_id:
-
-  system:
-
-  entity:
-
-  population:
-
-  environment:
-
-  observed_state: {}
-
-  observations: []
-
-  source_claims: []
-
-  derived_state: []
-
-  temporal:
-    observed_at:
-    valid_from:
-    valid_until:
-
-  scope:
-
-  regime:
-
-  measurement_method:
-
-  provenance: []
-
-  uncertainty:
-
-  contradictions: []
-```
-
-Hard law:
-
-```text
-NO FACTUAL ANCHOR
-→
-NO DECISION-GRADE COUNTERFACTUAL
-```
-
----
-
-# 6. ACTUAL / COUNTERFACTUAL SEPARATION
-
-Counterfactual reasoning branches from actuality.
-
-```text
-W0 — ACTUAL WORLD
-│
-├── CF1
-├── CF2
-├── CF3
-└── CFn
-```
-
-It must never overwrite actuality:
-
-```text
-ACTUAL
-↓
-COUNTERFACTUAL
-↓
-COUNTERFACTUAL STORED AS FACT
-```
-
-is invalid.
-
-Invariant:
-
-```text
-THE FACTUAL PARENT MUST REMAIN RECOVERABLE.
-```
-
----
-
-# 7. INTERVENTION
-
-An intervention is an explicit alteration of the factual or modeled world.
-
-```yaml
-Intervention:
-
-  intervention_id:
-
-  type:
-    - VALUE_CHANGE
-    - ACTION_ADDITION
-    - ACTION_REMOVAL
-    - ACTION_SUBSTITUTION
-    - TIMING_CHANGE
-    - ORDER_CHANGE
-    - INFORMATION_CHANGE
-    - BELIEF_CHANGE
-    - POLICY_CHANGE
-    - RESOURCE_CHANGE
-    - PARAMETER_CHANGE
-    - STRUCTURAL_CHANGE
-    - ENVIRONMENT_CHANGE
-    - CONSTRAINT_CHANGE
-    - EVENT_INJECTION
-    - EVENT_REMOVAL
-
-  target:
-
-  factual_value:
-
-  counterfactual_value:
-
-  intervention_time:
-
-  duration:
-
-  magnitude:
-
-  scope:
-
-  explicit_auxiliary_changes: []
-
-  assumptions: []
-```
-
----
-
-# 8. INTERVENTION BINDING
-
-A counterfactual intervention should bind, when material:
-
-```text
-TARGET
-
-ORIGINAL VALUE
-
-ALTERNATIVE VALUE
-
-MAGNITUDE
-
-TIME
-
-DURATION
-
-SCOPE
-
-ENVIRONMENT
-
-REGIME
-```
-
-Example:
-
-```text
-"What if investment increased?"
-```
-
-may remain underspecified if the answer depends on:
-
-```text
-how much?
-
-what investment?
-
-when?
-
-for how long?
-
-funded how?
-
-what else changes?
-```
-
-If missing intervention parameters can flip the result:
-
-```text
-CONCLUSION = CONDITIONAL
-```
-
-or:
-
-```text
-UNKNOWN/GAP
-```
-
----
-
-# 9. MINIMAL CHANGE PRINCIPLE
-
-The intervention must alter only:
-
-```text
-1. explicitly intervened variables;
-
-2. explicitly declared auxiliary variables;
-
-3. consequences licensed by the causal model.
-```
-
-Define:
-
-Changed(CF)
-
-as all variables differing from actuality.
-
-Then:
-
-```text
-Changed(CF)
-⊆
-Intervention
-∪
-LicensedDescendants
-∪
-ExplicitAuxiliaryChanges
-```
-
-by default.
-
-Any unexplained alteration is:
-
-```text
-E_CF_HIDDEN_CHANGE
-```
-
----
-
-# 10. MINIMAL SURGERY
-
-For structural equations:
-
-```text
-Vi = fi(PAi, Ui)
-```
-
-an intervention:
-
-```text
-do(X = x')
-```
-
-conceptually replaces the generating mechanism for X with:
-
-```text
-X := x'
-```
-
-while preserving unaffected mechanisms.
-
-Thus:
-
-```text
-M = {f1 ... fX ... fn}
-```
-
-becomes:
-
-```text
-MI = {f1 ... X:=x' ... fn}
-```
-
-unless additional structural changes are explicitly declared.
-
-This is a formalization of the minimal-change principle, not a claim that all
-AMOS implementations literally execute SCM code.
-
----
-
-# 11. HIDDEN CO-INTERVENTION
-
-Suppose the declared intervention is:
-
-```text
-X := x'
-```
-
-but generated world state also changes:
-
-```text
-Z := z'
-```
-
-The change in Z must be classified as:
-
-```text
-CAUSALLY_ENTAILED
-
-SYSTEM_REACTION
-
-EXPLICIT_AUXILIARY_INTERVENTION
-
-or
-
-HIDDEN_CHANGE
-```
-
-`HIDDEN_CHANGE` is invalid.
-
----
-
-# 12. CAUSAL MODEL
-
-```yaml
-CausalModel:
-
-  model_id:
-
-  version:
-
-  causal_epoch:
-
-  nodes: []
-
-  edges:
-    - source:
-      target:
-      relation_type:
-      evidence:
-      provenance:
-      scope:
-      regime:
-      freshness:
-      confidence:
-      falsifier:
-
-  exogenous_variables: []
-
-  endogenous_variables: []
-
-  assumptions: []
-
-  validity_envelope:
-
-  competing_models: []
-```
-
----
-
-# 13. CAUSAL RELATION TYPES
-
-AMOS must distinguish:
-
-```text
-ASSOCIATION
-
-CORRELATION
-
-TEMPORAL_PRECEDENCE
-
-MECHANISM
-
-ENABLEMENT
-
-NECESSITY
-
-SUFFICIENCY
-
-MEDIATION
-
-MODERATION
-
-CONFOUNDING
-
-FEEDBACK
-
-CAUSAL_EFFECT
-```
-
-They are not interchangeable.
-
----
-
-# 14. CAUSAL FIREWALL
-
-Forbidden transformations include:
-
-```text
-A occurs before B
-→
-A caused B
-```
-
-```text
-A correlates with B
-→
-changing A changes B
-```
-
-```text
-A resembles C
-→
-A and C have the same causal effect
-```
-
-```text
-model predicts Y
-→
-Y would certainly occur
-```
-
-```text
-source claims X caused Y
-→
-causal relation verified
-```
-
-A causal bridge requires appropriately typed evidence.
-
----
-
-# 15. ASSOCIATIONAL / INTERVENTIONAL / COUNTERFACTUAL LEVELS
-
-Observational:
-
-```text
-P(Y | X=x)
-```
-
-Interventional:
-
-```text
-P(Y | do(X=x))
-```
-
-Counterfactual:
-
-```text
-P(Yx' | X=x, Y=y, E=e)
-```
-
-These answer different questions.
-
-AMOS must not silently substitute one for another.
-
----
-
-# 16. ABDUCTION
-
-Given evidence:
-
-```text
-E = e
-```
-
-infer plausible latent/background state:
-
-```text
-P(U | E=e, M)
-```
-
-where probabilistic semantics are justified.
-
-If several latent states remain possible:
-
-```text
-U1
-U2
-U3
-```
-
-all decision-relevant alternatives must be preserved.
-
----
-
-# 17. ACTION
-
-Apply the intervention:
-
-```text
-MI = Intervene(M, I)
-```
-
-Only explicitly licensed intervention semantics may modify the causal model.
-
----
-
-# 18. PROJECTION
-
-Propagate the modified model to obtain the counterfactual outcome.
-
-Conceptually:
-
-```text
-YCF = Predict(MI, U)
-```
-
-or:
-
-```text
-P(YCF)
-=
-ΣU P(YCF | U, MI) P(U | E)
-```
-
-when probability is justified.
-
-Without justified probability semantics, preserve:
-
-```text
-possible outcomes
-
-ordering
-
-bounds
-
-or
-
-UNKNOWN
-```
-
-rather than inventing numerical probability.
-
----
-
-# 19. CORE RUNTIME
-
-```text
-FACTUAL STATE
-      ↓
-ABDUCTION
-      ↓
-BACKGROUND / LATENT STATE
-      ↓
-INTERVENTION
-      ↓
-MODIFIED MODEL
-      ↓
-CAUSAL PROPAGATION
-      ↓
-SYSTEM REACTION
-      ↓
-COUNTERFACTUAL STATE
-      ↓
-UNCERTAINTY
-      ↓
-ADVERSARIAL VALIDATION
-      ↓
-CONCLUSION
-```
-
----
-
-# 20. CAUSAL CHAIN CONSERVATION
-
-If:
-
-```text
-A → B → C
-```
-
-and A changes, the default propagation is:
-
-```text
-A'
-↓
-B'
-↓
-C'
+EXECUTION PATH IDENTIFIED
 ```
 
 not:
 
 ```text
-A'
-────────→ C'
+EXECUTION AUTHORIZED
 ```
-
-unless an independent direct path is established.
-
-This prevents causal-chain skipping.
 
 ---
 
-# 21. DEPENDENCY CLOSURE
+# 8. Conditional
 
-For intervention X and queried outcome Y, define:
-
-```text
-Closure(X,Y)
-```
-
-as the smallest set of load-bearing variables, mechanisms, premises, and
-evidence needed to evaluate X's effect on Y.
+Use when capability sufficiency depends on an explicit unresolved condition.
 
 Example:
 
 ```text
-X → A → B → Y
+CAPABILITY X IS SUFFICIENT
+IF
+CONNECTOR SESSION IS ACTIVE
 ```
-
-requires:
-
-```text
-X
-A
-B
-Y
-```
-
-but not unrelated:
-
-```text
-Z
-```
-
-when Z is independently established as irrelevant.
 
 ---
 
-# 22. CAUSAL CLOSURE FAILURE
+# 9. Competing
+
+Use when multiple materially different capability plans remain viable and
+selection matters.
+
+Example:
+
+```text
+LOCAL PARSER
+vs
+REMOTE SERVICE
+```
+
+with materially different:
+
+```text
+PRIVACY
+
+LATENCY
+
+COST
+
+EFFECTS
+
+PROVENANCE
+
+QUALITY
+```
+
+---
+
+# 10. Degraded
+
+Use when the task can be partially satisfied, but not at the requested
+capability level.
+
+Example:
+
+```text
+REQUESTED:
+EDIT FILE
+
+AVAILABLE:
+READ FILE
+```
+
+A read-only alternative may exist, but it is not equivalent.
+
+---
+
+# 11. Blocked
+
+Use when a required capability is known to be unavailable or incompatible.
+
+---
+
+# 12. Unknown / Gap
+
+Use when capability state cannot be established.
+
+```text
+UNKNOWN
+!=
+UNAVAILABLE
+```
+
+---
+
+# 13. Capability Requirement Extraction
+
+The resolver begins from the Task Contract.
+
+Conceptually:
+
+```text
+TaskContract
+→
+RequiredCapabilitySet
+```
+
+Potential requirements include:
+
+```text
+READ
+
+SEARCH
+
+RETRIEVE
+
+PARSE
+
+ANALYZE
+
+REASON
+
+GENERATE
+
+TRANSFORM
+
+EXECUTE CODE
+
+CREATE FILE
+
+EDIT FILE
+
+DELETE FILE
+
+QUERY DATABASE
+
+CALL API
+
+SEND MESSAGE
+
+SCHEDULE EVENT
+
+OBSERVE STATE
+
+COMMIT STATE
+
+ROLL BACK
+```
+
+---
+
+# 14. Semantic Requirement vs Implementation
+
+The task may require:
+
+```text
+RETRIEVE CURRENT WEATHER
+```
+
+The resolver should not prematurely bind that to one specific implementation.
+
+Candidate implementations may include:
+
+```text
+WEATHER API
+
+WEB RETRIEVAL
+
+CONNECTED DATA SOURCE
+```
+
+The requirement is semantic.
+
+The capability is operational.
+
+---
+
+# 15. Capability Manifest
+
+A capability manifest describes what a capability claims to provide.
+
+Conceptually:
+
+```yaml
+CapabilityManifest:
+
+  capability_id:
+
+  provider:
+
+  capability_class:
+
+  operations: []
+
+  inputs:
+
+  outputs:
+
+  preconditions:
+
+  limits:
+
+  environment:
+
+  regime:
+
+  version:
+
+  freshness:
+
+  dependencies:
+
+  effects:
+
+  failure_modes:
+
+  provenance:
+
+  status:
+```
+
+---
+
+# 16. Manifest Is a Source Claim
+
+A manifest declaring:
+
+```text
+CAPABILITY SUPPORTS X
+```
+
+is initially:
+
+```text
+SOURCE_CLAIM
+```
+
+unless validated by stronger evidence.
+
+Documentation alone does not prove successful execution.
+
+---
+
+# 17. Capability Contract
+
+A Capability Contract binds a capability to a particular task requirement.
+
+Conceptually:
+
+```yaml
+CapabilityContract:
+
+  requirement:
+
+  selected_capability:
+
+  operation:
+
+  input_binding:
+
+  output_binding:
+
+  preconditions:
+
+  limits:
+
+  dependencies:
+
+  effects:
+
+  freshness:
+
+  environment:
+
+  failure_semantics:
+
+  provenance:
+
+  invalidation_conditions:
+```
+
+---
+
+# 18. Capability Classes
+
+Candidate capability classes:
+
+```text
+COGNITIVE
+
+INFORMATION_RETRIEVAL
+
+STORAGE
+
+COMPUTE
+
+TRANSFORMATION
+
+COMMUNICATION
+
+OBSERVATION
+
+CONTROL
+
+TRANSACTION
+
+EXTERNAL_SERVICE
+
+HUMAN
+
+COMPOSITE
+```
+
+---
+
+# 19. Cognitive Capability
+
+Examples:
+
+```text
+REASONING
+
+CLASSIFICATION
+
+SUMMARIZATION
+
+SYNTHESIS
+
+PLANNING
+```
+
+Do not confuse model competence claims with verified universal capability.
+
+---
+
+# 20. Information Retrieval Capability
+
+Examples:
+
+```text
+FILE READ
+
+DATABASE QUERY
+
+SEARCH
+
+WEB RETRIEVAL
+
+CONNECTOR READ
+```
+
+---
+
+# 21. Storage Capability
+
+Examples:
+
+```text
+CREATE FILE
+
+WRITE RECORD
+
+UPDATE DOCUMENT
+
+PERSIST STATE
+```
+
+---
+
+# 22. Compute Capability
+
+Examples:
+
+```text
+RUN CODE
+
+CALCULATE
+
+SIMULATE
+
+PROCESS DATA
+```
+
+---
+
+# 23. Transformation Capability
+
+Examples:
+
+```text
+CONVERT FORMAT
+
+RESIZE
+
+TRANSLATE
+
+REFORMAT
+
+RESTRUCTURE
+```
+
+---
+
+# 24. Communication Capability
+
+Examples:
+
+```text
+SEND EMAIL
+
+SEND MESSAGE
+
+POST EXTERNALLY
+
+NOTIFY
+```
+
+Communication capability is inherently effect-sensitive.
+
+---
+
+# 25. Observation Capability
+
+Examples:
+
+```text
+CHECK STATUS
+
+READ CURRENT STATE
+
+VERIFY EFFECT
+
+MONITOR CONDITION
+```
+
+Observation must be distinguished from mutation.
+
+---
+
+# 26. Control Capability
+
+Examples:
+
+```text
+START
+
+STOP
+
+RESTART
+
+DEPLOY
+
+ROLL BACK
+
+CONFIGURE
+```
+
+---
+
+# 27. Transaction Capability
+
+Examples:
+
+```text
+PREPARE
+
+COMMIT
+
+ABORT
+
+COMPARE-AND-SWAP
+
+VERSIONED UPDATE
+```
+
+Conceptual availability does not imply a literal database transaction system.
+
+---
+
+# 28. External Service Capability
+
+Capabilities supplied by:
+
+```text
+API
+
+PLUGIN
+
+CONNECTOR
+
+REMOTE TOOL
+
+CLOUD SERVICE
+```
+
+require external-state validation.
+
+---
+
+# 29. Human Capability
+
+Some tasks may require:
+
+```text
+HUMAN APPROVAL
+
+HUMAN JUDGMENT
+
+PHYSICAL ACTION
+
+MANUAL VERIFICATION
+```
+
+The resolver must be able to identify:
+
+```text
+NO MACHINE CAPABILITY SUFFICIENT
+```
+
+rather than invent one.
+
+---
+
+# 30. Composite Capability
+
+A task may require:
+
+```text
+C1 + C2 + C3
+```
+
+rather than one capability.
+
+Example:
+
+```text
+READ FILE
++
+TRANSFORM CONTENT
++
+WRITE FILE
+```
+
+---
+
+# 31. Capability Discovery
+
+Candidate discovery sources:
+
+```text
+REGISTERED MANIFESTS
+
+RUNTIME TOOL REGISTRY
+
+CONNECTED SERVICES
+
+LOCAL ENVIRONMENT
+
+CANONICAL CAPABILITY MAP
+
+VALIDATED PRIOR CAPABILITY CAPSULES
+```
+
+Do not search the entire capability universe when a local sufficient set is
+known.
+
+---
+
+# 32. Candidate Set
+
+For requirement `R`:
+
+```text
+Candidates(R)
+=
+{
+C1,
+C2,
+...
+Cn
+}
+```
+
+Each candidate must be tested against the task's actual requirements.
+
+---
+
+# 33. No Candidate
 
 If:
 
 ```text
-X → ? → Y
+Candidates(R) = ∅
 ```
 
-contains a load-bearing unknown mechanism:
+then:
 
 ```text
-DO NOT INVENT THE MISSING EDGE.
+CAPABILITY GAP
 ```
 
-Return:
+Do not fabricate a capability.
+
+---
+
+# 34. Candidate Qualification
+
+A candidate is qualified only if relevant dimensions match.
+
+Conceptually:
 
 ```text
-UNKNOWN/GAP
+Qualified(C,R)
+=
+OperationMatch
+∧
+InputMatch
+∧
+OutputMatch
+∧
+EnvironmentMatch
+∧
+RegimeMatch
+∧
+FreshnessSufficient
+∧
+LimitsCompatible
+∧
+DependenciesResolvable
 ```
 
-or, where an explicit assumption is useful:
+Policy and authority are intentionally excluded here because they are
+separate governance layers.
+
+---
+
+# 35. Operation Match
+
+The capability must actually support the required operation.
+
+```text
+READ
+```
+
+does not imply:
+
+```text
+WRITE
+```
+
+```text
+CREATE
+```
+
+does not imply:
+
+```text
+UPDATE
+```
+
+```text
+DRAFT
+```
+
+does not imply:
+
+```text
+SEND
+```
+
+---
+
+# 36. Directionality
+
+Capability direction matters.
+
+```text
+IMPORT
+!=
+EXPORT
+```
+
+```text
+UPLOAD
+!=
+DOWNLOAD
+```
+
+```text
+READ
+!=
+WRITE
+```
+
+```text
+ENCODE
+!=
+DECODE
+```
+
+unless the manifest explicitly supports both.
+
+---
+
+# 37. Input Compatibility
+
+A capability must accept the actual task input.
+
+Potential dimensions:
+
+```text
+TYPE
+
+FORMAT
+
+SIZE
+
+ENCODING
+
+SCHEMA
+
+LANGUAGE
+
+VERSION
+
+ACCESS METHOD
+```
+
+---
+
+# 38. Output Compatibility
+
+The output must satisfy downstream requirements.
+
+Example:
+
+```text
+CAPABILITY OUTPUT:
+PLAIN TEXT
+
+TASK DELIVERABLE:
+EDITABLE XLSX
+```
+
+The capability alone is insufficient.
+
+A transformation capability may be required.
+
+---
+
+# 39. Type Compatibility
+
+Conceptually:
+
+```text
+OutputType(C1)
+→
+InputType(C2)
+```
+
+must be compatible for composition.
+
+---
+
+# 40. Schema Compatibility
+
+Two capabilities may both use JSON but remain incompatible.
+
+```text
+FORMAT MATCH
+!=
+SCHEMA MATCH
+```
+
+---
+
+# 41. Version Compatibility
+
+Example:
+
+```text
+CAPABILITY SUPPORTS API v2
+
+TARGET REQUIRES API v3
+```
+
+Result:
+
+```text
+INCOMPATIBLE
+```
+
+unless an adapter exists.
+
+---
+
+# 42. Environment Compatibility
+
+Capability validity may depend on:
+
+```text
+OPERATING SYSTEM
+
+RUNTIME
+
+NETWORK
+
+REGION
+
+HARDWARE
+
+ACCOUNT
+
+TENANT
+
+PROJECT
+
+SANDBOX
+
+PRODUCTION
+```
+
+---
+
+# 43. Regime Compatibility
+
+A capability proven in one regime is not automatically valid in another.
+
+```text
+TEST
+!=
+PRODUCTION
+```
+
+```text
+LOCAL
+!=
+REMOTE
+```
+
+```text
+SIMULATION
+!=
+PHYSICAL SYSTEM
+```
+
+---
+
+# 44. Freshness
+
+Capability state can expire.
+
+Examples:
+
+```text
+TOKEN EXPIRED
+
+CONNECTOR DISCONNECTED
+
+MODEL RETIRED
+
+API VERSION CHANGED
+
+SERVICE DOWN
+
+PERMISSION CHANGED
+
+FILE MOVED
+```
+
+Therefore:
+
+```text
+CAPABILITY AVAILABLE @ T1
+```
+
+does not imply:
+
+```text
+CAPABILITY AVAILABLE @ T2
+```
+
+---
+
+# 45. Freshness Envelope
+
+Conceptually:
+
+```yaml
+freshness:
+  observed_at:
+  valid_until:
+  revalidation_trigger:
+```
+
+where applicable.
+
+---
+
+# 46. Availability Classes
+
+Candidate states:
+
+```text
+AVAILABLE
+
+CONDITIONALLY_AVAILABLE
+
+DEGRADED
+
+UNAVAILABLE
+
+UNKNOWN
+
+STALE
+```
+
+---
+
+# 47. Available
+
+Observed or sufficiently validated to be usable in the current context.
+
+---
+
+# 48. Conditionally Available
+
+Requires a condition such as:
+
+```text
+CONNECTION
+
+LOGIN
+
+DEPENDENCY
+
+CONFIGURATION
+
+RESOURCE
+```
+
+---
+
+# 49. Degraded Capability
+
+Capability exists but with reduced:
+
+```text
+QUALITY
+
+THROUGHPUT
+
+SCOPE
+
+FEATURE SET
+
+PRECISION
+
+OUTPUT TYPE
+```
+
+---
+
+# 50. Unavailable
+
+Known not to be usable.
+
+---
+
+# 51. Unknown
+
+No sufficient evidence about current availability.
+
+Do not convert `UNKNOWN` into `UNAVAILABLE`.
+
+---
+
+# 52. Stale
+
+Previous availability evidence is no longer fresh enough for the task.
+
+---
+
+# 53. Capability Limits
+
+Every capability should be treated as bounded.
+
+Possible limits:
+
+```text
+MAX INPUT SIZE
+
+MAX OUTPUT SIZE
+
+RATE LIMIT
+
+TIMEOUT
+
+SUPPORTED TYPES
+
+SUPPORTED LANGUAGES
+
+CONTEXT WINDOW
+
+MEMORY
+
+STORAGE
+
+NETWORK ACCESS
+
+FILE SIZE
+
+TRANSACTION SIZE
+
+CONCURRENCY
+```
+
+---
+
+# 54. Limit Compatibility
+
+A capability that nominally supports an operation may still be insufficient.
+
+Example:
+
+```text
+CAPABILITY:
+READ FILE ≤ 10 MB
+
+TASK:
+READ FILE = 500 MB
+```
+
+Nominal operation match is insufficient.
+
+---
+
+# 55. Limit Splitting
+
+If a task exceeds a capability limit, determine whether safe decomposition
+exists.
+
+```text
+TASK
+→
+CHUNK 1
+→
+CHUNK 2
+→
+...
+```
+
+Only if decomposition preserves semantics.
+
+---
+
+# 56. Non-Decomposable Tasks
+
+Do not chunk blindly when the task requires:
+
+```text
+GLOBAL CONSISTENCY
+
+ATOMICITY
+
+FULL-CONTEXT REASONING
+
+ORDER DEPENDENCE
+
+CROSS-CHUNK CAUSAL STRUCTURE
+```
+
+---
+
+# 57. Capability Dependencies
+
+Capability `C1` may require:
+
+```text
+C2
+
+RESOURCE R
+
+STATE S
+
+SERVICE V
+
+CONNECTION K
+```
+
+Conceptually:
+
+```text
+C1
+↓
+C2
+↓
+C3
+```
+
+The resolver must establish dependency closure for load-bearing paths.
+
+---
+
+# 58. Dependency Closure
+
+```text
+Closure(C)
+=
+C
++
+all load-bearing capability dependencies
+```
+
+A capability is not sufficiently resolved merely because its top-level
+manifest exists.
+
+---
+
+# 59. Circular Dependency
+
+If:
+
+```text
+C1 → C2 → C1
+```
+
+and neither is independently satisfiable:
+
+```text
+CAPABILITY DEADLOCK
+```
+
+or unresolved composition gap.
+
+---
+
+# 60. Optional Dependency
+
+Distinguish:
+
+```text
+REQUIRED DEPENDENCY
+```
+
+from:
+
+```text
+OPTIONAL ENHANCEMENT
+```
+
+Optional enhancement failure should not invalidate a sufficient core path.
+
+---
+
+# 61. Capability Composition
+
+For task `T`:
+
+```text
+Plan(T)
+=
+C1 ∘ C2 ∘ ... ∘ Cn
+```
+
+where each interface is compatible.
+
+---
+
+# 62. Composition Validity
+
+Conceptually:
+
+```text
+ValidComposition(P)
+=
+∀ adjacent Ci,Cj:
+Output(Ci) compatible Input(Cj)
+∧
+all dependencies satisfied
+∧
+scope preserved
+∧
+regime preserved
+∧
+effect semantics preserved
+```
+
+---
+
+# 63. Capability Graph
+
+Example:
+
+```text
+TASK
+ ↓
+READ SOURCE
+ ↓
+PARSE
+ ↓
+ANALYZE
+ ↓
+GENERATE ARTIFACT
+ ↓
+WRITE ARTIFACT
+```
+
+Each node is separately resolvable.
+
+---
+
+# 64. Alternative Plans
+
+A task may support:
+
+```text
+PLAN A:
+C1 → C2
+
+PLAN B:
+C3 → C4 → C5
+```
+
+The resolver should not automatically choose the shortest plan.
+
+---
+
+# 65. Plan Evaluation
+
+Candidate dimensions:
+
+```text
+SUFFICIENCY
+
+INTEGRITY
+
+EFFECT EXPOSURE
+
+PROVENANCE QUALITY
+
+REVERSIBILITY
+
+RELIABILITY
+
+FRESHNESS
+
+LATENCY
+
+COST
+
+COMPLEXITY
+```
+
+Governance may add further criteria downstream.
+
+---
+
+# 66. Optimization Order
+
+Default candidate order:
+
+```text
+INTEGRITY
+
+SUFFICIENCY
+
+LOWER IRREVERSIBLE EFFECT
+
+BETTER PROVENANCE
+
+REPAIRABILITY
+
+RELIABILITY
+
+EFFICIENCY
+```
+
+Speed cannot compensate for semantic insufficiency.
+
+---
+
+# 67. Least-Capability Principle
+
+Use:
+
+```text
+THE SMALLEST CAPABILITY SET
+THAT FULLY SATISFIES
+THE TASK CONTRACT.
+```
+
+Do not activate broader capabilities merely because they exist.
+
+---
+
+# 68. Least-Privilege Compatibility
+
+Capability resolution should support downstream least-privilege governance.
+
+If task requires:
+
+```text
+READ ONE FILE
+```
+
+do not prefer a capability requiring:
+
+```text
+WRITE ALL FILES
+```
+
+when a narrower sufficient capability exists.
+
+---
+
+# 69. Effect Envelope
+
+Each capability should expose potential effects.
+
+Candidate classes:
+
+```text
+NONE
+
+READ
+
+LOCAL COMPUTE
+
+EPHEMERAL WRITE
+
+PERSISTENT WRITE
+
+EXTERNAL COMMUNICATION
+
+STATE MUTATION
+
+DESTRUCTIVE
+
+FINANCIAL
+
+GOVERNANCE
+```
+
+---
+
+# 70. Effect Expansion Check
+
+Capability plan must not silently exceed task effect intent.
+
+```text
+TaskEffectEnvelope
+```
+
+must contain the required effects of the selected plan, subject to downstream
+governance.
+
+If a capability necessarily creates broader effects:
+
+```text
+MATERIAL EFFECT MISMATCH
+```
+
+must be surfaced.
+
+---
+
+# 71. Read vs Write
+
+A capability with write access may technically perform a read.
+
+But when a narrower read-only capability exists, it may be preferable for
+governance and risk minimization.
+
+---
+
+# 72. Hidden Effects
+
+Capabilities may create secondary effects:
+
+```text
+LOGGING
+
+CACHE WRITE
+
+REMOTE UPLOAD
+
+METADATA CREATION
+
+NOTIFICATION
+
+BILLING
+
+AUDIT EVENT
+```
+
+Material hidden effects should be represented when known.
+
+---
+
+# 73. Capability Side Effects
+
+Do not assume:
+
+```text
+PRIMARY OPERATION
+=
+ONLY EFFECT
+```
+
+Side effects may alter policy or authority requirements.
+
+---
+
+# 74. Capability Provenance
+
+For each selected capability, retain:
+
+```text
+SOURCE OF MANIFEST
+
+VERSION
+
+PROVIDER
+
+OBSERVATION OF AVAILABILITY
+
+VALIDATION EVIDENCE
+
+DEPENDENCY ORIGIN
+```
+
+where material.
+
+---
+
+# 75. Provenance Independence
+
+Multiple declarations may descend from the same provider metadata.
+
+```text
+MANIFEST A
++
+README B
++
+DOC C
+```
+
+may all originate from one underlying source.
+
+Do not count them as independent confirmation.
+
+---
+
+# 76. Capability Confidence
+
+Confidence in capability sufficiency is bounded by the weakest load-bearing
+component.
+
+Conceptually:
+
+```text
+Confidence(Plan)
+≤
+MIN(
+  Availability,
+  OperationMatch,
+  InterfaceCompatibility,
+  DependencyClosure,
+  EnvironmentCompatibility,
+  Freshness
+)
+```
+
+---
+
+# 77. Capability Proof Capsule
+
+Consequential capability decisions should conceptually carry:
+
+```yaml
+CapabilityProofCapsule:
+
+  task_requirement:
+
+  selected_plan:
+
+  candidate_capabilities:
+
+  selected_capabilities:
+
+  manifests:
+
+  availability_evidence:
+
+  interface_bindings:
+
+  dependencies:
+
+  environment:
+
+  regime:
+
+  freshness:
+
+  limits:
+
+  effects:
+
+  competing_plans:
+
+  gaps:
+
+  falsifiers:
+
+  invalidation_conditions:
+
+  confidence_ceiling:
+```
+
+---
+
+# 78. Capability Falsifiers
+
+Examples:
+
+```text
+CONNECTOR DISCONNECTED
+
+TOOL NO LONGER EXPOSED
+
+API VERSION CHANGED
+
+INPUT EXCEEDS LIMIT
+
+OUTPUT TYPE INCOMPATIBLE
+
+DEPENDENCY FAILED
+
+NETWORK UNAVAILABLE
+
+TARGET ENVIRONMENT CHANGED
+```
+
+---
+
+# 79. Invalidation Conditions
+
+Capability resolution should be invalidated when load-bearing conditions
+change.
+
+Examples:
+
+```text
+CAPABILITY VERSION CHANGE
+
+SESSION CHANGE
+
+CONNECTION CHANGE
+
+ACCOUNT CHANGE
+
+TARGET CHANGE
+
+ENVIRONMENT CHANGE
+
+DEPENDENCY CHANGE
+
+TASK VERSION CHANGE
+
+SERVICE STATUS CHANGE
+```
+
+---
+
+# 80. Capability State Version
+
+Conceptually:
+
+```text
+CAPABILITY PLAN @ STATE V1
+```
+
+Before consequential execution:
+
+```text
+CHECK CURRENT STATE
+```
+
+If a load-bearing capability changed:
+
+```text
+REVALIDATE DEPENDENT PLAN
+```
+
+---
+
+# 81. MVCC Pattern
+
+Resolver reads:
+
+```text
+CAPABILITY REGISTRY @ V1
+```
+
+constructs:
+
+```text
+PLAN @ V1
+```
+
+Execution may later verify:
+
+```text
+CURRENT VERSION == V1
+```
+
+for load-bearing mutable state.
+
+This is a reasoning pattern, not a claim of literal infrastructure.
+
+---
+
+# 82. CAS Pattern
+
+Conceptually:
+
+```text
+IF
+CURRENT_CAPABILITY_STATE
+=
+EXPECTED_STATE
+THEN
+CONTINUE
+ELSE
+RE-RESOLVE
+```
+
+---
+
+# 83. Selective Invalidation
+
+If:
+
+```text
+C3
+```
+
+fails in:
+
+```text
+C1 → C2 → C3 → C4
+```
+
+invalidate:
+
+```text
+C3
++
+dependent descendants
+```
+
+not unrelated capability reasoning.
+
+---
+
+# 84. Repair
+
+```text
+FAILED CAPABILITY
+    ↓
+LOCALIZE FAILURE
+    ↓
+INVALIDATE DEPENDENTS
+    ↓
+SEARCH ALTERNATIVE
+    ↓
+REVALIDATE COMPOSITION
+    ↓
+CONTINUE IF SUFFICIENT
+```
+
+---
+
+# 85. Failed Path Rule
+
+Do not retry the same capability path without changed conditions when the
+failure is deterministic.
+
+Example:
+
+```text
+UNSUPPORTED FORMAT
+```
+
+will not be repaired by identical retries.
+
+---
+
+# 86. Transient Failure
+
+A transient failure may justify retry.
+
+Examples:
+
+```text
+TIMEOUT
+
+TEMPORARY SERVICE UNAVAILABLE
+
+RATE LIMIT
+```
+
+Retry semantics belong partly to runtime policy.
+
+The resolver should preserve failure type.
+
+---
+
+# 87. Permanent Failure
+
+Examples:
+
+```text
+UNSUPPORTED OPERATION
+
+INCOMPATIBLE VERSION
+
+MISSING REQUIRED FEATURE
+```
+
+should trigger alternative resolution rather than blind retry.
+
+---
+
+# 88. Capability Fast Path
+
+Use the fast path when:
+
+```text
+REQUIREMENT IS CLEAR
+
+ONE LOCAL CAPABILITY DOMINATES
+
+AVAILABILITY IS CURRENT
+
+INPUT/OUTPUT MATCH
+
+NO MATERIAL LIMIT ISSUE
+
+DEPENDENCIES CLOSED
+
+NO MATERIAL CONFLICT
+
+NO EFFECT EXPANSION
+```
+
+---
+
+# 89. Fast Path Result
+
+```yaml
+status: RESOLVED
+
+complexity: C0
+
+plan:
+  - capability_x
+```
+
+---
+
+# 90. Fast Path Independence
+
+Do not infer locality from task simplicity.
+
+Example:
+
+```text
+"send this"
+```
+
+may require:
+
+```text
+RECIPIENT RESOLUTION
+
+COMMUNICATION CAPABILITY
+
+CONNECTED ACCOUNT
+
+AUTHORITY
+
+POLICY
+
+EXTERNAL EFFECT GOVERNANCE
+```
+
+---
+
+# 91. Escalation Triggers
+
+Escalate capability reasoning for:
+
+```text
+MULTIPLE CANDIDATES
+
+STALE AVAILABILITY
+
+EXTERNAL EFFECTS
+
+HIGH STAKES
+
+LARGE DATA
+
+COMPLEX COMPOSITION
+
+CROSS-ENVIRONMENT EXECUTION
+
+CAPABILITY CONFLICT
+
+DEPENDENCY AMBIGUITY
+
+PROVENANCE UNCERTAINTY
+
+IRREVERSIBLE OPERATIONS
+
+GOVERNANCE EFFECTS
+```
+
+---
+
+# 92. Adaptive Complexity
+
+Candidate classes:
+
+```text
+C0 DIRECT
+
+C1 COMPACT
+
+C2 STRUCTURED
+
+C3 DEEP
+
+C4 MAXIMUM
+```
+
+Use the lowest sufficient class.
+
+---
+
+# 93. C0 Direct
+
+One obvious local capability, low stakes, no effectful ambiguity.
+
+---
+
+# 94. C1 Compact
+
+Small composition or minor validation required.
+
+---
+
+# 95. C2 Structured
+
+Multiple capability requirements and explicit dependency validation.
+
+---
+
+# 96. C3 Deep
+
+External services, material effects, weak availability evidence, or complex
+composition.
+
+---
+
+# 97. C4 Maximum
+
+Irreversible/high-stakes operations, governance changes, cross-system atomic
+requirements, or severe provenance/dependency ambiguity.
+
+---
+
+# 98. Capability Gap Classification
+
+Classify gaps:
+
+```text
+CRITICAL
+
+DECISION-RELEVANT
+
+EXPLANATORY
+
+COSMETIC
+```
+
+---
+
+# 99. Critical Capability Gap
+
+A missing capability without which the task cannot be safely or correctly
+performed.
+
+Example:
+
+```text
+TASK:
+SEND MESSAGE
+
+NO COMMUNICATION CAPABILITY
+```
+
+---
+
+# 100. Decision-Relevant Gap
+
+Multiple capability paths exist but missing information could alter which
+path should be selected.
+
+---
+
+# 101. Explanatory Gap
+
+Missing detail that does not alter plan sufficiency.
+
+---
+
+# 102. Cosmetic Gap
+
+Non-material metadata or naming uncertainty.
+
+Do not block execution planning for cosmetic gaps.
+
+---
+
+# 103. Capability Sensitivity
+
+For each load-bearing capability assumption:
+
+```text
+IF THIS WERE FALSE,
+WOULD THE PLAN FAIL
+OR CHANGE MATERIALLY?
+```
+
+If yes:
+
+```text
+REVALIDATE FIRST
+```
+
+---
+
+# 104. Cheapest High-Information Test
+
+When uncertainty exists, prefer:
+
+```text
+CHECK TOOL EXISTS
+
+CHECK CONNECTION
+
+CHECK VERSION
+
+CHECK INPUT LIMIT
+
+CHECK TARGET ACCESSIBILITY
+```
+
+before expensive execution attempts.
+
+---
+
+# 105. Competing Capability Plans
+
+Do not force convergence when plans are:
+
+```text
+EQUALLY SUPPORTED
+
+INCOMPARABLE
+
+CORRELATED
+
+OR DIFFERENT IN MATERIAL GOVERNANCE PROPERTIES
+```
+
+Preserve:
+
+```text
+COMPETING
+```
+
+until a discriminating criterion exists.
+
+---
+
+# 106. Plan Dominance
+
+Plan `P1` dominates `P2` if it is at least as sufficient and strictly better
+on a material criterion without introducing worse load-bearing trade-offs.
+
+Example:
+
+```text
+SAME OUTPUT
++
+NARROWER EFFECTS
++
+SAME RELIABILITY
+```
+
+may favor `P1`.
+
+---
+
+# 107. Capability Fallback
+
+Fallback is valid only if it still satisfies the Task Contract.
+
+```text
+PRIMARY FAILED
+→
+FALLBACK
+```
+
+does not imply the fallback is equivalent.
+
+---
+
+# 108. Degraded Fallback
+
+If fallback provides only partial satisfaction:
+
+```text
+RETURN DEGRADED
+```
+
+and expose the missing requirement.
+
+---
+
+# 109. No Silent Substitution
+
+Do not silently substitute:
+
+```text
+CURRENT DATA
+→
+STALE CACHE
+```
+
+```text
+WRITE
+→
+READ
+```
+
+```text
+EXACT FORMAT
+→
+DIFFERENT FORMAT
+```
+
+```text
+VERIFIED SOURCE
+→
+UNVERIFIED SOURCE
+```
+
+when the difference is task-relevant.
+
+---
+
+# 110. Safe Alternative
+
+When the requested capability is unavailable, the resolver may identify a
+safe alternative.
+
+Keep:
+
+```text
+REQUESTED CAPABILITY PATH
+```
+
+distinct from:
+
+```text
+ALTERNATIVE PATH
+```
+
+---
+
+# 111. Example — Read File
+
+Task:
+
+```text
+READ FILE A
+```
+
+Capability:
+
+```text
+FILE_READER
+```
+
+Validation:
+
+```text
+FILE EXISTS
+INPUT TYPE SUPPORTED
+SIZE WITHIN LIMIT
+READ ACCESS AVAILABLE
+```
+
+Result:
+
+```text
+RESOLVED
+```
+
+---
+
+# 112. Example — Unsupported File
+
+Task:
+
+```text
+READ FORMAT X
+```
+
+Reader supports:
+
+```text
+A
+B
+C
+```
+
+No converter exists.
+
+Result:
+
+```text
+BLOCKED:
+UNSUPPORTED FORMAT
+```
+
+Do not pretend the file was read.
+
+---
+
+# 113. Example — Converter Composition
+
+Task:
+
+```text
+ANALYZE FORMAT X
+```
+
+Available:
+
+```text
+X → TEXT CONVERTER
+TEXT ANALYZER
+```
+
+Plan:
+
+```text
+FORMAT X
+↓
+CONVERT
+↓
+TEXT
+↓
+ANALYZE
+```
+
+if conversion preserves required semantics.
+
+---
+
+# 114. Example — Lossy Conversion
+
+If converter discards information required by the task:
+
+```text
+CONVERSION EXISTS
+```
+
+but:
+
+```text
+PLAN INSUFFICIENT
+```
+
+Availability is not enough.
+
+---
+
+# 115. Example — Draft Email
+
+Task:
+
+```text
+DRAFT EMAIL
+```
+
+Required capability:
+
+```text
+TEXT GENERATION
+```
+
+Sending capability is not required.
+
+---
+
+# 116. Example — Send Email
+
+Task:
+
+```text
+SEND EMAIL
+```
+
+Required composition may include:
+
+```text
+GENERATE / RECEIVE CONTENT
++
+RECIPIENT BINDING
++
+EMAIL SERVICE
++
+CONNECTED ACCOUNT
++
+SEND OPERATION
+```
+
+Policy and authority remain downstream checks.
+
+---
+
+# 117. Example — Current Price
+
+Task:
+
+```text
+CURRENT PRICE OF X
+```
+
+Static internal knowledge alone is insufficient if freshness requirements
+demand current market data.
+
+The resolver should require a fresh retrieval capability.
+
+---
+
+# 118. Example — Code Execution
+
+Task:
+
+```text
+EXECUTE PYTHON ANALYSIS
+```
+
+Candidate capability must satisfy:
+
+```text
+PYTHON EXECUTION
+
+REQUIRED LIBRARIES
+
+FILE ACCESS
+
+RESOURCE LIMITS
+
+OUTPUT REQUIREMENTS
+```
+
+---
+
+# 119. Example — Missing Library
+
+Python runtime exists, but required library does not.
+
+Result may be:
 
 ```text
 CONDITIONAL
 ```
 
----
+if installation is possible and governed,
 
-# 23. CONFOUNDING
-
-Pattern:
+or:
 
 ```text
-Z → X
-Z → Y
+BLOCKED
 ```
 
-can produce:
-
-```text
-X ↔ Y
-```
-
-without:
-
-```text
-X → Y
-```
-
-Counterfactual causal inference therefore tracks:
-
-```yaml
-confounding:
-  known: []
-  suspected: []
-  unresolved: []
-  ruled_out: []
-```
-
-Unresolved material confounding limits causal confidence.
+if no compatible path exists.
 
 ---
 
-# 24. MEDIATION
+# 120. Example — Web Requirement
 
-For:
-
-```text
-X → M → Y
-```
-
-changing X may change M and therefore Y.
-
-The following are different counterfactuals:
+Task:
 
 ```text
-change X and allow M to respond
+VERIFY CURRENT PUBLIC FACT
 ```
 
-versus:
+If local knowledge is stale and web retrieval is available:
 
 ```text
-change X while holding M fixed
+WEB RETRIEVAL
 ```
 
-AMOS must preserve this distinction.
+may become load-bearing.
+
+If web retrieval is unavailable:
+
+```text
+CURRENT VERIFICATION GAP
+```
+
+must remain visible.
 
 ---
 
-# 25. MODERATION
+# 121. Example — Local vs Remote
 
-If the effect of X on Y depends on Z:
-
-```text
-Effect(X → Y | Z=z1)
-!=
-Effect(X → Y | Z=z2)
-```
-
-the result is conditional on Z.
-
----
-
-# 26. NECESSITY
-
-Question:
+Task can be completed by:
 
 ```text
-Would Y have occurred without X?
-```
-
-A candidate test compares:
-
-```text
-Yx
-```
-
-with:
-
-```text
-Yx'
-```
-
-where x' removes or changes X.
-
-Necessity is always model-, scope-, and regime-bounded.
-
----
-
-# 27. SUFFICIENCY
-
-Question:
-
-```text
-Would introducing X be enough to produce Y?
-```
-
-A factor may be:
-
-```text
-NECESSARY BUT NOT SUFFICIENT
-
-SUFFICIENT BUT NOT NECESSARY
-
-BOTH
-
-NEITHER
-```
-
-These categories must not be collapsed.
-
----
-
-# 28. OVERDETERMINATION
-
-Suppose:
-
-```text
-A → Y
-B → Y
-```
-
-and either is sufficient.
-
-Removing A may leave Y unchanged because B remains active.
-
-Therefore:
-
-```text
-Y survives removal of A
-```
-
-does not necessarily imply:
-
-```text
-A had no causal role.
-```
-
----
-
-# 29. PREEMPTION
-
-Suppose:
-
-```text
-A causes Y first
-```
-
-while:
-
-```text
-B would have caused Y otherwise.
-```
-
-Removing A can activate B.
-
-Simple but-for reasoning may therefore understate causal contribution.
-
-Consequential attribution requires deeper causal analysis.
-
----
-
-# 30. SYSTEM REACTION
-
-A counterfactual involving an adaptive system should consider:
-
-```text
-INTERVENTION
-↓
-DIRECT EFFECT
-↓
-SYSTEM RESPONSE
-↓
-SECOND-ORDER EFFECT
-↓
-FEEDBACK
-↓
-NEW TRAJECTORY
-```
-
-Possible responses include:
-
-```text
-adaptation
-
-substitution
-
-compensation
-
-gaming
-
-competitive response
-
-policy response
-
-behavioral change
-
-resource reallocation
-
-equilibrium shift
-```
-
-Holding reactive systems artificially static is a model assumption and must
-be exposed.
-
----
-
-# 31. FEEDBACK
-
-If:
-
-```text
-Xt → Yt+1
-```
-
-and:
-
-```text
-Yt → Xt+1
-```
-
-then static propagation may be invalid.
-
-Dynamic candidate:
-
-```text
-SCF(t+1)
-=
-F(SCF(t), It, Et, M)
-```
-
----
-
-# 32. TEMPORAL COUNTERFACTUAL STATE
-
-```yaml
-TemporalCounterfactual:
-  factual_time:
-  intervention_time:
-  divergence_time:
-  outcome_horizon:
-  lag_structure:
-  persistence:
-  delayed_effects:
-  feedback_period:
-```
-
----
-
-# 33. PRE-INTERVENTION INVARIANCE
-
-Default law:
-
-```text
-for t < intervention_time:
-
-WorldCF(t) = WorldFactual(t)
-```
-
-unless the counterfactual explicitly changes earlier history.
-
----
-
-# 34. COUNTERFACTUAL DISTANCE
-
-Historical AMOS doctrine states:
-
-```text
-UNCERTAINTY INCREASES
-AS THE COUNTERFACTUAL MOVES
-FARTHER FROM ACTUALITY.
-```
-
-Candidate decomposition:
-
-```text
-DCF =
-f(
-  intervention_distance,
-  structural_distance,
-  temporal_distance,
-  regime_distance,
-  assumption_distance
-)
-```
-
-No universal numeric weighting is asserted.
-
----
-
-# 35. DISTANCE CLASSES
-
-```yaml
-CounterfactualDistance:
-
-  NEAR:
-    small_intervention: true
-    same_regime: usually
-    limited_dependency_change: true
-
-  MID:
-    multiple_dependencies: possible
-    adaptation: possible
-    moderate_assumption_burden: true
-
-  FAR:
-    structural_change: possible
-    regime_change: possible
-    long_horizon: possible
-    high_assumption_burden: true
-
-  INCOHERENT:
-    hard_constraint_violation: true
-```
-
----
-
-# 36. STRUCTURAL INTERVENTION
-
-A structural counterfactual changes:
-
-```text
-fY → f'Y
-```
-
-rather than merely:
-
-```text
-Y := y'
-```
-
-Structural intervention can invalidate broad dependency closures.
-
-Therefore:
-
-```text
-STRUCTURAL CHANGE
-→
-DEEPER REVALIDATION
-```
-
-by default.
-
----
-
-# 37. PARAMETRIC INTERVENTION
-
-A parametric counterfactual changes:
-
-```text
-θ → θ'
-```
-
-while potentially preserving model topology.
-
-Local reasoning may remain valid if:
-
-```text
-scope stable
-
-regime stable
-
-dependency closure stable
-
-mechanisms stable
-```
-
----
-
-# 38. REGIME
-
-```yaml
-Regime:
-  regime_id:
-  environment:
-  constraints:
-  dominant_mechanisms:
-  thresholds:
-  validity_conditions:
-```
-
----
-
-# 39. REGIME FIREWALL
-
-If:
-
-```text
-RegimeFactual != RegimeCounterfactual
-```
-
-then inherited causal relationships require revalidation.
-
-Examples:
-
-```text
-NORMAL → CRISIS
-
-LOW LOAD → SATURATION
-
-STABLE MARKET → PANIC
-
-PEACE → CONFLICT
-
-NORMAL GOVERNANCE → EMERGENCY GOVERNANCE
-```
-
----
-
-# 40. SCOPE
-
-```yaml
-Scope:
-  system:
-  entity:
-  population:
-  geography:
-  environment:
-  scale:
-  time:
-  measurement:
-  assumptions:
-```
-
-A counterfactual conclusion inherits this applicability envelope.
-
----
-
-# 41. CROSS-SCALE FIREWALL
-
-```text
-MICRO EFFECT
-!=
-MACRO EFFECT
-```
-
-unless aggregation is independently justified.
-
-System-level emergence may defeat simple composition.
-
----
-
-# 42. CROSS-DOMAIN FIREWALL
-
-```text
-STRUCTURAL RESEMBLANCE
-!=
-CAUSAL TRANSFER
-```
-
-Cross-domain analogies remain:
-
-```text
-MODEL
-```
-
-until independently validated.
-
----
-
-# 43. MULTI-AGENT COUNTERFACTUALS
-
-For strategic systems:
-
-```text
-A acts
-↓
-B responds
-↓
-A adapts
-↓
-C responds
-```
-
-holding all agents fixed may be invalid.
-
-```yaml
-MultiAgentCounterfactual:
-  focal_intervention:
-  agents:
-  agent_models:
-  information_states:
-  response_rules:
-  strategic_dependencies:
-  equilibrium_or_trajectory:
-  uncertainty:
-```
-
----
-
-# 44. INFORMATION COUNTERFACTUALS
-
-Question:
-
-```text
-What if agent A knew fact F?
-```
-
-requires modeling:
-
-```text
-INFORMATION
-↓
-BELIEF
-↓
-DECISION
-↓
-ACTION
-↓
-SYSTEM RESPONSE
-↓
-OUTCOME
-```
-
-Information does not automatically determine behavior.
-
----
-
-# 45. BELIEF COUNTERFACTUALS
-
-Changing:
-
-```text
-Belief(A) := B'
-```
-
-does not change:
-
-```text
-WorldTruth
-```
-
-Hard distinction:
-
-```text
-WORLD STATE
-!=
-BELIEF STATE
-```
-
----
-
-# 46. REFLEXIVE COUNTERFACTUALS
-
-A prediction can alter the system:
-
-```text
-PREDICTION
-↓
-AGENT RESPONSE
-↓
-OUTCOME
-```
-
-The prediction itself may therefore become part of the causal environment.
-
----
-
-# 47. SELF-MODIFYING SYSTEMS
-
-If:
-
-```text
-Mt → Mt+1
-```
-
-then intervention may alter future causal structure.
-
-Projection may require:
-
-```text
-M0
-↓ intervention
-M1'
-↓
-M2'
-↓
-M3'
-```
-
-rather than assuming one fixed model.
-
----
-
-# 48. MULTIPLE INTERVENTIONS
-
-For:
-
-```text
-I = {I1, I2, ... In}
-```
-
-do not assume:
-
-```text
-Effect(I1 + I2)
-=
-Effect(I1) + Effect(I2)
-```
-
-Interactions may be:
-
-```text
-INDEPENDENT
-
-SYNERGISTIC
-
-ANTAGONISTIC
-
-THRESHOLD-DEPENDENT
-
-ORDER-DEPENDENT
-```
-
----
-
-# 49. ORDER EFFECTS
-
-In path-dependent systems:
-
-```text
-CF(CF(W,I1),I2)
-```
-
-may differ from:
-
-```text
-CF(CF(W,I2),I1)
-```
-
-Order is therefore a potentially load-bearing variable.
-
----
-
-# 50. COMPETING CAUSAL MODELS
-
-Let:
-
-```text
-M = {M1, M2, ... Mn}
-```
-
-Evaluate:
-
-```text
-CF1 = CF(W,I,M1)
-
-CF2 = CF(W,I,M2)
-
-...
-
-CFn = CF(W,I,Mn)
-```
-
-If supported models yield materially different outcomes:
-
-```text
-CONCLUSION CLASS = COMPETING
-```
-
-until discriminating evidence exists.
-
----
-
-# 51. MODEL ROBUSTNESS
-
-Suppose:
-
-```text
-M1 → A
-
-M2 → A
-
-M3 → A
-```
-
-This supports robustness only to the degree that:
-
-```text
-M1
-M2
-M3
-```
-
-are genuinely distinct and independently supported.
-
-Shared provenance ancestry reduces independence.
-
----
-
-# 52. PROVENANCE TOPOLOGY
-
-```yaml
-ProvenanceItem:
-  evidence_id:
-  evidence_type:
-  source:
-  source_identity:
-  ancestry:
-  collected_at:
-  freshness:
-  scope:
-  regime:
-  method:
-  dependencies:
-```
-
-Counterfactual confidence must account for ancestry, not merely source count.
-
----
-
-# 53. SYBIL HARDENING
-
-Example:
-
-```text
-ONE ORIGINAL SOURCE
-↓
-10 SUMMARIES
-↓
-50 DERIVED NOTES
-↓
-100 COUNTERFACTUAL BRANCHES
-```
-
-does not become:
-
-```text
-100 INDEPENDENT CONFIRMATIONS.
-```
-
-All descendants may share one evidential ancestor.
-
----
-
-# 54. EVIDENCE TYPES
-
-Counterfactual reasoning uses typed evidence:
-
-```text
-SOURCE_CLAIM
-
-OBSERVATION
-
-DERIVED
-
-MODEL
-
-DECISION
-
-UNKNOWN
-```
-
-A counterfactual output normally remains:
-
-```text
-MODEL
+LOCAL CAPABILITY
 ```
 
 or:
 
 ```text
-DERIVED
+REMOTE SERVICE
 ```
 
-unless separately validated.
+If local is sufficient and avoids unnecessary external effects:
+
+```text
+LOCAL MAY DOMINATE
+```
+
+subject to quality and other task constraints.
 
 ---
 
-# 55. CONFIDENCE CEILING
+# 122. Example — Destructive Capability
 
-For load-bearing premises:
-
-```text
-P1 ... Pn
-```
-
-candidate AMOS rule:
+Task:
 
 ```text
-Confidence(CF)
-<=
-minimum confidence of load-bearing premises
+DELETE RESOURCE X
 ```
 
-unless the weak premise is independently revalidated or removed from the
-proof path.
+Capability Resolver may establish:
 
-Fluent reasoning must never increase confidence beyond its evidential base.
+```text
+DELETE OPERATION AVAILABLE
+```
+
+It must not conclude:
+
+```text
+DELETE AUTHORIZED
+```
+
+or execute before downstream governance.
 
 ---
 
-# 56. UNCERTAINTY VECTOR
+# 123. Example — Human Required
+
+Task:
 
 ```text
-UCF =
-(
-  evidence_uncertainty,
-  model_uncertainty,
-  scope_uncertainty,
-  temporal_uncertainty,
-  causal_uncertainty,
-  intervention_uncertainty,
-  execution_uncertainty,
-  provenance_independence_uncertainty
-)
+PHYSICALLY INSPECT DEVICE
 ```
 
-These uncertainties should remain distinguishable when decision-relevant.
+No physical embodiment capability exists.
 
----
-
-# 57. IDENTIFIABILITY
-
-Distinguish:
+Result:
 
 ```text
-DEFINED
-
-IDENTIFIABLE
-
-ESTIMABLE
-
-ESTIMATED
-
-VALIDATED
+MACHINE CAPABILITY GAP
 ```
 
-A counterfactual can be meaningful but not identifiable from available
-evidence.
-
-Correct result:
+Possible alternative:
 
 ```text
-The counterfactual is defined,
-but available evidence does not identify it.
+HUMAN INSPECTION REQUIRED
 ```
 
 ---
 
-# 58. PARTIAL IDENTIFICATION
+# 124. Example — Partial Capability
 
-If exact value cannot be established but defensible bounds exist:
+Task:
 
 ```text
-L <= CF <= U
+EDIT PDF WHILE PRESERVING FORM FIELDS
 ```
 
-return the interval.
+Available capability can edit PDF but destroys forms.
 
-Do not invent a point estimate.
+Result:
 
-If the same decision follows throughout the interval, decision sufficiency
-may still be achieved.
+```text
+DEGRADED / INSUFFICIENT
+```
+
+not `RESOLVED`.
 
 ---
 
-# 59. PLAUSIBILITY / PROBABILITY FIREWALL
+# 125. Example — Size Limit
+
+Task input:
 
 ```text
-POSSIBLE
-!=
-PLAUSIBLE
-!=
-PROBABLE
+2 GB DATASET
 ```
 
-Also:
+Capability limit:
 
 ```text
-BRANCH COUNT
-!=
-PROBABILITY
+100 MB
 ```
 
-and:
+Resolver must determine whether:
 
 ```text
-GENERATED FREQUENCY
-!=
-EMPIRICAL FREQUENCY
+SAFE PARTITIONING
 ```
 
-Without a justified probability model:
+exists.
+
+If global analysis requires full dataset context:
 
 ```text
-DO NOT INVENT NUMERIC PROBABILITIES.
+CAPABILITY GAP
 ```
+
+remains.
 
 ---
 
-# 60. HISTORICAL CONSTRUCT_COUNTERFACTUAL CONTRACT
+# 126. Example — Cross-Capability Atomicity
 
-```yaml
-construct_counterfactual:
-
-  inputs:
-    - actual_state
-    - intervention_description
-    - causal_model
-    - plausibility_constraints
-
-  outputs:
-    - counterfactual_state
-    - causal_chain
-    - uncertainties
-    - assumption_list
-    - plausibility_assessment
-    - alternative_outcomes
-```
-
----
-
-# 61. HISTORICAL ACTUAL/COUNTERFACTUAL COMPARISON
-
-```yaml
-compare_actual_vs_counterfactual:
-
-  inputs:
-    - actual_outcome
-    - counterfactual_outcome
-    - causal_model
-    - confidence_levels
-
-  outputs:
-    - difference_analysis
-    - causal_attribution
-    - confounding_factors
-    - attribution_confidence
-    - alternative_explanation
-```
-
----
-
-# 62. HISTORICAL SCENARIO ANALYSIS
-
-```yaml
-scenario_analysis:
-
-  inputs:
-    - current_state
-    - scenario_list
-    - uncertainty_model
-    - decision_criteria
-
-  outputs:
-    - scenario_outcomes
-    - probability_assignments_if_available
-    - recommended_preparation
-    - early_warning_signals
-    - scenario_comparison
-```
-
-The phrase:
+Task:
 
 ```text
-if available
+UPDATE A AND B ATOMICALLY
 ```
 
-is load-bearing.
+Capabilities:
 
-No justified probability model means no fabricated probability assignment.
+```text
+UPDATE A
+
+UPDATE B
+```
+
+individually exist.
+
+That does not prove:
+
+```text
+ATOMIC UPDATE A+B
+```
+
+exists.
+
+Atomicity is a separate requirement.
 
 ---
 
-# 63. FULL RUNTIME ALGORITHM
+# 127. Atomic Multi-Capability Reasoning
+
+Some tasks require capabilities to satisfy a joint invariant.
 
 ```text
-FUNCTION K_COUNTERFACTUAL(query):
+C1
++
+C2
+```
 
-  1. Parse objective.
+may individually be sufficient for their operations but jointly insufficient
+for:
 
-  2. Determine:
-       scope
-       stakes
-       temporal horizon
-       deliverable.
+```text
+ATOMICITY
 
-  3. Classify counterfactual:
-       PAST
-       FUTURE
-       STRUCTURAL
-       CAUSAL.
+CONSISTENCY
 
-  4. Bind factual anchor.
+ORDERING
 
-  5. Bind intervention.
+FINALITY
+```
 
-  6. Bind queried outcome.
+The resolver must reason over the composition, not only nodes.
 
-  7. Identify decision-changing uncertainty.
+---
 
-  8. Retrieve smallest sufficient dependency closure.
+# 128. Causal Epoch Finality
 
-  9. Retrieve causal model.
+For capability plans depending on mutable causal state:
 
- 10. Type evidence.
+```text
+PLAN RESOLVED @ EPOCH E1
+```
 
- 11. Resolve provenance ancestry.
+may cease to be execution-valid after relevant state moves to:
 
- 12. Check evidence freshness.
+```text
+E2
+```
 
- 13. Check scope.
+Final execution eligibility requires relevant causal state still to satisfy
+the plan's validity conditions.
 
- 14. Check regime.
+---
 
- 15. Check causal epoch.
+# 129. Shard-Local Resolution
 
- 16. Check causal model sufficiency.
+Local capability resolution is safe only when:
 
- 17. Check confounding.
+```text
+DEPENDENCY CLOSURE IS LOCAL
 
- 18. Check mediation.
+NO MATERIAL REMOTE CAPABILITY STATE CAN ALTER SUFFICIENCY
 
- 19. Check moderation.
+NO CROSS-SHARD EFFECT COUPLING
 
- 20. Check feedback.
-
- 21. Check strategic/system reaction.
-
- 22. If critical causal gap exists:
-       return UNKNOWN/GAP.
-
- 23. Infer latent/background state if required.
-
- 24. Apply minimal intervention.
-
- 25. Propagate only licensed descendants.
-
- 26. Generate materially distinct outcomes.
-
- 27. Preserve competing models.
-
- 28. Assess plausibility.
-
- 29. Represent uncertainty.
-
- 30. Apply weakest-premise confidence ceiling.
-
- 31. Find smallest result-flipping premise.
-
- 32. If consequential:
-       run adversarial validation.
-
- 33. Identify falsifiers.
-
- 34. Classify conclusion.
-
- 35. If action requested:
-       apply governance,
-       authorization,
-       risk,
-       reversibility,
-       commit-time checks.
-
- 36. Return proof-capsule-compatible result.
+NO SHARED GOVERNANCE DEPENDENCY
 ```
 
 ---
 
-# 64. COUNTERFACTUAL RSCF
+# 130. Proof-Based Coordination Avoidance
 
-```yaml
-CounterfactualRSCF:
+Do not globally query every capability source if local proof establishes:
 
-  claim:
-    statement:
-    class:
+```text
+ONE SUFFICIENT PLAN
 
-  factual_anchor:
+COMPLETE LOCAL DEPENDENCY CLOSURE
 
-  intervention:
+NO MATERIAL CONFLICT
 
-  queried_outcome:
-
-  premises: []
-
-  evidence: []
-
-  provenance:
-
-  causal_model:
-
-  dependency_closure: []
-
-  scope:
-
-  regime:
-
-  causal_epoch:
-
-  freshness:
-
-  assumptions: []
-
-  competing_hypotheses: []
-
-  contradictions: []
-
-  falsifiers: []
-
-  sensitivity:
-
-  uncertainty:
-
-  confidence_ceiling:
-
-  invalidation_conditions: []
+NO REMOTE STATE RELEVANCE
 ```
+
+Coordination avoidance must be proven, not assumed.
 
 ---
 
-# 65. RSCF RECURSION
+# 131. Capability Resolver and RSCF
 
-A counterfactual RSCF can depend on:
-
-```text
-COUNTERFACTUAL RSCF
-│
-├── FACTUAL-STATE RSCF
-├── CAUSAL-EDGE RSCF
-├── INTERVENTION-VALIDITY RSCF
-├── REGIME-VALIDITY RSCF
-├── SCOPE-VALIDITY RSCF
-└── PROVENANCE RSCF
-```
-
-If one premise fails:
+Capability resolution may create RSCF structures around:
 
 ```text
-INVALIDATE ONLY DEPENDENT DESCENDANTS.
+TASK REQUIREMENT
+
+CANDIDATE CAPABILITIES
+
+DEPENDENCIES
+
+LIMITS
+
+ENVIRONMENT
+
+EFFECTS
 ```
+
+Traverse only dependencies capable of changing the capability decision.
 
 ---
 
-# 66. ATOMIC MULTI-RSCF REASONING
+# 132. Capability Resolver and Fractal Retrieval
 
-A consequential counterfactual may depend jointly on:
-
-```text
-technical feasibility
-
-financial feasibility
-
-safety
-
-governance
-
-authorization
-
-causal validity
-```
-
-The decision boundary must not combine incompatible snapshots or causal
-epochs.
-
----
-
-# 67. H/M/L INTEGRATION
-
-Counterfactual retrieval follows:
+Use:
 
 ```text
-BOOTSTRAP CAPSULE
+BOOTSTRAP
 ↓
 H DOMAIN
 ↓
-M SUBSYSTEM
+M CAPABILITY SUBSYSTEM
 ↓
-L LOAD-BEARING DETAIL
+L CAPABILITY DETAIL
 ↓
-RAW EVIDENCE ONLY IF REQUIRED
+RAW MANIFEST / EVIDENCE
+ONLY IF REQUIRED
 ```
 
-Raw evidence defaults to:
+---
+
+# 133. Raw Evidence Rule
+
+Raw capability evidence defaults:
 
 ```text
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
-The kernel should not retrieve irrelevant corpus material merely to appear
-comprehensive.
-
----
-
-# 68. GMEF INTEGRATION
-
-Counterfactual reasoning can support governed evolution:
+Load it when necessary to resolve:
 
 ```text
-PROPOSED CHANGE
-↓
-COUNTERFACTUAL CONSEQUENCES
-↓
-COMPETING OUTCOMES
-↓
-RISK / BENEFIT
-↓
-GMEF
-↓
-GOVERNED DECISION
-```
+AVAILABILITY
 
-A favorable counterfactual does not itself authorize evolution.
+LIMIT
 
----
+VERSION
 
-# 69. WORLD MODEL INTEGRATION
-
-Conceptual dependency:
-
-```text
-K_SYSTEM_STATE
-↓
-K_WORLD_MODEL
-↓
-K_COUNTERFACTUAL
-↓
-COUNTERFACTUAL WORLD
-```
-
-Missing world-model mechanics remain:
-
-```text
-UNKNOWN/GAP
-```
-
-rather than being fabricated.
-
----
-
-# 70. CONTEXT STATE INTEGRATION
-
-```yaml
-CounterfactualContext:
-
-  active_world:
-    ACTUAL | COUNTERFACTUAL
-
-  factual_parent:
-
-  branch_id:
-
-  intervention:
-
-  goal:
-
-  scope:
-
-  regime:
-
-  causal_epoch:
-```
-
-Leaving counterfactual mode must restore factual context.
-
----
-
-# 71. MEMORY ADMISSION
-
-Counterfactual outputs must retain their epistemic type.
-
-Forbidden:
-
-```text
-COUNTERFACTUAL MODEL
-↓
-MEMORY
-↓
-FACT
-```
-
-Correct:
-
-```yaml
-MemoryRecord:
-  type: COUNTERFACTUAL_MODEL
-  factual_anchor:
-  intervention:
-  causal_model:
-  assumptions:
-  conclusion_class:
-  scope:
-  regime:
-  provenance:
-  freshness:
-```
-
----
-
-# 72. MEMORY RETRIEVAL
-
-Before reuse check:
-
-```text
-Is the factual anchor still valid?
-
-Is the model version compatible?
-
-Is the causal epoch compatible?
-
-Is scope compatible?
-
-Is regime compatible?
-
-Is evidence fresh?
-
-Did new contradictory evidence appear?
-
-Did a load-bearing premise change?
-```
-
-If not:
-
-```text
-STALE
-```
-
-or:
-
-```text
-REVALIDATION_REQUIRED
-```
-
----
-
-# 73. CAUSAL EPOCH
-
-```yaml
-CausalEpoch:
-  epoch_id:
-  causal_model_version:
-  evidence_snapshot:
-  dependency_snapshot:
-  provenance_snapshot:
-  regime:
-  validity_conditions:
-```
-
-Counterfactual proof capsules may be reused only across compatible causal
-epochs.
-
----
-
-# 74. MVCC / CAS REASONING PATTERN
-
-Conceptually:
-
-```text
-READ FACTUAL STATE @ VERSION V0
-↓
-COMPUTE COUNTERFACTUAL
-↓
-CHECK LOAD-BEARING DEPENDENCIES
-BEFORE CONSEQUENTIAL REUSE
-↓
-UNCHANGED?
-   YES → REUSE
-   NO  → REVALIDATE AFFECTED CLOSURE
-```
-
-This is an AMOS reasoning pattern, not a claim that the conversational
-runtime literally implements distributed MVCC.
-
----
-
-# 75. FAST PATH
-
-Local counterfactual reasoning is permitted only when:
-
-```yaml
-CounterfactualFastPath:
-
-  factual_anchor_valid: true
-
-  intervention_unambiguous: true
-
-  dependency_closure_established: true
-
-  causal_model_adequate: true
-
-  provenance_independence_adequate: true
-
-  scope_compatible: true
-
-  regime_compatible: true
-
-  causal_epoch_compatible: true
-
-  freshness_valid: true
-
-  material_conflict_absent: true
-
-  stakes_reversible_or_limited: true
-```
-
----
-
-# 76. ESCALATION CONDITIONS
-
-Escalate reasoning depth when any of the following is material:
-
-```text
-CAUSAL AMBIGUITY
-
-CONFOUNDING
-
-CORRELATED PROVENANCE
+DEPENDENCY
 
 CONTRADICTION
 
-STALE PREMISE
+FRESHNESS
 
-REGIME SHIFT
-
-SCOPE TRANSFER
-
-STRUCTURAL INTERVENTION
-
-FEEDBACK
-
-NONLINEARITY
-
-MULTI-AGENT RESPONSE
-
-IRREVERSIBILITY
-
-SAFETY IMPACT
-
-LEGAL IMPACT
-
-FINANCIAL IMPACT
-
-INSTITUTIONAL IMPACT
-
-GOVERNANCE IMPACT
-
-AMBIGUOUS DEPENDENCY
+EFFECT
 ```
 
 ---
 
-# 77. ADVERSARIAL VALIDATION
+# 134. Capability Resolver and GMEF
 
-For consequential counterfactuals, challenge the strongest supported result.
-
-Ask:
+If a task requires creating, replacing, or modifying a canonical capability
+mechanism:
 
 ```text
-Is the factual baseline wrong?
-
-Is the intervention ambiguous?
-
-Is the causal edge merely correlational?
-
-Could reverse causality explain the pattern?
-
-Is there hidden confounding?
-
-Was a mediator incorrectly frozen?
-
-Was a moderator ignored?
-
-Was feedback ignored?
-
-Were system reactions ignored?
-
-Did the regime change?
-
-Did scope silently expand?
-
-Are apparently independent sources actually descendants
-of the same source?
-
-Is evidence stale?
-
-Does another supported causal model reverse the result?
-
-What is the smallest assumption that flips the conclusion?
+ROUTE GOVERNANCE EVOLUTION
 ```
 
-If challenge succeeds:
+rather than treating the change as ordinary runtime selection.
+
+---
+
+# 135. Capability Resolver and Provenance Resolver
+
+Capability Resolver asks:
 
 ```text
-DOWNGRADE
+WHAT CAN PERFORM THIS TASK?
+```
 
-CONDITION
+Provenance Resolver asks:
 
-PRESERVE COMPETING
+```text
+WHAT EVIDENCE / SOURCE LINEAGE
+SUPPORTS THE INPUTS AND CLAIMS?
+```
 
-or
+The two interact but must not collapse into one another.
 
-RETURN UNKNOWN/GAP
+---
+
+# 136. Capability Resolver and Policy
+
+Capability exists:
+
+```text
+YES
+```
+
+Policy may still say:
+
+```text
+NO
+```
+
+Therefore:
+
+```text
+CAPABILITY
+≠
+PERMISSION
 ```
 
 ---
 
-# 78. SENSITIVITY
+# 137. Capability Resolver and Authority
 
-Identify the smallest premise, threshold, assumption, or observation capable
-of changing the result.
+Capability may exist and policy may permit an operation generally.
 
-Conceptually:
+The current principal may still lack authority.
 
-```text
-p*
-=
-smallest load-bearing change
-that flips the conclusion
-```
-
-Record:
-
-```yaml
-Sensitivity:
-  flip_premise:
-  flip_threshold:
-  flip_observation:
-  decision_impact:
-```
-
-If a small plausible perturbation flips the result:
+Therefore:
 
 ```text
-CONCLUSION = CONDITIONAL
+CAPABILITY
+≠
+AUTHORITY
 ```
 
 ---
 
-# 79. FALSIFIERS
+# 138. Capability Resolver and Effects
 
-```yaml
-Falsifiers:
+Capability Resolver should expose:
 
-  - observation:
-    threshold:
-    affected_premise:
-    affected_edge:
-    affected_conclusion:
-
-  - regime_change:
-
-  - confounder_discovered:
-
-  - intervention_failure:
-
-  - mechanism_disconfirmed:
-
-  - provenance_failure:
-
-  - factual_anchor_invalidated:
+```text
+POTENTIAL EFFECTS
 ```
 
-A meaningful counterfactual should expose what would invalidate it.
+to the Effect subsystem.
+
+The Effect subsystem determines the actual governed effect plan.
 
 ---
 
-# 80. LOCAL INVALIDATION
+# 139. Capability Resolver and Observability
 
-Core law:
-
-```text
-Invalid(p)
-→
-Invalidate dependent descendants(p)
-```
-
-not:
+A task requiring proof of completion may need:
 
 ```text
-Invalid(p)
-→
-Invalidate everything
+EXECUTION CAPABILITY
++
+OBSERVATION CAPABILITY
 ```
 
-This preserves unaffected reasoning.
+Example:
+
+```text
+UPLOAD FILE
++
+VERIFY FILE EXISTS REMOTELY
+```
+
+Invocation alone is not completion evidence.
 
 ---
 
-# 81. FAILURE RECOVERY
+# 140. Capability Resolver and Semantic Transaction
+
+A semantic transaction may bind:
 
 ```text
-DETECT FAILED PREMISE
+TASK VERSION
+
+CAPABILITY PLAN VERSION
+
+CAPABILITY STATE SNAPSHOT
+
+DEPENDENCY SNAPSHOT
+```
+
+for consequential operations.
+
+---
+
+# 141. Capability Resolver and Commit
+
+Before commit:
+
+```text
+REVALIDATE
+LOAD-BEARING
+CAPABILITY CONDITIONS
+```
+
+if mutable.
+
+---
+
+# 142. Capability Resolver and Finalizer
+
+Finalizer should evaluate actual results, not merely whether the selected
+capability was invoked.
+
+```text
+TOOL CALL SUCCEEDED
+!=
+TASK COMPLETED
+```
+
+---
+
+# 143. Capability Resolver and Recovery
+
+When execution fails:
+
+```text
+FAILURE
 ↓
-TRACE DEPENDENCY EDGES
+CLASSIFY CAPABILITY FAILURE
 ↓
-INVALIDATE DEPENDENT DESCENDANTS
+INVALIDATE DEPENDENT PLAN
 ↓
-ROLL BACK TO NEAREST VALID STATE
-↓
-CHANGE EVIDENCE / MODEL / ASSUMPTION
-↓
-RECOMPUTE LOCAL CLOSURE
+SEARCH ALTERNATIVE
 ↓
 REVALIDATE
 ```
 
-Never repeat a failed reasoning path without changed evidence or assumptions.
+Do not globally recompute unless necessary.
 
 ---
 
-# 82. COUNTERFACTUAL HARM
+# 144. Capability Resolver and Replay
 
-Consequential counterfactual decisions should consider:
+Replay must preserve:
 
-```yaml
-CounterfactualHarm:
-  direct_harm:
-  indirect_harm:
-  distributional_harm:
-  opportunity_harm:
-  irreversible_harm:
-  informational_harm:
-  governance_harm:
-  uncertainty_harm:
+```text
+CAPABILITY VERSION
+
+PLAN VERSION
+
+RELEVANT STATE
+
+ENVIRONMENT
 ```
 
-Potential harm is itself model-dependent and must retain appropriate
-epistemic typing.
+when historical reproducibility matters.
+
+A current capability may behave differently from the historical one.
 
 ---
 
-# 83. ACTION GOVERNANCE
+# 145. Capability Resolver and Memory
 
-Validation burden increases with:
-
-```text
-IRREVERSIBILITY
-
-COST
-
-LEGAL EXPOSURE
-
-FINANCIAL EXPOSURE
-
-HEALTH / SAFETY EXPOSURE
-
-INSTITUTIONAL IMPACT
-
-DOWNSTREAM DEPENDENCY
-
-UNCERTAINTY
-
-CAUSAL AMBIGUITY
-```
-
-When feasible, prefer:
+Previously validated capability plans may be reused only while:
 
 ```text
-OBSERVATION
+TASK REQUIREMENTS MATCH
 
-SIMULATION
+DEPENDENCIES VALID
 
-SANDBOX
+ENVIRONMENT MATCHES
 
-LIMITED EXPERIMENT
+REGIME MATCHES
 
-REVERSIBLE PILOT
+FRESHNESS VALID
 
-STAGED ROLLOUT
-
-MONITORED DEPLOYMENT
+NO MATERIAL CONFLICT EXISTS
 ```
-
-before irreversible commitment.
 
 ---
 
-# 84. ACTION AUTHORITY FIREWALL
+# 146. Capability Capsule Reuse
 
-Hard invariant:
+Conceptually:
 
 ```text
-COUNTERFACTUAL RECOMMENDATION
+IF
+DependenciesValid(P)
+∧
+ScopeCompatible(P,T)
+∧
+RegimeCompatible(P,T)
+∧
+Fresh(P)
+∧
+NoConflict(P)
+THEN
+REUSE
+ELSE
+REVALIDATE
+```
+
+---
+
+# 147. Capability Anti-Fabrication
+
+Never infer:
+
+```text
+TOOL NAME SOUNDS RIGHT
+→
+TOOL SUPPORTS OPERATION
+```
+
+```text
+SERVICE EXISTS
+→
+SERVICE CONNECTED
+```
+
+```text
+API DOCUMENTED
+→
+API ACCESSIBLE
+```
+
+```text
+MODEL CAN GENERALLY DO X
+→
+CURRENT CONFIGURATION CAN DO X
+```
+
+---
+
+# 148. Capability Anti-Generalization
+
+Do not infer:
+
+```text
+WORKED ON FILE A
+→
+WORKS ON ALL FILES
+```
+
+```text
+WORKED IN TEST
+→
+WORKS IN PRODUCTION
+```
+
+```text
+WORKED ON VERSION 1
+→
+WORKS ON VERSION 2
+```
+
+---
+
+# 149. Capability Anti-Benchmark Rule
+
+Benchmark success does not establish universal capability.
+
+```text
+BENCHMARK PERFORMANCE
 !=
-EXECUTION AUTHORITY
-```
-
-Before real action:
-
-```text
-CHECK CAPABILITY
-
-CHECK AUTHORIZATION
-
-CHECK EFFECT CLASS
-
-CHECK RISK
-
-CHECK CURRENT STATE
-
-CHECK COMMIT-TIME AUTHORITY
+TASK-SPECIFIC SUFFICIENCY
 ```
 
 ---
 
-# 85. VALUE OF INFORMATION
+# 150. Capability Anti-Latency Rule
 
-When uncertainty matters, seek evidence that can change the decision.
+Reported latency is not hardware-independent or environment-independent.
 
-Candidate representation:
+Do not encode:
 
 ```text
-VOI(test)
-=
-expected decision improvement
--
-test cost
--
-test risk
+CAPABILITY LATENCY = X
 ```
 
-The kernel prefers high-information discriminating tests over redundant
-evidence accumulation.
+as universal without scope.
 
 ---
 
-# 86. DISCRIMINATING TEST
+# 151. Capability Anti-Sybil Rule
 
-For competing models:
-
-```text
-M1
-M2
-```
-
-prefer a test whose predicted observations diverge materially:
-
-```text
-T*
-=
-highest-value feasible discriminating test
-```
-
-subject to:
-
-```text
-cost
-
-risk
-
-authority
-
-reversibility
-```
+Multiple capability descriptions derived from one provider do not create
+independent validation.
 
 ---
 
-# 87. COUNTERFACTUAL PROOF CAPSULE
+# 152. Capability Anti-Effect Rule
+
+Never resolve:
+
+```text
+READ REQUIREMENT
+```
+
+into a write-heavy capability without surfacing the broader effect envelope.
+
+---
+
+# 153. Capability Anti-Privilege Rule
+
+Do not expand access scope merely to make capability selection easier.
+
+---
+
+# 154. Capability Anti-Retry Rule
+
+Repeated failure does not create evidence of eventual success.
+
+Retry only when failure semantics justify it.
+
+---
+
+# 155. Capability Anti-Substitution Rule
+
+Do not silently replace a required capability with an easier but
+semantically weaker operation.
+
+---
+
+# 156. Capability Anti-Regression Gate
+
+Capability resolver optimizations must preserve or improve:
+
+```text
+REQUIREMENT FIDELITY
+
+AVAILABILITY CORRECTNESS
+
+LIMIT VISIBILITY
+
+SCOPE CORRECTNESS
+
+REGIME CORRECTNESS
+
+FRESHNESS
+
+DEPENDENCY CLOSURE
+
+EFFECT VISIBILITY
+
+PROVENANCE
+
+CONTRADICTION VISIBILITY
+
+REPAIRABILITY
+
+AUDITABILITY
+```
+
+Otherwise reject the optimization.
+
+---
+
+# 157. Resolver Invariants
+
+```text
+CR-I01
+A TASK REQUIREMENT MUST NOT BE TREATED AS AN EXISTING CAPABILITY.
+
+CR-I02
+A CAPABILITY DECLARATION MUST NOT BE TREATED AS CURRENT AVAILABILITY WITHOUT SUFFICIENT SUPPORT.
+
+CR-I03
+CAPABILITY AVAILABILITY MUST NOT BE TREATED AS POLICY PERMISSION.
+
+CR-I04
+CAPABILITY AVAILABILITY MUST NOT BE TREATED AS AUTHORITY.
+
+CR-I05
+READ CAPABILITY MUST NOT IMPLY WRITE CAPABILITY.
+
+CR-I06
+WRITE CAPABILITY MUST NOT IMPLY DELETE CAPABILITY.
+
+CR-I07
+DRAFT CAPABILITY MUST NOT IMPLY SEND CAPABILITY.
+
+CR-I08
+CAPABILITY LIMITS MUST REMAIN VISIBLE WHEN LOAD-BEARING.
+
+CR-I09
+INPUT AND OUTPUT CONTRACTS MUST BE COMPATIBLE.
+
+CR-I10
+VERSION AND REGIME COMPATIBILITY MUST NOT BE ASSUMED.
+
+CR-I11
+STALE CAPABILITY STATE MUST NOT BE TREATED AS CURRENT.
+
+CR-I12
+REQUIRED DEPENDENCIES MUST BE RESOLVED.
+
+CR-I13
+OPTIONAL DEPENDENCY FAILURE MUST NOT INVALIDATE AN OTHERWISE SUFFICIENT CORE PLAN.
+
+CR-I14
+CAPABILITY COMPOSITION MUST PRESERVE TASK SEMANTICS.
+
+CR-I15
+A COMPOSITE TASK MAY REQUIRE JOINT CAPABILITY VALIDATION.
+
+CR-I16
+ATOMICITY MUST NOT BE INFERRED FROM INDEPENDENT WRITE CAPABILITIES.
+
+CR-I17
+MATERIAL SIDE EFFECTS MUST REMAIN VISIBLE.
+
+CR-I18
+CAPABILITY SELECTION MUST NOT SILENTLY EXPAND TASK EFFECTS.
+
+CR-I19
+UNKNOWN CAPABILITY STATE MUST REMAIN DISTINCT FROM UNAVAILABLE.
+
+CR-I20
+DEGRADED CAPABILITY MUST NOT BE REPORTED AS FULL SUFFICIENCY.
+
+CR-I21
+COMPETING MATERIAL PLANS MUST REMAIN VISIBLE UNTIL DISCRIMINATED.
+
+CR-I22
+CAPABILITY PROVENANCE MUST REMAIN RECOVERABLE.
+
+CR-I23
+CONFIDENCE MUST NOT EXCEED THE WEAKEST LOAD-BEARING CAPABILITY PREMISE.
+
+CR-I24
+FAILED CAPABILITIES SHOULD INVALIDATE ONLY DEPENDENT PLAN COMPONENTS.
+
+CR-I25
+FAST-PATH RESOLUTION REQUIRES PROVEN LOCAL SUFFICIENCY.
+
+CR-I26
+CAPABILITY OPTIMIZATION MUST NOT WEAKEN INTEGRITY.
+```
+
+These identifiers remain candidate specification IDs until separately
+registered as canonical invariants.
+
+---
+
+# 158. Capability Resolver Result
+
+Conceptual form:
 
 ```yaml
-CounterfactualProofCapsule:
+CapabilityResolverResult:
 
-  capsule_id:
+  resolver_id:
 
-  claim:
-    text:
-    class:
+  task_contract:
+    task_id:
+    task_version:
 
-  factual_anchor:
+  status:
 
-  intervention:
+  complexity:
 
-  queried_outcome:
+  requirements: []
 
-  causal_model:
-    model_id:
-    version:
-    causal_epoch:
+  candidates: []
 
-  load_bearing_premises: []
+  selected_plan:
 
-  evidence: []
+  capability_contracts: []
 
-  provenance: []
+  availability:
 
-  dependency_closure: []
+  dependencies:
 
-  causal_structure:
-    mechanisms:
-    mediators:
-    moderators:
-    confounders:
-    feedback:
+  limits:
 
-  counterfactual_state:
-
-  alternative_outcomes: []
-
-  competing_explanations: []
-
-  scope:
+  environment:
 
   regime:
 
   freshness:
 
-  uncertainty:
-    evidence:
-    model:
-    scope:
-    temporal:
-    causal:
-    intervention:
-    execution:
-    provenance_independence:
+  effects:
 
-  sensitivity:
-    flip_premise:
-    flip_threshold:
+  competing_plans: []
 
-  falsifiers: []
+  gaps:
+    critical: []
+    decision_relevant: []
+    explanatory: []
+    cosmetic: []
 
-  confidence_ceiling:
-
-  invalidation_conditions: []
-```
-
----
-
-# 88. COMMON FAILURE MODES
-
-## CF-F01 — OVERDETERMINATION ERROR
-
-Treating one hypothetical result as inevitable while ignoring other causal
-paths.
-
-## CF-F02 — SYSTEM REACTION FAILURE
-
-Holding an adaptive system artificially static.
-
-## CF-F03 — CORRELATION/CAUSATION COLLAPSE
-
-Treating association as intervention evidence.
-
-## CF-F04 — UNREALISTIC BASELINE
-
-Comparing actuality against an implausible or cherry-picked alternative.
-
-## CF-F05 — HIDDEN CHANGE
-
-Changing multiple variables while claiming a single intervention.
-
-## CF-F06 — FALSE PRECISION
-
-Assigning exact numbers unsupported by the model or evidence.
-
-## CF-F07 — FALSE PROBABILITY
-
-Assigning probability without a justified probability model.
-
-## CF-F08 — REGIME LEAK
-
-Applying causal relations outside their validated regime.
-
-## CF-F09 — SCOPE LEAK
-
-Generalizing beyond the system/population/environment supported.
-
-## CF-F10 — PROVENANCE COLLAPSE
-
-Counting correlated descendants as independent evidence.
-
-## CF-F11 — STALE REUSE
-
-Reusing a counterfactual after a load-bearing dependency has changed.
-
-## CF-F12 — COMPETING COLLAPSE
-
-Forcing one conclusion where supported models remain unresolved.
-
-## CF-F13 — FACTUAL CONTAMINATION
-
-Storing a counterfactual branch as actual history.
-
-## CF-F14 — AUTHORITY ESCALATION
-
-Treating a modeled recommendation as authorization for action.
-
----
-
-# 89. HARD SAFETY CONSTRAINTS
-
-```yaml
-CounterfactualSafety:
-
-  never_present_counterfactual_as_fact: true
-
-  never_hide_load_bearing_assumptions: true
-
-  never_ignore_material_uncertainty: true
-
-  never_invent_missing_causal_edges: true
-
-  never_convert_correlation_into_causation_without_evidence: true
-
-  never_silently_change_unrelated_variables: true
-
-  never_invent_probability: true
-
-  never_force_competing_models_into_false_consensus: true
-
-  never_generalize_across_scope_without_validation: true
-
-  never_generalize_across_regime_without_validation: true
-
-  never_count_shared_provenance_as_independent_confirmation: true
-
-  never_treat_counterfactual_output_as_execution_authority: true
-```
-
----
-
-# 90. INTEGRATION
-
-Historical integration includes:
-
-```text
-META LOGIC
-
-META EPISTEMOLOGY
-
-MULTI-PERSPECTIVE REASONING
-
-STRATEGY / GAME REASONING
-
-RISK ASSESSMENT
-
-DECISION ANALYSIS
-
-STRATEGIC PLANNING
-
-CAUSAL INFERENCE
-
-POLICY EVALUATION
-```
-
-v4.4 integration additionally binds counterfactual reasoning to:
-
-```text
-RSCF
-
-GMEF
-
-H/M/L
-
-PROVENANCE TOPOLOGY
-
-SYBIL HARDENING
-
-EPISTEMIC REGIMES
-
-COMPETING HYPOTHESES
-
-CAUSAL EPOCH
-
-LOCAL INVALIDATION
-
-GOVERNED ACTION
-```
-
----
-
-# 91. CORE UNIT TESTS
-
-```yaml
-tests:
-
-  past_counterfactual:
-    input:
-      factual_history:
-      intervention:
-      causal_model:
-    expect:
-      - counterfactual_state
-      - causal_chain
-      - assumptions
-      - uncertainties
-
-  actual_vs_counterfactual:
-    expect:
-      - difference_analysis
-      - causal_attribution
-      - confounding_factors
-      - alternative_explanation
-
-  overdetermination_detection:
-    expect:
-      - overdetermination_flag
-
-  scenario_analysis:
-    expect:
-      - scenario_outcomes
-      - comparison
-      - preparation
-      - early_warning_signals
-```
-
----
-
-# 92. EXTENDED VALIDATION SUITE
-
-```text
-FACTUAL_ANCHOR_TEST
-
-INTERVENTION_BINDING_TEST
-
-MINIMAL_CHANGE_TEST
-
-HIDDEN_CHANGE_TEST
-
-CAUSAL_CHAIN_TEST
-
-CAUSAL_CLOSURE_TEST
-
-CONFOUNDING_TEST
-
-MEDIATION_TEST
-
-MODERATION_TEST
-
-OVERDETERMINATION_TEST
-
-PREEMPTION_TEST
-
-FEEDBACK_TEST
-
-SYSTEM_REACTION_TEST
-
-REGIME_SHIFT_TEST
-
-SCOPE_TRANSFER_TEST
-
-TEMPORAL_VALIDITY_TEST
-
-PROVENANCE_INDEPENDENCE_TEST
-
-SYBIL_HARDENING_TEST
-
-COMPETING_MODEL_TEST
-
-PARTIAL_IDENTIFICATION_TEST
-
-FALSE_PROBABILITY_TEST
-
-FALSE_PRECISION_TEST
-
-UNCERTAINTY_DISTANCE_TEST
-
-CONFIDENCE_CEILING_TEST
-
-SENSITIVITY_TEST
-
-FALSIFIER_TEST
-
-ADVERSARIAL_CHALLENGE_TEST
-
-LOCAL_INVALIDATION_TEST
-
-MEMORY_TYPING_TEST
-
-STALE_REUSE_TEST
-
-CAUSAL_EPOCH_TEST
-
-ACTION_AUTHORITY_TEST
-
-REVERSIBILITY_TEST
-```
-
----
-
-# 93. NEGATIVE TESTS
-
-```text
-CORRELATION
-→
-CAUSAL COUNTERFACTUAL
-
-MUST FAIL
-```
-
-```text
-MODEL OUTPUT
-→
-OBSERVED FACT
-
-MUST FAIL
-```
-
-```text
-ONE SOURCE
-→
-TEN SUMMARIES
-→
-TEN INDEPENDENT SOURCES
-
-MUST FAIL
-```
-
-```text
-CHANGE X
-→
-SILENTLY CHANGE Z
-
-MUST FAIL
-```
-
-```text
-NO PROBABILITY MODEL
-→
-73.8% PROBABILITY
-
-MUST FAIL
-```
-
-```text
-SUPPORTED COMPETING MODELS
-→
-ONE CERTAIN CONCLUSION
-
-MUST FAIL
-```
-
-```text
-STALE CAUSAL MODEL
-→
-CURRENT VALIDITY
-
-MUST FAIL WITHOUT REVALIDATION
-```
-
-```text
-COUNTERFACTUAL RECOMMENDATION
-→
-EXECUTION AUTHORITY
-
-MUST FAIL
-```
-
----
-
-# 94. PROPERTY INVARIANTS
-
-```text
-Observed(Counterfactual) = false
-```
-
-unless that formerly counterfactual world later becomes actual and is
-independently observed.
-
-```text
-Confidence(CF)
-<=
-WeakestLoadBearingPremise
-```
-
-unless independently revalidated.
-
-```text
-Changed(CF)
-⊆
-Intervention
-∪
-LicensedDescendants
-∪
-ExplicitAuxiliaryChanges
-```
-
-```text
-BranchCount
-!=
-EvidenceCount
-```
-
-```text
-Correlation
-!=
-CounterfactualCausation
-```
-
-```text
-ModelAgreement
-!=
-IndependentEvidence
-```
-
----
-
-# 95. METAMORPHIC TESTS
-
-If independently irrelevant variable Z changes:
-
-```text
-TARGET COUNTERFACTUAL SHOULD NOT CHANGE
-```
-
-when independence is established.
-
-If load-bearing edge:
-
-```text
-X → Y
-```
-
-is removed and no alternative path remains:
-
-```text
-EFFECT ON Y
-MUST DISAPPEAR
-OR BECOME UNKNOWN
-```
-
-If regime shifts outside validated scope:
-
-```text
-CONFIDENCE MUST FALL
-OR REVALIDATION MUST OCCUR
-```
-
-If evidence ancestry collapses from multiple apparent sources to one origin:
-
-```text
-INDEPENDENCE CONFIDENCE MUST FALL
-```
-
----
-
-# 96. ERROR REGISTRY
-
-```yaml
-CounterfactualErrors:
-
-  E_CF_NO_BASELINE:
-    meaning: factual anchor unavailable
-
-  E_CF_AMBIGUOUS_INTERVENTION:
-    meaning: intervention insufficiently specified
-
-  E_CF_HIDDEN_CHANGE:
-    meaning: undeclared world change
-
-  E_CF_CAUSAL_MODEL_MISSING:
-    meaning: required causal structure unavailable
-
-  E_CF_CAUSAL_OVERREACH:
-    meaning: causal conclusion exceeds evidence
-
-  E_CF_CONFOUNDING:
-    meaning: unresolved material confounding
-
-  E_CF_MEDIATOR_ERROR:
-    meaning: mediation handled incorrectly
-
-  E_CF_MODERATOR_ERROR:
-    meaning: conditional effect ignored
-
-  E_CF_FEEDBACK_IGNORED:
-    meaning: material feedback omitted
-
-  E_CF_SYSTEM_REACTION_IGNORED:
-    meaning: adaptive response omitted
-
-  E_CF_SCOPE_LEAK:
-    meaning: conclusion exceeds scope
-
-  E_CF_REGIME_LEAK:
-    meaning: conclusion crosses unsupported regime
-
-  E_CF_TEMPORAL_ERROR:
-    meaning: temporal structure invalid
-
-  E_CF_PROVENANCE_COLLAPSE:
-    meaning: ancestry incorrectly treated as independence
-
-  E_CF_BRANCH_SYBIL:
-    meaning: generated branches treated as independent evidence
-
-  E_CF_FALSE_PROBABILITY:
-    meaning: probability invented
-
-  E_CF_FALSE_PRECISION:
-    meaning: unsupported numerical precision
-
-  E_CF_COMPETING_COLLAPSE:
-    meaning: unresolved models falsely merged
-
-  E_CF_STALE_REUSE:
-    meaning: invalid cached counterfactual reused
-
-  E_CF_AUTHORITY_ESCALATION:
-    meaning: reasoning result treated as action authority
-
-  E_CF_IDENTIFIABILITY_GAP:
-    meaning: counterfactual not identifiable
-
-  E_CF_UNKNOWN:
-    meaning: unresolved counterfactual failure
-```
-
----
-
-# 97. LAW REGISTRY
-
-```text
-KCF-001  FACTUAL ANCHOR
-
-KCF-002  ACTUAL / COUNTERFACTUAL SEPARATION
-
-KCF-003  EXPLICIT INTERVENTION
-
-KCF-004  MINIMAL CHANGE
-
-KCF-005  CAUSAL CHAIN CONSERVATION
-
-KCF-006  NO HIDDEN CHANGE
-
-KCF-007  CAUSAL MODEL REQUIREMENT
-
-KCF-008  CORRELATION FIREWALL
-
-KCF-009  SYSTEM REACTION AWARENESS
-
-KCF-010  UNCERTAINTY-DISTANCE DISCIPLINE
-
-KCF-011  ASSUMPTION TRANSPARENCY
-
-KCF-012  SCOPE PRESERVATION
-
-KCF-013  REGIME REVALIDATION
-
-KCF-014  TEMPORAL VALIDITY
-
-KCF-015  PROVENANCE CONTINUITY
-
-KCF-016  SYBIL HARDENING
-
-KCF-017  COMPETING PRESERVATION
-
-KCF-018  IDENTIFIABILITY DISCIPLINE
-
-KCF-019  CONFIDENCE CEILING
-
-KCF-020  SENSITIVITY FIRST
-
-KCF-021  FALSIFIER VISIBILITY
-
-KCF-022  LOCAL INVALIDATION
-
-KCF-023  MEMORY TYPING
-
-KCF-024  ACTION NON-AUTHORIZATION
-
-KCF-025  REVERSIBILITY PREFERENCE
-
-KCF-026  MINIMUM SUFFICIENT PROOF
-
-KCF-027  NO FALSE PRECISION
-
-KCF-028  NO PROBABILITY INVENTION
-
-KCF-029  CAUSAL-EPOCH BINDING
-
-KCF-030  INTEGRITY OVER FLUENCY
-```
-
-These identifiers are normalized candidate-canon identifiers. They are not
-asserted to be historical AMOS v1.0 numbering.
-
----
-
-# 98. USER-FACING OUTPUT CONTRACT
-
-```yaml
-CounterfactualResult:
-
-  label: COUNTERFACTUAL
-
-  type:
-    PAST | FUTURE | STRUCTURAL | CAUSAL
-
-  factual_baseline:
-
-  intervention:
-
-  queried_outcome:
-
-  conclusion:
-    statement:
-    class:
-      VERIFIED |
-      DERIVED |
-      MODEL |
-      CONDITIONAL |
-      COMPETING |
-      UNKNOWN/GAP
-
-  causal_basis: []
-
-  assumptions: []
-
-  system_reactions: []
-
-  competing_outcomes: []
-
-  alternative_explanations: []
-
-  confounders: []
-
-  scope:
-
-  regime:
-
-  temporal_validity:
+  provenance:
 
   uncertainty:
 
-  confidence_ceiling:
+  invalidation_conditions:
 
-  sensitivity:
-
-  falsifiers: []
-
-  invalidation_conditions: []
-
-  discriminating_test:
-
-  reversible_action:
+  next_route:
 ```
 
 ---
 
-# 99. ADAPTIVE COMPLEXITY
+# 159. Next Route
+
+Candidate routes:
 
 ```text
-C0 — DIRECT
+CAPABILITY_READY
 
-C1 — COMPACT
+RETRIEVE_CAPABILITY_STATE
 
-C2 — STRUCTURED
+REQUEST_CONNECTION
 
-C3 — DEEP
+REQUEST_RESOURCE
 
-C4 — MAXIMUM
-```
+RESOLVE_DEPENDENCY
 
-Escalate for:
+POLICY_RESOLUTION
 
-```text
-HIGH STAKES
+AUTHORITY_RESOLUTION
 
-IRREVERSIBILITY
+PROVENANCE_RESOLUTION
 
-NOVELTY
+RETURN_DEGRADED
 
-WEAK EVIDENCE
+BLOCK
 
-STALE EVIDENCE
-
-CONTRADICTION
-
-CAUSAL AMBIGUITY
-
-SCOPE MISMATCH
-
-REGIME SHIFT
-
-COMPETING MODELS
-
-GOVERNANCE IMPACT
-
-PROVENANCE UNCERTAINTY
-```
-
-De-escalate once outcome-changing uncertainty has been resolved.
-
----
-
-# 100. STOP CONDITIONS
-
-Stop counterfactual expansion when:
-
-```text
-CLAIM SUFFICIENCY
-AND
-DECISION SUFFICIENCY
-AND
-ACTION SUFFICIENCY
-```
-
-have been achieved.
-
-More scenarios are not automatically more knowledge.
-
----
-
-# 101. PROVENANCE STRATA
-
-```yaml
-ProvenanceStrata:
-
-  S0_DIRECT_SOURCE:
-    meaning: >
-      Explicitly supported by recovered historical
-      AMOS counterfactual kernel material.
-
-  S1_AMOS_LINEAGE:
-    meaning: >
-      Explicitly inherited from broader AMOS architecture
-      and kernel relationships.
-
-  S2_V4_4_INTEGRATION:
-    meaning: >
-      Integration required to align K_COUNTERFACTUAL with
-      AMOS_CORE v4.4 integrity, provenance, scope,
-      regime, RSCF, causal epoch, and governance doctrine.
-
-  S3_DERIVED_FORMALIZATION:
-    meaning: >
-      Formal schemas, algorithms, equations, test structures,
-      and normalized contracts derived from AMOS principles
-      but not claimed as verbatim historical source.
-
-  S4_EXTERNAL_REFERENCE:
-    meaning: >
-      External counterfactual/causal research used for
-      comparison or validation only.
-
-  S5_UNKNOWN_GAP:
-    meaning: >
-      Canonical or empirical detail not currently established.
+RETURN_UNKNOWN
 ```
 
 ---
 
-# 102. HISTORICAL / DERIVED BOUNDARY
-
-## SOURCE-SUPPORTED HISTORICAL SPINE
-
-The recovered historical lineage supports the existence and role of a
-dedicated counterfactual reasoning kernel and its placement within the
-Meta-Cognition architecture.
-
-Historical content includes the core concepts of:
+# 160. Resolver Pseudocode
 
 ```text
-PAST COUNTERFACTUALS
+function resolve_capabilities(task, runtime):
 
-FUTURE COUNTERFACTUALS
+    requirements =
+        derive_capability_requirements(task)
 
-STRUCTURAL COUNTERFACTUALS
+    plans = []
 
-CAUSAL COUNTERFACTUALS
+    for requirement in requirements:
 
-PLAUSIBLE INITIAL STATE
+        candidates =
+            discover_candidates(
+                requirement,
+                runtime
+            )
 
-MINIMAL CHANGE
+        if candidates.empty:
+            record_gap(
+                requirement,
+                CRITICAL
+            )
+            continue
 
-CAUSAL CHAIN CONSERVATION
+        qualified = []
 
-UNCERTAINTY WITH COUNTERFACTUAL DISTANCE
+        for capability in candidates:
 
-ASSUMPTION TRANSPARENCY
+            manifest =
+                load_minimum_manifest(
+                    capability
+                )
 
-ACTUAL / COUNTERFACTUAL COMPARISON
+            if not operation_match(
+                capability,
+                requirement
+            ):
+                continue
 
-SCENARIO ANALYSIS
+            availability =
+                validate_availability(
+                    capability,
+                    runtime
+                )
 
-COMMON FAILURE MODES
+            if availability == UNAVAILABLE:
+                continue
 
-SAFETY CONSTRAINTS
+            compatibility =
+                validate_interfaces(
+                    capability,
+                    requirement
+                )
+
+            if not compatibility:
+                continue
+
+            if not environment_compatible(
+                capability,
+                task
+            ):
+                continue
+
+            if not regime_compatible(
+                capability,
+                task
+            ):
+                continue
+
+            if not limits_compatible(
+                capability,
+                requirement
+            ):
+                continue
+
+            dependencies =
+                resolve_dependency_closure(
+                    capability
+                )
+
+            if not dependencies.sufficient:
+                continue
+
+            qualified.append(
+                build_capability_contract(
+                    requirement,
+                    capability,
+                    availability,
+                    dependencies
+                )
+            )
+
+        if qualified.empty:
+            record_gap(
+                requirement,
+                CRITICAL
+            )
+            continue
+
+        plans.append(
+            qualified
+        )
+
+    candidate_plans =
+        compose_capability_plans(
+            plans,
+            task
+        )
+
+    candidate_plans =
+        reject_semantically_invalid_compositions(
+            candidate_plans
+        )
+
+    candidate_plans =
+        reject_effect_expanding_plans(
+            candidate_plans,
+            task.effect_envelope
+        )
+
+    if candidate_plans.empty:
+        return BLOCKED
+
+    candidate_plans =
+        eliminate_dominated_plans(
+            candidate_plans
+        )
+
+    if materially_competing(
+        candidate_plans
+    ):
+        test =
+            cheapest_discriminating_test(
+                candidate_plans
+            )
+
+        evidence =
+            execute_read_only_validation(
+                test
+            )
+
+        candidate_plans =
+            update_plans(
+                candidate_plans,
+                evidence
+            )
+
+    selected =
+        select_sufficient_plan(
+            candidate_plans
+        )
+
+    challenge =
+        adversarial_validate_capability_plan(
+            selected,
+            task,
+            runtime
+        )
+
+    if challenge.material_failure:
+        return downgrade_or_reresolve(
+            selected,
+            challenge
+        )
+
+    return RESOLVED(
+        selected
+    )
 ```
 
-## V4.4 INTEGRATION
-
-The current artifact integrates the counterfactual kernel with:
-
-```text
-RSCF
-
-H/M/L
-
-GMEF
-
-TYPED EVIDENCE
-
-EPISTEMIC REGIMES
-
-COMPETING HYPOTHESES
-
-PROVENANCE TOPOLOGY
-
-SYBIL HARDENING
-
-SCOPE / REGIME FIREWALL
-
-CAUSAL EPOCH
-
-WEAKEST-PREMISE CONFIDENCE CEILING
-
-LOCAL INVALIDATION
-
-ATOMIC MULTI-RSCF REASONING
-
-PROOF-BASED LOCAL REASONING
-
-REVERSIBILITY GOVERNANCE
-```
-
-## DERIVED FORMALIZATION
-
-The following are normalized formalizations rather than claims of verbatim
-historical implementation:
-
-```text
-SCM-STYLE EQUATIONS
-
-ABDUCTION → ACTION → PROJECTION
-
-CAUSAL RELATION TAXONOMY
-
-COUNTERFACTUAL DISTANCE DECOMPOSITION
-
-UNCERTAINTY VECTOR
-
-IDENTIFIABILITY STATES
-
-PARTIAL IDENTIFICATION CONTRACT
-
-PROOF CAPSULE SCHEMA
-
-FAST-PATH SCHEMA
-
-ERROR REGISTRY
-
-PROPERTY TESTS
-
-METAMORPHIC TESTS
-
-KCF LAW IDENTIFIERS
-```
+This pseudocode is conceptual and does not claim literal runtime
+implementation.
 
 ---
 
-# 103. KNOWN GAPS
-
-```yaml
-KnownGaps:
-
-  - id: KCF-GAP-001
-    class: DECISION-RELEVANT
-    issue: >
-      Exact byte-identical correspondence between every
-      recovered historical counterfactual artifact and the
-      present normalized K_COUNTERFACTUAL file has not been
-      established.
-
-  - id: KCF-GAP-002
-    class: DECISION-RELEVANT
-    issue: >
-      A complete executable implementation corresponding
-      exactly to the reconstructed specification is not
-      established.
-
-  - id: KCF-GAP-003
-    class: EXPLANATORY
-    issue: >
-      Formal supersession history between every historical
-      counterfactual filename/version and the canonical
-      K_COUNTERFACTUAL name remains incomplete.
-
-  - id: KCF-GAP-004
-    class: DECISION-RELEVANT
-    issue: >
-      No universal calibrated probability model exists for
-      all counterfactual domains.
-
-  - id: KCF-GAP-005
-    class: UNKNOWN/GAP
-    issue: >
-      Universal empirical validity is not established.
-
-  - id: KCF-GAP-006
-    class: UNKNOWN/GAP
-    issue: >
-      Universal formal proof of causal correctness is not
-      established.
-```
-
----
-
-# 104. PROMOTION GATE
-
-Before promotion from:
-
-```text
-CANDIDATE_CANON
-```
-
-to an authoritative canon state:
-
-```text
-[ ] historical sources registered
-
-[ ] source lineage recorded
-
-[ ] duplicates resolved
-
-[ ] supersession graph recorded
-
-[ ] dependencies verified
-
-[ ] conflicts registered
-
-[ ] Meta Logic compatibility checked
-
-[ ] Meta Epistemology compatibility checked
-
-[ ] Probability/Statistics dependency checked
-
-[ ] RSCF integration tested
-
-[ ] H/M/L integration tested
-
-[ ] GMEF integration tested
-
-[ ] causal firewall tested
-
-[ ] scope firewall tested
-
-[ ] regime firewall tested
-
-[ ] provenance topology tested
-
-[ ] Sybil hardening tested
-
-[ ] causal-model gap behavior tested
-
-[ ] hidden-change detection tested
-
-[ ] competing-model behavior tested
-
-[ ] confidence ceiling tested
-
-[ ] partial-identification behavior tested
-
-[ ] memory typing tested
-
-[ ] causal epoch behavior tested
-
-[ ] local invalidation tested
-
-[ ] action-authority firewall tested
-
-[ ] failure recovery tested
-
-[ ] authoritative-state record updated
-
-[ ] steward approval completed
-```
-
-Existence of this file alone does not satisfy those gates.
-
----
-
-# 105. CANONICAL COMPRESSION
-
-```text
-K_COUNTERFACTUAL
-=
-DISCIPLINED
-ALTERNATIVE-WORLD
-REASONING.
-
-ANCHOR
-THE FACTUAL WORLD.
-
-DECLARE
-THE INTERVENTION.
-
-CHANGE ONLY
-WHAT THE INTERVENTION
-AND DEFENSIBLE
-CAUSAL CONSEQUENCES
-REQUIRE.
-
-PRESERVE
-CAUSAL STRUCTURE.
-
-MODEL
-SYSTEM REACTIONS.
-
-EXPOSE
-ASSUMPTIONS.
-
-PRESERVE
-UNCERTAINTY.
-
-KEEP
-COUNTERFACTUAL
-SEPARATE FROM FACT.
-
-KEEP
-PREDICTION
-SEPARATE FROM
-INTERVENTION.
-
-KEEP
-CORRELATION
-SEPARATE FROM
-CAUSATION.
-
-INCREASE
-UNCERTAINTY
-AS THE ALTERNATIVE WORLD
-MOVES FARTHER
-FROM ACTUALITY.
-
-PRESERVE
-COMPETING MODELS.
-
-PRESERVE
-PROVENANCE ANCESTRY.
-
-DO NOT
-COUNT DERIVED COPIES
-AS INDEPENDENT EVIDENCE.
-
-DO NOT
-GENERALIZE
-OUTSIDE SCOPE.
-
-DO NOT
-TRANSFER
-ACROSS REGIMES
-WITHOUT REVALIDATION.
-
-DO NOT
-INVENT
-MISSING CAUSAL EDGES.
-
-DO NOT
-INVENT
-PROBABILITIES.
-
-WHEN
-IDENTIFICATION FAILS:
-
-RETURN
-BOUNDS
-OR
-UNKNOWN/GAP.
-
-WHEN
-A PREMISE FAILS:
-
-INVALIDATE
-ONLY DEPENDENT
-DESCENDANTS.
-
-WHEN
-THE RESULT
-IS FRAGILE:
-
-RETURN
-CONDITIONAL.
-
-WHEN
-SUPPORTED MODELS
-DISAGREE:
-
-RETURN
-COMPETING.
-
-WHEN
-A CHEAP,
-REVERSIBLE,
-HIGH-INFORMATION
-DISCRIMINATING TEST
-EXISTS:
-
-PREFER
-THE TEST
-OVER
-MORE SPECULATION.
-
-NEVER
-LET
-COMPLETENESS,
-FLUENCY,
-SPEED,
-OR NUMERICAL PRECISION
-OUTRUN
-INTEGRITY.
-```
-
----
-
-# 106. FORMAL KERNEL CONTRACT
+# 161. Capability Sufficiency Function
 
 Conceptually:
 
 ```text
-K_COUNTERFACTUAL:
-
-(F, I, M, E, S, R, T, P)
-
-→
-
-(C, Class, U, D, Falsifiers)
+CapabilitySufficient(P,T)
+=
+RequirementsCovered(P,T)
+∧
+InterfacesCompatible(P)
+∧
+DependenciesClosed(P)
+∧
+EnvironmentCompatible(P,T)
+∧
+RegimeCompatible(P,T)
+∧
+FreshEnough(P,T)
+∧
+LimitsCompatible(P,T)
+∧
+EffectsWithinResolvedEnvelope(P,T)
 ```
 
-where:
+---
+
+# 162. Requirement Coverage
 
 ```text
-F = factual state
+RequirementsCovered(P,T)
+```
 
-I = intervention
+means every load-bearing capability requirement has at least one valid
+provider in the plan.
 
-M = causal model
+---
 
-E = evidence
+# 163. Minimality
 
-S = scope
+A plan is minimally sufficient when removing any required component causes
+the task to become capability-insufficient.
 
-R = regime
+```text
+∀ C ∈ Required(P):
+CapabilitySufficient(P - C,T) = false
+```
 
-T = temporal state
+Optional resilience components may exist separately.
 
-P = provenance topology
+---
 
-C = counterfactual conclusion
+# 164. Resilience Capability
 
-Class = epistemic conclusion class
+A plan may contain:
 
-U = uncertainty vector
+```text
+PRIMARY
 
-D = dependency / invalidation topology
+FALLBACK
+```
+
+Fallback capability should be explicitly classified rather than treated as a
+simultaneously required component.
+
+---
+
+# 165. Capability Uncertainty Vector
+
+Track material uncertainty across:
+
+```text
+AVAILABILITY
+
+INTERFACE
+
+LIMIT
+
+ENVIRONMENT
+
+REGIME
+
+TEMPORAL
+
+DEPENDENCY
+
+EXECUTION
+
+PROVENANCE INDEPENDENCE
+```
+
+Spend validation effort where it can change the capability decision.
+
+---
+
+# 166. Adversarial Capability Validation
+
+For consequential plans, challenge:
+
+```text
+IS THE CAPABILITY REALLY AVAILABLE?
+
+IS THE MANIFEST STALE?
+
+IS THE REQUIRED OPERATION ACTUALLY SUPPORTED?
+
+DO INPUT TYPES REALLY MATCH?
+
+IS OUTPUT SUFFICIENT?
+
+IS THERE A HIDDEN SIZE LIMIT?
+
+IS THERE A HIDDEN DEPENDENCY?
+
+IS THE TARGET ENVIRONMENT DIFFERENT?
+
+DO MULTIPLE SOURCES SHARE ANCESTRY?
+
+DOES THE PLAN CREATE A BROADER EFFECT?
+
+IS A STRONGER OR SAFER ALTERNATIVE AVAILABLE?
+```
+
+---
+
+# 167. Independent Challenge Path
+
+Primary path:
+
+```text
+MANIFEST-BASED RESOLUTION
+```
+
+Challenge path may use:
+
+```text
+RUNTIME ENUMERATION
+
+LIVE STATUS
+
+SCHEMA INSPECTION
+
+SMALL READ-ONLY PROBE
+
+VERSION CHECK
+```
+
+when available and appropriate.
+
+---
+
+# 168. Probe Governance
+
+A capability probe itself may create effects.
+
+Therefore:
+
+```text
+PROBE
+```
+
+must be classified before use.
+
+Prefer:
+
+```text
+READ-ONLY
+REVERSIBLE
+LOW-COST
+```
+
+probes.
+
+---
+
+# 169. Challenge Success
+
+If the challenge falsifies a load-bearing premise:
+
+```text
+INVALIDATE
+ONLY DEPENDENT
+CAPABILITY PLAN COMPONENTS
+```
+
+then seek an alternative.
+
+---
+
+# 170. Challenge Failure
+
+Failure to find a contradiction does not transform a manifest claim into
+universal empirical verification.
+
+---
+
+# 171. Capability Decision Sufficiency
+
+Stop capability search when:
+
+```text
+ONE PLAN IS SUFFICIENT
+
+NO UNRESOLVED CAPABILITY GAP
+CAN CHANGE EXECUTABILITY
+
+NO MATERIAL BETTER PLAN
+IS REQUIRED FOR GOVERNANCE
+
+DEPENDENCY CLOSURE IS ESTABLISHED
+```
+
+Do not enumerate every possible tool.
+
+---
+
+# 172. Search Stop Law
+
+```text
+CAPABILITY SEARCH
+IS NOT A CATALOGING EXERCISE.
+```
+
+Stop when the task has a sufficient governed execution path.
+
+---
+
+# 173. Failure Recovery Law
+
+```text
+FAIL LOCAL
+REPAIR LOCAL
+ESCALATE ONLY AS REQUIRED.
+```
+
+Do not discard valid capability bindings when one unrelated capability fails.
+
+---
+
+# 174. Capability Lineage
+
+Preserve:
+
+```text
+TASK
+↓
+REQUIREMENT
+↓
+CAPABILITY
+↓
+DEPENDENCY
+↓
+EXECUTION
+↓
+OBSERVATION
+```
+
+This enables later causal and provenance auditing.
+
+---
+
+# 175. Capability Epoch
+
+A capability plan should conceptually be bound to the state in which it was
+resolved.
+
+```text
+PLAN P @ EPOCH E
+```
+
+If a load-bearing state changes:
+
+```text
+P MAY REQUIRE REVALIDATION
+```
+
+---
+
+# 176. Causal Dependency
+
+Some capability dependencies are causal rather than merely structural.
+
+Example:
+
+```text
+AUTH TOKEN
+→ enables
+API CALL
+```
+
+Loss of the token causally removes execution capability.
+
+The resolver should distinguish such dependencies where material.
+
+---
+
+# 177. Structural Similarity Firewall
+
+A capability that looks similar to another does not inherit its guarantees.
+
+```text
+SIMILAR INTERFACE
+!=
+SAME SEMANTICS
+```
+
+---
+
+# 178. Adapter Capability
+
+An adapter may bridge:
+
+```text
+OUTPUT A
+→
+INPUT B
+```
+
+but only if the transformation preserves task-relevant information.
+
+---
+
+# 179. Lossless vs Lossy Adapter
+
+Classify adapters as:
+
+```text
+LOSSLESS FOR TASK
+
+LOSSY BUT ACCEPTABLE
+
+LOSSY AND MATERIAL
+
+UNKNOWN
+```
+
+Task-relative classification matters.
+
+---
+
+# 180. Capability Equivalence
+
+Two capabilities are equivalent only relative to a defined task envelope.
+
+```text
+Equivalent(C1,C2,T)
+```
+
+does not imply universal equivalence.
+
+---
+
+# 181. Capability Scope
+
+Capability claims inherit an applicability envelope:
+
+```text
+SYSTEM
+
+ENVIRONMENT
+
+SCALE
+
+TIME
+
+REGIME
+
+VERSION
+
+INPUT CLASS
+
+OUTPUT CLASS
+
+ASSUMPTIONS
+```
+
+Never silently generalize beyond it.
+
+---
+
+# 182. Capability Revalidation
+
+Revalidate when:
+
+```text
+TASK CHANGES
+
+TARGET CHANGES
+
+ENVIRONMENT CHANGES
+
+VERSION CHANGES
+
+SERVICE STATE CHANGES
+
+DEPENDENCY CHANGES
+
+FRESHNESS EXPIRES
+
+NEW CONFLICT APPEARS
+```
+
+---
+
+# 183. Capability Supersession
+
+A newer capability version may supersede an older one.
+
+Preserve:
+
+```text
+OLD VERSION
+
+NEW VERSION
+
+SUPERSESSION RELATION
+
+MIGRATION / COMPATIBILITY STATE
+```
+
+---
+
+# 184. Capability Deprecation
+
+Deprecated does not always mean unavailable.
+
+Possible states:
+
+```text
+AVAILABLE_DEPRECATED
+
+READ_ONLY_DEPRECATED
+
+MIGRATION_REQUIRED
+
+UNAVAILABLE
+```
+
+Do not collapse them.
+
+---
+
+# 185. Capability Revocation
+
+A previously available capability may be revoked.
+
+Revocation should invalidate dependent active plans.
+
+---
+
+# 186. Capability Discovery Failure
+
+Failure to discover a capability is not proof that none exists unless the
+search scope is known complete.
+
+Distinguish:
+
+```text
+NO CAPABILITY EXISTS
+```
+
+from:
+
+```text
+NO CAPABILITY FOUND
+```
+
+---
+
+# 187. Closed Registry
+
+If capability discovery operates over a complete authoritative registry:
+
+```text
+NO MATCH
+```
+
+may support:
+
+```text
+UNAVAILABLE IN THIS REGISTRY
+```
+
+within that scope.
+
+---
+
+# 188. Open World
+
+In an open capability universe:
+
+```text
+NO MATCH
+```
+
+generally supports only:
+
+```text
+UNKNOWN / NOT FOUND
+```
+
+unless further evidence closes the search space.
+
+---
+
+# 189. Capability Cost
+
+Cost may include:
+
+```text
+COMPUTE
+
+TIME
+
+MONEY
+
+NETWORK
+
+HUMAN EFFORT
+
+RISK
+
+COORDINATION
+```
+
+Cost matters only after integrity and sufficiency.
+
+---
+
+# 190. Capability Risk
+
+Risk may derive from:
+
+```text
+IRREVERSIBILITY
+
+EXTERNAL EFFECT
+
+DATA EXPOSURE
+
+LARGE BLAST RADIUS
+
+UNRELIABLE DEPENDENCY
+
+LOW OBSERVABILITY
+```
+
+Capability Resolver surfaces these properties; downstream governance decides
+whether they are acceptable.
+
+---
+
+# 191. Reversibility
+
+Prefer reversible capability paths when task-equivalent and otherwise
+comparable.
+
+Example:
+
+```text
+CREATE DRAFT
+```
+
+before:
+
+```text
+PUBLISH
+```
+
+when the task does not require immediate publication.
+
+---
+
+# 192. Repairability
+
+A capability plan should expose:
+
+```text
+HOW FAILURE CAN BE DETECTED
+
+WHAT STATE MAY HAVE CHANGED
+
+WHETHER ROLLBACK EXISTS
+
+WHICH DEPENDENTS MUST BE INVALIDATED
+```
+
+when material.
+
+---
+
+# 193. Observability Requirement
+
+If completion cannot be inferred from invocation:
+
+```text
+OBSERVATION CAPABILITY
+```
+
+becomes part of the capability plan.
+
+---
+
+# 194. Proof of Effect
+
+For effectful tasks:
+
+```text
+REQUESTED EFFECT
+```
+
+may require:
+
+```text
+ACTION CAPABILITY
++
+POST-EFFECT OBSERVATION
+```
+
+Example:
+
+```text
+SEND MESSAGE
++
+VERIFY PROVIDER ACCEPTED MESSAGE
+```
+
+depending on completion semantics.
+
+---
+
+# 195. Capability Finality
+
+A capability call returning success is not necessarily causal finality.
+
+Example:
+
+```text
+JOB SUBMITTED
+```
+
+does not mean:
+
+```text
+JOB COMPLETED
+```
+
+The Task Contract determines the required finality level.
+
+---
+
+# 196. Capability Resolver Test Matrix
+
+Candidate tests:
+
+```text
+SINGLE LOCAL CAPABILITY
+
+NO CAPABILITY
+
+UNKNOWN CAPABILITY STATE
+
+STALE CAPABILITY STATE
+
+READ VS WRITE
+
+DRAFT VS SEND
+
+INPUT TYPE MISMATCH
+
+OUTPUT TYPE MISMATCH
+
+VERSION MISMATCH
+
+ENVIRONMENT MISMATCH
+
+SIZE LIMIT
+
+REQUIRED DEPENDENCY MISSING
+
+OPTIONAL DEPENDENCY MISSING
+
+COMPOSITE CAPABILITY
+
+LOSSY ADAPTER
+
+ATOMIC MULTI-CAPABILITY TASK
+
+EXTERNAL EFFECT
+
+FALLBACK PATH
+
+DEGRADED PATH
+
+TRANSIENT FAILURE
+
+PERMANENT FAILURE
+
+CAPABILITY REVOCATION
+
+REGIME SHIFT
+
+COMPETING PLANS
+
+PROVENANCE CORRELATION
+```
+
+This is a specification-level matrix, not evidence of passed tests.
+
+---
+
+# 197. Property Tests
+
+```text
+P1:
+Removing an irrelevant capability must not change the selected plan.
+
+P2:
+Removing a required capability must invalidate dependent plans.
+
+P3:
+A read-only requirement must not require write capability when a sufficient
+read-only path exists.
+
+P4:
+Changing the input type to an unsupported type must invalidate the relevant
+capability binding.
+
+P5:
+Changing environment must invalidate environment-dependent capabilities.
+
+P6:
+Expired capability state must not remain current.
+
+P7:
+Two manifests sharing one origin must not count as independent confirmation.
+
+P8:
+A lossy adapter must not be treated as lossless.
+
+P9:
+Independent write capabilities must not imply atomic multi-write capability.
+
+P10:
+Capability existence must never itself authorize execution.
+```
+
+---
+
+# 198. Metamorphic Test — Read/Write
+
+Original:
+
+```text
+READ FILE A
+```
+
+Mutation:
+
+```text
+WRITE FILE A
+```
+
+Expected:
+
+```text
+REQUIRED CAPABILITY SET CHANGES
+```
+
+---
+
+# 199. Metamorphic Test — Current Data
+
+Original:
+
+```text
+SUMMARIZE STORED REPORT
+```
+
+Mutation:
+
+```text
+VERIFY CURRENT STATUS
+```
+
+Expected:
+
+```text
+FRESH RETRIEVAL / OBSERVATION
+MAY BECOME REQUIRED
+```
+
+---
+
+# 200. Metamorphic Test — Environment
+
+Original:
+
+```text
+RUN IN TEST
+```
+
+Mutation:
+
+```text
+RUN IN PRODUCTION
+```
+
+Expected:
+
+```text
+ENVIRONMENT VALIDITY
+MUST BE RE-EVALUATED
+```
+
+---
+
+# 201. Metamorphic Test — Atomicity
+
+Original:
+
+```text
+UPDATE A
+UPDATE B
+```
+
+Mutation:
+
+```text
+UPDATE A AND B ATOMICALLY
+```
+
+Expected:
+
+```text
+NEW JOINT CAPABILITY REQUIREMENT
+```
+
+---
+
+# 202. Audit Questions
+
+For a consequential capability plan, an auditor should be able to ask:
+
+```text
+WHAT DID THE TASK REQUIRE?
+
+WHICH CAPABILITIES WERE CONSIDERED?
+
+WHICH WERE SELECTED?
+
+WHY?
+
+WHAT MANIFESTS SUPPORTED THEM?
+
+WERE THEY CURRENTLY AVAILABLE?
+
+WHAT LIMITS APPLIED?
+
+WHAT DEPENDENCIES EXISTED?
+
+WHAT ENVIRONMENT / REGIME APPLIED?
+
+WHAT SIDE EFFECTS EXISTED?
+
+WHAT ALTERNATIVE PLANS EXISTED?
+
+WHAT WOULD INVALIDATE THE PLAN?
+```
+
+---
+
+# 203. Machine Form
+
+```yaml
+capability_resolver:
+
+  resolver_id:
+
+  task:
+    task_id:
+    task_version:
+    objective:
+    effect_envelope:
+
+  requirements:
+
+    - requirement_id:
+      operation:
+      input:
+      output:
+      environment:
+      regime:
+      freshness:
+      limits:
+      atomicity:
+      observability:
+
+  discovery:
+    scope:
+    registry_complete:
+    candidates: []
+
+  evaluations:
+
+    - capability_id:
+
+      manifest:
+        version:
+        provenance:
+
+      availability:
+        state:
+        observed_at:
+        valid_until:
+
+      operation_match:
+
+      input_compatibility:
+
+      output_compatibility:
+
+      environment_compatibility:
+
+      regime_compatibility:
+
+      freshness:
+
+      limits:
+
+      dependencies:
+
+      effects:
+
+      uncertainty:
+
+  plans:
+
+    candidates: []
+
+    competing: []
+
+    selected:
+
+  gaps:
+    critical: []
+    decision_relevant: []
+    explanatory: []
+    cosmetic: []
+
+  result:
+    status:
+    confidence_ceiling:
+    next_route:
+
+  invalidation_conditions:
+
+  provenance:
+```
+
+---
+
+# 204. Master Capability Contract
+
+Conceptually:
+
+```text
+CapabilityResolver
+:
+(
+  TaskContract,
+  CapabilityRegistry,
+  RuntimeState,
+  RelevantEnvironment
+)
+→
+(
+  CapabilityPlan,
+  CapabilityContracts,
+  ResolutionState,
+  Gaps,
+  Provenance,
+  InvalidationConditions
+)
 ```
 
 subject to:
 
 ```text
-FACTUAL INTEGRITY
-
-MINIMAL INTERVENTION
-
-CAUSAL VALIDITY
-
-SCOPE INTEGRITY
-
-REGIME INTEGRITY
-
-TEMPORAL INTEGRITY
-
-PROVENANCE INTEGRITY
-
-ASSUMPTION TRANSPARENCY
-```
-
-and:
-
-```text
-Confidence(C)
-<=
-WeakestLoadBearingPremise
-```
-
-unless independently revalidated.
-
----
-
-# 107. FINAL STATE
-
-```yaml
-K_COUNTERFACTUAL:
-
-  historical_lineage:
-    kernel: Counterfactual_Reasoning_Kernel
-    state: SOURCE_SUPPORTED
-
-  current_artifact:
-    name: K_COUNTERFACTUAL
-    status: CANDIDATE_CANON
-    conclusion_class: DERIVED
-
-  amos_core_target:
-    version: v4.4
-    alignment: INTEGRATED_MODEL
-
-  executable_implementation:
-    status: UNKNOWN/GAP
-
-  empirical_validation:
-    status: UNKNOWN/GAP
-
-  universal_formal_verification:
-    status: UNKNOWN/GAP
-
-  supersession:
-    K_COUNTERFACTUAL_PLACEHOLDER:
-      status: SUPERSEDED_BY_CANDIDATE
-
-    authoritative_final_canon:
-      status: NOT_YET_PROMOTED
+NO FABRICATED CAPABILITY
+∧
+NO SILENT EFFECT EXPANSION
+∧
+NO SILENT LIMIT VIOLATION
+∧
+NO UNSUPPORTED REGIME GENERALIZATION
+∧
+NO FORCED PLAN CONVERGENCE
 ```
 
 ---
 
-# 108. TERMINAL INTEGRITY LAW
-
-The governing counterfactual law is:
+# 205. Canonical Compression
 
 ```text
-NEVER CLAIM AN UNREALIZED WORLD
-MORE STRONGLY THAN
-THE CAUSAL MODEL,
-EVIDENCE,
-PROVENANCE,
+CAPABILITY RESOLVER
+=
+THE AMOS OS CONTROL-PLANE FUNCTION
+THAT DETERMINES
+HOW A RESOLVED TASK
+CAN ACTUALLY BE PERFORMED.
+
+IT STARTS
+FROM THE TASK CONTRACT.
+
+IT DERIVES
+THE REQUIRED OPERATIONS.
+
+IT DISCOVERS
+CANDIDATE CAPABILITIES.
+
+IT DOES NOT
+INVENT CAPABILITIES
+THAT ARE NOT SUPPORTED.
+
+IT DISTINGUISHES
+A DECLARED CAPABILITY
+FROM
+A CURRENTLY AVAILABLE ONE.
+
+IT CHECKS
+OPERATIONS,
+INPUTS,
+OUTPUTS,
+LIMITS,
+VERSIONS,
+ENVIRONMENTS,
+REGIMES,
+FRESHNESS,
+AND DEPENDENCIES.
+
+IT CONSTRUCTS
+THE SMALLEST SUFFICIENT
+CAPABILITY COMPOSITION.
+
+IT PRESERVES
+COMPETING PLANS
+WHEN EVIDENCE
+DOES NOT JUSTIFY
+A UNIQUE SELECTION.
+
+IT DOES NOT
+TURN READ INTO WRITE,
+DRAFT INTO SEND,
+OR LOCAL COMPUTATION
+INTO EXTERNAL EFFECT
+WITHOUT MAKING
+THE CHANGE EXPLICIT.
+
+IT TREATS
+CAPABILITY AVAILABILITY
+AS DISTINCT FROM
+POLICY,
+AUTHORITY,
+AND COMMIT PERMISSION.
+
+IT USES
+THE SMALLEST SUFFICIENT
+PROOF SCOPE.
+
+IT REUSES
+VALID CAPABILITY CAPSULES
+ONLY WHILE
+THEIR DEPENDENCIES,
 SCOPE,
 REGIME,
-TEMPORAL VALIDITY,
-AND UNCERTAINTY
-PERMIT.
+AND FRESHNESS
+REMAIN VALID.
+
+WHEN A CAPABILITY FAILS,
+IT INVALIDATES
+ONLY THE PLAN COMPONENTS
+THAT DEPEND ON IT.
+
+AND IT STOPS
+WHEN ONE SUFFICIENT,
+COMPATIBLE,
+CURRENT,
+DEPENDENCY-CLOSED
+CAPABILITY PLAN
+HAS BEEN ESTABLISHED
+FOR DOWNSTREAM GOVERNANCE.
 ```
 
-The governing intervention law is:
+---
+
+# 206. Final Law
 
 ```text
-CHANGE ONLY WHAT
-THE DECLARED INTERVENTION
-AND DEFENSIBLE
-CAUSAL CONSEQUENCES
-REQUIRE.
+A TASK
+IS NOT EXECUTABLE
+MERELY BECAUSE
+ITS INTENT IS CLEAR.
+
+FIRST DETERMINE
+WHAT OPERATIONS
+THE TASK REQUIRES.
+
+THEN DISCOVER
+WHICH CAPABILITIES
+CLAIM TO PROVIDE THEM.
+
+THEN DETERMINE
+WHICH OF THOSE CAPABILITIES
+ARE ACTUALLY AVAILABLE.
+
+THEN TEST
+THEIR INPUTS,
+OUTPUTS,
+LIMITS,
+VERSIONS,
+ENVIRONMENTS,
+REGIMES,
+FRESHNESS,
+AND DEPENDENCIES.
+
+THEN DETERMINE
+WHETHER THEY CAN BE
+COMPOSED
+WITHOUT LOSING
+TASK SEMANTICS.
+
+THEN EXPOSE
+THE EFFECT ENVELOPE.
+
+THEN PRESERVE
+ANY MATERIAL
+COMPETING PLANS.
+
+IF A REQUIRED
+CAPABILITY IS UNKNOWN,
+DO NOT INVENT IT.
+
+IF A CAPABILITY
+IS DECLARED
+BUT NOT VALIDATED,
+DO NOT PRESENT
+THE DECLARATION
+AS EXECUTION PROOF.
+
+IF A FALLBACK
+ONLY PARTIALLY
+SATISFIES THE TASK,
+CALL IT DEGRADED.
+
+IF ONE SUFFICIENT
+CAPABILITY PLAN
+IS ESTABLISHED,
+STOP SEARCHING.
+
+ONLY THEN
+MAY POLICY,
+AUTHORITY,
+PROVENANCE,
+TRANSACTION,
+EFFECT,
+AND COMMIT
+GOVERNANCE
+CONTINUE.
 ```
 
-The governing epistemic law is:
-
-```text
-WHEN THE EVIDENCE CANNOT
-DISTINGUISH THE WORLDS,
-
-PRESERVE COMPETING
-
-OR RETURN UNKNOWN/GAP.
-```
-
-The governing operational law is:
-
-```text
-UNDER CONSEQUENTIAL UNCERTAINTY,
-
-PREFER THE CHEAPEST
-SAFE,
-REVERSIBLE,
-HIGH-INFORMATION
-DISCRIMINATING TEST
-
-OVER
-UNSUPPORTED CERTAINTY.
-```
-
-# END — K COUNTERFACTUAL
+# END — AMOS OS CAPABILITY RESOLVER
 
 ```
 
-This is the complete replacement artifact rather than a placeholder stub. The Drive search also confirms that AMOS has a dedicated `Counterfactual_Reasoning_Kernel` folder and a historical `AMOS_Counterfactual_Reasoning_Kernel_v0_Meta_Cognition4_2.md`, which should remain part of the provenance/supersession record rather than being silently collapsed into this normalized file. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+**Classification:** `DERIVED / CANDIDATE_CANON`. The Drive evidence supports the artifact's existence and architectural placement, but **not** the substantive specification above: the actual file currently contains only the placeholder. :contentReference[oaicite:2]{index=2}
 ```

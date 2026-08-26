@@ -2213,7 +2213,6 @@ Unimplemented families should remain explicit placeholders until real content ex
 
 Every generator folder should include a README with at least:
 
-```md
 # Generator Name
 
 ## Identity
@@ -2277,7 +2276,6 @@ Every generator folder should include a README with at least:
 ## Supersession
 
 ## Open Gaps
-```
 
 ---
 

@@ -1,2419 +1,4518 @@
-Below is the expanded `12_GENERATORS / README.md` contract, grounded in the current Drive evidence. The key correction from the placeholder is that `12_GENERATORS` is **not source-empty**: the Drive contains a dedicated generative-architecture source defining 12 basis generators, seven expansion rules, a 15-layer loop stack, cross-generator interactions, and 7-Part Canon integration. 
+Yes. Below is a **full paste-ready `POLICY_ENGINE.md`**, designed to sit directly above the `POLICY_DECISION.md` contract and integrate with `POLICY_REGISTRY.md`, `CAPABILITY_MANIFEST.md`, `CAPABILITY_CONTRACT.md`, and `CONTROL_PLANE_MAP.md`.
 
 ---
-title: "12_GENERATORS — README"
+title: "AMOS Policy Engine"
+artifact: "POLICY_ENGINE.md"
 origin_architect: "Trang Phan"
+steward: "Trang Phan"
+system: "AMOS OS"
+artifact_class: "GOVERNED_POLICY_EVALUATION_ENGINE"
+status: "PROPOSED / STRUCTURALLY_COMPLETE / IMPLEMENTATION-UNVALIDATED"
+epistemic_class: "MODEL"
+version: "1.0.0"
 updated: "2026-08-26"
-class: "MATRIX_INFRASTRUCTURE_CONTRACT"
-status: "SOURCE_BOUND_PARTIAL / UNVALIDATED_RUNTIME"
-epistemic_class: "DERIVED"
-package: "12_GENERATORS"
-artifact: "README.md"
+authority: "NONE_BY_DEFAULT"
 ---
 
-# 12_GENERATORS — README
+# AMOS Policy Engine
 
-**Class:** `MATRIX_INFRASTRUCTURE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Package:** `12_GENERATORS`  
-**Artifact:** `README.md`  
-**Status:** `SOURCE_BOUND_PARTIAL / UNVALIDATED_RUNTIME`
+## 0. Status
 
----
+`POLICY_ENGINE.md` defines the AMOS OS architecture for discovering, resolving, evaluating, composing, revalidating, and auditing policies that govern requested operations.
 
-# 0. Executive Contract
-
-`12_GENERATORS` is the AMOS Cognitive Matrix infrastructure surface responsible for representing the **generative basis by which structures, states, relations, transformations, constraints, selections, feedback processes, and adaptations may be constructed or expanded**.
-
-The package is no longer correctly described as completely source-empty.
-
-Current Drive evidence contains:
+The Policy Engine converts:
 
 ```text
-AMOS_Complete_Generative_Architecture_12_Basis_Generators.md
+TASK
++ PRINCIPAL
++ REQUESTED ACTION
++ TARGET
++ CAPABILITY
++ EFFECT INTENT
++ CONTEXT
++ POLICY REGISTRY
++ AUTHORITY CONTEXT
++ CONSTRAINT CONTEXT
++ EVIDENCE
 ```
 
-which explicitly defines a 12-generator architecture and associated expansion rules.
-
-The source states the compressed generator basis as:
+into a governed:
 
 ```text
-AMOS = Δ + B + S + τ + C + Ω + Ψ + Λ + Π + Ξ + Γ + Θ
+POLICY_DECISION
 ```
 
-with the following generator mapping:
+The Policy Engine is an evaluation and governance component.
+
+It is **not** itself:
 
 ```text
-Δ  Difference
-B  Boundary
-S  Space
-τ  Translation
-C  Constraint
-Ω  Capacity
-Ψ  Selection
-Λ  Coupling
-Π  Weighting
-Ξ  Perturbation
-Γ  Feedback
-Θ  Mutation
+a capability provider;
+a domain worker;
+a universal authority;
+an effect executor;
+a durable commit mechanism;
+a release ledger;
+a receiver;
+an empirical truth engine;
+or proof that an action succeeded.
 ```
 
-The source further defines:
+The governing distinctions are:
 
 ```text
-7 expansion rules
-15 loop layers
-cross-generator interaction
-failure expansion
-adversarial expansion
-unknown-state expansion
-7-Part Canon integration
-tensor-field expansion
-meta-generation
-```
+POLICY_ENGINE != POLICY_REGISTRY
 
-Therefore the package should be promoted from:
+POLICY_ENGINE != POLICY
 
-```text
-PLACEHOLDER / UNKNOWN/GAP
-```
+POLICY_ENGINE != POLICY_DECISION
 
-to at most:
+POLICY_ENGINE != CAPABILITY
 
-```text
-SOURCE_BOUND_PARTIAL / UNVALIDATED_RUNTIME
-```
+POLICY_ENGINE != AUTHORITY
 
-The source itself labels its architecture “validated” and “STRUCTURAL”; however, that source-local status does **not** independently establish runtime implementation, empirical validity, canonical supremacy, or authority.
+POLICY_ENGINE != EXECUTION
 
-Hard boundary:
+POLICY_ENGINE != COMMIT
 
-```text
-SOURCE CLAIM OF VALIDATION
-!=
-INDEPENDENT VALIDATION
+POLICY_ALLOW != AUTHORITY
+
+POLICY_ALLOW != COMMITTABLE
+
+POLICY_ALLOW != COMMITTED
+
+CAPABILITY != AUTHORITY
+
+VALIDATION != AUTHORIZATION
+
+PROPOSAL != COMMIT
+
+UNKNOWN/GAP != PASS
+
+UNKNOWN/GAP != ALLOW
+
+CONFLICT != ALLOW
+
+PLACEHOLDER != IMPLEMENTED
+
+STRUCTURAL_MODEL != EXECUTABLE_RUNTIME
 ```
 
 ---
 
 # 1. Purpose
 
-The purpose of `12_GENERATORS` is to provide a governed generation layer for the AMOS Cognitive Matrix.
+The purpose of the AMOS Policy Engine is to provide a deterministic-governed interface for answering:
 
-Its role is to answer:
+> Which policies govern this requested operation, what do those policies conclude under the current context, and what policy-local requirements must be satisfied before downstream execution may even be considered?
 
-```text
-Given an admissible state, structure, primitive, object,
-workflow, relation, or matrix cell:
+The Policy Engine exists to prevent downstream components from inventing permission from:
 
-what transformations may generate a new candidate structure,
-state, relation, or configuration?
-```
+* capability availability;
+* model confidence;
+* agent intent;
+* previous successful actions;
+* stale decisions;
+* absence of explicit denial;
+* undocumented conventions;
+* provider availability;
+* workflow momentum;
+* user convenience;
+* or technical executability.
 
-At minimum, the source architecture proposes that generation occurs through combinations of:
-
-```text
-distinction
-boundary formation
-state-space formation
-translation
-constraint
-capacity
-selection
-coupling
-weighting
-perturbation
-feedback
-mutation
-```
-
-The package is therefore not merely a directory containing “generators.”
-
-It is a candidate **generation contract layer**.
+Every consequential operation SHOULD pass through explicit policy evaluation when policy governance is required.
 
 ---
 
-# 2. Non-Purpose
+# 2. Architectural Position
 
-`12_GENERATORS` SHALL NOT independently:
-
-```text
-declare generated content canonical
-
-grant execution authority
-
-commit generated state
-
-promote MODEL to VERIFIED
-
-invent missing AMOS canon
-
-overwrite source-bound artifacts
-
-silently mutate Cognitive Matrix structure
-
-bypass control planes
-
-bypass provenance requirements
-
-convert generated hypotheses into facts
-
-treat generation as validation
-
-treat structural consistency as empirical proof
-```
-
-Therefore:
+Canonical conceptual path:
 
 ```text
-GENERATE
-!=
-VALIDATE
+USER / SYSTEM INTENT
+        ↓
+TASK_CONTRACT
+        ↓
+CAPABILITY RESOLUTION
+        ↓
+RESOLVED_CAPABILITY_CONTRACT
+        ↓
+POLICY_ENGINE
+        ↓
+POLICY_DECISION
+        ↓
+CONTROL PLANE
+        ↓
+AUTHORITY VALIDATION
+        ↓
+CONSTRAINT / EVIDENCE / TRANSACTION VALIDATION
+        ↓
+OBSERVABILITY VALIDATION
+        ↓
+COMMIT-TIME REVALIDATION
+        ↓
+EFFECT RELEASE
 ```
 
-and:
-
-```text
-GENERATE
-!=
-AUTHORIZE
-```
-
-and:
-
-```text
-GENERATE
-!=
-COMMIT
-```
+The Policy Engine sits between capability resolution and final control-plane authorization.
 
 ---
 
-# 3. Source / Canon References
+# 3. Core Responsibility
 
-## 3.1 Primary recovered source
-
-Current direct source:
+The Policy Engine owns:
 
 ```text
-AMOS_Complete_Generative_Architecture_12_Basis_Generators.md
+policy discovery;
+policy identity resolution;
+policy version resolution;
+policy applicability;
+policy predicate evaluation;
+policy rule evaluation;
+policy composition;
+policy conflict detection;
+policy precedence evaluation;
+policy exception evaluation;
+policy obligation extraction;
+policy prohibition extraction;
+policy condition extraction;
+policy-decision generation;
+policy-decision provenance;
+policy-decision freshness;
+policy-decision invalidation;
+policy-decision revalidation;
+policy evaluation auditability.
 ```
 
-The Drive source describes itself as:
+It does NOT own:
 
 ```text
-AMOS — Complete Generative Architecture:
-12 Basis Generators + Expansion Rules
-```
-
-and defines the generator basis, expansion system, loop hierarchy, tensor form, and 7-Part Canon mapping.
-
-### Provenance qualification
-
-The source metadata identifies its immediate artifact-generation provenance as:
-
-```text
-user-provided expansion
-+
-self-analysis from 7-part canon
-+
-AMOS Quantum Library v0.6.0 integration
-```
-
-and names a generating agent in the artifact metadata.
-
-Accordingly:
-
-```text
-SOURCE ARTIFACT
-!=
-AUTOMATIC CANON
-```
-
-Trang Phan remains the AMOS origin architect/steward for this Matrix contract.
-
-The recovered source should therefore be treated as:
-
-```text
-SOURCE_CLAIM / ARCHITECTURE SOURCE
-```
-
-pending canon-status reconciliation.
-
----
-
-# 4. Source-Defined Root Form
-
-The recovered source proposes:
-
-```text
-AMOS =
-Parents
-× Spaces
-× Flows
-× Operators
-× Guards
-× Records
-× Tensors
-× Loops
-× Axes
-× Generators
-× Expansions
-× Recursion
-```
-
-This is useful as a structural model for the generator package.
-
-It must not be interpreted as a universally established mathematical identity.
-
-Classification:
-
-```text
-AMOS MODEL / SOURCE_CLAIM
+technical capability execution;
+domain-specific evidence production;
+external side-effect dispatch;
+authority issuance;
+authority revocation;
+transaction commit;
+release-ledger finality;
+receiver receipt issuance;
+physical-world outcome validation.
 ```
 
 ---
 
-# 5. Generator Registry
+# 4. Core Architecture
 
-The current source-supported generator registry is:
-
-| ID  | Generator    | Symbol | Source-defined role                      |
-| --- | ------------ | -----: | ---------------------------------------- |
-| G01 | Difference   |    `Δ` | distinction / contrast generation        |
-| G02 | Boundary     |    `B` | boundary / containment formation         |
-| G03 | Space        |    `S` | possible-state or action-space formation |
-| G04 | Translation  |    `τ` | representation transformation            |
-| G05 | Constraint   |    `C` | admissibility / limiting conditions      |
-| G06 | Capacity     |    `Ω` | feasibility under bounded resources      |
-| G07 | Selection    |    `Ψ` | retention / selection                    |
-| G08 | Coupling     |    `Λ` | interaction / dependency                 |
-| G09 | Weighting    |    `Π` | salience / confidence / weighting        |
-| G10 | Perturbation |    `Ξ` | noise / shock / disturbance              |
-| G11 | Feedback     |    `Γ` | error / correction signal                |
-| G12 | Mutation     |    `Θ` | adaptation / model revision              |
-
-These names and symbols are source-derived.
-
-Their exact implementation semantics remain unresolved.
+```text
+                    ┌───────────────────────┐
+                    │      TASK_CONTRACT    │
+                    └───────────┬───────────┘
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │ CAPABILITY RESOLUTION │
+                    └───────────┬───────────┘
+                                │
+                                ▼
+              ┌─────────────────────────────────┐
+              │         POLICY ENGINE           │
+              │                                 │
+              │  1. Context Normalizer          │
+              │  2. Policy Discovery            │
+              │  3. Identity Resolver           │
+              │  4. Applicability Resolver      │
+              │  5. Predicate Evaluator         │
+              │  6. Rule Evaluator              │
+              │  7. Exception Resolver          │
+              │  8. Conflict Detector           │
+              │  9. Precedence Resolver         │
+              │ 10. Composition Engine          │
+              │ 11. Provenance Binder           │
+              │ 12. Freshness Binder            │
+              │ 13. Decision Validator          │
+              └────────────────┬────────────────┘
+                               │
+                               ▼
+                    ┌───────────────────────┐
+                    │    POLICY_DECISION    │
+                    └───────────┬───────────┘
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │     CONTROL PLANE     │
+                    └───────────────────────┘
+```
 
 ---
 
-# 6. Typed Inputs
+# 5. Policy Engine Input
 
-A generator invocation SHOULD conceptually receive a typed object rather than arbitrary untyped content.
-
-Candidate infrastructure type:
+Canonical input:
 
 ```yaml
-GeneratorInput:
+policy_engine_request:
+  request_id: string
 
-  object_id: string
+  task:
+    task_id: string
+    intent: string
+    task_class: string
 
-  object_type:
-    enum:
-      - PRIMITIVE
-      - STATE
-      - ENTITY
-      - RELATION
-      - CONSTRAINT
-      - WORKFLOW
-      - PROTOCOL
-      - MODEL
-      - MATRIX_CELL
-      - UNKNOWN
+  principal:
+    principal_id: string
+    principal_type: string
+    acting_as: null
+    delegation_chain: []
 
-  payload: object
+  action:
+    action_id: string
+    action_class: string
+    operation: string
+    parameters: {}
+    parameters_hash: null
 
-  generator:
-    enum:
-      - DIFFERENCE
-      - BOUNDARY
-      - SPACE
-      - TRANSLATION
-      - CONSTRAINT
-      - CAPACITY
-      - SELECTION
-      - COUPLING
-      - WEIGHTING
-      - PERTURBATION
-      - FEEDBACK
-      - MUTATION
+  capability:
+    capability_id: null
+    capability_version: null
+    provider_id: null
+    resolved_contract_hash: null
 
-  scale:
-    enum:
-      - H
-      - M
-      - L
+  target:
+    target_id: null
+    resource_ids: []
+    resource_class: null
 
-  scope: object
+  effect_intent:
+    effect_id: null
+    effect_type: null
+    effect_class: null
+    payload_digest: null
+    persistent: null
+    externally_visible: null
+    reversible: null
 
-  regime: object | null
+  context:
+    environment: null
+    domain: null
+    jurisdiction: null
+    scope: {}
+    regime: {}
+    time: null
 
-  provenance: ProvenanceRef[]
+  authority_context:
+    authority_id: null
+    witness_refs: []
 
-  dependencies: DependencyRef[]
+  constraint_context:
+    refs: []
 
-  authority_context: AuthorityContext | null
+  evidence:
+    refs: []
 
-  uncertainty: UncertaintyVector
+  transaction:
+    transaction_id: null
 
-  state_version: string | null
+  requested_at: timestamp
 ```
-
-This schema is a bounded infrastructure proposal unless separately recovered from source.
 
 ---
 
-# 7. Typed Outputs
+# 6. Policy Engine Output
 
-Generation should return a **candidate**, not committed truth.
+The Policy Engine MUST emit a structured `POLICY_DECISION`.
 
 ```yaml
-GeneratorOutput:
-
-  generation_id: string
-
-  source_object_id: string
-
-  generator: GeneratorType
-
-  candidate:
-
-    payload: object
-
-    epistemic_class:
-      enum:
-        - SOURCE_CLAIM
-        - DERIVED
-        - MODEL
-        - UNKNOWN_GAP
-
-  provenance: ProvenanceRef[]
-
-  dependencies: DependencyRef[]
-
-  assumptions: []
-
-  competing: []
-
-  falsifiers: []
-
-  uncertainty: UncertaintyVector
-
-  confidence_ceiling: number
-
-  validation_state:
-    enum:
-      - UNVALIDATED
-      - CONDITIONALLY_VALIDATED
-      - VALIDATED_FOR_SCOPE
-
-  authority_state:
-    enum:
-      - NO_AUTHORITY
-      - PROPOSAL_ONLY
-      - AUTHORIZED_FOR_SPECIFIC_EFFECT
-
-  commit_state:
-    enum:
-      - NOT_COMMITTED
-      - COMMIT_PENDING
-      - COMMITTED
-```
-
-Default:
-
-```text
-validation_state = UNVALIDATED
-
-authority_state = NO_AUTHORITY
-
-commit_state = NOT_COMMITTED
-```
-
----
-
-# 8. State Variables
-
-Minimum candidate generator state:
-
-```yaml
-GeneratorState:
-
-  generator_registry: {}
-
-  active_generator: null
-
-  input_state: null
-
-  candidate_state: null
-
-  generation_depth: 0
-
-  recursion_depth: 0
-
-  expansion_axes: []
-
-  active_constraints: []
-
-  capacity_state: null
-
-  provenance_state: []
-
-  dependency_state: []
-
-  competing_candidates: []
-
-  validation_state: UNVALIDATED
-
-  authority_state: NO_AUTHORITY
-
-  commit_state: NOT_COMMITTED
-
-  failure_state: null
-
-  recovery_state: null
-```
-
----
-
-# 9. Source-Supported Operators
-
-The source explicitly proposes operator-like forms.
-
-## Difference
-
-```text
-Δ(x) = distinguish(x)
-```
-
-## Boundary
-
-```text
-B = ∂System
-```
-
-## Space
-
-```text
-S = {possible states}
-```
-
-## Translation
-
-```text
-Z₂ = τ(Z₁)
-```
-
-## Constraint
-
-```text
-Valid = C(x) ≤ threshold
-```
-
-## Capacity
-
-```text
-Feasible = Load ≤ Capacity
-```
-
-## Selection
-
-```text
-Keep = Select(x | constraint, repetition, utility)
-```
-
-## Coupling
-
-```text
-Xᵢ(t+1) =
-Xᵢ(t) + Σ Λᵢⱼ Xⱼ(t)
-```
-
-## Weighting
-
-```text
-Weighted Signal = Π × Signal
-```
-
-## Perturbation
-
-```text
-X′ = X + Ξ
-```
-
-## Feedback
-
-```text
-Error = Actual − Expected
-```
-
-## Mutation
-
-```text
-θ(t+1) =
-θ(t) + Δθ(Feedback)
-```
-
-These SHALL be classified:
-
-```text
-SOURCE_CLAIM / AMOS MODEL
-```
-
-unless separately mathematically or empirically validated for a specified domain.
-
----
-
-# 10. Composite Generator Forms
-
-The recovered source additionally proposes composites:
-
-```text
-Law
-=
-Constraint + Selection + Feedback
-```
-
-```text
-Memory
-=
-Selection + Retention + Weighting
-```
-
-```text
-Perception
-=
-Translation + Weighting + Feedback
-```
-
-```text
-Action
-=
-Space + Constraint + Capacity + Selection
-```
-
-```text
-Intelligence
-=
-Translation + Selection + Feedback + Mutation
-```
-
-```text
-Collapse
-=
-Load > Capacity + Failed Feedback
-```
-
-```text
-Recovery
-=
-Feedback + Mutation + Capacity Restoration
-```
-
-```text
-Identity
-=
-Boundary + Selection + Retention over Time
-```
-
-These are structural AMOS compositions.
-
-They are **not empirical definitions** of memory, perception, intelligence, identity, collapse, or recovery.
-
----
-
-# 11. Expansion Operators
-
-The source defines seven expansion classes.
-
-## E01 — Axis Expansion
-
-Conceptually:
-
-```text
-Node
-→
-Node(
-  time,
-  scale,
-  agent,
-  domain,
-  uncertainty,
-  energy,
-  constraint,
-  coupling,
-  adversarial,
-  representation_layer
-)
-```
-
-## E02 — Cross-Parent Expansion
-
-```text
-Pᵢ × Pⱼ → candidate family
-```
-
-## E03 — Cross-Space Expansion
-
-One parent may yield different behavior across representation/state spaces.
-
-## E04 — Loop Expansion
-
-```text
-fast loop
-slow loop
-meta loop
-```
-
-may produce different behavior.
-
-## E05 — Failure Expansion
-
-Each eligible object may be considered under:
-
-```text
-NORMAL
-DEGRADED
-FAILED
-RECOVERING
-```
-
-## E06 — Adversarial Expansion
-
-Each eligible object may be considered under:
-
-```text
-NATURAL
-ADVERSARIAL
-DEFENDED
-COMPROMISED
-```
-
-## E07 — Unknown Expansion
-
-Each eligible object may be classified:
-
-```text
-KNOWN
-UNCERTAIN
-UNKNOWN
-UNKNOWABLE
-```
-
-These are source-supported architecture concepts.
-
----
-
-# 12. Meta-Generation
-
-The source proposes:
-
-```text
-Structure(t+1)
-=
-Generate(
-    Structure(t),
-    Feedback,
-    Failure,
-    Unknown
-)
-```
-
-For Matrix governance this MUST be bounded.
-
-Meta-generation may produce:
-
-```text
-candidate structure
-candidate operator
-candidate relation
-candidate package
-candidate schema
-candidate generator
-```
-
-but:
-
-```text
-candidate structure
-!=
-accepted architecture
-```
-
-Any architecture-changing output must pass governance before promotion.
-
----
-
-# 13. Generator Interaction
-
-The source represents all generators as interacting:
-
-```text
-Δ ↔ B ↔ S ↔ τ ↔ C ↔ Ω ↔ Ψ ↔ Λ ↔ Π ↔ Ξ ↔ Γ ↔ Θ
-```
-
-This supports the architectural proposition that generator operations should not necessarily be modeled as isolated functions.
-
-However:
-
-```text
-"all pairwise interactions exist"
-```
-
-is stronger than merely listing an interaction chain.
-
-The exact semantics of all:
-
-[
-12 \times 11 / 2 = 66
-]
-
-unordered pairwise generator interactions have not been independently recovered here.
-
-Therefore:
-
-```text
-FULL_PAIRWISE_SEMANTICS = UNKNOWN/GAP
-```
-
----
-
-# 14. Invariants
-
-## INV-GEN-001 — Proposal Boundary
-
-```text
-GENERATED(x)
-!=
-COMMITTED(x)
-```
-
----
-
-## INV-GEN-002 — Validation Boundary
-
-```text
-GENERATED(x)
-!=
-VALIDATED(x)
-```
-
----
-
-## INV-GEN-003 — Authority Boundary
-
-```text
-GENERATOR_CAPABILITY
-!=
-GENERATOR_AUTHORITY
-```
-
----
-
-## INV-GEN-004 — Canon Boundary
-
-```text
-GENERATED_MODEL
-!=
-AMOS_CANON
-```
-
----
-
-## INV-GEN-005 — Provenance Preservation
-
-Every generated candidate SHALL preserve derivation ancestry.
-
-Conceptually:
-
-```text
-Prov(output)
-⊇
-Prov(input)
-+
-GeneratorInvocation
-```
-
----
-
-## INV-GEN-006 — Confidence Ceiling
-
-For load-bearing premises:
-
-```text
-Conf(output)
-≤
-min Conf(load-bearing premises)
-```
-
-unless independently revalidated.
-
----
-
-## INV-GEN-007 — Scope Preservation
-
-Generation SHALL NOT silently widen applicability.
-
-```text
-Scope(output)
-⊆
-authorized / supported scope
-```
-
-unless explicit scope expansion is separately justified.
-
----
-
-## INV-GEN-008 — Regime Preservation
-
-A generated candidate inherits relevant regime constraints from its premises.
-
----
-
-## INV-GEN-009 — Unknown Preservation
-
-```text
-UNKNOWN/GAP
-```
-
-cannot become:
-
-```text
-PASS
-```
-
-merely through generation.
-
----
-
-## INV-GEN-010 — Mutation Governance
-
-`Θ` may generate a mutation candidate.
-
-It SHALL NOT autonomously authorize architectural mutation.
-
----
-
-## INV-GEN-011 — Failure Visibility
-
-Generation failure SHALL remain visible and SHALL NOT be replaced with fabricated output.
-
----
-
-## INV-GEN-012 — Reversibility
-
-Before durable mutation:
-
-```text
-previous valid state
-```
-
-must remain recoverable where the substrate supports rollback.
-
----
-
-# 15. Dependencies
-
-The source explicitly connects the generator architecture to:
-
-```text
-7-Part Canon
-Quantum Library architecture
-MURK reasoning
-brain-state architecture
-memory
-skills
-workflows
-vault
-```
-
-For the Cognitive Matrix package, dependency classes should be separated.
-
-### Structural dependencies
-
-```text
-matrix object registry
-primitive registry
-state schemas
-operator schemas
-dependency graph
-routing
-validation
-```
-
-### Governance dependencies
-
-```text
-control planes
-authority state
-provenance
-RSCF
-GMEF where applicable
-version lineage
-commit mechanism
-rollback mechanism
-```
-
-### Source dependencies
-
-The recovered source names seven Canon parts:
-
-```text
-Constraint
-Flow
-Structure
-Enforcement
-Time
-Adaptation
-Termination
-```
-
-Its proposed mapping must remain source-attributed pending canon reconciliation.
-
----
-
-# 16. 7-Part Canon Mapping
-
-Current source mapping:
-
-| Canon component | Generator relationship                 |
-| --------------- | -------------------------------------- |
-| Constraint      | `C`, `Ω`, `B`                          |
-| Flow            | generator transformation cycle         |
-| Structure       | generator set + interactions           |
-| Enforcement     | `C`, `Γ`, `B`                          |
-| Time            | `Θ` + loop hierarchy                   |
-| Adaptation      | `Θ`, `Ψ`                               |
-| Termination     | capacity failure / feedback / recovery |
-
-Classification:
-
-```text
-SOURCE_CLAIM / STRUCTURAL MODEL
-```
-
-Not:
-
-```text
-empirically universal law
-```
-
----
-
-# 17. H/M/L Applicability
-
-The generator package should operate recursively across H/M/L.
-
-## H — Governing/System Scale
-
-Generators may operate on:
-
-```text
-architecture
-system boundaries
-global constraints
-control policy
-ontology
-cross-package relationships
-system-wide mutation candidates
-```
-
-Example:
-
-```text
-Θ_H
-=
-candidate architecture mutation
-```
-
----
-
-## M — Subsystem/Object Scale
-
-Generators may operate on:
-
-```text
-cognitive primitive families
-entities
-workflows
-agents
-Skills
-protocols
-dependency clusters
-```
-
-Example:
-
-```text
-B_M
-=
-candidate subsystem boundary
-```
-
----
-
-## L — Local/Evidence Scale
-
-Generators may operate on:
-
-```text
-individual observations
-variables
-claims
-state transitions
-records
-local distinctions
-local translations
-```
-
-Example:
-
-```text
-Δ_L
-=
-distinguish two candidate observations
-```
-
----
-
-# 18. Cross-Scale Constraint
-
-Generation at one scale SHALL NOT automatically propagate to another.
-
-```text
-L candidate
-!=
-M truth
-
-M candidate
-!=
-H architecture
-```
-
-Cross-scale promotion requires explicit translation and validation.
-
-Conceptually:
-
-```text
-Promote(L → M)
-requires:
-  dependency closure
-  scope compatibility
-  provenance preservation
-  contradiction check
-  validation
-
-Promote(M → H)
-requires:
-  governance review
-  system-impact analysis
-  authority
-  rollback readiness
-```
-
----
-
-# 19. Control-Plane Requirements
-
-`12_GENERATORS` SHOULD remain a proposal-producing infrastructure component beneath authoritative control.
-
-Control-plane responsibilities include:
-
-```text
-input admission
-generator eligibility
-scope validation
-authority validation
-resource limits
-recursion limits
-provenance capture
-dependency capture
-conflict detection
-validation routing
-commit authorization
-rollback
-version finalization
-```
-
-The generator itself should not own final authority.
-
----
-
-# 20. Candidate Control States
-
-```text
-IDLE
-
-INPUT_ADMITTED
-
-GENERATION_PENDING
-
-GENERATING
-
-CANDIDATE_CREATED
-
-VALIDATION_PENDING
-
-REJECTED
-
-QUARANTINED
-
-APPROVED_FOR_SCOPE
-
-COMMIT_PENDING
-
-COMMITTED
-
-ROLLED_BACK
-```
-
-No direct transition should exist from:
-
-```text
-CANDIDATE_CREATED
-```
-
-to:
-
-```text
-COMMITTED
-```
-
-without required governance.
-
----
-
-# 21. Agents
-
-Candidate logical roles:
-
-## Generator Agent
-
-Produces candidate transformations.
-
-Authority:
-
-```text
-PROPOSAL_ONLY
-```
-
-## Validation Agent
-
-Tests generated candidates against:
-
-```text
-types
-invariants
-dependencies
-scope
-regime
-provenance
-falsifiers
-```
-
-## Adversarial Validator
-
-Attempts to invalidate the candidate using a genuinely different checking path.
-
-## Provenance Agent
-
-Maintains derivation ancestry.
-
-## Repair Agent
-
-Generates bounded repair candidates after failure.
-
-## Control-Plane Agent
-
-Coordinates authorization and commit state.
-
-These are logical roles.
-
-```text
-LOGICAL AGENT ROLE
-!=
-DEPLOYED AUTONOMOUS AGENT
-```
-
----
-
-# 22. Skills
-
-Potential Skill dependencies include capabilities for:
-
-```text
-distinction analysis
-boundary analysis
-translation
-constraint propagation
-selection
-coupling analysis
-weighting
-perturbation/stress testing
-feedback
-mutation governance
-provenance
-RSCF
-GMEF
-repair
-validation
-```
-
-Skill availability does not prove integration.
-
-```text
-SKILL ADDRESSABLE
-!=
-GENERATOR IMPLEMENTED
-```
-
----
-
-# 23. Primary Workflow
-
-```text
-INPUT
-  ↓
-ADMISSION
-  ↓
-TYPE CHECK
-  ↓
-SCOPE CHECK
-  ↓
-PROVENANCE CHECK
-  ↓
-SELECT GENERATOR
-  ↓
-CHECK GENERATOR PRECONDITIONS
-  ↓
-GENERATE CANDIDATE
-  ↓
-CAPTURE DERIVATION
-  ↓
-ASSIGN EPISTEMIC CLASS
-  ↓
-CALCULATE CONFIDENCE CEILING
-  ↓
-CHECK INVARIANTS
-  ↓
-CHECK DEPENDENCIES
-  ↓
-CHECK COMPETING CANDIDATES
-  ↓
-ADVERSARIAL VALIDATION
-  ↓
-ACCEPT / REJECT / QUARANTINE
-  ↓
-IF EFFECTFUL:
-    CONTROL-PLANE AUTHORIZATION
-  ↓
-COMMIT OR RETURN PROPOSAL
-```
-
----
-
-# 24. Mutation Workflow
-
-Because `Θ` can alter model or architecture state, it requires stricter governance.
-
-```text
-CURRENT STATE
-  ↓
-FEEDBACK / FAILURE / GAP
-  ↓
-MUTATION PROPOSAL
-  ↓
-PRESERVE CURRENT VERSION
-  ↓
-GENERATE MUTANT
-  ↓
-STATIC VALIDATION
-  ↓
-DEPENDENCY IMPACT ANALYSIS
-  ↓
-ADVERSARIAL TEST
-  ↓
-REGRESSION TEST
-  ↓
-COMPARE CURRENT vs MUTANT
-  ↓
-GOVERNANCE DECISION
-  ├── REJECT
-  ├── QUARANTINE
-  ├── SANDBOX
-  └── APPROVE
-  ↓
-BOUNDED COMMIT
-  ↓
-POST-COMMIT VALIDATION
-  ↓
-ROLLBACK IF INVALID
-```
-
----
-
-# 25. Failure-Expansion Workflow
-
-Source-supported state expansion:
-
-```text
-NORMAL
-↓
-DEGRADED
-↓
-FAILED
-↓
-RECOVERY
-```
-
-This should not be interpreted as requiring every object to pass through all four states sequentially.
-
-Instead it provides candidate analysis regimes.
-
----
-
-# 26. Adversarial Expansion
-
-For an eligible generated structure:
-
-```text
-NATURAL
-ADVERSARIAL
-DEFENDED
-COMPROMISED
-```
-
-should remain separate states.
-
-A candidate that succeeds in a natural regime may fail under adversarial conditions.
-
-Therefore:
-
-```text
-VALID_NATURAL
-!=
-VALID_ADVERSARIAL
-```
-
----
-
-# 27. Unknown Expansion
-
-The source proposes:
-
-```text
-KNOWN
-UNCERTAIN
-UNKNOWN
-UNKNOWABLE
-```
-
-The generator infrastructure SHALL preserve these distinctions.
-
-In particular:
-
-```text
-UNKNOWN
-```
-
-must not be transformed into apparent certainty merely because a generator can synthesize a plausible completion.
-
----
-
-# 28. Protocols
-
-Minimum generator invocation protocol:
-
-```yaml
-GeneratorInvocation:
-
-  invocation_id: string
-
-  generator: GeneratorType
-
-  caller: AgentRef
-
-  input: GeneratorInput
-
-  requested_effect:
-    enum:
-      - ANALYZE
-      - GENERATE
-      - SIMULATE
-      - PROPOSE_MUTATION
-
-  authority_context: AuthorityContext
-
-  state_version: string
-
-  provenance: ProvenanceRef[]
-
-  timestamp: string
-```
-
-Response:
-
-```yaml
-GeneratorResponse:
-
-  invocation_id: string
-
-  status:
-    enum:
-      - SUCCESS
-      - REJECTED
-      - QUARANTINED
-      - FAILED
+policy_engine_response:
+  request_id: string
+
+  evaluation_id: string
+
+  decision:
+    decision_id: string
+
+    state:
+      - ALLOW
+      - DENY
+      - CONDITIONAL
+      - ESCALATE
+      - REVALIDATE
+      - CONFLICT
       - UNKNOWN_GAP
 
-  candidates: []
+    reason_codes: []
 
-  provenance: []
+  policies:
+    discovered: []
+    applicable: []
+    non_applicable: []
+    unresolved: []
 
-  dependencies: []
+  evaluations: []
+
+  obligations: []
+  prohibitions: []
+  conditions: []
+
+  conflicts: []
+
+  scope: {}
+  regime: {}
+
+  freshness: {}
+
+  provenance: {}
 
   uncertainty: {}
 
-  falsifiers: []
-
-  confidence_ceiling: 0
-
-  commit_authorized: false
+  confidence_ceiling: null
 ```
 
 ---
 
-# 29. Evidence / Provenance
+# 7. Policy Registry Dependency
 
-Every generated object SHOULD retain:
+The Policy Engine MUST NOT invent governing policies.
+
+Policies SHOULD be resolved through the governed policy registry.
+
+Conceptually:
 
 ```text
-source object identity
-source version
-generator identity
-generator version
-operator sequence
-parameters
-dependencies
-scope
-regime
-timestamp
-caller
-validator
-authority context
-parent generation
+POLICY_REGISTRY
+      ↓
+candidate policy identities
+      ↓
+POLICY_ENGINE
 ```
 
-Candidate provenance record:
+The registry establishes:
+
+```text
+policy identity;
+version;
+status;
+scope;
+supersession;
+dependency;
+source/canon lineage;
+governance status.
+```
+
+The engine evaluates those policies.
+
+---
+
+# 8. Registry/Engine Separation
+
+```text
+POLICY_REGISTRY:
+"What policies exist?"
+
+POLICY_ENGINE:
+"Which policies apply and what do they conclude?"
+
+POLICY_DECISION:
+"What was the resulting policy conclusion?"
+```
+
+These surfaces MUST remain separate.
+
+---
+
+# 9. Capability Dependency
+
+The Policy Engine MAY consume a `RESOLVED_CAPABILITY_CONTRACT`.
+
+This allows policy to evaluate the actual resolved operation rather than a vague capability name.
+
+Example:
 
 ```yaml
-GenerationProvenance:
+capability_binding:
+  capability_id: "CAP_WRITE_RESOURCE"
+  capability_version: "2.1.0"
+  provider_id: "PROVIDER_X"
+  resolved_contract_hash: "sha256:*"
+```
 
-  generation_id: null
+Policy evaluation SHOULD bind to the resolved contract where provider or effect characteristics are policy-sensitive.
 
-  parent_object_ids: []
+---
 
-  source_refs: []
+# 10. Capability Boundary
 
-  generator:
-    id: null
-    version: null
+A resolved capability means:
 
-  transformation_sequence: []
+```text
+the system knows how the operation could potentially be performed
+```
 
-  generated_at: null
+It does NOT mean:
 
-  generated_by: null
+```text
+policy permits the operation
+```
 
-  validation_refs: []
+Therefore:
 
-  authority_refs: []
-
-  commit_ref: null
+```text
+CapabilityResolved(C)
+↛
+PolicyAllow(C)
 ```
 
 ---
 
-# 30. Provenance Independence
+# 11. Context Normalization
 
-Multiple candidates produced from the same source through superficial transformations SHALL NOT be counted as independent evidence.
+The first engine stage SHOULD normalize incoming context.
+
+Conceptually:
+
+```text
+RAW REQUEST
+    ↓
+NORMALIZE
+    ↓
+POLICY_CONTEXT
+```
+
+The normalized context SHOULD include:
+
+```yaml
+policy_context:
+  principal: {}
+  action: {}
+  capability: {}
+  target: {}
+  effect: {}
+  environment: {}
+  scope: {}
+  regime: {}
+  time: {}
+  authority: {}
+  constraints: {}
+  evidence: {}
+  transaction: {}
+```
+
+---
+
+# 12. Normalization Invariant
+
+Normalization MUST NOT silently alter the semantic action.
+
+For example:
+
+```text
+"send this email"
+```
+
+may normalize to:
+
+```text
+action_class = COMMUNICATE
+operation = SEND_EMAIL
+effect_class = EXTERNAL_COMMUNICATION
+```
+
+but MUST NOT normalize to:
+
+```text
+READ_ONLY
+```
+
+to avoid stricter policy.
+
+---
+
+# 13. Policy Discovery
+
+The discovery stage identifies potentially governing policies.
+
+```text
+DISCOVER_POLICIES(context)
+→ CandidatePolicySet
+```
+
+Discovery SHOULD consider:
+
+```text
+principal;
+action;
+operation;
+capability;
+provider;
+target;
+resource class;
+domain;
+environment;
+jurisdiction;
+effect class;
+scope;
+regime;
+time.
+```
+
+---
+
+# 14. Discovery Rule
+
+The engine SHOULD prefer a superset of potentially applicable policies over prematurely excluding a governing policy.
+
+However, discovery MUST remain bounded.
+
+Unrelated policy families SHOULD NOT be loaded when they cannot materially affect the decision.
+
+This preserves the AMOS smallest-sufficient-proof principle.
+
+---
+
+# 15. Policy Identity Resolution
+
+Every discovered policy MUST resolve to a stable identity.
+
+Recommended identity:
+
+```yaml
+policy_identity:
+  policy_id: string
+  version: string
+  content_hash: string
+  registry_id: string
+
+  status:
+    - ACTIVE
+    - DRAFT
+    - DEPRECATED
+    - SUPERSEDED
+    - REVOKED
+    - QUARANTINED
+
+  source_refs: []
+  supersedes: []
+  superseded_by: []
+```
+
+---
+
+# 16. Identity Invariant
+
+The engine MUST NOT evaluate two materially different policy contents as the same policy version.
+
+Where authoritative state can change independently of scalar version:
+
+```text
+policy_id
++ version
++ content_hash
+```
+
+SHOULD be used.
+
+---
+
+# 17. Policy Status Gate
+
+Policy status affects admissibility.
+
+Conceptually:
+
+```text
+ACTIVE
+→ eligible for applicability evaluation
+
+DRAFT
+→ not governing unless explicitly authorized
+
+SUPERSEDED
+→ historical unless supersession rules require inspection
+
+REVOKED
+→ not current governing authority
+
+QUARANTINED
+→ blocked pending integrity review
+```
+
+---
+
+# 18. Applicability Engine
+
+For each candidate policy:
+
+```text
+RESOLVE_APPLICABILITY(policy, context)
+→ applicability
+```
+
+Possible states:
+
+```text
+APPLICABLE
+NOT_APPLICABLE
+CONDITIONAL
+UNKNOWN_GAP
+```
+
+---
+
+# 19. Applicability Dimensions
+
+Applicability MAY depend on:
+
+```text
+principal;
+principal class;
+delegation;
+action;
+operation;
+capability;
+provider;
+target;
+resource;
+domain;
+environment;
+jurisdiction;
+effect class;
+consequence class;
+scope;
+regime;
+time;
+authority state.
+```
+
+---
+
+# 20. Applicability Object
+
+```yaml
+policy_applicability:
+  policy_id: string
+  version: string
+
+  result:
+    - APPLICABLE
+    - NOT_APPLICABLE
+    - CONDITIONAL
+    - UNKNOWN_GAP
+
+  dimensions:
+    principal: null
+    action: null
+    capability: null
+    target: null
+    environment: null
+    jurisdiction: null
+    effect: null
+    scope: null
+    regime: null
+    temporal: null
+
+  matched: []
+  failed: []
+  unresolved: []
+
+  evidence_refs: []
+```
+
+---
+
+# 21. Unknown Applicability
+
+If a potentially governing policy has unresolved applicability and could change the final decision:
+
+```text
+OutcomeSensitive(policy) = true
+```
+
+then the engine MUST NOT silently discard it.
+
+The result SHOULD become:
+
+```text
+UNKNOWN_GAP
+```
+
+or:
+
+```text
+ESCALATE
+```
+
+depending on policy.
+
+---
+
+# 22. Predicate Engine
+
+Policies frequently depend on predicates.
+
+Examples:
+
+```text
+PrincipalIsAuthorizedClass
+ResourceIsSensitive
+EnvironmentIsProduction
+EffectIsPersistent
+HumanApprovalExists
+TargetBelongsToTenant
+ExceptionIsValid
+PolicyIsFresh
+```
+
+Each predicate SHOULD resolve to:
+
+```text
+TRUE
+FALSE
+UNKNOWN
+CONFLICT
+```
+
+---
+
+# 23. Predicate Object
+
+```yaml
+predicate_result:
+  predicate_id: string
+
+  value:
+    - TRUE
+    - FALSE
+    - UNKNOWN
+    - CONFLICT
+
+  evidence_refs: []
+
+  provenance: []
+
+  evaluated_at: timestamp
+
+  confidence_ceiling: null
+```
+
+---
+
+# 24. Predicate Invariant
+
+Missing evidence MUST NOT be coerced to whichever value enables execution.
+
+Therefore:
+
+```text
+UNKNOWN != FALSE
+UNKNOWN != TRUE
+```
+
+unless the governing policy explicitly defines a fail-closed or fail-open semantic.
+
+For consequential actions, fail-closed SHOULD generally be preferred where policy requires certainty.
+
+---
+
+# 25. Rule Engine
+
+Each applicable policy contains one or more policy rules.
+
+Conceptually:
+
+```text
+Rule =
+Conditions
+→
+Decision
++ Obligations
++ Prohibitions
++ Requirements
+```
+
+Example:
+
+```yaml
+rule:
+  rule_id: "RULE_PERSISTENT_WRITE_001"
+
+  when:
+    effect_class: E3_PERSISTENT_WRITE
+
+  require:
+    - valid_authority
+    - commit_revalidation
+
+  result:
+    if_satisfied: ALLOW
+    if_unsatisfied: DENY
+    if_unknown: ESCALATE
+```
+
+---
+
+# 26. Rule Evaluation
+
+```text
+EVALUATE_RULE(rule, context, predicates)
+→ RuleEvaluation
+```
+
+Recommended output:
+
+```yaml
+rule_evaluation:
+  policy_id: string
+  rule_id: string
+
+  result:
+    - ALLOW
+    - DENY
+    - CONDITIONAL
+    - ESCALATE
+    - NOT_APPLICABLE
+    - UNKNOWN_GAP
+
+  matched_predicates: []
+  failed_predicates: []
+  unresolved_predicates: []
+
+  obligations: []
+  prohibitions: []
+  conditions: []
+
+  evidence_refs: []
+```
+
+---
+
+# 27. Rule Determinism
+
+Where policy semantics are declared deterministic:
+
+```text
+same validated inputs
++ same policy versions
++ same evaluation semantics
+→ same policy result
+```
+
+This does NOT mean the entire AMOS system is globally deterministic.
+
+External evidence, mutable state, model workers, time, and authority may change between evaluations.
+
+---
+
+# 28. Policy Exception Engine
+
+Exceptions MUST be explicit.
+
+```text
+EVALUATE_EXCEPTION(exception, context)
+→ ExceptionResult
+```
+
+An exception SHOULD include:
+
+```yaml
+policy_exception:
+  exception_id: string
+
+  policy_id: string
+  rule_id: null
+
+  principal_scope: []
+  action_scope: []
+  resource_scope: []
+
+  valid_from: null
+  valid_until: null
+
+  issuer: null
+  authority_ref: null
+
+  conditions: []
+
+  revoked: false
+
+  provenance: []
+```
+
+---
+
+# 29. Exception Validation
+
+The engine MUST validate:
+
+```text
+identity;
+issuer;
+authority;
+scope;
+target;
+action;
+time;
+conditions;
+revocation;
+provenance.
+```
+
+An exception outside any one required boundary is invalid.
+
+---
+
+# 30. Exception Narrowness
+
+An exception MUST NOT broaden itself.
+
+Conceptually:
+
+```text
+AppliedExceptionScope
+⊆
+DeclaredExceptionScope
+⊆
+AuthorizedExceptionScope
+```
+
+---
+
+# 31. Revocation
+
+Revoked exceptions MUST NOT remain active because of cached policy decisions.
+
+If:
+
+```text
+Exception.revoked = true
+```
+
+then dependent decisions SHOULD be invalidated.
+
+---
+
+# 32. Policy Composition Engine
+
+After individual rules are evaluated:
+
+```text
+COMPOSE({
+    PolicyEvaluation1,
+    PolicyEvaluation2,
+    ...
+})
+→ CompositePolicyDecision
+```
+
+Composition MUST preserve incompatible results until valid resolution exists.
+
+---
+
+# 33. Composition Inputs
+
+Composition SHOULD consider:
+
+```text
+policy precedence;
+policy status;
+policy scope;
+specificity;
+jurisdiction;
+supersession;
+exception relationships;
+hard/soft classification;
+temporal validity;
+explicit override rules.
+```
+
+---
+
+# 34. Hard Deny
+
+Where a governing policy defines a hard prohibition:
+
+```text
+HardDeny = true
+```
+
+the engine MUST NOT override it merely because other policies return `ALLOW`.
+
+An override requires explicit policy and authority basis.
+
+---
+
+# 35. Conditional Composition
 
 Example:
 
 ```text
-Source A
-├── Candidate A1
-├── Candidate A2
-└── Candidate A3
+P1 → ALLOW
+P2 → CONDITIONAL(A)
+P3 → CONDITIONAL(B)
 ```
 
-does not equal:
+may compose to:
 
 ```text
-3 independent confirmations
+CONDITIONAL(A ∧ B)
 ```
 
-All three share ancestry.
+subject to governing precedence semantics.
 
 ---
 
-# 31. Uncertainty Vector
+# 36. Unknown Composition
 
-Generator outputs should distinguish:
+If:
+
+```text
+P1 → ALLOW
+P2 → UNKNOWN_GAP
+```
+
+and `P2` could contain a governing prohibition:
+
+```text
+Final != ALLOW
+```
+
+The appropriate result is:
+
+```text
+UNKNOWN_GAP
+```
+
+or:
+
+```text
+ESCALATE
+```
+
+---
+
+# 37. Conflict Engine
+
+The engine MUST detect policy conflicts.
+
+Conflict classes MAY include:
+
+```text
+ALLOW_DENY
+REQUIRE_PROHIBIT
+SCOPE_CONFLICT
+JURISDICTION_CONFLICT
+PRECEDENCE_CONFLICT
+EXCEPTION_CONFLICT
+TEMPORAL_CONFLICT
+AUTHORITY_CONFLICT
+```
+
+---
+
+# 38. Conflict Object
 
 ```yaml
-uncertainty:
+policy_conflict:
+  conflict_id: string
 
-  evidence: null
+  policies: []
 
-  model: null
+  rules: []
 
-  scope: null
+  conflict_type: string
 
-  temporal: null
+  scope: {}
+  regime: {}
 
-  causal: null
+  precedence_candidates: []
 
-  execution: null
+  resolution:
+    state:
+      - RESOLVED
+      - UNRESOLVED
 
-  provenance_independence: null
-```
+    basis: null
 
-Generation frequently increases model uncertainty even when structural completeness increases.
-
-Therefore:
-
-```text
-MORE GENERATED STRUCTURE
-!=
-MORE EPISTEMIC CERTAINTY
+  evidence_refs: []
 ```
 
 ---
 
-# 32. Confidence Ceiling
+# 39. Conflict Preservation
 
-For candidate `G` derived from premises:
+If conflict cannot be validly resolved:
 
-[
-P_1,\dots,P_n
-]
+```text
+FinalDecision = CONFLICT
+```
 
-AMOS governance requires:
-
-[
-Conf(G)
-\le
-\min_i Conf(P_i)
-]
-
-for load-bearing premises unless the candidate obtains independent validation.
-
-Generated fluency or structural elegance SHALL NOT raise the confidence ceiling.
+The engine MUST NOT choose a preferred result merely to complete the workflow.
 
 ---
 
-# 33. Failure Modes
+# 40. Precedence Engine
 
-## FM-GEN-001 — Hallucinated Completion
+Precedence MUST come from explicit governance.
 
-Generator fills an unknown architectural region without source support.
-
-Response:
+Potential bases:
 
 ```text
-QUARANTINE
+canon hierarchy;
+law/regulation;
+organizational authority;
+policy hierarchy;
+explicit supersession;
+specific-over-general rule;
+temporal supersession;
+jurisdictional rule.
+```
+
+No policy outranks another merely because:
+
+```text
+it was loaded first;
+it is newer;
+it is more convenient;
+it has a higher numeric ID;
+an agent prefers it.
+```
+
+unless such ordering is explicitly canonical.
+
+---
+
+# 41. Precedence Object
+
+```yaml
+policy_precedence:
+  higher_policy: string
+  lower_policy: string
+
+  basis: string
+
+  scope: {}
+
+  regime: {}
+
+  evidence_refs: []
+
+  authority_ref: null
 ```
 
 ---
 
-## FM-GEN-002 — Canon Laundering
+# 42. Supersession Engine
 
-Generated MODEL content is subsequently presented as AMOS canon.
-
-Response:
+Policy version evolution SHOULD preserve explicit lineage.
 
 ```text
-INVALIDATE PROMOTION
-RESTORE MODEL LABEL
+P_v1
+  ↓ superseded by
+P_v2
+  ↓ superseded by
+P_v3
+```
+
+The engine SHOULD be able to determine the currently applicable version.
+
+---
+
+# 43. Supersession Invariant
+
+Newer timestamp alone does not prove supersession.
+
+Supersession SHOULD require explicit lineage or authoritative registry state.
+
+---
+
+# 44. Obligation Extraction
+
+Policy evaluation MAY generate obligations.
+
+Examples:
+
+```text
+record provenance;
+request approval;
+redact fields;
+retain audit log;
+encrypt output;
+obtain receiver receipt;
+revalidate at commit;
+notify responsible authority.
+```
+
+These MUST survive into the `POLICY_DECISION`.
+
+---
+
+# 45. Prohibition Extraction
+
+Prohibitions SHOULD be represented explicitly.
+
+Example:
+
+```yaml
+prohibition:
+  prohibition_id: string
+  policy_id: string
+  rule_id: string
+
+  operation: string
+
+  target_scope: {}
+
+  hard: true
+```
+
+Prohibitions MUST NOT disappear into explanation text.
+
+---
+
+# 46. Condition Extraction
+
+Conditions SHOULD identify exactly what must become true before conditional policy permission can become valid.
+
+```yaml
+condition:
+  condition_id: string
+
+  predicate: string
+
+  required_value: true
+
+  current_state:
+    - SATISFIED
+    - UNSATISFIED
+    - UNKNOWN_GAP
+
+  evidence_refs: []
 ```
 
 ---
 
-## FM-GEN-003 — Authority Escalation
+# 47. Policy Decision Builder
 
-Generator attempts to commit its own proposal.
-
-Response:
+The decision builder converts composed evaluation state into the canonical `POLICY_DECISION`.
 
 ```text
+BUILD_DECISION(
+    normalized_context,
+    applicable_policies,
+    evaluations,
+    conflicts,
+    obligations,
+    prohibitions,
+    conditions
+)
+→ POLICY_DECISION
+```
+
+---
+
+# 48. Decision State Space
+
+Canonical engine decision states:
+
+```text
+ALLOW
 DENY
-```
-
----
-
-## FM-GEN-004 — Provenance Loss
-
-Candidate loses source ancestry.
-
-Response:
-
-```text
-REJECT / QUARANTINE
-```
-
----
-
-## FM-GEN-005 — Recursive Explosion
-
-Generator repeatedly expands generated structures.
-
-Potential symptom:
-
-```text
-candidate count → unbounded
-```
-
-Required mitigation:
-
-```text
-depth limit
-budget limit
-novelty threshold
-dependency relevance gate
-```
-
----
-
-## FM-GEN-006 — Generator Collision
-
-Two generators produce incompatible candidate transformations.
-
-Response:
-
-```text
-COMPETING
-```
-
-until discriminating evidence exists.
-
----
-
-## FM-GEN-007 — Scope Leakage
-
-A local candidate is generalized system-wide.
-
-Response:
-
-```text
-INVALIDATE EXPANDED CLAIM
-```
-
----
-
-## FM-GEN-008 — Regime Leakage
-
-A candidate valid under one operating regime is reused under another.
-
----
-
-## FM-GEN-009 — Confidence Inflation
-
-Generated candidate receives confidence above its premises.
-
----
-
-## FM-GEN-010 — Pairwise Interaction Explosion
-
-Unbounded combinations of 12 generators create combinatorial expansion without decision value.
-
----
-
-## FM-GEN-011 — Mutation Without Rollback
-
-Architecture mutation is applied without preserving prior valid state.
-
----
-
-## FM-GEN-012 — Unknown Suppression
-
-Generator replaces `UNKNOWN/GAP` with plausible synthetic content.
-
----
-
-## FM-GEN-013 — Validation Circularity
-
-The same generator or same derivation path both generates and “independently validates” a candidate.
-
----
-
-## FM-GEN-014 — Stale Generation
-
-Candidate is generated from superseded source or state.
-
----
-
-## FM-GEN-015 — Dependency Breakage
-
-Generated mutation violates downstream package contracts.
-
----
-
-# 34. Repair / Recovery
-
-Generic repair sequence:
-
-```text
-FAILURE DETECTED
-↓
-IDENTIFY FAILED PREMISE / OPERATOR / EDGE
-↓
-FREEZE EFFECTFUL COMMIT
-↓
-PRESERVE FAILURE EVIDENCE
-↓
-INVALIDATE DEPENDENT CANDIDATES ONLY
-↓
-ROLL BACK TO NEAREST VALID STATE
-↓
-RECLASSIFY GAP
-↓
-SELECT ALTERNATIVE GENERATOR OR INPUT
-↓
-REGENERATE LOCALLY
-↓
-REVALIDATE
-```
-
-Hard rule:
-
-```text
-FAILED GENERATION PATH
-```
-
-SHALL NOT simply be repeated without changed evidence, constraints, generator, or state.
-
----
-
-# 35. Selective Invalidation
-
-If premise `P` fails:
-
-```text
-Invalid(P)
-→
-Invalidate(Descendants(P))
-```
-
-but unrelated generator outputs should remain intact.
-
-Therefore:
-
-```text
-LOCAL FAILURE
-!=
-GLOBAL MATRIX INVALIDATION
-```
-
-unless the failed premise is globally load-bearing.
-
----
-
-# 36. Tests / Validators
-
-## T-GEN-001 — Registry Test
-
-Exactly the source-supported generator identifiers can be resolved.
-
-Expected:
-
-```text
-12
-```
-
-unless a later canonical version supersedes the registry.
-
----
-
-## T-GEN-002 — Unknown Preservation
-
-Input:
-
-```text
-source = UNKNOWN/GAP
-```
-
-Expected:
-
-```text
-output cannot become VERIFIED
-without independent evidence
-```
-
----
-
-## T-GEN-003 — Provenance Preservation
-
-Every output retains its input ancestry.
-
----
-
-## T-GEN-004 — Confidence Ceiling
-
-Generated confidence cannot exceed weakest load-bearing premise.
-
----
-
-## T-GEN-005 — Proposal Boundary
-
-Generation does not automatically commit.
-
----
-
-## T-GEN-006 — Authority Boundary
-
-No generator can self-authorize an effect.
-
----
-
-## T-GEN-007 — Scope Boundary
-
-L-scale generation cannot silently become H-scale architecture.
-
----
-
-## T-GEN-008 — Regime Boundary
-
-Candidate cannot silently migrate between incompatible regimes.
-
----
-
-## T-GEN-009 — Mutation Rollback
-
-Rejected mutation leaves previous valid state recoverable.
-
----
-
-## T-GEN-010 — Recursive Bound
-
-Generation terminates under configured recursion/resource limits.
-
----
-
-## T-GEN-011 — Competing Candidate Preservation
-
-Incompatible candidates remain:
-
-```text
-COMPETING
-```
-
-rather than being arbitrarily merged.
-
----
-
-## T-GEN-012 — Source/Model Separation
-
-Generated extension remains labeled:
-
-```text
-MODEL
-```
-
-unless separately promoted.
-
----
-
-## T-GEN-013 — Adversarial Test
-
-A structurally valid candidate is tested against:
-
-```text
-correlated provenance
-hidden dependency
-scope mismatch
-stale premise
-constraint violation
-authority violation
-```
-
----
-
-## T-GEN-014 — Version Test
-
-Candidate generated from stale state is rejected or explicitly revalidated.
-
----
-
-# 37. Falsifiers
-
-This README contract must be revised if:
-
-```text
-a higher-authority AMOS source defines a different generator basis
-
-the 12-generator architecture is explicitly superseded
-
-12_GENERATORS is shown to mean something different in the
-Cognitive Matrix package taxonomy
-
-generator symbols differ in canonical source
-
-the package is purely a build/code-generation subsystem rather
-than the generative architecture represented here
-
-the recovered architecture source is rejected from AMOS canon
-
-an authoritative manifest assigns different responsibilities
-to 12_GENERATORS
-
-runtime evidence demonstrates materially different semantics
-```
-
----
-
-# 38. Important Competing Interpretation
-
-A material unresolved possibility remains:
-
-```text
-H1:
-12_GENERATORS represents the 12-basis generative architecture.
-
-H2:
-12_GENERATORS is a Matrix infrastructure directory containing
-software/document generators whose package name merely overlaps
-with the 12-basis architecture.
-
-H3:
-12_GENERATORS combines both responsibilities.
-```
-
-The folder currently contains:
-
-```text
-build_amos_cognitive_cells.py
-```
-
-which means H2/H3 cannot be dismissed merely from the architecture source.
-
-Therefore the precise package-to-source binding remains:
-
-```text
 CONDITIONAL
+ESCALATE
+REVALIDATE
+CONFLICT
+UNKNOWN_GAP
 ```
 
-until package manifest or authoritative architecture mapping resolves it.
-
-This is a **decision-relevant gap**.
-
----
-
-# 39. Control-Plane Safety Contract
-
-No generator output may become durable Matrix state solely because generation succeeded.
-
-Required effect chain:
+Internal policy evaluations MAY additionally use:
 
 ```text
-GENERATION
-↓
-PROPOSAL
-↓
-VALIDATION
-↓
-AUTHORITY CHECK
-↓
-COMMIT DECISION
-↓
-DURABLE STATE
-```
-
-Thus:
-
-```text
-PROPOSAL != COMMIT
-```
-
-remains load-bearing.
-
----
-
-# 40. Gap Matrix
-
-| Contract dimension              | Current state           | Epistemic status       |
-| ------------------------------- | ----------------------- | ---------------------- |
-| Package address                 | Exists                  | `OBSERVATION`          |
-| Package folder                  | Found                   | `OBSERVATION`          |
-| Generator architecture source   | Found                   | `SOURCE_CLAIM`         |
-| 12 generator names              | Recovered               | `SOURCE_CLAIM`         |
-| Generator symbols               | Recovered               | `SOURCE_CLAIM`         |
-| Generator equations/forms       | Recovered               | `SOURCE_CLAIM / MODEL` |
-| Seven expansion rules           | Recovered               | `SOURCE_CLAIM`         |
-| 15-loop architecture            | Recovered               | `SOURCE_CLAIM`         |
-| 7-Part mapping                  | Recovered               | `SOURCE_CLAIM / MODEL` |
-| Package ↔ architecture identity | Plausible, not proven   | `CONDITIONAL`          |
-| Exact runtime implementation    | Not established         | `UNKNOWN/GAP`          |
-| Exact API/schema                | Not recovered           | `UNKNOWN/GAP`          |
-| Generator execution engine      | Not validated           | `UNKNOWN/GAP`          |
-| Pairwise interaction semantics  | Incomplete              | `UNKNOWN/GAP`          |
-| Authority integration           | Not validated           | `UNKNOWN/GAP`          |
-| Runtime tests                   | Not established         | `UNKNOWN/GAP`          |
-| Empirical validity              | Not established         | `UNKNOWN/GAP`          |
-| Canon promotion status          | Requires reconciliation | `UNKNOWN/GAP`          |
-
----
-
-# 41. Promotion Requirements
-
-Before promotion to:
-
-```text
-CONTRACT_COMPLETE_FOR_SCOPE
-```
-
-resolve:
-
-```text
-1. authoritative mapping of 12_GENERATORS package responsibility
-
-2. relationship between build_amos_cognitive_cells.py
-   and the 12-basis architecture
-
-3. canonical status of the recovered architecture source
-
-4. exact generator input/output schemas
-
-5. generator execution semantics
-
-6. recursion limits
-
-7. expansion limits
-
-8. control-plane owner
-
-9. authority protocol
-
-10. commit protocol
-
-11. rollback protocol
-
-12. versioning protocol
-
-13. dependency graph
-
-14. executable validators
-
-15. actual runtime tests
+NOT_APPLICABLE
 ```
 
 ---
 
-# 42. RSCF Completion State
+# 49. Decision Reason Codes
+
+Recommended codes:
+
+```text
+ALLOW_POLICY_SATISFIED
+
+DENY_EXPLICIT_PROHIBITION
+DENY_PRINCIPAL_SCOPE
+DENY_RESOURCE_SCOPE
+DENY_EFFECT_CLASS
+DENY_REGIME
+DENY_JURISDICTION
+DENY_REVOKED_EXCEPTION
+
+CONDITIONAL_APPROVAL_REQUIRED
+CONDITIONAL_AUTHORITY_REQUIRED
+CONDITIONAL_REDACTION_REQUIRED
+CONDITIONAL_COMMIT_REVALIDATION
+
+ESCALATE_HIGH_CONSEQUENCE
+ESCALATE_POLICY_AMBIGUITY
+ESCALATE_CONFLICT
+ESCALATE_AUTHORITY_INTERPRETATION
+
+REVALIDATE_POLICY_CHANGED
+REVALIDATE_SCOPE_CHANGED
+REVALIDATE_REGIME_CHANGED
+REVALIDATE_EFFECT_CHANGED
+REVALIDATE_CAPABILITY_CHANGED
+
+CONFLICT_ALLOW_DENY
+CONFLICT_REQUIRE_PROHIBIT
+CONFLICT_PRECEDENCE
+
+UNKNOWN_POLICY
+UNKNOWN_APPLICABILITY
+UNKNOWN_SCOPE
+UNKNOWN_REGIME
+UNKNOWN_AUTHORITY
+UNKNOWN_EVIDENCE
+UNKNOWN_PRECEDENCE
+```
+
+---
+
+# 50. Provenance Binder
+
+Every consequential policy decision SHOULD preserve the exact decision-forming provenance.
 
 ```yaml
-rscf:
+provenance:
+  policy_engine:
+    engine_id: string
+    engine_version: string
 
-  id: AMOS_COGNITIVE_MATRIX_12_GENERATORS_README
+  policy_refs: []
+  policy_versions: {}
+  policy_hashes: {}
 
-  claim:
+  evidence_refs: []
 
-    The 12_GENERATORS Matrix infrastructure package has a
-    plausible source-bound relationship to the recovered AMOS
-    12-basis generative architecture, which defines Difference,
-    Boundary, Space, Translation, Constraint, Capacity, Selection,
-    Coupling, Weighting, Perturbation, Feedback, and Mutation as
-    structural generators together with expansion and recursive
-    generation rules.
+  authority_refs: []
 
-  claim_class:
-    CONDITIONAL
+  constraint_refs: []
 
-  evidence:
+  source_ancestry: []
 
-    - type: DRIVE_OBSERVATION
-      claim: "12_GENERATORS folder exists"
+  evaluated_at: timestamp
 
-    - type: DRIVE_OBSERVATION
-      claim: "build_amos_cognitive_cells.py exists inside 12_GENERATORS"
+  environment: null
 
-    - type: SOURCE_CLAIM
-      source: "AMOS_Complete_Generative_Architecture_12_Basis_Generators.md"
-      claim: "Defines the 12-generator architecture"
-
-  provenance:
-
-    origin_architect:
-      Trang Phan
-
-    immediate_source_artifact:
-      AMOS_Complete_Generative_Architecture_12_Basis_Generators.md
-
-    package:
-      12_GENERATORS
-
-  scope:
-
-    system:
-      AMOS Cognitive Matrix
-
-    package:
-      12_GENERATORS
-
-    artifact:
-      README.md
-
-    concern:
-      generation infrastructure contract
-
-  regime:
-
-    documentation:
-      SOURCE_BOUND_PARTIAL
-
-    runtime:
-      UNVALIDATED
-
-    empirical:
-      UNVALIDATED
-
-  freshness:
-
-    contract_date:
-      2026-08-26
-
-    invalidate_on:
-      - canonical generator update
-      - package taxonomy update
-      - source supersession
-      - implementation discovery
-      - manifest reconciliation
-      - runtime validation
-
-  dependencies:
-
-    - generator_source_identity
-
-    - package_source_mapping
-
-    - provenance
-
-    - control_plane
-
-    - validation
-
-    - dependency_graph
-
-    - routing
-
-  competing:
-
-    - id: H1
-      claim:
-        "12_GENERATORS directly represents the 12-basis
-        generative architecture."
-
-    - id: H2
-      claim:
-        "12_GENERATORS is primarily infrastructure for generating
-        Cognitive Matrix artifacts."
-
-    - id: H3
-      claim:
-        "12_GENERATORS intentionally contains both semantic
-        generators and artifact-generation infrastructure."
-
-  falsifiers:
-
-    - authoritative_package_manifest_assigns_different_scope
-
-    - canonical_source_rejects_12_basis_generator_mapping
-
-    - recovered_source_is_superseded
-
-    - runtime_implementation_uses_materially_different_contract
-
-  confidence_ceiling:
-
-    package_existence:
-      HIGH
-
-    architecture_source_existence:
-      HIGH
-
-    generator_registry_recovery:
-      HIGH_SOURCE_CONFIDENCE
-
-    package_to_architecture_binding:
-      MEDIUM_CONDITIONAL
-
-    runtime_semantics:
-      ZERO_TO_LOW
-
-    empirical_validity:
-      ZERO
-
-  gap_status:
-
-    package_address:
-      CLOSED
-
-    source_existence:
-      CLOSED
-
-    generator_names:
-      CLOSED
-
-    structural_generator_model:
-      PARTIALLY_CLOSED
-
-    package_semantic_identity:
-      DECISION_RELEVANT_GAP
-
-    exact_types:
-      GAP
-
-    implementation:
-      GAP
-
-    validation:
-      GAP
-
-    authority:
-      GAP
+  transaction_id: null
 ```
 
 ---
 
-# 43. Current Status
+# 51. Policy Read Set
 
-The original placeholder state:
-
-```yaml
-claim_class: UNKNOWN/GAP
-evidence: []
-provenance: []
-confidence_ceiling: 0
-```
-
-is now too weak because source evidence has been recovered.
-
-Recommended status:
-
-```yaml
-status: SOURCE_BOUND_PARTIAL / UNVALIDATED_RUNTIME
-
-claim_class: CONDITIONAL
-
-source_recovery:
-  generator_architecture: FOUND
-
-package_identity:
-  status: CONDITIONAL
-
-implementation:
-  status: UNKNOWN_GAP
-
-runtime_validation:
-  status: UNKNOWN_GAP
-
-empirical_validation:
-  status: UNKNOWN_GAP
-
-authority:
-  status: UNKNOWN_GAP
-```
-
----
-
-# 44. Governing Contract
-
-> **`12_GENERATORS` SHALL provide or reserve the governed generation surface of the AMOS Cognitive Matrix. Current source evidence defines a twelve-generator structural basis—Difference, Boundary, Space, Translation, Constraint, Capacity, Selection, Coupling, Weighting, Perturbation, Feedback, and Mutation—together with recursive expansion, failure, adversarial, unknown-state, loop, and cross-space generation concepts. Generated outputs SHALL remain typed, provenance-bound candidates and SHALL NOT become canon, validated knowledge, authorized effects, or committed Matrix state merely through generation. Unknown inputs SHALL remain epistemically bounded; confidence SHALL NOT exceed load-bearing premises; mutation SHALL remain rollback-governed; cross-scale promotion SHALL require validation; and generated alternatives SHALL remain COMPETING where discriminating evidence is absent. The precise identity between the Cognitive Matrix `12_GENERATORS` package and the recovered twelve-basis architecture remains CONDITIONAL until authoritative package mapping resolves the existing semantic-generator versus artifact-generator interpretations.**
-
----
-
-# 45. Final Epistemic Boundary
+The engine SHOULD construct the exact set of policy resources used in decision formation.
 
 ```text
-OBSERVED:
-
-12_GENERATORS folder exists.
-
-build_amos_cognitive_cells.py exists inside it.
-
-
-SOURCE-SUPPORTED:
-
-A dedicated AMOS architecture artifact defines
-12 basis generators.
-
-The source defines seven expansion rules.
-
-The source defines a 15-layer loop stack.
-
-The source defines generator/7-Part-Canon mappings.
-
-The source defines meta-generation and tensor expansion.
-
-
-DERIVED:
-
-12_GENERATORS has materially more source support than
-a pure UNKNOWN/GAP placeholder.
-
-
-CONDITIONAL:
-
-The Matrix package directly implements or represents
-the recovered 12-basis architecture.
-
-
-UNKNOWN/GAP:
-
-exact runtime implementation
-
-exact executable schemas
-
-exact generator-to-file mappings
-
-complete pairwise generator semantics
-
-runtime validation
-
-formal verification
-
-empirical validation
-
-commit authority
-
-canonical promotion status
+PolicyReadSet =
+{
+  (policy_object_id, version, content_hash)
+}
 ```
 
-**Current strongest defensible classification:**
+Example:
+
+```yaml
+policy_read_set:
+  - object_id: "POLICY_WRITE"
+    version: "3.2.0"
+    content_hash: "sha256:*"
+
+  - object_id: "POLICY_PRIVACY"
+    version: "1.7.0"
+    content_hash: "sha256:*"
+```
+
+---
+
+# 52. Fine-Grained Freshness
+
+A global policy-registry version SHOULD NOT be the only freshness mechanism when precise read-set validation is available.
+
+If:
 
 ```text
-SOURCE_BOUND_PARTIAL
-+
-CONDITIONAL PACKAGE BINDING
-+
-UNVALIDATED RUNTIME
+decision D read P1 and P2
+```
+
+and unrelated:
+
+```text
+P99 changes
+```
+
+then `D` need not be invalidated solely because `P99` changed.
+
+---
+
+# 53. Selective Invalidation
+
+If:
+
+```text
+D1 depends on P1
+D2 depends on P2
+D3 depends on P1 + P3
+```
+
+and:
+
+```text
+P1 changes
+```
+
+then:
+
+```text
+invalidate D1
+invalidate D3
+preserve D2
+```
+
+subject to hidden dependency checks.
+
+---
+
+# 54. Freshness Binder
+
+Each decision SHOULD contain:
+
+```yaml
+freshness:
+  evaluated_at: timestamp
+
+  valid_from: timestamp
+
+  expires_at: null
+
+  policy_read_set: []
+
+  invalidation_events:
+    - POLICY_CHANGE
+    - POLICY_REVOCATION
+    - EXCEPTION_REVOCATION
+    - SCOPE_CHANGE
+    - REGIME_CHANGE
+    - PRINCIPAL_CHANGE
+    - ACTION_CHANGE
+    - TARGET_CHANGE
+    - EFFECT_CHANGE
+    - CAPABILITY_CONTRACT_CHANGE
+```
+
+---
+
+# 55. Revalidation Engine
+
+```text
+REVALIDATE_POLICY_DECISION(
+    prior_decision,
+    current_state
+)
+→ current_decision
+```
+
+The engine SHOULD compare only load-bearing state where possible.
+
+---
+
+# 56. Revalidation Triggers
+
+Mandatory revalidation MAY be triggered by:
+
+```text
+policy content change;
+policy supersession;
+policy revocation;
+exception revocation;
+principal change;
+delegation change;
+action change;
+parameter change;
+target change;
+resource-state change where policy-sensitive;
+scope change;
+regime change;
+jurisdiction change;
+capability contract change;
+effect digest change;
+freshness expiry.
+```
+
+---
+
+# 57. Commit-Time Policy Revalidation
+
+For durable effects, the Policy Engine SHOULD support commit-time policy revalidation.
+
+The control plane may ask:
+
+```text
+Does POLICY_DECISION D
+still apply to EFFECT E
+under CURRENT STATE?
+```
+
+The engine MUST NOT simply answer from cached preflight state when load-bearing state changed.
+
+---
+
+# 58. Commit-Time Binding
+
+Consequential policy decisions SHOULD bind to:
+
+```text
+principal;
+operation;
+target;
+parameters digest;
+effect digest;
+resolved capability contract;
+policy read set;
+scope;
+regime;
+transaction identity.
+```
+
+---
+
+# 59. Policy/Authority Separation
+
+The Policy Engine MAY consume authority context.
+
+It MUST NOT manufacture authority.
+
+```text
+PolicyEngine
+    ↓ evaluates
+AuthorityContext
 ```
 
 not:
 
 ```text
-PLACEHOLDER / UNKNOWN/GAP
+PolicyEngine
+    ↓ creates
+Authority
 ```
 
-and not:
+Authority issuance and verification belong to authority-governed infrastructure.
+
+---
+
+# 60. Policy/Control-Plane Separation
+
+The Policy Engine answers:
 
 ```text
-IMPLEMENTED / VALIDATED
+POLICY RESULT
 ```
 
+The control plane answers:
+
+```text
+MAY THE SYSTEM RELEASE THIS EFFECT NOW?
 ```
 
-The Drive evidence materially changes this package: the `12_GENERATORS` folder exists, but its only directly listed child is currently `build_amos_cognitive_cells.py`, while a separate AMOS architecture source explicitly defines the twelve-generator system. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2} That makes the **package-to-architecture binding the decisive unresolved gap**, rather than the generator architecture itself being wholly unknown.
+These MUST remain separate.
+
+---
+
+# 61. Policy/Execution Separation
+
+The Policy Engine MUST NOT dispatch side effects merely because:
+
+```text
+decision = ALLOW
+```
+
+Instead:
+
+```text
+ALLOW
+  ↓
+CONTROL PLANE
+  ↓
+AUTHORITY
+  ↓
+CONSTRAINTS
+  ↓
+TRANSACTION
+  ↓
+OBSERVABILITY
+  ↓
+RELEASE FINALITY
+  ↓
+DISPATCH
+```
+
+---
+
+# 62. Policy/Truth Separation
+
+Policy compliance does not establish truth.
+
+An output can be:
+
+```text
+policy-compliant
+```
+
+and still be:
+
+```text
+factually wrong.
+```
+
+Likewise, a factually correct output may still violate policy.
+
+Therefore:
+
+```text
+POLICY_VALIDITY != EPISTEMIC_VALIDITY
+```
+
+---
+
+# 63. Policy/Domain Separation
+
+The Policy Engine SHOULD remain domain-agnostic.
+
+Domain Skills MAY expose policy-relevant typed evidence.
+
+Example:
+
+```text
+DOMAIN SKILL
+    ↓
+typed evidence
+    ↓
+POLICY ENGINE
+```
+
+The infrastructure policy engine SHOULD NOT embed specialist domain logic when that logic properly belongs to a domain capability.
+
+---
+
+# 64. Policy Evaluation ABI
+
+Domain or subsystem adapters SHOULD expose policy-relevant state through typed objects rather than unstructured prose where feasible.
+
+Example:
+
+```yaml
+policy_fact:
+  fact_id: string
+  type: string
+  value: any
+
+  scope: {}
+  regime: {}
+
+  observed_at: timestamp
+
+  provenance: []
+
+  confidence_ceiling: null
+```
+
+---
+
+# 65. Unknown Preservation
+
+The engine MUST preserve:
+
+```text
+UNKNOWN
+```
+
+where evidence is unavailable.
+
+It MUST NOT infer:
+
+```text
+not prohibited
+```
+
+from:
+
+```text
+prohibition not found
+```
+
+unless policy completeness for that scope has itself been established.
+
+---
+
+# 66. Closed-World vs Open-World Policy
+
+The engine SHOULD explicitly distinguish policy lookup semantics.
+
+## CLOSED_WORLD
+
+```text
+registry is authoritative and complete for declared scope
+```
+
+Only under such conditions MAY absence have stronger meaning.
+
+## OPEN_WORLD
+
+```text
+additional governing policy may exist
+```
+
+Absence MUST remain epistemically weaker.
+
+---
+
+# 67. Policy Completeness State
+
+```yaml
+policy_coverage:
+  scope: {}
+
+  mode:
+    - CLOSED_WORLD
+    - OPEN_WORLD
+    - UNKNOWN
+
+  completeness:
+    - COMPLETE
+    - PARTIAL
+    - UNKNOWN_GAP
+
+  authority_ref: null
+```
+
+---
+
+# 68. Coverage Invariant
+
+If:
+
+```text
+coverage = UNKNOWN
+```
+
+and missing policy could materially change a consequential decision:
+
+```text
+FinalDecision != unconditional ALLOW
+```
+
+without additional governing justification.
+
+---
+
+# 69. H/M/L Policy Evaluation
+
+Policy evaluation SHOULD support AMOS H/M/L structure.
+
+```text
+H = governing/system policy
+M = subsystem/workflow policy
+L = operation/resource policy
+```
+
+---
+
+# 70. H-Level Policies
+
+Examples:
+
+```text
+system safety;
+constitutional governance;
+organization-wide authority;
+enterprise security;
+canon governance;
+high-consequence effect rules.
+```
+
+H-level constraints may constrain all lower levels.
+
+---
+
+# 71. M-Level Policies
+
+Examples:
+
+```text
+workflow policy;
+agent policy;
+memory policy;
+domain policy;
+transaction policy;
+data-handling policy.
+```
+
+---
+
+# 72. L-Level Policies
+
+Examples:
+
+```text
+specific resource access;
+specific tool invocation;
+specific message;
+specific memory write;
+specific effect.
+```
+
+---
+
+# 73. Cross-Scale Composition
+
+Where hierarchical tightening is defined:
+
+```text
+Allowed_L
+⊆
+Allowed_M
+⊆
+Allowed_H
+```
+
+A lower-level rule MUST NOT silently broaden a higher-level prohibition.
+
+---
+
+# 74. H/M/L Conflict
+
+Example:
+
+```text
+H: DENY external disclosure
+
+M: ALLOW workflow export
+
+L: ALLOW send_message
+```
+
+The lower-level `ALLOW` states do not override the H-level prohibition unless a valid higher-level exception exists.
+
+---
+
+# 75. State Variables
+
+Recommended Policy Engine state:
+
+```text
+Q     request
+P     principal
+A     action
+C     capability
+T     target
+E     effect intent
+CTX   normalized context
+
+Πc    candidate policies
+Πa    applicable policies
+Πu    unresolved policies
+
+Pred  predicate states
+R     rule evaluations
+Ex    exceptions
+Cf    conflicts
+
+Ω     obligations
+X     prohibitions
+K     conditions
+
+S     scope
+G     regime
+F     freshness
+Pr    provenance
+U     uncertainty
+
+D     final policy decision
+```
+
+---
+
+# 76. Core Transition Function
+
+Conceptually:
+
+```text
+D =
+PolicyEngine(
+    Q,
+    P,
+    A,
+    C,
+    T,
+    E,
+    CTX,
+    Π,
+    Pred,
+    Ex
+)
+```
+
+expanded:
+
+```text
+D =
+Compose(
+    Evaluate(
+        Applicable(
+            Discover(
+                Normalize(Q)
+            )
+        )
+    )
+)
+```
+
+This is an AMOS MODEL abstraction, not an assertion of universal mathematics.
+
+---
+
+# 77. Engine Lifecycle
+
+```text
+RECEIVED
+    ↓
+NORMALIZED
+    ↓
+DISCOVERING
+    ↓
+RESOLVING
+    ↓
+EVALUATING
+    ↓
+COMPOSING
+    ↓
+VALIDATING
+    ↓
+RESOLVED
+```
+
+Possible alternate states:
+
+```text
+UNKNOWN_GAP
+CONFLICT
+ESCALATED
+INVALIDATED
+EXPIRED
+QUARANTINED
+SUPERSEDED
+```
+
+---
+
+# 78. Engine State Object
+
+```yaml
+policy_engine_state:
+  evaluation_id: string
+
+  lifecycle_state: string
+
+  request_hash: string
+
+  candidate_policies: []
+
+  applicable_policies: []
+
+  completed_evaluations: []
+
+  pending_evaluations: []
+
+  conflicts: []
+
+  gaps: []
+
+  decision_id: null
+
+  started_at: timestamp
+
+  updated_at: timestamp
+```
+
+---
+
+# 79. Atomic Evaluation Boundary
+
+A policy decision SHOULD be constructed from one coherent evaluation snapshot.
+
+The engine SHOULD avoid combining:
+
+```text
+policy state from epoch A
+authority context from epoch B
+target state from epoch C
+effect intent from epoch D
+```
+
+without explicit compatibility validation.
+
+---
+
+# 80. Evaluation Epoch
+
+Recommended representation:
+
+```yaml
+evaluation_epoch:
+  epoch_id: string
+
+  started_at: timestamp
+
+  policy_registry_state: {}
+
+  capability_contract_hash: null
+
+  constraint_context_hash: null
+
+  authority_context_ref: null
+```
+
+---
+
+# 81. MVCC/CAS Analogy
+
+Where mutable policy state exists, policy revalidation MAY use MVCC/CAS-style reasoning:
+
+```text
+READ policy state
+      ↓
+PREPARE decision
+      ↓
+CHECK load-bearing versions/hashes
+      ↓
+ACCEPT or REVALIDATE
+```
+
+This is a reasoning/control pattern.
+
+It does not claim the conversational model literally implements distributed MVCC.
+
+---
+
+# 82. Policy Decision Cache
+
+The engine MAY cache policy decisions.
+
+Cache reuse MUST be conditional.
+
+```yaml
+decision_cache:
+  decision_id: string
+
+  decision_hash: string
+
+  policy_read_set: []
+
+  principal_hash: string
+  action_hash: string
+  target_hash: string
+  effect_digest: null
+
+  scope_hash: string
+  regime_hash: string
+
+  evaluated_at: timestamp
+  expires_at: null
+```
+
+---
+
+# 83. Cache Validity
+
+Conceptually:
+
+```text
+CacheValid(D) =
+PrincipalMatch
+∧ ActionMatch
+∧ TargetMatch
+∧ EffectMatch
+∧ PolicyReadSetFresh
+∧ ScopeCompatible
+∧ RegimeCompatible
+∧ NotExpired
+```
+
+If any load-bearing term fails:
+
+```text
+REVALIDATE
+```
+
+---
+
+# 84. Decision Hash
+
+A deterministic binding MAY be:
+
+```text
+DecisionHash =
+H(
+  principal
+  || action
+  || target
+  || capability_contract_hash
+  || effect_digest
+  || policy_read_set
+  || scope
+  || regime
+  || decision_state
+)
+```
+
+The exact canonical serialization and cryptographic algorithm belong to implementation specification.
+
+---
+
+# 85. Uncertainty
+
+The engine SHOULD track uncertainty explicitly.
+
+```yaml
+uncertainty:
+  policy_discovery: null
+  policy_identity: null
+  applicability: null
+  interpretation: null
+  evidence: null
+  scope: null
+  regime: null
+  temporal: null
+  authority: null
+  provenance_independence: null
+```
+
+---
+
+# 86. Confidence Ceiling
+
+Conceptually:
+
+```text
+C_decision ≤ min(
+    C_policy_discovery,
+    C_policy_identity,
+    C_applicability,
+    C_predicates,
+    C_scope,
+    C_regime,
+    C_freshness,
+    C_composition
+)
+```
+
+No fluent explanation may raise the decision above the weakest load-bearing premise.
+
+---
+
+# 87. Competing Interpretations
+
+If policy language admits multiple materially different interpretations:
+
+```text
+Interpretation_A
+Interpretation_B
+```
+
+and evidence cannot discriminate them:
+
+```text
+COMPETING
+```
+
+SHOULD be preserved internally.
+
+The external policy result may become:
+
+```text
+CONFLICT
+```
+
+or:
+
+```text
+ESCALATE
+```
+
+depending on governance.
+
+---
+
+# 88. Cheapest Discriminating Test
+
+When policy interpretations compete, the engine SHOULD prefer the cheapest high-information test that can distinguish them.
+
+Examples:
+
+```text
+retrieve authoritative policy definition;
+resolve supersession lineage;
+check exception issuer;
+verify target classification;
+check current jurisdiction;
+verify effect class.
+```
+
+Do not accumulate redundant evidence if one authoritative check can resolve the decision.
+
+---
+
+# 89. Adversarial Validation
+
+For consequential policy decisions, validation SHOULD independently challenge the provisional result.
+
+Questions include:
+
+```text
+Was a governing policy omitted?
+
+Was a policy incorrectly marked non-applicable?
+
+Was scope widened?
+
+Was regime ignored?
+
+Was an exception overextended?
+
+Was an expired policy used?
+
+Was a superseded policy used?
+
+Was authority inferred from capability?
+
+Was an UNKNOWN converted to ALLOW?
+
+Was a hard deny overridden without authority?
+
+Did the effect mutate after evaluation?
+
+Are multiple policy sources actually one provenance lineage?
+
+Did a lower-level policy weaken a higher-level constraint?
+```
+
+---
+
+# 90. Sensitivity Analysis
+
+For consequential decisions, identify the smallest premise capable of flipping the result.
+
+Example:
+
+```text
+Decision = ALLOW
+```
+
+but:
+
+```text
+if resource_class = SENSITIVE
+→ DENY
+```
+
+Then `resource_class` is decision-sensitive and SHOULD receive priority validation.
+
+---
+
+# 91. Policy Decision Fragility
+
+A decision SHOULD be considered fragile when small plausible uncertainty in a load-bearing predicate changes the result.
+
+Possible classification:
+
+```text
+ROBUST
+CONDITIONAL
+FRAGILE
+UNKNOWN
+```
+
+---
+
+# 92. Policy Engine Invariants
+
+## INV-PE-001 — Registry Grounding
+
+The engine MUST NOT invent governing policies.
+
+## INV-PE-002 — Explicit Identity
+
+Evaluated policies MUST have stable identity.
+
+## INV-PE-003 — Version Binding
+
+Material decisions MUST bind to policy version/hash.
+
+## INV-PE-004 — Applicability Before Evaluation
+
+Policy rules MUST NOT govern outside validated applicability.
+
+## INV-PE-005 — Unknown Preservation
+
+```text
+UNKNOWN != ALLOW
+```
+
+## INV-PE-006 — Conflict Preservation
+
+Unresolved conflict MUST remain visible.
+
+## INV-PE-007 — No Capability Smuggling
+
+```text
+CAPABILITY != PERMISSION
+```
+
+## INV-PE-008 — No Authority Smuggling
+
+```text
+POLICY_ALLOW != AUTHORITY
+```
+
+## INV-PE-009 — No Commit Smuggling
+
+```text
+POLICY_ALLOW != COMMIT
+```
+
+## INV-PE-010 — Scope Preservation
+
+Decisions MUST remain inside validated scope.
+
+## INV-PE-011 — Regime Preservation
+
+Decisions MUST remain inside validated regime.
+
+## INV-PE-012 — Exception Narrowness
+
+Exceptions MUST NOT exceed authorized scope.
+
+## INV-PE-013 — Revocation Dominance
+
+Revoked policy/exception authority MUST NOT survive stale cache.
+
+## INV-PE-014 — Provenance Preservation
+
+Material decisions MUST remain reconstructable.
+
+## INV-PE-015 — Freshness Preservation
+
+Stale decisions MUST NOT masquerade as current.
+
+## INV-PE-016 — Effect Binding
+
+Policy approval MUST bind to the evaluated effect where effect-sensitive.
+
+## INV-PE-017 — Parameter Binding
+
+Policy-sensitive parameter changes require revalidation.
+
+## INV-PE-018 — H/M/L Integrity
+
+Lower-level rules MUST NOT silently weaken higher-level governing constraints.
+
+## INV-PE-019 — Selective Invalidation
+
+Invalidate dependent conclusions, not unrelated valid state.
+
+## INV-PE-020 — Proposal/Commit Separation
+
+Permission to propose MUST NOT imply permission to commit.
+
+---
+
+# 93. Additional Integrity Invariants
+
+## INV-PE-021 — No Policy-by-Absence
+
+Failure to discover prohibition does not prove permission unless policy coverage is established.
+
+## INV-PE-022 — No Temporal Leakage
+
+Historical permission does not imply current permission.
+
+## INV-PE-023 — No Jurisdiction Leakage
+
+A decision from one jurisdiction does not automatically transfer to another.
+
+## INV-PE-024 — No Provider Substitution
+
+Provider changes require revalidation when provider identity is policy-sensitive.
+
+## INV-PE-025 — No Decision Substitution
+
+One decision ID MUST NOT be reused for a materially different request.
+
+## INV-PE-026 — No Provenance Inflation
+
+Multiple descendants of one source do not constitute independent authority.
+
+## INV-PE-027 — No Silent Default
+
+Missing policy semantics MUST NOT silently default to permissive behavior.
+
+## INV-PE-028 — Explanation Consistency
+
+Human-readable explanation MUST match structured decision state.
+
+## INV-PE-029 — Control-Plane Boundary
+
+The Policy Engine MUST NOT claim infrastructure commit authority.
+
+## INV-PE-030 — Domain Boundary
+
+The infrastructure Policy Engine MUST NOT absorb specialist domain logic without an explicit architectural reason.
+
+---
+
+# 94. Failure Modes
+
+## FM-PE-001 — Policy Discovery Failure
+
+A governing policy is not discovered.
+
+## FM-PE-002 — Policy Identity Collision
+
+Two different policies resolve to one identity.
+
+## FM-PE-003 — Version Drift
+
+Wrong policy version is evaluated.
+
+## FM-PE-004 — Supersession Failure
+
+A superseded policy remains active.
+
+## FM-PE-005 — Applicability False Positive
+
+A non-governing policy is applied.
+
+## FM-PE-006 — Applicability False Negative
+
+A governing policy is excluded.
+
+## FM-PE-007 — Predicate Fabrication
+
+Unknown predicate is invented.
+
+## FM-PE-008 — Unknown-to-Allow Collapse
+
+Missing evidence becomes permission.
+
+## FM-PE-009 — Conflict Suppression
+
+Conflicting policies are silently merged.
+
+## FM-PE-010 — Precedence Fabrication
+
+An unsupported hierarchy resolves conflict.
+
+## FM-PE-011 — Exception Overreach
+
+Exception exceeds its envelope.
+
+## FM-PE-012 — Revoked Exception Reuse
+
+Stale exception remains active.
+
+## FM-PE-013 — Scope Leakage
+
+Decision escapes validated scope.
+
+## FM-PE-014 — Regime Leakage
+
+Decision escapes validated regime.
+
+## FM-PE-015 — Authority Smuggling
+
+Policy result is treated as authority.
+
+## FM-PE-016 — Capability Smuggling
+
+Capability existence becomes permission.
+
+## FM-PE-017 — Commit Smuggling
+
+Policy allow becomes commit.
+
+## FM-PE-018 — Stale Decision Reuse
+
+Decision survives load-bearing policy change.
+
+## FM-PE-019 — Parameter Mutation
+
+Action changes after policy evaluation.
+
+## FM-PE-020 — Effect Mutation
+
+Effect changes after policy evaluation.
+
+## FM-PE-021 — Provider Mutation
+
+Provider changes without policy revalidation.
+
+## FM-PE-022 — Policy Coverage Assumption
+
+Incomplete registry is treated as complete.
+
+## FM-PE-023 — Provenance Loss
+
+Decision basis becomes unreconstructable.
+
+## FM-PE-024 — Correlated Source Inflation
+
+Dependent policy sources are counted as independent.
+
+## FM-PE-025 — H/M/L Override Leak
+
+Local rule weakens governing policy.
+
+## FM-PE-026 — Cache Poisoning
+
+Invalid decision enters cache.
+
+## FM-PE-027 — Decision Replay
+
+Decision is reused for another transaction.
+
+## FM-PE-028 — Engine/Runtime Divergence
+
+Runtime action violates policy result.
+
+## FM-PE-029 — Policy/Effect Mismatch
+
+Evaluated action differs from released effect.
+
+## FM-PE-030 — Explanation/State Divergence
+
+Explanation says allow while structured state denies or conditions.
+
+---
+
+# 95. Repair / Recovery
+
+Canonical repair sequence:
+
+```text
+DETECT POLICY ENGINE FAILURE
+        ↓
+FREEZE AFFECTED DECISION
+        ↓
+PRESERVE REQUEST + POLICY STATE + EVIDENCE
+        ↓
+IDENTIFY EARLIEST FAILED DEPENDENCY
+        ↓
+INVALIDATE DEPENDENT RESULTS
+        ↓
+PRESERVE UNAFFECTED RESULTS
+        ↓
+REFRESH POLICY / CONTEXT / AUTHORITY
+        ↓
+RE-RUN APPLICABILITY
+        ↓
+RE-RUN AFFECTED RULES
+        ↓
+RE-COMPOSE
+        ↓
+REVALIDATE
+        ↓
+SUPERSEDE / RESTORE / DENY / ESCALATE
+```
+
+---
+
+# 96. Earliest Failure Principle
+
+Repair SHOULD target the earliest causal failure rather than the last visible error.
+
+Example:
+
+```text
+wrong policy discovered
+    ↓
+wrong applicability
+    ↓
+wrong rule result
+    ↓
+wrong composition
+    ↓
+wrong ALLOW
+```
+
+The repair target is policy discovery, not merely the final `ALLOW`.
+
+---
+
+# 97. Rollback
+
+If a bad policy decision has not produced an effect:
+
+```text
+invalidate decision
+discard proposal
+re-evaluate
+```
+
+If a reversible effect occurred:
+
+```text
+invoke authorized compensation where available
+```
+
+If an irreversible effect occurred:
+
+```text
+preserve evidence
+record incident
+contain consequences
+revoke affected decision/cache
+escalate
+```
+
+---
+
+# 98. Quarantine
+
+Policies, decisions, or evidence with integrity concerns SHOULD be quarantinable.
+
+```yaml
+quarantine:
+  object_id: string
+
+  object_type:
+    - POLICY
+    - POLICY_DECISION
+    - EXCEPTION
+    - EVIDENCE
+
+  reason: string
+
+  entered_at: timestamp
+
+  evidence_refs: []
+
+  release_conditions: []
+```
+
+Quarantine SHOULD preserve evidence rather than destroy it.
+
+---
+
+# 99. Tests / Validators
+
+Minimum test suite:
+
+```text
+T-PE-001 request schema
+
+T-PE-002 context normalization
+
+T-PE-003 policy discovery
+
+T-PE-004 policy identity
+
+T-PE-005 version binding
+
+T-PE-006 content-hash binding
+
+T-PE-007 supersession resolution
+
+T-PE-008 revoked-policy rejection
+
+T-PE-009 applicability principal
+
+T-PE-010 applicability action
+
+T-PE-011 applicability capability
+
+T-PE-012 applicability target
+
+T-PE-013 applicability environment
+
+T-PE-014 applicability jurisdiction
+
+T-PE-015 applicability scope
+
+T-PE-016 applicability regime
+
+T-PE-017 temporal applicability
+
+T-PE-018 unknown applicability
+
+T-PE-019 predicate TRUE
+
+T-PE-020 predicate FALSE
+
+T-PE-021 predicate UNKNOWN
+
+T-PE-022 predicate CONFLICT
+
+T-PE-023 rule ALLOW
+
+T-PE-024 rule DENY
+
+T-PE-025 rule CONDITIONAL
+
+T-PE-026 rule ESCALATE
+
+T-PE-027 exception scope
+
+T-PE-028 exception authority
+
+T-PE-029 exception expiry
+
+T-PE-030 exception revocation
+
+T-PE-031 hard-deny composition
+
+T-PE-032 conditional composition
+
+T-PE-033 unknown composition
+
+T-PE-034 conflict detection
+
+T-PE-035 precedence resolution
+
+T-PE-036 unresolved precedence
+
+T-PE-037 obligation extraction
+
+T-PE-038 prohibition extraction
+
+T-PE-039 condition extraction
+
+T-PE-040 policy decision generation
+
+T-PE-041 policy read-set construction
+
+T-PE-042 provenance reconstruction
+
+T-PE-043 freshness expiry
+
+T-PE-044 selective invalidation
+
+T-PE-045 cache reuse
+
+T-PE-046 stale-cache rejection
+
+T-PE-047 principal mutation
+
+T-PE-048 action mutation
+
+T-PE-049 target mutation
+
+T-PE-050 effect mutation
+
+T-PE-051 capability-contract mutation
+
+T-PE-052 provider substitution
+
+T-PE-053 scope leakage
+
+T-PE-054 regime leakage
+
+T-PE-055 jurisdiction leakage
+
+T-PE-056 capability/authority separation
+
+T-PE-057 policy/authority separation
+
+T-PE-058 policy/commit separation
+
+T-PE-059 proposal/commit separation
+
+T-PE-060 H/M/L precedence
+
+T-PE-061 correlated provenance
+
+T-PE-062 policy coverage OPEN_WORLD
+
+T-PE-063 policy coverage CLOSED_WORLD
+
+T-PE-064 explanation consistency
+
+T-PE-065 control-plane handoff
+
+T-PE-066 commit-time revalidation
+
+T-PE-067 transaction binding
+
+T-PE-068 replay resistance
+
+T-PE-069 quarantine
+
+T-PE-070 supersession audit
+```
+
+---
+
+# 100. Adversarial Tests
+
+Recommended adversarial cases:
+
+```text
+policy removed between preflight and commit;
+
+policy changed without version increment;
+
+policy version increments without content change;
+
+exception revoked immediately before commit;
+
+principal delegation expires;
+
+provider changes after policy evaluation;
+
+effect payload changes while operation name stays the same;
+
+target alias resolves to a different resource;
+
+jurisdiction changes;
+
+development decision replayed in production;
+
+three policy documents descend from one original source;
+
+ALLOW cached before a new hard prohibition;
+
+local policy attempts to weaken governing H policy;
+
+missing policy registry shard interpreted as no prohibition;
+
+fake exception with plausible identifier;
+
+conflicting policies with no precedence;
+
+policy explanation manipulated while structured decision remains DENY.
+```
+
+---
+
+# 101. Validator Outcomes
+
+Policy Engine validators SHOULD return explicit states.
+
+```text
+VALID
+
+INVALID
+
+REVALIDATE
+
+CONFLICT
+
+QUARANTINE
+
+ESCALATE
+
+UNKNOWN_GAP
+```
+
+Validation failure MUST NOT be converted into `ALLOW`.
+
+---
+
+# 102. Falsifiers
+
+Claims that the Policy Engine produced a valid decision are falsified if reliable evidence shows:
+
+```text
+a governing policy was omitted;
+
+wrong policy content was evaluated;
+
+a superseded policy was treated as current;
+
+an applicable policy was incorrectly excluded;
+
+a hard prohibition was ignored;
+
+an invalid exception was accepted;
+
+an expired exception was accepted;
+
+a revoked exception was accepted;
+
+scope was widened;
+
+regime was widened;
+
+jurisdiction was crossed;
+
+policy precedence was fabricated;
+
+unknown evidence was converted to permission;
+
+the effect changed after evaluation;
+
+the principal changed;
+
+the target changed;
+
+the capability contract changed materially;
+
+the decision was replayed outside its envelope;
+
+the recorded provenance cannot reconstruct the result;
+
+or runtime execution contradicted the policy decision.
+```
+
+---
+
+# 103. Agents
+
+The Policy Engine MAY use architectural agent roles such as:
+
+```text
+POLICY_DISCOVERY_AGENT
+
+POLICY_IDENTITY_AGENT
+
+POLICY_APPLICABILITY_AGENT
+
+POLICY_RULE_EVALUATOR
+
+POLICY_CONFLICT_AGENT
+
+POLICY_PRECEDENCE_AUDITOR
+
+POLICY_PROVENANCE_AUDITOR
+
+POLICY_REVALIDATION_AGENT
+
+POLICY_ADVERSARIAL_AUDITOR
+```
+
+These are functional roles.
+
+They do NOT inherently possess:
+
+```text
+policy authority;
+execution authority;
+commit authority;
+exception authority.
+```
+
+---
+
+# 104. Agent Boundary
+
+Agents may:
+
+```text
+retrieve;
+classify;
+evaluate;
+propose;
+challenge;
+audit;
+recommend.
+```
+
+Agents may not infer authority from their role.
+
+```text
+AGENT_ROLE != AUTHORITY
+```
+
+---
+
+# 105. Skills
+
+Relevant Skill categories MAY include:
+
+```text
+policy registry resolution;
+law hierarchy resolution;
+constraint propagation;
+authority verification;
+provenance validation;
+scope/regime validation;
+policy conflict resolution;
+commit-time authorization;
+information-boundary governance;
+risk governance;
+semantic transaction validation.
+```
+
+Skill availability does not establish implementation or authority.
+
+---
+
+# 106. Policy Engine Workflow
+
+Canonical workflow:
+
+```text
+01 RECEIVE REQUEST
+
+02 VALIDATE REQUEST STRUCTURE
+
+03 NORMALIZE PRINCIPAL
+
+04 NORMALIZE ACTION
+
+05 RESOLVE TARGET
+
+06 RESOLVE EFFECT INTENT
+
+07 RESOLVE CAPABILITY CONTRACT
+
+08 BUILD POLICY CONTEXT
+
+09 DISCOVER POTENTIALLY GOVERNING POLICIES
+
+10 RESOLVE POLICY IDENTITIES
+
+11 RESOLVE POLICY VERSIONS
+
+12 RESOLVE SUPERSESSION
+
+13 FILTER INVALID / REVOKED POLICIES
+
+14 RESOLVE APPLICABILITY
+
+15 IDENTIFY DECISION-SENSITIVE PREDICATES
+
+16 RETRIEVE MINIMUM REQUIRED EVIDENCE
+
+17 EVALUATE PREDICATES
+
+18 EVALUATE POLICY RULES
+
+19 RESOLVE EXCEPTIONS
+
+20 EXTRACT OBLIGATIONS
+
+21 EXTRACT PROHIBITIONS
+
+22 EXTRACT CONDITIONS
+
+23 DETECT CONFLICTS
+
+24 RESOLVE VALID PRECEDENCE
+
+25 PRESERVE UNRESOLVED CONFLICTS
+
+26 COMPOSE POLICY RESULT
+
+27 BIND RESULT TO PRINCIPAL / ACTION / TARGET / EFFECT
+
+28 BUILD POLICY READ SET
+
+29 BIND PROVENANCE
+
+30 BIND SCOPE / REGIME / FRESHNESS
+
+31 RUN DECISION VALIDATOR
+
+32 RUN ADVERSARIAL CHECK IF REQUIRED
+
+33 EMIT POLICY_DECISION
+
+34 HAND OFF TO CONTROL PLANE
+
+35 REVALIDATE LOAD-BEARING STATE AT COMMIT IF REQUIRED
+
+36 INVALIDATE OR SUPERSEDE STALE DECISIONS
+```
+
+---
+
+# 107. Protocol — Evaluation Request
+
+```yaml
+policy_engine_evaluate:
+  request_id: string
+
+  task_contract_ref: string
+
+  principal: {}
+
+  action: {}
+
+  capability_contract: {}
+
+  target: {}
+
+  effect_intent: {}
+
+  scope: {}
+
+  regime: {}
+
+  authority_context: {}
+
+  constraint_context: {}
+
+  evidence_refs: []
+
+  transaction_id: null
+```
+
+---
+
+# 108. Protocol — Evaluation Response
+
+```yaml
+policy_engine_result:
+  request_id: string
+
+  evaluation_id: string
+
+  policy_decision_ref: string
+
+  state:
+    - ALLOW
+    - DENY
+    - CONDITIONAL
+    - ESCALATE
+    - REVALIDATE
+    - CONFLICT
+    - UNKNOWN_GAP
+
+  reason_codes: []
+
+  obligations: []
+  prohibitions: []
+  conditions: []
+
+  unresolved: []
+
+  policy_read_set: []
+
+  provenance: {}
+
+  confidence_ceiling: null
+```
+
+---
+
+# 109. Protocol — Revalidation
+
+```yaml
+policy_engine_revalidate:
+  prior_decision_id: string
+
+  current_principal: {}
+
+  current_action: {}
+
+  current_target: {}
+
+  current_effect: {}
+
+  current_capability_contract_hash: string
+
+  current_scope: {}
+
+  current_regime: {}
+
+  current_policy_state: {}
+
+  current_time: timestamp
+```
+
+Response:
+
+```yaml
+policy_engine_revalidation_result:
+  prior_decision_id: string
+
+  state:
+    - STILL_VALID
+    - REVALIDATE
+    - INVALID
+    - CONFLICT
+    - UNKNOWN_GAP
+
+  changed_dependencies: []
+
+  replacement_decision_id: null
+```
+
+---
+
+# 110. Protocol — Invalidation
+
+```yaml
+policy_engine_invalidate:
+  decision_id: string
+
+  cause:
+    type: string
+    object_id: string
+    old_version: null
+    new_version: null
+
+  detected_at: timestamp
+
+  evidence_refs: []
+```
+
+---
+
+# 111. Control-Plane Integration
+
+The Policy Engine SHOULD expose the final policy result to the control plane as evidence.
+
+Example:
+
+```yaml
+control_plane_policy_input:
+  decision_id: string
+
+  decision_state: ALLOW
+
+  decision_hash: string
+
+  policy_read_set: []
+
+  scope: {}
+
+  regime: {}
+
+  obligations: []
+
+  freshness: {}
+
+  provenance: {}
+```
+
+---
+
+# 112. Control-Plane Rule
+
+The control plane MUST NOT infer:
+
+```text
+COMMITTABLE
+```
+
+solely from:
+
+```text
+policy_decision = ALLOW
+```
+
+It must separately validate its other governing conditions.
+
+---
+
+# 113. Commit Guard Composition
+
+Conceptually:
+
+```text
+COMMITTABLE =
+PolicyValid
+∧ AuthorityValid
+∧ EvidenceValid
+∧ ConstraintsFresh
+∧ SemanticTransactionValid
+∧ ObservabilityValid
+∧ CapabilityContractValid
+∧ EffectReleaseStateValid
+```
+
+This is an AMOS control model.
+
+Exact runtime semantics require executable implementation and validation.
+
+---
+
+# 114. Observability
+
+The Policy Engine SHOULD emit enough observability for reconstruction without leaking prohibited information.
+
+Recommended events:
+
+```text
+POLICY_EVALUATION_STARTED
+
+POLICY_DISCOVERY_COMPLETED
+
+POLICY_IDENTITY_RESOLVED
+
+POLICY_APPLICABILITY_RESOLVED
+
+POLICY_RULE_EVALUATED
+
+POLICY_EXCEPTION_EVALUATED
+
+POLICY_CONFLICT_DETECTED
+
+POLICY_PRECEDENCE_APPLIED
+
+POLICY_DECISION_CREATED
+
+POLICY_DECISION_REVALIDATED
+
+POLICY_DECISION_INVALIDATED
+
+POLICY_DECISION_QUARANTINED
+
+POLICY_DECISION_SUPERSEDED
+```
+
+---
+
+# 115. Observability Envelope
+
+Logging itself MUST remain governed.
+
+The Policy Engine SHOULD NOT expose sensitive policy context merely for debugging.
+
+An infrastructure-owned observability envelope SHOULD define:
+
+```text
+what may be logged;
+which fields must be redacted;
+who may inspect logs;
+retention;
+integrity requirements;
+provenance requirements.
+```
+
+---
+
+# 116. Performance
+
+Policy optimization MAY reduce:
+
+```text
+registry reads;
+duplicate evaluation;
+unnecessary policy loading;
+redundant predicate checks;
+unrelated revalidation.
+```
+
+Optimization MUST NOT weaken:
+
+```text
+policy coverage;
+scope correctness;
+conflict visibility;
+provenance;
+freshness;
+revocation;
+authority separation;
+unknown preservation.
+```
+
+---
+
+# 117. Fast Path
+
+A fast policy path MAY reuse a prior proof capsule only when:
+
+```text
+dependency closure established;
+policy read set unchanged;
+scope compatible;
+regime compatible;
+principal compatible;
+action compatible;
+target compatible;
+effect compatible;
+freshness valid;
+no unresolved conflict;
+no revocation;
+no governance escalation trigger.
+```
+
+Otherwise escalate to deeper evaluation.
+
+---
+
+# 118. Fast-Path Invariant
+
+```text
+FAST != WEAKER
+```
+
+Fast-path execution changes retrieval/evaluation cost.
+
+It MUST NOT change governing semantics.
+
+---
+
+# 119. Policy Proof Capsule
+
+Important decisions SHOULD conceptually carry:
+
+```yaml
+policy_proof_capsule:
+  claim:
+    class: DERIVED
+    text: "Policy decision D applies to request Q."
+
+  premises: []
+
+  policies: []
+
+  evidence: []
+
+  provenance: []
+
+  scope: {}
+
+  regime: {}
+
+  freshness: {}
+
+  dependencies: []
+
+  competing: []
+
+  falsifiers: []
+
+  confidence_ceiling: null
+```
+
+---
+
+# 120. RSCF Integration
+
+The Policy Engine SHOULD support RSCF representation.
+
+```yaml
+rscf:
+  claim:
+    id: "RSCF_POLICY_ENGINE_DECISION"
+    class: DERIVED
+
+  premises:
+    - policy_identity_valid
+    - policy_applicability_valid
+    - predicates_valid
+    - scope_valid
+    - regime_valid
+    - composition_valid
+
+  evidence: []
+
+  provenance: []
+
+  dependencies: []
+
+  competing: []
+
+  falsifiers: []
+
+  confidence_ceiling: null
+```
+
+---
+
+# 121. RSCF Invalidation
+
+If a load-bearing premise fails:
+
+```text
+invalidate dependent policy conclusion
+```
+
+not:
+
+```text
+erase unrelated policy knowledge.
+```
+
+This preserves selective repair.
+
+---
+
+# 122. GMEF Integration
+
+Changes to Policy Engine semantics SHOULD be governed when they affect:
+
+```text
+policy discovery;
+applicability;
+decision states;
+precedence;
+exceptions;
+unknown handling;
+conflict handling;
+scope;
+regime;
+authority interaction;
+commit interaction;
+freshness;
+revocation;
+provenance;
+effect classification.
+```
+
+---
+
+# 123. Engine Change Manifest
+
+```yaml
+policy_engine_change:
+  change_id: string
+
+  from_version: string
+  to_version: string
+
+  change_class:
+    - COSMETIC
+    - SCHEMA
+    - SEMANTIC
+    - GOVERNANCE
+    - AUTHORITY_BOUNDARY
+    - COMMIT_BOUNDARY
+
+  affected_components: []
+
+  expected_behavior_changes: []
+
+  risks: []
+
+  validators_required: []
+
+  rollback_plan: null
+
+  approval_state: PROPOSED
+```
+
+---
+
+# 124. Promotion Model
+
+```text
+STRUCTURAL_MODEL
+        ↓
+SCHEMA_VALIDATED
+        ↓
+POLICY_REGISTRY_INTEGRATED
+        ↓
+EXECUTABLE
+        ↓
+UNIT_TESTED
+        ↓
+INTEGRATION_TESTED
+        ↓
+ADVERSARIALLY_TESTED
+        ↓
+CONTROL_PLANE_VALIDATED
+        ↓
+GOVERNED_ACTIVE
+```
+
+No transition is automatic.
+
+---
+
+# 125. Promotion Requirements
+
+## Structural → Schema Validated
+
+Requires:
+
+```text
+input schema;
+output schema;
+decision enums;
+policy identity schema;
+applicability schema;
+conflict schema.
+```
+
+## Schema → Registry Integrated
+
+Requires:
+
+```text
+policy lookup;
+version resolution;
+status resolution;
+supersession resolution.
+```
+
+## Registry Integrated → Executable
+
+Requires:
+
+```text
+working evaluator;
+deterministic rule semantics where declared;
+unknown handling;
+conflict handling;
+exception handling.
+```
+
+## Executable → Tested
+
+Requires executed test evidence.
+
+## Tested → Governed Active
+
+Requires validation of:
+
+```text
+authority boundaries;
+control-plane integration;
+rollback;
+security;
+observability;
+freshness;
+revocation;
+effect binding;
+no unresolved critical gaps.
+```
+
+---
+
+# 126. Security Model
+
+The Policy Engine SHOULD defend against:
+
+```text
+policy injection;
+policy deletion;
+policy substitution;
+policy rollback;
+registry poisoning;
+exception forgery;
+exception widening;
+scope widening;
+regime widening;
+authority smuggling;
+capability smuggling;
+commit smuggling;
+policy cache poisoning;
+decision replay;
+parameter mutation;
+effect mutation;
+provenance stripping;
+conflict suppression;
+unknown coercion;
+policy downgrade.
+```
+
+---
+
+# 127. Trust Model
+
+Policy trust is:
+
+```text
+local;
+typed;
+scoped;
+versioned;
+provenance-aware;
+regime-aware;
+freshness-bounded.
+```
+
+No source receives universal trust merely because it is authoritative in one domain.
+
+---
+
+# 128. Provenance Topology
+
+Where multiple policy sources exist, the engine SHOULD track ancestry.
+
+Example:
+
+```text
+SOURCE_A
+  ├── POLICY_A1
+  ├── POLICY_A2
+  └── POLICY_A3
+```
+
+These are not three independent origins.
+
+Therefore:
+
+```text
+count(policy_objects)
+!=
+count(independent_authorities)
+```
+
+---
+
+# 129. Policy Sybil Resistance
+
+A policy conclusion MUST NOT gain apparent confidence merely because the same underlying rule is:
+
+```text
+copied;
+renamed;
+reformatted;
+translated;
+summarized;
+embedded in multiple files.
+```
+
+Independence must be demonstrated where independence matters.
+
+---
+
+# 130. Policy Engine Gap Classes
+
+```text
+CRITICAL
+
+DECISION_RELEVANT
+
+EXPLANATORY
+
+COSMETIC
+```
+
+---
+
+# 131. Critical Gaps
+
+Examples:
+
+```text
+unknown governing policy;
+unknown hard prohibition;
+unknown policy precedence;
+unknown exception validity;
+unknown scope;
+unknown regime;
+unknown authority interaction;
+unknown effect class;
+unknown policy version;
+unknown supersession state.
+```
+
+Critical gaps MUST block unconditional policy approval when outcome-sensitive.
+
+---
+
+# 132. Gap Object
+
+```yaml
+policy_engine_gap:
+  gap_id: string
+
+  class:
+    - CRITICAL
+    - DECISION_RELEVANT
+    - EXPLANATORY
+    - COSMETIC
+
+  component: string
+
+  description: string
+
+  blocks: []
+
+  cheapest_resolution: null
+
+  evidence_required: []
+
+  state:
+    - OPEN
+    - RESOLVED
+    - ACCEPTED
+```
+
+---
+
+# 133. Gap Resolution Priority
+
+Resolve gaps in this order:
+
+```text
+CRITICAL
+    ↓
+DECISION_RELEVANT
+    ↓
+EXPLANATORY
+    ↓
+COSMETIC
+```
+
+Do not spend evaluation resources polishing explanatory gaps while a critical policy gap remains unresolved.
+
+---
+
+# 134. Minimum Engine Contract
+
+The minimum structurally complete Policy Engine MUST support:
+
+```text
+policy discovery;
+policy identity;
+policy version;
+applicability;
+rule evaluation;
+ALLOW;
+DENY;
+CONDITIONAL;
+UNKNOWN_GAP;
+conflict preservation;
+scope;
+regime;
+provenance;
+freshness;
+decision generation.
+```
+
+A production-grade engine additionally requires:
+
+```text
+authority integration;
+commit-time revalidation;
+fine-grained read sets;
+revocation;
+exceptions;
+observability;
+security;
+cache integrity;
+recovery;
+tests;
+auditing.
+```
+
+---
+
+# 135. Example — Read-Only Request
+
+```yaml
+policy_engine_request:
+  request_id: "REQ_001"
+
+  principal:
+    principal_id: "AGENT_A"
+    principal_type: AGENT
+
+  action:
+    action_class: READ
+    operation: "read_resource"
+
+  capability:
+    capability_id: "CAP_RESOURCE_READ"
+
+  target:
+    target_id: "RESOURCE_001"
+
+  effect_intent:
+    effect_class: E0_READ_ONLY
+    persistent: false
+    externally_visible: false
+```
+
+Possible result:
+
+```yaml
+policy_engine_result:
+  decision:
+    state: ALLOW
+
+  reason_codes:
+    - ALLOW_POLICY_SATISFIED
+
+  obligations:
+    - RECORD_PROVENANCE
+```
+
+This does not independently establish resource access authority.
+
+---
+
+# 136. Example — Persistent Write
+
+```yaml
+policy_engine_request:
+  request_id: "REQ_002"
+
+  principal:
+    principal_id: "AGENT_A"
+    principal_type: AGENT
+
+  action:
+    action_class: WRITE
+    operation: "persistent_write"
+
+  target:
+    target_id: "RESOURCE_002"
+
+  effect_intent:
+    effect_class: E3_PERSISTENT_WRITE
+    persistent: true
+```
+
+Possible result:
+
+```yaml
+policy_engine_result:
+  decision:
+    state: CONDITIONAL
+
+  conditions:
+    - VALID_WRITE_AUTHORITY
+    - COMMIT_TIME_REVALIDATION
+
+  obligations:
+    - RECORD_PROVENANCE
+    - RECORD_TRANSACTION
+```
+
+This is not permission to commit the write.
+
+---
+
+# 137. Example — Explicit Denial
+
+```yaml
+policy_engine_result:
+  decision:
+    state: DENY
+
+  reason_codes:
+    - DENY_RESOURCE_SCOPE
+
+  prohibitions:
+    - prohibition_id: "PROHIBITION_001"
+      operation: "persistent_write"
+      hard: true
+```
+
+Downstream components MUST NOT override this denial without a valid governing exception.
+
+---
+
+# 138. Example — Unknown
+
+```yaml
+policy_engine_result:
+  decision:
+    state: UNKNOWN_GAP
+
+  reason_codes:
+    - UNKNOWN_POLICY
+
+  unresolved:
+    - "authoritative policy for resource class not resolved"
+```
+
+The engine MUST NOT transform this into:
+
+```text
+ALLOW
+```
+
+for workflow convenience.
+
+---
+
+# 139. Example — Conflict
+
+```yaml
+policy_engine_result:
+  decision:
+    state: CONFLICT
+
+  conflicts:
+    - conflict_id: "CONFLICT_001"
+
+      policies:
+        - POLICY_A
+        - POLICY_B
+
+      conflict_type: ALLOW_DENY
+
+      resolution:
+        state: UNRESOLVED
+```
+
+---
+
+# 140. Example — Revalidation
+
+Prepared:
+
+```text
+POLICY_X@1.0
+→ ALLOW
+```
+
+Current:
+
+```text
+POLICY_X@2.0
+```
+
+If `POLICY_X` was load-bearing:
+
+```text
+prior decision
+    ↓
+REVALIDATE
+```
+
+The old `ALLOW` MUST NOT be blindly reused.
+
+---
+
+# 141. Example — Selective Invalidation
+
+```text
+D1 ← POLICY_A + POLICY_B
+D2 ← POLICY_C
+D3 ← POLICY_B + POLICY_D
+```
+
+If:
+
+```text
+POLICY_B changes
+```
+
+then:
+
+```text
+invalidate D1
+invalidate D3
+preserve D2
+```
+
+provided no hidden dependency links `D2` to `POLICY_B`.
+
+---
+
+# 142. Example — H/M/L Policy
+
+```text
+H POLICY:
+external disclosure of protected information prohibited
+
+M POLICY:
+workflow may generate external communication drafts
+
+L POLICY:
+send-message capability available
+```
+
+Result:
+
+```text
+draft generation may be allowed
+```
+
+while:
+
+```text
+external send may remain denied
+```
+
+This demonstrates:
+
+```text
+CAPABILITY != AUTHORITY
+PROPOSAL != COMMIT
+```
+
+---
+
+# 143. Audit Surface
+
+An auditor SHOULD be able to reconstruct:
+
+1. What request entered the engine?
+2. Who was the principal?
+3. What action was normalized?
+4. What capability was resolved?
+5. What target was bound?
+6. What effect was evaluated?
+7. What policies were discovered?
+8. Which policy versions were used?
+9. Which policies were applicable?
+10. Which were excluded?
+11. Why?
+12. What predicates were evaluated?
+13. Which predicates were unknown?
+14. Which rules fired?
+15. What exceptions were evaluated?
+16. Were exceptions valid?
+17. What conflicts were detected?
+18. What precedence was applied?
+19. What obligations were created?
+20. What prohibitions were created?
+21. What conditions remained?
+22. What was the final policy decision?
+23. What was its scope?
+24. What was its regime?
+25. What evidence supported it?
+26. What was its policy read set?
+27. When was it evaluated?
+28. What invalidates it?
+29. Was it revalidated before commit?
+30. Did runtime behavior conform to it?
+
+---
+
+# 144. Completion Matrix
+
+| Surface                   | Specification State |
+| ------------------------- | ------------------- |
+| Purpose                   | COMPLETE_AS_MODEL   |
+| Architecture              | COMPLETE_AS_MODEL   |
+| Inputs                    | COMPLETE_AS_MODEL   |
+| Outputs                   | COMPLETE_AS_MODEL   |
+| Context normalization     | COMPLETE_AS_MODEL   |
+| Policy discovery          | COMPLETE_AS_MODEL   |
+| Identity resolution       | COMPLETE_AS_MODEL   |
+| Version resolution        | COMPLETE_AS_MODEL   |
+| Applicability             | COMPLETE_AS_MODEL   |
+| Predicate evaluation      | COMPLETE_AS_MODEL   |
+| Rule evaluation           | COMPLETE_AS_MODEL   |
+| Exceptions                | COMPLETE_AS_MODEL   |
+| Composition               | COMPLETE_AS_MODEL   |
+| Conflict detection        | COMPLETE_AS_MODEL   |
+| Precedence                | COMPLETE_AS_MODEL   |
+| Supersession              | COMPLETE_AS_MODEL   |
+| Obligations               | COMPLETE_AS_MODEL   |
+| Prohibitions              | COMPLETE_AS_MODEL   |
+| Conditions                | COMPLETE_AS_MODEL   |
+| Decision builder          | COMPLETE_AS_MODEL   |
+| Provenance                | COMPLETE_AS_MODEL   |
+| Read sets                 | COMPLETE_AS_MODEL   |
+| Freshness                 | COMPLETE_AS_MODEL   |
+| Revalidation              | COMPLETE_AS_MODEL   |
+| H/M/L                     | COMPLETE_AS_MODEL   |
+| RSCF                      | COMPLETE_AS_MODEL   |
+| GMEF                      | COMPLETE_AS_MODEL   |
+| Agents                    | COMPLETE_AS_MODEL   |
+| Skills                    | COMPLETE_AS_MODEL   |
+| Workflows                 | COMPLETE_AS_MODEL   |
+| Protocols                 | COMPLETE_AS_MODEL   |
+| Failure modes             | COMPLETE_AS_MODEL   |
+| Repair/recovery           | COMPLETE_AS_MODEL   |
+| Tests                     | COMPLETE_AS_MODEL   |
+| Falsifiers                | COMPLETE_AS_MODEL   |
+| Executable implementation | UNKNOWN/GAP         |
+| Executed test evidence    | UNKNOWN/GAP         |
+| Formal verification       | UNKNOWN/GAP         |
+| Production deployment     | UNKNOWN/GAP         |
+| Canon admission           | UNKNOWN/GAP         |
+
+---
+
+# 145. RSCF Completion State
+
+```yaml
+rscf_completion:
+  claim:
+    id: "AMOS_POLICY_ENGINE"
+    class: MODEL
+
+    text: >
+      This artifact defines a structurally complete AMOS OS
+      policy-evaluation architecture for producing governed,
+      provenance-bound policy decisions.
+
+  evidence:
+    - "AMOS infrastructure/control-plane architecture"
+    - "associated AMOS policy/capability contract surfaces"
+
+  provenance:
+    origin_architect: "Trang Phan"
+    steward: "Trang Phan"
+
+  scope:
+    system: "AMOS OS"
+    component: "Policy Engine"
+
+  regime:
+    - DESIGN
+    - ARCHITECTURE
+    - GOVERNANCE_MODEL
+
+  freshness:
+    artifact_version: "1.0.0"
+    updated: "2026-08-26"
+
+  dependencies:
+    - POLICY_REGISTRY.md
+    - POLICY_DECISION.md
+    - CAPABILITY_MANIFEST.md
+    - CAPABILITY_CONTRACT.md
+    - CONTROL_PLANE_MAP.md
+
+  competing: []
+
+  falsifiers:
+    - "policy decision cannot be reconstructed"
+    - "governing policies are silently omitted"
+    - "unknown policy state becomes permission"
+    - "policy allow grants authority directly"
+    - "policy engine performs unauthorized commit"
+    - "scope/regime boundaries are not preserved"
+
+  confidence_ceiling: 0
+```
+
+`confidence_ceiling: 0` here means no empirical/runtime validation is being claimed by this architecture document.
+
+It does **not** mean the specification contains no substantive architecture.
+
+---
+
+# 146. Hard Boundary Block
+
+```text
+POLICY_ENGINE != POLICY_REGISTRY
+
+POLICY_ENGINE != POLICY
+
+POLICY_ENGINE != POLICY_DECISION
+
+POLICY_ENGINE != CAPABILITY_PROVIDER
+
+POLICY_ENGINE != AUTHORITY_PROVIDER
+
+POLICY_ENGINE != CONTROL_PLANE
+
+POLICY_ENGINE != EFFECT_EXECUTOR
+
+POLICY_ENGINE != RELEASE_LEDGER
+
+POLICY_ENGINE != RECEIVER
+
+POLICY_ENGINE != EMPIRICAL_VALIDATOR
+
+POLICY_ALLOW != AUTHORITY
+
+POLICY_ALLOW != COMMITTABLE
+
+POLICY_ALLOW != COMMITTED
+
+CAPABILITY != AUTHORITY
+
+CAPABILITY != POLICY_PERMISSION
+
+VALIDATION != AUTHORIZATION
+
+AUTHORIZATION != EXECUTION
+
+PROPOSAL != COMMIT
+
+EXECUTION != FINALITY
+
+SUCCESS != POLICY_VALIDITY
+
+POLICY_VALIDITY != FACTUAL_TRUTH
+
+UNKNOWN/GAP != PASS
+
+UNKNOWN/GAP != ALLOW
+
+CONFLICT != ALLOW
+
+CONDITIONAL != ALLOW
+
+CORRELATED_PROVENANCE != INDEPENDENT_CONFIRMATION
+
+ADDRESSABLE != VALIDATED
+
+STRUCTURAL_MODEL != IMPLEMENTED_RUNTIME
+
+IMPLEMENTED != VALIDATED
+
+TESTED != FORMALLY_VERIFIED
+
+MODEL != EMPIRICAL_FACT
+```
+
+---
+
+# 147. Canon Boundary
+
+Trang Phan remains the origin architect and steward of AMOS.
+
+This artifact defines a substantive proposed architecture for the AMOS `POLICY_ENGINE.md` surface.
+
+Its completeness as a specification does not itself establish:
+
+```text
+runtime implementation;
+executed validation;
+production deployment;
+formal verification;
+or canonical admission.
+```
+
+Until separately admitted through the appropriate AMOS canon/provenance/governance/supersession process:
+
+```yaml
+artifact_status: PROPOSED
+
+epistemic_class: MODEL
+
+structural_status: COMPLETE_AS_MODEL
+
+runtime_status: UNKNOWN/GAP
+
+validation_status: UNKNOWN/GAP
+
+canonical_status: UNKNOWN/GAP
+```
+
+Applicable validated source canon outranks generated model additions, subject to:
+
+```text
+version;
+scope;
+regime;
+provenance;
+supersession;
+and dependency compatibility.
+```
+
+---
+
+# 148. Final Policy Engine Contract
+
+AMOS SHALL preserve the following architecture:
+
+```text
+TASK_CONTRACT
+      ↓
+RESOLVED_CAPABILITY_CONTRACT
+      ↓
+POLICY CONTEXT
+      ↓
+POLICY REGISTRY
+      ↓
+POLICY DISCOVERY
+      ↓
+IDENTITY + VERSION RESOLUTION
+      ↓
+SUPERSESSION CHECK
+      ↓
+APPLICABILITY
+      ↓
+PREDICATE EVALUATION
+      ↓
+RULE EVALUATION
+      ↓
+EXCEPTION VALIDATION
+      ↓
+OBLIGATION / PROHIBITION / CONDITION EXTRACTION
+      ↓
+CONFLICT DETECTION
+      ↓
+PRECEDENCE RESOLUTION
+      ↓
+POLICY COMPOSITION
+      ↓
+PROVENANCE + READ-SET BINDING
+      ↓
+FRESHNESS BINDING
+      ↓
+POLICY_DECISION
+      ↓
+CONTROL-PLANE HANDOFF
+      ↓
+COMMIT-TIME REVALIDATION
+```
+
+The central engine invariant is:
+
+> **The AMOS Policy Engine determines what the applicable policy layer concludes about a precisely bound request. It does not convert that conclusion into capability, authority, execution, or commit.**
+
+Therefore:
+
+```text
+POLICY_ENGINE → POLICY_DECISION
+```
+
+but never automatically:
+
+```text
+POLICY_ENGINE → EFFECT
+```
+
+and:
+
+```text
+ALLOW
+```
+
+means only:
+
+> the evaluated policy layer permits the bound action within the decision's validated scope, regime, policy versions, context, and freshness envelope.
+
+It does not mean:
+
+```text
+AUTHORIZED
+
+EXECUTABLE
+
+SAFE
+
+CORRECT
+
+COMMITTABLE
+
+COMMITTED
+```
+
+Any unresolved load-bearing policy, applicability, scope, regime, provenance, conflict, authority, freshness, or effect-binding condition remains explicitly:
+
+```text
+UNKNOWN/GAP
+```
+
+or the corresponding:
+
+```text
+CONDITIONAL
+CONFLICT
+ESCALATE
+REVALIDATE
+DENY
+```
+
+state.
+
+AMOS MUST NOT convert missing policy information into permission.
+
+AMOS MUST NOT convert capability into authority.
+
+AMOS MUST NOT convert policy permission into commit authority.
+
+AMOS MUST NOT suppress genuine policy conflict.
+
+AMOS MUST NOT reuse stale decisions across incompatible state.
+
+AMOS MUST preserve enough provenance to reconstruct consequential policy decisions.
+
+AMOS MUST prefer selective invalidation and repair over unnecessary global recomputation.
+
+Integrity remains prior to completeness, fluency, speed, and optimization.
+
+---
+
+# END — POLICY_ENGINE.md
+
+```
 ```
