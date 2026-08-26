@@ -3345,3 +3345,7 @@ The governing root law is:
 
 ---
 **Related:** [[00-Home]]
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
