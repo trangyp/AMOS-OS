@@ -4,7 +4,7 @@ tags: ['knowledge', 'note']
 
 # AMOS C11 DESIGN LANGUAGE MASTER KNOWLEDGE
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
 
 Purpose: reserve the canonical AMOS OS location for this artifact.
 

@@ -6,7 +6,7 @@ amos_core_target: "v4.4"
 created: "2026-08-25"
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
-status: "PLACEHOLDER"
+status: PROPOSED_SPECIFICATION
 conclusion_class: "UNKNOWN/GAP"
 rscf_state: "placeholder"
 tags: ['control_plane', 'commit', 'composite_modes', 'note']

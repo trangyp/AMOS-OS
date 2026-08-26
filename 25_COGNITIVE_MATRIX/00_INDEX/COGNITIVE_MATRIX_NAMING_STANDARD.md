@@ -2153,7 +2153,7 @@ INVARIANTS.md
 may exist while:
 
 ```yaml
-artifact_status: PLACEHOLDER
+artifact_status: PROPOSED_SPECIFICATION
 ```
 
 This is preferable to:

@@ -4,7 +4,7 @@ tags: ['knowledge', 'readme']
 
 # README
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
 
 Purpose: reserve the canonical AMOS OS location for this artifact.
 

@@ -2084,7 +2084,7 @@ TEST PASSED
 Input:
 
 ```yaml
-status: PLACEHOLDER
+status: PROPOSED_SPECIFICATION
 ```
 
 Expected:

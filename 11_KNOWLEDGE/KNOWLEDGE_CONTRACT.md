@@ -4,7 +4,7 @@ tags: ['knowledge', 'contract']
 
 # KNOWLEDGE Contract
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
 
 Purpose: reserve the canonical AMOS OS location for this artifact.
 

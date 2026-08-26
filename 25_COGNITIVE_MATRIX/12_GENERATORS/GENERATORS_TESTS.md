@@ -17,7 +17,7 @@ subsystem: 12_GENERATORS
 origin_architect: Trang Phan
 stewardship: AMOS / Trang corpus
 
-status: PLACEHOLDER
+status: PROPOSED_SPECIFICATION
 implementation_status: UNIMPLEMENTED_OR_UNVERIFIED
 test_execution_status: NOT_RUN
 validation_status: UNVALIDATED

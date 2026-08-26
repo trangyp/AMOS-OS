@@ -18,7 +18,7 @@ subsystem: 10_ROUTING
 origin_architect: Trang Phan
 stewardship: AMOS / Trang corpus
 
-status: PLACEHOLDER
+status: PROPOSED_SPECIFICATION
 implementation_status: UNIMPLEMENTED_OR_UNVERIFIED
 validation_status: UNVALIDATED
 epistemic_class: UNKNOWN/GAP

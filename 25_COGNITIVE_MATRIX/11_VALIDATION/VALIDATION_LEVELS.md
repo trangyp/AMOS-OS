@@ -535,7 +535,7 @@ Typical state:
 
 ```yaml
 validation_level: V0
-status: PLACEHOLDER
+status: PROPOSED_SPECIFICATION
 claim_class: UNKNOWN/GAP
 confidence_ceiling: 0
 ```
@@ -4388,7 +4388,7 @@ object: GENERATOR_X
 
 validation:
   level: V0
-  status: PLACEHOLDER
+  status: PROPOSED_SPECIFICATION
 
 claim_class: UNKNOWN/GAP
 

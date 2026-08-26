@@ -1985,7 +1985,7 @@ DEPENDENCY_MAP.md
 with:
 
 ```yaml
-status: PLACEHOLDER
+status: PROPOSED_SPECIFICATION
 ```
 
 not:

@@ -1,0 +1,29 @@
+{
+  "name": "amos-law-stack-gate-agent",
+  "description": "Enforces Law of Law/Rule of 2/Rule of 4 gate compliance across AMOS OS skills",
+  "capabilities": [
+    {
+      "name": "validate_law_stack_order",
+      "description": "Checks that any proposed law follows LoL→R2→R4 order; contradictory drafts short-circuit",
+      "gate": "G3"
+    },
+    {
+      "name": "check_quadrant_completeness",
+      "description": "Verifies R4 quadrant completeness with declared canonical family (UBI/TSS/PSI/QLS)",
+      "gate": "G4"
+    },
+    {
+      "name": "capability_not_authorization",
+      "description": "Ensures reasoning-shape ≠ authorization (integrity stack owns UBI Score/ledger)",
+      "gate": "G2"
+    }
+  ],
+  "dependencies": {
+    "skills": ["amos-law-stack-enforcement", "amos-7-part-universe-canon"],
+    "workflows": ["law-stack-enforcement-pipeline-workflow"]
+  },
+  "registered_in": "AMOS_OS",
+  "schema_version": "2.0.0",
+  "provenance": "VAULT_GENERATED_2026_08_25",
+  "confidence": "HIGH"
+}

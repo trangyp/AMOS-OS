@@ -1,0 +1,29 @@
+{
+  "name": "amos-flow-auditor-agent",
+  "description": "Audits flow characterization across systems using the 7-Part Canon Part II",
+  "capabilities": [
+    {
+      "name": "audit_flow_characterization",
+      "description": "Characterizes constrained throughput: input→transformation→output with bottlenecks, leakage, queues",
+      "method": "7-Part Canon Part II framework"
+    },
+    {
+      "name": "detect_flow_gap",
+      "description": "Identifies whether a system claims flow without structural characterization — the genuine gap this agent was created to fill",
+      "method": "Compare against 5 existing canon layers: UTC, CIL, Codex, 7 Cycles, Trang ∅"
+    },
+    {
+      "name": "map_flow_to_law_stack",
+      "description": "Maps flow characterization to Law of Law/Rule of 2/Rule of 4 gates",
+      "method": "Dual-frame test with rejection rationale; rubber-stamp fails"
+    }
+  ],
+  "dependencies": {
+    "skills": ["amos-flow-canon"],
+    "workflows": []
+  },
+  "registered_in": "AMOS_OS",
+  "schema_version": "1.0.0",
+  "provenance": "VAULT_GENERATED_2026_08_25",
+  "confidence": "HIGH"
+}

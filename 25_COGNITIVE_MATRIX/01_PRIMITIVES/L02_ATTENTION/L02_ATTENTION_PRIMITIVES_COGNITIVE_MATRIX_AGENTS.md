@@ -134,7 +134,7 @@ The recovered L02 placeholder states:
 ```yaml
 title: L02_ATTENTION Placeholder
 origin_architect: Trang Phan
-status: PLACEHOLDER_UNKNOWN_GAP
+status: PROPOSED_SPECIFICATION_UNKNOWN_GAP
 epistemic_class: UNKNOWN/GAP
 runtime_alignment: AMOS Full Brain OS / AMOS_CORE v4.4 lineage
 ```

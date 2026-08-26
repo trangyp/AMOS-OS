@@ -1766,7 +1766,7 @@ These must be discriminated before repair.
 When a structurally required map is missing but its role is clearly established, a placeholder may be created with:
 
 ```yaml
-status: PLACEHOLDER
+status: PROPOSED_SPECIFICATION
 conclusion_class: UNKNOWN/GAP
 ```
 

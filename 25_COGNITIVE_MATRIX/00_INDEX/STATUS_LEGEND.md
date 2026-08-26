@@ -39,7 +39,7 @@ An object may simultaneously be:
 ```yaml
 structural_status: ADDRESSABLE
 definition_status: DEFINED
-implementation_status: PLACEHOLDER
+implementation_status: PROPOSED_SPECIFICATION
 validation_status: UNVALIDATED
 operational_status: INACTIVE
 governance_status: UNAUTHORIZED
@@ -1133,7 +1133,7 @@ structural_status: ADDRESSABLE
 
 binding_status: UNBOUND
 
-implementation_status: PLACEHOLDER
+implementation_status: PROPOSED_SPECIFICATION
 
 validation_status: UNVALIDATED
 
