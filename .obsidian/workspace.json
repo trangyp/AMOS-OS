@@ -211,6 +211,19 @@
               "icon": "cone",
               "title": "Horme"
             }
+          },
+          {
+            "id": "ba33eefc76e50aaa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
           }
         ],
         "currentTab": 4
