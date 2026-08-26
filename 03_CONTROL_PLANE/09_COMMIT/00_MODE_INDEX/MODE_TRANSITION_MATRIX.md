@@ -1,7 +1,143 @@
-# README
+---
+artifact_id: AMOS-OS-MODE-MODE_TRANSITION_MATRIX
+title: AMOS OS Mode Transition Matrix
+canonical_name: MODE_TRANSITION_MATRIX
 
-STATUS: PLACEHOLDER
+artifact_class: GOVERNED_MODE_TRANSITION_MATRIX
+subsystem: MODE_GOVERNANCE
+origin_architect: Trang Phan
+amos_core_target: v4.4
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+status: CANDIDATE_CANON
+conclusion_class: DERIVED
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+source_state:
+  existing_file: PLACEHOLDER
+  recovered_substantive_implementation: false
+
+related_artifacts:
+  - MODE_ADMISSION_QUEUE.md
+  - MODE_COMPOSITION_REGISTRY.md
+  - MODE_CONFLICT_REGISTRY.md
+  - MODE_COVERAGE_MATRIX.md
+  - K_GMEF
+  - K_RSCF
+  - K_HML
+  - K_SYSTEM_STATE
+  - K_CONTEXT_STATE
+  - K_PROVENANCE
+  - K_COMMIT_TIME_AUTHORITY
+
+implementation_status: SPECIFICATION
+formal_verification_status: NOT_CLAIMED
+empirical_validation_status: NOT_CLAIMED
+
+promotion_required: true
+updated: 2026-08-26
+---
+
+# AMOS OS — Mode Transition Matrix
+
+> **Status:** `CANDIDATE_CANON`
+>
+> **Conclusion class:** `DERIVED`
+>
+> **AMOS CORE target:** `v4.4`
+>
+> **Origin Architect:** Trang Phan
+>
+> **Artifact:** `MODE_TRANSITION_MATRIX.md`
+
+---
+
+# 0. PURPOSE
+
+`MODE_TRANSITION_MATRIX` is the governed AMOS OS artifact whose purpose is to define the governed set of allowed transitions between mode states and the conditions under which each may occur.
+
+It answers the question:
+
+> Given current mode state S and requested mode state S', is the transition allowed, and what conditions must hold?
+
+It does **not** assert that every described mechanism is currently implemented or empirically validated.
+
+It does **not** grant authority.
+
+It does **not** silently conflate specification with executable runtime.
+
+---
+
+# 1. CORE LAW
+
+```text
+NOT EVERY DESIRED STATE TRANSITION IS A VALID GOVERNED TRANSITION.
+```
+
+---
+
+# 2. FUNDAMENTAL DISTINCTIONS
+
+```text
+REACHABLE != PERMITTED
+
+PERMITTED != SAFE
+
+SAFE != AUTHORIZED
+
+AUTHORIZED != EXECUTED
+
+EXECUTED != COMMITTED
+
+TRANSITION_POSSIBLE != TRANSITION_DESIRABLE
+```
+
+---
+
+# 3. WHY THIS ARTIFACT EXISTS
+
+Without `MODE_TRANSITION_MATRIX`, AMOS mode governance would be forced to infer allowed and forbidden mode state transitions from implicit conventions, file names, or model-generated interpretations.
+
+This artifact makes the governing structure explicit and auditable.
+
+---
+
+# 4. 3. Transition Object
+
+from_state, to_state, preconditions, postconditions, authority.
+
+---
+
+# 5. 4. Matrix Semantics
+
+Allowed, forbidden, conditional, reversible.
+
+---
+
+# 6. 5. Rollback
+
+Allowed reverse transitions and recovery.
+
+---
+
+# 9. TESTS AND FALSIFIERS
+
+`MODE_TRANSITION_MATRIX` is falsified if any of the following occur:
+
+- The artifact permits a mode to be treated as admitted without evidence.
+- It conflates a registry/schedule/graph entry with authority or execution.
+- It allows a declared distinction to be silently ignored.
+- It accepts a claim as proven without a corresponding evidence artifact.
+- It permits cyclic, stale, or unbounded governance without detection.
+
+---
+
+# 10. STATUS PRESERVATION
+
+This artifact remains `CANDIDATE_CANON / DERIVED` until:
+
+- the exact historical source or approved new specification is bound;
+- the canon/provenance process promotes it;
+- formal verification and empirical validation evidence are attached;
+- the relevant supersession and source registry entries are updated.
+
+# END — MODE_TRANSITION_MATRIX
+
