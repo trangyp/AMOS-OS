@@ -5153,3 +5153,6 @@ UNKNOWN/GAP.
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. The registry architecture is consistent with the Full Brain operating rules requiring typed states, provenance preservation, explicit unknowns, conservative claims, and source/empirical separation. :contentReference[oaicite:5]{index=5} The exact root ID syntax, registry backend, schema, URI convention, governance roles, atomic update mechanism, and complete live root inventory remain `UNKNOWN/GAP` until explicit canon or repository implementation establishes them.
 ```
+
+---
+**Related:** [[00-Home]]

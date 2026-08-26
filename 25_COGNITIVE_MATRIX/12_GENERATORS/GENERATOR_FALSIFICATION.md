@@ -1,3 +1,7 @@
+---
+tags: [25_cognitive_matrix, 12_generators, generator, falsification, note]
+---
+
 # Generator Falsification
 
 **STATUS:** CANDIDATE_CANON — SUBSTANTIVE SPECIFICATION
@@ -2254,3 +2258,11 @@ TRANG PHAN
 ```
 
 This content may replace the placeholder **at the candidate-specification level**. It should not be labeled implemented, empirically verified, or final canon until the required provenance, validation, governance, versioning, and supersession conditions are satisfied.
+
+---
+
+## Related
+- [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP.md|Generators Map]]
+- [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT.md|Generator Contract]]
+- [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_ADMISSION.md|Generator Admission]]
+- [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
