@@ -1,0 +1,689 @@
+---
+canon-group: reference
+rscf-state: source-claim
+arxiv_id: 0709.1310
+source: arxiv
+tags: [reference, knowledge, arxiv]
+---
+
+# 0709.1310_Pairing_Correlations_in_halo_Nuclei
+
+> Source: 0709.1310_Pairing_Correlations_in_halo_Nuclei.pdf
+
+> Pages: 8
+
+---
+
+
+## Page 1
+
+
+arXiv:0709.1310v1  [nucl-ex]  10 Sep 2007
+November 2, 2018
+6:23
+WSPC - Proceedings Trim Size: 9.75in x 6.5in
+ispun07-proc
+1
+PAIRING CORRELATIONS IN HALO NUCLEI
+H. SAGAWA
+Center for Mathematical Sciences, University of Aizu,
+Ikki-machi, Aizu-Wakamatsu, Fukushima 965-8580, Japan
+K.HAGINO
+Department of Physics, Tohoku University, Sendai, 980-8578, Japan
+Paring correlations in weakly bound halo nuclei 6He and 11Li are studied by using a three-
+body model with a density-dependent contact interaction. We investigate the spatial
+structure of two-neutron wave function in a Borromean nucleus 11Li. The behavior of
+the neutron pair at diﬀerent densities is simulated by calculating the two-neutron wave
+function at several distances between the core nucleus 9Li and the center of mass of the
+two neutrons. With this representation, a strong concentration of the neutron pair on the
+nuclear surface is quantitatively established for neutron-rich nuclei. Dipole excitations
+in 6He and 11Li are also studied within the same three-body model and compared with
+experimental data. The small open angles between the two neutrons from the core are
+extracted empirically by the B(E1) sum rule together with the rms mass radii, indicating
+the strong di-neutron correlation in the halo nuclei.
+Keywords: three-body model; di-neutron correlation ;coulomb break-up.
+1. Introduction
+Pairing correlations play a crucial role in many Fermion systems, such as liquid 3He,
+atomic nuclei, and ultracold atomic gases. When an attractive interaction between
+two Fermions is weak, the pairing correlations can be understood in terms of the
+well-known BCS mechanism, that shows a strong correlation in the momentum
+space. If the interaction is suﬃciently strong, on the other hand, one expects that
+two Fermions form a Bosonic bound state and condense in the ground state of many-
+body system.1 The transition from the BCS-type pairing correlation to the Bose-
+Einstein condensation (BEC) takes place continuously as a function of the strength
+of attractive interaction. This feature is referred to as the BCS-BEC crossover.
+It has been feasible by now to study the structure of nuclei on the edge of
+neutron drip line. Such nuclei are characterized by a dilute neutron density around
+the nuclear surface so that one can investigate the pairing correlations at several
+densities,2 ranging from the normal density in the center of nucleus to a diluted
+density at the surface. The pairing correlations are predicted to be strong at the
+surface, but rather weak at the normal density and also far outside of the core. Thus,
+the weakly bound nuclei will provide an ideal environment to study the dynamics
+
+
+## Page 2
+
+
+November 2, 2018
+6:23
+WSPC - Proceedings Trim Size: 9.75in x 6.5in
+ispun07-proc
+2
+of pairing correlations in relation with the BCS-BEC crossover phenomenon.
+In this talk, we discuss the manifestation of the BCS-BEC crossover phenomenon
+in ﬁnite neutron-rich nuclei. We particularly study the ground state wave function
+of a two-neutron halo nuclei, 6He and 11Li. These nuclei are known to be well
+described as a three-body system consisting of two valence neutrons and the core
+nucleus(4He or 9Li).3–5 A strong di-neutron correlation as a consequence of pairing
+interaction between the valence neutrons has been shown theoretically in 11Li.5,6
+We take this nucleus to study BCS-BEC crossover features in connection to the
+strong two-neutron correlation, which has recently been observed experimentally in
+low-lying dipole strength in 11Li.7
+2. Three-body model and di-neutron correlation
+In order to study the pair wave function in 11Li, we solve the following three-body
+Hamiltonian,5,6
+H = ˆhnC(1) + ˆhnC(2) + Vnn + ⃗p1 · ⃗p2
+Acm ,
+(1)
+where m and Ac are the nucleon mass and the mass number of the inert core
+nucleus, respectively. ˆhnC is the single-particle Hamiltonian for a valence neutron
+interacting with the core. We use a Woods-Saxon potential for the interaction in
+ˆhnC. The diagonal component of the recoil kinetic energy of the core nucleus is
+included in ˆhnC, whereas the oﬀ-diagonal part is taken into account in the last term
+in the Hamiltonian (1). The interaction between the valence neutrons Vnn is taken
+as a delta interaction whose strength depends on the density of the core nucleus.
+Assuming that the core density is described by a Fermi function, it reads
+Vnn(⃗r1,⃗r2) = δ(⃗r1 −⃗r2)
+
+v0 +
+vρ
+1 + exp[(R −Rρ)/aρ]
+
+,
+(2)
+where R = |(⃗r1 + ⃗r2)/2|. We use the same value for the parameters as in Refs.5,6
+The two-particle wave function Ψ(⃗r1,⃗r2) is obtained by diagonalizing the three-
+body Hamiltonian (1) with a large model space which is consistent with the nn
+interaction, Vnn. To this end, we expand the wave function Ψ(⃗r1,⃗r2) with the eigen-
+function φnljjz(⃗ri) of the single-particle Hamiltonian ˆhnC. In the expansion, we
+explicitly exclude those states which are occupied by the core nucleus.
+The ground state wave function is obtained as the state with the total angular
+momentum J = Jz = 0. We transform it to the coordinate system with the relative
+and center of mass (cm) motions for the valence neutrons, ⃗r = ⃗r1 −⃗r2 and ⃗R =
+(⃗r1 + ⃗r2)/2.8,9 The wave function is ﬁrst decomposed into the total spin S=0 and
+S=1 components. Then, the coordinate transformation is performed for the S=0
+component, which is relevant to the pairing correlation:
+ΨS=0(⃗r1,⃗r2) =
+X
+L
+fL(r, R) [YL(ˆ⃗r)YL( ˆ⃗R)](00) |χS=0⟩,
+(3)
+
+
+## Page 3
+
+
+November 2, 2018
+6:23
+WSPC - Proceedings Trim Size: 9.75in x 6.5in
+ispun07-proc
+3
+where |χS=0⟩is the spin wave function. The two-particle wave function is plotted
+for 11Li in two diﬀerent coordinates in Fig. 1. Fig. 1(a) is plotted as a function of
+r ≡r1 = r2 and the angle between the valence neutrons, while the radial coordinates
+r and R are adopted for Fig. 1(c). The S = 0 component is only taken for Fig. 1(b).
+One observes two peaks in both the ﬁgures. The peak at smaller angle θ12 in Fig.
+1(a) is referred to as “di-neutron conﬁguration” , while the large angle is called
+“cigar-like conﬁguration”. One can see the di-neutron conﬁguration has a long tail
+as a typical feature of halo wave function. Figure 1 (c) shows the square of two-
+particle wave function for the L = 0 component. One can clearly recognize the two
+peaked structure in the plot, corresponding to the di-neutron and the cigar-like
+conﬁgurations.
+The L = 0 wave functions of 11Li for diﬀerent values of R are plotted in Fig.
+2. Since we consider the density-dependent contact interaction, Eq. (2), this is ef-
+fectively equivalent to probing the wave function at diﬀerent densities. At R = 0.5
+-0.005
+ 0
+ 0.005
+ 0.01
+ 0.015
+ 0.02
+ 0.025
+ 0.03
+ 0.035
+ 0.04
+r  (fm)
+ 0
+ 20
+ 40
+ 60
+ 80
+ 100
+ 120
+ 140
+ 160
+ 180
+θ12  (deg)
+(a)
+r
+R r1
+r2
+-0.005
+ 0
+ 0.005
+ 0.01
+ 0.015
+ 0.02
+ 0.025
+ 0.03
+ 0.035
+ 0.04
+r  (fm)
+ 0
+ 20
+ 40
+ 60
+ 80
+ 100
+ 120
+ 140
+ 160
+ 180
+θ12  (deg)
+(b)
+ 0
+ 0.005
+ 0.01
+ 0.015
+ 0.02
+ 0.025
+ 0.03
+ 0.035
+ 0.04
+ 0
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+r  (fm)
+ 0
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+R  (fm)
+(c)
+Fig. 1.
+A two dimensional plot of the square of the ground state two-particle wave function
+for 11Li; (a) the total density, (b) the S = 0 component as a function of the radial coordinate
+r ≡r1 = r2 and the angle between the valence neutrons θ12. (c) r2R2|fL=0(r, R)|2 in Eq. (3), as
+a function of the relative distance r and the center of mass coordinate R for the valence neutrons
+as denoted in the upper right inset.
+
+
+## Page 4
+
+
+November 2, 2018
+6:23
+WSPC - Proceedings Trim Size: 9.75in x 6.5in
+ispun07-proc
+4
+0
+0.0005
+0.001
+0.0015
+0
+0.005
+0.01
+0.015
+0.02
+0
+0.01
+0.02
+0.03
+0.04
+0
+0.002
+0.004
+0.006
+0.008
+r
+2R
+2 |fL=0(r,R)|
+2   (fm
+-2)
+0
+0.005
+0.01
+0.015
+0.02
+0.025
+0.03
+0
+0.005
+0.01
+0.015
+0
+5
+10
+15
+r   (fm)
+0
+0.005
+0.01
+0.015
+0.02
+0
+5
+10
+15
+r   (fm)
+0
+0.01
+0.02
+0.03
+0.04
+0
+5
+10
+15
+r   (fm)
+0
+0.001
+0.002
+0.003
+0.004
+0.005
+R = 0.5 fm
+R = 1.0 fm
+R = 1.5 fm
+R = 2.0 fm
+R = 2.5 fm
+R = 3.0 fm
+R = 4.0 fm
+R = 6.0 fm
+R = 8.0 fm
+Fig. 2.
+The ground state two-particle wave functions, r2R2|fL=0(r, R)|2 of 11Li as a function of
+the relative distance between the neutrons, r, at several center of mass distances R as indicated
+in the inset. Notice the diﬀerent scales on the ordinate in the various panels.
+fm, where the density is close to the normal density ρ0, the two particle wave func-
+tion is spatially extended and oscillates inside the nuclear interior. This oscillatory
+behavior is typical for a Cooper pair wave function in the BCS approximation, and
+has in fact been found in nuclear and neutron matters at normal density ρ0.10,11 As
+R increases, the density ρ decreases. The two-particle wave function then gradually
+deviates from the BCS-like behavior. At R = 3 fm, the oscillatory behavior almost
+disappears and the wave function is largely concentrated inside the ﬁrst node at r ∼
+4.5 fm. The wave function is compact in shape, indicating the strong di-neutron cor-
+relation, typical for BEC where many such pairs are present. At R larger than 3
+fm, the squared wave function has essentially only one node, and the width of the
+peak gradually increases as a function of R. This behavior is qualitatively similar
+to the pair wave function in inﬁnite matter.10 We have conﬁrmed using the same
+three-body model that this scenario also holds for another Borromean nucleus 6He
+as well as for non-Borromean neutron-rich nuclei 16C and 24O.
+The transition from the BCS-type pairing to the BEC-type di-neutron correla-
+tion can also clearly be seen in the root mean square (rms) distance of the two neu-
+tron system. We plot this quantity in Fig. 3(a) as a function of R. In order to com-
+pare it with the rms distance in nuclear matter, we relate the cm distance R with the
+density ρ using the Fermi-type functional form ρ(R)/ρ0 = [1+exp((R−Rρ)/aρ)]−1,
+as used in the nn interaction in Eq. (2). Fig. 3(b) shows the rms distance as a func-
+tion of density ρ thus obtained. The rms distance shows a distinct minimum at
+ρ ∼0.4ρ0 (R ∼3.2 fm). This indicates that the strong di-neutron correlation grows
+in 11Li around this density. Notice that the probability to ﬁnd the two-neutron pair
+
+
+## Page 5
+
+
+November 2, 2018
+6:23
+WSPC - Proceedings Trim Size: 9.75in x 6.5in
+ispun07-proc
+5
+0
+5
+10
+15
+20
+R   (fm)
+0
+5
+10
+15
+rrms   (fm)
+10
+-4
+10
+-3
+10
+-2
+10
+-1
+10
+0
+ρ / ρ0
+0
+5
+10
+rrms   (fm)
+(a)
+(b)
+Fig. 3.
+The root mean square distance rrms for the neutron pair.
+is maximal around this region (see Fig. 1 (c)). The behavior of rms distance as a
+function of density ρ qualitatively well agrees with that in inﬁnite matter (see Fig.
+3 in Ref.10), although the absolute value of the rms distance is much smaller in the
+ﬁnite nucleus.
+3. Dipole excitations and correlation angles
+The rms distance
+q
+⟨r2
+c−2n⟩has an intimate relation to the B(E1) strength as,3,4,12
+B(E1) = 3
+π
+Ze
+A
+2
+⟨r2
+c−2n⟩.
+(4)
+This relation is obtained with closure, which includes unphysical Pauli forbidden
+transitions to the states with negative excitation energies. Although the eﬀect of
+Pauli forbidden transitions is not large, it leads to a non-negligible correction. In
+Ref.,12,13 it has been proposed to estimate the experimental value for ⟨r2
+c−2n⟩using
+the relation,
+⟨r2
+c−2n⟩exp = B(E1; E ≤Emax)exp
+B(E1; E ≤Emax)cal
+· ⟨r2
+c−2n⟩cal.
+(5)
+The dipole strength distributions for the 6He and 11Li nuclei obtained with the three
+model are shown in Fig. 4. Also shown by the solid curves are the B(E1) distributions
+smeared with the Lorenzian function with the width of Γ = 0.2 MeV. For the 6He
+nucleus, we obtain the total B(E1) strength of 0.660 e2fm2 up to E ≤5 MeV and
+1.053 e2fm2 up to E ≤10 MeV. These are in good agreement with the experimental
+values, B(E1; E ≤5 MeV)=0.59 ± 0.12 e2fm2 and B(E1; E ≤10 MeV)=1.2 ± 0.2
+e2fm2.15 For the 11Li nucleus, we obtain the total B(E1) strength of 1.405 e2fm2 up
+to Erel = E −S2n ≤3 MeV, which is compared to the experimental value, B(E1;
+Erel ≤3 MeV)=1.42 ± 0.18 e2fm2.7 Again, the experimental data is well reproduced
+within the present model. From the calculated values for ⟨r2
+c−2n⟩cal, that is, 13.2 and
+
+
+## Page 6
+
+
+November 2, 2018
+6:23
+WSPC - Proceedings Trim Size: 9.75in x 6.5in
+ispun07-proc
+6
+0
+1
+2
+3
+4
+5
+6
+7
+E   (MeV)
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+dB(E1)/dE   (e
+2 fm
+2 / MeV)
+0
+1
+2
+3
+4
+5
+6
+7
+E   (MeV)
+0
+0.2
+0.4
+0.6
+0.8
+1
+6He
+11Li
+Fig. 4.
+The B(E1) distribution for the 6He and 11Li nuclei. The solid curve is obtained by a
+smearing procedure with a Lorentzian weighting factor of the width Γ=0.2 MeV.
+26.3 fm2 for 6He and 11Li, respectively, we thus obtain
+q
+⟨r2
+c−2n⟩exp = 3.878±0.324
+fm and 5.15 ± 0.327 fm for 6He and 11Li, respectively. Notice that the value for the
+6He nucleus is somewhat larger than the one estimated in Ref.,15 that is, 3.36 ±
+0.39 fm.
+We next evaluate the Coulomb breakup cross sections based on the relativistic
+Coulomb excitation theory.14 These are obtained by multiplying the virtual photon
+number NE1(E) to the B(E1) distribution shown in Fig. 4. The solid line in Figs.
+5 (a) and (b) shows the Coulomb breakup cross sections thus obtained for 6He+Pb
+reaction at 240 MeV/nucleon15 and 11Li+Pb reaction at 70 MeV/nucleon,7 respec-
+tively. In order to facilitate the comparison with the experimental data, we smear
+the discretized cross sections with the Lorenzian function with an energy depen-
+0
+1
+2
+3
+4
+5
+6
+7
+E   (MeV)
+0
+50
+100
+150
+200
+dσ / dE   (mb / MeV)
+full recoil
+no recoil (i)
+no recoil (ii)
+(a) 
+6He + Pb
+0
+1
+2
+3
+4
+Erel   (MeV)
+0
+1
+2
+3
+dσ / dE   (b / MeV)
+full recoil
+no recoil (i)
+no recoil (ii)
+(b) 
+11Li + Pb
+Fig. 5.
+Coulomb breakup cross sections (a) for 6He+Pb at 240 MeV /nucleon, and (b) for
+11Li+Pb at 70 MeV /nucleon. The solid line is the result of the full three-body calculations,
+while the dashed and the dotted lines are obtained by treating the recoil term approximately (see
+Ref.13 for details). These results are smeared with an energy dependent width of Γ = 0.15 · √Erel
+MeV. The experimental data are taken from Ref.15 for 6He and from Ref.7 for 11Li.
+
+
+## Page 7
+
+
+November 2, 2018
+6:23
+WSPC - Proceedings Trim Size: 9.75in x 6.5in
+ispun07-proc
+7
+dent width, Γ = α · √Erel. We take α = 0.15MeV1/2 and 0.25 MeV1/2 for 6He and
+11Li, respectively. We see that the experimental breakup cross sections are repro-
+duced remarkably well within the present three-body model, especially for the 11Li
+nucleus.
+Let us now discuss the geometry of the 6He and 11Li nuclei. Using the experi-
+mental value for ⟨r2
+c−2n⟩obtained from the B(E1) distribution, one can extract the
+mean opening angle between the valence neutrons once an additional information is
+available. The mean opening angle can be extracted directly when the rms distance
+between the valence neutrons, ⟨r2
+nn⟩, is available. This quantity is related to the
+matter radius and ⟨r2
+c−2n⟩in the three-body model,3,6,12
+⟨r2
+m⟩= Ac
+A ⟨r2
+m⟩Ac + 2Ac
+A2 ⟨r2
+c−2n⟩+ 1
+2A ⟨r2
+nn⟩,
+(6)
+where Ac = A −2 is the mass number of the core nucleus. The matter radii ⟨r2
+m⟩
+can be estimated from interaction cross sections. Employing the Glauber theory
+in the optical limit, Tanihata et al. have obtained
+p
+⟨r2m⟩= 1.57 ± 0.04, 2.48 ±
+0.03, 2.32 ± 0.02, and 3.12 ± 0.16 fm for 4He, 6He, 9Li, and 11Li, respectively.16
+Using these values, we obtain the rms neutron-neutron distance of
+p
+⟨r2nn⟩= 3.75
+± 0.93 and 5.50 ± 2.24 fm for 6He and 11Li, respectively. Combining these values
+with the rms core-di-neutron distance,
+q
+⟨r2
+c−2n⟩, obtained with Eq. (5), we obtain
+the mean opening angle of ⟨θnn⟩= 51.56+11.2
+−12.4 and 56.2+17.8
+−21.3 degrees for 6He and
+11Li, respectively. These values are close to the result of the three-body model
+calculation, ⟨θnn⟩=66.33 and 65.29 degree for 6He and 11Li, respectively,5 although
+the experimental values are somewhat smaller. An alternative way to extract the
+value
+p
+⟨r2nn⟩was reported by the three-body correlation study in the dissociation
+of two neutrons in halo nuclei.17,18 The two neutron correlation function provides
+the experimental values for
+p
+⟨r2nn⟩to be 5.9 ± 1.2 and 6.6 ± 1.5 fm for 6He, 11Li,
+respectively.17 When one adopts the presently obtained value for
+q
+⟨r2
+c−2n⟩with
+Eq. (5) instead of those in Refs.,7,15 one obtains ⟨θnn⟩=74.5 +11.2
+−13.1 and 65.2 +11.4
+−13.0 for
+6He and 11Li, respectively. Notice that these values are in good agreement with the
+results of the three-body calculation5as is seen in Table 1.
+Table 1.
+The geometry of the 6He and 11Li nuclei extracted from various experimental
+data. The mean opening angles calculated by the three-body model are also given in
+the last line for each nucleus in the table.
+nucleus
+q
+⟨r2
+c−2n⟩(fm)
+p
+⟨r2nn⟩(fm)
+method
+⟨θnn⟩(deg.)
+6He
+3.88±0.32
+3.75 ± 0.93
+(matter radii)
+51.56 +11.21
+−12.37
+5.9± 1.2
+(neutron correlations)
+74.5 +11.2
+−13.1
+66.335
+11Li
+5.15±0.33
+5.50 ± 2.24
+(matter radii)
+56.2 +17.8
+−21.3
+6.6± 1.5
+(neutron correlations)
+65.2 +11.4
+−13.0
+65.295
+
+
+## Page 8
+
+
+November 2, 2018
+6:23
+WSPC - Proceedings Trim Size: 9.75in x 6.5in
+ispun07-proc
+8
+4. Summary
+We studied the two-neutron (2n) wave function in the Borromean nuclei 6He and
+11Li by using the three-body model with the density-dependent pairing force. We
+explored the spatial distributions of 2n wave function as a function of the cm dis-
+tance R from the core nucleus and found that the structure of the 2n wave function
+alters drastically as R is varied. We also showed that the relative distance between
+the two neutrons scales consistently to that in the inﬁnite matter as a function of
+density. These features are in close analogue to the characteristics of the BCS-BEC
+crossover phenomenon found in the inﬁnite nuclear and neutron matters. We have
+used the same three-body model to analyze the B(E1) distribution as well as the
+Coulomb breakup cross section of the 6He and 11Li nuclei. We have shown that the
+strong concentration of the B(E1) strength near the continuum threshold can be
+well reproduced with the present model for both the nuclei. Using the calculated
+B(E1) strength, we extracted the experimental value for the rms distance between
+the core and di-neutron, which was then converted to the mean opening angle of the
+two valence neutrons. We have found that the mean opening angles thus obtained
+are in good agreement of the results of the three-body model calculation.
+Acknowledgements
+We thank H. Esbensen, J. Carbonell, and P. Schuck for fruitful collaborations which
+made this presentation possible. We thank also T. Aumann and K. Nakamura for
+valuable experimental information and discussions.
+References
+1. D.M. Eagles, Phys. Rev. 186, 456 (1969); A.J. Leggett, J. Phys. C41, 7 (1980); P.
+Nozi`eres and S. Schmitt-Rink, J. Lowe Temp. Phys. 59, 195 (1985).
+2. M. Matsuo, K. Mizuyama, and Y. Serizawa, Phys. Rev. C71, 064326 (2005).
+3. G.F. Bertsch and H. Esbensen, Ann. Phys. (N.Y.) 209, 327 (1991).
+4. H. Esbensen and G.F. Bertsch, Nucl. Phys. A542, 310 (1992).
+5. K. Hagino and H. Sagawa, Phys. Rev. C72, 044321 (2005).
+6. H. Esbensen, G.F. Bertsch and K. Hencken, Phys. Rev. C56, 3054 (1999).
+7. T. Nakamura et al., Phys. Rev. Lett. 96, 252502 (2006).
+8. B.F. Bayman and A. Kallio, Phys. Rev. 156, 1121 (1967).
+9. K. Hagino, H. Sagawa, J. Carbonell, and P. Schuck, Phys. Rev. Lett. 99, 022506
+(2007).
+10. M. Matsuo, Phys. Rev. C73, 044309 (2006).
+11. M. Baldo, U. Lombardo, and P. Schuck, Phys. Rev. C52, 975 (1995).
+12. H. Esbensen, K. Hagino, P. Mueller, and H. Sagawa, Phys. Rev. C76, 024302 (2007).
+13. K. Hagino and H. Sagawa, Phys. Rev. C, in press (2007).
+14. C.A. Bertulani and G. Baur, Phys. Rep. 163, 299 (1988).
+15. T. Aumann et al., Phys. Rev. C59, 1252 (1999).
+16. I. Tanihata et al., Phys. Lett. B206, 592 (1988); A. Ozawa et al., Nucl. Phys. A693,
+32 (2001).
+17. F.M. Marques et al., Phys. Lett. B476, 219 (2000).
+18. C.A. Bertulani and M.S. Hussein, arXiv:0705.3998.
+
+---
+**Related:** [[00-Home]]
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
