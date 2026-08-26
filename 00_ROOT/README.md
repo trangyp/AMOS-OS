@@ -61,11 +61,11 @@ Given an operation touching `README` within the Root plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON_README]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS_README]]
+- Observed by — [[OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[OPERATIONS_README]]
 RSCF-NODE
 node_id: 00_ROOT_READMEmd
 node_type: note
