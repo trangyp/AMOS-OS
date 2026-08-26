@@ -1,14 +1,22 @@
 ---
-tags: ['domains', 'c09_org_law_policy', 'index', 'contract']
+tags: ['amos_os', '21_domains']
 ---
 
-# C09 ORG LAW POLICY Contract
+# C09 ORG LAW POLICY DOMAINS C09 ORG LAW POLICY CONTRACT
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Index navigation stub; canonical content in package contract.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## Contract discipline
+Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+
+## Gaps
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem (see [[ROUTING_POLICY_VALIDATION_RECEIPT]], [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
 ---
 
@@ -19,10 +27,7 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 RSCF-NODE
-node_id: c09_org_law_policy_domains_c09_org_law_policy_contract
+node_id: amos_icy_00_index_c09_org_law_policy_domains_c09_org_law_policy_contract_md
 node_type: note
 path: 21_DOMAINS/19_C09_ORG_LAW_POLICY/00_INDEX/C09_ORG_LAW_POLICY_DOMAINS_C09_ORG_LAW_POLICY_CONTRACT.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

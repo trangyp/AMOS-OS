@@ -1,14 +1,22 @@
 ---
-tags: ['tools', 'readme']
+tags: ['amos_os', '14_tools']
 ---
 
-# README
+# TOOLS README
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Package readme; normative content lives in the contract.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## Contract discipline
+Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+
+## Gaps
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem (see [[ROUTING_POLICY_VALIDATION_RECEIPT]], [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
 ---
 
@@ -19,10 +27,7 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 RSCF-NODE
-node_id: tools_readme
+node_id: amos_14_tools_tools_readme_md
 node_type: note
 path: 14_TOOLS/TOOLS_README.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

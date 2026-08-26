@@ -1,14 +1,22 @@
 ---
-tags: ['models', 'index', 'map']
+tags: ['amos_os', '13_models']
 ---
 
 # MODEL MAP
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Package map artifact — navigation only.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## Contract discipline
+Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+
+## Gaps
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem (see [[ROUTING_POLICY_VALIDATION_RECEIPT]], [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
 ---
 
@@ -19,15 +27,7 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 RSCF-NODE
-node_id: model_map
+node_id: amos_13_models_00_index_model_map_md
 node_type: note
 path: 13_MODELS/00_INDEX/MODEL_MAP.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
-## Related MOCs
-
-- [[AMOS_Layer_Maps]] — top-level AMOS layer map index
-- [[00_ROOT_MOC]] — AMOS OS master map
-- [[00-Home]] — universal vault hub

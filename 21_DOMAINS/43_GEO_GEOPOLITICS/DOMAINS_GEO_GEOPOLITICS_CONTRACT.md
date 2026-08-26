@@ -1,14 +1,22 @@
 ---
-tags: ['domains', 'geo_geopolitics', 'contract']
+tags: ['amos_os', '21_domains']
 ---
 
-# 43 Geo Geopolitics Contract
+# DOMAINS GEO GEOPOLITICS CONTRACT
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Domain plane: MECE knowledge organization for this domain.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## Contract discipline
+Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+
+## Gaps
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem (see [[ROUTING_POLICY_VALIDATION_RECEIPT]], [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
 ---
 
@@ -19,10 +27,7 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 RSCF-NODE
-node_id: domains_geo_geopolitics_contract
+node_id: amos_21_domains_43_geo_geopolitics_domains_geo_geopolitics_contract_md
 node_type: note
 path: 21_DOMAINS/43_GEO_GEOPOLITICS/DOMAINS_GEO_GEOPOLITICS_CONTRACT.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

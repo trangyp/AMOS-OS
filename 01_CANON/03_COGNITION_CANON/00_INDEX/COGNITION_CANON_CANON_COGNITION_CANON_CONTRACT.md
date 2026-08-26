@@ -1,14 +1,22 @@
 ---
-tags: ['canon', 'cognition_canon', 'index', 'contract']
+tags: ['amos_os', '01_canon']
 ---
 
-# COGNITION CANON Contract
+# COGNITION CANON CANON COGNITION CANON CONTRACT
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Index navigation stub; canonical content in package contract.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## Contract discipline
+Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+
+## Gaps
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem (see [[ROUTING_POLICY_VALIDATION_RECEIPT]], [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
 ---
 
@@ -19,10 +27,7 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 RSCF-NODE
-node_id: cognition_canon_canon_cognition_canon_contract
+node_id: amos_ition_canon_00_index_cognition_canon_canon_cognition_canon_contract_md
 node_type: note
 path: 01_CANON/03_COGNITION_CANON/00_INDEX/COGNITION_CANON_CANON_COGNITION_CANON_CONTRACT.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

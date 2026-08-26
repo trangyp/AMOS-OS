@@ -1,14 +1,22 @@
 ---
-tags: ['domains', 'c08_strategy_game', 'note']
+tags: ['amos_os', '21_domains']
 ---
 
-# K COUNTERFACTUAL
+# C08 STRATEGY GAME DOMAINS DOMAIN SPEC
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Domain plane: MECE knowledge organization for this domain.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## Contract discipline
+Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+
+## Gaps
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem (see [[ROUTING_POLICY_VALIDATION_RECEIPT]], [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
 ---
 
@@ -19,10 +27,7 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 RSCF-NODE
-node_id: c08_strategy_game_domains_domain_spec
+node_id: amos__domains_18_c08_strategy_game_c08_strategy_game_domains_domain_spec_md
 node_type: note
 path: 21_DOMAINS/18_C08_STRATEGY_GAME/C08_STRATEGY_GAME_DOMAINS_DOMAIN_SPEC.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

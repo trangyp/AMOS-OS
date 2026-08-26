@@ -1,21 +1,22 @@
-# References — amos-$skill
+# References — amos-law-stack-enforcement
 
 ## Session-Specific Detail
-- Generated 2026-08-25 from 7-Part Canon audit and law stack enforcement research
-- Based on vault audit: Flow (Part II) genuine gap across all 5 existing canon layers
-- Law stack: G3 gate previously had no defined checks; now has LoL→R2→R4 order enforcement
+- Generated 2026-08-25 from law stack enforcement research and G3 gate definition
+- Based on vault finding: Law of Law/Rule of 2/Rule of 4 had zero executable enforcement previously
+- Created amos-law-stack-enforcement skill to fill the G3 'Law Stack' gate which had no defined checks
+- Hermès counterpart: `.hermes/skills/amos-law-stack-enforcement/references.md` — synced via `hermes curator adopt amos-law-stack-enforcement`
 
 ## Authoritative Sources
-- `_00_Cosmo brain/2026-08-22 7-Part Universe Canon.md` — canonical source for 7-part scaffold
 - AMOS Law Stack official manual (743 lines) — Law of Law/Rule of 2/Rule of 4 framework
 - Vault integrity audit (2026-08-23): 265 issues → 0 after repair
+- 7-Part Canon re-audit (2026-08-23): Flow genuine gap identified
 
 ## Cross-References
-- `amos-flow-canon` ↔ `amos-law-stack-enforcement`: Flow→Enforcement bridge (dual-frame test)
-- `amos-flow-auditor-agent` ↔ `amos-flow-canon`: Agent-to-skill relationship
+- `amos-law-stack-enforcement` ↔ `amos-7-part-universe-canon`: Enforcement (Part IV) directly gates Law Stack
 - `amos-law-stack-gate-agent` ↔ `amos-law-stack-enforcement`: Agent-to-skill relationship
+- `amos-flow-canon` ↔ `amos-law-stack-enforcement`: Flow→Enforcement bridge (constraint→enforcement pipeline)
 
 ## Session Notes
 - This references directory is session-specific and will be updated on each pass
 - For the canonical version, see the vault's permanent notes at `_00_Cosmo brain/`
-- Skill synced via `hermes curator adopt amos-$skill` from `.hermes/skills/`
+- Skill synced via `hermes curator adopt amos-law-stack-enforcement` from `.hermes/skills/`

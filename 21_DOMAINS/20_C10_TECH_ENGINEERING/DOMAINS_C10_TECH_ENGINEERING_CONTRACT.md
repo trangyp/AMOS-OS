@@ -1,14 +1,22 @@
 ---
-tags: ['domains', 'c10_tech_engineering', 'contract']
+tags: ['amos_os', '21_domains']
 ---
 
-# 20 C10 Tech Engineering Contract
+# DOMAINS C10 TECH ENGINEERING CONTRACT
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Domain plane: MECE knowledge organization for this domain.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## Contract discipline
+Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+
+## Gaps
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem (see [[ROUTING_POLICY_VALIDATION_RECEIPT]], [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
 ---
 
@@ -19,10 +27,7 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 RSCF-NODE
-node_id: domains_c10_tech_engineering_contract
+node_id: amos_mains_20_c10_tech_engineering_domains_c10_tech_engineering_contract_md
 node_type: note
 path: 21_DOMAINS/20_C10_TECH_ENGINEERING/DOMAINS_C10_TECH_ENGINEERING_CONTRACT.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
