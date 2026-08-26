@@ -3463,12 +3463,10 @@ The typed graph remains authoritative.
 
 # 181. SHARED-DEPENDENCY VIEW
 
-```markdown
 | Dependency | Dependent Modes | Type | Criticality | Independent Alternative |
 |---|---|---|---|---|
 | DEP_X | A, B, C | RUNTIME | CRITICAL | NONE |
 | DEP_Y | B, D | AUTHORITY | HIGH | PARTIAL |
-```
 
 ---
 
