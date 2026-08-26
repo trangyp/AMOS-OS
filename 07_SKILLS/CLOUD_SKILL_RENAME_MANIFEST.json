@@ -1,0 +1,786 @@
+[
+  {
+    "old_dir": "amos-19x19-family-complete",
+    "new_dir": "amos-19x19-family"
+  },
+  {
+    "old_dir": "amos-19x19-four-layer-family-complete-full",
+    "new_dir": "amos-19x19-four-layer-family"
+  },
+  {
+    "old_dir": "amos-19x19-sparse-coupling-matrix-full",
+    "new_dir": "amos-19x19-sparse-coupling-matrix"
+  },
+  {
+    "old_dir": "amos-7-part-universe-canon-full",
+    "new_dir": "amos-7-part-universe-canon"
+  },
+  {
+    "old_dir": "amos-absolute-human-omnistructure-full",
+    "new_dir": "amos-absolute-human-omnistructure-2"
+  },
+  {
+    "old_dir": "amos-absolute-human-spec",
+    "new_dir": "amos-absolute-human"
+  },
+  {
+    "old_dir": "amos-absolute-logic-db-full",
+    "new_dir": "amos-absolute-logic-db-2"
+  },
+  {
+    "old_dir": "amos-absolute-omniverse-u-full",
+    "new_dir": "amos-absolute-omniverse-u"
+  },
+  {
+    "old_dir": "amos-agent-registry-schema-full",
+    "new_dir": "amos-agent-registry-schema"
+  },
+  {
+    "old_dir": "amos-ai-entropy-architecture-v2",
+    "new_dir": "amos-ai-entropy-architecture-2"
+  },
+  {
+    "old_dir": "amos-all-frameworks-bio-logical-computing-full",
+    "new_dir": "amos-all-frameworks-bio-logical-computing"
+  },
+  {
+    "old_dir": "amos-all-frameworks-canon-hierarchy-full",
+    "new_dir": "amos-all-frameworks-canon-hierarchy-2"
+  },
+  {
+    "old_dir": "amos-amos-architecture-spec",
+    "new_dir": "amos-amos-architecture"
+  },
+  {
+    "old_dir": "amos-amos-core-full-spec",
+    "new_dir": "amos-amos-core"
+  },
+  {
+    "old_dir": "amos-amos-core-full",
+    "new_dir": "amos-amos-core-2"
+  },
+  {
+    "old_dir": "amos-amos-core-full-runtime",
+    "new_dir": "amos-amos-core-runtime"
+  },
+  {
+    "old_dir": "amos-amos-os-masterfile-full",
+    "new_dir": "amos-amos-os-masterfile-2"
+  },
+  {
+    "old_dir": "amos-amos-os-masterfile-spec",
+    "new_dir": "amos-amos-os-masterfile-3"
+  },
+  {
+    "old_dir": "amos-automation-engine-v1",
+    "new_dir": "amos-automation-engine"
+  },
+  {
+    "old_dir": "amos-biology-cognition-engine-full",
+    "new_dir": "amos-biology-cognition-engine-2"
+  },
+  {
+    "old_dir": "amos-bizfin-kernel-v0",
+    "new_dir": "amos-bizfin-kernel"
+  },
+  {
+    "old_dir": "amos-brain-core-cognitive-max",
+    "new_dir": "amos-brain-core-cognitive"
+  },
+  {
+    "old_dir": "amos-brain-quantum-enhancement-report",
+    "new_dir": "amos-brain-quantum-enhancement"
+  },
+  {
+    "old_dir": "amos-brain-superxc-ubi-cognitive-max",
+    "new_dir": "amos-brain-superxc-ubi-cognitive"
+  },
+  {
+    "old_dir": "amos-brain-v3-kernel",
+    "new_dir": "amos-brain-kernel"
+  },
+  {
+    "old_dir": "amos-business-finance-super",
+    "new_dir": "amos-business-finance"
+  },
+  {
+    "old_dir": "amos-c-canon-super",
+    "new_dir": "amos-c-canon"
+  },
+  {
+    "old_dir": "amos-c-canon-super-x100k",
+    "new_dir": "amos-c-canon-2"
+  },
+  {
+    "old_dir": "amos-c01-meta-logic-super",
+    "new_dir": "amos-c01-meta-logic-2"
+  },
+  {
+    "old_dir": "amos-c01-meta-logic-super-x100k",
+    "new_dir": "amos-c01-meta-logic-3"
+  },
+  {
+    "old_dir": "amos-c02-math-compute-super",
+    "new_dir": "amos-c02-math-compute-2"
+  },
+  {
+    "old_dir": "amos-c02-math-compute-super-x100k",
+    "new_dir": "amos-c02-math-compute-3"
+  },
+  {
+    "old_dir": "amos-c03-physics-cosmos-max",
+    "new_dir": "amos-c03-physics-cosmos-2"
+  },
+  {
+    "old_dir": "amos-c08-strategy-game-super",
+    "new_dir": "amos-c08-strategy-game"
+  },
+  {
+    "old_dir": "amos-c08-strategy-game-super-x100k",
+    "new_dir": "amos-c08-strategy-game-2"
+  },
+  {
+    "old_dir": "amos-c12-earth-ecology-super",
+    "new_dir": "amos-c12-earth-ecology"
+  },
+  {
+    "old_dir": "amos-canon-cryptographic-infrastructure-full",
+    "new_dir": "amos-canon-cryptographic-infrastructure-2"
+  },
+  {
+    "old_dir": "amos-cc05-mind-behavior-super",
+    "new_dir": "amos-cc05-mind-behavior"
+  },
+  {
+    "old_dir": "amos-cil-canon-integration-full",
+    "new_dir": "amos-cil-canon-integration"
+  },
+  {
+    "old_dir": "amos-coding-omega-engine",
+    "new_dir": "amos-coding-engine"
+  },
+  {
+    "old_dir": "amos-coding-engine-v0",
+    "new_dir": "amos-coding-engine-2"
+  },
+  {
+    "old_dir": "amos-coding-omega",
+    "new_dir": "amos-coding"
+  },
+  {
+    "old_dir": "amos-cognitive-architecture-matrix-governance-full",
+    "new_dir": "amos-cognitive-architecture-matrix-governance"
+  },
+  {
+    "old_dir": "amos-cognitive-max-ubi-quantum-fractal",
+    "new_dir": "amos-cognitive-ubi-quantum-fractal"
+  },
+  {
+    "old_dir": "amos-cognitive-substrate-full",
+    "new_dir": "amos-cognitive-substrate"
+  },
+  {
+    "old_dir": "amos-communication-omega",
+    "new_dir": "amos-communication"
+  },
+  {
+    "old_dir": "amos-consulting-engine-super",
+    "new_dir": "amos-consulting-engine"
+  },
+  {
+    "old_dir": "amos-consulting-super-x100k",
+    "new_dir": "amos-consulting"
+  },
+  {
+    "old_dir": "amos-control-systems-kernel-v0",
+    "new_dir": "amos-control-systems-kernel-2"
+  },
+  {
+    "old_dir": "amos-core-systems-full",
+    "new_dir": "amos-core-systems"
+  },
+  {
+    "old_dir": "amos-corp-doc-engine-super",
+    "new_dir": "amos-corp-doc-engine"
+  },
+  {
+    "old_dir": "amos-corp-doc-super-x100k",
+    "new_dir": "amos-corp-doc"
+  },
+  {
+    "old_dir": "amos-design-engine-v3",
+    "new_dir": "amos-design-engine"
+  },
+  {
+    "old_dir": "amos-design-language-engine-v0-cognitive4",
+    "new_dir": "amos-design-language-engine-cognitive4"
+  },
+  {
+    "old_dir": "amos-design-language-super",
+    "new_dir": "amos-design-language"
+  },
+  {
+    "old_dir": "amos-earth-ecology-super-full",
+    "new_dir": "amos-earth-ecology"
+  },
+  {
+    "old_dir": "amos-electrical-power-engine-v0-cognitive4",
+    "new_dir": "amos-electrical-power-engine-cognitive4"
+  },
+  {
+    "old_dir": "amos-emotion-engine-v0-core7",
+    "new_dir": "amos-emotion-engine-core7"
+  },
+  {
+    "old_dir": "amos-engineering-and-mathematics-engine-v0-cognitive4",
+    "new_dir": "amos-engineering-and-mathematics-engine-cognitive4"
+  },
+  {
+    "old_dir": "amos-engineering-math-kernel-v0",
+    "new_dir": "amos-engineering-math-kernel-2"
+  },
+  {
+    "old_dir": "amos-engineering-math-kernel-vinfinity-full",
+    "new_dir": "amos-engineering-math-kernel-vinfinity"
+  },
+  {
+    "old_dir": "amos-engineering-math-super",
+    "new_dir": "amos-engineering-math"
+  },
+  {
+    "old_dir": "amos-entropy-lacunarity-viability-full",
+    "new_dir": "amos-entropy-lacunarity-viability-2"
+  },
+  {
+    "old_dir": "amos-ev-infra-super-x100k",
+    "new_dir": "amos-ev-infra"
+  },
+  {
+    "old_dir": "amos-formal-rscf-suite-v6",
+    "new_dir": "amos-formal-rscf-suite"
+  },
+  {
+    "old_dir": "amos-fractal-architecture-reality-full",
+    "new_dir": "amos-fractal-architecture-reality-2"
+  },
+  {
+    "old_dir": "amos-fractal-cognitive-architecture-v2",
+    "new_dir": "amos-fractal-cognitive-architecture-2"
+  },
+  {
+    "old_dir": "amos-fractal-equation-families-full",
+    "new_dir": "amos-fractal-equation-families-2"
+  },
+  {
+    "old_dir": "amos-fractal-runtime-cells-full",
+    "new_dir": "amos-fractal-runtime-cells-2"
+  },
+  {
+    "old_dir": "amos-full-architecture-complete-form",
+    "new_dir": "amos-architecture-form"
+  },
+  {
+    "old_dir": "amos-full-brain-os-architecture",
+    "new_dir": "amos-brain-os-architecture"
+  },
+  {
+    "old_dir": "amos-full-brain-os-canon",
+    "new_dir": "amos-brain-os-canon"
+  },
+  {
+    "old_dir": "amos-full-brain-os-canon-full",
+    "new_dir": "amos-brain-os-canon-2"
+  },
+  {
+    "old_dir": "amos-gap-registry-test-suite-full",
+    "new_dir": "amos-gap-registry-test-suite"
+  },
+  {
+    "old_dir": "amos-heritage-ancient-fractal-math-v2",
+    "new_dir": "amos-heritage-ancient-fractal-math-2"
+  },
+  {
+    "old_dir": "amos-kernel-super-vinfinity",
+    "new_dir": "amos-kernel-vinfinity"
+  },
+  {
+    "old_dir": "amos-khung-trang-full-architecture",
+    "new_dir": "amos-khung-trang-architecture"
+  },
+  {
+    "old_dir": "amos-khung-trang-full-equations",
+    "new_dir": "amos-khung-trang-equations"
+  },
+  {
+    "old_dir": "amos-legal-super-vinfinity",
+    "new_dir": "amos-legal-vinfinity"
+  },
+  {
+    "old_dir": "amos-logic-core-engine-v0",
+    "new_dir": "amos-logic-core-engine"
+  },
+  {
+    "old_dir": "amos-master-equation-cosmos-full",
+    "new_dir": "amos-master-equation-cosmos-2"
+  },
+  {
+    "old_dir": "amos-medical-clinical-super",
+    "new_dir": "amos-medical-clinical"
+  },
+  {
+    "old_dir": "amos-meta-logic-super",
+    "new_dir": "amos-meta-logic"
+  },
+  {
+    "old_dir": "amos-monogram-engine-v0-dsc4",
+    "new_dir": "amos-monogram-engine-dsc4"
+  },
+  {
+    "old_dir": "amos-monogram-kernal-engine-v0-dsc4",
+    "new_dir": "amos-monogram-kernal-engine-dsc4"
+  },
+  {
+    "old_dir": "amos-multifractal-hurst-diagnostics-full",
+    "new_dir": "amos-multifractal-hurst-diagnostics-2"
+  },
+  {
+    "old_dir": "amos-multifractal-hurst-diagnostics-layer-full",
+    "new_dir": "amos-multifractal-hurst-diagnostics-layer"
+  },
+  {
+    "old_dir": "amos-nbi-engine-full",
+    "new_dir": "amos-nbi-engine-2"
+  },
+  {
+    "old_dir": "amos-omega-fx-platform",
+    "new_dir": "amos-fx-platform"
+  },
+  {
+    "old_dir": "amos-omega-fx-structural-engine",
+    "new_dir": "amos-fx-structural-engine"
+  },
+  {
+    "old_dir": "amos-omega-infinity-stack",
+    "new_dir": "amos-infinity-stack"
+  },
+  {
+    "old_dir": "amos-omega-infinity-stack-full",
+    "new_dir": "amos-infinity-stack-2"
+  },
+  {
+    "old_dir": "amos-omega-thinking-engine",
+    "new_dir": "amos-thinking-engine"
+  },
+  {
+    "old_dir": "amos-omega-thinking-engine-with-coding",
+    "new_dir": "amos-thinking-engine-with-coding"
+  },
+  {
+    "old_dir": "amos-omega-ultimate-integration",
+    "new_dir": "amos-integration"
+  },
+  {
+    "old_dir": "amos-omniverse-brain-max-power",
+    "new_dir": "amos-omniverse-brain-power"
+  },
+  {
+    "old_dir": "amos-operations-super",
+    "new_dir": "amos-operations"
+  },
+  {
+    "old_dir": "amos-optimization-kernel-v0",
+    "new_dir": "amos-optimization-kernel-2"
+  },
+  {
+    "old_dir": "amos-orchestrator-routing-x1000",
+    "new_dir": "amos-orchestrator-routing"
+  },
+  {
+    "old_dir": "amos-organism-os-python-arc-full",
+    "new_dir": "amos-organism-os-python-arc-2"
+  },
+  {
+    "old_dir": "amos-os-agent-v0",
+    "new_dir": "amos-os-agent"
+  },
+  {
+    "old_dir": "amos-physics-cosmos-engine-v0-cognitive4",
+    "new_dir": "amos-physics-cosmos-engine-cognitive4"
+  },
+  {
+    "old_dir": "amos-physics-cosmos-super-x3000",
+    "new_dir": "amos-physics-cosmos-x3000"
+  },
+  {
+    "old_dir": "amos-political-dynamics-kernel-v0",
+    "new_dir": "amos-political-dynamics-kernel"
+  },
+  {
+    "old_dir": "amos-probability-statistics-kernel-v0",
+    "new_dir": "amos-probability-statistics-kernel-2"
+  },
+  {
+    "old_dir": "amos-qci-claim-class-governance-full",
+    "new_dir": "amos-qci-claim-class-governance-2"
+  },
+  {
+    "old_dir": "amos-qcla-official-manual-full",
+    "new_dir": "amos-qcla-official-manual"
+  },
+  {
+    "old_dir": "amos-qfm-adversarial-hardening-full",
+    "new_dir": "amos-qfm-adversarial-hardening-2"
+  },
+  {
+    "old_dir": "amos-qfm-architecture-refinement-full",
+    "new_dir": "amos-qfm-architecture-refinement-2"
+  },
+  {
+    "old_dir": "amos-qfm-audit-family-15-layers-full",
+    "new_dir": "amos-qfm-audit-family-15-layers"
+  },
+  {
+    "old_dir": "amos-qfm-bridge-governance-entropy-lacunarity-full",
+    "new_dir": "amos-qfm-bridge-governance-entropy-lacunarity"
+  },
+  {
+    "old_dir": "amos-qfm-five-layer-architecture-full",
+    "new_dir": "amos-qfm-five-layer-architecture"
+  },
+  {
+    "old_dir": "amos-qfm-five-layer-master-router-v2",
+    "new_dir": "amos-qfm-five-layer-master-router-2"
+  },
+  {
+    "old_dir": "amos-qfm-governance-family-full",
+    "new_dir": "amos-qfm-governance-family"
+  },
+  {
+    "old_dir": "amos-qfm-max-power",
+    "new_dir": "amos-qfm-power"
+  },
+  {
+    "old_dir": "amos-qfm-max-power-v3-ultimate",
+    "new_dir": "amos-qfm-power-2"
+  },
+  {
+    "old_dir": "amos-qfm-max-power-v2",
+    "new_dir": "amos-qfm-power-3"
+  },
+  {
+    "old_dir": "amos-qfm-max-power-9phase-pipeline",
+    "new_dir": "amos-qfm-power-9phase-pipeline"
+  },
+  {
+    "old_dir": "amos-qft-yang-mills-mapping-full",
+    "new_dir": "amos-qft-yang-mills-mapping"
+  },
+  {
+    "old_dir": "amos-qls-official-manual-full",
+    "new_dir": "amos-qls-official-manual"
+  },
+  {
+    "old_dir": "amos-qls-ucp-collapse-governance-full",
+    "new_dir": "amos-qls-ucp-collapse-governance-2"
+  },
+  {
+    "old_dir": "amos-quantum-agent-ecosystem-full",
+    "new_dir": "amos-quantum-agent-ecosystem"
+  },
+  {
+    "old_dir": "amos-quantum-cloning-approximation-full",
+    "new_dir": "amos-quantum-cloning-approximation"
+  },
+  {
+    "old_dir": "amos-quantum-enhancement-complete-report",
+    "new_dir": "amos-quantum-enhancement"
+  },
+  {
+    "old_dir": "amos-quantum-enhancement-reports",
+    "new_dir": "amos-quantum-enhancement-2"
+  },
+  {
+    "old_dir": "amos-quantum-financial-tensor-field-full",
+    "new_dir": "amos-quantum-financial-tensor-field-2"
+  },
+  {
+    "old_dir": "amos-quantum-fractal-math-ultimate-v2",
+    "new_dir": "amos-quantum-fractal-math-2"
+  },
+  {
+    "old_dir": "amos-quantum-fractal-math-ultimate",
+    "new_dir": "amos-quantum-fractal-math-3"
+  },
+  {
+    "old_dir": "amos-quantum-fractal-math-max-power",
+    "new_dir": "amos-quantum-fractal-math-power"
+  },
+  {
+    "old_dir": "amos-quantum-library-bounds-invariants-full",
+    "new_dir": "amos-quantum-library-bounds-invariants"
+  },
+  {
+    "old_dir": "amos-quantum-library-qec-canonical-full",
+    "new_dir": "amos-quantum-library-qec-canonical"
+  },
+  {
+    "old_dir": "amos-quantum-library-qft-canonical-full",
+    "new_dir": "amos-quantum-library-qft-canonical"
+  },
+  {
+    "old_dir": "amos-quantum-library-qi-information-full",
+    "new_dir": "amos-quantum-library-qi-information"
+  },
+  {
+    "old_dir": "amos-quantum-library-qm-foundations-full",
+    "new_dir": "amos-quantum-library-qm-foundations"
+  },
+  {
+    "old_dir": "amos-quantum-library-v070-audit-full",
+    "new_dir": "amos-quantum-library-v070-audit"
+  },
+  {
+    "old_dir": "amos-quantum-library-v1-master",
+    "new_dir": "amos-quantum-library-master"
+  },
+  {
+    "old_dir": "amos-quantum-machine-learning-full",
+    "new_dir": "amos-quantum-machine-learning"
+  },
+  {
+    "old_dir": "amos-quantum-omega-brain",
+    "new_dir": "amos-quantum-brain"
+  },
+  {
+    "old_dir": "amos-quantum-omega-brain-full",
+    "new_dir": "amos-quantum-brain-2"
+  },
+  {
+    "old_dir": "amos-quantum-omega-brain-full-spec",
+    "new_dir": "amos-quantum-brain-3"
+  },
+  {
+    "old_dir": "amos-quantum-omega-brain-self-analysis-7pt",
+    "new_dir": "amos-quantum-brain-self-analysis-7pt"
+  },
+  {
+    "old_dir": "amos-quantum-omega-canon",
+    "new_dir": "amos-quantum-canon"
+  },
+  {
+    "old_dir": "amos-quantum-omega-cognitive-architecture",
+    "new_dir": "amos-quantum-cognitive-architecture"
+  },
+  {
+    "old_dir": "amos-quantum-omega-final-report",
+    "new_dir": "amos-quantum"
+  },
+  {
+    "old_dir": "amos-quantum-os-full-spec",
+    "new_dir": "amos-quantum-os-2"
+  },
+  {
+    "old_dir": "amos-quantum-physics-knowledge-base-full",
+    "new_dir": "amos-quantum-physics-knowledge-base"
+  },
+  {
+    "old_dir": "amos-quantum-processor-fleet-full",
+    "new_dir": "amos-quantum-processor-fleet-2"
+  },
+  {
+    "old_dir": "amos-quantum-processor-fleet-real-spec-full",
+    "new_dir": "amos-quantum-processor-fleet-real"
+  },
+  {
+    "old_dir": "amos-quantum-regime-risk-full",
+    "new_dir": "amos-quantum-regime-risk"
+  },
+  {
+    "old_dir": "amos-quantum-stack-core7-full",
+    "new_dir": "amos-quantum-stack-core7-2"
+  },
+  {
+    "old_dir": "amos-quantum-stack-core7-v0",
+    "new_dir": "amos-quantum-stack-core7-3"
+  },
+  {
+    "old_dir": "amos-quantum-stack-core7-full-spec",
+    "new_dir": "amos-quantum-stack-core7-4"
+  },
+  {
+    "old_dir": "amos-quantum-stack-full-integration",
+    "new_dir": "amos-quantum-stack-integration"
+  },
+  {
+    "old_dir": "amos-quantum-supremacy-integration-full",
+    "new_dir": "amos-quantum-supremacy-integration-2"
+  },
+  {
+    "old_dir": "amos-rg-fractal-bridge-deep-full",
+    "new_dir": "amos-rg-fractal-bridge-deep"
+  },
+  {
+    "old_dir": "amos-science-engine-v0-sector-packs7",
+    "new_dir": "amos-science-engine-sector-packs7"
+  },
+  {
+    "old_dir": "amos-scientific-engine-v0-unipower4",
+    "new_dir": "amos-scientific-engine-unipower4"
+  },
+  {
+    "old_dir": "amos-scientific-kernel-v0",
+    "new_dir": "amos-scientific-kernel"
+  },
+  {
+    "old_dir": "amos-scientific-super-vinfinity",
+    "new_dir": "amos-scientific-vinfinity"
+  },
+  {
+    "old_dir": "amos-si-engine-full",
+    "new_dir": "amos-si-engine-2"
+  },
+  {
+    "old_dir": "amos-signal-processing-engine-v0",
+    "new_dir": "amos-signal-processing-engine-2"
+  },
+  {
+    "old_dir": "amos-signal-processing-kernel-v0",
+    "new_dir": "amos-signal-processing-kernel"
+  },
+  {
+    "old_dir": "amos-simulation-kernel-v0",
+    "new_dir": "amos-simulation-kernel-2"
+  },
+  {
+    "old_dir": "amos-strategy-game-super",
+    "new_dir": "amos-strategy-game"
+  },
+  {
+    "old_dir": "amos-super-engine-vomni-x1000",
+    "new_dir": "amos-engine"
+  },
+  {
+    "old_dir": "amos-super-fabrication-factory",
+    "new_dir": "amos-fabrication-factory"
+  },
+  {
+    "old_dir": "amos-super-factory-engine",
+    "new_dir": "amos-factory-engine"
+  },
+  {
+    "old_dir": "amos-super-kernel-engine",
+    "new_dir": "amos-kernel-engine"
+  },
+  {
+    "old_dir": "amos-super-mind-os-systems",
+    "new_dir": "amos-mind-os-systems"
+  },
+  {
+    "old_dir": "amos-super-omega-brain",
+    "new_dir": "amos-brain"
+  },
+  {
+    "old_dir": "amos-tech-quantum-augmentation-7layer-full",
+    "new_dir": "amos-tech-quantum-augmentation-7layer"
+  },
+  {
+    "old_dir": "amos-tech-quantum-engine-v0-domains7",
+    "new_dir": "amos-tech-quantum-engine-domains7"
+  },
+  {
+    "old_dir": "amos-tech-quantum-engine-vinfinity-full",
+    "new_dir": "amos-tech-quantum-engine-vinfinity-2"
+  },
+  {
+    "old_dir": "amos-tensor-registry-full",
+    "new_dir": "amos-tensor-registry-2"
+  },
+  {
+    "old_dir": "amos-tensor-registry-contracts-full",
+    "new_dir": "amos-tensor-registry-contracts-2"
+  },
+  {
+    "old_dir": "amos-tests-logic-bridge-full",
+    "new_dir": "amos-tests-logic-bridge"
+  },
+  {
+    "old_dir": "amos-trang-grand-full-logic-spec",
+    "new_dir": "amos-trang-grand-logic"
+  },
+  {
+    "old_dir": "amos-trang-grand-system-codex-full",
+    "new_dir": "amos-trang-grand-system-codex-2"
+  },
+  {
+    "old_dir": "amos-trang-grand-system-full",
+    "new_dir": "amos-trang-grand-system"
+  },
+  {
+    "old_dir": "amos-trang-∅-framework-formalization",
+    "new_dir": "amos-trang-empty-framework-formalization"
+  },
+  {
+    "old_dir": "amos-ubi-engine-v0",
+    "new_dir": "amos-ubi-engine"
+  },
+  {
+    "old_dir": "amos-ubi-kernel-full",
+    "new_dir": "amos-ubi-kernel"
+  },
+  {
+    "old_dir": "amos-ulk-full-spec",
+    "new_dir": "amos-ulk"
+  },
+  {
+    "old_dir": "amos-unified-coding-engine-v0-domains7",
+    "new_dir": "amos-unified-coding-engine-domains7"
+  },
+  {
+    "old_dir": "amos-universe-brain-super-engine",
+    "new_dir": "amos-universe-brain-engine"
+  },
+  {
+    "old_dir": "amos-universe-os-full-bundle",
+    "new_dir": "amos-universe-os-bundle"
+  },
+  {
+    "old_dir": "amos-universe-os-master-spec",
+    "new_dir": "amos-universe-os-master"
+  },
+  {
+    "old_dir": "amos-universe-total-canon-spec",
+    "new_dir": "amos-universe-total-canon"
+  },
+  {
+    "old_dir": "amos-universe-total-canon-full",
+    "new_dir": "amos-universe-total-canon-2"
+  },
+  {
+    "old_dir": "amos-unknown-unknown-registry-full",
+    "new_dir": "amos-unknown-unknown-registry"
+  },
+  {
+    "old_dir": "amos-utc-master-file-full",
+    "new_dir": "amos-utc-master-file-2"
+  },
+  {
+    "old_dir": "amos-vn-driver-charging-super",
+    "new_dir": "amos-vn-driver-charging"
+  },
+  {
+    "old_dir": "amos-vn-omnistructure-super-x100k",
+    "new_dir": "amos-vn-omnistructure"
+  },
+  {
+    "old_dir": "amos-vomni-kernel-master",
+    "new_dir": "amos-kernel-master"
+  },
+  {
+    "old_dir": "amos-vomni-master-kernel-full",
+    "new_dir": "amos-master-kernel"
+  },
+  {
+    "old_dir": "amos-waves-journey-v1",
+    "new_dir": "amos-waves-journey"
+  }
+]
