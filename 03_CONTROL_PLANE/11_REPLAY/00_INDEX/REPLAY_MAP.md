@@ -1,14 +1,22 @@
 ---
-tags: ['control_plane', 'replay', 'index', 'map']
+tags: ['control_plane', '00_index']
 ---
 
-# Replay Map
+# REPLAY MAP
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Navigation index artifact. Canonical content lives in the package contract; this stub exists for Obsidian graph navigation only.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## Invariants
+Fail-closed · UNKNOWN ≠ PERMISSION · receipts · append-only logs · scope/regime containment.
+
+## Gaps
+Executable binding PARTIAL — see [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] and [[ROUTING_POLICY_VALIDATION_RECEIPT]].
 
 ---
 
@@ -19,10 +27,7 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 RSCF-NODE
-node_id: replay_map
+node_id: cp_03_control_plane_11_replay_00_index_replay_map_md
 node_type: note
 path: 03_CONTROL_PLANE/11_REPLAY/00_INDEX/REPLAY_MAP.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

@@ -1,14 +1,22 @@
 ---
-tags: ['control_plane', 'commit', 'deep_analysis', 'note']
+tags: ['control_plane', '02_deep_analysis']
 ---
 
-# README
+# COMMIT CONTROL PLANE ALIASES
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Declared aliases for this package's artifacts to support link resolution and search.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## Invariants
+Fail-closed · UNKNOWN ≠ PERMISSION · receipts · append-only logs · scope/regime containment.
+
+## Gaps
+Executable binding PARTIAL — see [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] and [[ROUTING_POLICY_VALIDATION_RECEIPT]].
 
 ---
 
@@ -19,10 +27,7 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 RSCF-NODE
-node_id: commit_control_plane_aliases
+node_id: cp_ntrol_plane_09_commit_02_deep_analysis_commit_control_plane_aliases_md
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS/COMMIT_CONTROL_PLANE_ALIASES.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

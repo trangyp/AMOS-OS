@@ -1,14 +1,22 @@
 ---
-tags: ['control_plane', 'commit', 'strategy', 'note']
+tags: ['control_plane', '04_strategy']
 ---
 
-# README
+# STRATEGY COMMIT CONTROL PLANE MODE SPEC
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Typed contract surface for this control-plane concern: preconditions, atomic operation semantics, postconditions with epistemic class, rollback basin declared before mutation.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## Invariants
+Fail-closed · UNKNOWN ≠ PERMISSION · receipts · append-only logs · scope/regime containment.
+
+## Gaps
+Executable binding PARTIAL — see [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] and [[ROUTING_POLICY_VALIDATION_RECEIPT]].
 
 ---
 
@@ -19,10 +27,7 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 RSCF-NODE
-node_id: strategy_commit_control_plane_mode_spec
+node_id: cp_plane_09_commit_04_strategy_strategy_commit_control_plane_mode_spec_md
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/04_STRATEGY/STRATEGY_COMMIT_CONTROL_PLANE_MODE_SPEC.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

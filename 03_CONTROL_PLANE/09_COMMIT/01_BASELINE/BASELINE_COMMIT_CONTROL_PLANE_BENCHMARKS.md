@@ -1,14 +1,22 @@
 ---
-tags: ['control_plane', 'commit', 'baseline', 'note']
+tags: ['control_plane', '01_baseline']
 ---
 
-# README
+# BASELINE COMMIT CONTROL PLANE BENCHMARKS
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Benchmark declarations for this package. No benchmark results are established by this artifact; executed receipts live in validation evidence.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## Invariants
+Fail-closed · UNKNOWN ≠ PERMISSION · receipts · append-only logs · scope/regime containment.
+
+## Gaps
+Executable binding PARTIAL — see [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] and [[ROUTING_POLICY_VALIDATION_RECEIPT]].
 
 ---
 
@@ -19,10 +27,7 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 RSCF-NODE
-node_id: baseline_commit_control_plane_benchmarks
+node_id: cp_lane_09_commit_01_baseline_baseline_commit_control_plane_benchmarks_md
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/01_BASELINE/BASELINE_COMMIT_CONTROL_PLANE_BENCHMARKS.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

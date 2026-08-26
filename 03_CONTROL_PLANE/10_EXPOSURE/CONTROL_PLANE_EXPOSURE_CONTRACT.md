@@ -1,14 +1,22 @@
 ---
-tags: ['control_plane', 'exposure', 'contract']
+tags: ['control_plane', 'control_plane_exposure_contract.md']
 ---
 
-# Exposure Contract
+# CONTROL PLANE EXPOSURE CONTRACT
 
-STATUS: PLACEHOLDER
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
 
-Purpose: reserve the canonical AMOS OS location for this artifact.
+## Purpose
+Typed contract surface for this control-plane concern: preconditions, atomic operation semantics, postconditions with epistemic class, rollback basin declared before mutation.
 
-Do not treat this placeholder as implemented logic, empirical validation, or final canon. Replace only through the appropriate canon/provenance/supersession process.
+## Invariants
+Fail-closed · UNKNOWN ≠ PERMISSION · receipts · append-only logs · scope/regime containment.
+
+## Gaps
+Executable binding PARTIAL — see [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] and [[ROUTING_POLICY_VALIDATION_RECEIPT]].
 
 ---
 
@@ -19,10 +27,7 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 RSCF-NODE
-node_id: control_plane_exposure_contract
+node_id: cp_03_control_plane_10_exposure_control_plane_exposure_contract_md
 node_type: note
 path: 03_CONTROL_PLANE/10_EXPOSURE/CONTROL_PLANE_EXPOSURE_CONTRACT.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
