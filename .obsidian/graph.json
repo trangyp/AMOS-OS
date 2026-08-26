@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:00_ROOT/",
+      "color": {
+        "a": 1,
+        "rgb": 65331
+      }
+    },
+    {
+      "query": "path:01_CANON/",
+      "color": {
+        "a": 1,
+        "rgb": 2420991
+      }
+    },
+    {
+      "query": "path:02_KERNEL/",
+      "color": {
+        "a": 1,
+        "rgb": 37375
+      }
+    },
+    {
+      "query": "path:03_CONTROL_PLANE/",
+      "color": {
+        "a": 1,
+        "rgb": 16736709
+      }
+    },
+    {
+      "query": "path:11_KNOWLEDGE/",
+      "color": {
+        "a": 1,
+        "rgb": 16769044
+      }
+    },
+    {
+      "query": "path:25_COGNITIVE_MATRIX/",
+      "color": {
+        "a": 1,
+        "rgb": 13696865
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -1.3,
+  "nodeSizeMultiplier": 1.0841599642538,
+  "lineSizeMultiplier": 0.891214253798034,
+  "collapse-forces": false,
+  "centerStrength": 0.796414209115282,
+  "repelStrength": 15.0990157713744,
+  "linkStrength": 0.306635388739946,
+  "linkDistance": 172,
+  "scale": 0.055928707885684104,
+  "close": false
+}
