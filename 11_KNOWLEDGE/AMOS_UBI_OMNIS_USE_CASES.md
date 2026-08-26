@@ -5,8 +5,9 @@ origin_architect: "Trang Phan"
 framework_parent: "AMOS"
 domain_runtime: "UBI / biological-system modeling"
 version: "2026-08-25"
----
+tags: ['knowledge', 'note']
 
+---
 # UBI Omnis™ — AMOS-Aligned Capability, Product, and Governance Map
 
 ## 0. Canon and evidence boundary
@@ -954,3 +955,7 @@ These are not defects to hide. In AMOS they become explicit validation targets.
 - **Use cases:** `CONDITIONAL`.
 - **Medical, legal, market, valuation, uniqueness, and universality claims:** `UNKNOWN-GAP` unless independently evidenced.
 - **Recommended next action:** build falsifiable domain benchmarks and typed AMOS capability contracts before expanding claims.
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

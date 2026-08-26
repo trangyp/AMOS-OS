@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'note']
+---
+
 # L02_ATTENTION — Provenance
 
 **Class:** `COGNITIVE_PRIMITIVE_PLACEHOLDER`
@@ -1211,3 +1215,7 @@ IMPLEMENTED != VALIDATED
 ```
 
 **Conclusion class: `MODEL`.** The provenance contract is structurally specified, but canonical L02 provenance semantics, executable implementation, and executed validation remain `UNKNOWN/GAP`.
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

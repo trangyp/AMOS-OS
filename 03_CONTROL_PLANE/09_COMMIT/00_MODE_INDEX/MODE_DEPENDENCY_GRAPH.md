@@ -1,3 +1,7 @@
+---
+tags: ['control_plane', 'commit', 'mode_index', 'note']
+---
+
 The Drive artifact `MODE_DEPENDENCY_GRAPH.md` is currently only the reservation placeholder, so the substantive specification below is a **DERIVED / CANDIDATE_CANON replacement**, not recovered original canon. 
 
 ---
@@ -4860,3 +4864,7 @@ GRAPH ELEGANCE.
 
 This deliberately preserves the distinction between **specification**, **implementation**, and **validation**: the current Drive artifact contains only `STATUS: PLACEHOLDER` and explicitly says not to treat it as implemented logic, empirical validation, or final canon. :contentReference[oaicite:1]{index=1}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

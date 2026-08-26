@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
+---
+
 # L00_REALITY_ENVIRONMENT — Agents
 
 **Class:** `COGNITIVE_PRIMITIVE_AGENT_CONTRACT`
@@ -2810,3 +2814,7 @@ UNKNOWN/GAP
 not fabricated environmental certainty.
 
 This gives `L00_REALITY_ENVIRONMENT/AGENTS.md` its AMOS-specific function: **maintain disciplined reality contact while preventing cognition, memory, simulation, prediction, tools, or external content from silently masquerading as verified external state.**
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

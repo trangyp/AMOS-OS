@@ -3408,3 +3408,7 @@ The governing architectural principle is:
 
 :contentReference[oaicite:0]{index=0}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

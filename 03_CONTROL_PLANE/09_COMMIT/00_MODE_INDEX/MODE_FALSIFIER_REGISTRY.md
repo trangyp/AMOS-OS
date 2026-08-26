@@ -34,8 +34,9 @@ empirical_validation_status: NOT_CLAIMED
 
 promotion_required: true
 updated: 2026-08-26
----
+tags: ['control_plane', 'commit', 'mode_index', 'note']
 
+---
 # AMOS OS — Mode Falsifier Registry
 
 > **Status:** `CANDIDATE_CANON`
@@ -139,3 +140,6 @@ This artifact remains `CANDIDATE_CANON / DERIVED` until:
 
 # END — MODE_FALSIFIER_REGISTRY
 
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

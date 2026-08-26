@@ -1,3 +1,7 @@
+---
+tags: ['control_plane', 'index', 'map']
+---
+
 Yes. Paste the following over the incorrect placeholder.
 
 ---
@@ -1851,3 +1855,7 @@ Until the remaining source, schema, implementation, and executed-test gaps are c
 
 This version is suitable as the **replacement content** for `03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md`; importantly, it preserves the unresolved implementation/canon gaps instead of promoting the old placeholder directly to `VERIFIED`.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

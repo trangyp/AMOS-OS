@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'note']
+---
+
 Below is the **full replacement content** for `L02_ATTENTION/EQUATIONS.md`. The key safeguard is that only source-supported equations are marked `SOURCE_CANON`; the attention scoring/allocation equations are explicitly `AMOS_MODEL` until direct L02 canon is recovered.
 
 ---
@@ -2536,3 +2540,7 @@ EMPIRICALLY VALIDATED
 
 The highest-value unresolved gap is the **canonical L02 equation registry**. Until that is recovered, the budget and allocation equations above should remain a coherent AMOS mathematical specification rather than being promoted into Trang Phan’s source canon.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

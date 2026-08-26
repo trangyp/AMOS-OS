@@ -11,8 +11,9 @@ language: "en"
 architecture: "HML_fractal_single_file"
 placeholder_status: "NONE"
 version: "1.0"
----
+tags: ['knowledge', 'note']
 
+---
 # AMOS C03 — Physics & Cosmos Master Knowledge
 
 > **Epistemic boundary**
@@ -1001,3 +1002,7 @@ abstractions remain research models until a precise mapping and independent vali
 
 The architecture is therefore intentionally open:
 **integrity > apparent completeness**.
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

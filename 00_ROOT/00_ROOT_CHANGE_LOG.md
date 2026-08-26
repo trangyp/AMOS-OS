@@ -1,3 +1,7 @@
+---
+tags: ['00_root', 'note']
+---
+
 ````markdown
 ---
 title: "AMOS OS Root Change Log"
@@ -3085,3 +3089,7 @@ The governing root law is:
 
 ```
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'cell_contracts', 'note']
+---
+
 # 06_CELL_CONTRACTS — Cell State
 
 **Class:** `MATRIX_INFRASTRUCTURE_PLACEHOLDER`  
@@ -55,3 +59,7 @@ competing: []
 falsifiers: []
 confidence_ceiling: 0
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -1,5 +1,4 @@
 ---
-
 title: "AMOS Relation Tensor Architecture"
 aliases:
 
@@ -29,9 +28,9 @@ aliases:
 * scale
 * analogy
 * governance
+tags: ['knowledge', 'note']
 
 ---
-
 # AMOS Relation Tensor
 
 ## Typed Relational Architecture for AI Reasoning
@@ -1806,3 +1805,7 @@ RelationType_B
 unless an explicit transformation rule and adequate evidence license the promotion.
 
 This makes the Relation Tensor the typed connective substrate between **Distinction → Relation → Constraint**, while Evidence Tensor supplies epistemic grounding and RSCF preserves the resulting dependency and proof structure.
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

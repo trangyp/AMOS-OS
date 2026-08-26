@@ -1,3 +1,7 @@
+---
+tags: ['00_root', 'note']
+---
+
 Below is a **full replacement artifact** for `00_ROOT_AUTHORIZATION.md`. It defines the root-authorization architecture while deliberately **not manufacturing an actual root principal, key, signer, or authority grant**. That distinction is required because authorization must bind objective, scope, and authority, preserve unknowns, and fail hard invariants rather than compensate for them.  
 
 ````markdown
@@ -3069,3 +3073,7 @@ The governing AMOS root-authorization law is:
 
 ```
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

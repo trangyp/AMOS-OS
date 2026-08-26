@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l18_action', 'note']
+---
+
 # L18_ACTION — Equations
 
 **Class:** `COGNITIVE_PRIMITIVE_PLACEHOLDER`  
@@ -55,3 +59,7 @@ competing: []
 falsifiers: []
 confidence_ceiling: 0
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

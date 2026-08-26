@@ -31,8 +31,9 @@ cross_links:
   - "02_KERNEL/09_INTEGRATION"
   - "22_RESEARCH/02_EXPERIMENTS"
   - "22_RESEARCH/04_VALIDATION"
----
+tags: ['knowledge', 'note']
 
+---
 # Khung Trang — Quantum, Ontology & Computable Recursive Survival Dynamics
 
 > **Epistemic boundary**
@@ -4048,3 +4049,7 @@ Create separate files rather than editing this source model in place:
 - `SUPERSESSION_LOG.md`
 
 This preserves the source as a stable research object while validation evolves independently.
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -37,8 +37,9 @@ cross_links:
 epistemic_regime: "THEORETICAL_RESEARCH"
 scope: "cross-scale recursive systems modeling"
 freshness_policy: "REVALIDATE_ON_DEPENDENCY_CHANGE"
----
+tags: ['knowledge', 'note']
 
+---
 # Trang Framework — Recursive Ontology, Emergence, and Computable Survival Dynamics
 
 > **Epistemic Boundary**
@@ -2866,3 +2867,7 @@ The appropriate current characterization is:
 > to formalization and independent validation.**
 
 **Overall conclusion class:** `MODEL`
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

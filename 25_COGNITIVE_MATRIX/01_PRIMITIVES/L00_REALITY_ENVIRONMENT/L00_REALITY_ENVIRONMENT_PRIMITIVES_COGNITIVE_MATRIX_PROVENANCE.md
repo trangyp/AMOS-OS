@@ -3344,3 +3344,7 @@ The governing architectural principle is:
 
 This is the cleaned, paste-ready Markdown version of the uploaded provenance content. :contentReference[oaicite:0]{index=0}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

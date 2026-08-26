@@ -1,3 +1,7 @@
+---
+tags: ['kernel', 'integration', 'note']
+---
+
 # K HML — Full Canonical Reconstruction
 
 **Status:** `AMOS_MODEL / CANON-CANDIDATE`
@@ -2681,3 +2685,7 @@ TOKEN SAVINGS.
 The provenance boundary is important: the Drive corpus clearly contains very large AMOS architecture sources—the main `AMOS ARCHITECTURE.md` is ~841 KB, `AMOS OS.md` ~751 KB, and the max-detail Reality Architecture master ~2.16 MB.    The corpus also contains later Core branches such as v4.7, v4.8, v5.3, and v5.8; I have **not** silently imported those later-version semantics into the v4.4 target above.
 
 So this is suitable as the **full `K_HML` canon-candidate specification**, but the honest class remains `MODEL` until the exact historical H/M/L source and runtime evidence are bound through the source registry and supersession process.
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'index', 'note']
+---
+
 # 00_INDEX — Status Legend
 
 **Class:** `MATRIX_STATUS_SEMANTICS_CONTRACT`
@@ -3397,3 +3401,7 @@ DO\ NOT\ PROMOTE
 ]
 
 This makes `STATUS_LEGEND.md` the semantic firewall preventing the AMOS Cognitive Matrix from confusing architecture coverage with implemented, validated, governed capability.
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

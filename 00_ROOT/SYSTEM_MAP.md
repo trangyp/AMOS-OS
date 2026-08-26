@@ -1,3 +1,7 @@
+---
+tags: ['00_root', 'map']
+---
+
 Below is a **full replacement artifact** for the placeholder `SYSTEM_MAP.md`. It is written as an architecture/specification artifact, not as a claim that every mapped component is already implemented or canonically admitted. The completion distinction is deliberate: structural completeness does not establish implementation or empirical validity. 
 
 ---
@@ -3870,3 +3874,7 @@ Integrity remains prior to completeness, fluency, speed, convenience, or optimiz
 
 ```
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

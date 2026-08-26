@@ -1,3 +1,7 @@
+---
+tags: ['control_plane', 'commit', 'mode_index', 'note']
+---
+
 `MODE_COVERAGE_MATRIX.md` in Drive is currently only the generic placeholder, so there is no substantive canonical matrix to reproduce verbatim. 
 
 Below is a **full substantive candidate replacement**. It is designed to work with `MODE_ADMISSION_QUEUE.md`, `MODE_COMPOSITION_REGISTRY.md`, and `MODE_CONFLICT_REGISTRY.md`, while keeping coverage claims distinct from implementation or empirical validation.
@@ -4519,3 +4523,7 @@ THAN COVERAGE DENSITY.
 
 This is `DERIVED / CANDIDATE_CANON`, not recovered original canon. The actual Drive file still contains only the reservation placeholder and explicitly warns against treating it as implemented logic or final canon. :contentReference[oaicite:1]{index=1}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

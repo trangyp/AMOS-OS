@@ -7,8 +7,9 @@ epistemic_class: "MODEL"
 primitive: "L04_OBJECT_ENTITY_FORMATION"
 artifact: "REPAIR.md"
 runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
----
+tags: ['cognitive_matrix', 'primitives', 'l04_object_entity_formation', 'note']
 
+---
 # L04_OBJECT_ENTITY_FORMATION — REPAIR
 
 **Class:** `COGNITIVE_PRIMITIVE_CONTRACT`  
@@ -1289,3 +1290,7 @@ NOT ESTABLISHED
 
 ```
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

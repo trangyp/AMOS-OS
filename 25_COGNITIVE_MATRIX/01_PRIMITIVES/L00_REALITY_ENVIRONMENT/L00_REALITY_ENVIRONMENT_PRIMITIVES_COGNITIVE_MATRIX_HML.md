@@ -1,5 +1,4 @@
 ---
-
 title: "L00_REALITY_ENVIRONMENT — H/M/L Architecture"
 aliases:
 
@@ -35,9 +34,9 @@ aliases:
 * rscf/T-topology
 * rscf/X-cross-scale
 * rscf/type-model
+tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
 
 ---
-
 # L00_REALITY_ENVIRONMENT — H/M/L Architecture
 
 **Class:** `AMOS_REALITY_ENVIRONMENT_CROSS_SCALE_ARCHITECTURE`
@@ -3114,3 +3113,7 @@ The central architectural rule is:
 ---
 
 **Related:** [[00-Home]] · [[06-Knowledge-Base-MOC]] · [[L00_REALITY_ENVIRONMENT — Definition]] · [[L00_REALITY_ENVIRONMENT — Dependencies]] · [[L00_REALITY_ENVIRONMENT — Equations]] · [[L00_REALITY_ENVIRONMENT — Control Planes]] · [[L00_REALITY_ENVIRONMENT — Failure Modes]] · [[L00_REALITY_ENVIRONMENT — Gap Matrix]] · [[AMOS_Typed_Tensor_Contracts]] · [[AMOS_Evidence_Tensor_Architecture]] · [[AMOS_Claim_Tensor_Architecture]] · [[AMOS_Relation_Tensor_Architecture]] · [[AMOS_Cross_Scale_RSCF_Tensor_Engine]] · [[AMOS_Reality_Simulation_Distinction]] · [[AMOS_Constraint_Propagation]] · [[AMOS_Provenance_Topology]] · [[AMOS_Infrastructure_Control_Plane]] · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[system_scan_agent]] · [[automation_profiles]]
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

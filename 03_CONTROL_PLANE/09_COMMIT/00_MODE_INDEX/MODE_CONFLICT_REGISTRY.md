@@ -1,3 +1,7 @@
+---
+tags: ['control_plane', 'commit', 'mode_index', 'note']
+---
+
 `MODE_CONFLICT_REGISTRY.md` in Drive is also only the reservation placeholder; there is no substantive canonical implementation in that artifact to reproduce verbatim. 
 
 Below is a **full candidate replacement** designed to sit directly beside `MODE_COMPOSITION_REGISTRY.md`, while preserving conflict rather than forcing false convergence.
@@ -4048,3 +4052,7 @@ AND SAFE TO REASON OVER.
 
 This should be treated as `DERIVED / CANDIDATE_CANON`, not recovered original canon: the actual Drive artifact currently contains only the placeholder reservation and explicitly says not to treat that placeholder as implemented logic or final canon. :contentReference[oaicite:1]{index=1}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

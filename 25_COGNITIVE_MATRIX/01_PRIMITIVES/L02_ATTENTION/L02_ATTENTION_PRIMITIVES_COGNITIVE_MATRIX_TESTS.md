@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'note']
+---
+
 The recovered L02 source currently provides only the placeholder role—**attention allocation / budgeting scarce reasoning-observation resources**—and explicitly requires tests/falsifiers before promotion; no canonical `TESTS.md` was recovered.  Therefore the test suite below is deliberately `AMOS_MODEL / UNEXECUTED`, not evidence that L02 is implemented or validated.
 
 ---
@@ -2753,3 +2757,7 @@ AUTHORIZATION TO PROMOTE
 
 ```text
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

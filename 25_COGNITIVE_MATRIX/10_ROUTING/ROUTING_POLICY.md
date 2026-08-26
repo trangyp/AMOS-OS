@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'routing', 'note']
+---
+
 ````md
 ---
 artifact_id: AMOS-CM-10-ROUTING-ROUTING-POLICY
@@ -3015,3 +3019,7 @@ proof_capsule:
 
 This version makes `ROUTING_POLICY.md` the **policy layer above route selection but below authority**, rather than duplicating `README`, `BINDING_RULES`, or `ROUTING_AUDIT`. The primary Full Brain OS canon specifically supports the material-relevance rule, explicit uncertainty/gap handling, and conservative routing discipline; it does not by itself prove this exact policy implementation exists. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

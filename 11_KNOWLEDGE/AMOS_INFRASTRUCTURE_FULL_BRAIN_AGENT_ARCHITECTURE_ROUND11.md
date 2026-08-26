@@ -1,3 +1,7 @@
+---
+tags: ['knowledge', 'note']
+---
+
 # AMOS Infrastructure, Full Brain OS, Agents & Skills Architecture
 ## Round 11 — Governed Architecture Summary
 
@@ -1077,3 +1081,7 @@ The architecture is grounded in the supplied AMOS corpus, the validated round-11
 The Skill's tests are **VERIFIED for that package and test environment**.
 
 Claims about the complete conceptual AMOS architecture operating as a deployed production infrastructure remain **MODEL / CONDITIONAL** until corresponding runtime services and deployment evidence exist.
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

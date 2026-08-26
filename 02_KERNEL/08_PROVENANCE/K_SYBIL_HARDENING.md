@@ -10,8 +10,9 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
----
+tags: ['kernel', 'provenance', 'note']
 
+---
 # K SYBIL HARDENING
 
 > **AMOS Core target:** `v4.4`  
@@ -2803,3 +2804,7 @@ AND SPEED.
 
 **Classification:** `MODEL`. This is substantive replacement content for the placeholder, but it is not by itself evidence of implementation, empirical validation, formal verification, or promotion to final canon. Those remain subject to the AMOS provenance, conflict-resolution, validation, and supersession process.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

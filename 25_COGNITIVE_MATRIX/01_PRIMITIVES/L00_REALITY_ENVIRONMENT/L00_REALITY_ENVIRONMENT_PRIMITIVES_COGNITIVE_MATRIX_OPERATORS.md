@@ -1,5 +1,4 @@
 ---
-
 title: "L00_REALITY_ENVIRONMENT — Operators"
 aliases:
 
@@ -29,9 +28,9 @@ aliases:
 * validation
 * repair
 * governance
+tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
 
 ---
-
 # L00_REALITY_ENVIRONMENT — Operators
 
 **Class:** `AMOS_REALITY_ENVIRONMENT_OPERATOR_ARCHITECTURE`
@@ -3592,3 +3591,7 @@ The central architectural rule is:
 ---
 
 **Related:** [[00-Home]] · [[06-Knowledge-Base-MOC]] · [[L00_REALITY_ENVIRONMENT — Definition]] · [[L00_REALITY_ENVIRONMENT — Dependencies]] · [[L00_REALITY_ENVIRONMENT — Equations]] · [[L00_REALITY_ENVIRONMENT — Hml]] · [[L00_REALITY_ENVIRONMENT — Invariants]] · [[L00_REALITY_ENVIRONMENT — Memory]] · [[L00_REALITY_ENVIRONMENT — Control Planes]] · [[L00_REALITY_ENVIRONMENT — Failure Modes]] · [[L00_REALITY_ENVIRONMENT — Gap Matrix]] · [[AMOS_Typed_Tensor_Contracts]] · [[AMOS_Evidence_Tensor_Architecture]] · [[AMOS_Claim_Tensor_Architecture]] · [[AMOS_Relation_Tensor_Architecture]] · [[AMOS_Reality_Simulation_Distinction]] · [[AMOS_Constraint_Propagation]] · [[AMOS_Causal_Hierarchy_Governor]] · [[AMOS_Infrastructure_Control_Plane]]
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

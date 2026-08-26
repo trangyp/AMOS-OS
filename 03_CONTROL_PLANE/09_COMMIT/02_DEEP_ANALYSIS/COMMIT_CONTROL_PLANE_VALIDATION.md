@@ -1,3 +1,7 @@
+---
+tags: ['control_plane', 'commit', 'deep_analysis', 'note']
+---
+
 Yes. Below is a **paste-ready substantive replacement** for the placeholder. I am treating it as a **candidate AMOS OS canonical artifact**, not falsely claiming that the placeholder itself contained this implementation. I also found an AMOS master encyclopedia in Drive that identifies itself as an exhaustive accessible-session AMOS/Trang index, plus a substantial counterfactual research corpus in Drive.  
 
 ---
@@ -2722,3 +2726,7 @@ is the correct state.
 
 This is intentionally much deeper than the placeholder, but it keeps the critical AMOS distinction intact: **a reconstructed architecture is a MODEL/candidate canon until provenance and promotion establish otherwise**. The Drive corpus also contains dedicated material on counterfactual harm, uncertainty quantification, causal-reasoning benchmarks, and partial identification, so those can be used for a subsequent evidence-hardening pass rather than being silently treated as already incorporated empirical validation. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

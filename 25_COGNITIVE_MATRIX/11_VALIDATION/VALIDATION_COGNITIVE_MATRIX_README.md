@@ -3285,3 +3285,7 @@ NON_AUTHORITATIVE
 
 This keeps the validation subsystem aligned with the Full Brain OS integrity rule: validation must remain scoped, provenance-aware, gap-visible, and incapable of silently turning missing evidence into `PASS`. :contentReference[oaicite:1]{index=1}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

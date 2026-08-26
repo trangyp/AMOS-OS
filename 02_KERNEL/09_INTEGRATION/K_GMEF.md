@@ -1,3 +1,7 @@
+---
+tags: ['kernel', 'integration', 'note']
+---
+
 Below is the substantive `K_GMEF` replacement, grounded in the retrieved AMOS Core lineage rather than treating the placeholder as implemented canon. The v4.4 source explicitly describes GMEF as a **Governed Meta-Evolution** runtime, requires governance burden to be monotonic with recursive depth/consequence radius/irreversibility, and includes constitutional locking, external judging, failure memory, rollback, mutation classes, lineage/traceability, bounded mutation, and stale/replay protection. It also explicitly warns that its numerical thresholds are runtime/benchmark policy parameters—not empirical laws—and that the distributed mechanisms are not universal Byzantine-consensus proofs. 
 
 ---
@@ -7079,3 +7083,7 @@ The key improvement here is that this is no longer mainly an inferred AMOS-v4.4 
 
 The largest remaining gap is implementation coverage: the evidence I found verifies a narrower GMEF mutation gate, not yet the entire canonical GMEF architecture—MPP, full lifecycle, X0–X6, ET0–ET5, HA0–HA5, evolutionary debt, repair-capacity logic, and the full audit contract should therefore **not** be marked implemented solely from that gate record. :contentReference[oaicite:63]{index=63}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

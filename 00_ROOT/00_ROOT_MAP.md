@@ -1,3 +1,7 @@
+---
+tags: ['00_root', 'map']
+---
+
 Below is the **full replacement content** for `00_ROOT_MAP.md` / `00 Root Map`.
 
 This is not just a directory index. In AMOS, the Root Map should function as the **canonical navigation, ownership, lineage, and topological entry contract** for the whole OS while remaining distinct from the actual canon, dependency graph, runtime, control plane, and deployment layers. The source-defined Full Brain OS is a structural orchestration specification, and preserving its architecture does not by itself prove empirical validity or implementation.  
@@ -4562,3 +4566,7 @@ A FALSE CANONICAL POSITION.
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. The source-grounded anchors are Trang Phan’s stewardship, the Full Brain structural-orchestration boundary, and `AMOS_FULL_BRAIN_OS.json` as the primary Full Brain canon source. :contentReference[oaicite:10]{index=10} :contentReference[oaicite:11]{index=11} The exact root numbering, physical folder inventory, alias scheme, namespace syntax, and some cross-plane containment/precedence edges remain `UNKNOWN/GAP` until repository/canon evidence explicitly resolves them.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -1,3 +1,7 @@
+---
+tags: ['control_plane', 'policy', 'note']
+---
+
 Below is the **full paste-ready `POLICY_REGISTRY.md`**, aligned with the `POLICY_ENGINE.md`, `POLICY_DECISION.md`, `CAPABILITY_MANIFEST.md`, `CAPABILITY_CONTRACT.md`, and `CONTROL_PLANE_MAP.md` architecture we have been building.
 
 ---
@@ -4559,3 +4563,7 @@ Integrity remains prior to completeness, fluency, speed, and optimization.
 
 ```
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

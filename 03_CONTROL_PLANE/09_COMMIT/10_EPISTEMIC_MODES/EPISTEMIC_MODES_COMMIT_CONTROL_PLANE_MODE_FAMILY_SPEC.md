@@ -9,8 +9,9 @@ steward: "Trang Phan"
 status: "PLACEHOLDER"
 conclusion_class: "UNKNOWN/GAP"
 rscf_state: "placeholder"
----
+tags: ['control_plane', 'commit', 'epistemic_modes', 'note']
 
+---
 # 10_EPISTEMIC_MODES
 
 ## Status
@@ -54,3 +55,7 @@ claim_class: UNKNOWN/GAP
 implemented: false
 source_defined_children: unresolved
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

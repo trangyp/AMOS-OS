@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'note']
+---
+
 Below is the **full replacement content** for `L02_ATTENTION/DEPENDENCIES.md`. It treats dependency structure as an AMOS model contract while keeping exact canonical edges unresolved unless source-supported.
 
 ---
@@ -2364,3 +2368,7 @@ VALIDATED EXECUTION
 
 The decisive unresolved dependency question remains whether the cognitive matrix itself canonically defines a strict `L01 → L02 → L03` chain, or whether L02 is actually a multi-input governed primitive whose matrix position describes conceptual organization rather than runtime dependency.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -8,8 +8,9 @@ origin_architect: "Trang Phan"
 steward: "Trang Phan"
 conclusion_class: "DERIVED"
 status: "CURRENT_SCAFFOLD_AUDIT"
----
+tags: ['control_plane', 'commit', 'mode_index', 'note']
 
+---
 # AMOS Mode Placeholder Coverage Audit
 
 ## Scope
@@ -121,3 +122,7 @@ Child-mode ontology is complete only where child folders are actually declared. 
 ## Conclusion class
 
 `DERIVED`
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

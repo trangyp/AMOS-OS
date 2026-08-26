@@ -10,8 +10,9 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
----
+tags: ['kernel', 'authority', 'note']
 
+---
 # K COMMIT TIME AUTHORITY
 
 > **AMOS Core target:** `v4.4`  
@@ -2439,3 +2440,7 @@ AUTHORITATIVE.
 
 **Classification note:** this is substantive replacement content for `02_KERNEL/K_COMMIT_TIME_AUTHORITY.md`, but remains **AMOS_MODEL**. It defines the proposed commit-time authority contract consistent with the AMOS v4.4 lineage—especially proposal/commit separation, MVCC/CAS concepts, causal epochs, atomic multi-RSCF reasoning, hardened shard-local finalization, and proof-based coordination avoidance. It does **not** establish that these mechanisms are implemented, formally verified, distributed, Byzantine-safe, or empirically validated. Those claims remain `UNKNOWN/GAP` until supported by implementation evidence, provenance, tests, and explicit promotion.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

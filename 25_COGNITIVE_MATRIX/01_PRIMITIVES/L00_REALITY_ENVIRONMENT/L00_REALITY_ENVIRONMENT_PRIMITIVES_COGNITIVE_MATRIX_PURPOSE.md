@@ -2478,3 +2478,7 @@ The governing architectural principle is:
 
 Cleaned into paste-ready Markdown while preserving the supplied AMOS `MODEL` status, architecture boundaries, equations, H/M/L structure, RSCF completion state, and implementation-dependent qualifications. :contentReference[oaicite:0]{index=0}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

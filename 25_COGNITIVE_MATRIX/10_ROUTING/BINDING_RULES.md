@@ -3166,3 +3166,7 @@ UNBOUND
 
 This contract keeps routing aligned with the AMOS Full Brain OS integrity boundary: route only what is materially needed, preserve provenance/scope/regime constraints, expose ambiguity instead of forcing a fluent selection, and never let capability selection become authority. :contentReference[oaicite:0]{index=0}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l01_sensing_observation', 'note']
+---
+
 Below is the full paste-ready `L01_SENSING_OBSERVATION/AGENTS.md`. I’m keeping direct L01 agent canon explicitly gap-bounded rather than inventing it; the agent architecture is therefore classified as `MODEL / CONDITIONAL`.
 
 ---
@@ -3290,3 +3294,7 @@ MODEL / CONDITIONAL
 
 ```
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l03_percept_formation', 'note']
+---
+
 # L03_PERCEPT_FORMATION — RSCF
 
 **Class:** `COGNITIVE_PRIMITIVE_CONTRACT`
@@ -1056,3 +1060,7 @@ gap_status:
 ## Governing RSCF contract
 
 > **`L03_PERCEPT_FORMATION` SHALL NOT treat a formed percept, coherent interpretation, or completed RSCF as proof of reality. Every material percept SHALL preserve its epistemic class, observation lineage, load-bearing premises, H/M/L location, dependency edges, provenance ancestry, scope, regime, freshness, competing interpretations, falsifiers, unresolved gaps, and confidence ceiling where available. Correlated descendants SHALL NOT be counted as independent confirmation; structural similarity or temporal sequence SHALL NOT independently license causation; and incompatible adequately supported percepts SHALL remain `COMPETING` until discriminating evidence exists. A failed premise SHALL selectively invalidate dependent conclusions while preserving unaffected valid branches. `UNKNOWN/GAP` SHALL remain non-passing. RSCF construction may produce a governed proposal, but neither the RSCF nor its confidence score grants authority or constitutes durable commit.**
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -10,8 +10,9 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
----
+tags: ['kernel', 'authority', 'note']
 
+---
 # K CAPABILITY AUTHORIZATION
 
 > **AMOS Core target:** `v4.4`  
@@ -2902,3 +2903,7 @@ AUTHORITY.
 
 **Classification note:** this is substantive replacement content for `02_KERNEL/K_CAPABILITY_AUTHORIZATION.md`, but remains **AMOS_MODEL**. It specifies the proposed kernel-level capability/authority separation and authorization invariants; it does not establish that the corresponding control-plane policies, authorization graph, delegation enforcement, runtime gates, revocation, MVCC/CAS checks, or security mechanisms are implemented or empirically validated. Those remain `UNKNOWN/GAP` until supported by implementation, provenance, tests, and explicit promotion.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

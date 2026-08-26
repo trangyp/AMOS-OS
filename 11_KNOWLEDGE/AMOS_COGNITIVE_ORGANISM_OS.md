@@ -1,3 +1,7 @@
+---
+tags: ['knowledge', 'note']
+---
+
 # AMOS COGNITIVE ORGANISM OS
 ## Maximum-Detail Unified Cognitive-Life Architecture
 
@@ -3381,3 +3385,7 @@ Infrastructure-governed cognitive organism
 ```
 
 This is the level at which “AMOS organism” becomes structurally useful: not by pretending software is biologically alive, but by giving persistent cognition the lifecycle, memory, regulation, dependency, repair, provenance, and governance architecture that a serious long-running cognitive system requires.
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

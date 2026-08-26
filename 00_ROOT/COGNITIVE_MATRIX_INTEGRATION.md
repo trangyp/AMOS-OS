@@ -1,3 +1,7 @@
+---
+tags: ['00_root', 'note']
+---
+
 # AMOS OS — Cognitive Matrix Integration
 
 **Origin architect / steward:** Trang Phan  
@@ -71,3 +75,7 @@ PROPOSAL != COMMIT
 7. Observe outcome and update only the affected cells/dependencies.
 
 The matrix therefore becomes AMOS OS cognitive addressing, coverage analysis, structural-gap discovery, routing, and validation infrastructure.
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -10,8 +10,9 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
----
+tags: ['kernel', 'authority', 'note']
 
+---
 # K EFFECT CLASSIFICATION
 
 > **AMOS Core target:** `v4.4`  
@@ -2398,3 +2399,7 @@ RELY ON IT.
 
 **Classification note:** this is substantive replacement content for `02_KERNEL/K_EFFECT_CLASSIFICATION.md`, but remains **AMOS_MODEL**. It defines the proposed effect semantics needed to connect capability authorization, commit-time authority, risk constraints, causal closure, runtime execution, and external-effect governance. It does **not** establish implementation, empirical validation, formal verification, or canonical promotion; those remain `UNKNOWN/GAP` until supported by provenance and test evidence.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

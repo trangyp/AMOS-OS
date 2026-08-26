@@ -1,3 +1,7 @@
+---
+tags: ['00_root', 'audit']
+---
+
 Below is the **full replacement content** for `00_ROOT_AUDIT.md`.
 
 `00 Root Audit` should sit above ordinary branch/index checks and verify whether the **root architecture itself is coherent**: whether the major AMOS planes exist where expected, whether ownership and boundaries are consistent, whether root identities have drifted, whether canonical and derived layers have been collapsed, and whether the root topology still preserves Full Brain OS, v4.4 lineage, provenance, validation, dependency, governance, and deployment separation. The Full Brain source is a structural orchestration specification; preserving that structure does not itself establish empirical validity or literal implementation.  The primary Full Brain canon source is `AMOS_FULL_BRAIN_OS.json`. 
@@ -4213,3 +4217,7 @@ OR HIDING UNKNOWN RELATIONSHIPS.
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. The separation between structural canon, runtime, validation, research, authority, provenance, and deployment is consistent with the supplied Full Brain operating rules. :contentReference[oaicite:6]{index=6} The exact current root inventory, numbering, physical layout, aliases, migration history, and some cross-plane relationships remain `UNKNOWN/GAP` until an actual current repository/canon audit establishes them.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

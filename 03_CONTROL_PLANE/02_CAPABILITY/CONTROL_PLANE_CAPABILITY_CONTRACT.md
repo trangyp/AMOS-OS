@@ -1,3 +1,7 @@
+---
+tags: ['control_plane', 'capability', 'contract']
+---
+
 Yes. The placeholder should be replaced by a substantive contract. Below is a **full paste-ready `CAPABILITY_CONTRACT.md`**. It is intentionally classified as an **AMOS MODEL / proposed governed contract**, not falsely presented as already implemented or canonically validated.
 
 ---
@@ -2698,3 +2702,7 @@ This is substantially different from the existing Drive file, which currently co
 
 The important epistemic boundary is that the content above **completes the architecture as a proposed contract**, but does not pretend the runtime, tests, or canon approval already exist.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

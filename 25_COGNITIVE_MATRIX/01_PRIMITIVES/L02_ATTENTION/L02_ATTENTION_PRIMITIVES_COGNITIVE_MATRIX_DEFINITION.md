@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'note']
+---
+
 Below is the **full replacement content** for `L02_ATTENTION/DEFINITION.md`, written to stay source-bounded and to distinguish recovered primitive meaning from AMOS model completion.
 
 ---
@@ -2490,3 +2494,7 @@ VERIFIED CANON
 
 This version deliberately keeps the **narrow-vs-broad attention scope unresolved**. That is the most important gap to close before promoting `L02_ATTENTION/DEFINITION.md` from model completion toward canonical status.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

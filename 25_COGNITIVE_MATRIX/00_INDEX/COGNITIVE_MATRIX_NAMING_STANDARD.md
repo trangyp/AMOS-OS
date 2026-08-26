@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'index', 'note']
+---
+
 # 00_INDEX — AMOS Cognitive Matrix Naming Standard
 
 **Origin architect / steward:** Trang Phan
@@ -4764,3 +4768,7 @@ CANONICAL IDENTITY
 !=
 AUTHORITY
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

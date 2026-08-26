@@ -1677,3 +1677,7 @@ AUTHORITY TO COMMIT
 
 The strongest source-grounded part is the generic AMOS control-plane boundary: typed evidence, fine-grained observed read sets, semantic-transaction recomputation, authorization separation, observability, commit-time freshness, and authority checks are explicitly defined there. The **mapping of those controls onto `L03_PERCEPT_FORMATION` remains `MODEL`** until direct L03 canon or executable evidence establishes it. :contentReference[oaicite:10]{index=10}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

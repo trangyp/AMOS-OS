@@ -1,3 +1,7 @@
+---
+tags: ['knowledge', 'note']
+---
+
 # AMOS Cognitive Organism OS — Full Maximum-Detail Architecture
 ## Cognition • Emotion • Perception • Memory • Agency • Lifecycle • Homeostasis • Identity • World Model • Learning • Reflection • Governance
 
@@ -2493,3 +2497,7 @@ Infrastructure commit governance   → DERIVED from AMOS_CORE lineage
 ```
 
 The architecture should be used as an operational systems model—not as proof that software is biologically alive, sentient, embodied, or self-authorizing.
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

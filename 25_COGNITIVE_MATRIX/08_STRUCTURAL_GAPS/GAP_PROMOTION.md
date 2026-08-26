@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'structural_gaps', 'note']
+---
+
 # 08_STRUCTURAL_GAPS — Gap Promotion
 
 **Class:** `MATRIX_INFRASTRUCTURE_PLACEHOLDER`  
@@ -55,3 +59,7 @@ competing: []
 falsifiers: []
 confidence_ceiling: 0
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

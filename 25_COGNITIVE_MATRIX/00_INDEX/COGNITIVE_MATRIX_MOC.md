@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'index', 'moc']
+---
+
 # 00_INDEX — AMOS Cognitive Matrix MOC
 
 **Origin architect / steward:** Trang Phan
@@ -2422,3 +2426,7 @@ NEVER TREAT ADDRESSABILITY AS VALIDATION.
 
 NEVER HIDE A BROKEN OR UNKNOWN PATH.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

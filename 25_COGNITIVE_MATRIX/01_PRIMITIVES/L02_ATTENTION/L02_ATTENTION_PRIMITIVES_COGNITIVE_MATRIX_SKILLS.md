@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'note']
+---
+
 # L02_ATTENTION — Skills
 
 **Class:** `COGNITIVE_PRIMITIVE_PLACEHOLDER`
@@ -645,3 +649,7 @@ TEST DEFINED != TEST EXECUTED
 ```
 
 **Conclusion class: `MODEL`.** The L02 attention/scarce-resource role is source-supported; the detailed Skill registry, routing operators, protocols, agent mappings, ownership model, runtime enforcement, and validation remain explicit `UNKNOWN/GAP` or modeled structure rather than recovered canon.
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

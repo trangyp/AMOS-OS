@@ -1,3 +1,7 @@
+---
+tags: ['knowledge', 'note']
+---
+
 # AMOS Infrastructure Layer — Cross-Skill Proof Composition Report
 
 **Status:** DERIVED + EXECUTED / packaged Skill validated, not installed  
@@ -630,3 +634,7 @@ and survive commit-time revalidation.
 And therefore:
 
 > **Model proposal != Skill output != proof join != authoritative commit != external consequence.**
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

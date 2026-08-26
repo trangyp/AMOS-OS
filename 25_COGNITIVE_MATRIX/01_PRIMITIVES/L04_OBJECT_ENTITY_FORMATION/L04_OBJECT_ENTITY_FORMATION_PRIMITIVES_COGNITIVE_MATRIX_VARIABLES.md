@@ -6,8 +6,9 @@ status: "AMOS_MODEL / UNVALIDATED"
 epistemic_class: "MODEL"
 primitive: "L04_OBJECT_ENTITY_FORMATION"
 artifact: "VARIABLES.md"
----
+tags: ['cognitive_matrix', 'primitives', 'l04_object_entity_formation', 'note']
 
+---
 # L04_OBJECT_ENTITY_FORMATION — Variables
 
 **Class:** `COGNITIVE_PRIMITIVE_VARIABLE_CONTRACT`  
@@ -2212,3 +2213,7 @@ BLOCKED
 
 ```
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

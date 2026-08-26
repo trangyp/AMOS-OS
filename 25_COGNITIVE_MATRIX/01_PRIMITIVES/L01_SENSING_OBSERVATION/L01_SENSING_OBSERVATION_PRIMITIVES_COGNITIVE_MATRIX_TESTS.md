@@ -2157,3 +2157,7 @@ amos_unified_master_combined_max_detail
 
 ```text
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

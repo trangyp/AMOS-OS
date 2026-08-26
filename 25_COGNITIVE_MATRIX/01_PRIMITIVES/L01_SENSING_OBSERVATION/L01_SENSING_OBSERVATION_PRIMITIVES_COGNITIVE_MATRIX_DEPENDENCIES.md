@@ -3011,3 +3011,7 @@ until direct source canon and executable validation establish stronger status.
 ---
 
 **Related:** [[L01_SENSING_OBSERVATION]] · [[L01_SENSING_OBSERVATION — Definition]] · [[L01_SENSING_OBSERVATION — Purpose]] · [[L01_SENSING_OBSERVATION — Variables]] · [[L01_SENSING_OBSERVATION — State]] · [[L01_SENSING_OBSERVATION — Operators]] · [[L01_SENSING_OBSERVATION — Invariants]] · [[L01_SENSING_OBSERVATION — Equations]] · [[L01_SENSING_OBSERVATION — HML]] · [[L01_SENSING_OBSERVATION — Control Planes]] · [[L01_SENSING_OBSERVATION — Agents]] · [[L01_SENSING_OBSERVATION — Skills]] · [[L01_SENSING_OBSERVATION — Workflows]] · [[L01_SENSING_OBSERVATION — Protocols]] · [[L01_SENSING_OBSERVATION — Provenance]] · [[L01_SENSING_OBSERVATION — Memory]] · [[L01_SENSING_OBSERVATION — RSCF]] · [[L01_SENSING_OBSERVATION — Failure Modes]] · [[L01_SENSING_OBSERVATION — Repair]] · [[L01_SENSING_OBSERVATION — Tests]] · [[L01_SENSING_OBSERVATION — Gap Matrix]] · [[L00_REALITY_ENVIRONMENT]] · [[00-Home]] · [[06-Knowledge-Base-MOC]]
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

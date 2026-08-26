@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'lifecycle_operations', 'o00_distinction', 'note']
+---
+
 # O00_DISTINCTION — Tests
 
 **Class:** `LIFECYCLE_OPERATION_PLACEHOLDER`  
@@ -55,3 +59,7 @@ competing: []
 falsifiers: []
 confidence_ceiling: 0
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

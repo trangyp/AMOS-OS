@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'generators', 'note']
+---
+
 Below is the **full replacement content** for `12_GENERATORS/GENERATOR_TESTS.md`, aligned to the Full Brain OS, v4.4 runtime, RSCF, provenance, authority/control-plane separation, local repair, competing hypotheses, and generator architecture. The AMOS Full Brain OS source requires explicit epistemic typing, minimum-sufficient routing, provenance, contradiction checks, and preservation of implementation/authority boundaries.  
 
 ---
@@ -4240,3 +4244,7 @@ TEST
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. The test architecture is now defined from AMOS Full Brain OS and v4.4 principles, while exact test registries, validators, implementations, thresholds, and execution infrastructure remain explicit `UNKNOWN/GAP` rather than being fabricated. :contentReference[oaicite:3]{index=3}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

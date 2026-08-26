@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'index', 'readme']
+---
+
 # AMOS Cognitive Matrix
 
 **Origin architect / steward:** Trang Phan  
@@ -27,3 +31,7 @@ CANON != KERNEL != PRIMITIVE != AGENT != SKILL != WORKFLOW != CONTROL_PLANE
 
 A cell does not claim implementation merely because a candidate kernel/agent/skill/workflow can be routed to it.
 Each binding is `UNVALIDATED_BINDING` until validated by tests and provenance.
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

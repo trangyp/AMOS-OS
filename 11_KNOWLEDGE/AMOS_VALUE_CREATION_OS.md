@@ -46,8 +46,9 @@ prediction_states:
   - PILOT_VALIDATED
   - PRODUCTION_MONITORED
 conclusion_class: "CONDITIONAL / HIGH-OPTION-VALUE"
----
+tags: ['knowledge', 'note']
 
+---
 # ⭐ AMOS GIANT VALUE CREATION OS
 ## MAX-DETAIL MASTER ARCHITECTURE FOR COMMERCIALIZATION, VALIDATION, LICENSING, PRODUCTIZATION, GOVERNANCE & SCALE
 
@@ -2966,3 +2967,7 @@ Choose one expensive decision problem
 - [[AMOS Runtime Benchmarking]]
 - [[AMOS Claim Verifier]]
 - [[AMOS Benchmark Forensics]]
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

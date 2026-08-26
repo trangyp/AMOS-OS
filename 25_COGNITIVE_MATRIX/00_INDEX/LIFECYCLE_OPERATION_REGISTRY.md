@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'index', 'note']
+---
+
 # Lifecycle Operation Registry
 
 - `O00` — DISTINCTION
@@ -17,3 +21,7 @@
 - `O14` — ACTION
 - `O15` — OBSERVATION
 - `O16` — LEARNING
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

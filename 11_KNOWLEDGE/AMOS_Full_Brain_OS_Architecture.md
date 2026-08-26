@@ -140,3 +140,7 @@ canonical supersession across vInfinity and v4.4.
 
 ---
 *Stored 2026-08-22 per user correction. Supersedes any linear Kernel→Engine→Agent framing in prior notes/skills.*
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

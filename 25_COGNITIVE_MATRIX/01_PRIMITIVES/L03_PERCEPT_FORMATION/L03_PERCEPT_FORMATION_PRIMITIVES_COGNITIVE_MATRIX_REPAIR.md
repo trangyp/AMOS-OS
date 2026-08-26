@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l03_percept_formation', 'note']
+---
+
 # L03_PERCEPT_FORMATION — Repair
 
 **Class:** `COGNITIVE_PRIMITIVE_CONTRACT`
@@ -1000,3 +1004,7 @@ gap_status:
 ## Governing repair contract
 
 > **`L03_PERCEPT_FORMATION` SHALL treat repair as a provenance-preserving transformation of damaged percept state rather than as evidence that the repaired interpretation is true. Repair SHALL distinguish symptom from repair target, inspect candidate targets across H/M/L, preserve unaffected valid state, selectively invalidate load-bearing descendants, retain legitimate competing percepts, and avoid manufacturing observations, provenance, independence, or confidence. When the causal repair target is materially uncertain, L03 SHALL prefer containment, quarantine, rollback, staged reversible intervention, or `UNKNOWN/GAP` over destructive speculative repair. Every repaired candidate SHALL undergo revalidation under current scope, regime, freshness, provenance, dependency, and authority conditions before recovery may be proposed. Successful repair constitutes neither authority nor durable commit.**
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

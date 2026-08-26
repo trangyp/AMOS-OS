@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'validation', 'note']
+---
+
 Yes. This should be the **evidence substrate underneath `11_VALIDATION`**, not another shallow checklist. The AMOS Full Brain OS rules require typed epistemic states, provenance preservation, minimum-sufficient evidence retrieval, contradiction visibility, scope/regime discipline, and explicit separation between corpus structure and external empirical validity.  The Skill canon points back to `AMOS_FULL_BRAIN_OS.json` and explicitly states that preserving an AMOS framework or architecture does not itself establish empirical validity. 
 
 Below is the **full replacement content** for `11_VALIDATION/VALIDATION_EVIDENCE.md`.
@@ -5441,3 +5445,7 @@ DESCENDANTS OF ONE CLAIM.
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. The evidence/provenance principles are aligned with the supplied Full Brain OS operating rules; the exact registry names, evidence taxonomy, scoring/aggregation algorithms, independence engine, storage backend, and thresholds remain intentionally `UNKNOWN/GAP` until explicit canon or implementation evidence defines them.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

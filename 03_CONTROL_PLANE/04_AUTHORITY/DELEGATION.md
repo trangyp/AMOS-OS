@@ -1,3 +1,7 @@
+---
+tags: ['control_plane', 'authority', 'note']
+---
+
 # DELEGATION.md
 
 ---
@@ -4313,3 +4317,7 @@ Integrity remains prior to completeness, fluency, convenience, speed, or optimiz
 
 ```
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -10,8 +10,9 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
----
+tags: ['kernel', 'provenance', 'note']
 
+---
 # K PROVENANCE TOPOLOGY
 
 > **AMOS Core target:** `v4.4`  
@@ -3512,3 +3513,7 @@ OR SOURCE COUNT.
 
 **Classification:** `AMOS_MODEL`. This is substantive replacement content for `02_KERNEL/K_PROVENANCE_TOPOLOGY.md`, preserving the v4.4 lineage around provenance topology, independence, Sybil hardening, persistent provenance, selective invalidation, MVCC/CAS concepts, atomic multi-RSCF reasoning, epoch finality, shard-local finalization, and proof-based coordination avoidance. Runtime implementation and validation remain `UNKNOWN/GAP` until supported by authoritative provenance and test evidence.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

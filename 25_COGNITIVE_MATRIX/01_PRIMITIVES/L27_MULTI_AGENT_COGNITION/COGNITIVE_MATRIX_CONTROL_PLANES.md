@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l27_multi_agent_cognition', 'note']
+---
+
 # L27_MULTI_AGENT_COGNITION — Control Planes
 
 **Class:** `COGNITIVE_PRIMITIVE_PLACEHOLDER`  
@@ -55,3 +59,7 @@ competing: []
 falsifiers: []
 confidence_ceiling: 0
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

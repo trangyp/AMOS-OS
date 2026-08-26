@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l05_binding', 'note']
+---
+
 # L05_BINDING — Variables
 
 **Class:** `COGNITIVE_PRIMITIVE_PLACEHOLDER`  
@@ -55,3 +59,7 @@ competing: []
 falsifiers: []
 confidence_ceiling: 0
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -2613,3 +2613,7 @@ The governing invariant is:
 
 This fills the former root placeholder using the AMOS Full Brain OS structural boundary and the v3.0→v4.4 AMOS_CORE lineage rather than treating repository structure as proof of implementation. :contentReference[oaicite:26]{index=26} :contentReference[oaicite:27]{index=27}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

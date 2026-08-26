@@ -1202,3 +1202,7 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 ## Linked Vault (symlink)
 
 `Cosmo_Brain` → `/Users/mac/Downloads/stitch_project_cosmo` — the live Obsidian brain vault, mounted read-through at `11_KNOWLEDGE/Cosmo_Brain`. Wikilinks inside resolve within the vault itself; navigate into the folder for the canonical canon notes (`md/7PT_*_CANON.md`), MOCs, and daily notes. Git-ignored (symlink, not content).
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

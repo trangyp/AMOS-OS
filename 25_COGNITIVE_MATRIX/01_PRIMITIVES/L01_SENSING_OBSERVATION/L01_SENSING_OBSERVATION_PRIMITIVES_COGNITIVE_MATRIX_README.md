@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l01_sensing_observation', 'readme']
+---
+
 Here is the full `L01_SENSING_OBSERVATION/README.md` content to paste. I’m keeping the README as the **integration/index contract** for the L01 primitive rather than duplicating every sibling file in full.
 
 ---
@@ -2649,3 +2653,7 @@ UNIVERSALLY TRUE
 
 ```
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l01_sensing_observation', 'note']
+---
+
 # L01_SENSING_OBSERVATION — Skills
 
 **Class:** `COGNITIVE_PRIMITIVE_SKILL_CONTRACT`
@@ -1194,3 +1198,7 @@ TEST_DEFINED != TEST_EXECUTED
 ```
 
 **Current conclusion:** `MODEL / CONDITIONAL`. The artifact is structurally complete for the declared reconstruction scope, but direct canonical L01 Skill definitions, executable bindings, runtime tests, and empirical validation remain genuine gaps.
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -10,8 +10,9 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
----
+tags: ['kernel', 'authority', 'note']
 
+---
 # K INFORMATION EXPOSURE
 
 > **AMOS Core target:** `v4.4`  
@@ -2872,3 +2873,7 @@ PROCEED.
 
 **Classification note:** this is substantive replacement content for `02_KERNEL/K_INFORMATION_EXPOSURE.md`, but its appropriate current conclusion class is **AMOS_MODEL**. It establishes a proposed kernel contract connecting information boundaries, effect classification, capability authorization, commit-time authority, risk, memory/knowledge provenance, tools, interfaces, observability, and recovery. It does **not** establish runtime implementation, canonical promotion, empirical validation, or formal verification; those remain `UNKNOWN/GAP` until supported by the corresponding provenance and test evidence.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

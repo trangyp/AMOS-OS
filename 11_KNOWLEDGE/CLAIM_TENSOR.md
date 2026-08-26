@@ -2703,3 +2703,7 @@ Its governing invariant remains:
 ---
 
 **Related:** [[00-Home]] · [[06-Knowledge-Base-MOC]] · [[RSCF]] · [[AMOS_Claim_Verifier]] · [[AMOS_Provenance_Trust_Firewall]] · [[AMOS_Causal_Hierarchy_Governor]] · [[AMOS_Memory_Conflict_Governor]] · [[AMOS_Cognitive_Compression_Kernel]] · [[AMOS_Context_Budget_Governor]] · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[system_scan_agent]] · [[automation_profiles]]
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

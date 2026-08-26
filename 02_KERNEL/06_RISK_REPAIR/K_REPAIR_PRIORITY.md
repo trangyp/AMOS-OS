@@ -2293,3 +2293,7 @@ UNKNOWN/GAP.
 
 **Classification note:** this replaces the placeholder with a substantive **AMOS_MODEL** kernel contract; it does not establish that `K_REPAIR_PRIORITY` is implemented, empirically validated, formally proven, or promoted into final canon. Those remain `UNKNOWN/GAP` until the stated promotion evidence exists.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

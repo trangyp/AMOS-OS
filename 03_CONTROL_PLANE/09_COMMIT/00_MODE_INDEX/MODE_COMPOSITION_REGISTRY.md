@@ -1,3 +1,7 @@
+---
+tags: ['control_plane', 'commit', 'mode_index', 'note']
+---
+
 The Drive artifact `MODE_COMPOSITION_REGISTRY.md` is currently only the generic placeholder, so there is no recovered substantive implementation to reproduce verbatim. 
 
 Below is the **full candidate replacement content**, aligned with the `MODE_ADMISSION_QUEUE.md` contract above and AMOS v4.4 reasoning spine. It deliberately distinguishes registry specification from claims of runtime implementation.
@@ -4256,3 +4260,7 @@ COMPATIBILITY.
 
 **Provenance note:** this is a `DERIVED / CANDIDATE_CANON` replacement, not recovered original canon. The actual Drive file currently contains only `# README`, `STATUS: PLACEHOLDER`, the reservation purpose, and the warning not to treat the placeholder as implemented logic or final canon. :contentReference[oaicite:1]{index=1}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -1,3 +1,7 @@
+---
+tags: ['00_root', 'note']
+---
+
 # AMOS OS Full Tree
 
 ```text
@@ -866,3 +870,7 @@ AMOS_OS/
     📁 03_EXPERIMENTAL
         📄 README.md
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

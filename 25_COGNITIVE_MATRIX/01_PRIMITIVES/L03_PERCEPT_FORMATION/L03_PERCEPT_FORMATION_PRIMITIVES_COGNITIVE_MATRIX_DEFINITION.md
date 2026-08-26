@@ -1462,3 +1462,7 @@ AUTHORITY TO COMMIT PERCEPT STATE
 
 The definition is therefore **complete for the placeholder-contract scope but remains `MODEL`**, with the direct canonical L03 definition and executable validation preserved as critical gaps.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

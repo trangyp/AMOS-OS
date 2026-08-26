@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'note']
+---
+
 Understood — the previous version compressed the status too aggressively. This should function as a **full structural-governance status artifact**, not a short progress note.
 
 ---
@@ -2548,3 +2552,7 @@ AMOS_COGNITIVE_MATRIX_STATUS:
 
 This is the level of depth I would use for the Matrix-wide status artifact: not just the count, but the **promotion model, manifest reconciliation contract, completion tensor, failure/repair model, tests, RSCF capsule, authority boundary, and explicit conditions required before the status can move beyond `PARTIAL_STRUCTURAL_SEED`**.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

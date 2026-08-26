@@ -1,3 +1,7 @@
+---
+tags: ['control_plane', 'policy', 'note']
+---
+
 Yes. Below is a **full paste-ready `POLICY_ENGINE.md`**, designed to sit directly above the `POLICY_DECISION.md` contract and integrate with `POLICY_REGISTRY.md`, `CAPABILITY_MANIFEST.md`, `CAPABILITY_CONTRACT.md`, and `CONTROL_PLANE_MAP.md`.
 
 ---
@@ -4516,3 +4520,7 @@ Integrity remains prior to completeness, fluency, speed, and optimization.
 
 ```
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -10,8 +10,9 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
----
+tags: ['kernel', 'provenance', 'note']
 
+---
 # K PROVENANCE
 
 > **AMOS Core target:** `v4.4`  
@@ -3022,3 +3023,7 @@ ARE IMPLEMENTED.
 
 **Classification:** `AMOS_MODEL`. This replaces the placeholder with a substantive kernel-level provenance contract while deliberately keeping implementation, empirical validation, and formal verification claims at `UNKNOWN/GAP` until supported through the canon/provenance/promotion process.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

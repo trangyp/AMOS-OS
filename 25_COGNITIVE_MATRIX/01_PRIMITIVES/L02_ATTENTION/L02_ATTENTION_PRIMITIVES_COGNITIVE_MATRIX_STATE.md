@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'note']
+---
+
 # L02_ATTENTION — State
 
 **Class:** `COGNITIVE_PRIMITIVE_PLACEHOLDER`
@@ -1497,3 +1501,7 @@ primary_gap: DIRECT_CANON_AND_RUNTIME_VALIDATION
 ```
 
 **Conclusion class: `MODEL`.** The contract is sufficiently specified to make `L02_ATTENTION` state structurally addressable, but it must remain distinct from canonical recovery, implementation, executed validation, and empirical proof.
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

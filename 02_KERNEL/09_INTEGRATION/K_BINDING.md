@@ -10,8 +10,9 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
----
+tags: ['kernel', 'integration', 'note']
 
+---
 # K BINDING
 
 > **AMOS Core target:** `v4.4`  
@@ -3156,3 +3157,7 @@ COMPLETENESS.
 
 **Classification:** `MODEL`. This replaces the empty placeholder with a substantive AMOS v4.4-aligned architectural specification, but it does not by itself promote `K_BINDING` to verified implementation or final canon. Runtime implementation, empirical validation, and formal verification remain `UNKNOWN/GAP` until supported by provenance-bearing evidence and the appropriate canon/supersession process.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

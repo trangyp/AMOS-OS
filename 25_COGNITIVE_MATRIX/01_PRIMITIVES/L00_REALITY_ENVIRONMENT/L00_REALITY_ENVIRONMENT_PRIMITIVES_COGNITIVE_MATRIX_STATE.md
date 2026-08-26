@@ -3439,3 +3439,7 @@ is the valid state.
 ---
 
 **Related:** [[L00_REALITY_ENVIRONMENT]] · [[L00_REALITY_ENVIRONMENT — Definition]] · [[L00_REALITY_ENVIRONMENT — Purpose]] · [[L00_REALITY_ENVIRONMENT — Operators]] · [[L00_REALITY_ENVIRONMENT — Invariants]] · [[L00_REALITY_ENVIRONMENT — Equations]] · [[L00_REALITY_ENVIRONMENT — HML]] · [[L00_REALITY_ENVIRONMENT — Dependencies]] · [[L00_REALITY_ENVIRONMENT — Control Planes]] · [[L00_REALITY_ENVIRONMENT — Protocols]] · [[L00_REALITY_ENVIRONMENT — Provenance]] · [[L00_REALITY_ENVIRONMENT — Failure Modes]] · [[L00_REALITY_ENVIRONMENT — Repair]] · [[L00_REALITY_ENVIRONMENT — RSCF]] · [[00-Home]] · [[06-Knowledge-Base-MOC]]
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

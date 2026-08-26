@@ -1,5 +1,4 @@
 ---
-
 title: "L00_REALITY_ENVIRONMENT — Dependencies"
 aliases:
 
@@ -33,9 +32,9 @@ aliases:
 * rscf/T-topology
 * rscf/X-cross-scale
 * rscf/type-system
+tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
 
 ---
-
 # L00_REALITY_ENVIRONMENT — Dependencies
 
 **Class:** `AMOS_REALITY_ENVIRONMENT_DEPENDENCY_ARCHITECTURE`
@@ -3196,3 +3195,7 @@ The purpose of `L00_REALITY_ENVIRONMENT / DEPENDENCIES` is to ensure that every 
 ---
 
 **Related:** [[00-Home]] · [[06-Knowledge-Base-MOC]] · [[L00_REALITY_ENVIRONMENT — Definition]] · [[L00_REALITY_ENVIRONMENT — Control Planes]] · [[AMOS_Typed_Tensor_Contracts]] · [[AMOS_Evidence_Tensor_Architecture]] · [[AMOS_Claim_Tensor_Architecture]] · [[AMOS_Relation_Tensor_Architecture]] · [[AMOS_Provenance_Topology]] · [[AMOS_Context_State_Maintenance]] · [[AMOS_Constraint_Propagation]] · [[AMOS_Information_Boundary_Governor]] · [[AMOS_Execution_Provenance_Replay]] · [[AMOS_Infrastructure_Control_Plane]] · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[system_scan_agent]] · [[automation_profiles]]
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

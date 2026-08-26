@@ -10,8 +10,9 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
----
+tags: ['kernel', 'integration', 'note']
 
+---
 # K CONSTRAINT PROPAGATION
 
 > **AMOS Core target:** `v4.4`  
@@ -2877,3 +2878,7 @@ AND OPTIMIZATION.
 
 **Classification:** `MODEL`. This supplies substantive content for the reserved `K_CONSTRAINT_PROPAGATION` location while preserving the placeholder's epistemic restriction: it is not evidence of implemented runtime logic, empirical validation, formal verification, or final canon. Promotion requires the AMOS canon/provenance/conflict/supersession process.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l01_sensing_observation', 'note']
+---
+
 Below is the full paste-ready `L01_SENSING_OBSERVATION/INVARIANTS.md`. I keep the L01-specific invariant set at `AMOS_MODEL / CONDITIONAL` rather than presenting reconstructed rules as direct canon.
 
 ---
@@ -2713,3 +2717,7 @@ UNIVERSALLY VALID
 
 ```
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

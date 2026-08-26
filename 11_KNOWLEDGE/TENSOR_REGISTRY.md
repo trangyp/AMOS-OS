@@ -19,3 +19,7 @@ tags: [tensor]
 
 ---
 **Related:** [[00-Home]] · [[06-Knowledge-Base-MOC]] · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[system_scan_agent]] · [[automation_profiles]]
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

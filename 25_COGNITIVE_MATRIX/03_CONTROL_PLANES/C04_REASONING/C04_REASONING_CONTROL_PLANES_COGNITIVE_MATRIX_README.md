@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'control_planes', 'c04_reasoning', 'readme']
+---
+
 # C04_REASONING — Readme
 
 **Class:** `MATRIX_CONTROL_PLANE_PLACEHOLDER`  
@@ -55,3 +59,7 @@ competing: []
 falsifiers: []
 confidence_ceiling: 0
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -8,8 +8,9 @@ version: "MAX_DETAIL_v1"
 date: "2026-08-25"
 language: "vi"
 status: "SOURCE_PRESERVED__AMOS_MODEL_OVERLAY__EMPIRICAL_FIREWALL_ACTIVE"
----
+tags: ['knowledge', 'note']
 
+---
 # 0. Tuyên bố phạm vi và ranh giới bằng chứng
 
 Tài liệu này là bản **MAX DETAIL** của corpus “Toàn cảnh EV Việt Nam”, được tái cấu trúc thành một kiến trúc AMOS có thể nghiên cứu, kiểm chứng, vận hành và cập nhật.
@@ -3628,3 +3629,7 @@ hạ tầng và dữ liệu.
 ---
 **Related:** [[00-Home]] · [[06-Knowledge-Base-MOC]] · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[system_scan_agent]] · [[automation_profiles]]
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

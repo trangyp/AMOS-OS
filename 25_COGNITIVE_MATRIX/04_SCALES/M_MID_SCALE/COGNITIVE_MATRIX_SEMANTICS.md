@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'scales', 'm_mid_scale', 'note']
+---
+
 # M_MID_SCALE — Semantics
 
 **Class:** `HML_SCALE_PLACEHOLDER`  
@@ -55,3 +59,7 @@ competing: []
 falsifiers: []
 confidence_ceiling: 0
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

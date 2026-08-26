@@ -2531,3 +2531,7 @@ VALIDITY.
 
 ```text
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

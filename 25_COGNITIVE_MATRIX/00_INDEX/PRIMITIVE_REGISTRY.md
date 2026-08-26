@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'index', 'note']
+---
+
 # Primitive Registry
 
 - `L00` — REALITY_ENVIRONMENT — source maturity `missing`
@@ -30,3 +34,7 @@
 - `L27` — MULTI_AGENT_COGNITION — source maturity `partial`
 - `L28` — GOVERNANCE — source maturity `existing`
 - `L29` — EVOLUTION — source maturity `existing`
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'coverage', 'audit']
+---
+
 # 07_COVERAGE — Coverage Audit
 
 **Class:** `MATRIX_INFRASTRUCTURE_PLACEHOLDER`  
@@ -55,3 +59,7 @@ competing: []
 falsifiers: []
 confidence_ceiling: 0
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

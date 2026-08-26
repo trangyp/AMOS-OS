@@ -2501,3 +2501,7 @@ PROVENANCE.
 
 **Classification note:** this is substantive replacement content for the placeholder at `02_KERNEL/K_RISK_CONSTRAINT.md`, classified as **AMOS_MODEL**. It defines the proposed kernel contract but does **not** establish implementation, runtime enforcement, empirical validation, formal proof, or final-canon promotion. Those remain `UNKNOWN/GAP` pending provenance, conflict resolution, implementation evidence, tests, and explicit promotion.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

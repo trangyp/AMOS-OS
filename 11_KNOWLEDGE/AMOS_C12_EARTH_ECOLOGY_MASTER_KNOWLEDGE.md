@@ -24,8 +24,9 @@ source_family_mapping:
   - "F08_monitoring_and_data"
   - "F09_infrastructure_and_design"
   - "F10_meta_ecology_governance"
----
+tags: ['knowledge', 'note']
 
+---
 # AMOS C12 — Earth & Ecology Master Knowledge
 
 > **Epistemic boundary**
@@ -1742,3 +1743,7 @@ silently flattening their differences.
 
 The architecture should remain open and repairable:
 **integrity > completeness > fluency > speed**.
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

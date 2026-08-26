@@ -3251,3 +3251,7 @@ READ_ONLY_BY_DEFAULT
 
 This keeps the audit layer separate from routing authority and preserves the Full Brain OS rule that only materially relevant branches should be routed, while missing implementation, provenance, or validation evidence stays explicit as `UNKNOWN/GAP`. :contentReference[oaicite:0]{index=0}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

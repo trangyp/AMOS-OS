@@ -1925,3 +1925,7 @@ IMPLEMENTED != VALIDATED
 
 The decisive unresolved gap remains **who canonically owns L02 attention-state commit**: L02 itself, the higher AMOS infrastructure control plane, or a hybrid hierarchy. Until direct canon resolves that, the correct class is `MODEL / COMPETING`, not `VERIFIED`.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

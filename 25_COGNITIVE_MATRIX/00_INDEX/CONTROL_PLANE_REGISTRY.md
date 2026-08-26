@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'index', 'note']
+---
+
 # Control Plane Registry
 
 - `C01` — GOVERNANCE — source coverage `existing`
@@ -9,3 +13,7 @@
 - `C07` — PERCEPTION — source coverage `missing`
 - `C08` — EXECUTION — source coverage `existing`
 - `C09` — KERNEL_CONTROL — source coverage `existing`
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

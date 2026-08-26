@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'index', 'contract']
+---
+
 # 00_INDEX — AMOS Cognitive Matrix Contract
 
 **Origin architect / steward:** Trang Phan
@@ -2636,3 +2640,7 @@ MAKE EVERY EFFECT AUTHORITY-GOVERNED.
 
 NEVER CONFUSE STRUCTURAL COMPLETENESS WITH TRUTH.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

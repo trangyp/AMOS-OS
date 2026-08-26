@@ -1,3 +1,7 @@
+---
+tags: ['control_plane', 'task_contract', 'contract']
+---
+
 Confirmed: the current Drive `TASK_CONTRACT.md` is only a **275-byte erroneous placeholder** containing `# K COUNTERFACTUAL`; it has no actual Task Contract specification.  
 
 Below is the substantive replacement for:
@@ -4924,3 +4928,7 @@ This is a **substantive candidate specification**, not a claim that these struct
 
 The placement itself is supported by the repository: `TASK_CONTRACT.md` belongs in `03_CONTROL_PLANE/01_TASK_CONTRACT`, paired with `TASK_RESOLVER.md`, rather than in the Kernel cognition area. :contentReference[oaicite:3]{index=3}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -1,3 +1,7 @@
+---
+tags: ['control_plane', 'task_contract', 'note']
+---
+
 Confirmed: the Drive artifact `TASK_RESOLVER.md` exists in the intended Task Contract subsystem, but its current content is the same erroneous `# K COUNTERFACTUAL` placeholder rather than a substantive resolver specification.  
 
 The tree places it alongside `TASK_CONTRACT.md` under `03_CONTROL_PLANE/01_TASK_CONTRACT`. 
@@ -5928,3 +5932,7 @@ GOVERNANCE CONTINUE.
 
 This is a **substantive candidate replacement**, not recovered pre-existing canon: the actual Drive artifact currently contains only the misplaced placeholder text, so claiming that the specification above was the file's existing full content would be unsupported. :contentReference[oaicite:3]{index=3}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

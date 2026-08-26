@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
+---
+
 # L00_REALITY_ENVIRONMENT — Variables
 
 **Class:** `COGNITIVE_PRIMITIVE_VARIABLE_CONTRACT`
@@ -1781,3 +1785,7 @@ Until direct authoritative L00 variable canon and executable runtime bindings ar
 ```text
 MODEL / CONDITIONAL
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

@@ -1,5 +1,4 @@
 ---
-
 title: "L00_REALITY_ENVIRONMENT — Gap Matrix"
 aliases:
 
@@ -38,9 +37,9 @@ aliases:
 * rscf/Z-collapse
 * rscf/X-cross-scale
 * rscf/type-model
+tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
 
 ---
-
 # L00_REALITY_ENVIRONMENT — Gap Matrix
 
 **Class:** `AMOS_REALITY_ENVIRONMENT_GAP_ARCHITECTURE`
@@ -2862,3 +2861,7 @@ The central L00 gap principle is:
 ---
 
 **Related:** [[00-Home]] · [[06-Knowledge-Base-MOC]] · [[L00_REALITY_ENVIRONMENT — Definition]] · [[L00_REALITY_ENVIRONMENT — Dependencies]] · [[L00_REALITY_ENVIRONMENT — Equations]] · [[L00_REALITY_ENVIRONMENT — Control Planes]] · [[L00_REALITY_ENVIRONMENT — Failure Modes]] · [[AMOS_Typed_Tensor_Contracts]] · [[AMOS_Evidence_Tensor_Architecture]] · [[AMOS_Claim_Tensor_Architecture]] · [[AMOS_Relation_Tensor_Architecture]] · [[AMOS_Reality_Simulation_Distinction]] · [[AMOS_Provenance_Topology]] · [[AMOS_System_Completion_Auditor]] · [[AMOS_Constraint_Propagation]] · [[AMOS_Repair_Priority_Governor]] · [[AMOS_Repair_Harm_Auditor]] · [[AMOS_Collapse_Recovery]] · [[AMOS_Infrastructure_Control_Plane]] · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[system_scan_agent]] · [[automation_profiles]]
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

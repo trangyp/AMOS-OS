@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'generators', 'note']
+---
+
 The Drive search did **not recover an authoritative AMOS artifact named `12 Generators Versioning`**; it returned unrelated generator/version materials and architecture-generator files instead.   So the replacement below is intentionally classified **`DERIVED / CANDIDATE_CANON`**, not recovered canon.
 
 ````markdown
@@ -5412,3 +5416,7 @@ VERSION CERTAINTY.
 
 **Status remains `CANDIDATE_CANON / DERIVED`** until the relevant AMOS canon, provenance, authority, and supersession gates promote it.
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

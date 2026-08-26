@@ -1,3 +1,7 @@
+---
+tags: ['cognitive_matrix', 'validation', 'note']
+---
+
 Below is the **full replacement content** for `11_VALIDATION/VALIDATION_LEVELS.md`. It is aligned with the AMOS Full Brain OS distinction between cognition, runtime epistemics, authority/control, and deployment; with RSCF claim typing and provenance; and with the rule that structural coverage or successful execution does not itself establish empirical validity. 
 
 ---
@@ -5048,3 +5052,7 @@ ACTUALLY SUPPORTS.
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. The distinction between epistemic state, validation, authority, and deployment is source-aligned; the exact `V0–V12` taxonomy above is a derived architecture proposal and should remain conditional until a canonical AMOS artifact explicitly defines or supersedes the validation-level enumeration. :contentReference[oaicite:1]{index=1}
 ```
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
