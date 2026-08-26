@@ -478,6 +478,15 @@ A worker may know how to perform an operation without being authorized to commit
 
 ---
 
+
+### Key control-plane maps
+
+- [[CONTROL_PLANE_MAP]]
+- [[INDEX_CONTROL_PLANE_README]]
+- [[TASK_CONTRACT_MAP]]
+- [[CAPABILITY_MAP]]
+- [[POLICY_MAP]]
+- [[CONTROL_PLANE_AUTHORITY_MAP]]
 # 6. Runtime
 
 ## `04_RUNTIME`
@@ -508,6 +517,12 @@ Live Runtime
 
 ---
 
+
+### Key runtime maps
+
+- [[RUNTIME_MAP]]
+- [[INDEX_RUNTIME_README]]
+- [[RUNTIME_RUNTIME_CONTRACT]]
 # 7. Cognitive Organism
 
 ## `05_COGNITIVE_ORGANISM`
