@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0908.0028v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0908.0028v1_Analyzing_Problem_Solving_Using_Math_in_Physics__Epistemological_Framing_via_War
 
 > Source: 0908.0028v1_Analyzing_Problem_Solving_Using_Math_in_Physics__Epistemological_Framing_via_War.pdf

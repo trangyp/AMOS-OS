@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
-arxiv_id: 0906.2955
-source: arxiv
-rscf-state: source-claim
 canon-group: reference
-
+rscf-state: source-claim
+arxiv_id: 906.2955
+source: arxiv
+tags: [arxiv, knowledge, math, quantum, reference]
+---
 # 0906.2955_Dark_Energy_Survey_Supernovae__Simulations_and_Survey_Strategy
 
 > Source: 0906.2955_Dark_Energy_Survey_Supernovae__Simulations_and_Survey_Strategy.pdf

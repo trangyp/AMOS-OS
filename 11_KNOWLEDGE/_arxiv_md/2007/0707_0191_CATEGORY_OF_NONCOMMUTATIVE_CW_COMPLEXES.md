@@ -1,11 +1,10 @@
 ---
 canon-group: reference
 rscf-state: source-claim
-arxiv_id: 0707.0191
+arxiv_id: 707.0191
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, math, reference]
 ---
-
 # 0707.0191_Category_of_Noncommutative_CW_Complexes
 
 > Source: 0707.0191_Category_of_Noncommutative_CW_Complexes.pdf

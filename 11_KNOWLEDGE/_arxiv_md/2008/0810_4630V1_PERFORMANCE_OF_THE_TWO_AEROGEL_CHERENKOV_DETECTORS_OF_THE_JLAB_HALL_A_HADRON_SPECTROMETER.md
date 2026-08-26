@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0810.4630v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0810.4630v1_Performance of the Two Aerogel Cherenkov Detectors of the JLab Hall A Hadron Spectrometer
 
 > Source: 0810.4630v1_Performance of the Two Aerogel Cherenkov Detectors of the JLab Hall A Hadron Spectrometer.pdf

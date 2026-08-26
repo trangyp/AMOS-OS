@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1008.2327v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 1008.2327v1_Density_functional_theory_for_strongly-interacting_electrons__Perspectives_for_P
 
 > Source: 1008.2327v1_Density_functional_theory_for_strongly-interacting_electrons__Perspectives_for_P.pdf

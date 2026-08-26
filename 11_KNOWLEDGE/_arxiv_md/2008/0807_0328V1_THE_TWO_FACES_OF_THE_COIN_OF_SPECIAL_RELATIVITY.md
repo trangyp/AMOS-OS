@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0807.0328v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, quantum, reference]
+---
 # 0807.0328v1_The_two_faces_of_the_coin_of_Special_Relativity
 
 > Source: 0807.0328v1_The_two_faces_of_the_coin_of_Special_Relativity.pdf

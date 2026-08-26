@@ -3,9 +3,8 @@ canon-group: reference
 rscf-state: source-claim
 arxiv_id: 0709.0418v1
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, reference, unclassified]
 ---
-
 # 0709.0418v1_Role_of_electrostatic_interactions_in_the_assembly_of_empty_spherical_viral_caps
 
 > Source: 0709.0418v1_Role_of_electrostatic_interactions_in_the_assembly_of_empty_spherical_viral_caps.pdf

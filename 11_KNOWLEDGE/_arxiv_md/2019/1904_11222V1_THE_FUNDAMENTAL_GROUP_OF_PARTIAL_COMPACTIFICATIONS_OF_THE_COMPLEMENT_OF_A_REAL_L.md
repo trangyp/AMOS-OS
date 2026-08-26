@@ -1,0 +1,1302 @@
+---
+canon-group: reference
+rscf-state: source-claim
+arxiv_id: 1904.11222v1
+source: arxiv
+tags: [arxiv, knowledge, math, reference]
+---
+# 1904.11222v1_The_fundamental_group_of_partial_compactifications_of_the_complement_of_a_real_l
+
+> Source: 1904.11222v1_The_fundamental_group_of_partial_compactifications_of_the_complement_of_a_real_l.pdf
+
+> Pages: 21
+
+---
+
+
+## Page 1
+
+
+arXiv:1904.11222v1  [math.AG]  25 Apr 2019
+The fundamental group of partial
+compactiﬁcations of the complement of a real line
+arrangement
+Rodolfo Aguilar Aguilar∗
+Abstract
+Let A be a real projective line arrangement and M(A ) its complement
+in CP2. We obtain an explicit expression in terms of Randell’s generators
+of the meridians around the exceptional divisors in the blow-up ¯
+X of
+CP2 in the singular points of A . We use this to investigate the partial
+compactiﬁcations of M(A ) contained in ¯
+X and give a counterexample to
+a statement suggested by A. Dimca and P. Eyssidieux to the eﬀect that
+the fundamental group of such an algebraic variety is ﬁnite whenever its
+abelianization is.
+1
+Introduction
+The study of the fundamental group of smooth algebraic varieties is a classical
+problem in complex geometry. One of the most studied case is the complement of
+an arrangement of lines A in P2. Several methods have been used for computing
+this group, for example: [CS97], [Sal87], [Ran85] .
+Consider a real arrangement of lines A = {L1, . . . , Ln} in P2 and denote
+by ¯X the blow up at Sing A = {p1, . . . , ps}, the set of multiple points of the
+arrangement . Denote by Di the strict transform of the lines in A and by Dj
+the exceptional divisors. Let D = Pn+s
+l=1 rlDl be a divisor in ¯X with rl ∈N∗or
+equal to inﬁnity. Denote by r = (r1, . . . , rs). To this datum we can associate
+the orbifold fundamental group π1(X(X, D, r)) (see e.g. [Eys17]).
+Theorem 1.1 (Thm 4.5). There is a presentation of π1(X( ¯
+X, D, r)) obtained
+by adding to Randell’s presentation relations that are powers of explicit words
+in Randell’s generators.
+The explicit algorithm to produce these words follows from a modiﬁcation of
+Randell’s method and is given in section 3.3. The special case with rl = 1, ∞can
+be seen as a quasi-projective surface X where the divisors with coeﬃcients equal
+to inﬁnity are removed from ¯X. This is, X is a partial compactiﬁcation of ¯X \D
+∗Partially supported by ERC ALKAGE and ANR project Hodgefun.
+1
+
+
+## Page 2
+
+
+by those Di with coeﬃcient ai = 1 (Linear Arrangement Compactiﬁcations or
+LAC surfaces in what follows). LAC surfaces are our main object of study in
+Section 4 and 5. We show in Section 4 that it suﬃces to give weight one only to
+exceptional divisors in order to obtain diﬀerent groups others than those who
+can be obtained from an arrangement of less lines.
+We can ask if the following condition is satisﬁed by X a quasi-projective
+variety
+• If #π1(X) = +∞, there is a representation ρ : π1(X) →GLN(C) with
+N ∈N∗, such that #ρ(π1(X)) = +∞. (See ([Eys18]) for motivation and
+related questions for Khler groups).
+No counterexample seems to be known. We give a negative answer in the case
+N = 1 with X a LAC surface in Theorem 5.1.
+Theorem 1.2 (Thm 5.1). There exists a real arrangement of 6 lines B (the
+complete quadrilateral) and a partial compactiﬁcation X of ¯X \ D such that
+#π1(X) = +∞and #H1(X) = 4.
+To prove Theorem 1.2 we use Theorem 1.1 and obtain π1(X) = Z/2Z∗Z/2Z
+which can be faithfully embedded in GL2(C) hence satisﬁs the above condition
+with N = 2. This group can be seen to be induced by a regular map f from X
+to P1 minus three points, coming from a pencil of conics and having two double
+ﬁbers, in fact f∗: π1(X) →π1(X(P2, D, (2, +∞, 2)) where D = (1 : 0) + (1 :
+−1) + (0 : 1), is an isomorphism.
+At the end of section 5 we give, as another application of Theorem 1.1, a
+presentation of some weighted LAC surfaces which are among the quotients of
+the ball by a uniform lattice in PU(2, 1) considered in [DM86]. This method
+for obtaining the presentation was not found by the author in the literature.
+2
+Preliminaries
+We review the deﬁnitions and some properties of meridians and orbifolds. For
+the latter we follow [Eys17].
+2.1
+Meridians
+Let M be a connected complex manifold, H ⊂M a hypersurface, D an irre-
+ducible component of H and q ∈M \ H. Denote by U = {z ∈C | |z| < 2} and
+let f : U →M be a holomorphic function such that:
+1. f −1(H) = {0},
+2. f(0) = p is an smooth point of H and p ∈D,
+3. f ′(0) ̸∈TpH where TpH is the tangent space of H at p.
+2
+
+
+## Page 3
+
+
+Then f |S1: S1 →M \ H deﬁnes a free-homotopy class independent of f where
+S1 ⊂U is the unit circle. A loop γ ∈π1(M \ H, q) freely homotopic to f|S1 is
+called a meridian of D around p.
+If D is smooth, any other meridian of D around a smooth point of H is a
+conjugate of γ. Denoting by H′ = H \D, we have that the inclusion i : M \H ֒→
+M \H′ induces a morphism i∗: π1(M \H, q) →π1(M \H′, q) whose kernel is the
+normal subgroup of π1(M \ H, q) generated by γ. By Van Kampen’s theorem
+the normal subgroup generated by the set of meridians around each irreducible
+component of H is the kernel of the map π1(M \ H, q) →π1(M, q) induced by
+the natural inclusion.
+Suppose H = D is smooth and let γD be a meridian. Denote by π : ¯
+M →M
+the blow up of M at some p ∈D and let Ep be the exceptional divisor. Then
+π−1(γD) is a meridian of Ep in ¯
+M.
+2.2
+Orbifolds
+Let M be a complex manifold and D a smooth eﬀective divisor. Let r ∈N∗
+and consider P →M the principal C∗-bundle attached to OM(−D). The tau-
+tological section σD ∈H0(M, OM(D)) can be lifted to a holomorphic function
+fD : P →C satisfying fD(p · λ) = λfD(p). Let Y ⊂P × C be the complex
+analytic space deﬁned by the equation zr = fD(p) where z is a coordinate for
+C. Since D is smooth Y is smooth too. The action of C∗can be extended to Y
+in the following way: (p, z) · λ = (p · λr, λz). Then the complex analytic stack
+M(
+r√
+D) := [YD/C∗]
+is an orbifold. The non-trivial isotropy groups lie over the points in D and are
+isomorphic to the group µr of r-roots of unity.
+We allow also the weight +∞by considering the manifold M \D as an stack
+[M \ D] and write
+M(
++∞√
+D) := [M \ D].
+Let ¯X be a complex manifold and D = Pl
+i=1 Di be a simple normal crossing
+divisor, where Di is an irreducible component of D. For any choice of weights
+r := (r1, . . . , rl) ∈(N∗∪{+∞})l we can deﬁne the orbifold
+X( ¯X, D, r) := ¯X(
+r1p
+D1) × ¯
+X · · · × ¯
+X ¯X(
+rlp
+Dl)
+Denoting by X = ¯X \ D, we can view X( ¯
+X, D, r) as an orbifold (partial if
+some ri = +∞) compactiﬁcation of X. Let jr : X ֒→X( ¯
+X, D, r) denote the
+natural open immersion.
+By ﬁxing q ∈X, it turns out that we can deﬁne
+π1(X( ¯
+X, D, r), q) and moreover it is the quotient of π1(X, q) by the normal
+subgroup generated by all γri
+i , where γi is a meridian around Di and ri ̸= +∞.
+We obtain that jr∗: π1(X, q) →π1(X( ¯
+X, D, r), q) is surjective. As a particular
+case we have that if r = (1, . . . , 1) then X( ¯
+X, D, r) = ¯X.
+Let D∞:= P Dj the sum of all irreducible component of D such that
+rj = +∞.
+We can regard X( ¯X, D, r) as X( ¯X \ D∞, D −D∞, r′) where r′
+3
+
+
+## Page 4
+
+
+consists of the same ﬁnite values that r. In particular, if r′
+i = 1 for all i we have
+that X( ¯X, D, r) = [ ¯X \ D∞] and we write simply ¯X \ D∞.
+Deﬁnition 2.1. Let X be a smooth algebraic variety, Y a projective curve,
+D = Pl
+i=1 yi a divisor on Y and r ∈(N∗)l. Consider the orbifold X(Y, D, r).
+A dominant algebraic morphism f : X →Y is said to be an orbifold morphism
+if for all yi ∈D the multiplicity of the ﬁber f ∗(yi) is divisible by ri.
+3
+Fundamental group
+3.1
+Modiﬁcation of the method of Randell
+3.1.1
+Elementary geometric bases
+Consider n real points {x1, x2, . . . , xn} ⊂R ⊂C such that x1 < x2 < . . . < xn.
+Fix q ∈R\{x1, . . . , xn}. Any oriented simple closed curve C ⊂C\{x1, . . . , xn}
+is freely homotopic to a loop based at q. Moreover, if it contains at least one
+xi in the bounded component that C determines, there exists a simple path θ
+connecting q and C satisfying:
+ℑ(θ(t)) < 0 for t ∈(0, 1).
+If C ∩{ℑ(z) < 0} is connected we call Cq := θ ·C ·θ−1 an elementary loop. Here
+ℑdenotes the imaginary part of a complex number. (We suppose the curve
+starts at a point with ℑ(z) ≤0).
+Remark 1. We have made all the choices in order to have Cq unique in π1(C\
+{x1, . . . , xn}, q).
+qx2
+x1
+C
+•
+•
+•
+Figure 1: Elementary loop Cq.
+Deﬁnition 3.1. An (ordered) geometric base Γ = (γ1, . . . , γn) for the group
+π1(C \ {x1, . . . , xn}, q) is an n-tuple such that γi is a meridian of xi based at q
+and satisfying:
+γn · γn−1 · · · γ1 = ∂B(0, M)q
+in π1(C\{x1, . . . , xn}, q), with M > |xi| for all i = 1, . . . , n. The curve ∂B(0, M)
+is a circle centered at 0 with radius M and oriented counterclockwise. We con-
+sider the product of loops from left to right.
+Remark 2. The loop ∂B(0, M)q can be seen as the inverse of a meridian loop
+around the point at inﬁnity.
+4
+
+
+## Page 5
+
+
+By abuse of notation we will write Γ ⊂C.
+Deﬁnition 3.2. An elementary geometric base Γ = (γ1, . . . , γn) is a geometric
+base such that every γi is an elementary loop.
+q
+x1
+x2
+γ1
+γ2
+•
+•
+•
+Figure 2: An elementary geometric base.
+Lemma 3.1. Given n real points and a base point as above, there is a unique
+elementary geometric base Γ.
+Proof. Is immediate by the ordering of Γ and the uniqueness of the elementary
+loops.
+Remark 3. The notion of geometric base for π1((L ⊗C) \ P; q) depends only
+on the real oriented line L and P = {x1, . . . , xn} ∈L(R), q ∈L(R).
+3.1.2
+Randell’s pencil
+Deﬁnition 3.3. A complex arrangement of lines is an algebraic set A ⊂P2
+whose irreducible components are complex lines. The arrangement A is said
+to be real or to be deﬁned over the reals if the coeﬃcients of all linear forms
+deﬁning each line can be taken to be real.
+Denote by M(A ) := P2 \ A . We are going to review and adapt a method
+to compute a presentation for π1(M(A )) when A is real as in [Ran85].
+Associate to each (projective) arrangement A an aﬃne one, deﬁned as fo-
+llows: ﬁx a line L∞∈A and consider it as a line at inﬁnity, then
+A aﬀ:= A ∩(P2 \ L∞) ∼= A ∩C2,
+where we have chosen an isomorphism h : C2 →P2 \ L∞.
+If we denote
+M(A aﬀ) := C2 \ A aﬀ, we have the identiﬁcation:
+M(A ) = M(A aﬀ).
+Fixing q ∈M(A aﬀ) and denoting also by q = h(q), we have:
+π1(M(A ), q) ∼= π1(M(A aﬀ), q).
+Moreover if the arrangement A is real, we can associate it a planar graph
+(allowing rays) in R2. Suppose A aﬀis the associated aﬃne arrangement, then
+all multiple points lie in a real plane. Namely, if we consider C2 with coordinates
+(z, w) = (x1 + iy1, x2 + iy2), the real plane is given by {(z, w) ∈C | y1 = y2 =
+5
+
+
+## Page 6
+
+
+0} ∼= R2. Set A (R) := A aﬀ∩R2 to be the set of real points of the arrangement
+A aﬀ, denote by M(A (R)) := R2 \ A (R). Suppose there is no vertical line in
+A (R). Denote by Sing A • the multiple points of the corresponding arrangement
+A • = A , A aﬀ, A (R).
+Consider R2 with coordinates (x1, x2). We orient the non vertical lines in
+R2 taking the positive direction to be that of decreasing x1.
+Fix a base point q = (q1, q2) in the lower right part of M(A (R)) further
+and lower than any point in Sing A (R) and lower than any line. For a complex
+line Σ ⊂C2 deﬁned by an equation with real coeﬃcients, denote by Σ(R) its
+restriction to R2 and orient it as before if it is non-vertical. Set Σ(0) := {(z, w) |
+z = q1}, note that Σ(0)(R) is the vertical line passing through q, we orient it by
+taking as positive direction that of increasing x2. For any triple P ⊂Σ(R) ⊂Σ,
+where P is a ﬁnite set of points, Σ(R) a real oriented line and Σ a complex line
+as before, we can consider an elementary geometric base Γ ⊂Σ of π1(Σ \ P, q)
+by ﬁxing q ∈Σ(R).
+As Σ(0)(R) intersects all the lines of A (R), we can number P = Σ(0)(R) ∩
+A (R) from bottom to top (given by the orientation chosen for Σ(0)(R)) and
+denote Γ(0) = {γ(0)
+1 , . . . , γ(0)
+n } ⊂Σ(0) the associated elementary geometric base
+with base point q.
+The idea to obtain a presentation for the fundamental group is to study how
+the elementary geometric base change when we rotate the line Σ(0) counter-
+clockwise while ﬁxing the base point q and keep track of the relations arising.
+q
+p1
+p2
+p3
+p4
+3
+2
+1
+4
+Σ(0)
+Σ(1)
+Σ(2)
+Σ(3)
+·
+·
+·
+·
+Figure 3: Base point
+The set of lines passing through q, can be seen as RP1, which we parametrised
+by the angle with respect to the line x2 = 0 (oriented in the positive sense),
+this is, a value in [π/2, 3π/2[. To every real line Σ(R) passing through q we can
+associate its angle, which we denote by:
+θ(Σ(R)) ∈[π/2, 3π/2[.
+For t ∈[π/2, 3π/2[, the line being parametrised by t will be denoted by Σt.
+In particular, θ(Σ(0)) = π/2. The elementary geometric base Γ(0) varies in
+a continuous way as we vary t. There exists two types of directions where it
+changes:
+6
+
+
+## Page 7
+
+
+S.1 Those t ∈[π/2, 3π/2[ such that the associated Σt contains a point in
+Sing A (R),
+S.2 Those t ∈[π/2, 3π/2[ such that Σt is parallel to a line in A (R), which
+correspond to the points in Sing A ∩L∞.
+By a slight change of q, we can consider that no line passing through it
+contains two points of Sing A . Given p ∈Sing A , denote by θ(p) the angle of
+the unique line passing through p and q. Given p, p′ ∈Sing A , we deﬁne a total
+order by
+p < p′
+iﬀ
+θ(p) < θ(p′).
+Let us write Sing A = {p1, . . . , ps} with this order.
+3.1.3
+Elementary geometric transition of regular ﬁbers in Randell’s
+pencil
+Fix a point pi ∈Sing A . Denote by ti = θ(pi). Choose ε > 0 suﬃciently small
+such that no t ∈[ti −ε, ti + ε] \ {ti} is of type S.1 or S.2. Let:
+Σ(i−1) := Σti−ε,
+Σ(i) := Σti+ε.
+This is, Σ(i−1) lies to the right and Σ(i) to the left of pi. Recall that Σ(i−1)(R)
+is an oriented real line and by intersecting with A (R) we can consider the
+elementary geometric base:
+Γ(i−1) = (γ(i−1)
+1
+, γ(i−1)
+2
+, . . . , γ(i−1)
+n
+) ⊂Σ(i−1),
+similarly
+Γ(i) = (γ(i)
+1 , γ(i)
+2 , . . . , γ(i)
+n ) ⊂Σ(i).
+A priori, we should take such geometric bases for every point pi but as there
+is no direction between ti and ti+1 in which the geometric base changes, by
+continuity we will still write Γ((i+1)−1) = Γ(i).
+Remark 4. In fact, only the points of type S.1 play a role in the presentation
+of π1(M(A )). The points of type S.2 does not modify the meridians who are
+about to cross a point in Sing A (R), they only change their numeration in the
+geometric base. These points are studied in section 3.2 and they are needed for
+the explicit form of the exceptional meridians given in Section 3.3.
+As a simple example illustrating how Γ(i−1) and Γ(i) are related, we have
+the following Lemma, which can be found in [OT92] Lemma 5.73 (with other
+notation). Let A aﬀ= {L1, L2} be a pencil of two lines in C2 deﬁned over R
+and xi = Σ(0)(R) ∩Li(R) for i = 1, 2 as in 3.1.2.
+Lemma 3.2. Consider Γ(0) = (γ(0)
+1 , γ(0)
+2 ) ⊂Σ(0) the elementary geometric base
+associated to P = {x1, x2} and suppose q < x1 < x2. Then Γ(1) = (γ(1)
+1 , γ(1)
+2 )
+can be represented in Σ(0) and is given by Γ(1) = (γ(0)
+1
+−1
+γ(0)
+2 γ(0)
+1 , γ(0)
+1 ). (See
+Figure 4).
+7
+
+
+## Page 8
+
+
+γ(0)
+1
+q
+x1
+x2
+γ(0)
+2
+γ(1)
+1
+•
+•
+•
+Figure 4: Loop passing
+We can interpret this Lemma as a loop passing a vertex and having a con-
+jugation and a reordering of the lines as in Figure 5.
+The next example should be a pencil of n lines, but in fact this is locally
+the general case as we will see in the following proposition. Let pi ∈Sing A (R),
+Γ(i−1) and Γ(i) as before.
+Proposition 3.3. Let j be the ﬁrst index for which the meridian γ(i−1)
+j
+su-
+rrounds a line which passes through pi and let k be the last such index. Then
+we have:
+Γ(i) = (γ(i−1)
+1
+, . . . , γ(i−1)
+j−1 , γ(i)
+j , . . . , γ(i)
+k , γ(i−1)
+k+1 , . . . , γ(i−1)
+n
+),
+where:
+γ(i)
+k
+= γ(i−1)
+j
+,
+γ(i)
+k−1 = γ(i−1)
+j
+−1γ(i−1)
+j+1 γ(i−1)
+j
+,
+...
+γ(i)
+j
+= γ(i−1)
+j
+−1γ(i−1)
+j+1
+−1 · · · γ(i−1)
+k−1
+−1γ(i−1)
+k
+γ(i−1)
+k−1 . . . γ(i−1)
+j
+γ(i−1)
+j
+.
+And a set of relations in π1(M(A ), q):1
+Rpi =
+n
+γ(i−1)
+k
+γ(i−1)
+k−1 · · · γ(i−1)
+j
+= γ(i−1)
+σ(k) γ(i−1)
+σ(k−1) · · · γ(i−1)
+σ(j)
+= . . .
+o
+(1)
+where σ runs over the set of cyclic permutations of k −j + 1 elements.
+Expressing every meridian in terms of the geometric base Γ(0) by means of
+Proposition 3.3 and replacing in (1) we obtain:
+Theorem 3.4 ([Ran85]). The fundamental group of M(A ) admits a presenta-
+tion:
+π1(M(A ), q) ∼=
+*
+γ(0)
+1 , γ(0)
+2 , . . . , γ(0)
+n
+
+[
+pi∈Sing(A (R))
+Rpi
++
+.
+1These relations are stated as in [Fal93] p.142, where in a footnote he points to an error of
+[Ran85].
+8
+
+
+## Page 9
+
+
+pi
+γ(i)
+k
+γ(i−1)
+j
+γ(i)
+k−1
+γ(i−1)
+j+1
+...
+...
+γ(i)
+j
+γ(i−1)
+k
+Σ(i)
+Σ(i−1)
+Figure 5: Conjugates
+3.2
+Meridians crossing a point at inﬁnity
+Let us describe the change in the geometric base when it traverses a singular
+point at inﬁnity. Let pi ∈Sing A ∩L∞and Γ(i−1) ⊂Σ(i−1) and Γ(i) ⊂Σ(i) be
+given as in section 3.1.3. This is:
+Γ(i−1) = (γ(i−1)
+1
+, . . . , γ(i−1)
+n−k+1, . . . , γ(i−1)
+n
+),
+and
+Γ(i) = (γ(i)
+1 , . . . , γ(i)
+k , γ(i)
+k+1, . . . , γ(i)
+n ).
+Proposition 3.5. Assume that there are exactly k parallel lines in A (R) whose
+corresponding lines in A intersect at pi. Then these lines are associated to the
+last k meridians γ(i−1)
+n−k+1, . . . , γ(i−1)
+n
+of Γ(i−1).
+Proof. Let ti = θ(pi) and Σti be the line passing by q and pi. Using the order
+of the real lines write Σ(i−1)(R) ∩A (R) = {y1, . . . , yn} and as no other point of
+Sing A diﬀerent from pi lies in Σti we have that Σti∩A (R) = {x1, . . . , xn−k}. In
+fact, it must be the case that xi and yi are in the same line of A (R) otherwise
+a point of type S.1 or S.2 would lie between Σ(i−1) and Σti which can not
+happen.
+Corollary 1. We have the following identiﬁcations in Σti:
+γ(i)
+k+1 = γ(i−1)
+1
+,
+. . .
+, γ(i)
+n = γ(i−1)
+n−k .
+(2)
+Proof. As we are turning counter-clockwise, by the orientation given to Σ(i)(R)
+it will intersect ﬁrst the k parallel lines associated to pi and then, by the same
+argument as in Proposition 3.5, the point in the position k+j of Σ(i)(R)∩A (R)
+lies in the same line as xj .
+Proposition 3.6. The last k meridians in Γ(i−1) invert their order to ﬁt in the
+ﬁrst k places of Γ(i). By doing so a conjugation for all the precedent meridians
+9
+
+
+## Page 10
+
+
+is needed (see ﬁgure 6). More precisely we have:
+γ(i)
+k
+= γ(i−1)
+1
+−1 · · · γ(i−1)
+n−k
+−1 γ(i−1)
+n−k+1 γ(i−1)
+n−k · · · γ(i−1)
+1
+,
+γ(i)
+k−1 = γ(i−1)
+1
+−1
+· · · γ(i−1)
+n−k+1
+−1
+γ(i−1)
+n−k+2 γ(i−1)
+n−k+1 · · · γ(i−1)
+1
+,
+...
+γ(i)
+1
+= γ(i−1)
+1
+−1 · · · γ(i−1)
+n−1
+−1 γ(i−1)
+n
+γ(i−1)
+n−1 · · · γ(i−1)
+1
+.
+(3)
+Proof. By repeated iterations of Lemma 3.2 we obtain (3). The result follows
+by unicity of the elementary geometric base.
+(i)γ1
+q
+x1
+x2
+x3
+x4
+(i)γ2
+γ(i)
+2
+γ(i)
+1
+•
+•
+•
+•
+•
+Figure 6: Loops crossing a point S.2.
+3.3
+Loops around singular points
+Consider an arrangement A deﬁned over the reals as in the precedent section.
+We have a canonical way of associating an elementary geometric base for every
+line Σt passing though q with t ∈[π/2, 3π/2[ as in 3.1.2. We will write the
+elementary geometric base over the directions of the points S.1 and S.2 in
+terms of the elements of Γ(i).
+This can be seen as ﬁnding elementary loops for the points in Sing A , which
+can be divided into ﬁnite distance points Sing A aﬀ∼= Sing A (R) and inﬁnite
+distance Sing A ∩L∞.
+Lemma 3.7. The inverse of a meridian loop around the line at inﬁnity L∞at
+the point L∞∩Σ(i) is given by the product of the elements of the elementary
+base Γ(i), this is :
+(γ(i)
+∞)−1 = γ(i)
+n · γ(i)
+n−1 · · · γ(i)
+1
+Proof. This is a simple consequence on the deﬁnition of geometric base and the
+choice of the base point.
+This meridian can be seen as an elementary loop, as it is product of loops
+of this type.
+Recall that ti = θ(pi) denotes the angle of the line Σti containing pi and q.
+10
+
+
+## Page 11
+
+
+Deﬁnition 3.4. A meridian γ′
+pi around a singular point pi ∈Sing A (R), is a
+meridian of pi ∈Σti (based at q).
+We can consider the elementary meridian γpi as the elementary loop of pi
+in Σti (based at q). With the notation of Proposition 3.3 we have:
+Lemma 3.8. The elementary meridian γpi can be obtained as a product of the
+elements of Γ(i−1) which surround the lines passing through pi. Namely
+γpi = γ(i−1)
+k
+γ(i−1)
+k−1 · · · γ(i−1)
+j+1 γ(i−1)
+j
+.
+Proof. An elementary geometric base Γ is constructed in such a way that the
+product of k −j + 1 consecutive elements (γj, . . . , γk) of Γ equals an elementary
+loop Cq, where C is an oriented counter-clockwise simple closed curve that in
+the bounded part that it determines contains exactly {xj, . . . , xk}.
+Next we determine the meridians around multiple points lying in the line at
+inﬁnity.
+Let pi ∈Sing A ∩L∞.
+Consider the line Σti passing through q and pi.
+Suppose there are exactly k lines in A diﬀerent from L∞passing through pi
+then their real points are parallel lines to Σti(R) in A (R). As is Section 3.2 we
+have:
+Σti(R) ∩A (R) = {x1, . . . , xn−k},
+with k ≥1 depending on i. The order of the points xi given by the orientation of
+Σti(R). Hence we can take the elementary geometric base Γti ⊂Σti associated
+with P = {x1, . . . , xn−k} and the base point q. Suppose Γti = (γ1, . . . , γn−k).
+Deﬁnition 3.5. A meridian γpi around a singular point at inﬁnity pi ∈Sing A ∩
+L∞is a meridian at inﬁnity of Σti.
+Lemma 3.9. Let Γ(i−1) = (γ(i−1)
+1
+, . . . , γ(i−1)
+n
+) be as in Section 3.1.3. For every
+point pi ∈Sing A ∩L∞the elementary meridian γpi is given by any of the
+equivalent expressions
+γpi = γ(i−1)
+∞
+· γ(i−1)
+n
+· · · γ(i−1)
+n−k+1,
+(4)
+or
+γ−1
+pi = γ(i−1)
+n−k · · · γ(i−1)
+1
+.
+(5)
+Remark 5. In (4) a similitude with the formula of Lemma 3.8 can be observed.
+Namely the product of the meridians of the lines crossing the point pi give the
+meridian. In (5) we simply compute the meridian around the point at inﬁnity
+in the line Σti, so it is closer to Lemma 3.7.
+Proof. As no other point of Sing A lies in Σti by continuity, Proposition 3.5
+and the uniqueness of the elementary geometric base we have that
+Γpi = (γ(i−1)
+1
+, . . . , γ(i−1)
+n−k ),
+11
+
+
+## Page 12
+
+
+by applying Lemma 3.7 we obtain (5).
+In Σ(i−1) we have
+γ(i−1)
+∞
+= (γ(i−1)
+1
+)−1 · · · (γ(i−1)
+n
+)−1,
+therefore for the right hand side of (4)
+γ(i−1)
+∞
+· γ(i−1)
+n
+· · · γ(i−1)
+n−k+1 = (γ(i−1)
+1
+)−1 · · · (γ(i−1)
+n−k )−1
+which equals γpi by (5).
+Remark 6. By the results of this Section we have obtained singular meridians
+for every point p ∈Sing A with A deﬁned over the reals. In [Gar03] Garber
+generalize a formula of Fujita [Fuj82] expressing locally the singular meridians
+as the product of the meridians of the irreducible components in the singular
+point. He then uses this result globally when the lines intersect transversally,
+this is, when there is no additional conjugation. Our method can be seen as a
+generalization of this by allowing multiple points of higher order.
+4
+LAC Surfaces
+4.1
+Construction
+We will construct surfaces generalizing the complement of a hyperplane arrange-
+ment and obtain a presentation of them.
+Fix A = {L1, . . . , Lk} an arrangement of lines in P2. Let ¯X be the blow up
+of P2 at Sing A = {p1, . . . , ps} and π : ¯X→P2 the projection map. Denote by
+D1, . . . , Dk the strict transform of the lines L1, . . . , Lk and by Dk+1, . . . , Dk+s
+the exceptional divisors associated to the points p1, . . . , ps.
+Given a subset I ⊂{1, . . . , k + s} we can deﬁne the orbifold X( ¯
+X, D, rI)
+associated to the divisor D = P Di and the weights rI = (r1, . . . , rk+s) where
+ri = 1 if i ∈I and ri = +∞if i ̸∈I. Then X( ¯
+X, D, rI) = ¯X \ (DI)∞where we
+have written DI for D to emphasize the dependence on I.
+Deﬁnition 4.1. We call ¯X \(DI)∞a (partial) Linear Arrangement Compact-
+iﬁcation or LAC surface.
+Remark 7. If I = ∅, (DI)∞= D and π restricted to ¯X\D is a biholomorphism
+with M(A ), from which it follows that
+π1( ¯X \ D) ∼= π1(M(A )),
+(6)
+showing that these surfaces are indeed generalizations of the complement of an
+arrangement.
+12
+
+
+## Page 13
+
+
+4.2
+Reduced LAC Surfaces
+In [Eys17] a comment before Proposition 1.3 mentions that the log pair ( ¯X, D)
+has to be rigid if one wants the fundamental group to be very diﬀerent from
+¯X \ D. We prove here that we can reduce the study of LAC surfaces to par-
+tially compactify only with respect to exceptional divisors, this is, the subset of
+irreducible components of D with weight 1 are exceptional divisors.
+We do so by showing that if a strict transform of a line Li has weight 1,
+then we can ﬁnd an arrangement of less lines whose associated LAC surface has
+the same fundamental group. In this process the double points lying in the line
+that we have removed create isolated points and we must allow to blow them
+up as well in order to cover the case when this exceptional divisor had weight 1
+in A . With this is mind we have the following deﬁnition.
+Deﬁnition 4.2. A LAC datum, is a triple
+(A , S, I) := (A = {L1, . . . , Lk} ⊂P2, S = {p1, . . . , ps} ⊂P2, I ⊂{1, . . . , k+s})
+where A is an arrangement of lines in P2, S a ﬁnite set of points and I an
+index set.
+Given a LAC datum (A , S, I) we can construct a surface ¯X \ (DI)∞as
+in 4.1.
+Consider ¯X the blow up of P2 in the points S, call D1, . . . , Dk the
+strict transform of the lines in A , Dk+1, . . . , Dk+s the exceptional divisors and
+(DI)∞= P
+j∈J Dj where J := {1, . . ., k +s}\I. As we can change the arrange-
+ment and the set of points to blow up, we prefer the notation M(A , S, I) for
+this surface.
+Deﬁnition 4.3. Two LAC datum (A , S, I), (A ′, S′, I′) are said to be equivalent
+if and only if
+π1(M(A , S, I)) ∼= π1(M(A ′, S′, I′)).
+In such a case we write (A , S, I) ∼(A ′, S′, I′).
+Deﬁnition 4.4. A LAC datum (A , S, I) such that S ⊂Sing A and I = S is
+called reduced. In this case we write (A , I).
+Theorem 4.1. For every LAC (A , S, I) there is a canonical equivalent reduced
+LAC (A ′, I′).
+We will need to prove ﬁrst three reduction Lemmas.
+Lemma 4.2. Let (A , S, I) be a LAC datum. Suppose there exists Li ∈A such
+that i ∈I, then
+(A , S, I) ∼(A \ L, S, I \ {i}).
+Proof. Denote by ¯X = BlS P2. As M(A , S, I) = ¯X \ (DI)∞and
+{1, . . . , s + k} \ I = {1, . . . ,ˆi, . . . , s + k} \ (I \ {i})
+13
+
+
+## Page 14
+
+
+denoting by (D′
+I\{i})∞the divisor to be removed given by (A \ L, S, I \ {i}) we
+have that
+(DI)∞= (D′
+I\{i})∞
+that implies
+M(A , S, I) = M(A \ L, S, I \ {i}).
+So we can suppose I ⊂{1, . . . , s}. The next step is to consider points lying
+outside A .
+Lemma 4.3. Let (A , S, I) be a LAC datum such that there is pj ∈S that lies
+in no line of A .
+1. If j ∈I then
+(A , S, I) ∼(A , S \ {pj}, I \ {j}).
+2. If j ̸∈I then
+(A , S, I) ∼(A , S \ {pj}, I).
+Proof.
+1. The surface M(A , S, I) is the blowing up of M(A , S\{pj}, I \{j})
+at the point pj, as the fundamental group is invariant under blow ups we
+obtain the stated.
+2. We have a biholomorphism given by restricting the blowing up map of
+M(A , S \ {pj}, I) at pj, to the complement of the exceptional divisor
+M(A , S, I)
+∼
+→M(A , S \ {pj}, I) \ {pj}
+but as
+π1(M(A , S \ {pj}, I) \ {pj}) ∼= π1(M(A , S \ {pj}, I))
+the result follows.
+The last reduction Lemma, can be divided into two parts. In the ﬁrst case we
+show that it is only interesting when we blow up a point and do not remove the
+exceptional divisor. In the second part, a point of pj ∈S that is a smooth point
+of A does not aﬀect the fundamental group in either case j ∈I or j ̸∈I. By
+the last Lemma we can assume that every point in S lies in the arrangement
+A .
+Lemma 4.4. Let pj ∈S ⊂A .
+1. If j ̸∈I then
+(A , S, I) ∼(A , S \ {pj}, I).
+2. Suppose pj ∈L for some line L ∈A . If j ∈I and pj ̸∈Sing A , then
+(A , S, I) ∼(A \ {L}, S \ {pj}, I \ {j}).
+14
+
+
+## Page 15
+
+
+Proof.
+1. Let ¯X = BlS\{pj} P2 and ¯Y = Blpj ¯X. In ¯X we have
+(DI)∞=
+X
+Dr with r ∈S \ (I ∪{pj})
+In ¯Y
+(D′
+I)∞= (DI)∞+ D′
+j
+Where we have denote also by (DI)∞the strict transform of the divisor
+with same notation in ¯X. Therefore we have a biholomorphism
+¯Y \(D′
+I)∞= M(A , S, I)
+∼
+→M(A , S \{pi}, I)\{pj} = ¯X \((DI)∞∪{pj})
+and the result follows.
+2. If γpj is a meridian at pj of L, as pj is a smooth point then it is also a
+meridian of the exceptional divisor Dk+j in M(A , S, I \ {j}). As Dk+j is
+smooth, γpj generates the kernel of
+π1(M(A , S, I \ {j})) →π1(M(A , S, I))
+hence
+π1(M(A , S, I \ {j}))/
+
+
+γpj
+ ∼= π1(M(A , S, I))
+(7)
+By the point 1 above we have that (A , S, I \ {j}) ∼(A , S \ {pj}, I \ {j}).
+Replacing in (7) we obtain
+π1(M(A , S \ {pj}, I \ {j}))/
+
+
+γpj
+ ∼= π1(M(A , S, I))
+(8)
+But γpj also generates the kernel of the map of fundamental group induced
+by the inclusion
+M(A , S \ {pj}, I \ {j}) ֒→M(A \ L, S \ {pj}, I \ {j})
+therefore
+π1(M(A , S \ {pj}, I \ {j}))/
+
+
+γpj
+ ∼= π1(M(A \ {L}, S \ {pj}, I \ {j}))
+which together with (8) prove the statement.
+Proof of Theorem 4.1 . Given an arbitrary LAC datum (A , S, I) by Lemma 4.2
+we can suppose that I ⊂{1, . . . , s}. By Lemma 4.3 all those points in S not
+lying over A can be also discarded without changing the fundamental group.
+By Proposition 4.4 1, we remove from S all points pj such that j ̸∈I so
+S = I, we will denote the LAC datum by (A, S) .
+If there is a smooth point pj ∈S such that pj ∈L for some L ∈A by
+Proposition 4.4 2, (A , S) ∼(A \ {L}, S \ {pj}). This new LAC datum could
+have as well smooth points lying in S \ {pj}, either coming from S or from
+double points in A lying in L. We repeatedly apply Proposition 4.4 2, until
+I ⊂Sing A or A = ∅. As there are only a number ﬁnite of points and lines this
+process must end and we obtain an equivalent reduced LAC datum (A ′, I′) as
+wanted.
+15
+
+
+## Page 16
+
+
+4.3
+A presentation for the orbifold fundamental group
+Deﬁnition 4.5. Let A = {L1, . . . , Lk}, ¯X the blow up of P2 at Sing A =
+{p1, . . . , ps} and Di as in section 4.1. The divisor D = P Di is SNC and for
+r ∈(N∗∪{∞})k+s the orbifold X( ¯
+X, D, r) is called a weighted LAC Surface.
+Theorem 4.5. Let A = {L1, . . . , Lk} be a real arrangement, X( ¯X, D, r) a
+weighted LAC surface. Suppose we consider Lk as a line at inﬁnity and A aﬀ
+has no vertical line. Choose a base point q and a canonical elementary geometric
+base Γ(0) = (γ1, . . . , γk−1) based at q and to the right of any vertex as in Section
+3.
+Let Sing A = {p1, . . . , ps} and γpj be the elementary singular meridian
+around pj. Then the γpj can be expressed in terms of Γ(0) as in Lemmas 3.8
+and 3.9 a presentation for π1(X( ¯
+X, D, r), q) is given by
+π1(X( ¯
+X, D, r), q) =
+*
+γ1, . . . , γk−1 |
+[
+pl∈Sing(A (R))
+Rpl, γri
+i , γrk+j
+pj
+, i = 1, . . . , k,
+j = 1, . . . , s
++
+(9)
+where we omit the relation γrm = 1 if rm = ∞.
+Proof. We ﬁnd ﬁrst a presentation for π1( ¯X \ D, q) and express the meridians
+around the Dr in terms of γi. As ¯X \D ∼= M(A ) by remark 7, we obtain that γi
+is a meridian of Di in ¯X and by Theorem 3.4 we have the following presentation
+for π1( ¯X \ D, q):
+π1( ¯X \ D, q) =
+*
+γ1, γ2, . . . , γk−1 |
+[
+p∈Sing(A (R))
+Rp
++
+.
+The elementary meridian γk around Dk is given by Lemma 3.7 as γk =
+(γk−1 · · · γ1)−1. The meridians around the exceptional divisor Dk+j are given
+by the Lemmas 3.8 and 3.9 in the following way: γpj is a meridian around pj
+lying completely in the line Σi, so after the blow up this meridian lies in the
+strict transform of Σi giving a meridian of Dk+j. Moreover, γpj is expressed in
+terms of Γ(0). By [Eys17] p.3 dividing by the normal subgroup generated by
+γri
+i , γrk+j
+pj
+we obtain the presentation.
+Corollary 2. Let (A , I) be a reduced LAC surface with A real. A presentation
+for π1( ¯X \ (DI)∞) is given by
+π1( ¯X \ (DI)∞) ∼=
+*
+γ1, . . . , γk−1 |
+[
+pr∈Sing(A (R))
+Rpr, γpj,
+j ∈I
++
+.
+(10)
+5
+Applications
+5.1
+LAC Surface with inﬁnity fundamental group and ﬁ-
+nite abelianization
+Consider a set S of 4 points in general position in P2. The arrangement B =
+{L1, . . . , L6} of 6 lines connecting each pair of these is called the complete cuadri-
+16
+
+
+## Page 17
+
+
+lateral. It has 4 triple points and 3 double points: Sing B = {p1, . . . , p7} num-
+bered as in Figure 7. It has the following equation (z2
+1 −z2
+2)(z2
+1 −z2
+3)(z2
+2 −z2
+3) = 0
+for projective coordinates (z1 : z2 : z3).
+If we consider L6 as the line at inﬁnity, after a small rotation in order to
+have no vertical lines, we obtain the real picture as in Fig. 7.
+q
+p1
+p2
+p3
+p4
+p5
+p6
+p7
+L3
+L5
+L4
+L1
+L2
+Γ(0)
+Γ(1)
+Γ(2)
+Γ(3)
+Γ(4)
+Γ(5)
+Γ(6)
+·
+·
+·
+·
+Figure 7: Complete quadrilateral.
+By the subsections 3.2 and 3.3 we have that the elementary geometric base (up
+to homotopy in π1(P2 \ B, q) and replacing γ(0)
+i
+by xi) are
+Γ(0) = (x1, x2, x3, x4, x5)
+Γ(1) = (x1, x4, xx2
+3 , x2, x5)
+Γ(2) = (x1, x4, xx2
+3 , x5, x2)
+Γ(3) = (x4, x1, xx2
+3 , x5, x2)
+Γ(4) = (x4, x5, xx2x1
+3
+, x1, x2)
+Γ(5) = (xx3x2x1x5x4
+2
+, x
+xx2
+3 x1x5x4
+1
+, x4, x5, xx2x1
+3
+)
+Γ(6) = (xa−1x2x1a
+3
+, xx3x2x1x5x4
+2
+, x
+xx2
+3 x1x5x4
+1
+, x4, x5)
+(11)
+where
+a = (x2x1)x3x2x1x5x4
+By Theorem 3.4 we obtain the following presentation:
+G = π1(P2 \ B, q) ∼= ⟨x1, . . . , x5 | [x4, x1], [x5, x2], [x4, x3, x2], [x5, xx2
+3 , x1]⟩(12)
+which can be easily seen to be a semidirect product F2 ⋉F3 where F2 =
+⟨x4, x5⟩and F3 := ⟨x1, x2, x3⟩.
+Let ¯X denote the blow up of P2 at Sing B, to simplify denote Ek = D6+k the
+exceptional divisor coming from pk. Consider the reduced LAC surface M(B, I)
+17
+
+
+## Page 18
+
+
+where I consists of three triple points and two double ones. The simplest case
+is I = {p1, p2, p3, p4, p5}.
+Theorem 5.1. The reduced LAC surface M(B, I) has inﬁnite fundamental
+group and ﬁnite H1.
+Proof. Consider the singular meridians γpj around pj for j = 1, . . . , 5, which by
+Lemmas 3.8 and 3.9 are given by
+γp1 = x4x3x2,
+γp3 = x4x1,
+γp5 = xx2x1
+3
+x5x4,
+γp2 = x5x2,
+γp4 = x5xx2
+3 x1.
+(13)
+By the corollary 2 a presentation of π1(M(B, I)) can be obtained by
+H := π1(M(B, I)) = π1(P2 \ B, q)/⟨⟨γp1, γp2, γp3, γp4, γp5⟩⟩.
+By making γp2 = 1 and γp3 = 1 we obtain x5 = x−1
+2
+and x4 = x−1
+1 , replacing
+them in (12) and (13), we obtain the presentation
+H = ⟨x1, x2, x3|[x−1
+1 , x3, x2], [x−1
+2 , xx2
+3 , x1], x1 = x3x2, x2 = xx2
+3 x1, xx2x1
+3
+= x1x2⟩
+By replacing x1 by x3x2 the relation [x−1
+2 x−1
+3 , x3, x2] becomes trivial. So we are
+left with:
+H = ⟨x2, x3 | [x−1
+2 , xx2
+3 , x3x2], x2 = xx2
+3 x3x2, xx2x3x2
+3
+= x3x2x2⟩
+By writing down the relations:
+x−2
+2 (x3x2)2 = x−1
+2 x3x2x3 = x3x−1
+2 x3x2
+(14)
+x2
+2 = (x3x2)2
+(15)
+(x3x2)2 = x2(x3x2)2x2
+(16)
+By replacing (15) in (16) we obtain that x2
+2 = 1, hence (x3x2)2 = 1. Note
+that these two relations include all the precedent.
+Therefore we obtain the
+presentation
+H = ⟨x2, x3 | x2
+2 = 1, (x3x2)2 = 1⟩
+which can be seen either as Z/2Z ∗Z/2Z or as Z/2Z ⋉Z, by this we see that H
+is inﬁnite and its abelianization is ﬁnite.
+We can clarify this example geometrically by means of the following propo-
+sition.
+Proposition 5.2. There exists an orbifold morphism from M(B, I) to X(P1, D, r)
+where D = [0 : 1] + [1 : −1] + [1 : 0] and r = (2, +∞, 2). The morphism comes
+from a pencil of conics and induces an isomorphism between orbifold fundamen-
+tal groups.
+18
+
+
+## Page 19
+
+
+Proof. Consider a pencil P having 4 ﬁxed points in general position, which we
+may assume to be S = {p1, p4, p5, p7}. If we let Q1 = (z2
+1 −z2
+2), Q2 = (z2
+1 −z2
+3)
+and Q3 = (z2
+2 −z2
+3) we have that the complete quadrilateral A is given by
+Q = Q1Q2Q3 = 0.
+The pencil P can be written as P = aQ1 −bQ2 with a, b ∈C not both
+zero. Note that Q3 ∈P as Q3 = Q2 −Q1. This pencil deﬁnes a rational map
+fP : P2 →P1, (z1 : z2 : z3) 7→(Q1(z1 : z2 : z3), Q2(z1 : z2 : z3))
+whose indeterminacy locus is S. By blowing it up, we obtain a regular map
+˜f : BlS P2 →P1 with ﬁber over (a : b) the strict transform of aQ1 −bQ2.
+As any point lying in two elements of the pencil is a ﬁxed point of it, for
+any x ∈P2 \ S there is a unique curve C ∈P passing through it. In particular
+for the double points p2 ∈{z1 −z2 = 0} ∩{z1 + z2 = 0} and p3 ∈{z1 −z3 =
+0} ∩{z1 + z3 = 0} the curves are Q1 and Q2 respectively. This allows us to
+extend ˜f to the blow up of BlS P2 at p2, p3 as f : BlS∪{p2,p3} →P1. We have
+that f(E2) = (1 : 0) and f(E3) = (0 : 1). Let X = BlS∪{p2,p3} \{Q ∪E7}. Note
+that f|X : X →P1 \ {(1 : 1)} as f(Q3) = (1, 1).
+Moreover f|X has double ﬁbers in (0 : 1) and (1 : 0). For any other (a : b) ∈
+P1 \ {(1 : 1)} the ﬁber is the strict transform of aQ1 −bQ2 minus one point
+(corresponding to the intersection with E7). The former assertion can be seen
+by local computations: Consider P2 and P1 with coordinates (z1 : z2 : z3) and
+(u, v) respectively. Restricting to the standard open sets W3 = {z3 = 1} ⊂P2
+and V2 = {v = 1} ⊂P1 we have that ˜f|W3 = z2
+1−z2
+2
+z2
+1−1 with z2
+1 −1 ̸= 0. Blowing up
+at p2 = (0, 0) and working in coordinates (z1, Z2) (where Z2 is the coordinate
+in U1 ⊂P1) we have that f|W3∩U1 = z2
+1
+1−Z2
+2
+z2
+1−1 . Analogous computations for the
+other open sets and for p3 show that the ﬁbers are indeed double. The last part
+of the statement is then clear.
+There is a modiﬁcation of Dimca’s suggestion that may still hold.
+Question 1. Let X be a reduced LAC surface with H1(X) ﬁnite whose universal
+abelian cover has ﬁnite H1. Is π1(X) ﬁnite?
+5.2
+Presentation for a weighted complete quadrilateral
+By considering weighted LAC surfaces X( ¯X, D, r) we can study the ramiﬁed
+covers of ¯X over D. In the case where all the lines of D have the same weight
+Hirzebruch constructed a ﬁnite abelian cover in [Hir83]. If moreover we ask
+the cover to be a quotient of the ball, Deligne-Mostow have given weights (not
+necessarily equal) for this to hold [DM86].
+Consider again the complete quadrilateral B = {L1, . . . , L6} with the same
+notation as in 5.1, suppose L6 is the line at inﬁnity. Let ˜X = BlS P2 →P2 be
+the blow up of P2 at the four triple points S = {p1, p4, p5, p7} and E1, E4, E5, E7
+be the respective exceptional divisors.
+19
+
+
+## Page 20
+
+
+Consider the elementary geometric base Γ(0) = (x1, . . . , x5). A meridian x6
+for the line at inﬁnity around the point Σ(0) ∩L6 (recall that Σ(0) is the line
+where Γ(0) lies) is given by Lemma 3.7
+x6 = (x5x4x3x2x1)−1.
+(17)
+Denote by γpi the meridian around Ei. By Lemma 3.8, using respectively the
+elementary geometric bases Γ(0) and Γ(3) of (11), we obtain:
+y1 := γp1 = x4x3x2
+y2 := γp4 = x5xx2
+3 x1
+(18)
+Finally, the meridians around the triple points lying in L6 are given by
+Lemma 3.9 and bases Γ(4) and Γ(6) of (11).
+y3 := γp5 = xx2x1
+3
+x5x4
+y4 := γp7 = x−1
+4 x−1
+5 axa−1x2x1a
+3
+(19)
+where a = (x2x1)x3x2x1x5x4.
+Proposition 5.3. Let B be the complete quadrilateral, ˜X, Γ(0) = (x1, . . . , x5)
+and yi as above. For any r = (m1, . . . , m4, n1, . . . , n6) ∈(N∗∪+∞)10 as in
+[Tre16] p.110, D = E1 + E4 + E5 + E7 + P6
+i=1 Li we have a presentation for
+the fundamental group of the ball quotient X( ˜X, D, r) given by
+π1(X( ˜X, D, r)) = ⟨x1, . . . , x5|[x4, x1], [x5, x2], [x4, x3, x2], [x5, xx2
+3 , x1], xni
+i , ymi
+i
+⟩
+References
+[CS97]
+D. Cohen & A. Suciu – “The braid monodromy of plane algebraic
+curves and hyperplane arrangements”, Commentarii Mathematici Hel-
+vetici 72 (1997), p. 285–315.
+[DM86] P. Deligne & G. Mostow – “Monodromy of hypergeometric func-
+tions and non-lattice integral monodromy”, Publications Mathmatiques
+de l’IHS 63 (1986), p. 5–89.
+[Eys17] P. Eyssidieux – “Orbifold K¨ahler Groups and the Shafarevich Con-
+jecture for Hirzebruch’s covering spaces with equal weights”, Asian
+Journal Math (2017).
+[Eys18] — , “Orbifold K¨ahler Groups related to arithmetic complex hyperbolic
+lattices”, arXiv:1805.00767, Apr 2018.
+[Fal93]
+M. Falk – “Homotopy types of line arrangements”, Inventiones math-
+ematicae 111 (1993), p. 139–150.
+[Fuj82]
+T. Fujita – “On the topology of non-complete algebraic surfaces”, J.
+Fac. Sci. Univ. Tokyo 29 (1982), no. 3, p. 503–566.
+20
+
+
+## Page 21
+
+
+[Gar03] D. Garber – “Plane curves and their fundamental groups: General-
+izations of Uluda’s construction”, Algebr. Geom. Topol. 3 (2003), no. 1,
+p. 593–622.
+[Hir83]
+F. Hirzebruch – “Arrangements of lines and algebraic surfaces”,
+Arithmetic and Geometry 36 (1983), p. 113–140.
+[OT92] P. Orlik & H. Terao – Arrangements of hyperplanes, Grundlehren
+300, Springer-verlag, 1992.
+[Ran85] R. Randell – “The fundamental group of the complement of a union
+of complex hyperplanes:
+correction”, Inventiones mathematicae 80
+(1985), no. 3, p. 467–468.
+[Sal87]
+M. Salvetti – “Topology of the complement of real hyperplanes in
+Cn”, Inventiones mathematicae 88 (1987), p. 603–618.
+[Tre16] P. Tretkoff – Complex ball quotients and line arrangements in the
+projective plane, Princeton University Press, 2016.
+Rodolfo Aguilar Aguilar
+Universit Grenoble-Alpes, Institut Fourier, 100 rue de Maths, 38402, Saint Mar-
+tin d’Hres Cedex, France.
+rodolfo.aguilar-aguilar@univ-grenoble-alpes.fr
+21
+
+---
+**Related:** [[00-Home]]
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

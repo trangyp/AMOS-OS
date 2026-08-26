@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0904.3996v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, quantum, reference]
+---
 # 0904.3996v1_Wave_and_quantum_properties_of_peptide_strings__defining_a_helix_in_spacetime
 
 > Source: 0904.3996v1_Wave_and_quantum_properties_of_peptide_strings__defining_a_helix_in_spacetime.pdf

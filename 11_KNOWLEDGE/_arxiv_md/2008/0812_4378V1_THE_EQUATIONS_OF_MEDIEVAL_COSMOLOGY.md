@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0812.4378v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0812.4378v1_The_equations_of_medieval_cosmology
 
 > Source: 0812.4378v1_The_equations_of_medieval_cosmology.pdf

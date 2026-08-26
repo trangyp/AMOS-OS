@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0802.3664v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0802.3664v1_GRAVITAS__Portraits_of_a_Universe_in_Motion
 
 > Source: 0802.3664v1_GRAVITAS__Portraits_of_a_Universe_in_Motion.pdf

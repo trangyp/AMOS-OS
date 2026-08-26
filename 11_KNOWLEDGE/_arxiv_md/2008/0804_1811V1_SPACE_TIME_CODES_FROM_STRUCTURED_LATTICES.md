@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0804.1811v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0804.1811v1_Space-Time_Codes_from_Structured_Lattices
 
 > Source: 0804.1811v1_Space-Time_Codes_from_Structured_Lattices.pdf

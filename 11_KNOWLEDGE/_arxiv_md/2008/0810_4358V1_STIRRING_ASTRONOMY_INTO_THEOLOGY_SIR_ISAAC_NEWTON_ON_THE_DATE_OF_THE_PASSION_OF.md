@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0810.4358v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0810.4358v1_Stirring_Astronomy_into_Theology__Sir_Isaac_Newton_on_the_Date_of_the_Passion_of
 
 > Source: 0810.4358v1_Stirring_Astronomy_into_Theology__Sir_Isaac_Newton_on_the_Date_of_the_Passion_of.pdf

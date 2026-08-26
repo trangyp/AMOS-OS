@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0911.0652v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0911.0652v1_Brainstorming_through_the_Sequence_Universe__Theories_on_the_Protein_Problem
 
 > Source: 0911.0652v1_Brainstorming_through_the_Sequence_Universe__Theories_on_the_Protein_Problem.pdf

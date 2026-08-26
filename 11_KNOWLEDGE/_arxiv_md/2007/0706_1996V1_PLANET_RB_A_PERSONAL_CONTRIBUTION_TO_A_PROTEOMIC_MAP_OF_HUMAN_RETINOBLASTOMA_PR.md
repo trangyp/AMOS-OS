@@ -3,9 +3,8 @@ canon-group: reference
 rscf-state: source-claim
 arxiv_id: 0706.1996v1
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, reference, unclassified]
 ---
-
 # 0706.1996v1_Planet_RB__a_personal_contribution_to_a_proteomic_map_of_human_retinoblastoma_pr
 
 > Source: 0706.1996v1_Planet_RB__a_personal_contribution_to_a_proteomic_map_of_human_retinoblastoma_pr.pdf

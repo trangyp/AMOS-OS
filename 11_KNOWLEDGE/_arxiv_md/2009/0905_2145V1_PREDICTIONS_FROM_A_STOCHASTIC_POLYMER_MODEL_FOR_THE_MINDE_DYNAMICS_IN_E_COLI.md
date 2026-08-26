@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0905.2145v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0905.2145v1_Predictions_from_a_stochastic_polymer_model_for_the_MinDE_dynamics_in_E_coli
 
 > Source: 0905.2145v1_Predictions_from_a_stochastic_polymer_model_for_the_MinDE_dynamics_in_E_coli.pdf

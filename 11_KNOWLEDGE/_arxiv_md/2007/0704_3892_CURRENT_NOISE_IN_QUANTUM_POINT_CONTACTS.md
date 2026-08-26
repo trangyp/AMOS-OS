@@ -1,11 +1,10 @@
 ---
 canon-group: reference
 rscf-state: source-claim
-arxiv_id: 0704.3892
+arxiv_id: 704.3892
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, math, quantum, reference]
 ---
-
 # 0704.3892_Current_Noise_in_Quantum_Point_Contacts
 
 > Source: 0704.3892_Current_Noise_in_Quantum_Point_Contacts.pdf

@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
-arxiv_id: 0801.0142
-source: arxiv
-rscf-state: source-claim
 canon-group: reference
-
+rscf-state: source-claim
+arxiv_id: 801.0142
+source: arxiv
+tags: [arxiv, knowledge, math, reference]
+---
 # 0801.0142_From_Power_Laws_to_Fractional_Diffusion__the_Direct_Way
 
 > Source: 0801.0142_From_Power_Laws_to_Fractional_Diffusion__the_Direct_Way.pdf

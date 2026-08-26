@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0907.2827v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, quantum, reference]
+---
 # 0907.2827v1_Finite_type_invariants_and_fatgraphs
 
 > Source: 0907.2827v1_Finite_type_invariants_and_fatgraphs.pdf

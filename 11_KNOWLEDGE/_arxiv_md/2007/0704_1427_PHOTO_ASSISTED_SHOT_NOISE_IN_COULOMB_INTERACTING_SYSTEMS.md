@@ -1,11 +1,10 @@
 ---
 canon-group: reference
 rscf-state: source-claim
-arxiv_id: 0704.1427
+arxiv_id: 704.1427
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, quantum, reference]
 ---
-
 # 0704.1427_Photo-assisted_shot_noise_in_Coulomb_interacting_systems
 
 > Source: 0704.1427_Photo-assisted_shot_noise_in_Coulomb_interacting_systems.pdf

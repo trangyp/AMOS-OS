@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0808.3563v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0808.3563v1_What_It_Feels_Like_To_Hear_Voices__Fond_Memories_of_Julian_Jaynes
 
 > Source: 0808.3563v1_What_It_Feels_Like_To_Hear_Voices__Fond_Memories_of_Julian_Jaynes.pdf

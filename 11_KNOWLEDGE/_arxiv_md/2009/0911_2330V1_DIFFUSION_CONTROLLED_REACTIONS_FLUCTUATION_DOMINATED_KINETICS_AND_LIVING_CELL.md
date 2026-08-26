@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0911.2330v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0911.2330v1_Diffusion_Controlled_Reactions__Fluctuation_Dominated_Kinetics__and_Living_Cell_
 
 > Source: 0911.2330v1_Diffusion_Controlled_Reactions__Fluctuation_Dominated_Kinetics__and_Living_Cell_.pdf

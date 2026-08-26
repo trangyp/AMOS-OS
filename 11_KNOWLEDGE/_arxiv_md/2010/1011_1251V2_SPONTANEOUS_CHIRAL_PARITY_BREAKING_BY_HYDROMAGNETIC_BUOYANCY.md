@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1011.1251v2
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 1011.1251v2_Spontaneous_chiral_parity_breaking_by_hydromagnetic_buoyancy
 
 > Source: 1011.1251v2_Spontaneous_chiral_parity_breaking_by_hydromagnetic_buoyancy.pdf

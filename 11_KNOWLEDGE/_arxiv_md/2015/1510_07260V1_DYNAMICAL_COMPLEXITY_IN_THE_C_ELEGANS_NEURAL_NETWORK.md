@@ -1,0 +1,877 @@
+---
+canon-group: reference
+rscf-state: source-claim
+arxiv_id: 1510.07260v1
+source: arxiv
+tags: [arxiv, knowledge, math, reference]
+---
+# 1510.07260v1_Dynamical_Complexity_in_the_C_elegans_Neural_Network
+
+> Source: 1510.07260v1_Dynamical_Complexity_in_the_C_elegans_Neural_Network.pdf
+
+> Pages: 20
+
+---
+
+
+## Page 1
+
+
+Dynamical Complexity in the C.elegans Neural Network
+Chris G. Antonopoulos1, Athanasios S. Fokas2 and Tassos C. Bountis3
+1∗Department of Mathematical Sciences, University of Essex, Wivenhoe Park, CO4 3SQ, United
+Kingdom
+2Department of Applied Mathematics and Theoretical Physics, University of Cambridge,
+Cambridge, CB3 0WA, United Kingdom
+3Center for Research and Applications of Nonlinear Systems, Department of Mathematics,
+University of Patras, Patras, GR-26500, Greece
+∗Corresponding author email: canton@essex.ac.uk
+Summary
+We model the neuronal circuit of the C.elegans soil worm in terms of Hindmarsh-Rose systems of
+ordinary diﬀerential equations, dividing its circuit into six communities pointed out by the walktrap
+and Louvain methods.
+Using the numerical solution of these equations, we analyze important
+measures of dynamical complexity, namely synchronicity, the largest Lyapunov exponent, and the
+ΦAR auto-regressive integrated information theory measure, which has been suggested to reﬂect
+diﬀerent levels of consciousness. We show that ΦAR provides a useful measure of the information
+contained in the C.elegans brain dynamic network. Our analysis reveals that the C.elegans brain
+dynamic network generates more information than the sum of its constituent parts, and that attains
+higher levels of integrated information for couplings for which either all its communities are highly
+synchronized, or there is a mixed state of highly synchronized and desynchronized communities.
+Both situations are characterized by relatively low chaotic behavior.
+Introduction
+Single-cell organisms manage to survive without possessing neurons. For example, bacteria in a
+Petri-dish respond to a drop of a toxic substance by clamping together.
+Presumably, neurons
+appeared in evolution when multicellular organisms were suﬃciently complicated that it became
+“useful” to have a designated system of communication. Organisms with even very simple ner-
+vous systems exhibit more complex behaviors than organisms without neurons. For example, the
+1
+arXiv:1510.07260v1  [q-bio.NC]  25 Oct 2015
+
+
+## Page 2
+
+
+C.elegans soil worms, which have 302 neurons, feed alone if food is available and if the environment
+is quiet; however, if food is scarce and if they detect a threat (such as an unpleasant odour), they
+feed in groups. Presumably, this behavior is unconscious.
+The identiﬁcation of objective criteria for distinguishing conscious from unconscious processes
+still remains an important open problem.
+In the particular case of the human brain, lead-
+ing neuroscientists in the area of consciousness, such as S. Dehaene and colleagues (Dehaene &
+Changeux 2011) have emphasized the following “signatures of consciousness”: (i) The ampliﬁcation
+of neuronal activity leading to a sudden activation of parietal and prefrontal neuronal circuits, (ii)
+the appearance of a late slow wave in electroencephalographic (EEG) recordings (the so-called P3
+wave), (iii) a late and sudden burst of high-frequency oscillations in EEG recordings, and (iv) the
+synchronization of activity in remote areas of the brain.
+In recent years, an attempt has been made to “mathematise” consciousness (Tononi & Sporns
+2003, Tononi 2004, Tononi 2005, Balduzzi & Tononi 2008, Tononi 2008, Balduzzi & Tononi 2009,
+Oizumi, Albantakis & Tononi 2014). Indeed, in his beautiful book “Phi, a Voyage from the Brain
+to the Soul” (Tononi 2012), the well-known neuroscientist and psychiatrist G. Tononi claims that
+the only way to understand consciousness is to express it in terms of mathematical equations.
+Furthermore, Tononi claims that “consciousness is integrated information theory”, and the latter
+takes indeed the form of a concrete mathematical expression.
+Another leading neuroscientist,
+C. Koch, in his recent book “Consciousness” (Koch 2012) goes even further: He claims that
+Tononi’s notion of integrated information theory leads to “a consciousness-meter that can assess
+the extent of awareness in animals, babies, sleepers, patients, and others who cannot talk about
+their experience”.
+In what follows, we focus on the brain dynamic network (BDN) of the C.elegans soil worm
+( 2010-2011) whose connectome is almost completely mapped (Varshney, Chen, Paniagua, Hall &
+Chklovskii 2011). Our work primarily focuses on several quantities that describe the dynamical
+complexity of this brain network, and after computing these quantities, we make comparisons and
+draw a number of useful conclusions with respect to chaotic behavior, neural synchronization and
+a measure that quantiﬁes the amount of integrated information generated by this network. In
+more detail, taking into consideration the importance of chaos (Ott 2002) in the general theory of
+complexity (Bar-yam 2003, Nicolis & Nicolis 2007, Fuchs 2013) and its connection to consciousness
+(Tononi & Edelman 1998), as well as the role of synchronization (Belykh, Lange & Hasler 2005,
+G´omez-Garde˜nes, Zamora-L´opez, Moreno & Arenas 2010, Baptista, Kakmeni & Grebogi 2010,
+Arenas, Guilera, Kurths, Moreno & Zhou 2008, Benedek, Bergner, K¨onen, Fink & Neubauer 2011)
+and integrated information theory as signatures of consciousness (Tononi 2004, Tononi 2008, Oizumi
+2
+
+
+## Page 3
+
+
+et al. 2014), we compute and compare measures of chaos (Benettin, Galgani, Giorgilli & Strelcyn
+1980), synchronization (G´omez-Garde˜nes et al. 2010), and integrated information theory (Barrett
+& Seth 2011) based on the numerical solution of a BDN modeling the C.elegans brain.
+It is well-known that a deﬁning feature of all neural circuits (including the primitive radiata) is
+their connectivity. Obviously, the larger the number of neurons and the higher their connectivity,
+the richer the behavior of the associated neuronal circuit. Neuronal network modeling provides a
+rigorous mathematical way of quantifying this behavior. Indeed, building on the seminal work of
+Hodgkin and Huxley (Hodgkin & Huxley 1952) there now exist several diﬀerent systems of ordinary
+diﬀerential equations (ODEs) which can be used to model a given neural circuit. The numerical
+solution of these ODEs exhibits typical features of the behavior of a neuronal circuit, including
+chaotic behavior characterized by spiking and bursting.
+Results
+Our analysis is based on the numerical solution of the ODEs (4). Using the walktrap method,
+we have divided the C.elegans BDN into 6 communities (the Louvain method also produced 6
+communities), and have computed the synchronization measure ρ (see Eq. 7 below), as well as
+the synchronization measures {ρci}6
+1 for each of the 6 communities using both methods. These
+parameters are plotted in panel (a) (for ρ) and panels (c)-(h) (for ρc1-ρc6) of Fig. 1 as functions of
+the nonlinear coupling strength gn and the linear coupling strength gl. The former characterizes
+the strength of the links between the diﬀerent communities, whereas the latter the strength of the
+links within each community. These graphs show that for low nonlinear couplings and moderate
+to higher linear couplings, all communities, as well as the full network become highly synchronized
+with ρ > 0.9 (depicted by the yellow and orange area in the parameter space). This corresponds
+to the case where the internal synapses within each community are stronger with respect to the
+synapses that link the diﬀerent communities.
+However, this synchronization pattern starts to
+change as the nonlinear coupling increases to higher values. Interestingly, synchronization patterns
+start to emerge after gn > 0.15 and for high enough linear couplings: In this regime, the third
+and sixth communities become synchronized, whereas the other communities remain in a highly
+desynchronized state. This situation is reminiscent of the so-called “chimera states” that have been
+recently observed also in simple network models of coupled Hindmarsh-Rose (HR) oscillators, where
+synchronized and asynchronous populations are found to coexist (Hizanidis, Kanas, Bezerianos &
+Bountis 2014).
+The largest Lyapunov exponent λ1 is depicted in panel b) of Fig. 1. This graph shows that λ1
+3
+
+
+## Page 4
+
+
+is rather high (red region) in the region of the parameter space where the synchronization levels
+remain quite low. Since higher values of λ1(> 0) are associated with a higher degree of chaos, this
+implies an “inverse” relation between synchronization levels and the level of dynamical instability
+(i.e.
+chaos) of neural activity.
+Of course, depending on the coupling strengths, there are also
+regions where both quantities are low.
+We have computed the auto-regressive ΦAR for both the membrane potential p(t) and fast
+ion current q(t).
+Indeed, for each pair of values in the plane of nonlinear and linear coupling
+parameters, the numerical simulation produces a recorded time-series Xp(t) = {p1(t), . . . , p277(t)}
+and Xq(t) = {q1(t), . . . , q277(t)} of the neural activity of all 277 neurons (for an explanation why
+we used 277 out of 302 neurons see Subsec.
+C.elegans Data). The C.elegans brain network was
+divided into 6 unequally distributed communities. Thus, it is more convenient for the estimation of
+Φp
+AR and Φq
+AR, to compute for each community ci, i = 1, . . . , 6, the following averaged time-series
+Xp
+ci(t) =
+1
+|ci|
+X
+j∈ci
+Xp
+j (t),
+(1)
+and
+Xq
+ci(t) =
+1
+|ci|
+X
+j∈ci
+Xq
+j (t),
+(2)
+where |ci| is the number of neurons in community i.
+The next step is to prepare the community-averaged time-series in such a way as to be able
+to calculate Φp
+AR and Φq
+AR, based on the averaged Xp
+ci and Xq
+ci versions of the data. In this
+respect, we transform Xp
+ci and Xq
+ci into stationary time-series by performing initially a detrending
+procedure (subtracting from them their mean), adjusting any diﬀerence in time of their variance by
+computing the logarithm with base 10 of Xp
+ci and Xq
+ci, and removing the parts of the trajectories
+that correspond to quiescent periods (i.e. absence of spiking activity). In this way, we obtain
+the stationary versions ¯Xp
+ci and ¯Xq
+ci, which can be seen as multivariate (six variates for each ¯Xci)
+analogues of stochastic-like random stationary processes. These quantities can now be used for the
+estimation of Φp
+AR and Φq
+AR.
+For the core estimation of these two quantities we use the Matlab code “ARphidata.m” for
+stationary data provided in the Supporting Information of Ref. (Barrett & Seth 2011). We thus
+present the results of these computations for τ = 1 (associated with the walktrap community
+detection method) in panels i), j) of Fig. 1. Panel i) is the parameter space for the quantity
+Φp
+AR and panel j) for the quantity Φq
+AR. In the context of the integrated information theory of
+consciousness (Tononi & Sporns 2003, Tononi 2004, Tononi 2005, Tononi 2008), ΦAR ≥0, being
+4
+
+
+## Page 5
+
+
+zero when a system generates the same amount of information with the sum of its parts as it
+transitions between states. If one is to attribute a physical meaning to Φp
+AR and Φq
+AR, one would
+say that the higher their values, the higher the level of consciousness. In this sense, we cannot
+claim that a certain value of Φ is small, unless it is compared with other Φ values in the same
+ﬁgure. For this reason, we do not normalize Φp
+AR and Φq
+AR. We observe that Φp
+AR reaches high
+values in the range of low nonlinear and relatively moderate to high linear couplings; these are
+precisely the values where the synchronization levels of all communities (panels c) to h)) and the
+whole BDN (panel a)) of the C.elegans are also quite high. On the other hand, Φq
+AR attains high
+values in the range of high nonlinear and relatively low to high linear couplings; this is the region
+of parameter space where the synchronization level of the sixth (see panel h)) and possibly the
+third community (see panel e)) are very high, despite the asynchronous behavior of the rest of the
+communities.
+A similar study for τ = 1 presented in Fig. 2 for the six communities detected by the Louvain
+method reveals analogous results with those for the walktrap method shown in Fig. 1. In these
+two ﬁgures, there are, however, some striking diﬀerences with regard to the global synchronization
+ρ and integrated information theory measure Φp
+AR.
+Indeed, a comparison between Figs.
+1a)
+and 2a) shows that the whole BDN of the C.elegans becomes highly synchronized (Fig. 2a)) for
+gn > 0.25, which is in contrast to what is depicted in Fig. 1a) for the same range of nonlinear
+couplings. The reason is that the number of nonlinear connections for the Louvain method is larger
+(742 undirected links) than those of the walktrap method (586 undirected links). Additionally, the
+integrated information theory measures Φp
+AR in Figs. 1i) and 2i) attain their highest values (about
+0.3 and 0.4 respectively) for diﬀerent coupling ranges: Notably, Φp
+AR is maximal in Fig. 2i) for
+gl values in (1.6, 2) and small nonlinear coupling gn, whereas in Fig. 1i), it is maximal for pairs
+of couplings for which gl > 0.8 and gn quite small. On the other hand, when the linear coupling
+is moderate and the nonlinear coupling large enough (i.e.
+gn ≈0.28), Φq
+AR in Figs.
+1j) and
+2j) attains its highest value (of about 0.09 in both cases). It is well-known that, in the context
+of the integrated information theory of consciousness, a good practise is to adopt the τ value
+that maximizes ΦAR.
+Here, in order to study the eﬀect of diﬀerent time delays in ΦAR, we
+have also computed similar parameter spaces for both integrated information theory measures and
+community detection methods for τ = 2, 3, 4 and 5. Interestingly, we found that the new parameter
+spaces about both Φ measures for τ = 2, 3, 4 and 5 are qualitatively similar to those in Figs. 1 and
+2 for τ = 1, and thus there is no need for choosing those that maximize ΦAR. For comparison, we
+present the case for τ = 5 in the Supplemental Figure S1 online. In conclusion, both measures attain
+higher levels for couplings for which either all communities are strongly synchronized, or there is a
+5
+
+
+## Page 6
+
+
+mixed state of highly synchronized and desynchronized communities. Both cases are found to be
+characterized by low chaotic behavior, as depicted by the maximal Lyapunov exponent.
+Discussion
+The human brain has about 86 billion neurons (Azevedo, Carvalho, Grinberg, Farfel, Ferretti, Leite,
+Filho, Lent & Herculano-Houzel 2009) whereas C.elegans has only 302. However, it is well-known
+that evolution uses similar approaches for the solution of similar problems, and thus features of the
+neuronal dynamics of C.elegans may have more general validity. In this respect, it should be noted
+that both the human and the C.elegans nervous systems consist of neurons that communicate
+either chemically via special “synapses”, or linearly via “gap junctions”. Chemical communication
+is achieved via the so-called neurotransmitters. Many of these neurotransmitters are common in
+humans and C.elegans, including glutamate, GABA, acetylcholine and dopamine. The genome
+of the C.elegans is almost 30 times smaller than that of humans, but still encodes almost 22000
+proteins; moreover, it is about 35% similar to that of humans (Blumenthal & Spieth 1996, 1993-
+2014).
+Electrical communication is bidirectional and of local character, i.e.
+it exists between
+neurons whose cells are close. They are believed to contribute to the regulation of synchronization
+in the brain network.
+Each conscious state consists of a myriad of diﬀerent parts and is distinct from any other
+experience. At the same time, it is experienced as a coherent whole that is absolutely impossible
+to be separated into parts. This union of “diﬀerentiation” and “integration” is a fundamental
+property of consciousness. Perhaps the dynamical complexity of neural systems is directly related
+to the above fundamental property.
+In this work we have attempted to quantify and compare certain important measures of dy-
+namical complexity. In particular: (i) A measure of synchronicity, which is merely suggestive of
+integration between sub-domains as the system exhibits coherent behavior as a whole (see Ref.
+(Srinivasan, Russell, Edelman & Tononi 1999) in which the authors show that when a simple ﬂick-
+ering stimulus is consciously perceived there is a marked increase in long-range coherence at the
+stimulus frequency), (ii) the largest Lyapunov exponent, which provides a measure of chaos (or
+dynamical instability) and, (iii) Φp
+AR and Φq
+AR, which are the auto-regressive information mea-
+sures associated with the membrane potential p and fast ion current q respectively, and can be
+understood as measures of the extent to which the present global state of the system reﬂects the
+past global state, compared with predictions based on the most informative decomposition of the
+system into its components.
+6
+
+
+## Page 7
+
+
+Figure 1: High synchronization and low dynamical neural instability imply high integrated in-
+formation theory measure of consciousness levels for the C.elegans communities detected by the
+walktrap method. Panel a) is the parameter space of the synchronization measure ρ for the whole
+BDN and panel b) is a similar parameter space for the largest Lyapunov exponent λ1 of the neural
+dynamics. Panels c) to h) are similar to panel a) for the synchronization measures ρc1-ρc6 of the
+six communities, respectively. Panels i) and j) show the parameter spaces of the integrated infor-
+mation theory measures Φp
+AR and Φq
+AR, respectively. In all panels, gn is the nonlinear coupling,
+gl the linear coupling, and τ = 1.
+7
+
+
+## Page 8
+
+
+Figure 2: High synchronization and low dynamical neural instability imply high integrated in-
+formation theory measure of consciousness levels for the C.elegans communities detected by the
+Louvain method. Panel a) is the parameter space of the synchronization measure ρ for the whole
+BDN and panel b) is a similar parameter space for the largest Lyapunov exponent λ1 of the neural
+dynamics. Panels c) to h) are similar to panel a) for the synchronization measures ρc1-ρc6 of the
+six communities, respectively. Panels i) and j) show the parameter spaces of the integrated infor-
+mation theory measures Φp
+AR and Φq
+AR, respectively. In all panels, gn is the nonlinear coupling,
+gl the linear coupling, and τ = 1.
+8
+
+
+## Page 9
+
+
+It appears that the notion of ΦAR provides a useful tool for quantifying the integrated infor-
+mation contained in a given neural system. In the context of the integrated information theory of
+consciousness, if one is to attribute a physical meaning to ΦAR, one would say that the higher its
+value, the higher the level of consciousness.
+Combining the results of Figs. 1 and 2, and based on the above interpretation, our analysis
+suggests that, for particular coupling strengths, the C.elegans BDN is able to generate more in-
+formation than the sum of its constituent parts. Speciﬁcally, we found that the C.elegans BDN
+attains higher levels of integrated information for couplings for which either all its communities are
+highly synchronized, or there is a mixed state of highly synchronized and desynchronized commu-
+nities, a situation that corresponds to low chaotic neural behavior. We found that in the case of
+the C.elegans brain network there exist substantial diﬀerences between the behaviors of the Φp
+AR
+and Φq
+AR measures.
+A complementary approach has been given in Ref. (Antonopoulos, Srivastava, de S. & Baptista
+2015) where various statistical quantities associated with the C.elegans brain network, such as the
+global clustering coeﬃcient, the average of local clustering coeﬃcients, the mean shortest path, the
+degree probability distribution function of the network and the small-worldness measure have been
+computed. Even though small-worldness captures important aspects of complex networks at the
+local and global scale, it does not provide information about the intermediate scale. This can be
+better described by the modularity, or community structure of the network.
+Finally, it is important to note that in Ref. (Varshney et al. 2011) the authors have gathered
+and combined material from many diﬀerent sources and studies, and reported on the whole set of
+self-consistent gap junction and chemical synapses of the C.elegans brain. They identiﬁed neurons
+that may play a central role in information processing, and network motifs that could serve as
+functional modules of the brain network. This is in the same spirit with the notion of communities
+used in the present study, but involves a more complicated distribution of chemical and electrical
+synapses than we have assumed here. In a future publication, we plan to extend our analysis to
+investigate dynamical complexity in more “realistic” neural networks, such as those reported in
+Ref. (Varshney et al. 2011).
+9
+
+
+## Page 10
+
+
+Experimental Procedures
+C.elegans Data
+C.elegans is a 1mm long soil worm with a simple nervous system that consists of 302 neurons and
+about 7000 synapses (Gally & Bessereau 2003). Its nervous system is divided into two distinct
+and independent components: A large somatic nervous system and a small pharyngeal nervous
+system. In our study we use the connectome of the large somatic nervous system found in Ref.
+( 2010-2011), which consists of 277 neurons. In the present work we are not interested in and do
+not investigate the important questions of the directionality of the information ﬂow, thus we use
+the undirected version of the relevant adjacency matrix. We couple the diﬀerent neurons via ODEs
+using the corresponding adjacency matrix obtained from the brain connectivity of the C.elegans.
+The Hindmarsh-Rose Neural Model
+We model the dynamics of each “neuron” by a single HR neuron system. Namely, following Refs.
+(Baptista et al. 2010, Antonopoulos et al. 2015), we endow the nodes (i.e. neurons) of the C.elegans
+BDN with the dynamics characterized by the following system of ODEs (Hindmarsh & Rose 1984)
+˙p = q −ap3 + bp2 −n + Iext,
+˙q = c −dp2 −q,
+˙n = r[s(p −p0) −n],
+(3)
+where p is the membrane potential, q characterizes the fast ion current (i.e. Na+ or K+), and
+n the slow ion (adaptation) current, for example Ca2+. In this neuron system, p, q and n are
+expressed in dimensionless units (Hindmarsh & Rose 1984).
+The parameters a, b, c, d, which
+model the function of the fast ion channels, and s, p0 are given by a = 1, b = 3, c = 1, d = 5,
+s = 4 and p0 = −8/5 (see Ref. (Hindmarsh & Rose 1984)) and are the same for all neurons.
+Parameter r, which modulates the slow ion channels of the system, is set to 0.005 for all neurons,
+and the parameter Iext, which is the current that enters the neuron, is set to 3.25 for all neurons.
+For the above values, each neuron can exhibit chaotic behavior and the solution for p(t) exhibits
+typical multi-scale chaos characterized by spiking and bursting activity which is consistent with the
+membrane potential observed in experiments on single neurons in vitro (Hindmarsh & Rose 1984).
+Thus, chaos not only allows the simulated BDNs to reproduce behaviors empirically observed in
+experiments with single neurons, but also provides an interesting mechanism for the network to
+10
+
+
+## Page 11
+
+
+process information generated via an external stimulus (Baptista & Kurths 2008).
+We couple the HR system to create an undirected BDN of Nn neurons connected simultaneously
+by linear diﬀusive coupling and nonlinear coupling synapses (Antonopoulos et al. 2015)
+˙pi = qi −ap3
+i + bp2
+i −ni + Iext −gn(pi −Vsyn)
+Nn
+X
+j=1
+BijS(pj) −gl
+Nn
+X
+j=1
+GijH(pj),
+˙qi = c −dp2
+i −qi,
+˙ni = r[s(pi −p0) −ni],
+˙φi = ˙qipi −˙piqi
+p2
+i + q2
+i
+, i = 1, . . . , Nn,
+(4)
+where ˙φi is the instantaneous angular frequency of the i-th neuron, with φi being the phase deﬁned
+by the fast variables (pi, qi) of the i-th neuron (Pereira, Baptista & Kurths 2007). The functions
+H and S are chosen as H(pi) = pi and S(pj) = [1 + e−λ(pj−θsyn]−1 (Baptista et al. 2010). S is
+a sigmoidal function that acts as a continuous mechanism for the activation and deactivation of
+the chemical synapses and, also allows for analytical calculations of the synchronous modes and
+synchronization manifolds of the coupled system of Eqs. (4) (Baptista et al. 2010). The remaining
+parameters are chosen as follows: For the parameters θsyn, λ, and Vsyn, we set θsyn = −0.25,
+λ = 10, and Vsyn = 2 is chosen so as to yield an excitatory BDN.
+The parameters gn and gl, which are varied in the parameter spaces of all ﬁgures of the paper,
+denote the strength associated with the nonlinear excitatory and linear diﬀusive coupling between
+the corresponding synapses. Regarding the physical meaning of these parameters, we note that
+the authors in Ref.
+(Varshney et al. 2011) have suggested that there exist chemical and self-
+consistent gap junction synapse networks in the C.elegans brain.
+In our model, we have used
+a simpliﬁed version, in which neurons in diﬀerent communities are coupled chemically (through
+nonlinear excitatory connections) whereas those in the same community are coupled electrically
+(through linear diﬀusive connections). It would be interesting to extend our study to more complex
+brain networks such as those described in Ref. (Varshney et al. 2011).
+For the chosen parameters, we have taken |pi| < 2, and (pi−Vsyn) always negative for excitatory
+networks. If two neurons are connected via an excitatory synapse, then if the presynaptic neuron
+spikes, it induces the postsynaptic neuron to spike. We adopt only excitatory nonlinear synapses in
+our analysis. Gij accounts for the way neurons are linearly (diﬀusively) coupled and is represented
+by a Laplacian matrix
+Gij = Kij −Aij,
+(5)
+where A is the binary adjacency matrix of the linear connections and K is the degree identity
+11
+
+
+## Page 12
+
+
+matrix based on A; thus PNn
+j=1 Gij = 0. By binary we mean that if there is a connection between
+two neurons then the entry of the matrix is 1, otherwise it is 0. Bij is a binary adjacency matrix
+and describes how the neurons are nonlinearly connected and therefore its diagonal elements are
+equal to 0, thus PNn
+j=1 Bij = ki, where ki is the degree of the i-th neuron, i.e. ki represents the
+number of nonlinear links that neuron i receives from all other j neurons in the network. A positive
+oﬀ-diagonal value of both matrices in row i and column j means that neuron i perturbs neuron
+j with an intensity given by glGij (linear diﬀusive coupling) or by gnBij (nonlinear excitatory
+coupling). Therefore, the binary adjacency matrix C of the complex networks considered in this
+work is given by
+C = A + B.
+(6)
+We use as initial conditions for each neuron i the following:
+pi = −1.30784489 + ηr
+i , qi =
+−7.32183132 + ηr
+i , ni = 3.35299859 + ηr
+i and φi = 0, where ηr
+i is a uniformly distributed ran-
+dom number in [0, 0.5] for all i = 1, . . . , Nn (see Ref. (Antonopoulos et al. 2015) for details). With
+these initial conditions the trajectory converges very quickly to the attractor of the dynamics and
+thus, there is less need to consider longer transients.
+Numerical Simulations Details
+We have integrated numerically Eqs. (4) using the Euler integration method (ﬁrst order) with
+time step δt = 0.01.
+We have decided to employ a ﬁrst order scheme in order to reduce the
+numerical complexity and CPU time of the required simulations to feasible levels. A preliminary
+comparison of the trajectories computed for the same parameters (i.e. δt, initial conditions, etc.)
+via integration methods of order 2, 3 and 4 produced similar results.
+We have calculated the largest Lyapunov exponent λ1 using the well-known method of Ref.
+(Benettin et al. 1980). The numerical integration of the HR system of Eqs. (4) was performed
+for a total time of tf = 5000 units and the computation of the various quantities needed in our
+analysis, such as the largest Lyapunov exponent λ1, were computed after a transient time tt = 300
+in order to make sure that orbits have converged to an attractor of the dynamics.
+Synchronization Measures in BDNs
+It is known that burst synchronization of neural systems can be strongly inﬂuenced by many
+factors, including coupling strengths and types (Belykh et al. 2005), noise (Buri´c, Todorovi´c &
+Vasovi´c 2007), and the existence of clusters in neural networks (Prado, Lopes, Batista, Kurths &
+Viana 2014). Here, we use the order parameter ρ to account for the synchronization level of the
+12
+
+
+## Page 13
+
+
+neural activity of the C.elegans BDN and its communities (G´omez-Garde˜nes et al. 2010). This
+notion, which originates from the theory of measures of dynamical coherence of a population of
+Nn oscillators of the Kuramoto type (Kuramoto & Battogtokh 2002), can be computed via the
+expression (G´omez-Garde˜nes et al. 2010)
+z(t) = ρ(t)eiΨ(t) =
+Nn
+X
+j=1
+eiφj(t),
+(7)
+where Nn denotes the number of neurons of the BDN and φj(t) is the phase variable of the j-th
+neuron of the HR system given by the fourth equation in (4). The modulus ρ(t) of the complex
+number z(t), which takes values in [0, 1], measures the phase coherence of the population of the
+Nn neurons, and Ψ(t) measures the average phase of the population of oscillators. Actually, we
+average ρ(t) over time to obtain the order parameter ρ ≡⟨ρ(t)⟩t, which determines the tendency
+of ρ in time. The value ρ = 1 implies complete synchronization of the oscillators, whereas ρ = 0
+means complete desynchronization.
+We use Eq. (7), adapted accordingly, for the computation of the synchronization level of the
+C.elegans BDN, and of its communities (for a discussion of communities see Analysis of Networks
+and Communities subsection). In particular, Nn is the number of neurons of the BDN and j runs
+through all Nn = 277 neurons of that network, whereas in the case of communities, Nn represents
+the number of neurons of the particular community and j refers to the particular neurons which
+are members of this community.
+Analysis of Networks and Communities
+C.elegans Brain Network
+We identiﬁed the communities of the C.elegans brain network using two diﬀerent approaches:
+The walktrap method (Pons & Latapy 2005) which employs the igraph software using six steps
+(Antonopoulos et al. 2015), and the Louvain method (Blondel, Guillaume, Lambiotte & Lefebvre
+2008) (with resolution 1) which employs the NetworkX software ( 2009).
+The walktrap algorithm detects communities using a series of short random walks based on the
+idea that vertices encountered on any given random walk are more likely to lie within a community.
+The algorithm initially treats each node as its own community, and then merges them into larger
+communities, followed by still larger ones, and so on. Essentially, given a graph, this algorithm
+tries to ﬁnd densely connected subgraphs (i.e. communities) via random walks. The idea is that
+short random walks tend to stay in the same community. Using the above procedure we have been
+13
+
+
+## Page 14
+
+
+able to identify 6 communities in the C.elegans brain network.
+The Louvain algorithm involves two phases: In the ﬁrst phase, by optimizing modularity locally,
+it looks for “small” communities, and in the second phase the algorithm aggregates nodes of the
+same community and builds a new network whose nodes are the communities. These steps are
+repeated iteratively until a maximum of modularity is achieved. By focusing on ad-hoc networks
+with known community structure, it has been shown that the Louvain method is very accurate.
+Moreover, due to its hierarchical form which is reminiscent of renormalization strategies, this
+method allows one to look for communities at diﬀerent resolutions. The output therefore yields
+several partitions: The partition found after the ﬁrst step typically consists of many communities
+of small sizes; at subsequent steps, larger and larger communities are found due to the aggregation
+mechanism, and this process naturally leads to a hierarchical decomposition of the network. This
+algorithm is obviously an approximate method and nothing ensures that the global maximum
+of modularity is attained, but several tests have conﬁrmed that the Louvain algorithm is quite
+accurate and often provides a decomposition into communities with a modularity close to the
+optimal. The Louvain algorithm outperforms other methods in terms of computation time, and
+this allows one to analyze networks of unprecedented size (Blondel et al. 2008).
+Following this procedure we were able to identify again 6 communities in the C.elegans brain
+network.
+However, the communities identiﬁed by the walktrap and Louvain methods are not
+identical, neither in size nor in their members.
+Integrated Information Theory Measures
+In Ref. (Barrett & Seth 2011) the authors present some practical methods for measuring integrated
+information (Tononi 2004) from time-series data. Based on recently introduced measures of inte-
+grated information (see for example Refs. (Tononi & Sporns 2003, Balduzzi & Tononi 2008, Oizumi
+et al. 2014)), they analyze quantities that measure the extent to which a system generates more
+information than the sum of its constituent parts as it transitions between diﬀerent states. These
+measures possibly reﬂect levels of consciousness generated by neural systems. The authors in Ref.
+(Barrett & Seth 2011) propose two new such measures, ΦE (empirical) and ΦAR (auto-regressive),
+that overcome limitations faced by older versions of analogous quantities, and can be computed us-
+ing time-series data derived from measurements of realistic or model systems. Thus, these measures
+oﬀer promising approaches for revealing relations between integrated information, consciousness,
+and other neurocognitive quantities in real and model systems.
+The auto-regressive Φ (ΦAR) is well-suited for cases where the time-series is non-Gaussian
+14
+
+
+## Page 15
+
+
+distributed but nevertheless stationary and stochastic. By construction, when applied to Gaussian-
+distributed, stationary data, it is equivalent to the well-known empirical version of Φ for integrated
+information, ΦE. However, these measures already diﬀer when applied to non-Gaussian, stationary
+data. Indeed, ΦAR provides a useful measure of integrated information based on relations between
+conditional entropy, partial covariance and linear regression prediction error.
+Next, we brieﬂy describe the derivation of ΦAR following Ref. (Barrett & Seth 2011): We start
+from two multivariate random variables X = (X1, . . . , Xn)T and Y = (Y 1, . . . , Y m)T , where T
+denotes the transpose of a matrix or a vector. Their linear regression is then given by
+X = a + A · Y + E,
+(8)
+where A is the regression matrix, a is a vector of constants, and E the prediction error. E is a
+random vector uncorrelated with Y . Given that the distributions of X and Y are deﬁned by
+A
+=
+X
+(X, Y )
+X
+(Y )−1,
+(9)
+a
+=
+¯x −A · ¯y,
+(10)
+it follows that the linear regression is unique. In this framework, (Y )−1 denotes the inverse of the
+covariance matrix of Y , P(X) denotes the n×n matrix of covariances, P(X, Y ) the n×m matrix
+of cross-covariances, and ¯x, ¯y are the means of the random variables X and Y respectively. E has
+zero mean and its covariance is the partial covariance of X given Y ,
+X
+(E) =
+X
+(X|Y ) =
+X
+(X) −
+X
+(X, Y )
+X
+(Y )−1 X
+(X, Y )T .
+(11)
+Provided that P(Y ) is an invertible covariance matrix, Eq. (11) holds for any random variables
+X and Y , whether they are Gaussian or not.
+If it happens that X and Y are Gaussian distributed random multivariate variables, then the
+conditional entropy of X given that Y = y, y ∈Rm satisﬁes the equation
+H(X|Y = y) = 1
+2 log
+
+det
+X
+(E)
+
++ 1
+2n log(2πe), ∀y ∈Rm,
+(12)
+where det() denotes the determinant of the matrix. This is a relation between the conditional
+entropy and linear regression prediction error valid for Gaussian systems. Under these assumptions,
+15
+
+
+## Page 16
+
+
+the eﬀective information φ can be written as
+φ
+h
+X; τ, {M 1, M 2}
+i
+= 1
+2 log
+ det(P(X))
+det(P(EX))
+
+−1
+2
+2
+X
+k=1
+log
+ det(P(M k))
+det(P(EM k))
+
+,
+(13)
+where EM k, k = 1, 2, and EX are the prediction errors in the linear regressions
+M k
+t−τ
+=
+AM k · M k
+t + EM k
+t
+,
+(14)
+Xt−τ
+=
+AX · Xt + EX
+t .
+(15)
+Here, the notation Xt−τ denotes the τ steps past state (i.e. time lag) from the current state Xt.
+If the system under consideration is not Gaussian distributed, then Eq. (13) does not hold.
+However, the right hand side of Eq. (13) is a quantity that is well deﬁned and can be measured
+empirically. This quantity is actually the basis of the alternative measure ΦAR, i.e. the auto-
+regressive measure Φ for integrated information proposed in Ref. (Barrett & Seth 2011).
+Summarizing, we assume that X is a stationary, not necessarily Gaussian, multivariate ran-
+dom variable, and let φAR
+h
+X; τ, {M 1, M 2}
+i
+represent the right hand side of Eq. (13). Then,
+ΦAR is simply φAR for the bipartition B = {M 1, M 2} of X that minimizes φAR divided by the
+normalization factor
+L(B) = 1
+2 log
+ 
+min
+k
+n
+(2πe)|M k| det
+X M ko!
+.
+(16)
+Under these considerations, ΦAR
+
+X; τ
+
+is deﬁned by
+ΦAR
+
+X; τ
+
+= φAR
+
+X; τ, Bmin(τ)
+
+,
+(17)
+where
+Bmin(τ) = argB min
+(
+φAR[X; τ, B]
+L(B)
+)
+.
+(18)
+The function ΦAR, deﬁned by Eq. (17), is formulated in terms of the linear regression prediction
+error, which essentially compares the whole system to the sum of its parts in terms of the log-ratio
+of the variance of the past state to the variance of the prediction errors of the linear regression
+of the past on the present. It can be understood as a measure of the extent to which the present
+global state of a system is predicted by the past global state, as compared to predictions based on
+the most informative decomposition of the system into its component parts. In other words, it is a
+measure that quantiﬁes the extent to which a system generates more information than the sum of
+16
+
+
+## Page 17
+
+
+its constituent parts. Thus, as argued in Ref. (Barrett & Seth 2011), ΦAR possibly reﬂects levels
+of consciousness generated by neural systems.
+It is important to note that in this work we have computed Φ using a macroscopic partition of
+the associated network, as explained in the Results section. For the human brain it is an unproven
+hypothesis that macro-level Φ results correlate with micro-level Φ values. The interpretation of
+our results for the C.elegans brain, therefore, with respect to integrated information, is based on a
+similar hypothesis.
+Acknowledgements
+A. F. acknowledges support from EPSRC. We would like to thank Dr. N. Kouvaris for many fruitful
+discussions and for providing us the communities and adjacency matrices based on the Louvain
+community detection method.
+C. G. A., A. F. and T. B. acknowledge that this research has
+been co-ﬁnanced by the European Union (European Social Fund - ESF) and Greek national funds
+through the Operational Program “Education and Lifelong Learning” of the National Strategic
+Reference Framework (NSRF) - Research Funding Program: THALES - Investing in knowledge
+society through the European Social Fund.
+References
+(1993-2014), McDonnell Genome Institute. Available:
+http://genome.wustl.edu/genomes/
+detail/caenorhabditis-briggsae/. [Online; accessed 27-February-2014].
+(2009), Community Detection for NetworkX’s Documentation. Available: http://perso.crans.
+org/aynaud/communities/. [Online; accessed 4-March-2014].
+(2010-2011), Connectome File Format - Datasets (Version 2.0). Available: http://cmtk.org/
+viewer/datasets/. [Online; accessed 27-February-2014].
+Antonopoulos, C. G., Srivastava, S., de S., P. S. E. & Baptista, M. S. (2015), ‘Do brain networks
+evolve by maximizing their information ﬂow capacity?’, PLOS Comput. Biol. 11(8), e1004372.
+Arenas, A., Guilera, A. D., Kurths, J., Moreno, Y. & Zhou, C. (2008), ‘Synchronization in complex
+networks’, Physics Reports 469(3), 93–153.
+Azevedo, F. A. C., Carvalho, L. R. B., Grinberg, L. T., Farfel, J. M., Ferretti, R. E. L., Leite,
+R. E. P., Filho, W. J., Lent, R. & Herculano-Houzel, S. (2009), ‘Equal numbers of neuronal
+17
+
+
+## Page 18
+
+
+and nonneuronal cells make the human brain an isometrically scaled-up primate brain’, The
+Journal of Comparative Neurology 513(5), 532–541.
+Balduzzi, D. & Tononi, G. (2008), ‘Integrated information in discrete dynamical systems: Motiva-
+tion and theoretical framework’, PLOS Comput. Biol. 4(6), e1000091.
+Balduzzi, D. & Tononi, G. (2009), ‘Qualia: The geometry of integrated information’, PLOS Com-
+put. Biol. 5(8), e1000462.
+Baptista, M. S., Kakmeni, F. M. & Grebogi, C. (2010), ‘Combined eﬀect of chemical and electrical
+synapses in Hindmarsh-Rose neural networks on synchronization and the rate of information’,
+Phys. Rev. E 82, 036203.
+Baptista, M. S. & Kurths, J. (2008), ‘Transmission of information in active networks’, Phys. Rev.
+E 77, 026205.
+Bar-yam, Y. (2003), Dynamics of Complex Systems (Studies in Nonlinearity), Westview Press.
+Barrett, A. D. & Seth, A. K. (2011), ‘Practical measures of integrated information for time-series
+data’, PLOS Comput. Biol. 7, e1001052.
+Belykh, I., Lange, E. & Hasler, M. (2005), ‘Synchronization of bursting neurons: What matters in
+the network topology’, Phys. Rev. Lett. 94, 188101.
+Benedek, M., Bergner, S., K¨onen, T., Fink, A. & Neubauer, A. C. (2011), ‘EEG alpha synchroniza-
+tion is related to top-down processing in convergent and divergent thinking’, Neuropsychologia
+49(12), 3505–3511.
+Benettin, G., Galgani, L., Giorgilli, A. & Strelcyn, J.-M. (1980), ‘Lyapunov characteristic expo-
+nents for smooth dynamical systems and for Hamiltonian systems: A method for computing
+all of them. Part 1: Theory and Lyapunov characteristic exponents for smooth dynamical sys-
+tems and for Hamiltonian systems: A method for computing all of them. Part 2: Numerical
+application’, Meccanica 15, 9–20, 21–30.
+Blondel, V. D., Guillaume, J. L., Lambiotte, R. & Lefebvre, E. (2008), ‘Fast unfolding of
+communities in large networks’, Journal of Statistical Mechanics: Theory and Experiment
+2008(10), P10008.
+Blumenthal, T. & Spieth, J. (1996), ‘Gene structure and organization in caenorhabditis elegans’,
+Current Opinion in Genetics & Development 6, 692–698.
+18
+
+
+## Page 19
+
+
+Buri´c, N., Todorovi´c, K. & Vasovi´c, N. (2007), ‘Inﬂuence of noise on dynamics of coupled bursters’,
+Phys. Rev. E 75, 067204.
+Dehaene, S. & Changeux, J.-P. (2011), ‘Experimental and theoretical approaches to conscious
+processing’, Neuron 70(2), 200–227.
+Fuchs, A. (2013), Nonlinear Dynamics in Complex Systems, Springer-Verlag Berlin Heidelberg.
+Gally, C. & Bessereau, J. L. (2003), ‘C. elegans: Des neurones et des g`enes’, Med. Sci. (Paris)
+19, 725–734.
+G´omez-Garde˜nes, J., Zamora-L´opez, G., Moreno, Y. & Arenas, A. (2010), ‘From modular to
+centralized organization of synchronization in functional areas of the cat cerebral cortex’,
+PLoS ONE 5, e12313.
+Hindmarsh, J. L. & Rose, R. M. (1984), ‘A model of neuronal bursting using three coupled ﬁrst
+order diﬀerential equations’, Proc. R. Soc. London Ser. B 221, 87–102.
+Hizanidis, J., Kanas, V., Bezerianos, A. & Bountis, T. (2014), ‘Chimera states in nonlocally coupled
+networks of Hindmarsh-Rose neuron models’, Int. J. Bif. Chaos 24(3), 1450030.
+Hodgkin, A. L. & Huxley, A. F. (1952), ‘A quantitative description of membrane current and its
+application to conduction and excitation in nerve’, The Journal of physiology 117, 500–544.
+Koch, C. (2012), Consciousness, MIT Press.
+Kuramoto, Y. & Battogtokh, D. (2002), ‘Coexistence of coherence and incoherence in nonlocally
+coupled phase oscillators’, Nonlinear Phenomena in Complex Systems 5(4), 380–385.
+Nicolis, G. & Nicolis, C. (2007), Foundations of Complex Systems, World Scientiﬁc, Singapore.
+Oizumi, M., Albantakis, L. & Tononi, G. (2014), ‘From the phenomenology to the mechanisms of
+consciousness: Integrated information theory 3.0’, PLOS Comput. Biol. 10(5), e1003588.
+Ott, E. (2002), Chaos in Dynamical Systems, Cambridge University Press.
+Pereira, T., Baptista, M. S. & Kurths, J. (2007), ‘Detecting phase synchronization by localized
+maps: Application to neural networks’, Europhysics Letters 77, 40006.
+Pons, P. & Latapy, M. (2005), ‘Computing communities in large networks using random walks’,
+Lecture Notes in Computer Science 3733, 284–293.
+19
+
+
+## Page 20
+
+
+Prado, T. d. L., Lopes, S. R., Batista, C. A. S., Kurths, J. & Viana, R. L. (2014), ‘Synchronization
+of bursting Hodgkin-Huxley-type neurons in clustered networks’, Phys. Rev. E 90, 032818.
+Srinivasan, R., Russell, D. P., Edelman, G. M. & Tononi, G. (1999), ‘Increased synchroniza-
+tion of neuromagnetic responses during conscious perception’, The Journal of Neuroscience
+19(13), 5435–5448.
+Tononi, G. (2004), ‘An information integration theory of consciousness’, BMC Neurosci. 5, 42.
+Tononi, G. (2005), ‘Consciousness, information integration, and the brain’, Prog. Brain Res.
+150, 109–126.
+Tononi, G. (2008), ‘Consciousness as integrated information: A provisional manifesto’, Biol Bull.
+215(3), 216–242.
+Tononi, G. (2012), Phi: A voyage from the brain to the soul, Pantheon Books.
+Tononi, G. & Edelman, G. M. (1998), ‘Consciousness and complexity’, Science pp. 1846–1851.
+Tononi, G. & Sporns, O. (2003), ‘Measuring information integration’, BMC Neurosci. p. 31.
+Varshney, L. R., Chen, B. L., Paniagua, E., Hall, D. H. & Chklovskii, D. B. (2011), ‘Struc-
+tural properties of the “Caenorhabditis elegans” neuronal network’, PLOS Comput. Biol.
+7(2), e1001066.
+20
+
+---
+**Related:** [[00-Home]]
+
+---
+
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]

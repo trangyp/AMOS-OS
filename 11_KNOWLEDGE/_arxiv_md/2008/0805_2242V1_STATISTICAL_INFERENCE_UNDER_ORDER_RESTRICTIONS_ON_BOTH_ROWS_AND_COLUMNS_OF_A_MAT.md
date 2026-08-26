@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0805.2242v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0805.2242v1_Statistical_inference_under_order_restrictions_on_both_rows_and_columns_of_a_mat
 
 > Source: 0805.2242v1_Statistical_inference_under_order_restrictions_on_both_rows_and_columns_of_a_mat.pdf

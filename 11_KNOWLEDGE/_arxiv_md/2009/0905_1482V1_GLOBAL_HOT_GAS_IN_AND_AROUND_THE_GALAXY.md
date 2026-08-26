@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0905.1482v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0905.1482v1_Global_Hot_Gas_in_and_around_the_Galaxy
 
 > Source: 0905.1482v1_Global_Hot_Gas_in_and_around_the_Galaxy.pdf

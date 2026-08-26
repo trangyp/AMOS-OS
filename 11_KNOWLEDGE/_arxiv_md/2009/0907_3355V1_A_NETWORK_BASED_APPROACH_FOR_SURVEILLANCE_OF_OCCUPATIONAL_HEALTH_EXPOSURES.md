@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0907.3355v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0907.3355v1_A_network-based_approach_for_surveillance_of_occupational_health_exposures
 
 > Source: 0907.3355v1_A_network-based_approach_for_surveillance_of_occupational_health_exposures.pdf

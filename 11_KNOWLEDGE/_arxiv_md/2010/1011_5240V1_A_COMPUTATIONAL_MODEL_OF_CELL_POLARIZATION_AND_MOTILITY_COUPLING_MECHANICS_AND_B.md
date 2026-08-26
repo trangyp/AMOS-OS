@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1011.5240v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 1011.5240v1_A_computational_model_of_cell_polarization_and_motility_coupling_mechanics_and_b
 
 > Source: 1011.5240v1_A_computational_model_of_cell_polarization_and_motility_coupling_mechanics_and_b.pdf

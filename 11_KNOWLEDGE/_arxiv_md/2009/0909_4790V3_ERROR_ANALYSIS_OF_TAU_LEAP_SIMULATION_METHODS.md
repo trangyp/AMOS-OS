@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0909.4790v3
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0909.4790v3_Error_analysis_of_tau-leap_simulation_methods
 
 > Source: 0909.4790v3_Error_analysis_of_tau-leap_simulation_methods.pdf

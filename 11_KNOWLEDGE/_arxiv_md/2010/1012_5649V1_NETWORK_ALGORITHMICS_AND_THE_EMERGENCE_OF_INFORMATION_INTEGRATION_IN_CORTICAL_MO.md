@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1012.5649v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 1012.5649v1_Network_algorithmics_and_the_emergence_of_information_integration_in_cortical_mo
 
 > Source: 1012.5649v1_Network_algorithmics_and_the_emergence_of_information_integration_in_cortical_mo.pdf

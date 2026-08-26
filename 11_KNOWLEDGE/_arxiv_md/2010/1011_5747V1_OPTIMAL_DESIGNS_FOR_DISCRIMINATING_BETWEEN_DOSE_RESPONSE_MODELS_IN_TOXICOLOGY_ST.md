@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1011.5747v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 1011.5747v1_Optimal_designs_for_discriminating_between_dose-response_models_in_toxicology_st
 
 > Source: 1011.5747v1_Optimal_designs_for_discriminating_between_dose-response_models_in_toxicology_st.pdf

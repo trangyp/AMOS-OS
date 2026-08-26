@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
-arxiv_id: 0911.0486
-source: arxiv
-rscf-state: source-claim
 canon-group: reference
-
+rscf-state: source-claim
+arxiv_id: 911.0486
+source: arxiv
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0911.0486_Building_a_Vietnamese_Language_Query_Processing_Framework_for_ELibrary_Searching
 
 > Source: 0911.0486_Building_a_Vietnamese_Language_Query_Processing_Framework_for_ELibrary_Searching.pdf

@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0812.2541v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0812.2541v1_Paradox_in_physics__the_consistency_of_inconsistency
 
 > Source: 0812.2541v1_Paradox_in_physics__the_consistency_of_inconsistency.pdf

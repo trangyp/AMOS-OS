@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0803.1302v3
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0803.1302v3_Rational_structure_on_algebraic_tangles_and_closed_incompressible_surfaces_in_th
 
 > Source: 0803.1302v3_Rational_structure_on_algebraic_tangles_and_closed_incompressible_surfaces_in_th.pdf

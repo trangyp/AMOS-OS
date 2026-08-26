@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0909.1138v3
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0909.1138v3_User_Experience__Software_Interfaces__and_The_Unconscious
 
 > Source: 0909.1138v3_User_Experience__Software_Interfaces__and_The_Unconscious.pdf

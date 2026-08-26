@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1006.5707
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 1006.5707_Smooth_structures_on_pseudomanifolds_with_isolated_conical_singularities
 
 > Source: 1006.5707_Smooth_structures_on_pseudomanifolds_with_isolated_conical_singularities.pdf

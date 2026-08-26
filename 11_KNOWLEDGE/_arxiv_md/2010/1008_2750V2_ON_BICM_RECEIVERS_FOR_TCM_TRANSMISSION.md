@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1008.2750v2
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 1008.2750v2_On_BICM_receivers_for_TCM_transmission
 
 > Source: 1008.2750v2_On_BICM_receivers_for_TCM_transmission.pdf

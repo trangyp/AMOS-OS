@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0910.5579v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0910.5579v1_Life__the_Universe__and_almost_Everything__Signs_of_Cosmic_Design_
 
 > Source: 0910.5579v1_Life__the_Universe__and_almost_Everything__Signs_of_Cosmic_Design_.pdf

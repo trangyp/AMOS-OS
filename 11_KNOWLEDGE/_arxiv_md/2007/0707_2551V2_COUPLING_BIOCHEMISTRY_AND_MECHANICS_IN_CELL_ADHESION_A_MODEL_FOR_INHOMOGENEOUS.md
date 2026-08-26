@@ -3,9 +3,8 @@ canon-group: reference
 rscf-state: source-claim
 arxiv_id: 0707.2551v2
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, math, reference]
 ---
-
 # 0707.2551v2_Coupling_biochemistry_and_mechanics_in_cell_adhesion__a_model_for_inhomogeneous_
 
 > Source: 0707.2551v2_Coupling_biochemistry_and_mechanics_in_cell_adhesion__a_model_for_inhomogeneous_.pdf

@@ -3,9 +3,8 @@ canon-group: reference
 rscf-state: source-claim
 arxiv_id: 0705.2597v2
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, math, reference]
 ---
-
 # 0705.2597v2_Adelic_resolution_for_homology_sheaves
 
 > Source: 0705.2597v2_Adelic_resolution_for_homology_sheaves.pdf

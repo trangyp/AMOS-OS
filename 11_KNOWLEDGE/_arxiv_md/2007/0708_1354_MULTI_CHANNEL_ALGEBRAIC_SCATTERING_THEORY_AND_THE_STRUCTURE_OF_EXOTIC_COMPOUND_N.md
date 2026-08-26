@@ -1,11 +1,10 @@
 ---
 canon-group: reference
 rscf-state: source-claim
-arxiv_id: 0708.1354
+arxiv_id: 708.1354
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, math, reference]
 ---
-
 # 0708.1354_Multi-channel_algebraic_scattering_theory_and_the_structure_of_exotic_compound_n
 
 > Source: 0708.1354_Multi-channel_algebraic_scattering_theory_and_the_structure_of_exotic_compound_n.pdf

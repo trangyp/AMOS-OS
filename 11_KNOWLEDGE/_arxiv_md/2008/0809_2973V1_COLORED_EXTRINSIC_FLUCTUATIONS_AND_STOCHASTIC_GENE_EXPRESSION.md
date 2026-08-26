@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0809.2973v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0809.2973v1_Colored_extrinsic_fluctuations_and_stochastic_gene_expression
 
 > Source: 0809.2973v1_Colored_extrinsic_fluctuations_and_stochastic_gene_expression.pdf

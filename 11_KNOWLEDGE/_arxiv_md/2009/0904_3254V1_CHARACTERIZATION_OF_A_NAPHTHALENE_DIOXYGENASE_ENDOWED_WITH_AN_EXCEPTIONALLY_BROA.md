@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0904.3254v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0904.3254v1_Characterization_of_a_naphthalene_dioxygenase_endowed_with_an_exceptionally_broa
 
 > Source: 0904.3254v1_Characterization_of_a_naphthalene_dioxygenase_endowed_with_an_exceptionally_broa.pdf

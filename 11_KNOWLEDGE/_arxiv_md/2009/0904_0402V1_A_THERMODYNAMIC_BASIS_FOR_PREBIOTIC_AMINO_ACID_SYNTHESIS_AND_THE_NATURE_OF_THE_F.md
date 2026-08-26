@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0904.0402v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0904.0402v1_A_thermodynamic_basis_for_prebiotic_amino_acid_synthesis_and_the_nature_of_the_f
 
 > Source: 0904.0402v1_A_thermodynamic_basis_for_prebiotic_amino_acid_synthesis_and_the_nature_of_the_f.pdf

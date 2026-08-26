@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1009.0077v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 1009.0077v1_Not_only_a_lack_of_right_definitions__Arguments_for_a_shift_in_information-proce
 
 > Source: 1009.0077v1_Not_only_a_lack_of_right_definitions__Arguments_for_a_shift_in_information-proce.pdf

@@ -3,9 +3,8 @@ canon-group: reference
 rscf-state: source-claim
 arxiv_id: 0704.3643v1
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, reference, unclassified]
 ---
-
 # 0704.3643v1_Sabbath_Day_Home_Automation___It_s_Like_Mixing_Technology_and_Religion_
 
 > Source: 0704.3643v1_Sabbath_Day_Home_Automation___It_s_Like_Mixing_Technology_and_Religion_.pdf

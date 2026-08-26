@@ -1,11 +1,10 @@
 ---
 canon-group: reference
 rscf-state: source-claim
-arxiv_id: 0704.1691
+arxiv_id: 704.1691
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, math, reference]
 ---
-
 # 0704.1691_A_Vanishing_Conjecture_on_Differential_Operators_with_Constant_Coefficients
 
 > Source: 0704.1691_A_Vanishing_Conjecture_on_Differential_Operators_with_Constant_Coefficients.pdf

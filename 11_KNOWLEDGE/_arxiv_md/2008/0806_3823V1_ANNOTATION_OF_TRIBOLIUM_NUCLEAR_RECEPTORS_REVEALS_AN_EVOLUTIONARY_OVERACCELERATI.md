@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0806.3823v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0806.3823v1_Annotation_of_Tribolium_nuclear_receptors_reveals_an_evolutionary_overaccelerati
 
 > Source: 0806.3823v1_Annotation_of_Tribolium_nuclear_receptors_reveals_an_evolutionary_overaccelerati.pdf

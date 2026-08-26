@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0908.0649v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0908.0649v1_sscMap__An_extensible_Java_application_for_connecting_small-molecule_drugs_using
 
 > Source: 0908.0649v1_sscMap__An_extensible_Java_application_for_connecting_small-molecule_drugs_using.pdf

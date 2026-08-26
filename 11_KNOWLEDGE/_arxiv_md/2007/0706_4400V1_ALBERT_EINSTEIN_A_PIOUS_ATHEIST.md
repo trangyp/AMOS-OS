@@ -3,9 +3,8 @@ canon-group: reference
 rscf-state: source-claim
 arxiv_id: 0706.4400v1
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, reference, unclassified]
 ---
-
 # 0706.4400v1_Albert_Einstein_-_a_Pious_Atheist
 
 > Source: 0706.4400v1_Albert_Einstein_-_a_Pious_Atheist.pdf

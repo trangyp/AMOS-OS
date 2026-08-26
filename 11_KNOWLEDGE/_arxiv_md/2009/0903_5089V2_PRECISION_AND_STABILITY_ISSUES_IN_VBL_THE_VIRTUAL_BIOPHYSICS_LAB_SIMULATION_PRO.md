@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0903.5089v2
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0903.5089v2_Precision_and_Stability_Issues_in_VBL__the_Virtual_Biophysics_Lab_simulation_pro
 
 > Source: 0903.5089v2_Precision_and_Stability_Issues_in_VBL__the_Virtual_Biophysics_Lab_simulation_pro.pdf

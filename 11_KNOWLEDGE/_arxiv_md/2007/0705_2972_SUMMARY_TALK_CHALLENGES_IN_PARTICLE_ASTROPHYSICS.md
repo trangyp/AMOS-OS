@@ -1,11 +1,10 @@
 ---
 canon-group: reference
 rscf-state: source-claim
-arxiv_id: 0705.2972
+arxiv_id: 705.2972
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, reference, unclassified]
 ---
-
 # 0705.2972_Summary_Talk__Challenges_in_Particle_Astrophysics
 
 > Source: 0705.2972_Summary_Talk__Challenges_in_Particle_Astrophysics.pdf

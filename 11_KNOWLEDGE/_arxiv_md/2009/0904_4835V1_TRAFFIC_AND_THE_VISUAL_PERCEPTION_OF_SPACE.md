@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0904.4835v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0904.4835v1_Traffic_and_the_visual_perception_of_space
 
 > Source: 0904.4835v1_Traffic_and_the_visual_perception_of_space.pdf

@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0806.2763v2
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0806.2763v2_Substance_graphs_are_optimal_simple-graph_representations_of_metabolism
 
 > Source: 0806.2763v2_Substance_graphs_are_optimal_simple-graph_representations_of_metabolism.pdf

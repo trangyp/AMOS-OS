@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
-arxiv_id: 0810.1493
-source: arxiv
-rscf-state: source-claim
 canon-group: reference
-
+rscf-state: source-claim
+arxiv_id: 810.1493
+source: arxiv
+tags: [arxiv, knowledge, math, reference]
+---
 # 0810.1493_Gravitinos__the_Lithium_problem__and_DM_production__Is_there_a_corresponding_neu
 
 > Source: 0810.1493_Gravitinos__the_Lithium_problem__and_DM_production__Is_there_a_corresponding_neu.pdf

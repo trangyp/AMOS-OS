@@ -3,9 +3,8 @@ canon-group: reference
 rscf-state: source-claim
 arxiv_id: 0704.3748v1
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, math, reference]
 ---
-
 # 0704.3748v1_Clustering_Coefficients_of_Protein-Protein_Interaction_Networks
 
 > Source: 0704.3748v1_Clustering_Coefficients_of_Protein-Protein_Interaction_Networks.pdf

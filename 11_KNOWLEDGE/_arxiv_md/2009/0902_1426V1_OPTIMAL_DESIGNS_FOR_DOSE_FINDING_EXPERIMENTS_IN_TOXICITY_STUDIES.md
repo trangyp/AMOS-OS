@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0902.1426v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0902.1426v1_Optimal_designs_for_dose-finding_experiments_in_toxicity_studies
 
 > Source: 0902.1426v1_Optimal_designs_for_dose-finding_experiments_in_toxicity_studies.pdf

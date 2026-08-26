@@ -1,11 +1,10 @@
 ---
 canon-group: reference
 rscf-state: source-claim
-arxiv_id: 0704.0742
+arxiv_id: 704.0742
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, quantum, reference]
 ---
-
 # 0704.0742_Magnetoconductance_oscillations_in_metallic_rings_and_decoherence_due_to_electro
 
 > Source: 0704.0742_Magnetoconductance_oscillations_in_metallic_rings_and_decoherence_due_to_electro.pdf

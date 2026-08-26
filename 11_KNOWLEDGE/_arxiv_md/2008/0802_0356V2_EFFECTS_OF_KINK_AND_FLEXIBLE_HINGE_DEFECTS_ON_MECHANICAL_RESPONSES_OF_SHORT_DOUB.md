@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0802.0356v2
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0802.0356v2_Effects_of_kink_and_flexible_hinge_defects_on_mechanical_responses_of_short_doub
 
 > Source: 0802.0356v2_Effects_of_kink_and_flexible_hinge_defects_on_mechanical_responses_of_short_doub.pdf

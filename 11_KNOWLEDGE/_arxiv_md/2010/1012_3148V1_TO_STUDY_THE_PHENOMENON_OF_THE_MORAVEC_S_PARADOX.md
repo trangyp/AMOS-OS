@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1012.3148v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 1012.3148v1_To_study_the_phenomenon_of_the_Moravec_s_Paradox
 
 > Source: 1012.3148v1_To_study_the_phenomenon_of_the_Moravec_s_Paradox.pdf

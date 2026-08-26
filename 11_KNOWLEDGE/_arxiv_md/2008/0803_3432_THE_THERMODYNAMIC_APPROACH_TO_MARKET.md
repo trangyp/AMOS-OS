@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
-arxiv_id: 0803.3432
-source: arxiv
-rscf-state: source-claim
 canon-group: reference
-
+rscf-state: source-claim
+arxiv_id: 803.3432
+source: arxiv
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0803.3432_The_thermodynamic_approach_to_market
 
 > Source: 0803.3432_The_thermodynamic_approach_to_market.pdf

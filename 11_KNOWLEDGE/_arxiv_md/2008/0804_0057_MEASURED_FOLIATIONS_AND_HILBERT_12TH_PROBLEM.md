@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
-arxiv_id: 0804.0057
-source: arxiv
-rscf-state: source-claim
 canon-group: reference
-
+rscf-state: source-claim
+arxiv_id: 804.0057
+source: arxiv
+tags: [arxiv, knowledge, math, reference]
+---
 # 0804.0057_Measured_foliations_and_Hilbert_12th_problem
 
 > Source: 0804.0057_Measured_foliations_and_Hilbert_12th_problem.pdf

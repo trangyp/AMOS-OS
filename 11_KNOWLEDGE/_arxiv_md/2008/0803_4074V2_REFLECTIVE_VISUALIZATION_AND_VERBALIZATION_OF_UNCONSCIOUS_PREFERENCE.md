@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0803.4074v2
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0803.4074v2_Reflective_visualization_and_verbalization_of_unconscious_preference
 
 > Source: 0803.4074v2_Reflective_visualization_and_verbalization_of_unconscious_preference.pdf

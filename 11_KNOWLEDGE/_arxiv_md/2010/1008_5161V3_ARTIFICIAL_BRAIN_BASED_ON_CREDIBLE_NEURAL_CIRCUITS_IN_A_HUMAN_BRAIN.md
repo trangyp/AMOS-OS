@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1008.5161v3
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 1008.5161v3_Artificial_Brain_Based_on_Credible_Neural_Circuits_in_a_Human_Brain
 
 > Source: 1008.5161v3_Artificial_Brain_Based_on_Credible_Neural_Circuits_in_a_Human_Brain.pdf

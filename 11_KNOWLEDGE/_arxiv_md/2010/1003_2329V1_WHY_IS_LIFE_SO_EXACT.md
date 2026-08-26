@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1003.2329v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, quantum, reference]
+---
 # 1003.2329v1_Why_is_life_so_exact_
 
 > Source: 1003.2329v1_Why_is_life_so_exact_.pdf

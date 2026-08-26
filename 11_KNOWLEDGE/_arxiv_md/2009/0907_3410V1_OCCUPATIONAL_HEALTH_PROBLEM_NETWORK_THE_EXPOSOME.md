@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0907.3410v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0907.3410v1_Occupational_Health_Problem_Network___the_Exposome
 
 > Source: 0907.3410v1_Occupational_Health_Problem_Network___the_Exposome.pdf

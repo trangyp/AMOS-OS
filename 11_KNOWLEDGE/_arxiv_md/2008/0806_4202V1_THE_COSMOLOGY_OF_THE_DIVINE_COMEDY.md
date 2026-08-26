@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0806.4202v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0806.4202v1_The_cosmology_of_the_Divine_Comedy
 
 > Source: 0806.4202v1_The_cosmology_of_the_Divine_Comedy.pdf

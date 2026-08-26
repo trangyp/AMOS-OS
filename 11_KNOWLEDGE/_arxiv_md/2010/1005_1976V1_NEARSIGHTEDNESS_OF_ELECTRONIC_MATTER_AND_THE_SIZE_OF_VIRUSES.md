@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1005.1976v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, quantum, reference]
+---
 # 1005.1976v1_Nearsightedness_of_Electronic_Matter_and_the_Size_of_Viruses
 
 > Source: 1005.1976v1_Nearsightedness_of_Electronic_Matter_and_the_Size_of_Viruses.pdf

@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1010.3640v3
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 1010.3640v3_On_the_Iterated_Hairpin_Completion
 
 > Source: 1010.3640v3_On_the_Iterated_Hairpin_Completion.pdf

@@ -1,11 +1,10 @@
 ---
 canon-group: reference
 rscf-state: source-claim
-arxiv_id: 0708.0592
+arxiv_id: 708.0592
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, math, quantum, reference]
 ---
-
 # 0708.0592_The_Coherence_Theorem_for_Ann-Categories
 
 > Source: 0708.0592_The_Coherence_Theorem_for_Ann-Categories.pdf

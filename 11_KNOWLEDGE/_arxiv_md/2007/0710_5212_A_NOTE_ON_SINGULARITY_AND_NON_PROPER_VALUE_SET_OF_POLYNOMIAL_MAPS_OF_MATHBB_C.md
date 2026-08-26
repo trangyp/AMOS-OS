@@ -1,11 +1,10 @@
 ---
 canon-group: reference
 rscf-state: source-claim
-arxiv_id: 0710.5212
+arxiv_id: 710.5212
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, math, reference]
 ---
-
 # 0710.5212_A_note_on_singularity_and_non-proper_value_set_of_polynomial_maps_of___mathbb_C_
 
 > Source: 0710.5212_A_note_on_singularity_and_non-proper_value_set_of_polynomial_maps_of___mathbb_C_.pdf

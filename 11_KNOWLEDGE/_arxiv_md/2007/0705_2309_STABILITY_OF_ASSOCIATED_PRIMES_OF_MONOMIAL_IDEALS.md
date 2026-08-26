@@ -1,11 +1,10 @@
 ---
 canon-group: reference
 rscf-state: source-claim
-arxiv_id: 0705.2309
+arxiv_id: 705.2309
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, math, reference]
 ---
-
 # 0705.2309_Stability_of_associated_primes_of_monomial_ideals
 
 > Source: 0705.2309_Stability_of_associated_primes_of_monomial_ideals.pdf

@@ -1,11 +1,10 @@
 ---
 canon-group: reference
 rscf-state: source-claim
-arxiv_id: 0707.1075
+arxiv_id: 707.1075
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, reference, unclassified]
 ---
-
 # 0707.1075_CMB_from_the_South_Pole__Past__Present__and_Future
 
 > Source: 0707.1075_CMB_from_the_South_Pole__Past__Present__and_Future.pdf

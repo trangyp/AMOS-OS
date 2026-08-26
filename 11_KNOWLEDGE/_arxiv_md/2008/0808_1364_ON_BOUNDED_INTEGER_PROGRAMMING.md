@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
-arxiv_id: 0808.1364
-source: arxiv
-rscf-state: source-claim
 canon-group: reference
-
+rscf-state: source-claim
+arxiv_id: 808.1364
+source: arxiv
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0808.1364_On_Bounded_Integer_Programming
 
 > Source: 0808.1364_On_Bounded_Integer_Programming.pdf

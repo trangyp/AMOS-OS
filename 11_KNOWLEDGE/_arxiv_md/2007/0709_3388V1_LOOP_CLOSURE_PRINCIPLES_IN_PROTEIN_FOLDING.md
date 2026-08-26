@@ -3,9 +3,8 @@ canon-group: reference
 rscf-state: source-claim
 arxiv_id: 0709.3388v1
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, math, reference]
 ---
-
 # 0709.3388v1_Loop-closure_principles_in_protein_folding
 
 > Source: 0709.3388v1_Loop-closure_principles_in_protein_folding.pdf

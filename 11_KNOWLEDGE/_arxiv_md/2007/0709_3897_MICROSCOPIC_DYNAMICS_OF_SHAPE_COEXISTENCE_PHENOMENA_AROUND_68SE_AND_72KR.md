@@ -1,11 +1,10 @@
 ---
 canon-group: reference
 rscf-state: source-claim
-arxiv_id: 0709.3897
+arxiv_id: 709.3897
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, quantum, reference]
 ---
-
 # 0709.3897_Microscopic_Dynamics_of_Shape_Coexistence_Phenomena_around_68Se_and_72Kr
 
 > Source: 0709.3897_Microscopic_Dynamics_of_Shape_Coexistence_Phenomena_around_68Se_and_72Kr.pdf

@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
-arxiv_id: 0912.1829
-source: arxiv
-rscf-state: source-claim
 canon-group: reference
-
+rscf-state: source-claim
+arxiv_id: 912.1829
+source: arxiv
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0912.1829_Document_Searching_System_based_on_Natural_Language_Query_Processing_for_Vietnam
 
 > Source: 0912.1829_Document_Searching_System_based_on_Natural_Language_Query_Processing_for_Vietnam.pdf

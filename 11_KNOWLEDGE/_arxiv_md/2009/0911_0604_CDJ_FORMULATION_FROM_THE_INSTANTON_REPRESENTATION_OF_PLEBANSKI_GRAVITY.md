@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
-arxiv_id: 0911.0604
-source: arxiv
-rscf-state: source-claim
 canon-group: reference
-
+rscf-state: source-claim
+arxiv_id: 911.0604
+source: arxiv
+tags: [arxiv, knowledge, math, reference]
+---
 # 0911.0604_CDJ_formulation_from_the_instanton_representation_of_Plebanski_gravity
 
 > Source: 0911.0604_CDJ_formulation_from_the_instanton_representation_of_Plebanski_gravity.pdf

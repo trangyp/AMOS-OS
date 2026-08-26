@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0901.4295v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0901.4295v1_Breakdown_of_Long-Range_Correlations_in_Heart_Rate_Fluctuations_During_Meditatio
 
 > Source: 0901.4295v1_Breakdown_of_Long-Range_Correlations_in_Heart_Rate_Fluctuations_During_Meditatio.pdf

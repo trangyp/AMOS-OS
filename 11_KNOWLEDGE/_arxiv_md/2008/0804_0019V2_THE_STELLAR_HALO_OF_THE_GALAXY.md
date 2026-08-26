@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0804.0019v2
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0804.0019v2_The_stellar_halo_of_the_Galaxy
 
 > Source: 0804.0019v2_The_stellar_halo_of_the_Galaxy.pdf

@@ -3,9 +3,8 @@ canon-group: reference
 rscf-state: source-claim
 arxiv_id: 0709.2065v1
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, math, reference]
 ---
-
 # 0709.2065v1_Toward_Psycho-robots
 
 > Source: 0709.2065v1_Toward_Psycho-robots.pdf

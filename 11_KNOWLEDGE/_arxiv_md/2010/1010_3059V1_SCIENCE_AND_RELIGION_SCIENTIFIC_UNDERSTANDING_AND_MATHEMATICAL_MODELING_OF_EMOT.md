@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1010.3059v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 1010.3059v1_SCIENCE_AND_RELIGION__Scientific_Understanding_and_Mathematical_Modeling_of_Emot
 
 > Source: 1010.3059v1_SCIENCE_AND_RELIGION__Scientific_Understanding_and_Mathematical_Modeling_of_Emot.pdf

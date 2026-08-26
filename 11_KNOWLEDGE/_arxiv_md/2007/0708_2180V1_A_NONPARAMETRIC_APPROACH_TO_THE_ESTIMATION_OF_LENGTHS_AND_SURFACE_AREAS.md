@@ -3,9 +3,8 @@ canon-group: reference
 rscf-state: source-claim
 arxiv_id: 0708.2180v1
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, math, reference]
 ---
-
 # 0708.2180v1_A_nonparametric_approach_to_the_estimation_of_lengths_and_surface_areas
 
 > Source: 0708.2180v1_A_nonparametric_approach_to_the_estimation_of_lengths_and_surface_areas.pdf

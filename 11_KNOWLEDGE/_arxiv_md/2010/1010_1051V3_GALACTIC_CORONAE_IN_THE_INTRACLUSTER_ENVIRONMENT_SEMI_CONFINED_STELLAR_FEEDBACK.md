@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1010.1051v3
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 1010.1051v3_Galactic_Coronae_in_the_Intracluster_Environment__Semi-confined_Stellar-feedback
 
 > Source: 1010.1051v3_Galactic_Coronae_in_the_Intracluster_Environment__Semi-confined_Stellar-feedback.pdf

@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1004.1590v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 1004.1590v1_Electrostatics_in_the_Stability_and_Misfolding_of_the_Prion_Protein__Salt_Bridge
 
 > Source: 1004.1590v1_Electrostatics_in_the_Stability_and_Misfolding_of_the_Prion_Protein__Salt_Bridge.pdf

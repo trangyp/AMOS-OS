@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0807.1558v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0807.1558v1_Cyclooxygenase_inhibition_in_ischemic_brain_injury
 
 > Source: 0807.1558v1_Cyclooxygenase_inhibition_in_ischemic_brain_injury.pdf

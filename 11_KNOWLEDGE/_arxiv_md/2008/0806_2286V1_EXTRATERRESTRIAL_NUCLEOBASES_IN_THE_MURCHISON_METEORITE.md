@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0806.2286v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0806.2286v1_Extraterrestrial_nucleobases_in_the_Murchison_meteorite
 
 > Source: 0806.2286v1_Extraterrestrial_nucleobases_in_the_Murchison_meteorite.pdf

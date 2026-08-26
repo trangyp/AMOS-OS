@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0801.4278v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0801.4278v1_A_simple_and_robust_method_for_connecting_small-molecule_drugs_using_gene-expres
 
 > Source: 0801.4278v1_A_simple_and_robust_method_for_connecting_small-molecule_drugs_using_gene-expres.pdf

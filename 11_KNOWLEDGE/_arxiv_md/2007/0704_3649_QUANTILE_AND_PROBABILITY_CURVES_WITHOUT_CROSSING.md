@@ -1,11 +1,10 @@
 ---
 canon-group: reference
 rscf-state: source-claim
-arxiv_id: 0704.3649
+arxiv_id: 704.3649
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, math, reference]
 ---
-
 # 0704.3649_Quantile_and_Probability_Curves_Without_Crossing
 
 > Source: 0704.3649_Quantile_and_Probability_Curves_Without_Crossing.pdf

@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0901.0168v3
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0901.0168v3_Coding_for_Two-User_SISO_and_MIMO_Multiple_Access_Channels
 
 > Source: 0901.0168v3_Coding_for_Two-User_SISO_and_MIMO_Multiple_Access_Channels.pdf

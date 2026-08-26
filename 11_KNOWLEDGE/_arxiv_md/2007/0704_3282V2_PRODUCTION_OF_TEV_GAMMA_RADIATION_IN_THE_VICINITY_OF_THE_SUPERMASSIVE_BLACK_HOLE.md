@@ -3,9 +3,8 @@ canon-group: reference
 rscf-state: source-claim
 arxiv_id: 0704.3282v2
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, math, reference]
 ---
-
 # 0704.3282v2_Production_of_TeV_gamma-radiation_in_the_vicinity_of_the_supermassive_black_hole
 
 > Source: 0704.3282v2_Production_of_TeV_gamma-radiation_in_the_vicinity_of_the_supermassive_black_hole.pdf

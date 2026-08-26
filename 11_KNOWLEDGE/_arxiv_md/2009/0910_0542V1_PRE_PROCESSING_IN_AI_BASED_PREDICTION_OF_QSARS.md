@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0910.0542v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0910.0542v1_Pre-processing_in_AI_based_Prediction_of_QSARs
 
 > Source: 0910.0542v1_Pre-processing_in_AI_based_Prediction_of_QSARs.pdf

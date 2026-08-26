@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0802.0885v2
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, quantum, reference]
+---
 # 0802.0885v2_Amplified_Dispersive_Optical_Tomography
 
 > Source: 0802.0885v2_Amplified_Dispersive_Optical_Tomography.pdf

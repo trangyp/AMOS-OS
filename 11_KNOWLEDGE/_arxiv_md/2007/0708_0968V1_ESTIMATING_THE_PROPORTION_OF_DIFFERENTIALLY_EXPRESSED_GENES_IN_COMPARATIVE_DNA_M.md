@@ -3,9 +3,8 @@ canon-group: reference
 rscf-state: source-claim
 arxiv_id: 0708.0968v1
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, math, reference]
 ---
-
 # 0708.0968v1_Estimating_the_proportion_of_differentially_expressed_genes_in_comparative_DNA_m
 
 > Source: 0708.0968v1_Estimating_the_proportion_of_differentially_expressed_genes_in_comparative_DNA_m.pdf

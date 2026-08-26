@@ -1,11 +1,10 @@
 ---
 canon-group: reference
 rscf-state: source-claim
-arxiv_id: 0709.1310
+arxiv_id: 709.131
 source: arxiv
-tags: [reference, knowledge, arxiv]
+tags: [arxiv, knowledge, quantum, reference]
 ---
-
 # 0709.1310_Pairing_Correlations_in_halo_Nuclei
 
 > Source: 0709.1310_Pairing_Correlations_in_halo_Nuclei.pdf

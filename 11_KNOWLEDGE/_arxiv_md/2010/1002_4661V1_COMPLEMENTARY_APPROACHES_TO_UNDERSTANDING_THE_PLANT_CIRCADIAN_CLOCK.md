@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1002.4661v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 1002.4661v1_Complementary_approaches_to_understanding_the_plant_circadian_clock
 
 > Source: 1002.4661v1_Complementary_approaches_to_understanding_the_plant_circadian_clock.pdf

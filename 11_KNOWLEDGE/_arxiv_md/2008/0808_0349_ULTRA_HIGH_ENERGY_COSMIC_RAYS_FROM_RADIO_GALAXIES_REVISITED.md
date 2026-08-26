@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2008, note, reference, arxiv]
----
-arxiv_id: 0808.0349
-source: arxiv
-rscf-state: source-claim
 canon-group: reference
-
+rscf-state: source-claim
+arxiv_id: 808.0349
+source: arxiv
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 0808.0349_Ultra-high_energy_cosmic_rays_from_radio_galaxies_revisited
 
 > Source: 0808.0349_Ultra-high_energy_cosmic_rays_from_radio_galaxies_revisited.pdf

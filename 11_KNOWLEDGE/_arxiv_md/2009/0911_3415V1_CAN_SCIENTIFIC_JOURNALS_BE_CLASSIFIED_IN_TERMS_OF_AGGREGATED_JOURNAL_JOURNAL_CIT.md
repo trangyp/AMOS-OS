@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2009, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 0911.3415v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, math, reference]
+---
 # 0911.3415v1_Can_Scientific_Journals_be_Classified_in_terms_of_Aggregated_Journal-Journal_Cit
 
 > Source: 0911.3415v1_Can_Scientific_Journals_be_Classified_in_terms_of_Aggregated_Journal-Journal_Cit.pdf

@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1002.0177v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, quantum, reference]
+---
 # 1002.0177v1_Logical_Evaluation_of_Consciousness__For_Incorporating_Consciousness_into_Machin
 
 > Source: 1002.0177v1_Logical_Evaluation_of_Consciousness__For_Incorporating_Consciousness_into_Machin.pdf

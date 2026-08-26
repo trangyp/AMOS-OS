@@ -1,11 +1,10 @@
 ---
-tags: [knowledge, _arxiv_md, 2010, note, reference, arxiv]
----
+canon-group: reference
+rscf-state: source-claim
 arxiv_id: 1012.0749v1
 source: arxiv
-rscf-state: source-claim
-canon-group: reference
-
+tags: [arxiv, knowledge, reference, unclassified]
+---
 # 1012.0749v1_The_thick_disk_in_the_galaxy_NGC_4244_from_S4G_imaging
 
 > Source: 1012.0749v1_The_thick_disk_in_the_galaxy_NGC_4244_from_S4G_imaging.pdf
