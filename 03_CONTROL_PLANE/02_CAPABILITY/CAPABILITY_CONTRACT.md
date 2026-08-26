@@ -1,6 +1,5 @@
 Yes. The placeholder should be replaced by a substantive contract. Below is a **full paste-ready `CAPABILITY_CONTRACT.md`**. It is intentionally classified as an **AMOS MODEL / proposed governed contract**, not falsely presented as already implemented or canonically validated.
 
-````markdown
 ---
 title: "AMOS Capability Contract"
 artifact: "CAPABILITY_CONTRACT.md"
@@ -50,7 +49,7 @@ PROPOSAL != COMMIT
 ADDRESSABLE != VALIDATED
 PLACEHOLDER != IMPLEMENTED
 UNKNOWN/GAP != PASS
-````
+```
 
 No capability declaration grants authority merely by existing.
 
