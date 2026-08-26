@@ -1324,3 +1324,13 @@ Systems, New York, NY, USA, 2009, pp. 18–23, ACM.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_01147v1_minimizing_event_handling_latencies_in_secure_virtual_machines
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_01147V1_MINIMIZING_EVENT_HANDLING_LATENCIES_IN_SECURE_VIRTUAL_MACHINES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

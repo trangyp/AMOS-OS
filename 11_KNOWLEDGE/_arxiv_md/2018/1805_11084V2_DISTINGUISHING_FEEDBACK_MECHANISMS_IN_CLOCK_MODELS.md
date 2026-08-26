@@ -3254,3 +3254,13 @@ domains. Proc Natl Acad Sci U S A, 2013. 110(3): p. 1124‐9.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_11084v2_distinguishing_feedback_mechanisms_in_clock_models
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_11084V2_DISTINGUISHING_FEEDBACK_MECHANISMS_IN_CLOCK_MODELS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

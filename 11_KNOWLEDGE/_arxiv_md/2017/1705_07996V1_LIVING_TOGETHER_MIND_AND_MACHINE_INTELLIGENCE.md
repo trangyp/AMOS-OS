@@ -599,3 +599,13 @@ Press, 2014.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1705_07996v1_living_together_mind_and_machine_intelligence
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1705_07996V1_LIVING_TOGETHER_MIND_AND_MACHINE_INTELLIGENCE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

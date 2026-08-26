@@ -294,3 +294,13 @@ References
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1411_1445_the_gamma_ray_opacity_of_the_universe_indirect_measurements_of_the_extragalac
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1411_1445_THE_GAMMA_RAY_OPACITY_OF_THE_UNIVERSE_INDIRECT_MEASUREMENTS_OF_THE_EXTRAGALAC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

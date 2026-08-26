@@ -618,3 +618,13 @@ tational Biology 10, e1003588 (2014).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1606_08313v1_integrated_information_and_metastability_in_systems_of_coupled_oscillators
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1606_08313V1_INTEGRATED_INFORMATION_AND_METASTABILITY_IN_SYSTEMS_OF_COUPLED_OSCILLATORS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

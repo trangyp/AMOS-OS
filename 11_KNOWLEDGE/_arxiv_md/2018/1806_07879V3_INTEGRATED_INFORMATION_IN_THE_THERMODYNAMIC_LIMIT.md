@@ -1560,3 +1560,13 @@ Artiﬁcial Life 20, 5–28 (2014).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_07879v3_integrated_information_in_the_thermodynamic_limit
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_07879V3_INTEGRATED_INFORMATION_IN_THE_THERMODYNAMIC_LIMIT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

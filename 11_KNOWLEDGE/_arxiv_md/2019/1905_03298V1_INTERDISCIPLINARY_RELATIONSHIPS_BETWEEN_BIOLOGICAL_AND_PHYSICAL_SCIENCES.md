@@ -830,3 +830,13 @@ no. 1, pp. 75–86, 2004.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_03298v1_interdisciplinary_relationships_between_biological_and_physical_sciences
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_03298V1_INTERDISCIPLINARY_RELATIONSHIPS_BETWEEN_BIOLOGICAL_AND_PHYSICAL_SCIENCES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

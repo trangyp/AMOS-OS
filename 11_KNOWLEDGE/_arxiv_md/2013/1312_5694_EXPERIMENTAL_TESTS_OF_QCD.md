@@ -848,3 +848,13 @@ Phys. Rev. D 86 (2012) 010001, doi:10.1103/PhysRevD.86.010001.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1312_5694_experimental_tests_of_qcd
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1312_5694_EXPERIMENTAL_TESTS_OF_QCD.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

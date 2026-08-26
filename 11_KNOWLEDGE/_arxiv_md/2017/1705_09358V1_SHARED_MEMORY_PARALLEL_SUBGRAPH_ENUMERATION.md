@@ -1306,3 +1306,13 @@ J. Parallel Distrib. Comput., vol. 67, no. 10, pp. 1047–1066, 2007.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1705_09358v1_shared_memory_parallel_subgraph_enumeration
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1705_09358V1_SHARED_MEMORY_PARALLEL_SUBGRAPH_ENUMERATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

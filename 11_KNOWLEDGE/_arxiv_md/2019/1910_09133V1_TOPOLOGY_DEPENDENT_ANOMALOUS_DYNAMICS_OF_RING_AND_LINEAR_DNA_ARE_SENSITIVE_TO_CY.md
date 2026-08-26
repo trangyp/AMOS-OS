@@ -821,3 +821,13 @@ t/τ]β. From these fits we extract f(q,t) curves which are plotted in Figure 4.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_09133v1_topology_dependent_anomalous_dynamics_of_ring_and_linear_dna_are_sensitive_to_cy
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_09133V1_TOPOLOGY_DEPENDENT_ANOMALOUS_DYNAMICS_OF_RING_AND_LINEAR_DNA_ARE_SENSITIVE_TO_CY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -16,3 +16,13 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: strategy_domains_interfaces
+node_type: note
+path: 21_DOMAINS/04_STRATEGY/STRATEGY_DOMAINS_INTERFACES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

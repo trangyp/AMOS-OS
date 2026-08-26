@@ -1079,3 +1079,13 @@ on planetary rotation rate. The Astrophysical Journal Letters 787, L2.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1705_07813v1_why_do_we_find_ourselves_around_a_yellow_star_instead_of_a_red_star
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1705_07813V1_WHY_DO_WE_FIND_OURSELVES_AROUND_A_YELLOW_STAR_INSTEAD_OF_A_RED_STAR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

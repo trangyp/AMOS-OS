@@ -1252,3 +1252,13 @@ NY, USA, 2016. ACM.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_11803v1_qwlsh_cache_conscious_indexing_for_processing_similarity_search_query_workloads
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_11803V1_QWLSH_CACHE_CONSCIOUS_INDEXING_FOR_PROCESSING_SIMILARITY_SEARCH_QUERY_WORKLOADS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

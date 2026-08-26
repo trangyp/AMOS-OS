@@ -648,3 +648,13 @@ international conference on Digital Interactive Media in Entertainment and Arts 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1302_5497v1_hci_considerations_in_designing_a_second_life_virtual_therapeutic_community_for
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1302_5497V1_HCI_CONSIDERATIONS_IN_DESIGNING_A_SECOND_LIFE_VIRTUAL_THERAPEUTIC_COMMUNITY_FOR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

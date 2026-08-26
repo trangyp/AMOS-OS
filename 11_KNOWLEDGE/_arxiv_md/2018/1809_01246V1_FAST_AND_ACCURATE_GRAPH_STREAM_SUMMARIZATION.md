@@ -2239,3 +2239,13 @@ Computer Science, vol. 93, no. 8, pp. 939–945, 2015.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1809_01246v1_fast_and_accurate_graph_stream_summarization
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1809_01246V1_FAST_AND_ACCURATE_GRAPH_STREAM_SUMMARIZATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

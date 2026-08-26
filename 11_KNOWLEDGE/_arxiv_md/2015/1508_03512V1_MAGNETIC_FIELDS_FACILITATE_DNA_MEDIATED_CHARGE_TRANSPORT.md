@@ -744,3 +744,13 @@ Insert Table of Contents artwork here
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1508_03512v1_magnetic_fields_facilitate_dna_mediated_charge_transport
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1508_03512V1_MAGNETIC_FIELDS_FACILITATE_DNA_MEDIATED_CHARGE_TRANSPORT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

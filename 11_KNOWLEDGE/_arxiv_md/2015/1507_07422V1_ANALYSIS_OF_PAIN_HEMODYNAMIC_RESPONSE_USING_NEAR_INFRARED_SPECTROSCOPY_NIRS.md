@@ -1397,3 +1397,13 @@ Neuroimage, vol. 36, pp. 100-107, 2007.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1507_07422v1_analysis_of_pain_hemodynamic_response_using_near_infrared_spectroscopy_nirs
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1507_07422V1_ANALYSIS_OF_PAIN_HEMODYNAMIC_RESPONSE_USING_NEAR_INFRARED_SPECTROSCOPY_NIRS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

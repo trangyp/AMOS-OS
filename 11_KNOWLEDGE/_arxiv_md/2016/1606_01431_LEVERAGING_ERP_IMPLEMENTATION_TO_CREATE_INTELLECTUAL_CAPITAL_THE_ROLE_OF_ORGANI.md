@@ -1151,3 +1151,13 @@ credited.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1606_01431_leveraging_erp_implementation_to_create_intellectual_capital_the_role_of_organi
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1606_01431_LEVERAGING_ERP_IMPLEMENTATION_TO_CREATE_INTELLECTUAL_CAPITAL_THE_ROLE_OF_ORGANI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

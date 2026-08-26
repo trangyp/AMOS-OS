@@ -644,3 +644,13 @@ London : H. Chapelle.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1604_03332v1_creation_chaos_time_from_myth_to_modern_cosmology
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1604_03332V1_CREATION_CHAOS_TIME_FROM_MYTH_TO_MODERN_COSMOLOGY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

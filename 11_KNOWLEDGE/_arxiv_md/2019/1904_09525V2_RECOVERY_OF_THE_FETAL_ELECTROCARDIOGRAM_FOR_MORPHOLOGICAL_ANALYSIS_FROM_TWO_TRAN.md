@@ -3081,3 +3081,13 @@ DURHAM, NC, USA
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1904_09525v2_recovery_of_the_fetal_electrocardiogram_for_morphological_analysis_from_two_tran
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1904_09525V2_RECOVERY_OF_THE_FETAL_ELECTROCARDIOGRAM_FOR_MORPHOLOGICAL_ANALYSIS_FROM_TWO_TRAN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

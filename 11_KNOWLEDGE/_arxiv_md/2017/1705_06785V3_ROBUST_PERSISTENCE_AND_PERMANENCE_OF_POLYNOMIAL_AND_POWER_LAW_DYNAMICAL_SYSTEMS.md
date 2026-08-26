@@ -1825,3 +1825,13 @@ Verlag, 1995.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1705_06785v3_robust_persistence_and_permanence_of_polynomial_and_power_law_dynamical_systems
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1705_06785V3_ROBUST_PERSISTENCE_AND_PERMANENCE_OF_POLYNOMIAL_AND_POWER_LAW_DYNAMICAL_SYSTEMS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

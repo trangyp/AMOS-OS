@@ -870,3 +870,13 @@ gray-matter = gray, bone = yellow, skin = brown, air = green, background = black
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_10010v5_segmentation_of_mri_head_anatomy_using_deep_volumetric_networks_and_multiple_spa
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_10010V5_SEGMENTATION_OF_MRI_HEAD_ANATOMY_USING_DEEP_VOLUMETRIC_NETWORKS_AND_MULTIPLE_SPA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

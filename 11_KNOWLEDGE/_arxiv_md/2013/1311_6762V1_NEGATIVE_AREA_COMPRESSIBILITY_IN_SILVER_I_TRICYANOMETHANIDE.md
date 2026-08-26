@@ -318,3 +318,13 @@ Typeset: May 3, 2022
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1311_6762v1_negative_area_compressibility_in_silver_i_tricyanomethanide
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1311_6762V1_NEGATIVE_AREA_COMPRESSIBILITY_IN_SILVER_I_TRICYANOMETHANIDE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

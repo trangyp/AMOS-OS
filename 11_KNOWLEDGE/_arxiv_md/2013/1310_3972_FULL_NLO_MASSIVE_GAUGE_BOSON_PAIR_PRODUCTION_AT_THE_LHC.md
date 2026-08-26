@@ -515,3 +515,13 @@ arXiv:0901.0002.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1310_3972_full_nlo_massive_gauge_boson_pair_production_at_the_lhc
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1310_3972_FULL_NLO_MASSIVE_GAUGE_BOSON_PAIR_PRODUCTION_AT_THE_LHC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

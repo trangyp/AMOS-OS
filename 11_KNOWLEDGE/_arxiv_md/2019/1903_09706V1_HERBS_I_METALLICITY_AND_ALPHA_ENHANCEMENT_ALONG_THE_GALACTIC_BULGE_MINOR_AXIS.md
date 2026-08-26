@@ -2737,3 +2737,13 @@ MNRAS 000, 1–17 (2018)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_09706v1_herbs_i_metallicity_and_alpha_enhancement_along_the_galactic_bulge_minor_axis
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_09706V1_HERBS_I_METALLICITY_AND_ALPHA_ENHANCEMENT_ALONG_THE_GALACTIC_BULGE_MINOR_AXIS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

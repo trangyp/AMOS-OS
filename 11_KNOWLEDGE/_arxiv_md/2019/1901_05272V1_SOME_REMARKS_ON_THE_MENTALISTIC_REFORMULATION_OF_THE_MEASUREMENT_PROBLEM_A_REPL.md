@@ -877,3 +877,13 @@ losophy of Quantum Physics, chapter 5, pages 179 – 220. Springer.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1901_05272v1_some_remarks_on_the_mentalistic_reformulation_of_the_measurement_problem_a_repl
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1901_05272V1_SOME_REMARKS_ON_THE_MENTALISTIC_REFORMULATION_OF_THE_MEASUREMENT_PROBLEM_A_REPL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

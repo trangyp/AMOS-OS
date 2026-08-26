@@ -2632,3 +2632,13 @@ from the present (t = 0) to lookback times of 500 Myr.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1104_0465v1_the_m81_group_dwarf_irregular_galaxy_ddo_165_ii_connecting_recent_star_formati
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1104_0465V1_THE_M81_GROUP_DWARF_IRREGULAR_GALAXY_DDO_165_II_CONNECTING_RECENT_STAR_FORMATI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

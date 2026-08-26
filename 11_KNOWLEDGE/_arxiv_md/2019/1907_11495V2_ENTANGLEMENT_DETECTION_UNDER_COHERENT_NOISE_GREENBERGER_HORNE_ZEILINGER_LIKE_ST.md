@@ -2127,3 +2127,13 @@ Information 5, 83 (2019).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_11495v2_entanglement_detection_under_coherent_noise_greenberger_horne_zeilinger_like_st
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_11495V2_ENTANGLEMENT_DETECTION_UNDER_COHERENT_NOISE_GREENBERGER_HORNE_ZEILINGER_LIKE_ST.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

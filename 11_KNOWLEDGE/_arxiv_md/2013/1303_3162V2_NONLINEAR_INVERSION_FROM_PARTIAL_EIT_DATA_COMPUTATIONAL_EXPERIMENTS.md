@@ -1769,3 +1769,13 @@ E-mail address: samuli.siltanen@helsinki.fi
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1303_3162v2_nonlinear_inversion_from_partial_eit_data_computational_experiments
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1303_3162V2_NONLINEAR_INVERSION_FROM_PARTIAL_EIT_DATA_COMPUTATIONAL_EXPERIMENTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

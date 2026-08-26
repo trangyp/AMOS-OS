@@ -379,3 +379,13 @@ bistable motion perception task. J Integr Neurosci. 2016 Dec 1;15(04):539–51.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1904_05031v1_top_down_predictions_influence_binocular_rivalry_through_beta_band_rhythms_a_qe
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1904_05031V1_TOP_DOWN_PREDICTIONS_INFLUENCE_BINOCULAR_RIVALRY_THROUGH_BETA_BAND_RHYTHMS_A_QE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

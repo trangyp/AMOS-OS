@@ -677,3 +677,13 @@ analyzed with the parameter d = 3, .., 6 and τ = 1.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1701_07061v1_measures_of_entropy_and_complexity_in_altered_states_of_consciousness
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1701_07061V1_MEASURES_OF_ENTROPY_AND_COMPLEXITY_IN_ALTERED_STATES_OF_CONSCIOUSNESS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

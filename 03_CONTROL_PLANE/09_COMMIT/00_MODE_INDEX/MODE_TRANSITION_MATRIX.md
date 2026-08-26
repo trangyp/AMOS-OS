@@ -148,3 +148,13 @@ This artifact remains `CANDIDATE_CANON / DERIVED` until:
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: mode_transition_matrix
+node_type: note
+path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_TRANSITION_MATRIX.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

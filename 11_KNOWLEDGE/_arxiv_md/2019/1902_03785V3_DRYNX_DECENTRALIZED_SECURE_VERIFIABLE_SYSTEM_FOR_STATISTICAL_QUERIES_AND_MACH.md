@@ -1676,3 +1676,13 @@ in 2015 and 2018.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1902_03785v3_drynx_decentralized_secure_verifiable_system_for_statistical_queries_and_mach
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1902_03785V3_DRYNX_DECENTRALIZED_SECURE_VERIFIABLE_SYSTEM_FOR_STATISTICAL_QUERIES_AND_MACH.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

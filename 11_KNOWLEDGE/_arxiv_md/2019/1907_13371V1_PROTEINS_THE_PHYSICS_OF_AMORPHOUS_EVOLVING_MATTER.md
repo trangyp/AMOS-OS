@@ -1998,3 +1998,13 @@ nanomachines are robust to sequence variations. Proc. Natl. Acad. Sci. U.S.A., 1
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_13371v1_proteins_the_physics_of_amorphous_evolving_matter
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_13371V1_PROTEINS_THE_PHYSICS_OF_AMORPHOUS_EVOLVING_MATTER.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

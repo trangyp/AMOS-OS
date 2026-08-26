@@ -236,3 +236,13 @@ and error avoidance. J. Neurosci. Off. J. Soc. Neurosci. 26, 4769–4773 (2006).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_02364v2_rapid_anxiety_reduction_rar_a_unified_theory_of_humor
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_02364V2_RAPID_ANXIETY_REDUCTION_RAR_A_UNIFIED_THEORY_OF_HUMOR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

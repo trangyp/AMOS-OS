@@ -3838,3 +3838,13 @@ B 727, 371 (2013).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1603_01337v2_charge_multiplicity_and_collision_energy_dependence_of_p_t_spectra_from_p_p
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1603_01337V2_CHARGE_MULTIPLICITY_AND_COLLISION_ENERGY_DEPENDENCE_OF_P_T_SPECTRA_FROM_P_P.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

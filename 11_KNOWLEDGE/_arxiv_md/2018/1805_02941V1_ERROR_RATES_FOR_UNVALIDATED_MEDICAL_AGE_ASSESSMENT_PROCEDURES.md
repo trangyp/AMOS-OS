@@ -1468,3 +1468,13 @@ radiology, pages 1–8, 2018.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_02941v1_error_rates_for_unvalidated_medical_age_assessment_procedures
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_02941V1_ERROR_RATES_FOR_UNVALIDATED_MEDICAL_AGE_ASSESSMENT_PROCEDURES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

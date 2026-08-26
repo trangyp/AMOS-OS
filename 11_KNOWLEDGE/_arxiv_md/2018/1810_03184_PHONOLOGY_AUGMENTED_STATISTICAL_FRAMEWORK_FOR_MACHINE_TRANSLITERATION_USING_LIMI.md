@@ -2195,3 +2195,13 @@ Research Award (2004-2008).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1810_03184_phonology_augmented_statistical_framework_for_machine_transliteration_using_limi
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1810_03184_PHONOLOGY_AUGMENTED_STATISTICAL_FRAMEWORK_FOR_MACHINE_TRANSLITERATION_USING_LIMI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

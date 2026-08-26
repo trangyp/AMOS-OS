@@ -1680,3 +1680,13 @@ chromatic number. In Proc. 38th Annual ACM Symposium on the Theory of Computing,
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1905_00566v1_graph_coloring_via_degeneracy_in_streaming_and_other_space_conscious_models
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_00566V1_GRAPH_COLORING_VIA_DEGENERACY_IN_STREAMING_AND_OTHER_SPACE_CONSCIOUS_MODELS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

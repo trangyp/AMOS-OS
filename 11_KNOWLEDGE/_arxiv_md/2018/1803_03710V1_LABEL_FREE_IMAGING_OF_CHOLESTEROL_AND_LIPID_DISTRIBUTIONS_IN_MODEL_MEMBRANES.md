@@ -468,3 +468,13 @@ Acta (BBA)-Lipids Lipid Metab. 1977, 489 (2), 191–206.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_03710v1_label_free_imaging_of_cholesterol_and_lipid_distributions_in_model_membranes
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_03710V1_LABEL_FREE_IMAGING_OF_CHOLESTEROL_AND_LIPID_DISTRIBUTIONS_IN_MODEL_MEMBRANES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

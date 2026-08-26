@@ -1289,3 +1289,13 @@ Not Specified, 27
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1302_5491v1_implications_for_improving_accessibility_to_e_commerce_websites_in_developing_co
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1302_5491V1_IMPLICATIONS_FOR_IMPROVING_ACCESSIBILITY_TO_E_COMMERCE_WEBSITES_IN_DEVELOPING_CO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

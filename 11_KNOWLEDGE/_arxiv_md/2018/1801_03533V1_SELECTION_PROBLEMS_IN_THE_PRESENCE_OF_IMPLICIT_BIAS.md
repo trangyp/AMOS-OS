@@ -4011,3 +4011,13 @@ M = m|Y(n−1:n) ≥T
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1801_03533v1_selection_problems_in_the_presence_of_implicit_bias
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1801_03533V1_SELECTION_PROBLEMS_IN_THE_PRESENCE_OF_IMPLICIT_BIAS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

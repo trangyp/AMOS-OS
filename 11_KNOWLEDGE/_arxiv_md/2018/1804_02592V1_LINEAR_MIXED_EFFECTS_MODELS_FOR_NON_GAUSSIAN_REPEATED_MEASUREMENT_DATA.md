@@ -54504,3 +54504,13 @@ n
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_02592v1_linear_mixed_effects_models_for_non_gaussian_repeated_measurement_data
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_02592V1_LINEAR_MIXED_EFFECTS_MODELS_FOR_NON_GAUSSIAN_REPEATED_MEASUREMENT_DATA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

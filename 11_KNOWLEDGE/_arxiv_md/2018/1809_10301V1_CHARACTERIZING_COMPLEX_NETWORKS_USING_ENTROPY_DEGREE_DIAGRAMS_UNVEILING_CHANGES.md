@@ -580,3 +580,13 @@ Chialvo, and D. Nutt, Frontiers in Human Neuroscience 8, 20 (2014).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1809_10301v1_characterizing_complex_networks_using_entropy_degree_diagrams_unveiling_changes
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1809_10301V1_CHARACTERIZING_COMPLEX_NETWORKS_USING_ENTROPY_DEGREE_DIAGRAMS_UNVEILING_CHANGES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

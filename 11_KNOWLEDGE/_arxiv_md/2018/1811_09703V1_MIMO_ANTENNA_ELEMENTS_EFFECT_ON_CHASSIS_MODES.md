@@ -278,3 +278,13 @@ Antennas and Propagation, vol. 60, no. 12, pp. 5947–5957, dec 2012.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1811_09703v1_mimo_antenna_elements_effect_on_chassis_modes
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_09703V1_MIMO_ANTENNA_ELEMENTS_EFFECT_ON_CHASSIS_MODES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

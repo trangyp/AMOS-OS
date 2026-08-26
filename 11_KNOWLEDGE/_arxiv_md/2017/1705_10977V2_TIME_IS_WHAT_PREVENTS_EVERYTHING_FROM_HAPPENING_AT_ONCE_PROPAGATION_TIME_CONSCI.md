@@ -2180,3 +2180,13 @@ Fig. 9: Inﬂuence spread vs p: (a-c) p = 0.05; (d-f) p = 0.1.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1705_10977v2_time_is_what_prevents_everything_from_happening_at_once_propagation_time_consci
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1705_10977V2_TIME_IS_WHAT_PREVENTS_EVERYTHING_FROM_HAPPENING_AT_ONCE_PROPAGATION_TIME_CONSCI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

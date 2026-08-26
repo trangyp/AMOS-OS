@@ -863,3 +863,13 @@ P(Q_2= -1)=P(Q_1= +1, P(Q2=-1)+P(Q_1= -1, P(Q2=-1)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1504_05440v1_a_macroscopic_behavioral_violation_of_no_signaling_in_time_inequalities
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1504_05440V1_A_MACROSCOPIC_BEHAVIORAL_VIOLATION_OF_NO_SIGNALING_IN_TIME_INEQUALITIES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

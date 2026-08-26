@@ -703,3 +703,13 @@ Linear Logic. CoRR abs/0911.5525.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1003_5512v1_resource_bound_quantification_for_graph_transformation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1003_5512V1_RESOURCE_BOUND_QUANTIFICATION_FOR_GRAPH_TRANSFORMATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

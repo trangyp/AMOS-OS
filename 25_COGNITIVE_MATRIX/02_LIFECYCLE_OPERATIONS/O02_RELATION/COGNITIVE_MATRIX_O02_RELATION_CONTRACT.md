@@ -16,3 +16,13 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 **Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: cognitive_matrix_o02_relation_contract
+node_type: note
+path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O02_RELATION/COGNITIVE_MATRIX_O02_RELATION_CONTRACT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

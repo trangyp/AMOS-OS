@@ -16,3 +16,13 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: papers_research_papers_contract
+node_type: note
+path: 22_RESEARCH/01_PAPERS/00_INDEX/PAPERS_RESEARCH_PAPERS_CONTRACT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

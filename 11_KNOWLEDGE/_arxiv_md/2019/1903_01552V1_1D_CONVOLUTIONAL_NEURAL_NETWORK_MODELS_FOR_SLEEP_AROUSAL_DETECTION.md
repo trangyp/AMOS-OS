@@ -1004,3 +1004,13 @@ Human Identification in Smart Health Applications. IEEE Access. doi:10.1109/ACCE
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_01552v1_1d_convolutional_neural_network_models_for_sleep_arousal_detection
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_01552V1_1D_CONVOLUTIONAL_NEURAL_NETWORK_MODELS_FOR_SLEEP_AROUSAL_DETECTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

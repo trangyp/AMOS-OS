@@ -2210,3 +2210,13 @@ UNKNOWN/GAP != PASS
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: invariant_registry
+node_type: note
+path: 01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

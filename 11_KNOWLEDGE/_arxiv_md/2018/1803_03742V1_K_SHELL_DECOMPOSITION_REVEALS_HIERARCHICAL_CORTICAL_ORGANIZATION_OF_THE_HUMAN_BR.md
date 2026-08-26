@@ -1403,3 +1403,13 @@ Neuroimage 43 528-39
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_03742v1_k_shell_decomposition_reveals_hierarchical_cortical_organization_of_the_human_br
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_03742V1_K_SHELL_DECOMPOSITION_REVEALS_HIERARCHICAL_CORTICAL_ORGANIZATION_OF_THE_HUMAN_BR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

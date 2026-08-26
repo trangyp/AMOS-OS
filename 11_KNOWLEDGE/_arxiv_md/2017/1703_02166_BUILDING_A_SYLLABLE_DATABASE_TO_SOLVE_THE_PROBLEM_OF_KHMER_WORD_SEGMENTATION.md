@@ -1140,3 +1140,13 @@ articles were stored on Mediafire: https://www.mediafire.com/folder/9b81l9mfnt7x
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1703_02166_building_a_syllable_database_to_solve_the_problem_of_khmer_word_segmentation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1703_02166_BUILDING_A_SYLLABLE_DATABASE_TO_SOLVE_THE_PROBLEM_OF_KHMER_WORD_SEGMENTATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

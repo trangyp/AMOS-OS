@@ -898,3 +898,13 @@ http://dx.doi.org/10.1007/s11069- 012-0125-5.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1902_02108_seismogenic_nodes_as_a_viable_alternative_to_seismogenic_zones_and_observed_seis
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1902_02108_SEISMOGENIC_NODES_AS_A_VIABLE_ALTERNATIVE_TO_SEISMOGENIC_ZONES_AND_OBSERVED_SEIS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

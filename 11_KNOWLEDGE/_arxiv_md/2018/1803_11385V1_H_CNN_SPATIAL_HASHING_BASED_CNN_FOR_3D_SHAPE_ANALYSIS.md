@@ -2225,3 +2225,13 @@ ACM, 2017, pp. 1864–1871.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_11385v1_h_cnn_spatial_hashing_based_cnn_for_3d_shape_analysis
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_11385V1_H_CNN_SPATIAL_HASHING_BASED_CNN_FOR_3D_SHAPE_ANALYSIS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1141,3 +1141,13 @@ pp. 1733-1747.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1902_05845v1_assessing_the_level_of_autonomic_nervous_activity_for_effective_biofeedback_trai
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1902_05845V1_ASSESSING_THE_LEVEL_OF_AUTONOMIC_NERVOUS_ACTIVITY_FOR_EFFECTIVE_BIOFEEDBACK_TRAI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

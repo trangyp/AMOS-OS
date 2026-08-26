@@ -765,3 +765,13 @@ Transactions on Knowledge and Data Engineering 30(6):1081–1094
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_06203v1_vicsom_visual_clues_from_social_media_for_psychological_assessment
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_06203V1_VICSOM_VISUAL_CLUES_FROM_SOCIAL_MEDIA_FOR_PSYCHOLOGICAL_ASSESSMENT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

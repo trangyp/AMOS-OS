@@ -5801,3 +5801,13 @@ structures. The residue index gives the position of the middle residue in each s
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1004_1590v1_electrostatics_in_the_stability_and_misfolding_of_the_prion_protein_salt_bridge
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1004_1590V1_ELECTROSTATICS_IN_THE_STABILITY_AND_MISFOLDING_OF_THE_PRION_PROTEIN_SALT_BRIDGE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

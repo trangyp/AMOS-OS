@@ -1432,3 +1432,13 @@ Aviv, Israel. gilk@mta.ac.il
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1709_01487v1_clear_thinking_vague_thinking_and_paradoxes
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1709_01487V1_CLEAR_THINKING_VAGUE_THINKING_AND_PARADOXES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

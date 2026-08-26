@@ -1039,3 +1039,13 @@ E-mail address: rosalie.hosking@gmail.com
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1702_01350v1_solving_sangaku_a_traditional_solution_to_a_nineteenth_century_japanese_temple
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1702_01350V1_SOLVING_SANGAKU_A_TRADITIONAL_SOLUTION_TO_A_NINETEENTH_CENTURY_JAPANESE_TEMPLE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

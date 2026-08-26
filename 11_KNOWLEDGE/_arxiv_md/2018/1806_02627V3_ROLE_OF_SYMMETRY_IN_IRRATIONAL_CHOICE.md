@@ -461,3 +461,13 @@ Weyl, H. (1952) Symmetry. Princeton: Princeton University Press.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_02627v3_role_of_symmetry_in_irrational_choice
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_02627V3_ROLE_OF_SYMMETRY_IN_IRRATIONAL_CHOICE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

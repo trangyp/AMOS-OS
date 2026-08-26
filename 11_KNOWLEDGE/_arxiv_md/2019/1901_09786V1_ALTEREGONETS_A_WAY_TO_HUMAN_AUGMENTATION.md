@@ -1212,3 +1212,13 @@ c-6JthtsJn3GSM:
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1901_09786v1_alteregonets_a_way_to_human_augmentation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1901_09786V1_ALTEREGONETS_A_WAY_TO_HUMAN_AUGMENTATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

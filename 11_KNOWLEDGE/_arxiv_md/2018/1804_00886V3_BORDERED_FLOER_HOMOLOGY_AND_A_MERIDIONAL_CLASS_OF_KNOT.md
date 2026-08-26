@@ -2849,3 +2849,13 @@ pp. 615-639.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_00886v3_bordered_floer_homology_and_a_meridional_class_of_knot
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_00886V3_BORDERED_FLOER_HOMOLOGY_AND_A_MERIDIONAL_CLASS_OF_KNOT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -2817,3 +2817,13 @@ URL: http://control.ee.ethz.ch/˜gangulya/
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0909_4790v3_error_analysis_of_tau_leap_simulation_methods
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0909_4790V3_ERROR_ANALYSIS_OF_TAU_LEAP_SIMULATION_METHODS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

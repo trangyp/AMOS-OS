@@ -1389,3 +1389,13 @@ score of 23.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1611_08310v1_white_matter_deficits_underlie_the_loss_of_consciousness_level_and_predict_recov
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1611_08310V1_WHITE_MATTER_DEFICITS_UNDERLIE_THE_LOSS_OF_CONSCIOUSNESS_LEVEL_AND_PREDICT_RECOV.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

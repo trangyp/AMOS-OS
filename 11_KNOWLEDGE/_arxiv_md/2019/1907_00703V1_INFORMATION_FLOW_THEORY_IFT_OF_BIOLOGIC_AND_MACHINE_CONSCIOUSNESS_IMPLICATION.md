@@ -809,3 +809,13 @@ photoreceptors with a vertebrate-type opsin in an invertebrate brain. Science (8
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_00703v1_information_flow_theory_ift_of_biologic_and_machine_consciousness_implication
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_00703V1_INFORMATION_FLOW_THEORY_IFT_OF_BIOLOGIC_AND_MACHINE_CONSCIOUSNESS_IMPLICATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

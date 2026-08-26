@@ -16,3 +16,13 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: index_superseded_archive_readme
+node_type: note
+path: 24_ARCHIVE/02_SUPERSEDED/00_INDEX/INDEX_SUPERSEDED_ARCHIVE_README.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

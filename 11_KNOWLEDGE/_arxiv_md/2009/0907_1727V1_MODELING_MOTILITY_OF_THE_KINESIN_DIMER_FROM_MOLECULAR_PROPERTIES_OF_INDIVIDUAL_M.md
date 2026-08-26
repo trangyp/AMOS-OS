@@ -1702,3 +1702,13 @@ B
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0907_1727v1_modeling_motility_of_the_kinesin_dimer_from_molecular_properties_of_individual_m
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0907_1727V1_MODELING_MOTILITY_OF_THE_KINESIN_DIMER_FROM_MOLECULAR_PROPERTIES_OF_INDIVIDUAL_M.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1031,3 +1031,13 @@ C.-A. Tsai, Bioinformatics 23, 2104 (2007).
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0801_4278v1_a_simple_and_robust_method_for_connecting_small_molecule_drugs_using_gene_expres
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0801_4278V1_A_SIMPLE_AND_ROBUST_METHOD_FOR_CONNECTING_SMALL_MOLECULE_DRUGS_USING_GENE_EXPRES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

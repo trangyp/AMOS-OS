@@ -1680,3 +1680,13 @@ Figure 31: The now “iconic” Trump Pepe.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1610_03452v5_kek_cucks_and_god_emperor_trump_a_measurement_study_of_4chan_s_politically_in
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1610_03452V5_KEK_CUCKS_AND_GOD_EMPEROR_TRUMP_A_MEASUREMENT_STUDY_OF_4CHAN_S_POLITICALLY_IN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

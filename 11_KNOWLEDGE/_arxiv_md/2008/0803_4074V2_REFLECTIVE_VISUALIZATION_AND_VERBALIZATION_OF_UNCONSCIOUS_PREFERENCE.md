@@ -696,3 +696,13 @@ the IEEE International Conference on Tools with Artiﬁcial Intelligence, Boca R
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0803_4074v2_reflective_visualization_and_verbalization_of_unconscious_preference
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0803_4074V2_REFLECTIVE_VISUALIZATION_AND_VERBALIZATION_OF_UNCONSCIOUS_PREFERENCE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

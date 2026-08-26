@@ -406,3 +406,13 @@ Zibetti, S., Charlot, S., & Rix, H.-W. 2009, MNRAS,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_02470_improved_dynamical_constraints_on_the_mass_of_the_central_black_hole_in_ngc_404
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_02470_IMPROVED_DYNAMICAL_CONSTRAINTS_ON_THE_MASS_OF_THE_CENTRAL_BLACK_HOLE_IN_NGC_404.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

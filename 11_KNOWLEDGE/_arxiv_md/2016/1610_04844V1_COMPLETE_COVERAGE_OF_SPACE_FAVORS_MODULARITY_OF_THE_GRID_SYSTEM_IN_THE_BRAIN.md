@@ -1396,3 +1396,13 @@ and A. V. Herz, bioRxiv
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1610_04844v1_complete_coverage_of_space_favors_modularity_of_the_grid_system_in_the_brain
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1610_04844V1_COMPLETE_COVERAGE_OF_SPACE_FAVORS_MODULARITY_OF_THE_GRID_SYSTEM_IN_THE_BRAIN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

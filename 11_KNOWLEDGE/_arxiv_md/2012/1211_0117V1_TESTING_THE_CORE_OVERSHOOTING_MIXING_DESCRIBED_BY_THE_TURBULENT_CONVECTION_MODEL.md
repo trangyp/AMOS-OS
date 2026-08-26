@@ -1393,3 +1393,13 @@ Zhang, Q. S. 2012, MNRAS, accepted, arXiv:1209.0977v1,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1211_0117v1_testing_the_core_overshooting_mixing_described_by_the_turbulent_convection_model
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1211_0117V1_TESTING_THE_CORE_OVERSHOOTING_MIXING_DESCRIBED_BY_THE_TURBULENT_CONVECTION_MODEL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

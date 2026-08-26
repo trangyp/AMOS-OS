@@ -628,3 +628,13 @@ pp. 527–533 (2016)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_01855_contrastive_learning_of_emoji_based_representations_for_resource_poor_languages
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_01855_CONTRASTIVE_LEARNING_OF_EMOJI_BASED_REPRESENTATIONS_FOR_RESOURCE_POOR_LANGUAGES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

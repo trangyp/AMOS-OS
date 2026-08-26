@@ -1176,3 +1176,13 @@ In Proceedings of CSCW, ACM (2006), 199–208.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1409_8578v1_u_s_religious_landscape_on_twitter
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1409_8578V1_U_S_RELIGIOUS_LANDSCAPE_ON_TWITTER.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

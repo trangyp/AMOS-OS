@@ -1866,3 +1866,13 @@ applications.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_08243v2_tracking_the_precession_of_single_nuclear_spins_by_weak_measurements
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_08243V2_TRACKING_THE_PRECESSION_OF_SINGLE_NUCLEAR_SPINS_BY_WEAK_MEASUREMENTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

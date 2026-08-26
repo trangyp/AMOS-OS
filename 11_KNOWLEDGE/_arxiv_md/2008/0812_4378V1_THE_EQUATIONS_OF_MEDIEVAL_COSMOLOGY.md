@@ -250,3 +250,13 @@ the Earth.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0812_4378v1_the_equations_of_medieval_cosmology
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0812_4378V1_THE_EQUATIONS_OF_MEDIEVAL_COSMOLOGY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

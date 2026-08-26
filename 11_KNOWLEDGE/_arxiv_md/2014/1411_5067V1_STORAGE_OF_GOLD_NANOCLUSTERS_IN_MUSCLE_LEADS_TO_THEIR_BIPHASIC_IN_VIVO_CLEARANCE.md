@@ -641,3 +641,13 @@ NCs.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1411_5067v1_storage_of_gold_nanoclusters_in_muscle_leads_to_their_biphasic_in_vivo_clearance
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1411_5067V1_STORAGE_OF_GOLD_NANOCLUSTERS_IN_MUSCLE_LEADS_TO_THEIR_BIPHASIC_IN_VIVO_CLEARANCE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

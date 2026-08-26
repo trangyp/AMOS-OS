@@ -1926,3 +1926,13 @@ URL http://doi.acm.org/10.1145/2678373.2665718
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_05135v1_pricing_schemes_for_energy_efficient_hpc_systems_design_and_exploration
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_05135V1_PRICING_SCHEMES_FOR_ENERGY_EFFICIENT_HPC_SYSTEMS_DESIGN_AND_EXPLORATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

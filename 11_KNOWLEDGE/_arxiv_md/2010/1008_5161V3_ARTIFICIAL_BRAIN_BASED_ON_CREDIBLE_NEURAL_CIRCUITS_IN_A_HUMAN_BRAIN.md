@@ -569,3 +569,13 @@ Brain, Almaden Research Center 2010 (http://www-
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1008_5161v3_artificial_brain_based_on_credible_neural_circuits_in_a_human_brain
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1008_5161V3_ARTIFICIAL_BRAIN_BASED_ON_CREDIBLE_NEURAL_CIRCUITS_IN_A_HUMAN_BRAIN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

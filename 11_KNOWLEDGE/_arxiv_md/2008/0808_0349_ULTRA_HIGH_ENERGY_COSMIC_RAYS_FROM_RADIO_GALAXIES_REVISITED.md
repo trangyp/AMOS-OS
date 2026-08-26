@@ -297,3 +297,13 @@ Mannheim K., WesterhoﬀS., Meyer H., Fink H.-H., A&A 315, 77 (1996)
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0808_0349_ultra_high_energy_cosmic_rays_from_radio_galaxies_revisited
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0808_0349_ULTRA_HIGH_ENERGY_COSMIC_RAYS_FROM_RADIO_GALAXIES_REVISITED.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

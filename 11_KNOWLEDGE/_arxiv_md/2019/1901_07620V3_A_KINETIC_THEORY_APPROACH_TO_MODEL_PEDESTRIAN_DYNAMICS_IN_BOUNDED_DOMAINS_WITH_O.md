@@ -1954,3 +1954,13 @@ and Pattern Recognition, (2012), 2871–2878.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1901_07620v3_a_kinetic_theory_approach_to_model_pedestrian_dynamics_in_bounded_domains_with_o
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1901_07620V3_A_KINETIC_THEORY_APPROACH_TO_MODEL_PEDESTRIAN_DYNAMICS_IN_BOUNDED_DOMAINS_WITH_O.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

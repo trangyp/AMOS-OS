@@ -16,3 +16,13 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: ev_infrastructure_map
+node_type: note
+path: 21_DOMAINS/44_EV_INFRASTRUCTURE/00_INDEX/EV_INFRASTRUCTURE_MAP.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

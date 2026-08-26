@@ -1432,3 +1432,13 @@ A. Lerer, Automatic diﬀerentiation in pytorch (2017).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1906_02899v3_towards_non_i_i_d_image_classification_a_dataset_and_baselines
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1906_02899V3_TOWARDS_NON_I_I_D_IMAGE_CLASSIFICATION_A_DATASET_AND_BASELINES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

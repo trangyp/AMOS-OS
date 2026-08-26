@@ -430,3 +430,13 @@ visual attention. In ICML’2015, 2015.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1709_08568v2_the_consciousness_prior
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1709_08568V2_THE_CONSCIOUSNESS_PRIOR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

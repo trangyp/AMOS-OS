@@ -467,3 +467,13 @@ jonathan.rubin@philips.com / saman.parvaneh@philips.com
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1710_05817v1_densely_connected_convolutional_networks_and_signal_quality_analysis_to_detect_a
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1710_05817V1_DENSELY_CONNECTED_CONVOLUTIONAL_NETWORKS_AND_SIGNAL_QUALITY_ANALYSIS_TO_DETECT_A.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

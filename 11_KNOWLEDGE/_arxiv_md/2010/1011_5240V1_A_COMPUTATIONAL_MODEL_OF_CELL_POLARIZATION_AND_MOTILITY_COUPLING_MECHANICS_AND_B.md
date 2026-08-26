@@ -1073,3 +1073,13 @@ cellular deformations using the level set formalism., BMC Systems Biology, (2008
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1011_5240v1_a_computational_model_of_cell_polarization_and_motility_coupling_mechanics_and_b
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1011_5240V1_A_COMPUTATIONAL_MODEL_OF_CELL_POLARIZATION_AND_MOTILITY_COUPLING_MECHANICS_AND_B.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

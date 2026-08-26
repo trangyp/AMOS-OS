@@ -9783,3 +9783,13 @@ Congress on Big Data (BigData Congress)​, 557–64.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1811_02881v3_blockchain_and_human_episodic_memory
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_02881V3_BLOCKCHAIN_AND_HUMAN_EPISODIC_MEMORY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

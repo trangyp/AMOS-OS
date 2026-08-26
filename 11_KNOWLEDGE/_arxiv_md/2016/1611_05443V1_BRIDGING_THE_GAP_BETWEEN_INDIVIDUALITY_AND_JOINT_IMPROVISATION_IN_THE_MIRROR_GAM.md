@@ -1675,3 +1675,13 @@ logical cybernetics, 110(2),151-169, 2016.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1611_05443v1_bridging_the_gap_between_individuality_and_joint_improvisation_in_the_mirror_gam
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1611_05443V1_BRIDGING_THE_GAP_BETWEEN_INDIVIDUALITY_AND_JOINT_IMPROVISATION_IN_THE_MIRROR_GAM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

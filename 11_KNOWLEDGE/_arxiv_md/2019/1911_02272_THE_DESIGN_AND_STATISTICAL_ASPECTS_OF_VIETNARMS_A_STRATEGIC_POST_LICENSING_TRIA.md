@@ -1039,3 +1039,13 @@ cumulative probability of stopping a group.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_02272_the_design_and_statistical_aspects_of_vietnarms_a_strategic_post_licensing_tria
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_02272_THE_DESIGN_AND_STATISTICAL_ASPECTS_OF_VIETNARMS_A_STRATEGIC_POST_LICENSING_TRIA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

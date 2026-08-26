@@ -639,3 +639,13 @@ pp. 94-100, IEEE ComputerSocie
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1807_07779_a_generalized_vector_space_model_for_ontology_based_information_retrieval
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1807_07779_A_GENERALIZED_VECTOR_SPACE_MODEL_FOR_ONTOLOGY_BASED_INFORMATION_RETRIEVAL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

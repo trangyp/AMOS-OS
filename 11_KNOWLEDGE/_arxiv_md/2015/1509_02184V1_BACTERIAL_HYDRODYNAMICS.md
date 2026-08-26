@@ -1659,3 +1659,13 @@ Proc. Natl. Acad. Sci. U.S.A. 111:1265–
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1509_02184v1_bacterial_hydrodynamics
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1509_02184V1_BACTERIAL_HYDRODYNAMICS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

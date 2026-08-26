@@ -1963,3 +1963,13 @@ between
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_07475_mlqa_evaluating_cross_lingual_extractive_question_answering
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_07475_MLQA_EVALUATING_CROSS_LINGUAL_EXTRACTIVE_QUESTION_ANSWERING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

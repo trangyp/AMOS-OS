@@ -2823,3 +2823,13 @@ Biofilms in chronic wounds. Wound Repair Regen, 16 (1) 37-44 (2008).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1304_5163v1_demonstrating_that_chlorine_dioxide_is_a_size_selective_antimicrobial_agent_and
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1304_5163V1_DEMONSTRATING_THAT_CHLORINE_DIOXIDE_IS_A_SIZE_SELECTIVE_ANTIMICROBIAL_AGENT_AND.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

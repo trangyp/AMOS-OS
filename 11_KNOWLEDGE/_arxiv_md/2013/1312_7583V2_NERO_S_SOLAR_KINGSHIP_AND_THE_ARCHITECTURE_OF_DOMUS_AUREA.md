@@ -516,3 +516,13 @@ University of Michigan Press.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1312_7583v2_nero_s_solar_kingship_and_the_architecture_of_domus_aurea
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1312_7583V2_NERO_S_SOLAR_KINGSHIP_AND_THE_ARCHITECTURE_OF_DOMUS_AUREA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

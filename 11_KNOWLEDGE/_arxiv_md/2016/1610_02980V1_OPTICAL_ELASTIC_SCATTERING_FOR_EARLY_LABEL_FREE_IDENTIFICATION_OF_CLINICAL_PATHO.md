@@ -571,3 +571,13 @@ Average correct classification rate: 93.0% ± 0.7%*
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1610_02980v1_optical_elastic_scattering_for_early_label_free_identification_of_clinical_patho
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1610_02980V1_OPTICAL_ELASTIC_SCATTERING_FOR_EARLY_LABEL_FREE_IDENTIFICATION_OF_CLINICAL_PATHO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -576,3 +576,13 @@ International Conference on Social Informatics (Springer, 2014) pp. 544-560.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1802_06721v2_segregation_in_religion_networks
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1802_06721V2_SEGREGATION_IN_RELIGION_NETWORKS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

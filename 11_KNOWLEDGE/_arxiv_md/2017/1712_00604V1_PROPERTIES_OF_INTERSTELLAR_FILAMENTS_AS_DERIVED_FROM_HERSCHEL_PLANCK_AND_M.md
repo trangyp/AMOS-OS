@@ -462,3 +462,13 @@ Whittet, D. C. B., Hough, J. H., Lazarian, A., & Hoang, T.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_00604v1_properties_of_interstellar_filaments_as_derived_from_herschel_planck_and_m
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_00604V1_PROPERTIES_OF_INTERSTELLAR_FILAMENTS_AS_DERIVED_FROM_HERSCHEL_PLANCK_AND_M.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

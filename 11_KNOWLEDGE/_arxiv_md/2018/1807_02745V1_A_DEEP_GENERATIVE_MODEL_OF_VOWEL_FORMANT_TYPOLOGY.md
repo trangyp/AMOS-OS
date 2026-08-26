@@ -1244,3 +1244,13 @@ chine Learning (ICML), pages 1105–1112.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1807_02745v1_a_deep_generative_model_of_vowel_formant_typology
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1807_02745V1_A_DEEP_GENERATIVE_MODEL_OF_VOWEL_FORMANT_TYPOLOGY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

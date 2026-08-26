@@ -891,3 +891,13 @@ O(n3.71).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1611_09317_locality_sensitive_hashing_without_false_negatives_for_l_p
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1611_09317_LOCALITY_SENSITIVE_HASHING_WITHOUT_FALSE_NEGATIVES_FOR_L_P.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

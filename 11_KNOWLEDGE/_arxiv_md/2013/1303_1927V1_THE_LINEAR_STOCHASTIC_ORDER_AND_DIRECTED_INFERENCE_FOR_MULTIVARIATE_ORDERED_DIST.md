@@ -3093,3 +3093,13 @@ E-mail: peddada@niehs.nih.gov
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1303_1927v1_the_linear_stochastic_order_and_directed_inference_for_multivariate_ordered_dist
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1303_1927V1_THE_LINEAR_STOCHASTIC_ORDER_AND_DIRECTED_INFERENCE_FOR_MULTIVARIATE_ORDERED_DIST.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

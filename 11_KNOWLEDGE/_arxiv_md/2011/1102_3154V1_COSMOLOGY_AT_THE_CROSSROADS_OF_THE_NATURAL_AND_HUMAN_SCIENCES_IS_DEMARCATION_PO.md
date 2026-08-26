@@ -2642,3 +2642,13 @@ Yannaras, C.,  Postmodern Metaphysics, Brookline, MS: Holy Cross Orthodox  Press
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1102_3154v1_cosmology_at_the_crossroads_of_the_natural_and_human_sciences_is_demarcation_po
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1102_3154V1_COSMOLOGY_AT_THE_CROSSROADS_OF_THE_NATURAL_AND_HUMAN_SCIENCES_IS_DEMARCATION_PO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

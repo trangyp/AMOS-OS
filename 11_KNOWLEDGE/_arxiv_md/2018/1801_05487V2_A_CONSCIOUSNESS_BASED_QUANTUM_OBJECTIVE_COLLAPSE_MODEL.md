@@ -1091,3 +1091,13 @@ page 171–184. Indiana University Press.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1801_05487v2_a_consciousness_based_quantum_objective_collapse_model
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1801_05487V2_A_CONSCIOUSNESS_BASED_QUANTUM_OBJECTIVE_COLLAPSE_MODEL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

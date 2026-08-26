@@ -807,3 +807,13 @@ http://www.fracalmo.org
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0801_0142_from_power_laws_to_fractional_diffusion_the_direct_way
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0801_0142_FROM_POWER_LAWS_TO_FRACTIONAL_DIFFUSION_THE_DIRECT_WAY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

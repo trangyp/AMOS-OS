@@ -1842,3 +1842,13 @@ and selected applications. Courier Corporation, 2013.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_09694v1_computing_the_motor_torque_of_escherichia_coli
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_09694V1_COMPUTING_THE_MOTOR_TORQUE_OF_ESCHERICHIA_COLI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

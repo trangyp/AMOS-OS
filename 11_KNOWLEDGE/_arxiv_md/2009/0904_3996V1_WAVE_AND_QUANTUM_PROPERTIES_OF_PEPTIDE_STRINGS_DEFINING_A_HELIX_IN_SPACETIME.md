@@ -394,3 +394,13 @@ Verlag, Berlin.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0904_3996v1_wave_and_quantum_properties_of_peptide_strings_defining_a_helix_in_spacetime
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0904_3996V1_WAVE_AND_QUANTUM_PROPERTIES_OF_PEPTIDE_STRINGS_DEFINING_A_HELIX_IN_SPACETIME.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

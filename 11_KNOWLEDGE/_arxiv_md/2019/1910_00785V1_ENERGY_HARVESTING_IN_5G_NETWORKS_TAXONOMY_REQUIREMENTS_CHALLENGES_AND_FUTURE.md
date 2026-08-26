@@ -1012,3 +1012,13 @@ and mathematical modeling.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_00785v1_energy_harvesting_in_5g_networks_taxonomy_requirements_challenges_and_future
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_00785V1_ENERGY_HARVESTING_IN_5G_NETWORKS_TAXONOMY_REQUIREMENTS_CHALLENGES_AND_FUTURE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

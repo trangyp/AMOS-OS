@@ -407,3 +407,13 @@ Fixsen, D. J., Fixsen, D. J., Goksu, H., Rath, E., Meyer, S. S., Meyer, S. S., M
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 2208_04257v1_characterization_of_aerogel_scattering_filters_for_astronomical_telescopes
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2022/2208_04257V1_CHARACTERIZATION_OF_AEROGEL_SCATTERING_FILTERS_FOR_ASTRONOMICAL_TELESCOPES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

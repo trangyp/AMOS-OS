@@ -459,3 +459,13 @@ fibrillation: European perspective," vol. 2014, no. default, pp. 213-220, 2014.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_01514v2_method_of_diagnosing_heart_disease_based_on_deep_learning_ecg_signal
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_01514V2_METHOD_OF_DIAGNOSING_HEART_DISEASE_BASED_ON_DEEP_LEARNING_ECG_SIGNAL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

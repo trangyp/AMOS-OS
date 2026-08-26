@@ -421,3 +421,13 @@ Arak, I.R. Iran. J. Radioanal. Nucl. Chem.  295 163–166 (2012)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_10859v1_measurement_of_trace_elements_in_five_popular_medicinal_plants_using_instrumenta
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_10859V1_MEASUREMENT_OF_TRACE_ELEMENTS_IN_FIVE_POPULAR_MEDICINAL_PLANTS_USING_INSTRUMENTA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

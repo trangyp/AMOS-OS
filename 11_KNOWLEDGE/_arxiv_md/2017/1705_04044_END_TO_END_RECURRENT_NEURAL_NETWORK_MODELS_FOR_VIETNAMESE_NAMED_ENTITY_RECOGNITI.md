@@ -683,3 +683,13 @@ Named Entities Workshop. pp. 25–33 (2015)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1705_04044_end_to_end_recurrent_neural_network_models_for_vietnamese_named_entity_recogniti
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1705_04044_END_TO_END_RECURRENT_NEURAL_NETWORK_MODELS_FOR_VIETNAMESE_NAMED_ENTITY_RECOGNITI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

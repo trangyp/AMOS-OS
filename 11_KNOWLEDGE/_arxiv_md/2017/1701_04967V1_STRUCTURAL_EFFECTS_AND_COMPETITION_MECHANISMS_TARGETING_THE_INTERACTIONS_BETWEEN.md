@@ -717,3 +717,13 @@ e22487(2011) .
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1701_04967v1_structural_effects_and_competition_mechanisms_targeting_the_interactions_between
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1701_04967V1_STRUCTURAL_EFFECTS_AND_COMPETITION_MECHANISMS_TARGETING_THE_INTERACTIONS_BETWEEN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

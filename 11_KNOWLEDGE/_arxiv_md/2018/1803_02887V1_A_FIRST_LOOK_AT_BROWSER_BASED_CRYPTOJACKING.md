@@ -950,3 +950,13 @@ The zeroaccess botnet: Mining and fraud for massive
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_02887v1_a_first_look_at_browser_based_cryptojacking
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_02887V1_A_FIRST_LOOK_AT_BROWSER_BASED_CRYPTOJACKING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

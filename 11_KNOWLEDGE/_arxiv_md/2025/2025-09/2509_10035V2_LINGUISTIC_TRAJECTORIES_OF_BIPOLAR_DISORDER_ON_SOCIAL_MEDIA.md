@@ -1339,3 +1339,13 @@ language markers of bipolar disorder: Challenges and opportunities.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 2509_10035v2_linguistic_trajectories_of_bipolar_disorder_on_social_media
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2025/2025-09/2509_10035V2_LINGUISTIC_TRAJECTORIES_OF_BIPOLAR_DISORDER_ON_SOCIAL_MEDIA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

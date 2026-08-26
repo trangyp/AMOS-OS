@@ -1252,3 +1252,13 @@ Fig 4
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0904_0402v1_a_thermodynamic_basis_for_prebiotic_amino_acid_synthesis_and_the_nature_of_the_f
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0904_0402V1_A_THERMODYNAMIC_BASIS_FOR_PREBIOTIC_AMINO_ACID_SYNTHESIS_AND_THE_NATURE_OF_THE_F.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

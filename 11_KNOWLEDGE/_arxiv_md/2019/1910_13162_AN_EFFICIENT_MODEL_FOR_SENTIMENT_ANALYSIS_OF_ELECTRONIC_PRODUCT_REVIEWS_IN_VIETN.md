@@ -615,3 +615,13 @@ ing. URL:https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17176 ,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_13162_an_efficient_model_for_sentiment_analysis_of_electronic_product_reviews_in_vietn
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_13162_AN_EFFICIENT_MODEL_FOR_SENTIMENT_ANALYSIS_OF_ELECTRONIC_PRODUCT_REVIEWS_IN_VIETN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

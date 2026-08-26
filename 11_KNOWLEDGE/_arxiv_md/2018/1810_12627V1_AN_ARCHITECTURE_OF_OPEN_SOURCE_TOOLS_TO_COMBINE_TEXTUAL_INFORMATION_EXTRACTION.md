@@ -1412,3 +1412,13 @@ punumber=8100282
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1810_12627v1_an_architecture_of_open_source_tools_to_combine_textual_information_extraction
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1810_12627V1_AN_ARCHITECTURE_OF_OPEN_SOURCE_TOOLS_TO_COMBINE_TEXTUAL_INFORMATION_EXTRACTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

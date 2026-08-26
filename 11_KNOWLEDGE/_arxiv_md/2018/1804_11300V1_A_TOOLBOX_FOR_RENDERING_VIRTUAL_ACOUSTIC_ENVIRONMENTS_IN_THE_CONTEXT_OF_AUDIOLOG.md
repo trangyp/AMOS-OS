@@ -1089,3 +1089,13 @@ Journal of the Audio Engineering Society, 62(11):748–766, 2014.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_11300v1_a_toolbox_for_rendering_virtual_acoustic_environments_in_the_context_of_audiolog
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_11300V1_A_TOOLBOX_FOR_RENDERING_VIRTUAL_ACOUSTIC_ENVIRONMENTS_IN_THE_CONTEXT_OF_AUDIOLOG.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

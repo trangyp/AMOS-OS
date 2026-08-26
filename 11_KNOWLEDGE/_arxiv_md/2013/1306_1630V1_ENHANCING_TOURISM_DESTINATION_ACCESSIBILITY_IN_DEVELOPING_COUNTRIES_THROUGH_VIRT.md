@@ -883,3 +883,13 @@ Educational Technology.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1306_1630v1_enhancing_tourism_destination_accessibility_in_developing_countries_through_virt
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1306_1630V1_ENHANCING_TOURISM_DESTINATION_ACCESSIBILITY_IN_DEVELOPING_COUNTRIES_THROUGH_VIRT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

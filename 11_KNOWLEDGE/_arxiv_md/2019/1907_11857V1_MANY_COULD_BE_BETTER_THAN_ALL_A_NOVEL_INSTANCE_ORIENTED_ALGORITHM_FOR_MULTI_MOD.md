@@ -892,3 +892,13 @@ ing, 2013, pp. 1130–1138.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_11857v1_many_could_be_better_than_all_a_novel_instance_oriented_algorithm_for_multi_mod
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_11857V1_MANY_COULD_BE_BETTER_THAN_ALL_A_NOVEL_INSTANCE_ORIENTED_ALGORITHM_FOR_MULTI_MOD.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

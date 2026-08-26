@@ -645,3 +645,13 @@ Order. Berkeley, California: University of California Press.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1802_03313v1_of_mites_and_men_johannes_kepler_on_stars_and_size
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1802_03313V1_OF_MITES_AND_MEN_JOHANNES_KEPLER_ON_STARS_AND_SIZE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

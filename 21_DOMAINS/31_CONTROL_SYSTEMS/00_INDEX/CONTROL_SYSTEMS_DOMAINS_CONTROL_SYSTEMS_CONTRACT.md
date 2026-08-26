@@ -16,3 +16,13 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: control_systems_domains_control_systems_contract
+node_type: note
+path: 21_DOMAINS/31_CONTROL_SYSTEMS/00_INDEX/CONTROL_SYSTEMS_DOMAINS_CONTROL_SYSTEMS_CONTRACT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

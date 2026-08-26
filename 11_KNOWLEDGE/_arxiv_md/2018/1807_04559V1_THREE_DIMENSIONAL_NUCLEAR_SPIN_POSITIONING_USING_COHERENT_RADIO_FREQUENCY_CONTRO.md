@@ -677,3 +677,13 @@ H. Park, and M. D. Lukin, Science 351, 836 (2016).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1807_04559v1_three_dimensional_nuclear_spin_positioning_using_coherent_radio_frequency_contro
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1807_04559V1_THREE_DIMENSIONAL_NUCLEAR_SPIN_POSITIONING_USING_COHERENT_RADIO_FREQUENCY_CONTRO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -2034,3 +2034,13 @@ must change accordingly in order to maintain sufficient information flow.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1809_04414v1_the_moon_illusion_explained_by_the_projective_consciousness_model
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1809_04414V1_THE_MOON_ILLUSION_EXPLAINED_BY_THE_PROJECTIVE_CONSCIOUSNESS_MODEL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -959,3 +959,13 @@ impact of data transformations on concentration-response modeling. Toxicology Le
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1707_02502v1_marginalization_in_nonlinear_mixed_effects_models_with_an_application_to_dose_re
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1707_02502V1_MARGINALIZATION_IN_NONLINEAR_MIXED_EFFECTS_MODELS_WITH_AN_APPLICATION_TO_DOSE_RE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

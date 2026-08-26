@@ -1761,3 +1761,13 @@ signiﬁcant portion of the variance in the accuracy data.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1605_01096v1_moving_past_the_minimum_information_partition_how_to_quickly_and_accurately_cal
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1605_01096V1_MOVING_PAST_THE_MINIMUM_INFORMATION_PARTITION_HOW_TO_QUICKLY_AND_ACCURATELY_CAL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

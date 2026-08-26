@@ -650,3 +650,13 @@ p. 072502 (2006).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0708_1354_multi_channel_algebraic_scattering_theory_and_the_structure_of_exotic_compound_n
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0708_1354_MULTI_CHANNEL_ALGEBRAIC_SCATTERING_THEORY_AND_THE_STRUCTURE_OF_EXOTIC_COMPOUND_N.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

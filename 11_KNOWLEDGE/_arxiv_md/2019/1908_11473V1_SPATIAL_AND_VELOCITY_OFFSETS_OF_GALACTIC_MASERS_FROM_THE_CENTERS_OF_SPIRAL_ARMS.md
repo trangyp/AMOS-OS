@@ -1294,3 +1294,13 @@ d) Near the Scutum arm.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_11473v1_spatial_and_velocity_offsets_of_galactic_masers_from_the_centers_of_spiral_arms
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_11473V1_SPATIAL_AND_VELOCITY_OFFSETS_OF_GALACTIC_MASERS_FROM_THE_CENTERS_OF_SPIRAL_ARMS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

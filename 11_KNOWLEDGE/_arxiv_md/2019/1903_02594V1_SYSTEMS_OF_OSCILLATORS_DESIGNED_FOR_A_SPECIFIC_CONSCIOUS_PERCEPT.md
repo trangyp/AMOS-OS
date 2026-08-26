@@ -802,3 +802,13 @@ Philosophical Transactions of the Royal Society B-Biological Sciences,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_02594v1_systems_of_oscillators_designed_for_a_specific_conscious_percept
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_02594V1_SYSTEMS_OF_OSCILLATORS_DESIGNED_FOR_A_SPECIFIC_CONSCIOUS_PERCEPT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -4484,3 +4484,13 @@ rank days for each calendar year for ‘god’.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_00149v3_fame_and_ultrafame_measuring_and_comparing_daily_levels_of_being_talked_about
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_00149V3_FAME_AND_ULTRAFAME_MEASURING_AND_COMPARING_DAILY_LEVELS_OF_BEING_TALKED_ABOUT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

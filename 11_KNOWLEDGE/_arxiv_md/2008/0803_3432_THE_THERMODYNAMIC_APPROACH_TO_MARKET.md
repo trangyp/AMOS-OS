@@ -8429,3 +8429,13 @@ of Theoretical Physics. vol. 2, Leningrad, 1975 = Selecta Math. Sov. 1:4 (1981),
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0803_3432_the_thermodynamic_approach_to_market
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0803_3432_THE_THERMODYNAMIC_APPROACH_TO_MARKET.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

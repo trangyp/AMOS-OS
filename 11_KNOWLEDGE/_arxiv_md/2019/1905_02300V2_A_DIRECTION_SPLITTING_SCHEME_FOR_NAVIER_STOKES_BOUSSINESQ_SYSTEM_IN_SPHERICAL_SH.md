@@ -1462,3 +1462,13 @@ Edmonton, http://hdl.handle.net/10402/era.33972. (2013).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_02300v2_a_direction_splitting_scheme_for_navier_stokes_boussinesq_system_in_spherical_sh
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_02300V2_A_DIRECTION_SPLITTING_SCHEME_FOR_NAVIER_STOKES_BOUSSINESQ_SYSTEM_IN_SPHERICAL_SH.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

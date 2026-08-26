@@ -3024,3 +3024,13 @@ lization bottleneck by cocrystallization. Cryst. Growth Des., 7:2219–2225.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1405_3642v1_protein_structure_determination_using_chemical_shifts
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1405_3642V1_PROTEIN_STRUCTURE_DETERMINATION_USING_CHEMICAL_SHIFTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

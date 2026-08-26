@@ -1332,3 +1332,13 @@ ngày chấp nhận đăng: 16-12-2013)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_06114_semantic_search_using_spreading_activation_based_on_ontology
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_06114_SEMANTIC_SEARCH_USING_SPREADING_ACTIVATION_BASED_ON_ONTOLOGY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

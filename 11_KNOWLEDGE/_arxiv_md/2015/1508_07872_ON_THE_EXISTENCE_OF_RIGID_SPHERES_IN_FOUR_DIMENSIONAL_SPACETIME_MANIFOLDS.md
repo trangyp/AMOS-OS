@@ -1785,3 +1785,13 @@ New York: Springer 1988
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1508_07872_on_the_existence_of_rigid_spheres_in_four_dimensional_spacetime_manifolds
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1508_07872_ON_THE_EXISTENCE_OF_RIGID_SPHERES_IN_FOUR_DIMENSIONAL_SPACETIME_MANIFOLDS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -9624,3 +9624,13 @@ previously considered ‘spiritual’.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1705_04307v5_modeling_observers_as_physical_systems_representing_the_world_from_within_quant
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1705_04307V5_MODELING_OBSERVERS_AS_PHYSICAL_SYSTEMS_REPRESENTING_THE_WORLD_FROM_WITHIN_QUANT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

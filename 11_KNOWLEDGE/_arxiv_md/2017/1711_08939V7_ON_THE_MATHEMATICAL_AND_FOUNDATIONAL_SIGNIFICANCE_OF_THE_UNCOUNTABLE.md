@@ -2758,3 +2758,13 @@ Soc. 14 (1915), 111–130.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1711_08939v7_on_the_mathematical_and_foundational_significance_of_the_uncountable
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1711_08939V7_ON_THE_MATHEMATICAL_AND_FOUNDATIONAL_SIGNIFICANCE_OF_THE_UNCOUNTABLE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

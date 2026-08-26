@@ -938,3 +938,13 @@ Discrete & Computational Geometry, 33(2), pp. 249-274
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_12253v2_classification_of_single_lead_electrocardiograms_tda_informed_machine_learning
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_12253V2_CLASSIFICATION_OF_SINGLE_LEAD_ELECTROCARDIOGRAMS_TDA_INFORMED_MACHINE_LEARNING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

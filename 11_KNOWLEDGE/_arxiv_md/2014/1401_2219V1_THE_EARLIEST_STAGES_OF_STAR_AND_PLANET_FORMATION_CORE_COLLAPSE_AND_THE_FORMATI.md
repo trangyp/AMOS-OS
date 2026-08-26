@@ -2795,3 +2795,13 @@ This 2-column preprint was prepared with the AAS LATEX macros v5.2.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1401_2219v1_the_earliest_stages_of_star_and_planet_formation_core_collapse_and_the_formati
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1401_2219V1_THE_EARLIEST_STAGES_OF_STAR_AND_PLANET_FORMATION_CORE_COLLAPSE_AND_THE_FORMATI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

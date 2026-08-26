@@ -1841,3 +1841,13 @@ vegetative state/unresponsive wakefulness syndrome.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_09999v1_subdivisions_of_the_posteromedial_cortex_in_disorders_of_consciousness
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_09999V1_SUBDIVISIONS_OF_THE_POSTEROMEDIAL_CORTEX_IN_DISORDERS_OF_CONSCIOUSNESS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

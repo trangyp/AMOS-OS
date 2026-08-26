@@ -463,3 +463,13 @@ pp. 1–63, 1989.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1602_03814v1_enabling_basic_normative_hri_in_a_cognitive_robotic_architecture
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1602_03814V1_ENABLING_BASIC_NORMATIVE_HRI_IN_A_COGNITIVE_ROBOTIC_ARCHITECTURE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1504,3 +1504,13 @@ sorin@tokai.ac.jp
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1808_03381v1_the_cut_locus_of_a_randers_rotational_2_sphere_of_revolution
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1808_03381V1_THE_CUT_LOCUS_OF_A_RANDERS_ROTATIONAL_2_SPHERE_OF_REVOLUTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

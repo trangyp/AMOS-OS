@@ -1278,3 +1278,13 @@ ciobiology” in the Scientiﬁc Literature?, Evolutionary Psychology, 5(4), 683
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1406_5946v1_is_a_wirikuta_empowerment_of_the_huichol_measurable_on_the_internet
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1406_5946V1_IS_A_WIRIKUTA_EMPOWERMENT_OF_THE_HUICHOL_MEASURABLE_ON_THE_INTERNET.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

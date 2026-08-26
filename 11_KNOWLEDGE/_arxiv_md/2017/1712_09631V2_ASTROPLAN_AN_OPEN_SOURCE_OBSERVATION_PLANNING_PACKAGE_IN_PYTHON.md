@@ -858,3 +858,13 @@ blocks represent transitions, which account for instrument reconﬁguration dead
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_09631v2_astroplan_an_open_source_observation_planning_package_in_python
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_09631V2_ASTROPLAN_AN_OPEN_SOURCE_OBSERVATION_PLANNING_PACKAGE_IN_PYTHON.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

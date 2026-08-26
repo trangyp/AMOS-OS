@@ -530,3 +530,13 @@ graphene for supercapacitor electrodes. Journal of Materials Chemistry A, 2016. 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1706_06868v1_analysis_of_bacteriostatic_effect_of_chinese_herbal_medicine_against_e_coli
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1706_06868V1_ANALYSIS_OF_BACTERIOSTATIC_EFFECT_OF_CHINESE_HERBAL_MEDICINE_AGAINST_E_COLI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

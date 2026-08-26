@@ -249,3 +249,13 @@ Issues in Mental Health Nursing, 26(6), 591-609.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1302_5490v1_computer_interaction_and_the_benefits_of_social_networking_for_people_with_borde
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1302_5490V1_COMPUTER_INTERACTION_AND_THE_BENEFITS_OF_SOCIAL_NETWORKING_FOR_PEOPLE_WITH_BORDE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

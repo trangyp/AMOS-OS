@@ -9044,3 +9044,13 @@ antimicrobial,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1807_07127v1_datamining_a_medieval_medical_text_reveals_patterns_in_ingredient_choice_that_re
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1807_07127V1_DATAMINING_A_MEDIEVAL_MEDICAL_TEXT_REVEALS_PATTERNS_IN_INGREDIENT_CHOICE_THAT_RE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

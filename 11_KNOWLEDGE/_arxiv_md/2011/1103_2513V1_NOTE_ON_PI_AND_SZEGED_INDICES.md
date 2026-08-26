@@ -618,3 +618,13 @@ heim, 2000.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1103_2513v1_note_on_pi_and_szeged_indices
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1103_2513V1_NOTE_ON_PI_AND_SZEGED_INDICES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

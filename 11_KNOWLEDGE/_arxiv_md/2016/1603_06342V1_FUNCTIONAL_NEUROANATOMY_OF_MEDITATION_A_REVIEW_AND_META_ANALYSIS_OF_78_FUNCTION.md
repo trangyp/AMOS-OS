@@ -4478,3 +4478,13 @@ Figure!S4.***Activations*associated*with*loving_kindness*and*compassion*mediatio
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1603_06342v1_functional_neuroanatomy_of_meditation_a_review_and_meta_analysis_of_78_function
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1603_06342V1_FUNCTIONAL_NEUROANATOMY_OF_MEDITATION_A_REVIEW_AND_META_ANALYSIS_OF_78_FUNCTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

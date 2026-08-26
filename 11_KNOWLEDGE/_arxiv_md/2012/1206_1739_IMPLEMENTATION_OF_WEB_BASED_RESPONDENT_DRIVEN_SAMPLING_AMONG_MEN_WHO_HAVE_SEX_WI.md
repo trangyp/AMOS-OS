@@ -2341,3 +2341,13 @@ Figure
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1206_1739_implementation_of_web_based_respondent_driven_sampling_among_men_who_have_sex_wi
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1206_1739_IMPLEMENTATION_OF_WEB_BASED_RESPONDENT_DRIVEN_SAMPLING_AMONG_MEN_WHO_HAVE_SEX_WI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

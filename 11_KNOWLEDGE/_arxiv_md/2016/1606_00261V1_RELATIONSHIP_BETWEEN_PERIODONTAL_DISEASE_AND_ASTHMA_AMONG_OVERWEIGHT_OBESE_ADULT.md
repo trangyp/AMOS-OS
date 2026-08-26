@@ -632,3 +632,13 @@ asthma, FA= family history of asthma. Reference age of 50 years and BMI of 33 we
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1606_00261v1_relationship_between_periodontal_disease_and_asthma_among_overweight_obese_adult
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1606_00261V1_RELATIONSHIP_BETWEEN_PERIODONTAL_DISEASE_AND_ASTHMA_AMONG_OVERWEIGHT_OBESE_ADULT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

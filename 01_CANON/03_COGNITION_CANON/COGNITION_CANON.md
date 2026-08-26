@@ -2405,3 +2405,13 @@ STRONGER THAN THE EVIDENCE.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: cognition_canon
+node_type: note
+path: 01_CANON/03_COGNITION_CANON/COGNITION_CANON.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

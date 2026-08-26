@@ -892,3 +892,13 @@ theoretical biology, 252(2):185–197, 2008.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1710_08384v1_consciousness_as_a_global_property_of_brain_dynamic_activity
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1710_08384V1_CONSCIOUSNESS_AS_A_GLOBAL_PROPERTY_OF_BRAIN_DYNAMIC_ACTIVITY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

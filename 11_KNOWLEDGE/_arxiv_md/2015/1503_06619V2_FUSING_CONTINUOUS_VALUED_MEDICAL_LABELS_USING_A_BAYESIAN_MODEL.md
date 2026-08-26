@@ -920,3 +920,13 @@ BCLA, EM-R, median, and mean voting approaches. Inset: A close-up of the RMSE re
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1503_06619v2_fusing_continuous_valued_medical_labels_using_a_bayesian_model
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1503_06619V2_FUSING_CONTINUOUS_VALUED_MEDICAL_LABELS_USING_A_BAYESIAN_MODEL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

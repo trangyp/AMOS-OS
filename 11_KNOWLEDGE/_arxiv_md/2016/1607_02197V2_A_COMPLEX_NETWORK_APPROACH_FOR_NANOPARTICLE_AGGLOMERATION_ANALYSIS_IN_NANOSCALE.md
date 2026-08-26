@@ -1109,3 +1109,13 @@ article/pii/S0208521615000728
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1607_02197v2_a_complex_network_approach_for_nanoparticle_agglomeration_analysis_in_nanoscale
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1607_02197V2_A_COMPLEX_NETWORK_APPROACH_FOR_NANOPARTICLE_AGGLOMERATION_ANALYSIS_IN_NANOSCALE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

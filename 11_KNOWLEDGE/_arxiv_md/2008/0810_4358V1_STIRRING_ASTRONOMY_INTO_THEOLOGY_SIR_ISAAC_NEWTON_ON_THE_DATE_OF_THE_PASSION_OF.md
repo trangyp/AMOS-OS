@@ -2724,3 +2724,13 @@ could be visible only the next day.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0810_4358v1_stirring_astronomy_into_theology_sir_isaac_newton_on_the_date_of_the_passion_of
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0810_4358V1_STIRRING_ASTRONOMY_INTO_THEOLOGY_SIR_ISAAC_NEWTON_ON_THE_DATE_OF_THE_PASSION_OF.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

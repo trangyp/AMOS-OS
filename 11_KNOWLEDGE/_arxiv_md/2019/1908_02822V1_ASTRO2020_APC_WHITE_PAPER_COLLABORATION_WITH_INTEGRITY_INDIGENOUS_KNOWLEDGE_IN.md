@@ -373,3 +373,13 @@ A. Witze 2019, Nature, 565, 278;  https://www.nature.com/articles/d41586
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_02822v1_astro2020_apc_white_paper_collaboration_with_integrity_indigenous_knowledge_in
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_02822V1_ASTRO2020_APC_WHITE_PAPER_COLLABORATION_WITH_INTEGRITY_INDIGENOUS_KNOWLEDGE_IN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

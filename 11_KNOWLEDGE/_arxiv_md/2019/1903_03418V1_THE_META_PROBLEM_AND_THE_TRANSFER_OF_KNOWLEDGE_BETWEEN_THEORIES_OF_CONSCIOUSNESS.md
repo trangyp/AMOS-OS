@@ -406,3 +406,13 @@ http://www.cs.bham.ac.uk/research/projects/cogaff/sloman-chrisley-jcs.pdf
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_03418v1_the_meta_problem_and_the_transfer_of_knowledge_between_theories_of_consciousness
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_03418V1_THE_META_PROBLEM_AND_THE_TRANSFER_OF_KNOWLEDGE_BETWEEN_THEORIES_OF_CONSCIOUSNESS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

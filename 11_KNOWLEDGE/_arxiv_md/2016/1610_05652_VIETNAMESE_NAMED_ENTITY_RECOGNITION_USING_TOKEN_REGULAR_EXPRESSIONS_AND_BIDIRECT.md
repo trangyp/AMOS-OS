@@ -532,3 +532,13 @@ Edmonton, Canada, 2003, pp. 142–147.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1610_05652_vietnamese_named_entity_recognition_using_token_regular_expressions_and_bidirect
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1610_05652_VIETNAMESE_NAMED_ENTITY_RECOGNITION_USING_TOKEN_REGULAR_EXPRESSIONS_AND_BIDIRECT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -700,3 +700,13 @@ IEEE, 2017, pp. 1–6.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1811_01701v1_role_of_awareness_and_universal_context_in_a_spiking_conscious_neural_network_s
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_01701V1_ROLE_OF_AWARENESS_AND_UNIVERSAL_CONTEXT_IN_A_SPIKING_CONSCIOUS_NEURAL_NETWORK_S.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

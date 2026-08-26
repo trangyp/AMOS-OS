@@ -1109,3 +1109,13 @@ Rev. D 96 023529
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_00219_on_the_validity_of_cosmic_no_hair_conjecture_in_an_anisotropic_inflationary_mode
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_00219_ON_THE_VALIDITY_OF_COSMIC_NO_HAIR_CONJECTURE_IN_AN_ANISOTROPIC_INFLATIONARY_MODE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

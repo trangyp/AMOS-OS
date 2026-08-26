@@ -1297,3 +1297,13 @@ c⃝2012 RAS, MNRAS 000, 1–8
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1209_0977v1_the_diffusive_overshooting_approach_on_li_abundance_in_clusters
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1209_0977V1_THE_DIFFUSIVE_OVERSHOOTING_APPROACH_ON_LI_ABUNDANCE_IN_CLUSTERS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

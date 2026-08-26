@@ -3219,3 +3219,13 @@ The central architectural rule is:
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: l00_reality_environment_primitives_cognitive_matrix_invariants
+node_type: note
+path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_INVARIANTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

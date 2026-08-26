@@ -1388,3 +1388,13 @@ Fig. 10 : Idem as Fig. 9, but for θ0 = 50◦and θ0 = 80◦
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1107_2715v1_stereo_pairs_in_astrophysics
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1107_2715V1_STEREO_PAIRS_IN_ASTROPHYSICS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

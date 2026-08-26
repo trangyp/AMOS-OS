@@ -1346,3 +1346,13 @@ psychiatry 71, 1 (2010), 26–31.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_09183v1_detection_of_the_prodromal_phase_of_bipolar_disorder_from_psychological_and_phon
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_09183V1_DETECTION_OF_THE_PRODROMAL_PHASE_OF_BIPOLAR_DISORDER_FROM_PSYCHOLOGICAL_AND_PHON.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

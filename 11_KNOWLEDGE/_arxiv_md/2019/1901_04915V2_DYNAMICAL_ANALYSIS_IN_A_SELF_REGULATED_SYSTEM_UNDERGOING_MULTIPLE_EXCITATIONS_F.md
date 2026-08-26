@@ -4284,3 +4284,13 @@ Dynamical system modeling of self-regulated systems undergoing multiple excitati
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1901_04915v2_dynamical_analysis_in_a_self_regulated_system_undergoing_multiple_excitations_f
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1901_04915V2_DYNAMICAL_ANALYSIS_IN_A_SELF_REGULATED_SYSTEM_UNDERGOING_MULTIPLE_EXCITATIONS_F.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

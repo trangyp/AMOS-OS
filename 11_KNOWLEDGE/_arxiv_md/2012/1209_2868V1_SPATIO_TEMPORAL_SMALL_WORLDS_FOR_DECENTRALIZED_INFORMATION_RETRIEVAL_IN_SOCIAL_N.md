@@ -1393,3 +1393,13 @@ Social Networking Position Papers, 2009.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1209_2868v1_spatio_temporal_small_worlds_for_decentralized_information_retrieval_in_social_n
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1209_2868V1_SPATIO_TEMPORAL_SMALL_WORLDS_FOR_DECENTRALIZED_INFORMATION_RETRIEVAL_IN_SOCIAL_N.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

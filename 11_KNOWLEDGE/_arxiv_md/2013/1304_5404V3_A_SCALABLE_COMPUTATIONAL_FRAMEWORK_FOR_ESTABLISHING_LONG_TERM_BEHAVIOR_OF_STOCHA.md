@@ -1828,3 +1828,13 @@ Transactions on Automatic Control 56(2): 414–418.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1304_5404v3_a_scalable_computational_framework_for_establishing_long_term_behavior_of_stocha
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1304_5404V3_A_SCALABLE_COMPUTATIONAL_FRAMEWORK_FOR_ESTABLISHING_LONG_TERM_BEHAVIOR_OF_STOCHA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -742,3 +742,13 @@ rium. Proc. Natl. Acad. Sci. U.S.A. 11 (1925)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1307_4583v2_simply_conceiving_the_arrhenius_law_and_absolute_kinetic_constants_using_the_geo
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1307_4583V2_SIMPLY_CONCEIVING_THE_ARRHENIUS_LAW_AND_ABSOLUTE_KINETIC_CONSTANTS_USING_THE_GEO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -5400,3 +5400,13 @@ Yoshida, T., Takiwaki, T., Kotake, K., et al. 2019, ApJ, 881, 16
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1904_01699v2_resolution_study_for_three_dimensional_supernova_simulations_with_the_prometheus
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1904_01699V2_RESOLUTION_STUDY_FOR_THREE_DIMENSIONAL_SUPERNOVA_SIMULATIONS_WITH_THE_PROMETHEUS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

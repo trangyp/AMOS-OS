@@ -690,3 +690,13 @@ E-mail address: harmanci@hacettepe.edu.tr
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1312_4023_on_a_class_of_lifting_modules
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1312_4023_ON_A_CLASS_OF_LIFTING_MODULES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

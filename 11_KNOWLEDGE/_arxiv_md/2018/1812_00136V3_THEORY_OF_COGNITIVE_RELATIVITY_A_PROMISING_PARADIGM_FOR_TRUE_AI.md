@@ -1342,3 +1342,13 @@ Publishing.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1812_00136v3_theory_of_cognitive_relativity_a_promising_paradigm_for_true_ai
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1812_00136V3_THEORY_OF_COGNITIVE_RELATIVITY_A_PROMISING_PARADIGM_FOR_TRUE_AI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1302,3 +1302,13 @@ step twice, the hydrolysis step once and the ion-exchange step once. TNR (in per
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0806_2286v1_extraterrestrial_nucleobases_in_the_murchison_meteorite
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0806_2286V1_EXTRATERRESTRIAL_NUCLEOBASES_IN_THE_MURCHISON_METEORITE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1283,3 +1283,13 @@ Examples of the BcForms grammar for describing complexes.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_10042v2_bpforms_and_bcforms_tools_for_concretely_describing_non_canonical_polymers_and
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_10042V2_BPFORMS_AND_BCFORMS_TOOLS_FOR_CONCRETELY_DESCRIBING_NON_CANONICAL_POLYMERS_AND.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

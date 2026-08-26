@@ -407,3 +407,13 @@ E-mail address: andrew.powell@imperial.ac.uk
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_11807v1_artificial_consciousness_and_security
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_11807V1_ARTIFICIAL_CONSCIOUSNESS_AND_SECURITY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

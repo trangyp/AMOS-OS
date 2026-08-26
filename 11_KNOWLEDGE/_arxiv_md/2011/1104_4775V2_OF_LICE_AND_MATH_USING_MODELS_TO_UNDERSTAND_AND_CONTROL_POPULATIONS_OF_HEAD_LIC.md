@@ -2461,3 +2461,13 @@ systematic treatments, whereas triangles represent non-systematic ones.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1104_4775v2_of_lice_and_math_using_models_to_understand_and_control_populations_of_head_lic
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1104_4775V2_OF_LICE_AND_MATH_USING_MODELS_TO_UNDERSTAND_AND_CONTROL_POPULATIONS_OF_HEAD_LIC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -6029,3 +6029,13 @@ Dimensional Sample Covariance Matrix, 78:4, 509–521.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_01954v4_an_econometric_perspective_on_algorithmic_subsampling
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_01954V4_AN_ECONOMETRIC_PERSPECTIVE_ON_ALGORITHMIC_SUBSAMPLING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

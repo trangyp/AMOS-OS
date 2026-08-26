@@ -1497,3 +1497,13 @@ Series 916 (2003).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_01129v1_does_journaling_encourage_healthier_choices_analyzing_healthy_eating_behaviors
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_01129V1_DOES_JOURNALING_ENCOURAGE_HEALTHIER_CHOICES_ANALYZING_HEALTHY_EATING_BEHAVIORS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

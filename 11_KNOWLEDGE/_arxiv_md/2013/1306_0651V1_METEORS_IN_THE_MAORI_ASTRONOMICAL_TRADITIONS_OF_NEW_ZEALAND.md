@@ -390,3 +390,13 @@ works as a consultant curator and astronomy educator at Sydney Observatory.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1306_0651v1_meteors_in_the_maori_astronomical_traditions_of_new_zealand
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1306_0651V1_METEORS_IN_THE_MAORI_ASTRONOMICAL_TRADITIONS_OF_NEW_ZEALAND.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1348,3 +1348,13 @@ dimensional periodic particle-particle/particle-mesh program, Comp. Phys. Commun
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1602_00466v1_the_good_the_bad_and_the_user_in_soft_matter_simulations
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1602_00466V1_THE_GOOD_THE_BAD_AND_THE_USER_IN_SOFT_MATTER_SIMULATIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -456,3 +456,13 @@ patrick.schwab@hest.ethz.ch
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1710_06319v2_beat_by_beat_classifying_cardiac_arrhythmias_with_recurrent_neural_networks
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1710_06319V2_BEAT_BY_BEAT_CLASSIFYING_CARDIAC_ARRHYTHMIAS_WITH_RECURRENT_NEURAL_NETWORKS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

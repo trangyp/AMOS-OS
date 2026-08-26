@@ -826,3 +826,13 @@ Tool for Wellbeing, December 2024, pp. 55-91.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 2503_17625v1_ai_based_screening_for_depression_and_social_anxiety_through_eye_tracking_an_explorator
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2025/2025-03/2503_17625V1_AI_BASED_SCREENING_FOR_DEPRESSION_AND_SOCIAL_ANXIETY_THROUGH_EYE_TRACKING_AN_EXPLORATORY_STUDY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

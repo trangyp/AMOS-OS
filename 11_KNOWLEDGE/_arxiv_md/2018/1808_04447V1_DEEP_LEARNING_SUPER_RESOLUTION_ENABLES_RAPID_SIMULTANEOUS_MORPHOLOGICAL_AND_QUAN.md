@@ -444,3 +444,13 @@ Osteoarthritis Research Society 21(10) (2013) 1474–84
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1808_04447v1_deep_learning_super_resolution_enables_rapid_simultaneous_morphological_and_quan
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1808_04447V1_DEEP_LEARNING_SUPER_RESOLUTION_ENABLES_RAPID_SIMULTANEOUS_MORPHOLOGICAL_AND_QUAN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

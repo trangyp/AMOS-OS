@@ -2566,3 +2566,13 @@ no. 3, 479–506.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1102_2922v4_weak_error_analysis_of_numerical_methods_for_stochastic_models_of_population_pro
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1102_2922V4_WEAK_ERROR_ANALYSIS_OF_NUMERICAL_METHODS_FOR_STOCHASTIC_MODELS_OF_POPULATION_PRO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -2692,3 +2692,13 @@ E-mail address: rpenner@math.usc.edu
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0907_2827v1_finite_type_invariants_and_fatgraphs
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0907_2827V1_FINITE_TYPE_INVARIANTS_AND_FATGRAPHS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

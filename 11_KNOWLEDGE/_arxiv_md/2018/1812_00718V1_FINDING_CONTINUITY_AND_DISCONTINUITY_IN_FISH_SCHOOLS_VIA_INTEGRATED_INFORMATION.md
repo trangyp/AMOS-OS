@@ -10945,3 +10945,13 @@ the cost of transforming one cause-effect structure C(S) into another C(SP→) i
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1812_00718v1_finding_continuity_and_discontinuity_in_fish_schools_via_integrated_information
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1812_00718V1_FINDING_CONTINUITY_AND_DISCONTINUITY_IN_FISH_SCHOOLS_VIA_INTEGRATED_INFORMATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

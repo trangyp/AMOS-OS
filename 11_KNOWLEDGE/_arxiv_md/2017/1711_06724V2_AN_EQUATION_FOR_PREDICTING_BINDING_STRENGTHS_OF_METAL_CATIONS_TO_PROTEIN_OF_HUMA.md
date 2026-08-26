@@ -2157,3 +2157,13 @@ Pu4+-hTF and Ti4+-hTF are in bold cases.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1711_06724v2_an_equation_for_predicting_binding_strengths_of_metal_cations_to_protein_of_huma
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1711_06724V2_AN_EQUATION_FOR_PREDICTING_BINDING_STRENGTHS_OF_METAL_CATIONS_TO_PROTEIN_OF_HUMA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

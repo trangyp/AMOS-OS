@@ -950,3 +950,13 @@ E-mail address: jslevitt@usc.edu
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1810_01759v3_q_series_and_quantum_spin_networks
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1810_01759V3_Q_SERIES_AND_QUANTUM_SPIN_NETWORKS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

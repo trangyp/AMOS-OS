@@ -402,3 +402,13 @@ Rev. D 95, no. 3, 039903 (2017).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_01972_precise_determination_of_neutrino_flux_with_hadron_production_measurements
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_01972_PRECISE_DETERMINATION_OF_NEUTRINO_FLUX_WITH_HADRON_PRODUCTION_MEASUREMENTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

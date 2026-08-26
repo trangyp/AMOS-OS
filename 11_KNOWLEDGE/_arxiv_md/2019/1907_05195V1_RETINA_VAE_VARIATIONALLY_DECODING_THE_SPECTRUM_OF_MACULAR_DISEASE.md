@@ -684,3 +684,13 @@ InInternational Conference on Artiﬁcial Neural Networks 2017 Sep 11 (pp. 287-2
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_05195v1_retina_vae_variationally_decoding_the_spectrum_of_macular_disease
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_05195V1_RETINA_VAE_VARIATIONALLY_DECODING_THE_SPECTRUM_OF_MACULAR_DISEASE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

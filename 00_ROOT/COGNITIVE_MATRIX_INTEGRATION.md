@@ -82,3 +82,13 @@ The matrix therefore becomes AMOS OS cognitive addressing, coverage analysis, st
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: cognitive_matrix_integration
+node_type: note
+path: 00_ROOT/COGNITIVE_MATRIX_INTEGRATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

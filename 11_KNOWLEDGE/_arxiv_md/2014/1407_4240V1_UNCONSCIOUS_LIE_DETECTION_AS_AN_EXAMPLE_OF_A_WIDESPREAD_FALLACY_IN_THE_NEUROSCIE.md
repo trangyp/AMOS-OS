@@ -848,3 +848,13 @@ tributed reaction–times. Journal of Mathematical Psychology, 37, 513–525.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1407_4240v1_unconscious_lie_detection_as_an_example_of_a_widespread_fallacy_in_the_neuroscie
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1407_4240V1_UNCONSCIOUS_LIE_DETECTION_AS_AN_EXAMPLE_OF_A_WIDESPREAD_FALLACY_IN_THE_NEUROSCIE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

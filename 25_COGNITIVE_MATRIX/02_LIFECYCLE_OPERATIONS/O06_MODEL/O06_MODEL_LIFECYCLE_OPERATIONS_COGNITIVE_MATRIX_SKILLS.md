@@ -66,3 +66,13 @@ confidence_ceiling: 0
 
 ---
 **Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: o06_model_lifecycle_operations_cognitive_matrix_skills
+node_type: note
+path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O06_MODEL/O06_MODEL_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_SKILLS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

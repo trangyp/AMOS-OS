@@ -1193,3 +1193,13 @@ Total
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1607_05398v1_what_causes_the_increase_in_aggregation_as_a_parasite_moves_up_a_food_chain
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1607_05398V1_WHAT_CAUSES_THE_INCREASE_IN_AGGREGATION_AS_A_PARASITE_MOVES_UP_A_FOOD_CHAIN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

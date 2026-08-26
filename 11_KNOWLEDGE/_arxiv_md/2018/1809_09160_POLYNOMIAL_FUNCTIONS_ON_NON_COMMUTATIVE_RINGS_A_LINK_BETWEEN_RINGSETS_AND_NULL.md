@@ -518,3 +518,13 @@ E-mail address: frisch@math.tugraz.at
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1809_09160_polynomial_functions_on_non_commutative_rings_a_link_between_ringsets_and_null
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1809_09160_POLYNOMIAL_FUNCTIONS_ON_NON_COMMUTATIVE_RINGS_A_LINK_BETWEEN_RINGSETS_AND_NULL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

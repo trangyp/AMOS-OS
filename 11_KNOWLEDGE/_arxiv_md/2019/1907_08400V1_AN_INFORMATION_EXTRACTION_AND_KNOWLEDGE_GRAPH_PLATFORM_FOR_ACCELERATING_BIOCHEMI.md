@@ -253,3 +253,13 @@ knowledge through graph databases. PLoS ONE 12, 7 (jul 2017), e0179130. https://
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_08400v1_an_information_extraction_and_knowledge_graph_platform_for_accelerating_biochemi
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_08400V1_AN_INFORMATION_EXTRACTION_AND_KNOWLEDGE_GRAPH_PLATFORM_FOR_ACCELERATING_BIOCHEMI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

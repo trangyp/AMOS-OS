@@ -498,3 +498,13 @@ Science Program ”TOP” collaboration, ApJS, 228,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_01421_astrochemistry_focus_and_research_on_planck_cold_clumps
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_01421_ASTROCHEMISTRY_FOCUS_AND_RESEARCH_ON_PLANCK_COLD_CLUMPS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

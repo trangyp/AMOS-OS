@@ -476,3 +476,13 @@ with COLA, Journal of Cosmology and Astroparticle Physics 6,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1512_02242_probabilistic_cartography_of_the_large_scale_structure
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1512_02242_PROBABILISTIC_CARTOGRAPHY_OF_THE_LARGE_SCALE_STRUCTURE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

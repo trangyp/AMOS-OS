@@ -582,3 +582,13 @@ Volume 7 • Issue 1 • 1000356
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1909_05910v1_brain_neurological_constructs_the_neuronal_computational_schemes_for_resolution
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1909_05910V1_BRAIN_NEUROLOGICAL_CONSTRUCTS_THE_NEURONAL_COMPUTATIONAL_SCHEMES_FOR_RESOLUTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -660,3 +660,13 @@ Astron. Astrophys. 594 (2016) A11
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_05838_a_map_between_primordial_power_spectra_and_the_effective_field_theory_of_inflati
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_05838_A_MAP_BETWEEN_PRIMORDIAL_POWER_SPECTRA_AND_THE_EFFECTIVE_FIELD_THEORY_OF_INFLATI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1300,3 +1300,13 @@ rodolfo.aguilar-aguilar@univ-grenoble-alpes.fr
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1904_11222v1_the_fundamental_group_of_partial_compactifications_of_the_complement_of_a_real_l
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1904_11222V1_THE_FUNDAMENTAL_GROUP_OF_PARTIAL_COMPACTIFICATIONS_OF_THE_COMPLEMENT_OF_A_REAL_L.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -708,3 +708,13 @@ Generalization,”  TELFOR 2016, Belgrade, Serbia
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1703_00446v2_a_tool_for_ecg_signal_analysis_using_standard_and_optimized_hermite_transform
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1703_00446V2_A_TOOL_FOR_ECG_SIGNAL_ANALYSIS_USING_STANDARD_AND_OPTIMIZED_HERMITE_TRANSFORM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -8551,3 +8551,13 @@ Y166V-Y174D
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1305_6049v1_a_computational_method_for_the_systematic_screening_of_reaction_barriers_in_enzy
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1305_6049V1_A_COMPUTATIONAL_METHOD_FOR_THE_SYSTEMATIC_SCREENING_OF_REACTION_BARRIERS_IN_ENZY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

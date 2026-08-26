@@ -842,3 +842,13 @@ California Institute of Integral Studies
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1802_02523v1_plasma_brain_dynamics_pbd_a_mechanism_for_eeg_waves_under_human_consciousness
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1802_02523V1_PLASMA_BRAIN_DYNAMICS_PBD_A_MECHANISM_FOR_EEG_WAVES_UNDER_HUMAN_CONSCIOUSNESS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

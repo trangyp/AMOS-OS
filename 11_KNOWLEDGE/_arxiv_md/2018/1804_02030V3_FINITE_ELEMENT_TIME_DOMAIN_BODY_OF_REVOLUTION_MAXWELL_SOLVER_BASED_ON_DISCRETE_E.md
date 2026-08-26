@@ -3209,3 +3209,13 @@ i2→2
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_02030v3_finite_element_time_domain_body_of_revolution_maxwell_solver_based_on_discrete_e
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_02030V3_FINITE_ELEMENT_TIME_DOMAIN_BODY_OF_REVOLUTION_MAXWELL_SOLVER_BASED_ON_DISCRETE_E.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

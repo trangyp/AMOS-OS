@@ -1095,3 +1095,13 @@ See also http://www.cycognition.com
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0907_2192v1_physical_foundations_of_consciousness_brain_organisation_the_role_of_synapses
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0907_2192V1_PHYSICAL_FOUNDATIONS_OF_CONSCIOUSNESS_BRAIN_ORGANISATION_THE_ROLE_OF_SYNAPSES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

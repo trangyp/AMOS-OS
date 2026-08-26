@@ -1014,3 +1014,13 @@ for EEG microstate sequence analysis”. NeuroImage. 2015;125:1104–1106.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_05590v1_noisy_network_attractor_models_for_transitions_between_eeg_microstates
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_05590V1_NOISY_NETWORK_ATTRACTOR_MODELS_FOR_TRANSITIONS_BETWEEN_EEG_MICROSTATES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

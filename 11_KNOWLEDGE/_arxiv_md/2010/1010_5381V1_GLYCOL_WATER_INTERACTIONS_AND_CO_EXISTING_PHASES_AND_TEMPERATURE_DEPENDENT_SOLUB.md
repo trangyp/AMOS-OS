@@ -925,3 +925,13 @@ iol. (1981) vol. 67 , pgs 64-67
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1010_5381v1_glycol_water_interactions_and_co_existing_phases_and_temperature_dependent_solub
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1010_5381V1_GLYCOL_WATER_INTERACTIONS_AND_CO_EXISTING_PHASES_AND_TEMPERATURE_DEPENDENT_SOLUB.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

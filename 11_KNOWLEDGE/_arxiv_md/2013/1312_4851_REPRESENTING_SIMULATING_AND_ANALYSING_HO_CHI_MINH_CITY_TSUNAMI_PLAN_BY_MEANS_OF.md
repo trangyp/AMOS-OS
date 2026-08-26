@@ -797,3 +797,13 @@ http://arxiv.org/ps/1312.4851v2
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1312_4851_representing_simulating_and_analysing_ho_chi_minh_city_tsunami_plan_by_means_of
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1312_4851_REPRESENTING_SIMULATING_AND_ANALYSING_HO_CHI_MINH_CITY_TSUNAMI_PLAN_BY_MEANS_OF.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

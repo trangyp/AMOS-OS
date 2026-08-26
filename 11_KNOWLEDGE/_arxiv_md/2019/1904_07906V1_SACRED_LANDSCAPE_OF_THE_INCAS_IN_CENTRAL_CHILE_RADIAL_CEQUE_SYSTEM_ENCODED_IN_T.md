@@ -366,3 +366,13 @@ Supplementary Figures and Tables
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1904_07906v1_sacred_landscape_of_the_incas_in_central_chile_radial_ceque_system_encoded_in_t
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1904_07906V1_SACRED_LANDSCAPE_OF_THE_INCAS_IN_CENTRAL_CHILE_RADIAL_CEQUE_SYSTEM_ENCODED_IN_T.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

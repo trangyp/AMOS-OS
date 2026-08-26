@@ -1569,3 +1569,13 @@ science & Biobehavioral Reviews, vol. 25, no. 2, pp. 175–191, 2001.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1701_00349v1_an_affective_computational_model_for_machine_consciousness
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1701_00349V1_AN_AFFECTIVE_COMPUTATIONAL_MODEL_FOR_MACHINE_CONSCIOUSNESS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

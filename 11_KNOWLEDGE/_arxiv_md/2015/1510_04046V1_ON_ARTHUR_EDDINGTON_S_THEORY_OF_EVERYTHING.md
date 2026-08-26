@@ -777,3 +777,13 @@ Whittaker, Edmund T. (1937). [Review of RTPE]. Observatory 60, 14-23.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1510_04046v1_on_arthur_eddington_s_theory_of_everything
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1510_04046V1_ON_ARTHUR_EDDINGTON_S_THEORY_OF_EVERYTHING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

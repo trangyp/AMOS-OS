@@ -677,3 +677,13 @@ Wireless Sensor Networks, Wireless Communication
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_00898v1_m_behzad_minimum_distance_based_energy_efficiency_using_hemisphere_zoning_with
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_00898V1_M_BEHZAD_MINIMUM_DISTANCE_BASED_ENERGY_EFFICIENCY_USING_HEMISPHERE_ZONING_WITH.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

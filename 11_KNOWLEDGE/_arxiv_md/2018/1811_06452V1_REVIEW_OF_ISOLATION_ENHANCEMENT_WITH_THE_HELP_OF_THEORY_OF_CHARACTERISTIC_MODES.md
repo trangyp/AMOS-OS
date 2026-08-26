@@ -527,3 +527,13 @@ Propagation Letters, vol. 15, no. , pp. 758-761, 2016.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1811_06452v1_review_of_isolation_enhancement_with_the_help_of_theory_of_characteristic_modes
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_06452V1_REVIEW_OF_ISOLATION_ENHANCEMENT_WITH_THE_HELP_OF_THEORY_OF_CHARACTERISTIC_MODES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

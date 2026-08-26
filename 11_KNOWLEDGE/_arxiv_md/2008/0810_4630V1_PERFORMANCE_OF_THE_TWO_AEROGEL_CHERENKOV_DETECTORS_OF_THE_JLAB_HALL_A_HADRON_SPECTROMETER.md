@@ -1634,3 +1634,13 @@ distributions using Eq. (2) with parameters reported in Table 4. Vertical scales
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0810_4630v1_performance_of_the_two_aerogel_cherenkov_detectors_of_the_jlab_hall_a_hadron_spectromete
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0810_4630V1_PERFORMANCE_OF_THE_TWO_AEROGEL_CHERENKOV_DETECTORS_OF_THE_JLAB_HALL_A_HADRON_SPECTROMETER.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

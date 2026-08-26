@@ -2051,3 +2051,13 @@ low thresholds, we obtain recall around 0.75.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1110_6651_multilingual_schema_matching_for_wikipedia_infoboxes
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1110_6651_MULTILINGUAL_SCHEMA_MATCHING_FOR_WIKIPEDIA_INFOBOXES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

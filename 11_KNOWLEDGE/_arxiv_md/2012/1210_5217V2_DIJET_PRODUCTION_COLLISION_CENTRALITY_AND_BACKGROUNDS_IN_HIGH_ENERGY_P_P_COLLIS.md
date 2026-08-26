@@ -2285,3 +2285,13 @@ S. I. Troyan, Z. Phys. C 27, 65 (1985), Z. Phys. C 31,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1210_5217v2_dijet_production_collision_centrality_and_backgrounds_in_high_energy_p_p_collis
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1210_5217V2_DIJET_PRODUCTION_COLLISION_CENTRALITY_AND_BACKGROUNDS_IN_HIGH_ENERGY_P_P_COLLIS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

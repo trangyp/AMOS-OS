@@ -554,3 +554,13 @@ orange: S), as noted in the following ﬁgures.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1606_02151v2_trends_for_isolated_amino_acids_and_dipeptides_conformation_divalent_ion_bindi
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1606_02151V2_TRENDS_FOR_ISOLATED_AMINO_ACIDS_AND_DIPEPTIDES_CONFORMATION_DIVALENT_ION_BINDI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

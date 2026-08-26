@@ -999,3 +999,13 @@ hCG and this for the different treatments, DMSO versus ADX68692 (A), DMSO versus
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1808_00310v1_profiling_of_fshr_negative_allosteric_modulators_on_lh_cgr_reveals_biased_antago
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1808_00310V1_PROFILING_OF_FSHR_NEGATIVE_ALLOSTERIC_MODULATORS_ON_LH_CGR_REVEALS_BIASED_ANTAGO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

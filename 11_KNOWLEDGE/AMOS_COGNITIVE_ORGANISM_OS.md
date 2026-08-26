@@ -3392,3 +3392,13 @@ This is the level at which “AMOS organism” becomes structurally useful: not 
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: amos_cognitive_organism_os
+node_type: note
+path: 11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

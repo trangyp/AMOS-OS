@@ -593,3 +593,13 @@ arXiv:1502.01710 (2015)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_00804_automatic_normalization_of_word_variations_in_code_mixed_social_media_text
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_00804_AUTOMATIC_NORMALIZATION_OF_WORD_VARIATIONS_IN_CODE_MIXED_SOCIAL_MEDIA_TEXT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

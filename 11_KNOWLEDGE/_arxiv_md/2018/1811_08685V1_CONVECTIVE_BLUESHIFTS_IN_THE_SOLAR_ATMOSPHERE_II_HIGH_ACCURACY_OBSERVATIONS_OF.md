@@ -1112,3 +1112,13 @@ Article number, page 9 of 9
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1811_08685v1_convective_blueshifts_in_the_solar_atmosphere_ii_high_accuracy_observations_of
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_08685V1_CONVECTIVE_BLUESHIFTS_IN_THE_SOLAR_ATMOSPHERE_II_HIGH_ACCURACY_OBSERVATIONS_OF.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

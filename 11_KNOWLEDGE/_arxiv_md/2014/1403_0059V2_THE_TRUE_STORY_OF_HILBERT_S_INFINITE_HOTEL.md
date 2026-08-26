@@ -666,3 +666,13 @@ February 2014.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1403_0059v2_the_true_story_of_hilbert_s_infinite_hotel
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1403_0059V2_THE_TRUE_STORY_OF_HILBERT_S_INFINITE_HOTEL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

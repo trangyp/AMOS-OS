@@ -1142,3 +1142,13 @@ Academic Publishers, 2002.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1410_3460v1_sentiment_analysis_based_on_user_tag_for_traditional_chinese_medicine_in_weibo
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1410_3460V1_SENTIMENT_ANALYSIS_BASED_ON_USER_TAG_FOR_TRADITIONAL_CHINESE_MEDICINE_IN_WEIBO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

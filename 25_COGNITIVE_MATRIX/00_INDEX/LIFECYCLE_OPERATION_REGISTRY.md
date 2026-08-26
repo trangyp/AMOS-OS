@@ -28,3 +28,13 @@ tags: ['cognitive_matrix', 'index', 'note']
 
 ---
 **Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: lifecycle_operation_registry
+node_type: note
+path: 25_COGNITIVE_MATRIX/00_INDEX/LIFECYCLE_OPERATION_REGISTRY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

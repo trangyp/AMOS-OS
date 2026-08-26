@@ -1410,3 +1410,13 @@ Performance Computer Architecture (HPCA), pages 241–252, 2003.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1810_05600v2_compact_numa_aware_locks
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1810_05600V2_COMPACT_NUMA_AWARE_LOCKS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

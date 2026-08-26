@@ -1824,3 +1824,13 @@ Microbiology 1, 16116 (2016).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_08730v1_life_the_universe_and_everything_42_fundamental_questions
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_08730V1_LIFE_THE_UNIVERSE_AND_EVERYTHING_42_FUNDAMENTAL_QUESTIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

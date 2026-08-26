@@ -1195,3 +1195,13 @@ E-mail address: c.tuffley@massey.ac.nz
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1810_07853v1_distinguishing_the_generalised_knot_groups_of_square_and_granny_knot_analogues
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1810_07853V1_DISTINGUISHING_THE_GENERALISED_KNOT_GROUPS_OF_SQUARE_AND_GRANNY_KNOT_ANALOGUES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -2375,3 +2375,13 @@ Real
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1906_11020v2_sampling_of_multiple_variables_based_on_partial_order_set_theory
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1906_11020V2_SAMPLING_OF_MULTIPLE_VARIABLES_BASED_ON_PARTIAL_ORDER_SET_THEORY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -780,3 +780,13 @@ Science subject categories. Scientometrics, 101(3), 1679-1693.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1810_12719v1_funnel_plots_for_visualizing_uncertainty_in_the_research_performance_of_institut
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1810_12719V1_FUNNEL_PLOTS_FOR_VISUALIZING_UNCERTAINTY_IN_THE_RESEARCH_PERFORMANCE_OF_INSTITUT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

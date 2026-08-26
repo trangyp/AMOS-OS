@@ -559,3 +559,13 @@ http://interedition.eu/wiki/index.php/Leuven2012_Proceedings.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1501_01866v1_the_hebrew_bible_as_data_laboratory_sharing_experiences
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1501_01866V1_THE_HEBREW_BIBLE_AS_DATA_LABORATORY_SHARING_EXPERIENCES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

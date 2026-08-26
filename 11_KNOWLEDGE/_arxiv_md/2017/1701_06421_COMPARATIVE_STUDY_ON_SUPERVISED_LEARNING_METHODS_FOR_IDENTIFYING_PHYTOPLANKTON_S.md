@@ -930,3 +930,13 @@ Data Analysis and Data Mining," R package version 1.31.4, 2015.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1701_06421_comparative_study_on_supervised_learning_methods_for_identifying_phytoplankton_s
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1701_06421_COMPARATIVE_STUDY_ON_SUPERVISED_LEARNING_METHODS_FOR_IDENTIFYING_PHYTOPLANKTON_S.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

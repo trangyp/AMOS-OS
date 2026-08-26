@@ -929,3 +929,13 @@ shift versus decision bias. The Journal of neuroscience : the official journal o
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_11570v1_decoding_the_circuitry_of_consciousness_from_local_microcircuits_to_brain_scale
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_11570V1_DECODING_THE_CIRCUITRY_OF_CONSCIOUSNESS_FROM_LOCAL_MICROCIRCUITS_TO_BRAIN_SCALE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

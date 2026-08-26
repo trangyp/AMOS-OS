@@ -456,3 +456,13 @@ Zurich’s Risk Center.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1304_3271v1_google_as_god_opportunities_and_risks_of_the_information_age
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1304_3271V1_GOOGLE_AS_GOD_OPPORTUNITIES_AND_RISKS_OF_THE_INFORMATION_AGE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1945,3 +1945,13 @@ In FOCS, pages 29–38, 1986.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1205_1183v2_on_the_complexity_of_trial_and_error
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1205_1183V2_ON_THE_COMPLEXITY_OF_TRIAL_AND_ERROR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

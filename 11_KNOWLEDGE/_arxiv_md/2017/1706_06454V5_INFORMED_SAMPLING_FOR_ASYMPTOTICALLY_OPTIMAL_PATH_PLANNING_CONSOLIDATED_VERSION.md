@@ -3477,3 +3477,13 @@ This document consolidates the published paper [40] with its supplementary mater
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1706_06454v5_informed_sampling_for_asymptotically_optimal_path_planning_consolidated_version
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1706_06454V5_INFORMED_SAMPLING_FOR_ASYMPTOTICALLY_OPTIMAL_PATH_PLANNING_CONSOLIDATED_VERSION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

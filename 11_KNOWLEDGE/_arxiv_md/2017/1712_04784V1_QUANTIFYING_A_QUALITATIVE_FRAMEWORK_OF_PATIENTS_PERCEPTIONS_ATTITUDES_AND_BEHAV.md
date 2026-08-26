@@ -1446,3 +1446,13 @@ Symptom
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_04784v1_quantifying_a_qualitative_framework_of_patients_perceptions_attitudes_and_behav
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_04784V1_QUANTIFYING_A_QUALITATIVE_FRAMEWORK_OF_PATIENTS_PERCEPTIONS_ATTITUDES_AND_BEHAV.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

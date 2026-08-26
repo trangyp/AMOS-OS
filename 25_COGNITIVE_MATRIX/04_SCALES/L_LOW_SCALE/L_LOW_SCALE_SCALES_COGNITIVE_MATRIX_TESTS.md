@@ -66,3 +66,13 @@ confidence_ceiling: 0
 
 ---
 **Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: l_low_scale_scales_cognitive_matrix_tests
+node_type: note
+path: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE/L_LOW_SCALE_SCALES_COGNITIVE_MATRIX_TESTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

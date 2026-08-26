@@ -615,3 +615,13 @@ Noninvasive Electrocardiology, vol. 1, pp. 151-
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_01333v2_using_image_extracted_features_to_determine_heart_rate_and_blink_duration_for_dr
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_01333V2_USING_IMAGE_EXTRACTED_FEATURES_TO_DETERMINE_HEART_RATE_AND_BLINK_DURATION_FOR_DR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

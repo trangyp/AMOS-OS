@@ -734,3 +734,13 @@ and Computation 271 (2015) 375–388.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_04752v1_optimal_control_in_cancer_immunotherapy_by_the_application_of_particle_swarm_opt
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_04752V1_OPTIMAL_CONTROL_IN_CANCER_IMMUNOTHERAPY_BY_THE_APPLICATION_OF_PARTICLE_SWARM_OPT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

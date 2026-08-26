@@ -16,3 +16,13 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 **Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: primitives_cognitive_matrix_l14_valuation_contract
+node_type: note
+path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION/00_INDEX/PRIMITIVES_COGNITIVE_MATRIX_L14_VALUATION_CONTRACT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

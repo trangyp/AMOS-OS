@@ -742,3 +742,13 @@ Processing. Singapore, 152–155.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_00712_a_factoid_question_answering_system_for_vietnamese
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_00712_A_FACTOID_QUESTION_ANSWERING_SYSTEM_FOR_VIETNAMESE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

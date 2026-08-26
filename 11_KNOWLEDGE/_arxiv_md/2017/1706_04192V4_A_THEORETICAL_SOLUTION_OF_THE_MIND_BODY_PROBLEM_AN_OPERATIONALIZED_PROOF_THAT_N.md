@@ -1050,3 +1050,13 @@ Neuroimage, 60 (4), 2107-2117.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1706_04192v4_a_theoretical_solution_of_the_mind_body_problem_an_operationalized_proof_that_n
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1706_04192V4_A_THEORETICAL_SOLUTION_OF_THE_MIND_BODY_PROBLEM_AN_OPERATIONALIZED_PROOF_THAT_N.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

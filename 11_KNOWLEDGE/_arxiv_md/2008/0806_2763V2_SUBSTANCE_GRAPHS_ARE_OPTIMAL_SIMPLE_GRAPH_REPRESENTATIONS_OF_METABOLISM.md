@@ -1767,3 +1767,13 @@ M. genitalium
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0806_2763v2_substance_graphs_are_optimal_simple_graph_representations_of_metabolism
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0806_2763V2_SUBSTANCE_GRAPHS_ARE_OPTIMAL_SIMPLE_GRAPH_REPRESENTATIONS_OF_METABOLISM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

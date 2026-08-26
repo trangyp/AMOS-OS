@@ -1285,3 +1285,13 @@ p. 190, 2018.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1909_11791v1_single_modal_and_multi_modal_false_arrhythmia_alarm_reduction_using_attention_ba
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1909_11791V1_SINGLE_MODAL_AND_MULTI_MODAL_FALSE_ARRHYTHMIA_ALARM_REDUCTION_USING_ATTENTION_BA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

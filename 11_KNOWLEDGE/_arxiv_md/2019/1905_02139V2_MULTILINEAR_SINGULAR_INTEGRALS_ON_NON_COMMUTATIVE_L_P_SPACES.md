@@ -3543,3 +3543,13 @@ E-mail address: j.e.vuorin@gmail.com
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_02139v2_multilinear_singular_integrals_on_non_commutative_l_p_spaces
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_02139V2_MULTILINEAR_SINGULAR_INTEGRALS_ON_NON_COMMUTATIVE_L_P_SPACES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

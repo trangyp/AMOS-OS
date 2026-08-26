@@ -1013,3 +1013,13 @@ two categories: input and output phrases with three words, and input and output 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1706_05565_towards_neural_phrase_based_machine_translation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1706_05565_TOWARDS_NEURAL_PHRASE_BASED_MACHINE_TRANSLATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

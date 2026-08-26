@@ -390,3 +390,13 @@ Multi-Field Inﬂation Can Fulﬁll the Swampland Distance Conjecture. 2019.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_00925_constraints_on_dark_energy_from_inflation_and_the_swampland_conjectures
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_00925_CONSTRAINTS_ON_DARK_ENERGY_FROM_INFLATION_AND_THE_SWAMPLAND_CONJECTURES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

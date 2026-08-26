@@ -782,3 +782,13 @@ stronger,” in CVPR, 2017.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_09033v1_saliency_deep_embedding_for_aurora_image_search
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_09033V1_SALIENCY_DEEP_EMBEDDING_FOR_AURORA_IMAGE_SEARCH.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -182,3 +182,13 @@ Test: I. An improved scoring algorithm.’ Journal of Personality and Social Psy
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1711_00344v1_unconscious_gender_bias_in_academia_from_phd_students_to_professors
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1711_00344V1_UNCONSCIOUS_GENDER_BIAS_IN_ACADEMIA_FROM_PHD_STUDENTS_TO_PROFESSORS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

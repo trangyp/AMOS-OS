@@ -312,3 +312,13 @@ Figure 4
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1103_4030v1_evidence_for_zinc_ion_sharing_in_metallothionein_dimers_provided_by_collision_in
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1103_4030V1_EVIDENCE_FOR_ZINC_ION_SHARING_IN_METALLOTHIONEIN_DIMERS_PROVIDED_BY_COLLISION_IN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

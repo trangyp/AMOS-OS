@@ -4719,3 +4719,13 @@ and the predicted imaging subscores in the healthy controls.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1801_03268v3_prognostication_of_chronic_disorders_of_consciousness_using_brain_functional_net
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1801_03268V3_PROGNOSTICATION_OF_CHRONIC_DISORDERS_OF_CONSCIOUSNESS_USING_BRAIN_FUNCTIONAL_NET.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

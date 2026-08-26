@@ -390,3 +390,13 @@ In-Teh Publisher, 2010, pp. 1-18, Available: http://sciyo.com/books/show/title/m
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1009_0077v1_not_only_a_lack_of_right_definitions_arguments_for_a_shift_in_information_proce
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1009_0077V1_NOT_ONLY_A_LACK_OF_RIGHT_DEFINITIONS_ARGUMENTS_FOR_A_SHIFT_IN_INFORMATION_PROCE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

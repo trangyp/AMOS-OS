@@ -829,3 +829,13 @@ Zheleznyakov, V.V.: 1964, Radio Emission of the Sun and Planets, Nauka, Moscow, 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1802_07311v1_decameter_type_iii_like_bursts
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1802_07311V1_DECAMETER_TYPE_III_LIKE_BURSTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

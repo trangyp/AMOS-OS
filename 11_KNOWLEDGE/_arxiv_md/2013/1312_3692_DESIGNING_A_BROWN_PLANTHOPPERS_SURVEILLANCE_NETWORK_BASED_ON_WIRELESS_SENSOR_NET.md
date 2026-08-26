@@ -789,3 +789,13 @@ ISBN: 978-1-4503-1047-5, doi:10.1145/2077489.2077517
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1312_3692_designing_a_brown_planthoppers_surveillance_network_based_on_wireless_sensor_net
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1312_3692_DESIGNING_A_BROWN_PLANTHOPPERS_SURVEILLANCE_NETWORK_BASED_ON_WIRELESS_SENSOR_NET.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

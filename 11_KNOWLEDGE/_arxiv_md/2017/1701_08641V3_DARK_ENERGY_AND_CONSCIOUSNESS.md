@@ -545,3 +545,13 @@ puter view. arXiv: gr-qc/0304032.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1701_08641v3_dark_energy_and_consciousness
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1701_08641V3_DARK_ENERGY_AND_CONSCIOUSNESS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

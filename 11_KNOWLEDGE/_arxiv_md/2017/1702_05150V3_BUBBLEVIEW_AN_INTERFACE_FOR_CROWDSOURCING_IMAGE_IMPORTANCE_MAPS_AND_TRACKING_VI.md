@@ -2513,3 +2513,13 @@ ACM Transactions on Computer-Human Interaction, Vol. 1, No. 1, Article 1, Public
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1702_05150v3_bubbleview_an_interface_for_crowdsourcing_image_importance_maps_and_tracking_vi
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1702_05150V3_BUBBLEVIEW_AN_INTERFACE_FOR_CROWDSOURCING_IMAGE_IMPORTANCE_MAPS_AND_TRACKING_VI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

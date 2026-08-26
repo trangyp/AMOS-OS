@@ -1024,3 +1024,13 @@ bilities. Routledge.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_00786v3_ethical_dilemmas_in_strategic_games
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_00786V3_ETHICAL_DILEMMAS_IN_STRATEGIC_GAMES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

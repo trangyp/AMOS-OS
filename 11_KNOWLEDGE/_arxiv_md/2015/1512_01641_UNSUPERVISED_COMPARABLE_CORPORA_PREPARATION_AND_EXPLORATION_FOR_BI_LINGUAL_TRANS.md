@@ -1240,3 +1240,13 @@ Association for Computational Linguistics, 2009, p. 923-
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1512_01641_unsupervised_comparable_corpora_preparation_and_exploration_for_bi_lingual_trans
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1512_01641_UNSUPERVISED_COMPARABLE_CORPORA_PREPARATION_AND_EXPLORATION_FOR_BI_LINGUAL_TRANS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -385,3 +385,13 @@ References
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_11534_review_of_predictions_of_hard_probes_in_p_pb_collisions_at_sqrt_s_nn_5
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_11534_REVIEW_OF_PREDICTIONS_OF_HARD_PROBES_IN_P_PB_COLLISIONS_AT_SQRT_S_NN_5.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

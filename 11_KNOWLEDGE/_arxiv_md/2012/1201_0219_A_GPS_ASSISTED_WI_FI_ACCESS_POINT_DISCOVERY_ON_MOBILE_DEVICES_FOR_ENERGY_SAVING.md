@@ -691,3 +691,13 @@ TOPSIS, Applied Soft Computing 11 (2011) 900–907.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1201_0219_a_gps_assisted_wi_fi_access_point_discovery_on_mobile_devices_for_energy_saving
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1201_0219_A_GPS_ASSISTED_WI_FI_ACCESS_POINT_DISCOVERY_ON_MOBILE_DEVICES_FOR_ENERGY_SAVING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -961,3 +961,13 @@ Psychological Science, 4(3):294–298, 2009.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1412_3242v1_selective_correlations_the_conditional_estimators
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1412_3242V1_SELECTIVE_CORRELATIONS_THE_CONDITIONAL_ESTIMATORS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

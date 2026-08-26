@@ -492,3 +492,13 @@ ence, Princeton University Press, Princeton, 2011.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1309_6031v3_reconsidering_written_language
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1309_6031V3_RECONSIDERING_WRITTEN_LANGUAGE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

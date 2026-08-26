@@ -936,3 +936,13 @@ E-mail address: lthoa@math.ac.vn, tntrung@math.ac.vn
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1706_07603_stability_of_depth_and_cohen_macaulayness_of_integral_closures_of_powers_of_mono
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1706_07603_STABILITY_OF_DEPTH_AND_COHEN_MACAULAYNESS_OF_INTEGRAL_CLOSURES_OF_POWERS_OF_MONO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

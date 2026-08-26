@@ -1735,3 +1735,13 @@ to be published. [Online]. Available: https://arxiv.org/abs/2006.16062
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1909_01215v2_aggregating_privacy_conscious_distributed_energy_resources_for_grid_service_prov
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1909_01215V2_AGGREGATING_PRIVACY_CONSCIOUS_DISTRIBUTED_ENERGY_RESOURCES_FOR_GRID_SERVICE_PROV.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

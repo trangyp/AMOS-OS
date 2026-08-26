@@ -810,3 +810,13 @@ Graphical Abstract.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1412_7695v2_allosteric_communication_pathways_and_thermal_rectification_in_pdz_2_protein_a
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1412_7695V2_ALLOSTERIC_COMMUNICATION_PATHWAYS_AND_THERMAL_RECTIFICATION_IN_PDZ_2_PROTEIN_A.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

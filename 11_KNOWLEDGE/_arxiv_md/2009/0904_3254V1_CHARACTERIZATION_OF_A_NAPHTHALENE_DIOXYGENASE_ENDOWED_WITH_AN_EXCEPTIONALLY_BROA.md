@@ -2488,3 +2488,13 @@ OH
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0904_3254v1_characterization_of_a_naphthalene_dioxygenase_endowed_with_an_exceptionally_broa
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0904_3254V1_CHARACTERIZATION_OF_A_NAPHTHALENE_DIOXYGENASE_ENDOWED_WITH_AN_EXCEPTIONALLY_BROA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

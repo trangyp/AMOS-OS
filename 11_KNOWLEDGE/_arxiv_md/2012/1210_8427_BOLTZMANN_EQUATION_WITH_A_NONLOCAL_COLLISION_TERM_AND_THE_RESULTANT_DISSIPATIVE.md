@@ -303,3 +303,13 @@ Applications (Amsterdam: North-Holland) p 18
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1210_8427_boltzmann_equation_with_a_nonlocal_collision_term_and_the_resultant_dissipative
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1210_8427_BOLTZMANN_EQUATION_WITH_A_NONLOCAL_COLLISION_TERM_AND_THE_RESULTANT_DISSIPATIVE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

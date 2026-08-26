@@ -227,3 +227,13 @@ Ward and Z. Was, PRD 63, 113009 (2001)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1611_01256_status_and_future_prospects_for_clfv_searches_at_besiii
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1611_01256_STATUS_AND_FUTURE_PROSPECTS_FOR_CLFV_SEARCHES_AT_BESIII.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1045,3 +1045,13 @@ the initial velocity of the oxidation of center II as a function of [Fe-SOD].
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1412_5038v1_reaction_of_the_desulfoferrodoxin_from_desulfoarculus_baarsii_with_superoxide_an
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1412_5038V1_REACTION_OF_THE_DESULFOFERRODOXIN_FROM_DESULFOARCULUS_BAARSII_WITH_SUPEROXIDE_AN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

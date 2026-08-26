@@ -1184,3 +1184,13 @@ healthcare and agriculture. New York: USA, 3-6.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_07788v1_biological_value_of_centaurea_damascena_minireview
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_07788V1_BIOLOGICAL_VALUE_OF_CENTAUREA_DAMASCENA_MINIREVIEW.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

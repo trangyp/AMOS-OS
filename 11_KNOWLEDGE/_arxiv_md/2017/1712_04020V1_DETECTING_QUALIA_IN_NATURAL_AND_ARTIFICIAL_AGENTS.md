@@ -1098,3 +1098,13 @@ Perception, 2000. 29(10): p. 1209-1217.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_04020v1_detecting_qualia_in_natural_and_artificial_agents
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_04020V1_DETECTING_QUALIA_IN_NATURAL_AND_ARTIFICIAL_AGENTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

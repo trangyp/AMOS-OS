@@ -460,3 +460,13 @@ tomas.teijeiro@usc.es
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1711_03892v1_arrhythmia_classification_from_the_abductive_interpretation_of_short_single_lead
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1711_03892V1_ARRHYTHMIA_CLASSIFICATION_FROM_THE_ABDUCTIVE_INTERPRETATION_OF_SHORT_SINGLE_LEAD.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

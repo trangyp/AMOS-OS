@@ -1562,3 +1562,13 @@ PoS CFRNC2006, 004 (2006).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1403_6494v1_ensemble_mean_bf_p_t_vs_charged_hadron_multiplicities_in_high_energy_nuclear
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1403_6494V1_ENSEMBLE_MEAN_BF_P_T_VS_CHARGED_HADRON_MULTIPLICITIES_IN_HIGH_ENERGY_NUCLEAR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -66,3 +66,13 @@ confidence_ceiling: 0
 
 ---
 **Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: l18_action_primitives_cognitive_matrix_repair
+node_type: note
+path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L18_ACTION/L18_ACTION_PRIMITIVES_COGNITIVE_MATRIX_REPAIR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

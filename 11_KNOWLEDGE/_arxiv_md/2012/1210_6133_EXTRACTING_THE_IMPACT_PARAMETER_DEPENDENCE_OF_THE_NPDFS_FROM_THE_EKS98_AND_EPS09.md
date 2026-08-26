@@ -527,3 +527,13 @@ hep-ph/0201195)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1210_6133_extracting_the_impact_parameter_dependence_of_the_npdfs_from_the_eks98_and_eps09
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1210_6133_EXTRACTING_THE_IMPACT_PARAMETER_DEPENDENCE_OF_THE_NPDFS_FROM_THE_EKS98_AND_EPS09.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

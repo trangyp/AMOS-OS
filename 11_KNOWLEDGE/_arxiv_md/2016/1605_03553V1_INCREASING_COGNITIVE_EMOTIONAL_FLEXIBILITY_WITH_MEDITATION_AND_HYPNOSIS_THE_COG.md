@@ -1551,3 +1551,13 @@ OUP-FIRST UNCORRECTED PROOF, October 13, 2015
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1605_03553v1_increasing_cognitive_emotional_flexibility_with_meditation_and_hypnosis_the_cog
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1605_03553V1_INCREASING_COGNITIVE_EMOTIONAL_FLEXIBILITY_WITH_MEDITATION_AND_HYPNOSIS_THE_COG.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

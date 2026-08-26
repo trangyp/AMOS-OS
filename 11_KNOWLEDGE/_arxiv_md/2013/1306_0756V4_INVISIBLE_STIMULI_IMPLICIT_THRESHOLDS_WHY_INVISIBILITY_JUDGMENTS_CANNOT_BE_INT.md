@@ -1808,3 +1808,13 @@ see  Schmidt,  Haberkamp,  &  Schmidt,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1306_0756v4_invisible_stimuli_implicit_thresholds_why_invisibility_judgments_cannot_be_int
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1306_0756V4_INVISIBLE_STIMULI_IMPLICIT_THRESHOLDS_WHY_INVISIBILITY_JUDGMENTS_CANNOT_BE_INT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

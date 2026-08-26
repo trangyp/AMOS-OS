@@ -725,3 +725,13 @@ system during cancer development. Nature Reviews Cancer 6(1), pp. 24–37, doi:1
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1208_3857v1_towards_cancer_hybrid_automata
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1208_3857V1_TOWARDS_CANCER_HYBRID_AUTOMATA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

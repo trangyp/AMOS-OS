@@ -507,3 +507,13 @@ Email: mmontoya@ipen.gob.pe
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1305_2158v1_origin_of_the_springs_of_costa_verde_beach_in_lima_peru
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1305_2158V1_ORIGIN_OF_THE_SPRINGS_OF_COSTA_VERDE_BEACH_IN_LIMA_PERU.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

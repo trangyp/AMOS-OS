@@ -2048,3 +2048,13 @@ Supplementary Table S4. Table of Parameters for Simulating Data with Realistic M
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1312_1395v2_error_prone_polymerase_activity_causes_multinucleotide_mutations_in_humans
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1312_1395V2_ERROR_PRONE_POLYMERASE_ACTIVITY_CAUSES_MULTINUCLEOTIDE_MUTATIONS_IN_HUMANS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

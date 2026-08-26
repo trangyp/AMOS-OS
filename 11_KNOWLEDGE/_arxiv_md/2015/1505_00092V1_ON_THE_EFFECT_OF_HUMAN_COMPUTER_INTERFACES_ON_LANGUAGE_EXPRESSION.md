@@ -399,3 +399,13 @@ background are not preferred by either population.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1505_00092v1_on_the_effect_of_human_computer_interfaces_on_language_expression
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1505_00092V1_ON_THE_EFFECT_OF_HUMAN_COMPUTER_INTERFACES_ON_LANGUAGE_EXPRESSION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

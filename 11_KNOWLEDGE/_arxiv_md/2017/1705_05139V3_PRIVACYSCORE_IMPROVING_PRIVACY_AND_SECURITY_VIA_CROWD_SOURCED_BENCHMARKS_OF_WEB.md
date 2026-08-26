@@ -687,3 +687,13 @@ Conference on World Wide Web (WWW 2017). ACM (2017)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1705_05139v3_privacyscore_improving_privacy_and_security_via_crowd_sourced_benchmarks_of_web
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1705_05139V3_PRIVACYSCORE_IMPROVING_PRIVACY_AND_SECURITY_VIA_CROWD_SOURCED_BENCHMARKS_OF_WEB.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

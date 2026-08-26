@@ -1341,3 +1341,13 @@ Web. ACM, New York, NY, 22–32. https://doi.org/10.1145/1060745.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_11485v1_rescue_a_framework_for_real_time_feedback_on_behavioral_cues_using_multimodal_a
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_11485V1_RESCUE_A_FRAMEWORK_FOR_REAL_TIME_FEEDBACK_ON_BEHAVIORAL_CUES_USING_MULTIMODAL_A.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

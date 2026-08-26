@@ -1471,3 +1471,13 @@ TBD
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_04987v1_pain_pathogenesis_in_rheumatoid_arthritis_what_have_we_learned_from_animal_mo
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_04987V1_PAIN_PATHOGENESIS_IN_RHEUMATOID_ARTHRITIS_WHAT_HAVE_WE_LEARNED_FROM_ANIMAL_MO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

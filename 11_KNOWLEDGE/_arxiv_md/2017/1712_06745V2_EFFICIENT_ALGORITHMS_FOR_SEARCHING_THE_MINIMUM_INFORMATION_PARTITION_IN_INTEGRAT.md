@@ -1835,3 +1835,13 @@ indicate Φ at the partitions found by Queyranne’s algorithm. (a) ΦSI, (b) Φ
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_06745v2_efficient_algorithms_for_searching_the_minimum_information_partition_in_integrat
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_06745V2_EFFICIENT_ALGORITHMS_FOR_SEARCHING_THE_MINIMUM_INFORMATION_PARTITION_IN_INTEGRAT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

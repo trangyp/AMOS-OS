@@ -2210,3 +2210,13 @@ J. Comput. Phys. 186 (2003) 295–307.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_10241v1_cascaded_lattice_boltzmann_method_based_on_central_moments_for_axisymmetric_ther
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_10241V1_CASCADED_LATTICE_BOLTZMANN_METHOD_BASED_ON_CENTRAL_MOMENTS_FOR_AXISYMMETRIC_THER.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

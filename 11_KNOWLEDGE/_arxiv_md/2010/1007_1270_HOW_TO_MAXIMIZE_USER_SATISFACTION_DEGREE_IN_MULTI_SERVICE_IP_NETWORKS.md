@@ -900,3 +900,13 @@ algorithms for packet switches”, Proc. of IEEE IPDPS 2007.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1007_1270_how_to_maximize_user_satisfaction_degree_in_multi_service_ip_networks
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1007_1270_HOW_TO_MAXIMIZE_USER_SATISFACTION_DEGREE_IN_MULTI_SERVICE_IP_NETWORKS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

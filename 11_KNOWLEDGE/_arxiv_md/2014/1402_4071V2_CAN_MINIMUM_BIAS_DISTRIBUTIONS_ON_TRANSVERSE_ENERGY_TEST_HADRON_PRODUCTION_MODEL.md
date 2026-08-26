@@ -3431,3 +3431,13 @@ Lett. 106, 032301 (2011).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1402_4071v2_can_minimum_bias_distributions_on_transverse_energy_test_hadron_production_model
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1402_4071V2_CAN_MINIMUM_BIAS_DISTRIBUTIONS_ON_TRANSVERSE_ENERGY_TEST_HADRON_PRODUCTION_MODEL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

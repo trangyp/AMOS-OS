@@ -3265,3 +3265,13 @@ putational design of nucleic acid feedback control circuits. ACS Synthetic Biolo
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1912_10468v1_a_biology_inspired_approach_to_the_positive_integral_control_of_positive_systems
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1912_10468V1_A_BIOLOGY_INSPIRED_APPROACH_TO_THE_POSITIVE_INTEGRAL_CONTROL_OF_POSITIVE_SYSTEMS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

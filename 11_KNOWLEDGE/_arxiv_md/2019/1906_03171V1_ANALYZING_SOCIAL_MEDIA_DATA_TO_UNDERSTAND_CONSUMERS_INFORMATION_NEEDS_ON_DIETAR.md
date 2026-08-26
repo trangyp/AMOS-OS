@@ -852,3 +852,13 @@ Rui Zhang, PhD, Email: zhan1386@umn.edu
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1906_03171v1_analyzing_social_media_data_to_understand_consumers_information_needs_on_dietar
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1906_03171V1_ANALYZING_SOCIAL_MEDIA_DATA_TO_UNDERSTAND_CONSUMERS_INFORMATION_NEEDS_ON_DIETAR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

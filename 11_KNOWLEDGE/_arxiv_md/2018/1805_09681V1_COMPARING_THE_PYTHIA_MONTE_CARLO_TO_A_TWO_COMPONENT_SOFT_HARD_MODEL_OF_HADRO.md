@@ -3484,3 +3484,13 @@ J. C 74, 3077 (2014).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_09681v1_comparing_the_pythia_monte_carlo_to_a_two_component_soft_hard_model_of_hadro
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_09681V1_COMPARING_THE_PYTHIA_MONTE_CARLO_TO_A_TWO_COMPONENT_SOFT_HARD_MODEL_OF_HADRO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

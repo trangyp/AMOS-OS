@@ -496,3 +496,13 @@ Science 343,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1611_03464_electric_dipole_moments_of_charged_leptons_with_sterile_fermions
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1611_03464_ELECTRIC_DIPOLE_MOMENTS_OF_CHARGED_LEPTONS_WITH_STERILE_FERMIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

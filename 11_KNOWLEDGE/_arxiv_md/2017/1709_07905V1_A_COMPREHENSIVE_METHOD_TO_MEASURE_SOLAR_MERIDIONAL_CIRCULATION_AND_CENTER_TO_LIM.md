@@ -637,3 +637,13 @@ This preprint was prepared with the AAS LATEX macros v5.2.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1709_07905v1_a_comprehensive_method_to_measure_solar_meridional_circulation_and_center_to_lim
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1709_07905V1_A_COMPREHENSIVE_METHOD_TO_MEASURE_SOLAR_MERIDIONAL_CIRCULATION_AND_CENTER_TO_LIM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

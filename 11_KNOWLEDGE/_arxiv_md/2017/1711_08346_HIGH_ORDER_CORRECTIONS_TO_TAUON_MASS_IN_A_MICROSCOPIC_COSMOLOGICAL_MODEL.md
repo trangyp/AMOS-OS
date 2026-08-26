@@ -707,3 +707,13 @@ arXiv:1604.05164v2[physics.gen-ph].
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1711_08346_high_order_corrections_to_tauon_mass_in_a_microscopic_cosmological_model
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1711_08346_HIGH_ORDER_CORRECTIONS_TO_TAUON_MASS_IN_A_MICROSCOPIC_COSMOLOGICAL_MODEL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

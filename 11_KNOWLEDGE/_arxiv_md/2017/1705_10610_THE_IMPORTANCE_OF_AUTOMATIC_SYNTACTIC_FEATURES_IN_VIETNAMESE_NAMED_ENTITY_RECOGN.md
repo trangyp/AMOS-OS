@@ -982,3 +982,13 @@ arXiv:1705.04044.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1705_10610_the_importance_of_automatic_syntactic_features_in_vietnamese_named_entity_recogn
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1705_10610_THE_IMPORTANCE_OF_AUTOMATIC_SYNTACTIC_FEATURES_IN_VIETNAMESE_NAMED_ENTITY_RECOGN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

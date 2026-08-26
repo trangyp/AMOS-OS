@@ -2675,3 +2675,13 @@ into C1 + S1
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_08222v1_an_economic_study_of_the_effect_of_android_platform_fragmentation_on_security_up
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_08222V1_AN_ECONOMIC_STUDY_OF_THE_EFFECT_OF_ANDROID_PLATFORM_FRAGMENTATION_ON_SECURITY_UP.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

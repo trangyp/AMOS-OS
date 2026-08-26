@@ -758,3 +758,13 @@ doi: 10.1146/annurev.astro.42.053102.134111
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1912_02862v2_on_the_habitable_lifetime_of_terrestrial_worlds_with_high_radionuclide_abundance
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1912_02862V2_ON_THE_HABITABLE_LIFETIME_OF_TERRESTRIAL_WORLDS_WITH_HIGH_RADIONUCLIDE_ABUNDANCE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

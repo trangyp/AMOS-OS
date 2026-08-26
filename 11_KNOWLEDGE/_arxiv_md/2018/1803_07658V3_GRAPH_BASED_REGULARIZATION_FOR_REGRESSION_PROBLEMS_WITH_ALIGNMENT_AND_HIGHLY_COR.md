@@ -3912,3 +3912,13 @@ Table 2: Description of structural features used in the biochemistry data analys
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_07658v3_graph_based_regularization_for_regression_problems_with_alignment_and_highly_cor
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_07658V3_GRAPH_BASED_REGULARIZATION_FOR_REGRESSION_PROBLEMS_WITH_ALIGNMENT_AND_HIGHLY_COR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

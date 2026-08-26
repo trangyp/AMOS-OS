@@ -911,3 +911,13 @@ sida S (2013) Bioinformatics 29 (1): 126-128
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1310_6980v1_protein_signatures_using_electrostatic_molecular_surfaces_in_harmonic_space
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1310_6980V1_PROTEIN_SIGNATURES_USING_ELECTROSTATIC_MOLECULAR_SURFACES_IN_HARMONIC_SPACE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

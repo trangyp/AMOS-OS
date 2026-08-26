@@ -744,3 +744,13 @@ E-mail address: quyph@fe.edu.vn
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1903_01315_on_the_index_of_reducibility_of_parameter_ideals_the_stable_and_limit_values
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_01315_ON_THE_INDEX_OF_REDUCIBILITY_OF_PARAMETER_IDEALS_THE_STABLE_AND_LIMIT_VALUES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

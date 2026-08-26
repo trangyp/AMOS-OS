@@ -1039,3 +1039,13 @@ arXiv:1907.05427 [astro-ph.EP].
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_01335v1_upper_limit_on_the_fraction_of_alien_civilizations_that_develop_communication_te
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_01335V1_UPPER_LIMIT_ON_THE_FRACTION_OF_ALIEN_CIVILIZATIONS_THAT_DEVELOP_COMMUNICATION_TE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

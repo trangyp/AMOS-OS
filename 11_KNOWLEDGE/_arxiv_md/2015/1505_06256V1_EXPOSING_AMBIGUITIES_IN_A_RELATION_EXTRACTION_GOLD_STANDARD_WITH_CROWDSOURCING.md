@@ -455,3 +455,13 @@ Symposium Series. 2013.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1505_06256v1_exposing_ambiguities_in_a_relation_extraction_gold_standard_with_crowdsourcing
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1505_06256V1_EXPOSING_AMBIGUITIES_IN_A_RELATION_EXTRACTION_GOLD_STANDARD_WITH_CROWDSOURCING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

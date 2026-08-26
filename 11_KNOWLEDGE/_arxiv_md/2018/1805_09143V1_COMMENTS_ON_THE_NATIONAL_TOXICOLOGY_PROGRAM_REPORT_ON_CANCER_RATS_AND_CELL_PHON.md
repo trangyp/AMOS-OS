@@ -152,3 +152,13 @@ radio frequency radiation.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_09143v1_comments_on_the_national_toxicology_program_report_on_cancer_rats_and_cell_phon
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_09143V1_COMMENTS_ON_THE_NATIONAL_TOXICOLOGY_PROGRAM_REPORT_ON_CANCER_RATS_AND_CELL_PHON.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

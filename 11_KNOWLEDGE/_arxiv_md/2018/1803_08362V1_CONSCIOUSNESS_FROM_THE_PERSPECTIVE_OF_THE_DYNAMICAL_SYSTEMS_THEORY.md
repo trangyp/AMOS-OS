@@ -752,3 +752,13 @@ Professor S. Hedayat, for his review of the manuscript and many helpful suggesti
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_08362v1_consciousness_from_the_perspective_of_the_dynamical_systems_theory
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_08362V1_CONSCIOUSNESS_FROM_THE_PERSPECTIVE_OF_THE_DYNAMICAL_SYSTEMS_THEORY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

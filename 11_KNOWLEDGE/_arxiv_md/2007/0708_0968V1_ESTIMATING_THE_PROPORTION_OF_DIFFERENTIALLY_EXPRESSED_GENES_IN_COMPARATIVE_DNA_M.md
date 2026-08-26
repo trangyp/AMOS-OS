@@ -1130,3 +1130,13 @@ microarrays applied to the ionizing radiation response. PNAS 98 5116–5124.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0708_0968v1_estimating_the_proportion_of_differentially_expressed_genes_in_comparative_dna_m
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0708_0968V1_ESTIMATING_THE_PROPORTION_OF_DIFFERENTIALLY_EXPRESSED_GENES_IN_COMPARATIVE_DNA_M.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

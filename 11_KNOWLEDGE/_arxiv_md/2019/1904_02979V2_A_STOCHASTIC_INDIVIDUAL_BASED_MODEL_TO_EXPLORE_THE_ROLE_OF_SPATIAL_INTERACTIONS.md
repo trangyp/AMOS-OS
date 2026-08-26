@@ -1475,3 +1475,13 @@ immunotherapy. Front Med 4, 18.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1904_02979v2_a_stochastic_individual_based_model_to_explore_the_role_of_spatial_interactions
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1904_02979V2_A_STOCHASTIC_INDIVIDUAL_BASED_MODEL_TO_EXPLORE_THE_ROLE_OF_SPATIAL_INTERACTIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

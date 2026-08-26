@@ -1251,3 +1251,13 @@ and D. A. Weitz, The Journal of cell biology 183, 583
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1708_03935v1_topological_edge_floppy_modes_in_disordered_fiber_networks
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1708_03935V1_TOPOLOGICAL_EDGE_FLOPPY_MODES_IN_DISORDERED_FIBER_NETWORKS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

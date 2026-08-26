@@ -1327,3 +1327,13 @@ Engineering, Vol. 20, No. 6, June 1994.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1212_0312v1_software_reuse_in_medical_database_for_cardiac_patients_using_pearson_family_equ
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1212_0312V1_SOFTWARE_REUSE_IN_MEDICAL_DATABASE_FOR_CARDIAC_PATIENTS_USING_PEARSON_FAMILY_EQU.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

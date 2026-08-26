@@ -380,3 +380,13 @@ lines). This ﬁgure is taken from Mairs et al. (2016).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_01415_from_clumps_to_cores_to_protostars_the_jcmt_gould_belt_survey_s_first_look_an
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_01415_FROM_CLUMPS_TO_CORES_TO_PROTOSTARS_THE_JCMT_GOULD_BELT_SURVEY_S_FIRST_LOOK_AN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

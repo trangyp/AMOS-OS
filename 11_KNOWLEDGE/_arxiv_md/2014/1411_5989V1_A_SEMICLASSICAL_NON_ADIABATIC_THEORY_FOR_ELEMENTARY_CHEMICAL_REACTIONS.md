@@ -998,3 +998,13 @@ Physica B 296 (2001) 222-236
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1411_5989v1_a_semiclassical_non_adiabatic_theory_for_elementary_chemical_reactions
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1411_5989V1_A_SEMICLASSICAL_NON_ADIABATIC_THEORY_FOR_ELEMENTARY_CHEMICAL_REACTIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

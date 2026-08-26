@@ -5483,3 +5483,13 @@ MNRAS 000, 1–24 (2017)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1709_01514v1_the_herschel_bright_sources_herbs_sample_definition_and_scuba_2_observations
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1709_01514V1_THE_HERSCHEL_BRIGHT_SOURCES_HERBS_SAMPLE_DEFINITION_AND_SCUBA_2_OBSERVATIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

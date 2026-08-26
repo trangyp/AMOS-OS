@@ -453,3 +453,13 @@ Observer (2nd Edition). Berlin: Springer. (1st Edition, 2007). (Quoted from pp. 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1904_10528v1_putting_mind_back_into_nature_a_tribute_to_henry_p_stapp
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1904_10528V1_PUTTING_MIND_BACK_INTO_NATURE_A_TRIBUTE_TO_HENRY_P_STAPP.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

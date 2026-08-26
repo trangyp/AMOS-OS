@@ -555,3 +555,13 @@ dans l’étude des représentations sociales), SociologieS [Online], Theory and
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_09459v1_designing_virtual_soundscapes_for_alzheimer_s_disease_care
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_09459V1_DESIGNING_VIRTUAL_SOUNDSCAPES_FOR_ALZHEIMER_S_DISEASE_CARE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

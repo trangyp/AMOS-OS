@@ -2820,3 +2820,13 @@ Vocational Behavior 34.3 (1989): 289-298.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1702_00829v1_measuring_gender_inequalities_of_german_professions_on_wikipedia
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1702_00829V1_MEASURING_GENDER_INEQUALITIES_OF_GERMAN_PROFESSIONS_ON_WIKIPEDIA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

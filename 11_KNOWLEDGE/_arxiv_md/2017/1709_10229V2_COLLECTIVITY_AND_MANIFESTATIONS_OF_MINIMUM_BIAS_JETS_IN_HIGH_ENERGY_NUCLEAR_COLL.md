@@ -1149,3 +1149,13 @@ References
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1709_10229v2_collectivity_and_manifestations_of_minimum_bias_jets_in_high_energy_nuclear_coll
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1709_10229V2_COLLECTIVITY_AND_MANIFESTATIONS_OF_MINIMUM_BIAS_JETS_IN_HIGH_ENERGY_NUCLEAR_COLL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

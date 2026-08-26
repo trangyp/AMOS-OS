@@ -753,3 +753,13 @@ Wu, Y., Wei, Y., Zhao, M., et al. 2004, A&A, 426, 503
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1711_00384_protostellar_jets_and_outflows_in_low_mass_star_formation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1711_00384_PROTOSTELLAR_JETS_AND_OUTFLOWS_IN_LOW_MASS_STAR_FORMATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -783,3 +783,13 @@ arXiv:1112.0333.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1304_1357v1_trap_free_manipulation_in_the_landau_zener_system
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1304_1357V1_TRAP_FREE_MANIPULATION_IN_THE_LANDAU_ZENER_SYSTEM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

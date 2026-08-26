@@ -515,3 +515,13 @@ Wright, M.C.H., Sandell, G., Wilner, D.J., & Plambeck, R.L. 1992, ApJ, 393,225
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0801_4950v1_turmoil_in_orion_the_nearest_massive_protostar
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0801_4950V1_TURMOIL_IN_ORION_THE_NEAREST_MASSIVE_PROTOSTAR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

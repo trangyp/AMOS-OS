@@ -625,3 +625,13 @@ omy, 2012:1, 2012.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1511_05997_anomalous_microwave_emission_from_spinning_dust_and_its_polarization_spectrum
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1511_05997_ANOMALOUS_MICROWAVE_EMISSION_FROM_SPINNING_DUST_AND_ITS_POLARIZATION_SPECTRUM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

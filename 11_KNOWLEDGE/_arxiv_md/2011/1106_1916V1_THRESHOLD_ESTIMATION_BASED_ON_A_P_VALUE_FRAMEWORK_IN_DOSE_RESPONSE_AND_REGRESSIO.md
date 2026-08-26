@@ -1383,3 +1383,13 @@ E-mail address: gmichail@umich.edu
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1106_1916v1_threshold_estimation_based_on_a_p_value_framework_in_dose_response_and_regressio
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1106_1916V1_THRESHOLD_ESTIMATION_BASED_ON_A_P_VALUE_FRAMEWORK_IN_DOSE_RESPONSE_AND_REGRESSIO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

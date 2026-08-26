@@ -296,3 +296,13 @@ Rev. C 84 (2011) 044905; X. Dong [for the STAR Collab.], arXiv:1210.6677 [nucl-e
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1302_2934_impact_of_gluon_damping_on_heavy_quark_quenching
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1302_2934_IMPACT_OF_GLUON_DAMPING_ON_HEAVY_QUARK_QUENCHING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

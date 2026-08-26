@@ -517,3 +517,13 @@ P. 2012, ApJ, 751, 77
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_01457_accretion_and_feedback_in_star_cluster_formation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_01457_ACCRETION_AND_FEEDBACK_IN_STAR_CLUSTER_FORMATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

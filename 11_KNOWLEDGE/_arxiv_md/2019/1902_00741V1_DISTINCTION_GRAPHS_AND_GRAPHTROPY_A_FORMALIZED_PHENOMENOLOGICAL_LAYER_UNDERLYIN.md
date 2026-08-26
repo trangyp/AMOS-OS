@@ -1472,3 +1472,13 @@ Physical Review A, 40(8):4731, 1989.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1902_00741v1_distinction_graphs_and_graphtropy_a_formalized_phenomenological_layer_underlyin
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1902_00741V1_DISTINCTION_GRAPHS_AND_GRAPHTROPY_A_FORMALIZED_PHENOMENOLOGICAL_LAYER_UNDERLYIN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -686,3 +686,13 @@ Nozi`eres and S. Schmitt-Rink, J. Lowe Temp. Phys. 59, 195 (1985).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0709_1310_pairing_correlations_in_halo_nuclei
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0709_1310_PAIRING_CORRELATIONS_IN_HALO_NUCLEI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1857,3 +1857,13 @@ machine with a mean-ﬁeld algorithm, 2018; arXiv:1806.08422v1.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1902_03121v3_can_biological_quantum_networks_solve_np_hard_problems
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1902_03121V3_CAN_BIOLOGICAL_QUANTUM_NETWORKS_SOLVE_NP_HARD_PROBLEMS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

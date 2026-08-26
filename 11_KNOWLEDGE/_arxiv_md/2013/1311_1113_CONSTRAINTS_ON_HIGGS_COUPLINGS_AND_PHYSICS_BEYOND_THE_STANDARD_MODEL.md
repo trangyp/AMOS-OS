@@ -529,3 +529,13 @@ H →WW∗→ℓνℓν,” http://doi.org/10.7484/INSPIREHEP.DATA.26B4.TY5F
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1311_1113_constraints_on_higgs_couplings_and_physics_beyond_the_standard_model
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1311_1113_CONSTRAINTS_ON_HIGGS_COUPLINGS_AND_PHYSICS_BEYOND_THE_STANDARD_MODEL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

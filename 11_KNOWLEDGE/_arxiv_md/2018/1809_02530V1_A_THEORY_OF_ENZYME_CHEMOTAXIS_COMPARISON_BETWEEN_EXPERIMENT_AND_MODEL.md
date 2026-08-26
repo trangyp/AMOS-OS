@@ -1321,3 +1321,13 @@ Luminescent Meta Silver Nanoclusters. J. Phys. Chem. C 119, 10776–107
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1809_02530v1_a_theory_of_enzyme_chemotaxis_comparison_between_experiment_and_model
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1809_02530V1_A_THEORY_OF_ENZYME_CHEMOTAXIS_COMPARISON_BETWEEN_EXPERIMENT_AND_MODEL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

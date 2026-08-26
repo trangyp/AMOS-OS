@@ -1732,3 +1732,13 @@ Linear Model. Annals of Statistics 7(2), 258–268.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1906_08577v4_m_type_penalized_splines_with_auxiliary_scale_estimation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1906_08577V4_M_TYPE_PENALIZED_SPLINES_WITH_AUXILIARY_SCALE_ESTIMATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

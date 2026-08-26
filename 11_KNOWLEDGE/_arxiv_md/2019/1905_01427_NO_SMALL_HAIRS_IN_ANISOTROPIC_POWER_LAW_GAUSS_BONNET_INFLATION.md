@@ -1024,3 +1024,13 @@ V. K. Oikonomou, Phys. Rev. D 99 (2019) 044050 [arXiv:1811.07790].
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_01427_no_small_hairs_in_anisotropic_power_law_gauss_bonnet_inflation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_01427_NO_SMALL_HAIRS_IN_ANISOTROPIC_POWER_LAW_GAUSS_BONNET_INFLATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

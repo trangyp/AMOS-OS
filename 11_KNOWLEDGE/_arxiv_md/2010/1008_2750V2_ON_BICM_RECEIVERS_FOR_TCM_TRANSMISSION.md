@@ -1524,3 +1524,13 @@ DRAFT
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1008_2750v2_on_bicm_receivers_for_tcm_transmission
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1008_2750V2_ON_BICM_RECEIVERS_FOR_TCM_TRANSMISSION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

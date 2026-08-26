@@ -5842,3 +5842,13 @@ Page 66 of 66
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1707_03959v2_human_sexual_cycles_are_driven_by_culture_and_match_collective_moods
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1707_03959V2_HUMAN_SEXUAL_CYCLES_ARE_DRIVEN_BY_CULTURE_AND_MATCH_COLLECTIVE_MOODS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

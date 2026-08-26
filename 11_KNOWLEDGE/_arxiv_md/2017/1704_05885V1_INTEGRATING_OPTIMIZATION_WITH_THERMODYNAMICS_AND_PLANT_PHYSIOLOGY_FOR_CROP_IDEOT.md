@@ -2859,3 +2859,13 @@ Figure S2:  Sensitivity analysis of the traits obtained from GA optimization.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1704_05885v1_integrating_optimization_with_thermodynamics_and_plant_physiology_for_crop_ideot
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1704_05885V1_INTEGRATING_OPTIMIZATION_WITH_THERMODYNAMICS_AND_PLANT_PHYSIOLOGY_FOR_CROP_IDEOT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

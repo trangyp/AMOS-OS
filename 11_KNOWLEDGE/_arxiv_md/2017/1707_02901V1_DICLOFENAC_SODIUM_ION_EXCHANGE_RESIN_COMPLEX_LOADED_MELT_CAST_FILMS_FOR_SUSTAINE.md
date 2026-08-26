@@ -1383,3 +1383,13 @@ DFSfree and DFS:IR complex for immediate and sustained release profiles
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1707_02901v1_diclofenac_sodium_ion_exchange_resin_complex_loaded_melt_cast_films_for_sustaine
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1707_02901V1_DICLOFENAC_SODIUM_ION_EXCHANGE_RESIN_COMPLEX_LOADED_MELT_CAST_FILMS_FOR_SUSTAINE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

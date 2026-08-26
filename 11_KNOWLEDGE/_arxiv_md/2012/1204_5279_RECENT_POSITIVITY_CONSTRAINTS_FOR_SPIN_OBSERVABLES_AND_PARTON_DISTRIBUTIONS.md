@@ -533,3 +533,13 @@ Reports 470, 1 (2009).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1204_5279_recent_positivity_constraints_for_spin_observables_and_parton_distributions
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1204_5279_RECENT_POSITIVITY_CONSTRAINTS_FOR_SPIN_OBSERVABLES_AND_PARTON_DISTRIBUTIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

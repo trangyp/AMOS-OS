@@ -1381,3 +1381,13 @@ Intensity. PLoS ONE 6(5), e19248. doi:10.1371/journal.pone. 0019248.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1611_07272v1_derivation_of_human_chromatic_discrimination_ability_from_an_information_theoret
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1611_07272V1_DERIVATION_OF_HUMAN_CHROMATIC_DISCRIMINATION_ABILITY_FROM_AN_INFORMATION_THEORET.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

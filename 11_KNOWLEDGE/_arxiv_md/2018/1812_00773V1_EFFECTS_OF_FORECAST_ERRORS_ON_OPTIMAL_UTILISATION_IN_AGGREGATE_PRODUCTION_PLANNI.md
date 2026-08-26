@@ -2388,3 +2388,13 @@ doi:10.1080/002075498193750.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1812_00773v1_effects_of_forecast_errors_on_optimal_utilisation_in_aggregate_production_planni
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1812_00773V1_EFFECTS_OF_FORECAST_ERRORS_ON_OPTIMAL_UTILISATION_IN_AGGREGATE_PRODUCTION_PLANNI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

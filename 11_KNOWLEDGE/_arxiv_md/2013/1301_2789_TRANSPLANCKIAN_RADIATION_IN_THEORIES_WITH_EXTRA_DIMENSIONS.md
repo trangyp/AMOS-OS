@@ -471,3 +471,13 @@ JHEP01(2013)087
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1301_2789_transplanckian_radiation_in_theories_with_extra_dimensions
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1301_2789_TRANSPLANCKIAN_RADIATION_IN_THEORIES_WITH_EXTRA_DIMENSIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

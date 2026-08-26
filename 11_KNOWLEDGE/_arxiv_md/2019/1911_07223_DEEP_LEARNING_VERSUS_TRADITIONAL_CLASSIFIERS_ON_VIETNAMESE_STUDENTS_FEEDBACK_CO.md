@@ -824,3 +824,13 @@ City, Vietnam
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1911_07223_deep_learning_versus_traditional_classifiers_on_vietnamese_students_feedback_co
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_07223_DEEP_LEARNING_VERSUS_TRADITIONAL_CLASSIFIERS_ON_VIETNAMESE_STUDENTS_FEEDBACK_CO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

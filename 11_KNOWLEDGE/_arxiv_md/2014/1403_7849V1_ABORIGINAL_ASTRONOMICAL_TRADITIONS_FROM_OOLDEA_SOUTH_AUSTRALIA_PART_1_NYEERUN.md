@@ -1401,3 +1401,13 @@ studies and works as a consultant curator at Sydney Observatory.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1403_7849v1_aboriginal_astronomical_traditions_from_ooldea_south_australia_part_1_nyeerun
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1403_7849V1_ABORIGINAL_ASTRONOMICAL_TRADITIONS_FROM_OOLDEA_SOUTH_AUSTRALIA_PART_1_NYEERUN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

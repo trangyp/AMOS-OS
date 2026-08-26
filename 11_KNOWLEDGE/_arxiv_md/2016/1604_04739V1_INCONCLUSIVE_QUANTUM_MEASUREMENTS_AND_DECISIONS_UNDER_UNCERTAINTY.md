@@ -951,3 +951,13 @@ Philos. Trans. Roy. Soc. A 374: 20150100.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1604_04739v1_inconclusive_quantum_measurements_and_decisions_under_uncertainty
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1604_04739V1_INCONCLUSIVE_QUANTUM_MEASUREMENTS_AND_DECISIONS_UNDER_UNCERTAINTY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

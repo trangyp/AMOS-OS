@@ -1229,3 +1229,13 @@ Alberta, Canada, Tel: +1(403)220-7007, Fax: +1(403)210-8876, E-mail: csimo@ucalg
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1708_08887v1_are_there_optical_communication_channels_in_the_brain
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1708_08887V1_ARE_THERE_OPTICAL_COMMUNICATION_CHANNELS_IN_THE_BRAIN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

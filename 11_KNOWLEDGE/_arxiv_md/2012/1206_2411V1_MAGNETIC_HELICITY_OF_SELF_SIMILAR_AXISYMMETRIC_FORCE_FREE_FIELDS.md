@@ -718,3 +718,13 @@ axis in the right panels is 5 solar radius. The central red sphere in each panel
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1206_2411v1_magnetic_helicity_of_self_similar_axisymmetric_force_free_fields
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1206_2411V1_MAGNETIC_HELICITY_OF_SELF_SIMILAR_AXISYMMETRIC_FORCE_FREE_FIELDS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

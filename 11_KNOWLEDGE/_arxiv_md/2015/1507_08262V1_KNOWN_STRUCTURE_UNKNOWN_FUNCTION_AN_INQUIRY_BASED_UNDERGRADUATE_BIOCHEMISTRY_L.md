@@ -4641,3 +4641,13 @@ Do you have any other comments about these courses?
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1507_08262v1_known_structure_unknown_function_an_inquiry_based_undergraduate_biochemistry_l
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1507_08262V1_KNOWN_STRUCTURE_UNKNOWN_FUNCTION_AN_INQUIRY_BASED_UNDERGRADUATE_BIOCHEMISTRY_L.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

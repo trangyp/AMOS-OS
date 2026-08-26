@@ -554,3 +554,13 @@ oriented latent semantic features, Expert Syst. Appl. 41 (13) 5938–
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1610_04814v1_term_class_max_support_tcms_a_simple_text_document_categorization_approach_us
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1610_04814V1_TERM_CLASS_MAX_SUPPORT_TCMS_A_SIMPLE_TEXT_DOCUMENT_CATEGORIZATION_APPROACH_US.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

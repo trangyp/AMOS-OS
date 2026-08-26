@@ -834,3 +834,13 @@ Publications, 2004.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1707_02370v1_pairwise_well_formed_modes_and_transformations
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1707_02370V1_PAIRWISE_WELL_FORMED_MODES_AND_TRANSFORMATIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

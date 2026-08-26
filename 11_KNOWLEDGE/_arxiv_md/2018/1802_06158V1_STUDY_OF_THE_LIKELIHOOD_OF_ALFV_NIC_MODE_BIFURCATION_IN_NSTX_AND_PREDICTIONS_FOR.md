@@ -1467,3 +1467,13 @@ https://doi.org/10.1063/1.874014.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1802_06158v1_study_of_the_likelihood_of_alfv_nic_mode_bifurcation_in_nstx_and_predictions_for
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1802_06158V1_STUDY_OF_THE_LIKELIHOOD_OF_ALFV_NIC_MODE_BIFURCATION_IN_NSTX_AND_PREDICTIONS_FOR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

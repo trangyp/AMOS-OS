@@ -258,3 +258,13 @@ Care Med. 2001;164:122–30.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_00846v1_icu_disparnumerophobia_and_triskaidekaphobia_the_irrational_care_unit
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_00846V1_ICU_DISPARNUMEROPHOBIA_AND_TRISKAIDEKAPHOBIA_THE_IRRATIONAL_CARE_UNIT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

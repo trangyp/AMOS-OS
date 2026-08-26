@@ -215,3 +215,13 @@ arrhythmic patient respectively.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1410_5800v1_a_novel_approach_for_the_diagnosis_of_ventricular_tachycardia_based_on_phase_spa
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1410_5800V1_A_NOVEL_APPROACH_FOR_THE_DIAGNOSIS_OF_VENTRICULAR_TACHYCARDIA_BASED_ON_PHASE_SPA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

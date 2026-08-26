@@ -855,3 +855,13 @@ E-mail address: lthoa@math.ac.vn
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0705_2309_stability_of_associated_primes_of_monomial_ideals
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0705_2309_STABILITY_OF_ASSOCIATED_PRIMES_OF_MONOMIAL_IDEALS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

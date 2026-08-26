@@ -1056,3 +1056,13 @@ Linguistics (ACL 2010), pp. 118-127, Uppsala, Sweden, 11-16 July 2010.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1801_07804_vietnamese_open_information_extraction
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1801_07804_VIETNAMESE_OPEN_INFORMATION_EXTRACTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

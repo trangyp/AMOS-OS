@@ -1792,3 +1792,13 @@ of cultural evolution. Palgrave Communications, 4(1), 120. doi:10.1057/s41599-
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1903_00817v1_cultural_evolution_in_vietnam_s_early_20th_century_a_bayesian_networks_analysis
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_00817V1_CULTURAL_EVOLUTION_IN_VIETNAM_S_EARLY_20TH_CENTURY_A_BAYESIAN_NETWORKS_ANALYSIS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

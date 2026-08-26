@@ -663,3 +663,13 @@ ammonia abundance, Icarus, 174(1), 192–204.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1710_03336v1_ammonia_in_jupiter_s_troposphere_from_high_resolution_5_textmu_m_spectroscopy
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1710_03336V1_AMMONIA_IN_JUPITER_S_TROPOSPHERE_FROM_HIGH_RESOLUTION_5_TEXTMU_M_SPECTROSCOPY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

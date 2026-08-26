@@ -579,3 +579,13 @@ and Theology, 9, 13-24.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_01677v1_media_education_as_theoretical_and_practical_paradigm_for_digital_literacy_an_i
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_01677V1_MEDIA_EDUCATION_AS_THEORETICAL_AND_PRACTICAL_PARADIGM_FOR_DIGITAL_LITERACY_AN_I.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

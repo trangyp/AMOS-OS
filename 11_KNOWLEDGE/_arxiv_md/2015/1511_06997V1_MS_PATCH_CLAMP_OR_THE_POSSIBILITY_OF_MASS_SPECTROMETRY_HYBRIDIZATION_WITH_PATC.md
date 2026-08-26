@@ -763,3 +763,13 @@ Netherlands, Oct. 3-7, 2010 [ISBN:  978-0-9798064-3-8]:
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1511_06997v1_ms_patch_clamp_or_the_possibility_of_mass_spectrometry_hybridization_with_patc
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1511_06997V1_MS_PATCH_CLAMP_OR_THE_POSSIBILITY_OF_MASS_SPECTROMETRY_HYBRIDIZATION_WITH_PATC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

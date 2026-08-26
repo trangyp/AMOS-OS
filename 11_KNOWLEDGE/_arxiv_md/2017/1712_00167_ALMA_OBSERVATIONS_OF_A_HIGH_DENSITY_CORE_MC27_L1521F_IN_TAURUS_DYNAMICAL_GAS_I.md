@@ -89,3 +89,13 @@ protostar identiﬁed with Spitzer observations.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_00167_alma_observations_of_a_high_density_core_mc27_l1521f_in_taurus_dynamical_gas_i
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_00167_ALMA_OBSERVATIONS_OF_A_HIGH_DENSITY_CORE_MC27_L1521F_IN_TAURUS_DYNAMICAL_GAS_I.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

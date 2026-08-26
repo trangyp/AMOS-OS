@@ -1142,3 +1142,13 @@ U.S.A. 103, 17174 (2006).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0709_0418v1_role_of_electrostatic_interactions_in_the_assembly_of_empty_spherical_viral_caps
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0709_0418V1_ROLE_OF_ELECTROSTATIC_INTERACTIONS_IN_THE_ASSEMBLY_OF_EMPTY_SPHERICAL_VIRAL_CAPS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

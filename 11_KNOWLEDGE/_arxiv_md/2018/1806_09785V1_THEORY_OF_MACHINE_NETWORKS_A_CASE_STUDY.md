@@ -406,3 +406,13 @@ dren’s understanding of deception. Cognition, 13(1):103–128,1983
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_09785v1_theory_of_machine_networks_a_case_study
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_09785V1_THEORY_OF_MACHINE_NETWORKS_A_CASE_STUDY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

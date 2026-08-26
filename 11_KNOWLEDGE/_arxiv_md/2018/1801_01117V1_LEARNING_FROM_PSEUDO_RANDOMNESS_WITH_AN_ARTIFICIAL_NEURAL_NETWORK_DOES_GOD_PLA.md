@@ -846,3 +846,13 @@ npj Quantum Information  2: 16021.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1801_01117v1_learning_from_pseudo_randomness_with_an_artificial_neural_network_does_god_pla
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1801_01117V1_LEARNING_FROM_PSEUDO_RANDOMNESS_WITH_AN_ARTIFICIAL_NEURAL_NETWORK_DOES_GOD_PLA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

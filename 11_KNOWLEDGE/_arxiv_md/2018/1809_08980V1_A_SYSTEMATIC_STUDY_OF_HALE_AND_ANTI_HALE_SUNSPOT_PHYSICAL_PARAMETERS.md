@@ -1755,3 +1755,13 @@ sunspots. The error bars are the standard deviation of mean.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1809_08980v1_a_systematic_study_of_hale_and_anti_hale_sunspot_physical_parameters
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1809_08980V1_A_SYSTEMATIC_STUDY_OF_HALE_AND_ANTI_HALE_SUNSPOT_PHYSICAL_PARAMETERS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

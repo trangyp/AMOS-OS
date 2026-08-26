@@ -1297,3 +1297,13 @@ hoo! Press
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1211_4783v3_inference_of_the_russian_drug_community_from_one_of_the_largest_social_networks
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1211_4783V3_INFERENCE_OF_THE_RUSSIAN_DRUG_COMMUNITY_FROM_ONE_OF_THE_LARGEST_SOCIAL_NETWORKS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -716,3 +716,13 @@ học của bàn máp. Annals of CIRP, 1980 (trang 385-390) (tiếng Anh).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1111_6758_measurement_uncertainty_in_surface_flatness_measurement
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1111_6758_MEASUREMENT_UNCERTAINTY_IN_SURFACE_FLATNESS_MEASUREMENT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

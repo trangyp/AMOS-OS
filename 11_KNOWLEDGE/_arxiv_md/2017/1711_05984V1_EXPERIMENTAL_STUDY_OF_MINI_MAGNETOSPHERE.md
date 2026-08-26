@@ -1377,3 +1377,13 @@ the Chang’E-2 plasma data near the Serenitatis antipode Adv. in Space Res. 50(
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1711_05984v1_experimental_study_of_mini_magnetosphere
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1711_05984V1_EXPERIMENTAL_STUDY_OF_MINI_MAGNETOSPHERE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

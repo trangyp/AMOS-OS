@@ -5704,3 +5704,13 @@ Kuhn, H. W. The Hungarian method for the assignment problem. Nav. Res. Logist. Q
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1706_02577v1_toxtrac_a_fast_and_robust_software_for_tracking_organisms
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1706_02577V1_TOXTRAC_A_FAST_AND_ROBUST_SOFTWARE_FOR_TRACKING_ORGANISMS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

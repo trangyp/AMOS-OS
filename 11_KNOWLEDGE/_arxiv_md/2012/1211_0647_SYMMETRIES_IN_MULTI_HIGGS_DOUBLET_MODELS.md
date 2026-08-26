@@ -264,3 +264,13 @@ Costa, Phys. Rev. D 84, 117901 (2011).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1211_0647_symmetries_in_multi_higgs_doublet_models
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1211_0647_SYMMETRIES_IN_MULTI_HIGGS_DOUBLET_MODELS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

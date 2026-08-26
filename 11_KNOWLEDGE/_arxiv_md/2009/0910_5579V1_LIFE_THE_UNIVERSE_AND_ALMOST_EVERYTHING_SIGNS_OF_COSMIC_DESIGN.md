@@ -1637,3 +1637,13 @@ October 2009
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0910_5579v1_life_the_universe_and_almost_everything_signs_of_cosmic_design
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0910_5579V1_LIFE_THE_UNIVERSE_AND_ALMOST_EVERYTHING_SIGNS_OF_COSMIC_DESIGN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

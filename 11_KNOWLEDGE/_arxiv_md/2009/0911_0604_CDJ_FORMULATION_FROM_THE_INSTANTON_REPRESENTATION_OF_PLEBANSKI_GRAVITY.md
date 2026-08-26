@@ -310,3 +310,13 @@ Journal, 2011, volume 4, pages 36-71
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0911_0604_cdj_formulation_from_the_instanton_representation_of_plebanski_gravity
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0911_0604_CDJ_FORMULATION_FROM_THE_INSTANTON_REPRESENTATION_OF_PLEBANSKI_GRAVITY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -685,3 +685,13 @@ Table 3: Confusion matrices for the neural network.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1811_12194v2_automatic_diagnosis_of_short_duration_12_lead_ecg_using_a_deep_convolutional_net
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_12194V2_AUTOMATIC_DIAGNOSIS_OF_SHORT_DURATION_12_LEAD_ECG_USING_A_DEEP_CONVOLUTIONAL_NET.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

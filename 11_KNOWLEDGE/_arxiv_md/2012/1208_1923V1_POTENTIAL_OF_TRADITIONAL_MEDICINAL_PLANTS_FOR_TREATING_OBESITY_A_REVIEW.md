@@ -554,3 +554,13 @@ obese adults: a six-week exploratory study. Current Therapeutic Research. 2003, 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1208_1923v1_potential_of_traditional_medicinal_plants_for_treating_obesity_a_review
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1208_1923V1_POTENTIAL_OF_TRADITIONAL_MEDICINAL_PLANTS_FOR_TREATING_OBESITY_A_REVIEW.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

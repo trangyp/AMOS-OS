@@ -1061,3 +1061,13 @@ oxide nanoparticles in rats and the potential health risk assessment. Toxicol. S
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1401_1847v1_superparamagnetic_iron_oxide_polyacrylic_acid_coated_fe2o3_nanoparticles_does
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1401_1847V1_SUPERPARAMAGNETIC_IRON_OXIDE_POLYACRYLIC_ACID_COATED_FE2O3_NANOPARTICLES_DOES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

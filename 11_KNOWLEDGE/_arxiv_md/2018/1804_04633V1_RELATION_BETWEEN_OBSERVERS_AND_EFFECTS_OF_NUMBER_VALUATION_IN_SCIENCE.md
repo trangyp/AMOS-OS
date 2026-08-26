@@ -916,3 +916,13 @@ review, Frontiers of Physics, 8, pp. 828-846, (2013)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_04633v1_relation_between_observers_and_effects_of_number_valuation_in_science
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_04633V1_RELATION_BETWEEN_OBSERVERS_AND_EFFECTS_OF_NUMBER_VALUATION_IN_SCIENCE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

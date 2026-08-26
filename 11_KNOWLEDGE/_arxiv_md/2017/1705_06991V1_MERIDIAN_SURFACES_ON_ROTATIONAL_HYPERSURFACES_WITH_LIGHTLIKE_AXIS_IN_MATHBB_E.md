@@ -879,3 +879,13 @@ E-mail address: vmil@math.bas.bg
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1705_06991v1_meridian_surfaces_on_rotational_hypersurfaces_with_lightlike_axis_in_mathbb_e
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1705_06991V1_MERIDIAN_SURFACES_ON_ROTATIONAL_HYPERSURFACES_WITH_LIGHTLIKE_AXIS_IN_MATHBB_E.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

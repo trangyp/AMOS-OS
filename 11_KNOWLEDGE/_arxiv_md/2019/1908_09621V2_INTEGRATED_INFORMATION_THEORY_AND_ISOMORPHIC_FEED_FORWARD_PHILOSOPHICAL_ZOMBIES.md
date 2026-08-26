@@ -658,3 +658,13 @@ to a scientiﬁc research programme. Journal of the Royal Society Interface 2008
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_09621v2_integrated_information_theory_and_isomorphic_feed_forward_philosophical_zombies
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_09621V2_INTEGRATED_INFORMATION_THEORY_AND_ISOMORPHIC_FEED_FORWARD_PHILOSOPHICAL_ZOMBIES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

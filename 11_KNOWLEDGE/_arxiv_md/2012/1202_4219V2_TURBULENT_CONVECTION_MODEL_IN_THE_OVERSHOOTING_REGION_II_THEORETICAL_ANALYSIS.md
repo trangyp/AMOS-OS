@@ -1587,3 +1587,13 @@ q
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1202_4219v2_turbulent_convection_model_in_the_overshooting_region_ii_theoretical_analysis
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1202_4219V2_TURBULENT_CONVECTION_MODEL_IN_THE_OVERSHOOTING_REGION_II_THEORETICAL_ANALYSIS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

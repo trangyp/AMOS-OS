@@ -2974,3 +2974,13 @@ Choose one expensive decision problem
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: amos_value_creation_os
+node_type: note
+path: 11_KNOWLEDGE/AMOS_VALUE_CREATION_OS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1089,3 +1089,13 @@ culture and the medieval cosmos in modern times.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1410_6506v1_the_barolo_palace_medieval_astronomy_in_the_streets_of_buenos_aires
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1410_6506V1_THE_BAROLO_PALACE_MEDIEVAL_ASTRONOMY_IN_THE_STREETS_OF_BUENOS_AIRES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

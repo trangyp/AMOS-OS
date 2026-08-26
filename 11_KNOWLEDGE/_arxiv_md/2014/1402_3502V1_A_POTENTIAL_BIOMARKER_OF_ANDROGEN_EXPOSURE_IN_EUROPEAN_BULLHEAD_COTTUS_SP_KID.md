@@ -575,3 +575,13 @@ TbA
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1402_3502v1_a_potential_biomarker_of_androgen_exposure_in_european_bullhead_cottus_sp_kid
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1402_3502V1_A_POTENTIAL_BIOMARKER_OF_ANDROGEN_EXPOSURE_IN_EUROPEAN_BULLHEAD_COTTUS_SP_KID.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

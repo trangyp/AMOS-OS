@@ -1546,3 +1546,13 @@ Mol. Syst. Biol. 13(10):947
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1809_03265v1_single_molecule_kinetics_in_living_cells
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1809_03265V1_SINGLE_MOLECULE_KINETICS_IN_LIVING_CELLS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

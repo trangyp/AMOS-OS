@@ -405,3 +405,13 @@ E-mail address: rajib raju786@yahoo.com
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1405_0136_value_sharing_by_an_entire_function_with_its_derivatives
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1405_0136_VALUE_SHARING_BY_AN_ENTIRE_FUNCTION_WITH_ITS_DERIVATIVES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -469,3 +469,13 @@ Sukhovoj A.M,. Khitrov V.A., Physics of Paricl. And Nuclei, 36(4) (2005)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1307_2994_the_initial_results_of_research_on_two_step_cascades_in_the_dalat_research_react
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1307_2994_THE_INITIAL_RESULTS_OF_RESEARCH_ON_TWO_STEP_CASCADES_IN_THE_DALAT_RESEARCH_REACT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

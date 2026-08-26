@@ -2424,3 +2424,13 @@ J. C 70, 555 (2010).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1307_1819v1_two_component_model_of_2d_trigger_associated_hadron_correlations_on_rapidity_spa
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1307_1819V1_TWO_COMPONENT_MODEL_OF_2D_TRIGGER_ASSOCIATED_HADRON_CORRELATIONS_ON_RAPIDITY_SPA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

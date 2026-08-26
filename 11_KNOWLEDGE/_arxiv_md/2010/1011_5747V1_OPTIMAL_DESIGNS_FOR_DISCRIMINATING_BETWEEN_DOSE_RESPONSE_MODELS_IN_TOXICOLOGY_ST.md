@@ -1134,3 +1134,13 @@ Received October 2008 and revised November 2009
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1011_5747v1_optimal_designs_for_discriminating_between_dose_response_models_in_toxicology_st
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1011_5747V1_OPTIMAL_DESIGNS_FOR_DISCRIMINATING_BETWEEN_DOSE_RESPONSE_MODELS_IN_TOXICOLOGY_ST.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

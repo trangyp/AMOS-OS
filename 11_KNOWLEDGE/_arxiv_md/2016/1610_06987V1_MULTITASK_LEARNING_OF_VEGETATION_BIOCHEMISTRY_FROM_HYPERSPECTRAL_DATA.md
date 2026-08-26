@@ -546,3 +546,13 @@ ral Information Processing Systems (NIPS), pp. 1257–
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1610_06987v1_multitask_learning_of_vegetation_biochemistry_from_hyperspectral_data
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1610_06987V1_MULTITASK_LEARNING_OF_VEGETATION_BIOCHEMISTRY_FROM_HYPERSPECTRAL_DATA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

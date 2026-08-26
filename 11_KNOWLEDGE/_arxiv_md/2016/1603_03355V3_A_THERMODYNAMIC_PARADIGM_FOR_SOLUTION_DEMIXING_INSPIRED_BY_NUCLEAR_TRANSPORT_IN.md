@@ -1655,3 +1655,13 @@ nM (B) [C]tot = 50 nM and (C) [C]tot = 100 nM. Other parameters used are the sam
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1603_03355v3_a_thermodynamic_paradigm_for_solution_demixing_inspired_by_nuclear_transport_in
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1603_03355V3_A_THERMODYNAMIC_PARADIGM_FOR_SOLUTION_DEMIXING_INSPIRED_BY_NUCLEAR_TRANSPORT_IN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

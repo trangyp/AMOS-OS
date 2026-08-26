@@ -2021,3 +2021,13 @@ usenix.org/conference/osdi18/presentation/zuo
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1909_13670v4_recipe_converting_concurrent_dram_indexes_to_persistent_memory_indexes
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1909_13670V4_RECIPE_CONVERTING_CONCURRENT_DRAM_INDEXES_TO_PERSISTENT_MEMORY_INDEXES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

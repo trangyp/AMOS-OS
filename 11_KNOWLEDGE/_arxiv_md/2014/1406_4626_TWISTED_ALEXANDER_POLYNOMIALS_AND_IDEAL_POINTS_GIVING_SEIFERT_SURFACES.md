@@ -446,3 +446,13 @@ E-mail address: kitayama@math.titech.ac.jp
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1406_4626_twisted_alexander_polynomials_and_ideal_points_giving_seifert_surfaces
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1406_4626_TWISTED_ALEXANDER_POLYNOMIALS_AND_IDEAL_POINTS_GIVING_SEIFERT_SURFACES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

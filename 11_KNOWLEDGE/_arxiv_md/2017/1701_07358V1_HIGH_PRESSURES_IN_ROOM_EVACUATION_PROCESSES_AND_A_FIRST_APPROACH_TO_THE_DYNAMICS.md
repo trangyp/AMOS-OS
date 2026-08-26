@@ -1435,3 +1435,13 @@ the measured velocity of the single individual in Fig. 16. That is, from Fig. 16
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1701_07358v1_high_pressures_in_room_evacuation_processes_and_a_first_approach_to_the_dynamics
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1701_07358V1_HIGH_PRESSURES_IN_ROOM_EVACUATION_PROCESSES_AND_A_FIRST_APPROACH_TO_THE_DYNAMICS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

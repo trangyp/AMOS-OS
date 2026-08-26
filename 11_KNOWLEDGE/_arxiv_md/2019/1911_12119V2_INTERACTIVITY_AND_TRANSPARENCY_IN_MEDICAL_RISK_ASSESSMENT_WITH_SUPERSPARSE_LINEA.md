@@ -532,3 +532,13 @@ Fig. 7. Web page showing the complete workﬂow
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_12119v2_interactivity_and_transparency_in_medical_risk_assessment_with_supersparse_linea
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_12119V2_INTERACTIVITY_AND_TRANSPARENCY_IN_MEDICAL_RISK_ASSESSMENT_WITH_SUPERSPARSE_LINEA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

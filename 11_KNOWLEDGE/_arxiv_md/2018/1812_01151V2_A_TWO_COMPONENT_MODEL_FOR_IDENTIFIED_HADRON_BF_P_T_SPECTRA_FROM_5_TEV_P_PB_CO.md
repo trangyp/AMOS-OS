@@ -3507,3 +3507,13 @@ C 86, 064905 (2012).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1812_01151v2_a_two_component_model_for_identified_hadron_bf_p_t_spectra_from_5_tev_p_pb_co
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1812_01151V2_A_TWO_COMPONENT_MODEL_FOR_IDENTIFIED_HADRON_BF_P_T_SPECTRA_FROM_5_TEV_P_PB_CO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1428,3 +1428,13 @@ In: LREC; 2012. p. 3679–3686.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_08647v2_emo_love_and_god_making_sense_of_urban_dictionary_a_crowd_sourced_online_dic
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_08647V2_EMO_LOVE_AND_GOD_MAKING_SENSE_OF_URBAN_DICTIONARY_A_CROWD_SOURCED_ONLINE_DIC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

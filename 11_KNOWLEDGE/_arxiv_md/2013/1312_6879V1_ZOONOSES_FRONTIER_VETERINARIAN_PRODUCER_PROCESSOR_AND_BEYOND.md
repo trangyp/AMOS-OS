@@ -807,3 +807,13 @@ wildlife. Rev Sci Tech, 21, 139-157.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1312_6879v1_zoonoses_frontier_veterinarian_producer_processor_and_beyond
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1312_6879V1_ZOONOSES_FRONTIER_VETERINARIAN_PRODUCER_PROCESSOR_AND_BEYOND.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

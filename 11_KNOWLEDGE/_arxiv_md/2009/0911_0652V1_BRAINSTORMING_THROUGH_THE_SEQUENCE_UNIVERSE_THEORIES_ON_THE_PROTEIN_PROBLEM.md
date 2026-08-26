@@ -987,3 +987,13 @@ KCNQ channels, and its hydrolysis underlies receptor-mediated inhibition of M cu
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0911_0652v1_brainstorming_through_the_sequence_universe_theories_on_the_protein_problem
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0911_0652V1_BRAINSTORMING_THROUGH_THE_SEQUENCE_UNIVERSE_THEORIES_ON_THE_PROTEIN_PROBLEM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -2685,3 +2685,13 @@ pMID: 28437616, https://doi.org/10.1021/acs.jctc.7b00188.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1809_06913v2_predictive_collective_variable_discovery_with_deep_bayesian_models
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1809_06913V2_PREDICTIVE_COLLECTIVE_VARIABLE_DISCOVERY_WITH_DEEP_BAYESIAN_MODELS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

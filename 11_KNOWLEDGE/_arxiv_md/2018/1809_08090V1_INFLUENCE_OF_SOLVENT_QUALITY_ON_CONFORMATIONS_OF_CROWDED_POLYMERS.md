@@ -1541,3 +1541,13 @@ Ellis, EMBO J. 19, 3870 (2000).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1809_08090v1_influence_of_solvent_quality_on_conformations_of_crowded_polymers
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1809_08090V1_INFLUENCE_OF_SOLVENT_QUALITY_ON_CONFORMATIONS_OF_CROWDED_POLYMERS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

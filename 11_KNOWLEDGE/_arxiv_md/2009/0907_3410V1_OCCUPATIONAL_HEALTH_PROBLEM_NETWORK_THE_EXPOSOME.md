@@ -145,3 +145,13 @@ exposure measurement in molecular epidemiology. Cancer Epidemiol Biomarkers Prev
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0907_3410v1_occupational_health_problem_network_the_exposome
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0907_3410V1_OCCUPATIONAL_HEALTH_PROBLEM_NETWORK_THE_EXPOSOME.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

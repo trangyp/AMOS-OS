@@ -16,3 +16,13 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: security_threat_modes_commit_control_plane_readme
+node_type: note
+path: 03_CONTROL_PLANE/09_COMMIT/57_SECURITY_THREAT_MODES/SECURITY_THREAT_MODES_COMMIT_CONTROL_PLANE_README.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

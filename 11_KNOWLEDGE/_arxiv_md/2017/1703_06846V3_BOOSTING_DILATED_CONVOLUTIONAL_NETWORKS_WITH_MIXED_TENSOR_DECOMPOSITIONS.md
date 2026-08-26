@@ -2753,3 +2753,13 @@ S is thus contained in the zero set of p(·), and therefore too, has Lebesgue me
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1703_06846v3_boosting_dilated_convolutional_networks_with_mixed_tensor_decompositions
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1703_06846V3_BOOSTING_DILATED_CONVOLUTIONAL_NETWORKS_WITH_MIXED_TENSOR_DECOMPOSITIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

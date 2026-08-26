@@ -317,3 +317,13 @@ within OCT images.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1902_07695v1_chip_based_frequency_combs_sources_for_optical_coherence_tomography
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1902_07695V1_CHIP_BASED_FREQUENCY_COMBS_SOURCES_FOR_OPTICAL_COHERENCE_TOMOGRAPHY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

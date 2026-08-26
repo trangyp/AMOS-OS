@@ -817,3 +817,13 @@ MAS 2011, 2010.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1106_4221v1_understanding_opinions_a_cognitive_and_formal_account
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1106_4221V1_UNDERSTANDING_OPINIONS_A_COGNITIVE_AND_FORMAL_ACCOUNT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -2191,3 +2191,13 @@ Cohen et al. (2014)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1510_01888v1_computational_modelling_of_atherosclerosis
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1510_01888V1_COMPUTATIONAL_MODELLING_OF_ATHEROSCLEROSIS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

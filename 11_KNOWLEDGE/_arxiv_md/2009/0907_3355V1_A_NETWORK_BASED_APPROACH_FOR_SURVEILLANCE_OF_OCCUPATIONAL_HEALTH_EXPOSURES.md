@@ -2020,3 +2020,13 @@ Public administration
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0907_3355v1_a_network_based_approach_for_surveillance_of_occupational_health_exposures
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0907_3355V1_A_NETWORK_BASED_APPROACH_FOR_SURVEILLANCE_OF_OCCUPATIONAL_HEALTH_EXPOSURES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

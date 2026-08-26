@@ -1093,3 +1093,13 @@ and auxiliary information. Nucleic acids research, 9(1):133–148, 1981.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1710_11513v2_designing_rna_secondary_structures_is_hard
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1710_11513V2_DESIGNING_RNA_SECONDARY_STRUCTURES_IS_HARD.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

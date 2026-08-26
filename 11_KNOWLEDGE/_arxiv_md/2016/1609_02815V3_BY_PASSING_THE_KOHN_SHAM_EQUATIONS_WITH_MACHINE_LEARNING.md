@@ -1662,3 +1662,13 @@ Physics 118, 4365 (2003).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1609_02815v3_by_passing_the_kohn_sham_equations_with_machine_learning
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1609_02815V3_BY_PASSING_THE_KOHN_SHAM_EQUATIONS_WITH_MACHINE_LEARNING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

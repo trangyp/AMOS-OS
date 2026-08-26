@@ -432,3 +432,13 @@ with a Recurrent Neural Network, Proc. of SICE Annual Conf. 2010, FB03-1.pdf
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1703_02239v2_functions_that_emerge_through_end_to_end_reinforcement_learning_the_direction
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1703_02239V2_FUNCTIONS_THAT_EMERGE_THROUGH_END_TO_END_REINFORCEMENT_LEARNING_THE_DIRECTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

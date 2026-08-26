@@ -493,3 +493,13 @@ diﬀerential equation.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1909_12739v2_toy_models_of_top_down_causation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1909_12739V2_TOY_MODELS_OF_TOP_DOWN_CAUSATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

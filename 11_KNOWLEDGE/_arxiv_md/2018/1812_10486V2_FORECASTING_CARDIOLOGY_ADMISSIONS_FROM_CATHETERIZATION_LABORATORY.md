@@ -397,3 +397,13 @@ vol. 7, pp. 1-7, 2017.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1812_10486v2_forecasting_cardiology_admissions_from_catheterization_laboratory
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1812_10486V2_FORECASTING_CARDIOLOGY_ADMISSIONS_FROM_CATHETERIZATION_LABORATORY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

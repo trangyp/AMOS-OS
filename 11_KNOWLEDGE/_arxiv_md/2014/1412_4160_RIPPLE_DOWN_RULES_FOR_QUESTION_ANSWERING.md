@@ -2265,3 +2265,13 @@ Kaufmann Publishers Inc., 2002.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1412_4160_ripple_down_rules_for_question_answering
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1412_4160_RIPPLE_DOWN_RULES_FOR_QUESTION_ANSWERING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1053,3 +1053,13 @@ Sburlan, D. (2011). “Computing by folding,” Int. J. Comput. Commun. Controls
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_08518v1_pumping_lemmas_for_classes_of_languages_generated_by_folding_systems
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_08518V1_PUMPING_LEMMAS_FOR_CLASSES_OF_LANGUAGES_GENERATED_BY_FOLDING_SYSTEMS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

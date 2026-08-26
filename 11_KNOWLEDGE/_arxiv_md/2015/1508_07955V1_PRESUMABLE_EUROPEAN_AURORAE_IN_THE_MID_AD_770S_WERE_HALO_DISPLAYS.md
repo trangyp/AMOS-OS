@@ -1589,3 +1589,13 @@ c
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1508_07955v1_presumable_european_aurorae_in_the_mid_ad_770s_were_halo_displays
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1508_07955V1_PRESUMABLE_EUROPEAN_AURORAE_IN_THE_MID_AD_770S_WERE_HALO_DISPLAYS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

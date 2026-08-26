@@ -4935,3 +4935,13 @@ The placement itself is supported by the repository: `TASK_CONTRACT.md` belongs 
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: task_contract
+node_type: note
+path: 03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

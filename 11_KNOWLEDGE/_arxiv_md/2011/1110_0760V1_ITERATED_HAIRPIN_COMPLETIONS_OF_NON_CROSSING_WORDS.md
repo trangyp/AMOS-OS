@@ -930,3 +930,13 @@ sylvania. pp. 175–188 (1998)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1110_0760v1_iterated_hairpin_completions_of_non_crossing_words
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1110_0760V1_ITERATED_HAIRPIN_COMPLETIONS_OF_NON_CROSSING_WORDS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

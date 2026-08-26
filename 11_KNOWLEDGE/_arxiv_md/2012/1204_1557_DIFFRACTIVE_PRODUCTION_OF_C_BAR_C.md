@@ -723,3 +723,13 @@ R.J.M. Covolan and M.S. Soares, Phys. Rev. D67 (2003) 077504.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1204_1557_diffractive_production_of_c_bar_c
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1204_1557_DIFFRACTIVE_PRODUCTION_OF_C_BAR_C.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

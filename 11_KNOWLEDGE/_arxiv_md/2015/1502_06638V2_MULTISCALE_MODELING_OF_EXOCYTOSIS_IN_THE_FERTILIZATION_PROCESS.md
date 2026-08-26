@@ -1522,3 +1522,13 @@ of Cell Biology, 103(6)2333-2342.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1502_06638v2_multiscale_modeling_of_exocytosis_in_the_fertilization_process
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1502_06638V2_MULTISCALE_MODELING_OF_EXOCYTOSIS_IN_THE_FERTILIZATION_PROCESS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

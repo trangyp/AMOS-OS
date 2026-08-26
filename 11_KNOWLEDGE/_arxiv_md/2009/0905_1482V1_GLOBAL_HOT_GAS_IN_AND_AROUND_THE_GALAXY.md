@@ -484,3 +484,13 @@ vol. 24 of EAS Publications Series, pp. 59–72.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0905_1482v1_global_hot_gas_in_and_around_the_galaxy
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0905_1482V1_GLOBAL_HOT_GAS_IN_AND_AROUND_THE_GALAXY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

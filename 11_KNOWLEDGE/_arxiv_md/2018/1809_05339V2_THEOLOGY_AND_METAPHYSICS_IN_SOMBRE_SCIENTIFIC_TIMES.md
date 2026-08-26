@@ -1444,3 +1444,13 @@ edited by Anna Freud Anna Freud, Alix Strachey, and Alan Tyson (The Hogarth Pres
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1809_05339v2_theology_and_metaphysics_in_sombre_scientific_times
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1809_05339V2_THEOLOGY_AND_METAPHYSICS_IN_SOMBRE_SCIENTIFIC_TIMES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

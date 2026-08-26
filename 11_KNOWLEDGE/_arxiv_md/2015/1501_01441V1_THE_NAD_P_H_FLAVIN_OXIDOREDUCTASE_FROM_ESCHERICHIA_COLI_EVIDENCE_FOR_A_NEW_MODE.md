@@ -868,3 +868,13 @@ TABLES
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1501_01441v1_the_nad_p_h_flavin_oxidoreductase_from_escherichia_coli_evidence_for_a_new_mode
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1501_01441V1_THE_NAD_P_H_FLAVIN_OXIDOREDUCTASE_FROM_ESCHERICHIA_COLI_EVIDENCE_FOR_A_NEW_MODE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

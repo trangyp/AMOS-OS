@@ -1090,3 +1090,13 @@ University Press.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1906_02813v1_killing_science_fiction_why_conscious_states_cannot_be_copied_or_repeated
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1906_02813V1_KILLING_SCIENCE_FICTION_WHY_CONSCIOUS_STATES_CANNOT_BE_COPIED_OR_REPEATED.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

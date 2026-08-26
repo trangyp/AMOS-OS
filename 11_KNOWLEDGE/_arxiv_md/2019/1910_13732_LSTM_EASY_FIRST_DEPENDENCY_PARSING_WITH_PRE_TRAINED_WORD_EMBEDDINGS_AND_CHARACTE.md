@@ -835,3 +835,13 @@ mation.” arXiv preprint arXiv:1607.04606 (2016).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_13732_lstm_easy_first_dependency_parsing_with_pre_trained_word_embeddings_and_characte
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_13732_LSTM_EASY_FIRST_DEPENDENCY_PARSING_WITH_PRE_TRAINED_WORD_EMBEDDINGS_AND_CHARACTE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -972,3 +972,13 @@ as a lecturer in Al Baha International college of Science, KSA.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1508_00996v1_robust_and_sensitive_method_of_lyapunov_exponent_for_heart_rate_variability
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1508_00996V1_ROBUST_AND_SENSITIVE_METHOD_OF_LYAPUNOV_EXPONENT_FOR_HEART_RATE_VARIABILITY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

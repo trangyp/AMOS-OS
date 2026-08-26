@@ -1881,3 +1881,13 @@ S for which attribute A has value v.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1306_4447v1_hacking_smart_machines_with_smarter_ones_how_to_extract_meaningful_data_from_ma
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1306_4447V1_HACKING_SMART_MACHINES_WITH_SMARTER_ONES_HOW_TO_EXTRACT_MEANINGFUL_DATA_FROM_MA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

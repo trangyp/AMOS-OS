@@ -2022,3 +2022,13 @@ cessing, machine learning.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1807_02975v2_polarimetric_convolutional_network_for_polsar_image_classification
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1807_02975V2_POLARIMETRIC_CONVOLUTIONAL_NETWORK_FOR_POLSAR_IMAGE_CLASSIFICATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

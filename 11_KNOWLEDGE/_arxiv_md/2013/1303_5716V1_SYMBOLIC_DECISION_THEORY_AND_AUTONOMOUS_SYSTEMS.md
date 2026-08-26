@@ -851,3 +851,13 @@ simulation" Medical Decision Making, 1991, 11,38-41.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1303_5716v1_symbolic_decision_theory_and_autonomous_systems
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1303_5716V1_SYMBOLIC_DECISION_THEORY_AND_AUTONOMOUS_SYSTEMS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

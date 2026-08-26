@@ -1095,3 +1095,13 @@ block copolymers in solution. Chem. Soc. Rev., 42(23):9127–9154, 2013.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_08442v2_influence_of_the_extrinsic_curvature_on_2d_nematic_films
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_08442V2_INFLUENCE_OF_THE_EXTRINSIC_CURVATURE_ON_2D_NEMATIC_FILMS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

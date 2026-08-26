@@ -852,3 +852,13 @@ for Computational Linguistics.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1912_06900_efficient_convolutional_neural_networks_for_diacritic_restoration
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1912_06900_EFFICIENT_CONVOLUTIONAL_NEURAL_NETWORKS_FOR_DIACRITIC_RESTORATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

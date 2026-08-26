@@ -1017,3 +1017,13 @@ https://doi.org/10.1109/EMBC.2013.6611174
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 2311_13457v1_real_time_unobtrusive_sleep_monitoring_of_in_patients_with_affective_disorders_a_feasib
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2023/2311_13457V1_REAL_TIME_UNOBTRUSIVE_SLEEP_MONITORING_OF_IN_PATIENTS_WITH_AFFECTIVE_DISORDERS_A_FEASIBILITY_STUDY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

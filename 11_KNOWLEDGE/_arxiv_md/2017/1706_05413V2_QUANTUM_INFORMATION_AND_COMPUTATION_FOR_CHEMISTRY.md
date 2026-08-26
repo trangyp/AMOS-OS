@@ -2612,3 +2612,13 @@ Image courtesy of Google.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1706_05413v2_quantum_information_and_computation_for_chemistry
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1706_05413V2_QUANTUM_INFORMATION_AND_COMPUTATION_FOR_CHEMISTRY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -793,3 +793,13 @@ quadrupole pairing interaction.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0709_3897_microscopic_dynamics_of_shape_coexistence_phenomena_around_68se_and_72kr
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0709_3897_MICROSCOPIC_DYNAMICS_OF_SHAPE_COEXISTENCE_PHENOMENA_AROUND_68SE_AND_72KR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

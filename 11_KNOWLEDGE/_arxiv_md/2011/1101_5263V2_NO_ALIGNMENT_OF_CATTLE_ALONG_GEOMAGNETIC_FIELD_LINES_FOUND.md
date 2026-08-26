@@ -426,3 +426,13 @@ in Birds. BIOPHYS J 78:707–718
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1101_5263v2_no_alignment_of_cattle_along_geomagnetic_field_lines_found
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1101_5263V2_NO_ALIGNMENT_OF_CATTLE_ALONG_GEOMAGNETIC_FIELD_LINES_FOUND.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

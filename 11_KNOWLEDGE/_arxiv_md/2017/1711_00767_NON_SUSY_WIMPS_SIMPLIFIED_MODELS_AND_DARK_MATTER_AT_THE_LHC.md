@@ -530,3 +530,13 @@ Standard Model through an Anomalous Z′. 2017.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1711_00767_non_susy_wimps_simplified_models_and_dark_matter_at_the_lhc
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1711_00767_NON_SUSY_WIMPS_SIMPLIFIED_MODELS_AND_DARK_MATTER_AT_THE_LHC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -681,3 +681,13 @@ k=1 pk is unity.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0704_3748v1_clustering_coefficients_of_protein_protein_interaction_networks
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0704_3748V1_CLUSTERING_COEFFICIENTS_OF_PROTEIN_PROTEIN_INTERACTION_NETWORKS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

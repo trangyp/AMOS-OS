@@ -1741,3 +1741,13 @@ statistics, New York: Springer.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0704_3649_quantile_and_probability_curves_without_crossing
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0704_3649_QUANTILE_AND_PROBABILITY_CURVES_WITHOUT_CROSSING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

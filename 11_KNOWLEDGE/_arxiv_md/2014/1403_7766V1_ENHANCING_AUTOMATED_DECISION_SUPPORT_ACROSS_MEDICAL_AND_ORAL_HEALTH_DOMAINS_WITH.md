@@ -622,3 +622,13 @@ w3schools. 2012. "Introduction to Owl," in: RDF Tutorial. w3schools.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1403_7766v1_enhancing_automated_decision_support_across_medical_and_oral_health_domains_with
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1403_7766V1_ENHANCING_AUTOMATED_DECISION_SUPPORT_ACROSS_MEDICAL_AND_ORAL_HEALTH_DOMAINS_WITH.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

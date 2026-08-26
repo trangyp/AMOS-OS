@@ -2058,3 +2058,13 @@ above tables shows the hierarchy of these networks with respect to their <LZ ΦC
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1608_08450v2_a_compression_complexity_measure_of_integrated_information
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1608_08450V2_A_COMPRESSION_COMPLEXITY_MEASURE_OF_INTEGRATED_INFORMATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

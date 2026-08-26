@@ -1094,3 +1094,13 @@ Figure 8
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1509_04304v2_large_scale_signatures_of_unconsciousness_are_consistent_with_a_departure_from_c
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1509_04304V2_LARGE_SCALE_SIGNATURES_OF_UNCONSCIOUSNESS_ARE_CONSISTENT_WITH_A_DEPARTURE_FROM_C.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

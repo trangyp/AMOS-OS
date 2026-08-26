@@ -24140,3 +24140,13 @@ tags: [moc, index, arxiv, qfm]
 - [[11_KNOWLEDGE_MOC]]
 - [[ARXIV_QFM_CLAIMS]]
 - [[ARXIV_QFM_MURK_AUDIT]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: arxiv_qfm_moc
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/ARXIV_QFM_MOC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

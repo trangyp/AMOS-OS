@@ -1592,3 +1592,13 @@ epileptic signals using a macroscopic physiological model of the EEG, Clin. Neur
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1801_08950v1_ictal_and_post_ictal_impaired_consciousness_due_to_enhanced_mutual_information_i
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1801_08950V1_ICTAL_AND_POST_ICTAL_IMPAIRED_CONSCIOUSNESS_DUE_TO_ENHANCED_MUTUAL_INFORMATION_I.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

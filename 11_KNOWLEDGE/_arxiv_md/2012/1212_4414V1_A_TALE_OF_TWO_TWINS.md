@@ -1401,3 +1401,13 @@ Ta-You Wu and Y.C.Lee The Clock Paradox in the Relativity Theory Int.J.Theor.Phy
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1212_4414v1_a_tale_of_two_twins
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1212_4414V1_A_TALE_OF_TWO_TWINS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

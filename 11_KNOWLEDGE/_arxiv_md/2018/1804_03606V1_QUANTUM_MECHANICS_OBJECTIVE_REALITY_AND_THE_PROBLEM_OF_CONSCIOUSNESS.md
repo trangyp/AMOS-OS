@@ -908,3 +908,13 @@ Phys. 75, pp 715.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_03606v1_quantum_mechanics_objective_reality_and_the_problem_of_consciousness
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_03606V1_QUANTUM_MECHANICS_OBJECTIVE_REALITY_AND_THE_PROBLEM_OF_CONSCIOUSNESS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

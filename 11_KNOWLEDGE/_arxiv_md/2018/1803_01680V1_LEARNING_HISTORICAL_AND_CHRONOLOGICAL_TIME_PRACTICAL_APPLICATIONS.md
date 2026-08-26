@@ -523,3 +523,13 @@ Academic Publishers.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_01680v1_learning_historical_and_chronological_time_practical_applications
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_01680V1_LEARNING_HISTORICAL_AND_CHRONOLOGICAL_TIME_PRACTICAL_APPLICATIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

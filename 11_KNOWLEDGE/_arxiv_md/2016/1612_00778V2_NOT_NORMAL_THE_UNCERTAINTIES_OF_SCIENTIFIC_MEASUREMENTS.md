@@ -1985,3 +1985,13 @@ Sci. 1, 140216. (doi:10.1098/rsos.140216)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1612_00778v2_not_normal_the_uncertainties_of_scientific_measurements
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1612_00778V2_NOT_NORMAL_THE_UNCERTAINTIES_OF_SCIENTIFIC_MEASUREMENTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

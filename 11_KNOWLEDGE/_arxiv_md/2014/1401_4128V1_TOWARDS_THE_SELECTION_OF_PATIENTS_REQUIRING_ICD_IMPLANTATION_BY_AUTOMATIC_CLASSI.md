@@ -525,3 +525,13 @@ ch.cappelaere@gmail.com
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1401_4128v1_towards_the_selection_of_patients_requiring_icd_implantation_by_automatic_classi
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1401_4128V1_TOWARDS_THE_SELECTION_OF_PATIENTS_REQUIRING_ICD_IMPLANTATION_BY_AUTOMATIC_CLASSI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

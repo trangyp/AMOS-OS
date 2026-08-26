@@ -1856,3 +1856,13 @@ E-mail: mtalih@cdc.gov
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1312_2363v1_a_reference_invariant_health_disparity_index_based_on_r_nyi_divergence
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1312_2363V1_A_REFERENCE_INVARIANT_HEALTH_DISPARITY_INDEX_BASED_ON_R_NYI_DIVERGENCE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

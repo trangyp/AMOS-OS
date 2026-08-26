@@ -2486,3 +2486,13 @@ the displacement.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0908_0028v1_analyzing_problem_solving_using_math_in_physics_epistemological_framing_via_war
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0908_0028V1_ANALYZING_PROBLEM_SOLVING_USING_MATH_IN_PHYSICS_EPISTEMOLOGICAL_FRAMING_VIA_WAR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

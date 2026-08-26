@@ -524,3 +524,13 @@ struct Deep Recurrent Neural Networks. CoRR abs/1312.6026 (2013)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_01996_neural_machine_translation_with_recurrent_highway_networks
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_01996_NEURAL_MACHINE_TRANSLATION_WITH_RECURRENT_HIGHWAY_NETWORKS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

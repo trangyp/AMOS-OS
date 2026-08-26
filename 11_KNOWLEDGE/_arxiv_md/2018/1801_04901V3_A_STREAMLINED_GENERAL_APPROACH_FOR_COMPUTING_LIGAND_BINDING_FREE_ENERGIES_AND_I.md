@@ -2028,3 +2028,13 @@ calculations
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1801_04901v3_a_streamlined_general_approach_for_computing_ligand_binding_free_energies_and_i
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1801_04901V3_A_STREAMLINED_GENERAL_APPROACH_FOR_COMPUTING_LIGAND_BINDING_FREE_ENERGIES_AND_I.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

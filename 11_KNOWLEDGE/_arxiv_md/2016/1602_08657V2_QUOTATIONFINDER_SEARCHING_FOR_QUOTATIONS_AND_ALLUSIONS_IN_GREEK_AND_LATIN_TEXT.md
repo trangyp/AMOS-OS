@@ -175,3 +175,13 @@ Lang (Frankfurt a.M.) 2010:93–109.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1602_08657v2_quotationfinder_searching_for_quotations_and_allusions_in_greek_and_latin_text
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1602_08657V2_QUOTATIONFINDER_SEARCHING_FOR_QUOTATIONS_AND_ALLUSIONS_IN_GREEK_AND_LATIN_TEXT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

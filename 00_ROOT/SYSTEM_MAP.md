@@ -3881,3 +3881,13 @@ Integrity remains prior to completeness, fluency, speed, convenience, or optimiz
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: system_map
+node_type: note
+path: 00_ROOT/SYSTEM_MAP.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

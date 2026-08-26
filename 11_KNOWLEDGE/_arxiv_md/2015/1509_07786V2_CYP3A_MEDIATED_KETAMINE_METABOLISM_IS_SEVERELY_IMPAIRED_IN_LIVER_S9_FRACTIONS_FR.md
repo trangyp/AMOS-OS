@@ -525,3 +525,13 @@ Figure 2.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1509_07786v2_cyp3a_mediated_ketamine_metabolism_is_severely_impaired_in_liver_s9_fractions_fr
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1509_07786V2_CYP3A_MEDIATED_KETAMINE_METABOLISM_IS_SEVERELY_IMPAIRED_IN_LIVER_S9_FRACTIONS_FR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -591,3 +591,13 @@ tic optimization”. In: arXiv preprint arXiv:1412.6980
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_06774v1_encoding_longer_term_contextual_multi_modal_information_in_a_predictive_coding_m
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_06774V1_ENCODING_LONGER_TERM_CONTEXTUAL_MULTI_MODAL_INFORMATION_IN_A_PREDICTIVE_CODING_M.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

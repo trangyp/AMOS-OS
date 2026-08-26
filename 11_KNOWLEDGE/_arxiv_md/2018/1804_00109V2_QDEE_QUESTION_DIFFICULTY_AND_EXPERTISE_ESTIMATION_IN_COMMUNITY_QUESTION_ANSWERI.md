@@ -1252,3 +1252,13 @@ behaviour in stackoverﬂow. In UMAP.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_00109v2_qdee_question_difficulty_and_expertise_estimation_in_community_question_answeri
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_00109V2_QDEE_QUESTION_DIFFICULTY_AND_EXPERTISE_ESTIMATION_IN_COMMUNITY_QUESTION_ANSWERI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

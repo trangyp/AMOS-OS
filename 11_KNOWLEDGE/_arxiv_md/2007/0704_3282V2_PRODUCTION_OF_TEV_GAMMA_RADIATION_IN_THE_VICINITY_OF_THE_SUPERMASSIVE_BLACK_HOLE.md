@@ -1781,3 +1781,13 @@ Young A.J., Wilson A.S., Mundell C.G., 2002, Ap.J., 579, 560.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0704_3282v2_production_of_tev_gamma_radiation_in_the_vicinity_of_the_supermassive_black_hole
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0704_3282V2_PRODUCTION_OF_TEV_GAMMA_RADIATION_IN_THE_VICINITY_OF_THE_SUPERMASSIVE_BLACK_HOLE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

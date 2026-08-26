@@ -1114,3 +1114,13 @@ measurements of speciﬁc biochemical species, Sci. Sig., 3(113), ra20.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1306_1904v1_network_inference_using_steady_state_data_and_goldbeter_koshland_kinetics
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1306_1904V1_NETWORK_INFERENCE_USING_STEADY_STATE_DATA_AND_GOLDBETER_KOSHLAND_KINETICS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

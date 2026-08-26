@@ -1396,3 +1396,13 @@ Language Processing, pp. 647–657 (2013)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_08419v3_ne_lp_normalized_entropy_and_loss_prediction_based_sampling_for_active_learning
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_08419V3_NE_LP_NORMALIZED_ENTROPY_AND_LOSS_PREDICTION_BASED_SAMPLING_FOR_ACTIVE_LEARNING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -468,3 +468,13 @@ Pennsylvania. United States: Association for Computational Linguistics,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1709_07104_on_the_use_of_machine_translation_based_approaches_for_vietnamese_diacritic_rest
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1709_07104_ON_THE_USE_OF_MACHINE_TRANSLATION_BASED_APPROACHES_FOR_VIETNAMESE_DIACRITIC_REST.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

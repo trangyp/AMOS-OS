@@ -850,3 +850,13 @@ http://dx.doi.org/10.1016/j.jflm.2016.10.002
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1707_08454v1_making_the_best_of_data_derived_from_a_daily_practice_in_clinical_legal_medicine
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1707_08454V1_MAKING_THE_BEST_OF_DATA_DERIVED_FROM_A_DAILY_PRACTICE_IN_CLINICAL_LEGAL_MEDICINE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

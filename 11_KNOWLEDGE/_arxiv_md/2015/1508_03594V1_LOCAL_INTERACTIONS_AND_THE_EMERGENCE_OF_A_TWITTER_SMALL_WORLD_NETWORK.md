@@ -465,3 +465,13 @@ De Sola Pool I, Kochen M (1979) Contacts and influence. Soc Networks 1: 5–51.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1508_03594v1_local_interactions_and_the_emergence_of_a_twitter_small_world_network
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1508_03594V1_LOCAL_INTERACTIONS_AND_THE_EMERGENCE_OF_A_TWITTER_SMALL_WORLD_NETWORK.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

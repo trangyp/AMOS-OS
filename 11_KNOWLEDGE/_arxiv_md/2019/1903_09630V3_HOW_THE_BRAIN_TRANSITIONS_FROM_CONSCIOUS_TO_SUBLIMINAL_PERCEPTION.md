@@ -1287,3 +1287,13 @@ structure in networks. Phys. Rev. E, 91, 032803.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_09630v3_how_the_brain_transitions_from_conscious_to_subliminal_perception
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_09630V3_HOW_THE_BRAIN_TRANSITIONS_FROM_CONSCIOUS_TO_SUBLIMINAL_PERCEPTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

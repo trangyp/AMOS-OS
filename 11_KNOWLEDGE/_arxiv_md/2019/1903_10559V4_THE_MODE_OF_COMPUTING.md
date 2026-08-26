@@ -1681,3 +1681,13 @@ s41598-020-68834-1.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_10559v4_the_mode_of_computing
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_10559V4_THE_MODE_OF_COMPUTING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

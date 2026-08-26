@@ -460,3 +460,13 @@ Religieuses, Vol. 36 (1962), pp. 175‐211.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_09324v1_on_the_orientation_of_the_historic_churches_of_lanzarote_when_human_necessity_d
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_09324V1_ON_THE_ORIENTATION_OF_THE_HISTORIC_CHURCHES_OF_LANZAROTE_WHEN_HUMAN_NECESSITY_D.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

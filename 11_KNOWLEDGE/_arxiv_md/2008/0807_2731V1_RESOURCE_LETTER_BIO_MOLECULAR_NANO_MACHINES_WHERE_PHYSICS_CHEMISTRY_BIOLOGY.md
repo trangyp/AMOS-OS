@@ -12946,3 +12946,13 @@ last few years.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0807_2731v1_resource_letter_bio_molecular_nano_machines_where_physics_chemistry_biology
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0807_2731V1_RESOURCE_LETTER_BIO_MOLECULAR_NANO_MACHINES_WHERE_PHYSICS_CHEMISTRY_BIOLOGY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -906,3 +906,13 @@ Press,New York.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1605_05691v1_adsorption_of_polyelectrolytes_on_silica_and_gold_surfaces
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1605_05691V1_ADSORPTION_OF_POLYELECTROLYTES_ON_SILICA_AND_GOLD_SURFACES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

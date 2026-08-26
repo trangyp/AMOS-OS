@@ -1437,3 +1437,13 @@ e-mail: bostjan.gabrovsek@fmf.uni-lj.si
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1801_04766v4_a_markov_theorem_for_generalized_plat_decomposition
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1801_04766V4_A_MARKOV_THEOREM_FOR_GENERALIZED_PLAT_DECOMPOSITION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

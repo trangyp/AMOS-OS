@@ -623,3 +623,13 @@ THERMAL EXCITATION OF 630.0 NM EMISSIONS
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1706_00318v1_on_the_contribution_of_thermal_excitation_to_the_total_630_0_nm_emissions_in_the
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1706_00318V1_ON_THE_CONTRIBUTION_OF_THERMAL_EXCITATION_TO_THE_TOTAL_630_0_NM_EMISSIONS_IN_THE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

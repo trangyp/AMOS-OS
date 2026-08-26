@@ -3376,3 +3376,13 @@ Zhang Z et al (1998) Electron transfer by domain movement in cytochrome bc1. Nat
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1703_05826v1_mitochondrial_oxidative_phosphorylation_debunking_the_concepts_of_electron_tran
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1703_05826V1_MITOCHONDRIAL_OXIDATIVE_PHOSPHORYLATION_DEBUNKING_THE_CONCEPTS_OF_ELECTRON_TRAN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -363,3 +363,13 @@ EEG microstate sequences - non-Markovianity, non-stationarity and periodicities.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1902_04321v1_the_phi_measure_of_integrated_information_is_not_well_defined_for_general_physic
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1902_04321V1_THE_PHI_MEASURE_OF_INTEGRATED_INFORMATION_IS_NOT_WELL_DEFINED_FOR_GENERAL_PHYSIC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1438,3 +1438,13 @@ IEEE, 2013. 6
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1512_00743v2_recognizing_semantic_features_in_faces_using_deep_learning
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1512_00743V2_RECOGNIZING_SEMANTIC_FEATURES_IN_FACES_USING_DEEP_LEARNING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

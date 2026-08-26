@@ -585,3 +585,13 @@ denoising criterion. Journal of Machine Learning Research, 11(Dec):3371–3408, 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1711_08534v2_safer_classification_by_synthesis
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1711_08534V2_SAFER_CLASSIFICATION_BY_SYNTHESIS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

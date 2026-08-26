@@ -2339,3 +2339,13 @@ Trans. Inf. Theory, vol. 7, no. 6, pp. 877-892, Aug. 1989.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1902_01107v1_tcm_noma_joint_multi_user_codeword_design_and_detection_in_trellis_coded_modula
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1902_01107V1_TCM_NOMA_JOINT_MULTI_USER_CODEWORD_DESIGN_AND_DETECTION_IN_TRELLIS_CODED_MODULA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

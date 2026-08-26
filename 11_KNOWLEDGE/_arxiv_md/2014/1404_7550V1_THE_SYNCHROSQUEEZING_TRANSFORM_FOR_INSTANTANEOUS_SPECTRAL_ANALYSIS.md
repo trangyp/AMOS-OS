@@ -678,3 +678,13 @@ Engineering, 2014. to appear.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1404_7550v1_the_synchrosqueezing_transform_for_instantaneous_spectral_analysis
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1404_7550V1_THE_SYNCHROSQUEEZING_TRANSFORM_FOR_INSTANTANEOUS_SPECTRAL_ANALYSIS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

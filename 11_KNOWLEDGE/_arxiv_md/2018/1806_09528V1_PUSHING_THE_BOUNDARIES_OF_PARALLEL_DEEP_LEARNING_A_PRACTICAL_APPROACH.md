@@ -830,3 +830,13 @@ Oct. 2017. [Online]. Available: https://zenodo.org/record/1037585/ﬁles/Drocco_
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_09528v1_pushing_the_boundaries_of_parallel_deep_learning_a_practical_approach
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_09528V1_PUSHING_THE_BOUNDARIES_OF_PARALLEL_DEEP_LEARNING_A_PRACTICAL_APPROACH.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

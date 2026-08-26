@@ -1248,3 +1248,13 @@ October-November 2003 Solar Activity, Space Weather, 2, S03008, doi:10.1029/
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_08480v1_on_the_close_correspondence_between_storm_time_ulf_wave_power_and_the_poes_vlf_c
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_08480V1_ON_THE_CLOSE_CORRESPONDENCE_BETWEEN_STORM_TIME_ULF_WAVE_POWER_AND_THE_POES_VLF_C.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

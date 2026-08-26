@@ -759,3 +759,13 @@ vibrational spectra. McGraw-Hill (1955)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1812_00995v1_computational_chemistry_as_voodoo_quantum_mechanics_models_parameterization
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1812_00995V1_COMPUTATIONAL_CHEMISTRY_AS_VOODOO_QUANTUM_MECHANICS_MODELS_PARAMETERIZATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

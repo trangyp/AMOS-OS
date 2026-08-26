@@ -2457,3 +2457,13 @@ Hudson, London, 1996).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_09014v1_null_dynamical_state_models_of_human_cognitive_dysfunction
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_09014V1_NULL_DYNAMICAL_STATE_MODELS_OF_HUMAN_COGNITIVE_DYSFUNCTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

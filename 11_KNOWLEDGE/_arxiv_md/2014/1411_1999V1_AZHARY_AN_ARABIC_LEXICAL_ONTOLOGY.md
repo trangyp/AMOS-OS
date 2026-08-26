@@ -650,3 +650,13 @@ Apache Jena, https://jena.apache.org/index.html
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1411_1999v1_azhary_an_arabic_lexical_ontology
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1411_1999V1_AZHARY_AN_ARABIC_LEXICAL_ONTOLOGY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

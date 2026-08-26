@@ -4208,3 +4208,13 @@ Assoc. Equip. 447, 498 (2000).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_12068_level_scheme_of_153_sm_obtained_from_152_sm_n_th_reaction_using
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_12068_LEVEL_SCHEME_OF_153_SM_OBTAINED_FROM_152_SM_N_TH_REACTION_USING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

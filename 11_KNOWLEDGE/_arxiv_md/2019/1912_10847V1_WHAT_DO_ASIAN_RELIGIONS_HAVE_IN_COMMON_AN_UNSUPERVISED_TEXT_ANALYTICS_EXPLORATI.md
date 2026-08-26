@@ -988,3 +988,13 @@ e-mail: epfeqa@rit.edu
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1912_10847v1_what_do_asian_religions_have_in_common_an_unsupervised_text_analytics_explorati
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1912_10847V1_WHAT_DO_ASIAN_RELIGIONS_HAVE_IN_COMMON_AN_UNSUPERVISED_TEXT_ANALYTICS_EXPLORATI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

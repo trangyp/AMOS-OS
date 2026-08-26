@@ -2888,3 +2888,13 @@ integration, the distribution is normalised.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0905_2145v1_predictions_from_a_stochastic_polymer_model_for_the_minde_dynamics_in_e_coli
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0905_2145V1_PREDICTIONS_FROM_A_STOCHASTIC_POLYMER_MODEL_FOR_THE_MINDE_DYNAMICS_IN_E_COLI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

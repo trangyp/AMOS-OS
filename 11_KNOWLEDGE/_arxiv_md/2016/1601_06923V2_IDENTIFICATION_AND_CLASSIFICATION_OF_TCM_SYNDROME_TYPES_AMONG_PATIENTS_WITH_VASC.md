@@ -1615,3 +1615,13 @@ Figure 2. Joint clustering model for Qi Deficiency.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1601_06923v2_identification_and_classification_of_tcm_syndrome_types_among_patients_with_vasc
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1601_06923V2_IDENTIFICATION_AND_CLASSIFICATION_OF_TCM_SYNDROME_TYPES_AMONG_PATIENTS_WITH_VASC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

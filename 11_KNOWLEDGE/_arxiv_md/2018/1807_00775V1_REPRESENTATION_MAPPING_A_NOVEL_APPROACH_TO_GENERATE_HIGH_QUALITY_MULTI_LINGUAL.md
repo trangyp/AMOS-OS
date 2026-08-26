@@ -1508,3 +1508,13 @@ nologies, pages 540–545.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1807_00775v1_representation_mapping_a_novel_approach_to_generate_high_quality_multi_lingual
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1807_00775V1_REPRESENTATION_MAPPING_A_NOVEL_APPROACH_TO_GENERATE_HIGH_QUALITY_MULTI_LINGUAL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -235,3 +235,13 @@ Sandars, P. G. H., Orig. Life Evol. Biosph. 33, 575 (2003).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1111_1742v2_spontaneous_chiral_symmetry_breaking_in_the_tayler_instability
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1111_1742V2_SPONTANEOUS_CHIRAL_SYMMETRY_BREAKING_IN_THE_TAYLER_INSTABILITY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

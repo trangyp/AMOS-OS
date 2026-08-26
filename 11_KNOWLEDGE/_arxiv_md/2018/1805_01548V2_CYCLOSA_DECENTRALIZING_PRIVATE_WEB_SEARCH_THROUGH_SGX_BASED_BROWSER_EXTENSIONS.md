@@ -1536,3 +1536,13 @@ Knowledge Graph Search API, https://goo.gl/iJQ8xH, 2017.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_01548v2_cyclosa_decentralizing_private_web_search_through_sgx_based_browser_extensions
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_01548V2_CYCLOSA_DECENTRALIZING_PRIVATE_WEB_SEARCH_THROUGH_SGX_BASED_BROWSER_EXTENSIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -2530,3 +2530,13 @@ bridge University Press, 2008.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1407_1263v2_cycle_symmetries_and_circulation_fluctuations_for_discrete_time_and_continuous_t
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1407_1263V2_CYCLE_SYMMETRIES_AND_CIRCULATION_FLUCTUATIONS_FOR_DISCRETE_TIME_AND_CONTINUOUS_T.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

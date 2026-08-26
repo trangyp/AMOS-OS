@@ -987,3 +987,13 @@ In ACL
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1802_01812_decoding_history_based_adaptive_control_of_attention_for_neural_machine_translat
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1802_01812_DECODING_HISTORY_BASED_ADAPTIVE_CONTROL_OF_ATTENTION_FOR_NEURAL_MACHINE_TRANSLAT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

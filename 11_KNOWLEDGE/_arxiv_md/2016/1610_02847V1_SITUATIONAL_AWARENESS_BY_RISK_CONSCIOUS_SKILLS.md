@@ -1047,3 +1047,13 @@ Awareness (SA) of the agent in both a losing scenario and a winning scenario.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1610_02847v1_situational_awareness_by_risk_conscious_skills
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1610_02847V1_SITUATIONAL_AWARENESS_BY_RISK_CONSCIOUS_SKILLS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

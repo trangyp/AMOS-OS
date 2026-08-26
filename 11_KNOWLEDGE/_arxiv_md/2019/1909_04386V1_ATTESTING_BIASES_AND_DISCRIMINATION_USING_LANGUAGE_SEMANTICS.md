@@ -438,3 +438,13 @@ types. Sex roles, 55(3-4):259–266, 2006.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1909_04386v1_attesting_biases_and_discrimination_using_language_semantics
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1909_04386V1_ATTESTING_BIASES_AND_DISCRIMINATION_USING_LANGUAGE_SEMANTICS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

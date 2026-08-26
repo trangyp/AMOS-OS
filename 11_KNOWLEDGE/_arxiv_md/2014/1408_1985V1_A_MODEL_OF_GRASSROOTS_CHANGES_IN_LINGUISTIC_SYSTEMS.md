@@ -1426,3 +1426,13 @@ English of Norwich. Language in Society 1: 179–195.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1408_1985v1_a_model_of_grassroots_changes_in_linguistic_systems
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1408_1985V1_A_MODEL_OF_GRASSROOTS_CHANGES_IN_LINGUISTIC_SYSTEMS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -941,3 +941,13 @@ Bioﬁzika 9:306–311.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_03827v1_native_chemical_automata_and_the_thermodynamic_interpretation_of_their_experimen
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_03827V1_NATIVE_CHEMICAL_AUTOMATA_AND_THE_THERMODYNAMIC_INTERPRETATION_OF_THEIR_EXPERIMEN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

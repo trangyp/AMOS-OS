@@ -2328,3 +2328,13 @@ Proc. IEEE International Symposium on Information Theory (ISIT), pp.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1209_0715v1_the_synthesis_and_analysis_of_stochastic_switching_circuits
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1209_0715V1_THE_SYNTHESIS_AND_ANALYSIS_OF_STOCHASTIC_SWITCHING_CIRCUITS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

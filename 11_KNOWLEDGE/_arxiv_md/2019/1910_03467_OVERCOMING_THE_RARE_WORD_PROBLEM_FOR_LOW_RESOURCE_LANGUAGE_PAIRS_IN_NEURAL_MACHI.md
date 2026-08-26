@@ -1092,3 +1092,13 @@ tion and Computation: Oral Papers (pp. 259-266).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_03467_overcoming_the_rare_word_problem_for_low_resource_language_pairs_in_neural_machi
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_03467_OVERCOMING_THE_RARE_WORD_PROBLEM_FOR_LOW_RESOURCE_LANGUAGE_PAIRS_IN_NEURAL_MACHI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

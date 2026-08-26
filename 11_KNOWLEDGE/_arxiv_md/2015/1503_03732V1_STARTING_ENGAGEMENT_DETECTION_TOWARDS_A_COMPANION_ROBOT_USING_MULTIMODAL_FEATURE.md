@@ -1307,3 +1307,13 @@ Table 8: MRMR algorithm output on the 32 features set.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1503_03732v1_starting_engagement_detection_towards_a_companion_robot_using_multimodal_feature
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1503_03732V1_STARTING_ENGAGEMENT_DETECTION_TOWARDS_A_COMPANION_ROBOT_USING_MULTIMODAL_FEATURE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

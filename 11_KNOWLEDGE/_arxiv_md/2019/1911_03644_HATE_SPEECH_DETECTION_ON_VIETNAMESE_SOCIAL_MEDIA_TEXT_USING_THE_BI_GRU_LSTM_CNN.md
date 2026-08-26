@@ -347,3 +347,13 @@ arXiv:1406.1078, 2014.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_03644_hate_speech_detection_on_vietnamese_social_media_text_using_the_bi_gru_lstm_cnn
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_03644_HATE_SPEECH_DETECTION_ON_VIETNAMESE_SOCIAL_MEDIA_TEXT_USING_THE_BI_GRU_LSTM_CNN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

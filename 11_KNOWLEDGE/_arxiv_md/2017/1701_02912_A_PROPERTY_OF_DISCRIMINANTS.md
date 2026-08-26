@@ -596,3 +596,13 @@ Inc., Mineola, NY, 1996. xviii+491 pp.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1701_02912_a_property_of_discriminants
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1701_02912_A_PROPERTY_OF_DISCRIMINANTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

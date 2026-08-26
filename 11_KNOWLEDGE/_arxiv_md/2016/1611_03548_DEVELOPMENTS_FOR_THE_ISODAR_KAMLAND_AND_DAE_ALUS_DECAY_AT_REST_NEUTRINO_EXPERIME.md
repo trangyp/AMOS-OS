@@ -536,3 +536,13 @@ arXiv:1607.00011 [hep-ph]
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1611_03548_developments_for_the_isodar_kamland_and_dae_alus_decay_at_rest_neutrino_experime
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1611_03548_DEVELOPMENTS_FOR_THE_ISODAR_KAMLAND_AND_DAE_ALUS_DECAY_AT_REST_NEUTRINO_EXPERIME.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

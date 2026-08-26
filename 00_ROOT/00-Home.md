@@ -24725,3 +24725,13 @@ tags: [home, moc, index]
 - [[STATUS_LEGEND]]
 - [[INDEX_COGNITIVE_MATRIX_COGNITIVE_MATRIX_CONTRACT]]
 - [[SCALE_REGISTRY]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 00_home
+node_type: note
+path: 00_ROOT/00-Home.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1091,3 +1091,13 @@ Clustering Ed J Van Ryzin (Accademic Press, New York) pp 251-299
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1103_2467v1_commuter_networks_and_community_detection_a_method_for_planning_sub_regional_ar
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1103_2467V1_COMMUTER_NETWORKS_AND_COMMUNITY_DETECTION_A_METHOD_FOR_PLANNING_SUB_REGIONAL_AR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

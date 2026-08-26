@@ -3252,3 +3252,13 @@ pur sempre padre devotissimo e affettuosissimo.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1211_3687v1_dungal_letterato_e_astronomo_note_di_stilistica_e_di_astronomia_sulla_lettera_a
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1211_3687V1_DUNGAL_LETTERATO_E_ASTRONOMO_NOTE_DI_STILISTICA_E_DI_ASTRONOMIA_SULLA_LETTERA_A.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

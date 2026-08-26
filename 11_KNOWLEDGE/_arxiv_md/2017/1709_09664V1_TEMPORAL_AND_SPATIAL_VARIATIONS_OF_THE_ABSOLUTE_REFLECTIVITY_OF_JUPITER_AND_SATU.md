@@ -1950,3 +1950,13 @@ black dashed line to May2016 and blue dashed to July 2016.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1709_09664v1_temporal_and_spatial_variations_of_the_absolute_reflectivity_of_jupiter_and_satu
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1709_09664V1_TEMPORAL_AND_SPATIAL_VARIATIONS_OF_THE_ABSOLUTE_REFLECTIVITY_OF_JUPITER_AND_SATU.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -335,3 +335,13 @@ Julie.Eatock@brunel.ac.uk
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1510_00576v1_assessing_measures_of_atrial_fibrillation_clustering_via_stochastic_models_of_ep
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1510_00576V1_ASSESSING_MEASURES_OF_ATRIAL_FIBRILLATION_CLUSTERING_VIA_STOCHASTIC_MODELS_OF_EP.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

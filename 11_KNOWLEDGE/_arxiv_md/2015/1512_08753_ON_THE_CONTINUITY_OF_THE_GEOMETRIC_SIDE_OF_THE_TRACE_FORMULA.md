@@ -2647,3 +2647,13 @@ E-mail address: erez.m.lapid@gmail.com
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1512_08753_on_the_continuity_of_the_geometric_side_of_the_trace_formula
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1512_08753_ON_THE_CONTINUITY_OF_THE_GEOMETRIC_SIDE_OF_THE_TRACE_FORMULA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

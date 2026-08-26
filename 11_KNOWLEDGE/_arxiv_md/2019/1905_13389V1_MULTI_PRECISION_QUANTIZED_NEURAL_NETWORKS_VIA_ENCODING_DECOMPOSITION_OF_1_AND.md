@@ -1271,3 +1271,13 @@ tional neural networks. In CVPR, 7920–7928.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_13389v1_multi_precision_quantized_neural_networks_via_encoding_decomposition_of_1_and
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_13389V1_MULTI_PRECISION_QUANTIZED_NEURAL_NETWORKS_VIA_ENCODING_DECOMPOSITION_OF_1_AND.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

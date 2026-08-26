@@ -329,3 +329,13 @@ arXiv:1212.6274 [math-ph]
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1707_08727v1_from_mindless_mathematics_to_thinking_meat
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1707_08727V1_FROM_MINDLESS_MATHEMATICS_TO_THINKING_MEAT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

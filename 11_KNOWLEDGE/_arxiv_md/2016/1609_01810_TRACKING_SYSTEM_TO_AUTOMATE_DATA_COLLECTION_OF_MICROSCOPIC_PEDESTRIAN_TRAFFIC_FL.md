@@ -1185,3 +1185,13 @@ Systems '94. 'Advanced Robotic Systems and the Real World', IROS '94. Vol. 2, pp
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1609_01810_tracking_system_to_automate_data_collection_of_microscopic_pedestrian_traffic_fl
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1609_01810_TRACKING_SYSTEM_TO_AUTOMATE_DATA_COLLECTION_OF_MICROSCOPIC_PEDESTRIAN_TRAFFIC_FL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

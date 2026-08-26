@@ -1342,3 +1342,13 @@ detection with region proposal networks. In: NIPS. (2015) 12
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_01741v3_visual_relation_conscious_image_generation_from_structured_text
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_01741V3_VISUAL_RELATION_CONSCIOUS_IMAGE_GENERATION_FROM_STRUCTURED_TEXT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

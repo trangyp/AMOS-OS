@@ -695,3 +695,13 @@ implementation, and applications, page 47-100, page 495-505
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0912_1829_document_searching_system_based_on_natural_language_query_processing_for_vietnam
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0912_1829_DOCUMENT_SEARCHING_SYSTEM_BASED_ON_NATURAL_LANGUAGE_QUERY_PROCESSING_FOR_VIETNAM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

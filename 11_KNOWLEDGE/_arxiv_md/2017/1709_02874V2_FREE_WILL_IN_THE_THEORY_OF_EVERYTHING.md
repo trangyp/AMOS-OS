@@ -722,3 +722,13 @@ Phys Rev Lett. 23.880.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1709_02874v2_free_will_in_the_theory_of_everything
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1709_02874V2_FREE_WILL_IN_THE_THEORY_OF_EVERYTHING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -3279,3 +3279,13 @@ has yet to be accepted.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1402_1722v1_a_quantum_field_approach_for_advancing_optical_coherence_tomography_part_i_firs
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1402_1722V1_A_QUANTUM_FIELD_APPROACH_FOR_ADVANCING_OPTICAL_COHERENCE_TOMOGRAPHY_PART_I_FIRS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

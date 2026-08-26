@@ -601,3 +601,13 @@ L7, 2015.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1711_00447_sma_and_alma_studies_of_disk_and_planet_formation_around_low_mass_protostars
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1711_00447_SMA_AND_ALMA_STUDIES_OF_DISK_AND_PLANET_FORMATION_AROUND_LOW_MASS_PROTOSTARS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1945,3 +1945,13 @@ of the American Statistical Association, 58(301), 236–244.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1506_05413_understanding_civil_war_violence_through_military_intelligence_mining_civilian
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1506_05413_UNDERSTANDING_CIVIL_WAR_VIOLENCE_THROUGH_MILITARY_INTELLIGENCE_MINING_CIVILIAN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

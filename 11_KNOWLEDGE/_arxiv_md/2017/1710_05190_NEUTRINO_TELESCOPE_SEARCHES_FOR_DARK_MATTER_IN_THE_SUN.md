@@ -473,3 +473,13 @@ momentum-dependent asymmetric dark matter, JCAP 11 (2016) 007,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1710_05190_neutrino_telescope_searches_for_dark_matter_in_the_sun
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1710_05190_NEUTRINO_TELESCOPE_SEARCHES_FOR_DARK_MATTER_IN_THE_SUN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

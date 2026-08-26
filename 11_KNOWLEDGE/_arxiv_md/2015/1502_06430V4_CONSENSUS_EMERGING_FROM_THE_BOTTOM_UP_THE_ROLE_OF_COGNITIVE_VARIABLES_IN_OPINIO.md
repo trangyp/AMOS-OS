@@ -1092,3 +1092,13 @@ Advances in Health Sciences Education, 19:409, 2014.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1502_06430v4_consensus_emerging_from_the_bottom_up_the_role_of_cognitive_variables_in_opinio
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1502_06430V4_CONSENSUS_EMERGING_FROM_THE_BOTTOM_UP_THE_ROLE_OF_COGNITIVE_VARIABLES_IN_OPINIO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

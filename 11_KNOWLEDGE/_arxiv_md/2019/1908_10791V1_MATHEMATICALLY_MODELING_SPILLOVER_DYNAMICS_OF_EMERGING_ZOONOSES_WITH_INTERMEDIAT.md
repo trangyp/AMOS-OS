@@ -2461,3 +2461,13 @@ Figure 4.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_10791v1_mathematically_modeling_spillover_dynamics_of_emerging_zoonoses_with_intermediat
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_10791V1_MATHEMATICALLY_MODELING_SPILLOVER_DYNAMICS_OF_EMERGING_ZOONOSES_WITH_INTERMEDIAT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -515,3 +515,13 @@ E-mail address: nvchau@math.ac.vn
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0710_5212_a_note_on_singularity_and_non_proper_value_set_of_polynomial_maps_of_mathbb_c
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0710_5212_A_NOTE_ON_SINGULARITY_AND_NON_PROPER_VALUE_SET_OF_POLYNOMIAL_MAPS_OF_MATHBB_C.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

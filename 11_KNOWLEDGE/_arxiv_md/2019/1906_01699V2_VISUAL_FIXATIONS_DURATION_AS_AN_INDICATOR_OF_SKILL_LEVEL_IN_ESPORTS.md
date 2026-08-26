@@ -422,3 +422,13 @@ plication Symposium, ETRA 2000, Palm Beach Gardens, Florida, USA, November 6-8,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1906_01699v2_visual_fixations_duration_as_an_indicator_of_skill_level_in_esports
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1906_01699V2_VISUAL_FIXATIONS_DURATION_AS_AN_INDICATOR_OF_SKILL_LEVEL_IN_ESPORTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

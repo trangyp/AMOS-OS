@@ -3457,3 +3457,13 @@ reserve bank of san francisco (Vol. 79).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1902_00562v1_the_spatially_conscious_machine_learning_model
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1902_00562V1_THE_SPATIALLY_CONSCIOUS_MACHINE_LEARNING_MODEL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

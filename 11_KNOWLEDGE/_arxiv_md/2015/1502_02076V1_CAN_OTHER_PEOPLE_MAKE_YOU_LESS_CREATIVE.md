@@ -398,3 +398,13 @@ Environmental Stimulation Technique (REST) on jazz improvisation. Music and Medi
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1502_02076v1_can_other_people_make_you_less_creative
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1502_02076V1_CAN_OTHER_PEOPLE_MAKE_YOU_LESS_CREATIVE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

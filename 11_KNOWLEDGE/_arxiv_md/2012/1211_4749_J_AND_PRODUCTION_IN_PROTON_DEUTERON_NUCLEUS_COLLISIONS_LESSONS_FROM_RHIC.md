@@ -273,3 +273,13 @@ and the ψ′ indistinguishable.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1211_4749_j_and_production_in_proton_deuteron_nucleus_collisions_lessons_from_rhic
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1211_4749_J_AND_PRODUCTION_IN_PROTON_DEUTERON_NUCLEUS_COLLISIONS_LESSONS_FROM_RHIC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

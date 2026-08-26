@@ -748,3 +748,13 @@ Dr. P.M.Pattnaik, “Abstract of Veda”
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1002_0177v1_logical_evaluation_of_consciousness_for_incorporating_consciousness_into_machin
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1002_0177V1_LOGICAL_EVALUATION_OF_CONSCIOUSNESS_FOR_INCORPORATING_CONSCIOUSNESS_INTO_MACHIN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

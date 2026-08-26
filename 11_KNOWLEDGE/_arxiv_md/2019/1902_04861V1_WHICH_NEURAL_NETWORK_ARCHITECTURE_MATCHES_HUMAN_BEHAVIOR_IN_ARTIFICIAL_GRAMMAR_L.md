@@ -1122,3 +1122,13 @@ SEQUENCE VII
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1902_04861v1_which_neural_network_architecture_matches_human_behavior_in_artificial_grammar_l
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1902_04861V1_WHICH_NEURAL_NETWORK_ARCHITECTURE_MATCHES_HUMAN_BEHAVIOR_IN_ARTIFICIAL_GRAMMAR_L.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

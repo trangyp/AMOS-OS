@@ -554,3 +554,13 @@ with and without transmission grid.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1801_00383_integration_of_renewable_power_sources_into_the_vietnamese_power_system
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1801_00383_INTEGRATION_OF_RENEWABLE_POWER_SOURCES_INTO_THE_VIETNAMESE_POWER_SYSTEM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

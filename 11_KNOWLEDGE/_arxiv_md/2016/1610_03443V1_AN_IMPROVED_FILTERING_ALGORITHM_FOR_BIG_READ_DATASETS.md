@@ -1848,3 +1848,13 @@ doi:10.1371/journal.pone.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1610_03443v1_an_improved_filtering_algorithm_for_big_read_datasets
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1610_03443V1_AN_IMPROVED_FILTERING_ALGORITHM_FOR_BIG_READ_DATASETS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

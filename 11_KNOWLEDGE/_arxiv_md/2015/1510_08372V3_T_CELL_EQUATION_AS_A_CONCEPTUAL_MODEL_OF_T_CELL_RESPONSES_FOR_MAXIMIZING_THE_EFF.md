@@ -625,3 +625,13 @@ i:10.4161/21624011.2014.955691
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1510_08372v3_t_cell_equation_as_a_conceptual_model_of_t_cell_responses_for_maximizing_the_eff
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1510_08372V3_T_CELL_EQUATION_AS_A_CONCEPTUAL_MODEL_OF_T_CELL_RESPONSES_FOR_MAXIMIZING_THE_EFF.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

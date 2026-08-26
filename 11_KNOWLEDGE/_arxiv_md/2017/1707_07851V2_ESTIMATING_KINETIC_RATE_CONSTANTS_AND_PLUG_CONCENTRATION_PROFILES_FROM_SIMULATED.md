@@ -640,3 +640,13 @@ Science, 295(5562):2103–2105,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1707_07851v2_estimating_kinetic_rate_constants_and_plug_concentration_profiles_from_simulated
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1707_07851V2_ESTIMATING_KINETIC_RATE_CONSTANTS_AND_PLUG_CONCENTRATION_PROFILES_FROM_SIMULATED.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

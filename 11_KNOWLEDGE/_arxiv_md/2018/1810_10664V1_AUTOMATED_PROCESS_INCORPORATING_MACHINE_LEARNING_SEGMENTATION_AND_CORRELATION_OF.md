@@ -1706,3 +1706,13 @@ dentistry, vol. 8, no. 1, pp. 3–6, 1986.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1810_10664v1_automated_process_incorporating_machine_learning_segmentation_and_correlation_of
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1810_10664V1_AUTOMATED_PROCESS_INCORPORATING_MACHINE_LEARNING_SEGMENTATION_AND_CORRELATION_OF.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

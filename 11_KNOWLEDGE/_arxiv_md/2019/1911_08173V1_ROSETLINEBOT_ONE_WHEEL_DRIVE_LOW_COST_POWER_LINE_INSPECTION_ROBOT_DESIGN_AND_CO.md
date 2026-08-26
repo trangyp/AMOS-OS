@@ -266,3 +266,13 @@ International Journal of Applied Mathematics and Computer Science, Vol. 14, No. 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_08173v1_rosetlinebot_one_wheel_drive_low_cost_power_line_inspection_robot_design_and_co
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_08173V1_ROSETLINEBOT_ONE_WHEEL_DRIVE_LOW_COST_POWER_LINE_INSPECTION_ROBOT_DESIGN_AND_CO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

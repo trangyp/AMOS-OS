@@ -1107,3 +1107,13 @@ Astronomical History and Heritage, 17(2): 195-204.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1810_11276v1_death_and_maier_meteors_and_mortuary_rites_in_the_eastern_torres_strait_eud_ke
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1810_11276V1_DEATH_AND_MAIER_METEORS_AND_MORTUARY_RITES_IN_THE_EASTERN_TORRES_STRAIT_EUD_KE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

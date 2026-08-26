@@ -618,3 +618,13 @@ E-mail address: fredrohrer0@gmail.com
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1207_0610_torsion_functors_with_monomial_support
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1207_0610_TORSION_FUNCTORS_WITH_MONOMIAL_SUPPORT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

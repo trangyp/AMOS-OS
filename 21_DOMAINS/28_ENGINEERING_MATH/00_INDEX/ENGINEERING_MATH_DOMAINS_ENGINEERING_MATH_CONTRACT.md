@@ -16,3 +16,13 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: engineering_math_domains_engineering_math_contract
+node_type: note
+path: 21_DOMAINS/28_ENGINEERING_MATH/00_INDEX/ENGINEERING_MATH_DOMAINS_ENGINEERING_MATH_CONTRACT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -2949,3 +2949,13 @@ D 4, 3388 (1971).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1708_09412v1_ensemble_mean_bf_p_t_and_hadron_production_in_high_energy_nuclear_collisions
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1708_09412V1_ENSEMBLE_MEAN_BF_P_T_AND_HADRON_PRODUCTION_IN_HIGH_ENERGY_NUCLEAR_COLLISIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

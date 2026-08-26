@@ -869,3 +869,13 @@ http://www.python.org
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_00737v1_the_effect_of_video_playback_speed_on_surgeon_technical_skill_perception
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_00737V1_THE_EFFECT_OF_VIDEO_PLAYBACK_SPEED_ON_SURGEON_TECHNICAL_SKILL_PERCEPTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

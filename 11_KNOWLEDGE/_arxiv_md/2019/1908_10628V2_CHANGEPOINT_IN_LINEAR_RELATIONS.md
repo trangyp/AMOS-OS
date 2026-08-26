@@ -4731,3 +4731,13 @@ York, NY: Spriger.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_10628v2_changepoint_in_linear_relations
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_10628V2_CHANGEPOINT_IN_LINEAR_RELATIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -338,3 +338,13 @@ References
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1401_4690_the_quijote_cmb_experiment_status_and_first_results_with_the_multi_frequency_in
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1401_4690_THE_QUIJOTE_CMB_EXPERIMENT_STATUS_AND_FIRST_RESULTS_WITH_THE_MULTI_FREQUENCY_IN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

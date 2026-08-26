@@ -636,3 +636,13 @@ Research, 8:39–49.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_10621v1_towards_automated_management_and_analysis_of_heterogeneous_data_within_cannabino
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_10621V1_TOWARDS_AUTOMATED_MANAGEMENT_AND_ANALYSIS_OF_HETEROGENEOUS_DATA_WITHIN_CANNABINO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

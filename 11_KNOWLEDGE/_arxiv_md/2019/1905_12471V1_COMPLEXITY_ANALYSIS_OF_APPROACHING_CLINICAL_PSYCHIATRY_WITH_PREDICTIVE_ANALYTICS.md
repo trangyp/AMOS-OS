@@ -1012,3 +1012,13 @@ Word Health Organization (2017). Depression
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_12471v1_complexity_analysis_of_approaching_clinical_psychiatry_with_predictive_analytics
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_12471V1_COMPLEXITY_ANALYSIS_OF_APPROACHING_CLINICAL_PSYCHIATRY_WITH_PREDICTIVE_ANALYTICS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

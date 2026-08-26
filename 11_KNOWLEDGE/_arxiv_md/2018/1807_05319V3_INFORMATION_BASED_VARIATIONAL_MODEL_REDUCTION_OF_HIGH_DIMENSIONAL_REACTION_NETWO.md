@@ -5273,3 +5273,13 @@ Journal of Mathematical Chemistry 44 (1) (2008) 244–259.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1807_05319v3_information_based_variational_model_reduction_of_high_dimensional_reaction_netwo
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1807_05319V3_INFORMATION_BASED_VARIATIONAL_MODEL_REDUCTION_OF_HIGH_DIMENSIONAL_REACTION_NETWO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

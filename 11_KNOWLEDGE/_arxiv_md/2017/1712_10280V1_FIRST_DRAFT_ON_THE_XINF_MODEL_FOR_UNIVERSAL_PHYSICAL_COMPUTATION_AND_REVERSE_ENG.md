@@ -1626,3 +1626,13 @@ Turing, A. M. I.—COMPUTING MACHINERY AND INTELLIGENCE. Mind LIX, 433-460, doi:
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_10280v1_first_draft_on_the_xinf_model_for_universal_physical_computation_and_reverse_eng
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_10280V1_FIRST_DRAFT_ON_THE_XINF_MODEL_FOR_UNIVERSAL_PHYSICAL_COMPUTATION_AND_REVERSE_ENG.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -570,3 +570,13 @@ through self-play. Science 2018; 362(6419): 1140–1144.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_01726v1_a_machine_learning_method_correlating_pulse_pressure_wave_data_with_pregnancy
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_01726V1_A_MACHINE_LEARNING_METHOD_CORRELATING_PULSE_PRESSURE_WAVE_DATA_WITH_PREGNANCY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

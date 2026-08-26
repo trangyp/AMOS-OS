@@ -1940,3 +1940,13 @@ E-mail address, Sakai: sakai@kurume-nct.ac.jp
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1202_5286v2_topological_complexity_is_a_fibrewise_l_s_category
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1202_5286V2_TOPOLOGICAL_COMPLEXITY_IS_A_FIBREWISE_L_S_CATEGORY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

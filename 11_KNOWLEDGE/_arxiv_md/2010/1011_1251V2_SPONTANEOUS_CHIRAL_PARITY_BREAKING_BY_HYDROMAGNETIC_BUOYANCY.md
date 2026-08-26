@@ -439,3 +439,13 @@ McWilliams, Phys. Rev. Lett. 100, 184501 (2008).
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1011_1251v2_spontaneous_chiral_parity_breaking_by_hydromagnetic_buoyancy
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1011_1251V2_SPONTANEOUS_CHIRAL_PARITY_BREAKING_BY_HYDROMAGNETIC_BUOYANCY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

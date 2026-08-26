@@ -1926,3 +1926,13 @@ ence on Software Engineering, pages 682–691. IEEE Press,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_01899v3_a_machine_learning_based_ensemble_method_for_anti_patterns_detection
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_01899V3_A_MACHINE_LEARNING_BASED_ENSEMBLE_METHOD_FOR_ANTI_PATTERNS_DETECTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

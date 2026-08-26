@@ -2627,3 +2627,13 @@ denote s.e.m. across subjects.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1403_5241v1_spatiotemporal_dissociation_of_brain_activity_underlying_subjective_awareness_o
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1403_5241V1_SPATIOTEMPORAL_DISSOCIATION_OF_BRAIN_ACTIVITY_UNDERLYING_SUBJECTIVE_AWARENESS_O.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

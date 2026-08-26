@@ -941,3 +941,13 @@ ACM-SIAM Symposium on Discrete Algorithms -SODA, 2008, pp. 84–93.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0808_1364_on_bounded_integer_programming
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0808_1364_ON_BOUNDED_INTEGER_PROGRAMMING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

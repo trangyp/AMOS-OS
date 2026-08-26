@@ -1536,3 +1536,13 @@ Young J.S. & Scoville N.Z., 1991, ARAA, 29, 581
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1010_1051v3_galactic_coronae_in_the_intracluster_environment_semi_confined_stellar_feedback
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1010_1051V3_GALACTIC_CORONAE_IN_THE_INTRACLUSTER_ENVIRONMENT_SEMI_CONFINED_STELLAR_FEEDBACK.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

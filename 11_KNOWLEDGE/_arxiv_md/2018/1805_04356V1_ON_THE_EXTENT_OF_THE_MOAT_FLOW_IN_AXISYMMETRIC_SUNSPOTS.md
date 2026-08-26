@@ -1428,3 +1428,13 @@ sunspots, ASNA, 2018;00:1–8.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_04356v1_on_the_extent_of_the_moat_flow_in_axisymmetric_sunspots
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_04356V1_ON_THE_EXTENT_OF_THE_MOAT_FLOW_IN_AXISYMMETRIC_SUNSPOTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

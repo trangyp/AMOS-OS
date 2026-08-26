@@ -839,3 +839,13 @@ Computational physics, vol. 114, 1994, pp. 185-200.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1702_00216v1_handling_massive_spatial_volumes_in_time_domain_simulations_using_triggered_cell
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1702_00216V1_HANDLING_MASSIVE_SPATIAL_VOLUMES_IN_TIME_DOMAIN_SIMULATIONS_USING_TRIGGERED_CELL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

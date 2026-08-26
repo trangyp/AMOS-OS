@@ -931,3 +931,13 @@ Advanced Materials 18(1), 972–976 (2017)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_02788v2_interpretable_deep_learning_in_drug_discovery
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_02788V2_INTERPRETABLE_DEEP_LEARNING_IN_DRUG_DISCOVERY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

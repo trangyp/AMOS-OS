@@ -1067,3 +1067,13 @@ Notes in Computer Science, pages 171–179. Springer Berlin / Heidelberg, 2005.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1201_5229v1_cross_entropy_optimisation_of_importance_sampling_parameters_for_statistical_mod
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1201_5229V1_CROSS_ENTROPY_OPTIMISATION_OF_IMPORTANCE_SAMPLING_PARAMETERS_FOR_STATISTICAL_MOD.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

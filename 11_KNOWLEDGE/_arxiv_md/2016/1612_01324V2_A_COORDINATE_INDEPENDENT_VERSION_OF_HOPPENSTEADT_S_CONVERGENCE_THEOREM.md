@@ -1289,3 +1289,13 @@ parameter multiplying the derivative (in Russian). Math. Sb. 31, 575–
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1612_01324v2_a_coordinate_independent_version_of_hoppensteadt_s_convergence_theorem
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1612_01324V2_A_COORDINATE_INDEPENDENT_VERSION_OF_HOPPENSTEADT_S_CONVERGENCE_THEOREM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

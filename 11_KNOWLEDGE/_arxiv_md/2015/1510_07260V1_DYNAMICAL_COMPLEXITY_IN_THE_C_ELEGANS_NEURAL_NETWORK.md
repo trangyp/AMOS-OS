@@ -875,3 +875,13 @@ tural properties of the “Caenorhabditis elegans” neuronal network’, PLOS C
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1510_07260v1_dynamical_complexity_in_the_c_elegans_neural_network
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1510_07260V1_DYNAMICAL_COMPLEXITY_IN_THE_C_ELEGANS_NEURAL_NETWORK.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

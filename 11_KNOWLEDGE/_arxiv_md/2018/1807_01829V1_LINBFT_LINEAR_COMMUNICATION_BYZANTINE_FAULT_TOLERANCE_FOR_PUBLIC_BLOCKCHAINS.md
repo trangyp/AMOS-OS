@@ -945,3 +945,13 @@ with Decentralized Witness Cosigning. IEEE S&P, 2016.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1807_01829v1_linbft_linear_communication_byzantine_fault_tolerance_for_public_blockchains
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1807_01829V1_LINBFT_LINEAR_COMMUNICATION_BYZANTINE_FAULT_TOLERANCE_FOR_PUBLIC_BLOCKCHAINS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1309,3 +1309,13 @@ CONCUR 2005, LNCS 3653, pages 323–337. Springer, 2005.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_04607v1_reversible_computation_in_petri_nets
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_04607V1_REVERSIBLE_COMPUTATION_IN_PETRI_NETS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

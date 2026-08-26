@@ -1795,3 +1795,13 @@ experimental study on smartphones. In SOUPS, 2014.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1506_02294v2_forgery_resistant_touch_based_authentication_on_mobile_devices
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1506_02294V2_FORGERY_RESISTANT_TOUCH_BASED_AUTHENTICATION_ON_MOBILE_DEVICES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

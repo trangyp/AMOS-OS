@@ -1211,3 +1211,13 @@ Phys. J. C 70, 555 (2010).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1412_0082v1_qcd_prediction_of_jet_structure_in_2d_trigger_associated_momentum_correlations_a
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1412_0082V1_QCD_PREDICTION_OF_JET_STRUCTURE_IN_2D_TRIGGER_ASSOCIATED_MOMENTUM_CORRELATIONS_A.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -913,3 +913,13 @@ if K < Dρ.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1608_07218v2_pattern_formation_in_polymerising_actin_flocks_spirals_spots_and_waves_without
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1608_07218V2_PATTERN_FORMATION_IN_POLYMERISING_ACTIN_FLOCKS_SPIRALS_SPOTS_AND_WAVES_WITHOUT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

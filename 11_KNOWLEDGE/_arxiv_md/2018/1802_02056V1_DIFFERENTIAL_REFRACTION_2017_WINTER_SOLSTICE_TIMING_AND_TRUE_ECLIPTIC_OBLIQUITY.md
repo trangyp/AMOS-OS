@@ -626,3 +626,13 @@ Immagine Solstiziale del 23 dicembre durante le misure (foto Enrico Giuliani)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1802_02056v1_differential_refraction_2017_winter_solstice_timing_and_true_ecliptic_obliquity
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1802_02056V1_DIFFERENTIAL_REFRACTION_2017_WINTER_SOLSTICE_TIMING_AND_TRUE_ECLIPTIC_OBLIQUITY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

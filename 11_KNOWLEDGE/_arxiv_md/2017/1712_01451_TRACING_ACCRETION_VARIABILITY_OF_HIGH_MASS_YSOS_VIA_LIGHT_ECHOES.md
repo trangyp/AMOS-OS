@@ -303,3 +303,13 @@ at the bottom indicates the ratio values. Bottom - Echo simulation for a circums
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_01451_tracing_accretion_variability_of_high_mass_ysos_via_light_echoes
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_01451_TRACING_ACCRETION_VARIABILITY_OF_HIGH_MASS_YSOS_VIA_LIGHT_ECHOES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1198,3 +1198,13 @@ genes, Biology Direct, 7:1 (2012).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1801_03953v2_tractable_models_of_self_sustaining_autocatalytic_networks
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1801_03953V2_TRACTABLE_MODELS_OF_SELF_SUSTAINING_AUTOCATALYTIC_NETWORKS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

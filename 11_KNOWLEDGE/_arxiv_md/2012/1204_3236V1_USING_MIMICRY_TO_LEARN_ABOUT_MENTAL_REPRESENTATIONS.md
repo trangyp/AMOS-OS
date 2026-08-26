@@ -910,3 +910,13 @@ Conference on Spoken :Language Processing (Interspeech 2004),
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1204_3236v1_using_mimicry_to_learn_about_mental_representations
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1204_3236V1_USING_MIMICRY_TO_LEARN_ABOUT_MENTAL_REPRESENTATIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

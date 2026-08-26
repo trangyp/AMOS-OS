@@ -1144,3 +1144,13 @@ https://tinyurl.com/pishkinFire
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_02251v2_this_one_simple_trick_disrupts_digital_communities
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_02251V2_THIS_ONE_SIMPLE_TRICK_DISRUPTS_DIGITAL_COMMUNITIES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

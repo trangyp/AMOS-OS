@@ -2250,3 +2250,13 @@ IEEE, 2018, pp.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_09160v2_extended_local_binary_patterns_for_efficient_and_robust_spontaneous_facial_micro
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_09160V2_EXTENDED_LOCAL_BINARY_PATTERNS_FOR_EFFICIENT_AND_ROBUST_SPONTANEOUS_FACIAL_MICRO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

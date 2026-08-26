@@ -1156,3 +1156,13 @@ html/edfmicestaging.html, 2018.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1809_08443v1_automated_classification_of_sleep_stages_and_eeg_artifacts_in_mice_with_deep_lea
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1809_08443V1_AUTOMATED_CLASSIFICATION_OF_SLEEP_STAGES_AND_EEG_ARTIFACTS_IN_MICE_WITH_DEEP_LEA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

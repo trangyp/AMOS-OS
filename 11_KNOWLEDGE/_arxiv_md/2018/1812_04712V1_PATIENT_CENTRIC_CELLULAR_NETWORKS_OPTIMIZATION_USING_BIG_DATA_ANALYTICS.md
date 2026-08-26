@@ -2222,3 +2222,13 @@ by BT. He was an IEEE Comsoc Distinguished Lecturer 2013-
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1812_04712v1_patient_centric_cellular_networks_optimization_using_big_data_analytics
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1812_04712V1_PATIENT_CENTRIC_CELLULAR_NETWORKS_OPTIMIZATION_USING_BIG_DATA_ANALYTICS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

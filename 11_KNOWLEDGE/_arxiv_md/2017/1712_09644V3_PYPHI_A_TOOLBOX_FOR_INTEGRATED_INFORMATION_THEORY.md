@@ -1957,3 +1957,13 @@ Thus fp,r satisfies the criteria for a potential flow. The others follow similar
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_09644v3_pyphi_a_toolbox_for_integrated_information_theory
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_09644V3_PYPHI_A_TOOLBOX_FOR_INTEGRATED_INFORMATION_THEORY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

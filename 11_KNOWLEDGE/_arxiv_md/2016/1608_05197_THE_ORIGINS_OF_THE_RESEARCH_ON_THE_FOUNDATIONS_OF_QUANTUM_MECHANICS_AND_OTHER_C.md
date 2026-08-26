@@ -1260,3 +1260,13 @@ Wootters, William K., Zurek Wojciech H. 1982. A single quantum cannot be cloned.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1608_05197_the_origins_of_the_research_on_the_foundations_of_quantum_mechanics_and_other_c
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1608_05197_THE_ORIGINS_OF_THE_RESEARCH_ON_THE_FOUNDATIONS_OF_QUANTUM_MECHANICS_AND_OTHER_C.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

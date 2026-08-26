@@ -3534,3 +3534,13 @@ S. Redner (World Scientiﬁc, 2013) pp. 1–29.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1401_6601v3_model_reduction_for_slow_fast_stochastic_systems_with_metastable_behaviour
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1401_6601V3_MODEL_REDUCTION_FOR_SLOW_FAST_STOCHASTIC_SYSTEMS_WITH_METASTABLE_BEHAVIOUR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

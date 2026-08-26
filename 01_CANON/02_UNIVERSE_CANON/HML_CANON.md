@@ -2572,3 +2572,13 @@ UNKNOWN/GAP != PASS
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: hml_canon
+node_type: note
+path: 01_CANON/02_UNIVERSE_CANON/HML_CANON.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

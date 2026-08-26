@@ -203,3 +203,13 @@ biology which stands for the biology described using physics.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1005_1976v1_nearsightedness_of_electronic_matter_and_the_size_of_viruses
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1005_1976V1_NEARSIGHTEDNESS_OF_ELECTRONIC_MATTER_AND_THE_SIZE_OF_VIRUSES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

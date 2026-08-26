@@ -2999,3 +2999,13 @@ Areas Commun., Vol. SAC-7, pp. 1356-1368, Dec. 1989.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1109_0827v1_a_trellis_coded_modulation_scheme_for_the_fading_relay_channel
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1109_0827V1_A_TRELLIS_CODED_MODULATION_SCHEME_FOR_THE_FADING_RELAY_CHANNEL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

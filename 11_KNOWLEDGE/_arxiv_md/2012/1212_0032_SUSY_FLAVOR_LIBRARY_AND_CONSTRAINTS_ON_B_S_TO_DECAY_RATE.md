@@ -476,3 +476,13 @@ experiments”, LHCb-CONF-2012-017, CMS-PAS-BPH-12-009, ATLAS-CONF-2012-061.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1212_0032_susy_flavor_library_and_constraints_on_b_s_to_decay_rate
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1212_0032_SUSY_FLAVOR_LIBRARY_AND_CONSTRAINTS_ON_B_S_TO_DECAY_RATE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

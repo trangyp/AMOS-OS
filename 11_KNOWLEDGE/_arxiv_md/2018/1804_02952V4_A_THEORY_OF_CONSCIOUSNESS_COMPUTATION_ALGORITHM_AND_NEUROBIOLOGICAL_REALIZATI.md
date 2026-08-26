@@ -1413,3 +1413,13 @@ Laboratory of Electronics, Cambridge, Mass.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_02952v4_a_theory_of_consciousness_computation_algorithm_and_neurobiological_realizati
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_02952V4_A_THEORY_OF_CONSCIOUSNESS_COMPUTATION_ALGORITHM_AND_NEUROBIOLOGICAL_REALIZATI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

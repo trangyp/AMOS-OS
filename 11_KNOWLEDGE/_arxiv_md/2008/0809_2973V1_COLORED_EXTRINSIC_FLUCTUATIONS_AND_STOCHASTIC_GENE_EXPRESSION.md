@@ -669,3 +669,13 @@ Other types of feedforward or regulation give similar results.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0809_2973v1_colored_extrinsic_fluctuations_and_stochastic_gene_expression
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0809_2973V1_COLORED_EXTRINSIC_FLUCTUATIONS_AND_STOCHASTIC_GENE_EXPRESSION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

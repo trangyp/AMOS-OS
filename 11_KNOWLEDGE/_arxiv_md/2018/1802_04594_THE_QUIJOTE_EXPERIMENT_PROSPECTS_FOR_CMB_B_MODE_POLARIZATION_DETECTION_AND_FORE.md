@@ -337,3 +337,13 @@ Rebolo, R.; Beckman, J. E., 1994, Nature V.367, NO.6461/JAN27, P. 333.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1802_04594_the_quijote_experiment_prospects_for_cmb_b_mode_polarization_detection_and_fore
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1802_04594_THE_QUIJOTE_EXPERIMENT_PROSPECTS_FOR_CMB_B_MODE_POLARIZATION_DETECTION_AND_FORE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

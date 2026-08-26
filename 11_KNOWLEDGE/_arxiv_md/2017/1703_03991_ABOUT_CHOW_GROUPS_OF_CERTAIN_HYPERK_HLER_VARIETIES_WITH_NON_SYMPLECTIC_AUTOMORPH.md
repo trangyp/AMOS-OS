@@ -1341,3 +1341,13 @@ Russian), Vestnik Moskov. Uni. Ser. I mat. Mekh. No. 2 (1983), 19—21.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1703_03991_about_chow_groups_of_certain_hyperk_hler_varieties_with_non_symplectic_automorph
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1703_03991_ABOUT_CHOW_GROUPS_OF_CERTAIN_HYPERK_HLER_VARIETIES_WITH_NON_SYMPLECTIC_AUTOMORPH.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

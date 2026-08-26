@@ -949,3 +949,13 @@ reasoner. In Proceedings of the NIPS, volume 22, 2022.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 2512_18829v3_harbor_holistic_adaptive_risk_assessment_model_for_behavioral_healthcare
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2025/2025-12/2512_18829V3_HARBOR_HOLISTIC_ADAPTIVE_RISK_ASSESSMENT_MODEL_FOR_BEHAVIORAL_HEALTHCARE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

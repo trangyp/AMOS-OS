@@ -853,3 +853,13 @@ www.hindawi.com
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1809_04258v3_an_ontology_based_artificial_intelligence_model_for_medicine_side_effect_predict
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1809_04258V3_AN_ONTOLOGY_BASED_ARTIFICIAL_INTELLIGENCE_MODEL_FOR_MEDICINE_SIDE_EFFECT_PREDICT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

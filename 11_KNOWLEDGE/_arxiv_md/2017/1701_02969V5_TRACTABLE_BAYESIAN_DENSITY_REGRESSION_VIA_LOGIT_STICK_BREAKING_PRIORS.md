@@ -1174,3 +1174,13 @@ Journal of Statistics 12, 3295–3311.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1701_02969v5_tractable_bayesian_density_regression_via_logit_stick_breaking_priors
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1701_02969V5_TRACTABLE_BAYESIAN_DENSITY_REGRESSION_VIA_LOGIT_STICK_BREAKING_PRIORS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

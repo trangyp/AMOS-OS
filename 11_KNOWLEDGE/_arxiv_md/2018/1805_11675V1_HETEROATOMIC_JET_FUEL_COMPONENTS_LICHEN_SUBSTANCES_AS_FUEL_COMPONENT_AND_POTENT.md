@@ -777,3 +777,13 @@ engine, Friction 1, 271-278 (2013)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_11675v1_heteroatomic_jet_fuel_components_lichen_substances_as_fuel_component_and_potent
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_11675V1_HETEROATOMIC_JET_FUEL_COMPONENTS_LICHEN_SUBSTANCES_AS_FUEL_COMPONENT_AND_POTENT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

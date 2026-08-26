@@ -3763,3 +3763,13 @@ E-mail address: mariano.echeverria@rutgers.edu
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_11359v2_a_generalization_of_the_tristram_levine_knot_signatures_as_a_singular_furuta_oht
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_11359V2_A_GENERALIZATION_OF_THE_TRISTRAM_LEVINE_KNOT_SIGNATURES_AS_A_SINGULAR_FURUTA_OHT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

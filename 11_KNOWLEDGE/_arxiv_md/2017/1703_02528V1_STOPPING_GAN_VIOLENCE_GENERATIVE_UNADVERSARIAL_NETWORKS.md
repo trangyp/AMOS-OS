@@ -368,3 +368,13 @@ trying desperately to escape from you”.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1703_02528v1_stopping_gan_violence_generative_unadversarial_networks
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1703_02528V1_STOPPING_GAN_VIOLENCE_GENERATIVE_UNADVERSARIAL_NETWORKS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

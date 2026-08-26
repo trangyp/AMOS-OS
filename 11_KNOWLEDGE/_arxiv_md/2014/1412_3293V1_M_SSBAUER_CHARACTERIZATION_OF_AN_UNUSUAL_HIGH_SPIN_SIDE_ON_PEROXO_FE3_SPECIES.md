@@ -1787,3 +1787,13 @@ baarsii reacted with H2O2
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1412_3293v1_m_ssbauer_characterization_of_an_unusual_high_spin_side_on_peroxo_fe3_species
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1412_3293V1_M_SSBAUER_CHARACTERIZATION_OF_AN_UNUSUAL_HIGH_SPIN_SIDE_ON_PEROXO_FE3_SPECIES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

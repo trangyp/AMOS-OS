@@ -525,3 +525,13 @@ infarction: An overview of the randomized trials,” Progress in Cardiovascular 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_03153v2_connecting_bayes_factor_and_the_region_of_practical_equivalence_rope_procedure
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_03153V2_CONNECTING_BAYES_FACTOR_AND_THE_REGION_OF_PRACTICAL_EQUIVALENCE_ROPE_PROCEDURE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

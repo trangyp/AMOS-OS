@@ -1597,3 +1597,13 @@ zinc-finger
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0806_3823v1_annotation_of_tribolium_nuclear_receptors_reveals_an_evolutionary_overaccelerati
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0806_3823V1_ANNOTATION_OF_TRIBOLIUM_NUCLEAR_RECEPTORS_REVEALS_AN_EVOLUTIONARY_OVERACCELERATI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

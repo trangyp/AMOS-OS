@@ -285,3 +285,13 @@ nucl-th/0409068)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1210_5150_unstable_dynamics_of_yang_mills_fields_at_early_times_of_heavy_ion_collisions
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1210_5150_UNSTABLE_DYNAMICS_OF_YANG_MILLS_FIELDS_AT_EARLY_TIMES_OF_HEAVY_ION_COLLISIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

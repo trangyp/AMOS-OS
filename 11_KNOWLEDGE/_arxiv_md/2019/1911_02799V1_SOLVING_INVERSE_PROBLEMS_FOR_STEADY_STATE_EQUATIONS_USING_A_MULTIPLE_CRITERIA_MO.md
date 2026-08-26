@@ -1185,3 +1185,13 @@ York, 2002.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_02799v1_solving_inverse_problems_for_steady_state_equations_using_a_multiple_criteria_mo
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_02799V1_SOLVING_INVERSE_PROBLEMS_FOR_STEADY_STATE_EQUATIONS_USING_A_MULTIPLE_CRITERIA_MO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

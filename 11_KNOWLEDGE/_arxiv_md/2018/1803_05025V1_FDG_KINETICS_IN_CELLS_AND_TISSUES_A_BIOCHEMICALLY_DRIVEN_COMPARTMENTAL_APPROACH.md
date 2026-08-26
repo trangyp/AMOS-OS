@@ -2558,3 +2558,13 @@ of PET and SPECT. Elsevier Academic Press, San Diego, pp 499–535
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_05025v1_fdg_kinetics_in_cells_and_tissues_a_biochemically_driven_compartmental_approach
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_05025V1_FDG_KINETICS_IN_CELLS_AND_TISSUES_A_BIOCHEMICALLY_DRIVEN_COMPARTMENTAL_APPROACH.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1350,3 +1350,13 @@ titions of space by hyperplanes. Memoirs Amer. Math. Soc. 154 1975.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1301_1888_resonant_bands_and_local_system_cohomology_groups_for_real_line_arrangements
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1301_1888_RESONANT_BANDS_AND_LOCAL_SYSTEM_COHOMOLOGY_GROUPS_FOR_REAL_LINE_ARRANGEMENTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

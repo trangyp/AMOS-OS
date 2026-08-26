@@ -350,3 +350,13 @@ T. Ueda et al., Eur. Phys. J. C 73, 2400 (2013) [arXiv:1211.1112 [hep-ph]].
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1403_6556_full_mathcal_o_electroweak_radiative_corrections_to_t_bar_t_and_e
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1403_6556_FULL_MATHCAL_O_ELECTROWEAK_RADIATIVE_CORRECTIONS_TO_T_BAR_T_AND_E.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

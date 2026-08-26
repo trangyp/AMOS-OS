@@ -4621,3 +4621,13 @@ putation in Neural Systems., 3:213–251, 1992.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1807_04520v2_elements_of_consciousness_and_cognition_biology_mathematic_physics_and_panpsy
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1807_04520V2_ELEMENTS_OF_CONSCIOUSNESS_AND_COGNITION_BIOLOGY_MATHEMATIC_PHYSICS_AND_PANPSY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

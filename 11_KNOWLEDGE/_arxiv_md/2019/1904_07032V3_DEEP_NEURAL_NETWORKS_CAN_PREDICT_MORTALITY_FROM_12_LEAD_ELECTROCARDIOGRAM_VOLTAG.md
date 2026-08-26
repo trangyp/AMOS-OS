@@ -1245,3 +1245,13 @@ Supplementary Figure 1 Summary of data used in the study.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1904_07032v3_deep_neural_networks_can_predict_mortality_from_12_lead_electrocardiogram_voltag
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1904_07032V3_DEEP_NEURAL_NETWORKS_CAN_PREDICT_MORTALITY_FROM_12_LEAD_ELECTROCARDIOGRAM_VOLTAG.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -748,3 +748,13 @@ e102911 (2014).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1508_04600v1_discrimination_of_time_dependent_inflow_properties_with_a_cooperative_dynamical
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1508_04600V1_DISCRIMINATION_OF_TIME_DEPENDENT_INFLOW_PROPERTIES_WITH_A_COOPERATIVE_DYNAMICAL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

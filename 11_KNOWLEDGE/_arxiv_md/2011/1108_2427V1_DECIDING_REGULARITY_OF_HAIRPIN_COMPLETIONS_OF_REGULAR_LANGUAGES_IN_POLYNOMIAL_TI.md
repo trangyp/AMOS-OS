@@ -1835,3 +1835,13 @@ vania, pages 175–188, 1998.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1108_2427v1_deciding_regularity_of_hairpin_completions_of_regular_languages_in_polynomial_ti
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1108_2427V1_DECIDING_REGULARITY_OF_HAIRPIN_COMPLETIONS_OF_REGULAR_LANGUAGES_IN_POLYNOMIAL_TI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

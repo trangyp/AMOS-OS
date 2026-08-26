@@ -1187,3 +1187,13 @@ Kobe, 2009, p. 5.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1909_04655v1_energy_conscious_over_actuated_multi_agent_payload_transport_robot_simulations
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1909_04655V1_ENERGY_CONSCIOUS_OVER_ACTUATED_MULTI_AGENT_PAYLOAD_TRANSPORT_ROBOT_SIMULATIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

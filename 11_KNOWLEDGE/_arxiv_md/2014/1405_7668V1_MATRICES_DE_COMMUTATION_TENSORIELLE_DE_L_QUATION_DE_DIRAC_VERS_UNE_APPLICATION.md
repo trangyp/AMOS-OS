@@ -7719,3 +7719,13 @@ trices and Some Generalizations of the Pauli Matrices, en préparation,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1405_7668v1_matrices_de_commutation_tensorielle_de_l_quation_de_dirac_vers_une_application
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1405_7668V1_MATRICES_DE_COMMUTATION_TENSORIELLE_DE_L_QUATION_DE_DIRAC_VERS_UNE_APPLICATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

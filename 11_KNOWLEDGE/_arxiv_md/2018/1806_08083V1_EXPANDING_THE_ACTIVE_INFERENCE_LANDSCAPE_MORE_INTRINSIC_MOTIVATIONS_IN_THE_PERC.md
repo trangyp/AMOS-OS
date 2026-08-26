@@ -3012,3 +3012,13 @@ Winn, J. and Bishop, C. M. (2005). Variational Message Passing. Journal of Machi
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_08083v1_expanding_the_active_inference_landscape_more_intrinsic_motivations_in_the_perc
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_08083V1_EXPANDING_THE_ACTIVE_INFERENCE_LANDSCAPE_MORE_INTRINSIC_MOTIVATIONS_IN_THE_PERC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

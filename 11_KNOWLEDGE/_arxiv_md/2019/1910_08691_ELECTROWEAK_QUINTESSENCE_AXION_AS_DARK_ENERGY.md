@@ -504,3 +504,13 @@ Quintessence”, arxiv:1909.08625.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_08691_electroweak_quintessence_axion_as_dark_energy
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_08691_ELECTROWEAK_QUINTESSENCE_AXION_AS_DARK_ENERGY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

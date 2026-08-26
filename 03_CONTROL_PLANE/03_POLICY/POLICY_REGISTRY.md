@@ -4570,3 +4570,13 @@ Integrity remains prior to completeness, fluency, speed, and optimization.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: policy_registry
+node_type: note
+path: 03_CONTROL_PLANE/03_POLICY/POLICY_REGISTRY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

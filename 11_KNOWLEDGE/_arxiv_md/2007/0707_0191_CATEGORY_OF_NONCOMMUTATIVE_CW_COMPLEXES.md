@@ -660,3 +660,13 @@ dndiep@math.ac.vn
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0707_0191_category_of_noncommutative_cw_complexes
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0707_0191_CATEGORY_OF_NONCOMMUTATIVE_CW_COMPLEXES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

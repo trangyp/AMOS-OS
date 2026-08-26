@@ -261,3 +261,13 @@ cumbres andinas. Cuadernos de Historia 3: 27.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_04139v1_archaeoastronomy_in_northern_chile_andean_churches_of_the_arica_and_parinacota
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_04139V1_ARCHAEOASTRONOMY_IN_NORTHERN_CHILE_ANDEAN_CHURCHES_OF_THE_ARICA_AND_PARINACOTA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

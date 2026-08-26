@@ -1026,3 +1026,13 @@ E-mail address: ltruong@math.columbia.edu
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1904_00288v1_a_refinement_of_the_ozsv_th_szab_large_integer_surgery_formula_and_knot_concord
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1904_00288V1_A_REFINEMENT_OF_THE_OZSV_TH_SZAB_LARGE_INTEGER_SURGERY_FORMULA_AND_KNOT_CONCORD.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

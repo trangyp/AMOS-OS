@@ -3252,3 +3252,13 @@ UNIVERSALLY VALID
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: l01_sensing_observation_primitives_cognitive_matrix_hml
+node_type: note
+path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_HML.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

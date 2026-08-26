@@ -423,3 +423,13 @@ E-mail address: antonioe.teruel@uib.es
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1707_08854v1_first_integrals_of_a_class_of_n_dimensional_lotka_volterra_differential_system
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1707_08854V1_FIRST_INTEGRALS_OF_A_CLASS_OF_N_DIMENSIONAL_LOTKA_VOLTERRA_DIFFERENTIAL_SYSTEM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

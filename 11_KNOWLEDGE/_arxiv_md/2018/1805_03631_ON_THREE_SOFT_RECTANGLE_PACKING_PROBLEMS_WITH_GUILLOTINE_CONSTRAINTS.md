@@ -2310,3 +2310,13 @@ Circuits and Systems 20(5) 687–692.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_03631_on_three_soft_rectangle_packing_problems_with_guillotine_constraints
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_03631_ON_THREE_SOFT_RECTANGLE_PACKING_PROBLEMS_WITH_GUILLOTINE_CONSTRAINTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

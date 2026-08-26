@@ -330,3 +330,13 @@ et al., arXiv:1206.1928v1 [nucl-ex].
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1206_3657_significant_issues_related_to_elastic_scattering_at_very_high_ensergies
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1206_3657_SIGNIFICANT_ISSUES_RELATED_TO_ELASTIC_SCATTERING_AT_VERY_HIGH_ENSERGIES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -889,3 +889,13 @@ transitions by molecules, 1998.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1010_3640v3_on_the_iterated_hairpin_completion
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1010_3640V3_ON_THE_ITERATED_HAIRPIN_COMPLETION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

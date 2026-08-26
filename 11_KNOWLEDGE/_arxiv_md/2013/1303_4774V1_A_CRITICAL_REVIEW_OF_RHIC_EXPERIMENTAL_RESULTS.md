@@ -4700,3 +4700,13 @@ C 86, 064905 (2012).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1303_4774v1_a_critical_review_of_rhic_experimental_results
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1303_4774V1_A_CRITICAL_REVIEW_OF_RHIC_EXPERIMENTAL_RESULTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

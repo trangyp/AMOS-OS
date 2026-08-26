@@ -152,3 +152,13 @@ and the cancer rate in female rats was significantly less than in male rats.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1904_12895v1_energy_balance_in_cell_phone_radiofrequency_radiation_exposed_mice_and_rats
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1904_12895V1_ENERGY_BALANCE_IN_CELL_PHONE_RADIOFREQUENCY_RADIATION_EXPOSED_MICE_AND_RATS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

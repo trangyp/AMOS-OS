@@ -581,3 +581,13 @@ Lipinski Violations
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1808_08375v1_molecular_dynamics_simulations_reveal_the_role_of_ceramicine_b_as_novel_ppar_pa
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1808_08375V1_MOLECULAR_DYNAMICS_SIMULATIONS_REVEAL_THE_ROLE_OF_CERAMICINE_B_AS_NOVEL_PPAR_PA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1798,3 +1798,13 @@ translated by Erroll F. Rhodes. Eerdmans (Grand Rapids), 2014.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1603_04236v5_interactive_tools_and_tasks_for_the_hebrew_bible
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1603_04236V5_INTERACTIVE_TOOLS_AND_TASKS_FOR_THE_HEBREW_BIBLE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

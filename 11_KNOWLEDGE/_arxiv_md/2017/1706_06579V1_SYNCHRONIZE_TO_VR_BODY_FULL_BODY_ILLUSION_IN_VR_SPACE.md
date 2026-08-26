@@ -407,3 +407,13 @@ Eurographics Proceedings c
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1706_06579v1_synchronize_to_vr_body_full_body_illusion_in_vr_space
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1706_06579V1_SYNCHRONIZE_TO_VR_BODY_FULL_BODY_ILLUSION_IN_VR_SPACE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

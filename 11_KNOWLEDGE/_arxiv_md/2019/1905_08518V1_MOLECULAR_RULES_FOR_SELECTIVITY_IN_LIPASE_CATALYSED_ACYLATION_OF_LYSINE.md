@@ -1214,3 +1214,13 @@ D
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_08518v1_molecular_rules_for_selectivity_in_lipase_catalysed_acylation_of_lysine
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_08518V1_MOLECULAR_RULES_FOR_SELECTIVITY_IN_LIPASE_CATALYSED_ACYLATION_OF_LYSINE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

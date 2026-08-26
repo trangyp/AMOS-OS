@@ -1143,3 +1143,13 @@ Here s = (B˜y)T (B˜y).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1411_0247v1_random_feedback_weights_support_learning_in_deep_neural_networks
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1411_0247V1_RANDOM_FEEDBACK_WEIGHTS_SUPPORT_LEARNING_IN_DEEP_NEURAL_NETWORKS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

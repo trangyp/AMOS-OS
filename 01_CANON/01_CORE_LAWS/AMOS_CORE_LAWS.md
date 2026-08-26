@@ -2299,3 +2299,13 @@ UNKNOWN/GAP
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: amos_core_laws
+node_type: note
+path: 01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -836,3 +836,13 @@ Society of Japan 115, 315-318, doi:10.2109/jcersj.115.315 (2007).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1812_05193v1_free_hand_gas_identification_based_on_transfer_function_ratios_without_gas_flow
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1812_05193V1_FREE_HAND_GAS_IDENTIFICATION_BASED_ON_TRANSFER_FUNCTION_RATIOS_WITHOUT_GAS_FLOW.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

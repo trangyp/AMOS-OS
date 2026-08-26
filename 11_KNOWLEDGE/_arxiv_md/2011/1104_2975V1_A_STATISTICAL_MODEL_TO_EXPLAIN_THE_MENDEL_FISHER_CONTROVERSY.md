@@ -3063,3 +3063,13 @@ heritance in peas. Biometrika 1 228–254.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1104_2975v1_a_statistical_model_to_explain_the_mendel_fisher_controversy
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1104_2975V1_A_STATISTICAL_MODEL_TO_EXPLAIN_THE_MENDEL_FISHER_CONTROVERSY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

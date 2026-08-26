@@ -3427,3 +3427,13 @@ E-mail address: cm@math.ucla.edu
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1811_07000v2_a_sheaf_theoretic_sl_2_c_floer_homology_for_knots
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_07000V2_A_SHEAF_THEORETIC_SL_2_C_FLOER_HOMOLOGY_FOR_KNOTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

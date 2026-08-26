@@ -431,3 +431,13 @@ W. L. 2002, Nature, 420, 772 (astro-ph/0209478)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0707_1075_cmb_from_the_south_pole_past_present_and_future
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0707_1075_CMB_FROM_THE_SOUTH_POLE_PAST_PRESENT_AND_FUTURE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

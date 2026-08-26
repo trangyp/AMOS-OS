@@ -513,3 +513,13 @@ Homme-Machine, IHM, 49-56.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1906_11004v1_co_designing_in_social_vr_process_awareness_and_suitable_representations_to_emp
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1906_11004V1_CO_DESIGNING_IN_SOCIAL_VR_PROCESS_AWARENESS_AND_SUITABLE_REPRESENTATIONS_TO_EMP.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

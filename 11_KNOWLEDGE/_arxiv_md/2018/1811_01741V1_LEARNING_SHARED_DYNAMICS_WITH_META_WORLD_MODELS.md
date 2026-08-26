@@ -1038,3 +1038,13 @@ zo by V model Vo. The rest columns correspond to the decoding results of zo from
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1811_01741v1_learning_shared_dynamics_with_meta_world_models
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_01741V1_LEARNING_SHARED_DYNAMICS_WITH_META_WORLD_MODELS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

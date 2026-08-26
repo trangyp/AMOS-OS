@@ -746,3 +746,13 @@ Dissertation.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1108_4296v1_on_the_evolution_of_phenomenal_consciousness
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1108_4296V1_ON_THE_EVOLUTION_OF_PHENOMENAL_CONSCIOUSNESS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

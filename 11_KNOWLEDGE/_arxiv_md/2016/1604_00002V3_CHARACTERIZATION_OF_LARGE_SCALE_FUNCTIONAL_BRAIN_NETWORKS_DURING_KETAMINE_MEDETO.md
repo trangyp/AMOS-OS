@@ -2362,3 +2362,13 @@ visual cortex of the rhesus monkey. Nature,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1604_00002v3_characterization_of_large_scale_functional_brain_networks_during_ketamine_medeto
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1604_00002V3_CHARACTERIZATION_OF_LARGE_SCALE_FUNCTIONAL_BRAIN_NETWORKS_DURING_KETAMINE_MEDETO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

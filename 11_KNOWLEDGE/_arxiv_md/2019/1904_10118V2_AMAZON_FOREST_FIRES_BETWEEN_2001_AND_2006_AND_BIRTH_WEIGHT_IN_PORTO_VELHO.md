@@ -560,3 +560,13 @@ tives, June 7. Epub ahead of print.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1904_10118v2_amazon_forest_fires_between_2001_and_2006_and_birth_weight_in_porto_velho
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1904_10118V2_AMAZON_FOREST_FIRES_BETWEEN_2001_AND_2006_AND_BIRTH_WEIGHT_IN_PORTO_VELHO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

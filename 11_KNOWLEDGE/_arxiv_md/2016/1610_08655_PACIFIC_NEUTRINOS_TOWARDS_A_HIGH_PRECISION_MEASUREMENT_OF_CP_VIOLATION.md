@@ -377,3 +377,13 @@ the LBNO case at 2300 km baseline”, arXiv:1412.0593 [hep-ph], December 2014.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1610_08655_pacific_neutrinos_towards_a_high_precision_measurement_of_cp_violation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1610_08655_PACIFIC_NEUTRINOS_TOWARDS_A_HIGH_PRECISION_MEASUREMENT_OF_CP_VIOLATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

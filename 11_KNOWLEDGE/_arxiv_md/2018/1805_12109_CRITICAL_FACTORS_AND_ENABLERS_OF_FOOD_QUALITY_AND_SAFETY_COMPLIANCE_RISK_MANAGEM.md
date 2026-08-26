@@ -1171,3 +1171,13 @@ management.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_12109_critical_factors_and_enablers_of_food_quality_and_safety_compliance_risk_managem
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_12109_CRITICAL_FACTORS_AND_ENABLERS_OF_FOOD_QUALITY_AND_SAFETY_COMPLIANCE_RISK_MANAGEM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

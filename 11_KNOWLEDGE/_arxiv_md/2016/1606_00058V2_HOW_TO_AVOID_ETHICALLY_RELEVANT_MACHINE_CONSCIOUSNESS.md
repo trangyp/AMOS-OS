@@ -1688,3 +1688,13 @@ International Journal of Machine Consciousness 1:2, p., World Scientific,  2011
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1606_00058v2_how_to_avoid_ethically_relevant_machine_consciousness
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1606_00058V2_HOW_TO_AVOID_ETHICALLY_RELEVANT_MACHINE_CONSCIOUSNESS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

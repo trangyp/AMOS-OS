@@ -4769,3 +4769,13 @@ R(t)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1808_09842v1_analyzing_the_qualitative_properties_of_white_noise_on_a_family_of_infectious_di
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1808_09842V1_ANALYZING_THE_QUALITATIVE_PROPERTIES_OF_WHITE_NOISE_ON_A_FAMILY_OF_INFECTIOUS_DI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

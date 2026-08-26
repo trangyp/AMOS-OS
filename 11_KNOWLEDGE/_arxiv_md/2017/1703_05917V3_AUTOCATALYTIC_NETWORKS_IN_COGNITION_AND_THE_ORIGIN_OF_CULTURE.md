@@ -1253,3 +1253,13 @@ reactions become increasingly frequent, and of greater duration and size.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1703_05917v3_autocatalytic_networks_in_cognition_and_the_origin_of_culture
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1703_05917V3_AUTOCATALYTIC_NETWORKS_IN_COGNITION_AND_THE_ORIGIN_OF_CULTURE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1362,3 +1362,13 @@ tance, and Bonnie Chung for technical assistance.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1504_03131v1_a_conversation_with_richard_a_olshen
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1504_03131V1_A_CONVERSATION_WITH_RICHARD_A_OLSHEN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

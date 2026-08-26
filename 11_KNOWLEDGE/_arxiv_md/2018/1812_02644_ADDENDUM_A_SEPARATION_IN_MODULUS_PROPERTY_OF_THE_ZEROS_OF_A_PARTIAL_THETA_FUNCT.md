@@ -673,3 +673,13 @@ tion, Duke Math. J. 162:5 (2013), 825-861. arXiv:1106.6262v1[math.CA].
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1812_02644_addendum_a_separation_in_modulus_property_of_the_zeros_of_a_partial_theta_funct
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1812_02644_ADDENDUM_A_SEPARATION_IN_MODULUS_PROPERTY_OF_THE_ZEROS_OF_A_PARTIAL_THETA_FUNCT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

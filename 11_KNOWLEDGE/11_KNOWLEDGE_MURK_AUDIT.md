@@ -108,3 +108,13 @@ falsifiers: a note lacks canon-group/rscf-state/tags; no root wikilink.
 - [[00_ROOT_MOC]]
 - [[ARXIV_QFM_MOC]]
 - [[ARXIV_QFM_CLAIMS]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 11_knowledge_murk_audit
+node_type: note
+path: 11_KNOWLEDGE/11_KNOWLEDGE_MURK_AUDIT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

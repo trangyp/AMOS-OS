@@ -2070,3 +2070,13 @@ Accessed October 3, 2019.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_06667v1_a_hypothesis_testing_framework_for_the_ratio_of_means_of_two_negative_binomial_d
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_06667V1_A_HYPOTHESIS_TESTING_FRAMEWORK_FOR_THE_RATIO_OF_MEANS_OF_TWO_NEGATIVE_BINOMIAL_D.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

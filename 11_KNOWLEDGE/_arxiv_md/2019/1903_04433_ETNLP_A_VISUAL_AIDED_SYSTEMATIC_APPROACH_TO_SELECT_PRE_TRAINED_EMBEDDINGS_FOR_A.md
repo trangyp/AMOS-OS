@@ -1138,3 +1138,13 @@ Linguistics and Intelligent Text Processing.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_04433_etnlp_a_visual_aided_systematic_approach_to_select_pre_trained_embeddings_for_a
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_04433_ETNLP_A_VISUAL_AIDED_SYSTEMATIC_APPROACH_TO_SELECT_PRE_TRAINED_EMBEDDINGS_FOR_A.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

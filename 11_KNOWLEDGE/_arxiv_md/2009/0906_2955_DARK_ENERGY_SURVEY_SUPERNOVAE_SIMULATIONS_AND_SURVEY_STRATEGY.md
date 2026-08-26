@@ -423,3 +423,13 @@ deviations at the lowest (z<0.1) and highest (z>1.2) redshifts are due to low st
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0906_2955_dark_energy_survey_supernovae_simulations_and_survey_strategy
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0906_2955_DARK_ENERGY_SURVEY_SUPERNOVAE_SIMULATIONS_AND_SURVEY_STRATEGY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

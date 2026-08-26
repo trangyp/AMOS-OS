@@ -1676,3 +1676,13 @@ University Feinberg School of Medicine.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_02674v1_where_does_active_travel_fit_within_local_community_narratives_of_mobility_space
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_02674V1_WHERE_DOES_ACTIVE_TRAVEL_FIT_WITHIN_LOCAL_COMMUNITY_NARRATIVES_OF_MOBILITY_SPACE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

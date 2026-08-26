@@ -2146,3 +2146,13 @@ B. Deb (Academic Press, London, 1987).
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1008_2327v1_density_functional_theory_for_strongly_interacting_electrons_perspectives_for_p
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1008_2327V1_DENSITY_FUNCTIONAL_THEORY_FOR_STRONGLY_INTERACTING_ELECTRONS_PERSPECTIVES_FOR_P.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

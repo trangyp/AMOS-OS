@@ -753,3 +753,13 @@ December 2013, ISSN: 2278-8875.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1705_04519v1_detection_of_irregular_qrs_complexes_using_hermite_transform_and_support_vector
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1705_04519V1_DETECTION_OF_IRREGULAR_QRS_COMPLEXES_USING_HERMITE_TRANSFORM_AND_SUPPORT_VECTOR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

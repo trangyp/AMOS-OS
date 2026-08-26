@@ -2620,3 +2620,13 @@ This fills the former root placeholder using the AMOS Full Brain OS structural b
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 00_root_architecture
+node_type: note
+path: 00_ROOT/00_ROOT_ARCHITECTURE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

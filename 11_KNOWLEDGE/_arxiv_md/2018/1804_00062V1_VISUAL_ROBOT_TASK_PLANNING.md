@@ -891,3 +891,13 @@ one, vol. 11, no. 3, p. e0149174, 2016.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_00062v1_visual_robot_task_planning
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_00062V1_VISUAL_ROBOT_TASK_PLANNING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

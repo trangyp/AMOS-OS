@@ -996,3 +996,13 @@ arXiv:1609.08144.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1909_08314_memory_augmented_neural_networks_for_machine_translation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1909_08314_MEMORY_AUGMENTED_NEURAL_NETWORKS_FOR_MACHINE_TRANSLATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

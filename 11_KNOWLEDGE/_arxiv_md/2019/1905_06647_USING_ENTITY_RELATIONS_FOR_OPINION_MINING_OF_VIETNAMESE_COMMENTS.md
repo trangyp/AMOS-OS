@@ -754,3 +754,13 @@ Science and Technology, Ho Chi Minh City University of Education, Vol. 61(95), (
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_06647_using_entity_relations_for_opinion_mining_of_vietnamese_comments
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_06647_USING_ENTITY_RELATIONS_FOR_OPINION_MINING_OF_VIETNAMESE_COMMENTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -392,3 +392,13 @@ saman.parvaneh@philips.com
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1810_02726v1_automatic_detection_of_arousals_during_sleep_using_multiple_physiological_signal
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1810_02726V1_AUTOMATIC_DETECTION_OF_AROUSALS_DURING_SLEEP_USING_MULTIPLE_PHYSIOLOGICAL_SIGNAL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -865,3 +865,13 @@ Psychophysiology, vol. 24, no. 1-2, pp. 39-46, Nov. 1996.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1609_09578v1_optimized_motor_imagery_paradigm_based_on_imagining_chinese_characters_writing_m
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1609_09578V1_OPTIMIZED_MOTOR_IMAGERY_PARADIGM_BASED_ON_IMAGINING_CHINESE_CHARACTERS_WRITING_M.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

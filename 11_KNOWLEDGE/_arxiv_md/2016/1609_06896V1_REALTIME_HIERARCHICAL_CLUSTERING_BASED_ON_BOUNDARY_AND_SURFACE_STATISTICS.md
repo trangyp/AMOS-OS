@@ -895,3 +895,13 @@ tering. Int. J. of Science and Research, 4(4), Apr 2015. 3
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1609_06896v1_realtime_hierarchical_clustering_based_on_boundary_and_surface_statistics
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1609_06896V1_REALTIME_HIERARCHICAL_CLUSTERING_BASED_ON_BOUNDARY_AND_SURFACE_STATISTICS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

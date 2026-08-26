@@ -508,3 +508,13 @@ Math., Vol. 49, 379-388 (1987).
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1007_1288_on_locally_solvable_maximal_subgroups_of_the_multiplicative_group_of_a_division
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1007_1288_ON_LOCALLY_SOLVABLE_MAXIMAL_SUBGROUPS_OF_THE_MULTIPLICATIVE_GROUP_OF_A_DIVISION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

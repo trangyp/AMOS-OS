@@ -90,3 +90,13 @@ tags: [moc, index, knowledge]
 - [[ARXIV_QFM_MOC]]
 - [[ARXIV_QFM_CLAIMS]]
 - [[ARXIV_QFM_MURK_AUDIT]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 11_knowledge_moc
+node_type: note
+path: 11_KNOWLEDGE/11_KNOWLEDGE_MOC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

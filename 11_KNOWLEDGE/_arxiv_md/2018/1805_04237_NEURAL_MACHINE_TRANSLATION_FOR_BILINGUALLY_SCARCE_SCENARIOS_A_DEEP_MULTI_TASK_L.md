@@ -1288,3 +1288,13 @@ ing. pages 1535–1545.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_04237_neural_machine_translation_for_bilingually_scarce_scenarios_a_deep_multi_task_l
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_04237_NEURAL_MACHINE_TRANSLATION_FOR_BILINGUALLY_SCARCE_SCENARIOS_A_DEEP_MULTI_TASK_L.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

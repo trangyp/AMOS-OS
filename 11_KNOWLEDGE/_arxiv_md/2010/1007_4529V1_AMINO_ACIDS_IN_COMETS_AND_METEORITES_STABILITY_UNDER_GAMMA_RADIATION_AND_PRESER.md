@@ -1236,3 +1236,13 @@ dispersion of the two set of data.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1007_4529v1_amino_acids_in_comets_and_meteorites_stability_under_gamma_radiation_and_preser
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1007_4529V1_AMINO_ACIDS_IN_COMETS_AND_METEORITES_STABILITY_UNDER_GAMMA_RADIATION_AND_PRESER.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -598,3 +598,13 @@ Refract Surg 1998;24(4):503-508.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1906_09149v2_mean_shape_of_the_human_limbus
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1906_09149V2_MEAN_SHAPE_OF_THE_HUMAN_LIMBUS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

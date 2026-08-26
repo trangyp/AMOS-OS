@@ -537,3 +537,13 @@ Eur. Phys. J. A 49, 67 (2013).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1610_01710_isospin_decomposition_of_the_n_to_n_transitions_as_input_for_constr
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1610_01710_ISOSPIN_DECOMPOSITION_OF_THE_N_TO_N_TRANSITIONS_AS_INPUT_FOR_CONSTR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

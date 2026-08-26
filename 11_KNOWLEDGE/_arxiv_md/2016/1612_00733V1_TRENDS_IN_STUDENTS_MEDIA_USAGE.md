@@ -551,3 +551,13 @@ from: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6758617
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1612_00733v1_trends_in_students_media_usage
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1612_00733V1_TRENDS_IN_STUDENTS_MEDIA_USAGE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

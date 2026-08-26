@@ -969,3 +969,13 @@ level,” in Proceedings of PACLING, Yangon, Myanmar, 2017.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1708_09163_an_empirical_study_of_discriminative_sequence_labeling_models_for_vietnamese_tex
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1708_09163_AN_EMPIRICAL_STUDY_OF_DISCRIMINATIVE_SEQUENCE_LABELING_MODELS_FOR_VIETNAMESE_TEX.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

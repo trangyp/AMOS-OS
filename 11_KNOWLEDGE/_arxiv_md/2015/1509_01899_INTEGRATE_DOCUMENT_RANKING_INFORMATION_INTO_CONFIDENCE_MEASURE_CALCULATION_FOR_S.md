@@ -569,3 +569,13 @@ retrieval. ACM Transactions on Information Systems
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1509_01899_integrate_document_ranking_information_into_confidence_measure_calculation_for_s
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1509_01899_INTEGRATE_DOCUMENT_RANKING_INFORMATION_INTO_CONFIDENCE_MEASURE_CALCULATION_FOR_S.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

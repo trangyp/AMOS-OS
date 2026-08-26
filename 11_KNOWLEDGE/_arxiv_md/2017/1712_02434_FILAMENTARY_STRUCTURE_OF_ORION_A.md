@@ -296,3 +296,13 @@ Granada
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_02434_filamentary_structure_of_orion_a
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_02434_FILAMENTARY_STRUCTURE_OF_ORION_A.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

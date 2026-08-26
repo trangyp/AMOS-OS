@@ -1330,3 +1330,13 @@ id=43515. [Online; accessed 22-April-2019].
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1906_03314v1_secrets_of_the_brain_an_introduction_to_the_brain_anatomical_structure_and_biol
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1906_03314V1_SECRETS_OF_THE_BRAIN_AN_INTRODUCTION_TO_THE_BRAIN_ANATOMICAL_STRUCTURE_AND_BIOL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

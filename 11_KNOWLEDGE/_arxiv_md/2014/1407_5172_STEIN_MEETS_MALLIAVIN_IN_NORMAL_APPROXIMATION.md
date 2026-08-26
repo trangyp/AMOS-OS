@@ -2508,3 +2508,13 @@ tions of the observations. Ann. Math. Statist. 15, 358-372.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1407_5172_stein_meets_malliavin_in_normal_approximation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1407_5172_STEIN_MEETS_MALLIAVIN_IN_NORMAL_APPROXIMATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

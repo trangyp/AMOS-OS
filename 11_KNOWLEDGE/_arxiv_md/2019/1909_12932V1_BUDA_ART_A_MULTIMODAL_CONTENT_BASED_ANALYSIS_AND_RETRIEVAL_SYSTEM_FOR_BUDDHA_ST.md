@@ -279,3 +279,13 @@ Taikaigakujutsukoenrombunshu (2014), 23–28.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1909_12932v1_buda_art_a_multimodal_content_based_analysis_and_retrieval_system_for_buddha_st
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1909_12932V1_BUDA_ART_A_MULTIMODAL_CONTENT_BASED_ANALYSIS_AND_RETRIEVAL_SYSTEM_FOR_BUDDHA_ST.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

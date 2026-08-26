@@ -1554,3 +1554,13 @@ Article number, page 13 of 13
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1808_05866v2_the_association_of_the_hale_sector_boundary_with_rhessi_solar_flares_and_active
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1808_05866V2_THE_ASSOCIATION_OF_THE_HALE_SECTOR_BOUNDARY_WITH_RHESSI_SOLAR_FLARES_AND_ACTIVE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

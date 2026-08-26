@@ -1284,3 +1284,13 @@ c⃝2013 RAS, MNRAS 000, 1–13
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1309_1161v2_noiseless_gravitational_lensing_simulations
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1309_1161V2_NOISELESS_GRAVITATIONAL_LENSING_SIMULATIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

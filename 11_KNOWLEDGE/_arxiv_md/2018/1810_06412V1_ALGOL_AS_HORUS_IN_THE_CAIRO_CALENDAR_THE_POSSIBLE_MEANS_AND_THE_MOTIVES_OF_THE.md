@@ -3623,3 +3623,13 @@ two banks of Horus rejoice.”
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1810_06412v1_algol_as_horus_in_the_cairo_calendar_the_possible_means_and_the_motives_of_the
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1810_06412V1_ALGOL_AS_HORUS_IN_THE_CAIRO_CALENDAR_THE_POSSIBLE_MEANS_AND_THE_MOTIVES_OF_THE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -379,3 +379,13 @@ References
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1212_3951_unifying_asymmetric_inert_fermion_doublet_dark_matter_and_leptogenesis_with_neut
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1212_3951_UNIFYING_ASYMMETRIC_INERT_FERMION_DOUBLET_DARK_MATTER_AND_LEPTOGENESIS_WITH_NEUT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

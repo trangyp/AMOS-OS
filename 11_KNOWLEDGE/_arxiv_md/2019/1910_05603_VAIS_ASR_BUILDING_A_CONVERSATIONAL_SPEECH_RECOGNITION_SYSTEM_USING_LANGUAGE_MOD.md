@@ -435,3 +435,13 @@ WER
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_05603_vais_asr_building_a_conversational_speech_recognition_system_using_language_mod
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_05603_VAIS_ASR_BUILDING_A_CONVERSATIONAL_SPEECH_RECOGNITION_SYSTEM_USING_LANGUAGE_MOD.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

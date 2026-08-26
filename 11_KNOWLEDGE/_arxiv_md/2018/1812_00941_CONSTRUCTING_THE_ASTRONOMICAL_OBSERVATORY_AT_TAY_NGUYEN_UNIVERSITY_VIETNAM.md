@@ -312,3 +312,13 @@ Geophysical Research: Space Physics, 122(6), 65436551.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1812_00941_constructing_the_astronomical_observatory_at_tay_nguyen_university_vietnam
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1812_00941_CONSTRUCTING_THE_ASTRONOMICAL_OBSERVATORY_AT_TAY_NGUYEN_UNIVERSITY_VIETNAM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

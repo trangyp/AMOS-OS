@@ -440,3 +440,13 @@ Review B53, 20(1996)13700-13704.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1309_3712v1_silicon_nanostructures_toxicity_an_ab_inito_approach
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1309_3712V1_SILICON_NANOSTRUCTURES_TOXICITY_AN_AB_INITO_APPROACH.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

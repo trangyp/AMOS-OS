@@ -4553,3 +4553,13 @@ hensive Psychiatry 42, 42–50.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1912_13490v4_a_neurocomputational_account_of_flexible_goal_directed_cognition_and_consciousne
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1912_13490V4_A_NEUROCOMPUTATIONAL_ACCOUNT_OF_FLEXIBLE_GOAL_DIRECTED_COGNITION_AND_CONSCIOUSNE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

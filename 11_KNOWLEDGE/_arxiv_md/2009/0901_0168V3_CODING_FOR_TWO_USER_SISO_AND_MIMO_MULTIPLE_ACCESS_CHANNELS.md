@@ -3031,3 +3031,13 @@ This completes the proof.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0901_0168v3_coding_for_two_user_siso_and_mimo_multiple_access_channels
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0901_0168V3_CODING_FOR_TWO_USER_SISO_AND_MIMO_MULTIPLE_ACCESS_CHANNELS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

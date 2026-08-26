@@ -1059,3 +1059,13 @@ C
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1707_08901v1_providing_self_aware_systems_with_reflexivity
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1707_08901V1_PROVIDING_SELF_AWARE_SYSTEMS_WITH_REFLEXIVITY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

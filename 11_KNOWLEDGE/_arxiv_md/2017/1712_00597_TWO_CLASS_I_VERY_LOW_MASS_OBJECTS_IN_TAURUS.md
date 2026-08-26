@@ -479,3 +479,13 @@ Luhman, K. L. 2012, ARA&A, 50, 65
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_00597_two_class_i_very_low_mass_objects_in_taurus
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_00597_TWO_CLASS_I_VERY_LOW_MASS_OBJECTS_IN_TAURUS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

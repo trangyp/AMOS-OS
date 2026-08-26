@@ -1241,3 +1241,13 @@ SIGDIAL Conference.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1906_00499v1_budgeted_policy_learning_for_task_oriented_dialogue_systems
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1906_00499V1_BUDGETED_POLICY_LEARNING_FOR_TASK_ORIENTED_DIALOGUE_SYSTEMS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

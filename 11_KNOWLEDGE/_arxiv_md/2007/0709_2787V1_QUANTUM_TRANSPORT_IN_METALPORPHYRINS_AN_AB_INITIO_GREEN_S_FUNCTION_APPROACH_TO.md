@@ -289,3 +289,13 @@ N. Agrait, and J. M. Van Ruitenbeek. Nature, 395, 783
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0709_2787v1_quantum_transport_in_metalporphyrins_an_ab_initio_green_s_function_approach_to
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0709_2787V1_QUANTUM_TRANSPORT_IN_METALPORPHYRINS_AN_AB_INITIO_GREEN_S_FUNCTION_APPROACH_TO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

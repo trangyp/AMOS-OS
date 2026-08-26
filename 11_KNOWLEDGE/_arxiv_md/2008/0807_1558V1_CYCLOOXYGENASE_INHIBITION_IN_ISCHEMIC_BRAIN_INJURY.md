@@ -1943,3 +1943,13 @@ COX-2 activity following brain ischemia.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0807_1558v1_cyclooxygenase_inhibition_in_ischemic_brain_injury
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0807_1558V1_CYCLOOXYGENASE_INHIBITION_IN_ISCHEMIC_BRAIN_INJURY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

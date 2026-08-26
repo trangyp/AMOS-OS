@@ -1467,3 +1467,13 @@ Sciences. 2011;366(1572):1799–1807.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1602_00258v1_placebo_response_is_driven_by_ucs_revaluation_evidence_neurophysiological_cons
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1602_00258V1_PLACEBO_RESPONSE_IS_DRIVEN_BY_UCS_REVALUATION_EVIDENCE_NEUROPHYSIOLOGICAL_CONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

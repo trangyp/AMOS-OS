@@ -892,3 +892,13 @@ arXiv:1603.01360, 2016.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1708_04765_dialogue_act_segmentation_for_vietnamese_human_human_conversational_texts
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1708_04765_DIALOGUE_ACT_SEGMENTATION_FOR_VIETNAMESE_HUMAN_HUMAN_CONVERSATIONAL_TEXTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

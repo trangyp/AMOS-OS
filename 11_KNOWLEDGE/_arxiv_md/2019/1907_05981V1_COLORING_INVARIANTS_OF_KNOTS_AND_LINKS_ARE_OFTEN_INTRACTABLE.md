@@ -1484,3 +1484,13 @@ Theoret. Comput. Sci. 8 (1979), no. 2, 189–201. 1.1
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_05981v1_coloring_invariants_of_knots_and_links_are_often_intractable
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_05981V1_COLORING_INVARIANTS_OF_KNOTS_AND_LINKS_ARE_OFTEN_INTRACTABLE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

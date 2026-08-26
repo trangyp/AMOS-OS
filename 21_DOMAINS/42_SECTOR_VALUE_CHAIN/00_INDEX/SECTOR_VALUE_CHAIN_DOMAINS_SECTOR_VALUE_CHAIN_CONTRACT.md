@@ -16,3 +16,13 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: sector_value_chain_domains_sector_value_chain_contract
+node_type: note
+path: 21_DOMAINS/42_SECTOR_VALUE_CHAIN/00_INDEX/SECTOR_VALUE_CHAIN_DOMAINS_SECTOR_VALUE_CHAIN_CONTRACT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1913,3 +1913,13 @@ for which she received a High Distinction.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1610_02785v1_reconstructing_the_star_knowledge_of_aboriginal_tasmanians
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1610_02785V1_RECONSTRUCTING_THE_STAR_KNOWLEDGE_OF_ABORIGINAL_TASMANIANS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

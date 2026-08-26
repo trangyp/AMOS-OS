@@ -1194,3 +1194,13 @@ Trans Inf Theory. 23(3), 337–343.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_10508v6_consciousness_as_a_physical_process_caused_by_the_organization_of_energy_in_the
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_10508V6_CONSCIOUSNESS_AS_A_PHYSICAL_PROCESS_CAUSED_BY_THE_ORGANIZATION_OF_ENERGY_IN_THE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

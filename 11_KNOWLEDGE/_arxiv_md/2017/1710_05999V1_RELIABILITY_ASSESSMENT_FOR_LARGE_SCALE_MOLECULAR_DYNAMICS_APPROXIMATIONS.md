@@ -2496,3 +2496,13 @@ Solving Ordinary Diﬀerential Equations I (Springer, 2008).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1710_05999v1_reliability_assessment_for_large_scale_molecular_dynamics_approximations
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1710_05999V1_RELIABILITY_ASSESSMENT_FOR_LARGE_SCALE_MOLECULAR_DYNAMICS_APPROXIMATIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

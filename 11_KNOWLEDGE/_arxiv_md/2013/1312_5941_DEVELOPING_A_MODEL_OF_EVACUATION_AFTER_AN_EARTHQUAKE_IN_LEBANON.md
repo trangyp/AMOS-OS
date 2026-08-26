@@ -867,3 +867,13 @@ Autonomous Agents and Multi-Agent Systems, 2000, 3(3) 285-312.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1312_5941_developing_a_model_of_evacuation_after_an_earthquake_in_lebanon
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1312_5941_DEVELOPING_A_MODEL_OF_EVACUATION_AFTER_AN_EARTHQUAKE_IN_LEBANON.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

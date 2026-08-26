@@ -2767,3 +2767,13 @@ tive Computing, vol. 1, no. 2, pp. 119–131, 2010.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_02397v1_a_review_on_facial_micro_expressions_analysis_datasets_features_and_metrics
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_02397V1_A_REVIEW_ON_FACIAL_MICRO_EXPRESSIONS_ANALYSIS_DATASETS_FEATURES_AND_METRICS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

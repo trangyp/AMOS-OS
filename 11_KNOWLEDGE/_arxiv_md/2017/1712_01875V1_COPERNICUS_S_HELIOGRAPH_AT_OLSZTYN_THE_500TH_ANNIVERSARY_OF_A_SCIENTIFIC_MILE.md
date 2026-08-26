@@ -541,3 +541,13 @@ no. XX
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_01875v1_copernicus_s_heliograph_at_olsztyn_the_500th_anniversary_of_a_scientific_mile
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_01875V1_COPERNICUS_S_HELIOGRAPH_AT_OLSZTYN_THE_500TH_ANNIVERSARY_OF_A_SCIENTIFIC_MILE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

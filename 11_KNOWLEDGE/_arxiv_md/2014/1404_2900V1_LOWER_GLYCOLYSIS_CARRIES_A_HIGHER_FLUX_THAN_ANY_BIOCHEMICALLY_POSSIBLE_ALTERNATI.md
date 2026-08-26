@@ -957,3 +957,13 @@ USA, 2007), 3rd edn.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1404_2900v1_lower_glycolysis_carries_a_higher_flux_than_any_biochemically_possible_alternati
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1404_2900V1_LOWER_GLYCOLYSIS_CARRIES_A_HIGHER_FLUX_THAN_ANY_BIOCHEMICALLY_POSSIBLE_ALTERNATI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

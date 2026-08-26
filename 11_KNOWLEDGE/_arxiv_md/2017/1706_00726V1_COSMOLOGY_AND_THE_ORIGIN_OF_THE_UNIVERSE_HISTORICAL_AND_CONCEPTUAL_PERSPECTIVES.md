@@ -1368,3 +1368,13 @@ Taliaferro, eds., A Companion to Philosophy of Religion (Malden, MA: Blackwell P
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1706_00726v1_cosmology_and_the_origin_of_the_universe_historical_and_conceptual_perspectives
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1706_00726V1_COSMOLOGY_AND_THE_ORIGIN_OF_THE_UNIVERSE_HISTORICAL_AND_CONCEPTUAL_PERSPECTIVES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -810,3 +810,13 @@ Polyworld: Life in a new context. In: Artificial Life-3, pp. 263-298. Redwood Ci
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0709_2065v1_toward_psycho_robots
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0709_2065V1_TOWARD_PSYCHO_ROBOTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

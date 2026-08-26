@@ -2457,3 +2457,13 @@ rigid N=2 theories,” arXiv:1109.5728 [hep-th].
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1204_3802v2_elliptic_genera_of_non_compact_gepner_models_and_mirror_symmetry
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1204_3802V2_ELLIPTIC_GENERA_OF_NON_COMPACT_GEPNER_MODELS_AND_MIRROR_SYMMETRY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

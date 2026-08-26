@@ -1333,3 +1333,13 @@ k1,··· ,km
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1608_08547v1_solving_set_cover_with_pairs_problem_using_quantum_annealing
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1608_08547V1_SOLVING_SET_COVER_WITH_PAIRS_PROBLEM_USING_QUANTUM_ANNEALING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

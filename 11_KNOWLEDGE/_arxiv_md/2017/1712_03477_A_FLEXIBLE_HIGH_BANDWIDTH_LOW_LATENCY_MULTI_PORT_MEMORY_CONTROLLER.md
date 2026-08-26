@@ -595,3 +595,13 @@ Cirt. Syst. (ISCAS) (2017) 2667-2670.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_03477_a_flexible_high_bandwidth_low_latency_multi_port_memory_controller
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_03477_A_FLEXIBLE_HIGH_BANDWIDTH_LOW_LATENCY_MULTI_PORT_MEMORY_CONTROLLER.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

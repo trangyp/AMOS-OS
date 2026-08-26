@@ -8378,3 +8378,13 @@ Prague,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1206_3293v1_propagation_using_chain_event_graphs
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1206_3293V1_PROPAGATION_USING_CHAIN_EVENT_GRAPHS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

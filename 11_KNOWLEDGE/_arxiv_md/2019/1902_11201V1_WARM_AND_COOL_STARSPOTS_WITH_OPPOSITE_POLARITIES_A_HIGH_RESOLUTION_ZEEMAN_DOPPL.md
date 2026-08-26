@@ -1273,3 +1273,13 @@ diﬀerence map a −b.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1902_11201v1_warm_and_cool_starspots_with_opposite_polarities_a_high_resolution_zeeman_doppl
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1902_11201V1_WARM_AND_COOL_STARSPOTS_WITH_OPPOSITE_POLARITIES_A_HIGH_RESOLUTION_ZEEMAN_DOPPL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

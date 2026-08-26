@@ -1072,3 +1072,13 @@ vol. 17, no. 3, pp. 887–910, Sep. 2008.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1706_02274v2_can_computers_overcome_humans_consciousness_interaction_and_its_implications
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1706_02274V2_CAN_COMPUTERS_OVERCOME_HUMANS_CONSCIOUSNESS_INTERACTION_AND_ITS_IMPLICATIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

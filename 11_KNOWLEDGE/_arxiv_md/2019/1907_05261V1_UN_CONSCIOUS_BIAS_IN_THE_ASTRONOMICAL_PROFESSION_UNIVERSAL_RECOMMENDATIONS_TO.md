@@ -653,3 +653,13 @@ Nature, https://doi.org/10.1038/d41586-019-02064-y
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_05261v1_un_conscious_bias_in_the_astronomical_profession_universal_recommendations_to
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_05261V1_UN_CONSCIOUS_BIAS_IN_THE_ASTRONOMICAL_PROFESSION_UNIVERSAL_RECOMMENDATIONS_TO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -129,3 +129,13 @@ the origin (Planck scale) and ξη=1/√ρΛ~1060on the Einstein limit.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1201_0961_three_limits_to_the_physical_world
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1201_0961_THREE_LIMITS_TO_THE_PHYSICAL_WORLD.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

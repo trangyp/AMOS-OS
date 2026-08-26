@@ -745,3 +745,13 @@ bond.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1401_7282v1_a_unified_theory_of_chemical_reactions
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1401_7282V1_A_UNIFIED_THEORY_OF_CHEMICAL_REACTIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

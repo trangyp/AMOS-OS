@@ -918,3 +918,13 @@ doi:10.17815/jlsrf-4-121-1.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_03263v1_tissue_evolution_mechanical_interplay_of_adhesion_pressure_and_heterogeneity
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_03263V1_TISSUE_EVOLUTION_MECHANICAL_INTERPLAY_OF_ADHESION_PRESSURE_AND_HETEROGENEITY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

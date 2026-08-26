@@ -862,3 +862,13 @@ E-mail address: nguyenquang272002@gmail.com
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0708_0592_the_coherence_theorem_for_ann_categories
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0708_0592_THE_COHERENCE_THEOREM_FOR_ANN_CATEGORIES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

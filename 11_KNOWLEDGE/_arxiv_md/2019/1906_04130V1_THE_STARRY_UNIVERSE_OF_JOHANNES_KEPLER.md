@@ -912,3 +912,13 @@ star size problem, see (Schofield 1989, 41), (Granada 2008, 480).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1906_04130v1_the_starry_universe_of_johannes_kepler
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1906_04130V1_THE_STARRY_UNIVERSE_OF_JOHANNES_KEPLER.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

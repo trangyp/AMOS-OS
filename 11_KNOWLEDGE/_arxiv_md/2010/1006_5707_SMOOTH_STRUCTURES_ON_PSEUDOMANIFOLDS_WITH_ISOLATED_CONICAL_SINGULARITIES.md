@@ -1596,3 +1596,13 @@ Czech Republic
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1006_5707_smooth_structures_on_pseudomanifolds_with_isolated_conical_singularities
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1006_5707_SMOOTH_STRUCTURES_ON_PSEUDOMANIFOLDS_WITH_ISOLATED_CONICAL_SINGULARITIES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

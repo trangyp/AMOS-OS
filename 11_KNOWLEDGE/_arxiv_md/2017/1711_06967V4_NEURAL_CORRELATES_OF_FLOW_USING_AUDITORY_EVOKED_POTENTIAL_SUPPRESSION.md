@@ -871,3 +871,13 @@ p=0.0001).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1711_06967v4_neural_correlates_of_flow_using_auditory_evoked_potential_suppression
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1711_06967V4_NEURAL_CORRELATES_OF_FLOW_USING_AUDITORY_EVOKED_POTENTIAL_SUPPRESSION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

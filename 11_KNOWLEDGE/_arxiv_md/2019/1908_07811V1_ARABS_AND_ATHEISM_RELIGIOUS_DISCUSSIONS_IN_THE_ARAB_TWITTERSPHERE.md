@@ -1340,3 +1340,13 @@ emaratalyoum.com
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_07811v1_arabs_and_atheism_religious_discussions_in_the_arab_twittersphere
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_07811V1_ARABS_AND_ATHEISM_RELIGIOUS_DISCUSSIONS_IN_THE_ARAB_TWITTERSPHERE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

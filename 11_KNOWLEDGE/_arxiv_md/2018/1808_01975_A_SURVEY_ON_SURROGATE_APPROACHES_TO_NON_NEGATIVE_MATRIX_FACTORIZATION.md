@@ -3349,3 +3349,13 @@ surrogate.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1808_01975_a_survey_on_surrogate_approaches_to_non_negative_matrix_factorization
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1808_01975_A_SURVEY_ON_SURROGATE_APPROACHES_TO_NON_NEGATIVE_MATRIX_FACTORIZATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

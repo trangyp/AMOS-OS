@@ -1166,3 +1166,13 @@ A. Vologodskii, Proc. Natl. Acad. Sci. U. S. A. 102, 5397
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0802_0356v2_effects_of_kink_and_flexible_hinge_defects_on_mechanical_responses_of_short_doub
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0802_0356V2_EFFECTS_OF_KINK_AND_FLEXIBLE_HINGE_DEFECTS_ON_MECHANICAL_RESPONSES_OF_SHORT_DOUB.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

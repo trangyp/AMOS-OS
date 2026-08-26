@@ -777,3 +777,13 @@ Communications and Coding 2013 (SCC’2013), Munich, Germany, Jan.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1301_4050v1_punctured_trellis_coded_modulation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1301_4050V1_PUNCTURED_TRELLIS_CODED_MODULATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

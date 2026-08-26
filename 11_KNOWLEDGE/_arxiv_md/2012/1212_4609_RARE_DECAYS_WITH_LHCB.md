@@ -427,3 +427,13 @@ C. Bobeth et al., JHEP 1201 107 (2012).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1212_4609_rare_decays_with_lhcb
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1212_4609_RARE_DECAYS_WITH_LHCB.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

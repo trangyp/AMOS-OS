@@ -474,3 +474,13 @@ Filtering. Computation, 7(2), 25.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_07107v2_fuzzy_c_means_clustering_and_sonification_of_hrv_features
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_07107V2_FUZZY_C_MEANS_CLUSTERING_AND_SONIFICATION_OF_HRV_FEATURES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

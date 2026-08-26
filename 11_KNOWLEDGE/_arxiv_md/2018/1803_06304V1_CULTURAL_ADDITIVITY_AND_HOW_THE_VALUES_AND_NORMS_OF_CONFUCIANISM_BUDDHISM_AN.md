@@ -1536,3 +1536,13 @@ https://quangduc.com/a4657/viet-dien-u-linh-tap-pdf
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_06304v1_cultural_additivity_and_how_the_values_and_norms_of_confucianism_buddhism_an
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_06304V1_CULTURAL_ADDITIVITY_AND_HOW_THE_VALUES_AND_NORMS_OF_CONFUCIANISM_BUDDHISM_AN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

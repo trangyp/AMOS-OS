@@ -1761,3 +1761,13 @@ Appendix A. The US presidential election projections: A year at the polls
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1701_02182v1_political_elections_and_uncertainty_are_brics_markets_equally_exposed_to_trump
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1701_02182V1_POLITICAL_ELECTIONS_AND_UNCERTAINTY_ARE_BRICS_MARKETS_EQUALLY_EXPOSED_TO_TRUMP.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

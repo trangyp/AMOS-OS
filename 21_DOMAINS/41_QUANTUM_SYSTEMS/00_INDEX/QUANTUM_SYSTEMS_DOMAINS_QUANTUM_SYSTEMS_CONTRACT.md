@@ -16,3 +16,13 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: quantum_systems_domains_quantum_systems_contract
+node_type: note
+path: 21_DOMAINS/41_QUANTUM_SYSTEMS/00_INDEX/QUANTUM_SYSTEMS_DOMAINS_QUANTUM_SYSTEMS_CONTRACT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

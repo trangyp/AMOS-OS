@@ -784,3 +784,13 @@ systems, the quasi-synchronous approach. (2001)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1502_03343v1_requirements_analysis_of_a_quad_redundant_flight_control_system
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1502_03343V1_REQUIREMENTS_ANALYSIS_OF_A_QUAD_REDUNDANT_FLIGHT_CONTROL_SYSTEM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

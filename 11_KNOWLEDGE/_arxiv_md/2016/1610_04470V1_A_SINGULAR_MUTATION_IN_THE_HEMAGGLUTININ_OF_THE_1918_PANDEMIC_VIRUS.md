@@ -383,3 +383,13 @@ found in the environment.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1610_04470v1_a_singular_mutation_in_the_hemagglutinin_of_the_1918_pandemic_virus
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1610_04470V1_A_SINGULAR_MUTATION_IN_THE_HEMAGGLUTININ_OF_THE_1918_PANDEMIC_VIRUS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

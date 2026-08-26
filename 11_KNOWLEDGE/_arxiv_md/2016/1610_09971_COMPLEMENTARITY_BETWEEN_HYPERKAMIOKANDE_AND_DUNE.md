@@ -671,3 +671,13 @@ Phys.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1610_09971_complementarity_between_hyperkamiokande_and_dune
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1610_09971_COMPLEMENTARITY_BETWEEN_HYPERKAMIOKANDE_AND_DUNE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

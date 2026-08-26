@@ -254,3 +254,13 @@ footnote.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1703_10470v1_schrodinger_s_cat_and_world_history_the_many_worlds_interpretation_of_alternati
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1703_10470V1_SCHRODINGER_S_CAT_AND_WORLD_HISTORY_THE_MANY_WORLDS_INTERPRETATION_OF_ALTERNATI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

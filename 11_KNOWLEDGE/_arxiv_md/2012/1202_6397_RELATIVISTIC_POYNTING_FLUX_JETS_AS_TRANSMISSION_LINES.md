@@ -419,3 +419,13 @@ S.A. 2000, ApJ, 541, L21
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1202_6397_relativistic_poynting_flux_jets_as_transmission_lines
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1202_6397_RELATIVISTIC_POYNTING_FLUX_JETS_AS_TRANSMISSION_LINES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -206,3 +206,13 @@ Journal of Consulting & Clinical Psychology (1994)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1302_5200v1_a_proposal_to_support_wellbeing_in_people_with_borderline_personality_disorder
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1302_5200V1_A_PROPOSAL_TO_SUPPORT_WELLBEING_IN_PEOPLE_WITH_BORDERLINE_PERSONALITY_DISORDER.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

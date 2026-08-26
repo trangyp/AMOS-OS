@@ -1397,3 +1397,13 @@ further than this similarity.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1012_5649v1_network_algorithmics_and_the_emergence_of_information_integration_in_cortical_mo
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1012_5649V1_NETWORK_ALGORITHMICS_AND_THE_EMERGENCE_OF_INFORMATION_INTEGRATION_IN_CORTICAL_MO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

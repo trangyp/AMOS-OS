@@ -1626,3 +1626,13 @@ Graphics (TOG), vol. 34, no. 4, p. 76, 2015.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_09109v1_deepwarp_dnn_based_nonlinear_deformation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_09109V1_DEEPWARP_DNN_BASED_NONLINEAR_DEFORMATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

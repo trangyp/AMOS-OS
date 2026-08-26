@@ -1371,3 +1371,13 @@ Figure 4. Joint clustering model for Phlegm-Dampness.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1410_7140v5_a_data_driven_method_for_syndrome_type_identification_and_classification_in_trad
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1410_7140V5_A_DATA_DRIVEN_METHOD_FOR_SYNDROME_TYPE_IDENTIFICATION_AND_CLASSIFICATION_IN_TRAD.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

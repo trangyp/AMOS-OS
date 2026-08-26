@@ -2722,3 +2722,13 @@ Received January 2008 and revised May 2008
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0902_1426v1_optimal_designs_for_dose_finding_experiments_in_toxicity_studies
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0902_1426V1_OPTIMAL_DESIGNS_FOR_DOSE_FINDING_EXPERIMENTS_IN_TOXICITY_STUDIES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

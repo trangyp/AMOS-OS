@@ -418,3 +418,13 @@ on Cyberworlds (CW), 2017.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1811_01388v2_web_security_investigation_through_penetration_tests_a_case_study_of_an_educati
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_01388V2_WEB_SECURITY_INVESTIGATION_THROUGH_PENETRATION_TESTS_A_CASE_STUDY_OF_AN_EDUCATI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

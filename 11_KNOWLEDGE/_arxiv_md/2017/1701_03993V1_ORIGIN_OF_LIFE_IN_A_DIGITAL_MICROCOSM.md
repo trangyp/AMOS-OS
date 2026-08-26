@@ -2908,3 +2908,13 @@ Press.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1701_03993v1_origin_of_life_in_a_digital_microcosm
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1701_03993V1_ORIGIN_OF_LIFE_IN_A_DIGITAL_MICROCOSM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

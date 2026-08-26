@@ -2210,3 +2210,13 @@ vectors. Hence, by the inductive hypothesis, the same bound holds up to r vector
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1603_01786_complex_demand_scheduling_problem_with_application_in_smart_grid
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1603_01786_COMPLEX_DEMAND_SCHEDULING_PROBLEM_WITH_APPLICATION_IN_SMART_GRID.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

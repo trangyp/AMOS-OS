@@ -983,3 +983,13 @@ speciﬁc instruction for the packages mlt and tram to use for multiple contrast
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_01838v1_robust_multiple_comparisons_against_a_control_group_with_application_in_toxicolo
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_01838V1_ROBUST_MULTIPLE_COMPARISONS_AGAINST_A_CONTROL_GROUP_WITH_APPLICATION_IN_TOXICOLO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

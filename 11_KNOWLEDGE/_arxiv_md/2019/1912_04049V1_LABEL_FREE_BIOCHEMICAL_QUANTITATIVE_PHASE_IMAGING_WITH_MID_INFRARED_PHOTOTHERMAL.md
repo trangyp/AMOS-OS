@@ -856,3 +856,13 @@ RI change (10   )
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1912_04049v1_label_free_biochemical_quantitative_phase_imaging_with_mid_infrared_photothermal
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1912_04049V1_LABEL_FREE_BIOCHEMICAL_QUANTITATIVE_PHASE_IMAGING_WITH_MID_INFRARED_PHOTOTHERMAL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

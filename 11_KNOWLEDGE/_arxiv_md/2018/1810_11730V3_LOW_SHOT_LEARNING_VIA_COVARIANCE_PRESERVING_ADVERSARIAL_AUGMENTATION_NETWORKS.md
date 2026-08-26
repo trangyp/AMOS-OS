@@ -1008,3 +1008,13 @@ dX
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1810_11730v3_low_shot_learning_via_covariance_preserving_adversarial_augmentation_networks
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1810_11730V3_LOW_SHOT_LEARNING_VIA_COVARIANCE_PRESERVING_ADVERSARIAL_AUGMENTATION_NETWORKS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

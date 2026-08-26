@@ -1931,3 +1931,13 @@ University Press, Oxford, UK, 2020).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1901_10825v3_the_completeness_of_quantum_mechanics_and_the_determinateness_and_consistency_of
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1901_10825V3_THE_COMPLETENESS_OF_QUANTUM_MECHANICS_AND_THE_DETERMINATENESS_AND_CONSISTENCY_OF.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

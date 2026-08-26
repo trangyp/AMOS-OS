@@ -630,3 +630,13 @@ review letters 77, 3865 (1996).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_03689v2_excited_quantum_hall_effect_enantiomorphic_flat_bands_in_a_yin_yang_kagome_latt
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_03689V2_EXCITED_QUANTUM_HALL_EFFECT_ENANTIOMORPHIC_FLAT_BANDS_IN_A_YIN_YANG_KAGOME_LATT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

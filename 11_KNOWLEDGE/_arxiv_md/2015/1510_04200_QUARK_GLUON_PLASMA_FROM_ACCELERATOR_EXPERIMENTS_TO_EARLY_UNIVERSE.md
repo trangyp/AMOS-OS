@@ -385,3 +385,13 @@ National Research Council, http://www.nap.edu/catalog/10079.html.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1510_04200_quark_gluon_plasma_from_accelerator_experiments_to_early_universe
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1510_04200_QUARK_GLUON_PLASMA_FROM_ACCELERATOR_EXPERIMENTS_TO_EARLY_UNIVERSE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

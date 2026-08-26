@@ -648,3 +648,13 @@ Chichester, England, 2006) 1-48
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1402_1445v3_opsin_vs_opsin_new_materials_for_biotechnological_applications
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1402_1445V3_OPSIN_VS_OPSIN_NEW_MATERIALS_FOR_BIOTECHNOLOGICAL_APPLICATIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -647,3 +647,13 @@ C. f. Wong, Phys. Rev. D 87 (2013) no.9, 093007.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1611_04769_on_the_relation_between_the_cp_phases_in_the_pmns_matrix_cp_violation_with_ster
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1611_04769_ON_THE_RELATION_BETWEEN_THE_CP_PHASES_IN_THE_PMNS_MATRIX_CP_VIOLATION_WITH_STER.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

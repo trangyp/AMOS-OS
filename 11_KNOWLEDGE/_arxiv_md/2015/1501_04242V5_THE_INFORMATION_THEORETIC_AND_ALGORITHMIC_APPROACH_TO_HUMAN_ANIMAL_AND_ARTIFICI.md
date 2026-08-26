@@ -1175,3 +1175,13 @@ cation and Chaos, vol. 13, no. 9.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1501_04242v5_the_information_theoretic_and_algorithmic_approach_to_human_animal_and_artifici
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1501_04242V5_THE_INFORMATION_THEORETIC_AND_ALGORITHMIC_APPROACH_TO_HUMAN_ANIMAL_AND_ARTIFICI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -436,3 +436,13 @@ e-mail: hshalini@cense.iisc.ernet.in
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1705_08753v2_quantum_theory_of_time_perception_phases_clocks_and_quantum_algebra
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1705_08753V2_QUANTUM_THEORY_OF_TIME_PERCEPTION_PHASES_CLOCKS_AND_QUANTUM_ALGEBRA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

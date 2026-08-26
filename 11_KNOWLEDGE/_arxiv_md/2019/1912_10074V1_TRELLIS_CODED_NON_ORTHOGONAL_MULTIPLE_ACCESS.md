@@ -747,3 +747,13 @@ Media, 1999.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1912_10074v1_trellis_coded_non_orthogonal_multiple_access
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1912_10074V1_TRELLIS_CODED_NON_ORTHOGONAL_MULTIPLE_ACCESS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

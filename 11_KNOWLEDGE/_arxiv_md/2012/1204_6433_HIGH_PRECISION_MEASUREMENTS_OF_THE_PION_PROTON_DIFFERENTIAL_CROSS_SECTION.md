@@ -1756,3 +1756,13 @@ Figure 5: Diﬀerential cross section of the elastic π−p-scattering as a func
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1204_6433_high_precision_measurements_of_the_pion_proton_differential_cross_section
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1204_6433_HIGH_PRECISION_MEASUREMENTS_OF_THE_PION_PROTON_DIFFERENTIAL_CROSS_SECTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

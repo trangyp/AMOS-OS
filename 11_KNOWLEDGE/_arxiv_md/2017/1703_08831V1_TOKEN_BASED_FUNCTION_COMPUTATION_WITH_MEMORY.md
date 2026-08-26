@@ -2026,3 +2026,13 @@ vol. 51, no. 1, pp. 125-131, 1989.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1703_08831v1_token_based_function_computation_with_memory
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1703_08831V1_TOKEN_BASED_FUNCTION_COMPUTATION_WITH_MEMORY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

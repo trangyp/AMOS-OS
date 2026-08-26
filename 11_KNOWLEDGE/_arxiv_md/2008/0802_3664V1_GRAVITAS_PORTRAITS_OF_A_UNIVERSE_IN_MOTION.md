@@ -356,3 +356,13 @@ A.G. Swayze for support and inspiration.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0802_3664v1_gravitas_portraits_of_a_universe_in_motion
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0802_3664V1_GRAVITAS_PORTRAITS_OF_A_UNIVERSE_IN_MOTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

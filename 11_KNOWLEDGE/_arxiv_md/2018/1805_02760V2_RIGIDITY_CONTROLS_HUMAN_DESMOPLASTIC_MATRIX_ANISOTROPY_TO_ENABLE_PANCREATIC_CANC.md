@@ -1905,3 +1905,13 @@ https://drive.google.com/open?id=1DCPVw_sLPZ0dHpZ4rH7rBH8YQxRxMVJ_
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_02760v2_rigidity_controls_human_desmoplastic_matrix_anisotropy_to_enable_pancreatic_canc
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_02760V2_RIGIDITY_CONTROLS_HUMAN_DESMOPLASTIC_MATRIX_ANISOTROPY_TO_ENABLE_PANCREATIC_CANC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

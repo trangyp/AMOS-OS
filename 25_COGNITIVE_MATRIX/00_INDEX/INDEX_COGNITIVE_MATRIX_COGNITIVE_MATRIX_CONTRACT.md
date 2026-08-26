@@ -2647,3 +2647,13 @@ NEVER CONFUSE STRUCTURAL COMPLETENESS WITH TRUTH.
 
 ---
 **Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: index_cognitive_matrix_cognitive_matrix_contract
+node_type: note
+path: 25_COGNITIVE_MATRIX/00_INDEX/INDEX_COGNITIVE_MATRIX_COGNITIVE_MATRIX_CONTRACT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

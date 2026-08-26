@@ -1071,3 +1071,13 @@ DMRD
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1501_05119_measuring_and_estimating_interaction_between_exposures_on_dichotomous_outcome_of
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1501_05119_MEASURING_AND_ESTIMATING_INTERACTION_BETWEEN_EXPOSURES_ON_DICHOTOMOUS_OUTCOME_OF.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

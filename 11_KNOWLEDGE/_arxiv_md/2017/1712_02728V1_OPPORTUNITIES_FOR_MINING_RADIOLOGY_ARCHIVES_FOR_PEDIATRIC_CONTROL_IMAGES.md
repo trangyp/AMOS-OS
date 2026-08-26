@@ -390,3 +390,13 @@ studies.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_02728v1_opportunities_for_mining_radiology_archives_for_pediatric_control_images
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_02728V1_OPPORTUNITIES_FOR_MINING_RADIOLOGY_ARCHIVES_FOR_PEDIATRIC_CONTROL_IMAGES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

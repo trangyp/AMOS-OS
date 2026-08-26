@@ -599,3 +599,13 @@ Heidelberg, 2007.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0910_0542v1_pre_processing_in_ai_based_prediction_of_qsars
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0910_0542V1_PRE_PROCESSING_IN_AI_BASED_PREDICTION_OF_QSARS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

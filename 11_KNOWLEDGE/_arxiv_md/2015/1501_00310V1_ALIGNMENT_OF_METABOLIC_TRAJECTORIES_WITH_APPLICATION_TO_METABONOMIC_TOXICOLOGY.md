@@ -4266,3 +4266,13 @@ and Intelligent Laboratory Systems 2(1-3): 37-52.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1501_00310v1_alignment_of_metabolic_trajectories_with_application_to_metabonomic_toxicology
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1501_00310V1_ALIGNMENT_OF_METABOLIC_TRAJECTORIES_WITH_APPLICATION_TO_METABONOMIC_TOXICOLOGY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -341,3 +341,13 @@ BAAA, 58, 2016
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1604_00260v1_archaeoastronomy_and_the_orientation_of_old_churches
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1604_00260V1_ARCHAEOASTRONOMY_AND_THE_ORIENTATION_OF_OLD_CHURCHES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

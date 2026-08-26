@@ -2218,3 +2218,13 @@ alert and control system, Mem´orias do Instituto Oswaldo Cruz 103(1):50-59 (Feb
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1703_03765v1_the_case_for_pyriproxyfen_as_a_potential_cause_for_microcephaly_from_biology_to
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1703_03765V1_THE_CASE_FOR_PYRIPROXYFEN_AS_A_POTENTIAL_CAUSE_FOR_MICROCEPHALY_FROM_BIOLOGY_TO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

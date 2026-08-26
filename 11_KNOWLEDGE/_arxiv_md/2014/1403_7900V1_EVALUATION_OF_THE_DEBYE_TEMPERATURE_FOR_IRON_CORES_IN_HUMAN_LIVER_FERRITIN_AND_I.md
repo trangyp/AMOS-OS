@@ -506,3 +506,13 @@ The inset shows the low temperature range.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1403_7900v1_evaluation_of_the_debye_temperature_for_iron_cores_in_human_liver_ferritin_and_i
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1403_7900V1_EVALUATION_OF_THE_DEBYE_TEMPERATURE_FOR_IRON_CORES_IN_HUMAN_LIVER_FERRITIN_AND_I.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

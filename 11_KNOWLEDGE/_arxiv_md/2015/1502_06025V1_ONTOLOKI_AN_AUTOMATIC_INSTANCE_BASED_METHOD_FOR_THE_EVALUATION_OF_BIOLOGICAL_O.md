@@ -1190,3 +1190,13 @@ Service  Applications. In. Los Alamos: National Center for Genome Research;
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1502_06025v1_ontoloki_an_automatic_instance_based_method_for_the_evaluation_of_biological_o
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1502_06025V1_ONTOLOKI_AN_AUTOMATIC_INSTANCE_BASED_METHOD_FOR_THE_EVALUATION_OF_BIOLOGICAL_O.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

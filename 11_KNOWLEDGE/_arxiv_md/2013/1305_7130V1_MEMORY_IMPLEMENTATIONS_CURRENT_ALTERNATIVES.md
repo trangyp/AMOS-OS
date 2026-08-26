@@ -872,3 +872,13 @@ Edition (Addison-Wesley; 2005).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1305_7130v1_memory_implementations_current_alternatives
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1305_7130V1_MEMORY_IMPLEMENTATIONS_CURRENT_ALTERNATIVES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

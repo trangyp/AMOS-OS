@@ -1055,3 +1055,13 @@ Figure 8: Annotations generated using our method for “MC 6: Necropsy timing”
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1811_01183v1_unsupervised_identification_of_study_descriptors_in_toxicology_research_an_expe
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_01183V1_UNSUPERVISED_IDENTIFICATION_OF_STUDY_DESCRIPTORS_IN_TOXICOLOGY_RESEARCH_AN_EXPE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

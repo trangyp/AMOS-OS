@@ -481,3 +481,13 @@ proteomic analysis of membrane proteins. Nat Biotechnol. 21: 532-538.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0807_1039v1_keynotes_on_membrane_proteomics
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0807_1039V1_KEYNOTES_ON_MEMBRANE_PROTEOMICS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

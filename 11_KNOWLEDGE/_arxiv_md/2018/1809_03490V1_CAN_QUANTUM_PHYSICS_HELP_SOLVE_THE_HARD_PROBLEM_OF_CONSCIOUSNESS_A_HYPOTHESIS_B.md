@@ -507,3 +507,13 @@ Physiology, R.F. Schmidt and G. Thews (Berlin: Springer).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1809_03490v1_can_quantum_physics_help_solve_the_hard_problem_of_consciousness_a_hypothesis_b
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1809_03490V1_CAN_QUANTUM_PHYSICS_HELP_SOLVE_THE_HARD_PROBLEM_OF_CONSCIOUSNESS_A_HYPOTHESIS_B.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

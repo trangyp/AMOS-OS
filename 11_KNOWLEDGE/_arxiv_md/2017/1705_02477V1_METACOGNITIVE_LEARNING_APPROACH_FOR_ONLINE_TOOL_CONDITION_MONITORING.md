@@ -2724,3 +2724,13 @@ Networks and Learning Systems, (2014), 25(1), 27-39.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1705_02477v1_metacognitive_learning_approach_for_online_tool_condition_monitoring
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1705_02477V1_METACOGNITIVE_LEARNING_APPROACH_FOR_ONLINE_TOOL_CONDITION_MONITORING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

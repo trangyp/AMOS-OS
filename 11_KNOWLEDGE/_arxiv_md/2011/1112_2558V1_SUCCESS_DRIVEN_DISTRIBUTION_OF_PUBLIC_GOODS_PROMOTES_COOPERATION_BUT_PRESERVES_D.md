@@ -598,3 +598,13 @@ tion Dynamics (Cambridge University Press, 1998).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1112_2558v1_success_driven_distribution_of_public_goods_promotes_cooperation_but_preserves_d
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1112_2558V1_SUCCESS_DRIVEN_DISTRIBUTION_OF_PUBLIC_GOODS_PROMOTES_COOPERATION_BUT_PRESERVES_D.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1262,3 +1262,13 @@ ed (Cambridge: Cambridge University Press) ISBN 9781107074026
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1705_08156v1_pattern_formation_in_a_two_dimensional_two_species_diffusion_model_with_anisotro
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1705_08156V1_PATTERN_FORMATION_IN_A_TWO_DIMENSIONAL_TWO_SPECIES_DIFFUSION_MODEL_WITH_ANISOTRO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -587,3 +587,13 @@ Copyright © 2012 SciRes.                                                       
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1311_1197v1_software_reuse_in_cardiology_related_medical_database_using_k_means_clustering_t
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1311_1197V1_SOFTWARE_REUSE_IN_CARDIOLOGY_RELATED_MEDICAL_DATABASE_USING_K_MEANS_CLUSTERING_T.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

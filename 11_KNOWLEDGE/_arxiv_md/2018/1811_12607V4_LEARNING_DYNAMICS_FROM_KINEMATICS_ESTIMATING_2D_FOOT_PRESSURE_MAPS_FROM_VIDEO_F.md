@@ -1671,3 +1671,13 @@ nition, pages 4966–4975, 2016.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1811_12607v4_learning_dynamics_from_kinematics_estimating_2d_foot_pressure_maps_from_video_f
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_12607V4_LEARNING_DYNAMICS_FROM_KINEMATICS_ESTIMATING_2D_FOOT_PRESSURE_MAPS_FROM_VIDEO_F.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

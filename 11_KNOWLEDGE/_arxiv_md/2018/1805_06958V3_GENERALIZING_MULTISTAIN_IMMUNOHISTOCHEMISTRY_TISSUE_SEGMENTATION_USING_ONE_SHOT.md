@@ -581,3 +581,13 @@ histology images. In Journal of pathology informatics, 2013.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_06958v3_generalizing_multistain_immunohistochemistry_tissue_segmentation_using_one_shot
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_06958V3_GENERALIZING_MULTISTAIN_IMMUNOHISTOCHEMISTRY_TISSUE_SEGMENTATION_USING_ONE_SHOT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

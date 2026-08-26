@@ -6547,3 +6547,13 @@ Email address: psniady@impan.pl
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_08143v3_second_class_particles_and_limit_shapes_of_evacuation_and_sliding_paths_for_rand
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_08143V3_SECOND_CLASS_PARTICLES_AND_LIMIT_SHAPES_OF_EVACUATION_AND_SLIDING_PATHS_FOR_RAND.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

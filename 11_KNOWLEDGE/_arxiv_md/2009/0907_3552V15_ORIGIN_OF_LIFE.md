@@ -1592,3 +1592,13 @@ Adapted from : http://en.wikipedia.org/wiki/Image:Habitable_zone-en.svg
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0907_3552v15_origin_of_life
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0907_3552V15_ORIGIN_OF_LIFE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

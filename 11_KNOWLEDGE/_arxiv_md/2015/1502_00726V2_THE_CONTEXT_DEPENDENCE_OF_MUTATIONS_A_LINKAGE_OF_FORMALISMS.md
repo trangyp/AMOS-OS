@@ -1960,3 +1960,13 @@ QED
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1502_00726v2_the_context_dependence_of_mutations_a_linkage_of_formalisms
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1502_00726V2_THE_CONTEXT_DEPENDENCE_OF_MUTATIONS_A_LINKAGE_OF_FORMALISMS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

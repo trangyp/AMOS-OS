@@ -959,3 +959,13 @@ pages 97–104. IEEE, 2012. 3
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1605_03116v1_caliper_continuous_authentication_layered_with_integrated_pki_encoding_recognit
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1605_03116V1_CALIPER_CONTINUOUS_AUTHENTICATION_LAYERED_WITH_INTEGRATED_PKI_ENCODING_RECOGNIT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

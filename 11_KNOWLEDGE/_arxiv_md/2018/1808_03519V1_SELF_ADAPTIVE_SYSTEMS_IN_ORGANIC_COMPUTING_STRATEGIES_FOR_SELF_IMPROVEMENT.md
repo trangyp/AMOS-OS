@@ -835,3 +835,13 @@ Engineering and Software Development, 2017, pp. 503508.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1808_03519v1_self_adaptive_systems_in_organic_computing_strategies_for_self_improvement
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1808_03519V1_SELF_ADAPTIVE_SYSTEMS_IN_ORGANIC_COMPUTING_STRATEGIES_FOR_SELF_IMPROVEMENT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

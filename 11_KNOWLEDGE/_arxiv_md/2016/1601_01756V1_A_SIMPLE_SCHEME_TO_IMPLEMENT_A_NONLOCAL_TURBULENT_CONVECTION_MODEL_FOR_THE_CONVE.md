@@ -1483,3 +1483,13 @@ This preprint was prepared with the AAS LATEX macros v5.2.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1601_01756v1_a_simple_scheme_to_implement_a_nonlocal_turbulent_convection_model_for_the_conve
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1601_01756V1_A_SIMPLE_SCHEME_TO_IMPLEMENT_A_NONLOCAL_TURBULENT_CONVECTION_MODEL_FOR_THE_CONVE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

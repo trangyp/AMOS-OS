@@ -1438,3 +1438,13 @@ Timanfaya en la primera mitad del siglo XVIII.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1604_03863v1_the_orientation_as_a_signature_of_cultural_identity_the_historic_churches_of_la
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1604_03863V1_THE_ORIENTATION_AS_A_SIGNATURE_OF_CULTURAL_IDENTITY_THE_HISTORIC_CHURCHES_OF_LA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

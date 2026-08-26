@@ -655,3 +655,13 @@ Figure 3.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1902_00770v1_the_reliability_of_an_environmental_epidemiology_meta_analysis_a_case_study
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1902_00770V1_THE_RELIABILITY_OF_AN_ENVIRONMENTAL_EPIDEMIOLOGY_META_ANALYSIS_A_CASE_STUDY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

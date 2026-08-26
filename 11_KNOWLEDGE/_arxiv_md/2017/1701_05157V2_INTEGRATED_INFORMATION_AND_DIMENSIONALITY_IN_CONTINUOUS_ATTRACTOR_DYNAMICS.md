@@ -784,3 +784,13 @@ dimensionality. Science (80- ). 2016;353: 922–925.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1701_05157v2_integrated_information_and_dimensionality_in_continuous_attractor_dynamics
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1701_05157V2_INTEGRATED_INFORMATION_AND_DIMENSIONALITY_IN_CONTINUOUS_ATTRACTOR_DYNAMICS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

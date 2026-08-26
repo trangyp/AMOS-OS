@@ -567,3 +567,13 @@ Acad. Sci. USA 99, 2466 (2002).
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0901_4295v1_breakdown_of_long_range_correlations_in_heart_rate_fluctuations_during_meditatio
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0901_4295V1_BREAKDOWN_OF_LONG_RANGE_CORRELATIONS_IN_HEART_RATE_FLUCTUATIONS_DURING_MEDITATIO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

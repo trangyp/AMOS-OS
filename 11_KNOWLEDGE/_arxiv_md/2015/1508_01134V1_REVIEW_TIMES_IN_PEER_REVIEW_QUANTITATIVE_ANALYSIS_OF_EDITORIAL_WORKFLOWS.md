@@ -850,3 +850,13 @@ for_peer_reviewers_0.pdf, (2013).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1508_01134v1_review_times_in_peer_review_quantitative_analysis_of_editorial_workflows
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1508_01134V1_REVIEW_TIMES_IN_PEER_REVIEW_QUANTITATIVE_ANALYSIS_OF_EDITORIAL_WORKFLOWS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

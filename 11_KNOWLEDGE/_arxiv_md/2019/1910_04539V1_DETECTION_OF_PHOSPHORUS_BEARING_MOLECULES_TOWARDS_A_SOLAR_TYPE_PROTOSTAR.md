@@ -1051,3 +1051,13 @@ Ziurys, L. M., Milam, S. N., Apponi, A. J., & Woolf, N. J.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_04539v1_detection_of_phosphorus_bearing_molecules_towards_a_solar_type_protostar
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_04539V1_DETECTION_OF_PHOSPHORUS_BEARING_MOLECULES_TOWARDS_A_SOLAR_TYPE_PROTOSTAR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

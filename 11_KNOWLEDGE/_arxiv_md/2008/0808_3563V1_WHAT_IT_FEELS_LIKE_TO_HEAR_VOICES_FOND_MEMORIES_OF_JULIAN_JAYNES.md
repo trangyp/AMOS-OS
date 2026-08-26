@@ -748,3 +748,13 @@ Why?
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0808_3563v1_what_it_feels_like_to_hear_voices_fond_memories_of_julian_jaynes
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0808_3563V1_WHAT_IT_FEELS_LIKE_TO_HEAR_VOICES_FOND_MEMORIES_OF_JULIAN_JAYNES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

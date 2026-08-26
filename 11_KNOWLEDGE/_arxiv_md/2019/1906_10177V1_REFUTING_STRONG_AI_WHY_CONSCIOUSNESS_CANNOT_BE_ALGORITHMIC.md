@@ -1026,3 +1026,13 @@ Zuboff, A., 1990. One self: The logic of experience. Inquiry, 33(1), pp.39-68.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1906_10177v1_refuting_strong_ai_why_consciousness_cannot_be_algorithmic
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1906_10177V1_REFUTING_STRONG_AI_WHY_CONSCIOUSNESS_CANNOT_BE_ALGORITHMIC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

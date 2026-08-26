@@ -1677,3 +1677,13 @@ cessed: 2018-12-03.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1812_09490v3_aztarna_a_footprinting_tool_for_robots
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1812_09490V3_AZTARNA_A_FOOTPRINTING_TOOL_FOR_ROBOTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

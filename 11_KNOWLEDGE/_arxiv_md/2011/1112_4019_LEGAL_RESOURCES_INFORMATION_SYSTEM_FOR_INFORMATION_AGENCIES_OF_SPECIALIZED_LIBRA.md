@@ -208,3 +208,13 @@ of Rajshahi.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1112_4019_legal_resources_information_system_for_information_agencies_of_specialized_libra
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1112_4019_LEGAL_RESOURCES_INFORMATION_SYSTEM_FOR_INFORMATION_AGENCIES_OF_SPECIALIZED_LIBRA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

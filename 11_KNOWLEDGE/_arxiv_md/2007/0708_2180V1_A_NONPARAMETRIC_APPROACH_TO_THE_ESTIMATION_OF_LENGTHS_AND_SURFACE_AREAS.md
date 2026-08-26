@@ -1384,3 +1384,13 @@ E-mail: alrodcas@usc.es
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0708_2180v1_a_nonparametric_approach_to_the_estimation_of_lengths_and_surface_areas
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0708_2180V1_A_NONPARAMETRIC_APPROACH_TO_THE_ESTIMATION_OF_LENGTHS_AND_SURFACE_AREAS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

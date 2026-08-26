@@ -1645,3 +1645,13 @@ pubmed/17201358
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1611_08913v2_a_simple_model_of_attentional_blink
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1611_08913V2_A_SIMPLE_MODEL_OF_ATTENTIONAL_BLINK.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

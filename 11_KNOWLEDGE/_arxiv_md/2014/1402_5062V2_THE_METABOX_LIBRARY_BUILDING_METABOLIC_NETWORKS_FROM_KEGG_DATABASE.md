@@ -774,3 +774,13 @@ NetworkX Other info: (2008) Proc. SciPy, 11-16.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1402_5062v2_the_metabox_library_building_metabolic_networks_from_kegg_database
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1402_5062V2_THE_METABOX_LIBRARY_BUILDING_METABOLIC_NETWORKS_FROM_KEGG_DATABASE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

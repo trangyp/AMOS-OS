@@ -1572,3 +1572,13 @@ worldbank.org/. (Access January 2016)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1703_09472v2_index_of_environmental_awareness_in_russia_mimic_approaches_for_different_econ
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1703_09472V2_INDEX_OF_ENVIRONMENTAL_AWARENESS_IN_RUSSIA_MIMIC_APPROACHES_FOR_DIFFERENT_ECON.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

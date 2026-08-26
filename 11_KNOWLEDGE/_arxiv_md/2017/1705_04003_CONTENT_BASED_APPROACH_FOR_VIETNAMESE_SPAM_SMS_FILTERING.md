@@ -536,3 +536,13 @@ in Neural Information Processing Systems, 2015, pp. 649–657.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1705_04003_content_based_approach_for_vietnamese_spam_sms_filtering
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1705_04003_CONTENT_BASED_APPROACH_FOR_VIETNAMESE_SPAM_SMS_FILTERING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1807,3 +1807,13 @@ gt
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1807_08414v3_deciphering_gene_regulation_from_gene_expression_dynamics_using_deep_neural_netw
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1807_08414V3_DECIPHERING_GENE_REGULATION_FROM_GENE_EXPRESSION_DYNAMICS_USING_DEEP_NEURAL_NETW.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

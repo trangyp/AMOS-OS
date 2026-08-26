@@ -2388,3 +2388,13 @@ using nonlinear peak alignment, matching, and identification. Analytical Chemist
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1708_04024v1_create_run_share_publish_and_reference_your_lc_ms_fia_ms_gc_ms_and_nmr_da
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1708_04024V1_CREATE_RUN_SHARE_PUBLISH_AND_REFERENCE_YOUR_LC_MS_FIA_MS_GC_MS_AND_NMR_DA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

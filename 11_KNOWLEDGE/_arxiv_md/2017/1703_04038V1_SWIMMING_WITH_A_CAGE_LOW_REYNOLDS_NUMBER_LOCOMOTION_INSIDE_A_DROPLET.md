@@ -1613,3 +1613,13 @@ Press, 2002).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1703_04038v1_swimming_with_a_cage_low_reynolds_number_locomotion_inside_a_droplet
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1703_04038V1_SWIMMING_WITH_A_CAGE_LOW_REYNOLDS_NUMBER_LOCOMOTION_INSIDE_A_DROPLET.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

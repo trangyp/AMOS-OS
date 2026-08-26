@@ -4543,3 +4543,13 @@ E-mail address: n.zygouras@warwick.ac.uk
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1210_5126v2_geometric_rsk_correspondence_whittaker_functions_and_symmetrized_random_polymer
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1210_5126V2_GEOMETRIC_RSK_CORRESPONDENCE_WHITTAKER_FUNCTIONS_AND_SYMMETRIZED_RANDOM_POLYMER.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

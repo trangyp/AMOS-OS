@@ -1640,3 +1640,13 @@ Guidance, Navigation, and Control Conference (p. 1124).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_11338v1_quantum_aspects_of_high_dimensional_formal_representation_of_conceptual_spaces
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_11338V1_QUANTUM_ASPECTS_OF_HIGH_DIMENSIONAL_FORMAL_REPRESENTATION_OF_CONCEPTUAL_SPACES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

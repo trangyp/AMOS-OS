@@ -907,3 +907,13 @@ Niestlé, 1992.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1707_05259v1_ethics_of_autonomous_information_systems_towards_an_artificial_thinking
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1707_05259V1_ETHICS_OF_AUTONOMOUS_INFORMATION_SYSTEMS_TOWARDS_AN_ARTIFICIAL_THINKING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

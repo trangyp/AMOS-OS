@@ -1723,3 +1723,13 @@ survival one year after echocardiography.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1811_10553v2_a_deep_neural_network_to_enhance_prediction_of_1_year_mortality_using_echocardio
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_10553V2_A_DEEP_NEURAL_NETWORK_TO_ENHANCE_PREDICTION_OF_1_YEAR_MORTALITY_USING_ECHOCARDIO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

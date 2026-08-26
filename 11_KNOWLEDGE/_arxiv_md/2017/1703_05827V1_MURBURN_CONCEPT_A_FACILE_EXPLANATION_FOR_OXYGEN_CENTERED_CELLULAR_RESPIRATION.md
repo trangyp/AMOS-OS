@@ -2411,3 +2411,13 @@ one-electron oxidants. Journal of Physical Chemistry A 107, 9860.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1703_05827v1_murburn_concept_a_facile_explanation_for_oxygen_centered_cellular_respiration
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1703_05827V1_MURBURN_CONCEPT_A_FACILE_EXPLANATION_FOR_OXYGEN_CENTERED_CELLULAR_RESPIRATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

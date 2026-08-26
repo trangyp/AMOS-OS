@@ -801,3 +801,13 @@ pp. 527–533 (2016)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_00805_emotions_are_universal_learning_sentiment_based_representations_of_resource_poo
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_00805_EMOTIONS_ARE_UNIVERSAL_LEARNING_SENTIMENT_BASED_REPRESENTATIONS_OF_RESOURCE_POO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

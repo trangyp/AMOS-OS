@@ -35,3 +35,13 @@ Map of all generator artifacts in `25_COGNITIVE_MATRIX/12_GENERATORS`.
 
 ---
 **Related:** [[00-Home]] · [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: generators_map
+node_type: note
+path: 25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

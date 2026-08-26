@@ -3752,3 +3752,13 @@ ceedings Ninth IEEE International Conference on Computer Vision. IEEE,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_03725v1_fast_approximate_simulation_of_finite_long_range_spin_systems
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_03725V1_FAST_APPROXIMATE_SIMULATION_OF_FINITE_LONG_RANGE_SPIN_SYSTEMS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -849,3 +849,13 @@ Companion. pp. 1559–1560 (2017)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_10547_neural_network_architecture_for_credibility_assessment_of_textual_claims
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_10547_NEURAL_NETWORK_ARCHITECTURE_FOR_CREDIBILITY_ASSESSMENT_OF_TEXTUAL_CLAIMS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

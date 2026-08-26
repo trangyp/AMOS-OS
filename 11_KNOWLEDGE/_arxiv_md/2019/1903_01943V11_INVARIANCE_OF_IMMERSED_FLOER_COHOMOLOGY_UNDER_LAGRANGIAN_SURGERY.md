@@ -7975,3 +7975,13 @@ Email address: woodwardc@gmail.com
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_01943v11_invariance_of_immersed_floer_cohomology_under_lagrangian_surgery
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_01943V11_INVARIANCE_OF_IMMERSED_FLOER_COHOMOLOGY_UNDER_LAGRANGIAN_SURGERY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

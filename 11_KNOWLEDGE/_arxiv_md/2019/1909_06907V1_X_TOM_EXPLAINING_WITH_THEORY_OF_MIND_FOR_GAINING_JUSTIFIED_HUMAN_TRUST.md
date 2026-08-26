@@ -1146,3 +1146,13 @@ Figure 16: Sample evaluator questions
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1909_06907v1_x_tom_explaining_with_theory_of_mind_for_gaining_justified_human_trust
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1909_06907V1_X_TOM_EXPLAINING_WITH_THEORY_OF_MIND_FOR_GAINING_JUSTIFIED_HUMAN_TRUST.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

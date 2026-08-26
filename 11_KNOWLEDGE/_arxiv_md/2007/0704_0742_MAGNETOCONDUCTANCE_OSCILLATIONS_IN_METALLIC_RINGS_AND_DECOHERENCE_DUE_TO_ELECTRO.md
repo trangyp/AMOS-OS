@@ -324,3 +324,13 @@ bridge University Press, 2007.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0704_0742_magnetoconductance_oscillations_in_metallic_rings_and_decoherence_due_to_electro
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0704_0742_MAGNETOCONDUCTANCE_OSCILLATIONS_IN_METALLIC_RINGS_AND_DECOHERENCE_DUE_TO_ELECTRO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

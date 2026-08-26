@@ -1033,3 +1033,13 @@ of the European Joint Conferences on Theory and Practice of Software, ETAPS
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1502_02605v1_verifying_the_safety_of_a_flight_critical_system
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1502_02605V1_VERIFYING_THE_SAFETY_OF_A_FLIGHT_CRITICAL_SYSTEM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

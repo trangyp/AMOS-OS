@@ -544,3 +544,13 @@ of suppression during the attentional blink. J Exp Psychol Hum Percept Perform, 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_09107v1_conscious_perception_time_for_an_update
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_09107V1_CONSCIOUS_PERCEPTION_TIME_FOR_AN_UPDATE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

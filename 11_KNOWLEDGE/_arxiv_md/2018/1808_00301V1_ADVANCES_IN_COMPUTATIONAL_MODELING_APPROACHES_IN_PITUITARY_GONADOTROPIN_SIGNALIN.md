@@ -1138,3 +1138,13 @@ http://yvinec.perso.math.cnrs.fr/Publi/RYPCERAPFC_18_advances_gonado_supp.pdf
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1808_00301v1_advances_in_computational_modeling_approaches_in_pituitary_gonadotropin_signalin
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1808_00301V1_ADVANCES_IN_COMPUTATIONAL_MODELING_APPROACHES_IN_PITUITARY_GONADOTROPIN_SIGNALIN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

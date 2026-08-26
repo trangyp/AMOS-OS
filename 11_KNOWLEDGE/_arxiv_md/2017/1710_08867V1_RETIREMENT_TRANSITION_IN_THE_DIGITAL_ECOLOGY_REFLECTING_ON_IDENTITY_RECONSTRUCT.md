@@ -1639,3 +1639,13 @@ Figure 2. A screenshot of www.choraline.com
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1710_08867v1_retirement_transition_in_the_digital_ecology_reflecting_on_identity_reconstruct
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1710_08867V1_RETIREMENT_TRANSITION_IN_THE_DIGITAL_ECOLOGY_REFLECTING_ON_IDENTITY_RECONSTRUCT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

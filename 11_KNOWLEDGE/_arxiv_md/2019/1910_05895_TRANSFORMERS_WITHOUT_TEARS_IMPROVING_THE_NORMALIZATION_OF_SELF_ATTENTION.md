@@ -1412,3 +1412,13 @@ gives more stable gradients.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_05895_transformers_without_tears_improving_the_normalization_of_self_attention
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_05895_TRANSFORMERS_WITHOUT_TEARS_IMPROVING_THE_NORMALIZATION_OF_SELF_ATTENTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

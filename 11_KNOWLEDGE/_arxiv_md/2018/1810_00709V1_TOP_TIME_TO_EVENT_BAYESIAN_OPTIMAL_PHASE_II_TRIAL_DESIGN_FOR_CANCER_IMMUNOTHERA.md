@@ -853,3 +853,13 @@ hypothesis ORR = 0.65 and PFS4 = 0.45.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1810_00709v1_top_time_to_event_bayesian_optimal_phase_ii_trial_design_for_cancer_immunothera
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1810_00709V1_TOP_TIME_TO_EVENT_BAYESIAN_OPTIMAL_PHASE_II_TRIAL_DESIGN_FOR_CANCER_IMMUNOTHERA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

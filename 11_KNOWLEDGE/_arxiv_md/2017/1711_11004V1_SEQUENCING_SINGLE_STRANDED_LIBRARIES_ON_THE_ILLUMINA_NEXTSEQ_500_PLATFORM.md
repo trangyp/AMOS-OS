@@ -291,3 +291,13 @@ DOI:10.18632/oncotarget.10827.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1711_11004v1_sequencing_single_stranded_libraries_on_the_illumina_nextseq_500_platform
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1711_11004V1_SEQUENCING_SINGLE_STRANDED_LIBRARIES_ON_THE_ILLUMINA_NEXTSEQ_500_PLATFORM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

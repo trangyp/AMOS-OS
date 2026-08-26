@@ -972,3 +972,13 @@ Steven, Biochemistry 34, 4919 (1995).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1809_02717v1_the_equilibrium_structure_of_self_assembled_protein_nano_cages
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1809_02717V1_THE_EQUILIBRIUM_STRUCTURE_OF_SELF_ASSEMBLED_PROTEIN_NANO_CAGES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

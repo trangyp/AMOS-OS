@@ -1500,3 +1500,13 @@ Peterson et al., shown in Fig. 2.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0707_2551v2_coupling_biochemistry_and_mechanics_in_cell_adhesion_a_model_for_inhomogeneous
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0707_2551V2_COUPLING_BIOCHEMISTRY_AND_MECHANICS_IN_CELL_ADHESION_A_MODEL_FOR_INHOMOGENEOUS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

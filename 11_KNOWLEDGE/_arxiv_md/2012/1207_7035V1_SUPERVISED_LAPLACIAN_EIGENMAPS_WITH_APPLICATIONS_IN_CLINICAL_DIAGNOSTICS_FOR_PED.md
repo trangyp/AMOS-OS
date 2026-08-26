@@ -591,3 +591,13 @@ estimates,” Bioinformatics, 2010.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1207_7035v1_supervised_laplacian_eigenmaps_with_applications_in_clinical_diagnostics_for_ped
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1207_7035V1_SUPERVISED_LAPLACIAN_EIGENMAPS_WITH_APPLICATIONS_IN_CLINICAL_DIAGNOSTICS_FOR_PED.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

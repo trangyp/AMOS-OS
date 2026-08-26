@@ -1034,3 +1034,13 @@ Figure 2
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1602_00600v1_separating_putative_pathogens_from_background_contamination_with_principal_ortho
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1602_00600V1_SEPARATING_PUTATIVE_PATHOGENS_FROM_BACKGROUND_CONTAMINATION_WITH_PRINCIPAL_ORTHO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

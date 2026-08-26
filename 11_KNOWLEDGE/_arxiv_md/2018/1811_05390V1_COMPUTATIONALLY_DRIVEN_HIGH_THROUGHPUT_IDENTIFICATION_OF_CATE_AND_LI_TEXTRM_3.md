@@ -4653,3 +4653,13 @@ D. S. Ginley, J. Appl. Phys. 95, 3831 (2004).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1811_05390v1_computationally_driven_high_throughput_identification_of_cate_and_li_textrm_3
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_05390V1_COMPUTATIONALLY_DRIVEN_HIGH_THROUGHPUT_IDENTIFICATION_OF_CATE_AND_LI_TEXTRM_3.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

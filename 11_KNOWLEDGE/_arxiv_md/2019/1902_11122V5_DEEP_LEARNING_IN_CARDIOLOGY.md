@@ -4166,3 +4166,13 @@ conference on machine learning (ICML-11), 2011, pp. 689–696.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1902_11122v5_deep_learning_in_cardiology
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1902_11122V5_DEEP_LEARNING_IN_CARDIOLOGY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

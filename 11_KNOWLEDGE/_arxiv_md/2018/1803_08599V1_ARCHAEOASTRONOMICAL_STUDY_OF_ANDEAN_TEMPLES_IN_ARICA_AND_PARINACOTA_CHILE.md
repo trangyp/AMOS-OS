@@ -632,3 +632,13 @@ Smithsonian miscellaneous collections, vol. 108, Washington.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_08599v1_archaeoastronomical_study_of_andean_temples_in_arica_and_parinacota_chile
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_08599V1_ARCHAEOASTRONOMICAL_STUDY_OF_ANDEAN_TEMPLES_IN_ARICA_AND_PARINACOTA_CHILE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

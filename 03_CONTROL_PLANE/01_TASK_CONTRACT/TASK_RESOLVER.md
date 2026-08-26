@@ -5939,3 +5939,13 @@ This is a **substantive candidate replacement**, not recovered pre-existing cano
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: task_resolver
+node_type: note
+path: 03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_RESOLVER.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

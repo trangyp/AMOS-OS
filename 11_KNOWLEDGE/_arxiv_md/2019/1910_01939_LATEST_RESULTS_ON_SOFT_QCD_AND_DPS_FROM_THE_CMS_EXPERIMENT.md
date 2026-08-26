@@ -242,3 +242,13 @@ ex].
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_01939_latest_results_on_soft_qcd_and_dps_from_the_cms_experiment
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_01939_LATEST_RESULTS_ON_SOFT_QCD_AND_DPS_FROM_THE_CMS_EXPERIMENT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

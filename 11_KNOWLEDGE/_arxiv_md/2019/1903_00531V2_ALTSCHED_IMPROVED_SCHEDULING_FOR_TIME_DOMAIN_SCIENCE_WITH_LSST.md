@@ -1158,3 +1158,13 @@ Figure 13. Per-band inter-night visit gap histograms for minion 1016 and ALTSche
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_00531v2_altsched_improved_scheduling_for_time_domain_science_with_lsst
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_00531V2_ALTSCHED_IMPROVED_SCHEDULING_FOR_TIME_DOMAIN_SCIENCE_WITH_LSST.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

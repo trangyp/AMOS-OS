@@ -1591,3 +1591,13 @@ confirmed%observationally.%
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1405_7089v1_consciousness_here_there_but_not_everywhere
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1405_7089V1_CONSCIOUSNESS_HERE_THERE_BUT_NOT_EVERYWHERE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

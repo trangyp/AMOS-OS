@@ -2031,3 +2031,13 @@ Learned Publishing, pp. 1-7.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1904_01470v2_arxiv_and_the_symbiosis_of_physics_preprints_and_journal_review_articles
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1904_01470V2_ARXIV_AND_THE_SYMBIOSIS_OF_PHYSICS_PREPRINTS_AND_JOURNAL_REVIEW_ARTICLES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

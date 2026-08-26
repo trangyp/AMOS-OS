@@ -555,3 +555,13 @@ www.iep.utm.edu/lp-argue.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1401_1800v1_g_del_tarski_turing_and_the_conundrum_of_free_will
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1401_1800V1_G_DEL_TARSKI_TURING_AND_THE_CONUNDRUM_OF_FREE_WILL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

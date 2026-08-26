@@ -16,3 +16,13 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: commit_control_plane_failure_recovery
+node_type: note
+path: 03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS/COMMIT_CONTROL_PLANE_FAILURE_RECOVERY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

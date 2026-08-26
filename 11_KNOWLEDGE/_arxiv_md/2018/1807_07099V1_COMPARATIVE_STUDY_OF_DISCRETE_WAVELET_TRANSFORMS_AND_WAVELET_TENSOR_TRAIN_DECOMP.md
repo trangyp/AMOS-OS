@@ -2010,3 +2010,13 @@ with best performing WTT, original signal; (f) clustering with best performing W
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1807_07099v1_comparative_study_of_discrete_wavelet_transforms_and_wavelet_tensor_train_decomp
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1807_07099V1_COMPARATIVE_STUDY_OF_DISCRETE_WAVELET_TRANSFORMS_AND_WAVELET_TENSOR_TRAIN_DECOMP.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

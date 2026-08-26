@@ -447,3 +447,13 @@ we assumed an irreducible stochasticity, s, at both sides of the experiment, for
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1501_04618v1_quantum_non_locality_it_ain_t_necessarily_so
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1501_04618V1_QUANTUM_NON_LOCALITY_IT_AIN_T_NECESSARILY_SO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

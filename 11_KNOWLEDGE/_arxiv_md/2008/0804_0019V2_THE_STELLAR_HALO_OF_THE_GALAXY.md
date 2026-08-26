@@ -2409,3 +2409,13 @@ ries, 48, 38
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0804_0019v2_the_stellar_halo_of_the_galaxy
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0804_0019V2_THE_STELLAR_HALO_OF_THE_GALAXY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

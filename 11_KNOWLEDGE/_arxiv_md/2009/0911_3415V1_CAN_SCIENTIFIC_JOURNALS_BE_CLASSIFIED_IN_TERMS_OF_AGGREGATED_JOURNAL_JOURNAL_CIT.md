@@ -1826,3 +1826,13 @@ University of Amsterdam.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0911_3415v1_can_scientific_journals_be_classified_in_terms_of_aggregated_journal_journal_cit
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0911_3415V1_CAN_SCIENTIFIC_JOURNALS_BE_CLASSIFIED_IN_TERMS_OF_AGGREGATED_JOURNAL_JOURNAL_CIT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

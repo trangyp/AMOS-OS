@@ -1294,3 +1294,13 @@ praved; chaste, ﬂeshly; pure, degenerate.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1906_01440v1_tracing_antisemitic_language_through_diachronic_embedding_projections_france_17
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1906_01440V1_TRACING_ANTISEMITIC_LANGUAGE_THROUGH_DIACHRONIC_EMBEDDING_PROJECTIONS_FRANCE_17.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

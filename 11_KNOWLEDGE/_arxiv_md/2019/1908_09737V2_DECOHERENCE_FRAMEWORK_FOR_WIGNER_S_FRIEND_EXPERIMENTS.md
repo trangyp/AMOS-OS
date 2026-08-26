@@ -2488,3 +2488,13 @@ Lett. 23, 880 (1969).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_09737v2_decoherence_framework_for_wigner_s_friend_experiments
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_09737V2_DECOHERENCE_FRAMEWORK_FOR_WIGNER_S_FRIEND_EXPERIMENTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -715,3 +715,13 @@ Processing (EMNLP). pp. 670–680 (2014)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_08861v2_neural_poetry_learning_to_generate_poems_using_syllables
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_08861V2_NEURAL_POETRY_LEARNING_TO_GENERATE_POEMS_USING_SYLLABLES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

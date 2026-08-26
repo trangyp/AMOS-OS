@@ -1536,3 +1536,13 @@ Willett, H.P. (1992). Staphylococcus zinsser microbiology,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_02243v1_antibacterial_and_antioxidant_activities_of_centeurea_damascena_methanolic_extra
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_02243V1_ANTIBACTERIAL_AND_ANTIOXIDANT_ACTIVITIES_OF_CENTEUREA_DAMASCENA_METHANOLIC_EXTRA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

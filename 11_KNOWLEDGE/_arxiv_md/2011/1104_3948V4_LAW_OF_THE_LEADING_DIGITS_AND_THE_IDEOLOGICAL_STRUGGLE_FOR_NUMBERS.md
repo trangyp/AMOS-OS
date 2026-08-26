@@ -660,3 +660,13 @@ procedures, Auditing: J. Pract. Theory, 16 (2) (1997) 52-67.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1104_3948v4_law_of_the_leading_digits_and_the_ideological_struggle_for_numbers
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1104_3948V4_LAW_OF_THE_LEADING_DIGITS_AND_THE_IDEOLOGICAL_STRUGGLE_FOR_NUMBERS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

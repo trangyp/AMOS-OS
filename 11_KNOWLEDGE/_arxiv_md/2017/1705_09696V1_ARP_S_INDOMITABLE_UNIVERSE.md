@@ -423,3 +423,13 @@ arp-astronomer-who-challenged-big-bang-theory-dies-at-86.html?_r=0.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1705_09696v1_arp_s_indomitable_universe
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1705_09696V1_ARP_S_INDOMITABLE_UNIVERSE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

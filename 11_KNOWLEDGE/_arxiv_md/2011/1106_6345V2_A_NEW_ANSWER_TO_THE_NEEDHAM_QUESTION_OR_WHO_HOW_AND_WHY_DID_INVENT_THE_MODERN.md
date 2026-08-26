@@ -592,3 +592,13 @@ Braunschweig/Wiesbaden: Vieweg,  1995.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1106_6345v2_a_new_answer_to_the_needham_question_or_who_how_and_why_did_invent_the_modern
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1106_6345V2_A_NEW_ANSWER_TO_THE_NEEDHAM_QUESTION_OR_WHO_HOW_AND_WHY_DID_INVENT_THE_MODERN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

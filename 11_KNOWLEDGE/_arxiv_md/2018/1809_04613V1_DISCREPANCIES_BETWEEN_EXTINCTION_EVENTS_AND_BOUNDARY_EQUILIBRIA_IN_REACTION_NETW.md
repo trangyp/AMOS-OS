@@ -1530,3 +1530,13 @@ Science, 327(5971):1389–1391, 2010.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1809_04613v1_discrepancies_between_extinction_events_and_boundary_equilibria_in_reaction_netw
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1809_04613V1_DISCREPANCIES_BETWEEN_EXTINCTION_EVENTS_AND_BOUNDARY_EQUILIBRIA_IN_REACTION_NETW.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

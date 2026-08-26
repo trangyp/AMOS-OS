@@ -1231,3 +1231,13 @@ isotropic-to-nematic transitions, Phys. Rev. B 80, 014107
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1205_1767v1_the_main_transition_in_the_pink_membrane_model_finite_size_scaling_and_the_infl
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1205_1767V1_THE_MAIN_TRANSITION_IN_THE_PINK_MEMBRANE_MODEL_FINITE_SIZE_SCALING_AND_THE_INFL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

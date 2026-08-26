@@ -1002,3 +1002,13 @@ for depression: results from a fully remote clinical trial. Journal of Medical I
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 2409_11183v5_comorbid_anxiety_predicts_lower_odds_of_mdd_improvement_in_a_trial_of_smartphone_delive
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2024/2024-09/2409_11183V5_COMORBID_ANXIETY_PREDICTS_LOWER_ODDS_OF_MDD_IMPROVEMENT_IN_A_TRIAL_OF_SMARTPHONE_DELIVERED_INTERVENTIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

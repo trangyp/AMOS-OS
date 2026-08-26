@@ -783,3 +783,13 @@ system for text categorization. Machine learning, 39(2-3), pp.135-168.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1812_07764v2_cnn_based_multi_instance_multi_task_learning_for_syndrome_differentiation_of_dia
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1812_07764V2_CNN_BASED_MULTI_INSTANCE_MULTI_TASK_LEARNING_FOR_SYNDROME_DIFFERENTIATION_OF_DIA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

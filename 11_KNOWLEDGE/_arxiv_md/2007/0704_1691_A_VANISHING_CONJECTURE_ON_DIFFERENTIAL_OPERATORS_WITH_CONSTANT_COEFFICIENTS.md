@@ -1849,3 +1849,13 @@ E-mail: wzhao@ilstu.edu.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0704_1691_a_vanishing_conjecture_on_differential_operators_with_constant_coefficients
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0704_1691_A_VANISHING_CONJECTURE_ON_DIFFERENTIAL_OPERATORS_WITH_CONSTANT_COEFFICIENTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

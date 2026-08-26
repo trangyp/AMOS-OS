@@ -2071,3 +2071,13 @@ dissertation, Massachusetts Institute of Technology). 2010.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1810_02856_crowd_shipping_services_for_last_mile_delivery_analysis_from_survey_data_in_two
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1810_02856_CROWD_SHIPPING_SERVICES_FOR_LAST_MILE_DELIVERY_ANALYSIS_FROM_SURVEY_DATA_IN_TWO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -962,3 +962,13 @@ Immanuel Wallerstein. “The Uncertainties of Knowledge”. ISBN 1-59213-243-X,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1308_2929v1_cosmologia_e_representa_o
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1308_2929V1_COSMOLOGIA_E_REPRESENTA_O.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -266,3 +266,13 @@ falsifiers: a note lacks frontmatter or canonical fields; duplicate arxiv_ids re
 **Related:** [[00-Home]] · [[ARXIV_QFM_MOC]] · [[ARXIV_QFM_CLAIMS]]
 - [[00_ROOT_MOC]]
 - [[11_KNOWLEDGE_MOC]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: arxiv_qfm_murk_audit
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/ARXIV_QFM_MURK_AUDIT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

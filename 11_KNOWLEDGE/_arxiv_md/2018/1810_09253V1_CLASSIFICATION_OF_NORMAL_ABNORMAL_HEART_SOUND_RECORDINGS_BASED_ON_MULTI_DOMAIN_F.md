@@ -546,3 +546,13 @@ Normal
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1810_09253v1_classification_of_normal_abnormal_heart_sound_recordings_based_on_multi_domain_f
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1810_09253V1_CLASSIFICATION_OF_NORMAL_ABNORMAL_HEART_SOUND_RECORDINGS_BASED_ON_MULTI_DOMAIN_F.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

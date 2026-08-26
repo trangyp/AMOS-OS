@@ -1189,3 +1189,13 @@ surement model”, Sociological Methodology, 33: 307–342, 2003.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1201_2719v3_ultrametric_model_of_mind_ii_application_to_text_content_analysis
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1201_2719V3_ULTRAMETRIC_MODEL_OF_MIND_II_APPLICATION_TO_TEXT_CONTENT_ANALYSIS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

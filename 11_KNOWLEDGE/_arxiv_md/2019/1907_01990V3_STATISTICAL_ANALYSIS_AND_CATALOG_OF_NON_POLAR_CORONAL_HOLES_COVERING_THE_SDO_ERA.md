@@ -2380,3 +2380,13 @@ SOLA: main.tex; 7 October 2019; 0:52; p. 30
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_01990v3_statistical_analysis_and_catalog_of_non_polar_coronal_holes_covering_the_sdo_era
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_01990V3_STATISTICAL_ANALYSIS_AND_CATALOG_OF_NON_POLAR_CORONAL_HOLES_COVERING_THE_SDO_ERA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

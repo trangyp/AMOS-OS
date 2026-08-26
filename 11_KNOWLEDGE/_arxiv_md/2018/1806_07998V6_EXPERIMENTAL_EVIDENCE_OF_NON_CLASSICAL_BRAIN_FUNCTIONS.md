@@ -798,3 +798,13 @@ pdf/44/9/zsab100/41327815/zsab100.pdf.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_07998v6_experimental_evidence_of_non_classical_brain_functions
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_07998V6_EXPERIMENTAL_EVIDENCE_OF_NON_CLASSICAL_BRAIN_FUNCTIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

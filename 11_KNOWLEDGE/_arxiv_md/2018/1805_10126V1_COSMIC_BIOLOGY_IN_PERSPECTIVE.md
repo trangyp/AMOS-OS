@@ -1409,3 +1409,13 @@ Zhu,C., Lu, G., S & Wang, Z. 2015, MNRAS, 451, 1561
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_10126v1_cosmic_biology_in_perspective
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_10126V1_COSMIC_BIOLOGY_IN_PERSPECTIVE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

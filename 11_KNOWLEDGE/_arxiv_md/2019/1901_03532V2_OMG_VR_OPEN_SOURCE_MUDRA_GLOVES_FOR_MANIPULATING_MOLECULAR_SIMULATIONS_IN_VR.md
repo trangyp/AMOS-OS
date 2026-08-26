@@ -395,3 +395,13 @@ tal Media 14, 2: 145–1
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1901_03532v2_omg_vr_open_source_mudra_gloves_for_manipulating_molecular_simulations_in_vr
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1901_03532V2_OMG_VR_OPEN_SOURCE_MUDRA_GLOVES_FOR_MANIPULATING_MOLECULAR_SIMULATIONS_IN_VR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

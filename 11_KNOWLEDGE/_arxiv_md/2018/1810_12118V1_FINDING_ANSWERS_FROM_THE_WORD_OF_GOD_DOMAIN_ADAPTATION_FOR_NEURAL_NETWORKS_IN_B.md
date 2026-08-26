@@ -1010,3 +1010,13 @@ networks. In European conference on computer vision, pages 818–833. Springer,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1810_12118v1_finding_answers_from_the_word_of_god_domain_adaptation_for_neural_networks_in_b
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1810_12118V1_FINDING_ANSWERS_FROM_THE_WORD_OF_GOD_DOMAIN_ADAPTATION_FOR_NEURAL_NETWORKS_IN_B.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

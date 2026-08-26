@@ -1097,3 +1097,13 @@ release of redox energy that is employed to push the proton(s) across the membra
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_11178v1_multi_scale_molecular_simulations_on_respiratory_complex_i
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_11178V1_MULTI_SCALE_MOLECULAR_SIMULATIONS_ON_RESPIRATORY_COMPLEX_I.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

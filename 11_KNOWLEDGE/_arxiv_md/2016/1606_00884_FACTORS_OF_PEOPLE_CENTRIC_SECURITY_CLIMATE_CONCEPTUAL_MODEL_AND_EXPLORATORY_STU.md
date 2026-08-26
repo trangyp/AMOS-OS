@@ -812,3 +812,13 @@ the original author and ACIS are credited.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1606_00884_factors_of_people_centric_security_climate_conceptual_model_and_exploratory_stu
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1606_00884_FACTORS_OF_PEOPLE_CENTRIC_SECURITY_CLIMATE_CONCEPTUAL_MODEL_AND_EXPLORATORY_STU.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

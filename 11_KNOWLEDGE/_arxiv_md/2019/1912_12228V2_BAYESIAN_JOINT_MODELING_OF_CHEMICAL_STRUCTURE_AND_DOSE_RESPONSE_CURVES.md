@@ -1883,3 +1883,13 @@ annealing. Journal of Machine Learning Research 11 1771–1798.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1912_12228v2_bayesian_joint_modeling_of_chemical_structure_and_dose_response_curves
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1912_12228V2_BAYESIAN_JOINT_MODELING_OF_CHEMICAL_STRUCTURE_AND_DOSE_RESPONSE_CURVES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

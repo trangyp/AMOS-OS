@@ -4913,3 +4913,13 @@ Integrity remains prior to completeness, fluency, speed, convenience, and optimi
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: authority_resolver
+node_type: note
+path: 03_CONTROL_PLANE/04_AUTHORITY/AUTHORITY_RESOLVER.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

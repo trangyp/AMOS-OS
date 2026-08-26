@@ -505,3 +505,13 @@ Cognitive Science 22(3), 269–294 (1998)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1812_02578v1_conscious_enactive_computation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1812_02578V1_CONSCIOUS_ENACTIVE_COMPUTATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

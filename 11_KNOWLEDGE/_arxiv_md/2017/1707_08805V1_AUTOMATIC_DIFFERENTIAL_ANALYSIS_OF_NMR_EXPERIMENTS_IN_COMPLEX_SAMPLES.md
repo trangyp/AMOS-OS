@@ -1307,3 +1307,13 @@ Supp Info 2 can be found at https://github.com/delsuc/plasmodesma/blob/master/An
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1707_08805v1_automatic_differential_analysis_of_nmr_experiments_in_complex_samples
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1707_08805V1_AUTOMATIC_DIFFERENTIAL_ANALYSIS_OF_NMR_EXPERIMENTS_IN_COMPLEX_SAMPLES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

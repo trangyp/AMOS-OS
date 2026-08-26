@@ -2879,3 +2879,13 @@ EXECUTION AUTHORITY.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: cognitive_organism_canon
+node_type: note
+path: 01_CANON/03_COGNITION_CANON/COGNITIVE_ORGANISM_CANON.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -554,3 +554,13 @@ processing  and  computer  vision.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1901_02529_a_spatial_temporal_3d_human_pose_reconstruction_framework
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1901_02529_A_SPATIAL_TEMPORAL_3D_HUMAN_POSE_RECONSTRUCTION_FRAMEWORK.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

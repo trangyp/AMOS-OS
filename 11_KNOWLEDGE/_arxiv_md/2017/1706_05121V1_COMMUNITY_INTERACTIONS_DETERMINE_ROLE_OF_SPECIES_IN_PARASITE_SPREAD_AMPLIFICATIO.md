@@ -1505,3 +1505,13 @@ of chagas disease. Advances in parasitology, 61,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1706_05121v1_community_interactions_determine_role_of_species_in_parasite_spread_amplificatio
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1706_05121V1_COMMUNITY_INTERACTIONS_DETERMINE_ROLE_OF_SPECIES_IN_PARASITE_SPREAD_AMPLIFICATIO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

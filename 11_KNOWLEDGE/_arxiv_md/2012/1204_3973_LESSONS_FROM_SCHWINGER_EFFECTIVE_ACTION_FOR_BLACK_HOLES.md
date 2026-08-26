@@ -380,3 +380,13 @@ and Gravitational Anomalies, Phys. Rev. Lett. 95 (2005) 011303.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1204_3973_lessons_from_schwinger_effective_action_for_black_holes
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1204_3973_LESSONS_FROM_SCHWINGER_EFFECTIVE_ACTION_FOR_BLACK_HOLES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

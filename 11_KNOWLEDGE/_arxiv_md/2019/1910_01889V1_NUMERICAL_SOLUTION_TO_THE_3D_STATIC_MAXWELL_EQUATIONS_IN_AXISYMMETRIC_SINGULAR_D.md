@@ -1422,3 +1422,13 @@ static ﬁeld problems, SIAM J. Control and Optim., 51, 3624–3651 (2013).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_01889v1_numerical_solution_to_the_3d_static_maxwell_equations_in_axisymmetric_singular_d
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_01889V1_NUMERICAL_SOLUTION_TO_THE_3D_STATIC_MAXWELL_EQUATIONS_IN_AXISYMMETRIC_SINGULAR_D.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

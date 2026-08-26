@@ -675,3 +675,13 @@ Table 5: Accuracy per relation.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1909_04793v2_definition_frames_using_definitions_for_hybrid_concept_representations
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1909_04793V2_DEFINITION_FRAMES_USING_DEFINITIONS_FOR_HYBRID_CONCEPT_REPRESENTATIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1827,3 +1827,13 @@ and the results in Theorem 1 follow.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_03627v3_controlling_costs_feature_selection_on_a_budget
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_03627V3_CONTROLLING_COSTS_FEATURE_SELECTION_ON_A_BUDGET.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

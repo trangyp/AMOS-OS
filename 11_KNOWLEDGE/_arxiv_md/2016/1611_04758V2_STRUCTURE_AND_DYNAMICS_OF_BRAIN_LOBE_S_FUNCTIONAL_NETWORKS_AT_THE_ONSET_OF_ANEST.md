@@ -3217,3 +3217,13 @@ monkeys. Laboratory animals, 33(2):162–168,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1611_04758v2_structure_and_dynamics_of_brain_lobe_s_functional_networks_at_the_onset_of_anest
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1611_04758V2_STRUCTURE_AND_DYNAMICS_OF_BRAIN_LOBE_S_FUNCTIONAL_NETWORKS_AT_THE_ONSET_OF_ANEST.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

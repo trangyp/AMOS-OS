@@ -539,3 +539,13 @@ mnabhan@usb.ve
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1801_10033v1_cardiac_arrhythmia_detection_from_ecg_combining_convolutional_and_long_short_ter
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1801_10033V1_CARDIAC_ARRHYTHMIA_DETECTION_FROM_ECG_COMBINING_CONVOLUTIONAL_AND_LONG_SHORT_TER.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1011,3 +1011,13 @@ and virtual knots, J. Knot Theory Ramiﬁcations, 15 (2006) 1049–1059.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1802_08899v1_longitudinal_mapping_knot_invariant_for_su_2
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1802_08899V1_LONGITUDINAL_MAPPING_KNOT_INVARIANT_FOR_SU_2.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

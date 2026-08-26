@@ -812,3 +812,13 @@ Wang, H. and Ben-Naim, A. (1997), J. Phys. Chem. B, 101, 1077, 1086
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_03499v1_the_lock_and_key_model_for_molecular_recognition_is_it_time_for_a_paradigm_shif
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_03499V1_THE_LOCK_AND_KEY_MODEL_FOR_MOLECULAR_RECOGNITION_IS_IT_TIME_FOR_A_PARADIGM_SHIF.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

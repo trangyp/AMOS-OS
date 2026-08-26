@@ -2836,3 +2836,13 @@ J. Phys. G 42, 025102 (2015).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1503_02197v1_event_wise_mean_bf_p_t_fluctuations_vs_minimum_bias_jets_minijets_at_the_lh
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1503_02197V1_EVENT_WISE_MEAN_BF_P_T_FLUCTUATIONS_VS_MINIMUM_BIAS_JETS_MINIJETS_AT_THE_LH.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

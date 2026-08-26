@@ -883,3 +883,13 @@ e-mail: sima.sarvahrabi@sbai.uniroma1.it
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_01009v1_approximate_analytical_solution_of_a_cancer_immunotherapy_model_by_the_applicati
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_01009V1_APPROXIMATE_ANALYTICAL_SOLUTION_OF_A_CANCER_IMMUNOTHERAPY_MODEL_BY_THE_APPLICATI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

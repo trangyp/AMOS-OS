@@ -1224,3 +1224,13 @@ experimental data reported in our study.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1607_06683v1_identification_of_a_membrane_bound_prepore_species_clarifies_the_lytic_mechanism
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1607_06683V1_IDENTIFICATION_OF_A_MEMBRANE_BOUND_PREPORE_SPECIES_CLARIFIES_THE_LYTIC_MECHANISM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

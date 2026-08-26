@@ -872,3 +872,13 @@ in tetanus. American Journal of Tropical Medicine
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1912_05345_severity_detection_tool_for_patients_with_infectious_disease
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1912_05345_SEVERITY_DETECTION_TOOL_FOR_PATIENTS_WITH_INFECTIOUS_DISEASE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -811,3 +811,13 @@ reality/. [Last Visit 01- Mar- 2016].
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_08383v1_head_up_displays_hud_in_driving
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_08383V1_HEAD_UP_DISPLAYS_HUD_IN_DRIVING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

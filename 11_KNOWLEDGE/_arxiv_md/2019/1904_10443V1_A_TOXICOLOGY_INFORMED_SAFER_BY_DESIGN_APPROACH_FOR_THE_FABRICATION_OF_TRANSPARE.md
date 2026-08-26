@@ -1009,3 +1009,13 @@ View Article Online
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1904_10443v1_a_toxicology_informed_safer_by_design_approach_for_the_fabrication_of_transpare
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1904_10443V1_A_TOXICOLOGY_INFORMED_SAFER_BY_DESIGN_APPROACH_FOR_THE_FABRICATION_OF_TRANSPARE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

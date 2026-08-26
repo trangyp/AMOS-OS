@@ -1247,3 +1247,13 @@ in inﬂuenza A virus transmission and pathogenesis. EMBO J. 33,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1801_07807v1_algorithmic_bio_surveillance_for_precise_spatio_temporal_prediction_of_zoonotic
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1801_07807V1_ALGORITHMIC_BIO_SURVEILLANCE_FOR_PRECISE_SPATIO_TEMPORAL_PREDICTION_OF_ZOONOTIC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

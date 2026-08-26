@@ -3251,3 +3251,13 @@ performance for the classification of PD and AD.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 2409_10230v1_speech_as_a_biomarker_for_disease_detection
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2024/2024-09/2409_10230V1_SPEECH_AS_A_BIOMARKER_FOR_DISEASE_DETECTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

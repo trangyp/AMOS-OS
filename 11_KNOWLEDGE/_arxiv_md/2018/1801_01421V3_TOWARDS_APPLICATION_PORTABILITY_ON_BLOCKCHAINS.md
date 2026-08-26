@@ -495,3 +495,13 @@ A decentralized network coordinate system. In Proc. ACM SIGCOMM
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1801_01421v3_towards_application_portability_on_blockchains
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1801_01421V3_TOWARDS_APPLICATION_PORTABILITY_ON_BLOCKCHAINS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

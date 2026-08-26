@@ -3666,3 +3666,13 @@ Phys. Rev. C 72, 064901 (2005).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1801_05862v1_glauber_model_analysis_of_5_tev_bf_p_pb_centrality_compared_to_a_two_componen
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1801_05862V1_GLAUBER_MODEL_ANALYSIS_OF_5_TEV_BF_P_PB_CENTRALITY_COMPARED_TO_A_TWO_COMPONEN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

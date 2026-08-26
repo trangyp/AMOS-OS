@@ -423,3 +423,13 @@ and Geometric Topology 6 (2006), 1331-1340.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_05249v1_extending_powers_of_pseudo_anosovs
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_05249V1_EXTENDING_POWERS_OF_PSEUDO_ANOSOVS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

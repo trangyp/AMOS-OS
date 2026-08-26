@@ -4724,3 +4724,13 @@ quantum theory with relativity.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1702_07487v4_black_holes_eliminating_information_or_illuminating_new_physics
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1702_07487V4_BLACK_HOLES_ELIMINATING_INFORMATION_OR_ILLUMINATING_NEW_PHYSICS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

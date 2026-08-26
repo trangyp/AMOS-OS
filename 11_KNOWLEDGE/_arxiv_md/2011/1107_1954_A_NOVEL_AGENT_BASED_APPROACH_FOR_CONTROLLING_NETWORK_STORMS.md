@@ -949,3 +949,13 @@ from, Biology to Engineering and back”. MIT Press.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1107_1954_a_novel_agent_based_approach_for_controlling_network_storms
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1107_1954_A_NOVEL_AGENT_BASED_APPROACH_FOR_CONTROLLING_NETWORK_STORMS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

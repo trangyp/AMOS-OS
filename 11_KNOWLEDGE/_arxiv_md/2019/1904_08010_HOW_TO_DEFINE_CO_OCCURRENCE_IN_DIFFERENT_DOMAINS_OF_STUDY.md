@@ -548,3 +548,13 @@ the c-value/nc-value method. International Journal on Digital Libraries 3(2) (Au
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1904_08010_how_to_define_co_occurrence_in_different_domains_of_study
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1904_08010_HOW_TO_DEFINE_CO_OCCURRENCE_IN_DIFFERENT_DOMAINS_OF_STUDY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

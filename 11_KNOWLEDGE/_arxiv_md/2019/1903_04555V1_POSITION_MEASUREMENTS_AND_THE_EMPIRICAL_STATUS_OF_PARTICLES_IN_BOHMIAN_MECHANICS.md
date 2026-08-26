@@ -743,3 +743,13 @@ Foundations of Physics Letters,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1903_04555v1_position_measurements_and_the_empirical_status_of_particles_in_bohmian_mechanics
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1903_04555V1_POSITION_MEASUREMENTS_AND_THE_EMPIRICAL_STATUS_OF_PARTICLES_IN_BOHMIAN_MECHANICS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

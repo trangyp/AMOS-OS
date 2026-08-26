@@ -575,3 +575,13 @@ Heart Circ. Physiol. 266, H1993 (1994).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1603_00397v1_a_langevin_model_for_complex_cardiological_time_series
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1603_00397V1_A_LANGEVIN_MODEL_FOR_COMPLEX_CARDIOLOGICAL_TIME_SERIES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

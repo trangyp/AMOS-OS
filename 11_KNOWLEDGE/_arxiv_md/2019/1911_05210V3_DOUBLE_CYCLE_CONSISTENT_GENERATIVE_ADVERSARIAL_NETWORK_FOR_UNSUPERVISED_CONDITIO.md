@@ -1590,3 +1590,13 @@ parameters on CIFAR-10 dataset: β1 = β2 = 1, β3 = 1.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_05210v3_double_cycle_consistent_generative_adversarial_network_for_unsupervised_conditio
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_05210V3_DOUBLE_CYCLE_CONSISTENT_GENERATIVE_ADVERSARIAL_NETWORK_FOR_UNSUPERVISED_CONDITIO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

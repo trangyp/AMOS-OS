@@ -1530,3 +1530,13 @@ recognition, hand gesture recognition and machine learning.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1611_06683v1_covariate_conscious_approach_for_gait_recognition_based_upon_zernike_moment_inva
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1611_06683V1_COVARIATE_CONSCIOUS_APPROACH_FOR_GAIT_RECOGNITION_BASED_UPON_ZERNIKE_MOMENT_INVA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

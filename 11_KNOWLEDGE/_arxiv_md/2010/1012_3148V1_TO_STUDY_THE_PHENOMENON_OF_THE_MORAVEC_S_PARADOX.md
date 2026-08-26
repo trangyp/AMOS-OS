@@ -371,3 +371,13 @@ http://www.scientificamerican.com/article.cfm?id=rise-of-the-robots
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1012_3148v1_to_study_the_phenomenon_of_the_moravec_s_paradox
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1012_3148V1_TO_STUDY_THE_PHENOMENON_OF_THE_MORAVEC_S_PARADOX.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -2708,3 +2708,13 @@ Email address: weber@math.uni-sb.de
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_08462v3_new_products_and_mathbb_z_2_extensions_of_compact_matrix_quantum_groups
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_08462V3_NEW_PRODUCTS_AND_MATHBB_Z_2_EXTENSIONS_OF_COMPACT_MATRIX_QUANTUM_GROUPS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

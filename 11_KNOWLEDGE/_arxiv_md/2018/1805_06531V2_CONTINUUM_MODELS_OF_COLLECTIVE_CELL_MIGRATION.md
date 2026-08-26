@@ -1328,3 +1328,13 @@ E. Bazellieres, J. Casademunt, X. Trepat, Nature Physics (2018)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_06531v2_continuum_models_of_collective_cell_migration
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_06531V2_CONTINUUM_MODELS_OF_COLLECTIVE_CELL_MIGRATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

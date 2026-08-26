@@ -1056,3 +1056,13 @@ Ziurys L. M., Friberg P., 1987, ApJL, 314, L49
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1605_06109v2_first_detections_of_the_key_prebiotic_molecule_po_in_star_forming_regions
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1605_06109V2_FIRST_DETECTIONS_OF_THE_KEY_PREBIOTIC_MOLECULE_PO_IN_STAR_FORMING_REGIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

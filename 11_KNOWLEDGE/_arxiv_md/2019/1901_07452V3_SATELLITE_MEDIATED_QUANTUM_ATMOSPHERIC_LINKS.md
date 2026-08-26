@@ -4710,3 +4710,13 @@ A 81, 012318 (2010).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1901_07452v3_satellite_mediated_quantum_atmospheric_links
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1901_07452V3_SATELLITE_MEDIATED_QUANTUM_ATMOSPHERIC_LINKS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

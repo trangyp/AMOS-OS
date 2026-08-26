@@ -430,3 +430,13 @@ mzhang_cs@pku.edu.cn
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_06792v1_early_prediction_of_sepsis_from_clinical_datavia_heterogeneous_event_aggregation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_06792V1_EARLY_PREDICTION_OF_SEPSIS_FROM_CLINICAL_DATAVIA_HETEROGENEOUS_EVENT_AGGREGATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1039,3 +1039,13 @@ and 10 ms () after the pulse.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1501_01442v1_superoxide_reductase_from_desulfoarculus_baarsii_reaction_mechanism_and_role_of
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1501_01442V1_SUPEROXIDE_REDUCTASE_FROM_DESULFOARCULUS_BAARSII_REACTION_MECHANISM_AND_ROLE_OF.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

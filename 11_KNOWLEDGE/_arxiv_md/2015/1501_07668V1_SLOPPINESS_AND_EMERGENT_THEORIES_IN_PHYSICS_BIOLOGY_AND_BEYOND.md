@@ -1567,3 +1567,13 @@ Royal Society of London B: Biological Sciences 280 (2013),
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1501_07668v1_sloppiness_and_emergent_theories_in_physics_biology_and_beyond
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1501_07668V1_SLOPPINESS_AND_EMERGENT_THEORIES_IN_PHYSICS_BIOLOGY_AND_BEYOND.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

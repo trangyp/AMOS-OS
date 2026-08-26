@@ -637,3 +637,13 @@ new state
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_01933_training_neural_machine_translation_nmt_models_using_tensor_train_decompositio
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_01933_TRAINING_NEURAL_MACHINE_TRANSLATION_NMT_MODELS_USING_TENSOR_TRAIN_DECOMPOSITIO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

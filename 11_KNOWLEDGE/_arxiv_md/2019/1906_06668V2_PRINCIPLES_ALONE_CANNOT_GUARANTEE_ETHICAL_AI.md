@@ -810,3 +810,13 @@ individuals as a means to protect the public.33,51
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1906_06668v2_principles_alone_cannot_guarantee_ethical_ai
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1906_06668V2_PRINCIPLES_ALONE_CANNOT_GUARANTEE_ETHICAL_AI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

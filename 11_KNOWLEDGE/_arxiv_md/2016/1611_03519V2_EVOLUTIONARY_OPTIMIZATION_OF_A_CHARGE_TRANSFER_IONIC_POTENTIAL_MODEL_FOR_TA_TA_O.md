@@ -1730,3 +1730,13 @@ Table of Contents Graphic
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1611_03519v2_evolutionary_optimization_of_a_charge_transfer_ionic_potential_model_for_ta_ta_o
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1611_03519V2_EVOLUTIONARY_OPTIMIZATION_OF_A_CHARGE_TRANSFER_IONIC_POTENTIAL_MODEL_FOR_TA_TA_O.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

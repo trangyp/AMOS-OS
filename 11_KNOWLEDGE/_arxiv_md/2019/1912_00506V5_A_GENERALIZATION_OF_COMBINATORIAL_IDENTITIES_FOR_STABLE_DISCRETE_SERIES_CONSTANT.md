@@ -3592,3 +3592,13 @@ LLC, Ann Arbor, MI, 2017, p. 270.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1912_00506v5_a_generalization_of_combinatorial_identities_for_stable_discrete_series_constant
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1912_00506V5_A_GENERALIZATION_OF_COMBINATORIAL_IDENTITIES_FOR_STABLE_DISCRETE_SERIES_CONSTANT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

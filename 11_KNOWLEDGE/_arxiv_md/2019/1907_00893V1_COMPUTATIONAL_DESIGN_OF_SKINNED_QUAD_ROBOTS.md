@@ -2188,3 +2188,13 @@ He is a member of the IEEE.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1907_00893v1_computational_design_of_skinned_quad_robots
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1907_00893V1_COMPUTATIONAL_DESIGN_OF_SKINNED_QUAD_ROBOTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

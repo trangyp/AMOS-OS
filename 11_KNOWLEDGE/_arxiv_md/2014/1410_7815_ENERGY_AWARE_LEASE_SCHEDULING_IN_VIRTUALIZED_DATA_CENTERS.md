@@ -715,3 +715,13 @@ http://bit.ly/JUQsiP
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1410_7815_energy_aware_lease_scheduling_in_virtualized_data_centers
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1410_7815_ENERGY_AWARE_LEASE_SCHEDULING_IN_VIRTUALIZED_DATA_CENTERS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

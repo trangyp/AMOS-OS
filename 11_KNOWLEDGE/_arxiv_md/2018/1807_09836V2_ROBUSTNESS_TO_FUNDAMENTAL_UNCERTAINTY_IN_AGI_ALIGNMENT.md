@@ -602,3 +602,13 @@ Aaron Zimmerman. Moral Epistemology. Routledge, 2010.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1807_09836v2_robustness_to_fundamental_uncertainty_in_agi_alignment
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1807_09836V2_ROBUSTNESS_TO_FUNDAMENTAL_UNCERTAINTY_IN_AGI_ALIGNMENT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

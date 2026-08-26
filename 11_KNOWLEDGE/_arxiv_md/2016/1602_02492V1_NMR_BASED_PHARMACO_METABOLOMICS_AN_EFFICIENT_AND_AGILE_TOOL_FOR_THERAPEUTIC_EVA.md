@@ -630,3 +630,13 @@ applications. Toxicological Sciences 2010,  kfq358.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1602_02492v1_nmr_based_pharmaco_metabolomics_an_efficient_and_agile_tool_for_therapeutic_eva
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1602_02492V1_NMR_BASED_PHARMACO_METABOLOMICS_AN_EFFICIENT_AND_AGILE_TOOL_FOR_THERAPEUTIC_EVA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

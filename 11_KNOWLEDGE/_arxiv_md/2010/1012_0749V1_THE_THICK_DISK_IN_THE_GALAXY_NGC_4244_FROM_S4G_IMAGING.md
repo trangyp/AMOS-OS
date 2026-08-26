@@ -1483,3 +1483,13 @@ of Bright Galaxies. Springer Verlag, New York (RC3)
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1012_0749v1_the_thick_disk_in_the_galaxy_ngc_4244_from_s4g_imaging
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1012_0749V1_THE_THICK_DISK_IN_THE_GALAXY_NGC_4244_FROM_S4G_IMAGING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

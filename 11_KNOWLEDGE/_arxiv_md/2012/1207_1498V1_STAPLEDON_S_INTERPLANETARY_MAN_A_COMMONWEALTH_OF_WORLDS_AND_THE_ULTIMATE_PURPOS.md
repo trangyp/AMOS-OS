@@ -809,3 +809,13 @@ December, 2011).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1207_1498v1_stapledon_s_interplanetary_man_a_commonwealth_of_worlds_and_the_ultimate_purpos
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1207_1498V1_STAPLEDON_S_INTERPLANETARY_MAN_A_COMMONWEALTH_OF_WORLDS_AND_THE_ULTIMATE_PURPOS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

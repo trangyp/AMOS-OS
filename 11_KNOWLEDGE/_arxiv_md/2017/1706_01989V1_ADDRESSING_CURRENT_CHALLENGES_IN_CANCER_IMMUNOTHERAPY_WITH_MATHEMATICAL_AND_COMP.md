@@ -1536,3 +1536,13 @@ Immunol, 37(2):141–53, Feb 2016.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1706_01989v1_addressing_current_challenges_in_cancer_immunotherapy_with_mathematical_and_comp
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1706_01989V1_ADDRESSING_CURRENT_CHALLENGES_IN_CANCER_IMMUNOTHERAPY_WITH_MATHEMATICAL_AND_COMP.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

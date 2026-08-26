@@ -901,3 +901,13 @@ Lys48-NH3
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1412_5037v1_fe3_hydroxide_ligation_in_the_superoxide_reductase_from_desulfoarculus_baarsii
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1412_5037V1_FE3_HYDROXIDE_LIGATION_IN_THE_SUPEROXIDE_REDUCTASE_FROM_DESULFOARCULUS_BAARSII.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

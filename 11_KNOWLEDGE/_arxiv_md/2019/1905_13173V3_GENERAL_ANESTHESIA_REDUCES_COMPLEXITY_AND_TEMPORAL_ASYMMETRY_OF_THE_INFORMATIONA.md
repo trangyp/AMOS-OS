@@ -1694,3 +1694,13 @@ J. Reichardt, Chaos 21, 037107 (2011).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_13173v3_general_anesthesia_reduces_complexity_and_temporal_asymmetry_of_the_informationa
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_13173V3_GENERAL_ANESTHESIA_REDUCES_COMPLEXITY_AND_TEMPORAL_ASYMMETRY_OF_THE_INFORMATIONA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

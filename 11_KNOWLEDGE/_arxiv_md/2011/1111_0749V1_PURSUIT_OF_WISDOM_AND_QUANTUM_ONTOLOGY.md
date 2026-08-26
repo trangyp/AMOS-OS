@@ -777,3 +777,13 @@ kins (The Arthur J. Banning Press, Minneapolis, Minnesota, 1998) p. 124.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1111_0749v1_pursuit_of_wisdom_and_quantum_ontology
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1111_0749V1_PURSUIT_OF_WISDOM_AND_QUANTUM_ONTOLOGY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

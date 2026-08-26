@@ -3133,3 +3133,13 @@ C 89, no. 4, 044905 (2014).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1512_01599v1_ccharge_multiplicity_dependence_of_single_particle_transverse_rapidity_bf_y_t
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1512_01599V1_CCHARGE_MULTIPLICITY_DEPENDENCE_OF_SINGLE_PARTICLE_TRANSVERSE_RAPIDITY_BF_Y_T.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

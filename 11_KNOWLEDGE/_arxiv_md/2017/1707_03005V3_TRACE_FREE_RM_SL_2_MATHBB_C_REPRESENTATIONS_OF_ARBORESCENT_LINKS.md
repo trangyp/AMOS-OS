@@ -1003,3 +1003,13 @@ SL2(C)-characters of a knot group. Math. Ann. 354 (2012), 967–1002.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1707_03005v3_trace_free_rm_sl_2_mathbb_c_representations_of_arborescent_links
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1707_03005V3_TRACE_FREE_RM_SL_2_MATHBB_C_REPRESENTATIONS_OF_ARBORESCENT_LINKS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

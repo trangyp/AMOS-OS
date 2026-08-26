@@ -1203,3 +1203,13 @@ http://www.youtube.com/watch?v=oTIEpqMwCbk,\from\3:20\to\3:
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1108_2865v1_conscious_machines_and_consciousness_oriented_programming
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1108_2865V1_CONSCIOUS_MACHINES_AND_CONSCIOUSNESS_ORIENTED_PROGRAMMING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -235,3 +235,13 @@ protein (RB): insulin-binding protein and beyond. Logical Biol. 5:122-124.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0706_1996v1_planet_rb_a_personal_contribution_to_a_proteomic_map_of_human_retinoblastoma_pr
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0706_1996V1_PLANET_RB_A_PERSONAL_CONTRIBUTION_TO_A_PROTEOMIC_MAP_OF_HUMAN_RETINOBLASTOMA_PR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

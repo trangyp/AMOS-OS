@@ -906,3 +906,13 @@ N.Hosoito and H.Hashizume,J.Magn.Magn.Mater 286 65 (2005)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1107_5225v1_magnetic_behaviour_of_disordered_ising_ferrimagnet_in_high_magnetic_field
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1107_5225V1_MAGNETIC_BEHAVIOUR_OF_DISORDERED_ISING_FERRIMAGNET_IN_HIGH_MAGNETIC_FIELD.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

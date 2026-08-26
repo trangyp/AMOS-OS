@@ -3408,3 +3408,13 @@ This makes `STATUS_LEGEND.md` the semantic firewall preventing the AMOS Cognitiv
 
 ---
 **Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: status_legend
+node_type: note
+path: 25_COGNITIVE_MATRIX/00_INDEX/STATUS_LEGEND.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

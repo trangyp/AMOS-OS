@@ -2973,3 +2973,13 @@ Inorganica Chimica Acta 356, 328–334 (2003).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1404_0481v2_turbulent_mixing_of_a_slightly_supercritical_van_der_waals_fluid_at_low_mach_num
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1404_0481V2_TURBULENT_MIXING_OF_A_SLIGHTLY_SUPERCRITICAL_VAN_DER_WAALS_FLUID_AT_LOW_MACH_NUM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

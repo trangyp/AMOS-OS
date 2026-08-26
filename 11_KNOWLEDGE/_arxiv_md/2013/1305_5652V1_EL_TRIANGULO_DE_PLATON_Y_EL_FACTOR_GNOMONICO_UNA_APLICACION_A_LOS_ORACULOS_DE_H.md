@@ -523,3 +523,13 @@ Figura 6.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1305_5652v1_el_triangulo_de_platon_y_el_factor_gnomonico_una_aplicacion_a_los_oraculos_de_h
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1305_5652V1_EL_TRIANGULO_DE_PLATON_Y_EL_FACTOR_GNOMONICO_UNA_APLICACION_A_LOS_ORACULOS_DE_H.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

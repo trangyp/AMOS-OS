@@ -649,3 +649,13 @@ pp. 4180–4183, Nov. 1998.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_05472v1_nmr_close_to_mega_bar_pressures
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_05472V1_NMR_CLOSE_TO_MEGA_BAR_PRESSURES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

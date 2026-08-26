@@ -1057,3 +1057,13 @@ URL: http://www.mat.uniroma2.it/~lipparin
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1703_06908v2_an_infinite_natural_product
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1703_06908V2_AN_INFINITE_NATURAL_PRODUCT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

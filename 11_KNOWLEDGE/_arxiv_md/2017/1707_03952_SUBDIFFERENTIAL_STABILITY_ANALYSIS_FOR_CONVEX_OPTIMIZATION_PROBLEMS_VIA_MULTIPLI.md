@@ -1036,3 +1036,13 @@ nonlinear programming. Math. Progr. Study 17, 28–66 (1982)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1707_03952_subdifferential_stability_analysis_for_convex_optimization_problems_via_multipli
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1707_03952_SUBDIFFERENTIAL_STABILITY_ANALYSIS_FOR_CONVEX_OPTIMIZATION_PROBLEMS_VIA_MULTIPLI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

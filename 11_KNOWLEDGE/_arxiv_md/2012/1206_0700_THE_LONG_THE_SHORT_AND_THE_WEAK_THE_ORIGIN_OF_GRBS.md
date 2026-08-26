@@ -657,3 +657,13 @@ The origin of GRBs
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1206_0700_the_long_the_short_and_the_weak_the_origin_of_grbs
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1206_0700_THE_LONG_THE_SHORT_AND_THE_WEAK_THE_ORIGIN_OF_GRBS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

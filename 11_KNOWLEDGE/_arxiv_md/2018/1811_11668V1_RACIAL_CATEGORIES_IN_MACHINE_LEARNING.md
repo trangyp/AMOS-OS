@@ -1226,3 +1226,13 @@ tion of race. The Annals of the American Academy of Political and Social Science
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1811_11668v1_racial_categories_in_machine_learning
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_11668V1_RACIAL_CATEGORIES_IN_MACHINE_LEARNING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -561,3 +561,13 @@ abs/1708.08989, 2017.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1808_05578v1_larnn_linear_attention_recurrent_neural_network
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1808_05578V1_LARNN_LINEAR_ATTENTION_RECURRENT_NEURAL_NETWORK.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

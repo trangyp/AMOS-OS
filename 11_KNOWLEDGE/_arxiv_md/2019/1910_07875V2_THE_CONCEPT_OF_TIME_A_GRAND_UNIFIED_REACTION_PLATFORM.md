@@ -1042,3 +1042,13 @@ Biol. Bull. 190, 302 (1996)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_07875v2_the_concept_of_time_a_grand_unified_reaction_platform
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_07875V2_THE_CONCEPT_OF_TIME_A_GRAND_UNIFIED_REACTION_PLATFORM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -66,3 +66,13 @@ confidence_ceiling: 0
 
 ---
 **Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: o12_plan_lifecycle_operations_cognitive_matrix_failure_modes
+node_type: note
+path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O12_PLAN/O12_PLAN_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_FAILURE_MODES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

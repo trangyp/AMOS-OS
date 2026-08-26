@@ -1362,3 +1362,13 @@ ng
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1101_3726v1_a_primer_on_computational_simulation_in_congenital_heart_disease_for_the_clinici
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1101_3726V1_A_PRIMER_ON_COMPUTATIONAL_SIMULATION_IN_CONGENITAL_HEART_DISEASE_FOR_THE_CLINICI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

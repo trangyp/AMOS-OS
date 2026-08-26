@@ -754,3 +754,13 @@ Uchiyama H., Nobukawa M., Tsuru T. G., Koyama K., 2013, PASJ, 65,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1706_08771v1_giant_hi_hole_inside_the_3_kpc_ring_and_the_north_polar_spur_the_galactic_crat
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1706_08771V1_GIANT_HI_HOLE_INSIDE_THE_3_KPC_RING_AND_THE_NORTH_POLAR_SPUR_THE_GALACTIC_CRAT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

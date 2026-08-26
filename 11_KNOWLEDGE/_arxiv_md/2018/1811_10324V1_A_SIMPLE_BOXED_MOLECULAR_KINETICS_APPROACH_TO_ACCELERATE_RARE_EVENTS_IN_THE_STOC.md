@@ -1243,3 +1243,13 @@ Physics, 2015, 17, 8372-8381.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1811_10324v1_a_simple_boxed_molecular_kinetics_approach_to_accelerate_rare_events_in_the_stoc
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_10324V1_A_SIMPLE_BOXED_MOLECULAR_KINETICS_APPROACH_TO_ACCELERATE_RARE_EVENTS_IN_THE_STOC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

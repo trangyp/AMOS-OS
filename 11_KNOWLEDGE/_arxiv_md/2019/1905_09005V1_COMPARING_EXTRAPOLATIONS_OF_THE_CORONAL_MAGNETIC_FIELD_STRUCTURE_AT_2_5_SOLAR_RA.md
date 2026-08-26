@@ -957,3 +957,13 @@ Article number, page 9 of 9
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_09005v1_comparing_extrapolations_of_the_coronal_magnetic_field_structure_at_2_5_solar_ra
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_09005V1_COMPARING_EXTRAPOLATIONS_OF_THE_CORONAL_MAGNETIC_FIELD_STRUCTURE_AT_2_5_SOLAR_RA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

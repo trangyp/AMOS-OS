@@ -1038,3 +1038,13 @@ E-mail address: ivgelder@vub.ac.be
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1203_5232v2_central_units_of_integral_group_rings
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1203_5232V2_CENTRAL_UNITS_OF_INTEGRAL_GROUP_RINGS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

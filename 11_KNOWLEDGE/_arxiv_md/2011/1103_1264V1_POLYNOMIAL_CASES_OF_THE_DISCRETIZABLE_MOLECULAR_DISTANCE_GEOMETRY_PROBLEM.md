@@ -756,3 +756,13 @@ g
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1103_1264v1_polynomial_cases_of_the_discretizable_molecular_distance_geometry_problem
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1103_1264V1_POLYNOMIAL_CASES_OF_THE_DISCRETIZABLE_MOLECULAR_DISTANCE_GEOMETRY_PROBLEM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

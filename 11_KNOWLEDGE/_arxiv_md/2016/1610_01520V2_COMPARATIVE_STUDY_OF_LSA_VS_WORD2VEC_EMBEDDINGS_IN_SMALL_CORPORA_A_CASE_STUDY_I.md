@@ -735,3 +735,13 @@ the lsa dimension. In KDIR, pages 309–313, 2011.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1610_01520v2_comparative_study_of_lsa_vs_word2vec_embeddings_in_small_corpora_a_case_study_i
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1610_01520V2_COMPARATIVE_STUDY_OF_LSA_VS_WORD2VEC_EMBEDDINGS_IN_SMALL_CORPORA_A_CASE_STUDY_I.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

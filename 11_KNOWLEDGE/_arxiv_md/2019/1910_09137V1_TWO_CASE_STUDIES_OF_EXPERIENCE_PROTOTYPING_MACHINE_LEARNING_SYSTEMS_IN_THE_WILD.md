@@ -299,3 +299,13 @@ Factors in Computing Systems (CHI ’16). ACM, New York, NY, USA, 4477–4488. h
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_09137v1_two_case_studies_of_experience_prototyping_machine_learning_systems_in_the_wild
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_09137V1_TWO_CASE_STUDIES_OF_EXPERIENCE_PROTOTYPING_MACHINE_LEARNING_SYSTEMS_IN_THE_WILD.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

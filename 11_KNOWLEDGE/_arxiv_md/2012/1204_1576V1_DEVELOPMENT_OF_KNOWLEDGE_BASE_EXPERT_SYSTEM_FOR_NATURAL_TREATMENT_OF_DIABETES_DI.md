@@ -315,3 +315,13 @@ Intelligence, Expert System and Software Testing.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1204_1576v1_development_of_knowledge_base_expert_system_for_natural_treatment_of_diabetes_di
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1204_1576V1_DEVELOPMENT_OF_KNOWLEDGE_BASE_EXPERT_SYSTEM_FOR_NATURAL_TREATMENT_OF_DIABETES_DI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

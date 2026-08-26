@@ -966,3 +966,13 @@ Valor p
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_07343v1_the_impact_of_binaural_white_noise_with_oscillations_of_100_to_750hz_in_the_shor
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_07343V1_THE_IMPACT_OF_BINAURAL_WHITE_NOISE_WITH_OSCILLATIONS_OF_100_TO_750HZ_IN_THE_SHOR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

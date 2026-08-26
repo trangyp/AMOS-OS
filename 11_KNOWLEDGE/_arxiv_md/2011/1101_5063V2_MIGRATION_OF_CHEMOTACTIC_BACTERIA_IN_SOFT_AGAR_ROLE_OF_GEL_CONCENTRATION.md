@@ -1542,3 +1542,13 @@ Figure 5:
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1101_5063v2_migration_of_chemotactic_bacteria_in_soft_agar_role_of_gel_concentration
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1101_5063V2_MIGRATION_OF_CHEMOTACTIC_BACTERIA_IN_SOFT_AGAR_ROLE_OF_GEL_CONCENTRATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

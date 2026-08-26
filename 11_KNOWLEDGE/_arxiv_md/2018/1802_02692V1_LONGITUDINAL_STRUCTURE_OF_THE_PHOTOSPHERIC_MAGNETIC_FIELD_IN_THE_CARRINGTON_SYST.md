@@ -280,3 +280,13 @@ SMFI randomly distributed along the longitudes are plotted by dots.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1802_02692v1_longitudinal_structure_of_the_photospheric_magnetic_field_in_the_carrington_syst
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1802_02692V1_LONGITUDINAL_STRUCTURE_OF_THE_PHOTOSPHERIC_MAGNETIC_FIELD_IN_THE_CARRINGTON_SYST.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

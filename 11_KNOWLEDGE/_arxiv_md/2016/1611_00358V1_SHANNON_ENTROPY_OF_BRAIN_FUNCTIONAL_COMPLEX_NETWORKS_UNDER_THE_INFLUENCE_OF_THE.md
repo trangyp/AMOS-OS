@@ -854,3 +854,13 @@ p-values for the t-test, with asterisks (*) indicating p < 0.005.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1611_00358v1_shannon_entropy_of_brain_functional_complex_networks_under_the_influence_of_the
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1611_00358V1_SHANNON_ENTROPY_OF_BRAIN_FUNCTIONAL_COMPLEX_NETWORKS_UNDER_THE_INFLUENCE_OF_THE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

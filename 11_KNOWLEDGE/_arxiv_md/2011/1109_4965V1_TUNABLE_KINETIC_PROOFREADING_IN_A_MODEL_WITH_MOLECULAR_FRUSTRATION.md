@@ -1480,3 +1480,13 @@ description of reaction mechanism. Proc Natl Acad Sci USA 106(33):13737-13741
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1109_4965v1_tunable_kinetic_proofreading_in_a_model_with_molecular_frustration
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1109_4965V1_TUNABLE_KINETIC_PROOFREADING_IN_A_MODEL_WITH_MOLECULAR_FRUSTRATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

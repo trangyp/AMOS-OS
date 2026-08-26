@@ -245,3 +245,13 @@ http://www.nist.gov/public_affairs/releases/aps_050209.html
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0810_1493_gravitinos_the_lithium_problem_and_dm_production_is_there_a_corresponding_neu
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0810_1493_GRAVITINOS_THE_LITHIUM_PROBLEM_AND_DM_PRODUCTION_IS_THERE_A_CORRESPONDING_NEU.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

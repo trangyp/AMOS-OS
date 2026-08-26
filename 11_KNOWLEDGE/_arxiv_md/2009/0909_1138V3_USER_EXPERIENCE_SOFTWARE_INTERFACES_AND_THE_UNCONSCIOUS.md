@@ -594,3 +594,13 @@ causality.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0909_1138v3_user_experience_software_interfaces_and_the_unconscious
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0909_1138V3_USER_EXPERIENCE_SOFTWARE_INTERFACES_AND_THE_UNCONSCIOUS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

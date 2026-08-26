@@ -1680,3 +1680,13 @@ J. Appl. Math., 62(6):1872–1898, 2002.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1810_06726v1_geometric_quantization_of_localized_surface_plasmons
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1810_06726V1_GEOMETRIC_QUANTIZATION_OF_LOCALIZED_SURFACE_PLASMONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

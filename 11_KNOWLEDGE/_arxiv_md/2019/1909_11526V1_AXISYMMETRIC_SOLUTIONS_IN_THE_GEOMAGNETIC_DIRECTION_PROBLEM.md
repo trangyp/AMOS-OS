@@ -6453,3 +6453,13 @@ Proctor, M. R. E., Gubbins, D., Analysis of geomagnetic directional data. Geophy
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1909_11526v1_axisymmetric_solutions_in_the_geomagnetic_direction_problem
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1909_11526V1_AXISYMMETRIC_SOLUTIONS_IN_THE_GEOMAGNETIC_DIRECTION_PROBLEM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

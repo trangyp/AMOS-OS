@@ -2347,3 +2347,13 @@ Rotating Optical Resonator”, Phys. Rev. Lett. 95, 150401 (2005) arXiv:physics/
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0807_0328v1_the_two_faces_of_the_coin_of_special_relativity
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0807_0328V1_THE_TWO_FACES_OF_THE_COIN_OF_SPECIAL_RELATIVITY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

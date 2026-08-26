@@ -1166,3 +1166,13 @@ M´usica de la FADA, San Lorenzo Paraguay, 2013.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1707_09379v1_illusions_a_model_of_mind
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1707_09379V1_ILLUSIONS_A_MODEL_OF_MIND.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -748,3 +748,13 @@ tics, 2003, pp. 142–147.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1811_03754_neural_sequence_labeling_for_vietnamese_pos_tagging_and_ner
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_03754_NEURAL_SEQUENCE_LABELING_FOR_VIETNAMESE_POS_TAGGING_AND_NER.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

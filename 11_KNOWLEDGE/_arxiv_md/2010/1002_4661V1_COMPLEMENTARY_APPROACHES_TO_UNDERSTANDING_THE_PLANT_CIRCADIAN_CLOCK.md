@@ -1732,3 +1732,13 @@ simplex method in low dimensions. SIAM J. Optimiz. 9(1), pp. 112–147.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1002_4661v1_complementary_approaches_to_understanding_the_plant_circadian_clock
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1002_4661V1_COMPLEMENTARY_APPROACHES_TO_UNDERSTANDING_THE_PLANT_CIRCADIAN_CLOCK.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

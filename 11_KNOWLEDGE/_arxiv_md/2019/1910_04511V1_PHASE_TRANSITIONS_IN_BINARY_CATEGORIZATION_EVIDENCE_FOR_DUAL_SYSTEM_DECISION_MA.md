@@ -266,3 +266,13 @@ quantity, Trends in Cognitive Sciences 7(11), 483–488.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1910_04511v1_phase_transitions_in_binary_categorization_evidence_for_dual_system_decision_ma
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_04511V1_PHASE_TRANSITIONS_IN_BINARY_CATEGORIZATION_EVIDENCE_FOR_DUAL_SYSTEM_DECISION_MA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

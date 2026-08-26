@@ -794,3 +794,13 @@ transform in the ecg signal,” Journal of electrocardiology, vol. 47, 08
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1904_08495v1_an_unsupervised_feature_learning_approach_to_reduce_false_alarm_rate_in_icus
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1904_08495V1_AN_UNSUPERVISED_FEATURE_LEARNING_APPROACH_TO_REDUCE_FALSE_ALARM_RATE_IN_ICUS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

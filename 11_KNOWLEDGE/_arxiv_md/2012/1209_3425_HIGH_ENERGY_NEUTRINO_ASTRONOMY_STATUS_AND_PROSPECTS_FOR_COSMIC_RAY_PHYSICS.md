@@ -372,3 +372,13 @@ V. Van Elewyck [KM3NeT Coll.], PoS TEXAS 2010 (2010) 235.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1209_3425_high_energy_neutrino_astronomy_status_and_prospects_for_cosmic_ray_physics
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1209_3425_HIGH_ENERGY_NEUTRINO_ASTRONOMY_STATUS_AND_PROSPECTS_FOR_COSMIC_RAY_PHYSICS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

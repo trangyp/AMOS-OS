@@ -3095,3 +3095,13 @@ Computation 9(8), 1735–1780 (1997)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1811_12119v2_a_machine_learning_phase_classification_scheme_for_anomaly_detection_in_signals
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1811_12119V2_A_MACHINE_LEARNING_PHASE_CLASSIFICATION_SCHEME_FOR_ANOMALY_DETECTION_IN_SIGNALS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

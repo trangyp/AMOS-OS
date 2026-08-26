@@ -908,3 +908,13 @@ Molecular Computation by DNA Hairpin Formation. Science, 288(5469):1223–1226, 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1101_4824v1_it_is_nl_complete_to_decide_whether_a_hairpin_completion_of_regular_languages_is
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1101_4824V1_IT_IS_NL_COMPLETE_TO_DECIDE_WHETHER_A_HAIRPIN_COMPLETION_OF_REGULAR_LANGUAGES_IS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

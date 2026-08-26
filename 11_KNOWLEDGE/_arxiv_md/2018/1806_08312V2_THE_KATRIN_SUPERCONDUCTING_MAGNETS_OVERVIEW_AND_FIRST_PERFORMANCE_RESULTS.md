@@ -2540,3 +2540,13 @@ photo-electron source for the commissioning of the KATRIN experiment. Eur. Phys.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_08312v2_the_katrin_superconducting_magnets_overview_and_first_performance_results
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_08312V2_THE_KATRIN_SUPERCONDUCTING_MAGNETS_OVERVIEW_AND_FIRST_PERFORMANCE_RESULTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

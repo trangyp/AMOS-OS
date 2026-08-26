@@ -940,3 +940,13 @@ Commons by Attribution (CC-BY) license (http://creativecommons.org/licenses/by/4
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1612_09311v1_image_of_inverted_world_tree_on_the_stone_slab_and_vessels_of_the_bronze_age
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1612_09311V1_IMAGE_OF_INVERTED_WORLD_TREE_ON_THE_STONE_SLAB_AND_VESSELS_OF_THE_BRONZE_AGE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

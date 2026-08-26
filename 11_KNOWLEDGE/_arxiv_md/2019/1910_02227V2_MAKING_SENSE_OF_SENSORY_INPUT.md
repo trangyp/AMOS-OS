@@ -3258,3 +3258,13 @@ sciences 360 (1456) (2005) 815–836.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1910_02227v2_making_sense_of_sensory_input
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1910_02227V2_MAKING_SENSE_OF_SENSORY_INPUT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

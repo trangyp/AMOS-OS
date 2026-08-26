@@ -700,3 +700,13 @@ Malaysia. Biomed Res. 2011;22(3).
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1909_01856v1_antibacterial_and_antifungal_activity_of_various_extracts_of_bacopa_monnieri
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1909_01856V1_ANTIBACTERIAL_AND_ANTIFUNGAL_ACTIVITY_OF_VARIOUS_EXTRACTS_OF_BACOPA_MONNIERI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

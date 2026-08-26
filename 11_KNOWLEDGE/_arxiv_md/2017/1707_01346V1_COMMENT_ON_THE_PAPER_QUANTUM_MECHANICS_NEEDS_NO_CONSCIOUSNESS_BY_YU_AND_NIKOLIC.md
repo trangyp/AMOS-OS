@@ -137,3 +137,13 @@ Oxford,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1707_01346v1_comment_on_the_paper_quantum_mechanics_needs_no_consciousness_by_yu_and_nikolic
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1707_01346V1_COMMENT_ON_THE_PAPER_QUANTUM_MECHANICS_NEEDS_NO_CONSCIOUSNESS_BY_YU_AND_NIKOLIC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

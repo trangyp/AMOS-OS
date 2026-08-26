@@ -7445,3 +7445,13 @@ Probabilities: Inverting Born’s Rule. arXiv:1105.4810v1[quant-ph]. (2011)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1807_07669v1_modelling_of_consciousness_and_interpretation_of_quantum_mechanics
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1807_07669V1_MODELLING_OF_CONSCIOUSNESS_AND_INTERPRETATION_OF_QUANTUM_MECHANICS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

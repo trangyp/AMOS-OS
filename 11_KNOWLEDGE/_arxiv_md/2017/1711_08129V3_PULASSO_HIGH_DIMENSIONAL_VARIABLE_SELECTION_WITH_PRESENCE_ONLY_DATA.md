@@ -4723,3 +4723,13 @@ series in management. Prentice-Hall, 1969.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1711_08129v3_pulasso_high_dimensional_variable_selection_with_presence_only_data
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1711_08129V3_PULASSO_HIGH_DIMENSIONAL_VARIABLE_SELECTION_WITH_PRESENCE_ONLY_DATA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

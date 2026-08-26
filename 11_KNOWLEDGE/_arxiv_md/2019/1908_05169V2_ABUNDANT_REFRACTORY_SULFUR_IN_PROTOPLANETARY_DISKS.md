@@ -1132,3 +1132,13 @@ lighter-coloured symbols.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1908_05169v2_abundant_refractory_sulfur_in_protoplanetary_disks
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1908_05169V2_ABUNDANT_REFRACTORY_SULFUR_IN_PROTOPLANETARY_DISKS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

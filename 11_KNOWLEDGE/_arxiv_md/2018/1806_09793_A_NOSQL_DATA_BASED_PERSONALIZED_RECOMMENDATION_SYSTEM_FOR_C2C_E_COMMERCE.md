@@ -655,3 +655,13 @@ tems Handbook, Springer, pp. 265-308 (2015)
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1806_09793_a_nosql_data_based_personalized_recommendation_system_for_c2c_e_commerce
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1806_09793_A_NOSQL_DATA_BASED_PERSONALIZED_RECOMMENDATION_SYSTEM_FOR_C2C_E_COMMERCE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

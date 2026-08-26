@@ -492,3 +492,13 @@ References
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1409_3129_extragalactic_propagation_of_ultra_high_energy_cosmic_rays
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1409_3129_EXTRAGALACTIC_PROPAGATION_OF_ULTRA_HIGH_ENERGY_COSMIC_RAYS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -699,3 +699,13 @@ doi:10.1111/cogs.12346
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1608_03587v2_the_statistical_trade_off_between_word_order_and_word_structure_large_scale_ev
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1608_03587V2_THE_STATISTICAL_TRADE_OFF_BETWEEN_WORD_ORDER_AND_WORD_STRUCTURE_LARGE_SCALE_EV.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

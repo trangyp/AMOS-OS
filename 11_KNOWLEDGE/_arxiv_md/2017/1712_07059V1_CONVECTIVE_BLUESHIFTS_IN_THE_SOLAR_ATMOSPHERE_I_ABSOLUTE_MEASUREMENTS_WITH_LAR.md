@@ -3069,3 +3069,13 @@ Article number, page 19 of 19
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1712_07059v1_convective_blueshifts_in_the_solar_atmosphere_i_absolute_measurements_with_lar
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1712_07059V1_CONVECTIVE_BLUESHIFTS_IN_THE_SOLAR_ATMOSPHERE_I_ABSOLUTE_MEASUREMENTS_WITH_LAR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

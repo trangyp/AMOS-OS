@@ -2295,3 +2295,13 @@ frequency of the named entities are the number of occurrences each named entity 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1804_07878v2_massively_parallel_cross_lingual_learning_in_low_resource_target_language_transl
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1804_07878V2_MASSIVELY_PARALLEL_CROSS_LINGUAL_LEARNING_IN_LOW_RESOURCE_TARGET_LANGUAGE_TRANSL.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

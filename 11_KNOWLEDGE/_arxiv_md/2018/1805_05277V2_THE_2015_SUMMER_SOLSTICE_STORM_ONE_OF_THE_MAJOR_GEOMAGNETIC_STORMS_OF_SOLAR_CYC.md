@@ -1681,3 +1681,13 @@ APPENDIX
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_05277v2_the_2015_summer_solstice_storm_one_of_the_major_geomagnetic_storms_of_solar_cyc
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_05277V2_THE_2015_SUMMER_SOLSTICE_STORM_ONE_OF_THE_MAJOR_GEOMAGNETIC_STORMS_OF_SOLAR_CYC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

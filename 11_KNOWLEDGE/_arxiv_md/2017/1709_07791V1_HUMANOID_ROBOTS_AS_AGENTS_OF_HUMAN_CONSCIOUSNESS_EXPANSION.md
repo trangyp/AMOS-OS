@@ -682,3 +682,13 @@ Open Journal of Social Sciences,
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1709_07791v1_humanoid_robots_as_agents_of_human_consciousness_expansion
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1709_07791V1_HUMANOID_ROBOTS_AS_AGENTS_OF_HUMAN_CONSCIOUSNESS_EXPANSION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

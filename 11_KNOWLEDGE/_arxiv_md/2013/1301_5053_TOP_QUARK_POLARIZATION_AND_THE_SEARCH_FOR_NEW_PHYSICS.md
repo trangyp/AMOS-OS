@@ -664,3 +664,13 @@ ex]].
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1301_5053_top_quark_polarization_and_the_search_for_new_physics
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1301_5053_TOP_QUARK_POLARIZATION_AND_THE_SEARCH_FOR_NEW_PHYSICS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

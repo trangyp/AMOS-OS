@@ -893,3 +893,13 @@ E-mail address: sage@math.lsu.edu
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1203_0765v1_atomistic_subsemirings_of_the_lattice_of_subspaces_of_an_algebra
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1203_0765V1_ATOMISTIC_SUBSEMIRINGS_OF_THE_LATTICE_OF_SUBSPACES_OF_AN_ALGEBRA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

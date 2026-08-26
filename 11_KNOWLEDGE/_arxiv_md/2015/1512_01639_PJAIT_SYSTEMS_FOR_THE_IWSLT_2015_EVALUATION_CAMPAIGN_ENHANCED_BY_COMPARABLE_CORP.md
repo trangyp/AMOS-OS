@@ -755,3 +755,13 @@ Conference on Language Resources and Evaluation
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1512_01639_pjait_systems_for_the_iwslt_2015_evaluation_campaign_enhanced_by_comparable_corp
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1512_01639_PJAIT_SYSTEMS_FOR_THE_IWSLT_2015_EVALUATION_CAMPAIGN_ENHANCED_BY_COMPARABLE_CORP.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

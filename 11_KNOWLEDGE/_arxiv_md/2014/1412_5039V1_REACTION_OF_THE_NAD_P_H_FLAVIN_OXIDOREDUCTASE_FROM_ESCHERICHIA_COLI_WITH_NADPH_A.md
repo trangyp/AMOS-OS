@@ -977,3 +977,13 @@ s-1, k2 = 52 s-1, k3 = 31 s-1, k4 = 9.6 s-1. The dashed line is the spectrum of 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1412_5039v1_reaction_of_the_nad_p_h_flavin_oxidoreductase_from_escherichia_coli_with_nadph_a
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1412_5039V1_REACTION_OF_THE_NAD_P_H_FLAVIN_OXIDOREDUCTASE_FROM_ESCHERICHIA_COLI_WITH_NADPH_A.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -404,3 +404,13 @@ The authors declare no conflict of interest.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1504_08298v1_reply_to_saint_antonin_low_oxygen_tolerant_animals_predate_oceanic_anoxic_event
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1504_08298V1_REPLY_TO_SAINT_ANTONIN_LOW_OXYGEN_TOLERANT_ANIMALS_PREDATE_OCEANIC_ANOXIC_EVENT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

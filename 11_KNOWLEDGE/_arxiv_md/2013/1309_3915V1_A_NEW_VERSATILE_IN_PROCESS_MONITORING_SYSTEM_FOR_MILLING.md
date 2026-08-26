@@ -1266,3 +1266,13 @@ Table 1. Summary of properties of process-based TCM criteria.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1309_3915v1_a_new_versatile_in_process_monitoring_system_for_milling
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1309_3915V1_A_NEW_VERSATILE_IN_PROCESS_MONITORING_SYSTEM_FOR_MILLING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

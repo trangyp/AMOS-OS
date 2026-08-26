@@ -1537,3 +1537,13 @@ transport, and electrophysiology. Journal of Biological Chemistry, 282(34):24525
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1905_12958v2_physically_plausible_modelling_of_biomolecular_systems_a_simplified_energy_bas
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1905_12958V2_PHYSICALLY_PLAUSIBLE_MODELLING_OF_BIOMOLECULAR_SYSTEMS_A_SIMPLIFIED_ENERGY_BAS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -429,3 +429,13 @@ doi:10.1103/PhysRevD.93.051104 [arXiv:1601.05037 [hep-ex]].
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1611_00220_should_t2k_run_in_dominant_neutrino_mode_to_detect_cp_violation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1611_00220_SHOULD_T2K_RUN_IN_DOMINANT_NEUTRINO_MODE_TO_DETECT_CP_VIOLATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

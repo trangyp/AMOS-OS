@@ -4396,3 +4396,13 @@ rived Categories”, Progress in Mathematics, 88 (1990), 247–435.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 0705_2597v2_adelic_resolution_for_homology_sheaves
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2007/0705_2597V2_ADELIC_RESOLUTION_FOR_HOMOLOGY_SHEAVES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

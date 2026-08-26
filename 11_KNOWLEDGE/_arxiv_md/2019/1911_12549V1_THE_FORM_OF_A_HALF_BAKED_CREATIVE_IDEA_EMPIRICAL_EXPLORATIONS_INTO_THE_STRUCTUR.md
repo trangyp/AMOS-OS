@@ -1504,3 +1504,13 @@ indicative of one theory or the other even if you are not sure of your answer.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_12549v1_the_form_of_a_half_baked_creative_idea_empirical_explorations_into_the_structur
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_12549V1_THE_FORM_OF_A_HALF_BAKED_CREATIVE_IDEA_EMPIRICAL_EXPLORATIONS_INTO_THE_STRUCTUR.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -614,3 +614,13 @@ ISSN 1947-5500
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0911_0486_building_a_vietnamese_language_query_processing_framework_for_elibrary_searching
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0911_0486_BUILDING_A_VIETNAMESE_LANGUAGE_QUERY_PROCESSING_FRAMEWORK_FOR_ELIBRARY_SEARCHING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

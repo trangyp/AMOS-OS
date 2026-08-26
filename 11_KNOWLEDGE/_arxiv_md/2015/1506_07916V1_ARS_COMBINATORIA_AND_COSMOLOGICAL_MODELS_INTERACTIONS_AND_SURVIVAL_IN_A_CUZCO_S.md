@@ -715,3 +715,13 @@ Yates, F. A. [1982] Ensayos reunidos. Tomo I, México, Fondo de Cultura Económi
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1506_07916v1_ars_combinatoria_and_cosmological_models_interactions_and_survival_in_a_cuzco_s
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1506_07916V1_ARS_COMBINATORIA_AND_COSMOLOGICAL_MODELS_INTERACTIONS_AND_SURVIVAL_IN_A_CUZCO_S.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

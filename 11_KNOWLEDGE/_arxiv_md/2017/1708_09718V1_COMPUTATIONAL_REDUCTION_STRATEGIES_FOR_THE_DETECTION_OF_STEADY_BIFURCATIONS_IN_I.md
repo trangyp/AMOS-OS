@@ -1856,3 +1856,13 @@ echocardiography.” In: Eur. J. Echocardiogr. 4 (2003), pp. 237–261.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1708_09718v1_computational_reduction_strategies_for_the_detection_of_steady_bifurcations_in_i
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1708_09718V1_COMPUTATIONAL_REDUCTION_STRATEGIES_FOR_THE_DETECTION_OF_STEADY_BIFURCATIONS_IN_I.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

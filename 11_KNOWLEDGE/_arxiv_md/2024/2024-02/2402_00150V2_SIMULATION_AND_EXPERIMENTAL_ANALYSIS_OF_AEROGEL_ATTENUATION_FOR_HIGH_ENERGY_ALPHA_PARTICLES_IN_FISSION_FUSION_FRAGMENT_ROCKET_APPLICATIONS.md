@@ -657,3 +657,13 @@ Reference Database 78.” [object Object], 1999. doi: 10.18434/T4W30F.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 2402_00150v2_simulation_and_experimental_analysis_of_aerogel_attenuation_for_high_energy_alpha_parti
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2024/2024-02/2402_00150V2_SIMULATION_AND_EXPERIMENTAL_ANALYSIS_OF_AEROGEL_ATTENUATION_FOR_HIGH_ENERGY_ALPHA_PARTICLES_IN_FISSION_FUSION_FRAGMENT_ROCKET_APPLICATIONS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

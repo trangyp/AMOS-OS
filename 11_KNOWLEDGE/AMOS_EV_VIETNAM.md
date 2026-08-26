@@ -3633,3 +3633,13 @@ hạ tầng và dữ liệu.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: amos_ev_vietnam
+node_type: note
+path: 11_KNOWLEDGE/AMOS_EV_VIETNAM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

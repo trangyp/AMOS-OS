@@ -455,3 +455,13 @@ and Illia Polosukhin. Attention is all you need. In Advances in Neural Informati
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1904_08514v2_deepnovov2_better_de_novo_peptide_sequencing_with_deep_learning
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1904_08514V2_DEEPNOVOV2_BETTER_DE_NOVO_PEPTIDE_SEQUENCING_WITH_DEEP_LEARNING.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

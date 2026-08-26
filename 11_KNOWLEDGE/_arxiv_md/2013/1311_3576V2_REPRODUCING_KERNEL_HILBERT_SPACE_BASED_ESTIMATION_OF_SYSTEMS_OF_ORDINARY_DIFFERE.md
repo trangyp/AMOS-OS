@@ -1262,3 +1262,13 @@ as we aimed to prove.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1311_3576v2_reproducing_kernel_hilbert_space_based_estimation_of_systems_of_ordinary_differe
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2013/1311_3576V2_REPRODUCING_KERNEL_HILBERT_SPACE_BASED_ESTIMATION_OF_SYSTEMS_OF_ORDINARY_DIFFERE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

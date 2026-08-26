@@ -1531,3 +1531,13 @@ References
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1808_00824v1_non_covalent_bonds_between_optical_solitons_in_an_optoacoustically_mode_locked_f
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1808_00824V1_NON_COVALENT_BONDS_BETWEEN_OPTICAL_SOLITONS_IN_AN_OPTOACOUSTICALLY_MODE_LOCKED_F.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

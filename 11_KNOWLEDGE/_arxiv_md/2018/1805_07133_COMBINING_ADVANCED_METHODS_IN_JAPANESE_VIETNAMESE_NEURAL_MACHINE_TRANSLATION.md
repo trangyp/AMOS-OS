@@ -908,3 +908,13 @@ Louisiana, USA, February 2018.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_07133_combining_advanced_methods_in_japanese_vietnamese_neural_machine_translation
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_07133_COMBINING_ADVANCED_METHODS_IN_JAPANESE_VIETNAMESE_NEURAL_MACHINE_TRANSLATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

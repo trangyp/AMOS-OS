@@ -16,3 +16,13 @@ Do not treat this placeholder as implemented logic, empirical validation, or fin
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: market_intelligence_domains_market_intelligence_contract
+node_type: note
+path: 21_DOMAINS/36_MARKET_INTELLIGENCE/00_INDEX/MARKET_INTELLIGENCE_DOMAINS_MARKET_INTELLIGENCE_CONTRACT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

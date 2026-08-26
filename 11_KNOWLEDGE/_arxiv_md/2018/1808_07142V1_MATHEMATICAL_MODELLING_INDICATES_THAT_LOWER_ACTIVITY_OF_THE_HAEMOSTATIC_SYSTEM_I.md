@@ -672,3 +672,13 @@ Computing (2016). <http://www.R-project.org/>.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1808_07142v1_mathematical_modelling_indicates_that_lower_activity_of_the_haemostatic_system_i
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1808_07142V1_MATHEMATICAL_MODELLING_INDICATES_THAT_LOWER_ACTIVITY_OF_THE_HAEMOSTATIC_SYSTEM_I.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

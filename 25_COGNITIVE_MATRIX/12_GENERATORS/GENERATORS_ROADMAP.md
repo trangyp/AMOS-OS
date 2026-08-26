@@ -3215,3 +3215,13 @@ The key distinction is that `ROADMAP.md` should now own **sequencing, maturity, 
 
 ---
 **Related:** [[00-Home]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: generators_roadmap
+node_type: note
+path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_ROADMAP.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

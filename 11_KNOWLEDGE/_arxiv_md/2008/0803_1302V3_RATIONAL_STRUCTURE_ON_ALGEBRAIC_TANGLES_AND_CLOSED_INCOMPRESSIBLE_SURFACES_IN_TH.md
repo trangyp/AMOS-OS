@@ -715,3 +715,13 @@ E-mail address: w3c@komazawa-u.ac.jp
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0803_1302v3_rational_structure_on_algebraic_tangles_and_closed_incompressible_surfaces_in_th
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2008/0803_1302V3_RATIONAL_STRUCTURE_ON_ALGEBRAIC_TANGLES_AND_CLOSED_INCOMPRESSIBLE_SURFACES_IN_TH.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

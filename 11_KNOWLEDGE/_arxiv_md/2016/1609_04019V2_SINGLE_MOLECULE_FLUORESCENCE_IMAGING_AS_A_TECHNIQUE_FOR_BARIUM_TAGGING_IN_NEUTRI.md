@@ -850,3 +850,13 @@ Laboratory Press: Cold Spring Harbor, New York (2006), pp. 585–601.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1609_04019v2_single_molecule_fluorescence_imaging_as_a_technique_for_barium_tagging_in_neutri
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1609_04019V2_SINGLE_MOLECULE_FLUORESCENCE_IMAGING_AS_A_TECHNIQUE_FOR_BARIUM_TAGGING_IN_NEUTRI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

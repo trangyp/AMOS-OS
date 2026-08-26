@@ -538,3 +538,13 @@ Society of Applied Physics, pp. 734, Sept. 1988.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1912_01109_on_the_vietnamese_name_entity_recognition_a_deep_learning_method_approach
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1912_01109_ON_THE_VIETNAMESE_NAME_ENTITY_RECOGNITION_A_DEEP_LEARNING_METHOD_APPROACH.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -443,3 +443,13 @@ Seville, 2011, 17-35
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_01220v1_philosophy_of_science_and_educational_research_strategies_for_scientific_effect
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_01220V1_PHILOSOPHY_OF_SCIENCE_AND_EDUCATIONAL_RESEARCH_STRATEGIES_FOR_SCIENTIFIC_EFFECT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

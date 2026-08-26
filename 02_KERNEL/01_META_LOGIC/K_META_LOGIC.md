@@ -2046,3 +2046,13 @@ AUTHORIZATION TO COMMIT
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: k_meta_logic
+node_type: note
+path: 02_KERNEL/01_META_LOGIC/K_META_LOGIC.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

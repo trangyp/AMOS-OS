@@ -938,3 +938,13 @@ Ruhlen, Merritt.1994. The Origin of Language. New York: John Wiley & Sons, Inc.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1010_3059v1_science_and_religion_scientific_understanding_and_mathematical_modeling_of_emot
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2010/1010_3059V1_SCIENCE_AND_RELIGION_SCIENTIFIC_UNDERSTANDING_AND_MATHEMATICAL_MODELING_OF_EMOT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

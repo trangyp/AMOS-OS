@@ -3194,3 +3194,13 @@ recurrent neural networks for electrocardiogram classiﬁcation. Computing, 44:1
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1912_00852v1_cnns_lstms_and_attention_networks_for_pathology_detection_in_medical_data
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1912_00852V1_CNNS_LSTMS_AND_ATTENTION_NETWORKS_FOR_PATHOLOGY_DETECTION_IN_MEDICAL_DATA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1463,3 +1463,13 @@ Proc. ACM Interact. Mob. Wearable Ubiquitous Technol., Vol. 3, No. 1, Article 1.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1901_10580v1_beyond_control_enabling_smart_thermostats_for_leakage_detection
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1901_10580V1_BEYOND_CONTROL_ENABLING_SMART_THERMOSTATS_FOR_LEAKAGE_DETECTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

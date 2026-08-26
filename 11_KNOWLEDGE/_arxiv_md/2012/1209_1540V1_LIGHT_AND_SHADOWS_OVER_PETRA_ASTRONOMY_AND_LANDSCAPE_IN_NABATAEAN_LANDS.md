@@ -925,3 +925,13 @@ Museum.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1209_1540v1_light_and_shadows_over_petra_astronomy_and_landscape_in_nabataean_lands
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2012/1209_1540V1_LIGHT_AND_SHADOWS_OVER_PETRA_ASTRONOMY_AND_LANDSCAPE_IN_NABATAEAN_LANDS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

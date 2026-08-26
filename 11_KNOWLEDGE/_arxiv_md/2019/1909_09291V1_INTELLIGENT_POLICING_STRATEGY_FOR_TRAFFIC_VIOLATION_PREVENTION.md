@@ -328,3 +328,13 @@ Berlin, Heidelberg: Springer Berlin Heidelberg, 2005, pp. 621–636.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1909_09291v1_intelligent_policing_strategy_for_traffic_violation_prevention
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1909_09291V1_INTELLIGENT_POLICING_STRATEGY_FOR_TRAFFIC_VIOLATION_PREVENTION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

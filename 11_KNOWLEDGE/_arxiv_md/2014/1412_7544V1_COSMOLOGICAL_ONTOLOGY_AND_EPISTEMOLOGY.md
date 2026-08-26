@@ -701,3 +701,13 @@ arXiv:1212.5608 [physics.gen-ph].
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1412_7544v1_cosmological_ontology_and_epistemology
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1412_7544V1_COSMOLOGICAL_ONTOLOGY_AND_EPISTEMOLOGY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -667,3 +667,13 @@ Symposium on Security and Privacy, pp. 305–317, 2008.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1911_07609_an_application_of_random_walk_on_fake_account_detection_problem_a_hybrid_approa
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1911_07609_AN_APPLICATION_OF_RANDOM_WALK_ON_FAKE_ACCOUNT_DETECTION_PROBLEM_A_HYBRID_APPROA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

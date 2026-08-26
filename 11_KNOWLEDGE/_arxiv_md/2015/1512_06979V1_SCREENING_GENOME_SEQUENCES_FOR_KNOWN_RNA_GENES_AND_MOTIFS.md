@@ -916,3 +916,13 @@ metabolism. Nucleic Acids Res. 2010; 38:6620-36.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1512_06979v1_screening_genome_sequences_for_known_rna_genes_and_motifs
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2015/1512_06979V1_SCREENING_GENOME_SEQUENCES_FOR_KNOWN_RNA_GENES_AND_MOTIFS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

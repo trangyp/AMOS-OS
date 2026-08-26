@@ -2078,3 +2078,13 @@ Biotechnology 21, 201-206.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1912_05323v1_potential_antimicrobial_activity_of_marine_sponge_neopetrosia_exigua
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1912_05323V1_POTENTIAL_ANTIMICROBIAL_ACTIVITY_OF_MARINE_SPONGE_NEOPETROSIA_EXIGUA.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

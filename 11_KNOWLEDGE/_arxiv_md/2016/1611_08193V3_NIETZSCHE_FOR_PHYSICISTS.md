@@ -682,3 +682,13 @@ Wald, Robert [1984], General relativity, Chicago: The University of Chicago Pres
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1611_08193v3_nietzsche_for_physicists
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1611_08193V3_NIETZSCHE_FOR_PHYSICISTS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

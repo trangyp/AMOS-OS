@@ -2458,3 +2458,13 @@ the proof.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1708_05847v1_unbounded_product_form_petri_nets
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1708_05847V1_UNBOUNDED_PRODUCT_FORM_PETRI_NETS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

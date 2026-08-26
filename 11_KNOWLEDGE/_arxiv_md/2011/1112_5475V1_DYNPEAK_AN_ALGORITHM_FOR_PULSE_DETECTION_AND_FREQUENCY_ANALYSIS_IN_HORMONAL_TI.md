@@ -1830,3 +1830,13 @@ Soc. A, 367:4759–4777, 2009.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1112_5475v1_dynpeak_an_algorithm_for_pulse_detection_and_frequency_analysis_in_hormonal_ti
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2011/1112_5475V1_DYNPEAK_AN_ALGORITHM_FOR_PULSE_DETECTION_AND_FREQUENCY_ANALYSIS_IN_HORMONAL_TI.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

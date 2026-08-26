@@ -664,3 +664,13 @@ algorithm.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1407_3664v1_an_enhancement_neighborhood_connected_segmentation_for_2d_cellular_image
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2014/1407_3664V1_AN_ENHANCEMENT_NEIGHBORHOOD_CONNECTED_SEGMENTATION_FOR_2D_CELLULAR_IMAGE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

@@ -1259,3 +1259,13 @@ PLoS ONE. 14(5): e0216352. doi:10.1371/journal.pone.0216352.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1704_06112v3_exploratory_and_confirmatory_factor_analyses_of_religiosity_a_four_factor_conce
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1704_06112V3_EXPLORATORY_AND_CONFIRMATORY_FACTOR_ANALYSES_OF_RELIGIOSITY_A_FOUR_FACTOR_CONCE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

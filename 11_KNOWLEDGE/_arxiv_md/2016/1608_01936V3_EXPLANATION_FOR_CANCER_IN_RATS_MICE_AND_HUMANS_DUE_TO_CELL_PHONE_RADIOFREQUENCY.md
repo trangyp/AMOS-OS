@@ -249,3 +249,13 @@ BioMed Research International 2017 (2017), Article ID 9218486.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1608_01936v3_explanation_for_cancer_in_rats_mice_and_humans_due_to_cell_phone_radiofrequency
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1608_01936V3_EXPLANATION_FOR_CANCER_IN_RATS_MICE_AND_HUMANS_DUE_TO_CELL_PHONE_RADIOFREQUENCY.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

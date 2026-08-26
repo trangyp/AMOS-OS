@@ -8231,3 +8231,13 @@ could reduce the required sample size in cluster randomized trials. J Clin Epide
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1710_03496v2_admissible_multi_arm_stepped_wedge_cluster_randomized_trial_designs
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1710_03496V2_ADMISSIBLE_MULTI_ARM_STEPPED_WEDGE_CLUSTER_RANDOMIZED_TRIAL_DESIGNS.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

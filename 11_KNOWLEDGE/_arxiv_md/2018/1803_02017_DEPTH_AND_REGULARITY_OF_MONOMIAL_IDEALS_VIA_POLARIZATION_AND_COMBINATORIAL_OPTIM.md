@@ -1575,3 +1575,13 @@ E-mail address: cevivares@math.cinvestav.mx
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1803_02017_depth_and_regularity_of_monomial_ideals_via_polarization_and_combinatorial_optim
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1803_02017_DEPTH_AND_REGULARITY_OF_MONOMIAL_IDEALS_VIA_POLARIZATION_AND_COMBINATORIAL_OPTIM.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

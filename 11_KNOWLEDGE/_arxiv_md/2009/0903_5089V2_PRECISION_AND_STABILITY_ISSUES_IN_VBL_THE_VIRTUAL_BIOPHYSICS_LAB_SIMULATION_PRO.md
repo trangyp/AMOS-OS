@@ -895,3 +895,13 @@ Systems, 2nd ed.”, Philadelphia: SIAM 2003.
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 0903_5089v2_precision_and_stability_issues_in_vbl_the_virtual_biophysics_lab_simulation_pro
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2009/0903_5089V2_PRECISION_AND_STABILITY_ISSUES_IN_VBL_THE_VIRTUAL_BIOPHYSICS_LAB_SIMULATION_PRO.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

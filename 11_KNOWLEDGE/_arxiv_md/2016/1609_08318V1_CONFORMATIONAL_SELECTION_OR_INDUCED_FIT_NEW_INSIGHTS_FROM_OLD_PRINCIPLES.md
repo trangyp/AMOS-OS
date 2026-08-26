@@ -1034,3 +1034,13 @@ that is simply
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1609_08318v1_conformational_selection_or_induced_fit_new_insights_from_old_principles
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2016/1609_08318V1_CONFORMATIONAL_SELECTION_OR_INDUCED_FIT_NEW_INSIGHTS_FROM_OLD_PRINCIPLES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

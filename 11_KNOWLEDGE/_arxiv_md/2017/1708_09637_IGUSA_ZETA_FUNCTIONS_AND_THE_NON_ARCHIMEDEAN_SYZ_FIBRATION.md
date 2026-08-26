@@ -779,3 +779,13 @@ E-mail address: j.nicaise@imperial.ac.uk
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 1708_09637_igusa_zeta_functions_and_the_non_archimedean_syz_fibration
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1708_09637_IGUSA_ZETA_FUNCTIONS_AND_THE_NON_ARCHIMEDEAN_SYZ_FIBRATION.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

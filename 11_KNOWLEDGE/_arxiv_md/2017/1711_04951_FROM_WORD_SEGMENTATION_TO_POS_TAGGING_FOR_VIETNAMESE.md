@@ -728,3 +728,13 @@ man Language Technologies. pages 888–896.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1711_04951_from_word_segmentation_to_pos_tagging_for_vietnamese
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1711_04951_FROM_WORD_SEGMENTATION_TO_POS_TAGGING_FOR_VIETNAMESE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

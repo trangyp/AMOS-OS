@@ -858,3 +858,13 @@ travel-identity-of-the-future.pdf[Accessed:2018-07-19]
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1807_08136v1_on_the_relevance_of_blockchain_in_identity_management
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1807_08136V1_ON_THE_RELEVANCE_OF_BLOCKCHAIN_IN_IDENTITY_MANAGEMENT.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

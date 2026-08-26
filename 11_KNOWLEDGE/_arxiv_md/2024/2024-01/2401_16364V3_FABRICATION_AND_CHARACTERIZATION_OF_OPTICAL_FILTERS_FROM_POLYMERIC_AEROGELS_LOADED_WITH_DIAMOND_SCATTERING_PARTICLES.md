@@ -1319,3 +1319,13 @@ Sci. Instruments 82, 086101–086101 (2011).
 
 ---
 **Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: 2401_16364v3_fabrication_and_characterization_of_optical_filters_from_polymeric_aerogels_loaded_with
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2024/2024-01/2401_16364V3_FABRICATION_AND_CHARACTERIZATION_OF_OPTICAL_FILTERS_FROM_POLYMERIC_AEROGELS_LOADED_WITH_DIAMOND_SCATTERING_PARTICLES.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

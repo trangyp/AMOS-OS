@@ -1364,3 +1364,13 @@ de los autores sobre un mapa cortesía de Google Maps.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1912_12934v1_la_orientaci_n_de_las_iglesias_andinas_de_la_regi_n_de_arica_y_parinacota_chile
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2019/1912_12934V1_LA_ORIENTACI_N_DE_LAS_IGLESIAS_ANDINAS_DE_LA_REGI_N_DE_ARICA_Y_PARINACOTA_CHILE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

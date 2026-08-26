@@ -5452,3 +5452,13 @@ DESCENDANTS OF ONE CLAIM.
 
 ---
 **Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+
+---
+RSCF-NODE
+node_id: validation_evidence
+node_type: note
+path: 25_COGNITIVE_MATRIX/11_VALIDATION/VALIDATION_EVIDENCE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

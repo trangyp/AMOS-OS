@@ -1655,3 +1655,13 @@ Total MQS at baseline
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1709_04862v1_random_forests_of_interaction_trees_for_estimating_individualized_treatment_effe
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2017/1709_04862V1_RANDOM_FORESTS_OF_INTERACTION_TREES_FOR_ESTIMATING_INDIVIDUALIZED_TREATMENT_EFFE.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL

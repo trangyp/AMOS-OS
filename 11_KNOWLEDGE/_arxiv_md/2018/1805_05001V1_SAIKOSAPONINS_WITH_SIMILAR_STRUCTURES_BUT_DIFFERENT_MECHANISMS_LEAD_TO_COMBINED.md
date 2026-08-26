@@ -631,3 +631,13 @@ transfer; FET, forwarded electron transfer.
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+RSCF-NODE
+node_id: 1805_05001v1_saikosaponins_with_similar_structures_but_different_mechanisms_lead_to_combined
+node_type: note
+path: 11_KNOWLEDGE/_arxiv_md/2018/1805_05001V1_SAIKOSAPONINS_WITH_SIMILAR_STRUCTURES_BUT_DIFFERENT_MECHANISMS_LEAD_TO_COMBINED.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+claim_class: AMOS_MODEL
