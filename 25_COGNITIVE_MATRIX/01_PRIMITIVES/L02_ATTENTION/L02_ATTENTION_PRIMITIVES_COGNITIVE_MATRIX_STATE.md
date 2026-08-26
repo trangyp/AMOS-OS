@@ -4,9 +4,10 @@ tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'note']
 
 # L02_ATTENTION — State
 
-**Class:** `COGNITIVE_PRIMITIVE_PLACEHOLDER`
+**Class:** `COGNITIVE_MATRIX_CONTRACT`
 **Origin architect / steward:** Trang Phan
-**Status:** `MODEL-DEFINED / UNVALIDATED`
+**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
+**Filled by:** governed normalization pass · **Date:** 2026-08-26
 **Artifact:** `L02_ATTENTION/STATE.md`
 
 ## Purpose
