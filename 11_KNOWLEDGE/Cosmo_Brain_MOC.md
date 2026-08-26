@@ -35,6 +35,10 @@ answer the question, expand only when outcome-changing uncertainty remains.
 ### Layer map index
 
 - [[AMOS_Layer_Maps]] — top-level AMOS layer map index
+### Templates
+
+- [[AMOS_Templates]] — AMOS template index
+- [[Templates/linked-note.md|linked-note template]]
 ## Operational brain — module map
 
 - 00_boot: brain/00_boot/BOOTSTRAP · ROUTER · LOAD_MAP · [[OS_Agent_Model]]
