@@ -1,3 +1,8 @@
+---
+aliases:
+- AMOS Home
+---
+
 
 ---
 
