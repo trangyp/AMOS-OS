@@ -3432,5 +3432,5 @@ The fourth invariant is:
 
 **Related:** [[00-Home]] · [[MOC]] · [[ARCHITECTURE]] · [[FULL_TREE]] · [[SYSTEM_MAP]] · [[AUTHORITATIVE_STATE]] · [[DEPENDENCY_MAP]] · [[PLACEMENT_RULES]] · [[ROADMAP]] · [[RSCF_NODE_INDEX]]
 
-```
+```text
 ```
