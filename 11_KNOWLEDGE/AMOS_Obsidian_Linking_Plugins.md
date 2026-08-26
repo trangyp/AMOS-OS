@@ -78,7 +78,7 @@ provenance: MODEL
 confidence: DERIVED
 related:
   - "[[00 Cosmo Brain MOC]]"
-  - "[[00-Home]]"
+  - "[[AMOS Home]]"
 ---
 
 # <% tp.file.title %>
@@ -90,7 +90,7 @@ related:
 
 ## Links
 - [[00 Cosmo Brain MOC]]
-- [[00-Home]]
+- [[AMOS Home]]
 
 ## Notes
 
@@ -127,7 +127,7 @@ related:
 
 - [[00 Cosmo Brain MOC]]
 - [[00_ROOT_MOC]]
-- [[00-Home]]
+- [[AMOS Home]]
 - [[AMOS_Layer_Maps]] — top-level AMOS layer map index
 - [[11_KNOWLEDGE/11_KNOWLEDGE_MOC.md|11_KNOWLEDGE MOC]] — the knowledge layer index
 - [[AMOS_Templates]] — AMOS template index
@@ -138,6 +138,6 @@ node_id: amos_obsidian_linking_plugins
 node_type: note
 path: 11_KNOWLEDGE/AMOS_Obsidian_Linking_Plugins.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

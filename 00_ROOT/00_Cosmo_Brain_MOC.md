@@ -23,7 +23,7 @@ Lightweight navigation hub for the AMOS brain layer. The full canonical index li
 
 ## Related
 
-- [[00-Home]]
+- [[AMOS Home]]
 - [[AMOS_RSCF_NODES]]
 - [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 - [[11_KNOWLEDGE/Cosmo_Brain_MOC.md|00 Cosmo Brain MOC]]
@@ -37,6 +37,6 @@ node_id: cosmo_brain_moc_root
 node_type: note
 path: 00_ROOT/00_Cosmo_Brain_MOC.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

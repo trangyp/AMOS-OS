@@ -85,7 +85,7 @@ tags: [moc, index, knowledge]
 - [[TENSOR_REGISTRY]] — Tensor Registry
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[AMOS Home]]
 
 ---
 
@@ -101,6 +101,6 @@ node_id: 11_knowledge_moc
 node_type: note
 path: 11_KNOWLEDGE/11_KNOWLEDGE_MOC.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[AMOS Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
