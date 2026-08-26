@@ -17,3 +17,9 @@ See `CLOUD_SKILL_RENAME_MANIFEST.json` for the full old→new mapping.
 - Reference substitutions: 700
 - Small duplicates redirected: 4
 - Failed: 0
+
+## Cross-Tree Final Pass
+- Also cleaned `stitch_project_cosmo/.devin/skills` (8 renames, 34 descriptions)
+- Also cleaned `AMOS_OS/.devin/skills` (8 renames, 31 descriptions)
+- Cloud: 0 additional renames, 37 descriptions filled
+- All three trees now have 0 non-compliant names by the current token blocklist
