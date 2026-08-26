@@ -1,10 +1,9 @@
 ---
 aliases:
-- 00 Cosmo Brain MOC
-- Cosmo Brain MOC
+- Cosmo Brain MOC (root stub)
 canon_group: tech-ai
 canon_type: navigation
-document_version: 1.0.0
+document_version: 1.0.1
 origin_architect: Trang Phan
 rscf_state: derived
 status: ACTIVE_MOC
@@ -13,12 +12,12 @@ tags:
 - cosmo
 - brain
 - navigation
-title: 00 Cosmo Brain MOC
+title: 00 Cosmo Brain MOC (root stub)
 ---
 
-# 00 Cosmo Brain MOC
+# 00 Cosmo Brain MOC (root stub)
 
-Cosmo Brain MOC — navigation hub for the AMOS brain layer.
+Lightweight navigation hub for the AMOS brain layer. The full canonical index lives at [[11_KNOWLEDGE/Cosmo_Brain_MOC.md|00 Cosmo Brain MOC]].
 
 ---
 
@@ -27,3 +26,4 @@ Cosmo Brain MOC — navigation hub for the AMOS brain layer.
 - [[00-Home]]
 - [[AMOS_RSCF_NODES]]
 - [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+- [[11_KNOWLEDGE/Cosmo_Brain_MOC.md|00 Cosmo Brain MOC]]
