@@ -1,78 +1,37 @@
----
-tags: ['cognitive_matrix', 'primitives', 'l16_planning', 'note']
----
+# L16 — Failure Modes
 
-# L16_PLANNING — Failure Modes
+**Package:** `L16_PLANNING`  
+**Class:** `COGNITIVE_MATRIX_CONTRACT`  
+**Epistemic class:** `DERIVED / MODEL EXTENSION`  
+**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`  
+**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
 
-**Class:** `COGNITIVE_PRIMITIVE_PLACEHOLDER`  
-**Origin architect / steward:** Trang Phan  
-**Status:** `PLACEHOLDER / UNVALIDATED`
+## Scope
 
-## Purpose
+Covers plan synthesis, feasibility gating, and contingency embedding.
 
-Define the AMOS contract for `L16_PLANNING` / `FAILURE_MODES.md`.
+## Failure modes
 
-## Required completion fields
-
-- source/canon references
-- definition and scope
-- typed inputs/outputs
-- state variables
-- operators
-- invariants
-- dependencies
-- H/M/L applicability
-- control-plane requirements
-- agents
-- skills
-- workflows
-- protocols
-- evidence/provenance
-- uncertainty and confidence ceiling
-- failure modes
-- repair/recovery
-- tests/validators
-- falsifiers
-- gap status
+- `FM-L16-01`: Slightly-infeasible plan accepted. → detection: feasibility precision check
+- `FM-L16-02`: Stale plan executed after environment change. → detection: epoch binding
 
 ## Hard boundaries
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-ADDRESSABLE != VALIDATED
-CAPABILITY != AUTHORITY
-PROPOSAL != COMMIT
+CONTRACT_FILLED != IMPLEMENTED
+DOCUMENTED != EXECUTABLE
+MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
-## RSCF completion state
-
-```yaml
-claim_class: UNKNOWN/GAP
-evidence: []
-provenance: []
-scope: null
-regime: null
-freshness: null
-dependencies: []
-competing: []
-falsifiers: []
-confidence_ceiling: 0
-```
-
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
-
----
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
 RSCF-NODE
-node_id: l16_planning_primitives_cognitive_matrix_failure_modes
+node_id: l16_primitives_failure_modes
 node_type: note
-path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING/L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_FAILURE_MODES.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
+path: 01_PRIMITIVES/L16_PLANNING/L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_FAILURE_MODES.md
+claim_class: DERIVED
+node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING/L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_FAILURE_MODES.md

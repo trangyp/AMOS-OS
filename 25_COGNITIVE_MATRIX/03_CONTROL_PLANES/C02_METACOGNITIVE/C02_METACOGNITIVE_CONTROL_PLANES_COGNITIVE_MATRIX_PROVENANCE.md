@@ -1,78 +1,39 @@
----
-tags: ['cognitive_matrix', 'control_planes', 'c02_metacognitive', 'note']
----
+# C02 — Provenance
 
-# C02_METACOGNITIVE — Provenance
+**Package:** `C02_METACOGNITIVE`  
+**Class:** `COGNITIVE_MATRIX_CONTRACT`  
+**Epistemic class:** `DERIVED / MODEL EXTENSION`  
+**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`  
+**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
 
-**Class:** `MATRIX_CONTROL_PLANE_PLACEHOLDER`  
-**Origin architect / steward:** Trang Phan  
-**Status:** `PLACEHOLDER / UNVALIDATED`
+## Scope
 
-## Purpose
+Covers monitor registry, interrupt taxonomy, and self-report calibration discipline.
 
-Define the AMOS contract for `C02_METACOGNITIVE` / `PROVENANCE.md`.
+## Provenance
 
-## Required completion fields
-
-- source/canon references
-- definition and scope
-- typed inputs/outputs
-- state variables
-- operators
-- invariants
-- dependencies
-- H/M/L applicability
-- control-plane requirements
-- agents
-- skills
-- workflows
-- protocols
-- evidence/provenance
-- uncertainty and confidence ceiling
-- failure modes
-- repair/recovery
-- tests/validators
-- falsifiers
-- gap status
+- Source class: `DERIVED` — reconstructed from AMOS canon corpus
+- Generator: `12_GENERATORS` governed fill pass, `2026-08-26`
+- Canon anchors: DMER four-process architecture, 7-Part Universe Canon, RSCF taxonomy
+- No fabricated SOURCE claims: nothing here is presented as observed data
 
 ## Hard boundaries
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-ADDRESSABLE != VALIDATED
-CAPABILITY != AUTHORITY
-PROPOSAL != COMMIT
+CONTRACT_FILLED != IMPLEMENTED
+DOCUMENTED != EXECUTABLE
+MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
-## RSCF completion state
-
-```yaml
-claim_class: UNKNOWN/GAP
-evidence: []
-provenance: []
-scope: null
-regime: null
-freshness: null
-dependencies: []
-competing: []
-falsifiers: []
-confidence_ceiling: 0
-```
-
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
-
----
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
 RSCF-NODE
-node_id: c02_metacognitive_control_planes_cognitive_matrix_provenance
+node_id: c02_planes_provenance
 node_type: note
-path: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C02_METACOGNITIVE/C02_METACOGNITIVE_CONTROL_PLANES_COGNITIVE_MATRIX_PROVENANCE.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
+path: 03_CONTROL_PLANES/C02_METACOGNITIVE/C02_METACOGNITIVE_CONTROL_PLANES_COGNITIVE_MATRIX_PROVENANCE.md
+claim_class: DERIVED
+node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C02_METACOGNITIVE/C02_METACOGNITIVE_CONTROL_PLANES_COGNITIVE_MATRIX_PROVENANCE.md

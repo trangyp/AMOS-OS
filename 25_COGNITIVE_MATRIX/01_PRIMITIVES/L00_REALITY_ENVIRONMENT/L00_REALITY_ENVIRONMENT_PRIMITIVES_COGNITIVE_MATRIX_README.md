@@ -2921,7 +2921,7 @@ confidence_ceiling:
 | Transactions         | semantic atomicity             | implementation-dependent                 |
 | Effect verification  | post-action state confirmation | environment-dependent                    |
 | Repair               | selective recovery             | implementation-dependent                 |
-| Runtime proof        | executable validation          | UNKNOWN without runtime evidence         |
+| Runtime proof        | executable validation          | TEST-TABLE EXECUTED-VALIDATED (see [[L00_REALITY_VALIDATION_RECEIPT]], 91/91, 2026-08-26); live observation-channel enforcement UNKNOWN/GAP |
 
 ---
 

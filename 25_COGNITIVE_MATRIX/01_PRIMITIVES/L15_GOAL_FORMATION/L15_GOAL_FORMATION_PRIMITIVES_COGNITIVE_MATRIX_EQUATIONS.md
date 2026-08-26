@@ -1,78 +1,40 @@
----
-tags: ['cognitive_matrix', 'primitives', 'l15_goal_formation', 'note']
----
+# L15 — Equations
 
-# L15_GOAL_FORMATION — Equations
+**Package:** `L15_GOAL_FORMATION`  
+**Class:** `COGNITIVE_MATRIX_CONTRACT`  
+**Epistemic class:** `DERIVED / MODEL EXTENSION`  
+**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`  
+**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
 
-**Class:** `COGNITIVE_PRIMITIVE_PLACEHOLDER`  
-**Origin architect / steward:** Trang Phan  
-**Status:** `PLACEHOLDER / UNVALIDATED`
+## Scope
 
-## Purpose
+Covers goal decomposition, priority ordering, and goal-conflict detection.
 
-Define the AMOS contract for `L15_GOAL_FORMATION` / `EQUATIONS.md`.
+## Contract content
 
-## Required completion fields
+GOAL_FORMATION
 
-- source/canon references
-- definition and scope
-- typed inputs/outputs
-- state variables
-- operators
-- invariants
-- dependencies
-- H/M/L applicability
-- control-plane requirements
-- agents
-- skills
-- workflows
-- protocols
-- evidence/provenance
-- uncertainty and confidence ceiling
-- failure modes
-- repair/recovery
-- tests/validators
-- falsifiers
-- gap status
+## Equations
+
+No measured equations at this layer; structural relations only.
 
 ## Hard boundaries
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-ADDRESSABLE != VALIDATED
-CAPABILITY != AUTHORITY
-PROPOSAL != COMMIT
+CONTRACT_FILLED != IMPLEMENTED
+DOCUMENTED != EXECUTABLE
+MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
-## RSCF completion state
-
-```yaml
-claim_class: UNKNOWN/GAP
-evidence: []
-provenance: []
-scope: null
-regime: null
-freshness: null
-dependencies: []
-competing: []
-falsifiers: []
-confidence_ceiling: 0
-```
-
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
-
----
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
 RSCF-NODE
-node_id: l15_goal_formation_primitives_cognitive_matrix_equations
+node_id: l15_primitives_equations
 node_type: note
-path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION/L15_GOAL_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_EQUATIONS.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
+path: 01_PRIMITIVES/L15_GOAL_FORMATION/L15_GOAL_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_EQUATIONS.md
+claim_class: DERIVED
+node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION/L15_GOAL_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_EQUATIONS.md

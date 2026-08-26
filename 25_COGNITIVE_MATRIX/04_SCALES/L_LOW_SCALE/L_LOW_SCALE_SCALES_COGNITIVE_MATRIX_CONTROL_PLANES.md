@@ -1,78 +1,36 @@
----
-tags: ['cognitive_matrix', 'scales', 'l_low_scale', 'note']
----
+# L — Control-Plane Requirements
 
-# L_LOW_SCALE — Control Planes
+**Package:** `L_LOW_SCALE`  
+**Class:** `COGNITIVE_MATRIX_CONTRACT`  
+**Epistemic class:** `DERIVED / MODEL EXTENSION`  
+**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`  
+**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
 
-**Class:** `HML_SCALE_PLACEHOLDER`  
-**Origin architect / steward:** Trang Phan  
-**Status:** `PLACEHOLDER / UNVALIDATED`
+## Scope
 
-## Purpose
+Evidence items, measured values, per-artifact validation.
 
-Define the AMOS contract for `L_LOW_SCALE` / `CONTROL_PLANES.md`.
+## Control-plane binding
 
-## Required completion fields
-
-- source/canon references
-- definition and scope
-- typed inputs/outputs
-- state variables
-- operators
-- invariants
-- dependencies
-- H/M/L applicability
-- control-plane requirements
-- agents
-- skills
-- workflows
-- protocols
-- evidence/provenance
-- uncertainty and confidence ceiling
-- failure modes
-- repair/recovery
-- tests/validators
-- falsifiers
-- gap status
+- [[C01_GOVERNANCE]] — scale-governance owner
 
 ## Hard boundaries
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-ADDRESSABLE != VALIDATED
-CAPABILITY != AUTHORITY
-PROPOSAL != COMMIT
+CONTRACT_FILLED != IMPLEMENTED
+DOCUMENTED != EXECUTABLE
+MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
-## RSCF completion state
-
-```yaml
-claim_class: UNKNOWN/GAP
-evidence: []
-provenance: []
-scope: null
-regime: null
-freshness: null
-dependencies: []
-competing: []
-falsifiers: []
-confidence_ceiling: 0
-```
-
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
-
----
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
 RSCF-NODE
-node_id: l_low_scale_scales_cognitive_matrix_control_planes
+node_id: l_scales_control_planes
 node_type: note
-path: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE/L_LOW_SCALE_SCALES_COGNITIVE_MATRIX_CONTROL_PLANES.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
+path: 04_SCALES/L_LOW_SCALE/L_LOW_SCALE_SCALES_COGNITIVE_MATRIX_CONTROL_PLANES.md
+claim_class: DERIVED
+node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE/L_LOW_SCALE_SCALES_COGNITIVE_MATRIX_CONTROL_PLANES.md

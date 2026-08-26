@@ -1,78 +1,48 @@
----
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o00_distinction', 'note']
----
+# O00 — RSCF Record
 
-# O00_DISTINCTION — Rscf
+**Package:** `O00_DISTINCTION`  
+**Class:** `COGNITIVE_MATRIX_CONTRACT`  
+**Epistemic class:** `DERIVED / MODEL EXTENSION`  
+**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`  
+**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
 
-**Class:** `LIFECYCLE_OPERATION_PLACEHOLDER`  
-**Origin architect / steward:** Trang Phan  
-**Status:** `PLACEHOLDER / UNVALIDATED`
+## Scope
 
-## Purpose
+Covers distinction creation, scope typing, and distinctness verification.
 
-Define the AMOS contract for `O00_DISTINCTION` / `RSCF.md`.
+```yaml
+claim_class: DERIVED
+evidence: []   # no measured evidence at this layer
+provenance:
+  - 'AMOS canon corpus reconstruction'
+scope: cognitive_matrix_package_contract
+regime: architecture-contract
+freshness: 2026-08-26
+dependencies: []
+competing: []
+falsifiers: []
+confidence_ceiling: 0.6
+```
 
-## Required completion fields
-
-- source/canon references
-- definition and scope
-- typed inputs/outputs
-- state variables
-- operators
-- invariants
-- dependencies
-- H/M/L applicability
-- control-plane requirements
-- agents
-- skills
-- workflows
-- protocols
-- evidence/provenance
-- uncertainty and confidence ceiling
-- failure modes
-- repair/recovery
-- tests/validators
-- falsifiers
-- gap status
+Confidence ceiling 0.6 reflects contract-only status (no implementation, no validation).
 
 ## Hard boundaries
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-ADDRESSABLE != VALIDATED
-CAPABILITY != AUTHORITY
-PROPOSAL != COMMIT
+CONTRACT_FILLED != IMPLEMENTED
+DOCUMENTED != EXECUTABLE
+MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
-## RSCF completion state
-
-```yaml
-claim_class: UNKNOWN/GAP
-evidence: []
-provenance: []
-scope: null
-regime: null
-freshness: null
-dependencies: []
-competing: []
-falsifiers: []
-confidence_ceiling: 0
-```
-
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
-
----
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
 RSCF-NODE
-node_id: o00_distinction_lifecycle_operations_cognitive_matrix_rscf
+node_id: o00_operations_rscf
 node_type: note
-path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION/O00_DISTINCTION_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_RSCF.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
+path: 02_LIFECYCLE_OPERATIONS/O00_DISTINCTION/O00_DISTINCTION_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_RSCF.md
+claim_class: DERIVED
+node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION/O00_DISTINCTION_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_RSCF.md

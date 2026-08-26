@@ -1,78 +1,41 @@
----
-tags: ['cognitive_matrix', 'primitives', 'l05_binding', 'note']
----
+# L05 — Repair & Recovery
 
-# L05_BINDING — Repair
+**Package:** `L05_BINDING`  
+**Class:** `COGNITIVE_MATRIX_CONTRACT`  
+**Epistemic class:** `DERIVED / MODEL EXTENSION`  
+**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`  
+**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
 
-**Class:** `COGNITIVE_PRIMITIVE_PLACEHOLDER`  
-**Origin architect / steward:** Trang Phan  
-**Status:** `PLACEHOLDER / UNVALIDATED`
+## Scope
 
-## Purpose
+Covers relation formation, typing, directionality, and consistency enforcement.
 
-Define the AMOS contract for `L05_BINDING` / `REPAIR.md`.
+## Failure handling
 
-## Required completion fields
+- On `FM-L05-01`: Block composition; route through tensor governance.
+- On `FM-L05-02`: Restore directionality from derivation record.
 
-- source/canon references
-- definition and scope
-- typed inputs/outputs
-- state variables
-- operators
-- invariants
-- dependencies
-- H/M/L applicability
-- control-plane requirements
-- agents
-- skills
-- workflows
-- protocols
-- evidence/provenance
-- uncertainty and confidence ceiling
-- failure modes
-- repair/recovery
-- tests/validators
-- falsifiers
-- gap status
+## Recovery basin
+
+Roll back to last validated state snapshot; re-run from upstream anchor.
 
 ## Hard boundaries
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-ADDRESSABLE != VALIDATED
-CAPABILITY != AUTHORITY
-PROPOSAL != COMMIT
+CONTRACT_FILLED != IMPLEMENTED
+DOCUMENTED != EXECUTABLE
+MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
-## RSCF completion state
-
-```yaml
-claim_class: UNKNOWN/GAP
-evidence: []
-provenance: []
-scope: null
-regime: null
-freshness: null
-dependencies: []
-competing: []
-falsifiers: []
-confidence_ceiling: 0
-```
-
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
-
----
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
 RSCF-NODE
-node_id: primitives_cognitive_matrix_repair
+node_id: l05_primitives_repair
 node_type: note
-path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING/PRIMITIVES_COGNITIVE_MATRIX_REPAIR.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
+path: 01_PRIMITIVES/L05_BINDING/PRIMITIVES_COGNITIVE_MATRIX_REPAIR.md
+claim_class: DERIVED
+node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING/PRIMITIVES_COGNITIVE_MATRIX_REPAIR.md

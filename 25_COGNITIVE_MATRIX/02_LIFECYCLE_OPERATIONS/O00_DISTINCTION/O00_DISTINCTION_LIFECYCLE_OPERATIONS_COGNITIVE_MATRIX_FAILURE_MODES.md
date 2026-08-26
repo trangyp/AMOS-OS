@@ -1,78 +1,37 @@
----
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o00_distinction', 'note']
----
+# O00 — Failure Modes
 
-# O00_DISTINCTION — Failure Modes
+**Package:** `O00_DISTINCTION`  
+**Class:** `COGNITIVE_MATRIX_CONTRACT`  
+**Epistemic class:** `DERIVED / MODEL EXTENSION`  
+**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`  
+**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
 
-**Class:** `LIFECYCLE_OPERATION_PLACEHOLDER`  
-**Origin architect / steward:** Trang Phan  
-**Status:** `PLACEHOLDER / UNVALIDATED`
+## Scope
 
-## Purpose
+Covers distinction creation, scope typing, and distinctness verification.
 
-Define the AMOS contract for `O00_DISTINCTION` / `FAILURE_MODES.md`.
+## Failure modes
 
-## Required completion fields
-
-- source/canon references
-- definition and scope
-- typed inputs/outputs
-- state variables
-- operators
-- invariants
-- dependencies
-- H/M/L applicability
-- control-plane requirements
-- agents
-- skills
-- workflows
-- protocols
-- evidence/provenance
-- uncertainty and confidence ceiling
-- failure modes
-- repair/recovery
-- tests/validators
-- falsifiers
-- gap status
+- `FM-O00-01`: Cross-regime conflation via loose scope. → detection: scope-compat gate
+- `FM-O00-02`: Distinction without repair capacity behind it. → detection: DMER L3 check
 
 ## Hard boundaries
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-ADDRESSABLE != VALIDATED
-CAPABILITY != AUTHORITY
-PROPOSAL != COMMIT
+CONTRACT_FILLED != IMPLEMENTED
+DOCUMENTED != EXECUTABLE
+MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
-## RSCF completion state
-
-```yaml
-claim_class: UNKNOWN/GAP
-evidence: []
-provenance: []
-scope: null
-regime: null
-freshness: null
-dependencies: []
-competing: []
-falsifiers: []
-confidence_ceiling: 0
-```
-
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
-
----
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
 RSCF-NODE
-node_id: o00_distinction_lifecycle_operations_cognitive_matrix_failure_modes
+node_id: o00_operations_failure_modes
 node_type: note
-path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION/O00_DISTINCTION_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_FAILURE_MODES.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
+path: 02_LIFECYCLE_OPERATIONS/O00_DISTINCTION/O00_DISTINCTION_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_FAILURE_MODES.md
+claim_class: DERIVED
+node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION/O00_DISTINCTION_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_FAILURE_MODES.md

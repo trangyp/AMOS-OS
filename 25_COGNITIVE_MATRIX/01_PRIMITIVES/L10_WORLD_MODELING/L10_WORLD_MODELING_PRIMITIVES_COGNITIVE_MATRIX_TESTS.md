@@ -1,78 +1,40 @@
----
-tags: ['cognitive_matrix', 'primitives', 'l10_world_modeling', 'note']
----
+# L10 — Tests & Validators
 
-# L10_WORLD_MODELING — Tests
+**Package:** `L10_WORLD_MODELING`  
+**Class:** `COGNITIVE_MATRIX_CONTRACT`  
+**Epistemic class:** `DERIVED / MODEL EXTENSION`  
+**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`  
+**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
 
-**Class:** `COGNITIVE_PRIMITIVE_PLACEHOLDER`  
-**Origin architect / steward:** Trang Phan  
-**Status:** `PLACEHOLDER / UNVALIDATED`
+## Scope
 
-## Purpose
+Covers model composition across scales and model-environment mismatch tracking.
 
-Define the AMOS contract for `L10_WORLD_MODELING` / `TESTS.md`.
+## Defined tests (TEST_DEFINED ≠ TEST_EXECUTED)
 
-## Required completion fields
+- `T-L10-001`: L10 output carries provenance fields under all input regimes — status `DEFINED`
+- `T-L10-002`: L10 rejects stale/freshness-violating input — status `DEFINED`
+- `T-L10-003`: L10 invariant set holds over fuzzed input corpus — status `DEFINED`
 
-- source/canon references
-- definition and scope
-- typed inputs/outputs
-- state variables
-- operators
-- invariants
-- dependencies
-- H/M/L applicability
-- control-plane requirements
-- agents
-- skills
-- workflows
-- protocols
-- evidence/provenance
-- uncertainty and confidence ceiling
-- failure modes
-- repair/recovery
-- tests/validators
-- falsifiers
-- gap status
+All tests remain unexecuted at this layer until a validator binds here.
 
 ## Hard boundaries
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-ADDRESSABLE != VALIDATED
-CAPABILITY != AUTHORITY
-PROPOSAL != COMMIT
+CONTRACT_FILLED != IMPLEMENTED
+DOCUMENTED != EXECUTABLE
+MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
-## RSCF completion state
-
-```yaml
-claim_class: UNKNOWN/GAP
-evidence: []
-provenance: []
-scope: null
-regime: null
-freshness: null
-dependencies: []
-competing: []
-falsifiers: []
-confidence_ceiling: 0
-```
-
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
-
----
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
 RSCF-NODE
-node_id: l10_world_modeling_primitives_cognitive_matrix_tests
+node_id: l10_primitives_tests
 node_type: note
-path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING/L10_WORLD_MODELING_PRIMITIVES_COGNITIVE_MATRIX_TESTS.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
+path: 01_PRIMITIVES/L10_WORLD_MODELING/L10_WORLD_MODELING_PRIMITIVES_COGNITIVE_MATRIX_TESTS.md
+claim_class: DERIVED
+node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING/L10_WORLD_MODELING_PRIMITIVES_COGNITIVE_MATRIX_TESTS.md

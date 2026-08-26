@@ -1,78 +1,40 @@
----
-tags: ['cognitive_matrix', 'primitives', 'l19_outcome_observation', 'readme']
----
+# L19 — Overview
 
-# L19_OUTCOME_OBSERVATION — Readme
+**Package:** `L19_OUTCOME_OBSERVATION`  
+**Class:** `COGNITIVE_MATRIX_CONTRACT`  
+**Epistemic class:** `DERIVED / MODEL EXTENSION`  
+**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`  
+**Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
 
-**Class:** `COGNITIVE_PRIMITIVE_PLACEHOLDER`  
-**Origin architect / steward:** Trang Phan  
-**Status:** `PLACEHOLDER / UNVALIDATED`
+## Scope
 
-## Purpose
+Covers outcome grounding, delay handling, and confounder exposure.
 
-Define the AMOS contract for `L19_OUTCOME_OBSERVATION` / `README.md`.
+## Contract content
 
-## Required completion fields
+OUTCOME_OBSERVATION
 
-- source/canon references
-- definition and scope
-- typed inputs/outputs
-- state variables
-- operators
-- invariants
-- dependencies
-- H/M/L applicability
-- control-plane requirements
-- agents
-- skills
-- workflows
-- protocols
-- evidence/provenance
-- uncertainty and confidence ceiling
-- failure modes
-- repair/recovery
-- tests/validators
-- falsifiers
-- gap status
+## Package inventory
+
+`L19_OUTCOME_OBSERVATION` is a declared 01_PRIMITIVES package of the Cognitive Matrix. All artifact types carry filled contracts after this pass; implementation/validation remain open gaps.
 
 ## Hard boundaries
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-ADDRESSABLE != VALIDATED
-CAPABILITY != AUTHORITY
-PROPOSAL != COMMIT
+CONTRACT_FILLED != IMPLEMENTED
+DOCUMENTED != EXECUTABLE
+MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
-## RSCF completion state
-
-```yaml
-claim_class: UNKNOWN/GAP
-evidence: []
-provenance: []
-scope: null
-regime: null
-freshness: null
-dependencies: []
-competing: []
-falsifiers: []
-confidence_ceiling: 0
-```
-
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
-
----
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
 RSCF-NODE
-node_id: l19_outcome_observation_primitives_cognitive_matrix_readme
+node_id: l19_primitives_readme
 node_type: note
-path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION/L19_OUTCOME_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
+path: 01_PRIMITIVES/L19_OUTCOME_OBSERVATION/L19_OUTCOME_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README.md
+claim_class: DERIVED
+node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION/L19_OUTCOME_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README.md

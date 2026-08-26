@@ -1,0 +1,133 @@
+"""Payloads C2: primitives L23–L29."""
+from payloads_a import _base
+
+PAYLOADS = {}
+
+PAYLOADS["L23"] = _base(
+    "L23", "METACOGNITION",
+    "Monitors the system's own cognition: confidence honesty, drift detection, and self-interruption.",
+    "Covers monitor taxonomy, interrupt thresholds, and uncertainty calibration of self-reports.",
+    inputs=["Internal state traces", "Outcome history"],
+    outputs=["Metacognitive signals", "Interrupt requests"],
+    deps_up=["L09_INFERENCE", "L13_PREDICTION"], deps_down=["L24_SELF_REGULATION", "C02_METACOGNITIVE"],
+    semantics=["Self-confidence reports are themselves predictions and must be calibrated like any forecast."],
+    invariants=[(1, "Confidence ceilings are enforced, not advisory (cap 0.95)."),
+                (2, "Monitor interrupts are fail-closed: unresolved anomaly halts escalation.")],
+    failure_modes=[("01", "Monitor blind spot in a subsystem.", "monitor-coverage audit",
+                    "Add monitor for the gap; backfill missed events."),
+                   ("02", "Alarm fatigue suppresses real signals.", "alert-rate budget",
+                    "Tune thresholds; require distinct signal per alert.")],
+    control_planes=["C02_METACOGNITIVE"],
+    variables=["confidence_cap", "interrupt_thresholds", "drift_baselines"],
+)
+
+PAYLOADS["L24"] = _base(
+    "L24", "SELF_REGULATION",
+    "Adjusts the system's own operating parameters (budgets, thresholds, pace) within authorized envelopes.",
+    "Covers parameter adjustment policy, envelope bounds, and restoration-over-drift law.",
+    inputs=["Metacognitive signals", "Authorized envelopes"],
+    outputs=["Parameter adjustments", "Envelope compliance receipts"],
+    deps_up=["L23_METACOGNITION"], deps_down=["L02_ATTENTION", "L06_WORKING_STATE"],
+    semantics=["Restoration toward validated baselines beats drift-chasing at every scale."],
+    invariants=[(1, "No parameter leaves its declared envelope without C01 authorization."),
+                (2, "Adjustments are logged with cause and expected effect.")],
+    failure_modes=[("01", "Runaway feedback loop between coupled parameters.", "loop-gain analysis",
+                    "Dampen coupling; restore last stable envelope."),
+                   ("02", "Unauthorized envelope expansion.", "envelope assertion",
+                    "Revert; escalate as governance violation.")],
+    control_planes=["C01_GOVERNANCE", "C02_METACOGNITIVE"],
+)
+
+PAYLOADS["L25"] = _base(
+    "L25", "IDENTITY_CONTINUITY",
+    "Maintains a coherent sense of system identity across time, updates, and partial failures.",
+    "Covers identity anchors, continuity evidence, and fragmentation resistance.",
+    inputs=["Identity anchors", "Change records"],
+    outputs=["Continuity state", "Identity attestations"],
+    deps_up=["L04_OBJECT_ENTITY_FORMATION"], deps_down=["L26_SOCIAL_COGNITION", "C01_GOVERNANCE"],
+    semantics=["Identity persists through continuity of commitments and values, not through immutability of content."],
+    invariants=[(1, "Identity anchors change only via governed, receipted transitions."),
+                (2, "Contradictory simultaneous identities are defects requiring reconciliation.")],
+    failure_modes=[("01", "Identity drift from accumulated unreviewed changes.", "anchor-diff audit",
+                    "Review cumulative delta; re-anchor or revert."),
+                   ("02", "Fragmentation after partial restore.", "continuity check",
+                    "Reconcile branches; preserve both histories with merge record.")],
+    control_planes=["C01_GOVERNANCE"],
+)
+
+PAYLOADS["L26"] = _base(
+    "L26", "SOCIAL_COGNITION",
+    "Models other agents: their goals, beliefs, and likely responses, without mind-projection.",
+    "Covers agent modeling, theory-of-mind hypotheses, and perspective separation.",
+    inputs=["Agent observations", "Interaction history"],
+    outputs=["Other-agent models", "Perspective-separated claims"],
+    deps_up=["L04_OBJECT_ENTITY_FORMATION", "L10_WORLD_MODELING"], deps_down=["L27_MULTI_AGENT_COGNITION", "L17_DECISION"],
+    semantics=["Models of other minds are MODEL class by definition; they are never treated as ground truth about the other."],
+    invariants=[(1, "Claims about other agents carry MODEL class and are falsifiable by their behavior."),
+                (2, "The system's own perspective is never projected onto another agent's model without tagging.")],
+    failure_modes=[("01", "Projection error: assumed shared values.", "perspective-tag audit",
+                    "Separate perspectives; re-derive model from behavior."),
+                   ("02", "Stale other-model after agent behavior change.", "model-freshness check",
+                    "Refresh from recent interactions before further use.")],
+    control_planes=["C04_REASONING"],
+)
+
+PAYLOADS["L27"] = _base(
+    "L27", "MULTI_AGENT_COGNITION",
+    "Coordinates cognition across multiple agents: task decomposition, dependency waves, conflict surfacing.",
+    "Covers DAG coordination, wave scheduling, and inter-agent trust propagation.",
+    inputs=["Task graphs", "Agent capabilities"],
+    outputs=["Coordination plans", "Conflict surfaces"],
+    deps_up=["L26_SOCIAL_COGNITION"], deps_down=["L17_DECISION", "C03_EXECUTIVE"],
+    semantics=["Dependencies form a DAG; cycles are coordination defects, not features."],
+    invariants=[(1, "Inter-agent conflicts surface to a coordinator; they are never averaged away."),
+                (2, "Trust propagates no higher than its minimum source.")],
+    failure_modes=[("01", "Deadlock via circular dependency.", "cycle detection",
+                    "Break cycle at weakest edge; renegotiate tasks."),
+                   ("02", "Capability mismatch discovered mid-task.", "capability pre-check",
+                    "Halt; reassign; log planning gap.")],
+    control_planes=["C03_EXECUTIVE", "C01_GOVERNANCE"],
+)
+
+PAYLOADS["L28"] = _base(
+    "L28", "GOVERNANCE",
+    "Encodes and enforces the rules under which all cognition operates: authority, constraints, precedence.",
+    "Covers rule encoding, precedence resolution, and enforcement-root attestation.",
+    inputs=["Canon laws", "Policy updates"],
+    outputs=["Enforcement decisions", "Authority grants/denials"],
+    deps_up=["L29_EVOLUTION"], deps_down=["ALL_CONTROL_PLANES"],
+    semantics=["Governance is state-integrity, not an output filter: it constrains what states are reachable, not just which outputs appear."],
+    invariants=[(1, "Ethical vetoes override all output metrics absolutely."),
+                (2, "Enforcement roots must be attested and agent-immutable; mutable roots = no enforcement."),
+                (3, "Precedence is resolved by declared order, not by recency of edit.")],
+    failure_modes=[("01", "Rule bypassed via transitive path.", "full-path gating (not one-hop)",
+                    "Close transitive escape; re-audit all effect paths."),
+                   ("02", "Enforcement root mutated by governed agent.", "root attestation check",
+                    "Freeze enforcement; restore root from sealed baseline."),
+                   ("03", "Conflicting rules applied by different planes.", "precedence resolver",
+                    "Resolve by hierarchy; log conflict for canon review.")],
+    control_planes=["C01_GOVERNANCE", "C09_KERNEL_CONTROL"],
+    hml={"H": "System-level law stack: Law of Law, Rule of 2/4 precedence.",
+         "M": "Subsystem policy enforcement and gate composition.",
+         "L": "Individual gate checks on single artifacts."},
+)
+
+PAYLOADS["L29"] = _base(
+    "L29", "EVOLUTION",
+    "Governs long-horizon adaptation of the cognitive architecture itself within integrity invariants.",
+    "Covers evolution proposals, bounded cycles, and termination conditions (DMER trajectory).",
+    inputs=["Aggregate performance history", "Architecture gaps"],
+    outputs=["Evolution proposals", "Cycle verdicts"],
+    deps_up=["L21_LEARNING", "L23_METACOGNITION"], deps_down=["L28_GOVERNANCE"],
+    semantics=["Evolution is allowed only while repair capacity grows alongside capability; capability growth without repair growth = exposure (DMER)."],
+    invariants=[(1, "Evolution proceeds in bounded, verified, durably-stored cycles."),
+                (2, "CLOSED DMER trajectory halts evolution pending repair."),
+                (3, "Every evolution preserves rollback to prior validated architecture.")],
+    failure_modes=[("01", "Capability outpaces repair capacity.", "R/E ratio monitor",
+                    "Pause evolution; invest in repair infrastructure first."),
+                   ("02", "Silent repair decline.", "trajectory classifier",
+                    "Trigger OPEN→CLOSING alarm; mandatory repair pass."),
+                   ("03", "Irreversible architectural change without rollback path.", "rollback-presence gate",
+                    "Block change until reversible form exists.")],
+    control_planes=["C01_GOVERNANCE", "C09_KERNEL_CONTROL"],
+)
