@@ -1016,4 +1016,4 @@ https://doi.org/10.1109/EMBC.2013.6611174
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]

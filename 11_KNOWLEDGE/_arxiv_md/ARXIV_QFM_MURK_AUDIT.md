@@ -265,4 +265,4 @@ falsifiers: a note lacks frontmatter or canonical fields; duplicate arxiv_ids re
 ---
 **Related:** [[00-Home]] · [[ARXIV_QFM_MOC]] · [[ARXIV_QFM_CLAIMS]]
 - [[00_ROOT_MOC]]
-- [[11_KNOWLEDGE_MOC]]
+- [[11_KNOWLEDGE_MOC]] · [[AMOS_RSCF_NODES]]

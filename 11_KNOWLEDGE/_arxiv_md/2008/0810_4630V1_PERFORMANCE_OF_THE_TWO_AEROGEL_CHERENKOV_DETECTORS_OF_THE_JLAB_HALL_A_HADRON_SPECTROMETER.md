@@ -1633,4 +1633,4 @@ distributions using Eq. (2) with parameters reported in Table 4. Vertical scales
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]

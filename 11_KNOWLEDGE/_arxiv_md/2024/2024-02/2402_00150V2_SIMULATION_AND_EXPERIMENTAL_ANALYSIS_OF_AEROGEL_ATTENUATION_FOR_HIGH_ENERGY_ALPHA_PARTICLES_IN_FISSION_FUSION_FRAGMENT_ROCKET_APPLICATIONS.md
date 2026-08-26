@@ -656,4 +656,4 @@ Reference Database 78.” [object Object], 1999. doi: 10.18434/T4W30F.
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]

@@ -2820,4 +2820,4 @@ This gives `L00_REALITY_ENVIRONMENT/AGENTS.md` its AMOS-specific function: **mai
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]]
+**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

@@ -5066,3 +5066,6 @@ AN INVENTED HISTORY.
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. This provenance contract directly follows the Full Brain requirements to preserve source terminology and provenance, distinguish typed evidence states, challenge correlated evidence and hidden dependencies, and expose missing provenance instead of inventing it. :contentReference[oaicite:6]{index=6} The exact graph backend, provenance ID schema, correlation algorithm, hash/signature policy, access control, and live provenance registry remain `UNKNOWN/GAP` until explicit AMOS canon or implementation establishes them.
 ```
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]

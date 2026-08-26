@@ -34,4 +34,4 @@ Map of all generator artifacts in `25_COGNITIVE_MATRIX/12_GENERATORS`.
 - [[GENERATOR_VERSIONING]]
 
 ---
-**Related:** [[00-Home]] · [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]] · [[COGNITIVE_MATRIX_MOC]]
+**Related:** [[00-Home]] · [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

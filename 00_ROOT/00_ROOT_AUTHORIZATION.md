@@ -3072,4 +3072,4 @@ The governing AMOS root-authorization law is:
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]] · [[AMOS_RSCF_NODES]]

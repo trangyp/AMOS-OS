@@ -1556,4 +1556,4 @@ tags: [cognitive_matrix, moc, index]
 - [[PLACEHOLDER_SEED_STATUS]]
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]

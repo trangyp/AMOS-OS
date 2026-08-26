@@ -8428,4 +8428,4 @@ of Theoretical Physics. vol. 2, Leningrad, 1975 = Selecta Math. Sov. 1:4 (1981),
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]

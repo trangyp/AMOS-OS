@@ -3201,4 +3201,4 @@ The purpose of `L00_REALITY_ENVIRONMENT / DEPENDENCIES` is to ensure that every 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]] · [[AMOS_RSCF_NODES]]

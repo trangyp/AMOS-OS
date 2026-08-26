@@ -21802,4 +21802,4 @@ falsifiers: a paper explicitly disclaims a domain; arXiv ID is wrong; peer-revie
 **Related:** [[00-Home]] · [[ARXIV_QFM_MOC]]
 - [[00_ROOT_MOC]]
 - [[11_KNOWLEDGE_MOC]]
-- [[ARXIV_QFM_MURK_AUDIT]]
+- [[ARXIV_QFM_MURK_AUDIT]] · [[AMOS_RSCF_NODES]]

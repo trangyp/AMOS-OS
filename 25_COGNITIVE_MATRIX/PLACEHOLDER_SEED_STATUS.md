@@ -2548,4 +2548,4 @@ This is the level of depth I would use for the Matrix-wide status artifact: not 
 ```
 
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]] · [[AMOS_RSCF_NODES]]

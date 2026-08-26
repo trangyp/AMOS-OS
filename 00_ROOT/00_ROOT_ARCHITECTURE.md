@@ -2617,3 +2617,6 @@ This fills the former root placeholder using the AMOS Full Brain OS structural b
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
