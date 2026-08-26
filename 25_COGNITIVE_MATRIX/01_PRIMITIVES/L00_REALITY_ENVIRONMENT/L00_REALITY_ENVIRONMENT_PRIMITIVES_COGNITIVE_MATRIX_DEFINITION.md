@@ -2985,3 +2985,6 @@ The architectural purpose of `L00_REALITY_ENVIRONMENT` is therefore to keep AMOS
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]

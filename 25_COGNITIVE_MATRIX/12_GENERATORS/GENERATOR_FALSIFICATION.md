@@ -2268,4 +2268,4 @@ This content may replace the placeholder **at the candidate-specification level*
 - [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[GENERATORS_MAP]]
+**Related:** [[00-Home]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]]

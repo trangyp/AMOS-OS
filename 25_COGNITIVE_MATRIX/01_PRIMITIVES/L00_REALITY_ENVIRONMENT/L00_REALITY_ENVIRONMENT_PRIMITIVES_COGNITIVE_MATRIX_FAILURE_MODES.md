@@ -3334,3 +3334,6 @@ The central L00 failure principle is:
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]

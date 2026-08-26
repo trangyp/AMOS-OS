@@ -27,4 +27,4 @@ tags: ['cognitive_matrix', 'index', 'note']
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]]

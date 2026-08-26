@@ -1,10 +1,4 @@
 ---
-tags: ['cognitive_matrix', 'note']
----
-
-Understood — the previous version compressed the status too aggressively. This should function as a **full structural-governance status artifact**, not a short progress note.
-
----
 title: "AMOS Cognitive Matrix Placeholder Seed Status"
 origin_architect: "Trang Phan"
 updated: "2026-08-25"
@@ -2554,8 +2548,4 @@ This is the level of depth I would use for the Matrix-wide status artifact: not 
 ```
 
 ---
-
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
-
----
-**Related:** [[00-Home]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]
