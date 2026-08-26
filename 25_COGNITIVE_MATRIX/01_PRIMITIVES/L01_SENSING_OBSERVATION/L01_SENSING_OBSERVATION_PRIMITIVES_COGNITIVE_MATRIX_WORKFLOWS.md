@@ -1996,3 +1996,6 @@ The recovered artifact remains explicitly `UNKNOWN/GAP` and states that content 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

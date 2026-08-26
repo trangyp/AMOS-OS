@@ -4932,3 +4932,6 @@ The placement itself is supported by the repository: `TASK_CONTRACT.md` belongs 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

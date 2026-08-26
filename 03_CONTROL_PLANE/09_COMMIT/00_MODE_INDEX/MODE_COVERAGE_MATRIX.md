@@ -4527,3 +4527,6 @@ This is `DERIVED / CANDIDATE_CANON`, not recovered original canon. The actual Dr
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

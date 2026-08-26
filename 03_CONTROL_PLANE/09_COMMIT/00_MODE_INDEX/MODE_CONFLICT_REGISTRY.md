@@ -4056,3 +4056,6 @@ This should be treated as `DERIVED / CANDIDATE_CANON`, not recovered original ca
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

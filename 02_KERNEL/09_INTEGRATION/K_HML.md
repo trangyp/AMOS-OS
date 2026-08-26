@@ -2689,3 +2689,6 @@ So this is suitable as the **full `K_HML` canon-candidate specification**, but t
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

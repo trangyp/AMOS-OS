@@ -5936,3 +5936,6 @@ This is a **substantive candidate replacement**, not recovered pre-existing cano
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

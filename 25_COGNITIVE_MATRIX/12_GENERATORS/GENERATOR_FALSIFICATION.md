@@ -2266,3 +2266,6 @@ This content may replace the placeholder **at the candidate-specification level*
 - [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT.md|Generator Contract]]
 - [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_ADMISSION.md|Generator Admission]]
 - [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

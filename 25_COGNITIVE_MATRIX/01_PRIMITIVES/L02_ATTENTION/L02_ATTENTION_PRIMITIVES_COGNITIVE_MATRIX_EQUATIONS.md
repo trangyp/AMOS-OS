@@ -2544,3 +2544,6 @@ The highest-value unresolved gap is the **canonical L02 equation registry**. Unt
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]

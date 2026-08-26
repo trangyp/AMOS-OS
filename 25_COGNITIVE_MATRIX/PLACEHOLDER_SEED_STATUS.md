@@ -2556,3 +2556,6 @@ This is the level of depth I would use for the Matrix-wide status artifact: not 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+---
+**Related:** [[00-Home]]
