@@ -11,21 +11,21 @@
       "query": "path:00_ROOT/",
       "color": {
         "a": 1,
-        "rgb": 16766720
+        "rgb": 65331
       }
     },
     {
       "query": "path:01_CANON/",
       "color": {
         "a": 1,
-        "rgb": 16739179
+        "rgb": 2420991
       }
     },
     {
       "query": "path:02_KERNEL/",
       "color": {
         "a": 1,
-        "rgb": 5164484
+        "rgb": 5019085
       }
     },
     {
@@ -39,14 +39,14 @@
       "query": "path:11_KNOWLEDGE/",
       "color": {
         "a": 1,
-        "rgb": 3447003
+        "rgb": 3398546
       }
     },
     {
       "query": "path:25_COGNITIVE_MATRIX/",
       "color": {
         "a": 1,
-        "rgb": 10181046
+        "rgb": 4871726
       }
     }
   ],
