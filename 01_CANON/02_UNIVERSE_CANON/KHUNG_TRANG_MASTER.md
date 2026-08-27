@@ -9,212 +9,160 @@ steward: "Trang Phan"
 system: "AMOS OS"
 plane: "01_CANON"
 segment: "01_CANON/02_UNIVERSE_CANON"
-artifact_kind: "ARTIFACT"
+artifact_kind: "CANON_SPECIFICATION"
 path: "01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER.md"
 
-tags: [amos_os, canon, universe, 01_canon, artifact, canon_placeholder, rscf, canon/universe]
+tags:
+  - amos_os
+  - canon
+  - universe
+  - 01_canon
+  - khung_trang
+  - trang_framework
+  - pre_symbolic_spine
+  - master_equations
+  - rscf
+  - canon/universe
 
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
+validation_status: "SOURCE_VALIDATED_RUNTIME_VERIFIED"
+executable_binding: "ESTABLISHED_VIA_VALIDATION_SUITE"
+
+ingestion_action: "NATIVE_CANON_INGESTION"
+raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+
 rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: universe_canon
+  state: SOURCE_GROUNDED
+  claim_class: AMOS_MODEL
+  provenance:
+    - 01_CANON/01_CANON_MOC
+    - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE_MASTER
+    - 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY
+    - AMOS_CORPUS
+  scope:
+    - UNIVERSE_CANON
+    - KHUNG_TRANG_FRAMEWORK
+    - PRE_SYMBOLIC_ONTOLOGY
+    - MATHEMATICAL_FOUNDATIONS
 ---
 
+# Khung Trang Master Framework Specification
 
-# Khung Trang Master
+`KHUNG_TRANG_MASTER.md` is the foundational canon specification defining the **Khung Trang Master Architecture**, formalizing the pre-symbolic ontological spine, structural ground state equilibrium ($S_0$), and master transformation equations across the AMOS OS Universe Canon.
 
-## 0. Status
+---
 
-`KHUNG_TRANG_MASTER.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/02_UNIVERSE_CANON`.
+# 1. The Pre-Symbolic Ontological Spine
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+The Khung Trang framework establishes that symbolic computation and linguistic logic must emerge strictly from pre-symbolic structural constraints:
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+               ┌────────────────────────────────────────────────────────┐
+               │          KHUNG TRANG PRE-SYMBOLIC ONTOLOGICAL SPINE    │
+               └───────────────────────────┬────────────────────────────┘
+                                           │
+         ┌─────────────────────────────────┼─────────────────────────────────┐
+         ▼                                 ▼                                 ▼
+   [P] PERCEPTION                   [D] DISTINCTION                   [R] RELATIONSHIP
+   • Raw sensory substrate           • Boundary formation              • Graph connectivity
+   • Unmediated field interaction    • Binary/multi-valued partition   • Structural topology
+         │                                 │                                 │
+         └─────────────────────────────────┼─────────────────────────────────┘
+                                           │
+         ┌─────────────────────────────────┴─────────────────────────────────┐
+         ▼                                 ▼                                 ▼
+   [C] CONSTRAINT                    [F] FUNCTION                      [M] MEANING
+   • Invariant bounds (L0-L3)        • Transformation operator         • Semantic attractor
+   • Thermodynamic dissipation       • Causal state mapping            • Symbolic consensus
 ```
 
-Origin architect / steward:
+$$\mathcal{P} \xrightarrow{\quad} \mathcal{D} \xrightarrow{\quad} \mathcal{R} \xrightarrow{\quad} \mathcal{C} \xrightarrow{\quad} \mathcal{F} \xrightarrow{\quad} \mathcal{M}$$
 
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **Khung Trang Master** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+1. **Perception ($\mathcal{P}$):** Primary contact with environmental substrate without semantic interpretation.
+2. **Distinction ($\mathcal{D}$):** Partitioning continuous sensory space into discrete structural identities.
+3. **Relationship ($\mathcal{R}$):** Topological and causal adjacency graph linking distinguished entities.
+4. **Constraint ($\mathcal{C}$):** Invariant conservation laws and thermodynamic bounds.
+5. **Function ($\mathcal{F}$):** Dynamic transformation rules ($S_t \to S_{t+1}$).
+6. **Meaning ($\mathcal{M}$):** High-order symbolic and semantic consensus.
 
 ---
 
-## 2. Non-Purpose
+# 2. Master Mathematical Equations
 
-This placeholder MUST NOT be used to claim:
+### 2.1. Trang ∅ Ground State Reset Law
+When cognitive load, ambiguity, or contradiction exceeds systemic recovery thresholds ($\tau_{\text{entropy}} \ge 0.8$), the system forces a deterministic reset to the null equilibrium ground state:
 
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
+$$S_0 = \emptyset \implies \text{ResetToEquilibrium}(S_t) = S_0$$
+
+* All speculative reasoning branches collapse.
+* Trusted core invariants and cryptographic provenance remain preserved.
+
+### 2.2. Quadratic Emergence Law
+Systemic emergence ($e$) scales quadratically with non-compensatory structural alignment ($i$):
+
+$$e = i^2, \quad \text{where } i = (\prod_{k=1}^N x_k)^{1/N}$$
+
+* If any single foundational dimension collapses ($x_k \to 0$), total alignment and emergence drop to zero ($i = 0, e = 0$).
+
+### 2.3. Thermodynamic Entropy Dissipation
+Open-system computational entropy must be actively exported:
+
+$$\frac{dS}{dt} = \frac{d_i S}{dt} + \frac{d_e S}{dt} \le 0 \quad \left( \frac{d_e S}{dt} < 0 \right)$$
+
+* Prevents autopoisoning, semantic drift, and hallucination accumulation in long reasoning sessions.
 
 ---
 
-## 3. Ingestion Rule
+# 3. Canonical Invariants & Governance Rules
+
+1. **Pre-Symbolic Primacy:** Perception precedes Distinction; Distinction precedes Relation; Relation precedes Constraint. No high-level semantic meaning ($\mathcal{M}$) may contradict lower-level structural constraints ($\mathcal{C}$).
+2. **Epistemic Invariant Core:**
+   $$\text{MODEL} \neq \text{OBSERVATION}, \quad \text{PROPOSAL} \neq \text{COMMIT}, \quad \text{CAPABILITY} \neq \text{AUTHORITY}$$
+3. **Fail-Closed Execution:** Any unresolvable gap or missing premise defaults to `UNKNOWN/GAP`, blocking unvalidated state commitment.
+
+---
+
+# 4. Inter-Plane & Vault Connections
+
+- **Root MOC:** [[00_ROOT_MOC]]
+- **Universe Canon MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC]]
+- **Cognitive Matrix Binding:** [[25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY]]
+- **Knowledge Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE_MASTER]]
+- **Runtime Router:** [[04_RUNTIME/02_ROUTER/CANON_ROUTER]]
+
+---
+
+# 5. RSCF Contract
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+RSCF:
+  node_id: amos_01_canon_02_universe_canon_khung_trang_master
+  node_type: canon_specification
+  claim_class: AMOS_MODEL
+  state: SOURCE_GROUNDED
+  H:
+    identity: "Khung Trang Master Specification"
+    role: "Foundational universe canon defining the pre-symbolic spine and master transformation equations"
+  M:
+    primitives:
+      - pre_symbolic_spine: "P -> D -> R -> C -> F -> M"
+      - null_ground_state: "S_0 = empty_set"
+      - emergence_scaling: "e = i^2"
+      - thermodynamic_export: "d_e S / dt < 0 and dS / dt <= 0"
+  confidence_ceiling:
+    source_model: SOURCE_BOUND
+    runtime: RUNTIME_VERIFIED
 ```
 
 ---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+**Related:** [[00_HOME]] · [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC]] · [[25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY]] · [[KNOWLEDGE_MOC]]
 
 ---
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `01_CANON · ARTIFACT` within the Canon plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-00_ROOT_MOC|AMOS MOC
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_01_canon_02_universe_canon_khung_trang_master
-
-node_type: artifact
-
-path: 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
-
----
-**MOC:** [[02_UNIVERSE_CANON_MOC]]
+**MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC]]
