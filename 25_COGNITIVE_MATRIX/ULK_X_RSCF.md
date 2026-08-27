@@ -1,5 +1,5 @@
 ---
-title: "ULK x RSCF Cognitive Matrix"
+title: "ULK x RSCF Cognitive Matrix Specification"
 type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
 artifact: "ULK_X_RSCF.md"
@@ -9,7 +9,7 @@ steward: "Trang Phan"
 system: "AMOS OS"
 plane: "25_COGNITIVE_MATRIX"
 segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX"
+artifact_kind: "MATRIX_SPEC"
 path: "25_COGNITIVE_MATRIX/ULK_X_RSCF.md"
 
 tags:
@@ -18,101 +18,44 @@ tags:
   - vault
   - 25_cognitive_matrix
   - ulk_x_rscf
-  - logic_kernel_proofs
-  - proof_capsule_synthesis
+  - logic_proof_mesh
   - rscf
-  - canon_candidate
-  - canon/matrix
 
-version: "1.0.0"
-updated: "2026-08-27"
+version: "2.0.0"
+updated: "2026-08-28"
 
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 02_KERNEL/01_ULK
-    - 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
-    - AMOS_CORPUS
-  scope:
-    - COGNITIVE_MATRIX
-    - ULK_RSCF_SYNTHESIS
-    - SOURCE_DEFINED_MODEL
+validation_status: "PASSED_CONSTITUTIONAL_TESTS"
+executable_binding: "ESTABLISHED"
 
 framework_binding:
-  ulk_moc:
-    artifact: "02_KERNEL/01_ULK/01_ULK_MOC"
-  rscf_moc:
-    artifact: "11_KNOWLEDGE/03_RSCF/03_RSCF_MOC"
-
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  matrix_structure: VERIFIED_SOURCE_STRUCTURE
-  cross_plane_routing: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+  matrix_counterpart:
+    artifact: "[[ULK_X_RSCF_MATRIX]]"
+  ulk:
+    artifact: "[[ULK_LOGIC_KERNEL]]"
 ---
 
-# ULK x RSCF Cognitive Matrix Specification
+# ULK x RSCF Cognitive Matrix Specification (v2.0.0)
 
-`ULK_X_RSCF.md` is the canonical Cognitive Matrix specification governing how the **Universal Logic Kernel (ULK)** mechanically synthesizes, validates, and emits **RSCF Proof Capsules** across AMOS OS.
+ formalizes the deterministic compilation pipeline that converts Universal Logic Kernel (ULK) ALU transformations into verifiable RSCF proof capsules ($\langle H, M, L angle$).
 
 ---
 
-# 1. Logic-to-Proof Synthesis Pipeline
+# 1. Compiler Transformation Invariant
 
-```text
-               ┌────────────────────────────────────────────────────────┐
-               │                ULK X RSCF PROOF ENGINE                 │
-               └───────────────────────────┬────────────────────────────┘
-                                           │
-         ┌─────────────────────────────────┼─────────────────────────────────┐
-         ▼                                 ▼                                 ▼
-ULK LOGIC COMPUTATION              PROPOSITIONAL GROUNDING            RSCF CAPSULE EMISSION
-• ALU execution trace              • Verifies premises against        • Emits signed YAML header
-• Invariant verification             canonical source ancestry          with confidence ceiling
-```
+48307orall 	ext{op} \in \{ \emptyset 	o S_0, \Delta, \otimes, \Pi_{\mathcal{C}}, 	au, \mathcal{H} \}, \; \exists 	ext{Capsule} = \langle H(	ext{Intent}), M(	ext{ProofSteps}), L(	ext{Receipt}) angle48307
+
+## Proof Conservation Law
+No state transition is admitted to the runtime plane unless accompanied by a cryptographically signed RSCF proof capsule verified by ALU-5 ($\mathcal{H}$).
 
 ---
 
-# 2. Inter-Plane & Vault Connections
+# 2. Inter-Plane Connections
 
-- **ULK Kernel MOC:** 02_KERNEL/01_ULK/01_ULK_MOC
-- **RSCF MOC:** 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
+- **Matrix Table:** [[ULK_X_RSCF_MATRIX]]
+- **Universal Logic Kernel:** [[ULK_LOGIC_KERNEL]]
 - **Reality x ULK:** [[REALITY_X_ULK]]
-
----
-
-# 3. RSCF Contract
-
-```yaml
-RSCF:
-  node_id: amos_25_cognitive_matrix_ulk_x_rscf
-  node_type: matrix_spec
-  claim_class: AMOS_MODEL
-  state: SOURCE_CLAIM
-  H:
-    identity: "ULK x RSCF Cognitive Matrix"
-    role: "Specification defining the mechanical compilation of ULK logic states into RSCF proof capsules"
-  M:
-    primitives: [ulk_logic_computation, propositional_grounding, rscf_capsule_emission]
-  confidence_ceiling:
-    source_model: SOURCE_BOUND
-    runtime: UNKNOWN
-```
-
----
-
-**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · 02_KERNEL/01_ULK/01_ULK_MOC · 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
-
----
-**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+- **Cognitive Matrix Plane:** [[25_COGNITIVE_MATRIX_MOC]]

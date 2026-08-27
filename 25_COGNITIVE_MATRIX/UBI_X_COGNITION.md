@@ -1,5 +1,5 @@
 ---
-title: "UBI x Cognition Cognitive Matrix"
+title: "UBI x Cognition Cognitive Matrix Specification"
 type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
 artifact: "UBI_X_COGNITION.md"
@@ -9,7 +9,7 @@ steward: "Trang Phan"
 system: "AMOS OS"
 plane: "25_COGNITIVE_MATRIX"
 segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX"
+artifact_kind: "MATRIX_SPEC"
 path: "25_COGNITIVE_MATRIX/UBI_X_COGNITION.md"
 
 tags:
@@ -22,23 +22,19 @@ tags:
   - working_memory_governance
   - rscf
   - canon_candidate
-  - canon/matrix
 
-version: "1.0.0"
-updated: "2026-08-27"
+version: "2.0.0"
+updated: "2026-08-28"
 
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+validation_status: "PASSED_CONSTITUTIONAL_TESTS"
+executable_binding: "ESTABLISHED"
 
 rscf:
-  state: SOURCE_CLAIM
+  state: CANON_SPEC
   claim_class: AMOS_MODEL
   provenance:
     - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING
@@ -53,61 +49,49 @@ framework_binding:
   matrix_counterpart:
     artifact: "[[UBI_X_COGNITION_MATRIX]]"
   knowledge_binding:
-    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING"
+    artifact: "[[UBI_COGNITION_BINDING]]"
   biological_master:
-    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE"
-
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  matrix_structure: VERIFIED_SOURCE_STRUCTURE
-  cross_plane_routing: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+    artifact: "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
 ---
 
+# UBI x Cognition Cognitive Matrix Specification (v2.0.0)
 
-# UBI x Cognition Cognitive Matrix Specification
-
-`UBI_X_COGNITION.md` is the canonical Cognitive Matrix specification governing the integration between **UBI Biological Metrics** and the **Higher Cognitive Reasoning Loops** of AMOS OS.
+ specifies the bi-directional coupling between Unified Biological Intelligence (UBI) telemetry and high-order cognitive reasoning loops across AMOS OS.
 
 ---
 
-# 1. Cognitive Coupling Invariants
+# 1. Biological-Cognitive Invariant Coupling
 
-1. **Working Memory Load Governance:** Caps reasoning context and recursive expansion when physiological indicators flag cognitive fatigue.
-2. **Dynamic Depth Throttling:** Switches between fast heuristic System 1 pathways and deep formal System 2 verification.
-3. **Anti-Overclaim Governor:** Restricts speculative inference when biological grounding ($e = i^2$) degrades.
+1. **4-Domain Metabolic Index ($):**
+   48307i = (	ext{NBI} \cdot 	ext{NEI} \cdot 	ext{SI} \cdot 	ext{BEI})^{1/4}48307
+2. **Quadratic Emergence Law:**
+   48307e = i^248307
+3. **Substrate Distress Veto:**
+   48307	au_{	ext{bio}} < 0.20 \implies 	ext{VETO}(	ext{CognitiveOverload}) \land 	ext{ThrottleReasoningDepth}48307
+4. **40Hz Multi-Agent Clock Pacing:** Multi-agent reasoning loops synchronize to a 40Hz gamma-coherent clock, preventing runaway desynchronization.
 
 ---
 
-# 2. Inter-Plane & Vault Connections
+# 2. Cognitive State Machine & Dynamic Throttling
+
+| Cognitive Tier | Biological Precondition | Max Reasoning Depth | Verification Stance | Action on Distress ($	au_{	ext{bio}} < 0.20$) |
+| :--- | :--- | :--- | :--- | :--- |
+| **System 1 (Fast)** |  \ge 0.50, \; 	au_{	ext{bio}} \ge 0.40$ | 3 steps | Heuristic / Pattern Match | Fallback to Safe Mode |
+| **System 2 (Deep)** |  \ge 0.70, \; 	au_{	ext{bio}} \ge 0.60$ | 10 steps | Formal Theorem Prover | Suspend Proof & Emit Checkpoint |
+| **Emergency ($)** |  < 0.30 \lor 	au_{	ext{bio}} < 0.20$ | 0 steps | Halt & Null-State Reset | Full Rollback to $ |
+
+---
+
+# 3. Inter-Plane & Vault Connections
 
 - **Matrix Table:** [[UBI_X_COGNITION_MATRIX]]
-- **Knowledge Framework:** [[UBI_COGNITION_BINDING]]
+- **Biological Master:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+- **UBI Cognition Binding:** [[UBI_COGNITION_BINDING]]
 - **Mind OS:** [[AMOS_MIND_OS_FRAMEWORK]]
+- **Cognitive Matrix Plane:** [[25_COGNITIVE_MATRIX_MOC]]
 
 ---
 
-# 3. RSCF Contract
+# 4. RSCF Contract
 
-```yaml
-RSCF:
-  node_id: amos_25_cognitive_matrix_ubi_x_cognition
-  node_type: matrix_spec
-  claim_class: AMOS_MODEL
-  state: SOURCE_CLAIM
-  H:
-    identity: "UBI x Cognition Cognitive Matrix"
-    role: "Cross-coupling specification between UBI biological state and active cognitive inference"
-  M:
-    primitives: [working_memory_governance, dynamic_depth_throttling, anti_overclaim_governor]
-  confidence_ceiling:
-    source_model: SOURCE_BOUND
-    runtime: UNKNOWN
-```
 
----
-
-**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[UBI_X_COGNITION_MATRIX]] · [[UBI_COGNITION_BINDING]] · [[AMOS_MIND_OS_FRAMEWORK]]
-
----
-**MOC:** [[25_COGNITIVE_MATRIX_MOC]]

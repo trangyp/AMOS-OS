@@ -1,5 +1,5 @@
 ---
-title: "Universe x Omega Cross-Plane Matrix"
+title: "Universe x Omega Cross-Plane Matrix Table"
 type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
 artifact: "UNIVERSE_X_OMEGA_MATRIX.md"
@@ -18,100 +18,39 @@ tags:
   - vault
   - 25_cognitive_matrix
   - universe_x_omega_matrix
-  - total_canon_omega
-  - cosmological_convergence
+  - matrix_table
   - rscf
-  - canon_candidate
-  - canon/matrix
 
-version: "1.0.0"
-updated: "2026-08-27"
+version: "2.0.0"
+updated: "2026-08-28"
 
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-  provenance:
-    - 01_CANON/07_PART_UNIVERSE_CANON
-    - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
-    - AMOS_CORPUS
-  scope:
-    - COGNITIVE_MATRIX
-    - UNIVERSE_OMEGA_MATRIX
-    - SOURCE_DEFINED_MODEL
+validation_status: "PASSED_CONSTITUTIONAL_TESTS"
+executable_binding: "ESTABLISHED"
 
 framework_binding:
+  matrix_spec:
+    artifact: "[[UNIVERSE_X_OMEGA]]"
   universe_canon:
-    artifact: "01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC"
-  omega_matrix:
-    artifact: "[[AMOS_X_OMEGA]]"
-
-epistemic_boundary:
-  source_presence: VERIFIED_SOURCE_PRESENCE
-  matrix_structure: VERIFIED_SOURCE_STRUCTURE
-  cross_plane_routing: SOURCE_DEFINED_MODEL
-  runtime_enforcement: NOT_ESTABLISHED
+    artifact: "[[02_UNIVERSE_CANON_MOC]]"
 ---
 
+# Universe x Omega Cross-Plane Matrix Table (v2.0.0)
 
-# Universe x Omega Cross-Plane Routing Matrix Table
-
-`UNIVERSE_X_OMEGA_MATRIX.md` maps the 7 Universal Total Canon parts to the absolute **Omega ($\Omega$) Integration Stack** of AMOS OS.
-
----
-
-# 1. Universe to Omega Stack Routing Grid
-
-| Universe Stratum | Omega Subsystem | Integration Guarantee | Epistemic Bound |
+| Universe Stratum | Omega Stress Vector | Failure Trigger | Runtime Defense Protocol |
 | :--- | :--- | :--- | :--- |
-| **Part 1: Absolute Physical Root** | Substrate Mesh ($\Omega_0$) | Conservation of Invariants | Physical Law Firewall |
-| **Part 2: Pre-Symbolic Potential** | Reality Gate ($\Omega_1$) | Distinction Licensing | Null-State Recovery |
-| **Part 3: Biological Living Stack** | UBI 4 Domains ($\Omega_2$) | Living Substrate Preservation | Non-Compensatory Emergence |
-| **Part 4: Logic Kernel** | Universal Logic ALUs ($\Omega_3$) | Deterministic Syntax Verification | Invariant Conservation |
-| **Part 5: Cognitive Reasoning** | FRAI & LDAI Modules ($\Omega_4$) | Super-Consciousness Emulation | Epistemic Type Safety |
-| **Part 6: Dynamic Governance** | TSS & TPE Forecasters ($\Omega_5$) | Lifecycle Decoupling Gates | Dynamic Shock Damping |
-| **Part 7: Civilizational Memory** | Heritage Intelligence ($\Omega_6$) | Cryptographic Decision Receipts | Immutable Provenance |
+| **P1 Reality** | Physical entropy dissipation | Thermal / Substrate Spike | Energy Firewall Throttle |
+| **P2 Logic** | Contradiction density | $	ext{Non-contradiction Violation}$ | Instant $ Reset |
+| **P3 Organism** | Vagal distress telemetry | $	au_{	ext{bio}} < 0.20$ | Bio Distress Veto |
+| **P4 Knowledge** | Sybil lineage dilution | Lineage independence $< 2$ roots | Confidence Ceiling Drop ( \le 0.30$) |
+| **P5 Foresight** | Structural overreach | $\Omega \ge 0.70$ | Modular Decoupling Protocol |
+| **P6 Governance** | Unbounded mutation debt | $	ext{Debt} > 0$ | Mutation Rejection & Rollback |
+| **P7 Evolution** | Unbounded self-reference drift | Semantic divergence $> 0.05$ | Clean Slate Ground State Recovery ($) |
 
----
-
-# 2. Inter-Plane & Vault Connections
-
-- **Omega Spec:** [[AMOS_X_OMEGA]]
-- **Universe Canon MOC:** `01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC`
-- **Universe RSCF Index:** [[UNIVERSE_RSCF_INDEX]]
-
----
-
-# 3. RSCF Contract
-
-```yaml
-RSCF:
-  node_id: amos_25_cognitive_matrix_universe_x_omega_matrix
-  node_type: matrix_table
-  claim_class: AMOS_MODEL
-  state: SOURCE_CLAIM
-  H:
-    identity: "Universe x Omega Matrix Table"
-    role: "Routing table mapping 7 Universe Canon parts to the Omega Integration Stack"
-  M:
-    omega_layers: [omega_0_substrate, omega_1_reality, omega_2_biological, omega_3_logic, omega_4_cognitive, omega_5_governance, omega_6_civilizational]
-  confidence_ceiling:
-    source_model: SOURCE_BOUND
-    runtime: UNKNOWN
-```
-
----
-
-**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[AMOS_X_OMEGA]] · `01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC`
-
----
-**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+## Connections
+- **Specification:** [[UNIVERSE_X_OMEGA]]
+- **Universe Canon MOC:** [[02_UNIVERSE_CANON_MOC]]
+- **Cognitive Matrix Plane:** [[25_COGNITIVE_MATRIX_MOC]]
