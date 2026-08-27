@@ -1,4 +1,3 @@
-````yaml
 ---
 title: L10 FAILURE RECOVERY
 type: failure-mode
@@ -71,7 +70,6 @@ PROPOSED_SPECIFICATION
         └── authoritative contradiction
                    ↓
                INVALIDATED
-````
 
 The governing principle is:
 
@@ -2745,6 +2743,3 @@ FAIL
 ```
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
-
-```
-```
