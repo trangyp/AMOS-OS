@@ -1,11 +1,13 @@
 ---
-title: 15_CUSTOM_MODES MOC
+title: "15 Custom Modes MOC"
 type: moc
 tags: [moc, 15-custom-modes]
 ---
 
+# 15 Custom Modes — Map of Content
 
-# 15_CUSTOM_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/15_CUSTOM_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

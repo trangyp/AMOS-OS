@@ -1,11 +1,13 @@
 ---
-title: 81_TRANSACTION_COMMIT_MODES MOC
+title: "81 Transaction Commit Modes MOC"
 type: moc
 tags: [moc, 81-transaction-commit-modes]
 ---
 
+# 81 Transaction Commit Modes — Map of Content
 
-# 81_TRANSACTION_COMMIT_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/81_TRANSACTION_COMMIT_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

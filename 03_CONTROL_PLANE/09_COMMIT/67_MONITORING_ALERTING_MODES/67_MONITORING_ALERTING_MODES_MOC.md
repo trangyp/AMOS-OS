@@ -1,11 +1,13 @@
 ---
-title: 67_MONITORING_ALERTING_MODES MOC
+title: "67 Monitoring Alerting Modes MOC"
 type: moc
 tags: [moc, 67-monitoring-alerting-modes]
 ---
 
+# 67 Monitoring Alerting Modes — Map of Content
 
-# 67_MONITORING_ALERTING_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/67_MONITORING_ALERTING_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

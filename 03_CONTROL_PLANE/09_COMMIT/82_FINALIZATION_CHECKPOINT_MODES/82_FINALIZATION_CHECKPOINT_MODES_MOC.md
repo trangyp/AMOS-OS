@@ -1,11 +1,13 @@
 ---
-title: 82_FINALIZATION_CHECKPOINT_MODES MOC
+title: "82 Finalization Checkpoint Modes MOC"
 type: moc
 tags: [moc, 82-finalization-checkpoint-modes]
 ---
 
+# 82 Finalization Checkpoint Modes — Map of Content
 
-# 82_FINALIZATION_CHECKPOINT_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/82_FINALIZATION_CHECKPOINT_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

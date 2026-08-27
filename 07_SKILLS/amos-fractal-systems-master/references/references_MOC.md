@@ -1,10 +1,13 @@
 ---
-title: references MOC
+title: "References MOC"
 type: moc
 tags: [moc, references]
 ---
 
-# references — Map of Content
+# References — Map of Content
+
+**Path:** `07_SKILLS/amos-fractal-systems-master/references`
+**Files:** 19 | **Subdirectories:** 0
 
 ## Files
 
@@ -29,4 +32,4 @@ tags: [moc, references]
 - [[ubi_fractal_entropy_correction]]
 
 ---
-**Parent:** [[SKILL]]
+**Parent:** [[amos-fractal-systems-master_MOC]]

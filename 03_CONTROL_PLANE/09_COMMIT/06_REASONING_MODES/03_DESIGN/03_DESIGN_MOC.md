@@ -1,11 +1,13 @@
 ---
-title: 03_DESIGN MOC
+title: "03 Design MOC"
 type: moc
 tags: [moc, 03-design]
 ---
 
+# 03 Design — Map of Content
 
-# 03_DESIGN — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/03_DESIGN`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

@@ -1,10 +1,13 @@
 ---
-title: references MOC
+title: "References MOC"
 type: moc
 tags: [moc, references]
 ---
 
-# references — Map of Content
+# References — Map of Content
+
+**Path:** `07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/references`
+**Files:** 10 | **Subdirectories:** 0
 
 ## Files
 
@@ -20,4 +23,4 @@ tags: [moc, references]
 - [[vn_what_you_discovered]]
 
 ---
-**Parent:** [[SKILL]]
+**Parent:** [[amos-vietnamese-global-cultural-bridge-governor_MOC]]

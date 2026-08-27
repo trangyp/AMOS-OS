@@ -1,21 +1,19 @@
 ---
-title: Fractal MOC
+title: "Fractal MOC"
 type: moc
 tags: [moc, fractal]
 ---
 
-
 # Fractal — Map of Content
+
+**Path:** `11_KNOWLEDGE/fractal`
+**Files:** 31 | **Subdirectories:** 0
+
+## Files
 
 - [[AMOS_FOREX_FRACTAL_GEOMETRY_RESEARCH_CAPSULE_V2_DEEP]]
 - [[AMOS_FRACTAL_CONSCIOUSNESS_WHITEPAPER_FULL_FIXED]]
 - [[AMOS_FRACTAL_ROUTING]]
-
----
-**Root:** [[KNOWLEDGE_MOC]]
-
-## Files
-
 - [[AMOS_MATH_CORE_FRACTAL_MATHEMATICS_AND_COGNITIVE_ARCHITECTURE_RUNTIME]]
 - [[BAO_CAO_CHUYEN_SAU_VAT_LY_FRACTAL_TRONG_XAY_DUNG_V]]
 - [[CAU_TAI_CAU_VAN_DUOI_NGUYEN_LY_FRACTAL_L_M_H_VA]]
@@ -44,3 +42,6 @@ tags: [moc, fractal]
 - [[TRANG_FRAI_FRACTAL_REASONING_AI]]
 - [[TRU_TA_MA_DUOI_NGUYEN_LY_FRACTAL_L_M_H_LACUNA]]
 - [[UBI_FRACTAL_ARCHITECTURE_ENTROPY_CORRECTION]]
+
+---
+**Parent:** [[11_KNOWLEDGE_MOC]]

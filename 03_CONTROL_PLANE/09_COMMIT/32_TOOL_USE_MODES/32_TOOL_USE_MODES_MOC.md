@@ -1,11 +1,13 @@
 ---
-title: 32_TOOL_USE_MODES MOC
+title: "32 Tool Use Modes MOC"
 type: moc
 tags: [moc, 32-tool-use-modes]
 ---
 
+# 32 Tool Use Modes — Map of Content
 
-# 32_TOOL_USE_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/32_TOOL_USE_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

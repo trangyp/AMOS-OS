@@ -1,11 +1,13 @@
 ---
-title: 45_COMPRESSION_EXPANSION_MODES MOC
+title: "45 Compression Expansion Modes MOC"
 type: moc
 tags: [moc, 45-compression-expansion-modes]
 ---
 
+# 45 Compression Expansion Modes — Map of Content
 
-# 45_COMPRESSION_EXPANSION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/45_COMPRESSION_EXPANSION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

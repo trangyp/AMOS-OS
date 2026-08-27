@@ -1,11 +1,13 @@
 ---
-title: 03_GOVERNANCE_FORUMS MOC
+title: "03 Governance Forums MOC"
 type: moc
 tags: [moc, 03-governance-forums]
 ---
 
+# 03 Governance Forums — Map of Content
 
-# 03_GOVERNANCE_FORUMS — Map of Content
+**Path:** `23_OPERATING_MODEL/03_GOVERNANCE_FORUMS`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 03-governance-forums]
 
 ## Subdirectories
 
-- [[INDEX_GOVERNANCE_FORUMS_OPERATING_MODEL_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[23_OPERATING_MODEL_MOC]]

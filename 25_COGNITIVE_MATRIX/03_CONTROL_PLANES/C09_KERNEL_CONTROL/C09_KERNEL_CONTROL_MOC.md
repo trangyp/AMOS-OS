@@ -1,11 +1,13 @@
 ---
-title: C09_KERNEL_CONTROL MOC
+title: "C09 Kernel Control MOC"
 type: moc
 tags: [moc, c09-kernel-control]
 ---
 
+# C09 Kernel Control — Map of Content
 
-# C09_KERNEL_CONTROL — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C09_KERNEL_CONTROL`
+**Files:** 21 | **Subdirectories:** 1
 
 ## Files
 
@@ -33,7 +35,7 @@ tags: [moc, c09-kernel-control]
 
 ## Subdirectories
 
-- [[INDEX_C09_KERNEL_CONTROL_CONTROL_PLANES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANES_MOC]]

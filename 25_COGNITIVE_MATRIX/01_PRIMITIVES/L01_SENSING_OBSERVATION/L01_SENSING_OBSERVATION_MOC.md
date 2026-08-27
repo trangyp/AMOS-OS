@@ -1,11 +1,13 @@
 ---
-title: L01_SENSING_OBSERVATION MOC
+title: "L01 Sensing Observation MOC"
 type: moc
 tags: [moc, l01-sensing-observation]
 ---
 
+# L01 Sensing Observation — Map of Content
 
-# L01_SENSING_OBSERVATION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l01-sensing-observation]
 
 ## Subdirectories
 
-- [[INDEX_L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 16_REPAIR MOC
+title: "16 Repair MOC"
 type: moc
 tags: [moc, 16-repair]
 ---
 
+# 16 Repair — Map of Content
 
-# 16_REPAIR — Map of Content
+**Path:** `05_COGNITIVE_ORGANISM/16_REPAIR`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

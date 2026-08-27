@@ -1,10 +1,13 @@
 ---
-title: references MOC
+title: "References MOC"
 type: moc
 tags: [moc, references]
 ---
 
-# references — Map of Content
+# References — Map of Content
+
+**Path:** `07_SKILLS/amos-c07-econ-finance-master/references`
+**Files:** 33 | **Subdirectories:** 0
 
 ## Files
 
@@ -43,4 +46,4 @@ tags: [moc, references]
 - [[wealth_game_hack_50000]]
 
 ---
-**Parent:** [[SKILL]]
+**Parent:** [[amos-c07-econ-finance-master_MOC]]

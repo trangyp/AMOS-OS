@@ -1,11 +1,13 @@
 ---
-title: 59_TEACHING_EXPLANATION_MODES MOC
+title: "59 Teaching Explanation Modes MOC"
 type: moc
 tags: [moc, 59-teaching-explanation-modes]
 ---
 
+# 59 Teaching Explanation Modes — Map of Content
 
-# 59_TEACHING_EXPLANATION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/59_TEACHING_EXPLANATION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

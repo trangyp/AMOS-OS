@@ -1,11 +1,13 @@
 ---
-title: 12_GENERATORS MOC
+title: "12 Generators MOC"
 type: moc
 tags: [moc, 12-generators]
 ---
 
+# 12 Generators — Map of Content
 
-# 12_GENERATORS — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/12_GENERATORS`
+**Files:** 24 | **Subdirectories:** 1
 
 ## Files
 
@@ -36,7 +38,7 @@ tags: [moc, 12-generators]
 
 ## Subdirectories
 
-- [[INDEX_GENERATORS_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[25_COGNITIVE_MATRIX_MOC]]

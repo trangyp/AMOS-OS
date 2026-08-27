@@ -1,11 +1,13 @@
 ---
-title: 64_DATA_EVIDENCE_GATHERING_MODES MOC
+title: "64 Data Evidence Gathering Modes MOC"
 type: moc
 tags: [moc, 64-data-evidence-gathering-modes]
 ---
 
+# 64 Data Evidence Gathering Modes — Map of Content
 
-# 64_DATA_EVIDENCE_GATHERING_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/64_DATA_EVIDENCE_GATHERING_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

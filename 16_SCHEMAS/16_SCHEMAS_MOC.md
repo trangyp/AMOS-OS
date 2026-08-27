@@ -1,11 +1,13 @@
 ---
-title: 16_SCHEMAS MOC
+title: "16 Schemas MOC"
 type: moc
 tags: [moc, 16-schemas]
 ---
 
+# 16 Schemas — Map of Content
 
-# 16_SCHEMAS — Map of Content
+**Path:** `16_SCHEMAS`
+**Files:** 2 | **Subdirectories:** 3
 
 ## Files
 
@@ -14,9 +16,9 @@ tags: [moc, 16-schemas]
 
 ## Subdirectories
 
-- [[INDEX_SCHEMAS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
+- [[10_RSCF_MOC]] — 10_RSCF
+- [[11_OBSERVABILITY_MOC]] — 11_OBSERVABILITY
 
 ---
 **Parent:** [[AMOS_HOME]]
-- [[10_RSCF_MOC]]
-- [[11_OBSERVABILITY_MOC]]

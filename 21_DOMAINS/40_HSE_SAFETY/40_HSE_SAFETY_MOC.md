@@ -1,11 +1,13 @@
 ---
-title: 40_HSE_SAFETY MOC
+title: "40 Hse Safety MOC"
 type: moc
 tags: [moc, 40-hse-safety]
 ---
 
+# 40 Hse Safety — Map of Content
 
-# 40_HSE_SAFETY — Map of Content
+**Path:** `21_DOMAINS/40_HSE_SAFETY`
+**Files:** 2 | **Subdirectories:** 1
 
 ## Files
 
@@ -14,7 +16,7 @@ tags: [moc, 40-hse-safety]
 
 ## Subdirectories
 
-- [[INDEX_HSE_SAFETY_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

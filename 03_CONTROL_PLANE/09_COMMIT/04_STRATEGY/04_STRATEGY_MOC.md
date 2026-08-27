@@ -1,11 +1,13 @@
 ---
-title: 04_STRATEGY MOC
+title: "04 Strategy MOC"
 type: moc
 tags: [moc, 04-strategy]
 ---
 
+# 04 Strategy — Map of Content
 
-# 04_STRATEGY — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/04_STRATEGY`
+**Files:** 13 | **Subdirectories:** 0
 
 ## Files
 

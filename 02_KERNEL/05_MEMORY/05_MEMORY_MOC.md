@@ -1,11 +1,13 @@
 ---
-title: 05_MEMORY MOC
+title: "05 Memory MOC"
 type: moc
 tags: [moc, 05-memory]
 ---
 
+# 05 Memory — Map of Content
 
-# 05_MEMORY — Map of Content
+**Path:** `02_KERNEL/05_MEMORY`
+**Files:** 7 | **Subdirectories:** 1
 
 ## Files
 
@@ -19,7 +21,7 @@ tags: [moc, 05-memory]
 
 ## Subdirectories
 
-- [[INDEX_MEMORY_KERNEL_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_KERNEL_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 05_DESIGN MOC
+title: "05 Design MOC"
 type: moc
 tags: [moc, 05-design]
 ---
 
+# 05 Design — Map of Content
 
-# 05_DESIGN — Map of Content
+**Path:** `21_DOMAINS/05_DESIGN`
+**Files:** 8 | **Subdirectories:** 1
 
 ## Files
 
@@ -20,7 +22,7 @@ tags: [moc, 05-design]
 
 ## Subdirectories
 
-- [[INDEX_DESIGN_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: L17_DECISION MOC
+title: "L17 Decision MOC"
 type: moc
 tags: [moc, l17-decision]
 ---
 
+# L17 Decision — Map of Content
 
-# L17_DECISION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L17_DECISION`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l17-decision]
 
 ## Subdirectories
 
-- [[INDEX_L17_DECISION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

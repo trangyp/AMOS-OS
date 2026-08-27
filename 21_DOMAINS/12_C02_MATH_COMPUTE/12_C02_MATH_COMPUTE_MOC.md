@@ -1,11 +1,13 @@
 ---
-title: 12_C02_MATH_COMPUTE MOC
+title: "12 C02 Math Compute MOC"
 type: moc
 tags: [moc, 12-c02-math-compute]
 ---
 
+# 12 C02 Math Compute — Map of Content
 
-# 12_C02_MATH_COMPUTE — Map of Content
+**Path:** `21_DOMAINS/12_C02_MATH_COMPUTE`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 12-c02-math-compute]
 
 ## Subdirectories
 
-- [[INDEX_C02_MATH_COMPUTE_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

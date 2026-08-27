@@ -1,11 +1,13 @@
 ---
-title: 66_DEPLOYMENT_OPERATIONAL_MODES MOC
+title: "66 Deployment Operational Modes MOC"
 type: moc
 tags: [moc, 66-deployment-operational-modes]
 ---
 
+# 66 Deployment Operational Modes — Map of Content
 
-# 66_DEPLOYMENT_OPERATIONAL_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/66_DEPLOYMENT_OPERATIONAL_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

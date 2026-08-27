@@ -1,11 +1,13 @@
 ---
-title: amos-flow-canon MOC
+title: "Amos-Flow-Canon MOC"
 type: moc
 tags: [moc, amos-flow-canon]
 ---
 
+# Amos-Flow-Canon — Map of Content
 
-# amos-flow-canon — Map of Content
+**Path:** `07_SKILLS/amos-flow-canon`
+**Files:** 2 | **Subdirectories:** 1
 
 ## Files
 
@@ -14,7 +16,7 @@ tags: [moc, amos-flow-canon]
 
 ## Subdirectories
 
-- [[README]]
+- [[references_MOC]] — references
 
 ---
 **Parent:** [[07_SKILLS_MOC]]

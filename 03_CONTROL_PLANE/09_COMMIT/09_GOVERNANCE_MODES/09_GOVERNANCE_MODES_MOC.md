@@ -1,11 +1,13 @@
 ---
-title: 09_GOVERNANCE_MODES MOC
+title: "09 Governance Modes MOC"
 type: moc
 tags: [moc, 09-governance-modes]
 ---
 
+# 09 Governance Modes — Map of Content
 
-# 09_GOVERNANCE_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/09_GOVERNANCE_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

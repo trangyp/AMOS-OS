@@ -1,11 +1,13 @@
 ---
-title: 02_EXPERIMENTS MOC
+title: "02 Experiments MOC"
 type: moc
 tags: [moc, 02-experiments]
 ---
 
+# 02 Experiments — Map of Content
 
-# 02_EXPERIMENTS — Map of Content
+**Path:** `22_RESEARCH/02_EXPERIMENTS`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 02-experiments]
 
 ## Subdirectories
 
-- [[INDEX_EXPERIMENTS_RESEARCH_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[22_RESEARCH_MOC]]

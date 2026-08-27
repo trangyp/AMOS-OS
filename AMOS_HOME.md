@@ -12,9 +12,9 @@ tags: [note, vault]
 
 ## Vault MOCs and tools
 
-- 00_ROOT_MOC|AMOS MOC — AMOS OS master map
-- KNOWLEDGE_MOC|11_KNOWLEDGE MOC — knowledge layer index
-- COSMO_BRAIN_MOC|00 Cosmo Brain MOC — Cosmo Brain index
+- [[00_ROOT_MOC|AMOS MOC — AMOS OS master map]]
+- [[KNOWLEDGE_MOC|11_KNOWLEDGE MOC — knowledge layer index]]
+- [[COSMO_BRAIN_MOC|00 Cosmo Brain MOC — Cosmo Brain index]]
 - [[AMOS_OBSIDIAN_LINKING_PLUGINS]] — Obsidian linking plugin stack
 - [[AMOS_TEMPLATES]] — AMOS template index
 
@@ -23,7 +23,7 @@ tags: [note, vault]
 - [[AMOS_LAYER_MAPS]] — top-level layer map index
 ## Related
 
-- 00_HOME|Home
+- [[00_HOME|Home]]
 - [[00_ROOT_MOC]] — AMOS OS master map
 - [[AMOS_RSCF_NODES]]
 

@@ -1,11 +1,13 @@
 ---
-title: 08_EXECUTION_MODES MOC
+title: "08 Execution Modes MOC"
 type: moc
 tags: [moc, 08-execution-modes]
 ---
 
+# 08 Execution Modes — Map of Content
 
-# 08_EXECUTION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/08_EXECUTION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

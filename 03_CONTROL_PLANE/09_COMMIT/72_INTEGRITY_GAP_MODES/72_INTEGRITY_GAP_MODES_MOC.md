@@ -1,11 +1,13 @@
 ---
-title: 72_INTEGRITY_GAP_MODES MOC
+title: "72 Integrity Gap Modes MOC"
 type: moc
 tags: [moc, 72-integrity-gap-modes]
 ---
 
+# 72 Integrity Gap Modes — Map of Content
 
-# 72_INTEGRITY_GAP_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/72_INTEGRITY_GAP_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

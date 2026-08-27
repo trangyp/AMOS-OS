@@ -1,10 +1,13 @@
 ---
-title: references MOC
+title: "References MOC"
 type: moc
 tags: [moc, references]
 ---
 
-# references — Map of Content
+# References — Map of Content
+
+**Path:** `07_SKILLS/amos-c03-physics-cosmos-master/references`
+**Files:** 35 | **Subdirectories:** 0
 
 ## Files
 
@@ -45,4 +48,4 @@ tags: [moc, references]
 - [[vault_domain_knowledge]]
 
 ---
-**Parent:** [[SKILL]]
+**Parent:** [[amos-c03-physics-cosmos-master_MOC]]

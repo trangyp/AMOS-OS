@@ -1,11 +1,13 @@
 ---
-title: 11_REPLAY MOC
+title: "11 Replay MOC"
 type: moc
 tags: [moc, 11-replay]
 ---
 
+# 11 Replay — Map of Content
 
-# 11_REPLAY — Map of Content
+**Path:** `03_CONTROL_PLANE/11_REPLAY`
+**Files:** 2 | **Subdirectories:** 1
 
 ## Files
 
@@ -14,7 +16,7 @@ tags: [moc, 11-replay]
 
 ## Subdirectories
 
-- [[INDEX_REPLAY_CONTROL_PLANE_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANE_MOC]]

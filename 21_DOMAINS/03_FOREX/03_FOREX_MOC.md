@@ -1,11 +1,13 @@
 ---
-title: 03_FOREX MOC
+title: "03 Forex MOC"
 type: moc
 tags: [moc, 03-forex]
 ---
 
+# 03 Forex — Map of Content
 
-# 03_FOREX — Map of Content
+**Path:** `21_DOMAINS/03_FOREX`
+**Files:** 5 | **Subdirectories:** 1
 
 ## Files
 
@@ -17,7 +19,7 @@ tags: [moc, 03-forex]
 
 ## Subdirectories
 
-- [[INDEX_FOREX_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

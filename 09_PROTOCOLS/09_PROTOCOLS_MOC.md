@@ -1,11 +1,13 @@
 ---
-title: 09_PROTOCOLS MOC
+title: "09 Protocols MOC"
 type: moc
 tags: [moc, 09-protocols]
 ---
 
+# 09 Protocols — Map of Content
 
-# 09_PROTOCOLS — Map of Content
+**Path:** `09_PROTOCOLS`
+**Files:** 2 | **Subdirectories:** 1
 
 ## Files
 
@@ -14,7 +16,7 @@ tags: [moc, 09-protocols]
 
 ## Subdirectories
 
-- [[INDEX_PROTOCOLS_PROTOCOL_CONTRACT]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[AMOS_HOME]]

@@ -1,11 +1,13 @@
 ---
-title: C08_EXECUTION MOC
+title: "C08 Execution MOC"
 type: moc
 tags: [moc, c08-execution]
 ---
 
+# C08 Execution — Map of Content
 
-# C08_EXECUTION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION`
+**Files:** 21 | **Subdirectories:** 1
 
 ## Files
 
@@ -33,7 +35,7 @@ tags: [moc, c08-execution]
 
 ## Subdirectories
 
-- [[INDEX_C08_EXECUTION_CONTROL_PLANES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANES_MOC]]

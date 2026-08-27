@@ -1,10 +1,13 @@
 ---
-title: references MOC
+title: "References MOC"
 type: moc
 tags: [moc, references]
 ---
 
-# references — Map of Content
+# References — Map of Content
+
+**Path:** `07_SKILLS/amos-workflow-builder/references`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 
@@ -13,4 +16,4 @@ tags: [moc, references]
 - [[workflows]]
 
 ---
-**Parent:** [[SKILL]]
+**Parent:** [[amos-workflow-builder_MOC]]

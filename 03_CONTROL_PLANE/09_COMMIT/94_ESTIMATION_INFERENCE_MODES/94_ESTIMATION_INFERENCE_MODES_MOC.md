@@ -1,11 +1,13 @@
 ---
-title: 94_ESTIMATION_INFERENCE_MODES MOC
+title: "94 Estimation Inference Modes MOC"
 type: moc
 tags: [moc, 94-estimation-inference-modes]
 ---
 
+# 94 Estimation Inference Modes — Map of Content
 
-# 94_ESTIMATION_INFERENCE_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/94_ESTIMATION_INFERENCE_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

@@ -1,11 +1,13 @@
 ---
-title: 05_MEASURE MOC
+title: "05 Measure MOC"
 type: moc
 tags: [moc, 05-measure]
 ---
 
+# 05 Measure — Map of Content
 
-# 05_MEASURE — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/05_MEASURE`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

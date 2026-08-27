@@ -1,11 +1,13 @@
 ---
-title: 22_COUNTERFACTUAL_MODES MOC
+title: "22 Counterfactual Modes MOC"
 type: moc
 tags: [moc, 22-counterfactual-modes]
 ---
 
+# 22 Counterfactual Modes — Map of Content
 
-# 22_COUNTERFACTUAL_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/22_COUNTERFACTUAL_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

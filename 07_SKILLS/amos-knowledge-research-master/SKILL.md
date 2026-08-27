@@ -101,4 +101,4 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - [[AMOS_INFRASTRUCTURE_FULL_BRAIN_AGENT_ARCHITECTURE_ROUND11]] — AMOS Infrastructure, Full Brain OS, Agents & Skills Architecture
 - [[ENVIRONMENT_SCAN_AGENT]] — AMOS EnvironmentScan Agent
 - EXECUTOR
-- [[AGENT TEMPLATE
+- [[AGENT_TEMPLATE]]

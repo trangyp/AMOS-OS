@@ -1,11 +1,13 @@
 ---
-title: 02_SUPERSEDED MOC
+title: "02 Superseded MOC"
 type: moc
 tags: [moc, 02-superseded]
 ---
 
+# 02 Superseded — Map of Content
 
-# 02_SUPERSEDED — Map of Content
+**Path:** `24_ARCHIVE/02_SUPERSEDED`
+**Files:** 4 | **Subdirectories:** 1
 
 ## Files
 
@@ -16,7 +18,7 @@ tags: [moc, 02-superseded]
 
 ## Subdirectories
 
-- [[INDEX_SUPERSEDED_ARCHIVE_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[24_ARCHIVE_MOC]]

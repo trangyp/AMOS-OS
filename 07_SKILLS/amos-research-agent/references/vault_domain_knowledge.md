@@ -176,4 +176,4 @@ or decisions that require evidence-grounded conclusions.
 - 19x19 Sparse Coupling Matri
 
 ---
-**MOC:** [[references MOC
+**MOC:** [[references_MOC]]

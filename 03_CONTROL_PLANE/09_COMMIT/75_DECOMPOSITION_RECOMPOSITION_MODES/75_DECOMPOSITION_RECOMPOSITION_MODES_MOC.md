@@ -1,11 +1,13 @@
 ---
-title: 75_DECOMPOSITION_RECOMPOSITION_MODES MOC
+title: "75 Decomposition Recomposition Modes MOC"
 type: moc
 tags: [moc, 75-decomposition-recomposition-modes]
 ---
 
+# 75 Decomposition Recomposition Modes — Map of Content
 
-# 75_DECOMPOSITION_RECOMPOSITION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/75_DECOMPOSITION_RECOMPOSITION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

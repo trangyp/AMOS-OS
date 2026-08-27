@@ -1,42 +1,13 @@
 ---
-title: Knowledge MOC
+title: "11 Knowledge MOC"
 type: moc
-tags: [moc, _root]
+tags: [moc, 11-knowledge]
 ---
 
+# 11 Knowledge — Map of Content
 
-# Knowledge — Map of Content
-
-- [[COSMO_BRAIN_BRIDGE_INDEX]]
-- [[README]]
-
-## Directory MOCs
-
-- [[COSMO_BRAIN_MOC]]
-- [[MOC_2007]]
-- [[MOC_2008]]
-- [[AMOS-GENERAL_MOC]]
-- [[ARCHITECTURE_MOC]]
-- [[AUDIT_MOC]]
-- [[BIOLOGY-UBI_MOC]]
-- [[BRAIN_MOC]]
-- [[COGNITIVE_MOC]]
-- [[DATED_MOC]]
-- [[ECONOMY_MOC]]
-- [[ENGINE_MOC]]
-- [[FRACTAL_MOC]]
-- [[KERNEL_MOC]]
-- [[LOGIC_MOC]]
-- [[MATH_MOC]]
-- [[MISC_MOC]]
-- [[MODELS_MOC]]
-- [[PROBABILITY-STATS_MOC]]
-- [[QUANTUM_MOC]]
-- [[REPORTS_MOC]]
-- [[SIGNAL_MOC]]
-- [[SYSTEM_MOC]]
-- [[TECH-CODING_MOC]]
-- [[UNIVERSE-COSMOS_MOC]]
+**Path:** `11_KNOWLEDGE`
+**Files:** 46 | **Subdirectories:** 47
 
 ## Files
 
@@ -73,12 +44,14 @@ tags: [moc, _root]
 - [[AMOS_VALUE_CREATION_OS]]
 - [[AMOS_VIETNAMESE_GLOBAL_CULTURAL_BRIDGE_GOVERNOR]]
 - [[CLAIM_TENSOR]]
+- [[COSMO_BRAIN_BRIDGE_INDEX]]
 - [[ENVIRONMENT_SCAN_AGENT]]
 - [[EVIDENCE_TENSOR]]
 - [[EXECUTOR_AGENT]]
 - [[INTEGRATED_AGENT]]
 - [[INVESTMENT_AGENT]]
 - [[KHUNG_TRANG_QUANTUM_ONTOLOGY_COMPUTABLE_DYNAMICS_RESEARCH_MODEL]]
+- [[README]]
 - [[RELATION_TENSOR]]
 - [[TENSORS]]
 - [[TENSOR_CONTRACTS]]
@@ -87,27 +60,53 @@ tags: [moc, _root]
 
 ## Subdirectories
 
-- [[02_CLAIMS_MOC]]
-- [[03_RSCF_MOC]]
-- [[05_FRAMEWORKS_MOC]]
-- [[06_DOMAIN_KNOWLEDGE_MOC]]
-- [[canon_MOC]]
-- [[control_MOC]]
-- [[emotion_MOC]]
-- [[energy_MOC]]
-- [[field_MOC]]
-- [[governance_MOC]]
-- [[human_MOC]]
-- [[indexes_MOC]]
-- [[layers_MOC]]
-- [[learning_MOC]]
-- [[memory_MOC]]
-- [[pipelines_MOC]]
-- [[qfm_MOC]]
-- [[rscf_MOC]]
-- [[security_MOC]]
-- [[speed_MOC]]
-- [[strategy_MOC]]
-- [[tests_MOC]]
-- [[trang_MOC]]
-- [[vietnamese_MOC]]
+- [[02_CLAIMS_MOC]] — 02_CLAIMS
+- [[03_RSCF_MOC]] — 03_RSCF
+- [[05_FRAMEWORKS_MOC]] — 05_FRAMEWORKS
+- [[06_DOMAIN_KNOWLEDGE_MOC]] — 06_DOMAIN_KNOWLEDGE
+- [[_arxiv_md_MOC]] — _arxiv_md
+- [[amos-general_MOC]] — amos-general
+- [[architecture_MOC]] — architecture
+- [[audit_MOC]] — audit
+- [[biology-ubi_MOC]] — biology-ubi
+- [[brain_MOC]] — brain
+- [[canon_MOC]] — canon
+- [[cognitive_MOC]] — cognitive
+- [[control_MOC]] — control
+- [[dated_MOC]] — dated
+- [[economy_MOC]] — economy
+- [[emotion_MOC]] — emotion
+- [[energy_MOC]] — energy
+- [[engine_MOC]] — engine
+- [[field_MOC]] — field
+- [[fractal_MOC]] — fractal
+- [[governance_MOC]] — governance
+- [[human_MOC]] — human
+- [[indexes_MOC]] — indexes
+- [[kernel_MOC]] — kernel
+- [[layers_MOC]] — layers
+- [[learning_MOC]] — learning
+- [[logic_MOC]] — logic
+- [[math_MOC]] — math
+- [[memory_MOC]] — memory
+- [[misc_MOC]] — misc
+- [[models_MOC]] — models
+- [[pipelines_MOC]] — pipelines
+- [[probability-stats_MOC]] — probability-stats
+- [[qfm_MOC]] — qfm
+- [[quantum_MOC]] — quantum
+- [[reports_MOC]] — reports
+- [[rscf_MOC]] — rscf
+- [[security_MOC]] — security
+- [[signal_MOC]] — signal
+- [[speed_MOC]] — speed
+- [[strategy_MOC]] — strategy
+- [[system_MOC]] — system
+- [[tech-coding_MOC]] — tech-coding
+- [[tests_MOC]] — tests
+- [[trang_MOC]] — trang
+- [[universe-cosmos_MOC]] — universe-cosmos
+- [[vietnamese_MOC]] — vietnamese
+
+---
+**Parent:** [[AMOS_HOME]]

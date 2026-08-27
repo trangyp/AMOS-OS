@@ -1,11 +1,13 @@
 ---
-title: 33_ORGANIZATIONAL_BEHAVIOR MOC
+title: "33 Organizational Behavior MOC"
 type: moc
 tags: [moc, 33-organizational-behavior]
 ---
 
+# 33 Organizational Behavior — Map of Content
 
-# 33_ORGANIZATIONAL_BEHAVIOR — Map of Content
+**Path:** `21_DOMAINS/33_ORGANIZATIONAL_BEHAVIOR`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 33-organizational-behavior]
 
 ## Subdirectories
 
-- [[INDEX_ORGANIZATIONAL_BEHAVIOR_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

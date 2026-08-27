@@ -1,11 +1,13 @@
 ---
-title: 13_RECOVERY_DEGRADED_MODES MOC
+title: "13 Recovery Degraded Modes MOC"
 type: moc
 tags: [moc, 13-recovery-degraded-modes]
 ---
 
+# 13 Recovery Degraded Modes — Map of Content
 
-# 13_RECOVERY_DEGRADED_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/13_RECOVERY_DEGRADED_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

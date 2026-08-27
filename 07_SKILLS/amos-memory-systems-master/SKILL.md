@@ -87,4 +87,4 @@ Given an operation touching `MEMORY · README` within the Memory plane:
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — OPERATI
-- [[AGENT TEMPLATE
+- [[AGENT_TEMPLATE]]

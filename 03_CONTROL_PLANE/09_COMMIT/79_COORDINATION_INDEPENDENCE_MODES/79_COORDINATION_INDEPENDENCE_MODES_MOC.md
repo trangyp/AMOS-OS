@@ -1,11 +1,13 @@
 ---
-title: 79_COORDINATION_INDEPENDENCE_MODES MOC
+title: "79 Coordination Independence Modes MOC"
 type: moc
 tags: [moc, 79-coordination-independence-modes]
 ---
 
+# 79 Coordination Independence Modes — Map of Content
 
-# 79_COORDINATION_INDEPENDENCE_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/79_COORDINATION_INDEPENDENCE_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

@@ -1,11 +1,13 @@
 ---
-title: tests MOC
+title: "Tests MOC"
 type: moc
 tags: [moc, tests]
 ---
 
+# Tests — Map of Content
 
-# tests — Map of Content
+**Path:** `11_KNOWLEDGE/tests`
+**Files:** 4 | **Subdirectories:** 0
 
 ## Files
 
@@ -15,4 +17,4 @@ tags: [moc, tests]
 - [[THE_100_GREATEST_HISTORICAL_PLUS_SCIENTIFIC_UNANSWER]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

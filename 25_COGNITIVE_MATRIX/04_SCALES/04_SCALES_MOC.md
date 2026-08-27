@@ -1,11 +1,13 @@
 ---
-title: 04_SCALES MOC
+title: "04 Scales MOC"
 type: moc
 tags: [moc, 04-scales]
 ---
 
+# 04 Scales — Map of Content
 
-# 04_SCALES — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/04_SCALES`
+**Files:** 2 | **Subdirectories:** 4
 
 ## Files
 
@@ -14,10 +16,10 @@ tags: [moc, 04-scales]
 
 ## Subdirectories
 
-- [[INDEX_SCALES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
+- [[H_HIGH_SCALE_MOC]] — H_HIGH_SCALE
+- [[L_LOW_SCALE_MOC]] — L_LOW_SCALE
+- [[M_MID_SCALE_MOC]] — M_MID_SCALE
 
 ---
 **Parent:** [[25_COGNITIVE_MATRIX_MOC]]
-- [[H_HIGH_SCALE_MOC]]
-- [[L_LOW_SCALE_MOC]]
-- [[M_MID_SCALE_MOC]]

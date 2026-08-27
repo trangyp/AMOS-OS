@@ -1,11 +1,13 @@
 ---
-title: 32_POLICY_DESIGN MOC
+title: "32 Policy Design MOC"
 type: moc
 tags: [moc, 32-policy-design]
 ---
 
+# 32 Policy Design — Map of Content
 
-# 32_POLICY_DESIGN — Map of Content
+**Path:** `21_DOMAINS/32_POLICY_DESIGN`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 32-policy-design]
 
 ## Subdirectories
 
-- [[INDEX_POLICY_DESIGN_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

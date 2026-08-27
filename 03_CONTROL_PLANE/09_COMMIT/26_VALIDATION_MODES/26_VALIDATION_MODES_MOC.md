@@ -1,11 +1,13 @@
 ---
-title: 26_VALIDATION_MODES MOC
+title: "26 Validation Modes MOC"
 type: moc
 tags: [moc, 26-validation-modes]
 ---
 
+# 26 Validation Modes — Map of Content
 
-# 26_VALIDATION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/26_VALIDATION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

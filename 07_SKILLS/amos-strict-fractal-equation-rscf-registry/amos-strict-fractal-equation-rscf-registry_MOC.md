@@ -1,0 +1,21 @@
+---
+title: "Amos-Strict-Fractal-Equation-Rscf-Registry MOC"
+type: moc
+tags: [moc, amos-strict-fractal-equation-rscf-regist]
+---
+
+# Amos-Strict-Fractal-Equation-Rscf-Registry — Map of Content
+
+**Path:** `07_SKILLS/amos-strict-fractal-equation-rscf-registry`
+**Files:** 1 | **Subdirectories:** 1
+
+## Files
+
+- [[SKILL]]
+
+## Subdirectories
+
+- [[references_MOC]] — references
+
+---
+**Parent:** [[07_SKILLS_MOC]]

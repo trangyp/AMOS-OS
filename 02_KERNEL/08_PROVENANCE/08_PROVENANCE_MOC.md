@@ -1,11 +1,13 @@
 ---
-title: 08_PROVENANCE MOC
+title: "08 Provenance MOC"
 type: moc
 tags: [moc, 08-provenance]
 ---
 
+# 08 Provenance — Map of Content
 
-# 08_PROVENANCE — Map of Content
+**Path:** `02_KERNEL/08_PROVENANCE`
+**Files:** 5 | **Subdirectories:** 1
 
 ## Files
 
@@ -17,7 +19,7 @@ tags: [moc, 08-provenance]
 
 ## Subdirectories
 
-- [[INDEX_PROVENANCE_KERNEL_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_KERNEL_MOC]]

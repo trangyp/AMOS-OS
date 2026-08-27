@@ -1,11 +1,13 @@
 ---
-title: C06_MEMORY MOC
+title: "C06 Memory MOC"
 type: moc
 tags: [moc, c06-memory]
 ---
 
+# C06 Memory — Map of Content
 
-# C06_MEMORY — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY`
+**Files:** 21 | **Subdirectories:** 1
 
 ## Files
 
@@ -33,7 +35,7 @@ tags: [moc, c06-memory]
 
 ## Subdirectories
 
-- [[INDEX_C06_MEMORY_CONTROL_PLANES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANES_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 06_RISK_REPAIR MOC
+title: "06 Risk Repair MOC"
 type: moc
 tags: [moc, 06-risk-repair]
 ---
 
+# 06 Risk Repair — Map of Content
 
-# 06_RISK_REPAIR — Map of Content
+**Path:** `02_KERNEL/06_RISK_REPAIR`
+**Files:** 11 | **Subdirectories:** 1
 
 ## Files
 
@@ -23,7 +25,7 @@ tags: [moc, 06-risk-repair]
 
 ## Subdirectories
 
-- [[INDEX_RISK_REPAIR_KERNEL_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_KERNEL_MOC]]

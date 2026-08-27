@@ -1,11 +1,13 @@
 ---
-title: control MOC
+title: "Control MOC"
 type: moc
 tags: [moc, control]
 ---
 
+# Control — Map of Content
 
-# control — Map of Content
+**Path:** `11_KNOWLEDGE/control`
+**Files:** 7 | **Subdirectories:** 0
 
 ## Files
 
@@ -18,4 +20,4 @@ tags: [moc, control]
 - [[RESILIENCE_VS_CONTROL_THE_DESIGN_TRADEOFF_THAT_DEC]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

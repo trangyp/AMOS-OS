@@ -1,11 +1,13 @@
 ---
-title: 41_DECISION_MODES MOC
+title: "41 Decision Modes MOC"
 type: moc
 tags: [moc, 41-decision-modes]
 ---
 
+# 41 Decision Modes — Map of Content
 
-# 41_DECISION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/41_DECISION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

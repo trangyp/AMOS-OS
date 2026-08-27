@@ -1,11 +1,13 @@
 ---
-title: O10_VALUE MOC
+title: "O10 Value MOC"
 type: moc
 tags: [moc, o10-value]
 ---
 
+# O10 Value — Map of Content
 
-# O10_VALUE — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O10_VALUE`
+**Files:** 20 | **Subdirectories:** 1
 
 ## Files
 
@@ -32,7 +34,7 @@ tags: [moc, o10-value]
 
 ## Subdirectories
 
-- [[INDEX_O10_VALUE_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_LIFECYCLE_OPERATIONS_MOC]]

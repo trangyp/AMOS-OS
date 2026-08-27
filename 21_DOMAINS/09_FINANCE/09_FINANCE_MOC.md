@@ -1,11 +1,13 @@
 ---
-title: 09_FINANCE MOC
+title: "09 Finance MOC"
 type: moc
 tags: [moc, 09-finance]
 ---
 
+# 09 Finance — Map of Content
 
-# 09_FINANCE — Map of Content
+**Path:** `21_DOMAINS/09_FINANCE`
+**Files:** 8 | **Subdirectories:** 1
 
 ## Files
 
@@ -20,7 +22,7 @@ tags: [moc, 09-finance]
 
 ## Subdirectories
 
-- [[INDEX_FINANCE_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

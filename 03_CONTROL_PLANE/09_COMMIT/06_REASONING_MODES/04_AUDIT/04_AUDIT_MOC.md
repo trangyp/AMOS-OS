@@ -1,11 +1,13 @@
 ---
-title: 04_AUDIT MOC
+title: "04 Audit MOC"
 type: moc
 tags: [moc, 04-audit]
 ---
 
+# 04 Audit — Map of Content
 
-# 04_AUDIT — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/04_AUDIT`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

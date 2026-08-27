@@ -1,11 +1,13 @@
 ---
-title: 03_EXPERIMENTAL MOC
+title: "03 Experimental MOC"
 type: moc
 tags: [moc, 03-experimental]
 ---
 
+# 03 Experimental — Map of Content
 
-# 03_EXPERIMENTAL — Map of Content
+**Path:** `24_ARCHIVE/03_EXPERIMENTAL`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 03-experimental]
 
 ## Subdirectories
 
-- [[INDEX_EXPERIMENTAL_ARCHIVE_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[24_ARCHIVE_MOC]]

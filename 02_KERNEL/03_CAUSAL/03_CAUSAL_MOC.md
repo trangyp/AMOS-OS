@@ -1,11 +1,13 @@
 ---
-title: 03_CAUSAL MOC
+title: "03 Causal MOC"
 type: moc
 tags: [moc, 03-causal]
 ---
 
+# 03 Causal — Map of Content
 
-# 03_CAUSAL — Map of Content
+**Path:** `02_KERNEL/03_CAUSAL`
+**Files:** 9 | **Subdirectories:** 1
 
 ## Files
 
@@ -21,7 +23,7 @@ tags: [moc, 03-causal]
 
 ## Subdirectories
 
-- [[INDEX_CAUSAL_KERNEL_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_KERNEL_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 100_HANDOFF_CONTINUITY_MODES MOC
+title: "100 Handoff Continuity Modes MOC"
 type: moc
 tags: [moc, 100-handoff-continuity-modes]
 ---
 
+# 100 Handoff Continuity Modes — Map of Content
 
-# 100_HANDOFF_CONTINUITY_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/100_HANDOFF_CONTINUITY_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

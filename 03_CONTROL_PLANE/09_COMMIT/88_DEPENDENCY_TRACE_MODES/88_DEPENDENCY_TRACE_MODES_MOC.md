@@ -1,11 +1,13 @@
 ---
-title: 88_DEPENDENCY_TRACE_MODES MOC
+title: "88 Dependency Trace Modes MOC"
 type: moc
 tags: [moc, 88-dependency-trace-modes]
 ---
 
+# 88 Dependency Trace Modes — Map of Content
 
-# 88_DEPENDENCY_TRACE_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/88_DEPENDENCY_TRACE_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

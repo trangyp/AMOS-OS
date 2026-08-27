@@ -1,11 +1,13 @@
 ---
-title: 99_ESCALATION_INTERVENTION_MODES MOC
+title: "99 Escalation Intervention Modes MOC"
 type: moc
 tags: [moc, 99-escalation-intervention-modes]
 ---
 
+# 99 Escalation Intervention Modes — Map of Content
 
-# 99_ESCALATION_INTERVENTION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/99_ESCALATION_INTERVENTION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

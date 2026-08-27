@@ -1,11 +1,13 @@
 ---
-title: layers MOC
+title: "Layers MOC"
 type: moc
 tags: [moc, layers]
 ---
 
+# Layers — Map of Content
 
-# layers — Map of Content
+**Path:** `11_KNOWLEDGE/layers`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 
@@ -14,4 +16,4 @@ tags: [moc, layers]
 - [[AI_WORKFORCE_LAYER]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

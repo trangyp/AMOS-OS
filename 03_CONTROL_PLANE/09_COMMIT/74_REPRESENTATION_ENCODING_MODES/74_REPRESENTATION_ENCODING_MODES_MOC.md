@@ -1,11 +1,13 @@
 ---
-title: 74_REPRESENTATION_ENCODING_MODES MOC
+title: "74 Representation Encoding Modes MOC"
 type: moc
 tags: [moc, 74-representation-encoding-modes]
 ---
 
+# 74 Representation Encoding Modes — Map of Content
 
-# 74_REPRESENTATION_ENCODING_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/74_REPRESENTATION_ENCODING_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

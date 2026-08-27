@@ -1,11 +1,13 @@
 ---
-title: 27_UBI_SUPER MOC
+title: "27 Ubi Super MOC"
 type: moc
 tags: [moc, 27-ubi-super]
 ---
 
+# 27 Ubi Super — Map of Content
 
-# 27_UBI_SUPER — Map of Content
+**Path:** `21_DOMAINS/27_UBI_SUPER`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 27-ubi-super]
 
 ## Subdirectories
 
-- [[INDEX_UBI_SUPER_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

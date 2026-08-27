@@ -1,11 +1,13 @@
 ---
-title: 29_FABRICATION_DESIGN_MODES MOC
+title: "29 Fabrication Design Modes MOC"
 type: moc
 tags: [moc, 29-fabrication-design-modes]
 ---
 
+# 29 Fabrication Design Modes — Map of Content
 
-# 29_FABRICATION_DESIGN_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/29_FABRICATION_DESIGN_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

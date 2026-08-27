@@ -1,11 +1,13 @@
 ---
-title: 08_LEGAL MOC
+title: "08 Legal MOC"
 type: moc
 tags: [moc, 08-legal]
 ---
 
+# 08 Legal — Map of Content
 
-# 08_LEGAL — Map of Content
+**Path:** `21_DOMAINS/08_LEGAL`
+**Files:** 8 | **Subdirectories:** 1
 
 ## Files
 
@@ -20,7 +22,7 @@ tags: [moc, 08-legal]
 
 ## Subdirectories
 
-- [[INDEX_LEGAL_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

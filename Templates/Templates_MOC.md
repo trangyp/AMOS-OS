@@ -1,16 +1,17 @@
 ---
-title: Templates MOC
+title: "Templates MOC"
 type: moc
 tags: [moc, templates]
 ---
 
 # Templates — Map of Content
 
+**Path:** `Templates`
+**Files:** 1 | **Subdirectories:** 0
+
 ## Files
 
-- [[AMOS_TEMPLATES]]
-- [[AGENT_TEMPLATES]]
-- [[AMOS_LAYER_MAPS]]
+- [[linked-note]]
 
 ---
 **Parent:** [[AMOS_HOME]]

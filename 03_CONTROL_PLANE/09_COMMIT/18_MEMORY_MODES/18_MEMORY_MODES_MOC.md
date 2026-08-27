@@ -1,11 +1,13 @@
 ---
-title: 18_MEMORY_MODES MOC
+title: "18 Memory Modes MOC"
 type: moc
 tags: [moc, 18-memory-modes]
 ---
 
+# 18 Memory Modes — Map of Content
 
-# 18_MEMORY_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/18_MEMORY_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

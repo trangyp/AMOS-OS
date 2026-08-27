@@ -1,11 +1,13 @@
 ---
-title: 87_KNOWLEDGE_GRAPH_MODES MOC
+title: "87 Knowledge Graph Modes MOC"
 type: moc
 tags: [moc, 87-knowledge-graph-modes]
 ---
 
+# 87 Knowledge Graph Modes — Map of Content
 
-# 87_KNOWLEDGE_GRAPH_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/87_KNOWLEDGE_GRAPH_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

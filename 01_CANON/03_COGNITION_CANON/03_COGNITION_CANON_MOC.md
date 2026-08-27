@@ -1,11 +1,13 @@
 ---
-title: 03_COGNITION_CANON MOC
+title: "03 Cognition Canon MOC"
 type: moc
 tags: [moc, 03-cognition-canon]
 ---
 
+# 03 Cognition Canon — Map of Content
 
-# 03_COGNITION_CANON — Map of Content
+**Path:** `01_CANON/03_COGNITION_CANON`
+**Files:** 33 | **Subdirectories:** 1
 
 ## Files
 
@@ -42,6 +44,10 @@ tags: [moc, 03-cognition-canon]
 - [[COGNITIVE_ORGANISM_CANON]]
 - [[CROSS_SPECIES_FUNCTIONAL_MODE_CANON]]
 - [[FULL_BRAIN_OS_CANON]]
+
+## Subdirectories
+
+- `00_INDEX/` (no markdown)
 
 ---
 **Parent:** [[01_CANON_MOC]]

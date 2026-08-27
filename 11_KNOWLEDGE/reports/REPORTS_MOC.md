@@ -1,12 +1,17 @@
 ---
-title: Reports MOC
+title: "Reports MOC"
 type: moc
 tags: [moc, reports]
 ---
 
-
 # Reports — Map of Content
 
+**Path:** `11_KNOWLEDGE/reports`
+**Files:** 49 | **Subdirectories:** 0
+
+## Files
+
+- [[ABSOLUTE_VN_100000_REGISTRY_ANALYSIS_REPORT]]
 - [[AMOS_ADVANCED_INTELLIGENCE]]
 - [[AMOS_ADVANCED_TENSOR_ANALYSIS_REPORT]]
 - [[AMOS_BIOLOGY_IMPLEMENTATION]]
@@ -53,12 +58,8 @@ tags: [moc, reports]
 - [[PHASE7_COMPLETION_REPORT]]
 - [[PHASE8_COMPLETION_REPORT]]
 - [[PHASE9_COMPLETION_REPORT]]
-
----
-**Root:** [[KNOWLEDGE_MOC]]
-
-## Files
-
-- [[ABSOLUTE_VN_100000_REGISTRY_ANALYSIS_REPORT]]
 - [[REPORT]]
 - [[REPORT_VI_SAO_VIET_NAM_LA_MOT_TRONG_NHUNG_MOI_TRUO]]
+
+---
+**Parent:** [[11_KNOWLEDGE_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 19_TESTS MOC
+title: "19 Tests MOC"
 type: moc
 tags: [moc, 19-tests]
 ---
 
+# 19 Tests — Map of Content
 
-# 19_TESTS — Map of Content
+**Path:** `19_TESTS`
+**Files:** 2 | **Subdirectories:** 1
 
 ## Files
 
@@ -14,7 +16,7 @@ tags: [moc, 19-tests]
 
 ## Subdirectories
 
-- [[INDEX_TESTS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[AMOS_HOME]]

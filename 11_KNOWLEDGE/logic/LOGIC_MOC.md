@@ -1,16 +1,13 @@
 ---
-title: Logic MOC
+title: "Logic MOC"
 type: moc
 tags: [moc, logic]
 ---
 
-
 # Logic — Map of Content
 
-- [[LOGIC_FIRST_STACK]]
-
----
-**Root:** [[KNOWLEDGE_MOC]]
+**Path:** `11_KNOWLEDGE/logic`
+**Files:** 49 | **Subdirectories:** 0
 
 ## Files
 
@@ -40,6 +37,7 @@ tags: [moc, logic]
 - [[LOGIC]]
 - [[LOGIC_ARCHIVE_AMOS2]]
 - [[LOGIC_AS_THE_ARCHITECTURE_OF_HUMAN_REALITY]]
+- [[LOGIC_FIRST_STACK]]
 - [[LOGIC_ROOT]]
 - [[LOGIC_RULE]]
 - [[NEUROPLASTICITY_REFRAMED_THROUGH_UNIFIED_BIOLOGICA]]
@@ -62,3 +60,6 @@ tags: [moc, logic]
 - [[UNIFIED_BIOLOGICAL_INTELLIGENCE_DIAGRAMS]]
 - [[UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_A_INFRASTRUCTURE_FOR_INTELLIGENCE]]
 - [[UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL]]
+
+---
+**Parent:** [[11_KNOWLEDGE_MOC]]

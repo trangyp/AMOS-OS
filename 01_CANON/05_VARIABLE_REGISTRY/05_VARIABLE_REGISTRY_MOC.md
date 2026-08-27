@@ -1,11 +1,13 @@
 ---
-title: 05_VARIABLE_REGISTRY MOC
+title: "05 Variable Registry MOC"
 type: moc
 tags: [moc, 05-variable-registry]
 ---
 
+# 05 Variable Registry — Map of Content
 
-# 05_VARIABLE_REGISTRY — Map of Content
+**Path:** `01_CANON/05_VARIABLE_REGISTRY`
+**Files:** 15 | **Subdirectories:** 1
 
 ## Files
 
@@ -27,7 +29,7 @@ tags: [moc, 05-variable-registry]
 
 ## Subdirectories
 
-- [[INDEX_VARIABLE_REGISTRY_CANON_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_CANON_MOC]]

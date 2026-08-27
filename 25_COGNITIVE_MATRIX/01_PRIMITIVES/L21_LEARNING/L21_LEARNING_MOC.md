@@ -1,11 +1,13 @@
 ---
-title: L21_LEARNING MOC
+title: "L21 Learning MOC"
 type: moc
 tags: [moc, l21-learning]
 ---
 
+# L21 Learning — Map of Content
 
-# L21_LEARNING — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l21-learning]
 
 ## Subdirectories
 
-- [[INDEX_L21_LEARNING_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

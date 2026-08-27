@@ -1,11 +1,13 @@
 ---
-title: 18_C08_STRATEGY_GAME MOC
+title: "18 C08 Strategy Game MOC"
 type: moc
 tags: [moc, 18-c08-strategy-game]
 ---
 
+# 18 C08 Strategy Game — Map of Content
 
-# 18_C08_STRATEGY_GAME — Map of Content
+**Path:** `21_DOMAINS/18_C08_STRATEGY_GAME`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 18-c08-strategy-game]
 
 ## Subdirectories
 
-- [[INDEX_C08_STRATEGY_GAME_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

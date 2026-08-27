@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-08-27T20:36:16.510594",
+  "vault": "/Users/mac/Documents/AMOS_OS",
+  "initial_scan": {
+    "total_files": 8538,
+    "has_tags": 8537,
+    "total_links": 57424,
+    "missing_tags": 1
+  },
+  "final_scan": {
+    "total_files": 8874,
+    "has_tags": 8874,
+    "total_links": 57346,
+    "broken_links": 71
+  },
+  "orphans_remaining": 0,
+  "broken_links_remaining": 71
+}

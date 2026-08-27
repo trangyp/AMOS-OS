@@ -1,11 +1,13 @@
 ---
-title: 43_GEO_GEOPOLITICS MOC
+title: "43 Geo Geopolitics MOC"
 type: moc
 tags: [moc, 43-geo-geopolitics]
 ---
 
+# 43 Geo Geopolitics — Map of Content
 
-# 43_GEO_GEOPOLITICS — Map of Content
+**Path:** `21_DOMAINS/43_GEO_GEOPOLITICS`
+**Files:** 2 | **Subdirectories:** 1
 
 ## Files
 
@@ -14,7 +16,7 @@ tags: [moc, 43-geo-geopolitics]
 
 ## Subdirectories
 
-- [[INDEX_GEO_GEOPOLITICS_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 20_PLANNING_MODES MOC
+title: "20 Planning Modes MOC"
 type: moc
 tags: [moc, 20-planning-modes]
 ---
 
+# 20 Planning Modes — Map of Content
 
-# 20_PLANNING_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/20_PLANNING_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

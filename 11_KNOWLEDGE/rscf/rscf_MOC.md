@@ -1,11 +1,13 @@
 ---
-title: rscf MOC
+title: "Rscf MOC"
 type: moc
 tags: [moc, rscf]
 ---
 
+# Rscf — Map of Content
 
-# rscf — Map of Content
+**Path:** `11_KNOWLEDGE/rscf`
+**Files:** 11 | **Subdirectories:** 0
 
 ## Files
 
@@ -22,4 +24,4 @@ tags: [moc, rscf]
 - [[VALIDATE_RSCF]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

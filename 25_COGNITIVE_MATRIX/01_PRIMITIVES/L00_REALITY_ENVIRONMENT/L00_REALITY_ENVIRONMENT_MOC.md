@@ -1,11 +1,13 @@
 ---
-title: L00_REALITY_ENVIRONMENT MOC
+title: "L00 Reality Environment MOC"
 type: moc
 tags: [moc, l00-reality-environment]
 ---
 
+# L00 Reality Environment — Map of Content
 
-# L00_REALITY_ENVIRONMENT — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l00-reality-environment]
 
 ## Subdirectories
 
-- [[INDEX_L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

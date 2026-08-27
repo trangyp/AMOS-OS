@@ -1,11 +1,13 @@
 ---
-title: L03_PERCEPT_FORMATION MOC
+title: "L03 Percept Formation MOC"
 type: moc
 tags: [moc, l03-percept-formation]
 ---
 
+# L03 Percept Formation — Map of Content
 
-# L03_PERCEPT_FORMATION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l03-percept-formation]
 
 ## Subdirectories
 
-- [[INDEX_L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

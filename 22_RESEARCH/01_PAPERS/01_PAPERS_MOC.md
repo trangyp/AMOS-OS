@@ -1,11 +1,13 @@
 ---
-title: 01_PAPERS MOC
+title: "01 Papers MOC"
 type: moc
 tags: [moc, 01-papers]
 ---
 
+# 01 Papers — Map of Content
 
-# 01_PAPERS — Map of Content
+**Path:** `22_RESEARCH/01_PAPERS`
+**Files:** 5 | **Subdirectories:** 1
 
 ## Files
 
@@ -17,7 +19,7 @@ tags: [moc, 01-papers]
 
 ## Subdirectories
 
-- [[INDEX_PAPERS_RESEARCH_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[22_RESEARCH_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 05_HEALING_RECOVERY MOC
+title: "05 Healing Recovery MOC"
 type: moc
 tags: [moc, 05-healing-recovery]
 ---
 
+# 05 Healing Recovery — Map of Content
 
-# 05_HEALING_RECOVERY — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/05_HEALING_RECOVERY`
+**Files:** 6 | **Subdirectories:** 0
 
 ## Files
 

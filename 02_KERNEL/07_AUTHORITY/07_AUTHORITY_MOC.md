@@ -1,11 +1,13 @@
 ---
-title: 07_AUTHORITY MOC
+title: "07 Authority MOC"
 type: moc
 tags: [moc, 07-authority]
 ---
 
+# 07 Authority — Map of Content
 
-# 07_AUTHORITY — Map of Content
+**Path:** `02_KERNEL/07_AUTHORITY`
+**Files:** 6 | **Subdirectories:** 1
 
 ## Files
 
@@ -18,7 +20,7 @@ tags: [moc, 07-authority]
 
 ## Subdirectories
 
-- [[INDEX_AUTHORITY_KERNEL_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_KERNEL_MOC]]

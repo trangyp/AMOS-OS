@@ -1,14 +1,17 @@
 ---
-title: references MOC
+title: "References MOC"
 type: moc
 tags: [moc, references]
 ---
 
-# references — Map of Content
+# References — Map of Content
+
+**Path:** `07_SKILLS/amos-benchmark-forensics/references`
+**Files:** 1 | **Subdirectories:** 0
 
 ## Files
 
 - [[asymptotic_ceiling_analysis]]
 
 ---
-**Parent:** [[SKILL]]
+**Parent:** [[amos-benchmark-forensics_MOC]]

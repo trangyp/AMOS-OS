@@ -1,11 +1,13 @@
 ---
-title: 23_UBI_BEI_BIOELECTROMAGNETIC MOC
+title: "23 Ubi Bei Bioelectromagnetic MOC"
 type: moc
 tags: [moc, 23-ubi-bei-bioelectromagnetic]
 ---
 
+# 23 Ubi Bei Bioelectromagnetic — Map of Content
 
-# 23_UBI_BEI_BIOELECTROMAGNETIC — Map of Content
+**Path:** `21_DOMAINS/23_UBI_BEI_BIOELECTROMAGNETIC`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 23-ubi-bei-bioelectromagnetic]
 
 ## Subdirectories
 
-- [[INDEX_UBI_BEI_BIOELECTROMAGNETIC_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

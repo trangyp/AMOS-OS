@@ -1,11 +1,13 @@
 ---
-title: 07_OBSERVABILITY MOC
+title: "07 Observability MOC"
 type: moc
 tags: [moc, 07-observability]
 ---
 
+# 07 Observability — Map of Content
 
-# 07_OBSERVABILITY — Map of Content
+**Path:** `03_CONTROL_PLANE/07_OBSERVABILITY`
+**Files:** 5 | **Subdirectories:** 1
 
 ## Files
 
@@ -17,7 +19,7 @@ tags: [moc, 07-observability]
 
 ## Subdirectories
 
-- [[INDEX_OBSERVABILITY_CONTROL_PLANE_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANE_MOC]]

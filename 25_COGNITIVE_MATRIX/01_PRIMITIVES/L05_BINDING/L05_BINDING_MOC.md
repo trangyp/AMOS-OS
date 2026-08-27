@@ -1,11 +1,13 @@
 ---
-title: L05_BINDING MOC
+title: "L05 Binding MOC"
 type: moc
 tags: [moc, l05-binding]
 ---
 
+# L05 Binding — Map of Content
 
-# L05_BINDING — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l05-binding]
 
 ## Subdirectories
 
-- [[INDEX_L05_BINDING_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

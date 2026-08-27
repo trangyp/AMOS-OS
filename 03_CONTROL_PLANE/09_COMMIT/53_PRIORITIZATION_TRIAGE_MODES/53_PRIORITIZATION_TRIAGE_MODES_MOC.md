@@ -1,11 +1,13 @@
 ---
-title: 53_PRIORITIZATION_TRIAGE_MODES MOC
+title: "53 Prioritization Triage Modes MOC"
 type: moc
 tags: [moc, 53-prioritization-triage-modes]
 ---
 
+# 53 Prioritization Triage Modes — Map of Content
 
-# 53_PRIORITIZATION_TRIAGE_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/53_PRIORITIZATION_TRIAGE_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

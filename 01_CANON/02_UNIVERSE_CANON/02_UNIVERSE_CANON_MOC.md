@@ -1,11 +1,13 @@
 ---
-title: 02_UNIVERSE_CANON MOC
+title: "02 Universe Canon MOC"
 type: moc
 tags: [moc, 02-universe-canon]
 ---
 
+# 02 Universe Canon — Map of Content
 
-# 02_UNIVERSE_CANON — Map of Content
+**Path:** `01_CANON/02_UNIVERSE_CANON`
+**Files:** 57 | **Subdirectories:** 1
 
 ## Files
 
@@ -69,7 +71,7 @@ tags: [moc, 02-universe-canon]
 
 ## Subdirectories
 
-- [[INDEX_UNIVERSE_CANON_CANON_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_CANON_MOC]]

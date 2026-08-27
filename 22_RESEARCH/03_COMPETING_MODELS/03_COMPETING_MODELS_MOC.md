@@ -1,11 +1,13 @@
 ---
-title: 03_COMPETING_MODELS MOC
+title: "03 Competing Models MOC"
 type: moc
 tags: [moc, 03-competing-models]
 ---
 
+# 03 Competing Models — Map of Content
 
-# 03_COMPETING_MODELS — Map of Content
+**Path:** `22_RESEARCH/03_COMPETING_MODELS`
+**Files:** 7 | **Subdirectories:** 1
 
 ## Files
 
@@ -19,7 +21,7 @@ tags: [moc, 03-competing-models]
 
 ## Subdirectories
 
-- [[INDEX_COMPETING_MODELS_RESEARCH_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[22_RESEARCH_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 05_PROVENANCE MOC
+title: "05 Provenance MOC"
 type: moc
 tags: [moc, 05-provenance]
 ---
 
+# 05 Provenance — Map of Content
 
-# 05_PROVENANCE — Map of Content
+**Path:** `03_CONTROL_PLANE/05_PROVENANCE`
+**Files:** 5 | **Subdirectories:** 1
 
 ## Files
 
@@ -17,7 +19,7 @@ tags: [moc, 05-provenance]
 
 ## Subdirectories
 
-- [[INDEX_PROVENANCE_CONTROL_PLANE_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANE_MOC]]

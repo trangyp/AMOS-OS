@@ -1,0 +1,21 @@
+---
+title: "Amos-Agent-Native-Research-Artifact-Rscf MOC"
+type: moc
+tags: [moc, amos-agent-native-research-artifact-rscf]
+---
+
+# Amos-Agent-Native-Research-Artifact-Rscf — Map of Content
+
+**Path:** `07_SKILLS/amos-agent-native-research-artifact-rscf`
+**Files:** 1 | **Subdirectories:** 1
+
+## Files
+
+- [[SKILL]]
+
+## Subdirectories
+
+- [[references_MOC]] — references
+
+---
+**Parent:** [[07_SKILLS_MOC]]

@@ -1,16 +1,13 @@
 ---
-title: Architecture MOC
+title: "Architecture MOC"
 type: moc
 tags: [moc, architecture]
 ---
 
-
 # Architecture — Map of Content
 
-- [[THE_INTELLIGENCE_OS_USEFUL_ARCHITECTURE]]
-
----
-**Root:** [[KNOWLEDGE_MOC]]
+**Path:** `11_KNOWLEDGE/architecture`
+**Files:** 37 | **Subdirectories:** 0
 
 ## Files
 
@@ -46,7 +43,11 @@ tags: [moc, architecture]
 - [[THE_ARCHITECTURE_OF_OKAY]]
 - [[THE_ARCHITECTURE_OF_WAR]]
 - [[THE_ARCHITECTURE_OF_WAR_AND_PEACE]]
+- [[THE_INTELLIGENCE_OS_USEFUL_ARCHITECTURE]]
 - [[THE_LIVING_STACK_A_COMPREHENSIVE_SCIENTIFIC_ARCHITECTURE_THESIS_EXPANDED]]
 - [[THE_THREE_LAYER_ARCHITECTURE_OF_CONSCIOUSNESS]]
 - [[TIME_ARCHITECTURE]]
 - [[TLGE_ARCHITECTURE]]
+
+---
+**Parent:** [[11_KNOWLEDGE_MOC]]

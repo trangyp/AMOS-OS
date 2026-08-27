@@ -1,11 +1,13 @@
 ---
-title: 30_CLINICAL_RESEARCH MOC
+title: "30 Clinical Research MOC"
 type: moc
 tags: [moc, 30-clinical-research]
 ---
 
+# 30 Clinical Research — Map of Content
 
-# 30_CLINICAL_RESEARCH — Map of Content
+**Path:** `21_DOMAINS/30_CLINICAL_RESEARCH`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 30-clinical-research]
 
 ## Subdirectories
 
-- [[INDEX_CLINICAL_RESEARCH_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: L12_COUNTERFACTUAL_SIMULATION MOC
+title: "L12 Counterfactual Simulation MOC"
 type: moc
 tags: [moc, l12-counterfactual-simulation]
 ---
 
+# L12 Counterfactual Simulation — Map of Content
 
-# L12_COUNTERFACTUAL_SIMULATION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L12_COUNTERFACTUAL_SIMULATION`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l12-counterfactual-simulation]
 
 ## Subdirectories
 
-- [[INDEX_L12_COUNTERFACTUAL_SIMULATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

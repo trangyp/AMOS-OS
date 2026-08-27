@@ -1,11 +1,13 @@
 ---
-title: 55_RESILIENCE_REPAIR_MODES MOC
+title: "55 Resilience Repair Modes MOC"
 type: moc
 tags: [moc, 55-resilience-repair-modes]
 ---
 
+# 55 Resilience Repair Modes — Map of Content
 
-# 55_RESILIENCE_REPAIR_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/55_RESILIENCE_REPAIR_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

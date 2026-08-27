@@ -1,11 +1,13 @@
 ---
-title: 38_AUTHORITY_PERMISSION_MODES MOC
+title: "38 Authority Permission Modes MOC"
 type: moc
 tags: [moc, 38-authority-permission-modes]
 ---
 
+# 38 Authority Permission Modes — Map of Content
 
-# 38_AUTHORITY_PERMISSION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/38_AUTHORITY_PERMISSION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

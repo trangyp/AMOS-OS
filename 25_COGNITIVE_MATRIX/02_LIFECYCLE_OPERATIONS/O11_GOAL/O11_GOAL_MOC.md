@@ -1,11 +1,13 @@
 ---
-title: O11_GOAL MOC
+title: "O11 Goal MOC"
 type: moc
 tags: [moc, o11-goal]
 ---
 
+# O11 Goal — Map of Content
 
-# O11_GOAL — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O11_GOAL`
+**Files:** 20 | **Subdirectories:** 1
 
 ## Files
 
@@ -32,7 +34,7 @@ tags: [moc, o11-goal]
 
 ## Subdirectories
 
-- [[INDEX_O11_GOAL_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_LIFECYCLE_OPERATIONS_MOC]]

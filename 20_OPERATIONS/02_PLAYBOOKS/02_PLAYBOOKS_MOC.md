@@ -1,11 +1,13 @@
 ---
-title: 02_PLAYBOOKS MOC
+title: "02 Playbooks MOC"
 type: moc
 tags: [moc, 02-playbooks]
 ---
 
+# 02 Playbooks — Map of Content
 
-# 02_PLAYBOOKS — Map of Content
+**Path:** `20_OPERATIONS/02_PLAYBOOKS`
+**Files:** 1 | **Subdirectories:** 0
 
 ## Files
 

@@ -1,11 +1,13 @@
 ---
-title: 39_PROVENANCE_EVIDENCE_MODES MOC
+title: "39 Provenance Evidence Modes MOC"
 type: moc
 tags: [moc, 39-provenance-evidence-modes]
 ---
 
+# 39 Provenance Evidence Modes — Map of Content
 
-# 39_PROVENANCE_EVIDENCE_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/39_PROVENANCE_EVIDENCE_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

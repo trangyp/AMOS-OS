@@ -1,11 +1,13 @@
 ---
-title: 20_C10_TECH_ENGINEERING MOC
+title: "20 C10 Tech Engineering MOC"
 type: moc
 tags: [moc, 20-c10-tech-engineering]
 ---
 
+# 20 C10 Tech Engineering — Map of Content
 
-# 20_C10_TECH_ENGINEERING — Map of Content
+**Path:** `21_DOMAINS/20_C10_TECH_ENGINEERING`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 20-c10-tech-engineering]
 
 ## Subdirectories
 
-- [[INDEX_C10_TECH_ENGINEERING_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: indexes MOC
+title: "Indexes MOC"
 type: moc
 tags: [moc, indexes]
 ---
 
+# Indexes — Map of Content
 
-# indexes — Map of Content
+**Path:** `11_KNOWLEDGE/indexes`
+**Files:** 2 | **Subdirectories:** 0
 
 ## Files
 
@@ -13,4 +15,4 @@ tags: [moc, indexes]
 - [[VARIABLE_REGISTRY]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

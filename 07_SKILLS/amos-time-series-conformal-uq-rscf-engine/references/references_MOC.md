@@ -1,14 +1,17 @@
 ---
-title: references MOC
+title: "References MOC"
 type: moc
 tags: [moc, references]
 ---
 
-# references — Map of Content
+# References — Map of Content
+
+**Path:** `07_SKILLS/amos-time-series-conformal-uq-rscf-engine/references`
+**Files:** 1 | **Subdirectories:** 0
 
 ## Files
 
 - [[biostatistics_kernel]]
 
 ---
-**Parent:** [[SKILL]]
+**Parent:** [[amos-time-series-conformal-uq-rscf-engine_MOC]]

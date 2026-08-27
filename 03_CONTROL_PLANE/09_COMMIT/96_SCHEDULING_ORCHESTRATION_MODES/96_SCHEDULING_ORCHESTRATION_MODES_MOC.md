@@ -1,11 +1,13 @@
 ---
-title: 96_SCHEDULING_ORCHESTRATION_MODES MOC
+title: "96 Scheduling Orchestration Modes MOC"
 type: moc
 tags: [moc, 96-scheduling-orchestration-modes]
 ---
 
+# 96 Scheduling Orchestration Modes — Map of Content
 
-# 96_SCHEDULING_ORCHESTRATION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/96_SCHEDULING_ORCHESTRATION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

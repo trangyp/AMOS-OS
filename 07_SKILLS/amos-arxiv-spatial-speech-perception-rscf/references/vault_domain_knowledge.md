@@ -90,7 +90,7 @@ tags: [reference, amos-arxiv-spatial-speech-perception-rscf]
 - AMOS Cognitive Domain Engines
 - Invariants 801–900 Relationships Clusters
 - 2026-08-22 The Complete Human System — Books One–Six
-- [[19x19 Sparse Coupling Matri
+- [[19x19 Sparse Coupling Matri]]
 
 ---
 

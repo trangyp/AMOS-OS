@@ -1,11 +1,13 @@
 ---
-title: 01_CANON MOC
+title: "01 Canon MOC"
 type: moc
 tags: [moc, 01-canon]
 ---
 
+# 01 Canon — Map of Content
 
-# 01_CANON — Map of Content
+**Path:** `01_CANON`
+**Files:** 2 | **Subdirectories:** 9
 
 ## Files
 
@@ -14,15 +16,15 @@ tags: [moc, 01-canon]
 
 ## Subdirectories
 
-- [[INDEX_CANON_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
+- [[01_CORE_LAWS_MOC]] — 01_CORE_LAWS
+- [[02_UNIVERSE_CANON_MOC]] — 02_UNIVERSE_CANON
+- [[03_COGNITION_CANON_MOC]] — 03_COGNITION_CANON
+- [[04_INFRASTRUCTURE_CANON_MOC]] — 04_INFRASTRUCTURE_CANON
+- [[05_VARIABLE_REGISTRY_MOC]] — 05_VARIABLE_REGISTRY
+- [[06_GLOSSARY_MOC]] — 06_GLOSSARY
+- [[07_PROVENANCE_MOC]] — 07_PROVENANCE
+- [[08_SUPERSESSION_MOC]] — 08_SUPERSESSION
 
 ---
 **Parent:** [[AMOS_HOME]]
-- [[01_CORE_LAWS_MOC]]
-- [[02_UNIVERSE_CANON_MOC]]
-- [[03_COGNITION_CANON_MOC]]
-- [[04_INFRASTRUCTURE_CANON_MOC]]
-- [[05_VARIABLE_REGISTRY_MOC]]
-- [[06_GLOSSARY_MOC]]
-- [[07_PROVENANCE_MOC]]
-- [[08_SUPERSESSION_MOC]]

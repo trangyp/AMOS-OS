@@ -1,11 +1,13 @@
 ---
-title: vietnamese MOC
+title: "Vietnamese MOC"
 type: moc
 tags: [moc, vietnamese]
 ---
 
+# Vietnamese — Map of Content
 
-# vietnamese — Map of Content
+**Path:** `11_KNOWLEDGE/vietnamese`
+**Files:** 72 | **Subdirectories:** 0
 
 ## Files
 
@@ -83,4 +85,4 @@ tags: [moc, vietnamese]
 - [[VIETNAMESE_CREATIVITY_FROM_ROT_TO_FUTURE_BAI_BAO_TIENG_ANH]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

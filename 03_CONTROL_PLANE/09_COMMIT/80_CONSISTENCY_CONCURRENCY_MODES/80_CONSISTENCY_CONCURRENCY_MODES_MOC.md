@@ -1,11 +1,13 @@
 ---
-title: 80_CONSISTENCY_CONCURRENCY_MODES MOC
+title: "80 Consistency Concurrency Modes MOC"
 type: moc
 tags: [moc, 80-consistency-concurrency-modes]
 ---
 
+# 80 Consistency Concurrency Modes — Map of Content
 
-# 80_CONSISTENCY_CONCURRENCY_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/80_CONSISTENCY_CONCURRENCY_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

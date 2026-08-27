@@ -1,11 +1,13 @@
 ---
-title: 95_CONSTRAINT_SOLVING_MODES MOC
+title: "95 Constraint Solving Modes MOC"
 type: moc
 tags: [moc, 95-constraint-solving-modes]
 ---
 
+# 95 Constraint Solving Modes — Map of Content
 
-# 95_CONSTRAINT_SOLVING_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/95_CONSTRAINT_SOLVING_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

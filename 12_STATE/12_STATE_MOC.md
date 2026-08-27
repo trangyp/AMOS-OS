@@ -1,11 +1,13 @@
 ---
-title: 12_STATE MOC
+title: "12 State MOC"
 type: moc
 tags: [moc, 12-state]
 ---
 
+# 12 State — Map of Content
 
-# 12_STATE — Map of Content
+**Path:** `12_STATE`
+**Files:** 2 | **Subdirectories:** 1
 
 ## Files
 
@@ -14,7 +16,7 @@ tags: [moc, 12-state]
 
 ## Subdirectories
 
-- [[INDEX_STATE_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[AMOS_HOME]]

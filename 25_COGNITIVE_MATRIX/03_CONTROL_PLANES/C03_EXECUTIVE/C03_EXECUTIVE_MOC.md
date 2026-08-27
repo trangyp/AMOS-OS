@@ -1,11 +1,13 @@
 ---
-title: C03_EXECUTIVE MOC
+title: "C03 Executive MOC"
 type: moc
 tags: [moc, c03-executive]
 ---
 
+# C03 Executive — Map of Content
 
-# C03_EXECUTIVE — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE`
+**Files:** 21 | **Subdirectories:** 1
 
 ## Files
 
@@ -33,7 +35,7 @@ tags: [moc, c03-executive]
 
 ## Subdirectories
 
-- [[INDEX_C03_EXECUTIVE_CONTROL_PLANES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANES_MOC]]

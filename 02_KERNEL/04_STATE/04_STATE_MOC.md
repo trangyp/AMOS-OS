@@ -1,11 +1,13 @@
 ---
-title: 04_STATE MOC
+title: "04 State MOC"
 type: moc
 tags: [moc, 04-state]
 ---
 
+# 04 State — Map of Content
 
-# 04_STATE — Map of Content
+**Path:** `02_KERNEL/04_STATE`
+**Files:** 7 | **Subdirectories:** 1
 
 ## Files
 
@@ -19,7 +21,7 @@ tags: [moc, 04-state]
 
 ## Subdirectories
 
-- [[INDEX_STATE_KERNEL_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_KERNEL_MOC]]

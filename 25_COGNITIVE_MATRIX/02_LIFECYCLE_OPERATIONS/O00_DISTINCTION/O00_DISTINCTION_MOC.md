@@ -1,11 +1,13 @@
 ---
-title: O00_DISTINCTION MOC
+title: "O00 Distinction MOC"
 type: moc
 tags: [moc, o00-distinction]
 ---
 
+# O00 Distinction — Map of Content
 
-# O00_DISTINCTION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION`
+**Files:** 20 | **Subdirectories:** 1
 
 ## Files
 
@@ -32,7 +34,7 @@ tags: [moc, o00-distinction]
 
 ## Subdirectories
 
-- [[INDEX_O00_DISTINCTION_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_LIFECYCLE_OPERATIONS_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 06_EXECUTION MOC
+title: "06 Execution MOC"
 type: moc
 tags: [moc, 06-execution]
 ---
 
+# 06 Execution — Map of Content
 
-# 06_EXECUTION — Map of Content
+**Path:** `04_RUNTIME/06_EXECUTION`
+**Files:** 6 | **Subdirectories:** 0
 
 ## Files
 

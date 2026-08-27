@@ -1,11 +1,13 @@
 ---
-title: governance MOC
+title: "Governance MOC"
 type: moc
 tags: [moc, governance]
 ---
 
+# Governance — Map of Content
 
-# governance — Map of Content
+**Path:** `11_KNOWLEDGE/governance`
+**Files:** 22 | **Subdirectories:** 0
 
 ## Files
 
@@ -33,4 +35,4 @@ tags: [moc, governance]
 - [[WHY_GOVERNANCE_COLLAPSES_WHEN_IT_IGNORES_HUMAN_BIO]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

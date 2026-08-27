@@ -136,4 +136,4 @@ CNZ5: non-causal cause
 **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · docs
 
 ---
-**MOC:** [[references MOC
+**MOC:** [[references_MOC]]

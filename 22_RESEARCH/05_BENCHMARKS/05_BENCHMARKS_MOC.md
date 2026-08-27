@@ -1,11 +1,13 @@
 ---
-title: 05_BENCHMARKS MOC
+title: "05 Benchmarks MOC"
 type: moc
 tags: [moc, 05-benchmarks]
 ---
 
+# 05 Benchmarks — Map of Content
 
-# 05_BENCHMARKS — Map of Content
+**Path:** `22_RESEARCH/05_BENCHMARKS`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 05-benchmarks]
 
 ## Subdirectories
 
-- [[INDEX_BENCHMARKS_RESEARCH_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[22_RESEARCH_MOC]]

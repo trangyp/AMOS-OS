@@ -1,11 +1,13 @@
 ---
-title: L11_CAUSAL_MODELING MOC
+title: "L11 Causal Modeling MOC"
 type: moc
 tags: [moc, l11-causal-modeling]
 ---
 
+# L11 Causal Modeling — Map of Content
 
-# L11_CAUSAL_MODELING — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L11_CAUSAL_MODELING`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l11-causal-modeling]
 
 ## Subdirectories
 
-- [[INDEX_L11_CAUSAL_MODELING_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

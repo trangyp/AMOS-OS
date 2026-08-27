@@ -1,11 +1,13 @@
 ---
-title: field MOC
+title: "Field MOC"
 type: moc
 tags: [moc, field]
 ---
 
+# Field — Map of Content
 
-# field — Map of Content
+**Path:** `11_KNOWLEDGE/field`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 
@@ -14,4 +16,4 @@ tags: [moc, field]
 - [[UNIVERSAL_FIELD_MODEL]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

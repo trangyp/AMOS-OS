@@ -1,11 +1,13 @@
 ---
-title: 02_CLAIMS MOC
+title: "02 Claims MOC"
 type: moc
 tags: [moc, 02-claims]
 ---
 
+# 02 Claims — Map of Content
 
-# 02_CLAIMS — Map of Content
+**Path:** `11_KNOWLEDGE/02_CLAIMS`
+**Files:** 4 | **Subdirectories:** 0
 
 ## Files
 
@@ -15,4 +17,4 @@ tags: [moc, 02-claims]
 - [[UBI_CLAIM_REGISTRY]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

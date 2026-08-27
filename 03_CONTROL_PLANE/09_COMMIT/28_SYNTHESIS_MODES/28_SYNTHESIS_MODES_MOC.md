@@ -1,11 +1,13 @@
 ---
-title: 28_SYNTHESIS_MODES MOC
+title: "28 Synthesis Modes MOC"
 type: moc
 tags: [moc, 28-synthesis-modes]
 ---
 
+# 28 Synthesis Modes — Map of Content
 
-# 28_SYNTHESIS_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/28_SYNTHESIS_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

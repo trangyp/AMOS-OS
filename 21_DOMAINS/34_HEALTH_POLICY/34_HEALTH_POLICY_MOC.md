@@ -1,11 +1,13 @@
 ---
-title: 34_HEALTH_POLICY MOC
+title: "34 Health Policy MOC"
 type: moc
 tags: [moc, 34-health-policy]
 ---
 
+# 34 Health Policy — Map of Content
 
-# 34_HEALTH_POLICY — Map of Content
+**Path:** `21_DOMAINS/34_HEALTH_POLICY`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 34-health-policy]
 
 ## Subdirectories
 
-- [[INDEX_HEALTH_POLICY_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

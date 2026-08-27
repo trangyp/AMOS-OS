@@ -1,11 +1,13 @@
 ---
-title: L28_GOVERNANCE MOC
+title: "L28 Governance MOC"
 type: moc
 tags: [moc, l28-governance]
 ---
 
+# L28 Governance — Map of Content
 
-# L28_GOVERNANCE — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L28_GOVERNANCE`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l28-governance]
 
 ## Subdirectories
 
-- [[INDEX_L28_GOVERNANCE_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

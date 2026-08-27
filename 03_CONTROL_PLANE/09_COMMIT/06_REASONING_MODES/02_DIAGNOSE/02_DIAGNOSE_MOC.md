@@ -1,11 +1,13 @@
 ---
-title: 02_DIAGNOSE MOC
+title: "02 Diagnose MOC"
 type: moc
 tags: [moc, 02-diagnose]
 ---
 
+# 02 Diagnose — Map of Content
 
-# 02_DIAGNOSE — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/02_DIAGNOSE`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

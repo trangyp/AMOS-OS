@@ -193,4 +193,4 @@ $$Sk \to Pr \to Inn \to Pr \uparrow \uparrow$$
 - 19x19 Sparse Coupling Matri
 
 ---
-**MOC:** [[references MOC
+**MOC:** [[references_MOC]]

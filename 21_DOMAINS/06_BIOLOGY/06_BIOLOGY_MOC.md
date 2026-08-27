@@ -1,11 +1,13 @@
 ---
-title: 06_BIOLOGY MOC
+title: "06 Biology MOC"
 type: moc
 tags: [moc, 06-biology]
 ---
 
+# 06 Biology — Map of Content
 
-# 06_BIOLOGY — Map of Content
+**Path:** `21_DOMAINS/06_BIOLOGY`
+**Files:** 21 | **Subdirectories:** 1
 
 ## Files
 
@@ -33,7 +35,7 @@ tags: [moc, 06-biology]
 
 ## Subdirectories
 
-- [[INDEX_BIOLOGY_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

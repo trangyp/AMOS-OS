@@ -1,11 +1,13 @@
 ---
-title: 73_RETRIEVAL_CONTEXT_MODES MOC
+title: "73 Retrieval Context Modes MOC"
 type: moc
 tags: [moc, 73-retrieval-context-modes]
 ---
 
+# 73 Retrieval Context Modes — Map of Content
 
-# 73_RETRIEVAL_CONTEXT_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/73_RETRIEVAL_CONTEXT_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

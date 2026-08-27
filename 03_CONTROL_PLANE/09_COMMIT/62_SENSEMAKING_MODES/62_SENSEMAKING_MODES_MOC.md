@@ -1,11 +1,13 @@
 ---
-title: 62_SENSEMAKING_MODES MOC
+title: "62 Sensemaking Modes MOC"
 type: moc
 tags: [moc, 62-sensemaking-modes]
 ---
 
+# 62 Sensemaking Modes — Map of Content
 
-# 62_SENSEMAKING_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/62_SENSEMAKING_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

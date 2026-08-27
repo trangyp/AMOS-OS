@@ -1,14 +1,17 @@
 ---
-title: references MOC
+title: "References MOC"
 type: moc
 tags: [moc, references]
 ---
 
-# references — Map of Content
+# References — Map of Content
+
+**Path:** `07_SKILLS/arxiv-kv-cache-quantization-rscf/references`
+**Files:** 1 | **Subdirectories:** 0
 
 ## Files
 
 - [[memory_optimization_for_kv_cache]]
 
 ---
-**Parent:** [[SKILL]]
+**Parent:** [[arxiv-kv-cache-quantization-rscf_MOC]]

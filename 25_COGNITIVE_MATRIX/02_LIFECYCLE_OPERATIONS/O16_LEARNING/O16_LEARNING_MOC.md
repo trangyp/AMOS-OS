@@ -1,11 +1,13 @@
 ---
-title: O16_LEARNING MOC
+title: "O16 Learning MOC"
 type: moc
 tags: [moc, o16-learning]
 ---
 
+# O16 Learning — Map of Content
 
-# O16_LEARNING — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O16_LEARNING`
+**Files:** 20 | **Subdirectories:** 1
 
 ## Files
 
@@ -32,7 +34,7 @@ tags: [moc, o16-learning]
 
 ## Subdirectories
 
-- [[INDEX_O16_LEARNING_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_LIFECYCLE_OPERATIONS_MOC]]

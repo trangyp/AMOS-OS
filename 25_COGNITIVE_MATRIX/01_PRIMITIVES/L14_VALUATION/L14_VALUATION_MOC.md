@@ -1,11 +1,13 @@
 ---
-title: L14_VALUATION MOC
+title: "L14 Valuation MOC"
 type: moc
 tags: [moc, l14-valuation]
 ---
 
+# L14 Valuation — Map of Content
 
-# L14_VALUATION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l14-valuation]
 
 ## Subdirectories
 
-- [[INDEX_L14_VALUATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 52_OPTIMIZATION_SEARCH_MODES MOC
+title: "52 Optimization Search Modes MOC"
 type: moc
 tags: [moc, 52-optimization-search-modes]
 ---
 
+# 52 Optimization Search Modes — Map of Content
 
-# 52_OPTIMIZATION_SEARCH_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/52_OPTIMIZATION_SEARCH_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

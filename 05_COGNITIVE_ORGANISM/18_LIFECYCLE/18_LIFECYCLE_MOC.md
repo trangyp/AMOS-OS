@@ -1,11 +1,13 @@
 ---
-title: 18_LIFECYCLE MOC
+title: "18 Lifecycle MOC"
 type: moc
 tags: [moc, 18-lifecycle]
 ---
 
+# 18 Lifecycle — Map of Content
 
-# 18_LIFECYCLE — Map of Content
+**Path:** `05_COGNITIVE_ORGANISM/18_LIFECYCLE`
+**Files:** 2 | **Subdirectories:** 0
 
 ## Files
 

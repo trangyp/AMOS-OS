@@ -1,11 +1,13 @@
 ---
-title: 17_OBSERVABILITY MOC
+title: "17 Observability MOC"
 type: moc
 tags: [moc, 17-observability]
 ---
 
+# 17 Observability — Map of Content
 
-# 17_OBSERVABILITY — Map of Content
+**Path:** `17_OBSERVABILITY`
+**Files:** 2 | **Subdirectories:** 1
 
 ## Files
 
@@ -14,7 +16,7 @@ tags: [moc, 17-observability]
 
 ## Subdirectories
 
-- [[INDEX_OBSERVABILITY_OBSERVABILITY_CONTRACT]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[AMOS_HOME]]

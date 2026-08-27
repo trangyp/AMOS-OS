@@ -1,11 +1,13 @@
 ---
-title: 48_NEGOTIATION_BARGAINING_MODES MOC
+title: "48 Negotiation Bargaining Modes MOC"
 type: moc
 tags: [moc, 48-negotiation-bargaining-modes]
 ---
 
+# 48 Negotiation Bargaining Modes — Map of Content
 
-# 48_NEGOTIATION_BARGAINING_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/48_NEGOTIATION_BARGAINING_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

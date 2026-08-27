@@ -1,11 +1,13 @@
 ---
-title: 83_ROLLBACK_REPLAY_MODES MOC
+title: "83 Rollback Replay Modes MOC"
 type: moc
 tags: [moc, 83-rollback-replay-modes]
 ---
 
+# 83 Rollback Replay Modes — Map of Content
 
-# 83_ROLLBACK_REPLAY_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/83_ROLLBACK_REPLAY_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

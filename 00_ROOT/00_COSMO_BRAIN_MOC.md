@@ -1,47 +1,13 @@
 ---
-type: brain
-aliases:
-- Cosmo Brain MOC (root stub)
-canon_group: tech-ai
-canon_type: navigation
-document_version: 1.0.1
-origin_architect: Trang Phan
-rscf_state: derived
-status: ACTIVE_MOC
-tags: [moc, amos_os, root]
-- cosmo
-- brain
-- navigation
-title: 00 Cosmo Brain MOC (root stub)
+title: "00 Root MOC"
+type: moc
+tags: [moc, 00-root]
 ---
 
+# 00 Root — Map of Content
 
-
-# 00 Cosmo Brain MOC (root stub)
-
-Lightweight navigation hub for the AMOS brain layer. The full canonical index lives at COSMO_BRAIN_MOC|00 Cosmo Brain MOC.
-
----
-
-## Related
-
-- [[00_HOME]]
-- [[AMOS_RSCF_NODES]]
-- 00_ROOT_MOC|AMOS MOC
-- COSMO_BRAIN_MOC|00 Cosmo Brain MOC
-- [[AMOS_LAYER_MAPS]] — top-level AMOS layer map index
-- [[AMOS_TEMPLATES]] — AMOS template index
-- [[AMOS_OBSIDIAN_LINKING_PLUGINS]] — Obsidian vault linking plugin stack
-
----
-RSCF-NODE
-node_id: cosmo_brain_moc_root
-node_type: note
-path: 00_ROOT/00_Cosmo_Brain_MOC.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
+**Path:** `00_ROOT`
+**Files:** 76 | **Subdirectories:** 1
 
 ## Files
 
@@ -84,6 +50,7 @@ claim_class: AMOS_MODEL
 - [[AMOS_ORIGIN_HERITAGE_MASTER]]
 - [[AMOS_ORPHAN_FRAMEWORK_REGISTRY]]
 - [[AMOS_OS_ADD_ONLY_CANON_FILE_MANIFEST]]
+- [[AMOS_RSCF_NODES]]
 - [[AMOS_TEMPLATES]]
 - [[AMOS_TOTAL_ARCHITECTURE]]
 - [[AMOS_TOTAL_CANON_INDEX]]
@@ -111,8 +78,10 @@ claim_class: AMOS_MODEL
 - [[COSMO_BRAIN_TO_AMOS_OS_BINDING]]
 - [[DEPENDENCY_MAP]]
 - [[FULL_TREE]]
+- [[INDEX_REPAIR_GAP_REPORT_2026-08-26]]
 - [[NEURAL_NETWORK]]
 - [[PLACEMENT_RULES]]
+- [[README]]
 - [[ROADMAP]]
 - [[RSCF_NODE_INDEX]]
 - [[SYSTEM_MAP]]
@@ -121,4 +90,7 @@ claim_class: AMOS_MODEL
 
 ## Subdirectories
 
-- [[attachments_MOC]]
+- [[attachments_MOC]] — attachments
+
+---
+**Parent:** [[AMOS_HOME]]

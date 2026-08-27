@@ -1,11 +1,13 @@
 ---
-title: C07_PERCEPTION MOC
+title: "C07 Perception MOC"
 type: moc
 tags: [moc, c07-perception]
 ---
 
+# C07 Perception — Map of Content
 
-# C07_PERCEPTION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C07_PERCEPTION`
+**Files:** 21 | **Subdirectories:** 1
 
 ## Files
 
@@ -33,7 +35,7 @@ tags: [moc, c07-perception]
 
 ## Subdirectories
 
-- [[INDEX_C07_PERCEPTION_CONTROL_PLANES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANES_MOC]]

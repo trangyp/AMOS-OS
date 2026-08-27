@@ -1,11 +1,13 @@
 ---
-title: emotion MOC
+title: "Emotion MOC"
 type: moc
 tags: [moc, emotion]
 ---
 
+# Emotion — Map of Content
 
-# emotion — Map of Content
+**Path:** `11_KNOWLEDGE/emotion`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 
@@ -14,4 +16,4 @@ tags: [moc, emotion]
 - [[THOUGHTS_AND_EMOTION]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

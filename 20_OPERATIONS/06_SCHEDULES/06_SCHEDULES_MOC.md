@@ -1,11 +1,13 @@
 ---
-title: 06_SCHEDULES MOC
+title: "06 Schedules MOC"
 type: moc
 tags: [moc, 06-schedules]
 ---
 
+# 06 Schedules — Map of Content
 
-# 06_SCHEDULES — Map of Content
+**Path:** `20_OPERATIONS/06_SCHEDULES`
+**Files:** 1 | **Subdirectories:** 0
 
 ## Files
 

@@ -1,15 +1,17 @@
 ---
-title: attachments MOC
+title: "Attachments MOC"
 type: moc
 tags: [moc, attachments]
 ---
 
+# Attachments — Map of Content
 
-# attachments — Map of Content
+**Path:** `00_ROOT/attachments`
+**Files:** 1 | **Subdirectories:** 0
 
 ## Files
 
 - [[ATTACHMENTS_00_ROOT_README]]
 
 ---
-**Parent:** [[00_COSMO_BRAIN_MOC]]
+**Parent:** [[00_ROOT_MOC]]

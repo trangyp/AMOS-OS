@@ -1,11 +1,13 @@
 ---
-title: 86_ONTOLOGY_CONCEPT_MODES MOC
+title: "86 Ontology Concept Modes MOC"
 type: moc
 tags: [moc, 86-ontology-concept-modes]
 ---
 
+# 86 Ontology Concept Modes — Map of Content
 
-# 86_ONTOLOGY_CONCEPT_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/86_ONTOLOGY_CONCEPT_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

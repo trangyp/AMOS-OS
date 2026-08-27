@@ -1,11 +1,13 @@
 ---
-title: 43_ABSTRACTION_GENERALIZATION_MODES MOC
+title: "43 Abstraction Generalization Modes MOC"
 type: moc
 tags: [moc, 43-abstraction-generalization-modes]
 ---
 
+# 43 Abstraction Generalization Modes — Map of Content
 
-# 43_ABSTRACTION_GENERALIZATION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/43_ABSTRACTION_GENERALIZATION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

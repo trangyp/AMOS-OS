@@ -1,11 +1,13 @@
 ---
-title: L04_OBJECT_ENTITY_FORMATION MOC
+title: "L04 Object Entity Formation MOC"
 type: moc
 tags: [moc, l04-object-entity-formation]
 ---
 
+# L04 Object Entity Formation — Map of Content
 
-# L04_OBJECT_ENTITY_FORMATION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l04-object-entity-formation]
 
 ## Subdirectories
 
-- [[INDEX_L04_OBJECT_ENTITY_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

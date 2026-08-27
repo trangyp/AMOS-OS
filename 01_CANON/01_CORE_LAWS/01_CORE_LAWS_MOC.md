@@ -1,11 +1,13 @@
 ---
-title: 01_CORE_LAWS MOC
+title: "01 Core Laws MOC"
 type: moc
 tags: [moc, 01-core-laws]
 ---
 
+# 01 Core Laws — Map of Content
 
-# 01_CORE_LAWS — Map of Content
+**Path:** `01_CANON/01_CORE_LAWS`
+**Files:** 62 | **Subdirectories:** 1
 
 ## Files
 
@@ -74,7 +76,7 @@ tags: [moc, 01-core-laws]
 
 ## Subdirectories
 
-- [[INDEX_CORE_LAWS_CANON_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_CANON_MOC]]

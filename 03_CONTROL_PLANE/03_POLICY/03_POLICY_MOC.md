@@ -1,11 +1,13 @@
 ---
-title: 03_POLICY MOC
+title: "03 Policy MOC"
 type: moc
 tags: [moc, 03-policy]
 ---
 
+# 03 Policy — Map of Content
 
-# 03_POLICY — Map of Content
+**Path:** `03_CONTROL_PLANE/03_POLICY`
+**Files:** 9 | **Subdirectories:** 1
 
 ## Files
 
@@ -21,7 +23,7 @@ tags: [moc, 03-policy]
 
 ## Subdirectories
 
-- [[INDEX_POLICY_CONTROL_PLANE_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANE_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 19_LEARNING_MODES MOC
+title: "19 Learning Modes MOC"
 type: moc
 tags: [moc, 19-learning-modes]
 ---
 
+# 19 Learning Modes — Map of Content
 
-# 19_LEARNING_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/19_LEARNING_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

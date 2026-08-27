@@ -1,11 +1,13 @@
 ---
-title: 17_C07_ECON_FINANCE MOC
+title: "17 C07 Econ Finance MOC"
 type: moc
 tags: [moc, 17-c07-econ-finance]
 ---
 
+# 17 C07 Econ Finance — Map of Content
 
-# 17_C07_ECON_FINANCE — Map of Content
+**Path:** `21_DOMAINS/17_C07_ECON_FINANCE`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 17-c07-econ-finance]
 
 ## Subdirectories
 
-- [[INDEX_C07_ECON_FINANCE_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

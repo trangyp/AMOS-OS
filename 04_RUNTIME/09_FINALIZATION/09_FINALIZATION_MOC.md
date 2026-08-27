@@ -1,11 +1,13 @@
 ---
-title: 09_FINALIZATION MOC
+title: "09 Finalization MOC"
 type: moc
 tags: [moc, 09-finalization]
 ---
 
+# 09 Finalization — Map of Content
 
-# 09_FINALIZATION — Map of Content
+**Path:** `04_RUNTIME/09_FINALIZATION`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

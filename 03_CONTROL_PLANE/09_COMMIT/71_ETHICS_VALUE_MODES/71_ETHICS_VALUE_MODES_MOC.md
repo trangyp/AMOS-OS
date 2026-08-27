@@ -1,11 +1,13 @@
 ---
-title: 71_ETHICS_VALUE_MODES MOC
+title: "71 Ethics Value Modes MOC"
 type: moc
 tags: [moc, 71-ethics-value-modes]
 ---
 
+# 71 Ethics Value Modes — Map of Content
 
-# 71_ETHICS_VALUE_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/71_ETHICS_VALUE_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

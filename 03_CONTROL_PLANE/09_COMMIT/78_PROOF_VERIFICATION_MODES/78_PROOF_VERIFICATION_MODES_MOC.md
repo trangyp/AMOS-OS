@@ -1,11 +1,13 @@
 ---
-title: 78_PROOF_VERIFICATION_MODES MOC
+title: "78 Proof Verification Modes MOC"
 type: moc
 tags: [moc, 78-proof-verification-modes]
 ---
 
+# 78 Proof Verification Modes — Map of Content
 
-# 78_PROOF_VERIFICATION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/78_PROOF_VERIFICATION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

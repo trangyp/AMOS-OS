@@ -1,11 +1,13 @@
 ---
-title: L29_EVOLUTION MOC
+title: "L29 Evolution MOC"
 type: moc
 tags: [moc, l29-evolution]
 ---
 
+# L29 Evolution — Map of Content
 
-# L29_EVOLUTION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L29_EVOLUTION`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l29-evolution]
 
 ## Subdirectories
 
-- [[INDEX_L29_EVOLUTION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

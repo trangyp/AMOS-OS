@@ -1,11 +1,13 @@
 ---
-title: 68_OPPORTUNITY_DISCOVERY_MODES MOC
+title: "68 Opportunity Discovery Modes MOC"
 type: moc
 tags: [moc, 68-opportunity-discovery-modes]
 ---
 
+# 68 Opportunity Discovery Modes — Map of Content
 
-# 68_OPPORTUNITY_DISCOVERY_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/68_OPPORTUNITY_DISCOVERY_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

@@ -1,11 +1,13 @@
 ---
-title: human MOC
+title: "Human MOC"
 type: moc
 tags: [moc, human]
 ---
 
+# Human — Map of Content
 
-# human — Map of Content
+**Path:** `11_KNOWLEDGE/human`
+**Files:** 16 | **Subdirectories:** 0
 
 ## Files
 
@@ -27,4 +29,4 @@ tags: [moc, human]
 - [[WHITEPAPER_HUMAN_AGING_GERONTOLOGY_RESEARCH_AND]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 15_INTERFACES MOC
+title: "15 Interfaces MOC"
 type: moc
 tags: [moc, 15-interfaces]
 ---
 
+# 15 Interfaces — Map of Content
 
-# 15_INTERFACES — Map of Content
+**Path:** `15_INTERFACES`
+**Files:** 2 | **Subdirectories:** 1
 
 ## Files
 
@@ -14,7 +16,7 @@ tags: [moc, 15-interfaces]
 
 ## Subdirectories
 
-- [[INDEX_INTERFACES_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[AMOS_HOME]]

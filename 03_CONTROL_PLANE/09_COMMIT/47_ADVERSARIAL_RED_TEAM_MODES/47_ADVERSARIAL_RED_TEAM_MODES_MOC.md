@@ -1,11 +1,13 @@
 ---
-title: 47_ADVERSARIAL_RED_TEAM_MODES MOC
+title: "47 Adversarial Red Team Modes MOC"
 type: moc
 tags: [moc, 47-adversarial-red-team-modes]
 ---
 
+# 47 Adversarial Red Team Modes — Map of Content
 
-# 47_ADVERSARIAL_RED_TEAM_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/47_ADVERSARIAL_RED_TEAM_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

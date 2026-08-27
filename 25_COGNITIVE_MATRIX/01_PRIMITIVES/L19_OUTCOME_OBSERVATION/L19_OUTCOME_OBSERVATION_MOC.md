@@ -1,11 +1,13 @@
 ---
-title: L19_OUTCOME_OBSERVATION MOC
+title: "L19 Outcome Observation MOC"
 type: moc
 tags: [moc, l19-outcome-observation]
 ---
 
+# L19 Outcome Observation — Map of Content
 
-# L19_OUTCOME_OBSERVATION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l19-outcome-observation]
 
 ## Subdirectories
 
-- [[INDEX_L19_OUTCOME_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

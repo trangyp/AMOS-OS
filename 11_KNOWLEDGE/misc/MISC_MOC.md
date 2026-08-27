@@ -1,19 +1,13 @@
 ---
-title: Misc MOC
+title: "Misc MOC"
 type: moc
 tags: [moc, misc]
 ---
 
-
 # Misc — Map of Content
 
-- [[CARE_AS_INFRASTRUCTURE]]
-- [[EDE]]
-- [[MAP_CAC_HANG_SO_E_2_137_432_360_VA_L]]
-- [[READMEA]]
-
----
-**Root:** [[KNOWLEDGE_MOC]]
+**Path:** `11_KNOWLEDGE/misc`
+**Files:** 745 | **Subdirectories:** 0
 
 ## Files
 
@@ -130,6 +124,7 @@ tags: [moc, misc]
 - [[C7]]
 - [[CAC_BAI_TOAN_KINH_TE_KHO_NHAT_MANG_LAI_DOANH_THU]]
 - [[CALM]]
+- [[CARE_AS_INFRASTRUCTURE]]
 - [[CASH]]
 - [[CAUSAL]]
 - [[CAUSAL_FIREWALL]]
@@ -228,6 +223,7 @@ tags: [moc, misc]
 - [[DU_BAO_HERITAGE_NAM_2045_VA_VAI_TRO_CUA_VIET_NAM]]
 - [[ECO]]
 - [[ECO_VALUE]]
+- [[EDE]]
 - [[EKONOMY]]
 - [[EMAIL_MESSAGE_YEU_CAU_BAN_GIAO]]
 - [[END]]
@@ -399,6 +395,7 @@ tags: [moc, misc]
 - [[MANIFEST_2]]
 - [[MAP]]
 - [[MAPPED_TAXONOMY_OF_VIETNAMESE_ENERGETIC_PRACTITION]]
+- [[MAP_CAC_HANG_SO_E_2_137_432_360_VA_L]]
 - [[MAP_COMPARE]]
 - [[MASTER_DEMO]]
 - [[MAX_BORING_MAX_CASH]]
@@ -532,6 +529,7 @@ tags: [moc, misc]
 - [[RANDOM_HACKS]]
 - [[RANDOM_PAYLOADS]]
 - [[READ]]
+- [[READMEA]]
 - [[README_PAYLOAD]]
 - [[REALITY_GRAMMAR_EQUATION_V0]]
 - [[REALITY_TRANSCENDENCE_INTEGRATION]]
@@ -758,3 +756,6 @@ tags: [moc, misc]
 - [[XXE_SSRF_ATTACK]]
 - [[YES_THERE_ARE_A_FEW_MODERN_INDIVIDUALS_WHO_LIKE]]
 - [[Y_THUC_TIEM_THUC_NHAN_THUC]]
+
+---
+**Parent:** [[11_KNOWLEDGE_MOC]]

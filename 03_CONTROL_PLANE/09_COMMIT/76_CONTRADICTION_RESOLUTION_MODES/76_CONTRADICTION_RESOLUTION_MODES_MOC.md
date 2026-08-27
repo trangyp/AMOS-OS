@@ -1,11 +1,13 @@
 ---
-title: 76_CONTRADICTION_RESOLUTION_MODES MOC
+title: "76 Contradiction Resolution Modes MOC"
 type: moc
 tags: [moc, 76-contradiction-resolution-modes]
 ---
 
+# 76 Contradiction Resolution Modes — Map of Content
 
-# 76_CONTRADICTION_RESOLUTION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/76_CONTRADICTION_RESOLUTION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

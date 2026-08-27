@@ -1,11 +1,13 @@
 ---
-title: C04_REASONING MOC
+title: "C04 Reasoning MOC"
 type: moc
 tags: [moc, c04-reasoning]
 ---
 
+# C04 Reasoning — Map of Content
 
-# C04_REASONING — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C04_REASONING`
+**Files:** 21 | **Subdirectories:** 1
 
 ## Files
 
@@ -33,7 +35,7 @@ tags: [moc, c04-reasoning]
 
 ## Subdirectories
 
-- [[INDEX_C04_REASONING_CONTROL_PLANES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANES_MOC]]

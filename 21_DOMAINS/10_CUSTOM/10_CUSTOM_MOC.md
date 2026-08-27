@@ -1,11 +1,13 @@
 ---
-title: 10_CUSTOM MOC
+title: "10 Custom MOC"
 type: moc
 tags: [moc, 10-custom]
 ---
 
+# 10 Custom — Map of Content
 
-# 10_CUSTOM — Map of Content
+**Path:** `21_DOMAINS/10_CUSTOM`
+**Files:** 10 | **Subdirectories:** 1
 
 ## Files
 
@@ -22,7 +24,7 @@ tags: [moc, 10-custom]
 
 ## Subdirectories
 
-- [[INDEX_CUSTOM_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

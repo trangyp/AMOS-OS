@@ -1,11 +1,13 @@
 ---
-title: 07_EMOTION_REGULATION MOC
+title: "07 Emotion Regulation MOC"
 type: moc
 tags: [moc, 07-emotion-regulation]
 ---
 
+# 07 Emotion Regulation — Map of Content
 
-# 07_EMOTION_REGULATION — Map of Content
+**Path:** `05_COGNITIVE_ORGANISM/07_EMOTION_REGULATION`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

@@ -1,11 +1,13 @@
 ---
-title: C02_METACOGNITIVE MOC
+title: "C02 Metacognitive MOC"
 type: moc
 tags: [moc, c02-metacognitive]
 ---
 
+# C02 Metacognitive — Map of Content
 
-# C02_METACOGNITIVE — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C02_METACOGNITIVE`
+**Files:** 21 | **Subdirectories:** 1
 
 ## Files
 
@@ -33,7 +35,7 @@ tags: [moc, c02-metacognitive]
 
 ## Subdirectories
 
-- [[INDEX_C02_METACOGNITIVE_CONTROL_PLANES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANES_MOC]]

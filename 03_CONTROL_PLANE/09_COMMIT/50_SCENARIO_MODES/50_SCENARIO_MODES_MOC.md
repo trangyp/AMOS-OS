@@ -1,11 +1,13 @@
 ---
-title: 50_SCENARIO_MODES MOC
+title: "50 Scenario Modes MOC"
 type: moc
 tags: [moc, 50-scenario-modes]
 ---
 
+# 50 Scenario Modes — Map of Content
 
-# 50_SCENARIO_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/50_SCENARIO_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

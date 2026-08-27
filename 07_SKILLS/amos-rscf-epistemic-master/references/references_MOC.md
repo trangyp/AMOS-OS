@@ -1,10 +1,13 @@
 ---
-title: references MOC
+title: "References MOC"
 type: moc
 tags: [moc, references]
 ---
 
-# references — Map of Content
+# References — Map of Content
+
+**Path:** `07_SKILLS/amos-rscf-epistemic-master/references`
+**Files:** 10 | **Subdirectories:** 0
 
 ## Files
 
@@ -20,4 +23,4 @@ tags: [moc, references]
 - [[validate_rscf]]
 
 ---
-**Parent:** [[SKILL]]
+**Parent:** [[amos-rscf-epistemic-master_MOC]]

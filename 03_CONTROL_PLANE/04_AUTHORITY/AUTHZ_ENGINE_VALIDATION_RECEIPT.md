@@ -65,7 +65,7 @@ DERIVED reference implementation pending promotion.
 
 - [[00_HOME]] — universal vault hub
 - [[00_ROOT_MOC]] — AMOS OS master map
-- AUTHORITY_CONTROL_PLANE_README|AUTHORITY readme
+- [[AUTHORITY_CONTROL_PLANE_README|AUTHORITY readme]]
 - [[AMOS_RSCF_NODES]] — RSCF node index
 
 ## Reproduce

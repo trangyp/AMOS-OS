@@ -1,11 +1,13 @@
 ---
-title: 06_REASONING_MODES MOC
+title: "06 Reasoning Modes MOC"
 type: moc
 tags: [moc, 06-reasoning-modes]
 ---
 
+# 06 Reasoning Modes — Map of Content
 
-# 06_REASONING_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES`
+**Files:** 3 | **Subdirectories:** 5
 
 ## Files
 
@@ -15,11 +17,11 @@ tags: [moc, 06-reasoning-modes]
 
 ## Subdirectories
 
+- [[01_EXPLORE_MOC]] — 01_EXPLORE
+- [[02_DIAGNOSE_MOC]] — 02_DIAGNOSE
+- [[03_DESIGN_MOC]] — 03_DESIGN
+- [[04_AUDIT_MOC]] — 04_AUDIT
+- [[05_MEASURE_MOC]] — 05_MEASURE
 
 ---
 **Parent:** [[09_COMMIT_MOC]]
-- [[01_EXPLORE_MOC]]
-- [[02_DIAGNOSE_MOC]]
-- [[03_DESIGN_MOC]]
-- [[04_AUDIT_MOC]]
-- [[05_MEASURE_MOC]]

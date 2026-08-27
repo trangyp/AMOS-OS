@@ -1,11 +1,13 @@
 ---
-title: 28_ENGINEERING_MATH MOC
+title: "28 Engineering Math MOC"
 type: moc
 tags: [moc, 28-engineering-math]
 ---
 
+# 28 Engineering Math — Map of Content
 
-# 28_ENGINEERING_MATH — Map of Content
+**Path:** `21_DOMAINS/28_ENGINEERING_MATH`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 28-engineering-math]
 
 ## Subdirectories
 
-- [[INDEX_ENGINEERING_MATH_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

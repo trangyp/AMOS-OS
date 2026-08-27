@@ -1,11 +1,13 @@
 ---
-title: 04_COGNITION MOC
+title: "04 Cognition MOC"
 type: moc
 tags: [moc, 04-cognition]
 ---
 
+# 04 Cognition — Map of Content
 
-# 04_COGNITION — Map of Content
+**Path:** `05_COGNITIVE_ORGANISM/04_COGNITION`
+**Files:** 5 | **Subdirectories:** 0
 
 ## Files
 

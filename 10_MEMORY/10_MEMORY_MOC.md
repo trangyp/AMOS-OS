@@ -1,11 +1,13 @@
 ---
-title: 10_MEMORY MOC
+title: "10 Memory MOC"
 type: moc
 tags: [moc, 10-memory]
 ---
 
+# 10 Memory — Map of Content
 
-# 10_MEMORY — Map of Content
+**Path:** `10_MEMORY`
+**Files:** 2 | **Subdirectories:** 1
 
 ## Files
 
@@ -14,7 +16,7 @@ tags: [moc, 10-memory]
 
 ## Subdirectories
 
-- [[INDEX_MEMORY_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[AMOS_HOME]]

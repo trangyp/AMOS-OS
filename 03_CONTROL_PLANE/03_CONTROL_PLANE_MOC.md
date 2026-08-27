@@ -1,11 +1,13 @@
 ---
-title: 03_CONTROL_PLANE MOC
+title: "03 Control Plane MOC"
 type: moc
 tags: [moc, 03-control-plane]
 ---
 
+# 03 Control Plane — Map of Content
 
-# 03_CONTROL_PLANE — Map of Content
+**Path:** `03_CONTROL_PLANE`
+**Files:** 2 | **Subdirectories:** 13
 
 ## Files
 
@@ -14,19 +16,19 @@ tags: [moc, 03-control-plane]
 
 ## Subdirectories
 
-- [[INDEX_CONTROL_PLANE_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
+- [[01_TASK_CONTRACT_MOC]] — 01_TASK_CONTRACT
+- [[02_CAPABILITY_MOC]] — 02_CAPABILITY
+- [[03_POLICY_MOC]] — 03_POLICY
+- [[04_AUTHORITY_MOC]] — 04_AUTHORITY
+- [[05_PROVENANCE_MOC]] — 05_PROVENANCE
+- [[06_SEMANTIC_TRANSACTION_MOC]] — 06_SEMANTIC_TRANSACTION
+- [[07_OBSERVABILITY_MOC]] — 07_OBSERVABILITY
+- [[08_EFFECTS_MOC]] — 08_EFFECTS
+- [[09_COMMIT_MOC]] — 09_COMMIT
+- [[10_EXPOSURE_MOC]] — 10_EXPOSURE
+- [[11_REPLAY_MOC]] — 11_REPLAY
+- [[12_ROLLBACK_MOC]] — 12_ROLLBACK
 
 ---
 **Parent:** [[AMOS_HOME]]
-- [[01_TASK_CONTRACT_MOC]]
-- [[02_CAPABILITY_MOC]]
-- [[03_POLICY_MOC]]
-- [[04_AUTHORITY_MOC]]
-- [[05_PROVENANCE_MOC]]
-- [[06_SEMANTIC_TRANSACTION_MOC]]
-- [[07_OBSERVABILITY_MOC]]
-- [[08_EFFECTS_MOC]]
-- [[09_COMMIT_MOC]]
-- [[10_EXPOSURE_MOC]]
-- [[11_REPLAY_MOC]]
-- [[12_ROLLBACK_MOC]]

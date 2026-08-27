@@ -1,14 +1,17 @@
 ---
-title: references MOC
+title: "References MOC"
 type: moc
 tags: [moc, references]
 ---
 
-# references — Map of Content
+# References — Map of Content
+
+**Path:** `07_SKILLS/amos-execution-provenance-replay-rscf/references`
+**Files:** 1 | **Subdirectories:** 0
 
 ## Files
 
 - [[execution_provenance_spec]]
 
 ---
-**Parent:** [[SKILL]]
+**Parent:** [[amos-execution-provenance-replay-rscf_MOC]]

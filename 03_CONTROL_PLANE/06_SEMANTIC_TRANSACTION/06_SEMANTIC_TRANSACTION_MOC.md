@@ -1,11 +1,13 @@
 ---
-title: 06_SEMANTIC_TRANSACTION MOC
+title: "06 Semantic Transaction MOC"
 type: moc
 tags: [moc, 06-semantic-transaction]
 ---
 
+# 06 Semantic Transaction — Map of Content
 
-# 06_SEMANTIC_TRANSACTION — Map of Content
+**Path:** `03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION`
+**Files:** 8 | **Subdirectories:** 1
 
 ## Files
 
@@ -20,7 +22,7 @@ tags: [moc, 06-semantic-transaction]
 
 ## Subdirectories
 
-- [[INDEX_SEMANTIC_TRANSACTION_CONTROL_PLANE_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANE_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 03_CODING MOC
+title: "03 Coding MOC"
 type: moc
 tags: [moc, 03-coding]
 ---
 
+# 03 Coding — Map of Content
 
-# 03_CODING — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/03_CODING`
+**Files:** 26 | **Subdirectories:** 0
 
 ## Files
 

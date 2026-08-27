@@ -1,11 +1,13 @@
 ---
-title: 04_INFRASTRUCTURE_CANON MOC
+title: "04 Infrastructure Canon MOC"
 type: moc
 tags: [moc, 04-infrastructure-canon]
 ---
 
+# 04 Infrastructure Canon — Map of Content
 
-# 04_INFRASTRUCTURE_CANON — Map of Content
+**Path:** `01_CANON/04_INFRASTRUCTURE_CANON`
+**Files:** 42 | **Subdirectories:** 1
 
 ## Files
 
@@ -54,7 +56,7 @@ tags: [moc, 04-infrastructure-canon]
 
 ## Subdirectories
 
-- [[INDEX_INFRASTRUCTURE_CANON_CANON_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_CANON_MOC]]

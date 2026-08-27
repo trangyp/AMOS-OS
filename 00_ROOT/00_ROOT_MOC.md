@@ -1961,11 +1961,11 @@ confidence_ceiling:
 
 ## Related MOCs
 
-- COSMO_BRAIN_MOC|00 Cosmo Brain MOC — the canonical Cosmo Brain index
-- COSMO_BRAIN_BRIDGE_INDEX|Cosmo Brain Bridge Index — comprehensive bridge to external vault (8,253 entries across 20 directories)
-- KNOWLEDGE_MOC|11_KNOWLEDGE MOC — the knowledge layer index
+- [[COSMO_BRAIN_MOC|00 Cosmo Brain MOC — the canonical Cosmo Brain index]]
+- [[COSMO_BRAIN_BRIDGE_INDEX|Cosmo Brain Bridge Index — comprehensive bridge to external vault (8,253 entries across 20 directories)]]
+- [[KNOWLEDGE_MOC|11_KNOWLEDGE MOC — the knowledge layer index]]
 - arXiv QFM MOC — 66,028 arXiv preprints (68,367 entries with cross-listings; QFM + C01-C12 domain-classified; 0 unclassified)
-- COGNITIVE_MATRIX_MOC|Cognitive Matrix MOC — 1,552 cognitive matrix files (100% indexed)
+- [[COGNITIVE_MATRIX_MOC|Cognitive Matrix MOC — 1,552 cognitive matrix files (100% indexed)]]
 - [[AMOS_OBSIDIAN_LINKING_PLUGINS]] — Obsidian vault linking plugin stack
 - [[00_HOME]] — universal vault hub (00_ROOT)
 - [[00_HOME]] — root AMOS Home

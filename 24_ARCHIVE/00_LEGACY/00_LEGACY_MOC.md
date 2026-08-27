@@ -1,11 +1,13 @@
 ---
-title: 00_LEGACY MOC
+title: "00 Legacy MOC"
 type: moc
 tags: [moc, 00-legacy]
 ---
 
+# 00 Legacy — Map of Content
 
-# 00_LEGACY — Map of Content
+**Path:** `24_ARCHIVE/00_LEGACY`
+**Files:** 6 | **Subdirectories:** 1
 
 ## Files
 
@@ -18,7 +20,7 @@ tags: [moc, 00-legacy]
 
 ## Subdirectories
 
-- [[INDEX_LEGACY_ARCHIVE_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[24_ARCHIVE_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 06_WORLD_MODEL MOC
+title: "06 World Model MOC"
 type: moc
 tags: [moc, 06-world-model]
 ---
 
+# 06 World Model — Map of Content
 
-# 06_WORLD_MODEL — Map of Content
+**Path:** `05_COGNITIVE_ORGANISM/06_WORLD_MODEL`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

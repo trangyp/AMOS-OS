@@ -1,11 +1,13 @@
 ---
-title: 01_ROLES MOC
+title: "01 Roles MOC"
 type: moc
 tags: [moc, 01-roles]
 ---
 
+# 01 Roles — Map of Content
 
-# 01_ROLES — Map of Content
+**Path:** `23_OPERATING_MODEL/01_ROLES`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 01-roles]
 
 ## Subdirectories
 
-- [[INDEX_ROLES_OPERATING_MODEL_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[23_OPERATING_MODEL_MOC]]

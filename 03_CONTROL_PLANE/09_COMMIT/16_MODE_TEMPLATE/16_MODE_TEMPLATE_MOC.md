@@ -1,11 +1,13 @@
 ---
-title: 16_MODE_TEMPLATE MOC
+title: "16 Mode Template MOC"
 type: moc
 tags: [moc, 16-mode-template]
 ---
 
+# 16 Mode Template — Map of Content
 
-# 16_MODE_TEMPLATE — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/16_MODE_TEMPLATE`
+**Files:** 26 | **Subdirectories:** 0
 
 ## Files
 

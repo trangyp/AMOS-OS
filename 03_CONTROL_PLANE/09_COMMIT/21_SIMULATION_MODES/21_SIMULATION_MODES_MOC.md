@@ -1,11 +1,13 @@
 ---
-title: 21_SIMULATION_MODES MOC
+title: "21 Simulation Modes MOC"
 type: moc
 tags: [moc, 21-simulation-modes]
 ---
 
+# 21 Simulation Modes — Map of Content
 
-# 21_SIMULATION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/21_SIMULATION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

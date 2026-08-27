@@ -1,11 +1,13 @@
 ---
-title: C05_REPRESENTATION MOC
+title: "C05 Representation MOC"
 type: moc
 tags: [moc, c05-representation]
 ---
 
+# C05 Representation — Map of Content
 
-# C05_REPRESENTATION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C05_REPRESENTATION`
+**Files:** 21 | **Subdirectories:** 1
 
 ## Files
 
@@ -33,7 +35,7 @@ tags: [moc, c05-representation]
 
 ## Subdirectories
 
-- [[INDEX_C05_REPRESENTATION_CONTROL_PLANES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANES_MOC]]

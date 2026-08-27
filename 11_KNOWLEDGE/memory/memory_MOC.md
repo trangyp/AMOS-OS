@@ -1,11 +1,13 @@
 ---
-title: memory MOC
+title: "Memory MOC"
 type: moc
 tags: [moc, memory]
 ---
 
+# Memory — Map of Content
 
-# memory — Map of Content
+**Path:** `11_KNOWLEDGE/memory`
+**Files:** 6 | **Subdirectories:** 0
 
 ## Files
 
@@ -17,4 +19,4 @@ tags: [moc, memory]
 - [[WORKING_MEMORY]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

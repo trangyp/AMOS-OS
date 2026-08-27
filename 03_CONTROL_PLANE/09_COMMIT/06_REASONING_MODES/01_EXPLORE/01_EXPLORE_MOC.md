@@ -1,11 +1,13 @@
 ---
-title: 01_EXPLORE MOC
+title: "01 Explore MOC"
 type: moc
 tags: [moc, 01-explore]
 ---
 
+# 01 Explore — Map of Content
 
-# 01_EXPLORE — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/01_EXPLORE`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

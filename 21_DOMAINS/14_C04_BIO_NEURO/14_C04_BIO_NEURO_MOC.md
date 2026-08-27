@@ -1,11 +1,13 @@
 ---
-title: 14_C04_BIO_NEURO MOC
+title: "14 C04 Bio Neuro MOC"
 type: moc
 tags: [moc, 14-c04-bio-neuro]
 ---
 
+# 14 C04 Bio Neuro — Map of Content
 
-# 14_C04_BIO_NEURO — Map of Content
+**Path:** `21_DOMAINS/14_C04_BIO_NEURO`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 14-c04-bio-neuro]
 
 ## Subdirectories
 
-- [[INDEX_C04_BIO_NEURO_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 35_BUSINESS_ANALYSIS MOC
+title: "35 Business Analysis MOC"
 type: moc
 tags: [moc, 35-business-analysis]
 ---
 
+# 35 Business Analysis — Map of Content
 
-# 35_BUSINESS_ANALYSIS — Map of Content
+**Path:** `21_DOMAINS/35_BUSINESS_ANALYSIS`
+**Files:** 2 | **Subdirectories:** 1
 
 ## Files
 
@@ -14,7 +16,7 @@ tags: [moc, 35-business-analysis]
 
 ## Subdirectories
 
-- [[INDEX_BUSINESS_ANALYSIS_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

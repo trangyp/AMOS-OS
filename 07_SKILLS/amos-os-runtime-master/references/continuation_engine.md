@@ -89,8 +89,8 @@ class AMOSContinuationEngine:
                 # Fix bracket mismatches
                 ("]]]]", "]"),
                 ("]]]", "]"),
-                ("[[[[", "["),
-                ("[[[", "["),
+                ("[[[[", "["),]]
+                ("[[[", "["),]]
                 # Fix missing commas
                 (",:", ","),
                 (":,", ","),

@@ -1,11 +1,13 @@
 ---
-title: 05_POLICIES MOC
+title: "05 Policies MOC"
 type: moc
 tags: [moc, 05-policies]
 ---
 
+# 05 Policies — Map of Content
 
-# 05_POLICIES — Map of Content
+**Path:** `20_OPERATIONS/05_POLICIES`
+**Files:** 1 | **Subdirectories:** 0
 
 ## Files
 

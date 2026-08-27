@@ -1,11 +1,13 @@
 ---
-title: 07_COVERAGE MOC
+title: "07 Coverage MOC"
 type: moc
 tags: [moc, 07-coverage]
 ---
 
+# 07 Coverage — Map of Content
 
-# 07_COVERAGE — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/07_COVERAGE`
+**Files:** 6 | **Subdirectories:** 1
 
 ## Files
 
@@ -18,7 +20,7 @@ tags: [moc, 07-coverage]
 
 ## Subdirectories
 
-- [[INDEX_COVERAGE_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[25_COGNITIVE_MATRIX_MOC]]

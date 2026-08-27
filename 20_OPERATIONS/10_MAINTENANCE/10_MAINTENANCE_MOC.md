@@ -1,11 +1,13 @@
 ---
-title: 10_MAINTENANCE MOC
+title: "10 Maintenance MOC"
 type: moc
 tags: [moc, 10-maintenance]
 ---
 
+# 10 Maintenance — Map of Content
 
-# 10_MAINTENANCE — Map of Content
+**Path:** `20_OPERATIONS/10_MAINTENANCE`
+**Files:** 1 | **Subdirectories:** 0
 
 ## Files
 

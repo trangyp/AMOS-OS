@@ -1,11 +1,13 @@
 ---
-title: 45_MODES MOC
+title: "45 Modes MOC"
 type: moc
 tags: [moc, 45-modes]
 ---
 
+# 45 Modes — Map of Content
 
-# 45_MODES — Map of Content
+**Path:** `21_DOMAINS/45_MODES`
+**Files:** 2 | **Subdirectories:** 1
 
 ## Files
 
@@ -14,7 +16,7 @@ tags: [moc, 45-modes]
 
 ## Subdirectories
 
-- [[INDEX_MODES_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

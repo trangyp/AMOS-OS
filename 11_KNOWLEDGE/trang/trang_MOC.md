@@ -1,11 +1,13 @@
 ---
-title: trang MOC
+title: "Trang MOC"
 type: moc
 tags: [moc, trang]
 ---
 
+# Trang — Map of Content
 
-# trang — Map of Content
+**Path:** `11_KNOWLEDGE/trang`
+**Files:** 43 | **Subdirectories:** 0
 
 ## Files
 
@@ -54,4 +56,4 @@ tags: [moc, trang]
 - [[TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

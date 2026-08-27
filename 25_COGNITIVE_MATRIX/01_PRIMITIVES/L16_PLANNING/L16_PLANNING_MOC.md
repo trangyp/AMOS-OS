@@ -1,11 +1,13 @@
 ---
-title: L16_PLANNING MOC
+title: "L16 Planning MOC"
 type: moc
 tags: [moc, l16-planning]
 ---
 
+# L16 Planning — Map of Content
 
-# L16_PLANNING — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l16-planning]
 
 ## Subdirectories
 
-- [[INDEX_L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

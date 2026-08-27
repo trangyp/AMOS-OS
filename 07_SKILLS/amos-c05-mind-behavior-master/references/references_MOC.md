@@ -1,10 +1,13 @@
 ---
-title: references MOC
+title: "References MOC"
 type: moc
 tags: [moc, references]
 ---
 
-# references — Map of Content
+# References — Map of Content
+
+**Path:** `07_SKILLS/amos-c05-mind-behavior-master/references`
+**Files:** 55 | **Subdirectories:** 0
 
 ## Files
 
@@ -65,4 +68,4 @@ tags: [moc, references]
 - [[void_ego_dissolution_model]]
 
 ---
-**Parent:** [[SKILL]]
+**Parent:** [[amos-c05-mind-behavior-master_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 01_IDENTITY MOC
+title: "01 Identity MOC"
 type: moc
 tags: [moc, 01-identity]
 ---
 
+# 01 Identity — Map of Content
 
-# 01_IDENTITY — Map of Content
+**Path:** `05_COGNITIVE_ORGANISM/01_IDENTITY`
+**Files:** 2 | **Subdirectories:** 0
 
 ## Files
 

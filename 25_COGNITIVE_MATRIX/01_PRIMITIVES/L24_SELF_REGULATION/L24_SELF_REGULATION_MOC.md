@@ -1,11 +1,13 @@
 ---
-title: L24_SELF_REGULATION MOC
+title: "L24 Self Regulation MOC"
 type: moc
 tags: [moc, l24-self-regulation]
 ---
 
+# L24 Self Regulation — Map of Content
 
-# L24_SELF_REGULATION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l24-self-regulation]
 
 ## Subdirectories
 
-- [[INDEX_L24_SELF_REGULATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: L15_GOAL_FORMATION MOC
+title: "L15 Goal Formation MOC"
 type: moc
 tags: [moc, l15-goal-formation]
 ---
 
+# L15 Goal Formation — Map of Content
 
-# L15_GOAL_FORMATION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l15-goal-formation]
 
 ## Subdirectories
 
-- [[INDEX_L15_GOAL_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

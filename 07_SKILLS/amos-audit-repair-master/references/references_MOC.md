@@ -1,10 +1,13 @@
 ---
-title: references MOC
+title: "References MOC"
 type: moc
 tags: [moc, references]
 ---
 
-# references — Map of Content
+# References — Map of Content
+
+**Path:** `07_SKILLS/amos-audit-repair-master/references`
+**Files:** 16 | **Subdirectories:** 0
 
 ## Files
 
@@ -26,4 +29,4 @@ tags: [moc, references]
 - [[system_fixes_progress]]
 
 ---
-**Parent:** [[SKILL]]
+**Parent:** [[amos-audit-repair-master_MOC]]

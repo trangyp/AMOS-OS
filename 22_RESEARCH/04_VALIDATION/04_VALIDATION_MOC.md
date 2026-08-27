@@ -1,11 +1,13 @@
 ---
-title: 04_VALIDATION MOC
+title: "04 Validation MOC"
 type: moc
 tags: [moc, 04-validation]
 ---
 
+# 04 Validation — Map of Content
 
-# 04_VALIDATION — Map of Content
+**Path:** `22_RESEARCH/04_VALIDATION`
+**Files:** 6 | **Subdirectories:** 1
 
 ## Files
 
@@ -18,7 +20,7 @@ tags: [moc, 04-validation]
 
 ## Subdirectories
 
-- [[INDEX_VALIDATION_RESEARCH_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[22_RESEARCH_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: L08_REPRESENTATION MOC
+title: "L08 Representation MOC"
 type: moc
 tags: [moc, l08-representation]
 ---
 
+# L08 Representation — Map of Content
 
-# L08_REPRESENTATION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l08-representation]
 
 ## Subdirectories
 
-- [[INDEX_L08_REPRESENTATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

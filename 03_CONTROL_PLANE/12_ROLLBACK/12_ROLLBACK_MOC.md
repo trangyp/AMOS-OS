@@ -1,11 +1,13 @@
 ---
-title: 12_ROLLBACK MOC
+title: "12 Rollback MOC"
 type: moc
 tags: [moc, 12-rollback]
 ---
 
+# 12 Rollback — Map of Content
 
-# 12_ROLLBACK — Map of Content
+**Path:** `03_CONTROL_PLANE/12_ROLLBACK`
+**Files:** 4 | **Subdirectories:** 1
 
 ## Files
 
@@ -16,7 +18,7 @@ tags: [moc, 12-rollback]
 
 ## Subdirectories
 
-- [[INDEX_ROLLBACK_CONTROL_PLANE_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANE_MOC]]

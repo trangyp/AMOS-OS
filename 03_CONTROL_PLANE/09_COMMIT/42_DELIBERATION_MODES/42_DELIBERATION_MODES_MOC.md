@@ -1,11 +1,13 @@
 ---
-title: 42_DELIBERATION_MODES MOC
+title: "42 Deliberation Modes MOC"
 type: moc
 tags: [moc, 42-deliberation-modes]
 ---
 
+# 42 Deliberation Modes — Map of Content
 
-# 42_DELIBERATION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/42_DELIBERATION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

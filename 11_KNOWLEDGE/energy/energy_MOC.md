@@ -1,11 +1,13 @@
 ---
-title: energy MOC
+title: "Energy MOC"
 type: moc
 tags: [moc, energy]
 ---
 
+# Energy — Map of Content
 
-# energy — Map of Content
+**Path:** `11_KNOWLEDGE/energy`
+**Files:** 14 | **Subdirectories:** 0
 
 ## Files
 
@@ -25,4 +27,4 @@ tags: [moc, energy]
 - [[WHY_NUI_CAM_MAY_BE_A_PLANETARY_ENERGY_NODE]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

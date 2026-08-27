@@ -1,11 +1,13 @@
 ---
-title: L09_INFERENCE MOC
+title: "L09 Inference MOC"
 type: moc
 tags: [moc, l09-inference]
 ---
 
+# L09 Inference — Map of Content
 
-# L09_INFERENCE — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l09-inference]
 
 ## Subdirectories
 
-- [[INDEX_L09_INFERENCE_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

@@ -1,10 +1,13 @@
 ---
-title: references MOC
+title: "References MOC"
 type: moc
 tags: [moc, references]
 ---
 
-# references — Map of Content
+# References — Map of Content
+
+**Path:** `07_SKILLS/amos-agent-systems-master/references`
+**Files:** 9 | **Subdirectories:** 0
 
 ## Files
 
@@ -19,4 +22,4 @@ tags: [moc, references]
 - [[os_agent_model]]
 
 ---
-**Parent:** [[SKILL]]
+**Parent:** [[amos-agent-systems-master_MOC]]

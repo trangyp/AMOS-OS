@@ -1,11 +1,13 @@
 ---
-title: 56_PRIVACY_CONFIDENTIALITY_MODES MOC
+title: "56 Privacy Confidentiality Modes MOC"
 type: moc
 tags: [moc, 56-privacy-confidentiality-modes]
 ---
 
+# 56 Privacy Confidentiality Modes — Map of Content
 
-# 56_PRIVACY_CONFIDENTIALITY_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/56_PRIVACY_CONFIDENTIALITY_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

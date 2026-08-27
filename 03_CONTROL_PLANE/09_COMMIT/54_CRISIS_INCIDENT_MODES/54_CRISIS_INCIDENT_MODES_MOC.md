@@ -1,11 +1,13 @@
 ---
-title: 54_CRISIS_INCIDENT_MODES MOC
+title: "54 Crisis Incident Modes MOC"
 type: moc
 tags: [moc, 54-crisis-incident-modes]
 ---
 
+# 54 Crisis Incident Modes — Map of Content
 
-# 54_CRISIS_INCIDENT_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/54_CRISIS_INCIDENT_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

@@ -1,11 +1,13 @@
 ---
-title: 25_SCOPE_REGIME_MODES MOC
+title: "25 Scope Regime Modes MOC"
 type: moc
 tags: [moc, 25-scope-regime-modes]
 ---
 
+# 25 Scope Regime Modes — Map of Content
 
-# 25_SCOPE_REGIME_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/25_SCOPE_REGIME_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

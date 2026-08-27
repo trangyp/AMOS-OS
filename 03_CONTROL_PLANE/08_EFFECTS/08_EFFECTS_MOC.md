@@ -1,11 +1,13 @@
 ---
-title: 08_EFFECTS MOC
+title: "08 Effects MOC"
 type: moc
 tags: [moc, 08-effects]
 ---
 
+# 08 Effects — Map of Content
 
-# 08_EFFECTS — Map of Content
+**Path:** `03_CONTROL_PLANE/08_EFFECTS`
+**Files:** 5 | **Subdirectories:** 1
 
 ## Files
 
@@ -17,7 +19,7 @@ tags: [moc, 08-effects]
 
 ## Subdirectories
 
-- [[INDEX_EFFECTS_CONTROL_PLANE_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANE_MOC]]

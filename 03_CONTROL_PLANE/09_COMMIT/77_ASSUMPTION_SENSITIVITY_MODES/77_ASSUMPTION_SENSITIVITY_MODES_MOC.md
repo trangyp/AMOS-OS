@@ -1,11 +1,13 @@
 ---
-title: 77_ASSUMPTION_SENSITIVITY_MODES MOC
+title: "77 Assumption Sensitivity Modes MOC"
 type: moc
 tags: [moc, 77-assumption-sensitivity-modes]
 ---
 
+# 77 Assumption Sensitivity Modes — Map of Content
 
-# 77_ASSUMPTION_SENSITIVITY_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/77_ASSUMPTION_SENSITIVITY_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

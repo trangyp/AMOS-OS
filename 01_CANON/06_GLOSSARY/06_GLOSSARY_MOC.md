@@ -1,11 +1,13 @@
 ---
-title: 06_GLOSSARY MOC
+title: "06 Glossary MOC"
 type: moc
 tags: [moc, 06-glossary]
 ---
 
+# 06 Glossary — Map of Content
 
-# 06_GLOSSARY — Map of Content
+**Path:** `01_CANON/06_GLOSSARY`
+**Files:** 14 | **Subdirectories:** 1
 
 ## Files
 
@@ -26,7 +28,7 @@ tags: [moc, 06-glossary]
 
 ## Subdirectories
 
-- [[INDEX_GLOSSARY_CANON_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_CANON_MOC]]

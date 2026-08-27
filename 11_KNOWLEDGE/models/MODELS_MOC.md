@@ -1,22 +1,20 @@
 ---
-title: Models MOC
+title: "Models MOC"
 type: moc
 tags: [moc, models]
 ---
 
-
 # Models — Map of Content
 
-- [[AMOS_VISUAL_DESIGN_INTELLIGENCE_ENGINE]]
-
----
-**Root:** [[KNOWLEDGE_MOC]]
+**Path:** `11_KNOWLEDGE/models`
+**Files:** 23 | **Subdirectories:** 0
 
 ## Files
 
 - [[4B_CROSS_JOURNEY_MODEL_OFFICE_V2]]
 - [[ABSOLUTE_OMNIVERSE_MODEL]]
 - [[ACADEMIC_WRITING_MODEL]]
+- [[AMOS_VISUAL_DESIGN_INTELLIGENCE_ENGINE]]
 - [[ANH_XA_UNIFIED_MODEL_QUA_THOI_GIAN_VA_VAN_MINH]]
 - [[AUDIT_QUALITY_MODEL]]
 - [[CANON_INTEGRATION_LAYER_MODEL]]
@@ -36,3 +34,6 @@ tags: [moc, models]
 - [[TOOL_ROUTING_FAILURE_MODEL]]
 - [[VIETNAMESE_WRITING_MODEL]]
 - [[VN_OMNISTRUCTURE_MODEL]]
+
+---
+**Parent:** [[11_KNOWLEDGE_MOC]]

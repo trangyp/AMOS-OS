@@ -1,11 +1,13 @@
 ---
-title: 10_RSCF MOC
+title: "10 Rscf MOC"
 type: moc
 tags: [moc, 10-rscf]
 ---
 
+# 10 Rscf — Map of Content
 
-# 10_RSCF — Map of Content
+**Path:** `16_SCHEMAS/10_RSCF`
+**Files:** 6 | **Subdirectories:** 0
 
 ## Files
 

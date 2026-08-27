@@ -1,11 +1,13 @@
 ---
-title: 02_DEEP_ANALYSIS MOC
+title: "02 Deep Analysis MOC"
 type: moc
 tags: [moc, 02-deep-analysis]
 ---
 
+# 02 Deep Analysis — Map of Content
 
-# 02_DEEP_ANALYSIS — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS`
+**Files:** 26 | **Subdirectories:** 0
 
 ## Files
 

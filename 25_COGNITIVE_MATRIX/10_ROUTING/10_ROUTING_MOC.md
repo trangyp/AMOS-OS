@@ -1,11 +1,13 @@
 ---
-title: 10_ROUTING MOC
+title: "10 Routing MOC"
 type: moc
 tags: [moc, 10-routing]
 ---
 
+# 10 Routing — Map of Content
 
-# 10_ROUTING — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/10_ROUTING`
+**Files:** 5 | **Subdirectories:** 1
 
 ## Files
 
@@ -17,7 +19,7 @@ tags: [moc, 10-routing]
 
 ## Subdirectories
 
-- [[INDEX_ROUTING_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[25_COGNITIVE_MATRIX_MOC]]

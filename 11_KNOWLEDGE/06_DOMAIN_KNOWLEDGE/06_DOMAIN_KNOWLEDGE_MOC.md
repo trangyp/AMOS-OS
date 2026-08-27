@@ -1,11 +1,13 @@
 ---
-title: 06_DOMAIN_KNOWLEDGE MOC
+title: "06 Domain Knowledge MOC"
 type: moc
 tags: [moc, 06-domain-knowledge]
 ---
 
+# 06 Domain Knowledge — Map of Content
 
-# 06_DOMAIN_KNOWLEDGE — Map of Content
+**Path:** `11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE`
+**Files:** 10 | **Subdirectories:** 0
 
 ## Files
 
@@ -21,4 +23,4 @@ tags: [moc, 06-domain-knowledge]
 - [[UBI_SOMATIC_INTELLIGENCE]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

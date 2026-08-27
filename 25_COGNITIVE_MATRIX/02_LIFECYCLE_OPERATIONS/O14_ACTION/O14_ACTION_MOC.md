@@ -1,11 +1,13 @@
 ---
-title: O14_ACTION MOC
+title: "O14 Action MOC"
 type: moc
 tags: [moc, o14-action]
 ---
 
+# O14 Action — Map of Content
 
-# O14_ACTION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O14_ACTION`
+**Files:** 20 | **Subdirectories:** 1
 
 ## Files
 
@@ -32,7 +34,7 @@ tags: [moc, o14-action]
 
 ## Subdirectories
 
-- [[INDEX_O14_ACTION_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_LIFECYCLE_OPERATIONS_MOC]]

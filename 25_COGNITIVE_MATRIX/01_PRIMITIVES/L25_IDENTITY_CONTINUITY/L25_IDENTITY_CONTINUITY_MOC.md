@@ -1,11 +1,13 @@
 ---
-title: L25_IDENTITY_CONTINUITY MOC
+title: "L25 Identity Continuity MOC"
 type: moc
 tags: [moc, l25-identity-continuity]
 ---
 
+# L25 Identity Continuity — Map of Content
 
-# L25_IDENTITY_CONTINUITY — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L25_IDENTITY_CONTINUITY`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l25-identity-continuity]
 
 ## Subdirectories
 
-- [[INDEX_L25_IDENTITY_CONTINUITY_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

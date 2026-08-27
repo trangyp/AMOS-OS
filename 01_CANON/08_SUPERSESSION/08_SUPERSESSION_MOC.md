@@ -1,11 +1,13 @@
 ---
-title: 08_SUPERSESSION MOC
+title: "08 Supersession MOC"
 type: moc
 tags: [moc, 08-supersession]
 ---
 
+# 08 Supersession — Map of Content
 
-# 08_SUPERSESSION — Map of Content
+**Path:** `01_CANON/08_SUPERSESSION`
+**Files:** 12 | **Subdirectories:** 1
 
 ## Files
 
@@ -24,7 +26,7 @@ tags: [moc, 08-supersession]
 
 ## Subdirectories
 
-- [[INDEX_SUPERSESSION_CANON_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_CANON_MOC]]

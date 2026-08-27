@@ -1,10 +1,13 @@
 ---
-title: references MOC
+title: "References MOC"
 type: moc
 tags: [moc, references]
 ---
 
-# references — Map of Content
+# References — Map of Content
+
+**Path:** `07_SKILLS/amos-c09-org-law-policy-master/references`
+**Files:** 47 | **Subdirectories:** 0
 
 ## Files
 
@@ -57,4 +60,4 @@ tags: [moc, references]
 - [[vn_technical_legal_terms]]
 
 ---
-**Parent:** [[SKILL]]
+**Parent:** [[amos-c09-org-law-policy-master_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 42_SECTOR_VALUE_CHAIN MOC
+title: "42 Sector Value Chain MOC"
 type: moc
 tags: [moc, 42-sector-value-chain]
 ---
 
+# 42 Sector Value Chain — Map of Content
 
-# 42_SECTOR_VALUE_CHAIN — Map of Content
+**Path:** `21_DOMAINS/42_SECTOR_VALUE_CHAIN`
+**Files:** 2 | **Subdirectories:** 1
 
 ## Files
 
@@ -14,7 +16,7 @@ tags: [moc, 42-sector-value-chain]
 
 ## Subdirectories
 
-- [[INDEX_SECTOR_VALUE_CHAIN_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

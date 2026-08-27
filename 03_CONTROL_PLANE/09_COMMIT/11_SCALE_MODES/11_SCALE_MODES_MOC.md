@@ -1,11 +1,13 @@
 ---
-title: 11_SCALE_MODES MOC
+title: "11 Scale Modes MOC"
 type: moc
 tags: [moc, 11-scale-modes]
 ---
 
+# 11 Scale Modes — Map of Content
 
-# 11_SCALE_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/11_SCALE_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

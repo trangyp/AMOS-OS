@@ -1,11 +1,13 @@
 ---
-title: 05_COGNITIVE_ORGANISM MOC
+title: "05 Cognitive Organism MOC"
 type: moc
 tags: [moc, 05-cognitive-organism]
 ---
 
+# 05 Cognitive Organism — Map of Content
 
-# 05_COGNITIVE_ORGANISM — Map of Content
+**Path:** `05_COGNITIVE_ORGANISM`
+**Files:** 26 | **Subdirectories:** 8
 
 ## Files
 
@@ -38,14 +40,14 @@ tags: [moc, 05-cognitive-organism]
 
 ## Subdirectories
 
-- [[INDEX_COGNITIVE_ORGANISM_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
+- [[01_IDENTITY_MOC]] — 01_IDENTITY
+- [[04_COGNITION_MOC]] — 04_COGNITION
+- [[06_WORLD_MODEL_MOC]] — 06_WORLD_MODEL
+- [[07_EMOTION_REGULATION_MOC]] — 07_EMOTION_REGULATION
+- [[15_HOMEOSTASIS_MOC]] — 15_HOMEOSTASIS
+- [[16_REPAIR_MOC]] — 16_REPAIR
+- [[18_LIFECYCLE_MOC]] — 18_LIFECYCLE
 
 ---
 **Parent:** [[AMOS_HOME]]
-- [[01_IDENTITY_MOC]]
-- [[04_COGNITION_MOC]]
-- [[06_WORLD_MODEL_MOC]]
-- [[07_EMOTION_REGULATION_MOC]]
-- [[15_HOMEOSTASIS_MOC]]
-- [[16_REPAIR_MOC]]
-- [[18_LIFECYCLE_MOC]]

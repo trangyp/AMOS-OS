@@ -1,11 +1,13 @@
 ---
-title: O13_DECISION MOC
+title: "O13 Decision MOC"
 type: moc
 tags: [moc, o13-decision]
 ---
 
+# O13 Decision — Map of Content
 
-# O13_DECISION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O13_DECISION`
+**Files:** 20 | **Subdirectories:** 1
 
 ## Files
 
@@ -32,7 +34,7 @@ tags: [moc, o13-decision]
 
 ## Subdirectories
 
-- [[INDEX_O13_DECISION_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_LIFECYCLE_OPERATIONS_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 04_AUTHORITY MOC
+title: "04 Authority MOC"
 type: moc
 tags: [moc, 04-authority]
 ---
 
+# 04 Authority — Map of Content
 
-# 04_AUTHORITY — Map of Content
+**Path:** `03_CONTROL_PLANE/04_AUTHORITY`
+**Files:** 135 | **Subdirectories:** 1
 
 ## Files
 
@@ -147,7 +149,7 @@ tags: [moc, 04-authority]
 
 ## Subdirectories
 
-- [[INDEX_AUTHORITY_CONTROL_PLANE_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANE_MOC]]

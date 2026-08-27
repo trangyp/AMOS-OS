@@ -145,4 +145,4 @@ N=54 neurotypical, N=633 ADHD, N=240 autism, N=200 dyslexic, N=50 twice-exceptio
 - 19x19 Sparse Coupling Matri
 
 ---
-**MOC:** [[references MOC
+**MOC:** [[references_MOC]]

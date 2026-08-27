@@ -1,11 +1,13 @@
 ---
-title: L_LOW_SCALE MOC
+title: "L Low Scale MOC"
 type: moc
 tags: [moc, l-low-scale]
 ---
 
+# L Low Scale — Map of Content
 
-# L_LOW_SCALE — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE`
+**Files:** 12 | **Subdirectories:** 1
 
 ## Files
 
@@ -24,7 +26,7 @@ tags: [moc, l-low-scale]
 
 ## Subdirectories
 
-- [[INDEX_L_LOW_SCALE_SCALES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[04_SCALES_MOC]]

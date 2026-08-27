@@ -1,11 +1,13 @@
 ---
-title: security MOC
+title: "Security MOC"
 type: moc
 tags: [moc, security]
 ---
 
+# Security — Map of Content
 
-# security — Map of Content
+**Path:** `11_KNOWLEDGE/security`
+**Files:** 8 | **Subdirectories:** 0
 
 ## Files
 
@@ -19,4 +21,4 @@ tags: [moc, security]
 - [[THE_INSTITUTIONAL_DIGITAL_SECURITY_BOUND]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

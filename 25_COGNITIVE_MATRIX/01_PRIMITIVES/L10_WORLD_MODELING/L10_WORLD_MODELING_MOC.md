@@ -1,11 +1,13 @@
 ---
-title: L10_WORLD_MODELING MOC
+title: "L10 World Modeling MOC"
 type: moc
 tags: [moc, l10-world-modeling]
 ---
 
+# L10 World Modeling — Map of Content
 
-# L10_WORLD_MODELING — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l10-world-modeling]
 
 ## Subdirectories
 
-- [[INDEX_L10_WORLD_MODELING_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

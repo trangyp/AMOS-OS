@@ -1,11 +1,13 @@
 ---
-title: L26_SOCIAL_COGNITION MOC
+title: "L26 Social Cognition MOC"
 type: moc
 tags: [moc, l26-social-cognition]
 ---
 
+# L26 Social Cognition — Map of Content
 
-# L26_SOCIAL_COGNITION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L26_SOCIAL_COGNITION`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l26-social-cognition]
 
 ## Subdirectories
 
-- [[INDEX_L26_SOCIAL_COGNITION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: L02_ATTENTION MOC
+title: "L02 Attention MOC"
 type: moc
 tags: [moc, l02-attention]
 ---
 
+# L02 Attention — Map of Content
 
-# L02_ATTENTION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l02-attention]
 
 ## Subdirectories
 
-- [[INDEX_L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

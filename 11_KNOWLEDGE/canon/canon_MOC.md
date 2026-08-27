@@ -1,11 +1,13 @@
 ---
-title: canon MOC
+title: "Canon MOC"
 type: moc
 tags: [moc, canon]
 ---
 
+# Canon — Map of Content
 
-# canon — Map of Content
+**Path:** `11_KNOWLEDGE/canon`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 
@@ -14,4 +16,4 @@ tags: [moc, canon]
 - [[FULL_CANON_PRODUCT_ENCYCLOPEDIA]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

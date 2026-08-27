@@ -1,11 +1,13 @@
 ---
-title: 44_EV_INFRASTRUCTURE MOC
+title: "44 Ev Infrastructure MOC"
 type: moc
 tags: [moc, 44-ev-infrastructure]
 ---
 
+# 44 Ev Infrastructure — Map of Content
 
-# 44_EV_INFRASTRUCTURE — Map of Content
+**Path:** `21_DOMAINS/44_EV_INFRASTRUCTURE`
+**Files:** 2 | **Subdirectories:** 1
 
 ## Files
 
@@ -14,7 +16,7 @@ tags: [moc, 44-ev-infrastructure]
 
 ## Subdirectories
 
-- [[INDEX_EV_INFRASTRUCTURE_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

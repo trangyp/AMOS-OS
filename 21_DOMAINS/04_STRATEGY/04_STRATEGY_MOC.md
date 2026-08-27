@@ -1,11 +1,13 @@
 ---
-title: 04_STRATEGY MOC
+title: "04 Strategy MOC"
 type: moc
 tags: [moc, 04-strategy]
 ---
 
+# 04 Strategy — Map of Content
 
-# 04_STRATEGY — Map of Content
+**Path:** `21_DOMAINS/04_STRATEGY`
+**Files:** 9 | **Subdirectories:** 1
 
 ## Files
 
@@ -21,7 +23,7 @@ tags: [moc, 04-strategy]
 
 ## Subdirectories
 
-- [[INDEX_STRATEGY_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

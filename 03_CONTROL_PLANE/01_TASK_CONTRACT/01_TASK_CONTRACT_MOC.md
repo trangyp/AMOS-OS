@@ -1,11 +1,13 @@
 ---
-title: 01_TASK_CONTRACT MOC
+title: "01 Task Contract MOC"
 type: moc
 tags: [moc, 01-task-contract]
 ---
 
+# 01 Task Contract — Map of Content
 
-# 01_TASK_CONTRACT — Map of Content
+**Path:** `03_CONTROL_PLANE/01_TASK_CONTRACT`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 01-task-contract]
 
 ## Subdirectories
 
-- [[INDEX_TASK_CONTRACT_CONTROL_PLANE_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANE_MOC]]

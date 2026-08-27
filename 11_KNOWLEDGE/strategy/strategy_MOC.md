@@ -1,11 +1,13 @@
 ---
-title: strategy MOC
+title: "Strategy MOC"
 type: moc
 tags: [moc, strategy]
 ---
 
+# Strategy — Map of Content
 
-# strategy — Map of Content
+**Path:** `11_KNOWLEDGE/strategy`
+**Files:** 9 | **Subdirectories:** 0
 
 ## Files
 
@@ -20,4 +22,4 @@ tags: [moc, strategy]
 - [[TOP_TIER_STRATEGIC_PARTNERS_LIST]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

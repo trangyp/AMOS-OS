@@ -1,11 +1,13 @@
 ---
-title: 33_INTERACTION_EXPRESSION_MODES MOC
+title: "33 Interaction Expression Modes MOC"
 type: moc
 tags: [moc, 33-interaction-expression-modes]
 ---
 
+# 33 Interaction Expression Modes — Map of Content
 
-# 33_INTERACTION_EXPRESSION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/33_INTERACTION_EXPRESSION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

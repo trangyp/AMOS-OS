@@ -1,11 +1,13 @@
 ---
-title: L18_ACTION MOC
+title: "L18 Action MOC"
 type: moc
 tags: [moc, l18-action]
 ---
 
+# L18 Action — Map of Content
 
-# L18_ACTION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L18_ACTION`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l18-action]
 
 ## Subdirectories
 
-- [[INDEX_L18_ACTION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

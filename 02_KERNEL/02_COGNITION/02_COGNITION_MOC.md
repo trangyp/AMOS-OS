@@ -1,11 +1,13 @@
 ---
-title: 02_COGNITION MOC
+title: "02 Cognition MOC"
 type: moc
 tags: [moc, 02-cognition]
 ---
 
+# 02 Cognition — Map of Content
 
-# 02_COGNITION — Map of Content
+**Path:** `02_KERNEL/02_COGNITION`
+**Files:** 15 | **Subdirectories:** 1
 
 ## Files
 
@@ -27,7 +29,7 @@ tags: [moc, 02-cognition]
 
 ## Subdirectories
 
-- [[INDEX_COGNITION_KERNEL_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_KERNEL_MOC]]

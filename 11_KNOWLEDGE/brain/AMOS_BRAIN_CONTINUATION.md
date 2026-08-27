@@ -196,8 +196,8 @@ kernel = get_kernel()
                 # Fix bracket mismatches
                 ("]]]]", "]"),
                 ("]]]", "]"),
-                ("[[[[", "["),
-                ("[[[", "["),
+                ("[[[[", "["),]]
+                ("[[[", "["),]]
             ]
             
             modified = False

@@ -1,11 +1,13 @@
 ---
-title: L06_WORKING_STATE MOC
+title: "L06 Working State MOC"
 type: moc
 tags: [moc, l06-working-state]
 ---
 
+# L06 Working State — Map of Content
 
-# L06_WORKING_STATE — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l06-working-state]
 
 ## Subdirectories
 
-- [[INDEX_L06_WORKING_STATE_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

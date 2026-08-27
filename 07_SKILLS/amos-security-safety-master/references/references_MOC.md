@@ -1,10 +1,13 @@
 ---
-title: references MOC
+title: "References MOC"
 type: moc
 tags: [moc, references]
 ---
 
-# references — Map of Content
+# References — Map of Content
+
+**Path:** `07_SKILLS/amos-security-safety-master/references`
+**Files:** 28 | **Subdirectories:** 0
 
 ## Files
 
@@ -38,4 +41,4 @@ tags: [moc, references]
 - [[web_cache_poisoning]]
 
 ---
-**Parent:** [[SKILL]]
+**Parent:** [[amos-security-safety-master_MOC]]

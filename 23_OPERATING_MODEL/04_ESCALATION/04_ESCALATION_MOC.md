@@ -1,11 +1,13 @@
 ---
-title: 04_ESCALATION MOC
+title: "04 Escalation MOC"
 type: moc
 tags: [moc, 04-escalation]
 ---
 
+# 04 Escalation — Map of Content
 
-# 04_ESCALATION — Map of Content
+**Path:** `23_OPERATING_MODEL/04_ESCALATION`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 04-escalation]
 
 ## Subdirectories
 
-- [[INDEX_ESCALATION_OPERATING_MODEL_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[23_OPERATING_MODEL_MOC]]

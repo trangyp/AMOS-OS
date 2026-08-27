@@ -1,11 +1,13 @@
 ---
-title: 05_SERVICE_LEVELS MOC
+title: "05 Service Levels MOC"
 type: moc
 tags: [moc, 05-service-levels]
 ---
 
+# 05 Service Levels — Map of Content
 
-# 05_SERVICE_LEVELS — Map of Content
+**Path:** `23_OPERATING_MODEL/05_SERVICE_LEVELS`
+**Files:** 3 | **Subdirectories:** 1
 
 ## Files
 
@@ -15,7 +17,7 @@ tags: [moc, 05-service-levels]
 
 ## Subdirectories
 
-- [[INDEX_SERVICE_LEVELS_OPERATING_MODEL_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[23_OPERATING_MODEL_MOC]]

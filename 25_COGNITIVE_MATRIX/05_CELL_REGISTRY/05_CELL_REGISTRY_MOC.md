@@ -1,11 +1,13 @@
 ---
-title: 05_CELL_REGISTRY MOC
+title: "05 Cell Registry MOC"
 type: moc
 tags: [moc, 05-cell-registry]
 ---
 
+# 05 Cell Registry — Map of Content
 
-# 05_CELL_REGISTRY — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/05_CELL_REGISTRY`
+**Files:** 4 | **Subdirectories:** 1
 
 ## Files
 
@@ -16,7 +18,7 @@ tags: [moc, 05-cell-registry]
 
 ## Subdirectories
 
-- [[INDEX_CELL_REGISTRY_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[25_COGNITIVE_MATRIX_MOC]]

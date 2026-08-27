@@ -1,11 +1,13 @@
 ---
-title: H_HIGH_SCALE MOC
+title: "H High Scale MOC"
 type: moc
 tags: [moc, h-high-scale]
 ---
 
+# H High Scale — Map of Content
 
-# H_HIGH_SCALE — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE`
+**Files:** 12 | **Subdirectories:** 1
 
 ## Files
 
@@ -24,7 +26,7 @@ tags: [moc, h-high-scale]
 
 ## Subdirectories
 
-- [[INDEX_H_HIGH_SCALE_SCALES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[04_SCALES_MOC]]

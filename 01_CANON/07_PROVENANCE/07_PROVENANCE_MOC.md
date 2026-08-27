@@ -1,11 +1,13 @@
 ---
-title: 07_PROVENANCE MOC
+title: "07 Provenance MOC"
 type: moc
 tags: [moc, 07-provenance]
 ---
 
+# 07 Provenance — Map of Content
 
-# 07_PROVENANCE — Map of Content
+**Path:** `01_CANON/07_PROVENANCE`
+**Files:** 30 | **Subdirectories:** 1
 
 ## Files
 
@@ -42,7 +44,7 @@ tags: [moc, 07-provenance]
 
 ## Subdirectories
 
-- [[INDEX_PROVENANCE_CANON_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_CANON_MOC]]

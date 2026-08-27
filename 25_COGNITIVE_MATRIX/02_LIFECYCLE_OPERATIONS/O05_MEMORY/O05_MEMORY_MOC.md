@@ -1,11 +1,13 @@
 ---
-title: O05_MEMORY MOC
+title: "O05 Memory MOC"
 type: moc
 tags: [moc, o05-memory]
 ---
 
+# O05 Memory — Map of Content
 
-# O05_MEMORY — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY`
+**Files:** 20 | **Subdirectories:** 1
 
 ## Files
 
@@ -32,7 +34,7 @@ tags: [moc, o05-memory]
 
 ## Subdirectories
 
-- [[INDEX_O05_MEMORY_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_LIFECYCLE_OPERATIONS_MOC]]

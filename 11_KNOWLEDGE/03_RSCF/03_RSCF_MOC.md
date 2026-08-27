@@ -1,11 +1,13 @@
 ---
-title: 03_RSCF MOC
+title: "03 Rscf MOC"
 type: moc
 tags: [moc, 03-rscf]
 ---
 
+# 03 Rscf — Map of Content
 
-# 03_RSCF — Map of Content
+**Path:** `11_KNOWLEDGE/03_RSCF`
+**Files:** 9 | **Subdirectories:** 0
 
 ## Files
 
@@ -20,4 +22,4 @@ tags: [moc, 03-rscf]
 - [[UNIVERSE_RSCF_INDEX]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

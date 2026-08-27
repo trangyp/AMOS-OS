@@ -1,11 +1,13 @@
 ---
-title: 01_BOOT MOC
+title: "01 Boot MOC"
 type: moc
 tags: [moc, 01-boot]
 ---
 
+# 01 Boot — Map of Content
 
-# 01_BOOT — Map of Content
+**Path:** `04_RUNTIME/01_BOOT`
+**Files:** 4 | **Subdirectories:** 0
 
 ## Files
 

@@ -1,11 +1,13 @@
 ---
-title: 08_STRUCTURAL_GAPS MOC
+title: "08 Structural Gaps MOC"
 type: moc
 tags: [moc, 08-structural-gaps]
 ---
 
+# 08 Structural Gaps — Map of Content
 
-# 08_STRUCTURAL_GAPS — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS`
+**Files:** 5 | **Subdirectories:** 1
 
 ## Files
 
@@ -17,7 +19,7 @@ tags: [moc, 08-structural-gaps]
 
 ## Subdirectories
 
-- [[INDEX_STRUCTURAL_GAPS_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[25_COGNITIVE_MATRIX_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 11_VALIDATION MOC
+title: "11 Validation MOC"
 type: moc
 tags: [moc, 11-validation]
 ---
 
+# 11 Validation — Map of Content
 
-# 11_VALIDATION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/11_VALIDATION`
+**Files:** 7 | **Subdirectories:** 1
 
 ## Files
 
@@ -19,7 +21,7 @@ tags: [moc, 11-validation]
 
 ## Subdirectories
 
-- [[INDEX_VALIDATION_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[25_COGNITIVE_MATRIX_MOC]]

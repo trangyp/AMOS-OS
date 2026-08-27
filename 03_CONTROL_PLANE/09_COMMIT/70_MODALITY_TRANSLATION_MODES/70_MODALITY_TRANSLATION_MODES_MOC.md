@@ -1,11 +1,13 @@
 ---
-title: 70_MODALITY_TRANSLATION_MODES MOC
+title: "70 Modality Translation Modes MOC"
 type: moc
 tags: [moc, 70-modality-translation-modes]
 ---
 
+# 70 Modality Translation Modes — Map of Content
 
-# 70_MODALITY_TRANSLATION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/70_MODALITY_TRANSLATION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

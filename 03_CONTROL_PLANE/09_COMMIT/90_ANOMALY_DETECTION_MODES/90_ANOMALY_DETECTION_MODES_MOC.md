@@ -1,11 +1,13 @@
 ---
-title: 90_ANOMALY_DETECTION_MODES MOC
+title: "90 Anomaly Detection Modes MOC"
 type: moc
 tags: [moc, 90-anomaly-detection-modes]
 ---
 
+# 90 Anomaly Detection Modes — Map of Content
 
-# 90_ANOMALY_DETECTION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/90_ANOMALY_DETECTION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

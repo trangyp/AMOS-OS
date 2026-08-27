@@ -1,11 +1,13 @@
 ---
-title: 22_RESEARCH MOC
+title: "22 Research MOC"
 type: moc
 tags: [moc, 22-research]
 ---
 
+# 22 Research — Map of Content
 
-# 22_RESEARCH — Map of Content
+**Path:** `22_RESEARCH`
+**Files:** 2 | **Subdirectories:** 6
 
 ## Files
 
@@ -14,12 +16,12 @@ tags: [moc, 22-research]
 
 ## Subdirectories
 
-- [[INDEX_RESEARCH_RESEARCH_CONTRACT]]
+- [[00_INDEX_MOC]] — 00_INDEX
+- [[01_PAPERS_MOC]] — 01_PAPERS
+- [[02_EXPERIMENTS_MOC]] — 02_EXPERIMENTS
+- [[03_COMPETING_MODELS_MOC]] — 03_COMPETING_MODELS
+- [[04_VALIDATION_MOC]] — 04_VALIDATION
+- [[05_BENCHMARKS_MOC]] — 05_BENCHMARKS
 
 ---
 **Parent:** [[AMOS_HOME]]
-- [[01_PAPERS_MOC]]
-- [[02_EXPERIMENTS_MOC]]
-- [[03_COMPETING_MODELS_MOC]]
-- [[04_VALIDATION_MOC]]
-- [[05_BENCHMARKS_MOC]]

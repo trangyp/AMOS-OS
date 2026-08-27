@@ -1,11 +1,13 @@
 ---
-title: 01_FOUNDATION MOC
+title: "01 Foundation MOC"
 type: moc
 tags: [moc, 01-foundation]
 ---
 
+# 01 Foundation — Map of Content
 
-# 01_FOUNDATION — Map of Content
+**Path:** `13_MODELS/01_FOUNDATION`
+**Files:** 5 | **Subdirectories:** 0
 
 ## Files
 

@@ -1,11 +1,13 @@
 ---
-title: C01_GOVERNANCE MOC
+title: "C01 Governance MOC"
 type: moc
 tags: [moc, c01-governance]
 ---
 
+# C01 Governance — Map of Content
 
-# C01_GOVERNANCE — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE`
+**Files:** 21 | **Subdirectories:** 1
 
 ## Files
 
@@ -33,7 +35,7 @@ tags: [moc, c01-governance]
 
 ## Subdirectories
 
-- [[INDEX_C01_GOVERNANCE_CONTROL_PLANES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANES_MOC]]

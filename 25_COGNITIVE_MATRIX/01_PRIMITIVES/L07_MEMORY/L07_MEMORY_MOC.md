@@ -1,11 +1,13 @@
 ---
-title: L07_MEMORY MOC
+title: "L07 Memory MOC"
 type: moc
 tags: [moc, l07-memory]
 ---
 
+# L07 Memory — Map of Content
 
-# L07_MEMORY — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l07-memory]
 
 ## Subdirectories
 
-- [[INDEX_L07_MEMORY_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

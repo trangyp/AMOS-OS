@@ -1,11 +1,13 @@
 ---
-title: 61_REFLECTION_METACOGNITION_MODES MOC
+title: "61 Reflection Metacognition Modes MOC"
 type: moc
 tags: [moc, 61-reflection-metacognition-modes]
 ---
 
+# 61 Reflection Metacognition Modes — Map of Content
 
-# 61_REFLECTION_METACOGNITION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/61_REFLECTION_METACOGNITION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

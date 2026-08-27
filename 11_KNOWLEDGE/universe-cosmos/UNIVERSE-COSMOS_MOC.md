@@ -1,16 +1,13 @@
 ---
-title: Universe-Cosmos MOC
+title: "Universe-Cosmos MOC"
 type: moc
 tags: [moc, universe-cosmos]
 ---
 
-
 # Universe-Cosmos — Map of Content
 
-- [[COSMO_OBSIDIAN_MEMORY]]
-
----
-**Root:** [[KNOWLEDGE_MOC]]
+**Path:** `11_KNOWLEDGE/universe-cosmos`
+**Files:** 11 | **Subdirectories:** 0
 
 ## Files
 
@@ -18,9 +15,13 @@ tags: [moc, universe-cosmos]
 - [[ABSOLUTE_OMNIVERSE_U_UNIVERSE_PACKS_UNIVERSE_PACKS]]
 - [[C03_PHYSICS_COSMOS]]
 - [[C03_PHYSICS_COSMOS_SUPER_X3000]]
+- [[COSMO_OBSIDIAN_MEMORY]]
 - [[PHYSICS_COSMOS_MODEL]]
 - [[THE_MAX_POWER_UNIVERSE_OS_STRUCTURE]]
 - [[UNIVERSE]]
 - [[UNIVERSE_OS_CONTENT_PACK_ALL_COMPRESSED_UCONTENT]]
 - [[UNIVERSE_OS_CONTENT_PACK_ALL_UCONTENT]]
 - [[UNIVERSE_TOTAL_CANON_UTC]]
+
+---
+**Parent:** [[11_KNOWLEDGE_MOC]]

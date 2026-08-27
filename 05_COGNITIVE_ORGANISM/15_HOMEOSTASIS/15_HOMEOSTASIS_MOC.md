@@ -1,11 +1,13 @@
 ---
-title: 15_HOMEOSTASIS MOC
+title: "15 Homeostasis MOC"
 type: moc
 tags: [moc, 15-homeostasis]
 ---
 
+# 15 Homeostasis — Map of Content
 
-# 15_HOMEOSTASIS — Map of Content
+**Path:** `05_COGNITIVE_ORGANISM/15_HOMEOSTASIS`
+**Files:** 4 | **Subdirectories:** 0
 
 ## Files
 

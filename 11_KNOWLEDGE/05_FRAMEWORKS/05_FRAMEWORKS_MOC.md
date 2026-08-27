@@ -1,11 +1,13 @@
 ---
-title: 05_FRAMEWORKS MOC
+title: "05 Frameworks MOC"
 type: moc
 tags: [moc, 05-frameworks]
 ---
 
+# 05 Frameworks — Map of Content
 
-# 05_FRAMEWORKS — Map of Content
+**Path:** `11_KNOWLEDGE/05_FRAMEWORKS`
+**Files:** 99 | **Subdirectories:** 0
 
 ## Files
 
@@ -110,4 +112,4 @@ tags: [moc, 05-frameworks]
 - [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE_MOC]]

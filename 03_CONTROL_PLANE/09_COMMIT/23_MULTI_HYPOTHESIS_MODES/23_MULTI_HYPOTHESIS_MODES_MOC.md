@@ -1,11 +1,13 @@
 ---
-title: 23_MULTI_HYPOTHESIS_MODES MOC
+title: "23 Multi Hypothesis Modes MOC"
 type: moc
 tags: [moc, 23-multi-hypothesis-modes]
 ---
 
+# 23 Multi Hypothesis Modes — Map of Content
 
-# 23_MULTI_HYPOTHESIS_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/23_MULTI_HYPOTHESIS_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

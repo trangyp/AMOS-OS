@@ -1,11 +1,13 @@
 ---
-title: L23_METACOGNITION MOC
+title: "L23 Metacognition MOC"
 type: moc
 tags: [moc, l23-metacognition]
 ---
 
+# L23 Metacognition — Map of Content
 
-# L23_METACOGNITION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l23-metacognition]
 
 ## Subdirectories
 
-- [[INDEX_L23_METACOGNITION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

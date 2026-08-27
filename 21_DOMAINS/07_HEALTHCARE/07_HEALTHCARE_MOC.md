@@ -1,11 +1,13 @@
 ---
-title: 07_HEALTHCARE MOC
+title: "07 Healthcare MOC"
 type: moc
 tags: [moc, 07-healthcare]
 ---
 
+# 07 Healthcare — Map of Content
 
-# 07_HEALTHCARE — Map of Content
+**Path:** `21_DOMAINS/07_HEALTHCARE`
+**Files:** 8 | **Subdirectories:** 1
 
 ## Files
 
@@ -20,7 +22,7 @@ tags: [moc, 07-healthcare]
 
 ## Subdirectories
 
-- [[INDEX_HEALTHCARE_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

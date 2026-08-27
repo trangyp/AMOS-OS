@@ -1,11 +1,13 @@
 ---
-title: 89_CAUSAL_INTERVENTION_MODES MOC
+title: "89 Causal Intervention Modes MOC"
 type: moc
 tags: [moc, 89-causal-intervention-modes]
 ---
 
+# 89 Causal Intervention Modes — Map of Content
 
-# 89_CAUSAL_INTERVENTION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/89_CAUSAL_INTERVENTION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

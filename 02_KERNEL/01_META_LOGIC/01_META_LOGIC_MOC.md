@@ -1,11 +1,13 @@
 ---
-title: 01_META_LOGIC MOC
+title: "01 Meta Logic MOC"
 type: moc
 tags: [moc, 01-meta-logic]
 ---
 
+# 01 Meta Logic — Map of Content
 
-# 01_META_LOGIC — Map of Content
+**Path:** `02_KERNEL/01_META_LOGIC`
+**Files:** 13 | **Subdirectories:** 1
 
 ## Files
 
@@ -25,7 +27,7 @@ tags: [moc, 01-meta-logic]
 
 ## Subdirectories
 
-- [[INDEX_META_LOGIC_KERNEL_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_KERNEL_MOC]]

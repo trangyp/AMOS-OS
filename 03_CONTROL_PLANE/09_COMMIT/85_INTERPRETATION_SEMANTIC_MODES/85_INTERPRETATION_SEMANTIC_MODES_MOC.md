@@ -1,11 +1,13 @@
 ---
-title: 85_INTERPRETATION_SEMANTIC_MODES MOC
+title: "85 Interpretation Semantic Modes MOC"
 type: moc
 tags: [moc, 85-interpretation-semantic-modes]
 ---
 
+# 85 Interpretation Semantic Modes — Map of Content
 
-# 85_INTERPRETATION_SEMANTIC_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/85_INTERPRETATION_SEMANTIC_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

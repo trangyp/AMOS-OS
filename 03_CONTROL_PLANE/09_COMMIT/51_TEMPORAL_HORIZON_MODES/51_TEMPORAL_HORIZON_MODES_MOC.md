@@ -1,11 +1,13 @@
 ---
-title: 51_TEMPORAL_HORIZON_MODES MOC
+title: "51 Temporal Horizon Modes MOC"
 type: moc
 tags: [moc, 51-temporal-horizon-modes]
 ---
 
+# 51 Temporal Horizon Modes — Map of Content
 
-# 51_TEMPORAL_HORIZON_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/51_TEMPORAL_HORIZON_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

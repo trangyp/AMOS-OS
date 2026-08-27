@@ -1,11 +1,13 @@
 ---
-title: 12_WORLD_MODEL_MODES MOC
+title: "12 World Model Modes MOC"
 type: moc
 tags: [moc, 12-world-model-modes]
 ---
 
+# 12 World Model Modes — Map of Content
 
-# 12_WORLD_MODEL_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/12_WORLD_MODEL_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

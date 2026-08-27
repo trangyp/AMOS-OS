@@ -1,11 +1,13 @@
 ---
-title: 84_FRESHNESS_REVALIDATION_MODES MOC
+title: "84 Freshness Revalidation Modes MOC"
 type: moc
 tags: [moc, 84-freshness-revalidation-modes]
 ---
 
+# 84 Freshness Revalidation Modes — Map of Content
 
-# 84_FRESHNESS_REVALIDATION_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/84_FRESHNESS_REVALIDATION_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

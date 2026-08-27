@@ -1,11 +1,13 @@
 ---
-title: 02_ROUTER MOC
+title: "02 Router MOC"
 type: moc
 tags: [moc, 02-router]
 ---
 
+# 02 Router — Map of Content
 
-# 02_ROUTER — Map of Content
+**Path:** `04_RUNTIME/02_ROUTER`
+**Files:** 4 | **Subdirectories:** 0
 
 ## Files
 

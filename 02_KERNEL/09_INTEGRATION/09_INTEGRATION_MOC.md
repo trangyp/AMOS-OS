@@ -1,11 +1,13 @@
 ---
-title: 09_INTEGRATION MOC
+title: "09 Integration MOC"
 type: moc
 tags: [moc, 09-integration]
 ---
 
+# 09 Integration — Map of Content
 
-# 09_INTEGRATION — Map of Content
+**Path:** `02_KERNEL/09_INTEGRATION`
+**Files:** 16 | **Subdirectories:** 1
 
 ## Files
 
@@ -28,7 +30,7 @@ tags: [moc, 09-integration]
 
 ## Subdirectories
 
-- [[INDEX_INTEGRATION_KERNEL_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_KERNEL_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 46_CREATIVE_GENERATIVE_MODES MOC
+title: "46 Creative Generative Modes MOC"
 type: moc
 tags: [moc, 46-creative-generative-modes]
 ---
 
+# 46 Creative Generative Modes — Map of Content
 
-# 46_CREATIVE_GENERATIVE_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/46_CREATIVE_GENERATIVE_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

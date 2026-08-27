@@ -1,11 +1,13 @@
 ---
-title: 98_DELEGATION_ASSIGNMENT_MODES MOC
+title: "98 Delegation Assignment Modes MOC"
 type: moc
 tags: [moc, 98-delegation-assignment-modes]
 ---
 
+# 98 Delegation Assignment Modes — Map of Content
 
-# 98_DELEGATION_ASSIGNMENT_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/98_DELEGATION_ASSIGNMENT_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

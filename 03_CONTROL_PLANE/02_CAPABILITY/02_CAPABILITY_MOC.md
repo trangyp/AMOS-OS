@@ -1,11 +1,13 @@
 ---
-title: 02_CAPABILITY MOC
+title: "02 Capability MOC"
 type: moc
 tags: [moc, 02-capability]
 ---
 
+# 02 Capability — Map of Content
 
-# 02_CAPABILITY — Map of Content
+**Path:** `03_CONTROL_PLANE/02_CAPABILITY`
+**Files:** 4 | **Subdirectories:** 1
 
 ## Files
 
@@ -16,7 +18,7 @@ tags: [moc, 02-capability]
 
 ## Subdirectories
 
-- [[INDEX_CAPABILITY_CONTROL_PLANE_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[03_CONTROL_PLANE_MOC]]

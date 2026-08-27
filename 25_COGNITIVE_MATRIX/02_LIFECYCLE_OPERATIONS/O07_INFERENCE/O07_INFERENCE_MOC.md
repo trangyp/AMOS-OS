@@ -1,11 +1,13 @@
 ---
-title: O07_INFERENCE MOC
+title: "O07 Inference MOC"
 type: moc
 tags: [moc, o07-inference]
 ---
 
+# O07 Inference — Map of Content
 
-# O07_INFERENCE — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O07_INFERENCE`
+**Files:** 20 | **Subdirectories:** 1
 
 ## Files
 
@@ -32,7 +34,7 @@ tags: [moc, o07-inference]
 
 ## Subdirectories
 
-- [[INDEX_O07_INFERENCE_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[02_LIFECYCLE_OPERATIONS_MOC]]

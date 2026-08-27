@@ -1,0 +1,21 @@
+---
+title: "Amos-Tensor-Train-Sketching-Rscf-Engine MOC"
+type: moc
+tags: [moc, amos-tensor-train-sketching-rscf-engine]
+---
+
+# Amos-Tensor-Train-Sketching-Rscf-Engine — Map of Content
+
+**Path:** `07_SKILLS/amos-tensor-train-sketching-rscf-engine`
+**Files:** 1 | **Subdirectories:** 1
+
+## Files
+
+- [[SKILL]]
+
+## Subdirectories
+
+- [[references_MOC]] — references
+
+---
+**Parent:** [[07_SKILLS_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: L22_CONSOLIDATION MOC
+title: "L22 Consolidation MOC"
 type: moc
 tags: [moc, l22-consolidation]
 ---
 
+# L22 Consolidation — Map of Content
 
-# L22_CONSOLIDATION — Map of Content
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L22_CONSOLIDATION`
+**Files:** 23 | **Subdirectories:** 1
 
 ## Files
 
@@ -35,7 +37,7 @@ tags: [moc, l22-consolidation]
 
 ## Subdirectories
 
-- [[INDEX_L22_CONSOLIDATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[01_PRIMITIVES_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 36_MARKET_INTELLIGENCE MOC
+title: "36 Market Intelligence MOC"
 type: moc
 tags: [moc, 36-market-intelligence]
 ---
 
+# 36 Market Intelligence — Map of Content
 
-# 36_MARKET_INTELLIGENCE — Map of Content
+**Path:** `21_DOMAINS/36_MARKET_INTELLIGENCE`
+**Files:** 2 | **Subdirectories:** 1
 
 ## Files
 
@@ -14,7 +16,7 @@ tags: [moc, 36-market-intelligence]
 
 ## Subdirectories
 
-- [[INDEX_MARKET_INTELLIGENCE_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

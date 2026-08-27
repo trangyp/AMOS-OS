@@ -1,11 +1,13 @@
 ---
-title: 01_BASELINE MOC
+title: "01 Baseline MOC"
 type: moc
 tags: [moc, 01-baseline]
 ---
 
+# 01 Baseline — Map of Content
 
-# 01_BASELINE — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/01_BASELINE`
+**Files:** 26 | **Subdirectories:** 0
 
 ## Files
 

@@ -1,11 +1,13 @@
 ---
-title: 24_CAUSAL_MODES MOC
+title: "24 Causal Modes MOC"
 type: moc
 tags: [moc, 24-causal-modes]
 ---
 
+# 24 Causal Modes — Map of Content
 
-# 24_CAUSAL_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/24_CAUSAL_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 

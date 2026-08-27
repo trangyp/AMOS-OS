@@ -1,10 +1,13 @@
 ---
-title: references MOC
+title: "References MOC"
 type: moc
 tags: [moc, references]
 ---
 
-# references — Map of Content
+# References — Map of Content
+
+**Path:** `07_SKILLS/amos-forex-unified-os/references`
+**Files:** 2 | **Subdirectories:** 0
 
 ## Files
 
@@ -12,4 +15,4 @@ tags: [moc, references]
 - [[vault_domain_knowledge]]
 
 ---
-**Parent:** [[SKILL]]
+**Parent:** [[amos-forex-unified-os_MOC]]

@@ -2266,9 +2266,9 @@ This content may replace the placeholder **at the candidate-specification level*
 ---
 
 ## Related
-- GENERATORS_MAP|Generators Map
-- GENERATOR_CONTRACT|Generator Contract
-- GENERATOR_ADMISSION|Generator Admission
+- [[GENERATORS_MAP|Generators Map]]
+- [[GENERATOR_CONTRACT|Generator Contract]]
+- [[GENERATOR_ADMISSION|Generator Admission]]
 - 00_ROOT_MOC|AMOS MOC
 
 ---

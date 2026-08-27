@@ -1,11 +1,13 @@
 ---
-title: 02_RESEARCH MOC
+title: "02 Research MOC"
 type: moc
 tags: [moc, 02-research]
 ---
 
+# 02 Research — Map of Content
 
-# 02_RESEARCH — Map of Content
+**Path:** `21_DOMAINS/02_RESEARCH`
+**Files:** 8 | **Subdirectories:** 1
 
 ## Files
 
@@ -20,7 +22,7 @@ tags: [moc, 02-research]
 
 ## Subdirectories
 
-- [[INDEX_RESEARCH_DOMAINS_README]]
+- [[00_INDEX_MOC]] — 00_INDEX
 
 ---
 **Parent:** [[21_DOMAINS_MOC]]

@@ -1,11 +1,13 @@
 ---
-title: 14_COMPOSITE_MODES MOC
+title: "14 Composite Modes MOC"
 type: moc
 tags: [moc, 14-composite-modes]
 ---
 
+# 14 Composite Modes — Map of Content
 
-# 14_COMPOSITE_MODES — Map of Content
+**Path:** `03_CONTROL_PLANE/09_COMMIT/14_COMPOSITE_MODES`
+**Files:** 3 | **Subdirectories:** 0
 
 ## Files
 
