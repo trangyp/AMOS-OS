@@ -1,4 +1,3 @@
-````yaml
 ---
 title: L17 RSCF
 type: rscf
@@ -77,7 +76,6 @@ PROPOSED_SPECIFICATION
         │
         ▼
     CONDITIONAL
-````
 
 until authoritative RSCF canon validates, modifies, supersedes, or rejects these semantics.
 
@@ -5229,6 +5227,3 @@ VERIFIED EMPIRICAL REALITY
 ```
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
-
-```
-```
