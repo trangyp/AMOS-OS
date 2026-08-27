@@ -354,7 +354,7 @@ tags: [moc, 08-workflows]
 
 ## Workflow Directories
 
-- [[law-stack-enforcement-pipeline]]
+- law-stack-enforcement-pipeline
 
 ---
 **Parent:** [[AMOS_HOME]]
