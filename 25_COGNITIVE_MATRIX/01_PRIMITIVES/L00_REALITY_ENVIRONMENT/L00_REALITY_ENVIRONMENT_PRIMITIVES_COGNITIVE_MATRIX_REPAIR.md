@@ -1,19 +1,8 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Repair"
 type: cognitive
-aliases: "- "AMOS Reality Environment Repair"
-  - "L00 Reality Repair"
-  - "AMOS Reality Recovery Architecture..."
-canon-type: architecture
-rscf-class: MODEL
-rscf-state: conditional
-amos-layer: L00_REALITY_ENVIRONMENT
-architecture-role: reality-grounded-repair-and-recovery
-origin-architect: "Trang Phan"
-status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
 tags: [amos, reality-environment, repair, recovery, rollback, invalidation, quarantine, provenance, hml, control-plane, rscf, resilience]
 ---
-
 
 # L00_REALITY_ENVIRONMENT — Repair
 

@@ -1,36 +1,8 @@
 ---
-title: CARE AS INFRASTRUCTURE
+title: "CARE AS INFRASTRUCTURE"
 type: infrastructure
-
-canon-group: human-system
-canon-type: architecture
-rscf-state: source-claim
-topic: care-as-infrastructure
-status: standalone-architecture
-version: v1.0
-source-title: "21st Century Human-Centered Design: Trust, Empathy, and Care as Infrastructure — and Technology Incapable of Harm"
 tags: [care-as-infrastructure, misc, reference]
-- human-centered-design
-- harm-proofing
-- trust
-- empathy
-- care
-- safety-engineering
-- governance
-- escalation
-- audit
-- reversibility
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/P-repair
-- rscf/S-state
-- rscf/T-topology
-- rscf/type-model
-
 ---
-
-
-
 
 # Care-as-Infrastructure
 

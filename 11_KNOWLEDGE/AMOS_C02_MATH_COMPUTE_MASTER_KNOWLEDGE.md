@@ -1,23 +1,7 @@
 ---
-type: math
-id: AMOS-C02-MATH-COMPUTE-MASTER-KNOWLEDGE
 title: "AMOS C02 — Math & Compute Master Knowledge"
-origin_architect: "Trang Phan"
-artifact_type: "domain_master_knowledge"
-domain: "C02_MATH_COMPUTE"
-conclusion_class: "MIXED"
-evidence_policy: "typed_per_node"
-canon_status: "DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES"
-language: "en"
-architecture: "HML_fractal_single_file"
-placeholder_status: "NONE"
-version: "1.1"
-source_lineage: "- "AMOS_C02_Math_Compute_SUPER.md"
-  - "AMOS_C02_Math_Compute_SUPER_x100k"
-  - "AMOS_Math_Compute_Ke..."
-source_family_mapping: "see body"
+type: math
 tags: [knowledge, note]
-
 ---
 
 # AMOS C02 — Math & Compute Master Knowledge

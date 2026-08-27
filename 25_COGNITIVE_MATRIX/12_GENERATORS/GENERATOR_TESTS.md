@@ -1,29 +1,8 @@
 ---
-type: test
-id: AMOS-12-GENERATORS-GENERATOR-TESTS
 title: "12_GENERATORS — Generator Tests"
-origin_architect: "Trang Phan"
-artifact_type: "matrix_infrastructure_test_contract"
-
-class: "MATRIX_INFRASTRUCTURE"
-conclusion_class: "DERIVED"
-canon_status: "CONDITIONAL"
-validation_status: "TEST_ARCHITECTURE_DEFINED"
-implementation_status: "PARTIAL_OR_UNKNOWN"
-gap_status: "OPEN"
-
-parent: "- "12_GENERATORS/README.md"..."
-scope: "see body"
-runtime_dependencies: "- "AMOS_FULL_BRAIN_OS"
-  - "OMNI_KERNEL"
-  - "AMOS_OS_KERNEL_v4.4"
-  - "RSCF"
-  - "HML"
-  - "PROVENA..."
-hard_rule: "TEST_PASS != TRUTH != AUTHORITY != COMMIT"
+type: test
 tags: [note, 12-generators]
 ---
-
 
 # 12_GENERATORS — Generator Tests
 

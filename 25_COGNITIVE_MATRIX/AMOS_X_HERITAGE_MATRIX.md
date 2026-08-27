@@ -1,45 +1,8 @@
 ---
 title: "AMOS × Heritage Matrix"
 type: heritage
-artifact: "AMOS_X_HERITAGE_MATRIX.md"
-artifact_id: "amos_25_cognitive_matrix_amos_x_heritage_matrix"
-
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX"
-path: "25_COGNITIVE_MATRIX/AMOS_X_HERITAGE_MATRIX.md"
-
 tags: [amos_os, cognitive_matrix, matrix, 25_cognitive_matrix, heritage, heritage_intelligence, heritage_void, decision_governance, uncertainty, regime_detection, provenance, rscf]
-
-version: "1.0.0"
-updated: "2026-08-27"
-
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-
-implementation_status: "PARTIAL_SOURCE_DEFINED"
-validation_status: "SOURCE_VALIDATED_NOT_RUNTIME_VERIFIED"
-executable_binding: "NOT_ASSUMED"
-
-ingestion_action: "NATIVE_CANON_INGESTION"
-
-primary_sources: "- "Google Drive/heritage_intelligence.md"
-  - "Google Drive/HERITAGE INTELLIGENCE.md"
-  - "Google Dr..."
-supporting_sources: "- "Google Drive/AMOS all frameworks.md"
-  - "Google Drive/trang_amos_reality_architecture_master_max..."
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
-rscf_state: "source_grounded_model"
-claim_class: "AMOS_MODEL"
 ---
-
-
 
 # AMOS × Heritage Matrix
 

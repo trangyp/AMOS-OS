@@ -1,21 +1,7 @@
 ---
-type: log
-id: AMOS-C12-EARTH-ECOLOGY-MASTER-KNOWLEDGE
 title: "AMOS C12 — Earth & Ecology Master Knowledge"
-origin_architect: "Trang Phan"
-artifact_type: "domain_master_knowledge"
-domain: "C12_EARTH_ECOLOGY"
-conclusion_class: "MIXED"
-evidence_policy: "typed_per_node"
-canon_status: "DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES"
-language: "en"
-architecture: "HML_fractal_single_file"
-placeholder_status: "NONE"
-version: "1.1"
-source_lineage: "- "AMOS_C12_Earth_Ecology_SUPER.md"..."
-source_family_mapping: "see body"
+type: log
 tags: [knowledge, note]
-
 ---
 
 # AMOS C12 — Earth & Ecology Master Knowledge

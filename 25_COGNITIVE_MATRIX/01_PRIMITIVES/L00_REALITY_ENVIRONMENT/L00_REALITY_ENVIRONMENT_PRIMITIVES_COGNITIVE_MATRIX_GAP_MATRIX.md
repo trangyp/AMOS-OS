@@ -1,38 +1,7 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Gap Matrix"
 type: gap
-aliases:
-
-- "AMOS Reality Environment Gap Matrix"
-- "L00 Reality Gap Architecture"
-- "Reality Environment Completeness Matrix"
-canon-type: "see body"
-- amos
-- reality-environment
-- gap-matrix
-- completeness
-- architecture
-- reality-contact
-- grounding
-- evidence
-- provenance
-- dependency
-- validation
-- repair
-- control-plane
-- rscf/D-distinction
-- rscf/G-relation
-- rscf/C-constraint
-- rscf/B-boundary
-- rscf/M-memory
-- rscf/S-state
-- rscf/T-topology
-- rscf/P-repair
-- rscf/Z-collapse
-- rscf/X-cross-scale
-- rscf/type-model
 tags: [cognitive_matrix, primitives, l00_reality_environment, note]
-
 ---
 
 # L00_REALITY_ENVIRONMENT — Gap Matrix

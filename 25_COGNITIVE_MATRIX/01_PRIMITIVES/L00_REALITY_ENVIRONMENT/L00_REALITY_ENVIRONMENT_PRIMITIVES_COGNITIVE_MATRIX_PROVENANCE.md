@@ -1,19 +1,8 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Provenance"
 type: provenance
-aliases: "- "AMOS Reality Provenance"
-  - "L00 Provenance"
-  - "AMOS Provenance Architecture"..."
-canon-type: architecture
-rscf-class: MODEL
-rscf-state: conditional
-amos-layer: L00_REALITY_ENVIRONMENT
-architecture-role: reality-evidence-lineage-substrate
-origin-architect: "Trang Phan"
-status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
 tags: [amos, provenance, evidence, lineage, ancestry, sybil-hardening, trust, reality-environment, rscf, hml, tensors, control-plane]
 ---
-
 
 # L00_REALITY_ENVIRONMENT — Provenance
 

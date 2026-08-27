@@ -1,39 +1,8 @@
 ---
-type: invariant
-artifact_id: AMOS-INVARIANT-REGISTRY
-name: INVARIANT_REGISTRY
 title: "AMOS Invariant Registry — Constitutional and Runtime Integrity Constraints"
-
-document_version: "2.0.0"
-registry_version: "4.4"
-amos_core_target: "v4.4"
-
-status: ACTIVE_CANON_CANDIDATE
-conclusion_class: AMOS_MODEL
-rscf_state: derived
-
-canon_group: tech-ai
-canon_type: invariant-registry
-
-origin_architect: Trang Phan
-steward: Trang Phan
-
-created: 2026-08-25
-updated: 2026-08-25
-
-scope: "see body"
+type: invariant
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, invariants, invariant-registry, constitutional-invariants, runtime-invariants, integrity, epistemics, provenance, dependency-closure, causality, scope, regime, freshness, authority, governance, rscf, gmef, recovery, anti-regression, canon-group/tech-ai, canon/registry, canon/invariant, rscf/claim, rscf/provenance, rscf/state/derived, topic/invariant-registry]
-
-aliases: "- AMOS Invariant Registry
-  - AMOS Core Invariants
-  - AMOS Integrity Invariants
-  - AMOS Constituti..."
-related: "- "README|AMOS OS"
-  - "ARCHITECTURE|Architecture"
-  - "AMOS_CORE_LAWS|AMOS Core Laws"
-  - "CANON_MA..."---
-
-
+---
 
 # AMOS Invariant Registry
 

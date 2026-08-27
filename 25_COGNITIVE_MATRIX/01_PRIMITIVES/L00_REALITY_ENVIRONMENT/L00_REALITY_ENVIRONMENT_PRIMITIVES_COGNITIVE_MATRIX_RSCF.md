@@ -1,19 +1,8 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — RSCF"
 type: cognitive
-aliases: "- "AMOS Reality Environment RSCF"
-  - "L00 Reality RSCF"
-  - "Reality Evidence Proof Architecture"..."
-canon-type: architecture
-rscf-class: MODEL
-rscf-state: conditional
-amos-layer: L00_REALITY_ENVIRONMENT
-architecture-role: reality-grounded-claim-and-evidence-governance
-origin-architect: "Trang Phan"
-status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
 tags: [amos, reality-environment, rscf, claim, evidence, provenance, scope, regime, causality, hml, confidence, falsification, control-plane, ai]
 ---
-
 
 # L00_REALITY_ENVIRONMENT — RSCF
 

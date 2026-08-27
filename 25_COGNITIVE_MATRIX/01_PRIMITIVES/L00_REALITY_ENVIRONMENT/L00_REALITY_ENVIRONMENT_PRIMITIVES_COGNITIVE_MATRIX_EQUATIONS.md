@@ -1,33 +1,7 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Equations"
 type: cognitive
-aliases:
-
-- "AMOS Reality Environment Equations"
-- "L00 Reality Equations"
-- "Reality Environment Formal Architecture"
-canon-type: "see body"
-- amos
-- reality-environment
-- equations
-- formal-system
-- observation
-- evidence
-- grounding
-- state-transition
-- provenance
-- control-plane
-- rscf/D-distinction
-- rscf/G-relation
-- rscf/C-constraint
-- rscf/B-boundary
-- rscf/M-memory
-- rscf/S-state
-- rscf/T-topology
-- rscf/X-cross-scale
-- rscf/type-model
 tags: [cognitive_matrix, primitives, l00_reality_environment, note]
-
 ---
 
 # L00_REALITY_ENVIRONMENT — Equations

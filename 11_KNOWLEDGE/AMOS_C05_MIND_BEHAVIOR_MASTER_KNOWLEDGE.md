@@ -1,23 +1,7 @@
 ---
-type: mind
-id: AMOS-C05-MIND-BEHAVIOR-MASTER-KNOWLEDGE
 title: "AMOS C05 — Mind & Behavior Master Knowledge"
-origin_architect: "Trang Phan"
-artifact_type: "domain_master_knowledge"
-domain: "C05_MIND_BEHAVIOR"
-conclusion_class: "MIXED"
-evidence_policy: "typed_per_node"
-canon_status: "DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES"
-language: "en"
-architecture: "HML_fractal_single_file"
-placeholder_status: "NONE"
-version: "1.1"
-source_lineage: "- "AMOS_CC05_mind_behavior.md"
-  - "AMOS_Emotion_Law_v0.md"
-  - "AMOS_Personality_Engine_Canonical_v..."
-source_family_mapping: "see body"
+type: mind
 tags: [knowledge, note]
-
 ---
 
 # AMOS C05 — Mind & Behavior Master Knowledge

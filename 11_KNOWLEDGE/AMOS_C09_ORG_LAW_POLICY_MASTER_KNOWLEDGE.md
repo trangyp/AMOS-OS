@@ -1,24 +1,7 @@
 ---
-type: law
-id: AMOS-C09-ORG-LAW-POLICY-MASTER-KNOWLEDGE
 title: "AMOS C09 — Organization, Law & Policy Master Knowledge"
-origin_architect: "Trang Phan"
-artifact_type: "domain_master_knowledge"
-domain: "C09_ORG_LAW_POLICY"
-conclusion_class: "MIXED"
-evidence_policy: "typed_per_node"
-canon_status: "DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES"
-language: "en"
-architecture: "HML_fractal_single_file"
-placeholder_status: "NONE"
-version: "1.1"
-source_lineage: "- "AMOS Org Governance Kernel"
-  - "AMOS Legal Analysis Skill"
-  - "AMOS VN Legal Engine v∞"
-  - "AM..."
-source_family_mapping: "see body"
+type: law
 tags: [knowledge, note]
-
 ---
 
 # AMOS C09 — Organization, Law & Policy Master Knowledge

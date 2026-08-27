@@ -1,27 +1,8 @@
 ---
-title: INDEX SUPERSESSION CANON README
+title: "INDEX SUPERSESSION CANON README"
 type: index
-
-## tags: ['amos_os', '01_canon', 'supersession', 'index', 'contract_navigation', 'provenance', 'rscf']
-
-# INDEX SUPERSESSION CANON README
-
-**Artifact class: "** `CANON_INDEX / NAVIGATION_CONTRACT`"
-**Plane: "** `01_CANON`"
-**Subsystem: "** `08_SUPERSESSION`"
-**Location: "** `01_CANON/08_SUPERSESSION/00_INDEX/`"
-**Origin architect / steward: "** Trang Phan"
-**Epistemic class: "** `AMOS_MODEL`"
-**Canonical status: "** `CONDITIONAL`"
-**Implementation status: "** `PARTIAL / VALIDATION-DEPENDENT`"
-**Authority class: "** `INDEX_ONLY`"
-**Mutation authority: "** `NONE`"
-**Updated: "** `2026-08-26`"
 tags: [00_INDEX]
 ---
-
-
-
 
 ## 1. Purpose
 

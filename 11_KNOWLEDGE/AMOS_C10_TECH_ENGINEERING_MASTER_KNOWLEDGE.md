@@ -1,21 +1,7 @@
 ---
-type: engine
-id: AMOS-C10-TECH-ENGINEERING-MASTER-KNOWLEDGE
 title: "AMOS C10 — Tech & Engineering Master Knowledge"
-origin_architect: "Trang Phan"
-artifact_type: "domain_master_knowledge"
-domain: "C10_TECH_ENGINEERING"
-conclusion_class: "MIXED"
-evidence_policy: "typed_per_node"
-canon_status: "DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES"
-language: "en"
-architecture: "HML_fractal_single_file"
-placeholder_status: "NONE"
-version: "1.1"
-source_lineage: "- "AMOS_C10_TECH_ENGINEERING_SUPER.md"..."
-source_family_mapping: "see body"
+type: engine
 tags: [knowledge, note]
-
 ---
 
 # AMOS C10 — Tech & Engineering Master Knowledge

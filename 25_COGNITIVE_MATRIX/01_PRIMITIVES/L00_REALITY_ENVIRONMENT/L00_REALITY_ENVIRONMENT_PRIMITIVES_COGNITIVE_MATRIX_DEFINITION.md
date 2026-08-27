@@ -1,34 +1,7 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Definition"
 type: definition
-aliases:
-
-- "AMOS Reality Environment"
-- "L00 Reality Environment"
-- "AMOS Reality Boundary"
-- "Reality Contact Layer"
-canon-type: "see body"
-- amos
-- reality-environment
-- grounding
-- observation
-- state
-- boundary
-- evidence
-- provenance
-- action
-- control-plane
-- feedback
-- rscf/D-distinction
-- rscf/B-boundary
-- rscf/G-relation
-- rscf/S-state
-- rscf/T-topology
-- rscf/C-constraint
-- rscf/X-cross-scale
-- rscf/type-system
 tags: [cognitive_matrix, primitives, l00_reality_environment, note]
-
 ---
 
 # L00_REALITY_ENVIRONMENT — Definition

@@ -1,29 +1,7 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Operators"
 type: cognitive
-aliases:
-
-- "AMOS Reality Environment Operators"
-- "L00 Reality Operators"
-- "Reality Interaction Operators"
-canon-type: "see body"
-- amos
-- reality-environment
-- operators
-- observation
-- measurement
-- evidence
-- provenance
-- state-transition
-- control-plane
-- hml
-- causality
-- simulation
-- validation
-- repair
-- governance
 tags: [cognitive_matrix, primitives, l00_reality_environment, note]
-
 ---
 
 # L00_REALITY_ENVIRONMENT — Operators

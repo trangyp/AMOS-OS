@@ -1,24 +1,8 @@
 ---
-title: AMOS EVOLUTIONARY ADAPTIVE SYSTEMS CANCER TO AI V2
+title: "AMOS EVOLUTIONARY ADAPTIVE SYSTEMS CANCER TO AI V2"
 type: system
-canon-group: cross-domain-biological-ai
-canon-type: architecture
-rscf-state: model
-topic: amos-evolutionary-adaptive-systems-soa
-status: proposed-cross-domain-amos-architecture
-version: v2.0
-origin-architect: Trang Phan
-source-lineage: "- "ĐIỀU TRỊ UNG THƯ THEO TIẾN HÓA"
-  - "AMOS Human Biology Fractal Architecture"
-  - "AMOS_CORE v4.4..."
-language: en
-epistemic-boundary: "Cancer source model and AI transfer remain distinct; cross-domain recurrence is MODEL, not mechanistic identity."
 tags: [amos, system, architecture, evolutionary-oncology, artificial-intelligence, adaptive-systems, s-o-a, resistance, drift, selection-pressure, model-collapse, provenance, rscf, hml, cross-scale]
-
 ---
-
-
-
 
 # AMOS Evolutionary Adaptive Systems Architecture
 ## From Cancer Evolution (s–o–a) to AI Evolution, Drift, Resistance, Collapse, and Governed Adaptation

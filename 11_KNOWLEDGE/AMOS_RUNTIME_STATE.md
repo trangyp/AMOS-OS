@@ -1,32 +1,7 @@
 ---
-type: state
-id: AMOS-STATE-RUNTIME-SNAPSHOT-1774073874
 title: "AMOS OS Runtime State Snapshot"
-origin_architect: "Trang Phan"
-artifact_type: "runtime_state_snapshot"
-conclusion_class: "OBSERVATION"
-evidence_class: "OBSERVATION"
-canon_status: "NON_CANONICAL"
-validation_status: "SOURCE_SNAPSHOT"
-state_status: "CAPTURED"
-language: "en"
-
-state_scope: "- runtime_liveness
-  - runtime_loop
-  - health
-  - file_registry
-  - dependency_registry
-  - memory_..."
-proposed_location: "12_STATE/01_RUNTIME_SNAPSHOTS"
-cross_links: "- "04_RUNTIME"
-  - "10_MEMORY"
-  - "17_OBSERVABILITY"
-  - "20_OPERATIONS"..."
-captured_boot_time_unix: 1774073874.6112227
-captured_boot_time_utc: "2026-03-21T06:17:54.611223+00:00"
-payload_sha256: "9d058a56d9d12dd75b5cb81f67343b47b90557b8c445c2d7e4282813aa22be26"
+type: state
 tags: [knowledge, note]
-
 ---
 
 # AMOS OS Runtime State Snapshot

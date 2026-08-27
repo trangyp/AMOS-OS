@@ -1,19 +1,8 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Purpose"
 type: cognitive
-aliases: "- "AMOS Reality Environment Purpose"
-  - "L00 Purpose"
-  - "AMOS Reality Interface Purpose"..."
-canon-type: architecture
-rscf-class: MODEL
-rscf-state: conditional
-amos-layer: L00_REALITY_ENVIRONMENT
-architecture-role: reality-grounding-and-environment-interface
-origin-architect: "Trang Phan"
-status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
 tags: [amos, reality, environment, grounding, observation, evidence, provenance, control-plane, rscf, hml, tensors, ai]
 ---
-
 
 # L00_REALITY_ENVIRONMENT — Purpose
 

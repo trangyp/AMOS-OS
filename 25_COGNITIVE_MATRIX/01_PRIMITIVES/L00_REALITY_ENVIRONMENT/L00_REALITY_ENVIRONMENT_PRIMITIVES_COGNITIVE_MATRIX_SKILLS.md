@@ -1,19 +1,8 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Skills"
 type: skill
-aliases: "- "AMOS Reality Environment Skills"
-  - "L00 Reality Skills"
-  - "Reality Grounding Skill Architectu..."
-canon-type: architecture
-rscf-class: MODEL
-rscf-state: conditional
-amos-layer: L00_REALITY_ENVIRONMENT
-architecture-role: reality-grounded-capability-routing-and-skill-governance
-origin-architect: "Trang Phan"
-status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
 tags: [amos, reality-environment, skills, capability, routing, evidence, provenance, rscf, governance, hml, control-plane, validation]
 ---
-
 
 # L00_REALITY_ENVIRONMENT — Skills
 

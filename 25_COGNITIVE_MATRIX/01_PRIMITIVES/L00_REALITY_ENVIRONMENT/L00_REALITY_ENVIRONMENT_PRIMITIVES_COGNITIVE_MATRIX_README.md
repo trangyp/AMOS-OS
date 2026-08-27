@@ -1,19 +1,8 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — README"
 type: cognitive
-aliases: "- "AMOS Reality Environment README"
-  - "L00 Reality Environment"
-  - "AMOS Reality Grounding Layer"..."
-canon-type: architecture
-rscf-class: MODEL
-rscf-state: conditional
-amos-layer: L00_REALITY_ENVIRONMENT
-architecture-role: reality-grounding-root-and-navigation-contract
-origin-architect: "Trang Phan"
-status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
 tags: [amos, reality-environment, reality-grounding, observation, measurement, evidence, provenance, rscf, hml, control-plane, authority, repair, validation, ai]
 ---
-
 
 # L00_REALITY_ENVIRONMENT — README
 

@@ -1,25 +1,8 @@
 ---
-type: validation
-id: AMOS-11-VALIDATION-EVIDENCE
 title: "11_VALIDATION — Validation Evidence"
-origin_architect: "Trang Phan"
-artifact_type: "matrix_infrastructure_validation_evidence_contract"
-
-class: "MATRIX_INFRASTRUCTURE"
-conclusion_class: "DERIVED"
-canon_status: "CONDITIONAL"
-validation_status: "ARCHITECTURE_DEFINED"
-implementation_status: "PARTIAL_OR_UNKNOWN"
-gap_status: "OPEN"
-
-parent: "- "11_VALIDATION"
-  - "11_VALIDATION/VALIDATION_LEVELS.md"..."
-scope: "see body"
-runtime_dependencies: "see body"
-hard_rule: "EVIDENCE != CLAIM != VALIDATION != AUTHORITY != COMMIT"
+type: validation
 tags: [note, 11-validation]
 ---
-
 
 # 11_VALIDATION — Validation Evidence
 

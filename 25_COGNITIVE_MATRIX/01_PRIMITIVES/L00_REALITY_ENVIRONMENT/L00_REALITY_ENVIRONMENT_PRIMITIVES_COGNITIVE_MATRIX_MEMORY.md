@@ -1,34 +1,7 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Memory"
 type: memory
-aliases:
-
-- "AMOS Reality Environment Memory"
-- "L00 Reality Memory Architecture"
-- "Reality-Grounded Memory"
-canon-type: "see body"
-- amos
-- reality-environment
-- memory
-- evidence
-- provenance
-- reality-contact
-- temporal-state
-- regime
-- hml
-- retrieval
-- invalidation
-- repair
-- control-plane
-- rscf/M-memory
-- rscf/S-state
-- rscf/B-boundary
-- rscf/T-topology
-- rscf/X-cross-scale
-- rscf/P-repair
-- rscf/type-system
 tags: [cognitive_matrix, primitives, l00_reality_environment, note]
-
 ---
 
 # L00_REALITY_ENVIRONMENT — Memory

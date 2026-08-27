@@ -1,28 +1,7 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Protocols"
 type: protocol
-aliases:
-
-- "AMOS Reality Environment Protocols"
-- "L00 Reality Protocols"
-- "AMOS Reality Interaction Protocol"
-canon-type: "see body"
-- amos
-- reality-environment
-- protocols
-- control-plane
-- evidence
-- provenance
-- authority
-- commit
-- transactions
-- observation
-- validation
-- recovery
-- hml
-- rscf
 tags: [cognitive_matrix, primitives, l00_reality_environment, note]
-
 ---
 
 # L00_REALITY_ENVIRONMENT — Protocols

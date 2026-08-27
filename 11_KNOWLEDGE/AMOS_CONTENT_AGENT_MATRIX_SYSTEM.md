@@ -1,41 +1,8 @@
 ---
-type: agent
-artifact_id: AMOS-CONTENT-AGENT-MATRIX
-name: amos-content-agent-matrix-system
 title: "AMOS Content Agent Matrix — Governed Multi-Agent Content Operating System"
-document_version: "3.0.0"
-protocol_version: "2.0.0"
-domain_model_version: "1.0.0"
-amos_core_target: "v4.4"
-
-created: "2026-08-22"
-updated: "2026-08-25"
-
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-
-canon-group: meta
-canon-type: framework
-canon-scope: content-agent-system
-
-rscf-state: source-claim
-rscf-class: "AMOS_MODEL / SOURCE_CLAIM"
-source_status: "SOURCE_CLAIM"
-validation_status: "REQUIRES_EMPIRICAL_VALIDATION"
-
-topic: content-agent-matrix
-
-aliases: "- "Content Agent System"
-  - "Content Matrix Agent"
-  - "AMOS Content OS"
-  - "AMOS Content Agency"
-..."
+type: agent
 tags: [agents, knowledge, vault, canon-group/tech-ai, canon/framework, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/content-agent, topic/content-matrix, topic/multi-agent, topic/content-marketing, topic/orchestration]
-
-governing_law: "integrity > completeness > fluency > speed > token savings"
 ---
-
-
 
 # AMOS Content Agent Matrix
 ## Governed Multi-Agent Content Operating System

@@ -3,19 +3,51 @@ title: "AMOS Full Brain OS — Rebuilt Architecture"
 canonical_name: "AMOS Full Brain OS Architecture"
 version_date: 2026-08-22
 language: en
+type: architecture
 
-tags: "see body"
+tags:
+  - canon-group/tech-ai
+  - canon/os-module
+  - canon/architecture
+  - amos/full-brain-os
+  - amos/brain
+  - amos/runtime
+  - amos/control-plane
+  - amos/omni-kernel
+  - amos/brain-core
+  - amos/omniverse-brain
+  - amos/super-mind
+  - amos/omega-stack
+  - amos/rscf
+  - amos/ubi
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/00-amos-full-brain-os-architecture
+  - amos-general
+
 canon-group: tech-ai
 canon_type: os-module
 architecture_type: multi-dimensional-cognitive-operating-architecture
 
-rscf: "state: SOURCE_CLAIM
+rscf:
+  state: SOURCE_CLAIM
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_architecture
-..."
-supersedes: "- "universal Kernel → Engine → Agent → Control Plane hierarchy"..."
-anti_regression: "see body"---
+  unresolved_boundaries_preserved: true
+
+supersedes:
+  - "universal Kernel → Engine → Agent → Control Plane hierarchy"
+
+anti_regression:
+  preserve_full_brain_hierarchy: true
+  preserve_engine_identity: true
+  preserve_kernel_engine_distinction: true
+  preserve_super_mind_separation: true
+  preserve_omega_separation: true
+  preserve_deployment_ontology_boundary: true
+---
 
 # AMOS Full Brain OS — Rebuilt Architecture
 
