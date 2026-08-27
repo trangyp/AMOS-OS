@@ -83,7 +83,7 @@ $$\text{PSI Score} = \frac{\text{Grounding} \cdot H}{\text{Debt} \cdot F}$$
 
 - **PSI Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/PSI_FRAMEWORK]]
 - **UBI Omnis:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_OMNIS]]
-- **Universe Canon MOC:** [[01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC]]
+- **Universe Canon MOC:** [[07_PART_UNIVERSE_CANON_MOC]]
 
 ---
 

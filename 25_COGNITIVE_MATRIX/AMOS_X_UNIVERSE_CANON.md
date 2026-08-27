@@ -101,7 +101,7 @@ framework_binding:
     artifact: "[[AMOS_X_UNIVERSE_CANON_MATRIX]]"
 
   universe_canon:
-    artifact: "[[01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC]]"
+    artifact: "[[02_UNIVERSE_CANON_MOC]]"
 
   canonical_partition:
     P1: REALITY_ENVIRONMENT
