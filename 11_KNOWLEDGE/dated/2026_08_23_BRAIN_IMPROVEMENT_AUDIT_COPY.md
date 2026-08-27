@@ -1,5 +1,5 @@
 ---
-title: "2026-08-23 Brain Improvement Audit — Vault Structural Repairs — Dated — 11 Knowledge / Dated"
+title: "2026-08-23 Brain Improvement Audit — Vault Structural Repairs (Copy)"
 created: "2026-08-23"
 origin: "Self-audit of vault structural integrity"
 origin_type: "MODEL"

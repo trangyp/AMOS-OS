@@ -3,7 +3,7 @@ type: note
 source: 00_ROOT
 artifact_id: AMOS-OS-ROOT
 name: AMOS_OS
-title: "AMOS OS — Governed Cognitive Operating Architecture — 00 Root — 00 Root"
+title: "AMOS OS — Governed Cognitive Operating Architecture (README)"
 document_version: "2.1.0"
 architecture_contract_version: "1.1.0"
 amos_core_target: "v4.4"

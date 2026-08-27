@@ -1,6 +1,5 @@
 ---
-title: "Absolute Structural Integrity Canon"
-
+title: "Absolute Structural Integrity Canon — Cognitive Matrix"
 type: canon
 
 source: 01_CANON/01_CORE_LAWS
@@ -68,7 +67,7 @@ raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
 
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
 
   claim_class: AMOS_MODEL
 
@@ -3479,7 +3478,7 @@ RSCF:
     AMOS_MODEL
 
   state:
-    SOURCE_GROUNDED
+    SOURCE_CLAIM
 
   canonical_status:
     SOURCE_GROUNDED_CANON_CANDIDATE
