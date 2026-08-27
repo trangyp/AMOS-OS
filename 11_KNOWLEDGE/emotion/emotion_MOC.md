@@ -16,4 +16,4 @@ tags: [moc, emotion]
 - [[THOUGHTS_AND_EMOTION]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

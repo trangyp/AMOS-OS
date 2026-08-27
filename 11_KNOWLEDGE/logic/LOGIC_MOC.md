@@ -62,4 +62,4 @@ tags: [moc, logic]
 - [[UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

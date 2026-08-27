@@ -16,4 +16,4 @@ tags: [moc, field]
 - [[UNIVERSAL_FIELD_MODEL]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

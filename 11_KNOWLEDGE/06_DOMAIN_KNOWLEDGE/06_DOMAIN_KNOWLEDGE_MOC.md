@@ -23,4 +23,4 @@ tags: [moc, 06-domain-knowledge]
 - [[UBI_SOMATIC_INTELLIGENCE]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

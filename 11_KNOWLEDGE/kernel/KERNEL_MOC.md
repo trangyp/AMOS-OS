@@ -197,4 +197,4 @@ tags: [moc, kernel]
 - [[VOMNI_KERNEL_MODEL]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

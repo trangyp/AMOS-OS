@@ -29,4 +29,4 @@ tags: [moc, human]
 - [[WHITEPAPER_HUMAN_AGING_GERONTOLOGY_RESEARCH_AND]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

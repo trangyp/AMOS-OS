@@ -15,4 +15,4 @@ tags: [moc, indexes]
 - [[VARIABLE_REGISTRY]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

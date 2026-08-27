@@ -22,4 +22,4 @@ tags: [moc, audit]
 - [[UBS_BACKED_GOLD_TRANSACTION_AUDITED_IMPACT_ONE]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

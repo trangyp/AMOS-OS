@@ -14,4 +14,4 @@ tags: [moc, qfm]
 - [[QFM_MAX_POWER_CONSOLIDATION]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

@@ -36,4 +36,4 @@ tags: [moc, models]
 - [[VN_OMNISTRUCTURE_MODEL]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

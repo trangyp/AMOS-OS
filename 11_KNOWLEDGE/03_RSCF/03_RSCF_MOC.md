@@ -22,4 +22,4 @@ tags: [moc, 03-rscf]
 - [[UNIVERSE_RSCF_INDEX]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

@@ -35,4 +35,4 @@ tags: [moc, biology-ubi]
 - [[UBI_PLUS_NEUROSYNCAI_INTEGRATION_WITH_CONSENTX]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

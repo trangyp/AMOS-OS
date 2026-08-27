@@ -16,4 +16,4 @@ tags: [moc, speed]
 - [[WHY_SPEED_IS_A_MORAL_DECISION]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

@@ -14,4 +14,4 @@ tags: [moc, pipelines]
 - [[PIPELINE]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

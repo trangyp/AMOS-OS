@@ -112,4 +112,4 @@ tags: [moc, 05-frameworks]
 - [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

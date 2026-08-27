@@ -24,4 +24,4 @@ tags: [moc, universe-cosmos]
 - [[UNIVERSE_TOTAL_CANON_UTC]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

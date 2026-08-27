@@ -34,4 +34,4 @@ tags: [moc, math]
 - [[UNIVERSAL_SOLVER_ARCHITECTURE]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

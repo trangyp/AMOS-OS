@@ -16,4 +16,4 @@ tags: [moc, probability-stats]
 - [[SYSTEM_INTEGRATION_REPORT]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

@@ -20,4 +20,4 @@ tags: [moc, control]
 - [[RESILIENCE_VS_CONTROL_THE_DESIGN_TRADEOFF_THAT_DEC]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

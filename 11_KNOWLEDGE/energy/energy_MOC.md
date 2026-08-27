@@ -27,4 +27,4 @@ tags: [moc, energy]
 - [[WHY_NUI_CAM_MAY_BE_A_PLANETARY_ENERGY_NODE]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

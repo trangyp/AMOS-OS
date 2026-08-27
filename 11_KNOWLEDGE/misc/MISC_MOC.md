@@ -758,4 +758,4 @@ tags: [moc, misc]
 - [[Y_THUC_TIEM_THUC_NHAN_THUC]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

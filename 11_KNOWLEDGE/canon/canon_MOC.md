@@ -16,4 +16,4 @@ tags: [moc, canon]
 - [[FULL_CANON_PRODUCT_ENCYCLOPEDIA]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

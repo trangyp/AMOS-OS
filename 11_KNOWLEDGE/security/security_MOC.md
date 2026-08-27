@@ -21,4 +21,4 @@ tags: [moc, security]
 - [[THE_INSTITUTIONAL_DIGITAL_SECURITY_BOUND]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

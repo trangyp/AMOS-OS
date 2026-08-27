@@ -35,4 +35,4 @@ tags: [moc, governance]
 - [[WHY_GOVERNANCE_COLLAPSES_WHEN_IT_IGNORES_HUMAN_BIO]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

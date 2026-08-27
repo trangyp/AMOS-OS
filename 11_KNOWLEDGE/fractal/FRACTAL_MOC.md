@@ -44,4 +44,4 @@ tags: [moc, fractal]
 - [[UBI_FRACTAL_ARCHITECTURE_ENTROPY_CORRECTION]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

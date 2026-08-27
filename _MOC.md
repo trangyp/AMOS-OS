@@ -26,7 +26,7 @@ tags: [moc, vault, root]
 - [[08_WORKFLOWS_MOC]] — 08 WORKFLOWS
 - [[09_PROTOCOLS_MOC]] — 09 PROTOCOLS
 - [[10_MEMORY_MOC]] — 10 MEMORY
-- [[11_KNOWLEDGE_MOC]] — 11 KNOWLEDGE
+- [[KNOWLEDGE_MOC]] — 11 KNOWLEDGE
 - [[12_STATE_MOC]] — 12 STATE
 - [[13_MODELS_MOC]] — 13 MODELS
 - [[14_TOOLS_MOC]] — 14 TOOLS
@@ -44,7 +44,7 @@ tags: [moc, vault, root]
 
 ## Other
 
-- [[AMOS OS_MOC]] — AMOS OS subdirectory
+- [[AMOS_HOME]] — AMOS OS subdirectory
 - [[Templates_MOC]] — Templates
 
 ---

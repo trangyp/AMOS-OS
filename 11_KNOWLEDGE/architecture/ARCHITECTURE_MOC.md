@@ -50,4 +50,4 @@ tags: [moc, architecture]
 - [[TLGE_ARCHITECTURE]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

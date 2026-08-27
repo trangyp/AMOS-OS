@@ -16,4 +16,4 @@ tags: [moc, learning]
 - [[MVP_REQUIREMENTS_AI_ROLEPLAY_LANGUAGE_LEARNING_S]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

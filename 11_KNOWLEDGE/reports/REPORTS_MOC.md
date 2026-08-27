@@ -62,4 +62,4 @@ tags: [moc, reports]
 - [[REPORT_VI_SAO_VIET_NAM_LA_MOT_TRONG_NHUNG_MOI_TRUO]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

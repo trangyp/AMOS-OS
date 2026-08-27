@@ -24,4 +24,4 @@ tags: [moc, rscf]
 - [[VALIDATE_RSCF]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

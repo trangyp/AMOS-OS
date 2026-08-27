@@ -56,4 +56,4 @@ tags: [moc, trang]
 - [[TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

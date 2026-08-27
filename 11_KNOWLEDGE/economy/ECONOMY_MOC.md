@@ -43,4 +43,4 @@ tags: [moc, economy]
 - [[WHEN_MENTAL_HEALTH_BECAME_A_MARKET_AND_WHAT_WE_L]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

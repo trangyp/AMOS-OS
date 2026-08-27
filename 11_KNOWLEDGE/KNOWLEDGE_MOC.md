@@ -64,49 +64,50 @@ tags: [moc, 11-knowledge]
 - [[03_RSCF_MOC]] — 03_RSCF
 - [[05_FRAMEWORKS_MOC]] — 05_FRAMEWORKS
 - [[06_DOMAIN_KNOWLEDGE_MOC]] — 06_DOMAIN_KNOWLEDGE
-- [[_arxiv_md_MOC]] — _arxiv_md
-- [[amos-general_MOC]] — amos-general
-- [[architecture_MOC]] — architecture
-- [[audit_MOC]] — audit
-- [[biology-ubi_MOC]] — biology-ubi
-- [[brain_MOC]] — brain
+- [[MOC_2007]] — _arxiv_md
+- [[AMOS-GENERAL_MOC]] — amos-general
+- [[ARCHITECTURE_MOC]] — architecture
+- [[AUDIT_MOC]] — audit
+- [[AMOS_HOME]] — biology-ubi
+- [[BRAIN_MOC]] — brain
 - [[canon_MOC]] — canon
-- [[cognitive_MOC]] — cognitive
+- [[COGNITIVE_MOC]] — cognitive
 - [[control_MOC]] — control
-- [[dated_MOC]] — dated
-- [[economy_MOC]] — economy
+- [[DATED_MOC]] — dated
+- [[ECONOMY_MOC]] — economy
 - [[emotion_MOC]] — emotion
 - [[energy_MOC]] — energy
-- [[engine_MOC]] — engine
+- [[ENGINE_MOC]] — engine
 - [[field_MOC]] — field
-- [[fractal_MOC]] — fractal
+- fractal MOC — fractal
 - [[governance_MOC]] — governance
 - [[human_MOC]] — human
 - [[indexes_MOC]] — indexes
-- [[kernel_MOC]] — kernel
+- kernel MOC — kernel
 - [[layers_MOC]] — layers
 - [[learning_MOC]] — learning
-- [[logic_MOC]] — logic
-- [[math_MOC]] — math
+- logic MOC — logic
+- math MOC — math
 - [[memory_MOC]] — memory
-- [[misc_MOC]] — misc
-- [[models_MOC]] — models
+- misc MOC — misc
+- models MOC — models
 - [[pipelines_MOC]] — pipelines
-- [[probability-stats_MOC]] — probability-stats
+- probability-stats MOC — probability-stats
 - [[qfm_MOC]] — qfm
-- [[quantum_MOC]] — quantum
-- [[reports_MOC]] — reports
+- quantum MOC — quantum
+- reports MOC — reports
 - [[rscf_MOC]] — rscf
 - [[security_MOC]] — security
-- [[signal_MOC]] — signal
+- signal MOC — signal
 - [[speed_MOC]] — speed
 - [[strategy_MOC]] — strategy
-- [[system_MOC]] — system
-- [[tech-coding_MOC]] — tech-coding
+- system MOC — system
+- tech-coding MOC — tech-coding
 - [[tests_MOC]] — tests
 - [[trang_MOC]] — trang
-- [[universe-cosmos_MOC]] — universe-cosmos
+- universe-cosmos MOC — universe-cosmos
 - [[vietnamese_MOC]] — vietnamese
 
 ---
 **Parent:** [[AMOS_HOME]]
+- [[_arxiv_md_MOC]]

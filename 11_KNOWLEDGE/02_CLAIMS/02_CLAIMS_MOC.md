@@ -17,4 +17,4 @@ tags: [moc, 02-claims]
 - [[UBI_CLAIM_REGISTRY]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

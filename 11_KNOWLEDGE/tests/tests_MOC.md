@@ -17,4 +17,4 @@ tags: [moc, tests]
 - [[THE_100_GREATEST_HISTORICAL_PLUS_SCIENTIFIC_UNANSWER]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

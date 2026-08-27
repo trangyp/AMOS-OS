@@ -89,8 +89,8 @@ class AMOSContinuationEngine:
                 # Fix bracket mismatches
                 ("]]]]", "]"),
                 ("]]]", "]"),
-                ("[[[[", "["),]]
-                ("[[[", "["),]]
+                ("[[
+                ("[
                 # Fix missing commas
                 (",:", ","),
                 (":,", ","),
@@ -121,3 +121,6 @@ class AMOSContinuationEngine:
 
 ---
 **MOC:** [[references_MOC]]
+
+---
+**MOC:** [[SKILL]]

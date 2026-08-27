@@ -104,4 +104,4 @@ tags: [moc, brain]
 - [[UNIVERSE_BRAIN_SUPER_ENGINE_VINFINITY_FULL]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

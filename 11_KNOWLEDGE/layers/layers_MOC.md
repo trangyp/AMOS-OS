@@ -16,4 +16,4 @@ tags: [moc, layers]
 - [[AI_WORKFORCE_LAYER]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

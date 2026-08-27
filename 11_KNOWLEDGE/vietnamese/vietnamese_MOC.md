@@ -85,4 +85,4 @@ tags: [moc, vietnamese]
 - [[VIETNAMESE_CREATIVITY_FROM_ROT_TO_FUTURE_BAI_BAO_TIENG_ANH]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

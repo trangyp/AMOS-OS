@@ -256,4 +256,4 @@ tags: [moc, amos-general]
 - [[VIETNAMESE_EXECUTIVE_SUMMARY_19X19_AMOS]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

@@ -19,4 +19,4 @@ tags: [moc, memory]
 - [[WORKING_MEMORY]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

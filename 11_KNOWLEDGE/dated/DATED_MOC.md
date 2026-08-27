@@ -172,4 +172,4 @@ tags: [moc, dated]
 - [[2026_08_25_TENSOR_COMPOSITION_GOVERNANCE]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

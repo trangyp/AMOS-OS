@@ -22,4 +22,4 @@ tags: [moc, strategy]
 - [[TOP_TIER_STRATEGIC_PARTNERS_LIST]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

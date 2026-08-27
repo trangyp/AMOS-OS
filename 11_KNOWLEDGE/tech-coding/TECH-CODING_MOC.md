@@ -22,4 +22,4 @@ tags: [moc, tech-coding]
 - [[V11_PLANETARY_CONSENT_INFRASTRUCTURE_TECHNICAL_FRAMEWORK]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]

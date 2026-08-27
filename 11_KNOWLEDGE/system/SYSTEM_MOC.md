@@ -87,4 +87,4 @@ tags: [moc, system]
 - [[WHY_KPI_SPEED_AND_INNOVATION_DRIVEN_SYSTEMS]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+**Parent:** [[KNOWLEDGE_MOC]]
