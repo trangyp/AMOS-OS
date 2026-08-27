@@ -2,7 +2,7 @@
 title: SKILL
 type: skill
 name: amos-c12-earth-ecology-master
-description: AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructure, electrical power, hydrogen, battery systems, solar, wind, green tech. Use for environmental analysis, energy system...
+description: "AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructure, electrical power, hydrogen, battery systems, solar, wind, green tech. Use for environmental analysis, energy system..."
 parent_skill: none
 domain: c12
 origin_architect: Trang Phan

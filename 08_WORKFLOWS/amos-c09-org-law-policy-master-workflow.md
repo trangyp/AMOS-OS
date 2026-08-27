@@ -3,7 +3,7 @@ title: amos-c09-org-law-policy-master-workflow
 Type: Workflow
 Skill: amos-c09-org-law-policy-master
 Agent: amos-c09-org-law-policy-agent
-Trigger: AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory frameworks, constitutional governance, legal reasoning, policy analysis. Use for governance design, legal analysis, or pol
+Trigger: "AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory frameworks, constitutional governance, legal reasoning, policy analysis. Use for governance design, legal analysis, or pol"
 Version: 1.0.0
 tags: [note, vault]
 ---

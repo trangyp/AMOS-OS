@@ -2,7 +2,7 @@
 title: SKILL
 type: skill
 name: amos-c03-physics-cosmos-master
-description: AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, particle physics, and quantum analogies for reasoning. Quantum terms labeled AMOS_MODEL, never physics claims. Use for physics r...
+description: "AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, particle physics, and quantum analogies for reasoning. Quantum terms labeled AMOS_MODEL, never physics claims. Use for physics r..."
 parent_skill: none
 domain: c03
 origin_architect: Trang Phan

@@ -2,7 +2,7 @@
 title: SKILL
 type: skill
 name: amos-c10-tech-engineering-master
-description: AMOS C10 Tech & Engineering — coding, software engineering, automation, DevOps, architecture, factory systems, production. Use for software development, engineering design, or technical architecture.
+description: "AMOS C10 Tech & Engineering — coding, software engineering, automation, DevOps, architecture, factory systems, production. Use for software development, engineering design, or technical architecture."
 parent_skill: none
 domain: c10
 origin_architect: Trang Phan

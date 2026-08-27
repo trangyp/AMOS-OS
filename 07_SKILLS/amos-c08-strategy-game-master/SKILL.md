@@ -2,7 +2,7 @@
 title: SKILL
 type: skill
 name: amos-c08-strategy-game-master
-description: AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation, Nash equilibria, game theory, consulting discipline, McKinsey frameworks, Bluebook strategy. Use for strategic analysi...
+description: "AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation, Nash equilibria, game theory, consulting discipline, McKinsey frameworks, Bluebook strategy. Use for strategic analysi..."
 parent_skill: none
 domain: c08
 origin_architect: Trang Phan

@@ -2,7 +2,7 @@
 title: SKILL
 type: skill
 name: amos-canon-universe-master
-description: AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants, law hierarchy, universe-scale canonical structures. Use for canon reasoning, universe-level analysis, or invariant ver...
+description: "AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants, law hierarchy, universe-scale canonical structures. Use for canon reasoning, universe-level analysis, or invariant ver..."
 parent_skill: none
 domain: canon
 origin_architect: Trang Phan

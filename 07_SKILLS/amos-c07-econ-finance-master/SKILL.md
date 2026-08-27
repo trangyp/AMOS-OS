@@ -2,7 +2,7 @@
 title: SKILL
 type: skill
 name: amos-c07-econ-finance-master
-description: AMOS C07 Econ & Finance — unit economics, forex, investment, wealth, business analysis, market dynamics, trade. BizFin Engine: unit economics first, then scale. Use for financial analysis, economic...
+description: "AMOS C07 Econ & Finance — unit economics, forex, investment, wealth, business analysis, market dynamics, trade. BizFin Engine: unit economics first, then scale. Use for financial analysis, economic..."
 parent_skill: none
 domain: c07
 origin_architect: Trang Phan

@@ -3,7 +3,7 @@ title: amos-c03-physics-cosmos-master-workflow
 Type: Workflow
 Skill: amos-c03-physics-cosmos-master
 Agent: amos-c03-physics-cosmos-agent
-Trigger: AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, particle physics, and quantum analogies for reasoning. Quantum terms labeled AMOS_MODEL, never physics claims. Use for physics r
+Trigger: "AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, particle physics, and quantum analogies for reasoning. Quantum terms labeled AMOS_MODEL, never physics claims. Use for physics r"
 Version: 1.0.0
 tags: [note, vault]
 ---

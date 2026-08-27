@@ -2,7 +2,7 @@
 title: SKILL
 type: skill
 name: amos-knowledge-research-master
-description: AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowledge indexing, curation, RAG best practices. 68,979-note vault as reasoning brain. Use for knowledge management, researc...
+description: "AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowledge indexing, curation, RAG best practices. 68,979-note vault as reasoning brain. Use for knowledge management, researc..."
 parent_skill: none
 domain: knowledge
 origin_architect: Trang Phan

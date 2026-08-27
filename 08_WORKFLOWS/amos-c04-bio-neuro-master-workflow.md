@@ -3,7 +3,7 @@ title: amos-c04-bio-neuro-master-workflow
 Type: Workflow
 Skill: amos-c04-bio-neuro-master
 Agent: amos-c04-bio-neuro-agent
-Trigger: AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI, cell intelligence, genetics, molecular biology. Biological logic translation for cognitive architecture. Use for biological
+Trigger: "AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI, cell intelligence, genetics, molecular biology. Biological logic translation for cognitive architecture. Use for biological"
 Version: 1.0.0
 tags: [note, vault]
 ---

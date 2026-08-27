@@ -3,7 +3,7 @@ title: amos-os-runtime-master-workflow
 Type: Workflow
 Skill: amos-os-runtime-master
 Agent: amos-os-runtime-agent
-Trigger: AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit→Plan→Schedule→Execute→Observe→Repair→Audit→Finalize), infrastructure control plane, deployment. Use for runtime reasoning,
+Trigger: "AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit→Plan→Schedule→Execute→Observe→Repair→Audit→Finalize), infrastructure control plane, deployment. Use for runtime reasoning,"
 Version: 1.0.0
 tags: [note, vault]
 ---

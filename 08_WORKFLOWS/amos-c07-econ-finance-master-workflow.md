@@ -3,7 +3,7 @@ title: amos-c07-econ-finance-master-workflow
 Type: Workflow
 Skill: amos-c07-econ-finance-master
 Agent: amos-c07-econ-finance-agent
-Trigger: AMOS C07 Econ & Finance — unit economics, forex, investment, wealth, business analysis, market dynamics, trade. BizFin Engine: unit economics first, then scale. Use for financial analysis, economic
+Trigger: "AMOS C07 Econ & Finance — unit economics, forex, investment, wealth, business analysis, market dynamics, trade. BizFin Engine: unit economics first, then scale. Use for financial analysis, economic"
 Version: 1.0.0
 tags: [note, vault]
 ---

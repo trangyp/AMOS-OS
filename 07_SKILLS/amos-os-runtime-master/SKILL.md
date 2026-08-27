@@ -2,7 +2,7 @@
 title: SKILL
 type: skill
 name: amos-os-runtime-master
-description: AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit→Plan→Schedule→Execute→Observe→Repair→Audit→Finalize), infrastructure control plane, deployment. Use for runtime reasoning,...
+description: "AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit→Plan→Schedule→Execute→Observe→Repair→Audit→Finalize), infrastructure control plane, deployment. Use for runtime reasoning,..."
 parent_skill: none
 domain: runtime
 origin_architect: Trang Phan

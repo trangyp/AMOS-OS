@@ -3,7 +3,7 @@ title: amos-rscf-epistemic-master-workflow
 Type: Workflow
 Skill: amos-rscf-epistemic-master
 Agent: amos-rscf-epistemic-agent
-Trigger: AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/dependencies/competing hypotheses/falsifiers/confidence ceiling. 6 state kinds: OBSERVATION, SOURCE_CLAIM, DERI
+Trigger: "AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/dependencies/competing hypotheses/falsifiers/confidence ceiling. 6 state kinds: OBSERVATION, SOURCE_CLAIM, DERI"
 Version: 1.0.0
 tags: [note, vault]
 ---

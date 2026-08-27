@@ -10,7 +10,7 @@ domain: amos-core-logic
 status: active
 source_alignment: AMOS_CORE v3.0→v4.4
 conclusion_class: SOURCE_ALIGNED_MODEL
-description: >-
+description: ">-"
   Source-aligned AMOS Core-19 logical kernel: 19 executable formula node types,
   deterministic normalization and contradiction handling, with later AMOS_CORE
   RSCF/H-M-L, provenance, transactional, causal-epoch, and v4.4 coordination-

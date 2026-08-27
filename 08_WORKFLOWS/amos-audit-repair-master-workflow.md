@@ -3,7 +3,7 @@ title: amos-audit-repair-master-workflow
 Type: Workflow
 Skill: amos-audit-repair-master
 Agent: amos-audit-repair-agent
-Trigger: AMOS Audit & Repair — failure recovery, gap discovery, quality auditing, validation gates, repair allocation. Use for system auditing, gap analysis, or failure recovery.
+Trigger: "AMOS Audit & Repair — failure recovery, gap discovery, quality auditing, validation gates, repair allocation. Use for system auditing, gap analysis, or failure recovery."
 Version: 1.0.0
 tags: [note, vault]
 ---

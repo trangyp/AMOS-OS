@@ -3,7 +3,7 @@ title: amos-c11-design-language-master-workflow
 Type: Workflow
 Skill: amos-c11-design-language-master
 Agent: amos-c11-design-language-agent
-Trigger: AMOS C11 Design & Language — content creation, corporate documentation, academic writing, artistic expression, presentation design, language patterns. Use for content creation, documentation, or de
+Trigger: "AMOS C11 Design & Language — content creation, corporate documentation, academic writing, artistic expression, presentation design, language patterns. Use for content creation, documentation, or de"
 Version: 1.0.0
 tags: [note, vault]
 ---

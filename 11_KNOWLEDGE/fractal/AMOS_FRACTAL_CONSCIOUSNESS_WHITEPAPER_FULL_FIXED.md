@@ -13,7 +13,7 @@ status: active
 conclusion_class: AMOS_MODEL
 source_language: vi
 epistemic_mode: source_preserving_with_amos_firewalls
-description: >-
+description: ">-"
   AMOS-aligned edition of the Trang ∅ Framework whitepaper on consciousness,
   astrology, matter, light, time, energy, biology, culture, and society.
   Preserves the source narrative while separating SOURCE_CLAIM, OBSERVATION,

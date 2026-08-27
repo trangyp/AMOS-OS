@@ -3,7 +3,7 @@ title: amos-canon-universe-master-workflow
 Type: Workflow
 Skill: amos-canon-universe-master
 Agent: amos-canon-universe-agent
-Trigger: AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants, law hierarchy, universe-scale canonical structures. Use for canon reasoning, universe-level analysis, or invariant ver
+Trigger: "AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants, law hierarchy, universe-scale canonical structures. Use for canon reasoning, universe-level analysis, or invariant ver"
 Version: 1.0.0
 tags: [note, vault]
 ---

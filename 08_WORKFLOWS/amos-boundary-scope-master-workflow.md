@@ -3,7 +3,7 @@ title: amos-boundary-scope-master-workflow
 Type: Workflow
 Skill: amos-boundary-scope-master
 Agent: amos-boundary-scope-agent
-Trigger: AMOS Boundary & Scope — scope regimes, boundary admission, context continuity, capability bounds. Use for scope analysis, boundary reasoning, or context management.
+Trigger: "AMOS Boundary & Scope — scope regimes, boundary admission, context continuity, capability bounds. Use for scope analysis, boundary reasoning, or context management."
 Version: 1.0.0
 tags: [note, vault]
 ---

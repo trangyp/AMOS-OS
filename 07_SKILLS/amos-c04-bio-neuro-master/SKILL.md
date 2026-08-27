@@ -2,7 +2,7 @@
 title: SKILL
 type: skill
 name: amos-c04-bio-neuro-master
-description: AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI, cell intelligence, genetics, molecular biology. Biological logic translation for cognitive architecture. Use for biological ...
+description: "AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI, cell intelligence, genetics, molecular biology. Biological logic translation for cognitive architecture. Use for biological ..."
 parent_skill: none
 domain: c04
 origin_architect: Trang Phan

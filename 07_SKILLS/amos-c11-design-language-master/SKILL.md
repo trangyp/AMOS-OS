@@ -2,7 +2,7 @@
 title: SKILL
 type: skill
 name: amos-c11-design-language-master
-description: AMOS C11 Design & Language — content creation, corporate documentation, academic writing, artistic expression, presentation design, language patterns. Use for content creation, documentation, or de...
+description: "AMOS C11 Design & Language — content creation, corporate documentation, academic writing, artistic expression, presentation design, language patterns. Use for content creation, documentation, or de..."
 parent_skill: none
 domain: c11
 origin_architect: Trang Phan

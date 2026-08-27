@@ -2,7 +2,7 @@
 title: SKILL
 type: skill
 name: amos-audit-repair-master
-description: AMOS Audit & Repair — failure recovery, gap discovery, quality auditing, validation gates, repair allocation. Use for system auditing, gap analysis, or failure recovery.
+description: "AMOS Audit & Repair — failure recovery, gap discovery, quality auditing, validation gates, repair allocation. Use for system auditing, gap analysis, or failure recovery."
 parent_skill: none
 domain: audit
 origin_architect: Trang Phan

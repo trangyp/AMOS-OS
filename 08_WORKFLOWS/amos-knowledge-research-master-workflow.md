@@ -3,7 +3,7 @@ title: amos-knowledge-research-master-workflow
 Type: Workflow
 Skill: amos-knowledge-research-master
 Agent: amos-knowledge-research-agent
-Trigger: AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowledge indexing, curation, RAG best practices. 68,979-note vault as reasoning brain. Use for knowledge management, researc
+Trigger: "AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowledge indexing, curation, RAG best practices. 68,979-note vault as reasoning brain. Use for knowledge management, researc"
 Version: 1.0.0
 tags: [note, vault]
 ---

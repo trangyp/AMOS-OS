@@ -2,7 +2,7 @@
 title: SKILL
 type: skill
 name: amos-c06-society-culture-master
-description: AMOS C06 Society & Culture — social dynamics, cultural analysis, Vietnamese language/regional analysis, linguistic patterns, anthropology. Use for social analysis, cultural reasoning, or Vietnamese...
+description: "AMOS C06 Society & Culture — social dynamics, cultural analysis, Vietnamese language/regional analysis, linguistic patterns, anthropology. Use for social analysis, cultural reasoning, or Vietnamese..."
 parent_skill: none
 domain: c06
 origin_architect: Trang Phan

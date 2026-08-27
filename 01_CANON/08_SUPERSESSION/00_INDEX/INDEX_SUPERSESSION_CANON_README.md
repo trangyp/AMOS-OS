@@ -6,17 +6,17 @@ type: index
 
 # INDEX SUPERSESSION CANON README
 
-**Artifact class:** `CANON_INDEX / NAVIGATION_CONTRACT`
-**Plane:** `01_CANON`
-**Subsystem:** `08_SUPERSESSION`
-**Location:** `01_CANON/08_SUPERSESSION/00_INDEX/`
-**Origin architect / steward:** Trang Phan
-**Epistemic class:** `AMOS_MODEL`
-**Canonical status:** `CONDITIONAL`
-**Implementation status:** `PARTIAL / VALIDATION-DEPENDENT`
-**Authority class:** `INDEX_ONLY`
-**Mutation authority:** `NONE`
-**Updated:** `2026-08-26`
+**Artifact class: "** `CANON_INDEX / NAVIGATION_CONTRACT`"
+**Plane: "** `01_CANON`"
+**Subsystem: "** `08_SUPERSESSION`"
+**Location: "** `01_CANON/08_SUPERSESSION/00_INDEX/`"
+**Origin architect / steward: "** Trang Phan"
+**Epistemic class: "** `AMOS_MODEL`"
+**Canonical status: "** `CONDITIONAL`"
+**Implementation status: "** `PARTIAL / VALIDATION-DEPENDENT`"
+**Authority class: "** `INDEX_ONLY`"
+**Mutation authority: "** `NONE`"
+**Updated: "** `2026-08-26`"
 tags: [00_INDEX]
 ---
 

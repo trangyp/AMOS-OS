@@ -2,7 +2,7 @@
 title: SKILL
 type: skill
 name: amos-c05-mind-behavior-master
-description: AMOS C05 Mind & Behavior — cognition, emotion, consciousness, awareness, metacognition. 5-axis Emotion Law, HIE/UMPL/UST super-consciousness. Use for psychological analysis or behavioral reasoning.
+description: "AMOS C05 Mind & Behavior — cognition, emotion, consciousness, awareness, metacognition. 5-axis Emotion Law, HIE/UMPL/UST super-consciousness. Use for psychological analysis or behavioral reasoning."
 parent_skill: none
 domain: c05
 origin_architect: Trang Phan

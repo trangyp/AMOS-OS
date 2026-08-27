@@ -3,7 +3,7 @@ title: amos-security-safety-master-workflow
 Type: Workflow
 Skill: amos-security-safety-master
 Agent: amos-security-safety-agent
-Trigger: AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, immune systems, drift alignment. Use for security analysis, safety verification, or adversarial defense.
+Trigger: "AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, immune systems, drift alignment. Use for security analysis, safety verification, or adversarial defense."
 Version: 1.0.0
 tags: [note, vault]
 ---

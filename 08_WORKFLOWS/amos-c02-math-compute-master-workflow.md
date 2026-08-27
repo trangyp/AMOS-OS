@@ -3,7 +3,7 @@ title: amos-c02-math-compute-master-workflow
 Type: Workflow
 Skill: amos-c02-math-compute-master
 Agent: amos-c02-math-compute-agent
-Trigger: AMOS C02 Math & Compute — 10 knowledge families: problem framing, numerical methods, probability/statistics, optimization, complexity, control systems, signal processing, simulation, meta-control,
+Trigger: "AMOS C02 Math & Compute — 10 knowledge families: problem framing, numerical methods, probability/statistics, optimization, complexity, control systems, signal processing, simulation, meta-control,"
 Version: 1.0.0
 tags: [note, vault]
 ---

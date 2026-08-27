@@ -2,7 +2,7 @@
 title: SKILL
 type: skill
 name: amos-security-safety-master
-description: AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, immune systems, drift alignment. Use for security analysis, safety verification, or adversarial defense.
+description: "AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, immune systems, drift alignment. Use for security analysis, safety verification, or adversarial defense."
 parent_skill: none
 domain: security
 origin_architect: Trang Phan

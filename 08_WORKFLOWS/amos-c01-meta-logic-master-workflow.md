@@ -3,7 +3,7 @@ title: amos-c01-meta-logic-master-workflow
 Type: Workflow
 Skill: amos-c01-meta-logic-master
 Agent: amos-c01-meta-logic-agent
-Trigger: AMOS C01 Meta Logic — the irreducible logic core: 8 Atomic Logic Units (ALUs), 7 Universal Meta-Laws (UMLs), 6 Universal Operators (UOPs), 5 Universal Pattern Families. Law of Law, Rule of 2, Rule
+Trigger: "AMOS C01 Meta Logic — the irreducible logic core: 8 Atomic Logic Units (ALUs), 7 Universal Meta-Laws (UMLs), 6 Universal Operators (UOPs), 5 Universal Pattern Families. Law of Law, Rule of 2, Rule"
 Version: 1.0.0
 tags: [note, vault]
 ---

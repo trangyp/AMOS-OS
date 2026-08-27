@@ -2,7 +2,7 @@
 title: SKILL
 type: skill
 name: amos-boundary-scope-master
-description: AMOS Boundary & Scope — scope regimes, boundary admission, context continuity, capability bounds. Use for scope analysis, boundary reasoning, or context management.
+description: "AMOS Boundary & Scope — scope regimes, boundary admission, context continuity, capability bounds. Use for scope analysis, boundary reasoning, or context management."
 parent_skill: none
 domain: boundary
 origin_architect: Trang Phan

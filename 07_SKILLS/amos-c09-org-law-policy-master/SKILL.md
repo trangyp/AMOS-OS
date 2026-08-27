@@ -2,7 +2,7 @@
 title: SKILL
 type: skill
 name: amos-c09-org-law-policy-master
-description: AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory frameworks, constitutional governance, legal reasoning, policy analysis. Use for governance design, legal analysis, or pol...
+description: "AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory frameworks, constitutional governance, legal reasoning, policy analysis. Use for governance design, legal analysis, or pol..."
 parent_skill: none
 domain: c09
 origin_architect: Trang Phan

@@ -3,7 +3,7 @@ title: amos-c12-earth-ecology-master-workflow
 Type: Workflow
 Skill: amos-c12-earth-ecology-master
 Agent: amos-c12-earth-ecology-agent
-Trigger: AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructure, electrical power, hydrogen, battery systems, solar, wind, green tech. Use for environmental analysis, energy system
+Trigger: "AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructure, electrical power, hydrogen, battery systems, solar, wind, green tech. Use for environmental analysis, energy system"
 Version: 1.0.0
 tags: [note, vault]
 ---
