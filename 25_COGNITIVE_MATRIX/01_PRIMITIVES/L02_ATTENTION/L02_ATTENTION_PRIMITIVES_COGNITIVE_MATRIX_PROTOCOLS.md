@@ -1,14 +1,116 @@
 ---
-title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX PROTOCOLS
+title: "L02 ATTENTION PRIMITIVES COGNITIVE MATRIX PROTOCOLS"
 type: protocol
-source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
-tags: [cognitive_matrix, primitives, l02_attention, note, canon/cognitive-matrix]
+source: "25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION"
+artifact: "L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS.md"
+artifact_id: "25_cognitive_matrix_01_primitives_l02_attention_l02_attention_primitives_cognitive_matrix_protocols"
+origin_architect: "Trang Phan"
+steward: "Trang Phan"
+system: "AMOS OS"
+plane: "25_COGNITIVE_MATRIX"
+segment: "25_COGNITIVE_MATRIX/01_PRIMITIVES"
+artifact_kind: "PROTOCOL"
+path: "25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS.md"
+
+tags:
+  - 01_primitives
+  - 25_cognitive_matrix
+  - amos_os
+  - attention
+  - canon/cognitive-matrix
+  - canon/universe
+  - cognitive
+  - cognitive_matrix
+  - l02_attention
+  - l02_attention_primitives_cognitive_matrix_protocols.md
+  - matrix
+  - note
+  - primitives
+  - protocol
+  - protocols
+  - rscf
+
+version: "0.2.0"
+updated: "2026-08-27"
+
+status: "PLACEHOLDER_EXPANDED"
+epistemic_class: "AMOS_MODEL"
+canonical_status: "UNKNOWN/GAP"
+implementation_status: "NOT_ESTABLISHED"
+validation_status: "NOT_ESTABLISHED"
+executable_binding: "NOT_ESTABLISHED"
+ingestion_action: "ADD_ONLY"
+
 rscf:
-  state: DERIVED
-  claim_class: EMPIRICAL
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
-  scope: AMOS_general
+  scope: 25_COGNITIVE_MATRIX
+  regime: canon_placeholder
+  confidence_ceiling: source_supported
+  provenance_independence: NOT_ESTABLISHED
 ---
+
+
+## 0. Canonical Status
+
+`L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS.md` is an **ADD-ONLY placeholder-expanded artifact** for the **25_COGNITIVE_MATRIX** plane segment.
+
+It reserves the canonical slot for the AMOS framework family named **L02 ATTENTION PRIMITIVES COGNITIVE MATRIX PROTOCOLS**.
+
+The artifact is presently:
+
+```text
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+```
+
+This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
+
+## 1. Governing Integrity Boundary
+
+The following distinctions are mandatory:
+
+```text
+PLACEHOLDER != IMPLEMENTED
+
+ADDRESSABLE != VALIDATED
+
+DOCUMENTED != ENFORCED
+
+MODEL != OBSERVATION
+
+SOURCE_CLAIM != VERIFIED
+
+CANON_CANDIDATE != CANONICAL
+
+CANONICAL != EMPIRICAL_TRUTH
+
+CAPABILITY != AUTHORITY
+
+AUTHORIZATION != COMMIT
+
+PROPOSAL != COMMIT
+
+IMPLEMENTED != VALIDATED
+
+LOGGED != APPROVED
+
+UNKNOWN/GAP != PASS
+```
+
+No downstream layer may silently collapse these distinctions.
+
+Origin architect / steward: **Trang Phan**
+
+System: **AMOS OS**
+
+---
+
 # L02 ATTENTION PRIMITIVES COGNITIVE MATRIX PROTOCOLS
 
 Drive inspection confirms that the `L02_ATTENTION` folder currently contains only `PLACEHOLDER.md`; there is no recovered canonical `PROTOCOLS.md`.  The placeholder defines L02 as attention allocation over scarce reasoning/observation resources, but explicitly forbids inventing missing canon, equations, thresholds, empirical claims, or implementation status. 

@@ -1,36 +1,110 @@
 ---
 title: "AMOS Total System Lineage"
 type: system
-source: 00_ROOT
+source: "00_ROOT"
 artifact: "AMOS_TOTAL_SYSTEM_LINEAGE.md"
-artifact_id: "amos_00_root_amos_total_system_lineage"
+artifact_id: "00_root_amos_total_system_lineage"
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
 system: "AMOS OS"
 plane: "00_ROOT"
-segment: "00_ROOT"
-artifact_kind: "LINEAGE"
+segment: "00_ROOT/AMOS_TOTAL_SYSTEM_LINEAGE.md"
+artifact_kind: "SYSTEM"
 path: "00_ROOT/AMOS_TOTAL_SYSTEM_LINEAGE.md"
 
-tags: [amos_os, root, index, 00_root, lineage, canon_placeholder, rscf, canon/root]
+tags:
+  - 00_root
+  - amos_os
+  - amos_total_system_lineage.md
+  - canon/root
+  - canon/universe
+  - canon_placeholder
+  - index
+  - lineage
+  - root
+  - rscf
+  - system
 
-version: "0.1.0"
+version: "0.2.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "PLACEHOLDER_EXPANDED"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
 implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
-  scope: root_index
+  scope: 00_ROOT
+  regime: canon_placeholder
+  confidence_ceiling: source_supported
+  provenance_independence: NOT_ESTABLISHED
 ---
 
+
+## 0. Canonical Status
+
+`AMOS_TOTAL_SYSTEM_LINEAGE.md` is an **ADD-ONLY placeholder-expanded artifact** for the **00_ROOT** plane segment.
+
+It reserves the canonical slot for the AMOS framework family named **AMOS Total System Lineage**.
+
+The artifact is presently:
+
+```text
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+```
+
+This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
+
+## 1. Governing Integrity Boundary
+
+The following distinctions are mandatory:
+
+```text
+PLACEHOLDER != IMPLEMENTED
+
+ADDRESSABLE != VALIDATED
+
+DOCUMENTED != ENFORCED
+
+MODEL != OBSERVATION
+
+SOURCE_CLAIM != VERIFIED
+
+CANON_CANDIDATE != CANONICAL
+
+CANONICAL != EMPIRICAL_TRUTH
+
+CAPABILITY != AUTHORITY
+
+AUTHORIZATION != COMMIT
+
+PROPOSAL != COMMIT
+
+IMPLEMENTED != VALIDATED
+
+LOGGED != APPROVED
+
+UNKNOWN/GAP != PASS
+```
+
+No downstream layer may silently collapse these distinctions.
+
+Origin architect / steward: **Trang Phan**
+
+System: **AMOS OS**
+
+---
 
 # AMOS Total System Lineage
 

@@ -1,9 +1,9 @@
 ---
 title: "ULK Canon"
 type: canon
-source: 01_CANON/02_UNIVERSE_CANON
+source: "01_CANON/02_UNIVERSE_CANON"
 artifact: "ULK_CANON.md"
-artifact_id: "amos_01_canon_02_universe_canon_ulk_canon"
+artifact_id: "01_canon_02_universe_canon_ulk_canon"
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
 system: "AMOS OS"
@@ -12,25 +12,97 @@ segment: "01_CANON/02_UNIVERSE_CANON"
 artifact_kind: "CANON"
 path: "01_CANON/02_UNIVERSE_CANON/ULK_CANON.md"
 
-tags: [amos_os, canon, universe, 01_canon, canon_placeholder, rscf, canon/universe]
+tags:
+  - 01_canon
+  - 02_universe_canon
+  - amos_os
+  - canon
+  - canon/universe
+  - canon_placeholder
+  - rscf
+  - ulk_canon.md
+  - universe
 
-version: "0.1.0"
+version: "0.2.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "PLACEHOLDER_EXPANDED"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
 implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
-  scope: universe_canon
+  scope: 01_CANON
+  regime: canon_placeholder
+  confidence_ceiling: source_supported
+  provenance_independence: NOT_ESTABLISHED
 ---
 
+
+## 0. Canonical Status
+
+`ULK_CANON.md` is an **ADD-ONLY placeholder-expanded artifact** for the **01_CANON** plane segment.
+
+It reserves the canonical slot for the AMOS framework family named **ULK Canon**.
+
+The artifact is presently:
+
+```text
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+```
+
+This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
+
+## 1. Governing Integrity Boundary
+
+The following distinctions are mandatory:
+
+```text
+PLACEHOLDER != IMPLEMENTED
+
+ADDRESSABLE != VALIDATED
+
+DOCUMENTED != ENFORCED
+
+MODEL != OBSERVATION
+
+SOURCE_CLAIM != VERIFIED
+
+CANON_CANDIDATE != CANONICAL
+
+CANONICAL != EMPIRICAL_TRUTH
+
+CAPABILITY != AUTHORITY
+
+AUTHORIZATION != COMMIT
+
+PROPOSAL != COMMIT
+
+IMPLEMENTED != VALIDATED
+
+LOGGED != APPROVED
+
+UNKNOWN/GAP != PASS
+```
+
+No downstream layer may silently collapse these distinctions.
+
+Origin architect / steward: **Trang Phan**
+
+System: **AMOS OS**
+
+---
 
 # ULK Canon
 

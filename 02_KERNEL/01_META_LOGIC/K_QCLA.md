@@ -1,36 +1,112 @@
 ---
 title: "Kernel · QCLA"
 type: note
-source: 02_KERNEL/01_META_LOGIC
+source: "02_KERNEL/01_META_LOGIC"
 artifact: "K_QCLA.md"
-artifact_id: "amos_02_kernel_01_meta_logic_k_qcla"
+artifact_id: "02_kernel_01_meta_logic_k_qcla"
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
 system: "AMOS OS"
 plane: "02_KERNEL"
 segment: "02_KERNEL/01_META_LOGIC"
-artifact_kind: "ARTIFACT"
+artifact_kind: "NOTE"
 path: "02_KERNEL/01_META_LOGIC/K_QCLA.md"
 
-tags: [amos_os, kernel, core, 02_kernel, artifact, canon_placeholder, rscf, canon/kernel]
+tags:
+  - 01_meta_logic
+  - 02_kernel
+  - amos_os
+  - artifact
+  - canon/kernel
+  - canon/universe
+  - canon_placeholder
+  - core
+  - k_qcla.md
+  - kernel
+  - note
+  - qcla
+  - rscf
 
-version: "0.1.0"
+version: "0.2.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "PLACEHOLDER_EXPANDED"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
 implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+
 rscf:
-  state: DERIVED
-  claim_class: DERIVED
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
-  scope: AMOS_general
+  scope: 02_KERNEL
+  regime: canon_placeholder
+  confidence_ceiling: source_supported
+  provenance_independence: NOT_ESTABLISHED
 ---
 
+
+## 0. Canonical Status
+
+`K_QCLA.md` is an **ADD-ONLY placeholder-expanded artifact** for the **02_KERNEL** plane segment.
+
+It reserves the canonical slot for the AMOS framework family named **Kernel · QCLA**.
+
+The artifact is presently:
+
+```text
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+```
+
+This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
+
+## 1. Governing Integrity Boundary
+
+The following distinctions are mandatory:
+
+```text
+PLACEHOLDER != IMPLEMENTED
+
+ADDRESSABLE != VALIDATED
+
+DOCUMENTED != ENFORCED
+
+MODEL != OBSERVATION
+
+SOURCE_CLAIM != VERIFIED
+
+CANON_CANDIDATE != CANONICAL
+
+CANONICAL != EMPIRICAL_TRUTH
+
+CAPABILITY != AUTHORITY
+
+AUTHORIZATION != COMMIT
+
+PROPOSAL != COMMIT
+
+IMPLEMENTED != VALIDATED
+
+LOGGED != APPROVED
+
+UNKNOWN/GAP != PASS
+```
+
+No downstream layer may silently collapse these distinctions.
+
+Origin architect / steward: **Trang Phan**
+
+System: **AMOS OS**
+
+---
 
 # Kernel · QCLA
 

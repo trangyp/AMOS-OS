@@ -1,56 +1,110 @@
 ---
-artifact_id: AMOS-OS-12-GENERATORS-VERSIONING
-title: 12 Generators Versioning
-canonical_name: GENERATORS_VERSIONING
-
-artifact_class: GENERATOR_VERSIONING_CONTRACT
-plane: GENERATORS
-subsystem: VERSIONING
-canonical_location: 12_GENERATORS_VERSIONING/README.md
-
-origin_architect: Trang Phan
-amos_core_target: v4.4
-
-status: CANDIDATE_CANON
-conclusion_class: DERIVED
-
-source_state:
-  supplied_artifact: PLACEHOLDER
-  recovered_substantive_original: false
-
-implementation_status: SPECIFICATION
-empirical_validation_status: NOT_CLAIMED
-formal_verification_status: NOT_CLAIMED
-
-authority_scope:
-  - GENERATORS
-  - GENERATOR_REGISTRY
-  - GENERATOR_VERSIONING
-  - GENERATOR_RESOLUTION
-  - GENERATOR_PROVENANCE
-  - GENERATOR_COMPATIBILITY
-  - GENERATED_ARTIFACTS
-  - CANON_GENERATION
-  - MIGRATIONS
-  - REPRODUCIBILITY
-  - RELEASES
-  - ROLLBACK
-  - SUPERSESSION
-
-supersession_required: true
-promotion_required: true
-
-updated: 2026-08-26
+title: "12 Generators Versioning"
 type: document
-source: 25_COGNITIVE_MATRIX/12_GENERATORS
-tags: [amos_os, 12_GENERATORS, canon/cognitive-matrix]
+source: "25_COGNITIVE_MATRIX/12_GENERATORS"
+artifact: "GENERATORS_VERSIONING.md"
+artifact_id: "25_cognitive_matrix_12_generators_generators_versioning"
+origin_architect: "Trang Phan"
+steward: "Trang Phan"
+system: "AMOS OS"
+plane: "25_COGNITIVE_MATRIX"
+segment: "25_COGNITIVE_MATRIX/12_GENERATORS"
+artifact_kind: "DOCUMENT"
+path: "25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VERSIONING.md"
+
+tags:
+  - 12_GENERATORS
+  - 12_generators
+  - 25_cognitive_matrix
+  - amos_os
+  - canon/cognitive-matrix
+  - canon/universe
+  - document
+  - generators
+  - generators_versioning.md
+  - rscf
+  - versioning
+
+version: "0.2.0"
+updated: "2026-08-27"
+
+status: "PLACEHOLDER_EXPANDED"
+epistemic_class: "AMOS_MODEL"
+canonical_status: "UNKNOWN/GAP"
+implementation_status: "NOT_ESTABLISHED"
+validation_status: "NOT_ESTABLISHED"
+executable_binding: "NOT_ESTABLISHED"
+ingestion_action: "ADD_ONLY"
+
 rscf:
-  state: DERIVED
-  claim_class: DERIVED
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
-  scope: AMOS_general
+  scope: 25_COGNITIVE_MATRIX
+  regime: canon_placeholder
+  confidence_ceiling: source_supported
+  provenance_independence: NOT_ESTABLISHED
 ---
 
+
+## 0. Canonical Status
+
+`GENERATORS_VERSIONING.md` is an **ADD-ONLY placeholder-expanded artifact** for the **25_COGNITIVE_MATRIX** plane segment.
+
+It reserves the canonical slot for the AMOS framework family named **12 Generators Versioning**.
+
+The artifact is presently:
+
+```text
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+```
+
+This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
+
+## 1. Governing Integrity Boundary
+
+The following distinctions are mandatory:
+
+```text
+PLACEHOLDER != IMPLEMENTED
+
+ADDRESSABLE != VALIDATED
+
+DOCUMENTED != ENFORCED
+
+MODEL != OBSERVATION
+
+SOURCE_CLAIM != VERIFIED
+
+CANON_CANDIDATE != CANONICAL
+
+CANONICAL != EMPIRICAL_TRUTH
+
+CAPABILITY != AUTHORITY
+
+AUTHORIZATION != COMMIT
+
+PROPOSAL != COMMIT
+
+IMPLEMENTED != VALIDATED
+
+LOGGED != APPROVED
+
+UNKNOWN/GAP != PASS
+```
+
+No downstream layer may silently collapse these distinctions.
+
+Origin architect / steward: **Trang Phan**
+
+System: **AMOS OS**
+
+---
 
 # 12 GENERATORS VERSIONING
 

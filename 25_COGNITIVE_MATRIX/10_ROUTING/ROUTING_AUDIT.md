@@ -1,54 +1,121 @@
 ---
-artifact_id: AMOS-CM-10-ROUTING-ROUTING-AUDIT
 title: "10_ROUTING — Routing Audit"
 type: note
-source: 25_COGNITIVE_MATRIX/10_ROUTING
+source: "25_COGNITIVE_MATRIX/10_ROUTING"
+artifact: "ROUTING_AUDIT.md"
+artifact_id: "25_cognitive_matrix_10_routing_routing_audit"
+origin_architect: "Trang Phan"
+steward: "Trang Phan"
+system: "AMOS OS"
+plane: "25_COGNITIVE_MATRIX"
+segment: "25_COGNITIVE_MATRIX/10_ROUTING"
+artifact_kind: "NOTE"
+path: "25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_AUDIT.md"
 
-path_target: "25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_AUDIT.md"
+tags:
+  - 10_routing
+  - 25_cognitive_matrix
+  - AMOS
+  - AMOS_CORE
+  - AMOS_CORE_v4_4
+  - AMOS_FULL_BRAIN_OS
+  - AMOS_OS
+  - COGNITIVE_MATRIX
+  - ROUTING
+  - ROUTING_AUDIT
+  - TRANG_PHAN
+  - amos_os
+  - audit
+  - canon/cognitive-matrix
+  - canon/universe
+  - cognitive_matrix
+  - matrix
+  - note
+  - routing
+  - routing_audit.md
+  - rscf
+  - {'identity':-None}
 
-artifact_class: MATRIX_INFRASTRUCTURE_PLACEHOLDER
-contract_class: ROUTING_AUDIT_CONTROL_CONTRACT
-architecture_layer: COGNITIVE_MATRIX_INFRASTRUCTURE
-subsystem: 10_ROUTING
+version: "0.2.0"
+updated: "2026-08-27"
 
-origin_architect: Trang Phan
-stewardship: AMOS / Trang corpus
+status: "PLACEHOLDER_EXPANDED"
+epistemic_class: "AMOS_MODEL"
+canonical_status: "UNKNOWN/GAP"
+implementation_status: "NOT_ESTABLISHED"
+validation_status: "NOT_ESTABLISHED"
+executable_binding: "NOT_ESTABLISHED"
+ingestion_action: "ADD_ONLY"
 
-status: PROPOSED_SPECIFICATION
-implementation_status: UNIMPLEMENTED_OR_UNVERIFIED
-validation_status: UNVALIDATED
-audit_status: NOT_RUN
-epistemic_class: UNKNOWN/GAP
-conclusion_class: UNKNOWN/GAP
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: 25_COGNITIVE_MATRIX
+  regime: canon_placeholder
+  confidence_ceiling: source_supported
+  provenance_independence: NOT_ESTABLISHED
+---
 
-amos_core_target: v4.4
-updated: 2026-08-26
 
-authority_class: NON_AUTHORITATIVE_SPECIFICATION
-audit_authority: NONE
-routing_authority: NONE
-execution_authority: NONE
-promotion_authority: NONE
-canon_authority: NONE
-finality_authority: NONE
+## 0. Canonical Status
 
-risk_class: CONTROL_PLANE_CRITICAL
-default_mutation_class: M0_READ_ONLY_AUDIT
-default_reversibility: HIGH
+`ROUTING_AUDIT.md` is an **ADD-ONLY placeholder-expanded artifact** for the **25_COGNITIVE_MATRIX** plane segment.
 
-rscf_role: "- ROUTING_AUDIT_CAPSULE
-  - ROUTE_INTEGRITY_CAPSULE
-  - BINDING_VALIDITY_CAPSULE
-  - ROUTE_REUSE_AUD..."
-gmef_role: "- ROUTING_ASSURANCE_GATE
-  - BINDING_AUDIT_GATE
-  - ROUTING_POLICY_COMPLIANCE_GATE
-  - ROUTE_PROMOTI..."
-hml_scope: "see body"
-tags: [{'identity':-None}, cognitive_matrix, matrix, AMOS, AMOS_OS, AMOS_FULL_BRAIN_OS, AMOS_CORE, AMOS_CORE_v4_4, TRANG_PHAN, COGNITIVE_MATRIX, ROUTING, ROUTING_AUDIT, canon/cognitive-matrix]
+It reserves the canonical slot for the AMOS framework family named **10_ROUTING — Routing Audit**.
 
-architecture: "see body"---
+The artifact is presently:
 
+```text
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+```
+
+This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
+
+## 1. Governing Integrity Boundary
+
+The following distinctions are mandatory:
+
+```text
+PLACEHOLDER != IMPLEMENTED
+
+ADDRESSABLE != VALIDATED
+
+DOCUMENTED != ENFORCED
+
+MODEL != OBSERVATION
+
+SOURCE_CLAIM != VERIFIED
+
+CANON_CANDIDATE != CANONICAL
+
+CANONICAL != EMPIRICAL_TRUTH
+
+CAPABILITY != AUTHORITY
+
+AUTHORIZATION != COMMIT
+
+PROPOSAL != COMMIT
+
+IMPLEMENTED != VALIDATED
+
+LOGGED != APPROVED
+
+UNKNOWN/GAP != PASS
+```
+
+No downstream layer may silently collapse these distinctions.
+
+Origin architect / steward: **Trang Phan**
+
+System: **AMOS OS**
+
+---
 
 # 10_ROUTING — Routing Audit
 
@@ -117,3 +184,15 @@ The primary audit question is:
 
 ---
 **MOC:** [[10_ROUTING_MOC]]
+
+---
+
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
+
+---
+
+**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+
+---
+
+*RSCF Status: SOURCE_CLAIM · Epistemic Class: AMOS_MODEL · Canonical Status: UNKNOWN/GAP*

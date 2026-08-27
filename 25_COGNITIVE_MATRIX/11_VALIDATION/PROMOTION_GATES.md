@@ -1,15 +1,111 @@
 ---
-title: PROMOTION GATES
+title: "PROMOTION GATES"
 type: note
-source: 25_COGNITIVE_MATRIX/11_VALIDATION
-tags: [cognitive_matrix, validation, note, canon/cognitive-matrix]
+source: "25_COGNITIVE_MATRIX/11_VALIDATION"
+artifact: "PROMOTION_GATES.md"
+artifact_id: "25_cognitive_matrix_11_validation_promotion_gates"
+origin_architect: "Trang Phan"
+steward: "Trang Phan"
+system: "AMOS OS"
+plane: "25_COGNITIVE_MATRIX"
+segment: "25_COGNITIVE_MATRIX/11_VALIDATION"
+artifact_kind: "NOTE"
+path: "25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES.md"
+
+tags:
+  - 11_validation
+  - 25_cognitive_matrix
+  - amos_os
+  - canon/cognitive-matrix
+  - canon/universe
+  - cognitive_matrix
+  - gates
+  - note
+  - promotion
+  - promotion_gates.md
+  - rscf
+  - validation
+
+version: "0.2.0"
+updated: "2026-08-27"
+
+status: "PLACEHOLDER_EXPANDED"
+epistemic_class: "AMOS_MODEL"
+canonical_status: "UNKNOWN/GAP"
+implementation_status: "NOT_ESTABLISHED"
+validation_status: "NOT_ESTABLISHED"
+executable_binding: "NOT_ESTABLISHED"
+ingestion_action: "ADD_ONLY"
+
 rscf:
-  state: DERIVED
-  claim_class: DERIVED
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
-  scope: AMOS_general
+  scope: 25_COGNITIVE_MATRIX
+  regime: canon_placeholder
+  confidence_ceiling: source_supported
+  provenance_independence: NOT_ESTABLISHED
 ---
 
+
+## 0. Canonical Status
+
+`PROMOTION_GATES.md` is an **ADD-ONLY placeholder-expanded artifact** for the **25_COGNITIVE_MATRIX** plane segment.
+
+It reserves the canonical slot for the AMOS framework family named **PROMOTION GATES**.
+
+The artifact is presently:
+
+```text
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+```
+
+This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
+
+## 1. Governing Integrity Boundary
+
+The following distinctions are mandatory:
+
+```text
+PLACEHOLDER != IMPLEMENTED
+
+ADDRESSABLE != VALIDATED
+
+DOCUMENTED != ENFORCED
+
+MODEL != OBSERVATION
+
+SOURCE_CLAIM != VERIFIED
+
+CANON_CANDIDATE != CANONICAL
+
+CANONICAL != EMPIRICAL_TRUTH
+
+CAPABILITY != AUTHORITY
+
+AUTHORIZATION != COMMIT
+
+PROPOSAL != COMMIT
+
+IMPLEMENTED != VALIDATED
+
+LOGGED != APPROVED
+
+UNKNOWN/GAP != PASS
+```
+
+No downstream layer may silently collapse these distinctions.
+
+Origin architect / steward: **Trang Phan**
+
+System: **AMOS OS**
+
+---
 
 # 11_VALIDATION — Promotion Gates
 

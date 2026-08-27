@@ -1,15 +1,110 @@
 ---
-title: GENERATOR VALIDATION
+title: "GENERATOR VALIDATION"
 type: note
-source: 25_COGNITIVE_MATRIX/12_GENERATORS
-tags: [note, 12-generators, canon/cognitive-matrix]
+source: "25_COGNITIVE_MATRIX/12_GENERATORS"
+artifact: "GENERATOR_VALIDATION.md"
+artifact_id: "25_cognitive_matrix_12_generators_generator_validation"
+origin_architect: "Trang Phan"
+steward: "Trang Phan"
+system: "AMOS OS"
+plane: "25_COGNITIVE_MATRIX"
+segment: "25_COGNITIVE_MATRIX/12_GENERATORS"
+artifact_kind: "NOTE"
+path: "25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VALIDATION.md"
+
+tags:
+  - 12-generators
+  - 12_generators
+  - 25_cognitive_matrix
+  - amos_os
+  - canon/cognitive-matrix
+  - canon/universe
+  - generator
+  - generator_validation.md
+  - note
+  - rscf
+  - validation
+
+version: "0.2.0"
+updated: "2026-08-27"
+
+status: "PLACEHOLDER_EXPANDED"
+epistemic_class: "AMOS_MODEL"
+canonical_status: "UNKNOWN/GAP"
+implementation_status: "NOT_ESTABLISHED"
+validation_status: "NOT_ESTABLISHED"
+executable_binding: "NOT_ESTABLISHED"
+ingestion_action: "ADD_ONLY"
+
 rscf:
-  state: DERIVED
-  claim_class: DERIVED
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
-  scope: AMOS_general
+  scope: 25_COGNITIVE_MATRIX
+  regime: canon_placeholder
+  confidence_ceiling: source_supported
+  provenance_independence: NOT_ESTABLISHED
 ---
 
+
+## 0. Canonical Status
+
+`GENERATOR_VALIDATION.md` is an **ADD-ONLY placeholder-expanded artifact** for the **25_COGNITIVE_MATRIX** plane segment.
+
+It reserves the canonical slot for the AMOS framework family named **GENERATOR VALIDATION**.
+
+The artifact is presently:
+
+```text
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+```
+
+This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
+
+## 1. Governing Integrity Boundary
+
+The following distinctions are mandatory:
+
+```text
+PLACEHOLDER != IMPLEMENTED
+
+ADDRESSABLE != VALIDATED
+
+DOCUMENTED != ENFORCED
+
+MODEL != OBSERVATION
+
+SOURCE_CLAIM != VERIFIED
+
+CANON_CANDIDATE != CANONICAL
+
+CANONICAL != EMPIRICAL_TRUTH
+
+CAPABILITY != AUTHORITY
+
+AUTHORIZATION != COMMIT
+
+PROPOSAL != COMMIT
+
+IMPLEMENTED != VALIDATED
+
+LOGGED != APPROVED
+
+UNKNOWN/GAP != PASS
+```
+
+No downstream layer may silently collapse these distinctions.
+
+Origin architect / steward: **Trang Phan**
+
+System: **AMOS OS**
+
+---
 
 # Generator Validation
 

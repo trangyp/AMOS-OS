@@ -1,35 +1,112 @@
 ---
+title: "AMOS OS Mode Gap Registry"
 type: gap
-source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
-artifact_id: AMOS-OS-MODE-MODE_GAP_REGISTRY
-title: AMOS OS Mode Gap Registry
-canonical_name: MODE_GAP_REGISTRY
+source: "03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX"
+artifact: "MODE_GAP_REGISTRY.md"
+artifact_id: "03_control_plane_09_commit_00_mode_index_mode_gap_registry"
+origin_architect: "Trang Phan"
+steward: "Trang Phan"
+system: "AMOS OS"
+plane: "03_CONTROL_PLANE"
+segment: "03_CONTROL_PLANE/09_COMMIT"
+artifact_kind: "GAP"
+path: "03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_GAP_REGISTRY.md"
 
-artifact_class: GOVERNED_MODE_GAP_REGISTRY
-subsystem: MODE_GOVERNANCE
-origin_architect: Trang Phan
-amos_core_target: v4.4
+tags:
+  - 00_mode_index
+  - 03_control_plane
+  - 09_commit
+  - amos_os
+  - canon/control-plane
+  - canon/universe
+  - commit
+  - control_plane
+  - gap
+  - mode_gap_registry.md
+  - mode_index
+  - note
+  - rscf
 
-status: CANDIDATE_CANON
-conclusion_class: DERIVED
+version: "0.2.0"
+updated: "2026-08-27"
 
-source_state: "existing_file: PLACEHOLDER
-  recovered_substantive_implementation: false..."
-related_artifacts: "see body"
-implementation_status: SPECIFICATION
-formal_verification_status: NOT_CLAIMED
-empirical_validation_status: NOT_CLAIMED
+status: "PLACEHOLDER_EXPANDED"
+epistemic_class: "AMOS_MODEL"
+canonical_status: "UNKNOWN/GAP"
+implementation_status: "NOT_ESTABLISHED"
+validation_status: "NOT_ESTABLISHED"
+executable_binding: "NOT_ESTABLISHED"
+ingestion_action: "ADD_ONLY"
 
-promotion_required: true
-updated: 2026-08-26
-tags: [control_plane, commit, mode_index, note, canon/control-plane]
 rscf:
-  state: DERIVED
-  claim_class: DERIVED
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
-  scope: AMOS_general
+  scope: 03_CONTROL_PLANE
+  regime: canon_placeholder
+  confidence_ceiling: source_supported
+  provenance_independence: NOT_ESTABLISHED
 ---
 
+
+## 0. Canonical Status
+
+`MODE_GAP_REGISTRY.md` is an **ADD-ONLY placeholder-expanded artifact** for the **03_CONTROL_PLANE** plane segment.
+
+It reserves the canonical slot for the AMOS framework family named **AMOS OS Mode Gap Registry**.
+
+The artifact is presently:
+
+```text
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+```
+
+This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
+
+## 1. Governing Integrity Boundary
+
+The following distinctions are mandatory:
+
+```text
+PLACEHOLDER != IMPLEMENTED
+
+ADDRESSABLE != VALIDATED
+
+DOCUMENTED != ENFORCED
+
+MODEL != OBSERVATION
+
+SOURCE_CLAIM != VERIFIED
+
+CANON_CANDIDATE != CANONICAL
+
+CANONICAL != EMPIRICAL_TRUTH
+
+CAPABILITY != AUTHORITY
+
+AUTHORIZATION != COMMIT
+
+PROPOSAL != COMMIT
+
+IMPLEMENTED != VALIDATED
+
+LOGGED != APPROVED
+
+UNKNOWN/GAP != PASS
+```
+
+No downstream layer may silently collapse these distinctions.
+
+Origin architect / steward: **Trang Phan**
+
+System: **AMOS OS**
+
+---
 
 # AMOS OS — Mode Gap Registry
 

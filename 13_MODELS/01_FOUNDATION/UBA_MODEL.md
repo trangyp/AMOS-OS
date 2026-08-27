@@ -1,9 +1,9 @@
 ---
 title: "UBA Model"
 type: model
-source: 13_MODELS/01_FOUNDATION
+source: "13_MODELS/01_FOUNDATION"
 artifact: "UBA_MODEL.md"
-artifact_id: "amos_13_models_01_foundation_uba_model"
+artifact_id: "13_models_01_foundation_uba_model"
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
 system: "AMOS OS"
@@ -12,25 +12,98 @@ segment: "13_MODELS/01_FOUNDATION"
 artifact_kind: "MODEL"
 path: "13_MODELS/01_FOUNDATION/UBA_MODEL.md"
 
-tags: [amos_os, model, specification, 13_models, canon_placeholder, rscf, canon/model]
+tags:
+  - 01_foundation
+  - 13_models
+  - amos_os
+  - canon/model
+  - canon/universe
+  - canon_placeholder
+  - model
+  - rscf
+  - specification
+  - uba_model.md
 
-version: "0.1.0"
+version: "0.2.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "PLACEHOLDER_EXPANDED"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
 implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+
 rscf:
-  state: DERIVED
-  claim_class: DERIVED
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
-  scope: AMOS_general
+  scope: 13_MODELS
+  regime: canon_placeholder
+  confidence_ceiling: source_supported
+  provenance_independence: NOT_ESTABLISHED
 ---
 
+
+## 0. Canonical Status
+
+`UBA_MODEL.md` is an **ADD-ONLY placeholder-expanded artifact** for the **13_MODELS** plane segment.
+
+It reserves the canonical slot for the AMOS framework family named **UBA Model**.
+
+The artifact is presently:
+
+```text
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+```
+
+This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
+
+## 1. Governing Integrity Boundary
+
+The following distinctions are mandatory:
+
+```text
+PLACEHOLDER != IMPLEMENTED
+
+ADDRESSABLE != VALIDATED
+
+DOCUMENTED != ENFORCED
+
+MODEL != OBSERVATION
+
+SOURCE_CLAIM != VERIFIED
+
+CANON_CANDIDATE != CANONICAL
+
+CANONICAL != EMPIRICAL_TRUTH
+
+CAPABILITY != AUTHORITY
+
+AUTHORIZATION != COMMIT
+
+PROPOSAL != COMMIT
+
+IMPLEMENTED != VALIDATED
+
+LOGGED != APPROVED
+
+UNKNOWN/GAP != PASS
+```
+
+No downstream layer may silently collapse these distinctions.
+
+Origin architect / steward: **Trang Phan**
+
+System: **AMOS OS**
+
+---
 
 # UBA Model
 
