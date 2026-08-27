@@ -29,7 +29,7 @@ Vault/files are externalized memory substrate, not cognition.
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[AMOS_7_PART_UNIVERSE_CANON]] · [[HML_CANON]] · [[00-Home]]
+**Related:** [[AMOS_7_PART_UNIVERSE_CANON]] · [[HML_CANON]] · [[00_ROOT/00-Home]]
 
 ---
 RSCF-NODE
@@ -37,6 +37,6 @@ node_id: p3_knowledge_memory
 node_type: note
 path: 01_CANON/02_UNIVERSE_CANON/P3_KNOWLEDGE_MEMORY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - CHILD_OF: [[AMOS_7_PART_UNIVERSE_CANON]]
 claim_class: AMOS_MODEL

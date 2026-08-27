@@ -12,8 +12,8 @@ Covers temporal credit decay, counterfactual attribution, and blame-symmetry rul
 
 ## Control-plane binding
 
-- [[C03_EXECUTIVE]] — bound control plane
-- [[C04_REASONING]] — primary reasoning-plane owner for this primitive
+- C03_EXECUTIVE — bound control plane
+- C04_REASONING — primary reasoning-plane owner for this primitive
 
 ## Hard boundaries
 

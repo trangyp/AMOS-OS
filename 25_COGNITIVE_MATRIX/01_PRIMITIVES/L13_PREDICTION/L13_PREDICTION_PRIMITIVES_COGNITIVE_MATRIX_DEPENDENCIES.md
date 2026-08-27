@@ -12,13 +12,13 @@ Covers forecast emission, calibration scoring, and horizon discipline.
 
 ## Upstream dependencies
 
-- [[L09_INFERENCE]]
-- [[L10_WORLD_MODELING]]
+- [[L09_INFERENCE_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L10_WORLD_MODELING_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L19_OUTCOME_OBSERVATION]]
-- [[L20_CREDIT_ASSIGNMENT]]
+- [[L19_OUTCOME_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L20_CREDIT_ASSIGNMENT_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

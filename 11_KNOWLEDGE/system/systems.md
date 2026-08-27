@@ -1,0 +1,80 @@
+---
+tags: [system]
+---
+[
+  {
+    "id": "ubi.system.heart",
+    "name": "Heart System",
+    "description": "Computational heart system state (synthetic, non-medical). Tracks load, rhythm stability, and coherence.",
+    "layer_id": "ubi",
+    "domain_id": "regulation",
+    "tags": {
+      "family": "ubi",
+      "kind": "system",
+      "type": "heart"
+    }
+  },
+  {
+    "id": "ubi.system.brain",
+    "name": "Brain Biological System",
+    "description": "Computational brain biological state (synthetic, non-medical). Tracks arousal load, focus stability, and overload index.",
+    "layer_id": "ubi",
+    "domain_id": "cognition",
+    "tags": {
+      "family": "ubi",
+      "kind": "system",
+      "type": "brain"
+    }
+  },
+  {
+    "id": "ubi.system.gut",
+    "name": "Gut System",
+    "description": "Computational gut system state (synthetic, non-medical). Tracks stability, inflammation index, and comfort score.",
+    "layer_id": "ubi",
+    "domain_id": "regulation",
+    "tags": {
+      "family": "ubi",
+      "kind": "system",
+      "type": "gut"
+    }
+  },
+  {
+    "id": "ubi.system.fascia",
+    "name": "Fascia System",
+    "description": "Computational fascia system state (synthetic, non-medical). Tracks tension index, mobility score, and rigidity.",
+    "layer_id": "ubi",
+    "domain_id": "behaviour",
+    "tags": {
+      "family": "ubi",
+      "kind": "system",
+      "type": "fascia"
+    }
+  },
+  {
+    "id": "ubi.system.immune",
+    "name": "Immune System",
+    "description": "Computational immune system state (synthetic, non-medical). Tracks activation level, threat index, and recovery capacity.",
+    "layer_id": "ubi",
+    "domain_id": "repair",
+    "tags": {
+      "family": "ubi",
+      "kind": "system",
+      "type": "immune"
+    }
+  },
+  {
+    "id": "ubi.system.endocrine",
+    "name": "Endocrine System",
+    "description": "Computational endocrine system state (synthetic, non-medical). Tracks stress hormone load and stability score.",
+    "layer_id": "ubi",
+    "domain_id": "regulation",
+    "tags": {
+      "family": "ubi",
+      "kind": "system",
+      "type": "endocrine"
+    }
+  }
+]
+
+---
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]

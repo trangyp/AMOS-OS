@@ -9,7 +9,7 @@ tags: ['cognitive_matrix', 'l26_social_cognition']
 - See also — [[PRIMITIVES_COGNITIVE_MATRIX_L26_SOCIAL_COGNITION_CONTRACT]]
 
 ## Indexing rule
-This index resolves by basename within its own directory. Cross-plane resolution goes through [[00-Home]] and [[AMOS_RSCF_NODES]].
+This index resolves by basename within its own directory. Cross-plane resolution goes through [[00_ROOT/00-Home]] and [[AMOS_RSCF_NODES]].
 
 ## Gaps
 Automated link-integrity execution for this index is PARTIAL ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).

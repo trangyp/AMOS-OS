@@ -12,11 +12,11 @@ Covers rule encoding, precedence resolution, and enforcement-root attestation.
 
 ## Upstream dependencies
 
-- [[L29_EVOLUTION]]
+- [[L29_EVOLUTION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[ALL_CONTROL_PLANES]]
+- ALL_CONTROL_PLANES
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

@@ -12,12 +12,12 @@ Covers the operation contract for this lifecycle operator.
 
 ## Upstream dependencies
 
-- [[O03_BINDING]]
+- O03_BINDING
 
 ## Downstream dependents
 
-- [[O05_MEMORY]]
-- [[O07_INFERENCE]]
+- O05_MEMORY
+- O07_INFERENCE
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

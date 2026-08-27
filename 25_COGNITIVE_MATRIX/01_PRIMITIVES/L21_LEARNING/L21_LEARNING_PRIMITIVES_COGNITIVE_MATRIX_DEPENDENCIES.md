@@ -12,12 +12,12 @@ Covers update gating, catastrophic-forgetting protection, and evolution-authorit
 
 ## Upstream dependencies
 
-- [[L20_CREDIT_ASSIGNMENT]]
+- [[L20_CREDIT_ASSIGNMENT_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L22_CONSOLIDATION]]
-- [[L29_EVOLUTION]]
+- [[L22_CONSOLIDATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L29_EVOLUTION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

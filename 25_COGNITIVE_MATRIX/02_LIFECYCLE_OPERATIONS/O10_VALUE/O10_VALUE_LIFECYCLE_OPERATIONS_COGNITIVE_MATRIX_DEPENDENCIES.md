@@ -12,12 +12,12 @@ Covers the operation contract for this lifecycle operator.
 
 ## Upstream dependencies
 
-- [[O08_PREDICTION]]
-- [[O09_SIMULATION]]
+- O08_PREDICTION
+- O09_SIMULATION
 
 ## Downstream dependents
 
-- [[O11_GOAL]]
+- O11_GOAL
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

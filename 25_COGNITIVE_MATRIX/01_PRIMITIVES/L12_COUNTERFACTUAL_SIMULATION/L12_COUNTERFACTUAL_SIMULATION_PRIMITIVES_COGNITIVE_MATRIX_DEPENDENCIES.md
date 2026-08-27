@@ -12,12 +12,12 @@ Covers scenario construction, simulation honesty rules, and pessimism correction
 
 ## Upstream dependencies
 
-- [[L11_CAUSAL_MODELING]]
+- [[L11_CAUSAL_MODELING_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L14_VALUATION]]
-- [[L16_PLANNING]]
+- [[L14_VALUATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

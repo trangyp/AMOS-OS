@@ -1,10 +1,4 @@
 ---
-tags: ['cognitive_matrix', 'validation', 'note']
----
-
-Below is the **full replacement content** for `11_VALIDATION/VALIDATION_LEVELS.md`. It is aligned with the AMOS Full Brain OS distinction between cognition, runtime epistemics, authority/control, and deployment; with RSCF claim typing and provenance; and with the rule that structural coverage or successful execution does not itself establish empirical validity. 
-
----
 id: AMOS-11-VALIDATION-LEVELS
 title: "11_VALIDATION — Validation Levels"
 origin_architect: "Trang Phan"
@@ -5058,7 +5052,7 @@ ACTUALLY SUPPORTS.
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -5066,6 +5060,6 @@ node_id: validation_levels
 node_type: note
 path: 25_COGNITIVE_MATRIX/11_VALIDATION/VALIDATION_LEVELS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

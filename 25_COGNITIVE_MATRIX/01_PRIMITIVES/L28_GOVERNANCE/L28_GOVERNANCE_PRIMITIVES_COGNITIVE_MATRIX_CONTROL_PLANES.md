@@ -12,8 +12,8 @@ Covers rule encoding, precedence resolution, and enforcement-root attestation.
 
 ## Control-plane binding
 
-- [[C01_GOVERNANCE]] — bound control plane
-- [[C09_KERNEL_CONTROL]] — bound control plane
+- C01_GOVERNANCE — bound control plane
+- C09_KERNEL_CONTROL — bound control plane
 
 ## Hard boundaries
 

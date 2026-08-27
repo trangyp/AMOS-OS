@@ -3172,7 +3172,7 @@ This contract keeps routing aligned with the AMOS Full Brain OS integrity bounda
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -3180,6 +3180,6 @@ node_id: binding_rules
 node_type: note
 path: 25_COGNITIVE_MATRIX/10_ROUTING/BINDING_RULES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

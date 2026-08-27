@@ -12,8 +12,8 @@ Covers action dispatch, capability gating, and execution receipts.
 
 ## Control-plane binding
 
-- [[C08_EXECUTION]] — bound control plane
-- [[C01_GOVERNANCE]] — bound control plane
+- C08_EXECUTION — bound control plane
+- C01_GOVERNANCE — bound control plane
 
 ## Hard boundaries
 

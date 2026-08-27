@@ -12,8 +12,8 @@ Covers write gating, consolidation thresholds, retrieval diversity, and falsific
 
 ## Control-plane binding
 
-- [[C06_MEMORY]] — bound control plane
-- [[C01_GOVERNANCE]] — bound control plane
+- C06_MEMORY — bound control plane
+- C01_GOVERNANCE — bound control plane
 
 ## Hard boundaries
 

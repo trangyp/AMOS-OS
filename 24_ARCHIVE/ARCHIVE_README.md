@@ -23,7 +23,7 @@ Executable binding PARTIAL unless an executed validation receipt exists for this
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

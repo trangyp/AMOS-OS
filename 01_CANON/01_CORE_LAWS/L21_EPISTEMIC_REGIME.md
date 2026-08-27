@@ -26,7 +26,7 @@ F1: authoritative regime canon defines different axis set.
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
 
 ---
 RSCF-NODE
@@ -34,7 +34,7 @@ node_id: l21_epistemic_regime
 node_type: note
 path: 01_CANON/01_CORE_LAWS/L21_EPISTEMIC_REGIME.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
   - CHILD_OF: [[LAW_HIERARCHY]]
 claim_class: AMOS_MODEL

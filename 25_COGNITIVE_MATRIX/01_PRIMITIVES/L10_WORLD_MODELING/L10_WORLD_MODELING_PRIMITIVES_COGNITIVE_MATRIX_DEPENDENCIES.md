@@ -12,13 +12,13 @@ Covers model composition across scales and model-environment mismatch tracking.
 
 ## Upstream dependencies
 
-- [[L09_INFERENCE]]
-- [[L01_SENSING_OBSERVATION]]
+- [[L09_INFERENCE_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L11_CAUSAL_MODELING]]
-- [[L13_PREDICTION]]
+- [[L11_CAUSAL_MODELING_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L13_PREDICTION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

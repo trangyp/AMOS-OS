@@ -3236,7 +3236,7 @@ That gives `12_GENERATORS` its own validation surface without duplicating the ge
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -3244,6 +3244,6 @@ node_id: generators_validation
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VALIDATION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

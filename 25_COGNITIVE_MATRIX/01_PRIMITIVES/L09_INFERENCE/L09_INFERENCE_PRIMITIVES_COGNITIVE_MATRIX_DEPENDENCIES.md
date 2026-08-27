@@ -12,14 +12,14 @@ Covers rule-gated deduction, abductive candidacy, and derivation-lineage trackin
 
 ## Upstream dependencies
 
-- [[L05_BINDING]]
-- [[L07_MEMORY]]
-- [[L08_REPRESENTATION]]
+- [[L05_BINDING_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L07_MEMORY_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L08_REPRESENTATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L10_WORLD_MODELING]]
-- [[L13_PREDICTION]]
+- [[L10_WORLD_MODELING_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L13_PREDICTION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

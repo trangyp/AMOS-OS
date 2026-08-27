@@ -60,7 +60,7 @@ Given an operation touching `DEPENDENCY GRAPH COGNITIVE MATRIX DEPENDENCY GRAPH 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00-Home]]
 
 ---
 RSCF-NODE

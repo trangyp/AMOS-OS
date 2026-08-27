@@ -12,7 +12,7 @@ Subsystem contracts, operators, package mechanics.
 
 ## Control-plane binding
 
-- [[C01_GOVERNANCE]] — scale-governance owner
+- C01_GOVERNANCE — scale-governance owner
 
 ## Hard boundaries
 

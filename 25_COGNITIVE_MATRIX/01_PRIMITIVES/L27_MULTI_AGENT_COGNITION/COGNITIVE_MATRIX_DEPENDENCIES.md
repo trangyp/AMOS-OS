@@ -12,12 +12,12 @@ Covers DAG coordination, wave scheduling, and inter-agent trust propagation.
 
 ## Upstream dependencies
 
-- [[L26_SOCIAL_COGNITION]]
+- [[L26_SOCIAL_COGNITION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L17_DECISION]]
-- [[C03_EXECUTIVE]]
+- [[L17_DECISION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- C03_EXECUTIVE
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

@@ -60,7 +60,7 @@ Given an operation touching `LIFECYCLE OPERATIONS · COGNITIVE MATRIX O08 PREDIC
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00-Home]]
 
 ---
 RSCF-NODE

@@ -12,13 +12,13 @@ Covers utility assignment, risk weighting, and value-conflict surfacing.
 
 ## Upstream dependencies
 
-- [[L12_COUNTERFACTUAL_SIMULATION]]
-- [[L13_PREDICTION]]
+- [[L12_COUNTERFACTUAL_SIMULATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L13_PREDICTION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L15_GOAL_FORMATION]]
-- [[L17_DECISION]]
+- [[L15_GOAL_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L17_DECISION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

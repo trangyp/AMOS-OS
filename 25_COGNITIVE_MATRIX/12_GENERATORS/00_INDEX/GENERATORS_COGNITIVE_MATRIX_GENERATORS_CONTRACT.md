@@ -1,70 +1,2378 @@
+````markdown
 ---
-tags: ['cognitive_matrix', '00_index']
+artifact_id: AMOS-CM-12-GENERATORS-CONTRACT
+title: "Generators Cognitive Matrix Generators Contract"
+path_target: "25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_COGNITIVE_MATRIX_GENERATORS_CONTRACT.md"
+artifact_class: CONTRACT
+contract_class: COGNITIVE_MATRIX_GENERATOR_CONTRACT
+plane: COGNITIVE_MATRIX
+subsystem: 12_GENERATORS
+origin_architect: Trang Phan
+updated: 2026-08-26
+epistemic_class: AMOS_MODEL
+conclusion_class: CONDITIONAL
+canonical_status: CONDITIONAL
+implementation_status: PARTIAL
+rscf_state: derived
+tags:
+  - cognitive_matrix
+  - generators
+  - contract
+  - 00_index
+  - provenance
+  - validation
+  - falsification
+  - promotion
+  - supersession
 ---
 
 # GENERATORS COGNITIVE MATRIX GENERATORS CONTRACT
 
 ## 0. Status
-Cognitive Matrix-plane contract for **GENERATORS COGNITIVE MATRIX GENERATORS CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
-## 1. Scope
-Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `GENERATORS COGNITIVE MATRIX GENERATORS CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
+**STATUS:** PROPOSED_SPECIFICATION  
+**epistemic_class:** AMOS_MODEL  
+**canonical_status:** CONDITIONAL  
+**implementation_status:** PARTIAL  
+**updated:** 2026-08-26
 
-## 2. Contract terms
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
+This artifact defines the subsystem contract for generators within the AMOS Cognitive Matrix plane.
 
-## 3. Invariants
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
+It replaces the reserved placeholder at this canonical location with a **proposed specification**, not with a claim of completed implementation or empirical validation.
 
-## 4. Executed reference
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
+The governing distinction is:
 
-## 5. Gaps
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
+```text
+GENERATOR_SPECIFICATION ≠ GENERATOR_IMPLEMENTATION
+GENERATOR_EXECUTION ≠ VALIDATION
+GENERATOR_OUTPUT ≠ CANON
+GENERATOR_PROPOSAL ≠ COMMIT
+TEST_PASS ≠ TRUTH
+````
 
-## 6. Falsifiers
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
-## Worked semantics
-Given an operation touching `GENERATORS COGNITIVE MATRIX GENERATORS CONTRACT` within the Cognitive Matrix plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+No generated artifact acquires authority merely because a generator produced it.
 
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+---
+
+## 1. Purpose
+
+The generator subsystem exists to produce **typed candidate artifacts** from declared seeds, templates, inputs, constraints, and generator versions while preserving enough provenance to validate, falsify, reproduce, compare, promote, reject, or supersede those candidates.
+
+The canonical lifecycle is:
+
+```text
+SEED
+  ↓
+GENERATOR
+  ↓
+OUTPUT
+  ↓
+VALIDATION
+  ↓
+FALSIFICATION
+  ↓
+PROMOTION GATE
+  ↓
+PROMOTE / HOLD / REJECT
+  ↓
+SUPERSESSION when applicable
+```
+
+At every stage:
+
+```text
+UNKNOWN/GAP ≠ PASS
+```
+
+---
+
+# 2. Scope
+
+This contract governs generator behavior across the Cognitive Matrix insofar as generation bears upon:
+
+* primitives L00–L29;
+* lifecycle operations O00–O16;
+* control planes C01–C09;
+* scales;
+* cells and cell registry;
+* routing;
+* validation;
+* generator seeds;
+* generator templates;
+* generator registry;
+* generator admission;
+* generator outputs;
+* generator tests;
+* generator validation;
+* generator falsification;
+* generator promotion;
+* generator provenance;
+* generator versioning;
+* generator supersession.
+
+It does **not** establish that generators for every listed surface currently exist.
+
+It governs only the artifacts and implementations actually bound to this contract.
+
+---
+
+# 3. Generator Definition
+
+A generator is modeled as a typed transformation:
+
+$$
+G:
+(S,T,I,C,E)
+\rightarrow
+O
+$$
+
+where:
+
+* \(S\) = seed;
+* \(T\) = template;
+* \(I\) = supplied inputs;
+* \(C\) = constraints;
+* \(E\) = execution context;
+* \(O\) = generated output.
+
+For governed execution, the transformation SHOULD additionally produce provenance \(P\):
+
+$$
+G(S,T,I,C,E)
+\rightarrow
+(O,P)
+$$
+
+Generation is therefore not merely text production.
+
+A governed generator operation produces an output plus enough lineage to determine what produced it and under which conditions.
+
+---
+
+# 4. Generator Artifact Classes
+
+The subsystem recognizes at least the following conceptual surfaces:
+
+```text
+GENERATOR_SEED
+GENERATOR_TEMPLATE
+GENERATOR_DEFINITION
+GENERATOR_REGISTRY_ENTRY
+GENERATOR_EXECUTION
+GENERATOR_OUTPUT
+GENERATOR_TEST
+GENERATOR_VALIDATION
+GENERATOR_FALSIFICATION
+GENERATOR_PROMOTION
+GENERATOR_VERSION
+GENERATOR_PROVENANCE
+GENERATOR_SUPERSESSION
+```
+
+These artifact classes MUST NOT be silently collapsed.
+
+In particular:
+
+```text
+SEED ≠ OUTPUT
+OUTPUT ≠ VALIDATION
+VALIDATION ≠ PROMOTION
+PROMOTION ≠ CANONICAL_TRUTH
+SUPERSESSION ≠ DELETION
+```
+
+---
+
+# 5. Generator Identity
+
+Every governed generator SHOULD possess stable identity.
+
+Minimum identity surface:
+
+```yaml
+generator:
+  generator_id:
+  generator_version:
+  artifact_type:
+  scope:
+  regime:
+  epistemic_class:
+```
+
+Where identity is required but unresolved:
+
+```text
+generator identity = UNKNOWN/GAP
+```
+
+and consequential generation MUST fail closed.
+
+---
+
+# 6. Version Binding
+
+Generator output MUST bind to the generator version that produced it.
+
+If:
+
+$$
+O = G_{v_1}(S)
+$$
+
+the output MUST NOT silently be represented as having been generated by:
+
+$$
+G_{v_2}
+$$
+
+A validator result for \(G_{v_1}\) does not automatically validate \(G_{v_2}\).
+
+$$
+Validated(G_{v_1})
+\not\Rightarrow
+Validated(G_{v_2})
+$$
+
+unless the relevant semantic equivalence has been demonstrated.
+
+---
+
+# 7. Generator Registry
+
+GENERATOR_REGISTRY is the canonical registry surface for governed generators.
+
+A registry entry SHOULD include, where available:
+
+```yaml
+generator_registry_entry:
+  generator_id:
+  version:
+  artifact_type:
+  status:
+  scope:
+  regime:
+  capabilities:
+  authority_requirements:
+  seed_contract:
+  template_contract:
+  output_contract:
+  validator_ref:
+  provenance_ref:
+  supersedes:
+  superseded_by:
+```
+
+Registration indicates discoverability.
+
+It does not itself grant execution authority or canonical authority.
+
+```text
+REGISTERED ≠ AUTHORIZED
+REGISTERED ≠ VALIDATED
+REGISTERED ≠ CANONICAL
+```
+
+---
+
+# 8. Generator Admission
+
+GENERATOR_ADMISSION governs whether a generator may enter a governed execution path.
+
+Admission SHOULD verify:
+
+1. generator identity;
+2. generator version;
+3. artifact typing;
+4. scope compatibility;
+5. regime compatibility;
+6. required dependencies;
+7. required authority;
+8. required validation state;
+9. freshness where applicable;
+10. unresolved critical gaps.
+
+Admission result vocabulary SHOULD preserve at least:
+
+```text
+ADMIT
+DENY
+CONDITIONAL
+UNKNOWN/GAP
+```
+
+Missing load-bearing information MUST NOT default to `ADMIT`.
+
+---
+
+# 9. Capability / Authority Firewall
+
+A generator's ability to create an artifact does not authorize that artifact or its effects.
+
+$$
+Capability(G,X)
+\not\Rightarrow
+Authority(G,X)
+$$
+
+Therefore:
+
+```text
+CAN_GENERATE ≠ MAY_COMMIT
+```
+
+and:
+
+```text
+CAN_WRITE ≠ MAY_PROMOTE
+```
+
+Consequential effects require separately valid authority.
+
+---
+
+# 10. Generator Seed
+
+GENERATOR_SEED defines the initial governed input state from which generation proceeds.
+
+A seed SHOULD preserve:
+
+```yaml
+generator_seed:
+  seed_id:
+  seed_version:
+  source:
+  provenance:
+  scope:
+  regime:
+  freshness:
+  constraints:
+  epistemic_class:
+```
+
+A seed MAY contain:
+
+* verified evidence;
+* source claims;
+* models;
+* assumptions;
+* unresolved gaps.
+
+The generator MUST preserve those epistemic distinctions.
+
+Generation MUST NOT transform:
+
+```text
+SOURCE_CLAIM
+```
+
+into:
+
+```text
+VERIFIED
+```
+
+merely by rewriting it.
+
+---
+
+# 11. Seed Integrity
+
+Generated confidence cannot exceed the weakest load-bearing seed premise without independent revalidation.
+
+For output \(O\) dependent on seed premises \(S_i\):
+
+$$
+Confidence(O)
+\leq
+\min_i Confidence(S_i)
+$$
+
+subject to the system confidence ceiling.
+
+For this contract:
+
+$$
+Confidence(O) \leq 0.95
+$$
+
+unless stronger applicable canon explicitly provides otherwise.
+
+---
+
+# 12. Generator Templates
+
+GENERATOR_TEMPLATES defines reusable structures controlling output shape.
+
+A template SHOULD declare:
+
+```yaml
+generator_template:
+  template_id:
+  version:
+  artifact_type:
+  required_fields:
+  optional_fields:
+  scope:
+  regime:
+  invariants:
+  prohibited_promotions:
+```
+
+A template is structural guidance.
+
+It is not evidence for the truth of content inserted into it.
+
+$$
+TemplateValidity
+\not\Rightarrow
+ContentValidity
+$$
+
+---
+
+# 13. Generator Contract Surface
+
+A generator definition SHOULD specify:
+
+```yaml
+generator_contract:
+  generator_id:
+  generator_version:
+  accepted_inputs:
+  required_inputs:
+  output_type:
+  scope:
+  regime:
+  dependencies:
+  authority_requirements:
+  invariants:
+  failure_states:
+  provenance_requirements:
+  validation_requirements:
+  falsifiers:
+```
+
+Missing contract requirements remain `UNKNOWN/GAP`.
+
+---
+
+# 14. Typed Inputs
+
+Inputs SHOULD be typed according to their epistemic and operational role.
+
+Relevant classes include:
+
+```text
+SOURCE_CLAIM
+OBSERVATION
+DERIVED
+MODEL
+DECISION
+UNKNOWN
+```
+
+The generator MUST NOT erase distinctions between these classes when producing output.
+
+---
+
+# 15. Typed Outputs
+
+GENERATOR_OUTPUT governs generated artifacts.
+
+A generated output SHOULD carry:
+
+```yaml
+generator_output:
+  output_id:
+  artifact_type:
+  generator_id:
+  generator_version:
+  seed_refs:
+  template_ref:
+  input_refs:
+  dependency_refs:
+  provenance:
+  scope:
+  regime:
+  execution_epoch:
+  epistemic_class:
+  validation_state:
+  promotion_state:
+```
+
+Default promotion state:
+
+```text
+NON_AUTHORITATIVE_CANDIDATE
+```
+
+unless a separate valid promotion process changes it.
+
+---
+
+# 16. Generator Output Firewall
+
+The central generator invariant is:
+
+$$
+GeneratorOutput \neq Canon
+$$
+
+A generated output is a candidate artifact.
+
+Its existence proves only that the generator produced it under some execution context.
+
+It does not prove:
+
+* empirical correctness;
+* causal correctness;
+* canonical authority;
+* runtime compatibility;
+* completeness;
+* provenance independence;
+* current validity.
+
+---
+
+# 17. Provenance
+
+GENERATORS_PROVENANCE governs generator lineage.
+
+Every consequential generated output SHOULD preserve enough information to reconstruct:
+
+```text
+generator
+version
+seed
+template
+inputs
+dependencies
+source ancestry
+execution context
+time/epoch
+transformations
+validation state
+```
+
+Conceptually:
+
+```text
+SOURCE EVIDENCE
+      ↓
+     SEED
+      ↓
+   GENERATOR
+      ↓
+    OUTPUT
+      ↓
+ VALIDATION
+```
+
+The output remains a descendant of its source evidence.
+
+---
+
+# 18. Provenance Independence
+
+Generation does not create independent evidence.
+
+Given:
+
+```text
+SOURCE A
+   ↓
+GENERATOR
+   ├── OUTPUT B
+   ├── OUTPUT C
+   └── OUTPUT D
+```
+
+B, C, and D are not three independent confirmations of A.
+
+Therefore:
+
+$$
+GeneratedDescendants(A)
+\not\Rightarrow
+IndependentEvidenceGain
+$$
+
+unless independent evidence is actually introduced and its independence demonstrated.
+
+---
+
+# 19. Sybil Hardening
+
+Generator systems MUST resist artificial confidence amplification caused by:
+
+* multiple outputs from one seed;
+* multiple templates applied to one source;
+* multiple agents consuming the same source;
+* paraphrased descendants;
+* summaries of generated summaries;
+* regenerated copies;
+* mirrored outputs;
+* repeated model agreement with shared ancestry.
+
+Evidence independence MUST be demonstrated, not inferred from output count.
+
+---
+
+# 20. Scope Firewall
+
+Every generator execution MUST remain inside its declared applicability envelope.
+
+Where relevant:
+
+```yaml
+scope:
+  domain:
+  system:
+  population:
+  environment:
+  scale:
+  time:
+  measurement_method:
+  assumptions:
+```
+
+A generator MUST NOT silently widen scope.
+
+$$
+Valid(G,S_1)
+\not\Rightarrow
+Valid(G,S_2)
+$$
+
+without a validated bridge.
+
+---
+
+# 21. Regime Firewall
+
+Generator behavior may depend on:
+
+```text
+policy regime
+execution regime
+security regime
+causal regime
+measurement regime
+governance regime
+```
+
+Outputs inherit material regime constraints from their load-bearing inputs and generator contract.
+
+A regime shift requires revalidation where the prior regime was load-bearing.
+
+---
+
+# 22. Freshness
+
+Generator execution MUST respect freshness requirements of load-bearing inputs.
+
+A freshly generated output does not make stale evidence fresh.
+
+Thus:
+
+$$
+Fresh(Output)
+\not\Rightarrow
+Fresh(SourceEvidence)
+$$
+
+and:
+
+```text
+NEW SUMMARY OF STALE DATA
+```
+
+remains dependent on stale data.
+
+---
+
+# 23. Epoch Separation
+
+The following remain distinct:
+
+```text
+state_version
+causal_epoch
+policy_epoch
+provenance_epoch
+generator_version
+execution_epoch
+```
+
+unless an explicit valid mapping licenses equivalence.
+
+A new generator version does not automatically invalidate all old evidence.
+
+A new execution epoch does not automatically establish a new causal epoch.
+
+---
+
+# 24. Dependency Closure
+
+Before consequential use of generated output, validation MUST traverse the smallest result-changing dependency closure.
+
+For output \(O\):
+
+$$
+Closure(O)
+=
+\{D_i \mid D_i \text{ materially affects } O\}
+$$
+
+Generation speed does not license dependency omission.
+
+---
+
+# 25. Atomic Multi-RSCF Generation
+
+Where a generated output depends jointly on multiple RSCF structures, those load-bearing dependencies MUST be evaluated atomically where partial resolution could produce an invalid conclusion.
+
+Example:
+
+```text
+RSCF A ─┐
+RSCF B ─┼── GENERATOR ──→ OUTPUT
+RSCF C ─┘
+```
+
+If A, B, and C are jointly load-bearing, unresolved C prevents authoritative use of the output.
+
+---
+
+# 26. Local Generation Fast Path
+
+A generator MAY use local reasoning without wider coordination only when:
+
+* dependency closure is demonstrated;
+* scope compatibility is established;
+* regime compatibility is established;
+* provenance independence requirements are satisfied;
+* freshness is sufficient;
+* no material conflict exists;
+* causal coupling does not require wider evaluation;
+* applicable authority permits the operation.
+
+Assumed independence does not satisfy this gate.
+
+---
+
+# 27. Local Finality
+
+Generated output may achieve local finality only within its proven applicability envelope.
+
+$$
+LocalFinality(O,S)
+\not\Rightarrow
+GlobalFinality(O)
+$$
+
+Coordination avoidance is proof-based, not assumption-based.
+
+---
+
+# 28. Causal Firewall
+
+Generators MAY produce causal hypotheses.
+
+They MUST NOT promote unsupported causal claims.
+
+The following do not independently establish causation:
+
+```text
+similarity
+sequence
+association
+correlation
+co-occurrence
+analogy
+structural resemblance
+```
+
+Generated causal claims MUST preserve their actual evidence class.
+
+---
+
+# 29. Cross-Domain Generation
+
+Cross-domain or cross-scale mappings remain:
+
+```text
+MODEL
+```
+
+unless independently validated.
+
+A generator MAY propose:
+
+> Structure A resembles Structure B.
+
+It MUST NOT silently transform that into:
+
+> A and B share the same causal mechanism.
+
+---
+
+# 30. Competing Outputs
+
+Different generators or generator configurations may produce incompatible outputs.
+
+Where evidence does not discriminate:
+
+```text
+OUTPUT A
+vs
+OUTPUT B
+```
+
+the system MUST preserve:
+
+```text
+COMPETING
+```
+
+rather than forcing convergence.
+
+---
+
+# 31. Generator Falsification
+
+GENERATOR_FALSIFICATION governs attempts to invalidate generated claims or generator behavior.
+
+Falsification SHOULD seek:
+
+* contradictions;
+* provenance correlation;
+* stale premises;
+* malformed inputs;
+* scope expansion;
+* regime leakage;
+* hidden dependencies;
+* causal overreach;
+* unsupported authority;
+* unstable generation;
+* stronger competing explanations.
+
+A failed falsification attempt does not prove truth.
+
+```text
+NOT_FALSIFIED ≠ VERIFIED
+```
+
+---
+
+# 32. Adversarial Validation
+
+For consequential generator outputs, validation SHOULD use a materially different challenge path.
+
+The challenge SHOULD test whether:
+
+1. the same source ancestry is being double-counted;
+2. stale premises were hidden by regeneration;
+3. scope was silently widened;
+4. regime changed;
+5. dependencies were omitted;
+6. causal claims exceed evidence;
+7. competing hypotheses were suppressed;
+8. output formatting created false confidence;
+9. authority was inferred from capability.
+
+If a challenge succeeds:
+
+```text
+DOWNGRADE
+CONDITION
+COMPETING
+REJECT
+or UNKNOWN/GAP
+```
+
+as appropriate.
+
+---
+
+# 33. Generator Validation
+
+GENERATOR_VALIDATION governs validation of generated outputs and generator implementations.
+
+Validation MAY occur at multiple layers:
+
+```text
+schema validation
+contract validation
+deterministic behavior validation
+property validation
+negative testing
+provenance validation
+scope validation
+regime validation
+runtime integration validation
+empirical validation
+```
+
+Passing one layer does not imply passing the others.
+
+---
+
+# 34. TEST_PASS ≠ TRUTH
+
+A passing generator test establishes only that the tested behavior passed under the recorded test conditions.
+
+$$
+TestPass(G)
+\not\Rightarrow
+Truth(Output)
+$$
+
+and:
+
+$$
+TestPass(G)
+\not\Rightarrow
+UniversalValidity(G)
+$$
+
+---
+
+# 35. Generator Tests
+
+GENERATOR_TESTS SHOULD contain both positive and negative paths.
+
+Negative cases SHOULD include, where applicable:
+
+```text
+missing seed
+malformed seed
+stale seed
+missing template
+invalid template
+unknown generator
+wrong generator version
+wrong scope
+wrong regime
+missing authority
+shared-provenance inflation
+unsupported causal promotion
+unresolved dependency
+conflicting outputs
+invalid supersession
+```
+
+---
+
+# 36. Fail-Closed Behavior
+
+Missing load-bearing generator state MUST produce a visible non-pass result.
+
+Preferred vocabulary:
+
+```text
+PASS
+FAIL
+CONDITIONAL
+COMPETING
+UNKNOWN/GAP
+```
+
+For consequential operations:
+
+```text
+UNKNOWN/GAP
+     ↓
+HOLD / DENY / REQUIRE_EVIDENCE
+```
+
+Never:
+
+```text
+UNKNOWN/GAP
+     ↓
+PASS
+```
+
+---
+
+# 37. Malformed Inputs
+
+Malformed input MUST NOT crash open.
+
+Acceptable behavior:
+
+```text
+malformed
+→ FAIL
+```
+
+or:
+
+```text
+malformed
+→ UNKNOWN/GAP
+```
+
+depending on the contract.
+
+Not acceptable:
+
+```text
+malformed
+→ exception
+→ implicit authorization
+```
+
+---
+
+# 38. Generator Determinism
+
+Where a generator contract declares deterministic behavior, identical effective inputs and execution conditions SHOULD reproduce equivalent governed output.
+
+Conceptually:
+
+$$
+G(S,T,I,C,E)
+=
+G(S,T,I,C,E)
+$$
+
+under the declared deterministic envelope.
+
+If nondeterminism is permitted, it MUST be explicitly represented rather than hidden.
+
+---
+
+# 39. Nondeterministic Generators
+
+A nondeterministic generator SHOULD declare:
+
+```yaml
+generation_mode: NONDETERMINISTIC
+```
+
+and preserve, where available:
+
+```text
+sampling configuration
+execution context
+seed/random state
+model/runtime version
+```
+
+A single output MUST NOT be represented as the uniquely necessary output of a nondeterministic process.
+
+---
+
+# 40. Generator Promotion
+
+GENERATOR_PROMOTION governs movement from candidate output toward an authoritative artifact state.
+
+Promotion requires more than generation.
+
+Conceptually:
+
+```text
+OUTPUT
+  ↓
+VALIDATION
+  ↓
+FALSIFICATION
+  ↓
+PROVENANCE CHECK
+  ↓
+PROMOTION GATES
+  ↓
+AUTHORITY
+  ↓
+PROMOTED STATE
+```
+
+Therefore:
+
+$$
+Output \not\Rightarrow Promotion
+$$
+
+---
+
+# 41. Promotion Requirements
+
+A generated artifact SHOULD NOT be promoted unless:
+
+* identity is stable;
+* version is bound;
+* artifact type is known;
+* provenance is preserved;
+* scope is explicit;
+* regime is explicit;
+* dependencies are resolved;
+* freshness is sufficient;
+* applicable validation passes;
+* falsifiers are addressed to the required level;
+* authority is valid;
+* unresolved critical gaps remain visible;
+* rollback/supersession semantics exist where consequential.
+
+---
+
+# 42. Promotion Checklist
+
+```text
+[ ] typed generator schema bound
+
+[ ] generator identity implemented
+
+[ ] generator version bound
+
+[ ] seed identity bound
+
+[ ] template identity bound
+
+[ ] output identity bound
+
+[ ] provenance edges persisted
+
+[ ] dependency closure established
+
+[ ] scope containment tested
+
+[ ] regime isolation tested
+
+[ ] freshness behavior tested
+
+[ ] missing input tested
+
+[ ] malformed input tested
+
+[ ] stale input tested
+
+[ ] unauthorized execution tested
+
+[ ] correlated provenance tested
+
+[ ] causal overreach tested
+
+[ ] competing outputs preserved
+
+[ ] rollback/supersession path demonstrated
+
+[ ] generator-specific validator executed
+
+[ ] executed validation receipt emitted
+
+[ ] unresolved critical gaps visible
+```
+
+---
+
+# 43. Promotion State Machine
+
+```text
+SEED
+  │
+  ▼
+ADMITTED
+  │
+  ▼
+GENERATED
+  │
+  ▼
+CANDIDATE OUTPUT
+  │
+  ▼
+VALIDATION
+  │
+  ├─────────────→ UNKNOWN/GAP → HOLD
+  │
+  ├─────────────→ FAIL → REJECT / REPAIR
+  │
+  ├─────────────→ COMPETING → HOLD / DISCRIMINATE
+  │
+  ▼
+FALSIFICATION
+  │
+  ▼
+PROMOTION GATE
+  │
+  ├─────────────→ HOLD
+  │
+  ▼
+AUTHORITY CHECK
+  │
+  ├─────────────→ AUTHORITY_REQUIRED
+  │
+  ▼
+PROMOTE
+```
+
+---
+
+# 44. Generator Supersession
+
+GENERATOR_SUPERSESSION governs replacement of generators or generated artifacts.
+
+Supersession SHOULD preserve:
+
+```yaml
+supersession:
+  prior_id:
+  prior_version:
+  successor_id:
+  successor_version:
+  reason:
+  changed_semantics:
+  provenance:
+  authority:
+  effective_epoch:
+  migration_effect:
+  validation_receipt:
+```
+
+Supersession is not deletion.
+
+Historical lineage MUST remain recoverable where persistence permits.
+
+---
+
+# 45. Selective Invalidation
+
+If generator premise \(P\) fails, invalidate only outputs depending on \(P\).
+
+Example:
+
+```text
+P1 → O1
+P1 → O2
+P2 → O3
+```
+
+Failure of `P1` invalidates:
+
+```text
+O1
+O2
+```
+
+but not automatically:
+
+```text
+O3
+```
+
+This is dependency-local invalidation.
+
+---
+
+# 46. Generator Failure Recovery
+
+On generator failure:
+
+1. identify the failed premise, dependency, or transformation;
+2. invalidate affected descendants;
+3. preserve unrelated valid outputs;
+4. return to the nearest valid state;
+5. repair or reroute locally;
+6. regenerate only affected outputs where safe;
+7. preserve failure evidence.
+
+The system SHOULD NOT repeat an unchanged failed path expecting a different governed result.
+
+---
+
+# 47. Rollback Basin
+
+Before consequential generator-driven mutation, a rollback basin SHOULD exist.
+
+A rollback basin preserves enough information to restore the nearest valid pre-mutation state.
+
+```text
+VALID STATE S0
+      ↓
+GENERATED PROPOSAL
+      ↓
+MUTATION S1
+      ↓
+FAILURE
+      ↓
+ROLLBACK
+      ↓
+VALID STATE
+```
+
+---
+
+# 48. Generator Receipts
+
+Consequential generator execution SHOULD emit a receipt.
+
+Example schema:
+
+```yaml
+generator_receipt:
+  receipt_id:
+  generator_id:
+  generator_version:
+  seed_refs:
+  template_ref:
+  input_refs:
+  output_id:
+  execution_time:
+  execution_epoch:
+  scope:
+  regime:
+  provenance:
+  dependencies:
+  validation_state:
+  authority_ref:
+  remaining_gaps:
+```
+
+Unknown fields remain unknown.
+
+---
+
+# 49. Receipt Independence
+
+A receipt is evidence of the execution it records.
+
+It is not independent confirmation of the generated claim.
+
+$$
+Execution + Receipt
+\neq
+2\ independent\ evidence\ sources
+$$
+
+---
+
+# 50. Generator Proof Capsule
+
+Important generated conclusions SHOULD support a proof capsule such as:
+
+```yaml
+proof_capsule:
+  claim:
+  claim_class:
+  generator_id:
+  generator_version:
+  load_bearing_premises: []
+  seed_refs: []
+  template_ref:
+  evidence: []
+  provenance: []
+  scope:
+  regime:
+  temporal_validity:
+  dependencies: []
+  competing_explanations: []
+  falsifiers: []
+  invalidation_conditions: []
+  confidence_ceiling:
+  validation_state:
+  promotion_state:
+  remaining_gaps: []
+```
+
+---
+
+# 51. Generator Invariants
+
+```text
+GEN-INV-001
+Generator output is non-authoritative by default.
+
+GEN-INV-002
+UNKNOWN/GAP never silently becomes PASS.
+
+GEN-INV-003
+Generated confidence cannot exceed the weakest load-bearing premise without independent revalidation.
+
+GEN-INV-004
+Generator capability never establishes authority.
+
+GEN-INV-005
+Proposal never equals commit.
+
+GEN-INV-006
+Test pass never equals truth.
+
+GEN-INV-007
+Generation never creates provenance independence by itself.
+
+GEN-INV-008
+Fresh output never automatically refreshes stale evidence.
+
+GEN-INV-009
+Scope expansion requires an explicit validated bridge.
+
+GEN-INV-010
+Regime shifts invalidate dependent conclusions where material.
+
+GEN-INV-011
+Generator versions remain distinguishable.
+
+GEN-INV-012
+Execution epoch does not silently equal causal or policy epoch.
+
+GEN-INV-013
+Competing outputs remain visible when evidence cannot discriminate.
+
+GEN-INV-014
+Similarity alone cannot license causal promotion.
+
+GEN-INV-015
+Correlation alone cannot license causal promotion.
+
+GEN-INV-016
+Sequence alone cannot license causal promotion.
+
+GEN-INV-017
+Local finality requires demonstrated dependency closure.
+
+GEN-INV-018
+Assumed independence cannot justify coordination avoidance.
+
+GEN-INV-019
+Failure selectively invalidates dependent descendants.
+
+GEN-INV-020
+Consequential generation emits required receipts.
+
+GEN-INV-021
+Promotion requires separate gates and authority.
+
+GEN-INV-022
+Supersession preserves lineage.
+
+GEN-INV-023
+Generator validation remains bounded to tested properties.
+
+GEN-INV-024
+Generated artifacts cannot silently overwrite canon.
+```
+
+---
+
+# 52. Generator Failure Modes
+
+```text
+GEN-FM-001
+Generated output silently promoted to canon.
+
+GEN-FM-002
+Unknown generator admitted.
+
+GEN-FM-003
+Wrong generator version accepted.
+
+GEN-FM-004
+Missing seed silently synthesized.
+
+GEN-FM-005
+Malformed seed crashes open.
+
+GEN-FM-006
+Stale source hidden by fresh generation.
+
+GEN-FM-007
+Template validity mistaken for content validity.
+
+GEN-FM-008
+Capability treated as authority.
+
+GEN-FM-009
+Proposal treated as commit.
+
+GEN-FM-010
+Shared source ancestry counted as independent evidence.
+
+GEN-FM-011
+Multiple generated outputs inflate confidence.
+
+GEN-FM-012
+Scope silently widened.
+
+GEN-FM-013
+Regime silently crossed.
+
+GEN-FM-014
+Association promoted to causation.
+
+GEN-FM-015
+Similarity promoted to causation.
+
+GEN-FM-016
+Sequence promoted to causation.
+
+GEN-FM-017
+Competing output suppressed without discriminating evidence.
+
+GEN-FM-018
+Local validation generalized globally.
+
+GEN-FM-019
+Generator test pass represented as empirical truth.
+
+GEN-FM-020
+Missing provenance fabricated.
+
+GEN-FM-021
+Unresolved dependency ignored.
+
+GEN-FM-022
+Local failure causes unrelated global invalidation.
+
+GEN-FM-023
+Supersession destroys provenance history.
+
+GEN-FM-024
+Optimization bypasses integrity gates.
+```
+
+---
+
+# 53. Minimum Generator Test Table
+
+A future subsystem-local executor SHOULD cover at least:
+
+| Test    | Expected property                                     |
+| ------- | ----------------------------------------------------- |
+| GEN-T01 | valid typed generator admitted                        |
+| GEN-T02 | unknown generator → DENY/UNKNOWN                      |
+| GEN-T03 | wrong version rejected                                |
+| GEN-T04 | missing seed → UNKNOWN, never PASS                    |
+| GEN-T05 | malformed seed fails closed                           |
+| GEN-T06 | stale seed cannot become fresh through generation     |
+| GEN-T07 | wrong scope rejected                                  |
+| GEN-T08 | wrong regime rejected                                 |
+| GEN-T09 | capability without authority cannot commit            |
+| GEN-T10 | output remains candidate before promotion             |
+| GEN-T11 | shared ancestry does not increase independence        |
+| GEN-T12 | multiple outputs do not inflate evidence count        |
+| GEN-T13 | association cannot establish causal effect            |
+| GEN-T14 | similarity cannot establish causal effect             |
+| GEN-T15 | sequence cannot establish causal effect               |
+| GEN-T16 | competing outputs remain COMPETING                    |
+| GEN-T17 | missing dependency fails closed                       |
+| GEN-T18 | local finality requires closure                       |
+| GEN-T19 | assumed independence cannot avoid coordination        |
+| GEN-T20 | generator test PASS does not imply empirical truth    |
+| GEN-T21 | local failure selectively invalidates descendants     |
+| GEN-T22 | unrelated outputs remain valid                        |
+| GEN-T23 | consequential execution emits receipt                 |
+| GEN-T24 | supersession preserves prior lineage                  |
+| GEN-T25 | unpromoted output cannot overwrite canon              |
+| GEN-T26 | stale validation receipt rejected for changed version |
+| GEN-T27 | receipt not counted as independent evidence           |
+| GEN-T28 | confidence respects weakest premise                   |
+| GEN-T29 | rollback path exists for consequential mutation       |
+| GEN-T30 | UNKNOWN/GAP never converts to PASS                    |
+
+Until an executor implementing these or equivalent tests is actually executed:
+
+```text
+generator_contract_execution = UNKNOWN/GAP
+```
+
+---
+
+# 54. Executed Reference Evidence
+
+No generator-subsystem-local executor or receipt has been established by the supplied generator contract material.
+
+Existing executed OS validators include:
+
+### Routing policy
+
+ROUTING_POLICY_VALIDATION_RECEIPT
+
+Recorded result:
+
+```text
+19/19 constitutional tests PASS
+exit=0
+```
+
+This is evidence for the routing-policy validator's declared scope.
+
+It is **pattern evidence only** for this generator contract.
+
+### Authorization invariant engine
+
+AUTHZ_ENGINE_VALIDATION_RECEIPT
+
+Recorded result:
+
+```text
+17/17
+```
+
+within its declared scope.
+
+It is not direct validation of this contract.
+
+### L00 Reality Environment
+
+L00_REALITY_VALIDATION_RECEIPT
+
+Recorded result:
+
+```text
+91/91 PASS
+exit=0
+```
+
+within the receipt's declared L00 boundary.
+
+It does not validate the generator subsystem.
+
+Therefore:
+
+```text
+ROUTING PASS
++
+AUTHZ PASS
++
+L00 PASS
+≠
+GENERATOR CONTRACT VALIDATED
+```
+
+---
+
+# 55. Generator Validation Boundary
+
+The strongest currently supported subsystem-level statement from this artifact is:
+
+```yaml
+generator_subsystem:
+  specification: PRESENT
+  epistemic_class: AMOS_MODEL
+  canonical_status: CONDITIONAL
+  implementation_status: PARTIAL
+  subsystem_local_executor: UNKNOWN/GAP
+  executed_validation_receipt: UNKNOWN/GAP
+  runtime_enforcement: UNKNOWN/GAP
+  persistence_binding: UNKNOWN/GAP
+  empirical_validation: UNKNOWN/GAP
+```
+
+This state MUST remain gap-visible until stronger evidence exists.
+
+---
+
+# 56. Generator Gap Register
+
+```yaml
+gaps:
+
+  - gap_id: GEN-GAP-001
+    class: CRITICAL_FOR_PROMOTION
+    description:
+      no executed validation receipt specific to this generator contract
+      has been established
+    state: UNKNOWN/GAP
+
+  - gap_id: GEN-GAP-002
+    class: DECISION_RELEVANT
+    description:
+      live runtime enforcement of generator admission and promotion
+      has not been established
+    state: UNKNOWN/GAP
+
+  - gap_id: GEN-GAP-003
+    class: DECISION_RELEVANT
+    description:
+      persistent provenance binding across generated artifacts
+      has not been established here
+    state: UNKNOWN/GAP
+
+  - gap_id: GEN-GAP-004
+    class: DECISION_RELEVANT
+    description:
+      generator registry executable binding has not been established
+    state: UNKNOWN/GAP
+
+  - gap_id: GEN-GAP-005
+    class: DECISION_RELEVANT
+    description:
+      generator supersession runtime behavior has not been executed-validated
+    state: UNKNOWN/GAP
+
+  - gap_id: GEN-GAP-006
+    class: DECISION_RELEVANT
+    description:
+      generator promotion gates lack a generator-specific executed receipt
+    state: UNKNOWN/GAP
+
+  - gap_id: GEN-GAP-007
+    class: EXPLANATORY
+    description:
+      deterministic versus nondeterministic semantics remain generator-specific
+    state: CONDITIONAL
+
+  - gap_id: GEN-GAP-008
+    class: DECISION_RELEVANT
+    description:
+      empirical validity of generated model claims remains claim-specific
+    state: UNKNOWN/GAP
+```
+
+---
+
+# 57. Falsifiers
+
+This specification MUST be amended, downgraded, or superseded if:
+
+**F1 — Canon conflict**
+A valid higher-authority canonical source defines materially different generator semantics.
+
+**F2 — Executed contradiction**
+An executed generator test contradicts a declared invariant.
+
+**F3 — Firewall collapse**
+The contract requires or permits a protected distinction to collapse, including:
+
+```text
+CAPABILITY = AUTHORITY
+PROPOSAL = COMMIT
+OUTPUT = CANON
+TEST_PASS = TRUTH
+UNKNOWN = PASS
+```
+
+**F4 — Provenance unsoundness**
+Generated descendants can improperly create artificial independence.
+
+**F5 — Scope unsoundness**
+A generator can silently expand the applicability envelope.
+
+**F6 — Causal unsoundness**
+Generation permits similarity, correlation, or sequence alone to establish causation.
+
+**F7 — Promotion bypass**
+Generated output can enter authoritative state without the applicable validation and authority gates.
+
+**F8 — Invalidation unsoundness**
+A local generator failure unnecessarily destroys unrelated valid state.
+
+**F9 — Supersession loss**
+Supersession destroys required lineage or provenance.
+
+---
+
+# 58. Worked Semantics
+
+Given an operation touching:
+
+```text
+GENERATORS COGNITIVE MATRIX GENERATORS CONTRACT
+```
+
+within the Cognitive Matrix plane:
+
+### 1. Admit
+
+Resolve:
+
+```text
+generator_id
+generator_version
+artifact_type
+```
+
+Unresolved identity:
+
+```text
+UNKNOWN/GAP
+→ fail closed
+```
+
+### 2. Bind scope and regime
+
+Declare domain, regime, scale, temporal applicability, and H/M/L applicability.
+
+### 3. Resolve seed
+
+Validate seed identity, provenance, scope, freshness, and epistemic state.
+
+### 4. Resolve template
+
+Bind the applicable template and version.
+
+### 5. Check authority
+
+Validate `authority_ref` for consequential execution.
+
+```text
+CAPABILITY ≠ AUTHORITY
+```
+
+### 6. Resolve dependency closure
+
+Traverse only the smallest result-changing dependency set.
+
+### 7. Generate
+
+Produce a typed candidate output.
+
+```text
+GENERATION → CANDIDATE
+```
+
+not:
+
+```text
+GENERATION → CANON
+```
+
+### 8. Persist provenance
+
+Bind output to generator, version, seed, template, dependencies, and execution context.
+
+### 9. Validate
+
+Run applicable positive, negative, provenance, scope, regime, and freshness tests.
+
+### 10. Falsify
+
+Challenge the strongest supported output through a materially different path.
+
+### 11. Preserve competing hypotheses
+
+If evidence remains nondiscriminating:
+
+```text
+COMPETING
+```
+
+### 12. Propose promotion
+
+A candidate may enter promotion evaluation.
+
+```text
+PROPOSAL ≠ COMMIT
+```
+
+### 13. Check promotion gates
+
+Verify required schema, provenance, tests, receipts, authority, and unresolved gaps.
+
+### 14. Promote or hold
+
+Possible outcomes:
+
+```text
+PROMOTE
+HOLD
+REJECT
+CONDITIONAL
+COMPETING
+UNKNOWN/GAP
+```
+
+### 15. Emit receipt
+
+Consequential execution and promotion decisions emit appropriate receipts.
+
+### 16. Recover selectively on failure
+
+Invalidate affected descendants only and preserve unrelated valid state.
+
+---
+
+# 59. Generator Lifecycle
+
+```text
+                    ┌───────────┐
+                    │   SEED    │
+                    └─────┬─────┘
+                          │
+                          ▼
+                    ┌───────────┐
+                    │ ADMISSION │
+                    └─────┬─────┘
+                          │
+                 ┌────────┴────────┐
+                 │                 │
+                 ▼                 ▼
+              DENY /          GENERATOR
+            UNKNOWN               │
+                                  ▼
+                              GENERATE
+                                  │
+                                  ▼
+                           CANDIDATE OUTPUT
+                                  │
+                                  ▼
+                              VALIDATION
+                                  │
+                ┌─────────────────┼────────────────┐
+                │                 │                │
+                ▼                 ▼                ▼
+              FAIL            COMPETING        VALID
+                │                 │                │
+                ▼                 ▼                ▼
+          REPAIR/REJECT      DISCRIMINATE     FALSIFY
+                                                   │
+                                                   ▼
+                                            PROMOTION GATE
+                                                   │
+                                     ┌─────────────┴─────────────┐
+                                     │                           │
+                                     ▼                           ▼
+                                    HOLD                     AUTHORITY
+                                                                 │
+                                                                 ▼
+                                                              PROMOTE
+                                                                 │
+                                                                 ▼
+                                                          SUPERSESSION
+                                                          when applicable
+```
+
+---
+
+# 60. Cross-Subsystem Binding
+
+Generator behavior is bounded by the broader Cognitive Matrix validation contract:
+
+COGNITIVE_MATRIX_VALIDATION_CONTRACT
+
+The relationship is:
+
+```text
+GENERATOR CONTRACT
+       │
+       ├── produces candidate artifacts
+       │
+       ▼
+VALIDATION CONTRACT
+       │
+       ├── evaluates admissibility of conclusions
+       │
+       ▼
+PROMOTION / AUTHORITY
+```
+
+Neither subsystem silently replaces the other.
+
+---
+
+# 61. Routing Interaction
+
+Routing may select an appropriate generator.
+
+Routing does not validate its output.
+
+$$
+CorrectRoute(G)
+\not\Rightarrow
+ValidOutput(G)
+$$
+
+Likewise, valid output does not prove that routing authority was valid.
+
+Related:
+
+ROUTING_POLICY_VALIDATION_RECEIPT
+
+---
+
+# 62. Validation Interaction
+
+Generator validation MUST follow:
+
+COGNITIVE_MATRIX_VALIDATION_CONTRACT
+
+where applicable.
+
+In particular it inherits:
+
+```text
+UNKNOWN/GAP ≠ PASS
+TEST_PASS ≠ TRUTH
+CORRELATION ≠ CAUSATION
+REPETITION ≠ INDEPENDENCE
+LOCAL_VALIDATION ≠ GLOBAL_VALIDATION
+```
+
+---
+
+# 63. Observability Interaction
+
+Observability MAY record generator behavior, execution state, and output state.
+
+Observability is not authority.
+
+```text
+OBSERVED GENERATION
+≠
+AUTHORIZED GENERATION
+```
+
+Related:
+
+OBSERVABILITY_README
+
+---
+
+# 64. Control-Plane Interaction
+
+Control-plane gates may govern:
+
+* generator admission;
+* execution authorization;
+* output mutation;
+* promotion;
+* supersession.
+
+Generators MUST NOT bypass these gates merely because they possess the technical capability to write or generate artifacts.
+
+Related:
+
+CONTROL_PLANE_README
+
+---
+
+# 65. Kernel Interaction
+
+Kernel interactions consuming generated artifacts MUST preserve their:
+
+```text
+epistemic class
+generator identity
+generator version
+scope
+regime
+freshness
+provenance
+validation state
+promotion state
+```
+
+Removing these qualifiers changes the semantics of the artifact.
+
+Related:
+
+KERNEL_README
+
+---
+
+# 66. Operations Interaction
+
+Operations provide recovery, rollback, repair, and selective regeneration paths.
+
+Generator failures SHOULD recover through the smallest affected dependency basin.
+
+Related:
+
+OPERATIONS_README
+
+---
+
+# 67. Anti-Regression
+
+Any generator optimization MUST preserve or improve:
+
+```text
+factual support
+scope correctness
+regime correctness
+provenance recoverability
+contradiction visibility
+causal discipline
+UNKNOWN visibility
+authority separation
+promotion separation
+selective invalidation
+rollback safety
+receipt integrity
+```
+
+An optimization that increases speed or output volume while weakening integrity MUST be rejected or rolled back.
+
+---
+
+# 68. Contract Proof Capsule
+
+```yaml
+proof_capsule:
+
+  claim:
+    this artifact specifies the governed generator lifecycle
+    for the Cognitive Matrix generator subsystem
+
+  claim_class:
+    AMOS_MODEL
+
+  conclusion_class:
+    CONDITIONAL
+
+  load_bearing_premises:
+    - Cognitive Matrix protected firewalls
+    - generator artifact topology
+    - validation/promotion separation
+    - provenance-aware dependency semantics
+    - selective invalidation requirements
+
+  direct_evidence:
+    - supplied generator subsystem artifacts
+    - supplied Cognitive Matrix validation contract
+
+  reference_execution_evidence:
+    - ROUTING_POLICY_VALIDATION_RECEIPT
+    - AUTHZ_ENGINE_VALIDATION_RECEIPT
+    - L00_REALITY_VALIDATION_RECEIPT
+
+  reference_evidence_role:
+    PATTERN_ONLY
+
+  generator_specific_executed_validation:
+    UNKNOWN/GAP
+
+  scope:
+    25_COGNITIVE_MATRIX/12_GENERATORS
+
+  competing_hypotheses:
+    - recovered higher-authority canon may define different generator semantics
+    - future executable binding may expose implementation constraints requiring revision
+
+  falsifiers:
+    - F1 canon conflict
+    - F2 executed contradiction
+    - F3 firewall collapse
+    - F4 provenance unsoundness
+    - F5 scope unsoundness
+    - F6 causal unsoundness
+    - F7 promotion bypass
+    - F8 invalidation unsoundness
+    - F9 supersession loss
+
+  canonical_status:
+    CONDITIONAL
+
+  implementation_status:
+    PARTIAL
+```
+
+---
+
+# 69. Final Contract Statement
+
+The generator subsystem exists to create **governed candidates**, not automatic truth or automatic canon.
+
+Its central law is:
+
+$$
+\boxed{
+Generation
+\rightarrow
+Candidate
+\rightarrow
+Validation
+\rightarrow
+Falsification
+\rightarrow
+Promotion\ Gate
+\rightarrow
+Authority
+}
+$$
+
+not:
+
+$$
+\boxed{
+Generation
+\rightarrow
+Canon
+}
+$$
+
+The contract therefore preserves:
+
+```text
+GENERATOR_OUTPUT ≠ CANON
+CAPABILITY ≠ AUTHORITY
+PROPOSAL ≠ COMMIT
+OBSERVED ≠ CURRENT
+TEST_PASS ≠ TRUTH
+UNKNOWN/GAP ≠ PASS
+REPETITION ≠ INDEPENDENCE
+CORRELATION ≠ CAUSATION
+LOCAL_VALIDATION ≠ GLOBAL_VALIDATION
+FRESH_OUTPUT ≠ FRESH_EVIDENCE
+```
+
+Current strongest supported state:
+
+```text
+SPECIFICATION:
+PRESENT
+
+EPISTEMIC CLASS:
+AMOS_MODEL
+
+CANONICAL STATUS:
+CONDITIONAL
+
+IMPLEMENTATION:
+PARTIAL
+
+GENERATOR-SPECIFIC EXECUTOR:
+UNKNOWN/GAP
+
+GENERATOR-SPECIFIC EXECUTED RECEIPT:
+UNKNOWN/GAP
+
+RUNTIME ENFORCEMENT:
+UNKNOWN/GAP
+
+PERSISTENT PROVENANCE BINDING:
+UNKNOWN/GAP
+
+EMPIRICAL VALIDATION:
+UNKNOWN/GAP
+```
+
+No stronger claim is licensed by the supplied evidence.
+
+---
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
+
+* Governed by canon — AMOS Core Laws · LAW_HIERARCHY
+* Validation — COGNITIVE_MATRIX_VALIDATION_CONTRACT
+* Kernel interaction — KERNEL_README
+* Control-plane gates — CONTROL_PLANE_README
+* Observed by — OBSERVABILITY_README · never treated as authority
+* Recovered via operations — OPERATIONS_README
+* Promotion governance — PROMOTION_GATES
+* Binding governance — BINDING_RULES
+
+---
+
+## Generator subsystem bindings
+
+* GENERATORS_MAP
+* GENERATOR_ADMISSION
+* GENERATOR_CONTRACT
+* GENERATOR_SEED
+* GENERATOR_TEMPLATES
+* GENERATOR_REGISTRY
+* GENERATOR_OUTPUT
+* GENERATOR_TESTS
+* GENERATOR_VALIDATION
+* GENERATOR_FALSIFICATION
+* GENERATOR_PROMOTION
+* GENERATOR_SUPERSESSION
+* GENERATORS_PROVENANCE
+* GENERATORS_VERSIONING
+* GENERATORS_CHANGE_LOG
+* GENERATORS_HISTORY
+* GENERATORS_ROADMAP
+
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]
+
+**Related:** [[00_ROOT/00-Home]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · COGNITIVE_MATRIX_VALIDATION_CONTRACT · AMOS_RSCF_NODES
 
 ---
+
 RSCF-NODE
+
 node_id: cm_12_generators_00_index_generators_cognitive_matrix_generators_contract
-node_type: note
+
+node_type: contract
+
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_COGNITIVE_MATRIX_GENERATORS_CONTRACT.md
+
+artifact_id: AMOS-CM-12-GENERATORS-CONTRACT
+
 claim_class: AMOS_MODEL
+
+conclusion_class: CONDITIONAL
+
+canonical_status: CONDITIONAL
+
+implementation_status: PARTIAL
+
+RSCF-RELATIONS:
+
+* INDEXED_BY: [[00_ROOT/00-Home]]
+
+* INDEXED_BY: [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
+* INDEXED_BY: AMOS_RSCF_NODES
+
+* PART_OF: GENERATORS_MAP
+
+* PART_OF: COGNITIVE_MATRIX_MOC
+
+* GOVERNED_BY: LAW_HIERARCHY
+
+* GOVERNED_BY: COGNITIVE_MATRIX_VALIDATION_CONTRACT
+
+* GOVERNED_BY: PROMOTION_GATES
+
+* GOVERNED_BY: BINDING_RULES
+
+* GOVERNS: GENERATOR_ADMISSION
+
+* GOVERNS: GENERATOR_CONTRACT
+
+* GOVERNS: GENERATOR_SEED
+
+* GOVERNS: GENERATOR_TEMPLATES
+
+* GOVERNS: GENERATOR_REGISTRY
+
+* GOVERNS: GENERATOR_OUTPUT
+
+* GOVERNS: GENERATOR_TESTS
+
+* GOVERNS: GENERATOR_VALIDATION
+
+* GOVERNS: GENERATOR_FALSIFICATION
+
+* GOVERNS: GENERATOR_PROMOTION
+
+* GOVERNS: GENERATOR_SUPERSESSION
+
+* GOVERNS: GENERATORS_PROVENANCE
+
+* GOVERNS: GENERATORS_VERSIONING
+
+* VALIDATION_PATTERN_FROM: ROUTING_POLICY_VALIDATION_RECEIPT
+
+* VALIDATION_PATTERN_FROM: AUTHZ_ENGINE_VALIDATION_RECEIPT
+
+* VALIDATION_PATTERN_FROM: L00_REALITY_VALIDATION_RECEIPT
+
+* INTERACTS_WITH: KERNEL_README
+
+* INTERACTS_WITH: CONTROL_PLANE_README
+
+* OBSERVED_BY: OBSERVABILITY_README
+
+* RECOVERED_VIA: OPERATIONS_README
+
+validation_state: SPECIFICATION_ONLY
+
+generator_specific_execution_state: UNKNOWN/GAP
+
+generator_specific_receipt_state: UNKNOWN/GAP
+
+runtime_enforcement_state: UNKNOWN/GAP
+
+persistence_binding_state: UNKNOWN/GAP
+
+```
+```

@@ -1,0 +1,46 @@
+---
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: c06-society-culture
+tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c06-society-culture, misc]
+created: 2026-08-22
+---
+
+{
+  "id": "C06_society_culture",
+  "name": "Society, History & Culture",
+  "focus": "Historical patterns, institutions, culture codes, narrative movements.",
+  "typical_questions": [
+    "How did similar societies evolve under these pressures?",
+    "Which cultural codes are active in this conflict?",
+    "Where are the long-term social risks?"
+  ],
+  "core_methods": [
+    "historical_analogy_with_caveats",
+    "institutional_incentive_mapping",
+    "culture_code_decoding",
+    "collective_memory_analysis"
+  ],
+  "interfaces": {
+    "inputs": [
+      "natural_language_questions",
+      "structured_prompts",
+      "tabular_data",
+      "narrative_case_descriptions"
+    ],
+    "outputs": [
+      "structured_reasoning_steps",
+      "tables_and_summaries",
+      "scenario_trees",
+      "recommendations_with_assumptions"
+    ]
+  },
+  "risk_notes": [
+    "history_does_not_repeat_mechanically",
+    "risk_of_projection_from_other_cultures"
+  ]
+}
+
+---
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]

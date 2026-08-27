@@ -26,8 +26,8 @@ type: template
 ## Purpose
 
 ## Links
-- [[00 Cosmo Brain MOC]]
-- [[00-Home]]
+- 00 Cosmo Brain MOC
+- [[00_ROOT/00-Home]]
 - [[00_ROOT_MOC]]
 
 ## Tags
@@ -42,6 +42,6 @@ node_id: linked_note
 node_type: note
 path: Templates/linked-note.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

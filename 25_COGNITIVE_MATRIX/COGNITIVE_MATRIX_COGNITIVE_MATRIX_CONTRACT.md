@@ -102,30 +102,30 @@ This contract applies to generator artifacts represented by or integrated with t
 
 Current mapped artifacts include:
 
-* [[GENERATORS_MAP]]
-* [[GENERATORS_COGNITIVE_MATRIX_README]]
-* [[GENERATOR_REGISTRY]]
-* [[GENERATOR_CONTRACT]]
-* [[GENERATOR_SEED]]
-* [[GENERATOR_TEMPLATES]]
-* [[GENERATOR_OUTPUT]]
-* [[GENERATOR_FALSIFICATION]]
-* [[GENERATOR_TESTS]]
-* [[GENERATORS_TESTS]]
-* [[GENERATOR_VALIDATION]]
-* [[GENERATORS_VALIDATION]]
-* [[GENERATOR_ADMISSION]]
-* [[GENERATOR_PROMOTION]]
-* [[GENERATOR_VERSIONING]]
-* [[GENERATORS_VERSIONING]]
-* [[GENERATOR_SUPERSESSION]]
-* [[GENERATORS_PROVENANCE]]
-* [[GENERATORS_AUDIT]]
-* [[GENERATORS_BENCHMARKS]]
-* [[GENERATORS_INTEGRATION]]
-* [[GENERATORS_CHANGE_LOG]]
-* [[GENERATORS_HISTORY]]
-* [[GENERATORS_ROADMAP]]
+* GENERATORS_MAP
+* GENERATORS_COGNITIVE_MATRIX_README
+* GENERATOR_REGISTRY
+* GENERATOR_CONTRACT
+* GENERATOR_SEED
+* GENERATOR_TEMPLATES
+* GENERATOR_OUTPUT
+* GENERATOR_FALSIFICATION
+* GENERATOR_TESTS
+* GENERATORS_TESTS
+* GENERATOR_VALIDATION
+* GENERATORS_VALIDATION
+* GENERATOR_ADMISSION
+* GENERATOR_PROMOTION
+* GENERATOR_VERSIONING
+* GENERATORS_VERSIONING
+* GENERATOR_SUPERSESSION
+* GENERATORS_PROVENANCE
+* GENERATORS_AUDIT
+* GENERATORS_BENCHMARKS
+* GENERATORS_INTEGRATION
+* GENERATORS_CHANGE_LOG
+* GENERATORS_HISTORY
+* GENERATORS_ROADMAP
 
 This contract governs the subsystem envelope.
 
@@ -425,7 +425,7 @@ where appropriate.
 
 # 11. Generator Registration
 
-Before a generator is treated as governed subsystem capability, it SHOULD be represented in [[GENERATOR_REGISTRY]].
+Before a generator is treated as governed subsystem capability, it SHOULD be represented in GENERATOR_REGISTRY.
 
 Registration SHOULD identify at minimum:
 
@@ -470,7 +470,7 @@ Nor does it establish:
 
 # 13. Generator Seed Contract
 
-[[GENERATOR_SEED]] governs initialization material.
+GENERATOR_SEED governs initialization material.
 
 A generator seed MAY include:
 
@@ -533,7 +533,7 @@ This ancestry is essential for detecting correlated outputs.
 
 # 16. Generator Templates Contract
 
-[[GENERATOR_TEMPLATES]] governs reusable generator structures.
+GENERATOR_TEMPLATES governs reusable generator structures.
 
 Templates MAY define:
 
@@ -843,7 +843,7 @@ where applicable.
 
 # 30. Generator Output Contract
 
-[[GENERATOR_OUTPUT]] governs generator outputs.
+GENERATOR_OUTPUT governs generator outputs.
 
 Every consequential output SHOULD be distinguishable as:
 
@@ -982,7 +982,7 @@ $$
 
 # 36. Generator Provenance Contract
 
-[[GENERATORS_PROVENANCE]] governs generator provenance.
+GENERATORS_PROVENANCE governs generator provenance.
 
 Consequential outputs SHOULD preserve enough ancestry to answer:
 
@@ -1100,7 +1100,7 @@ $$
 
 # 41. Generator Falsification Contract
 
-[[GENERATOR_FALSIFICATION]] governs active challenge.
+GENERATOR_FALSIFICATION governs active challenge.
 
 Consequential generator outputs SHOULD expose falsifiers where feasible.
 
@@ -1167,9 +1167,9 @@ A challenge that simply restates the generating path is not independent adversar
 
 # 44. Generator Tests Contract
 
-Individual generator testing is governed by [[GENERATOR_TESTS]].
+Individual generator testing is governed by GENERATOR_TESTS.
 
-Subsystem-level testing is governed by [[GENERATORS_TESTS]].
+Subsystem-level testing is governed by GENERATORS_TESTS.
 
 Tests MAY include:
 
@@ -1235,9 +1235,9 @@ test_record:
 
 # 47. Generator Validation Contract
 
-Individual generator validation is governed by [[GENERATOR_VALIDATION]].
+Individual generator validation is governed by GENERATOR_VALIDATION.
 
-Subsystem validation is governed by [[GENERATORS_VALIDATION]].
+Subsystem validation is governed by GENERATORS_VALIDATION.
 
 Validation MAY include:
 
@@ -1320,7 +1320,7 @@ validation method
 
 # 51. Generator Admission Contract
 
-[[GENERATOR_ADMISSION]] governs whether a generator may enter an admitted subsystem state.
+GENERATOR_ADMISSION governs whether a generator may enter an admitted subsystem state.
 
 Admission SHOULD be explicit.
 
@@ -1381,7 +1381,7 @@ $$
 
 # 54. Generator Promotion Contract
 
-[[GENERATOR_PROMOTION]] governs lifecycle elevation.
+GENERATOR_PROMOTION governs lifecycle elevation.
 
 Promotion SHOULD require evidence appropriate to the target state.
 
@@ -1445,9 +1445,9 @@ Governance cannot manufacture missing empirical evidence.
 
 # 57. Generator Versioning Contract
 
-Individual versioning is governed by [[GENERATOR_VERSIONING]].
+Individual versioning is governed by GENERATOR_VERSIONING.
 
-Subsystem versioning is governed by [[GENERATORS_VERSIONING]].
+Subsystem versioning is governed by GENERATORS_VERSIONING.
 
 A generator version SHOULD preserve enough identity to reconstruct its lineage.
 
@@ -1490,7 +1490,7 @@ where material.
 
 # 60. Generator Supersession Contract
 
-[[GENERATOR_SUPERSESSION]] governs replacement.
+GENERATOR_SUPERSESSION governs replacement.
 
 Supersession SHOULD preserve:
 
@@ -2220,7 +2220,7 @@ If it cannot be closed, expose the minimum missing information.
 
 # 96. Generator Audit Contract
 
-[[GENERATORS_AUDIT]] SHOULD inspect structural integrity including:
+GENERATORS_AUDIT SHOULD inspect structural integrity including:
 
 ```text
 registry completeness
@@ -2252,7 +2252,7 @@ $$
 
 # 98. Generator Benchmark Contract
 
-[[GENERATORS_BENCHMARKS]] SHOULD preserve benchmark context.
+GENERATORS_BENCHMARKS SHOULD preserve benchmark context.
 
 Conceptually:
 
@@ -2302,7 +2302,7 @@ time
 
 # 100. Generator Integration Contract
 
-[[GENERATORS_INTEGRATION]] governs interfaces between generators and other AMOS subsystems.
+GENERATORS_INTEGRATION governs interfaces between generators and other AMOS subsystems.
 
 Potential integration surfaces include:
 
@@ -2347,7 +2347,7 @@ before being treated as valid.
 
 # 102. Generator Change Contract
 
-Material changes SHOULD be recorded through [[GENERATORS_CHANGE_LOG]] where applicable.
+Material changes SHOULD be recorded through GENERATORS_CHANGE_LOG where applicable.
 
 Examples:
 
@@ -2369,7 +2369,7 @@ integration change
 
 # 103. Historical Preservation
 
-[[GENERATORS_HISTORY]] SHOULD preserve relevant prior states.
+GENERATORS_HISTORY SHOULD preserve relevant prior states.
 
 Historical artifacts SHOULD NOT be silently rewritten to appear as if current architecture always existed.
 
@@ -2377,7 +2377,7 @@ Historical artifacts SHOULD NOT be silently rewritten to appear as if current ar
 
 # 104. Roadmap Boundary
 
-[[GENERATORS_ROADMAP]] contains prospective development.
+GENERATORS_ROADMAP contains prospective development.
 
 $$
 Roadmap
@@ -3114,7 +3114,7 @@ unless the generation event itself is the fact being evidenced.
 
 ---
 
-**Related:** [[00-Home]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]] · [[GENERATOR_CONTRACT]] · [[GENERATOR_REGISTRY]] · [[GENERATOR_ADMISSION]] · [[GENERATOR_PROMOTION]] · [[GENERATORS_PROVENANCE]] · [[K_RSCF]] · [[L17_RSCF]]
+**Related:** [[00_ROOT/00-Home]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES · GENERATOR_CONTRACT · GENERATOR_REGISTRY · GENERATOR_ADMISSION · GENERATOR_PROMOTION · GENERATORS_PROVENANCE · K_RSCF · L17_RSCF
 
 ---
 
@@ -3128,77 +3128,77 @@ path: 25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_COGNITIVE_MATRIX_GEN
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00-Home]]
+* INDEXED_BY: [[00_ROOT/00-Home]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+* INDEXED_BY: AMOS_RSCF_NODES
 
-* INDEXED_BY: [[GENERATORS_MAP]]
+* INDEXED_BY: GENERATORS_MAP
 
-* PART_OF: [[COGNITIVE_MATRIX_MOC]]
+* PART_OF: COGNITIVE_MATRIX_MOC
 
-* GOVERNS: [[GENERATOR_CONTRACT]]
+* GOVERNS: GENERATOR_CONTRACT
 
-* GOVERNS: [[GENERATOR_REGISTRY]]
+* GOVERNS: GENERATOR_REGISTRY
 
-* GOVERNS: [[GENERATOR_SEED]]
+* GOVERNS: GENERATOR_SEED
 
-* GOVERNS: [[GENERATOR_TEMPLATES]]
+* GOVERNS: GENERATOR_TEMPLATES
 
-* GOVERNS: [[GENERATOR_OUTPUT]]
+* GOVERNS: GENERATOR_OUTPUT
 
-* GOVERNS: [[GENERATOR_FALSIFICATION]]
+* GOVERNS: GENERATOR_FALSIFICATION
 
-* GOVERNS: [[GENERATOR_TESTS]]
+* GOVERNS: GENERATOR_TESTS
 
-* GOVERNS: [[GENERATORS_TESTS]]
+* GOVERNS: GENERATORS_TESTS
 
-* GOVERNS: [[GENERATOR_VALIDATION]]
+* GOVERNS: GENERATOR_VALIDATION
 
-* GOVERNS: [[GENERATORS_VALIDATION]]
+* GOVERNS: GENERATORS_VALIDATION
 
-* GOVERNS: [[GENERATOR_ADMISSION]]
+* GOVERNS: GENERATOR_ADMISSION
 
-* GOVERNS: [[GENERATOR_PROMOTION]]
+* GOVERNS: GENERATOR_PROMOTION
 
-* GOVERNS: [[GENERATOR_VERSIONING]]
+* GOVERNS: GENERATOR_VERSIONING
 
-* GOVERNS: [[GENERATORS_VERSIONING]]
+* GOVERNS: GENERATORS_VERSIONING
 
-* GOVERNS: [[GENERATOR_SUPERSESSION]]
+* GOVERNS: GENERATOR_SUPERSESSION
 
-* GOVERNS: [[GENERATORS_PROVENANCE]]
+* GOVERNS: GENERATORS_PROVENANCE
 
-* GOVERNS: [[GENERATORS_AUDIT]]
+* GOVERNS: GENERATORS_AUDIT
 
-* GOVERNS: [[GENERATORS_BENCHMARKS]]
+* GOVERNS: GENERATORS_BENCHMARKS
 
-* GOVERNS: [[GENERATORS_INTEGRATION]]
+* GOVERNS: GENERATORS_INTEGRATION
 
-* GOVERNS: [[GENERATORS_CHANGE_LOG]]
+* GOVERNS: GENERATORS_CHANGE_LOG
 
-* GOVERNS: [[GENERATORS_HISTORY]]
+* GOVERNS: GENERATORS_HISTORY
 
-* GOVERNS: [[GENERATORS_ROADMAP]]
+* GOVERNS: GENERATORS_ROADMAP
 
-* USES: [[K_RSCF]]
+* USES: K_RSCF
 
-* USES: [[L17_RSCF]]
+* USES: L17_RSCF
 
-* RELATED_TO: [[TASK_RESOLVER]]
+* RELATED_TO: TASK_RESOLVER
 
-* RELATED_TO: [[CAPABILITY_RESOLVER]]
+* RELATED_TO: CAPABILITY_RESOLVER
 
-* RELATED_TO: [[MODE_ADMISSION_QUEUE]]
+* RELATED_TO: MODE_ADMISSION_QUEUE
 
-* RELATED_TO: [[MODE_COMPOSITION_REGISTRY]]
+* RELATED_TO: MODE_COMPOSITION_REGISTRY
 
-* RELATED_TO: [[MODE_CONFLICT_REGISTRY]]
+* RELATED_TO: MODE_CONFLICT_REGISTRY
 
-* RELATED_TO: [[MODE_COVERAGE_MATRIX]]
+* RELATED_TO: MODE_COVERAGE_MATRIX
 
-* RELATED_TO: [[MODE_DEPENDENCY_GRAPH]]
+* RELATED_TO: MODE_DEPENDENCY_GRAPH
 
-claim_class: AMOS_MODEL · [[L17_RSCF]] · [[K_RSCF]]
+claim_class: AMOS_MODEL · L17_RSCF · K_RSCF
 
 ```
 ```

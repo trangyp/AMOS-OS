@@ -2412,7 +2412,7 @@ CALL VERIFIED
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2420,6 +2420,6 @@ node_id: agent_onboarding_guide
 node_type: note
 path: 11_KNOWLEDGE/AGENT_ONBOARDING_GUIDE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

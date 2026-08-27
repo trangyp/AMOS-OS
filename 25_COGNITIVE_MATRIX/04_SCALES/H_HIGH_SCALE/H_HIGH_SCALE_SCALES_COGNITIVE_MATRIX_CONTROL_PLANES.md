@@ -12,7 +12,7 @@ Applies where claims span whole systems or canon layers; strictness ladder: exac
 
 ## Control-plane binding
 
-- [[C01_GOVERNANCE]] — scale-governance owner
+- C01_GOVERNANCE — scale-governance owner
 
 ## Hard boundaries
 

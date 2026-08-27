@@ -2948,32 +2948,32 @@ Choose one expensive decision problem
 
 # 103. RELATED AMOS NODES
 
-- [[00-Home]]
-- [[00_Cosmo_Brain_MOC]]
-- [[AMOS Full Brain OS]]
-- [[AMOS Infrastructure Control Plane]]
-- [[AMOS Economic Model]]
-- [[RSCF]]
-- [[TSS]]
-- [[TPE]]
-- [[UBI]]
-- [[QLS]]
-- [[AMOS Prediction Governance]]
-- [[AMOS Provenance]]
-- [[AMOS Risk Constraint Governor]]
-- [[AMOS Future Debt Option Value Governor]]
-- [[AMOS Agent Governance]]
-- [[AMOS Skill Architecture]]
-- [[AMOS Runtime Benchmarking]]
-- [[AMOS Claim Verifier]]
-- [[AMOS Benchmark Forensics]]
+- [[00_ROOT/00-Home]]
+- [[00_ROOT/00_Cosmo_Brain_MOC]]
+- Cosmo_Brain_BRIDGE_INDEX
+- Cosmo_Brain_BRIDGE_INDEX
+- Cosmo_Brain_BRIDGE_INDEX
+- RSCF
+- TSS
+- TPE
+- UBI
+- QLS
+- Cosmo_Brain_BRIDGE_INDEX
+- Cosmo_Brain_BRIDGE_INDEX
+- Cosmo_Brain_BRIDGE_INDEX
+- Cosmo_Brain_BRIDGE_INDEX
+- Cosmo_Brain_BRIDGE_INDEX
+- Cosmo_Brain_BRIDGE_INDEX
+- Cosmo_Brain_BRIDGE_INDEX
+- Cosmo_Brain_BRIDGE_INDEX
+- Cosmo_Brain_BRIDGE_INDEX
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2981,6 +2981,6 @@ node_id: amos_value_creation_os
 node_type: note
 path: 11_KNOWLEDGE/AMOS_VALUE_CREATION_OS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

@@ -12,7 +12,7 @@ Covers monitor taxonomy, interrupt thresholds, and uncertainty calibration of se
 
 ## Control-plane binding
 
-- [[C02_METACOGNITIVE]] — bound control plane
+- C02_METACOGNITIVE — bound control plane
 
 ## Hard boundaries
 

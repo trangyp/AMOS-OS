@@ -12,7 +12,7 @@ Covers representation selection, encoding compatibility, and cross-representatio
 
 ## Control-plane binding
 
-- [[C05_REPRESENTATION]] — bound control plane
+- C05_REPRESENTATION — bound control plane
 
 ## Hard boundaries
 

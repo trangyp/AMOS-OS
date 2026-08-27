@@ -3211,14 +3211,14 @@ The central architectural rule is:
 
 ---
 
-**Related:** [[00-Home]] · [[06-Knowledge-Base-MOC]] · [[L00_REALITY_ENVIRONMENT — Definition]] · [[L00_REALITY_ENVIRONMENT — Dependencies]] · [[L00_REALITY_ENVIRONMENT — Equations]] · [[L00_REALITY_ENVIRONMENT — Hml]] · [[L00_REALITY_ENVIRONMENT — Control Planes]] · [[L00_REALITY_ENVIRONMENT — Failure Modes]] · [[L00_REALITY_ENVIRONMENT — Gap Matrix]] · [[AMOS_Typed_Tensor_Contracts]] · [[AMOS_Evidence_Tensor_Architecture]] · [[AMOS_Claim_Tensor_Architecture]] · [[AMOS_Relation_Tensor_Architecture]] · [[AMOS_Cross_Scale_RSCF_Tensor_Engine]] · [[AMOS_Reality_Simulation_Distinction]] · [[AMOS_Constraint_Propagation]] · [[AMOS_Provenance_Topology]] · [[AMOS_Causal_Hierarchy_Governor]] · [[AMOS_Infrastructure_Control_Plane]]
+**Related:** [[00_ROOT/00-Home]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Cross_Scale_RSCF_Tensor_Engine · AMOS_Reality_Simulation_Distinction · AMOS_Constraint_Propagation · AMOS_Provenance_Topology · Cosmo_Brain_BRIDGE_INDEX · AMOS_Infrastructure_Control_Plane
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -3226,6 +3226,6 @@ node_id: l00_reality_environment_primitives_cognitive_matrix_invariants
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_INVARIANTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

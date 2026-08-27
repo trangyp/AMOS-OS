@@ -9,7 +9,7 @@ tags: ['amos_os', '22_research']
 - See also — [[PAPERS_RESEARCH_PAPERS_CONTRACT]]
 
 ## Indexing rule
-This index resolves by basename within its own directory. Cross-plane resolution goes through [[00-Home]] and [[AMOS_RSCF_NODES]].
+This index resolves by basename within its own directory. Cross-plane resolution goes through [[00_ROOT/00-Home]] and [[AMOS_RSCF_NODES]].
 
 ## Gaps
 Automated link-integrity execution for this index is PARTIAL ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
@@ -42,7 +42,7 @@ Given an operation touching `PAPERS RESEARCH README` within the Research plane:
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

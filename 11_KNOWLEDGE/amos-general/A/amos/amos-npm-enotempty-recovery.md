@@ -1,0 +1,18 @@
+---
+title: "amos-npm-enotempty-recovery"
+created: "2026-08-22"
+origin_architect: "Trang Phan"
+type: "bridge"
+tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-npm-enotempty-recovery, amos-general]
+status: "index"
+provenance: "SOURCE_CLAIM"
+confidence: "VERIFIED"
+---
+
+# amos-npm-enotempty-recovery
+
+> Bridge note — resolves the `amos-npm-enotempty-recovery` link from the Cosmo Brain MOC / daily notes to the real skill in the vault.
+
+**Location:** `.devin/skills/amos-npm-enotempty-recovery`
+
+- Open the skill: .devin/skills/amos-npm-enotempty-recovery

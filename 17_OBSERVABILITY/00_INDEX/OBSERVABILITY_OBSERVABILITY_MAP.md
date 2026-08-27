@@ -9,7 +9,7 @@ Navigation map for the `17_OBSERVABILITY/00_INDEX` segment of the Observability 
 
 - **Contract** — [[INDEX_OBSERVABILITY_OBSERVABILITY_CONTRACT]]
 - **Readme** — [[INDEX_OBSERVABILITY_README]]
-- **Readme** — [[README]]
+- **Readme** — README
 
 ## Reading order
 1. Readme → orientation.  2. Contract → normative terms.  3. Artifacts → instances bound by the contract.
@@ -45,7 +45,7 @@ Given an operation touching `OBSERVABILITY · OBSERVABILITY MAP` within the Obse
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

@@ -55,7 +55,7 @@ Given an operation touching `ATOMIC STATE TRANSITION` within the Control Plane p
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]] · [[authz_invariant_engine]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]] · authz_invariant_engine
 
 ---
 RSCF-NODE
@@ -63,5 +63,5 @@ node_id: authz_atomic_state_transition
 node_type: note
 path: 03_CONTROL_PLANE/04_AUTHORITY/ATOMIC_STATE_TRANSITION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
 claim_class: AMOS_MODEL

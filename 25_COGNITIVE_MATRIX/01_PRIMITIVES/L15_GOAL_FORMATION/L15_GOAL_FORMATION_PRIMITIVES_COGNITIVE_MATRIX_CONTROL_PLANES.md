@@ -12,7 +12,7 @@ Covers goal decomposition, priority ordering, and goal-conflict detection.
 
 ## Control-plane binding
 
-- [[C03_EXECUTIVE]] — bound control plane
+- C03_EXECUTIVE — bound control plane
 
 ## Hard boundaries
 

@@ -3025,7 +3025,7 @@ This version makes `ROUTING_POLICY.md` the **policy layer above route selection 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
 
 ---
 RSCF-NODE
@@ -3033,6 +3033,6 @@ node_id: routing_policy
 node_type: note
 path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_POLICY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: AMOS_RSCF_NODES
 claim_class: AMOS_MODEL

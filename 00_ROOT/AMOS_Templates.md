@@ -27,7 +27,7 @@ Index of Obsidian note and automation templates used by the AMOS vault.
 
 ## Current templates
 
-- [[Templates/linked-note.md|linked-note]] — Templater template for new notes that auto-links to the root, Cosmo Brain, and home MOCs
+- linked-note — Templater template for new notes that auto-links to the root, Cosmo Brain, and home MOCs
 - [[AMOS_Obsidian_Linking_Plugins]] — plugin stack, Templater setup, and linking checklist
 
 ---

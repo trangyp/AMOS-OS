@@ -12,12 +12,12 @@ Covers parameter adjustment policy, envelope bounds, and restoration-over-drift 
 
 ## Upstream dependencies
 
-- [[L23_METACOGNITION]]
+- [[L23_METACOGNITION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L02_ATTENTION]]
-- [[L06_WORKING_STATE]]
+- [[L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L06_WORKING_STATE_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

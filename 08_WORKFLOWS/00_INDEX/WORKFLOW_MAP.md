@@ -10,6 +10,11 @@ Navigation map for the `08_WORKFLOWS/00_INDEX` segment of the Workflows plane.
 - **Readme** — [[INDEX_WORKFLOWS_README]]
 - **Contract** — [[INDEX_WORKFLOWS_WORKFLOW_CONTRACT]]
 
+## Artifacts
+- [[WORKFLOWS_README]] — workflows plane readme
+- [[WORKFLOWS_WORKFLOW_CONTRACT]] — workflows plane contract
+- [[WORKFLOW]] — law-stack-enforcement-pipeline workflow spec
+
 ## Reading order
 1. Readme → orientation.  2. Contract → normative terms.  3. Artifacts → instances bound by the contract.
 
@@ -44,7 +49,7 @@ Given an operation touching `WORKFLOW MAP` within the Workflows plane:
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

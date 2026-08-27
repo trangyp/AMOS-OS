@@ -12,13 +12,13 @@ Covers write gating, consolidation thresholds, retrieval diversity, and falsific
 
 ## Upstream dependencies
 
-- [[L06_WORKING_STATE]]
-- [[L22_CONSOLIDATION]]
+- [[L06_WORKING_STATE_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L22_CONSOLIDATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L09_INFERENCE]]
-- [[L20_CREDIT_ASSIGNMENT]]
+- [[L09_INFERENCE_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L20_CREDIT_ASSIGNMENT_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

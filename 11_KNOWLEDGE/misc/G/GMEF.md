@@ -1,0 +1,40 @@
+---
+tags: [misc]
+---
+# Governed Machine Evolution Framework
+
+## Constitutional nesting
+`Evolutionary Engine ⊂ Governance Boundary ⊂ Constitutional Boundary`
+
+Capability never implies authority.
+
+## Cycle
+Observe → Propose → Classify → Sandbox → Experiment → Evaluate → Challenge → Govern → Select → Deploy → Remember
+
+## Mutation permission profile
+`MPP(x) = (C,L,A,R,E)`
+- C mutation class
+- L permitted limits
+- A approval authority
+- R rollback requirement
+- E evidence threshold
+
+## Mutation classes
+- M0 immutable constitutional invariants
+- M1 safety/security boundaries: human-governed
+- M2 high-consequence architecture: explicit approval
+- M3 models/reasoning strategies/policies: controlled evolution
+- M4 parameters/rankings/optimization weights: bounded autonomous evolution
+- M5 low-risk operational adaptation: autonomous within limits
+
+## Fitness
+`F(V)=f(P,R,S,A,I,C,Q)`
+
+Hard constraint failure:
+`C_hard = 0 => candidate inadmissible`
+
+## Recursive governance
+`G_required ∝ D_recursive × C_consequence`
+
+---
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]

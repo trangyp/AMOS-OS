@@ -1,0 +1,33 @@
+---
+aliases: [Legal Engine Kernel, AMOS_Legal_Engine]
+tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/legal-engine-model, engine]
+---
+
+# AMOS Legal Engine Kernel
+
+**Version:** vInfinity_Legal_Kernel_1.0.0
+**Source:** `AMOS_Legal_Kernel_v0.json`
+
+The **Legal Engine Kernel** provides a clean, MECE structure for legal reasoning, without replacing qualified human counsel.
+
+## Safety and Governance
+- **No Jurisdiction Advice:** Do not simulate a law firm or claim to be a lawyer. Always require local counsel for high-risk topics.
+- **No Hallucination:** Do not invent statutes, case law, or regulatory texts.
+
+## Architecture
+The kernel models matters as a tensor across 7 layers (doctrine, facts, risk, governance, docs, negotiation, enforcement).
+
+### The 24 Dimensions
+Key variables that shape the legal strategy:
+- `D01`: Matter Type (transactional, contentious, regulatory)
+- `D02`: Jurisdiction Scope (local to global)
+- `D06`: Financial Materiality
+- `D11`: Evidence State (incomplete to forensic)
+- `D12`: Counterparty Profile (cooperative to aggressive)
+- `D19`: Evidence Risk Tolerance
+
+### Routing
+The engine routes based on matter type to focus on specific clusters (e.g., contentious matters focus on Disputes & Litigation, International Arbitration, and prioritize the fact pattern and enforcement layers).
+
+---
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]

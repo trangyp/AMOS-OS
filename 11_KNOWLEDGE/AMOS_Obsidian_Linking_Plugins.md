@@ -37,7 +37,7 @@ type: reference
 | Rank | Plugin ID | Display name | Purpose | Best for |
 |------|-----------|--------------|---------|----------|
 | 1 | `smart-connections` | Smart Connections | Semantic / AI related-note discovery | Intelligent suggestions |
-| 2 | `autolink` | Autolink | Auto-convert matching text to `[[links]]` | Bulk cleanup of existing notes |
+| 2 | `autolink` | Autolink | Auto-convert matching text to `links` | Bulk cleanup of existing notes |
 | 3 | `templater-obsidian` | Templater | JS-driven note creation with links | Full automation |
 | 4 | `quickadd` | QuickAdd | One-shortcut capture + templater | Fast structured creation |
 | 5 | `various-complements` | Various Complements | Faster `[[...]]` autocomplete | Manual linking speed |
@@ -77,8 +77,8 @@ tags: [note, linkme]
 provenance: MODEL
 confidence: DERIVED
 related:
-  - "[[00 Cosmo Brain MOC]]"
-  - "[[AMOS Home]]"
+  - "00 Cosmo Brain MOC"
+  - "AMOS Home"
 ---
 
 # <% tp.file.title %>
@@ -89,8 +89,8 @@ related:
 ## Purpose
 
 ## Links
-- [[00 Cosmo Brain MOC]]
-- [[AMOS Home]]
+- 00 Cosmo Brain MOC
+- AMOS Home
 
 ## Notes
 
@@ -104,7 +104,7 @@ related:
 ---
 
 
-> **Template file:** [[Templates/linked-note.md|Templates/linked-note.md]] — save this as a Templater template and bind it to QuickAdd or a hotkey.
+> **Template file:** Templates/linked-note.md — save this as a Templater template and bind it to QuickAdd or a hotkey.
 ## Recommended first-run checklist
 
 1. Install and enable the above community plugins from `Settings → Community plugins`.
@@ -125,7 +125,7 @@ related:
 > **Pre-configured:** Templater is already set to use the `Templates` folder (`.obsidian/plugins/templater-obsidian/data.json`).
 ## Related
 
-- [[00 Cosmo Brain MOC]]
+- 00 Cosmo Brain MOC
 - [[00_ROOT_MOC]]
 - [[AMOS Home]]
 - [[AMOS_Layer_Maps]] — top-level AMOS layer map index

@@ -12,13 +12,13 @@ Covers agent modeling, theory-of-mind hypotheses, and perspective separation.
 
 ## Upstream dependencies
 
-- [[L04_OBJECT_ENTITY_FORMATION]]
-- [[L10_WORLD_MODELING]]
+- [[L04_OBJECT_ENTITY_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L10_WORLD_MODELING_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L27_MULTI_AGENT_COGNITION]]
-- [[L17_DECISION]]
+- [[L27_MULTI_AGENT_COGNITION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L17_DECISION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

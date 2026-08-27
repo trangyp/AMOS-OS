@@ -29,7 +29,7 @@ Executable binding PARTIAL — see 11_VALIDATION receipts.
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00-Home]]
 
 ---
 RSCF-NODE
@@ -37,6 +37,6 @@ node_id: cognitive_matrix_o12_plan_contract
 node_type: note
 path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O12_PLAN/COGNITIVE_MATRIX_O12_PLAN_CONTRACT.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - CHILD_OF: [[COGNITIVE_MATRIX_LIFECYCLE_OPERATIONS_CONTRACT]]
 claim_class: AMOS_MODEL

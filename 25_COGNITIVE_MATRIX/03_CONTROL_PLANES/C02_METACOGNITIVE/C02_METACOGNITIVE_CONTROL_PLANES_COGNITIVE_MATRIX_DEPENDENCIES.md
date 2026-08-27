@@ -15,8 +15,8 @@ Covers monitor registry, interrupt taxonomy, and self-report calibration discipl
 
 ## Downstream dependents
 
-- [[C03_EXECUTIVE]]
-- [[L23_METACOGNITION]]
+- C03_EXECUTIVE
+- [[L23_METACOGNITION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

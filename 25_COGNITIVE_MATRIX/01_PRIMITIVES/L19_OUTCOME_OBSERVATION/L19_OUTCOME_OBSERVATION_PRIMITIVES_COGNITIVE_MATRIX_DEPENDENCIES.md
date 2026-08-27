@@ -12,12 +12,12 @@ Covers outcome grounding, delay handling, and confounder exposure.
 
 ## Upstream dependencies
 
-- [[L18_ACTION]]
-- [[L00_REALITY_ENVIRONMENT]]
+- [[L18_ACTION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L20_CREDIT_ASSIGNMENT]]
+- [[L20_CREDIT_ASSIGNMENT_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

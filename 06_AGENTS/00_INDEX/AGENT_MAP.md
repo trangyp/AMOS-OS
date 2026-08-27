@@ -10,6 +10,11 @@ Navigation map for the `06_AGENTS/00_INDEX` segment of the Agents plane.
 - **Contract** — [[INDEX_AGENTS_AGENT_CONTRACT]]
 - **Readme** — [[INDEX_AGENTS_README]]
 
+## Artifacts
+- [[AGENTS_AGENT_CONTRACT]] — agents plane contract
+- [[AGENTS_README]] — agents plane readme
+- [[AGENT_FIX_REASONING_BRAIN]] — agent fix reasoning brain report
+
 ## Reading order
 1. Readme → orientation.  2. Contract → normative terms.  3. Artifacts → instances bound by the contract.
 
@@ -44,7 +49,7 @@ Given an operation touching `AGENT MAP` within the Agents plane:
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

@@ -1,0 +1,22 @@
+---
+tags: [misc]
+---
+# Hard Invariants
+
+1. Executable code does not imply semantic correctness.
+2. Tests verify only exercised behavior.
+3. Runtime, repository, and conversational state are distinct.
+4. Repair after failure must change evidence, code, configuration, or hypothesis.
+5. Shared artifacts require version/provenance consistency.
+6. Permission is independent of technical capability.
+7. Regression-free improvement must preserve prior valid behavior.
+8. Derived confidence cannot exceed unresolved load-bearing premises.
+9. Repeated correlated evidence is not independent confirmation.
+10. Structural similarity is not causal proof.
+11. Scope/regime/freshness travel with claims.
+12. Genuine competing hypotheses stay COMPETING until discriminated.
+13. Rollback does not erase failure memory.
+14. Optimization may not weaken integrity.
+
+---
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]

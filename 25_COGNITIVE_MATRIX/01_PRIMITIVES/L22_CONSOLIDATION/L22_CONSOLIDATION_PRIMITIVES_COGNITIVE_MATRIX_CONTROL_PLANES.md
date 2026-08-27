@@ -12,7 +12,7 @@ Covers consolidation thresholds, deduplication at write time, and index maintena
 
 ## Control-plane binding
 
-- [[C06_MEMORY]] — bound control plane
+- C06_MEMORY — bound control plane
 
 ## Hard boundaries
 

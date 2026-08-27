@@ -12,8 +12,8 @@ Covers DAG coordination, wave scheduling, and inter-agent trust propagation.
 
 ## Control-plane binding
 
-- [[C03_EXECUTIVE]] — bound control plane
-- [[C01_GOVERNANCE]] — bound control plane
+- C03_EXECUTIVE — bound control plane
+- C01_GOVERNANCE — bound control plane
 
 ## Hard boundaries
 

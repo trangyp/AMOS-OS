@@ -2503,7 +2503,7 @@ The architecture should be used as an operational systems model—not as proof t
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2511,6 +2511,6 @@ node_id: amos_cognitive_organism_os_detail
 node_type: note
 path: 11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

@@ -12,7 +12,7 @@ Covers identity anchors, continuity evidence, and fragmentation resistance.
 
 ## Control-plane binding
 
-- [[C01_GOVERNANCE]] — bound control plane
+- C01_GOVERNANCE — bound control plane
 
 ## Hard boundaries
 

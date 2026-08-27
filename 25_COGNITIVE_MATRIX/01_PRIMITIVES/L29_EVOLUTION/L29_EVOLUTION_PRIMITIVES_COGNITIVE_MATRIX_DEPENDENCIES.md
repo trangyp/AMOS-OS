@@ -12,12 +12,12 @@ Covers evolution proposals, bounded cycles, and termination conditions (DMER tra
 
 ## Upstream dependencies
 
-- [[L21_LEARNING]]
-- [[L23_METACOGNITION]]
+- [[L21_LEARNING_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L23_METACOGNITION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L28_GOVERNANCE]]
+- [[L28_GOVERNANCE_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

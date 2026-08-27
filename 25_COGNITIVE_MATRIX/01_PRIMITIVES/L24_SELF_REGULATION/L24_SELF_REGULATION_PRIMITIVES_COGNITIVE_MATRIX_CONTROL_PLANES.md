@@ -12,8 +12,8 @@ Covers parameter adjustment policy, envelope bounds, and restoration-over-drift 
 
 ## Control-plane binding
 
-- [[C01_GOVERNANCE]] — bound control plane
-- [[C02_METACOGNITIVE]] — bound control plane
+- C01_GOVERNANCE — bound control plane
+- C02_METACOGNITIVE — bound control plane
 
 ## Hard boundaries
 

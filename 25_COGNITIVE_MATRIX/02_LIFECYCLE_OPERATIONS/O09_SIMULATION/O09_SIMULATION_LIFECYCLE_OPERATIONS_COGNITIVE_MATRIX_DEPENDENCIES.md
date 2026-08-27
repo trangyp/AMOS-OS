@@ -12,12 +12,12 @@ Covers the operation contract for this lifecycle operator.
 
 ## Upstream dependencies
 
-- [[O06_MODEL]]
-- [[O07_INFERENCE]]
+- O06_MODEL
+- O07_INFERENCE
 
 ## Downstream dependents
 
-- [[O10_VALUE]]
+- O10_VALUE
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

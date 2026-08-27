@@ -18,7 +18,7 @@ tags: [tensor]
 `MEMORY[item_id,content_class,state,provenance,dependencies,freshness,contradiction_state,retention_class,revalidation_epoch]`
 
 ---
-**Related:** [[00-Home]] · [[06-Knowledge-Base-MOC]] · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[system_scan_agent]] · [[automation_profiles]]
+**Related:** [[00_ROOT/00-Home]] · 06-Knowledge-Base-MOC · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
 
 ---
 
@@ -30,6 +30,6 @@ node_id: tensor_registry
 node_type: note
 path: 11_KNOWLEDGE/TENSOR_REGISTRY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

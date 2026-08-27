@@ -55,7 +55,7 @@ Given an operation touching `MULTI AGENT MODES COMMIT CONTROL PLANE MODE FAMILY 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

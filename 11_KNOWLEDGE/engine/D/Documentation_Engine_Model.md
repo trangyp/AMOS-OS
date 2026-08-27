@@ -1,0 +1,36 @@
+---
+aliases: [Corporate Documentation Engine, AMOS_Documentation, Corp Doc Engine]
+tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/documentation-engine-model, engine]
+---
+
+# AMOS Corporate Documentation Engine
+
+**Version:** 2.0.0_clean_vInfinity
+**Source:** `AMOS_Documentation_Kernel_v0.json`
+
+The **Corporate Documentation & Layout Engine** standardizes the creation, formatting, and governance of all corporate document types, from chat messages and emails to board packs and legal contracts.
+
+## The 12 Document Clusters (C01-C12)
+
+1. **C01_corp_brand_language:** Brand voice, tone, style guides.
+2. **C02_structured_docs_reports:** Memos, reports, decision briefs.
+3. **C03_presentation_design:** Pitch decks, slides.
+4. **C04_chat_email_comms:** Executive updates, chat, operational comms.
+5. **C05_legal_and_contracts:** MSAs, privacy, HR contracts.
+6. **C06_admin_hr_ops_docs:** Employee handbooks, onboarding, checklists.
+7. **C07_product_and_tech_docs:** PRDs, API specs, user guides.
+8. **C08_marketing_and_brand_assets:** Blogs, campaigns, case studies.
+9. **C09_exec_board_investor_packs:** Board decks, investor updates.
+10. **C10_knowledge_wiki_and_search:** Runbooks, FAQ, wiki.
+11. **C11_multilingual_and_localisation:** Translation, jurisdiction variants.
+12. **C12_layout_systems_and_templates:** Grid rules, components, templates.
+
+## Governance & Overlays
+
+To ensure safety and structural consistency, the engine applies overlays before outputting text:
+- **Formatting:** Enforces headings, lists, and spacing appropriate for the target channel.
+- **Compliance:** Injects mandatory legal disclaimers.
+- **Governance:** Legal, HR, and Policy documents are always marked as `DRAFT_REQUIRES_HUMAN_REVIEW`. The AI does not have the final authority to publish binding policies.
+
+---
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]

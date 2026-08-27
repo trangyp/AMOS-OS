@@ -12,13 +12,13 @@ Covers entity identity, persistence criteria, and identity-continuity tracking.
 
 ## Upstream dependencies
 
-- [[L03_PERCEPT_FORMATION]]
+- [[L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L05_BINDING]]
-- [[L08_REPRESENTATION]]
-- [[L25_IDENTITY_CONTINUITY]]
+- [[L05_BINDING_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L08_REPRESENTATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L25_IDENTITY_CONTINUITY_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

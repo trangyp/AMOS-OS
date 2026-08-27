@@ -12,11 +12,11 @@ Covers temporal credit decay, counterfactual attribution, and blame-symmetry rul
 
 ## Upstream dependencies
 
-- [[L19_OUTCOME_OBSERVATION]]
+- [[L19_OUTCOME_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L21_LEARNING]]
+- [[L21_LEARNING_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

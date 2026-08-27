@@ -25,7 +25,7 @@ This note is a MOC alias for the canonical provenance map.
 
 ## Related
 
-- [[00-Home]]
+- [[00_ROOT/00-Home]]
 - [[AMOS_RSCF_NODES]]
 - [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
@@ -35,6 +35,6 @@ node_id: provenance_canon_map
 node_type: note
 path: 01_CANON/07_PROVENANCE/00_INDEX/PROVENANCE_CANON_MAP.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

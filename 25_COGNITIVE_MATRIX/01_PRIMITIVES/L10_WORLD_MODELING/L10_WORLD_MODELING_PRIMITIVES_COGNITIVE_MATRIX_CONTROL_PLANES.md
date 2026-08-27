@@ -12,8 +12,8 @@ Covers model composition across scales and model-environment mismatch tracking.
 
 ## Control-plane binding
 
-- [[C04_REASONING]] — primary reasoning-plane owner for this primitive
-- [[C05_REPRESENTATION]] — bound control plane
+- C04_REASONING — primary reasoning-plane owner for this primitive
+- C05_REPRESENTATION — bound control plane
 
 ## Hard boundaries
 

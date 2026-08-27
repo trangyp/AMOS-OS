@@ -92,16 +92,16 @@ aliases:
   - AMOS Repository Naming Standard
 
 related:
-  - "[[00-Home]]"
-  - "[[MOC]]"
-  - "[[ARCHITECTURE]]"
+  - "[[00_ROOT/00-Home]]"
+  - "MOC"
+  - "[[00_ROOT/ARCHITECTURE]]"
   - "[[FULL_TREE]]"
   - "[[SYSTEM_MAP]]"
   - "[[AUTHORITATIVE_STATE]]"
   - "[[DEPENDENCY_MAP]]"
   - "[[PLACEMENT_RULES]]"
   - "[[ROADMAP]]"
-  - "[[RSCF_NODE_INDEX]]"
+  - "[[00_ROOT/RSCF_NODE_INDEX]]"
 ---
 
 # AMOS OS Naming Standard
@@ -1630,9 +1630,9 @@ Wiki-link references should use stable canonical note names where possible.
 Example:
 
 ```text
-[[ARCHITECTURE]]
-[[DEPENDENCY_MAP]]
-[[NAMING_STANDARD]]
+ARCHITECTURE
+DEPENDENCY_MAP
+NAMING_STANDARD
 ```
 
 After rename, links must be audited.
@@ -2536,7 +2536,7 @@ Example:
 ```yaml
 dependency:
   artifact_id: AMOS-OS-NAMING-STANDARD
-  path: 00_ROOT/NAMING_STANDARD.md
+  path: 00_ROOT/00_ROOT_NAMING_STANDARD.md
 ```
 
 ---
@@ -3288,11 +3288,11 @@ premises:
   - machine-readable conventions improve deterministic governance
 
 dependencies:
-  - "[[ARCHITECTURE]]"
-  - "[[FULL_TREE]]"
-  - "[[PLACEMENT_RULES]]"
-  - "[[DEPENDENCY_MAP]]"
-  - "[[AUTHORITATIVE_STATE]]"
+  - "ARCHITECTURE"
+  - "FULL_TREE"
+  - "PLACEMENT_RULES"
+  - "DEPENDENCY_MAP"
+  - "AUTHORITATIVE_STATE"
 
 invariants:
   - Filename != ArtifactID
@@ -3433,7 +3433,7 @@ The fourth invariant is:
 
 ---
 
-**Related:** [[00-Home]] · [[MOC]] · [[ARCHITECTURE]] · [[FULL_TREE]] · [[SYSTEM_MAP]] · [[AUTHORITATIVE_STATE]] · [[DEPENDENCY_MAP]] · [[PLACEMENT_RULES]] · [[ROADMAP]] · [[RSCF_NODE_INDEX]]
+**Related:** [[00_ROOT/00-Home]] · MOC · [[00_ROOT/ARCHITECTURE]] · [[FULL_TREE]] · [[SYSTEM_MAP]] · [[AUTHORITATIVE_STATE]] · [[DEPENDENCY_MAP]] · [[PLACEMENT_RULES]] · [[ROADMAP]] · [[00_ROOT/RSCF_NODE_INDEX]]
 
 ```text
 ```
@@ -3443,7 +3443,7 @@ The fourth invariant is:
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -3451,6 +3451,6 @@ node_id: 00_root_naming_standard
 node_type: note
 path: 00_ROOT/00_ROOT_NAMING_STANDARD.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

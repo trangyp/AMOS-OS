@@ -9,7 +9,7 @@ Navigation map for the `19_TESTS/00_INDEX` segment of the Tests plane.
 
 - **Readme** — [[INDEX_TESTS_README]]
 - **Contract** — [[INDEX_TESTS_TEST_CONTRACT]]
-- **Readme** — [[README]]
+- **Readme** — README
 
 ## Reading order
 1. Readme → orientation.  2. Contract → normative terms.  3. Artifacts → instances bound by the contract.
@@ -45,7 +45,7 @@ Given an operation touching `TEST MAP` within the Tests plane:
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

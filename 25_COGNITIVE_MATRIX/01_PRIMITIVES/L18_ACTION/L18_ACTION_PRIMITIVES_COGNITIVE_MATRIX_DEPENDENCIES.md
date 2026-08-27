@@ -12,11 +12,11 @@ Covers action dispatch, capability gating, and execution receipts.
 
 ## Upstream dependencies
 
-- [[L17_DECISION]]
+- [[L17_DECISION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L19_OUTCOME_OBSERVATION]]
+- [[L19_OUTCOME_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

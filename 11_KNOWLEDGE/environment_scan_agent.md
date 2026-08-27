@@ -2437,7 +2437,7 @@ The central invariant is:
 
 ---
 
-**Related:** [[00-Home]] · [[06-Knowledge-Base-MOC]] · [[AMOS_AGENT_SCHEMA_FULL]] · [[AMOS_AGENT_TEMPLATES]] · [[AMOS_AGENT_ONBOARDING_GUIDE]] · [[system_scan_agent]] · [[automation_profiles]]
+**Related:** [[00_ROOT/00-Home]] · 06-Knowledge-Base-MOC · AMOS_AGENT_SCHEMA_FULL · AMOS_AGENT_TEMPLATES · AMOS_AGENT_ONBOARDING_GUIDE · system_scan_agent · automation_profiles
 
 ```
 ```
@@ -2447,7 +2447,7 @@ The central invariant is:
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2455,6 +2455,6 @@ node_id: environment_scan_agent
 node_type: note
 path: 11_KNOWLEDGE/environment_scan_agent.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

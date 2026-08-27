@@ -11,8 +11,8 @@ tags: [index, readme, moc]
 The Root plane governs vault-wide identity, architecture map, authoritative state pointers, and release governance. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
 
 ## Sibling artifacts
-- [[00-Home]]
-- [[00_Cosmo_Brain_MOC]]
+- [[00_ROOT/00-Home]]
+- [[00_ROOT/00_Cosmo_Brain_MOC]]
 - [[00_ROOT_ARCHITECTURE]]
 - [[00_ROOT_AUDIT]]
 - [[00_ROOT_AUTHORIZATION]]

@@ -12,7 +12,7 @@ Evidence items, measured values, per-artifact validation.
 
 ## Control-plane binding
 
-- [[C01_GOVERNANCE]] — scale-governance owner
+- C01_GOVERNANCE — scale-governance owner
 
 ## Hard boundaries
 

@@ -12,8 +12,8 @@ Covers outcome grounding, delay handling, and confounder exposure.
 
 ## Control-plane binding
 
-- [[C07_PERCEPTION]] — bound control plane
-- [[C08_EXECUTION]] — bound control plane
+- C07_PERCEPTION — bound control plane
+- C08_EXECUTION — bound control plane
 
 ## Hard boundaries
 

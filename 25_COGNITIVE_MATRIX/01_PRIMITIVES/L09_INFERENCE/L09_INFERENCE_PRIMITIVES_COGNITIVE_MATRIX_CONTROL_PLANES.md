@@ -12,7 +12,7 @@ Covers rule-gated deduction, abductive candidacy, and derivation-lineage trackin
 
 ## Control-plane binding
 
-- [[C04_REASONING]] — primary reasoning-plane owner for this primitive
+- C04_REASONING — primary reasoning-plane owner for this primitive
 
 ## Hard boundaries
 

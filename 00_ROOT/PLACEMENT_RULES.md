@@ -102,14 +102,14 @@ aliases:
   - AMOS System Root
 
 related:
-  - "[[00_ROOT/MOC.md|MOC]]"
+  - "[[00_ROOT/00_ROOT_MOC.md|MOC]]"
   - "[[00_ROOT/NEURAL_NETWORK.md|Neural Network]]"
   - "[[00_ROOT/ARCHITECTURE.md|Architecture]]"
   - "[[00_ROOT/FULL_TREE.md|Full Tree]]"
   - "[[00_ROOT/SYSTEM_MAP.md|System Map]]"
   - "[[00_ROOT/DEPENDENCY_MAP.md|Dependency Map]]"
   - "[[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]]"
-  - "[[00_ROOT/NAMING_STANDARD.md|Naming Standard]]"
+  - "[[00_ROOT/00_ROOT_NAMING_STANDARD.md|Naming Standard]]"
   - "[[00_ROOT/PLACEMENT_RULES.md|Placement Rules]]"
   - "[[00_ROOT/ROADMAP.md|Roadmap]]"
 ---
@@ -2550,7 +2550,7 @@ UNKNOWN/GAP
 Current implementation status belongs in:
 
 ```text
-[[00_ROOT/AUTHORITATIVE_STATE.md]]
+AUTHORITATIVE_STATE
 ```
 
 not inferred from architecture.
@@ -2570,7 +2570,7 @@ Authoritative State says:
 Load-bearing dependencies belong in:
 
 ```text
-[[00_ROOT/DEPENDENCY_MAP.md]]
+DEPENDENCY_MAP
 ```
 
 A semantic link is not automatically a dependency.
@@ -2588,7 +2588,7 @@ DEPENDS_ON
 The vault navigation topology belongs in:
 
 ```text
-[[00_ROOT/NEURAL_NETWORK.md]]
+NEURAL_NETWORK
 ```
 
 Its graph edges improve discoverability.
@@ -2609,7 +2609,7 @@ validation
 The root map of content is:
 
 ```text
-[[00_ROOT/MOC.md]]
+[[00_ROOT/00_ROOT_MOC.md]]
 ```
 
 It provides navigation.
@@ -2623,7 +2623,7 @@ It does not replace owning subsystem specifications.
 Naming identity rules are governed by:
 
 ```text
-[[00_ROOT/NAMING_STANDARD.md]]
+[[00_ROOT/00_ROOT_NAMING_STANDARD.md]]
 ```
 
 Key invariant:
@@ -2641,7 +2641,7 @@ ArtifactIdentity
 Repository ownership is governed by:
 
 ```text
-[[00_ROOT/PLACEMENT_RULES.md]]
+PLACEMENT_RULES
 ```
 
 Key invariant:
@@ -2659,7 +2659,7 @@ PrimaryOwner
 Filesystem expectations belong in:
 
 ```text
-[[00_ROOT/FULL_TREE.md]]
+FULL_TREE
 ```
 
 Hard rule:
@@ -2677,7 +2677,7 @@ VERIFIED POPULATED TREE
 Plane-level navigation belongs in:
 
 ```text
-[[00_ROOT/SYSTEM_MAP.md]]
+SYSTEM_MAP
 ```
 
 This root file should not duplicate every subsystem map.
@@ -2689,7 +2689,7 @@ This root file should not duplicate every subsystem map.
 Future work belongs in:
 
 ```text
-[[00_ROOT/ROADMAP.md]]
+ROADMAP
 ```
 
 Hard rule:
@@ -3191,13 +3191,13 @@ premises:
   - failure should be locally recoverable where possible
 
 dependencies:
-  - "[[00_ROOT/ARCHITECTURE.md]]"
-  - "[[00_ROOT/MOC.md]]"
-  - "[[00_ROOT/SYSTEM_MAP.md]]"
-  - "[[00_ROOT/DEPENDENCY_MAP.md]]"
-  - "[[00_ROOT/AUTHORITATIVE_STATE.md]]"
-  - "[[00_ROOT/NAMING_STANDARD.md]]"
-  - "[[00_ROOT/PLACEMENT_RULES.md]]"
+  - "ARCHITECTURE"
+  - "[[00_ROOT/00_ROOT_MOC.md]]"
+  - "SYSTEM_MAP"
+  - "DEPENDENCY_MAP"
+  - "AUTHORITATIVE_STATE"
+  - "[[00_ROOT/00_ROOT_NAMING_STANDARD.md]]"
+  - "PLACEMENT_RULES"
 
 hard_invariants:
   - CAPABILITY != AUTHORITY
@@ -3398,7 +3398,7 @@ The third invariant is:
 
 ---
 
-**Related:** [[00_ROOT/MOC.md|MOC]] · [[00_ROOT/NEURAL_NETWORK.md|Neural Network]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/FULL_TREE.md|Full Tree]] · [[00_ROOT/SYSTEM_MAP.md|System Map]] · [[00_ROOT/DEPENDENCY_MAP.md|Dependency Map]] · [[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]] · [[00_ROOT/NAMING_STANDARD.md|Naming Standard]] · [[00_ROOT/PLACEMENT_RULES.md|Placement Rules]] · [[00_ROOT/ROADMAP.md|Roadmap]] · [[01_CANON/00_INDEX/CANON_MAP.md|CANON]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|KERNEL]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|CONTROL_PLANE]] · [[04_RUNTIME/00_INDEX/RUNTIME_MAP.md|RUNTIME]] · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP.md|COGNITIVE_ORGANISM]] · [[06_AGENTS/00_INDEX/AGENT_MAP.md|AGENTS]] · [[07_SKILLS/00_INDEX/SKILL_MAP.md|SKILLS]] · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP.md|WORKFLOWS]] · [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP.md|PROTOCOLS]] · [[10_MEMORY/00_INDEX/MEMORY_MAP.md|MEMORY]] · [[11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture.md|KNOWLEDGE]] · [[12_STATE/00_INDEX/STATE_MAP.md|STATE]] · [[13_MODELS/00_INDEX/MODEL_MAP.md|MODELS]] · [[14_TOOLS/00_INDEX/TOOL_MAP.md|TOOLS]] · [[15_INTERFACES/00_INDEX/INTERFACE_MAP.md|INTERFACES]] · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP.md|SCHEMAS]] · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_MAP.md|OBSERVABILITY]] · [[18_SECURITY/00_INDEX/SECURITY_MAP.md|SECURITY]] · [[19_TESTS/00_INDEX/TEST_MAP.md|TESTS]] · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP.md|OPERATIONS]] · [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP.md|DOMAINS]] · [[22_RESEARCH/00_INDEX/README.md|RESEARCH]] · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL.md|OPERATING_MODEL]] · [[24_ARCHIVE/00_LEGACY/README.md|ARCHIVE]] · [[25_COGNITIVE_MATRIX/00_INDEX/ARCHITECTURE.md|COGNITIVE_MATRIX]]
+**Related:** [[00_ROOT/00_ROOT_MOC.md|MOC]] · [[00_ROOT/NEURAL_NETWORK.md|Neural Network]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/FULL_TREE.md|Full Tree]] · [[00_ROOT/SYSTEM_MAP.md|System Map]] · [[00_ROOT/DEPENDENCY_MAP.md|Dependency Map]] · [[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]] · [[00_ROOT/00_ROOT_NAMING_STANDARD.md|Naming Standard]] · [[00_ROOT/PLACEMENT_RULES.md|Placement Rules]] · [[00_ROOT/ROADMAP.md|Roadmap]] · [[01_CANON/00_INDEX/CANON_MAP.md|CANON]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|KERNEL]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|CONTROL_PLANE]] · [[04_RUNTIME/00_INDEX/RUNTIME_MAP.md|RUNTIME]] · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP.md|COGNITIVE_ORGANISM]] · [[06_AGENTS/00_INDEX/AGENT_MAP.md|AGENTS]] · [[07_SKILLS/00_INDEX/SKILL_MAP.md|SKILLS]] · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP.md|WORKFLOWS]] · [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP.md|PROTOCOLS]] · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP.md|MEMORY]] · [[11_KNOWLEDGE/AMOS_Full_Brain_OS_Architecture.md|KNOWLEDGE]] · [[12_STATE/00_INDEX/STATE_STATE_MAP.md|STATE]] · [[13_MODELS/00_INDEX/MODEL_MAP.md|MODELS]] · [[14_TOOLS/00_INDEX/TOOL_MAP.md|TOOLS]] · [[15_INTERFACES/00_INDEX/INTERFACE_MAP.md|INTERFACES]] · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP.md|SCHEMAS]] · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP.md|OBSERVABILITY]] · [[18_SECURITY/00_INDEX/SECURITY_MAP.md|SECURITY]] · [[19_TESTS/00_INDEX/TEST_MAP.md|TESTS]] · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP.md|OPERATIONS]] · [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP.md|DOMAINS]] · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README.md|RESEARCH]] · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL.md|OPERATING_MODEL]] · [[24_ARCHIVE/00_LEGACY/LEGACY_ARCHIVE_README.md|ARCHIVE]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE.md|COGNITIVE_MATRIX]]
 
 ```
 ```
@@ -3408,7 +3408,7 @@ The third invariant is:
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -3416,6 +3416,6 @@ node_id: placement_rules
 node_type: note
 path: 00_ROOT/PLACEMENT_RULES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

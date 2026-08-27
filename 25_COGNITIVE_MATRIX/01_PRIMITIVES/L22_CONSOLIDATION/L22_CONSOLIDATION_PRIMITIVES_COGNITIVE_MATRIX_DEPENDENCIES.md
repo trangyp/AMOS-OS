@@ -12,12 +12,12 @@ Covers consolidation thresholds, deduplication at write time, and index maintena
 
 ## Upstream dependencies
 
-- [[L21_LEARNING]]
-- [[L07_MEMORY]]
+- [[L21_LEARNING_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L07_MEMORY_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L07_MEMORY]]
+- [[L07_MEMORY_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

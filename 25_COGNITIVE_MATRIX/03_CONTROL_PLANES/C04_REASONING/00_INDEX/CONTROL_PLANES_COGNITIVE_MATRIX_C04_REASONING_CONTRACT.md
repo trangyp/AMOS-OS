@@ -60,7 +60,7 @@ Given an operation touching `CONTROL PLANES · COGNITIVE MATRIX C04 REASONING CO
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00-Home]]
 
 ---
 RSCF-NODE

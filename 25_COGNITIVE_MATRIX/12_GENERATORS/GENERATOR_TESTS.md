@@ -1,10 +1,4 @@
 ---
-tags: ['cognitive_matrix', 'generators', 'note']
----
-
-Below is the **full replacement content** for `12_GENERATORS/GENERATOR_TESTS.md`, aligned to the Full Brain OS, v4.4 runtime, RSCF, provenance, authority/control-plane separation, local repair, competing hypotheses, and generator architecture. The AMOS Full Brain OS source requires explicit epistemic typing, minimum-sufficient routing, provenance, contradiction checks, and preservation of implementation/authority boundaries.  
-
----
 id: AMOS-12-GENERATORS-GENERATOR-TESTS
 title: "12_GENERATORS — Generator Tests"
 origin_architect: "Trang Phan"
@@ -4250,7 +4244,7 @@ TEST
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -4258,6 +4252,6 @@ node_id: generator_tests
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_TESTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

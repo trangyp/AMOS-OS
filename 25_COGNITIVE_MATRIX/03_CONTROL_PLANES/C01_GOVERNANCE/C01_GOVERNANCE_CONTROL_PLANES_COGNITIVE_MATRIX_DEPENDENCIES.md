@@ -15,9 +15,9 @@ Covers law-stack enforcement (Law of Law, Rule of 2/4), authority envelopes, enf
 
 ## Downstream dependents
 
-- [[C03_EXECUTIVE]]
-- [[C08_EXECUTION]]
-- [[L28_GOVERNANCE]]
+- C03_EXECUTIVE
+- C08_EXECUTION
+- [[L28_GOVERNANCE_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

@@ -12,8 +12,8 @@ Covers decision policy, tie-breaking, and decision-receipt emission.
 
 ## Control-plane binding
 
-- [[C03_EXECUTIVE]] — bound control plane
-- [[C01_GOVERNANCE]] — bound control plane
+- C03_EXECUTIVE — bound control plane
+- C01_GOVERNANCE — bound control plane
 
 ## Hard boundaries
 

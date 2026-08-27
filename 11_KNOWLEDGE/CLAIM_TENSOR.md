@@ -2702,14 +2702,14 @@ Its governing invariant remains:
 
 ---
 
-**Related:** [[00-Home]] · [[06-Knowledge-Base-MOC]] · [[RSCF]] · [[AMOS_Claim_Verifier]] · [[AMOS_Provenance_Trust_Firewall]] · [[AMOS_Causal_Hierarchy_Governor]] · [[AMOS_Memory_Conflict_Governor]] · [[AMOS_Cognitive_Compression_Kernel]] · [[AMOS_Context_Budget_Governor]] · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[system_scan_agent]] · [[automation_profiles]]
+**Related:** [[00_ROOT/00-Home]] · 06-Knowledge-Base-MOC · RSCF · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2717,6 +2717,6 @@ node_id: claim_tensor
 node_type: note
 path: 11_KNOWLEDGE/CLAIM_TENSOR.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

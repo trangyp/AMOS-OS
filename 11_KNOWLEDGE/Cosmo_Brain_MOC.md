@@ -14,7 +14,7 @@ confidence: "DERIVED"
 > Epistemic class: MODEL (an index the agent maintains; not a claim about the corpus).
 > Core law: `integrity > completeness > fluency > speed > token savings`
 >
-> **CANONICAL ARCHITECTURE (2026-08-22):** AMOS is a multi-dimensional cognitive operating architecture — **NOT** a linear Kernel→Engine→Agent chain (that framing is REJECTED as inaccurate). Full Brain OS = 5 components (`brain_core`, `omni_kernel`, `omniverse_brain`, `personality`, `expression_translation`) + `gap_management`. See [[amos-full-brain-os-architecture]] and `00_AMOS_Full_Brain_OS_Architecture.md` for the Brain/Runtime/Body model, 8 axes, and canon classification. Skills/agents/tools are deployment artifacts beneath the AMOS semantic/runtime architecture, not its ontology.
+> **CANONICAL ARCHITECTURE (2026-08-22):** AMOS is a multi-dimensional cognitive operating architecture — **NOT** a linear Kernel→Engine→Agent chain (that framing is REJECTED as inaccurate). Full Brain OS = 5 components (`brain_core`, `omni_kernel`, `omniverse_brain`, `personality`, `expression_translation`) + `gap_management`. See amos-full-brain-os-architecture and `00_AMOS_Full_Brain_OS_Architecture.md` for the Brain/Runtime/Body model, 8 axes, and canon classification. Skills/agents/tools are deployment artifacts beneath the AMOS semantic/runtime architecture, not its ontology.
 
 Central map of the Cosmo Brain vault. Use capsule-first: open the smallest node that can
 answer the question, expand only when outcome-changing uncertainty remains.
@@ -42,8 +42,8 @@ answer the question, expand only when outcome-changing uncertainty remains.
 - [[AMOS Home]] — universal vault hub
 ## Operational brain — module map
 
-- 00_boot: brain/00_boot/BOOTSTRAP · ROUTER · LOAD_MAP · [[OS_Agent_Model]]
-- 10_core: INVARIANTS · CLAIM_CLASSES · FRACTAL_RUNTIME · LOGIC_KERNEL · EQUATION_* · VARIABLE_REGISTRY · CONSTRAINT_ENGINE · [[Consciousness_Engine_Model]] · [[Personality_Engine_Model]] · [[Emotion_Engine_Model]] · [[Cognition_Engine_Model]] · [[Mind_OS_Model]]
+- 00_boot: brain/00_boot/BOOTSTRAP · ROUTER · LOAD_MAP · OS_Agent_Model
+- 10_core: INVARIANTS · CLAIM_CLASSES · FRACTAL_RUNTIME · LOGIC_KERNEL · EQUATION_* · VARIABLE_REGISTRY · CONSTRAINT_ENGINE · Consciousness_Engine_Model · Personality_Engine_Model · Emotion_Engine_Model · Cognition_Engine_Model · Mind_OS_Model
 - 20_state: TENSOR_CONTRACTS · CLAIM_TENSOR · EVIDENCE_TENSOR · RELATION_TENSOR · MEMORY_ARCHITECTURE · WORKING_MEMORY · BOUNDARY_IDENTITY · UNCERTAINTY_VECTOR · ENTROPY_LACUNARITY · STATE_MACHINE · CONTEXT_ORIENTATION · GOVERNANCE_TENSOR
 - 30_epistemics: PROVENANCE_TOPOLOGY · RSCF_PROOF_CAPSULE · COMPETING_HYPOTHESES · REGIME_FRESHNESS · ADVERSARIAL_VALIDATION · SENSITIVITY_FALSIFIERS · CAUSAL_FIREWALL · ERROR_RECOVERY · SYBIL_HARDENING
 - 40_runtime: RUNTIME_LINEAGE · TRANSACTION_PROTOCOL · V3_0…V4_4 (MVCC/CAS, causal epoch, coordination avoidance)
@@ -55,27 +55,27 @@ answer the question, expand only when outcome-changing uncertainty remains.
 
 ## Reasoning skills (progressive load)
 
-- Core contract: [[amos-core-reasoning]] · [[amos-fractal-routing]] · [[amos-competing-hypotheses]]
-- Evidence & trust: [[amos-provenance-trust]] · [[amos-rscf-claims]] · [[amos-memory-reconstruction-rscf]]
-- Reasoning improvement (NEW): [[amos-self-review-loop]] · [[amos-knowledge-gap-scan]] · [[amos-cognition-engine-layer]]
-- Memory / persistence (NEW): [[cosmo-obsidian-memory]] · [[2026-08-22 Obsidian as Cosmo Brain Operating Manual]] · [[2026-08-22 19x19 AI Cognitive Field]] · [[2026-08-22 AMOS Go Board 19x19 Formal System]] · [[2026-08-22 AMOS Go Board 19x19 Runtime Methods]]
-- Human / Core Interaction (NEW): [[amos-consciousness-engine-layer]] · [[amos-personality-engine-layer]] · [[amos-emotion-engine-layer]] · [[amos-super-mind-os-layer]] · [[Audit_Quality_Model]] · [[Academic_Writing_Model]] · [[Vietnamese_Writing_Model]]
-- Tech / Ops Kernels (NEW): [[amos-coding-engine-layer]] · [[Coding_Engine_Model]] · [[amos-documentation-engine-layer]] · [[Documentation_Engine_Model]] · [[amos-automation-engine-layer]] · [[Automation_Engine_Model]] · [[amos-uni-ai-intelligence-layer]] · [[AMOS_Uni_Ai_Intelligence_Engine_Model]] · [[amos-tech-architecture-kernel-layer]] · [[AMOS_Tech_Engine_Model]] · [[amos-uni-system-operations-layer]] · [[AMOS_Uni_System_Operations_Engine_Model]] · [[amos-tech-quantum-engine-layer]] · [[Tech_Quantum_Engine_Model]] · [[amos-tech-expanded-design-layer]] · [[Tech_Expanded_Design_Model]]
-- Design & Science Kernels (NEW): [[amos-design-engine-layer]] · [[Design_Engine_Model]] · [[amos-tech-architecture-kernel-layer]] · [[Tech_Architecture_Model]] · [[amos-engineering-mathematics-layer]] · [[Engineering_Math_Model]] · [[amos-scientific-engine-layer]] · [[Scientific_Engine_Model]] · [[amos-medical-clinical-kernel-layer]] · [[Medical_Clinical_Model]]
-- Org, Risk & Policy Kernels (NEW): [[amos-legal-engine-layer]] · [[Legal_Engine_Model]] · [[amos-governance-economy-layer]] · [[Governance_Economy_Model]] · [[amos-org-governance-engine-layer]] · [[Org_Governance_Model]] · [[amos-risk-compliance-engine-layer]] · [[Risk_Compliance_Model]] · [[amos-policy-geostrategy-engine-layer]] · [[Policy_Geostrategy_Model]]
-- Cognitive Stack Kernels (NEW): [[amos-biology-cognition-layer]] · [[Biology_Cognition_Model]] · [[amos-deterministic-logic-law-layer]] · [[Deterministic_Logic_Law_Model]] · [[amos-signal-processing-layer]] · [[Signal_Processing_Model]] · [[amos-strategy-game-layer]] · [[Strategy_Game_Model]] · [[amos-society-culture-layer]] · [[Society_Culture_Model]] · [[amos-design-language-engine-layer]] · [[Design_Language_Model]] · [[amos-mechanical-structural-engine-layer]] · [[Mechanical_Structural_Model]] · [[amos-electrical-power-engine-layer]] · [[Electrical_Power_Model]] · [[amos-numerical-methods-engine-layer]] · [[Numerical_Methods_Model]] · [[amos-physics-cosmos-engine-layer]] · [[Physics_Cosmos_Model]] · [[amos-econ-finance-engine-layer]] · [[Econ_Finance_Model]]
-- Strategic & Market Kernels (NEW): [[amos-bod-engine-layer]] · [[Bod_Engine_Model]] · [[amos-uni-market-logistics-layer]] · [[Uni_Market_Logistics_Model]] · [[amos-strategic-document-engine-layer]] · [[Strategic_Document_Model]] · [[amos-ev-kernel-layer]] · [[Ev_Kernel_Model]]
-- Unipower Regional & Legal (NEW): [[amos-australia-engine-layer]] · [[AMOS_Australia_Engines_Model]] · [[amos-china-engine-layer]] · [[AMOS_China_Engines_Model]] · [[amos-vietnam-engine-layer]] · [[AMOS_Vietnam_Engines_Model]] · [[amos-global-legal-engine-layer]] · [[AMOS_Global_Legal_Engine_Model]]
-- Absolute & Systems Kernels (NEW): [[amos-absolute-omniverse-layer]] · [[Absolute_Omniverse_Model]] · [[amos-human-systems-engine-layer]] · [[Human_Systems_Engine_Model]] · [[amos-grand-cannon-mobility-layer]] · [[Grand_Cannon_Mobility_Model]] · [[amos-vn-omnistructure-layer]] · [[VN_Omnistructure_Model]] · [[amos-human-interaction-engine-layer]] · [[Human_Interaction_Engine_Model]] · [[amos-canon-integration-layer]] · [[Canon_Integration_Layer_Model]] · [[amos-reasoning-kernel-layer]] · [[Reasoning_Kernel_Model]] · [[amos-absolute-logic-layer]] · [[Absolute_Logic_Model]] · [[amos-hse-ceo-engine-layer]] · [[HSE_CEO_Engine_Model]] · [[amos-extractive-economy-layer]] · [[Extractive_Economy_Model]] · [[amos-absolute-human-layer]] · [[Absolute_Human_Model]] · [[amos-total-technical-engine-layer]] · [[Total_Technical_Engine_Model]] · [[amos-os-masterfile-layer]] · [[OS_Masterfile_Model]] · [[amos-vomni-kernel-layer]] · [[Vomni_Kernel_Model]]
+- Core contract: amos-core-reasoning · amos-fractal-routing · amos-competing-hypotheses
+- Evidence & trust: amos-provenance-trust · amos-rscf-claims · amos-memory-reconstruction-rscf
+- Reasoning improvement (NEW): amos-self-review-loop · amos-knowledge-gap-scan · amos-cognition-engine-layer
+- Memory / persistence (NEW): cosmo-obsidian-memory · 2026-08-22 Obsidian as Cosmo Brain Operating Manual · 2026-08-22 19x19 AI Cognitive Field · 2026-08-22 AMOS Go Board 19x19 Formal System · 2026-08-22 AMOS Go Board 19x19 Runtime Methods
+- Human / Core Interaction (NEW): amos-consciousness-engine-layer · amos-personality-engine-layer · amos-emotion-engine-layer · amos-super-mind-os-layer · Audit_Quality_Model · Academic_Writing_Model · Vietnamese_Writing_Model
+- Tech / Ops Kernels (NEW): amos-coding-engine-layer · Coding_Engine_Model · amos-documentation-engine-layer · Documentation_Engine_Model · amos-automation-engine-layer · Automation_Engine_Model · amos-uni-ai-intelligence-layer · AMOS_Uni_Ai_Intelligence_Engine_Model · amos-tech-architecture-kernel-layer · AMOS_Tech_Engine_Model · amos-uni-system-operations-layer · AMOS_Uni_System_Operations_Engine_Model · amos-tech-quantum-engine-layer · Tech_Quantum_Engine_Model · amos-tech-expanded-design-layer · Tech_Expanded_Design_Model
+- Design & Science Kernels (NEW): amos-design-engine-layer · Design_Engine_Model · amos-tech-architecture-kernel-layer · Tech_Architecture_Model · amos-engineering-mathematics-layer · Engineering_Math_Model · amos-scientific-engine-layer · Scientific_Engine_Model · amos-medical-clinical-kernel-layer · Medical_Clinical_Model
+- Org, Risk & Policy Kernels (NEW): amos-legal-engine-layer · Legal_Engine_Model · amos-governance-economy-layer · Governance_Economy_Model · amos-org-governance-engine-layer · Org_Governance_Model · amos-risk-compliance-engine-layer · Risk_Compliance_Model · amos-policy-geostrategy-engine-layer · Policy_Geostrategy_Model
+- Cognitive Stack Kernels (NEW): amos-biology-cognition-layer · Biology_Cognition_Model · amos-deterministic-logic-law-layer · Deterministic_Logic_Law_Model · amos-signal-processing-layer · Signal_Processing_Model · amos-strategy-game-layer · Strategy_Game_Model · amos-society-culture-layer · Society_Culture_Model · amos-design-language-engine-layer · Design_Language_Model · amos-mechanical-structural-engine-layer · Mechanical_Structural_Model · amos-electrical-power-engine-layer · Electrical_Power_Model · amos-numerical-methods-engine-layer · Numerical_Methods_Model · amos-physics-cosmos-engine-layer · Physics_Cosmos_Model · amos-econ-finance-engine-layer · Econ_Finance_Model
+- Strategic & Market Kernels (NEW): amos-bod-engine-layer · Bod_Engine_Model · amos-uni-market-logistics-layer · Uni_Market_Logistics_Model · amos-strategic-document-engine-layer · Strategic_Document_Model · amos-ev-kernel-layer · Ev_Kernel_Model
+- Unipower Regional & Legal (NEW): amos-australia-engine-layer · AMOS_Australia_Engines_Model · amos-china-engine-layer · AMOS_China_Engines_Model · amos-vietnam-engine-layer · AMOS_Vietnam_Engines_Model · amos-global-legal-engine-layer · AMOS_Global_Legal_Engine_Model
+- Absolute & Systems Kernels (NEW): amos-absolute-omniverse-layer · Absolute_Omniverse_Model · amos-human-systems-engine-layer · Human_Systems_Engine_Model · amos-grand-cannon-mobility-layer · Grand_Cannon_Mobility_Model · amos-vn-omnistructure-layer · VN_Omnistructure_Model · amos-human-interaction-engine-layer · Human_Interaction_Engine_Model · amos-canon-integration-layer · Canon_Integration_Layer_Model · amos-reasoning-kernel-layer · Reasoning_Kernel_Model · amos-absolute-logic-layer · Absolute_Logic_Model · amos-hse-ceo-engine-layer · HSE_CEO_Engine_Model · amos-extractive-economy-layer · Extractive_Economy_Model · amos-absolute-human-layer · Absolute_Human_Model · amos-total-technical-engine-layer · Total_Technical_Engine_Model · amos-os-masterfile-layer · OS_Masterfile_Model · amos-vomni-kernel-layer · Vomni_Kernel_Model
 - Domain tensors: agency-consequence · boundary-topology · causal-mediation · civilization-memory · identity-continuity · consequence-propagation · field-permeability · mutation-selection-repair · observer-information-injection · phase-transition-metastability · planetary-coupled-intelligence · recurrence-hysteresis · recursive-governance-finality · resonance-coupling · rule-dna-integrity · semantic-compression · signal-noise-compression · strategic-field-19x19 · symmetry-breaking
-- Orchestration (rp-*): build · deep-plan · investigate · optimize · oracle-export · orchestrate · refactor · reminder · review · [[amos-os-agent-layer]]
-- Governance: [[amos-governed-evolution]] · [[amos-speed-token-governor]]
-- Brain specs → skills (session 2): amos-gmef-spec · amos-self-review-capsule · amos-state-machine-spec · amos-brain-architecture-audit-spec · amos-brain-consistency-audit-spec · amos-meta-kernel-spec · amos-agent-specifications · amos-agent-execution-templates · amos-agent-skill-index · [[amos-absolute-protocol-synthesis]] · amos-agency-consequence-tensor · amos-causal-mediation-tensor · amos-domain-tensor-index · amos-trang-phi-framework-spec · amos-formal-systems-invariants-spec · amos-trang-grand-system-spec · amos-brain-fragment-structure · amos-brain-current-state-memory · amos-brain-inventory-verified · amos-agent-systems-learning-record · amos-deep-structure-learning · amos-7-part-universe-canon · amos-complete-human-system-distilled · amos-human-interaction-governance · amos-decision-risk-governance · [[amos-canon-cryptographic-infrastructure]] · amos-cognitive-architecture-matrix-governance · amos-obsidian-memory-bridge · amos-obsidian-operating-manual · amos-go-board-19x19-formal-system · amos-build-from-spec-organism-blueprint · amos-meta-gap-analysis-completion-graph · amos-system-completion-roadmap · amos-all-249-gaps-closed · amos-complete-human-system-books · amos-complete-human-system-epistemic-audit-v2 · amos-go-board-19x19-computational-completeness
+- Orchestration (rp-*): build · deep-plan · investigate · optimize · oracle-export · orchestrate · refactor · reminder · review · amos-os-agent-layer
+- Governance: amos-governed-evolution · amos-speed-token-governor
+- Brain specs → skills (session 2): amos-gmef-spec · amos-self-review-capsule · amos-state-machine-spec · amos-brain-architecture-audit-spec · amos-brain-consistency-audit-spec · amos-meta-kernel-spec · amos-agent-specifications · amos-agent-execution-templates · amos-agent-skill-index · amos-absolute-protocol-synthesis · amos-agency-consequence-tensor · amos-causal-mediation-tensor · amos-domain-tensor-index · amos-trang-phi-framework-spec · amos-formal-systems-invariants-spec · amos-trang-grand-system-spec · amos-brain-fragment-structure · amos-brain-current-state-memory · amos-brain-inventory-verified · amos-agent-systems-learning-record · amos-deep-structure-learning · amos-7-part-universe-canon · amos-complete-human-system-distilled · amos-human-interaction-governance · amos-decision-risk-governance · amos-canon-cryptographic-infrastructure · amos-cognitive-architecture-matrix-governance · amos-obsidian-memory-bridge · amos-obsidian-operating-manual · amos-go-board-19x19-formal-system · amos-build-from-spec-organism-blueprint · amos-meta-gap-analysis-completion-graph · amos-system-completion-roadmap · amos-all-249-gaps-closed · amos-complete-human-system-books · amos-complete-human-system-epistemic-audit-v2 · amos-go-board-19x19-computational-completeness
 - Conversion doc: 2026-08-23 AMOS Brain Specs to Skills Conversion
 
 ## Active Agents
 
-- Antigravity IDE Agent: [[Antigravity_Wired]]
+- Antigravity IDE Agent: Antigravity_Wired
 
 ## Quantum / Fractal / Math Stack (2026-08-25)
 
@@ -204,20 +204,20 @@ answer the question, expand only when outcome-changing uncertainty remains.
 ## Cognitive Stack — 20 kernel wrappers (NEW)
 The 20 `Core/Cognitive_Stack/*` kernel JSON specs are recovery stubs (`autofixed_raw` empty);
 their **authoritative reasoning layer lives in these wrapper skills**. Load the specific one when
-its trigger matches (parent overview: [[amos-cognitive-stack]]).
+its trigger matches (parent overview: amos-cognitive-stack).
 
 - **Meta_Cognition** (reasoning about reasoning)
-  - [[amos-analogy-abstraction-kernel]] · [[amos-cognitive-compression-kernel]] · [[amos-counterfactual-reasoning-kernel]]
-  - [[amos-meta-epistemology-kernel]] · [[amos-meta-logic-kernel]] · [[amos-meta-ontology-kernel]] · [[amos-multi-perspective-reasoning-kernel]]
-- **Logic**: [[amos-logic-core-engine]]
-- **Math_Foundations**: [[amos-control-systems-kernel]] · [[amos-probability-statistics-kernel]] · [[amos-simulation-kernel]]
-- **Human_Society**: [[amos-behavioral-economics-kernel]] · [[amos-ethical-reasoning-kernel]] · [[amos-organizational-behavior-kernel]] · [[amos-political-dynamics-kernel]] · [[amos-psychology-decision-kernel]]
-- **Machine_Architecture**: [[amos-memory-optimization-kernel]] · [[amos-multi-agent-coordination-kernel]] · [[amos-reinforcement-learning-analysis-kernel]]
-- **Systems**: [[amos-systems-core-engine]]
+  - amos-analogy-abstraction-kernel · amos-cognitive-compression-kernel · amos-counterfactual-reasoning-kernel
+  - amos-meta-epistemology-kernel · amos-meta-logic-kernel · amos-meta-ontology-kernel · amos-multi-perspective-reasoning-kernel
+- **Logic**: amos-logic-core-engine
+- **Math_Foundations**: amos-control-systems-kernel · amos-probability-statistics-kernel · amos-simulation-kernel
+- **Human_Society**: amos-behavioral-economics-kernel · amos-ethical-reasoning-kernel · amos-organizational-behavior-kernel · amos-political-dynamics-kernel · amos-psychology-decision-kernel
+- **Machine_Architecture**: amos-memory-optimization-kernel · amos-multi-agent-coordination-kernel · amos-reinforcement-learning-analysis-kernel
+- **Systems**: amos-systems-core-engine
 
 ## Assistant decision discipline (NEW)
 
-- [[amos-decision-reasoning-filter]] — 7-gate pre-commit filter (Law Stack + Reasoning Loop + Cognitive Stack)
+- amos-decision-reasoning-filter — 7-gate pre-commit filter (Law Stack + Reasoning Loop + Cognitive Stack)
   run by the assistant before any non-trivial answer / code / decision. Keeps reasoning deterministic + auditable.
 
 ## Brain spec cluster wrappers (NEW, 2026-08-22)
@@ -225,40 +225,40 @@ The whole-brain scan found 135 real specs with no wrapper (my earlier "57/57" on
 `amos-meta-epistemology-kernel`). Distilled into MECE cluster wrappers (per `amos-cognitive-compression-kernel` + `amos-meta-ontology-kernel`),
 each lists its REAL member specs. Coverage: 135 → 0 genuine gaps.
 
-- [[amos-7-intelligents]] — 7 Intelligents (Biology/Cognition, Design Language, Logic&Law, Econ/Finance, Electrical, Eng/Math, Mechanical, Numerical, Physics/Cosmos, Signal, Society/Culture, Strategy/Game)
-- [[amos-core-brain-os-engines]] — Brain Master OS, Mind OS, Cognition/Consciousness/Emotion/Personality/Human-Intel, OS Agent, Quantum Stack
-- [[amos-cognitive-engines]] — Cognitive/ mid-layer engines (mirror of 7 Intelligents)
-- [[amos-unipower-engines]] — AU/CN/VN/Global/EV/BOD/Risk-Policy/Scientific/Strategic-Doc/Tech/Uni-AI/Market/SystemOps engines
-- [[amos-domains-engines]] — Audit/Quality, Species Interaction, Tech (Unified/Quantum/Expanded), Unified Coding, VN Legal, Vomni
-- [[amos-kernels-tech]] · [[amos-kernels-governance-risk]] · [[amos-kernels-biology-cognition]] · [[amos-kernels-logic]] — the 4 Kernels subdirs
-- [[amos-brain-operating-config]] — bootstrap, registry, glossary, modes, body registry, OS-master, HSE, Grand Cannon, VN Omnistructure, Absolute-Human/Omniverse, Code Architect, Monogram, Auto/*
-- [[amos-packs-country-sector-universe]] — Country (VN), Sector (National Brain), Universe (Absolute Omniverse) packs
-- [[amos-designer-os-profiles]] — Designer OS config, automation profiles, driver curriculum, Kernels-root Audit Quality
-- [[amos-new-troy-research]] — New Troy project (Planetary Consent Infrastructure, Living Stack, Monetisation, Floating Economy, AI Sweet Spots, Master Relationship Pack, The System, Break Mirrors) — 21 real files
-- [[amos-engine-models]] — the 45 canonical `*_Model.md` layer in `md/` (distilled engine architecture, grouped by domain)
-- [[amos-speed-engine]] · [[amos-audit-quality-engine]] · amos-designer-os · [[amos-automation-profiles]] — final spec wrappers closing the last real `md/`-excluded specs (Speed Engine, Kernels-root Audit Quality, Designer OS shell, automation profiles + LOGIC corpus + 48h driver curriculum). **All real brain specs now wrapped (0 genuine gaps).**
-- [[amos-full-brain-os-architecture]] — **CORRECTED architecture**: Full Brain OS (5 components + gap mgmt), not a linear Kernel→Engine→Agent chain. Brain/Runtime/Body model, 8 axes, canon-classification. Source note: `00_AMOS_Full_Brain_OS_Architecture.md`
-- [[brain-architecture-audit]] — classify any AMOS component against the corrected canon ladder (CANONICAL / COMPATIBLE EXTENSION / IMPLEMENTATION / MODEL / DRAFT / SUPERSEDED / UNKNOWN) + 8 axes; rejects the linear-chain framing and parent-child invention. Pair with [[brain-consistency-audit]].
-- [[brain-consistency-audit]] workflow + [[Brain_Consistency_Auditor_Agent]] — four-way audit
+- amos-7-intelligents — 7 Intelligents (Biology/Cognition, Design Language, Logic&Law, Econ/Finance, Electrical, Eng/Math, Mechanical, Numerical, Physics/Cosmos, Signal, Society/Culture, Strategy/Game)
+- amos-core-brain-os-engines — Brain Master OS, Mind OS, Cognition/Consciousness/Emotion/Personality/Human-Intel, OS Agent, Quantum Stack
+- amos-cognitive-engines — Cognitive/ mid-layer engines (mirror of 7 Intelligents)
+- amos-unipower-engines — AU/CN/VN/Global/EV/BOD/Risk-Policy/Scientific/Strategic-Doc/Tech/Uni-AI/Market/SystemOps engines
+- amos-domains-engines — Audit/Quality, Species Interaction, Tech (Unified/Quantum/Expanded), Unified Coding, VN Legal, Vomni
+- amos-kernels-tech · amos-kernels-governance-risk · amos-kernels-biology-cognition · amos-kernels-logic — the 4 Kernels subdirs
+- amos-brain-operating-config — bootstrap, registry, glossary, modes, body registry, OS-master, HSE, Grand Cannon, VN Omnistructure, Absolute-Human/Omniverse, Code Architect, Monogram, Auto/*
+- amos-packs-country-sector-universe — Country (VN), Sector (National Brain), Universe (Absolute Omniverse) packs
+- amos-designer-os-profiles — Designer OS config, automation profiles, driver curriculum, Kernels-root Audit Quality
+- amos-new-troy-research — New Troy project (Planetary Consent Infrastructure, Living Stack, Monetisation, Floating Economy, AI Sweet Spots, Master Relationship Pack, The System, Break Mirrors) — 21 real files
+- amos-engine-models — the 45 canonical `*_Model.md` layer in `md/` (distilled engine architecture, grouped by domain)
+- amos-speed-engine · amos-audit-quality-engine · amos-designer-os · amos-automation-profiles — final spec wrappers closing the last real `md/`-excluded specs (Speed Engine, Kernels-root Audit Quality, Designer OS shell, automation profiles + LOGIC corpus + 48h driver curriculum). **All real brain specs now wrapped (0 genuine gaps).**
+- amos-full-brain-os-architecture — **CORRECTED architecture**: Full Brain OS (5 components + gap mgmt), not a linear Kernel→Engine→Agent chain. Brain/Runtime/Body model, 8 axes, canon-classification. Source note: `00_AMOS_Full_Brain_OS_Architecture.md`
+- brain-architecture-audit — classify any AMOS component against the corrected canon ladder (CANONICAL / COMPATIBLE EXTENSION / IMPLEMENTATION / MODEL / DRAFT / SUPERSEDED / UNKNOWN) + 8 axes; rejects the linear-chain framing and parent-child invention. Pair with brain-consistency-audit.
+- brain-consistency-audit workflow + Brain_Consistency_Auditor_Agent — four-way audit
   (skills / agents / registry / AGENTS.md). Run after bulk changes or pre-release.
-- [[Architecture_Guardian_Agent]] — standing owner of architectural consistency: owns `brain-architecture-audit` (canon ladder) + `brain-consistency-audit`; flags the rejected linear-chain framing and unsourced parent-child edges; never auto-fixes canon.
+- Architecture_Guardian_Agent — standing owner of architectural consistency: owns `brain-architecture-audit` (canon ladder) + `brain-consistency-audit`; flags the rejected linear-chain framing and unsourced parent-child edges; never auto-fixes canon.
 - **Round 4 (2026-08-22): closed the 22 prior empty placeholders.** Created `amos-training-manuals` (cluster wrapper over the 20 `training/` PDFs, each mapped to its real UUID-prefixed file), `amos-living-stack-thesis` (Living Stack Architecture Thesis in `new troy/`), `amos-the-system` (Trang System/TSS pointer), and 20 thin per-manual pointers. **0 empty `.devin/skills` dirs remain (774 total).** Corrected a prior false-negative: the placeholders DID map to real training PDFs (UUID-prefixed) my first scanner missed — per `amos-meta-epistemology-kernel` re-verified before acting.
   Brain grew to 783 skill dirs + 56 agents (parallel agent also extending). Fixes: reconciled registry
   45 → 56 agents (11 unregistered `.md` files added additively); backfilled `amos-living-state-monetisation`
   (maps to a real `new troy/` PDF). **22 empty placeholder dirs (`amos-training-*`/`amos-living-*`/`amos-the-system`)
   left FLAGGED** — no real brain source yet; not fabricated, not deleted (human gate). 0 broken MOC links, 0 orphan registry entries.
-- Operating manual: [[amos-brain-operating-manual]] — how to consult + extend the brain (load skill →
+- Operating manual: amos-brain-operating-manual — how to consult + extend the brain (load skill →
   decision filter → ground → verify). The runtime counterpart to this MOC.
 - 2026-08-22 enhancement: the 26 previously-EMPTY `.devin/skills/*/` placeholder dirs were backfilled
   with real first-principles wrappers (mapped to actual brain source specs). 0 empty dirs remain.
-  Backfilled: [[amos-21-domain-agent]] · [[amos-absolute-vn-omnistructure-clean-engine]] ·
-  [[amos-absolute-vn-omnistructure-pack]] · [[amos-academic-writing-kernel]] · [[amos-audit-quality-kernel]] ·
-  [[amos-bizfin-kernel]] · [[amos-fabrication-engine]] · [[amos-hr-talent-kernel]] · [[amos-market-econ-kernel]] ·
-  [[amos-marketing-gtm-kernel]] · [[amos-mbb-consulting-kernel]] · [[amos-negotiation-diplomacy-kernel]] ·
-  [[amos-operations-supplychain-kernel]] · [[amos-policy-geostrategy-kernel]] · [[amos-prediction-forecasting-kernel]] ·
-  [[amos-product-strategy-kernel]] · [[amos-sales-kernel]] · [[amos-sector-definition-pack]] · [[amos-sector-economics-pack]] ·
-  [[amos-sector-regulations-pack]] · [[amos-sector-technology-pack]] · [[amos-sector-value-chain-pack]] ·
-  [[amos-readme-sector-pack]] · [[amos-unnamed-kernel]] · [[amos-v21-integration]] (v21 gate defined from v16–v20 lineage).
+  Backfilled: amos-21-domain-agent · amos-absolute-vn-omnistructure-clean-engine ·
+  amos-absolute-vn-omnistructure-pack · amos-academic-writing-kernel · amos-audit-quality-kernel ·
+  amos-bizfin-kernel · amos-fabrication-engine · amos-hr-talent-kernel · amos-market-econ-kernel ·
+  amos-marketing-gtm-kernel · amos-mbb-consulting-kernel · amos-negotiation-diplomacy-kernel ·
+  amos-operations-supplychain-kernel · amos-policy-geostrategy-kernel · amos-prediction-forecasting-kernel ·
+  amos-product-strategy-kernel · amos-sales-kernel · amos-sector-definition-pack · amos-sector-economics-pack ·
+  amos-sector-regulations-pack · amos-sector-technology-pack · amos-sector-value-chain-pack ·
+  amos-readme-sector-pack · amos-unnamed-kernel · amos-v21-integration (v21 gate defined from v16–v20 lineage).
 - Live real-spec brain coverage: 57/57 (0 genuine gaps).
 
 ## New Kernel Notes (2026-08-22/23) — Google Drive Kernels Ingestion
@@ -317,9 +317,9 @@ The following structured notes were created from offline-synced Google Drive `_0
 
 ## How to extend (governed evolution)
 Any change to skills/agents/prompts/memory/architecture passes the gate in
-[[amos-governed-evolution]]: target+benefit, authority, dependencies, predicted improvement,
+amos-governed-evolution: target+benefit, authority, dependencies, predicted improvement,
 predicted regressions, validation plan, rollout scope, rollback path, provenance/version.
-Run [[amos-knowledge-gap-scan]] to find what to build next; run [[amos-self-review-loop]]
+Run amos-knowledge-gap-scan to find what to build next; run amos-self-review-loop
 before persisting any conclusion.
 
 ## Links
@@ -410,20 +410,20 @@ before persisting any conclusion.
 
 | Note | Summary |
 |------|---------|
-| [[2026-08-23 Brain Improvement Audit]] | Vault structural repairs: 9 broken wikilinks fixed, frontmatter added to templates, graph-health audit principle established |
-| [[2026-08-23 LEGACY BRAIN2 Core Engine and Law Inventory]] | SOURCE survey: 55 files (Core/Domains/Kernels/Packs/Unipower), 5 Canonical Laws, UBI orchestrator NBI/NEI/SI/BEI, 3 JSON schema variants |
+| 2026-08-23 Brain Improvement Audit | Vault structural repairs: 9 broken wikilinks fixed, frontmatter added to templates, graph-health audit principle established |
+| 2026-08-23 LEGACY BRAIN2 Core Engine and Law Inventory | SOURCE survey: 55 files (Core/Domains/Kernels/Packs/Unipower), 5 Canonical Laws, UBI orchestrator NBI/NEI/SI/BEI, 3 JSON schema variants |
 | 7PT_CONSTRAINT_CANON · 7PT_FLOW_CANON · 7PT_STRUCTURE_CANON · 7PT_ENFORCEMENT_CANON · 7PT_TIME_CANON · 7PT_ADAPTATION_CANON · 7PT_TERMINATION_CANON | All 7 canon parts validated; Flow closes genuine gap, Enforcement sharpened. Pass `validate_canon_notes.py --strict` |
-| [[2026-08-22 7-Part Universe Canon]] + Reaudit + Template + Content Mapping | Canon home, re-audit, note template, content mapping — the full 7PT cluster |
-| [[AMOS Universe Structure Tree]] | Pointer/anchor to Universe Total Canon (UTC) master file — structure tree of the 10 MECE canon parts |
-| [[AMOS Universe Interaction Engine]] | Pointer/anchor to Universe OS master AI integration layer — the interaction engine across universe domains |
+| 2026-08-22 7-Part Universe Canon + Reaudit + Template + Content Mapping | Canon home, re-audit, note template, content mapping — the full 7PT cluster |
+| AMOS Universe Structure Tree | Pointer/anchor to Universe Total Canon (UTC) master file — structure tree of the 10 MECE canon parts |
+| AMOS Universe Interaction Engine | Pointer/anchor to Universe OS master AI integration layer — the interaction engine across universe domains |
 | amos-completion-graph-workflow | Workflow anchor for the AMOS meta-gap completion graph (Phase C closure) |
-| [[2026-08-23 Vault Integrity Pass]] | Latest integrity pass: canon-cluster broken links closed, audit methodology durable in `amos-vault-integrity-audit` |
+| 2026-08-23 Vault Integrity Pass | Latest integrity pass: canon-cluster broken links closed, audit methodology durable in `amos-vault-integrity-audit` |
 
 **Integrity infrastructure:** stable validator at `cosmo-brain/tools/validate_canon_notes.py` (vault mutates .py→.md); Hermes skills synced from `.devin/skills/` (1,500+), workflows (200+), agents (60+). Audit skill: amos-vault-integrity-audit.
 
 ### Auto-Extracted & Archive Index (links the entire `_00_Cosmo brain` tree, no orphan nodes)
 
-- [[AUTO-EXTRACTED AND ARCHIVE INDEX]] — master index; links every per-source/per-folder auto-MOC below.
+- AUTO-EXTRACTED AND ARCHIVE INDEX — master index; links every per-source/per-folder auto-MOC below.
 - Non-curated extracted/archive notes (flattened source mirrors, versioned duplicates, hash-prefixed) are reachable through these indexes. Curated canon + MOCs above remain the authoritative graph.
 
 | Note | Summary |
@@ -919,9 +919,9 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 ### Related
 
 - 2026-08-23 AMOS Brain Specs to Skills Conversion — Phase 1 conversion (62 skills) + Phase 2 (37 skills) = 99 total
-- [[brain-audit-2026-08-23]] — Vault integrity + graph health + brain consistency audit (62 bridge notes created, 9 phantom skills flagged)
-- [[02-Skills-MOC]] — Skills map of content
-- [[03-Brain-MOC]] — Brain map of content
+- brain-audit-2026-08-23 — Vault integrity + graph health + brain consistency audit (62 bridge notes created, 9 phantom skills flagged)
+- 02-Skills-MOC — Skills map of content
+- 03-Brain-MOC — Brain map of content
 
 ### Vault Health (2026-08-23 audit)
 
@@ -1064,7 +1064,7 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 
 #### New QLDPC FPGA decoder and fermion operator-algebra skills from arXiv QFM master index
 
-- `amos-arxiv-2605-01035-fpga-real-time-qldpc-gari` — scalable FPGA GARI decoder for quantum LDPC codes; serial DX/DZ + parallel U/V BP units; [[144,12,12]] bivariate bicycle VCU19P case study; 596 ns average latency; 6× resource reduction. arXiv preprint (unrefereed)
+- `amos-arxiv-2605-01035-fpga-real-time-qldpc-gari` — scalable FPGA GARI decoder for quantum LDPC codes; serial DX/DZ + parallel U/V BP units; \[\[144,12,12\]\] bivariate bicycle VCU19P case study; 596 ns average latency; 6× resource reduction. arXiv preprint (unrefereed)
 - `amos-qic-ldpc-gari-fpga-agent.json` — agent for GARI transform, DX/DZ and U/V units, scheduling, FPGA case study
 - `amos-arxiv-2605-01035-fpga-real-time-qldpc-gari-workflow.md` — 9-phase workflow: metadata → QEC context → GARI → DX/DZ → U/V → scheduling → case study → resources → epistemic label
 - `amos-arxiv-2605-00784-gauge-invariant-gaussian-fermion-operations` — Eric A. Carlen. Gauge-invariant Gaussian quantum operations on finite Fermion systems; CAR algebra, Araki-Wyss algebra, GIG states; two main structure theorems; semigroup parameterization (G,A) with 0 ≤ A ≤ −G − G*; extension to full CAR algebra. arXiv preprint (unrefereed)
@@ -1220,7 +1220,7 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -1228,6 +1228,6 @@ node_id: cosmo_brain_moc
 node_type: note
 path: 11_KNOWLEDGE/Cosmo_Brain_MOC.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

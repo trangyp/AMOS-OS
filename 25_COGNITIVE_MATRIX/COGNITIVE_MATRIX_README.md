@@ -3140,7 +3140,7 @@ Until such promotion occurs, this document provides a complete candidate archite
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
 
 ---
 RSCF-NODE
@@ -3148,6 +3148,6 @@ node_id: cognitive_matrix_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: AMOS_RSCF_NODES
 claim_class: AMOS_MODEL

@@ -12,12 +12,12 @@ Covers causal graph maintenance, intervention semantics, and confounder handling
 
 ## Upstream dependencies
 
-- [[L10_WORLD_MODELING]]
+- [[L10_WORLD_MODELING_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L12_COUNTERFACTUAL_SIMULATION]]
-- [[L13_PREDICTION]]
+- [[L12_COUNTERFACTUAL_SIMULATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L13_PREDICTION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

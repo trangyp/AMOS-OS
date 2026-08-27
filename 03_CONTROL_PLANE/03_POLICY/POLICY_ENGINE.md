@@ -4526,7 +4526,7 @@ Integrity remains prior to completeness, fluency, speed, and optimization.
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -4534,6 +4534,6 @@ node_id: policy_engine
 node_type: note
 path: 03_CONTROL_PLANE/03_POLICY/POLICY_ENGINE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

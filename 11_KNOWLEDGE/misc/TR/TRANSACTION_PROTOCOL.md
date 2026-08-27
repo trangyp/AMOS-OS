@@ -1,0 +1,22 @@
+---
+tags: [misc]
+---
+# Conceptual Transaction Protocol
+
+For multi-claim/multi-memory updates:
+
+1. Create transaction ID.
+2. Record read set and write set.
+3. Bind transaction ID to immutable payload hash.
+4. Validate all cross-object invariants.
+5. Compare against current versions/snapshots.
+6. If any required CAS/invariant fails: abort all writes.
+7. If independent and local: allow v4.4-style fast path.
+8. If overlap/uncertainty/high consequence: escalate to coordinated path.
+9. Commit atomically.
+10. Preserve transaction/evidence/rollback history.
+
+This is a reasoning/control pattern unless implemented by the host system.
+
+---
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "obsidian": {
+      "command": "/Users/mac/.cargo/bin/obsidian-mcp",
+      "args": ["/Users/mac/Documents/AMOS_OS"],
+      "env": {
+        "OBSIDIAN_VAULT_PATH": "/Users/mac/Documents/AMOS_OS",
+        "OBSIDIAN_WATCH": "true",
+        "OBSIDIAN_TANTIVY": "true",
+        "OBSIDIAN_LOG_LEVEL": "info"
+      }
+    }
+  }
+}

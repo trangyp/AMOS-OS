@@ -12,8 +12,8 @@ Covers scenario construction, simulation honesty rules, and pessimism correction
 
 ## Control-plane binding
 
-- [[C04_REASONING]] — primary reasoning-plane owner for this primitive
-- [[C03_EXECUTIVE]] — bound control plane
+- C04_REASONING — primary reasoning-plane owner for this primitive
+- C03_EXECUTIVE — bound control plane
 
 ## Hard boundaries
 

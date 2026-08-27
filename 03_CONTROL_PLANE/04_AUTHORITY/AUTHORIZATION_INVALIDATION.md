@@ -55,7 +55,7 @@ Given an operation touching `AUTHORIZATION INVALIDATION` within the Control Plan
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]] · [[authz_invariant_engine]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]] · authz_invariant_engine
 
 ---
 RSCF-NODE
@@ -63,5 +63,5 @@ node_id: authz_authorization_invalidation
 node_type: note
 path: 03_CONTROL_PLANE/04_AUTHORITY/AUTHORIZATION_INVALIDATION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
 claim_class: AMOS_MODEL

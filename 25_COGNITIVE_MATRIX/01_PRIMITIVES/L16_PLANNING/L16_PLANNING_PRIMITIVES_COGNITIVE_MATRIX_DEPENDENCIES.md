@@ -12,13 +12,13 @@ Covers plan synthesis, feasibility gating, and contingency embedding.
 
 ## Upstream dependencies
 
-- [[L15_GOAL_FORMATION]]
-- [[L12_COUNTERFACTUAL_SIMULATION]]
+- [[L15_GOAL_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L12_COUNTERFACTUAL_SIMULATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L17_DECISION]]
-- [[O12_PLAN]]
+- [[L17_DECISION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- O12_PLAN
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

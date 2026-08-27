@@ -12,8 +12,8 @@ Covers evolution proposals, bounded cycles, and termination conditions (DMER tra
 
 ## Control-plane binding
 
-- [[C01_GOVERNANCE]] — bound control plane
-- [[C09_KERNEL_CONTROL]] — bound control plane
+- C01_GOVERNANCE — bound control plane
+- C09_KERNEL_CONTROL — bound control plane
 
 ## Hard boundaries
 

@@ -12,7 +12,7 @@ Covers the operation contract for this lifecycle operator.
 
 ## Control-plane binding
 
-- [[C04_REASONING]] — primary reasoning-plane owner for this primitive
+- C04_REASONING — primary reasoning-plane owner for this primitive
 
 ## Hard boundaries
 

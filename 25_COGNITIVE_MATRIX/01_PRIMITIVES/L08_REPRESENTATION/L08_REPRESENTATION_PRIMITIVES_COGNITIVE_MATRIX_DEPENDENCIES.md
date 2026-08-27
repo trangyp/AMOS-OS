@@ -12,12 +12,12 @@ Covers representation selection, encoding compatibility, and cross-representatio
 
 ## Upstream dependencies
 
-- [[L04_OBJECT_ENTITY_FORMATION]]
+- [[L04_OBJECT_ENTITY_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L09_INFERENCE]]
-- [[L10_WORLD_MODELING]]
+- [[L09_INFERENCE_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L10_WORLD_MODELING_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

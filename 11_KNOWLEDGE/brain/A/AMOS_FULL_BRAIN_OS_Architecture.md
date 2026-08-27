@@ -1,0 +1,24 @@
+---
+type: doc
+title: Bridge to AMOS Full Brain OS Architecture
+created: 2026-08-22
+tags: [canon-group/tech-ai, canon/os-module, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-full-brain-os-architecture, brain]
+---
+
+# Bridge: AMOS Full Brain OS Architecture
+
+> [!info] Resolved Bridge
+> The wikilink `2026-08-22 AMOS Full Brain OS Architecture` resolves to:
+>
+> - `amos-general/0/00_AMOS_Full_Brain_OS_Architecture.md` (145 lines — full architecture spec)
+> - `dated/2026-08-25/2026-08-25 AMOS_Full_Brain_OS_CANON.md` (canon version)
+>
+> **Audit**: Resolved 2026-08-26 — target files found in vault.
+
+Target: `AMOS Full Brain OS Architecture`
+Resolved to: `amos-general/0/00_AMOS_Full_Brain_OS_Architecture.md`
+
+## Related
+
+- [[00_Cosmo_Brain_MOC]]
+- [[_00_Cosmo brain/amos-general/0/00_AMOS_Full_Brain_OS_Architecture]]

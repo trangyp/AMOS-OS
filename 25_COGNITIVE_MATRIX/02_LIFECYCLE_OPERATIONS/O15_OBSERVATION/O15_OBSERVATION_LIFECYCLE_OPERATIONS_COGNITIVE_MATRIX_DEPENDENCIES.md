@@ -12,11 +12,11 @@ Covers the operation contract for this lifecycle operator.
 
 ## Upstream dependencies
 
-- [[O14_ACTION]]
+- O14_ACTION
 
 ## Downstream dependents
 
-- [[O16_LEARNING]]
+- O16_LEARNING
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

@@ -12,13 +12,13 @@ Covers monitor taxonomy, interrupt thresholds, and uncertainty calibration of se
 
 ## Upstream dependencies
 
-- [[L09_INFERENCE]]
-- [[L13_PREDICTION]]
+- [[L09_INFERENCE_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L13_PREDICTION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L24_SELF_REGULATION]]
-- [[C02_METACOGNITIVE]]
+- [[L24_SELF_REGULATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- C02_METACOGNITIVE
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

@@ -1,12 +1,4 @@
 ---
-tags: ['cognitive_matrix', 'validation', 'note']
----
-
-Yes. This should be the **evidence substrate underneath `11_VALIDATION`**, not another shallow checklist. The AMOS Full Brain OS rules require typed epistemic states, provenance preservation, minimum-sufficient evidence retrieval, contradiction visibility, scope/regime discipline, and explicit separation between corpus structure and external empirical validity.  The Skill canon points back to `AMOS_FULL_BRAIN_OS.json` and explicitly states that preserving an AMOS framework or architecture does not itself establish empirical validity. 
-
-Below is the **full replacement content** for `11_VALIDATION/VALIDATION_EVIDENCE.md`.
-
----
 id: AMOS-11-VALIDATION-EVIDENCE
 title: "11_VALIDATION — Validation Evidence"
 origin_architect: "Trang Phan"
@@ -5451,7 +5443,7 @@ DESCENDANTS OF ONE CLAIM.
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -5459,6 +5451,6 @@ node_id: validation_evidence
 node_type: note
 path: 25_COGNITIVE_MATRIX/11_VALIDATION/VALIDATION_EVIDENCE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

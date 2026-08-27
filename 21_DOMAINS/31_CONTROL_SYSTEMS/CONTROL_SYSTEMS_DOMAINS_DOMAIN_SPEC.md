@@ -55,7 +55,7 @@ Given an operation touching `CONTROL SYSTEMS DOMAINS DOMAIN SPEC` within the Dom
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

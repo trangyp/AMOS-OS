@@ -7,7 +7,7 @@ tags: ['amos_os', '01_canon']
 ## Map — SUPERSESSION · MAP
 Navigation map for the `01_CANON/08_SUPERSESSION/00_INDEX` segment of the Canon plane.
 
-- **Readme** — [[INDEX_SUPERSESSION_CANON_README]]
+- **Readme** — INDEX_SUPERSESSION_CANON_README
 - **Contract** — [[SUPERSESSION_CANON_SUPERSESSION_CONTRACT]]
 
 ## Reading order
@@ -44,7 +44,7 @@ Given an operation touching `SUPERSESSION · MAP` within the Canon plane:
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

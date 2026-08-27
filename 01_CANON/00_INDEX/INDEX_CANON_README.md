@@ -80,7 +80,7 @@ related:
   - "[[00_ROOT/SYSTEM_MAP.md|System Map]]"
   - "[[00_ROOT/DEPENDENCY_MAP.md|Dependency Map]]"
   - "[[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]]"
-  - "[[00_ROOT/NAMING_STANDARD.md|Naming Standard]]"
+  - "[[00_ROOT/00_ROOT_NAMING_STANDARD.md|Naming Standard]]"
   - "[[00_ROOT/PLACEMENT_RULES.md|Placement Rules]]"
   - "[[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]]"
 ---
@@ -1725,13 +1725,13 @@ premises:
   - unresolved contradictions and competing models must remain visible
 
 dependencies:
-  - "[[00_ROOT/ARCHITECTURE.md]]"
-  - "[[00_ROOT/SYSTEM_MAP.md]]"
-  - "[[00_ROOT/DEPENDENCY_MAP.md]]"
-  - "[[00_ROOT/AUTHORITATIVE_STATE.md]]"
-  - "[[00_ROOT/NAMING_STANDARD.md]]"
-  - "[[00_ROOT/PLACEMENT_RULES.md]]"
-  - "[[01_CANON/00_INDEX/CANON_MAP.md]]"
+  - "ARCHITECTURE"
+  - "SYSTEM_MAP"
+  - "DEPENDENCY_MAP"
+  - "AUTHORITATIVE_STATE"
+  - "[[00_ROOT/00_ROOT_NAMING_STANDARD.md]]"
+  - "PLACEMENT_RULES"
+  - "CANON_MAP"
 
 hard_invariants:
   - CANON != IMPLEMENTATION
@@ -1858,7 +1858,7 @@ The third invariant is:
 
 ---
 
-**Related:** [[00_ROOT/README.md|AMOS OS]] · [[00_ROOT/MOC.md|MOC]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/SYSTEM_MAP.md|System Map]] · [[00_ROOT/DEPENDENCY_MAP.md|Dependency Map]] · [[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]] · [[00_ROOT/NAMING_STANDARD.md|Naming Standard]] · [[00_ROOT/PLACEMENT_RULES.md|Placement Rules]] · [[00_ROOT/ROADMAP.md|Roadmap]] · [[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|Kernel Map]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|Control Plane Map]] · [[11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture.md|Knowledge Architecture]] · [[22_RESEARCH/00_INDEX/README.md|Research]] · [[24_ARCHIVE/00_LEGACY/README.md|Archive]]
+**Related:** [[00_ROOT/README.md|AMOS OS]] · [[00_ROOT/00_ROOT_MOC.md|MOC]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/SYSTEM_MAP.md|System Map]] · [[00_ROOT/DEPENDENCY_MAP.md|Dependency Map]] · [[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]] · [[00_ROOT/00_ROOT_NAMING_STANDARD.md|Naming Standard]] · [[00_ROOT/PLACEMENT_RULES.md|Placement Rules]] · [[00_ROOT/ROADMAP.md|Roadmap]] · [[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|Kernel Map]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|Control Plane Map]] · [[11_KNOWLEDGE/AMOS_Full_Brain_OS_Architecture.md|Knowledge Architecture]] · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README.md|Research]] · [[24_ARCHIVE/00_LEGACY/LEGACY_ARCHIVE_README.md|Archive]]
 
 ```
 ```
@@ -1868,7 +1868,7 @@ The third invariant is:
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -1876,6 +1876,6 @@ node_id: index_canon_readme
 node_type: note
 path: 01_CANON/00_INDEX/INDEX_CANON_README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

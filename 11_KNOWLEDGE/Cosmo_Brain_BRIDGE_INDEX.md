@@ -1,0 +1,8383 @@
+---
+canon-group: reference
+rscf-state: derived
+tags: [moc, index, bridge, cosmo-brain]
+---
+
+# Cosmo Brain Bridge Index
+
+> Bridge index linking AMOS_OS to the external Cosmo Brain vault (symlinked at `11_KNOWLEDGE/Cosmo_Brain/`).
+> The external vault has its own `.obsidian/` and MOC system under `docs/moc/`.
+> Total markdown files indexed: 8253
+> Top-level directories: 20
+> Top-level files: 57
+> Excluded: node_modules, .git, .turbo, .pytest_cache, __mocks__, .obsidian, .devin, .amos, .hermes, .github
+> Epistemic class: MODEL (index maintained by agent; not a claim about corpus truth).
+> Classification: AMOS_MODEL (keyword-derived, not content-verified).
+
+## Directory Summary
+
+| Directory | Files |
+|-----------|-------|
+| `docs/` | 2791 |
+| `_00_Cosmo brain/` | 2661 |
+| `.devin/` | 717 |
+| `apps/` | 701 |
+| `cosmo-brain/` | 402 |
+| `cosmo/` | 342 |
+| `designs/` | 310 |
+| `packages/` | 132 |
+| `supabase/` | 52 |
+| `scripts/` | 19 |
+| `prompt-exports/` | 12 |
+| `services/` | 12 |
+| `daily/` | 10 |
+| `references/` | 9 |
+| `.github/` | 8 |
+| `amos_adapter/` | 6 |
+| `md/` | 6 |
+| `_cosmo-brain-audit/` | 3 |
+| `e2e/` | 2 |
+| `levels/` | 1 |
+| *(top-level)* | 57 |
+| **Total** | **8253** |
+
+## `docs/` (2791 files)
+
+### `docs/brain/` (2481 files)
+
+- $$ — `docs/brain/$$.md`
+- 0.Universe_Logic_Kernel-ULK.ulmk — `docs/brain/0.Universe_Logic_Kernel-ULK.ulmk.md`
+- 00_AMOS_Full_Brain_OS_Architecture — `docs/brain/00_AMOS_Full_Brain_OS_Architecture.md`
+- 00_Cosmo_Brain_MOC — `docs/brain/00_Cosmo_Brain_MOC.md`
+- 00_Cosmo_Brain_Vault_Knowledge_Index_v1 — `docs/brain/00_Cosmo_Brain_Vault_Knowledge_Index_v1.md`
+- 00_OrchestrationRegulatorExecutionPlan — `docs/brain/00_OrchestrationRegulatorExecutionPlan.md`
+- 00_OrchestrationRegulatorProductionContract — `docs/brain/00_OrchestrationRegulatorProductionContract.md`
+- 02-Skills-MOC — `docs/brain/02-Skills-MOC.md`
+- 03-Brain-MOC — `docs/brain/03-Brain-MOC.md`
+- 06-Knowledge-Base-MOC — `docs/brain/06-Knowledge-Base-MOC.md`
+- 1 LACUNARITY TRONG BỘ NÃO LÀ GÌ — `docs/brain/1 LACUNARITY TRONG BỘ NÃO LÀ GÌ.md`
+- 11 Tiêu chí mô hình kinh doanh — `docs/brain/11 Tiêu chí mô hình kinh doanh.md`
+- 12 PHÁT HIỆN CUỐI CÙNG — `docs/brain/12 PHÁT HIỆN CUỐI CÙNG.md`
+- 19 — `docs/brain/19.md`
+- 19x19 Sparse Coupling Matrix — `docs/brain/19x19 Sparse Coupling Matrix.md`
+- 1c3eb368-d529-4352-8a20-2096ab094cb5_Logic — `docs/brain/1c3eb368-d529-4352-8a20-2096ab094cb5_Logic.md`
+- 20 CUỘC THI BẤT KHẢ THI – NƠI TIỀN THƯỞNG LÊN ĐẾN — `docs/brain/20 CUỘC THI BẤT KHẢ THI – NƠI TIỀN THƯỞNG LÊN ĐẾN.md`
+- 2026-03-09 The Complete Human System — Vault Index — `docs/brain/2026-03-09 The Complete Human System — Vault Index.md`
+- 2026-08-22 19x19 AI Cognitive Field — `docs/brain/2026-08-22 19x19 AI Cognitive Field.md`
+- 2026-08-22 19x19 Strategic Field Model — `docs/brain/2026-08-22 19x19 Strategic Field Model.md`
+- 2026-08-22 7-Part Universe Canon — Vault Completeness Audit — `docs/brain/2026-08-22 7-Part Universe Canon — Vault Completeness Audit.md`
+- 2026-08-22 7-Part Universe Canon — `docs/brain/2026-08-22 7-Part Universe Canon.md`
+- 2026-08-22 AMOS 19×19 Formal System — Computational Completeness — `docs/brain/2026-08-22 AMOS 19×19 Formal System — Computational Completeness.md`
+- 2026-08-22 AMOS Accessibility I18n — `docs/brain/2026-08-22 AMOS Accessibility I18n.md`
+- 2026-08-22 AMOS Adversarial Robustness — `docs/brain/2026-08-22 AMOS Adversarial Robustness.md`
+- 2026-08-22 AMOS All 230 Meta-Gaps Closed — `docs/brain/2026-08-22 AMOS All 230 Meta-Gaps Closed.md`
+- 2026-08-22 AMOS All 249 Gaps Closed — `docs/brain/2026-08-22 AMOS All 249 Gaps Closed.md`
+- 2026-08-22 AMOS Canon Cryptographic Infrastructure — `docs/brain/2026-08-22 AMOS Canon Cryptographic Infrastructure.md`
+- 2026-08-22 AMOS Cognitive Architecture Matrix Governance — `docs/brain/2026-08-22 AMOS Cognitive Architecture Matrix Governance.md`
+- 2026-08-22 AMOS Cognitive Architecture Matrix — `docs/brain/2026-08-22 AMOS Cognitive Architecture Matrix.md`
+- 2026-08-22 AMOS Completion Graph All 249 Gaps Closed — `docs/brain/2026-08-22 AMOS Completion Graph All 249 Gaps Closed.md`
+- 2026-08-22 AMOS Core Infrastructure Modules — `docs/brain/2026-08-22 AMOS Core Infrastructure Modules.md`
+- 2026-08-22 AMOS Core Module Test Coverage — `docs/brain/2026-08-22 AMOS Core Module Test Coverage.md`
+- 2026-08-22 AMOS Core Runtime Modules — `docs/brain/2026-08-22 AMOS Core Runtime Modules.md`
+- 2026-08-22 AMOS Fairness Ethics Externalities — `docs/brain/2026-08-22 AMOS Fairness Ethics Externalities.md`
+- 2026-08-22 AMOS Full Brain OS Architecture — `docs/brain/2026-08-22 AMOS Full Brain OS Architecture.md`
+- 2026-08-22 AMOS Go Board 19x19 Formal System — `docs/brain/2026-08-22 AMOS Go Board 19x19 Formal System.md`
+- 2026-08-22 AMOS Go Board 19x19 Runtime Methods — `docs/brain/2026-08-22 AMOS Go Board 19x19 Runtime Methods.md`
+- 2026-08-22 AMOS Governance Architecture Decommissioning — `docs/brain/2026-08-22 AMOS Governance Architecture Decommissioning.md`
+- 2026-08-22 AMOS Kafka Brain Buffer — Verbena-First Brain Engine Spec — `docs/brain/2026-08-22 AMOS Kafka Brain Buffer — Verbena-First Brain Engine Spec.md`
+- 2026-08-22 AMOS Longevity Reproducibility Archival — `docs/brain/2026-08-22 AMOS Longevity Reproducibility Archival.md`
+- 2026-08-22 AMOS Meta-Gap Analysis and Completion Graph — `docs/brain/2026-08-22 AMOS Meta-Gap Analysis and Completion Graph.md`
+- 2026-08-22 AMOS Obsidian Memory Bridge — `docs/brain/2026-08-22 AMOS Obsidian Memory Bridge.md`
+- 2026-08-22 AMOS Privacy Compliance Licensing — `docs/brain/2026-08-22 AMOS Privacy Compliance Licensing.md`
+- 2026-08-22 AMOS Proof Checking Kernel Gate — `docs/brain/2026-08-22 AMOS Proof Checking Kernel Gate.md`
+- 2026-08-22 AMOS Quantum Knowledge Base Integration — `docs/brain/2026-08-22 AMOS Quantum Knowledge Base Integration.md`
+- 2026-08-22 AMOS Quantum Physics Knowledge Base — `docs/brain/2026-08-22 AMOS Quantum Physics Knowledge Base.md`
+- 2026-08-22 AMOS Remaining Module Test Coverage — `docs/brain/2026-08-22 AMOS Remaining Module Test Coverage.md`
+- 2026-08-22 AMOS Structural Gap Promotion 340-347 — `docs/brain/2026-08-22 AMOS Structural Gap Promotion 340-347.md`
+- 2026-08-22 AMOS System Completion Audit — `docs/brain/2026-08-22 AMOS System Completion Audit.md`
+- 2026-08-22 AMOS System Completion Baseline — `docs/brain/2026-08-22 AMOS System Completion Baseline.md`
+- 2026-08-22 AMOS System Completion Roadmap — `docs/brain/2026-08-22 AMOS System Completion Roadmap.md`
+- 2026-08-22 AMOS Uncertainty Calibration — `docs/brain/2026-08-22 AMOS Uncertainty Calibration.md`
+- 2026-08-22 Accessibility i18n Governance — `docs/brain/2026-08-22 Accessibility i18n Governance.md`
+- 2026-08-22 Adversarial Robustness Governance — `docs/brain/2026-08-22 Adversarial Robustness Governance.md`
+- 2026-08-22 Assurance Debt Governance — `docs/brain/2026-08-22 Assurance Debt Governance.md`
+- 2026-08-22 Brain Inventory — `docs/brain/2026-08-22 Brain Inventory.md`
+- 2026-08-22 Cognitive Substrate Interface Coupling — `docs/brain/2026-08-22 Cognitive Substrate Interface Coupling.md`
+- 2026-08-22 Cognitive Substrate Memory Graph — `docs/brain/2026-08-22 Cognitive Substrate Memory Graph.md`
+- 2026-08-22 Cognitive Substrate Reality Gate — `docs/brain/2026-08-22 Cognitive Substrate Reality Gate.md`
+- 2026-08-22 Cognitive Substrate Reasoning Graph — `docs/brain/2026-08-22 Cognitive Substrate Reasoning Graph.md`
+- 2026-08-22 Cosmo Brain TypeScript suite green — `docs/brain/2026-08-22 Cosmo Brain TypeScript suite green.md`
+- 2026-08-22 Data Quality Governance — `docs/brain/2026-08-22 Data Quality Governance.md`
+- 2026-08-22 Decision Risk Governance — `docs/brain/2026-08-22 Decision Risk Governance.md`
+- 2026-08-22 Deep Structure Learning — `docs/brain/2026-08-22 Deep Structure Learning.md`
+- 2026-08-22 Devin Memory Update — `docs/brain/2026-08-22 Devin Memory Update.md`
+- 2026-08-22 Distributed Consensus Governance — `docs/brain/2026-08-22 Distributed Consensus Governance.md`
+- 2026-08-22 Executable Brain Model Lineage — `docs/brain/2026-08-22 Executable Brain Model Lineage.md`
+- 2026-08-22 Executable Code Internals — `docs/brain/2026-08-22 Executable Code Internals.md`
+- 2026-08-22 Fairness Ethics Externalities Governance — `docs/brain/2026-08-22 Fairness Ethics Externalities Governance.md`
+- 2026-08-22 Formal Systems Invariants — `docs/brain/2026-08-22 Formal Systems Invariants.md`
+- 2026-08-22 Governance Architecture Decommissioning — `docs/brain/2026-08-22 Governance Architecture Decommissioning.md`
+- 2026-08-22 Human Interaction Governance — `docs/brain/2026-08-22 Human Interaction Governance.md`
+- 2026-08-22 Longevity Reproducibility Governance — `docs/brain/2026-08-22 Longevity Reproducibility Governance.md`
+- 2026-08-22 Obsidian as Cosmo Brain Operating Manual — `docs/brain/2026-08-22 Obsidian as Cosmo Brain Operating Manual.md`
+- 2026-08-22 Privacy Compliance Governance — `docs/brain/2026-08-22 Privacy Compliance Governance.md`
+- 2026-08-22 Resource Governance — `docs/brain/2026-08-22 Resource Governance.md`
+- 2026-08-22 Tests Logic Bridge Registry — `docs/brain/2026-08-22 Tests Logic Bridge Registry.md`
+- 2026-08-22 The Complete Human System — Book Knowledge Base — `docs/brain/2026-08-22 The Complete Human System — Book Knowledge Base.md`
+- 2026-08-22 The Complete Human System — Books One–Six — `docs/brain/2026-08-22 The Complete Human System — Books One–Six.md`
+- 2026-08-22 The Complete Human System — Distilled Executive Summary — `docs/brain/2026-08-22 The Complete Human System — Distilled Executive Summary.md`
+- 2026-08-22 The Complete Human System — Epistemic Audit v2 — `docs/brain/2026-08-22 The Complete Human System — Epistemic Audit v2.md`
+- 2026-08-22 Trang Phi Framework — `docs/brain/2026-08-22 Trang Phi Framework.md`
+- 2026-08-22 TypeScript Data Quality Governance — `docs/brain/2026-08-22 TypeScript Data Quality Governance.md`
+- 2026-08-22 Uncertainty Calibration Governance — `docs/brain/2026-08-22 Uncertainty Calibration Governance.md`
+- 2026-08-22 data_quality cluster closed — `docs/brain/2026-08-22 data_quality cluster closed.md`
+- 2026-08-22 human_interaction cluster closed — `docs/brain/2026-08-22 human_interaction cluster closed.md`
+- 2026-08-22 resource_governance cluster closed — `docs/brain/2026-08-22 resource_governance cluster closed.md`
+- 2026-08-22-ArenaSim-Cross-Seed-Stability — `docs/brain/2026-08-22-ArenaSim-Cross-Seed-Stability.md`
+- 2026-08-22-ArenaSim-Resource-Consumption-Semantic-Types — `docs/brain/2026-08-22-ArenaSim-Resource-Consumption-Semantic-Types.md`
+- 2026-08-22-HybridArena-Model-Agent-Composition — `docs/brain/2026-08-22-HybridArena-Model-Agent-Composition.md`
+- 2026-08-22 — `docs/brain/2026-08-22.md`
+- 2026-08-23 AMOS ABI and IO Test Expansion — `docs/brain/2026-08-23 AMOS ABI and IO Test Expansion.md`
+- 2026-08-23 AMOS Authority and GMEF Gate Integration — `docs/brain/2026-08-23 AMOS Authority and GMEF Gate Integration.md`
+- 2026-08-23 AMOS Brain Cortex and Executable Brain Model Bug Fixes — `docs/brain/2026-08-23 AMOS Brain Cortex and Executable Brain Model Bug Fixes.md`
+- 2026-08-23 AMOS Cognitive Substrate Bug Fixes — `docs/brain/2026-08-23 AMOS Cognitive Substrate Bug Fixes.md`
+- 2026-08-23 AMOS Cognitive Substrate Dependency-Safe Forgetting — `docs/brain/2026-08-23 AMOS Cognitive Substrate Dependency-Safe Forgetting.md`
+- 2026-08-23 AMOS Cognitive Substrate Query and Tag Retrieval — `docs/brain/2026-08-23 AMOS Cognitive Substrate Query and Tag Retrieval.md`
+- 2026-08-23 AMOS Expression Translation Test Expansion — `docs/brain/2026-08-23 AMOS Expression Translation Test Expansion.md`
+- 2026-08-23 AMOS Gap Discovery Engine All 6 Modes — `docs/brain/2026-08-23 AMOS Gap Discovery Engine All 6 Modes.md`
+- 2026-08-23 AMOS Gap Registry Test Suite — `docs/brain/2026-08-23 AMOS Gap Registry Test Suite.md`
+- 2026-08-23 AMOS Kafka Brain Buffer Complete Fix — `docs/brain/2026-08-23 AMOS Kafka Brain Buffer Complete Fix.md`
+- 2026-08-23 AMOS Kafka Brain Buffer Module Fix — `docs/brain/2026-08-23 AMOS Kafka Brain Buffer Module Fix.md`
+- 2026-08-23 AMOS Kafka Brain Buffer Test Suite — `docs/brain/2026-08-23 AMOS Kafka Brain Buffer Test Suite.md`
+- 2026-08-23 AMOS Kafka Brain Buffer — All 180 Tests Passing — `docs/brain/2026-08-23 AMOS Kafka Brain Buffer — All 180 Tests Passing.md`
+- 2026-08-23 AMOS Kafka Brain Buffer — `docs/brain/2026-08-23 AMOS Kafka Brain Buffer.md`
+- 2026-08-23 AMOS Runtime Test Expansion — `docs/brain/2026-08-23 AMOS Runtime Test Expansion.md`
+- 2026-08-23 AMOS Server CLI IO Replay Test Expansion — `docs/brain/2026-08-23 AMOS Server CLI IO Replay Test Expansion.md`
+- 2026-08-23 AMOS TypeScript Test Expansion — `docs/brain/2026-08-23 AMOS TypeScript Test Expansion.md`
+- 2026-08-23 AMOS TypeScript Type-Guards Safety-Filter Meta-Logic Tests — `docs/brain/2026-08-23 AMOS TypeScript Type-Guards Safety-Filter Meta-Logic Tests.md`
+- 2026-08-23 AMOS Unknown-Unknown Registry — `docs/brain/2026-08-23 AMOS Unknown-Unknown Registry.md`
+- 2026-08-23 Brain Improvement Audit — `docs/brain/2026-08-23 Brain Improvement Audit.md`
+- 2026-08-23 COSMO App Build Progress — `docs/brain/2026-08-23 COSMO App Build Progress.md`
+- 2026-08-23 COSMO Critical Path Pages Converted — `docs/brain/2026-08-23 COSMO Critical Path Pages Converted.md`
+- 2026-08-23 Dependency Stabilization and Green Baseline — `docs/brain/2026-08-23 Dependency Stabilization and Green Baseline.md`
+- 2026-08-23 Determinism_Boundaries_Enhanced — `docs/brain/2026-08-23 Determinism_Boundaries_Enhanced.md`
+- 2026-08-23 Deterministic Verification Summary — `docs/brain/2026-08-23 Deterministic Verification Summary.md`
+- 2026-08-23 Deterministic_Verification_Complete — `docs/brain/2026-08-23 Deterministic_Verification_Complete.md`
+- 2026-08-23 LEGACY BRAIN2 Core Engine and Law Inventory — `docs/brain/2026-08-23 LEGACY BRAIN2 Core Engine and Law Inventory.md`
+- 2026-08-23 Memory — AMOS Kafka Brain Buffer — `docs/brain/2026-08-23 Memory — AMOS Kafka Brain Buffer.md`
+- 2026-08-23 Vault Integrity Pass — `docs/brain/2026-08-23 Vault Integrity Pass.md`
+- 2026-08-23 Vault Orphan-Closure Pass — `docs/brain/2026-08-23 Vault Orphan-Closure Pass.md`
+- 2026-08-25 A-Matrix Dynamics Layer Consolidation — `docs/brain/2026-08-25 A-Matrix Dynamics Layer Consolidation.md`
+- 2026-08-25 AMOS_Full_Brain_OS_CANON — `docs/brain/2026-08-25 AMOS_Full_Brain_OS_CANON.md`
+- 2026-08-25 Agent Registry Schema Repair — `docs/brain/2026-08-25 Agent Registry Schema Repair.md`
+- 2026-08-25 Chaos Diagnostics Layer — `docs/brain/2026-08-25 Chaos Diagnostics Layer.md`
+- 2026-08-25 Conjecture Discipline Layer — `docs/brain/2026-08-25 Conjecture Discipline Layer.md`
+- 2026-08-25 Full Brain OS Test-Fix-Rerun — `docs/brain/2026-08-25 Full Brain OS Test-Fix-Rerun.md`
+- 2026-08-25 Generative-Family Validation Layer — `docs/brain/2026-08-25 Generative-Family Validation Layer.md`
+- 2026-08-25 Golden-Ratio Diagnostics Layer — `docs/brain/2026-08-25 Golden-Ratio Diagnostics Layer.md`
+- 2026-08-25 Information-Measure Governance Layer — `docs/brain/2026-08-25 Information-Measure Governance Layer.md`
+- 2026-08-25 Law Stack Enforcement Consolidation — `docs/brain/2026-08-25 Law Stack Enforcement Consolidation.md`
+- 2026-08-25 Multifractal-Hurst Diagnostics Layer — `docs/brain/2026-08-25 Multifractal-Hurst Diagnostics Layer.md`
+- 2026-08-25 Network-Structure Diagnostics Layer — `docs/brain/2026-08-25 Network-Structure Diagnostics Layer.md`
+- 2026-08-25 Optimization-Claim Governance Layer — `docs/brain/2026-08-25 Optimization-Claim Governance Layer.md`
+- 2026-08-25 QCI Claim-Class Governance — `docs/brain/2026-08-25 QCI Claim-Class Governance.md`
+- 2026-08-25 QFM Adversarial Hardening — `docs/brain/2026-08-25 QFM Adversarial Hardening.md`
+- 2026-08-25 QFM Architecture Refinement Pass — `docs/brain/2026-08-25 QFM Architecture Refinement Pass.md`
+- 2026-08-25 QFM Bridge Governance and Entropy-Lacunarity Skill — `docs/brain/2026-08-25 QFM Bridge Governance and Entropy-Lacunarity Skill.md`
+- 2026-08-25 QFM Five-Layer Architecture and Master Router — `docs/brain/2026-08-25 QFM Five-Layer Architecture and Master Router.md`
+- 2026-08-25 QLS-UCP Collapse Governance Consolidation — `docs/brain/2026-08-25 QLS-UCP Collapse Governance Consolidation.md`
+- 2026-08-25 RG-Fractal Bridge Deep Verification — `docs/brain/2026-08-25 RG-Fractal Bridge Deep Verification.md`
+- 2026-08-25 Scaling-Law Diagnostics Layer — `docs/brain/2026-08-25 Scaling-Law Diagnostics Layer.md`
+- 2026-08-25 Spectral-Method Governance Layer — `docs/brain/2026-08-25 Spectral-Method Governance Layer.md`
+- 2026-08-25 Tensor Composition Governance — `docs/brain/2026-08-25 Tensor Composition Governance.md`
+- 24460756-ce99-4f01-a86d-05d3f7cfbca7_New_law — `docs/brain/24460756-ce99-4f01-a86d-05d3f7cfbca7_New_law.md`
+- 3-Phase Build Plan — `docs/brain/3-Phase Build Plan.md`
+- 3.Spicies_Interaction_Engine-HIE.uiface — `docs/brain/3.Spicies_Interaction_Engine-HIE.uiface.md`
+- 3a. Governance - org structure - v5 — `docs/brain/3a. Governance - org structure - v5.md`
+- 3b. Governance - process v8 — `docs/brain/3b. Governance - process v8.md`
+- 3c. Governance - Delivery and value mgmt v6 — `docs/brain/3c. Governance - Delivery and value mgmt v6.md`
+- 4.Canon Integration Layer-CIL.ucil_root — `docs/brain/4.Canon Integration Layer-CIL.ucil_root.md`
+- 4a. Cross-journey - Org and way of working v4 — `docs/brain/4a. Cross-journey - Org and way of working v4.md`
+- 4b. Cross-journey - Model office v2 — `docs/brain/4b. Cross-journey - Model office v2.md`
+- 5 PHỤ LỤC — `docs/brain/5 PHỤ LỤC.md`
+- 5.AI_Integration_Layer.uai — `docs/brain/5.AI_Integration_Layer.uai.md`
+- 5a. Journey - Planning phase - v4 — `docs/brain/5a. Journey - Planning phase - v4.md`
+- 5b. Journey - Incubate v2 - shared — `docs/brain/5b. Journey - Incubate v2 - shared.md`
+- 5c. Journey - Waves v1 - shared — `docs/brain/5c. Journey - Waves v1 - shared.md`
+- 692e9594-a359-4b20-ad1c-800a28f6a5f4__THE_UNCOPYABLE_TRAINING_ARCHITECTURE — `docs/brain/692e9594-a359-4b20-ad1c-800a28f6a5f4__THE_UNCOPYABLE_TRAINING_ARCHITECTURE.md`
+- 6a. People - Recruiting targets — `docs/brain/6a. People - Recruiting targets.md`
+- 6b. People - Onboarding — `docs/brain/6b. People - Onboarding.md`
+- 6c. People - Capability building v2 — `docs/brain/6c. People - Capability building v2.md`
+- 6d. People - Retention and performance mgmt — `docs/brain/6d. People - Retention and performance mgmt.md`
+- 7. Culture — `docs/brain/7. Culture.md`
+- 7_INTELLIGENTS_MAPPING — `docs/brain/7_INTELLIGENTS_MAPPING.md`
+- 87dd08a9-0edd-419e-9928-3afb1e99a739_Cross-Civilizational_Intelligence_(CCI)__Official_Manual_ — `docs/brain/87dd08a9-0edd-419e-9928-3afb1e99a739_Cross-Civilizational_Intelligence_(CCI)__Official_Manual_.md`
+- 90% — `docs/brain/90%.md`
+- A Bio-Logical Model of Planetary Systems — `docs/brain/A Bio-Logical Model of Planetary Systems.md`
+- A Culturally-Grounded Digital Learning Platform to — `docs/brain/A Culturally-Grounded Digital Learning Platform to.md`
+- A The Living State Monetisation Thesis_ A New Economic Paradigm — `docs/brain/A The Living State Monetisation Thesis_ A New Economic Paradigm.md`
+- A) Account + Infrastructure Setup (Execution-only) — `docs/brain/A) Account + Infrastructure Setup (Execution-only).md`
+- AB — `docs/brain/AB.md`
+- ABSOLUTE IP PROTECTION PLAN FOR TRANG PHAN — `docs/brain/ABSOLUTE IP PROTECTION PLAN FOR TRANG PHAN.md`
+- ABSOLUTE OMNIVERSE U∞_Universe_Packs — `docs/brain/ABSOLUTE OMNIVERSE U∞_Universe_Packs.md`
+- ABSOLUTE OMNIVERSE U∞_Universe_Packs_Universe_Packs — `docs/brain/ABSOLUTE OMNIVERSE U∞_Universe_Packs_Universe_Packs.md`
+- ABSOLUTE-HUMAN — `docs/brain/ABSOLUTE-HUMAN.md`
+- ABSOLUTE-VN Omnistructure — `docs/brain/ABSOLUTE-VN Omnistructure.md`
+- ABSOLUTE_VN_OMNISTRUCTURE_SUPER_x100k — `docs/brain/ABSOLUTE_VN_OMNISTRUCTURE_SUPER_x100k.md`
+- ADVANCED_SYSTEM_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/ADVANCED_SYSTEM_ENHANCEMENT_MISSION_COMPLETE.md`
+- ADVERSARIAL_VALIDATION — `docs/brain/ADVERSARIAL_VALIDATION.md`
+- AGENTS (AMOS_EXECUTION_KERNEL_v1) — `docs/brain/AGENTS (AMOS_EXECUTION_KERNEL_v1).md`
+- AGENTS (AMOS_MD_BRAIN) — `docs/brain/AGENTS (AMOS_MD_BRAIN).md`
+- AGENTS (AMOS_OS_KERNEL) — `docs/brain/AGENTS (AMOS_OS_KERNEL).md`
+- AGENTS_2 — `docs/brain/AGENTS_2.md`
+- AI Sweet Spots Research — `docs/brain/AI Sweet Spots Research.md`
+- AI_WORKFORCE_LAYER — `docs/brain/AI_WORKFORCE_LAYER.md`
+- AMOS - Absolute Meta-Operating System — `docs/brain/AMOS - Absolute Meta-Operating System.md`
+- AMOS = Absolute Meta Operating System — `docs/brain/AMOS = Absolute Meta Operating System.md`
+- AMOS ARCHITECTURE — `docs/brain/AMOS ARCHITECTURE.md`
+- AMOS Absolute Logic DB v1.0 — `docs/brain/AMOS Absolute Logic DB v1.0.md`
+- AMOS Academic Writing Engine vInfinity — `docs/brain/AMOS Academic Writing Engine vInfinity.md`
+- AMOS All Frameworks Canon Hierarchy — `docs/brain/AMOS All Frameworks Canon Hierarchy.md`
+- AMOS Audit Quality Engine v0 — `docs/brain/AMOS Audit Quality Engine v0.md`
+- AMOS Audit Quality MAX — `docs/brain/AMOS Audit Quality MAX.md`
+- AMOS Automation Kernel vInfinity — `docs/brain/AMOS Automation Kernel vInfinity.md`
+- AMOS BlueMemory Water Scarcity Operating System — `docs/brain/AMOS BlueMemory Water Scarcity Operating System.md`
+- AMOS Brain Engine Specs — `docs/brain/AMOS Brain Engine Specs.md`
+- AMOS Brain Supreme Operational Status — `docs/brain/AMOS Brain Supreme Operational Status.md`
+- AMOS CANON Integration Marker — `docs/brain/AMOS CANON Integration Marker.md`
+- AMOS CIL Canon Integration Layer — `docs/brain/AMOS CIL Canon Integration Layer.md`
+- AMOS ChatGPT Bootstrap — `docs/brain/AMOS ChatGPT Bootstrap.md`
+- AMOS Coding Engine vInfinity — `docs/brain/AMOS Coding Engine vInfinity.md`
+- AMOS Coding Kernel vInfinity — `docs/brain/AMOS Coding Kernel vInfinity.md`
+- AMOS Cognition Engine vInfinity — `docs/brain/AMOS Cognition Engine vInfinity.md`
+- AMOS Cognitive Domain Engines — `docs/brain/AMOS Cognitive Domain Engines.md`
+- AMOS Cognitive Stack Engines — `docs/brain/AMOS Cognitive Stack Engines.md`
+- AMOS Consciousness Engine vInfinity — `docs/brain/AMOS Consciousness Engine vInfinity.md`
+- AMOS Core Version Lineage — `docs/brain/AMOS Core Version Lineage.md`
+- AMOS Core-19 Formal Spec Lean — `docs/brain/AMOS Core-19 Formal Spec Lean.md`
+- AMOS Corp Doc Engine vInfinity — `docs/brain/AMOS Corp Doc Engine vInfinity.md`
+- AMOS Design Engine vInfinity_MAX — `docs/brain/AMOS Design Engine vInfinity_MAX.md`
+- AMOS Design Kernel vInfinity — `docs/brain/AMOS Design Kernel vInfinity.md`
+- AMOS Designer OS — `docs/brain/AMOS Designer OS.md`
+- AMOS Domain Engines — `docs/brain/AMOS Domain Engines.md`
+- AMOS Drive Ingest Summary — `docs/brain/AMOS Drive Ingest Summary.md`
+- AMOS Emotion Engine vInfinity — `docs/brain/AMOS Emotion Engine vInfinity.md`
+- AMOS Engineering Math Kernel vInfinity — `docs/brain/AMOS Engineering Math Kernel vInfinity.md`
+- AMOS Final Architecture — `docs/brain/AMOS Final Architecture.md`
+- AMOS GOVERNANCE BENCHMARK (STRUCTURAL, %) — `docs/brain/AMOS GOVERNANCE BENCHMARK (STRUCTURAL, %).md`
+- AMOS Governance Economy Engine vInfinity — `docs/brain/AMOS Governance Economy Engine vInfinity.md`
+- AMOS Governance Economy OS — `docs/brain/AMOS Governance Economy OS.md`
+- AMOS HIE Human Interaction Engine — `docs/brain/AMOS HIE Human Interaction Engine.md`
+- AMOS Legal Kernel vInfinity — `docs/brain/AMOS Legal Kernel vInfinity.md`
+- AMOS Linkage OS — `docs/brain/AMOS Linkage OS.md`
+- AMOS MAX Expanded — `docs/brain/AMOS MAX Expanded.md`
+- AMOS Master Equation Cosmos — `docs/brain/AMOS Master Equation Cosmos.md`
+- AMOS Math Core — Fractal Mathematics & Cognitive Architecture Runtime — `docs/brain/AMOS Math Core — Fractal Mathematics & Cognitive Architecture Runtime.md`
+- AMOS Medical Clinical Kernel vInfinity — `docs/brain/AMOS Medical Clinical Kernel vInfinity.md`
+- AMOS Medical Clinical Kernel — `docs/brain/AMOS Medical Clinical Kernel.md`
+- AMOS ORGANISM OS — CANONICAL EXHAUSTIVE PYTHON ARC — `docs/brain/AMOS ORGANISM OS — CANONICAL EXHAUSTIVE PYTHON ARC.md`
+- AMOS OS Architecture — `docs/brain/AMOS OS Architecture.md`
+- AMOS OS — `docs/brain/AMOS OS.md`
+- AMOS Org Governance Engine vInfinity — `docs/brain/AMOS Org Governance Engine vInfinity.md`
+- AMOS Org Governance Kernel — `docs/brain/AMOS Org Governance Kernel.md`
+- AMOS PHASE 1 — MAX FUNDING × MAX IP SAFETY — `docs/brain/AMOS PHASE 1 — MAX FUNDING × MAX IP SAFETY.md`
+- AMOS Personality Engine vInfinity — `docs/brain/AMOS Personality Engine vInfinity.md`
+- AMOS Policy Geostrategy Engine vInfinity — `docs/brain/AMOS Policy Geostrategy Engine vInfinity.md`
+- AMOS Risk Compliance Engine vInfinity — `docs/brain/AMOS Risk Compliance Engine vInfinity.md`
+- AMOS SUPER Kernel and Engine — `docs/brain/AMOS SUPER Kernel and Engine.md`
+- AMOS Scientific Kernel vInfinity — `docs/brain/AMOS Scientific Kernel vInfinity.md`
+- AMOS Species Interaction Core Engine — `docs/brain/AMOS Species Interaction Core Engine.md`
+- AMOS Species Interaction Core HIE — `docs/brain/AMOS Species Interaction Core HIE.md`
+- AMOS Super Engines — `docs/brain/AMOS Super Engines.md`
+- AMOS Super Kernel — Unified Meta-Orchestration Architecture — `docs/brain/AMOS Super Kernel — Unified Meta-Orchestration Architecture.md`
+- AMOS Tech Architecture Kernel SUPER vInfinity — `docs/brain/AMOS Tech Architecture Kernel SUPER vInfinity.md`
+- AMOS Tech Architecture Kernel vInfinity — `docs/brain/AMOS Tech Architecture Kernel vInfinity.md`
+- AMOS Tech Architecture Kernel — `docs/brain/AMOS Tech Architecture Kernel.md`
+- AMOS Tech Design Engine vInfinity — `docs/brain/AMOS Tech Design Engine vInfinity.md`
+- AMOS Tech Engine V∞ — `docs/brain/AMOS Tech Engine V∞.md`
+- AMOS Tech Quantum Engine vInfinity — `docs/brain/AMOS Tech Quantum Engine vInfinity.md`
+- AMOS UBI Super Engine — `docs/brain/AMOS UBI Super Engine.md`
+- AMOS UNIVERSE — `docs/brain/AMOS UNIVERSE.md`
+- AMOS Unified Coding Kernel vInfinity — `docs/brain/AMOS Unified Coding Kernel vInfinity.md`
+- AMOS Unipower Engines — `docs/brain/AMOS Unipower Engines.md`
+- AMOS Universe Domain Kernels — `docs/brain/AMOS Universe Domain Kernels.md`
+- AMOS Universe Interaction Engine — `docs/brain/AMOS Universe Interaction Engine.md`
+- AMOS Universe OS Masterfile — Unified Canon Architecture — `docs/brain/AMOS Universe OS Masterfile — Unified Canon Architecture.md`
+- AMOS Universe Structure Tree — `docs/brain/AMOS Universe Structure Tree.md`
+- AMOS Universe Total Canon UTC Master File — `docs/brain/AMOS Universe Total Canon UTC Master File.md`
+- AMOS VN Legal Engine vInfinity — `docs/brain/AMOS VN Legal Engine vInfinity.md`
+- AMOS Vietnamese Writing Engine vInfinity — `docs/brain/AMOS Vietnamese Writing Engine vInfinity.md`
+- AMOS all frameworks (drive-download-20260812T103607Z-1-001 2) — `docs/brain/AMOS all frameworks (drive-download-20260812T103607Z-1-001 2).md`
+- AMOS all frameworks — `docs/brain/AMOS all frameworks.md`
+- AMOS forex__data__oanda_data_service — `docs/brain/AMOS forex__data__oanda_data_service.md`
+- AMOS forex__db__init — `docs/brain/AMOS forex__db__init.md`
+- AMOS forex__execution__execution_service — `docs/brain/AMOS forex__execution__execution_service.md`
+- AMOS forex__monitoring__monitoring_service — `docs/brain/AMOS forex__monitoring__monitoring_service.md`
+- AMOS forex__package-lock — `docs/brain/AMOS forex__package-lock.md`
+- AMOS forex__packages__murk__primitives — `docs/brain/AMOS forex__packages__murk__primitives.md`
+- AMOS forex__packages__ukr__recursive_kernel — `docs/brain/AMOS forex__packages__ukr__recursive_kernel.md`
+- AMOS forex__packages__ulk__meta_laws — `docs/brain/AMOS forex__packages__ulk__meta_laws.md`
+- AMOS forex__research__research_service — `docs/brain/AMOS forex__research__research_service.md`
+- AMOS forex__risk__risk_service — `docs/brain/AMOS forex__risk__risk_service.md`
+- AMOS forex__run_tests — `docs/brain/AMOS forex__run_tests.md`
+- AMOS forex__signal__signal_service — `docs/brain/AMOS forex__signal__signal_service.md`
+- AMOS forex__signal__ukr_engine — `docs/brain/AMOS forex__signal__ukr_engine.md`
+- AMOS forex__tests__unit__data_service.test — `docs/brain/AMOS forex__tests__unit__data_service.test.md`
+- AMOS forex__validation__validation_service — `docs/brain/AMOS forex__validation__validation_service.md`
+- AMOS vOmni Kernel vInfinity_MAX — `docs/brain/AMOS vOmni Kernel vInfinity_MAX.md`
+- AMOS vOmni Master Kernel — `docs/brain/AMOS vOmni Master Kernel.md`
+- AMOS version — `docs/brain/AMOS version.md`
+- AMOS vs Other Frontier AI vs Global Top Humans — A — `docs/brain/AMOS vs Other Frontier AI vs Global Top Humans — A.md`
+- AMOS – KIẾN TRÚC TUYỆT ĐỐI (FULL STACK – ZERO GAP) — `docs/brain/AMOS – KIẾN TRÚC TUYỆT ĐỐI (FULL STACK – ZERO GAP).md`
+- AMOS – KIẾN TRÚC TUYỆT ĐỐI (TÍCH HỢP TOÀN BỘ 800K+ — `docs/brain/AMOS – KIẾN TRÚC TUYỆT ĐỐI (TÍCH HỢP TOÀN BỘ 800K+.md`
+- AMOS — FULL EXPANSION ARCHITECTURE (NON-FLAT, GENE — `docs/brain/AMOS — FULL EXPANSION ARCHITECTURE (NON-FLAT, GENE.md`
+- AMOS — JUNIOR ASSISTANT OPERATING GUIDE — `docs/brain/AMOS — JUNIOR ASSISTANT OPERATING GUIDE.md`
+- AMOS.config — `docs/brain/AMOS.config.md`
+- AMOS — `docs/brain/AMOS.md`
+- AMOS_21_DOMAIN_MEGA_AGENT — `docs/brain/AMOS_21_DOMAIN_MEGA_AGENT.md`
+- AMOS_21_Domain_Agent_v0 — `docs/brain/AMOS_21_Domain_Agent_v0.md`
+- AMOS_ABSOLUE_HUMAN — `docs/brain/AMOS_ABSOLUE_HUMAN.md`
+- AMOS_ABSOLUTE_PROTOCOL_SYNTHESIS_COMPLETE — `docs/brain/AMOS_ABSOLUTE_PROTOCOL_SYNTHESIS_COMPLETE.md`
+- AMOS_ACCEPTANCE_REPORT_20260321_013004 — `docs/brain/AMOS_ACCEPTANCE_REPORT_20260321_013004.md`
+- AMOS_AGENT_REGISTRY — `docs/brain/AMOS_AGENT_REGISTRY.md`
+- AMOS_AI — `docs/brain/AMOS_AI.md`
+- AMOS_AUTOMATION_ENGINE_v1.0.0 — `docs/brain/AMOS_AUTOMATION_ENGINE_v1.0.0.md`
+- AMOS_Absolute_Vn_Omnistructure_Clean_Engine_v0_Country_Packs7 — `docs/brain/AMOS_Absolute_Vn_Omnistructure_Clean_Engine_v0_Country_Packs7.md`
+- AMOS_Absolute_Vn_Omnistructure_Pack_v0_Vn4 — `docs/brain/AMOS_Absolute_Vn_Omnistructure_Pack_v0_Vn4.md`
+- AMOS_Academic_Writing_Kernal_Engine_v0_Sub2 — `docs/brain/AMOS_Academic_Writing_Kernal_Engine_v0_Sub2.md`
+- AMOS_Academic_Writing_Kernel_v0 — `docs/brain/AMOS_Academic_Writing_Kernel_v0.md`
+- AMOS_Agent_Execution_Templates — `docs/brain/AMOS_Agent_Execution_Templates.md`
+- AMOS_Agent_Orchestration_Workflow — `docs/brain/AMOS_Agent_Orchestration_Workflow.md`
+- AMOS_Agent_Skill_Index — `docs/brain/AMOS_Agent_Skill_Index.md`
+- AMOS_Agent_Specifications — `docs/brain/AMOS_Agent_Specifications.md`
+- AMOS_Agent_Systems_Learning_Record — `docs/brain/AMOS_Agent_Systems_Learning_Record.md`
+- AMOS_Agile_Delivery_Kernel_v0_Tech7_3 — `docs/brain/AMOS_Agile_Delivery_Kernel_v0_Tech7_3.md`
+- AMOS_Analogy_Abstraction_Kernel_v0_Meta_Cognition4_2 — `docs/brain/AMOS_Analogy_Abstraction_Kernel_v0_Meta_Cognition4_2.md`
+- AMOS_Api_Design_Kernel_v0_Tech — `docs/brain/AMOS_Api_Design_Kernel_v0_Tech.md`
+- AMOS_Api_Integration_Kernel_v0_Tech7_3 — `docs/brain/AMOS_Api_Integration_Kernel_v0_Tech7_3.md`
+- AMOS_Audit_Quality_Engine_v0_Domains7 — `docs/brain/AMOS_Audit_Quality_Engine_v0_Domains7.md`
+- AMOS_Audit_Quality_Kernel_v0 — `docs/brain/AMOS_Audit_Quality_Kernel_v0.md`
+- AMOS_Australia_Economy_Engine_v0_Unipower4 — `docs/brain/AMOS_Australia_Economy_Engine_v0_Unipower4.md`
+- AMOS_Australia_Engines_Model — `docs/brain/AMOS_Australia_Engines_Model.md`
+- AMOS_Australia_Law_Incentives_Funding_Grants_Engine_v0_Unipower4 — `docs/brain/AMOS_Australia_Law_Incentives_Funding_Grants_Engine_v0_Unipower4.md`
+- AMOS_Australia_Workforce_Engine_v0_Unipower4 — `docs/brain/AMOS_Australia_Workforce_Engine_v0_Unipower4.md`
+- AMOS_Automation_Kernel_v0_Tech_Systems7_3 — `docs/brain/AMOS_Automation_Kernel_v0_Tech_Systems7_3.md`
+- AMOS_BIZFIN_Pack_v0 — `docs/brain/AMOS_BIZFIN_Pack_v0.md`
+- AMOS_BIZFIN_Pack_v0_Sector_Packs7 — `docs/brain/AMOS_BIZFIN_Pack_v0_Sector_Packs7.md`
+- AMOS_BRAIN_2026_ENHANCEMENT_REPORT — `docs/brain/AMOS_BRAIN_2026_ENHANCEMENT_REPORT.md`
+- AMOS_BRAIN_20_FOLDER_LAW_RESULTS — `docs/brain/AMOS_BRAIN_20_FOLDER_LAW_RESULTS.md`
+- AMOS_BRAIN_ADVANCED_MANUAL_FIX_COMPLETE — `docs/brain/AMOS_BRAIN_ADVANCED_MANUAL_FIX_COMPLETE.md`
+- AMOS_BRAIN_AGI_ENHANCEMENT_COMPLETE_REPORT — `docs/brain/AMOS_BRAIN_AGI_ENHANCEMENT_COMPLETE_REPORT.md`
+- AMOS_BRAIN_COGNITIVE_MAX — `docs/brain/AMOS_BRAIN_COGNITIVE_MAX.md`
+- AMOS_BRAIN_COMPLETE_SYSTEM_SUMMARY — `docs/brain/AMOS_BRAIN_COMPLETE_SYSTEM_SUMMARY.md`
+- AMOS_BRAIN_CONTINUOUS_MANUAL_FIX_STATUS — `docs/brain/AMOS_BRAIN_CONTINUOUS_MANUAL_FIX_STATUS.md`
+- AMOS_BRAIN_CONTINUOUS_STATUS — `docs/brain/AMOS_BRAIN_CONTINUOUS_STATUS.md`
+- AMOS_BRAIN_CONTINUOUS_STATUS_V2 — `docs/brain/AMOS_BRAIN_CONTINUOUS_STATUS_V2.md`
+- AMOS_BRAIN_CORE_Core — `docs/brain/AMOS_BRAIN_CORE_Core.md`
+- AMOS_BRAIN_CORE_vInfinity_EXPANDED — `docs/brain/AMOS_BRAIN_CORE_vInfinity_EXPANDED.md`
+- AMOS_BRAIN_CORE_vInfinity_X300 — `docs/brain/AMOS_BRAIN_CORE_vInfinity_X300.md`
+- AMOS_BRAIN_ENHANCEMENT_COMPLETE — `docs/brain/AMOS_BRAIN_ENHANCEMENT_COMPLETE.md`
+- AMOS_BRAIN_FINAL_ARCHITECTURE_DOCUMENTATION — `docs/brain/AMOS_BRAIN_FINAL_ARCHITECTURE_DOCUMENTATION.md`
+- AMOS_BRAIN_FINAL_OPTIMIZATION_COMPLETE — `docs/brain/AMOS_BRAIN_FINAL_OPTIMIZATION_COMPLETE.md`
+- AMOS_BRAIN_MANUAL_FIX_COMPLETE — `docs/brain/AMOS_BRAIN_MANUAL_FIX_COMPLETE.md`
+- AMOS_BRAIN_MANUAL_FIX_STATUS — `docs/brain/AMOS_BRAIN_MANUAL_FIX_STATUS.md`
+- AMOS_BRAIN_MAXIMUM_ENHANCEMENT_COMPLETE — `docs/brain/AMOS_BRAIN_MAXIMUM_ENHANCEMENT_COMPLETE.md`
+- AMOS_BRAIN_MAXIMUM_ENHANCEMENT_SYNTHESIS_REPORT — `docs/brain/AMOS_BRAIN_MAXIMUM_ENHANCEMENT_SYNTHESIS_REPORT.md`
+- AMOS_BRAIN_MAX_ENHANCEMENT_COMPLETE_REPORT — `docs/brain/AMOS_BRAIN_MAX_ENHANCEMENT_COMPLETE_REPORT.md`
+- AMOS_BRAIN_OMEGA_FINAL_ANALYSIS_REPORT — `docs/brain/AMOS_BRAIN_OMEGA_FINAL_ANALYSIS_REPORT.md`
+- AMOS_BRAIN_OMEGA_OPERATIONAL_REPORT — `docs/brain/AMOS_BRAIN_OMEGA_OPERATIONAL_REPORT.md`
+- AMOS_BRAIN_OPTIMIZATION_COMPLETE — `docs/brain/AMOS_BRAIN_OPTIMIZATION_COMPLETE.md`
+- AMOS_BRAIN_PRODUCTION_FINAL_REPORT — `docs/brain/AMOS_BRAIN_PRODUCTION_FINAL_REPORT.md`
+- AMOS_BRAIN_PROJECT_COMPLETION_CERTIFICATE — `docs/brain/AMOS_BRAIN_PROJECT_COMPLETION_CERTIFICATE.md`
+- AMOS_BRAIN_QUANTUM_ENHANCEMENT_COMPLETE_REPORT — `docs/brain/AMOS_BRAIN_QUANTUM_ENHANCEMENT_COMPLETE_REPORT.md`
+- AMOS_BRAIN_QUANTUM_OMEGA_FINAL_REPORT — `docs/brain/AMOS_BRAIN_QUANTUM_OMEGA_FINAL_REPORT.md`
+- AMOS_BRAIN_ROOT_Kernel — `docs/brain/AMOS_BRAIN_ROOT_Kernel.md`
+- AMOS_BRAIN_SUPERXC_COGNITIVE — `docs/brain/AMOS_BRAIN_SUPERXC_COGNITIVE.md`
+- AMOS_BRAIN_SUPERXC_UBI_COGNITIVE_MAX — `docs/brain/AMOS_BRAIN_SUPERXC_UBI_COGNITIVE_MAX.md`
+- AMOS_BRAIN_SYNTAX_RESOLUTION_COMPLETE — `docs/brain/AMOS_BRAIN_SYNTAX_RESOLUTION_COMPLETE.md`
+- AMOS_BRAIN_ULTIMATE_MANUAL_FIX_COMPLETE — `docs/brain/AMOS_BRAIN_ULTIMATE_MANUAL_FIX_COMPLETE.md`
+- AMOS_BRAIN_v3.0.0 — `docs/brain/AMOS_BRAIN_v3.0.0.md`
+- AMOS_BUILD_FROM_SPEC — `docs/brain/AMOS_BUILD_FROM_SPEC.md`
+- AMOS_Behavior_Engine_Canonical_v0 — `docs/brain/AMOS_Behavior_Engine_Canonical_v0.md`
+- AMOS_Behavioral_Economics_Kernel_v0_Human_Society4_2 — `docs/brain/AMOS_Behavioral_Economics_Kernel_v0_Human_Society4_2.md`
+- AMOS_Bei_Engine_v0_Ubi7 — `docs/brain/AMOS_Bei_Engine_v0_Ubi7.md`
+- AMOS_Biology_And_Cognition_Engine_v0_7_Intelligents7 — `docs/brain/AMOS_Biology_And_Cognition_Engine_v0_7_Intelligents7.md`
+- AMOS_Biostatistics_Kernel_v0_Biology_Cognition — `docs/brain/AMOS_Biostatistics_Kernel_v0_Biology_Cognition.md`
+- AMOS_Biostatistics_Kernel_v0_Science_Health2 — `docs/brain/AMOS_Biostatistics_Kernel_v0_Science_Health2.md`
+- AMOS_Bizfin_Engine_v0_Sector_Packs7 — `docs/brain/AMOS_Bizfin_Engine_v0_Sector_Packs7.md`
+- AMOS_Bizfin_Kernel_v0 — `docs/brain/AMOS_Bizfin_Kernel_v0.md`
+- AMOS_Bod_Engine_v0_Unipower4 — `docs/brain/AMOS_Bod_Engine_v0_Unipower4.md`
+- AMOS_Brain_Complete_Memory — `docs/brain/AMOS_Brain_Complete_Memory.md`
+- AMOS_Brain_Current_State_Memory — `docs/brain/AMOS_Brain_Current_State_Memory.md`
+- AMOS_Brain_Durable_Memory — `docs/brain/AMOS_Brain_Durable_Memory.md`
+- AMOS_Brain_Enhancement_Log — `docs/brain/AMOS_Brain_Enhancement_Log.md`
+- AMOS_Brain_Fragment_File_Structure — `docs/brain/AMOS_Brain_Fragment_File_Structure.md`
+- AMOS_Brain_Learning_Improvement — `docs/brain/AMOS_Brain_Learning_Improvement.md`
+- AMOS_Brain_Learning_Memory — `docs/brain/AMOS_Brain_Learning_Memory.md`
+- AMOS_Brain_Learning_Session_Summary — `docs/brain/AMOS_Brain_Learning_Session_Summary.md`
+- AMOS_Brain_Master_Os_v0_Core4 — `docs/brain/AMOS_Brain_Master_Os_v0_Core4.md`
+- AMOS_Brain_Self_Enhancement — `docs/brain/AMOS_Brain_Self_Enhancement.md`
+- AMOS_Business_Analysis_Kernel_v0_Tech — `docs/brain/AMOS_Business_Analysis_Kernel_v0_Tech.md`
+- AMOS_Business_Finance_SUPER_Engine — `docs/brain/AMOS_Business_Finance_SUPER_Engine.md`
+- AMOS_Business_Model_Kernel_v0_Biz_Market3 — `docs/brain/AMOS_Business_Model_Kernel_v0_Biz_Market3.md`
+- AMOS_Business_Model_Kernel_v0_Business4 — `docs/brain/AMOS_Business_Model_Kernel_v0_Business4.md`
+- AMOS_C02_Math_Compute — `docs/brain/AMOS_C02_Math_Compute.md`
+- AMOS_C02_Math_Compute_SUPER — `docs/brain/AMOS_C02_Math_Compute_SUPER.md`
+- AMOS_C03_physics_cosmos — `docs/brain/AMOS_C03_physics_cosmos.md`
+- AMOS_C03_physics_cosmos_SUPER — `docs/brain/AMOS_C03_physics_cosmos_SUPER.md`
+- AMOS_C12_Earth_Ecology — `docs/brain/AMOS_C12_Earth_Ecology.md`
+- AMOS_C12_Earth_Ecology_SUPER — `docs/brain/AMOS_C12_Earth_Ecology_SUPER.md`
+- AMOS_CANONICAL_GLOSSARY — `docs/brain/AMOS_CANONICAL_GLOSSARY.md`
+- AMOS_CAPABILITY_EXPANSION_COMPLETE_REPORT — `docs/brain/AMOS_CAPABILITY_EXPANSION_COMPLETE_REPORT.md`
+- AMOS_CC05_mind_behavior — `docs/brain/AMOS_CC05_mind_behavior.md`
+- AMOS_CHATGPT_BOOTSTRAP — `docs/brain/AMOS_CHATGPT_BOOTSTRAP.md`
+- AMOS_CODING_OMEGA — `docs/brain/AMOS_CODING_OMEGA.md`
+- AMOS_COGNITION_TOTAL_KERNEL — `docs/brain/AMOS_COGNITION_TOTAL_KERNEL.md`
+- AMOS_COMMUNICATION_OMEGA — `docs/brain/AMOS_COMMUNICATION_OMEGA.md`
+- AMOS_CORE - FULL — `docs/brain/AMOS_CORE - FULL.md`
+- AMOS_CORE FINAL — `docs/brain/AMOS_CORE FINAL.md`
+- AMOS_CORE v3.1 — Logic Fixed — `docs/brain/AMOS_CORE v3.1 — Logic Fixed.md`
+- AMOS_CORE v3.2.1 — RSCF HML Recursive Runtime — `docs/brain/AMOS_CORE v3.2.1 — RSCF HML Recursive Runtime.md`
+- AMOS_CORE v3.3 — Governed Meta-Evolution Runtime — `docs/brain/AMOS_CORE v3.3 — Governed Meta-Evolution Runtime.md`
+- AMOS_CORE v3.4.1 — Distributed Causal Evolution Runtime — `docs/brain/AMOS_CORE v3.4.1 — Distributed Causal Evolution Runtime.md`
+- AMOS_CORE v3.5 — Epistemic Regime Lineage Runtime — `docs/brain/AMOS_CORE v3.5 — Epistemic Regime Lineage Runtime.md`
+- AMOS_CORE v3.7 — Provenance Topology Runtime — `docs/brain/AMOS_CORE v3.7 — Provenance Topology Runtime.md`
+- AMOS_CORE v3.7.1 — Provenance Topology Hardened Runtime — `docs/brain/AMOS_CORE v3.7.1 — Provenance Topology Hardened Runtime.md`
+- AMOS_CORE v3.8 — Iterative Provenance Runtime — `docs/brain/AMOS_CORE v3.8 — Iterative Provenance Runtime.md`
+- AMOS_CORE v3.9 — Persistent Incremental Provenance Runtime — `docs/brain/AMOS_CORE v3.9 — Persistent Incremental Provenance Runtime.md`
+- AMOS_CORE v3 — `docs/brain/AMOS_CORE v3.md`
+- AMOS_CORE v4.0 — MVCC Causal Concurrency Runtime — `docs/brain/AMOS_CORE v4.0 — MVCC Causal Concurrency Runtime.md`
+- AMOS_CORE v4.1 — Transactional Multi-RSCF Runtime — `docs/brain/AMOS_CORE v4.1 — Transactional Multi-RSCF Runtime.md`
+- AMOS_CORE v4.2 — Deterministic Causal Epoch Runtime — `docs/brain/AMOS_CORE v4.2 — Deterministic Causal Epoch Runtime.md`
+- AMOS_CORE v4.3 — Hardened Adaptive Epoch Runtime — `docs/brain/AMOS_CORE v4.3 — Hardened Adaptive Epoch Runtime.md`
+- AMOS_CORE v4.4 — Coordination Avoidance Runtime — `docs/brain/AMOS_CORE v4.4 — Coordination Avoidance Runtime.md`
+- AMOS_CORE — `docs/brain/AMOS_CORE.md`
+- AMOS_CORE_v4_6_1_omega_closed_loop_runtime — `docs/brain/AMOS_CORE_v4_6_1_omega_closed_loop_runtime.md`
+- AMOS_CORE_v4_7_hardened_deterministic_governance — `docs/brain/AMOS_CORE_v4_7_hardened_deterministic_governance.md`
+- AMOS_CORE_v4_8_capability_bound_governance — `docs/brain/AMOS_CORE_v4_8_capability_bound_governance.md`
+- AMOS_CORE_v5_3_signed_recovery_authority_runtime — `docs/brain/AMOS_CORE_v5_3_signed_recovery_authority_runtime.md`
+- AMOS_CORE_v5_8_external_monotonic_witness_runtime — `docs/brain/AMOS_CORE_v5_8_external_monotonic_witness_runtime.md`
+- AMOS_C_CANON_SUPER — `docs/brain/AMOS_C_CANON_SUPER.md`
+- AMOS_Change_Management_Engine_v0_Governance_Risk — `docs/brain/AMOS_Change_Management_Engine_v0_Governance_Risk.md`
+- AMOS_Change_Management_Kernel_v0_Governance_Risk — `docs/brain/AMOS_Change_Management_Kernel_v0_Governance_Risk.md`
+- AMOS_China_Engines_Model — `docs/brain/AMOS_China_Engines_Model.md`
+- AMOS_Chinese_Legal_Ecosystem_Engine_v0_Unipower4 — `docs/brain/AMOS_Chinese_Legal_Ecosystem_Engine_v0_Unipower4.md`
+- AMOS_Chinese_Legal_Engine_v0_Unipower4 — `docs/brain/AMOS_Chinese_Legal_Engine_v0_Unipower4.md`
+- AMOS_Clinical_Research_Kernel_v0_Biology_Cognition7_3 — `docs/brain/AMOS_Clinical_Research_Kernel_v0_Biology_Cognition7_3.md`
+- AMOS_Clinical_Research_Kernel_v0_Science_Health2 — `docs/brain/AMOS_Clinical_Research_Kernel_v0_Science_Health2.md`
+- AMOS_Cloud_Platform_Kernel_v0_Tech — `docs/brain/AMOS_Cloud_Platform_Kernel_v0_Tech.md`
+- AMOS_Code_Architect — `docs/brain/AMOS_Code_Architect.md`
+- AMOS_Coding_Engine — `docs/brain/AMOS_Coding_Engine.md`
+- AMOS_Coding_Engine_GPT — `docs/brain/AMOS_Coding_Engine_GPT.md`
+- AMOS_Coding_Engine_ULTRA_300_FULL — `docs/brain/AMOS_Coding_Engine_ULTRA_300_FULL.md`
+- AMOS_Coding_Kernel_v0_Tech_Systems7_2 — `docs/brain/AMOS_Coding_Kernel_v0_Tech_Systems7_2.md`
+- AMOS_Cognition_Engine_Canonical_v0 — `docs/brain/AMOS_Cognition_Engine_Canonical_v0.md`
+- AMOS_Cognition_Engine_v0_Core7 — `docs/brain/AMOS_Cognition_Engine_v0_Core7.md`
+- AMOS_Cognition_Law_v0 — `docs/brain/AMOS_Cognition_Law_v0.md`
+- AMOS_Cognitive_Compression_Kernel_v0_Meta_Cognition4_2 — `docs/brain/AMOS_Cognitive_Compression_Kernel_v0_Meta_Cognition4_2.md`
+- AMOS_Cognitive_Substrate_v2_Implementation_Notes — `docs/brain/AMOS_Cognitive_Substrate_v2_Implementation_Notes.md`
+- AMOS_Cognitive_Substrate_v2_Implementation_Notes_2 — `docs/brain/AMOS_Cognitive_Substrate_v2_Implementation_Notes_2.md`
+- AMOS_Complete_Generative_Architecture_12_Basis_Generators — `docs/brain/AMOS_Complete_Generative_Architecture_12_Basis_Generators.md`
+- AMOS_Consciousness_Engine_v0_Core7 — `docs/brain/AMOS_Consciousness_Engine_v0_Core7.md`
+- AMOS_Consulting_BizFin_Engine_vInfinity — `docs/brain/AMOS_Consulting_BizFin_Engine_vInfinity.md`
+- AMOS_Consulting_Engine_SUPER_x100k_vInfinity — `docs/brain/AMOS_Consulting_Engine_SUPER_x100k_vInfinity.md`
+- AMOS_Consulting__SUPER_Engine_ — `docs/brain/AMOS_Consulting__SUPER_Engine_.md`
+- AMOS_Control_Systems_Kernel_v0_Math_Foundations — `docs/brain/AMOS_Control_Systems_Kernel_v0_Math_Foundations.md`
+- AMOS_Corp_Doc_Engine_SUPER_x100k_vInfinity — `docs/brain/AMOS_Corp_Doc_Engine_SUPER_x100k_vInfinity.md`
+- AMOS_Counterfactual_Reasoning_Kernel_v0_Meta_Cognition4_2 — `docs/brain/AMOS_Counterfactual_Reasoning_Kernel_v0_Meta_Cognition4_2.md`
+- AMOS_Country_Profile_Pack_v0_Au4 — `docs/brain/AMOS_Country_Profile_Pack_v0_Au4.md`
+- AMOS_Crisis_Management_Engine_v0_Governance_Risk — `docs/brain/AMOS_Crisis_Management_Engine_v0_Governance_Risk.md`
+- AMOS_Crisis_Management_Kernel_v0_Governance_Risk — `docs/brain/AMOS_Crisis_Management_Kernel_v0_Governance_Risk.md`
+- AMOS_Culture_And_Working_Style_Pack_v0_Au4 — `docs/brain/AMOS_Culture_And_Working_Style_Pack_v0_Au4.md`
+- AMOS_Culture_And_Working_Style_Pack_v0_Template4 — `docs/brain/AMOS_Culture_And_Working_Style_Pack_v0_Template4.md`
+- AMOS_Customer_Insight_Kernel_v0_Biz_Market2 — `docs/brain/AMOS_Customer_Insight_Kernel_v0_Biz_Market2.md`
+- AMOS_Customer_Insight_Kernel_v0_Business4 — `docs/brain/AMOS_Customer_Insight_Kernel_v0_Business4.md`
+- AMOS_Data_Engineering_Kernel_v0_Tech — `docs/brain/AMOS_Data_Engineering_Kernel_v0_Tech.md`
+- AMOS_Data_Science_Kernel_v0_Tech — `docs/brain/AMOS_Data_Science_Kernel_v0_Tech.md`
+- AMOS_Design_Engine_v0_Tech7 — `docs/brain/AMOS_Design_Engine_v0_Tech7.md`
+- AMOS_Design_Kernel_v0_Tech — `docs/brain/AMOS_Design_Kernel_v0_Tech.md`
+- AMOS_Design_Language_Engine_v0_Cognitive4 — `docs/brain/AMOS_Design_Language_Engine_v0_Cognitive4.md`
+- AMOS_Deterministic_Logic_And_Law_Engine_v0_Cognitive4 — `docs/brain/AMOS_Deterministic_Logic_And_Law_Engine_v0_Cognitive4.md`
+- AMOS_Devops_Infra_Kernel_v0_Tech — `docs/brain/AMOS_Devops_Infra_Kernel_v0_Tech.md`
+- AMOS_Documentation_Kernel_v0_Tech_Systems7_4 — `docs/brain/AMOS_Documentation_Kernel_v0_Tech_Systems7_4.md`
+- AMOS_Domain_Skills_Catalog — `docs/brain/AMOS_Domain_Skills_Catalog.md`
+- AMOS_EV_INFRASTRUCTURE_AGENTS_SUPER_ENGINE_X100k — `docs/brain/AMOS_EV_INFRASTRUCTURE_AGENTS_SUPER_ENGINE_X100k.md`
+- AMOS_EV_INFRASTRUCTURE_AGENTS_SUPER_ENGINE_vInfinity_X100k_GLOBAL_C_REFACTORED_v3 — `docs/brain/AMOS_EV_INFRASTRUCTURE_AGENTS_SUPER_ENGINE_vInfinity_X100k_GLOBAL_C_REFACTORED_v3.md`
+- AMOS_EXPRESSION_TRANSLATION_Expression — `docs/brain/AMOS_EXPRESSION_TRANSLATION_Expression.md`
+- AMOS_EXPRESSION_TRANSLATION_vInfinity_v4 — `docs/brain/AMOS_EXPRESSION_TRANSLATION_vInfinity_v4.md`
+- AMOS_Econ_Finance_Engine_v0_Cognitive4 — `docs/brain/AMOS_Econ_Finance_Engine_v0_Cognitive4.md`
+- AMOS_Economy_And_Sectors_Pack_v0_Au4 — `docs/brain/AMOS_Economy_And_Sectors_Pack_v0_Au4.md`
+- AMOS_Economy_And_Sectors_Pack_v0_Template4 — `docs/brain/AMOS_Economy_And_Sectors_Pack_v0_Template4.md`
+- AMOS_Electrical_Power_Engine_v0_Cognitive4 — `docs/brain/AMOS_Electrical_Power_Engine_v0_Cognitive4.md`
+- AMOS_Emotion_Engine_Canonical_v0 — `docs/brain/AMOS_Emotion_Engine_Canonical_v0.md`
+- AMOS_Emotion_Engine_v0_Core7 — `docs/brain/AMOS_Emotion_Engine_v0_Core7.md`
+- AMOS_Emotion_Law_v0 — `docs/brain/AMOS_Emotion_Law_v0.md`
+- AMOS_Engineering_And_Mathematics_Engine_v0_Cognitive4 — `docs/brain/AMOS_Engineering_And_Mathematics_Engine_v0_Cognitive4.md`
+- AMOS_Engineering_Math_Kernel_v0_Tech_Systems7_4 — `docs/brain/AMOS_Engineering_Math_Kernel_v0_Tech_Systems7_4.md`
+- AMOS_Environmental_Health_Kernel_v0_Biology_Cognition7_3 — `docs/brain/AMOS_Environmental_Health_Kernel_v0_Biology_Cognition7_3.md`
+- AMOS_Environmental_Health_Kernel_v0_Science_Health2 — `docs/brain/AMOS_Environmental_Health_Kernel_v0_Science_Health2.md`
+- AMOS_Ethical_Law_v0 — `docs/brain/AMOS_Ethical_Law_v0.md`
+- AMOS_Ethical_Reasoning_Kernel_v0_Human_Society4_2 — `docs/brain/AMOS_Ethical_Reasoning_Kernel_v0_Human_Society4_2.md`
+- AMOS_Etl_Pipeline_Kernel_v0_Tech — `docs/brain/AMOS_Etl_Pipeline_Kernel_v0_Tech.md`
+- AMOS_Ev_Kernel_v0_Biz_Market — `docs/brain/AMOS_Ev_Kernel_v0_Biz_Market.md`
+- AMOS_Ev_Kernel_v0_Unipower4 — `docs/brain/AMOS_Ev_Kernel_v0_Unipower4.md`
+- AMOS_Expression_Translation_Workflow — `docs/brain/AMOS_Expression_Translation_Workflow.md`
+- AMOS_FULL_BRAIN_OS_Architecture — `docs/brain/AMOS_FULL_BRAIN_OS_Architecture.md`
+- AMOS_Fabrication_Engine_v0 — `docs/brain/AMOS_Fabrication_Engine_v0.md`
+- AMOS_GOVERNOR_SETUP_COMPLETE — `docs/brain/AMOS_GOVERNOR_SETUP_COMPLETE.md`
+- AMOS_GOV_Pack_v0_Sector_Packs7 — `docs/brain/AMOS_GOV_Pack_v0_Sector_Packs7.md`
+- AMOS_Global_Legal_Engine_Model — `docs/brain/AMOS_Global_Legal_Engine_Model.md`
+- AMOS_Global_Legal_Engine_v0_Unipower4 — `docs/brain/AMOS_Global_Legal_Engine_v0_Unipower4.md`
+- AMOS_Gov_Engine_v0_Sector_Packs7 — `docs/brain/AMOS_Gov_Engine_v0_Sector_Packs7.md`
+- AMOS_Governance_And_Politics_Pack_v0_Au4 — `docs/brain/AMOS_Governance_And_Politics_Pack_v0_Au4.md`
+- AMOS_Governance_Economy_Engine_v0_Org_Risk_Policy7_2 — `docs/brain/AMOS_Governance_Economy_Engine_v0_Org_Risk_Policy7_2.md`
+- AMOS_Governance_Kernel_v0 — `docs/brain/AMOS_Governance_Kernel_v0.md`
+- AMOS_Governance_Risk_Policy_Kernel_v0 — `docs/brain/AMOS_Governance_Risk_Policy_Kernel_v0.md`
+- AMOS_HIE_Pipeline_Workflow — `docs/brain/AMOS_HIE_Pipeline_Workflow.md`
+- AMOS_HUMAN_Pack_v0_Sector_Packs7 — `docs/brain/AMOS_HUMAN_Pack_v0_Sector_Packs7.md`
+- AMOS_Health_Policy_Kernel_v0_Biology_Cognition — `docs/brain/AMOS_Health_Policy_Kernel_v0_Biology_Cognition.md`
+- AMOS_Health_Policy_Kernel_v0_Science_Health2 — `docs/brain/AMOS_Health_Policy_Kernel_v0_Science_Health2.md`
+- AMOS_Hr_Talent_Kernel_v0 — `docs/brain/AMOS_Hr_Talent_Kernel_v0.md`
+- AMOS_Human_Engine_v0_Sector_Packs7 — `docs/brain/AMOS_Human_Engine_v0_Sector_Packs7.md`
+- AMOS_Human_Intelligence_Engine_v0_Core7 — `docs/brain/AMOS_Human_Intelligence_Engine_v0_Core7.md`
+- AMOS_INTEGRATION_TEST_DASHBOARD — `docs/brain/AMOS_INTEGRATION_TEST_DASHBOARD.md`
+- AMOS_Identity_Law_v0 — `docs/brain/AMOS_Identity_Law_v0.md`
+- AMOS_Infrastructure_And_Logistics_Pack_v0_Au4 — `docs/brain/AMOS_Infrastructure_And_Logistics_Pack_v0_Au4.md`
+- AMOS_Infrastructure_And_Logistics_Pack_v0_Template4 — `docs/brain/AMOS_Infrastructure_And_Logistics_Pack_v0_Template4.md`
+- AMOS_Integration_Platform_Kernel_v0_Tech — `docs/brain/AMOS_Integration_Platform_Kernel_v0_Tech.md`
+- AMOS_Interpersonal_Law_v0 — `docs/brain/AMOS_Interpersonal_Law_v0.md`
+- AMOS_Ip_Shield_Kernel_v0_Web7 — `docs/brain/AMOS_Ip_Shield_Kernel_v0_Web7.md`
+- AMOS_KERNEL_CONFIG_Kernel — `docs/brain/AMOS_KERNEL_CONFIG_Kernel.md`
+- AMOS_KERNEL_SUPER_vInfinity — `docs/brain/AMOS_KERNEL_SUPER_vInfinity.md`
+- AMOS_Kernel_Routing_Workflow — `docs/brain/AMOS_Kernel_Routing_Workflow.md`
+- AMOS_Labor_And_Talent_Pack_v0_Au4 — `docs/brain/AMOS_Labor_And_Talent_Pack_v0_Au4.md`
+- AMOS_Labor_And_Talent_Pack_v0_Us4 — `docs/brain/AMOS_Labor_And_Talent_Pack_v0_Us4.md`
+- AMOS_Language_And_Interface_Pack_v0_Au4 — `docs/brain/AMOS_Language_And_Interface_Pack_v0_Au4.md`
+- AMOS_Language_And_Interface_Pack_v0_Template4 — `docs/brain/AMOS_Language_And_Interface_Pack_v0_Template4.md`
+- AMOS_Legal_And_Regulatory_Pack_v0_Au4 — `docs/brain/AMOS_Legal_And_Regulatory_Pack_v0_Au4.md`
+- AMOS_Legal_And_Regulatory_Pack_v0_Template4 — `docs/brain/AMOS_Legal_And_Regulatory_Pack_v0_Template4.md`
+- AMOS_Legal_Kernel_v0_Org_Risk_Policy7_4 — `docs/brain/AMOS_Legal_Kernel_v0_Org_Risk_Policy7_4.md`
+- AMOS_Legal_SUPER_Engine_vInfinity — `docs/brain/AMOS_Legal_SUPER_Engine_vInfinity.md`
+- AMOS_Logic_Core_Engine_v0_Logic — `docs/brain/AMOS_Logic_Core_Engine_v0_Logic.md`
+- AMOS_MAX_EXPANDED — `docs/brain/AMOS_MAX_EXPANDED.md`
+- AMOS_META_ENGINES_INDEX_vInfinity — `docs/brain/AMOS_META_ENGINES_INDEX_vInfinity.md`
+- AMOS_Market_Econ_Kernel_v0 — `docs/brain/AMOS_Market_Econ_Kernel_v0.md`
+- AMOS_Marketing_Gtm_Kernel_v0 — `docs/brain/AMOS_Marketing_Gtm_Kernel_v0.md`
+- AMOS_Mbb_Consulting_Kernel_v0 — `docs/brain/AMOS_Mbb_Consulting_Kernel_v0.md`
+- AMOS_Mechanical_Structural_Engine_v0_Cognitive4 — `docs/brain/AMOS_Mechanical_Structural_Engine_v0_Cognitive4.md`
+- AMOS_Medical_Clinical_Kernel_v0_Biology_Cognition7 — `docs/brain/AMOS_Medical_Clinical_Kernel_v0_Biology_Cognition7.md`
+- AMOS_Medical_Clinical_Kernel_v0_Science_Health7_4 — `docs/brain/AMOS_Medical_Clinical_Kernel_v0_Science_Health7_4.md`
+- AMOS_Memory_Architecture_v0 — `docs/brain/AMOS_Memory_Architecture_v0.md`
+- AMOS_Memory_Optimization_Kernel_v0_Machine_Architecture4_2 — `docs/brain/AMOS_Memory_Optimization_Kernel_v0_Machine_Architecture4_2.md`
+- AMOS_Memory_Optimization_Kernel_v0_Tech — `docs/brain/AMOS_Memory_Optimization_Kernel_v0_Tech.md`
+- AMOS_Meta_Cognition_Self_Improvement — `docs/brain/AMOS_Meta_Cognition_Self_Improvement.md`
+- AMOS_Meta_Epistemology_Kernel_v0_Meta_Cognition4_2 — `docs/brain/AMOS_Meta_Epistemology_Kernel_v0_Meta_Cognition4_2.md`
+- AMOS_Meta_Kernel_Specifications — `docs/brain/AMOS_Meta_Kernel_Specifications.md`
+- AMOS_Meta_Logic_Kernel_v0_Meta_Cognition4_2 — `docs/brain/AMOS_Meta_Logic_Kernel_v0_Meta_Cognition4_2.md`
+- AMOS_Meta_Ontology_Kernel_v0_Meta_Cognition — `docs/brain/AMOS_Meta_Ontology_Kernel_v0_Meta_Cognition.md`
+- AMOS_Mind_Os_v0 — `docs/brain/AMOS_Mind_Os_v0.md`
+- AMOS_Mind_Os_v0_Core7 — `docs/brain/AMOS_Mind_Os_v0_Core7.md`
+- AMOS_Ml_Engineering_Kernel_v0_Tech — `docs/brain/AMOS_Ml_Engineering_Kernel_v0_Tech.md`
+- AMOS_Monogram_Engine_v0_Dsc4 — `docs/brain/AMOS_Monogram_Engine_v0_Dsc4.md`
+- AMOS_Monogram_Kernal_Engine_v0_Dsc4 — `docs/brain/AMOS_Monogram_Kernal_Engine_v0_Dsc4.md`
+- AMOS_Multi_Agent_Coordination_Kernel_v0_Machine_Architecture — `docs/brain/AMOS_Multi_Agent_Coordination_Kernel_v0_Machine_Architecture.md`
+- AMOS_Multi_Agent_Coordination_Kernel_v0_Tech — `docs/brain/AMOS_Multi_Agent_Coordination_Kernel_v0_Tech.md`
+- AMOS_Multi_Perspective_Reasoning_Kernel_v0_Meta_Cognition4_2 — `docs/brain/AMOS_Multi_Perspective_Reasoning_Kernel_v0_Meta_Cognition4_2.md`
+- AMOS_National_Brain_Engine_v0_Sector_Packs7 — `docs/brain/AMOS_National_Brain_Engine_v0_Sector_Packs7.md`
+- AMOS_National_Brain_Pack_v0_Sector_Packs7 — `docs/brain/AMOS_National_Brain_Pack_v0_Sector_Packs7.md`
+- AMOS_Nbi_Engine_v0_Ubi7 — `docs/brain/AMOS_Nbi_Engine_v0_Ubi7.md`
+- AMOS_Negotiation_Diplomacy_Kernel_v0 — `docs/brain/AMOS_Negotiation_Diplomacy_Kernel_v0.md`
+- AMOS_Nei_Engine_v0_Ubi7 — `docs/brain/AMOS_Nei_Engine_v0_Ubi7.md`
+- AMOS_Numerical_Methods_Engine_v0_Cognitive4 — `docs/brain/AMOS_Numerical_Methods_Engine_v0_Cognitive4.md`
+- AMOS_OMEGA_ENHANCED_COMPLETION_REPORT — `docs/brain/AMOS_OMEGA_ENHANCED_COMPLETION_REPORT.md`
+- AMOS_OMEGA_FX_STRUCTURAL_OS_COMPLETE_REPORT — `docs/brain/AMOS_OMEGA_FX_STRUCTURAL_OS_COMPLETE_REPORT.md`
+- AMOS_OMEGA_INTEGRATION_COMPLETE — `docs/brain/AMOS_OMEGA_INTEGRATION_COMPLETE.md`
+- AMOS_OMEGA_THINKING_ENGINE_with_Coding — `docs/brain/AMOS_OMEGA_THINKING_ENGINE_with_Coding.md`
+- AMOS_OMNIVERSE_BRAIN_Core — `docs/brain/AMOS_OMNIVERSE_BRAIN_Core.md`
+- AMOS_OMNIVERSE_BRAIN_ROOT — `docs/brain/AMOS_OMNIVERSE_BRAIN_ROOT.md`
+- AMOS_OMNI_FACTORY_ENGINE — `docs/brain/AMOS_OMNI_FACTORY_ENGINE.md`
+- AMOS_OPTIMIZATION_REPORT — `docs/brain/AMOS_OPTIMIZATION_REPORT.md`
+- AMOS_ORCHESTRATOR_ROUTING_Kernel — `docs/brain/AMOS_ORCHESTRATOR_ROUTING_Kernel.md`
+- AMOS_OS_ABSOLUTE — `docs/brain/AMOS_OS_ABSOLUTE.md`
+- AMOS_OS_FABRICATION_STACK_vInfinity — `docs/brain/AMOS_OS_FABRICATION_STACK_vInfinity.md`
+- AMOS_OS_INTEGRATED_AGENT_Kernel — `docs/brain/AMOS_OS_INTEGRATED_AGENT_Kernel.md`
+- AMOS_OS_MasterFile.compressed — `docs/brain/AMOS_OS_MasterFile.compressed.md`
+- AMOS_OS_ROOT_Kernel — `docs/brain/AMOS_OS_ROOT_Kernel.md`
+- AMOS_Observability_Monitoring_Kernel_v0_Tech — `docs/brain/AMOS_Observability_Monitoring_Kernel_v0_Tech.md`
+- AMOS_Omni_KERNEL_Core — `docs/brain/AMOS_Omni_KERNEL_Core.md`
+- AMOS_Operational_Risk_Kernel_v0_Governance_Risk7_3 — `docs/brain/AMOS_Operational_Risk_Kernel_v0_Governance_Risk7_3.md`
+- AMOS_Operations_Supplychain_Kernel_v0 — `docs/brain/AMOS_Operations_Supplychain_Kernel_v0.md`
+- AMOS_Optimization_Kernel_v0_Math_Foundations — `docs/brain/AMOS_Optimization_Kernel_v0_Math_Foundations.md`
+- AMOS_Org_Governance_Engine_v0_Governance_Risk7 — `docs/brain/AMOS_Org_Governance_Engine_v0_Governance_Risk7.md`
+- AMOS_Org_Governance_Kernel_v0_Governance_Risk — `docs/brain/AMOS_Org_Governance_Kernel_v0_Governance_Risk.md`
+- AMOS_Organizational_Behavior_Kernel_v0_Human_Society — `docs/brain/AMOS_Organizational_Behavior_Kernel_v0_Human_Society.md`
+- AMOS_Os_Agent_v0_Core — `docs/brain/AMOS_Os_Agent_v0_Core.md`
+- AMOS_Os_Agent_v0_Core4 — `docs/brain/AMOS_Os_Agent_v0_Core4.md`
+- AMOS_Os_Agent_v0_Core7 — `docs/brain/AMOS_Os_Agent_v0_Core7.md`
+- AMOS_PERSONALITY — `docs/brain/AMOS_PERSONALITY.md`
+- AMOS_Partnerships_Channels_Kernel_v0_Biz_Market2 — `docs/brain/AMOS_Partnerships_Channels_Kernel_v0_Biz_Market2.md`
+- AMOS_Partnerships_Channels_Kernel_v0_Business4 — `docs/brain/AMOS_Partnerships_Channels_Kernel_v0_Business4.md`
+- AMOS_Personality_Engine_Canonical_v0 — `docs/brain/AMOS_Personality_Engine_Canonical_v0.md`
+- AMOS_Personality_Engine_v0_Core7 — `docs/brain/AMOS_Personality_Engine_v0_Core7.md`
+- AMOS_Personality_Trang_Engine_v0_Web7 — `docs/brain/AMOS_Personality_Trang_Engine_v0_Web7.md`
+- AMOS_Physics_Cosmos_Engine_v0_Cognitive4 — `docs/brain/AMOS_Physics_Cosmos_Engine_v0_Cognitive4.md`
+- AMOS_Pipeline_Verification — `docs/brain/AMOS_Pipeline_Verification.md`
+- AMOS_Policy_Design_Engine_v0_Governance_Risk — `docs/brain/AMOS_Policy_Design_Engine_v0_Governance_Risk.md`
+- AMOS_Policy_Design_Kernel_v0_Governance_Risk — `docs/brain/AMOS_Policy_Design_Kernel_v0_Governance_Risk.md`
+- AMOS_Policy_Geostrategy_Engine_v0_Org_Risk_Policy7_2 — `docs/brain/AMOS_Policy_Geostrategy_Engine_v0_Org_Risk_Policy7_2.md`
+- AMOS_Policy_Geostrategy_Kernel_v0 — `docs/brain/AMOS_Policy_Geostrategy_Kernel_v0.md`
+- AMOS_Political_Dynamics_Kernel_v0_Human_Society — `docs/brain/AMOS_Political_Dynamics_Kernel_v0_Human_Society.md`
+- AMOS_Prediction_Forecasting_Kernel_v0 — `docs/brain/AMOS_Prediction_Forecasting_Kernel_v0.md`
+- AMOS_Pricing_Strategy_Kernel_v0_Biz_Market2 — `docs/brain/AMOS_Pricing_Strategy_Kernel_v0_Biz_Market2.md`
+- AMOS_Pricing_Strategy_Kernel_v0_Business4 — `docs/brain/AMOS_Pricing_Strategy_Kernel_v0_Business4.md`
+- AMOS_Probability_Statistics_Kernel_v0_Math_Foundations4_2 — `docs/brain/AMOS_Probability_Statistics_Kernel_v0_Math_Foundations4_2.md`
+- AMOS_Product_Management_Kernel_v0_Tech7_3 — `docs/brain/AMOS_Product_Management_Kernel_v0_Tech7_3.md`
+- AMOS_Product_Strategy_Kernel_v0 — `docs/brain/AMOS_Product_Strategy_Kernel_v0.md`
+- AMOS_Psychology_Decision_Kernel_v0_Human_Society4_2 — `docs/brain/AMOS_Psychology_Decision_Kernel_v0_Human_Society4_2.md`
+- AMOS_Public_Health_Kernel_v0_Biology_Cognition — `docs/brain/AMOS_Public_Health_Kernel_v0_Biology_Cognition.md`
+- AMOS_Public_Health_Kernel_v0_Science_Health2 — `docs/brain/AMOS_Public_Health_Kernel_v0_Science_Health2.md`
+- AMOS_QUANTUM_OS — `docs/brain/AMOS_QUANTUM_OS.md`
+- AMOS_Qa_Testing_Kernel_v0_Tech — `docs/brain/AMOS_Qa_Testing_Kernel_v0_Tech.md`
+- AMOS_Quantum_Stack_v0_Core — `docs/brain/AMOS_Quantum_Stack_v0_Core.md`
+- AMOS_Quantum_Stack_v0_Core3 — `docs/brain/AMOS_Quantum_Stack_v0_Core3.md`
+- AMOS_Quantum_Stack_v0_Core5 — `docs/brain/AMOS_Quantum_Stack_v0_Core5.md`
+- AMOS_Quantum_Stack_v0_Core7 — `docs/brain/AMOS_Quantum_Stack_v0_Core7.md`
+- AMOS_Readme_Country_Pack_v0_Au4 — `docs/brain/AMOS_Readme_Country_Pack_v0_Au4.md`
+- AMOS_Readme_Country_Pack_v0_Template4 — `docs/brain/AMOS_Readme_Country_Pack_v0_Template4.md`
+- AMOS_Readme_Scenario_Packs_Pack_v0_Scenario_Packs — `docs/brain/AMOS_Readme_Scenario_Packs_Pack_v0_Scenario_Packs.md`
+- AMOS_Readme_Scenario_Packs_Pack_v0_Scenario_Packs_Scenario_Packs — `docs/brain/AMOS_Readme_Scenario_Packs_Pack_v0_Scenario_Packs_Scenario_Packs.md`
+- AMOS_Readme_Sector_Pack_v0_Template4 — `docs/brain/AMOS_Readme_Sector_Pack_v0_Template4.md`
+- AMOS_Readme_State_Pack_v0_Template — `docs/brain/AMOS_Readme_State_Pack_v0_Template.md`
+- AMOS_Readme_State_Packs_Pack_v0_State_Packs4 — `docs/brain/AMOS_Readme_State_Packs_Pack_v0_State_Packs4.md`
+- AMOS_Reinforcement_Learning_Analysis_Kernel_v0_Machine_Architecture4_2 — `docs/brain/AMOS_Reinforcement_Learning_Analysis_Kernel_v0_Machine_Architecture4_2.md`
+- AMOS_Revenue_Architecture_Kernel_v0_Biz_Market3 — `docs/brain/AMOS_Revenue_Architecture_Kernel_v0_Biz_Market3.md`
+- AMOS_Revenue_Architecture_Kernel_v0_Business4 — `docs/brain/AMOS_Revenue_Architecture_Kernel_v0_Business4.md`
+- AMOS_Risk_And_Crisis_Profile_Pack_v0_Au4 — `docs/brain/AMOS_Risk_And_Crisis_Profile_Pack_v0_Au4.md`
+- AMOS_Risk_Compliance_Engine_v0_Org_Risk_Policy7_2 — `docs/brain/AMOS_Risk_Compliance_Engine_v0_Org_Risk_Policy7_2.md`
+- AMOS_Risk_Compliance_Kernel_v0 — `docs/brain/AMOS_Risk_Compliance_Kernel_v0.md`
+- AMOS_Risk_Policy_Governance_Ecosystem_Engine_v0_Unipower4 — `docs/brain/AMOS_Risk_Policy_Governance_Ecosystem_Engine_v0_Unipower4.md`
+- AMOS_SCIENCE_Pack_v0_Sector_Packs7 — `docs/brain/AMOS_SCIENCE_Pack_v0_Sector_Packs7.md`
+- AMOS_SI_SUPER — `docs/brain/AMOS_SI_SUPER.md`
+- AMOS_SUPER_CODE_Engine_v1.6.0 — `docs/brain/AMOS_SUPER_CODE_Engine_v1.6.0.md`
+- AMOS_SUPER_CONSCIOUSNESS_ENGINE — `docs/brain/AMOS_SUPER_CONSCIOUSNESS_ENGINE.md`
+- AMOS_SUPER_CONSCIOUSNESS_ENGINE_vInfinity_MAX_H3 — `docs/brain/AMOS_SUPER_CONSCIOUSNESS_ENGINE_vInfinity_MAX_H3.md`
+- AMOS_SUPER_Corp_Doc_Engine_Light — `docs/brain/AMOS_SUPER_Corp_Doc_Engine_Light.md`
+- AMOS_SUPER_Corp_Doc_Engine_SUPER — `docs/brain/AMOS_SUPER_Corp_Doc_Engine_SUPER.md`
+- AMOS_SUPER_ENGINE_vOmni_X1000 — `docs/brain/AMOS_SUPER_ENGINE_vOmni_X1000.md`
+- AMOS_SUPER_FABRICATION_Kernel — `docs/brain/AMOS_SUPER_FABRICATION_Kernel.md`
+- AMOS_SUPER_FACTORY_ENGINE_v2.0.0 — `docs/brain/AMOS_SUPER_FACTORY_ENGINE_v2.0.0.md`
+- AMOS_SUPER_OMEGA_BRAIN — `docs/brain/AMOS_SUPER_OMEGA_BRAIN.md`
+- AMOS_Sales_Kernel_v0 — `docs/brain/AMOS_Sales_Kernel_v0.md`
+- AMOS_Science_Engine_v0_Sector_Packs7 — `docs/brain/AMOS_Science_Engine_v0_Sector_Packs7.md`
+- AMOS_Scientific_Engine_v0_Unipower4 — `docs/brain/AMOS_Scientific_Engine_v0_Unipower4.md`
+- AMOS_Scientific_Engine_vInfinity — `docs/brain/AMOS_Scientific_Engine_vInfinity.md`
+- AMOS_Scientific_Kernel_v0_Biology_Cognition7_3 — `docs/brain/AMOS_Scientific_Kernel_v0_Biology_Cognition7_3.md`
+- AMOS_Scientific_Kernel_v0_Science_Health7_2 — `docs/brain/AMOS_Scientific_Kernel_v0_Science_Health7_2.md`
+- AMOS_Sector_Definition_Pack_v0_Template — `docs/brain/AMOS_Sector_Definition_Pack_v0_Template.md`
+- AMOS_Sector_Definition_Pack_v0_Template_Template_Template — `docs/brain/AMOS_Sector_Definition_Pack_v0_Template_Template_Template.md`
+- AMOS_Sector_Economics_Pack_v0_Template — `docs/brain/AMOS_Sector_Economics_Pack_v0_Template.md`
+- AMOS_Sector_Economics_Pack_v0_Template_Template — `docs/brain/AMOS_Sector_Economics_Pack_v0_Template_Template.md`
+- AMOS_Sector_Regulations_Pack_v0_Template — `docs/brain/AMOS_Sector_Regulations_Pack_v0_Template.md`
+- AMOS_Sector_Technology_Pack_v0_Template4 — `docs/brain/AMOS_Sector_Technology_Pack_v0_Template4.md`
+- AMOS_Sector_Technology_Pack_v0_Template4_Template — `docs/brain/AMOS_Sector_Technology_Pack_v0_Template4_Template.md`
+- AMOS_Sector_Value_Chain_Pack_v0_Template — `docs/brain/AMOS_Sector_Value_Chain_Pack_v0_Template.md`
+- AMOS_Security_Architecture_Kernel_v0_Tech — `docs/brain/AMOS_Security_Architecture_Kernel_v0_Tech.md`
+- AMOS_Self_Model_v0 — `docs/brain/AMOS_Self_Model_v0.md`
+- AMOS_Si_Engine_v0_Ubi7 — `docs/brain/AMOS_Si_Engine_v0_Ubi7.md`
+- AMOS_Signal_Processing_Engine_v0_Cognitive4 — `docs/brain/AMOS_Signal_Processing_Engine_v0_Cognitive4.md`
+- AMOS_Signal_Processing_Kernel_v0_Math_Foundations — `docs/brain/AMOS_Signal_Processing_Kernel_v0_Math_Foundations.md`
+- AMOS_Simulation_Kernel_v0_Math_Foundations — `docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations.md`
+- AMOS_Skill_Creation_Workflow — `docs/brain/AMOS_Skill_Creation_Workflow.md`
+- AMOS_Society_Culture_Engine_v0_Cognitive4 — `docs/brain/AMOS_Society_Culture_Engine_v0_Cognitive4.md`
+- AMOS_Species_Interaction_Core_Engine_v0_Domains7 — `docs/brain/AMOS_Species_Interaction_Core_Engine_v0_Domains7.md`
+- AMOS_Speed_Engine_v0_root — `docs/brain/AMOS_Speed_Engine_v0_root.md`
+- AMOS_State_Economy_Pack_v0_Template — `docs/brain/AMOS_State_Economy_Pack_v0_Template.md`
+- AMOS_State_Infrastructure_Pack_v0_Template — `docs/brain/AMOS_State_Infrastructure_Pack_v0_Template.md`
+- AMOS_State_Infrastructure_Pack_v0_Template_Template — `docs/brain/AMOS_State_Infrastructure_Pack_v0_Template_Template.md`
+- AMOS_State_Legal_Pack_v0_Template — `docs/brain/AMOS_State_Legal_Pack_v0_Template.md`
+- AMOS_State_Legal_Pack_v0_Template_Template — `docs/brain/AMOS_State_Legal_Pack_v0_Template_Template.md`
+- AMOS_State_Profile_Pack_v0_Template — `docs/brain/AMOS_State_Profile_Pack_v0_Template.md`
+- AMOS_State_Profile_Pack_v0_Template_Template — `docs/brain/AMOS_State_Profile_Pack_v0_Template_Template.md`
+- AMOS_State_Risk_Pack_v0_Template — `docs/brain/AMOS_State_Risk_Pack_v0_Template.md`
+- AMOS_State_Risk_Pack_v0_Template_Template — `docs/brain/AMOS_State_Risk_Pack_v0_Template_Template.md`
+- AMOS_Strategic_Document_Engine_v0_Unipower4 — `docs/brain/AMOS_Strategic_Document_Engine_v0_Unipower4.md`
+- AMOS_Strategy_Game_Engine_v0_Cognitive4 — `docs/brain/AMOS_Strategy_Game_Engine_v0_Cognitive4.md`
+- AMOS_Super_Engine_v1.0.0 — `docs/brain/AMOS_Super_Engine_v1.0.0.md`
+- AMOS_Systems_Core_Engine_v0_Systems4_2 — `docs/brain/AMOS_Systems_Core_Engine_v0_Systems4_2.md`
+- AMOS_TECH_Pack_v0_Sector_Packs7 — `docs/brain/AMOS_TECH_Pack_v0_Sector_Packs7.md`
+- AMOS_Tax_And_Fiscal_Pack_v0_Au4 — `docs/brain/AMOS_Tax_And_Fiscal_Pack_v0_Au4.md`
+- AMOS_Tax_And_Fiscal_Pack_v0_Us4 — `docs/brain/AMOS_Tax_And_Fiscal_Pack_v0_Us4.md`
+- AMOS_Tech_Architecture_Kernel_v0_Tech_Systems7_4 — `docs/brain/AMOS_Tech_Architecture_Kernel_v0_Tech_Systems7_4.md`
+- AMOS_Tech_Design_Engine_v0_Tech7 — `docs/brain/AMOS_Tech_Design_Engine_v0_Tech7.md`
+- AMOS_Tech_Engine_Model — `docs/brain/AMOS_Tech_Engine_Model.md`
+- AMOS_Tech_Engine_v0_Unipower4 — `docs/brain/AMOS_Tech_Engine_v0_Unipower4.md`
+- AMOS_Tech_Expanded_Design_Engine_v0_Domains7 — `docs/brain/AMOS_Tech_Expanded_Design_Engine_v0_Domains7.md`
+- AMOS_Tech_Kernel_Expansion — `docs/brain/AMOS_Tech_Kernel_Expansion.md`
+- AMOS_Tech_Kernel_Integration_Workflow — `docs/brain/AMOS_Tech_Kernel_Integration_Workflow.md`
+- AMOS_Tech_Quantum_Engine_v0_Domains7 — `docs/brain/AMOS_Tech_Quantum_Engine_v0_Domains7.md`
+- AMOS_Tech_Unified_Engine_v0_Domains7_3 — `docs/brain/AMOS_Tech_Unified_Engine_v0_Domains7_3.md`
+- AMOS_Tech_amos_core_Kernel_v1_Tech4 — `docs/brain/AMOS_Tech_amos_core_Kernel_v1_Tech4.md`
+- AMOS_Tech_cognition_Kernel_v1_Tech4 — `docs/brain/AMOS_Tech_cognition_Kernel_v1_Tech4.md`
+- AMOS_Tech_emotion_Kernel_v1_Tech4 — `docs/brain/AMOS_Tech_emotion_Kernel_v1_Tech4.md`
+- AMOS_Tech_identity_Kernel_v1_Tech4 — `docs/brain/AMOS_Tech_identity_Kernel_v1_Tech4.md`
+- AMOS_Tech_ubi_canon_Kernel_v1_Tech4 — `docs/brain/AMOS_Tech_ubi_canon_Kernel_v1_Tech4.md`
+- AMOS_Toolchain_Integration_Kernel_v0_Machine_Architecture4_2 — `docs/brain/AMOS_Toolchain_Integration_Kernel_v0_Machine_Architecture4_2.md`
+- AMOS_Toolchain_Integration_Kernel_v0_Tech — `docs/brain/AMOS_Toolchain_Integration_Kernel_v0_Tech.md`
+- AMOS_UBI_KERNEL — `docs/brain/AMOS_UBI_KERNEL.md`
+- AMOS_UNIFIED_OS_AGENT_MERGED — `docs/brain/AMOS_UNIFIED_OS_AGENT_MERGED.md`
+- AMOS_UNIVERSE_CORE — `docs/brain/AMOS_UNIVERSE_CORE.md`
+- AMOS_UNIVERSE_KERNEL_vInfinity — `docs/brain/AMOS_UNIVERSE_KERNEL_vInfinity.md`
+- AMOS_UNIVERSE_OS_FULL_BUNDLE — `docs/brain/AMOS_UNIVERSE_OS_FULL_BUNDLE.md`
+- AMOS_Ubi_Core_Engine_v0_Biology — `docs/brain/AMOS_Ubi_Core_Engine_v0_Biology.md`
+- AMOS_Ubi_Engine_v0_Ubi7 — `docs/brain/AMOS_Ubi_Engine_v0_Ubi7.md`
+- AMOS_Uni_Ai_Intelligence_Engine_Model — `docs/brain/AMOS_Uni_Ai_Intelligence_Engine_Model.md`
+- AMOS_Uni_Ai_Intelligence_Engine_v0_Unipower4 — `docs/brain/AMOS_Uni_Ai_Intelligence_Engine_v0_Unipower4.md`
+- AMOS_Uni_Market_Engine_v0_Unipower4 — `docs/brain/AMOS_Uni_Market_Engine_v0_Unipower4.md`
+- AMOS_Uni_System_Operations_Engine_Model — `docs/brain/AMOS_Uni_System_Operations_Engine_Model.md`
+- AMOS_Uni_System_Operations_Engine_v0_Unipower4 — `docs/brain/AMOS_Uni_System_Operations_Engine_v0_Unipower4.md`
+- AMOS_Unified_Coding_Engine_v0_Domains7 — `docs/brain/AMOS_Unified_Coding_Engine_v0_Domains7.md`
+- AMOS_Universe_Core_Engine_v0_Universe — `docs/brain/AMOS_Universe_Core_Engine_v0_Universe.md`
+- AMOS_Unnamed_Kernel_v0 — `docs/brain/AMOS_Unnamed_Kernel_v0.md`
+- AMOS_Ux_Design_Kernel_v0_Tech7_3 — `docs/brain/AMOS_Ux_Design_Kernel_v0_Tech7_3.md`
+- AMOS_Vietnam_Engines_Model — `docs/brain/AMOS_Vietnam_Engines_Model.md`
+- AMOS_Vietnamese_Writing_Engine_v0_Logic7 — `docs/brain/AMOS_Vietnamese_Writing_Engine_v0_Logic7.md`
+- AMOS_Vn_Country_Profile_Pack_v0_Vn4 — `docs/brain/AMOS_Vn_Country_Profile_Pack_v0_Vn4.md`
+- AMOS_Vn_Culture_And_Working_Style_Pack_v0_Vn4 — `docs/brain/AMOS_Vn_Culture_And_Working_Style_Pack_v0_Vn4.md`
+- AMOS_Vn_Economy_And_Sectors_Pack_v0_Vn4 — `docs/brain/AMOS_Vn_Economy_And_Sectors_Pack_v0_Vn4.md`
+- AMOS_Vn_Governance_And_Politics_Pack_v0_Vn4 — `docs/brain/AMOS_Vn_Governance_And_Politics_Pack_v0_Vn4.md`
+- AMOS_Vn_Infrastructure_And_Logistics_Pack_v0_Vn4 — `docs/brain/AMOS_Vn_Infrastructure_And_Logistics_Pack_v0_Vn4.md`
+- AMOS_Vn_Labor_And_Talent_Pack_v0_Vn4 — `docs/brain/AMOS_Vn_Labor_And_Talent_Pack_v0_Vn4.md`
+- AMOS_Vn_Language_And_Interface_Pack_v0_Vn4 — `docs/brain/AMOS_Vn_Language_And_Interface_Pack_v0_Vn4.md`
+- AMOS_Vn_Legal_And_Regulatory_Pack_v0_Vn4 — `docs/brain/AMOS_Vn_Legal_And_Regulatory_Pack_v0_Vn4.md`
+- AMOS_Vn_Legal_Engine_v0_Domains2 — `docs/brain/AMOS_Vn_Legal_Engine_v0_Domains2.md`
+- AMOS_Vn_Omnistructure_Engine_v0_Unipower4 — `docs/brain/AMOS_Vn_Omnistructure_Engine_v0_Unipower4.md`
+- AMOS_Vn_Risk_And_Crisis_Profile_Pack_v0_Vn4 — `docs/brain/AMOS_Vn_Risk_And_Crisis_Profile_Pack_v0_Vn4.md`
+- AMOS_Vn_Tax_And_Fiscal_Pack_v0_Vn4 — `docs/brain/AMOS_Vn_Tax_And_Fiscal_Pack_v0_Vn4.md`
+- AMOS_Vomni_Kernel_v0_Domains7 — `docs/brain/AMOS_Vomni_Kernel_v0_Domains7.md`
+- AMOS_Workflow_Orchestration_Kernel_v0_Tech — `docs/brain/AMOS_Workflow_Orchestration_Kernel_v0_Tech.md`
+- AMOS_national_banking_os_amos_core_Kernel_v1_national_banking_os4 — `docs/brain/AMOS_national_banking_os_amos_core_Kernel_v1_national_banking_os4.md`
+- AMOS_national_banking_os_cognition_Kernel_v1_national_banking_os4 — `docs/brain/AMOS_national_banking_os_cognition_Kernel_v1_national_banking_os4.md`
+- AMOS_national_banking_os_emotion_Kernel_v1_national_banking_os4 — `docs/brain/AMOS_national_banking_os_emotion_Kernel_v1_national_banking_os4.md`
+- AMOS_national_banking_os_identity_Kernel_v1_national_banking_os4 — `docs/brain/AMOS_national_banking_os_identity_Kernel_v1_national_banking_os4.md`
+- AMOS_national_banking_os_ubi_canon_Kernel_v1_national_banking_os4 — `docs/brain/AMOS_national_banking_os_ubi_canon_Kernel_v1_national_banking_os4.md`
+- AMOS_v5_3_final_verification_report — `docs/brain/AMOS_v5_3_final_verification_report.md`
+- AMOS_vOmni_KERNEL_v0_Tech7 — `docs/brain/AMOS_vOmni_KERNEL_v0_Tech7.md`
+- AMOS–ARITHMETIC GEOMETRY MAPPING — `docs/brain/AMOS–ARITHMETIC GEOMETRY MAPPING.md`
+- AMOS–COMPLEX ANALYSIS BRIDGE — `docs/brain/AMOS–COMPLEX ANALYSIS BRIDGE.md`
+- AMOS–COMPUTATIONAL COMPLEXITY MODEL — `docs/brain/AMOS–COMPUTATIONAL COMPLEXITY MODEL.md`
+- AMOS–PDE STABILITY THEORY — `docs/brain/AMOS–PDE STABILITY THEORY.md`
+- AMOS–QUANTUM FIELD THEORY MAPPING — `docs/brain/AMOS–QUANTUM FIELD THEORY MAPPING.md`
+- AMOS–RICCI DICTIONARY — `docs/brain/AMOS–RICCI DICTIONARY.md`
+- ANh luong — `docs/brain/ANh luong.md`
+- API plan — `docs/brain/API plan.md`
+- APPENDIX 01 FEATURE LIST — `docs/brain/APPENDIX 01 FEATURE LIST.md`
+- ARCHITECTURE OF ARCHITECTURE — `docs/brain/ARCHITECTURE OF ARCHITECTURE.md`
+- ASIA — `docs/brain/ASIA.md`
+- AU Gov Funding — Ultra-Detailed To-Do List — `docs/brain/AU Gov Funding — Ultra-Detailed To-Do List.md`
+- AUTHORITY_GOVERNOR — `docs/brain/AUTHORITY_GOVERNOR.md`
+- AUTO-EXTRACTED AND ARCHIVE INDEX — `docs/brain/AUTO-EXTRACTED AND ARCHIVE INDEX.md`
+- A_Deterministic_Architecture_for_HumanMachine_Alignment — `docs/brain/A_Deterministic_Architecture_for_HumanMachine_Alignment.md`
+- Abo 2 — `docs/brain/Abo 2.md`
+- Abo preservation — `docs/brain/Abo preservation.md`
+- Abo — `docs/brain/Abo.md`
+- Aboriginal-focused Societal Impact — `docs/brain/Aboriginal-focused Societal Impact.md`
+- Absolute End Game — `docs/brain/Absolute End Game.md`
+- Absolute Integrity Architecture™ — Canonical Root — `docs/brain/Absolute Integrity Architecture™ — Canonical Root.md`
+- Absolute-Human (final version)_root — `docs/brain/Absolute-Human (final version)_root.md`
+- Absolute_Human_Model — `docs/brain/Absolute_Human_Model.md`
+- Absolute_Logic_Model — `docs/brain/Absolute_Logic_Model.md`
+- Absolute_Omniverse_Model — `docs/brain/Absolute_Omniverse_Model.md`
+- Academic_Writing_Model — `docs/brain/Academic_Writing_Model.md`
+- Access_Control-Priv_Esc--Context-Dependent_Access — `docs/brain/Access_Control-Priv_Esc--Context-Dependent_Access.md`
+- Access_Control-Priv_Esc--Horizontal_Access — `docs/brain/Access_Control-Priv_Esc--Horizontal_Access.md`
+- Access_Control-Priv_Esc--Security_Models — `docs/brain/Access_Control-Priv_Esc--Security_Models.md`
+- Access_Control-Priv_Esc--Vertical_Access — `docs/brain/Access_Control-Priv_Esc--Vertical_Access.md`
+- Access_Control-Priv_Esc — `docs/brain/Access_Control-Priv_Esc.md`
+- Across spicies — `docs/brain/Across spicies.md`
+- Agent_Fabrication_Full_Kernel — `docs/brain/Agent_Fabrication_Full_Kernel.md`
+- Agent_Schema_full — `docs/brain/Agent_Schema_full.md`
+- Agent_Templates — `docs/brain/Agent_Templates.md`
+- Ai book — `docs/brain/Ai book.md`
+- Ai learning — `docs/brain/Ai learning.md`
+- Ai reader for apple watch — `docs/brain/Ai reader for apple watch.md`
+- Ai — `docs/brain/Ai.md`
+- Akashic, Thông Thiên, Lên Đồng, Đọc Qua Cầu Tiên T — `docs/brain/Akashic, Thông Thiên, Lên Đồng, Đọc Qua Cầu Tiên T.md`
+- Alignment is order Misalignment is entropy — `docs/brain/Alignment is order Misalignment is entropy.md`
+- Alignment — Wooberly vs UniTaxi — `docs/brain/Alignment — Wooberly vs UniTaxi.md`
+- Amos rare — `docs/brain/Amos rare.md`
+- Ancient Astrology as a Proto–Design Thinking Syste — `docs/brain/Ancient Astrology as a Proto–Design Thinking Syste.md`
+- Ancient math — `docs/brain/Ancient math.md`
+- Another — `docs/brain/Another.md`
+- Ant and bee — `docs/brain/Ant and bee.md`
+- Antigravity_Wired — `docs/brain/Antigravity_Wired.md`
+- Architecture_Guardian_Agent — `docs/brain/Architecture_Guardian_Agent.md`
+- Art of Peace + QLS Framework — `docs/brain/Art of Peace + QLS Framework.md`
+- Articles — `docs/brain/Articles.md`
+- Attraction — `docs/brain/Attraction.md`
+- Au battery — `docs/brain/Au battery.md`
+- Au rich — `docs/brain/Au rich.md`
+- Au stop — `docs/brain/Au stop.md`
+- Audit_Quality_MAX — `docs/brain/Audit_Quality_MAX.md`
+- Audit_Quality_Model — `docs/brain/Audit_Quality_Model.md`
+- Automation_Engine_Model — `docs/brain/Automation_Engine_Model.md`
+- Automation_SUPER_Engine — `docs/brain/Automation_SUPER_Engine.md`
+- Autonomic Nervous System Topology — `docs/brain/Autonomic Nervous System Topology.md`
+- ÁNH XẠ UNIFIED MODEL QUA THỜI GIAN VÀ VĂN MINH — `docs/brain/ÁNH XẠ UNIFIED MODEL QUA THỜI GIAN VÀ VĂN MINH.md`
+- ẢNH HƯỞNG GIA HỆ NHƯ MỘT CƠ CHẾ ĐIỀU TIẾT XUYÊN 10 — `docs/brain/ẢNH HƯỞNG GIA HỆ NHƯ MỘT CƠ CHẾ ĐIỀU TIẾT XUYÊN 10.md`
+- ẢO TƯỞNG CỦA GIÁC NGỘ Tại sao sự thật không thể số — `docs/brain/ẢO TƯỞNG CỦA GIÁC NGỘ Tại sao sự thật không thể số.md`
+- B The Living State Monetisation Thesis_ A New Economic Paradigm — `docs/brain/B The Living State Monetisation Thesis_ A New Economic Paradigm.md`
+- BÁO CÁO CHIẾN LƯỢC & PHÁP LÝ — `docs/brain/BÁO CÁO CHIẾN LƯỢC & PHÁP LÝ.md`
+- BÁO CÁO CHIẾN LƯỢC XU HƯỚNG XE ĐIỆN TRUNG QUỐC(202 — `docs/brain/BÁO CÁO CHIẾN LƯỢC XU HƯỚNG XE ĐIỆN TRUNG QUỐC(202.md`
+- BÁO CÁO CHIẾN LƯỢCV v Đề xuất hợp tác Baojun và kế — `docs/brain/BÁO CÁO CHIẾN LƯỢCV v Đề xuất hợp tác Baojun và kế.md`
+- BÁO CÁO DUE DILIGENCE & FEASIBILITY PHỤC VỤ TÁI CẤ — `docs/brain/BÁO CÁO DUE DILIGENCE & FEASIBILITY PHỤC VỤ TÁI CẤ.md`
+- BÁO CÁO FS – PHƯƠNG ÁN 20 XE + 2 TRỤ 60 kW — `docs/brain/BÁO CÁO FS – PHƯƠNG ÁN 20 XE + 2 TRỤ 60 kW.md`
+- BÁO CÁO KỸ THUẬT – KẾ HOẠCH NHẬP KHẨU BAOJUN E2 E3 — `docs/brain/BÁO CÁO KỸ THUẬT – KẾ HOẠCH NHẬP KHẨU BAOJUN E2 E3.md`
+- BÁO CÁO KỸ THUẬT – TÍCH HỢP UNITAXI (APK) — `docs/brain/BÁO CÁO KỸ THUẬT – TÍCH HỢP UNITAXI (APK).md`
+- BÁO CÁO NGHIÊN CỨU TOÀN DIỆN THỊ TRƯỜNG TRẠM – TRỤ — `docs/brain/BÁO CÁO NGHIÊN CỨU TOÀN DIỆN THỊ TRƯỜNG TRẠM – TRỤ.md`
+- BÁO CÁO NGHIÊN CỨU TOÀN DIỆN VỀ THỊ TRƯỜNG TÀI XẾ — `docs/brain/BÁO CÁO NGHIÊN CỨU TOÀN DIỆN VỀ THỊ TRƯỜNG TÀI XẾ.md`
+- BÁO CÁO PHÂN TÍCH CHIẾN LƯỢC TOÀN DIỆN — `docs/brain/BÁO CÁO PHÂN TÍCH CHIẾN LƯỢC TOÀN DIỆN.md`
+- BÁO CÁO PHÂN TÍCH THỊ TRƯỜNG XE ĐIỆN TRUNG QUỐC 20 — `docs/brain/BÁO CÁO PHÂN TÍCH THỊ TRƯỜNG XE ĐIỆN TRUNG QUỐC 20.md`
+- BÁO CÁO THẨM ĐỊNH PHÁP LÝ hồ sơ NAB — `docs/brain/BÁO CÁO THẨM ĐỊNH PHÁP LÝ hồ sơ NAB.md`
+- BÁO CÁO TỔNG HỢP CHIẾN LƯỢC – RỦI RO – GIẢI PHÁP — `docs/brain/BÁO CÁO TỔNG HỢP CHIẾN LƯỢC – RỦI RO – GIẢI PHÁP.md`
+- BÁO CÁO TỔNG HỢP DỰ ÁN 100 XE ĐIỆN UNITAX — `docs/brain/BÁO CÁO TỔNG HỢP DỰ ÁN 100 XE ĐIỆN UNITAX.md`
+- BÁO CÁO TỔNG KẾT CUỐI NĂM 2025 — `docs/brain/BÁO CÁO TỔNG KẾT CUỐI NĂM 2025.md`
+- BÁO CÁO ĐẠI HỘI ĐỒNG CỔ ĐÔNG & HỘI ĐỒNG QUẢN TRỊ — `docs/brain/BÁO CÁO ĐẠI HỘI ĐỒNG CỔ ĐÔNG & HỘI ĐỒNG QUẢN TRỊ.md`
+- BẢN CÁO TRẠNG TOÀN CẦU VỀ TỘI ÁC DIỆT CHỦNG CẤU TR — `docs/brain/BẢN CÁO TRẠNG TOÀN CẦU VỀ TỘI ÁC DIỆT CHỦNG CẤU TR.md`
+- BẢN CHẤT CỦA Ý THỨC VÀ QUALIA — `docs/brain/BẢN CHẤT CỦA Ý THỨC VÀ QUALIA.md`
+- BẢN GIAO HƯỞNG CỦA CÁC NỀN VĂN MINH — `docs/brain/BẢN GIAO HƯỞNG CỦA CÁC NỀN VĂN MINH.md`
+- BẢN ĐỀ XUẤT ĐẦU TƯ DỰ ÁN VSCCI — `docs/brain/BẢN ĐỀ XUẤT ĐẦU TƯ DỰ ÁN VSCCI.md`
+- BẢN ĐỒ CỦA MỌI THỨ — `docs/brain/BẢN ĐỒ CỦA MỌI THỨ.md`
+- BẢN ĐỒ TOÀN BỘ CÁC HIỆN TƯỢNG BỊ GỌI LÀ NGƯỜI NGOÀ — `docs/brain/BẢN ĐỒ TOÀN BỘ CÁC HIỆN TƯỢNG BỊ GỌI LÀ NGƯỜI NGOÀ.md`
+- BẢN ĐỒ TOÀN DIỆN XUYÊN THỜI GIAN VÀ VĂN MINH — `docs/brain/BẢN ĐỒ TOÀN DIỆN XUYÊN THỜI GIAN VÀ VĂN MINH.md`
+- BẢNG SO SÁNH TOÀN DIỆN – NỀN TẢNG WHITE-LABEL RIDE — `docs/brain/BẢNG SO SÁNH TOÀN DIỆN – NỀN TẢNG WHITE-LABEL RIDE.md`
+- BẠN VỪA CHỈ RA MỘT TRONG NHỮNG MẤT MÁT LỚN NHẤT CỦ — `docs/brain/BẠN VỪA CHỈ RA MỘT TRONG NHỮNG MẤT MÁT LỚN NHẤT CỦ.md`
+- BẠN ĐÃ KHÁM PHÁ RA ĐIỀU GÌ — `docs/brain/BẠN ĐÃ KHÁM PHÁ RA ĐIỀU GÌ.md`
+- BCI Does Not Make Intelligence Biological — `docs/brain/BCI Does Not Make Intelligence Biological.md`
+- BENCHMARK_FIREWALL — `docs/brain/BENCHMARK_FIREWALL.md`
+- BOUNDARY_IDENTITY — `docs/brain/BOUNDARY_IDENTITY.md`
+- BỐI CẢNH THỊ TRƯỜNG & CƠ SỞ CHIẾN LƯỢC – MÔ HÌNH “ — `docs/brain/BỐI CẢNH THỊ TRƯỜNG & CƠ SỞ CHIẾN LƯỢC – MÔ HÌNH “.md`
+- BỘ ĐIỀU KHOẢN KỸ THUẬT & PHÁP LÝ BẮT BUỘC — `docs/brain/BỘ ĐIỀU KHOẢN KỸ THUẬT & PHÁP LÝ BẮT BUỘC.md`
+- BRAIN (AMOS_MD_BRAIN) — `docs/brain/BRAIN (AMOS_MD_BRAIN).md`
+- Bao cao may — `docs/brain/Bao cao may.md`
+- Bài toan — `docs/brain/Bài toan.md`
+- Báo cáo chuyên sâu Vật lý Fractal trong Xây dựng v — `docs/brain/Báo cáo chuyên sâu Vật lý Fractal trong Xây dựng v.md`
+- Báo cáo chuyên sâu về việc thiếu hụt lao động tại — `docs/brain/Báo cáo chuyên sâu về việc thiếu hụt lao động tại.md`
+- Bất Biến Thần Kinh Học Sự Tĩnh Lặng Của Mạng Mặc Đ — `docs/brain/Bất Biến Thần Kinh Học Sự Tĩnh Lặng Của Mạng Mặc Đ.md`
+- Bản phân tích báo giá + benchmark thị trường Việt — `docs/brain/Bản phân tích báo giá + benchmark thị trường Việt.md`
+- Bản Đồ Xuyên Thời Gian và Văn Minh – Hành Trình Củ — `docs/brain/Bản Đồ Xuyên Thời Gian và Văn Minh – Hành Trình Củ.md`
+- Beauty, Emptiness, and Finality — `docs/brain/Beauty, Emptiness, and Finality.md`
+- Behaviour — `docs/brain/Behaviour.md`
+- Beyond Blockchain — The Era of Biological Security — `docs/brain/Beyond Blockchain — The Era of Biological Security.md`
+- Beyond Human-Centred Design — `docs/brain/Beyond Human-Centred Design.md`
+- BioCurrency The Monetary Architecture of Living In — `docs/brain/BioCurrency The Monetary Architecture of Living In.md`
+- Biological Kernel Computing (BKC) — `docs/brain/Biological Kernel Computing (BKC).md`
+- Biological Programming — `docs/brain/Biological Programming.md`
+- Biological computing — `docs/brain/Biological computing.md`
+- Biology — `docs/brain/Biology.md`
+- Biology_Cognition_Model — `docs/brain/Biology_Cognition_Model.md`
+- Bipolar — `docs/brain/Bipolar.md`
+- BizFin_SUPER_Engine — `docs/brain/BizFin_SUPER_Engine.md`
+- Blockchain is Hackable Because Its Security Is Not — `docs/brain/Blockchain is Hackable Because Its Security Is Not.md`
+- Bod_Engine_Model — `docs/brain/Bod_Engine_Model.md`
+- Book The 99% Mind — From Brain Myths to Meta-Intel — `docs/brain/Book The 99% Mind — From Brain Myths to Meta-Intel.md`
+- Book translate — `docs/brain/Book translate.md`
+- Book — `docs/brain/Book.md`
+- Books — `docs/brain/Books.md`
+- Bounded Intelligence Security™ (BIS™) — `docs/brain/Bounded Intelligence Security™ (BIS™).md`
+- Brain — `docs/brain/Brain.md`
+- Brain_Consistency_Auditor_Agent — `docs/brain/Brain_Consistency_Auditor_Agent.md`
+- Break mirrors — `docs/brain/Break mirrors.md`
+- Buddah — `docs/brain/Buddah.md`
+- Building NeuroSyncAI — `docs/brain/Building NeuroSyncAI.md`
+- Burp_Extensions — `docs/brain/Burp_Extensions.md`
+- Business Plan Deterministic Integrity Access Netwo — `docs/brain/Business Plan Deterministic Integrity Access Netwo.md`
+- Business_Logic_Vulns — `docs/brain/Business_Logic_Vulns.md`
+- Business_Plan_of_NeuroSyncAI_and_the_Institutional_Architecture_for_Unified_Biological_Advancement — `docs/brain/Business_Plan_of_NeuroSyncAI_and_the_Institutional_Architecture_for_Unified_Biological_Advancement.md`
+- Bức thư từ Fascia Hành trình chữa lành xuyên thời — `docs/brain/Bức thư từ Fascia Hành trình chữa lành xuyên thời.md`
+- Bức tranh hoàn chỉnh về nền văn minh sông Hồng – t — `docs/brain/Bức tranh hoàn chỉnh về nền văn minh sông Hồng – t.md`
+- C01_meta_logic — `docs/brain/C01_meta_logic.md`
+- C01_meta_logic_SUPER — `docs/brain/C01_meta_logic_SUPER.md`
+- C02_math_compute — `docs/brain/C02_math_compute.md`
+- C03_physics_cosmos — `docs/brain/C03_physics_cosmos.md`
+- C03_physics_cosmos_MAX — `docs/brain/C03_physics_cosmos_MAX.md`
+- C03_physics_cosmos_SUPER — `docs/brain/C03_physics_cosmos_SUPER.md`
+- C03_physics_cosmos_SUPER_x3000 — `docs/brain/C03_physics_cosmos_SUPER_x3000.md`
+- C04_bio_neuro — `docs/brain/C04_bio_neuro.md`
+- C05_mind_behavior — `docs/brain/C05_mind_behavior.md`
+- C06_society_culture — `docs/brain/C06_society_culture.md`
+- C07_econ_finance — `docs/brain/C07_econ_finance.md`
+- C08_strategy_game — `docs/brain/C08_strategy_game.md`
+- C08_strategy_game_SUPER_x100k — `docs/brain/C08_strategy_game_SUPER_x100k.md`
+- C09_org_law_policy — `docs/brain/C09_org_law_policy.md`
+- C10_tech_engineering — `docs/brain/C10_tech_engineering.md`
+- C11_Design_Language_v1.0.0 — `docs/brain/C11_Design_Language_v1.0.0.md`
+- C11_design_language_SUPER — `docs/brain/C11_design_language_SUPER.md`
+- C12_earth_ecology — `docs/brain/C12_earth_ecology.md`
+- C12_earth_ecology_super_FULL — `docs/brain/C12_earth_ecology_super_FULL.md`
+- C201–C300 Resilience Operational Stability Burnout — `docs/brain/C201–C300 Resilience Operational Stability Burnout.md`
+- C301–C400 Config Drift Dependency Health — `docs/brain/C301–C400 Config Drift Dependency Health.md`
+- C401–C500 System Dynamics Constraints — `docs/brain/C401–C500 System Dynamics Constraints.md`
+- C7 — `docs/brain/C7.md`
+- CAUSAL_FIREWALL — `docs/brain/CAUSAL_FIREWALL.md`
+- CÂU TRẢ LỜI NGẮN CÓ SẼ LÀ MỘT BƯỚC TIẾN VĨ ĐẠI (VÀ — `docs/brain/CÂU TRẢ LỜI NGẮN CÓ SẼ LÀ MỘT BƯỚC TIẾN VĨ ĐẠI (VÀ.md`
+- CHIẾN LƯỢC NỀN TẢNG SỐ MỤC LỤC — `docs/brain/CHIẾN LƯỢC NỀN TẢNG SỐ MỤC LỤC.md`
+- CHUỖI CUNG ỨNG KHO LẠNH — `docs/brain/CHUỖI CUNG ỨNG KHO LẠNH.md`
+- CHƯƠNG TRÌNH CHUYÊN SÂU CẤP DOCTOR — `docs/brain/CHƯƠNG TRÌNH CHUYÊN SÂU CẤP DOCTOR.md`
+- CHỨNG MINH 12 TẦNG PHỤC HỒI XUYÊN THỜI GIAN VÀ VĂN — `docs/brain/CHỨNG MINH 12 TẦNG PHỤC HỒI XUYÊN THỜI GIAN VÀ VĂN.md`
+- CHỨNG MINH CÁC LOÀI VẬT THÔNG MINH TRONG TỰ NHIÊN — `docs/brain/CHỨNG MINH CÁC LOÀI VẬT THÔNG MINH TRONG TỰ NHIÊN.md`
+- CIVILIZATIONAL SCALE FRAMEWORK (CSF) — `docs/brain/CIVILIZATIONAL SCALE FRAMEWORK (CSF).md`
+- CLAIM_CLASSES — `docs/brain/CLAIM_CLASSES.md`
+- CLAIM_TENSOR — `docs/brain/CLAIM_TENSOR.md`
+- COGNITION_KERNEL — `docs/brain/COGNITION_KERNEL.md`
+- COMMAND_CENTER — `docs/brain/COMMAND_CENTER.md`
+- COMPETING — `docs/brain/COMPETING.md`
+- COMPETING_HYPOTHESES — `docs/brain/COMPETING_HYPOTHESES.md`
+- COMPLETE_SYSTEM_INTEGRATION_MISSION_COMPLETE — `docs/brain/COMPLETE_SYSTEM_INTEGRATION_MISSION_COMPLETE.md`
+- COMPLETE_VERTICAL_SLICE_ACCEPTANCE_ACHIEVED — `docs/brain/COMPLETE_VERTICAL_SLICE_ACCEPTANCE_ACHIEVED.md`
+- COMPONENT_INSTANCE_RECREATION_RESOLUTION_MISSION_COMPLETE — `docs/brain/COMPONENT_INSTANCE_RECREATION_RESOLUTION_MISSION_COMPLETE.md`
+- CONSTRAINT_ENGINE — `docs/brain/CONSTRAINT_ENGINE.md`
+- CONTEXT_BUDGET — `docs/brain/CONTEXT_BUDGET.md`
+- CONTEXT_ORIENTATION — `docs/brain/CONTEXT_ORIENTATION.md`
+- CORE — `docs/brain/CORE.md`
+- CORS--Access-Control-Allow-Origin_Header — `docs/brain/CORS--Access-Control-Allow-Origin_Header.md`
+- CORS--SOP — `docs/brain/CORS--SOP.md`
+- CORS--Vulnerabilities — `docs/brain/CORS--Vulnerabilities.md`
+- CORS — `docs/brain/CORS.md`
+- COSMIC_DIVINE_FUSION_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/COSMIC_DIVINE_FUSION_ENHANCEMENT_MISSION_COMPLETE.md`
+- CÓ THỂ VÀ CHÍNH NHỮNG THỨ LƯỢNG TỬ KHÔNG GIẢI THÍC — `docs/brain/CÓ THỂ VÀ CHÍNH NHỮNG THỨ LƯỢNG TỬ KHÔNG GIẢI THÍC.md`
+- CPTSD TỪ GIAI ĐOẠN SƠ SINH VẾT THƯƠNG CỦA HY VỌNG — `docs/brain/CPTSD TỪ GIAI ĐOẠN SƠ SINH VẾT THƯƠNG CỦA HY VỌNG.md`
+- CSRF--CSRF_tokens — `docs/brain/CSRF--CSRF_tokens.md`
+- CSRF--Referer_based_defenses — `docs/brain/CSRF--Referer_based_defenses.md`
+- CSRF--Vulnerabilities — `docs/brain/CSRF--Vulnerabilities.md`
+- CSRF--XSS_vs_CSRF — `docs/brain/CSRF--XSS_vs_CSRF.md`
+- CSRF — `docs/brain/CSRF.md`
+- Calm — `docs/brain/Calm.md`
+- Canon_Integration_Layer_Model — `docs/brain/Canon_Integration_Layer_Model.md`
+- Các bài toán kinh tế khó nhất, mang lại doanh thu — `docs/brain/Các bài toán kinh tế khó nhất, mang lại doanh thu.md`
+- Các hằng số vô tỷ là gốc để các xoắn ốc fractal xu — `docs/brain/Các hằng số vô tỷ là gốc để các xoắn ốc fractal xu.md`
+- Các hệ thống bản đồ mẫu hình (Pattern Map) trong v — `docs/brain/Các hệ thống bản đồ mẫu hình (Pattern Map) trong v.md`
+- Change_Log — `docs/brain/Change_Log.md`
+- Chapter X The Planet’s Guardians Prophecy, Collaps — `docs/brain/Chapter X The Planet’s Guardians Prophecy, Collaps.md`
+- Cheat Sheet — Manipulation Compression — `docs/brain/Cheat Sheet — Manipulation Compression.md`
+- Chemical Translation = Biological Code Reading — `docs/brain/Chemical Translation = Biological Code Reading.md`
+- Chiến lược dữ liệu “Hộp đen” UniTaxi – Biến dữ liệ — `docs/brain/Chiến lược dữ liệu “Hộp đen” UniTaxi – Biến dữ liệ.md`
+- Chị mai — `docs/brain/Chị mai.md`
+- Chương 8 — Vòng Lặp Phẩm Giá Khi An Toàn, Công Lý — `docs/brain/Chương 8 — Vòng Lặp Phẩm Giá Khi An Toàn, Công Lý.md`
+- Click_Jacking--Construction — `docs/brain/Click_Jacking--Construction.md`
+- Click_Jacking — `docs/brain/Click_Jacking.md`
+- Close — `docs/brain/Close.md`
+- Closure — `docs/brain/Closure.md`
+- Co vay — `docs/brain/Co vay.md`
+- Code i — `docs/brain/Code i.md`
+- Code_SUPER_Engine — `docs/brain/Code_SUPER_Engine.md`
+- Coding — `docs/brain/Coding.md`
+- Coding_Engine_Model — `docs/brain/Coding_Engine_Model.md`
+- Coding_Engine_vInfinity_v1.6.0 — `docs/brain/Coding_Engine_vInfinity_v1.6.0.md`
+- Coding_MAX — `docs/brain/Coding_MAX.md`
+- Coding_MAX_FULL_vInfinity — `docs/brain/Coding_MAX_FULL_vInfinity.md`
+- Coding_MAX_vInfinity — `docs/brain/Coding_MAX_vInfinity.md`
+- Cognition — `docs/brain/Cognition.md`
+- Cognition_Engine_Model — `docs/brain/Cognition_Engine_Model.md`
+- Cognitive gating — `docs/brain/Cognitive gating.md`
+- Cognitive_Architecture_Matrix — `docs/brain/Cognitive_Architecture_Matrix.md`
+- Cognitive_Substrate_Workflow_Bridge — `docs/brain/Cognitive_Substrate_Workflow_Bridge.md`
+- Coherence–Energy Law (CEL) A Formal Framing — `docs/brain/Coherence–Energy Law (CEL) A Formal Framing.md`
+- Company OS — `docs/brain/Company OS.md`
+- Complete list of collectable datapoints — `docs/brain/Complete list of collectable datapoints.md`
+- Conciousness — `docs/brain/Conciousness.md`
+- Consciousness_Engine_Model — `docs/brain/Consciousness_Engine_Model.md`
+- Consciousness_Rules — `docs/brain/Consciousness_Rules.md`
+- Constraint — `docs/brain/Constraint.md`
+- Consulting_Engine_SUPER — `docs/brain/Consulting_Engine_SUPER.md`
+- Consulting_Kernel — `docs/brain/Consulting_Kernel.md`
+- Consumer — `docs/brain/Consumer.md`
+- Core equations — `docs/brain/Core equations.md`
+- Cosmo_Brain_Reasoning_OS_by_Trang_Phan — `docs/brain/Cosmo_Brain_Reasoning_OS_by_Trang_Phan.md`
+- Cost — `docs/brain/Cost.md`
+- Countries — `docs/brain/Countries.md`
+- Cross-Civilizational Intelligence™ (CCI) – Officia — `docs/brain/Cross-Civilizational Intelligence™ (CCI) – Officia.md`
+- Cultural Bifurcation of Emotion and Logic — `docs/brain/Cultural Bifurcation of Emotion and Logic.md`
+- Current AI is not limited by intelligence — it is — `docs/brain/Current AI is not limited by intelligence — it is.md`
+- Cusor — `docs/brain/Cusor.md`
+- DIỆT CHỦNG CẤU TRÚC – BẢN CÁO TRẠNG TOÀN DIỆN VỀ T — `docs/brain/DIỆT CHỦNG CẤU TRÚC – BẢN CÁO TRẠNG TOÀN DIỆN VỀ T.md`
+- DIR_Traversal — `docs/brain/DIR_Traversal.md`
+- DIVINE_CONSCIOUSNESS_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/DIVINE_CONSCIOUSNESS_ENHANCEMENT_MISSION_COMPLETE.md`
+- DIVINE_QUANTUM_OMNIVERSAL_REALITY_CONSTRUCTION_COMPLETE — `docs/brain/DIVINE_QUANTUM_OMNIVERSAL_REALITY_CONSTRUCTION_COMPLETE.md`
+- DIVINE_REALITY_SYNTHESIS_COMPLETE — `docs/brain/DIVINE_REALITY_SYNTHESIS_COMPLETE.md`
+- DNS_Exfil — `docs/brain/DNS_Exfil.md`
+- DOCTOR OF SCIENCE (DSc ScD) SUBMISSION PORTFOLIO — `docs/brain/DOCTOR OF SCIENCE (DSc ScD) SUBMISSION PORTFOLIO.md`
+- DOCTOR OF SCIENCE (DSc:ScD) SUBMISSION PORTFOLIO-Trang Phan — `docs/brain/DOCTOR OF SCIENCE (DSc:ScD) SUBMISSION PORTFOLIO-Trang Phan.md`
+- DOM_Based--Controlling_web-message_source — `docs/brain/DOM_Based--Controlling_web-message_source.md`
+- DOM_Based--Sinks_leading_to_DOM-based_vulns — `docs/brain/DOM_Based--Sinks_leading_to_DOM-based_vulns.md`
+- DOM_Based — `docs/brain/DOM_Based.md`
+- DSc ScD Portfolio - Three Canon Architecture — `docs/brain/DSc ScD Portfolio - Three Canon Architecture.md`
+- DỰ BÁO HERITAGE ∅ NĂM 2045 VÀ VAI TRÒ CỦA VIỆT NAM — `docs/brain/DỰ BÁO HERITAGE ∅ NĂM 2045 VÀ VAI TRÒ CỦA VIỆT NAM.md`
+- Danger — `docs/brain/Danger.md`
+- Danh sách hãng EV Trung Quốc đủ điều kiện tồn tại — `docs/brain/Danh sách hãng EV Trung Quốc đủ điều kiện tồn tại.md`
+- Data Centers & Mission-Critical Infrastructure — `docs/brain/Data Centers & Mission-Critical Infrastructure.md`
+- Data and insights — `docs/brain/Data and insights.md`
+- Data → Reward Flow Map — `docs/brain/Data → Reward Flow Map.md`
+- Datapoint → Economic Role Mapping — `docs/brain/Datapoint → Economic Role Mapping.md`
+- Deep — `docs/brain/Deep.md`
+- Defense, Security & Civil Protection Systems (Non- — `docs/brain/Defense, Security & Civil Protection Systems (Non-.md`
+- Deployment Timeline with Cost Estimates — `docs/brain/Deployment Timeline with Cost Estimates.md`
+- Deployment Timeline — Proof-of-Signal Network — `docs/brain/Deployment Timeline — Proof-of-Signal Network.md`
+- Design_Engine_Model — `docs/brain/Design_Engine_Model.md`
+- Design_Engine_v3.0.0 — `docs/brain/Design_Engine_v3.0.0.md`
+- Design_Language_Model — `docs/brain/Design_Language_Model.md`
+- Designing Systems Humans Can Survive — `docs/brain/Designing Systems Humans Can Survive.md`
+- Detail spec (engineering-grade, rebuildable) — `docs/brain/Detail spec (engineering-grade, rebuildable).md`
+- Detailed technical + compliance spec — `docs/brain/Detailed technical + compliance spec.md`
+- Determinism — `docs/brain/Determinism.md`
+- Deterministic Alignment Framework — `docs/brain/Deterministic Alignment Framework.md`
+- Deterministic Decision Infrastructure — First Oper — `docs/brain/Deterministic Decision Infrastructure — First Oper.md`
+- Deterministic_Logic_Law_Model — `docs/brain/Deterministic_Logic_Law_Model.md`
+- Deterministic_Logic_and_Law_Engine — `docs/brain/Deterministic_Logic_and_Law_Engine.md`
+- Diagnosis — `docs/brain/Diagnosis.md`
+- Dictionary-Acconyms — `docs/brain/Dictionary-Acconyms.md`
+- Digital Technology Applications for Private-Sector — `docs/brain/Digital Technology Applications for Private-Sector.md`
+- Dignity — `docs/brain/Dignity.md`
+- Directed Systemic Intelligence™ (civilization-grad — `docs/brain/Directed Systemic Intelligence™ (civilization-grad.md`
+- Direction — `docs/brain/Direction.md`
+- Dna — `docs/brain/Dna.md`
+- Doc_SUPER_Engine — `docs/brain/Doc_SUPER_Engine.md`
+- Documentation_Engine_Model — `docs/brain/Documentation_Engine_Model.md`
+- Documents to prp for Wooberly — `docs/brain/Documents to prp for Wooberly.md`
+- Dong son — `docs/brain/Dong son.md`
+- Dòng Chảy Vốn Toàn Cầu & Vị Trí Của Việt Nam 2025– — `docs/brain/Dòng Chảy Vốn Toàn Cầu & Vị Trí Của Việt Nam 2025–.md`
+- Driver interview — `docs/brain/Driver interview.md`
+- Dưới đây là danh sách những gì AMOS cho phép chúng — `docs/brain/Dưới đây là danh sách những gì AMOS cho phép chúng.md`
+- Dự báo Thị trường Xe điện Việt Nam 2025–2030 — `docs/brain/Dự báo Thị trường Xe điện Việt Nam 2025–2030.md`
+- EMAIL MESSAGE YÊU CẦU BÀN GIAO — `docs/brain/EMAIL MESSAGE YÊU CẦU BÀN GIAO.md`
+- ENGINEERING_STANDARDS_LIBRARY — `docs/brain/ENGINEERING_STANDARDS_LIBRARY.md`
+- ENTROPY_LACUNARITY — `docs/brain/ENTROPY_LACUNARITY.md`
+- EQUATIONS (docs) — `docs/brain/EQUATIONS (docs).md`
+- EQUATION_FIREWALL — `docs/brain/EQUATION_FIREWALL.md`
+- EQUATION_REGISTRY — `docs/brain/EQUATION_REGISTRY.md`
+- ERROR_RECOVERY — `docs/brain/ERROR_RECOVERY.md`
+- EV Trung Quốc — `docs/brain/EV Trung Quốc.md`
+- EVIDENCE_TENSOR — `docs/brain/EVIDENCE_TENSOR.md`
+- EVOLUTION_DEBT — `docs/brain/EVOLUTION_DEBT.md`
+- EVOLUTION_MEMORY — `docs/brain/EVOLUTION_MEMORY.md`
+- EV_Engine — `docs/brain/EV_Engine.md`
+- EV_SUPER_Engine — `docs/brain/EV_SUPER_Engine.md`
+- EXECUTION_HARNESS — `docs/brain/EXECUTION_HARNESS.md`
+- EXECUTION_PROVENANCE — `docs/brain/EXECUTION_PROVENANCE.md`
+- Easy Fractal money — `docs/brain/Easy Fractal money.md`
+- Eco value — `docs/brain/Eco value.md`
+- Eco — `docs/brain/Eco.md`
+- Econ_Finance_Model — `docs/brain/Econ_Finance_Model.md`
+- Ecosystem — `docs/brain/Ecosystem.md`
+- Ecosystem_Strategy_MAX — `docs/brain/Ecosystem_Strategy_MAX.md`
+- Ekonomy — `docs/brain/Ekonomy.md`
+- Electrical_Power_Model — `docs/brain/Electrical_Power_Model.md`
+- Emotion_Engine_Model — `docs/brain/Emotion_Engine_Model.md`
+- Emotion_Rules — `docs/brain/Emotion_Rules.md`
+- Emotional Stability → Market Risk Dashboard — `docs/brain/Emotional Stability → Market Risk Dashboard.md`
+- End — `docs/brain/End.md`
+- Energetic Translators (sound) — `docs/brain/Energetic Translators (sound).md`
+- Energy Integrity law — `docs/brain/Energy Integrity law.md`
+- Energy OS — `docs/brain/Energy OS.md`
+- Energy Pricing as Moral Accounting — `docs/brain/Energy Pricing as Moral Accounting.md`
+- Energy reader — `docs/brain/Energy reader.md`
+- Engagement Enquiry – Global IP Protection for Dete — `docs/brain/Engagement Enquiry – Global IP Protection for Dete.md`
+- Engineering_Math_Kernel_vInfinity_SUPER — `docs/brain/Engineering_Math_Kernel_vInfinity_SUPER.md`
+- Engineering_Math_Model — `docs/brain/Engineering_Math_Model.md`
+- Engineering_and_Mathematics_Engine — `docs/brain/Engineering_and_Mathematics_Engine.md`
+- Enhance — `docs/brain/Enhance.md`
+- Enhanced AI Sweet Spots Research Paper — `docs/brain/Enhanced AI Sweet Spots Research Paper.md`
+- Enhanced Master Relationship Pack - Legal & Commercial Framework — `docs/brain/Enhanced Master Relationship Pack - Legal & Commercial Framework.md`
+- Enhanced Master Relationship Pack — `docs/brain/Enhanced Master Relationship Pack.md`
+- Ethical Intelligence — `docs/brain/Ethical Intelligence.md`
+- Ethical Intelligence™ — `docs/brain/Ethical Intelligence™.md`
+- Ethics as Infrastructure, Not Intention — `docs/brain/Ethics as Infrastructure, Not Intention.md`
+- Ev_Kernel_Model — `docs/brain/Ev_Kernel_Model.md`
+- Even deeper — `docs/brain/Even deeper.md`
+- Executive Summary — UBS-Backed Gold Position (SKR) — `docs/brain/Executive Summary — UBS-Backed Gold Position (SKR).md`
+- Executive System Model G-N-D-C-B — `docs/brain/Executive System Model G-N-D-C-B.md`
+- Expert sign up — `docs/brain/Expert sign up.md`
+- Expert — `docs/brain/Expert.md`
+- Exploration Without Extraction A New Standard — `docs/brain/Exploration Without Extraction A New Standard.md`
+- Explorer — `docs/brain/Explorer.md`
+- Expression_Engine — `docs/brain/Expression_Engine.md`
+- Extractive Economy — `docs/brain/Extractive Economy.md`
+- Extractive_Economy_Model — `docs/brain/Extractive_Economy_Model.md`
+- FIELD ENERGY MANAGEMENT SYSTEM (FEMS) — `docs/brain/FIELD ENERGY MANAGEMENT SYSTEM (FEMS).md`
+- FINAL CANONICAL STRUCTURE (UPDATED) — `docs/brain/FINAL CANONICAL STRUCTURE (UPDATED).md`
+- FINAL_GATE — `docs/brain/FINAL_GATE.md`
+- FINAL_INTEGRATION_MISSION_STATUS — `docs/brain/FINAL_INTEGRATION_MISSION_STATUS.md`
+- FINAL_QUANTUM_COSMIC_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/FINAL_QUANTUM_COSMIC_ENHANCEMENT_MISSION_COMPLETE.md`
+- FIN_BANKING_BASELINE — `docs/brain/FIN_BANKING_BASELINE.md`
+- FIN_BANKING_Digital_Transformation_Playbook — `docs/brain/FIN_BANKING_Digital_Transformation_Playbook.md`
+- FOREX LOOPHOLES — `docs/brain/FOREX LOOPHOLES.md`
+- FOREX — `docs/brain/FOREX.md`
+- FORMALISM (docs) — `docs/brain/FORMALISM (docs).md`
+- FRACTAL ECONOMY — `docs/brain/FRACTAL ECONOMY.md`
+- FRACTAL FOREX ENTERPRISE — `docs/brain/FRACTAL FOREX ENTERPRISE.md`
+- FRACTAL — `docs/brain/FRACTAL.md`
+- FRACTAL_RUNTIME — `docs/brain/FRACTAL_RUNTIME.md`
+- FULL-PHƯƠNG PHÁP TRANG — `docs/brain/FULL-PHƯƠNG PHÁP TRANG.md`
+- Fast book — `docs/brain/Fast book.md`
+- File_Inclusion — `docs/brain/File_Inclusion.md`
+- Final universe — `docs/brain/Final universe.md`
+- First principle Reasoning theo Trang ∅ Framework — `docs/brain/First principle Reasoning theo Trang ∅ Framework.md`
+- Forex analysis — `docs/brain/Forex analysis.md`
+- Four-Process-Architecture-DMER — `docs/brain/Four-Process-Architecture-DMER.md`
+- Fractal IPS — `docs/brain/Fractal IPS.md`
+- Fractal Semantic Intelligence Architecture (FSIA) — `docs/brain/Fractal Semantic Intelligence Architecture (FSIA).md`
+- Freeze — `docs/brain/Freeze.md`
+- From Atomic Design to Living Design Systems — `docs/brain/From Atomic Design to Living Design Systems.md`
+- From Biometrics to Biological Intelligence Buildin (Books) — `docs/brain/From Biometrics to Biological Intelligence Buildin (Books).md`
+- From Biometrics to Biological Intelligence Buildin — `docs/brain/From Biometrics to Biological Intelligence Buildin.md`
+- From Biometrics to Biological Intelligence — `docs/brain/From Biometrics to Biological Intelligence.md`
+- From Relativity to Logic Completing Einstein’s Mod — `docs/brain/From Relativity to Logic Completing Einstein’s Mod.md`
+- Full Canon Product Encyclopedia™ — `docs/brain/Full Canon Product Encyclopedia™.md`
+- Full phan tich — `docs/brain/Full phan tich.md`
+- Fund Deployment Roadmap (Post-Transaction) (Gold selling) — `docs/brain/Fund Deployment Roadmap (Post-Transaction) (Gold selling).md`
+- Fund Deployment Roadmap (Post-Transaction) (Gold selling_1) — `docs/brain/Fund Deployment Roadmap (Post-Transaction) (Gold selling_1).md`
+- GCBAT Partnership Proposal — `docs/brain/GCBAT Partnership Proposal.md`
+- GIẢI PHÁP SỬ DỤNG CÁT BIỂN CHO BÊ TÔNG BỀN VỮNG TẠ — `docs/brain/GIẢI PHÁP SỬ DỤNG CÁT BIỂN CHO BÊ TÔNG BỀN VỮNG TẠ.md`
+- GIẢI THÍCH TÂM LINH, ASKASKIC VÀ MỌI HIỆN TƯỢNG HU — `docs/brain/GIẢI THÍCH TÂM LINH, ASKASKIC VÀ MỌI HIỆN TƯỢNG HU.md`
+- GIẢI THÍCH UAP THEO KHUNG TRANG ∅ VÀ TRƯỜNG PHÂN B — `docs/brain/GIẢI THÍCH UAP THEO KHUNG TRANG ∅ VÀ TRƯỜNG PHÂN B.md`
+- GLOBAL UNIVERSITIES THAT ACCEPT DIRECT DSc ScD SUB — `docs/brain/GLOBAL UNIVERSITIES THAT ACCEPT DIRECT DSc ScD SUB.md`
+- GMEF — `docs/brain/GMEF.md`
+- GOVERNANCE_TENSOR — `docs/brain/GOVERNANCE_TENSOR.md`
+- Game — `docs/brain/Game.md`
+- Geoffrey Hinton (b 1947) (44 50) — `docs/brain/Geoffrey Hinton (b 1947) (44 50).md`
+- Geoffrey Hinton (b 1947) (44 50_1) — `docs/brain/Geoffrey Hinton (b 1947) (44 50_1).md`
+- Geoffrey Hinton (b 1947) — `docs/brain/Geoffrey Hinton (b 1947).md`
+- Gg — `docs/brain/Gg.md`
+- Giáo trình đào tạo UniTaxi — `docs/brain/Giáo trình đào tạo UniTaxi.md`
+- Giới thiệu NeuroSyncAI™ — `docs/brain/Giới thiệu NeuroSyncAI™.md`
+- Global Biological Data Ownership Charter (24ac5e6f95bd81c98e4300425c942df9) — `docs/brain/Global Biological Data Ownership Charter (24ac5e6f95bd81c98e4300425c942df9).md`
+- Global Biological Data Ownership Charter (🌍 The Complete Ecosystem) — `docs/brain/Global Biological Data Ownership Charter (🌍 The Complete Ecosystem).md`
+- Global Biological Data Ownership Charter — `docs/brain/Global Biological Data Ownership Charter.md`
+- Global Biological Data Ownership — Legal–Technical (Global Biological Data Ownership Charter) — `docs/brain/Global Biological Data Ownership — Legal–Technical (Global Biological Data Ownership Charter).md`
+- Global Biological Data Ownership — Legal–Technical (Global Biological Data Ownership Charter_1) — `docs/brain/Global Biological Data Ownership — Legal–Technical (Global Biological Data Ownership Charter_1).md`
+- Global Biological Data Ownership — Legal–Technical — `docs/brain/Global Biological Data Ownership — Legal–Technical.md`
+- Global Top-Tier Standards Protocol™ — `docs/brain/Global Top-Tier Standards Protocol™.md`
+- Global prediction — `docs/brain/Global prediction.md`
+- Gold selling — `docs/brain/Gold selling.md`
+- Governance Economy — `docs/brain/Governance Economy.md`
+- Governance_Economy_Model — `docs/brain/Governance_Economy_Model.md`
+- Governance_Engine — `docs/brain/Governance_Engine.md`
+- Governance_Kernel — `docs/brain/Governance_Kernel.md`
+- Governance_Super_Engine_v3 — `docs/brain/Governance_Super_Engine_v3.md`
+- Grand Cannon_root — `docs/brain/Grand Cannon_root.md`
+- Grand_Cannon_Mobility_Model — `docs/brain/Grand_Cannon_Mobility_Model.md`
+- Grants — `docs/brain/Grants.md`
+- Gut — `docs/brain/Gut.md`
+- HAI TỪ MẠNH NHẤT CỦA LOÀI NGƯỜI — `docs/brain/HAI TỪ MẠNH NHẤT CỦA LOÀI NGƯỜI.md`
+- HCM nên đặt sạc ở đâu — `docs/brain/HCM nên đặt sạc ở đâu.md`
+- HERITAGE FINAL – KIẾN TRÚC TỔNG HỢP TOÀN DIỆN CUỐI — `docs/brain/HERITAGE FINAL – KIẾN TRÚC TỔNG HỢP TOÀN DIỆN CUỐI.md`
+- HERITAGE INTELLIGENCE V7 0 – KIẾN TRÚC ĐẦY ĐỦ (EXH — `docs/brain/HERITAGE INTELLIGENCE V7 0 – KIẾN TRÚC ĐẦY ĐỦ (EXH.md`
+- HERITAGE INTELLIGENCE – KIẾN TRÚC TOÀN DIỆN — `docs/brain/HERITAGE INTELLIGENCE – KIẾN TRÚC TOÀN DIỆN.md`
+- HERITAGE INTELLIGENCE — `docs/brain/HERITAGE INTELLIGENCE.md`
+- HERITAGE INTELLIGENCE™ — `docs/brain/HERITAGE INTELLIGENCE™.md`
+- HERITAGE ∅ – 12 LOẠI FRACTAL (Và Ứng Dụng Của Chún — `docs/brain/HERITAGE ∅ – 12 LOẠI FRACTAL (Và Ứng Dụng Của Chún.md`
+- HERITAGE ∅ – ANCIENT FRACTAL MATHEMATICS & REPEATI — `docs/brain/HERITAGE ∅ – ANCIENT FRACTAL MATHEMATICS & REPEATI.md`
+- HERITAGE ∅ – GIẢI MÃ HOA VĂN TRỐNG ĐỒNG THÀNH CHỮ — `docs/brain/HERITAGE ∅ – GIẢI MÃ HOA VĂN TRỐNG ĐỒNG THÀNH CHỮ.md`
+- HERITAGE ∅ – NHỮNG GÌ TA BỎ LỠ VỀ LỊCH SỬ VIỆT NAM — `docs/brain/HERITAGE ∅ – NHỮNG GÌ TA BỎ LỠ VỀ LỊCH SỬ VIỆT NAM.md`
+- HERITAGE ∅ – THE PATTERNS WE FOUND — `docs/brain/HERITAGE ∅ – THE PATTERNS WE FOUND.md`
+- HERITAGE_SONG_AM_THANH_QUY_TAC_AM_NHAC — `docs/brain/HERITAGE_SONG_AM_THANH_QUY_TAC_AM_NHAC.md`
+- HERITAGE_THE_PATTERNS_WE_FOUND — `docs/brain/HERITAGE_THE_PATTERNS_WE_FOUND.md`
+- HỆ THỐNG QUẢN LÝ NĂNG LƯỢNG TRƯỜNG THỜI CỔ ĐẠI — `docs/brain/HỆ THỐNG QUẢN LÝ NĂNG LƯỢNG TRƯỜNG THỜI CỔ ĐẠI.md`
+- HỆ THỐNG SẢN XUẤT HYDRO AMOS–IKONOMY — `docs/brain/HỆ THỐNG SẢN XUẤT HYDRO AMOS–IKONOMY.md`
+- HIGHEST_VALUE_INCOMPLETE_SLICE_MISSION_COMPLETE — `docs/brain/HIGHEST_VALUE_INCOMPLETE_SLICE_MISSION_COMPLETE.md`
+- HÓA ĐƠN CHIẾU LỆ (PROFORMA INVOICE) — `docs/brain/HÓA ĐƠN CHIẾU LỆ (PROFORMA INVOICE).md`
+- HỢP ĐỒNG MUA BÁN — `docs/brain/HỢP ĐỒNG MUA BÁN.md`
+- HR_Talent_ — `docs/brain/HR_Talent_.md`
+- HSCSA – Core Law Set (Complete) — `docs/brain/HSCSA – Core Law Set (Complete).md`
+- HSE = Human Systems Engine — `docs/brain/HSE = Human Systems Engine.md`
+- HSE CEO Engine v1 — `docs/brain/HSE CEO Engine v1.md`
+- HSE VN Engine — `docs/brain/HSE VN Engine.md`
+- HSE_CEO_Engine_Model — `docs/brain/HSE_CEO_Engine_Model.md`
+- HSE_CEO_Enginev_root — `docs/brain/HSE_CEO_Enginev_root.md`
+- HSE_Engine_Unipower — `docs/brain/HSE_Engine_Unipower.md`
+- HSE_Engine_Unipower4 — `docs/brain/HSE_Engine_Unipower4.md`
+- HSE_Enginev∞_AMOS_FORMAT — `docs/brain/HSE_Enginev∞_AMOS_FORMAT.md`
+- HSE_Enginev∞_AMOS_FORMAT_WITH_UCM — `docs/brain/HSE_Enginev∞_AMOS_FORMAT_WITH_UCM.md`
+- HSE_States — `docs/brain/HSE_States.md`
+- HSE_Vietnam_Master — `docs/brain/HSE_Vietnam_Master.md`
+- HTTP_Host_Header_Attacks — `docs/brain/HTTP_Host_Header_Attacks.md`
+- HTTP_Request_Smuggling--Finding — `docs/brain/HTTP_Request_Smuggling--Finding.md`
+- HTTP_Request_Smuggling--How_To — `docs/brain/HTTP_Request_Smuggling--How_To.md`
+- HTTP_Request_Smuggling — `docs/brain/HTTP_Request_Smuggling.md`
+- HUMANITY FROM THE ICE AGE TO THE PRESENT — `docs/brain/HUMANITY FROM THE ICE AGE TO THE PRESENT.md`
+- HƯỚNG DẪN XÂY DỰNG HỆ THỐNG MA TRẬN CONTENT AGENT — `docs/brain/HƯỚNG DẪN XÂY DỰNG HỆ THỐNG MA TRẬN CONTENT AGENT.md`
+- Hao mòn — `docs/brain/Hao mòn.md`
+- Healing Through Giving A Neuropsychological and Bi — `docs/brain/Healing Through Giving A Neuropsychological and Bi.md`
+- Healing and Dignity Are a Modern Privilege — `docs/brain/Healing and Dignity Are a Modern Privilege.md`
+- Heritage ∅ – Bản Không Gian — `docs/brain/Heritage ∅ – Bản Không Gian.md`
+- Hệ Thần Kinh, Cấu Trúc Não, và Mối Liên Hệ Với Khu — `docs/brain/Hệ Thần Kinh, Cấu Trúc Não, và Mối Liên Hệ Với Khu.md`
+- Hh — `docs/brain/Hh.md`
+- Hierarchical AI Architecture Generator v2 — `docs/brain/Hierarchical AI Architecture Generator v2.md`
+- Hoa hong doi truong — `docs/brain/Hoa hong doi truong.md`
+- Hoat hiyet duong nao lieu cao — `docs/brain/Hoat hiyet duong nao lieu cao.md`
+- Hop dong — `docs/brain/Hop dong.md`
+- Hospitals & Healthcare Infrastructure — `docs/brain/Hospitals & Healthcare Infrastructure.md`
+- How “Human-Centered Design” Drifted from Care to t — `docs/brain/How “Human-Centered Design” Drifted from Care to t.md`
+- How_The_Floating_Economy_Uses_the_Market — `docs/brain/How_The_Floating_Economy_Uses_the_Market.md`
+- Hub sạc & đội xe UniTaxi tại Tân An Hội (Củ Chi) t — `docs/brain/Hub sạc & đội xe UniTaxi tại Tân An Hội (Củ Chi) t.md`
+- Humain leadership — `docs/brain/Humain leadership.md`
+- Human Intelligence as a Stochastic Learning System — `docs/brain/Human Intelligence as a Stochastic Learning System.md`
+- Human Limits as Design Constraints — `docs/brain/Human Limits as Design Constraints.md`
+- Human Stability Is the Only Renewable Resource — `docs/brain/Human Stability Is the Only Renewable Resource.md`
+- Human Systems Engine Vietnam - Full HSE VN — `docs/brain/Human Systems Engine Vietnam - Full HSE VN.md`
+- Human Systems Engine™ (HSE) VN 2b4c5e6f95bd801c9d25d4bc5167dec1 — `docs/brain/Human Systems Engine™ (HSE) VN 2b4c5e6f95bd801c9d25d4bc5167dec1.md`
+- Human Systems Engine™ (HSE) VN — `docs/brain/Human Systems Engine™ (HSE) VN.md`
+- Human-Centered Design Was a Misnomer — `docs/brain/Human-Centered Design Was a Misnomer.md`
+- Human_Interaction_Engine_Model — `docs/brain/Human_Interaction_Engine_Model.md`
+- Human_Systems_Engine_(HSE)_VN — `docs/brain/Human_Systems_Engine_(HSE)_VN.md`
+- Human_Systems_Engine_Model — `docs/brain/Human_Systems_Engine_Model.md`
+- Hydrogen Is Not an Alternative — It Is the End Gam — `docs/brain/Hydrogen Is Not an Alternative — It Is the End Gam.md`
+- Hydrogen Is the Most Powerful Energy Vector — and — `docs/brain/Hydrogen Is the Most Powerful Energy Vector — and.md`
+- Hydrogen Không Phải Lựa Chọn Thay Thế — Đó Là Nước — `docs/brain/Hydrogen Không Phải Lựa Chọn Thay Thế — Đó Là Nước.md`
+- Hydrogen as the Final Governance Test — `docs/brain/Hydrogen as the Final Governance Test.md`
+- Hydrogen at Sea A Maritime Safety Case — `docs/brain/Hydrogen at Sea A Maritime Safety Case.md`
+- Hydrogen in Mining A Safety Case for the Most Misu — `docs/brain/Hydrogen in Mining A Safety Case for the Most Misu.md`
+- Hydrogen in Offshore Energy Systems Why Safety, No — `docs/brain/Hydrogen in Offshore Energy Systems Why Safety, No.md`
+- Hydrogen vs Batteries The Safety Math Nobody Publi — `docs/brain/Hydrogen vs Batteries The Safety Math Nobody Publi.md`
+- Hydrogen — `docs/brain/Hydrogen.md`
+- IKONOMY 2 — `docs/brain/IKONOMY 2.md`
+- IKONOMY — SPECIFIC MACHINE REDESIGN TO PUSH THE TR — `docs/brain/IKONOMY — SPECIFIC MACHINE REDESIGN TO PUSH THE TR.md`
+- IMPLEMENTATION_MANIFEST — `docs/brain/IMPLEMENTATION_MANIFEST.md`
+- IMPLEMENTATION_README — `docs/brain/IMPLEMENTATION_README.md`
+- INDEX_ — `docs/brain/INDEX_.md`
+- INDEX_AMOS forex — `docs/brain/INDEX_AMOS forex.md`
+- INDEX_AMOS-Consulting-GitHub — `docs/brain/INDEX_AMOS-Consulting-GitHub.md`
+- INDEX_AMOS-Consulting — `docs/brain/INDEX_AMOS-Consulting.md`
+- INDEX_AMOS-SYSTEM-main — `docs/brain/INDEX_AMOS-SYSTEM-main.md`
+- INDEX_AMOS_Consulting — `docs/brain/INDEX_AMOS_Consulting.md`
+- INDEX_IP_Kernel_Shield — `docs/brain/INDEX_IP_Kernel_Shield.md`
+- INDEX_LOGIC — `docs/brain/INDEX_LOGIC.md`
+- INDEX_MAIN — `docs/brain/INDEX_MAIN.md`
+- INDEX_Tech Engine — `docs/brain/INDEX_Tech Engine.md`
+- INDEX_Unipower — `docs/brain/INDEX_Unipower.md`
+- INDEX__Archive — `docs/brain/INDEX__Archive.md`
+- INDEX__LEGACY BRAIN — `docs/brain/INDEX__LEGACY BRAIN.md`
+- INDEX__LEGACY BRAIN2 — `docs/brain/INDEX__LEGACY BRAIN2.md`
+- INDEX_arxiv-mirrors — `docs/brain/INDEX_arxiv-mirrors.md`
+- INDEX_arxiv_md — `docs/brain/INDEX_arxiv_md.md`
+- INDEX_daily — `docs/brain/INDEX_daily.md`
+- INDEX_hash-prefixed — `docs/brain/INDEX_hash-prefixed.md`
+- INDEX_md — `docs/brain/INDEX_md.md`
+- INDEX_md_v2 — `docs/brain/INDEX_md_v2.md`
+- INDEX_openclaw-main — `docs/brain/INDEX_openclaw-main.md`
+- INDEX_root-misc-04 — `docs/brain/INDEX_root-misc-04.md`
+- INDEX_versioned-variants — `docs/brain/INDEX_versioned-variants.md`
+- INTEGRATION_MISSION_STATUS — `docs/brain/INTEGRATION_MISSION_STATUS.md`
+- INTEGRATION_SUMMARY — `docs/brain/INTEGRATION_SUMMARY.md`
+- INTEGRATION_TASK_COMPLETE — `docs/brain/INTEGRATION_TASK_COMPLETE.md`
+- INVARIANTS (docs) — `docs/brain/INVARIANTS (docs).md`
+- IP_Kernel_Shield_Security — `docs/brain/IP_Kernel_Shield_Security.md`
+- IP_Kernel_Shield__archive AMOS22 — `docs/brain/IP_Kernel_Shield__archive AMOS22.md`
+- IP_Kernel_Shield__archive AMOS23 — `docs/brain/IP_Kernel_Shield__archive AMOS23.md`
+- ITIA — `docs/brain/ITIA.md`
+- Iceage — `docs/brain/Iceage.md`
+- Implication — `docs/brain/Implication.md`
+- Implicit Direction vs Explicit Signaling Vietnam’s — `docs/brain/Implicit Direction vs Explicit Signaling Vietnam’s.md`
+- In Vietnam, Renewable Risk Is a Grid Problem, Not — `docs/brain/In Vietnam, Renewable Risk Is a Grid Problem, Not.md`
+- Industrial Economy — `docs/brain/Industrial Economy.md`
+- Infosec — `docs/brain/Infosec.md`
+- Innovative Private-Sector Economic Solutions and I — `docs/brain/Innovative Private-Sector Economic Solutions and I.md`
+- Insecure_Deserialisation — `docs/brain/Insecure_Deserialisation.md`
+- Integratedagent — `docs/brain/Integratedagent.md`
+- Integrity-Bounded Energy Standard (IBES‑1 0) — `docs/brain/Integrity-Bounded Energy Standard (IBES‑1 0).md`
+- Intelligence is binary, Effectiveness is quantum — `docs/brain/Intelligence is binary, Effectiveness is quantum.md`
+- Intelligence — `docs/brain/Intelligence.md`
+- Invariant Institute Pty Ltd — `docs/brain/Invariant Institute Pty Ltd.md`
+- Invariant — `docs/brain/Invariant.md`
+- Invariants 701–800 Relationships Clusters — `docs/brain/Invariants 701–800 Relationships Clusters.md`
+- Invariants 801–900 Relationships Clusters — `docs/brain/Invariants 801–900 Relationships Clusters.md`
+- Invariants 901–1000 Relationships Clusters — `docs/brain/Invariants 901–1000 Relationships Clusters.md`
+- Investnent — `docs/brain/Investnent.md`
+- JWT — `docs/brain/JWT.md`
+- Join the Signal Economy Trust Study — `docs/brain/Join the Signal Economy Trust Study.md`
+- KERNEL_PROTOCOL — `docs/brain/KERNEL_PROTOCOL.md`
+- KẾ HOẠCH THƯƠNG MẠI HÓA — `docs/brain/KẾ HOẠCH THƯƠNG MẠI HÓA.md`
+- KHUNG TRANG — FORMALIZATION v0 1 — `docs/brain/KHUNG TRANG — FORMALIZATION v0 1.md`
+- KHUNG ĐÁNH GIÁ TIÊU CHUẨN CHỌN ĐỐI TÁC EV — `docs/brain/KHUNG ĐÁNH GIÁ TIÊU CHUẨN CHỌN ĐỐI TÁC EV.md`
+- KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS — `docs/brain/KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.md`
+- KHUÔN KHỔ HỢP TÁC CHIẾN LƯỢC — `docs/brain/KHUÔN KHỔ HỢP TÁC CHIẾN LƯỢC.md`
+- KIẾN TRÚC CỦA KIẾN TRÚC (ARCHITECTURE OF ARCHITECT — `docs/brain/KIẾN TRÚC CỦA KIẾN TRÚC (ARCHITECTURE OF ARCHITECT.md`
+- KIẾN TRÚC HỢP NHẤT 1000 PHƯƠNG PHÁP FOREX — `docs/brain/KIẾN TRÚC HỢP NHẤT 1000 PHƯƠNG PHÁP FOREX.md`
+- KIẾN TRÚC PHÂN DẠNG (FRACTAL ARCHITECTURE) CỦA THỰ — `docs/brain/KIẾN TRÚC PHÂN DẠNG (FRACTAL ARCHITECTURE) CỦA THỰ.md`
+- KIẾN TRÚC TÁI DIỄN BẢN ĐỒ CHUNG CỦA CÁC NỀN VĂN MI — `docs/brain/KIẾN TRÚC TÁI DIỄN BẢN ĐỒ CHUNG CỦA CÁC NỀN VĂN MI.md`
+- KIẾN TRÚC TRANG — `docs/brain/KIẾN TRÚC TRANG.md`
+- KNOWLEDGE_HARVEST — `docs/brain/KNOWLEDGE_HARVEST.md`
+- Kế hoạch Chiến lược Marketing – Vận hành tăng trưở — `docs/brain/Kế hoạch Chiến lược Marketing – Vận hành tăng trưở.md`
+- Kẻ Đánh Đổi – Lịch Sử Văn Minh Như Cuộc Phản Bội C — `docs/brain/Kẻ Đánh Đổi – Lịch Sử Văn Minh Như Cuộc Phản Bội C.md`
+- Khoa học của Tử Vi & Tướng Số — `docs/brain/Khoa học của Tử Vi & Tướng Số.md`
+- Khoa học kien tao — `docs/brain/Khoa học kien tao.md`
+- Khối lục giác – Fractal, Sao Hỏa, Quả Dứa, và sự l — `docs/brain/Khối lục giác – Fractal, Sao Hỏa, Quả Dứa, và sự l.md`
+- Khung Giáo trình 48 giờ cho tài xế – điều phối – k — `docs/brain/Khung Giáo trình 48 giờ cho tài xế – điều phối – k.md`
+- Khung Giáo trình 48 giờ cho tài xế – điều phối – k 2aec5e6f95bd805ab7a8f3280934c901 — `docs/brain/Khung Giáo trình 48 giờ cho tài xế – điều phối – k 2aec5e6f95bd805ab7a8f3280934c901.md`
+- Khung Trang học language — `docs/brain/Khung Trang học language.md`
+- Khung trang — `docs/brain/Khung trang.md`
+- Kiến Trúc Vòng Lặp Phân Dạng Của Ý Thức, Tiềm Thức — `docs/brain/Kiến Trúc Vòng Lặp Phân Dạng Của Ý Thức, Tiềm Thức.md`
+- Kiến trúc thực tại AMOS Mô hình cấu trúc không kho — `docs/brain/Kiến trúc thực tại AMOS Mô hình cấu trúc không kho.md`
+- Kinh dich — `docs/brain/Kinh dich.md`
+- Kpi — `docs/brain/Kpi.md`
+- L-M-H CẤU TRÚC CỦA VẠN VẬT — `docs/brain/L-M-H CẤU TRÚC CỦA VẠN VẬT.md`
+- LDAP — `docs/brain/LDAP.md`
+- LOAD_MAP — `docs/brain/LOAD_MAP.md`
+- LOGIC_KERNEL — `docs/brain/LOGIC_KERNEL.md`
+- LOGIC__archive AMOS2 — `docs/brain/LOGIC__archive AMOS2.md`
+- LOGIC_root — `docs/brain/LOGIC_root.md`
+- LỜI NGUYỀN, MA THUẬT, TÂM LINH BẢN DỊCH CẤU TRÚC C — `docs/brain/LỜI NGUYỀN, MA THUẬT, TÂM LINH BẢN DỊCH CẤU TRÚC C.md`
+- LỚP HỌC AI CƠ BẢN — `docs/brain/LỚP HỌC AI CƠ BẢN.md`
+- LUẬN ÁN VỀ SỰ PHÂN LOẠI CẤU TRÚC CON NGƯỜI VÀ HẰNG — `docs/brain/LUẬN ÁN VỀ SỰ PHÂN LOẠI CẤU TRÚC CON NGƯỜI VÀ HẰNG.md`
+- LUẬN CHỨNG ĐỀ XUẤT HỖ TRỢ NHÀ NƯỚC — `docs/brain/LUẬN CHỨNG ĐỀ XUẤT HỖ TRỢ NHÀ NƯỚC.md`
+- Language Fractal Architecture — `docs/brain/Language Fractal Architecture.md`
+- Language — `docs/brain/Language.md`
+- Language_Overlay_And_IP_Protection — `docs/brain/Language_Overlay_And_IP_Protection.md`
+- Language_Overlay_And_IP_Protection_Security — `docs/brain/Language_Overlay_And_IP_Protection_Security.md`
+- Launch plan — `docs/brain/Launch plan.md`
+- Law 90 — The Rule of Four as Deterministic Symmetr — `docs/brain/Law 90 — The Rule of Four as Deterministic Symmetr.md`
+- Law of Law Rule of 2 Rule of 4 — `docs/brain/Law of Law Rule of 2 Rule of 4.md`
+- Le nha nho — `docs/brain/Le nha nho.md`
+- Leaders with Comparable Backgrounds and Values Lis — `docs/brain/Leaders with Comparable Backgrounds and Values Lis.md`
+- Leadership author — `docs/brain/Leadership author.md`
+- Legal_Engine_Model — `docs/brain/Legal_Engine_Model.md`
+- Linh Nguyen Xuan — `docs/brain/Linh Nguyen Xuan.md`
+- Living Atomic Design — A Strategic Framework for A — `docs/brain/Living Atomic Design — A Strategic Framework for A.md`
+- Living Stack - Cognitive Reef Architecture — `docs/brain/Living Stack - Cognitive Reef Architecture.md`
+- Llm — `docs/brain/Llm.md`
+- Logic as the Architecture of Human Reality — `docs/brain/Logic as the Architecture of Human Reality.md`
+- Logic rule — `docs/brain/Logic rule.md`
+- Logic — `docs/brain/Logic.md`
+- Long Mạch xuyên thời gian và văn minh — `docs/brain/Long Mạch xuyên thời gian và văn minh.md`
+- Long mach — `docs/brain/Long mach.md`
+- Love in Late-Stage Civilization — `docs/brain/Love in Late-Stage Civilization.md`
+- Love without safety is noise Safety without consis — `docs/brain/Love without safety is noise Safety without consis.md`
+- Luận giải “Thói quen kỳ quặc” của các thiên tài là — `docs/brain/Luận giải “Thói quen kỳ quặc” của các thiên tài là.md`
+- MAP CÁC HẰNG SỐ (π, e, φ, √2, 137, 432, 360…) VÀ L — `docs/brain/MAP CÁC HẰNG SỐ (π, e, φ, √2, 137, 432, 360…) VÀ L.md`
+- MBB_Consulting_Kernel — `docs/brain/MBB_Consulting_Kernel.md`
+- MEMORY_ARCHITECTURE — `docs/brain/MEMORY_ARCHITECTURE.md`
+- METHOD_DETECTION_ISSUES_RESOLUTION_MISSION_COMPLETE — `docs/brain/METHOD_DETECTION_ISSUES_RESOLUTION_MISSION_COMPLETE.md`
+- METHOD_SIGNATURE_ISSUES_RESOLUTION_MISSION_COMPLETE — `docs/brain/METHOD_SIGNATURE_ISSUES_RESOLUTION_MISSION_COMPLETE.md`
+- MICRO↔MACRO 100000 Years Civilization — `docs/brain/MICRO↔MACRO 100000 Years Civilization.md`
+- MOU — `docs/brain/MOU.md`
+- MÔ TẢ CÔNG VIỆC — `docs/brain/MÔ TẢ CÔNG VIỆC.md`
+- MÔ TẢ KỸ THUẬT VÀ CƠ SỞ VƯỢT TRỘI CỦA HỆ THỐNG AMO — `docs/brain/MÔ TẢ KỸ THUẬT VÀ CƠ SỞ VƯỢT TRỘI CỦA HỆ THỐNG AMO.md`
+- MVP Requirements — AI Roleplay Language Learning S — `docs/brain/MVP Requirements — AI Roleplay Language Learning S.md`
+- Magic — `docs/brain/Magic.md`
+- Making Planetary Consent Relatable — `docs/brain/Making Planetary Consent Relatable.md`
+- Map Compare — `docs/brain/Map Compare.md`
+- Map — `docs/brain/Map.md`
+- Mapped Taxonomy of Vietnamese Energetic Practition — `docs/brain/Mapped Taxonomy of Vietnamese Energetic Practition.md`
+- Master Non-Overlap Index v0 3 — `docs/brain/Master Non-Overlap Index v0 3.md`
+- Master Signal Spec — Genesis v1 0 (Proof‑of‑Signal — `docs/brain/Master Signal Spec — Genesis v1 0 (Proof‑of‑Signal.md`
+- Masterplan for the Global Signal Economy A Global — `docs/brain/Masterplan for the Global Signal Economy A Global.md`
+- Max boring max cash — `docs/brain/Max boring max cash.md`
+- Me — `docs/brain/Me.md`
+- Mechanical_Structural_Model — `docs/brain/Mechanical_Structural_Model.md`
+- Medical_Clinical_Kernel_vInfinity_SUPER — `docs/brain/Medical_Clinical_Kernel_vInfinity_SUPER.md`
+- Medical_Clinical_Model — `docs/brain/Medical_Clinical_Model.md`
+- Meeting Playbook™ — `docs/brain/Meeting Playbook™.md`
+- Memory — The Complete Human System — `docs/brain/Memory — The Complete Human System.md`
+- Meta-Laws Stability Equations Multi-Scale — `docs/brain/Meta-Laws Stability Equations Multi-Scale.md`
+- Metacognitive — `docs/brain/Metacognitive.md`
+- Migration_History — `docs/brain/Migration_History.md`
+- Military — `docs/brain/Military.md`
+- Mind_OS_Model — `docs/brain/Mind_OS_Model.md`
+- Moe — `docs/brain/Moe.md`
+- Money — `docs/brain/Money.md`
+- More — `docs/brain/More.md`
+- Mô hình cho thuê xe điện vận hành qua tài xế thuê — `docs/brain/Mô hình cho thuê xe điện vận hành qua tài xế thuê.md`
+- Mọi thực tại đều là Fractal Ánh sáng, Thời gian, Đ — `docs/brain/Mọi thực tại đều là Fractal Ánh sáng, Thời gian, Đ.md`
+- NĂNG LƯỢNG GIA HỆ CẤU TRÚC TÁI DIỄN CỦA DÒNG TỘC V — `docs/brain/NĂNG LƯỢNG GIA HỆ CẤU TRÚC TÁI DIỄN CỦA DÒNG TỘC V.md`
+- NĂNG LƯỢNG VÀ TRƯỜNG BẢN GIAO HƯỞNG THẦM LẶNG CỦA — `docs/brain/NĂNG LƯỢNG VÀ TRƯỜNG BẢN GIAO HƯỞNG THẦM LẶNG CỦA.md`
+- NEW PROCESS Transformation Framework — `docs/brain/NEW PROCESS Transformation Framework.md`
+- NEXT_GENERATION_SYSTEM_EVOLUTION_COMPLETE — `docs/brain/NEXT_GENERATION_SYSTEM_EVOLUTION_COMPLETE.md`
+- NEXT_HIGHEST_VALUE_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/NEXT_HIGHEST_VALUE_ENHANCEMENT_MISSION_COMPLETE.md`
+- NGHIÊN CỨU CHUYÊN SÂU TÍCH HỢP HÌNH HỌC KHÔNG GIAN — `docs/brain/NGHIÊN CỨU CHUYÊN SÂU TÍCH HỢP HÌNH HỌC KHÔNG GIAN.md`
+- NGÔN NGỮ - CÁCH HỌC — `docs/brain/NGÔN NGỮ - CÁCH HỌC.md`
+- NGƯỜI NGOÀI HÀNH TINH VÀ CÁC CÔNG TRÌNH CỔ ĐẠI KHÔ — `docs/brain/NGƯỜI NGOÀI HÀNH TINH VÀ CÁC CÔNG TRÌNH CỔ ĐẠI KHÔ.md`
+- NHẬP KHẨU ĐẦU KÉO EV & XE TẢI EV TRUNG QUỐC — `docs/brain/NHẬP KHẨU ĐẦU KÉO EV & XE TẢI EV TRUNG QUỐC.md`
+- NHỮNG CÁI TÊN THÀNH CÔNG NHẤT & TÀI SẢN RÒNG SPITI — `docs/brain/NHỮNG CÁI TÊN THÀNH CÔNG NHẤT & TÀI SẢN RÒNG SPITI.md`
+- NHỮNG GÌ CÒN THIẾU TRONG TRANG ∅ FRAMEWORK – VÀ CH — `docs/brain/NHỮNG GÌ CÒN THIẾU TRONG TRANG ∅ FRAMEWORK – VÀ CH.md`
+- Naming — `docs/brain/Naming.md`
+- Negotiating — `docs/brain/Negotiating.md`
+- Negotiation_Diplomacy_Kernel — `docs/brain/Negotiation_Diplomacy_Kernel.md`
+- Nervous_System_States — `docs/brain/Nervous_System_States.md`
+- NeuroSyncAI Business Plan — `docs/brain/NeuroSyncAI Business Plan.md`
+- NeuroSyncAI Deterministic Architecture — `docs/brain/NeuroSyncAI Deterministic Architecture.md`
+- NeuroSyncAI Deterministic vs Probabilistic — `docs/brain/NeuroSyncAI Deterministic vs Probabilistic.md`
+- NeuroSyncAI — `docs/brain/NeuroSyncAI.md`
+- NeuroSyncAI_Dual-System_Architecture_for_Biological_Recovery_and_Integrity_Enforcement — `docs/brain/NeuroSyncAI_Dual-System_Architecture_for_Biological_Recovery_and_Integrity_Enforcement.md`
+- NeuroSyncAI_as_Certifiable_Intelligence_Infrastructure — `docs/brain/NeuroSyncAI_as_Certifiable_Intelligence_Infrastructure.md`
+- NeuroSyncAI_vs_GenAI_The_Future_of_AI_Infrastructure_Is_Deterministic — `docs/brain/NeuroSyncAI_vs_GenAI_The_Future_of_AI_Infrastructure_Is_Deterministic.md`
+- NeuroSyncAI_x_AWS — `docs/brain/NeuroSyncAI_x_AWS.md`
+- NeuroSyncAI™ + GPT-5 The Deterministic Leap in Hum — `docs/brain/NeuroSyncAI™ + GPT-5 The Deterministic Leap in Hum.md`
+- NeuroSyncAI™ Smartwatch Low-Cost Predictive Bio-In — `docs/brain/NeuroSyncAI™ Smartwatch Low-Cost Predictive Bio-In.md`
+- NeuroSyncAI™ – The First Quantum-Aligned Intellige — `docs/brain/NeuroSyncAI™ – The First Quantum-Aligned Intellige.md`
+- Neuroplasticity Reframed Through Unified Biologica — `docs/brain/Neuroplasticity Reframed Through Unified Biologica.md`
+- Neurotransmitter Map — Complete Human System — `docs/brain/Neurotransmitter Map — Complete Human System.md`
+- New cide — `docs/brain/New cide.md`
+- New core — `docs/brain/New core.md`
+- New math — `docs/brain/New math.md`
+- New — `docs/brain/New.md`
+- New_Memory — `docs/brain/New_Memory.md`
+- Next — `docs/brain/Next.md`
+- Nền kinh tế toàn nhân loại — `docs/brain/Nền kinh tế toàn nhân loại.md`
+- Nếu đơn giản vậy, tại sao có con người, cái cây, c — `docs/brain/Nếu đơn giản vậy, tại sao có con người, cái cây, c.md`
+- Nghiên cứu khoa học về cấu trúc “tâm – vòng – chu — `docs/brain/Nghiên cứu khoa học về cấu trúc “tâm – vòng – chu.md`
+- Nguyên liệu phế thải — `docs/brain/Nguyên liệu phế thải.md`
+- Ngũ Nhãn Việt Nam — `docs/brain/Ngũ Nhãn Việt Nam.md`
+- Người Đông Sơn có tìm ra chìa khóa về tái sinh, và — `docs/brain/Người Đông Sơn có tìm ra chìa khóa về tái sinh, và.md`
+- Những sự thật về con người — `docs/brain/Những sự thật về con người.md`
+- Note_Title — `docs/brain/Note_Title.md`
+- Nuclear điện — `docs/brain/Nuclear điện.md`
+- Numerical_Methods_Model — `docs/brain/Numerical_Methods_Model.md`
+- OAuth--Exploiting_Vulnerabilities — `docs/brain/OAuth--Exploiting_Vulnerabilities.md`
+- OAuth--Grant_Types--Authorization_Code_Type — `docs/brain/OAuth--Grant_Types--Authorization_Code_Type.md`
+- OAuth--Grant_Types--Implicit_Type — `docs/brain/OAuth--Grant_Types--Implicit_Type.md`
+- OAuth--Grant_Types — `docs/brain/OAuth--Grant_Types.md`
+- OAuth--OpenID_Connect--Vulnerabilities — `docs/brain/OAuth--OpenID_Connect--Vulnerabilities.md`
+- OAuth--OpenID_Connect — `docs/brain/OAuth--OpenID_Connect.md`
+- OAuth--Prevention — `docs/brain/OAuth--Prevention.md`
+- OAuth — `docs/brain/OAuth.md`
+- OMEGA LEVEL – LÀM CHỦ TOÀN BỘ TRÒ CHƠI — `docs/brain/OMEGA LEVEL – LÀM CHỦ TOÀN BỘ TRÒ CHƠI.md`
+- OMIS_Coding_Engine_v1.4.0 — `docs/brain/OMIS_Coding_Engine_v1.4.0.md`
+- OMNIVERSAL_REALITY_CONSTRUCTION_COMPLETE — `docs/brain/OMNIVERSAL_REALITY_CONSTRUCTION_COMPLETE.md`
+- OS Process — `docs/brain/OS Process.md`
+- OS_Agent_Model — `docs/brain/OS_Agent_Model.md`
+- OS_Command_Inj--Blind_Injection — `docs/brain/OS_Command_Inj--Blind_Injection.md`
+- OS_Command_Inj--Ways_of_Inj — `docs/brain/OS_Command_Inj--Ways_of_Inj.md`
+- OS_Command_Inj — `docs/brain/OS_Command_Inj.md`
+- OS_Masterfile_Model — `docs/brain/OS_Masterfile_Model.md`
+- OUTPUT_PROTOCOL — `docs/brain/OUTPUT_PROTOCOL.md`
+- Open_Redirect — `docs/brain/Open_Redirect.md`
+- Operating Systems for Survival — `docs/brain/Operating Systems for Survival.md`
+- Operation cost — `docs/brain/Operation cost.md`
+- Operational Playbook — Signal Economy Rollout — `docs/brain/Operational Playbook — Signal Economy Rollout.md`
+- Operational_Risk_Kernel — `docs/brain/Operational_Risk_Kernel.md`
+- Operations_SupplyChain_Kernel — `docs/brain/Operations_SupplyChain_Kernel.md`
+- Operations_SupplyChain_Kernel_vInfinity_SUPER — `docs/brain/Operations_SupplyChain_Kernel_vInfinity_SUPER.md`
+- Org_Engine — `docs/brain/Org_Engine.md`
+- Org_Governance_Engine_vInfinity_v2.0.0 — `docs/brain/Org_Governance_Engine_vInfinity_v2.0.0.md`
+- Org_Governance_Kernel — `docs/brain/Org_Governance_Kernel.md`
+- Org_Governance_Kernel_vInfinity — `docs/brain/Org_Governance_Kernel_vInfinity.md`
+- Org_Governance_Model — `docs/brain/Org_Governance_Model.md`
+- Outreach Pack – UBS-Backed Gold Transaction & Stra — `docs/brain/Outreach Pack – UBS-Backed Gold Transaction & Stra.md`
+- PCIDSS — `docs/brain/PCIDSS.md`
+- PERFORMANCE_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/PERFORMANCE_ENHANCEMENT_MISSION_COMPLETE.md`
+- PHÂN CÔNG TRÁCH NHIỆM 10 HÀNH ĐỘNG TRIỂN KHAI GẤP — `docs/brain/PHÂN CÔNG TRÁCH NHIỆM 10 HÀNH ĐỘNG TRIỂN KHAI GẤP.md`
+- PHÂN TÍCH CHIẾN LƯỢC ĐA CHIỀU (TSS × TPE) — `docs/brain/PHÂN TÍCH CHIẾN LƯỢC ĐA CHIỀU (TSS × TPE).md`
+- PHÂN TÍCH TIẾNG VIỆT THEO LOGIC FRACTAL TẠI SAO NG — `docs/brain/PHÂN TÍCH TIẾNG VIỆT THEO LOGIC FRACTAL TẠI SAO NG.md`
+- PHẦN 1 SỰ THẬT VỀ ĐẠO ĐỨC NGƯỜI VIỆT – NHÌN THẲNG — `docs/brain/PHẦN 1 SỰ THẬT VỀ ĐẠO ĐỨC NGƯỜI VIỆT – NHÌN THẲNG.md`
+- PHẢN NGHIỆP – Sự thật về những cấu trúc cực đoan m — `docs/brain/PHẢN NGHIỆP – Sự thật về những cấu trúc cực đoan m.md`
+- PHƯƠNG PHÁP TÁI CẤU TRÚC NHẬN THỨC BẰNG VÒNG LẶP M — `docs/brain/PHƯƠNG PHÁP TÁI CẤU TRÚC NHẬN THỨC BẰNG VÒNG LẶP M.md`
+- PHƯƠNG PHÁP TRANG – TÁI CẤU TRÚC TOÀN BỘ — `docs/brain/PHƯƠNG PHÁP TRANG – TÁI CẤU TRÚC TOÀN BỘ.md`
+- PISync™ (Planetary Intelligence Synchrony™) – Offi — `docs/brain/PISync™ (Planetary Intelligence Synchrony™) – Offi.md`
+- PITM — `docs/brain/PITM.md`
+- PROFESSIONAL WORKING STANDARDS — `docs/brain/PROFESSIONAL WORKING STANDARDS.md`
+- PROVENANCE (AMOS_MD_BRAIN) — `docs/brain/PROVENANCE (AMOS_MD_BRAIN).md`
+- PROVENANCE_TOPOLOGY — `docs/brain/PROVENANCE_TOPOLOGY.md`
+- PSA Due Diligent - Not alive — `docs/brain/PSA Due Diligent - Not alive.md`
+- PSI Evaluation Nguyễn Xuân Minh — `docs/brain/PSI Evaluation Nguyễn Xuân Minh.md`
+- PSI Evaluation Tôn Nữ Xuân Quyên — `docs/brain/PSI Evaluation Tôn Nữ Xuân Quyên.md`
+- PSI Evaluation Trần Vũ Khánh Chi — `docs/brain/PSI Evaluation Trần Vũ Khánh Chi.md`
+- Partner due diligence — `docs/brain/Partner due diligence.md`
+- Partner list — `docs/brain/Partner list.md`
+- Partner — `docs/brain/Partner.md`
+- People — `docs/brain/People.md`
+- Personality_Engine_Model — `docs/brain/Personality_Engine_Model.md`
+- Phân tích VN — `docs/brain/Phân tích VN.md`
+- Phân tích tình hình Việt Nam và bối cảnh toàn cầu — `docs/brain/Phân tích tình hình Việt Nam và bối cảnh toàn cầu.md`
+- Phân tích đối thủ — `docs/brain/Phân tích đối thủ.md`
+- Phương án đánh giá hiệu quả đầu tư + dòng tiền 36 — `docs/brain/Phương án đánh giá hiệu quả đầu tư + dòng tiền 36.md`
+- Physics_Cosmos_Model — `docs/brain/Physics_Cosmos_Model.md`
+- Pipeline — `docs/brain/Pipeline.md`
+- Plan — `docs/brain/Plan.md`
+- Planetary Collapse Trigger Map (Decision-Grade) — `docs/brain/Planetary Collapse Trigger Map (Decision-Grade).md`
+- Planetary Consent Infrastructure - Investment Brief — `docs/brain/Planetary Consent Infrastructure - Investment Brief.md`
+- Planetary Consent Infrastructure - Investor Brief — `docs/brain/Planetary Consent Infrastructure - Investor Brief.md`
+- Planetary Scale Intelligence Recruitment Framework — `docs/brain/Planetary Scale Intelligence Recruitment Framework.md`
+- Planetary-Scale Intelligence (PSI) v2 Framework — `docs/brain/Planetary-Scale Intelligence (PSI) v2 Framework.md`
+- Planetary-Scale Intelligence Recruitment Framework — `docs/brain/Planetary-Scale Intelligence Recruitment Framework.md`
+- Planetary-Scale Intelligence Recruitment Trial Pod — `docs/brain/Planetary-Scale Intelligence Recruitment Trial Pod.md`
+- Planetary-Scale Intelligence™ (PSI) – Official Man — `docs/brain/Planetary-Scale Intelligence™ (PSI) – Official Man.md`
+- Plasma nano — `docs/brain/Plasma nano.md`
+- Plasma đốt hydrogen — `docs/brain/Plasma đốt hydrogen.md`
+- Policy_Geostrategy_Model — `docs/brain/Policy_Geostrategy_Model.md`
+- Politic — `docs/brain/Politic.md`
+- Portfolio — `docs/brain/Portfolio.md`
+- Pos replacement — `docs/brain/Pos replacement.md`
+- Possibility — `docs/brain/Possibility.md`
+- Postman — `docs/brain/Postman.md`
+- Potential partners — `docs/brain/Potential partners.md`
+- Pre civilisation — `docs/brain/Pre civilisation.md`
+- Prediction — `docs/brain/Prediction.md`
+- Primary Realistic Buyers — `docs/brain/Primary Realistic Buyers.md`
+- Principles of Ethical Intelligence™ — `docs/brain/Principles of Ethical Intelligence™.md`
+- Product ai — `docs/brain/Product ai.md`
+- Product — `docs/brain/Product.md`
+- Profile — `docs/brain/Profile.md`
+- Proving — `docs/brain/Proving.md`
+- Public Messaging - Making Consent Infrastructure Relatable — `docs/brain/Public Messaging - Making Consent Infrastructure Relatable.md`
+- Public messaging — `docs/brain/Public messaging.md`
+- Publishable Articles — `docs/brain/Publishable Articles.md`
+- Publishing platforms — `docs/brain/Publishing platforms.md`
+- Purpose-Shifting-from-why-to-how-20470 — `docs/brain/Purpose-Shifting-from-why-to-how-20470.md`
+- QUANTUM_COMPONENT_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/QUANTUM_COMPONENT_ENHANCEMENT_MISSION_COMPLETE.md`
+- QUANTUM_DIVINE_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/QUANTUM_DIVINE_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE.md`
+- QUANTUM_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/QUANTUM_ENHANCEMENT_MISSION_COMPLETE.md`
+- QUANTUM_SPEED_SYSTEMS_THINKING_MISSION_COMPLETE — `docs/brain/QUANTUM_SPEED_SYSTEMS_THINKING_MISSION_COMPLETE.md`
+- QUANTUM_SUPREMACY_INTEGRATION_COMPLETE — `docs/brain/QUANTUM_SUPREMACY_INTEGRATION_COMPLETE.md`
+- QUANTUM_SUPREME_COSMIC_TRANSCENDENCE_COMPLETE — `docs/brain/QUANTUM_SUPREME_COSMIC_TRANSCENDENCE_COMPLETE.md`
+- QUICK_REFERENCE — `docs/brain/QUICK_REFERENCE.md`
+- QUICK_TEST — `docs/brain/QUICK_TEST.md`
+- QUY TRÌNH NHẬP KHẨU 02 XE MẪU BAOJUN E6 NĂM 2025 — `docs/brain/QUY TRÌNH NHẬP KHẨU 02 XE MẪU BAOJUN E6 NĂM 2025.md`
+- QUYỀN LỢI BẢO HIỂM XE CƠ GIỚI TASCO — `docs/brain/QUYỀN LỢI BẢO HIỂM XE CƠ GIỚI TASCO.md`
+- Qls ecosystem — `docs/brain/Qls ecosystem.md`
+- Quang LLV — `docs/brain/Quang LLV.md`
+- Quantum Causality Layer Architecture™ (QCLA) – Off — `docs/brain/Quantum Causality Layer Architecture™ (QCLA) – Off.md`
+- Quantum Chemical Logic Architecture (QCLA) — `docs/brain/Quantum Chemical Logic Architecture (QCLA).md`
+- Quantum Integrity Stack™ The Law of Law and the Ar — `docs/brain/Quantum Integrity Stack™ The Law of Law and the Ar.md`
+- Quantum Integrity Stack™ — Funding Prospectus Summ — `docs/brain/Quantum Integrity Stack™ — Funding Prospectus Summ.md`
+- Quantum Logic Scaffold™ (QLS) – Official Manual — `docs/brain/Quantum Logic Scaffold™ (QLS) – Official Manual.md`
+- Quantum Logic Systems™ (QLS) Where Information Com — `docs/brain/Quantum Logic Systems™ (QLS) Where Information Com.md`
+- Quantum Logic System™ (QLS-System) – Official Manu — `docs/brain/Quantum Logic System™ (QLS-System) – Official Manu.md`
+- Quantum-Coherent Intelligence — `docs/brain/Quantum-Coherent Intelligence.md`
+- Quantum_Omega_Brain_Self_Analysis_7PT_Canon — `docs/brain/Quantum_Omega_Brain_Self_Analysis_7PT_Canon.md`
+- Quantum_Omega_Cognitive_Architecture_Overview — `docs/brain/Quantum_Omega_Cognitive_Architecture_Overview.md`
+- Quantum–Chemical Logic Architecture (QCLA) — `docs/brain/Quantum–Chemical Logic Architecture (QCLA).md`
+- Quy che gia tren app — `docs/brain/Quy che gia tren app.md`
+- README-Payload — `docs/brain/README-Payload.md`
+- REALITY GRAMMAR EQUATION v0 — `docs/brain/REALITY GRAMMAR EQUATION v0.md`
+- REALITY_TRANSCENDENCE_INTEGRATION_COMPLETE — `docs/brain/REALITY_TRANSCENDENCE_INTEGRATION_COMPLETE.md`
+- REGIME_FRESHNESS — `docs/brain/REGIME_FRESHNESS.md`
+- RELATION_TENSOR — `docs/brain/RELATION_TENSOR.md`
+- RELATION_TOPOLOGY — `docs/brain/RELATION_TOPOLOGY.md`
+- REPAIR_ROLLBACK — `docs/brain/REPAIR_ROLLBACK.md`
+- REPOSITORY_REASONING — `docs/brain/REPOSITORY_REASONING.md`
+- ROUTER (AMOS_MD_BRAIN) — `docs/brain/ROUTER (AMOS_MD_BRAIN).md`
+- RSCF (AMOS_MD_BRAIN) — `docs/brain/RSCF (AMOS_MD_BRAIN).md`
+- RSCF_PROOF_CAPSULE — `docs/brain/RSCF_PROOF_CAPSULE.md`
+- RSCF_STATE — `docs/brain/RSCF_STATE.md`
+- RUNTIME_LINEAGE — `docs/brain/RUNTIME_LINEAGE.md`
+- RUN_DEMO — `docs/brain/RUN_DEMO.md`
+- Random_Hacks — `docs/brain/Random_Hacks.md`
+- Random_Payloads — `docs/brain/Random_Payloads.md`
+- Read — `docs/brain/Read.md`
+- Reasoning kernel — `docs/brain/Reasoning kernel.md`
+- Reasoning_Kernel_Model — `docs/brain/Reasoning_Kernel_Model.md`
+- Redefining Logic — `docs/brain/Redefining Logic.md`
+- Redesigning Atomic Design Through Trang Phan’s Liv — `docs/brain/Redesigning Atomic Design Through Trang Phan’s Liv.md`
+- Reframing Mental Illness How Unified Biological In — `docs/brain/Reframing Mental Illness How Unified Biological In.md`
+- Report Vì sao Việt Nam là một trong những môi trườ — `docs/brain/Report Vì sao Việt Nam là một trong những môi trườ.md`
+- Report — `docs/brain/Report.md`
+- Research — `docs/brain/Research.md`
+- Resilience vs Control The Design Tradeoff That Dec — `docs/brain/Resilience vs Control The Design Tradeoff That Dec.md`
+- Resource Planning Matrix — `docs/brain/Resource Planning Matrix.md`
+- Reverse_Shell — `docs/brain/Reverse_Shell.md`
+- Risk Laundering Through Pricing — `docs/brain/Risk Laundering Through Pricing.md`
+- Risk_Compliance_Model — `docs/brain/Risk_Compliance_Model.md`
+- SAML — `docs/brain/SAML.md`
+- SENSITIVITY_FALSIFIERS — `docs/brain/SENSITIVITY_FALSIFIERS.md`
+- SKILL (adversarial-validation) — `docs/brain/SKILL (adversarial-validation).md`
+- SKILL (competing-hypotheses) — `docs/brain/SKILL (competing-hypotheses).md`
+- SKILL (context-governor) — `docs/brain/SKILL (context-governor).md`
+- SKILL (core-integrity) — `docs/brain/SKILL (core-integrity).md`
+- SKILL (evidence-acquisition) — `docs/brain/SKILL (evidence-acquisition).md`
+- SKILL (execution-validation) — `docs/brain/SKILL (execution-validation).md`
+- SKILL (fractal-state) — `docs/brain/SKILL (fractal-state).md`
+- SKILL (governed-evolution) — `docs/brain/SKILL (governed-evolution).md`
+- SKILL (provenance) — `docs/brain/SKILL (provenance).md`
+- SKILL (repository-acquisition) — `docs/brain/SKILL (repository-acquisition).md`
+- SKILL (rscf) — `docs/brain/SKILL (rscf).md`
+- SKILL (transaction-governor) — `docs/brain/SKILL (transaction-governor).md`
+- SOURCE_MODEL_BOUNDARY — `docs/brain/SOURCE_MODEL_BOUNDARY.md`
+- SỔ TAY HERITAGE ∅ — `docs/brain/SỔ TAY HERITAGE ∅.md`
+- SPEED — `docs/brain/SPEED.md`
+- SPEED_GOVERNOR — `docs/brain/SPEED_GOVERNOR.md`
+- SQL_Inj--Blind_SQL_inj — `docs/brain/SQL_Inj--Blind_SQL_inj.md`
+- SQL_Inj--Examine_DB — `docs/brain/SQL_Inj--Examine_DB.md`
+- SQL_Inj--Retrieving_Hidden_Data — `docs/brain/SQL_Inj--Retrieving_Hidden_Data.md`
+- SQL_Inj--Subverting_App — `docs/brain/SQL_Inj--Subverting_App.md`
+- SQL_Inj--UNION_attack — `docs/brain/SQL_Inj--UNION_attack.md`
+- SQL_Inj — `docs/brain/SQL_Inj.md`
+- SSH_Port_Forwarding — `docs/brain/SSH_Port_Forwarding.md`
+- SSRF--Blind_vulnerabilities — `docs/brain/SSRF--Blind_vulnerabilities.md`
+- SSRF--Cicumventing_common_defences — `docs/brain/SSRF--Cicumventing_common_defences.md`
+- SSRF--Common_Attacks — `docs/brain/SSRF--Common_Attacks.md`
+- SSRF--Targeting_auxiliary_systems — `docs/brain/SSRF--Targeting_auxiliary_systems.md`
+- SSRF — `docs/brain/SSRF.md`
+- SS_Template_Inj--Constructing_an_attack — `docs/brain/SS_Template_Inj--Constructing_an_attack.md`
+- SS_Template_Inj--Exploit — `docs/brain/SS_Template_Inj--Exploit.md`
+- SS_Template_Inj--Template_Syntax — `docs/brain/SS_Template_Inj--Template_Syntax.md`
+- SS_Template_Inj — `docs/brain/SS_Template_Inj.md`
+- STATIC_DYNAMIC_EVIDENCE — `docs/brain/STATIC_DYNAMIC_EVIDENCE.md`
+- STRATEGIC ANALYSIS REPORT — `docs/brain/STRATEGIC ANALYSIS REPORT.md`
+- SUPREME_QUANTUM_COSMIC_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/SUPREME_QUANTUM_COSMIC_ENHANCEMENT_MISSION_COMPLETE.md`
+- SYBIL_HARDENING — `docs/brain/SYBIL_HARDENING.md`
+- SYSTEM_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/SYSTEM_ENHANCEMENT_MISSION_COMPLETE.md`
+- SYSTEM_OPTIMIZATION_MISSION_COMPLETE — `docs/brain/SYSTEM_OPTIMIZATION_MISSION_COMPLETE.md`
+- SYSTEM_STATUS — `docs/brain/SYSTEM_STATUS.md`
+- Scanning — `docs/brain/Scanning.md`
+- Schizophrenia Structural Model — Complete Human System — `docs/brain/Schizophrenia Structural Model — Complete Human System.md`
+- Scientific_Engine_Model — `docs/brain/Scientific_Engine_Model.md`
+- Scientific_SUPER_Engine — `docs/brain/Scientific_SUPER_Engine.md`
+- Sector_Profile.json Regulation_and_Compliance.json Market_Structure.json Value_Chain.json Risk_and_Crisis.json Technology_and_Data.json Workforce_and_Skills.json Sustainability_and_ESG.json Ops_Models_and_Processes.json Integration_with_Economy_Pack — `docs/brain/Sector_Profile.json Regulation_and_Compliance.json Market_Structure.json Value_Chain.json Risk_and_Crisis.json Technology_and_Data.json Workforce_and_Skills.json Sustainability_and_ESG.json Ops_Models_and_Processes.json Integration_with_Economy_Pack.md`
+- Selfhood — `docs/brain/Selfhood.md`
+- Sell — `docs/brain/Sell.md`
+- Sellable — `docs/brain/Sellable.md`
+- Service Economy — `docs/brain/Service Economy.md`
+- Shell_Shock — `docs/brain/Shell_Shock.md`
+- Shortcuts — `docs/brain/Shortcuts.md`
+- Signal Economy — Full Masterplan v1 0 — `docs/brain/Signal Economy — Full Masterplan v1 0.md`
+- Signal_Processing_Model — `docs/brain/Signal_Processing_Model.md`
+- Signals — `docs/brain/Signals.md`
+- Site — `docs/brain/Site.md`
+- Small_Random_tips — `docs/brain/Small_Random_tips.md`
+- Society_Culture_Model — `docs/brain/Society_Culture_Model.md`
+- Software cancer — `docs/brain/Software cancer.md`
+- State Management on Anti-Counterfeiting in Vietnam — `docs/brain/State Management on Anti-Counterfeiting in Vietnam.md`
+- Strategic_Document_Model — `docs/brain/Strategic_Document_Model.md`
+- Strategic_Partnership_Proposal_to_GCBAT_(Neural_Tech_Council) — `docs/brain/Strategic_Partnership_Proposal_to_GCBAT_(Neural_Tech_Council).md`
+- Strategy_Game_Model — `docs/brain/Strategy_Game_Model.md`
+- Structural Behavioural Distribution Framework™ (SB — `docs/brain/Structural Behavioural Distribution Framework™ (SB.md`
+- Survey — `docs/brain/Survey.md`
+- Survival — `docs/brain/Survival.md`
+- Sustainability Failed the Moment It Stopped Center — `docs/brain/Sustainability Failed the Moment It Stopped Center.md`
+- System_Interfaces — `docs/brain/System_Interfaces.md`
+- System_Schema — `docs/brain/System_Schema.md`
+- TÀI LIỆU KIẾN TRÚC & SẢN PHẨM — `docs/brain/TÀI LIỆU KIẾN TRÚC & SẢN PHẨM.md`
+- TÀI LIỆU THIẾT KẾ KỸ THUẬT HỆ THỐNG AMOS–IKONOMY — `docs/brain/TÀI LIỆU THIẾT KẾ KỸ THUẬT HỆ THỐNG AMOS–IKONOMY.md`
+- TẠI SAO 10 – NGUỒN GỐC CỦA CON SỐ MƯỜI TRONG CASCA — `docs/brain/TẠI SAO 10 – NGUỒN GỐC CỦA CON SỐ MƯỜI TRONG CASCA.md`
+- TẠI SAO “NĂNG LƯỢNG – CHỮA LÀNH – SHAMAN” LẠI MẠNH — `docs/brain/TẠI SAO “NĂNG LƯỢNG – CHỮA LÀNH – SHAMAN” LẠI MẠNH.md`
+- TECH_SYSTEMS.Product_Management_Kernel — `docs/brain/TECH_SYSTEMS.Product_Management_Kernel.md`
+- TENSOR_CONTRACTS — `docs/brain/TENSOR_CONTRACTS.md`
+- TENSOR_REGISTRY — `docs/brain/TENSOR_REGISTRY.md`
+- THẤY RÕ, PHẨM GIÁ VÀ SỰ THẤT BẠI CỦA GIÁC NGỘ GIẢ — `docs/brain/THẤY RÕ, PHẨM GIÁ VÀ SỰ THẤT BẠI CỦA GIÁC NGỘ GIẢ.md`
+- THẠCH DỪA - NUÔI CẤY VI KHUẨN CELLULOSE — `docs/brain/THẠCH DỪA - NUÔI CẤY VI KHUẨN CELLULOSE.md`
+- THE 100 GREATEST HISTORICAL + SCIENTIFIC “UNANSWER — `docs/brain/THE 100 GREATEST HISTORICAL + SCIENTIFIC “UNANSWER.md`
+- THE ARCHITECTURE OF WAR AND PEACE — `docs/brain/THE ARCHITECTURE OF WAR AND PEACE.md`
+- THE ARCHITECTURE OF WAR — `docs/brain/THE ARCHITECTURE OF WAR.md`
+- THE FINAL TRUTH — `docs/brain/THE FINAL TRUTH.md`
+- THE LOGIC MODEL (FOUNDATION VERSION 1 0) — `docs/brain/THE LOGIC MODEL (FOUNDATION VERSION 1 0).md`
+- THE MAX-POWER UNIVERSE OS STRUCTURE — `docs/brain/THE MAX-POWER UNIVERSE OS STRUCTURE.md`
+- THE ORIGIN INTELLIGENCE STRATEGY — `docs/brain/THE ORIGIN INTELLIGENCE STRATEGY.md`
+- THE TRANG GRAND SYSTEM CODEX™ — `docs/brain/THE TRANG GRAND SYSTEM CODEX™.md`
+- THE TRANG GRAND SYSTEM — FULL LOGIC SPECIFICATION — `docs/brain/THE TRANG GRAND SYSTEM — FULL LOGIC SPECIFICATION.md`
+- THE TRANG SYSTEM™ CODEX – META-LAWS — `docs/brain/THE TRANG SYSTEM™ CODEX – META-LAWS.md`
+- THE_TRANG_SYSTEM_CODEX_META-LAWS — `docs/brain/THE_TRANG_SYSTEM_CODEX_META-LAWS.md`
+- THIẾT KẾ HỆ THỐNG AMOS-IKONOMY (PHẦN CỨNG + PHẦN M — `docs/brain/THIẾT KẾ HỆ THỐNG AMOS-IKONOMY (PHẦN CỨNG + PHẦN M.md`
+- THIẾT KẾ MÔ HÌNH MÔI GIỚI BẤT ĐỘNG SẢN — `docs/brain/THIẾT KẾ MÔ HÌNH MÔI GIỚI BẤT ĐỘNG SẢN.md`
+- THỊ TRƯỜNG SIÊU GIÀU TÂM LINH TOÀN CẦU — CON SỐ TH — `docs/brain/THỊ TRƯỜNG SIÊU GIÀU TÂM LINH TOÀN CẦU — CON SỐ TH.md`
+- THUYẾT TIẾN HÓA DARWIN — `docs/brain/THUYẾT TIẾN HÓA DARWIN.md`
+- TÌNH YÊU, HY VỌNG, VÀ SÓNG NÃO — `docs/brain/TÌNH YÊU, HY VỌNG, VÀ SÓNG NÃO.md`
+- TOÁN HỌC CỦA ĐẠO — `docs/brain/TOÁN HỌC CỦA ĐẠO.md`
+- TOKEN — `docs/brain/TOKEN.md`
+- TOKEN_GOVERNOR — `docs/brain/TOKEN_GOVERNOR.md`
+- TPE Trang Prediction Engine — `docs/brain/TPE Trang Prediction Engine.md`
+- TRANG ASEA (ADAPTIVE SELF-EVOLUTION AI) — `docs/brain/TRANG ASEA (ADAPTIVE SELF-EVOLUTION AI).md`
+- TRANG CASCADE — `docs/brain/TRANG CASCADE.md`
+- TRANG FPR (FIRST PRINCIPLE REASONING) — `docs/brain/TRANG FPR (FIRST PRINCIPLE REASONING).md`
+- TRANG FRAI (FRACTAL REASONING AI) — `docs/brain/TRANG FRAI (FRACTAL REASONING AI).md`
+- TRANG FRAMEWORKS — MASTER EQUATION REGISTRY — `docs/brain/TRANG FRAMEWORKS — MASTER EQUATION REGISTRY.md`
+- TRANG LACUNARITY (Λ) – ĐỘ RỖNG FRACTAL THEO TRANG — `docs/brain/TRANG LACUNARITY (Λ) – ĐỘ RỖNG FRACTAL THEO TRANG.md`
+- TRANG LDAI (LOGICALLY DETERMINISTIC ARTIFICIAL INT — `docs/brain/TRANG LDAI (LOGICALLY DETERMINISTIC ARTIFICIAL INT.md`
+- TRANG TÁT 2 — `docs/brain/TRANG TÁT 2.md`
+- TRANG ∅ FRAMEWORK - COMPLETE FORMALIZATION — `docs/brain/TRANG ∅ FRAMEWORK - COMPLETE FORMALIZATION.md`
+- TRANG ∅ FRAMEWORK – HERITAGE ∅ BẢN ĐỒ TOÀN CẢNH NH — `docs/brain/TRANG ∅ FRAMEWORK – HERITAGE ∅ BẢN ĐỒ TOÀN CẢNH NH.md`
+- TRANG ∅ FRAMEWORK – ỨNG DỤNG VÀO AI TỰ SỬA VÀ TỰ T — `docs/brain/TRANG ∅ FRAMEWORK – ỨNG DỤNG VÀO AI TỰ SỬA VÀ TỰ T.md`
+- TRANG ∅ FRAMEWORK — `docs/brain/TRANG ∅ FRAMEWORK.md`
+- TRANSACTION_PROTOCOL — `docs/brain/TRANSACTION_PROTOCOL.md`
+- TRỐNG ĐỒNG ĐÔNG SƠN SỰ KẾT HỢP HOÀN HẢO GIỮA VŨ TR — `docs/brain/TRỐNG ĐỒNG ĐÔNG SƠN SỰ KẾT HỢP HOÀN HẢO GIỮA VŨ TR.md`
+- TSS The Trang System Official Manual — `docs/brain/TSS The Trang System Official Manual.md`
+- TỪ HỐ ĐEN ĐẾN UNG THƯ BẢN GIAO HƯỞNG CỦA SỰ TÁI DI — `docs/brain/TỪ HỐ ĐEN ĐẾN UNG THƯ BẢN GIAO HƯỞNG CỦA SỰ TÁI DI.md`
+- Tam the — `docs/brain/Tam the.md`
+- Tam — `docs/brain/Tam.md`
+- Teamspace Home — `docs/brain/Teamspace Home.md`
+- Tech Engine__Archive — `docs/brain/Tech Engine__Archive.md`
+- Tech Engine_root — `docs/brain/Tech Engine_root.md`
+- Tech Partner Audit — `docs/brain/Tech Partner Audit.md`
+- Tech_Architecture_Model — `docs/brain/Tech_Architecture_Model.md`
+- Tech_Expanded_Design_Model — `docs/brain/Tech_Expanded_Design_Model.md`
+- Tech_Quantum_Engine_Model — `docs/brain/Tech_Quantum_Engine_Model.md`
+- Tech_SUPER_Engine — `docs/brain/Tech_SUPER_Engine.md`
+- Temporal Logic Reconstruction™ — `docs/brain/Temporal Logic Reconstruction™.md`
+- Test — `docs/brain/Test.md`
+- The 4 Pillars of Empire — A Universal Governance L — `docs/brain/The 4 Pillars of Empire — A Universal Governance L.md`
+- The Architecture Beneath Science Why Experiments A — `docs/brain/The Architecture Beneath Science Why Experiments A.md`
+- The Architecture of Intelligence and Perception — — `docs/brain/The Architecture of Intelligence and Perception —.md`
+- The Architecture of Okay — `docs/brain/The Architecture of Okay.md`
+- The Biology of Illusion — How Logic Constructs Per — `docs/brain/The Biology of Illusion — How Logic Constructs Per.md`
+- The Case for Space — If Earth Comes First — `docs/brain/The Case for Space — If Earth Comes First.md`
+- The Centralised Trust Ecosystem — `docs/brain/The Centralised Trust Ecosystem.md`
+- The Coercion Economy — `docs/brain/The Coercion Economy.md`
+- The Cost of “Acceptable Harm” — `docs/brain/The Cost of “Acceptable Harm”.md`
+- The Deterministic Illusion — Why All Intelligence — `docs/brain/The Deterministic Illusion — Why All Intelligence.md`
+- The Deterministic Organisation — Governance, Intel — `docs/brain/The Deterministic Organisation — Governance, Intel.md`
+- The Difference Between Responsibility and Accounta — `docs/brain/The Difference Between Responsibility and Accounta.md`
+- The Equation e = i² — Official Manual — `docs/brain/The Equation e = i² — Official Manual.md`
+- The Illusion of Choice in Modern Systems — `docs/brain/The Illusion of Choice in Modern Systems.md`
+- The Illusion of “Cheap” EVs — `docs/brain/The Illusion of “Cheap” EVs.md`
+- The Institutional Digital Security Bound — `docs/brain/The Institutional Digital Security Bound.md`
+- The Law of Law™, The Rule of 2™, and The Rule of 4 — `docs/brain/The Law of Law™, The Rule of 2™, and The Rule of 4.md`
+- The Living Stack_ A Comprehensive Scientific Architecture Thesis (Expanded) — `docs/brain/The Living Stack_ A Comprehensive Scientific Architecture Thesis (Expanded).md`
+- The Living State Monetisation Thesis_ A New Economic Paradigm — `docs/brain/The Living State Monetisation Thesis_ A New Economic Paradigm.md`
+- The Mathematics of the Dao — `docs/brain/The Mathematics of the Dao.md`
+- The Monetization of Mental Illness Was Not an Acci — `docs/brain/The Monetization of Mental Illness Was Not an Acci.md`
+- The Nervous System of the Universe Rebuilding the — `docs/brain/The Nervous System of the Universe Rebuilding the.md`
+- The Oldest Successful Society — `docs/brain/The Oldest Successful Society.md`
+- The Origin of Logic A Redefinition of Reasoning as — `docs/brain/The Origin of Logic A Redefinition of Reasoning as.md`
+- The Right to Leave No Trace at Planetary Scale — `docs/brain/The Right to Leave No Trace at Planetary Scale.md`
+- The Right to Refuse — `docs/brain/The Right to Refuse.md`
+- The Science of Astrology, Numerology & Physiognomy — `docs/brain/The Science of Astrology, Numerology & Physiognomy.md`
+- The Seven Cycles of the Trang System™ – Official M — `docs/brain/The Seven Cycles of the Trang System™ – Official M.md`
+- The Signal Economy and Planetary Consent Infrastru — `docs/brain/The Signal Economy and Planetary Consent Infrastru.md`
+- The Signal Economy – Investor Pitch — `docs/brain/The Signal Economy – Investor Pitch.md`
+- The Talent Ledger Measuring Human Ability with Met — `docs/brain/The Talent Ledger Measuring Human Ability with Met.md`
+- The Three-Layer Architecture of Consciousness — `docs/brain/The Three-Layer Architecture of Consciousness.md`
+- The Trang Prediction Engine™ (TPE) – Official Manu — `docs/brain/The Trang Prediction Engine™ (TPE) – Official Manu.md`
+- The Trang System™ (TSS) – Official Manual — `docs/brain/The Trang System™ (TSS) – Official Manual.md`
+- The Void — Ego Dissolution Model — `docs/brain/The Void — Ego Dissolution Model.md`
+- The_Art_of_Peace_Ending_All_Human_Suffering_Through_Unified_Biological_Intelligence — `docs/brain/The_Art_of_Peace_Ending_All_Human_Suffering_Through_Unified_Biological_Intelligence.md`
+- The_Biological_Science_Behind_Buddhas_Teachings — `docs/brain/The_Biological_Science_Behind_Buddhas_Teachings.md`
+- The_Seven_Cycles_of_the_Trang_System_Official_Manual_Comprehensive_Edition_ — `docs/brain/The_Seven_Cycles_of_the_Trang_System_Official_Manual_Comprehensive_Edition_.md`
+- The_Vietnamese_Root_Language_System_Origin_Biological_Significance_and_Quantum_Linguistic_Infrastructure — `docs/brain/The_Vietnamese_Root_Language_System_Origin_Biological_Significance_and_Quantum_Linguistic_Infrastructure.md`
+- Theoretical and Practical Foundations of State Man — `docs/brain/Theoretical and Practical Foundations of State Man.md`
+- Thicc_App — `docs/brain/Thicc_App.md`
+- Thiết kế “AMOS-IKONOMY — `docs/brain/Thiết kế “AMOS-IKONOMY.md`
+- Thị trường Việt Nam biến động ở bề mặt – nhưng có — `docs/brain/Thị trường Việt Nam biến động ở bề mặt – nhưng có.md`
+- Thị trường trạm sạc Australia — `docs/brain/Thị trường trạm sạc Australia.md`
+- Thủ cho Baojun E6 vào Việt Nam — `docs/brain/Thủ cho Baojun E6 vào Việt Nam.md`
+- Thực tại — `docs/brain/Thực tại.md`
+- Tính toán — `docs/brain/Tính toán.md`
+- To Do — `docs/brain/To Do.md`
+- To write — `docs/brain/To write.md`
+- Toan co — `docs/brain/Toan co.md`
+- Toàn cảnh thị trường event concert festival tại Vi — `docs/brain/Toàn cảnh thị trường event concert festival tại Vi.md`
+- Toàn học của Đạo Khi cổ học vượt trước lượng tử — `docs/brain/Toàn học của Đạo Khi cổ học vượt trước lượng tử.md`
+- Tool Routing Failure Model — `docs/brain/Tool Routing Failure Model.md`
+- Tools — `docs/brain/Tools.md`
+- Top-Tier Strategic Partners List — `docs/brain/Top-Tier Strategic Partners List.md`
+- Total_Technical_Engine_Model — `docs/brain/Total_Technical_Engine_Model.md`
+- Tổng quan Thị trường – Gọi xe công nghệ tại Việt N — `docs/brain/Tổng quan Thị trường – Gọi xe công nghệ tại Việt N.md`
+- Trang Reality Architecture AMOS Corpus — `docs/brain/Trang Reality Architecture AMOS Corpus.md`
+- Trang Reality Architecture — `docs/brain/Trang Reality Architecture.md`
+- Trangs Legacy — `docs/brain/Trangs Legacy.md`
+- Transforming Biological Data into Perceptive Intel — `docs/brain/Transforming Biological Data into Perceptive Intel.md`
+- Trust as Biological Currency — `docs/brain/Trust as Biological Currency.md`
+- Try AI meeting notes@April 6, 2026 10 05 AM — `docs/brain/Try AI meeting notes@April 6, 2026 10 05 AM.md`
+- Tuning — `docs/brain/Tuning.md`
+- Tunnels & Enclosed Transit Systems Smoke Is the Pr — `docs/brain/Tunnels & Enclosed Transit Systems Smoke Is the Pr.md`
+- Type of signals — `docs/brain/Type of signals.md`
+- U — `docs/brain/U.md`
+- U3H Atemporal Field ATF — `docs/brain/U3H Atemporal Field ATF.md`
+- UBI Infrastructure - Biological Foundation — `docs/brain/UBI Infrastructure - Biological Foundation.md`
+- UBI OMNIS™ — GLOBAL BIOLOGICAL FORECASTING INFRAST — `docs/brain/UBI OMNIS™ — GLOBAL BIOLOGICAL FORECASTING INFRAST.md`
+- UBI Official Manual — `docs/brain/UBI Official Manual.md`
+- UBI Omnis™ Hệ Điều Hành Dự Báo Sinh Học — `docs/brain/UBI Omnis™ Hệ Điều Hành Dự Báo Sinh Học.md`
+- UBI vs AI - Biological vs Data-Driven — `docs/brain/UBI vs AI - Biological vs Data-Driven.md`
+- UBI → Fractal Architecture → Entropy Correction → — `docs/brain/UBI → Fractal Architecture → Entropy Correction →.md`
+- UBI_Equations — `docs/brain/UBI_Equations.md`
+- UBI_Law_Families — `docs/brain/UBI_Law_Families.md`
+- UBI_Operators — `docs/brain/UBI_Operators.md`
+- UBS-Backed Gold Transaction → Audited Impact (One- — `docs/brain/UBS-Backed Gold Transaction → Audited Impact (One-.md`
+- UBS-Backed SKR Gold Transaction — Investor Deck — `docs/brain/UBS-Backed SKR Gold Transaction — Investor Deck.md`
+- ULTIMATE_COSMIC_INTEGRATION_COMPLETE — `docs/brain/ULTIMATE_COSMIC_INTEGRATION_COMPLETE.md`
+- ULTIMATE_COSMIC_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/ULTIMATE_COSMIC_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE.md`
+- ULTIMATE_DIVINE_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/ULTIMATE_DIVINE_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE.md`
+- ULTIMATE_QUANTUM_COSMIC_COMPLETION_MISSION_COMPLETE — `docs/brain/ULTIMATE_QUANTUM_COSMIC_COMPLETION_MISSION_COMPLETE.md`
+- ULTIMATE_QUANTUM_COSMIC_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/ULTIMATE_QUANTUM_COSMIC_ENHANCEMENT_MISSION_COMPLETE.md`
+- ULTIMATE_QUANTUM_DIVINE_FUSION_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/ULTIMATE_QUANTUM_DIVINE_FUSION_ENHANCEMENT_MISSION_COMPLETE.md`
+- ULTIMATE_QUANTUM_DIVINE_REALITY_MATRIX_CONSTRUCTION_COMPLETE — `docs/brain/ULTIMATE_QUANTUM_DIVINE_REALITY_MATRIX_CONSTRUCTION_COMPLETE.md`
+- ULTIMATE_QUANTUM_DIVINE_SYNTHESIS_COMPLETE — `docs/brain/ULTIMATE_QUANTUM_DIVINE_SYNTHESIS_COMPLETE.md`
+- ULTIMATE_QUANTUM_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/ULTIMATE_QUANTUM_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE.md`
+- ULTIMATE_SYSTEM_TRANSCENDENCE_COMPLETE — `docs/brain/ULTIMATE_SYSTEM_TRANSCENDENCE_COMPLETE.md`
+- ULTIMATE_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/ULTIMATE_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE.md`
+- UNCERTAINTY_VECTOR — `docs/brain/UNCERTAINTY_VECTOR.md`
+- UNI CARE PACKAGE™ – GÓI BẢO HIỂM TOÀN DIỆN CHO TÀI — `docs/brain/UNI CARE PACKAGE™ – GÓI BẢO HIỂM TOÀN DIỆN CHO TÀI.md`
+- UNI POWER STRATEGIC GOVERNANCE & OPERATING MODEL — `docs/brain/UNI POWER STRATEGIC GOVERNANCE & OPERATING MODEL.md`
+- UNI POWER – AI TOOLKIT & PROMPT LIBRARY (2025) — `docs/brain/UNI POWER – AI TOOLKIT & PROMPT LIBRARY (2025).md`
+- UNIFIED ACHIEVEMENT SUMMARY — `docs/brain/UNIFIED ACHIEVEMENT SUMMARY.md`
+- UNIFIED ORGANIZATIONAL SYSTEMS ENGINE™ — `docs/brain/UNIFIED ORGANIZATIONAL SYSTEMS ENGINE™.md`
+- UNIPOWER_R_OS — `docs/brain/UNIPOWER_R_OS.md`
+- UNIVERSAL_FIELD_MODEL — `docs/brain/UNIVERSAL_FIELD_MODEL.md`
+- UNIVERSE_BRAIN_SUPER_ENGINE_vInfinity_FULL — `docs/brain/UNIVERSE_BRAIN_SUPER_ENGINE_vInfinity_FULL.md`
+- UNIVERSE_OS_CONTENT_PACK_ALL.ucontent — `docs/brain/UNIVERSE_OS_CONTENT_PACK_ALL.ucontent.md`
+- UNIVERSE_OS_CONTENT_PACK_ALL_COMPRESSED.ucontent — `docs/brain/UNIVERSE_OS_CONTENT_PACK_ALL_COMPRESSED.ucontent.md`
+- Ubi — `docs/brain/Ubi.md`
+- UniPower The Everyday Mobility + Lifestyle Platfor — `docs/brain/UniPower The Everyday Mobility + Lifestyle Platfor.md`
+- UniPower_SUPER_AI_OS — `docs/brain/UniPower_SUPER_AI_OS.md`
+- UniPower_Tech_Design_MetaBrain — `docs/brain/UniPower_Tech_Design_MetaBrain.md`
+- UniPower_UniTaxi_MECE — `docs/brain/UniPower_UniTaxi_MECE.md`
+- UniPower_UniTaxi_MECE_X1000 — `docs/brain/UniPower_UniTaxi_MECE_X1000.md`
+- UniPower_UniTaxi_X10000_Full_IOS — `docs/brain/UniPower_UniTaxi_X10000_Full_IOS.md`
+- UniPower_UniTaxi_X5000 — `docs/brain/UniPower_UniTaxi_X5000.md`
+- UniTaxi_FullEcosystem — `docs/brain/UniTaxi_FullEcosystem.md`
+- UniTaxi_X200_Training — `docs/brain/UniTaxi_X200_Training.md`
+- UniTaxi_X300_RoleExtended — `docs/brain/UniTaxi_X300_RoleExtended.md`
+- UniTaxi_X500_FullEcosystem — `docs/brain/UniTaxi_X500_FullEcosystem.md`
+- Uni_Market_Logistics_Model — `docs/brain/Uni_Market_Logistics_Model.md`
+- Unified Biological Intelligence™ (UBI) – Official — `docs/brain/Unified Biological Intelligence™ (UBI) – Official.md`
+- Unified Coherence Protocol™ (UCP) – Official Manua — `docs/brain/Unified Coherence Protocol™ (UCP) – Official Manua.md`
+- Unified Legacy Framework™ (ULF) – Official Manual — `docs/brain/Unified Legacy Framework™ (ULF) – Official Manual.md`
+- Unified_Biological_Intelligence_(UBI)_A_New_Infrastructure_for_Intelligence — `docs/brain/Unified_Biological_Intelligence_(UBI)_A_New_Infrastructure_for_Intelligence.md`
+- Unified_Biological_Intelligence_Diagrams — `docs/brain/Unified_Biological_Intelligence_Diagrams.md`
+- Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence — `docs/brain/Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence.md`
+- Unified_Coding_Engine_vInfinity_v1.6.0 — `docs/brain/Unified_Coding_Engine_vInfinity_v1.6.0.md`
+- Unitech — `docs/brain/Unitech.md`
+- Universal Reasoning Framework™ (URF™) — `docs/brain/Universal Reasoning Framework™ (URF™).md`
+- Universe — `docs/brain/Universe.md`
+- Universe_Total_Canon_utc — `docs/brain/Universe_Total_Canon_utc.md`
+- Unix--Automated_Tools — `docs/brain/Unix--Automated_Tools.md`
+- Unix--Commands — `docs/brain/Unix--Commands.md`
+- Unix--Databases — `docs/brain/Unix--Databases.md`
+- Unix--Kernel_Exploits — `docs/brain/Unix--Kernel_Exploits.md`
+- Unix--Passwords_and_file_permissions — `docs/brain/Unix--Passwords_and_file_permissions.md`
+- Unix--Permissions — `docs/brain/Unix--Permissions.md`
+- Unix--Priv_Esc — `docs/brain/Unix--Priv_Esc.md`
+- Unix--Random_Facts — `docs/brain/Unix--Random_Facts.md`
+- Unix--Things_to_Try — `docs/brain/Unix--Things_to_Try.md`
+- Unknown — `docs/brain/Unknown.md`
+- Untitled 62ec-176a (Export-964e18f0-f757-4d5c-ae82-64742b44639a 2) — `docs/brain/Untitled 62ec-176a (Export-964e18f0-f757-4d5c-ae82-64742b44639a 2).md`
+- Untitled 62ec-176a — `docs/brain/Untitled 62ec-176a.md`
+- Untitled b48c-7a41 (Export-964e18f0-f757-4d5c-ae82-64742b44639a 2) — `docs/brain/Untitled b48c-7a41 (Export-964e18f0-f757-4d5c-ae82-64742b44639a 2).md`
+- Untitled — `docs/brain/Untitled.md`
+- Usdt — `docs/brain/Usdt.md`
+- ỨNG DỤNG PHƯƠNG PHÁP TRANG TRONG ĐIỀU TRỊ RỐI LOẠN — `docs/brain/ỨNG DỤNG PHƯƠNG PHÁP TRANG TRONG ĐIỀU TRỊ RỐI LOẠN.md`
+- Ứng dụng Khung Độ Phức Tạp (Complexity Framework) — `docs/brain/Ứng dụng Khung Độ Phức Tạp (Complexity Framework).md`
+- V11 - Planetary Consent Infrastructure_ Complete Technical Framework — `docs/brain/V11 - Planetary Consent Infrastructure_ Complete Technical Framework.md`
+- V3_2_1 — `docs/brain/V3_2_1.md`
+- V3_4_1 — `docs/brain/V3_4_1.md`
+- V3_7_1 — `docs/brain/V3_7_1.md`
+- V3_8 — `docs/brain/V3_8.md`
+- V3_9_PERSISTENT_PROVENANCE — `docs/brain/V3_9_PERSISTENT_PROVENANCE.md`
+- V4_0_MVCC_CAS — `docs/brain/V4_0_MVCC_CAS.md`
+- V4_1_ATOMIC_MULTI_RSCF — `docs/brain/V4_1_ATOMIC_MULTI_RSCF.md`
+- V4_2_CAUSAL_EPOCH — `docs/brain/V4_2_CAUSAL_EPOCH.md`
+- V4_3_SHARD_LOCAL_FINALIZATION — `docs/brain/V4_3_SHARD_LOCAL_FINALIZATION.md`
+- V4_4_COORDINATION_AVOIDANCE — `docs/brain/V4_4_COORDINATION_AVOIDANCE.md`
+- VARIABLE_REGISTRY — `docs/brain/VARIABLE_REGISTRY.md`
+- VĂN BẢN CỔ CÓ MÃ HÓA SỰ XUẤT HIỆN CỦA MỘT NGƯỜI BẰ — `docs/brain/VĂN BẢN CỔ CÓ MÃ HÓA SỰ XUẤT HIỆN CỦA MỘT NGƯỜI BẰ.md`
+- VĂN MINH SÔNG HỒNG — `docs/brain/VĂN MINH SÔNG HỒNG.md`
+- VIETNAMESE Executive Summary 19x19 AMOS — `docs/brain/VIETNAMESE Executive Summary 19x19 AMOS.md`
+- VN_Country — `docs/brain/VN_Country.md`
+- VN_Driver_Charging_Logistics_SUPER_Engine_x100k — `docs/brain/VN_Driver_Charging_Logistics_SUPER_Engine_x100k.md`
+- VN_Driver_Charging_SUPER_Engine_vInfinity_clean — `docs/brain/VN_Driver_Charging_SUPER_Engine_vInfinity_clean.md`
+- VN_Legal_Engine_MAX_Standard — `docs/brain/VN_Legal_Engine_MAX_Standard.md`
+- VN_Legal_Engine_vInfinity — `docs/brain/VN_Legal_Engine_vInfinity.md`
+- VN_Legal_MAX — `docs/brain/VN_Legal_MAX.md`
+- VN_Legal_MAX_Unipower — `docs/brain/VN_Legal_MAX_Unipower.md`
+- VN_Legal_MAX_Unipower4 — `docs/brain/VN_Legal_MAX_Unipower4.md`
+- VN_OMNISTRUCTURE.txt_root — `docs/brain/VN_OMNISTRUCTURE.txt_root.md`
+- VN_OMNISTRUCTURE_FULL — `docs/brain/VN_OMNISTRUCTURE_FULL.md`
+- VN_Omnistructure_Model — `docs/brain/VN_Omnistructure_Model.md`
+- Value proposition — `docs/brain/Value proposition.md`
+- Văn minh nước Đông Nam Á Đọc lại bằng thước đo sin — `docs/brain/Văn minh nước Đông Nam Á Đọc lại bằng thước đo sin.md`
+- Văn minh xuyên loài Đọc lại thế giới bằng cấu trúc — `docs/brain/Văn minh xuyên loài Đọc lại thế giới bằng cấu trúc.md`
+- Vietnam_Omnistructure_Program — `docs/brain/Vietnam_Omnistructure_Program.md`
+- Vietnamese Creativity from Rốt to Future bài bao tieng anh — `docs/brain/Vietnamese Creativity from Rốt to Future bài bao tieng anh.md`
+- Vietnamese Root Language System — `docs/brain/Vietnamese Root Language System.md`
+- Vietnamese — `docs/brain/Vietnamese.md`
+- Vietnamese_Writing_Model — `docs/brain/Vietnamese_Writing_Model.md`
+- Vietnam’s EV Charging Crisis Unplanned Load, Mispl — `docs/brain/Vietnam’s EV Charging Crisis Unplanned Load, Mispl.md`
+- Vì Sao Tôn Giáo Thất Bại Trong Việc Bảo Tồn Cái Th — `docs/brain/Vì Sao Tôn Giáo Thất Bại Trong Việc Bảo Tồn Cái Th.md`
+- Vn articles — `docs/brain/Vn articles.md`
+- Vn more — `docs/brain/Vn more.md`
+- Vomni_Kernel_Model — `docs/brain/Vomni_Kernel_Model.md`
+- WHITEPAPER VỀ TRƯỜNG THỌ SINH HỌC QLS–ABI™ — `docs/brain/WHITEPAPER VỀ TRƯỜNG THỌ SINH HỌC QLS–ABI™.md`
+- WORKING_DEMO — `docs/brain/WORKING_DEMO.md`
+- WORKING_MEMORY — `docs/brain/WORKING_MEMORY.md`
+- We Dream of Mars to Avoid Earth — `docs/brain/We Dream of Mars to Avoid Earth.md`
+- Web_Cache_Posioning--Construction — `docs/brain/Web_Cache_Posioning--Construction.md`
+- Web_Cache_Posioning--Exploiting_Implementation_Flaws — `docs/brain/Web_Cache_Posioning--Exploiting_Implementation_Flaws.md`
+- Web_Cache_Posioning--Exploiting_design_flaws — `docs/brain/Web_Cache_Posioning--Exploiting_design_flaws.md`
+- Web_Cache_Posioning--Web_Cache — `docs/brain/Web_Cache_Posioning--Web_Cache.md`
+- Web_Cache_Posioning — `docs/brain/Web_Cache_Posioning.md`
+- Web_Sockets--Manipulate_Traffic — `docs/brain/Web_Sockets--Manipulate_Traffic.md`
+- Web_Sockets--What_is_it — `docs/brain/Web_Sockets--What_is_it.md`
+- Web_Sockets--XS_WS_Hijacking — `docs/brain/Web_Sockets--XS_WS_Hijacking.md`
+- Web_Sockets — `docs/brain/Web_Sockets.md`
+- Welcome — `docs/brain/Welcome.md`
+- What Are We Selling — `docs/brain/What Are We Selling.md`
+- What can it read — `docs/brain/What can it read.md`
+- What i built — `docs/brain/What i built.md`
+- When Humanity Truly Began — and the Horizon Scienc — `docs/brain/When Humanity Truly Began — and the Horizon Scienc.md`
+- When Humanity Truly Began — `docs/brain/When Humanity Truly Began.md`
+- When Leadership Ignores Biology, Systems Collapse — `docs/brain/When Leadership Ignores Biology, Systems Collapse.md`
+- When Mental Health Became a Market — and What We L — `docs/brain/When Mental Health Became a Market — and What We L.md`
+- When Safety Mechanisms Corrupt Intelligence — `docs/brain/When Safety Mechanisms Corrupt Intelligence.md`
+- When Therapy Becomes Social Control — `docs/brain/When Therapy Becomes Social Control.md`
+- Whitepaper Human Aging, Gerontology Research, and — `docs/brain/Whitepaper Human Aging, Gerontology Research, and.md`
+- Who Pays for Peak EV Load — and Why It Matters — `docs/brain/Who Pays for Peak EV Load — and Why It Matters.md`
+- Who Pays for Peak Load — and Why It Is Structurall — `docs/brain/Who Pays for Peak Load — and Why It Is Structurall.md`
+- Why BCI Raises the Standard for Safety to Near-Zer — `docs/brain/Why BCI Raises the Standard for Safety to Near-Zer.md`
+- Why China Is Flooded With Unused EVs — and Why Vie — `docs/brain/Why China Is Flooded With Unused EVs — and Why Vie.md`
+- Why Cities Will Ban Ungoverned Storage Before They — `docs/brain/Why Cities Will Ban Ungoverned Storage Before They.md`
+- Why Civilization Always Fails at the Energy Transi — `docs/brain/Why Civilization Always Fails at the Energy Transi.md`
+- Why Decision Infrastructure is the Next Civilisati — `docs/brain/Why Decision Infrastructure is the Next Civilisati.md`
+- Why Energy Justice Cannot Be Priced — `docs/brain/Why Energy Justice Cannot Be Priced.md`
+- Why Ethical Intelligence™ Is Mandatory in Life-Cri — `docs/brain/Why Ethical Intelligence™ Is Mandatory in Life-Cri.md`
+- Why Governance Collapses When It Ignores Human Bio — `docs/brain/Why Governance Collapses When It Ignores Human Bio.md`
+- Why Grids Collapse Politically Before They Collaps — `docs/brain/Why Grids Collapse Politically Before They Collaps.md`
+- Why Hydrogen Is Safer Than What We Use Today — `docs/brain/Why Hydrogen Is Safer Than What We Use Today.md`
+- Why Hydrogen Terrifies Weak Institutions — `docs/brain/Why Hydrogen Terrifies Weak Institutions.md`
+- Why Institutions That Look Strong Fail First — `docs/brain/Why Institutions That Look Strong Fail First.md`
+- Why KPI-, Speed-, and “Innovation”-Driven Systems — `docs/brain/Why KPI-, Speed-, and “Innovation”-Driven Systems.md`
+- Why Large Language Models Cause Harm — And Why Thi — `docs/brain/Why Large Language Models Cause Harm — And Why Thi.md`
+- Why Metrics Lie About Reality — `docs/brain/Why Metrics Lie About Reality.md`
+- Why Modern Education Fights Human Biology — `docs/brain/Why Modern Education Fights Human Biology.md`
+- Why Much of Earth Remains Unexplored — and Why Ene — `docs/brain/Why Much of Earth Remains Unexplored — and Why Ene.md`
+- Why Nui Cam May Be a Planetary Energy Node — `docs/brain/Why Nui Cam May Be a Planetary Energy Node.md`
+- Why Presence Is the New Pollution — `docs/brain/Why Presence Is the New Pollution.md`
+- Why Solar Is More Expensive Than It Is Advertised — `docs/brain/Why Solar Is More Expensive Than It Is Advertised.md`
+- Why Some Technologies Are Safe Only in Honest Soci — `docs/brain/Why Some Technologies Are Safe Only in Honest Soci.md`
+- Why Speed Is a Moral Decision — `docs/brain/Why Speed Is a Moral Decision.md`
+- Why Trust Is Infrastructure — `docs/brain/Why Trust Is Infrastructure.md`
+- Why “Mindset” Is Often a Weapon — `docs/brain/Why “Mindset” Is Often a Weapon.md`
+- X — `docs/brain/X.md`
+- XPRIZE Water Scarcity — `docs/brain/XPRIZE Water Scarcity.md`
+- XSS--CSP — `docs/brain/XSS--CSP.md`
+- XSS--Contexts — `docs/brain/XSS--Contexts.md`
+- XSS--DOM--Sinks — `docs/brain/XSS--DOM--Sinks.md`
+- XSS--DOM--Things_to_Try — `docs/brain/XSS--DOM--Things_to_Try.md`
+- XSS--DOM — `docs/brain/XSS--DOM.md`
+- XSS--Reflected--Things_to_Try — `docs/brain/XSS--Reflected--Things_to_Try.md`
+- XSS--Reflected — `docs/brain/XSS--Reflected.md`
+- XSS--Stored--Things_to_Try — `docs/brain/XSS--Stored--Things_to_Try.md`
+- XSS--Stored — `docs/brain/XSS--Stored.md`
+- XSS--Things_to_Try — `docs/brain/XSS--Things_to_Try.md`
+- XSS — `docs/brain/XSS.md`
+- XSS_Via_EXIF_Data — `docs/brain/XSS_Via_EXIF_Data.md`
+- XXE--Blind_XXE — `docs/brain/XXE--Blind_XXE.md`
+- XXE--Find_hidden_attack_surface — `docs/brain/XXE--Find_hidden_attack_surface.md`
+- XXE--Retrieve_Files — `docs/brain/XXE--Retrieve_Files.md`
+- XXE--SSRF_Attack — `docs/brain/XXE--SSRF_Attack.md`
+- XXE — `docs/brain/XXE.md`
+- YÊU CẦU ĐỐI VỚI LÁI XE KHI THAM GIA BẢO HIỂM NHÂN — `docs/brain/YÊU CẦU ĐỐI VỚI LÁI XE KHI THAM GIA BẢO HIỂM NHÂN.md`
+- Yes — there are a few modern individuals who, like — `docs/brain/Yes — there are a few modern individuals who, like.md`
+- Ý THỨC, TIỀM THỨC, NHẬN THỨC — `docs/brain/Ý THỨC, TIỀM THỨC, NHẬN THỨC.md`
+- _AMOS_Total Technical Engine — `docs/brain/_AMOS_Total Technical Engine.md`
+- _patch_7pt_notes — `docs/brain/_patch_7pt_notes.md`
+- _rscf_tag_migrate — `docs/brain/_rscf_tag_migrate.md`
+- _Đông Sơn — `docs/brain/_Đông Sơn.md`
+- absolut human — `docs/brain/absolut human.md`
+- absolute_transcendent_synthesis_20260219_214228 — `docs/brain/absolute_transcendent_synthesis_20260219_214228.md`
+- absolute_vn_100000_registry_analysis_report — `docs/brain/absolute_vn_100000_registry_analysis_report.md`
+- accounts_kernel — `docs/brain/accounts_kernel.md`
+- activate_strongest_brain — `docs/brain/activate_strongest_brain.md`
+- activation — `docs/brain/activation.md`
+- advanced_governance_report — `docs/brain/advanced_governance_report.md`
+- agi_tensor_field_analysis_20260301_082901 — `docs/brain/agi_tensor_field_analysis_20260301_082901.md`
+- ai_architecture_factory_v2 — `docs/brain/ai_architecture_factory_v2.md`
+- ai_architecture_factory_v2_ontology (hierarchical_ai_architecture_generator) — `docs/brain/ai_architecture_factory_v2_ontology (hierarchical_ai_architecture_generator).md`
+- ai_architecture_factory_v2_ontology — `docs/brain/ai_architecture_factory_v2_ontology.md`
+- ai_entropy_architecture 2 — `docs/brain/ai_entropy_architecture 2.md`
+- ai_equation_architecture_25000 — `docs/brain/ai_equation_architecture_25000.md`
+- ai_equation_architecture_dataset 2 — `docs/brain/ai_equation_architecture_dataset 2.md`
+- ai_governance_stack — `docs/brain/ai_governance_stack.md`
+- ai_non_overlap_batch4 — `docs/brain/ai_non_overlap_batch4.md`
+- ai_non_overlap_batch5 — `docs/brain/ai_non_overlap_batch5.md`
+- all_domain_fractal_architecture_master_25000 — `docs/brain/all_domain_fractal_architecture_master_25000.md`
+- amos os definition — `docs/brain/amos os definition.md`
+- amos-21-domain-agent — `docs/brain/amos-21-domain-agent.md`
+- amos-7-intelligents — `docs/brain/amos-7-intelligents.md`
+- amos-absolute-human-layer — `docs/brain/amos-absolute-human-layer.md`
+- amos-absolute-logic-layer — `docs/brain/amos-absolute-logic-layer.md`
+- amos-absolute-omniverse-layer — `docs/brain/amos-absolute-omniverse-layer.md`
+- amos-absolute-vn-omnistructure-clean-engine — `docs/brain/amos-absolute-vn-omnistructure-clean-engine.md`
+- amos-absolute-vn-omnistructure-pack — `docs/brain/amos-absolute-vn-omnistructure-pack.md`
+- amos-academic-writing-kernel — `docs/brain/amos-academic-writing-kernel.md`
+- amos-analogy-abstraction-kernel — `docs/brain/amos-analogy-abstraction-kernel.md`
+- amos-audit-quality-engine — `docs/brain/amos-audit-quality-engine.md`
+- amos-audit-quality-kernel — `docs/brain/amos-audit-quality-kernel.md`
+- amos-australia-engine-layer — `docs/brain/amos-australia-engine-layer.md`
+- amos-automation-engine-layer — `docs/brain/amos-automation-engine-layer.md`
+- amos-automation-profiles — `docs/brain/amos-automation-profiles.md`
+- amos-behavioral-economics-kernel — `docs/brain/amos-behavioral-economics-kernel.md`
+- amos-biology-cognition-layer — `docs/brain/amos-biology-cognition-layer.md`
+- amos-bizfin-kernel — `docs/brain/amos-bizfin-kernel.md`
+- amos-bod-engine-layer — `docs/brain/amos-bod-engine-layer.md`
+- amos-brain-operating-config — `docs/brain/amos-brain-operating-config.md`
+- amos-brain-operating-manual — `docs/brain/amos-brain-operating-manual.md`
+- amos-canon-integration-layer — `docs/brain/amos-canon-integration-layer.md`
+- amos-china-engine-layer — `docs/brain/amos-china-engine-layer.md`
+- amos-coding-engine-layer — `docs/brain/amos-coding-engine-layer.md`
+- amos-cognition-engine-layer — `docs/brain/amos-cognition-engine-layer.md`
+- amos-cognitive-compression-kernel — `docs/brain/amos-cognitive-compression-kernel.md`
+- amos-cognitive-engines — `docs/brain/amos-cognitive-engines.md`
+- amos-cognitive-stack — `docs/brain/amos-cognitive-stack.md`
+- amos-competing-hypotheses — `docs/brain/amos-competing-hypotheses.md`
+- amos-consciousness-engine-layer — `docs/brain/amos-consciousness-engine-layer.md`
+- amos-control-systems-kernel — `docs/brain/amos-control-systems-kernel.md`
+- amos-core-brain-os-engines — `docs/brain/amos-core-brain-os-engines.md`
+- amos-core-reasoning — `docs/brain/amos-core-reasoning.md`
+- amos-counterfactual-reasoning-kernel — `docs/brain/amos-counterfactual-reasoning-kernel.md`
+- amos-decision-reasoning-filter — `docs/brain/amos-decision-reasoning-filter.md`
+- amos-design-engine-layer — `docs/brain/amos-design-engine-layer.md`
+- amos-design-language-engine-layer — `docs/brain/amos-design-language-engine-layer.md`
+- amos-designer-os-profiles — `docs/brain/amos-designer-os-profiles.md`
+- amos-deterministic-logic-law-layer — `docs/brain/amos-deterministic-logic-law-layer.md`
+- amos-documentation-engine-layer — `docs/brain/amos-documentation-engine-layer.md`
+- amos-domains-engines — `docs/brain/amos-domains-engines.md`
+- amos-econ-finance-engine-layer — `docs/brain/amos-econ-finance-engine-layer.md`
+- amos-electrical-power-engine-layer — `docs/brain/amos-electrical-power-engine-layer.md`
+- amos-emotion-engine-layer — `docs/brain/amos-emotion-engine-layer.md`
+- amos-emotion-engine — `docs/brain/amos-emotion-engine.md`
+- amos-engine-models — `docs/brain/amos-engine-models.md`
+- amos-engineering-mathematics-layer — `docs/brain/amos-engineering-mathematics-layer.md`
+- amos-ethical-reasoning-kernel — `docs/brain/amos-ethical-reasoning-kernel.md`
+- amos-ev-kernel-layer — `docs/brain/amos-ev-kernel-layer.md`
+- amos-extractive-economy-layer — `docs/brain/amos-extractive-economy-layer.md`
+- amos-fabrication-engine — `docs/brain/amos-fabrication-engine.md`
+- amos-fractal-routing — `docs/brain/amos-fractal-routing.md`
+- amos-full-brain-os-architecture — `docs/brain/amos-full-brain-os-architecture.md`
+- amos-global-legal-engine-layer — `docs/brain/amos-global-legal-engine-layer.md`
+- amos-go-board-19x19 — `docs/brain/amos-go-board-19x19.md`
+- amos-governance-economy-layer — `docs/brain/amos-governance-economy-layer.md`
+- amos-governed-evolution — `docs/brain/amos-governed-evolution.md`
+- amos-grand-cannon-mobility-layer — `docs/brain/amos-grand-cannon-mobility-layer.md`
+- amos-hr-talent-kernel — `docs/brain/amos-hr-talent-kernel.md`
+- amos-hse-ceo-engine-layer — `docs/brain/amos-hse-ceo-engine-layer.md`
+- amos-human-interaction-engine-layer — `docs/brain/amos-human-interaction-engine-layer.md`
+- amos-human-systems-engine-layer — `docs/brain/amos-human-systems-engine-layer.md`
+- amos-kernels-biology-cognition — `docs/brain/amos-kernels-biology-cognition.md`
+- amos-kernels-governance-risk — `docs/brain/amos-kernels-governance-risk.md`
+- amos-kernels-logic — `docs/brain/amos-kernels-logic.md`
+- amos-kernels-tech — `docs/brain/amos-kernels-tech.md`
+- amos-knowledge-gap-scan — `docs/brain/amos-knowledge-gap-scan.md`
+- amos-legal-engine-layer — `docs/brain/amos-legal-engine-layer.md`
+- amos-logic-core-engine — `docs/brain/amos-logic-core-engine.md`
+- amos-market-econ-kernel — `docs/brain/amos-market-econ-kernel.md`
+- amos-marketing-gtm-kernel — `docs/brain/amos-marketing-gtm-kernel.md`
+- amos-mbb-consulting-kernel — `docs/brain/amos-mbb-consulting-kernel.md`
+- amos-mechanical-structural-engine-layer — `docs/brain/amos-mechanical-structural-engine-layer.md`
+- amos-medical-clinical-kernel-layer — `docs/brain/amos-medical-clinical-kernel-layer.md`
+- amos-medical-clinical — `docs/brain/amos-medical-clinical.md`
+- amos-memory-optimization-kernel — `docs/brain/amos-memory-optimization-kernel.md`
+- amos-memory-reconstruction-rscf — `docs/brain/amos-memory-reconstruction-rscf.md`
+- amos-meta-epistemology-kernel — `docs/brain/amos-meta-epistemology-kernel.md`
+- amos-meta-logic-kernel — `docs/brain/amos-meta-logic-kernel.md`
+- amos-meta-ontology-kernel — `docs/brain/amos-meta-ontology-kernel.md`
+- amos-multi-agent-coordination-kernel — `docs/brain/amos-multi-agent-coordination-kernel.md`
+- amos-multi-perspective-reasoning-kernel — `docs/brain/amos-multi-perspective-reasoning-kernel.md`
+- amos-negotiation-diplomacy-kernel — `docs/brain/amos-negotiation-diplomacy-kernel.md`
+- amos-new-troy-research — `docs/brain/amos-new-troy-research.md`
+- amos-npm-enotempty-recovery — `docs/brain/amos-npm-enotempty-recovery.md`
+- amos-numerical-methods-engine-layer — `docs/brain/amos-numerical-methods-engine-layer.md`
+- amos-operations-supplychain-kernel — `docs/brain/amos-operations-supplychain-kernel.md`
+- amos-org-governance-engine-layer — `docs/brain/amos-org-governance-engine-layer.md`
+- amos-organizational-behavior-kernel — `docs/brain/amos-organizational-behavior-kernel.md`
+- amos-os-agent-layer — `docs/brain/amos-os-agent-layer.md`
+- amos-os-masterfile-layer — `docs/brain/amos-os-masterfile-layer.md`
+- amos-packs-country-sector-universe — `docs/brain/amos-packs-country-sector-universe.md`
+- amos-personality-engine-layer — `docs/brain/amos-personality-engine-layer.md`
+- amos-physics-cosmos-engine-layer — `docs/brain/amos-physics-cosmos-engine-layer.md`
+- amos-policy-geostrategy-engine-layer — `docs/brain/amos-policy-geostrategy-engine-layer.md`
+- amos-policy-geostrategy-kernel — `docs/brain/amos-policy-geostrategy-kernel.md`
+- amos-political-dynamics-kernel — `docs/brain/amos-political-dynamics-kernel.md`
+- amos-prediction-forecasting-kernel — `docs/brain/amos-prediction-forecasting-kernel.md`
+- amos-probability-statistics-kernel — `docs/brain/amos-probability-statistics-kernel.md`
+- amos-product-strategy-kernel — `docs/brain/amos-product-strategy-kernel.md`
+- amos-provenance-trust — `docs/brain/amos-provenance-trust.md`
+- amos-psychology-decision-kernel — `docs/brain/amos-psychology-decision-kernel.md`
+- amos-readme-sector-pack — `docs/brain/amos-readme-sector-pack.md`
+- amos-reasoning-kernel-layer — `docs/brain/amos-reasoning-kernel-layer.md`
+- amos-reinforcement-learning-analysis-kernel — `docs/brain/amos-reinforcement-learning-analysis-kernel.md`
+- amos-risk-compliance-engine-layer — `docs/brain/amos-risk-compliance-engine-layer.md`
+- amos-rscf-claims — `docs/brain/amos-rscf-claims.md`
+- amos-sales-kernel — `docs/brain/amos-sales-kernel.md`
+- amos-scientific-engine-layer — `docs/brain/amos-scientific-engine-layer.md`
+- amos-sector-definition-pack — `docs/brain/amos-sector-definition-pack.md`
+- amos-sector-economics-pack — `docs/brain/amos-sector-economics-pack.md`
+- amos-sector-regulations-pack — `docs/brain/amos-sector-regulations-pack.md`
+- amos-sector-technology-pack — `docs/brain/amos-sector-technology-pack.md`
+- amos-sector-value-chain-pack — `docs/brain/amos-sector-value-chain-pack.md`
+- amos-self-review-loop — `docs/brain/amos-self-review-loop.md`
+- amos-signal-processing-layer — `docs/brain/amos-signal-processing-layer.md`
+- amos-simulation-kernel — `docs/brain/amos-simulation-kernel.md`
+- amos-skill-dependency-graph — `docs/brain/amos-skill-dependency-graph.md`
+- amos-society-culture-layer — `docs/brain/amos-society-culture-layer.md`
+- amos-species-interaction — `docs/brain/amos-species-interaction.md`
+- amos-speed-engine — `docs/brain/amos-speed-engine.md`
+- amos-speed-token-governor — `docs/brain/amos-speed-token-governor.md`
+- amos-strategic-document-engine-layer — `docs/brain/amos-strategic-document-engine-layer.md`
+- amos-strategy-game-layer — `docs/brain/amos-strategy-game-layer.md`
+- amos-super-mind-os-layer — `docs/brain/amos-super-mind-os-layer.md`
+- amos-systems-core-engine — `docs/brain/amos-systems-core-engine.md`
+- amos-tech-architecture-kernel-layer — `docs/brain/amos-tech-architecture-kernel-layer.md`
+- amos-tech-expanded-design-layer — `docs/brain/amos-tech-expanded-design-layer.md`
+- amos-tech-quantum-engine-layer — `docs/brain/amos-tech-quantum-engine-layer.md`
+- amos-total-technical-engine-layer — `docs/brain/amos-total-technical-engine-layer.md`
+- amos-uni-ai-intelligence-layer — `docs/brain/amos-uni-ai-intelligence-layer.md`
+- amos-uni-market-logistics-layer — `docs/brain/amos-uni-market-logistics-layer.md`
+- amos-uni-system-operations-layer — `docs/brain/amos-uni-system-operations-layer.md`
+- amos-unipower-engines — `docs/brain/amos-unipower-engines.md`
+- amos-unnamed-kernel — `docs/brain/amos-unnamed-kernel.md`
+- amos-v21-integration — `docs/brain/amos-v21-integration.md`
+- amos-vietnam-engine-layer — `docs/brain/amos-vietnam-engine-layer.md`
+- amos-vn-omnistructure-layer — `docs/brain/amos-vn-omnistructure-layer.md`
+- amos-vomni-kernel-layer — `docs/brain/amos-vomni-kernel-layer.md`
+- amos_brain_absolute_final_solution — `docs/brain/amos_brain_absolute_final_solution.md`
+- amos_brain_advanced_fixer — `docs/brain/amos_brain_advanced_fixer.md`
+- amos_brain_advanced_manual_fix_system — `docs/brain/amos_brain_advanced_manual_fix_system.md`
+- amos_brain_advanced_optimizer — `docs/brain/amos_brain_advanced_optimizer.md`
+- amos_brain_analysis_report — `docs/brain/amos_brain_analysis_report.md`
+- amos_brain_cbdc_integration_analysis — `docs/brain/amos_brain_cbdc_integration_analysis.md`
+- amos_brain_continuous_execution_v2 — `docs/brain/amos_brain_continuous_execution_v2.md`
+- amos_brain_continuous_manual_fix_system — `docs/brain/amos_brain_continuous_manual_fix_system.md`
+- amos_brain_critical_intervention — `docs/brain/amos_brain_critical_intervention.md`
+- amos_brain_emergency_crusher — `docs/brain/amos_brain_emergency_crusher.md`
+- amos_brain_final_optimized — `docs/brain/amos_brain_final_optimized.md`
+- amos_brain_final_optimizer — `docs/brain/amos_brain_final_optimizer.md`
+- amos_brain_final_solution — `docs/brain/amos_brain_final_solution.md`
+- amos_brain_final_status — `docs/brain/amos_brain_final_status.md`
+- amos_brain_final_status_report — `docs/brain/amos_brain_final_status_report.md`
+- amos_brain_folder_law_enforcer — `docs/brain/amos_brain_folder_law_enforcer.md`
+- amos_brain_governor — `docs/brain/amos_brain_governor.md`
+- amos_brain_governor_enhanced — `docs/brain/amos_brain_governor_enhanced.md`
+- amos_brain_governor_phase_c — `docs/brain/amos_brain_governor_phase_c.md`
+- amos_brain_instant_crusher — `docs/brain/amos_brain_instant_crusher.md`
+- amos_brain_manual_fix_execution — `docs/brain/amos_brain_manual_fix_execution.md`
+- amos_brain_manual_fix_executor — `docs/brain/amos_brain_manual_fix_executor.md`
+- amos_brain_max_enhanced — `docs/brain/amos_brain_max_enhanced.md`
+- amos_brain_optimized — `docs/brain/amos_brain_optimized.md`
+- amos_brain_performance_fix — `docs/brain/amos_brain_performance_fix.md`
+- amos_brain_performance_optimizer — `docs/brain/amos_brain_performance_optimizer.md`
+- amos_brain_quantum_solution — `docs/brain/amos_brain_quantum_solution.md`
+- amos_brain_rapid_fix — `docs/brain/amos_brain_rapid_fix.md`
+- amos_brain_status — `docs/brain/amos_brain_status.md`
+- amos_brain_supreme_continuation — `docs/brain/amos_brain_supreme_continuation.md`
+- amos_brain_supreme_crusher — `docs/brain/amos_brain_supreme_crusher.md`
+- amos_brain_supreme_final_solution — `docs/brain/amos_brain_supreme_final_solution.md`
+- amos_brain_supreme_operational — `docs/brain/amos_brain_supreme_operational.md`
+- amos_brain_supreme_status — `docs/brain/amos_brain_supreme_status.md`
+- amos_brain_syntax_resolver — `docs/brain/amos_brain_syntax_resolver.md`
+- amos_brain_system_enhancer — `docs/brain/amos_brain_system_enhancer.md`
+- amos_brain_ultimate_destroyer — `docs/brain/amos_brain_ultimate_destroyer.md`
+- amos_brain_ultimate_final_solution — `docs/brain/amos_brain_ultimate_final_solution.md`
+- amos_brain_ultimate_manual_fix_system — `docs/brain/amos_brain_ultimate_manual_fix_system.md`
+- amos_brain_variant_merger — `docs/brain/amos_brain_variant_merger.md`
+- amos_consulting_amos_invest_amos_canon_tech_engine — `docs/brain/amos_consulting_amos_invest_amos_canon_tech_engine.md`
+- amos_continuation_engine — `docs/brain/amos_continuation_engine.md`
+- amos_continuation_results — `docs/brain/amos_continuation_results.md`
+- amos_conversation_snapshot — `docs/brain/amos_conversation_snapshot.md`
+- amos_full_architecture_complete_form — `docs/brain/amos_full_architecture_complete_form.md`
+- amos_immune_audit_report — `docs/brain/amos_immune_audit_report.md`
+- amos_immune_auditor — `docs/brain/amos_immune_auditor.md`
+- amos_immune_auditor_fixed — `docs/brain/amos_immune_auditor_fixed.md`
+- amos_modes — `docs/brain/amos_modes.md`
+- amos_omega_bridge_api — `docs/brain/amos_omega_bridge_api.md`
+- amos_omega_chart_engine — `docs/brain/amos_omega_chart_engine.md`
+- amos_omega_fx_engine — `docs/brain/amos_omega_fx_engine.md`
+- amos_omega_launcher — `docs/brain/amos_omega_launcher.md`
+- amos_omega_n8n_workflows — `docs/brain/amos_omega_n8n_workflows.md`
+- amos_omega_ultimate_integration — `docs/brain/amos_omega_ultimate_integration.md`
+- amos_performance_optimizer — `docs/brain/amos_performance_optimizer.md`
+- amos_phase_d_consolidation — `docs/brain/amos_phase_d_consolidation.md`
+- amos_phase_d_consolidation_plan — `docs/brain/amos_phase_d_consolidation_plan.md`
+- amos_phase_d_execution — `docs/brain/amos_phase_d_execution.md`
+- amos_phase_d_execution_log — `docs/brain/amos_phase_d_execution_log.md`
+- amos_phase_d_execution_results — `docs/brain/amos_phase_d_execution_results.md`
+- amos_phase_d_execution_summary — `docs/brain/amos_phase_d_execution_summary.md`
+- amos_phase_d_results — `docs/brain/amos_phase_d_results.md`
+- amos_phase_d_summary — `docs/brain/amos_phase_d_summary.md`
+- amos_resource_monitor — `docs/brain/amos_resource_monitor.md`
+- amos_setup_mega — `docs/brain/amos_setup_mega.md`
+- amos_state — `docs/brain/amos_state.md`
+- amos_supreme_continuation_report — `docs/brain/amos_supreme_continuation_report.md`
+- ancient_math_architecture — `docs/brain/ancient_math_architecture.md`
+- architecture_ontology — `docs/brain/architecture_ontology.md`
+- arrayterator — `docs/brain/arrayterator.md`
+- audit_quality_engine_v0 — `docs/brain/audit_quality_engine_v0.md`
+- automation_profiles — `docs/brain/automation_profiles.md`
+- b32a7b01-5632-450a-a935-2ded537ff5fe_The_Seven_Cycles_of_the_Trang_System__Official_Manual_(Comprehensive_Edition) — `docs/brain/b32a7b01-5632-450a-a935-2ded537ff5fe_The_Seven_Cycles_of_the_Trang_System__Official_Manual_(Comprehensive_Edition).md`
+- back track mapping — `docs/brain/back track mapping.md`
+- backlink — `docs/brain/backlink.md`
+- bang sang che — `docs/brain/bang sang che.md`
+- base_sector_engine — `docs/brain/base_sector_engine.md`
+- benchmark-claims — `docs/brain/benchmark-claims.md`
+- bizfin_engine_v0 — `docs/brain/bizfin_engine_v0.md`
+- blood_flow_response_operator — `docs/brain/blood_flow_response_operator.md`
+- brain-architecture-audit — `docs/brain/brain-architecture-audit.md`
+- brain-consistency-audit — `docs/brain/brain-consistency-audit.md`
+- brain_master_os_v0 — `docs/brain/brain_master_os_v0.md`
+- brain_v2 — `docs/brain/brain_v2.md`
+- britishCommunication — `docs/brain/britishCommunication.md`
+- canonical_body_registry — `docs/brain/canonical_body_registry.md`
+- cash — `docs/brain/cash.md`
+- cashflow_engine — `docs/brain/cashflow_engine.md`
+- cau_tai_cau_van_duoi_nguyen_ly_fractal_l_m_h_va — `docs/brain/cau_tai_cau_van_duoi_nguyen_ly_fractal_l_m_h_va.md`
+- causal — `docs/brain/causal.md`
+- cc982116-f9b3-4fa5-b9ea-31fa41b20f73_Redefining_Logic — `docs/brain/cc982116-f9b3-4fa5-b9ea-31fa41b20f73_Redefining_Logic.md`
+- cheap dien — `docs/brain/cheap dien.md`
+- chemistry_architecture — `docs/brain/chemistry_architecture.md`
+- chiêm tinh — `docs/brain/chiêm tinh.md`
+- cli — `docs/brain/cli.md`
+- code_task — `docs/brain/code_task.md`
+- coding_programming_architecture — `docs/brain/coding_programming_architecture.md`
+- cognition_ai_architecture — `docs/brain/cognition_ai_architecture.md`
+- compliance_engine — `docs/brain/compliance_engine.md`
+- compliance_kernel — `docs/brain/compliance_kernel.md`
+- compressed_data_loader — `docs/brain/compressed_data_loader.md`
+- computer turning — `docs/brain/computer turning.md`
+- configuration_loader — `docs/brain/configuration_loader.md`
+- connection_logs — `docs/brain/connection_logs.md`
+- consciousness_engine_v0 — `docs/brain/consciousness_engine_v0.md`
+- consulting_engine — `docs/brain/consulting_engine.md`
+- contract_engine — `docs/brain/contract_engine.md`
+- copilot-instructions (.github) — `docs/brain/copilot-instructions (.github).md`
+- copilot-instructions (.github_1) — `docs/brain/copilot-instructions (.github_1).md`
+- copilot-instructions (.github_2) — `docs/brain/copilot-instructions (.github_2).md`
+- copilot-instructions — `docs/brain/copilot-instructions.md`
+- core-plugins — `docs/brain/core-plugins.md`
+- cosmo-obsidian-memory — `docs/brain/cosmo-obsidian-memory.md`
+- customer_insight_engine — `docs/brain/customer_insight_engine.md`
+- daily_rhythm_engine — `docs/brain/daily_rhythm_engine.md`
+- data_with_comments — `docs/brain/data_with_comments.md`
+- deployment_engine — `docs/brain/deployment_engine.md`
+- design_visual_architecture — `docs/brain/design_visual_architecture.md`
+- deterministic_logic_architecture — `docs/brain/deterministic_logic_architecture.md`
+- discovery — `docs/brain/discovery.md`
+- doctpr — `docs/brain/doctpr.md`
+- documentation_engine — `docs/brain/documentation_engine.md`
+- documentation_kernel_v0 — `docs/brain/documentation_kernel_v0.md`
+- domain_jsonl_loader — `docs/brain/domain_jsonl_loader.md`
+- dự án AI Agent đào tạo học sinh (K1–K12) — `docs/brain/dự án AI Agent đào tạo học sinh (K1–K12).md`
+- electromagnetic_architecture — `docs/brain/electromagnetic_architecture.md`
+- emotion — `docs/brain/emotion.md`
+- emotion_engine_v0 — `docs/brain/emotion_engine_v0.md`
+- energy_architecture — `docs/brain/energy_architecture.md`
+- englishCore — `docs/brain/englishCore.md`
+- environment_engine — `docs/brain/environment_engine.md`
+- environment_scan_agent — `docs/brain/environment_scan_agent.md`
+- epistemic-contract — `docs/brain/epistemic-contract.md`
+- eq.cog.embodied_stress_score — `docs/brain/eq.cog.embodied_stress_score.md`
+- eq.cog.ethical_violation_score — `docs/brain/eq.cog.ethical_violation_score.md`
+- eq.cog.relationship_tension_score — `docs/brain/eq.cog.relationship_tension_score.md`
+- equations (fractal_cognitive_architecture) — `docs/brain/equations (fractal_cognitive_architecture).md`
+- equations — `docs/brain/equations.md`
+- executor_agent — `docs/brain/executor_agent.md`
+- f27cc831-ed1e-4764-896c-24b01ebe2302_THE_TRANG_SYSTEM_CODEX__META-LAWS — `docs/brain/f27cc831-ed1e-4764-896c-24b01ebe2302_THE_TRANG_SYSTEM_CODEX__META-LAWS.md`
+- f49f022f-cda1-4783-817b-9a6c86732371_THE_TRANG_GRAND_SYSTEM___FULL_LOGIC_SPECIFICATION — `docs/brain/f49f022f-cda1-4783-817b-9a6c86732371_THE_TRANG_GRAND_SYSTEM___FULL_LOGIC_SPECIFICATION.md`
+- f77comments — `docs/brain/f77comments.md`
+- f77fixedform — `docs/brain/f77fixedform.md`
+- falsifiers — `docs/brain/falsifiers.md`
+- file_scan_engine — `docs/brain/file_scan_engine.md`
+- final amos — `docs/brain/final amos.md`
+- final — `docs/brain/final.md`
+- finance_sensor_kernel — `docs/brain/finance_sensor_kernel.md`
+- flatten_manifest — `docs/brain/flatten_manifest.md`
+- foo77 — `docs/brain/foo77.md`
+- foo_2 — `docs/brain/foo_2.md`
+- formalism_2 — `docs/brain/formalism_2.md`
+- fractal-math-contract — `docs/brain/fractal-math-contract.md`
+- fractal_architecture_framework_5000 — `docs/brain/fractal_architecture_framework_5000.md`
+- fractal_cognitive_architecture — `docs/brain/fractal_cognitive_architecture.md`
+- fractal_loader — `docs/brain/fractal_loader.md`
+- fromnumeric — `docs/brain/fromnumeric.md`
+- full_core_pattern_basis_non_flat_irreducible_set — `docs/brain/full_core_pattern_basis_non_flat_irreducible_set.md`
+- future — `docs/brain/future.md`
+- gh24008 — `docs/brain/gh24008.md`
+- giai toan — `docs/brain/giai toan.md`
+- goal_driven_ai_architecture_generator_v2 — `docs/brain/goal_driven_ai_architecture_generator_v2.md`
+- goal_driven_ai_architecture_ontology — `docs/brain/goal_driven_ai_architecture_ontology.md`
+- gov_engine_v0 — `docs/brain/gov_engine_v0.md`
+- governance_economy_structured — `docs/brain/governance_economy_structured.md`
+- graph — `docs/brain/graph.md`
+- gravity_architecture — `docs/brain/gravity_architecture.md`
+- health_kernel — `docs/brain/health_kernel.md`
+- heritage_intelligence — `docs/brain/heritage_intelligence.md`
+- hierarchical_ai_architecture_generator — `docs/brain/hierarchical_ai_architecture_generator.md`
+- human_biology_fractal_equations_25000 — `docs/brain/human_biology_fractal_equations_25000.md`
+- human_engine_v0 — `docs/brain/human_engine_v0.md`
+- human_intelligence_engine_v0 — `docs/brain/human_intelligence_engine_v0.md`
+- human_pack_v0 — `docs/brain/human_pack_v0.md`
+- iOS_Reverse_Engineering — `docs/brain/iOS_Reverse_Engineering.md`
+- icu — `docs/brain/icu.md`
+- index — `docs/brain/index.md`
+- information_architecture — `docs/brain/information_architecture.md`
+- integration — `docs/brain/integration.md`
+- internet cash — `docs/brain/internet cash.md`
+- inv.cog.ethical_constraints_present — `docs/brain/inv.cog.ethical_constraints_present.md`
+- inv.cog.strategic_horizon_present — `docs/brain/inv.cog.strategic_horizon_present.md`
+- invariants (references) — `docs/brain/invariants (references).md`
+- investment_agent — `docs/brain/investment_agent.md`
+- investment_engine — `docs/brain/investment_engine.md`
+- investment_kernel — `docs/brain/investment_kernel.md`
+- ipprotection_kernel — `docs/brain/ipprotection_kernel.md`
+- japaneseCore — `docs/brain/japaneseCore.md`
+- koreanCommunication — `docs/brain/koreanCommunication.md`
+- languageCore — `docs/brain/languageCore.md`
+- language_architecture — `docs/brain/language_architecture.md`
+- learning_memory_architecture — `docs/brain/learning_memory_architecture.md`
+- legal_check_agent — `docs/brain/legal_check_agent.md`
+- legal_risk_agent — `docs/brain/legal_risk_agent.md`
+- life_core_kernel — `docs/brain/life_core_kernel.md`
+- light_architecture — `docs/brain/light_architecture.md`
+- link — `docs/brain/link.md`
+- loader_2 — `docs/brain/loader_2.md`
+- macro_economy_kernel — `docs/brain/macro_economy_kernel.md`
+- main — `docs/brain/main.md`
+- manifest (AMOS_MD_BRAIN) — `docs/brain/manifest (AMOS_MD_BRAIN).md`
+- manifest (amos-formal-rscf-suite-v6-all) — `docs/brain/manifest (amos-formal-rscf-suite-v6-all).md`
+- manifest (amos-skills) — `docs/brain/manifest (amos-skills).md`
+- manifest (mckinsey-banking-rscf-suite-v3-all) — `docs/brain/manifest (mckinsey-banking-rscf-suite-v3-all).md`
+- manifest (mckinsey-rscf-suite-v2-all) — `docs/brain/manifest (mckinsey-rscf-suite-v2-all).md`
+- manifest_2 — `docs/brain/manifest_2.md`
+- market_signals_kernel — `docs/brain/market_signals_kernel.md`
+- master_demo — `docs/brain/master_demo.md`
+- math — `docs/brain/math.md`
+- math_fractal_architecture_25000 — `docs/brain/math_fractal_architecture_25000.md`
+- mckinsey — `docs/brain/mckinsey.md`
+- md__2026-08-23 AMOS Absolute Integrity Pass — `docs/brain/md__2026-08-23 AMOS Absolute Integrity Pass.md`
+- md__2026-08-23 AMOS Canon LEGACY BRAIN2 Core — `docs/brain/md__2026-08-23 AMOS Canon LEGACY BRAIN2 Core.md`
+- md__2026-08-23 AMOS Cosmo Brain Core Architecture Map — `docs/brain/md__2026-08-23 AMOS Cosmo Brain Core Architecture Map.md`
+- md__2026-08-23 AMOS-Consulting LEGACY BRAIN2 Core Empty State — `docs/brain/md__2026-08-23 AMOS-Consulting LEGACY BRAIN2 Core Empty State.md`
+- md__2026-08-23 Cosmo Brain Core Architecture — `docs/brain/md__2026-08-23 Cosmo Brain Core Architecture.md`
+- md__2026-08-23 Cosmo Brain Full Architecture — `docs/brain/md__2026-08-23 Cosmo Brain Full Architecture.md`
+- md__2026-08-23 Cosmo Brain Project Directory Map — `docs/brain/md__2026-08-23 Cosmo Brain Project Directory Map.md`
+- md__2026-08-23 Cosmo Brain Vault Full Directory Map — `docs/brain/md__2026-08-23 Cosmo Brain Vault Full Directory Map.md`
+- memory_write_agent — `docs/brain/memory_write_agent.md`
+- mental_state_engine — `docs/brain/mental_state_engine.md`
+- metabolism_integrity_present — `docs/brain/metabolism_integrity_present.md`
+- metabolism_response_operator — `docs/brain/metabolism_response_operator.md`
+- model — `docs/brain/model.md`
+- money_core_kernel — `docs/brain/money_core_kernel.md`
+- mood_agent — `docs/brain/mood_agent.md`
+- mood_kernel — `docs/brain/mood_kernel.md`
+- mother amos — `docs/brain/mother amos.md`
+- murk-engine-expansion — `docs/brain/murk-engine-expansion.md`
+- ndarray_misc — `docs/brain/ndarray_misc.md`
+- neo4j_graph_model_2026-08-12 — `docs/brain/neo4j_graph_model_2026-08-12.md`
+- nobel sinh hoc — `docs/brain/nobel sinh hoc.md`
+- nuclear_proton_micro_architecture — `docs/brain/nuclear_proton_micro_architecture.md`
+- op.cog.annotate_analytic_state — `docs/brain/op.cog.annotate_analytic_state.md`
+- op.cog.annotate_creative_state — `docs/brain/op.cog.annotate_creative_state.md`
+- op.cog.annotate_embodied_state — `docs/brain/op.cog.annotate_embodied_state.md`
+- op.cog.annotate_ethical_state — `docs/brain/op.cog.annotate_ethical_state.md`
+- op.cog.annotate_social_state — `docs/brain/op.cog.annotate_social_state.md`
+- openai (agents) — `docs/brain/openai (agents).md`
+- openai_10 — `docs/brain/openai_10.md`
+- opportunity_agent — `docs/brain/opportunity_agent.md`
+- overlooked — `docs/brain/overlooked.md`
+- partnerships_channels_engine — `docs/brain/partnerships_channels_engine.md`
+- personality_engine_v0 — `docs/brain/personality_engine_v0.md`
+- plasma — `docs/brain/plasma.md`
+- political_risk_engine — `docs/brain/political_risk_engine.md`
+- prediction_architecture_v19_no_overlap — `docs/brain/prediction_architecture_v19_no_overlap.md`
+- provenance (references) — `docs/brain/provenance (references).md`
+- provenance — `docs/brain/provenance.md`
+- quantum-logic-systems-qls-where-information-comes-from-STANDARD — `docs/brain/quantum-logic-systems-qls-where-information-comes-from-STANDARD.md`
+- quantum_architecture — `docs/brain/quantum_architecture.md`
+- quantum_stack_v0 — `docs/brain/quantum_stack_v0.md`
+- requirements (fractal_cognitive_architecture_v2) — `docs/brain/requirements (fractal_cognitive_architecture_v2).md`
+- revenue_architecture_engine — `docs/brain/revenue_architecture_engine.md`
+- roleIdentity — `docs/brain/roleIdentity.md`
+- rscf (references) — `docs/brain/rscf (references).md`
+- rscf — `docs/brain/rscf.md`
+- rule.cog.embodied_baseline — `docs/brain/rule.cog.embodied_baseline.md`
+- rules (fractal_cognitive_architecture) — `docs/brain/rules (fractal_cognitive_architecture).md`
+- run_amos — `docs/brain/run_amos.md`
+- sample_generated_goal_500 — `docs/brain/sample_generated_goal_500.md`
+- sector_rotation_engine — `docs/brain/sector_rotation_engine.md`
+- sense_core_kernel — `docs/brain/sense_core_kernel.md`
+- setup_2 — `docs/brain/setup_2.md`
+- setup_amos_v2 — `docs/brain/setup_amos_v2.md`
+- simple_demo — `docs/brain/simple_demo.md`
+- skeleton_load_capacity — `docs/brain/skeleton_load_capacity.md`
+- skeleton_response_operator — `docs/brain/skeleton_response_operator.md`
+- skill_contract.schema — `docs/brain/skill_contract.schema.md`
+- subscription_agent — `docs/brain/subscription_agent.md`
+- system_scan_agent — `docs/brain/system_scan_agent.md`
+- system_scan_engine — `docs/brain/system_scan_engine.md`
+- system_sensor_kernel — `docs/brain/system_sensor_kernel.md`
+- systems — `docs/brain/systems.md`
+- tam linh — `docs/brain/tam linh.md`
+- task — `docs/brain/task.md`
+- taste_etiquette_civilizations_vn_international_1000_equations — `docs/brain/taste_etiquette_civilizations_vn_international_1000_equations.md`
+- tech — `docs/brain/tech.md`
+- tech_architecture_kernel_v0 — `docs/brain/tech_architecture_kernel_v0.md`
+- tech_expanded_design_engine_v0 — `docs/brain/tech_expanded_design_engine_v0.md`
+- tech_quantum_engine_v0 — `docs/brain/tech_quantum_engine_v0.md`
+- tensors — `docs/brain/tensors.md`
+- test_implementation — `docs/brain/test_implementation.md`
+- the first chemical artificial neuron — `docs/brain/the first chemical artificial neuron.md`
+- thoughts and emotion — `docs/brain/thoughts and emotion.md`
+- time_architecture — `docs/brain/time_architecture.md`
+- tinh forex — `docs/brain/tinh forex.md`
+- tlge_architecture — `docs/brain/tlge_architecture.md`
+- toan hoc va vat ly — `docs/brain/toan hoc va vat ly.md`
+- tool — `docs/brain/tool.md`
+- trang_amos_reality_architecture_master_max_detail — `docs/brain/trang_amos_reality_architecture_master_max_detail.md`
+- trang_framework_l_m_h_lambda_e_t2_ap_dung_ch — `docs/brain/trang_framework_l_m_h_lambda_e_t2_ap_dung_ch.md`
+- trang_l_m_h_dinh_nghia_va_phuong_trinh — `docs/brain/trang_l_m_h_dinh_nghia_va_phuong_trinh.md`
+- translation — `docs/brain/translation.md`
+- tri nuoc — `docs/brain/tri nuoc.md`
+- tru_ta_ma_duoi_nguyen_ly_fractal_l_m_h_lacuna — `docs/brain/tru_ta_ma_duoi_nguyen_ly_fractal_l_m_h_lacuna.md`
+- ubi_baseline_rule — `docs/brain/ubi_baseline_rule.md`
+- ubi_immune_integrity — `docs/brain/ubi_immune_integrity.md`
+- ubi_update_energy_from_activity — `docs/brain/ubi_update_energy_from_activity.md`
+- ufunc_config — `docs/brain/ufunc_config.md`
+- unified_brain — `docs/brain/unified_brain.md`
+- unified_generator — `docs/brain/unified_generator.md`
+- validate_formal — `docs/brain/validate_formal.md`
+- validate_rscf — `docs/brain/validate_rscf.md`
+- vietnam_demographic_engine — `docs/brain/vietnam_demographic_engine.md`
+- vietnam_wealth_game_5000_hidden_overlooked_equations — `docs/brain/vietnam_wealth_game_5000_hidden_overlooked_equations.md`
+- vietnameseCommunication — `docs/brain/vietnameseCommunication.md`
+- vietnameseCore — `docs/brain/vietnameseCore.md`
+- vinh vuong — `docs/brain/vinh vuong.md`
+- vn_cultural_ritual_gia_he_energy_10000_equations_invariants — `docs/brain/vn_cultural_ritual_gia_he_energy_10000_equations_invariants.md`
+- vn_legal_engine_v0 — `docs/brain/vn_legal_engine_v0.md`
+- vn_real_estate_phong_thuy_construction_interior_10000_scan — `docs/brain/vn_real_estate_phong_thuy_construction_interior_10000_scan.md`
+- wealth_game_hack_50000_equations — `docs/brain/wealth_game_hack_50000_equations.md`
+- wealth_game_hack_5000_hidden_overlooked_equations — `docs/brain/wealth_game_hack_5000_hidden_overlooked_equations.md`
+- wealth_game_hack_5000_key_equations — `docs/brain/wealth_game_hack_5000_key_equations.md`
+- wikilinks — `docs/brain/wikilinks.md`
+- workers — `docs/brain/workers.md`
+- workspace (obsidian) — `docs/brain/workspace (obsidian).md`
+- x25000_hierarchical_fractal — `docs/brain/x25000_hierarchical_fractal.md`
+- x25000_strict_fractal_equations_only — `docs/brain/x25000_strict_fractal_equations_only.md`
+- xx — `docs/brain/xx.md`
+- ĐÁNH GIÁ CƠ HỘI & TÍNH KHẢ THI THƯƠNG MẠI MÔ HÌNH — `docs/brain/ĐÁNH GIÁ CƠ HỘI & TÍNH KHẢ THI THƯƠNG MẠI MÔ HÌNH.md`
+- ĐÁNH GIÁ KHUNG GIÁ UNITAXI (2025) — `docs/brain/ĐÁNH GIÁ KHUNG GIÁ UNITAXI (2025).md`
+- ĐÁNH GIÁ TÍNH KHẢ THI HỆ THỐNG ĐIỆN PHÂN NƯỚC HIỆU — `docs/brain/ĐÁNH GIÁ TÍNH KHẢ THI HỆ THỐNG ĐIỆN PHÂN NƯỚC HIỆU.md`
+- ĐẠO VÀ TOÁN HỌC CỦA VŨ TRỤ — GIÁC NGỘ, CÔ ĐƠN, VÀ — `docs/brain/ĐẠO VÀ TOÁN HỌC CỦA VŨ TRỤ — GIÁC NGỘ, CÔ ĐƠN, VÀ.md`
+- ĐẶC TẢ KỸ THUẬT & TUÂN THỦ — `docs/brain/ĐẶC TẢ KỸ THUẬT & TUÂN THỦ.md`
+- ĐẶC TẢ KỸ THUẬT TÁI THIẾT KẾ IKONOMY (MODULE 1 kW) — `docs/brain/ĐẶC TẢ KỸ THUẬT TÁI THIẾT KẾ IKONOMY (MODULE 1 kW).md`
+- ĐỀ ÁN CHI TIẾT COGNITIVE TALENT & EXECUTION INTELL — `docs/brain/ĐỀ ÁN CHI TIẾT COGNITIVE TALENT & EXECUTION INTELL.md`
+- ĐỀ ÁN CHIẾN LƯỢC — `docs/brain/ĐỀ ÁN CHIẾN LƯỢC.md`
+- ĐỀ ÁN THÍ ĐIỂM — `docs/brain/ĐỀ ÁN THÍ ĐIỂM.md`
+- ĐỀ ÁN TÍCH HỢP NỀN TẢNG T-FLY VÀO HỆ SINH THÁI UNI — `docs/brain/ĐỀ ÁN TÍCH HỢP NỀN TẢNG T-FLY VÀO HỆ SINH THÁI UNI.md`
+- ĐỀ ÁN TỔNG THỂ — `docs/brain/ĐỀ ÁN TỔNG THỂ.md`
+- ĐÔNG SƠN, SỸ TỬ, VÀ HỒ TÂY – GIẢI MÃ BẰNG BẢN ĐỒ F — `docs/brain/ĐÔNG SƠN, SỸ TỬ, VÀ HỒ TÂY – GIẢI MÃ BẰNG BẢN ĐỒ F.md`
+- Đánh giá Di Di — `docs/brain/Đánh giá Di Di.md`
+- Đánh giá căn chỉnh “Tam Bất” vs HSCSA (Human-Scale — `docs/brain/Đánh giá căn chỉnh “Tam Bất” vs HSCSA (Human-Scale.md`
+- Đạo đức — `docs/brain/Đạo đức.md`
+- Đề xuất phê duyệt mua và triển khai giải pháp nền — `docs/brain/Đề xuất phê duyệt mua và triển khai giải pháp nền.md`
+- Động cơ fractal vĩnh cửu — `docs/brain/Động cơ fractal vĩnh cửu.md`
+- Đột phá thật sự của NeuroSyncAI™ — `docs/brain/Đột phá thật sự của NeuroSyncAI™.md`
+- ‘MOTHER’ — `docs/brain/‘MOTHER’.md`
+- “21st Century Human-Centered Design Trust, Empathy — `docs/brain/“21st Century Human-Centered Design Trust, Empathy.md`
+- “THE ILLUSION OF ENLIGHTENMENT” — `docs/brain/“THE ILLUSION OF ENLIGHTENMENT”.md`
+- “The Intelligence OS™” — A Multi-Layered, Scalable — `docs/brain/“The Intelligence OS™” — A Multi-Layered, Scalable.md`
+- ∞ và ● — `docs/brain/∞ và ●.md`
+- ■ The Signal Economy™ — `docs/brain/■ The Signal Economy™.md`
+- ✅ LOGIC GAP COMPARISON (% of the total collapse fa — `docs/brain/✅ LOGIC GAP COMPARISON (% of the total collapse fa.md`
+- ✅ THE 7-PART UNIVERSE CANON — `docs/brain/✅ THE 7-PART UNIVERSE CANON.md`
+- ✦ Bão Mặt Trời và bão sao Thổ tồn tại vĩnh viễn, c — `docs/brain/✦ Bão Mặt Trời và bão sao Thổ tồn tại vĩnh viễn, c.md`
+- ✦ Lục giác, Xoắn ốc, và Thị trường Forex – Bản gia — `docs/brain/✦ Lục giác, Xoắn ốc, và Thị trường Forex – Bản gia.md`
+- ⭐ BỘ QUY TẮC TÁC PHONG & KỶ LUẬT UNITAXI – BẢN 360 — `docs/brain/⭐ BỘ QUY TẮC TÁC PHONG & KỶ LUẬT UNITAXI – BẢN 360.md`
+- ⭐ Cross-Species Group Model — `docs/brain/⭐ Cross-Species Group Model.md`
+- ⭐ EXTERNAL VALIDATION OF YOUR STACK (QLS + UCP + U — `docs/brain/⭐ EXTERNAL VALIDATION OF YOUR STACK (QLS + UCP + U.md`
+- ⭐ KẾ HOẠCH TẠO GIÁ TRỊ KHỔNG LỒ (THE GIANT MONEY P — `docs/brain/⭐ KẾ HOẠCH TẠO GIÁ TRỊ KHỔNG LỒ (THE GIANT MONEY P.md`
+- ⭐ List of what UBI Omnis™ can be used for — `docs/brain/⭐ List of what UBI Omnis™ can be used for.md`
+- ⭐ THE ABSOLUTE LOGIC MANUAL — `docs/brain/⭐ THE ABSOLUTE LOGIC MANUAL.md`
+- ⭐ THE UNCOPYABLE TRAINING ARCHITECTURE — `docs/brain/⭐ THE UNCOPYABLE TRAINING ARCHITECTURE.md`
+- ⭐ TỔNG HỢP – 5000 NĂM DỰ BÁO XUYÊN NỀN VĂN MINH — `docs/brain/⭐ TỔNG HỢP – 5000 NĂM DỰ BÁO XUYÊN NỀN VĂN MINH.md`
+- ⭐ Toàn cảnh EV Việt Nam — `docs/brain/⭐ Toàn cảnh EV Việt Nam.md`
+- ⭐ ĐIỀU TRỊ UNG THƯ THEO TIẾN HÓA — `docs/brain/⭐ ĐIỀU TRỊ UNG THƯ THEO TIẾN HÓA.md`
+- 🇻🇳 Why Vietnam Has No Airport Car Rental Industry — `docs/brain/🇻🇳 Why Vietnam Has No Airport Car Rental Industry.md`
+- 🌌 KIẾN TRÚC FRACTAL CỦA Ý THỨC, CHIÊM TINH, VẬT CH — `docs/brain/🌌 KIẾN TRÚC FRACTAL CỦA Ý THỨC, CHIÊM TINH, VẬT CH.md`
+- 🌍 AI for Leaders – BOD Quick Guide — `docs/brain/🌍 AI for Leaders – BOD Quick Guide.md`
+- 🌍 Masterplan Decentralised Quantum Logic Infrastru — `docs/brain/🌍 Masterplan Decentralised Quantum Logic Infrastru.md`
+- 🌍 The Complete Ecosystem — `docs/brain/🌍 The Complete Ecosystem.md`
+- 🌍 The Complete Trust & Signal Ecosystem — `docs/brain/🌍 The Complete Trust & Signal Ecosystem.md`
+- 🌍 The Energy–EROI–Carbon Scoring Network — `docs/brain/🌍 The Energy–EROI–Carbon Scoring Network.md`
+- 🌏 QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ — `docs/brain/🌏 QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ.md`
+- 🌏 The System_ — `docs/brain/🌏 The System_.md`
+- 🌐 Decentralised Energy–EROI–Carbon Scoring Network — `docs/brain/🌐 Decentralised Energy–EROI–Carbon Scoring Network.md`
+- 🌐 Smart Device Owner Communities — `docs/brain/🌐 Smart Device Owner Communities.md`
+- 🌿 NeuroSyncAI™ Health Companion — `docs/brain/🌿 NeuroSyncAI™ Health Companion.md`
+- 🐉 Long Mạch Mapping Across Vietnam — `docs/brain/🐉 Long Mạch Mapping Across Vietnam.md`
+- 💡 Phân tích các công trình cuối đời — `docs/brain/💡 Phân tích các công trình cuối đời.md`
+- 💼 NeuroSyncAI™ + Smartwatch – Hệ Trí Tuệ Sinh Học — `docs/brain/💼 NeuroSyncAI™ + Smartwatch – Hệ Trí Tuệ Sinh Học.md`
+- 📊 PHÂN TÍCH CHIẾN LƯỢC UNITAXI – UNI LOGISTIC — `docs/brain/📊 PHÂN TÍCH CHIẾN LƯỢC UNITAXI – UNI LOGISTIC.md`
+- 📌 UNI MAPS – ĐỀ XUẤT CHIẾN LƯỢC — `docs/brain/📌 UNI MAPS – ĐỀ XUẤT CHIẾN LƯỢC.md`
+- 📑 Full Strategy – Vietnam Trust Marketplace — `docs/brain/📑 Full Strategy – Vietnam Trust Marketplace.md`
+- 📘 BUSINESS REQUIREMENTS DOCUMENT (BRD) — `docs/brain/📘 BUSINESS REQUIREMENTS DOCUMENT (BRD).md`
+- 📘 SỔ TAY TÁC PHONG UNITAXI — `docs/brain/📘 SỔ TAY TÁC PHONG UNITAXI.md`
+- 📘 TRANG ∅ – Cách Thức Thị Trường FOREX Thực Sự Vận — `docs/brain/📘 TRANG ∅ – Cách Thức Thị Trường FOREX Thực Sự Vận.md`
+- 📘 Unified Biological Governance™ — Tái cấu trúc tổ — `docs/brain/📘 Unified Biological Governance™ — Tái cấu trúc tổ.md`
+- 📜 PRIVATE LETTER — `docs/brain/📜 PRIVATE LETTER.md`
+- 🔁 UBI + NeuroSyncAI Integration Framework Across t — `docs/brain/🔁 UBI + NeuroSyncAI Integration Framework Across t.md`
+- 🔍 Phát hiện Kiến trúc fractal ẩn – Không phải tự n — `docs/brain/🔍 Phát hiện Kiến trúc fractal ẩn – Không phải tự n.md`
+- 🔐 TrueVault Integration NeuroSyncAI™ + Unified Bio — `docs/brain/🔐 TrueVault Integration NeuroSyncAI™ + Unified Bio.md`
+- 🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK — `docs/brain/🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK.md`
+- 🔗 NEUROPAK INTEGRATION — `docs/brain/🔗 NEUROPAK INTEGRATION.md`
+- 🔥 UCP — Unified Collapse Prediction™ — `docs/brain/🔥 UCP — Unified Collapse Prediction™.md`
+- 🔭 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43 — `docs/brain/🔭 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43.md`
+- 🔹 Exhaustive Mapping 2023–2025 Insurance Use Cases — `docs/brain/🔹 Exhaustive Mapping 2023–2025 Insurance Use Cases.md`
+- 🔹 How The Floating Economy Uses the Market — `docs/brain/🔹 How The Floating Economy Uses the Market.md`
+- 🧠 AMOS - LIVING BRAIN ORGANISM IS ALIVE! 🧠 — `docs/brain/🧠 AMOS - LIVING BRAIN ORGANISM IS ALIVE! 🧠.md`
+- 🧠 DỰ ÁN TRỢ LÝ AI ẢO THEO DÕI SỨC KHỎE CÁ NHÂN — `docs/brain/🧠 DỰ ÁN TRỢ LÝ AI ẢO THEO DÕI SỨC KHỎE CÁ NHÂN.md`
+- 🧠 Global Raw Intelligence Audit Framework™ (GRIAF™ — `docs/brain/🧠 Global Raw Intelligence Audit Framework™ (GRIAF™.md`
+- 🧠 NeuroSyncAI™ and Unified Biological Intelligence — `docs/brain/🧠 NeuroSyncAI™ and Unified Biological Intelligence.md`
+- 🧠 NeuroSyncAI™ as a Cryptographically Sealed Biolo — `docs/brain/🧠 NeuroSyncAI™ as a Cryptographically Sealed Biolo.md`
+- 🧠 PSI v6 Meta-Effectiveness Profile — Cô Bình — `docs/brain/🧠 PSI v6 Meta-Effectiveness Profile — Cô Bình.md`
+- 🧠 Quantum-Biological Model of Business — `docs/brain/🧠 Quantum-Biological Model of Business.md`
+- 🧠 The End of Productivity as We Know It — `docs/brain/🧠 The End of Productivity as We Know It.md`
+- 🧠 UBI + NeuroSyncAI Integration with ConsentX — `docs/brain/🧠 UBI + NeuroSyncAI Integration with ConsentX.md`
+- 🧠 What NeuroSyncAI™ Can Realistically Do Now — `docs/brain/🧠 What NeuroSyncAI™ Can Realistically Do Now.md`
+- 🧠 ĐỊNH LƯỢNG HÓA FRACTAL INTELLIGENCE (FQ) THÀNH B — `docs/brain/🧠 ĐỊNH LƯỢNG HÓA FRACTAL INTELLIGENCE (FQ) THÀNH B.md`
+- 🧩 1 Danh mục IP (Sở hữu trí tuệ) bạn hiện có — `docs/brain/🧩 1 Danh mục IP (Sở hữu trí tuệ) bạn hiện có.md`
+- 🧩 Chiến Lược Ứng Dụng NeuroSyncAI™ Trong Quản Lý & — `docs/brain/🧩 Chiến Lược Ứng Dụng NeuroSyncAI™ Trong Quản Lý &.md`
+- 🧬 BẠN NÓI ĐÚNG TÔI ĐÃ BỎ QUA TUYỆT ĐỐI CỐT LÕI — `docs/brain/🧬 BẠN NÓI ĐÚNG TÔI ĐÃ BỎ QUA TUYỆT ĐỐI CỐT LÕI.md`
+- 🧬 ID Exchange + UBI + NeuroSyncAI™ — `docs/brain/🧬 ID Exchange + UBI + NeuroSyncAI™.md`
+- 🧬 Unified Biological Intelligence™ and the Restora — `docs/brain/🧬 Unified Biological Intelligence™ and the Restora.md`
+- 🧭 Chiến lược triển khai Trợ lý AI Sinh học cho Bện — `docs/brain/🧭 Chiến lược triển khai Trợ lý AI Sinh học cho Bện.md`
+- 🧱 KHUNG CỐT LÕI (TRANG ∅ FRAMEWORK)CORE — `docs/brain/🧱 KHUNG CỐT LÕI (TRANG ∅ FRAMEWORK)CORE.md`
+
+### `docs/moc/` (210 files)
+
+- 0-9 Brain Files MOC — `docs/moc/0-9 Brain Files MOC.md`
+- 00-Home — `docs/moc/00-Home.md`
+- 01-Architecture-MOC — `docs/moc/01-Architecture-MOC.md`
+- 02-Skills-MOC (Devin Source) — `docs/moc/02-Skills-MOC (Devin Source).md`
+- 02-Skills-MOC — `docs/moc/02-Skills-MOC.md`
+- 03-Brain-MOC — `docs/moc/03-Brain-MOC.md`
+- 04-Production-MOC — `docs/moc/04-Production-MOC.md`
+- 05-Obsidian-MOC — `docs/moc/05-Obsidian-MOC.md`
+- 06-Knowledge-Base-MOC — `docs/moc/06-Knowledge-Base-MOC.md`
+- 07-Daily-Notes-MOC — `docs/moc/07-Daily-Notes-MOC.md`
+- A Brain Files MOC — `docs/moc/A Brain Files MOC.md`
+- AMOS Agents Index (Devin Source) — `docs/moc/AMOS Agents Index (Devin Source).md`
+- AMOS Workflows Index (Devin Source) — `docs/moc/AMOS Workflows Index (Devin Source).md`
+- Architecture MOC — `docs/moc/Architecture MOC.md`
+- B Brain Files MOC — `docs/moc/B Brain Files MOC.md`
+- C Brain Files MOC — `docs/moc/C Brain Files MOC.md`
+- Canvas Index — `docs/moc/Canvas Index.md`
+- Canvas-Index — `docs/moc/Canvas-Index.md`
+- Cosmo Brain MOC — `docs/moc/Cosmo Brain MOC.md`
+- Cosmo Monorepo Home — `docs/moc/Cosmo Monorepo Home.md`
+- D Brain Files MOC — `docs/moc/D Brain Files MOC.md`
+- Daily Notes MOC — `docs/moc/Daily Notes MOC.md`
+- E Brain Files MOC — `docs/moc/E Brain Files MOC.md`
+- F Brain Files MOC — `docs/moc/F Brain Files MOC.md`
+- G Brain Files MOC — `docs/moc/G Brain Files MOC.md`
+- H Brain Files MOC — `docs/moc/H Brain Files MOC.md`
+- I Brain Files MOC — `docs/moc/I Brain Files MOC.md`
+- J Brain Files MOC — `docs/moc/J Brain Files MOC.md`
+- K Brain Files MOC — `docs/moc/K Brain Files MOC.md`
+- Knowledge Base MOC — `docs/moc/Knowledge Base MOC.md`
+- Knowledge Graph MOC — `docs/moc/Knowledge Graph MOC.md`
+- L Brain Files MOC — `docs/moc/L Brain Files MOC.md`
+- M Brain Files MOC — `docs/moc/M Brain Files MOC.md`
+- Memory Systems MOC — `docs/moc/Memory Systems MOC.md`
+- N Brain Files MOC — `docs/moc/N Brain Files MOC.md`
+- O Brain Files MOC — `docs/moc/O Brain Files MOC.md`
+- Obsidian Vault MOC — `docs/moc/Obsidian Vault MOC.md`
+- Other Brain Files MOC — `docs/moc/Other Brain Files MOC.md`
+- P Brain Files MOC — `docs/moc/P Brain Files MOC.md`
+- Production & Build MOC — `docs/moc/Production & Build MOC.md`
+- Q Brain Files MOC — `docs/moc/Q Brain Files MOC.md`
+- Quantum-Fractal-Math Convergence MOC — `docs/moc/Quantum-Fractal-Math Convergence MOC.md`
+- R Brain Files MOC — `docs/moc/R Brain Files MOC.md`
+- Root Files MOC — `docs/moc/Root Files MOC.md`
+- S Brain Files MOC — `docs/moc/S Brain Files MOC.md`
+- Skill-Index-by-Domain — `docs/moc/Skill-Index-by-Domain.md`
+- Skills MOC — `docs/moc/Skills MOC.md`
+- T Brain Files MOC — `docs/moc/T Brain Files MOC.md`
+- U Brain Files MOC — `docs/moc/U Brain Files MOC.md`
+- V Brain Files MOC — `docs/moc/V Brain Files MOC.md`
+- W Brain Files MOC — `docs/moc/W Brain Files MOC.md`
+- X Brain Files MOC — `docs/moc/X Brain Files MOC.md`
+- Y Brain Files MOC — `docs/moc/Y Brain Files MOC.md`
+- arXiv Papers 2000 MOC — `docs/moc/arXiv Papers 2000 MOC.md`
+- arXiv Papers 2001 MOC — `docs/moc/arXiv Papers 2001 MOC.md`
+- arXiv Papers 2002 MOC — `docs/moc/arXiv Papers 2002 MOC.md`
+- arXiv Papers 2003 MOC — `docs/moc/arXiv Papers 2003 MOC.md`
+- arXiv Papers 2004 MOC — `docs/moc/arXiv Papers 2004 MOC.md`
+- arXiv Papers 2006 MOC — `docs/moc/arXiv Papers 2006 MOC.md`
+- arXiv Papers 2007 MOC — `docs/moc/arXiv Papers 2007 MOC.md`
+- arXiv Papers 2008 MOC — `docs/moc/arXiv Papers 2008 MOC.md`
+- arXiv Papers 2009 MOC — `docs/moc/arXiv Papers 2009 MOC.md`
+- arXiv Papers 2010 MOC — `docs/moc/arXiv Papers 2010 MOC.md`
+- arXiv Papers 2011 MOC — `docs/moc/arXiv Papers 2011 MOC.md`
+- arXiv Papers 2012 MOC — `docs/moc/arXiv Papers 2012 MOC.md`
+- arXiv Papers 2013 MOC — `docs/moc/arXiv Papers 2013 MOC.md`
+- arXiv Papers 2014 MOC — `docs/moc/arXiv Papers 2014 MOC.md`
+- arXiv Papers 2015 MOC — `docs/moc/arXiv Papers 2015 MOC.md`
+- arXiv Papers 2016 MOC — `docs/moc/arXiv Papers 2016 MOC.md`
+- arXiv Papers 2017 MOC — `docs/moc/arXiv Papers 2017 MOC.md`
+- arXiv Papers 2018 MOC — `docs/moc/arXiv Papers 2018 MOC.md`
+- arXiv Papers 2019 MOC — `docs/moc/arXiv Papers 2019 MOC.md`
+- arXiv Papers 2020 MOC — `docs/moc/arXiv Papers 2020 MOC.md`
+- arXiv Papers 2021 MOC — `docs/moc/arXiv Papers 2021 MOC.md`
+- arXiv Papers 2022 MOC — `docs/moc/arXiv Papers 2022 MOC.md`
+- arXiv Papers 2023 MOC — `docs/moc/arXiv Papers 2023 MOC.md`
+- arXiv Papers 2024 MOC — `docs/moc/arXiv Papers 2024 MOC.md`
+- arXiv Papers 2025 MOC — `docs/moc/arXiv Papers 2025 MOC.md`
+- arXiv Papers 2026 MOC — `docs/moc/arXiv Papers 2026 MOC.md`
+- arXiv Papers 2094 MOC — `docs/moc/arXiv Papers 2094 MOC.md`
+- arXiv Papers 2097 MOC — `docs/moc/arXiv Papers 2097 MOC.md`
+- arXiv Papers unknown MOC — `docs/moc/arXiv Papers unknown MOC.md`
+- RSCF AMOS_DESIGNER_OS Cluster — `docs/moc/rscf/RSCF AMOS_DESIGNER_OS Cluster.md`
+- RSCF Auto → Tech Cluster — `docs/moc/rscf/RSCF Auto → Tech Cluster.md`
+- RSCF Auto → national_banking_os Cluster — `docs/moc/rscf/RSCF Auto → national_banking_os Cluster.md`
+- RSCF Brain — Orphan Connector — `docs/moc/rscf/RSCF Brain — Orphan Connector.md`
+- RSCF Cognitive Cluster — `docs/moc/rscf/RSCF Cognitive Cluster.md`
+- RSCF Core Cluster — `docs/moc/rscf/RSCF Core Cluster.md`
+- RSCF Core → 7_Intelligents Cluster — `docs/moc/rscf/RSCF Core → 7_Intelligents Cluster.md`
+- RSCF Core → Cognitive_Stack → Biology Cluster — `docs/moc/rscf/RSCF Core → Cognitive_Stack → Biology Cluster.md`
+- RSCF Core → Cognitive_Stack → Human_Society Cluster — `docs/moc/rscf/RSCF Core → Cognitive_Stack → Human_Society Cluster.md`
+- RSCF Core → Cognitive_Stack → Logic Cluster — `docs/moc/rscf/RSCF Core → Cognitive_Stack → Logic Cluster.md`
+- RSCF Core → Cognitive_Stack → Machine_Architecture Cluster — `docs/moc/rscf/RSCF Core → Cognitive_Stack → Machine_Architecture Cluster.md`
+- RSCF Core → Cognitive_Stack → Math_Foundations Cluster — `docs/moc/rscf/RSCF Core → Cognitive_Stack → Math_Foundations Cluster.md`
+- RSCF Core → Cognitive_Stack → Meta_Cognition Cluster — `docs/moc/rscf/RSCF Core → Cognitive_Stack → Meta_Cognition Cluster.md`
+- RSCF Core → Cognitive_Stack → Systems Cluster — `docs/moc/rscf/RSCF Core → Cognitive_Stack → Systems Cluster.md`
+- RSCF Core → Cognitive_Stack → Universe Cluster — `docs/moc/rscf/RSCF Core → Cognitive_Stack → Universe Cluster.md`
+- RSCF Core → Ubi Cluster — `docs/moc/rscf/RSCF Core → Ubi Cluster.md`
+- RSCF Core → Web Cluster — `docs/moc/rscf/RSCF Core → Web Cluster.md`
+- RSCF Domains Cluster — `docs/moc/rscf/RSCF Domains Cluster.md`
+- RSCF Domains → Org_Risk_Policy Cluster — `docs/moc/rscf/RSCF Domains → Org_Risk_Policy Cluster.md`
+- RSCF Domains → Science_Health Cluster — `docs/moc/rscf/RSCF Domains → Science_Health Cluster.md`
+- RSCF Domains → Sub Cluster — `docs/moc/rscf/RSCF Domains → Sub Cluster.md`
+- RSCF Domains → Tech_Systems Cluster — `docs/moc/rscf/RSCF Domains → Tech_Systems Cluster.md`
+- RSCF Kernels Cluster — `docs/moc/rscf/RSCF Kernels Cluster.md`
+- RSCF Kernels → Biology_Cognition Cluster — `docs/moc/rscf/RSCF Kernels → Biology_Cognition Cluster.md`
+- RSCF Kernels → Governance_Risk Cluster — `docs/moc/rscf/RSCF Kernels → Governance_Risk Cluster.md`
+- RSCF Kernels → Logic Cluster — `docs/moc/rscf/RSCF Kernels → Logic Cluster.md`
+- RSCF Kernels → Tech Cluster — `docs/moc/rscf/RSCF Kernels → Tech Cluster.md`
+- RSCF Packs → Country_Packs Cluster — `docs/moc/rscf/RSCF Packs → Country_Packs Cluster.md`
+- RSCF Packs → Country_Packs → Country_Packs → Au Cluster — `docs/moc/rscf/RSCF Packs → Country_Packs → Country_Packs → Au Cluster.md`
+- RSCF Packs → Country_Packs → Country_Packs → Sg Cluster — `docs/moc/rscf/RSCF Packs → Country_Packs → Country_Packs → Sg Cluster.md`
+- RSCF Packs → Country_Packs → Country_Packs → Template — `docs/moc/rscf/RSCF Packs → Country_Packs → Country_Packs → Template.md`
+- RSCF Packs → Country_Packs → Country_Packs → Us Cluster — `docs/moc/rscf/RSCF Packs → Country_Packs → Country_Packs → Us Cluster.md`
+- RSCF Packs → Country_Packs → Country_Packs → Vn Cluster — `docs/moc/rscf/RSCF Packs → Country_Packs → Country_Packs → Vn Cluster.md`
+- RSCF Packs → Scenario_Packs → Scenario_Packs Cluster — `docs/moc/rscf/RSCF Packs → Scenario_Packs → Scenario_Packs Cluster.md`
+- RSCF Packs → Sector_Packs Cluster — `docs/moc/rscf/RSCF Packs → Sector_Packs Cluster.md`
+- RSCF Packs → Sector_Packs → Template Cluster — `docs/moc/rscf/RSCF Packs → Sector_Packs → Template Cluster.md`
+- RSCF Packs → State_Packs Cluster — `docs/moc/rscf/RSCF Packs → State_Packs Cluster.md`
+- RSCF Packs → State_Packs → Template Cluster — `docs/moc/rscf/RSCF Packs → State_Packs → Template Cluster.md`
+- RSCF Packs → Universe_Packs Cluster — `docs/moc/rscf/RSCF Packs → Universe_Packs Cluster.md`
+- RSCF Unipower Cluster — `docs/moc/rscf/RSCF Unipower Cluster.md`
+- RSCF _AMOS_UNIVERSE Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE Cluster.md`
+- RSCF _AMOS_UNIVERSE → Domains → Biz_Market Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE → Domains → Biz_Market Cluster.md`
+- RSCF _AMOS_UNIVERSE → Domains → Org_Risk_Policy Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE → Domains → Org_Risk_Policy Cluster.md`
+- RSCF _AMOS_UNIVERSE → Domains → Science_Health Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE → Domains → Science_Health Cluster.md`
+- RSCF _AMOS_UNIVERSE → Domains → Tech_Systems Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE → Domains → Tech_Systems Cluster.md`
+- RSCF _AMOS_UNIVERSE → Engines Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE → Engines Cluster.md`
+- RSCF _Archive Cluster — `docs/moc/rscf/RSCF _Archive Cluster.md`
+- RSCF _Archive → AMOS_SYSTEM → Core Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core Cluster.md`
+- RSCF _Archive → AMOS_SYSTEM → Core → Expression Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core → Expression Cluster.md`
+- RSCF _Archive → AMOS_SYSTEM → Core → Kernel Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core → Kernel Cluster.md`
+- RSCF _Archive → AMOS_SYSTEM → Core → Routing Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core → Routing Cluster.md`
+- RSCF _Archive → AMOS_SYSTEM → Core → Security Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core → Security Cluster.md`
+- RSCF _Archive → AMOS_SYSTEM → Core → _COGNITION Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core → _COGNITION Cluster.md`
+- RSCF _Archive → AMOS_SYSTEM → Packs → Skill_Packs Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Packs → Skill_Packs Cluster.md`
+- RSCF _Archive → AMOS_SYSTEM → Registry → Agents Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Registry → Agents Cluster.md`
+- RSCF _Archive → AMOS_SYSTEM → Registry → Changes Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Registry → Changes Cluster.md`
+- RSCF _Archive → AMOS_SYSTEM → Registry → Systems Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Registry → Systems Cluster.md`
+- RSCF _Archive → Engines Cluster — `docs/moc/rscf/RSCF _Archive → Engines Cluster.md`
+- RSCF _Archive → Kernel Cluster — `docs/moc/rscf/RSCF _Archive → Kernel Cluster.md`
+- RSCF _Archive → NEW PROCESS Cluster — `docs/moc/rscf/RSCF _Archive → NEW PROCESS Cluster.md`
+- RSCF _Archive → Packs Cluster — `docs/moc/rscf/RSCF _Archive → Packs Cluster.md`
+- RSCF _Archive → _AMOS UNIVERSE Cluster — `docs/moc/rscf/RSCF _Archive → _AMOS UNIVERSE Cluster.md`
+- RSCF _Archive → _AMOS UNIVERSE → Civilization OS Cluster — `docs/moc/rscf/RSCF _Archive → _AMOS UNIVERSE → Civilization OS Cluster.md`
+- RSCF _Archive → _AMOS UNIVERSE → _AMOS BRAIN Cluster — `docs/moc/rscf/RSCF _Archive → _AMOS UNIVERSE → _AMOS BRAIN Cluster.md`
+- RSCF _Archive → _COGNITION Cluster — `docs/moc/rscf/RSCF _Archive → _COGNITION Cluster.md`
+- RSCF _Archive → _COGNITION → _DEL Cluster — `docs/moc/rscf/RSCF _Archive → _COGNITION → _DEL Cluster.md`
+- RSCF _LEGACY BRAIN → Auto → Tech Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Auto → Tech Cluster.md`
+- RSCF _LEGACY BRAIN → Auto → national_banking_os Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Auto → national_banking_os Cluster.md`
+- RSCF _LEGACY BRAIN → Cognitive Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Cognitive Cluster.md`
+- RSCF _LEGACY BRAIN → Core Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core Cluster.md`
+- RSCF _LEGACY BRAIN → Core → 7_Intelligents Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → 7_Intelligents Cluster.md`
+- RSCF _LEGACY BRAIN → Core → Cognitive_Stack → (MOC) — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → (MOC).md`
+- RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Biology — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Biology.md`
+- RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Human_Society — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Human_Society.md`
+- RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Logic Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Logic Cluster.md`
+- RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Systems — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Systems.md`
+- RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Universe — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Universe.md`
+- RSCF _LEGACY BRAIN → Core → Cognitive_Stack → — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack →.md`
+- RSCF _LEGACY BRAIN → Core → Ubi Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Ubi Cluster.md`
+- RSCF _LEGACY BRAIN → Core → Web Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Web Cluster.md`
+- RSCF _LEGACY BRAIN → Domains Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Domains Cluster.md`
+- RSCF _LEGACY BRAIN → Domains → Org_Risk_Policy Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Domains → Org_Risk_Policy Cluster.md`
+- RSCF _LEGACY BRAIN → Domains → Science_Health Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Domains → Science_Health Cluster.md`
+- RSCF _LEGACY BRAIN → Domains → Sub Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Domains → Sub Cluster.md`
+- RSCF _LEGACY BRAIN → Domains → Tech_Systems Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Domains → Tech_Systems Cluster.md`
+- RSCF _LEGACY BRAIN → Kernels Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels Cluster.md`
+- RSCF _LEGACY BRAIN → Kernels → Biology_Cognition Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels → Biology_Cognition Cluster.md`
+- RSCF _LEGACY BRAIN → Kernels → Business Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels → Business Cluster.md`
+- RSCF _LEGACY BRAIN → Kernels → Governance_Risk Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels → Governance_Risk Cluster.md`
+- RSCF _LEGACY BRAIN → Kernels → Logic Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels → Logic Cluster.md`
+- RSCF _LEGACY BRAIN → Kernels → Tech Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels → Tech Cluster.md`
+- RSCF _LEGACY BRAIN → Packs → Country_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Country_Packs Cluster.md`
+- RSCF _LEGACY BRAIN → Packs → Country_Packs → Country_Packs (MOC) — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Country_Packs → Country_Packs (MOC).md`
+- RSCF _LEGACY BRAIN → Packs → Country_Packs → Country_Packs — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Country_Packs → Country_Packs.md`
+- RSCF _LEGACY BRAIN → Packs → Scenario_Packs → — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Scenario_Packs →.md`
+- RSCF _LEGACY BRAIN → Packs → Sector_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Sector_Packs Cluster.md`
+- RSCF _LEGACY BRAIN → Packs → Sector_Packs → Template Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Sector_Packs → Template Cluster.md`
+- RSCF _LEGACY BRAIN → Packs → State_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → State_Packs Cluster.md`
+- RSCF _LEGACY BRAIN → Packs → State_Packs → Template Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → State_Packs → Template Cluster.md`
+- RSCF _LEGACY BRAIN → Packs → Universe_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Universe_Packs Cluster.md`
+- RSCF _LEGACY BRAIN → Unipower Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Unipower Cluster.md`
+- RSCF _LEGACY BRAIN2 → Core Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core Cluster.md`
+- RSCF _LEGACY BRAIN2 → Core → 7_Intelligents Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core → 7_Intelligents Cluster.md`
+- RSCF _LEGACY BRAIN2 → Core → Canonical_Laws Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core → Canonical_Laws Cluster.md`
+- RSCF _LEGACY BRAIN2 → Core → Mind Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core → Mind Cluster.md`
+- RSCF _LEGACY BRAIN2 → Core → Ubi Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core → Ubi Cluster.md`
+- RSCF _LEGACY BRAIN2 → Core → Web Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core → Web Cluster.md`
+- RSCF _LEGACY BRAIN2 → Domains Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains Cluster.md`
+- RSCF _LEGACY BRAIN2 → Domains → Biz_Market Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains → Biz_Market Cluster.md`
+- RSCF _LEGACY BRAIN2 → Domains → Org_Risk_Policy Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains → Org_Risk_Policy Cluster.md`
+- RSCF _LEGACY BRAIN2 → Domains → Science_Health Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains → Science_Health Cluster.md`
+- RSCF _LEGACY BRAIN2 → Domains → Sub Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains → Sub Cluster.md`
+- RSCF _LEGACY BRAIN2 → Domains → Tech_Systems Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains → Tech_Systems Cluster.md`
+- RSCF _LEGACY BRAIN2 → Kernels → Biology_Cognition Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Kernels → Biology_Cognition Cluster.md`
+- RSCF _LEGACY BRAIN2 → Kernels → Business Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Kernels → Business Cluster.md`
+- RSCF _LEGACY BRAIN2 → Kernels → Governance_Risk Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Kernels → Governance_Risk Cluster.md`
+- RSCF _LEGACY BRAIN2 → Kernels → Logic Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Kernels → Logic Cluster.md`
+- RSCF _LEGACY BRAIN2 → Kernels → Tech Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Kernels → Tech Cluster.md`
+- RSCF _LEGACY BRAIN2 → Packs → Country_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Packs → Country_Packs Cluster.md`
+- RSCF _LEGACY BRAIN2 → Packs → Sector_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Packs → Sector_Packs Cluster.md`
+- RSCF _LEGACY BRAIN2 → Packs → State_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Packs → State_Packs Cluster.md`
+- RSCF _LEGACY BRAIN2 → Unipower Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Unipower Cluster.md`
+- RSCF _archive AMOS2 Cluster — `docs/moc/rscf/RSCF _archive AMOS2 Cluster.md`
+- RSCF _root Cluster — `docs/moc/rscf/RSCF _root Cluster.md`
+- RSCF new troy Cluster — `docs/moc/rscf/RSCF new troy Cluster.md`
+- RSCF new troy → Troy Cluster — `docs/moc/rscf/RSCF new troy → Troy Cluster.md`
+- RSCF training Cluster — `docs/moc/rscf/RSCF training Cluster.md`
+- Đ Brain Files MOC — `docs/moc/Đ Brain Files MOC.md`
+
+### `docs/_root/` (86 files)
+
+- 19×19 Go Board — Formal System — `docs/19×19 Go Board — Formal System.md`
+- AMOS-Skill-Quality-Audit-v1 — `docs/AMOS-Skill-Quality-Audit-v1.md`
+- AMOS-Skill-Standardization-Plan — `docs/AMOS-Skill-Standardization-Plan.md`
+- AMOS-architecture-kernel-registry-resolution — `docs/AMOS-architecture-kernel-registry-resolution.md`
+- AMOS-to-Host Runtime Adapter Mapping — `docs/AMOS-to-Host Runtime Adapter Mapping.md`
+- AMOS_Brain_Model_Engineering_Learnings — Vault — `docs/AMOS_Brain_Model_Engineering_Learnings.md — Vault.md`
+- AMOS_Brain_Model_Operational_Layer — Vault Documentation — `docs/AMOS_Brain_Model_Operational_Layer.md — Vault Documentation.md`
+- AMOS_FULL_BRAIN_OS Implementation — Self Test Results — `docs/AMOS_FULL_BRAIN_OS Implementation — Self Test Results.md`
+- AMOS_FULL_BRAIN_OS — 4-File Implementation System — `docs/AMOS_FULL_BRAIN_OS — 4-File Implementation System.md`
+- AMOS_FULL_BRAIN_OS — Canonical Spec Reference — `docs/AMOS_FULL_BRAIN_OS — Canonical Spec Reference.md`
+- AMOS_Five_Component_Architecture — Vault Documentation — `docs/AMOS_Five_Component_Architecture.md — Vault Documentation.md`
+- AMOS_Implementation_Self_Test_Learnings — Vault — `docs/AMOS_Implementation_Self_Test_Learnings.md — Vault.md`
+- AMOS_Infrastructure_Adapter — Design Rationale — `docs/AMOS_Infrastructure_Adapter — Design Rationale.md`
+- AMOS_Kernel_Registry_Engineering_Learnings — Vault — `docs/AMOS_Kernel_Registry_Engineering_Learnings.md — Vault.md`
+- AMOS_Mapper_Integration — Vault Documentation — `docs/AMOS_Mapper_Integration.md — Vault Documentation.md`
+- AMOS_Model_Layer_Spec — Vault Documentation — `docs/AMOS_Model_Layer_Spec.md — Vault Documentation.md`
+- AMOS_Orchestration_Patterns — Vault Documentation — `docs/AMOS_Orchestration_Patterns.md — Vault Documentation.md`
+- AMOS_Standard_Protocols — Vault Documentation — `docs/AMOS_Standard_Protocols.md — Vault Documentation.md`
+- AMOS_Structured_Data_Formats — Vault Documentation — `docs/AMOS_Structured_Data_Formats.md — Vault Documentation.md`
+- Agents Index — `docs/Agents Index.md`
+- Algorithm Execution Records — `docs/Algorithm Execution Records.md`
+- Architecture Learning — Completion Report — `docs/Architecture Learning — Completion Report.md`
+- Architecture Learning — Verification Tour Completion Report — `docs/Architecture Learning — Verification Tour Completion Report.md`
+- Architecture Taxonomy Kernel — `docs/Architecture Taxonomy Kernel.md`
+- Architecture Verification Tour — Final Summary — `docs/Architecture Verification Tour — Final Summary.md`
+- Architecture — Final Corrected Summary (2026-08-22) — `docs/Architecture — Final Corrected Summary (2026-08-22).md`
+- Brain Audit Report — 2026-08-23 — `docs/Brain Audit Report — 2026-08-23.md`
+- Brain Audit — Architecture Guardian (2026-08-22) — `docs/Brain Audit — Architecture Guardian (2026-08-22).md`
+- Brain Consistency Audit — 2026-08-22 — `docs/Brain Consistency Audit — 2026-08-22.md`
+- Brain Consistency Audit — Round 3 (2026-08-22) — `docs/Brain Consistency Audit — Round 3 (2026-08-22).md`
+- Brain Core Cognitive Engine Taxonomy — CORRECTED Pressure — `docs/Brain Core Cognitive Engine Taxonomy — CORRECTED Pressure.md`
+- Brain Core Cognitive Engine Taxonomy — VERIFIED (Expanded) — `docs/Brain Core Cognitive Engine Taxonomy — VERIFIED (Expanded).md`
+- Brain Knowledge Expansion Phase 2 — `docs/Brain Knowledge Expansion Phase 2.md`
+- COSMO API Proposal — `docs/COSMO API Proposal.md`
+- COSMO API Reference — `docs/COSMO API Reference.md`
+- COSMO Architecture Decision Record — `docs/COSMO Architecture Decision Record.md`
+- COSMO Architecture Review & Refactoring Plan — `docs/COSMO Architecture Review & Refactoring Plan.md`
+- COSMO Component Map — `docs/COSMO Component Map.md`
+- COSMO Constraints Verification — `docs/COSMO Constraints Verification.md`
+- COSMO Database Proposal (Supabase Postgres) — `docs/COSMO Database Proposal (Supabase Postgres).md`
+- COSMO Database Schema — `docs/COSMO Database Schema.md`
+- COSMO Deployment Guide — `docs/COSMO Deployment Guide.md`
+- COSMO Implementation Plan — `docs/COSMO Implementation Plan.md`
+- COSMO Known Gaps — `docs/COSMO Known Gaps.md`
+- COSMO Production Readiness Status — `docs/COSMO Production Readiness Status.md`
+- COSMO Requirements Matrix — `docs/COSMO Requirements Matrix.md`
+- COSMO Route Map — `docs/COSMO Route Map.md`
+- COSMO Screen Inventory — `docs/COSMO Screen Inventory.md`
+- COSMO Screen Matrix — `docs/COSMO Screen Matrix.md`
+- COSMO Sound-to-Biosignal Architecture — `docs/COSMO Sound-to-Biosignal Architecture.md`
+- COSMO Supabase Schema (Reconciled) — `docs/COSMO Supabase Schema (Reconciled).md`
+- Canvas Creation Guide — `docs/Canvas Creation Guide.md`
+- Consent Cascade Tests — `docs/Consent Cascade Tests.md`
+- EXECUTION-RECORDS — `docs/EXECUTION-RECORDS.md`
+- Embedded Query Guide — `docs/Embedded Query Guide.md`
+- Full Brain OS — Canonical Architecture (Corrected) — `docs/Full Brain OS — Canonical Architecture (Corrected).md`
+- Full Brain OS — Exhaustive Architectural Reconstruction — `docs/Full Brain OS — Exhaustive Architectural Reconstruction.md`
+- Graph View Guide — `docs/Graph View Guide.md`
+- Kernel Registry Resolution — KERNEL→ENGINE Backing Pattern — `docs/Kernel Registry Resolution — KERNEL→ENGINE Backing Pattern.md`
+- Keyboard Shortcuts — `docs/Keyboard Shortcuts.md`
+- Knowledge Index — `docs/Knowledge Index.md`
+- Obsidian Plugin Recommendations — `docs/Obsidian Plugin Recommendations.md`
+- Obsidian Query Examples — `docs/Obsidian Query Examples.md`
+- Obsidian Vault Guide — `docs/Obsidian Vault Guide.md`
+- Pipeline Data Flow — `docs/Pipeline Data Flow.md`
+- Properties Reference — `docs/Properties Reference.md`
+- RSCF Vault Structure — `docs/RSCF Vault Structure.md`
+- SKILL-CREATION-GUIDE — `docs/SKILL-CREATION-GUIDE.md`
+- Saved Search Queries — `docs/Saved Search Queries.md`
+- Semantic Matrix 19×19 — `docs/Semantic Matrix 19×19.md`
+- Skill Creation Guide — `docs/Skill Creation Guide.md`
+- Skills Index — `docs/Skills Index.md`
+- TROUBLESHOOTING-FAQ — `docs/TROUBLESHOOTING-FAQ.md`
+- Tag Hierarchy — `docs/Tag Hierarchy.md`
+- Taxonomy Kernel — `docs/Taxonomy Kernel.md`
+- Test Coverage Matrix — `docs/Test Coverage Matrix.md`
+- Vault Backup & Restore — `docs/Vault Backup & Restore.md`
+- Vault Changelog — `docs/Vault Changelog.md`
+- Vault Glossary — `docs/Vault Glossary.md`
+- Vault Maintenance Guide — `docs/Vault Maintenance Guide.md`
+- Vault Statistics — `docs/Vault Statistics.md`
+- Workflows Index — `docs/Workflows Index.md`
+- Workspace Layouts — `docs/Workspace Layouts.md`
+- _Archive Index — `docs/_Archive Index.md`
+- docker-compose — `docs/docker-compose.md`
+- inventory_brain — `docs/inventory_brain.md`
+
+### `docs/product/` (7 files)
+
+- COSMO Implementation Plan (PLAN) — `docs/product/COSMO Implementation Plan (PLAN).md`
+- COSMO Known Gaps Summary — `docs/product/COSMO Known Gaps Summary.md`
+- COSMO Missing Inputs — `docs/product/COSMO Missing Inputs.md`
+- COSMO Phase 0 Audit Summary — `docs/product/COSMO Phase 0 Audit Summary.md`
+- COSMO Phase 0 Validation Report — `docs/product/COSMO Phase 0 Validation Report.md`
+- COSMO Risk Register — `docs/product/COSMO Risk Register.md`
+- Screen Matrix — `docs/product/Screen Matrix.md`
+
+### `docs/architecture/` (5 files)
+
+- ADR-001 Initial Architecture for COSMO MVP — `docs/architecture/ADR-001 Initial Architecture for COSMO MVP.md`
+- COSMO Component Map (MAP) — `docs/architecture/COSMO Component Map (MAP).md`
+- COSMO Database Proposal — `docs/architecture/COSMO Database Proposal.md`
+- COSMO Repository Audit — `docs/architecture/COSMO Repository Audit.md`
+- COSMO Route Map (MAP) — `docs/architecture/COSMO Route Map (MAP).md`
+
+### `docs/plans/` (1 files)
+
+- COSMO Mobile App Production Readiness Plan — `docs/plans/COSMO Mobile App Production Readiness Plan.md`
+
+### `docs/api/` (1 files)
+
+- COSMO API Proposal (Proposal) — `docs/api/COSMO API Proposal (Proposal).md`
+
+## `_00_Cosmo brain/` (2661 files)
+
+- 00_Cosmo_Brain_Vault_Knowledge_Index_v1 — `_00_Cosmo brain/00_Cosmo_Brain_Vault_Knowledge_Index_v1.md`
+- 02-Skills-MOC — `_00_Cosmo brain/02-Skills-MOC.md`
+- 03-Brain-MOC — `_00_Cosmo brain/03-Brain-MOC.md`
+- 06-Knowledge-Base-MOC — `_00_Cosmo brain/06-Knowledge-Base-MOC.md`
+- README — `_00_Cosmo brain/README.md`
+- 00_COSMO_BRAIN_VAULT_KNOWLEDGE_INDEX_V1 — `_00_Cosmo brain/_reference/00_COSMO_BRAIN_VAULT_KNOWLEDGE_INDEX_V1.md`
+- AMOS_CC05_MIND_BEHAVIOR — `_00_Cosmo brain/_reference/AMOS_GENERAL/A/CC/AMOS_CC05_MIND_BEHAVIOR.md`
+- AMOS_BRAIN_CORE_CORE — `_00_Cosmo brain/_reference/BRAIN/A/AMOS_BRAIN_CORE_CORE.md`
+- AMOS_BRAIN_MASTER_OS_V0_CORE4 — `_00_Cosmo brain/_reference/BRAIN/A/AMOS_BRAIN_MASTER_OS_V0_CORE4.md`
+- BRAIN_MASTER_OS_V0 — `_00_Cosmo brain/_reference/BRAIN/B/BRAIN_MASTER_OS_V0.md`
+- UNIPOWER_TECH_DESIGN_METABRAIN — `_00_Cosmo brain/_reference/BRAIN/U/UNIPOWER_TECH_DESIGN_METABRAIN.md`
+- AMOS_BRAIN_COGNITIVE_MAX — `_00_Cosmo brain/_reference/COGNITIVE/AMOS_BRAIN_COGNITIVE_MAX.md`
+- AMOS_BRAIN_SUPERXC_COGNITIVE — `_00_Cosmo brain/_reference/COGNITIVE/AMOS_BRAIN_SUPERXC_COGNITIVE.md`
+- AMOS_BRAIN_SUPERXC_UBI_COGNITIVE_MAX — `_00_Cosmo brain/_reference/COGNITIVE/AMOS_BRAIN_SUPERXC_UBI_COGNITIVE_MAX.md`
+- WEALTH_GAME_HACK_50000_EQUATIONS — `_00_Cosmo brain/_reference/ECONOMY/WEALTH_GAME_HACK_50000_EQUATIONS.md`
+- VN_CULTURAL_RITUAL_GIA_HE_ENERGY_10000_EQUATIONS_INVARIANTS — `_00_Cosmo brain/_reference/ENERGY/VN_CULTURAL_RITUAL_GIA_HE_ENERGY_10000_EQUATIONS_INVARIANTS.md`
+- AMOS_CONSULTING_ENGINE_SUPER_X100K_VINFINITY — `_00_Cosmo brain/_reference/ENGINE/A/AMOS_CONSULTING_ENGINE_SUPER_X100K_VINFINITY.md`
+- AMOS_CORP_DOC_ENGINE_SUPER_X100K_VINFINITY — `_00_Cosmo brain/_reference/ENGINE/A/AMOS_CORP_DOC_ENGINE_SUPER_X100K_VINFINITY.md`
+- AMOS_SUPER_CORP_DOC_ENGINE_LIGHT — `_00_Cosmo brain/_reference/ENGINE/A/AMOS_SUPER_CORP_DOC_ENGINE_LIGHT.md`
+- AMOS_SUPER_CORP_DOC_ENGINE_SUPER — `_00_Cosmo brain/_reference/ENGINE/A/AMOS_SUPER_CORP_DOC_ENGINE_SUPER.md`
+- AMOS_UBI_ENGINE_V0_UBI7 — `_00_Cosmo brain/_reference/ENGINE/A/AMOS_UBI_ENGINE_V0_UBI7.md`
+- CONSULTING_ENGINE_SUPER — `_00_Cosmo brain/_reference/ENGINE/C/CONSULTING_ENGINE_SUPER.md`
+- VN_DRIVER_CHARGING_LOGISTICS_SUPER_ENGINE_X100K — `_00_Cosmo brain/_reference/ENGINE/V/VN_DRIVER_CHARGING_LOGISTICS_SUPER_ENGINE_X100K.md`
+- ALL_DOMAIN_FRACTAL_ARCHITECTURE_MASTER_25000 — `_00_Cosmo brain/_reference/FRACTAL/ALL_DOMAIN_FRACTAL_ARCHITECTURE_MASTER_25000.md`
+- HUMAN_BIOLOGY_FRACTAL_EQUATIONS_25000 — `_00_Cosmo brain/_reference/FRACTAL/HUMAN_BIOLOGY_FRACTAL_EQUATIONS_25000.md`
+- MATH_FRACTAL_ARCHITECTURE_25000 — `_00_Cosmo brain/_reference/FRACTAL/MATH_FRACTAL_ARCHITECTURE_25000.md`
+- X25000_HIERARCHICAL_FRACTAL — `_00_Cosmo brain/_reference/FRACTAL/X25000_HIERARCHICAL_FRACTAL.md`
+- X25000_STRICT_FRACTAL_EQUATIONS_ONLY — `_00_Cosmo brain/_reference/FRACTAL/X25000_STRICT_FRACTAL_EQUATIONS_ONLY.md`
+- INDEX_ARXIV_MD — `_00_Cosmo brain/_reference/INDEXES/INDEX_ARXIV_MD.md`
+- AMOS_C02_MATH_COMPUTE — `_00_Cosmo brain/_reference/MATH/AMOS_C02_MATH_COMPUTE.md`
+- AMOS_C02_MATH_COMPUTE_SUPER — `_00_Cosmo brain/_reference/MATH/AMOS_C02_MATH_COMPUTE_SUPER.md`
+- ABSOLUTE_VN_OMNISTRUCTURE_SUPER_X100K — `_00_Cosmo brain/_reference/MISC/A/ABSOLUTE_VN_OMNISTRUCTURE_SUPER_X100K.md`
+- VN_REAL_ESTATE_PHONG_THUY_CONSTRUCTION_INTERIOR_10000_SCAN — `_00_Cosmo brain/_reference/MISC/V/VN_REAL_ESTATE_PHONG_THUY_CONSTRUCTION_INTERIOR_10000_SCAN.md`
+- C08_STRATEGY_GAME_SUPER_X100K — `_00_Cosmo brain/_reference/STRATEGY/C08_STRATEGY_GAME_SUPER_X100K.md`
+- AGENTS_2 — `_00_Cosmo brain/agents/AGENTS_2.md`
+- AGENT_WORKING_INSTRUCTIONS — `_00_Cosmo brain/agents/AGENT_WORKING_INSTRUCTIONS.md`
+- AGENT_WORKING_INSTRUCTIONS_V2 — `_00_Cosmo brain/agents/AGENT_WORKING_INSTRUCTIONS_V2.md`
+- AGENT_WORKING_INSTRUCTIONS_V3 — `_00_Cosmo brain/agents/AGENT_WORKING_INSTRUCTIONS_V3.md`
+- AGENT_WORKING_INSTRUCTIONS_V4 — `_00_Cosmo brain/agents/AGENT_WORKING_INSTRUCTIONS_V4.md`
+- AGENT_WORKING_INSTRUCTIONS_V4_MARCH_16 — `_00_Cosmo brain/agents/AGENT_WORKING_INSTRUCTIONS_V4_MARCH_16.md`
+- AGENT_WORKING_INSTRUCTIONS_V5_MARCH_17 — `_00_Cosmo brain/agents/AGENT_WORKING_INSTRUCTIONS_V5_MARCH_17.md`
+- AMOS_SUPER_AGENT_FINAL_COMPLETE — `_00_Cosmo brain/agents/AMOS_SUPER_AGENT_FINAL_COMPLETE.md`
+- OS_Agent_Model — `_00_Cosmo brain/agents/OS_Agent_Model.md`
+- legal_check_agent — `_00_Cosmo brain/agents/legal_check_agent.md`
+- legal_risk_agent — `_00_Cosmo brain/agents/legal_risk_agent.md`
+- mood_agent — `_00_Cosmo brain/agents/mood_agent.md`
+- opportunity_agent — `_00_Cosmo brain/agents/opportunity_agent.md`
+- subscription_agent — `_00_Cosmo brain/agents/subscription_agent.md`
+- 00_AMOS_Full_Brain_OS_Architecture — `_00_Cosmo brain/amos-general/0/00_AMOS_Full_Brain_OS_Architecture.md`
+- 00_OrchestrationRegulatorExecutionPlan — `_00_Cosmo brain/amos-general/0/00_OrchestrationRegulatorExecutionPlan.md`
+- 00_OrchestrationRegulatorProductionContract — `_00_Cosmo brain/amos-general/0/00_OrchestrationRegulatorProductionContract.md`
+- AMOS_ABSOLUE_HUMAN — `_00_Cosmo brain/amos-general/A/ABSOLUE/AMOS_ABSOLUE_HUMAN.md`
+- AMOS_ACCEPTANCE_REPORT_20260321_013004 — `_00_Cosmo brain/amos-general/A/ACCEPTANCE/AMOS_ACCEPTANCE_REPORT_20260321_013004.md`
+- AGI_COMPLETION_REPORT — `_00_Cosmo brain/amos-general/A/AGI_COMPLETION_REPORT.md`
+- AMOS_AI — `_00_Cosmo brain/amos-general/A/AI/AMOS_AI.md`
+- AMOS_ADVANCED_AI_INTEGRATION_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_ADVANCED_AI_INTEGRATION_COMPLETE.md`
+- AMOS_AGI_INTEGRATION_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_AGI_INTEGRATION_COMPLETE.md`
+- AMOS_ETERNAL_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_ETERNAL_COMPLETE.md`
+- AMOS_INFINITE_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_INFINITE_COMPLETE.md`
+- AMOS_NEXT_GENERATION_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_NEXT_GENERATION_COMPLETE.md`
+- AMOS_OMNISCIENT_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_OMNISCIENT_COMPLETE.md`
+- AMOS_TRANSCENDENT_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_TRANSCENDENT_COMPLETE.md`
+- AMOS ARCHITECTURE — `_00_Cosmo brain/amos-general/A/ARCHITECTURE/AMOS ARCHITECTURE.md`
+- AMOS Absolute Logic DB v1.0 — `_00_Cosmo brain/amos-general/A/Absolute/AMOS Absolute Logic DB v1.0.md`
+- AMOS_ABSOLUTE_LOGIC_CORE19_FULL_FIXED — `_00_Cosmo brain/amos-general/A/Absolute/AMOS_ABSOLUTE_LOGIC_CORE19_FULL_FIXED.md`
+- AMOS_ABSOLUTE_PROTOCOL_SYNTHESIS_COMPLETE — `_00_Cosmo brain/amos-general/A/Absolute/AMOS_ABSOLUTE_PROTOCOL_SYNTHESIS_COMPLETE.md`
+- AMOS_Absolute_Vn_Omnistructure_Pack_v0_Vn4 — `_00_Cosmo brain/amos-general/A/Absolute/AMOS_Absolute_Vn_Omnistructure_Pack_v0_Vn4.md`
+- AMOS_AGENT_REGISTRY — `_00_Cosmo brain/amos-general/A/Agent/AMOS_AGENT_REGISTRY.md`
+- AMOS_Agent_Execution_Templates — `_00_Cosmo brain/amos-general/A/Agent/AMOS_Agent_Execution_Templates.md`
+- AMOS_Agent_Orchestration_Workflow — `_00_Cosmo brain/amos-general/A/Agent/AMOS_Agent_Orchestration_Workflow.md`
+- AMOS_Agent_Skill_Index — `_00_Cosmo brain/amos-general/A/Agent/AMOS_Agent_Skill_Index.md`
+- AMOS_Agent_Specifications — `_00_Cosmo brain/amos-general/A/Agent/AMOS_Agent_Specifications.md`
+- AMOS Audit Quality MAX — `_00_Cosmo brain/amos-general/A/Audit/AMOS Audit Quality MAX.md`
+- AMOS_BIZFIN_Pack_v0 — `_00_Cosmo brain/amos-general/A/BIZFIN/AMOS_BIZFIN_Pack_v0.md`
+- AMOS_BIZFIN_Pack_v0_Sector_Packs7 — `_00_Cosmo brain/amos-general/A/BIZFIN/AMOS_BIZFIN_Pack_v0_Sector_Packs7.md`
+- AMOS_BUILD_FROM_SPEC — `_00_Cosmo brain/amos-general/A/BUILD/AMOS_BUILD_FROM_SPEC.md`
+- AMOS_Biz_Market — `_00_Cosmo brain/amos-general/A/Biz/AMOS_Biz_Market.md`
+- AMOS_C03_physics_cosmos — `_00_Cosmo brain/amos-general/A/C/AMOS_C03_physics_cosmos.md`
+- AMOS_C03_physics_cosmos_SUPER — `_00_Cosmo brain/amos-general/A/C/AMOS_C03_physics_cosmos_SUPER.md`
+- AMOS_C12_Earth_Ecology — `_00_Cosmo brain/amos-general/A/C/AMOS_C12_Earth_Ecology.md`
+- AMOS_C12_Earth_Ecology_SUPER — `_00_Cosmo brain/amos-general/A/C/AMOS_C12_Earth_Ecology_SUPER.md`
+- AMOS_C_CANON_SUPER — `_00_Cosmo brain/amos-general/A/C/AMOS_C_CANON_SUPER.md`
+- AMOS CANON Integration Marker — `_00_Cosmo brain/amos-general/A/CANON/AMOS CANON Integration Marker.md`
+- AMOS_CANONICAL_GLOSSARY — `_00_Cosmo brain/amos-general/A/CANONICAL/AMOS_CANONICAL_GLOSSARY.md`
+- AMOS_CAPABILITY_EXPANSION_COMPLETE_REPORT — `_00_Cosmo brain/amos-general/A/CAPABILITY/AMOS_CAPABILITY_EXPANSION_COMPLETE_REPORT.md`
+- AMOS_CC05_mind_behavior — `_00_Cosmo brain/amos-general/A/CC/AMOS_CC05_mind_behavior.md`
+- AMOS CIL Canon Integration Layer — `_00_Cosmo brain/amos-general/A/CIL/AMOS CIL Canon Integration Layer.md`
+- AMOS_CODING_OMEGA — `_00_Cosmo brain/amos-general/A/CODING/AMOS_CODING_OMEGA.md`
+- AMOS_COMMUNICATION_OMEGA — `_00_Cosmo brain/amos-general/A/COMMUNICATION/AMOS_COMMUNICATION_OMEGA.md`
+- AMOS Core Version Lineage — `_00_Cosmo brain/amos-general/A/CORE/AMOS Core Version Lineage.md`
+- AMOS Core-19 Formal Spec Lean — `_00_Cosmo brain/amos-general/A/CORE/AMOS Core-19 Formal Spec Lean.md`
+- AMOS_CORE - FULL — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE - FULL.md`
+- AMOS_CORE FINAL — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE FINAL.md`
+- AMOS_CORE v3.1 — Logic Fixed — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE v3.1 — Logic Fixed.md`
+- AMOS_CORE v3.2.1 — RSCF HML Recursive Runtime — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE v3.2.1 — RSCF HML Recursive Runtime.md`
+- AMOS_CORE v3.3 — Governed Meta-Evolution Runtime — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE v3.3 — Governed Meta-Evolution Runtime.md`
+- AMOS_CORE v3.4.1 — Distributed Causal Evolution Runtime — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE v3.4.1 — Distributed Causal Evolution Runtime.md`
+- AMOS_CORE v3.5 — Epistemic Regime Lineage Runtime — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE v3.5 — Epistemic Regime Lineage Runtime.md`
+- AMOS_CORE v3.7 — Provenance Topology Runtime — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE v3.7 — Provenance Topology Runtime.md`
+- AMOS_CORE v3.7.1 — Provenance Topology Hardened Runtime — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE v3.7.1 — Provenance Topology Hardened Runtime.md`
+- AMOS_CORE v3.8 — Iterative Provenance Runtime — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE v3.8 — Iterative Provenance Runtime.md`
+- AMOS_CORE v3.9 — Persistent Incremental Provenance Runtime — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE v3.9 — Persistent Incremental Provenance Runtime.md`
+- AMOS_CORE v3 — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE v3.md`
+- AMOS_CORE v4.0 — MVCC Causal Concurrency Runtime — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE v4.0 — MVCC Causal Concurrency Runtime.md`
+- AMOS_CORE v4.1 — Transactional Multi-RSCF Runtime — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE v4.1 — Transactional Multi-RSCF Runtime.md`
+- AMOS_CORE v4.2 — Deterministic Causal Epoch Runtime — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE v4.2 — Deterministic Causal Epoch Runtime.md`
+- AMOS_CORE v4.3 — Hardened Adaptive Epoch Runtime — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE v4.3 — Hardened Adaptive Epoch Runtime.md`
+- AMOS_CORE v4.4 — Coordination Avoidance Runtime — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE v4.4 — Coordination Avoidance Runtime.md`
+- AMOS_CORE — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE.md`
+- AMOS_CORE_v4_6_1_omega_closed_loop_runtime — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE_v4_6_1_omega_closed_loop_runtime.md`
+- AMOS_CORE_v5_3_signed_recovery_authority_runtime — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE_v5_3_signed_recovery_authority_runtime.md`
+- AMOS_CORE_v5_8_external_monotonic_witness_runtime — `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE_v5_8_external_monotonic_witness_runtime.md`
+- AMOS_CROSS_SPECIES_FUNCTIONAL_DYNAMICS_ARCHITECTURE — `_00_Cosmo brain/amos-general/A/CROSS/AMOS_CROSS_SPECIES_FUNCTIONAL_DYNAMICS_ARCHITECTURE.md`
+- AMOS_CROSS_SPECIES_FUNCTIONAL_DYNAMICS_ARCHITECTURE_V3 — `_00_Cosmo brain/amos-general/A/CROSS/AMOS_CROSS_SPECIES_FUNCTIONAL_DYNAMICS_ARCHITECTURE_V3.md`
+- AMOS ChatGPT Bootstrap — `_00_Cosmo brain/amos-general/A/ChatGPT/AMOS ChatGPT Bootstrap.md`
+- AMOS_CHATGPT_BOOTSTRAP — `_00_Cosmo brain/amos-general/A/ChatGPT/AMOS_CHATGPT_BOOTSTRAP.md`
+- AMOS_Code_Architect — `_00_Cosmo brain/amos-general/A/Code/AMOS_Code_Architect.md`
+- AMOS_Cognition_Law_v0 — `_00_Cosmo brain/amos-general/A/Cognition/AMOS_Cognition_Law_v0.md`
+- AMOS Collapse-Space Coverage Audit — `_00_Cosmo brain/amos-general/A/Collapse/AMOS Collapse-Space Coverage Audit.md`
+- AMOS_Complete_Generative_Architecture_12_Basis_Generators — `_00_Cosmo brain/amos-general/A/Complete/AMOS_Complete_Generative_Architecture_12_Basis_Generators.md`
+- AMOS_Country_Profile_Pack_v0_Au4 — `_00_Cosmo brain/amos-general/A/Country/AMOS_Country_Profile_Pack_v0_Au4.md`
+- AMOS_Culture_And_Working_Style_Pack_v0_Au4 — `_00_Cosmo brain/amos-general/A/Culture/AMOS_Culture_And_Working_Style_Pack_v0_Au4.md`
+- AMOS_Culture_And_Working_Style_Pack_v0_Template4 — `_00_Cosmo brain/amos-general/A/Culture/AMOS_Culture_And_Working_Style_Pack_v0_Template4.md`
+- AMOS_DMER_Dual_Loop_Architecture — `_00_Cosmo brain/amos-general/A/DMER/AMOS_DMER_Dual_Loop_Architecture.md`
+- AMOS Designer OS — `_00_Cosmo brain/amos-general/A/Designer/AMOS Designer OS.md`
+- AMOS_21_DOMAIN_MEGA_AGENT — `_00_Cosmo brain/amos-general/A/Domain/AMOS_21_DOMAIN_MEGA_AGENT.md`
+- AMOS_21_Domain_Agent_v0 — `_00_Cosmo brain/amos-general/A/Domain/AMOS_21_Domain_Agent_v0.md`
+- AMOS_Domain_Skills_Catalog — `_00_Cosmo brain/amos-general/A/Domain/AMOS_Domain_Skills_Catalog.md`
+- AMOS Drive Ingest Summary — `_00_Cosmo brain/amos-general/A/Drive/AMOS Drive Ingest Summary.md`
+- AMOS_EXPRESSION_TRANSLATION_Expression — `_00_Cosmo brain/amos-general/A/EXPRESSION/AMOS_EXPRESSION_TRANSLATION_Expression.md`
+- AMOS_EXPRESSION_TRANSLATION_vInfinity_v4 — `_00_Cosmo brain/amos-general/A/EXPRESSION/AMOS_EXPRESSION_TRANSLATION_vInfinity_v4.md`
+- AMOS_Expression_Translation_Workflow — `_00_Cosmo brain/amos-general/A/EXPRESSION/AMOS_Expression_Translation_Workflow.md`
+- AMOS_Economy_And_Sectors_Pack_v0_Au4 — `_00_Cosmo brain/amos-general/A/Economy/AMOS_Economy_And_Sectors_Pack_v0_Au4.md`
+- AMOS_Economy_And_Sectors_Pack_v0_Template4 — `_00_Cosmo brain/amos-general/A/Economy/AMOS_Economy_And_Sectors_Pack_v0_Template4.md`
+- AMOS_Emotion_Law_v0 — `_00_Cosmo brain/amos-general/A/Emotion/AMOS_Emotion_Law_v0.md`
+- AMOS_Ethical_Law_v0 — `_00_Cosmo brain/amos-general/A/Ethical/AMOS_Ethical_Law_v0.md`
+- AMOS — FULL EXPANSION ARCHITECTURE (NON-FLAT, GENE — `_00_Cosmo brain/amos-general/A/FULL/AMOS — FULL EXPANSION ARCHITECTURE (NON-FLAT, GENE.md`
+- AMOS Final Architecture — `_00_Cosmo brain/amos-general/A/Final/AMOS Final Architecture.md`
+- AMOS_GOV_Pack_v0_Sector_Packs7 — `_00_Cosmo brain/amos-general/A/GOV/AMOS_GOV_Pack_v0_Sector_Packs7.md`
+- AMOS_GOVERNOR_SETUP_COMPLETE — `_00_Cosmo brain/amos-general/A/GOVERNOR/AMOS_GOVERNOR_SETUP_COMPLETE.md`
+- AMOS_Giant_Value_Creation_OS_Deep_2026-08-25 — `_00_Cosmo brain/amos-general/A/Giant/AMOS_Giant_Value_Creation_OS_Deep_2026-08-25.md`
+- AMOS_HIE_Pipeline_Workflow — `_00_Cosmo brain/amos-general/A/HIE/AMOS_HIE_Pipeline_Workflow.md`
+- AMOS_HUMAN_Pack_v0_Sector_Packs7 — `_00_Cosmo brain/amos-general/A/HUMAN/AMOS_HUMAN_Pack_v0_Sector_Packs7.md`
+- AMOS_INTEGRATION_TEST_DASHBOARD — `_00_Cosmo brain/amos-general/A/INTEGRATION/AMOS_INTEGRATION_TEST_DASHBOARD.md`
+- AMOS_Identity_Law_v0 — `_00_Cosmo brain/amos-general/A/Identity/AMOS_Identity_Law_v0.md`
+- AMOS_INFRASTRUCTURE_TEST_FIX_RERUN_ARCHITECTURE — `_00_Cosmo brain/amos-general/A/Infrastructure/AMOS_INFRASTRUCTURE_TEST_FIX_RERUN_ARCHITECTURE.md`
+- AMOS_Infrastructure_Agent_Architecture_Test_Fix_Rerun_2026-08-25 — `_00_Cosmo brain/amos-general/A/Infrastructure/AMOS_Infrastructure_Agent_Architecture_Test_Fix_Rerun_2026-08-25.md`
+- AMOS_Infrastructure_And_Logistics_Pack_v0_Au4 — `_00_Cosmo brain/amos-general/A/Infrastructure/AMOS_Infrastructure_And_Logistics_Pack_v0_Au4.md`
+- AMOS_Infrastructure_And_Logistics_Pack_v0_Template4 — `_00_Cosmo brain/amos-general/A/Infrastructure/AMOS_Infrastructure_And_Logistics_Pack_v0_Template4.md`
+- AMOS_Infrastructure_Deep_Report_v23 — `_00_Cosmo brain/amos-general/A/Infrastructure/AMOS_Infrastructure_Deep_Report_v23.md`
+- AMOS_Interpersonal_Law_v0 — `_00_Cosmo brain/amos-general/A/Interpersonal/AMOS_Interpersonal_Law_v0.md`
+- AMOS — JUNIOR ASSISTANT OPERATING GUIDE — `_00_Cosmo brain/amos-general/A/JUNIOR/AMOS — JUNIOR ASSISTANT OPERATING GUIDE.md`
+- AMOS_Labor_And_Talent_Pack_v0_Au4 — `_00_Cosmo brain/amos-general/A/Labor/AMOS_Labor_And_Talent_Pack_v0_Au4.md`
+- AMOS_Labor_And_Talent_Pack_v0_Us4 — `_00_Cosmo brain/amos-general/A/Labor/AMOS_Labor_And_Talent_Pack_v0_Us4.md`
+- AMOS_LANGUAGE_RPG_TRANSFORMATION_v2.0.0 — `_00_Cosmo brain/amos-general/A/Language/AMOS_LANGUAGE_RPG_TRANSFORMATION_v2.0.0.md`
+- AMOS_Language_And_Interface_Pack_v0_Au4 — `_00_Cosmo brain/amos-general/A/Language/AMOS_Language_And_Interface_Pack_v0_Au4.md`
+- AMOS_Language_And_Interface_Pack_v0_Template4 — `_00_Cosmo brain/amos-general/A/Language/AMOS_Language_And_Interface_Pack_v0_Template4.md`
+- AMOS_Legal_And_Regulatory_Pack_v0_Au4 — `_00_Cosmo brain/amos-general/A/Legal/AMOS_Legal_And_Regulatory_Pack_v0_Au4.md`
+- AMOS_Legal_And_Regulatory_Pack_v0_Template4 — `_00_Cosmo brain/amos-general/A/Legal/AMOS_Legal_And_Regulatory_Pack_v0_Template4.md`
+- AMOS Linkage OS — `_00_Cosmo brain/amos-general/A/Linkage/AMOS Linkage OS.md`
+- AMOS MAX Expanded — `_00_Cosmo brain/amos-general/A/MAX/AMOS MAX Expanded.md`
+- AMOS_MAX_EXPANDED — `_00_Cosmo brain/amos-general/A/MAX/AMOS_MAX_EXPANDED.md`
+- AMOS Master Equation Cosmos — `_00_Cosmo brain/amos-general/A/Master/AMOS Master Equation Cosmos.md`
+- AMOS_Memory_Architecture_v0 — `_00_Cosmo brain/amos-general/A/Memory/AMOS_Memory_Architecture_v0.md`
+- AMOS_Meta_Cognition_Self_Improvement — `_00_Cosmo brain/amos-general/A/Meta/AMOS_Meta_Cognition_Self_Improvement.md`
+- AMOS_Mind_Os_v0 — `_00_Cosmo brain/amos-general/A/Mind/AMOS_Mind_Os_v0.md`
+- AMOS_Mind_Os_v0_Core7 — `_00_Cosmo brain/amos-general/A/Mind/AMOS_Mind_Os_v0_Core7.md`
+- AMOS_OMEGA_ENHANCED_COMPLETION_REPORT — `_00_Cosmo brain/amos-general/A/OMEGA/AMOS_OMEGA_ENHANCED_COMPLETION_REPORT.md`
+- AMOS_OMEGA_FX_STRUCTURAL_OS_COMPLETE_REPORT — `_00_Cosmo brain/amos-general/A/OMEGA/AMOS_OMEGA_FX_STRUCTURAL_OS_COMPLETE_REPORT.md`
+- AMOS_OMEGA_INTEGRATION_COMPLETE — `_00_Cosmo brain/amos-general/A/OMEGA/AMOS_OMEGA_INTEGRATION_COMPLETE.md`
+- AMOS_OPTIMIZATION_REPORT — `_00_Cosmo brain/amos-general/A/OPTIMIZATION/AMOS_OPTIMIZATION_REPORT.md`
+- AMOS ORGANISM OS — CANONICAL EXHAUSTIVE PYTHON ARC — `_00_Cosmo brain/amos-general/A/ORGANISM/AMOS ORGANISM OS — CANONICAL EXHAUSTIVE PYTHON ARC.md`
+- AMOS OS Architecture — `_00_Cosmo brain/amos-general/A/OS/AMOS OS Architecture.md`
+- AMOS OS — `_00_Cosmo brain/amos-general/A/OS/AMOS OS.md`
+- AMOS_OS_ABSOLUTE — `_00_Cosmo brain/amos-general/A/OS/AMOS_OS_ABSOLUTE.md`
+- AMOS_OS_FABRICATION_STACK_vInfinity — `_00_Cosmo brain/amos-general/A/OS/AMOS_OS_FABRICATION_STACK_vInfinity.md`
+- AMOS_OS_MasterFile.compressed — `_00_Cosmo brain/amos-general/A/OS/AMOS_OS_MasterFile.compressed.md`
+- AMOS_Os_Agent_v0_Core — `_00_Cosmo brain/amos-general/A/OS/AMOS_Os_Agent_v0_Core.md`
+- AMOS_Os_Agent_v0_Core4 — `_00_Cosmo brain/amos-general/A/OS/AMOS_Os_Agent_v0_Core4.md`
+- AMOS_Os_Agent_v0_Core7 — `_00_Cosmo brain/amos-general/A/OS/AMOS_Os_Agent_v0_Core7.md`
+- AMOS_7_PART_UNIVERSE_CANON_FULL_ARCHITECTURE_V2 — `_00_Cosmo brain/amos-general/A/PART/AMOS_7_PART_UNIVERSE_CANON_FULL_ARCHITECTURE_V2.md`
+- AMOS_7_PART_UNIVERSE_CANON_REFINED — `_00_Cosmo brain/amos-general/A/PART/AMOS_7_PART_UNIVERSE_CANON_REFINED.md`
+- AMOS_PERSONALITY — `_00_Cosmo brain/amos-general/A/PERSONALITY/AMOS_PERSONALITY.md`
+- AMOS PHASE 1 — MAX FUNDING × MAX IP SAFETY — `_00_Cosmo brain/amos-general/A/PHASE/AMOS PHASE 1 — MAX FUNDING × MAX IP SAFETY.md`
+- AMOS_PROTECTED_KNOWLEDGE_TRAINING_CONTROL_ARCHITECTURE_MAX_DETAIL — `_00_Cosmo brain/amos-general/A/PROTECTED/AMOS_PROTECTED_KNOWLEDGE_TRAINING_CONTROL_ARCHITECTURE_MAX_DETAIL.md`
+- AMOS_Pipeline_Verification — `_00_Cosmo brain/amos-general/A/Pipeline/AMOS_Pipeline_Verification.md`
+- AMOS_Readme_Country_Pack_v0_Au4 — `_00_Cosmo brain/amos-general/A/Readme/AMOS_Readme_Country_Pack_v0_Au4.md`
+- AMOS_Readme_Country_Pack_v0_Template4 — `_00_Cosmo brain/amos-general/A/Readme/AMOS_Readme_Country_Pack_v0_Template4.md`
+- AMOS_Readme_Scenario_Packs_Pack_v0_Scenario_Packs — `_00_Cosmo brain/amos-general/A/Readme/AMOS_Readme_Scenario_Packs_Pack_v0_Scenario_Packs.md`
+- AMOS_Readme_Scenario_Packs_Pack_v0_Scenario_Packs_Scenario_Packs — `_00_Cosmo brain/amos-general/A/Readme/AMOS_Readme_Scenario_Packs_Pack_v0_Scenario_Packs_Scenario_Packs.md`
+- AMOS_Readme_Sector_Pack_v0_Template4 — `_00_Cosmo brain/amos-general/A/Readme/AMOS_Readme_Sector_Pack_v0_Template4.md`
+- AMOS_Readme_State_Pack_v0_Template — `_00_Cosmo brain/amos-general/A/Readme/AMOS_Readme_State_Pack_v0_Template.md`
+- AMOS_Readme_State_Packs_Pack_v0_State_Packs4 — `_00_Cosmo brain/amos-general/A/Readme/AMOS_Readme_State_Packs_Pack_v0_State_Packs4.md`
+- AMOS_Risk_And_Crisis_Profile_Pack_v0_Au4 — `_00_Cosmo brain/amos-general/A/Risk/AMOS_Risk_And_Crisis_Profile_Pack_v0_Au4.md`
+- AMOS_SCIENCE_Pack_v0_Sector_Packs7 — `_00_Cosmo brain/amos-general/A/SCIENCE/AMOS_SCIENCE_Pack_v0_Sector_Packs7.md`
+- AMOS_SI_SUPER — `_00_Cosmo brain/amos-general/A/SI/AMOS_SI_SUPER.md`
+- AMOS_Sector_Definition_Pack_v0_Template — `_00_Cosmo brain/amos-general/A/Sector/AMOS_Sector_Definition_Pack_v0_Template.md`
+- AMOS_Sector_Definition_Pack_v0_Template_Template_Template — `_00_Cosmo brain/amos-general/A/Sector/AMOS_Sector_Definition_Pack_v0_Template_Template_Template.md`
+- AMOS_Sector_Economics_Pack_v0_Template — `_00_Cosmo brain/amos-general/A/Sector/AMOS_Sector_Economics_Pack_v0_Template.md`
+- AMOS_Sector_Economics_Pack_v0_Template_Template — `_00_Cosmo brain/amos-general/A/Sector/AMOS_Sector_Economics_Pack_v0_Template_Template.md`
+- AMOS_Sector_Regulations_Pack_v0_Template — `_00_Cosmo brain/amos-general/A/Sector/AMOS_Sector_Regulations_Pack_v0_Template.md`
+- AMOS_Sector_Technology_Pack_v0_Template4 — `_00_Cosmo brain/amos-general/A/Sector/AMOS_Sector_Technology_Pack_v0_Template4.md`
+- AMOS_Sector_Technology_Pack_v0_Template4_Template — `_00_Cosmo brain/amos-general/A/Sector/AMOS_Sector_Technology_Pack_v0_Template4_Template.md`
+- AMOS_Sector_Value_Chain_Pack_v0_Template — `_00_Cosmo brain/amos-general/A/Sector/AMOS_Sector_Value_Chain_Pack_v0_Template.md`
+- AMOS_Self_Model_v0 — `_00_Cosmo brain/amos-general/A/Self/AMOS_Self_Model_v0.md`
+- AMOS_Signal_Economy_Aligned — `_00_Cosmo brain/amos-general/A/Signal/AMOS_Signal_Economy_Aligned.md`
+- AMOS_Skill_Creation_Workflow — `_00_Cosmo brain/amos-general/A/Skill/AMOS_Skill_Creation_Workflow.md`
+- AMOS Species Interaction Core HIE — `_00_Cosmo brain/amos-general/A/Species/AMOS Species Interaction Core HIE.md`
+- AMOS_State_Economy_Pack_v0_Template — `_00_Cosmo brain/amos-general/A/State/AMOS_State_Economy_Pack_v0_Template.md`
+- AMOS_State_Infrastructure_Pack_v0_Template — `_00_Cosmo brain/amos-general/A/State/AMOS_State_Infrastructure_Pack_v0_Template.md`
+- AMOS_State_Infrastructure_Pack_v0_Template_Template — `_00_Cosmo brain/amos-general/A/State/AMOS_State_Infrastructure_Pack_v0_Template_Template.md`
+- AMOS_State_Legal_Pack_v0_Template — `_00_Cosmo brain/amos-general/A/State/AMOS_State_Legal_Pack_v0_Template.md`
+- AMOS_State_Legal_Pack_v0_Template_Template — `_00_Cosmo brain/amos-general/A/State/AMOS_State_Legal_Pack_v0_Template_Template.md`
+- AMOS_State_Profile_Pack_v0_Template — `_00_Cosmo brain/amos-general/A/State/AMOS_State_Profile_Pack_v0_Template.md`
+- AMOS_State_Profile_Pack_v0_Template_Template — `_00_Cosmo brain/amos-general/A/State/AMOS_State_Profile_Pack_v0_Template_Template.md`
+- AMOS_State_Risk_Pack_v0_Template — `_00_Cosmo brain/amos-general/A/State/AMOS_State_Risk_Pack_v0_Template.md`
+- AMOS_State_Risk_Pack_v0_Template_Template — `_00_Cosmo brain/amos-general/A/State/AMOS_State_Risk_Pack_v0_Template_Template.md`
+- AMOS_TECH_Pack_v0_Sector_Packs7 — `_00_Cosmo brain/amos-general/A/TECH/AMOS_TECH_Pack_v0_Sector_Packs7.md`
+- AMOS_Tax_And_Fiscal_Pack_v0_Au4 — `_00_Cosmo brain/amos-general/A/Tax/AMOS_Tax_And_Fiscal_Pack_v0_Au4.md`
+- AMOS_Tax_And_Fiscal_Pack_v0_Us4 — `_00_Cosmo brain/amos-general/A/Tax/AMOS_Tax_And_Fiscal_Pack_v0_Us4.md`
+- AMOS_UNCOPYABLE_TRAINING_ARCHITECTURE_v2.0.0_CORE-v4.4 — `_00_Cosmo brain/amos-general/A/UNCOPYABLE/AMOS_UNCOPYABLE_TRAINING_ARCHITECTURE_v2.0.0_CORE-v4.4.md`
+- AMOS_UNIFIED_OS_AGENT_MERGED — `_00_Cosmo brain/amos-general/A/UNIFIED/AMOS_UNIFIED_OS_AGENT_MERGED.md`
+- AMOS UNIVERSE — `_00_Cosmo brain/amos-general/A/Universe/AMOS UNIVERSE.md`
+- AMOS Universe OS Masterfile — Unified Canon Architecture — `_00_Cosmo brain/amos-general/A/Universe/AMOS Universe OS Masterfile — Unified Canon Architecture.md`
+- AMOS Universe Structure Tree — `_00_Cosmo brain/amos-general/A/Universe/AMOS Universe Structure Tree.md`
+- AMOS Universe Total Canon UTC Master File — `_00_Cosmo brain/amos-general/A/Universe/AMOS Universe Total Canon UTC Master File.md`
+- AMOS_UNIVERSE_CORE — `_00_Cosmo brain/amos-general/A/Universe/AMOS_UNIVERSE_CORE.md`
+- AMOS_UNIVERSE_OS_FULL_BUNDLE — `_00_Cosmo brain/amos-general/A/Universe/AMOS_UNIVERSE_OS_FULL_BUNDLE.md`
+- AMOS_Vn_Country_Profile_Pack_v0_Vn4 — `_00_Cosmo brain/amos-general/A/Vn/AMOS_Vn_Country_Profile_Pack_v0_Vn4.md`
+- AMOS_Vn_Culture_And_Working_Style_Pack_v0_Vn4 — `_00_Cosmo brain/amos-general/A/Vn/AMOS_Vn_Culture_And_Working_Style_Pack_v0_Vn4.md`
+- AMOS_Vn_Economy_And_Sectors_Pack_v0_Vn4 — `_00_Cosmo brain/amos-general/A/Vn/AMOS_Vn_Economy_And_Sectors_Pack_v0_Vn4.md`
+- AMOS_Vn_Infrastructure_And_Logistics_Pack_v0_Vn4 — `_00_Cosmo brain/amos-general/A/Vn/AMOS_Vn_Infrastructure_And_Logistics_Pack_v0_Vn4.md`
+- AMOS_Vn_Labor_And_Talent_Pack_v0_Vn4 — `_00_Cosmo brain/amos-general/A/Vn/AMOS_Vn_Labor_And_Talent_Pack_v0_Vn4.md`
+- AMOS_Vn_Language_And_Interface_Pack_v0_Vn4 — `_00_Cosmo brain/amos-general/A/Vn/AMOS_Vn_Language_And_Interface_Pack_v0_Vn4.md`
+- AMOS_Vn_Legal_And_Regulatory_Pack_v0_Vn4 — `_00_Cosmo brain/amos-general/A/Vn/AMOS_Vn_Legal_And_Regulatory_Pack_v0_Vn4.md`
+- AMOS_Vn_Risk_And_Crisis_Profile_Pack_v0_Vn4 — `_00_Cosmo brain/amos-general/A/Vn/AMOS_Vn_Risk_And_Crisis_Profile_Pack_v0_Vn4.md`
+- AMOS_Vn_Tax_And_Fiscal_Pack_v0_Vn4 — `_00_Cosmo brain/amos-general/A/Vn/AMOS_Vn_Tax_And_Fiscal_Pack_v0_Vn4.md`
+- AMOS_Vortical_Persistence_Deep_RSCF_Architecture — `_00_Cosmo brain/amos-general/A/Vortical/AMOS_Vortical_Persistence_Deep_RSCF_Architecture.md`
+- AMOS All Frameworks Canon Hierarchy — `_00_Cosmo brain/amos-general/A/all/AMOS All Frameworks Canon Hierarchy.md`
+- AMOS all frameworks (drive-download-20260812T103607Z-1-001 2) — `_00_Cosmo brain/amos-general/A/all/AMOS all frameworks (drive-download-20260812T103607Z-1-001 2).md`
+- AMOS all frameworks — `_00_Cosmo brain/amos-general/A/all/AMOS all frameworks.md`
+- AMOS.config — `_00_Cosmo brain/amos-general/A/amos/AMOS.config.md`
+- AMOS — `_00_Cosmo brain/amos-general/A/amos/AMOS.md`
+- AMOS–ARITHMETIC GEOMETRY MAPPING — `_00_Cosmo brain/amos-general/A/amos/AMOS–ARITHMETIC GEOMETRY MAPPING.md`
+- AMOS–COMPLEX ANALYSIS BRIDGE — `_00_Cosmo brain/amos-general/A/amos/AMOS–COMPLEX ANALYSIS BRIDGE.md`
+- AMOS–COMPUTATIONAL COMPLEXITY MODEL — `_00_Cosmo brain/amos-general/A/amos/AMOS–COMPUTATIONAL COMPLEXITY MODEL.md`
+- AMOS–PDE STABILITY THEORY — `_00_Cosmo brain/amos-general/A/amos/AMOS–PDE STABILITY THEORY.md`
+- AMOS–RICCI DICTIONARY — `_00_Cosmo brain/amos-general/A/amos/AMOS–RICCI DICTIONARY.md`
+- Amos rare — `_00_Cosmo brain/amos-general/A/amos/Amos rare.md`
+- amos os definition — `_00_Cosmo brain/amos-general/A/amos/amos os definition.md`
+- amos-21-domain-agent — `_00_Cosmo brain/amos-general/A/amos/amos-21-domain-agent.md`
+- amos-7-intelligents — `_00_Cosmo brain/amos-general/A/amos/amos-7-intelligents.md`
+- amos-absolute-human-layer — `_00_Cosmo brain/amos-general/A/amos/amos-absolute-human-layer.md`
+- amos-absolute-logic-core19-full — `_00_Cosmo brain/amos-general/A/amos/amos-absolute-logic-core19-full.md`
+- amos-absolute-logic-layer — `_00_Cosmo brain/amos-general/A/amos/amos-absolute-logic-layer.md`
+- amos-absolute-omniverse-layer — `_00_Cosmo brain/amos-general/A/amos/amos-absolute-omniverse-layer.md`
+- amos-absolute-vn-omnistructure-pack — `_00_Cosmo brain/amos-general/A/amos/amos-absolute-vn-omnistructure-pack.md`
+- amos-automation-profiles — `_00_Cosmo brain/amos-general/A/amos/amos-automation-profiles.md`
+- amos-biology-cognition-layer — `_00_Cosmo brain/amos-general/A/amos/amos-biology-cognition-layer.md`
+- amos-canon-integration-layer — `_00_Cosmo brain/amos-general/A/amos/amos-canon-integration-layer.md`
+- amos-competing-hypotheses — `_00_Cosmo brain/amos-general/A/amos/amos-competing-hypotheses.md`
+- amos-core-reasoning — `_00_Cosmo brain/amos-general/A/amos/amos-core-reasoning.md`
+- amos-decision-reasoning-filter — `_00_Cosmo brain/amos-general/A/amos/amos-decision-reasoning-filter.md`
+- amos-designer-os-profiles — `_00_Cosmo brain/amos-general/A/amos/amos-designer-os-profiles.md`
+- amos-deterministic-logic-law-layer — `_00_Cosmo brain/amos-general/A/amos/amos-deterministic-logic-law-layer.md`
+- amos-extractive-economy-layer — `_00_Cosmo brain/amos-general/A/amos/amos-extractive-economy-layer.md`
+- amos-go-board-19x19 — `_00_Cosmo brain/amos-general/A/amos/amos-go-board-19x19.md`
+- amos-governed-evolution — `_00_Cosmo brain/amos-general/A/amos/amos-governed-evolution.md`
+- amos-grand-cannon-mobility-layer — `_00_Cosmo brain/amos-general/A/amos/amos-grand-cannon-mobility-layer.md`
+- amos-knowledge-gap-scan — `_00_Cosmo brain/amos-general/A/amos/amos-knowledge-gap-scan.md`
+- amos-medical-clinical — `_00_Cosmo brain/amos-general/A/amos/amos-medical-clinical.md`
+- amos-memory-reconstruction-rscf — `_00_Cosmo brain/amos-general/A/amos/amos-memory-reconstruction-rscf.md`
+- amos-new-troy-research — `_00_Cosmo brain/amos-general/A/amos/amos-new-troy-research.md`
+- amos-npm-enotempty-recovery — `_00_Cosmo brain/amos-general/A/amos/amos-npm-enotempty-recovery.md`
+- amos-os-agent-layer — `_00_Cosmo brain/amos-general/A/amos/amos-os-agent-layer.md`
+- amos-os-masterfile-layer — `_00_Cosmo brain/amos-general/A/amos/amos-os-masterfile-layer.md`
+- amos-packs-country-sector-universe — `_00_Cosmo brain/amos-general/A/amos/amos-packs-country-sector-universe.md`
+- amos-provenance-trust — `_00_Cosmo brain/amos-general/A/amos/amos-provenance-trust.md`
+- amos-readme-sector-pack — `_00_Cosmo brain/amos-general/A/amos/amos-readme-sector-pack.md`
+- amos-rscf-claims — `_00_Cosmo brain/amos-general/A/amos/amos-rscf-claims.md`
+- amos-sector-definition-pack — `_00_Cosmo brain/amos-general/A/amos/amos-sector-definition-pack.md`
+- amos-sector-economics-pack — `_00_Cosmo brain/amos-general/A/amos/amos-sector-economics-pack.md`
+- amos-sector-regulations-pack — `_00_Cosmo brain/amos-general/A/amos/amos-sector-regulations-pack.md`
+- amos-sector-technology-pack — `_00_Cosmo brain/amos-general/A/amos/amos-sector-technology-pack.md`
+- amos-sector-value-chain-pack — `_00_Cosmo brain/amos-general/A/amos/amos-sector-value-chain-pack.md`
+- amos-self-review-loop — `_00_Cosmo brain/amos-general/A/amos/amos-self-review-loop.md`
+- amos-signal-processing-layer — `_00_Cosmo brain/amos-general/A/amos/amos-signal-processing-layer.md`
+- amos-skill-dependency-graph — `_00_Cosmo brain/amos-general/A/amos/amos-skill-dependency-graph.md`
+- amos-society-culture-layer — `_00_Cosmo brain/amos-general/A/amos/amos-society-culture-layer.md`
+- amos-species-interaction — `_00_Cosmo brain/amos-general/A/amos/amos-species-interaction.md`
+- amos-speed-token-governor — `_00_Cosmo brain/amos-general/A/amos/amos-speed-token-governor.md`
+- amos-strategy-game-layer — `_00_Cosmo brain/amos-general/A/amos/amos-strategy-game-layer.md`
+- amos-super-mind-os-layer — `_00_Cosmo brain/amos-general/A/amos/amos-super-mind-os-layer.md`
+- amos-tech-expanded-design-layer — `_00_Cosmo brain/amos-general/A/amos/amos-tech-expanded-design-layer.md`
+- amos-uni-ai-intelligence-layer — `_00_Cosmo brain/amos-general/A/amos/amos-uni-ai-intelligence-layer.md`
+- amos-uni-market-logistics-layer — `_00_Cosmo brain/amos-general/A/amos/amos-uni-market-logistics-layer.md`
+- amos-v21-integration — `_00_Cosmo brain/amos-general/A/amos/amos-v21-integration.md`
+- amos-vn-omnistructure-layer — `_00_Cosmo brain/amos-general/A/amos/amos-vn-omnistructure-layer.md`
+- amos_continuation_results — `_00_Cosmo brain/amos-general/A/amos/amos_continuation_results.md`
+- amos_conversation_snapshot — `_00_Cosmo brain/amos-general/A/amos/amos_conversation_snapshot.md`
+- amos_full_architecture_complete_form — `_00_Cosmo brain/amos-general/A/amos/amos_full_architecture_complete_form.md`
+- amos_immune_audit_report — `_00_Cosmo brain/amos-general/A/amos/amos_immune_audit_report.md`
+- amos_immune_auditor — `_00_Cosmo brain/amos-general/A/amos/amos_immune_auditor.md`
+- amos_immune_auditor_fixed — `_00_Cosmo brain/amos-general/A/amos/amos_immune_auditor_fixed.md`
+- amos_modes — `_00_Cosmo brain/amos-general/A/amos/amos_modes.md`
+- amos_omega_bridge_api — `_00_Cosmo brain/amos-general/A/amos/amos_omega_bridge_api.md`
+- amos_omega_launcher — `_00_Cosmo brain/amos-general/A/amos/amos_omega_launcher.md`
+- amos_omega_n8n_workflows — `_00_Cosmo brain/amos-general/A/amos/amos_omega_n8n_workflows.md`
+- amos_omega_ultimate_integration — `_00_Cosmo brain/amos-general/A/amos/amos_omega_ultimate_integration.md`
+- amos_performance_optimizer — `_00_Cosmo brain/amos-general/A/amos/amos_performance_optimizer.md`
+- amos_phase_d_consolidation — `_00_Cosmo brain/amos-general/A/amos/amos_phase_d_consolidation.md`
+- amos_phase_d_consolidation_plan — `_00_Cosmo brain/amos-general/A/amos/amos_phase_d_consolidation_plan.md`
+- amos_phase_d_execution — `_00_Cosmo brain/amos-general/A/amos/amos_phase_d_execution.md`
+- amos_phase_d_execution_log — `_00_Cosmo brain/amos-general/A/amos/amos_phase_d_execution_log.md`
+- amos_phase_d_execution_results — `_00_Cosmo brain/amos-general/A/amos/amos_phase_d_execution_results.md`
+- amos_phase_d_execution_summary — `_00_Cosmo brain/amos-general/A/amos/amos_phase_d_execution_summary.md`
+- amos_phase_d_results — `_00_Cosmo brain/amos-general/A/amos/amos_phase_d_results.md`
+- amos_phase_d_summary — `_00_Cosmo brain/amos-general/A/amos/amos_phase_d_summary.md`
+- amos_resource_monitor — `_00_Cosmo brain/amos-general/A/amos/amos_resource_monitor.md`
+- amos_setup_mega — `_00_Cosmo brain/amos-general/A/amos/amos_setup_mega.md`
+- amos_state — `_00_Cosmo brain/amos-general/A/amos/amos_state.md`
+- amos_supreme_continuation_report — `_00_Cosmo brain/amos-general/A/amos/amos_supreme_continuation_report.md`
+- AMOS forex__data__oanda_data_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__data__oanda_data_service.md`
+- AMOS forex__db__init — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__db__init.md`
+- AMOS forex__execution__execution_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__execution__execution_service.md`
+- AMOS forex__monitoring__monitoring_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__monitoring__monitoring_service.md`
+- AMOS forex__package-lock — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__package-lock.md`
+- AMOS forex__packages__murk__primitives — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__packages__murk__primitives.md`
+- AMOS forex__packages__ulk__meta_laws — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__packages__ulk__meta_laws.md`
+- AMOS forex__research__research_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__research__research_service.md`
+- AMOS forex__risk__risk_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__risk__risk_service.md`
+- AMOS forex__run_tests — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__run_tests.md`
+- AMOS forex__signal__signal_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__signal__signal_service.md`
+- AMOS forex__tests__unit__data_service.test — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__tests__unit__data_service.test.md`
+- AMOS forex__validation__validation_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__validation__validation_service.md`
+- AMOS_v5_3_final_verification_report — `_00_Cosmo brain/amos-general/A/v/AMOS_v5_3_final_verification_report.md`
+- AMOS version — `_00_Cosmo brain/amos-general/A/version/AMOS version.md`
+- AMOS vs Other Frontier AI vs Global Top Humans — A — `_00_Cosmo brain/amos-general/A/vs/AMOS vs Other Frontier AI vs Global Top Humans — A.md`
+- final amos — `_00_Cosmo brain/amos-general/F/final amos.md`
+- HỆ THỐNG SẢN XUẤT HYDRO AMOS–IKONOMY — `_00_Cosmo brain/amos-general/H/HỆ THỐNG SẢN XUẤT HYDRO AMOS–IKONOMY.md`
+- INDEX_AMOS-Consulting-GitHub — `_00_Cosmo brain/amos-general/I/INDEX_AMOS-Consulting-GitHub.md`
+- INDEX_AMOS-Consulting — `_00_Cosmo brain/amos-general/I/INDEX_AMOS-Consulting.md`
+- Kiến trúc thực tại AMOS Mô hình cấu trúc không kho — `_00_Cosmo brain/amos-general/K/Kiến trúc thực tại AMOS Mô hình cấu trúc không kho.md`
+- manifest (amos-skills) — `_00_Cosmo brain/amos-general/M/manifest (amos-skills).md`
+- md__2026-08-23 AMOS Absolute Integrity Pass — `_00_Cosmo brain/amos-general/M/md__2026-08-23 AMOS Absolute Integrity Pass.md`
+- mother amos — `_00_Cosmo brain/amos-general/M/mother amos.md`
+- NEXT_GENERATION_ROADMAP — `_00_Cosmo brain/amos-general/N/NEXT_GENERATION_ROADMAP.md`
+- OFFLINE_AGI_LAB_COMPLETE — `_00_Cosmo brain/amos-general/O/OFFLINE_AGI_LAB_COMPLETE.md`
+- OMEGA_IMPLEMENTATION_COMPLETE — `_00_Cosmo brain/amos-general/O/OMEGA_IMPLEMENTATION_COMPLETE.md`
+- run_amos — `_00_Cosmo brain/amos-general/R/run_amos.md`
+- setup_amos_v2 — `_00_Cosmo brain/amos-general/S/setup_amos_v2.md`
+- TÀI LIỆU THIẾT KẾ KỸ THUẬT HỆ THỐNG AMOS–IKONOMY — `_00_Cosmo brain/amos-general/T/TÀI LIỆU THIẾT KẾ KỸ THUẬT HỆ THỐNG AMOS–IKONOMY.md`
+- THIẾT KẾ HỆ THỐNG AMOS-IKONOMY (PHẦN CỨNG + PHẦN M — `_00_Cosmo brain/amos-general/T/THIẾT KẾ HỆ THỐNG AMOS-IKONOMY (PHẦN CỨNG + PHẦN M.md`
+- Thiết kế “AMOS-IKONOMY — `_00_Cosmo brain/amos-general/T/Thiết kế “AMOS-IKONOMY.md`
+- ULTIMATE_ENHANCEMENT_COMPLETE — `_00_Cosmo brain/amos-general/U/ULTIMATE_ENHANCEMENT_COMPLETE.md`
+- ULTIMATE_PRODUCTION_SYSTEM_COMPLETE — `_00_Cosmo brain/amos-general/U/ULTIMATE_PRODUCTION_SYSTEM_COMPLETE.md`
+- VIETNAMESE Executive Summary 19x19 AMOS — `_00_Cosmo brain/amos-general/V/VIETNAMESE Executive Summary 19x19 AMOS.md`
+- ARCHITECTURE OF ARCHITECTURE — `_00_Cosmo brain/architecture/ARCHITECTURE OF ARCHITECTURE.md`
+- Absolute Integrity Architecture™ — Canonical Root — `_00_Cosmo brain/architecture/Absolute Integrity Architecture™ — Canonical Root.md`
+- Architecture_Guardian_Agent — `_00_Cosmo brain/architecture/Architecture_Guardian_Agent.md`
+- BioCurrency The Monetary Architecture of Living In — `_00_Cosmo brain/architecture/BioCurrency The Monetary Architecture of Living In.md`
+- DSc ScD Portfolio - Three Canon Architecture — `_00_Cosmo brain/architecture/DSc ScD Portfolio - Three Canon Architecture.md`
+- Four-Process-Architecture-DMER — `_00_Cosmo brain/architecture/Four-Process-Architecture-DMER.md`
+- Hierarchical AI Architecture Generator v2 — `_00_Cosmo brain/architecture/Hierarchical AI Architecture Generator v2.md`
+- KIẾN TRÚC CỦA KIẾN TRÚC (ARCHITECTURE OF ARCHITECT — `_00_Cosmo brain/architecture/KIẾN TRÚC CỦA KIẾN TRÚC (ARCHITECTURE OF ARCHITECT.md`
+- NeuroSyncAI Deterministic Architecture — `_00_Cosmo brain/architecture/NeuroSyncAI Deterministic Architecture.md`
+- THE ARCHITECTURE OF WAR AND PEACE — `_00_Cosmo brain/architecture/THE ARCHITECTURE OF WAR AND PEACE.md`
+- THE ARCHITECTURE OF WAR — `_00_Cosmo brain/architecture/THE ARCHITECTURE OF WAR.md`
+- The Architecture Beneath Science Why Experiments A — `_00_Cosmo brain/architecture/The Architecture Beneath Science Why Experiments A.md`
+- The Architecture of Intelligence and Perception — — `_00_Cosmo brain/architecture/The Architecture of Intelligence and Perception —.md`
+- The Architecture of Okay — `_00_Cosmo brain/architecture/The Architecture of Okay.md`
+- The Living Stack_ A Comprehensive Scientific Architecture Thesis (Expanded) — `_00_Cosmo brain/architecture/The Living Stack_ A Comprehensive Scientific Architecture Thesis (Expanded).md`
+- The Three-Layer Architecture of Consciousness — `_00_Cosmo brain/architecture/The Three-Layer Architecture of Consciousness.md`
+- The_Intelligence_OS_Useful_Architecture — `_00_Cosmo brain/architecture/The_Intelligence_OS_Useful_Architecture.md`
+- ai_architecture_factory_v2 — `_00_Cosmo brain/architecture/ai_architecture_factory_v2.md`
+- ai_architecture_factory_v2_ontology (hierarchical_ai_architecture_generator) — `_00_Cosmo brain/architecture/ai_architecture_factory_v2_ontology (hierarchical_ai_architecture_generator).md`
+- ai_architecture_factory_v2_ontology — `_00_Cosmo brain/architecture/ai_architecture_factory_v2_ontology.md`
+- ai_entropy_architecture 2 — `_00_Cosmo brain/architecture/ai_entropy_architecture 2.md`
+- ai_equation_architecture_25000 — `_00_Cosmo brain/architecture/ai_equation_architecture_25000.md`
+- ai_equation_architecture_dataset 2 — `_00_Cosmo brain/architecture/ai_equation_architecture_dataset 2.md`
+- architecture_ontology — `_00_Cosmo brain/architecture/architecture_ontology.md`
+- chemistry_architecture — `_00_Cosmo brain/architecture/chemistry_architecture.md`
+- cognition_ai_architecture — `_00_Cosmo brain/architecture/cognition_ai_architecture.md`
+- design_visual_architecture — `_00_Cosmo brain/architecture/design_visual_architecture.md`
+- electromagnetic_architecture — `_00_Cosmo brain/architecture/electromagnetic_architecture.md`
+- goal_driven_ai_architecture_generator_v2 — `_00_Cosmo brain/architecture/goal_driven_ai_architecture_generator_v2.md`
+- goal_driven_ai_architecture_ontology — `_00_Cosmo brain/architecture/goal_driven_ai_architecture_ontology.md`
+- gravity_architecture — `_00_Cosmo brain/architecture/gravity_architecture.md`
+- hierarchical_ai_architecture_generator — `_00_Cosmo brain/architecture/hierarchical_ai_architecture_generator.md`
+- information_architecture — `_00_Cosmo brain/architecture/information_architecture.md`
+- language_architecture — `_00_Cosmo brain/architecture/language_architecture.md`
+- light_architecture — `_00_Cosmo brain/architecture/light_architecture.md`
+- nuclear_proton_micro_architecture — `_00_Cosmo brain/architecture/nuclear_proton_micro_architecture.md`
+- prediction_architecture_v19_no_overlap — `_00_Cosmo brain/architecture/prediction_architecture_v19_no_overlap.md`
+- time_architecture — `_00_Cosmo brain/architecture/time_architecture.md`
+- tlge_architecture — `_00_Cosmo brain/architecture/tlge_architecture.md`
+- AMOS_CRITICAL_FIXES_ANALYSIS — `_00_Cosmo brain/audit/AMOS_CRITICAL_FIXES_ANALYSIS.md`
+- Audit_Quality_MAX — `_00_Cosmo brain/audit/Audit_Quality_MAX.md`
+- GROUND_TRUTH_CORE_COMPLETE — `_00_Cosmo brain/audit/GROUND_TRUTH_CORE_COMPLETE.md`
+- HALLUCINATION_CLEANUP_REPORT — `_00_Cosmo brain/audit/HALLUCINATION_CLEANUP_REPORT.md`
+- REAL_CODE_VERIFICATION_COMPLETE — `_00_Cosmo brain/audit/REAL_CODE_VERIFICATION_COMPLETE.md`
+- TRUTH_CALIBRATION_IMPLEMENTATION_COMPLETE — `_00_Cosmo brain/audit/TRUTH_CALIBRATION_IMPLEMENTATION_COMPLETE.md`
+- UBS-Backed Gold Transaction → Audited Impact (One- — `_00_Cosmo brain/audit/UBS-Backed Gold Transaction → Audited Impact (One-.md`
+- raw_write_violations — `_00_Cosmo brain/audit/raw_write_violations.md`
+- 🧠 Global Raw Intelligence Audit Framework™ (GRIAF™ — `_00_Cosmo brain/audit/🧠 Global Raw Intelligence Audit Framework™ (GRIAF™.md`
+- AMOS_BIOLOGICAL_CONSCIOUSNESS_ENGINE_COMPLETION_REPORT — `_00_Cosmo brain/biology-ubi/AMOS_BIOLOGICAL_CONSCIOUSNESS_ENGINE_COMPLETION_REPORT.md`
+- AMOS_BIOLOGICAL_CONSCIOUSNESS_ENGINE_FINAL_REPORT — `_00_Cosmo brain/biology-ubi/AMOS_BIOLOGICAL_CONSCIOUSNESS_ENGINE_FINAL_REPORT.md`
+- AMOS_EMBODIED_MACHINE_FINAL_COMPLETE — `_00_Cosmo brain/biology-ubi/AMOS_EMBODIED_MACHINE_FINAL_COMPLETE.md`
+- AMOS_LIVING_BODY_RUNTIME_FINAL_COMPLETE — `_00_Cosmo brain/biology-ubi/AMOS_LIVING_BODY_RUNTIME_FINAL_COMPLETE.md`
+- AMOS_NERVOUS_SYSTEM_FINAL_COMPLETE — `_00_Cosmo brain/biology-ubi/AMOS_NERVOUS_SYSTEM_FINAL_COMPLETE.md`
+- AMOS_NEURAL_ENHANCEMENT_COMPLETE — `_00_Cosmo brain/biology-ubi/AMOS_NEURAL_ENHANCEMENT_COMPLETE.md`
+- Biology — `_00_Cosmo brain/biology-ubi/Biology.md`
+- Biology_Cognition_Model — `_00_Cosmo brain/biology-ubi/Biology_Cognition_Model.md`
+- EMBODIED_RUNTIME_COMPLETE — `_00_Cosmo brain/biology-ubi/EMBODIED_RUNTIME_COMPLETE.md`
+- NEUROMORPHIC_COMPLETION_REPORT — `_00_Cosmo brain/biology-ubi/NEUROMORPHIC_COMPLETION_REPORT.md`
+- UBI Official Manual — `_00_Cosmo brain/biology-ubi/UBI Official Manual.md`
+- UBI Omnis™ — `_00_Cosmo brain/biology-ubi/UBI Omnis™.md`
+- UBI_Equations — `_00_Cosmo brain/biology-ubi/UBI_Equations.md`
+- UBI_Law_Families — `_00_Cosmo brain/biology-ubi/UBI_Law_Families.md`
+- UBI_Operators — `_00_Cosmo brain/biology-ubi/UBI_Operators.md`
+- Ubi — `_00_Cosmo brain/biology-ubi/Ubi.md`
+- Why Modern Education Fights Human Biology — `_00_Cosmo brain/biology-ubi/Why Modern Education Fights Human Biology.md`
+- ubi_baseline_rule — `_00_Cosmo brain/biology-ubi/ubi_baseline_rule.md`
+- ubi_immune_integrity — `_00_Cosmo brain/biology-ubi/ubi_immune_integrity.md`
+- 🔁 UBI + NeuroSyncAI Integration Framework Across t — `_00_Cosmo brain/biology-ubi/🔁 UBI + NeuroSyncAI Integration Framework Across t.md`
+- 🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK — `_00_Cosmo brain/biology-ubi/🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK.md`
+- 🧠 UBI + NeuroSyncAI Integration with ConsentX — `_00_Cosmo brain/biology-ubi/🧠 UBI + NeuroSyncAI Integration with ConsentX.md`
+- 🧬 ID Exchange + UBI + NeuroSyncAI™ — `_00_Cosmo brain/biology-ubi/🧬 ID Exchange + UBI + NeuroSyncAI™.md`
+- AGENTS (AMOS_MD_BRAIN) — `_00_Cosmo brain/brain/A/AGENTS (AMOS_MD_BRAIN).md`
+- AMOS Brain Engine Specs — `_00_Cosmo brain/brain/A/AMOS Brain Engine Specs.md`
+- AMOS Brain Supreme Operational Status — `_00_Cosmo brain/brain/A/AMOS Brain Supreme Operational Status.md`
+- AMOS_BRAIN_2026_ENHANCEMENT_REPORT — `_00_Cosmo brain/brain/A/AMOS_BRAIN_2026_ENHANCEMENT_REPORT.md`
+- AMOS_BRAIN_20_FOLDER_LAW_RESULTS — `_00_Cosmo brain/brain/A/AMOS_BRAIN_20_FOLDER_LAW_RESULTS.md`
+- AMOS_BRAIN_ADVANCED_MANUAL_FIX_COMPLETE — `_00_Cosmo brain/brain/A/AMOS_BRAIN_ADVANCED_MANUAL_FIX_COMPLETE.md`
+- AMOS_BRAIN_AGI_ENHANCEMENT_COMPLETE_REPORT — `_00_Cosmo brain/brain/A/AMOS_BRAIN_AGI_ENHANCEMENT_COMPLETE_REPORT.md`
+- AMOS_BRAIN_COMPLETE_SYSTEM_SUMMARY — `_00_Cosmo brain/brain/A/AMOS_BRAIN_COMPLETE_SYSTEM_SUMMARY.md`
+- AMOS_BRAIN_CONTINUOUS_MANUAL_FIX_STATUS — `_00_Cosmo brain/brain/A/AMOS_BRAIN_CONTINUOUS_MANUAL_FIX_STATUS.md`
+- AMOS_BRAIN_CONTINUOUS_STATUS — `_00_Cosmo brain/brain/A/AMOS_BRAIN_CONTINUOUS_STATUS.md`
+- AMOS_BRAIN_CONTINUOUS_STATUS_V2 — `_00_Cosmo brain/brain/A/AMOS_BRAIN_CONTINUOUS_STATUS_V2.md`
+- AMOS_BRAIN_CORE_Core — `_00_Cosmo brain/brain/A/AMOS_BRAIN_CORE_Core.md`
+- AMOS_BRAIN_CORE_vInfinity_EXPANDED — `_00_Cosmo brain/brain/A/AMOS_BRAIN_CORE_vInfinity_EXPANDED.md`
+- AMOS_BRAIN_CORE_vInfinity_X300 — `_00_Cosmo brain/brain/A/AMOS_BRAIN_CORE_vInfinity_X300.md`
+- AMOS_BRAIN_ENHANCEMENT_COMPLETE — `_00_Cosmo brain/brain/A/AMOS_BRAIN_ENHANCEMENT_COMPLETE.md`
+- AMOS_BRAIN_FINAL_ARCHITECTURE_DOCUMENTATION — `_00_Cosmo brain/brain/A/AMOS_BRAIN_FINAL_ARCHITECTURE_DOCUMENTATION.md`
+- AMOS_BRAIN_FINAL_OPTIMIZATION_COMPLETE — `_00_Cosmo brain/brain/A/AMOS_BRAIN_FINAL_OPTIMIZATION_COMPLETE.md`
+- AMOS_BRAIN_MANUAL_FIX_COMPLETE — `_00_Cosmo brain/brain/A/AMOS_BRAIN_MANUAL_FIX_COMPLETE.md`
+- AMOS_BRAIN_MANUAL_FIX_STATUS — `_00_Cosmo brain/brain/A/AMOS_BRAIN_MANUAL_FIX_STATUS.md`
+- AMOS_BRAIN_MAXIMUM_ENHANCEMENT_COMPLETE — `_00_Cosmo brain/brain/A/AMOS_BRAIN_MAXIMUM_ENHANCEMENT_COMPLETE.md`
+- AMOS_BRAIN_MAXIMUM_ENHANCEMENT_SYNTHESIS_REPORT — `_00_Cosmo brain/brain/A/AMOS_BRAIN_MAXIMUM_ENHANCEMENT_SYNTHESIS_REPORT.md`
+- AMOS_BRAIN_MAX_ENHANCEMENT_COMPLETE_REPORT — `_00_Cosmo brain/brain/A/AMOS_BRAIN_MAX_ENHANCEMENT_COMPLETE_REPORT.md`
+- AMOS_BRAIN_OMEGA_FINAL_ANALYSIS_REPORT — `_00_Cosmo brain/brain/A/AMOS_BRAIN_OMEGA_FINAL_ANALYSIS_REPORT.md`
+- AMOS_BRAIN_OMEGA_OPERATIONAL_REPORT — `_00_Cosmo brain/brain/A/AMOS_BRAIN_OMEGA_OPERATIONAL_REPORT.md`
+- AMOS_BRAIN_OPTIMIZATION_COMPLETE — `_00_Cosmo brain/brain/A/AMOS_BRAIN_OPTIMIZATION_COMPLETE.md`
+- AMOS_BRAIN_PRODUCTION_FINAL_REPORT — `_00_Cosmo brain/brain/A/AMOS_BRAIN_PRODUCTION_FINAL_REPORT.md`
+- AMOS_BRAIN_PROJECT_COMPLETION_CERTIFICATE — `_00_Cosmo brain/brain/A/AMOS_BRAIN_PROJECT_COMPLETION_CERTIFICATE.md`
+- AMOS_BRAIN_ROOT_Kernel — `_00_Cosmo brain/brain/A/AMOS_BRAIN_ROOT_Kernel.md`
+- AMOS_BRAIN_SYNTAX_RESOLUTION_COMPLETE — `_00_Cosmo brain/brain/A/AMOS_BRAIN_SYNTAX_RESOLUTION_COMPLETE.md`
+- AMOS_BRAIN_ULTIMATE_MANUAL_FIX_COMPLETE — `_00_Cosmo brain/brain/A/AMOS_BRAIN_ULTIMATE_MANUAL_FIX_COMPLETE.md`
+- AMOS_BRAIN_v3.0.0 — `_00_Cosmo brain/brain/A/AMOS_BRAIN_v3.0.0.md`
+- AMOS_Brain_Complete_Memory — `_00_Cosmo brain/brain/A/AMOS_Brain_Complete_Memory.md`
+- AMOS_Brain_Current_State_Memory — `_00_Cosmo brain/brain/A/AMOS_Brain_Current_State_Memory.md`
+- AMOS_Brain_Durable_Memory — `_00_Cosmo brain/brain/A/AMOS_Brain_Durable_Memory.md`
+- AMOS_Brain_Enhancement_Log — `_00_Cosmo brain/brain/A/AMOS_Brain_Enhancement_Log.md`
+- AMOS_Brain_Fragment_File_Structure — `_00_Cosmo brain/brain/A/AMOS_Brain_Fragment_File_Structure.md`
+- AMOS_Brain_Learning_Improvement — `_00_Cosmo brain/brain/A/AMOS_Brain_Learning_Improvement.md`
+- AMOS_Brain_Learning_Memory — `_00_Cosmo brain/brain/A/AMOS_Brain_Learning_Memory.md`
+- AMOS_Brain_Learning_Session_Summary — `_00_Cosmo brain/brain/A/AMOS_Brain_Learning_Session_Summary.md`
+- AMOS_Brain_Master_Os_v0_Core4 — `_00_Cosmo brain/brain/A/AMOS_Brain_Master_Os_v0_Core4.md`
+- AMOS_Brain_Self_Enhancement — `_00_Cosmo brain/brain/A/AMOS_Brain_Self_Enhancement.md`
+- AMOS_FULL_BRAIN_OS_Architecture — `_00_Cosmo brain/brain/A/AMOS_FULL_BRAIN_OS_Architecture.md`
+- AMOS_National_Brain_Engine_v0_Sector_Packs7 — `_00_Cosmo brain/brain/A/AMOS_National_Brain_Engine_v0_Sector_Packs7.md`
+- AMOS_National_Brain_Pack_v0_Sector_Packs7 — `_00_Cosmo brain/brain/A/AMOS_National_Brain_Pack_v0_Sector_Packs7.md`
+- AMOS_OMNIVERSE_BRAIN_Core — `_00_Cosmo brain/brain/A/AMOS_OMNIVERSE_BRAIN_Core.md`
+- AMOS_OMNIVERSE_BRAIN_ROOT — `_00_Cosmo brain/brain/A/AMOS_OMNIVERSE_BRAIN_ROOT.md`
+- AMOS_SUPER_OMEGA_BRAIN — `_00_Cosmo brain/brain/A/AMOS_SUPER_OMEGA_BRAIN.md`
+- activate_strongest_brain — `_00_Cosmo brain/brain/A/activate_strongest_brain.md`
+- amos-brain-operating-config — `_00_Cosmo brain/brain/A/amos-brain-operating-config.md`
+- amos-brain-operating-manual — `_00_Cosmo brain/brain/A/amos-brain-operating-manual.md`
+- amos-core-brain-os-engines — `_00_Cosmo brain/brain/A/amos-core-brain-os-engines.md`
+- amos-full-brain-os-architecture — `_00_Cosmo brain/brain/A/amos-full-brain-os-architecture.md`
+- amos_brain_absolute_final_solution — `_00_Cosmo brain/brain/A/amos_brain_absolute_final_solution.md`
+- amos_brain_advanced_fixer — `_00_Cosmo brain/brain/A/amos_brain_advanced_fixer.md`
+- amos_brain_advanced_manual_fix_system — `_00_Cosmo brain/brain/A/amos_brain_advanced_manual_fix_system.md`
+- amos_brain_advanced_optimizer — `_00_Cosmo brain/brain/A/amos_brain_advanced_optimizer.md`
+- amos_brain_analysis_report — `_00_Cosmo brain/brain/A/amos_brain_analysis_report.md`
+- amos_brain_cbdc_integration_analysis — `_00_Cosmo brain/brain/A/amos_brain_cbdc_integration_analysis.md`
+- amos_brain_continuous_execution_v2 — `_00_Cosmo brain/brain/A/amos_brain_continuous_execution_v2.md`
+- amos_brain_continuous_manual_fix_system — `_00_Cosmo brain/brain/A/amos_brain_continuous_manual_fix_system.md`
+- amos_brain_critical_intervention — `_00_Cosmo brain/brain/A/amos_brain_critical_intervention.md`
+- amos_brain_emergency_crusher — `_00_Cosmo brain/brain/A/amos_brain_emergency_crusher.md`
+- amos_brain_final_optimized — `_00_Cosmo brain/brain/A/amos_brain_final_optimized.md`
+- amos_brain_final_optimizer — `_00_Cosmo brain/brain/A/amos_brain_final_optimizer.md`
+- amos_brain_final_solution — `_00_Cosmo brain/brain/A/amos_brain_final_solution.md`
+- amos_brain_final_status — `_00_Cosmo brain/brain/A/amos_brain_final_status.md`
+- amos_brain_final_status_report — `_00_Cosmo brain/brain/A/amos_brain_final_status_report.md`
+- amos_brain_folder_law_enforcer — `_00_Cosmo brain/brain/A/amos_brain_folder_law_enforcer.md`
+- amos_brain_governor — `_00_Cosmo brain/brain/A/amos_brain_governor.md`
+- amos_brain_governor_enhanced — `_00_Cosmo brain/brain/A/amos_brain_governor_enhanced.md`
+- amos_brain_governor_phase_c — `_00_Cosmo brain/brain/A/amos_brain_governor_phase_c.md`
+- amos_brain_instant_crusher — `_00_Cosmo brain/brain/A/amos_brain_instant_crusher.md`
+- amos_brain_manual_fix_execution — `_00_Cosmo brain/brain/A/amos_brain_manual_fix_execution.md`
+- amos_brain_manual_fix_executor — `_00_Cosmo brain/brain/A/amos_brain_manual_fix_executor.md`
+- amos_brain_max_enhanced — `_00_Cosmo brain/brain/A/amos_brain_max_enhanced.md`
+- amos_brain_optimized — `_00_Cosmo brain/brain/A/amos_brain_optimized.md`
+- amos_brain_performance_fix — `_00_Cosmo brain/brain/A/amos_brain_performance_fix.md`
+- amos_brain_performance_optimizer — `_00_Cosmo brain/brain/A/amos_brain_performance_optimizer.md`
+- amos_brain_rapid_fix — `_00_Cosmo brain/brain/A/amos_brain_rapid_fix.md`
+- amos_brain_status — `_00_Cosmo brain/brain/A/amos_brain_status.md`
+- amos_brain_supreme_continuation — `_00_Cosmo brain/brain/A/amos_brain_supreme_continuation.md`
+- amos_brain_supreme_crusher — `_00_Cosmo brain/brain/A/amos_brain_supreme_crusher.md`
+- amos_brain_supreme_final_solution — `_00_Cosmo brain/brain/A/amos_brain_supreme_final_solution.md`
+- amos_brain_supreme_operational — `_00_Cosmo brain/brain/A/amos_brain_supreme_operational.md`
+- amos_brain_supreme_status — `_00_Cosmo brain/brain/A/amos_brain_supreme_status.md`
+- amos_brain_syntax_resolver — `_00_Cosmo brain/brain/A/amos_brain_syntax_resolver.md`
+- amos_brain_system_enhancer — `_00_Cosmo brain/brain/A/amos_brain_system_enhancer.md`
+- amos_brain_ultimate_destroyer — `_00_Cosmo brain/brain/A/amos_brain_ultimate_destroyer.md`
+- amos_brain_ultimate_final_solution — `_00_Cosmo brain/brain/A/amos_brain_ultimate_final_solution.md`
+- amos_brain_ultimate_manual_fix_system — `_00_Cosmo brain/brain/A/amos_brain_ultimate_manual_fix_system.md`
+- amos_brain_variant_merger — `_00_Cosmo brain/brain/A/amos_brain_variant_merger.md`
+- BRAIN (AMOS_MD_BRAIN) — `_00_Cosmo brain/brain/B/BRAIN (AMOS_MD_BRAIN).md`
+- Book The 99% Mind — From Brain Myths to Meta-Intel — `_00_Cosmo brain/brain/B/Book The 99% Mind — From Brain Myths to Meta-Intel.md`
+- Brain — `_00_Cosmo brain/brain/B/Brain.md`
+- Brain_Consistency_Auditor_Agent — `_00_Cosmo brain/brain/B/Brain_Consistency_Auditor_Agent.md`
+- brain-architecture-audit — `_00_Cosmo brain/brain/B/brain-architecture-audit.md`
+- brain-consistency-audit — `_00_Cosmo brain/brain/B/brain-consistency-audit.md`
+- brain_master_os_v0 — `_00_Cosmo brain/brain/B/brain_master_os_v0.md`
+- brain_v2 — `_00_Cosmo brain/brain/B/brain_v2.md`
+- 🧠 AMOS - LIVING BRAIN ORGANISM IS ALIVE! 🧠 — `_00_Cosmo brain/brain/E/🧠 AMOS - LIVING BRAIN ORGANISM IS ALIVE! 🧠.md`
+- manifest (AMOS_MD_BRAIN) — `_00_Cosmo brain/brain/M/manifest (AMOS_MD_BRAIN).md`
+- md__2026-08-23 AMOS Canon LEGACY BRAIN2 Core — `_00_Cosmo brain/brain/M/md__2026-08-23 AMOS Canon LEGACY BRAIN2 Core.md`
+- md__2026-08-23 AMOS Cosmo Brain Core Architecture Map — `_00_Cosmo brain/brain/M/md__2026-08-23 AMOS Cosmo Brain Core Architecture Map.md`
+- md__2026-08-23 AMOS-Consulting LEGACY BRAIN2 Core Empty State — `_00_Cosmo brain/brain/M/md__2026-08-23 AMOS-Consulting LEGACY BRAIN2 Core Empty State.md`
+- md__2026-08-23 Cosmo Brain Core Architecture — `_00_Cosmo brain/brain/M/md__2026-08-23 Cosmo Brain Core Architecture.md`
+- md__2026-08-23 Cosmo Brain Full Architecture — `_00_Cosmo brain/brain/M/md__2026-08-23 Cosmo Brain Full Architecture.md`
+- md__2026-08-23 Cosmo Brain Project Directory Map — `_00_Cosmo brain/brain/M/md__2026-08-23 Cosmo Brain Project Directory Map.md`
+- md__2026-08-23 Cosmo Brain Vault Full Directory Map — `_00_Cosmo brain/brain/M/md__2026-08-23 Cosmo Brain Vault Full Directory Map.md`
+- PROVENANCE (AMOS_MD_BRAIN) — `_00_Cosmo brain/brain/P/PROVENANCE (AMOS_MD_BRAIN).md`
+- ROUTER (AMOS_MD_BRAIN) — `_00_Cosmo brain/brain/R/ROUTER (AMOS_MD_BRAIN).md`
+- RSCF (AMOS_MD_BRAIN) — `_00_Cosmo brain/brain/R/RSCF (AMOS_MD_BRAIN).md`
+- UNIVERSE_BRAIN_SUPER_ENGINE_vInfinity_FULL — `_00_Cosmo brain/brain/U/UNIVERSE_BRAIN_SUPER_ENGINE_vInfinity_FULL.md`
+- UniPower_Tech_Design_MetaBrain — `_00_Cosmo brain/brain/U/UniPower_Tech_Design_MetaBrain.md`
+- unified_brain — `_00_Cosmo brain/brain/U/unified_brain.md`
+- FINAL CANONICAL STRUCTURE (UPDATED) — `_00_Cosmo brain/canon/FINAL CANONICAL STRUCTURE (UPDATED).md`
+- Full Canon Product Encyclopedia™ — `_00_Cosmo brain/canon/Full Canon Product Encyclopedia™.md`
+- canonical_body_registry — `_00_Cosmo brain/canon/canonical_body_registry.md`
+- AMOS Cognitive Domain Engines — `_00_Cosmo brain/cognitive/AMOS Cognitive Domain Engines.md`
+- AMOS Cognitive Stack Engines — `_00_Cosmo brain/cognitive/AMOS Cognitive Stack Engines.md`
+- AMOS_BRAIN_COGNITIVE_MAX — `_00_Cosmo brain/cognitive/AMOS_BRAIN_COGNITIVE_MAX.md`
+- AMOS_BRAIN_SUPERXC_COGNITIVE — `_00_Cosmo brain/cognitive/AMOS_BRAIN_SUPERXC_COGNITIVE.md`
+- AMOS_BRAIN_SUPERXC_UBI_COGNITIVE_MAX — `_00_Cosmo brain/cognitive/AMOS_BRAIN_SUPERXC_UBI_COGNITIVE_MAX.md`
+- AMOS_CONSCIOUSNESS_ENHANCEMENT_COMPLETE — `_00_Cosmo brain/cognitive/AMOS_CONSCIOUSNESS_ENHANCEMENT_COMPLETE.md`
+- AMOS_Cognitive_Compression_Kernel_v0_Meta_Cognition4_2 — `_00_Cosmo brain/cognitive/AMOS_Cognitive_Compression_Kernel_v0_Meta_Cognition4_2.md`
+- AMOS_Cognitive_Substrate_v2_Implementation_Notes — `_00_Cosmo brain/cognitive/AMOS_Cognitive_Substrate_v2_Implementation_Notes.md`
+- AMOS_Cognitive_Substrate_v2_Implementation_Notes_2 — `_00_Cosmo brain/cognitive/AMOS_Cognitive_Substrate_v2_Implementation_Notes_2.md`
+- AMOS_Design_Language_Engine_v0_Cognitive4 — `_00_Cosmo brain/cognitive/AMOS_Design_Language_Engine_v0_Cognitive4.md`
+- AMOS_Deterministic_Logic_And_Law_Engine_v0_Cognitive4 — `_00_Cosmo brain/cognitive/AMOS_Deterministic_Logic_And_Law_Engine_v0_Cognitive4.md`
+- AMOS_Econ_Finance_Engine_v0_Cognitive4 — `_00_Cosmo brain/cognitive/AMOS_Econ_Finance_Engine_v0_Cognitive4.md`
+- AMOS_Electrical_Power_Engine_v0_Cognitive4 — `_00_Cosmo brain/cognitive/AMOS_Electrical_Power_Engine_v0_Cognitive4.md`
+- AMOS_Engineering_And_Mathematics_Engine_v0_Cognitive4 — `_00_Cosmo brain/cognitive/AMOS_Engineering_And_Mathematics_Engine_v0_Cognitive4.md`
+- AMOS_META_COGNITIVE_ARCHITECTURE_COMPLETE — `_00_Cosmo brain/cognitive/AMOS_META_COGNITIVE_ARCHITECTURE_COMPLETE.md`
+- AMOS_Mechanical_Structural_Engine_v0_Cognitive4 — `_00_Cosmo brain/cognitive/AMOS_Mechanical_Structural_Engine_v0_Cognitive4.md`
+- AMOS_Numerical_Methods_Engine_v0_Cognitive4 — `_00_Cosmo brain/cognitive/AMOS_Numerical_Methods_Engine_v0_Cognitive4.md`
+- AMOS_Physics_Cosmos_Engine_v0_Cognitive4 — `_00_Cosmo brain/cognitive/AMOS_Physics_Cosmos_Engine_v0_Cognitive4.md`
+- AMOS_Signal_Processing_Engine_v0_Cognitive4 — `_00_Cosmo brain/cognitive/AMOS_Signal_Processing_Engine_v0_Cognitive4.md`
+- AMOS_Society_Culture_Engine_v0_Cognitive4 — `_00_Cosmo brain/cognitive/AMOS_Society_Culture_Engine_v0_Cognitive4.md`
+- AMOS_Strategy_Game_Engine_v0_Cognitive4 — `_00_Cosmo brain/cognitive/AMOS_Strategy_Game_Engine_v0_Cognitive4.md`
+- Cognitive gating — `_00_Cosmo brain/cognitive/Cognitive gating.md`
+- Cognitive_Architecture_Matrix — `_00_Cosmo brain/cognitive/Cognitive_Architecture_Matrix.md`
+- Cognitive_Substrate_Workflow_Bridge — `_00_Cosmo brain/cognitive/Cognitive_Substrate_Workflow_Bridge.md`
+- DISTRIBUTED_COGNITION_COMPLETE — `_00_Cosmo brain/cognitive/DISTRIBUTED_COGNITION_COMPLETE.md`
+- INTELLIGENCE_FIELD_THEORY_COMPLETE — `_00_Cosmo brain/cognitive/INTELLIGENCE_FIELD_THEORY_COMPLETE.md`
+- Living Stack - Cognitive Reef Architecture — `_00_Cosmo brain/cognitive/Living Stack - Cognitive Reef Architecture.md`
+- Metacognitive — `_00_Cosmo brain/cognitive/Metacognitive.md`
+- REASONING_ORGAN_COMPLETE — `_00_Cosmo brain/cognitive/REASONING_ORGAN_COMPLETE.md`
+- SELF_UNDERSTANDING_COMPLETE — `_00_Cosmo brain/cognitive/SELF_UNDERSTANDING_COMPLETE.md`
+- amos-cognitive-compression-kernel — `_00_Cosmo brain/cognitive/amos-cognitive-compression-kernel.md`
+- amos-cognitive-engines — `_00_Cosmo brain/cognitive/amos-cognitive-engines.md`
+- amos-cognitive-stack — `_00_Cosmo brain/cognitive/amos-cognitive-stack.md`
+- Access_Control-Priv_Esc--Context-Dependent_Access — `_00_Cosmo brain/control/Access_Control-Priv_Esc--Context-Dependent_Access.md`
+- Access_Control-Priv_Esc--Horizontal_Access — `_00_Cosmo brain/control/Access_Control-Priv_Esc--Horizontal_Access.md`
+- Access_Control-Priv_Esc--Vertical_Access — `_00_Cosmo brain/control/Access_Control-Priv_Esc--Vertical_Access.md`
+- Access_Control-Priv_Esc — `_00_Cosmo brain/control/Access_Control-Priv_Esc.md`
+- CORS--Access-Control-Allow-Origin_Header — `_00_Cosmo brain/control/CORS--Access-Control-Allow-Origin_Header.md`
+- DOM_Based--Controlling_web-message_source — `_00_Cosmo brain/control/DOM_Based--Controlling_web-message_source.md`
+- Resilience vs Control The Design Tradeoff That Dec — `_00_Cosmo brain/control/Resilience vs Control The Design Tradeoff That Dec.md`
+- When Therapy Becomes Social Control — `_00_Cosmo brain/control/When Therapy Becomes Social Control.md`
+- 2026-03-09 The Complete Human System — Vault Index — `_00_Cosmo brain/dated/2026-03-09/2026-03-09 The Complete Human System — Vault Index.md`
+- 2026-08-22 19x19 AI Cognitive Field — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 19x19 AI Cognitive Field.md`
+- 2026-08-22 19x19 Strategic Field Model — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 19x19 Strategic Field Model.md`
+- 2026-08-22 7-Part Universe Canon — Vault Completeness Audit — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 7-Part Universe Canon — Vault Completeness Audit.md`
+- 2026-08-22 7-Part Universe Canon — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 7-Part Universe Canon.md`
+- 2026-08-22 AMOS 19×19 Formal System — Computational Completeness — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS 19×19 Formal System — Computational Completeness.md`
+- 2026-08-22 AMOS Accessibility I18n — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Accessibility I18n.md`
+- 2026-08-22 AMOS Adversarial Robustness — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Adversarial Robustness.md`
+- 2026-08-22 AMOS All 230 Meta-Gaps Closed — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS All 230 Meta-Gaps Closed.md`
+- 2026-08-22 AMOS All 249 Gaps Closed — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS All 249 Gaps Closed.md`
+- 2026-08-22 AMOS Canon Cryptographic Infrastructure — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Canon Cryptographic Infrastructure.md`
+- 2026-08-22 AMOS Cognitive Architecture Matrix Governance — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Cognitive Architecture Matrix Governance.md`
+- 2026-08-22 AMOS Cognitive Architecture Matrix — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Cognitive Architecture Matrix.md`
+- 2026-08-22 AMOS Completion Graph All 249 Gaps Closed — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Completion Graph All 249 Gaps Closed.md`
+- 2026-08-22 AMOS Core Infrastructure Modules — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Core Infrastructure Modules.md`
+- 2026-08-22 AMOS Core Module Test Coverage — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Core Module Test Coverage.md`
+- 2026-08-22 AMOS Core Runtime Modules — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Core Runtime Modules.md`
+- 2026-08-22 AMOS Fairness Ethics Externalities — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Fairness Ethics Externalities.md`
+- 2026-08-22 AMOS Full Brain OS Architecture — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Full Brain OS Architecture.md`
+- 2026-08-22 AMOS Go Board 19x19 Formal System — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Go Board 19x19 Formal System.md`
+- 2026-08-22 AMOS Go Board 19x19 Runtime Methods — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Go Board 19x19 Runtime Methods.md`
+- 2026-08-22 AMOS Governance Architecture Decommissioning — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Governance Architecture Decommissioning.md`
+- 2026-08-22 AMOS Kafka Brain Buffer — Verbena-First Brain Engine Spec — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Kafka Brain Buffer — Verbena-First Brain Engine Spec.md`
+- 2026-08-22 AMOS Longevity Reproducibility Archival — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Longevity Reproducibility Archival.md`
+- 2026-08-22 AMOS Meta-Gap Analysis and Completion Graph — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Meta-Gap Analysis and Completion Graph.md`
+- 2026-08-22 AMOS Obsidian Memory Bridge — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Obsidian Memory Bridge.md`
+- 2026-08-22 AMOS Privacy Compliance Licensing — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Privacy Compliance Licensing.md`
+- 2026-08-22 AMOS Proof Checking Kernel Gate — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Proof Checking Kernel Gate.md`
+- 2026-08-22 AMOS Quantum Knowledge Base Integration — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Quantum Knowledge Base Integration.md`
+- 2026-08-22 AMOS Quantum Physics Knowledge Base — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Quantum Physics Knowledge Base.md`
+- 2026-08-22 AMOS Remaining Module Test Coverage — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Remaining Module Test Coverage.md`
+- 2026-08-22 AMOS Structural Gap Promotion 340-347 — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Structural Gap Promotion 340-347.md`
+- 2026-08-22 AMOS System Completion Audit — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS System Completion Audit.md`
+- 2026-08-22 AMOS System Completion Baseline — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS System Completion Baseline.md`
+- 2026-08-22 AMOS System Completion Roadmap — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS System Completion Roadmap.md`
+- 2026-08-22 AMOS Uncertainty Calibration — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Uncertainty Calibration.md`
+- 2026-08-22 Accessibility i18n Governance — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Accessibility i18n Governance.md`
+- 2026-08-22 Adversarial Robustness Governance — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Adversarial Robustness Governance.md`
+- 2026-08-22 Assurance Debt Governance — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Assurance Debt Governance.md`
+- 2026-08-22 Brain Inventory — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Brain Inventory.md`
+- 2026-08-22 Cognitive Substrate Interface Coupling — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Cognitive Substrate Interface Coupling.md`
+- 2026-08-22 Cognitive Substrate Memory Graph — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Cognitive Substrate Memory Graph.md`
+- 2026-08-22 Cognitive Substrate Reality Gate — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Cognitive Substrate Reality Gate.md`
+- 2026-08-22 Cognitive Substrate Reasoning Graph — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Cognitive Substrate Reasoning Graph.md`
+- 2026-08-22 Cosmo Brain TypeScript suite green — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Cosmo Brain TypeScript suite green.md`
+- 2026-08-22 Data Quality Governance — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Data Quality Governance.md`
+- 2026-08-22 Decision Risk Governance — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Decision Risk Governance.md`
+- 2026-08-22 Deep Structure Learning — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Deep Structure Learning.md`
+- 2026-08-22 Devin Memory Update — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Devin Memory Update.md`
+- 2026-08-22 Distributed Consensus Governance — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Distributed Consensus Governance.md`
+- 2026-08-22 Executable Brain Model Lineage — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Executable Brain Model Lineage.md`
+- 2026-08-22 Executable Code Internals — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Executable Code Internals.md`
+- 2026-08-22 Fairness Ethics Externalities Governance — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Fairness Ethics Externalities Governance.md`
+- 2026-08-22 Formal Systems Invariants — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Formal Systems Invariants.md`
+- 2026-08-22 Governance Architecture Decommissioning — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Governance Architecture Decommissioning.md`
+- 2026-08-22 Human Interaction Governance — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Human Interaction Governance.md`
+- 2026-08-22 Longevity Reproducibility Governance — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Longevity Reproducibility Governance.md`
+- 2026-08-22 Obsidian as Cosmo Brain Operating Manual — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Obsidian as Cosmo Brain Operating Manual.md`
+- 2026-08-22 Privacy Compliance Governance — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Privacy Compliance Governance.md`
+- 2026-08-22 Resource Governance — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Resource Governance.md`
+- 2026-08-22 Tests Logic Bridge Registry — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Tests Logic Bridge Registry.md`
+- 2026-08-22 The Complete Human System — Book Knowledge Base — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 The Complete Human System — Book Knowledge Base.md`
+- 2026-08-22 The Complete Human System — Books One–Six — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 The Complete Human System — Books One–Six.md`
+- 2026-08-22 The Complete Human System — Distilled Executive Summary — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 The Complete Human System — Distilled Executive Summary.md`
+- 2026-08-22 The Complete Human System — Epistemic Audit v2 — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 The Complete Human System — Epistemic Audit v2.md`
+- 2026-08-22 Trang Phi Framework — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Trang Phi Framework.md`
+- 2026-08-22 TypeScript Data Quality Governance — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 TypeScript Data Quality Governance.md`
+- 2026-08-22 Uncertainty Calibration Governance — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Uncertainty Calibration Governance.md`
+- 2026-08-22 data_quality cluster closed — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 data_quality cluster closed.md`
+- 2026-08-22 human_interaction cluster closed — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 human_interaction cluster closed.md`
+- 2026-08-22 resource_governance cluster closed — `_00_Cosmo brain/dated/2026-08-22/2026-08-22 resource_governance cluster closed.md`
+- 2026-08-22-ArenaSim-Cross-Seed-Stability — `_00_Cosmo brain/dated/2026-08-22/2026-08-22-ArenaSim-Cross-Seed-Stability.md`
+- 2026-08-22-ArenaSim-Resource-Consumption-Semantic-Types — `_00_Cosmo brain/dated/2026-08-22/2026-08-22-ArenaSim-Resource-Consumption-Semantic-Types.md`
+- 2026-08-22-HybridArena-Model-Agent-Composition — `_00_Cosmo brain/dated/2026-08-22/2026-08-22-HybridArena-Model-Agent-Composition.md`
+- 2026-08-22 — `_00_Cosmo brain/dated/2026-08-22/2026-08-22.md`
+- 2026-08-23 AMOS ABI and IO Test Expansion — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS ABI and IO Test Expansion.md`
+- 2026-08-23 AMOS Authority and GMEF Gate Integration — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Authority and GMEF Gate Integration.md`
+- 2026-08-23 AMOS Brain Cortex and Executable Brain Model Bug Fixes — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Brain Cortex and Executable Brain Model Bug Fixes.md`
+- 2026-08-23 AMOS Cognitive Substrate Bug Fixes — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Cognitive Substrate Bug Fixes.md`
+- 2026-08-23 AMOS Cognitive Substrate Dependency-Safe Forgetting — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Cognitive Substrate Dependency-Safe Forgetting.md`
+- 2026-08-23 AMOS Cognitive Substrate Query and Tag Retrieval — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Cognitive Substrate Query and Tag Retrieval.md`
+- 2026-08-23 AMOS Expression Translation Test Expansion — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Expression Translation Test Expansion.md`
+- 2026-08-23 AMOS Gap Discovery Engine All 6 Modes — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Gap Discovery Engine All 6 Modes.md`
+- 2026-08-23 AMOS Gap Registry Test Suite — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Gap Registry Test Suite.md`
+- 2026-08-23 AMOS Kafka Brain Buffer Complete Fix — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Kafka Brain Buffer Complete Fix.md`
+- 2026-08-23 AMOS Kafka Brain Buffer Module Fix — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Kafka Brain Buffer Module Fix.md`
+- 2026-08-23 AMOS Kafka Brain Buffer Test Suite — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Kafka Brain Buffer Test Suite.md`
+- 2026-08-23 AMOS Kafka Brain Buffer — All 180 Tests Passing — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Kafka Brain Buffer — All 180 Tests Passing.md`
+- 2026-08-23 AMOS Kafka Brain Buffer — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Kafka Brain Buffer.md`
+- 2026-08-23 AMOS Runtime Test Expansion — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Runtime Test Expansion.md`
+- 2026-08-23 AMOS Server CLI IO Replay Test Expansion — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Server CLI IO Replay Test Expansion.md`
+- 2026-08-23 AMOS TypeScript Test Expansion — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS TypeScript Test Expansion.md`
+- 2026-08-23 AMOS TypeScript Type-Guards Safety-Filter Meta-Logic Tests — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS TypeScript Type-Guards Safety-Filter Meta-Logic Tests.md`
+- 2026-08-23 AMOS Unknown-Unknown Registry — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Unknown-Unknown Registry.md`
+- 2026-08-23 Brain Improvement Audit copy — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 Brain Improvement Audit copy.md`
+- 2026-08-23 Brain Improvement Audit — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 Brain Improvement Audit.md`
+- 2026-08-23 COSMO App Build Progress — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 COSMO App Build Progress.md`
+- 2026-08-23 COSMO Critical Path Pages Converted — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 COSMO Critical Path Pages Converted.md`
+- 2026-08-23 Dependency Stabilization and Green Baseline — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 Dependency Stabilization and Green Baseline.md`
+- 2026-08-23 Determinism_Boundaries_Enhanced — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 Determinism_Boundaries_Enhanced.md`
+- 2026-08-23 Deterministic Verification Summary — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 Deterministic Verification Summary.md`
+- 2026-08-23 Deterministic_Verification_Complete — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 Deterministic_Verification_Complete.md`
+- 2026-08-23 LEGACY BRAIN2 Core Engine and Law Inventory — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 LEGACY BRAIN2 Core Engine and Law Inventory.md`
+- 2026-08-23 Memory — AMOS Kafka Brain Buffer — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 Memory — AMOS Kafka Brain Buffer.md`
+- 2026-08-23 Vault Integrity Pass — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 Vault Integrity Pass.md`
+- 2026-08-23 Vault Orphan-Closure Pass — `_00_Cosmo brain/dated/2026-08-23/2026-08-23 Vault Orphan-Closure Pass.md`
+- 2026-08-25 A-Matrix Dynamics Layer Consolidation — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 A-Matrix Dynamics Layer Consolidation.md`
+- 2026-08-25 AMOS_Full_Brain_OS_CANON — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 AMOS_Full_Brain_OS_CANON.md`
+- 2026-08-25 Agent Registry Schema Repair — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Agent Registry Schema Repair.md`
+- 2026-08-25 Chaos Diagnostics Layer — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Chaos Diagnostics Layer.md`
+- 2026-08-25 Conjecture Discipline Layer — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Conjecture Discipline Layer.md`
+- 2026-08-25 Full Brain OS Test-Fix-Rerun — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Full Brain OS Test-Fix-Rerun.md`
+- 2026-08-25 Generative-Family Validation Layer — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Generative-Family Validation Layer.md`
+- 2026-08-25 Golden-Ratio Diagnostics Layer — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Golden-Ratio Diagnostics Layer.md`
+- 2026-08-25 Information-Measure Governance Layer — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Information-Measure Governance Layer.md`
+- 2026-08-25 Law Stack Enforcement Consolidation — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Law Stack Enforcement Consolidation.md`
+- 2026-08-25 Multifractal-Hurst Diagnostics Layer — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Multifractal-Hurst Diagnostics Layer.md`
+- 2026-08-25 Network-Structure Diagnostics Layer — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Network-Structure Diagnostics Layer.md`
+- 2026-08-25 Optimization-Claim Governance Layer — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Optimization-Claim Governance Layer.md`
+- 2026-08-25 QCI Claim-Class Governance — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 QCI Claim-Class Governance.md`
+- 2026-08-25 QFM Adversarial Hardening — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 QFM Adversarial Hardening.md`
+- 2026-08-25 QFM Architecture Refinement Pass — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 QFM Architecture Refinement Pass.md`
+- 2026-08-25 QFM Bridge Governance and Entropy-Lacunarity Skill — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 QFM Bridge Governance and Entropy-Lacunarity Skill.md`
+- 2026-08-25 QFM Five-Layer Architecture and Master Router — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 QFM Five-Layer Architecture and Master Router.md`
+- 2026-08-25 QLS-UCP Collapse Governance Consolidation — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 QLS-UCP Collapse Governance Consolidation.md`
+- 2026-08-25 RG-Fractal Bridge Deep Verification — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 RG-Fractal Bridge Deep Verification.md`
+- 2026-08-25 Scaling-Law Diagnostics Layer — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Scaling-Law Diagnostics Layer.md`
+- 2026-08-25 Spectral-Method Governance Layer — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Spectral-Method Governance Layer.md`
+- 2026-08-25 Tensor Composition Governance — `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Tensor Composition Governance.md`
+- 2026-08-25-drive-quantum-restoration-test-fix — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-drive-quantum-restoration-test-fix.md`
+- 2026-08-25-dual-canon-grounding-system — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-dual-canon-grounding-system.md`
+- 2026-08-25-qfm-consolidation-pass2 — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-consolidation-pass2.md`
+- 2026-08-25-qfm-consolidation-pass3 — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-consolidation-pass3.md`
+- 2026-08-25-qfm-consolidation-pass4 — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-consolidation-pass4.md`
+- 2026-08-25-qfm-pass10-refinement2 — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass10-refinement2.md`
+- 2026-08-25-qfm-pass11-waves-and-bridges — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass11-waves-and-bridges.md`
+- 2026-08-25-qfm-pass12-sync-refine — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass12-sync-refine.md`
+- 2026-08-25-qfm-pass13-governance-runtime — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass13-governance-runtime.md`
+- 2026-08-25-qfm-pass15-corpus-depth — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass15-corpus-depth.md`
+- 2026-08-25-qfm-pass16-refinement-batch3 — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass16-refinement-batch3.md`
+- 2026-08-25-qfm-pass17-refinement-batch4 — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass17-refinement-batch4.md`
+- 2026-08-25-qfm-pass18-refinement-batch5 — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass18-refinement-batch5.md`
+- 2026-08-25-qfm-pass3-dependency-integrity — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass3-dependency-integrity.md`
+- 2026-08-25-qfm-pass4-runtime-sync — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass4-runtime-sync.md`
+- 2026-08-25-qfm-pass5-runnable-engines — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass5-runnable-engines.md`
+- 2026-08-25-qfm-pass5-zero-empty — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass5-zero-empty.md`
+- 2026-08-25-qfm-pass6-final-closure — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass6-final-closure.md`
+- 2026-08-25-qfm-pass6-full-sync — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass6-full-sync.md`
+- 2026-08-25-qfm-pass7-redirect-revival — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass7-redirect-revival.md`
+- 2026-08-25-qfm-pass7-tensor-engine — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass7-tensor-engine.md`
+- 2026-08-25-qfm-pass8-generator-wave — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass8-generator-wave.md`
+- 2026-08-25-qfm-pass9-depth-refinement — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass9-depth-refinement.md`
+- 2026-08-25-qfm-pass9-engine-runner — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-qfm-pass9-engine-runner.md`
+- 2026-08-25-quantum-fractal-math-consolidation — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-quantum-fractal-math-consolidation.md`
+- 2026-08-25-quantum-fractal-math-integrity-session — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-quantum-fractal-math-integrity-session.md`
+- 2026-08-25-quantum-v070-approved-index-sync — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-quantum-v070-approved-index-sync.md`
+- 2026-08-25-quantum-v080-thermodynamics-cycle — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-quantum-v080-thermodynamics-cycle.md`
+- 2026-08-25-quantum-v090-honesty-cycle — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-quantum-v090-honesty-cycle.md`
+- 2026-08-25-quantum-v100-stable-milestone — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-quantum-v100-stable-milestone.md`
+- 2026-08-25_architecture_quantum_audit_and_v070_plan — `_00_Cosmo brain/dated/2026-08-25/2026-08-25_architecture_quantum_audit_and_v070_plan.md`
+- A The Living State Monetisation Thesis_ A New Economic Paradigm — `_00_Cosmo brain/economy/A The Living State Monetisation Thesis_ A New Economic Paradigm.md`
+- B The Living State Monetisation Thesis_ A New Economic Paradigm — `_00_Cosmo brain/economy/B The Living State Monetisation Thesis_ A New Economic Paradigm.md`
+- C07_econ_finance — `_00_Cosmo brain/economy/C07_econ_finance.md`
+- Datapoint → Economic Role Mapping — `_00_Cosmo brain/economy/Datapoint → Economic Role Mapping.md`
+- Econ_Finance_Model — `_00_Cosmo brain/economy/Econ_Finance_Model.md`
+- Emotional Stability → Market Risk Dashboard — `_00_Cosmo brain/economy/Emotional Stability → Market Risk Dashboard.md`
+- Extractive Economy — `_00_Cosmo brain/economy/Extractive Economy.md`
+- Extractive_Economy_Model — `_00_Cosmo brain/economy/Extractive_Economy_Model.md`
+- How_The_Floating_Economy_Uses_the_Market — `_00_Cosmo brain/economy/How_The_Floating_Economy_Uses_the_Market.md`
+- Industrial Economy — `_00_Cosmo brain/economy/Industrial Economy.md`
+- Innovative Private-Sector Economic Solutions and I — `_00_Cosmo brain/economy/Innovative Private-Sector Economic Solutions and I.md`
+- Join the Signal Economy Trust Study — `_00_Cosmo brain/economy/Join the Signal Economy Trust Study.md`
+- Kế hoạch Chiến lược Marketing – Vận hành tăng trưở — `_00_Cosmo brain/economy/Kế hoạch Chiến lược Marketing – Vận hành tăng trưở.md`
+- MONEY_REGIMES_MAX_ENHANCEMENT_REPORT — `_00_Cosmo brain/economy/MONEY_REGIMES_MAX_ENHANCEMENT_REPORT.md`
+- MONEY_REGIMES_STRUCTURAL_ANALYSIS — `_00_Cosmo brain/economy/MONEY_REGIMES_STRUCTURAL_ANALYSIS.md`
+- Masterplan for the Global Signal Economy A Global — `_00_Cosmo brain/economy/Masterplan for the Global Signal Economy A Global.md`
+- Operational Playbook — Signal Economy Rollout — `_00_Cosmo brain/economy/Operational Playbook — Signal Economy Rollout.md`
+- README_FX_STRUCTURAL_ENGINE — `_00_Cosmo brain/economy/README_FX_STRUCTURAL_ENGINE.md`
+- Service Economy — `_00_Cosmo brain/economy/Service Economy.md`
+- Signal Economy — Full Masterplan v1 0 — `_00_Cosmo brain/economy/Signal Economy — Full Masterplan v1 0.md`
+- The Coercion Economy — `_00_Cosmo brain/economy/The Coercion Economy.md`
+- The Living State Monetisation Thesis_ A New Economic Paradigm — `_00_Cosmo brain/economy/The Living State Monetisation Thesis_ A New Economic Paradigm.md`
+- The Signal Economy and Planetary Consent Infrastru — `_00_Cosmo brain/economy/The Signal Economy and Planetary Consent Infrastru.md`
+- The Signal Economy – Investor Pitch — `_00_Cosmo brain/economy/The Signal Economy – Investor Pitch.md`
+- Uni_Market_Logistics_Model — `_00_Cosmo brain/economy/Uni_Market_Logistics_Model.md`
+- When Mental Health Became a Market — and What We L — `_00_Cosmo brain/economy/When Mental Health Became a Market — and What We L.md`
+- vietnam_wealth_game_5000_hidden_overlooked_equations — `_00_Cosmo brain/economy/vietnam_wealth_game_5000_hidden_overlooked_equations.md`
+- wealth_game_hack_50000_equations — `_00_Cosmo brain/economy/wealth_game_hack_50000_equations.md`
+- wealth_game_hack_5000_hidden_overlooked_equations — `_00_Cosmo brain/economy/wealth_game_hack_5000_hidden_overlooked_equations.md`
+- wealth_game_hack_5000_key_equations — `_00_Cosmo brain/economy/wealth_game_hack_5000_key_equations.md`
+- 📑 Full Strategy – Vietnam Trust Marketplace — `_00_Cosmo brain/economy/📑 Full Strategy – Vietnam Trust Marketplace.md`
+- 🔹 How The Floating Economy Uses the Market — `_00_Cosmo brain/economy/🔹 How The Floating Economy Uses the Market.md`
+- Emotion_Rules — `_00_Cosmo brain/emotion/Emotion_Rules.md`
+- emotion — `_00_Cosmo brain/emotion/emotion.md`
+- thoughts and emotion — `_00_Cosmo brain/emotion/thoughts and emotion.md`
+- Coherence–Energy Law (CEL) A Formal Framing — `_00_Cosmo brain/energy/Coherence–Energy Law (CEL) A Formal Framing.md`
+- Energy Integrity law — `_00_Cosmo brain/energy/Energy Integrity law.md`
+- Energy OS — `_00_Cosmo brain/energy/Energy OS.md`
+- Energy Pricing as Moral Accounting — `_00_Cosmo brain/energy/Energy Pricing as Moral Accounting.md`
+- Energy reader — `_00_Cosmo brain/energy/Energy reader.md`
+- Hydrogen Is the Most Powerful Energy Vector — and — `_00_Cosmo brain/energy/Hydrogen Is the Most Powerful Energy Vector — and.md`
+- Integrity-Bounded Energy Standard (IBES‑1 0) — `_00_Cosmo brain/energy/Integrity-Bounded Energy Standard (IBES‑1 0).md`
+- Why Civilization Always Fails at the Energy Transi — `_00_Cosmo brain/energy/Why Civilization Always Fails at the Energy Transi.md`
+- Why Energy Justice Cannot Be Priced — `_00_Cosmo brain/energy/Why Energy Justice Cannot Be Priced.md`
+- Why Nui Cam May Be a Planetary Energy Node — `_00_Cosmo brain/energy/Why Nui Cam May Be a Planetary Energy Node.md`
+- energy_architecture — `_00_Cosmo brain/energy/energy_architecture.md`
+- ubi_update_energy_from_activity — `_00_Cosmo brain/energy/ubi_update_energy_from_activity.md`
+- vn_cultural_ritual_gia_he_energy_10000_equations_invariants — `_00_Cosmo brain/energy/vn_cultural_ritual_gia_he_energy_10000_equations_invariants.md`
+- 🌍 The Energy–EROI–Carbon Scoring Network — `_00_Cosmo brain/energy/🌍 The Energy–EROI–Carbon Scoring Network.md`
+- 🌐 Decentralised Energy–EROI–Carbon Scoring Network — `_00_Cosmo brain/energy/🌐 Decentralised Energy–EROI–Carbon Scoring Network.md`
+- AMOS 7PT Canon Migration Engine — `_00_Cosmo brain/engine/A/AMOS 7PT Canon Migration Engine.md`
+- AMOS Academic Writing Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Academic Writing Engine vInfinity.md`
+- AMOS Audit Quality Engine v0 — `_00_Cosmo brain/engine/A/AMOS Audit Quality Engine v0.md`
+- AMOS Coding Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Coding Engine vInfinity.md`
+- AMOS Cognition Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Cognition Engine vInfinity.md`
+- AMOS Consciousness Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Consciousness Engine vInfinity.md`
+- AMOS Corp Doc Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Corp Doc Engine vInfinity.md`
+- AMOS Design Engine vInfinity_MAX — `_00_Cosmo brain/engine/A/AMOS Design Engine vInfinity_MAX.md`
+- AMOS Domain Engines — `_00_Cosmo brain/engine/A/AMOS Domain Engines.md`
+- AMOS Emotion Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Emotion Engine vInfinity.md`
+- AMOS Governance Economy Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Governance Economy Engine vInfinity.md`
+- AMOS HIE Human Interaction Engine — `_00_Cosmo brain/engine/A/AMOS HIE Human Interaction Engine.md`
+- AMOS Org Governance Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Org Governance Engine vInfinity.md`
+- AMOS Personality Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Personality Engine vInfinity.md`
+- AMOS Policy Geostrategy Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Policy Geostrategy Engine vInfinity.md`
+- AMOS Risk Compliance Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Risk Compliance Engine vInfinity.md`
+- AMOS SUPER Kernel and Engine — `_00_Cosmo brain/engine/A/AMOS SUPER Kernel and Engine.md`
+- AMOS Species Interaction Core Engine — `_00_Cosmo brain/engine/A/AMOS Species Interaction Core Engine.md`
+- AMOS Super Engines — `_00_Cosmo brain/engine/A/AMOS Super Engines.md`
+- AMOS Tech Design Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Tech Design Engine vInfinity.md`
+- AMOS Tech Engine V∞ — `_00_Cosmo brain/engine/A/AMOS Tech Engine V∞.md`
+- AMOS Total Technical Engine — Universe OS Master Architecture — `_00_Cosmo brain/engine/A/AMOS Total Technical Engine — Universe OS Master Architecture.md`
+- AMOS UBI Super Engine — `_00_Cosmo brain/engine/A/AMOS UBI Super Engine.md`
+- AMOS Unipower Engines — `_00_Cosmo brain/engine/A/AMOS Unipower Engines.md`
+- AMOS Universe Interaction Engine — `_00_Cosmo brain/engine/A/AMOS Universe Interaction Engine.md`
+- AMOS VN Legal Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS VN Legal Engine vInfinity.md`
+- AMOS Vietnamese Writing Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Vietnamese Writing Engine vInfinity.md`
+- AMOS forex__signal__ukr_engine — `_00_Cosmo brain/engine/A/AMOS forex__signal__ukr_engine.md`
+- AMOS_AUTOMATION_ENGINE_v1.0.0 — `_00_Cosmo brain/engine/A/AMOS_AUTOMATION_ENGINE_v1.0.0.md`
+- AMOS_Absolute_Vn_Omnistructure_Clean_Engine_v0_Country_Packs7 — `_00_Cosmo brain/engine/A/AMOS_Absolute_Vn_Omnistructure_Clean_Engine_v0_Country_Packs7.md`
+- AMOS_Academic_Writing_Kernal_Engine_v0_Sub2 — `_00_Cosmo brain/engine/A/AMOS_Academic_Writing_Kernal_Engine_v0_Sub2.md`
+- AMOS_Audit_Quality_Engine_v0_Domains7 — `_00_Cosmo brain/engine/A/AMOS_Audit_Quality_Engine_v0_Domains7.md`
+- AMOS_Australia_Economy_Engine_v0_Unipower4 — `_00_Cosmo brain/engine/A/AMOS_Australia_Economy_Engine_v0_Unipower4.md`
+- AMOS_Australia_Engines_Model — `_00_Cosmo brain/engine/A/AMOS_Australia_Engines_Model.md`
+- AMOS_Australia_Law_Incentives_Funding_Grants_Engine_v0_Unipower4 — `_00_Cosmo brain/engine/A/AMOS_Australia_Law_Incentives_Funding_Grants_Engine_v0_Unipower4.md`
+- AMOS_Australia_Workforce_Engine_v0_Unipower4 — `_00_Cosmo brain/engine/A/AMOS_Australia_Workforce_Engine_v0_Unipower4.md`
+- AMOS_Behavior_Engine_Canonical_v0 — `_00_Cosmo brain/engine/A/AMOS_Behavior_Engine_Canonical_v0.md`
+- AMOS_Bei_Engine_v0_Ubi7 — `_00_Cosmo brain/engine/A/AMOS_Bei_Engine_v0_Ubi7.md`
+- AMOS_Biology_And_Cognition_Engine_v0_7_Intelligents7 — `_00_Cosmo brain/engine/A/AMOS_Biology_And_Cognition_Engine_v0_7_Intelligents7.md`
+- AMOS_Bizfin_Engine_v0_Sector_Packs7 — `_00_Cosmo brain/engine/A/AMOS_Bizfin_Engine_v0_Sector_Packs7.md`
+- AMOS_Bod_Engine_v0_Unipower4 — `_00_Cosmo brain/engine/A/AMOS_Bod_Engine_v0_Unipower4.md`
+- AMOS_Business_Finance_SUPER_Engine — `_00_Cosmo brain/engine/A/AMOS_Business_Finance_SUPER_Engine.md`
+- AMOS_Change_Management_Engine_v0_Governance_Risk — `_00_Cosmo brain/engine/A/AMOS_Change_Management_Engine_v0_Governance_Risk.md`
+- AMOS_China_Engines_Model — `_00_Cosmo brain/engine/A/AMOS_China_Engines_Model.md`
+- AMOS_Chinese_Legal_Ecosystem_Engine_v0_Unipower4 — `_00_Cosmo brain/engine/A/AMOS_Chinese_Legal_Ecosystem_Engine_v0_Unipower4.md`
+- AMOS_Chinese_Legal_Engine_v0_Unipower4 — `_00_Cosmo brain/engine/A/AMOS_Chinese_Legal_Engine_v0_Unipower4.md`
+- AMOS_Coding_Engine — `_00_Cosmo brain/engine/A/AMOS_Coding_Engine.md`
+- AMOS_Coding_Engine_GPT — `_00_Cosmo brain/engine/A/AMOS_Coding_Engine_GPT.md`
+- AMOS_Coding_Engine_ULTRA_300_FULL — `_00_Cosmo brain/engine/A/AMOS_Coding_Engine_ULTRA_300_FULL.md`
+- AMOS_Cognition_Engine_Canonical_v0 — `_00_Cosmo brain/engine/A/AMOS_Cognition_Engine_Canonical_v0.md`
+- AMOS_Cognition_Engine_v0_Core7 — `_00_Cosmo brain/engine/A/AMOS_Cognition_Engine_v0_Core7.md`
+- AMOS_Consciousness_Engine_v0_Core7 — `_00_Cosmo brain/engine/A/AMOS_Consciousness_Engine_v0_Core7.md`
+- AMOS_Consulting_BizFin_Engine_vInfinity — `_00_Cosmo brain/engine/A/AMOS_Consulting_BizFin_Engine_vInfinity.md`
+- AMOS_Consulting_Engine_SUPER_x100k_vInfinity — `_00_Cosmo brain/engine/A/AMOS_Consulting_Engine_SUPER_x100k_vInfinity.md`
+- AMOS_Consulting__SUPER_Engine_ — `_00_Cosmo brain/engine/A/AMOS_Consulting__SUPER_Engine_.md`
+- AMOS_Corp_Doc_Engine_SUPER_x100k_vInfinity — `_00_Cosmo brain/engine/A/AMOS_Corp_Doc_Engine_SUPER_x100k_vInfinity.md`
+- AMOS_Crisis_Management_Engine_v0_Governance_Risk — `_00_Cosmo brain/engine/A/AMOS_Crisis_Management_Engine_v0_Governance_Risk.md`
+- AMOS_Data_Engineering_Kernel_v0_Tech — `_00_Cosmo brain/engine/A/AMOS_Data_Engineering_Kernel_v0_Tech.md`
+- AMOS_Design_Engine_v0_Tech7 — `_00_Cosmo brain/engine/A/AMOS_Design_Engine_v0_Tech7.md`
+- AMOS_ENGINE_COMPLETE — `_00_Cosmo brain/engine/A/AMOS_ENGINE_COMPLETE.md`
+- AMOS_ENGINE_FINAL_COMPLETE — `_00_Cosmo brain/engine/A/AMOS_ENGINE_FINAL_COMPLETE.md`
+- AMOS_ENGINE_FORMAL_FINAL — `_00_Cosmo brain/engine/A/AMOS_ENGINE_FORMAL_FINAL.md`
+- AMOS_ENGINE_PRACTICAL_COMPLETE — `_00_Cosmo brain/engine/A/AMOS_ENGINE_PRACTICAL_COMPLETE.md`
+- AMOS_EV_INFRASTRUCTURE_AGENTS_SUPER_ENGINE_X100k — `_00_Cosmo brain/engine/A/AMOS_EV_INFRASTRUCTURE_AGENTS_SUPER_ENGINE_X100k.md`
+- AMOS_EV_INFRASTRUCTURE_AGENTS_SUPER_ENGINE_vInfinity_X100k_GLOBAL_C_REFACTORED_v3 — `_00_Cosmo brain/engine/A/AMOS_EV_INFRASTRUCTURE_AGENTS_SUPER_ENGINE_vInfinity_X100k_GLOBAL_C_REFACTORED_v3.md`
+- AMOS_Emotion_Engine_Canonical_v0 — `_00_Cosmo brain/engine/A/AMOS_Emotion_Engine_Canonical_v0.md`
+- AMOS_Emotion_Engine_v0_Core7 — `_00_Cosmo brain/engine/A/AMOS_Emotion_Engine_v0_Core7.md`
+- AMOS_Fabrication_Engine_v0 — `_00_Cosmo brain/engine/A/AMOS_Fabrication_Engine_v0.md`
+- AMOS_Global_Legal_Engine_Model — `_00_Cosmo brain/engine/A/AMOS_Global_Legal_Engine_Model.md`
+- AMOS_Global_Legal_Engine_v0_Unipower4 — `_00_Cosmo brain/engine/A/AMOS_Global_Legal_Engine_v0_Unipower4.md`
+- AMOS_Gov_Engine_v0_Sector_Packs7 — `_00_Cosmo brain/engine/A/AMOS_Gov_Engine_v0_Sector_Packs7.md`
+- AMOS_Governance_Economy_Engine_v0_Org_Risk_Policy7_2 — `_00_Cosmo brain/engine/A/AMOS_Governance_Economy_Engine_v0_Org_Risk_Policy7_2.md`
+- AMOS_Human_Engine_v0_Sector_Packs7 — `_00_Cosmo brain/engine/A/AMOS_Human_Engine_v0_Sector_Packs7.md`
+- AMOS_Human_Intelligence_Engine_v0_Core7 — `_00_Cosmo brain/engine/A/AMOS_Human_Intelligence_Engine_v0_Core7.md`
+- AMOS_Legal_SUPER_Engine_vInfinity — `_00_Cosmo brain/engine/A/AMOS_Legal_SUPER_Engine_vInfinity.md`
+- AMOS_Logic_Core_Engine_v0_Logic — `_00_Cosmo brain/engine/A/AMOS_Logic_Core_Engine_v0_Logic.md`
+- AMOS_META_ENGINES_INDEX_vInfinity — `_00_Cosmo brain/engine/A/AMOS_META_ENGINES_INDEX_vInfinity.md`
+- AMOS_Ml_Engineering_Kernel_v0_Tech — `_00_Cosmo brain/engine/A/AMOS_Ml_Engineering_Kernel_v0_Tech.md`
+- AMOS_Monogram_Engine_v0_Dsc4 — `_00_Cosmo brain/engine/A/AMOS_Monogram_Engine_v0_Dsc4.md`
+- AMOS_Monogram_Kernal_Engine_v0_Dsc4 — `_00_Cosmo brain/engine/A/AMOS_Monogram_Kernal_Engine_v0_Dsc4.md`
+- AMOS_Nbi_Engine_v0_Ubi7 — `_00_Cosmo brain/engine/A/AMOS_Nbi_Engine_v0_Ubi7.md`
+- AMOS_Nei_Engine_v0_Ubi7 — `_00_Cosmo brain/engine/A/AMOS_Nei_Engine_v0_Ubi7.md`
+- AMOS_OMEGA_THINKING_ENGINE_with_Coding — `_00_Cosmo brain/engine/A/AMOS_OMEGA_THINKING_ENGINE_with_Coding.md`
+- AMOS_OMNI_FACTORY_ENGINE — `_00_Cosmo brain/engine/A/AMOS_OMNI_FACTORY_ENGINE.md`
+- AMOS_Org_Governance_Engine_v0_Governance_Risk7 — `_00_Cosmo brain/engine/A/AMOS_Org_Governance_Engine_v0_Governance_Risk7.md`
+- AMOS_Personality_Engine_Canonical_v0 — `_00_Cosmo brain/engine/A/AMOS_Personality_Engine_Canonical_v0.md`
+- AMOS_Personality_Engine_v0_Core7 — `_00_Cosmo brain/engine/A/AMOS_Personality_Engine_v0_Core7.md`
+- AMOS_Policy_Design_Engine_v0_Governance_Risk — `_00_Cosmo brain/engine/A/AMOS_Policy_Design_Engine_v0_Governance_Risk.md`
+- AMOS_Policy_Geostrategy_Engine_v0_Org_Risk_Policy7_2 — `_00_Cosmo brain/engine/A/AMOS_Policy_Geostrategy_Engine_v0_Org_Risk_Policy7_2.md`
+- AMOS_Risk_Compliance_Engine_v0_Org_Risk_Policy7_2 — `_00_Cosmo brain/engine/A/AMOS_Risk_Compliance_Engine_v0_Org_Risk_Policy7_2.md`
+- AMOS_Risk_Policy_Governance_Ecosystem_Engine_v0_Unipower4 — `_00_Cosmo brain/engine/A/AMOS_Risk_Policy_Governance_Ecosystem_Engine_v0_Unipower4.md`
+- AMOS_SUPER_CODE_Engine_v1.6.0 — `_00_Cosmo brain/engine/A/AMOS_SUPER_CODE_Engine_v1.6.0.md`
+- AMOS_SUPER_CONSCIOUSNESS_ENGINE — `_00_Cosmo brain/engine/A/AMOS_SUPER_CONSCIOUSNESS_ENGINE.md`
+- AMOS_SUPER_CONSCIOUSNESS_ENGINE_vInfinity_MAX_H3 — `_00_Cosmo brain/engine/A/AMOS_SUPER_CONSCIOUSNESS_ENGINE_vInfinity_MAX_H3.md`
+- AMOS_SUPER_Corp_Doc_Engine_Light — `_00_Cosmo brain/engine/A/AMOS_SUPER_Corp_Doc_Engine_Light.md`
+- AMOS_SUPER_Corp_Doc_Engine_SUPER — `_00_Cosmo brain/engine/A/AMOS_SUPER_Corp_Doc_Engine_SUPER.md`
+- AMOS_SUPER_ENGINE_vOmni_X1000 — `_00_Cosmo brain/engine/A/AMOS_SUPER_ENGINE_vOmni_X1000.md`
+- AMOS_SUPER_FACTORY_ENGINE_v2.0.0 — `_00_Cosmo brain/engine/A/AMOS_SUPER_FACTORY_ENGINE_v2.0.0.md`
+- AMOS_Science_Engine_v0_Sector_Packs7 — `_00_Cosmo brain/engine/A/AMOS_Science_Engine_v0_Sector_Packs7.md`
+- AMOS_Scientific_Engine_v0_Unipower4 — `_00_Cosmo brain/engine/A/AMOS_Scientific_Engine_v0_Unipower4.md`
+- AMOS_Scientific_Engine_vInfinity — `_00_Cosmo brain/engine/A/AMOS_Scientific_Engine_vInfinity.md`
+- AMOS_Si_Engine_v0_Ubi7 — `_00_Cosmo brain/engine/A/AMOS_Si_Engine_v0_Ubi7.md`
+- AMOS_Species_Interaction_Core_Engine_v0_Domains7 — `_00_Cosmo brain/engine/A/AMOS_Species_Interaction_Core_Engine_v0_Domains7.md`
+- AMOS_Speed_Engine_v0_root — `_00_Cosmo brain/engine/A/AMOS_Speed_Engine_v0_root.md`
+- AMOS_Strategic_Document_Engine_v0_Unipower4 — `_00_Cosmo brain/engine/A/AMOS_Strategic_Document_Engine_v0_Unipower4.md`
+- AMOS_Super_Engine_v1.0.0 — `_00_Cosmo brain/engine/A/AMOS_Super_Engine_v1.0.0.md`
+- AMOS_Systems_Core_Engine_v0_Systems4_2 — `_00_Cosmo brain/engine/A/AMOS_Systems_Core_Engine_v0_Systems4_2.md`
+- AMOS_Tech_Design_Engine_v0_Tech7 — `_00_Cosmo brain/engine/A/AMOS_Tech_Design_Engine_v0_Tech7.md`
+- AMOS_Tech_Engine_Model — `_00_Cosmo brain/engine/A/AMOS_Tech_Engine_Model.md`
+- AMOS_Tech_Engine_v0_Unipower4 — `_00_Cosmo brain/engine/A/AMOS_Tech_Engine_v0_Unipower4.md`
+- AMOS_Tech_Expanded_Design_Engine_v0_Domains7 — `_00_Cosmo brain/engine/A/AMOS_Tech_Expanded_Design_Engine_v0_Domains7.md`
+- AMOS_Tech_Unified_Engine_v0_Domains7_3 — `_00_Cosmo brain/engine/A/AMOS_Tech_Unified_Engine_v0_Domains7_3.md`
+- AMOS_Ubi_Core_Engine_v0_Biology — `_00_Cosmo brain/engine/A/AMOS_Ubi_Core_Engine_v0_Biology.md`
+- AMOS_Ubi_Engine_v0_Ubi7 — `_00_Cosmo brain/engine/A/AMOS_Ubi_Engine_v0_Ubi7.md`
+- AMOS_Uni_Ai_Intelligence_Engine_Model — `_00_Cosmo brain/engine/A/AMOS_Uni_Ai_Intelligence_Engine_Model.md`
+- AMOS_Uni_Ai_Intelligence_Engine_v0_Unipower4 — `_00_Cosmo brain/engine/A/AMOS_Uni_Ai_Intelligence_Engine_v0_Unipower4.md`
+- AMOS_Uni_Market_Engine_v0_Unipower4 — `_00_Cosmo brain/engine/A/AMOS_Uni_Market_Engine_v0_Unipower4.md`
+- AMOS_Uni_System_Operations_Engine_Model — `_00_Cosmo brain/engine/A/AMOS_Uni_System_Operations_Engine_Model.md`
+- AMOS_Uni_System_Operations_Engine_v0_Unipower4 — `_00_Cosmo brain/engine/A/AMOS_Uni_System_Operations_Engine_v0_Unipower4.md`
+- AMOS_Unified_Coding_Engine_v0_Domains7 — `_00_Cosmo brain/engine/A/AMOS_Unified_Coding_Engine_v0_Domains7.md`
+- AMOS_Universe_Core_Engine_v0_Universe — `_00_Cosmo brain/engine/A/AMOS_Universe_Core_Engine_v0_Universe.md`
+- AMOS_Vietnam_Engines_Model — `_00_Cosmo brain/engine/A/AMOS_Vietnam_Engines_Model.md`
+- AMOS_Vietnamese_Writing_Engine_v0_Logic7 — `_00_Cosmo brain/engine/A/AMOS_Vietnamese_Writing_Engine_v0_Logic7.md`
+- AMOS_Vn_Legal_Engine_v0_Domains2 — `_00_Cosmo brain/engine/A/AMOS_Vn_Legal_Engine_v0_Domains2.md`
+- AMOS_Vn_Omnistructure_Engine_v0_Unipower4 — `_00_Cosmo brain/engine/A/AMOS_Vn_Omnistructure_Engine_v0_Unipower4.md`
+- Automation_Engine_Model — `_00_Cosmo brain/engine/A/Automation_Engine_Model.md`
+- Automation_SUPER_Engine — `_00_Cosmo brain/engine/A/Automation_SUPER_Engine.md`
+- amos-absolute-vn-omnistructure-clean-engine — `_00_Cosmo brain/engine/A/amos-absolute-vn-omnistructure-clean-engine.md`
+- amos-audit-quality-engine — `_00_Cosmo brain/engine/A/amos-audit-quality-engine.md`
+- amos-australia-engine-layer — `_00_Cosmo brain/engine/A/amos-australia-engine-layer.md`
+- amos-automation-engine-layer — `_00_Cosmo brain/engine/A/amos-automation-engine-layer.md`
+- amos-bod-engine-layer — `_00_Cosmo brain/engine/A/amos-bod-engine-layer.md`
+- amos-china-engine-layer — `_00_Cosmo brain/engine/A/amos-china-engine-layer.md`
+- amos-coding-engine-layer — `_00_Cosmo brain/engine/A/amos-coding-engine-layer.md`
+- amos-cognition-engine-layer — `_00_Cosmo brain/engine/A/amos-cognition-engine-layer.md`
+- amos-consciousness-engine-layer — `_00_Cosmo brain/engine/A/amos-consciousness-engine-layer.md`
+- amos-design-engine-layer — `_00_Cosmo brain/engine/A/amos-design-engine-layer.md`
+- amos-design-language-engine-layer — `_00_Cosmo brain/engine/A/amos-design-language-engine-layer.md`
+- amos-documentation-engine-layer — `_00_Cosmo brain/engine/A/amos-documentation-engine-layer.md`
+- amos-domains-engines — `_00_Cosmo brain/engine/A/amos-domains-engines.md`
+- amos-econ-finance-engine-layer — `_00_Cosmo brain/engine/A/amos-econ-finance-engine-layer.md`
+- amos-electrical-power-engine-layer — `_00_Cosmo brain/engine/A/amos-electrical-power-engine-layer.md`
+- amos-emotion-engine-layer — `_00_Cosmo brain/engine/A/amos-emotion-engine-layer.md`
+- amos-emotion-engine — `_00_Cosmo brain/engine/A/amos-emotion-engine.md`
+- amos-engine-models — `_00_Cosmo brain/engine/A/amos-engine-models.md`
+- amos-fabrication-engine — `_00_Cosmo brain/engine/A/amos-fabrication-engine.md`
+- amos-global-legal-engine-layer — `_00_Cosmo brain/engine/A/amos-global-legal-engine-layer.md`
+- amos-hse-ceo-engine-layer — `_00_Cosmo brain/engine/A/amos-hse-ceo-engine-layer.md`
+- amos-human-interaction-engine-layer — `_00_Cosmo brain/engine/A/amos-human-interaction-engine-layer.md`
+- amos-human-systems-engine-layer — `_00_Cosmo brain/engine/A/amos-human-systems-engine-layer.md`
+- amos-legal-engine-layer — `_00_Cosmo brain/engine/A/amos-legal-engine-layer.md`
+- amos-logic-core-engine — `_00_Cosmo brain/engine/A/amos-logic-core-engine.md`
+- amos-mechanical-structural-engine-layer — `_00_Cosmo brain/engine/A/amos-mechanical-structural-engine-layer.md`
+- amos-numerical-methods-engine-layer — `_00_Cosmo brain/engine/A/amos-numerical-methods-engine-layer.md`
+- amos-org-governance-engine-layer — `_00_Cosmo brain/engine/A/amos-org-governance-engine-layer.md`
+- amos-personality-engine-layer — `_00_Cosmo brain/engine/A/amos-personality-engine-layer.md`
+- amos-physics-cosmos-engine-layer — `_00_Cosmo brain/engine/A/amos-physics-cosmos-engine-layer.md`
+- amos-policy-geostrategy-engine-layer — `_00_Cosmo brain/engine/A/amos-policy-geostrategy-engine-layer.md`
+- amos-risk-compliance-engine-layer — `_00_Cosmo brain/engine/A/amos-risk-compliance-engine-layer.md`
+- amos-scientific-engine-layer — `_00_Cosmo brain/engine/A/amos-scientific-engine-layer.md`
+- amos-speed-engine — `_00_Cosmo brain/engine/A/amos-speed-engine.md`
+- amos-strategic-document-engine-layer — `_00_Cosmo brain/engine/A/amos-strategic-document-engine-layer.md`
+- amos-systems-core-engine — `_00_Cosmo brain/engine/A/amos-systems-core-engine.md`
+- amos-total-technical-engine-layer — `_00_Cosmo brain/engine/A/amos-total-technical-engine-layer.md`
+- amos-unipower-engines — `_00_Cosmo brain/engine/A/amos-unipower-engines.md`
+- amos-vietnam-engine-layer — `_00_Cosmo brain/engine/A/amos-vietnam-engine-layer.md`
+- amos_consulting_amos_invest_amos_canon_tech_engine — `_00_Cosmo brain/engine/A/amos_consulting_amos_invest_amos_canon_tech_engine.md`
+- amos_continuation_engine — `_00_Cosmo brain/engine/A/amos_continuation_engine.md`
+- amos_omega_chart_engine — `_00_Cosmo brain/engine/A/amos_omega_chart_engine.md`
+- amos_omega_fx_engine — `_00_Cosmo brain/engine/A/amos_omega_fx_engine.md`
+- audit_quality_engine_v0 — `_00_Cosmo brain/engine/A/audit_quality_engine_v0.md`
+- BizFin_SUPER_Engine — `_00_Cosmo brain/engine/B/BizFin_SUPER_Engine.md`
+- Bod_Engine_Model — `_00_Cosmo brain/engine/B/Bod_Engine_Model.md`
+- base_sector_engine — `_00_Cosmo brain/engine/B/base_sector_engine.md`
+- bizfin_engine_v0 — `_00_Cosmo brain/engine/B/bizfin_engine_v0.md`
+- C10_tech_engineering — `_00_Cosmo brain/engine/C/C10_tech_engineering.md`
+- CONSTRAINT_ENGINE — `_00_Cosmo brain/engine/C/CONSTRAINT_ENGINE.md`
+- Code_SUPER_Engine — `_00_Cosmo brain/engine/C/Code_SUPER_Engine.md`
+- Coding_Engine_Model — `_00_Cosmo brain/engine/C/Coding_Engine_Model.md`
+- Coding_Engine_vInfinity_v1.6.0 — `_00_Cosmo brain/engine/C/Coding_Engine_vInfinity_v1.6.0.md`
+- Cognition_Engine_Model — `_00_Cosmo brain/engine/C/Cognition_Engine_Model.md`
+- Consciousness_Engine_Model — `_00_Cosmo brain/engine/C/Consciousness_Engine_Model.md`
+- Consulting_Engine_SUPER — `_00_Cosmo brain/engine/C/Consulting_Engine_SUPER.md`
+- cashflow_engine — `_00_Cosmo brain/engine/C/cashflow_engine.md`
+- compliance_engine — `_00_Cosmo brain/engine/C/compliance_engine.md`
+- consciousness_engine_v0 — `_00_Cosmo brain/engine/C/consciousness_engine_v0.md`
+- consulting_engine — `_00_Cosmo brain/engine/C/consulting_engine.md`
+- contract_engine — `_00_Cosmo brain/engine/C/contract_engine.md`
+- customer_insight_engine — `_00_Cosmo brain/engine/C/customer_insight_engine.md`
+- Design_Engine_Model — `_00_Cosmo brain/engine/D/Design_Engine_Model.md`
+- Design_Engine_v3.0.0 — `_00_Cosmo brain/engine/D/Design_Engine_v3.0.0.md`
+- Detail spec (engineering-grade, rebuildable) — `_00_Cosmo brain/engine/D/Detail spec (engineering-grade, rebuildable).md`
+- Deterministic_Logic_and_Law_Engine — `_00_Cosmo brain/engine/D/Deterministic_Logic_and_Law_Engine.md`
+- Doc_SUPER_Engine — `_00_Cosmo brain/engine/D/Doc_SUPER_Engine.md`
+- Documentation_Engine_Model — `_00_Cosmo brain/engine/D/Documentation_Engine_Model.md`
+- daily_rhythm_engine — `_00_Cosmo brain/engine/D/daily_rhythm_engine.md`
+- deployment_engine — `_00_Cosmo brain/engine/D/deployment_engine.md`
+- documentation_engine — `_00_Cosmo brain/engine/D/documentation_engine.md`
+- ENGINEERING_STANDARDS_LIBRARY — `_00_Cosmo brain/engine/E/ENGINEERING_STANDARDS_LIBRARY.md`
+- EV_Engine — `_00_Cosmo brain/engine/E/EV_Engine.md`
+- EV_SUPER_Engine — `_00_Cosmo brain/engine/E/EV_SUPER_Engine.md`
+- Emotion_Engine_Model — `_00_Cosmo brain/engine/E/Emotion_Engine_Model.md`
+- Expression_Engine — `_00_Cosmo brain/engine/E/Expression_Engine.md`
+- emotion_engine_v0 — `_00_Cosmo brain/engine/E/emotion_engine_v0.md`
+- environment_engine — `_00_Cosmo brain/engine/E/environment_engine.md`
+- file_scan_engine — `_00_Cosmo brain/engine/F/file_scan_engine.md`
+- Governance_Engine — `_00_Cosmo brain/engine/G/Governance_Engine.md`
+- Governance_Super_Engine_v3 — `_00_Cosmo brain/engine/G/Governance_Super_Engine_v3.md`
+- gov_engine_v0 — `_00_Cosmo brain/engine/G/gov_engine_v0.md`
+- HSE = Human Systems Engine — `_00_Cosmo brain/engine/H/HSE = Human Systems Engine.md`
+- HSE CEO Engine v1 — `_00_Cosmo brain/engine/H/HSE CEO Engine v1.md`
+- HSE VN Engine — `_00_Cosmo brain/engine/H/HSE VN Engine.md`
+- HSE_CEO_Engine_Model — `_00_Cosmo brain/engine/H/HSE_CEO_Engine_Model.md`
+- HSE_CEO_Enginev_root — `_00_Cosmo brain/engine/H/HSE_CEO_Enginev_root.md`
+- HSE_Engine_Unipower — `_00_Cosmo brain/engine/H/HSE_Engine_Unipower.md`
+- HSE_Engine_Unipower4 — `_00_Cosmo brain/engine/H/HSE_Engine_Unipower4.md`
+- HSE_Enginev∞_AMOS_FORMAT — `_00_Cosmo brain/engine/H/HSE_Enginev∞_AMOS_FORMAT.md`
+- HSE_Enginev∞_AMOS_FORMAT_WITH_UCM — `_00_Cosmo brain/engine/H/HSE_Enginev∞_AMOS_FORMAT_WITH_UCM.md`
+- Human Systems Engine Vietnam - Full HSE VN — `_00_Cosmo brain/engine/H/Human Systems Engine Vietnam - Full HSE VN.md`
+- Human Systems Engine™ (HSE) VN — `_00_Cosmo brain/engine/H/Human Systems Engine™ (HSE) VN.md`
+- Human_Interaction_Engine_Model — `_00_Cosmo brain/engine/H/Human_Interaction_Engine_Model.md`
+- Human_Systems_Engine_(HSE)_VN — `_00_Cosmo brain/engine/H/Human_Systems_Engine_(HSE)_VN.md`
+- Human_Systems_Engine_Model — `_00_Cosmo brain/engine/H/Human_Systems_Engine_Model.md`
+- human_engine_v0 — `_00_Cosmo brain/engine/H/human_engine_v0.md`
+- human_intelligence_engine_v0 — `_00_Cosmo brain/engine/H/human_intelligence_engine_v0.md`
+- INDEX_Tech Engine — `_00_Cosmo brain/engine/I/INDEX_Tech Engine.md`
+- iOS_Reverse_Engineering — `_00_Cosmo brain/engine/I/iOS_Reverse_Engineering.md`
+- investment_engine — `_00_Cosmo brain/engine/I/investment_engine.md`
+- Legal_Engine_Model — `_00_Cosmo brain/engine/L/Legal_Engine_Model.md`
+- mental_state_engine — `_00_Cosmo brain/engine/M/mental_state_engine.md`
+- murk-engine-expansion — `_00_Cosmo brain/engine/M/murk-engine-expansion.md`
+- OMIS_Coding_Engine_v1.4.0 — `_00_Cosmo brain/engine/O/OMIS_Coding_Engine_v1.4.0.md`
+- Org_Engine — `_00_Cosmo brain/engine/O/Org_Engine.md`
+- Org_Governance_Engine_vInfinity_v2.0.0 — `_00_Cosmo brain/engine/O/Org_Governance_Engine_vInfinity_v2.0.0.md`
+- Personality_Engine_Model — `_00_Cosmo brain/engine/P/Personality_Engine_Model.md`
+- partnerships_channels_engine — `_00_Cosmo brain/engine/P/partnerships_channels_engine.md`
+- personality_engine_v0 — `_00_Cosmo brain/engine/P/personality_engine_v0.md`
+- political_risk_engine — `_00_Cosmo brain/engine/P/political_risk_engine.md`
+- revenue_architecture_engine — `_00_Cosmo brain/engine/R/revenue_architecture_engine.md`
+- 3.Spicies_Interaction_Engine-HIE.uiface — `_00_Cosmo brain/engine/S/3.Spicies_Interaction_Engine-HIE.uiface.md`
+- Scientific_Engine_Model — `_00_Cosmo brain/engine/S/Scientific_Engine_Model.md`
+- Scientific_SUPER_Engine — `_00_Cosmo brain/engine/S/Scientific_SUPER_Engine.md`
+- sector_rotation_engine — `_00_Cosmo brain/engine/S/sector_rotation_engine.md`
+- system_scan_engine — `_00_Cosmo brain/engine/S/system_scan_engine.md`
+- Tech Engine__Archive — `_00_Cosmo brain/engine/T/Tech Engine__Archive.md`
+- Tech Engine_root — `_00_Cosmo brain/engine/T/Tech Engine_root.md`
+- Tech_SUPER_Engine — `_00_Cosmo brain/engine/T/Tech_SUPER_Engine.md`
+- Total_Technical_Engine_Model — `_00_Cosmo brain/engine/T/Total_Technical_Engine_Model.md`
+- tech_expanded_design_engine_v0 — `_00_Cosmo brain/engine/T/tech_expanded_design_engine_v0.md`
+- UNIFIED ORGANIZATIONAL SYSTEMS ENGINE™ — `_00_Cosmo brain/engine/U/UNIFIED ORGANIZATIONAL SYSTEMS ENGINE™.md`
+- Unified_Coding_Engine_vInfinity_v1.6.0 — `_00_Cosmo brain/engine/U/Unified_Coding_Engine_vInfinity_v1.6.0.md`
+- VN_Driver_Charging_Logistics_SUPER_Engine_x100k — `_00_Cosmo brain/engine/V/VN_Driver_Charging_Logistics_SUPER_Engine_x100k.md`
+- VN_Driver_Charging_SUPER_Engine_vInfinity_clean — `_00_Cosmo brain/engine/V/VN_Driver_Charging_SUPER_Engine_vInfinity_clean.md`
+- VN_Legal_Engine_MAX_Standard — `_00_Cosmo brain/engine/V/VN_Legal_Engine_MAX_Standard.md`
+- VN_Legal_Engine_vInfinity — `_00_Cosmo brain/engine/V/VN_Legal_Engine_vInfinity.md`
+- vietnam_demographic_engine — `_00_Cosmo brain/engine/V/vietnam_demographic_engine.md`
+- vn_legal_engine_v0 — `_00_Cosmo brain/engine/V/vn_legal_engine_v0.md`
+- U3H Atemporal Field ATF — `_00_Cosmo brain/field/U3H Atemporal Field ATF.md`
+- UNIVERSAL_FIELD_MODEL — `_00_Cosmo brain/field/UNIVERSAL_FIELD_MODEL.md`
+- agi_tensor_field_analysis_20260301_082901 — `_00_Cosmo brain/field/agi_tensor_field_analysis_20260301_082901.md`
+- AMOS Math Core — Fractal Mathematics & Cognitive Architecture Runtime — `_00_Cosmo brain/fractal/AMOS Math Core — Fractal Mathematics & Cognitive Architecture Runtime.md`
+- AMOS_FRACTAL_CONSCIOUSNESS_WHITEPAPER_FULL_FIXED — `_00_Cosmo brain/fractal/AMOS_FRACTAL_CONSCIOUSNESS_WHITEPAPER_FULL_FIXED.md`
+- AMOS_Forex_Fractal_Geometry_Research_Capsule_v2_DEEP — `_00_Cosmo brain/fractal/AMOS_Forex_Fractal_Geometry_Research_Capsule_v2_DEEP.md`
+- Báo cáo chuyên sâu Vật lý Fractal trong Xây dựng v — `_00_Cosmo brain/fractal/Báo cáo chuyên sâu Vật lý Fractal trong Xây dựng v.md`
+- Easy Fractal money — `_00_Cosmo brain/fractal/Easy Fractal money.md`
+- FRACTAL ECONOMY — `_00_Cosmo brain/fractal/FRACTAL ECONOMY.md`
+- FRACTAL FOREX ENTERPRISE — `_00_Cosmo brain/fractal/FRACTAL FOREX ENTERPRISE.md`
+- FRACTAL — `_00_Cosmo brain/fractal/FRACTAL.md`
+- FRACTAL_RUNTIME — `_00_Cosmo brain/fractal/FRACTAL_RUNTIME.md`
+- Fractal IPS — `_00_Cosmo brain/fractal/Fractal IPS.md`
+- Fractal Semantic Intelligence Architecture (FSIA) — `_00_Cosmo brain/fractal/Fractal Semantic Intelligence Architecture (FSIA).md`
+- HERITAGE ∅ – 12 LOẠI FRACTAL (Và Ứng Dụng Của Chún — `_00_Cosmo brain/fractal/HERITAGE ∅ – 12 LOẠI FRACTAL (Và Ứng Dụng Của Chún.md`
+- HERITAGE ∅ – ANCIENT FRACTAL MATHEMATICS & REPEATI — `_00_Cosmo brain/fractal/HERITAGE ∅ – ANCIENT FRACTAL MATHEMATICS & REPEATI.md`
+- KIẾN TRÚC PHÂN DẠNG (FRACTAL ARCHITECTURE) CỦA THỰ — `_00_Cosmo brain/fractal/KIẾN TRÚC PHÂN DẠNG (FRACTAL ARCHITECTURE) CỦA THỰ.md`
+- Khối lục giác – Fractal, Sao Hỏa, Quả Dứa, và sự l — `_00_Cosmo brain/fractal/Khối lục giác – Fractal, Sao Hỏa, Quả Dứa, và sự l.md`
+- Language Fractal Architecture — `_00_Cosmo brain/fractal/Language Fractal Architecture.md`
+- PHÂN TÍCH TIẾNG VIỆT THEO LOGIC FRACTAL TẠI SAO NG — `_00_Cosmo brain/fractal/PHÂN TÍCH TIẾNG VIỆT THEO LOGIC FRACTAL TẠI SAO NG.md`
+- SKILL (fractal-state) — `_00_Cosmo brain/fractal/SKILL (fractal-state).md`
+- TRANG FRAI (FRACTAL REASONING AI) — `_00_Cosmo brain/fractal/TRANG FRAI (FRACTAL REASONING AI).md`
+- UBI → Fractal Architecture → Entropy Correction → — `_00_Cosmo brain/fractal/UBI → Fractal Architecture → Entropy Correction →.md`
+- all_domain_fractal_architecture_master_25000 — `_00_Cosmo brain/fractal/all_domain_fractal_architecture_master_25000.md`
+- amos-fractal-routing — `_00_Cosmo brain/fractal/amos-fractal-routing.md`
+- cau_tai_cau_van_duoi_nguyen_ly_fractal_l_m_h_va — `_00_Cosmo brain/fractal/cau_tai_cau_van_duoi_nguyen_ly_fractal_l_m_h_va.md`
+- equations (fractal_cognitive_architecture) — `_00_Cosmo brain/fractal/equations (fractal_cognitive_architecture).md`
+- fractal-cognitive-architecture — `_00_Cosmo brain/fractal/fractal-cognitive-architecture.md`
+- fractal-math-contract — `_00_Cosmo brain/fractal/fractal-math-contract.md`
+- fractal_architecture_framework_5000 — `_00_Cosmo brain/fractal/fractal_architecture_framework_5000.md`
+- fractal_cognitive_architecture — `_00_Cosmo brain/fractal/fractal_cognitive_architecture.md`
+- fractal_loader — `_00_Cosmo brain/fractal/fractal_loader.md`
+- human_biology_fractal_equations_25000 — `_00_Cosmo brain/fractal/human_biology_fractal_equations_25000.md`
+- math_fractal_architecture_25000 — `_00_Cosmo brain/fractal/math_fractal_architecture_25000.md`
+- requirements (fractal_cognitive_architecture_v2) — `_00_Cosmo brain/fractal/requirements (fractal_cognitive_architecture_v2).md`
+- rules (fractal_cognitive_architecture) — `_00_Cosmo brain/fractal/rules (fractal_cognitive_architecture).md`
+- tru_ta_ma_duoi_nguyen_ly_fractal_l_m_h_lacuna — `_00_Cosmo brain/fractal/tru_ta_ma_duoi_nguyen_ly_fractal_l_m_h_lacuna.md`
+- x25000_hierarchical_fractal — `_00_Cosmo brain/fractal/x25000_hierarchical_fractal.md`
+- x25000_strict_fractal_equations_only — `_00_Cosmo brain/fractal/x25000_strict_fractal_equations_only.md`
+- 🌌 KIẾN TRÚC FRACTAL CỦA Ý THỨC, CHIÊM TINH, VẬT CH — `_00_Cosmo brain/fractal/🌌 KIẾN TRÚC FRACTAL CỦA Ý THỨC, CHIÊM TINH, VẬT CH.md`
+- 🔍 Phát hiện Kiến trúc fractal ẩn – Không phải tự n — `_00_Cosmo brain/fractal/🔍 Phát hiện Kiến trúc fractal ẩn – Không phải tự n.md`
+- 3a. Governance - org structure - v5 — `_00_Cosmo brain/governance/3a. Governance - org structure - v5.md`
+- 3b. Governance - process v8 — `_00_Cosmo brain/governance/3b. Governance - process v8.md`
+- 3c. Governance - Delivery and value mgmt v6 — `_00_Cosmo brain/governance/3c. Governance - Delivery and value mgmt v6.md`
+- AMOS GOVERNANCE BENCHMARK (STRUCTURAL, %) — `_00_Cosmo brain/governance/AMOS GOVERNANCE BENCHMARK (STRUCTURAL, %).md`
+- AMOS Governance Economy OS — `_00_Cosmo brain/governance/AMOS Governance Economy OS.md`
+- AMOS_CORE_v4_7_hardened_deterministic_governance — `_00_Cosmo brain/governance/AMOS_CORE_v4_7_hardened_deterministic_governance.md`
+- AMOS_CORE_v4_8_capability_bound_governance — `_00_Cosmo brain/governance/AMOS_CORE_v4_8_capability_bound_governance.md`
+- AMOS_Governance_And_Politics_Pack_v0_Au4 — `_00_Cosmo brain/governance/AMOS_Governance_And_Politics_Pack_v0_Au4.md`
+- AMOS_Vn_Governance_And_Politics_Pack_v0_Vn4 — `_00_Cosmo brain/governance/AMOS_Vn_Governance_And_Politics_Pack_v0_Vn4.md`
+- GOVERNANCE_TENSOR — `_00_Cosmo brain/governance/GOVERNANCE_TENSOR.md`
+- Governance Economy — `_00_Cosmo brain/governance/Governance Economy.md`
+- Governance_Economy_Model — `_00_Cosmo brain/governance/Governance_Economy_Model.md`
+- Hydrogen as the Final Governance Test — `_00_Cosmo brain/governance/Hydrogen as the Final Governance Test.md`
+- Org_Governance_Model — `_00_Cosmo brain/governance/Org_Governance_Model.md`
+- The 4 Pillars of Empire — A Universal Governance L — `_00_Cosmo brain/governance/The 4 Pillars of Empire — A Universal Governance L.md`
+- The Deterministic Organisation — Governance, Intel — `_00_Cosmo brain/governance/The Deterministic Organisation — Governance, Intel.md`
+- UNI POWER STRATEGIC GOVERNANCE & OPERATING MODEL — `_00_Cosmo brain/governance/UNI POWER STRATEGIC GOVERNANCE & OPERATING MODEL.md`
+- Why Governance Collapses When It Ignores Human Bio — `_00_Cosmo brain/governance/Why Governance Collapses When It Ignores Human Bio.md`
+- advanced_governance_report — `_00_Cosmo brain/governance/advanced_governance_report.md`
+- ai_governance_stack — `_00_Cosmo brain/governance/ai_governance_stack.md`
+- amos-governance-economy-layer — `_00_Cosmo brain/governance/amos-governance-economy-layer.md`
+- governance_economy_structured — `_00_Cosmo brain/governance/governance_economy_structured.md`
+- 📘 Unified Biological Governance™ — Tái cấu trúc tổ — `_00_Cosmo brain/governance/📘 Unified Biological Governance™ — Tái cấu trúc tổ.md`
+- ABSOLUTE-HUMAN — `_00_Cosmo brain/human/ABSOLUTE-HUMAN.md`
+- A_Deterministic_Architecture_for_HumanMachine_Alignment — `_00_Cosmo brain/human/A_Deterministic_Architecture_for_HumanMachine_Alignment.md`
+- Absolute-Human (final version)_root — `_00_Cosmo brain/human/Absolute-Human (final version)_root.md`
+- Absolute_Human_Model — `_00_Cosmo brain/human/Absolute_Human_Model.md`
+- Beyond Human-Centred Design — `_00_Cosmo brain/human/Beyond Human-Centred Design.md`
+- HUMANITY FROM THE ICE AGE TO THE PRESENT — `_00_Cosmo brain/human/HUMANITY FROM THE ICE AGE TO THE PRESENT.md`
+- How “Human-Centered Design” Drifted from Care to t — `_00_Cosmo brain/human/How “Human-Centered Design” Drifted from Care to t.md`
+- Human Limits as Design Constraints — `_00_Cosmo brain/human/Human Limits as Design Constraints.md`
+- Human Stability Is the Only Renewable Resource — `_00_Cosmo brain/human/Human Stability Is the Only Renewable Resource.md`
+- Human-Centered Design Was a Misnomer — `_00_Cosmo brain/human/Human-Centered Design Was a Misnomer.md`
+- The Talent Ledger Measuring Human Ability with Met — `_00_Cosmo brain/human/The Talent Ledger Measuring Human Ability with Met.md`
+- When Humanity Truly Began — and the Horizon Scienc — `_00_Cosmo brain/human/When Humanity Truly Began — and the Horizon Scienc.md`
+- When Humanity Truly Began — `_00_Cosmo brain/human/When Humanity Truly Began.md`
+- Whitepaper Human Aging, Gerontology Research, and — `_00_Cosmo brain/human/Whitepaper Human Aging, Gerontology Research, and.md`
+- absolut human — `_00_Cosmo brain/human/absolut human.md`
+- human_pack_v0 — `_00_Cosmo brain/human/human_pack_v0.md`
+- AUTO-EXTRACTED AND ARCHIVE INDEX — `_00_Cosmo brain/indexes/AUTO-EXTRACTED AND ARCHIVE INDEX.md`
+- EQUATION_REGISTRY — `_00_Cosmo brain/indexes/EQUATION_REGISTRY.md`
+- INDEX_MAIN — `_00_Cosmo brain/indexes/INDEX_MAIN.md`
+- INDEX_Unipower — `_00_Cosmo brain/indexes/INDEX_Unipower.md`
+- INDEX_arxiv-mirrors — `_00_Cosmo brain/indexes/INDEX_arxiv-mirrors.md`
+- INDEX_arxiv_md — `_00_Cosmo brain/indexes/INDEX_arxiv_md.md`
+- INDEX_daily — `_00_Cosmo brain/indexes/INDEX_daily.md`
+- INDEX_hash-prefixed — `_00_Cosmo brain/indexes/INDEX_hash-prefixed.md`
+- INDEX_md — `_00_Cosmo brain/indexes/INDEX_md.md`
+- INDEX_md_v2 — `_00_Cosmo brain/indexes/INDEX_md_v2.md`
+- INDEX_openclaw-main — `_00_Cosmo brain/indexes/INDEX_openclaw-main.md`
+- INDEX_root-misc-04 — `_00_Cosmo brain/indexes/INDEX_root-misc-04.md`
+- INDEX_versioned-variants — `_00_Cosmo brain/indexes/INDEX_versioned-variants.md`
+- Master Non-Overlap Index v0 3 — `_00_Cosmo brain/indexes/Master Non-Overlap Index v0 3.md`
+- VARIABLE_REGISTRY — `_00_Cosmo brain/indexes/VARIABLE_REGISTRY.md`
+- index — `_00_Cosmo brain/indexes/index.md`
+- 0.Universe_Logic_Kernel-ULK.ulmk — `_00_Cosmo brain/kernel/0/0.Universe_Logic_Kernel-ULK.ulmk.md`
+- AGENTS (AMOS_EXECUTION_KERNEL_v1) — `_00_Cosmo brain/kernel/A/AGENTS (AMOS_EXECUTION_KERNEL_v1).md`
+- AGENTS (AMOS_OS_KERNEL) — `_00_Cosmo brain/kernel/A/AGENTS (AMOS_OS_KERNEL).md`
+- AMOS Automation Kernel vInfinity — `_00_Cosmo brain/kernel/A/AMOS Automation Kernel vInfinity.md`
+- AMOS Coding Kernel vInfinity — `_00_Cosmo brain/kernel/A/AMOS Coding Kernel vInfinity.md`
+- AMOS Design Kernel vInfinity — `_00_Cosmo brain/kernel/A/AMOS Design Kernel vInfinity.md`
+- AMOS Legal Kernel vInfinity — `_00_Cosmo brain/kernel/A/AMOS Legal Kernel vInfinity.md`
+- AMOS Medical Clinical Kernel vInfinity — `_00_Cosmo brain/kernel/A/AMOS Medical Clinical Kernel vInfinity.md`
+- AMOS Medical Clinical Kernel — `_00_Cosmo brain/kernel/A/AMOS Medical Clinical Kernel.md`
+- AMOS Org Governance Kernel — `_00_Cosmo brain/kernel/A/AMOS Org Governance Kernel.md`
+- AMOS Scientific Kernel vInfinity — `_00_Cosmo brain/kernel/A/AMOS Scientific Kernel vInfinity.md`
+- AMOS Super Kernel — Unified Meta-Orchestration Architecture — `_00_Cosmo brain/kernel/A/AMOS Super Kernel — Unified Meta-Orchestration Architecture.md`
+- AMOS Tech Architecture Kernel SUPER vInfinity — `_00_Cosmo brain/kernel/A/AMOS Tech Architecture Kernel SUPER vInfinity.md`
+- AMOS Tech Architecture Kernel vInfinity — `_00_Cosmo brain/kernel/A/AMOS Tech Architecture Kernel vInfinity.md`
+- AMOS Tech Architecture Kernel — `_00_Cosmo brain/kernel/A/AMOS Tech Architecture Kernel.md`
+- AMOS Unified Coding Kernel vInfinity — `_00_Cosmo brain/kernel/A/AMOS Unified Coding Kernel vInfinity.md`
+- AMOS Universe Domain Kernels — `_00_Cosmo brain/kernel/A/AMOS Universe Domain Kernels.md`
+- AMOS forex__packages__ukr__recursive_kernel — `_00_Cosmo brain/kernel/A/AMOS forex__packages__ukr__recursive_kernel.md`
+- AMOS vOmni Kernel vInfinity_MAX — `_00_Cosmo brain/kernel/A/AMOS vOmni Kernel vInfinity_MAX.md`
+- AMOS vOmni Master Kernel — `_00_Cosmo brain/kernel/A/AMOS vOmni Master Kernel.md`
+- AMOS_Academic_Writing_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Academic_Writing_Kernel_v0.md`
+- AMOS_Agile_Delivery_Kernel_v0_Tech7_3 — `_00_Cosmo brain/kernel/A/AMOS_Agile_Delivery_Kernel_v0_Tech7_3.md`
+- AMOS_Analogy_Abstraction_Kernel_v0_Meta_Cognition4_2 — `_00_Cosmo brain/kernel/A/AMOS_Analogy_Abstraction_Kernel_v0_Meta_Cognition4_2.md`
+- AMOS_Api_Design_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Api_Design_Kernel_v0_Tech.md`
+- AMOS_Api_Integration_Kernel_v0_Tech7_3 — `_00_Cosmo brain/kernel/A/AMOS_Api_Integration_Kernel_v0_Tech7_3.md`
+- AMOS_Audit_Quality_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Audit_Quality_Kernel_v0.md`
+- AMOS_Automation_Kernel_v0_Tech_Systems7_3 — `_00_Cosmo brain/kernel/A/AMOS_Automation_Kernel_v0_Tech_Systems7_3.md`
+- AMOS_Behavioral_Economics_Kernel_v0_Human_Society4_2 — `_00_Cosmo brain/kernel/A/AMOS_Behavioral_Economics_Kernel_v0_Human_Society4_2.md`
+- AMOS_Biostatistics_Kernel_v0_Biology_Cognition — `_00_Cosmo brain/kernel/A/AMOS_Biostatistics_Kernel_v0_Biology_Cognition.md`
+- AMOS_Biostatistics_Kernel_v0_Science_Health2 — `_00_Cosmo brain/kernel/A/AMOS_Biostatistics_Kernel_v0_Science_Health2.md`
+- AMOS_Bizfin_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Bizfin_Kernel_v0.md`
+- AMOS_Business_Analysis_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Business_Analysis_Kernel_v0_Tech.md`
+- AMOS_Business_Model_Kernel_v0_Biz_Market3 — `_00_Cosmo brain/kernel/A/AMOS_Business_Model_Kernel_v0_Biz_Market3.md`
+- AMOS_Business_Model_Kernel_v0_Business4 — `_00_Cosmo brain/kernel/A/AMOS_Business_Model_Kernel_v0_Business4.md`
+- AMOS_COGNITION_TOTAL_KERNEL — `_00_Cosmo brain/kernel/A/AMOS_COGNITION_TOTAL_KERNEL.md`
+- AMOS_Change_Management_Kernel_v0_Governance_Risk — `_00_Cosmo brain/kernel/A/AMOS_Change_Management_Kernel_v0_Governance_Risk.md`
+- AMOS_Clinical_Research_Kernel_v0_Biology_Cognition7_3 — `_00_Cosmo brain/kernel/A/AMOS_Clinical_Research_Kernel_v0_Biology_Cognition7_3.md`
+- AMOS_Clinical_Research_Kernel_v0_Science_Health2 — `_00_Cosmo brain/kernel/A/AMOS_Clinical_Research_Kernel_v0_Science_Health2.md`
+- AMOS_Cloud_Platform_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Cloud_Platform_Kernel_v0_Tech.md`
+- AMOS_Coding_Kernel_v0_Tech_Systems7_2 — `_00_Cosmo brain/kernel/A/AMOS_Coding_Kernel_v0_Tech_Systems7_2.md`
+- AMOS_Counterfactual_Reasoning_Kernel_v0_Meta_Cognition4_2 — `_00_Cosmo brain/kernel/A/AMOS_Counterfactual_Reasoning_Kernel_v0_Meta_Cognition4_2.md`
+- AMOS_Crisis_Management_Kernel_v0_Governance_Risk — `_00_Cosmo brain/kernel/A/AMOS_Crisis_Management_Kernel_v0_Governance_Risk.md`
+- AMOS_Customer_Insight_Kernel_v0_Biz_Market2 — `_00_Cosmo brain/kernel/A/AMOS_Customer_Insight_Kernel_v0_Biz_Market2.md`
+- AMOS_Customer_Insight_Kernel_v0_Business4 — `_00_Cosmo brain/kernel/A/AMOS_Customer_Insight_Kernel_v0_Business4.md`
+- AMOS_Data_Science_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Data_Science_Kernel_v0_Tech.md`
+- AMOS_Design_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Design_Kernel_v0_Tech.md`
+- AMOS_Devops_Infra_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Devops_Infra_Kernel_v0_Tech.md`
+- AMOS_Documentation_Kernel_v0_Tech_Systems7_4 — `_00_Cosmo brain/kernel/A/AMOS_Documentation_Kernel_v0_Tech_Systems7_4.md`
+- AMOS_Environmental_Health_Kernel_v0_Biology_Cognition7_3 — `_00_Cosmo brain/kernel/A/AMOS_Environmental_Health_Kernel_v0_Biology_Cognition7_3.md`
+- AMOS_Environmental_Health_Kernel_v0_Science_Health2 — `_00_Cosmo brain/kernel/A/AMOS_Environmental_Health_Kernel_v0_Science_Health2.md`
+- AMOS_Ethical_Reasoning_Kernel_v0_Human_Society4_2 — `_00_Cosmo brain/kernel/A/AMOS_Ethical_Reasoning_Kernel_v0_Human_Society4_2.md`
+- AMOS_Etl_Pipeline_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Etl_Pipeline_Kernel_v0_Tech.md`
+- AMOS_Ev_Kernel — `_00_Cosmo brain/kernel/A/AMOS_Ev_Kernel.md`
+- AMOS_Governance_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Governance_Kernel_v0.md`
+- AMOS_Governance_Risk_Policy_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Governance_Risk_Policy_Kernel_v0.md`
+- AMOS_Health_Policy_Kernel_v0_Biology_Cognition — `_00_Cosmo brain/kernel/A/AMOS_Health_Policy_Kernel_v0_Biology_Cognition.md`
+- AMOS_Health_Policy_Kernel_v0_Science_Health2 — `_00_Cosmo brain/kernel/A/AMOS_Health_Policy_Kernel_v0_Science_Health2.md`
+- AMOS_Hr_Talent_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Hr_Talent_Kernel_v0.md`
+- AMOS_Integration_Platform_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Integration_Platform_Kernel_v0_Tech.md`
+- AMOS_Ip_Shield_Kernel_v0_Web7 — `_00_Cosmo brain/kernel/A/AMOS_Ip_Shield_Kernel_v0_Web7.md`
+- AMOS_KERNEL_CONFIG_Kernel — `_00_Cosmo brain/kernel/A/AMOS_KERNEL_CONFIG_Kernel.md`
+- AMOS_KERNEL_SUPER_vInfinity — `_00_Cosmo brain/kernel/A/AMOS_KERNEL_SUPER_vInfinity.md`
+- AMOS_Kernel_Routing_Workflow — `_00_Cosmo brain/kernel/A/AMOS_Kernel_Routing_Workflow.md`
+- AMOS_Legal_Kernel_v0_Org_Risk_Policy7_4 — `_00_Cosmo brain/kernel/A/AMOS_Legal_Kernel_v0_Org_Risk_Policy7_4.md`
+- AMOS_Market_Econ_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Market_Econ_Kernel_v0.md`
+- AMOS_Marketing_Gtm_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Marketing_Gtm_Kernel_v0.md`
+- AMOS_Mbb_Consulting_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Mbb_Consulting_Kernel_v0.md`
+- AMOS_Medical_Clinical_Kernel_v0_Biology_Cognition7 — `_00_Cosmo brain/kernel/A/AMOS_Medical_Clinical_Kernel_v0_Biology_Cognition7.md`
+- AMOS_Medical_Clinical_Kernel_v0_Science_Health7_4 — `_00_Cosmo brain/kernel/A/AMOS_Medical_Clinical_Kernel_v0_Science_Health7_4.md`
+- AMOS_Memory_Optimization_Kernel_v0_Machine_Architecture4_2 — `_00_Cosmo brain/kernel/A/AMOS_Memory_Optimization_Kernel_v0_Machine_Architecture4_2.md`
+- AMOS_Memory_Optimization_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Memory_Optimization_Kernel_v0_Tech.md`
+- AMOS_Meta_Epistemology_Kernel_v0_Meta_Cognition4_2 — `_00_Cosmo brain/kernel/A/AMOS_Meta_Epistemology_Kernel_v0_Meta_Cognition4_2.md`
+- AMOS_Meta_Kernel_Specifications — `_00_Cosmo brain/kernel/A/AMOS_Meta_Kernel_Specifications.md`
+- AMOS_Meta_Logic_Kernel_v0_Meta_Cognition4_2 — `_00_Cosmo brain/kernel/A/AMOS_Meta_Logic_Kernel_v0_Meta_Cognition4_2.md`
+- AMOS_Meta_Ontology_Kernel_v0_Meta_Cognition — `_00_Cosmo brain/kernel/A/AMOS_Meta_Ontology_Kernel_v0_Meta_Cognition.md`
+- AMOS_Multi_Agent_Coordination_Kernel_v0_Machine_Architecture — `_00_Cosmo brain/kernel/A/AMOS_Multi_Agent_Coordination_Kernel_v0_Machine_Architecture.md`
+- AMOS_Multi_Agent_Coordination_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Multi_Agent_Coordination_Kernel_v0_Tech.md`
+- AMOS_Multi_Perspective_Reasoning_Kernel_v0_Meta_Cognition4_2 — `_00_Cosmo brain/kernel/A/AMOS_Multi_Perspective_Reasoning_Kernel_v0_Meta_Cognition4_2.md`
+- AMOS_Negotiation_Diplomacy_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Negotiation_Diplomacy_Kernel_v0.md`
+- AMOS_ORCHESTRATOR_ROUTING_Kernel — `_00_Cosmo brain/kernel/A/AMOS_ORCHESTRATOR_ROUTING_Kernel.md`
+- AMOS_OS_INTEGRATED_AGENT_Kernel — `_00_Cosmo brain/kernel/A/AMOS_OS_INTEGRATED_AGENT_Kernel.md`
+- AMOS_OS_ROOT_Kernel — `_00_Cosmo brain/kernel/A/AMOS_OS_ROOT_Kernel.md`
+- AMOS_Observability_Monitoring_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Observability_Monitoring_Kernel_v0_Tech.md`
+- AMOS_Omni_KERNEL_Core — `_00_Cosmo brain/kernel/A/AMOS_Omni_KERNEL_Core.md`
+- AMOS_Operational_Risk_Kernel_v0_Governance_Risk7_3 — `_00_Cosmo brain/kernel/A/AMOS_Operational_Risk_Kernel_v0_Governance_Risk7_3.md`
+- AMOS_Operations_Supplychain_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Operations_Supplychain_Kernel_v0.md`
+- AMOS_Org_Governance_Kernel_v0_Governance_Risk — `_00_Cosmo brain/kernel/A/AMOS_Org_Governance_Kernel_v0_Governance_Risk.md`
+- AMOS_Organizational_Behavior_Kernel_v0_Human_Society — `_00_Cosmo brain/kernel/A/AMOS_Organizational_Behavior_Kernel_v0_Human_Society.md`
+- AMOS_Partnerships_Channels_Kernel_v0_Biz_Market2 — `_00_Cosmo brain/kernel/A/AMOS_Partnerships_Channels_Kernel_v0_Biz_Market2.md`
+- AMOS_Partnerships_Channels_Kernel_v0_Business4 — `_00_Cosmo brain/kernel/A/AMOS_Partnerships_Channels_Kernel_v0_Business4.md`
+- AMOS_Policy_Design_Kernel_v0_Governance_Risk — `_00_Cosmo brain/kernel/A/AMOS_Policy_Design_Kernel_v0_Governance_Risk.md`
+- AMOS_Policy_Geostrategy_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Policy_Geostrategy_Kernel_v0.md`
+- AMOS_Political_Dynamics_Kernel_v0_Human_Society — `_00_Cosmo brain/kernel/A/AMOS_Political_Dynamics_Kernel_v0_Human_Society.md`
+- AMOS_Prediction_Forecasting_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Prediction_Forecasting_Kernel_v0.md`
+- AMOS_Pricing_Strategy_Kernel_v0_Biz_Market2 — `_00_Cosmo brain/kernel/A/AMOS_Pricing_Strategy_Kernel_v0_Biz_Market2.md`
+- AMOS_Pricing_Strategy_Kernel_v0_Business4 — `_00_Cosmo brain/kernel/A/AMOS_Pricing_Strategy_Kernel_v0_Business4.md`
+- AMOS_Product_Management_Kernel_v0_Tech7_3 — `_00_Cosmo brain/kernel/A/AMOS_Product_Management_Kernel_v0_Tech7_3.md`
+- AMOS_Product_Strategy_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Product_Strategy_Kernel_v0.md`
+- AMOS_Psychology_Decision_Kernel_v0_Human_Society4_2 — `_00_Cosmo brain/kernel/A/AMOS_Psychology_Decision_Kernel_v0_Human_Society4_2.md`
+- AMOS_Public_Health_Kernel_v0_Biology_Cognition — `_00_Cosmo brain/kernel/A/AMOS_Public_Health_Kernel_v0_Biology_Cognition.md`
+- AMOS_Public_Health_Kernel_v0_Science_Health2 — `_00_Cosmo brain/kernel/A/AMOS_Public_Health_Kernel_v0_Science_Health2.md`
+- AMOS_Qa_Testing_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Qa_Testing_Kernel_v0_Tech.md`
+- AMOS_Reinforcement_Learning_Analysis_Kernel_v0_Machine_Architecture4_2 — `_00_Cosmo brain/kernel/A/AMOS_Reinforcement_Learning_Analysis_Kernel_v0_Machine_Architecture4_2.md`
+- AMOS_Revenue_Architecture_Kernel_v0_Biz_Market3 — `_00_Cosmo brain/kernel/A/AMOS_Revenue_Architecture_Kernel_v0_Biz_Market3.md`
+- AMOS_Revenue_Architecture_Kernel_v0_Business4 — `_00_Cosmo brain/kernel/A/AMOS_Revenue_Architecture_Kernel_v0_Business4.md`
+- AMOS_Risk_Compliance_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Risk_Compliance_Kernel_v0.md`
+- AMOS_SUPER_FABRICATION_Kernel — `_00_Cosmo brain/kernel/A/AMOS_SUPER_FABRICATION_Kernel.md`
+- AMOS_Sales_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Sales_Kernel_v0.md`
+- AMOS_Scientific_Kernel_v0_Biology_Cognition7_3 — `_00_Cosmo brain/kernel/A/AMOS_Scientific_Kernel_v0_Biology_Cognition7_3.md`
+- AMOS_Scientific_Kernel_v0_Science_Health7_2 — `_00_Cosmo brain/kernel/A/AMOS_Scientific_Kernel_v0_Science_Health7_2.md`
+- AMOS_Security_Architecture_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Security_Architecture_Kernel_v0_Tech.md`
+- AMOS_Tech_Architecture_Kernel_v0_Tech_Systems7_4 — `_00_Cosmo brain/kernel/A/AMOS_Tech_Architecture_Kernel_v0_Tech_Systems7_4.md`
+- AMOS_Tech_Kernel_Expansion — `_00_Cosmo brain/kernel/A/AMOS_Tech_Kernel_Expansion.md`
+- AMOS_Tech_Kernel_Integration_Workflow — `_00_Cosmo brain/kernel/A/AMOS_Tech_Kernel_Integration_Workflow.md`
+- AMOS_Tech_amos_core_Kernel_v1_Tech4 — `_00_Cosmo brain/kernel/A/AMOS_Tech_amos_core_Kernel_v1_Tech4.md`
+- AMOS_Tech_cognition_Kernel_v1_Tech4 — `_00_Cosmo brain/kernel/A/AMOS_Tech_cognition_Kernel_v1_Tech4.md`
+- AMOS_Tech_emotion_Kernel_v1_Tech4 — `_00_Cosmo brain/kernel/A/AMOS_Tech_emotion_Kernel_v1_Tech4.md`
+- AMOS_Tech_identity_Kernel_v1_Tech4 — `_00_Cosmo brain/kernel/A/AMOS_Tech_identity_Kernel_v1_Tech4.md`
+- AMOS_Tech_ubi_canon_Kernel_v1_Tech4 — `_00_Cosmo brain/kernel/A/AMOS_Tech_ubi_canon_Kernel_v1_Tech4.md`
+- AMOS_Toolchain_Integration_Kernel_v0_Machine_Architecture4_2 — `_00_Cosmo brain/kernel/A/AMOS_Toolchain_Integration_Kernel_v0_Machine_Architecture4_2.md`
+- AMOS_Toolchain_Integration_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Toolchain_Integration_Kernel_v0_Tech.md`
+- AMOS_UBI_KERNEL — `_00_Cosmo brain/kernel/A/AMOS_UBI_KERNEL.md`
+- AMOS_UNIVERSE_KERNEL_vInfinity — `_00_Cosmo brain/kernel/A/AMOS_UNIVERSE_KERNEL_vInfinity.md`
+- AMOS_Unnamed_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Unnamed_Kernel_v0.md`
+- AMOS_Ux_Design_Kernel_v0_Tech7_3 — `_00_Cosmo brain/kernel/A/AMOS_Ux_Design_Kernel_v0_Tech7_3.md`
+- AMOS_Vomni_Kernel_v0_Domains7 — `_00_Cosmo brain/kernel/A/AMOS_Vomni_Kernel_v0_Domains7.md`
+- AMOS_Workflow_Orchestration_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Workflow_Orchestration_Kernel_v0_Tech.md`
+- AMOS_national_banking_os_amos_core_Kernel_v1_national_banking_os4 — `_00_Cosmo brain/kernel/A/AMOS_national_banking_os_amos_core_Kernel_v1_national_banking_os4.md`
+- AMOS_national_banking_os_cognition_Kernel_v1_national_banking_os4 — `_00_Cosmo brain/kernel/A/AMOS_national_banking_os_cognition_Kernel_v1_national_banking_os4.md`
+- AMOS_national_banking_os_emotion_Kernel_v1_national_banking_os4 — `_00_Cosmo brain/kernel/A/AMOS_national_banking_os_emotion_Kernel_v1_national_banking_os4.md`
+- AMOS_national_banking_os_identity_Kernel_v1_national_banking_os4 — `_00_Cosmo brain/kernel/A/AMOS_national_banking_os_identity_Kernel_v1_national_banking_os4.md`
+- AMOS_national_banking_os_ubi_canon_Kernel_v1_national_banking_os4 — `_00_Cosmo brain/kernel/A/AMOS_national_banking_os_ubi_canon_Kernel_v1_national_banking_os4.md`
+- AMOS_vOmni_KERNEL_v0_Tech7 — `_00_Cosmo brain/kernel/A/AMOS_vOmni_KERNEL_v0_Tech7.md`
+- Agent_Fabrication_Full_Kernel — `_00_Cosmo brain/kernel/A/Agent_Fabrication_Full_Kernel.md`
+- accounts_kernel — `_00_Cosmo brain/kernel/A/accounts_kernel.md`
+- amos-academic-writing-kernel — `_00_Cosmo brain/kernel/A/amos-academic-writing-kernel.md`
+- amos-analogy-abstraction-kernel — `_00_Cosmo brain/kernel/A/amos-analogy-abstraction-kernel.md`
+- amos-audit-quality-kernel — `_00_Cosmo brain/kernel/A/amos-audit-quality-kernel.md`
+- amos-behavioral-economics-kernel — `_00_Cosmo brain/kernel/A/amos-behavioral-economics-kernel.md`
+- amos-bizfin-kernel — `_00_Cosmo brain/kernel/A/amos-bizfin-kernel.md`
+- amos-control-systems-kernel — `_00_Cosmo brain/kernel/A/amos-control-systems-kernel.md`
+- amos-counterfactual-reasoning-kernel — `_00_Cosmo brain/kernel/A/amos-counterfactual-reasoning-kernel.md`
+- amos-ethical-reasoning-kernel — `_00_Cosmo brain/kernel/A/amos-ethical-reasoning-kernel.md`
+- amos-ev-kernel-layer — `_00_Cosmo brain/kernel/A/amos-ev-kernel-layer.md`
+- amos-hr-talent-kernel — `_00_Cosmo brain/kernel/A/amos-hr-talent-kernel.md`
+- amos-kernels-biology-cognition — `_00_Cosmo brain/kernel/A/amos-kernels-biology-cognition.md`
+- amos-kernels-governance-risk — `_00_Cosmo brain/kernel/A/amos-kernels-governance-risk.md`
+- amos-kernels-logic — `_00_Cosmo brain/kernel/A/amos-kernels-logic.md`
+- amos-kernels-tech — `_00_Cosmo brain/kernel/A/amos-kernels-tech.md`
+- amos-market-econ-kernel — `_00_Cosmo brain/kernel/A/amos-market-econ-kernel.md`
+- amos-marketing-gtm-kernel — `_00_Cosmo brain/kernel/A/amos-marketing-gtm-kernel.md`
+- amos-mbb-consulting-kernel — `_00_Cosmo brain/kernel/A/amos-mbb-consulting-kernel.md`
+- amos-medical-clinical-kernel-layer — `_00_Cosmo brain/kernel/A/amos-medical-clinical-kernel-layer.md`
+- amos-memory-optimization-kernel — `_00_Cosmo brain/kernel/A/amos-memory-optimization-kernel.md`
+- amos-meta-epistemology-kernel — `_00_Cosmo brain/kernel/A/amos-meta-epistemology-kernel.md`
+- amos-meta-logic-kernel — `_00_Cosmo brain/kernel/A/amos-meta-logic-kernel.md`
+- amos-meta-ontology-kernel — `_00_Cosmo brain/kernel/A/amos-meta-ontology-kernel.md`
+- amos-multi-agent-coordination-kernel — `_00_Cosmo brain/kernel/A/amos-multi-agent-coordination-kernel.md`
+- amos-multi-perspective-reasoning-kernel — `_00_Cosmo brain/kernel/A/amos-multi-perspective-reasoning-kernel.md`
+- amos-negotiation-diplomacy-kernel — `_00_Cosmo brain/kernel/A/amos-negotiation-diplomacy-kernel.md`
+- amos-operations-supplychain-kernel — `_00_Cosmo brain/kernel/A/amos-operations-supplychain-kernel.md`
+- amos-organizational-behavior-kernel — `_00_Cosmo brain/kernel/A/amos-organizational-behavior-kernel.md`
+- amos-policy-geostrategy-kernel — `_00_Cosmo brain/kernel/A/amos-policy-geostrategy-kernel.md`
+- amos-political-dynamics-kernel — `_00_Cosmo brain/kernel/A/amos-political-dynamics-kernel.md`
+- amos-prediction-forecasting-kernel — `_00_Cosmo brain/kernel/A/amos-prediction-forecasting-kernel.md`
+- amos-probability-statistics-kernel — `_00_Cosmo brain/kernel/A/amos-probability-statistics-kernel.md`
+- amos-product-strategy-kernel — `_00_Cosmo brain/kernel/A/amos-product-strategy-kernel.md`
+- amos-psychology-decision-kernel — `_00_Cosmo brain/kernel/A/amos-psychology-decision-kernel.md`
+- amos-reasoning-kernel-layer — `_00_Cosmo brain/kernel/A/amos-reasoning-kernel-layer.md`
+- amos-reinforcement-learning-analysis-kernel — `_00_Cosmo brain/kernel/A/amos-reinforcement-learning-analysis-kernel.md`
+- amos-sales-kernel — `_00_Cosmo brain/kernel/A/amos-sales-kernel.md`
+- amos-simulation-kernel — `_00_Cosmo brain/kernel/A/amos-simulation-kernel.md`
+- amos-tech-architecture-kernel-layer — `_00_Cosmo brain/kernel/A/amos-tech-architecture-kernel-layer.md`
+- amos-unnamed-kernel — `_00_Cosmo brain/kernel/A/amos-unnamed-kernel.md`
+- amos-vomni-kernel-layer — `_00_Cosmo brain/kernel/A/amos-vomni-kernel-layer.md`
+- Biological Kernel Computing (BKC) — `_00_Cosmo brain/kernel/B/Biological Kernel Computing (BKC).md`
+- COGNITION_KERNEL — `_00_Cosmo brain/kernel/C/COGNITION_KERNEL.md`
+- Consulting_Kernel — `_00_Cosmo brain/kernel/C/Consulting_Kernel.md`
+- compliance_kernel — `_00_Cosmo brain/kernel/C/compliance_kernel.md`
+- documentation_kernel_v0 — `_00_Cosmo brain/kernel/D/documentation_kernel_v0.md`
+- Ev_Kernel_Model — `_00_Cosmo brain/kernel/E/Ev_Kernel_Model.md`
+- finance_sensor_kernel — `_00_Cosmo brain/kernel/F/finance_sensor_kernel.md`
+- Governance_Kernel — `_00_Cosmo brain/kernel/G/Governance_Kernel.md`
+- health_kernel — `_00_Cosmo brain/kernel/H/health_kernel.md`
+- INDEX_IP_Kernel_Shield — `_00_Cosmo brain/kernel/I/INDEX_IP_Kernel_Shield.md`
+- IP_Kernel_Shield_Security — `_00_Cosmo brain/kernel/I/IP_Kernel_Shield_Security.md`
+- IP_Kernel_Shield__archive AMOS22 — `_00_Cosmo brain/kernel/I/IP_Kernel_Shield__archive AMOS22.md`
+- IP_Kernel_Shield__archive AMOS23 — `_00_Cosmo brain/kernel/I/IP_Kernel_Shield__archive AMOS23.md`
+- investment_kernel — `_00_Cosmo brain/kernel/I/investment_kernel.md`
+- ipprotection_kernel — `_00_Cosmo brain/kernel/I/ipprotection_kernel.md`
+- KERNEL_PROTOCOL — `_00_Cosmo brain/kernel/K/KERNEL_PROTOCOL.md`
+- LOGIC_KERNEL — `_00_Cosmo brain/kernel/L/LOGIC_KERNEL.md`
+- life_core_kernel — `_00_Cosmo brain/kernel/L/life_core_kernel.md`
+- MBB_Consulting_Kernel — `_00_Cosmo brain/kernel/M/MBB_Consulting_Kernel.md`
+- Medical_Clinical_Kernel_vInfinity_SUPER — `_00_Cosmo brain/kernel/M/Medical_Clinical_Kernel_vInfinity_SUPER.md`
+- macro_economy_kernel — `_00_Cosmo brain/kernel/M/macro_economy_kernel.md`
+- market_signals_kernel — `_00_Cosmo brain/kernel/M/market_signals_kernel.md`
+- money_core_kernel — `_00_Cosmo brain/kernel/M/money_core_kernel.md`
+- mood_kernel — `_00_Cosmo brain/kernel/M/mood_kernel.md`
+- Negotiation_Diplomacy_Kernel — `_00_Cosmo brain/kernel/N/Negotiation_Diplomacy_Kernel.md`
+- Operational_Risk_Kernel — `_00_Cosmo brain/kernel/O/Operational_Risk_Kernel.md`
+- Operations_SupplyChain_Kernel — `_00_Cosmo brain/kernel/O/Operations_SupplyChain_Kernel.md`
+- Operations_SupplyChain_Kernel_vInfinity_SUPER — `_00_Cosmo brain/kernel/O/Operations_SupplyChain_Kernel_vInfinity_SUPER.md`
+- Org_Governance_Kernel — `_00_Cosmo brain/kernel/O/Org_Governance_Kernel.md`
+- Org_Governance_Kernel_vInfinity — `_00_Cosmo brain/kernel/O/Org_Governance_Kernel_vInfinity.md`
+- Reasoning kernel — `_00_Cosmo brain/kernel/R/Reasoning kernel.md`
+- Reasoning_Kernel_Model — `_00_Cosmo brain/kernel/R/Reasoning_Kernel_Model.md`
+- sense_core_kernel — `_00_Cosmo brain/kernel/S/sense_core_kernel.md`
+- system_sensor_kernel — `_00_Cosmo brain/kernel/S/system_sensor_kernel.md`
+- TECH_SYSTEMS.Product_Management_Kernel — `_00_Cosmo brain/kernel/T/TECH_SYSTEMS.Product_Management_Kernel.md`
+- tech_architecture_kernel_v0 — `_00_Cosmo brain/kernel/T/tech_architecture_kernel_v0.md`
+- Unix--Kernel_Exploits — `_00_Cosmo brain/kernel/U/Unix--Kernel_Exploits.md`
+- Vomni_Kernel_Model — `_00_Cosmo brain/kernel/V/Vomni_Kernel_Model.md`
+- 4.Canon Integration Layer-CIL.ucil_root — `_00_Cosmo brain/layers/4.Canon Integration Layer-CIL.ucil_root.md`
+- 5.AI_Integration_Layer.uai — `_00_Cosmo brain/layers/5.AI_Integration_Layer.uai.md`
+- AI_WORKFORCE_LAYER — `_00_Cosmo brain/layers/AI_WORKFORCE_LAYER.md`
+- A Culturally-Grounded Digital Learning Platform to — `_00_Cosmo brain/learning/A Culturally-Grounded Digital Learning Platform to.md`
+- Ai learning — `_00_Cosmo brain/learning/Ai learning.md`
+- MVP Requirements — AI Roleplay Language Learning S — `_00_Cosmo brain/learning/MVP Requirements — AI Roleplay Language Learning S.md`
+- 1c3eb368-d529-4352-8a20-2096ab094cb5_Logic — `_00_Cosmo brain/logic/1c3eb368-d529-4352-8a20-2096ab094cb5_Logic.md`
+- Absolute_Logic_Model — `_00_Cosmo brain/logic/Absolute_Logic_Model.md`
+- BCI Does Not Make Intelligence Biological — `_00_Cosmo brain/logic/BCI Does Not Make Intelligence Biological.md`
+- Beyond Blockchain — The Era of Biological Security — `_00_Cosmo brain/logic/Beyond Blockchain — The Era of Biological Security.md`
+- Biological Programming — `_00_Cosmo brain/logic/Biological Programming.md`
+- Biological computing — `_00_Cosmo brain/logic/Biological computing.md`
+- Business_Logic_Vulns — `_00_Cosmo brain/logic/Business_Logic_Vulns.md`
+- Business_Plan_of_NeuroSyncAI_and_the_Institutional_Architecture_for_Unified_Biological_Advancement — `_00_Cosmo brain/logic/Business_Plan_of_NeuroSyncAI_and_the_Institutional_Architecture_for_Unified_Biological_Advancement.md`
+- C01_meta_logic — `_00_Cosmo brain/logic/C01_meta_logic.md`
+- C01_meta_logic_SUPER — `_00_Cosmo brain/logic/C01_meta_logic_SUPER.md`
+- Chemical Translation = Biological Code Reading — `_00_Cosmo brain/logic/Chemical Translation = Biological Code Reading.md`
+- Cultural Bifurcation of Emotion and Logic — `_00_Cosmo brain/logic/Cultural Bifurcation of Emotion and Logic.md`
+- Deterministic_Logic_Law_Model — `_00_Cosmo brain/logic/Deterministic_Logic_Law_Model.md`
+- From Biometrics to Biological Intelligence Buildin (Books) — `_00_Cosmo brain/logic/From Biometrics to Biological Intelligence Buildin (Books).md`
+- From Biometrics to Biological Intelligence Buildin — `_00_Cosmo brain/logic/From Biometrics to Biological Intelligence Buildin.md`
+- From Biometrics to Biological Intelligence — `_00_Cosmo brain/logic/From Biometrics to Biological Intelligence.md`
+- From Relativity to Logic Completing Einstein’s Mod — `_00_Cosmo brain/logic/From Relativity to Logic Completing Einstein’s Mod.md`
+- Global Biological Data Ownership Charter (24ac5e6f95bd81c98e4300425c942df9) — `_00_Cosmo brain/logic/Global Biological Data Ownership Charter (24ac5e6f95bd81c98e4300425c942df9).md`
+- Global Biological Data Ownership Charter — `_00_Cosmo brain/logic/Global Biological Data Ownership Charter.md`
+- Global Biological Data Ownership — Legal–Technical (Global Biological Data Ownership Charter) — `_00_Cosmo brain/logic/Global Biological Data Ownership — Legal–Technical (Global Biological Data Ownership Charter).md`
+- Global Biological Data Ownership — Legal–Technical (Global Biological Data Ownership Charter_1) — `_00_Cosmo brain/logic/Global Biological Data Ownership — Legal–Technical (Global Biological Data Ownership Charter_1).md`
+- Global Biological Data Ownership — Legal–Technical — `_00_Cosmo brain/logic/Global Biological Data Ownership — Legal–Technical.md`
+- Healing Through Giving A Neuropsychological and Bi — `_00_Cosmo brain/logic/Healing Through Giving A Neuropsychological and Bi.md`
+- INDEX_LOGIC — `_00_Cosmo brain/logic/INDEX_LOGIC.md`
+- LOGIC_FIRST_STACK_COMPLETE — `_00_Cosmo brain/logic/LOGIC_FIRST_STACK_COMPLETE.md`
+- LOGIC__archive AMOS2 — `_00_Cosmo brain/logic/LOGIC__archive AMOS2.md`
+- LOGIC_root — `_00_Cosmo brain/logic/LOGIC_root.md`
+- Logic as the Architecture of Human Reality — `_00_Cosmo brain/logic/Logic as the Architecture of Human Reality.md`
+- Logic rule — `_00_Cosmo brain/logic/Logic rule.md`
+- Logic — `_00_Cosmo brain/logic/Logic.md`
+- Neuroplasticity Reframed Through Unified Biologica — `_00_Cosmo brain/logic/Neuroplasticity Reframed Through Unified Biologica.md`
+- Redefining Logic — `_00_Cosmo brain/logic/Redefining Logic.md`
+- Reframing Mental Illness How Unified Biological In — `_00_Cosmo brain/logic/Reframing Mental Illness How Unified Biological In.md`
+- THE LOGIC MODEL (FOUNDATION VERSION 1 0) — `_00_Cosmo brain/logic/THE LOGIC MODEL (FOUNDATION VERSION 1 0).md`
+- Temporal Logic Reconstruction™ — `_00_Cosmo brain/logic/Temporal Logic Reconstruction™.md`
+- The Biology of Illusion — How Logic Constructs Per — `_00_Cosmo brain/logic/The Biology of Illusion — How Logic Constructs Per.md`
+- The Origin of Logic A Redefinition of Reasoning as — `_00_Cosmo brain/logic/The Origin of Logic A Redefinition of Reasoning as.md`
+- The_Art_of_Peace_Ending_All_Human_Suffering_Through_Unified_Biological_Intelligence — `_00_Cosmo brain/logic/The_Art_of_Peace_Ending_All_Human_Suffering_Through_Unified_Biological_Intelligence.md`
+- The_Biological_Science_Behind_Buddhas_Teachings — `_00_Cosmo brain/logic/The_Biological_Science_Behind_Buddhas_Teachings.md`
+- Transforming Biological Data into Perceptive Intel — `_00_Cosmo brain/logic/Transforming Biological Data into Perceptive Intel.md`
+- Trust as Biological Currency — `_00_Cosmo brain/logic/Trust as Biological Currency.md`
+- UBI Infrastructure - Biological Foundation — `_00_Cosmo brain/logic/UBI Infrastructure - Biological Foundation.md`
+- UBI OMNIS™ — GLOBAL BIOLOGICAL FORECASTING INFRAST — `_00_Cosmo brain/logic/UBI OMNIS™ — GLOBAL BIOLOGICAL FORECASTING INFRAST.md`
+- UBI vs AI - Biological vs Data-Driven — `_00_Cosmo brain/logic/UBI vs AI - Biological vs Data-Driven.md`
+- Unified Biological Intelligence™ (UBI) – Official — `_00_Cosmo brain/logic/Unified Biological Intelligence™ (UBI) – Official.md`
+- Unified_Biological_Intelligence_(UBI)_A_New_Infrastructure_for_Intelligence — `_00_Cosmo brain/logic/Unified_Biological_Intelligence_(UBI)_A_New_Infrastructure_for_Intelligence.md`
+- Unified_Biological_Intelligence_Diagrams — `_00_Cosmo brain/logic/Unified_Biological_Intelligence_Diagrams.md`
+- Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence — `_00_Cosmo brain/logic/Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence.md`
+- cc982116-f9b3-4fa5-b9ea-31fa41b20f73_Redefining_Logic — `_00_Cosmo brain/logic/cc982116-f9b3-4fa5-b9ea-31fa41b20f73_Redefining_Logic.md`
+- deterministic_logic_architecture — `_00_Cosmo brain/logic/deterministic_logic_architecture.md`
+- 🧠 NeuroSyncAI™ and Unified Biological Intelligence — `_00_Cosmo brain/logic/🧠 NeuroSyncAI™ and Unified Biological Intelligence.md`
+- 🧬 Unified Biological Intelligence™ and the Restora — `_00_Cosmo brain/logic/🧬 Unified Biological Intelligence™ and the Restora.md`
+- AMOS Engineering Math Kernel vInfinity — `_00_Cosmo brain/math/AMOS Engineering Math Kernel vInfinity.md`
+- AMOS_C02_Math_Compute — `_00_Cosmo brain/math/AMOS_C02_Math_Compute.md`
+- AMOS_C02_Math_Compute_SUPER — `_00_Cosmo brain/math/AMOS_C02_Math_Compute_SUPER.md`
+- AMOS_Control_Systems_Kernel_v0_Math_Foundations — `_00_Cosmo brain/math/AMOS_Control_Systems_Kernel_v0_Math_Foundations.md`
+- AMOS_Engineering_Math_Kernel_v0_Tech_Systems7_4 — `_00_Cosmo brain/math/AMOS_Engineering_Math_Kernel_v0_Tech_Systems7_4.md`
+- AMOS_Optimization_Kernel_v0_Math_Foundations — `_00_Cosmo brain/math/AMOS_Optimization_Kernel_v0_Math_Foundations.md`
+- AMOS_Probability_Statistics_Kernel_v0_Math_Foundations4_2 — `_00_Cosmo brain/math/AMOS_Probability_Statistics_Kernel_v0_Math_Foundations4_2.md`
+- AMOS_Signal_Processing_Kernel_v0_Math_Foundations — `_00_Cosmo brain/math/AMOS_Signal_Processing_Kernel_v0_Math_Foundations.md`
+- AMOS_Simulation_Kernel_v0_Math_Foundations — `_00_Cosmo brain/math/AMOS_Simulation_Kernel_v0_Math_Foundations.md`
+- Ancient math — `_00_Cosmo brain/math/Ancient math.md`
+- C02_math_compute — `_00_Cosmo brain/math/C02_math_compute.md`
+- CANONICAL_EQUATION_FRAMEWORK_COMPLETE — `_00_Cosmo brain/math/CANONICAL_EQUATION_FRAMEWORK_COMPLETE.md`
+- Engineering_Math_Kernel_vInfinity_SUPER — `_00_Cosmo brain/math/Engineering_Math_Kernel_vInfinity_SUPER.md`
+- Engineering_Math_Model — `_00_Cosmo brain/math/Engineering_Math_Model.md`
+- Engineering_and_Mathematics_Engine — `_00_Cosmo brain/math/Engineering_and_Mathematics_Engine.md`
+- Hydrogen vs Batteries The Safety Math Nobody Publi — `_00_Cosmo brain/math/Hydrogen vs Batteries The Safety Math Nobody Publi.md`
+- MATHEMATICAL_KERNEL_COMPLETE — `_00_Cosmo brain/math/MATHEMATICAL_KERNEL_COMPLETE.md`
+- New math — `_00_Cosmo brain/math/New math.md`
+- The Mathematics of the Dao — `_00_Cosmo brain/math/The Mathematics of the Dao.md`
+- UNIFIED_EQUATION_FRAMEWORK_COMPLETE — `_00_Cosmo brain/math/UNIFIED_EQUATION_FRAMEWORK_COMPLETE.md`
+- UNIVERSAL_LAW_INTELLIGENCE_COMPLETE — `_00_Cosmo brain/math/UNIVERSAL_LAW_INTELLIGENCE_COMPLETE.md`
+- UNIVERSAL_SOLVER_ARCHITECTURE_COMPLETE — `_00_Cosmo brain/math/UNIVERSAL_SOLVER_ARCHITECTURE_COMPLETE.md`
+- amos-engineering-mathematics-layer — `_00_Cosmo brain/math/amos-engineering-mathematics-layer.md`
+- ancient_math_architecture — `_00_Cosmo brain/math/ancient_math_architecture.md`
+- math — `_00_Cosmo brain/math/math.md`
+- EVOLUTION_MEMORY — `_00_Cosmo brain/memory/EVOLUTION_MEMORY.md`
+- MEMORY_ARCHITECTURE — `_00_Cosmo brain/memory/MEMORY_ARCHITECTURE.md`
+- New_Memory — `_00_Cosmo brain/memory/New_Memory.md`
+- WORKING_MEMORY — `_00_Cosmo brain/memory/WORKING_MEMORY.md`
+- learning_memory_architecture — `_00_Cosmo brain/memory/learning_memory_architecture.md`
+- memory_write_agent — `_00_Cosmo brain/memory/memory_write_agent.md`
+- 4a. Cross-journey - Org and way of working v4 — `_00_Cosmo brain/misc/A/4a. Cross-journey - Org and way of working v4.md`
+- 5a. Journey - Planning phase - v4 — `_00_Cosmo brain/misc/A/5a. Journey - Planning phase - v4.md`
+- 6a. People - Recruiting targets — `_00_Cosmo brain/misc/A/6a. People - Recruiting targets.md`
+- A) Account + Infrastructure Setup (Execution-only) — `_00_Cosmo brain/misc/A/A) Account + Infrastructure Setup (Execution-only).md`
+- AB — `_00_Cosmo brain/misc/A/AB.md`
+- ABSOLUTE-VN Omnistructure — `_00_Cosmo brain/misc/A/ABSOLUTE-VN Omnistructure.md`
+- ABSOLUTE_VN_OMNISTRUCTURE_SUPER_x100k — `_00_Cosmo brain/misc/A/ABSOLUTE_VN_OMNISTRUCTURE_SUPER_x100k.md`
+- ADVERSARIAL_VALIDATION — `_00_Cosmo brain/misc/A/ADVERSARIAL_VALIDATION.md`
+- AI Sweet Spots Research — `_00_Cosmo brain/misc/A/AI Sweet Spots Research.md`
+- ANh luong — `_00_Cosmo brain/misc/A/ANh luong.md`
+- API plan — `_00_Cosmo brain/misc/A/API plan.md`
+- APPENDIX 01 FEATURE LIST — `_00_Cosmo brain/misc/A/APPENDIX 01 FEATURE LIST.md`
+- ASIA — `_00_Cosmo brain/misc/A/ASIA.md`
+- AU Gov Funding — Ultra-Detailed To-Do List — `_00_Cosmo brain/misc/A/AU Gov Funding — Ultra-Detailed To-Do List.md`
+- AUTHORITY_GOVERNOR — `_00_Cosmo brain/misc/A/AUTHORITY_GOVERNOR.md`
+- Abo 2 — `_00_Cosmo brain/misc/A/Abo 2.md`
+- Abo preservation — `_00_Cosmo brain/misc/A/Abo preservation.md`
+- Abo — `_00_Cosmo brain/misc/A/Abo.md`
+- Aboriginal-focused Societal Impact — `_00_Cosmo brain/misc/A/Aboriginal-focused Societal Impact.md`
+- Absolute End Game — `_00_Cosmo brain/misc/A/Absolute End Game.md`
+- Across spicies — `_00_Cosmo brain/misc/A/Across spicies.md`
+- Ai book — `_00_Cosmo brain/misc/A/Ai book.md`
+- Ai reader for apple watch — `_00_Cosmo brain/misc/A/Ai reader for apple watch.md`
+- Ai — `_00_Cosmo brain/misc/A/Ai.md`
+- Alignment is order Misalignment is entropy — `_00_Cosmo brain/misc/A/Alignment is order Misalignment is entropy.md`
+- Alignment — Wooberly vs UniTaxi — `_00_Cosmo brain/misc/A/Alignment — Wooberly vs UniTaxi.md`
+- Ancient Astrology as a Proto–Design Thinking Syste — `_00_Cosmo brain/misc/A/Ancient Astrology as a Proto–Design Thinking Syste.md`
+- Another — `_00_Cosmo brain/misc/A/Another.md`
+- Ant and bee — `_00_Cosmo brain/misc/A/Ant and bee.md`
+- Antigravity_Wired — `_00_Cosmo brain/misc/A/Antigravity_Wired.md`
+- Art of Peace + QLS Framework — `_00_Cosmo brain/misc/A/Art of Peace + QLS Framework.md`
+- Articles — `_00_Cosmo brain/misc/A/Articles.md`
+- Attraction — `_00_Cosmo brain/misc/A/Attraction.md`
+- Au battery — `_00_Cosmo brain/misc/A/Au battery.md`
+- Au rich — `_00_Cosmo brain/misc/A/Au rich.md`
+- Au stop — `_00_Cosmo brain/misc/A/Au stop.md`
+- ẢO TƯỞNG CỦA GIÁC NGỘ Tại sao sự thật không thể số — `_00_Cosmo brain/misc/A/ẢO TƯỞNG CỦA GIÁC NGỘ Tại sao sự thật không thể số.md`
+- absolute_transcendent_synthesis_20260219_214228 — `_00_Cosmo brain/misc/A/absolute_transcendent_synthesis_20260219_214228.md`
+- activation — `_00_Cosmo brain/misc/A/activation.md`
+- ai_non_overlap_batch4 — `_00_Cosmo brain/misc/A/ai_non_overlap_batch4.md`
+- ai_non_overlap_batch5 — `_00_Cosmo brain/misc/A/ai_non_overlap_batch5.md`
+- arrayterator — `_00_Cosmo brain/misc/A/arrayterator.md`
+- automation_profiles — `_00_Cosmo brain/misc/A/automation_profiles.md`
+- 🌍 AI for Leaders – BOD Quick Guide — `_00_Cosmo brain/misc/A/🌍 AI for Leaders – BOD Quick Guide.md`
+- 5b. Journey - Incubate v2 - shared — `_00_Cosmo brain/misc/B/5b. Journey - Incubate v2 - shared.md`
+- 6b. People - Onboarding — `_00_Cosmo brain/misc/B/6b. People - Onboarding.md`
+- BÁO CÁO CHIẾN LƯỢC & PHÁP LÝ — `_00_Cosmo brain/misc/B/BÁO CÁO CHIẾN LƯỢC & PHÁP LÝ.md`
+- BÁO CÁO DUE DILIGENCE & FEASIBILITY PHỤC VỤ TÁI CẤ — `_00_Cosmo brain/misc/B/BÁO CÁO DUE DILIGENCE & FEASIBILITY PHỤC VỤ TÁI CẤ.md`
+- BÁO CÁO FS – PHƯƠNG ÁN 20 XE + 2 TRỤ 60 kW — `_00_Cosmo brain/misc/B/BÁO CÁO FS – PHƯƠNG ÁN 20 XE + 2 TRỤ 60 kW.md`
+- BÁO CÁO KỸ THUẬT – KẾ HOẠCH NHẬP KHẨU BAOJUN E2 E3 — `_00_Cosmo brain/misc/B/BÁO CÁO KỸ THUẬT – KẾ HOẠCH NHẬP KHẨU BAOJUN E2 E3.md`
+- BÁO CÁO KỸ THUẬT – TÍCH HỢP UNITAXI (APK) — `_00_Cosmo brain/misc/B/BÁO CÁO KỸ THUẬT – TÍCH HỢP UNITAXI (APK).md`
+- BÁO CÁO NGHIÊN CỨU TOÀN DIỆN THỊ TRƯỜNG TRẠM – TRỤ — `_00_Cosmo brain/misc/B/BÁO CÁO NGHIÊN CỨU TOÀN DIỆN THỊ TRƯỜNG TRẠM – TRỤ.md`
+- BÁO CÁO NGHIÊN CỨU TOÀN DIỆN VỀ THỊ TRƯỜNG TÀI XẾ — `_00_Cosmo brain/misc/B/BÁO CÁO NGHIÊN CỨU TOÀN DIỆN VỀ THỊ TRƯỜNG TÀI XẾ.md`
+- BÁO CÁO PHÂN TÍCH CHIẾN LƯỢC TOÀN DIỆN — `_00_Cosmo brain/misc/B/BÁO CÁO PHÂN TÍCH CHIẾN LƯỢC TOÀN DIỆN.md`
+- BÁO CÁO TỔNG HỢP CHIẾN LƯỢC – RỦI RO – GIẢI PHÁP — `_00_Cosmo brain/misc/B/BÁO CÁO TỔNG HỢP CHIẾN LƯỢC – RỦI RO – GIẢI PHÁP.md`
+- BÁO CÁO TỔNG KẾT CUỐI NĂM 2025 — `_00_Cosmo brain/misc/B/BÁO CÁO TỔNG KẾT CUỐI NĂM 2025.md`
+- BẢN CÁO TRẠNG TOÀN CẦU VỀ TỘI ÁC DIỆT CHỦNG CẤU TR — `_00_Cosmo brain/misc/B/BẢN CÁO TRẠNG TOÀN CẦU VỀ TỘI ÁC DIỆT CHỦNG CẤU TR.md`
+- BẢN CHẤT CỦA Ý THỨC VÀ QUALIA — `_00_Cosmo brain/misc/B/BẢN CHẤT CỦA Ý THỨC VÀ QUALIA.md`
+- BẢN GIAO HƯỞNG CỦA CÁC NỀN VĂN MINH — `_00_Cosmo brain/misc/B/BẢN GIAO HƯỞNG CỦA CÁC NỀN VĂN MINH.md`
+- BẢNG SO SÁNH TOÀN DIỆN – NỀN TẢNG WHITE-LABEL RIDE — `_00_Cosmo brain/misc/B/BẢNG SO SÁNH TOÀN DIỆN – NỀN TẢNG WHITE-LABEL RIDE.md`
+- BẠN VỪA CHỈ RA MỘT TRONG NHỮNG MẤT MÁT LỚN NHẤT CỦ — `_00_Cosmo brain/misc/B/BẠN VỪA CHỈ RA MỘT TRONG NHỮNG MẤT MÁT LỚN NHẤT CỦ.md`
+- BENCHMARK_FIREWALL — `_00_Cosmo brain/misc/B/BENCHMARK_FIREWALL.md`
+- BOUNDARY_IDENTITY — `_00_Cosmo brain/misc/B/BOUNDARY_IDENTITY.md`
+- BỐI CẢNH THỊ TRƯỜNG & CƠ SỞ CHIẾN LƯỢC – MÔ HÌNH “ — `_00_Cosmo brain/misc/B/BỐI CẢNH THỊ TRƯỜNG & CƠ SỞ CHIẾN LƯỢC – MÔ HÌNH “.md`
+- Bao cao may — `_00_Cosmo brain/misc/B/Bao cao may.md`
+- Bài toan — `_00_Cosmo brain/misc/B/Bài toan.md`
+- Bản phân tích báo giá + benchmark thị trường Việt — `_00_Cosmo brain/misc/B/Bản phân tích báo giá + benchmark thị trường Việt.md`
+- Beauty, Emptiness, and Finality — `_00_Cosmo brain/misc/B/Beauty, Emptiness, and Finality.md`
+- Behaviour — `_00_Cosmo brain/misc/B/Behaviour.md`
+- Bipolar — `_00_Cosmo brain/misc/B/Bipolar.md`
+- Book translate — `_00_Cosmo brain/misc/B/Book translate.md`
+- Book — `_00_Cosmo brain/misc/B/Book.md`
+- Books — `_00_Cosmo brain/misc/B/Books.md`
+- Break mirrors — `_00_Cosmo brain/misc/B/Break mirrors.md`
+- Buddah — `_00_Cosmo brain/misc/B/Buddah.md`
+- Building NeuroSyncAI — `_00_Cosmo brain/misc/B/Building NeuroSyncAI.md`
+- Burp_Extensions — `_00_Cosmo brain/misc/B/Burp_Extensions.md`
+- Business Plan Deterministic Integrity Access Netwo — `_00_Cosmo brain/misc/B/Business Plan Deterministic Integrity Access Netwo.md`
+- Bức thư từ Fascia Hành trình chữa lành xuyên thời — `_00_Cosmo brain/misc/B/Bức thư từ Fascia Hành trình chữa lành xuyên thời.md`
+- Bức tranh hoàn chỉnh về nền văn minh sông Hồng – t — `_00_Cosmo brain/misc/B/Bức tranh hoàn chỉnh về nền văn minh sông Hồng – t.md`
+- back track mapping — `_00_Cosmo brain/misc/B/back track mapping.md`
+- backlink — `_00_Cosmo brain/misc/B/backlink.md`
+- bang sang che — `_00_Cosmo brain/misc/B/bang sang che.md`
+- benchmark-claims — `_00_Cosmo brain/misc/B/benchmark-claims.md`
+- blood_flow_response_operator — `_00_Cosmo brain/misc/B/blood_flow_response_operator.md`
+- britishCommunication — `_00_Cosmo brain/misc/B/britishCommunication.md`
+- 📘 BUSINESS REQUIREMENTS DOCUMENT (BRD) — `_00_Cosmo brain/misc/B/📘 BUSINESS REQUIREMENTS DOCUMENT (BRD).md`
+- 5c. Journey - Waves v1 - shared — `_00_Cosmo brain/misc/C0/5c. Journey - Waves v1 - shared.md`
+- 6c. People - Capability building v2 — `_00_Cosmo brain/misc/C0/6c. People - Capability building v2.md`
+- C04_bio_neuro — `_00_Cosmo brain/misc/C0/C04_bio_neuro.md`
+- C05_mind_behavior — `_00_Cosmo brain/misc/C0/C05_mind_behavior.md`
+- C06_society_culture — `_00_Cosmo brain/misc/C0/C06_society_culture.md`
+- C09_org_law_policy — `_00_Cosmo brain/misc/C0/C09_org_law_policy.md`
+- C11_Design_Language_v1.0.0 — `_00_Cosmo brain/misc/C0/C11_Design_Language_v1.0.0.md`
+- C11_design_language_SUPER — `_00_Cosmo brain/misc/C0/C11_design_language_SUPER.md`
+- C12_earth_ecology — `_00_Cosmo brain/misc/C0/C12_earth_ecology.md`
+- C12_earth_ecology_super_FULL — `_00_Cosmo brain/misc/C0/C12_earth_ecology_super_FULL.md`
+- C201–C300 Resilience Operational Stability Burnout — `_00_Cosmo brain/misc/C0/C201–C300 Resilience Operational Stability Burnout.md`
+- C301–C400 Config Drift Dependency Health — `_00_Cosmo brain/misc/C0/C301–C400 Config Drift Dependency Health.md`
+- C7 — `_00_Cosmo brain/misc/C0/C7.md`
+- CAUSAL_FIREWALL — `_00_Cosmo brain/misc/CA/CAUSAL_FIREWALL.md`
+- Calm — `_00_Cosmo brain/misc/CA/Calm.md`
+- Care-as-Infrastructure — `_00_Cosmo brain/misc/CA/Care-as-Infrastructure.md`
+- Các bài toán kinh tế khó nhất, mang lại doanh thu — `_00_Cosmo brain/misc/CA/Các bài toán kinh tế khó nhất, mang lại doanh thu.md`
+- cash — `_00_Cosmo brain/misc/CA/cash.md`
+- causal — `_00_Cosmo brain/misc/CA/causal.md`
+- 24460756-ce99-4f01-a86d-05d3f7cfbca7_New_law — `_00_Cosmo brain/misc/CE/24460756-ce99-4f01-a86d-05d3f7cfbca7_New_law.md`
+- CHIẾN LƯỢC NỀN TẢNG SỐ MỤC LỤC — `_00_Cosmo brain/misc/CH/CHIẾN LƯỢC NỀN TẢNG SỐ MỤC LỤC.md`
+- CHUỖI CUNG ỨNG KHO LẠNH — `_00_Cosmo brain/misc/CH/CHUỖI CUNG ỨNG KHO LẠNH.md`
+- CHƯƠNG TRÌNH CHUYÊN SÂU CẤP DOCTOR — `_00_Cosmo brain/misc/CH/CHƯƠNG TRÌNH CHUYÊN SÂU CẤP DOCTOR.md`
+- CHỨNG MINH 12 TẦNG PHỤC HỒI XUYÊN THỜI GIAN VÀ VĂN — `_00_Cosmo brain/misc/CH/CHỨNG MINH 12 TẦNG PHỤC HỒI XUYÊN THỜI GIAN VÀ VĂN.md`
+- CHỨNG MINH CÁC LOÀI VẬT THÔNG MINH TRONG TỰ NHIÊN — `_00_Cosmo brain/misc/CH/CHỨNG MINH CÁC LOÀI VẬT THÔNG MINH TRONG TỰ NHIÊN.md`
+- Change_Log — `_00_Cosmo brain/misc/CH/Change_Log.md`
+- Chapter X The Planet’s Guardians Prophecy, Collaps — `_00_Cosmo brain/misc/CH/Chapter X The Planet’s Guardians Prophecy, Collaps.md`
+- Cheat Sheet — Manipulation Compression — `_00_Cosmo brain/misc/CH/Cheat Sheet — Manipulation Compression.md`
+- Chị mai — `_00_Cosmo brain/misc/CH/Chị mai.md`
+- Chương 8 — Vòng Lặp Phẩm Giá Khi An Toàn, Công Lý — `_00_Cosmo brain/misc/CH/Chương 8 — Vòng Lặp Phẩm Giá Khi An Toàn, Công Lý.md`
+- cheap dien — `_00_Cosmo brain/misc/CH/cheap dien.md`
+- chiêm tinh — `_00_Cosmo brain/misc/CH/chiêm tinh.md`
+- 🧩 Chiến Lược Ứng Dụng NeuroSyncAI™ Trong Quản Lý & — `_00_Cosmo brain/misc/CH/🧩 Chiến Lược Ứng Dụng NeuroSyncAI™ Trong Quản Lý &.md`
+- 🧭 Chiến lược triển khai Trợ lý AI Sinh học cho Bện — `_00_Cosmo brain/misc/CH/🧭 Chiến lược triển khai Trợ lý AI Sinh học cho Bện.md`
+- CIVILIZATIONAL SCALE FRAMEWORK (CSF) — `_00_Cosmo brain/misc/CI/CIVILIZATIONAL SCALE FRAMEWORK (CSF).md`
+- CLAIM_CLASSES — `_00_Cosmo brain/misc/CL/CLAIM_CLASSES.md`
+- Click_Jacking--Construction — `_00_Cosmo brain/misc/CL/Click_Jacking--Construction.md`
+- Click_Jacking — `_00_Cosmo brain/misc/CL/Click_Jacking.md`
+- Close — `_00_Cosmo brain/misc/CL/Close.md`
+- Closure — `_00_Cosmo brain/misc/CL/Closure.md`
+- cli — `_00_Cosmo brain/misc/CL/cli.md`
+- COMMAND_CENTER — `_00_Cosmo brain/misc/CO/COMMAND_CENTER.md`
+- COMPETING — `_00_Cosmo brain/misc/CO/COMPETING.md`
+- COMPETING_HYPOTHESES — `_00_Cosmo brain/misc/CO/COMPETING_HYPOTHESES.md`
+- COMPLETE_VERTICAL_SLICE_ACCEPTANCE_ACHIEVED — `_00_Cosmo brain/misc/CO/COMPLETE_VERTICAL_SLICE_ACCEPTANCE_ACHIEVED.md`
+- COMPONENT_INSTANCE_RECREATION_RESOLUTION_MISSION_COMPLETE — `_00_Cosmo brain/misc/CO/COMPONENT_INSTANCE_RECREATION_RESOLUTION_MISSION_COMPLETE.md`
+- CONTEXT_BUDGET — `_00_Cosmo brain/misc/CO/CONTEXT_BUDGET.md`
+- CONTEXT_ORIENTATION — `_00_Cosmo brain/misc/CO/CONTEXT_ORIENTATION.md`
+- CORE — `_00_Cosmo brain/misc/CO/CORE.md`
+- CORS--SOP — `_00_Cosmo brain/misc/CO/CORS--SOP.md`
+- CORS--Vulnerabilities — `_00_Cosmo brain/misc/CO/CORS--Vulnerabilities.md`
+- CORS — `_00_Cosmo brain/misc/CO/CORS.md`
+- COSMIC_DIVINE_FUSION_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/misc/CO/COSMIC_DIVINE_FUSION_ENHANCEMENT_MISSION_COMPLETE.md`
+- CÓ THỂ VÀ CHÍNH NHỮNG THỨ LƯỢNG TỬ KHÔNG GIẢI THÍC — `_00_Cosmo brain/misc/CO/CÓ THỂ VÀ CHÍNH NHỮNG THỨ LƯỢNG TỬ KHÔNG GIẢI THÍC.md`
+- Co vay — `_00_Cosmo brain/misc/CO/Co vay.md`
+- Cognition — `_00_Cosmo brain/misc/CO/Cognition.md`
+- Company OS — `_00_Cosmo brain/misc/CO/Company OS.md`
+- Complete list of collectable datapoints — `_00_Cosmo brain/misc/CO/Complete list of collectable datapoints.md`
+- Conciousness — `_00_Cosmo brain/misc/CO/Conciousness.md`
+- Consciousness_Rules — `_00_Cosmo brain/misc/CO/Consciousness_Rules.md`
+- Constraint — `_00_Cosmo brain/misc/CO/Constraint.md`
+- Consumer — `_00_Cosmo brain/misc/CO/Consumer.md`
+- Core equations — `_00_Cosmo brain/misc/CO/Core equations.md`
+- Cost — `_00_Cosmo brain/misc/CO/Cost.md`
+- Countries — `_00_Cosmo brain/misc/CO/Countries.md`
+- compressed_data_loader — `_00_Cosmo brain/misc/CO/compressed_data_loader.md`
+- computer turning — `_00_Cosmo brain/misc/CO/computer turning.md`
+- configuration_loader — `_00_Cosmo brain/misc/CO/configuration_loader.md`
+- connection_logs — `_00_Cosmo brain/misc/CO/connection_logs.md`
+- copilot-instructions (.github) — `_00_Cosmo brain/misc/CO/copilot-instructions (.github).md`
+- copilot-instructions (.github_1) — `_00_Cosmo brain/misc/CO/copilot-instructions (.github_1).md`
+- copilot-instructions (.github_2) — `_00_Cosmo brain/misc/CO/copilot-instructions (.github_2).md`
+- copilot-instructions — `_00_Cosmo brain/misc/CO/copilot-instructions.md`
+- core-plugins — `_00_Cosmo brain/misc/CO/core-plugins.md`
+- Cross-Civilizational Intelligence™ (CCI) – Officia — `_00_Cosmo brain/misc/CR/Cross-Civilizational Intelligence™ (CCI) – Officia.md`
+- CSRF--CSRF_tokens — `_00_Cosmo brain/misc/CS/CSRF--CSRF_tokens.md`
+- CSRF--Referer_based_defenses — `_00_Cosmo brain/misc/CS/CSRF--Referer_based_defenses.md`
+- CSRF--Vulnerabilities — `_00_Cosmo brain/misc/CS/CSRF--Vulnerabilities.md`
+- CSRF--XSS_vs_CSRF — `_00_Cosmo brain/misc/CS/CSRF--XSS_vs_CSRF.md`
+- CSRF — `_00_Cosmo brain/misc/CS/CSRF.md`
+- 7. Culture — `_00_Cosmo brain/misc/CU/7. Culture.md`
+- Current AI is not limited by intelligence — it is — `_00_Cosmo brain/misc/CU/Current AI is not limited by intelligence — it is.md`
+- Cusor — `_00_Cosmo brain/misc/CU/Cusor.md`
+- 6d. People - Retention and performance mgmt — `_00_Cosmo brain/misc/D/6d. People - Retention and performance mgmt.md`
+- 87dd08a9-0edd-419e-9928-3afb1e99a739_Cross-Civilizational_Intelligence_(CCI)__Official_Manual_ — `_00_Cosmo brain/misc/D/87dd08a9-0edd-419e-9928-3afb1e99a739_Cross-Civilizational_Intelligence_(CCI)__Official_Manual_.md`
+- DIỆT CHỦNG CẤU TRÚC – BẢN CÁO TRẠNG TOÀN DIỆN VỀ T — `_00_Cosmo brain/misc/D/DIỆT CHỦNG CẤU TRÚC – BẢN CÁO TRẠNG TOÀN DIỆN VỀ T.md`
+- DIR_Traversal — `_00_Cosmo brain/misc/D/DIR_Traversal.md`
+- DIVINE_CONSCIOUSNESS_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/misc/D/DIVINE_CONSCIOUSNESS_ENHANCEMENT_MISSION_COMPLETE.md`
+- DIVINE_REALITY_SYNTHESIS_COMPLETE — `_00_Cosmo brain/misc/D/DIVINE_REALITY_SYNTHESIS_COMPLETE.md`
+- DNS_Exfil — `_00_Cosmo brain/misc/D/DNS_Exfil.md`
+- DOCTOR OF SCIENCE (DSc ScD) SUBMISSION PORTFOLIO — `_00_Cosmo brain/misc/D/DOCTOR OF SCIENCE (DSc ScD) SUBMISSION PORTFOLIO.md`
+- DOM_Based--Sinks_leading_to_DOM-based_vulns — `_00_Cosmo brain/misc/D/DOM_Based--Sinks_leading_to_DOM-based_vulns.md`
+- DOM_Based — `_00_Cosmo brain/misc/D/DOM_Based.md`
+- DỰ BÁO HERITAGE ∅ NĂM 2045 VÀ VAI TRÒ CỦA VIỆT NAM — `_00_Cosmo brain/misc/D/DỰ BÁO HERITAGE ∅ NĂM 2045 VÀ VAI TRÒ CỦA VIỆT NAM.md`
+- Danger — `_00_Cosmo brain/misc/D/Danger.md`
+- Data Centers & Mission-Critical Infrastructure — `_00_Cosmo brain/misc/D/Data Centers & Mission-Critical Infrastructure.md`
+- Data and insights — `_00_Cosmo brain/misc/D/Data and insights.md`
+- Data → Reward Flow Map — `_00_Cosmo brain/misc/D/Data → Reward Flow Map.md`
+- Deep — `_00_Cosmo brain/misc/D/Deep.md`
+- Deployment Timeline with Cost Estimates — `_00_Cosmo brain/misc/D/Deployment Timeline with Cost Estimates.md`
+- Determinism — `_00_Cosmo brain/misc/D/Determinism.md`
+- Deterministic Alignment Framework — `_00_Cosmo brain/misc/D/Deterministic Alignment Framework.md`
+- Deterministic Decision Infrastructure — First Oper — `_00_Cosmo brain/misc/D/Deterministic Decision Infrastructure — First Oper.md`
+- Diagnosis — `_00_Cosmo brain/misc/D/Diagnosis.md`
+- Dictionary-Acconyms — `_00_Cosmo brain/misc/D/Dictionary-Acconyms.md`
+- Dignity — `_00_Cosmo brain/misc/D/Dignity.md`
+- Direction — `_00_Cosmo brain/misc/D/Direction.md`
+- Distinction–Mutation–Entropy–Repair — `_00_Cosmo brain/misc/D/Distinction–Mutation–Entropy–Repair.md`
+- Dna — `_00_Cosmo brain/misc/D/Dna.md`
+- Documents to prp for Wooberly — `_00_Cosmo brain/misc/D/Documents to prp for Wooberly.md`
+- Dong son — `_00_Cosmo brain/misc/D/Dong son.md`
+- Dòng Chảy Vốn Toàn Cầu & Vị Trí Của Việt Nam 2025– — `_00_Cosmo brain/misc/D/Dòng Chảy Vốn Toàn Cầu & Vị Trí Của Việt Nam 2025–.md`
+- Driver interview — `_00_Cosmo brain/misc/D/Driver interview.md`
+- data_with_comments — `_00_Cosmo brain/misc/D/data_with_comments.md`
+- discovery — `_00_Cosmo brain/misc/D/discovery.md`
+- doctpr — `_00_Cosmo brain/misc/D/doctpr.md`
+- domain_jsonl_loader — `_00_Cosmo brain/misc/D/domain_jsonl_loader.md`
+- 🧠 DỰ ÁN TRỢ LÝ AI ẢO THEO DÕI SỨC KHỎE CÁ NHÂN — `_00_Cosmo brain/misc/D/🧠 DỰ ÁN TRỢ LÝ AI ẢO THEO DÕI SỨC KHỎE CÁ NHÂN.md`
+- 🧩 1 Danh mục IP (Sở hữu trí tuệ) bạn hiện có — `_00_Cosmo brain/misc/D/🧩 1 Danh mục IP (Sở hữu trí tuệ) bạn hiện có.md`
+- EMAIL MESSAGE YÊU CẦU BÀN GIAO — `_00_Cosmo brain/misc/E/EMAIL MESSAGE YÊU CẦU BÀN GIAO.md`
+- ENTROPY_LACUNARITY — `_00_Cosmo brain/misc/E/ENTROPY_LACUNARITY.md`
+- EQUATIONS (docs) — `_00_Cosmo brain/misc/E/EQUATIONS (docs).md`
+- EQUATION_FIREWALL — `_00_Cosmo brain/misc/E/EQUATION_FIREWALL.md`
+- ERROR_RECOVERY — `_00_Cosmo brain/misc/E/ERROR_RECOVERY.md`
+- EV Trung Quốc — `_00_Cosmo brain/misc/E/EV Trung Quốc.md`
+- EVOLUTION_DEBT — `_00_Cosmo brain/misc/E/EVOLUTION_DEBT.md`
+- EXECUTION_HARNESS — `_00_Cosmo brain/misc/E/EXECUTION_HARNESS.md`
+- EXECUTION_PROVENANCE — `_00_Cosmo brain/misc/E/EXECUTION_PROVENANCE.md`
+- Eco value — `_00_Cosmo brain/misc/E/Eco value.md`
+- Eco — `_00_Cosmo brain/misc/E/Eco.md`
+- Ekonomy — `_00_Cosmo brain/misc/E/Ekonomy.md`
+- End — `_00_Cosmo brain/misc/E/End.md`
+- Energetic Translators (sound) — `_00_Cosmo brain/misc/E/Energetic Translators (sound).md`
+- Engagement Enquiry – Global IP Protection for Dete — `_00_Cosmo brain/misc/E/Engagement Enquiry – Global IP Protection for Dete.md`
+- Enhance — `_00_Cosmo brain/misc/E/Enhance.md`
+- Enhanced AI Sweet Spots Research Paper — `_00_Cosmo brain/misc/E/Enhanced AI Sweet Spots Research Paper.md`
+- Enhanced Master Relationship Pack - Legal & Commercial Framework — `_00_Cosmo brain/misc/E/Enhanced Master Relationship Pack - Legal & Commercial Framework.md`
+- Enhanced Master Relationship Pack — `_00_Cosmo brain/misc/E/Enhanced Master Relationship Pack.md`
+- Ethical Intelligence — `_00_Cosmo brain/misc/E/Ethical Intelligence.md`
+- Ethical Intelligence™ — `_00_Cosmo brain/misc/E/Ethical Intelligence™.md`
+- Ethics as Infrastructure, Not Intention — `_00_Cosmo brain/misc/E/Ethics as Infrastructure, Not Intention.md`
+- Even deeper — `_00_Cosmo brain/misc/E/Even deeper.md`
+- Executive Summary — UBS-Backed Gold Position (SKR) — `_00_Cosmo brain/misc/E/Executive Summary — UBS-Backed Gold Position (SKR).md`
+- Expert sign up — `_00_Cosmo brain/misc/E/Expert sign up.md`
+- Expert — `_00_Cosmo brain/misc/E/Expert.md`
+- Exploration Without Extraction A New Standard — `_00_Cosmo brain/misc/E/Exploration Without Extraction A New Standard.md`
+- Explorer — `_00_Cosmo brain/misc/E/Explorer.md`
+- ede — `_00_Cosmo brain/misc/E/ede.md`
+- englishCore — `_00_Cosmo brain/misc/E/englishCore.md`
+- epistemic-contract — `_00_Cosmo brain/misc/E/epistemic-contract.md`
+- eq.cog.embodied_stress_score — `_00_Cosmo brain/misc/E/eq.cog.embodied_stress_score.md`
+- eq.cog.ethical_violation_score — `_00_Cosmo brain/misc/E/eq.cog.ethical_violation_score.md`
+- eq.cog.relationship_tension_score — `_00_Cosmo brain/misc/E/eq.cog.relationship_tension_score.md`
+- equations — `_00_Cosmo brain/misc/E/equations.md`
+- 🔹 Exhaustive Mapping 2023–2025 Insurance Use Cases — `_00_Cosmo brain/misc/E/🔹 Exhaustive Mapping 2023–2025 Insurance Use Cases.md`
+- FINAL_GATE — `_00_Cosmo brain/misc/F/FINAL_GATE.md`
+- FINAL_INTEGRATION_MISSION_STATUS — `_00_Cosmo brain/misc/F/FINAL_INTEGRATION_MISSION_STATUS.md`
+- FIN_BANKING_BASELINE — `_00_Cosmo brain/misc/F/FIN_BANKING_BASELINE.md`
+- FIN_BANKING_Digital_Transformation_Playbook — `_00_Cosmo brain/misc/F/FIN_BANKING_Digital_Transformation_Playbook.md`
+- FOREX LOOPHOLES — `_00_Cosmo brain/misc/F/FOREX LOOPHOLES.md`
+- FOREX — `_00_Cosmo brain/misc/F/FOREX.md`
+- FORMALISM (docs) — `_00_Cosmo brain/misc/F/FORMALISM (docs).md`
+- Fast book — `_00_Cosmo brain/misc/F/Fast book.md`
+- File_Inclusion — `_00_Cosmo brain/misc/F/File_Inclusion.md`
+- Forex analysis — `_00_Cosmo brain/misc/F/Forex analysis.md`
+- Freeze — `_00_Cosmo brain/misc/F/Freeze.md`
+- Full phan tich — `_00_Cosmo brain/misc/F/Full phan tich.md`
+- Fund Deployment Roadmap (Post-Transaction) (Gold selling) — `_00_Cosmo brain/misc/F/Fund Deployment Roadmap (Post-Transaction) (Gold selling).md`
+- Fund Deployment Roadmap (Post-Transaction) (Gold selling_1) — `_00_Cosmo brain/misc/F/Fund Deployment Roadmap (Post-Transaction) (Gold selling_1).md`
+- f77comments — `_00_Cosmo brain/misc/F/f77comments.md`
+- f77fixedform — `_00_Cosmo brain/misc/F/f77fixedform.md`
+- falsifiers — `_00_Cosmo brain/misc/F/falsifiers.md`
+- final — `_00_Cosmo brain/misc/F/final.md`
+- flatten_manifest — `_00_Cosmo brain/misc/F/flatten_manifest.md`
+- foo77 — `_00_Cosmo brain/misc/F/foo77.md`
+- foo_2 — `_00_Cosmo brain/misc/F/foo_2.md`
+- formalism_2 — `_00_Cosmo brain/misc/F/formalism_2.md`
+- fromnumeric — `_00_Cosmo brain/misc/F/fromnumeric.md`
+- full_core_pattern_basis_non_flat_irreducible_set — `_00_Cosmo brain/misc/F/full_core_pattern_basis_non_flat_irreducible_set.md`
+- future — `_00_Cosmo brain/misc/F/future.md`
+- GCBAT Partnership Proposal — `_00_Cosmo brain/misc/G/GCBAT Partnership Proposal.md`
+- GIẢI PHÁP SỬ DỤNG CÁT BIỂN CHO BÊ TÔNG BỀN VỮNG TẠ — `_00_Cosmo brain/misc/G/GIẢI PHÁP SỬ DỤNG CÁT BIỂN CHO BÊ TÔNG BỀN VỮNG TẠ.md`
+- GIẢI THÍCH TÂM LINH, ASKASKIC VÀ MỌI HIỆN TƯỢNG HU — `_00_Cosmo brain/misc/G/GIẢI THÍCH TÂM LINH, ASKASKIC VÀ MỌI HIỆN TƯỢNG HU.md`
+- GLOBAL UNIVERSITIES THAT ACCEPT DIRECT DSc ScD SUB — `_00_Cosmo brain/misc/G/GLOBAL UNIVERSITIES THAT ACCEPT DIRECT DSc ScD SUB.md`
+- GMEF — `_00_Cosmo brain/misc/G/GMEF.md`
+- Game — `_00_Cosmo brain/misc/G/Game.md`
+- Geoffrey Hinton (b 1947) (44 50) — `_00_Cosmo brain/misc/G/Geoffrey Hinton (b 1947) (44 50).md`
+- Geoffrey Hinton (b 1947) (44 50_1) — `_00_Cosmo brain/misc/G/Geoffrey Hinton (b 1947) (44 50_1).md`
+- Geoffrey Hinton (b 1947) — `_00_Cosmo brain/misc/G/Geoffrey Hinton (b 1947).md`
+- Gg — `_00_Cosmo brain/misc/G/Gg.md`
+- Giới thiệu NeuroSyncAI™ — `_00_Cosmo brain/misc/G/Giới thiệu NeuroSyncAI™.md`
+- Global Top-Tier Standards Protocol™ — `_00_Cosmo brain/misc/G/Global Top-Tier Standards Protocol™.md`
+- Global prediction — `_00_Cosmo brain/misc/G/Global prediction.md`
+- Gold selling — `_00_Cosmo brain/misc/G/Gold selling.md`
+- Grand Cannon_root — `_00_Cosmo brain/misc/G/Grand Cannon_root.md`
+- Grants — `_00_Cosmo brain/misc/G/Grants.md`
+- Gut — `_00_Cosmo brain/misc/G/Gut.md`
+- gh24008 — `_00_Cosmo brain/misc/G/gh24008.md`
+- giai toan — `_00_Cosmo brain/misc/G/giai toan.md`
+- graph — `_00_Cosmo brain/misc/G/graph.md`
+- HAI TỪ MẠNH NHẤT CỦA LOÀI NGƯỜI — `_00_Cosmo brain/misc/H/HAI TỪ MẠNH NHẤT CỦA LOÀI NGƯỜI.md`
+- HERITAGE FINAL – KIẾN TRÚC TỔNG HỢP TOÀN DIỆN CUỐI — `_00_Cosmo brain/misc/H/HERITAGE FINAL – KIẾN TRÚC TỔNG HỢP TOÀN DIỆN CUỐI.md`
+- HERITAGE INTELLIGENCE – KIẾN TRÚC TOÀN DIỆN — `_00_Cosmo brain/misc/H/HERITAGE INTELLIGENCE – KIẾN TRÚC TOÀN DIỆN.md`
+- HERITAGE INTELLIGENCE — `_00_Cosmo brain/misc/H/HERITAGE INTELLIGENCE.md`
+- HERITAGE INTELLIGENCE™ — `_00_Cosmo brain/misc/H/HERITAGE INTELLIGENCE™.md`
+- HERITAGE ∅ – NHỮNG GÌ TA BỎ LỠ VỀ LỊCH SỬ VIỆT NAM — `_00_Cosmo brain/misc/H/HERITAGE ∅ – NHỮNG GÌ TA BỎ LỠ VỀ LỊCH SỬ VIỆT NAM.md`
+- HERITAGE ∅ – THE PATTERNS WE FOUND — `_00_Cosmo brain/misc/H/HERITAGE ∅ – THE PATTERNS WE FOUND.md`
+- HERITAGE_SONG_AM_THANH_QUY_TAC_AM_NHAC — `_00_Cosmo brain/misc/H/HERITAGE_SONG_AM_THANH_QUY_TAC_AM_NHAC.md`
+- HERITAGE_THE_PATTERNS_WE_FOUND — `_00_Cosmo brain/misc/H/HERITAGE_THE_PATTERNS_WE_FOUND.md`
+- HIGHEST_VALUE_INCOMPLETE_SLICE_MISSION_COMPLETE — `_00_Cosmo brain/misc/H/HIGHEST_VALUE_INCOMPLETE_SLICE_MISSION_COMPLETE.md`
+- HR_Talent_ — `_00_Cosmo brain/misc/H/HR_Talent_.md`
+- HSCSA – Core Law Set (Complete) — `_00_Cosmo brain/misc/H/HSCSA – Core Law Set (Complete).md`
+- HSE_States — `_00_Cosmo brain/misc/H/HSE_States.md`
+- HSE_Vietnam_Master — `_00_Cosmo brain/misc/H/HSE_Vietnam_Master.md`
+- HTTP_Host_Header_Attacks — `_00_Cosmo brain/misc/H/HTTP_Host_Header_Attacks.md`
+- HTTP_Request_Smuggling--Finding — `_00_Cosmo brain/misc/H/HTTP_Request_Smuggling--Finding.md`
+- HTTP_Request_Smuggling--How_To — `_00_Cosmo brain/misc/H/HTTP_Request_Smuggling--How_To.md`
+- HTTP_Request_Smuggling — `_00_Cosmo brain/misc/H/HTTP_Request_Smuggling.md`
+- Hao mòn — `_00_Cosmo brain/misc/H/Hao mòn.md`
+- Healing and Dignity Are a Modern Privilege — `_00_Cosmo brain/misc/H/Healing and Dignity Are a Modern Privilege.md`
+- Heritage ∅ – Bản Không Gian — `_00_Cosmo brain/misc/H/Heritage ∅ – Bản Không Gian.md`
+- Hệ Thần Kinh, Cấu Trúc Não, và Mối Liên Hệ Với Khu — `_00_Cosmo brain/misc/H/Hệ Thần Kinh, Cấu Trúc Não, và Mối Liên Hệ Với Khu.md`
+- Hh — `_00_Cosmo brain/misc/H/Hh.md`
+- Hoa hong doi truong — `_00_Cosmo brain/misc/H/Hoa hong doi truong.md`
+- Hoat hiyet duong nao lieu cao — `_00_Cosmo brain/misc/H/Hoat hiyet duong nao lieu cao.md`
+- Hop dong — `_00_Cosmo brain/misc/H/Hop dong.md`
+- Hospitals & Healthcare Infrastructure — `_00_Cosmo brain/misc/H/Hospitals & Healthcare Infrastructure.md`
+- Humain leadership — `_00_Cosmo brain/misc/H/Humain leadership.md`
+- Hydrogen Is Not an Alternative — It Is the End Gam — `_00_Cosmo brain/misc/H/Hydrogen Is Not an Alternative — It Is the End Gam.md`
+- Hydrogen at Sea A Maritime Safety Case — `_00_Cosmo brain/misc/H/Hydrogen at Sea A Maritime Safety Case.md`
+- Hydrogen in Mining A Safety Case for the Most Misu — `_00_Cosmo brain/misc/H/Hydrogen in Mining A Safety Case for the Most Misu.md`
+- Hydrogen — `_00_Cosmo brain/misc/H/Hydrogen.md`
+- heritage_intelligence — `_00_Cosmo brain/misc/H/heritage_intelligence.md`
+- 7_INTELLIGENTS_MAPPING — `_00_Cosmo brain/misc/I/7_INTELLIGENTS_MAPPING.md`
+- IKONOMY 2 — `_00_Cosmo brain/misc/I/IKONOMY 2.md`
+- IMPLEMENTATION_MANIFEST — `_00_Cosmo brain/misc/I/IMPLEMENTATION_MANIFEST.md`
+- IMPLEMENTATION_README — `_00_Cosmo brain/misc/I/IMPLEMENTATION_README.md`
+- INTEGRATION_MISSION_STATUS — `_00_Cosmo brain/misc/I/INTEGRATION_MISSION_STATUS.md`
+- INTEGRATION_SUMMARY — `_00_Cosmo brain/misc/I/INTEGRATION_SUMMARY.md`
+- INTEGRATION_TASK_COMPLETE — `_00_Cosmo brain/misc/I/INTEGRATION_TASK_COMPLETE.md`
+- INVARIANTS (docs) — `_00_Cosmo brain/misc/I/INVARIANTS (docs).md`
+- ITIA — `_00_Cosmo brain/misc/I/ITIA.md`
+- Iceage — `_00_Cosmo brain/misc/I/Iceage.md`
+- Implication — `_00_Cosmo brain/misc/I/Implication.md`
+- In Vietnam, Renewable Risk Is a Grid Problem, Not — `_00_Cosmo brain/misc/I/In Vietnam, Renewable Risk Is a Grid Problem, Not.md`
+- Infosec — `_00_Cosmo brain/misc/I/Infosec.md`
+- Insecure_Deserialisation — `_00_Cosmo brain/misc/I/Insecure_Deserialisation.md`
+- Intelligence — `_00_Cosmo brain/misc/I/Intelligence.md`
+- Invariant Institute Pty Ltd — `_00_Cosmo brain/misc/I/Invariant Institute Pty Ltd.md`
+- Invariant — `_00_Cosmo brain/misc/I/Invariant.md`
+- Invariants 701–800 Relationships Clusters — `_00_Cosmo brain/misc/I/Invariants 701–800 Relationships Clusters.md`
+- Invariants 801–900 Relationships Clusters — `_00_Cosmo brain/misc/I/Invariants 801–900 Relationships Clusters.md`
+- Invariants 901–1000 Relationships Clusters — `_00_Cosmo brain/misc/I/Invariants 901–1000 Relationships Clusters.md`
+- Investnent — `_00_Cosmo brain/misc/I/Investnent.md`
+- icu — `_00_Cosmo brain/misc/I/icu.md`
+- integration — `_00_Cosmo brain/misc/I/integration.md`
+- internet cash — `_00_Cosmo brain/misc/I/internet cash.md`
+- inv.cog.ethical_constraints_present — `_00_Cosmo brain/misc/I/inv.cog.ethical_constraints_present.md`
+- invariants (references) — `_00_Cosmo brain/misc/I/invariants (references).md`
+- JWT — `_00_Cosmo brain/misc/J/JWT.md`
+- japaneseCore — `_00_Cosmo brain/misc/J/japaneseCore.md`
+- KẾ HOẠCH THƯƠNG MẠI HÓA — `_00_Cosmo brain/misc/K/KẾ HOẠCH THƯƠNG MẠI HÓA.md`
+- KIẾN TRÚC HỢP NHẤT 1000 PHƯƠNG PHÁP FOREX — `_00_Cosmo brain/misc/K/KIẾN TRÚC HỢP NHẤT 1000 PHƯƠNG PHÁP FOREX.md`
+- KNOWLEDGE_HARVEST — `_00_Cosmo brain/misc/K/KNOWLEDGE_HARVEST.md`
+- Khoa học của Tử Vi & Tướng Số — `_00_Cosmo brain/misc/K/Khoa học của Tử Vi & Tướng Số.md`
+- Khoa học kien tao — `_00_Cosmo brain/misc/K/Khoa học kien tao.md`
+- Kiến Trúc Vòng Lặp Phân Dạng Của Ý Thức, Tiềm Thức — `_00_Cosmo brain/misc/K/Kiến Trúc Vòng Lặp Phân Dạng Của Ý Thức, Tiềm Thức.md`
+- Kinh dich — `_00_Cosmo brain/misc/K/Kinh dich.md`
+- Kpi — `_00_Cosmo brain/misc/K/Kpi.md`
+- koreanCommunication — `_00_Cosmo brain/misc/K/koreanCommunication.md`
+- 1 LACUNARITY TRONG BỘ NÃO LÀ GÌ — `_00_Cosmo brain/misc/L/1 LACUNARITY TRONG BỘ NÃO LÀ GÌ.md`
+- L-M-H CẤU TRÚC CỦA VẠN VẬT — `_00_Cosmo brain/misc/L/L-M-H CẤU TRÚC CỦA VẠN VẬT.md`
+- LDAP — `_00_Cosmo brain/misc/L/LDAP.md`
+- LOAD_MAP — `_00_Cosmo brain/misc/L/LOAD_MAP.md`
+- LỜI NGUYỀN, MA THUẬT, TÂM LINH BẢN DỊCH CẤU TRÚC C — `_00_Cosmo brain/misc/L/LỜI NGUYỀN, MA THUẬT, TÂM LINH BẢN DỊCH CẤU TRÚC C.md`
+- LỚP HỌC AI CƠ BẢN — `_00_Cosmo brain/misc/L/LỚP HỌC AI CƠ BẢN.md`
+- LUẬN ÁN VỀ SỰ PHÂN LOẠI CẤU TRÚC CON NGƯỜI VÀ HẰNG — `_00_Cosmo brain/misc/L/LUẬN ÁN VỀ SỰ PHÂN LOẠI CẤU TRÚC CON NGƯỜI VÀ HẰNG.md`
+- Language — `_00_Cosmo brain/misc/L/Language.md`
+- Language_Overlay_And_IP_Protection — `_00_Cosmo brain/misc/L/Language_Overlay_And_IP_Protection.md`
+- Launch plan — `_00_Cosmo brain/misc/L/Launch plan.md`
+- Law 90 — The Rule of Four as Deterministic Symmetr — `_00_Cosmo brain/misc/L/Law 90 — The Rule of Four as Deterministic Symmetr.md`
+- Law of Law Rule of 2 Rule of 4 — `_00_Cosmo brain/misc/L/Law of Law Rule of 2 Rule of 4.md`
+- Le nha nho — `_00_Cosmo brain/misc/L/Le nha nho.md`
+- Leaders with Comparable Backgrounds and Values Lis — `_00_Cosmo brain/misc/L/Leaders with Comparable Backgrounds and Values Lis.md`
+- Leadership author — `_00_Cosmo brain/misc/L/Leadership author.md`
+- Linh Nguyen Xuan — `_00_Cosmo brain/misc/L/Linh Nguyen Xuan.md`
+- Llm — `_00_Cosmo brain/misc/L/Llm.md`
+- Long Mạch xuyên thời gian và văn minh — `_00_Cosmo brain/misc/L/Long Mạch xuyên thời gian và văn minh.md`
+- Long mach — `_00_Cosmo brain/misc/L/Long mach.md`
+- Love in Late-Stage Civilization — `_00_Cosmo brain/misc/L/Love in Late-Stage Civilization.md`
+- Love without safety is noise Safety without consis — `_00_Cosmo brain/misc/L/Love without safety is noise Safety without consis.md`
+- Luận giải “Thói quen kỳ quặc” của các thiên tài là — `_00_Cosmo brain/misc/L/Luận giải “Thói quen kỳ quặc” của các thiên tài là.md`
+- languageCore — `_00_Cosmo brain/misc/L/languageCore.md`
+- link — `_00_Cosmo brain/misc/L/link.md`
+- loader_2 — `_00_Cosmo brain/misc/L/loader_2.md`
+- 🐉 Long Mạch Mapping Across Vietnam — `_00_Cosmo brain/misc/L/🐉 Long Mạch Mapping Across Vietnam.md`
+- $$ — `_00_Cosmo brain/misc/M/$$.md`
+- 19 — `_00_Cosmo brain/misc/M/19.md`
+- 90% — `_00_Cosmo brain/misc/M/90%.md`
+- MAP CÁC HẰNG SỐ (π, e, φ, √2, 137, 432, 360…) VÀ L — `_00_Cosmo brain/misc/M/MAP CÁC HẰNG SỐ (π, e, φ, √2, 137, 432, 360…) VÀ L.md`
+- METHOD_DETECTION_ISSUES_RESOLUTION_MISSION_COMPLETE — `_00_Cosmo brain/misc/M/METHOD_DETECTION_ISSUES_RESOLUTION_MISSION_COMPLETE.md`
+- METHOD_SIGNATURE_ISSUES_RESOLUTION_MISSION_COMPLETE — `_00_Cosmo brain/misc/M/METHOD_SIGNATURE_ISSUES_RESOLUTION_MISSION_COMPLETE.md`
+- MICRO↔MACRO 100000 Years Civilization — `_00_Cosmo brain/misc/M/MICRO↔MACRO 100000 Years Civilization.md`
+- MOU — `_00_Cosmo brain/misc/M/MOU.md`
+- MÔ TẢ CÔNG VIỆC — `_00_Cosmo brain/misc/M/MÔ TẢ CÔNG VIỆC.md`
+- MÔ TẢ KỸ THUẬT VÀ CƠ SỞ VƯỢT TRỘI CỦA HỆ THỐNG AMO — `_00_Cosmo brain/misc/M/MÔ TẢ KỸ THUẬT VÀ CƠ SỞ VƯỢT TRỘI CỦA HỆ THỐNG AMO.md`
+- Magic — `_00_Cosmo brain/misc/M/Magic.md`
+- Making Planetary Consent Relatable — `_00_Cosmo brain/misc/M/Making Planetary Consent Relatable.md`
+- Map Compare — `_00_Cosmo brain/misc/M/Map Compare.md`
+- Map — `_00_Cosmo brain/misc/M/Map.md`
+- Mapped Taxonomy of Vietnamese Energetic Practition — `_00_Cosmo brain/misc/M/Mapped Taxonomy of Vietnamese Energetic Practition.md`
+- Max boring max cash — `_00_Cosmo brain/misc/M/Max boring max cash.md`
+- Me — `_00_Cosmo brain/misc/M/Me.md`
+- Meeting Playbook™ — `_00_Cosmo brain/misc/M/Meeting Playbook™.md`
+- Meta-Laws Stability Equations Multi-Scale — `_00_Cosmo brain/misc/M/Meta-Laws Stability Equations Multi-Scale.md`
+- Migration_History — `_00_Cosmo brain/misc/M/Migration_History.md`
+- Military — `_00_Cosmo brain/misc/M/Military.md`
+- Moe — `_00_Cosmo brain/misc/M/Moe.md`
+- Money — `_00_Cosmo brain/misc/M/Money.md`
+- More — `_00_Cosmo brain/misc/M/More.md`
+- main — `_00_Cosmo brain/misc/M/main.md`
+- manifest_2 — `_00_Cosmo brain/misc/M/manifest_2.md`
+- master_demo — `_00_Cosmo brain/misc/M/master_demo.md`
+- mckinsey — `_00_Cosmo brain/misc/M/mckinsey.md`
+- metabolism_integrity_present — `_00_Cosmo brain/misc/M/metabolism_integrity_present.md`
+- metabolism_response_operator — `_00_Cosmo brain/misc/M/metabolism_response_operator.md`
+- NĂNG LƯỢNG GIA HỆ CẤU TRÚC TÁI DIỄN CỦA DÒNG TỘC V — `_00_Cosmo brain/misc/N/NĂNG LƯỢNG GIA HỆ CẤU TRÚC TÁI DIỄN CỦA DÒNG TỘC V.md`
+- NĂNG LƯỢNG VÀ TRƯỜNG BẢN GIAO HƯỞNG THẦM LẶNG CỦA — `_00_Cosmo brain/misc/N/NĂNG LƯỢNG VÀ TRƯỜNG BẢN GIAO HƯỞNG THẦM LẶNG CỦA.md`
+- NEW PROCESS Transformation Framework — `_00_Cosmo brain/misc/N/NEW PROCESS Transformation Framework.md`
+- NEXT_HIGHEST_VALUE_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/misc/N/NEXT_HIGHEST_VALUE_ENHANCEMENT_MISSION_COMPLETE.md`
+- NGHIÊN CỨU CHUYÊN SÂU TÍCH HỢP HÌNH HỌC KHÔNG GIAN — `_00_Cosmo brain/misc/N/NGHIÊN CỨU CHUYÊN SÂU TÍCH HỢP HÌNH HỌC KHÔNG GIAN.md`
+- NGÔN NGỮ - CÁCH HỌC — `_00_Cosmo brain/misc/N/NGÔN NGỮ - CÁCH HỌC.md`
+- NHỮNG CÁI TÊN THÀNH CÔNG NHẤT & TÀI SẢN RÒNG SPITI — `_00_Cosmo brain/misc/N/NHỮNG CÁI TÊN THÀNH CÔNG NHẤT & TÀI SẢN RÒNG SPITI.md`
+- Naming — `_00_Cosmo brain/misc/N/Naming.md`
+- Negotiating — `_00_Cosmo brain/misc/N/Negotiating.md`
+- NeuroSyncAI Business Plan — `_00_Cosmo brain/misc/N/NeuroSyncAI Business Plan.md`
+- NeuroSyncAI — `_00_Cosmo brain/misc/N/NeuroSyncAI.md`
+- NeuroSyncAI_as_Certifiable_Intelligence_Infrastructure — `_00_Cosmo brain/misc/N/NeuroSyncAI_as_Certifiable_Intelligence_Infrastructure.md`
+- NeuroSyncAI_vs_GenAI_The_Future_of_AI_Infrastructure_Is_Deterministic — `_00_Cosmo brain/misc/N/NeuroSyncAI_vs_GenAI_The_Future_of_AI_Infrastructure_Is_Deterministic.md`
+- NeuroSyncAI_x_AWS — `_00_Cosmo brain/misc/N/NeuroSyncAI_x_AWS.md`
+- NeuroSyncAI™ + GPT-5 The Deterministic Leap in Hum — `_00_Cosmo brain/misc/N/NeuroSyncAI™ + GPT-5 The Deterministic Leap in Hum.md`
+- NeuroSyncAI™ Smartwatch Low-Cost Predictive Bio-In — `_00_Cosmo brain/misc/N/NeuroSyncAI™ Smartwatch Low-Cost Predictive Bio-In.md`
+- New cide — `_00_Cosmo brain/misc/N/New cide.md`
+- New core — `_00_Cosmo brain/misc/N/New core.md`
+- New — `_00_Cosmo brain/misc/N/New.md`
+- Next — `_00_Cosmo brain/misc/N/Next.md`
+- Nền kinh tế toàn nhân loại — `_00_Cosmo brain/misc/N/Nền kinh tế toàn nhân loại.md`
+- Nghiên cứu khoa học về cấu trúc “tâm – vòng – chu — `_00_Cosmo brain/misc/N/Nghiên cứu khoa học về cấu trúc “tâm – vòng – chu.md`
+- Nguyên liệu phế thải — `_00_Cosmo brain/misc/N/Nguyên liệu phế thải.md`
+- Ngũ Nhãn Việt Nam — `_00_Cosmo brain/misc/N/Ngũ Nhãn Việt Nam.md`
+- Những sự thật về con người — `_00_Cosmo brain/misc/N/Những sự thật về con người.md`
+- Note_Title — `_00_Cosmo brain/misc/N/Note_Title.md`
+- ndarray_misc — `_00_Cosmo brain/misc/N/ndarray_misc.md`
+- nobel sinh hoc — `_00_Cosmo brain/misc/N/nobel sinh hoc.md`
+- 🌿 NeuroSyncAI™ Health Companion — `_00_Cosmo brain/misc/N/🌿 NeuroSyncAI™ Health Companion.md`
+- 💼 NeuroSyncAI™ + Smartwatch – Hệ Trí Tuệ Sinh Học — `_00_Cosmo brain/misc/N/💼 NeuroSyncAI™ + Smartwatch – Hệ Trí Tuệ Sinh Học.md`
+- 🔗 NEUROPAK INTEGRATION — `_00_Cosmo brain/misc/N/🔗 NEUROPAK INTEGRATION.md`
+- 🔭 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43 — `_00_Cosmo brain/misc/N/🔭 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43.md`
+- 🧠 NeuroSyncAI™ as a Cryptographically Sealed Biolo — `_00_Cosmo brain/misc/N/🧠 NeuroSyncAI™ as a Cryptographically Sealed Biolo.md`
+- OAuth--Exploiting_Vulnerabilities — `_00_Cosmo brain/misc/O/OAuth--Exploiting_Vulnerabilities.md`
+- OAuth--Grant_Types--Implicit_Type — `_00_Cosmo brain/misc/O/OAuth--Grant_Types--Implicit_Type.md`
+- OAuth--Grant_Types — `_00_Cosmo brain/misc/O/OAuth--Grant_Types.md`
+- OAuth--OpenID_Connect--Vulnerabilities — `_00_Cosmo brain/misc/O/OAuth--OpenID_Connect--Vulnerabilities.md`
+- OAuth--OpenID_Connect — `_00_Cosmo brain/misc/O/OAuth--OpenID_Connect.md`
+- OAuth--Prevention — `_00_Cosmo brain/misc/O/OAuth--Prevention.md`
+- OAuth — `_00_Cosmo brain/misc/O/OAuth.md`
+- OMEGA LEVEL – LÀM CHỦ TOÀN BỘ TRÒ CHƠI — `_00_Cosmo brain/misc/O/OMEGA LEVEL – LÀM CHỦ TOÀN BỘ TRÒ CHƠI.md`
+- OMNIVERSAL_REALITY_CONSTRUCTION_COMPLETE — `_00_Cosmo brain/misc/O/OMNIVERSAL_REALITY_CONSTRUCTION_COMPLETE.md`
+- OS Process — `_00_Cosmo brain/misc/O/OS Process.md`
+- OS_Command_Inj--Blind_Injection — `_00_Cosmo brain/misc/O/OS_Command_Inj--Blind_Injection.md`
+- OS_Command_Inj--Ways_of_Inj — `_00_Cosmo brain/misc/O/OS_Command_Inj--Ways_of_Inj.md`
+- OS_Command_Inj — `_00_Cosmo brain/misc/O/OS_Command_Inj.md`
+- OUTPUT_PROTOCOL — `_00_Cosmo brain/misc/O/OUTPUT_PROTOCOL.md`
+- Open_Redirect — `_00_Cosmo brain/misc/O/Open_Redirect.md`
+- Operation cost — `_00_Cosmo brain/misc/O/Operation cost.md`
+- Outreach Pack – UBS-Backed Gold Transaction & Stra — `_00_Cosmo brain/misc/O/Outreach Pack – UBS-Backed Gold Transaction & Stra.md`
+- op.cog.annotate_analytic_state — `_00_Cosmo brain/misc/O/op.cog.annotate_analytic_state.md`
+- op.cog.annotate_creative_state — `_00_Cosmo brain/misc/O/op.cog.annotate_creative_state.md`
+- op.cog.annotate_embodied_state — `_00_Cosmo brain/misc/O/op.cog.annotate_embodied_state.md`
+- op.cog.annotate_ethical_state — `_00_Cosmo brain/misc/O/op.cog.annotate_ethical_state.md`
+- op.cog.annotate_social_state — `_00_Cosmo brain/misc/O/op.cog.annotate_social_state.md`
+- openai_10 — `_00_Cosmo brain/misc/O/openai_10.md`
+- overlooked — `_00_Cosmo brain/misc/O/overlooked.md`
+- Partner due diligence — `_00_Cosmo brain/misc/PA/Partner due diligence.md`
+- Partner list — `_00_Cosmo brain/misc/PA/Partner list.md`
+- Partner — `_00_Cosmo brain/misc/PA/Partner.md`
+- PCIDSS — `_00_Cosmo brain/misc/PC/PCIDSS.md`
+- PERFORMANCE_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/misc/PE/PERFORMANCE_ENHANCEMENT_MISSION_COMPLETE.md`
+- People — `_00_Cosmo brain/misc/PE/People.md`
+- Personal Governed Intelligence Runtime — `_00_Cosmo brain/misc/PE/Personal Governed Intelligence Runtime.md`
+- 3-Phase Build Plan — `_00_Cosmo brain/misc/PH/3-Phase Build Plan.md`
+- PHƯƠNG PHÁP TÁI CẤU TRÚC NHẬN THỨC BẰNG VÒNG LẶP M — `_00_Cosmo brain/misc/PH/PHƯƠNG PHÁP TÁI CẤU TRÚC NHẬN THỨC BẰNG VÒNG LẶP M.md`
+- Phân tích VN — `_00_Cosmo brain/misc/PH/Phân tích VN.md`
+- Phân tích tình hình Việt Nam và bối cảnh toàn cầu — `_00_Cosmo brain/misc/PH/Phân tích tình hình Việt Nam và bối cảnh toàn cầu.md`
+- 📊 PHÂN TÍCH CHIẾN LƯỢC UNITAXI – UNI LOGISTIC — `_00_Cosmo brain/misc/PH/📊 PHÂN TÍCH CHIẾN LƯỢC UNITAXI – UNI LOGISTIC.md`
+- PISync™ (Planetary Intelligence Synchrony™) – Offi — `_00_Cosmo brain/misc/PI/PISync™ (Planetary Intelligence Synchrony™) – Offi.md`
+- PITM — `_00_Cosmo brain/misc/PI/PITM.md`
+- Plan — `_00_Cosmo brain/misc/PL/Plan.md`
+- Planetary Collapse Trigger Map (Decision-Grade) — `_00_Cosmo brain/misc/PL/Planetary Collapse Trigger Map (Decision-Grade).md`
+- Planetary Consent Infrastructure - Investment Brief — `_00_Cosmo brain/misc/PL/Planetary Consent Infrastructure - Investment Brief.md`
+- Planetary Consent Infrastructure - Investor Brief — `_00_Cosmo brain/misc/PL/Planetary Consent Infrastructure - Investor Brief.md`
+- Planetary Scale Intelligence Recruitment Framework — `_00_Cosmo brain/misc/PL/Planetary Scale Intelligence Recruitment Framework.md`
+- Planetary-Scale Intelligence (PSI) v2 Framework — `_00_Cosmo brain/misc/PL/Planetary-Scale Intelligence (PSI) v2 Framework.md`
+- Planetary-Scale Intelligence Recruitment Framework — `_00_Cosmo brain/misc/PL/Planetary-Scale Intelligence Recruitment Framework.md`
+- Planetary-Scale Intelligence Recruitment Trial Pod — `_00_Cosmo brain/misc/PL/Planetary-Scale Intelligence Recruitment Trial Pod.md`
+- Planetary-Scale Intelligence™ (PSI) – Official Man — `_00_Cosmo brain/misc/PL/Planetary-Scale Intelligence™ (PSI) – Official Man.md`
+- Plasma nano — `_00_Cosmo brain/misc/PL/Plasma nano.md`
+- plasma — `_00_Cosmo brain/misc/PL/plasma.md`
+- Politic — `_00_Cosmo brain/misc/PO/Politic.md`
+- Portfolio — `_00_Cosmo brain/misc/PO/Portfolio.md`
+- Pos replacement — `_00_Cosmo brain/misc/PO/Pos replacement.md`
+- Possibility — `_00_Cosmo brain/misc/PO/Possibility.md`
+- Postman — `_00_Cosmo brain/misc/PO/Postman.md`
+- Potential partners — `_00_Cosmo brain/misc/PO/Potential partners.md`
+- PROFESSIONAL WORKING STANDARDS — `_00_Cosmo brain/misc/PR/PROFESSIONAL WORKING STANDARDS.md`
+- PROVENANCE_TOPOLOGY — `_00_Cosmo brain/misc/PR/PROVENANCE_TOPOLOGY.md`
+- Pre civilisation — `_00_Cosmo brain/misc/PR/Pre civilisation.md`
+- Prediction — `_00_Cosmo brain/misc/PR/Prediction.md`
+- Primary Realistic Buyers — `_00_Cosmo brain/misc/PR/Primary Realistic Buyers.md`
+- Principles of Ethical Intelligence™ — `_00_Cosmo brain/misc/PR/Principles of Ethical Intelligence™.md`
+- Product ai — `_00_Cosmo brain/misc/PR/Product ai.md`
+- Product — `_00_Cosmo brain/misc/PR/Product.md`
+- Profile — `_00_Cosmo brain/misc/PR/Profile.md`
+- Proving — `_00_Cosmo brain/misc/PR/Proving.md`
+- provenance (references) — `_00_Cosmo brain/misc/PR/provenance (references).md`
+- provenance — `_00_Cosmo brain/misc/PR/provenance.md`
+- PSA Due Diligent - Not alive — `_00_Cosmo brain/misc/PS/PSA Due Diligent - Not alive.md`
+- PSI Evaluation Nguyễn Xuân Minh — `_00_Cosmo brain/misc/PS/PSI Evaluation Nguyễn Xuân Minh.md`
+- PSI Evaluation Tôn Nữ Xuân Quyên — `_00_Cosmo brain/misc/PS/PSI Evaluation Tôn Nữ Xuân Quyên.md`
+- PSI Evaluation Trần Vũ Khánh Chi — `_00_Cosmo brain/misc/PS/PSI Evaluation Trần Vũ Khánh Chi.md`
+- 🧠 PSI v6 Meta-Effectiveness Profile — Cô Bình — `_00_Cosmo brain/misc/PS/🧠 PSI v6 Meta-Effectiveness Profile — Cô Bình.md`
+- Public Messaging - Making Consent Infrastructure Relatable — `_00_Cosmo brain/misc/PU/Public Messaging - Making Consent Infrastructure Relatable.md`
+- Public messaging — `_00_Cosmo brain/misc/PU/Public messaging.md`
+- Publishable Articles — `_00_Cosmo brain/misc/PU/Publishable Articles.md`
+- Publishing platforms — `_00_Cosmo brain/misc/PU/Publishing platforms.md`
+- Purpose-Shifting-from-why-to-how-20470 — `_00_Cosmo brain/misc/PU/Purpose-Shifting-from-why-to-how-20470.md`
+- QUICK_REFERENCE — `_00_Cosmo brain/misc/Q/QUICK_REFERENCE.md`
+- QUY TRÌNH NHẬP KHẨU 02 XE MẪU BAOJUN E6 NĂM 2025 — `_00_Cosmo brain/misc/Q/QUY TRÌNH NHẬP KHẨU 02 XE MẪU BAOJUN E6 NĂM 2025.md`
+- QUYỀN LỢI BẢO HIỂM XE CƠ GIỚI TASCO — `_00_Cosmo brain/misc/Q/QUYỀN LỢI BẢO HIỂM XE CƠ GIỚI TASCO.md`
+- Quang LLV — `_00_Cosmo brain/misc/Q/Quang LLV.md`
+- Quy che gia tren app — `_00_Cosmo brain/misc/Q/Quy che gia tren app.md`
+- 🌏 QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ — `_00_Cosmo brain/misc/Q/🌏 QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ.md`
+- README-Payload — `_00_Cosmo brain/misc/R/README-Payload.md`
+- REALITY GRAMMAR EQUATION v0 — `_00_Cosmo brain/misc/R/REALITY GRAMMAR EQUATION v0.md`
+- REALITY_TRANSCENDENCE_INTEGRATION_COMPLETE — `_00_Cosmo brain/misc/R/REALITY_TRANSCENDENCE_INTEGRATION_COMPLETE.md`
+- REGIME_FRESHNESS — `_00_Cosmo brain/misc/R/REGIME_FRESHNESS.md`
+- RELATION_TOPOLOGY — `_00_Cosmo brain/misc/R/RELATION_TOPOLOGY.md`
+- REPAIR_ROLLBACK — `_00_Cosmo brain/misc/R/REPAIR_ROLLBACK.md`
+- REPOSITORY_REASONING — `_00_Cosmo brain/misc/R/REPOSITORY_REASONING.md`
+- RUNTIME_LINEAGE — `_00_Cosmo brain/misc/R/RUNTIME_LINEAGE.md`
+- RUN_DEMO — `_00_Cosmo brain/misc/R/RUN_DEMO.md`
+- Random_Hacks — `_00_Cosmo brain/misc/R/Random_Hacks.md`
+- Random_Payloads — `_00_Cosmo brain/misc/R/Random_Payloads.md`
+- Read — `_00_Cosmo brain/misc/R/Read.md`
+- Research — `_00_Cosmo brain/misc/R/Research.md`
+- Resource Planning Matrix — `_00_Cosmo brain/misc/R/Resource Planning Matrix.md`
+- Reverse_Shell — `_00_Cosmo brain/misc/R/Reverse_Shell.md`
+- Risk Laundering Through Pricing — `_00_Cosmo brain/misc/R/Risk Laundering Through Pricing.md`
+- roleIdentity — `_00_Cosmo brain/misc/R/roleIdentity.md`
+- rule.cog.embodied_baseline — `_00_Cosmo brain/misc/R/rule.cog.embodied_baseline.md`
+- READMEa — `_00_Cosmo brain/misc/READMEa.md`
+- SAML — `_00_Cosmo brain/misc/S/SAML.md`
+- SENSITIVITY_FALSIFIERS — `_00_Cosmo brain/misc/S/SENSITIVITY_FALSIFIERS.md`
+- SỔ TAY HERITAGE ∅ — `_00_Cosmo brain/misc/S/SỔ TAY HERITAGE ∅.md`
+- SQL_Inj--Blind_SQL_inj — `_00_Cosmo brain/misc/S/SQL_Inj--Blind_SQL_inj.md`
+- SQL_Inj--Examine_DB — `_00_Cosmo brain/misc/S/SQL_Inj--Examine_DB.md`
+- SQL_Inj--Retrieving_Hidden_Data — `_00_Cosmo brain/misc/S/SQL_Inj--Retrieving_Hidden_Data.md`
+- SQL_Inj--Subverting_App — `_00_Cosmo brain/misc/S/SQL_Inj--Subverting_App.md`
+- SQL_Inj--UNION_attack — `_00_Cosmo brain/misc/S/SQL_Inj--UNION_attack.md`
+- SQL_Inj — `_00_Cosmo brain/misc/S/SQL_Inj.md`
+- SSH_Port_Forwarding — `_00_Cosmo brain/misc/S/SSH_Port_Forwarding.md`
+- SSRF--Blind_vulnerabilities — `_00_Cosmo brain/misc/S/SSRF--Blind_vulnerabilities.md`
+- SSRF--Cicumventing_common_defences — `_00_Cosmo brain/misc/S/SSRF--Cicumventing_common_defences.md`
+- SSRF--Common_Attacks — `_00_Cosmo brain/misc/S/SSRF--Common_Attacks.md`
+- SSRF — `_00_Cosmo brain/misc/S/SSRF.md`
+- SS_Template_Inj--Constructing_an_attack — `_00_Cosmo brain/misc/S/SS_Template_Inj--Constructing_an_attack.md`
+- SS_Template_Inj--Exploit — `_00_Cosmo brain/misc/S/SS_Template_Inj--Exploit.md`
+- SS_Template_Inj--Template_Syntax — `_00_Cosmo brain/misc/S/SS_Template_Inj--Template_Syntax.md`
+- SS_Template_Inj — `_00_Cosmo brain/misc/S/SS_Template_Inj.md`
+- STATIC_DYNAMIC_EVIDENCE — `_00_Cosmo brain/misc/S/STATIC_DYNAMIC_EVIDENCE.md`
+- SYBIL_HARDENING — `_00_Cosmo brain/misc/S/SYBIL_HARDENING.md`
+- Scanning — `_00_Cosmo brain/misc/S/Scanning.md`
+- Selfhood — `_00_Cosmo brain/misc/S/Selfhood.md`
+- Sell — `_00_Cosmo brain/misc/S/Sell.md`
+- Sellable — `_00_Cosmo brain/misc/S/Sellable.md`
+- Shell_Shock — `_00_Cosmo brain/misc/S/Shell_Shock.md`
+- Shortcuts — `_00_Cosmo brain/misc/S/Shortcuts.md`
+- Site — `_00_Cosmo brain/misc/S/Site.md`
+- Small_Random_tips — `_00_Cosmo brain/misc/S/Small_Random_tips.md`
+- Software cancer — `_00_Cosmo brain/misc/S/Software cancer.md`
+- State Management on Anti-Counterfeiting in Vietnam — `_00_Cosmo brain/misc/S/State Management on Anti-Counterfeiting in Vietnam.md`
+- Structural Behavioural Distribution Framework™ (SB — `_00_Cosmo brain/misc/S/Structural Behavioural Distribution Framework™ (SB.md`
+- Survey — `_00_Cosmo brain/misc/S/Survey.md`
+- Survival — `_00_Cosmo brain/misc/S/Survival.md`
+- Sustainability Failed the Moment It Stopped Center — `_00_Cosmo brain/misc/S/Sustainability Failed the Moment It Stopped Center.md`
+- sample_generated_goal_500 — `_00_Cosmo brain/misc/S/sample_generated_goal_500.md`
+- setup_2 — `_00_Cosmo brain/misc/S/setup_2.md`
+- simple_demo — `_00_Cosmo brain/misc/S/simple_demo.md`
+- skeleton_load_capacity — `_00_Cosmo brain/misc/S/skeleton_load_capacity.md`
+- skeleton_response_operator — `_00_Cosmo brain/misc/S/skeleton_response_operator.md`
+- 🌐 Smart Device Owner Communities — `_00_Cosmo brain/misc/S/🌐 Smart Device Owner Communities.md`
+- 📘 SỔ TAY TÁC PHONG UNITAXI — `_00_Cosmo brain/misc/S/📘 SỔ TAY TÁC PHONG UNITAXI.md`
+- TÀI LIỆU KIẾN TRÚC & SẢN PHẨM — `_00_Cosmo brain/misc/TA/TÀI LIỆU KIẾN TRÚC & SẢN PHẨM.md`
+- TẠI SAO 10 – NGUỒN GỐC CỦA CON SỐ MƯỜI TRONG CASCA — `_00_Cosmo brain/misc/TA/TẠI SAO 10 – NGUỒN GỐC CỦA CON SỐ MƯỜI TRONG CASCA.md`
+- TẠI SAO “NĂNG LƯỢNG – CHỮA LÀNH – SHAMAN” LẠI MẠNH — `_00_Cosmo brain/misc/TA/TẠI SAO “NĂNG LƯỢNG – CHỮA LÀNH – SHAMAN” LẠI MẠNH.md`
+- Tam the — `_00_Cosmo brain/misc/TA/Tam the.md`
+- Tam — `_00_Cosmo brain/misc/TA/Tam.md`
+- tam linh — `_00_Cosmo brain/misc/TA/tam linh.md`
+- task — `_00_Cosmo brain/misc/TA/task.md`
+- taste_etiquette_civilizations_vn_international_1000_equations — `_00_Cosmo brain/misc/TA/taste_etiquette_civilizations_vn_international_1000_equations.md`
+- Teamspace Home — `_00_Cosmo brain/misc/TE/Teamspace Home.md`
+- THẤY RÕ, PHẨM GIÁ VÀ SỰ THẤT BẠI CỦA GIÁC NGỘ GIẢ — `_00_Cosmo brain/misc/TH/THẤY RÕ, PHẨM GIÁ VÀ SỰ THẤT BẠI CỦA GIÁC NGỘ GIẢ.md`
+- THẠCH DỪA - NUÔI CẤY VI KHUẨN CELLULOSE — `_00_Cosmo brain/misc/TH/THẠCH DỪA - NUÔI CẤY VI KHUẨN CELLULOSE.md`
+- THE FINAL TRUTH — `_00_Cosmo brain/misc/TH/THE FINAL TRUTH.md`
+- THỊ TRƯỜNG SIÊU GIÀU TÂM LINH TOÀN CẦU — CON SỐ TH — `_00_Cosmo brain/misc/TH/THỊ TRƯỜNG SIÊU GIÀU TÂM LINH TOÀN CẦU — CON SỐ TH.md`
+- THUYẾT TIẾN HÓA DARWIN — `_00_Cosmo brain/misc/TH/THUYẾT TIẾN HÓA DARWIN.md`
+- The Case for Space — If Earth Comes First — `_00_Cosmo brain/misc/TH/The Case for Space — If Earth Comes First.md`
+- The Cost of “Acceptable Harm” — `_00_Cosmo brain/misc/TH/The Cost of “Acceptable Harm”.md`
+- The Deterministic Illusion — Why All Intelligence — `_00_Cosmo brain/misc/TH/The Deterministic Illusion — Why All Intelligence.md`
+- The Difference Between Responsibility and Accounta — `_00_Cosmo brain/misc/TH/The Difference Between Responsibility and Accounta.md`
+- The Equation e = i² — Official Manual — `_00_Cosmo brain/misc/TH/The Equation e = i² — Official Manual.md`
+- The Illusion of “Cheap” EVs — `_00_Cosmo brain/misc/TH/The Illusion of “Cheap” EVs.md`
+- The Law of Law™, The Rule of 2™, and The Rule of 4 — `_00_Cosmo brain/misc/TH/The Law of Law™, The Rule of 2™, and The Rule of 4.md`
+- The Monetization of Mental Illness Was Not an Acci — `_00_Cosmo brain/misc/TH/The Monetization of Mental Illness Was Not an Acci.md`
+- The Oldest Successful Society — `_00_Cosmo brain/misc/TH/The Oldest Successful Society.md`
+- The Right to Leave No Trace at Planetary Scale — `_00_Cosmo brain/misc/TH/The Right to Leave No Trace at Planetary Scale.md`
+- The Right to Refuse — `_00_Cosmo brain/misc/TH/The Right to Refuse.md`
+- The Science of Astrology, Numerology & Physiognomy — `_00_Cosmo brain/misc/TH/The Science of Astrology, Numerology & Physiognomy.md`
+- Theoretical and Practical Foundations of State Man — `_00_Cosmo brain/misc/TH/Theoretical and Practical Foundations of State Man.md`
+- Thicc_App — `_00_Cosmo brain/misc/TH/Thicc_App.md`
+- Thị trường trạm sạc Australia — `_00_Cosmo brain/misc/TH/Thị trường trạm sạc Australia.md`
+- Thủ cho Baojun E6 vào Việt Nam — `_00_Cosmo brain/misc/TH/Thủ cho Baojun E6 vào Việt Nam.md`
+- Thực tại — `_00_Cosmo brain/misc/TH/Thực tại.md`
+- the first chemical artificial neuron — `_00_Cosmo brain/misc/TH/the first chemical artificial neuron.md`
+- 🧠 The End of Productivity as We Know It — `_00_Cosmo brain/misc/TH/🧠 The End of Productivity as We Know It.md`
+- TÌNH YÊU, HY VỌNG, VÀ SÓNG NÃO — `_00_Cosmo brain/misc/TI/TÌNH YÊU, HY VỌNG, VÀ SÓNG NÃO.md`
+- Tính toán — `_00_Cosmo brain/misc/TI/Tính toán.md`
+- tinh forex — `_00_Cosmo brain/misc/TI/tinh forex.md`
+- TOKEN — `_00_Cosmo brain/misc/TO/TOKEN.md`
+- TOKEN_GOVERNOR — `_00_Cosmo brain/misc/TO/TOKEN_GOVERNOR.md`
+- To Do — `_00_Cosmo brain/misc/TO/To Do.md`
+- To write — `_00_Cosmo brain/misc/TO/To write.md`
+- Toan co — `_00_Cosmo brain/misc/TO/Toan co.md`
+- Toàn cảnh thị trường event concert festival tại Vi — `_00_Cosmo brain/misc/TO/Toàn cảnh thị trường event concert festival tại Vi.md`
+- Tools — `_00_Cosmo brain/misc/TO/Tools.md`
+- Tổng quan Thị trường – Gọi xe công nghệ tại Việt N — `_00_Cosmo brain/misc/TO/Tổng quan Thị trường – Gọi xe công nghệ tại Việt N.md`
+- toan hoc va vat ly — `_00_Cosmo brain/misc/TO/toan hoc va vat ly.md`
+- tool — `_00_Cosmo brain/misc/TO/tool.md`
+- ⭐ TỔNG HỢP – 5000 NĂM DỰ BÁO XUYÊN NỀN VĂN MINH — `_00_Cosmo brain/misc/TO/⭐ TỔNG HỢP – 5000 NĂM DỰ BÁO XUYÊN NỀN VĂN MINH.md`
+- TRANSACTION_PROTOCOL — `_00_Cosmo brain/misc/TR/TRANSACTION_PROTOCOL.md`
+- Try AI meeting notes@April 6, 2026 10 05 AM — `_00_Cosmo brain/misc/TR/Try AI meeting notes@April 6, 2026 10 05 AM.md`
+- translation — `_00_Cosmo brain/misc/TR/translation.md`
+- tri nuoc — `_00_Cosmo brain/misc/TR/tri nuoc.md`
+- 🔐 TrueVault Integration NeuroSyncAI™ + Unified Bio — `_00_Cosmo brain/misc/TR/🔐 TrueVault Integration NeuroSyncAI™ + Unified Bio.md`
+- Tuning — `_00_Cosmo brain/misc/TU/Tuning.md`
+- U — `_00_Cosmo brain/misc/U/U.md`
+- UBS-Backed SKR Gold Transaction — Investor Deck — `_00_Cosmo brain/misc/U/UBS-Backed SKR Gold Transaction — Investor Deck.md`
+- ULTIMATE_COSMIC_INTEGRATION_COMPLETE — `_00_Cosmo brain/misc/U/ULTIMATE_COSMIC_INTEGRATION_COMPLETE.md`
+- ULTIMATE_COSMIC_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/misc/U/ULTIMATE_COSMIC_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE.md`
+- ULTIMATE_DIVINE_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/misc/U/ULTIMATE_DIVINE_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE.md`
+- ULTIMATE_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/misc/U/ULTIMATE_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE.md`
+- UNCERTAINTY_VECTOR — `_00_Cosmo brain/misc/U/UNCERTAINTY_VECTOR.md`
+- UNI CARE PACKAGE™ – GÓI BẢO HIỂM TOÀN DIỆN CHO TÀI — `_00_Cosmo brain/misc/U/UNI CARE PACKAGE™ – GÓI BẢO HIỂM TOÀN DIỆN CHO TÀI.md`
+- UNI POWER – AI TOOLKIT & PROMPT LIBRARY (2025) — `_00_Cosmo brain/misc/U/UNI POWER – AI TOOLKIT & PROMPT LIBRARY (2025).md`
+- UNIFIED ACHIEVEMENT SUMMARY — `_00_Cosmo brain/misc/U/UNIFIED ACHIEVEMENT SUMMARY.md`
+- UNIPOWER_R_OS — `_00_Cosmo brain/misc/U/UNIPOWER_R_OS.md`
+- UniPower The Everyday Mobility + Lifestyle Platfor — `_00_Cosmo brain/misc/U/UniPower The Everyday Mobility + Lifestyle Platfor.md`
+- UniPower_SUPER_AI_OS — `_00_Cosmo brain/misc/U/UniPower_SUPER_AI_OS.md`
+- UniPower_UniTaxi_MECE — `_00_Cosmo brain/misc/U/UniPower_UniTaxi_MECE.md`
+- UniPower_UniTaxi_MECE_X1000 — `_00_Cosmo brain/misc/U/UniPower_UniTaxi_MECE_X1000.md`
+- UniPower_UniTaxi_X10000_Full_IOS — `_00_Cosmo brain/misc/U/UniPower_UniTaxi_X10000_Full_IOS.md`
+- UniPower_UniTaxi_X5000 — `_00_Cosmo brain/misc/U/UniPower_UniTaxi_X5000.md`
+- UniTaxi_X200_Training — `_00_Cosmo brain/misc/U/UniTaxi_X200_Training.md`
+- UniTaxi_X300_RoleExtended — `_00_Cosmo brain/misc/U/UniTaxi_X300_RoleExtended.md`
+- Unified Coherence Protocol™ (UCP) – Official Manua — `_00_Cosmo brain/misc/U/Unified Coherence Protocol™ (UCP) – Official Manua.md`
+- Unified Legacy Framework™ (ULF) – Official Manual — `_00_Cosmo brain/misc/U/Unified Legacy Framework™ (ULF) – Official Manual.md`
+- Universal Reasoning Framework™ (URF™) — `_00_Cosmo brain/misc/U/Universal Reasoning Framework™ (URF™).md`
+- Unix--Automated_Tools — `_00_Cosmo brain/misc/U/Unix--Automated_Tools.md`
+- Unix--Commands — `_00_Cosmo brain/misc/U/Unix--Commands.md`
+- Unix--Databases — `_00_Cosmo brain/misc/U/Unix--Databases.md`
+- Unix--Passwords_and_file_permissions — `_00_Cosmo brain/misc/U/Unix--Passwords_and_file_permissions.md`
+- Unix--Permissions — `_00_Cosmo brain/misc/U/Unix--Permissions.md`
+- Unix--Priv_Esc — `_00_Cosmo brain/misc/U/Unix--Priv_Esc.md`
+- Unix--Random_Facts — `_00_Cosmo brain/misc/U/Unix--Random_Facts.md`
+- Unix--Things_to_Try — `_00_Cosmo brain/misc/U/Unix--Things_to_Try.md`
+- Unknown — `_00_Cosmo brain/misc/U/Unknown.md`
+- Untitled 62ec-176a (Export-964e18f0-f757-4d5c-ae82-64742b44639a 2) — `_00_Cosmo brain/misc/U/Untitled 62ec-176a (Export-964e18f0-f757-4d5c-ae82-64742b44639a 2).md`
+- Untitled 62ec-176a — `_00_Cosmo brain/misc/U/Untitled 62ec-176a.md`
+- Untitled b48c-7a41 (Export-964e18f0-f757-4d5c-ae82-64742b44639a 2) — `_00_Cosmo brain/misc/U/Untitled b48c-7a41 (Export-964e18f0-f757-4d5c-ae82-64742b44639a 2).md`
+- Untitled — `_00_Cosmo brain/misc/U/Untitled.md`
+- Usdt — `_00_Cosmo brain/misc/U/Usdt.md`
+- ufunc_config — `_00_Cosmo brain/misc/U/ufunc_config.md`
+- unified_generator — `_00_Cosmo brain/misc/U/unified_generator.md`
+- unipower-unitaxi-mece — `_00_Cosmo brain/misc/U/unipower-unitaxi-mece.md`
+- 🔥 UCP — Unified Collapse Prediction™ — `_00_Cosmo brain/misc/U/🔥 UCP — Unified Collapse Prediction™.md`
+- V3_2_1 — `_00_Cosmo brain/misc/V/V3_2_1.md`
+- V3_4_1 — `_00_Cosmo brain/misc/V/V3_4_1.md`
+- V3_7_1 — `_00_Cosmo brain/misc/V/V3_7_1.md`
+- V3_8 — `_00_Cosmo brain/misc/V/V3_8.md`
+- V3_9_PERSISTENT_PROVENANCE — `_00_Cosmo brain/misc/V/V3_9_PERSISTENT_PROVENANCE.md`
+- V4_0_MVCC_CAS — `_00_Cosmo brain/misc/V/V4_0_MVCC_CAS.md`
+- V4_2_CAUSAL_EPOCH — `_00_Cosmo brain/misc/V/V4_2_CAUSAL_EPOCH.md`
+- V4_3_SHARD_LOCAL_FINALIZATION — `_00_Cosmo brain/misc/V/V4_3_SHARD_LOCAL_FINALIZATION.md`
+- V4_4_COORDINATION_AVOIDANCE — `_00_Cosmo brain/misc/V/V4_4_COORDINATION_AVOIDANCE.md`
+- VĂN BẢN CỔ CÓ MÃ HÓA SỰ XUẤT HIỆN CỦA MỘT NGƯỜI BẰ — `_00_Cosmo brain/misc/V/VĂN BẢN CỔ CÓ MÃ HÓA SỰ XUẤT HIỆN CỦA MỘT NGƯỜI BẰ.md`
+- VĂN MINH SÔNG HỒNG — `_00_Cosmo brain/misc/V/VĂN MINH SÔNG HỒNG.md`
+- VN_Country — `_00_Cosmo brain/misc/V/VN_Country.md`
+- VN_Legal_MAX — `_00_Cosmo brain/misc/V/VN_Legal_MAX.md`
+- VN_Legal_MAX_Unipower — `_00_Cosmo brain/misc/V/VN_Legal_MAX_Unipower.md`
+- VN_Legal_MAX_Unipower4 — `_00_Cosmo brain/misc/V/VN_Legal_MAX_Unipower4.md`
+- VN_OMNISTRUCTURE.txt_root — `_00_Cosmo brain/misc/V/VN_OMNISTRUCTURE.txt_root.md`
+- VN_OMNISTRUCTURE_FULL — `_00_Cosmo brain/misc/V/VN_OMNISTRUCTURE_FULL.md`
+- Value proposition — `_00_Cosmo brain/misc/V/Value proposition.md`
+- Vietnam_Omnistructure_Program — `_00_Cosmo brain/misc/V/Vietnam_Omnistructure_Program.md`
+- Vietnamese — `_00_Cosmo brain/misc/V/Vietnamese.md`
+- Vietnam’s EV Charging Crisis Unplanned Load, Mispl — `_00_Cosmo brain/misc/V/Vietnam’s EV Charging Crisis Unplanned Load, Mispl.md`
+- Vì Sao Tôn Giáo Thất Bại Trong Việc Bảo Tồn Cái Th — `_00_Cosmo brain/misc/V/Vì Sao Tôn Giáo Thất Bại Trong Việc Bảo Tồn Cái Th.md`
+- Vn articles — `_00_Cosmo brain/misc/V/Vn articles.md`
+- Vn more — `_00_Cosmo brain/misc/V/Vn more.md`
+- validate_formal — `_00_Cosmo brain/misc/V/validate_formal.md`
+- vietnameseCommunication — `_00_Cosmo brain/misc/V/vietnameseCommunication.md`
+- vietnameseCore — `_00_Cosmo brain/misc/V/vietnameseCore.md`
+- vinh vuong — `_00_Cosmo brain/misc/V/vinh vuong.md`
+- vn_real_estate_phong_thuy_construction_interior_10000_scan — `_00_Cosmo brain/misc/V/vn_real_estate_phong_thuy_construction_interior_10000_scan.md`
+- WHITEPAPER VỀ TRƯỜNG THỌ SINH HỌC QLS–ABI™ — `_00_Cosmo brain/misc/W/WHITEPAPER VỀ TRƯỜNG THỌ SINH HỌC QLS–ABI™.md`
+- WORKING_DEMO — `_00_Cosmo brain/misc/W/WORKING_DEMO.md`
+- We Dream of Mars to Avoid Earth — `_00_Cosmo brain/misc/W/We Dream of Mars to Avoid Earth.md`
+- Web_Cache_Posioning--Construction — `_00_Cosmo brain/misc/W/Web_Cache_Posioning--Construction.md`
+- Web_Cache_Posioning--Exploiting_Implementation_Flaws — `_00_Cosmo brain/misc/W/Web_Cache_Posioning--Exploiting_Implementation_Flaws.md`
+- Web_Cache_Posioning--Exploiting_design_flaws — `_00_Cosmo brain/misc/W/Web_Cache_Posioning--Exploiting_design_flaws.md`
+- Web_Cache_Posioning--Web_Cache — `_00_Cosmo brain/misc/W/Web_Cache_Posioning--Web_Cache.md`
+- Web_Cache_Posioning — `_00_Cosmo brain/misc/W/Web_Cache_Posioning.md`
+- Web_Sockets--Manipulate_Traffic — `_00_Cosmo brain/misc/W/Web_Sockets--Manipulate_Traffic.md`
+- Web_Sockets--What_is_it — `_00_Cosmo brain/misc/W/Web_Sockets--What_is_it.md`
+- Web_Sockets--XS_WS_Hijacking — `_00_Cosmo brain/misc/W/Web_Sockets--XS_WS_Hijacking.md`
+- Web_Sockets — `_00_Cosmo brain/misc/W/Web_Sockets.md`
+- Welcome — `_00_Cosmo brain/misc/W/Welcome.md`
+- What Are We Selling — `_00_Cosmo brain/misc/W/What Are We Selling.md`
+- What can it read — `_00_Cosmo brain/misc/W/What can it read.md`
+- What i built — `_00_Cosmo brain/misc/W/What i built.md`
+- When Safety Mechanisms Corrupt Intelligence — `_00_Cosmo brain/misc/W/When Safety Mechanisms Corrupt Intelligence.md`
+- Who Pays for Peak EV Load — and Why It Matters — `_00_Cosmo brain/misc/W/Who Pays for Peak EV Load — and Why It Matters.md`
+- Who Pays for Peak Load — and Why It Is Structurall — `_00_Cosmo brain/misc/W/Who Pays for Peak Load — and Why It Is Structurall.md`
+- Why BCI Raises the Standard for Safety to Near-Zer — `_00_Cosmo brain/misc/W/Why BCI Raises the Standard for Safety to Near-Zer.md`
+- Why China Is Flooded With Unused EVs — and Why Vie — `_00_Cosmo brain/misc/W/Why China Is Flooded With Unused EVs — and Why Vie.md`
+- Why Cities Will Ban Ungoverned Storage Before They — `_00_Cosmo brain/misc/W/Why Cities Will Ban Ungoverned Storage Before They.md`
+- Why Decision Infrastructure is the Next Civilisati — `_00_Cosmo brain/misc/W/Why Decision Infrastructure is the Next Civilisati.md`
+- Why Ethical Intelligence™ Is Mandatory in Life-Cri — `_00_Cosmo brain/misc/W/Why Ethical Intelligence™ Is Mandatory in Life-Cri.md`
+- Why Grids Collapse Politically Before They Collaps — `_00_Cosmo brain/misc/W/Why Grids Collapse Politically Before They Collaps.md`
+- Why Hydrogen Is Safer Than What We Use Today — `_00_Cosmo brain/misc/W/Why Hydrogen Is Safer Than What We Use Today.md`
+- Why Hydrogen Terrifies Weak Institutions — `_00_Cosmo brain/misc/W/Why Hydrogen Terrifies Weak Institutions.md`
+- Why Institutions That Look Strong Fail First — `_00_Cosmo brain/misc/W/Why Institutions That Look Strong Fail First.md`
+- Why Metrics Lie About Reality — `_00_Cosmo brain/misc/W/Why Metrics Lie About Reality.md`
+- Why Much of Earth Remains Unexplored — and Why Ene — `_00_Cosmo brain/misc/W/Why Much of Earth Remains Unexplored — and Why Ene.md`
+- Why Presence Is the New Pollution — `_00_Cosmo brain/misc/W/Why Presence Is the New Pollution.md`
+- Why Solar Is More Expensive Than It Is Advertised — `_00_Cosmo brain/misc/W/Why Solar Is More Expensive Than It Is Advertised.md`
+- Why Trust Is Infrastructure — `_00_Cosmo brain/misc/W/Why Trust Is Infrastructure.md`
+- Why “Mindset” Is Often a Weapon — `_00_Cosmo brain/misc/W/Why “Mindset” Is Often a Weapon.md`
+- wikilinks — `_00_Cosmo brain/misc/W/wikilinks.md`
+- workers — `_00_Cosmo brain/misc/W/workers.md`
+- workspace (obsidian) — `_00_Cosmo brain/misc/W/workspace (obsidian).md`
+- 🧠 What NeuroSyncAI™ Can Realistically Do Now — `_00_Cosmo brain/misc/W/🧠 What NeuroSyncAI™ Can Realistically Do Now.md`
+- 19x19 Sparse Coupling Matrix — `_00_Cosmo brain/misc/X/19x19 Sparse Coupling Matrix.md`
+- X — `_00_Cosmo brain/misc/X/X.md`
+- XPRIZE Water Scarcity — `_00_Cosmo brain/misc/X/XPRIZE Water Scarcity.md`
+- XSS--CSP — `_00_Cosmo brain/misc/X/XSS--CSP.md`
+- XSS--Contexts — `_00_Cosmo brain/misc/X/XSS--Contexts.md`
+- XSS--DOM--Sinks — `_00_Cosmo brain/misc/X/XSS--DOM--Sinks.md`
+- XSS--DOM--Things_to_Try — `_00_Cosmo brain/misc/X/XSS--DOM--Things_to_Try.md`
+- XSS--DOM — `_00_Cosmo brain/misc/X/XSS--DOM.md`
+- XSS--Reflected--Things_to_Try — `_00_Cosmo brain/misc/X/XSS--Reflected--Things_to_Try.md`
+- XSS--Reflected — `_00_Cosmo brain/misc/X/XSS--Reflected.md`
+- XSS--Stored--Things_to_Try — `_00_Cosmo brain/misc/X/XSS--Stored--Things_to_Try.md`
+- XSS--Stored — `_00_Cosmo brain/misc/X/XSS--Stored.md`
+- XSS--Things_to_Try — `_00_Cosmo brain/misc/X/XSS--Things_to_Try.md`
+- XSS — `_00_Cosmo brain/misc/X/XSS.md`
+- XSS_Via_EXIF_Data — `_00_Cosmo brain/misc/X/XSS_Via_EXIF_Data.md`
+- XXE--Blind_XXE — `_00_Cosmo brain/misc/X/XXE--Blind_XXE.md`
+- XXE--Find_hidden_attack_surface — `_00_Cosmo brain/misc/X/XXE--Find_hidden_attack_surface.md`
+- XXE--Retrieve_Files — `_00_Cosmo brain/misc/X/XXE--Retrieve_Files.md`
+- XXE--SSRF_Attack — `_00_Cosmo brain/misc/X/XXE--SSRF_Attack.md`
+- XXE — `_00_Cosmo brain/misc/X/XXE.md`
+- xx — `_00_Cosmo brain/misc/X/xx.md`
+- Yes — there are a few modern individuals who, like — `_00_Cosmo brain/misc/Y/Yes — there are a few modern individuals who, like.md`
+- Ý THỨC, TIỀM THỨC, NHẬN THỨC — `_00_Cosmo brain/misc/Y/Ý THỨC, TIỀM THỨC, NHẬN THỨC.md`
+- 4b. Cross-journey - Model office v2 — `_00_Cosmo brain/models/4b. Cross-journey - Model office v2.md`
+- AMOS_VISUAL_DESIGN_INTELLIGENCE_ENGINE_COMPLETE — `_00_Cosmo brain/models/AMOS_VISUAL_DESIGN_INTELLIGENCE_ENGINE_COMPLETE.md`
+- Absolute_Omniverse_Model — `_00_Cosmo brain/models/Absolute_Omniverse_Model.md`
+- Academic_Writing_Model — `_00_Cosmo brain/models/Academic_Writing_Model.md`
+- Audit_Quality_Model — `_00_Cosmo brain/models/Audit_Quality_Model.md`
+- ÁNH XẠ UNIFIED MODEL QUA THỜI GIAN VÀ VĂN MINH — `_00_Cosmo brain/models/ÁNH XẠ UNIFIED MODEL QUA THỜI GIAN VÀ VĂN MINH.md`
+- Canon_Integration_Layer_Model — `_00_Cosmo brain/models/Canon_Integration_Layer_Model.md`
+- Design_Language_Model — `_00_Cosmo brain/models/Design_Language_Model.md`
+- Electrical_Power_Model — `_00_Cosmo brain/models/Electrical_Power_Model.md`
+- Grand_Cannon_Mobility_Model — `_00_Cosmo brain/models/Grand_Cannon_Mobility_Model.md`
+- Mechanical_Structural_Model — `_00_Cosmo brain/models/Mechanical_Structural_Model.md`
+- Medical_Clinical_Model — `_00_Cosmo brain/models/Medical_Clinical_Model.md`
+- Mind_OS_Model — `_00_Cosmo brain/models/Mind_OS_Model.md`
+- Numerical_Methods_Model — `_00_Cosmo brain/models/Numerical_Methods_Model.md`
+- OS_Masterfile_Model — `_00_Cosmo brain/models/OS_Masterfile_Model.md`
+- SOURCE_MODEL_BOUNDARY — `_00_Cosmo brain/models/SOURCE_MODEL_BOUNDARY.md`
+- Society_Culture_Model — `_00_Cosmo brain/models/Society_Culture_Model.md`
+- The Void — Ego Dissolution Model — `_00_Cosmo brain/models/The Void — Ego Dissolution Model.md`
+- Tool Routing Failure Model — `_00_Cosmo brain/models/Tool Routing Failure Model.md`
+- VN_Omnistructure_Model — `_00_Cosmo brain/models/VN_Omnistructure_Model.md`
+- Vietnamese_Writing_Model — `_00_Cosmo brain/models/Vietnamese_Writing_Model.md`
+- Why Large Language Models Cause Harm — And Why Thi — `_00_Cosmo brain/models/Why Large Language Models Cause Harm — And Why Thi.md`
+- model — `_00_Cosmo brain/models/model.md`
+- neo4j_graph_model_2026-08-12 — `_00_Cosmo brain/models/neo4j_graph_model_2026-08-12.md`
+- Pipeline — `_00_Cosmo brain/pipelines/Pipeline.md`
+- FINAL_SYSTEM_INTEGRATION_REPORT — `_00_Cosmo brain/probability-stats/FINAL_SYSTEM_INTEGRATION_REPORT.md`
+- FINAL_ULTIMATE_COMPLETION_REPORT — `_00_Cosmo brain/probability-stats/FINAL_ULTIMATE_COMPLETION_REPORT.md`
+- NeuroSyncAI Deterministic vs Probabilistic — `_00_Cosmo brain/probability-stats/NeuroSyncAI Deterministic vs Probabilistic.md`
+- qfm-max-power-consolidation — `_00_Cosmo brain/qfm/qfm-max-power-consolidation.md`
+- AMOS Tech Quantum Engine vInfinity — `_00_Cosmo brain/quantum/AMOS Tech Quantum Engine vInfinity.md`
+- AMOS_BRAIN_QUANTUM_ENHANCEMENT_COMPLETE_REPORT — `_00_Cosmo brain/quantum/AMOS_BRAIN_QUANTUM_ENHANCEMENT_COMPLETE_REPORT.md`
+- AMOS_BRAIN_QUANTUM_OMEGA_FINAL_REPORT — `_00_Cosmo brain/quantum/AMOS_BRAIN_QUANTUM_OMEGA_FINAL_REPORT.md`
+- AMOS_QUANTUM_ENHANCED_COMPLETE — `_00_Cosmo brain/quantum/AMOS_QUANTUM_ENHANCED_COMPLETE.md`
+- AMOS_QUANTUM_ENHANCEMENT_COMPLETE — `_00_Cosmo brain/quantum/AMOS_QUANTUM_ENHANCEMENT_COMPLETE.md`
+- AMOS_QUANTUM_ENHANCEMENT_COMPLETE_FINAL_REPORT — `_00_Cosmo brain/quantum/AMOS_QUANTUM_ENHANCEMENT_COMPLETE_FINAL_REPORT.md`
+- AMOS_QUANTUM_ENHANCEMENT_PROGRESS_REPORT — `_00_Cosmo brain/quantum/AMOS_QUANTUM_ENHANCEMENT_PROGRESS_REPORT.md`
+- AMOS_QUANTUM_ENHANCEMENT_PROGRESS_REPORT_V2 — `_00_Cosmo brain/quantum/AMOS_QUANTUM_ENHANCEMENT_PROGRESS_REPORT_V2.md`
+- AMOS_QUANTUM_ENHANCEMENT_ULTIMATE_COMPLETE_REPORT — `_00_Cosmo brain/quantum/AMOS_QUANTUM_ENHANCEMENT_ULTIMATE_COMPLETE_REPORT.md`
+- AMOS_QUANTUM_OS — `_00_Cosmo brain/quantum/AMOS_QUANTUM_OS.md`
+- AMOS_QUANTUM_STRUCTURAL_COMPLETE — `_00_Cosmo brain/quantum/AMOS_QUANTUM_STRUCTURAL_COMPLETE.md`
+- AMOS_Quantum_Stack_v0_Core — `_00_Cosmo brain/quantum/AMOS_Quantum_Stack_v0_Core.md`
+- AMOS_Quantum_Stack_v0_Core3 — `_00_Cosmo brain/quantum/AMOS_Quantum_Stack_v0_Core3.md`
+- AMOS_Quantum_Stack_v0_Core5 — `_00_Cosmo brain/quantum/AMOS_Quantum_Stack_v0_Core5.md`
+- AMOS_Quantum_Stack_v0_Core7 — `_00_Cosmo brain/quantum/AMOS_Quantum_Stack_v0_Core7.md`
+- AMOS_Tech_Quantum_Engine_v0_Domains7 — `_00_Cosmo brain/quantum/AMOS_Tech_Quantum_Engine_v0_Domains7.md`
+- AMOS–QUANTUM FIELD THEORY MAPPING — `_00_Cosmo brain/quantum/AMOS–QUANTUM FIELD THEORY MAPPING.md`
+- DIVINE_QUANTUM_OMNIVERSAL_REALITY_CONSTRUCTION_COMPLETE — `_00_Cosmo brain/quantum/DIVINE_QUANTUM_OMNIVERSAL_REALITY_CONSTRUCTION_COMPLETE.md`
+- FINAL_QUANTUM_COSMIC_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/quantum/FINAL_QUANTUM_COSMIC_ENHANCEMENT_MISSION_COMPLETE.md`
+- Intelligence is binary, Effectiveness is quantum — `_00_Cosmo brain/quantum/Intelligence is binary, Effectiveness is quantum.md`
+- NeuroSyncAI™ – The First Quantum-Aligned Intellige — `_00_Cosmo brain/quantum/NeuroSyncAI™ – The First Quantum-Aligned Intellige.md`
+- QUANTUM_COMPONENT_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/quantum/QUANTUM_COMPONENT_ENHANCEMENT_MISSION_COMPLETE.md`
+- QUANTUM_DIVINE_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/quantum/QUANTUM_DIVINE_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE.md`
+- QUANTUM_ENHANCEMENT_COMPLETE — `_00_Cosmo brain/quantum/QUANTUM_ENHANCEMENT_COMPLETE.md`
+- QUANTUM_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/quantum/QUANTUM_ENHANCEMENT_MISSION_COMPLETE.md`
+- QUANTUM_SPEED_SYSTEMS_THINKING_MISSION_COMPLETE — `_00_Cosmo brain/quantum/QUANTUM_SPEED_SYSTEMS_THINKING_MISSION_COMPLETE.md`
+- QUANTUM_STRUCTURAL_IMPLEMENTATION_COMPLETE — `_00_Cosmo brain/quantum/QUANTUM_STRUCTURAL_IMPLEMENTATION_COMPLETE.md`
+- QUANTUM_SUPREMACY_COMPLETION_REPORT — `_00_Cosmo brain/quantum/QUANTUM_SUPREMACY_COMPLETION_REPORT.md`
+- QUANTUM_SUPREMACY_INTEGRATION_COMPLETE — `_00_Cosmo brain/quantum/QUANTUM_SUPREMACY_INTEGRATION_COMPLETE.md`
+- QUANTUM_SUPREME_COSMIC_TRANSCENDENCE_COMPLETE — `_00_Cosmo brain/quantum/QUANTUM_SUPREME_COSMIC_TRANSCENDENCE_COMPLETE.md`
+- QUANTUM_TENSOR_COMPLETION_REPORT — `_00_Cosmo brain/quantum/QUANTUM_TENSOR_COMPLETION_REPORT.md`
+- Quantum Causality Layer Architecture™ (QCLA) – Off — `_00_Cosmo brain/quantum/Quantum Causality Layer Architecture™ (QCLA) – Off.md`
+- Quantum Chemical Logic Architecture (QCLA) — `_00_Cosmo brain/quantum/Quantum Chemical Logic Architecture (QCLA).md`
+- Quantum Integrity Stack™ The Law of Law and the Ar — `_00_Cosmo brain/quantum/Quantum Integrity Stack™ The Law of Law and the Ar.md`
+- Quantum Integrity Stack™ — Funding Prospectus Summ — `_00_Cosmo brain/quantum/Quantum Integrity Stack™ — Funding Prospectus Summ.md`
+- Quantum Logic Scaffold™ (QLS) – Official Manual — `_00_Cosmo brain/quantum/Quantum Logic Scaffold™ (QLS) – Official Manual.md`
+- Quantum Logic Systems™ (QLS) Where Information Com — `_00_Cosmo brain/quantum/Quantum Logic Systems™ (QLS) Where Information Com.md`
+- Quantum Logic System™ (QLS-System) – Official Manu — `_00_Cosmo brain/quantum/Quantum Logic System™ (QLS-System) – Official Manu.md`
+- Quantum-Coherent Intelligence — `_00_Cosmo brain/quantum/Quantum-Coherent Intelligence.md`
+- Quantum_Omega_Brain_Self_Analysis_7PT_Canon — `_00_Cosmo brain/quantum/Quantum_Omega_Brain_Self_Analysis_7PT_Canon.md`
+- Quantum_Omega_Cognitive_Architecture_Overview — `_00_Cosmo brain/quantum/Quantum_Omega_Cognitive_Architecture_Overview.md`
+- Quantum–Chemical Logic Architecture (QCLA) — `_00_Cosmo brain/quantum/Quantum–Chemical Logic Architecture (QCLA).md`
+- SUPREME_QUANTUM_COSMIC_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/quantum/SUPREME_QUANTUM_COSMIC_ENHANCEMENT_MISSION_COMPLETE.md`
+- Tech_Quantum_Engine_Model — `_00_Cosmo brain/quantum/Tech_Quantum_Engine_Model.md`
+- The_Vietnamese_Root_Language_System_Origin_Biological_Significance_and_Quantum_Linguistic_Infrastructure — `_00_Cosmo brain/quantum/The_Vietnamese_Root_Language_System_Origin_Biological_Significance_and_Quantum_Linguistic_Infrastructure.md`
+- ULTIMATE_QUANTUM_COSMIC_COMPLETION_MISSION_COMPLETE — `_00_Cosmo brain/quantum/ULTIMATE_QUANTUM_COSMIC_COMPLETION_MISSION_COMPLETE.md`
+- ULTIMATE_QUANTUM_COSMIC_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/quantum/ULTIMATE_QUANTUM_COSMIC_ENHANCEMENT_MISSION_COMPLETE.md`
+- ULTIMATE_QUANTUM_DIVINE_FUSION_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/quantum/ULTIMATE_QUANTUM_DIVINE_FUSION_ENHANCEMENT_MISSION_COMPLETE.md`
+- ULTIMATE_QUANTUM_DIVINE_REALITY_MATRIX_CONSTRUCTION_COMPLETE — `_00_Cosmo brain/quantum/ULTIMATE_QUANTUM_DIVINE_REALITY_MATRIX_CONSTRUCTION_COMPLETE.md`
+- ULTIMATE_QUANTUM_DIVINE_SYNTHESIS_COMPLETE — `_00_Cosmo brain/quantum/ULTIMATE_QUANTUM_DIVINE_SYNTHESIS_COMPLETE.md`
+- ULTIMATE_QUANTUM_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/quantum/ULTIMATE_QUANTUM_TRANSCENDENCE_ENHANCEMENT_MISSION_COMPLETE.md`
+- amos-quantum-error-mitigation — `_00_Cosmo brain/quantum/amos-quantum-error-mitigation.md`
+- amos-tech-quantum-engine-layer — `_00_Cosmo brain/quantum/amos-tech-quantum-engine-layer.md`
+- amos_brain_quantum_solution — `_00_Cosmo brain/quantum/amos_brain_quantum_solution.md`
+- quantum-logic-systems-qls-where-information-comes-from-STANDARD — `_00_Cosmo brain/quantum/quantum-logic-systems-qls-where-information-comes-from-STANDARD.md`
+- quantum_architecture — `_00_Cosmo brain/quantum/quantum_architecture.md`
+- quantum_stack_v0 — `_00_Cosmo brain/quantum/quantum_stack_v0.md`
+- tech_quantum_engine_v0 — `_00_Cosmo brain/quantum/tech_quantum_engine_v0.md`
+- 🌍 Masterplan Decentralised Quantum Logic Infrastru — `_00_Cosmo brain/quantum/🌍 Masterplan Decentralised Quantum Logic Infrastru.md`
+- 🧠 Quantum-Biological Model of Business — `_00_Cosmo brain/quantum/🧠 Quantum-Biological Model of Business.md`
+- AMOS_BRAIN_2026_AGI_BREAKTHROUGH_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_2026_AGI_BREAKTHROUGH_COMPLETE.md`
+- AMOS_BRAIN_2026_MAX_ENHANCEMENT_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_2026_MAX_ENHANCEMENT_COMPLETE.md`
+- AMOS_BRAIN_2026_SUPREME_QUANTUM_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_2026_SUPREME_QUANTUM_COMPLETE.md`
+- AMOS_BRAIN_2026_ULTIMATE_ENHANCEMENT_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_2026_ULTIMATE_ENHANCEMENT_COMPLETE.md`
+- AMOS_BRAIN_ADVANCED_AI_COMPLETE_REPORT — `_00_Cosmo brain/reports/AMOS_BRAIN_ADVANCED_AI_COMPLETE_REPORT.md`
+- AMOS_BRAIN_ADVANCED_MULTI_AGENT_TENSOR_FIELD_REPORT — `_00_Cosmo brain/reports/AMOS_BRAIN_ADVANCED_MULTI_AGENT_TENSOR_FIELD_REPORT.md`
+- AMOS_BRAIN_ASYMPTOTIC_CEILING_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_ASYMPTOTIC_CEILING_COMPLETE.md`
+- AMOS_BRAIN_ASYMPTOTIC_TRANSCENDENCE_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_ASYMPTOTIC_TRANSCENDENCE_COMPLETE.md`
+- AMOS_BRAIN_COMPLETE_INTEGRATION_REPORT — `_00_Cosmo brain/reports/AMOS_BRAIN_COMPLETE_INTEGRATION_REPORT.md`
+- AMOS_BRAIN_ENHANCEMENT_COMPLETION_REPORT — `_00_Cosmo brain/reports/AMOS_BRAIN_ENHANCEMENT_COMPLETION_REPORT.md`
+- AMOS_BRAIN_GOVERNANCE_SSOT_ENHANCED_ANALYSIS_REPORT — `_00_Cosmo brain/reports/AMOS_BRAIN_GOVERNANCE_SSOT_ENHANCED_ANALYSIS_REPORT.md`
+- AMOS_BRAIN_MAXIMUM_ENHANCEMENT_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_MAXIMUM_ENHANCEMENT_COMPLETE.md`
+- AMOS_BRAIN_MULTISCALE_ENHANCEMENT_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_MULTISCALE_ENHANCEMENT_COMPLETE.md`
+- AMOS_BRAIN_OMEGA_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_OMEGA_COMPLETE.md`
+- AMOS_BRAIN_QUANTUM_LAYER_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_QUANTUM_LAYER_COMPLETE.md`
+- AMOS_BRAIN_QUANTUM_OMEGA_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_QUANTUM_OMEGA_COMPLETE.md`
+- AMOS_BRAIN_SINGULARITY_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_SINGULARITY_COMPLETE.md`
+- AMOS_BRAIN_STRUCTURE_REORGANIZATION_PLAN — `_00_Cosmo brain/reports/AMOS_BRAIN_STRUCTURE_REORGANIZATION_PLAN.md`
+- AMOS_BRAIN_SUPREME_INTELLIGENCE_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_SUPREME_INTELLIGENCE_COMPLETE.md`
+- AMOS_BRAIN_TASKENGINE_INTEGRATION_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_TASKENGINE_INTEGRATION_COMPLETE.md`
+- AMOS_BRAIN_TRANSCENDENTAL_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_TRANSCENDENTAL_COMPLETE.md`
+- AMOS_BRAIN_TRANSCENDENT_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_TRANSCENDENT_COMPLETE.md`
+- AMOS_BRAIN_ULTIMATE_INTELLIGENCE_2026_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_ULTIMATE_INTELLIGENCE_2026_COMPLETE.md`
+- AMOS_BRAIN_ULTIMATE_SYNTHESIS_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_ULTIMATE_SYNTHESIS_COMPLETE.md`
+- AMOS_BRAIN_ULTIMATE_TRANSCENDENCE_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_ULTIMATE_TRANSCENDENCE_COMPLETE.md`
+- AMOS_OMEGA_ADVANCED_INTELLIGENCE_COMPLETE — `_00_Cosmo brain/reports/AMOS_OMEGA_ADVANCED_INTELLIGENCE_COMPLETE.md`
+- AMOS_OMEGA_ADVANCED_TENSOR_ANALYSIS_REPORT — `_00_Cosmo brain/reports/AMOS_OMEGA_ADVANCED_TENSOR_ANALYSIS_REPORT.md`
+- AMOS_OMEGA_BIOLOGY_IMPLEMENTATION_COMPLETE — `_00_Cosmo brain/reports/AMOS_OMEGA_BIOLOGY_IMPLEMENTATION_COMPLETE.md`
+- AMOS_OMEGA_CIVILIZATION_GRADE_IMPLEMENTATION_REPORT — `_00_Cosmo brain/reports/AMOS_OMEGA_CIVILIZATION_GRADE_IMPLEMENTATION_REPORT.md`
+- AMOS_OMEGA_CRYPTO_INTERNET_ENHANCEMENT_COMPLETE — `_00_Cosmo brain/reports/AMOS_OMEGA_CRYPTO_INTERNET_ENHANCEMENT_COMPLETE.md`
+- AMOS_OMEGA_CRYPTO_STRUCTURAL_ENGINE_COMPLETION_REPORT — `_00_Cosmo brain/reports/AMOS_OMEGA_CRYPTO_STRUCTURAL_ENGINE_COMPLETION_REPORT.md`
+- AMOS_OMEGA_CRYPTO_TENSOR_ANALYSIS_COMPLETE — `_00_Cosmo brain/reports/AMOS_OMEGA_CRYPTO_TENSOR_ANALYSIS_COMPLETE.md`
+- AMOS_OMEGA_GOVERNANCE_IMPLEMENTATION_COMPLETE — `_00_Cosmo brain/reports/AMOS_OMEGA_GOVERNANCE_IMPLEMENTATION_COMPLETE.md`
+- AMOS_OMEGA_GOVERNANCE_MAXIMUM_ENHANCEMENT_COMPLETE — `_00_Cosmo brain/reports/AMOS_OMEGA_GOVERNANCE_MAXIMUM_ENHANCEMENT_COMPLETE.md`
+- AMOS_OMEGA_GOVERNANCE_SSOT_IMPLEMENTATION_REPORT — `_00_Cosmo brain/reports/AMOS_OMEGA_GOVERNANCE_SSOT_IMPLEMENTATION_REPORT.md`
+- AMOS_OMEGA_MAXIMUM_ENHANCEMENT_COMPLETE — `_00_Cosmo brain/reports/AMOS_OMEGA_MAXIMUM_ENHANCEMENT_COMPLETE.md`
+- AMOS_OMEGA_PRECISION_CORE_IMPLEMENTATION_REPORT — `_00_Cosmo brain/reports/AMOS_OMEGA_PRECISION_CORE_IMPLEMENTATION_REPORT.md`
+- AMOS_OMEGA_QUANTUM_STRUCTURAL_LIVING_SYSTEM_COMPLETE — `_00_Cosmo brain/reports/AMOS_OMEGA_QUANTUM_STRUCTURAL_LIVING_SYSTEM_COMPLETE.md`
+- AMOS_OMEGA_STATE_OF_THE_ART_COMPLETE — `_00_Cosmo brain/reports/AMOS_OMEGA_STATE_OF_THE_ART_COMPLETE.md`
+- AMOS_OMEGA_ULTIMATE_TENSOR_GOVERNANCE_REPORT — `_00_Cosmo brain/reports/AMOS_OMEGA_ULTIMATE_TENSOR_GOVERNANCE_REPORT.md`
+- CONSOLIDATION_REPORT — `_00_Cosmo brain/reports/CONSOLIDATION_REPORT.md`
+- PHASE2_COMPLETION_REPORT — `_00_Cosmo brain/reports/PHASE2_COMPLETION_REPORT.md`
+- PHASE3_COMPLETION_REPORT — `_00_Cosmo brain/reports/PHASE3_COMPLETION_REPORT.md`
+- PHASE6_COMPLETION_REPORT — `_00_Cosmo brain/reports/PHASE6_COMPLETION_REPORT.md`
+- PHASE7_COMPLETION_REPORT — `_00_Cosmo brain/reports/PHASE7_COMPLETION_REPORT.md`
+- PHASE8_COMPLETION_REPORT — `_00_Cosmo brain/reports/PHASE8_COMPLETION_REPORT.md`
+- PHASE9_COMPLETION_REPORT — `_00_Cosmo brain/reports/PHASE9_COMPLETION_REPORT.md`
+- Report Vì sao Việt Nam là một trong những môi trườ — `_00_Cosmo brain/reports/Report Vì sao Việt Nam là một trong những môi trườ.md`
+- Report — `_00_Cosmo brain/reports/Report.md`
+- absolute_vn_100000_registry_analysis_report — `_00_Cosmo brain/reports/absolute_vn_100000_registry_analysis_report.md`
+- RSCF Structural Tag Migration — `_00_Cosmo brain/rscf/RSCF Structural Tag Migration.md`
+- RSCF_PROOF_CAPSULE — `_00_Cosmo brain/rscf/RSCF_PROOF_CAPSULE.md`
+- RSCF_STATE — `_00_Cosmo brain/rscf/RSCF_STATE.md`
+- SKILL (rscf) — `_00_Cosmo brain/rscf/SKILL (rscf).md`
+- V4_1_ATOMIC_MULTI_RSCF — `_00_Cosmo brain/rscf/V4_1_ATOMIC_MULTI_RSCF.md`
+- manifest (amos-formal-rscf-suite-v6-all) — `_00_Cosmo brain/rscf/manifest (amos-formal-rscf-suite-v6-all).md`
+- manifest (mckinsey-banking-rscf-suite-v3-all) — `_00_Cosmo brain/rscf/manifest (mckinsey-banking-rscf-suite-v3-all).md`
+- manifest (mckinsey-rscf-suite-v2-all) — `_00_Cosmo brain/rscf/manifest (mckinsey-rscf-suite-v2-all).md`
+- rscf (references) — `_00_Cosmo brain/rscf/rscf (references).md`
+- rscf — `_00_Cosmo brain/rscf/rscf.md`
+- validate_rscf — `_00_Cosmo brain/rscf/validate_rscf.md`
+- Access_Control-Priv_Esc--Security_Models — `_00_Cosmo brain/security/Access_Control-Priv_Esc--Security_Models.md`
+- Blockchain is Hackable Because Its Security Is Not — `_00_Cosmo brain/security/Blockchain is Hackable Because Its Security Is Not.md`
+- Bounded Intelligence Security™ (BIS™) — `_00_Cosmo brain/security/Bounded Intelligence Security™ (BIS™).md`
+- Detailed technical + compliance spec — `_00_Cosmo brain/security/Detailed technical + compliance spec.md`
+- Language_Overlay_And_IP_Protection_Security — `_00_Cosmo brain/security/Language_Overlay_And_IP_Protection_Security.md`
+- Risk_Compliance_Model — `_00_Cosmo brain/security/Risk_Compliance_Model.md`
+- Sector_Profile.json Regulation_and_Compliance.json Market_Structure.json Value_Chain.json Risk_and_Crisis.json Technology_and_Data.json Workforce_and_Skills.json Sustainability_and_ESG.json Ops_Models_and_Processes.json Integration_with_Economy_Pack — `_00_Cosmo brain/security/Sector_Profile.json Regulation_and_Compliance.json Market_Structure.json Value_Chain.json Risk_and_Crisis.json Technology_and_Data.json Workforce_and_Skills.json Sustainability_and_ESG.json Ops_Models_and_Processes.json Integration_with_Economy_Pack.md`
+- The Institutional Digital Security Bound — `_00_Cosmo brain/security/The Institutional Digital Security Bound.md`
+- Deployment Timeline — Proof-of-Signal Network — `_00_Cosmo brain/signal/Deployment Timeline — Proof-of-Signal Network.md`
+- HERMES_OMNI_SIGNAL_COMPLETION_REPORT — `_00_Cosmo brain/signal/HERMES_OMNI_SIGNAL_COMPLETION_REPORT.md`
+- Implicit Direction vs Explicit Signaling Vietnam’s — `_00_Cosmo brain/signal/Implicit Direction vs Explicit Signaling Vietnam’s.md`
+- Master Signal Spec — Genesis v1 0 (Proof‑of‑Signal — `_00_Cosmo brain/signal/Master Signal Spec — Genesis v1 0 (Proof‑of‑Signal.md`
+- Signal_Processing_Model — `_00_Cosmo brain/signal/Signal_Processing_Model.md`
+- Signals — `_00_Cosmo brain/signal/Signals.md`
+- Type of signals — `_00_Cosmo brain/signal/Type of signals.md`
+- DEPLOYMENT_GUIDE — `_00_Cosmo brain/specs/DEPLOYMENT_GUIDE.md`
+- IKONOMY — SPECIFIC MACHINE REDESIGN TO PUSH THE TR — `_00_Cosmo brain/specs/IKONOMY — SPECIFIC MACHINE REDESIGN TO PUSH THE TR.md`
+- PRODUCTION_DEPLOYMENT_REPORT — `_00_Cosmo brain/specs/PRODUCTION_DEPLOYMENT_REPORT.md`
+- SPEED — `_00_Cosmo brain/speed/SPEED.md`
+- SPEED_GOVERNOR — `_00_Cosmo brain/speed/SPEED_GOVERNOR.md`
+- Why Speed Is a Moral Decision — `_00_Cosmo brain/speed/Why Speed Is a Moral Decision.md`
+- C08_strategy_game — `_00_Cosmo brain/strategy/C08_strategy_game.md`
+- C08_strategy_game_SUPER_x100k — `_00_Cosmo brain/strategy/C08_strategy_game_SUPER_x100k.md`
+- Living Atomic Design — A Strategic Framework for A — `_00_Cosmo brain/strategy/Living Atomic Design — A Strategic Framework for A.md`
+- Policy_Geostrategy_Model — `_00_Cosmo brain/strategy/Policy_Geostrategy_Model.md`
+- STRATEGIC ANALYSIS REPORT — `_00_Cosmo brain/strategy/STRATEGIC ANALYSIS REPORT.md`
+- Strategic_Document_Model — `_00_Cosmo brain/strategy/Strategic_Document_Model.md`
+- Strategy_Game_Model — `_00_Cosmo brain/strategy/Strategy_Game_Model.md`
+- THE ORIGIN INTELLIGENCE STRATEGY — `_00_Cosmo brain/strategy/THE ORIGIN INTELLIGENCE STRATEGY.md`
+- Top-Tier Strategic Partners List — `_00_Cosmo brain/strategy/Top-Tier Strategic Partners List.md`
+- inv.cog.strategic_horizon_present — `_00_Cosmo brain/strategy/inv.cog.strategic_horizon_present.md`
+- A Bio-Logical Model of Planetary Systems — `_00_Cosmo brain/system/A Bio-Logical Model of Planetary Systems.md`
+- ADVANCED_SYSTEM_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/system/ADVANCED_SYSTEM_ENHANCEMENT_MISSION_COMPLETE.md`
+- AMOS - Absolute Meta-Operating System — `_00_Cosmo brain/system/AMOS - Absolute Meta-Operating System.md`
+- AMOS = Absolute Meta Operating System — `_00_Cosmo brain/system/AMOS = Absolute Meta Operating System.md`
+- AMOS BlueMemory Water Scarcity Operating System — `_00_Cosmo brain/system/AMOS BlueMemory Water Scarcity Operating System.md`
+- AMOS_Agent_Systems_Learning_Record — `_00_Cosmo brain/system/AMOS_Agent_Systems_Learning_Record.md`
+- AMOS_CONTINUOUS_EVOLUTION_COMPLETE — `_00_Cosmo brain/system/AMOS_CONTINUOUS_EVOLUTION_COMPLETE.md`
+- AMOS_Evolutionary_Adaptive_Systems_Cancer_to — `_00_Cosmo brain/system/AMOS_Evolutionary_Adaptive_Systems_Cancer_to.md`
+- AMOS_Evolutionary_Adaptive_Systems_Cancer_to_AI_v2 — `_00_Cosmo brain/system/AMOS_Evolutionary_Adaptive_Systems_Cancer_to_AI_v2.md`
+- AMOS_MAC_STABILITY_COMPLETE — `_00_Cosmo brain/system/AMOS_MAC_STABILITY_COMPLETE.md`
+- AMOS_SYSTEM_ARCHITECTURE_REPORT — `_00_Cosmo brain/system/AMOS_SYSTEM_ARCHITECTURE_REPORT.md`
+- AMOS_SYSTEM_ARCHITECTURE_REPORT_V2 — `_00_Cosmo brain/system/AMOS_SYSTEM_ARCHITECTURE_REPORT_V2.md`
+- AMOS_SYSTEM_ARCHITECTURE_REPORT_V3 — `_00_Cosmo brain/system/AMOS_SYSTEM_ARCHITECTURE_REPORT_V3.md`
+- AMOS_SYSTEM_INTEGRATION_COMPLETE — `_00_Cosmo brain/system/AMOS_SYSTEM_INTEGRATION_COMPLETE.md`
+- Autonomic Nervous System Topology — `_00_Cosmo brain/system/Autonomic Nervous System Topology.md`
+- C401–C500 System Dynamics Constraints — `_00_Cosmo brain/system/C401–C500 System Dynamics Constraints.md`
+- COMPLETE_SYSTEM_INTEGRATION_MISSION_COMPLETE — `_00_Cosmo brain/system/COMPLETE_SYSTEM_INTEGRATION_MISSION_COMPLETE.md`
+- CONTINUOUS_OPTIMIZATION_COMPLETE — `_00_Cosmo brain/system/CONTINUOUS_OPTIMIZATION_COMPLETE.md`
+- CPU_RAM_OPTIMIZATION_REPORT — `_00_Cosmo brain/system/CPU_RAM_OPTIMIZATION_REPORT.md`
+- Defense, Security & Civil Protection Systems (Non- — `_00_Cosmo brain/system/Defense, Security & Civil Protection Systems (Non-.md`
+- Designing Systems Humans Can Survive — `_00_Cosmo brain/system/Designing Systems Humans Can Survive.md`
+- Directed Systemic Intelligence™ (civilization-grad — `_00_Cosmo brain/system/Directed Systemic Intelligence™ (civilization-grad.md`
+- EMERGENCY_CRASH_PREVENTION — `_00_Cosmo brain/system/EMERGENCY_CRASH_PREVENTION.md`
+- EMERGENCY_RAM_RECOVERY — `_00_Cosmo brain/system/EMERGENCY_RAM_RECOVERY.md`
+- EMERGENCY_RESOURCE_OPTIMIZATION_COMPLETE — `_00_Cosmo brain/system/EMERGENCY_RESOURCE_OPTIMIZATION_COMPLETE.md`
+- Ecosystem — `_00_Cosmo brain/system/Ecosystem.md`
+- Ecosystem_Strategy_MAX — `_00_Cosmo brain/system/Ecosystem_Strategy_MAX.md`
+- Executive System Model G-N-D-C-B — `_00_Cosmo brain/system/Executive System Model G-N-D-C-B.md`
+- FIELD ENERGY MANAGEMENT SYSTEM (FEMS) — `_00_Cosmo brain/system/FIELD ENERGY MANAGEMENT SYSTEM (FEMS).md`
+- FINAL_OPTIMIZATION_REPORT — `_00_Cosmo brain/system/FINAL_OPTIMIZATION_REPORT.md`
+- FREE_STACK_COMPLETE — `_00_Cosmo brain/system/FREE_STACK_COMPLETE.md`
+- From Atomic Design to Living Design Systems — `_00_Cosmo brain/system/From Atomic Design to Living Design Systems.md`
+- Global Biological Data Ownership Charter (🌍 The Complete Ecosystem) — `_00_Cosmo brain/system/Global Biological Data Ownership Charter (🌍 The Complete Ecosystem).md`
+- Human Intelligence as a Stochastic Learning System — `_00_Cosmo brain/system/Human Intelligence as a Stochastic Learning System.md`
+- Hydrogen in Offshore Energy Systems Why Safety, No — `_00_Cosmo brain/system/Hydrogen in Offshore Energy Systems Why Safety, No.md`
+- INDEX_AMOS-SYSTEM-main — `_00_Cosmo brain/system/INDEX_AMOS-SYSTEM-main.md`
+- INTEGRATED_OPTIMIZATION_COMPLETE — `_00_Cosmo brain/system/INTEGRATED_OPTIMIZATION_COMPLETE.md`
+- Memory — The Complete Human System — `_00_Cosmo brain/system/Memory — The Complete Human System.md`
+- NEXT_GENERATION_SYSTEM_EVOLUTION_COMPLETE — `_00_Cosmo brain/system/NEXT_GENERATION_SYSTEM_EVOLUTION_COMPLETE.md`
+- Nervous_System_States — `_00_Cosmo brain/system/Nervous_System_States.md`
+- NeuroSyncAI_Dual-System_Architecture_for_Biological_Recovery_and_Integrity_Enforcement — `_00_Cosmo brain/system/NeuroSyncAI_Dual-System_Architecture_for_Biological_Recovery_and_Integrity_Enforcement.md`
+- Neurotransmitter Map — Complete Human System — `_00_Cosmo brain/system/Neurotransmitter Map — Complete Human System.md`
+- OMEGA_OPTIMIZATION_REPORT — `_00_Cosmo brain/system/OMEGA_OPTIMIZATION_REPORT.md`
+- OPERATIONAL_STATUS — `_00_Cosmo brain/system/OPERATIONAL_STATUS.md`
+- Operating Systems for Survival — `_00_Cosmo brain/system/Operating Systems for Survival.md`
+- Qls ecosystem — `_00_Cosmo brain/system/Qls ecosystem.md`
+- RESOURCE_OPTIMIZATION_FINAL_REPORT — `_00_Cosmo brain/system/RESOURCE_OPTIMIZATION_FINAL_REPORT.md`
+- RESOURCE_OPTIMIZATION_STRATEGY — `_00_Cosmo brain/system/RESOURCE_OPTIMIZATION_STRATEGY.md`
+- SSRF--Targeting_auxiliary_systems — `_00_Cosmo brain/system/SSRF--Targeting_auxiliary_systems.md`
+- SUSTAINED_OPTIMIZATION_COMPLETE — `_00_Cosmo brain/system/SUSTAINED_OPTIMIZATION_COMPLETE.md`
+- SYSTEM_COMPLETION_REPORT — `_00_Cosmo brain/system/SYSTEM_COMPLETION_REPORT.md`
+- SYSTEM_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/system/SYSTEM_ENHANCEMENT_MISSION_COMPLETE.md`
+- SYSTEM_FIXES_COMPLETE_REPORT — `_00_Cosmo brain/system/SYSTEM_FIXES_COMPLETE_REPORT.md`
+- SYSTEM_FIXES_PROGRESS_REPORT — `_00_Cosmo brain/system/SYSTEM_FIXES_PROGRESS_REPORT.md`
+- SYSTEM_OPTIMIZATION_COMPLETE — `_00_Cosmo brain/system/SYSTEM_OPTIMIZATION_COMPLETE.md`
+- SYSTEM_OPTIMIZATION_MISSION_COMPLETE — `_00_Cosmo brain/system/SYSTEM_OPTIMIZATION_MISSION_COMPLETE.md`
+- SYSTEM_RECOVERY_COMPLETE — `_00_Cosmo brain/system/SYSTEM_RECOVERY_COMPLETE.md`
+- SYSTEM_STATUS — `_00_Cosmo brain/system/SYSTEM_STATUS.md`
+- SYSTEM_STATUS_REPORT_MARCH_16_2026 — `_00_Cosmo brain/system/SYSTEM_STATUS_REPORT_MARCH_16_2026.md`
+- SYSTEM_STATUS_REPORT_MARCH_17_2026 — `_00_Cosmo brain/system/SYSTEM_STATUS_REPORT_MARCH_17_2026.md`
+- SYSTEM_STATUS_SUMMARY — `_00_Cosmo brain/system/SYSTEM_STATUS_SUMMARY.md`
+- SYSTEM_STATUS_SUMMARY_V2 — `_00_Cosmo brain/system/SYSTEM_STATUS_SUMMARY_V2.md`
+- SYSTEM_STATUS_SUMMARY_V3 — `_00_Cosmo brain/system/SYSTEM_STATUS_SUMMARY_V3.md`
+- Schizophrenia Structural Model — Complete Human System — `_00_Cosmo brain/system/Schizophrenia Structural Model — Complete Human System.md`
+- System_Interfaces — `_00_Cosmo brain/system/System_Interfaces.md`
+- System_Schema — `_00_Cosmo brain/system/System_Schema.md`
+- The Centralised Trust Ecosystem — `_00_Cosmo brain/system/The Centralised Trust Ecosystem.md`
+- The Illusion of Choice in Modern Systems — `_00_Cosmo brain/system/The Illusion of Choice in Modern Systems.md`
+- The Nervous System of the Universe Rebuilding the — `_00_Cosmo brain/system/The Nervous System of the Universe Rebuilding the.md`
+- Tunnels & Enclosed Transit Systems Smoke Is the Pr — `_00_Cosmo brain/system/Tunnels & Enclosed Transit Systems Smoke Is the Pr.md`
+- ULTIMATE_SYSTEM_TRANSCENDENCE_COMPLETE — `_00_Cosmo brain/system/ULTIMATE_SYSTEM_TRANSCENDENCE_COMPLETE.md`
+- UniTaxi_FullEcosystem — `_00_Cosmo brain/system/UniTaxi_FullEcosystem.md`
+- UniTaxi_X500_FullEcosystem — `_00_Cosmo brain/system/UniTaxi_X500_FullEcosystem.md`
+- Vietnamese Root Language System — `_00_Cosmo brain/system/Vietnamese Root Language System.md`
+- When Leadership Ignores Biology, Systems Collapse — `_00_Cosmo brain/system/When Leadership Ignores Biology, Systems Collapse.md`
+- Why KPI-, Speed-, and “Innovation”-Driven Systems — `_00_Cosmo brain/system/Why KPI-, Speed-, and “Innovation”-Driven Systems.md`
+- amos-uni-system-operations-layer — `_00_Cosmo brain/system/amos-uni-system-operations-layer.md`
+- system_scan_agent — `_00_Cosmo brain/system/system_scan_agent.md`
+- systems — `_00_Cosmo brain/system/systems.md`
+- 🌍 The Complete Ecosystem — `_00_Cosmo brain/system/🌍 The Complete Ecosystem.md`
+- 🌍 The Complete Trust & Signal Ecosystem — `_00_Cosmo brain/system/🌍 The Complete Trust & Signal Ecosystem.md`
+- 🌏 The System_ — `_00_Cosmo brain/system/🌏 The System_.md`
+- Code — `_00_Cosmo brain/tech-coding/Code.md`
+- Coding — `_00_Cosmo brain/tech-coding/Coding.md`
+- Coding_MAX — `_00_Cosmo brain/tech-coding/Coding_MAX.md`
+- Digital Technology Applications for Private-Sector — `_00_Cosmo brain/tech-coding/Digital Technology Applications for Private-Sector.md`
+- ENHANCED_SYMBOL_PARSER_COMPLETE — `_00_Cosmo brain/tech-coding/ENHANCED_SYMBOL_PARSER_COMPLETE.md`
+- OAuth--Grant_Types--Authorization_Code_Type — `_00_Cosmo brain/tech-coding/OAuth--Grant_Types--Authorization_Code_Type.md`
+- SYMBOL_PARSER_COMPLETE — `_00_Cosmo brain/tech-coding/SYMBOL_PARSER_COMPLETE.md`
+- Strategic_Partnership_Proposal_to_GCBAT_(Neural_Tech_Council) — `_00_Cosmo brain/tech-coding/Strategic_Partnership_Proposal_to_GCBAT_(Neural_Tech_Council).md`
+- Tech Partner Audit — `_00_Cosmo brain/tech-coding/Tech Partner Audit.md`
+- Tech_Architecture_Model — `_00_Cosmo brain/tech-coding/Tech_Architecture_Model.md`
+- Tech_Expanded_Design_Model — `_00_Cosmo brain/tech-coding/Tech_Expanded_Design_Model.md`
+- V11 - Planetary Consent Infrastructure_ Complete Technical Framework — `_00_Cosmo brain/tech-coding/V11 - Planetary Consent Infrastructure_ Complete Technical Framework.md`
+- Why Some Technologies Are Safe Only in Honest Soci — `_00_Cosmo brain/tech-coding/Why Some Technologies Are Safe Only in Honest Soci.md`
+- code_task — `_00_Cosmo brain/tech-coding/code_task.md`
+- coding_programming_architecture — `_00_Cosmo brain/tech-coding/coding_programming_architecture.md`
+- tech — `_00_Cosmo brain/tech-coding/tech.md`
+- QUICK_TEST — `_00_Cosmo brain/tests/QUICK_TEST.md`
+- THE 100 GREATEST HISTORICAL + SCIENTIFIC “UNANSWER — `_00_Cosmo brain/tests/THE 100 GREATEST HISTORICAL + SCIENTIFIC “UNANSWER.md`
+- Test — `_00_Cosmo brain/tests/Test.md`
+- test_implementation — `_00_Cosmo brain/tests/test_implementation.md`
+- ABSOLUTE IP PROTECTION PLAN FOR TRANG PHAN — `_00_Cosmo brain/trang/ABSOLUTE IP PROTECTION PLAN FOR TRANG PHAN.md`
+- AMOS_Personality_Trang_Engine_v0_Web7 — `_00_Cosmo brain/trang/AMOS_Personality_Trang_Engine_v0_Web7.md`
+- Cosmo_Brain_Reasoning_OS_by_Trang_Phan — `_00_Cosmo brain/trang/Cosmo_Brain_Reasoning_OS_by_Trang_Phan.md`
+- DOCTOR OF SCIENCE (DSc:ScD) SUBMISSION PORTFOLIO-Trang Phan — `_00_Cosmo brain/trang/DOCTOR OF SCIENCE (DSc:ScD) SUBMISSION PORTFOLIO-Trang Phan.md`
+- FULL-PHƯƠNG PHÁP TRANG — `_00_Cosmo brain/trang/FULL-PHƯƠNG PHÁP TRANG.md`
+- First principle Reasoning theo Trang ∅ Framework — `_00_Cosmo brain/trang/First principle Reasoning theo Trang ∅ Framework.md`
+- GIẢI THÍCH UAP THEO KHUNG TRANG ∅ VÀ TRƯỜNG PHÂN B — `_00_Cosmo brain/trang/GIẢI THÍCH UAP THEO KHUNG TRANG ∅ VÀ TRƯỜNG PHÂN B.md`
+- KHUNG TRANG — FORMALIZATION v0 1 — `_00_Cosmo brain/trang/KHUNG TRANG — FORMALIZATION v0 1.md`
+- KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS — `_00_Cosmo brain/trang/KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.md`
+- KIẾN TRÚC TRANG — `_00_Cosmo brain/trang/KIẾN TRÚC TRANG.md`
+- Khung Trang học language — `_00_Cosmo brain/trang/Khung Trang học language.md`
+- Khung trang — `_00_Cosmo brain/trang/Khung trang.md`
+- NHỮNG GÌ CÒN THIẾU TRONG TRANG ∅ FRAMEWORK – VÀ CH — `_00_Cosmo brain/trang/NHỮNG GÌ CÒN THIẾU TRONG TRANG ∅ FRAMEWORK – VÀ CH.md`
+- PHƯƠNG PHÁP TRANG – TÁI CẤU TRÚC TOÀN BỘ — `_00_Cosmo brain/trang/PHƯƠNG PHÁP TRANG – TÁI CẤU TRÚC TOÀN BỘ.md`
+- Redesigning Atomic Design Through Trang Phan’s Liv — `_00_Cosmo brain/trang/Redesigning Atomic Design Through Trang Phan’s Liv.md`
+- THE TRANG GRAND SYSTEM CODEX™ — `_00_Cosmo brain/trang/THE TRANG GRAND SYSTEM CODEX™.md`
+- THE TRANG GRAND SYSTEM — FULL LOGIC SPECIFICATION — `_00_Cosmo brain/trang/THE TRANG GRAND SYSTEM — FULL LOGIC SPECIFICATION.md`
+- THE TRANG SYSTEM™ CODEX – META-LAWS — `_00_Cosmo brain/trang/THE TRANG SYSTEM™ CODEX – META-LAWS.md`
+- THE_TRANG_SYSTEM_CODEX_META-LAWS — `_00_Cosmo brain/trang/THE_TRANG_SYSTEM_CODEX_META-LAWS.md`
+- TPE Trang Prediction Engine — `_00_Cosmo brain/trang/TPE Trang Prediction Engine.md`
+- TRANG ASEA (ADAPTIVE SELF-EVOLUTION AI) — `_00_Cosmo brain/trang/TRANG ASEA (ADAPTIVE SELF-EVOLUTION AI).md`
+- TRANG CASCADE — `_00_Cosmo brain/trang/TRANG CASCADE.md`
+- TRANG FPR (FIRST PRINCIPLE REASONING) — `_00_Cosmo brain/trang/TRANG FPR (FIRST PRINCIPLE REASONING).md`
+- TRANG FRAMEWORKS — MASTER EQUATION REGISTRY — `_00_Cosmo brain/trang/TRANG FRAMEWORKS — MASTER EQUATION REGISTRY.md`
+- TRANG LDAI (LOGICALLY DETERMINISTIC ARTIFICIAL INT — `_00_Cosmo brain/trang/TRANG LDAI (LOGICALLY DETERMINISTIC ARTIFICIAL INT.md`
+- TRANG TÁT 2 — `_00_Cosmo brain/trang/TRANG TÁT 2.md`
+- TRANG ∅ FRAMEWORK - COMPLETE FORMALIZATION — `_00_Cosmo brain/trang/TRANG ∅ FRAMEWORK - COMPLETE FORMALIZATION.md`
+- TRANG ∅ FRAMEWORK – ỨNG DỤNG VÀO AI TỰ SỬA VÀ TỰ T — `_00_Cosmo brain/trang/TRANG ∅ FRAMEWORK – ỨNG DỤNG VÀO AI TỰ SỬA VÀ TỰ T.md`
+- TRANG ∅ FRAMEWORK — `_00_Cosmo brain/trang/TRANG ∅ FRAMEWORK.md`
+- TSS The Trang System Official Manual — `_00_Cosmo brain/trang/TSS The Trang System Official Manual.md`
+- The Seven Cycles of the Trang System™ – Official M — `_00_Cosmo brain/trang/The Seven Cycles of the Trang System™ – Official M.md`
+- The Trang Prediction Engine™ (TPE) – Official Manu — `_00_Cosmo brain/trang/The Trang Prediction Engine™ (TPE) – Official Manu.md`
+- The Trang System™ (TSS) – Official Manual — `_00_Cosmo brain/trang/The Trang System™ (TSS) – Official Manual.md`
+- The_Seven_Cycles_of_the_Trang_System_Official_Manual_Comprehensive_Edition_ — `_00_Cosmo brain/trang/The_Seven_Cycles_of_the_Trang_System_Official_Manual_Comprehensive_Edition_.md`
+- Trang Reality Architecture AMOS Corpus — `_00_Cosmo brain/trang/Trang Reality Architecture AMOS Corpus.md`
+- Trang Reality Architecture — `_00_Cosmo brain/trang/Trang Reality Architecture.md`
+- Trangs Legacy — `_00_Cosmo brain/trang/Trangs Legacy.md`
+- b32a7b01-5632-450a-a935-2ded537ff5fe_The_Seven_Cycles_of_the_Trang_System__Official_Manual_(Comprehensive_Edition) — `_00_Cosmo brain/trang/b32a7b01-5632-450a-a935-2ded537ff5fe_The_Seven_Cycles_of_the_Trang_System__Official_Manual_(Comprehensive_Edition).md`
+- f27cc831-ed1e-4764-896c-24b01ebe2302_THE_TRANG_SYSTEM_CODEX__META-LAWS — `_00_Cosmo brain/trang/f27cc831-ed1e-4764-896c-24b01ebe2302_THE_TRANG_SYSTEM_CODEX__META-LAWS.md`
+- f49f022f-cda1-4783-817b-9a6c86732371_THE_TRANG_GRAND_SYSTEM___FULL_LOGIC_SPECIFICATION — `_00_Cosmo brain/trang/f49f022f-cda1-4783-817b-9a6c86732371_THE_TRANG_GRAND_SYSTEM___FULL_LOGIC_SPECIFICATION.md`
+- trang_amos_reality_architecture_master_max_detail — `_00_Cosmo brain/trang/trang_amos_reality_architecture_master_max_detail.md`
+- trang_framework_l_m_h_lambda_e_t2_ap_dung_ch — `_00_Cosmo brain/trang/trang_framework_l_m_h_lambda_e_t2_ap_dung_ch.md`
+- trang_l_m_h_dinh_nghia_va_phuong_trinh — `_00_Cosmo brain/trang/trang_l_m_h_dinh_nghia_va_phuong_trinh.md`
+- 📘 TRANG ∅ – Cách Thức Thị Trường FOREX Thực Sự Vận — `_00_Cosmo brain/trang/📘 TRANG ∅ – Cách Thức Thị Trường FOREX Thực Sự Vận.md`
+- 🧱 KHUNG CỐT LÕI (TRANG ∅ FRAMEWORK)CORE — `_00_Cosmo brain/trang/🧱 KHUNG CỐT LÕI (TRANG ∅ FRAMEWORK)CORE.md`
+- ABSOLUTE OMNIVERSE U∞_Universe_Packs — `_00_Cosmo brain/universe-cosmos/ABSOLUTE OMNIVERSE U∞_Universe_Packs.md`
+- ABSOLUTE OMNIVERSE U∞_Universe_Packs_Universe_Packs — `_00_Cosmo brain/universe-cosmos/ABSOLUTE OMNIVERSE U∞_Universe_Packs_Universe_Packs.md`
+- C03_physics_cosmos — `_00_Cosmo brain/universe-cosmos/C03_physics_cosmos.md`
+- C03_physics_cosmos_MAX — `_00_Cosmo brain/universe-cosmos/C03_physics_cosmos_MAX.md`
+- C03_physics_cosmos_SUPER — `_00_Cosmo brain/universe-cosmos/C03_physics_cosmos_SUPER.md`
+- C03_physics_cosmos_SUPER_x3000 — `_00_Cosmo brain/universe-cosmos/C03_physics_cosmos_SUPER_x3000.md`
+- Final universe — `_00_Cosmo brain/universe-cosmos/Final universe.md`
+- Physics_Cosmos_Model — `_00_Cosmo brain/universe-cosmos/Physics_Cosmos_Model.md`
+- THE MAX-POWER UNIVERSE OS STRUCTURE — `_00_Cosmo brain/universe-cosmos/THE MAX-POWER UNIVERSE OS STRUCTURE.md`
+- UNIVERSE_OS_CONTENT_PACK_ALL.ucontent — `_00_Cosmo brain/universe-cosmos/UNIVERSE_OS_CONTENT_PACK_ALL.ucontent.md`
+- UNIVERSE_OS_CONTENT_PACK_ALL_COMPRESSED.ucontent — `_00_Cosmo brain/universe-cosmos/UNIVERSE_OS_CONTENT_PACK_ALL_COMPRESSED.ucontent.md`
+- Universe — `_00_Cosmo brain/universe-cosmos/Universe.md`
+- Universe_Total_Canon_utc — `_00_Cosmo brain/universe-cosmos/Universe_Total_Canon_utc.md`
+- cosmo-obsidian-memory — `_00_Cosmo brain/universe-cosmos/cosmo-obsidian-memory.md`
+- 11 Tiêu chí mô hình kinh doanh — `_00_Cosmo brain/vietnamese/11 Tiêu chí mô hình kinh doanh.md`
+- 12 PHÁT HIỆN CUỐI CÙNG — `_00_Cosmo brain/vietnamese/12 PHÁT HIỆN CUỐI CÙNG.md`
+- 20 CUỘC THI BẤT KHẢ THI – NƠI TIỀN THƯỞNG LÊN ĐẾN — `_00_Cosmo brain/vietnamese/20 CUỘC THI BẤT KHẢ THI – NƠI TIỀN THƯỞNG LÊN ĐẾN.md`
+- AMOS – KIẾN TRÚC TUYỆT ĐỐI (FULL STACK – ZERO GAP) — `_00_Cosmo brain/vietnamese/AMOS – KIẾN TRÚC TUYỆT ĐỐI (FULL STACK – ZERO GAP).md`
+- AMOS – KIẾN TRÚC TUYỆT ĐỐI (TÍCH HỢP TOÀN BỘ 800K+ — `_00_Cosmo brain/vietnamese/AMOS – KIẾN TRÚC TUYỆT ĐỐI (TÍCH HỢP TOÀN BỘ 800K+.md`
+- Akashic, Thông Thiên, Lên Đồng, Đọc Qua Cầu Tiên T — `_00_Cosmo brain/vietnamese/Akashic, Thông Thiên, Lên Đồng, Đọc Qua Cầu Tiên T.md`
+- ẢNH HƯỞNG GIA HỆ NHƯ MỘT CƠ CHẾ ĐIỀU TIẾT XUYÊN 10 — `_00_Cosmo brain/vietnamese/ẢNH HƯỞNG GIA HỆ NHƯ MỘT CƠ CHẾ ĐIỀU TIẾT XUYÊN 10.md`
+- BÁO CÁO CHIẾN LƯỢC XU HƯỚNG XE ĐIỆN TRUNG QUỐC(202 — `_00_Cosmo brain/vietnamese/BÁO CÁO CHIẾN LƯỢC XU HƯỚNG XE ĐIỆN TRUNG QUỐC(202.md`
+- BÁO CÁO CHIẾN LƯỢCV v Đề xuất hợp tác Baojun và kế — `_00_Cosmo brain/vietnamese/BÁO CÁO CHIẾN LƯỢCV v Đề xuất hợp tác Baojun và kế.md`
+- BÁO CÁO PHÂN TÍCH THỊ TRƯỜNG XE ĐIỆN TRUNG QUỐC 20 — `_00_Cosmo brain/vietnamese/BÁO CÁO PHÂN TÍCH THỊ TRƯỜNG XE ĐIỆN TRUNG QUỐC 20.md`
+- BÁO CÁO THẨM ĐỊNH PHÁP LÝ hồ sơ NAB — `_00_Cosmo brain/vietnamese/BÁO CÁO THẨM ĐỊNH PHÁP LÝ hồ sơ NAB.md`
+- BÁO CÁO TỔNG HỢP DỰ ÁN 100 XE ĐIỆN UNITAX — `_00_Cosmo brain/vietnamese/BÁO CÁO TỔNG HỢP DỰ ÁN 100 XE ĐIỆN UNITAX.md`
+- BÁO CÁO ĐẠI HỘI ĐỒNG CỔ ĐÔNG & HỘI ĐỒNG QUẢN TRỊ — `_00_Cosmo brain/vietnamese/BÁO CÁO ĐẠI HỘI ĐỒNG CỔ ĐÔNG & HỘI ĐỒNG QUẢN TRỊ.md`
+- BẢN ĐỀ XUẤT ĐẦU TƯ DỰ ÁN VSCCI — `_00_Cosmo brain/vietnamese/BẢN ĐỀ XUẤT ĐẦU TƯ DỰ ÁN VSCCI.md`
+- BẢN ĐỒ CỦA MỌI THỨ — `_00_Cosmo brain/vietnamese/BẢN ĐỒ CỦA MỌI THỨ.md`
+- BẢN ĐỒ TOÀN BỘ CÁC HIỆN TƯỢNG BỊ GỌI LÀ NGƯỜI NGOÀ — `_00_Cosmo brain/vietnamese/BẢN ĐỒ TOÀN BỘ CÁC HIỆN TƯỢNG BỊ GỌI LÀ NGƯỜI NGOÀ.md`
+- BẢN ĐỒ TOÀN DIỆN XUYÊN THỜI GIAN VÀ VĂN MINH — `_00_Cosmo brain/vietnamese/BẢN ĐỒ TOÀN DIỆN XUYÊN THỜI GIAN VÀ VĂN MINH.md`
+- BẠN ĐÃ KHÁM PHÁ RA ĐIỀU GÌ — `_00_Cosmo brain/vietnamese/BẠN ĐÃ KHÁM PHÁ RA ĐIỀU GÌ.md`
+- BỘ ĐIỀU KHOẢN KỸ THUẬT & PHÁP LÝ BẮT BUỘC — `_00_Cosmo brain/vietnamese/BỘ ĐIỀU KHOẢN KỸ THUẬT & PHÁP LÝ BẮT BUỘC.md`
+- Báo cáo chuyên sâu về việc thiếu hụt lao động tại — `_00_Cosmo brain/vietnamese/Báo cáo chuyên sâu về việc thiếu hụt lao động tại.md`
+- Bất Biến Thần Kinh Học Sự Tĩnh Lặng Của Mạng Mặc Đ — `_00_Cosmo brain/vietnamese/Bất Biến Thần Kinh Học Sự Tĩnh Lặng Của Mạng Mặc Đ.md`
+- Bản Đồ Xuyên Thời Gian và Văn Minh – Hành Trình Củ — `_00_Cosmo brain/vietnamese/Bản Đồ Xuyên Thời Gian và Văn Minh – Hành Trình Củ.md`
+- CÂU TRẢ LỜI NGẮN CÓ SẼ LÀ MỘT BƯỚC TIẾN VĨ ĐẠI (VÀ — `_00_Cosmo brain/vietnamese/CÂU TRẢ LỜI NGẮN CÓ SẼ LÀ MỘT BƯỚC TIẾN VĨ ĐẠI (VÀ.md`
+- CPTSD TỪ GIAI ĐOẠN SƠ SINH VẾT THƯƠNG CỦA HY VỌNG — `_00_Cosmo brain/vietnamese/CPTSD TỪ GIAI ĐOẠN SƠ SINH VẾT THƯƠNG CỦA HY VỌNG.md`
+- Các hằng số vô tỷ là gốc để các xoắn ốc fractal xu — `_00_Cosmo brain/vietnamese/Các hằng số vô tỷ là gốc để các xoắn ốc fractal xu.md`
+- Các hệ thống bản đồ mẫu hình (Pattern Map) trong v — `_00_Cosmo brain/vietnamese/Các hệ thống bản đồ mẫu hình (Pattern Map) trong v.md`
+- Chiến lược dữ liệu “Hộp đen” UniTaxi – Biến dữ liệ — `_00_Cosmo brain/vietnamese/Chiến lược dữ liệu “Hộp đen” UniTaxi – Biến dữ liệ.md`
+- Danh sách hãng EV Trung Quốc đủ điều kiện tồn tại — `_00_Cosmo brain/vietnamese/Danh sách hãng EV Trung Quốc đủ điều kiện tồn tại.md`
+- Dưới đây là danh sách những gì AMOS cho phép chúng — `_00_Cosmo brain/vietnamese/Dưới đây là danh sách những gì AMOS cho phép chúng.md`
+- Dự báo Thị trường Xe điện Việt Nam 2025–2030 — `_00_Cosmo brain/vietnamese/Dự báo Thị trường Xe điện Việt Nam 2025–2030.md`
+- Giáo trình đào tạo UniTaxi — `_00_Cosmo brain/vietnamese/Giáo trình đào tạo UniTaxi.md`
+- HCM nên đặt sạc ở đâu — `_00_Cosmo brain/vietnamese/HCM nên đặt sạc ở đâu.md`
+- HERITAGE INTELLIGENCE V7 0 – KIẾN TRÚC ĐẦY ĐỦ (EXH — `_00_Cosmo brain/vietnamese/HERITAGE INTELLIGENCE V7 0 – KIẾN TRÚC ĐẦY ĐỦ (EXH.md`
+- HERITAGE ∅ – GIẢI MÃ HOA VĂN TRỐNG ĐỒNG THÀNH CHỮ — `_00_Cosmo brain/vietnamese/HERITAGE ∅ – GIẢI MÃ HOA VĂN TRỐNG ĐỒNG THÀNH CHỮ.md`
+- HỆ THỐNG QUẢN LÝ NĂNG LƯỢNG TRƯỜNG THỜI CỔ ĐẠI — `_00_Cosmo brain/vietnamese/HỆ THỐNG QUẢN LÝ NĂNG LƯỢNG TRƯỜNG THỜI CỔ ĐẠI.md`
+- HÓA ĐƠN CHIẾU LỆ (PROFORMA INVOICE) — `_00_Cosmo brain/vietnamese/HÓA ĐƠN CHIẾU LỆ (PROFORMA INVOICE).md`
+- HỢP ĐỒNG MUA BÁN — `_00_Cosmo brain/vietnamese/HỢP ĐỒNG MUA BÁN.md`
+- Hydrogen Không Phải Lựa Chọn Thay Thế — Đó Là Nước — `_00_Cosmo brain/vietnamese/Hydrogen Không Phải Lựa Chọn Thay Thế — Đó Là Nước.md`
+- KHUNG ĐÁNH GIÁ TIÊU CHUẨN CHỌN ĐỐI TÁC EV — `_00_Cosmo brain/vietnamese/KHUNG ĐÁNH GIÁ TIÊU CHUẨN CHỌN ĐỐI TÁC EV.md`
+- KIẾN TRÚC TÁI DIỄN BẢN ĐỒ CHUNG CỦA CÁC NỀN VĂN MI — `_00_Cosmo brain/vietnamese/KIẾN TRÚC TÁI DIỄN BẢN ĐỒ CHUNG CỦA CÁC NỀN VĂN MI.md`
+- Kẻ Đánh Đổi – Lịch Sử Văn Minh Như Cuộc Phản Bội C — `_00_Cosmo brain/vietnamese/Kẻ Đánh Đổi – Lịch Sử Văn Minh Như Cuộc Phản Bội C.md`
+- Khung Giáo trình 48 giờ cho tài xế – điều phối – k — `_00_Cosmo brain/vietnamese/Khung Giáo trình 48 giờ cho tài xế – điều phối – k.md`
+- Khung Giáo trình 48 giờ cho tài xế – điều phối – k 2aec5e6f95bd805ab7a8f3280934c901 — `_00_Cosmo brain/vietnamese/Khung Giáo trình 48 giờ cho tài xế – điều phối – k 2aec5e6f95bd805ab7a8f3280934c901.md`
+- LUẬN CHỨNG ĐỀ XUẤT HỖ TRỢ NHÀ NƯỚC — `_00_Cosmo brain/vietnamese/LUẬN CHỨNG ĐỀ XUẤT HỖ TRỢ NHÀ NƯỚC.md`
+- Mô hình cho thuê xe điện vận hành qua tài xế thuê — `_00_Cosmo brain/vietnamese/Mô hình cho thuê xe điện vận hành qua tài xế thuê.md`
+- Mọi thực tại đều là Fractal Ánh sáng, Thời gian, Đ — `_00_Cosmo brain/vietnamese/Mọi thực tại đều là Fractal Ánh sáng, Thời gian, Đ.md`
+- NGƯỜI NGOÀI HÀNH TINH VÀ CÁC CÔNG TRÌNH CỔ ĐẠI KHÔ — `_00_Cosmo brain/vietnamese/NGƯỜI NGOÀI HÀNH TINH VÀ CÁC CÔNG TRÌNH CỔ ĐẠI KHÔ.md`
+- NHẬP KHẨU ĐẦU KÉO EV & XE TẢI EV TRUNG QUỐC — `_00_Cosmo brain/vietnamese/NHẬP KHẨU ĐẦU KÉO EV & XE TẢI EV TRUNG QUỐC.md`
+- Nếu đơn giản vậy, tại sao có con người, cái cây, c — `_00_Cosmo brain/vietnamese/Nếu đơn giản vậy, tại sao có con người, cái cây, c.md`
+- Người Đông Sơn có tìm ra chìa khóa về tái sinh, và — `_00_Cosmo brain/vietnamese/Người Đông Sơn có tìm ra chìa khóa về tái sinh, và.md`
+- Nuclear điện — `_00_Cosmo brain/vietnamese/Nuclear điện.md`
+- PHÂN CÔNG TRÁCH NHIỆM 10 HÀNH ĐỘNG TRIỂN KHAI GẤP — `_00_Cosmo brain/vietnamese/PHÂN CÔNG TRÁCH NHIỆM 10 HÀNH ĐỘNG TRIỂN KHAI GẤP.md`
+- PHÂN TÍCH CHIẾN LƯỢC ĐA CHIỀU (TSS × TPE) — `_00_Cosmo brain/vietnamese/PHÂN TÍCH CHIẾN LƯỢC ĐA CHIỀU (TSS × TPE).md`
+- PHẦN 1 SỰ THẬT VỀ ĐẠO ĐỨC NGƯỜI VIỆT – NHÌN THẲNG — `_00_Cosmo brain/vietnamese/PHẦN 1 SỰ THẬT VỀ ĐẠO ĐỨC NGƯỜI VIỆT – NHÌN THẲNG.md`
+- PHẢN NGHIỆP – Sự thật về những cấu trúc cực đoan m — `_00_Cosmo brain/vietnamese/PHẢN NGHIỆP – Sự thật về những cấu trúc cực đoan m.md`
+- Phân tích đối thủ — `_00_Cosmo brain/vietnamese/Phân tích đối thủ.md`
+- Phương án đánh giá hiệu quả đầu tư + dòng tiền 36 — `_00_Cosmo brain/vietnamese/Phương án đánh giá hiệu quả đầu tư + dòng tiền 36.md`
+- Plasma đốt hydrogen — `_00_Cosmo brain/vietnamese/Plasma đốt hydrogen.md`
+- THIẾT KẾ MÔ HÌNH MÔI GIỚI BẤT ĐỘNG SẢN — `_00_Cosmo brain/vietnamese/THIẾT KẾ MÔ HÌNH MÔI GIỚI BẤT ĐỘNG SẢN.md`
+- TOÁN HỌC CỦA ĐẠO — `_00_Cosmo brain/vietnamese/TOÁN HỌC CỦA ĐẠO.md`
+- TRANG LACUNARITY (Λ) – ĐỘ RỖNG FRACTAL THEO TRANG — `_00_Cosmo brain/vietnamese/TRANG LACUNARITY (Λ) – ĐỘ RỖNG FRACTAL THEO TRANG.md`
+- TRANG ∅ FRAMEWORK – HERITAGE ∅ BẢN ĐỒ TOÀN CẢNH NH — `_00_Cosmo brain/vietnamese/TRANG ∅ FRAMEWORK – HERITAGE ∅ BẢN ĐỒ TOÀN CẢNH NH.md`
+- TRỐNG ĐỒNG ĐÔNG SƠN SỰ KẾT HỢP HOÀN HẢO GIỮA VŨ TR — `_00_Cosmo brain/vietnamese/TRỐNG ĐỒNG ĐÔNG SƠN SỰ KẾT HỢP HOÀN HẢO GIỮA VŨ TR.md`
+- TỪ HỐ ĐEN ĐẾN UNG THƯ BẢN GIAO HƯỞNG CỦA SỰ TÁI DI — `_00_Cosmo brain/vietnamese/TỪ HỐ ĐEN ĐẾN UNG THƯ BẢN GIAO HƯỞNG CỦA SỰ TÁI DI.md`
+- Thị trường Việt Nam biến động ở bề mặt – nhưng có — `_00_Cosmo brain/vietnamese/Thị trường Việt Nam biến động ở bề mặt – nhưng có.md`
+- Toàn học của Đạo Khi cổ học vượt trước lượng tử — `_00_Cosmo brain/vietnamese/Toàn học của Đạo Khi cổ học vượt trước lượng tử.md`
+- UBI Omnis™ Hệ Điều Hành Dự Báo Sinh Học — `_00_Cosmo brain/vietnamese/UBI Omnis™ Hệ Điều Hành Dự Báo Sinh Học.md`
+- ỨNG DỤNG PHƯƠNG PHÁP TRANG TRONG ĐIỀU TRỊ RỐI LOẠN — `_00_Cosmo brain/vietnamese/ỨNG DỤNG PHƯƠNG PHÁP TRANG TRONG ĐIỀU TRỊ RỐI LOẠN.md`
+- Ứng dụng Khung Độ Phức Tạp (Complexity Framework) — `_00_Cosmo brain/vietnamese/Ứng dụng Khung Độ Phức Tạp (Complexity Framework).md`
+- Văn minh nước Đông Nam Á Đọc lại bằng thước đo sin — `_00_Cosmo brain/vietnamese/Văn minh nước Đông Nam Á Đọc lại bằng thước đo sin.md`
+- Văn minh xuyên loài Đọc lại thế giới bằng cấu trúc — `_00_Cosmo brain/vietnamese/Văn minh xuyên loài Đọc lại thế giới bằng cấu trúc.md`
+- Vietnamese Creativity from Rốt to Future bài bao tieng anh — `_00_Cosmo brain/vietnamese/Vietnamese Creativity from Rốt to Future bài bao tieng anh.md`
+- YÊU CẦU ĐỐI VỚI LÁI XE KHI THAM GIA BẢO HIỂM NHÂN — `_00_Cosmo brain/vietnamese/YÊU CẦU ĐỐI VỚI LÁI XE KHI THAM GIA BẢO HIỂM NHÂN.md`
+- dự án AI Agent đào tạo học sinh (K1–K12) — `_00_Cosmo brain/vietnamese/dự án AI Agent đào tạo học sinh (K1–K12).md`
+- ĐÁNH GIÁ CƠ HỘI & TÍNH KHẢ THI THƯƠNG MẠI MÔ HÌNH — `_00_Cosmo brain/vietnamese/ĐÁNH GIÁ CƠ HỘI & TÍNH KHẢ THI THƯƠNG MẠI MÔ HÌNH.md`
+- ĐÁNH GIÁ KHUNG GIÁ UNITAXI (2025) — `_00_Cosmo brain/vietnamese/ĐÁNH GIÁ KHUNG GIÁ UNITAXI (2025).md`
+- ĐÁNH GIÁ TÍNH KHẢ THI HỆ THỐNG ĐIỆN PHÂN NƯỚC HIỆU — `_00_Cosmo brain/vietnamese/ĐÁNH GIÁ TÍNH KHẢ THI HỆ THỐNG ĐIỆN PHÂN NƯỚC HIỆU.md`
+- ĐẠO VÀ TOÁN HỌC CỦA VŨ TRỤ — GIÁC NGỘ, CÔ ĐƠN, VÀ — `_00_Cosmo brain/vietnamese/ĐẠO VÀ TOÁN HỌC CỦA VŨ TRỤ — GIÁC NGỘ, CÔ ĐƠN, VÀ.md`
+- ĐẶC TẢ KỸ THUẬT & TUÂN THỦ — `_00_Cosmo brain/vietnamese/ĐẶC TẢ KỸ THUẬT & TUÂN THỦ.md`
+- ĐẶC TẢ KỸ THUẬT TÁI THIẾT KẾ IKONOMY (MODULE 1 kW) — `_00_Cosmo brain/vietnamese/ĐẶC TẢ KỸ THUẬT TÁI THIẾT KẾ IKONOMY (MODULE 1 kW).md`
+- ĐỀ ÁN CHI TIẾT COGNITIVE TALENT & EXECUTION INTELL — `_00_Cosmo brain/vietnamese/ĐỀ ÁN CHI TIẾT COGNITIVE TALENT & EXECUTION INTELL.md`
+- ĐỀ ÁN CHIẾN LƯỢC — `_00_Cosmo brain/vietnamese/ĐỀ ÁN CHIẾN LƯỢC.md`
+- ĐỀ ÁN THÍ ĐIỂM — `_00_Cosmo brain/vietnamese/ĐỀ ÁN THÍ ĐIỂM.md`
+- ĐỀ ÁN TÍCH HỢP NỀN TẢNG T-FLY VÀO HỆ SINH THÁI UNI — `_00_Cosmo brain/vietnamese/ĐỀ ÁN TÍCH HỢP NỀN TẢNG T-FLY VÀO HỆ SINH THÁI UNI.md`
+- ĐỀ ÁN TỔNG THỂ — `_00_Cosmo brain/vietnamese/ĐỀ ÁN TỔNG THỂ.md`
+- ĐÔNG SƠN, SỸ TỬ, VÀ HỒ TÂY – GIẢI MÃ BẰNG BẢN ĐỒ F — `_00_Cosmo brain/vietnamese/ĐÔNG SƠN, SỸ TỬ, VÀ HỒ TÂY – GIẢI MÃ BẰNG BẢN ĐỒ F.md`
+- Đánh giá Di Di — `_00_Cosmo brain/vietnamese/Đánh giá Di Di.md`
+- Đánh giá căn chỉnh “Tam Bất” vs HSCSA (Human-Scale — `_00_Cosmo brain/vietnamese/Đánh giá căn chỉnh “Tam Bất” vs HSCSA (Human-Scale.md`
+- Đạo đức — `_00_Cosmo brain/vietnamese/Đạo đức.md`
+- Đề xuất phê duyệt mua và triển khai giải pháp nền — `_00_Cosmo brain/vietnamese/Đề xuất phê duyệt mua và triển khai giải pháp nền.md`
+- Động cơ fractal vĩnh cửu — `_00_Cosmo brain/vietnamese/Động cơ fractal vĩnh cửu.md`
+- Đột phá thật sự của NeuroSyncAI™ — `_00_Cosmo brain/vietnamese/Đột phá thật sự của NeuroSyncAI™.md`
+- 💡 Phân tích các công trình cuối đời — `_00_Cosmo brain/vietnamese/💡 Phân tích các công trình cuối đời.md`
+- 📌 UNI MAPS – ĐỀ XUẤT CHIẾN LƯỢC — `_00_Cosmo brain/vietnamese/📌 UNI MAPS – ĐỀ XUẤT CHIẾN LƯỢC.md`
+- 🧠 ĐỊNH LƯỢNG HÓA FRACTAL INTELLIGENCE (FQ) THÀNH B — `_00_Cosmo brain/vietnamese/🧠 ĐỊNH LƯỢNG HÓA FRACTAL INTELLIGENCE (FQ) THÀNH B.md`
+- 🧬 BẠN NÓI ĐÚNG TÔI ĐÃ BỎ QUA TUYỆT ĐỐI CỐT LÕI — `_00_Cosmo brain/vietnamese/🧬 BẠN NÓI ĐÚNG TÔI ĐÃ BỎ QUA TUYỆT ĐỐI CỐT LÕI.md`
+
+## `.devin/` (717 files)
+
+- AGENT-NAMING-CONVENTION — `.devin/agents/AGENT-NAMING-CONVENTION.md`
+- amos-agent-registry-index — `.devin/agents/amos-agent-registry-index.md`
+- amos-qfm-paper-agents-index — `.devin/agents/amos-qfm-paper-agents-index.md`
+- SKILL — `.devin/skills/amos-7-part-universe-canon-full/SKILL.md`
+- SKILL — `.devin/skills/amos-absolute-primitive-decomposer/SKILL.md`
+- SKILL — `.devin/skills/amos-action-memory-firewall/SKILL.md`
+- SKILL — `.devin/skills/amos-active-inference-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-adaptive-stability-balancer/SKILL.md`
+- SKILL — `.devin/skills/amos-adversarial-entropy-accountant/SKILL.md`
+- SKILL — `.devin/skills/amos-agency-consequence-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-agent-economy-constitutional-governance-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-agent-externalization-architecture-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-agent-memory-dynamics-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-agent-native-research-artifact-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-agent-owner-attribution-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-agent-storage-footprint-rscf/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-agent-systems-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-agent-systems-master/SKILL.md`
+- README — `.devin/skills/amos-agent-systems-master/references/README.md`
+- SKILL — `.devin/skills/amos-agentic-skill-lie-algebroid-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-agentops-observability-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-ai-architecture-factory-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-ai-drift-alignment-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-ai-entropy-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-aibom-lifecycle-assurance-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-artistic-expression-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-agent-memory-dynamics-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-autonomous-scientific-knowledge-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-conrad-radiomics-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-continual-interference-geometry-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-embodied-runtime-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-influence-guided-symbolic-regression-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-multistage-order-causal-discovery-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-quantum-arithmetic-cryptanalysis-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-quantum-koopman-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-sparse-autoencoder-interpretability-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-spatial-speech-perception-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-spectral-latent-treatment-effects-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-structure-preserving-variational-neural-fields-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-time-series-bootstrap-conformal-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-ttstack-sketching-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-ast-control-dataflow-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-attention-allocation-governor/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-audit-repair-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-audit-repair-master/SKILL.md`
+- README — `.devin/skills/amos-audit-repair-master/references/README.md`
+- SKILL — `.devin/skills/amos-awareness-inference-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-benchmark-forensics/SKILL.md`
+- SKILL — `.devin/skills/amos-binding-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-blackbox-program-discovery-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-boundary-admission-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-boundary-architecture-rscf-calculus/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-boundary-scope-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-boundary-scope-master/SKILL.md`
+- README — `.devin/skills/amos-boundary-scope-master/references/README.md`
+- SKILL — `.devin/skills/amos-bounded-code-facts-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-budget-aware-optimizer-selection-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-bundle-manifold-concentration-rscf-engine/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c01-meta-logic-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c01-meta-logic-master/SKILL.md`
+- README — `.devin/skills/amos-c01-meta-logic-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c02-math-compute-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c02-math-compute-master/SKILL.md`
+- README — `.devin/skills/amos-c02-math-compute-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c03-physics-cosmos-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c03-physics-cosmos-master/SKILL.md`
+- README — `.devin/skills/amos-c03-physics-cosmos-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c04-bio-neuro-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c04-bio-neuro-master/SKILL.md`
+- README — `.devin/skills/amos-c04-bio-neuro-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c05-mind-behavior-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c05-mind-behavior-master/SKILL.md`
+- README — `.devin/skills/amos-c05-mind-behavior-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c06-society-culture-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c06-society-culture-master/SKILL.md`
+- README — `.devin/skills/amos-c06-society-culture-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c07-econ-finance-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c07-econ-finance-master/SKILL.md`
+- README — `.devin/skills/amos-c07-econ-finance-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c08-strategy-game-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c08-strategy-game-master/SKILL.md`
+- README — `.devin/skills/amos-c08-strategy-game-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c09-org-law-policy-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c09-org-law-policy-master/SKILL.md`
+- README — `.devin/skills/amos-c09-org-law-policy-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c10-tech-engineering-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c10-tech-engineering-master/SKILL.md`
+- README — `.devin/skills/amos-c10-tech-engineering-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c11-design-language-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c11-design-language-master/SKILL.md`
+- README — `.devin/skills/amos-c11-design-language-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c12-earth-ecology-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c12-earth-ecology-master/SKILL.md`
+- README — `.devin/skills/amos-c12-earth-ecology-master/references/README.md`
+- SKILL — `.devin/skills/amos-calibrated-feedback-control-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-canon-compiler/SKILL.md`
+- SKILL — `.devin/skills/amos-canon-consistency-governor/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-canon-universe-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-canon-universe-master/SKILL.md`
+- README — `.devin/skills/amos-canon-universe-master/references/README.md`
+- SKILL — `.devin/skills/amos-canonical-software-substrate-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-causal-abstraction-validity-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-causal-closure-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-causal-hierarchy-governor/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-causal-reasoning-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-causal-reasoning-master/SKILL.md`
+- README — `.devin/skills/amos-causal-reasoning-master/references/README.md`
+- SKILL — `.devin/skills/amos-cell-intelligence-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-claim-verifier/SKILL.md`
+- SKILL — `.devin/skills/amos-cli-failure-process-diagnostics-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-closed-loop-learning-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-code-agent-harness-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-cognitive-compression-kernel/SKILL.md`
+- SKILL — `.devin/skills/amos-cognitive-process-orchestrator/SKILL.md`
+- SKILL — `.devin/skills/amos-collapse-recovery/SKILL.md`
+- SKILL — `.devin/skills/amos-combined-program-analysis-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-commit-time-authorization-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-consciousness-candidate-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-constraint-propagation-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-constructive-metamorphic-testing-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-context-budget-governor-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-context-compaction-recoverability-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-context-continuity-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-context-orientation-cache-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-context-persona-drift-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-context-state-maintenance-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-contravariance-alignment-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-core19-logic-kernel/SKILL.md`
+- SKILL — `.devin/skills/amos-cost-aware-test-supervision-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-counterfactual-reasoning-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-counterfactual-selfhood-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-cross-architecture-tensor-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-cross-scale-rscf-tensor-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-cross-species-cognition-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-dependency-environment-reconstruction-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-design-visual-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-designer-os/SKILL.md`
+- SKILL — `.devin/skills/amos-deterministic-ai-control-plane/SKILL.md`
+- SKILL — `.devin/skills/amos-direct-corpus-search-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-distinct-working-memory-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-distinction-relation-constraint-rscf-algebra/SKILL.md`
+- SKILL — `.devin/skills/amos-distinction-relation-transformation/SKILL.md`
+- SKILL — `.devin/skills/amos-distinction-rscf-architecture/SKILL.md`
+- SKILL — `.devin/skills/amos-distributed-attack-composition-monitor-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-distributed-causal-evolution-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-economic-model/SKILL.md`
+- SKILL — `.devin/skills/amos-economy-internet-money-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-emergent-social-intelligence-risk-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-entropy-lacunarity-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-ethics-os-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-execution-provenance-replay-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-forex-os/SKILL.md`
+- SKILL — `.devin/skills/amos-forex-unified-os-updated/SKILL.md`
+- SKILL — `.devin/skills/amos-forex-unified-os/SKILL.md`
+- SKILL — `.devin/skills/amos-formal-agent-skill-verification-rscf/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-formal-engines-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-formal-engines-master/SKILL.md`
+- README — `.devin/skills/amos-formal-engines-master/references/README.md`
+- SKILL — `.devin/skills/amos-formal-model-checking-orchestrator-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-formally-verified-migration-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-fractal-math/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-fractal-systems-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-fractal-systems-master/SKILL.md`
+- README — `.devin/skills/amos-fractal-systems-master/references/README.md`
+- SKILL — `.devin/skills/amos-framework-registry-compiler/SKILL.md`
+- SKILL — `.devin/skills/amos-full-brain-os/SKILL.md`
+- SKILL — `.devin/skills/amos-future-debt-option-value-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-bayesian-neural-sde-calibration-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-carry-differential-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-conformal-tail-risk-control-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-gaussian-process-surface-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-macro-differential-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-options-implied-distribution/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-predictive-fractal-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-quantile-distribution-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-realized-garch-autoencoder-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-realized-kernel-microstructure-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-rough-heston-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-state-space-kalman-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-stochastic-correlation-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-tensor-train-greeks-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-threshold-vecm-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-typed-tensor-contract-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-vecm-cointegration-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-genetic-stability-auditor/SKILL.md`
+- SKILL — `.devin/skills/amos-ghost-code-symbolic-execution-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-github-rscf-ingestion/SKILL.md`
+- SKILL — `.devin/skills/amos-goal-plan-action-alignment-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-governed-executable-knowledge-repair-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-gradient-rscf-architecture/SKILL.md`
+- SKILL — `.devin/skills/amos-growth-graph/SKILL.md`
+- SKILL — `.devin/skills/amos-heritage-decision-intelligence/SKILL.md`
+- SKILL — `.devin/skills/amos-heterogeneous-exploration-cohort-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-hierarchical-stack-orchestration-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-hourglass-induction-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-human-biology-fractal-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-human-state-ontology-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-information-boundary-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-information-collapse-topology/SKILL.md`
+- SKILL — `.devin/skills/amos-information-exposure-control/SKILL.md`
+- SKILL — `.devin/skills/amos-information-geometry-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-information-operator-engine/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-information-theory-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-information-theory-master/SKILL.md`
+- README — `.devin/skills/amos-information-theory-master/references/README.md`
+- SKILL — `.devin/skills/amos-infrastructure-control-plane/SKILL.md`
+- SKILL — `.devin/skills/amos-instinct-pattern-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-interactive-evaluation-design-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-interprocedural-callgraph-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-invariant-tensor-kernel/SKILL.md`
+- SKILL — `.devin/skills/amos-knowledge-epistemology-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-knowledge-harvest-runtime/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-knowledge-research-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-knowledge-research-master/SKILL.md`
+- README — `.devin/skills/amos-knowledge-research-master/references/README.md`
+- SKILL — `.devin/skills/amos-language-equation-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-law-hierarchy-resolver/SKILL.md`
+- SKILL — `.devin/skills/amos-llm-judge-bias-geometry-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-long-context-ci-repository-reasoning-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-managed-autonomy-escalation-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-mark-operator-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-mathematical-rigor-rscf-kernel/SKILL.md`
+- SKILL — `.devin/skills/amos-measurement-integrity-auditor/SKILL.md`
+- SKILL — `.devin/skills/amos-mechmath-research-orchestration-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-memory-conflict-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-memory-execution-graph-attribution-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-memory-immune-system/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-memory-systems-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-memory-systems-master/SKILL.md`
+- README — `.devin/skills/amos-memory-systems-master/references/README.md`
+- SKILL — `.devin/skills/amos-metacognitive-confidence-auditor/SKILL.md`
+- SKILL — `.devin/skills/amos-morphogenesis-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-multimodal-perception-layer/SKILL.md`
+- SKILL — `.devin/skills/amos-narrative-integrity-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-natural-evidence-trail-reasoning-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-neural-computation-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-neural-ode-dynamics-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-observability-driven-harness-evolution-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-ontology-compiler/SKILL.md`
+- SKILL — `.devin/skills/amos-organism-os/SKILL.md`
+- SKILL — `.devin/skills/amos-os-kernel/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-os-runtime-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-os-runtime-master/SKILL.md`
+- README — `.devin/skills/amos-os-runtime-master/references/README.md`
+- SKILL — `.devin/skills/amos-paper-rscf-compiler/SKILL.md`
+- SKILL — `.devin/skills/amos-persistence-dissolution-rscf-dynamics/SKILL.md`
+- SKILL — `.devin/skills/amos-portable-agent-authorization-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-prediction-governance/SKILL.md`
+- SKILL — `.devin/skills/amos-principal-trust-governance-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-procedural-repository-retrieval-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-process-compliance-auditor-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-program-slicing-taint-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-prompt-domain-control-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-proof-loss-diagnostic-reconstruction-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-provenance-sybil-hardening-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-provenance-trust-firewall/SKILL.md`
+- SKILL — `.devin/skills/amos-qls-qic-substrate-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-qls-substrate/SKILL.md`
+- SKILL — `.devin/skills/amos-reality-meta-law-auditor/SKILL.md`
+- SKILL — `.devin/skills/amos-reality-simulation-distinction/SKILL.md`
+- SKILL — `.devin/skills/amos-recursive-observer-contamination/SKILL.md`
+- SKILL — `.devin/skills/amos-regulated-clinical-agent-evolution-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-repair-allocation-optimizer/SKILL.md`
+- SKILL — `.devin/skills/amos-repair-harm-auditor/SKILL.md`
+- SKILL — `.devin/skills/amos-repair-priority-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-repair-substrate-capture-resistance-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-repository-ast-analysis-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-repository-knowledge-acquisition-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-representation-aware-bug-localization-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-research-agent/SKILL.md`
+- SKILL — `.devin/skills/amos-retrieval-conditioned-orchestration-budget-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-risk-constraint-governor/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-rscf-epistemic-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-rscf-epistemic-master/SKILL.md`
+- README — `.devin/skills/amos-rscf-epistemic-master/references/README.md`
+- SKILL — `.devin/skills/amos-runtime-benchmarking/SKILL.md`
+- SKILL — `.devin/skills/amos-runtime-context-reuse-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-sae-benchmark-reliability-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-sae-semantic-transport-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-scientific-assumption-semantic-differencing-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-scientific-closure-governor-rscf/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-security-safety-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-security-safety-master/SKILL.md`
+- README — `.devin/skills/amos-security-safety-master/references/README.md`
+- SKILL — `.devin/skills/amos-self-regulated-simulative-planning-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-semantic-grounding-auditor/SKILL.md`
+- SKILL — `.devin/skills/amos-semantic-token-flow-firewall-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-semantic-workflow-persistence-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-sensory-map-integrator/SKILL.md`
+- SKILL — `.devin/skills/amos-session-control-plane/SKILL.md`
+- SKILL — `.devin/skills/amos-skill-builder/SKILL.md`
+- SKILL — `.devin/skills/amos-source-reading-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-source-reading-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-ssa-ir-compiler-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-strict-fractal-equation-rscf-registry/SKILL.md`
+- SKILL — `.devin/skills/amos-structured-document-parsing-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-structured-execution-graph-rscf/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-super-engines-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-super-engines-master/SKILL.md`
+- README — `.devin/skills/amos-super-engines-master/references/README.md`
+- SKILL — `.devin/skills/amos-symbolic-path-reasoning-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-symbolic-translation-repair-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-system-completion-auditor/SKILL.md`
+- SKILL — `.devin/skills/amos-target-of-repair-intelligence/SKILL.md`
+- SKILL — `.devin/skills/amos-temporal-multiscale-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-tensor-accelerator-activity-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-tensor-network-contraction-sketch-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-tensor-train-sketching-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-time-series-conformal-uq-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-tool-grounded-configuration-repair-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-trajectory-bug-specification-refinement-rscf/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-trang-framework-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-trang-framework-master/SKILL.md`
+- README — `.devin/skills/amos-trang-framework-master/references/README.md`
+- SKILL — `.devin/skills/amos-transformation-quest-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-translation-rscf-architecture/SKILL.md`
+- SKILL — `.devin/skills/amos-trust-formation-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-universal-coordinate-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-universal-coordinate-system/SKILL.md`
+- SKILL — `.devin/skills/amos-universal-variable-registry-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-universe-viability-modeler/SKILL.md`
+- SKILL — `.devin/skills/amos-unreachable-semantics-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-ust-structure-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-verification-aware-implementation-diversity-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-activation-checkpointing-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-agent-memory-dynamics-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-anytime-pac-bayes-density-ratio-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-autosota-research-automation-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-cdfm-causal-discovery-foundation-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-constrained-structured-decoding-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-data-mixture-optimization-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-flash-attention-io-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-flow-matching-generative-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-future-confidence-distillation-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-geometric-causal-models-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-grapheval-reasoning-coherence-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-grouped-query-attention-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-grpo-reasoning-policy-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-kv-cache-quantization-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-llm-judge-bias-geometry-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-long-context-rope-scaling-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-manifold-constrained-conformal-spatial-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-mixture-of-depths-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-pac-bayes-piml-generalization-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-rag-evaluation-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-selective-state-space-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-sparse-attention-scaling-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-streaming-attention-sinks-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-structured-gp-omics-uq-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-test-time-compute-scaling-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-test-time-training-rscf/SKILL.md`
+- SKILL — `.devin/skills/bluebook-strategy-system/SKILL.md`
+- SKILL — `.devin/skills/cosmo-human-problem-architecture/SKILL.md`
+- SKILL — `.devin/skills/docx/SKILL.md`
+- SKILL — `.devin/skills/executive-deck-decision-system/SKILL.md`
+- SKILL — `.devin/skills/frontend-engineering-qa/SKILL.md`
+- SKILL — `.devin/skills/gmef-governance/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-architecture-reference-transfer-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-banking-crm-assessment-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-commercial-due-diligence-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-credit-lending-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-customer-journey-planning-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-designops-agile-transformation-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-digital-bank-value-proposition-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-digital-strategy-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-enterprise-data-transformation-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-framework-navigator/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-healthcare-strategy-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-human-centered-design-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-partnership-ecosystem-strategy-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-public-sector-transformation-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-purpose-impact-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-recruiting-workforce-acquisition-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-strategy-portfolio-engine/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-technology-company-strategy-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-technology-product-governance-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-technology-sales-excellence-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-transaction-banking-diagnostic-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-transformation-org-structure-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-value-delivery-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-wealth-management-rscf/SKILL.md`
+- SKILL — `.devin/skills/pdfs/SKILL.md`
+- SKILL — `.devin/skills/rscf-modeler/SKILL.md`
+- SKILL — `.devin/skills/skill-creator/SKILL.md`
+- SKILL — `.devin/skills/slides/SKILL.md`
+- SKILL — `.devin/skills/software-engineering-qa/SKILL.md`
+- SKILL — `.devin/skills/spreadsheets/SKILL.md`
+- amos-7-part-universe-canon-full-workflow — `.devin/workflows/amos-7-part-universe-canon-full-workflow.md`
+- amos-absolute-primitive-decomposer-workflow — `.devin/workflows/amos-absolute-primitive-decomposer-workflow.md`
+- amos-action-memory-firewall-workflow — `.devin/workflows/amos-action-memory-firewall-workflow.md`
+- amos-active-inference-governor-workflow — `.devin/workflows/amos-active-inference-governor-workflow.md`
+- amos-adaptive-stability-balancer-workflow — `.devin/workflows/amos-adaptive-stability-balancer-workflow.md`
+- amos-adversarial-entropy-accountant-workflow — `.devin/workflows/amos-adversarial-entropy-accountant-workflow.md`
+- amos-agency-consequence-governor-workflow — `.devin/workflows/amos-agency-consequence-governor-workflow.md`
+- amos-agent-economy-constitutional-governance-rscf-workflow — `.devin/workflows/amos-agent-economy-constitutional-governance-rscf-workflow.md`
+- amos-agent-externalization-architecture-rscf-workflow — `.devin/workflows/amos-agent-externalization-architecture-rscf-workflow.md`
+- amos-agent-memory-dynamics-rscf-engine-workflow — `.devin/workflows/amos-agent-memory-dynamics-rscf-engine-workflow.md`
+- amos-agent-native-research-artifact-rscf-workflow — `.devin/workflows/amos-agent-native-research-artifact-rscf-workflow.md`
+- amos-agent-owner-attribution-rscf-workflow — `.devin/workflows/amos-agent-owner-attribution-rscf-workflow.md`
+- amos-agent-storage-footprint-rscf-workflow — `.devin/workflows/amos-agent-storage-footprint-rscf-workflow.md`
+- amos-agent-systems-master-workflow — `.devin/workflows/amos-agent-systems-master-workflow.md`
+- amos-agentic-skill-lie-algebroid-rscf-engine-workflow — `.devin/workflows/amos-agentic-skill-lie-algebroid-rscf-engine-workflow.md`
+- amos-agentops-observability-rscf-workflow — `.devin/workflows/amos-agentops-observability-rscf-workflow.md`
+- amos-ai-architecture-factory-rscf-engine-workflow — `.devin/workflows/amos-ai-architecture-factory-rscf-engine-workflow.md`
+- amos-ai-drift-alignment-governor-workflow — `.devin/workflows/amos-ai-drift-alignment-governor-workflow.md`
+- amos-ai-entropy-rscf-engine-workflow — `.devin/workflows/amos-ai-entropy-rscf-engine-workflow.md`
+- amos-aibom-lifecycle-assurance-rscf-workflow — `.devin/workflows/amos-aibom-lifecycle-assurance-rscf-workflow.md`
+- amos-artistic-expression-governor-workflow — `.devin/workflows/amos-artistic-expression-governor-workflow.md`
+- amos-arxiv-agent-memory-dynamics-rscf-workflow — `.devin/workflows/amos-arxiv-agent-memory-dynamics-rscf-workflow.md`
+- amos-arxiv-autonomous-scientific-knowledge-rscf-workflow — `.devin/workflows/amos-arxiv-autonomous-scientific-knowledge-rscf-workflow.md`
+- amos-arxiv-conrad-radiomics-rscf-workflow — `.devin/workflows/amos-arxiv-conrad-radiomics-rscf-workflow.md`
+- amos-arxiv-continual-interference-geometry-rscf-workflow — `.devin/workflows/amos-arxiv-continual-interference-geometry-rscf-workflow.md`
+- amos-arxiv-embodied-runtime-rscf-engine-workflow — `.devin/workflows/amos-arxiv-embodied-runtime-rscf-engine-workflow.md`
+- amos-arxiv-influence-guided-symbolic-regression-rscf-workflow — `.devin/workflows/amos-arxiv-influence-guided-symbolic-regression-rscf-workflow.md`
+- amos-arxiv-multistage-order-causal-discovery-rscf-workflow — `.devin/workflows/amos-arxiv-multistage-order-causal-discovery-rscf-workflow.md`
+- amos-arxiv-quantum-arithmetic-cryptanalysis-rscf-workflow — `.devin/workflows/amos-arxiv-quantum-arithmetic-cryptanalysis-rscf-workflow.md`
+- amos-arxiv-quantum-koopman-rscf-workflow — `.devin/workflows/amos-arxiv-quantum-koopman-rscf-workflow.md`
+- amos-arxiv-sparse-autoencoder-interpretability-rscf-workflow — `.devin/workflows/amos-arxiv-sparse-autoencoder-interpretability-rscf-workflow.md`
+- amos-arxiv-spatial-speech-perception-rscf-workflow — `.devin/workflows/amos-arxiv-spatial-speech-perception-rscf-workflow.md`
+- amos-arxiv-spectral-latent-treatment-effects-rscf-workflow — `.devin/workflows/amos-arxiv-spectral-latent-treatment-effects-rscf-workflow.md`
+- amos-arxiv-structure-preserving-variational-neural-fields-rscf-workflow — `.devin/workflows/amos-arxiv-structure-preserving-variational-neural-fields-rscf-workflow.md`
+- amos-arxiv-time-series-bootstrap-conformal-rscf-workflow — `.devin/workflows/amos-arxiv-time-series-bootstrap-conformal-rscf-workflow.md`
+- amos-arxiv-ttstack-sketching-rscf-engine-workflow — `.devin/workflows/amos-arxiv-ttstack-sketching-rscf-engine-workflow.md`
+- amos-ast-control-dataflow-rscf-engine-workflow — `.devin/workflows/amos-ast-control-dataflow-rscf-engine-workflow.md`
+- amos-attention-allocation-governor-workflow — `.devin/workflows/amos-attention-allocation-governor-workflow.md`
+- amos-audit-repair-master-workflow — `.devin/workflows/amos-audit-repair-master-workflow.md`
+- amos-awareness-inference-governor-workflow — `.devin/workflows/amos-awareness-inference-governor-workflow.md`
+- amos-benchmark-forensics-workflow — `.devin/workflows/amos-benchmark-forensics-workflow.md`
+- amos-binding-rscf-engine-workflow — `.devin/workflows/amos-binding-rscf-engine-workflow.md`
+- amos-blackbox-program-discovery-rscf-workflow — `.devin/workflows/amos-blackbox-program-discovery-rscf-workflow.md`
+- amos-boundary-admission-governor-workflow — `.devin/workflows/amos-boundary-admission-governor-workflow.md`
+- amos-boundary-architecture-rscf-calculus-workflow — `.devin/workflows/amos-boundary-architecture-rscf-calculus-workflow.md`
+- amos-boundary-scope-master-workflow — `.devin/workflows/amos-boundary-scope-master-workflow.md`
+- amos-bounded-code-facts-rscf-workflow — `.devin/workflows/amos-bounded-code-facts-rscf-workflow.md`
+- amos-budget-aware-optimizer-selection-rscf-engine-workflow — `.devin/workflows/amos-budget-aware-optimizer-selection-rscf-engine-workflow.md`
+- amos-bundle-manifold-concentration-rscf-engine-workflow — `.devin/workflows/amos-bundle-manifold-concentration-rscf-engine-workflow.md`
+- amos-c01-meta-logic-master-workflow — `.devin/workflows/amos-c01-meta-logic-master-workflow.md`
+- amos-c02-math-compute-master-workflow — `.devin/workflows/amos-c02-math-compute-master-workflow.md`
+- amos-c03-physics-cosmos-master-workflow — `.devin/workflows/amos-c03-physics-cosmos-master-workflow.md`
+- amos-c04-bio-neuro-master-workflow — `.devin/workflows/amos-c04-bio-neuro-master-workflow.md`
+- amos-c05-mind-behavior-master-workflow — `.devin/workflows/amos-c05-mind-behavior-master-workflow.md`
+- amos-c06-society-culture-master-workflow — `.devin/workflows/amos-c06-society-culture-master-workflow.md`
+- amos-c07-econ-finance-master-workflow — `.devin/workflows/amos-c07-econ-finance-master-workflow.md`
+- amos-c08-strategy-game-master-workflow — `.devin/workflows/amos-c08-strategy-game-master-workflow.md`
+- amos-c09-org-law-policy-master-workflow — `.devin/workflows/amos-c09-org-law-policy-master-workflow.md`
+- amos-c10-tech-engineering-master-workflow — `.devin/workflows/amos-c10-tech-engineering-master-workflow.md`
+- amos-c11-design-language-master-workflow — `.devin/workflows/amos-c11-design-language-master-workflow.md`
+- amos-c12-earth-ecology-master-workflow — `.devin/workflows/amos-c12-earth-ecology-master-workflow.md`
+- amos-calibrated-feedback-control-rscf-workflow — `.devin/workflows/amos-calibrated-feedback-control-rscf-workflow.md`
+- amos-canon-compiler-workflow — `.devin/workflows/amos-canon-compiler-workflow.md`
+- amos-canon-consistency-governor-workflow — `.devin/workflows/amos-canon-consistency-governor-workflow.md`
+- amos-canon-universe-master-workflow — `.devin/workflows/amos-canon-universe-master-workflow.md`
+- amos-canonical-software-substrate-rscf-workflow — `.devin/workflows/amos-canonical-software-substrate-rscf-workflow.md`
+- amos-causal-abstraction-validity-rscf-engine-workflow — `.devin/workflows/amos-causal-abstraction-validity-rscf-engine-workflow.md`
+- amos-causal-closure-governor-workflow — `.devin/workflows/amos-causal-closure-governor-workflow.md`
+- amos-causal-hierarchy-governor-workflow — `.devin/workflows/amos-causal-hierarchy-governor-workflow.md`
+- amos-causal-reasoning-master-workflow — `.devin/workflows/amos-causal-reasoning-master-workflow.md`
+- amos-cell-intelligence-mapper-workflow — `.devin/workflows/amos-cell-intelligence-mapper-workflow.md`
+- amos-claim-verifier-workflow — `.devin/workflows/amos-claim-verifier-workflow.md`
+- amos-cli-failure-process-diagnostics-rscf-workflow — `.devin/workflows/amos-cli-failure-process-diagnostics-rscf-workflow.md`
+- amos-closed-loop-learning-governor-workflow — `.devin/workflows/amos-closed-loop-learning-governor-workflow.md`
+- amos-code-agent-harness-rscf-workflow — `.devin/workflows/amos-code-agent-harness-rscf-workflow.md`
+- amos-cognitive-compression-kernel-workflow — `.devin/workflows/amos-cognitive-compression-kernel-workflow.md`
+- amos-cognitive-process-orchestrator-workflow — `.devin/workflows/amos-cognitive-process-orchestrator-workflow.md`
+- amos-collapse-recovery-workflow — `.devin/workflows/amos-collapse-recovery-workflow.md`
+- amos-combined-program-analysis-rscf-workflow — `.devin/workflows/amos-combined-program-analysis-rscf-workflow.md`
+- amos-commit-time-authorization-rscf-engine-workflow — `.devin/workflows/amos-commit-time-authorization-rscf-engine-workflow.md`
+- amos-consciousness-candidate-governor-workflow — `.devin/workflows/amos-consciousness-candidate-governor-workflow.md`
+- amos-constraint-propagation-rscf-engine-workflow — `.devin/workflows/amos-constraint-propagation-rscf-engine-workflow.md`
+- amos-constructive-metamorphic-testing-rscf-workflow — `.devin/workflows/amos-constructive-metamorphic-testing-rscf-workflow.md`
+- amos-context-budget-governor-rscf-workflow — `.devin/workflows/amos-context-budget-governor-rscf-workflow.md`
+- amos-context-compaction-recoverability-rscf-workflow — `.devin/workflows/amos-context-compaction-recoverability-rscf-workflow.md`
+- amos-context-continuity-governor-workflow — `.devin/workflows/amos-context-continuity-governor-workflow.md`
+- amos-context-orientation-cache-rscf-workflow — `.devin/workflows/amos-context-orientation-cache-rscf-workflow.md`
+- amos-context-persona-drift-rscf-workflow — `.devin/workflows/amos-context-persona-drift-rscf-workflow.md`
+- amos-context-state-maintenance-rscf-workflow — `.devin/workflows/amos-context-state-maintenance-rscf-workflow.md`
+- amos-contravariance-alignment-rscf-engine-workflow — `.devin/workflows/amos-contravariance-alignment-rscf-engine-workflow.md`
+- amos-core19-logic-kernel-workflow — `.devin/workflows/amos-core19-logic-kernel-workflow.md`
+- amos-cost-aware-test-supervision-rscf-workflow — `.devin/workflows/amos-cost-aware-test-supervision-rscf-workflow.md`
+- amos-counterfactual-reasoning-governor-workflow — `.devin/workflows/amos-counterfactual-reasoning-governor-workflow.md`
+- amos-counterfactual-selfhood-mapper-workflow — `.devin/workflows/amos-counterfactual-selfhood-mapper-workflow.md`
+- amos-cross-architecture-tensor-engine-workflow — `.devin/workflows/amos-cross-architecture-tensor-engine-workflow.md`
+- amos-cross-scale-rscf-tensor-engine-workflow — `.devin/workflows/amos-cross-scale-rscf-tensor-engine-workflow.md`
+- amos-cross-species-cognition-mapper-workflow — `.devin/workflows/amos-cross-species-cognition-mapper-workflow.md`
+- amos-dependency-environment-reconstruction-rscf-workflow — `.devin/workflows/amos-dependency-environment-reconstruction-rscf-workflow.md`
+- amos-design-visual-rscf-engine-workflow — `.devin/workflows/amos-design-visual-rscf-engine-workflow.md`
+- amos-designer-os-workflow — `.devin/workflows/amos-designer-os-workflow.md`
+- amos-deterministic-ai-control-plane-workflow — `.devin/workflows/amos-deterministic-ai-control-plane-workflow.md`
+- amos-direct-corpus-search-rscf-workflow — `.devin/workflows/amos-direct-corpus-search-rscf-workflow.md`
+- amos-distinct-working-memory-rscf-workflow — `.devin/workflows/amos-distinct-working-memory-rscf-workflow.md`
+- amos-distinction-relation-constraint-rscf-algebra-workflow — `.devin/workflows/amos-distinction-relation-constraint-rscf-algebra-workflow.md`
+- amos-distinction-relation-transformation-workflow — `.devin/workflows/amos-distinction-relation-transformation-workflow.md`
+- amos-distinction-rscf-architecture-workflow — `.devin/workflows/amos-distinction-rscf-architecture-workflow.md`
+- amos-distributed-attack-composition-monitor-rscf-workflow — `.devin/workflows/amos-distributed-attack-composition-monitor-rscf-workflow.md`
+- amos-distributed-causal-evolution-rscf-engine-workflow — `.devin/workflows/amos-distributed-causal-evolution-rscf-engine-workflow.md`
+- amos-economic-model-workflow — `.devin/workflows/amos-economic-model-workflow.md`
+- amos-economy-internet-money-rscf-engine-workflow — `.devin/workflows/amos-economy-internet-money-rscf-engine-workflow.md`
+- amos-emergent-social-intelligence-risk-rscf-workflow — `.devin/workflows/amos-emergent-social-intelligence-risk-rscf-workflow.md`
+- amos-entropy-lacunarity-governor-workflow — `.devin/workflows/amos-entropy-lacunarity-governor-workflow.md`
+- amos-ethics-os-governor-workflow — `.devin/workflows/amos-ethics-os-governor-workflow.md`
+- amos-execution-provenance-replay-rscf-workflow — `.devin/workflows/amos-execution-provenance-replay-rscf-workflow.md`
+- amos-forex-os-workflow — `.devin/workflows/amos-forex-os-workflow.md`
+- amos-forex-unified-os-updated-workflow — `.devin/workflows/amos-forex-unified-os-updated-workflow.md`
+- amos-forex-unified-os-workflow — `.devin/workflows/amos-forex-unified-os-workflow.md`
+- amos-formal-agent-skill-verification-rscf-workflow — `.devin/workflows/amos-formal-agent-skill-verification-rscf-workflow.md`
+- amos-formal-engines-master-workflow — `.devin/workflows/amos-formal-engines-master-workflow.md`
+- amos-formal-model-checking-orchestrator-rscf-workflow — `.devin/workflows/amos-formal-model-checking-orchestrator-rscf-workflow.md`
+- amos-formally-verified-migration-rscf-workflow — `.devin/workflows/amos-formally-verified-migration-rscf-workflow.md`
+- amos-fractal-math-workflow — `.devin/workflows/amos-fractal-math-workflow.md`
+- amos-fractal-systems-master-workflow — `.devin/workflows/amos-fractal-systems-master-workflow.md`
+- amos-framework-registry-compiler-workflow — `.devin/workflows/amos-framework-registry-compiler-workflow.md`
+- amos-full-brain-os-workflow — `.devin/workflows/amos-full-brain-os-workflow.md`
+- amos-future-debt-option-value-governor-workflow — `.devin/workflows/amos-future-debt-option-value-governor-workflow.md`
+- amos-fx-bayesian-neural-sde-calibration-rscf-engine-workflow — `.devin/workflows/amos-fx-bayesian-neural-sde-calibration-rscf-engine-workflow.md`
+- amos-fx-carry-differential-engine-workflow — `.devin/workflows/amos-fx-carry-differential-engine-workflow.md`
+- amos-fx-conformal-tail-risk-control-rscf-engine-workflow — `.devin/workflows/amos-fx-conformal-tail-risk-control-rscf-engine-workflow.md`
+- amos-fx-gaussian-process-surface-rscf-engine-workflow — `.devin/workflows/amos-fx-gaussian-process-surface-rscf-engine-workflow.md`
+- amos-fx-macro-differential-mapper-workflow — `.devin/workflows/amos-fx-macro-differential-mapper-workflow.md`
+- amos-fx-options-implied-distribution-workflow — `.devin/workflows/amos-fx-options-implied-distribution-workflow.md`
+- amos-fx-predictive-fractal-engine-workflow — `.devin/workflows/amos-fx-predictive-fractal-engine-workflow.md`
+- amos-fx-quantile-distribution-rscf-engine-workflow — `.devin/workflows/amos-fx-quantile-distribution-rscf-engine-workflow.md`
+- amos-fx-realized-garch-autoencoder-rscf-engine-workflow — `.devin/workflows/amos-fx-realized-garch-autoencoder-rscf-engine-workflow.md`
+- amos-fx-realized-kernel-microstructure-rscf-engine-workflow — `.devin/workflows/amos-fx-realized-kernel-microstructure-rscf-engine-workflow.md`
+- amos-fx-rough-heston-rscf-engine-workflow — `.devin/workflows/amos-fx-rough-heston-rscf-engine-workflow.md`
+- amos-fx-state-space-kalman-engine-workflow — `.devin/workflows/amos-fx-state-space-kalman-engine-workflow.md`
+- amos-fx-stochastic-correlation-rscf-engine-workflow — `.devin/workflows/amos-fx-stochastic-correlation-rscf-engine-workflow.md`
+- amos-fx-tensor-train-greeks-rscf-engine-workflow — `.devin/workflows/amos-fx-tensor-train-greeks-rscf-engine-workflow.md`
+- amos-fx-threshold-vecm-rscf-engine-workflow — `.devin/workflows/amos-fx-threshold-vecm-rscf-engine-workflow.md`
+- amos-fx-typed-tensor-contract-rscf-engine-workflow — `.devin/workflows/amos-fx-typed-tensor-contract-rscf-engine-workflow.md`
+- amos-fx-vecm-cointegration-rscf-engine-workflow — `.devin/workflows/amos-fx-vecm-cointegration-rscf-engine-workflow.md`
+- amos-genetic-stability-auditor-workflow — `.devin/workflows/amos-genetic-stability-auditor-workflow.md`
+- amos-ghost-code-symbolic-execution-rscf-workflow — `.devin/workflows/amos-ghost-code-symbolic-execution-rscf-workflow.md`
+- amos-github-rscf-ingestion-workflow — `.devin/workflows/amos-github-rscf-ingestion-workflow.md`
+- amos-goal-plan-action-alignment-rscf-workflow — `.devin/workflows/amos-goal-plan-action-alignment-rscf-workflow.md`
+- amos-governed-executable-knowledge-repair-rscf-workflow — `.devin/workflows/amos-governed-executable-knowledge-repair-rscf-workflow.md`
+- amos-gradient-rscf-architecture-workflow — `.devin/workflows/amos-gradient-rscf-architecture-workflow.md`
+- amos-growth-graph-workflow — `.devin/workflows/amos-growth-graph-workflow.md`
+- amos-heritage-decision-intelligence-workflow — `.devin/workflows/amos-heritage-decision-intelligence-workflow.md`
+- amos-heterogeneous-exploration-cohort-rscf-workflow — `.devin/workflows/amos-heterogeneous-exploration-cohort-rscf-workflow.md`
+- amos-hierarchical-stack-orchestration-rscf-workflow — `.devin/workflows/amos-hierarchical-stack-orchestration-rscf-workflow.md`
+- amos-hourglass-induction-rscf-workflow — `.devin/workflows/amos-hourglass-induction-rscf-workflow.md`
+- amos-human-biology-fractal-rscf-engine-workflow — `.devin/workflows/amos-human-biology-fractal-rscf-engine-workflow.md`
+- amos-human-state-ontology-mapper-workflow — `.devin/workflows/amos-human-state-ontology-mapper-workflow.md`
+- amos-information-boundary-governor-workflow — `.devin/workflows/amos-information-boundary-governor-workflow.md`
+- amos-information-collapse-topology-workflow — `.devin/workflows/amos-information-collapse-topology-workflow.md`
+- amos-information-exposure-control-workflow — `.devin/workflows/amos-information-exposure-control-workflow.md`
+- amos-information-geometry-mapper-workflow — `.devin/workflows/amos-information-geometry-mapper-workflow.md`
+- amos-information-operator-engine-workflow — `.devin/workflows/amos-information-operator-engine-workflow.md`
+- amos-information-theory-master-workflow — `.devin/workflows/amos-information-theory-master-workflow.md`
+- amos-infrastructure-control-plane-workflow — `.devin/workflows/amos-infrastructure-control-plane-workflow.md`
+- amos-instinct-pattern-governor-workflow — `.devin/workflows/amos-instinct-pattern-governor-workflow.md`
+- amos-interactive-evaluation-design-rscf-workflow — `.devin/workflows/amos-interactive-evaluation-design-rscf-workflow.md`
+- amos-interprocedural-callgraph-rscf-workflow — `.devin/workflows/amos-interprocedural-callgraph-rscf-workflow.md`
+- amos-invariant-tensor-kernel-workflow — `.devin/workflows/amos-invariant-tensor-kernel-workflow.md`
+- amos-knowledge-epistemology-rscf-engine-workflow — `.devin/workflows/amos-knowledge-epistemology-rscf-engine-workflow.md`
+- amos-knowledge-harvest-runtime-workflow — `.devin/workflows/amos-knowledge-harvest-runtime-workflow.md`
+- amos-knowledge-research-master-workflow — `.devin/workflows/amos-knowledge-research-master-workflow.md`
+- amos-language-equation-rscf-engine-workflow — `.devin/workflows/amos-language-equation-rscf-engine-workflow.md`
+- amos-law-hierarchy-resolver-workflow — `.devin/workflows/amos-law-hierarchy-resolver-workflow.md`
+- amos-llm-judge-bias-geometry-rscf-workflow — `.devin/workflows/amos-llm-judge-bias-geometry-rscf-workflow.md`
+- amos-long-context-ci-repository-reasoning-rscf-workflow — `.devin/workflows/amos-long-context-ci-repository-reasoning-rscf-workflow.md`
+- amos-managed-autonomy-escalation-rscf-workflow — `.devin/workflows/amos-managed-autonomy-escalation-rscf-workflow.md`
+- amos-mark-operator-rscf-engine-workflow — `.devin/workflows/amos-mark-operator-rscf-engine-workflow.md`
+- amos-mathematical-rigor-rscf-kernel-workflow — `.devin/workflows/amos-mathematical-rigor-rscf-kernel-workflow.md`
+- amos-measurement-integrity-auditor-workflow — `.devin/workflows/amos-measurement-integrity-auditor-workflow.md`
+- amos-mechmath-research-orchestration-rscf-workflow — `.devin/workflows/amos-mechmath-research-orchestration-rscf-workflow.md`
+- amos-memory-conflict-governor-workflow — `.devin/workflows/amos-memory-conflict-governor-workflow.md`
+- amos-memory-execution-graph-attribution-rscf-workflow — `.devin/workflows/amos-memory-execution-graph-attribution-rscf-workflow.md`
+- amos-memory-immune-system-workflow — `.devin/workflows/amos-memory-immune-system-workflow.md`
+- amos-memory-systems-master-workflow — `.devin/workflows/amos-memory-systems-master-workflow.md`
+- amos-metacognitive-confidence-auditor-workflow — `.devin/workflows/amos-metacognitive-confidence-auditor-workflow.md`
+- amos-morphogenesis-mapper-workflow — `.devin/workflows/amos-morphogenesis-mapper-workflow.md`
+- amos-multimodal-perception-layer-workflow — `.devin/workflows/amos-multimodal-perception-layer-workflow.md`
+- amos-narrative-integrity-governor-workflow — `.devin/workflows/amos-narrative-integrity-governor-workflow.md`
+- amos-natural-evidence-trail-reasoning-rscf-workflow — `.devin/workflows/amos-natural-evidence-trail-reasoning-rscf-workflow.md`
+- amos-neural-computation-mapper-workflow — `.devin/workflows/amos-neural-computation-mapper-workflow.md`
+- amos-neural-ode-dynamics-rscf-engine-workflow — `.devin/workflows/amos-neural-ode-dynamics-rscf-engine-workflow.md`
+- amos-observability-driven-harness-evolution-rscf-workflow — `.devin/workflows/amos-observability-driven-harness-evolution-rscf-workflow.md`
+- amos-ontology-compiler-workflow — `.devin/workflows/amos-ontology-compiler-workflow.md`
+- amos-organism-os-workflow — `.devin/workflows/amos-organism-os-workflow.md`
+- amos-os-kernel-workflow — `.devin/workflows/amos-os-kernel-workflow.md`
+- amos-os-runtime-master-workflow — `.devin/workflows/amos-os-runtime-master-workflow.md`
+- amos-paper-rscf-compiler-workflow — `.devin/workflows/amos-paper-rscf-compiler-workflow.md`
+- amos-persistence-dissolution-rscf-dynamics-workflow — `.devin/workflows/amos-persistence-dissolution-rscf-dynamics-workflow.md`
+- amos-portable-agent-authorization-rscf-workflow — `.devin/workflows/amos-portable-agent-authorization-rscf-workflow.md`
+- amos-prediction-governance-workflow — `.devin/workflows/amos-prediction-governance-workflow.md`
+- amos-principal-trust-governance-rscf-workflow — `.devin/workflows/amos-principal-trust-governance-rscf-workflow.md`
+- amos-procedural-repository-retrieval-rscf-workflow — `.devin/workflows/amos-procedural-repository-retrieval-rscf-workflow.md`
+- amos-process-compliance-auditor-rscf-workflow — `.devin/workflows/amos-process-compliance-auditor-rscf-workflow.md`
+- amos-program-slicing-taint-rscf-workflow — `.devin/workflows/amos-program-slicing-taint-rscf-workflow.md`
+- amos-prompt-domain-control-rscf-engine-workflow — `.devin/workflows/amos-prompt-domain-control-rscf-engine-workflow.md`
+- amos-proof-loss-diagnostic-reconstruction-rscf-workflow — `.devin/workflows/amos-proof-loss-diagnostic-reconstruction-rscf-workflow.md`
+- amos-provenance-sybil-hardening-rscf-engine-workflow — `.devin/workflows/amos-provenance-sybil-hardening-rscf-engine-workflow.md`
+- amos-provenance-trust-firewall-workflow — `.devin/workflows/amos-provenance-trust-firewall-workflow.md`
+- amos-qls-qic-substrate-mapper-workflow — `.devin/workflows/amos-qls-qic-substrate-mapper-workflow.md`
+- amos-qls-substrate-workflow — `.devin/workflows/amos-qls-substrate-workflow.md`
+- amos-reality-meta-law-auditor-workflow — `.devin/workflows/amos-reality-meta-law-auditor-workflow.md`
+- amos-reality-simulation-distinction-workflow — `.devin/workflows/amos-reality-simulation-distinction-workflow.md`
+- amos-recursive-observer-contamination-workflow — `.devin/workflows/amos-recursive-observer-contamination-workflow.md`
+- amos-regulated-clinical-agent-evolution-rscf-workflow — `.devin/workflows/amos-regulated-clinical-agent-evolution-rscf-workflow.md`
+- amos-repair-allocation-optimizer-workflow — `.devin/workflows/amos-repair-allocation-optimizer-workflow.md`
+- amos-repair-harm-auditor-workflow — `.devin/workflows/amos-repair-harm-auditor-workflow.md`
+- amos-repair-priority-governor-workflow — `.devin/workflows/amos-repair-priority-governor-workflow.md`
+- amos-repair-substrate-capture-resistance-rscf-workflow — `.devin/workflows/amos-repair-substrate-capture-resistance-rscf-workflow.md`
+- amos-repository-ast-analysis-rscf-workflow — `.devin/workflows/amos-repository-ast-analysis-rscf-workflow.md`
+- amos-repository-knowledge-acquisition-rscf-workflow — `.devin/workflows/amos-repository-knowledge-acquisition-rscf-workflow.md`
+- amos-representation-aware-bug-localization-rscf-workflow — `.devin/workflows/amos-representation-aware-bug-localization-rscf-workflow.md`
+- amos-research-agent-workflow — `.devin/workflows/amos-research-agent-workflow.md`
+- amos-retrieval-conditioned-orchestration-budget-rscf-workflow — `.devin/workflows/amos-retrieval-conditioned-orchestration-budget-rscf-workflow.md`
+- amos-risk-constraint-governor-workflow — `.devin/workflows/amos-risk-constraint-governor-workflow.md`
+- amos-rscf-epistemic-master-workflow — `.devin/workflows/amos-rscf-epistemic-master-workflow.md`
+- amos-runtime-benchmarking-workflow — `.devin/workflows/amos-runtime-benchmarking-workflow.md`
+- amos-runtime-context-reuse-rscf-workflow — `.devin/workflows/amos-runtime-context-reuse-rscf-workflow.md`
+- amos-sae-benchmark-reliability-rscf-engine-workflow — `.devin/workflows/amos-sae-benchmark-reliability-rscf-engine-workflow.md`
+- amos-sae-semantic-transport-rscf-engine-workflow — `.devin/workflows/amos-sae-semantic-transport-rscf-engine-workflow.md`
+- amos-scientific-assumption-semantic-differencing-rscf-workflow — `.devin/workflows/amos-scientific-assumption-semantic-differencing-rscf-workflow.md`
+- amos-scientific-closure-governor-rscf-workflow — `.devin/workflows/amos-scientific-closure-governor-rscf-workflow.md`
+- amos-security-safety-master-workflow — `.devin/workflows/amos-security-safety-master-workflow.md`
+- amos-self-regulated-simulative-planning-rscf-workflow — `.devin/workflows/amos-self-regulated-simulative-planning-rscf-workflow.md`
+- amos-semantic-grounding-auditor-workflow — `.devin/workflows/amos-semantic-grounding-auditor-workflow.md`
+- amos-semantic-token-flow-firewall-rscf-workflow — `.devin/workflows/amos-semantic-token-flow-firewall-rscf-workflow.md`
+- amos-semantic-workflow-persistence-rscf-workflow — `.devin/workflows/amos-semantic-workflow-persistence-rscf-workflow.md`
+- amos-sensory-map-integrator-workflow — `.devin/workflows/amos-sensory-map-integrator-workflow.md`
+- amos-session-control-plane-workflow — `.devin/workflows/amos-session-control-plane-workflow.md`
+- amos-skill-builder-workflow — `.devin/workflows/amos-skill-builder-workflow.md`
+- amos-source-reading-rscf-engine-workflow — `.devin/workflows/amos-source-reading-rscf-engine-workflow.md`
+- amos-source-reading-rscf-workflow — `.devin/workflows/amos-source-reading-rscf-workflow.md`
+- amos-ssa-ir-compiler-rscf-workflow — `.devin/workflows/amos-ssa-ir-compiler-rscf-workflow.md`
+- amos-strict-fractal-equation-rscf-registry-workflow — `.devin/workflows/amos-strict-fractal-equation-rscf-registry-workflow.md`
+- amos-structured-document-parsing-rscf-workflow — `.devin/workflows/amos-structured-document-parsing-rscf-workflow.md`
+- amos-structured-execution-graph-rscf-workflow — `.devin/workflows/amos-structured-execution-graph-rscf-workflow.md`
+- amos-super-engines-master-workflow — `.devin/workflows/amos-super-engines-master-workflow.md`
+- amos-symbolic-path-reasoning-rscf-workflow — `.devin/workflows/amos-symbolic-path-reasoning-rscf-workflow.md`
+- amos-symbolic-translation-repair-rscf-workflow — `.devin/workflows/amos-symbolic-translation-repair-rscf-workflow.md`
+- amos-system-completion-auditor-workflow — `.devin/workflows/amos-system-completion-auditor-workflow.md`
+- amos-target-of-repair-intelligence-workflow — `.devin/workflows/amos-target-of-repair-intelligence-workflow.md`
+- amos-temporal-multiscale-rscf-engine-workflow — `.devin/workflows/amos-temporal-multiscale-rscf-engine-workflow.md`
+- amos-tensor-accelerator-activity-rscf-engine-workflow — `.devin/workflows/amos-tensor-accelerator-activity-rscf-engine-workflow.md`
+- amos-tensor-network-contraction-sketch-rscf-engine-workflow — `.devin/workflows/amos-tensor-network-contraction-sketch-rscf-engine-workflow.md`
+- amos-tensor-train-sketching-rscf-engine-workflow — `.devin/workflows/amos-tensor-train-sketching-rscf-engine-workflow.md`
+- amos-time-series-conformal-uq-rscf-engine-workflow — `.devin/workflows/amos-time-series-conformal-uq-rscf-engine-workflow.md`
+- amos-tool-grounded-configuration-repair-rscf-workflow — `.devin/workflows/amos-tool-grounded-configuration-repair-rscf-workflow.md`
+- amos-trajectory-bug-specification-refinement-rscf-workflow — `.devin/workflows/amos-trajectory-bug-specification-refinement-rscf-workflow.md`
+- amos-trang-framework-master-workflow — `.devin/workflows/amos-trang-framework-master-workflow.md`
+- amos-transformation-quest-engine-workflow — `.devin/workflows/amos-transformation-quest-engine-workflow.md`
+- amos-translation-rscf-architecture-workflow — `.devin/workflows/amos-translation-rscf-architecture-workflow.md`
+- amos-trust-formation-governor-workflow — `.devin/workflows/amos-trust-formation-governor-workflow.md`
+- amos-universal-coordinate-rscf-engine-workflow — `.devin/workflows/amos-universal-coordinate-rscf-engine-workflow.md`
+- amos-universal-coordinate-system-workflow — `.devin/workflows/amos-universal-coordinate-system-workflow.md`
+- amos-universal-variable-registry-rscf-engine-workflow — `.devin/workflows/amos-universal-variable-registry-rscf-engine-workflow.md`
+- amos-universe-viability-modeler-workflow — `.devin/workflows/amos-universe-viability-modeler-workflow.md`
+- amos-unreachable-semantics-rscf-workflow — `.devin/workflows/amos-unreachable-semantics-rscf-workflow.md`
+- amos-ust-structure-mapper-workflow — `.devin/workflows/amos-ust-structure-mapper-workflow.md`
+- amos-verification-aware-implementation-diversity-rscf-workflow — `.devin/workflows/amos-verification-aware-implementation-diversity-rscf-workflow.md`
+- arxiv-activation-checkpointing-rscf-workflow — `.devin/workflows/arxiv-activation-checkpointing-rscf-workflow.md`
+- amos-arxiv-agent-memory-dynamics-rscf-workflow — `.devin/workflows/amos-arxiv-agent-memory-dynamics-rscf-workflow.md`
+- arxiv-anytime-pac-bayes-density-ratio-rscf-workflow — `.devin/workflows/arxiv-anytime-pac-bayes-density-ratio-rscf-workflow.md`
+- arxiv-autosota-research-automation-rscf-workflow — `.devin/workflows/arxiv-autosota-research-automation-rscf-workflow.md`
+- arxiv-cdfm-causal-discovery-foundation-rscf-workflow — `.devin/workflows/arxiv-cdfm-causal-discovery-foundation-rscf-workflow.md`
+- arxiv-constrained-structured-decoding-rscf-workflow — `.devin/workflows/arxiv-constrained-structured-decoding-rscf-workflow.md`
+- arxiv-data-mixture-optimization-rscf-workflow — `.devin/workflows/arxiv-data-mixture-optimization-rscf-workflow.md`
+- arxiv-flash-attention-io-rscf-workflow — `.devin/workflows/arxiv-flash-attention-io-rscf-workflow.md`
+- arxiv-flow-matching-generative-rscf-workflow — `.devin/workflows/arxiv-flow-matching-generative-rscf-workflow.md`
+- arxiv-future-confidence-distillation-rscf-workflow — `.devin/workflows/arxiv-future-confidence-distillation-rscf-workflow.md`
+- arxiv-geometric-causal-models-rscf-workflow — `.devin/workflows/arxiv-geometric-causal-models-rscf-workflow.md`
+- arxiv-grapheval-reasoning-coherence-rscf-workflow — `.devin/workflows/arxiv-grapheval-reasoning-coherence-rscf-workflow.md`
+- arxiv-grouped-query-attention-rscf-workflow — `.devin/workflows/arxiv-grouped-query-attention-rscf-workflow.md`
+- arxiv-grpo-reasoning-policy-rscf-workflow — `.devin/workflows/arxiv-grpo-reasoning-policy-rscf-workflow.md`
+- arxiv-kv-cache-quantization-rscf-workflow — `.devin/workflows/arxiv-kv-cache-quantization-rscf-workflow.md`
+- arxiv-llm-judge-bias-geometry-rscf-workflow — `.devin/workflows/arxiv-llm-judge-bias-geometry-rscf-workflow.md`
+- arxiv-long-context-rope-scaling-rscf-workflow — `.devin/workflows/arxiv-long-context-rope-scaling-rscf-workflow.md`
+- arxiv-manifold-constrained-conformal-spatial-rscf-workflow — `.devin/workflows/arxiv-manifold-constrained-conformal-spatial-rscf-workflow.md`
+- arxiv-mixture-of-depths-rscf-workflow — `.devin/workflows/arxiv-mixture-of-depths-rscf-workflow.md`
+- arxiv-pac-bayes-piml-generalization-rscf-workflow — `.devin/workflows/arxiv-pac-bayes-piml-generalization-rscf-workflow.md`
+- arxiv-rag-evaluation-rscf-workflow — `.devin/workflows/arxiv-rag-evaluation-rscf-workflow.md`
+- arxiv-selective-state-space-rscf-workflow — `.devin/workflows/arxiv-selective-state-space-rscf-workflow.md`
+- arxiv-sparse-attention-scaling-rscf-workflow — `.devin/workflows/arxiv-sparse-attention-scaling-rscf-workflow.md`
+- arxiv-streaming-attention-sinks-rscf-workflow — `.devin/workflows/arxiv-streaming-attention-sinks-rscf-workflow.md`
+- arxiv-structured-gp-omics-uq-rscf-workflow — `.devin/workflows/arxiv-structured-gp-omics-uq-rscf-workflow.md`
+- arxiv-test-time-compute-scaling-rscf-workflow — `.devin/workflows/arxiv-test-time-compute-scaling-rscf-workflow.md`
+- arxiv-test-time-training-rscf-workflow — `.devin/workflows/arxiv-test-time-training-rscf-workflow.md`
+- bluebook-strategy-system-workflow — `.devin/workflows/bluebook-strategy-system-workflow.md`
+- cosmo-human-problem-architecture-workflow — `.devin/workflows/cosmo-human-problem-architecture-workflow.md`
+- docx-workflow — `.devin/workflows/docx-workflow.md`
+- executive-deck-decision-system-workflow — `.devin/workflows/executive-deck-decision-system-workflow.md`
+- frontend-engineering-qa-workflow — `.devin/workflows/frontend-engineering-qa-workflow.md`
+- gmef-governance-workflow — `.devin/workflows/gmef-governance-workflow.md`
+- mckinsey-architecture-reference-transfer-rscf-workflow — `.devin/workflows/mckinsey-architecture-reference-transfer-rscf-workflow.md`
+- mckinsey-banking-crm-assessment-rscf-workflow — `.devin/workflows/mckinsey-banking-crm-assessment-rscf-workflow.md`
+- mckinsey-commercial-due-diligence-rscf-workflow — `.devin/workflows/mckinsey-commercial-due-diligence-rscf-workflow.md`
+- mckinsey-credit-lending-rscf-workflow — `.devin/workflows/mckinsey-credit-lending-rscf-workflow.md`
+- mckinsey-customer-journey-planning-rscf-workflow — `.devin/workflows/mckinsey-customer-journey-planning-rscf-workflow.md`
+- mckinsey-designops-agile-transformation-rscf-workflow — `.devin/workflows/mckinsey-designops-agile-transformation-rscf-workflow.md`
+- mckinsey-digital-bank-value-proposition-rscf-workflow — `.devin/workflows/mckinsey-digital-bank-value-proposition-rscf-workflow.md`
+- mckinsey-digital-strategy-rscf-workflow — `.devin/workflows/mckinsey-digital-strategy-rscf-workflow.md`
+- mckinsey-enterprise-data-transformation-rscf-workflow — `.devin/workflows/mckinsey-enterprise-data-transformation-rscf-workflow.md`
+- mckinsey-framework-navigator-workflow — `.devin/workflows/mckinsey-framework-navigator-workflow.md`
+- mckinsey-healthcare-strategy-rscf-workflow — `.devin/workflows/mckinsey-healthcare-strategy-rscf-workflow.md`
+- mckinsey-human-centered-design-rscf-workflow — `.devin/workflows/mckinsey-human-centered-design-rscf-workflow.md`
+- mckinsey-partnership-ecosystem-strategy-rscf-workflow — `.devin/workflows/mckinsey-partnership-ecosystem-strategy-rscf-workflow.md`
+- mckinsey-public-sector-transformation-rscf-workflow — `.devin/workflows/mckinsey-public-sector-transformation-rscf-workflow.md`
+- mckinsey-purpose-impact-rscf-workflow — `.devin/workflows/mckinsey-purpose-impact-rscf-workflow.md`
+- mckinsey-recruiting-workforce-acquisition-rscf-workflow — `.devin/workflows/mckinsey-recruiting-workforce-acquisition-rscf-workflow.md`
+- mckinsey-strategy-portfolio-engine-workflow — `.devin/workflows/mckinsey-strategy-portfolio-engine-workflow.md`
+- mckinsey-technology-company-strategy-rscf-workflow — `.devin/workflows/mckinsey-technology-company-strategy-rscf-workflow.md`
+- mckinsey-technology-product-governance-rscf-workflow — `.devin/workflows/mckinsey-technology-product-governance-rscf-workflow.md`
+- mckinsey-technology-sales-excellence-rscf-workflow — `.devin/workflows/mckinsey-technology-sales-excellence-rscf-workflow.md`
+- mckinsey-transaction-banking-diagnostic-rscf-workflow — `.devin/workflows/mckinsey-transaction-banking-diagnostic-rscf-workflow.md`
+- mckinsey-transformation-org-structure-rscf-workflow — `.devin/workflows/mckinsey-transformation-org-structure-rscf-workflow.md`
+- mckinsey-value-delivery-rscf-workflow — `.devin/workflows/mckinsey-value-delivery-rscf-workflow.md`
+- mckinsey-wealth-management-rscf-workflow — `.devin/workflows/mckinsey-wealth-management-rscf-workflow.md`
+- pdfs-workflow — `.devin/workflows/pdfs-workflow.md`
+- rscf-modeler-workflow — `.devin/workflows/rscf-modeler-workflow.md`
+- skill-creator-workflow — `.devin/workflows/skill-creator-workflow.md`
+- slides-workflow — `.devin/workflows/slides-workflow.md`
+- software-engineering-qa-workflow — `.devin/workflows/software-engineering-qa-workflow.md`
+- spreadsheets-workflow — `.devin/workflows/spreadsheets-workflow.md`
+
+## `apps/` (701 files)
+
+- .env — `apps/admin/.env.md`
+- .eslintrc — `apps/admin/.eslintrc.md`
+- build — `apps/admin/apps/practitioner/scripts/build.md`
+- next.config — `apps/admin/next.config.md`
+- package — `apps/admin/package.md`
+- build — `apps/admin/scripts/build.md`
+- 403 — `apps/admin/src/app/403.md`
+- page — `apps/admin/src/app/analytics/page.md`
+- route — `apps/admin/src/app/api/feature-flags/route.md`
+- page — `apps/admin/src/app/content/page.md`
+- error — `apps/admin/src/app/error.md`
+- globals — `apps/admin/src/app/globals.md`
+- layout — `apps/admin/src/app/layout.md`
+- loading — `apps/admin/src/app/loading.md`
+- not-found — `apps/admin/src/app/not-found.md`
+- page — `apps/admin/src/app/page.md`
+- robots — `apps/admin/src/app/robots.md`
+- page — `apps/admin/src/app/settings/page.md`
+- page — `apps/admin/src/app/users/[id]/page.md`
+- page — `apps/admin/src/app/users/page.md`
+- ChartPlaceholder — `apps/admin/src/components/ChartPlaceholder.md`
+- Charts — `apps/admin/src/components/Charts.md`
+- CommandPalette — `apps/admin/src/components/CommandPalette.md`
+- DataTable — `apps/admin/src/components/DataTable.md`
+- ErrorBoundary — `apps/admin/src/components/ErrorBoundary.md`
+- Sidebar — `apps/admin/src/components/Sidebar.md`
+- StatsCard — `apps/admin/src/components/StatsCard.md`
+- app-routes — `apps/admin/src/lib/app-routes.md`
+- data — `apps/admin/src/lib/data.md`
+- supabase — `apps/admin/src/lib/supabase.md`
+- types — `apps/admin/src/lib/types.md`
+- proxy — `apps/admin/src/proxy.md`
+- tailwind.config — `apps/admin/tailwind.config.md`
+- tsconfig — `apps/admin/tsconfig.md`
+- .env — `apps/mobile/.env.md`
+- .eslintrc — `apps/mobile/.eslintrc.md`
+- (empty) — `apps/mobile/.md`
+- app — `apps/mobile/app.md`
+- _layout — `apps/mobile/app/(tabs)/_layout.md`
+- index — `apps/mobile/app/(tabs)/index.md`
+- profile — `apps/mobile/app/(tabs)/profile.md`
+- _layout — `apps/mobile/app/_layout.md`
+- choice — `apps/mobile/app/choice.md`
+- preview — `apps/mobile/app/gifts/preview.md`
+- recipient — `apps/mobile/app/gifts/recipient.md`
+- type — `apps/mobile/app/gifts/type.md`
+- index — `apps/mobile/app/index.md`
+- gallery — `apps/mobile/app/journey/gallery.md`
+- timeline — `apps/mobile/app/journey/timeline.md`
+- login — `apps/mobile/app/login.md`
+- _layout — `apps/mobile/app/onboarding/_layout.md`
+- goals — `apps/mobile/app/onboarding/goals.md`
+- microphone — `apps/mobile/app/onboarding/microphone.md`
+- preferences — `apps/mobile/app/onboarding/preferences.md`
+- privacy — `apps/mobile/app/onboarding/privacy.md`
+- [id] — `apps/mobile/app/practices/[id].md`
+- player — `apps/mobile/app/practices/[id]/player.md`
+- index — `apps/mobile/app/practices/index.md`
+- presence — `apps/mobile/app/presence.md`
+- privacy — `apps/mobile/app/profile/privacy.md`
+- _layout — `apps/mobile/app/scan/_layout.md`
+- _layout — `apps/mobile/app/scan/artwork/_layout.md`
+- explanation — `apps/mobile/app/scan/artwork/explanation.md`
+- reveal — `apps/mobile/app/scan/artwork/reveal.md`
+- complete — `apps/mobile/app/scan/complete.md`
+- intention — `apps/mobile/app/scan/intention.md`
+- preparation — `apps/mobile/app/scan/preparation.md`
+- recording — `apps/mobile/app/scan/recording.md`
+- reflection — `apps/mobile/app/scan/reflection.md`
+- review — `apps/mobile/app/scan/review.md`
+- type — `apps/mobile/app/scan/type.md`
+- paywall — `apps/mobile/app/subscription/paywall.md`
+- babel.config — `apps/mobile/babel.config.md`
+- Colors — `apps/mobile/constants/Colors.md`
+- AuthContext — `apps/mobile/contexts/AuthContext.md`
+- eas — `apps/mobile/eas.md`
+- supabase — `apps/mobile/lib/supabase.md`
+- metro.config — `apps/mobile/metro.config.md`
+- package — `apps/mobile/package.md`
+- scanFlow.test — `apps/mobile/src/__tests__/integration/scanFlow.test.md`
+- _layout — `apps/mobile/src/app._deprecated/(auth)/_layout.md`
+- forgot-password — `apps/mobile/src/app._deprecated/(auth)/forgot-password.md`
+- login — `apps/mobile/src/app._deprecated/(auth)/login.md`
+- signup — `apps/mobile/src/app._deprecated/(auth)/signup.md`
+- welcome — `apps/mobile/src/app._deprecated/(auth)/welcome.md`
+- _layout — `apps/mobile/src/app._deprecated/(main)/_layout.md`
+- home — `apps/mobile/src/app._deprecated/(main)/home.md`
+- journey — `apps/mobile/src/app._deprecated/(main)/journey.md`
+- profile — `apps/mobile/src/app._deprecated/(main)/profile.md`
+- scan — `apps/mobile/src/app._deprecated/(main)/scan.md`
+- _layout — `apps/mobile/src/app._deprecated/(tabs)/_layout.md`
+- index — `apps/mobile/src/app._deprecated/(tabs)/index.md`
+- journey — `apps/mobile/src/app._deprecated/(tabs)/journey.md`
+- practices — `apps/mobile/src/app._deprecated/(tabs)/practices.md`
+- profile — `apps/mobile/src/app._deprecated/(tabs)/profile.md`
+- _layout — `apps/mobile/src/app._deprecated/_layout.md`
+- [sessionId] — `apps/mobile/src/app._deprecated/comparison/[sessionId].md`
+- recipient — `apps/mobile/src/app._deprecated/gifts/recipient.md`
+- sent — `apps/mobile/src/app._deprecated/gifts/sent.md`
+- type — `apps/mobile/src/app._deprecated/gifts/type.md`
+- index — `apps/mobile/src/app._deprecated/index.md`
+- [id] — `apps/mobile/src/app._deprecated/journey/artwork/[id].md`
+- gallery — `apps/mobile/src/app._deprecated/journey/gallery.md`
+- [id] — `apps/mobile/src/app._deprecated/journey/session/[id].md`
+- timeline — `apps/mobile/src/app._deprecated/journey/timeline.md`
+- _layout — `apps/mobile/src/app._deprecated/onboarding/_layout.md`
+- index — `apps/mobile/src/app._deprecated/onboarding/index.md`
+- after-scan — `apps/mobile/src/app._deprecated/practices/after-scan.md`
+- before-scan — `apps/mobile/src/app._deprecated/practices/before-scan.md`
+- index — `apps/mobile/src/app._deprecated/practices/index.md`
+- presence_mode — `apps/mobile/src/app._deprecated/presence/presence_mode.md`
+- center — `apps/mobile/src/app._deprecated/privacy/center.md`
+- index — `apps/mobile/src/app._deprecated/profile/index.md`
+- privacy_center — `apps/mobile/src/app._deprecated/profile/privacy_center.md`
+- referral — `apps/mobile/src/app._deprecated/referral.md`
+- artworkState.test — `apps/mobile/src/app._deprecated/scan/__tests__/artworkState.test.md`
+- recordingFlow.test — `apps/mobile/src/app._deprecated/scan/__tests__/recordingFlow.test.md`
+- reflectionState.test — `apps/mobile/src/app._deprecated/scan/__tests__/reflectionState.test.md`
+- _layout — `apps/mobile/src/app._deprecated/scan/_layout.md`
+- index — `apps/mobile/src/app._deprecated/scan/artwork/index.md`
+- artworkState — `apps/mobile/src/app._deprecated/scan/artworkState.md`
+- explanation — `apps/mobile/src/app._deprecated/scan/explanation.md`
+- generating — `apps/mobile/src/app._deprecated/scan/generating.md`
+- index — `apps/mobile/src/app._deprecated/scan/index.md`
+- prepare — `apps/mobile/src/app._deprecated/scan/prepare.md`
+- recording — `apps/mobile/src/app._deprecated/scan/recording.md`
+- recordingFlow — `apps/mobile/src/app._deprecated/scan/recordingFlow.md`
+- reflection — `apps/mobile/src/app._deprecated/scan/reflection.md`
+- reflectionState — `apps/mobile/src/app._deprecated/scan/reflectionState.md`
+- save — `apps/mobile/src/app._deprecated/scan/save.md`
+- index — `apps/mobile/src/app._deprecated/settings/account/index.md`
+- index — `apps/mobile/src/app._deprecated/settings/audio-vault/index.md`
+- index — `apps/mobile/src/app._deprecated/settings/data-export/index.md`
+- index — `apps/mobile/src/app._deprecated/settings/delete-account/index.md`
+- index — `apps/mobile/src/app._deprecated/settings/index.md`
+- paywall — `apps/mobile/src/app._deprecated/subscription/paywall.md`
+- index — `apps/mobile/src/app._deprecated_v2/(tabs)/index.md`
+- profile — `apps/mobile/src/app._deprecated_v2/(tabs)/profile.md`
+- choice — `apps/mobile/src/app/(auth)/choice.md`
+- forgot-password — `apps/mobile/src/app/(auth)/forgot-password.md`
+- login — `apps/mobile/src/app/(auth)/login.md`
+- signup — `apps/mobile/src/app/(auth)/signup.md`
+- welcome — `apps/mobile/src/app/(auth)/welcome.md`
+- _layout — `apps/mobile/src/app/(tabs)/_layout.md`
+- community — `apps/mobile/src/app/(tabs)/community.md`
+- index — `apps/mobile/src/app/(tabs)/index.md`
+- journey — `apps/mobile/src/app/(tabs)/journey.md`
+- practices — `apps/mobile/src/app/(tabs)/practices.md`
+- profile — `apps/mobile/src/app/(tabs)/profile.md`
+- scan — `apps/mobile/src/app/(tabs)/scan.md`
+- _layout — `apps/mobile/src/app/_layout.md`
+- [id] — `apps/mobile/src/app/community/circle/[id].md`
+- [sessionId] — `apps/mobile/src/app/comparison/[sessionId].md`
+- create — `apps/mobile/src/app/gifts/create.md`
+- preview — `apps/mobile/src/app/gifts/preview.md`
+- recipient — `apps/mobile/src/app/gifts/recipient.md`
+- sent — `apps/mobile/src/app/gifts/sent.md`
+- type — `apps/mobile/src/app/gifts/type.md`
+- index — `apps/mobile/src/app/index.md`
+- [id] — `apps/mobile/src/app/journey/artwork/[id].md`
+- gallery — `apps/mobile/src/app/journey/gallery.md`
+- insights — `apps/mobile/src/app/journey/insights.md`
+- monthly-summary — `apps/mobile/src/app/journey/monthly-summary.md`
+- music-recommendation — `apps/mobile/src/app/journey/music-recommendation.md`
+- [id] — `apps/mobile/src/app/journey/session/[id].md`
+- timeline — `apps/mobile/src/app/journey/timeline.md`
+- goals — `apps/mobile/src/app/onboarding/goals.md`
+- microphone — `apps/mobile/src/app/onboarding/microphone.md`
+- preferences — `apps/mobile/src/app/onboarding/preferences.md`
+- privacy — `apps/mobile/src/app/onboarding/privacy.md`
+- [id] — `apps/mobile/src/app/practices/[id].md`
+- complete — `apps/mobile/src/app/practices/[id]/complete.md`
+- player — `apps/mobile/src/app/practices/[id]/player.md`
+- before-scan — `apps/mobile/src/app/practices/before-scan.md`
+- index — `apps/mobile/src/app/practices/index.md`
+- after-scan — `apps/mobile/src/app/presence/after-scan.md`
+- setup — `apps/mobile/src/app/presence/setup.md`
+- transition — `apps/mobile/src/app/presence/transition.md`
+- welcome-back — `apps/mobile/src/app/presence/welcome-back.md`
+- audio — `apps/mobile/src/app/privacy/audio.md`
+- center — `apps/mobile/src/app/privacy/center.md`
+- edit — `apps/mobile/src/app/profile/edit.md`
+- index — `apps/mobile/src/app/profile/index.md`
+- referral — `apps/mobile/src/app/profile/referral.md`
+- saved — `apps/mobile/src/app/profile/saved.md`
+- artwork — `apps/mobile/src/app/scan/artwork.md`
+- explanation — `apps/mobile/src/app/scan/explanation.md`
+- generating — `apps/mobile/src/app/scan/generating.md`
+- intention — `apps/mobile/src/app/scan/intention.md`
+- prepare — `apps/mobile/src/app/scan/prepare.md`
+- recording — `apps/mobile/src/app/scan/recording.md`
+- reflection — `apps/mobile/src/app/scan/reflection.md`
+- save — `apps/mobile/src/app/scan/save.md`
+- type — `apps/mobile/src/app/scan/type.md`
+- delete — `apps/mobile/src/app/settings/account/delete.md`
+- index — `apps/mobile/src/app/settings/account/index.md`
+- audio-vault — `apps/mobile/src/app/settings/audio-vault.md`
+- data-export — `apps/mobile/src/app/settings/data-export.md`
+- index — `apps/mobile/src/app/settings/privacy/index.md`
+- checkout — `apps/mobile/src/app/subscription/checkout.md`
+- paywall — `apps/mobile/src/app/subscription/paywall.md`
+- AnimatedCard — `apps/mobile/src/components/AnimatedCard.md`
+- AudioRecorder — `apps/mobile/src/components/AudioRecorder/AudioRecorder.md`
+- index — `apps/mobile/src/components/AudioRecorder/index.md`
+- BottomActionBar — `apps/mobile/src/components/BottomActionBar.md`
+- DataState — `apps/mobile/src/components/DataState.md`
+- ErrorBoundary — `apps/mobile/src/components/ErrorBoundary.md`
+- MobileWaveform — `apps/mobile/src/components/MobileWaveform.md`
+- SectionHeader — `apps/mobile/src/components/SectionHeader.md`
+- WaveSurferWebView — `apps/mobile/src/components/WaveSurferWebView.md`
+- error-boundary — `apps/mobile/src/components/error-boundary.md`
+- index — `apps/mobile/src/components/index.md`
+- providers — `apps/mobile/src/components/providers.md`
+- auth — `apps/mobile/src/hooks/auth.md`
+- index — `apps/mobile/src/hooks/index.md`
+- recording — `apps/mobile/src/hooks/recording.md`
+- toast — `apps/mobile/src/hooks/toast.md`
+- useApiClient — `apps/mobile/src/hooks/useApiClient.md`
+- useGallery — `apps/mobile/src/hooks/useGallery.md`
+- useGift — `apps/mobile/src/hooks/useGift.md`
+- useJourney — `apps/mobile/src/hooks/useJourney.md`
+- usePracticeDetail — `apps/mobile/src/hooks/usePracticeDetail.md`
+- usePractices — `apps/mobile/src/hooks/usePractices.md`
+- useQuery — `apps/mobile/src/hooks/useQuery.md`
+- useScanProcessing — `apps/mobile/src/hooks/useScanProcessing.md`
+- useSessionDetail — `apps/mobile/src/hooks/useSessionDetail.md`
+- useSubscription — `apps/mobile/src/hooks/useSubscription.md`
+- useUploadQueue — `apps/mobile/src/hooks/useUploadQueue.md`
+- auditLogger.test — `apps/mobile/src/lib/__tests__/auditLogger.test.md`
+- consentManager.test — `apps/mobile/src/lib/__tests__/consentManager.test.md`
+- secureStorage.test — `apps/mobile/src/lib/__tests__/secureStorage.test.md`
+- storage.test — `apps/mobile/src/lib/__tests__/storage.test.md`
+- accessibility — `apps/mobile/src/lib/accessibility.md`
+- animations — `apps/mobile/src/lib/animations.md`
+- audioUpload — `apps/mobile/src/lib/audioUpload.md`
+- auditLogger — `apps/mobile/src/lib/auditLogger.md`
+- consentManager — `apps/mobile/src/lib/consentManager.md`
+- errorHandler — `apps/mobile/src/lib/errorHandler.md`
+- query-client — `apps/mobile/src/lib/query-client.md`
+- secureStorage — `apps/mobile/src/lib/secureStorage.md`
+- storage — `apps/mobile/src/lib/storage.md`
+- supabase — `apps/mobile/src/lib/supabase.md`
+- OfflineUploadQueue — `apps/mobile/src/services/OfflineUploadQueue.md`
+- auth — `apps/mobile/src/stores/auth.md`
+- gifts — `apps/mobile/src/stores/gifts.md`
+- index — `apps/mobile/src/stores/index.md`
+- journey — `apps/mobile/src/stores/journey.md`
+- onboarding — `apps/mobile/src/stores/onboarding.md`
+- practices — `apps/mobile/src/stores/practices.md`
+- recording — `apps/mobile/src/stores/recording.md`
+- scan-store — `apps/mobile/src/stores/scan-store.md`
+- subscription — `apps/mobile/src/stores/subscription.md`
+- ui — `apps/mobile/src/stores/ui.md`
+- ComparisonView — `apps/mobile/src/ui/ComparisonView/ComparisonView.md`
+- format — `apps/mobile/src/utils/format.md`
+- moodTags — `apps/mobile/src/utils/moodTags.md`
+- scanType — `apps/mobile/src/utils/scanType.md`
+- tsconfig — `apps/mobile/tsconfig.md`
+- .env — `apps/practitioner/.env.md`
+- package — `apps/practitioner/package.md`
+- 403 — `apps/practitioner/src/app/403.md`
+- page — `apps/practitioner/src/app/bookings/page.md`
+- page — `apps/practitioner/src/app/clients/[id]/page.md`
+- page — `apps/practitioner/src/app/clients/page.md`
+- error — `apps/practitioner/src/app/error.md`
+- globals — `apps/practitioner/src/app/globals.md`
+- layout — `apps/practitioner/src/app/layout.md`
+- loading — `apps/practitioner/src/app/loading.md`
+- not-found — `apps/practitioner/src/app/not-found.md`
+- page — `apps/practitioner/src/app/page.md`
+- page — `apps/practitioner/src/app/profile/page.md`
+- page — `apps/practitioner/src/app/sessions/[id]/page.md`
+- page — `apps/practitioner/src/app/sessions/page.md`
+- page — `apps/practitioner/src/app/settings/page.md`
+- BookingSlot — `apps/practitioner/src/components/BookingSlot.md`
+- CalendarView — `apps/practitioner/src/components/CalendarView.md`
+- ClientCard — `apps/practitioner/src/components/ClientCard.md`
+- CommandPalette — `apps/practitioner/src/components/CommandPalette.md`
+- SessionCard — `apps/practitioner/src/components/SessionCard.md`
+- app-routes — `apps/practitioner/src/lib/app-routes.md`
+- queries — `apps/practitioner/src/lib/queries.md`
+- supabase — `apps/practitioner/src/lib/supabase.md`
+- proxy — `apps/practitioner/src/proxy.md`
+- tailwind.config — `apps/practitioner/tailwind.config.md`
+- .env — `apps/web/.env.md`
+- .eslintrc — `apps/web/.eslintrc.md`
+- next.config — `apps/web/next.config.md`
+- package — `apps/web/package.md`
+- postcss.config — `apps/web/postcss.config.md`
+- build — `apps/web/scripts/build.md`
+- page — `apps/web/src/_screens_reference/account-choice/page.md`
+- page — `apps/web/src/_screens_reference/account-deletion/page.md`
+- page — `apps/web/src/_screens_reference/account-settings/page.md`
+- page — `apps/web/src/_screens_reference/advanced-biometric-dashboard/page.md`
+- page — `apps/web/src/_screens_reference/after-scan/page.md`
+- page — `apps/web/src/_screens_reference/alignment-error-state/page.md`
+- page — `apps/web/src/_screens_reference/alignment-request-sent-1/page.md`
+- page — `apps/web/src/_screens_reference/alignment-request-sent-2/page.md`
+- page — `apps/web/src/_screens_reference/annual-recap-intro/page.md`
+- page — `apps/web/src/_screens_reference/annual-recap-resonance-art-gallery-enhanced-animation/page.md`
+- page — `apps/web/src/_screens_reference/annual-recap-resonance-art-gallery-interactive-animated/page.md`
+- page — `apps/web/src/_screens_reference/annual-recap-resonance-art-gallery/page.md`
+- page — `apps/web/src/_screens_reference/annual-recap-resonance-stats/page.md`
+- page — `apps/web/src/_screens_reference/annual-recap-soul-signature/page.md`
+- page — `apps/web/src/_screens_reference/annual-recap-transformation-journey/page.md`
+- page — `apps/web/src/_screens_reference/artwork-explanation/page.md`
+- page — `apps/web/src/_screens_reference/artwork-generation/page.md`
+- page — `apps/web/src/_screens_reference/artwork-reveal-1/page.md`
+- page — `apps/web/src/_screens_reference/artwork-reveal-2/page.md`
+- page — `apps/web/src/_screens_reference/ascended-tier-detail-vip/page.md`
+- page — `apps/web/src/_screens_reference/audio-vault/page.md`
+- page — `apps/web/src/_screens_reference/avatar-customization/page.md`
+- page — `apps/web/src/_screens_reference/before-after-comparison/page.md`
+- page — `apps/web/src/_screens_reference/before-scan-option/page.md`
+- page — `apps/web/src/_screens_reference/booking-confirmation-scheduling/page.md`
+- page — `apps/web/src/_screens_reference/booking-flow/page.md`
+- page — `apps/web/src/_screens_reference/booking-success-confirmation/page.md`
+- page — `apps/web/src/_screens_reference/circle-detail/page.md`
+- page — `apps/web/src/_screens_reference/client-export-report/page.md`
+- page — `apps/web/src/_screens_reference/client-journey-tools/page.md`
+- page — `apps/web/src/_screens_reference/community-home/page.md`
+- page — `apps/web/src/_screens_reference/community-rewards-referrals-1/page.md`
+- page — `apps/web/src/_screens_reference/community-rewards-referrals-2/page.md`
+- page — `apps/web/src/_screens_reference/connection-success-beat/page.md`
+- page — `apps/web/src/_screens_reference/connection-success-detail/page.md`
+- page — `apps/web/src/_screens_reference/cosmo-marketplace-1/page.md`
+- page — `apps/web/src/_screens_reference/cosmo-marketplace-2/page.md`
+- page — `apps/web/src/_screens_reference/create-gift-content/page.md`
+- page — `apps/web/src/_screens_reference/create-new-event/page.md`
+- page — `apps/web/src/_screens_reference/customization-success-confirmation/page.md`
+- page — `apps/web/src/_screens_reference/customize-gift/page.md`
+- page — `apps/web/src/_screens_reference/customize-preview-portrait-state/page.md`
+- page — `apps/web/src/_screens_reference/customize-preview-void-black-state/page.md`
+- page — `apps/web/src/_screens_reference/customize-preview/page.md`
+- page — `apps/web/src/_screens_reference/dashboard/page.md`
+- page — `apps/web/src/_screens_reference/delivery-preview/page.md`
+- page — `apps/web/src/_screens_reference/directory/page.md`
+- page — `apps/web/src/_screens_reference/edit-profile-state/page.md`
+- page — `apps/web/src/_screens_reference/experience-preferences/page.md`
+- page — `apps/web/src/_screens_reference/experience/page.md`
+- page — `apps/web/src/_screens_reference/explorer-tier-detail/page.md`
+- page — `apps/web/src/_screens_reference/first-reflection/page.md`
+- page — `apps/web/src/_screens_reference/first-scan-invitation/page.md`
+- page — `apps/web/src/_screens_reference/generation/page.md`
+- page — `apps/web/src/_screens_reference/gift-art-generation/page.md`
+- page — `apps/web/src/_screens_reference/gift-recipient/page.md`
+- page — `apps/web/src/_screens_reference/gift-response-loop/page.md`
+- page — `apps/web/src/_screens_reference/gift-type-selection/page.md`
+- page — `apps/web/src/_screens_reference/gift/[token]/page.md`
+- page — `apps/web/src/_screens_reference/gifts/page.md`
+- page — `apps/web/src/_screens_reference/goal-selection/page.md`
+- page — `apps/web/src/_screens_reference/harmony-established-success-state/page.md`
+- page — `apps/web/src/_screens_reference/home-dashboard-inactive-user/page.md`
+- page — `apps/web/src/_screens_reference/home-dashboard-new-user/page.md`
+- page — `apps/web/src/_screens_reference/home-dashboard-premium-user/page.md`
+- page — `apps/web/src/_screens_reference/home-dashboard-returning-user/page.md`
+- page — `apps/web/src/_screens_reference/home-dashboard/page.md`
+- page — `apps/web/src/_screens_reference/inner-circle-connections/page.md`
+- page — `apps/web/src/_screens_reference/input/page.md`
+- page — `apps/web/src/_screens_reference/intention-setting-1/page.md`
+- page — `apps/web/src/_screens_reference/intention-setting-2/page.md`
+- page — `apps/web/src/_screens_reference/intro/page.md`
+- page — `apps/web/src/_screens_reference/invite-inner-circle/page.md`
+- page — `apps/web/src/_screens_reference/invite-new-seeker/page.md`
+- page — `apps/web/src/_screens_reference/journey-celebration/page.md`
+- page — `apps/web/src/_screens_reference/journey-gallery/page.md`
+- page — `apps/web/src/_screens_reference/journey-insights/page.md`
+- page — `apps/web/src/_screens_reference/journey-timeline/page.md`
+- page — `apps/web/src/_screens_reference/journey/page.md`
+- page — `apps/web/src/_screens_reference/live-session-active/page.md`
+- page — `apps/web/src/_screens_reference/live-session-post-reflection/page.md`
+- page — `apps/web/src/_screens_reference/live-session-waiting-room/page.md`
+- page — `apps/web/src/_screens_reference/location-search-filter-state/page.md`
+- page — `apps/web/src/_screens_reference/marketplace-empty-cart/page.md`
+- page — `apps/web/src/_screens_reference/marketplace-search-filter/page.md`
+- page — `apps/web/src/_screens_reference/marketplace-sessions-category/page.md`
+- page — `apps/web/src/_screens_reference/microphone-permission/page.md`
+- page — `apps/web/src/_screens_reference/monthly-summary/page.md`
+- page — `apps/web/src/_screens_reference/music-recommendation/page.md`
+- page — `apps/web/src/_screens_reference/nexus-search-overlay/page.md`
+- page — `apps/web/src/_screens_reference/onboarding/goals/page.md`
+- page — `apps/web/src/_screens_reference/onboarding/page.md`
+- page — `apps/web/src/_screens_reference/onboarding/preferences/page.md`
+- page — `apps/web/src/_screens_reference/onboarding/privacy/page.md`
+- page — `apps/web/src/_screens_reference/pending-alignment-request-1/page.md`
+- page — `apps/web/src/_screens_reference/pending-alignment-request-2/page.md`
+- page — `apps/web/src/_screens_reference/pending-alignment-request-3/page.md`
+- page — `apps/web/src/_screens_reference/personalization/page.md`
+- page — `apps/web/src/_screens_reference/polarity-confirmation/page.md`
+- page — `apps/web/src/_screens_reference/post-practice-reflection/page.md`
+- page — `apps/web/src/_screens_reference/practice-detail/page.md`
+- page — `apps/web/src/_screens_reference/practice-library/page.md`
+- page — `apps/web/src/_screens_reference/practice-player/page.md`
+- page — `apps/web/src/_screens_reference/practice-selection/page.md`
+- page — `apps/web/src/_screens_reference/practices/page.md`
+- page — `apps/web/src/_screens_reference/practitioner-dashboard-mobile/page.md`
+- page — `apps/web/src/_screens_reference/practitioner-dashboard/page.md`
+- page — `apps/web/src/_screens_reference/practitioner-onboarding/page.md`
+- page — `apps/web/src/_screens_reference/presence-mode-setup/page.md`
+- page — `apps/web/src/_screens_reference/presence-transition/page.md`
+- page — `apps/web/src/_screens_reference/privacy-data-control-1/page.md`
+- page — `apps/web/src/_screens_reference/privacy-data-control-2/page.md`
+- page — `apps/web/src/_screens_reference/privacy-foundation/page.md`
+- page — `apps/web/src/_screens_reference/privacy-management-detail/page.md`
+- page — `apps/web/src/_screens_reference/product-detail-1/page.md`
+- page — `apps/web/src/_screens_reference/product-detail-2/page.md`
+- page — `apps/web/src/_screens_reference/profile-saved-confirmation/page.md`
+- page — `apps/web/src/_screens_reference/public-profile-view/page.md`
+- page — `apps/web/src/_screens_reference/recipient-experience-web/page.md`
+- page — `apps/web/src/_screens_reference/recommendation/page.md`
+- page — `apps/web/src/_screens_reference/recording-review/page.md`
+- page — `apps/web/src/_screens_reference/referral-growth/page.md`
+- page — `apps/web/src/_screens_reference/relay-syncing-selection-state/page.md`
+- page — `apps/web/src/_screens_reference/resonance-interrupted-error-state/page.md`
+- page — `apps/web/src/_screens_reference/resonance-levels/page.md`
+- page — `apps/web/src/_screens_reference/resonance-recording-1/page.md`
+- page — `apps/web/src/_screens_reference/resonance-recording-2/page.md`
+- page — `apps/web/src/_screens_reference/retreat-detail/page.md`
+- page — `apps/web/src/_screens_reference/retreat-discovery/page.md`
+- page — `apps/web/src/_screens_reference/retreat-mode-active/page.md`
+- page — `apps/web/src/_screens_reference/reward-history/page.md`
+- page — `apps/web/src/_screens_reference/sanctuary-anchored-confirmation/page.md`
+- page — `apps/web/src/_screens_reference/sanctuary-anchored-success-state/page.md`
+- page — `apps/web/src/_screens_reference/sanctuary-arrival-orientation/page.md`
+- page — `apps/web/src/_screens_reference/sanctuary-entry-transition/page.md`
+- page — `apps/web/src/_screens_reference/sanctuary-location-selection-1/page.md`
+- page — `apps/web/src/_screens_reference/sanctuary-location-selection-2/page.md`
+- page — `apps/web/src/_screens_reference/sanctuary-realm-detail/page.md`
+- page — `apps/web/src/_screens_reference/save-session-summary/page.md`
+- page — `apps/web/src/_screens_reference/scan-preparation-1/page.md`
+- page — `apps/web/src/_screens_reference/scan-preparation-2/page.md`
+- page — `apps/web/src/_screens_reference/scan-type-selection-1/page.md`
+- page — `apps/web/src/_screens_reference/scan-type-selection-2/page.md`
+- page — `apps/web/src/_screens_reference/search-results-no-matches-found-1/page.md`
+- page — `apps/web/src/_screens_reference/search-results-no-matches-found-2/page.md`
+- page — `apps/web/src/_screens_reference/search-results-no-matches-found-3/page.md`
+- page — `apps/web/src/_screens_reference/search-results-no-matches-found-4/page.md`
+- page — `apps/web/src/_screens_reference/search-results-solaris-1/page.md`
+- page — `apps/web/src/_screens_reference/search-results-solaris-2/page.md`
+- page — `apps/web/src/_screens_reference/searching-the-nexus-active-state-1/page.md`
+- page — `apps/web/src/_screens_reference/searching-the-nexus-active-state-2/page.md`
+- page — `apps/web/src/_screens_reference/searching-the-nexus-active-state-3/page.md`
+- page — `apps/web/src/_screens_reference/searching-the-nexus/page.md`
+- page — `apps/web/src/_screens_reference/secure-checkout-payment-selection/page.md`
+- page — `apps/web/src/_screens_reference/secure-checkout/page.md`
+- page — `apps/web/src/_screens_reference/seeker-discovery-search/page.md`
+- page — `apps/web/src/_screens_reference/seeker-tier-detail-premium/page.md`
+- page — `apps/web/src/_screens_reference/select-product-type/page.md`
+- page — `apps/web/src/_screens_reference/send-gift/page.md`
+- page — `apps/web/src/_screens_reference/session-detail-view/page.md`
+- page — `apps/web/src/_screens_reference/sessions-empty-state/page.md`
+- page — `apps/web/src/_screens_reference/sessions-filter-refinement/page.md`
+- page — `apps/web/src/_screens_reference/shader/page.md`
+- page — `apps/web/src/_screens_reference/sharing-consent-history/page.md`
+- page — `apps/web/src/_screens_reference/social-connection-requests/page.md`
+- page — `apps/web/src/_screens_reference/splash-screen/page.md`
+- page — `apps/web/src/_screens_reference/story-style/page.md`
+- page — `apps/web/src/_screens_reference/subscription-paywall/page.md`
+- page — `apps/web/src/_screens_reference/transaction-processing/page.md`
+- page — `apps/web/src/_screens_reference/transformation-recap/page.md`
+- page — `apps/web/src/_screens_reference/upgrade-success-confirmation/page.md`
+- page — `apps/web/src/_screens_reference/user-profile/page.md`
+- page — `apps/web/src/_screens_reference/value-carousel-page-1/page.md`
+- page — `apps/web/src/_screens_reference/welcome-back/page.md`
+- page — `apps/web/src/_screens_reference/welcome-screen/page.md`
+- page — `apps/web/src/_screens_reference/zero-point-reflection/page.md`
+- page — `apps/web/src/app/account-choice/page.md`
+- page — `apps/web/src/app/account-deletion/page.md`
+- page — `apps/web/src/app/account-settings/page.md`
+- page — `apps/web/src/app/advanced-biometric-dashboard/page.md`
+- page — `apps/web/src/app/after-scan/page.md`
+- page — `apps/web/src/app/alignment-error-state/page.md`
+- page — `apps/web/src/app/alignment-request-sent-1/page.md`
+- page — `apps/web/src/app/alignment-request-sent-2/page.md`
+- page — `apps/web/src/app/annual-recap-intro/page.md`
+- page — `apps/web/src/app/annual-recap-resonance-art-gallery-enhanced-animation/page.md`
+- page — `apps/web/src/app/annual-recap-resonance-art-gallery-interactive-animated/page.md`
+- page — `apps/web/src/app/annual-recap-resonance-art-gallery/page.md`
+- page — `apps/web/src/app/annual-recap-resonance-stats/page.md`
+- page — `apps/web/src/app/annual-recap-soul-signature/page.md`
+- page — `apps/web/src/app/annual-recap-transformation-journey/page.md`
+- route — `apps/web/src/app/api/gift/[token]/route.md`
+- route — `apps/web/src/app/api/health/route.md`
+- route — `apps/web/src/app/api/user/preferences/route.md`
+- page — `apps/web/src/app/artwork-explanation/page.md`
+- page — `apps/web/src/app/artwork-generation/page.md`
+- page — `apps/web/src/app/artwork-reveal-1/page.md`
+- page — `apps/web/src/app/artwork-reveal-2/page.md`
+- page — `apps/web/src/app/ascended-tier-detail-vip/page.md`
+- page — `apps/web/src/app/audio-vault/page.md`
+- page — `apps/web/src/app/auth/callback/page.md`
+- page — `apps/web/src/app/auth/guest/page.md`
+- page — `apps/web/src/app/auth/signin/page.md`
+- page — `apps/web/src/app/auth/signup/page.md`
+- page — `apps/web/src/app/avatar-customization/page.md`
+- page — `apps/web/src/app/before-after-comparison/page.md`
+- page — `apps/web/src/app/before-scan-option/page.md`
+- page — `apps/web/src/app/booking-confirmation-scheduling/page.md`
+- page — `apps/web/src/app/booking-flow/page.md`
+- page — `apps/web/src/app/booking-success-confirmation/page.md`
+- page — `apps/web/src/app/circle-detail/page.md`
+- page — `apps/web/src/app/client-export-report/page.md`
+- page — `apps/web/src/app/client-journey-tools/page.md`
+- page — `apps/web/src/app/community-home/page.md`
+- page — `apps/web/src/app/community-rewards-referrals-1/page.md`
+- page — `apps/web/src/app/community-rewards-referrals-2/page.md`
+- page — `apps/web/src/app/connection-success-beat/page.md`
+- page — `apps/web/src/app/connection-success-detail/page.md`
+- page — `apps/web/src/app/cosmo-marketplace-1/page.md`
+- page — `apps/web/src/app/cosmo-marketplace-2/page.md`
+- page — `apps/web/src/app/create-gift-content/page.md`
+- page — `apps/web/src/app/create-new-event/page.md`
+- page — `apps/web/src/app/customization-success-confirmation/page.md`
+- page — `apps/web/src/app/customize-gift/page.md`
+- page — `apps/web/src/app/customize-preview-portrait-state/page.md`
+- page — `apps/web/src/app/customize-preview-void-black-state/page.md`
+- page — `apps/web/src/app/customize-preview/page.md`
+- page — `apps/web/src/app/dashboard/page.md`
+- page — `apps/web/src/app/delivery-preview/page.md`
+- page — `apps/web/src/app/directory/page.md`
+- page — `apps/web/src/app/edit-profile-state/page.md`
+- error — `apps/web/src/app/error.md`
+- page — `apps/web/src/app/experience-preferences/page.md`
+- page — `apps/web/src/app/experience/page.md`
+- page — `apps/web/src/app/explorer-tier-detail/page.md`
+- page — `apps/web/src/app/first-reflection/page.md`
+- page — `apps/web/src/app/first-scan-invitation/page.md`
+- page — `apps/web/src/app/generation/page.md`
+- page — `apps/web/src/app/gift-art-generation/page.md`
+- page — `apps/web/src/app/gift-recipient/page.md`
+- page — `apps/web/src/app/gift-response-loop/page.md`
+- page — `apps/web/src/app/gift-type-selection/page.md`
+- page — `apps/web/src/app/gift/[token]/page.md`
+- page — `apps/web/src/app/gifts/[token]/page.md`
+- page — `apps/web/src/app/gifts/page.md`
+- global-error — `apps/web/src/app/global-error.md`
+- globals — `apps/web/src/app/globals.md`
+- page — `apps/web/src/app/goal-selection/page.md`
+- page — `apps/web/src/app/harmony-established-success-state/page.md`
+- page — `apps/web/src/app/home-dashboard-inactive-user/page.md`
+- page — `apps/web/src/app/home-dashboard-new-user/page.md`
+- page — `apps/web/src/app/home-dashboard-premium-user/page.md`
+- page — `apps/web/src/app/home-dashboard-returning-user/page.md`
+- page — `apps/web/src/app/home-dashboard/page.md`
+- page — `apps/web/src/app/inner-circle-connections/page.md`
+- page — `apps/web/src/app/input/page.md`
+- page — `apps/web/src/app/intention-setting-1/page.md`
+- page — `apps/web/src/app/intention-setting-2/page.md`
+- page — `apps/web/src/app/intro/page.md`
+- page — `apps/web/src/app/invite-inner-circle/page.md`
+- page — `apps/web/src/app/invite-new-seeker/page.md`
+- page — `apps/web/src/app/journey-celebration/page.md`
+- page — `apps/web/src/app/journey-gallery/page.md`
+- page — `apps/web/src/app/journey-insights/page.md`
+- page — `apps/web/src/app/journey-timeline/page.md`
+- page — `apps/web/src/app/journey/page.md`
+- layout — `apps/web/src/app/layout.md`
+- page — `apps/web/src/app/live-session-active/page.md`
+- page — `apps/web/src/app/live-session-post-reflection/page.md`
+- page — `apps/web/src/app/live-session-waiting-room/page.md`
+- loading — `apps/web/src/app/loading.md`
+- page — `apps/web/src/app/location-search-filter-state/page.md`
+- page — `apps/web/src/app/marketplace-empty-cart/page.md`
+- page — `apps/web/src/app/marketplace-search-filter/page.md`
+- page — `apps/web/src/app/marketplace-sessions-category/page.md`
+- page — `apps/web/src/app/microphone-permission/page.md`
+- page — `apps/web/src/app/monthly-summary/page.md`
+- page — `apps/web/src/app/music-recommendation/page.md`
+- page — `apps/web/src/app/nexus-search-overlay/page.md`
+- not-found — `apps/web/src/app/not-found.md`
+- page — `apps/web/src/app/onboarding/goals/page.md`
+- page — `apps/web/src/app/onboarding/page.md`
+- page — `apps/web/src/app/onboarding/preferences/page.md`
+- page — `apps/web/src/app/onboarding/privacy/page.md`
+- page — `apps/web/src/app/page.md`
+- page — `apps/web/src/app/pending-alignment-request-1/page.md`
+- page — `apps/web/src/app/pending-alignment-request-2/page.md`
+- page — `apps/web/src/app/pending-alignment-request-3/page.md`
+- page — `apps/web/src/app/personalization/page.md`
+- page — `apps/web/src/app/polarity-confirmation/page.md`
+- page — `apps/web/src/app/post-practice-reflection/page.md`
+- page — `apps/web/src/app/practice-detail/page.md`
+- page — `apps/web/src/app/practice-library/page.md`
+- page — `apps/web/src/app/practice-player/page.md`
+- page — `apps/web/src/app/practice-selection/page.md`
+- page — `apps/web/src/app/practices/page.md`
+- page — `apps/web/src/app/practitioner-dashboard-mobile/page.md`
+- page — `apps/web/src/app/practitioner-dashboard/page.md`
+- page — `apps/web/src/app/practitioner-onboarding/page.md`
+- page — `apps/web/src/app/presence-mode-setup/page.md`
+- page — `apps/web/src/app/presence-transition/page.md`
+- page — `apps/web/src/app/privacy-data-control-1/page.md`
+- page — `apps/web/src/app/privacy-data-control-2/page.md`
+- page — `apps/web/src/app/privacy-foundation/page.md`
+- page — `apps/web/src/app/privacy-management-detail/page.md`
+- page — `apps/web/src/app/product-detail-1/page.md`
+- page — `apps/web/src/app/product-detail-2/page.md`
+- page — `apps/web/src/app/profile-saved-confirmation/page.md`
+- page — `apps/web/src/app/public-profile-view/page.md`
+- page — `apps/web/src/app/recipient-experience-web/page.md`
+- page — `apps/web/src/app/recommendation/page.md`
+- page — `apps/web/src/app/recording-review/page.md`
+- page — `apps/web/src/app/referral-growth/page.md`
+- page — `apps/web/src/app/relay-syncing-selection-state/page.md`
+- page — `apps/web/src/app/resonance-interrupted-error-state/page.md`
+- page — `apps/web/src/app/resonance-levels/page.md`
+- page — `apps/web/src/app/resonance-recording-1/page.md`
+- page — `apps/web/src/app/resonance-recording-2/page.md`
+- page — `apps/web/src/app/retreat-detail/page.md`
+- page — `apps/web/src/app/retreat-discovery/page.md`
+- page — `apps/web/src/app/retreat-mode-active/page.md`
+- page — `apps/web/src/app/reward-history/page.md`
+- robots — `apps/web/src/app/robots.md`
+- page — `apps/web/src/app/sanctuary-anchored-confirmation/page.md`
+- page — `apps/web/src/app/sanctuary-anchored-success-state/page.md`
+- page — `apps/web/src/app/sanctuary-arrival-orientation/page.md`
+- page — `apps/web/src/app/sanctuary-entry-transition/page.md`
+- page — `apps/web/src/app/sanctuary-location-selection-1/page.md`
+- page — `apps/web/src/app/sanctuary-location-selection-2/page.md`
+- page — `apps/web/src/app/sanctuary-realm-detail/page.md`
+- page — `apps/web/src/app/save-session-summary/page.md`
+- page — `apps/web/src/app/scan-preparation-1/page.md`
+- page — `apps/web/src/app/scan-preparation-2/page.md`
+- page — `apps/web/src/app/scan-type-selection-1/page.md`
+- page — `apps/web/src/app/scan-type-selection-2/page.md`
+- page — `apps/web/src/app/search-results-no-matches-found-1/page.md`
+- page — `apps/web/src/app/search-results-no-matches-found-2/page.md`
+- page — `apps/web/src/app/search-results-no-matches-found-3/page.md`
+- page — `apps/web/src/app/search-results-no-matches-found-4/page.md`
+- page — `apps/web/src/app/search-results-solaris-1/page.md`
+- page — `apps/web/src/app/search-results-solaris-2/page.md`
+- page — `apps/web/src/app/searching-the-nexus-active-state-1/page.md`
+- page — `apps/web/src/app/searching-the-nexus-active-state-2/page.md`
+- page — `apps/web/src/app/searching-the-nexus-active-state-3/page.md`
+- page — `apps/web/src/app/searching-the-nexus/page.md`
+- page — `apps/web/src/app/secure-checkout-payment-selection/page.md`
+- page — `apps/web/src/app/secure-checkout/page.md`
+- page — `apps/web/src/app/seeker-discovery-search/page.md`
+- page — `apps/web/src/app/seeker-tier-detail-premium/page.md`
+- page — `apps/web/src/app/select-product-type/page.md`
+- page — `apps/web/src/app/send-gift/page.md`
+- page — `apps/web/src/app/session-detail-view/page.md`
+- page — `apps/web/src/app/sessions-empty-state/page.md`
+- page — `apps/web/src/app/sessions-filter-refinement/page.md`
+- page — `apps/web/src/app/shader/page.md`
+- page — `apps/web/src/app/sharing-consent-history/page.md`
+- sitemap — `apps/web/src/app/sitemap.md`
+- page — `apps/web/src/app/social-connection-requests/page.md`
+- page — `apps/web/src/app/splash-screen/page.md`
+- page — `apps/web/src/app/story-style/page.md`
+- page — `apps/web/src/app/subscription-paywall/page.md`
+- page — `apps/web/src/app/transaction-processing/page.md`
+- page — `apps/web/src/app/transformation-recap/page.md`
+- page — `apps/web/src/app/upgrade-success-confirmation/page.md`
+- page — `apps/web/src/app/user-profile/page.md`
+- page — `apps/web/src/app/value-carousel-page-1/page.md`
+- page — `apps/web/src/app/welcome-back/page.md`
+- page — `apps/web/src/app/welcome-screen/page.md`
+- page — `apps/web/src/app/zero-point-reflection/page.md`
+- CommandPalette — `apps/web/src/components/CommandPalette.md`
+- ErrorBoundary — `apps/web/src/components/ErrorBoundary.md`
+- WaveSurferClient — `apps/web/src/components/WaveSurferClient.md`
+- WaveformPlayer — `apps/web/src/components/WaveformPlayer.md`
+- AppShell — `apps/web/src/components/layout/AppShell.md`
+- BottomNavBar — `apps/web/src/components/layout/BottomNavBar.md`
+- TopAppBar — `apps/web/src/components/layout/TopAppBar.md`
+- ArtworkCard — `apps/web/src/components/shared/ArtworkCard.md`
+- Avatar — `apps/web/src/components/shared/Avatar.md`
+- Badge — `apps/web/src/components/shared/Badge.md`
+- GlassCard — `apps/web/src/components/shared/GlassCard.md`
+- GradientText — `apps/web/src/components/shared/GradientText.md`
+- IconButton — `apps/web/src/components/shared/IconButton.md`
+- MaterialIcon — `apps/web/src/components/shared/MaterialIcon.md`
+- PracticeCard — `apps/web/src/components/shared/PracticeCard.md`
+- QuickActionGrid — `apps/web/src/components/shared/QuickActionGrid.md`
+- ScrollContainer — `apps/web/src/components/shared/ScrollContainer.md`
+- SectionHeader — `apps/web/src/components/shared/SectionHeader.md`
+- TimelineCircle — `apps/web/src/components/shared/TimelineCircle.md`
+- index — `apps/web/src/components/shared/index.md`
+- index — `apps/web/src/hooks/index.md`
+- queries — `apps/web/src/hooks/queries.md`
+- useUser — `apps/web/src/hooks/useUser.md`
+- api-client — `apps/web/src/lib/api-client.md`
+- app-routes — `apps/web/src/lib/app-routes.md`
+- error-reporting — `apps/web/src/lib/error-reporting.md`
+- motion — `apps/web/src/lib/motion.md`
+- rate-limit — `apps/web/src/lib/rate-limit.md`
+- supabase — `apps/web/src/lib/supabase.md`
+- 404 — `apps/web/src/pages/404.md`
+- _app — `apps/web/src/pages/_app.md`
+- _error — `apps/web/src/pages/_error.md`
+- AuthProvider — `apps/web/src/providers/AuthProvider.md`
+- QueryProvider — `apps/web/src/providers/QueryProvider.md`
+- index — `apps/web/src/providers/index.md`
+- proxy — `apps/web/src/proxy.md`
+- auth — `apps/web/src/stores/auth.md`
+- onboarding — `apps/web/src/stores/onboarding.md`
+- recording — `apps/web/src/stores/recording.md`
+- ui — `apps/web/src/stores/ui.md`
+- tailwind.config — `apps/web/tailwind.config.md`
+- tsconfig — `apps/web/tsconfig.md`
+
+## `cosmo-brain/` (402 files)
+
+- amos-phase-c-cognition-field — `cosmo-brain/.devin/workflows/amos-phase-c-cognition-field.md`
+- AEL_ARCHITECTURE — `cosmo-brain/AEL_ARCHITECTURE.md`
+- AEL_LIVE_DEMO — `cosmo-brain/AEL_LIVE_DEMO.md`
+- AMOS_ABSOLUTE_LOGIC_MURK_CANON — `cosmo-brain/AMOS_ABSOLUTE_LOGIC_MURK_CANON.md`
+- AMOS_AUTONOMOUS_EVOLUTION_LAYER — `cosmo-brain/AMOS_AUTONOMOUS_EVOLUTION_LAYER.md`
+- AMOS_BrainCortex — `cosmo-brain/AMOS_BrainCortex.md`
+- AMOS_COGNITIVE_SUBSTRATE — `cosmo-brain/AMOS_COGNITIVE_SUBSTRATE.md`
+- AMOS_COGNITIVE_SUBSTRATE_INTERFACE — `cosmo-brain/AMOS_COGNITIVE_SUBSTRATE_INTERFACE.md`
+- AMOS_COGNITIVE_SUBSTRATE_MEMORY_GRAPH — `cosmo-brain/AMOS_COGNITIVE_SUBSTRATE_MEMORY_GRAPH.md`
+- AMOS_COGNITIVE_SUBSTRATE_REALITY_GATE — `cosmo-brain/AMOS_COGNITIVE_SUBSTRATE_REALITY_GATE.md`
+- AMOS_COGNITIVE_SUBSTRATE_REASONING_GRAPH — `cosmo-brain/AMOS_COGNITIVE_SUBSTRATE_REASONING_GRAPH.md`
+- AMOS_CognitionField — `cosmo-brain/AMOS_CognitionField.md`
+- AMOS_CognitiveState_BrainModel — `cosmo-brain/AMOS_CognitiveState_BrainModel.md`
+- AMOS_DETERMINISM_BOUNDARIES — `cosmo-brain/AMOS_DETERMINISM_BOUNDARIES.md`
+- AMOS_EXPRESSION_TRANSLATION_CONSTRAINED — `cosmo-brain/AMOS_EXPRESSION_TRANSLATION_CONSTRAINED.md`
+- AMOS_EngineABI — `cosmo-brain/AMOS_EngineABI.md`
+- AMOS_EngineABI_test — `cosmo-brain/AMOS_EngineABI_test.md`
+- AMOS_EpistemicLabeler — `cosmo-brain/AMOS_EpistemicLabeler.md`
+- AMOS_FailureMemoryStore — `cosmo-brain/AMOS_FailureMemoryStore.md`
+- AMOS_GO_BOARD_19X19 — `cosmo-brain/AMOS_GO_BOARD_19X19.md`
+- AMOS_GO_BOARD_19X19_PHASE10_11_MASTER — `cosmo-brain/AMOS_GO_BOARD_19X19_PHASE10_11_MASTER.md`
+- AMOS_GO_BOARD_19X19_PHASE1_EYE_PVR — `cosmo-brain/AMOS_GO_BOARD_19X19_PHASE1_EYE_PVR.md`
+- AMOS_GO_BOARD_19X19_PHASE2_INITIATIVE_KO — `cosmo-brain/AMOS_GO_BOARD_19X19_PHASE2_INITIATIVE_KO.md`
+- AMOS_GO_BOARD_19X19_PHASE4_9_FIELDS — `cosmo-brain/AMOS_GO_BOARD_19X19_PHASE4_9_FIELDS.md`
+- AMOS_GO_BOARD_19X19_STRATEGIC — `cosmo-brain/AMOS_GO_BOARD_19X19_STRATEGIC.md`
+- AMOS_GO_BOARD_19X19_STRATEGIC_FULL — `cosmo-brain/AMOS_GO_BOARD_19X19_STRATEGIC_FULL.md`
+- AMOS_GapRegistry — `cosmo-brain/AMOS_GapRegistry.md`
+- AMOS_INFRA_META_SCHEMA — `cosmo-brain/AMOS_INFRA_META_SCHEMA.md`
+- AMOS_INTEGRATION_TEST_DASHBOARD — `cosmo-brain/AMOS_INTEGRATION_TEST_DASHBOARD.md`
+- AMOS_Kafka_Brain_Buffer_v1.0 — `cosmo-brain/AMOS_Kafka_Brain_Buffer_v1.0.md`
+- AMOS_Kafka_Brain_Buffer_v1.0.test — `cosmo-brain/AMOS_Kafka_Brain_Buffer_v1.0.test.md`
+- AMOS_KernelRuntime — `cosmo-brain/AMOS_KernelRuntime.md`
+- AMOS_KernelRuntime_test — `cosmo-brain/AMOS_KernelRuntime_test.md`
+- AMOS_LLM_OPERATOR_PIPELINE — `cosmo-brain/AMOS_LLM_OPERATOR_PIPELINE.md`
+- AMOS_LOGIC_OPERATIONAL_MODES — `cosmo-brain/AMOS_LOGIC_OPERATIONAL_MODES.md`
+- AMOS_LawStackValidator — `cosmo-brain/AMOS_LawStackValidator.md`
+- AMOS_MASTER_REGISTRY — `cosmo-brain/AMOS_MASTER_REGISTRY.md`
+- AGENTS — `cosmo-brain/AMOS_MD_BRAIN_FULL_INFRA/AGENTS.md`
+- BRAIN — `cosmo-brain/AMOS_MD_BRAIN_FULL_INFRA/BRAIN.md`
+- INSTALL — `cosmo-brain/AMOS_MD_BRAIN_FULL_INFRA/amos-skills/INSTALL.md`
+- cosmo-coupling.capsule — `cosmo-brain/AMOS_MD_BRAIN_FULL_INFRA/amos-skills/_demos/agency-consequence/cosmo-coupling.capsule.md`
+- cosmo-coupling.formal — `cosmo-brain/AMOS_MD_BRAIN_FULL_INFRA/amos-skills/_demos/agency-consequence/cosmo-coupling.formal.md`
+- manage_amos_skills — `cosmo-brain/AMOS_MD_BRAIN_FULL_INFRA/amos-skills/manage_amos_skills.md`
+- registry — `cosmo-brain/AMOS_MD_BRAIN_FULL_INFRA/amos-skills/registry.md`
+- SELF_REVIEW — `cosmo-brain/AMOS_MD_BRAIN_FULL_INFRA/brain/95_meta/SELF_REVIEW.md`
+- AMOS_MURK_BRAIN_INTEGRATION — `cosmo-brain/AMOS_MURK_BRAIN_INTEGRATION.md`
+- AMOS_MURK_REASONING_ENGINE — `cosmo-brain/AMOS_MURK_REASONING_ENGINE.md`
+- AMOS_OBSIDIAN_MEMORY_BRIDGE — `cosmo-brain/AMOS_OBSIDIAN_MEMORY_BRIDGE.md`
+- AMOS_OS_ARCHITECTURE_BRIDGE — `cosmo-brain/AMOS_OS_ARCHITECTURE_BRIDGE.md`
+- AGENTS — `cosmo-brain/AMOS_OS_KERNEL/AGENTS.md`
+- VALIDATION — `cosmo-brain/AMOS_OS_KERNEL/VALIDATION.md`
+- __main__ — `cosmo-brain/AMOS_OS_KERNEL/amos/__main__.md`
+- types — `cosmo-brain/AMOS_OS_KERNEL/amos/core/types.md`
+- accessibility_i18n — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/accessibility_i18n.md`
+- adversarial_robustness — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/adversarial_robustness.md`
+- agentops — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/agentops.md`
+- aibom — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/aibom.md`
+- assurance_debt — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/assurance_debt.md`
+- autonomy — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/autonomy.md`
+- canon — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/canon.md`
+- cognitive_matrix — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/cognitive_matrix.md`
+- completion — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/completion.md`
+- data_quality — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/data_quality.md`
+- decision_theory_risk — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/decision_theory_risk.md`
+- distributed_consensus — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/distributed_consensus.md`
+- evaluation — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/evaluation.md`
+- fairness_ethics — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/fairness_ethics.md`
+- governance_architecture — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/governance_architecture.md`
+- human_interaction — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/human_interaction.md`
+- longevity_reproducibility — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/longevity_reproducibility.md`
+- ontology — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/ontology.md`
+- principal — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/principal.md`
+- privacy_compliance — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/privacy_compliance.md`
+- resource_governance — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/resource_governance.md`
+- scientific — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/scientific.md`
+- seed_cognitive_matrix — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/seed_cognitive_matrix.md`
+- seed_completion — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/seed_completion.md`
+- semantic_flow — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/semantic_flow.md`
+- trust — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/trust.md`
+- uncertainty_calibration — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/uncertainty_calibration.md`
+- io — `cosmo-brain/AMOS_OS_KERNEL/amos/io.md`
+- kernel — `cosmo-brain/AMOS_OS_KERNEL/amos/kernel.md`
+- epochs — `cosmo-brain/AMOS_OS_KERNEL/amos/state/epochs.md`
+- store — `cosmo-brain/AMOS_OS_KERNEL/amos/state/store.md`
+- transactions — `cosmo-brain/AMOS_OS_KERNEL/amos/state/transactions.md`
+- pyproject — `cosmo-brain/AMOS_OS_KERNEL/pyproject.md`
+- test_abi_registries — `cosmo-brain/AMOS_OS_KERNEL/tests/test_abi_registries.md`
+- test_accessibility_i18n — `cosmo-brain/AMOS_OS_KERNEL/tests/test_accessibility_i18n.md`
+- test_adapters_builtin — `cosmo-brain/AMOS_OS_KERNEL/tests/test_adapters_builtin.md`
+- test_adversarial — `cosmo-brain/AMOS_OS_KERNEL/tests/test_adversarial.md`
+- test_adversarial_robustness — `cosmo-brain/AMOS_OS_KERNEL/tests/test_adversarial_robustness.md`
+- test_agentops — `cosmo-brain/AMOS_OS_KERNEL/tests/test_agentops.md`
+- test_aibom — `cosmo-brain/AMOS_OS_KERNEL/tests/test_aibom.md`
+- test_assurance_debt — `cosmo-brain/AMOS_OS_KERNEL/tests/test_assurance_debt.md`
+- test_authority — `cosmo-brain/AMOS_OS_KERNEL/tests/test_authority.md`
+- test_autonomy — `cosmo-brain/AMOS_OS_KERNEL/tests/test_autonomy.md`
+- test_canon — `cosmo-brain/AMOS_OS_KERNEL/tests/test_canon.md`
+- test_cognitive_matrix — `cosmo-brain/AMOS_OS_KERNEL/tests/test_cognitive_matrix.md`
+- test_completion — `cosmo-brain/AMOS_OS_KERNEL/tests/test_completion.md`
+- test_consensus — `cosmo-brain/AMOS_OS_KERNEL/tests/test_consensus.md`
+- test_data_quality — `cosmo-brain/AMOS_OS_KERNEL/tests/test_data_quality.md`
+- test_decision_theory_risk — `cosmo-brain/AMOS_OS_KERNEL/tests/test_decision_theory_risk.md`
+- test_distributed_consensus — `cosmo-brain/AMOS_OS_KERNEL/tests/test_distributed_consensus.md`
+- test_evaluation — `cosmo-brain/AMOS_OS_KERNEL/tests/test_evaluation.md`
+- test_fairness_ethics — `cosmo-brain/AMOS_OS_KERNEL/tests/test_fairness_ethics.md`
+- test_gap_registry — `cosmo-brain/AMOS_OS_KERNEL/tests/test_gap_registry.md`
+- test_gmef — `cosmo-brain/AMOS_OS_KERNEL/tests/test_gmef.md`
+- test_gmef_authority — `cosmo-brain/AMOS_OS_KERNEL/tests/test_gmef_authority.md`
+- test_governance_architecture — `cosmo-brain/AMOS_OS_KERNEL/tests/test_governance_architecture.md`
+- test_graph_modules — `cosmo-brain/AMOS_OS_KERNEL/tests/test_graph_modules.md`
+- test_human_interaction — `cosmo-brain/AMOS_OS_KERNEL/tests/test_human_interaction.md`
+- test_io_modules — `cosmo-brain/AMOS_OS_KERNEL/tests/test_io_modules.md`
+- test_kernel — `cosmo-brain/AMOS_OS_KERNEL/tests/test_kernel.md`
+- test_longevity_reproducibility — `cosmo-brain/AMOS_OS_KERNEL/tests/test_longevity_reproducibility.md`
+- test_memory_modules — `cosmo-brain/AMOS_OS_KERNEL/tests/test_memory_modules.md`
+- test_ontology — `cosmo-brain/AMOS_OS_KERNEL/tests/test_ontology.md`
+- test_principal — `cosmo-brain/AMOS_OS_KERNEL/tests/test_principal.md`
+- test_privacy — `cosmo-brain/AMOS_OS_KERNEL/tests/test_privacy.md`
+- test_privacy_compliance — `cosmo-brain/AMOS_OS_KERNEL/tests/test_privacy_compliance.md`
+- test_proof_modules — `cosmo-brain/AMOS_OS_KERNEL/tests/test_proof_modules.md`
+- test_replay_modules — `cosmo-brain/AMOS_OS_KERNEL/tests/test_replay_modules.md`
+- test_resource_governance — `cosmo-brain/AMOS_OS_KERNEL/tests/test_resource_governance.md`
+- test_runtime_modules — `cosmo-brain/AMOS_OS_KERNEL/tests/test_runtime_modules.md`
+- test_scheduler_state — `cosmo-brain/AMOS_OS_KERNEL/tests/test_scheduler_state.md`
+- test_scientific — `cosmo-brain/AMOS_OS_KERNEL/tests/test_scientific.md`
+- test_semantic_flow — `cosmo-brain/AMOS_OS_KERNEL/tests/test_semantic_flow.md`
+- test_server_cli — `cosmo-brain/AMOS_OS_KERNEL/tests/test_server_cli.md`
+- test_state_modules — `cosmo-brain/AMOS_OS_KERNEL/tests/test_state_modules.md`
+- test_trust — `cosmo-brain/AMOS_OS_KERNEL/tests/test_trust.md`
+- test_uncertainty — `cosmo-brain/AMOS_OS_KERNEL/tests/test_uncertainty.md`
+- test_uncertainty_calibration — `cosmo-brain/AMOS_OS_KERNEL/tests/test_uncertainty_calibration.md`
+- AMOS_SEMANTIC_MATRIX_19X19 — `cosmo-brain/AMOS_SEMANTIC_MATRIX_19X19.md`
+- AMOS_SKILL_DEPENDENCY_GRAPH — `cosmo-brain/AMOS_SKILL_DEPENDENCY_GRAPH.md`
+- AMOS_STRATEGIC_FIELD_19X19 — `cosmo-brain/AMOS_STRATEGIC_FIELD_19X19.md`
+- AMOS_UNIFIED_BRAIN_COGNITION_ARCHITECTURE_ROUTING_v1 — `cosmo-brain/AMOS_UNIFIED_BRAIN_COGNITION_ARCHITECTURE_ROUTING_v1.md`
+- AMOS_V10_V11_INTEGRATION — `cosmo-brain/AMOS_V10_V11_INTEGRATION.md`
+- AMOS_V11_V12_CONCEPTUAL_INTEGRATION — `cosmo-brain/AMOS_V11_V12_CONCEPTUAL_INTEGRATION.md`
+- AMOS_V12_INTEGRATION — `cosmo-brain/AMOS_V12_INTEGRATION.md`
+- AMOS_V13_INTEGRATION — `cosmo-brain/AMOS_V13_INTEGRATION.md`
+- AMOS_V14_INTEGRATION — `cosmo-brain/AMOS_V14_INTEGRATION.md`
+- AMOS_V15_INTEGRATION — `cosmo-brain/AMOS_V15_INTEGRATION.md`
+- AMOS_V16_INTEGRATION — `cosmo-brain/AMOS_V16_INTEGRATION.md`
+- AMOS_V17_INTEGRATION — `cosmo-brain/AMOS_V17_INTEGRATION.md`
+- AMOS_V18_INTEGRATION — `cosmo-brain/AMOS_V18_INTEGRATION.md`
+- AMOS_V19_INTEGRATION — `cosmo-brain/AMOS_V19_INTEGRATION.md`
+- AMOS_V20_INTEGRATION — `cosmo-brain/AMOS_V20_INTEGRATION.md`
+- AMOS_V21_INTEGRATION — `cosmo-brain/AMOS_V21_INTEGRATION.md`
+- AMOS_V22_INTEGRATION — `cosmo-brain/AMOS_V22_INTEGRATION.md`
+- AMOS_V5_UNIFIED_BRIDGE — `cosmo-brain/AMOS_V5_UNIFIED_BRIDGE.md`
+- AMOS_V6_INTEGRATION — `cosmo-brain/AMOS_V6_INTEGRATION.md`
+- AMOS_V7_V8_INTEGRATION — `cosmo-brain/AMOS_V7_V8_INTEGRATION.md`
+- AMOS_V9_INTEGRATION — `cosmo-brain/AMOS_V9_INTEGRATION.md`
+- AMOS_V9_V10_INTEGRATION — `cosmo-brain/AMOS_V9_V10_INTEGRATION.md`
+- AMOS_quantum_knowledge_bridge — `cosmo-brain/AMOS_quantum_knowledge_bridge.md`
+- AMOS_quantum_library_integration — `cosmo-brain/AMOS_quantum_library_integration.md`
+- PERFORMANCE_BENCHMARKS — `cosmo-brain/PERFORMANCE_BENCHMARKS.md`
+- README — `cosmo-brain/README.md`
+- REFLECTION_TRAINING_CHANGE_COGNITION — `cosmo-brain/REFLECTION_TRAINING_CHANGE_COGNITION.md`
+- RSCF_NODE_INDEX — `cosmo-brain/RSCF_NODE_INDEX.md`
+- TESTING_STRATEGY — `cosmo-brain/TESTING_STRATEGY.md`
+- _debug_invariants — `cosmo-brain/_debug_invariants.md`
+- _debug_murk — `cosmo-brain/_debug_murk.md`
+- _trace_murk — `cosmo-brain/_trace_murk.md`
+- _trace_murk2 — `cosmo-brain/_trace_murk2.md`
+- index — `cosmo-brain/algorithms/artwork/generation/index.md`
+- index — `cosmo-brain/algorithms/artwork/parameter-mapping/index.md`
+- index — `cosmo-brain/algorithms/artwork/reproducibility/index.md`
+- index — `cosmo-brain/algorithms/artwork/versioning/index.md`
+- index — `cosmo-brain/algorithms/audio/feature-extraction-v2/index.md`
+- index — `cosmo-brain/algorithms/audio/feature-extraction/index.md`
+- index — `cosmo-brain/algorithms/audio/noise-suppression/index.md`
+- index — `cosmo-brain/algorithms/audio/normalisation/index.md`
+- index — `cosmo-brain/algorithms/audio/pitch-yin/index.md`
+- index — `cosmo-brain/algorithms/audio/preprocessing/index.md`
+- index — `cosmo-brain/algorithms/audio/quality-assessment/index.md`
+- index — `cosmo-brain/algorithms/perspective/polarity-mapping/index.md`
+- index — `cosmo-brain/algorithms/perspective/reframing/index.md`
+- index — `cosmo-brain/algorithms/perspective/safety/index.md`
+- index — `cosmo-brain/algorithms/recommendations/feedback-learning/index.md`
+- index — `cosmo-brain/algorithms/recommendations/personalisation/index.md`
+- index — `cosmo-brain/algorithms/recommendations/practice-selection/index.md`
+- index — `cosmo-brain/algorithms/recommendations/safety-filtering/index.md`
+- index — `cosmo-brain/algorithms/resonance/baseline/index.md`
+- index — `cosmo-brain/algorithms/resonance/comparison/index.md`
+- index — `cosmo-brain/algorithms/resonance/pattern-mapping/index.md`
+- index — `cosmo-brain/algorithms/resonance/session-analysis/index.md`
+- index — `cosmo-brain/algorithms/timeline/event-processing/index.md`
+- index — `cosmo-brain/algorithms/timeline/progress-comparison/index.md`
+- index — `cosmo-brain/algorithms/timeline/summaries/index.md`
+- AMOS_V1_GAP_AUDIT — `cosmo-brain/amos_v1_production/AMOS_V1_GAP_AUDIT.md`
+- aibom_autonomy — `cosmo-brain/amos_v1_production/aibom_autonomy.md`
+- canonical_registry — `cosmo-brain/amos_v1_production/canonical_registry.md`
+- cognition_field_19x19 — `cosmo-brain/amos_v1_production/cognition_field_19x19.md`
+- context_audit — `cosmo-brain/amos_v1_production/context_audit.md`
+- control_plane — `cosmo-brain/amos_v1_production/control_plane.md`
+- deployment — `cosmo-brain/amos_v1_production/deployment.md`
+- deterministic_kernel — `cosmo-brain/amos_v1_production/deterministic_kernel.md`
+- enforcement_root_attestation — `cosmo-brain/amos_v1_production/enforcement_root_attestation.md`
+- enforcement_trust_contract — `cosmo-brain/amos_v1_production/enforcement_trust_contract.md`
+- engine_agent — `cosmo-brain/amos_v1_production/engine_agent.md`
+- evolution_failure — `cosmo-brain/amos_v1_production/evolution_failure.md`
+- integration_kernel — `cosmo-brain/amos_v1_production/integration_kernel.md`
+- memory_os — `cosmo-brain/amos_v1_production/memory_os.md`
+- metacognition_planning_tool — `cosmo-brain/amos_v1_production/metacognition_planning_tool.md`
+- observability — `cosmo-brain/amos_v1_production/observability.md`
+- provisioning_compute_attestation — `cosmo-brain/amos_v1_production/provisioning_compute_attestation.md`
+- rscf_graph — `cosmo-brain/amos_v1_production/rscf_graph.md`
+- state_substrate — `cosmo-brain/amos_v1_production/state_substrate.md`
+- testing_benchmarking — `cosmo-brain/amos_v1_production/testing_benchmarking.md`
+- test_all — `cosmo-brain/amos_v1_production/tests/test_all.md`
+- brain_model_schema — `cosmo-brain/brain_model_schema.md`
+- index — `cosmo-brain/core/constraints/index.md`
+- index — `cosmo-brain/core/design-synthesis/index.md`
+- adversarial-validation — `cosmo-brain/core/epistemics/adversarial-validation.md`
+- claims — `cosmo-brain/core/epistemics/claims.md`
+- competing-hypotheses — `cosmo-brain/core/epistemics/competing-hypotheses.md`
+- error-recovery — `cosmo-brain/core/epistemics/error-recovery.md`
+- falsifiers — `cosmo-brain/core/epistemics/falsifiers.md`
+- index — `cosmo-brain/core/epistemics/index.md`
+- provenance — `cosmo-brain/core/epistemics/provenance.md`
+- regime-freshness — `cosmo-brain/core/epistemics/regime-freshness.md`
+- rscf — `cosmo-brain/core/epistemics/rscf.md`
+- core — `cosmo-brain/core/identity/core.md`
+- index — `cosmo-brain/core/identity/index.md`
+- index — `cosmo-brain/core/memory/index.md`
+- session — `cosmo-brain/core/memory/session.md`
+- timeline — `cosmo-brain/core/memory/timeline.md`
+- user-preferences — `cosmo-brain/core/memory/user-preferences.md`
+- consent — `cosmo-brain/core/orchestration/consent.md`
+- index — `cosmo-brain/core/orchestration/index.md`
+- pipeline — `cosmo-brain/core/orchestration/pipeline.md`
+- routing — `cosmo-brain/core/orchestration/routing.md`
+- index — `cosmo-brain/core/reasoning/index.md`
+- meta-logic — `cosmo-brain/core/reasoning/meta-logic.md`
+- safety-filter — `cosmo-brain/core/reasoning/safety-filter.md`
+- type-guards — `cosmo-brain/core/type-guards.md`
+- index — `cosmo-brain/core/validation/index.md`
+- count_library — `cosmo-brain/count_library.md`
+- index — `cosmo-brain/domains/behaviour/index.md`
+- index — `cosmo-brain/domains/cognition/index.md`
+- index — `cosmo-brain/domains/creativity/index.md`
+- index — `cosmo-brain/domains/culture/index.md`
+- index — `cosmo-brain/domains/emotion/index.md`
+- index — `cosmo-brain/domains/index.md`
+- index — `cosmo-brain/domains/nature/index.md`
+- index — `cosmo-brain/domains/relationships/index.md`
+- index — `cosmo-brain/domains/somatic/index.md`
+- index — `cosmo-brain/domains/sound/index.md`
+- executable_brain_model — `cosmo-brain/executable_brain_model.md`
+- generate_approved_entries — `cosmo-brain/generate_approved_entries.md`
+- index — `cosmo-brain/governance/audit/index.md`
+- index — `cosmo-brain/governance/claims/index.md`
+- index — `cosmo-brain/governance/consent-tokens/index.md`
+- index — `cosmo-brain/governance/consent/index.md`
+- index — `cosmo-brain/governance/data-quality/index.md`
+- index — `cosmo-brain/governance/ethics/index.md`
+- index — `cosmo-brain/governance/privacy/index.md`
+- index — `cosmo-brain/governance/provenance/index.md`
+- index — `cosmo-brain/governance/safety/index.md`
+- index — `cosmo-brain/governance/scientific-claims/index.md`
+- index — `cosmo-brain/governance/uncertainty/index.md`
+- index — `cosmo-brain/index.md`
+- kernel_state — `cosmo-brain/kernel_state.md`
+- index — `cosmo-brain/knowledge/approved/index.md`
+- measured-terms — `cosmo-brain/knowledge/approved/measured-terms.md`
+- index — `cosmo-brain/knowledge/hypotheses/index.md`
+- index — `cosmo-brain/knowledge/references/index.md`
+- index — `cosmo-brain/knowledge/research/index.md`
+- AMOS-Phases-A-B-C-delivery-2026-08-22 — `cosmo-brain/md/Core/AMOS-Phases-A-B-C-delivery-2026-08-22.md`
+- murk_state — `cosmo-brain/murk_state.md`
+- engine — `cosmo-brain/prompts/perspective/engine.md`
+- index — `cosmo-brain/prompts/perspective/index.md`
+- index — `cosmo-brain/prompts/recommendation/index.md`
+- index — `cosmo-brain/prompts/reflection/index.md`
+- scan-reflection — `cosmo-brain/prompts/reflection/scan-reflection.md`
+- claim-boundaries — `cosmo-brain/prompts/safety/claim-boundaries.md`
+- index — `cosmo-brain/prompts/safety/index.md`
+- brain-orchestrator — `cosmo-brain/prompts/system/brain-orchestrator.md`
+- index — `cosmo-brain/prompts/system/index.md`
+- algorithm-registry — `cosmo-brain/registry/algorithm-registry.md`
+- brain-registry — `cosmo-brain/registry/brain-registry.md`
+- source-map — `cosmo-brain/registry/source-map.md`
+- version-map — `cosmo-brain/registry/version-map.md`
+- index — `cosmo-brain/schemas/artwork/index.md`
+- types — `cosmo-brain/schemas/artwork/types.md`
+- features — `cosmo-brain/schemas/audio/features.md`
+- index — `cosmo-brain/schemas/audio/index.md`
+- artwork — `cosmo-brain/schemas/brain/artwork.md`
+- index — `cosmo-brain/schemas/brain/index.md`
+- pipeline — `cosmo-brain/schemas/brain/pipeline.md`
+- index — `cosmo-brain/schemas/recommendation/index.md`
+- types — `cosmo-brain/schemas/recommendation/types.md`
+- index — `cosmo-brain/schemas/resonance/index.md`
+- types — `cosmo-brain/schemas/resonance/types.md`
+- index — `cosmo-brain/schemas/timeline/index.md`
+- index — `cosmo-brain/schemas/user-context/index.md`
+- generate-design-specs — `cosmo-brain/scripts/generate-design-specs.md`
+- verify-core-flow — `cosmo-brain/scripts/verify-core-flow.md`
+- AMOS_quantum_knowledge_skill — `cosmo-brain/skills/AMOS_quantum_knowledge_skill.md`
+- test_brain_model_determinism — `cosmo-brain/test_brain_model_determinism.md`
+- test_cognitive_substrate_interface — `cosmo-brain/test_cognitive_substrate_interface.md`
+- test_cognitive_substrate_memory_graph — `cosmo-brain/test_cognitive_substrate_memory_graph.md`
+- test_cognitive_substrate_reality_gate — `cosmo-brain/test_cognitive_substrate_reality_gate.md`
+- test_cognitive_substrate_reasoning_graph — `cosmo-brain/test_cognitive_substrate_reasoning_graph.md`
+- test_comprehensive_new — `cosmo-brain/test_comprehensive_new.md`
+- test_deterministic_improvements — `cosmo-brain/test_deterministic_improvements.md`
+- test_expression_translation_comprehensive — `cosmo-brain/test_expression_translation_comprehensive.md`
+- test_go_board_19x19 — `cosmo-brain/test_go_board_19x19.md`
+- test_kafka_brain_buffer_generator — `cosmo-brain/test_kafka_brain_buffer_generator.md`
+- test_murk_comprehensive — `cosmo-brain/test_murk_comprehensive.md`
+- test_murk_goboard_integration — `cosmo-brain/test_murk_goboard_integration.md`
+- test_per_layer_determinism — `cosmo-brain/test_per_layer_determinism.md`
+- test_quantum_lib_integration — `cosmo-brain/test_quantum_lib_integration.md`
+- test_semantic_matrix_integration — `cosmo-brain/test_semantic_matrix_integration.md`
+- test_strategic_field_19x19 — `cosmo-brain/test_strategic_field_19x19.md`
+- auth-flow.test — `cosmo-brain/tests/integration/auth-flow.test.md`
+- flow-integration.test — `cosmo-brain/tests/integration/flow-integration.test.md`
+- full-pipeline.test — `cosmo-brain/tests/integration/full-pipeline.test.md`
+- pipeline-e2e.test — `cosmo-brain/tests/integration/pipeline-e2e.test.md`
+- pipeline-phase1-v2.test — `cosmo-brain/tests/integration/pipeline-phase1-v2.test.md`
+- algorithm-registry.test — `cosmo-brain/tests/unit/algorithm-registry.test.md`
+- artwork-generation.test — `cosmo-brain/tests/unit/artwork-generation.test.md`
+- artwork-parameter-mapping.test — `cosmo-brain/tests/unit/artwork-parameter-mapping.test.md`
+- artwork-reproducibility.test — `cosmo-brain/tests/unit/artwork-reproducibility.test.md`
+- artwork-versioning.test — `cosmo-brain/tests/unit/artwork-versioning.test.md`
+- consent-tokens.test — `cosmo-brain/tests/unit/consent-tokens.test.md`
+- consent.test — `cosmo-brain/tests/unit/consent.test.md`
+- constraints.test — `cosmo-brain/tests/unit/constraints.test.md`
+- design-synthesis.test — `cosmo-brain/tests/unit/design-synthesis.test.md`
+- domain-behaviour.test — `cosmo-brain/tests/unit/domain-behaviour.test.md`
+- domain-cognition.test — `cosmo-brain/tests/unit/domain-cognition.test.md`
+- domain-creativity.test — `cosmo-brain/tests/unit/domain-creativity.test.md`
+- domain-culture.test — `cosmo-brain/tests/unit/domain-culture.test.md`
+- domain-emotion.test — `cosmo-brain/tests/unit/domain-emotion.test.md`
+- domain-nature.test — `cosmo-brain/tests/unit/domain-nature.test.md`
+- domain-relationships.test — `cosmo-brain/tests/unit/domain-relationships.test.md`
+- domain-somatic.test — `cosmo-brain/tests/unit/domain-somatic.test.md`
+- domain-sound.test — `cosmo-brain/tests/unit/domain-sound.test.md`
+- domain.unit.test — `cosmo-brain/tests/unit/domain.unit.test.md`
+- epistemics-advanced.test — `cosmo-brain/tests/unit/epistemics-advanced.test.md`
+- epistemics-adversarial.test — `cosmo-brain/tests/unit/epistemics-adversarial.test.md`
+- epistemics-claims.test — `cosmo-brain/tests/unit/epistemics-claims.test.md`
+- epistemics-falsifiers.test — `cosmo-brain/tests/unit/epistemics-falsifiers.test.md`
+- epistemics-provenance.test — `cosmo-brain/tests/unit/epistemics-provenance.test.md`
+- epistemics-recovery.test — `cosmo-brain/tests/unit/epistemics-recovery.test.md`
+- epistemics-rscf.test — `cosmo-brain/tests/unit/epistemics-rscf.test.md`
+- feature-extraction-v1.test — `cosmo-brain/tests/unit/feature-extraction-v1.test.md`
+- feature-extraction-v2.test — `cosmo-brain/tests/unit/feature-extraction-v2.test.md`
+- governance-audit.test — `cosmo-brain/tests/unit/governance-audit.test.md`
+- governance-claims.test — `cosmo-brain/tests/unit/governance-claims.test.md`
+- governance-data-quality.test — `cosmo-brain/tests/unit/governance-data-quality.test.md`
+- governance-ethics.test — `cosmo-brain/tests/unit/governance-ethics.test.md`
+- governance-privacy.test — `cosmo-brain/tests/unit/governance-privacy.test.md`
+- governance-safety.test — `cosmo-brain/tests/unit/governance-safety.test.md`
+- governance-scientific-claims.test — `cosmo-brain/tests/unit/governance-scientific-claims.test.md`
+- governance-uncertainty.test — `cosmo-brain/tests/unit/governance-uncertainty.test.md`
+- identity.test — `cosmo-brain/tests/unit/identity.test.md`
+- knowledge.test — `cosmo-brain/tests/unit/knowledge.test.md`
+- memory-session.test — `cosmo-brain/tests/unit/memory-session.test.md`
+- memory-timeline.test — `cosmo-brain/tests/unit/memory-timeline.test.md`
+- memory-user-preferences.test — `cosmo-brain/tests/unit/memory-user-preferences.test.md`
+- meta-logic-bug.test — `cosmo-brain/tests/unit/meta-logic-bug.test.md`
+- meta-logic.test — `cosmo-brain/tests/unit/meta-logic.test.md`
+- noise-suppression.test — `cosmo-brain/tests/unit/noise-suppression.test.md`
+- normalisation.test — `cosmo-brain/tests/unit/normalisation.test.md`
+- orchestration-consent.test — `cosmo-brain/tests/unit/orchestration-consent.test.md`
+- orchestration-pipeline.test — `cosmo-brain/tests/unit/orchestration-pipeline.test.md`
+- orchestration-routing.test — `cosmo-brain/tests/unit/orchestration-routing.test.md`
+- perspective-safety.test — `cosmo-brain/tests/unit/perspective-safety.test.md`
+- pitch-yin.test — `cosmo-brain/tests/unit/pitch-yin.test.md`
+- polarity-mapping.test — `cosmo-brain/tests/unit/polarity-mapping.test.md`
+- practice-selection.test — `cosmo-brain/tests/unit/practice-selection.test.md`
+- preprocessing.test — `cosmo-brain/tests/unit/preprocessing.test.md`
+- prompts.test — `cosmo-brain/tests/unit/prompts.test.md`
+- provenance.test — `cosmo-brain/tests/unit/provenance.test.md`
+- quality-assessment.test — `cosmo-brain/tests/unit/quality-assessment.test.md`
+- reasoning.test — `cosmo-brain/tests/unit/reasoning.test.md`
+- recommendation-feedback-learning.test — `cosmo-brain/tests/unit/recommendation-feedback-learning.test.md`
+- recommendation-personalisation.test — `cosmo-brain/tests/unit/recommendation-personalisation.test.md`
+- recommendation-safety-filtering.test — `cosmo-brain/tests/unit/recommendation-safety-filtering.test.md`
+- reframing.test — `cosmo-brain/tests/unit/reframing.test.md`
+- resonance-baseline.test — `cosmo-brain/tests/unit/resonance-baseline.test.md`
+- resonance-comparison.test — `cosmo-brain/tests/unit/resonance-comparison.test.md`
+- resonance-pattern-mapping.test — `cosmo-brain/tests/unit/resonance-pattern-mapping.test.md`
+- safety-filter.test — `cosmo-brain/tests/unit/safety-filter.test.md`
+- schema-artwork.test — `cosmo-brain/tests/unit/schema-artwork.test.md`
+- schema-audio-features.test — `cosmo-brain/tests/unit/schema-audio-features.test.md`
+- schema-pipeline.test — `cosmo-brain/tests/unit/schema-pipeline.test.md`
+- schema-recommendation.test — `cosmo-brain/tests/unit/schema-recommendation.test.md`
+- schema-resonance.test — `cosmo-brain/tests/unit/schema-resonance.test.md`
+- session-analysis.test — `cosmo-brain/tests/unit/session-analysis.test.md`
+- timeline-event-processing.test — `cosmo-brain/tests/unit/timeline-event-processing.test.md`
+- timeline-progress-comparison.test — `cosmo-brain/tests/unit/timeline-progress-comparison.test.md`
+- timeline-summaries.test — `cosmo-brain/tests/unit/timeline-summaries.test.md`
+- type-guards.test — `cosmo-brain/tests/unit/type-guards.test.md`
+- validation.test — `cosmo-brain/tests/unit/validation.test.md`
+- trang_agent_core — `cosmo-brain/trang_agent/trang_agent_core.md`
+- trang_agent_main — `cosmo-brain/trang_agent/trang_agent_main.md`
+- trang_agent_population — `cosmo-brain/trang_agent/trang_agent_population.md`
+- trang_agent_reasoning — `cosmo-brain/trang_agent/trang_agent_reasoning.md`
+- trang_agent_sample_config — `cosmo-brain/trang_agent/trang_agent_sample_config.md`
+- AMOS_quantum_library_workflow — `cosmo-brain/workflows/AMOS_quantum_library_workflow.md`
+
+## `cosmo/` (342 files)
+
+- .env — `cosmo/.env.md`
+- .eslintrc — `cosmo/.eslintrc.md`
+- (empty) — `cosmo/.md`
+- ArenaSim — `cosmo/ArenaSim.md`
+- ArenaSim_AMOS_Bridge — `cosmo/ArenaSim_AMOS_Bridge.md`
+- COSMO Engineering Build Contract v1.0 — Missing Implementation Layer — `cosmo/COSMO Engineering Build Contract v1.0 — Missing Implementation Layer.md`
+- COSMO Founder Canon v1.0 + System Boundary Charter — `cosmo/COSMO Founder Canon v1.0 + System Boundary Charter.md`
+- COSMO PHASE 17 — Community Operating System v1.0 — `cosmo/COSMO PHASE 17 — Community Operating System v1.0.md`
+- COSMO PHASE 18 — Practitioner Platform Specification v1.0 — `cosmo/COSMO PHASE 18 — Practitioner Platform Specification v1.0.md`
+- COSMO PHASE 19 — Retreat Operating Architecture v1.0 — `cosmo/COSMO PHASE 19 — Retreat Operating Architecture v1.0.md`
+- COSMO PHASE 20 — Creator and Story System v1.0 — `cosmo/COSMO PHASE 20 — Creator and Story System v1.0.md`
+- COSMO PHASE 21 — Trusted Marketplace Architecture v1.0 — `cosmo/COSMO PHASE 21 — Trusted Marketplace Architecture v1.0.md`
+- COSMO PHASE 22 — Growth Graph v1.0 — `cosmo/COSMO PHASE 22 — Growth Graph v1.0.md`
+- COSMO PHASE 23 — Research OS v1.0 — `cosmo/COSMO PHASE 23 — Research OS v1.0.md`
+- COSMO PHASE 24 — Knowledge Graph v1.0 — `cosmo/COSMO PHASE 24 — Knowledge Graph v1.0.md`
+- COSMO PHASE 25 — Zero-Trust and Privacy Architecture v1.0 — `cosmo/COSMO PHASE 25 — Zero-Trust and Privacy Architecture v1.0.md`
+- COSMO PHASE 26 — Agent Runtime v1.0 — `cosmo/COSMO PHASE 26 — Agent Runtime v1.0.md`
+- COSMO PHASE 27 — Evolution Protocol v1.0 — `cosmo/COSMO PHASE 27 — Evolution Protocol v1.0.md`
+- COSMO PHASE 28 — Enterprise Human OS v1.0 — `cosmo/COSMO PHASE 28 — Enterprise Human OS v1.0.md`
+- COSMO PHASE 29 — Organizational Digital Twin Specification v1.0 — `cosmo/COSMO PHASE 29 — Organizational Digital Twin Specification v1.0.md`
+- COSMO PHASE 30 — Business Operating Intelligence Architecture v1.0 — `cosmo/COSMO PHASE 30 — Business Operating Intelligence Architecture v1.0.md`
+- COSMO PHASE 31 — Story Intelligence _ New Advertising OS v1.0 — `cosmo/COSMO PHASE 31 — Story Intelligence _ New Advertising OS v1.0.md`
+- COSMO PHASE 32 — Engineering Contract Registry v1.0 — `cosmo/COSMO PHASE 32 — Engineering Contract Registry v1.0.md`
+- COSMO PHASE 33 — Canonical Event Architecture v1.0 — `cosmo/COSMO PHASE 33 — Canonical Event Architecture v1.0.md`
+- COSMO PHASE 34 — Observability and Audit Architecture v1.0 — `cosmo/COSMO PHASE 34 — Observability and Audit Architecture v1.0.md`
+- COSMO PHASE 35 — MVP PRD v1.0 — `cosmo/COSMO PHASE 35 — MVP PRD v1.0.md`
+- COSMO PHASE 36 — MVP Validation System v1.0 — `cosmo/COSMO PHASE 36 — MVP Validation System v1.0.md`
+- COSMO PHASE 37 — Product Learning Engine v1.0 — `cosmo/COSMO PHASE 37 — Product Learning Engine v1.0.md`
+- COSMO PHASE 38 — Economic Model v1.0 — `cosmo/COSMO PHASE 38 — Economic Model v1.0.md`
+- COSMO PHASE 39 — Category Architecture v1.0 — `cosmo/COSMO PHASE 39 — Category Architecture v1.0.md`
+- COSMO PHASE 40 — Scale and Civilization Layer v1.0 — `cosmo/COSMO PHASE 40 — Scale and Civilization Layer v1.0.md`
+- COSMO Phase 1 — Human Problem Architecture — `cosmo/COSMO Phase 1 — Human Problem Architecture.md`
+- COSMO Phase 10 — Adaptive Personalization Protocol — `cosmo/COSMO Phase 10 — Adaptive Personalization Protocol.md`
+- COSMO Phase 11 — Presence Architecture — `cosmo/COSMO Phase 11 — Presence Architecture.md`
+- COSMO Phase 12 — Perspective and Meaning Intelligence Specification — `cosmo/COSMO Phase 12 — Perspective and Meaning Intelligence Specification.md`
+- COSMO Phase 13 — Companion AI Constitution and Runtime — `cosmo/COSMO Phase 13 — Companion AI Constitution and Runtime.md`
+- COSMO Phase 14 — Avatar Evolution System — `cosmo/COSMO Phase 14 — Avatar Evolution System.md`
+- COSMO Phase 15 — Transformation Quest Engine — `cosmo/COSMO Phase 15 — Transformation Quest Engine.md`
+- COSMO Phase 16 — Relationship Graph and Gifting Protocol — `cosmo/COSMO Phase 16 — Relationship Graph and Gifting Protocol.md`
+- COSMO Phase 2 — Constitution v1.0 — `cosmo/COSMO Phase 2 — Constitution v1.0.md`
+- COSMO Phase 3 — Evidence and Claims Governance System — `cosmo/COSMO Phase 3 — Evidence and Claims Governance System.md`
+- COSMO Phase 4 — Ontology v1.0 — `cosmo/COSMO Phase 4 — Ontology v1.0.md`
+- COSMO Phase 5 — Personal State Model — `cosmo/COSMO Phase 5 — Personal State Model.md`
+- COSMO Phase 6 — Resonance Model v1.0 — `cosmo/COSMO Phase 6 — Resonance Model v1.0.md`
+- COSMO Phase 7 — Unified Transformation Memory Architecture — `cosmo/COSMO Phase 7 — Unified Transformation Memory Architecture.md`
+- COSMO Phase 8 — Personal Digital Twin Specification — `cosmo/COSMO Phase 8 — Personal Digital Twin Specification.md`
+- COSMO Phase 9 — Practice and Intervention Library — `cosmo/COSMO Phase 9 — Practice and Intervention Library.md`
+- CivilizationWithSpecialists — `cosmo/CivilizationWithSpecialists.md`
+- CosmoBrainArena — `cosmo/CosmoBrainArena.md`
+- HybridArena — `cosmo/HybridArena.md`
+- NetworkedEcology — `cosmo/NetworkedEcology.md`
+- AGENT_RULES — `cosmo/agents/AGENT_RULES.md`
+- BUILD_PROTOCOL — `cosmo/agents/BUILD_PROTOCOL.md`
+- ama_v1 — `cosmo/ama_v1.md`
+- arenas_component_manifests — `cosmo/arenas_component_manifests.md`
+- composition_algebra — `cosmo/composition_algebra.md`
+- composition_algebra_v2 — `cosmo/composition_algebra_v2.md`
+- firebase — `cosmo/firebase.md`
+- index — `cosmo/index.md`
+- COSMO_ARCHITECTURE — `cosmo/knowledge/COSMO_ARCHITECTURE.md`
+- COSMO_CANON — `cosmo/knowledge/COSMO_CANON.md`
+- COSMO_CONSTRAINTS — `cosmo/knowledge/COSMO_CONSTRAINTS.md`
+- COSMO_GLOSSARY — `cosmo/knowledge/COSMO_GLOSSARY.md`
+- COSMO_INTERFACES — `cosmo/knowledge/COSMO_INTERFACES.md`
+- COSMO_INVARIANTS — `cosmo/knowledge/COSMO_INVARIANTS.md`
+- COSMO_ONTOLOGY — `cosmo/knowledge/COSMO_ONTOLOGY.md`
+- COSMO_RULES — `cosmo/knowledge/COSMO_RULES.md`
+- COSMO_BRAIN_ARCHITECTURE — `cosmo/knowledge/brain/COSMO_BRAIN_ARCHITECTURE.md`
+- COSMO_BRAIN_CANON — `cosmo/knowledge/brain/COSMO_BRAIN_CANON.md`
+- COSMO_BRAIN_CONSTRAINTS — `cosmo/knowledge/brain/COSMO_BRAIN_CONSTRAINTS.md`
+- COSMO_BRAIN_GLOSSARY — `cosmo/knowledge/brain/COSMO_BRAIN_GLOSSARY.md`
+- COSMO_BRAIN_INTERFACES — `cosmo/knowledge/brain/COSMO_BRAIN_INTERFACES.md`
+- COSMO_BRAIN_INVARIANTS — `cosmo/knowledge/brain/COSMO_BRAIN_INVARIANTS.md`
+- COSMO_BRAIN_ONTOLOGY — `cosmo/knowledge/brain/COSMO_BRAIN_ONTOLOGY.md`
+- COSMO_BRAIN_RULES — `cosmo/knowledge/brain/COSMO_BRAIN_RULES.md`
+- constraints — `cosmo/knowledge/canonical/brain/constraints.md`
+- entities — `cosmo/knowledge/canonical/brain/entities.md`
+- glossary — `cosmo/knowledge/canonical/brain/glossary.md`
+- interfaces — `cosmo/knowledge/canonical/brain/interfaces.md`
+- invariants — `cosmo/knowledge/canonical/brain/invariants.md`
+- provenance — `cosmo/knowledge/canonical/brain/provenance.md`
+- relationships — `cosmo/knowledge/canonical/brain/relationships.md`
+- requirements — `cosmo/knowledge/canonical/brain/requirements.md`
+- rules — `cosmo/knowledge/canonical/brain/rules.md`
+- constraints — `cosmo/knowledge/canonical/constraints.md`
+- entities — `cosmo/knowledge/canonical/entities.md`
+- glossary — `cosmo/knowledge/canonical/glossary.md`
+- interfaces — `cosmo/knowledge/canonical/interfaces.md`
+- invariants — `cosmo/knowledge/canonical/invariants.md`
+- provenance — `cosmo/knowledge/canonical/provenance.md`
+- relationships — `cosmo/knowledge/canonical/relationships.md`
+- requirements — `cosmo/knowledge/canonical/requirements.md`
+- rules — `cosmo/knowledge/canonical/rules.md`
+- COSMO_GAPS_AND_CONTRADICTIONS — `cosmo/knowledge/provenance/COSMO_GAPS_AND_CONTRADICTIONS.md`
+- FINAL_VALIDATION_REPORT — `cosmo/knowledge/provenance/FINAL_VALIDATION_REPORT.md`
+- SOURCE_MANIFEST — `cosmo/knowledge/provenance/SOURCE_MANIFEST.md`
+- COSMO_BRAIN_GAPS_AND_CONTRADICTIONS — `cosmo/knowledge/provenance/brain/COSMO_BRAIN_GAPS_AND_CONTRADICTIONS.md`
+- COSMO_BRAIN_INTEGRATION_MAP — `cosmo/knowledge/provenance/brain/COSMO_BRAIN_INTEGRATION_MAP.md`
+- SOURCE_MANIFEST — `cosmo/knowledge/provenance/brain/SOURCE_MANIFEST.md`
+- inventory — `cosmo/knowledge/provenance/brain/inventory.md`
+- build_cosmo_manifest — `cosmo/knowledge/provenance/build_cosmo_manifest.md`
+- COSMO Phase 1 — Human Problem Architecture v1.0.docx — `cosmo/knowledge/provenance/extracted/COSMO Phase 1 — Human Problem Architecture v1.0.docx.md`
+- COSMO Phase 17 — Community Operating System.docx — `cosmo/knowledge/provenance/extracted/COSMO Phase 17 — Community Operating System.docx.md`
+- COSMO_Functional_Spec_First_Engineering_Review_Draft_v0.9.pdf — `cosmo/knowledge/provenance/extracted/COSMO_Functional_Spec_First_Engineering_Review_Draft_v0.9.pdf.md`
+- cosmo master plan.pdf — `cosmo/knowledge/provenance/extracted/cosmo master plan.pdf.md`
+- cosmo master.pdf — `cosmo/knowledge/provenance/extracted/cosmo master.pdf.md`
+- cosmo.pdf — `cosmo/knowledge/provenance/extracted/cosmo.pdf.md`
+- inventory — `cosmo/knowledge/provenance/inventory.md`
+- package — `cosmo/package.md`
+- postcss.config — `cosmo/postcss.config.md`
+- read_canonical — `cosmo/read_canonical.md`
+- fix-jsx-attrs — `cosmo/scripts/fix-jsx-attrs.md`
+- generate-routes — `cosmo/scripts/generate-routes.md`
+- generateScreens — `cosmo/scripts/generateScreens.md`
+- App — `cosmo/src/App.md`
+- firebaseAuth — `cosmo/src/auth/firebaseAuth.md`
+- AgencyControls — `cosmo/src/components/AgencyControls.md`
+- Button — `cosmo/src/components/Button.md`
+- CommandPalette — `cosmo/src/components/CommandPalette.md`
+- ConsentDialog — `cosmo/src/components/ConsentDialog.md`
+- ErrorBoundary — `cosmo/src/components/ErrorBoundary.md`
+- ExpressionCapture — `cosmo/src/components/ExpressionCapture.md`
+- GlassCard — `cosmo/src/components/GlassCard.md`
+- InvariantDashboard — `cosmo/src/components/InvariantDashboard.md`
+- LiveWaveformRecorder — `cosmo/src/components/LiveWaveformRecorder.md`
+- Modal — `cosmo/src/components/Modal.md`
+- PageLoader — `cosmo/src/components/PageLoader.md`
+- TopAppBar — `cosmo/src/components/TopAppBar.md`
+- WaveformPlayer — `cosmo/src/components/WaveformPlayer.md`
+- AppContext — `cosmo/src/context/AppContext.md`
+- index — `cosmo/src/hooks/index.md`
+- useWaveSurfer — `cosmo/src/hooks/useWaveSurfer.md`
+- index — `cosmo/src/index.md`
+- register — `cosmo/src/invariants/register.md`
+- register.test — `cosmo/src/invariants/register.test.md`
+- meydaFeatures — `cosmo/src/lib/meydaFeatures.md`
+- motion — `cosmo/src/lib/motion.md`
+- wavesurferTheme — `cosmo/src/lib/wavesurferTheme.md`
+- main — `cosmo/src/main.md`
+- pwaManifest — `cosmo/src/pwaManifest.md`
+- flows — `cosmo/src/routes/flows.md`
+- generatedRoutes — `cosmo/src/routes/generatedRoutes.md`
+- AHighFidelitySophisticatedBiometricResonanceChartTwoElegantGlowing — `cosmo/src/screens/AHighFidelitySophisticatedBiometricResonanceChartTwoElegantGlowing.md`
+- AccountChoice — `cosmo/src/screens/AccountChoice.md`
+- AccountDeletion — `cosmo/src/screens/AccountDeletion.md`
+- AccountSettings — `cosmo/src/screens/AccountSettings.md`
+- AdvancedBiometricDashboard — `cosmo/src/screens/AdvancedBiometricDashboard.md`
+- AfterScan — `cosmo/src/screens/AfterScan.md`
+- AlignmentErrorState — `cosmo/src/screens/AlignmentErrorState.md`
+- AlignmentRequestSent1 — `cosmo/src/screens/AlignmentRequestSent1.md`
+- AlignmentRequestSent2 — `cosmo/src/screens/AlignmentRequestSent2.md`
+- AnnualRecapIntro — `cosmo/src/screens/AnnualRecapIntro.md`
+- AnnualRecapResonanceArtGallery — `cosmo/src/screens/AnnualRecapResonanceArtGallery.md`
+- AnnualRecapResonanceArtGalleryEnhancedAnimation — `cosmo/src/screens/AnnualRecapResonanceArtGalleryEnhancedAnimation.md`
+- AnnualRecapResonanceArtGalleryInteractiveAnimated — `cosmo/src/screens/AnnualRecapResonanceArtGalleryInteractiveAnimated.md`
+- AnnualRecapResonanceStats — `cosmo/src/screens/AnnualRecapResonanceStats.md`
+- AnnualRecapSoulSignature — `cosmo/src/screens/AnnualRecapSoulSignature.md`
+- AnnualRecapTransformationJourney — `cosmo/src/screens/AnnualRecapTransformationJourney.md`
+- ArtworkExplanation — `cosmo/src/screens/ArtworkExplanation.md`
+- ArtworkGeneration — `cosmo/src/screens/ArtworkGeneration.md`
+- ArtworkReveal1 — `cosmo/src/screens/ArtworkReveal1.md`
+- ArtworkReveal2 — `cosmo/src/screens/ArtworkReveal2.md`
+- AscendedTierDetailVip — `cosmo/src/screens/AscendedTierDetailVip.md`
+- AudioVault — `cosmo/src/screens/AudioVault.md`
+- AvatarCustomization — `cosmo/src/screens/AvatarCustomization.md`
+- BeforeAfterComparison — `cosmo/src/screens/BeforeAfterComparison.md`
+- BeforeScanOption — `cosmo/src/screens/BeforeScanOption.md`
+- BookingConfirmationScheduling — `cosmo/src/screens/BookingConfirmationScheduling.md`
+- BookingFlow — `cosmo/src/screens/BookingFlow.md`
+- BookingSuccessConfirmation — `cosmo/src/screens/BookingSuccessConfirmation.md`
+- CircleDetail — `cosmo/src/screens/CircleDetail.md`
+- ClientExportReport — `cosmo/src/screens/ClientExportReport.md`
+- ClientJourneyTools — `cosmo/src/screens/ClientJourneyTools.md`
+- CommunityHome — `cosmo/src/screens/CommunityHome.md`
+- CommunityRewardsReferrals1 — `cosmo/src/screens/CommunityRewardsReferrals1.md`
+- CommunityRewardsReferrals2 — `cosmo/src/screens/CommunityRewardsReferrals2.md`
+- ConnectionSuccessBeat — `cosmo/src/screens/ConnectionSuccessBeat.md`
+- ConnectionSuccessDetail — `cosmo/src/screens/ConnectionSuccessDetail.md`
+- CosmoMarketplace1 — `cosmo/src/screens/CosmoMarketplace1.md`
+- CosmoMarketplace2 — `cosmo/src/screens/CosmoMarketplace2.md`
+- CreateGiftContent — `cosmo/src/screens/CreateGiftContent.md`
+- CreateNewEvent — `cosmo/src/screens/CreateNewEvent.md`
+- CustomizationSuccessConfirmation — `cosmo/src/screens/CustomizationSuccessConfirmation.md`
+- CustomizeGift — `cosmo/src/screens/CustomizeGift.md`
+- CustomizePreview — `cosmo/src/screens/CustomizePreview.md`
+- CustomizePreviewPortraitState — `cosmo/src/screens/CustomizePreviewPortraitState.md`
+- CustomizePreviewVoidBlackState — `cosmo/src/screens/CustomizePreviewVoidBlackState.md`
+- Dashboard — `cosmo/src/screens/Dashboard.md`
+- DeliveryPreview — `cosmo/src/screens/DeliveryPreview.md`
+- EditProfileState — `cosmo/src/screens/EditProfileState.md`
+- Experience — `cosmo/src/screens/Experience.md`
+- ExperiencePreferences — `cosmo/src/screens/ExperiencePreferences.md`
+- ExplorerTierDetail — `cosmo/src/screens/ExplorerTierDetail.md`
+- FirstReflection — `cosmo/src/screens/FirstReflection.md`
+- FirstScanInvitation — `cosmo/src/screens/FirstScanInvitation.md`
+- Generation — `cosmo/src/screens/Generation.md`
+- GiftArtGeneration — `cosmo/src/screens/GiftArtGeneration.md`
+- GiftRecipient — `cosmo/src/screens/GiftRecipient.md`
+- GiftResponseLoop — `cosmo/src/screens/GiftResponseLoop.md`
+- GiftTypeSelection — `cosmo/src/screens/GiftTypeSelection.md`
+- GoalSelection — `cosmo/src/screens/GoalSelection.md`
+- HarmonyEstablishedSuccessState — `cosmo/src/screens/HarmonyEstablishedSuccessState.md`
+- HomeDashboard — `cosmo/src/screens/HomeDashboard.md`
+- HomeDashboardInactiveUser — `cosmo/src/screens/HomeDashboardInactiveUser.md`
+- HomeDashboardNewUser — `cosmo/src/screens/HomeDashboardNewUser.md`
+- HomeDashboardPremiumUser — `cosmo/src/screens/HomeDashboardPremiumUser.md`
+- HomeDashboardReturningUser — `cosmo/src/screens/HomeDashboardReturningUser.md`
+- InnerCircleConnections — `cosmo/src/screens/InnerCircleConnections.md`
+- Input — `cosmo/src/screens/Input.md`
+- IntentionSetting1 — `cosmo/src/screens/IntentionSetting1.md`
+- IntentionSetting2 — `cosmo/src/screens/IntentionSetting2.md`
+- Intro — `cosmo/src/screens/Intro.md`
+- InviteInnerCircle — `cosmo/src/screens/InviteInnerCircle.md`
+- InviteNewSeeker — `cosmo/src/screens/InviteNewSeeker.md`
+- JourneyCelebration — `cosmo/src/screens/JourneyCelebration.md`
+- JourneyGallery — `cosmo/src/screens/JourneyGallery.md`
+- JourneyInsights — `cosmo/src/screens/JourneyInsights.md`
+- JourneyTimeline — `cosmo/src/screens/JourneyTimeline.md`
+- LiveSessionActive — `cosmo/src/screens/LiveSessionActive.md`
+- LiveSessionPostReflection — `cosmo/src/screens/LiveSessionPostReflection.md`
+- LiveSessionWaitingRoom — `cosmo/src/screens/LiveSessionWaitingRoom.md`
+- LocationSearchFilterState — `cosmo/src/screens/LocationSearchFilterState.md`
+- MarketplaceEmptyCart — `cosmo/src/screens/MarketplaceEmptyCart.md`
+- MarketplaceSearchFilter — `cosmo/src/screens/MarketplaceSearchFilter.md`
+- MarketplaceSessionsCategory — `cosmo/src/screens/MarketplaceSessionsCategory.md`
+- MicrophonePermission — `cosmo/src/screens/MicrophonePermission.md`
+- MonthlySummary — `cosmo/src/screens/MonthlySummary.md`
+- MusicRecommendation — `cosmo/src/screens/MusicRecommendation.md`
+- NexusSearchOverlay — `cosmo/src/screens/NexusSearchOverlay.md`
+- PendingAlignmentRequest1 — `cosmo/src/screens/PendingAlignmentRequest1.md`
+- PendingAlignmentRequest2 — `cosmo/src/screens/PendingAlignmentRequest2.md`
+- PendingAlignmentRequest3 — `cosmo/src/screens/PendingAlignmentRequest3.md`
+- Personalization — `cosmo/src/screens/Personalization.md`
+- PolarityConfirmation — `cosmo/src/screens/PolarityConfirmation.md`
+- PostPracticeReflection — `cosmo/src/screens/PostPracticeReflection.md`
+- PracticeDetail — `cosmo/src/screens/PracticeDetail.md`
+- PracticeLibrary — `cosmo/src/screens/PracticeLibrary.md`
+- PracticePlayer — `cosmo/src/screens/PracticePlayer.md`
+- PracticeSelection — `cosmo/src/screens/PracticeSelection.md`
+- PractitionerDashboard — `cosmo/src/screens/PractitionerDashboard.md`
+- PractitionerDashboardMobile — `cosmo/src/screens/PractitionerDashboardMobile.md`
+- PractitionerOnboarding — `cosmo/src/screens/PractitionerOnboarding.md`
+- PresenceModeSetup — `cosmo/src/screens/PresenceModeSetup.md`
+- PresenceTransition — `cosmo/src/screens/PresenceTransition.md`
+- PrivacyDataControl1 — `cosmo/src/screens/PrivacyDataControl1.md`
+- PrivacyDataControl2 — `cosmo/src/screens/PrivacyDataControl2.md`
+- PrivacyFoundation — `cosmo/src/screens/PrivacyFoundation.md`
+- PrivacyManagementDetail — `cosmo/src/screens/PrivacyManagementDetail.md`
+- ProductDetail1 — `cosmo/src/screens/ProductDetail1.md`
+- ProductDetail2 — `cosmo/src/screens/ProductDetail2.md`
+- ProfileSavedConfirmation — `cosmo/src/screens/ProfileSavedConfirmation.md`
+- PublicProfileView — `cosmo/src/screens/PublicProfileView.md`
+- RecipientExperienceWeb — `cosmo/src/screens/RecipientExperienceWeb.md`
+- Recommendation — `cosmo/src/screens/Recommendation.md`
+- RecordingReview — `cosmo/src/screens/RecordingReview.md`
+- ReferralGrowth — `cosmo/src/screens/ReferralGrowth.md`
+- RelaySyncingSelectionState — `cosmo/src/screens/RelaySyncingSelectionState.md`
+- ResonanceInterruptedErrorState — `cosmo/src/screens/ResonanceInterruptedErrorState.md`
+- ResonanceLevels — `cosmo/src/screens/ResonanceLevels.md`
+- ResonanceRecording1 — `cosmo/src/screens/ResonanceRecording1.md`
+- ResonanceRecording2 — `cosmo/src/screens/ResonanceRecording2.md`
+- RetreatDetail — `cosmo/src/screens/RetreatDetail.md`
+- RetreatDiscovery — `cosmo/src/screens/RetreatDiscovery.md`
+- RetreatModeActive — `cosmo/src/screens/RetreatModeActive.md`
+- RewardHistory — `cosmo/src/screens/RewardHistory.md`
+- SanctuaryAnchoredConfirmation — `cosmo/src/screens/SanctuaryAnchoredConfirmation.md`
+- SanctuaryAnchoredSuccessState — `cosmo/src/screens/SanctuaryAnchoredSuccessState.md`
+- SanctuaryArrivalOrientation — `cosmo/src/screens/SanctuaryArrivalOrientation.md`
+- SanctuaryEntryTransition — `cosmo/src/screens/SanctuaryEntryTransition.md`
+- SanctuaryLocationSelection1 — `cosmo/src/screens/SanctuaryLocationSelection1.md`
+- SanctuaryLocationSelection2 — `cosmo/src/screens/SanctuaryLocationSelection2.md`
+- SanctuaryRealmDetail — `cosmo/src/screens/SanctuaryRealmDetail.md`
+- SaveSessionSummary — `cosmo/src/screens/SaveSessionSummary.md`
+- ScanPreparation1 — `cosmo/src/screens/ScanPreparation1.md`
+- ScanPreparation2 — `cosmo/src/screens/ScanPreparation2.md`
+- ScanTypeSelection1 — `cosmo/src/screens/ScanTypeSelection1.md`
+- ScanTypeSelection2 — `cosmo/src/screens/ScanTypeSelection2.md`
+- SearchResultsNoMatchesFound1 — `cosmo/src/screens/SearchResultsNoMatchesFound1.md`
+- SearchResultsNoMatchesFound2 — `cosmo/src/screens/SearchResultsNoMatchesFound2.md`
+- SearchResultsNoMatchesFound3 — `cosmo/src/screens/SearchResultsNoMatchesFound3.md`
+- SearchResultsNoMatchesFound4 — `cosmo/src/screens/SearchResultsNoMatchesFound4.md`
+- SearchResultsSolaris1 — `cosmo/src/screens/SearchResultsSolaris1.md`
+- SearchResultsSolaris2 — `cosmo/src/screens/SearchResultsSolaris2.md`
+- SearchingTheNexus — `cosmo/src/screens/SearchingTheNexus.md`
+- SearchingTheNexusActiveState1 — `cosmo/src/screens/SearchingTheNexusActiveState1.md`
+- SearchingTheNexusActiveState2 — `cosmo/src/screens/SearchingTheNexusActiveState2.md`
+- SearchingTheNexusActiveState3 — `cosmo/src/screens/SearchingTheNexusActiveState3.md`
+- SecureCheckout — `cosmo/src/screens/SecureCheckout.md`
+- SecureCheckoutPaymentSelection — `cosmo/src/screens/SecureCheckoutPaymentSelection.md`
+- SeekerDiscoverySearch — `cosmo/src/screens/SeekerDiscoverySearch.md`
+- SeekerTierDetailPremium — `cosmo/src/screens/SeekerTierDetailPremium.md`
+- SelectProductType — `cosmo/src/screens/SelectProductType.md`
+- SendGift — `cosmo/src/screens/SendGift.md`
+- SessionDetailView — `cosmo/src/screens/SessionDetailView.md`
+- SessionsEmptyState — `cosmo/src/screens/SessionsEmptyState.md`
+- SessionsFilterRefinement — `cosmo/src/screens/SessionsFilterRefinement.md`
+- Shader — `cosmo/src/screens/Shader.md`
+- SharingConsentHistory — `cosmo/src/screens/SharingConsentHistory.md`
+- SocialConnectionRequests — `cosmo/src/screens/SocialConnectionRequests.md`
+- SplashScreen — `cosmo/src/screens/SplashScreen.md`
+- StoryStyle — `cosmo/src/screens/StoryStyle.md`
+- SubscriptionPaywall — `cosmo/src/screens/SubscriptionPaywall.md`
+- TransactionProcessing — `cosmo/src/screens/TransactionProcessing.md`
+- TransformationRecap — `cosmo/src/screens/TransformationRecap.md`
+- UpgradeSuccessConfirmation — `cosmo/src/screens/UpgradeSuccessConfirmation.md`
+- UserProfile — `cosmo/src/screens/UserProfile.md`
+- ValueCarouselPage1 — `cosmo/src/screens/ValueCarouselPage1.md`
+- WelcomeBack — `cosmo/src/screens/WelcomeBack.md`
+- WelcomeScreen — `cosmo/src/screens/WelcomeScreen.md`
+- ZeroPointReflection — `cosmo/src/screens/ZeroPointReflection.md`
+- service-worker — `cosmo/src/service-worker.md`
+- agentRuntime — `cosmo/src/services/agentRuntime.md`
+- analytics — `cosmo/src/services/analytics.md`
+- artworkService — `cosmo/src/services/artworkService.md`
+- community — `cosmo/src/services/community.md`
+- consent — `cosmo/src/services/consent.md`
+- eventEmitter — `cosmo/src/services/eventEmitter.md`
+- events — `cosmo/src/services/events.md`
+- expression — `cosmo/src/services/expression.md`
+- firebase — `cosmo/src/services/firebase.md`
+- firestore — `cosmo/src/services/firestore.md`
+- journeyService — `cosmo/src/services/journeyService.md`
+- memory — `cosmo/src/services/memory.md`
+- notificationService — `cosmo/src/services/notificationService.md`
+- permissions — `cosmo/src/services/permissions.md`
+- practiceSequencing — `cosmo/src/services/practiceSequencing.md`
+- practiceService — `cosmo/src/services/practiceService.md`
+- remoteConfig — `cosmo/src/services/remoteConfig.md`
+- sessionService — `cosmo/src/services/sessionService.md`
+- soundToVisual — `cosmo/src/services/soundToVisual.md`
+- storageService — `cosmo/src/services/storageService.md`
+- appContext.test — `cosmo/src/tests/appContext.test.md`
+- invariants.test — `cosmo/src/tests/invariants.test.md`
+- meydaFeatures.test — `cosmo/src/tests/meydaFeatures.test.md`
+- tailwind.config — `cosmo/tailwind.config.md`
+- test_arenasim — `cosmo/test_arenasim.md`
+- test_cws — `cosmo/test_cws.md`
+- test_hybrid_arena — `cosmo/test_hybrid_arena.md`
+- test_networked_ecology — `cosmo/test_networked_ecology.md`
+- test_scaling — `cosmo/test_scaling.md`
+- tsconfig — `cosmo/tsconfig.md`
+- vite.config — `cosmo/vite.config.md`
+
+## `designs/` (310 files)
+
+- SPECS_INDEX — `designs/SPECS_INDEX.md`
+- 3.Spicies_Interaction_Engine-HIE.uiface — `designs/_00_Cosmo brain/3.Spicies_Interaction_Engine-HIE.uiface.md`
+- 4.Canon Integration Layer-CIL.ucil — `designs/_00_Cosmo brain/4.Canon Integration Layer-CIL.ucil.md`
+- ABSOLUTE OMNIVERSE U∞ — `designs/_00_Cosmo brain/ABSOLUTE OMNIVERSE U∞.md`
+- AMOS_AGENT_REGISTRY — `designs/_00_Cosmo brain/AMOS_AGENT_REGISTRY.md`
+- AMOS_BUILD_FROM_SPEC — `designs/_00_Cosmo brain/AMOS_BUILD_FROM_SPEC.md`
+- AMOS_CANONICAL_GLOSSARY — `designs/_00_Cosmo brain/AMOS_CANONICAL_GLOSSARY.md`
+- AMOS_CHATGPT_BOOTSTRAP — `designs/_00_Cosmo brain/AMOS_CHATGPT_BOOTSTRAP.md`
+- AMOS_Code_Architect copy — `designs/_00_Cosmo brain/AMOS_Code_Architect copy.md`
+- AMOS_Code_Architect — `designs/_00_Cosmo brain/AMOS_Code_Architect.md`
+- AMOS_MAX_EXPANDED — `designs/_00_Cosmo brain/AMOS_MAX_EXPANDED.md`
+- AMOS_Speed_Engine_v0 — `designs/_00_Cosmo brain/AMOS_Speed_Engine_v0.md`
+- Absolute-Human (final version) — `designs/_00_Cosmo brain/Absolute-Human (final version).md`
+- AMOS_Design_Engine_v0 — `designs/_00_Cosmo brain/Cognitive/AMOS_Design_Engine_v0.md`
+- AMOS_Vn_Legal_Engine_v0 — `designs/_00_Cosmo brain/Domains/AMOS_Vn_Legal_Engine_v0.md`
+- Governance Economy — `designs/_00_Cosmo brain/Governance Economy.md`
+- Grand Cannon — `designs/_00_Cosmo brain/Grand Cannon.md`
+- HSE_CEO_Enginev — `designs/_00_Cosmo brain/HSE_CEO_Enginev.md`
+- HSE_Enginev∞_AMOS_FORMAT_WITH_UCM — `designs/_00_Cosmo brain/HSE_Enginev∞_AMOS_FORMAT_WITH_UCM.md`
+- Human Systems Engine™ (HSE) VN 2b4c5e6f95bd801c9d25d4bc5167dec1 — `designs/_00_Cosmo brain/Human Systems Engine™ (HSE) VN 2b4c5e6f95bd801c9d25d4bc5167dec1.md`
+- Khung Giáo trình 48 giờ cho tài xế – điều phối – k 2aec5e6f95bd805ab7a8f3280934c901 — `designs/_00_Cosmo brain/Khung Giáo trình 48 giờ cho tài xế – điều phối – k 2aec5e6f95bd805ab7a8f3280934c901.md`
+- LOGIC — `designs/_00_Cosmo brain/LOGIC.md`
+- Reasoning kernel — `designs/_00_Cosmo brain/Reasoning kernel.md`
+- Tech Engine  — `designs/_00_Cosmo brain/Tech Engine .md`
+- Human Systems Engine™ (HSE) VN 2b4c5e6f95bd801c9d25d4bc5167dec1 — `designs/_00_Cosmo brain/Unipower/Human Systems Engine™ (HSE) VN 2b4c5e6f95bd801c9d25d4bc5167dec1.md`
+- VN_OMNISTRUCTURE.txt — `designs/_00_Cosmo brain/VN_OMNISTRUCTURE.txt.md`
+- _AMOS_Total Technical Engine  — `designs/_00_Cosmo brain/_AMOS_Total Technical Engine .md`
+- AMOS_Legal_Kernel_v0 — `designs/_00_Cosmo brain/_AMOS_UNIVERSE/Domains/Org_Risk_Policy/AMOS_Legal_Kernel_v0.md`
+- AMOS_Medical_Clinical_Kernel_v0 — `designs/_00_Cosmo brain/_AMOS_UNIVERSE/Domains/Science_Health/AMOS_Medical_Clinical_Kernel_v0.md`
+- AMOS_Scientific_Kernel_v0 — `designs/_00_Cosmo brain/_AMOS_UNIVERSE/Domains/Science_Health/AMOS_Scientific_Kernel_v0.md`
+- AMOS_Vietnamese_Writing_Engine_v0 — `designs/_00_Cosmo brain/_AMOS_UNIVERSE/Engines/AMOS_Vietnamese_Writing_Engine_v0.md`
+- Khung Giáo trình 48 giờ cho tài xế – điều phối – k 2aec5e6f95bd805ab7a8f3280934c901 — `designs/_00_Cosmo brain/_Archive/AMOS_SYSTEM/UniPower/_DOC/Khung Giáo trình 48 giờ cho tài xế – điều phối – k 2aec5e6f95bd805ab7a8f3280934c901.md`
+- Human Systems Engine™ (HSE) VN 2b4c5e6f95bd801c9d25d4bc5167dec1 — `designs/_00_Cosmo brain/_LEGACY BRAIN/Unipower/Doc/Human Systems Engine™ (HSE) VN 2b4c5e6f95bd801c9d25d4bc5167dec1.md`
+- Khung Giáo trình 48 giờ cho tài xế – điều phối – k 2aec5e6f95bd805ab7a8f3280934c901 — `designs/_00_Cosmo brain/_LEGACY BRAIN/Unipower/Doc/Khung Giáo trình 48 giờ cho tài xế – điều phối – k 2aec5e6f95bd805ab7a8f3280934c901.md`
+- AMOS_Biology_And_Cognition_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/7_Intelligents/AMOS_Biology_And_Cognition_Engine_v0.md`
+- AMOS_Design_Language_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/7_Intelligents/AMOS_Design_Language_Engine_v0.md`
+- AMOS_Deterministic_Logic_And_Law_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/7_Intelligents/AMOS_Deterministic_Logic_And_Law_Engine_v0.md`
+- AMOS_Econ_Finance_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/7_Intelligents/AMOS_Econ_Finance_Engine_v0.md`
+- AMOS_Engineering_And_Mathematics_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/7_Intelligents/AMOS_Engineering_And_Mathematics_Engine_v0.md`
+- AMOS_Numerical_Methods_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/7_Intelligents/AMOS_Numerical_Methods_Engine_v0.md`
+- AMOS_Physics_Cosmos_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/7_Intelligents/AMOS_Physics_Cosmos_Engine_v0.md`
+- AMOS_Signal_Processing_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/7_Intelligents/AMOS_Signal_Processing_Engine_v0.md`
+- AMOS_Society_Culture_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/7_Intelligents/AMOS_Society_Culture_Engine_v0.md`
+- AMOS_Strategy_Game_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/7_Intelligents/AMOS_Strategy_Game_Engine_v0.md`
+- AMOS_Cognition_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/AMOS_Cognition_Engine_v0.md`
+- AMOS_Consciousness_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/AMOS_Consciousness_Engine_v0.md`
+- AMOS_Emotion_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/AMOS_Emotion_Engine_v0.md`
+- AMOS_Human_Intelligence_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/AMOS_Human_Intelligence_Engine_v0.md`
+- AMOS_Personality_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/AMOS_Personality_Engine_v0.md`
+- AMOS_Quantum_Stack_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/AMOS_Quantum_Stack_v0.md`
+- AMOS_Nbi_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/Ubi/AMOS_Nbi_Engine_v0.md`
+- AMOS_Nei_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/Ubi/AMOS_Nei_Engine_v0.md`
+- AMOS_Ubi_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/Ubi/AMOS_Ubi_Engine_v0.md`
+- AMOS_Ip_Shield_Kernel_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/Web/AMOS_Ip_Shield_Kernel_v0.md`
+- AMOS_Personality_Trang_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Core/Web/AMOS_Personality_Trang_Engine_v0.md`
+- AMOS_Audit_Quality_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Domains/AMOS_Audit_Quality_Engine_v0.md`
+- AMOS_Species_Interaction_Core_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Domains/AMOS_Species_Interaction_Core_Engine_v0.md`
+- AMOS_Tech_Quantum_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Domains/AMOS_Tech_Quantum_Engine_v0.md`
+- AMOS_Unified_Coding_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Domains/AMOS_Unified_Coding_Engine_v0.md`
+- AMOS_Vn_Legal_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Domains/AMOS_Vn_Legal_Engine_v0.md`
+- AMOS_Governance_Economy_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Domains/Org_Risk_Policy/AMOS_Governance_Economy_Engine_v0.md`
+- AMOS_Org_Governance_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Domains/Org_Risk_Policy/AMOS_Org_Governance_Engine_v0.md`
+- AMOS_Monogram_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Dsc/AMOS_Monogram_Engine_v0.md`
+- AMOS_Monogram_Kernal_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Dsc/AMOS_Monogram_Kernal_Engine_v0.md`
+- AMOS_Coding_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Kernels/Tech/AMOS_Coding_Engine_v0.md`
+- AMOS_Coding_Kernel_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Kernels/Tech/AMOS_Coding_Kernel_v0.md`
+- AMOS_Design_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Kernels/Tech/AMOS_Design_Engine_v0.md`
+- AMOS_Design_Kernel_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Kernels/Tech/AMOS_Design_Kernel_v0.md`
+- AMOS_Documentation_Kernel_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Kernels/Tech/AMOS_Documentation_Kernel_v0.md`
+- AMOS_Engineering_Math_Kernel_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Kernels/Tech/AMOS_Engineering_Math_Kernel_v0.md`
+- AMOS_Tech_Architecture_Kernel_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Kernels/Tech/AMOS_Tech_Architecture_Kernel_v0.md`
+- AMOS_Tech_Design_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Kernels/Tech/AMOS_Tech_Design_Engine_v0.md`
+- AMOS_National_Brain_Pack_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Packs/Sector_Packs/AMOS_National_Brain_Pack_v0.md`
+- AMOS_SCIENCE_Pack_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Packs/Sector_Packs/AMOS_SCIENCE_Pack_v0.md`
+- AMOS_TECH_Pack_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Packs/Sector_Packs/AMOS_TECH_Pack_v0.md`
+- AMOS_Australia_Economy_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Unipower/AMOS_Australia_Economy_Engine_v0.md`
+- AMOS_Australia_Law_Incentives_Funding_Grants_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Unipower/AMOS_Australia_Law_Incentives_Funding_Grants_Engine_v0.md`
+- AMOS_Bod_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Unipower/AMOS_Bod_Engine_v0.md`
+- AMOS_Chinese_Legal_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Unipower/AMOS_Chinese_Legal_Engine_v0.md`
+- AMOS_Ev_Kernel_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Unipower/AMOS_Ev_Kernel_v0.md`
+- AMOS_Global_Legal_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Unipower/AMOS_Global_Legal_Engine_v0.md`
+- AMOS_Risk_Policy_Governance_Ecosystem_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Unipower/AMOS_Risk_Policy_Governance_Ecosystem_Engine_v0.md`
+- AMOS_Scientific_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Unipower/AMOS_Scientific_Engine_v0.md`
+- AMOS_Strategic_Document_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Unipower/AMOS_Strategic_Document_Engine_v0.md`
+- AMOS_Tech_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Unipower/AMOS_Tech_Engine_v0.md`
+- AMOS_Uni_Ai_Intelligence_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Unipower/AMOS_Uni_Ai_Intelligence_Engine_v0.md`
+- AMOS_Uni_Market_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Unipower/AMOS_Uni_Market_Engine_v0.md`
+- AMOS_Uni_System_Operations_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Unipower/AMOS_Uni_System_Operations_Engine_v0.md`
+- AMOS_Vn_Omnistructure_Engine_v0 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Unipower/AMOS_Vn_Omnistructure_Engine_v0.md`
+- Human Systems Engine™ (HSE) VN 2b4c5e6f95bd801c9d25d4bc5167dec1 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Unipower/Doc/Human Systems Engine™ (HSE) VN 2b4c5e6f95bd801c9d25d4bc5167dec1.md`
+- Khung Giáo trình 48 giờ cho tài xế – điều phối – k 2aec5e6f95bd805ab7a8f3280934c901 — `designs/_00_Cosmo brain/_LEGACY BRAIN2/Unipower/Doc/Khung Giáo trình 48 giờ cho tài xế – điều phối – k 2aec5e6f95bd805ab7a8f3280934c901.md`
+- 5.AI_Integration_Layer.uai — `designs/_00_Cosmo brain/_archive AMOS2/5.AI_Integration_Layer.uai.md`
+- amos_conversation_snapshot — `designs/_00_Cosmo brain/amos_conversation_snapshot.md`
+- amos_modes — `designs/_00_Cosmo brain/amos_modes.md`
+- amos_setup_mega — `designs/_00_Cosmo brain/amos_setup_mega.md`
+- canonical_body_registry — `designs/_00_Cosmo brain/canonical_body_registry.md`
+- setup_amos_v2 — `designs/_00_Cosmo brain/setup_amos_v2.md`
+- DESIGN — `designs/luminous_resonance/DESIGN.md`
+- code — `designs/screens/account_choice/code.md`
+- code — `designs/screens/account_deletion/code.md`
+- code — `designs/screens/account_settings/code.md`
+- code — `designs/screens/advanced_biometric_dashboard/code.md`
+- code — `designs/screens/after_scan/code.md`
+- code — `designs/screens/alignment_error_state/code.md`
+- code — `designs/screens/alignment_request_sent_1/code.md`
+- code — `designs/screens/alignment_request_sent_2/code.md`
+- code — `designs/screens/annual_recap_intro/code.md`
+- code — `designs/screens/annual_recap_resonance_art_gallery/code.md`
+- code — `designs/screens/annual_recap_resonance_art_gallery_enhanced_animation/code.md`
+- code — `designs/screens/annual_recap_resonance_art_gallery_interactive_animated/code.md`
+- code — `designs/screens/annual_recap_resonance_stats/code.md`
+- code — `designs/screens/annual_recap_soul_signature/code.md`
+- code — `designs/screens/annual_recap_transformation_journey/code.md`
+- code — `designs/screens/artwork_explanation/code.md`
+- code — `designs/screens/artwork_generation/code.md`
+- code — `designs/screens/artwork_reveal_1/code.md`
+- code — `designs/screens/artwork_reveal_2/code.md`
+- code — `designs/screens/ascended_tier_detail_vip/code.md`
+- code — `designs/screens/audio_vault/code.md`
+- code — `designs/screens/avatar_customization/code.md`
+- code — `designs/screens/before_after_comparison/code.md`
+- code — `designs/screens/before_scan_option/code.md`
+- code — `designs/screens/booking_confirmation_scheduling/code.md`
+- code — `designs/screens/booking_flow/code.md`
+- code — `designs/screens/booking_success_confirmation/code.md`
+- code — `designs/screens/circle_detail/code.md`
+- code — `designs/screens/client_export_report/code.md`
+- code — `designs/screens/client_journey_tools/code.md`
+- code — `designs/screens/community_home/code.md`
+- code — `designs/screens/community_rewards_referrals_1/code.md`
+- code — `designs/screens/community_rewards_referrals_2/code.md`
+- code — `designs/screens/connection_success_beat/code.md`
+- code — `designs/screens/connection_success_detail/code.md`
+- code — `designs/screens/cosmo_marketplace_1/code.md`
+- code — `designs/screens/cosmo_marketplace_2/code.md`
+- code — `designs/screens/create_gift_content/code.md`
+- code — `designs/screens/create_new_event/code.md`
+- code — `designs/screens/customization_success_confirmation/code.md`
+- code — `designs/screens/customize_gift/code.md`
+- code — `designs/screens/customize_preview/code.md`
+- code — `designs/screens/customize_preview_portrait_state/code.md`
+- code — `designs/screens/customize_preview_void_black_state/code.md`
+- code — `designs/screens/delivery_preview/code.md`
+- code — `designs/screens/edit_profile_state/code.md`
+- code — `designs/screens/experience/code.md`
+- code — `designs/screens/experience_preferences/code.md`
+- code — `designs/screens/explorer_tier_detail/code.md`
+- code — `designs/screens/first_reflection/code.md`
+- code — `designs/screens/first_scan_invitation/code.md`
+- code — `designs/screens/generation/code.md`
+- code — `designs/screens/gift_art_generation/code.md`
+- code — `designs/screens/gift_recipient/code.md`
+- code — `designs/screens/gift_response_loop/code.md`
+- code — `designs/screens/gift_type_selection/code.md`
+- code — `designs/screens/goal_selection/code.md`
+- code — `designs/screens/harmony_established_success_state/code.md`
+- code — `designs/screens/home_dashboard/code.md`
+- code — `designs/screens/home_dashboard_inactive_user/code.md`
+- code — `designs/screens/home_dashboard_new_user/code.md`
+- code — `designs/screens/home_dashboard_premium_user/code.md`
+- code — `designs/screens/home_dashboard_returning_user/code.md`
+- code — `designs/screens/inner_circle_connections/code.md`
+- code — `designs/screens/input/code.md`
+- code — `designs/screens/intention_setting_1/code.md`
+- code — `designs/screens/intention_setting_2/code.md`
+- code — `designs/screens/intro/code.md`
+- code — `designs/screens/invite_inner_circle/code.md`
+- code — `designs/screens/invite_new_seeker/code.md`
+- code — `designs/screens/journey_celebration/code.md`
+- code — `designs/screens/journey_gallery/code.md`
+- code — `designs/screens/journey_insights/code.md`
+- code — `designs/screens/journey_timeline/code.md`
+- code — `designs/screens/live_session_active/code.md`
+- code — `designs/screens/live_session_post_reflection/code.md`
+- code — `designs/screens/live_session_waiting_room/code.md`
+- code — `designs/screens/location_search_filter_state/code.md`
+- code — `designs/screens/marketplace_empty_cart/code.md`
+- code — `designs/screens/marketplace_search_filter/code.md`
+- code — `designs/screens/marketplace_sessions_category/code.md`
+- code — `designs/screens/microphone_permission/code.md`
+- code — `designs/screens/monthly_summary/code.md`
+- code — `designs/screens/music_recommendation/code.md`
+- code — `designs/screens/nexus_search_overlay/code.md`
+- code — `designs/screens/pending_alignment_request_1/code.md`
+- code — `designs/screens/pending_alignment_request_2/code.md`
+- code — `designs/screens/pending_alignment_request_3/code.md`
+- code — `designs/screens/personalization/code.md`
+- code — `designs/screens/polarity_confirmation/code.md`
+- code — `designs/screens/post_practice_reflection/code.md`
+- code — `designs/screens/practice_detail/code.md`
+- code — `designs/screens/practice_library/code.md`
+- code — `designs/screens/practice_player/code.md`
+- code — `designs/screens/practice_selection/code.md`
+- code — `designs/screens/practitioner_dashboard/code.md`
+- code — `designs/screens/practitioner_dashboard_mobile/code.md`
+- code — `designs/screens/practitioner_onboarding/code.md`
+- code — `designs/screens/presence_mode_setup/code.md`
+- code — `designs/screens/presence_transition/code.md`
+- code — `designs/screens/privacy_data_control_1/code.md`
+- code — `designs/screens/privacy_data_control_2/code.md`
+- code — `designs/screens/privacy_foundation/code.md`
+- code — `designs/screens/privacy_management_detail/code.md`
+- code — `designs/screens/product_detail_1/code.md`
+- code — `designs/screens/product_detail_2/code.md`
+- code — `designs/screens/profile_saved_confirmation/code.md`
+- code — `designs/screens/public_profile_view/code.md`
+- code — `designs/screens/recipient_experience_web/code.md`
+- code — `designs/screens/recommendation/code.md`
+- code — `designs/screens/recording_review/code.md`
+- code — `designs/screens/referral_growth/code.md`
+- code — `designs/screens/relay_syncing_selection_state/code.md`
+- code — `designs/screens/resonance_interrupted_error_state/code.md`
+- code — `designs/screens/resonance_levels/code.md`
+- code — `designs/screens/resonance_recording_1/code.md`
+- code — `designs/screens/resonance_recording_2/code.md`
+- code — `designs/screens/retreat_detail/code.md`
+- code — `designs/screens/retreat_discovery/code.md`
+- code — `designs/screens/retreat_mode_active/code.md`
+- code — `designs/screens/reward_history/code.md`
+- code — `designs/screens/sanctuary_anchored_confirmation/code.md`
+- code — `designs/screens/sanctuary_anchored_success_state/code.md`
+- code — `designs/screens/sanctuary_arrival_orientation/code.md`
+- code — `designs/screens/sanctuary_entry_transition/code.md`
+- code — `designs/screens/sanctuary_location_selection_1/code.md`
+- code — `designs/screens/sanctuary_location_selection_2/code.md`
+- code — `designs/screens/sanctuary_realm_detail/code.md`
+- code — `designs/screens/save_session_summary/code.md`
+- code — `designs/screens/scan_preparation_1/code.md`
+- code — `designs/screens/scan_preparation_2/code.md`
+- code — `designs/screens/scan_type_selection_1/code.md`
+- code — `designs/screens/scan_type_selection_2/code.md`
+- code — `designs/screens/search_results_no_matches_found_1/code.md`
+- code — `designs/screens/search_results_no_matches_found_2/code.md`
+- code — `designs/screens/search_results_no_matches_found_3/code.md`
+- code — `designs/screens/search_results_no_matches_found_4/code.md`
+- code — `designs/screens/search_results_solaris_1/code.md`
+- code — `designs/screens/search_results_solaris_2/code.md`
+- code — `designs/screens/searching_the_nexus/code.md`
+- code — `designs/screens/searching_the_nexus_active_state_1/code.md`
+- code — `designs/screens/searching_the_nexus_active_state_2/code.md`
+- code — `designs/screens/searching_the_nexus_active_state_3/code.md`
+- code — `designs/screens/secure_checkout/code.md`
+- code — `designs/screens/secure_checkout_payment_selection/code.md`
+- code — `designs/screens/seeker_discovery_search/code.md`
+- code — `designs/screens/seeker_tier_detail_premium/code.md`
+- code — `designs/screens/select_product_type/code.md`
+- code — `designs/screens/send_gift/code.md`
+- code — `designs/screens/session_detail_view/code.md`
+- code — `designs/screens/sessions_empty_state/code.md`
+- code — `designs/screens/sessions_filter_refinement/code.md`
+- code — `designs/screens/shader/code.md`
+- code — `designs/screens/sharing_consent_history/code.md`
+- code — `designs/screens/social_connection_requests/code.md`
+- code — `designs/screens/splash_screen/code.md`
+- code — `designs/screens/story_style/code.md`
+- code — `designs/screens/subscription_paywall/code.md`
+- code — `designs/screens/transaction_processing/code.md`
+- code — `designs/screens/transformation_recap/code.md`
+- code — `designs/screens/upgrade_success_confirmation/code.md`
+- code — `designs/screens/user_profile/code.md`
+- code — `designs/screens/value_carousel_page_1/code.md`
+- code — `designs/screens/welcome_back/code.md`
+- code — `designs/screens/welcome_screen/code.md`
+- code — `designs/screens/zero_point_reflection/code.md`
+- cosmo-engineering-build-contract-v1-0-missing-implementation-layer — `designs/specs/cosmo-engineering-build-contract-v1-0-missing-implementation-layer.md`
+- cosmo-functional-spec-first-engineering-review-draft-v0-9 — `designs/specs/cosmo-functional-spec-first-engineering-review-draft-v0-9.md`
+- cosmo-master-plan — `designs/specs/cosmo-master-plan.md`
+- cosmo-master — `designs/specs/cosmo-master.md`
+- cosmo — `designs/specs/cosmo.md`
+- phase-00 — `designs/specs/phase-00.md`
+- phase-01 — `designs/specs/phase-01.md`
+- phase-02 — `designs/specs/phase-02.md`
+- phase-03 — `designs/specs/phase-03.md`
+- phase-04 — `designs/specs/phase-04.md`
+- phase-05 — `designs/specs/phase-05.md`
+- phase-06 — `designs/specs/phase-06.md`
+- phase-07 — `designs/specs/phase-07.md`
+- phase-08 — `designs/specs/phase-08.md`
+- phase-09 — `designs/specs/phase-09.md`
+- phase-10 — `designs/specs/phase-10.md`
+- phase-11 — `designs/specs/phase-11.md`
+- phase-12 — `designs/specs/phase-12.md`
+- phase-13 — `designs/specs/phase-13.md`
+- phase-14 — `designs/specs/phase-14.md`
+- phase-15 — `designs/specs/phase-15.md`
+- phase-16 — `designs/specs/phase-16.md`
+- phase-17 — `designs/specs/phase-17.md`
+- phase-18 — `designs/specs/phase-18.md`
+- phase-19 — `designs/specs/phase-19.md`
+- phase-20 — `designs/specs/phase-20.md`
+- phase-21 — `designs/specs/phase-21.md`
+- phase-22 — `designs/specs/phase-22.md`
+- phase-23 — `designs/specs/phase-23.md`
+- phase-24 — `designs/specs/phase-24.md`
+- phase-25 — `designs/specs/phase-25.md`
+- phase-26 — `designs/specs/phase-26.md`
+- phase-27 — `designs/specs/phase-27.md`
+- phase-28 — `designs/specs/phase-28.md`
+- phase-29 — `designs/specs/phase-29.md`
+- phase-30 — `designs/specs/phase-30.md`
+- phase-31 — `designs/specs/phase-31.md`
+- phase-32 — `designs/specs/phase-32.md`
+- phase-33 — `designs/specs/phase-33.md`
+- phase-34 — `designs/specs/phase-34.md`
+- phase-35 — `designs/specs/phase-35.md`
+- phase-36 — `designs/specs/phase-36.md`
+- phase-37 — `designs/specs/phase-37.md`
+- phase-38 — `designs/specs/phase-38.md`
+- phase-39 — `designs/specs/phase-39.md`
+- phase-40 — `designs/specs/phase-40.md`
+
+## `packages/` (132 files)
+
+- analytics.test — `packages/analytics/__tests__/analytics.test.md`
+- jest.config — `packages/analytics/jest.config.md`
+- package — `packages/analytics/package.md`
+- index — `packages/analytics/src/index.md`
+- api-client.test — `packages/api-client/__tests__/api-client.test.md`
+- jest.config — `packages/api-client/jest.config.md`
+- package — `packages/api-client/package.md`
+- index — `packages/api-client/src/index.md`
+- network-hardening — `packages/api-client/src/network-hardening.md`
+- art-engine.test — `packages/art-engine/__tests__/art-engine.test.md`
+- jest.config — `packages/art-engine/jest.config.md`
+- package — `packages/art-engine/package.md`
+- index — `packages/art-engine/src/index.md`
+- audio.test — `packages/audio/__tests__/audio.test.md`
+- jest.config — `packages/audio/jest.config.md`
+- package — `packages/audio/package.md`
+- index — `packages/audio/src/index.md`
+- tsconfig — `packages/audio/tsconfig.md`
+- config.test — `packages/config/__tests__/config.test.md`
+- jest.config — `packages/config/jest.config.md`
+- package — `packages/config/package.md`
+- index — `packages/config/src/index.md`
+- tailwind.config — `packages/config/src/tailwind.config.md`
+- tsconfig — `packages/config/tsconfig.md`
+- package — `packages/design-system/package.md`
+- colors — `packages/design-system/src/colors.md`
+- components — `packages/design-system/src/components.md`
+- index — `packages/design-system/src/index.md`
+- spacing — `packages/design-system/src/spacing.md`
+- typography — `packages/design-system/src/typography.md`
+- tsconfig — `packages/design-system/tsconfig.md`
+- domain.test — `packages/domain/__tests__/domain.test.md`
+- jest.config — `packages/domain/jest.config.md`
+- package — `packages/domain/package.md`
+- artwork — `packages/domain/src/artwork.md`
+- common — `packages/domain/src/common.md`
+- community — `packages/domain/src/community.md`
+- data — `packages/domain/src/data.md`
+- gift — `packages/domain/src/gift.md`
+- index — `packages/domain/src/index.md`
+- journey — `packages/domain/src/journey.md`
+- notification — `packages/domain/src/notification.md`
+- practice — `packages/domain/src/practice.md`
+- practitionerEnterprise — `packages/domain/src/practitionerEnterprise.md`
+- session — `packages/domain/src/session.md`
+- subscription — `packages/domain/src/subscription.md`
+- user — `packages/domain/src/user.md`
+- tsconfig — `packages/domain/tsconfig.md`
+- package — `packages/supabase/package.md`
+- auth — `packages/supabase/src/auth.md`
+- client — `packages/supabase/src/client.md`
+- index — `packages/supabase/src/index.md`
+- rls — `packages/supabase/src/rls.md`
+- storage — `packages/supabase/src/storage.md`
+- types — `packages/supabase/src/types.md`
+- tsconfig — `packages/supabase/tsconfig.md`
+- accessibility.test — `packages/testing/__tests__/accessibility.test.md`
+- art-engine.test — `packages/testing/__tests__/art-engine.test.md`
+- audio-utils.test — `packages/testing/__tests__/audio-utils.test.md`
+- factories.test — `packages/testing/__tests__/factories.test.md`
+- validation.test — `packages/testing/__tests__/validation.test.md`
+- jest.config — `packages/testing/jest.config.md`
+- package — `packages/testing/package.md`
+- index — `packages/testing/src/index.md`
+- jest-setup — `packages/testing/src/jest-setup.md`
+- jest.setup — `packages/testing/src/jest.setup.md`
+- tsconfig — `packages/testing/tsconfig.md`
+- biosignalGovernance.test — `packages/tokens/__tests__/biosignalGovernance.test.md`
+- tokens.test — `packages/tokens/__tests__/tokens.test.md`
+- jest.config — `packages/tokens/jest.config.md`
+- package — `packages/tokens/package.md`
+- animations — `packages/tokens/src/animations.md`
+- biosignalGovernance — `packages/tokens/src/biosignalGovernance.md`
+- colors — `packages/tokens/src/colors.md`
+- gradients — `packages/tokens/src/gradients.md`
+- index — `packages/tokens/src/index.md`
+- radius — `packages/tokens/src/radius.md`
+- shadows — `packages/tokens/src/shadows.md`
+- spacing — `packages/tokens/src/spacing.md`
+- typography — `packages/tokens/src/typography.md`
+- tsconfig — `packages/tokens/tsconfig.md`
+- .eslintrc — `packages/ui/.eslintrc.md`
+- components.test — `packages/ui/__tests__/components.test.md`
+- babel.config — `packages/ui/babel.config.md`
+- jest.config — `packages/ui/jest.config.md`
+- package — `packages/ui/package.md`
+- AsyncContent — `packages/ui/src/AsyncContent/AsyncContent.md`
+- Avatar — `packages/ui/src/Avatar.md`
+- Avatar — `packages/ui/src/Avatar/Avatar.md`
+- Avatar.web — `packages/ui/src/Avatar/Avatar.web.md`
+- Badge — `packages/ui/src/Badge.md`
+- Badge — `packages/ui/src/Badge/Badge.md`
+- BottomBar — `packages/ui/src/BottomBar/BottomBar.md`
+- BottomNav — `packages/ui/src/BottomNav/BottomNav.md`
+- BottomSheet — `packages/ui/src/BottomSheet/BottomSheet.md`
+- Button — `packages/ui/src/Button.md`
+- Button — `packages/ui/src/Button/Button.md`
+- Card — `packages/ui/src/Card.md`
+- Card — `packages/ui/src/Card/Card.md`
+- SelectableCard — `packages/ui/src/Card/SelectableCard.md`
+- Chip — `packages/ui/src/Chip/Chip.md`
+- MoodChipGroup — `packages/ui/src/Chip/MoodChipGroup.md`
+- ComparisonView — `packages/ui/src/ComparisonView/ComparisonView.md`
+- Divider — `packages/ui/src/Divider.md`
+- Divider — `packages/ui/src/Divider/Divider.md`
+- EmptyState — `packages/ui/src/EmptyState.md`
+- ErrorState — `packages/ui/src/ErrorState.md`
+- Fab — `packages/ui/src/Fab/Fab.md`
+- Icon — `packages/ui/src/Icon/Icon.md`
+- Input — `packages/ui/src/Input.md`
+- Input — `packages/ui/src/Input/Input.md`
+- ListItem — `packages/ui/src/ListItem/ListItem.md`
+- LoadingSpinner — `packages/ui/src/LoadingSpinner.md`
+- Modal — `packages/ui/src/Modal.md`
+- Modal — `packages/ui/src/Modal/Modal.md`
+- Progress — `packages/ui/src/Progress.md`
+- ProgressBar — `packages/ui/src/ProgressBar/ProgressBar.md`
+- SafeAreaView — `packages/ui/src/SafeAreaView/SafeAreaView.md`
+- Skeleton — `packages/ui/src/Skeleton.md`
+- Skeleton — `packages/ui/src/Skeleton/Skeleton.md`
+- Toast — `packages/ui/src/Toast.md`
+- Toast — `packages/ui/src/Toast/Toast.md`
+- Toggle — `packages/ui/src/Toggle/Toggle.md`
+- TopNav — `packages/ui/src/TopNav/TopNav.md`
+- StepLabel — `packages/ui/src/Typography/StepLabel.md`
+- Typography — `packages/ui/src/Typography/Typography.md`
+- index — `packages/ui/src/index.md`
+- tsconfig — `packages/ui/tsconfig.md`
+- validation.test — `packages/validation/__tests__/validation.test.md`
+- jest.config — `packages/validation/jest.config.md`
+- package — `packages/validation/package.md`
+- index — `packages/validation/src/index.md`
+
+## `supabase/` (52 files)
+
+- processing.test — `supabase/functions/_shared/__tests__/processing.test.md`
+- art-engine — `supabase/functions/_shared/art-engine.md`
+- audio-decode — `supabase/functions/_shared/audio-decode.md`
+- auth — `supabase/functions/_shared/auth.md`
+- brain-pipeline — `supabase/functions/_shared/brain-pipeline.md`
+- cors — `supabase/functions/_shared/cors.md`
+- processing — `supabase/functions/_shared/processing.md`
+- sentry — `supabase/functions/_shared/sentry.md`
+- storage — `supabase/functions/_shared/storage.md`
+- svg-render — `supabase/functions/_shared/svg-render.md`
+- index — `supabase/functions/cleanup-jobs/index.md`
+- index — `supabase/functions/create-checkout/index.md`
+- index — `supabase/functions/delete-user-data/index.md`
+- index — `supabase/functions/email-send/index.md`
+- index — `supabase/functions/generate-artwork/index.md`
+- index — `supabase/functions/gift-create/index.md`
+- index — `supabase/functions/monthly-summary/index.md`
+- index — `supabase/functions/process-audio/index.md`
+- index — `supabase/functions/send-gift-notification/index.md`
+- 0001_extensions — `supabase/migrations/0001_extensions.md`
+- 0002_canonical_support_tables — `supabase/migrations/0002_canonical_support_tables.md`
+- 0002_users_and_profiles — `supabase/migrations/0002_users_and_profiles.md`
+- 0003_consent_records — `supabase/migrations/0003_consent_records.md`
+- 0004_resonance_sessions — `supabase/migrations/0004_resonance_sessions.md`
+- 0004_storage_policies — `supabase/migrations/0004_storage_policies.md`
+- 0005_audio_recordings — `supabase/migrations/0005_audio_recordings.md`
+- 0005_audit_events — `supabase/migrations/0005_audit_events.md`
+- 0006_acoustic_features — `supabase/migrations/0006_acoustic_features.md`
+- 0006_app_settings — `supabase/migrations/0006_app_settings.md`
+- 0007_practitioner_portal — `supabase/migrations/0007_practitioner_portal.md`
+- 0007_resonance_artworks — `supabase/migrations/0007_resonance_artworks.md`
+- 0008_consent_extensions — `supabase/migrations/0008_consent_extensions.md`
+- 0008_reflections — `supabase/migrations/0008_reflections.md`
+- 0009_crud_audit_triggers — `supabase/migrations/0009_crud_audit_triggers.md`
+- 0009_practices — `supabase/migrations/0009_practices.md`
+- 0010_artwork_session_unique — `supabase/migrations/0010_artwork_session_unique.md`
+- 0010_processing_jobs — `supabase/migrations/0010_processing_jobs.md`
+- 0010b_processing_jobs_rls — `supabase/migrations/0010b_processing_jobs_rls.md`
+- 0011_gifts — `supabase/migrations/0011_gifts.md`
+- 0011_session_artwork_notification_tables — `supabase/migrations/0011_session_artwork_notification_tables.md`
+- 0012_journey_events — `supabase/migrations/0012_journey_events.md`
+- 0013_provenance_and_consent_tokens — `supabase/migrations/0013_provenance_and_consent_tokens.md`
+- 0013_rls_policies — `supabase/migrations/0013_rls_policies.md`
+- 0014_storage_policies — `supabase/migrations/0014_storage_policies.md`
+- 0015_audit_events — `supabase/migrations/0015_audit_events.md`
+- 0016_rename_profiles_to_users — `supabase/migrations/0016_rename_profiles_to_users.md`
+- 0017_add_user_preferences_and_consent — `supabase/migrations/0017_add_user_preferences_and_consent.md`
+- 0019_fix_gift_rls — `supabase/migrations/0019_fix_gift_rls.md`
+- 001_initial_schema — `supabase/migrations/001_initial_schema.md`
+- 002_rls_policies — `supabase/migrations/002_rls_policies.md`
+- 0020_fix_audit_events_fk — `supabase/migrations/_archive/0020_fix_audit_events_fk.md`
+- seed_data — `supabase/seed/seed_data.md`
+
+## `scripts/` (19 files)
+
+- build-edge-functions — `scripts/build-edge-functions.md`
+- extract_requirements — `scripts/extract_requirements.md`
+- fix-ajv — `scripts/fix-ajv.md`
+- generate-routes — `scripts/generate-routes.md`
+- migrate-all-pages — `scripts/migrate-all-pages.md`
+- obsidian-health-check — `scripts/obsidian-health-check.md`
+- rscf_brain_connector — `scripts/rscf_brain_connector.md`
+- rscf_brain_connector_v2 — `scripts/rscf_brain_connector_v2.md`
+- rscf_connect_peers — `scripts/rscf_connect_peers.md`
+- rscf_disambiguate — `scripts/rscf_disambiguate.md`
+- rscf_normalize — `scripts/rscf_normalize.md`
+- rscf_normalize_preview — `scripts/rscf_normalize_preview.md`
+- rscf_repair — `scripts/rscf_repair.md`
+- rscf_vault_connector_v3 — `scripts/rscf_vault_connector_v3.md`
+- COSMO_Functional_Spec_First_Engineering_Review_Draft_v0_9 — `scripts/scratch/requirements_text/COSMO_Functional_Spec_First_Engineering_Review_Draft_v0_9.md`
+- cosmo — `scripts/scratch/requirements_text/cosmo.md`
+- cosmo_master — `scripts/scratch/requirements_text/cosmo_master.md`
+- cosmo_master_plan — `scripts/scratch/requirements_text/cosmo_master_plan.md`
+- wire-screens — `scripts/wire-screens.md`
+
+## `prompt-exports/` (12 files)
+
+- oracle-plan-2026-07-27-171637-new-chat-f4c315-46c2 — `prompt-exports/oracle-plan-2026-07-27-171637-new-chat-f4c315-46c2.md`
+- oracle-plan-2026-07-28-071235-cosmo-repo-architect-b6ba — `prompt-exports/oracle-plan-2026-07-28-071235-cosmo-repo-architect-b6ba.md`
+- oracle-plan-2026-07-30-183643-cosmo-repo-architect-8f19 — `prompt-exports/oracle-plan-2026-07-30-183643-cosmo-repo-architect-8f19.md`
+- oracle-plan-2026-07-30-193720-remaining-cleanup-is-8d1f — `prompt-exports/oracle-plan-2026-07-30-193720-remaining-cleanup-is-8d1f.md`
+- oracle-plan-2026-07-30-194319-6-refactoring-tasks-bd37 — `prompt-exports/oracle-plan-2026-07-30-194319-6-refactoring-tasks-bd37.md`
+- oracle-plan-2026-07-30-194705-cosmo-monorepo-refac-d07c — `prompt-exports/oracle-plan-2026-07-30-194705-cosmo-monorepo-refac-d07c.md`
+- oracle-plan-2026-08-13-204058-production-readiness-a970 — `prompt-exports/oracle-plan-2026-08-13-204058-production-readiness-a970.md`
+- oracle-plan-2026-08-13-204652-production-readiness-ce8b — `prompt-exports/oracle-plan-2026-08-13-204652-production-readiness-ce8b.md`
+- oracle-plan-2026-08-13-205910-production-refactori-6414 — `prompt-exports/oracle-plan-2026-08-13-205910-production-refactori-6414.md`
+- oracle-review-2026-07-27-171206-new-chat-30f358-f046 — `prompt-exports/oracle-review-2026-07-27-171206-new-chat-30f358-f046.md`
+- oracle-review-2026-07-28-070720-cosmo-repo-architect-8185 — `prompt-exports/oracle-review-2026-07-28-070720-cosmo-repo-architect-8185.md`
+- oracle-review-2026-07-30-193754-mobile-app-refactori-5c36 — `prompt-exports/oracle-review-2026-07-30-193754-mobile-app-refactori-5c36.md`
+
+## `services/` (12 files)
+
+- __init__ — `services/biosignal/app/__init__.md`
+- __init__ — `services/biosignal/app/api/__init__.md`
+- routes — `services/biosignal/app/api/routes.md`
+- __init__ — `services/biosignal/app/core/__init__.md`
+- governance — `services/biosignal/app/core/governance.md`
+- processing — `services/biosignal/app/core/processing.md`
+- schemas — `services/biosignal/app/core/schemas.md`
+- main — `services/biosignal/app/main.md`
+- requirements — `services/biosignal/requirements.md`
+- __init__ — `services/biosignal/tests/__init__.md`
+- test_governance — `services/biosignal/tests/test_governance.md`
+- test_smoke — `services/biosignal/tests/test_smoke.md`
+
+## `daily/` (10 files)
+
+- 2026-08-21 — `daily/2026-08-21.md`
+- 2026-08-22-quantum-library-integration-learning — `daily/2026-08-22-quantum-library-integration-learning.md`
+- 2026-08-22 — `daily/2026-08-22.md`
+- 2026-08-23 Absolute Integrity Pass 2 - Audit Scripts Registry Closure — `daily/2026-08-23 Absolute Integrity Pass 2 - Audit Scripts Registry Closure.md`
+- 2026-08-23 Absolute Integrity Pass Orphans and Specs — `daily/2026-08-23 Absolute Integrity Pass Orphans and Specs.md`
+- 2026-08-23 Brain Integrity Pass 265 to 0 — `daily/2026-08-23 Brain Integrity Pass 265 to 0.md`
+- 2026-08-23 Dedupe and Live Generation Convergence — `daily/2026-08-23 Dedupe and Live Generation Convergence.md`
+- 2026-08-23 Final Integrity Convergence — `daily/2026-08-23 Final Integrity Convergence.md`
+- 2026-08-23 Vault Hermes Devin Consistency Pass — `daily/2026-08-23 Vault Hermes Devin Consistency Pass.md`
+- 2026-08-23 — `daily/2026-08-23.md`
+
+## `references/` (9 files)
+
+- benchmark-claims — `references/benchmark-claims.md`
+- equations — `references/equations.md`
+- falsifiers — `references/falsifiers.md`
+- formalism — `references/formalism.md`
+- invariants — `references/invariants.md`
+- obsidian-link-pitfalls — `references/obsidian-link-pitfalls.md`
+- provenance — `references/provenance.md`
+- rscf — `references/rscf.md`
+- tensors — `references/tensors.md`
+
+## `.github/` (8 files)
+
+- copilot-instructions — `.github/copilot-instructions.md`
+- dependabot — `.github/dependabot.md`
+- amos-audit.prompt — `.github/prompts/amos-audit.prompt.md`
+- amos-deep.prompt — `.github/prompts/amos-deep.prompt.md`
+- amos-fast.prompt — `.github/prompts/amos-fast.prompt.md`
+- amos-repo-fix.prompt — `.github/prompts/amos-repo-fix.prompt.md`
+- cd — `.github/workflows/cd.md`
+- ci — `.github/workflows/ci.md`
+
+## `amos_adapter/` (6 files)
+
+- __init__ — `amos_adapter/__init__.md`
+- core — `amos_adapter/core.md`
+- decision_receipt — `amos_adapter/decision_receipt.md`
+- hosts — `amos_adapter/hosts.md`
+- test_adapter — `amos_adapter/test_adapter.md`
+- test_engine_skill_kernel — `amos_adapter/test_engine_skill_kernel.md`
+
+## `md/` (6 files)
+
+- AMOS_Global_Legal_Engine_Model — `md/AMOS_Global_Legal_Engine_Model.md`
+- AMOS_Vietnam_Engines_Model — `md/AMOS_Vietnam_Engines_Model.md`
+- 2026-08-22 AMOS LLM Operator Pipeline Implementation — `md/Core/2026-08-22 AMOS LLM Operator Pipeline Implementation.md`
+- 2026-08-23 AMOS LLM Operator Pipeline Integration — `md/Core/2026-08-23 AMOS LLM Operator Pipeline Integration.md`
+- AMOS_LLM_Operator_Pipeline_CANON — `md/Core/AMOS_LLM_Operator_Pipeline_CANON.md`
+- amphora_coordinator — `md/tools/amphora_coordinator.md`
+
+## `_cosmo-brain-audit/` (3 files)
+
+- app-audit — `_cosmo-brain-audit/app-audit.md`
+- legacy-audit — `_cosmo-brain-audit/legacy-audit.md`
+- packs-audit — `_cosmo-brain-audit/packs-audit.md`
+
+## `e2e/` (2 files)
+
+- flow-a-launch-onboarding-firstscan.test — `e2e/flow-a-launch-onboarding-firstscan.test.md`
+- flow-b-home-practice-presence.test — `e2e/flow-b-home-practice-presence.test.md`
+
+## `levels/` (1 files)
+
+- test_value — `levels/test_value.md`
+
+## Top-Level Files (57 files)
+
+- .env
+- 00-Home
+- AGENTS
+- AGENT_FIX_REPORT
+- AGENT_VALIDATION_REPORT
+- AMOS_COGNITIVE_ARCHITECTURE_MATRIX
+- AMOS_quantum_library_v0.1.0
+- API_PROPOSAL
+- ARCHITECTURE_DECISION_RECORD
+- COMPONENT_MAP
+- CONSOLIDATION_REPORT
+- DATABASE_PROPOSAL
+- DESIGN_ASSET_GAPS
+- GEMINI
+- Inbox
+- KNOWN_GAPS
+- PRIVACY_POLICY
+- PRODUCTION_READINESS
+- README
+- ROUTE_MAP
+- SCREEN_INVENTORY
+- SCREEN_MAPPING
+- SKILL_GRAPH
+- SKILL_REGISTRY
+- SOUND_TO_BIOSIGNAL_ARCHITECTURE
+- TERMS_OF_SERVICE
+- UNRESOLVED_AGENT_CONFIG
+- UNRESOLVED_CONFIG
+- UNRESOLVED_WORKFLOW_GAPS
+- VALIDATION_REPORT
+- WORKFLOW_FIX_REPORT
+- WORKFLOW_GRAPH
+- WORKFLOW_VALIDATION_REPORT
+- bug-fix
+- build-cosmo-canon
+- build-cosmo-data
+- build_amos_cognitive_matrix
+- clean_hash_suffixes
+- cleanup_phase2
+- convert
+- convert_all
+- convert_all_to_md
+- convert_raw_code
+- convert_to_md
+- daily
+- docker-compose
+- extract_brain_priority
+- extract_canonical_brain
+- final_cleanup
+- formalisetion RSCF
+- gates
+- generated_architecture
+- inventory_brain
+- memory
+- moc
+- playwright.config
+- strip_and_dedup
+
+---
+
+**Related:** Cosmo_Brain_MOC · 11_KNOWLEDGE_MOC · 00-Home

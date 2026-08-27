@@ -12,8 +12,8 @@ Covers utility assignment, risk weighting, and value-conflict surfacing.
 
 ## Control-plane binding
 
-- [[C01_GOVERNANCE]] — bound control plane
-- [[C03_EXECUTIVE]] — bound control plane
+- C01_GOVERNANCE — bound control plane
+- C03_EXECUTIVE — bound control plane
 
 ## Hard boundaries
 

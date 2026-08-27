@@ -12,7 +12,7 @@ Covers causal graph maintenance, intervention semantics, and confounder handling
 
 ## Control-plane binding
 
-- [[C04_REASONING]] — primary reasoning-plane owner for this primitive
+- C04_REASONING — primary reasoning-plane owner for this primitive
 
 ## Hard boundaries
 

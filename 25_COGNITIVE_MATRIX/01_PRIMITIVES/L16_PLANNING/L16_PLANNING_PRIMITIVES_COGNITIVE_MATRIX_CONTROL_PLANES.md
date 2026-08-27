@@ -12,8 +12,8 @@ Covers plan synthesis, feasibility gating, and contingency embedding.
 
 ## Control-plane binding
 
-- [[C03_EXECUTIVE]] — bound control plane
-- [[C08_EXECUTION]] — bound control plane
+- C03_EXECUTIVE — bound control plane
+- C08_EXECUTION — bound control plane
 
 ## Hard boundaries
 

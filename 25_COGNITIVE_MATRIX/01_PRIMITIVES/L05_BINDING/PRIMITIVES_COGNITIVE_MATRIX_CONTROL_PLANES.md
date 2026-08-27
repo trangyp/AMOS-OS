@@ -12,8 +12,8 @@ Covers relation formation, typing, directionality, and consistency enforcement.
 
 ## Control-plane binding
 
-- [[C05_REPRESENTATION]] — bound control plane
-- [[C04_REASONING]] — primary reasoning-plane owner for this primitive
+- C05_REPRESENTATION — bound control plane
+- C04_REASONING — primary reasoning-plane owner for this primitive
 
 ## Hard boundaries
 

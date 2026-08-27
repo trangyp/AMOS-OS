@@ -961,7 +961,7 @@ These are not defects to hide. In AMOS they become explicit validation targets.
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -969,6 +969,6 @@ node_id: amos_ubi_omnis_use_cases
 node_type: note
 path: 11_KNOWLEDGE/AMOS_UBI_OMNIS_USE_CASES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

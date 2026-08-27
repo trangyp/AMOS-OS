@@ -12,14 +12,14 @@ Covers working-set membership, decay, and context switches.
 
 ## Upstream dependencies
 
-- [[L02_ATTENTION]]
-- [[L05_BINDING]]
+- [[L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L05_BINDING_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L07_MEMORY]]
-- [[L09_INFERENCE]]
-- [[L16_PLANNING]]
+- [[L07_MEMORY_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L09_INFERENCE_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

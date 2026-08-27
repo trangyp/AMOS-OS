@@ -60,14 +60,14 @@ related:
   - "[[00_ROOT/README.md|AMOS OS]]"
   - "[[00_ROOT/ARCHITECTURE.md|Architecture]]"
   - "[[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]]"
-  - "[[01_CANON/AMOS_CORE_LAWS.md|AMOS Core Laws]]"
-  - "[[01_CANON/INVARIANT_REGISTRY.md|Invariant Registry]]"
-  - "[[01_CANON/LAW_HIERARCHY.md|Law Hierarchy]]"
-  - "[[01_CANON/HML_CANON.md|H/M/L Canon]]"
-  - "[[01_CANON/PERSISTENCE_CANON.md|Persistence Canon]]"
+  - "[[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]]"
+  - "[[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|Invariant Registry]]"
+  - "[[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|Law Hierarchy]]"
+  - "[[01_CANON/02_UNIVERSE_CANON/HML_CANON|H/M/L Canon]]"
+  - "[[01_CANON/02_UNIVERSE_CANON/PERSISTENCE_CANON|Persistence Canon]]"
   - "[[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP.md|Cognitive Organism Map]]"
-  - "[[11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture.md|AMOS Full Brain OS Architecture]]"
-  - "[[25_COGNITIVE_MATRIX/00_INDEX/ARCHITECTURE.md|Cognitive Matrix]]"
+  - "[[11_KNOWLEDGE/AMOS_Full_Brain_OS_Architecture.md|AMOS Full Brain OS Architecture]]"
+  - "[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE.md|Cognitive Matrix]]"
 ---
 
 # AMOS Cognition Canon
@@ -2397,14 +2397,14 @@ STRONGER THAN THE EVIDENCE.
 
 ---
 
-**Related:** [[00_ROOT/README.md|AMOS OS]] · [[00_ROOT/MOC.md|MOC]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/SYSTEM_MAP.md|System Map]] · [[00_ROOT/NEURAL_NETWORK.md|AMOS Neural Network]] · [[01_CANON/README.md|AMOS Canon]] · [[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]] · [[01_CANON/AMOS_CORE_LAWS.md|AMOS Core Laws]] · [[01_CANON/INVARIANT_REGISTRY.md|Invariant Registry]] · [[01_CANON/LAW_HIERARCHY.md|Law Hierarchy]] · [[01_CANON/HML_CANON.md|H/M/L Canon]] · [[01_CANON/PERSISTENCE_CANON.md|Persistence Canon]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|Kernel Map]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|Control Plane Map]] · [[04_RUNTIME/00_INDEX/RUNTIME_MAP.md|Runtime Map]] · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP.md|Cognitive Organism Map]] · [[06_AGENTS/00_INDEX/AGENT_MAP.md|Agent Map]] · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP.md|Workflow Map]] · [[10_MEMORY/00_INDEX/MEMORY_MAP.md|Memory Map]] · [[11_KNOWLEDGE/00_INDEX/KNOWLEDGE_MAP.md|Knowledge Map]] · [[12_STATE/00_INDEX/STATE_MAP.md|State Map]] · [[13_MODELS/00_INDEX/MODEL_MAP.md|Model Map]] · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP.md|Schema Map]] · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_MAP.md|Observability Map]] · [[19_TESTS/00_INDEX/TEST_MAP.md|Test Map]] · [[25_COGNITIVE_MATRIX/00_INDEX/ARCHITECTURE.md|Cognitive Matrix]]
+**Related:** [[00_ROOT/README.md|AMOS OS]] · [[00_ROOT/00_ROOT_MOC.md|MOC]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/SYSTEM_MAP.md|System Map]] · [[00_ROOT/NEURAL_NETWORK.md|AMOS Neural Network]] · AMOS Canon · [[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]] · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|Invariant Registry]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|Law Hierarchy]] · [[01_CANON/02_UNIVERSE_CANON/HML_CANON|H/M/L Canon]] · [[01_CANON/02_UNIVERSE_CANON/PERSISTENCE_CANON|Persistence Canon]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|Kernel Map]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|Control Plane Map]] · [[04_RUNTIME/00_INDEX/RUNTIME_MAP.md|Runtime Map]] · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP.md|Cognitive Organism Map]] · [[06_AGENTS/00_INDEX/AGENT_MAP.md|Agent Map]] · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP.md|Workflow Map]] · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP.md|Memory Map]] · Knowledge Map · [[12_STATE/00_INDEX/STATE_STATE_MAP.md|State Map]] · [[13_MODELS/00_INDEX/MODEL_MAP.md|Model Map]] · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP.md|Schema Map]] · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP.md|Observability Map]] · [[19_TESTS/00_INDEX/TEST_MAP.md|Test Map]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE.md|Cognitive Matrix]]
 
 ---
 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2412,6 +2412,6 @@ node_id: cognition_canon
 node_type: note
 path: 01_CANON/03_COGNITION_CANON/COGNITION_CANON.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

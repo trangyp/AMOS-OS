@@ -7,8 +7,8 @@ tags: ['amos_os', '00_root']
 ## Map — 00 ROOT MAP
 Navigation map for the `00_ROOT` segment of the Root plane.
 
-- **Artifact** — [[00-Home]]
-- **Artifact** — [[00_Cosmo_Brain_MOC]]
+- **Artifact** — [[00_ROOT/00-Home]]
+- **Artifact** — [[00_ROOT/00_Cosmo_Brain_MOC]]
 - **Artifact** — [[00_ROOT_ARCHITECTURE]]
 - **Artifact** — [[00_ROOT_AUDIT]]
 - **Artifact** — [[00_ROOT_AUTHORIZATION]]
@@ -33,16 +33,16 @@ Navigation map for the `00_ROOT` segment of the Root plane.
 - **Artifact** — [[AMOS_Layer_Maps]]
 - **Artifact** — [[AMOS_RSCF_NODES]]
 - **Artifact** — [[AMOS_Templates]]
-- **Artifact** — [[ARCHITECTURE]]
+- **Artifact** — [[00_ROOT/ARCHITECTURE]]
 - **Artifact** — [[AUTHORITATIVE_STATE]]
 - **Artifact** — [[COGNITIVE_MATRIX_INTEGRATION]]
 - **Artifact** — [[DEPENDENCY_MAP]]
 - **Artifact** — [[FULL_TREE]]
 - **Artifact** — [[NEURAL_NETWORK]]
 - **Artifact** — [[PLACEMENT_RULES]]
-- **Readme** — [[README]]
+- **Readme** — README
 - **Artifact** — [[ROADMAP]]
-- **Artifact** — [[RSCF_NODE_INDEX]]
+- **Artifact** — [[00_ROOT/RSCF_NODE_INDEX]]
 - **Artifact** — [[SYSTEM_MAP]]
 - **Artifact** — [[SYSTEM_MAP_v1]]
 
@@ -80,7 +80,7 @@ Given an operation touching `00 ROOT MAP` within the Root plane:
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

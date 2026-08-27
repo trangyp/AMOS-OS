@@ -1,0 +1,46 @@
+---
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: c10-tech-engineering
+tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c10-tech-engineering, engine]
+created: 2026-08-22
+---
+
+{
+  "id": "C10_tech_engineering",
+  "name": "Engineering, Software & AI",
+  "focus": "System architecture, software design, reliability, AI usage patterns.",
+  "typical_questions": [
+    "What is a robust architecture for this system?",
+    "Which parts should be modular vs tightly integrated?",
+    "Where should AI be used and where not?"
+  ],
+  "core_methods": [
+    "requirements_clarification",
+    "architectural_pattern_selection",
+    "reliability_and_failure_mode_analysis",
+    "human_in_the_loop_ai_design"
+  ],
+  "interfaces": {
+    "inputs": [
+      "natural_language_questions",
+      "structured_prompts",
+      "tabular_data",
+      "narrative_case_descriptions"
+    ],
+    "outputs": [
+      "structured_reasoning_steps",
+      "tables_and_summaries",
+      "scenario_trees",
+      "recommendations_with_assumptions"
+    ]
+  },
+  "risk_notes": [
+    "must_match_design_to_true_constraints_not_idealized_ones",
+    "risk_of_over_automating_without_humans"
+  ]
+}
+
+---
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]

@@ -2085,7 +2085,7 @@ RSCF-NODE:
 RSCF-RELATIONS:
 
   - INDEXED_BY:
-      "[[00-Home]]"
+      "[[00_ROOT/00-Home]]"
 
   - INDEXED_BY:
       "[[AMOS_RSCF_NODES]]"
@@ -2097,25 +2097,25 @@ RSCF-RELATIONS:
       "[[COGNITIVE_MATRIX_MOC]]"
 
   - RELATED_TO:
-      "[[12_GENERATORS/GENERATOR_CONTRACT.md|Generator Contract]]"
+      "[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT|Generator Contract]]"
 
   - RELATED_TO:
-      "[[12_GENERATORS/PROVENANCE.md|Generator Provenance]]"
+      "Generator Provenance"
 
   - RELATED_TO:
-      "[[12_GENERATORS/VALIDATION.md|Generator Validation]]"
+      "Generator Validation"
 
   - RELATED_TO:
-      "[[12_GENERATORS/TESTS.md|Generator Tests]]"
+      "Generator Tests"
 
   - RELATED_TO:
-      "[[12_GENERATORS/ROADMAP.md|Generator Roadmap]]"
+      "[[00_ROOT/ROADMAP|Generator Roadmap]]"
 
   - RELATED_TO:
-      "[[12_GENERATORS/INTEGRATION.md|Generator Integration]]"
+      "Generator Integration"
 
   - RELATED_TO:
-      "[[12_GENERATORS/HISTORY.md|Generator History]]"
+      "Generator History"
 ```
 
 ---
@@ -2906,22 +2906,22 @@ NON_AUTHORITATIVE
 
 ---
 
-**Related:** [[00-Home]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
 
 ## Related Generator artifacts
 
-* [[12_GENERATORS/GENERATOR_CONTRACT.md|Generator Contract]]
-* [[12_GENERATORS/PROVENANCE.md|Generator Provenance]]
-* [[12_GENERATORS/VALIDATION.md|Generator Validation]]
-* [[12_GENERATORS/TESTS.md|Generator Tests]]
-* [[12_GENERATORS/ROADMAP.md|Generator Roadmap]]
-* [[12_GENERATORS/INTEGRATION.md|Generator Integration]]
-* [[12_GENERATORS/HISTORY.md|Generator History]]
-* [[GENERATOR_REGISTRY.md|Generator Registry]]
-* [[SUPERSESSION_REGISTRY.md|Supersession Registry]]
-* [[ROLLBACK_MANIFEST.md|Rollback Manifest]]
-* [[AUTHORITATIVE_STATE.md|Authoritative State]]
-* [[PROVENANCE_MANIFEST.md|Provenance Manifest]]
+* Generator Contract
+* Generator Provenance
+* Generator Validation
+* Generator Tests
+* Generator Roadmap
+* Generator Integration
+* Generator History
+* Generator Registry
+* Supersession Registry
+* Rollback Manifest
+* Authoritative State
+* Provenance Manifest
 
 ````
 

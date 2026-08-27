@@ -137,7 +137,7 @@ Index of all RSCF-class notes in the AMOS OS vault.
 - [[PROVENANCE_CANON_README]]
 - [[SOURCE_LINEAGE]]
 - [[SOURCE_REGISTRY]]
-- [[INDEX_SUPERSESSION_CANON_README]]
+- INDEX_SUPERSESSION_CANON_README
 - [[SUPERSESSION_CANON_SUPERSESSION_CONTRACT]]
 - [[SUPERSESSION_MAP]]
 - [[CANON_SUPERSESSION_CONTRACT]]
@@ -364,7 +364,7 @@ Index of all RSCF-class notes in the AMOS OS vault.
 - [[INV-AUTHZ-048]]
 - [[INV-AUTHZ-049]]
 - [[INV-AUTHZ-050]]
-- [[PRINCIPAL]]
+- [[03_CONTROL_PLANE/04_AUTHORITY/PRINCIPAL]]
 - [[PRINCIPAL_AUDIT]]
 - [[PRINCIPAL_BINDING]]
 - [[PRINCIPAL_HISTORY]]
@@ -937,23 +937,23 @@ Index of all RSCF-class notes in the AMOS OS vault.
 - [[AMOS_COGNITIVE_ORGANISM_OS_DETAIL]]
 - [[AMOS_CONTENT_AGENT_MATRIX_SYSTEM]]
 - [[AMOS_EV_VIETNAM]]
-- [[AMOS_Full_Brain_OS_Architecture]]
+- [[11_KNOWLEDGE/AMOS_Full_Brain_OS_Architecture]]
 - [[AMOS_INFRASTRUCTURE_FULL_BRAIN_AGENT_ARCHITECTURE_ROUND11]]
 - [[AMOS_Infrastructure_Cross_Skill_Proof_Composition_Report]]
 - [[AMOS_RUNTIME_STATE]]
 - [[AMOS_UBI_OMNIS_USE_CASES]]
 - [[AMOS_VALUE_CREATION_OS]]
-- [[Agent_Templates]]
-- [[CLAIM_TENSOR]]
-- [[Cosmo_Brain_MOC]]
-- [[EVIDENCE_TENSOR]]
+- [[11_KNOWLEDGE/Agent_Templates]]
+- 11_KNOWLEDGE/CLAIM_TENSOR
+- Cosmo_Brain_MOC
+- 11_KNOWLEDGE/EVIDENCE_TENSOR
 - [[INTEGRATED_AGENT]]
 - [[KHUNG_TRANG_QUANTUM_ONTOLOGY_COMPUTABLE_DYNAMICS_RESEARCH_MODEL]]
 - [[KNOWLEDGE_CONTRACT]]
 - [[KNOWLEDGE_README]]
-- [[RELATION_TENSOR]]
-- [[TENSOR_CONTRACTS]]
-- [[TENSOR_REGISTRY]]
+- 11_KNOWLEDGE/RELATION_TENSOR
+- [[11_KNOWLEDGE/TENSOR_CONTRACTS]]
+- [[11_KNOWLEDGE/TENSOR_REGISTRY]]
 - [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 - [[0704_0742_MAGNETOCONDUCTANCE_OSCILLATIONS_IN_METALLIC_RINGS_AND_DECOHERENCE_DUE_TO_ELECTRO]]
 - [[0704_1427_PHOTO_ASSISTED_SHOT_NOISE_IN_COULOMB_INTERACTING_SYSTEMS]]
@@ -63129,7 +63129,7 @@ Index of all RSCF-class notes in the AMOS OS vault.
 - [[2607.11727v1_Deploying_and_validating_a_metropolitan_QKD_secure_network__architecture_and_fie]]
 - [[2607.11743v1_DeepRT_Engine__A_Unified_GPU-Parallel_Ray-Tracing_Framework_with_Hybrid_SBR-IM_P]]
 - [[2607.11748v1_Denjoy_examples_of_class__C_1__with_affine_dynamics_outside_the_invariant_Cantor]]
-- [[2607.11784v1_Destabilization of temperature-gradient-driven plasma turbulence by equilibrium $\vec{E}\times \vec{B}$ flow shear]]
+- 2607.11784v1_Destabilization of temperature-gradient-driven plasma turbulence by equilibrium $\vec{E}\times \vec{B}$ flow shear
 - [[2607.11784v1_Destabilization_of_temperature-gradient-driven_plasma_turbulence_by_equilibrium_]]
 - [[2607.11809v1_Duals_of_higher_vector_bundles_and_cotangents_of_Lie_2-groupoids]]
 - [[2607.11864v1_Direct writing of individual quantum dots]]
@@ -63412,7 +63412,7 @@ Index of all RSCF-class notes in the AMOS OS vault.
 - [[2607.11274v1_Extending_Decision_Maps_for_Sustainable_Safety_and_Security_in_Self-Adaptive_Sys]]
 - [[2607.11284v1_Experimental_Observation_of_Anomalous_Complementary_Weak_Values_from_Correlated_]]
 - [[2607.11359v1_Efficient_Tuning_Before_Low-Bit_Post-Training_Quantization_for_Stochastic_Gradie]]
-- [[2607.11418v1_Efficient, direct calculation of reaction rate coefficients based on a partially rearranged rovibrational Hamiltonian. A full-dimensional case study of the H$_2$ + D $\rightarrow$ HD + H reaction]]
+- 2607.11418v1_Efficient, direct calculation of reaction rate coefficients based on a partially rearranged rovibrational Hamiltonian. A full-dimensional case study of the H$_2$ + D $\rightarrow$ HD + H reaction
 - [[2607.11418v1_Efficient__direct_calculation_of_reaction_rate_coefficients_based_on_a_partially]]
 - [[2607.11420v1_Extended_Landau--Lifshitz_equation_for_nanomagnets__a_path-integral_derivation_o]]
 - [[2607.11445v1_Event-based_Neural_Decoding_for_Neuroprosthetic_Motor_Control]]
@@ -64635,7 +64635,7 @@ Index of all RSCF-class notes in the AMOS OS vault.
 - [[2607.10864v1_Multilevel_Preconditioning_Strategies_for_Convex_Optimization_Methods_in_Image_D]]
 - [[2607.10872v1_Model_Predictive_Coolant_Allocation_for_Integrated_Tab-Surface_Cooling_of_Batter]]
 - [[2607.10883v1_Model-Free_Detection_and_Accommodation_of_Sensor_Faults_for_a_PEM_Electrolyzer]]
-- [[2607.10901v1_Multipole structure of the $N \to Δ$ Transition Generalized Parton Distributions]]
+- 2607.10901v1_Multipole structure of the $N \to Δ$ Transition Generalized Parton Distributions
 - [[2607.10901v1_Multipole_structure_of_the__N__to_Δ__Transition_Generalized_Parton_Distributions]]
 - [[2607.10916v1_Multiple_Band-Gaps_through_the_Coupling_of_Unit_Cells_from_the_Same_Metamaterial]]
 - [[2607.10934v1_Multidimensional_stochastic_liquidity_in_Kyle_s_model_of_informed_trading]]
@@ -66211,7 +66211,7 @@ Index of all RSCF-class notes in the AMOS OS vault.
 - [[2607.11835v1_Stabilize-then-optimize__Feedback_transformations_as_preconditioners_in_optimal_]]
 - [[2607.11877v1_Slow is fast: raising barriers to accelerate thermal relaxation]]
 - [[2607.11877v1_Slow_is_fast__raising_barriers_to_accelerate_thermal_relaxation]]
-- [[2607.11887v1_Signatures of $10-10^4\,{\rm M}_{\odot}$ Dark Matter halos in LISA via Stochastic Diffraction]]
+- 2607.11887v1_Signatures of $10-10^4\,{\rm M}_{\odot}$ Dark Matter halos in LISA via Stochastic Diffraction
 - [[2607.11887v1_Signatures_of__10-10_4____rm_M____odot___Dark_Matter_halos_in_LISA_via_Stochasti]]
 - [[2607.12342v1_Space-Time_Modulated_vs_2-Bit_Reflect-Arrays__A_Comparison_of_Main_Beam_Gain_and]]
 - [[2607.12799v1_Strain-Tunable_Shift_Current_and_Magneto-Optical_Kerr_Effect_in_Multiferroic_Alt]]
@@ -66966,9 +66966,9 @@ Index of all RSCF-class notes in the AMOS OS vault.
 - [[2607.11178v1_Zero-one_laws_for_uniform_approximation_via_Gaussian_and_Eisenstein_integers]]
 - [[2607.11789v1_Zonal-flow generation and saturation of electromagnetic ion-scale turbulence in tokamaks]]
 - [[2607.11789v1_Zonal-flow_generation_and_saturation_of_electromagnetic_ion-scale_turbulence_in_]]
-- [[ARXIV_QFM_CLAIMS]]
-- [[ARXIV_QFM_MOC]]
-- [[ARXIV_QFM_MURK_AUDIT]]
+- ARXIV_QFM_CLAIMS
+- ARXIV_QFM_MOC
+- ARXIV_QFM_MURK_AUDIT
 - [[0009212v2_Bondi-Hoyle-Lyttleton_Accretion_Model_for_Low-luminosity_X-ray_Sources_in_Globul]]
 - [[0102029v1_Extraction_of_Cs-137_by_alcohol-water_solvents_from_plants_containing_cardiac_gl]]
 - [[0109145v1_On_the_cohomology_algebra_of_free_loop_spaces]]
@@ -66984,10 +66984,10 @@ Index of all RSCF-class notes in the AMOS OS vault.
 - [[0701077v1_Axiomatic_Characterization_of_Ordinary_Differential_Cohomology]]
 - [[9403002v1_Intersection_Theory_on_Toric_Varieties]]
 - [[9703025v3_Wheels__Wheeling__and_the_Kontsevich_Integral_of_the_Unknot]]
-- [[environment_scan_agent]]
-- [[executor_agent]]
-- [[investment_agent]]
-- [[tensors]]
+- [[11_KNOWLEDGE/environment_scan_agent]]
+- [[11_KNOWLEDGE/executor_agent]]
+- [[11_KNOWLEDGE/investment_agent]]
+- [[11_KNOWLEDGE/tensors]]
 - [[INDEX_STATE_README]]
 - [[INDEX_STATE_STATE_CONTRACT]]
 - [[STATE_STATE_MAP]]
@@ -67448,25 +67448,25 @@ Index of all RSCF-class notes in the AMOS OS vault.
 - [[PRIMITIVES_COGNITIVE_MATRIX_L00_REALITY_ENVIRONMENT_CONTRACT]]
 - [[COGNITIVE_MATRIX_L00_REALITY_ENVIRONMENT_CONTRACT]]
 - [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_AGENTS]]
-- [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_CONTROL_PLANES]]
-- [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_DEFINITION]]
-- [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_DEPENDENCIES]]
-- [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_EQUATIONS]]
-- [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_FAILURE_MODES]]
-- [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_GAP_MATRIX]]
-- [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_HML]]
-- [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_INVARIANTS]]
-- [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_MEMORY]]
-- [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_OPERATORS]]
-- [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS]]
+- L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_CONTROL_PLANES
+- L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_DEFINITION
+- L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_DEPENDENCIES
+- L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_EQUATIONS
+- L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_FAILURE_MODES
+- L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_GAP_MATRIX
+- L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_HML
+- L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_INVARIANTS
+- L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_MEMORY
+- L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_OPERATORS
+- L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS
 - [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_PROVENANCE]]
 - [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_PURPOSE]]
 - [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]]
 - [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_REPAIR]]
 - [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_RSCF]]
 - [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_SKILLS]]
-- [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_STATE]]
-- [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_TESTS]]
+- L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_STATE
+- L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_TESTS
 - [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_VARIABLES]]
 - [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_WORKFLOWS]]
 - [[INDEX_L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
@@ -67476,7 +67476,7 @@ Index of all RSCF-class notes in the AMOS OS vault.
 - [[L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_AGENTS]]
 - [[L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_CONTROL_PLANES]]
 - [[L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_DEFINITION]]
-- [[L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_DEPENDENCIES]]
+- L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_DEPENDENCIES
 - [[L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_EQUATIONS]]
 - [[L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_FAILURE_MODES]]
 - [[L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_GAP_MATRIX]]
@@ -68965,8 +68965,8 @@ Index of all RSCF-class notes in the AMOS OS vault.
 - [[GENERATOR_ADMISSION]]
 - [[GENERATOR_CONTRACT]]
 - [[GENERATOR_FALSIFICATION]]
-- [[GENERATOR_OUTPUT]]
-- [[GENERATOR_PROMOTION]]
+- GENERATOR_OUTPUT
+- GENERATOR_PROMOTION
 - [[GENERATOR_REGISTRY]]
 - [[GENERATOR_SEED]]
 - [[GENERATOR_SUPERSESSION]]
@@ -68977,12 +68977,12 @@ Index of all RSCF-class notes in the AMOS OS vault.
 - [[COGNITIVE_MATRIX_COGNITIVE_MATRIX_CONTRACT]]
 - [[COGNITIVE_MATRIX_README]]
 - [[PLACEHOLDER_SEED_STATUS]]
-- [[README_1]]
+- README_1
 
 ---
-**Related:** [[00-Home]]
+**Related:** [[00_ROOT/00-Home]]
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_ROOT/00_Cosmo_Brain_MOC]]
 - [[AMOS Home]]
 - [[02_KERNEL/01_META_LOGIC/K_META_LOGIC.md|K_META_LOGIC (02_KERNEL)]]
 [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT.md|ROUTING_POLICY_VALIDATION_RECEIPT]]
@@ -68993,7 +68993,7 @@ node_id: amos_rscf_nodes
 node_type: index
 path: 00_ROOT/AMOS_RSCF_NODES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS Home]]
   - CANON_REF: [[01_CANON/01_CORE_LAWS/L17_RSCF.md|L17_RSCF]]
   - KERNEL_REF: [[02_KERNEL/09_INTEGRATION/K_RSCF.md|K_RSCF]]

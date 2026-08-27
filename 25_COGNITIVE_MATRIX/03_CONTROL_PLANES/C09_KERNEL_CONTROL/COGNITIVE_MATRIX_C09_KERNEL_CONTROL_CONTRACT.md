@@ -26,7 +26,7 @@ Executable binding PARTIAL.
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00-Home]]
 
 ---
 RSCF-NODE
@@ -34,6 +34,6 @@ node_id: cognitive_matrix_c09_kernel_control_contract
 node_type: note
 path: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C09_KERNEL_CONTROL/COGNITIVE_MATRIX_C09_KERNEL_CONTROL_CONTRACT.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - CHILD_OF: [[COGNITIVE_MATRIX_CONTROL_PLANES_CONTRACT]]
 claim_class: AMOS_MODEL

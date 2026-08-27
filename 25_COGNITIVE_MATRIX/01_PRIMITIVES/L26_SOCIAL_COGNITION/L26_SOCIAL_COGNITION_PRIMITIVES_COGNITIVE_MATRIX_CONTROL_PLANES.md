@@ -12,7 +12,7 @@ Covers agent modeling, theory-of-mind hypotheses, and perspective separation.
 
 ## Control-plane binding
 
-- [[C04_REASONING]] — primary reasoning-plane owner for this primitive
+- C04_REASONING — primary reasoning-plane owner for this primitive
 
 ## Hard boundaries
 

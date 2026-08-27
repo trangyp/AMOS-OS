@@ -12,12 +12,12 @@ Covers identity anchors, continuity evidence, and fragmentation resistance.
 
 ## Upstream dependencies
 
-- [[L04_OBJECT_ENTITY_FORMATION]]
+- [[L04_OBJECT_ENTITY_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L26_SOCIAL_COGNITION]]
-- [[C01_GOVERNANCE]]
+- [[L26_SOCIAL_COGNITION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- C01_GOVERNANCE
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

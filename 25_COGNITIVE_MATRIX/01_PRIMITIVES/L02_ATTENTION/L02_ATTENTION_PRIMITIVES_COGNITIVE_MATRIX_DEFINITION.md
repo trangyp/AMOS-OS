@@ -1,10 +1,4 @@
 ---
-tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'note']
----
-
-Below is the **full replacement content** for `L02_ATTENTION/DEFINITION.md`, written to stay source-bounded and to distinguish recovered primitive meaning from AMOS model completion.
-
----
 tags:
   - amos
   - cognitive-matrix
@@ -2414,38 +2408,38 @@ IMPLEMENTED != VALIDATED
 # 61. References
 
 ```text
-[[L02_ATTENTION/PLACEHOLDER.md]]
+PLACEHOLDER
 
-[[L02_ATTENTION — Purpose]]
-[[L02_ATTENTION — Variables]]
-[[L02_ATTENTION — State]]
-[[L02_ATTENTION — Operators]]
-[[L02_ATTENTION — Invariants]]
-[[L02_ATTENTION — Dependencies]]
-[[L02_ATTENTION — Hml]]
-[[L02_ATTENTION — Control Planes]]
-[[L02_ATTENTION — Agents]]
-[[L02_ATTENTION — Skills]]
-[[L02_ATTENTION — Workflows]]
-[[L02_ATTENTION — Protocols]]
-[[L02_ATTENTION — Provenance]]
-[[L02_ATTENTION — Rscf]]
-[[L02_ATTENTION — Failure Modes]]
-[[L02_ATTENTION — Repair]]
-[[L02_ATTENTION — Tests]]
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
+L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
 
-[[L01_SENSING_OBSERVATION]]
+L01_SENSING_OBSERVATION
 
-[[AMOS Attention Allocation Governor]]
-[[AMOS Context Budget Governor]]
-[[AMOS Constraint Propagation]]
-[[AMOS Infrastructure Control Plane]]
-[[AMOS Deterministic AI Control Plane]]
-[[AMOS Metacognitive Confidence Auditor]]
-[[AMOS Provenance Trust Firewall]]
-[[AMOS RSCF]]
-[[AMOS Full Brain OS]]
-[[AMOS CORE v4.4]]
+Cosmo_Brain_BRIDGE_INDEX
+AMOS Context Budget Governor
+AMOS Constraint Propagation
+Cosmo_Brain_BRIDGE_INDEX
+AMOS Deterministic AI Control Plane
+Cosmo_Brain_BRIDGE_INDEX
+Cosmo_Brain_BRIDGE_INDEX
+AMOS RSCF
+Cosmo_Brain_BRIDGE_INDEX
+Cosmo_Brain_BRIDGE_INDEX
 ```
 
 ---
@@ -2500,7 +2494,7 @@ This version deliberately keeps the **narrow-vs-broad attention scope unresolved
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2508,6 +2502,6 @@ node_id: l02_attention_primitives_cognitive_matrix_definition
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_DEFINITION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

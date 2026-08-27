@@ -12,12 +12,12 @@ Covers the operation contract for this lifecycle operator.
 
 ## Upstream dependencies
 
-- [[O00_DISTINCTION]]
+- O00_DISTINCTION
 
 ## Downstream dependents
 
-- [[O02_RELATION]]
-- [[O03_BINDING]]
+- O02_RELATION
+- O03_BINDING
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

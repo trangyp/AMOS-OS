@@ -12,11 +12,11 @@ Covers the operation contract for this lifecycle operator.
 
 ## Upstream dependencies
 
-- [[C01_GOVERNANCE]]
+- C01_GOVERNANCE
 
 ## Downstream dependents
 
-- [[C08_EXECUTION]]
+- C08_EXECUTION
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

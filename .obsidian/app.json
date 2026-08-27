@@ -1,6 +1,27 @@
 {
   "baseColorScheme": "dark",
+  "useMarkdownLinks": false,
+  "showLineNumber": true,
+  "livePreview": true,
   "userIgnoreFilters": [
-    ".devin/skills/"
+    ".git/",
+    ".git/**",
+    "00_ROOT/AMOS_MEMORY_GRAPH.html",
+    "node_modules/",
+    "node_modules/**",
+    "**/node_modules/",
+    "**/node_modules/**",
+    "__pycache__/",
+    "__pycache__/**",
+    ".pytest_cache/",
+    ".pytest_cache/**",
+    ".turbo/",
+    ".turbo/**",
+    "*.zip",
+    "*.log",
+    "apps/public/",
+    "packages/*/dist/",
+    "packages/*/build/",
+    "cosmo-brain/__pycache__/"
   ]
 }

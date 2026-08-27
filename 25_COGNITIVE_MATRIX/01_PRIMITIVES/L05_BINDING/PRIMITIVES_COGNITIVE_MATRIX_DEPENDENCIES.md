@@ -12,13 +12,13 @@ Covers relation formation, typing, directionality, and consistency enforcement.
 
 ## Upstream dependencies
 
-- [[L04_OBJECT_ENTITY_FORMATION]]
+- [[L04_OBJECT_ENTITY_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ## Downstream dependents
 
-- [[L06_WORKING_STATE]]
-- [[L09_INFERENCE]]
-- [[L11_CAUSAL_MODELING]]
+- [[L06_WORKING_STATE_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L09_INFERENCE_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L11_CAUSAL_MODELING_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

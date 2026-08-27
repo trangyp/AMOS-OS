@@ -15,8 +15,8 @@ Covers distinction creation, scope typing, and distinctness verification.
 
 ## Downstream dependents
 
-- [[O01_OBJECT]]
-- [[O02_RELATION]]
+- O01_OBJECT
+- O02_RELATION
 
 Dependency direction follows the primitive flow order; cycles are defects.
 

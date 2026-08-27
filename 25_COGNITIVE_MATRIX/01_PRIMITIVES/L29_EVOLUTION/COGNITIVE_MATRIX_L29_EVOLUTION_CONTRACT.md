@@ -34,7 +34,7 @@ Runtime binding to executable engines is PARTIAL; see subsystem validation recei
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -42,6 +42,6 @@ node_id: cognitive_matrix_l29_evolution_contract
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L29_EVOLUTION/COGNITIVE_MATRIX_L29_EVOLUTION_CONTRACT.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - CHILD_OF: [[COGNITIVE_MATRIX_PRIMITIVES_CONTRACT]]
 claim_class: AMOS_MODEL

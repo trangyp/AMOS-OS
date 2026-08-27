@@ -2963,7 +2963,7 @@ RSCF-NODE:
 RSCF-RELATIONS:
 
   - INDEXED_BY:
-      "[[00-Home]]"
+      "[[00_ROOT/00-Home]]"
 
   - INDEXED_BY:
       "[[AMOS_RSCF_NODES]]"
@@ -2975,31 +2975,31 @@ RSCF-RELATIONS:
       "[[COGNITIVE_MATRIX_MOC]]"
 
   - AUDITS:
-      "[[12_GENERATORS/GENERATOR_CONTRACT.md|Generator Contract]]"
+      "[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT|Generator Contract]]"
 
   - AUDITS:
-      "[[12_GENERATORS/VALIDATION.md|Generator Validation]]"
+      "Generator Validation"
 
   - AUDITS:
-      "[[12_GENERATORS/TESTS.md|Generator Tests]]"
+      "Generator Tests"
 
   - AUDITS:
-      "[[12_GENERATORS/GENERATORS_BENCHMARKS.md|Generator Benchmarks]]"
+      "[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_BENCHMARKS|Generator Benchmarks]]"
 
   - AUDITS:
-      "[[12_GENERATORS/PROVENANCE.md|Generator Provenance]]"
+      "Generator Provenance"
 
   - AUDITS:
-      "[[12_GENERATORS/INTEGRATION.md|Generator Integration]]"
+      "Generator Integration"
 
   - AUDITS:
-      "[[12_GENERATORS/HISTORY.md|Generator History]]"
+      "Generator History"
 
   - AUDITS:
-      "[[12_GENERATORS/GENERATORS_CHANGE_LOG.md|Generator Change Log]]"
+      "[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_CHANGE_LOG|Generator Change Log]]"
 
   - RELATED_TO:
-      "[[12_GENERATORS/ROADMAP.md|Generator Roadmap]]"
+      "[[00_ROOT/ROADMAP|Generator Roadmap]]"
 ```
 
 ---
@@ -3772,28 +3772,28 @@ READ_ONLY_BY_DEFAULT
 
 ---
 
-**Related:** [[00-Home]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
 
 ## Related Generator artifacts
 
-* [[12_GENERATORS/GENERATOR_CONTRACT.md|Generator Contract]]
-* [[12_GENERATORS/PROVENANCE.md|Generator Provenance]]
-* [[12_GENERATORS/VALIDATION.md|Generator Validation]]
-* [[12_GENERATORS/TESTS.md|Generator Tests]]
-* [[12_GENERATORS/GENERATORS_BENCHMARKS.md|Generator Benchmarks]]
-* [[12_GENERATORS/ROADMAP.md|Generator Roadmap]]
-* [[12_GENERATORS/INTEGRATION.md|Generator Integration]]
-* [[12_GENERATORS/HISTORY.md|Generator History]]
-* [[12_GENERATORS/GENERATORS_CHANGE_LOG.md|Generator Change Log]]
-* [[10_ROUTING/ROUTING_AUDIT.md|Routing Audit]]
-* [[11_VALIDATION/PROMOTION_GATES.md|Promotion Gates]]
-* [[GENERATOR_REGISTRY.md|Generator Registry]]
-* [[VALIDATOR_REGISTRY.md|Validator Registry]]
-* [[WORKER_REGISTRY.md|Worker Registry]]
-* [[AUTHORITATIVE_STATE.md|Authoritative State]]
-* [[PROVENANCE_MANIFEST.md|Provenance Manifest]]
-* [[POLICY_MANIFEST.md|Policy Manifest]]
-* [[AUTHORITY_REGISTRY.md|Authority Registry]]
+* Generator Contract
+* Generator Provenance
+* Generator Validation
+* Generator Tests
+* Generator Benchmarks
+* Generator Roadmap
+* Generator Integration
+* Generator History
+* Generator Change Log
+* Routing Audit
+* Promotion Gates
+* Generator Registry
+* Validator Registry
+* Worker Registry
+* Authoritative State
+* Provenance Manifest
+* Policy Manifest
+* Authority Registry
 
 ````
 

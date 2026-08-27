@@ -1,0 +1,7 @@
+---
+tags: [dated, dated/2026-08-25]
+---
+QFM pass 3 (2026-08-25): closed ALL remaining empty .devin/skills dirs (14 more) — .devin/skills now 123 dirs, ZERO empty. New content: QFT bridge (Yang-Mills→D/M/E/R, Millennium gate), computational-complexity bridge (M_find/M_verify; P≠NP stays open with source's own 3 missing-proof requirements), fractal runtime cells (K_n cell, RS/CQ/PV scores, PermittedEvolution 7-factor product), numerical-methods/control/simulation/signal/memory kernels from JSON specs, universal field model (HMLAlignment & Survival_true multiplicative equations, consciousness-candidate boundary), quantum omega canon (library v0.6.0 counts + No-Proof-No-Claim SSOT), full-brain-os canon (priority ladder safety>ip>creator>integrity>user, CONDITIONAL completion). Agents: amos-field-theory-bridge-agent, amos-numerical-audit-agent. Workflow: amos-bridge-governance-workflow. Audit RESULT OK: registry 201↔159, 0 unregistered.
+
+---
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass15-corpus-depth]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-qfm-pass4-runtime-sync]]

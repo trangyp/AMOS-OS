@@ -12,7 +12,7 @@ Covers the operation contract for this lifecycle operator.
 
 ## Upstream dependencies
 
-- [[C05_REPRESENTATION]]
+- C05_REPRESENTATION
 
 ## Downstream dependents
 

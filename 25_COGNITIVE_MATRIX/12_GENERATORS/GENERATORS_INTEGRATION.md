@@ -3914,26 +3914,26 @@ NON_AUTHORITATIVE
 
 ## Related
 
-* [[12_GENERATORS/GENERATOR_CONTRACT.md|Generator Contract]]
-* [[12_GENERATORS/PROVENANCE.md|Generator Provenance]]
-* [[12_GENERATORS/VALIDATION.md|Generator Validation]]
-* [[12_GENERATORS/TESTS.md|Generator Tests]]
-* [[12_GENERATORS/ROADMAP.md|Generator Roadmap]]
-* [[10_ROUTING/README.md|Routing]]
-* [[10_ROUTING/BINDING_RULES.md|Binding Rules]]
-* [[10_ROUTING/ROUTING_POLICY.md|Routing Policy]]
-* [[10_ROUTING/ROUTING_AUDIT.md|Routing Audit]]
-* [[11_VALIDATION/README.md|Validation]]
-* [[11_VALIDATION/PROMOTION_GATES.md|Promotion Gates]]
-* [[AUTHORITATIVE_STATE.md|Authoritative State]]
-* [[PROVENANCE_MANIFEST.md|Provenance Manifest]]
-* [[POLICY_MANIFEST.md|Policy Manifest]]
-* [[AUTHORITY_REGISTRY.md|Authority Registry]]
-* [[GENERATOR_REGISTRY.md|Generator Registry]]
-* [[WORKER_REGISTRY.md|Worker Registry]]
-* [[EVENT_BUS.md|Event Bus]]
-* [[STATE_STORE.md|State Store]]
-* [[CONTROL_PLANE.md|Control Plane]]
+* Generator Contract
+* Generator Provenance
+* Generator Validation
+* Generator Tests
+* Generator Roadmap
+* Routing
+* Binding Rules
+* Routing Policy
+* Routing Audit
+* Validation
+* Promotion Gates
+* Authoritative State
+* Provenance Manifest
+* Policy Manifest
+* Authority Registry
+* Generator Registry
+* Worker Registry
+* Event Bus
+* State Store
+* Control Plane
 
 ````
 
@@ -3975,7 +3975,7 @@ That keeps the Generator subsystem integrated with AMOS infrastructure without t
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -3983,6 +3983,6 @@ node_id: generators_integration
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_INTEGRATION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

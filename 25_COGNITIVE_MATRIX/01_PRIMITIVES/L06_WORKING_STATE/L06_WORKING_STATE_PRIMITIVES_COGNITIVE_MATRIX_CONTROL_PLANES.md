@@ -12,8 +12,8 @@ Covers working-set membership, decay, and context switches.
 
 ## Control-plane binding
 
-- [[C03_EXECUTIVE]] — bound control plane
-- [[C06_MEMORY]] — bound control plane
+- C03_EXECUTIVE — bound control plane
+- C06_MEMORY — bound control plane
 
 ## Hard boundaries
 

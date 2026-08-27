@@ -60,7 +60,7 @@ Given an operation touching `OBSERVABILITY · CONTROL PLANE OBSERVABILITY CONTRA
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
