@@ -11,11 +11,7 @@ segment: "01_CANON/03_COGNITION_CANON"
 artifact_kind: "MAP"
 path: "01_CANON/03_COGNITION_CANON/COGNITIVE_CANON_RELATION_MAP.md"
 
-tags: [amos_os, canon, universe]
-  - 01_canon
-  - map
-  - canon_placeholder
-  - rscf
+tags: [amos_os, canon, universe, 01_canon, map, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

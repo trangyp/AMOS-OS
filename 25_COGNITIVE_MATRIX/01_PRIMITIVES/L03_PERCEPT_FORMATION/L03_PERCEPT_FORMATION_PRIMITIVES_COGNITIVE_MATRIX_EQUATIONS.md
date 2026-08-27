@@ -1,14 +1,6 @@
 ---
 type: cognitive
-tags: [amos]
-  - cognitive-matrix
-  - l03
-  - percept-formation
-  - equations
-  - mathematical-rigor
-  - rscf
-  - hml
-  - provenance
+tags: [amos, cognitive-matrix, l03, percept-formation, equations, mathematical-rigor, rscf, hml, provenance]
 
 title: "L03_PERCEPT_FORMATION — Equations"
 origin_architect: "Trang Phan"

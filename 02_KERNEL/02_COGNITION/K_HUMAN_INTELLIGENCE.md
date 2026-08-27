@@ -11,11 +11,7 @@ segment: "02_KERNEL/02_COGNITION"
 artifact_kind: "INTELLIGENCE"
 path: "02_KERNEL/02_COGNITION/K_HUMAN_INTELLIGENCE.md"
 
-tags: [amos_os, kernel, core]
-  - 02_kernel
-  - intelligence
-  - canon_placeholder
-  - rscf
+tags: [amos_os, kernel, core, 02_kernel, intelligence, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

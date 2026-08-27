@@ -11,11 +11,7 @@ segment: "01_CANON/02_UNIVERSE_CANON"
 artifact_kind: "REGISTRY"
 path: "01_CANON/02_UNIVERSE_CANON/UNIVERSE_EQUATION_REGISTRY.md"
 
-tags: [amos_os, canon, universe]
-  - 01_canon
-  - registry
-  - canon_placeholder
-  - rscf
+tags: [amos_os, canon, universe, 01_canon, registry, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

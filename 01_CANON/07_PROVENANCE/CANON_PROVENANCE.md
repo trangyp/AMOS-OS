@@ -19,23 +19,7 @@ authority_scope: canon-provenance-lineage-and-supersession
 created: 2026-08-25
 updated: 2026-08-25
 
-tags: [amos-os, canon, universe]
-  - canon-group/meta
-  - canon/provenance
-  - canon/lineage
-  - canon/supersession
-  - canon/evidence
-  - canon/registry
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - topic/canon-provenance
-  - topic/source-lineage
-  - topic/provenance-topology
-  - topic/version-lineage
-  - topic/causal-lineage
-  - topic/sybil-hardening
-  - topic/persistent-provenance
+tags: [amos-os, canon, universe, canon-group/meta, canon/provenance, canon/lineage, canon/supersession, canon/evidence, canon/registry, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/canon-provenance, topic/source-lineage, topic/provenance-topology, topic/version-lineage, topic/causal-lineage, topic/sybil-hardening, topic/persistent-provenance]
 
 aliases:
   - AMOS Canon Provenance

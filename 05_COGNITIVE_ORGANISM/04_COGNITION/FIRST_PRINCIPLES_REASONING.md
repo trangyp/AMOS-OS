@@ -11,11 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/04_COGNITION"
 artifact_kind: "REASONING"
 path: "05_COGNITIVE_ORGANISM/04_COGNITION/FIRST_PRINCIPLES_REASONING.md"
 
-tags: [amos_os, cognitive, organism]
-  - 05_cognitive_organism
-  - reasoning
-  - canon_placeholder
-  - rscf
+tags: [amos_os, cognitive, organism, 05_cognitive_organism, reasoning, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

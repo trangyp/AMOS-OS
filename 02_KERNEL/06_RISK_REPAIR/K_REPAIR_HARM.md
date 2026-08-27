@@ -14,22 +14,7 @@ kernel_family: RECOVERY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags: [amos-os, kernel, core]
-  - kernel
-  - kernel/repair
-  - kernel/harm
-  - kernel/recovery
-  - kernel/invariants
-  - kernel/provenance
-  - kernel/causal
-  - kernel/rollback
-  - kernel/homeostasis
-  - rscf
-  - topic/repair
-  - topic/harm
-  - topic/failure-containment
-  - topic/reversibility
-  - topic/collateral-damage
+tags: [amos-os, kernel, core, kernel/repair, kernel/harm, kernel/recovery, kernel/invariants, kernel/provenance, kernel/causal, kernel/rollback, kernel/homeostasis, rscf, topic/repair, topic/harm, topic/failure-containment, topic/reversibility, topic/collateral-damage]
 ---
 
 

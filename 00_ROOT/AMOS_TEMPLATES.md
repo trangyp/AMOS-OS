@@ -7,14 +7,7 @@ origin_architect: Trang Phan
 provenance: VAULT_INDEX
 status: active
 steward: Trang Phan
-tags: [templates, amos_os, root]
-- templater
-- index
-- moc
-- obsidian
-- canon-group/tech-ai
-- canon/tooling
-- topic/templates
+tags: [templates, amos_os, root, templater, index, moc, obsidian, canon-group/tech-ai, canon/tooling, topic/templates]
 title: AMOS Templates
 type: index
 ---

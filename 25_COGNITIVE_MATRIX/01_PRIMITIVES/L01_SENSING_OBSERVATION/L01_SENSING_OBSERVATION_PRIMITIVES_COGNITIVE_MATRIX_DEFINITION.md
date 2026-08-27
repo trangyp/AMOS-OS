@@ -1,15 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX DEFINITION
 type: definition
-tags: [amos]
-  - cognitive-matrix
-  - l01
-  - sensing
-  - observation
-  - cognitive-primitive
-  - epistemics
-  - provenance
-  - rscf
+tags: [amos, cognitive-matrix, l01, sensing, observation, cognitive-primitive, epistemics, provenance, rscf]
 ---
 
 

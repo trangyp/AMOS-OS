@@ -11,11 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "BINDING"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING.md"
 
-tags: [amos_os, knowledge, vault]
-  - 11_knowledge
-  - binding
-  - canon_placeholder
-  - rscf
+tags: [amos_os, knowledge, vault, 11_knowledge, binding, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

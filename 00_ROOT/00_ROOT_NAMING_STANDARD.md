@@ -42,47 +42,7 @@ scope:
   - version_identity
   - rename_governance
 
-tags: [amos, amos_os, root]
-  - amos-os
-  - naming
-  - naming-standard
-  - namespace
-  - identity
-  - artifact-identity
-  - versioning
-  - semantic-versioning
-  - repository
-  - filesystem
-  - registry
-  - canon
-  - kernel
-  - agents
-  - skills
-  - workflows
-  - protocols
-  - modes
-  - memory
-  - knowledge
-  - state
-  - models
-  - tools
-  - schemas
-  - provenance
-  - rscf
-  - migration
-  - rename
-  - compatibility
-  - lineage
-  - governance
-  - canon-group/tech-ai
-  - canon/standard
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/derived
-  - topic/amos-os
-  - topic/naming-standard
-  - topic/namespace-governance
-  - topic/version-governance
+tags: [amos, amos_os, root, amos-os, naming, naming-standard, namespace, identity, artifact-identity, versioning, semantic-versioning, repository, filesystem, registry, canon, kernel, agents, skills, workflows, protocols, modes, memory, knowledge, state, models, tools, schemas, provenance, rscf, migration, rename, compatibility, lineage, governance, canon-group/tech-ai, canon/standard, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/naming-standard, topic/namespace-governance, topic/version-governance]
 
 aliases:
   - AMOS Naming Standard

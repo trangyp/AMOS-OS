@@ -11,11 +11,7 @@ segment: "01_CANON/04_INFRASTRUCTURE_CANON"
 artifact_kind: "LOG"
 path: "01_CANON/04_INFRASTRUCTURE_CANON/UNIVERSAL_BIO_LOGICAL_ARCHITECTURE.md"
 
-tags: [amos_os, canon, universe]
-  - 01_canon
-  - log
-  - canon_placeholder
-  - rscf
+tags: [amos_os, canon, universe, 01_canon, log, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

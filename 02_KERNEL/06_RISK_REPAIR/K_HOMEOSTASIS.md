@@ -14,28 +14,7 @@ kernel_family: STABILITY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags: [amos-os, kernel, core]
-  - kernel
-  - kernel/homeostasis
-  - kernel/stability
-  - kernel/invariants
-  - kernel/state
-  - kernel/recovery
-  - kernel/feedback
-  - kernel/adaptation
-  - kernel/provenance
-  - kernel/causal-epoch
-  - kernel/context
-  - kernel/memory
-  - rscf
-  - rscf/validation
-  - topic/homeostasis
-  - topic/dynamic-stability
-  - topic/drift-detection
-  - topic/feedback-control
-  - topic/bounded-adaptation
-  - topic/failure-containment
-  - topic/revalidation
+tags: [amos-os, kernel, core, kernel/homeostasis, kernel/stability, kernel/invariants, kernel/state, kernel/recovery, kernel/feedback, kernel/adaptation, kernel/provenance, kernel/causal-epoch, kernel/context, kernel/memory, rscf, rscf/validation, topic/homeostasis, topic/dynamic-stability, topic/drift-detection, topic/feedback-control, topic/bounded-adaptation, topic/failure-containment, topic/revalidation]
 ---
 
 

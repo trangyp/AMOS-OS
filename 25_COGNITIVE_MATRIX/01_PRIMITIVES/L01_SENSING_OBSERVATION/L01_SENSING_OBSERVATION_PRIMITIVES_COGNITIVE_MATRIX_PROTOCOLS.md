@@ -1,14 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX PROTOCOLS
 type: protocol
-tags: [amos]
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - protocols
-  - provenance
-  - control-plane
-  - rscf
+tags: [amos, cognitive-matrix, l01, sensing-observation, protocols, provenance, control-plane, rscf]
 ---
 
 

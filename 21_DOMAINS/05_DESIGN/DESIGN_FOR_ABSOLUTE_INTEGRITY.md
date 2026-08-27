@@ -11,11 +11,7 @@ segment: "21_DOMAINS/05_DESIGN"
 artifact_kind: "DESIGN"
 path: "21_DOMAINS/05_DESIGN/DESIGN_FOR_ABSOLUTE_INTEGRITY.md"
 
-tags: [amos_os, domain, specialization]
-  - 21_domains
-  - design
-  - canon_placeholder
-  - rscf
+tags: [amos_os, domain, specialization, 21_domains, design, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

@@ -14,26 +14,7 @@ kernel_family: STATE
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags: [amos-os, kernel, core]
-  - canon-group/tech-ai
-  - canon/model
-  - kernel
-  - kernel/state
-  - kernel/system-state
-  - kernel/context
-  - kernel/dependency
-  - kernel/provenance
-  - kernel/causality
-  - kernel/concurrency
-  - kernel/validation
-  - rscf/state/model
-  - rscf/provenance
-  - topic/system-state
-  - topic/mvcc
-  - topic/cas
-  - topic/atomicity
-  - topic/recovery
-  - topic/finality
+tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/state, kernel/system-state, kernel/context, kernel/dependency, kernel/provenance, kernel/causality, kernel/concurrency, kernel/validation, rscf/state/model, rscf/provenance, topic/system-state, topic/mvcc, topic/cas, topic/atomicity, topic/recovery, topic/finality]
 
 aliases:
   - AMOS System State Kernel

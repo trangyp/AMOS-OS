@@ -11,11 +11,7 @@ segment: "11_KNOWLEDGE/02_CLAIMS"
 artifact_kind: "REGISTRY"
 path: "11_KNOWLEDGE/02_CLAIMS/HERITAGE_CLAIM_REGISTRY.md"
 
-tags: [amos_os, knowledge, vault]
-  - 11_knowledge
-  - registry
-  - canon_placeholder
-  - rscf
+tags: [amos_os, knowledge, vault, 11_knowledge, registry, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

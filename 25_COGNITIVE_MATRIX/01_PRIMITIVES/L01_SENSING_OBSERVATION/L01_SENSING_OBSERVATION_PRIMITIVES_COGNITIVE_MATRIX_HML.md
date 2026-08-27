@@ -1,16 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX HML
 type: cognitive
-tags: [amos]
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - hml
-  - cross-scale
-  - observation
-  - provenance
-  - rscf
-  - control-plane
+tags: [amos, cognitive-matrix, l01, sensing-observation, hml, cross-scale, observation, provenance, rscf, control-plane]
 ---
 
 

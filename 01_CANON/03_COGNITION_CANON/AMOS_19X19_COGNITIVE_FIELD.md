@@ -11,11 +11,7 @@ segment: "01_CANON/03_COGNITION_CANON"
 artifact_kind: "ARTIFACT"
 path: "01_CANON/03_COGNITION_CANON/AMOS_19X19_COGNITIVE_FIELD.md"
 
-tags: [amos_os, canon, universe]
-  - 01_canon
-  - artifact
-  - canon_placeholder
-  - rscf
+tags: [amos_os, canon, universe, 01_canon, artifact, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

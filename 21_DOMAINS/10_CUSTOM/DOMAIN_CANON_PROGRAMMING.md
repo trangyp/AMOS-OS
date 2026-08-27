@@ -11,11 +11,7 @@ segment: "21_DOMAINS/10_CUSTOM"
 artifact_kind: "CANON"
 path: "21_DOMAINS/10_CUSTOM/DOMAIN_CANON_PROGRAMMING.md"
 
-tags: [amos_os, domain, specialization]
-  - 21_domains
-  - canon
-  - canon_placeholder
-  - rscf
+tags: [amos_os, domain, specialization, 21_domains, canon, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

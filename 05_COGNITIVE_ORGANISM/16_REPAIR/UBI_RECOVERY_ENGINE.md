@@ -11,11 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/16_REPAIR"
 artifact_kind: "ENGINE"
 path: "05_COGNITIVE_ORGANISM/16_REPAIR/UBI_RECOVERY_ENGINE.md"
 
-tags: [amos_os, cognitive, organism]
-  - 05_cognitive_organism
-  - engine
-  - canon_placeholder
-  - rscf
+tags: [amos_os, cognitive, organism, 05_cognitive_organism, engine, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

@@ -1,14 +1,6 @@
 ---
 type: cognitive
-tags: [amos]
-  - cognitive-matrix
-  - l02
-  - attention
-  - repair
-  - recovery
-  - rscf
-  - hml
-  - governance
+tags: [amos, cognitive-matrix, l02, attention, repair, recovery, rscf, hml, governance]
 
 title: "L02_ATTENTION — REPAIR"
 origin_architect: "Trang Phan"

@@ -11,11 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/07_EMOTION_REGULATION"
 artifact_kind: "ENGINE"
 path: "05_COGNITIVE_ORGANISM/07_EMOTION_REGULATION/AMOS_EMOTION_ENGINE.md"
 
-tags: [amos_os, cognitive, organism]
-  - 05_cognitive_organism
-  - engine
-  - canon_placeholder
-  - rscf
+tags: [amos_os, cognitive, organism, 05_cognitive_organism, engine, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

@@ -21,35 +21,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags: [amos, canon, universe]
-  - amos-os
-  - amos-core
-  - amos-core-v4-4
-  - canon
-  - registry
-  - symbol-registry
-  - symbols
-  - notation
-  - operators
-  - semantics
-  - identity
-  - types
-  - states
-  - rscf
-  - gmef
-  - hml
-  - provenance
-  - epistemic-regime
-  - causal-lineage
-  - mvcc
-  - cas
-  - finality
-  - invariants
-  - canon-group/meta
-  - canon/registry
-  - rscf/provenance
-  - rscf/state/derived
-  - topic/symbol-registry
+tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, registry, symbol-registry, symbols, notation, operators, semantics, identity, types, states, rscf, gmef, hml, provenance, epistemic-regime, causal-lineage, mvcc, cas, finality, invariants, canon-group/meta, canon/registry, rscf/provenance, rscf/state/derived, topic/symbol-registry]
 
 aliases:
   - AMOS Symbol Registry

@@ -1,12 +1,6 @@
 ---
 type: invariant
-tags: [amos]
-  - cognitive-matrix
-  - l02
-  - attention
-  - invariants
-  - rscf
-  - governance
+tags: [amos, cognitive-matrix, l02, attention, invariants, rscf, governance]
 
 title: "L02_ATTENTION — Invariants"
 origin_architect: "Trang Phan"

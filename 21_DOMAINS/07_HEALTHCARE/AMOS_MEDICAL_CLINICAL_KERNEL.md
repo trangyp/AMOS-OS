@@ -11,11 +11,7 @@ segment: "21_DOMAINS/07_HEALTHCARE"
 artifact_kind: "KERNEL"
 path: "21_DOMAINS/07_HEALTHCARE/AMOS_MEDICAL_CLINICAL_KERNEL.md"
 
-tags: [amos_os, domain, specialization]
-  - 21_domains
-  - kernel
-  - canon_placeholder
-  - rscf
+tags: [amos_os, domain, specialization, 21_domains, kernel, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

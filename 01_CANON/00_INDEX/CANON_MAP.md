@@ -32,37 +32,7 @@ scope:
   - epistemic_classification
   - dependency_governance
 
-tags: [amos, canon, universe]
-  - amos-os
-  - canon
-  - canon-map
-  - canonical-authority
-  - canonical-lineage
-  - source-of-truth
-  - provenance
-  - provenance-topology
-  - supersession
-  - promotion
-  - demotion
-  - deprecation
-  - lineage
-  - rscf
-  - epistemic-regime
-  - competing-hypotheses
-  - dependency-closure
-  - governance
-  - integrity
-  - amos-core
-  - amos-core-v4-4
-  - canon-group/tech-ai
-  - canon/map
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/derived
-  - topic/amos-os
-  - topic/canon
-  - topic/canon-map
-  - topic/canonical-authority
+tags: [amos, canon, universe, amos-os, canon-map, canonical-authority, canonical-lineage, source-of-truth, provenance, provenance-topology, supersession, promotion, demotion, deprecation, lineage, rscf, epistemic-regime, competing-hypotheses, dependency-closure, governance, integrity, amos-core, amos-core-v4-4, canon-group/tech-ai, canon/map, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/canon, topic/canon-map, topic/canonical-authority]
 
 aliases:
   - AMOS Canon Map

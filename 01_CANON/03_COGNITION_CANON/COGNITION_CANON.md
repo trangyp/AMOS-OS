@@ -21,34 +21,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags: [amos, canon, universe]
-  - amos-os
-  - amos-core
-  - amos-core-v4-4
-  - cognition
-  - cognition-canon
-  - reasoning
-  - epistemics
-  - rscf
-  - hml
-  - gmef
-  - proof-capsule
-  - competing-hypotheses
-  - causal-firewall
-  - scope-firewall
-  - regime-firewall
-  - provenance
-  - uncertainty
-  - sensitivity
-  - adaptive-complexity
-  - governed-evolution
-  - canon-group/tech-ai
-  - canon/framework
-  - canon/model
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/derived
-  - topic/cognition-canon
+tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, cognition, cognition-canon, reasoning, epistemics, rscf, hml, gmef, proof-capsule, competing-hypotheses, causal-firewall, scope-firewall, regime-firewall, provenance, uncertainty, sensitivity, adaptive-complexity, governed-evolution, canon-group/tech-ai, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/cognition-canon]
 
 aliases:
   - AMOS Cognition Canon

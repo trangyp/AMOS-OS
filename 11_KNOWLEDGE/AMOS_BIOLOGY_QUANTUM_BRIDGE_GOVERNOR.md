@@ -9,10 +9,7 @@ origin_architect: Trang Phan
 parent_skill: amos-c04-bio-neuro-master
 rscf_node_type: skill
 status: production_ready
-tags: [rscf/node, knowledge, vault]
-- canon-group/cross-domain
-- topic/biology-quantum
-- topic/anti-overclaim-firewall
+tags: [rscf/node, knowledge, vault, canon-group/cross-domain, topic/biology-quantum, topic/anti-overclaim-firewall]
 ---
 
 

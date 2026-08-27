@@ -11,11 +11,7 @@ segment: "01_CANON/03_COGNITION_CANON"
 artifact_kind: "CANON"
 path: "01_CANON/03_COGNITION_CANON/AMOS_METACOGNITION_CANON.md"
 
-tags: [amos_os, canon, universe]
-  - 01_canon
-  - canon
-  - canon_placeholder
-  - rscf
+tags: [amos_os, canon, universe, 01_canon, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

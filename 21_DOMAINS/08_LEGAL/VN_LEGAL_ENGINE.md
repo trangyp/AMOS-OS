@@ -11,11 +11,7 @@ segment: "21_DOMAINS/08_LEGAL"
 artifact_kind: "ENGINE"
 path: "21_DOMAINS/08_LEGAL/VN_LEGAL_ENGINE.md"
 
-tags: [amos_os, domain, specialization]
-  - 21_domains
-  - engine
-  - canon_placeholder
-  - rscf
+tags: [amos_os, domain, specialization, 21_domains, engine, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

@@ -29,16 +29,7 @@ aliases:
   - AMOS Deterministic Rename Engine
   - Universal Rename Engine
 
-tags: [canon-group/tech-ai, knowledge, vault]
-  - canon/framework
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - topic/integratedagent
-  - topic/rename-engine
-  - topic/namespace-migration
-  - topic/repository-migration
-  - agents
+tags: [canon-group/tech-ai, knowledge, vault, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/integratedagent, topic/rename-engine, topic/namespace-migration, topic/repository-migration, agents]
 
 governing_law: "integrity > completeness > fluency > speed > token savings"
 ---

@@ -11,11 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/06_WORLD_MODEL"
 artifact_kind: "CANON"
 path: "05_COGNITIVE_ORGANISM/06_WORLD_MODEL/UNIVERSE_CANON_WORLD_MODEL.md"
 
-tags: [amos_os, cognitive, organism]
-  - 05_cognitive_organism
-  - canon
-  - canon_placeholder
-  - rscf
+tags: [amos_os, cognitive, organism, 05_cognitive_organism, canon, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

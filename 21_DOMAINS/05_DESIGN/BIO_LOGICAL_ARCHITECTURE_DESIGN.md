@@ -11,11 +11,7 @@ segment: "21_DOMAINS/05_DESIGN"
 artifact_kind: "LOG"
 path: "21_DOMAINS/05_DESIGN/BIO_LOGICAL_ARCHITECTURE_DESIGN.md"
 
-tags: [amos_os, domain, specialization]
-  - 21_domains
-  - log
-  - canon_placeholder
-  - rscf
+tags: [amos_os, domain, specialization, 21_domains, log, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

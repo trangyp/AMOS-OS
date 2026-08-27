@@ -11,11 +11,7 @@ segment: "01_CANON/06_GLOSSARY"
 artifact_kind: "FRAMEWORK"
 path: "01_CANON/06_GLOSSARY/CROSS_FRAMEWORK_ALIAS_TABLE.md"
 
-tags: [amos_os, canon, universe]
-  - 01_canon
-  - framework
-  - canon_placeholder
-  - rscf
+tags: [amos_os, canon, universe, 01_canon, framework, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

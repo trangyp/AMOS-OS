@@ -11,11 +11,7 @@ segment: "02_KERNEL/01_META_LOGIC"
 artifact_kind: "LOG"
 path: "02_KERNEL/01_META_LOGIC/K_BIO_LOGICAL_COMPUTING.md"
 
-tags: [amos_os, kernel, core]
-  - 02_kernel
-  - log
-  - canon_placeholder
-  - rscf
+tags: [amos_os, kernel, core, 02_kernel, log, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

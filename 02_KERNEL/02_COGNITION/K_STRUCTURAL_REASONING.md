@@ -20,31 +20,7 @@ authority_level: deterministic_kernel_contract
 created: 2026-08-25
 updated: 2026-08-25
 
-tags: [amos-os, kernel, core]
-  - canon-group/tech-ai
-  - canon/model
-  - kernel
-  - kernel/reasoning
-  - kernel/structural-reasoning
-  - reasoning
-  - reasoning/structure
-  - reasoning/decomposition
-  - reasoning/dependency
-  - reasoning/constraint
-  - reasoning/invariant
-  - reasoning/hml
-  - reasoning/rscf
-  - dependency/closure
-  - provenance
-  - provenance/independence
-  - epistemic-regime
-  - competing-hypotheses
-  - causal-firewall
-  - scope-firewall
-  - validation
-  - recovery
-  - rscf/state/model
-  - topic/structural-reasoning
+tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/reasoning, kernel/structural-reasoning, reasoning, reasoning/structure, reasoning/decomposition, reasoning/dependency, reasoning/constraint, reasoning/invariant, reasoning/hml, reasoning/rscf, dependency/closure, provenance, provenance/independence, epistemic-regime, competing-hypotheses, causal-firewall, scope-firewall, validation, recovery, rscf/state/model, topic/structural-reasoning]
 
 aliases:
   - K Structural Reasoning

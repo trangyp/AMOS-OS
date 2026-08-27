@@ -11,11 +11,7 @@ segment: "01_CANON/06_GLOSSARY"
 artifact_kind: "GLOSSARY"
 path: "01_CANON/06_GLOSSARY/QLS_QCLA_GLOSSARY.md"
 
-tags: [amos_os, canon, universe]
-  - 01_canon
-  - glossary
-  - canon_placeholder
-  - rscf
+tags: [amos_os, canon, universe, 01_canon, glossary, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

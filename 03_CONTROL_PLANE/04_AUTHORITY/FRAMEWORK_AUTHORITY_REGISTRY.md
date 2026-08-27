@@ -11,11 +11,7 @@ segment: "03_CONTROL_PLANE/04_AUTHORITY"
 artifact_kind: "REGISTRY"
 path: "03_CONTROL_PLANE/04_AUTHORITY/FRAMEWORK_AUTHORITY_REGISTRY.md"
 
-tags: [amos_os, control_plane, governance]
-  - 03_control_plane
-  - registry
-  - canon_placeholder
-  - rscf
+tags: [amos_os, control_plane, governance, 03_control_plane, registry, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

@@ -11,11 +11,7 @@ segment: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE"
 artifact_kind: "RULES"
 path: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_MUSIC_ACOUSTIC_RULES.md"
 
-tags: [amos_os, knowledge, vault]
-  - 11_knowledge
-  - rules
-  - canon_placeholder
-  - rscf
+tags: [amos_os, knowledge, vault, 11_knowledge, rules, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

@@ -33,39 +33,7 @@ scope:
   - dependency_lineage
   - epistemic_classification
 
-tags: [amos, canon, universe]
-  - amos-os
-  - canon
-  - canon-root
-  - canonical-authority
-  - canonical-definitions
-  - canonical-laws
-  - canonical-models
-  - provenance
-  - provenance-topology
-  - rscf
-  - gmef
-  - hml
-  - dependency-closure
-  - lineage
-  - supersession
-  - promotion
-  - deprecation
-  - archive
-  - scope
-  - regime
-  - freshness
-  - epistemic-class
-  - competing-hypotheses
-  - causal-firewall
-  - canon-group/tech-ai
-  - canon/root
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/derived
-  - topic/amos-os
-  - topic/canon
-  - topic/canonical-authority
+tags: [amos, canon, universe, amos-os, canon-root, canonical-authority, canonical-definitions, canonical-laws, canonical-models, provenance, provenance-topology, rscf, gmef, hml, dependency-closure, lineage, supersession, promotion, deprecation, archive, scope, regime, freshness, epistemic-class, competing-hypotheses, causal-firewall, canon-group/tech-ai, canon/root, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/canon, topic/canonical-authority]
 
 aliases:
   - AMOS Canon

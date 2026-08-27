@@ -19,27 +19,7 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 
-tags: [amos-os, kernel, core]
-  - canon-group/tech-ai
-  - canon/model
-  - kernel
-  - kernel/foundation
-  - kernel/law-hierarchy
-  - kernel/precedence
-  - kernel/invariants
-  - kernel/governance
-  - kernel/authority
-  - kernel/constraints
-  - kernel/conflict-resolution
-  - kernel/provenance
-  - kernel/scope
-  - kernel/regime
-  - kernel/versioning
-  - kernel/supersession
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/model
-  - topic/law-hierarchy
+tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/foundation, kernel/law-hierarchy, kernel/precedence, kernel/invariants, kernel/governance, kernel/authority, kernel/constraints, kernel/conflict-resolution, kernel/provenance, kernel/scope, kernel/regime, kernel/versioning, kernel/supersession, rscf/claim, rscf/provenance, rscf/state/model, topic/law-hierarchy]
 
 aliases:
   - AMOS Law Hierarchy Kernel

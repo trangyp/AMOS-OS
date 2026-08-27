@@ -21,30 +21,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags: [amos, canon, universe]
-  - amos-os
-  - amos-core
-  - amos-core-v4-4
-  - canon
-  - law
-  - law-hierarchy
-  - authority
-  - precedence
-  - governance
-  - scope
-  - regime
-  - provenance
-  - supersession
-  - invariants
-  - conflict-resolution
-  - rscf
-  - canon-group/tech-ai
-  - canon/framework
-  - canon/law
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/derived
-  - topic/law-hierarchy
+tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, law, law-hierarchy, authority, precedence, governance, scope, regime, provenance, supersession, invariants, conflict-resolution, rscf, canon-group/tech-ai, canon/framework, canon/law, rscf/claim, rscf/provenance, rscf/state/derived, topic/law-hierarchy]
 
 aliases:
   - AMOS Law Hierarchy

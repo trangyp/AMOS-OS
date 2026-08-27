@@ -11,11 +11,7 @@ segment: "04_RUNTIME/02_ROUTER"
 artifact_kind: "CANON"
 path: "04_RUNTIME/02_ROUTER/CANON_ROUTER.md"
 
-tags: [amos_os, runtime, execution]
-  - 04_runtime
-  - canon
-  - canon_placeholder
-  - rscf
+tags: [amos_os, runtime, execution, 04_runtime, canon, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

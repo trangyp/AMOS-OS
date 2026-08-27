@@ -11,11 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/01_IDENTITY"
 artifact_kind: "ARTIFACT"
 path: "05_COGNITIVE_ORGANISM/01_IDENTITY/DIRECTED_SYSTEMAL_IDENTITY.md"
 
-tags: [amos_os, cognitive, organism]
-  - 05_cognitive_organism
-  - artifact
-  - canon_placeholder
-  - rscf
+tags: [amos_os, cognitive, organism, 05_cognitive_organism, artifact, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

@@ -66,14 +66,7 @@ hml_scope:
     - PARAMETER_BINDING
     - LOCAL_ROUTE_DECISION
 
-tags: [identity:, cognitive_matrix, matrix]
-    - AMOS
-    - AMOS_OS
-    - AMOS_CORE
-    - AMOS_CORE_v4_4
-    - COGNITIVE_MATRIX
-    - ROUTING
-    - BINDING_RULES
+tags: [identity:, cognitive_matrix, matrix, AMOS, AMOS_OS, AMOS_CORE, AMOS_CORE_v4_4, COGNITIVE_MATRIX, ROUTING, BINDING_RULES]
 
   architecture:
     - MATRIX_INFRASTRUCTURE

@@ -1,13 +1,6 @@
 ---
 type: workflow
-tags: [amos]
-  - cognitive-matrix
-  - l02
-  - attention
-  - workflows
-  - rscf
-  - hml
-  - governance
+tags: [amos, cognitive-matrix, l02, attention, workflows, rscf, hml, governance]
 
 title: "L02_ATTENTION — Workflows"
 origin_architect: "Trang Phan"

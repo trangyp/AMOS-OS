@@ -11,11 +11,7 @@ segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "RUNTIME"
 path: "25_COGNITIVE_MATRIX/CORE_X_RUNTIME.md"
 
-tags: [amos_os, cognitive_matrix, matrix]
-  - 25_cognitive_matrix
-  - runtime
-  - canon_placeholder
-  - rscf
+tags: [amos_os, cognitive_matrix, matrix, 25_cognitive_matrix, runtime, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

@@ -24,16 +24,7 @@ rscf-provenance-required: true
 
 topic: agent-templates
 
-tags: [canon-group/tech-ai, knowledge, vault]
-  - canon/framework
-  - canon/agent
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - topic/agent-templates
-  - topic/agent-architecture
-  - topic/agent-factory
-  - agents
+tags: [canon-group/tech-ai, knowledge, vault, canon/framework, canon/agent, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/agent-templates, topic/agent-architecture, topic/agent-factory, agents]
 
 created: 2026-08-22
 updated: 2026-08-25

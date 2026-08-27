@@ -11,11 +11,7 @@ segment: "13_MODELS/01_FOUNDATION"
 artifact_kind: "MODEL"
 path: "13_MODELS/01_FOUNDATION/TRANG_REALITY_ARCHITECTURE_MODEL.md"
 
-tags: [amos_os, model, specification]
-  - 13_models
-  - model
-  - canon_placeholder
-  - rscf
+tags: [amos_os, model, specification, 13_models, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

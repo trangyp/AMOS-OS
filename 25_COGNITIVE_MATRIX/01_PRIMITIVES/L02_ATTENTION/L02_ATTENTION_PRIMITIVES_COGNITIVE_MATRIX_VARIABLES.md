@@ -1,14 +1,6 @@
 ---
 type: variable
-tags: [amos]
-  - cognitive-matrix
-  - l02
-  - attention
-  - variables
-  - typed-state
-  - rscf
-  - hml
-  - governance
+tags: [amos, cognitive-matrix, l02, attention, variables, typed-state, rscf, hml, governance]
 
 title: "L02_ATTENTION — Variables"
 origin_architect: "Trang Phan"

@@ -11,11 +11,7 @@ segment: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE"
 artifact_kind: "INTELLIGENCE"
 path: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROBIOLOGICAL_INTELLIGENCE.md"
 
-tags: [amos_os, knowledge, vault]
-  - 11_knowledge
-  - intelligence
-  - canon_placeholder
-  - rscf
+tags: [amos_os, knowledge, vault, 11_knowledge, intelligence, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

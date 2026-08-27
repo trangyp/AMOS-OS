@@ -1,13 +1,6 @@
 ---
 type: state
-tags: [amos]
-  - cognitive-matrix
-  - l03
-  - percept-formation
-  - state
-  - rscf
-  - provenance
-  - governance
+tags: [amos, cognitive-matrix, l03, percept-formation, state, rscf, provenance, governance]
 
 title: "L03_PERCEPT_FORMATION — State"
 origin_architect: "Trang Phan"

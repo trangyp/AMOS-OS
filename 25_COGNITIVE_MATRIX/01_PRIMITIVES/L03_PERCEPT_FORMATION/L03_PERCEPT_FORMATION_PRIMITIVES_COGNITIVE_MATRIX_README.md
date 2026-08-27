@@ -1,14 +1,6 @@
 ---
 type: cognitive
-tags: [amos]
-  - cognitive-matrix
-  - l03
-  - percept-formation
-  - readme
-  - rscf
-  - hml
-  - provenance
-  - governance
+tags: [amos, cognitive-matrix, l03, percept-formation, readme, rscf, hml, provenance, governance]
 
 title: "L03_PERCEPT_FORMATION"
 origin_architect: "Trang Phan"

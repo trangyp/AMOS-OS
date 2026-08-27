@@ -18,25 +18,7 @@ authority_scope: source-ancestry-derivation-transformation-and-supersession-line
 created: 2026-08-25
 updated: 2026-08-25
 
-tags: [amos-os, canon, universe]
-  - canon-group/meta
-  - canon/framework
-  - canon/provenance
-  - canon/lineage
-  - canon/source-lineage
-  - canon/supersession
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - topic/source-lineage
-  - topic/source-ancestry
-  - topic/causal-lineage
-  - topic/provenance-topology
-  - topic/dependency-lineage
-  - topic/version-lineage
-  - topic/supersession
-  - topic/sybil-hardening
-  - topic/persistent-provenance
+tags: [amos-os, canon, universe, canon-group/meta, canon/framework, canon/provenance, canon/lineage, canon/source-lineage, canon/supersession, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/source-lineage, topic/source-ancestry, topic/causal-lineage, topic/provenance-topology, topic/dependency-lineage, topic/version-lineage, topic/supersession, topic/sybil-hardening, topic/persistent-provenance]
 
 aliases:
   - AMOS Source Lineage

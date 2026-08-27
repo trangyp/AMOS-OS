@@ -1,13 +1,6 @@
 ---
 type: cognitive
-tags: [amos]
-  - cognitive-matrix
-  - l02
-  - attention
-  - readme
-  - rscf
-  - hml
-  - governance
+tags: [amos, cognitive-matrix, l02, attention, readme, rscf, hml, governance]
 
 title: "L02_ATTENTION — README"
 origin_architect: "Trang Phan"

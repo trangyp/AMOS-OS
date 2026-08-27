@@ -11,11 +11,7 @@ segment: "21_DOMAINS/07_HEALTHCARE"
 artifact_kind: "APPLICATION"
 path: "21_DOMAINS/07_HEALTHCARE/UBI_HEALTH_APPLICATION.md"
 
-tags: [amos_os, domain, specialization]
-  - 21_domains
-  - application
-  - canon_placeholder
-  - rscf
+tags: [amos_os, domain, specialization, 21_domains, application, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

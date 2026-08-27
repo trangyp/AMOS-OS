@@ -1,15 +1,6 @@
 ---
 type: agent
-tags: [amos]
-  - cognitive-matrix
-  - l02
-  - attention
-  - agents
-  - rscf
-  - hml
-  - provenance
-  - control-plane
-  - ai
+tags: [amos, cognitive-matrix, l02, attention, agents, rscf, hml, provenance, control-plane, ai]
 
 title: "L02_ATTENTION — Agents"
 origin_architect: "Trang Phan"

@@ -1,13 +1,6 @@
 ---
 type: dependency
-tags: [amos]
-  - cognitive-matrix
-  - l02
-  - attention
-  - dependencies
-  - rscf
-  - hml
-  - provenance
+tags: [amos, cognitive-matrix, l02, attention, dependencies, rscf, hml, provenance]
 
 title: "L02_ATTENTION — Dependencies"
 origin_architect: "Trang Phan"

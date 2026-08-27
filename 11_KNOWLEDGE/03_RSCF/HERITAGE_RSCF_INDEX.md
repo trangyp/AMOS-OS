@@ -11,11 +11,7 @@ segment: "11_KNOWLEDGE/03_RSCF"
 artifact_kind: "INDEX"
 path: "11_KNOWLEDGE/03_RSCF/HERITAGE_RSCF_INDEX.md"
 
-tags: [amos_os, knowledge, vault]
-  - 11_knowledge
-  - index
-  - canon_placeholder
-  - rscf
+tags: [amos_os, knowledge, vault, 11_knowledge, index, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

@@ -11,11 +11,7 @@ segment: "01_CANON/05_VARIABLE_REGISTRY"
 artifact_kind: "CROSSWALK"
 path: "01_CANON/05_VARIABLE_REGISTRY/CROSS_CANON_SYMBOL_CROSSWALK.md"
 
-tags: [amos_os, canon, universe]
-  - 01_canon
-  - crosswalk
-  - canon_placeholder
-  - rscf
+tags: [amos_os, canon, universe, 01_canon, crosswalk, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

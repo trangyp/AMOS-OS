@@ -11,11 +11,7 @@ segment: "05_COGNITIVE_ORGANISM"
 artifact_kind: "BINDING"
 path: "05_COGNITIVE_ORGANISM/NBI_ORGANISM_BINDING.md"
 
-tags: [amos_os, cognitive, organism]
-  - 05_cognitive_organism
-  - binding
-  - canon_placeholder
-  - rscf
+tags: [amos_os, cognitive, organism, 05_cognitive_organism, binding, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

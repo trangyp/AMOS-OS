@@ -1,13 +1,6 @@
 ---
 type: provenance
-tags: [amos]
-  - cognitive-matrix
-  - l03
-  - percept-formation
-  - provenance
-  - rscf
-  - hml
-  - governance
+tags: [amos, cognitive-matrix, l03, percept-formation, provenance, rscf, hml, governance]
 
 title: "L03_PERCEPT_FORMATION — Provenance"
 origin_architect: "Trang Phan"

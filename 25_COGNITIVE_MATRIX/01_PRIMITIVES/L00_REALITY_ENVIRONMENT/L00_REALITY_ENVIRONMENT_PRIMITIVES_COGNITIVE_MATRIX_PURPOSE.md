@@ -12,18 +12,7 @@ amos-layer: L00_REALITY_ENVIRONMENT
 architecture-role: reality-grounding-and-environment-interface
 origin-architect: "Trang Phan"
 status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-tags: [amos]
-  - reality
-  - environment
-  - grounding
-  - observation
-  - evidence
-  - provenance
-  - control-plane
-  - rscf
-  - hml
-  - tensors
-  - ai
+tags: [amos, reality, environment, grounding, observation, evidence, provenance, control-plane, rscf, hml, tensors, ai]
 ---
 
 

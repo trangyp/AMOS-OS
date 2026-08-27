@@ -1,13 +1,6 @@
 ---
 type: agent
-tags: [amos]
-  - cognitive-matrix
-  - l04
-  - object-entity-formation
-  - agents
-  - rscf
-  - provenance
-  - governance
+tags: [amos, cognitive-matrix, l04, object-entity-formation, agents, rscf, provenance, governance]
 
 title: "L04_OBJECT_ENTITY_FORMATION — Agents"
 origin_architect: "Trang Phan"

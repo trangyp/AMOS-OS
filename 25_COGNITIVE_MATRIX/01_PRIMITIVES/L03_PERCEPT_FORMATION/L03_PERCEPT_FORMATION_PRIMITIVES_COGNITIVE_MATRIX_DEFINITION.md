@@ -1,14 +1,6 @@
 ---
 type: definition
-tags: [amos]
-  - cognitive-matrix
-  - l03
-  - percept-formation
-  - definition
-  - perception
-  - provenance
-  - rscf
-  - hml
+tags: [amos, cognitive-matrix, l03, percept-formation, definition, perception, provenance, rscf, hml]
 
 title: "L03_PERCEPT_FORMATION — Definition"
 origin_architect: "Trang Phan"

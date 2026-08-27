@@ -3,15 +3,7 @@ title: AMOS EMOTION COGNITION DECISION BRIDGE GOVERNOR
 type: emotion
 canon-group: reference
 rscf-state: derived
-tags: [skill, knowledge, vault]
-- cross-domain
-- emotion
-- cognition
-- decision
-- bridge
-- c05
-- c01
-- c10
+tags: [skill, knowledge, vault, cross-domain, emotion, cognition, decision, bridge, c05, c01, c10]
 ---
 
 

@@ -1,14 +1,6 @@
 ---
 type: gap
-tags: [amos]
-  - cognitive-matrix
-  - l03
-  - percept-formation
-  - gap-matrix
-  - rscf
-  - hml
-  - provenance
-  - governance
+tags: [amos, cognitive-matrix, l03, percept-formation, gap-matrix, rscf, hml, provenance, governance]
 
 title: "L03_PERCEPT_FORMATION — Gap Matrix"
 origin_architect: "Trang Phan"

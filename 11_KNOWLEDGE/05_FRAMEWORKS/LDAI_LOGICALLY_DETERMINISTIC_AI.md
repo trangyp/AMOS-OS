@@ -11,11 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "LOG"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI.md"
 
-tags: [amos_os, knowledge, vault]
-  - 11_knowledge
-  - log
-  - canon_placeholder
-  - rscf
+tags: [amos_os, knowledge, vault, 11_knowledge, log, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

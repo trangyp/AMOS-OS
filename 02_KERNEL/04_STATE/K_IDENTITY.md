@@ -15,23 +15,7 @@ domain: identity
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags: [amos-os, kernel, core]
-  - canon-group/tech-ai
-  - canon/model
-  - kernel
-  - kernel/identity
-  - kernel/provenance
-  - kernel/state
-  - kernel/dependency
-  - kernel/versioning
-  - kernel/causality
-  - kernel/validation
-  - rscf/identity
-  - rscf/provenance
-  - rscf/state/model
-  - topic/identity
-  - topic/semantic-identity
-  - topic/provenance-lineage
+tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/identity, kernel/provenance, kernel/state, kernel/dependency, kernel/versioning, kernel/causality, kernel/validation, rscf/identity, rscf/provenance, rscf/state/model, topic/identity, topic/semantic-identity, topic/provenance-lineage]
 
 aliases:
   - AMOS Identity Kernel

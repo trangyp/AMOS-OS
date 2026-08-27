@@ -8,10 +8,7 @@ document_version: 1.0.0
 origin_architect: Trang Phan
 rscf_state: derived
 status: ACTIVE_MOC
-tags: [moc]
-- canon
-- provenance
-- navigation
+tags: [moc, canon, provenance, navigation]
 title: PROVENANCE CANON MAP
 ---
 

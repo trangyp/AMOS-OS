@@ -12,18 +12,7 @@ amos-layer: L00_REALITY_ENVIRONMENT
 architecture-role: reality-grounded-repair-and-recovery
 origin-architect: "Trang Phan"
 status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-tags: [amos]
-  - reality-environment
-  - repair
-  - recovery
-  - rollback
-  - invalidation
-  - quarantine
-  - provenance
-  - hml
-  - control-plane
-  - rscf
-  - resilience
+tags: [amos, reality-environment, repair, recovery, rollback, invalidation, quarantine, provenance, hml, control-plane, rscf, resilience]
 ---
 
 

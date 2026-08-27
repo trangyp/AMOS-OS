@@ -21,33 +21,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags: [amos, canon, universe]
-  - amos-os
-  - amos-core
-  - amos-core-v4-4
-  - canon
-  - universe
-  - seven-part-universe
-  - architecture
-  - system-boundary
-  - decomposition
-  - integration
-  - authority
-  - provenance
-  - state
-  - cognition
-  - execution
-  - environment
-  - governance
-  - rscf
-  - hml
-  - canon-group/tech-ai
-  - canon/framework
-  - canon/model
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/derived
-  - topic/amos-7-part-universe
+tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, seven-part-universe, architecture, system-boundary, decomposition, integration, authority, provenance, state, cognition, execution, environment, governance, rscf, hml, canon-group/tech-ai, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-7-part-universe]
 
 aliases:
   - AMOS 7-Part Universe

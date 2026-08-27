@@ -11,11 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/01_IDENTITY"
 artifact_kind: "MODEL"
 path: "05_COGNITIVE_ORGANISM/01_IDENTITY/IDENTITY_CONTINUITY_MODEL.md"
 
-tags: [amos_os, cognitive, organism]
-  - 05_cognitive_organism
-  - model
-  - canon_placeholder
-  - rscf
+tags: [amos_os, cognitive, organism, 05_cognitive_organism, model, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

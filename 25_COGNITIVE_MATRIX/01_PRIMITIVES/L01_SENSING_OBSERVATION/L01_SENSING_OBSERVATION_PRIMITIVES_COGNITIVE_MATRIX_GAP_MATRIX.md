@@ -1,18 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX GAP MATRIX
 type: gap
-tags: [amos]
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - gap-matrix
-  - completeness
-  - validation
-  - provenance
-  - control-plane
-  - recovery
-  - rscf
-  - rscf/type-model
+tags: [amos, cognitive-matrix, l01, sensing-observation, gap-matrix, completeness, validation, provenance, control-plane, recovery, rscf, rscf/type-model]
 ---
 
 

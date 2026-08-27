@@ -11,11 +11,7 @@ segment: "04_RUNTIME/09_FINALIZATION"
 artifact_kind: "FINALIZER"
 path: "04_RUNTIME/09_FINALIZATION/LOCAL_PROOF_FINALIZER.md"
 
-tags: [amos_os, runtime, execution]
-  - 04_runtime
-  - finalizer
-  - canon_placeholder
-  - rscf
+tags: [amos_os, runtime, execution, 04_runtime, finalizer, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

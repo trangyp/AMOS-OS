@@ -1,13 +1,6 @@
 ---
 type: invariant
-tags: [amos]
-  - cognitive-matrix
-  - l03
-  - percept-formation
-  - invariants
-  - rscf
-  - provenance
-  - governance
+tags: [amos, cognitive-matrix, l03, percept-formation, invariants, rscf, provenance, governance]
 
 title: "L03_PERCEPT_FORMATION — Invariants"
 origin_architect: "Trang Phan"

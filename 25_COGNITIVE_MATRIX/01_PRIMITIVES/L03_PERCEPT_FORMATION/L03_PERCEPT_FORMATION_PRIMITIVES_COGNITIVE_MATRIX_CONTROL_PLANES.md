@@ -1,15 +1,6 @@
 ---
 type: control-plane
-tags: [amos]
-  - cognitive-matrix
-  - l03
-  - percept-formation
-  - control-plane
-  - perception
-  - provenance
-  - rscf
-  - hml
-  - governance
+tags: [amos, cognitive-matrix, l03, percept-formation, control-plane, perception, provenance, rscf, hml, governance]
 
 title: "L03_PERCEPT_FORMATION — Control Planes"
 origin_architect: "Trang Phan"

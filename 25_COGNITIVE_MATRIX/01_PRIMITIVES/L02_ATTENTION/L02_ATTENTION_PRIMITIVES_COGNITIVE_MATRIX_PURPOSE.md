@@ -19,30 +19,7 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 
-tags: [amos-os]
-  - canon-group/tech-ai
-  - canon/model
-  - kernel
-  - kernel/foundation
-  - kernel/meta-logic
-  - kernel/reasoning
-  - kernel/inference
-  - kernel/validation
-  - kernel/constraints
-  - kernel/epistemic
-  - kernel/provenance
-  - kernel/dependency
-  - kernel/contradiction
-  - kernel/scope
-  - kernel/regime
-  - kernel/causality
-  - kernel/uncertainty
-  - kernel/proof
-  - kernel/rscf
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/model
-  - topic/meta-logic
+tags: [amos-os, canon-group/tech-ai, canon/model, kernel, kernel/foundation, kernel/meta-logic, kernel/reasoning, kernel/inference, kernel/validation, kernel/constraints, kernel/epistemic, kernel/provenance, kernel/dependency, kernel/contradiction, kernel/scope, kernel/regime, kernel/causality, kernel/uncertainty, kernel/proof, kernel/rscf, rscf/claim, rscf/provenance, rscf/state/model, topic/meta-logic]
 
 aliases:
   - AMOS Meta Logic Kernel

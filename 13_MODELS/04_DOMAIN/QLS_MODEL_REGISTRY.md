@@ -11,11 +11,7 @@ segment: "13_MODELS/04_DOMAIN"
 artifact_kind: "REGISTRY"
 path: "13_MODELS/04_DOMAIN/QLS_MODEL_REGISTRY.md"
 
-tags: [amos_os, model, specification]
-  - 13_models
-  - registry
-  - canon_placeholder
-  - rscf
+tags: [amos_os, model, specification, 13_models, registry, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

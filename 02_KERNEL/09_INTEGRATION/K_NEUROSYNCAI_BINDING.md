@@ -11,11 +11,7 @@ segment: "02_KERNEL/09_INTEGRATION"
 artifact_kind: "BINDING"
 path: "02_KERNEL/09_INTEGRATION/K_NEUROSYNCAI_BINDING.md"
 
-tags: [amos_os, kernel, core]
-  - 02_kernel
-  - binding
-  - canon_placeholder
-  - rscf
+tags: [amos_os, kernel, core, 02_kernel, binding, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

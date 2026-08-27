@@ -1,16 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX VARIABLES
 type: variable
-tags: [amos]
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - variables
-  - typed-state
-  - rscf
-  - provenance
-  - hml
-  - control-plane
+tags: [amos, cognitive-matrix, l01, sensing-observation, variables, typed-state, rscf, provenance, hml, control-plane]
 ---
 
 

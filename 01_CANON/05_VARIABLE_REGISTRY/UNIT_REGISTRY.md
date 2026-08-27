@@ -21,34 +21,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags: [amos, canon, universe]
-  - amos-os
-  - amos-core
-  - amos-core-v4-4
-  - canon
-  - registry
-  - unit-registry
-  - units
-  - dimensions
-  - measurement
-  - quantities
-  - scales
-  - normalization
-  - conversion
-  - dimensional-analysis
-  - uncertainty
-  - provenance
-  - precision
-  - computational-units
-  - physical-units
-  - semantic-units
-  - rscf
-  - canon-group/meta
-  - canon/registry
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/derived
-  - topic/unit-registry
+tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, registry, unit-registry, units, dimensions, measurement, quantities, scales, normalization, conversion, dimensional-analysis, uncertainty, provenance, precision, computational-units, physical-units, semantic-units, rscf, canon-group/meta, canon/registry, rscf/claim, rscf/provenance, rscf/state/derived, topic/unit-registry]
 
 aliases:
   - AMOS Unit Registry

@@ -11,11 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "ARCHITECTURE"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE.md"
 
-tags: [amos_os, knowledge, vault]
-  - 11_knowledge
-  - architecture
-  - canon_placeholder
-  - rscf
+tags: [amos_os, knowledge, vault, 11_knowledge, architecture, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

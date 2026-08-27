@@ -11,11 +11,7 @@ segment: "01_CANON/02_UNIVERSE_CANON"
 artifact_kind: "ARCHITECTURE"
 path: "01_CANON/02_UNIVERSE_CANON/UNIVERSE_IDENTITY_ARCHITECTURE.md"
 
-tags: [amos_os, canon, universe]
-  - 01_canon
-  - architecture
-  - canon_placeholder
-  - rscf
+tags: [amos_os, canon, universe, 01_canon, architecture, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

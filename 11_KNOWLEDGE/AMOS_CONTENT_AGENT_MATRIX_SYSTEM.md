@@ -32,18 +32,7 @@ aliases:
   - "AMOS Content Agency"
   - "30-Day Content Matrix"
 
-tags: [agents, knowledge, vault]
-  - canon-group/tech-ai
-  - canon/framework
-  - canon/protocol
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - topic/content-agent
-  - topic/content-matrix
-  - topic/multi-agent
-  - topic/content-marketing
-  - topic/orchestration
+tags: [agents, knowledge, vault, canon-group/tech-ai, canon/framework, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/content-agent, topic/content-matrix, topic/multi-agent, topic/content-marketing, topic/orchestration]
 
 governing_law: "integrity > completeness > fluency > speed > token savings"
 ---

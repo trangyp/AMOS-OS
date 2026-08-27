@@ -1,15 +1,6 @@
 ---
 type: dependency
-tags: [amos]
-  - cognitive-matrix
-  - l03
-  - percept-formation
-  - dependencies
-  - perception
-  - provenance
-  - rscf
-  - hml
-  - governance
+tags: [amos, cognitive-matrix, l03, percept-formation, dependencies, perception, provenance, rscf, hml, governance]
 
 title: "L03_PERCEPT_FORMATION — Dependencies"
 origin_architect: "Trang Phan"

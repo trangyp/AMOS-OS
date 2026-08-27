@@ -1,12 +1,6 @@
 ---
 type: failure-mode
-tags: [amos]
-  - cognitive-matrix
-  - l02
-  - attention
-  - failure-modes
-  - rscf
-  - hml
+tags: [amos, cognitive-matrix, l02, attention, failure-modes, rscf, hml]
 
 title: "L02_ATTENTION — Failure Modes"
 origin_architect: "Trang Phan"

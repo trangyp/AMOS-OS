@@ -11,11 +11,7 @@ segment: "21_DOMAINS/06_BIOLOGY"
 artifact_kind: "PROGRAMMING"
 path: "21_DOMAINS/06_BIOLOGY/BIOLOGICAL_PROGRAMMING.md"
 
-tags: [amos_os, domain, specialization]
-  - 21_domains
-  - programming
-  - canon_placeholder
-  - rscf
+tags: [amos_os, domain, specialization, 21_domains, programming, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

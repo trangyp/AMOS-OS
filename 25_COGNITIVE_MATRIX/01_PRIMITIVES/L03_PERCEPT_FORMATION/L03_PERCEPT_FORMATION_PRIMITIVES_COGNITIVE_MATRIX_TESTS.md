@@ -1,14 +1,6 @@
 ---
 type: test
-tags: [amos]
-  - cognitive-matrix
-  - l03
-  - percept-formation
-  - tests
-  - validation
-  - rscf
-  - provenance
-  - governance
+tags: [amos, cognitive-matrix, l03, percept-formation, tests, validation, rscf, provenance, governance]
 
 title: "L03_PERCEPT_FORMATION — Tests"
 origin_architect: "Trang Phan"

@@ -19,26 +19,7 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 
-tags: [amos-os, kernel, core]
-  - canon-group/tech-ai
-  - canon/model
-  - kernel
-  - kernel/foundation
-  - kernel/distinction
-  - kernel/relation
-  - kernel/constraint
-  - kernel/identity
-  - kernel/semantics
-  - kernel/invariants
-  - kernel/dependency
-  - kernel/provenance
-  - kernel/scope
-  - kernel/regime
-  - kernel/validation
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/model
-  - topic/distinction-relation-constraint
+tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/foundation, kernel/distinction, kernel/relation, kernel/constraint, kernel/identity, kernel/semantics, kernel/invariants, kernel/dependency, kernel/provenance, kernel/scope, kernel/regime, kernel/validation, rscf/claim, rscf/provenance, rscf/state/model, topic/distinction-relation-constraint]
 
 aliases:
   - DRC Kernel

@@ -9,10 +9,7 @@ origin_architect: Trang Phan
 parent_skill: amos-security-safety-master
 rscf_node_type: skill
 status: production_ready
-tags: [rscf/node, knowledge, vault]
-- canon-group/cross-domain
-- topic/security-control-access
-- topic/pipeline-governance
+tags: [rscf/node, knowledge, vault, canon-group/cross-domain, topic/security-control-access, topic/pipeline-governance]
 ---
 
 

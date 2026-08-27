@@ -1,14 +1,6 @@
 ---
 type: control-plane
-tags: [amos]
-  - cognitive-matrix
-  - l02
-  - attention
-  - control-plane
-  - rscf
-  - hml
-  - provenance
-  - governance
+tags: [amos, cognitive-matrix, l02, attention, control-plane, rscf, hml, provenance, governance]
 
 title: "L02_ATTENTION — Control Planes"
 origin_architect: "Trang Phan"

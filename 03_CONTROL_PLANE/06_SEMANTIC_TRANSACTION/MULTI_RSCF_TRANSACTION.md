@@ -11,11 +11,7 @@ segment: "03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION"
 artifact_kind: "ARTIFACT"
 path: "03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/MULTI_RSCF_TRANSACTION.md"
 
-tags: [amos_os, control_plane, governance]
-  - 03_control_plane
-  - artifact
-  - canon_placeholder
-  - rscf
+tags: [amos_os, control_plane, governance, 03_control_plane, artifact, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

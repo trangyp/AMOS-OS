@@ -3,12 +3,7 @@ title: AMOS CROSS DOMAIN TENSOR COMPOSITION GOVERNOR
 type: tensor
 canon-group: reference
 rscf-state: derived
-tags: [skill, knowledge, vault]
-- cross-domain
-- tensor
-- composition
-- governor
-- rscf
+tags: [skill, knowledge, vault, cross-domain, tensor, composition, governor, rscf]
 ---
 
 

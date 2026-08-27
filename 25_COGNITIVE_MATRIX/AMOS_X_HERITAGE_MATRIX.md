@@ -13,17 +13,7 @@ segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "MATRIX"
 path: "25_COGNITIVE_MATRIX/AMOS_X_HERITAGE_MATRIX.md"
 
-tags: [amos_os, cognitive_matrix, matrix]
-  - 25_cognitive_matrix
-  - cognitive_matrix
-  - heritage
-  - heritage_intelligence
-  - heritage_void
-  - decision_governance
-  - uncertainty
-  - regime_detection
-  - provenance
-  - rscf
+tags: [amos_os, cognitive_matrix, matrix, 25_cognitive_matrix, heritage, heritage_intelligence, heritage_void, decision_governance, uncertainty, regime_detection, provenance, rscf]
 
 version: "1.0.0"
 updated: "2026-08-27"

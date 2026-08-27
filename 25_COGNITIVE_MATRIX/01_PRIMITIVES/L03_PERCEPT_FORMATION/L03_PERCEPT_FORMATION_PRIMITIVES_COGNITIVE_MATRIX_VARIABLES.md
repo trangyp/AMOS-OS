@@ -1,14 +1,6 @@
 ---
 type: variable
-tags: [amos]
-  - cognitive-matrix
-  - l03
-  - percept-formation
-  - variables
-  - variable-registry
-  - rscf
-  - provenance
-  - governance
+tags: [amos, cognitive-matrix, l03, percept-formation, variables, variable-registry, rscf, provenance, governance]
 
 title: "L03_PERCEPT_FORMATION — Variables"
 origin_architect: "Trang Phan"

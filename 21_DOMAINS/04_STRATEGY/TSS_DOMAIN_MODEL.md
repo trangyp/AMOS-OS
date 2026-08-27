@@ -11,11 +11,7 @@ segment: "21_DOMAINS/04_STRATEGY"
 artifact_kind: "MODEL"
 path: "21_DOMAINS/04_STRATEGY/TSS_DOMAIN_MODEL.md"
 
-tags: [amos_os, domain, specialization]
-  - 21_domains
-  - model
-  - canon_placeholder
-  - rscf
+tags: [amos_os, domain, specialization, 21_domains, model, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

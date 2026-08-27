@@ -11,11 +11,7 @@ segment: "04_RUNTIME/06_EXECUTION"
 artifact_kind: "RUNTIME"
 path: "04_RUNTIME/06_EXECUTION/FRACTAL_RUNTIME.md"
 
-tags: [amos_os, runtime, execution]
-  - 04_runtime
-  - runtime
-  - canon_placeholder
-  - rscf
+tags: [amos_os, runtime, execution, 04_runtime, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

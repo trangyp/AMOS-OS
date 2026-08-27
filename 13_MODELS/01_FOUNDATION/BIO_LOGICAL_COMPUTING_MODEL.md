@@ -11,11 +11,7 @@ segment: "13_MODELS/01_FOUNDATION"
 artifact_kind: "LOG"
 path: "13_MODELS/01_FOUNDATION/BIO_LOGICAL_COMPUTING_MODEL.md"
 
-tags: [amos_os, model, specification]
-  - 13_models
-  - log
-  - canon_placeholder
-  - rscf
+tags: [amos_os, model, specification, 13_models, log, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

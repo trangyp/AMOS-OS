@@ -1,14 +1,6 @@
 ---
 type: logic
-tags: [amos, kernel, core]
-  - cognitive-matrix
-  - l02
-  - attention
-  - purpose
-  - rscf
-  - hml
-  - ai
-  - governance
+tags: [amos, kernel, core, cognitive-matrix, l02, attention, purpose, rscf, hml, ai, governance]
 
 title: "L02_ATTENTION — Purpose"
 origin_architect: "Trang Phan"

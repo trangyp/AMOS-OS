@@ -14,24 +14,7 @@ kernel_family: MEMORY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags: [amos-os, kernel, core]
-  - canon-group/tech-ai
-  - kernel
-  - kernel/memory
-  - kernel/memory-conflict
-  - kernel/contradiction
-  - kernel/provenance
-  - kernel/epistemics
-  - kernel/dependency
-  - kernel/recovery
-  - rscf/conflict
-  - rscf/provenance
-  - topic/memory
-  - topic/conflict
-  - topic/competing-hypotheses
-  - topic/invalidation
-  - topic/supersession
-  - topic/provenance-topology
+tags: [amos-os, kernel, core, canon-group/tech-ai, kernel/memory, kernel/memory-conflict, kernel/contradiction, kernel/provenance, kernel/epistemics, kernel/dependency, kernel/recovery, rscf/conflict, rscf/provenance, topic/memory, topic/conflict, topic/competing-hypotheses, topic/invalidation, topic/supersession, topic/provenance-topology]
 ---
 
 

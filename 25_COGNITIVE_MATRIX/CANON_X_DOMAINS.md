@@ -11,11 +11,7 @@ segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "CANON"
 path: "25_COGNITIVE_MATRIX/CANON_X_DOMAINS.md"
 
-tags: [amos_os, cognitive_matrix, matrix]
-  - 25_cognitive_matrix
-  - canon
-  - canon_placeholder
-  - rscf
+tags: [amos_os, cognitive_matrix, matrix, 25_cognitive_matrix, canon, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

@@ -11,11 +11,7 @@ segment: "21_DOMAINS/06_BIOLOGY"
 artifact_kind: "SPEC"
 path: "21_DOMAINS/06_BIOLOGY/CROSS_SPECIES_FUNCTIONAL_MODE_MODEL.md"
 
-tags: [amos_os, domain, specialization]
-  - 21_domains
-  - spec
-  - canon_placeholder
-  - rscf
+tags: [amos_os, domain, specialization, 21_domains, spec, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

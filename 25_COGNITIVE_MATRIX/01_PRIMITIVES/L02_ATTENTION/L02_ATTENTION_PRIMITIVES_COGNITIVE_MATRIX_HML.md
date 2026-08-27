@@ -1,12 +1,6 @@
 ---
 type: cognitive
-tags: [amos]
-  - cognitive-matrix
-  - l02
-  - attention
-  - hml
-  - rscf
-  - governance
+tags: [amos, cognitive-matrix, l02, attention, hml, rscf, governance]
 
 title: "L02_ATTENTION — HML"
 origin_architect: "Trang Phan"

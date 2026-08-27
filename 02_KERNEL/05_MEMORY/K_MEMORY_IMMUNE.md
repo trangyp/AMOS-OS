@@ -14,27 +14,7 @@ kernel_family: MEMORY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags: [amos-os, kernel, core]
-  - canon-group/tech-ai
-  - kernel
-  - kernel/memory
-  - kernel/memory-immune
-  - kernel/integrity
-  - kernel/provenance
-  - kernel/conflict
-  - kernel/admission
-  - kernel/recovery
-  - kernel/security
-  - rscf/memory
-  - rscf/provenance
-  - rscf/invalidation
-  - topic/memory-integrity
-  - topic/immune-system
-  - topic/contamination
-  - topic/quarantine
-  - topic/poisoning
-  - topic/sybil-hardening
-  - topic/revalidation
+tags: [amos-os, kernel, core, canon-group/tech-ai, kernel/memory, kernel/memory-immune, kernel/integrity, kernel/provenance, kernel/conflict, kernel/admission, kernel/recovery, kernel/security, rscf/memory, rscf/provenance, rscf/invalidation, topic/memory-integrity, topic/immune-system, topic/contamination, topic/quarantine, topic/poisoning, topic/sybil-hardening, topic/revalidation]
 ---
 
 

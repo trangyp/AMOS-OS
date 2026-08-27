@@ -1,14 +1,6 @@
 ---
 type: agent
-tags: [amos]
-  - cognitive-matrix
-  - l03
-  - percept-formation
-  - agents
-  - perception
-  - rscf
-  - hml
-  - governance
+tags: [amos, cognitive-matrix, l03, percept-formation, agents, perception, rscf, hml, governance]
 
 title: "L03_PERCEPT_FORMATION — Agents"
 origin_architect: "Trang Phan"

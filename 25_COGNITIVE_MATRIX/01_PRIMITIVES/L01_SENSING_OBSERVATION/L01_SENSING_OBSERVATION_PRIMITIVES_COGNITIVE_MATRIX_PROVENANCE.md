@@ -1,15 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX PROVENANCE
 type: provenance
-tags: [amos]
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - provenance
-  - evidence-topology
-  - rscf
-  - hml
-  - control-plane
+tags: [amos, cognitive-matrix, l01, sensing-observation, provenance, evidence-topology, rscf, hml, control-plane]
 ---
 
 

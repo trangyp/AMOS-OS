@@ -1,12 +1,6 @@
 ---
 type: cognitive
-tags: [amos]
-  - cognitive-matrix
-  - l02
-  - attention
-  - equations
-  - rscf
-  - hml
+tags: [amos, cognitive-matrix, l02, attention, equations, rscf, hml]
 
 title: "L02_ATTENTION — Equations"
 origin_architect: "Trang Phan"

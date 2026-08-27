@@ -40,35 +40,7 @@ scope:
   - SECURITY
   - OPERATIONS
 
-tags: [amos, canon, universe]
-  - amos-os
-  - amos-core
-  - amos-core-v4-4
-  - invariants
-  - invariant-registry
-  - constitutional-invariants
-  - runtime-invariants
-  - integrity
-  - epistemics
-  - provenance
-  - dependency-closure
-  - causality
-  - scope
-  - regime
-  - freshness
-  - authority
-  - governance
-  - rscf
-  - gmef
-  - recovery
-  - anti-regression
-  - canon-group/tech-ai
-  - canon/registry
-  - canon/invariant
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/derived
-  - topic/invariant-registry
+tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, invariants, invariant-registry, constitutional-invariants, runtime-invariants, integrity, epistemics, provenance, dependency-closure, causality, scope, regime, freshness, authority, governance, rscf, gmef, recovery, anti-regression, canon-group/tech-ai, canon/registry, canon/invariant, rscf/claim, rscf/provenance, rscf/state/derived, topic/invariant-registry]
 
 aliases:
   - AMOS Invariant Registry

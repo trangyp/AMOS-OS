@@ -1,17 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX STATE
 type: state
-tags: [amos]
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - state
-  - state-machine
-  - tensors
-  - rscf
-  - provenance
-  - hml
-  - control-plane
+tags: [amos, cognitive-matrix, l01, sensing-observation, state, state-machine, tensors, rscf, provenance, hml, control-plane]
 ---
 
 

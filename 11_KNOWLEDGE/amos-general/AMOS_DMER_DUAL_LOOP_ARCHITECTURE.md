@@ -9,27 +9,7 @@ status: proposed-amos-alignment
 version: v1.0
 origin-architect: Trang Phan
 source-origin: "∞ và ● — source mapping of HIE, UMPL, UIE, UEL, Absolute Human, Ancient Math"
-tags: [amos, general, architecture]
-  - dmer
-  - distinction
-  - mutation
-  - entropy
-  - repair
-  - dual-loop
-  - hie
-  - umpl
-  - uie
-  - uel
-  - absolute-human
-  - ancient-math
-  - rscf/D-distinction
-  - rscf/S-state
-  - rscf/G-relation
-  - rscf/E-entropy
-  - rscf/P-repair
-  - rscf/X-cross-scale
-  - rscf/type-model
-  - amos-general
+tags: [amos, general, architecture, dmer, distinction, mutation, entropy, repair, dual-loop, hie, umpl, uie, uel, absolute-human, ancient-math, rscf/D-distinction, rscf/S-state, rscf/G-relation, rscf/E-entropy, rscf/P-repair, rscf/X-cross-scale, rscf/type-model, amos-general]
 
 ---
 

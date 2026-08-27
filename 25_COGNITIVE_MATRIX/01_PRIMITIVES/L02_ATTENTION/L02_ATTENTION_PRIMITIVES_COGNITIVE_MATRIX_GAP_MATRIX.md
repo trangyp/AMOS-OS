@@ -1,13 +1,6 @@
 ---
 type: gap
-tags: [amos]
-  - cognitive-matrix
-  - l02
-  - attention
-  - gap-matrix
-  - rscf
-  - hml
-  - governance
+tags: [amos, cognitive-matrix, l02, attention, gap-matrix, rscf, hml, governance]
 
 title: "L02_ATTENTION — Gap Matrix"
 origin_architect: "Trang Phan"

@@ -63,14 +63,7 @@ gmef_role:
   - PROMOTION_PRECONDITION
   - EFFECT_PRECONDITION
 
-tags: [identity:, cognitive_matrix, matrix]
-    - AMOS
-    - AMOS_OS
-    - AMOS_CORE_v4_4
-    - COGNITIVE_MATRIX
-    - VALIDATION
-    - VALIDATOR
-    - VALIDATION_CONTRACT
+tags: [identity:, cognitive_matrix, matrix, AMOS, AMOS_OS, AMOS_CORE_v4_4, COGNITIVE_MATRIX, VALIDATION, VALIDATOR, VALIDATION_CONTRACT]
 
   architecture:
     - MATRIX_INFRASTRUCTURE

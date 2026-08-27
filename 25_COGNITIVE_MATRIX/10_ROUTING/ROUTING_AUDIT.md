@@ -74,16 +74,7 @@ hml_scope:
     - CACHE_CHECK
     - EVENT_ROUTE_CHECK
 
-tags: [identity:, cognitive_matrix, matrix]
-    - AMOS
-    - AMOS_OS
-    - AMOS_FULL_BRAIN_OS
-    - AMOS_CORE
-    - AMOS_CORE_v4_4
-    - TRANG_PHAN
-    - COGNITIVE_MATRIX
-    - ROUTING
-    - ROUTING_AUDIT
+tags: [identity:, cognitive_matrix, matrix, AMOS, AMOS_OS, AMOS_FULL_BRAIN_OS, AMOS_CORE, AMOS_CORE_v4_4, TRANG_PHAN, COGNITIVE_MATRIX, ROUTING, ROUTING_AUDIT]
 
   architecture:
     - MATRIX_INFRASTRUCTURE

@@ -1,13 +1,6 @@
 ---
 type: skill
-tags: [amos]
-  - cognitive-matrix
-  - l03
-  - percept-formation
-  - skills
-  - rscf
-  - provenance
-  - governance
+tags: [amos, cognitive-matrix, l03, percept-formation, skills, rscf, provenance, governance]
 
 title: "L03_PERCEPT_FORMATION — Skills"
 origin_architect: "Trang Phan"

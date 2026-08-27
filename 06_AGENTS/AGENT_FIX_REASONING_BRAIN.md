@@ -4,9 +4,7 @@ type: agent
 claim_class: AMOS_MODEL
 origin_architect: Trang Phan
 status: COMPLETE
-tags: [agent-fix, agent, automation]
-- reasoning-brain
-- worklog
+tags: [agent-fix, agent, automation, reasoning-brain, worklog]
 ---
 
 

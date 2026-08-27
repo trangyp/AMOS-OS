@@ -1,13 +1,6 @@
 ---
 type: definition
-tags: [amos]
-  - cognitive-matrix
-  - l02
-  - attention
-  - definition
-  - rscf
-  - hml
-  - provenance
+tags: [amos, cognitive-matrix, l02, attention, definition, rscf, hml, provenance]
 
 title: "L02_ATTENTION — Definition"
 origin_architect: "Trang Phan"

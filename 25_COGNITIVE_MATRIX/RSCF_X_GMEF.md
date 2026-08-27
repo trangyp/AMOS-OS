@@ -11,11 +11,7 @@ segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "ARTIFACT"
 path: "25_COGNITIVE_MATRIX/RSCF_X_GMEF.md"
 
-tags: [amos_os, cognitive_matrix, matrix]
-  - 25_cognitive_matrix
-  - artifact
-  - canon_placeholder
-  - rscf
+tags: [amos_os, cognitive_matrix, matrix, 25_cognitive_matrix, artifact, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

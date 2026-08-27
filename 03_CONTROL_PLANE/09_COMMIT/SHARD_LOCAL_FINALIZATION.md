@@ -11,11 +11,7 @@ segment: "03_CONTROL_PLANE/09_COMMIT"
 artifact_kind: "FINALIZATION"
 path: "03_CONTROL_PLANE/09_COMMIT/SHARD_LOCAL_FINALIZATION.md"
 
-tags: [amos_os, control_plane, governance]
-  - 03_control_plane
-  - finalization
-  - canon_placeholder
-  - rscf
+tags: [amos_os, control_plane, governance, 03_control_plane, finalization, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

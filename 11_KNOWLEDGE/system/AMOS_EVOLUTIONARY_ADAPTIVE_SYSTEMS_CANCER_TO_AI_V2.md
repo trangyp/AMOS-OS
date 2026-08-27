@@ -14,20 +14,7 @@ source-lineage:
   - "AMOS_CORE v4.4 reasoning lineage"
 language: en
 epistemic-boundary: "Cancer source model and AI transfer remain distinct; cross-domain recurrence is MODEL, not mechanistic identity."
-tags: [amos, system, architecture]
-  - evolutionary-oncology
-  - artificial-intelligence
-  - adaptive-systems
-  - s-o-a
-  - resistance
-  - drift
-  - selection-pressure
-  - model-collapse
-  - provenance
-  - rscf
-  - hml
-  - cross-scale
-  - system
+tags: [amos, system, architecture, evolutionary-oncology, artificial-intelligence, adaptive-systems, s-o-a, resistance, drift, selection-pressure, model-collapse, provenance, rscf, hml, cross-scale]
 
 ---
 

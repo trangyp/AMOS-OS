@@ -1,17 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX TESTS
 type: test
-tags: [amos]
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - tests
-  - validation
-  - verification
-  - rscf
-  - provenance
-  - hml
-  - control-plane
+tags: [amos, cognitive-matrix, l01, sensing-observation, tests, validation, verification, rscf, provenance, hml, control-plane]
 ---
 
 

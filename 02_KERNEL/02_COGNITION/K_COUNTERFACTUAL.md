@@ -19,27 +19,7 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 
-tags: [amos-os, kernel, core]
-  - canon-group/tech-ai
-  - canon/model
-  - kernel
-  - kernel/reasoning
-  - kernel/counterfactual
-  - kernel/causal
-  - kernel/epistemic
-  - kernel/provenance
-  - kernel/dependency
-  - kernel/scope
-  - kernel/regime
-  - kernel/sensitivity
-  - kernel/uncertainty
-  - kernel/simulation
-  - kernel/validation
-  - kernel/rscf
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/model
-  - topic/counterfactual-reasoning
+tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/reasoning, kernel/counterfactual, kernel/causal, kernel/epistemic, kernel/provenance, kernel/dependency, kernel/scope, kernel/regime, kernel/sensitivity, kernel/uncertainty, kernel/simulation, kernel/validation, kernel/rscf, rscf/claim, rscf/provenance, rscf/state/model, topic/counterfactual-reasoning]
 
 aliases:
   - AMOS Counterfactual Kernel

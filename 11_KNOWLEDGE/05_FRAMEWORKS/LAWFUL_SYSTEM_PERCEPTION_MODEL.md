@@ -11,11 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "MODEL"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/LAWFUL_SYSTEM_PERCEPTION_MODEL.md"
 
-tags: [amos_os, knowledge, vault]
-  - 11_knowledge
-  - model
-  - canon_placeholder
-  - rscf
+tags: [amos_os, knowledge, vault, 11_knowledge, model, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

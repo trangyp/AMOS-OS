@@ -11,11 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "HISTORY"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_VIETNAMESE_HISTORY.md"
 
-tags: [amos_os, knowledge, vault]
-  - 11_knowledge
-  - history
-  - canon_placeholder
-  - rscf
+tags: [amos_os, knowledge, vault, 11_knowledge, history, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

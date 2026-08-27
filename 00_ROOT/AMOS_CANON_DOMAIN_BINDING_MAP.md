@@ -11,11 +11,7 @@ segment: "00_ROOT"
 artifact_kind: "MAP"
 path: "00_ROOT/AMOS_CANON_DOMAIN_BINDING_MAP.md"
 
-tags: [amos_os, root, index]
-  - 00_root
-  - map
-  - canon_placeholder
-  - rscf
+tags: [amos_os, root, index, 00_root, map, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

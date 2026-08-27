@@ -11,11 +11,7 @@ segment: "01_CANON/08_SUPERSESSION"
 artifact_kind: "SUPERSESSION"
 path: "01_CANON/08_SUPERSESSION/TRANG_FRAMEWORK_SUPERSESSION.md"
 
-tags: [amos_os, canon, universe]
-  - 01_canon
-  - supersession
-  - canon_placeholder
-  - rscf
+tags: [amos_os, canon, universe, 01_canon, supersession, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

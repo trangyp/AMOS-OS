@@ -21,32 +21,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags: [amos, canon, universe]
-  - amos-os
-  - amos-core
-  - amos-core-v4-4
-  - canon
-  - hml
-  - fractal-knowledge
-  - knowledge-resolution
-  - retrieval
-  - dependency-closure
-  - rscf
-  - provenance
-  - epistemic-regime
-  - scope
-  - freshness
-  - uncertainty
-  - progressive-disclosure
-  - context-management
-  - evidence
-  - canon-group/tech-ai
-  - canon/framework
-  - canon/model
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/derived
-  - topic/hml-canon
+tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, hml, fractal-knowledge, knowledge-resolution, retrieval, dependency-closure, rscf, provenance, epistemic-regime, scope, freshness, uncertainty, progressive-disclosure, context-management, evidence, canon-group/tech-ai, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/hml-canon]
 
 aliases:
   - AMOS HML Canon

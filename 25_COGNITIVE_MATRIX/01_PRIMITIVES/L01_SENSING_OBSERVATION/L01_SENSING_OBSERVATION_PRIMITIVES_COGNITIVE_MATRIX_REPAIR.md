@@ -1,16 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX REPAIR
 type: cognitive
-tags: [amos]
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - repair
-  - recovery
-  - provenance
-  - rscf
-  - hml
-  - control-plane
+tags: [amos, cognitive-matrix, l01, sensing-observation, repair, recovery, provenance, rscf, hml, control-plane]
 ---
 
 

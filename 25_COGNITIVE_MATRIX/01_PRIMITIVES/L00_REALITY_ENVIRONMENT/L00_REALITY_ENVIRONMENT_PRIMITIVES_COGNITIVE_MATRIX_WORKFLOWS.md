@@ -1,25 +1,7 @@
 ---
 title: L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX WORKFLOWS
 type: workflow
-tags: [amos]
-  - cognitive-matrix
-  - l00
-  - reality-environment
-  - workflows
-  - orchestration
-  - grounding
-  - observation
-  - provenance
-  - state
-  - control-plane
-  - validation
-  - repair
-  - recovery
-  - rscf
-  - rscf/S-state
-  - rscf/T-topology
-  - rscf/C-constraint
-  - rscf/type-model
+tags: [amos, cognitive-matrix, l00, reality-environment, workflows, orchestration, grounding, observation, provenance, state, control-plane, validation, repair, recovery, rscf, rscf/S-state, rscf/T-topology, rscf/C-constraint, rscf/type-model]
 ---
 
 

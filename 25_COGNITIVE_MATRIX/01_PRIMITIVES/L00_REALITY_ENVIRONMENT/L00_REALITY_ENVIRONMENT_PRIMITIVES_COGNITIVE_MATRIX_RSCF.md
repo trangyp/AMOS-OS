@@ -12,20 +12,7 @@ amos-layer: L00_REALITY_ENVIRONMENT
 architecture-role: reality-grounded-claim-and-evidence-governance
 origin-architect: "Trang Phan"
 status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-tags: [amos]
-  - reality-environment
-  - rscf
-  - claim
-  - evidence
-  - provenance
-  - scope
-  - regime
-  - causality
-  - hml
-  - confidence
-  - falsification
-  - control-plane
-  - ai
+tags: [amos, reality-environment, rscf, claim, evidence, provenance, scope, regime, causality, hml, confidence, falsification, control-plane, ai]
 ---
 
 

@@ -19,25 +19,7 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 
-tags: [amos-os, kernel, core]
-  - canon-group/tech-ai
-  - canon/model
-  - kernel
-  - kernel/reasoning
-  - kernel/metacognition
-  - kernel/epistemic
-  - kernel/provenance
-  - kernel/uncertainty
-  - kernel/validation
-  - kernel/dependency
-  - kernel/scope
-  - kernel/regime
-  - kernel/sensitivity
-  - kernel/rscf
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/model
-  - topic/metacognition
+tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/reasoning, kernel/metacognition, kernel/epistemic, kernel/provenance, kernel/uncertainty, kernel/validation, kernel/dependency, kernel/scope, kernel/regime, kernel/sensitivity, kernel/rscf, rscf/claim, rscf/provenance, rscf/state/model, topic/metacognition]
 
 aliases:
   - AMOS Metacognition Kernel

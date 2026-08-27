@@ -11,11 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/18_LIFECYCLE"
 artifact_kind: "EVOLUTION"
 path: "05_COGNITIVE_ORGANISM/18_LIFECYCLE/COGNITIVE_ORGANISM_EVOLUTION.md"
 
-tags: [amos_os, cognitive, organism]
-  - 05_cognitive_organism
-  - evolution
-  - canon_placeholder
-  - rscf
+tags: [amos_os, cognitive, organism, 05_cognitive_organism, evolution, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

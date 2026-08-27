@@ -11,11 +11,7 @@ segment: "13_MODELS/05_CALIBRATION"
 artifact_kind: "PROVENANCE"
 path: "13_MODELS/05_CALIBRATION/PROVENANCE_INDEPENDENCE_CALIBRATION.md"
 
-tags: [amos_os, model, specification]
-  - 13_models
-  - provenance
-  - canon_placeholder
-  - rscf
+tags: [amos_os, model, specification, 13_models, provenance, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

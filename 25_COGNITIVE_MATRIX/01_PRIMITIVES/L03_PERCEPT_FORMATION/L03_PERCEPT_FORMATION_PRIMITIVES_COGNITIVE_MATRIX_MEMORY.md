@@ -1,13 +1,6 @@
 ---
 type: memory
-tags: [amos]
-  - cognitive-matrix
-  - l03
-  - percept-formation
-  - memory
-  - rscf
-  - provenance
-  - governance
+tags: [amos, cognitive-matrix, l03, percept-formation, memory, rscf, provenance, governance]
 
 title: "L03_PERCEPT_FORMATION — Memory"
 origin_architect: "Trang Phan"

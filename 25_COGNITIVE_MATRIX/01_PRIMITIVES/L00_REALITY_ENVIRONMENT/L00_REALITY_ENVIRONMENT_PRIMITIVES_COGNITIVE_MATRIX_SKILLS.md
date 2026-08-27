@@ -12,18 +12,7 @@ amos-layer: L00_REALITY_ENVIRONMENT
 architecture-role: reality-grounded-capability-routing-and-skill-governance
 origin-architect: "Trang Phan"
 status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-tags: [amos]
-  - reality-environment
-  - skills
-  - capability
-  - routing
-  - evidence
-  - provenance
-  - rscf
-  - governance
-  - hml
-  - control-plane
-  - validation
+tags: [amos, reality-environment, skills, capability, routing, evidence, provenance, rscf, governance, hml, control-plane, validation]
 ---
 
 

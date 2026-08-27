@@ -11,11 +11,7 @@ segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "MATRIX"
 path: "25_COGNITIVE_MATRIX/TOTAL_ENGINE_MATRIX.md"
 
-tags: [amos_os, cognitive_matrix, matrix]
-  - 25_cognitive_matrix
-  - matrix
-  - canon_placeholder
-  - rscf
+tags: [amos_os, cognitive_matrix, matrix, 25_cognitive_matrix, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

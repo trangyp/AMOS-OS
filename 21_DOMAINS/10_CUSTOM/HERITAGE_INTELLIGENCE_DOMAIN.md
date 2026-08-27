@@ -11,11 +11,7 @@ segment: "21_DOMAINS/10_CUSTOM"
 artifact_kind: "DOMAIN"
 path: "21_DOMAINS/10_CUSTOM/HERITAGE_INTELLIGENCE_DOMAIN.md"
 
-tags: [amos_os, domain, specialization]
-  - 21_domains
-  - domain
-  - canon_placeholder
-  - rscf
+tags: [amos_os, domain, specialization, 21_domains, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

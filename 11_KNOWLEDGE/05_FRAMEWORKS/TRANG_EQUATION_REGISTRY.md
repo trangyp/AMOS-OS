@@ -11,11 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "REGISTRY"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/TRANG_EQUATION_REGISTRY.md"
 
-tags: [amos_os, knowledge, vault]
-  - 11_knowledge
-  - registry
-  - canon_placeholder
-  - rscf
+tags: [amos_os, knowledge, vault, 11_knowledge, registry, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

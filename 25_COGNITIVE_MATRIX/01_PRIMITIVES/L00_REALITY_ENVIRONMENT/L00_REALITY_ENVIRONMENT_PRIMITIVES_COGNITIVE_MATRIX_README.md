@@ -12,20 +12,7 @@ amos-layer: L00_REALITY_ENVIRONMENT
 architecture-role: reality-grounding-root-and-navigation-contract
 origin-architect: "Trang Phan"
 status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-tags: [amos]
-  - reality-environment
-  - reality-grounding
-  - observation
-  - measurement
-  - evidence
-  - provenance
-  - rscf
-  - hml
-  - control-plane
-  - authority
-  - repair
-  - validation
-  - ai
+tags: [amos, reality-environment, reality-grounding, observation, measurement, evidence, provenance, rscf, hml, control-plane, authority, repair, validation, ai]
 ---
 
 

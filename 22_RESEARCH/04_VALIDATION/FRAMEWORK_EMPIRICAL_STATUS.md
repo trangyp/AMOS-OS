@@ -11,11 +11,7 @@ segment: "22_RESEARCH/04_VALIDATION"
 artifact_kind: "FRAMEWORK"
 path: "22_RESEARCH/04_VALIDATION/FRAMEWORK_EMPIRICAL_STATUS.md"
 
-tags: [amos_os, research, arxiv]
-  - 22_research
-  - framework
-  - canon_placeholder
-  - rscf
+tags: [amos_os, research, arxiv, 22_research, framework, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

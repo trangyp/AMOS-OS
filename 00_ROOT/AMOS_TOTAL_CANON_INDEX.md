@@ -11,11 +11,7 @@ segment: "00_ROOT"
 artifact_kind: "INDEX"
 path: "00_ROOT/AMOS_TOTAL_CANON_INDEX.md"
 
-tags: [amos_os, root, index]
-  - 00_root
-  - index
-  - canon_placeholder
-  - rscf
+tags: [amos_os, root, index, 00_root, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

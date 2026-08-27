@@ -11,11 +11,7 @@ segment: "04_RUNTIME/01_BOOT"
 artifact_kind: "CANON"
 path: "04_RUNTIME/01_BOOT/CANON_BOOTSTRAP.md"
 
-tags: [amos_os, runtime, execution]
-  - 04_runtime
-  - canon
-  - canon_placeholder
-  - rscf
+tags: [amos_os, runtime, execution, 04_runtime, canon, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

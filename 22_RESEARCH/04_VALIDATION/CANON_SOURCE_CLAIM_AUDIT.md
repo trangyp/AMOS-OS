@@ -11,11 +11,7 @@ segment: "22_RESEARCH/04_VALIDATION"
 artifact_kind: "AUDIT"
 path: "22_RESEARCH/04_VALIDATION/CANON_SOURCE_CLAIM_AUDIT.md"
 
-tags: [amos_os, research, arxiv]
-  - 22_research
-  - audit
-  - canon_placeholder
-  - rscf
+tags: [amos_os, research, arxiv, 22_research, audit, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

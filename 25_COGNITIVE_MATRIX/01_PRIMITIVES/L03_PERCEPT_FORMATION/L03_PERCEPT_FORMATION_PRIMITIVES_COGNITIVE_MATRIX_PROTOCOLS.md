@@ -1,14 +1,6 @@
 ---
 type: protocol
-tags: [amos]
-  - cognitive-matrix
-  - l03
-  - percept-formation
-  - protocols
-  - rscf
-  - provenance
-  - hml
-  - governance
+tags: [amos, cognitive-matrix, l03, percept-formation, protocols, rscf, provenance, hml, governance]
 
 title: "L03_PERCEPT_FORMATION — Protocols"
 origin_architect: "Trang Phan"

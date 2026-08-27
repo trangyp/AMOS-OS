@@ -18,12 +18,7 @@ topic: agent-schema-full
 status: active
 conclusion_class: "AMOS_MODEL"
 source_status: "SOURCE_CLAIM"
-tags: [canon-group/tech-ai, knowledge, vault]
-  - canon/protocol
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/observation
-  - topic/agent-schema-full
+tags: [canon-group/tech-ai, knowledge, vault, canon/protocol, rscf/claim, rscf/provenance, rscf/state/observation, topic/agent-schema-full]
 aliases:
   - AGENT_SCHEMA
   - AMOS Agent Schema

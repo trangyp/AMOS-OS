@@ -11,11 +11,7 @@ segment: "03_CONTROL_PLANE/04_AUTHORITY"
 artifact_kind: "CANON"
 path: "03_CONTROL_PLANE/04_AUTHORITY/CANON_AUTHORITY_CHAIN.md"
 
-tags: [amos_os, control_plane, governance]
-  - 03_control_plane
-  - canon
-  - canon_placeholder
-  - rscf
+tags: [amos_os, control_plane, governance, 03_control_plane, canon, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

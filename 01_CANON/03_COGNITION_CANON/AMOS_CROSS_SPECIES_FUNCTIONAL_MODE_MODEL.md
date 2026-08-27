@@ -11,11 +11,7 @@ segment: "01_CANON/03_COGNITION_CANON"
 artifact_kind: "SPEC"
 path: "01_CANON/03_COGNITION_CANON/AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL.md"
 
-tags: [amos_os, canon, universe]
-  - 01_canon
-  - spec
-  - canon_placeholder
-  - rscf
+tags: [amos_os, canon, universe, 01_canon, spec, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

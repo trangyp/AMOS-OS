@@ -11,11 +11,7 @@ segment: "21_DOMAINS/02_RESEARCH"
 artifact_kind: "METHOD"
 path: "21_DOMAINS/02_RESEARCH/HERITAGE_RESEARCH_METHOD.md"
 
-tags: [amos_os, domain, specialization]
-  - 21_domains
-  - method
-  - canon_placeholder
-  - rscf
+tags: [amos_os, domain, specialization, 21_domains, method, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

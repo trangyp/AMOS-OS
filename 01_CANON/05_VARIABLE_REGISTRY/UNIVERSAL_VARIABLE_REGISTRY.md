@@ -20,31 +20,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags: [amos, canon, universe]
-  - amos-os
-  - amos-core
-  - amos-core-v4-4
-  - canon
-  - registry
-  - universal-variable-registry
-  - variables
-  - symbols
-  - units
-  - types
-  - semantics
-  - scope
-  - provenance
-  - epistemics
-  - uncertainty
-  - causality
-  - state
-  - cognition
-  - rscf
-  - hml
-  - canon-group/meta
-  - canon/registry
-  - topic/variables
-  - topic/semantic-identity
+tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, registry, universal-variable-registry, variables, symbols, units, types, semantics, scope, provenance, epistemics, uncertainty, causality, state, cognition, rscf, hml, canon-group/meta, canon/registry, topic/variables, topic/semantic-identity]
 
 aliases:
   - AMOS Universal Variable Registry

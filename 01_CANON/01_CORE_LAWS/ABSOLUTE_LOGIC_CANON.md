@@ -11,11 +11,7 @@ segment: "01_CANON/01_CORE_LAWS"
 artifact_kind: "LOG"
 path: "01_CANON/01_CORE_LAWS/ABSOLUTE_LOGIC_CANON.md"
 
-tags: [amos_os, canon, universe]
-  - 01_canon
-  - log
-  - canon_placeholder
-  - rscf
+tags: [amos_os, canon, universe, 01_canon, log, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

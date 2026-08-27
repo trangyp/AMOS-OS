@@ -10,14 +10,7 @@ provenance: self_test_verified
 rscf-state: DONE
 rscf-claim: verified
 rscf-provenance: self_test
-tags: [canon-group/tech-ai, cognitive, cognition]
-  - cosmo-brain
-  - cognitive-substrate
-  - implementation
-  - rscf/state/completion
-  - rscf/claim/verified
-  - rscf/provenance/self-test
-  - cognitive
+tags: [canon-group/tech-ai, cognitive, cognition, cosmo-brain, cognitive-substrate, implementation, rscf/state/completion, rscf/claim/verified, rscf/provenance/self-test]
 
 ---
 

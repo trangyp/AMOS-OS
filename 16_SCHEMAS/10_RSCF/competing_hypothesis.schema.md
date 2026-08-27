@@ -11,11 +11,7 @@ segment: "16_SCHEMAS/10_RSCF"
 artifact_kind: "SCHEMA"
 path: "16_SCHEMAS/10_RSCF/competing_hypothesis.schema.md"
 
-tags: [amos_os, schema, specification]
-  - 16_schemas
-  - schema
-  - canon_placeholder
-  - rscf
+tags: [amos_os, schema, specification, 16_schemas, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

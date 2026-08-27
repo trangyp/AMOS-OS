@@ -11,11 +11,7 @@ segment: "22_RESEARCH/01_PAPERS"
 artifact_kind: "REGISTRY"
 path: "22_RESEARCH/01_PAPERS/EXTERNAL_EVIDENCE_SOURCE_REGISTRY.md"
 
-tags: [amos_os, research, arxiv]
-  - 22_research
-  - registry
-  - canon_placeholder
-  - rscf
+tags: [amos_os, research, arxiv, 22_research, registry, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

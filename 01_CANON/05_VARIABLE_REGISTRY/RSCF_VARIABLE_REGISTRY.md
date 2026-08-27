@@ -11,11 +11,7 @@ segment: "01_CANON/05_VARIABLE_REGISTRY"
 artifact_kind: "REGISTRY"
 path: "01_CANON/05_VARIABLE_REGISTRY/RSCF_VARIABLE_REGISTRY.md"
 
-tags: [amos_os, canon, universe]
-  - 01_canon
-  - registry
-  - canon_placeholder
-  - rscf
+tags: [amos_os, canon, universe, 01_canon, registry, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

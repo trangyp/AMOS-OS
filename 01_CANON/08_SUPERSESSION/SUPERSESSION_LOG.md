@@ -18,23 +18,7 @@ authority_scope: canonical-supersession-lineage-and-history
 created: 2026-08-25
 updated: 2026-08-25
 
-tags: [amos-os, canon, universe]
-  - canon-group/meta
-  - canon/framework
-  - canon/registry
-  - canon/supersession
-  - canon/provenance
-  - canon/lineage
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - topic/supersession
-  - topic/version-lineage
-  - topic/canon-evolution
-  - topic/provenance
-  - topic/invalidation
-  - topic/rollback
-  - topic/governed-evolution
+tags: [amos-os, canon, universe, canon-group/meta, canon/framework, canon/registry, canon/supersession, canon/provenance, canon/lineage, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/supersession, topic/version-lineage, topic/canon-evolution, topic/provenance, topic/invalidation, topic/rollback, topic/governed-evolution]
 
 aliases:
   - AMOS Supersession Log

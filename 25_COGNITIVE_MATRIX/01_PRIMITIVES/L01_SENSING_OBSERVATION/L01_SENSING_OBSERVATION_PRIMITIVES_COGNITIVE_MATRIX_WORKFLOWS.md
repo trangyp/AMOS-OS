@@ -1,14 +1,6 @@
 ---
 type: workflow
-tags: [amos]
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - workflows
-  - rscf
-  - provenance
-  - hml
-  - control-plane
+tags: [amos, cognitive-matrix, l01, sensing-observation, workflows, rscf, provenance, hml, control-plane]
 
 title: "L01_SENSING_OBSERVATION — Workflows"
 origin_architect: "Trang Phan"

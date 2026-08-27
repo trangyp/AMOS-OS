@@ -1,13 +1,6 @@
 ---
 type: workflow
-tags: [amos]
-  - cognitive-matrix
-  - l03
-  - percept-formation
-  - workflows
-  - execution-graph
-  - rscf
-  - governance
+tags: [amos, cognitive-matrix, l03, percept-formation, workflows, execution-graph, rscf, governance]
 
 title: "L03_PERCEPT_FORMATION — Workflows"
 origin_architect: "Trang Phan"

@@ -1,18 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX EQUATIONS
 type: cognitive
-tags: [amos]
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - equations
-  - measurement
-  - provenance
-  - uncertainty
-  - hml
-  - control-plane
-  - rscf
-  - rscf/type-model
+tags: [amos, cognitive-matrix, l01, sensing-observation, equations, measurement, provenance, uncertainty, hml, control-plane, rscf, rscf/type-model]
 ---
 
 

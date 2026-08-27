@@ -1,12 +1,6 @@
 ---
 type: memory
-tags: [amos]
-  - cognitive-matrix
-  - l02
-  - attention
-  - memory
-  - rscf
-  - governance
+tags: [amos, cognitive-matrix, l02, attention, memory, rscf, governance]
 
 title: "L02_ATTENTION — Memory"
 origin_architect: "Trang Phan"

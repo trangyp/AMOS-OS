@@ -11,11 +11,7 @@ segment: "03_CONTROL_PLANE/03_POLICY"
 artifact_kind: "LOG"
 path: "03_CONTROL_PLANE/03_POLICY/BIO_LOGICAL_GOVERNANCE_POLICY.md"
 
-tags: [amos_os, control_plane, governance]
-  - 03_control_plane
-  - log
-  - canon_placeholder
-  - rscf
+tags: [amos_os, control_plane, governance, 03_control_plane, log, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"

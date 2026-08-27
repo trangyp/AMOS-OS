@@ -11,11 +11,7 @@ segment: "22_RESEARCH/03_COMPETING_MODELS"
 artifact_kind: "MODEL"
 path: "22_RESEARCH/03_COMPETING_MODELS/HERITAGE_COMPETING_MODELS.md"
 
-tags: [amos_os, research, arxiv]
-  - 22_research
-  - model
-  - canon_placeholder
-  - rscf
+tags: [amos_os, research, arxiv, 22_research, model, canon_placeholder, rscf]
 
 version: "0.1.0"
 updated: "2026-08-27"
