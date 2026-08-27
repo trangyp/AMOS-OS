@@ -8,10 +8,8 @@ tags: [moc, 11-observability]
 
 ## Files
 
-- canon_health.schema
-- provenance_health.schema
+- [[canon_health.schema]]
+- [[provenance_health.schema]]
 
 ---
 **Parent:** [[16_SCHEMAS_MOC]]
-- provenance_health.schema
-- canon_health.schema

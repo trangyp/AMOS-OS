@@ -8,18 +8,12 @@ tags: [moc, 10-rscf]
 
 ## Files
 
-- causal_epoch.schema
-- competing_hypothesis.schema
-- framework_node.schema
-- proof_capsule.schema
-- provenance_topology.schema
-- rscf_transaction.schema
+- [[causal_epoch.schema]]
+- [[competing_hypothesis.schema]]
+- [[framework_node.schema]]
+- [[proof_capsule.schema]]
+- [[provenance_topology.schema]]
+- [[rscf_transaction.schema]]
 
 ---
 **Parent:** [[16_SCHEMAS_MOC]]
-- framework_node.schema
-- causal_epoch.schema
-- rscf_transaction.schema
-- competing_hypothesis.schema
-- provenance_topology.schema
-- proof_capsule.schema
