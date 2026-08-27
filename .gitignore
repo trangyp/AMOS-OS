@@ -33,3 +33,14 @@ AMOS OS/
 
 # Linked Cosmo brain vault (symlink — do not track)
 11_KNOWLEDGE/Cosmo_Brain
+
+# External content dirs (previously symlinks to stitch_project_cosmo — not tracked)
+apps/
+cosmo-brain/
+designs/
+docs/
+packages/
+references/
+services/
+supabase/
+_00_Cosmo brain/
