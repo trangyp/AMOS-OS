@@ -3,18 +3,18 @@ title: L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX TESTS
 type: test
 
 tags: [amos]
-* cognitive-matrix
-* l00
-* reality-environment
-* tests
-* validation
-* grounding
-* provenance
-* epistemic-integrity
-* adversarial-testing
-* recovery
-* control-plane
-* rscf
+- cognitive-matrix
+- l00
+- reality-environment
+- tests
+- validation
+- grounding
+- provenance
+- epistemic-integrity
+- adversarial-testing
+- recovery
+- control-plane
+- rscf
 
 ---
 

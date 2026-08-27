@@ -21,35 +21,19 @@ steward: "Trang Phan"
 created: "2026-08-25"
 updated: "2026-08-25"
 
-scope:
-  - AMOS_OS
+scope: "- AMOS_OS
   - vault_navigation
   - graph_connectivity
   - cross_plane_links
   - obsidian_graph
-  - neural_network_map
-  - knowledge_topology
-
+  - n..."
 tags: [amos, amos_os, root, amos-os, neural-network, vault-network, knowledge-graph, graph-view, obsidian, navigation, topology, root-hub, canon, kernel, control-plane, runtime, cognitive-organism, agents, skills, workflows, protocols, memory, knowledge, state, models, tools, interfaces, schemas, observability, security, tests, operations, domains, modes, research, operating-model, archive, cognitive-matrix, rscf, gmef, hml, provenance, dependency-topology, canon-group/tech-ai, canon/navigation, canon/map, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/neural-network, topic/knowledge-graph, topic/vault-navigation]
 
-aliases:
-  - AMOS Neural Network
+aliases: "- AMOS Neural Network
   - AMOS Vault Neural Network
   - AMOS Knowledge Graph Hub
-  - AMOS OS Graph Hub
-  - AMOS Vault Connectivity Map
-
-related:
-  - "README|AMOS OS Root"
-  - "00_ROOT_MOC|MOC"
-  - "ARCHITECTURE|Architecture"
-  - "FULL_TREE|Full Tree"
-  - "SYSTEM_MAP|System Map"
-  - "DEPENDENCY_MAP|Dependency Map"
-  - "AUTHORITATIVE_STATE|Authoritative State"
-  - "00_ROOT_NAMING_STANDARD|Naming Standard"
-  - "PLACEMENT_RULES|AMOS OS"
----
+  - AMOS OS Graph H..."
+related: "see body"---
 
 
 

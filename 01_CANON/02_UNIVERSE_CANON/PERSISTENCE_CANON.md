@@ -23,23 +23,11 @@ updated: 2026-08-25
 
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, persistence, durable-state, provenance, persistent-provenance, causal-lineage, state, memory, rscf, mvcc, cas, atomicity, epoch, finality, recovery, rollback, supersession, versioning, integrity, canon-group/tech-ai, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/persistence-canon]
 
-aliases:
-  - AMOS Persistence Canon
+aliases: "- AMOS Persistence Canon
   - Persistence Canon
   - AMOS Durable State Canon
-  - AMOS Persistent Provenance Canon
-  - AMOS State Continuity Canon
-
-related:
-  - "README|AMOS OS"
-  - "ARCHITECTURE|Architecture"
-  - "SYSTEM_MAP|System Map"
-  - "CANON_MAP|Canon Map"
-  - "AMOS_CORE_LAWS|AMOS Core Laws"
-  - "INVARIANT_REGISTRY|Invariant Registry"
-  - "LAW_HIERARCHY|Law Hierarchy"
-  - "HML_CANON|H/M/L Canon"
----
+  - AMOS Persistent Prov..."
+related: "see body"---
 
 
 

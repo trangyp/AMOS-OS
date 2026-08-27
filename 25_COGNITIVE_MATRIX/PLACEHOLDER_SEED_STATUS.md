@@ -7,11 +7,10 @@ status: "PARTIAL_STRUCTURAL_SEED → CONTRACT_FILLED (2026-08-26)"
 epistemic_class: "DERIVED"
 artifact_class: "STRUCTURAL_SEED_STATUS"
 system: "AMOS Cognitive Matrix"
-scope:
-  - "01_PRIMITIVES"
+scope: "- "01_PRIMITIVES"
   - "02_LIFECYCLE_OPERATIONS"
   - "03_CONTROL_PLANES"
-  - "04_SCALES"
+  - "04_SCALES"..."
 tags: [note, 25-cognitive-matrix]
 ---
 

@@ -3,31 +3,24 @@ title: "L00_REALITY_ENVIRONMENT — Protocols"
 type: protocol
 aliases:
 
-* "AMOS Reality Environment Protocols"
-* "L00 Reality Protocols"
-* "AMOS Reality Interaction Protocol"
-  canon-type: architecture
-  rscf-class: MODEL
-  rscf-state: conditional
-  amos-layer: L00_REALITY_ENVIRONMENT
-  architecture-role: reality-environment-protocol-substrate
-  origin-architect: "Trang Phan"
-  status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-  tags:
-* amos
-* reality-environment
-* protocols
-* control-plane
-* evidence
-* provenance
-* authority
-* commit
-* transactions
-* observation
-* validation
-* recovery
-* hml
-* rscf
+- "AMOS Reality Environment Protocols"
+- "L00 Reality Protocols"
+- "AMOS Reality Interaction Protocol"
+canon-type: "see body"
+- amos
+- reality-environment
+- protocols
+- control-plane
+- evidence
+- provenance
+- authority
+- commit
+- transactions
+- observation
+- validation
+- recovery
+- hml
+- rscf
 tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---

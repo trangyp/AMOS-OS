@@ -21,58 +21,15 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-scope:
-  - AMOS_OS
-  - architecture
-  - canon
-  - kernel
-  - control_plane
-  - runtime
-  - cognition
-  - agents
-  - skills
-  - workflows
-  - protocols
-  - memory
-  - knowledge
-  - state
-  - models
-  - tools
-  - interfaces
-  - schemas
-  - provenance
-  - observability
-  - security
-  - tests
-  - operations
-  - domains
-  - modes
-  - research
-  - archive
-  - cognitive_matrix
-
+scope: "see body"
 tags: [amos, amos_os, root, amos-os, roadmap, architecture-roadmap, system-evolution, implementation, validation, promotion, lifecycle, canon, kernel, control-plane, runtime, cognition, cognitive-organism, agents, skills, workflows, protocols, memory, knowledge, state, models, tools, interfaces, schemas, provenance, observability, security, tests, operations, domains, modes, research, archive, cognitive-matrix, rscf, gmef, hml, dependency-closure, failure-recovery, migration, regression, governance, authority, canon-group/tech-ai, canon/roadmap, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/roadmap, topic/system-promotion, topic/operational-maturity]
 
-aliases:
-  - AMOS Roadmap
+aliases: "- AMOS Roadmap
   - AMOS OS Roadmap
   - AMOS Implementation Roadmap
   - AMOS Promotion Roadmap
-  - AMOS Operational Maturity Roadmap
-
-related:
-  - "README|AMOS OS"
-  - "00_ROOT_MOC|MOC"
-  - "NEURAL_NETWORK|Neural Network"
-  - "ARCHITECTURE|Architecture"
-  - "FULL_TREE|Full Tree"
-  - "SYSTEM_MAP|System Map"
-  - "DEPENDENCY_MAP|Dependency Map"
-  - "AUTHORITATIVE_STATE|Authoritative State"
-  - "00_ROOT_NAMING_STANDARD|Naming Standard"
-  - "PLACEMENT_RULES|Placement Rules"
-  - "AMOS_7_PART_UNIVERSE_CANON|7-Part Universe Canon"
----
+  - AM..."
+related: "see body"---
 
 
 

@@ -1,10 +1,9 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — README"
 type: cognitive
-aliases:
-  - "AMOS Reality Environment README"
+aliases: "- "AMOS Reality Environment README"
   - "L00 Reality Environment"
-  - "AMOS Reality Grounding Layer"
+  - "AMOS Reality Grounding Layer"..."
 canon-type: architecture
 rscf-class: MODEL
 rscf-state: conditional

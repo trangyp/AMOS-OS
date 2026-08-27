@@ -11,27 +11,18 @@ canon_status: "NON_CANONICAL"
 validation_status: "UNVALIDATED"
 research_status: "OPEN"
 language: "vi"
-domains:
-  - quantum_systems
+domains: "- quantum_systems
   - ontology
   - emergence
   - causal_dynamics
   - complex_systems
   - cognition
-  - civilization
-frameworks:
-  - Trang_Framework
+ ..."
+frameworks: "- Trang_Framework
   - HML
-  - recursive_survival_dynamics
+  - recursive_survival_dynamics..."
 proposed_location: "22_RESEARCH/03_COMPETING_MODELS"
-cross_links:
-  - "21_DOMAINS/41_QUANTUM_SYSTEMS"
-  - "21_DOMAINS/23_C04_BIO_NEURO"
-  - "21_DOMAINS/25_C06_SOCIETY_CULTURE"
-  - "02_KERNEL/03_CAUSAL"
-  - "02_KERNEL/09_INTEGRATION"
-  - "22_RESEARCH/02_EXPERIMENTS"
-  - "22_RESEARCH/04_VALIDATION"
+cross_links: "see body"
 tags: [knowledge, note]
 
 ---

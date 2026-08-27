@@ -3,39 +3,32 @@ title: "L00_REALITY_ENVIRONMENT — Failure Modes"
 type: failure-mode
 aliases:
 
-* "AMOS Reality Environment Failure Modes"
-* "L00 Reality Failure Architecture"
-* "Reality Contact Failure Modes"
-  canon-type: architecture
-  rscf-class: MODEL
-  rscf-state: conditional
-  amos-layer: L00_REALITY_ENVIRONMENT
-  architecture-role: failure-detection-recovery-contract
-  origin-architect: "Trang Phan"
-  status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-  tags:
-* amos
-* reality-environment
-* failure-modes
-* reality-contact
-* grounding
-* observation
-* evidence
-* provenance
-* drift
-* control-plane
-* recovery
-* rscf/D-distinction
-* rscf/G-relation
-* rscf/C-constraint
-* rscf/B-boundary
-* rscf/M-memory
-* rscf/S-state
-* rscf/T-topology
-* rscf/P-repair
-* rscf/Z-collapse
-* rscf/X-cross-scale
-* rscf/type-model
+- "AMOS Reality Environment Failure Modes"
+- "L00 Reality Failure Architecture"
+- "Reality Contact Failure Modes"
+canon-type: "see body"
+- amos
+- reality-environment
+- failure-modes
+- reality-contact
+- grounding
+- observation
+- evidence
+- provenance
+- drift
+- control-plane
+- recovery
+- rscf/D-distinction
+- rscf/G-relation
+- rscf/C-constraint
+- rscf/B-boundary
+- rscf/M-memory
+- rscf/S-state
+- rscf/T-topology
+- rscf/P-repair
+- rscf/Z-collapse
+- rscf/X-cross-scale
+- rscf/type-model
 tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---

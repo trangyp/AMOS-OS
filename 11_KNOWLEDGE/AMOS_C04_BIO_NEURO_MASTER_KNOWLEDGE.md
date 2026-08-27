@@ -12,24 +12,8 @@ language: "en"
 architecture: "HML_fractal_single_file"
 placeholder_status: "NONE"
 version: "1.1"
-source_lineage:
-  - "amos-main-core-biological"
-  - "amos-biological-programming"
-  - "amos-origin-of-logic-biological"
-  - "amos-trust-biological-currency"
-  - "amos-governance-biological-foundations"
-  - "amos-leadership-biological-foundations"
-  - "amos-quantum-biological-business"
-source_family_mapping:
-  - "F01_biological_system_mapping"
-  - "F02_homeostasis_and_regulation"
-  - "F03_neuro_and_signal_processing"
-  - "F04_immune_defense_repair"
-  - "F05_evolution_adaptation_learning"
-  - "F06_bio_social_coupling_trust_stress"
-  - "F07_organizational_biological_models"
-  - "F08_ubbi_alignment_governance"
-  - "F09_neuro_plausibility_firewall"
+source_lineage: "see body"
+source_family_mapping: "see body"
 tags: [knowledge, note]
 
 ---

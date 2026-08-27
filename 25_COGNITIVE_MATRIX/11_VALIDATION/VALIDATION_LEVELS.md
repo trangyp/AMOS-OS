@@ -12,37 +12,9 @@ validation_status: "ARCHITECTURE_DEFINED"
 implementation_status: "PARTIAL_OR_UNKNOWN"
 gap_status: "OPEN"
 
-parent:
-  - "11_VALIDATION"
-
-scope:
-  - validation_levels
-  - epistemic_validation
-  - structural_validation
-  - implementation_validation
-  - behavioral_validation
-  - empirical_validation
-  - causal_validation
-  - cross_regime_validation
-  - integration_validation
-  - authority_validation
-  - deployment_validation
-  - operational_validation
-  - longitudinal_validation
-  - supersession_validation
-
-runtime_dependencies:
-  - "AMOS_FULL_BRAIN_OS"
-  - "AMOS_OS_KERNEL_v4.4"
-  - "RSCF"
-  - "HML"
-  - "PROVENANCE"
-  - "COMPETING_HYPOTHESES"
-  - "SCOPE_REGIME_FIREWALL"
-  - "CAUSAL_FIREWALL"
-  - "INFRASTRUCTURE_CONTROL_PLANE"
-  - "OBSERVABILITY"
-
+parent: "- "11_VALIDATION"..."
+scope: "see body"
+runtime_dependencies: "see body"
 hard_rule: "VALIDATION_LEVEL != TRUTH_LEVEL != AUTHORITY_LEVEL"
 tags: [note, 11-validation]
 ---

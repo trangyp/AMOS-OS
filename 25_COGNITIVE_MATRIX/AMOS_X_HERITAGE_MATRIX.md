@@ -28,15 +28,11 @@ executable_binding: "NOT_ASSUMED"
 
 ingestion_action: "NATIVE_CANON_INGESTION"
 
-primary_sources:
-  - "Google Drive/heritage_intelligence.md"
+primary_sources: "- "Google Drive/heritage_intelligence.md"
   - "Google Drive/HERITAGE INTELLIGENCE.md"
-  - "Google Drive/HERITAGE INTELLIGENCE™.md"
-
-supporting_sources:
-  - "Google Drive/AMOS all frameworks.md"
-  - "Google Drive/trang_amos_reality_architecture_master_max_detail.md"
-
+  - "Google Dr..."
+supporting_sources: "- "Google Drive/AMOS all frameworks.md"
+  - "Google Drive/trang_amos_reality_architecture_master_max..."
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf_state: "source_grounded_model"

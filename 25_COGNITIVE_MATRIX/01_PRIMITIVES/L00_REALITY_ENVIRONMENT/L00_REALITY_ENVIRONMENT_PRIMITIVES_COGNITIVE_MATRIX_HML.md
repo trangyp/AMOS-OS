@@ -3,38 +3,31 @@ title: "L00_REALITY_ENVIRONMENT — H/M/L Architecture"
 type: cognitive
 aliases:
 
-* "AMOS Reality Environment HML"
-* "L00 Reality HML"
-* "Reality Environment Cross-Scale Architecture"
-  canon-type: architecture
-  rscf-class: MODEL
-  rscf-state: conditional
-  amos-layer: L00_REALITY_ENVIRONMENT
-  architecture-role: hierarchical-cross-scale-reality-reasoning
-  origin-architect: "Trang Phan"
-  status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-  tags:
-* amos
-* reality-environment
-* hml
-* cross-scale
-* hierarchy
-* reality-contact
-* observation
-* evidence
-* provenance
-* scope
-* regime
-* control-plane
-* rscf/D-distinction
-* rscf/G-relation
-* rscf/C-constraint
-* rscf/B-boundary
-* rscf/M-memory
-* rscf/S-state
-* rscf/T-topology
-* rscf/X-cross-scale
-* rscf/type-model
+- "AMOS Reality Environment HML"
+- "L00 Reality HML"
+- "Reality Environment Cross-Scale Architecture"
+canon-type: "see body"
+- amos
+- reality-environment
+- hml
+- cross-scale
+- hierarchy
+- reality-contact
+- observation
+- evidence
+- provenance
+- scope
+- regime
+- control-plane
+- rscf/D-distinction
+- rscf/G-relation
+- rscf/C-constraint
+- rscf/B-boundary
+- rscf/M-memory
+- rscf/S-state
+- rscf/T-topology
+- rscf/X-cross-scale
+- rscf/type-model
 tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---

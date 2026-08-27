@@ -21,12 +21,10 @@ updated: 2026-08-25
 
 tags: [amos-os, amos_os, root, canon-group/tech-ai, canon/model, state, state/authoritative, state/epoch, state/lifecycle, state/validation, state/recovery, state/mvcc, state/cas, provenance, provenance/persistent, provenance/lineage, governance, governance/authority, governance/commit, kernel/dependency, kernel/atomicity, kernel/validation, rscf/state/model, topic/authoritative-state, topic/state-transition, topic/commit-integrity]
 
-aliases:
-  - AMOS OS Authoritative State
+aliases: "- AMOS OS Authoritative State
   - Authoritative State
   - AMOS Authoritative State
-  - AUTHORITATIVE_STATE
----
+  - AUTHORITATIVE..."---
 
 
 

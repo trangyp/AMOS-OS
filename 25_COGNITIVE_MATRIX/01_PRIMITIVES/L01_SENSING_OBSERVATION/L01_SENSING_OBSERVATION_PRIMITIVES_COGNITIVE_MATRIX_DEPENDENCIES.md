@@ -3,14 +3,14 @@ title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX DEPENDENCIES
 type: dependency
 
 tags: [amos]
-* cognitive-matrix
-* l01
-* sensing
-* observation
-* dependencies
-* provenance
-* control-plane
-* rscf
+- cognitive-matrix
+- l01
+- sensing
+- observation
+- dependencies
+- provenance
+- control-plane
+- rscf
 
 ---
 

@@ -4,37 +4,35 @@ title: "AMOS Evidence Tensor Architecture"
 type: tensor
 aliases:
 
-* "Evidence Tensor"
-* "RSCF Evidence Tensor"
-* "AMOS Evidence State Tensor"
-* "Provenance-Bound Evidence Architecture"
-  canon-type: architecture
-  rscf-class: MODEL
+- "Evidence Tensor"
+- "RSCF Evidence Tensor"
+- "AMOS Evidence State Tensor"
+- "Provenance-Bound Evidence Architecture"
+canon-type: "rscf-class: MODEL
   amos-layer: evidence-control
   architecture-version: "v1.0"
-  author: "Trang Phan"
-  tags:
-* amos
-* rscf
-* evidence-tensor
-* provenance
-* ancestry
-* independence
-* freshness
-* scope
-* regime
-* falsification
-* quarantine
-* revocation
-* evidence-quality
-* ai-architecture
-* rscf/D-distinction
-* rscf/G-relation
-* rscf/C-constraint
-* rscf/S-state
-* rscf/T-topology
-* rscf/M-memory
-* rscf/type-evidence
+  author: "Trang Pha..."
+- amos
+- rscf
+- evidence-tensor
+- provenance
+- ancestry
+- independence
+- freshness
+- scope
+- regime
+- falsification
+- quarantine
+- revocation
+- evidence-quality
+- ai-architecture
+- rscf/D-distinction
+- rscf/G-relation
+- rscf/C-constraint
+- rscf/S-state
+- rscf/T-topology
+- rscf/M-memory
+- rscf/type-evidence
 tags: [tensor, knowledge, vault]
 ---
 

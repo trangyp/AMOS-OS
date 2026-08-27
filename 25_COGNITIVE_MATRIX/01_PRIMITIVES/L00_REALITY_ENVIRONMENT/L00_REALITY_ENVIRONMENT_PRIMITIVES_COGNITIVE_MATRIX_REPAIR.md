@@ -1,10 +1,9 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Repair"
 type: cognitive
-aliases:
-  - "AMOS Reality Environment Repair"
+aliases: "- "AMOS Reality Environment Repair"
   - "L00 Reality Repair"
-  - "AMOS Reality Recovery Architecture"
+  - "AMOS Reality Recovery Architecture..."
 canon-type: architecture
 rscf-class: MODEL
 rscf-state: conditional

@@ -1,10 +1,9 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Skills"
 type: skill
-aliases:
-  - "AMOS Reality Environment Skills"
+aliases: "- "AMOS Reality Environment Skills"
   - "L00 Reality Skills"
-  - "Reality Grounding Skill Architecture"
+  - "Reality Grounding Skill Architectu..."
 canon-type: architecture
 rscf-class: MODEL
 rscf-state: conditional

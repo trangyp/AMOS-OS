@@ -23,23 +23,11 @@ updated: 2026-08-25
 
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, seven-part-universe, architecture, system-boundary, decomposition, integration, authority, provenance, state, cognition, execution, environment, governance, rscf, hml, canon-group/tech-ai, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-7-part-universe]
 
-aliases:
-  - AMOS 7-Part Universe
+aliases: "- AMOS 7-Part Universe
   - AMOS Seven-Part Universe
   - AMOS Universe Canon
-  - AMOS Universal Partition Model
-  - AMOS 7-Part Architecture
-
-related:
-  - "README|AMOS OS"
-  - "ARCHITECTURE|Architecture"
-  - "SYSTEM_MAP|System Map"
-  - "NEURAL_NETWORK|AMOS Neural Network"
-  - "CANON_MAP|Canon Map"
-  - "AMOS_CORE_LAWS|AMOS Core Laws"
-  - "INVARIANT_REGISTRY|Invariant Registry"
-  - "LAW_HIERARCHY|Law Hierarchy"
----
+  - AMOS Universal Parti..."
+related: "see body"---
 
 
 

@@ -1,10 +1,9 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Purpose"
 type: cognitive
-aliases:
-  - "AMOS Reality Environment Purpose"
+aliases: "- "AMOS Reality Environment Purpose"
   - "L00 Purpose"
-  - "AMOS Reality Interface Purpose"
+  - "AMOS Reality Interface Purpose"..."
 canon-type: architecture
 rscf-class: MODEL
 rscf-state: conditional

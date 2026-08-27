@@ -22,28 +22,11 @@ updated: 2026-08-25
 
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, registry, universal-variable-registry, variables, symbols, units, types, semantics, scope, provenance, epistemics, uncertainty, causality, state, cognition, rscf, hml, canon-group/meta, canon/registry, topic/variables, topic/semantic-identity]
 
-aliases:
-  - AMOS Universal Variable Registry
+aliases: "- AMOS Universal Variable Registry
   - Universal Variable Registry
   - AMOS Variable Registry
-  - AMOS Semantic Variable Registry
-  - UVR
-
-related:
-  - "README|AMOS OS"
-  - "ARCHITECTURE|Architecture"
-  - "CANON_MAP|Canon Map"
-  - "AMOS_CORE_LAWS|AMOS Core Laws"
-  - "INVARIANT_REGISTRY|Invariant Registry"
-  - "LAW_HIERARCHY|Law Hierarchy"
-  - "SYMBOL_REGISTRY|Symbol Registry"
-  - "UNIT_REGISTRY|Unit Registry"
-  - "HML_CANON|H/M/L Canon"
-  - "PERSISTENCE_CANON|Persistence Canon"
-  - "COGNITION_CANON|Cognition Canon"
-  - "AUTHORITY_CANON|Authority Canon"
-  - "SCHEMA_MAP|Schema Map"
----
+  - AM..."
+related: "see body"---
 
 
 

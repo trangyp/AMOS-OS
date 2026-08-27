@@ -4,38 +4,36 @@ title: "AMOS Claim Tensor Architecture"
 type: tensor
 aliases:
 
-* "Claim Tensor"
-* "RSCF Claim Tensor"
-* "AMOS Claim State Tensor"
-* "Proof-Carrying Claim Architecture"
-  canon-type: architecture
-  rscf-class: MODEL
+- "Claim Tensor"
+- "RSCF Claim Tensor"
+- "AMOS Claim State Tensor"
+- "Proof-Carrying Claim Architecture"
+canon-type: "rscf-class: MODEL
   amos-layer: epistemic-control
   architecture-version: "v1.0"
-  author: "Trang Phan"
-  tags:
-* amos
-* rscf
-* claim-tensor
-* epistemology
-* provenance
-* scope
-* causal-reasoning
-* competing-hypotheses
-* falsification
-* confidence
-* sensitivity
-* governance
-* compression
-* ai-architecture
-* rscf/D-distinction
-* rscf/G-relation
-* rscf/C-constraint
-* rscf/S-state
-* rscf/T-topology
-* rscf/M-memory
-* rscf/K-compression
-* rscf/type-system
+  author: "Trang Ph..."
+- amos
+- rscf
+- claim-tensor
+- epistemology
+- provenance
+- scope
+- causal-reasoning
+- competing-hypotheses
+- falsification
+- confidence
+- sensitivity
+- governance
+- compression
+- ai-architecture
+- rscf/D-distinction
+- rscf/G-relation
+- rscf/C-constraint
+- rscf/S-state
+- rscf/T-topology
+- rscf/M-memory
+- rscf/K-compression
+- rscf/type-system
 tags: [tensor, knowledge, vault]
 ---
 

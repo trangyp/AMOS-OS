@@ -21,37 +21,20 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-scope:
-  - AMOS_OS
+scope: "- AMOS_OS
   - canon
   - canonical_definitions
   - canonical_laws
   - canonical_models
-  - provenance
-  - supersession
-  - canon_governance
-  - dependency_lineage
-  - epistemic_classification
-
+  - provenance..."
 tags: [amos, canon, universe, amos-os, canon-root, canonical-authority, canonical-definitions, canonical-laws, canonical-models, provenance, provenance-topology, rscf, gmef, hml, dependency-closure, lineage, supersession, promotion, deprecation, archive, scope, regime, freshness, epistemic-class, competing-hypotheses, causal-firewall, canon-group/tech-ai, canon/root, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/canon, topic/canonical-authority]
 
-aliases:
-  - AMOS Canon
+aliases: "- AMOS Canon
   - AMOS OS Canon
   - AMOS Canon Root
   - AMOS Canon Plane
-  - AMOS Canonical Authority Layer
-
-related:
-  - "README|AMOS OS"
-  - "ARCHITECTURE|Architecture"
-  - "SYSTEM_MAP|System Map"
-  - "DEPENDENCY_MAP|Dependency Map"
-  - "AUTHORITATIVE_STATE|Authoritative State"
-  - "00_ROOT_NAMING_STANDARD|Naming Standard"
-  - "PLACEMENT_RULES|Placement Rules"
-  - "CANON_MAP|Canon Map"
----
+  - AMOS Canonical Authority..."
+related: "see body"---
 
 
 

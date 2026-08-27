@@ -12,22 +12,8 @@ language: "en"
 architecture: "HML_fractal_single_file"
 placeholder_status: "NONE"
 version: "1.1"
-source_lineage:
-  - "AMOS_C11_design_language_SUPER.md"
-  - "amos-design-language-super / amos-design-kernel / amos-design-engine-v3 lineage"
-  - "amos-fractal-vietnamese-language / amos-vietnamese-root-language lineage"
-  - "amos-vietnamese-writing-engine (TRANG_SUPERWRITER_ENGINE v1.0–v8.0)"
-  - "amos-academic-writing-kernel v1.1"
-  - "AMOS_EXPRESSION_TRANSLATION_vInfinity_v4 (amos-expression-translation-engine / -vinfinity)"
-source_family_mapping:
-  - "F01_design_engine_lineage"
-  - "F02_visual_and_structural_design_language"
-  - "F03_vietnamese_fractal_language_analysis"
-  - "F04_vietnamese_executive_writing_engine"
-  - "F05_academic_writing_kernel"
-  - "F06_expression_translation_envelopes"
-  - "F07_tone_style_and_aesthetic_governance"
-  - "F08_evaluation_falsification_and_quality_gates"
+source_lineage: "see body"
+source_family_mapping: "see body"
 tags: [knowledge, note]
 
 ---

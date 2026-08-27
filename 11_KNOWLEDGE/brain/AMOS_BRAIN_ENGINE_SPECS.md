@@ -8,15 +8,7 @@ tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, r
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
-sources:
-  - "_00_AMOS_CANON/Core/AMOS_Cognition_Engine_v0.json"
-  - "_00_AMOS_CANON/Core/AMOS_Mind_Os_v0.json"
-  - "_00_AMOS_CANON/Core/AMOS_Emotion_Engine_v0.json"
-  - "_00_AMOS_CANON/Core/AMOS_Consciousness_Engine_v0.json"
-  - "_00_AMOS_CANON/Core/AMOS_Os_Agent_v0.json"
-  - "_00_AMOS_CANON/AMOS_MAX_EXPANDED.json"
-  - "_00_AMOS_CANON/AMOS_Speed_Engine_v0.json"
----
+sources: "see body"---
 
 
 # AMOS Brain Engine Specs

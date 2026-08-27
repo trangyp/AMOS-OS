@@ -12,22 +12,8 @@ language: "en"
 architecture: "HML_fractal_single_file"
 placeholder_status: "NONE"
 version: "1.1"
-source_lineage:
-  - "AMOS_BizFin_Engine (amos-bizfin-engine)"
-  - "AMOS_Bizfin_Kernel_v0 (amos-bizfin-kernel-v0)"
-  - "AMOS_QUANTUM_OS financial routing + econ_finance_SUPER_MAX registry (amos-quantum-financial-system)"
-  - "FRACTAL FOREX ENTERPRISE.md + AMOS FX Validation Updates (amos-omega-fx-structural-engine)"
-  - "amos-investment-framework (reasoning category)"
-source_family_mapping:
-  - "F01_system_mapping"
-  - "F02_market_regime_dynamics"
-  - "F03_business_and_corporate_finance"
-  - "F04_market_sizing_and_forecasting"
-  - "F05_fx_structural_analysis"
-  - "F06_risk_and_scenario_systems"
-  - "F07_data_measurement_and_indicators"
-  - "F08_investment_reasoning_and_governance"
-  - "F09_meta_finance_governance_and_boundaries"
+source_lineage: "see body"
+source_family_mapping: "see body"
 tags: [knowledge, note]
 
 ---

@@ -9,16 +9,16 @@ topic: rscf-tag-migrate
 status: proposed
 version: v1.0
 tags: [canon, rscf, epistemic]
-* migration
-* provenance
-* rscf
-* rscf/M-memory
-* rscf/P-repair
-* rscf/S-state
-* rscf/T-topology
-* rscf/type-process
-* schema-migration
-* tag-governance
+- migration
+- provenance
+- rscf
+- rscf/M-memory
+- rscf/P-repair
+- rscf/S-state
+- rscf/T-topology
+- rscf/type-process
+- schema-migration
+- tag-governance
 
 ---
 

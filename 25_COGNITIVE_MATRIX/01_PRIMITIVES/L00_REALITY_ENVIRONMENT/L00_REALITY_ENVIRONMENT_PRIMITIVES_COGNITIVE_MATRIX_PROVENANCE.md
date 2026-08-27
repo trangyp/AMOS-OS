@@ -1,10 +1,9 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Provenance"
 type: provenance
-aliases:
-  - "AMOS Reality Provenance"
+aliases: "- "AMOS Reality Provenance"
   - "L00 Provenance"
-  - "AMOS Provenance Architecture"
+  - "AMOS Provenance Architecture"..."
 canon-type: architecture
 rscf-class: MODEL
 rscf-state: conditional

@@ -23,31 +23,11 @@ updated: 2026-08-25
 
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, full-brain-os, cognitive-architecture, cognitive-organism, cognition, intelligence, reasoning, memory, knowledge, learning, agents, skills, workflows, models, rscf, hml, provenance, uncertainty, metacognition, adaptive-complexity, governed-evolution, canon-group/tech-ai, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/full-brain-os]
 
-aliases:
-  - AMOS Full Brain OS
+aliases: "- AMOS Full Brain OS
   - Full Brain OS
   - AMOS Full Brain Architecture
-  - AMOS Brain OS
-
-related:
-  - "README|AMOS OS"
-  - "ARCHITECTURE|Architecture"
-  - "SYSTEM_MAP|System Map"
-  - "NEURAL_NETWORK|AMOS Neural Network"
-  - "CANON_MAP|Canon Map"
-  - "AMOS_CORE_LAWS|AMOS Core Laws"
-  - "INVARIANT_REGISTRY|Invariant Registry"
-  - "LAW_HIERARCHY|Law Hierarchy"
-  - "AMOS_7_PART_UNIVERSE_CANON|AMOS 7 Part Universe Canon"
-  - "HML_CANON|H/M/L Canon"
-  - "PERSISTENCE_CANON|Persistence Canon"
-  - "COGNITION_CANON|Cognition Canon"
-  - "COGNITIVE_ORGANISM_CANON|Cognitive Organism Canon"
-  - "COGNITIVE_ORGANISM_MAP|Cognitive Organism Map"
-  - "MEMORY_MEMORY_MAP|Memory Map"
-  - "AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture"
-  - "COGNITIVE_MATRIX_ARCHITECTURE|Cognitive Matrix"
----
+  - AMOS Brain OS..."
+related: "see body"---
 
 
 

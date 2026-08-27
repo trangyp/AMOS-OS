@@ -8,14 +8,13 @@ status: "governed strategic model"
 runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 reasoning pattern"
 governance_layer: "AMOS infrastructure/control plane"
 economic_model: "segment → paid problem → value proposition → pricing → offer → purchase → delivery → retention → contribution margin → strategic fit → scale/iterate/stop"
-epistemic_classes:
-  - SOURCE_CLAIM
+epistemic_classes: "- SOURCE_CLAIM
   - OBSERVATION
   - DERIVED
   - AMOS_MODEL
   - DECISION
   - COMPETING
-  - UNKNOWN_GAP
+  - UNKNOWN_GAP..."
 conclusion_class: "CONDITIONAL"
 version: "2.0-deep"
 date: "2026-08-25"

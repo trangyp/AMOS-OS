@@ -12,44 +12,10 @@ validation_status: "ARCHITECTURE_DEFINED"
 implementation_status: "PARTIAL_OR_UNKNOWN"
 gap_status: "OPEN"
 
-parent:
-  - "11_VALIDATION"
-  - "11_VALIDATION/VALIDATION_LEVELS.md"
-
-scope:
-  - validation_evidence
-  - evidence_typing
-  - evidence_admission
-  - evidence_provenance
-  - evidence_independence
-  - evidence_freshness
-  - evidence_scope
-  - evidence_regime
-  - evidence_quality
-  - evidence_conflict
-  - evidence_aggregation
-  - evidence_invalidation
-  - evidence_revalidation
-  - causal_evidence
-  - empirical_evidence
-  - implementation_evidence
-  - operational_evidence
-  - validator_evidence
-  - proof_capsule_evidence
-
-runtime_dependencies:
-  - "AMOS_FULL_BRAIN_OS"
-  - "AMOS_OS_KERNEL_v4.4"
-  - "RSCF"
-  - "HML"
-  - "PROVENANCE"
-  - "COMPETING_HYPOTHESES"
-  - "CAUSAL_FIREWALL"
-  - "SCOPE_REGIME_FIREWALL"
-  - "INFRASTRUCTURE_CONTROL_PLANE"
-  - "OBSERVABILITY"
-  - "11_VALIDATION/VALIDATION_LEVELS.md"
-
+parent: "- "11_VALIDATION"
+  - "11_VALIDATION/VALIDATION_LEVELS.md"..."
+scope: "see body"
+runtime_dependencies: "see body"
 hard_rule: "EVIDENCE != CLAIM != VALIDATION != AUTHORITY != COMMIT"
 tags: [note, 11-validation]
 ---

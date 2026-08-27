@@ -1,10 +1,9 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — RSCF"
 type: cognitive
-aliases:
-  - "AMOS Reality Environment RSCF"
+aliases: "- "AMOS Reality Environment RSCF"
   - "L00 Reality RSCF"
-  - "Reality Evidence Proof Architecture"
+  - "Reality Evidence Proof Architecture"..."
 canon-type: architecture
 rscf-class: MODEL
 rscf-state: conditional

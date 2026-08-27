@@ -22,43 +22,18 @@ steward: "Trang Phan"
 created: "2026-08-25"
 updated: "2026-08-25"
 
-scope:
-  - AMOS_OS
+scope: "- AMOS_OS
   - repository_architecture
   - runtime_architecture
   - cognition_architecture
-  - governance_architecture
-  - agent_architecture
-  - knowledge_architecture
-
+  - govern..."
 tags: [amos, amos_os, root, amos-os, architecture, system-architecture, root-architecture, operating-system, cognitive-architecture, agent-architecture, runtime, kernel, control-plane, governance, provenance, rscf, gmef, hml, fractal-knowledge-network, memory, state, knowledge, skills, workflows, protocols, tools, models, observability, security, testing, operations, domains, cognitive-matrix, canon-group/tech-ai, canon/architecture, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/system-architecture, topic/cognitive-operating-system]
 
-aliases:
-  - AMOS OS Architecture
+aliases: "- AMOS OS Architecture
   - AMOS Root Architecture
   - AMOS System Architecture
-  - AMOS Operating Architecture
-  - AMOS Cognitive Operating Architecture
-
-related:
-  - "[[00_HOME]]"
-  - "[[FULL_TREE]]"
-  - "[[SYSTEM_MAP]]"
-  - "[[AUTHORITATIVE_STATE]]"
-  - "[[DEPENDENCY_MAP]]"
-  - "NAMING_STANDARD"
-  - "[[PLACEMENT_RULES]]"
-  - "[[ROADMAP]]"
-  - "[[AMOS_CORE_LAWS]]"
-  - "[[FULL_BRAIN_OS_CANON]]"
-  - "[[CONTROL_PLANE_CANON]]"
-  - "[[AUTHORITY_CANON]]"
-  - "[[COGNITION_CANON]]"
-  - "[[COGNITIVE_ORGANISM_CANON]]"
-  - "[[RSCF_NODE_INDEX]]"
-  - "GMEF"
-  - "[[HML_CANON]]"
----
+  - AMOS Operating Ar..."
+related: "see body"---
 
 
 

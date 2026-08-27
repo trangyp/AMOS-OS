@@ -3,36 +3,29 @@ title: "L00_REALITY_ENVIRONMENT — Dependencies"
 type: dependency
 aliases:
 
-* "AMOS Reality Environment Dependencies"
-* "L00 Dependency Architecture"
-* "Reality Environment Dependency Graph"
-  canon-type: architecture
-  rscf-class: MODEL
-  rscf-state: conditional
-  amos-layer: L00_REALITY_ENVIRONMENT
-  architecture-role: dependency-control
-  origin-architect: "Trang Phan"
-  status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-  tags:
-* amos
-* reality-environment
-* dependencies
-* dependency-graph
-* provenance
-* evidence
-* grounding
-* control-plane
-* selective-invalidation
-* cross-scale
-* rscf/D-distinction
-* rscf/G-relation
-* rscf/C-constraint
-* rscf/B-boundary
-* rscf/M-memory
-* rscf/S-state
-* rscf/T-topology
-* rscf/X-cross-scale
-* rscf/type-system
+- "AMOS Reality Environment Dependencies"
+- "L00 Dependency Architecture"
+- "Reality Environment Dependency Graph"
+canon-type: "see body"
+- amos
+- reality-environment
+- dependencies
+- dependency-graph
+- provenance
+- evidence
+- grounding
+- control-plane
+- selective-invalidation
+- cross-scale
+- rscf/D-distinction
+- rscf/G-relation
+- rscf/C-constraint
+- rscf/B-boundary
+- rscf/M-memory
+- rscf/S-state
+- rscf/T-topology
+- rscf/X-cross-scale
+- rscf/type-system
 tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---

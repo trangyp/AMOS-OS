@@ -12,23 +12,11 @@ language: "en"
 architecture: "HML_fractal_single_file"
 placeholder_status: "NONE"
 version: "1.1"
-source_lineage:
-  - "AMOS Org Governance Kernel"
+source_lineage: "- "AMOS Org Governance Kernel"
   - "AMOS Legal Analysis Skill"
   - "AMOS VN Legal Engine v∞"
-  - "AMOS Chinese Legal Ecosystem Engine v0"
-  - "AMOS Succession Architecture"
-source_family_mapping:
-  - "F01_org_structure_and_decision_rights"
-  - "F02_controls_risk_and_compliance"
-  - "F03_legal_reasoning_primitives"
-  - "F04_jurisdiction_mapping"
-  - "F05_regulatory_and_policy_analysis"
-  - "F06_jurisdiction_specific_ecosystems_vn_cn"
-  - "F07_succession_and_transition_architecture"
-  - "F08_culture_transformation_and_change"
-  - "F09_monitoring_audit_and_governance_data"
-  - "F10_meta_governance_research_bridge"
+  - "AM..."
+source_family_mapping: "see body"
 tags: [knowledge, note]
 
 ---

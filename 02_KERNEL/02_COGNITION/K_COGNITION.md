@@ -21,12 +21,10 @@ updated: 2026-08-25
 
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/foundation, kernel/meta-logic, kernel/reasoning, kernel/inference, kernel/validation, kernel/constraints, kernel/epistemic, kernel/provenance, kernel/dependency, kernel/contradiction, kernel/scope, kernel/regime, kernel/causality, kernel/uncertainty, kernel/proof, kernel/rscf, rscf/claim, rscf/provenance, rscf/state/model, topic/meta-logic]
 
-aliases:
-  - AMOS Meta Logic Kernel
+aliases: "- AMOS Meta Logic Kernel
   - Meta Logic Kernel
   - K Meta Logic
-  - K_META_LOGIC
----
+  - K_META_LOGIC..."---
 
 
 

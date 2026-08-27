@@ -8,10 +8,9 @@ topic: amos-evolutionary-adaptive-systems-soa
 status: proposed-cross-domain-amos-architecture
 version: v2.0
 origin-architect: Trang Phan
-source-lineage:
-  - "ĐIỀU TRỊ UNG THƯ THEO TIẾN HÓA"
+source-lineage: "- "ĐIỀU TRỊ UNG THƯ THEO TIẾN HÓA"
   - "AMOS Human Biology Fractal Architecture"
-  - "AMOS_CORE v4.4 reasoning lineage"
+  - "AMOS_CORE v4.4..."
 language: en
 epistemic-boundary: "Cancer source model and AI transfer remain distinct; cross-domain recurrence is MODEL, not mechanistic identity."
 tags: [amos, system, architecture, evolutionary-oncology, artificial-intelligence, adaptive-systems, s-o-a, resistance, drift, selection-pressure, model-collapse, provenance, rscf, hml, cross-scale]

@@ -17,12 +17,10 @@ version: 1.0.0
 created: 2026-08-25
 updated: 2026-08-25
 tags: [amos-os, canon, universe, canon-group/meta, canon/glossary, canon/semantics, canon/terminology, canon/registry, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/canonical-glossary, topic/semantic-integrity, topic/identity, topic/provenance, topic/epistemics]
-aliases:
-  - AMOS Canonical Glossary
+aliases: "- AMOS Canonical Glossary
   - AMOS OS Glossary
   - Canonical Terminology Registry
-  - AMOS Semantic Glossary
----
+  - AMOS Semantic ..."---
 
 
 

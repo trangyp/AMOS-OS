@@ -23,24 +23,11 @@ updated: 2026-08-25
 
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, hml, fractal-knowledge, knowledge-resolution, retrieval, dependency-closure, rscf, provenance, epistemic-regime, scope, freshness, uncertainty, progressive-disclosure, context-management, evidence, canon-group/tech-ai, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/hml-canon]
 
-aliases:
-  - AMOS HML Canon
+aliases: "- AMOS HML Canon
   - H/M/L Canon
   - AMOS H/M/L Architecture
-  - AMOS Fractal Knowledge Resolution Canon
-  - Hierarchical Knowledge Resolution Canon
-
-related:
-  - "README|AMOS OS"
-  - "ARCHITECTURE|Architecture"
-  - "SYSTEM_MAP|System Map"
-  - "NEURAL_NETWORK|AMOS Neural Network"
-  - "CANON_MAP|Canon Map"
-  - "AMOS_CORE_LAWS|AMOS Core Laws"
-  - "INVARIANT_REGISTRY|Invariant Registry"
-  - "LAW_HIERARCHY|Law Hierarchy"
-  - "AMOS_7_PART_UNIVERSE_CANON|AMOS 7-Part Universe Canon"
----
+  - AMOS Fractal Knowledge Resolution C..."
+related: "see body"---
 
 
 

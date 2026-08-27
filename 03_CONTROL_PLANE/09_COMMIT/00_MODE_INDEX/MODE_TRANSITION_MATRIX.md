@@ -12,23 +12,9 @@ amos_core_target: v4.4
 status: CANDIDATE_CANON
 conclusion_class: DERIVED
 
-source_state:
-  existing_file: PLACEHOLDER
-  recovered_substantive_implementation: false
-
-related_artifacts:
-  - MODE_ADMISSION_QUEUE.md
-  - MODE_COMPOSITION_REGISTRY.md
-  - MODE_CONFLICT_REGISTRY.md
-  - MODE_COVERAGE_MATRIX.md
-  - K_GMEF
-  - K_RSCF
-  - K_HML
-  - K_SYSTEM_STATE
-  - K_CONTEXT_STATE
-  - K_PROVENANCE
-  - K_COMMIT_TIME_AUTHORITY
-
+source_state: "existing_file: PLACEHOLDER
+  recovered_substantive_implementation: false..."
+related_artifacts: "see body"
 implementation_status: SPECIFICATION
 formal_verification_status: NOT_CLAIMED
 empirical_validation_status: NOT_CLAIMED

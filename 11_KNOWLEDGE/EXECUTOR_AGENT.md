@@ -25,12 +25,10 @@ conclusion_class: "SOURCE_CLAIM / STRUCTURAL_MODEL"
 implementation_state: "REGISTERED_STUB"
 runtime_state: "NON_DESTRUCTIVE_TRACE_ONLY"
 
-aliases:
-  - Executor Agent
+aliases: "- Executor Agent
   - AMOS Executor Agent
   - Execution System Executor
-  - Governed Effect Executor
-
+  - Governed Effect Executor..."
 tags: [agents, knowledge, vault, canon-group/tech-ai, canon/component, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/executor-agent, topic/execution-system, topic/effect-execution, topic/commit-governance, topic/agent-runtime]
 
 governing_law: "integrity > completeness > fluency > speed > token savings"

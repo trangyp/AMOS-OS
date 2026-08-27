@@ -6,46 +6,34 @@ stewardship: "Trang Phan / AMOS corpus"
 artifact_type: "governed commercial operating architecture"
 version: "3.0-max-detail"
 date: "2026-08-25"
-runtime_alignment:
-  - "AMOS Full Brain OS"
+runtime_alignment: "- "AMOS Full Brain OS"
   - "AMOS_CORE v4.4 reasoning pattern"
-  - "AMOS Infrastructure / Control Plane"
-  - "RSCF"
-  - "H/M/L"
-  - "TSS"
-  - "TPE"
-  - "UBI"
-  - "QLS"
-source_lineage:
-  - "⭐ KẾ HOẠCH TẠO GIÁ TRỊ KHỔNG LỒ (THE GIANT MONEY PLAN)"
-  - "⭐ TỔNG HỢP – 5000 NĂM DỰ BÁO XUYÊN NỀN VĂN MINH"
-epistemic_classes:
-  - SOURCE_CLAIM
+  - "AMOS Infrastructure / Control Pla..."
+source_lineage: "- "⭐ KẾ HOẠCH TẠO GIÁ TRỊ KHỔNG LỒ (THE GIANT MONEY PLAN)"
+  - "⭐ TỔNG HỢP – 5000 NĂM DỰ BÁO XUYÊN N..."
+epistemic_classes: "- SOURCE_CLAIM
   - OBSERVATION
   - DERIVED
   - MODEL
   - DECISION
   - COMPETING
   - CONDITIONAL
-  - UNKNOWN_GAP
-commercial_states:
-  - IDEA
+  - ..."
+commercial_states: "- IDEA
   - HYPOTHESIS
   - PAID_TEST
   - REPEATABLE
   - LICENSEABLE
   - PRODUCTIZED
   - SCALE_READY
-  - SCALED
-prediction_states:
-  - MODEL
+ ..."
+prediction_states: "- MODEL
   - BACKTESTED
   - LEAKAGE_CHECKED
   - WALK_FORWARD
   - OUT_OF_SAMPLE
   - SHADOW_LIVE
-  - PILOT_VALIDATED
-  - PRODUCTION_MONITORED
+  - PI..."
 conclusion_class: "CONDITIONAL / HIGH-OPTION-VALUE"
 tags: [knowledge, note]
 

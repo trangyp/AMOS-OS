@@ -4,46 +4,37 @@ title: "UBI Omnis™ — AMOS Biological Forecasting & Resilience Intelligence A
 type: note
 aliases:
 
-* "UBI Omnis"
-* "Omnis OS"
-* "UBI Omnis Architecture"
-* "Biological Forecasting OS"
-* "Biological Resilience Intelligence"
-  canon-group: biology-ai
-  canon-type: architecture
-  rscf-state: model
-  rscf-class: MODEL
-  amos-layer: applied-biological-intelligence
-  architecture-version: "v1.0"
-  source-status: source-derived-and-formalized
-  created: 2026-08-25
-  author: "Trang Phan"
-  tags:
-* amos
-* ubi
-* ubi-omnis
-* biological-intelligence
-* biological-forecasting
-* resilience
-* predictive-ai
-* time-series
-* multimodal-ai
-* state-estimation
-* trajectory-forecasting
-* uncertainty
-* cross-scale
-* human-system
-* population-intelligence
-* ecosystem-intelligence
-* rscf/S-state
-* rscf/T-topology
-* rscf/C-constraint
-* rscf/G-relation
-* rscf/X-cross-scale
-* rscf/M-memory
-* rscf/E-entropy
-* rscf/P-repair
-* rscf/type-model
+- "UBI Omnis"
+- "Omnis OS"
+- "UBI Omnis Architecture"
+- "Biological Forecasting OS"
+- "Biological Resilience Intelligence"
+canon-group: "see body"
+- amos
+- ubi
+- ubi-omnis
+- biological-intelligence
+- biological-forecasting
+- resilience
+- predictive-ai
+- time-series
+- multimodal-ai
+- state-estimation
+- trajectory-forecasting
+- uncertainty
+- cross-scale
+- human-system
+- population-intelligence
+- ecosystem-intelligence
+- rscf/S-state
+- rscf/T-topology
+- rscf/C-constraint
+- rscf/G-relation
+- rscf/X-cross-scale
+- rscf/M-memory
+- rscf/E-entropy
+- rscf/P-repair
+- rscf/type-model
 tags: [vietnamese, vietnam, regional]
 ---
 

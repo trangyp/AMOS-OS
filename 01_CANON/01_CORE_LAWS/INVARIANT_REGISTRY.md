@@ -21,42 +21,17 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-scope:
-  - AMOS_OS
-  - AMOS_CORE
-  - CANON
-  - KERNEL
-  - CONTROL_PLANE
-  - RUNTIME
-  - COGNITIVE_ORGANISM
-  - AGENTS
-  - SKILLS
-  - WORKFLOWS
-  - MEMORY
-  - KNOWLEDGE
-  - STATE
-  - MODELS
-  - TOOLS
-  - SECURITY
-  - OPERATIONS
-
+scope: "see body"
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, invariants, invariant-registry, constitutional-invariants, runtime-invariants, integrity, epistemics, provenance, dependency-closure, causality, scope, regime, freshness, authority, governance, rscf, gmef, recovery, anti-regression, canon-group/tech-ai, canon/registry, canon/invariant, rscf/claim, rscf/provenance, rscf/state/derived, topic/invariant-registry]
 
-aliases:
-  - AMOS Invariant Registry
+aliases: "- AMOS Invariant Registry
   - AMOS Core Invariants
   - AMOS Integrity Invariants
-  - AMOS Constitutional Invariants
-  - AMOS v4.4 Invariant Registry
-
-related:
-  - "README|AMOS OS"
+  - AMOS Constituti..."
+related: "- "README|AMOS OS"
   - "ARCHITECTURE|Architecture"
   - "AMOS_CORE_LAWS|AMOS Core Laws"
-  - "CANON_MAP|Canon Map"
-  - "KERNEL_MAP|Kernel Map"
-  - "CONTROL_PLANE_MAP|Control Plane Map"
----
+  - "CANON_MA..."---
 
 
 

@@ -3,38 +3,31 @@ title: "L00_REALITY_ENVIRONMENT — Invariants"
 type: invariant
 aliases:
 
-* "AMOS Reality Environment Invariants"
-* "L00 Reality Invariant Architecture"
-* "Reality Contact Invariants"
-  canon-type: architecture
-  rscf-class: MODEL
-  rscf-state: conditional
-  amos-layer: L00_REALITY_ENVIRONMENT
-  architecture-role: reality-integrity-constraint-system
-  origin-architect: "Trang Phan"
-  status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-  tags:
-* amos
-* reality-environment
-* invariants
-* reality-contact
-* evidence
-* provenance
-* scope
-* regime
-* causality
-* hml
-* control-plane
-* validation
-* repair
-* rscf/C-constraint
-* rscf/D-distinction
-* rscf/G-relation
-* rscf/B-boundary
-* rscf/M-memory
-* rscf/S-state
-* rscf/X-cross-scale
-* rscf/type-model
+- "AMOS Reality Environment Invariants"
+- "L00 Reality Invariant Architecture"
+- "Reality Contact Invariants"
+canon-type: "see body"
+- amos
+- reality-environment
+- invariants
+- reality-contact
+- evidence
+- provenance
+- scope
+- regime
+- causality
+- hml
+- control-plane
+- validation
+- repair
+- rscf/C-constraint
+- rscf/D-distinction
+- rscf/G-relation
+- rscf/B-boundary
+- rscf/M-memory
+- rscf/S-state
+- rscf/X-cross-scale
+- rscf/type-model
 tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---

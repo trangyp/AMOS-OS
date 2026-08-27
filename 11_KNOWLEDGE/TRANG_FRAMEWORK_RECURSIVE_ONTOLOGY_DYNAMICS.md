@@ -11,30 +11,17 @@ canon_status: "NON_CANONICAL"
 validation_status: "UNVALIDATED"
 research_status: "OPEN"
 language: "en"
-domains:
-  - foundational_ontology
+domains: "- foundational_ontology
   - quantum_systems
   - thermodynamics
   - complex_systems
   - emergence
-  - causal_dynamics
-  - biological_systems
-  - cognition
-  - civilization
-  - computation
-frameworks:
-  - Trang_Framework
+  -..."
+frameworks: "- Trang_Framework
   - HML
-  - recursive_survival_dynamics
+  - recursive_survival_dynamics..."
 proposed_location: "22_RESEARCH/03_COMPETING_MODELS"
-cross_links:
-  - "21_DOMAINS/41_QUANTUM_SYSTEMS"
-  - "21_DOMAINS/23_C04_BIO_NEURO"
-  - "21_DOMAINS/25_C06_SOCIETY_CULTURE"
-  - "02_KERNEL/03_CAUSAL"
-  - "02_KERNEL/09_INTEGRATION"
-  - "22_RESEARCH/02_EXPERIMENTS"
-  - "22_RESEARCH/04_VALIDATION"
+cross_links: "see body"
 epistemic_regime: "THEORETICAL_RESEARCH"
 scope: "cross-scale recursive systems modeling"
 freshness_policy: "REVALIDATE_ON_DEPENDENCY_CHANGE"

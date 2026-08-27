@@ -20,12 +20,10 @@ updated: 2026-08-25
 
 tags: [amos-os, canon, universe, canon-group/meta, canon/framework, canon/provenance, canon/lineage, canon/source-lineage, canon/supersession, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/source-lineage, topic/source-ancestry, topic/causal-lineage, topic/provenance-topology, topic/dependency-lineage, topic/version-lineage, topic/supersession, topic/sybil-hardening, topic/persistent-provenance]
 
-aliases:
-  - AMOS Source Lineage
+aliases: "- AMOS Source Lineage
   - AMOS OS Source Lineage
   - Source Ancestry
-  - Canon Source Lineage
----
+  - Canon Source Lineage..."---
 
 
 

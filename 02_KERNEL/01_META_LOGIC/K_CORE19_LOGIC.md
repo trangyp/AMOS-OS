@@ -21,12 +21,10 @@ updated: 2026-08-25
 
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/core19, kernel/logic, kernel/deterministic, kernel/invariants, kernel/state-transition, kernel/dependency, kernel/provenance, kernel/scope, kernel/regime, kernel/validation, kernel/recovery, rscf/claim, rscf/provenance, rscf/state/model, topic/core19, topic/deterministic-logic]
 
-aliases:
-  - CORE19 Logic
+aliases: "- CORE19 Logic
   - K CORE19 LOGIC
   - AMOS CORE19 Logic Kernel
-  - CORE19 Deterministic Logic Kernel
----
+  - CORE19 Deterministic Logic Kernel..."---
 
 
 

@@ -12,21 +12,8 @@ language: "en"
 architecture: "HML_fractal_single_file"
 placeholder_status: "NONE"
 version: "1.1"
-source_lineage:
-  - "AMOS_C08_strategy_game_SUPER.md / AMOS_Strategy_Game_Engine_v0_Cognitive4.md"
-  - "_00_Cosmo brain/2026-08-22 AMOS Go Board 19x19 Formal System.md"
-  - "_00_Cosmo brain/2026-08-22 AMOS 19x19 Formal System — Computational Completeness.md"
-source_family_mapping:
-  - "F01_game_structure_identification"
-  - "F02_payoff_and_incentive_mapping"
-  - "F03_equilibrium_and_dominance_analysis"
-  - "F04_coalition_and_bargaining"
-  - "F05_credible_commitment_and_threats"
-  - "F06_19x19_strategic_field_ontology"
-  - "F07_go_board_formal_system"
-  - "F08_multi_agent_strategy_dynamics"
-  - "F09_negotiation_and_agreement_design"
-  - "F10_meta_strategy_governance"
+source_lineage: "see body"
+source_family_mapping: "see body"
 tags: [knowledge, note]
 
 ---

@@ -3,36 +3,29 @@ title: "L00_REALITY_ENVIRONMENT — Equations"
 type: cognitive
 aliases:
 
-* "AMOS Reality Environment Equations"
-* "L00 Reality Equations"
-* "Reality Environment Formal Architecture"
-  canon-type: architecture
-  rscf-class: MODEL
-  rscf-state: conditional
-  amos-layer: L00_REALITY_ENVIRONMENT
-  architecture-role: formal-equation-contract
-  origin-architect: "Trang Phan"
-  status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-  tags:
-* amos
-* reality-environment
-* equations
-* formal-system
-* observation
-* evidence
-* grounding
-* state-transition
-* provenance
-* control-plane
-* rscf/D-distinction
-* rscf/G-relation
-* rscf/C-constraint
-* rscf/B-boundary
-* rscf/M-memory
-* rscf/S-state
-* rscf/T-topology
-* rscf/X-cross-scale
-* rscf/type-model
+- "AMOS Reality Environment Equations"
+- "L00 Reality Equations"
+- "Reality Environment Formal Architecture"
+canon-type: "see body"
+- amos
+- reality-environment
+- equations
+- formal-system
+- observation
+- evidence
+- grounding
+- state-transition
+- provenance
+- control-plane
+- rscf/D-distinction
+- rscf/G-relation
+- rscf/C-constraint
+- rscf/B-boundary
+- rscf/M-memory
+- rscf/S-state
+- rscf/T-topology
+- rscf/X-cross-scale
+- rscf/type-model
 tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---

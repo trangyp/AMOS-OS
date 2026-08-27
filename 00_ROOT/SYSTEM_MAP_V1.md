@@ -21,36 +21,20 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-scope:
-  - AMOS_OS
+scope: "- AMOS_OS
   - repository_topology
   - system_planes
   - authority_boundaries
   - execution_topology
-  - cross_cutting_substrates
-  - dependency_topology
-
+..."
 tags: [amos, amos_os, root, amos-os, system-map, architecture, topology, repository-topology, system-planes, plane-map, dependency-map, authority, provenance, canon, kernel, control-plane, runtime, cognition, cognitive-organism, agents, skills, workflows, protocols, memory, knowledge, state, models, tools, interfaces, schemas, observability, security, tests, operations, domains, research, operating-model, archive, cognitive-matrix, rscf, hml, governance, failure-recovery, canon-group/tech-ai, canon/system-map, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/system-map, topic/system-topology, topic/repository-architecture]
 
-aliases:
-  - AMOS System Map
+aliases: "- AMOS System Map
   - AMOS OS System Map
   - AMOS Plane Map
   - AMOS Architecture Map
-  - AMOS Repository Map
-
-related:
-  - "README|AMOS OS"
-  - "00_ROOT_MOC|MOC"
-  - "NEURAL_NETWORK|Neural Network"
-  - "ARCHITECTURE|Architecture"
-  - "FULL_TREE|Full Tree"
-  - "DEPENDENCY_MAP|Dependency Map"
-  - "AUTHORITATIVE_STATE|Authoritative State"
-  - "00_ROOT_NAMING_STANDARD|Naming Standard"
-  - "PLACEMENT_RULES|Placement Rules"
-  - "ROADMAP|Roadmap"
----
+  - AMOS Repos..."
+related: "see body"---
 
 
 

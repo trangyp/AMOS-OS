@@ -3,37 +3,30 @@ title: "L00_REALITY_ENVIRONMENT — Control Planes"
 type: control-plane
 aliases:
 
-* "AMOS Control Planes"
-* "L00 Control Plane"
-* "Reality Environment Control Plane"
-* "AMOS Infrastructure Control Plane"
-  canon-type: architecture
-  rscf-class: MODEL
-  rscf-state: conditional
-  amos-layer: L00_REALITY_ENVIRONMENT
-  architecture-role: control-plane
-  origin-architect: "Trang Phan"
-  status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-  tags:
-* amos
-* control-plane
-* infrastructure
-* reality-environment
-* governance
-* authority
-* provenance
-* transactions
-* mvcc
-* cas
-* commit
-* observability
-* recovery
-* rscf/C-constraint
-* rscf/G-relation
-* rscf/S-state
-* rscf/T-topology
-* rscf/M-memory
-* rscf/P-repair
+- "AMOS Control Planes"
+- "L00 Control Plane"
+- "Reality Environment Control Plane"
+- "AMOS Infrastructure Control Plane"
+canon-type: "see body"
+- amos
+- control-plane
+- infrastructure
+- reality-environment
+- governance
+- authority
+- provenance
+- transactions
+- mvcc
+- cas
+- commit
+- observability
+- recovery
+- rscf/C-constraint
+- rscf/G-relation
+- rscf/S-state
+- rscf/T-topology
+- rscf/M-memory
+- rscf/P-repair
 tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---

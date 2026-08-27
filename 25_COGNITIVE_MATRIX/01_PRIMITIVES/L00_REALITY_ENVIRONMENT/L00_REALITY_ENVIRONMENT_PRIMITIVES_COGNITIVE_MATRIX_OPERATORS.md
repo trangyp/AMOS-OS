@@ -3,32 +3,25 @@ title: "L00_REALITY_ENVIRONMENT — Operators"
 type: cognitive
 aliases:
 
-* "AMOS Reality Environment Operators"
-* "L00 Reality Operators"
-* "Reality Interaction Operators"
-  canon-type: architecture
-  rscf-class: MODEL
-  rscf-state: conditional
-  amos-layer: L00_REALITY_ENVIRONMENT
-  architecture-role: reality-environment-operation-substrate
-  origin-architect: "Trang Phan"
-  status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-  tags:
-* amos
-* reality-environment
-* operators
-* observation
-* measurement
-* evidence
-* provenance
-* state-transition
-* control-plane
-* hml
-* causality
-* simulation
-* validation
-* repair
-* governance
+- "AMOS Reality Environment Operators"
+- "L00 Reality Operators"
+- "Reality Interaction Operators"
+canon-type: "see body"
+- amos
+- reality-environment
+- operators
+- observation
+- measurement
+- evidence
+- provenance
+- state-transition
+- control-plane
+- hml
+- causality
+- simulation
+- validation
+- repair
+- governance
 tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---

@@ -3,32 +3,30 @@ title: "AMOS Relation Tensor Architecture"
 type: tensor
 aliases:
 
-* "Relation Tensor"
-* "RSCF Relation Tensor"
-* "AMOS Relational State Tensor"
-  canon-type: architecture
-  rscf-class: MODEL
+- "Relation Tensor"
+- "RSCF Relation Tensor"
+- "AMOS Relational State Tensor"
+canon-type: "rscf-class: MODEL
   amos-layer: relation-control
   architecture-version: "v1.0"
-  author: "Trang Phan"
-  tags:
-* amos
-* rscf
-* relation-tensor
-* causality
-* dependency
-* contradiction
-* repair
-* mutation
-* selection
-* observer
-* temporal
-* evidence
-* risk
-* trust
-* scale
-* analogy
-* governance
+  author: "Trang Pha..."
+- amos
+- rscf
+- relation-tensor
+- causality
+- dependency
+- contradiction
+- repair
+- mutation
+- selection
+- observer
+- temporal
+- evidence
+- risk
+- trust
+- scale
+- analogy
+- governance
 tags: [knowledge, note]
 
 ---

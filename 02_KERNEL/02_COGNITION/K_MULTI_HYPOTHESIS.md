@@ -21,13 +21,10 @@ updated: 2026-08-25
 
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/reasoning, kernel/multi-hypothesis, kernel/competing-hypotheses, kernel/epistemic, kernel/provenance, kernel/evidence-topology, kernel/dependency, kernel/causal, kernel/counterfactual, kernel/metacognition, kernel/scope, kernel/regime, kernel/freshness, kernel/sensitivity, kernel/validation, kernel/rscf, rscf/claim, rscf/provenance, rscf/state/model, topic/multi-hypothesis, topic/competing-hypotheses, topic/discriminating-evidence]
 
-aliases:
-  - AMOS Multi Hypothesis Kernel
+aliases: "- AMOS Multi Hypothesis Kernel
   - Multi Hypothesis Kernel
   - K Multi Hypothesis
-  - K_MULTI_HYPOTHESIS
-  - Competing Hypothesis Kernel
----
+  - K_MULTI_HYPOTH..."---
 
 
 

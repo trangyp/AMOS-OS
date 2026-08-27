@@ -21,49 +21,14 @@ steward: "Trang Phan"
 created: "2026-08-25"
 updated: "2026-08-25"
 
-scope:
-  - AMOS_OS
-  - infrastructure
-  - cognition
-  - knowledge
-  - agents
-  - skills
-  - workflows
-  - protocols
-  - memory
-  - state
-  - models
-  - tools
-  - control_plane
-  - runtime
-  - observability
-  - security
-  - operations
-  - domains
-  - research
-  - governance
-
+scope: "see body"
 tags: [amos, amos_os, root, amos-os, operating-system, cognitive-operating-system, system-architecture, infrastructure, canon, kernel, control-plane, runtime, cognition, cognitive-organism, agents, skills, workflows, protocols, memory, knowledge, state, models, tools, interfaces, schemas, provenance, rscf, gmef, hml, observability, security, tests, operations, domains, modes, research, archive, cognitive-matrix, governance, authority, provenance-topology, dependency-closure, failure-recovery, canon-group/tech-ai, canon/architecture, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/system-architecture, topic/cognitive-infrastructure]
 
-aliases:
-  - AMOS OS
+aliases: "- AMOS OS
   - AMOS Operating System
   - AMOS Cognitive Operating System
-  - AMOS Universal Operating Architecture
-  - AMOS System Root
-
-related:
-  - "00_ROOT_MOC|MOC"
-  - "NEURAL_NETWORK|Neural Network"
-  - "ARCHITECTURE|Architecture"
-  - "FULL_TREE|Full Tree"
-  - "SYSTEM_MAP|System Map"
-  - "DEPENDENCY_MAP|Dependency Map"
-  - "AUTHORITATIVE_STATE|Authoritative State"
-  - "00_ROOT_NAMING_STANDARD|Naming Standard"
-  - "PLACEMENT_RULES|Placement Rules"
-  - "ROADMAP|Roadmap"
----
+  - AMOS Universal Operating..."
+related: "see body"---
 
 
 

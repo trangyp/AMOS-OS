@@ -16,11 +16,9 @@ authority_scope: terminology-deprecation-and-semantic-migration
 created: 2026-08-25
 updated: 2026-08-25
 tags: [amos-os, canon, universe, canon-group/meta, canon/semantics, canon/terminology, canon/deprecation, canon/supersession, canon/registry, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/deprecated-terms, topic/semantic-integrity, topic/semantic-migration, topic/lineage, topic/provenance]
-aliases:
-  - AMOS Deprecated Terms
+aliases: "- AMOS Deprecated Terms
   - Deprecated Terminology Registry
-  - AMOS Terminology Migration Registry
----
+  - AMOS Terminology Migration Registry..."---
 
 
 

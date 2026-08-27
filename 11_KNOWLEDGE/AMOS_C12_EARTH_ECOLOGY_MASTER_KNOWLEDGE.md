@@ -12,19 +12,8 @@ language: "en"
 architecture: "HML_fractal_single_file"
 placeholder_status: "NONE"
 version: "1.1"
-source_lineage:
-  - "AMOS_C12_Earth_Ecology_SUPER.md"
-source_family_mapping:
-  - "F01_system_mapping"
-  - "F02_climate_dynamics"
-  - "F03_ecology_and_biodiversity"
-  - "F04_food_water_health"
-  - "F05_land_ocean_use"
-  - "F06_risk_and_tipping_points"
-  - "F07_scenarios_and_policy"
-  - "F08_monitoring_and_data"
-  - "F09_infrastructure_and_design"
-  - "F10_meta_ecology_governance"
+source_lineage: "- "AMOS_C12_Earth_Ecology_SUPER.md"..."
+source_family_mapping: "see body"
 tags: [knowledge, note]
 
 ---

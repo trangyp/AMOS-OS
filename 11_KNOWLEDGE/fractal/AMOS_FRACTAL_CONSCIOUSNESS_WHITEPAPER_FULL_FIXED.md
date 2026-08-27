@@ -13,13 +13,7 @@ status: active
 conclusion_class: AMOS_MODEL
 source_language: vi
 epistemic_mode: source_preserving_with_amos_firewalls
-description: ">-"
-  AMOS-aligned edition of the Trang ∅ Framework whitepaper on consciousness,
-  astrology, matter, light, time, energy, biology, culture, and society.
-  Preserves the source narrative while separating SOURCE_CLAIM, OBSERVATION,
-  DERIVED, AMOS_MODEL, SYMBOLIC, and UNKNOWN/GAP; applies H/M/L recursion,
-  RSCF proof capsules, provenance, causal/scope/regime firewalls,
-  competing hypotheses, falsifiers, and selective repair.
+description: "see body"
 tags: [fractal, math, self-similarity]
 ---
 

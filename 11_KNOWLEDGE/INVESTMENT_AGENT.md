@@ -29,12 +29,10 @@ financial_authority_state: "NONE_IMPLEMENTED"
 
 topic: investment-agent
 
-aliases:
-  - Investment Agent
+aliases: "- Investment Agent
   - AMOS Investment Agent
   - Money System Investment Agent
-  - Governed Investment Analysis Agent
-
+  - Governed Investme..."
 tags: [agents, knowledge, vault, canon-group/tech-ai, canon/component, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/investment-agent, topic/money-system, topic/investment-analysis, topic/portfolio, topic/financial-governance]
 
 governing_law: "integrity > completeness > fluency > speed > token savings"

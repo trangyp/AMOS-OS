@@ -23,25 +23,11 @@ updated: 2026-08-25
 
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, registry, unit-registry, units, dimensions, measurement, quantities, scales, normalization, conversion, dimensional-analysis, uncertainty, provenance, precision, computational-units, physical-units, semantic-units, rscf, canon-group/meta, canon/registry, rscf/claim, rscf/provenance, rscf/state/derived, topic/unit-registry]
 
-aliases:
-  - AMOS Unit Registry
+aliases: "- AMOS Unit Registry
   - Unit Registry
   - AMOS Measurement Registry
-  - AMOS Quantity and Dimension Registry
-  - AMOS Dimensional Semantics Registry
-
-related:
-  - "README|AMOS OS"
-  - "ARCHITECTURE|Architecture"
-  - "00_ROOT_NAMING_STANDARD|Naming Standard"
-  - "CANON_MAP|Canon Map"
-  - "SYMBOL_REGISTRY|Symbol Registry"
-  - "INVARIANT_REGISTRY|Invariant Registry"
-  - "AMOS_CORE_LAWS|AMOS Core Laws"
-  - "HML_CANON|H/M/L Canon"
-  - "PERSISTENCE_CANON|Persistence Canon"
-  - "SCHEMA_MAP|Schema Map"
----
+  - AMOS Quantity and Dimension..."
+related: "see body"---
 
 
 

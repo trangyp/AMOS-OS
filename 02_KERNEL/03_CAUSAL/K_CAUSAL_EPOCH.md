@@ -21,12 +21,10 @@ updated: 2026-08-25
 
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/causal, kernel/causal-epoch, kernel/causal-finality, kernel/dependency, kernel/provenance, kernel/state, kernel/regime, kernel/freshness, kernel/concurrency, kernel/rscf, kernel/validation, kernel/recovery, causal/epoch, causal/lineage, causal/finality, causal/closure, provenance/topology, provenance/persistence, state/authoritative, rscf/state/model, topic/causal-epoch, topic/causal-finality, topic/epoch-boundary]
 
-aliases:
-  - AMOS Causal Epoch Kernel
+aliases: "- AMOS Causal Epoch Kernel
   - Causal Epoch Kernel
   - K Causal Epoch
-  - K_CAUSAL_EPOCH
----
+  - K_CAUSAL_EPOCH..."---
 
 
 

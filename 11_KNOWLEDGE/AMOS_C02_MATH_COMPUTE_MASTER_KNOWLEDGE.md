@@ -12,21 +12,10 @@ language: "en"
 architecture: "HML_fractal_single_file"
 placeholder_status: "NONE"
 version: "1.1"
-source_lineage:
-  - "AMOS_C02_Math_Compute_SUPER.md"
+source_lineage: "- "AMOS_C02_Math_Compute_SUPER.md"
   - "AMOS_C02_Math_Compute_SUPER_x100k"
-  - "AMOS_Math_Compute_Kernels (6-kernel consolidation)"
-source_family_mapping:
-  - "F01_system_mapping_and_framing"
-  - "F02_numerical_methods"
-  - "F03_probability_statistics"
-  - "F04_optimization_governance"
-  - "F05_complexity_and_computation"
-  - "F06_control_systems"
-  - "F07_signal_processing_spectral"
-  - "F08_simulation_validation"
-  - "F09_meta_control_error_budgets"
-  - "F10_meta_math_governance"
+  - "AMOS_Math_Compute_Ke..."
+source_family_mapping: "see body"
 tags: [knowledge, note]
 
 ---

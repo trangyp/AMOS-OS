@@ -20,11 +20,9 @@ updated: 2026-08-25
 
 tags: [amos-os, canon, universe, canon-group/meta, canon/framework, canon/registry, canon/source-registry, canon/provenance, canon/lineage, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/source-registry, topic/source-identity, topic/source-classification, topic/provenance-topology, topic/source-independence, topic/evidence-topology, topic/freshness, topic/sybil-hardening, topic/persistent-provenance]
 
-aliases:
-  - AMOS Source Registry
+aliases: "- AMOS Source Registry
   - AMOS OS Source Registry
-  - Canon Source Registry
----
+  - Canon Source Registry..."---
 
 
 

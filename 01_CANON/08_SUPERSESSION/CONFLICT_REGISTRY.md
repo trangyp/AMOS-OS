@@ -20,11 +20,9 @@ updated: 2026-08-25
 
 tags: [amos-os, canon, universe, canon-group/meta, canon/framework, canon/registry, canon/conflict-registry, canon/provenance, canon/lineage, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/conflict-registry, topic/contradiction, topic/competing-hypotheses, topic/evidence-topology, topic/provenance-topology, topic/source-independence, topic/regime, topic/scope, topic/invalidation, topic/adversarial-validation]
 
-aliases:
-  - AMOS Conflict Registry
+aliases: "- AMOS Conflict Registry
   - AMOS OS Conflict Registry
-  - Canon Conflict Registry
----
+  - Canon Conflict Registry..."---
 
 
 

@@ -12,24 +12,8 @@ language: "en"
 architecture: "HML_fractal_single_file"
 placeholder_status: "NONE"
 version: "1.0"
-source_lineage:
-  - "_00_Cosmo brain/logic/C01_meta_logic_SUPER.md"
-  - "amos-c01-meta-logic-super skill spec"
-  - "amos-meta-logic-epistemic-hygiene skill spec"
-  - "amos-logic-root skill spec (AMOS_Identity_Law_v0 + Absolute_Logic_Model lineage)"
-  - "amos-core-pattern-basis skill spec"
-  - "amos-universal-operator skill spec"
-source_family_mapping:
-  - "F01_problem_framing"
-  - "F02_concept_hygiene"
-  - "F03_assumption_graphs"
-  - "F04_multi_frame_control"
-  - "F05_reasoning_traces"
-  - "F06_conflict_detection"
-  - "F07_meta_strategic_logic"
-  - "F08_uncertainty_and_risk"
-  - "F09_temporal_meta_logic_and_binding"
-  - "F10_root_commitments_and_universal_operators"
+source_lineage: "see body"
+source_family_mapping: "see body"
 tags: [knowledge, note]
 
 ---

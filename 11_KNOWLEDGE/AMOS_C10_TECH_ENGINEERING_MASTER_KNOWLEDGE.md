@@ -12,19 +12,8 @@ language: "en"
 architecture: "HML_fractal_single_file"
 placeholder_status: "NONE"
 version: "1.1"
-source_lineage:
-  - "AMOS_C10_TECH_ENGINEERING_SUPER.md"
-source_family_mapping:
-  - "F01_system_mapping"
-  - "F02_architecture_design"
-  - "F03_data_pipelines"
-  - "F04_ev_infrastructure_and_energy_mobility"
-  - "F05_integration_platform_contracts"
-  - "F06_security_architecture"
-  - "F07_design_reasoning_metabrain"
-  - "F08_monitoring_operations_and_health"
-  - "F09_tech_quantum_engine_layers"
-  - "F10_meta_engineering_governance"
+source_lineage: "- "AMOS_C10_TECH_ENGINEERING_SUPER.md"..."
+source_family_mapping: "see body"
 tags: [knowledge, note]
 
 ---

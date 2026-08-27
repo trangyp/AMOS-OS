@@ -3,24 +3,24 @@ title: L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX STATE
 type: state
 
 tags: [amos]
-* cognitive-matrix
-* l00
-* reality-environment
-* state
-* environment-state
-* epistemic-state
-* provenance
-* temporal-state
-* scope
-* regime
-* uncertainty
-* grounding
-* control-plane
-* rscf
-* rscf/S-state
-* rscf/B-boundary
-* rscf/T-topology
-* rscf/type-model
+- cognitive-matrix
+- l00
+- reality-environment
+- state
+- environment-state
+- epistemic-state
+- provenance
+- temporal-state
+- scope
+- regime
+- uncertainty
+- grounding
+- control-plane
+- rscf
+- rscf/S-state
+- rscf/B-boundary
+- rscf/T-topology
+- rscf/type-model
 
 ---
 

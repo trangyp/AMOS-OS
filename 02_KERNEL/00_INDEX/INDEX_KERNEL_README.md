@@ -20,11 +20,9 @@ updated: 2026-08-25
 
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/framework, kernel/readme, kernel/contracts, kernel/invariants, kernel/deterministic, kernel/rscf, kernel/hml, kernel/provenance, kernel/causal-lineage, kernel/epistemic-regime, kernel/dependency, kernel/persistence, kernel/concurrency, kernel/atomicity, kernel/finality, kernel/recovery, kernel/evolution, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/kernel, topic/kernel-architecture, topic/deterministic-logic]
 
-aliases:
-  - AMOS Kernel
+aliases: "- AMOS Kernel
   - AMOS OS Kernel
-  - Kernel Plane
----
+  - Kernel Plane..."---
 
 
 

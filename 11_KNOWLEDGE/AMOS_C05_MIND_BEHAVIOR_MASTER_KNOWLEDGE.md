@@ -12,24 +12,10 @@ language: "en"
 architecture: "HML_fractal_single_file"
 placeholder_status: "NONE"
 version: "1.1"
-source_lineage:
-  - "AMOS_CC05_mind_behavior.md"
+source_lineage: "- "AMOS_CC05_mind_behavior.md"
   - "AMOS_Emotion_Law_v0.md"
-  - "AMOS_Personality_Engine_Canonical_v0.md"
-  - "AMOS_Behavior_Engine_Canonical_v0.md"
-source_family_mapping:
-  - "F01_cognitive_architecture"
-  - "F02_emotional_regulation"
-  - "F03_motivational_dynamics"
-  - "F04_conflict_patterns"
-  - "F05_identity_models"
-  - "F06_attachment_systems"
-  - "F07_defense_mechanisms"
-  - "F08_social_behaviour"
-  - "F09_trauma_stress"
-  - "F10_habit_systems"
-  - "F11_change_models"
-  - "F12_universe_aligned_behaviour"
+  - "AMOS_Personality_Engine_Canonical_v..."
+source_family_mapping: "see body"
 tags: [knowledge, note]
 
 ---

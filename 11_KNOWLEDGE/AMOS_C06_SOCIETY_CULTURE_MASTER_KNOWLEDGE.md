@@ -12,22 +12,8 @@ language: "en"
 architecture: "HML_fractal_single_file"
 placeholder_status: "NONE"
 version: "1.0"
-source_lineage:
-  - "AMOS_Political_Dynamics_Kernel_v0_Human_Society.md"
-  - "vn_cultural_ritual_gia_he_energy_10000_equations_invariants.md"
-  - "amos-human-social-systems (consolidated)"
-  - "amos-vietnam-regional-systems (consolidated)"
-source_family_mapping:
-  - "F01_political_dynamics_and_power"
-  - "F02_institutions_and_governance"
-  - "F03_social_networks_and_collective_action"
-  - "F04_culture_ritual_and_transmission"
-  - "F05_conflict_cooperation_and_change"
-  - "F06_ethics_fairness_and_consent"
-  - "F07_vietnam_regional_systems"
-  - "F08_monitoring_and_social_data"
-  - "F09_scenarios_policy_and_intervention"
-  - "F10_meta_society_research_bridge"
+source_lineage: "see body"
+source_family_mapping: "see body"
 tags: [knowledge, note]
 
 ---

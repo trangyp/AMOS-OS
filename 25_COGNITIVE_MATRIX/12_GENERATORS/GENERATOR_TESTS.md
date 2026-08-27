@@ -12,35 +12,14 @@ validation_status: "TEST_ARCHITECTURE_DEFINED"
 implementation_status: "PARTIAL_OR_UNKNOWN"
 gap_status: "OPEN"
 
-parent:
-  - "12_GENERATORS/README.md"
-
-scope:
-  - generator_testing
-  - validator_testing
-  - generator_contract_validation
-  - provenance_validation
-  - epistemic_validation
-  - scope_regime_validation
-  - authority_validation
-  - state_validation
-  - failure_injection
-  - repair_validation
-  - regression_testing
-  - adversarial_testing
-  - commit_safety
-
-runtime_dependencies:
-  - "AMOS_FULL_BRAIN_OS"
+parent: "- "12_GENERATORS/README.md"..."
+scope: "see body"
+runtime_dependencies: "- "AMOS_FULL_BRAIN_OS"
   - "OMNI_KERNEL"
   - "AMOS_OS_KERNEL_v4.4"
   - "RSCF"
   - "HML"
-  - "PROVENANCE"
-  - "INFRASTRUCTURE_CONTROL_PLANE"
-  - "OBSERVABILITY"
-  - "12_GENERATORS/README.md"
-
+  - "PROVENA..."
 hard_rule: "TEST_PASS != TRUTH != AUTHORITY != COMMIT"
 tags: [note, 12-generators]
 ---

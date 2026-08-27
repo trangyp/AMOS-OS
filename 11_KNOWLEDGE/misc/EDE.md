@@ -10,27 +10,27 @@ status: standalone-architecture
 version: v1.0
 source-title: "The Illusion of Enlightenment"
 tags: [truth-preservation, misc, reference]
-* biological-truth-os
-* enlightenment
-* perception
-* identity
-* capacity
-* distortion
-* simulation
-* accountability
-* dignity
-* semantic-integrity
-* power
-* integration
-* rscf/C-constraint
-* rscf/D-distinction
-* rscf/G-relation
-* rscf/M-memory
-* rscf/P-repair
-* rscf/S-state
-* rscf/T-topology
-* rscf/X-cross-scale
-* rscf/type-model
+- biological-truth-os
+- enlightenment
+- perception
+- identity
+- capacity
+- distortion
+- simulation
+- accountability
+- dignity
+- semantic-integrity
+- power
+- integration
+- rscf/C-constraint
+- rscf/D-distinction
+- rscf/G-relation
+- rscf/M-memory
+- rscf/P-repair
+- rscf/S-state
+- rscf/T-topology
+- rscf/X-cross-scale
+- rscf/type-model
 
 ---
 
