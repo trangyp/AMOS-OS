@@ -1,8 +1,8 @@
 {
   "total_files": 2735,
-  "files_renamed": 876,
-  "files_unchanged": 1859,
-  "collisions_detected": 6,
+  "files_renamed": 869,
+  "files_unchanged": 1866,
+  "collisions_detected": 0,
   "renames": [
     {
       "subdir": ".",
@@ -139,20 +139,6 @@
     },
     {
       "subdir": "amos-general",
-      "old_name": "AMOS ChatGPT Bootstrap.md",
-      "new_name": "AMOS_CHATGPT_BOOTSTRAP_2.md",
-      "old_path": "amos-general/AMOS ChatGPT Bootstrap.md",
-      "new_path": "amos-general/AMOS_CHATGPT_BOOTSTRAP_2.md"
-    },
-    {
-      "subdir": "amos-general",
-      "old_name": "AMOS MAX Expanded.md",
-      "new_name": "AMOS_MAX_EXPANDED_2.md",
-      "old_path": "amos-general/AMOS MAX Expanded.md",
-      "new_path": "amos-general/AMOS_MAX_EXPANDED_2.md"
-    },
-    {
-      "subdir": "amos-general",
       "old_name": "AMOS_21_Domain_Agent_v0.md",
       "new_name": "AMOS_21_DOMAIN_AGENT_V0.md",
       "old_path": "amos-general/AMOS_21_Domain_Agent_v0.md",
@@ -248,13 +234,6 @@
       "new_name": "AMOS_CC05_MIND_BEHAVIOR.md",
       "old_path": "amos-general/AMOS_CC05_mind_behavior.md",
       "new_path": "amos-general/AMOS_CC05_MIND_BEHAVIOR.md"
-    },
-    {
-      "subdir": "amos-general",
-      "old_name": "AMOS_CORE FINAL.md",
-      "new_name": "AMOS_CORE_2.md",
-      "old_path": "amos-general/AMOS_CORE FINAL.md",
-      "new_path": "amos-general/AMOS_CORE_2.md"
     },
     {
       "subdir": "amos-general",
@@ -4451,13 +4430,6 @@
     },
     {
       "subdir": "misc",
-      "old_name": "FINAL_INTEGRATION_MISSION_STATUS.md",
-      "new_name": "INTEGRATION_MISSION_STATUS_2.md",
-      "old_path": "misc/FINAL_INTEGRATION_MISSION_STATUS.md",
-      "new_path": "misc/INTEGRATION_MISSION_STATUS_2.md"
-    },
-    {
-      "subdir": "misc",
       "old_name": "FIN_BANKING_Digital_Transformation_Playbook.md",
       "new_name": "FIN_BANKING_DIGITAL_TRANSFORMATION_PLAYBOOK.md",
       "old_path": "misc/FIN_BANKING_Digital_Transformation_Playbook.md",
@@ -4504,13 +4476,6 @@
       "new_name": "GUT.md",
       "old_path": "misc/Gut.md",
       "new_path": "misc/GUT.md"
-    },
-    {
-      "subdir": "misc",
-      "old_name": "HERITAGE ∅ – THE PATTERNS WE FOUND.md",
-      "new_name": "HERITAGE_THE_PATTERNS_WE_FOUND_2.md",
-      "old_path": "misc/HERITAGE ∅ – THE PATTERNS WE FOUND.md",
-      "new_path": "misc/HERITAGE_THE_PATTERNS_WE_FOUND_2.md"
     },
     {
       "subdir": "misc",
@@ -4728,13 +4693,6 @@
       "new_name": "NEUROSYNCAI_X_AWS.md",
       "old_path": "misc/NeuroSyncAI_x_AWS.md",
       "new_path": "misc/NEUROSYNCAI_X_AWS.md"
-    },
-    {
-      "subdir": "misc",
-      "old_name": "New core.md",
-      "new_name": "CORE_2.md",
-      "old_path": "misc/New core.md",
-      "new_path": "misc/CORE_2.md"
     },
     {
       "subdir": "misc",
@@ -5984,13 +5942,6 @@
     },
     {
       "subdir": "system",
-      "old_name": "WHY_KPI-_SPEED-_AND_INNOVATION_-DRIVEN_SYSTEMS.md",
-      "new_name": "WHY_KPI_SPEED_AND_INNOVATION_DRIVEN_SYSTEMS.md",
-      "old_path": "system/WHY_KPI-_SPEED-_AND_INNOVATION_-DRIVEN_SYSTEMS.md",
-      "new_path": "system/WHY_KPI_SPEED_AND_INNOVATION_DRIVEN_SYSTEMS.md"
-    },
-    {
-      "subdir": "system",
       "old_name": "system_scan_agent.md",
       "new_name": "SYSTEM_SCAN_AGENT.md",
       "old_path": "system/system_scan_agent.md",
@@ -6960,6 +6911,10 @@
     },
     {
       "subdir": "amos-general",
+      "name": "AMOS_CHATGPT_BOOTSTRAP_2.md"
+    },
+    {
+      "subdir": "amos-general",
       "name": "AMOS_CIL_CANON_INTEGRATION_LAYER.md"
     },
     {
@@ -7001,6 +6956,10 @@
     {
       "subdir": "amos-general",
       "name": "AMOS_CORE_19_FORMAL_SPEC_LEAN.md"
+    },
+    {
+      "subdir": "amos-general",
+      "name": "AMOS_CORE_2.md"
     },
     {
       "subdir": "amos-general",
@@ -7245,6 +7204,10 @@
     {
       "subdir": "amos-general",
       "name": "AMOS_MAX_EXPANDED.md"
+    },
+    {
+      "subdir": "amos-general",
+      "name": "AMOS_MAX_EXPANDED_2.md"
     },
     {
       "subdir": "amos-general",
@@ -10536,6 +10499,10 @@
     },
     {
       "subdir": "misc",
+      "name": "CORE_2.md"
+    },
+    {
+      "subdir": "misc",
       "name": "CORE_EQUATIONS.md"
     },
     {
@@ -10932,6 +10899,10 @@
     },
     {
       "subdir": "misc",
+      "name": "HERITAGE_THE_PATTERNS_WE_FOUND_2.md"
+    },
+    {
+      "subdir": "misc",
       "name": "HE_THAN_KINH_CAU_TRUC_NAO_VA_MOI_LIEN_HE_VOI_KHU.md"
     },
     {
@@ -11001,6 +10972,10 @@
     {
       "subdir": "misc",
       "name": "INTEGRATION_MISSION_STATUS.md"
+    },
+    {
+      "subdir": "misc",
+      "name": "INTEGRATION_MISSION_STATUS_2.md"
     },
     {
       "subdir": "misc",
@@ -13069,6 +13044,10 @@
     {
       "subdir": "system",
       "name": "WHEN_LEADERSHIP_IGNORES_BIOLOGY_SYSTEMS_COLLAPSE.md"
+    },
+    {
+      "subdir": "system",
+      "name": "WHY_KPI_SPEED_AND_INNOVATION_DRIVEN_SYSTEMS.md"
     },
     {
       "subdir": "tech-coding",
