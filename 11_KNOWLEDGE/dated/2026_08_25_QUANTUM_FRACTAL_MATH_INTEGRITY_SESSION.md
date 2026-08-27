@@ -6,6 +6,7 @@ source: 11_KNOWLEDGE/dated
 ---
 
 
+
 # 2026-08-25 Quantum-Fractal-Math Integrity Session
 
 **Canonical path**: `_00_Cosmo brain/md/`

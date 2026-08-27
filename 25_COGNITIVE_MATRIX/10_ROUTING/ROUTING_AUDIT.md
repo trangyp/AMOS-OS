@@ -73,8 +73,7 @@ hml_scope:
     - CACHE_CHECK
     - EVENT_ROUTE_CHECK
 
-tags:
-  identity:
+tags: [identity:, cognitive_matrix, matrix]
     - AMOS
     - AMOS_OS
     - AMOS_FULL_BRAIN_OS
@@ -191,6 +190,7 @@ tags:
     - ROLLBACK
     - QUARANTINE
 ---
+
 
 # 10_ROUTING — Routing Audit
 

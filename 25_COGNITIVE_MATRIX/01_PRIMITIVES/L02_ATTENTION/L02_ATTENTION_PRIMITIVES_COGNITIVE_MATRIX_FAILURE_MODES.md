@@ -1,6 +1,6 @@
 ---
-tags:
-  - amos
+type: failure-mode
+tags: [amos]
   - cognitive-matrix
   - l02
   - attention
@@ -14,6 +14,7 @@ status: "MODEL_SPECIFICATION / UNVALIDATED"
 epistemic_class: "MODEL"
 runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
 ---
+
 
 # L02_ATTENTION — Failure Modes
 

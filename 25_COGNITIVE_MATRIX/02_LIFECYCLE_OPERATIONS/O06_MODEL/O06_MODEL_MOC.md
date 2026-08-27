@@ -4,6 +4,7 @@ type: moc
 tags: [moc, o06-model]
 ---
 
+
 # O06_MODEL — Map of Content
 
 ## Files

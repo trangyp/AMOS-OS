@@ -1,9 +1,11 @@
 ---
 title: MATHEMATICAL KERNEL
-tags: [math]
+tags: [math, equation, formal]
 type: document
 source: 11_KNOWLEDGE/math
 ---
+
+
 
 
 # AMOS Mathematical Kernel - Implementation Complete

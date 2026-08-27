@@ -6,6 +6,7 @@ source: 11_KNOWLEDGE/dated
 ---
 
 
+
 # HybridArena — MODEL + AGENT Composition Experiment
 
 **What it tests**: Whether the resource profile of a hybrid semantic type

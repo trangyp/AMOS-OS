@@ -4,6 +4,7 @@ type: note
 tags: [note, o05-memory]
 ---
 
+
 # O05 — H/M/L Applicability
 
 **Package:** `O05_MEMORY`  

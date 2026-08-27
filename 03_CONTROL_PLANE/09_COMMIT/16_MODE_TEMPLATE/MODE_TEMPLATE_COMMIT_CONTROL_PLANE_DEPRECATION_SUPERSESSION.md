@@ -1,7 +1,9 @@
 ---
 title: MODE TEMPLATE COMMIT CONTROL PLANE DEPRECATION SUPERSESSION
-tags: ['control_plane', '16_mode_template']
+type: supersession
+tags: [control_plane, 16_mode_template]
 ---
+
 
 
 # MODE TEMPLATE COMMIT CONTROL PLANE DEPRECATION SUPERSESSION

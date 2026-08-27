@@ -1,5 +1,6 @@
 ---
 title: "TRANG Framework Historical Index"
+type: index
 artifact: "TRANG_FRAMEWORK_HISTORICAL_INDEX.md"
 artifact_id: "amos_24_archive_00_legacy_trang_framework_historical_index"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "24_ARCHIVE/00_LEGACY"
 artifact_kind: "INDEX"
 path: "24_ARCHIVE/00_LEGACY/TRANG_FRAMEWORK_HISTORICAL_INDEX.md"
 
-tags:
-  - amos_os
+tags: [amos_os, archive, legacy]
   - 24_archive
   - index
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # TRANG Framework Historical Index
 

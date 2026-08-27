@@ -1,9 +1,11 @@
 ---
 title: BAN DA KHAM PHA RA DIEU GI
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

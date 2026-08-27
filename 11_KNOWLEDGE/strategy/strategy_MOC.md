@@ -4,6 +4,7 @@ type: moc
 tags: [moc, strategy]
 ---
 
+
 # strategy — Map of Content
 
 ## Files

@@ -1,7 +1,9 @@
 ---
 title: CUSTOM DOMAINS INTERFACES
-tags: ['amos_os', '21_domains']
+type: interface
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # CUSTOM DOMAINS INTERFACES

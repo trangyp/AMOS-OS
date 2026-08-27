@@ -4,6 +4,7 @@ type: note
 tags: [note, 12-generators]
 ---
 
+
 Below is a full AMOS-aligned replacement for `25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_BENCHMARKS.md`. The important distinction is that **Benchmarks measure bounded performance or assurance properties under declared conditions; they do not establish universal correctness, canon, authority, or production validity**. That boundary is required by the AMOS Full Brain OS integrity model, which explicitly separates structural design targets and model outputs from externally verified empirical claims.  The primary canon source for this Skill remains `AMOS_FULL_BRAIN_OS.json`. 
 
 ````md

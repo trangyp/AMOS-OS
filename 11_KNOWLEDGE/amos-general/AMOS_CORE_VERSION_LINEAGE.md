@@ -3,13 +3,14 @@ title: "AMOS Core Version Lineage"
 created: "2026-08-22"
 origin: "AMOS_CORE_ALL_VERSIONS_EXHAUSTIVE_MASTER.json"
 origin_architect: "Trang Phan"
-type: "reference"
+type: reference
 tags: [canon-group/human-system, canon/metric, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-core-version-lineage, amos-general]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 source: "Google Drive — AMOS_CORE_ALL_VERSIONS_EXHAUSTIVE_MASTER.json (compiled 2026-08-14)"
 ---
+
 
 # AMOS Core Version Lineage
 

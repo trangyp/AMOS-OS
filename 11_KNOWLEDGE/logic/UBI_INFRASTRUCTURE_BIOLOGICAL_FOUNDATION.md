@@ -3,12 +3,13 @@ title: "UBI Infrastructure — Biological Foundation for Intelligence"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Unified_Biological_Intelligence_(UBI)_A_New_Infrastructure_for_Intelligence.pdf (140KB)"
 origin_architect: "Trang Phan"
-type: "whitepaper"
+type: whitepaper
 tags: [ubi, unified-biological-intelligence, infrastructure, nervous-system, 4-domains, deterministic, somatic, neurobiological, neuroemotional, bioelectromagnetic, TCP/IP-for-intelligence, logic]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # Unified Biological Intelligence™ (UBI) — Biological Infrastructure for Intelligence
 

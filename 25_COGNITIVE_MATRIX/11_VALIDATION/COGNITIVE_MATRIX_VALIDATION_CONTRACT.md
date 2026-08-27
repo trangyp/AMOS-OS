@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX VALIDATION CONTRACT
-tags: ['cognitive_matrix', 'cognitive_matrix_validation_contract.md']
+type: cognitive
+tags: [cognitive_matrix, cognitive_matrix_validation_contract.md]
 ---
+
 
 
 # COGNITIVE MATRIX VALIDATION CONTRACT

@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE REGISTRY
-tags: ['cognitive_matrix', 'index', 'note']
+type: control-plane
+tags: [cognitive_matrix, index, note]
 ---
+
 
 
 # Control Plane Registry

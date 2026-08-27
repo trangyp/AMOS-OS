@@ -1,7 +1,9 @@
 ---
 title: PROOF VERIFICATION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '78_proof_verification_modes']
+type: control-plane
+tags: [control_plane, 78_proof_verification_modes]
 ---
+
 
 
 # PROOF VERIFICATION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

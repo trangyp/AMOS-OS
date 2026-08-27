@@ -1,7 +1,9 @@
 ---
 title: GLOSSARY CANON GLOSSARY CONTRACT
-tags: ['amos_os', '01_canon']
+type: canon
+tags: [amos_os, 01_canon]
 ---
+
 
 
 # GLOSSARY CANON GLOSSARY CONTRACT

@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/logic
 ---
 
-
+# UNIFIED BIOLOGICAL INTELLIGENCE UBI A INFRASTRUCTURE FOR INTELLIGENCE
 
 🧠 Unified Biological
 Intelligence™ (UBI): A New

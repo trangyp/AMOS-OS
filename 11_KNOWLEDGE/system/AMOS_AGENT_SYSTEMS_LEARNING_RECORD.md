@@ -1,9 +1,11 @@
 ---
 title: AMOS AGENT SYSTEMS LEARNING RECORD
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 # AMOS Brain: Consolidated Learning Record — All Agent Systems

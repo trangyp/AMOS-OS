@@ -4,6 +4,7 @@ type: moc
 tags: [moc, architecture]
 ---
 
+
 # Architecture — Map of Content
 
 - [[THE_INTELLIGENCE_OS_USEFUL_ARCHITECTURE]]

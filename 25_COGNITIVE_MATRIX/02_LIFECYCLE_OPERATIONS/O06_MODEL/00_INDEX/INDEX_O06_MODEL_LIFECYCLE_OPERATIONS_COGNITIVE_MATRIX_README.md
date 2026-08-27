@@ -1,7 +1,9 @@
 ---
 title: INDEX O06 MODEL LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o06_model']
+type: index
+tags: [cognitive_matrix, o06_model]
 ---
+
 
 
 # INDEX O06 MODEL LIFECYCLE OPERATIONS COGNITIVE MATRIX README

@@ -4,6 +4,7 @@ type: note
 tags: [note, l20-credit-assignment]
 ---
 
+
 # L20 — Invariants
 
 **Package:** `L20_CREDIT_ASSIGNMENT`  

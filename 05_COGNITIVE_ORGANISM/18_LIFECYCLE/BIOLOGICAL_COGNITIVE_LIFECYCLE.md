@@ -1,5 +1,6 @@
 ---
 title: "Biological Cognitive Lifecycle"
+type: lifecycle
 artifact: "BIOLOGICAL_COGNITIVE_LIFECYCLE.md"
 artifact_id: "amos_05_cognitive_organism_18_lifecycle_biological_cognitive_lifecycle"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/18_LIFECYCLE"
 artifact_kind: "LIFECYCLE"
 path: "05_COGNITIVE_ORGANISM/18_LIFECYCLE/BIOLOGICAL_COGNITIVE_LIFECYCLE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive, organism]
   - 05_cognitive_organism
   - lifecycle
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Biological Cognitive Lifecycle
 

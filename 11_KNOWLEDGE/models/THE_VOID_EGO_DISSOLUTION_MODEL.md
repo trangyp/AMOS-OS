@@ -1,5 +1,6 @@
 ---
 title: THE VOID EGO DISSOLUTION MODEL
+type: model
 origin: external — "The Complete Human System" (canonical version)
 provenance: direct ingestion of Book Two (The Void)
 confidence: 0.95
@@ -11,6 +12,7 @@ source_title: "The Complete Human System — Book Two: The Void"
 source_type: book-manuscript
 source_url: local-ingestion
 ---
+
 
 
 # The Void — Ego Dissolution Model

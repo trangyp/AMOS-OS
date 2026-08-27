@@ -1,9 +1,11 @@
 ---
 title: THE TRANG GRAND SYSTEM FULL LOGIC SPECIFICATION
-tags: [trang]
+tags: [trang, framework, reality]
 type: document
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

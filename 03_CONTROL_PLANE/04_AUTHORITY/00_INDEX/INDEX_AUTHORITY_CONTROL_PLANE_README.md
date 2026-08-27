@@ -1,7 +1,9 @@
 ---
 title: INDEX AUTHORITY CONTROL PLANE README
-tags: ['control_plane', '00_index']
+type: index
+tags: [control_plane, 00_index]
 ---
+
 
 
 # INDEX AUTHORITY CONTROL PLANE README

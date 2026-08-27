@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE TRANSITION RULES
-tags: ['control_plane', '03_coding']
+type: transition
+tags: [control_plane, 03_coding]
 ---
+
 
 
 # CONTROL PLANE TRANSITION RULES

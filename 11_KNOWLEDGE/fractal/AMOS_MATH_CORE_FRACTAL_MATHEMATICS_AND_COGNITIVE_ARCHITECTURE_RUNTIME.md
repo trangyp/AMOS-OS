@@ -1,9 +1,11 @@
 ---
 title: AMOS MATH CORE FRACTAL MATHEMATICS AND COGNITIVE ARCHITECTURE RUNTIME
-tags: [fractal]
+tags: [fractal, math, self-similarity]
 type: document
 source: 11_KNOWLEDGE/fractal
 ---
+
+
 
 
 # AMOS Math Core — Fractal Mathematics & Cognitive Architecture Runtime

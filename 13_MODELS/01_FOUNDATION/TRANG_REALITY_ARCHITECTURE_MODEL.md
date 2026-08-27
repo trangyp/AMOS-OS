@@ -1,5 +1,6 @@
 ---
 title: "TRANG Reality Architecture Model"
+type: architecture
 artifact: "TRANG_REALITY_ARCHITECTURE_MODEL.md"
 artifact_id: "amos_13_models_01_foundation_trang_reality_architecture_model"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "13_MODELS/01_FOUNDATION"
 artifact_kind: "MODEL"
 path: "13_MODELS/01_FOUNDATION/TRANG_REALITY_ARCHITECTURE_MODEL.md"
 
-tags:
-  - amos_os
+tags: [amos_os, model, specification]
   - 13_models
   - model
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # TRANG Reality Architecture Model
 

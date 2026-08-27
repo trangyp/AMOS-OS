@@ -3,12 +3,13 @@ title: "NeuroSyncAI — Deterministic vs Probabilistic Intelligence"
 created: "2026-08-22"
 origin: "Google Drive — NeuroSyncAI_vs_GenAI.pdf (760KB) + Dual-System.pdf (925KB)"
 origin_architect: "Trang Phan"
-type: "research-paper"
+type: research-paper
 tags: [neurosyncai, deterministic, certifiable-intelligence, drift-proof, memory-gating, identity-container, auditability, vs-genai, infrastructure-grade, 5-gate-architecture, probability-stats]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # NeuroSyncAI™ vs GenAI — The Future Is Deterministic
 

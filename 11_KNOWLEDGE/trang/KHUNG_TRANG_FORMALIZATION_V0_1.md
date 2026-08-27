@@ -1,9 +1,11 @@
 ---
 title: KHUNG TRANG FORMALIZATION V0 1
-tags: [trang]
+tags: [trang, framework, reality]
 type: document
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

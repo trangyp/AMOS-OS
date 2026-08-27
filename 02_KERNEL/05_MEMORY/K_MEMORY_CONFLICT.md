@@ -1,5 +1,6 @@
 ---
 title: K MEMORY CONFLICT
+type: memory
 artifact_id: AMOS-OS-K-MEMORY-CONFLICT
 canonical_name: K_MEMORY_CONFLICT
 artifact_type: kernel_memory_conflict_contract
@@ -13,8 +14,7 @@ kernel_family: MEMORY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - kernel
   - kernel/memory
@@ -33,6 +33,8 @@ tags:
   - topic/supersession
   - topic/provenance-topology
 ---
+
+
 
 
 # K MEMORY CONFLICT

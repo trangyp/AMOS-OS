@@ -1,7 +1,9 @@
 ---
 title: INDEX C02 METACOGNITIVE CONTROL PLANES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'c02_metacognitive']
+type: index
+tags: [cognitive_matrix, c02_metacognitive]
 ---
+
 
 
 # INDEX C02 METACOGNITIVE CONTROL PLANES COGNITIVE MATRIX README

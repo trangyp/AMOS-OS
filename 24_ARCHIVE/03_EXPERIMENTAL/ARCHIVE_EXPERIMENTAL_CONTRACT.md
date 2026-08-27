@@ -1,7 +1,9 @@
 ---
 title: ARCHIVE EXPERIMENTAL CONTRACT
-tags: ['amos_os', '24_archive']
+type: experimental
+tags: [amos_os, 24_archive]
 ---
+
 
 
 # ARCHIVE EXPERIMENTAL CONTRACT

@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN FOLDER LAW ENFORCER
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 # amos_brain_folder_law_enforcer

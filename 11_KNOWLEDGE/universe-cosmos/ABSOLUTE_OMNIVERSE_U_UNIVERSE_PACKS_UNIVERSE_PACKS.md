@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/universe-cosmos
 
 
 
+
 ```json
 {
   "ABSOLUTE OMNIVERSE U∞": {

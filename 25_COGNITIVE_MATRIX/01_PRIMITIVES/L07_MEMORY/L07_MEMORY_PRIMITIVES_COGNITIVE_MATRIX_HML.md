@@ -4,6 +4,7 @@ type: note
 tags: [note, l07-memory]
 ---
 
+
 # L07 — H/M/L Applicability
 
 **Package:** `L07_MEMORY`  

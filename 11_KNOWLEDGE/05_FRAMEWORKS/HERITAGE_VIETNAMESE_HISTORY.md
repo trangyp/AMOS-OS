@@ -1,5 +1,6 @@
 ---
 title: "Heritage Vietnamese History"
+type: history
 artifact: "HERITAGE_VIETNAMESE_HISTORY.md"
 artifact_id: "amos_11_knowledge_05_frameworks_heritage_vietnamese_history"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "HISTORY"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_VIETNAMESE_HISTORY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - history
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Heritage Vietnamese History
 

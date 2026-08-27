@@ -1,5 +1,6 @@
 ---
 title: "Canon Master Index"
+type: index
 artifact: "CANON_MASTER_INDEX.md"
 artifact_id: "amos_01_canon_00_index_canon_master_index"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/00_INDEX"
 artifact_kind: "INDEX"
 path: "01_CANON/00_INDEX/CANON_MASTER_INDEX.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - index
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Canon Master Index
 

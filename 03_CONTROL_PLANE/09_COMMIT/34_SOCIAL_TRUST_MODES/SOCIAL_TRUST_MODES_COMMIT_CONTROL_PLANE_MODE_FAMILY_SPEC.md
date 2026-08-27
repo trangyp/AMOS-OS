@@ -1,7 +1,9 @@
 ---
 title: SOCIAL TRUST MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '34_social_trust_modes']
+type: control-plane
+tags: [control_plane, 34_social_trust_modes]
 ---
+
 
 
 # SOCIAL TRUST MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

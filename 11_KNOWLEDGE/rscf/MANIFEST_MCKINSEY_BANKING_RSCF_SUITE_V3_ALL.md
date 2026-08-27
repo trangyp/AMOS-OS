@@ -1,9 +1,11 @@
 ---
 title: MANIFEST MCKINSEY BANKING RSCF SUITE V3 ALL
-tags: [rscf]
+tags: [rscf, epistemic, claim]
 type: data
 source: 11_KNOWLEDGE/rscf
 ---
+
+
 
 
 

@@ -1,7 +1,9 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX RSCF
-tags: ['cognitive_matrix', 'primitives', 'l01_sensing_observation', 'note']
+type: cognitive
+tags: [cognitive_matrix, primitives, l01_sensing_observation, note]
 ---
+
 
 
 Below is the full paste-ready content for `L01_SENSING_OBSERVATION/RSCF.md`. I’m keeping the L01-specific portions explicitly `MODEL`/gap-bounded where direct L01 canon has not been independently established, while the RSCF rules themselves follow the AMOS RSCF contract.

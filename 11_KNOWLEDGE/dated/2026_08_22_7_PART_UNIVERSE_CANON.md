@@ -3,11 +3,12 @@ title: "7-Part Universe Canon"
 created: "2026-08-22"
 origin_architect: user-supplied canon
 provenance: direct spec (user session)
-type: "canon"
+type: canon
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/2026-08-22-7-part-universe-canon, dated, dated/2026-08-22]
 status: "canon-bridge"
 confidence: "STRUCTURAL"
 ---
+
 
 # 7-Part Universe Canon
 

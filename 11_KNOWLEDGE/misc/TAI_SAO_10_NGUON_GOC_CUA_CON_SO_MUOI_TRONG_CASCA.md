@@ -1,9 +1,11 @@
 ---
 title: TAI SAO 10 NGUON GOC CUA CON SO MUOI TRONG CASCA
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

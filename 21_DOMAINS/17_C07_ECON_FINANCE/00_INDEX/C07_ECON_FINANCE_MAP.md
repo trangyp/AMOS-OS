@@ -1,7 +1,9 @@
 ---
 title: C07 ECON FINANCE MAP
-tags: ['amos_os', '21_domains']
+type: map
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C07 ECON FINANCE MAP

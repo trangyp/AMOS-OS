@@ -2,12 +2,13 @@
 title: "amos-analogy-abstraction-kernel"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "bridge"
+type: bridge
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-analogy-abstraction-kernel, kernel]
 status: "index"
 provenance: "SOURCE_CLAIM"
 confidence: "VERIFIED"
 ---
+
 
 # amos-analogy-abstraction-kernel
 

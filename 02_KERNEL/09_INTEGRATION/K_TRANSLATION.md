@@ -1,7 +1,9 @@
 ---
 title: K TRANSLATION
-tags: ['amos_os', '02_kernel']
+type: translation
+tags: [amos_os, 02_kernel]
 ---
+
 
 
 # K TRANSLATION

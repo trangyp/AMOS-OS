@@ -1,7 +1,9 @@
 ---
 title: STATUS LEGEND
-tags: ['cognitive_matrix', 'index', 'note']
+type: status
+tags: [cognitive_matrix, index, note]
 ---
+
 
 
 # 00_INDEX — Status Legend

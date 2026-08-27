@@ -1,7 +1,9 @@
 ---
 title: UBI SI SOMATIC MAP
-tags: ['amos_os', '21_domains']
+type: map
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # UBI SI SOMATIC MAP

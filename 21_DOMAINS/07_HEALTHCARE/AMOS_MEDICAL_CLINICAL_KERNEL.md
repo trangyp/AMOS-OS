@@ -1,5 +1,6 @@
 ---
 title: "AMOS Medical Clinical Kernel"
+type: kernel
 artifact: "AMOS_MEDICAL_CLINICAL_KERNEL.md"
 artifact_id: "amos_21_domains_07_healthcare_amos_medical_clinical_kernel"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/07_HEALTHCARE"
 artifact_kind: "KERNEL"
 path: "21_DOMAINS/07_HEALTHCARE/AMOS_MEDICAL_CLINICAL_KERNEL.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - kernel
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # AMOS Medical Clinical Kernel
 

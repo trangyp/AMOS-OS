@@ -1,7 +1,9 @@
 ---
 title: INDEX SCALES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', '00_index']
+type: index
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # INDEX SCALES COGNITIVE MATRIX README

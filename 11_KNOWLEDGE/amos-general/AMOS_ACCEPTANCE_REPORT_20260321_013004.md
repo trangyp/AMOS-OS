@@ -1,9 +1,11 @@
 ---
 title: AMOS ACCEPTANCE REPORT 20260321 013004
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: data
 source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 
 

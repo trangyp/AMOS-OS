@@ -4,6 +4,7 @@ type: note
 tags: [note, amos-law-stack-enforcement]
 ---
 
+
 # AMOS Law Stack Enforcement
 
 ## When to Use

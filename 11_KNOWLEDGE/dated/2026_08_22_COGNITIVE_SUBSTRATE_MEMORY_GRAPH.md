@@ -1,5 +1,6 @@
 ---
 title: 2026 08 22 COGNITIVE SUBSTRATE MEMORY GRAPH
+type: memory
 origin_architect: Trang Phan
 provenance: cosmo-brain/AMOS_COGNITIVE_SUBSTRATE_MEMORY_GRAPH.py
 confidence: 0.9
@@ -8,6 +9,7 @@ conclusion_label: "VERIFIED"
 tags: [canon-group/tech-ai, cosmo-brain, cognitive-substrate, memory-operation-graph, field-lineage, epistemic-preservation, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-cognitive-substrate-memory-graph, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 
 # Cognitive Substrate Memory Operation Graph

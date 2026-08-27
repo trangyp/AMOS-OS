@@ -1,9 +1,11 @@
 ---
 title: AMOS MAC STABILITY
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 # AMOS OMEGA MEMORY CONTAINMENT + STABILITY + MAC SURVIVAL PROTOCOL

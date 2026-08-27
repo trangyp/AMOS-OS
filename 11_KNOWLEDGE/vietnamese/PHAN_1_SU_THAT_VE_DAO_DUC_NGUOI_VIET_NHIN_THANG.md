@@ -1,9 +1,11 @@
 ---
 title: PHAN 1 SU THAT VE DAO DUC NGUOI VIET NHIN THANG
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

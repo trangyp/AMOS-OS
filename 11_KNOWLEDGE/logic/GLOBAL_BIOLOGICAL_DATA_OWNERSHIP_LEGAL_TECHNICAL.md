@@ -1,9 +1,11 @@
 ---
 title: GLOBAL BIOLOGICAL DATA OWNERSHIP LEGAL TECHNICAL
-tags: [logic]
+tags: [logic, reasoning, formal]
 type: document
 source: 11_KNOWLEDGE/logic
 ---
+
+
 
 
 

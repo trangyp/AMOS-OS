@@ -4,6 +4,7 @@ type: note
 tags: [note, l26-social-cognition]
 ---
 
+
 # L26 — H/M/L Applicability
 
 **Package:** `L26_SOCIAL_COGNITION`  

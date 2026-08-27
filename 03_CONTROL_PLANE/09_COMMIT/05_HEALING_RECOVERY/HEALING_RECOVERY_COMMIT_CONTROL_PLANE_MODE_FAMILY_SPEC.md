@@ -1,7 +1,9 @@
 ---
 title: HEALING RECOVERY COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '05_healing_recovery']
+type: control-plane
+tags: [control_plane, 05_healing_recovery]
 ---
+
 
 
 # HEALING RECOVERY COMMIT CONTROL PLANE MODE FAMILY SPEC

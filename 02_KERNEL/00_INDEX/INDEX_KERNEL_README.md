@@ -1,5 +1,6 @@
 ---
 title: INDEX KERNEL README
+type: index
 artifact_id: AMOS-OS-KERNEL-README
 canonical_name: KERNEL_README
 artifact_type: kernel_plane_entrypoint
@@ -17,8 +18,7 @@ authority_scope: kernel-plane-definition
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - canon/framework
   - kernel
@@ -50,6 +50,8 @@ aliases:
   - AMOS OS Kernel
   - Kernel Plane
 ---
+
+
 
 
 # AMOS OS Kernel

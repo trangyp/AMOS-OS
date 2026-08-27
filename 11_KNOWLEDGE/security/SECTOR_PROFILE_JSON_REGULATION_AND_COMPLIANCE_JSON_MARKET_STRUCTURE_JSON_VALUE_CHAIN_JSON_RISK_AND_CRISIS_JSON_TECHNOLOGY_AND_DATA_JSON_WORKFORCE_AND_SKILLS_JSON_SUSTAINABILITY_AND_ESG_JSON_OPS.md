@@ -1,5 +1,6 @@
 ---
 title: SECTOR PROFILE JSON REGULATION AND COMPLIANCE JSON MARKET STRUCTURE JSON VALUE CHAIN JSON RISK AND CRISIS JSON TECHNOLOGY AND DATA JSON WORKFORCE AND SKILLS JSON SUSTAINABILITY AND ESG JSON OPS
+type: skill
 canon-group: human-system
 canon-type: model
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: sector-profile-json-regulation-and-compliance-json-market-st
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/sector-profile-json-regulation-and-compl, security]
 created: 2026-08-22
 ---
+
 
 
 # Sector Profile.json Regulation and Compliance.json Market Structure.json Value Chain.json Risk and Crisis.json Technology and Data.json Workforce and Skills.json Sustainability and ESG.json Ops Models and Processes.json Integration with Economy Pack

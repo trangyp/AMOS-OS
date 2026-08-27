@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 22-c12-earth-ecology]
 ---
 
+
 # 22_C12_EARTH_ECOLOGY — Map of Content
 
 ## Files

@@ -1,9 +1,11 @@
 ---
 title: SPEED
-tags: [speed]
+tags: [speed, performance, optimization]
 type: document
 source: 11_KNOWLEDGE/speed
 ---
+
+
 
 
 # AMOS Speed Governor

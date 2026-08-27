@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 35-resource-budget-modes]
 ---
 
+
 # 35_RESOURCE_BUDGET_MODES — Map of Content
 
 ## Files

@@ -1,9 +1,11 @@
 ---
 title: VARIABLE REGISTRY
-tags: [indexes]
+tags: [indexes, index, moc]
 type: document
 source: 11_KNOWLEDGE/indexes
 ---
+
+
 
 
 # Universal Variable Registry

@@ -1,7 +1,9 @@
 ---
 title: INDEX DOMAINS DOMAIN ALIAS CONTRACT
-tags: ['amos_os', '21_domains']
+type: index
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # INDEX DOMAINS DOMAIN ALIAS CONTRACT

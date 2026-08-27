@@ -1,7 +1,9 @@
 ---
 title: DECISION RIGHTS OPERATING MODEL README
-tags: ['amos_os', '23_operating_model']
+type: model
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # DECISION RIGHTS OPERATING MODEL README

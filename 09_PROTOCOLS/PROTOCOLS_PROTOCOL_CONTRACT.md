@@ -1,7 +1,9 @@
 ---
 title: PROTOCOLS PROTOCOL CONTRACT
-tags: ['amos_os', '09_protocols']
+type: protocol
+tags: [amos_os, 09_protocols]
 ---
+
 
 
 # PROTOCOLS PROTOCOL CONTRACT

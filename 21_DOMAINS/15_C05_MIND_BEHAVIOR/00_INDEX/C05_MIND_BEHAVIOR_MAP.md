@@ -1,7 +1,9 @@
 ---
 title: C05 MIND BEHAVIOR MAP
-tags: ['amos_os', '21_domains']
+type: map
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C05 MIND BEHAVIOR MAP

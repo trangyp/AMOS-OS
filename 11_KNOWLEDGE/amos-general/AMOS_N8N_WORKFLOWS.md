@@ -1,9 +1,11 @@
 ---
 title: AMOS N8N WORKFLOWS
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: document
 source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 
 # amos_omega_n8n_workflows

@@ -1,7 +1,9 @@
 ---
 title: AGENTS AGENT CONTRACT
-tags: ['amos_os', '06_agents']
+type: agent
+tags: [amos_os, 06_agents]
 ---
+
 
 
 # AGENTS AGENT CONTRACT

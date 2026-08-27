@@ -1,5 +1,6 @@
 ---
 title: 4A CROSS JOURNEY ORG AND WAY OF WORKING V4
+type: note
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -8,6 +9,7 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 created: 2026-08-22
 ---
 
+# 4A CROSS JOURNEY ORG AND WAY OF WORKING V4
 
 TRANSFORMING CUSTOMER JOURNEYS
 Playbook

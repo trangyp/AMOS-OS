@@ -1,7 +1,9 @@
 ---
 title: OBSERVABILITY CONTROL PLANE OBSERVABILITY CONTRACT
-tags: ['control_plane', '00_index']
+type: control-plane
+tags: [control_plane, 00_index]
 ---
+
 
 
 # OBSERVABILITY CONTROL PLANE OBSERVABILITY CONTRACT

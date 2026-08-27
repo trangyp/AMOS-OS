@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 07-authority]
 ---
 
+
 # 07_AUTHORITY — Map of Content
 
 ## Files

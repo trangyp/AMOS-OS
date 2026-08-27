@@ -1,5 +1,6 @@
 ---
 title: AMOS AUSTRALIA LAW INCENTIVES FUNDING GRANTS ENGINE V0 UNIPOWER4
+type: grant
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-australia-law-incentives-funding-grants-engine-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-australia-law-incentives-funding-gr, engine]
 created: 2026-08-22
 ---
+
 
 
 ```json

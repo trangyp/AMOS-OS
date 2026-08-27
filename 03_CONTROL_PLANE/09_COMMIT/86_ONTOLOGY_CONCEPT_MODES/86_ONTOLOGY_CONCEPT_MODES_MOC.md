@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 86-ontology-concept-modes]
 ---
 
+
 # 86_ONTOLOGY_CONCEPT_MODES — Map of Content
 
 ## Files

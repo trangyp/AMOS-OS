@@ -1,4 +1,5 @@
 ---
+type: law
 artifact_id: AMOS-LAW-HIERARCHY
 name: LAW_HIERARCHY
 title: "AMOS Law Hierarchy — Authority, Precedence, Scope, Conflict, and Supersession"
@@ -20,8 +21,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos
+tags: [amos, canon, universe]
   - amos-os
   - amos-core
   - amos-core-v4-4
@@ -64,6 +64,8 @@ related:
   - "KERNEL_MAP|Kernel Map"
   - "CONTROL_PLANE_MAP|Control Plane Map"
 ---
+
+
 
 # AMOS Law Hierarchy
 

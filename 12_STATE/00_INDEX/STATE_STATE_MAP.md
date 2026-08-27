@@ -1,7 +1,9 @@
 ---
 title: STATE STATE MAP
-tags: ['amos_os', '12_state']
+type: map
+tags: [amos_os, 12_state]
 ---
+
 
 
 # STATE STATE MAP

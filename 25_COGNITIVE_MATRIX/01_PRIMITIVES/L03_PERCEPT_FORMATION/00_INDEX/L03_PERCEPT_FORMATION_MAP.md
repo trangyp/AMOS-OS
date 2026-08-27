@@ -1,7 +1,9 @@
 ---
 title: L03 PERCEPT FORMATION MAP
-tags: ['cognitive_matrix', 'l03_percept_formation']
+type: map
+tags: [cognitive_matrix, l03_percept_formation]
 ---
+
 
 
 # L03 PERCEPT FORMATION MAP

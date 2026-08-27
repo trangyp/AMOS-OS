@@ -1,6 +1,7 @@
 ---
 
 title: "AMOS Claim Tensor Architecture"
+type: tensor
 aliases:
 
 * "Claim Tensor"
@@ -35,8 +36,10 @@ aliases:
 * rscf/M-memory
 * rscf/K-compression
 * rscf/type-system
-tags: [tensor]
+tags: [tensor, knowledge, vault]
 ---
+
+
 
 # AMOS Claim Tensor
 

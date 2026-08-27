@@ -1,7 +1,9 @@
 ---
 title: SCALES COGNITIVE MATRIX L LOW SCALE CONTRACT
-tags: ['cognitive_matrix', 'l_low_scale']
+type: cognitive
+tags: [cognitive_matrix, l_low_scale]
 ---
+
 
 
 # SCALES COGNITIVE MATRIX L LOW SCALE CONTRACT

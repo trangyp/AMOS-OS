@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 43-abstraction-generalization-modes]
 ---
 
+
 # 43_ABSTRACTION_GENERALIZATION_MODES — Map of Content
 
 ## Files

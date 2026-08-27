@@ -1,9 +1,11 @@
 ---
 title: FROM ATOMIC DESIGN TO LIVING DESIGN SYSTEMS
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 

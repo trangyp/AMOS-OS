@@ -4,6 +4,7 @@ type: note
 tags: [note, c06-memory]
 ---
 
+
 # C06 — RSCF Record
 
 **Package:** `C06_MEMORY`  

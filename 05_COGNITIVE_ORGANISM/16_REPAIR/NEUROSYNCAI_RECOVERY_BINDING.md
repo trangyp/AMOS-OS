@@ -1,5 +1,6 @@
 ---
 title: "NeuroSyncAI Recovery Binding"
+type: neural
 artifact: "NEUROSYNCAI_RECOVERY_BINDING.md"
 artifact_id: "amos_05_cognitive_organism_16_repair_neurosyncai_recovery_binding"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/16_REPAIR"
 artifact_kind: "BINDING"
 path: "05_COGNITIVE_ORGANISM/16_REPAIR/NEUROSYNCAI_RECOVERY_BINDING.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive, organism]
   - 05_cognitive_organism
   - binding
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # NeuroSyncAI Recovery Binding
 

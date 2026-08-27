@@ -1,7 +1,9 @@
 ---
 title: RESEARCH MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '27_research_modes']
+type: control-plane
+tags: [control_plane, 27_research_modes]
 ---
+
 
 
 # RESEARCH MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

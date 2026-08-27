@@ -1,7 +1,9 @@
 ---
 title: P4 COGNITION MODELS
-tags: ['canon', 'universe_canon', 'note']
+type: model
+tags: [canon, universe_canon, note]
 ---
+
 
 
 # P4 — Cognition & Models Plane

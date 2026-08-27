@@ -1,7 +1,9 @@
 ---
 title: PRINCIPAL REGISTRY
-tags: ['control_plane', 'authority', 'note']
+type: registry
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Principal Registry

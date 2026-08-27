@@ -1,7 +1,9 @@
 ---
 title: L10 WORLD MODELING MAP
-tags: ['cognitive_matrix', 'l10_world_modeling']
+type: map
+tags: [cognitive_matrix, l10_world_modeling]
 ---
+
 
 
 # L10 WORLD MODELING MAP

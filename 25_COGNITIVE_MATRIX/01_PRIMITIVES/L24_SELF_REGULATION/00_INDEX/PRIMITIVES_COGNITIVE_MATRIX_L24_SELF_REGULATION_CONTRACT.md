@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L24 SELF REGULATION CONTRACT
-tags: ['cognitive_matrix', 'l24_self_regulation']
+type: cognitive
+tags: [cognitive_matrix, l24_self_regulation]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L24 SELF REGULATION CONTRACT

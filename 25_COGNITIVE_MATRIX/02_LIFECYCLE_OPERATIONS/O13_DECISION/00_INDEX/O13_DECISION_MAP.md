@@ -1,7 +1,9 @@
 ---
 title: O13 DECISION MAP
-tags: ['cognitive_matrix', 'o13_decision']
+type: map
+tags: [cognitive_matrix, o13_decision]
 ---
+
 
 
 # O13 DECISION MAP

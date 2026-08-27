@@ -1,10 +1,12 @@
 ---
 title: qfm-max-power-consolidation
+type: note
 description: Max-power QFM consolidation note — documents the fusion of L0 MECE substrate + L1 quantum library + L2 bridges + L3 A-matrix + L4 collapse + L5 enforcement into a single 9-phase pipeline. Tracks versions, backends, and cross-links.
 version: 2.0.0
 created: 2026-08-25
 tags: [canon-group/quantum-fractal-math, canon/framework, rscf/claim, qfm]
 ---
+
 
 # QFM Max-Power Consolidation
 

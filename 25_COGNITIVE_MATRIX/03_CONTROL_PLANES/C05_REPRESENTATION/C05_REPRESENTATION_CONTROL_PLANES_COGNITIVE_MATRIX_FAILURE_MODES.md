@@ -4,6 +4,7 @@ type: note
 tags: [note, c05-representation]
 ---
 
+
 # C05 — Failure Modes
 
 **Package:** `C05_REPRESENTATION`  

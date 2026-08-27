@@ -1,5 +1,6 @@
 ---
 title: AMOS NUMERICAL METHODS ENGINE V0 COGNITIVE4
+type: cognitive
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-numerical-methods-engine-v0
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-numerical-methods-engine-v0, cognitive]
 created: 2026-08-22
 ---
+
 
 
 ```json

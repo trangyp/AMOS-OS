@@ -1,9 +1,11 @@
 ---
 title: FIRST PRINCIPLE REASONING THEO TRANG FRAMEWORK
-tags: [trang]
+tags: [trang, framework, reality]
 type: document
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

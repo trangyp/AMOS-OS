@@ -1,9 +1,11 @@
 ---
 title: NEXT GENERATION SYSTEM EVOLUTION
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 # 🌟 AMOS Next Generation System Evolution - COMPLETE

@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/governance
 
 
 
+
 ```json
 {
 “os_name”: “Governance Economy OS”,

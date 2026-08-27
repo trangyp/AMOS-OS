@@ -1,7 +1,9 @@
 ---
 title: FINANCE DOMAINS PROVENANCE
-tags: ['amos_os', '21_domains']
+type: provenance
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # FINANCE DOMAINS PROVENANCE

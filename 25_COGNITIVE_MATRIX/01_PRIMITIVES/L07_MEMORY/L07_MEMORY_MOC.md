@@ -4,6 +4,7 @@ type: moc
 tags: [moc, l07-memory]
 ---
 
+
 # L07_MEMORY — Map of Content
 
 ## Files

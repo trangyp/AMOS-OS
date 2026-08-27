@@ -1,7 +1,9 @@
 ---
 title: EFFECT MANIFEST
-tags: ['control_plane', 'effect_manifest.md']
+type: manifest
+tags: [control_plane, effect_manifest.md]
 ---
+
 
 
 # EFFECT MANIFEST

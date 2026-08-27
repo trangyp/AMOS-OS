@@ -1,5 +1,6 @@
 ---
 title: RSCF STRUCTURAL TAG MIGRATION
+type: rscf
 
 canon-group: tech-ai
 canon-type: migration
@@ -7,9 +8,7 @@ rscf-state: model
 topic: rscf-tag-migrate
 status: proposed
 version: v1.0
-tags:
-
-* canon
+tags: [canon, rscf, epistemic]
 * migration
 * provenance
 * rscf
@@ -22,6 +21,8 @@ tags:
 * tag-governance
 
 ---
+
+
 
 
 # RSCF Structural Tag Migration

@@ -1,7 +1,9 @@
 ---
 title: COMMIT TIME AUTHORITY POLICY
-tags: ['control_plane', 'authority', 'note']
+type: authority
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Commit Time Authority Policy

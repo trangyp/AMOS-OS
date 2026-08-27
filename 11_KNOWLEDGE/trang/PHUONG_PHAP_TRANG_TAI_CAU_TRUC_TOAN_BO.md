@@ -1,9 +1,11 @@
 ---
 title: PHUONG PHAP TRANG TAI CAU TRUC TOAN BO
-tags: [trang]
+tags: [trang, framework, reality]
 type: document
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

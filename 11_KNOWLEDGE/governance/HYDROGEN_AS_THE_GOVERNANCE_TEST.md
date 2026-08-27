@@ -1,9 +1,11 @@
 ---
 title: HYDROGEN AS THE GOVERNANCE TEST
-tags: [governance]
+tags: [governance, policy, authority]
 type: document
 source: 11_KNOWLEDGE/governance
 ---
+
+
 
 
 

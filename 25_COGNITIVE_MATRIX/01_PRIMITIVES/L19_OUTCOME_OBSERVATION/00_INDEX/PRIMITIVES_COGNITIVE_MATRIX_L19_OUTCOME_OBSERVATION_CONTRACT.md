@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L19 OUTCOME OBSERVATION CONTRACT
-tags: ['cognitive_matrix', 'l19_outcome_observation']
+type: cognitive
+tags: [cognitive_matrix, l19_outcome_observation]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L19 OUTCOME OBSERVATION CONTRACT

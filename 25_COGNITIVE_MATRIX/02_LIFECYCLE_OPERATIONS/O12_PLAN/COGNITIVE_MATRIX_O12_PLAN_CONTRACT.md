@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX O12 PLAN CONTRACT
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o12_plan', 'contract']
+type: cognitive
+tags: [cognitive_matrix, lifecycle_operations, o12_plan, contract]
 ---
+
 
 
 # O12_PLAN — O12 Plan

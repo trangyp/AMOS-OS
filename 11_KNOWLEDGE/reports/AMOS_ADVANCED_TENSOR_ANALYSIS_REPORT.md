@@ -1,9 +1,11 @@
 ---
 title: AMOS ADVANCED TENSOR ANALYSIS REPORT
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS BRAIN OMEGA - ADVANCED TENSOR FIELD ANALYSIS IMPLEMENTATION REPORT

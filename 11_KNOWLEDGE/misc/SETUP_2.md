@@ -1,10 +1,12 @@
 ---
 title: SETUP 2
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# SETUP 2
 
 """
 Build an example package using the limited Python C API.

@@ -4,6 +4,7 @@ type: note
 tags: [note, 07-coverage]
 ---
 
+
 # COVERAGE_THRESHOLDS — Definition
 
 **Package:** `COVERAGE_THRESHOLDS_`  

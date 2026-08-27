@@ -1,5 +1,6 @@
 ---
 title: "Canon Competing Definitions"
+type: canon
 artifact: "CANON_COMPETING_DEFINITIONS.md"
 artifact_id: "amos_01_canon_00_index_canon_competing_definitions"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/00_INDEX"
 artifact_kind: "CANON"
 path: "01_CANON/00_INDEX/CANON_COMPETING_DEFINITIONS.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - canon
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Canon Competing Definitions
 

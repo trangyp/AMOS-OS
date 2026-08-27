@@ -1,7 +1,9 @@
 ---
 title: INDEX API INTEGRATION DOMAINS README
-tags: ['amos_os', '21_domains']
+type: index
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # INDEX API INTEGRATION DOMAINS README

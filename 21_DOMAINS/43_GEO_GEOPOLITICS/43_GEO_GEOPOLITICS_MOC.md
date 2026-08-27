@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 43-geo-geopolitics]
 ---
 
+
 # 43_GEO_GEOPOLITICS — Map of Content
 
 ## Files

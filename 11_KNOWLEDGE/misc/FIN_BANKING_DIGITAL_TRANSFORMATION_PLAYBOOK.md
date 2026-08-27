@@ -1,9 +1,11 @@
 ---
 title: FIN BANKING DIGITAL TRANSFORMATION PLAYBOOK
-tags: [misc]
+tags: [misc, reference, general]
 type: data
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

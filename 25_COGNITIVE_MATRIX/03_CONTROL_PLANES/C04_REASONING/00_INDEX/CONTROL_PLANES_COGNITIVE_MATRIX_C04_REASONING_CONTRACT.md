@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANES COGNITIVE MATRIX C04 REASONING CONTRACT
-tags: ['cognitive_matrix', 'c04_reasoning']
+type: control-plane
+tags: [cognitive_matrix, c04_reasoning]
 ---
+
 
 
 # CONTROL PLANES COGNITIVE MATRIX C04 REASONING CONTRACT

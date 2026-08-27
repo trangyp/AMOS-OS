@@ -1,5 +1,6 @@
 ---
 title: "Absolute Omniverse / U-Infinity Canon"
+type: canon
 artifact: "ABSOLUTE_OMNIVERSE_U_INFINITY_CANON.md"
 artifact_id: "amos_01_canon_02_universe_canon_absolute_omniverse_u_infinity_canon"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/02_UNIVERSE_CANON"
 artifact_kind: "CANON"
 path: "01_CANON/02_UNIVERSE_CANON/ABSOLUTE_OMNIVERSE_U_INFINITY_CANON.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - canon
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Absolute Omniverse / U-Infinity Canon
 

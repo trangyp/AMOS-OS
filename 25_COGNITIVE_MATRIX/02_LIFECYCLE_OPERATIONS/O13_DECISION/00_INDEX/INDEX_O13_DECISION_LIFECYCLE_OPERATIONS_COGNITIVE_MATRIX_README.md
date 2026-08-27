@@ -1,7 +1,9 @@
 ---
 title: INDEX O13 DECISION LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o13_decision']
+type: index
+tags: [cognitive_matrix, o13_decision]
 ---
+
 
 
 # INDEX O13 DECISION LIFECYCLE OPERATIONS COGNITIVE MATRIX README

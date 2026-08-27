@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L02 ATTENTION CONTRACT
-tags: ['cognitive_matrix', 'l02_attention']
+type: cognitive
+tags: [cognitive_matrix, l02_attention]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L02 ATTENTION CONTRACT

@@ -1,9 +1,11 @@
 ---
 title: AMOS META COGNITIVE ARCHITECTURE
-tags: [cognitive]
+tags: [cognitive, cognition, mind]
 type: document
 source: 11_KNOWLEDGE/cognitive
 ---
+
+
 
 
 """AMOS Engine - Instant Meta-Cognitive Architecture Implementation

@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS BRAIN OMEGA - INTELLIGENCE ACCELERATION CORE COMPLETE

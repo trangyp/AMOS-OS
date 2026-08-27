@@ -1,5 +1,6 @@
 ---
 title: "First-Principles Reasoning"
+type: reasoning
 artifact: "FIRST_PRINCIPLES_REASONING.md"
 artifact_id: "amos_05_cognitive_organism_04_cognition_first_principles_reasoning"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/04_COGNITION"
 artifact_kind: "REASONING"
 path: "05_COGNITIVE_ORGANISM/04_COGNITION/FIRST_PRINCIPLES_REASONING.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive, organism]
   - 05_cognitive_organism
   - reasoning
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # First-Principles Reasoning
 

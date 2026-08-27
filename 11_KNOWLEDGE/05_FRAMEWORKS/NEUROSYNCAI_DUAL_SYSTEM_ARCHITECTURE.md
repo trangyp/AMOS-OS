@@ -1,5 +1,6 @@
 ---
 title: "NeuroSyncAI Dual-System Architecture"
+type: architecture
 artifact: "NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE.md"
 artifact_id: "amos_11_knowledge_05_frameworks_neurosyncai_dual_system_architecture"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "ARCHITECTURE"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - architecture
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # NeuroSyncAI Dual-System Architecture
 

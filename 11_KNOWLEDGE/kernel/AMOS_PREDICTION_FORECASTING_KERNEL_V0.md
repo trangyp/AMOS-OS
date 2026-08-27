@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/kernel
 
 
 
+
 ```json
 {
   "engine_id": "AMOS_Prediction_Forecasting_Kernel_vInfinity",

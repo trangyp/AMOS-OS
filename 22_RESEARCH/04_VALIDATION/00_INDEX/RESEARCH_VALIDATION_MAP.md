@@ -1,7 +1,9 @@
 ---
 title: RESEARCH VALIDATION MAP
-tags: ['amos_os', '22_research']
+type: map
+tags: [amos_os, 22_research]
 ---
+
 
 
 # RESEARCH VALIDATION MAP

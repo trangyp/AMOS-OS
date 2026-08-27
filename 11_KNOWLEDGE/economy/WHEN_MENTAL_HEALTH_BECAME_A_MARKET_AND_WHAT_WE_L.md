@@ -1,9 +1,11 @@
 ---
 title: WHEN MENTAL HEALTH BECAME A MARKET AND WHAT WE L
-tags: [economy]
+tags: [economy, finance, market]
 type: document
 source: 11_KNOWLEDGE/economy
 ---
+
+
 
 
 

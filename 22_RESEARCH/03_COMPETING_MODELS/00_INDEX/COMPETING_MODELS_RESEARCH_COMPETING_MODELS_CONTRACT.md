@@ -1,7 +1,9 @@
 ---
 title: COMPETING MODELS RESEARCH COMPETING MODELS CONTRACT
-tags: ['amos_os', '22_research']
+type: model
+tags: [amos_os, 22_research]
 ---
+
 
 
 # COMPETING MODELS RESEARCH COMPETING MODELS CONTRACT

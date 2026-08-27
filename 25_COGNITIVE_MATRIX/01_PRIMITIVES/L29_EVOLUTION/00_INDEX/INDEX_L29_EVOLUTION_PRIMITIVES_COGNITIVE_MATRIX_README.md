@@ -1,7 +1,9 @@
 ---
 title: INDEX L29 EVOLUTION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l29_evolution']
+type: index
+tags: [cognitive_matrix, l29_evolution]
 ---
+
 
 
 # INDEX L29 EVOLUTION PRIMITIVES COGNITIVE MATRIX README

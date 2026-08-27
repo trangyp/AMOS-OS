@@ -2,12 +2,13 @@
 title: "Antigravity Wired"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "note"
+type: note
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/antigravity-wired, misc]
 status: "active"
 provenance: "OBSERVATION"
 confidence: "VERIFIED"
 ---
+
 
 # Antigravity Wired
 

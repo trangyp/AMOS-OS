@@ -1,5 +1,6 @@
 ---
 title: "ULK Canon"
+type: canon
 artifact: "ULK_CANON.md"
 artifact_id: "amos_01_canon_02_universe_canon_ulk_canon"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/02_UNIVERSE_CANON"
 artifact_kind: "CANON"
 path: "01_CANON/02_UNIVERSE_CANON/ULK_CANON.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - canon
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # ULK Canon
 

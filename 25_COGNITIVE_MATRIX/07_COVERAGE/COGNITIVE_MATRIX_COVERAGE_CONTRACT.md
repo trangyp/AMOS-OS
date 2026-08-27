@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX COVERAGE CONTRACT
-tags: ['cognitive_matrix', 'cognitive_matrix_coverage_contract.md']
+type: coverage
+tags: [cognitive_matrix, cognitive_matrix_coverage_contract.md]
 ---
+
 
 
 # COGNITIVE MATRIX COVERAGE CONTRACT

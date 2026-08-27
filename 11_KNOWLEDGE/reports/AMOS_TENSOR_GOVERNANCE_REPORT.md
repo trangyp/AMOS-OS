@@ -1,9 +1,11 @@
 ---
 title: AMOS TENSOR GOVERNANCE REPORT
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS BRAIN OMEGA - ULTIMATE TENSOR FIELD GOVERNANCE IMPLEMENTATION REPORT

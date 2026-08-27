@@ -1,5 +1,6 @@
 ---
 title: "Canon-to-Source Map"
+type: canon
 artifact: "CANON_TO_SOURCE_MAP.md"
 artifact_id: "amos_01_canon_07_provenance_canon_to_source_map"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/07_PROVENANCE"
 artifact_kind: "MAP"
 path: "01_CANON/07_PROVENANCE/CANON_TO_SOURCE_MAP.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - map
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Canon-to-Source Map
 

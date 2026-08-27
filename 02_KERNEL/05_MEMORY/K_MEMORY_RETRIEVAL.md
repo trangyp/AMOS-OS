@@ -1,5 +1,6 @@
 ---
 title: K MEMORY RETRIEVAL
+type: memory
 artifact_id: AMOS-OS-K-MEMORY-RETRIEVAL
 canonical_name: K_MEMORY_RETRIEVAL
 artifact_type: kernel_memory_retrieval_contract
@@ -13,8 +14,7 @@ kernel_family: MEMORY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - kernel
   - kernel/memory
@@ -35,6 +35,8 @@ tags:
   - topic/regime
   - topic/context-relevance
 ---
+
+
 
 
 # K MEMORY RETRIEVAL

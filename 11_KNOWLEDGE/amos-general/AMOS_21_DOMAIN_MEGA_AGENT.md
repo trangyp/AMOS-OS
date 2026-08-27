@@ -1,5 +1,6 @@
 ---
 title: AMOS 21 DOMAIN MEGA AGENT
+type: agent
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-21-domain-mega-agent
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-21-domain-mega-agent, amos-general]
 created: 2026-08-22
 ---
+
 
 
 ```json

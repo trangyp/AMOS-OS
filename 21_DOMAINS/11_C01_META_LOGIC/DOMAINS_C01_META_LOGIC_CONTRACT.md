@@ -1,7 +1,9 @@
 ---
 title: DOMAINS C01 META LOGIC CONTRACT
-tags: ['amos_os', '21_domains']
+type: logic
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS C01 META LOGIC CONTRACT

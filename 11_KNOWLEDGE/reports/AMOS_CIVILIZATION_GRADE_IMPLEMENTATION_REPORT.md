@@ -1,9 +1,11 @@
 ---
 title: AMOS CIVILIZATION GRADE IMPLEMENTATION REPORT
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS OMEGA CIVILIZATION-GRADE DYNAMICAL CORE - IMPLEMENTATION REPORT

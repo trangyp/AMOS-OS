@@ -1,9 +1,11 @@
 ---
 title: BAN DO TOAN DIEN XUYEN THOI GIAN VA VAN MINH
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

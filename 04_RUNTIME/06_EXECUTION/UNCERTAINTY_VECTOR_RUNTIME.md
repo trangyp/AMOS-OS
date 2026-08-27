@@ -1,5 +1,6 @@
 ---
 title: "Uncertainty Vector Runtime"
+type: runtime
 artifact: "UNCERTAINTY_VECTOR_RUNTIME.md"
 artifact_id: "amos_04_runtime_06_execution_uncertainty_vector_runtime"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "04_RUNTIME/06_EXECUTION"
 artifact_kind: "RUNTIME"
 path: "04_RUNTIME/06_EXECUTION/UNCERTAINTY_VECTOR_RUNTIME.md"
 
-tags:
-  - amos_os
+tags: [amos_os, runtime, execution]
   - 04_runtime
   - runtime
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Uncertainty Vector Runtime
 

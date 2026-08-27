@@ -4,6 +4,7 @@ type: note
 tags: [note, c07-perception]
 ---
 
+
 # C07 — State
 
 **Package:** `C07_PERCEPTION`  

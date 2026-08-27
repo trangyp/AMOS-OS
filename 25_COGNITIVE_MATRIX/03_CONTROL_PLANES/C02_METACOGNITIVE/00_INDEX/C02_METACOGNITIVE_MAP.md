@@ -1,7 +1,9 @@
 ---
 title: C02 METACOGNITIVE MAP
-tags: ['cognitive_matrix', 'c02_metacognitive']
+type: map
+tags: [cognitive_matrix, c02_metacognitive]
 ---
+
 
 
 # C02 METACOGNITIVE MAP

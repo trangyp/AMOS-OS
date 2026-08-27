@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 02-cognition]
 ---
 
+
 # 02_COGNITION — Map of Content
 
 ## Files

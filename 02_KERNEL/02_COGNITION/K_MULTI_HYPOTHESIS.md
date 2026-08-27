@@ -1,5 +1,6 @@
 ---
 title: K MULTI HYPOTHESIS
+type: hypothesis
 artifact_id: AMOS-OS-K-MULTI-HYPOTHESIS
 canonical_name: K_MULTI_HYPOTHESIS
 artifact_type: kernel_multi_hypothesis_contract
@@ -18,8 +19,7 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - canon/model
   - kernel
@@ -53,6 +53,8 @@ aliases:
   - K_MULTI_HYPOTHESIS
   - Competing Hypothesis Kernel
 ---
+
+
 
 
 # K_MULTI_HYPOTHESIS

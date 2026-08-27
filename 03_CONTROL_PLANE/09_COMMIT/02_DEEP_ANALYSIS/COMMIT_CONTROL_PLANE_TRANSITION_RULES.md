@@ -1,7 +1,9 @@
 ---
 title: COMMIT CONTROL PLANE TRANSITION RULES
-tags: ['control_plane', '02_deep_analysis']
+type: transition
+tags: [control_plane, 02_deep_analysis]
 ---
+
 
 
 # COMMIT CONTROL PLANE TRANSITION RULES

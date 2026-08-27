@@ -1,7 +1,6 @@
 ---
 title: VIETNAM DEMOGRAPHIC ENGINE
-tags:
-  [
+tags: [engine, processing, runtime]
     canon-group/biology,
     canon/framework,
     rscf/claim,
@@ -12,6 +11,8 @@ tags:
 type: document
 source: 11_KNOWLEDGE/engine
 ---
+
+
 
 
 

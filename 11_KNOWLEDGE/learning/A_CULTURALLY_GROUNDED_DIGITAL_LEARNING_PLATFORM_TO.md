@@ -1,9 +1,11 @@
 ---
 title: A CULTURALLY GROUNDED DIGITAL LEARNING PLATFORM TO
-tags: [learning]
+tags: [learning, training, adaptation]
 type: document
 source: 11_KNOWLEDGE/learning
 ---
+
+
 
 
 

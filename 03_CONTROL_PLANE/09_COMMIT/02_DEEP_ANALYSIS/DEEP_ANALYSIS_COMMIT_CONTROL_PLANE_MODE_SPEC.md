@@ -1,7 +1,9 @@
 ---
 title: DEEP ANALYSIS COMMIT CONTROL PLANE MODE SPEC
-tags: ['control_plane', '02_deep_analysis']
+type: control-plane
+tags: [control_plane, 02_deep_analysis]
 ---
+
 
 
 # DEEP ANALYSIS COMMIT CONTROL PLANE MODE SPEC

@@ -1,7 +1,9 @@
 ---
 title: EXPOSURE CONTROL PLANE EXPOSURE CONTRACT
-tags: ['control_plane', '00_index']
+type: control-plane
+tags: [control_plane, 00_index]
 ---
+
 
 
 # EXPOSURE CONTROL PLANE EXPOSURE CONTRACT

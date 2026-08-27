@@ -1,10 +1,12 @@
 ---
 title: COMPRESSED DATA LOADER
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# COMPRESSED DATA LOADER
 
 """
 Compressed Data Loader — Load .gz compressed JSON files

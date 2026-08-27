@@ -1,5 +1,6 @@
 ---
 title: "AMOS OS Root Authorization"
+type: note
 artifact: "00_ROOT_AUTHORIZATION.md"
 artifact_id: "AMOS_AUTH_ROOT_000"
 origin_architect: "Trang Phan"
@@ -19,6 +20,7 @@ validation_status: "UNKNOWN/GAP"
 active_root_authority: "UNBOUND"
 tags: [note, 00-root]
 ---
+
 
 # AMOS OS — 00 Root Authorization
 

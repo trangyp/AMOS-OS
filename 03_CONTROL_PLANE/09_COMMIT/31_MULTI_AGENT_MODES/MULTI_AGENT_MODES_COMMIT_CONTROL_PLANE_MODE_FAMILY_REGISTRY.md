@@ -1,7 +1,9 @@
 ---
 title: MULTI AGENT MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '31_multi_agent_modes']
+type: agent
+tags: [control_plane, 31_multi_agent_modes]
 ---
+
 
 
 # MULTI AGENT MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

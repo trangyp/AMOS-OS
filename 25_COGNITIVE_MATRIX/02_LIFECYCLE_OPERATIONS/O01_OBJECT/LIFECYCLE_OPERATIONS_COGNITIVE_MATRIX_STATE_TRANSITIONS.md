@@ -4,6 +4,7 @@ type: note
 tags: [note, o01-object]
 ---
 
+
 # O01 — State Transitions
 
 **Package:** `O01_OBJECT`  

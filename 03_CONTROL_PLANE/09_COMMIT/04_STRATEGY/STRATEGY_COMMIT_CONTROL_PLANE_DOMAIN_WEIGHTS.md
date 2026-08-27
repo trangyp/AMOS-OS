@@ -1,7 +1,9 @@
 ---
 title: STRATEGY COMMIT CONTROL PLANE DOMAIN WEIGHTS
-tags: ['control_plane', '04_strategy']
+type: control-plane
+tags: [control_plane, 04_strategy]
 ---
+
 
 
 # STRATEGY COMMIT CONTROL PLANE DOMAIN WEIGHTS

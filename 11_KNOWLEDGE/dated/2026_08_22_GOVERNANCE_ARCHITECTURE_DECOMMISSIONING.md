@@ -6,6 +6,7 @@ source: 11_KNOWLEDGE/dated
 ---
 
 
+
 # 2026-08-22 Governance Architecture & Decommissioning
 
 ## Summary

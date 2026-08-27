@@ -1,8 +1,10 @@
 ---
 title: STRATEGY GAME MODEL
+type: strategy
 aliases: [Strategy Game Engine, AMOS_Strategy_Game]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/strategy-game-model, strategy]
 ---
+
 
 
 # AMOS Strategy & Game Engine

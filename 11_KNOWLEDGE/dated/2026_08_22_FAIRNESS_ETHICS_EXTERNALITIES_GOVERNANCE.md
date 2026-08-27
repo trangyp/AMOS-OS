@@ -6,6 +6,7 @@ source: 11_KNOWLEDGE/dated
 ---
 
 
+
 # 2026-08-22 Fairness, Ethics & Externalities Governance
 
 ## Overview

@@ -1,5 +1,6 @@
 ---
 title: "Directed Systemal Identity"
+type: identity
 artifact: "DIRECTED_SYSTEMAL_IDENTITY.md"
 artifact_id: "amos_05_cognitive_organism_01_identity_directed_systemal_identity"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/01_IDENTITY"
 artifact_kind: "ARTIFACT"
 path: "05_COGNITIVE_ORGANISM/01_IDENTITY/DIRECTED_SYSTEMAL_IDENTITY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive, organism]
   - 05_cognitive_organism
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Directed Systemal Identity
 

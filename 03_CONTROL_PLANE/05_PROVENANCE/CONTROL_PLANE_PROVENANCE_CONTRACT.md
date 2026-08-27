@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE PROVENANCE CONTRACT
-tags: ['control_plane', 'control_plane_provenance_contract.md']
+type: provenance
+tags: [control_plane, control_plane_provenance_contract.md]
 ---
+
 
 
 # CONTROL PLANE PROVENANCE CONTRACT

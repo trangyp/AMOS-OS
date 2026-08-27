@@ -3,12 +3,13 @@ title: "NeuroSyncAI Deterministic Architecture — 5-Tier OS for Intelligence"
 created: "2026-08-22"
 origin: "Google Drive — A_Deterministic_Architecture_for_HumanMachine_Alignment.pdf"
 origin_architect: "Trang Phan"
-type: "reference"
+type: reference
 tags: [canon-group/meta, canon/law, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/D-distinction, rscf/B-boundary, topic/deterministic-architecture, architecture]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # NeuroSyncAI™ Deterministic Architecture
 

@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 07-skills]
 ---
 
+
 # 07_SKILLS — Map of Content
 
 ## Files

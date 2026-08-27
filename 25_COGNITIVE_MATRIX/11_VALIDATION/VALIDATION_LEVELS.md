@@ -1,4 +1,5 @@
 ---
+type: validation
 id: AMOS-11-VALIDATION-LEVELS
 title: "11_VALIDATION — Validation Levels"
 origin_architect: "Trang Phan"
@@ -45,6 +46,7 @@ runtime_dependencies:
 hard_rule: "VALIDATION_LEVEL != TRUTH_LEVEL != AUTHORITY_LEVEL"
 tags: [note, 11-validation]
 ---
+
 
 # 11_VALIDATION — Validation Levels
 

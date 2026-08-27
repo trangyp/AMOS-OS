@@ -4,6 +4,7 @@ type: note
 tags: [note, o10-value]
 ---
 
+
 # O10 — Control-Plane Requirements
 
 **Package:** `O10_VALUE`  

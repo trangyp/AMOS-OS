@@ -4,6 +4,7 @@ type: moc
 tags: [moc, signal]
 ---
 
+
 # Signal — Map of Content
 
 - [[HERMES_OMNI_SIGNAL_COMPLETION_REPORT]]

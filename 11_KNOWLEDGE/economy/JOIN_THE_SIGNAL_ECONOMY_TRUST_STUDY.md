@@ -1,9 +1,11 @@
 ---
 title: JOIN THE SIGNAL ECONOMY TRUST STUDY
-tags: [economy]
+tags: [economy, finance, market]
 type: document
 source: 11_KNOWLEDGE/economy
 ---
+
+
 
 
 

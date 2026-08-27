@@ -2,12 +2,13 @@
 title: "Mind OS Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "note"
+type: note
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/mind-os-model, models]
 status: "active"
 provenance: "MODEL"
 confidence: "DERIVED"
 ---
+
 
 # Mind OS Model
 

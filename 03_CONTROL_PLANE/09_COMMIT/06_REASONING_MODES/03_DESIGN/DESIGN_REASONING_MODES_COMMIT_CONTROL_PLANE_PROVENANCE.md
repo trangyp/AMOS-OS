@@ -1,7 +1,9 @@
 ---
 title: DESIGN REASONING MODES COMMIT CONTROL PLANE PROVENANCE
-tags: ['control_plane', '06_reasoning_modes/03_design']
+type: provenance
+tags: [control_plane, 06_reasoning_modes/03_design]
 ---
+
 
 
 # DESIGN REASONING MODES COMMIT CONTROL PLANE PROVENANCE

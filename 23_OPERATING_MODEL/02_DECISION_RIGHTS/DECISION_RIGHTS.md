@@ -1,7 +1,9 @@
 ---
 title: DECISION RIGHTS
-tags: ['amos_os', '23_operating_model']
+type: decision
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # DECISION RIGHTS

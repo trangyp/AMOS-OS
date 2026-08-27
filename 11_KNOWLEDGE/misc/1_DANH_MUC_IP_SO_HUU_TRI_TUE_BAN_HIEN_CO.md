@@ -1,9 +1,11 @@
 ---
 title: 1 DANH MUC IP SO HUU TRI TUE BAN HIEN CO
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

@@ -1,9 +1,11 @@
 ---
 title: TRANG AMOS REALITY ARCHITECTURE MASTER MAX DETAIL
-tags: [trang]
+tags: [trang, framework, reality]
 type: data
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

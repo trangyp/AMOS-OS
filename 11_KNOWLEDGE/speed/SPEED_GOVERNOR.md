@@ -1,9 +1,11 @@
 ---
 title: SPEED GOVERNOR
-tags: [speed]
+tags: [speed, performance, optimization]
 type: document
 source: 11_KNOWLEDGE/speed
 ---
+
+
 
 
 # Speed Governor

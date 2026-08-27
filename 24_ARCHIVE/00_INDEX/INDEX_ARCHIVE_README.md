@@ -1,7 +1,9 @@
 ---
 title: INDEX ARCHIVE README
-tags: ['amos_os', '24_archive']
+type: index
+tags: [amos_os, 24_archive]
 ---
+
 
 
 # INDEX ARCHIVE README

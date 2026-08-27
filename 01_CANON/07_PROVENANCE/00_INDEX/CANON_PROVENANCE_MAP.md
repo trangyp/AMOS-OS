@@ -1,7 +1,9 @@
 ---
 title: CANON PROVENANCE MAP
-tags: ['amos_os', '01_canon']
+type: canon
+tags: [amos_os, 01_canon]
 ---
+
 
 
 # CANON PROVENANCE MAP

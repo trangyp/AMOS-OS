@@ -1,9 +1,11 @@
 ---
 title: "2026-08-23 COSMO Critical Path Pages Converted"
+type: cosmos
 date: 2026-08-23
 tags: [cosmo, implementation, web-app, critical-path, milestone, dated, dated/2026-08-23]
 provenance: "opencode session 2026-08-23"
 ---
+
 
 # 2026-08-23 COSMO Critical Path Pages Converted
 

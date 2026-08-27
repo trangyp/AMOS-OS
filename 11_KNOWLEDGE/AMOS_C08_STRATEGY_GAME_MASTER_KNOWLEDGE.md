@@ -1,4 +1,5 @@
 ---
+type: strategy
 id: AMOS-C08-STRATEGY-GAME-MASTER-KNOWLEDGE
 title: "AMOS C08 — Strategy, Game Theory & Negotiation Master Knowledge"
 origin_architect: "Trang Phan"
@@ -26,9 +27,10 @@ source_family_mapping:
   - "F08_multi_agent_strategy_dynamics"
   - "F09_negotiation_and_agreement_design"
   - "F10_meta_strategy_governance"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # AMOS C08 — Strategy, Game Theory & Negotiation Master Knowledge
 
 > **Epistemic boundary**

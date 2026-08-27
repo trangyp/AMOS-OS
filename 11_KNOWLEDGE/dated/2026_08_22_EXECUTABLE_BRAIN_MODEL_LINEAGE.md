@@ -1,5 +1,6 @@
 ---
 title: 2026 08 22 EXECUTABLE BRAIN MODEL LINEAGE
+type: brain
 origin_architect: Hermes Agent (AMOS session)
 provenance: user-supplied canonical v1.0 spec + schema; verified against cosmo-brain/executable_brain_model.py (v22)
 confidence: 0.98
@@ -8,6 +9,7 @@ conclusion_label: VERIFIED
 tags: [canon-group/biology, canon/model, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-executable-brain-model-lineag, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 
 # Executable Brain Model — v1.0 Seed & v22 Lineage

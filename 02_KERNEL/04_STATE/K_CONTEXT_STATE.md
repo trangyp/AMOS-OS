@@ -1,5 +1,6 @@
 ---
 title: K CONTEXT STATE
+type: state
 artifact_id: AMOS-OS-K-CONTEXT-STATE
 canonical_name: K_CONTEXT_STATE
 artifact_type: kernel_context_state_contract
@@ -17,8 +18,7 @@ scope: AMOS_OS
 
 updated: 2026-08-26
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - canon/model
   - kernel
@@ -45,6 +45,8 @@ aliases:
   - K Context State
   - K_CONTEXT_STATE
 ---
+
+
 
 
 # K CONTEXT STATE

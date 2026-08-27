@@ -1,7 +1,9 @@
 ---
 title: POLICY DESIGN DOMAINS POLICY DESIGN CONTRACT
-tags: ['amos_os', '21_domains']
+type: design
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # POLICY DESIGN DOMAINS POLICY DESIGN CONTRACT

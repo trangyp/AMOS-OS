@@ -1,8 +1,10 @@
 ---
 title: DOCUMENTATION ENGINE MODEL
+type: model
 aliases: [Corporate Documentation Engine, AMOS_Documentation, Corp Doc Engine]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/documentation-engine-model, engine]
 ---
+
 
 
 # AMOS Corporate Documentation Engine

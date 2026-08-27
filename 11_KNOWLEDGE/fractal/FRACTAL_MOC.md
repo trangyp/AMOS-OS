@@ -4,6 +4,7 @@ type: moc
 tags: [moc, fractal]
 ---
 
+
 # Fractal — Map of Content
 
 - [[AMOS_FOREX_FRACTAL_GEOMETRY_RESEARCH_CAPSULE_V2_DEEP]]

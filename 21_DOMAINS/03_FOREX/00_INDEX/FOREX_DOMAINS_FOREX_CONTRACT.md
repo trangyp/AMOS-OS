@@ -1,7 +1,9 @@
 ---
 title: FOREX DOMAINS FOREX CONTRACT
-tags: ['amos_os', '21_domains']
+type: note
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # FOREX DOMAINS FOREX CONTRACT

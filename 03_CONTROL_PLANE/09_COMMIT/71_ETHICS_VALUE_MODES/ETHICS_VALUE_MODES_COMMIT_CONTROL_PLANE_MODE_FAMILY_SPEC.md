@@ -1,7 +1,9 @@
 ---
 title: ETHICS VALUE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '71_ethics_value_modes']
+type: control-plane
+tags: [control_plane, 71_ethics_value_modes]
 ---
+
 
 
 # ETHICS VALUE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

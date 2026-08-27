@@ -1,7 +1,9 @@
 ---
 title: L24 CAUSAL EPOCH
-tags: ['canon', 'core_laws', 'note']
+type: note
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L24 Causal Epoch Laws

@@ -1,7 +1,9 @@
 ---
 title: FOREX DOMAINS DOMAIN SPEC
-tags: ['amos_os', '21_domains']
+type: note
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # FOREX DOMAINS DOMAIN SPEC

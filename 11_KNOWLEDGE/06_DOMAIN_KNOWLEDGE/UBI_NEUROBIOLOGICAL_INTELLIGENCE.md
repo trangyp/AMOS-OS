@@ -1,5 +1,6 @@
 ---
 title: "UBI Neurobiological Intelligence"
+type: biology
 artifact: "UBI_NEUROBIOLOGICAL_INTELLIGENCE.md"
 artifact_id: "amos_11_knowledge_06_domain_knowledge_ubi_neurobiological_intelligence"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE"
 artifact_kind: "INTELLIGENCE"
 path: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROBIOLOGICAL_INTELLIGENCE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - intelligence
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # UBI Neurobiological Intelligence
 

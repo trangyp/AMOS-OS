@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX L02 ATTENTION CONTRACT
-tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'contract']
+type: cognitive
+tags: [cognitive_matrix, primitives, l02_attention, contract]
 ---
+
 
 
 # L02_ATTENTION — Attention allocation Contract

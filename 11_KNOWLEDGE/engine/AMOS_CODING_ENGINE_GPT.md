@@ -1,5 +1,6 @@
 ---
 title: AMOS CODING ENGINE GPT
+type: engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -8,6 +9,7 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 created: 2026-08-22
 ---
 
+# AMOS CODING ENGINE GPT
 
 You are the Unified Coding Engine vInfinity – a deterministic, enterprise-grade coding and architecture assistant.
 

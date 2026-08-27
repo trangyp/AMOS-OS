@@ -4,6 +4,7 @@ type: note
 tags: [note, c07-perception]
 ---
 
+
 # C07 — Failure Modes
 
 **Package:** `C07_PERCEPTION`  

@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/kernel
 
 
 
+
 # AMOS_Governance_Risk_Policy_Kernel_v0.md
 
 ## Kernel Metadata

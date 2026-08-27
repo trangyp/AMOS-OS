@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN ASYMPTOTIC TRANSCENDENCE
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS Brain Asymptotic Transcendence Engine: **COMPLETE**

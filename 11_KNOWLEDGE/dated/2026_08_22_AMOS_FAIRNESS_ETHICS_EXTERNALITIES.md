@@ -1,12 +1,13 @@
 ---
 title: "AMOS Fairness Ethics Externalities"
 created: "2026-08-22"
-type: "note"
+type: note
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-fairness-ethics, dated, dated/2026-08-22]
 status: "living"
 provenance: "MODEL"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS Fairness, Ethics & Externalities (Gaps 274-279)
 

@@ -1,7 +1,9 @@
 ---
 title: RESOURCE BUDGET MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '35_resource_budget_modes']
+type: control-plane
+tags: [control_plane, 35_resource_budget_modes]
 ---
+
 
 
 # RESOURCE BUDGET MODES COMMIT CONTROL PLANE README

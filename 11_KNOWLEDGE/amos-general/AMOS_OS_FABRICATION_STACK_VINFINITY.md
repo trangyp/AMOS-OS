@@ -1,5 +1,6 @@
 ---
 title: AMOS OS FABRICATION STACK VINFINITY
+type: note
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-os-fabrication-stack-vinfinity
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-os-fabrication-stack-vinfinity, amos-general]
 created: 2026-08-22
 ---
+
 
 
 ```json

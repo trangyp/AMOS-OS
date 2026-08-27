@@ -1,5 +1,6 @@
 ---
 title: "Proof Capsule Finalizer"
+type: proof
 artifact: "PROOF_CAPSULE_FINALIZER.md"
 artifact_id: "amos_04_runtime_09_finalization_proof_capsule_finalizer"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "04_RUNTIME/09_FINALIZATION"
 artifact_kind: "FINALIZER"
 path: "04_RUNTIME/09_FINALIZATION/PROOF_CAPSULE_FINALIZER.md"
 
-tags:
-  - amos_os
+tags: [amos_os, runtime, execution]
   - 04_runtime
   - finalizer
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Proof Capsule Finalizer
 

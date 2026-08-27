@@ -8,6 +8,7 @@ source: 11_KNOWLEDGE/kernel
 
 
 
+
 ```json
 {
   "meta": {

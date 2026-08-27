@@ -1,9 +1,11 @@
 ---
 title: MONEY REGIMES STRUCTURAL ANALYSIS
-tags: [economy]
+tags: [economy, finance, market]
 type: document
 source: 11_KNOWLEDGE/economy
 ---
+
+
 
 
 # MONEY REGIMES STRUCTURAL ANALYSIS

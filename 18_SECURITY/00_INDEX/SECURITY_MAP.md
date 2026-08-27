@@ -1,7 +1,9 @@
 ---
 title: SECURITY MAP
-tags: ['amos_os', '18_security']
+type: map
+tags: [amos_os, 18_security]
 ---
+
 
 
 # SECURITY MAP

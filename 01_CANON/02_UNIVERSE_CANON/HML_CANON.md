@@ -1,4 +1,5 @@
 ---
+type: canon
 artifact_id: AMOS-HML-CANON
 name: HML_CANON
 title: "AMOS H/M/L Canon — Fractal Knowledge Resolution and Retrieval Architecture"
@@ -20,8 +21,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos
+tags: [amos, canon, universe]
   - amos-os
   - amos-core
   - amos-core-v4-4
@@ -66,6 +66,8 @@ related:
   - "LAW_HIERARCHY|Law Hierarchy"
   - "AMOS_7_PART_UNIVERSE_CANON|AMOS 7-Part Universe Canon"
 ---
+
+
 
 # AMOS H/M/L Canon
 

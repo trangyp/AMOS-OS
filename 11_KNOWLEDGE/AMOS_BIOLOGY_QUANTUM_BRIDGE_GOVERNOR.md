@@ -1,5 +1,6 @@
 ---
 title: AMOS BIOLOGY QUANTUM BRIDGE GOVERNOR
+type: quantum
 claim_ceiling: 0.85
 created: 2026-08-27
 domain: cross-domain
@@ -8,12 +9,13 @@ origin_architect: Trang Phan
 parent_skill: amos-c04-bio-neuro-master
 rscf_node_type: skill
 status: production_ready
-tags:
-- rscf/node
+tags: [rscf/node, knowledge, vault]
 - canon-group/cross-domain
 - topic/biology-quantum
 - topic/anti-overclaim-firewall
 ---
+
+
 
 # AMOS Biology-Quantum Bridge Governor
 

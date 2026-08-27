@@ -1,9 +1,11 @@
 ---
 title: ABSOLUTE IP PROTECTION PLAN FOR TRANG PHAN
-tags: [trang]
+tags: [trang, framework, reality]
 type: document
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

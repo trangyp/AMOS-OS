@@ -1,5 +1,6 @@
 ---
 title: "Irreducible Systems Design"
+type: system
 artifact: "IRREDUCIBLE_SYSTEMS_DESIGN.md"
 artifact_id: "amos_21_domains_05_design_irreducible_systems_design"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/05_DESIGN"
 artifact_kind: "DESIGN"
 path: "21_DOMAINS/05_DESIGN/IRREDUCIBLE_SYSTEMS_DESIGN.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - design
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Irreducible Systems Design
 

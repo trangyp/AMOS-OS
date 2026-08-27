@@ -1,7 +1,9 @@
 ---
 title: L20 CREDIT ASSIGNMENT MAP
-tags: ['cognitive_matrix', 'l20_credit_assignment']
+type: map
+tags: [cognitive_matrix, l20_credit_assignment]
 ---
+
 
 
 # L20 CREDIT ASSIGNMENT MAP

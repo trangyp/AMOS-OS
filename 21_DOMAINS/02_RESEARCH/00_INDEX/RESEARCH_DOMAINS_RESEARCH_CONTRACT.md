@@ -1,7 +1,9 @@
 ---
 title: RESEARCH DOMAINS RESEARCH CONTRACT
-tags: ['amos_os', '21_domains']
+type: research
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # RESEARCH DOMAINS RESEARCH CONTRACT

@@ -4,6 +4,7 @@ type: note
 tags: [note, l05-binding]
 ---
 
+
 # L05 — Control-Plane Requirements
 
 **Package:** `L05_BINDING`  

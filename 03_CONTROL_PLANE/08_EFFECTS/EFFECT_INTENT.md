@@ -1,7 +1,9 @@
 ---
 title: EFFECT INTENT
-tags: ['control_plane', 'effect_intent.md']
+type: note
+tags: [control_plane, effect_intent.md]
 ---
+
 
 
 # EFFECT INTENT

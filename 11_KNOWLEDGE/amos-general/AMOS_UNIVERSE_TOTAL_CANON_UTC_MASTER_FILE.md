@@ -3,12 +3,13 @@ title: "AMOS Universe Total Canon (UTC) — Master File Structure"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/_AMOS_OS_MasterFile.uos copy.txt"
 origin_architect: "Trang Phan"
-type: "canon-spec"
+type: canon-spec
 tags: [canon-group/meta, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/X-crossscale, topic/universe-total-canon, amos-general]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS Universe Total Canon (UTC) — Master File
 

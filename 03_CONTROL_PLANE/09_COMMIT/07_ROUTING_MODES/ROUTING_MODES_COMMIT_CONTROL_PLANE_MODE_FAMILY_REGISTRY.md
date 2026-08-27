@@ -1,7 +1,9 @@
 ---
 title: ROUTING MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '07_routing_modes']
+type: control-plane
+tags: [control_plane, 07_routing_modes]
 ---
+
 
 
 # ROUTING MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

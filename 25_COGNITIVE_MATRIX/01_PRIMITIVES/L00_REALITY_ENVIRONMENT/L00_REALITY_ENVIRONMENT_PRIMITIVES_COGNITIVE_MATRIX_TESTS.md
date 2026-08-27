@@ -1,9 +1,8 @@
 ---
 title: L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX TESTS
+type: test
 
-tags:
-
-* amos
+tags: [amos]
 * cognitive-matrix
 * l00
 * reality-environment
@@ -18,6 +17,7 @@ tags:
 * rscf
 
 ---
+
 
 
 # L00_REALITY_ENVIRONMENT — Tests

@@ -1,7 +1,9 @@
 ---
 title: RESEARCH README
-tags: ['amos_os', '22_research']
+type: research
+tags: [amos_os, 22_research]
 ---
+
 
 
 # RESEARCH README

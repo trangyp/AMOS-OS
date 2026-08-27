@@ -1,7 +1,9 @@
 ---
 title: RESERVATION TRANSACTION REVIEW
-tags: ['control_plane', 'reservation_transaction_review.md']
+type: action
+tags: [control_plane, reservation_transaction_review.md]
 ---
+
 
 
 # RESERVATION TRANSACTION REVIEW

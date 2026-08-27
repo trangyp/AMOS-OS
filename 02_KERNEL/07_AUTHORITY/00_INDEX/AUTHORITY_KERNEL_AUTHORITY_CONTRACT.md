@@ -1,7 +1,9 @@
 ---
 title: AUTHORITY KERNEL AUTHORITY CONTRACT
-tags: ['amos_os', '02_kernel']
+type: kernel
+tags: [amos_os, 02_kernel]
 ---
+
 
 
 # AUTHORITY KERNEL AUTHORITY CONTRACT

@@ -1,7 +1,9 @@
 ---
 title: INTEGRATION KERNEL README
-tags: ['amos_os', '02_kernel']
+type: kernel
+tags: [amos_os, 02_kernel]
 ---
+
 
 
 # INTEGRATION KERNEL README

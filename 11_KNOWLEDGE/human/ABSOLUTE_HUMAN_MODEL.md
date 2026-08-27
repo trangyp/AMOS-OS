@@ -2,12 +2,13 @@
 title: "AMOS Absolute Human Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "brain_model"
+type: brain-model
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/absolute-human-model, human]
 status: "active"
 provenance: "Absolute-Human (final version).txt"
 confidence: "STRUCTURAL"
 ---
+
 
 # AMOS Absolute Human Model
 

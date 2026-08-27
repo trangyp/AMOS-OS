@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE TESTS
-tags: ['control_plane', '03_coding']
+type: test
+tags: [control_plane, 03_coding]
 ---
+
 
 
 # CONTROL PLANE TESTS

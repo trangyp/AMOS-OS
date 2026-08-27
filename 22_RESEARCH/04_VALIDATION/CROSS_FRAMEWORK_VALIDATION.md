@@ -1,5 +1,6 @@
 ---
 title: "Cross-Framework Validation"
+type: validation
 artifact: "CROSS_FRAMEWORK_VALIDATION.md"
 artifact_id: "amos_22_research_04_validation_cross_framework_validation"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "22_RESEARCH/04_VALIDATION"
 artifact_kind: "FRAMEWORK"
 path: "22_RESEARCH/04_VALIDATION/CROSS_FRAMEWORK_VALIDATION.md"
 
-tags:
-  - amos_os
+tags: [amos_os, research, arxiv]
   - 22_research
   - framework
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Cross-Framework Validation
 

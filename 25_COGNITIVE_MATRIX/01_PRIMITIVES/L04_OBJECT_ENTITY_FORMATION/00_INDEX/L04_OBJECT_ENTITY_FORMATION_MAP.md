@@ -1,7 +1,9 @@
 ---
 title: L04 OBJECT ENTITY FORMATION MAP
-tags: ['cognitive_matrix', 'l04_object_entity_formation']
+type: map
+tags: [cognitive_matrix, l04_object_entity_formation]
 ---
+
 
 
 # L04 OBJECT ENTITY FORMATION MAP

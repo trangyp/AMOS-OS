@@ -13,6 +13,7 @@ tags: [dated, dated/2026-08-22]
 ---
 
 
+
 # The Complete Human System — Epistemic Audit v2 (2026-08-22)
 
 > Second-pass audit of the two manuscript versions. Goes deeper than v1 on falsifiability, dimensional analysis, neuroscience cross-check, and structural critique.

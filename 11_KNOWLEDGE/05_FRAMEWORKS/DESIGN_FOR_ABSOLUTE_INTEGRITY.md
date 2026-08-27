@@ -1,5 +1,6 @@
 ---
 title: "Design for Absolute Integrity"
+type: design
 artifact: "DESIGN_FOR_ABSOLUTE_INTEGRITY.md"
 artifact_id: "amos_11_knowledge_05_frameworks_design_for_absolute_integrity"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "DESIGN"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - design
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Design for Absolute Integrity
 

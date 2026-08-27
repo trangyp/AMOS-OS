@@ -1,5 +1,6 @@
 ---
 title: "UBI Health Application"
+type: note
 artifact: "UBI_HEALTH_APPLICATION.md"
 artifact_id: "amos_21_domains_07_healthcare_ubi_health_application"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/07_HEALTHCARE"
 artifact_kind: "APPLICATION"
 path: "21_DOMAINS/07_HEALTHCARE/UBI_HEALTH_APPLICATION.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - application
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # UBI Health Application
 

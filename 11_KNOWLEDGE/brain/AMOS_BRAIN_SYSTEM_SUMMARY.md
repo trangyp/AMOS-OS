@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN SYSTEM SUMMARY
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 # AMOS Brain Complete System - Final Summary Report

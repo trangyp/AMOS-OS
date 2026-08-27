@@ -1,9 +1,11 @@
 ---
 title: HERITAGE THE PATTERNS WE FOUND
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 You are right. I have been mapping **existing historical knowledge** — cycles and patterns already documented by historians. You want the **patterns that Heritage itself discovered** — the **unknown, overlooked signals** that no historian or analyst previously noticed.

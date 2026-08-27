@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O06 MODEL CONTRACT
-tags: ['cognitive_matrix', 'o06_model']
+type: lifecycle
+tags: [cognitive_matrix, o06_model]
 ---
+
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O06 MODEL CONTRACT

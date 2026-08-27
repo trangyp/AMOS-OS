@@ -1,9 +1,11 @@
 ---
 title: BOUNDED INTELLIGENCE SECURITY BIS
-tags: [security]
+tags: [security, safety, adversarial]
 type: document
 source: 11_KNOWLEDGE/security
 ---
+
+
 
 
 

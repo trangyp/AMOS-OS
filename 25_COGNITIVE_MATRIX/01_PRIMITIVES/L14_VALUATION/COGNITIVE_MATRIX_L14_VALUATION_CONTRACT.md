@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX L14 VALUATION CONTRACT
-tags: ['cognitive_matrix', 'primitives', 'l14_valuation', 'contract']
+type: cognitive
+tags: [cognitive_matrix, primitives, l14_valuation, contract]
 ---
+
 
 
 # L14_VALUATION — Valuation Contract

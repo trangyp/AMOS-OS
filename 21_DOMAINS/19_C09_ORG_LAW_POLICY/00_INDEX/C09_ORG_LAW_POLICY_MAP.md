@@ -1,7 +1,9 @@
 ---
 title: C09 ORG LAW POLICY MAP
-tags: ['amos_os', '21_domains']
+type: map
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C09 ORG LAW POLICY MAP

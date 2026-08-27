@@ -1,7 +1,9 @@
 ---
 title: MEMORY KERNEL README
-tags: ['amos_os', '02_kernel']
+type: kernel
+tags: [amos_os, 02_kernel]
 ---
+
 
 
 # MEMORY KERNEL README

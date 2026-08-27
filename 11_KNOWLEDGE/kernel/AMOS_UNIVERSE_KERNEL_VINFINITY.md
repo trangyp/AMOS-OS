@@ -1,5 +1,6 @@
 ---
 title: AMOS UNIVERSE KERNEL VINFINITY
+type: kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-universe-kernel-vinfinity
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-universe-kernel-vinfinity, kernel]
 created: 2026-08-22
 ---
+
 
 
 ```json

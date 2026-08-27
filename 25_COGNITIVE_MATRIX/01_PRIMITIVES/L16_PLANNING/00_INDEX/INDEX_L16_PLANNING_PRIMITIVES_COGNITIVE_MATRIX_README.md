@@ -1,7 +1,9 @@
 ---
 title: INDEX L16 PLANNING PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l16_planning']
+type: index
+tags: [cognitive_matrix, l16_planning]
 ---
+
 
 
 # INDEX L16 PLANNING PRIMITIVES COGNITIVE MATRIX README

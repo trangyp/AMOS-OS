@@ -6,6 +6,7 @@ epistemic: SOURCE/DERIVED
 tags: [math, fractal, multifractal, hurst, diagnostics, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — Multifractal & Hurst Diagnostics (FR014–FR016 Deep)
 
 ## Gap found

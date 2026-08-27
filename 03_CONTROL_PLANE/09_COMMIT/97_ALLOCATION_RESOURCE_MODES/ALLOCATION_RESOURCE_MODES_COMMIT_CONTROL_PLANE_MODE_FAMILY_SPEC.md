@@ -1,7 +1,9 @@
 ---
 title: ALLOCATION RESOURCE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '97_allocation_resource_modes']
+type: control-plane
+tags: [control_plane, 97_allocation_resource_modes]
 ---
+
 
 
 # ALLOCATION RESOURCE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

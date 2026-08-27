@@ -1,7 +1,9 @@
 ---
 title: CELL CONTRACTS COGNITIVE MATRIX CELL CONTRACTS CONTRACT
-tags: ['cognitive_matrix', '00_index']
+type: cognitive
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # CELL CONTRACTS COGNITIVE MATRIX CELL CONTRACTS CONTRACT

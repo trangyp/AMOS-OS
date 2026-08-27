@@ -1,9 +1,11 @@
 ---
 title: DIGITAL TECHNOLOGY APPLICATIONS FOR PRIVATE SECTOR
-tags: [tech-coding]
+tags: [tech-coding, tech, coding]
 type: document
 source: 11_KNOWLEDGE/tech-coding
 ---
+
+
 
 
 

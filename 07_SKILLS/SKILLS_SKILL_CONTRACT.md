@@ -1,7 +1,9 @@
 ---
 title: SKILLS SKILL CONTRACT
-tags: ['amos_os', '07_skills']
+type: skill
+tags: [amos_os, 07_skills]
 ---
+
 
 
 # SKILLS SKILL CONTRACT

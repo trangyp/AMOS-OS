@@ -1,9 +1,11 @@
 ---
 title: FRACTAL ARCHITECTURE FRAMEWORK 5000
-tags: [fractal]
+tags: [fractal, math, self-similarity]
 type: data
 source: 11_KNOWLEDGE/fractal
 ---
+
+
 
 
 

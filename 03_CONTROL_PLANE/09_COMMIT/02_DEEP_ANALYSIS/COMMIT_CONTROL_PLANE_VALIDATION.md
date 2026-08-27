@@ -1,7 +1,9 @@
 ---
 title: COMMIT CONTROL PLANE VALIDATION
-tags: ['control_plane', 'commit', 'deep_analysis', 'note']
+type: control-plane
+tags: [control_plane, commit, deep_analysis, note]
 ---
+
 
 
 Yes. Below is a **paste-ready substantive replacement** for the placeholder. I am treating it as a **candidate AMOS OS canonical artifact**, not falsely claiming that the placeholder itself contained this implementation. I also found an AMOS master encyclopedia in Drive that identifies itself as an exhaustive accessible-session AMOS/Trang index, plus a substantial counterfactual research corpus in Drive.  

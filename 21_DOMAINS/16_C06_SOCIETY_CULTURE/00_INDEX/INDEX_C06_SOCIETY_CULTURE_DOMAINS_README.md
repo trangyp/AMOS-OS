@@ -1,7 +1,9 @@
 ---
 title: INDEX C06 SOCIETY CULTURE DOMAINS README
-tags: ['amos_os', '21_domains']
+type: index
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # INDEX C06 SOCIETY CULTURE DOMAINS README

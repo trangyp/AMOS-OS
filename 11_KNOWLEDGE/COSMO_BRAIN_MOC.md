@@ -2,12 +2,13 @@
 title: "00 Cosmo Brain MOC"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "moc"
+type: moc
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/00-cosmo-brain-moc, moc, index]
 status: "living"
 provenance: "MODEL"
 confidence: "DERIVED"
 ---
+
 
 # 00 Cosmo Brain MOC
 

@@ -4,6 +4,7 @@ type: note
 tags: [note, 01-core-laws]
 ---
 
+
 Below is the **full substantive replacement** for `01_CANON/01_CORE_LAWS/L3_DEPENDENCY.md`. It follows the same standard as the completed L2 file, while keeping dependency-graph equations and generalized runtime rules explicitly `AMOS_MODEL` unless directly recovered from canon. The AMOS OS kernel explicitly requires dependency closure before execution, selective invalidation of dependent descendants, and confidence bounded by load-bearing premises.
 
 ````markdown

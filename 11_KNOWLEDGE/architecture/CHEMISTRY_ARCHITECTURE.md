@@ -1,9 +1,11 @@
 ---
 title: CHEMISTRY ARCHITECTURE
-tags: [architecture]
+tags: [architecture, design, structure]
 type: data
 source: 11_KNOWLEDGE/architecture
 ---
+
+
 
 
 

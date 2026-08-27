@@ -1,9 +1,11 @@
 ---
 title: METACOGNITIVE
-tags: [cognitive]
+tags: [cognitive, cognition, mind]
 type: document
 source: 11_KNOWLEDGE/cognitive
 ---
+
+
 
 
 

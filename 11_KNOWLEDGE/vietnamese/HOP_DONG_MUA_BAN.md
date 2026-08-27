@@ -1,9 +1,11 @@
 ---
 title: HOP DONG MUA BAN
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

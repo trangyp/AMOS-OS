@@ -1,9 +1,11 @@
 ---
 title: THOUGHTS AND EMOTION
-tags: [emotion]
+tags: [emotion, affect, mind]
 type: document
 source: 11_KNOWLEDGE/emotion
 ---
+
+
 
 
 

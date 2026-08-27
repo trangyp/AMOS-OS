@@ -1,9 +1,11 @@
 ---
 title: A_DETERMINISTIC_ARCHITECTURE_FOR_HUMANMACHINE_ALIGNMENT
-tags: [human]
+tags: [human, alignment, interaction]
 type: document
 source: 11_KNOWLEDGE/human
 ---
+
+
 
 
 Below is the **full English Markdown reconstruction** of the uploaded NeuroSyncAI™ document. I preserve its terminology and architecture while distinguishing the document’s own assertions from independently verified neuroscience or AI claims. Claims such as “first,” “biologically grounded,” or equivalence between specific brain systems and deterministic AI mechanisms remain **`SOURCE_CLAIM`** unless separately validated. 

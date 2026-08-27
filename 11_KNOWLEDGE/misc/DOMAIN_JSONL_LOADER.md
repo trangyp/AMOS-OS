@@ -1,10 +1,12 @@
 ---
 title: DOMAIN JSONL LOADER
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# DOMAIN JSONL LOADER
 
 """
 Domain JSONL Loader — Load and Query 500,000 Entry Domain-Specific Datasets

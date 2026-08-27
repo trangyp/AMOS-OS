@@ -4,6 +4,7 @@ type: note
 tags: [note, o08-prediction]
 ---
 
+
 # O08 — Invariants
 
 **Package:** `O08_PREDICTION`  

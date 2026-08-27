@@ -1,7 +1,9 @@
 ---
 title: EFFECTS CONTROL PLANE README
-tags: ['control_plane', 'effects_control_plane_readme.md']
+type: control-plane
+tags: [control_plane, effects_control_plane_readme.md]
 ---
+
 
 
 # EFFECTS CONTROL PLANE README

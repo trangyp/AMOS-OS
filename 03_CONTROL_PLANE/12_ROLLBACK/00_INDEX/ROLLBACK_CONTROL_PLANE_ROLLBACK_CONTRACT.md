@@ -1,7 +1,9 @@
 ---
 title: ROLLBACK CONTROL PLANE ROLLBACK CONTRACT
-tags: ['control_plane', '00_index']
+type: control-plane
+tags: [control_plane, 00_index]
 ---
+
 
 
 # ROLLBACK CONTROL PLANE ROLLBACK CONTRACT

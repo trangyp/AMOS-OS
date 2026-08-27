@@ -6,6 +6,7 @@ source: 11_KNOWLEDGE/dated
 ---
 
 
+
 # Quantum v0.7.0 Full Integration — Session Note (2026-08-25)
 
 ## What was done

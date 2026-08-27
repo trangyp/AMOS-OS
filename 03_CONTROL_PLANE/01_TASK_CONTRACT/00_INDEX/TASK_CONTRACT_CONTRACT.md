@@ -1,7 +1,9 @@
 ---
 title: TASK CONTRACT CONTRACT
-tags: ['control_plane', '00_index']
+type: task
+tags: [control_plane, 00_index]
 ---
+
 
 
 # TASK CONTRACT CONTRACT

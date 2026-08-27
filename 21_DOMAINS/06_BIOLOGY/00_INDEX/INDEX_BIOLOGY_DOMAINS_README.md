@@ -1,7 +1,9 @@
 ---
 title: INDEX BIOLOGY DOMAINS README
-tags: ['amos_os', '21_domains']
+type: index
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # INDEX BIOLOGY DOMAINS README

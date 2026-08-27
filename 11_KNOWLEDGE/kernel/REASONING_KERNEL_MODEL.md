@@ -2,12 +2,13 @@
 title: "AMOS Reasoning Kernel Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "brain_model"
+type: brain-model
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/reasoning-kernel-model, kernel]
 status: "active"
 provenance: "Reasoning kernel.txt"
 confidence: "STRUCTURAL"
 ---
+
 
 # AMOS Reasoning Kernel Model
 

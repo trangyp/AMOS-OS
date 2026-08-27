@@ -1,7 +1,9 @@
 ---
 title: AUTHORIZATION INVALIDATION
-tags: ['control_plane', 'authority', 'note']
+type: validation
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Authorization Invalidation

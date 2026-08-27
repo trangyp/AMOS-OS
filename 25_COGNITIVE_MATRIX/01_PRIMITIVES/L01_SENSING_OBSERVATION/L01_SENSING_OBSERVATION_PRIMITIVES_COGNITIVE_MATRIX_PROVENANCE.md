@@ -1,7 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX PROVENANCE
-tags:
-  - amos
+type: provenance
+tags: [amos]
   - cognitive-matrix
   - l01
   - sensing-observation
@@ -11,6 +11,7 @@ tags:
   - hml
   - control-plane
 ---
+
 
 
 # L01_SENSING_OBSERVATION — Provenance

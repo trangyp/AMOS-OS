@@ -1,9 +1,11 @@
 ---
 title: AMOS FOREX PACKAGES UKR RECURSIVE KERNEL
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: document
 source: 11_KNOWLEDGE/kernel
 ---
+
+
 
 
 """UKR recursive kernel – orchestrates the 17-stage pipeline.

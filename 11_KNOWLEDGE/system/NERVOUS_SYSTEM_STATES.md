@@ -1,9 +1,11 @@
 ---
 title: NERVOUS SYSTEM STATES
-tags: [system]
+tags: [system, architecture, design]
 type: data
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 

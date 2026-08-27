@@ -1,7 +1,9 @@
 ---
 title: INDEX TESTS TEST CONTRACT
-tags: ['amos_os', '19_tests']
+type: index
+tags: [amos_os, 19_tests]
 ---
+
 
 
 # INDEX TESTS TEST CONTRACT

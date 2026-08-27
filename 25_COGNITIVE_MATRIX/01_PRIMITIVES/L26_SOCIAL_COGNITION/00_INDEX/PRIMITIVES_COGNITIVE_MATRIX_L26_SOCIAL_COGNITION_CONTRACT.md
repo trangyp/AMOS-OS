@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L26 SOCIAL COGNITION CONTRACT
-tags: ['cognitive_matrix', 'l26_social_cognition']
+type: cognitive
+tags: [cognitive_matrix, l26_social_cognition]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L26 SOCIAL COGNITION CONTRACT

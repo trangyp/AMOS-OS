@@ -1,8 +1,10 @@
 ---
 title: BIOLOGY COGNITION MODEL
+type: biology
 aliases: [Biology & Cognition Engine, AMOS_Biology_Cognition]
 tags: [canon-group/biology, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/biology-cognition-model, biology-ubi]
 ---
+
 
 
 # AMOS Biology & Cognition Engine

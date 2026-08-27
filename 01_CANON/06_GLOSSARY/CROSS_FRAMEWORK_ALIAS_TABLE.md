@@ -1,5 +1,6 @@
 ---
 title: "Cross-Framework Alias Table"
+type: framework
 artifact: "CROSS_FRAMEWORK_ALIAS_TABLE.md"
 artifact_id: "amos_01_canon_06_glossary_cross_framework_alias_table"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/06_GLOSSARY"
 artifact_kind: "FRAMEWORK"
 path: "01_CANON/06_GLOSSARY/CROSS_FRAMEWORK_ALIAS_TABLE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - framework
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Cross-Framework Alias Table
 

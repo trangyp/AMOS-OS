@@ -1,7 +1,9 @@
 ---
 title: STRATEGY COMMIT CONTROL PLANE ACTIVATION RULES
-tags: ['control_plane', '04_strategy']
+type: rule
+tags: [control_plane, 04_strategy]
 ---
+
 
 
 # STRATEGY COMMIT CONTROL PLANE ACTIVATION RULES

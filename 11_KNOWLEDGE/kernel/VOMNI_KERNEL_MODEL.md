@@ -2,12 +2,13 @@
 title: "AMOS Vomni Kernel Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "brain_model"
+type: brain-model
 tags: [canon-group/human-system, canon/os-module, rscf/claim, rscf/provenance, rscf/state/derived, topic/vomni-kernel-model, kernel]
 status: "active"
 provenance: "AMOS_Vomni_Kernel_v0.json"
 confidence: "STRUCTURAL"
 ---
+
 
 # AMOS Vomni Kernel Model
 

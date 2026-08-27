@@ -1,10 +1,12 @@
 ---
 title: NDARRAY MISC
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# NDARRAY MISC
 
 """
 Tests for miscellaneous (non-magic) ``np.ndarray``/``np.generic`` methods.

@@ -1,7 +1,9 @@
 ---
 title: INDEX PROVENANCE CANON README
-tags: ['amos_os', '01_canon']
+type: index
+tags: [amos_os, 01_canon]
 ---
+
 
 
 # INDEX PROVENANCE CANON README

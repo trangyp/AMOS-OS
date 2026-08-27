@@ -6,6 +6,7 @@ epistemic: SOURCE/DERIVED
 tags: [math, optimization, governance, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — Optimization-Claim Governance (Optimization-Kernel Deep)
 
 ## Gap found

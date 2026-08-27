@@ -4,6 +4,7 @@ type: note
 tags: [note, amos-flow-canon]
 ---
 
+
 # AMOS Flow Canon
 
 ## When to Use

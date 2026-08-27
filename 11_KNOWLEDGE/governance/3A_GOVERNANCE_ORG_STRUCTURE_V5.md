@@ -1,5 +1,6 @@
 ---
 title: 3A GOVERNANCE ORG STRUCTURE V5
+type: structure
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
@@ -8,6 +9,7 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 created: 2026-08-22
 ---
 
+# 3A GOVERNANCE ORG STRUCTURE V5
 
 TRANSFORMING CUSTOMER JOURNEYS
 Playbook

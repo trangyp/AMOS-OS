@@ -1,7 +1,9 @@
 ---
 title: 00 ROOT PROVENANCE
-tags: ['amos_os', '00_root']
+type: provenance
+tags: [amos_os, 00_root]
 ---
+
 
 
 # 00 ROOT PROVENANCE

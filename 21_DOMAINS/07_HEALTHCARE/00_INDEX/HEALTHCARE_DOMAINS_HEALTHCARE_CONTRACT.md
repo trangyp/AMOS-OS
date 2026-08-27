@@ -1,7 +1,9 @@
 ---
 title: HEALTHCARE DOMAINS HEALTHCARE CONTRACT
-tags: ['amos_os', '21_domains']
+type: note
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # HEALTHCARE DOMAINS HEALTHCARE CONTRACT

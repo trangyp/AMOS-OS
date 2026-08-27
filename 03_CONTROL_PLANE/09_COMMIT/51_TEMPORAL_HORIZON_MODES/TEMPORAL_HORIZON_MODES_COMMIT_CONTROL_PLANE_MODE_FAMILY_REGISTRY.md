@@ -1,7 +1,9 @@
 ---
 title: TEMPORAL HORIZON MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '51_temporal_horizon_modes']
+type: control-plane
+tags: [control_plane, 51_temporal_horizon_modes]
 ---
+
 
 
 # TEMPORAL HORIZON MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

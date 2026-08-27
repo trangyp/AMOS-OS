@@ -1,7 +1,9 @@
 ---
 title: AUTHORIZATION DECISION
-tags: ['control_plane', 'authority', 'note']
+type: decision
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Authorization Decision

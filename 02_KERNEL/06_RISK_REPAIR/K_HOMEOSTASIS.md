@@ -1,5 +1,6 @@
 ---
 title: K HOMEOSTASIS
+type: note
 artifact_id: AMOS-OS-K-HOMEOSTASIS
 canonical_name: K_HOMEOSTASIS
 artifact_type: kernel_homeostasis_contract
@@ -13,8 +14,7 @@ kernel_family: STABILITY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - kernel
   - kernel/homeostasis
   - kernel/stability
@@ -37,6 +37,8 @@ tags:
   - topic/failure-containment
   - topic/revalidation
 ---
+
+
 
 
 # K HOMEOSTASIS

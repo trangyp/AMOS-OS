@@ -1,7 +1,9 @@
 ---
 title: RUNTIME RUNTIME CONTRACT
-tags: ['amos_os', '04_runtime']
+type: runtime
+tags: [amos_os, 04_runtime]
 ---
+
 
 
 # RUNTIME RUNTIME CONTRACT

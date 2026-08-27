@@ -4,6 +4,7 @@ type: note
 tags: [note, l28-governance]
 ---
 
+
 # L28 — RSCF Record
 
 **Package:** `L28_GOVERNANCE`  

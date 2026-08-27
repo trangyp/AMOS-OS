@@ -4,6 +4,7 @@ type: note
 tags: [note, c04-reasoning]
 ---
 
+
 # C04 — Failure Modes
 
 **Package:** `C04_REASONING`  

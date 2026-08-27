@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE PROVENANCE MAP
-tags: ['control_plane', '00_index']
+type: provenance
+tags: [control_plane, 00_index]
 ---
+
 
 
 # CONTROL PLANE PROVENANCE MAP

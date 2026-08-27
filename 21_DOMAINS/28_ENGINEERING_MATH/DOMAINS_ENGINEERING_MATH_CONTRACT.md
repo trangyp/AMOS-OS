@@ -1,7 +1,9 @@
 ---
 title: DOMAINS ENGINEERING MATH CONTRACT
-tags: ['amos_os', '21_domains']
+type: math
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS ENGINEERING MATH CONTRACT

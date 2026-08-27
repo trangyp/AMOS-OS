@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O16 LEARNING CONTRACT
-tags: ['cognitive_matrix', 'o16_learning']
+type: lifecycle
+tags: [cognitive_matrix, o16_learning]
 ---
+
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O16 LEARNING CONTRACT

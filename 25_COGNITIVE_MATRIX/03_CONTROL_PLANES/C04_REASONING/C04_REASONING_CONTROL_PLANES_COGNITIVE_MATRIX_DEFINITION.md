@@ -4,6 +4,7 @@ type: note
 tags: [note, c04-reasoning]
 ---
 
+
 # C04 — Definition
 
 **Package:** `C04_REASONING`  

@@ -1,7 +1,9 @@
 ---
 title: L27 GAP
-tags: ['canon', 'core_laws', 'note']
+type: gap
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L27 Gap Law

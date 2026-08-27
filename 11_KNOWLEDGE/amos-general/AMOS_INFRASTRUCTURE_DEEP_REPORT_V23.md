@@ -1,9 +1,11 @@
 ---
 title: AMOS INFRASTRUCTURE DEEP REPORT V23
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: document
 source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 
 # AMOS as Infrastructure: Corrected Full-Stack Architecture over Forex

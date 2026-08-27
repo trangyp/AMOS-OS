@@ -1,5 +1,6 @@
 ---
 title: "FPR — First-Principle Reasoning"
+type: reasoning
 artifact: "FPR_FIRST_PRINCIPLE_REASONING.md"
 artifact_id: "amos_11_knowledge_05_frameworks_fpr_first_principle_reasoning"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "REASONING"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/FPR_FIRST_PRINCIPLE_REASONING.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - reasoning
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # FPR — First-Principle Reasoning
 

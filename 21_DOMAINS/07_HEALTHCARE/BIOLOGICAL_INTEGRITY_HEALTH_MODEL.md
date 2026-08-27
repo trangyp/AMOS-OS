@@ -1,5 +1,6 @@
 ---
 title: "Biological Integrity Health Model"
+type: biology
 artifact: "BIOLOGICAL_INTEGRITY_HEALTH_MODEL.md"
 artifact_id: "amos_21_domains_07_healthcare_biological_integrity_health_model"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/07_HEALTHCARE"
 artifact_kind: "MODEL"
 path: "21_DOMAINS/07_HEALTHCARE/BIOLOGICAL_INTEGRITY_HEALTH_MODEL.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - model
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Biological Integrity Health Model
 

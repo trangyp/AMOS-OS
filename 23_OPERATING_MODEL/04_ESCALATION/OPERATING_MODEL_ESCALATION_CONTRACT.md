@@ -1,7 +1,9 @@
 ---
 title: OPERATING MODEL ESCALATION CONTRACT
-tags: ['amos_os', '23_operating_model']
+type: model
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # OPERATING MODEL ESCALATION CONTRACT

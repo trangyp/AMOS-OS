@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX LIFECYCLE OPERATIONS CONTRACT
-tags: ['cognitive_matrix', '00_index']
+type: lifecycle
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX LIFECYCLE OPERATIONS CONTRACT

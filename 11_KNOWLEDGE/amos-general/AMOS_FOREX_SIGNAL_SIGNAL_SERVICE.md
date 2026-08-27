@@ -1,10 +1,12 @@
 ---
 title: AMOS FOREX SIGNAL SIGNAL SERVICE
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: note
 source: 11_KNOWLEDGE/amos-general
 ---
 
+
+# AMOS FOREX SIGNAL SIGNAL SERVICE
 
 // signal/signal_service.js
 // Deterministic signal service – consumes feature events, runs the UKR engine, and emits trade signals.

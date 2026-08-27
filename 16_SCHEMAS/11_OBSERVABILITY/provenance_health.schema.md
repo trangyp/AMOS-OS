@@ -1,5 +1,6 @@
 ---
 title: "Provenance Health Schema"
+type: schema
 artifact: "provenance_health.schema.md"
 artifact_id: "amos_16_schemas_11_observability_provenance_health.schema"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "16_SCHEMAS/11_OBSERVABILITY"
 artifact_kind: "PROVENANCE"
 path: "16_SCHEMAS/11_OBSERVABILITY/provenance_health.schema.md"
 
-tags:
-  - amos_os
+tags: [amos_os, schema, specification]
   - 16_schemas
   - provenance
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Provenance Health Schema
 

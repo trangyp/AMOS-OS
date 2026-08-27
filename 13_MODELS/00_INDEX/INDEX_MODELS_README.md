@@ -1,7 +1,9 @@
 ---
 title: INDEX MODELS README
-tags: ['amos_os', '13_models']
+type: index
+tags: [amos_os, 13_models]
 ---
+
 
 
 # INDEX MODELS README

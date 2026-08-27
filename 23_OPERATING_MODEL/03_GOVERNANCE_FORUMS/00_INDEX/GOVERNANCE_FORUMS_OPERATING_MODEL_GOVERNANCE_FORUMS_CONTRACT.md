@@ -1,7 +1,9 @@
 ---
 title: GOVERNANCE FORUMS OPERATING MODEL GOVERNANCE FORUMS CONTRACT
-tags: ['amos_os', '23_operating_model']
+type: model
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # GOVERNANCE FORUMS OPERATING MODEL GOVERNANCE FORUMS CONTRACT

@@ -1,9 +1,11 @@
 ---
 title: VAN MINH XUYEN LOAI DOC LAI THE GIOI BANG CAU TRUC
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

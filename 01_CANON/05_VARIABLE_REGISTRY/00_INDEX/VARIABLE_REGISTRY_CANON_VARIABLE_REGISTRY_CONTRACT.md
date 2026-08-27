@@ -1,7 +1,9 @@
 ---
 title: VARIABLE REGISTRY CANON VARIABLE REGISTRY CONTRACT
-tags: ['amos_os', '01_canon']
+type: canon
+tags: [amos_os, 01_canon]
 ---
+
 
 
 # VARIABLE REGISTRY CANON VARIABLE REGISTRY CONTRACT

@@ -1,7 +1,9 @@
 ---
 title: INDEX UBI SI SOMATIC DOMAINS README
-tags: ['amos_os', '21_domains']
+type: index
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # INDEX UBI SI SOMATIC DOMAINS README

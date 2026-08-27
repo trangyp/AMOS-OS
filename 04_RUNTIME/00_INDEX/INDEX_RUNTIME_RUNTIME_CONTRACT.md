@@ -1,7 +1,9 @@
 ---
 title: INDEX RUNTIME RUNTIME CONTRACT
-tags: ['amos_os', '04_runtime']
+type: index
+tags: [amos_os, 04_runtime]
 ---
+
 
 
 # INDEX RUNTIME RUNTIME CONTRACT

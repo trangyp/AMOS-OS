@@ -1,10 +1,12 @@
 ---
 title: AMOS FOREX EXECUTION EXECUTION SERVICE
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: note
 source: 11_KNOWLEDGE/amos-general
 ---
 
+
+# AMOS FOREX EXECUTION EXECUTION SERVICE
 
 // execution/execution_service.js
 // Sends validated trades to OANDA via REST API and records them in the DB.

@@ -1,4 +1,5 @@
 ---
+type: cognitive
 artifact_id: AMOS-CM-11-VALIDATION-README
 title: "11_VALIDATION — Validation Infrastructure Contract"
 
@@ -62,8 +63,7 @@ gmef_role:
   - PROMOTION_PRECONDITION
   - EFFECT_PRECONDITION
 
-tags:
-  identity:
+tags: [identity:, cognitive_matrix, matrix]
     - AMOS
     - AMOS_OS
     - AMOS_CORE_v4_4
@@ -145,6 +145,7 @@ tags:
     - FALSIFICATION
     - RECOVERY
 ---
+
 
 # 11_VALIDATION — Validation Infrastructure Contract
 

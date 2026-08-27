@@ -1,9 +1,11 @@
 ---
 title: AMOS QUANTUM STRUCTURAL
-tags: [quantum]
+tags: [quantum, physics, qfm]
 type: document
 source: 11_KNOWLEDGE/quantum
 ---
+
+
 
 
 # AMOS OMEGA QUANTUM-STRUCTURAL LIVING SYSTEM ENGINE

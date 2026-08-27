@@ -1,7 +1,9 @@
 ---
 title: POLICIES OPERATIONS README
-tags: ['amos_os', '20_operations']
+type: operation
+tags: [amos_os, 20_operations]
 ---
+
 
 
 # POLICIES OPERATIONS README

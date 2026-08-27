@@ -1,7 +1,9 @@
 ---
 title: INDEX WORKFLOWS README
-tags: ['amos_os', '08_workflows']
+type: index
+tags: [amos_os, 08_workflows]
 ---
+
 
 
 # INDEX WORKFLOWS README

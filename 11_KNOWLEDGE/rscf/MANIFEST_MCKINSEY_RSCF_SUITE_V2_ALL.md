@@ -1,9 +1,11 @@
 ---
 title: MANIFEST MCKINSEY RSCF SUITE V2 ALL
-tags: [rscf]
+tags: [rscf, epistemic, claim]
 type: data
 source: 11_KNOWLEDGE/rscf
 ---
+
+
 
 
 

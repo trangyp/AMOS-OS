@@ -1,5 +1,6 @@
 ---
 title: VN DRIVER CHARGING SUPER ENGINE VINFINITY CLEAN
+type: engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: vn-driver-charging-super-engine-vinfinity-clean
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/vn-driver-charging-super-engine-vinfinit, engine]
 created: 2026-08-22
 ---
+
 
 
 ```json

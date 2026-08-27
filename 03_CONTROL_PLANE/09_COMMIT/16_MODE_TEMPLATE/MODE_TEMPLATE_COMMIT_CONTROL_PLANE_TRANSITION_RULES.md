@@ -1,7 +1,9 @@
 ---
 title: MODE TEMPLATE COMMIT CONTROL PLANE TRANSITION RULES
-tags: ['control_plane', '16_mode_template']
+type: transition
+tags: [control_plane, 16_mode_template]
 ---
+
 
 
 # MODE TEMPLATE COMMIT CONTROL PLANE TRANSITION RULES

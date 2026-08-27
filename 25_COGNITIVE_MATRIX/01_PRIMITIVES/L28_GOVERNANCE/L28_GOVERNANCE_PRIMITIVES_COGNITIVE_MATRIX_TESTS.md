@@ -4,6 +4,7 @@ type: note
 tags: [note, l28-governance]
 ---
 
+
 # L28 — Tests & Validators
 
 **Package:** `L28_GOVERNANCE`  

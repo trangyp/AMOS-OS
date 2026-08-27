@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/amos-general
 
 
 
+
 # AMOS Skill Creation Workflow
 
 Use this workflow to create new AMOS skills that extend the brain's capabilities. Follow the brain's kernel registry and routing rules to ensure new skills integrate properly.

@@ -1,7 +1,9 @@
 ---
 title: MEMORY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '18_memory_modes']
+type: control-plane
+tags: [control_plane, 18_memory_modes]
 ---
+
 
 
 # MEMORY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

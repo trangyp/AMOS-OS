@@ -2,12 +2,13 @@
 title: "amos-multi-agent-coordination-kernel"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "bridge"
+type: bridge
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-multi-agent-coordination-kernel, kernel]
 status: "index"
 provenance: "SOURCE_CLAIM"
 confidence: "VERIFIED"
 ---
+
 
 # amos-multi-agent-coordination-kernel
 

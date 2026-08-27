@@ -1,7 +1,9 @@
 ---
 title: PROVENANCE CONTROL PLANE README
-tags: ['control_plane', 'provenance_control_plane_readme.md']
+type: provenance
+tags: [control_plane, provenance_control_plane_readme.md]
 ---
+
 
 
 # PROVENANCE CONTROL PLANE README

@@ -1,7 +1,9 @@
 ---
 title: SERVICE LEVELS
-tags: ['amos_os', '23_operating_model']
+type: service
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # SERVICE LEVELS

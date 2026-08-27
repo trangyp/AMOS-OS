@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN QUANTUM REPORT
-tags: [quantum]
+tags: [quantum, physics, qfm]
 type: document
 source: 11_KNOWLEDGE/quantum
 ---
+
+
 
 
 # AMOS Brain Omega Quantum Enhanced - Final Implementation Report

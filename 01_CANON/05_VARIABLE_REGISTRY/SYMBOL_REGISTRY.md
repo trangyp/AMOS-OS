@@ -1,4 +1,5 @@
 ---
+type: registry
 artifact_id: AMOS-SYMBOL-REGISTRY
 name: SYMBOL_REGISTRY
 title: "AMOS Symbol Registry — Canonical Symbols, Operators, Types, States, and Semantic Identity"
@@ -20,8 +21,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos
+tags: [amos, canon, universe]
   - amos-os
   - amos-core
   - amos-core-v4-4
@@ -57,6 +57,8 @@ aliases:
   - AMOS Notation Registry
   - AMOS Semantic Symbol Table
 ---
+
+
 
 # AMOS Symbol Registry
 

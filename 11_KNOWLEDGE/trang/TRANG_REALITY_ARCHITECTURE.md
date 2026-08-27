@@ -1,10 +1,12 @@
 ---
 title: TRANG REALITY ARCHITECTURE
-tags: [trang]
+tags: [trang, framework, reality]
 type: note
 source: 11_KNOWLEDGE/trang
 ---
 
+
+# TRANG REALITY ARCHITECTURE
 
 ﻿Trang Reality Architecture
 Ontological Foundation

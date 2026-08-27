@@ -1,10 +1,12 @@
 ---
 title: ARCHITECTURE
+type: architecture
 aliases:
 - ARCHITECTURE
 rscf-state: derived
 tags: [index, readme, moc]
 ---
+
 
 # ARCHITECTURE
 

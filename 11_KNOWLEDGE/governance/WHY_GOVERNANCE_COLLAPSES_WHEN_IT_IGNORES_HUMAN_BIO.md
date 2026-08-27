@@ -1,9 +1,11 @@
 ---
 title: WHY GOVERNANCE COLLAPSES WHEN IT IGNORES HUMAN BIO
-tags: [governance]
+tags: [governance, policy, authority]
 type: document
 source: 11_KNOWLEDGE/governance
 ---
+
+
 
 
 

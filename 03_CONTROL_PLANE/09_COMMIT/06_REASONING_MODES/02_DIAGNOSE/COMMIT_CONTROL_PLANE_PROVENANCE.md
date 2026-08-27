@@ -1,7 +1,9 @@
 ---
 title: COMMIT CONTROL PLANE PROVENANCE
-tags: ['control_plane', '06_reasoning_modes/02_diagnose']
+type: provenance
+tags: [control_plane, 06_reasoning_modes/02_diagnose]
 ---
+
 
 
 # COMMIT CONTROL PLANE PROVENANCE

@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 25-scope-regime-modes]
 ---
 
+
 # 25_SCOPE_REGIME_MODES — Map of Content
 
 ## Files

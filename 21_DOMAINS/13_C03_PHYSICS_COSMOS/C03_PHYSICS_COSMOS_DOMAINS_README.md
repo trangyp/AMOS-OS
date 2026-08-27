@@ -1,7 +1,9 @@
 ---
 title: C03 PHYSICS COSMOS DOMAINS README
-tags: ['amos_os', '21_domains']
+type: physics
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C03 PHYSICS COSMOS DOMAINS README

@@ -1,9 +1,11 @@
 ---
 title: BAO CAO CHIEN LUOCV V DE XUAT HOP TAC BAOJUN VA KE
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

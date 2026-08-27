@@ -1,9 +1,11 @@
 ---
 title: KE HOACH CHIEN LUOC MARKETING VAN HANH TANG TRUO
-tags: [economy]
+tags: [economy, finance, market]
 type: document
 source: 11_KNOWLEDGE/economy
 ---
+
+
 
 
 

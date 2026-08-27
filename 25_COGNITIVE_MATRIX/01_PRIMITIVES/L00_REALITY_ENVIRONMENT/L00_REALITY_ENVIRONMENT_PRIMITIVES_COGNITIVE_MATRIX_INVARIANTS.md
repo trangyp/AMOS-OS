@@ -1,5 +1,6 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Invariants"
+type: invariant
 aliases:
 
 * "AMOS Reality Environment Invariants"
@@ -34,9 +35,10 @@ aliases:
 * rscf/S-state
 * rscf/X-cross-scale
 * rscf/type-model
-tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
+tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---
+
 # L00_REALITY_ENVIRONMENT — Invariants
 
 **Class:** `AMOS_REALITY_INVARIANT_ARCHITECTURE`

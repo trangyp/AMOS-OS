@@ -3,12 +3,13 @@ title: "HSE VN Engine — Human Systems Engine (Vietnam)"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/_Archive/Human_Systems_Engine_(HSE)_VN.pdf + HSE_CEO_Enginev.txt"
 origin_architect: "Trang Phan"
-type: "engine-spec"
+type: engine-spec
 tags: [hse, human-systems-engine, Vietnam, 7-layers, 4-human-types, 7-system-cycles, 5-calculation-classes, 54-human-risks, 200-national-risks, predictive-rhythm, 1-36-month, engine]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # Human Systems Engine™ (HSE) VN
 

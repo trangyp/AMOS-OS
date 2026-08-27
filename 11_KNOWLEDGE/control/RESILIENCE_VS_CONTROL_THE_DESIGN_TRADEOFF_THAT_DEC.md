@@ -1,9 +1,11 @@
 ---
 title: RESILIENCE VS CONTROL THE DESIGN TRADEOFF THAT DEC
-tags: [control]
+tags: [control, governance, policy]
 type: document
 source: 11_KNOWLEDGE/control
 ---
+
+
 
 
 

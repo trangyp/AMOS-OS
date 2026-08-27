@@ -1,7 +1,9 @@
 ---
 title: PRINCIPAL LIFECYCLE
-tags: ['control_plane', 'authority', 'note']
+type: lifecycle
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Principal Lifecycle

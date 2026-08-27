@@ -1,7 +1,9 @@
 ---
 title: DECOMPOSITION RECOMPOSITION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '75_decomposition_recomposition_modes']
+type: control-plane
+tags: [control_plane, 75_decomposition_recomposition_modes]
 ---
+
 
 
 # DECOMPOSITION RECOMPOSITION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

@@ -1,9 +1,11 @@
 ---
 title: BO DIEU KHOAN KY THUAT AND PHAP LY BAT BUOC
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

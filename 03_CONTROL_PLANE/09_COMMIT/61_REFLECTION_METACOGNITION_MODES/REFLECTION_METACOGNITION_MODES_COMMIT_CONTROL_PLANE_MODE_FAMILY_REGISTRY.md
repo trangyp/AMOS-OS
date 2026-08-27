@@ -1,7 +1,9 @@
 ---
 title: REFLECTION METACOGNITION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '61_reflection_metacognition_modes']
+type: control-plane
+tags: [control_plane, 61_reflection_metacognition_modes]
 ---
+
 
 
 # REFLECTION METACOGNITION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

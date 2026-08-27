@@ -1,5 +1,6 @@
 ---
 title: K CONSTRAINT PROPAGATION
+type: constraint
 artifact_id: AMOS-OS-K-CONSTRAINT-PROPAGATION
 canonical_name: K_CONSTRAINT_PROPAGATION
 artifact_type: kernel_constraint_propagation_contract
@@ -11,9 +12,10 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
-tags: ['kernel', 'integration', 'note']
+tags: [kernel, integration, note]
 
 ---
+
 
 # K CONSTRAINT PROPAGATION
 

@@ -1,9 +1,11 @@
 ---
 title: TRU TA MA DUOI NGUYEN LY FRACTAL L M H LACUNA
-tags: [fractal]
+tags: [fractal, math, self-similarity]
 type: document
 source: 11_KNOWLEDGE/fractal
 ---
+
+
 
 
 

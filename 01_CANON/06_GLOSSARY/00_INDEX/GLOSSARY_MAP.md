@@ -1,7 +1,9 @@
 ---
 title: GLOSSARY MAP
-tags: ['amos_os', '01_canon']
+type: glossary
+tags: [amos_os, 01_canon]
 ---
+
 
 
 # GLOSSARY MAP

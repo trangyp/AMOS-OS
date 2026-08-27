@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 64-data-evidence-gathering-modes]
 ---
 
+
 # 64_DATA_EVIDENCE_GATHERING_MODES — Map of Content
 
 ## Files

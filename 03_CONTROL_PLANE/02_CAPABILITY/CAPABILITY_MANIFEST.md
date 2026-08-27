@@ -1,7 +1,9 @@
 ---
 title: CAPABILITY MANIFEST
-tags: ['control_plane', 'capability', 'note']
+type: manifest
+tags: [control_plane, capability, note]
 ---
+
 
 
 Below is the **full paste-ready `CAPABILITY_MANIFEST.md`**, designed to sit beside `CAPABILITY_CONTRACT.md`. It is a substantive manifest specification, not a placeholder, while preserving the boundary between architecture definition and validated runtime implementation.

@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 06-schedules]
 ---
 
+
 # 06_SCHEDULES — Map of Content
 
 ## Files

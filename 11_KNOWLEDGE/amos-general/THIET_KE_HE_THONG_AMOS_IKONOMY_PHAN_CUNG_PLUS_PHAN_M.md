@@ -1,9 +1,11 @@
 ---
 title: THIET KE HE THONG AMOS IKONOMY PHAN CUNG PLUS PHAN M
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: document
 source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 
 

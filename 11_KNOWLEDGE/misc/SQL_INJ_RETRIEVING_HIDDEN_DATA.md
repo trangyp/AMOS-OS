@@ -1,9 +1,11 @@
 ---
 title: SQL INJ RETRIEVING HIDDEN DATA
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 ## Retrieving Hidden Data

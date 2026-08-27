@@ -1,7 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX MEMORY
-tags:
-  - amos
+type: memory
+tags: [amos]
   - cognitive-matrix
   - l01
   - sensing-observation
@@ -10,6 +10,7 @@ tags:
   - temporal-integrity
   - rscf
 ---
+
 
 
 # L01_SENSING_OBSERVATION — Memory

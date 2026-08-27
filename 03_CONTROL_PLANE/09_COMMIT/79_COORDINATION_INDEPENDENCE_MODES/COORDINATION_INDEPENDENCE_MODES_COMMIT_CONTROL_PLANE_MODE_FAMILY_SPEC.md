@@ -1,7 +1,9 @@
 ---
 title: COORDINATION INDEPENDENCE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '79_coordination_independence_modes']
+type: control-plane
+tags: [control_plane, 79_coordination_independence_modes]
 ---
+
 
 
 # COORDINATION INDEPENDENCE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

@@ -2,12 +2,13 @@
 title: "cosmo-obsidian-memory"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "bridge"
+type: bridge
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/cosmo-obsidian-memory, universe-cosmos]
 status: "index"
 provenance: "SOURCE_CLAIM"
 confidence: "VERIFIED"
 ---
+
 
 # cosmo-obsidian-memory
 

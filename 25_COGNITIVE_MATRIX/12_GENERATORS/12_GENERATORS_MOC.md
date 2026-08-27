@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 12-generators]
 ---
 
+
 # 12_GENERATORS — Map of Content
 
 ## Files

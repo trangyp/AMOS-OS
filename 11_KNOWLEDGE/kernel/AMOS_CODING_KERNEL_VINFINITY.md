@@ -3,12 +3,13 @@ title: "AMOS Coding Kernel vInfinity — 4 Layers"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Coding_Kernel_v0.json"
 origin_architect: "Trang Phan"
-type: "reference"
+type: reference
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/observation, rscf/T-topology, rscf/K-compression, rscf/mu-mutation, rscf/B-boundary, topic/coding-engine-model, kernel]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS Coding Kernel vInfinity
 

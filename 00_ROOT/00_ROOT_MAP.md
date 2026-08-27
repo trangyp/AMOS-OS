@@ -1,7 +1,9 @@
 ---
 title: 00 ROOT MAP
-tags: ['amos_os', '00_root']
+type: map
+tags: [amos_os, 00_root]
 ---
+
 
 
 # 00 ROOT MAP

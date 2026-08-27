@@ -4,6 +4,7 @@ type: note
 tags: [note, l28-governance]
 ---
 
+
 # L28 — Skills
 
 **Package:** `L28_GOVERNANCE`  

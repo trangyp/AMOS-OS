@@ -1,7 +1,9 @@
 ---
 title: COMMIT CONTROL PLANE MODE SPEC
-tags: ['control_plane', '06_reasoning_modes/02_diagnose']
+type: control-plane
+tags: [control_plane, 06_reasoning_modes/02_diagnose]
 ---
+
 
 
 # COMMIT CONTROL PLANE MODE SPEC

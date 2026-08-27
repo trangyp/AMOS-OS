@@ -1,5 +1,6 @@
 ---
 title: DEPENDENCY MAP
+type: dependency
 artifact_id: AMOS-OS-DEPENDENCY-MAP
 canonical_name: DEPENDENCY_MAP
 artifact_type: dependency_topology_contract
@@ -18,8 +19,7 @@ authority_level: root_architecture_contract
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, amos_os, root]
   - canon-group/tech-ai
   - canon/model
   - architecture
@@ -51,6 +51,8 @@ aliases:
   - AMOS Dependency Topology
   - DEPENDENCY_MAP
 ---
+
+
 
 
 # AMOS OS Dependency Map

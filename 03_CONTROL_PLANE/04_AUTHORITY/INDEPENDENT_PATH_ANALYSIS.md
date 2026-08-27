@@ -1,7 +1,9 @@
 ---
 title: INDEPENDENT PATH ANALYSIS
-tags: ['control_plane', 'authority', 'note']
+type: analysis
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Independent Path Analysis

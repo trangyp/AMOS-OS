@@ -4,6 +4,7 @@ type: note
 tags: [note, c08-execution]
 ---
 
+
 # C08 — Scope
 
 **Package:** `C08_EXECUTION`  

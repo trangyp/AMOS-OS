@@ -6,6 +6,7 @@ source: 11_KNOWLEDGE/dated
 ---
 
 
+
 # ArenaSim — Resource Consumption Across AMOS Semantic Types
 
 **Normative Hypothesis-Testing Environment for the AMOS OS Semantic Architecture**

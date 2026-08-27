@@ -1,5 +1,6 @@
 ---
 title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX PURPOSE
+type: cognitive
 artifact_id: AMOS-OS-K-META-LOGIC
 canonical_name: K_META_LOGIC
 artifact_type: kernel_meta_logic_contract
@@ -18,8 +19,7 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os]
   - canon-group/tech-ai
   - canon/model
   - kernel
@@ -50,6 +50,7 @@ aliases:
   - K Meta Logic
   - K_META_LOGIC
 ---
+
 
 
 # K_META_LOGIC

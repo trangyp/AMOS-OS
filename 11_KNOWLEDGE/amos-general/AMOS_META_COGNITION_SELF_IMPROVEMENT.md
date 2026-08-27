@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/amos-general
 
 
 
+
 # AMOS Meta-Cognition: How the Brain Thinks
 
 **Source:** AMOS_Mind_Os_v0.md (md/Core/), AMOS_Consciousness_Engine_v0.md, AMOS_Brain_Master_Os_v0.md, AMOS_Os_Agent_v0.md (AMOS_Omni_KERNEL.json)

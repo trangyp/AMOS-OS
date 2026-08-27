@@ -1,9 +1,11 @@
 ---
 title: TENSOR CONTRACTS
-tags: [tensor]
+tags: [tensor, knowledge, vault]
 type: document
 source: 11_KNOWLEDGE/root
 ---
+
+
 
 
 # Typed Tensor Contracts

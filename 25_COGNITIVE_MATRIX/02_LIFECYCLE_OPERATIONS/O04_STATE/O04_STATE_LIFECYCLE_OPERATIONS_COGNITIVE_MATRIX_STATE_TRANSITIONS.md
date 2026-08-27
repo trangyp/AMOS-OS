@@ -4,6 +4,7 @@ type: note
 tags: [note, o04-state]
 ---
 
+
 # O04 — State Transitions
 
 **Package:** `O04_STATE`  

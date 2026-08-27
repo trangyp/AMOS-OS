@@ -1,7 +1,9 @@
 ---
 title: GOVERNANCE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '09_governance_modes']
+type: control-plane
+tags: [control_plane, 09_governance_modes]
 ---
+
 
 
 # GOVERNANCE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 98-delegation-assignment-modes]
 ---
 
+
 # 98_DELEGATION_ASSIGNMENT_MODES — Map of Content
 
 ## Files

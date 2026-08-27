@@ -1,5 +1,6 @@
 ---
 title: CARE AS INFRASTRUCTURE
+type: infrastructure
 
 canon-group: human-system
 canon-type: architecture
@@ -8,9 +9,7 @@ topic: care-as-infrastructure
 status: standalone-architecture
 version: v1.0
 source-title: "21st Century Human-Centered Design: Trust, Empathy, and Care as Infrastructure — and Technology Incapable of Harm"
-tags:
-
-* care-as-infrastructure
+tags: [care-as-infrastructure, misc, reference]
 * human-centered-design
 * harm-proofing
 * trust
@@ -29,6 +28,8 @@ tags:
 * rscf/type-model
 
 ---
+
+
 
 
 # Care-as-Infrastructure

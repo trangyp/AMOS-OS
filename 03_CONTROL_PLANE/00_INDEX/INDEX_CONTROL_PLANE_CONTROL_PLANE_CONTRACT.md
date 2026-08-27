@@ -1,7 +1,9 @@
 ---
 title: INDEX CONTROL PLANE CONTROL PLANE CONTRACT
-tags: ['control_plane', 'index_control_plane_control_plane_contract.md']
+type: index
+tags: [control_plane, index_control_plane_control_plane_contract.md]
 ---
+
 
 
 # INDEX CONTROL PLANE CONTROL PLANE CONTRACT

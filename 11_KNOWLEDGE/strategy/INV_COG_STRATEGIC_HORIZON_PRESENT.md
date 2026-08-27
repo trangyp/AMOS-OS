@@ -1,9 +1,11 @@
 ---
 title: INV COG STRATEGIC HORIZON PRESENT
-tags: [strategy]
+tags: [strategy, game, planning]
 type: data
 source: 11_KNOWLEDGE/strategy
 ---
+
+
 
 
 

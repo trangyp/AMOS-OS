@@ -1,7 +1,9 @@
 ---
 title: UBI BEI BIOELECTROMAGNETIC DOMAINS README
-tags: ['amos_os', '21_domains']
+type: note
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # UBI BEI BIOELECTROMAGNETIC DOMAINS README

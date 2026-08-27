@@ -1,7 +1,9 @@
 ---
 title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX SKILLS
-tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'note']
+type: skill
+tags: [cognitive_matrix, primitives, l02_attention, note]
 ---
+
 
 
 # L02_ATTENTION — Skills

@@ -2,12 +2,13 @@
 title: "AMOS Extractive Economy Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "brain_model"
+type: brain-model
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/extractive-economy-model, economy]
 status: "active"
 provenance: "Extractive Economy.txt"
 confidence: "STRUCTURAL"
 ---
+
 
 # AMOS Extractive Economy Model
 

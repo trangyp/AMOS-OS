@@ -1,7 +1,9 @@
 ---
 title: DOMAINS UBI SUPER CONTRACT
-tags: ['amos_os', '21_domains']
+type: note
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS UBI SUPER CONTRACT

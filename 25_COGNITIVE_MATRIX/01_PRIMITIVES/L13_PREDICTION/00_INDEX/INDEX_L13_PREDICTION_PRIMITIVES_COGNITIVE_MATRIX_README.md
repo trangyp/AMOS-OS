@@ -1,7 +1,9 @@
 ---
 title: INDEX L13 PREDICTION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l13_prediction']
+type: index
+tags: [cognitive_matrix, l13_prediction]
 ---
+
 
 
 # INDEX L13 PREDICTION PRIMITIVES COGNITIVE MATRIX README

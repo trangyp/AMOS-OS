@@ -1,9 +1,11 @@
 ---
 title: AMOS COMPLEX ANALYSIS BRIDGE
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: document
 source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 
 

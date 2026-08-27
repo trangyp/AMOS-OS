@@ -1,10 +1,12 @@
 ---
 title: WELCOME
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# WELCOME
 
 This is your new *vault*.
 

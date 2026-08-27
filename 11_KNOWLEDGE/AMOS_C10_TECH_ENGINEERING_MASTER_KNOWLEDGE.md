@@ -1,4 +1,5 @@
 ---
+type: engine
 id: AMOS-C10-TECH-ENGINEERING-MASTER-KNOWLEDGE
 title: "AMOS C10 — Tech & Engineering Master Knowledge"
 origin_architect: "Trang Phan"
@@ -24,9 +25,10 @@ source_family_mapping:
   - "F08_monitoring_operations_and_health"
   - "F09_tech_quantum_engine_layers"
   - "F10_meta_engineering_governance"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # AMOS C10 — Tech & Engineering Master Knowledge
 
 > **Epistemic boundary**

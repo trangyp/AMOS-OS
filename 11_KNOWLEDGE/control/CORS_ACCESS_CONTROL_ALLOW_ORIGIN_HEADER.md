@@ -1,9 +1,11 @@
 ---
 title: CORS ACCESS CONTROL ALLOW ORIGIN HEADER
-tags: [control]
+tags: [control, governance, policy]
 type: document
 source: 11_KNOWLEDGE/control
 ---
+
+
 
 
 ## Access-Control-Allow-Origin Header

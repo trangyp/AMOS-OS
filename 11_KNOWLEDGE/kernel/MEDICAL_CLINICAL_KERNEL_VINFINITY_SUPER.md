@@ -1,5 +1,6 @@
 ---
 title: MEDICAL CLINICAL KERNEL VINFINITY SUPER
+type: kernel
 canon-group: biology
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: medical-clinical-kernel-vinfinity-super
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/medical-clinical-kernel-vinfinity-super, kernel]
 created: 2026-08-22
 ---
+
 
 
 ```json

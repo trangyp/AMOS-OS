@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 78-proof-verification-modes]
 ---
 
+
 # 78_PROOF_VERIFICATION_MODES — Map of Content
 
 ## Files

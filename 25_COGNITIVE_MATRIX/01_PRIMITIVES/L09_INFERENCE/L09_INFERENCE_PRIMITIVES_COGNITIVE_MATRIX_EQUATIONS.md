@@ -4,6 +4,7 @@ type: note
 tags: [note, l09-inference]
 ---
 
+
 # L09 — Equations
 
 **Package:** `L09_INFERENCE`  

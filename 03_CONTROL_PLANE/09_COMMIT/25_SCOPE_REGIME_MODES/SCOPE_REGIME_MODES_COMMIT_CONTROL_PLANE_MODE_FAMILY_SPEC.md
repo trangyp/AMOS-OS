@@ -1,7 +1,9 @@
 ---
 title: SCOPE REGIME MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '25_scope_regime_modes']
+type: control-plane
+tags: [control_plane, 25_scope_regime_modes]
 ---
+
 
 
 # SCOPE REGIME MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

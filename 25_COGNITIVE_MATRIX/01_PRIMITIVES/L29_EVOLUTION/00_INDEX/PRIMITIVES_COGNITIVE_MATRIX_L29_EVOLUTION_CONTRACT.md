@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L29 EVOLUTION CONTRACT
-tags: ['cognitive_matrix', 'l29_evolution']
+type: cognitive
+tags: [cognitive_matrix, l29_evolution]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L29 EVOLUTION CONTRACT

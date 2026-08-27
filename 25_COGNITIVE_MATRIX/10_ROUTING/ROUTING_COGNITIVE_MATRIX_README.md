@@ -1,7 +1,9 @@
 ---
 title: ROUTING COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'routing', 'readme']
+type: cognitive
+tags: [cognitive_matrix, routing, readme]
 ---
+
 
 
 Below is a **full AMOS-aligned `10_ROUTING/README.md`**, with `BINDING_RULES.md` treated as the detailed sibling contract rather than duplicated. It keeps the subsystem `PLACEHOLDER / UNKNOWN-GAP`, preserves Trang Phan as origin architect/steward, and follows the Full Brain OS rule that architectural structure is not itself implementation or empirical proof.  The Skill’s canon source is `AMOS_FULL_BRAIN_OS.json`; preservation of its ontology/architecture does not establish external empirical validity. 

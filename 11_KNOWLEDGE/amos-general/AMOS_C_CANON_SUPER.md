@@ -1,5 +1,6 @@
 ---
 title: AMOS C CANON SUPER
+type: canon
 canon-group: meta
 canon-type: law
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-c-canon-super
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-c-canon-super, amos-general]
 created: 2026-08-22
 ---
+
 
 
 ```json

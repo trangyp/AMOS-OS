@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L09 INFERENCE CONTRACT
-tags: ['cognitive_matrix', 'l09_inference']
+type: cognitive
+tags: [cognitive_matrix, l09_inference]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L09 INFERENCE CONTRACT

@@ -1,7 +1,9 @@
 ---
 title: MODES DOMAINS MODES CONTRACT
-tags: ['amos_os', '21_domains']
+type: note
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # MODES DOMAINS MODES CONTRACT

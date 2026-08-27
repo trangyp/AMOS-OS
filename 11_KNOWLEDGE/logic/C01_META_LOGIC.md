@@ -1,5 +1,6 @@
 ---
 title: C01 META LOGIC
+type: logic
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: c01-meta-logic-super
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c01-meta-logic-super, logic]
 created: 2026-08-22
 ---
+
 
 
 ```json

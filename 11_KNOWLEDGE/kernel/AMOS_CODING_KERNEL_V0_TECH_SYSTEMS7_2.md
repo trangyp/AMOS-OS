@@ -1,5 +1,6 @@
 ---
 title: AMOS CODING KERNEL V0 TECH SYSTEMS7 2
+type: kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-coding-kernel-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-coding-kernel-v0, kernel]
 created: 2026-08-22
 ---
+
 
 
 ```json

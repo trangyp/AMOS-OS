@@ -1,9 +1,11 @@
 ---
 title: QUICK TEST
-tags: [tests]
+tags: [tests, test, validation]
 type: document
 source: 11_KNOWLEDGE/tests
 ---
+
+
 
 
 # QUICK_TEST

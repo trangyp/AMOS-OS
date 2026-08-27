@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX ROUTING CONTRACT
-tags: ['cognitive_matrix', 'cognitive_matrix_routing_contract.md']
+type: cognitive
+tags: [cognitive_matrix, cognitive_matrix_routing_contract.md]
 ---
+
 
 
 # COGNITIVE MATRIX ROUTING CONTRACT

@@ -1,7 +1,9 @@
 ---
 title: SCALES COGNITIVE MATRIX M MID SCALE CONTRACT
-tags: ['cognitive_matrix', 'm_mid_scale']
+type: cognitive
+tags: [cognitive_matrix, m_mid_scale]
 ---
+
 
 
 # SCALES COGNITIVE MATRIX M MID SCALE CONTRACT

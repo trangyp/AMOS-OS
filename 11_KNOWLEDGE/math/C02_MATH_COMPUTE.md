@@ -1,5 +1,6 @@
 ---
 title: C02 MATH COMPUTE
+type: math
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: c02-math-compute
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c02-math-compute, math]
 created: 2026-08-22
 ---
+
 
 
 ```json

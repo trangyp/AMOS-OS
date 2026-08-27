@@ -1,10 +1,12 @@
 ---
 title: IPPROTECTION KERNEL
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: note
 source: 11_KNOWLEDGE/kernel
 ---
 
+
+# IPPROTECTION KERNEL
 
 """AMOS logical component.
 

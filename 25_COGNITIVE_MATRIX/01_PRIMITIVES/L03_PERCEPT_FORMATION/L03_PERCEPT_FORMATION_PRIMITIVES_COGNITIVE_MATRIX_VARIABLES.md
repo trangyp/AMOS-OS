@@ -1,6 +1,6 @@
 ---
-tags:
-  - amos
+type: variable
+tags: [amos]
   - cognitive-matrix
   - l03
   - percept-formation
@@ -16,6 +16,7 @@ status: "MODEL_CONTRACT / UNVALIDATED"
 epistemic_class: "MODEL"
 runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
 ---
+
 
 # L03_PERCEPT_FORMATION — Variables
 

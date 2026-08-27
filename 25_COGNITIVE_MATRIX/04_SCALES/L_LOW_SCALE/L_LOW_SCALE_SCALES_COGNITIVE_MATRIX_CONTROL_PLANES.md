@@ -4,6 +4,7 @@ type: note
 tags: [note, l-low-scale]
 ---
 
+
 # L — Control-Plane Requirements
 
 **Package:** `L_LOW_SCALE`  

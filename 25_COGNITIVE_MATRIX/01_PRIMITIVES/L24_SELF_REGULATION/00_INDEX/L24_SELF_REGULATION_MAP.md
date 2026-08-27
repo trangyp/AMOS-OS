@@ -1,7 +1,9 @@
 ---
 title: L24 SELF REGULATION MAP
-tags: ['cognitive_matrix', 'l24_self_regulation']
+type: map
+tags: [cognitive_matrix, l24_self_regulation]
 ---
+
 
 
 # L24 SELF REGULATION MAP

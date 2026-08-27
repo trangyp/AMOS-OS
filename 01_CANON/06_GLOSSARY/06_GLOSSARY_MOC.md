@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 06-glossary]
 ---
 
+
 # 06_GLOSSARY — Map of Content
 
 ## Files

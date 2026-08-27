@@ -4,6 +4,7 @@ type: note
 tags: [note, l20-credit-assignment]
 ---
 
+
 # L20 — Variables
 
 **Package:** `L20_CREDIT_ASSIGNMENT`  

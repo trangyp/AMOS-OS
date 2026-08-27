@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/amos-general
 
 
 
+
 ```json
 {\rtf1\ansi\ansicpg1252\cocoartf2867
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}

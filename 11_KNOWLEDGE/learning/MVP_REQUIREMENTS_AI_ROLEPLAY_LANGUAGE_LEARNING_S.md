@@ -1,9 +1,11 @@
 ---
 title: MVP REQUIREMENTS AI ROLEPLAY LANGUAGE LEARNING S
-tags: [learning]
+tags: [learning, training, adaptation]
 type: document
 source: 11_KNOWLEDGE/learning
 ---
+
+
 
 
 

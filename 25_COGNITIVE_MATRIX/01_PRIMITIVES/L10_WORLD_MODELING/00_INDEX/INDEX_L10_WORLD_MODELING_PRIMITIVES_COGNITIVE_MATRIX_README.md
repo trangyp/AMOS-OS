@@ -1,7 +1,9 @@
 ---
 title: INDEX L10 WORLD MODELING PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l10_world_modeling']
+type: index
+tags: [cognitive_matrix, l10_world_modeling]
 ---
+
 
 
 # INDEX L10 WORLD MODELING PRIMITIVES COGNITIVE MATRIX README

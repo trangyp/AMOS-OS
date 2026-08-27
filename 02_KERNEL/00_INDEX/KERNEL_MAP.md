@@ -1,5 +1,6 @@
 ---
 title: KERNEL MAP
+type: kernel
 artifact_id: AMOS-OS-KERNEL-MAP
 canonical_name: KERNEL_MAP
 artifact_type: kernel_topology_map
@@ -17,8 +18,7 @@ authority_scope: kernel-structure-and-contract-topology
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - canon/framework
   - kernel/map
@@ -50,6 +50,8 @@ aliases:
   - Kernel Topology
   - Kernel Contract Map
 ---
+
+
 
 
 # AMOS OS Kernel Map

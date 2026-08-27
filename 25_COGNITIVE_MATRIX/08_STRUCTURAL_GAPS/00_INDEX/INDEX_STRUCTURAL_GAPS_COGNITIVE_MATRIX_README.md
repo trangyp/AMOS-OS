@@ -1,7 +1,9 @@
 ---
 title: INDEX STRUCTURAL GAPS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', '00_index']
+type: index
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # INDEX STRUCTURAL GAPS COGNITIVE MATRIX README

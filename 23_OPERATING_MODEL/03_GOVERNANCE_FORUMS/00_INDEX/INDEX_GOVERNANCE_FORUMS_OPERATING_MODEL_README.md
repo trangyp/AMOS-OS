@@ -1,7 +1,9 @@
 ---
 title: INDEX GOVERNANCE FORUMS OPERATING MODEL README
-tags: ['amos_os', '23_operating_model']
+type: index
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # INDEX GOVERNANCE FORUMS OPERATING MODEL README

@@ -1,7 +1,9 @@
 ---
 title: MODE TEMPLATE COMMIT CONTROL PLANE TESTS
-tags: ['control_plane', '16_mode_template']
+type: test
+tags: [control_plane, 16_mode_template]
 ---
+
 
 
 # MODE TEMPLATE COMMIT CONTROL PLANE TESTS

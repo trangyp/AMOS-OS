@@ -1,7 +1,9 @@
 ---
 title: AUTHORIZATION HISTORY
-tags: ['control_plane', 'authority', 'note']
+type: history
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Authorization History

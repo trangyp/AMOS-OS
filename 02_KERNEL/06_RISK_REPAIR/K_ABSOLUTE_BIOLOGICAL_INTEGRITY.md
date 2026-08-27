@@ -1,5 +1,6 @@
 ---
 title: "Kernel · Absolute Biological Integrity"
+type: biology
 artifact: "K_ABSOLUTE_BIOLOGICAL_INTEGRITY.md"
 artifact_id: "amos_02_kernel_06_risk_repair_k_absolute_biological_integrity"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "02_KERNEL/06_RISK_REPAIR"
 artifact_kind: "ARTIFACT"
 path: "02_KERNEL/06_RISK_REPAIR/K_ABSOLUTE_BIOLOGICAL_INTEGRITY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, kernel, core]
   - 02_kernel
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Kernel · Absolute Biological Integrity
 

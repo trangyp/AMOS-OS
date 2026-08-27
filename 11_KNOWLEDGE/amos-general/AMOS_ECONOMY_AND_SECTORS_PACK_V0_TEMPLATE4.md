@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/amos-general
 
 
 
+
 # AMOS Economy And Sectors Pack v0 Template4
 
 > [!info] Template File

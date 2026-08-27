@@ -1,9 +1,11 @@
 ---
 title: WHY CIVILIZATION ALWAYS FAILS AT THE ENERGY TRANSI
-tags: [energy]
+tags: [energy, power, green]
 type: document
 source: 11_KNOWLEDGE/energy
 ---
+
+
 
 
 

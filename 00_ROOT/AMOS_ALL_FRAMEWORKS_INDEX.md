@@ -1,5 +1,6 @@
 ---
 title: "AMOS All Frameworks"
+type: index
 artifact: "AMOS_ALL_FRAMEWORKS_INDEX.md"
 artifact_id: "amos_00_root_amos_all_frameworks_index"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "00_ROOT"
 artifact_kind: "INDEX"
 path: "00_ROOT/AMOS_ALL_FRAMEWORKS_INDEX.md"
 
-tags:
-  - amos_os
+tags: [amos_os, root, index]
   - 00_root
   - index
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # AMOS All Frameworks
 

@@ -1,7 +1,9 @@
 ---
 title: ORGANIZATIONAL BEHAVIOR DOMAINS DOMAIN SPEC
-tags: ['amos_os', '21_domains']
+type: behavior
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # ORGANIZATIONAL BEHAVIOR DOMAINS DOMAIN SPEC

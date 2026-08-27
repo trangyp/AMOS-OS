@@ -1,5 +1,6 @@
 ---
 title: K COMMIT TIME AUTHORITY
+type: authority
 artifact_id: AMOS-OS-K-COMMIT-TIME-AUTHORITY
 canonical_name: K_COMMIT_TIME_AUTHORITY
 artifact_type: kernel_commit_time_authority_contract
@@ -11,9 +12,10 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
-tags: ['kernel', 'authority', 'note']
+tags: [kernel, authority, note]
 
 ---
+
 
 # K COMMIT TIME AUTHORITY
 

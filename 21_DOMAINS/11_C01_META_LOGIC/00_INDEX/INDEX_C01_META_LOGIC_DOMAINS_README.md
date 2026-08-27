@@ -1,7 +1,9 @@
 ---
 title: INDEX C01 META LOGIC DOMAINS README
-tags: ['amos_os', '21_domains']
+type: index
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # INDEX C01 META LOGIC DOMAINS README

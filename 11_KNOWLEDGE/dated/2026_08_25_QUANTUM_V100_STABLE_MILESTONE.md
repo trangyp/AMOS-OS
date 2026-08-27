@@ -6,6 +6,7 @@ source: 11_KNOWLEDGE/dated
 ---
 
 
+
 # Quantum Library v1.0.0 — STABLE MILESTONE (2026-08-25)
 
 ## Milestone declaration

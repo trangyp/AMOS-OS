@@ -1,7 +1,9 @@
 ---
 title: L16 PLANNING MAP
-tags: ['cognitive_matrix', 'l16_planning']
+type: map
+tags: [cognitive_matrix, l16_planning]
 ---
+
 
 
 # L16 PLANNING MAP

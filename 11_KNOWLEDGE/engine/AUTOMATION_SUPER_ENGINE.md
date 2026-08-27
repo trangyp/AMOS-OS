@@ -1,5 +1,6 @@
 ---
 title: AUTOMATION SUPER ENGINE
+type: engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: automation-super-engine
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/automation-super-engine, engine]
 created: 2026-08-22
 ---
+
 
 
 

@@ -1,7 +1,9 @@
 ---
 title: INTERFACES README
-tags: ['amos_os', '15_interfaces']
+type: interface
+tags: [amos_os, 15_interfaces]
 ---
+
 
 
 # INTERFACES README

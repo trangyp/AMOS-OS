@@ -4,6 +4,7 @@ type: note
 tags: [note, l23-metacognition]
 ---
 
+
 # L23 — Gap Matrix
 
 **Package:** `L23_METACOGNITION`  

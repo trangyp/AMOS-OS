@@ -1,7 +1,9 @@
 ---
 title: STRUCTURAL GAPS COGNITIVE MATRIX STRUCTURAL GAPS CONTRACT
-tags: ['cognitive_matrix', '00_index']
+type: gap
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # STRUCTURAL GAPS COGNITIVE MATRIX STRUCTURAL GAPS CONTRACT

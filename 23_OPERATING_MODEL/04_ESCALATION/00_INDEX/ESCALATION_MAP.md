@@ -1,7 +1,9 @@
 ---
 title: ESCALATION MAP
-tags: ['amos_os', '23_operating_model']
+type: map
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # ESCALATION MAP

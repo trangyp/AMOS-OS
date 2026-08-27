@@ -1,5 +1,6 @@
 ---
 title: "Persistent Provenance Canon"
+type: canon
 artifact: "PERSISTENT_PROVENANCE_CANON.md"
 artifact_id: "amos_01_canon_04_infrastructure_canon_persistent_provenance_canon"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/04_INFRASTRUCTURE_CANON"
 artifact_kind: "PROVENANCE"
 path: "01_CANON/04_INFRASTRUCTURE_CANON/PERSISTENT_PROVENANCE_CANON.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - provenance
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Persistent Provenance Canon
 

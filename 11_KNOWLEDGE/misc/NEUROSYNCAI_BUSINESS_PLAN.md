@@ -3,12 +3,13 @@ title: "NeuroSyncAI Business Plan — Deterministic AI Infrastructure"
 created: "2026-08-22"
 origin: "Google Drive — Business_Plan_of_NeuroSyncAI.pdf (1.66MB)"
 origin_architect: "Trang Phan"
-type: "business-plan"
+type: business-plan
 tags: [canon-group/business, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/X-crossscale, topic/business-plan, misc]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # NeuroSyncAI™ Business Plan
 

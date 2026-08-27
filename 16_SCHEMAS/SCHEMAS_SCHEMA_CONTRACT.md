@@ -1,7 +1,9 @@
 ---
 title: SCHEMAS SCHEMA CONTRACT
-tags: ['amos_os', '16_schemas']
+type: schema
+tags: [amos_os, 16_schemas]
 ---
+
 
 
 # SCHEMAS SCHEMA CONTRACT

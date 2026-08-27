@@ -1,7 +1,9 @@
 ---
 title: COMMIT CONTROL PLANE DEPRECATION SUPERSESSION
-tags: ['control_plane', '02_deep_analysis']
+type: supersession
+tags: [control_plane, 02_deep_analysis]
 ---
+
 
 
 # COMMIT CONTROL PLANE DEPRECATION SUPERSESSION

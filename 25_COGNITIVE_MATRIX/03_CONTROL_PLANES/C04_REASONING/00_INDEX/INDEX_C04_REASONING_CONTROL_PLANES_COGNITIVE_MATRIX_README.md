@@ -1,7 +1,9 @@
 ---
 title: INDEX C04 REASONING CONTROL PLANES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'c04_reasoning']
+type: index
+tags: [cognitive_matrix, c04_reasoning]
 ---
+
 
 
 # INDEX C04 REASONING CONTROL PLANES COGNITIVE MATRIX README

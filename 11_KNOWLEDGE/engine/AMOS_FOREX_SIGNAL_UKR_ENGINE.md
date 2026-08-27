@@ -1,10 +1,12 @@
 ---
 title: AMOS FOREX SIGNAL UKR ENGINE
-tags: [engine]
+tags: [engine, processing, runtime]
 type: note
 source: 11_KNOWLEDGE/engine
 ---
 
+
+# AMOS FOREX SIGNAL UKR ENGINE
 
 // signal/ukr_engine.js
 // Deterministic UKR‑engine stub – applies a simple rule set on features.

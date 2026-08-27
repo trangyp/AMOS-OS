@@ -4,6 +4,7 @@ type: note
 tags: [note, c02-metacognitive]
 ---
 
+
 # C02 — Failure Modes
 
 **Package:** `C02_METACOGNITIVE`  

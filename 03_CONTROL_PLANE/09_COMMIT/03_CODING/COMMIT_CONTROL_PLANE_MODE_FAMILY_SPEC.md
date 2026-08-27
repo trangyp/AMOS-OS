@@ -1,7 +1,9 @@
 ---
 title: COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '03_coding']
+type: control-plane
+tags: [control_plane, 03_coding]
 ---
+
 
 
 # COMMIT CONTROL PLANE MODE FAMILY SPEC

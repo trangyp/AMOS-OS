@@ -4,6 +4,7 @@ type: note
 tags: [note, 05-cell-registry]
 ---
 
+
 # CELL_STATUS_REGISTRY — Definition
 
 **Package:** `CELL_STATUS_REGISTRY_`  

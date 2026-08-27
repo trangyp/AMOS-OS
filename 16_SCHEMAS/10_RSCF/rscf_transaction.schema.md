@@ -1,5 +1,6 @@
 ---
 title: "RSCF Transaction Schema"
+type: schema
 artifact: "rscf_transaction.schema.md"
 artifact_id: "amos_16_schemas_10_rscf_rscf_transaction.schema"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "16_SCHEMAS/10_RSCF"
 artifact_kind: "SCHEMA"
 path: "16_SCHEMAS/10_RSCF/rscf_transaction.schema.md"
 
-tags:
-  - amos_os
+tags: [amos_os, schema, specification]
   - 16_schemas
   - schema
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # RSCF Transaction Schema
 

@@ -1,10 +1,12 @@
 ---
 title: MOOD KERNEL
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: note
 source: 11_KNOWLEDGE/kernel
 ---
 
+
+# MOOD KERNEL
 
 """AMOS logical component.
 

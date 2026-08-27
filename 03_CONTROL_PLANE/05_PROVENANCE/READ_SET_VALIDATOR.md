@@ -1,7 +1,9 @@
 ---
 title: READ SET VALIDATOR
-tags: ['control_plane', 'read_set_validator.md']
+type: note
+tags: [control_plane, read_set_validator.md]
 ---
+
 
 
 # READ SET VALIDATOR

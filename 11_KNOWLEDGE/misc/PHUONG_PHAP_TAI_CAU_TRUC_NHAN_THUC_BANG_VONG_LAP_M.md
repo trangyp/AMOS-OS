@@ -1,9 +1,11 @@
 ---
 title: PHUONG PHAP TAI CAU TRUC NHAN THUC BANG VONG LAP M
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

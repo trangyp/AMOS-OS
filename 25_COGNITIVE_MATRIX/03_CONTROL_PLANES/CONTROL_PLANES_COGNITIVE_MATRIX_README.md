@@ -1,7 +1,10 @@
 ---
 title: CONTROL PLANES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'cognitive_matrix']
+type: control-plane
+tags: [cognitive_matrix, matrix, cognition]
 ---
+
+
 
 
 # CONTROL PLANES COGNITIVE MATRIX README

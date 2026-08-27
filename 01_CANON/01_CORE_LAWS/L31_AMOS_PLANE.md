@@ -1,7 +1,9 @@
 ---
 title: L31 AMOS PLANE
-tags: ['canon', 'core_laws', 'note']
+type: plan
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L31 AMOS Plane Law

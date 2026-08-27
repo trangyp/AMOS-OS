@@ -1,5 +1,6 @@
 ---
 title: DEPRECATED TERMS
+type: deprecated
 artifact_id: AMOS-OS-DEPRECATED-TERMS
 canonical_name: DEPRECATED_TERMS
 artifact_type: canonical_semantic_lifecycle_registry
@@ -14,8 +15,7 @@ scope: AMOS_OS
 authority_scope: terminology-deprecation-and-semantic-migration
 created: 2026-08-25
 updated: 2026-08-25
-tags:
-  - amos-os
+tags: [amos-os, canon, universe]
   - canon-group/meta
   - canon/semantics
   - canon/terminology
@@ -35,6 +35,8 @@ aliases:
   - Deprecated Terminology Registry
   - AMOS Terminology Migration Registry
 ---
+
+
 
 
 # AMOS OS Deprecated Terms

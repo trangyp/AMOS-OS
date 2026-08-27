@@ -1,7 +1,9 @@
 ---
 title: DATA EVIDENCE GATHERING MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '64_data_evidence_gathering_modes']
+type: control-plane
+tags: [control_plane, 64_data_evidence_gathering_modes]
 ---
+
 
 
 # DATA EVIDENCE GATHERING MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

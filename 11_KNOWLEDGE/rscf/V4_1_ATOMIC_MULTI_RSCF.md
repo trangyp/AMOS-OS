@@ -1,9 +1,11 @@
 ---
 title: V4 1 ATOMIC MULTI RSCF
-tags: [rscf]
+tags: [rscf, epistemic, claim]
 type: document
 source: 11_KNOWLEDGE/rscf
 ---
+
+
 
 
 # v4.1 — Transactional Multi-RSCF Runtime

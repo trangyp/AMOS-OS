@@ -1,7 +1,9 @@
 ---
 title: 00 ROOT GLOSSARY
-tags: ['amos_os', '00_root']
+type: glossary
+tags: [amos_os, 00_root]
 ---
+
 
 
 # 00 ROOT GLOSSARY

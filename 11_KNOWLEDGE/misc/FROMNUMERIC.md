@@ -1,10 +1,12 @@
 ---
 title: FROMNUMERIC
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# FROMNUMERIC
 
 """Tests for :mod:`numpy._core.fromnumeric`."""
 

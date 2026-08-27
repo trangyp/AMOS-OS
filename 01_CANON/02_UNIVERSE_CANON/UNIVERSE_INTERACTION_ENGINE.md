@@ -1,5 +1,6 @@
 ---
 title: "Universe Interaction Engine"
+type: universe
 artifact: "UNIVERSE_INTERACTION_ENGINE.md"
 artifact_id: "amos_01_canon_02_universe_canon_universe_interaction_engine"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/02_UNIVERSE_CANON"
 artifact_kind: "ENGINE"
 path: "01_CANON/02_UNIVERSE_CANON/UNIVERSE_INTERACTION_ENGINE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - engine
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Universe Interaction Engine
 

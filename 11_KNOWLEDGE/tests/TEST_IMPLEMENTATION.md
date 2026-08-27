@@ -1,9 +1,11 @@
 ---
 title: TEST IMPLEMENTATION
-tags: [tests]
+tags: [tests, test, validation]
 type: document
 source: 11_KNOWLEDGE/tests
 ---
+
+
 
 
 # test_implementation

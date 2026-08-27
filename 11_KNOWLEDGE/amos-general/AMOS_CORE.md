@@ -1,5 +1,6 @@
 ---
 title: AMOS CORE
+type: note
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-core-final
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-core-final, amos-general]
 created: 2026-08-22
 ---
+
 
 
 """

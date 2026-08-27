@@ -1,7 +1,9 @@
 ---
 title: LEGAL DOMAINS DOMAIN SPEC
-tags: ['amos_os', '21_domains']
+type: legal
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # LEGAL DOMAINS DOMAIN SPEC

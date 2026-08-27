@@ -1,5 +1,6 @@
 ---
 title: "TRANG Grand System Logic Specification"
+type: trang-framework
 artifact: "TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION.md"
 artifact_id: "amos_11_knowledge_05_frameworks_trang_grand_system_logic_specification"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "LOG"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - log
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # TRANG Grand System Logic Specification
 

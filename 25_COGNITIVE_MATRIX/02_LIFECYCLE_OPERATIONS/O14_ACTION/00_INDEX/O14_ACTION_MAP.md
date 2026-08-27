@@ -1,7 +1,9 @@
 ---
 title: O14 ACTION MAP
-tags: ['cognitive_matrix', 'o14_action']
+type: map
+tags: [cognitive_matrix, o14_action]
 ---
+
 
 
 # O14 ACTION MAP

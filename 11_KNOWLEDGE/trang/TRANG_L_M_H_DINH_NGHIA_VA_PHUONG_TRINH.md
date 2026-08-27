@@ -1,9 +1,11 @@
 ---
 title: TRANG L M H DINH NGHIA VA PHUONG TRINH
-tags: [trang]
+tags: [trang, framework, reality]
 type: document
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

@@ -1,7 +1,9 @@
 ---
 title: C02 MATH COMPUTE DOMAINS README
-tags: ['amos_os', '21_domains']
+type: math
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C02 MATH COMPUTE DOMAINS README

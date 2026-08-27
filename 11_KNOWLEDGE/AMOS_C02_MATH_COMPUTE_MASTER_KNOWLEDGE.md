@@ -1,4 +1,5 @@
 ---
+type: math
 id: AMOS-C02-MATH-COMPUTE-MASTER-KNOWLEDGE
 title: "AMOS C02 — Math & Compute Master Knowledge"
 origin_architect: "Trang Phan"
@@ -26,9 +27,10 @@ source_family_mapping:
   - "F08_simulation_validation"
   - "F09_meta_control_error_budgets"
   - "F10_meta_math_governance"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # AMOS C02 — Math & Compute Master Knowledge
 
 > **Epistemic boundary**

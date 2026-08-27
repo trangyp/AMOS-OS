@@ -1,9 +1,11 @@
 ---
 title: AMOS FULL ARCHITECTURE FORM
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: document
 source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 
 Yes. Now we’re finally at the correct level.

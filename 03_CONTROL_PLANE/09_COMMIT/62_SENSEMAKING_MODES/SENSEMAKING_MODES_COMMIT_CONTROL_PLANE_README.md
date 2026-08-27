@@ -1,7 +1,9 @@
 ---
 title: SENSEMAKING MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '62_sensemaking_modes']
+type: control-plane
+tags: [control_plane, 62_sensemaking_modes]
 ---
+
 
 
 # SENSEMAKING MODES COMMIT CONTROL PLANE README

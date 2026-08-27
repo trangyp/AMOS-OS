@@ -1,9 +1,11 @@
 ---
 title: LIVING ATOMIC DESIGN A STRATEGIC FRAMEWORK FOR A
-tags: [strategy]
+tags: [strategy, game, planning]
 type: document
 source: 11_KNOWLEDGE/strategy
 ---
+
+
 
 
 

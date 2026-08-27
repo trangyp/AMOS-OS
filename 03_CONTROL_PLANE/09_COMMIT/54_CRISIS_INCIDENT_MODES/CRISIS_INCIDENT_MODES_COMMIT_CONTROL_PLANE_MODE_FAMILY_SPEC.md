@@ -1,7 +1,9 @@
 ---
 title: CRISIS INCIDENT MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '54_crisis_incident_modes']
+type: control-plane
+tags: [control_plane, 54_crisis_incident_modes]
 ---
+
 
 
 # CRISIS INCIDENT MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

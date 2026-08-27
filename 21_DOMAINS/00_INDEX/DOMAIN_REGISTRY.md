@@ -1,7 +1,9 @@
 ---
 title: DOMAIN REGISTRY
-tags: ['amos_os', '21_domains']
+type: registry
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAIN REGISTRY

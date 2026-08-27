@@ -1,7 +1,9 @@
 ---
 title: EV INFRASTRUCTURE DOMAINS README
-tags: ['amos_os', '21_domains']
+type: infrastructure
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # EV INFRASTRUCTURE DOMAINS README

@@ -1,7 +1,9 @@
 ---
 title: L15 FRACTAL KNOWLEDGE
-tags: ['canon', 'core_laws', 'note']
+type: fractal
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L15 Fractal Knowledge Laws

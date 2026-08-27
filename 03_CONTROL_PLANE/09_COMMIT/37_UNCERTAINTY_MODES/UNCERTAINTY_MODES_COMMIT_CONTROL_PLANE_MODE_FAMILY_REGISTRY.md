@@ -1,7 +1,9 @@
 ---
 title: UNCERTAINTY MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '37_uncertainty_modes']
+type: control-plane
+tags: [control_plane, 37_uncertainty_modes]
 ---
+
 
 
 # UNCERTAINTY MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

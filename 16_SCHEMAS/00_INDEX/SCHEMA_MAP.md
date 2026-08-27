@@ -1,7 +1,9 @@
 ---
 title: SCHEMA MAP
-tags: ['amos_os', '16_schemas']
+type: map
+tags: [amos_os, 16_schemas]
 ---
+
 
 
 # SCHEMA MAP

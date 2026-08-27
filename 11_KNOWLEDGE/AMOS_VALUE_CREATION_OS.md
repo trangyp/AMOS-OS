@@ -1,5 +1,6 @@
 ---
 title: "AMOS GIANT VALUE CREATION OS — MAX DETAIL MASTER ARCHITECTURE"
+type: value
 origin_architect: "Trang Phan"
 stewardship: "Trang Phan / AMOS corpus"
 artifact_type: "governed commercial operating architecture"
@@ -46,9 +47,10 @@ prediction_states:
   - PILOT_VALIDATED
   - PRODUCTION_MONITORED
 conclusion_class: "CONDITIONAL / HIGH-OPTION-VALUE"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # ⭐ AMOS GIANT VALUE CREATION OS
 ## MAX-DETAIL MASTER ARCHITECTURE FOR COMMERCIALIZATION, VALIDATION, LICENSING, PRODUCTIZATION, GOVERNANCE & SCALE
 

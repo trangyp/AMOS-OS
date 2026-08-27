@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 05-variable-registry]
 ---
 
+
 # 05_VARIABLE_REGISTRY — Map of Content
 
 ## Files

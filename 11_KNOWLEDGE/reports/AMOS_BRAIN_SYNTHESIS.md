@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN SYNTHESIS
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS Brain Ultimate Synthesis Engine: **COMPLETE**

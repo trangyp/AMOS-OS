@@ -1,10 +1,12 @@
 ---
 title: ACCOUNTS KERNEL
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: note
 source: 11_KNOWLEDGE/kernel
 ---
 
+
+# ACCOUNTS KERNEL
 
 """AMOS logical component.
 

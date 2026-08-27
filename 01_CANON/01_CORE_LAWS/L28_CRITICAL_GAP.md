@@ -1,7 +1,9 @@
 ---
 title: L28 CRITICAL GAP
-tags: ['canon', 'core_laws', 'note']
+type: gap
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L28 Critical Gap Law

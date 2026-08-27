@@ -1,9 +1,11 @@
 ---
 title: REQUIREMENTS FRACTAL COGNITIVE ARCHITECTURE V2
-tags: [fractal]
+tags: [fractal, math, self-similarity]
 type: document
 source: 11_KNOWLEDGE/fractal
 ---
+
+
 
 
 # AMOS Fractal Cognitive Architecture v2 — Requirements

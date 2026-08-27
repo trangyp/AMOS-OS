@@ -1,5 +1,6 @@
 ---
 title: 3B GOVERNANCE PROCESS V8
+type: process
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
@@ -8,6 +9,7 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 created: 2026-08-22
 ---
 
+# 3B GOVERNANCE PROCESS V8
 
 TRANSFORMING CUSTOMER JOURNEYS
 Playbook

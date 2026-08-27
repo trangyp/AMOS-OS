@@ -6,6 +6,7 @@ epistemic: DERIVED/MODEL
 tags: [quantum, fractal, math, bridges, lacunarity, governance, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — QFM Bridge Governance + Entropy/Lacunarity Consolidation
 
 ## Gap analysis that drove this pass

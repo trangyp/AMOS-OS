@@ -1,11 +1,13 @@
 ---
-tags: ['canon', 'core_laws', 'causal', 'causality', 'dependency', 'provenance', 'rscf', 'governance']
+type: note
+tags: [canon, core_laws, causal, causality, dependency, provenance, rscf, governance]
 title: "L4 Causal Laws"
 origin_architect: "Trang Phan"
 status: "AMOS_MODEL"
 canon_status: "PROPOSED_CANON_CONTENT"
 epistemic_class: "AMOS_MODEL"
 ---
+
 
 # L4 Causal Laws
 

@@ -1,4 +1,5 @@
 ---
+type: log
 id: AMOS-C12-EARTH-ECOLOGY-MASTER-KNOWLEDGE
 title: "AMOS C12 — Earth & Ecology Master Knowledge"
 origin_architect: "Trang Phan"
@@ -24,9 +25,10 @@ source_family_mapping:
   - "F08_monitoring_and_data"
   - "F09_infrastructure_and_design"
   - "F10_meta_ecology_governance"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # AMOS C12 — Earth & Ecology Master Knowledge
 
 > **Epistemic boundary**

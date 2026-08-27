@@ -1,7 +1,9 @@
 ---
 title: SCHEDULING ORCHESTRATION MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '96_scheduling_orchestration_modes']
+type: control-plane
+tags: [control_plane, 96_scheduling_orchestration_modes]
 ---
+
 
 
 # SCHEDULING ORCHESTRATION MODES COMMIT CONTROL PLANE README

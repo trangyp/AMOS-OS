@@ -3,12 +3,13 @@ title: "AMOS ABI and IO Test Expansion"
 created: "2026-08-23"
 origin: "Hermes ↔ Cosmo Brain"
 origin_architect: "Trang Phan"
-type: "note"
+type: note
 tags: [cosmo, amos, canon-group/system, rscf/claim, rscf/state/observation, topic/implementation, topic/testing, topic/abi, topic/io, dated, dated/2026-08-23]
 status: "verified"
 provenance: "OBSERVATION"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS ABI and IO Test Expansion
 

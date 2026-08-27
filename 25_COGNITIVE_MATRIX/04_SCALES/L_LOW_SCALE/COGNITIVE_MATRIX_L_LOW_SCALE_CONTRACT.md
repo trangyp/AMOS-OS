@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX L LOW SCALE CONTRACT
-tags: ['cognitive_matrix', 'scales', 'l_low_scale', 'contract']
+type: cognitive
+tags: [cognitive_matrix, scales, l_low_scale, contract]
 ---
+
 
 
 # L_LOW_SCALE — Low scale: mechanical checks and reflexes; fastest cadence, deterministic validators only.

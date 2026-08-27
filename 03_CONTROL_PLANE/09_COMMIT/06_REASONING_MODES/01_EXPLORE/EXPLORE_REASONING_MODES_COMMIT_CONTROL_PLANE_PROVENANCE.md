@@ -1,7 +1,9 @@
 ---
 title: EXPLORE REASONING MODES COMMIT CONTROL PLANE PROVENANCE
-tags: ['control_plane', '06_reasoning_modes/01_explore']
+type: provenance
+tags: [control_plane, 06_reasoning_modes/01_explore]
 ---
+
 
 
 # EXPLORE REASONING MODES COMMIT CONTROL PLANE PROVENANCE

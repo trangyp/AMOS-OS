@@ -1,9 +1,11 @@
 ---
 title: MANIFEST AMOS FORMAL RSCF SUITE V6 ALL
-tags: [rscf]
+tags: [rscf, epistemic, claim]
 type: data
 source: 11_KNOWLEDGE/rscf
 ---
+
+
 
 
 

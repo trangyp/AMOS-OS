@@ -1,5 +1,6 @@
 ---
 title: "UBI Historical Index"
+type: index
 artifact: "UBI_HISTORICAL_INDEX.md"
 artifact_id: "amos_24_archive_00_legacy_ubi_historical_index"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "24_ARCHIVE/00_LEGACY"
 artifact_kind: "INDEX"
 path: "24_ARCHIVE/00_LEGACY/UBI_HISTORICAL_INDEX.md"
 
-tags:
-  - amos_os
+tags: [amos_os, archive, legacy]
   - 24_archive
   - index
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # UBI Historical Index
 

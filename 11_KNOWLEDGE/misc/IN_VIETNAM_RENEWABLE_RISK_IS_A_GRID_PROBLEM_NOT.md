@@ -1,9 +1,11 @@
 ---
 title: IN VIETNAM RENEWABLE RISK IS A GRID PROBLEM NOT
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

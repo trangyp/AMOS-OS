@@ -1,7 +1,9 @@
 ---
 title: O16 LEARNING MAP
-tags: ['cognitive_matrix', 'o16_learning']
+type: map
+tags: [cognitive_matrix, o16_learning]
 ---
+
 
 
 # O16 LEARNING MAP

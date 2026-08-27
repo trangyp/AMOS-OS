@@ -1,5 +1,6 @@
 ---
 title: AMOS EXPRESSION TRANSLATION VINFINITY V4
+type: translation
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-expression-translation-vinfinity-v4
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-expression-translation-vinfinity-v4, amos-general]
 created: 2026-08-22
 ---
+
 
 
 ```json

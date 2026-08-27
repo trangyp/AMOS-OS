@@ -1,7 +1,9 @@
 ---
 title: PRIORITIZATION TRIAGE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '53_prioritization_triage_modes']
+type: control-plane
+tags: [control_plane, 53_prioritization_triage_modes]
 ---
+
 
 
 # PRIORITIZATION TRIAGE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

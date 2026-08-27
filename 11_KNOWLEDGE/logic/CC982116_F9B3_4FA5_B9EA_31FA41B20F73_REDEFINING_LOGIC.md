@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/logic
 ---
 
-
+# CC982116 F9B3 4FA5 B9EA 31FA41B20F73 REDEFINING LOGIC
 
 Redefining Logic
 I. Introduction — Deep, Illustrated Version

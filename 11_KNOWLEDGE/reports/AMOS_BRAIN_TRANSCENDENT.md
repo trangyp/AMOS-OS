@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN TRANSCENDENT
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS BRAIN TRANSCENDENT - ULTIMATE SYNTHESIS COMPLETE

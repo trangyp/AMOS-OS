@@ -1,5 +1,6 @@
 ---
 title: 2026 08 22 BRAIN INVENTORY
+type: brain
 origin_architect: Hermes Agent (AMOS session)
 provenance: verified glob counts of vault on disk (2026-08-22, live co-edited state)
 confidence: 0.98
@@ -8,6 +9,7 @@ conclusion_label: VERIFIED
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-brain-inventory, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 
 # Brain Inventory — Verified (2026-08-22, live state)

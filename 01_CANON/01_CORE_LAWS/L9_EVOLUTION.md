@@ -4,6 +4,7 @@ type: note
 tags: [note, 01-core-laws]
 ---
 
+
 ````markdown
 ---
 tags: ['canon', 'core_laws', 'evolution', 'mutation', 'supersession', 'anti_regression', 'repair', 'rollback', 'gmef', 'rscf', 'governance']

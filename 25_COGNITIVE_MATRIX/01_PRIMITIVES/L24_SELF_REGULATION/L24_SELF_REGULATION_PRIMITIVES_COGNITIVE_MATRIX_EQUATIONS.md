@@ -4,6 +4,7 @@ type: note
 tags: [note, l24-self-regulation]
 ---
 
+
 # L24 — Equations
 
 **Package:** `L24_SELF_REGULATION`  

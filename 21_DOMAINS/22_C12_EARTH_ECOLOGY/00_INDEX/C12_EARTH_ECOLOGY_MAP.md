@@ -1,7 +1,9 @@
 ---
 title: C12 EARTH ECOLOGY MAP
-tags: ['amos_os', '21_domains']
+type: map
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C12 EARTH ECOLOGY MAP

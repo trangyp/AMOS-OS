@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN FRAGMENT FILE STRUCTURE
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 # AMOS Brain Fragment File Structure — Consolidation Notes

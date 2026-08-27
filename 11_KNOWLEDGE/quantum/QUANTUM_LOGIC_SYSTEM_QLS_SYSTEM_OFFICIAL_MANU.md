@@ -1,9 +1,11 @@
 ---
 title: QUANTUM LOGIC SYSTEM QLS SYSTEM OFFICIAL MANU
-tags: [quantum]
+tags: [quantum, physics, qfm]
 type: document
 source: 11_KNOWLEDGE/quantum
 ---
+
+
 
 
 

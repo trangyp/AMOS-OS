@@ -1,7 +1,9 @@
 ---
 title: FORECASTING PREDICTION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '49_forecasting_prediction_modes']
+type: control-plane
+tags: [control_plane, 49_forecasting_prediction_modes]
 ---
+
 
 
 # FORECASTING PREDICTION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

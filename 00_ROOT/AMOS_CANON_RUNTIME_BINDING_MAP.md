@@ -1,5 +1,6 @@
 ---
 title: "AMOS Canon-Runtime Binding Map"
+type: canon
 artifact: "AMOS_CANON_RUNTIME_BINDING_MAP.md"
 artifact_id: "amos_00_root_amos_canon_runtime_binding_map"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "00_ROOT"
 artifact_kind: "MAP"
 path: "00_ROOT/AMOS_CANON_RUNTIME_BINDING_MAP.md"
 
-tags:
-  - amos_os
+tags: [amos_os, root, index]
   - 00_root
   - map
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # AMOS Canon-Runtime Binding Map
 

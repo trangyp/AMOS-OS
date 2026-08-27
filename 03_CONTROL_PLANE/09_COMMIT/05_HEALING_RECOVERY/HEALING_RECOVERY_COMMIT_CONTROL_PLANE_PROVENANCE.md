@@ -1,7 +1,9 @@
 ---
 title: HEALING RECOVERY COMMIT CONTROL PLANE PROVENANCE
-tags: ['control_plane', '05_healing_recovery']
+type: provenance
+tags: [control_plane, 05_healing_recovery]
 ---
+
 
 
 # HEALING RECOVERY COMMIT CONTROL PLANE PROVENANCE

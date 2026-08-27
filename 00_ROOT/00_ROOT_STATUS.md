@@ -1,7 +1,9 @@
 ---
 title: 00 ROOT STATUS
-tags: ['amos_os', '00_root']
+type: status
+tags: [amos_os, 00_root]
 ---
+
 
 
 # 00 ROOT STATUS

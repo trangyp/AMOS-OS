@@ -4,6 +4,7 @@ type: note
 tags: [note, c02-metacognitive]
 ---
 
+
 # C02 — Tests & Validators
 
 **Package:** `C02_METACOGNITIVE`  

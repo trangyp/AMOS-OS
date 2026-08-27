@@ -1,7 +1,9 @@
 ---
 title: TOOLS README
-tags: ['amos_os', '14_tools']
+type: tool
+tags: [amos_os, 14_tools]
 ---
+
 
 
 # TOOLS README

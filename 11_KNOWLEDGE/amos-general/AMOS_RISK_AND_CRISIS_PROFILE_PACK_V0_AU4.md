@@ -1,5 +1,6 @@
 ---
 title: AMOS RISK AND CRISIS PROFILE PACK V0 AU4
+type: risk
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-risk-and-crisis-profile-pack-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-risk-and-crisis-profile-pack-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 # AMOS Risk And Crisis Profile Pack v0 Au4

@@ -4,6 +4,7 @@ type: moc
 tags: [moc, c07-perception]
 ---
 
+
 # C07_PERCEPTION — Map of Content
 
 ## Files

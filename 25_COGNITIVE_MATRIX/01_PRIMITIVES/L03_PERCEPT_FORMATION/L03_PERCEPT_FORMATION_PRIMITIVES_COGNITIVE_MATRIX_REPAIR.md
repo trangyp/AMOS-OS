@@ -1,7 +1,9 @@
 ---
 title: L03 PERCEPT FORMATION PRIMITIVES COGNITIVE MATRIX REPAIR
-tags: ['cognitive_matrix', 'primitives', 'l03_percept_formation', 'note']
+type: cognitive
+tags: [cognitive_matrix, primitives, l03_percept_formation, note]
 ---
+
 
 
 # L03_PERCEPT_FORMATION — Repair

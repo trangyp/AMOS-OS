@@ -1,9 +1,11 @@
 ---
 title: WORKING MEMORY
-tags: [memory]
+tags: [memory, state, persistence]
 type: document
 source: 11_KNOWLEDGE/memory
 ---
+
+
 
 
 # Distinct Working Memory

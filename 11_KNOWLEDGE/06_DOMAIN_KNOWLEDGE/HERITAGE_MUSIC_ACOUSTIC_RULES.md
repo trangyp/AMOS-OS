@@ -1,5 +1,6 @@
 ---
 title: "Heritage Music/Acoustic Rules"
+type: rule
 artifact: "HERITAGE_MUSIC_ACOUSTIC_RULES.md"
 artifact_id: "amos_11_knowledge_06_domain_knowledge_heritage_music_acoustic_rules"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE"
 artifact_kind: "RULES"
 path: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_MUSIC_ACOUSTIC_RULES.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - rules
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Heritage Music/Acoustic Rules
 

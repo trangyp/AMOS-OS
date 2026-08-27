@@ -1,7 +1,9 @@
 ---
 title: L09 INFERENCE MAP
-tags: ['cognitive_matrix', 'l09_inference']
+type: map
+tags: [cognitive_matrix, l09_inference]
 ---
+
 
 
 # L09 INFERENCE MAP

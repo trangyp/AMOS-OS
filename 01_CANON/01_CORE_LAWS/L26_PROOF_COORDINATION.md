@@ -1,7 +1,9 @@
 ---
 title: L26 PROOF COORDINATION
-tags: ['canon', 'core_laws', 'note']
+type: proof
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L26 Proof Coordination Laws

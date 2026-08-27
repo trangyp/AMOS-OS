@@ -1,7 +1,9 @@
 ---
 title: REVOCATION TRIGGER
-tags: ['control_plane', 'authority', 'note']
+type: revocation
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Revocation Trigger

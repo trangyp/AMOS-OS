@@ -1,7 +1,7 @@
 ---
 title: L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX WORKFLOWS
-tags:
-  - amos
+type: workflow
+tags: [amos]
   - cognitive-matrix
   - l00
   - reality-environment
@@ -21,6 +21,7 @@ tags:
   - rscf/C-constraint
   - rscf/type-model
 ---
+
 
 
 # L00_REALITY_ENVIRONMENT — Workflows

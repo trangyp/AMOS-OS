@@ -1,5 +1,6 @@
 ---
 title: AMOS PERSONALITY ENGINE CANONICAL V0
+type: canon
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-personality-engine-canonical-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-personality-engine-canonical-v0, engine]
 created: 2026-08-22
 ---
+
 
 
 ```json

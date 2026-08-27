@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE PROVENANCE
-tags: ['control_plane', '03_coding']
+type: provenance
+tags: [control_plane, 03_coding]
 ---
+
 
 
 # CONTROL PLANE PROVENANCE

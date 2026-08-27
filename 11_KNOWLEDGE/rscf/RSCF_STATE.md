@@ -1,9 +1,11 @@
 ---
 title: RSCF STATE
-tags: [rscf]
+tags: [rscf, epistemic, claim]
 type: document
 source: 11_KNOWLEDGE/rscf
 ---
+
+
 
 
 # RSCF State Architecture

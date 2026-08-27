@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE ORGANISM COGNITIVE ORGANISM CONTRACT
-tags: ['amos_os', '05_cognitive_organism']
+type: cognitive
+tags: [amos_os, 05_cognitive_organism]
 ---
+
 
 
 # COGNITIVE ORGANISM COGNITIVE ORGANISM CONTRACT

@@ -1,5 +1,6 @@
 ---
 title: "UBI Domain Canon"
+type: canon
 artifact: "UBI_DOMAIN_CANON.md"
 artifact_id: "amos_21_domains_06_biology_ubi_domain_canon"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/06_BIOLOGY"
 artifact_kind: "CANON"
 path: "21_DOMAINS/06_BIOLOGY/UBI_DOMAIN_CANON.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - canon
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # UBI Domain Canon
 

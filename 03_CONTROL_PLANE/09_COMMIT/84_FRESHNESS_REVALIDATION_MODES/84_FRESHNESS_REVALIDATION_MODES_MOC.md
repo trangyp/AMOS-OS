@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 84-freshness-revalidation-modes]
 ---
 
+
 # 84_FRESHNESS_REVALIDATION_MODES — Map of Content
 
 ## Files

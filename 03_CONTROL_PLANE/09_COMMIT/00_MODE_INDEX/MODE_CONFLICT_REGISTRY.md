@@ -1,7 +1,9 @@
 ---
 title: MODE CONFLICT REGISTRY
-tags: ['control_plane', 'commit', 'mode_index', 'note']
+type: registry
+tags: [control_plane, commit, mode_index, note]
 ---
+
 
 
 `MODE_CONFLICT_REGISTRY.md` in Drive is also only the reservation placeholder; there is no substantive canonical implementation in that artifact to reproduce verbatim. 

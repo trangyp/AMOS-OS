@@ -1,9 +1,11 @@
 ---
 title: PHAN CONG TRACH NHIEM 10 HANH DONG TRIEN KHAI GAP
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

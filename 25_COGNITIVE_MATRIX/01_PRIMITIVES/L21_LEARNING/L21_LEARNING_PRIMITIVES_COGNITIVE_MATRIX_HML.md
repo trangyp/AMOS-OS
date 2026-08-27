@@ -4,6 +4,7 @@ type: note
 tags: [note, l21-learning]
 ---
 
+
 # L21 — H/M/L Applicability
 
 **Package:** `L21_LEARNING`  

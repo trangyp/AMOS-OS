@@ -1,5 +1,6 @@
 ---
 title: AMOS FRACTAL CONSCIOUSNESS WHITEPAPER FULL FIXED
+type: consciousness
 name: amos-fractal-consciousness-astrology-matter-light-time-energy-society
 version: 2.0.0
 created: 2026-08-25
@@ -19,8 +20,10 @@ description: >-
   DERIVED, AMOS_MODEL, SYMBOLIC, and UNKNOWN/GAP; applies H/M/L recursion,
   RSCF proof capsules, provenance, causal/scope/regime firewalls,
   competing hypotheses, falsifiers, and selective repair.
-tags: [fractal]
+tags: [fractal, math, self-similarity]
 ---
+
+
 
 
 # AMOS ALIGNMENT LAYER

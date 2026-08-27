@@ -1,7 +1,9 @@
 ---
 title: RISK SAFETY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '36_risk_safety_modes']
+type: control-plane
+tags: [control_plane, 36_risk_safety_modes]
 ---
+
 
 
 # RISK SAFETY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

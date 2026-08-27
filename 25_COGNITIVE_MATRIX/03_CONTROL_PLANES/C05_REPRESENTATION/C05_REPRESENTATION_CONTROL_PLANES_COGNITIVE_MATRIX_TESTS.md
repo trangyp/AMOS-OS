@@ -4,6 +4,7 @@ type: note
 tags: [note, c05-representation]
 ---
 
+
 # C05 — Tests & Validators
 
 **Package:** `C05_REPRESENTATION`  

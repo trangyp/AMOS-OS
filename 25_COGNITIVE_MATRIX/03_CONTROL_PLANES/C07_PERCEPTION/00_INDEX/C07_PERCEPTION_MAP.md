@@ -1,7 +1,9 @@
 ---
 title: C07 PERCEPTION MAP
-tags: ['cognitive_matrix', 'c07_perception']
+type: map
+tags: [cognitive_matrix, c07_perception]
 ---
+
 
 
 # C07 PERCEPTION MAP

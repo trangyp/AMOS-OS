@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX ARCHITECTURE
-tags: ['cognitive_matrix', 'index', 'note']
+type: architecture
+tags: [cognitive_matrix, index, note]
 ---
+
 
 
 # AMOS Cognitive Matrix Architecture

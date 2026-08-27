@@ -1,5 +1,6 @@
 ---
 title: THE INTELLIGENCE OS USEFUL ARCHITECTURE
+type: architecture
 canon-group: tech-ai
 canon-type: architecture
 rscf-state: source-claim
@@ -7,8 +8,7 @@ topic: intelligence-os-company-architecture
 status: standalone-architecture
 version: v1.0
 source-title: "The Intelligence OS™ — A Multi-Layered, Scalable Product Company"
-tags:
-  - intelligence-os
+tags: [intelligence-os, architecture, design]
   - product-company
   - commercial-architecture
   - operating-system
@@ -25,6 +25,8 @@ tags:
   - architecture
 
 ---
+
+
 
 
 # The Intelligence OS™

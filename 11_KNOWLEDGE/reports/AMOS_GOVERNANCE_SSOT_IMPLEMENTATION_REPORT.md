@@ -1,9 +1,11 @@
 ---
 title: AMOS GOVERNANCE SSOT IMPLEMENTATION REPORT
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS BRAIN OMEGA - GOVERNANCE SSOT ENHANCED IMPLEMENTATION REPORT

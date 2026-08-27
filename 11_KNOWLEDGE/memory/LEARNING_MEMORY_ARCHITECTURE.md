@@ -1,9 +1,11 @@
 ---
 title: LEARNING MEMORY ARCHITECTURE
-tags: [memory]
+tags: [memory, state, persistence]
 type: data
 source: 11_KNOWLEDGE/memory
 ---
+
+
 
 
 

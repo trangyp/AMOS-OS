@@ -1,7 +1,9 @@
 ---
 title: INDEX L22 CONSOLIDATION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l22_consolidation']
+type: index
+tags: [cognitive_matrix, l22_consolidation]
 ---
+
 
 
 # INDEX L22 CONSOLIDATION PRIMITIVES COGNITIVE MATRIX README

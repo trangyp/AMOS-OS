@@ -4,6 +4,7 @@ type: note
 tags: [note, 05-cell-registry]
 ---
 
+
 # CELL_INDEX — Definition
 
 **Package:** `CELL_INDEX_`  

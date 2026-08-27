@@ -1,9 +1,11 @@
 ---
 title: AMOS PRECISION CORE IMPLEMENTATION REPORT
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS OMEGA PRECISION CORE BLUEPRINT - IMPLEMENTATION COMPLETE

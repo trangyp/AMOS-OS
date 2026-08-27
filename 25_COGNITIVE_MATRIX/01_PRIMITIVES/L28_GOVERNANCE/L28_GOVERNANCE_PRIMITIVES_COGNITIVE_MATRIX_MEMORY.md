@@ -4,6 +4,7 @@ type: note
 tags: [note, l28-governance]
 ---
 
+
 # L28 — Memory Contract
 
 **Package:** `L28_GOVERNANCE`  

@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANES COGNITIVE MATRIX C03 EXECUTIVE CONTRACT
-tags: ['cognitive_matrix', 'c03_executive']
+type: control-plane
+tags: [cognitive_matrix, c03_executive]
 ---
+
 
 
 # CONTROL PLANES COGNITIVE MATRIX C03 EXECUTIVE CONTRACT

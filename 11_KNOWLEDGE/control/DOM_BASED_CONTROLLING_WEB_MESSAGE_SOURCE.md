@@ -1,9 +1,11 @@
 ---
 title: DOM BASED CONTROLLING WEB MESSAGE SOURCE
-tags: [control]
+tags: [control, governance, policy]
 type: document
 source: 11_KNOWLEDGE/control
 ---
+
+
 
 
 ## Controlling web-message source

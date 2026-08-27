@@ -1,7 +1,9 @@
 ---
 title: MODEL MAP
-tags: ['amos_os', '13_models']
+type: map
+tags: [amos_os, 13_models]
 ---
+
 
 
 # MODEL MAP

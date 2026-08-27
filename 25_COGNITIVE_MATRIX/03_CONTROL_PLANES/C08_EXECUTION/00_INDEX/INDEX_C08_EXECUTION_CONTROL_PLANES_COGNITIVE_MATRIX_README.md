@@ -1,7 +1,9 @@
 ---
 title: INDEX C08 EXECUTION CONTROL PLANES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'c08_execution']
+type: index
+tags: [cognitive_matrix, c08_execution]
 ---
+
 
 
 # INDEX C08 EXECUTION CONTROL PLANES COGNITIVE MATRIX README

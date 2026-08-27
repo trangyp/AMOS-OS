@@ -1,9 +1,11 @@
 ---
 title: AMOS HOME
+type: note
 aliases:
 - AMOS Home
 tags: [note, vault]
 ---
+
 
 
 # AMOS Home

@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE AUTHORITY CONTRACT
-tags: ['control_plane', '00_index']
+type: authority
+tags: [control_plane, 00_index]
 ---
+
 
 
 # CONTROL PLANE AUTHORITY CONTRACT

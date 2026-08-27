@@ -1,5 +1,6 @@
 ---
 title: K EVENT BUS
+type: note
 artifact_id: AMOS-OS-K-EVENT-BUS
 canonical_name: K_EVENT_BUS
 artifact_type: kernel_event_bus_contract
@@ -17,8 +18,7 @@ scope: AMOS_OS
 
 updated: 2026-08-26
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - canon/model
   - kernel
@@ -46,6 +46,8 @@ aliases:
   - K Event Bus
   - K_EVENT_BUS
 ---
+
+
 
 
 # K EVENT BUS

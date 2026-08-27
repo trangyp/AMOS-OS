@@ -4,6 +4,7 @@ type: note
 tags: [note, c06-memory]
 ---
 
+
 # C06 — Invariants
 
 **Package:** `C06_MEMORY`  

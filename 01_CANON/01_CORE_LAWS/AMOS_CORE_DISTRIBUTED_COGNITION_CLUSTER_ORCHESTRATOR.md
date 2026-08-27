@@ -1,5 +1,6 @@
 ---
 title: AMOS CORE DISTRIBUTED COGNITION CLUSTER ORCHESTRATOR
+type: note
 canon-group: amos-core
 rscf-state: model
 schema_family: RSCF
@@ -7,6 +8,7 @@ schema_role: KNOWLEDGE_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags: [AMOS, cognitive, distributed-cognition, orchestrator, rscf, governance]
 ---
+
 
 
 # AMOS CORE — Distributed Cognition Cluster Orchestrator

@@ -1,9 +1,11 @@
 ---
 title: BIOCURRENCY THE MONETARY ARCHITECTURE OF LIVING IN
-tags: [architecture]
+tags: [architecture, design, structure]
 type: document
 source: 11_KNOWLEDGE/architecture
 ---
+
+
 
 
 

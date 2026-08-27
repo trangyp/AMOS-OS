@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/vietnamese
 ---
 
-
+# VIETNAMESE CREATIVITY FROM ROT TO FUTURE BAI BAO TIENG ANH
 
 **Vietnamese Creative Capacity: From Roots to the Future**
 *Vietnamese Proverb :”Cái khó ló cái khôn “—Necessity í the mother of invention (that is , in hardship, wisdom and creativity emerge )*

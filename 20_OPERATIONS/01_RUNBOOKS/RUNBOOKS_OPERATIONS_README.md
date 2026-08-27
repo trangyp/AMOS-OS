@@ -1,7 +1,9 @@
 ---
 title: RUNBOOKS OPERATIONS README
-tags: ['amos_os', '20_operations']
+type: operation
+tags: [amos_os, 20_operations]
 ---
+
 
 
 # RUNBOOKS OPERATIONS README

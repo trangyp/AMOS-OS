@@ -1,7 +1,9 @@
 ---
 title: RANKING SELECTION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '93_ranking_selection_modes']
+type: control-plane
+tags: [control_plane, 93_ranking_selection_modes]
 ---
+
 
 
 # RANKING SELECTION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

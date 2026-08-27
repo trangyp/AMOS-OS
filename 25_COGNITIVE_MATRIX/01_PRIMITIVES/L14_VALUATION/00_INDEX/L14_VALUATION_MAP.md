@@ -1,7 +1,9 @@
 ---
 title: L14 VALUATION MAP
-tags: ['cognitive_matrix', 'l14_valuation']
+type: map
+tags: [cognitive_matrix, l14_valuation]
 ---
+
 
 
 # L14 VALUATION MAP

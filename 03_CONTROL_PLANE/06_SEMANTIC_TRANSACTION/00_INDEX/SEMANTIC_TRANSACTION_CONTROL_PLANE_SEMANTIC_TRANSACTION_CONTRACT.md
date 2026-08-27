@@ -1,7 +1,9 @@
 ---
 title: SEMANTIC TRANSACTION CONTROL PLANE SEMANTIC TRANSACTION CONTRACT
-tags: ['control_plane', '00_index']
+type: control-plane
+tags: [control_plane, 00_index]
 ---
+
 
 
 # SEMANTIC TRANSACTION CONTROL PLANE SEMANTIC TRANSACTION CONTRACT

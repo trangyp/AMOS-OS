@@ -1,9 +1,11 @@
 ---
 title: IMPLICIT DIRECTION VS EXPLICIT SIGNALING VIETNAM S
-tags: [signal]
+tags: [signal, processing, detection]
 type: document
 source: 11_KNOWLEDGE/signal
 ---
+
+
 
 
 

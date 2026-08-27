@@ -1,4 +1,5 @@
 ---
+type: agent
 artifact_id: AMOS-UNIVERSAL-RENAME-ENGINE
 name: amos-universal-rename-engine
 title: "AMOS Universal Rename Engine — Governed Deterministic Namespace Migration"
@@ -28,8 +29,7 @@ aliases:
   - AMOS Deterministic Rename Engine
   - Universal Rename Engine
 
-tags:
-  - canon-group/tech-ai
+tags: [canon-group/tech-ai, knowledge, vault]
   - canon/framework
   - rscf/claim
   - rscf/provenance
@@ -42,6 +42,8 @@ tags:
 
 governing_law: "integrity > completeness > fluency > speed > token savings"
 ---
+
+
 
 # AMOS Universal Rename Engine
 ## Governed Deterministic Namespace Migration

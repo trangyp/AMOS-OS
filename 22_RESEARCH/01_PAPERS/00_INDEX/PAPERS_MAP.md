@@ -1,7 +1,9 @@
 ---
 title: PAPERS MAP
-tags: ['amos_os', '22_research']
+type: map
+tags: [amos_os, 22_research]
 ---
+
 
 
 # PAPERS MAP

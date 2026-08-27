@@ -1,7 +1,9 @@
 ---
 title: COGNITION KERNEL README
-tags: ['amos_os', '02_kernel']
+type: kernel
+tags: [amos_os, 02_kernel]
 ---
+
 
 
 # COGNITION KERNEL README

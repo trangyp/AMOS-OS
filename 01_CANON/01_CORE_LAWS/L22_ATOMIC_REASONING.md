@@ -1,7 +1,9 @@
 ---
 title: L22 ATOMIC REASONING
-tags: ['canon', 'core_laws', 'note']
+type: reasoning
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L22 Atomic Reasoning Laws

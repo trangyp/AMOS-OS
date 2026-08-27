@@ -1,4 +1,5 @@
 ---
+type: map
 artifact_id: AMOS-OS-SYSTEM-MAP
 name: AMOS_OS_SYSTEM_MAP
 title: "AMOS OS System Map — Authoritative Plane Topology and Cross-System Relationship Map"
@@ -29,8 +30,7 @@ scope:
   - cross_cutting_substrates
   - dependency_topology
 
-tags:
-  - amos
+tags: [amos, amos_os, root]
   - amos-os
   - system-map
   - architecture
@@ -101,6 +101,8 @@ related:
   - "PLACEMENT_RULES|Placement Rules"
   - "ROADMAP|Roadmap"
 ---
+
+
 
 # AMOS OS System Map
 

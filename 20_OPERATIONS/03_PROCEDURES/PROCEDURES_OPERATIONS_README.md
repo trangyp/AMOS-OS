@@ -1,7 +1,9 @@
 ---
 title: PROCEDURES OPERATIONS README
-tags: ['amos_os', '20_operations']
+type: procedure
+tags: [amos_os, 20_operations]
 ---
+
 
 
 # PROCEDURES OPERATIONS README

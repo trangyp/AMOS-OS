@@ -1,8 +1,10 @@
 ---
 title: DETERMINISTIC LOGIC LAW MODEL
+type: model
 aliases: [Deterministic Logic & Law Engine, AMOS_Logic_Law]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/deterministic-logic-law-model, logic]
 ---
+
 
 
 # AMOS Deterministic Logic & Law Engine (OMEGA)

@@ -1,7 +1,9 @@
 ---
 title: VALIDATION COGNITIVE MATRIX VALIDATION CONTRACT
-tags: ['cognitive_matrix', '00_index']
+type: cognitive
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # VALIDATION COGNITIVE MATRIX VALIDATION CONTRACT

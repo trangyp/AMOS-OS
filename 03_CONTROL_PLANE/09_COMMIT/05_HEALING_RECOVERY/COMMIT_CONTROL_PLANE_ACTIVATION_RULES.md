@@ -1,7 +1,9 @@
 ---
 title: COMMIT CONTROL PLANE ACTIVATION RULES
-tags: ['control_plane', '05_healing_recovery']
+type: rule
+tags: [control_plane, 05_healing_recovery]
 ---
+
 
 
 # COMMIT CONTROL PLANE ACTIVATION RULES

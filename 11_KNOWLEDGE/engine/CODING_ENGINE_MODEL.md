@@ -1,8 +1,10 @@
 ---
 title: CODING ENGINE MODEL
+type: model
 aliases: [Unified Coding Engine, AMOS_Coding_Engine, Coding Kernel, Tech Engine vInfinity]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/observation, topic/coding-engine-model, engine]
 ---
+
 
 
 # AMOS Unified Coding Engine

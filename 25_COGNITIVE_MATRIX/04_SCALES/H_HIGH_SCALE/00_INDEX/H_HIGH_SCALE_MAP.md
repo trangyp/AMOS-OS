@@ -1,7 +1,9 @@
 ---
 title: H HIGH SCALE MAP
-tags: ['cognitive_matrix', 'h_high_scale']
+type: map
+tags: [cognitive_matrix, h_high_scale]
 ---
+
 
 
 # H HIGH SCALE MAP

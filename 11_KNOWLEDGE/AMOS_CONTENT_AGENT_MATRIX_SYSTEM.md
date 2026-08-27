@@ -1,4 +1,5 @@
 ---
+type: agent
 artifact_id: AMOS-CONTENT-AGENT-MATRIX
 name: amos-content-agent-matrix-system
 title: "AMOS Content Agent Matrix — Governed Multi-Agent Content Operating System"
@@ -31,8 +32,7 @@ aliases:
   - "AMOS Content Agency"
   - "30-Day Content Matrix"
 
-tags:
-  - agents
+tags: [agents, knowledge, vault]
   - canon-group/tech-ai
   - canon/framework
   - canon/protocol
@@ -47,6 +47,8 @@ tags:
 
 governing_law: "integrity > completeness > fluency > speed > token savings"
 ---
+
+
 
 # AMOS Content Agent Matrix
 ## Governed Multi-Agent Content Operating System

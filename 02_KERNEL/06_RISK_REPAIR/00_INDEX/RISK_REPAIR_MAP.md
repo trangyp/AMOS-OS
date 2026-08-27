@@ -1,7 +1,9 @@
 ---
 title: RISK REPAIR MAP
-tags: ['amos_os', '02_kernel']
+type: map
+tags: [amos_os, 02_kernel]
 ---
+
 
 
 # RISK REPAIR MAP

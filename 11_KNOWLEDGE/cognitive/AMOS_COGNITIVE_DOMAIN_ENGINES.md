@@ -1,9 +1,11 @@
 ---
 title: AMOS_COGNITIVE_DOMAIN_ENGINES
-tags: [cognitive]
+tags: [cognitive, cognition, mind]
 type: document
 source: 11_KNOWLEDGE/cognitive
 ---
+
+
 
 
 """

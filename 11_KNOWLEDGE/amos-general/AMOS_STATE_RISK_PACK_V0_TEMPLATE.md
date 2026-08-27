@@ -1,5 +1,6 @@
 ---
 title: AMOS STATE RISK PACK V0 TEMPLATE
+type: template
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-state-risk-pack-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-state-risk-pack-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 # AMOS State Risk Pack v0 Template

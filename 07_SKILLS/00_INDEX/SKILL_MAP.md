@@ -1,7 +1,9 @@
 ---
 title: SKILL MAP
-tags: ['amos_os', '07_skills']
+type: skill
+tags: [amos_os, 07_skills]
 ---
+
 
 
 # SKILL MAP

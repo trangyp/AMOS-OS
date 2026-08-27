@@ -1,9 +1,11 @@
 ---
 title: KHOI LUC GIAC FRACTAL SAO HOA QUA DUA VA SU L
-tags: [fractal]
+tags: [fractal, math, self-similarity]
 type: document
 source: 11_KNOWLEDGE/fractal
 ---
+
+
 
 
 

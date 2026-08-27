@@ -4,6 +4,7 @@ type: note
 tags: [note, c08-execution]
 ---
 
+
 # C08 — Invariants
 
 **Package:** `C08_EXECUTION`  

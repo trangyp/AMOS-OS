@@ -1,7 +1,9 @@
 ---
 title: META LOGIC MAP
-tags: ['amos_os', '02_kernel']
+type: map
+tags: [amos_os, 02_kernel]
 ---
+
 
 
 # META LOGIC MAP

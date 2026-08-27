@@ -1,9 +1,11 @@
 ---
 title: QUANTUM ARCHITECTURE
-tags: [quantum]
+tags: [quantum, physics, qfm]
 type: data
 source: 11_KNOWLEDGE/quantum
 ---
+
+
 
 
 

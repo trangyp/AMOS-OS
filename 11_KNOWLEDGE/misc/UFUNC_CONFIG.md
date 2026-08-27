@@ -1,10 +1,12 @@
 ---
 title: UFUNC CONFIG
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# UFUNC CONFIG
 
 """Typing tests for `numpy._core._ufunc_config`."""
 

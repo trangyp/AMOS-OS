@@ -4,6 +4,7 @@ type: note
 tags: [note, 12-generators]
 ---
 
+
 Below is a full AMOS-aligned replacement for `12_GENERATORS/HISTORY.md`. The key difference from `ROADMAP.md` is that **History records provenance-bound evolution and prior states; it does not describe intended future work**. Where actual revision evidence is unavailable, entries remain `UNKNOWN/GAP` rather than being reconstructed from filenames or apparent ordering. This follows the Full Brain OS requirement to preserve provenance, distinguish source claims from derived models, and expose missing historical evidence instead of inventing it.  The Skill’s primary canon source is `AMOS_FULL_BRAIN_OS.json`; correspondence with that architecture does not prove a particular Generator implementation or historical milestone occurred. 
 
 ````md

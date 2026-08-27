@@ -1,5 +1,6 @@
 ---
 title: K COUNTERFACTUAL
+type: note
 artifact_id: AMOS-OS-K-COUNTERFACTUAL
 canonical_name: K_COUNTERFACTUAL
 artifact_type: kernel_counterfactual_contract
@@ -18,8 +19,7 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - canon/model
   - kernel
@@ -47,6 +47,8 @@ aliases:
   - K Counterfactual
   - K_COUNTERFACTUAL
 ---
+
+
 
 
 # K_COUNTERFACTUAL

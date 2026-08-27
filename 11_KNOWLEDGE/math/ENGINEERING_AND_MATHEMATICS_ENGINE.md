@@ -1,5 +1,6 @@
 ---
 title: ENGINEERING AND MATHEMATICS ENGINE
+type: math
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: engineering-and-mathematics-engine
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/engineering-and-mathematics-engine, math]
 created: 2026-08-22
 ---
+
 
 
 ```json

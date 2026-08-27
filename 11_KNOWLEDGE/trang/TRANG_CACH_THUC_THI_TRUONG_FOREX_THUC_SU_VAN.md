@@ -1,9 +1,11 @@
 ---
 title: TRANG CACH THUC THI TRUONG FOREX THUC SU VAN
-tags: [trang]
+tags: [trang, framework, reality]
 type: document
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

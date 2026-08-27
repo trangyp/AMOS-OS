@@ -4,6 +4,7 @@ type: note
 tags: [note, o09-simulation]
 ---
 
+
 # O09 — Gap Matrix
 
 **Package:** `O09_SIMULATION`  

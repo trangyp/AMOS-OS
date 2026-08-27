@@ -1,5 +1,6 @@
 ---
 title: K CAUSAL EPOCH
+type: note
 artifact_id: AMOS-OS-K-CAUSAL-EPOCH
 canonical_name: K_CAUSAL_EPOCH
 artifact_type: kernel_causal_epoch_contract
@@ -18,8 +19,7 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - canon/model
   - kernel
@@ -53,6 +53,8 @@ aliases:
   - K Causal Epoch
   - K_CAUSAL_EPOCH
 ---
+
+
 
 
 # K CAUSAL EPOCH

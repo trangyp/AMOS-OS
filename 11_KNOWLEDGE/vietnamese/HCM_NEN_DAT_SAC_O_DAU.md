@@ -1,9 +1,11 @@
 ---
 title: HCM NEN DAT SAC O DAU
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

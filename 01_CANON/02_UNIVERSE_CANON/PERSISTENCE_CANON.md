@@ -1,4 +1,5 @@
 ---
+type: canon
 artifact_id: AMOS-PERSISTENCE-CANON
 name: PERSISTENCE_CANON
 title: "AMOS Persistence Canon — Durable State, Provenance, Recovery, and Causal Continuity"
@@ -20,8 +21,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos
+tags: [amos, canon, universe]
   - amos-os
   - amos-core
   - amos-core-v4-4
@@ -69,6 +69,8 @@ related:
   - "LAW_HIERARCHY|Law Hierarchy"
   - "HML_CANON|H/M/L Canon"
 ---
+
+
 
 # AMOS Persistence Canon
 

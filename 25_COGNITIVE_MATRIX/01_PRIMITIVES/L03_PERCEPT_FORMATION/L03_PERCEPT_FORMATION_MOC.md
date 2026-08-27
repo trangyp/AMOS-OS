@@ -4,6 +4,7 @@ type: moc
 tags: [moc, l03-percept-formation]
 ---
 
+
 # L03_PERCEPT_FORMATION — Map of Content
 
 ## Files

@@ -1,9 +1,11 @@
 ---
 title: SELF UNDERSTANDING
-tags: [cognitive]
+tags: [cognitive, cognition, mind]
 type: document
 source: 11_KNOWLEDGE/cognitive
 ---
+
+
 
 
 # AMOS Self-Understanding System - Implementation Complete

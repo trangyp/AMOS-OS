@@ -8,6 +8,7 @@ tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, r
 ---
 
 
+
 # The Complete Human System — Integrated Insights (v2 — Epistemically Audited)
 
 > **Humans are not primarily rational creatures. Rationality is a late addition to a billion-year-old regulatory system.**

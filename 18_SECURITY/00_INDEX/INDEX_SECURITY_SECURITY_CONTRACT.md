@@ -1,7 +1,9 @@
 ---
 title: INDEX SECURITY SECURITY CONTRACT
-tags: ['amos_os', '18_security']
+type: index
+tags: [amos_os, 18_security]
 ---
+
 
 
 # INDEX SECURITY SECURITY CONTRACT

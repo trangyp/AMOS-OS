@@ -1,5 +1,6 @@
 ---
 title: "Kernel · Human Intelligence"
+type: human
 artifact: "K_HUMAN_INTELLIGENCE.md"
 artifact_id: "amos_02_kernel_02_cognition_k_human_intelligence"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "02_KERNEL/02_COGNITION"
 artifact_kind: "INTELLIGENCE"
 path: "02_KERNEL/02_COGNITION/K_HUMAN_INTELLIGENCE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, kernel, core]
   - 02_kernel
   - intelligence
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Kernel · Human Intelligence
 

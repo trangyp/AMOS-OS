@@ -1,7 +1,9 @@
 ---
 title: C11 DESIGN LANGUAGE MAP
-tags: ['amos_os', '21_domains']
+type: map
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C11 DESIGN LANGUAGE MAP

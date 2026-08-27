@@ -1,9 +1,11 @@
 ---
 title: AMOS COLLAPSE SPACE COVERAGE AUDIT
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: code
 source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 
 

@@ -1,7 +1,9 @@
 ---
 title: INDEX M MID SCALE SCALES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'm_mid_scale']
+type: index
+tags: [cognitive_matrix, m_mid_scale]
 ---
+
 
 
 # INDEX M MID SCALE SCALES COGNITIVE MATRIX README

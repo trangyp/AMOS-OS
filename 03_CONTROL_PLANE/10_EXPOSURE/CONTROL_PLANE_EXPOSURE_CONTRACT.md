@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE EXPOSURE CONTRACT
-tags: ['control_plane', 'control_plane_exposure_contract.md']
+type: control-plane
+tags: [control_plane, control_plane_exposure_contract.md]
 ---
+
 
 
 # CONTROL PLANE EXPOSURE CONTRACT

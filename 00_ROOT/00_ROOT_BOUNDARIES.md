@@ -1,5 +1,6 @@
 ---
 title: "AMOS OS Root Boundaries"
+type: boundary
 artifact: "00_ROOT_BOUNDARIES.md"
 artifact_id: "AMOS_ROOT_BOUNDARIES_000"
 origin_architect: "Trang Phan"
@@ -18,6 +19,7 @@ implementation_status: "UNKNOWN/GAP"
 validation_status: "UNKNOWN/GAP"
 tags: [note, 00-root]
 ---
+
 ```
 
 # AMOS OS — 00 Root Boundaries

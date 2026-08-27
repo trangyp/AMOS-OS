@@ -1,4 +1,5 @@
 ---
+type: canon
 artifact_id: AMOS-CONTROL-PLANE-CANON
 name: CONTROL_PLANE_CANON
 title: "AMOS Control Plane Canon — Governance, Authority, Commit, Provenance, and Coordination"
@@ -20,8 +21,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos
+tags: [amos, canon, universe]
   - amos-os
   - amos-core
   - amos-core-v4-4
@@ -59,6 +59,8 @@ aliases:
   - AMOS Governance Control Plane
   - AMOS Commit and Authority Plane
 ---
+
+
 
 # AMOS Control Plane Canon
 

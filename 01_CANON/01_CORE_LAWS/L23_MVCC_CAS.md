@@ -1,7 +1,9 @@
 ---
 title: L23 MVCC CAS
-tags: ['canon', 'core_laws', 'note']
+type: note
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L23 MVCC/CAS Analogy Boundary

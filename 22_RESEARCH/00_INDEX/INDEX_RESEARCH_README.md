@@ -1,7 +1,9 @@
 ---
 title: INDEX RESEARCH README
-tags: ['amos_os', '22_research']
+type: index
+tags: [amos_os, 22_research]
 ---
+
 
 
 # INDEX RESEARCH README

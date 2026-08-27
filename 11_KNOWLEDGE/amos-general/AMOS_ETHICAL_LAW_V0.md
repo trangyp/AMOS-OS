@@ -1,5 +1,6 @@
 ---
 title: AMOS ETHICAL LAW V0
+type: law
 canon-group: meta
 canon-type: law
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-ethical-law-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-ethical-law-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 ```json

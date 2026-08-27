@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE OBSERVABILITY CONTRACT
-tags: ['control_plane', 'control_plane_observability_contract.md']
+type: control-plane
+tags: [control_plane, control_plane_observability_contract.md]
 ---
+
 
 
 # CONTROL PLANE OBSERVABILITY CONTRACT

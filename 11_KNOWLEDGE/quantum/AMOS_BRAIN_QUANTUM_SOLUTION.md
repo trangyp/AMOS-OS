@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN QUANTUM SOLUTION
-tags: [quantum]
+tags: [quantum, physics, qfm]
 type: document
 source: 11_KNOWLEDGE/quantum
 ---
+
+
 
 
 # amos_brain_quantum_solution

@@ -4,6 +4,7 @@ type: note
 tags: [note, l17-decision]
 ---
 
+
 # L17 — Purpose
 
 **Package:** `L17_DECISION`  

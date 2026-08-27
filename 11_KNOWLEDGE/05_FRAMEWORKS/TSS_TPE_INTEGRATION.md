@@ -1,5 +1,6 @@
 ---
 title: "TSS-TPE Integration"
+type: integration
 artifact: "TSS_TPE_INTEGRATION.md"
 artifact_id: "amos_11_knowledge_05_frameworks_tss_tpe_integration"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "INTEGRATION"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/TSS_TPE_INTEGRATION.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - integration
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # TSS-TPE Integration
 

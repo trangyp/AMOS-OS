@@ -1,9 +1,11 @@
 ---
 title: NEU DON GIAN VAY TAI SAO CO CON NGUOI CAI CAY C
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

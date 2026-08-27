@@ -1,7 +1,9 @@
 ---
 title: C02 MATH COMPUTE MAP
-tags: ['amos_os', '21_domains']
+type: map
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C02 MATH COMPUTE MAP

@@ -1,7 +1,9 @@
 ---
 title: INDEX L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l00_reality_environment']
+type: index
+tags: [cognitive_matrix, l00_reality_environment]
 ---
+
 
 
 # INDEX L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX README

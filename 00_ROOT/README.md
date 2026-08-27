@@ -1,10 +1,12 @@
 ---
 title: README
+type: note
 aliases:
 - README
 rscf-state: derived
 tags: [index, readme, moc]
 ---
+
 
 # README
 

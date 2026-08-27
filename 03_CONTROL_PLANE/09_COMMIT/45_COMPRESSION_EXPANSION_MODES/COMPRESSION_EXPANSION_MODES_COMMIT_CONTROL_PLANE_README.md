@@ -1,7 +1,9 @@
 ---
 title: COMPRESSION EXPANSION MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '45_compression_expansion_modes']
+type: control-plane
+tags: [control_plane, 45_compression_expansion_modes]
 ---
+
 
 
 # COMPRESSION EXPANSION MODES COMMIT CONTROL PLANE README

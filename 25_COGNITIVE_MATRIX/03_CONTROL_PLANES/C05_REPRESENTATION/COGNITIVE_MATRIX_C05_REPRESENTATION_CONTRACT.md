@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX C05 REPRESENTATION CONTRACT
-tags: ['cognitive_matrix', 'control_planes', 'c05_representation', 'contract']
+type: cognitive
+tags: [cognitive_matrix, control_planes, c05_representation, contract]
 ---
+
 
 
 # C05_REPRESENTATION — Representation control: tensor axis discipline, class demarcation on encodings.

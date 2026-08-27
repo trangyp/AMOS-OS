@@ -1,5 +1,6 @@
 ---
 title: AMOS SIGNAL ECONOMY ALIGNED
+type: economy
 canon-group: tech-ai
 canon-type: architecture
 rscf-state: model
@@ -9,8 +10,7 @@ version: v1.0
 origin-architect: Trang Phan
 source-title: "The Signal Economy™"
 source-status: source-claim
-tags:
-  - amos
+tags: [amos, general, architecture]
   - signal-economy
   - human-first
   - biological-signal
@@ -34,6 +34,8 @@ tags:
   - amos-general
 
 ---
+
+
 
 
 # AMOS Signal Economy™

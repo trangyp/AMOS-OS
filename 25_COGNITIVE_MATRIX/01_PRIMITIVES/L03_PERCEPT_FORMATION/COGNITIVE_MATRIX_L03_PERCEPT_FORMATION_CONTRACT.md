@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX L03 PERCEPT FORMATION CONTRACT
-tags: ['cognitive_matrix', 'primitives', 'l03_percept_formation', 'contract']
+type: cognitive
+tags: [cognitive_matrix, primitives, l03_percept_formation, contract]
 ---
+
 
 
 # L03_PERCEPT_FORMATION — Percept formation Contract

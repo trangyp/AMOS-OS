@@ -4,6 +4,7 @@ type: note
 tags: [note, o03-binding]
 ---
 
+
 # O03 — Semantics
 
 **Package:** `O03_BINDING`  

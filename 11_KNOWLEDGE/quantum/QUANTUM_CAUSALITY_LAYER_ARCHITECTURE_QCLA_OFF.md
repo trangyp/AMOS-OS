@@ -1,9 +1,11 @@
 ---
 title: QUANTUM CAUSALITY LAYER ARCHITECTURE QCLA OFF
-tags: [quantum]
+tags: [quantum, physics, qfm]
 type: document
 source: 11_KNOWLEDGE/quantum
 ---
+
+
 
 
 

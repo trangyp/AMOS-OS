@@ -4,6 +4,7 @@ type: note
 tags: [note, 01-core-laws]
 ---
 
+
 ````markdown
 ---
 tags: ['canon', 'core_laws', 'authority', 'authorization', 'delegation', 'revocation', 'control_plane', 'rscf', 'governance']

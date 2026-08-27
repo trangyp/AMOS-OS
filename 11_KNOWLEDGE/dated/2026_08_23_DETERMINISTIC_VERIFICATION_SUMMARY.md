@@ -6,6 +6,7 @@ source: 11_KNOWLEDGE/dated
 ---
 
 
+
 # Deterministic Verification — Obsidian Vault Note
 
 **Date**: 2026-08-23  

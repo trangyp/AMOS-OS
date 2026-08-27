@@ -1,5 +1,6 @@
 ---
 title: "Directed Systemal Intelligence Domain"
+type: system
 artifact: "DIRECTED_SYSTEMAL_INTELLIGENCE_DOMAIN.md"
 artifact_id: "amos_21_domains_04_strategy_directed_systemal_intelligence_domain"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/04_STRATEGY"
 artifact_kind: "DOMAIN"
 path: "21_DOMAINS/04_STRATEGY/DIRECTED_SYSTEMAL_INTELLIGENCE_DOMAIN.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - domain
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Directed Systemal Intelligence Domain
 

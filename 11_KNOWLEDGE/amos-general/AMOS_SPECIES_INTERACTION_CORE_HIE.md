@@ -3,12 +3,13 @@ title: "AMOS Species Interaction Core (HIE) — Full Stack"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Biology_Cognition/AMOS_Species_Interaction_Core_Engine_v0.json"
 origin_architect: "Trang Phan"
-type: "reference"
+type: reference
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/mu-mutation, rscf/E-entropy, topic/human-interaction-engine-model, amos-general]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS Species Interaction Core (HIE)
 

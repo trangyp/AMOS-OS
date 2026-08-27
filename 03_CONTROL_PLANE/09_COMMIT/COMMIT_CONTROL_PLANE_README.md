@@ -1,7 +1,9 @@
 ---
 title: COMMIT CONTROL PLANE README
-tags: ['control_plane', 'commit_control_plane_readme.md']
+type: control-plane
+tags: [control_plane, commit_control_plane_readme.md]
 ---
+
 
 
 # COMMIT CONTROL PLANE README

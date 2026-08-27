@@ -1,7 +1,9 @@
 ---
 title: DEEP ANALYSIS COMMIT CONTROL PLANE PROVENANCE
-tags: ['control_plane', '02_deep_analysis']
+type: provenance
+tags: [control_plane, 02_deep_analysis]
 ---
+
 
 
 # DEEP ANALYSIS COMMIT CONTROL PLANE PROVENANCE

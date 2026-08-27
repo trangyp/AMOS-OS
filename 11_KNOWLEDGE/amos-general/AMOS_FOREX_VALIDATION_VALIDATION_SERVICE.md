@@ -1,10 +1,12 @@
 ---
 title: AMOS FOREX VALIDATION VALIDATION SERVICE
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: note
 source: 11_KNOWLEDGE/amos-general
 ---
 
+
+# AMOS FOREX VALIDATION VALIDATION SERVICE
 
 // validation/validation_service.js
 // Performs order validation and duplicate checks before risk assessment.

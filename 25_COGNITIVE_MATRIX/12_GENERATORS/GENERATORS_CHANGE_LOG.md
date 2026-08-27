@@ -4,6 +4,7 @@ type: note
 tags: [note, 12-generators]
 ---
 
+
 Below is a full AMOS-aligned replacement for `25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_CHANGE_LOG.md`. Unlike `HISTORY.md`, this file should be an **append-oriented operational record of accepted changes to the Generator subsystem artifacts and contracts**, while preserving provenance, supersession, validation state, and explicit uncertainty. It must not reconstruct missing history or treat every edit as authoritative change. This follows the AMOS Full Brain OS requirement to preserve source terminology/provenance, distinguish structural model from verified implementation, and expose gaps rather than invent them.  The Skill’s primary canon source is `AMOS_FULL_BRAIN_OS.json`; alignment with that structure does not itself establish runtime validity or final canon. 
 
 ````md

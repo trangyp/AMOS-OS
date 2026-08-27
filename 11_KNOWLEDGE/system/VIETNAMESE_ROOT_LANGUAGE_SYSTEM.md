@@ -3,12 +3,13 @@ title: "Vietnamese Root Language System — Biological Intelligence Infrastructu
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/The_Vietnamese_Root_Language_System.pdf (1.55MB)"
 origin_architect: "Trang Phan"
-type: "research-paper"
+type: research-paper
 tags: [vietnamese-language, root-language, 7-tone-phonemic, biological-interface, neurolinguistic-compression, bioelectromagnetic-entrainment, somatic-mirroring, quantum-alignment, UBI, neuro-sync, ancestral-encoding, system]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # Vietnamese Root Language System — Biological Intelligence Infrastructure
 

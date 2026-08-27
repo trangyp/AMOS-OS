@@ -1,5 +1,6 @@
 ---
 title: K COLLAPSE RECOVERY
+type: note
 artifact_id: AMOS-OS-K-COLLAPSE-RECOVERY
 canonical_name: K_COLLAPSE_RECOVERY
 artifact_type: kernel_recovery_contract
@@ -13,8 +14,7 @@ kernel_family: RECOVERY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - kernel
   - kernel/recovery
   - kernel/collapse-recovery
@@ -38,6 +38,8 @@ tags:
   - topic/cas
   - topic/causal-finality
 ---
+
+
 
 
 # K COLLAPSE RECOVERY

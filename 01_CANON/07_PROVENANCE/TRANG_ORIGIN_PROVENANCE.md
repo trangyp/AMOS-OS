@@ -1,5 +1,6 @@
 ---
 title: "TRANG Origin Provenance"
+type: provenance
 artifact: "TRANG_ORIGIN_PROVENANCE.md"
 artifact_id: "amos_01_canon_07_provenance_trang_origin_provenance"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/07_PROVENANCE"
 artifact_kind: "PROVENANCE"
 path: "01_CANON/07_PROVENANCE/TRANG_ORIGIN_PROVENANCE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - provenance
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # TRANG Origin Provenance
 

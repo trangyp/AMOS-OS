@@ -1,9 +1,11 @@
 ---
 title: REFRAMING MENTAL ILLNESS HOW UNIFIED BIOLOGICAL IN
-tags: [logic]
+tags: [logic, reasoning, formal]
 type: document
 source: 11_KNOWLEDGE/logic
 ---
+
+
 
 
 

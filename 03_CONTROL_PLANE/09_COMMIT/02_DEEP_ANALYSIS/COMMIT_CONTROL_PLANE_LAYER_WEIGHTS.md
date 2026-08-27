@@ -1,7 +1,9 @@
 ---
 title: COMMIT CONTROL PLANE LAYER WEIGHTS
-tags: ['control_plane', '02_deep_analysis']
+type: control-plane
+tags: [control_plane, 02_deep_analysis]
 ---
+
 
 
 # COMMIT CONTROL PLANE LAYER WEIGHTS

@@ -4,6 +4,7 @@ type: note
 tags: [note, o10-value]
 ---
 
+
 # O10 — Invariants
 
 **Package:** `O10_VALUE`  

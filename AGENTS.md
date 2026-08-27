@@ -4,6 +4,7 @@ type: note
 tags: [note, vault]
 ---
 
+
 # AMOS Agent Contract
 
 Use `.github/copilot-instructions.md` as the global AMOS contract.

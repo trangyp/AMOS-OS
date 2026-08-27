@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/economy
 ---
 
-
+# B THE LIVING STATE MONETISATION THESIS A ECONOMIC PARADIGM
 
 The Living State Monetisation Thesis: A New Economic Paradigm
 

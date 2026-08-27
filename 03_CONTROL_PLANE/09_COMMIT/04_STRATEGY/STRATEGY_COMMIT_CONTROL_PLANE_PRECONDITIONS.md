@@ -1,7 +1,9 @@
 ---
 title: STRATEGY COMMIT CONTROL PLANE PRECONDITIONS
-tags: ['control_plane', '04_strategy']
+type: condition
+tags: [control_plane, 04_strategy]
 ---
+
 
 
 # STRATEGY COMMIT CONTROL PLANE PRECONDITIONS

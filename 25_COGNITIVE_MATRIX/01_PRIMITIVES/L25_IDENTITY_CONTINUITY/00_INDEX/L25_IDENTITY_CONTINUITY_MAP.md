@@ -1,7 +1,9 @@
 ---
 title: L25 IDENTITY CONTINUITY MAP
-tags: ['cognitive_matrix', 'l25_identity_continuity']
+type: identity
+tags: [cognitive_matrix, l25_identity_continuity]
 ---
+
 
 
 # L25 IDENTITY CONTINUITY MAP

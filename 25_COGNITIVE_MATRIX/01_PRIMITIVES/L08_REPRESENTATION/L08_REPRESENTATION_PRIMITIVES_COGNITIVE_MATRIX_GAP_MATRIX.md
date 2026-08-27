@@ -4,6 +4,7 @@ type: note
 tags: [note, l08-representation]
 ---
 
+
 # L08 — Gap Matrix
 
 **Package:** `L08_REPRESENTATION`  

@@ -1,10 +1,12 @@
 ---
 title: SYSTEM SCAN AGENT
-tags: [system]
+tags: [system, architecture, design]
 type: note
 source: 11_KNOWLEDGE/system
 ---
 
+
+# SYSTEM SCAN AGENT
 
 """AMOS logical component.
 

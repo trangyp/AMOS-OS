@@ -1,7 +1,9 @@
 ---
 title: INFRASTRUCTURE CANON CANON INFRASTRUCTURE CANON CONTRACT
-tags: ['amos_os', '01_canon']
+type: canon
+tags: [amos_os, 01_canon]
 ---
+
 
 
 # INFRASTRUCTURE CANON CANON INFRASTRUCTURE CANON CONTRACT

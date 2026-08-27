@@ -1,7 +1,9 @@
 ---
 title: DESIGN DOMAINS README
-tags: ['amos_os', '21_domains']
+type: design
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DESIGN DOMAINS README

@@ -1,7 +1,9 @@
 ---
 title: INTEGRATION MAP
-tags: ['amos_os', '02_kernel']
+type: integration
+tags: [amos_os, 02_kernel]
 ---
+
 
 
 # INTEGRATION MAP

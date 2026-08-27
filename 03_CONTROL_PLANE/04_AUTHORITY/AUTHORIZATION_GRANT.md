@@ -1,7 +1,9 @@
 ---
 title: AUTHORIZATION GRANT
-tags: ['control_plane', 'authority', 'note']
+type: grant
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Authorization Grant

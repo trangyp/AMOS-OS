@@ -1,7 +1,9 @@
 ---
 title: DESIGN DOMAINS DESIGN CONTRACT
-tags: ['amos_os', '21_domains']
+type: design
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DESIGN DOMAINS DESIGN CONTRACT

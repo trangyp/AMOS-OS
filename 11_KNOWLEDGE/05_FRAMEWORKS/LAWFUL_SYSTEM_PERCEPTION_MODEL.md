@@ -1,5 +1,6 @@
 ---
 title: "Lawful System Perception Model"
+type: model
 artifact: "LAWFUL_SYSTEM_PERCEPTION_MODEL.md"
 artifact_id: "amos_11_knowledge_05_frameworks_lawful_system_perception_model"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "MODEL"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/LAWFUL_SYSTEM_PERCEPTION_MODEL.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - model
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Lawful System Perception Model
 

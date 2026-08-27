@@ -4,6 +4,7 @@ type: note
 tags: [note, o06-model]
 ---
 
+
 # O06 — Gap Matrix
 
 **Package:** `O06_MODEL`  

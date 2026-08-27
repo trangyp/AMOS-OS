@@ -1,7 +1,9 @@
 ---
 title: INDEX COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'index', 'readme']
+type: index
+tags: [cognitive_matrix, index, readme]
 ---
+
 
 
 # AMOS Cognitive Matrix

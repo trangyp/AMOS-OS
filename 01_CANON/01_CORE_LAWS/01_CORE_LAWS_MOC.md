@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 01-core-laws]
 ---
 
+
 # 01_CORE_LAWS — Map of Content
 
 ## Files

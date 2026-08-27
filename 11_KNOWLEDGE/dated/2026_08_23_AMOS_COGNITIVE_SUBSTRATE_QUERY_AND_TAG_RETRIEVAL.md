@@ -3,12 +3,13 @@ title: "AMOS Cognitive Substrate Query and Tag Retrieval"
 created: "2026-08-23"
 origin: "Hermes ↔ Cosmo Brain"
 origin_architect: "Trang Phan"
-type: "note"
+type: note
 tags: [cosmo, amos, canon-group/tech-ai, rscf/claim, rscf/state/observation, topic/cognitive-substrate, topic/memory-retrieval, topic/query-filtering, dated, dated/2026-08-23]
 status: "verified"
 provenance: "OBSERVATION"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS Cognitive Substrate Query and Tag Retrieval
 

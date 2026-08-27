@@ -1,9 +1,11 @@
 ---
 title: KIEN TRUC CUA KIEN TRUC ARCHITECTURE OF ARCHITECT
-tags: [architecture]
+tags: [architecture, design, structure]
 type: document
 source: 11_KNOWLEDGE/architecture
 ---
+
+
 
 
 

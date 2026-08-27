@@ -1,7 +1,9 @@
 ---
 title: INDEX L12 COUNTERFACTUAL SIMULATION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l12_counterfactual_simulation']
+type: index
+tags: [cognitive_matrix, l12_counterfactual_simulation]
 ---
+
 
 
 # INDEX L12 COUNTERFACTUAL SIMULATION PRIMITIVES COGNITIVE MATRIX README

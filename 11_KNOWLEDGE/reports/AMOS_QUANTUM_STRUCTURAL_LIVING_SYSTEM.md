@@ -1,9 +1,11 @@
 ---
 title: AMOS QUANTUM STRUCTURAL LIVING SYSTEM
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS OMEGA QUANTUM-STRUCTURAL LIVING SYSTEM ENGINE

@@ -1,7 +1,9 @@
 ---
 title: PRIVACY CONFIDENTIALITY MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '56_privacy_confidentiality_modes']
+type: control-plane
+tags: [control_plane, 56_privacy_confidentiality_modes]
 ---
+
 
 
 # PRIVACY CONFIDENTIALITY MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

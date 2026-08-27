@@ -4,6 +4,7 @@ type: note
 tags: [note, o00-distinction]
 ---
 
+
 # O00 — Failure Modes
 
 **Package:** `O00_DISTINCTION`  

@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE ORGANISM MAP
-tags: ['amos_os', '05_cognitive_organism']
+type: map
+tags: [amos_os, 05_cognitive_organism]
 ---
+
 
 
 # COGNITIVE ORGANISM MAP

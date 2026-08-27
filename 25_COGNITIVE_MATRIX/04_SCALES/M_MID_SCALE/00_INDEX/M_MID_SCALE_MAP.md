@@ -1,7 +1,9 @@
 ---
 title: M MID SCALE MAP
-tags: ['cognitive_matrix', 'm_mid_scale']
+type: map
+tags: [cognitive_matrix, m_mid_scale]
 ---
+
 
 
 # M MID SCALE MAP

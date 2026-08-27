@@ -1,9 +1,11 @@
 ---
 title: GIAI PHAP SU DUNG CAT BIEN CHO BE TONG BEN VUNG TA
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

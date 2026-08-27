@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANES COGNITIVE MATRIX CONTROL PLANES CONTRACT
-tags: ['cognitive_matrix', '00_index']
+type: control-plane
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # CONTROL PLANES COGNITIVE MATRIX CONTROL PLANES CONTRACT

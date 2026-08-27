@@ -4,6 +4,7 @@ type: note
 tags: [note, l06-working-state]
 ---
 
+
 # L06 — RSCF Record
 
 **Package:** `L06_WORKING_STATE`  

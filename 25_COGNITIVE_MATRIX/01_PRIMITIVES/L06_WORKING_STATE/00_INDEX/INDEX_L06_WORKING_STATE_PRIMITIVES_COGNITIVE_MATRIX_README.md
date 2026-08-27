@@ -1,7 +1,9 @@
 ---
 title: INDEX L06 WORKING STATE PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l06_working_state']
+type: index
+tags: [cognitive_matrix, l06_working_state]
 ---
+
 
 
 # INDEX L06 WORKING STATE PRIMITIVES COGNITIVE MATRIX README

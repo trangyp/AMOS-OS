@@ -6,6 +6,7 @@ epistemic: SOURCE/DERIVED
 tags: [math, fractal, statistics, power-law, zipf, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — Scaling-Law Diagnostics (FR012–FR014 Deep)
 
 ## Gap found

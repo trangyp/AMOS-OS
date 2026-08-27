@@ -5,6 +5,7 @@ created: 2026-08-22
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/new-memory, memory]
 ---
 
+
 # Bridge: New Memory
 
 > [!warning] GAP — No target note exists

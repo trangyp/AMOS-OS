@@ -1,5 +1,6 @@
 ---
 title: "Bio-Logical Laws Canon"
+type: canon
 artifact: "BIO_LOGICAL_LAWS_CANON.md"
 artifact_id: "amos_01_canon_01_core_laws_bio_logical_laws_canon"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/01_CORE_LAWS"
 artifact_kind: "LOG"
 path: "01_CANON/01_CORE_LAWS/BIO_LOGICAL_LAWS_CANON.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - log
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Bio-Logical Laws Canon
 

@@ -1,7 +1,10 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'cognitive_matrix']
+type: cognitive
+tags: [cognitive_matrix, matrix, cognition]
 ---
+
+
 
 
 # PRIMITIVES COGNITIVE MATRIX README

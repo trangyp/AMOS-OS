@@ -1,4 +1,5 @@
 ---
+type: law
 id: AMOS-C09-ORG-LAW-POLICY-MASTER-KNOWLEDGE
 title: "AMOS C09 — Organization, Law & Policy Master Knowledge"
 origin_architect: "Trang Phan"
@@ -28,9 +29,10 @@ source_family_mapping:
   - "F08_culture_transformation_and_change"
   - "F09_monitoring_audit_and_governance_data"
   - "F10_meta_governance_research_bridge"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # AMOS C09 — Organization, Law & Policy Master Knowledge
 
 > **Epistemic boundary**

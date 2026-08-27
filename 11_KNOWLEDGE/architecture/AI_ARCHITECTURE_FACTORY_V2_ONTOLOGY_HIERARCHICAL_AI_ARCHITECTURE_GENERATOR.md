@@ -1,9 +1,11 @@
 ---
 title: AI ARCHITECTURE FACTORY V2 ONTOLOGY HIERARCHICAL AI ARCHITECTURE GENERATOR
-tags: [architecture]
+tags: [architecture, design, structure]
 type: data
 source: 11_KNOWLEDGE/architecture
 ---
+
+
 
 
 

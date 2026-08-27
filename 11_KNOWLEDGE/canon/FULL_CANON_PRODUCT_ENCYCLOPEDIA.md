@@ -1,9 +1,11 @@
 ---
 title: FULL CANON PRODUCT ENCYCLOPEDIA
-tags: [canon]
+tags: [canon, universe, law]
 type: document
 source: 11_KNOWLEDGE/canon
 ---
+
+
 
 
 

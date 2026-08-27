@@ -1,7 +1,9 @@
 ---
 title: QUANTUM SYSTEMS DOMAINS README
-tags: ['amos_os', '21_domains']
+type: quantum
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # QUANTUM SYSTEMS DOMAINS README

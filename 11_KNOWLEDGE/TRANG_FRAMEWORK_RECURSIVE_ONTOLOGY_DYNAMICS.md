@@ -1,4 +1,5 @@
 ---
+type: trang-framework
 id: TRA-RESEARCH-RECURSIVE-ONTOLOGY-DYNAMICS
 title: "Trang Framework — Recursive Ontology, Emergence, and Computable Survival Dynamics"
 origin_architect: "Trang Phan"
@@ -37,9 +38,10 @@ cross_links:
 epistemic_regime: "THEORETICAL_RESEARCH"
 scope: "cross-scale recursive systems modeling"
 freshness_policy: "REVALIDATE_ON_DEPENDENCY_CHANGE"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # Trang Framework — Recursive Ontology, Emergence, and Computable Survival Dynamics
 
 > **Epistemic Boundary**

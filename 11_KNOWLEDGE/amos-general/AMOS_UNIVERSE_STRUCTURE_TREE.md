@@ -9,6 +9,7 @@ source: "AMOS Universe Total Canon UTC Master File.md"
 tags: [universe, ust, canon, pointer, amos-general]
 ---
 
+
 # AMOS Universe Structure Tree (UST)
 
 > **Pointer / alias note.** This note exists so that `AMOS Universe Structure Tree` resolves in the knowledge graph. The authoritative definition of the Universe Structure Tree (UST) lives in the canon master file.

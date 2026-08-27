@@ -1,5 +1,6 @@
 ---
 title: AUDIT QUALITY MAX
+type: note
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: audit-quality-max
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/audit-quality-max, audit]
 created: 2026-08-22
 ---
+
 
 
 ```json

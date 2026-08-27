@@ -4,6 +4,7 @@ type: note
 tags: [note, c07-perception]
 ---
 
+
 # C07 — Scope
 
 **Package:** `C07_PERCEPTION`  

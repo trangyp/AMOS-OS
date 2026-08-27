@@ -1,7 +1,9 @@
 ---
 title: BASELINE COMMIT CONTROL PLANE TESTS
-tags: ['control_plane', '01_baseline']
+type: test
+tags: [control_plane, 01_baseline]
 ---
+
 
 
 # BASELINE COMMIT CONTROL PLANE TESTS

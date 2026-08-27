@@ -1,5 +1,6 @@
 ---
 title: "AMOS Cognitive Matrix Placeholder Seed Status"
+type: status
 origin_architect: "Trang Phan"
 updated: "2026-08-25"
 status: "PARTIAL_STRUCTURAL_SEED → CONTRACT_FILLED (2026-08-26)"
@@ -13,6 +14,7 @@ scope:
   - "04_SCALES"
 tags: [note, 25-cognitive-matrix]
 ---
+
 
 # AMOS Cognitive Matrix Placeholder Seed Status
 

@@ -1,9 +1,11 @@
 ---
 title: AMOS CORE V4 8 CAPABILITY BOUND GOVERNANCE
-tags: [governance]
+tags: [governance, policy, authority]
 type: document
 source: 11_KNOWLEDGE/governance
 ---
+
+
 
 
 """

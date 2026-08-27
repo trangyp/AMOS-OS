@@ -1,9 +1,11 @@
 ---
 title: AMOS LIVING BRAIN ORGANISM IS ALIVE
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 

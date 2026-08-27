@@ -3,12 +3,13 @@ title: "AI Sweet Spots — Differential Cognitive Effects Across Populations"
 created: "2026-08-22"
 origin: "Google Drive — new troy/Enhanced AI Sweet Spots Research Paper.pdf"
 origin_architect: "Research paper"
-type: "research-paper"
+type: research-paper
 tags: [ai-sweet-spots, cognitive-debt, neurodivergent, ADHD, autism, dyslexia, 2e, elderly, cultural-HCI, cognitive-load, neural-engagement, differential-optimization, misc]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # AI Sweet Spots: Differential Cognitive Effects of Generative AI
 

@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O13 DECISION CONTRACT
-tags: ['cognitive_matrix', 'o13_decision']
+type: lifecycle
+tags: [cognitive_matrix, o13_decision]
 ---
+
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O13 DECISION CONTRACT

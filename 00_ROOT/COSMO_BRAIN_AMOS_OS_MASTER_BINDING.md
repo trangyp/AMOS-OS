@@ -1,5 +1,6 @@
 ---
 title: "Cosmo Brain AMOS OS Master Binding"
+type: brain
 artifact: "COSMO_BRAIN_AMOS_OS_MASTER_BINDING.md"
 artifact_id: "amos_00_root_cosmo_brain_amos_os_master_binding"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "00_ROOT"
 artifact_kind: "BINDING"
 path: "00_ROOT/COSMO_BRAIN_AMOS_OS_MASTER_BINDING.md"
 
-tags:
-  - amos_os
+tags: [amos_os, root, index]
   - 00_root
   - binding
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Cosmo Brain AMOS OS Master Binding
 

@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O05 MEMORY CONTRACT
-tags: ['cognitive_matrix', 'o05_memory']
+type: lifecycle
+tags: [cognitive_matrix, o05_memory]
 ---
+
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O05 MEMORY CONTRACT

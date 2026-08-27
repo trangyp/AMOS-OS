@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX L11 CAUSAL MODELING CONTRACT
-tags: ['cognitive_matrix', 'primitives', 'l11_causal_modeling', 'contract']
+type: cognitive
+tags: [cognitive_matrix, primitives, l11_causal_modeling, contract]
 ---
+
 
 
 # L11_CAUSAL_MODELING — Causal modeling Contract

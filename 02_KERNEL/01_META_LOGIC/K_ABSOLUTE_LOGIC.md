@@ -1,5 +1,6 @@
 ---
 title: "Kernel · Absolute Logic"
+type: logic
 artifact: "K_ABSOLUTE_LOGIC.md"
 artifact_id: "amos_02_kernel_01_meta_logic_k_absolute_logic"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "02_KERNEL/01_META_LOGIC"
 artifact_kind: "LOG"
 path: "02_KERNEL/01_META_LOGIC/K_ABSOLUTE_LOGIC.md"
 
-tags:
-  - amos_os
+tags: [amos_os, kernel, core]
   - 02_kernel
   - log
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Kernel · Absolute Logic
 

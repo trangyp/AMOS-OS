@@ -1,7 +1,9 @@
 ---
 title: SOFTWARE DOMAINS SOFTWARE CONTRACT
-tags: ['amos_os', '21_domains']
+type: note
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # SOFTWARE DOMAINS SOFTWARE CONTRACT

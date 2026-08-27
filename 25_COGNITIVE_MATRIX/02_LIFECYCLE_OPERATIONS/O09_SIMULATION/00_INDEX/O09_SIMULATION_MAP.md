@@ -1,7 +1,9 @@
 ---
 title: O09 SIMULATION MAP
-tags: ['cognitive_matrix', 'o09_simulation']
+type: map
+tags: [cognitive_matrix, o09_simulation]
 ---
+
 
 
 # O09 SIMULATION MAP

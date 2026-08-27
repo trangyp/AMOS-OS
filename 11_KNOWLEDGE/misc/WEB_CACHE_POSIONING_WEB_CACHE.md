@@ -1,9 +1,11 @@
 ---
 title: WEB CACHE POSIONING WEB CACHE
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 ## Web Cache

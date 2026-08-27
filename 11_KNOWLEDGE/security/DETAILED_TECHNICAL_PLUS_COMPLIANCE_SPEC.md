@@ -1,9 +1,11 @@
 ---
 title: DETAILED TECHNICAL PLUS COMPLIANCE SPEC
-tags: [security]
+tags: [security, safety, adversarial]
 type: document
 source: 11_KNOWLEDGE/security
 ---
+
+
 
 
 

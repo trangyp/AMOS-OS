@@ -1,7 +1,9 @@
 ---
 title: COMPETING MODELS RESEARCH README
-tags: ['amos_os', '22_research']
+type: model
+tags: [amos_os, 22_research]
 ---
+
 
 
 # COMPETING MODELS RESEARCH README

@@ -1,5 +1,6 @@
 ---
 title: "AMOS Native Canon vs External Evidence"
+type: canon
 artifact: "AMOS_NATIVE_CANON_VS_EXTERNAL_EVIDENCE.md"
 artifact_id: "amos_00_root_amos_native_canon_vs_external_evidence"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "00_ROOT"
 artifact_kind: "CANON"
 path: "00_ROOT/AMOS_NATIVE_CANON_VS_EXTERNAL_EVIDENCE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, root, index]
   - 00_root
   - canon
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # AMOS Native Canon vs External Evidence
 

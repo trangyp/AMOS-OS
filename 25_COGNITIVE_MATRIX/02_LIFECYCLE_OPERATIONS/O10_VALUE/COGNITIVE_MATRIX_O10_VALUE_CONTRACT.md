@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX O10 VALUE CONTRACT
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o10_value', 'contract']
+type: cognitive
+tags: [cognitive_matrix, lifecycle_operations, o10_value, contract]
 ---
+
 
 
 # O10_VALUE — O10 Value

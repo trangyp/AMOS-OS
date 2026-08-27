@@ -1,5 +1,6 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — RSCF"
+type: cognitive
 aliases:
   - "AMOS Reality Environment RSCF"
   - "L00 Reality RSCF"
@@ -11,8 +12,7 @@ amos-layer: L00_REALITY_ENVIRONMENT
 architecture-role: reality-grounded-claim-and-evidence-governance
 origin-architect: "Trang Phan"
 status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-tags:
-  - amos
+tags: [amos]
   - reality-environment
   - rscf
   - claim
@@ -27,6 +27,7 @@ tags:
   - control-plane
   - ai
 ---
+
 
 # L00_REALITY_ENVIRONMENT — RSCF
 

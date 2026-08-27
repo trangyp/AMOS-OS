@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN QUANTUM ENHANCEMENT REPORT
-tags: [quantum]
+tags: [quantum, physics, qfm]
 type: document
 source: 11_KNOWLEDGE/quantum
 ---
+
+
 
 
 # AMOS BRAIN QUANTUM ENHANCEMENT COMPLETE REPORT

@@ -1,9 +1,11 @@
 ---
 title: TRANGS LEGACY
-tags: [trang]
+tags: [trang, framework, reality]
 type: document
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

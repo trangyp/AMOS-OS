@@ -1,7 +1,9 @@
 ---
 title: INDEX O04 STATE LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o04_state']
+type: index
+tags: [cognitive_matrix, o04_state]
 ---
+
 
 
 # INDEX O04 STATE LIFECYCLE OPERATIONS COGNITIVE MATRIX README

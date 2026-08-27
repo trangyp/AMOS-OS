@@ -1,7 +1,9 @@
 ---
 title: C10 TECH ENGINEERING DOMAINS DOMAIN SPEC
-tags: ['amos_os', '21_domains']
+type: engine
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C10 TECH ENGINEERING DOMAINS DOMAIN SPEC

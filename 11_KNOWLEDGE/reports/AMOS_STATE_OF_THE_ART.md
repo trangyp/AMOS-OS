@@ -1,9 +1,11 @@
 ---
 title: AMOS STATE OF THE ART
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS OMEGA BRAIN - STATE OF THE ART IMPLEMENTATION COMPLETE

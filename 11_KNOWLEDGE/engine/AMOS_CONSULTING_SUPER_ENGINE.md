@@ -1,5 +1,6 @@
 ---
 title: AMOS CONSULTING SUPER ENGINE
+type: engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-consulting-super-engine
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-consulting-super-engine, engine]
 created: 2026-08-22
 ---
+
 
 
 ```json

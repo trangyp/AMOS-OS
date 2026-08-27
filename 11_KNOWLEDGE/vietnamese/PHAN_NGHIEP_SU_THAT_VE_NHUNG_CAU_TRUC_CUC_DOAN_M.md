@@ -1,9 +1,11 @@
 ---
 title: PHAN NGHIEP SU THAT VE NHUNG CAU TRUC CUC DOAN M
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

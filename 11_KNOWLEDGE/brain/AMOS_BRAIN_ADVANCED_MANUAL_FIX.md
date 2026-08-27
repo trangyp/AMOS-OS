@@ -1,10 +1,12 @@
 ---
 title: AMOS BRAIN ADVANCED MANUAL FIX
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: note
 source: 11_KNOWLEDGE/brain
 ---
 
+
+# AMOS BRAIN ADVANCED MANUAL FIX
 
 🧠 AMOS Brain Supreme - Advanced Manual Fix Execution Complete
 ==========================================================

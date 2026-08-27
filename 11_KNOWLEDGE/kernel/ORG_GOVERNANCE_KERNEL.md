@@ -1,5 +1,6 @@
 ---
 title: ORG GOVERNANCE KERNEL
+type: kernel
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: org-governance-kernel
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/org-governance-kernel, kernel]
 created: 2026-08-22
 ---
+
 
 
 

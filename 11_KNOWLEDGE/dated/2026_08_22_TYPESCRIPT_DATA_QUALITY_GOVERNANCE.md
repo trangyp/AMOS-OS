@@ -3,12 +3,13 @@ title: "AMOS TypeScript Data Quality Governance"
 created: "2026-08-22"
 origin: "Hermes ↔ Cosmo Brain"
 origin_architect: "Trang Phan"
-type: "note"
+type: note
 tags: [cosmo, amos, canon-group/system, rscf/claim, rscf/state/observation, topic/implementation, topic/governance, topic/data-quality, dated, dated/2026-08-22]
 status: "verified"
 provenance: "OBSERVATION"
 confidence: "VERIFIED"
 ---
+
 
 # TypeScript Data Quality Governance
 

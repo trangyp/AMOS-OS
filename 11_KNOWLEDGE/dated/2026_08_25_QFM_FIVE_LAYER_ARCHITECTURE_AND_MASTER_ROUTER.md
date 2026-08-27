@@ -6,6 +6,7 @@ epistemic: DERIVED/MODEL
 tags: [architecture, routing, qfm, governance, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — QFM Five-Layer Architecture & Master Router
 
 ## Gap found

@@ -3,13 +3,14 @@ title: "Meta-Laws & Stability Equations — Multi-Scale Structural Formalization
 created: "2026-08-22"
 origin: "AMOS brain knowledge ingest"
 origin_architect: "AMOS"
-type: "reference"
+type: reference
 tags: [canon-group/tech-ai, canon/metric, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/meta-laws-stability-equations-multi-scal, misc]
 status: "active"
 provenance: "OBSERVATION"
 confidence: "DERIVED"
 source: "Ingest batch 2026-08-22"
 ---
+
 
 # Meta-Laws & Stability Equations
 

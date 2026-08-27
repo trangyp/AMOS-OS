@@ -1,8 +1,10 @@
 ---
 title: DESIGN LANGUAGE MODEL
+type: model
 aliases: [Design & Language Engine, AMOS_Design_Language]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/design-language-model, models]
 ---
+
 
 
 # AMOS Design & Language Engine

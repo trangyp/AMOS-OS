@@ -1,7 +1,9 @@
 ---
 title: INDEX L09 INFERENCE PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l09_inference']
+type: index
+tags: [cognitive_matrix, l09_inference]
 ---
+
 
 
 # INDEX L09 INFERENCE PRIMITIVES COGNITIVE MATRIX README

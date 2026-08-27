@@ -2,12 +2,13 @@
 title: "AMOS Total Technical Engine Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "brain_model"
+type: brain-model
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/observation, topic/total-technical-engine-model, engine]
 status: "active"
 provenance: "_AMOS_Total Technical Engine .txt"
 confidence: "STRUCTURAL"
 ---
+
 
 # AMOS Total Technical Engine Model
 

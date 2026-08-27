@@ -1,10 +1,12 @@
 ---
 title: RULES FRACTAL COGNITIVE ARCHITECTURE
-tags: [fractal]
+tags: [fractal, math, self-similarity]
 type: note
 source: 11_KNOWLEDGE/fractal
 ---
 
+
+# RULES FRACTAL COGNITIVE ARCHITECTURE
 
 DETERMINISTIC_RULES = [
     "Every feature must have one clear intention.",

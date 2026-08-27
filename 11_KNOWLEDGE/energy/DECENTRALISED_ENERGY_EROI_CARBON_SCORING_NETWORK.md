@@ -1,9 +1,11 @@
 ---
 title: DECENTRALISED ENERGY EROI CARBON SCORING NETWORK
-tags: [energy]
+tags: [energy, power, green]
 type: document
 source: 11_KNOWLEDGE/energy
 ---
+
+
 
 
 

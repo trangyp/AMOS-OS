@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/kernel
 
 
 
+
 # AMOS Kernel Routing Workflow
 
 Determine which AMOS kernels handle a task, using the brain's kernel registry and routing rules.

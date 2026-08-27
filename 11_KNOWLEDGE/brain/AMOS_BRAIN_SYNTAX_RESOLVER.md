@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN SYNTAX RESOLVER
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 # amos_brain_syntax_resolver

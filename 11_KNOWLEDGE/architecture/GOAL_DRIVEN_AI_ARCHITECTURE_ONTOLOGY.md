@@ -1,9 +1,11 @@
 ---
 title: GOAL DRIVEN AI ARCHITECTURE ONTOLOGY
-tags: [architecture]
+tags: [architecture, design, structure]
 type: data
 source: 11_KNOWLEDGE/architecture
 ---
+
+
 
 
 

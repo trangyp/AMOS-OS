@@ -1,5 +1,6 @@
 ---
 title: AMOS SPECIES INTERACTION CORE ENGINE V0 DOMAINS7
+type: engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-species-interaction-core-engine-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-species-interaction-core-engine-v0, engine]
 created: 2026-08-22
 ---
+
 
 
 ```json

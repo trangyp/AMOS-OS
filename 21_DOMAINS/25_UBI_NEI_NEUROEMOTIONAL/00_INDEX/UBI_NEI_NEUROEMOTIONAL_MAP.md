@@ -1,7 +1,9 @@
 ---
 title: UBI NEI NEUROEMOTIONAL MAP
-tags: ['amos_os', '21_domains']
+type: map
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # UBI NEI NEUROEMOTIONAL MAP

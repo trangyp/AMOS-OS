@@ -1,9 +1,11 @@
 ---
 title: THE RIGHT TO LEAVE NO TRACE AT PLANETARY SCALE
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

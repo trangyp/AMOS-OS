@@ -1,7 +1,9 @@
 ---
 title: LEGAL DOMAINS PROVENANCE
-tags: ['amos_os', '21_domains']
+type: provenance
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # LEGAL DOMAINS PROVENANCE

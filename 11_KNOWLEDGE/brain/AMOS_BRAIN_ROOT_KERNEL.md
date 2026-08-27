@@ -1,5 +1,6 @@
 ---
 title: AMOS BRAIN ROOT KERNEL
+type: kernel
 canon-group: tech-ai
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-brain-root
 tags: [canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-brain-root, brain]
 created: 2026-08-22
 ---
+
 
 
 ```json

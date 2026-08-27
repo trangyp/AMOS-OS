@@ -1,5 +1,6 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Provenance"
+type: provenance
 aliases:
   - "AMOS Reality Provenance"
   - "L00 Provenance"
@@ -11,8 +12,7 @@ amos-layer: L00_REALITY_ENVIRONMENT
 architecture-role: reality-evidence-lineage-substrate
 origin-architect: "Trang Phan"
 status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-tags:
-  - amos
+tags: [amos]
   - provenance
   - evidence
   - lineage
@@ -25,6 +25,7 @@ tags:
   - tensors
   - control-plane
 ---
+
 
 # L00_REALITY_ENVIRONMENT — Provenance
 

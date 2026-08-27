@@ -4,6 +4,7 @@ type: note
 tags: [note, 07-skills]
 ---
 
+
 # AMOS OS Skills — Complete Inventory
 
 ## Overview

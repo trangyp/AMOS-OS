@@ -1,5 +1,6 @@
 ---
 title: "Seven Cycles Domain Model"
+type: model
 artifact: "SEVEN_CYCLES_DOMAIN_MODEL.md"
 artifact_id: "amos_21_domains_04_strategy_seven_cycles_domain_model"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/04_STRATEGY"
 artifact_kind: "MODEL"
 path: "21_DOMAINS/04_STRATEGY/SEVEN_CYCLES_DOMAIN_MODEL.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - model
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Seven Cycles Domain Model
 

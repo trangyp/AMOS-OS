@@ -1,7 +1,9 @@
 ---
 title: O10 VALUE MAP
-tags: ['cognitive_matrix', 'o10_value']
+type: map
+tags: [cognitive_matrix, o10_value]
 ---
+
 
 
 # O10 VALUE MAP

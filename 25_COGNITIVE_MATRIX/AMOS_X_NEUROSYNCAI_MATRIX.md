@@ -4,6 +4,7 @@ type: note
 tags: [note, 25-cognitive-matrix]
 ---
 
+
 Below is the **full-depth Markdown replacement** for `AMOS_X_NEUROSYNCAI_MATRIX.md`, built from the native Drive NeuroSyncAI source family rather than from the placeholder. The two principal sources establish the dual-system biological architecture, four UBI domains, deterministic detection/reflection/enforcement loop, fixed-output/no-learning claims, five-tier certifiable-intelligence stack, nine operational principles—including the previously missing ninth principle, **Self-Auditing Before Output**—and the biological analogies attached to those structures.  
 
 ````markdown

@@ -1,10 +1,12 @@
 ---
 title: AMOS FOREX RISK RISK SERVICE
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: note
 source: 11_KNOWLEDGE/amos-general
 ---
 
+
+# AMOS FOREX RISK RISK SERVICE
 
 // risk/risk_service.js
 // Simple portfolio‑level risk manager stub — deterministic demo implementation.

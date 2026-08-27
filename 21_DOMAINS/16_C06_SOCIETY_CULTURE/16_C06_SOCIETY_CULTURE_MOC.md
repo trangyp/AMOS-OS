@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 16-c06-society-culture]
 ---
 
+
 # 16_C06_SOCIETY_CULTURE — Map of Content
 
 ## Files

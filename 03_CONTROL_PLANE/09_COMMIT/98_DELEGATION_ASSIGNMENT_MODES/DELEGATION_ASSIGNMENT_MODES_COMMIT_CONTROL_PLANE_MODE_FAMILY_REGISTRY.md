@@ -1,7 +1,9 @@
 ---
 title: DELEGATION ASSIGNMENT MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '98_delegation_assignment_modes']
+type: delegation
+tags: [control_plane, 98_delegation_assignment_modes]
 ---
+
 
 
 # DELEGATION ASSIGNMENT MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

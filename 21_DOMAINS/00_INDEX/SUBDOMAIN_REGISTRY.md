@@ -1,7 +1,9 @@
 ---
 title: SUBDOMAIN REGISTRY
-tags: ['amos_os', '21_domains']
+type: registry
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # SUBDOMAIN REGISTRY

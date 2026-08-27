@@ -1,7 +1,9 @@
 ---
 title: C04 BIO NEURO MAP
-tags: ['amos_os', '21_domains']
+type: map
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C04 BIO NEURO MAP

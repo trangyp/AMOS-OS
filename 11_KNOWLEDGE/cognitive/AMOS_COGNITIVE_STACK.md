@@ -2,12 +2,13 @@
 title: "amos-cognitive-stack"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "bridge"
+type: bridge
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-cognitive-stack, cognitive]
 status: "index"
 provenance: "SOURCE_CLAIM"
 confidence: "VERIFIED"
 ---
+
 
 # amos-cognitive-stack
 

@@ -6,6 +6,7 @@ epistemic: DERIVED/MODEL
 tags: [quantum, fractal, math, rg, bridge-b1, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — RG ↔ Fractal Bridge (B1) Deep Layer
 
 ## Gap found

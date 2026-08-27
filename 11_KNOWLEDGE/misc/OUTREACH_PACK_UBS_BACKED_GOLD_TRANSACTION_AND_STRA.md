@@ -1,9 +1,11 @@
 ---
 title: OUTREACH PACK UBS BACKED GOLD TRANSACTION AND STRA
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

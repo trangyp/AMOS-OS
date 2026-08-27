@@ -1,7 +1,9 @@
 ---
 title: MEMORY README
-tags: ['amos_os', '10_memory']
+type: memory
+tags: [amos_os, 10_memory]
 ---
+
 
 
 # MEMORY README

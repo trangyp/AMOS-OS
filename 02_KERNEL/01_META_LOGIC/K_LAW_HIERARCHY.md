@@ -1,5 +1,6 @@
 ---
 title: K LAW HIERARCHY
+type: law
 artifact_id: AMOS-OS-K-LAW-HIERARCHY
 canonical_name: K_LAW_HIERARCHY
 artifact_type: kernel_governance_contract
@@ -18,8 +19,7 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - canon/model
   - kernel
@@ -47,6 +47,8 @@ aliases:
   - K Law Hierarchy
   - K_LAW_HIERARCHY
 ---
+
+
 
 
 # K_LAW_HIERARCHY

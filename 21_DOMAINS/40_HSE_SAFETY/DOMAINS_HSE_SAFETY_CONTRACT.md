@@ -1,7 +1,9 @@
 ---
 title: DOMAINS HSE SAFETY CONTRACT
-tags: ['amos_os', '21_domains']
+type: safety
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS HSE SAFETY CONTRACT

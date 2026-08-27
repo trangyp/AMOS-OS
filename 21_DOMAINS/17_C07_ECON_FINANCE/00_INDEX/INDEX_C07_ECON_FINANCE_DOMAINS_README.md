@@ -1,7 +1,9 @@
 ---
 title: INDEX C07 ECON FINANCE DOMAINS README
-tags: ['amos_os', '21_domains']
+type: index
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # INDEX C07 ECON FINANCE DOMAINS README

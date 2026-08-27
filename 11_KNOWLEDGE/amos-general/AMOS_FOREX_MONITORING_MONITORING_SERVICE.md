@@ -1,10 +1,12 @@
 ---
 title: AMOS FOREX MONITORING MONITORING SERVICE
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: note
 source: 11_KNOWLEDGE/amos-general
 ---
 
+
+# AMOS FOREX MONITORING MONITORING SERVICE
 
 // monitoring/monitoring_service.js
 // Simple monitoring service – logs events and provides a health endpoint.

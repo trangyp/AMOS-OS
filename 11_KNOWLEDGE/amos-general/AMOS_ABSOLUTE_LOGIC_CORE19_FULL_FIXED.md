@@ -1,5 +1,6 @@
 ---
 title: AMOS ABSOLUTE LOGIC CORE19 FULL FIXED
+type: logic
 name: amos-absolute-logic-core19-full
 version: 2.1.0
 updated: 2026-08-25
@@ -14,8 +15,10 @@ description: >-
   deterministic normalization and contradiction handling, with later AMOS_CORE
   RSCF/H-M-L, provenance, transactional, causal-epoch, and v4.4 coordination-
   avoidance governance kept as distinct runtime layers.
-tags: [amos-general]
+tags: [amos-general, amos, general]
 ---
+
+
 
 
 # AMOS Absolute Logic / Core-19

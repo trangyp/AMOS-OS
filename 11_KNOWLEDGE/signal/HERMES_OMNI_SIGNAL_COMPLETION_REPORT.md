@@ -1,9 +1,11 @@
 ---
 title: HERMES OMNI SIGNAL COMPLETION REPORT
-tags: [signal]
+tags: [signal, processing, detection]
 type: document
 source: 11_KNOWLEDGE/signal
 ---
+
+
 
 
 # HERMES OMNI-SIGNAL INTELLIGENCE AGENT - COMPLETION REPORT

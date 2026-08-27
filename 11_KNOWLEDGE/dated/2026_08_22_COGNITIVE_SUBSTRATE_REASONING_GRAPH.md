@@ -1,5 +1,6 @@
 ---
 title: 2026 08 22 COGNITIVE SUBSTRATE REASONING GRAPH
+type: cognitive
 origin_architect: Trang Phan
 provenance: cosmo-brain/AMOS_COGNITIVE_SUBSTRATE_REASONING_GRAPH.py
 confidence: 0.9
@@ -8,6 +9,7 @@ conclusion_label: "VERIFIED"
 tags: [canon-group/tech-ai, cosmo-brain, cognitive-substrate, reasoning-execution-graph, earliest-failure-attribution, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-cognitive-substrate-reasoning-graph, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 
 # Cognitive Substrate Reasoning Execution Graph

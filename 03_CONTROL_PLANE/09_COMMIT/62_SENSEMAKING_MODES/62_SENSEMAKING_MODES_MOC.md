@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 62-sensemaking-modes]
 ---
 
+
 # 62_SENSEMAKING_MODES — Map of Content
 
 ## Files

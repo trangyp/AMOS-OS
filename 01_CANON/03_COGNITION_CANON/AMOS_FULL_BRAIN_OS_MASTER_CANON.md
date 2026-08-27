@@ -1,5 +1,6 @@
 ---
 title: "AMOS Full Brain OS Master Canon"
+type: canon
 artifact: "AMOS_FULL_BRAIN_OS_MASTER_CANON.md"
 artifact_id: "amos_01_canon_03_cognition_canon_amos_full_brain_os_master_canon"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/03_COGNITION_CANON"
 artifact_kind: "CANON"
 path: "01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_MASTER_CANON.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - canon
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # AMOS Full Brain OS Master Canon
 

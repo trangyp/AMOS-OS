@@ -1,7 +1,9 @@
 ---
 title: O07 INFERENCE MAP
-tags: ['cognitive_matrix', 'o07_inference']
+type: map
+tags: [cognitive_matrix, o07_inference]
 ---
+
 
 
 # O07 INFERENCE MAP

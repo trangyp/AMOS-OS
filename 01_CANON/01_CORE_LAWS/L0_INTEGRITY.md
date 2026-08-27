@@ -4,6 +4,7 @@ type: note
 tags: [note, 01-core-laws]
 ---
 
+
 ````markdown
 ---
 title: "AMOS Core Laws — L0 Integrity Laws"

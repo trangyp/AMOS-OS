@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE MAP
-tags: ['control_plane', 'index', 'map']
+type: map
+tags: [control_plane, index, map]
 ---
+
 
 
 Yes. Paste the following over the incorrect placeholder.

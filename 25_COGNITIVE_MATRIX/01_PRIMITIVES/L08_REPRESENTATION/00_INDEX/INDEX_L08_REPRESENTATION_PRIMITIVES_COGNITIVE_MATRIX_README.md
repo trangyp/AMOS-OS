@@ -1,7 +1,9 @@
 ---
 title: INDEX L08 REPRESENTATION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l08_representation']
+type: index
+tags: [cognitive_matrix, l08_representation]
 ---
+
 
 
 # INDEX L08 REPRESENTATION PRIMITIVES COGNITIVE MATRIX README

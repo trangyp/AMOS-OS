@@ -4,6 +4,7 @@ type: note
 tags: [note, m-mid-scale]
 ---
 
+
 # M — Gap Matrix
 
 **Package:** `M_MID_SCALE`  

@@ -1,5 +1,6 @@
 ---
 title: AMOS LABOR AND TALENT PACK V0 AU4
+type: note
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-labor-and-talent-pack-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-labor-and-talent-pack-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 # AMOS Labor And Talent Pack v0 Au4

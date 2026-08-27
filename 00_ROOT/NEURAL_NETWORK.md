@@ -1,4 +1,5 @@
 ---
+type: neural
 artifact_id: AMOS-OS-NEURAL-NETWORK
 name: AMOS_OS_NEURAL_NETWORK
 title: "AMOS Neural Network — Vault Graph Hub and Cross-Plane Connectivity Map"
@@ -29,8 +30,7 @@ scope:
   - neural_network_map
   - knowledge_topology
 
-tags:
-  - amos
+tags: [amos, amos_os, root]
   - amos-os
   - neural-network
   - vault-network
@@ -100,6 +100,8 @@ related:
   - "00_ROOT_NAMING_STANDARD|Naming Standard"
   - "PLACEMENT_RULES|AMOS OS"
 ---
+
+
 
 # AMOS Neural Network
 

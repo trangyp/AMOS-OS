@@ -4,6 +4,7 @@ type: note
 tags: [note, 06-cell-contracts]
 ---
 
+
 # CELL_EVIDENCE — Definition
 
 **Package:** `CELL_EVIDENCE_`  

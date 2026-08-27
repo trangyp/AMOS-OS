@@ -1,5 +1,6 @@
 ---
 title: "Canon Authority Chain"
+type: canon
 artifact: "CANON_AUTHORITY_CHAIN.md"
 artifact_id: "amos_03_control_plane_04_authority_canon_authority_chain"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "03_CONTROL_PLANE/04_AUTHORITY"
 artifact_kind: "CANON"
 path: "03_CONTROL_PLANE/04_AUTHORITY/CANON_AUTHORITY_CHAIN.md"
 
-tags:
-  - amos_os
+tags: [amos_os, control_plane, governance]
   - 03_control_plane
   - canon
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Canon Authority Chain
 

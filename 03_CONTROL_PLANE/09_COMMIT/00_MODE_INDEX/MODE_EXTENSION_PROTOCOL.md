@@ -1,4 +1,5 @@
 ---
+type: protocol
 artifact_id: AMOS-OS-MODE-MODE_EXTENSION_PROTOCOL
 title: AMOS OS Mode Extension Protocol
 canonical_name: MODE_EXTENSION_PROTOCOL
@@ -34,9 +35,10 @@ empirical_validation_status: NOT_CLAIMED
 
 promotion_required: true
 updated: 2026-08-26
-tags: ['control_plane', 'commit', 'mode_index', 'note']
+tags: [control_plane, commit, mode_index, note]
 
 ---
+
 # AMOS OS — Mode Extension Protocol
 
 > **Status:** `CANDIDATE_CANON`

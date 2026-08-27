@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX C01 GOVERNANCE CONTRACT
-tags: ['cognitive_matrix', 'control_planes', 'c01_governance', 'contract']
+type: cognitive
+tags: [cognitive_matrix, control_planes, c01_governance, contract]
 ---
+
 
 
 # C01_GOVERNANCE — Top governance control: law stack, authority envelopes, gate composition over the whole matrix.

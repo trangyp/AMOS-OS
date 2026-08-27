@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE ORGANISM README
-tags: ['amos_os', '05_cognitive_organism']
+type: cognitive
+tags: [amos_os, 05_cognitive_organism]
 ---
+
 
 
 # COGNITIVE ORGANISM README

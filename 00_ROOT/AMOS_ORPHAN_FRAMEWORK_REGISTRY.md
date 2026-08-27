@@ -1,5 +1,6 @@
 ---
 title: "AMOS Orphan Framework Registry"
+type: framework
 artifact: "AMOS_ORPHAN_FRAMEWORK_REGISTRY.md"
 artifact_id: "amos_00_root_amos_orphan_framework_registry"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "00_ROOT"
 artifact_kind: "REGISTRY"
 path: "00_ROOT/AMOS_ORPHAN_FRAMEWORK_REGISTRY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, root, index]
   - 00_root
   - registry
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # AMOS Orphan Framework Registry
 

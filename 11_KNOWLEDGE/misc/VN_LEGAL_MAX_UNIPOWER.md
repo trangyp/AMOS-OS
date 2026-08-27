@@ -1,5 +1,6 @@
 ---
 title: VN LEGAL MAX UNIPOWER
+type: legal
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: vn-legal-max
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/vn-legal-max, misc]
 created: 2026-08-22
 ---
+
 
 
 ```json

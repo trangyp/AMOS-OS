@@ -1,7 +1,9 @@
 ---
 title: RESEARCH RESEARCH MAP
-tags: ['amos_os', '22_research']
+type: map
+tags: [amos_os, 22_research]
 ---
+
 
 
 # RESEARCH RESEARCH MAP

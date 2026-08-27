@@ -1,7 +1,9 @@
 ---
 title: DEPENDENCY GRAPH COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'dependency_graph', 'readme', 'contract_filled']
+type: dependency
+tags: [cognitive_matrix, dependency_graph, readme, contract_filled]
 ---
+
 
 
 # 09_DEPENDENCY_GRAPH — Dependency Graph Contract Overview

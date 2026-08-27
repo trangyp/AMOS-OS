@@ -1,9 +1,11 @@
 ---
 title: AI ARCHITECTURE FACTORY V2
-tags: [architecture]
+tags: [architecture, design, structure]
 type: document
 source: 11_KNOWLEDGE/architecture
 ---
+
+
 
 
 # ai_architecture_factory_v2

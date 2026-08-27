@@ -4,6 +4,7 @@ type: note
 tags: [note, l06-working-state]
 ---
 
+
 # L06 — H/M/L Applicability
 
 **Package:** `L06_WORKING_STATE`  

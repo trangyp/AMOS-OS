@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 60-collaboration-consensus-modes]
 ---
 
+
 # 60_COLLABORATION_CONSENSUS_MODES — Map of Content
 
 ## Files

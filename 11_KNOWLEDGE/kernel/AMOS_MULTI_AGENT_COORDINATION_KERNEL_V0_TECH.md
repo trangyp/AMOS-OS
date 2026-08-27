@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/kernel
 
 
 
+
 ```json
 {
   "kernel_id": "AMOS_Multi_Agent_Coordination_Kernel_v0",

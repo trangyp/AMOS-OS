@@ -1,7 +1,9 @@
 ---
 title: README
+type: note
 tags: [skill_reference, index]
 ---
+
 
 
 # References — amos-7-part-universe-canon

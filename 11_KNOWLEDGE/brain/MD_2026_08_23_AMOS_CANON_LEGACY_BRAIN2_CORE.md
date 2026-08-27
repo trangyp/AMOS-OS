@@ -1,5 +1,6 @@
 ---
 title: MD 2026 08 23 AMOS CANON LEGACY BRAIN2 CORE
+type: canon
 origin_architect: Trang Phan
 provenance: direct file inspection of flattened _LEGACY BRAIN2/Core files at _00_Cosmo brain root on 2026-08-23. Original path: AMOS-Consulting/AMOS-SYSTEM-main/_00_AMOS_CANON:/_LEGACY BRAIN2/Core (now empty — files moved to vault root during flatten)
 confidence: 0.95
@@ -7,6 +8,7 @@ epistemic_class: OBSERVATION
 conclusion_class: VERIFIED
 tags: [legacy-brain2, core, amos-canon, 7-intelligents, canonical-laws, mind, ubi, web, cognition-engine, emotion-engine, consciousness-engine, personality-trang, ip-shield, brain]
 ---
+
 
 
 # AMOS Canon — _LEGACY BRAIN2/Core

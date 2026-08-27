@@ -1,7 +1,9 @@
 ---
 title: DOMAINS C06 SOCIETY CULTURE CONTRACT
-tags: ['amos_os', '21_domains']
+type: note
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS C06 SOCIETY CULTURE CONTRACT

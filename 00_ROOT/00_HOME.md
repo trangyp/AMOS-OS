@@ -1,9 +1,11 @@
 ---
 title: 00 HOME
+type: note
 canon-group: reference
 rscf-state: derived
 tags: [moc, index, home]
 ---
+
 
 
 # 00-Home

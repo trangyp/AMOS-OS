@@ -1,7 +1,9 @@
 ---
 title: AUTHORITY LOG
-tags: ['control_plane', 'authority', 'note']
+type: authority
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Authority Log

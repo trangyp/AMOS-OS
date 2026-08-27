@@ -1,7 +1,9 @@
 ---
 title: INTERFACE MAP
-tags: ['amos_os', '15_interfaces']
+type: map
+tags: [amos_os, 15_interfaces]
 ---
+
 
 
 # INTERFACE MAP

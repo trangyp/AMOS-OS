@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/amos-general
 
 
 
+
 # AMOS Agent Specifications
 
 Specification for agents derived from AMOS_AGENT_REGISTRY.json and the brain's orchestration architecture (md/Core/AMOS_Os_Agent_v0.md).

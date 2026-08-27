@@ -1,7 +1,9 @@
 ---
 title: L07 MEMORY MAP
-tags: ['cognitive_matrix', 'l07_memory']
+type: map
+tags: [cognitive_matrix, l07_memory]
 ---
+
 
 
 # L07 MEMORY MAP

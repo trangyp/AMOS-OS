@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX O08 PREDICTION CONTRACT
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o08_prediction', 'contract']
+type: cognitive
+tags: [cognitive_matrix, lifecycle_operations, o08_prediction, contract]
 ---
+
 
 
 # O08_PREDICTION — O08 Prediction

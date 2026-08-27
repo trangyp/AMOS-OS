@@ -1,7 +1,9 @@
 ---
 title: OPPORTUNITY DISCOVERY MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '68_opportunity_discovery_modes']
+type: control-plane
+tags: [control_plane, 68_opportunity_discovery_modes]
 ---
+
 
 
 # OPPORTUNITY DISCOVERY MODES COMMIT CONTROL PLANE README

@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/misc
 ---
 
-
+# PUBLIC MESSAGING MAKING CONSENT INFRASTRUCTURE RELATABLE
 
 Making Planetary Consent Infrastructure Relatable
 

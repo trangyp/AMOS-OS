@@ -4,6 +4,7 @@ type: note
 tags: [note, o03-binding]
 ---
 
+
 # O03 — Gap Matrix
 
 **Package:** `O03_BINDING`  

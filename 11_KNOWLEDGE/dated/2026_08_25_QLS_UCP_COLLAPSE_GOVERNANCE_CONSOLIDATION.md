@@ -6,6 +6,7 @@ epistemic: SOURCE/DERIVED
 tags: [quantum, qls, ucp, collapse, governance, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — QLS–UCP Collapse Governance Layer
 
 ## Gap found

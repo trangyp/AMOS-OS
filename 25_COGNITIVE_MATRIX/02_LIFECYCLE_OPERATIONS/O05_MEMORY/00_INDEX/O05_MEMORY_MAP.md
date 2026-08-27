@@ -1,7 +1,9 @@
 ---
 title: O05 MEMORY MAP
-tags: ['cognitive_matrix', 'o05_memory']
+type: map
+tags: [cognitive_matrix, o05_memory]
 ---
+
 
 
 # O05 MEMORY MAP

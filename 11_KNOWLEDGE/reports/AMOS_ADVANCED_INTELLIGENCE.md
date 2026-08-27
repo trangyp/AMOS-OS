@@ -1,9 +1,11 @@
 ---
 title: AMOS ADVANCED INTELLIGENCE
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS OMEGA ADVANCED INTELLIGENCE SYSTEM - STATE OF THE ART IMPLEMENTATION

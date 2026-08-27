@@ -1,7 +1,9 @@
 ---
 title: P1 REALITY ENVIRONMENT
-tags: ['canon', 'universe_canon', 'note']
+type: note
+tags: [canon, universe_canon, note]
 ---
+
 
 
 # P1 — Reality & Environment Plane

@@ -1,8 +1,10 @@
 ---
 title: MECHANICAL STRUCTURAL MODEL
+type: model
 aliases: [Mechanical & Structural Engine, AMOS_Mechanical_Structural]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/mechanical-structural-model, models]
 ---
+
 
 
 # AMOS Mechanical & Structural Engine

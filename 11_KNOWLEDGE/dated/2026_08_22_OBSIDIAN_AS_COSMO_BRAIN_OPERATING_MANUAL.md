@@ -1,5 +1,6 @@
 ---
 title: 2026 08 22 OBSIDIAN AS COSMO BRAIN OPERATING MANUAL
+type: manual
 origin_architect: Trang Phan
 provenance: amos-obsidian-vault-config skill + cosmo-obsidian-memory skill + AMOS_OBSIDIAN_MEMORY_BRIDGE.py implementation
 confidence: 0.95
@@ -8,6 +9,7 @@ conclusion_label: VERIFIED_PRESENT
 tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-obsidian-as-cosmo-brain-opera, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 
 # Obsidian as Cosmo Brain — Operating Manual

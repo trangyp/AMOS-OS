@@ -1,9 +1,11 @@
 ---
 title: THE TRANG SYSTEM CODEX META LAWS
-tags: [trang]
+tags: [trang, framework, reality]
 type: document
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

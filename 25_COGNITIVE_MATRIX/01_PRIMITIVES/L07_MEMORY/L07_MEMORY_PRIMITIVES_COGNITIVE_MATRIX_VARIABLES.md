@@ -4,6 +4,7 @@ type: note
 tags: [note, l07-memory]
 ---
 
+
 # L07 — Variables
 
 **Package:** `L07_MEMORY`  

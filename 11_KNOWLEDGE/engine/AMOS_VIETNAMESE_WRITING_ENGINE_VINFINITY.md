@@ -1,11 +1,13 @@
 ---
 title: "AMOS Vietnamese Writing Engine vInfinity"
+type: engine
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Logic/AMOS_Vietnamese_Writing_Engine_v0.json (177KB, 8 major phases + TRANG_VN_PRO + AMOS_VN_EXEC_WRITING_REASONING_ENGINE)"
 origin_type: "SOURCE"
 category: "kernel"
 tags: [amos, vietnamese, writing, engine, v-infinity, executive, government, legal, business, mckinsey, logic, reasoning]
 ---
+
 
 # AMOS Vietnamese Writing Engine vInfinity
 

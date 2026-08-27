@@ -1,7 +1,9 @@
 ---
 title: INDEX OBSERVABILITY OBSERVABILITY CONTRACT
-tags: ['amos_os', '17_observability']
+type: index
+tags: [amos_os, 17_observability]
 ---
+
 
 
 # INDEX OBSERVABILITY OBSERVABILITY CONTRACT

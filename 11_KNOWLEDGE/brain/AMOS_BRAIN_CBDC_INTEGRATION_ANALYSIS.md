@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN CBDC INTEGRATION ANALYSIS
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: data
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 

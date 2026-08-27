@@ -4,6 +4,7 @@ type: moc
 tags: [moc, logic]
 ---
 
+
 # Logic — Map of Content
 
 - [[LOGIC_FIRST_STACK]]

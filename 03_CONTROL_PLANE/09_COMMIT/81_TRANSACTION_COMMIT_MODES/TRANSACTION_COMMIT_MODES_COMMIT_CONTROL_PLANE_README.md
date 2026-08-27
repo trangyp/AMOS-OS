@@ -1,7 +1,9 @@
 ---
 title: TRANSACTION COMMIT MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '81_transaction_commit_modes']
+type: control-plane
+tags: [control_plane, 81_transaction_commit_modes]
 ---
+
 
 
 # TRANSACTION COMMIT MODES COMMIT CONTROL PLANE README

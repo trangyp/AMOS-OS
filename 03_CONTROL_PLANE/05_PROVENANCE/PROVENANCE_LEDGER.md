@@ -1,7 +1,9 @@
 ---
 title: PROVENANCE LEDGER
-tags: ['control_plane', 'provenance_ledger.md']
+type: provenance
+tags: [control_plane, provenance_ledger.md]
 ---
+
 
 
 # PROVENANCE LEDGER

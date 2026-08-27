@@ -1,7 +1,9 @@
 ---
 title: DOMAINS C10 TECH ENGINEERING CONTRACT
-tags: ['amos_os', '21_domains']
+type: engine
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS C10 TECH ENGINEERING CONTRACT

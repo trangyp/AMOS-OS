@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O07 INFERENCE CONTRACT
-tags: ['cognitive_matrix', 'o07_inference']
+type: lifecycle
+tags: [cognitive_matrix, o07_inference]
 ---
+
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O07 INFERENCE CONTRACT

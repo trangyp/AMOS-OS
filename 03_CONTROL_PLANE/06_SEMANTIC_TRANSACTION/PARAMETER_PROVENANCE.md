@@ -1,7 +1,9 @@
 ---
 title: PARAMETER PROVENANCE
-tags: ['control_plane', 'parameter_provenance.md']
+type: provenance
+tags: [control_plane, parameter_provenance.md]
 ---
+
 
 
 # PARAMETER PROVENANCE

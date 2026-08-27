@@ -1,5 +1,6 @@
 ---
 title: "Identity Continuity Model"
+type: identity
 artifact: "IDENTITY_CONTINUITY_MODEL.md"
 artifact_id: "amos_05_cognitive_organism_01_identity_identity_continuity_model"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/01_IDENTITY"
 artifact_kind: "MODEL"
 path: "05_COGNITIVE_ORGANISM/01_IDENTITY/IDENTITY_CONTINUITY_MODEL.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive, organism]
   - 05_cognitive_organism
   - model
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Identity Continuity Model
 

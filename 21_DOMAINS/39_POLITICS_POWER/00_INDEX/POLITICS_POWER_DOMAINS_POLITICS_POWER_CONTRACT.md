@@ -1,7 +1,9 @@
 ---
 title: POLITICS POWER DOMAINS POLITICS POWER CONTRACT
-tags: ['amos_os', '21_domains']
+type: note
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # POLITICS POWER DOMAINS POLITICS POWER CONTRACT

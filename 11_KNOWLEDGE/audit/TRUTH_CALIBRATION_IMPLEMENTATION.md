@@ -1,9 +1,11 @@
 ---
 title: TRUTH CALIBRATION IMPLEMENTATION
-tags: [audit]
+tags: [audit, repair, quality]
 type: document
 source: 11_KNOWLEDGE/audit
 ---
+
+
 
 
 # AMOS OMEGA TRUTH + EVIDENCE + CALIBRATION ENGINE - IMPLEMENTATION COMPLETE

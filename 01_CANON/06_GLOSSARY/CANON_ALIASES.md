@@ -1,5 +1,6 @@
 ---
 title: CANON ALIASES
+type: canon
 artifact_id: AMOS-OS-ALIASES
 canonical_name: ALIASES
 artifact_type: canonical_registry
@@ -15,8 +16,7 @@ authority_scope: identity-resolution
 version: 1.0.0
 created: 2026-08-25
 updated: 2026-08-25
-tags:
-  - amos-os
+tags: [amos-os, canon, universe]
   - canon-group/meta
   - canon/registry
   - canon/identity
@@ -33,6 +33,8 @@ aliases:
   - Canonical Alias Registry
   - Alias Resolution Registry
 ---
+
+
 
 
 # AMOS OS Alias Registry

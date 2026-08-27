@@ -1,9 +1,11 @@
 ---
 title: AMOS CRYPTO TENSOR ANALYSIS
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS OMEGA CRYPTO ADVANCED TENSOR ANALYSIS - COMPLETE

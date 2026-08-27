@@ -1,7 +1,9 @@
 ---
 title: INDEX ESCALATION OPERATING MODEL README
-tags: ['amos_os', '23_operating_model']
+type: index
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # INDEX ESCALATION OPERATING MODEL README

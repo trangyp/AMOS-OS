@@ -1,5 +1,6 @@
 ---
 title: "AMOS × Heritage Matrix"
+type: heritage
 artifact: "AMOS_X_HERITAGE_MATRIX.md"
 artifact_id: "amos_25_cognitive_matrix_amos_x_heritage_matrix"
 
@@ -12,8 +13,7 @@ segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "MATRIX"
 path: "25_COGNITIVE_MATRIX/AMOS_X_HERITAGE_MATRIX.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive_matrix, matrix]
   - 25_cognitive_matrix
   - cognitive_matrix
   - heritage
@@ -52,6 +52,8 @@ raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 rscf_state: "source_grounded_model"
 claim_class: "AMOS_MODEL"
 ---
+
+
 
 # AMOS × Heritage Matrix
 

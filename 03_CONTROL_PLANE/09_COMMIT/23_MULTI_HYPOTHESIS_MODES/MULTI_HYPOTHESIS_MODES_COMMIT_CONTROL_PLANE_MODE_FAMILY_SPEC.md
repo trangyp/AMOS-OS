@@ -1,7 +1,9 @@
 ---
 title: MULTI HYPOTHESIS MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '23_multi_hypothesis_modes']
+type: control-plane
+tags: [control_plane, 23_multi_hypothesis_modes]
 ---
+
 
 
 # MULTI HYPOTHESIS MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

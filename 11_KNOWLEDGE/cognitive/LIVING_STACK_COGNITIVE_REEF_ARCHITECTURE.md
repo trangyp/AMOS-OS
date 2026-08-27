@@ -3,12 +3,13 @@ title: "The Living Stack — Cognitive Reef Architecture (Troy Project)"
 created: "2026-08-22"
 origin: "Google Drive — new troy/Troy/Living_Stack.pdf + Living_State_Monetisation.pdf + The_System.pdf"
 origin_architect: "Trang Phan"
-type: "research-paper"
+type: research-paper
 tags: [troy, living-stack, cognitive-reef, signal-driven, role-adaptive, RATPAK, NEUROPAK, HoloOrg, MyNeuralSignal, FAR-CAGE, ConsentX, intent-continuity, drift-detection, state-monetisation, cognitive]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # The Living Stack — A Cognitive Reef Architecture
 

@@ -1,7 +1,9 @@
 ---
 title: INDEX OPERATING MODEL OPERATING MODEL CONTRACT
-tags: ['amos_os', '23_operating_model']
+type: index
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # INDEX OPERATING MODEL OPERATING MODEL CONTRACT

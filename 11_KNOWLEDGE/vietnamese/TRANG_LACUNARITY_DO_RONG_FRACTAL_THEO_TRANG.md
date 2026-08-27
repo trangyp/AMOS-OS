@@ -1,9 +1,11 @@
 ---
 title: TRANG LACUNARITY DO RONG FRACTAL THEO TRANG
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

@@ -1,7 +1,9 @@
 ---
 title: SEMANTIC TRANSACTION
-tags: ['control_plane', 'semantic_transaction.md']
+type: action
+tags: [control_plane, semantic_transaction.md]
 ---
+
 
 
 # SEMANTIC TRANSACTION

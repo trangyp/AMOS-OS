@@ -3,12 +3,13 @@ title: "Enhanced Master Relationship Pack — T4H Legal & Commercial Framework"
 created: "2026-08-22"
 origin: "Google Drive — new troy/Enhanced Master Relationship Pack.pdf + How The Floating Economy.pdf"
 origin_architect: "Tech 4 Humanity Pty Ltd (Troy Latter, CEO)"
-type: "legal-template"
+type: legal-template
 tags: [t4h, master-relationship-pack, NDA, MOU, commercial-engagement, Australian-law, Holo-Org, NEUROPAK, AHC, BCI-data, AI-generated-IP, strategic-IP, performance-metrics, floating-economy, misc]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # Enhanced Master Relationship Pack
 

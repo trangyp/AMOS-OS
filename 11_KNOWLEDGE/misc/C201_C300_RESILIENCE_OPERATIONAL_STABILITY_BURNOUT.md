@@ -3,13 +3,14 @@ title: "C201–C300: Resilience, Operational Stability, Burnout (System Dynamics
 created: "2026-08-22"
 origin: "AMOS brain knowledge ingest"
 origin_architect: "AMOS"
-type: "invariant-cluster"
+type: invariant-cluster
 status: "active"
 provenance: "OBSERVATION"
 confidence: "VERIFIED"
 source: "Ingest batch 2026-08-22"
 tags: [canon-group/tech-ai, canon/metric, rscf/claim, rscf/provenance, rscf/state/observation, topic/c201-c300-resilience-operational-stabili, misc]
 ---
+
 
 # C201–C300: Resilience, Operational Stability, Burnout
 

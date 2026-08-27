@@ -1,7 +1,9 @@
 ---
 title: DOMAINS UBI NBI NEUROBIOLOGICAL CONTRACT
-tags: ['amos_os', '21_domains']
+type: biology
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS UBI NBI NEUROBIOLOGICAL CONTRACT

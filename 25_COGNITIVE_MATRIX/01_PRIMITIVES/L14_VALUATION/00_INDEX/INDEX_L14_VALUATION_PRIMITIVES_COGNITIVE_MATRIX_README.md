@@ -1,7 +1,9 @@
 ---
 title: INDEX L14 VALUATION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l14_valuation']
+type: index
+tags: [cognitive_matrix, l14_valuation]
 ---
+
 
 
 # INDEX L14 VALUATION PRIMITIVES COGNITIVE MATRIX README

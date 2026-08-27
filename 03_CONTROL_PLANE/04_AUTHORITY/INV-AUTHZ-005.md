@@ -1,7 +1,9 @@
 ---
 title: INV-AUTHZ-005
-tags: ['control_plane', 'inv-authz-005.md']
+type: invariant
+tags: [control_plane, inv-authz-005.md]
 ---
+
 
 
 # INV-AUTHZ-005

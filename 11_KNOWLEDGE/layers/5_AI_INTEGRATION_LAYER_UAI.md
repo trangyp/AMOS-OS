@@ -1,9 +1,11 @@
 ---
 title: 5 AI INTEGRATION LAYER UAI
-tags: [layers]
+tags: [layers, layer, architecture]
 type: document
 source: 11_KNOWLEDGE/layers
 ---
+
+
 
 
 # ============================================================

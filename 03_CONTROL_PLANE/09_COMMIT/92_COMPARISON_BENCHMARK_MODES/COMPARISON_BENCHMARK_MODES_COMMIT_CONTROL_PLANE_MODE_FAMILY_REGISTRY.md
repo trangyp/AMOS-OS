@@ -1,7 +1,9 @@
 ---
 title: COMPARISON BENCHMARK MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '92_comparison_benchmark_modes']
+type: control-plane
+tags: [control_plane, 92_comparison_benchmark_modes]
 ---
+
 
 
 # COMPARISON BENCHMARK MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN CRITICAL INTERVENTION
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 # amos_brain_critical_intervention

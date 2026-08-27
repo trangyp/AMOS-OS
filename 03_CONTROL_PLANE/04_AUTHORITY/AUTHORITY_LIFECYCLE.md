@@ -1,7 +1,9 @@
 ---
 title: AUTHORITY LIFECYCLE
-tags: ['control_plane', 'authority', 'note']
+type: authority
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Authority Lifecycle

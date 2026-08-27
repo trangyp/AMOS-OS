@@ -4,6 +4,7 @@ type: note
 tags: [note, l21-learning]
 ---
 
+
 # L21 — Memory Contract
 
 **Package:** `L21_LEARNING`  

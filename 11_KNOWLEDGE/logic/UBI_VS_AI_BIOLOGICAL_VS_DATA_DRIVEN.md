@@ -3,12 +3,13 @@ title: "UBI vs AI — Biological vs Data-Driven Intelligence"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Unified_Biological_Intelligence_Diagrams.pdf + The_Biological_Science_Behind_Buddhas_Teachings.pdf"
 origin_architect: "Trang Phan"
-type: "comparison-reference"
+type: comparison-reference
 tags: [ubi, ai-comparison, neurobiological, neuroemotional, somatic, bioelectromagnetic, deterministic-vs-probabilistic, fascia, nervous-system, loop-mechanics, Buddhist-biology, logic]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # UBI vs AI — Structural Comparison
 

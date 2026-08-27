@@ -1,6 +1,7 @@
 ---
 
 title: "UBI Omnis™ — AMOS Biological Forecasting & Resilience Intelligence Architecture"
+type: note
 aliases:
 
 * "UBI Omnis"
@@ -43,8 +44,10 @@ aliases:
 * rscf/E-entropy
 * rscf/P-repair
 * rscf/type-model
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 ---
+
+
 
 # UBI Omnis™
 

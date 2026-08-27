@@ -1,9 +1,11 @@
 ---
 title: WHY ENERGY JUSTICE CANNOT BE PRICED
-tags: [energy]
+tags: [energy, power, green]
 type: document
 source: 11_KNOWLEDGE/energy
 ---
+
+
 
 
 

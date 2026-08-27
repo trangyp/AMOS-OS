@@ -1,7 +1,9 @@
 ---
 title: COMPOSITE MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '14_composite_modes']
+type: control-plane
+tags: [control_plane, 14_composite_modes]
 ---
+
 
 
 # COMPOSITE MODES COMMIT CONTROL PLANE README

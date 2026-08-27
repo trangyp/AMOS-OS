@@ -8,6 +8,7 @@ tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, r
 ---
 
 
+
 # Manipulation Compression — Practical Cheat Sheet
 
 > **Deepest insight:** Humans are not primarily manipulated through beliefs. Humans are primarily manipulated through regulation states. Beliefs arrive afterward as explanations for decisions already biased by the gut–ANS–emotion–prediction system.

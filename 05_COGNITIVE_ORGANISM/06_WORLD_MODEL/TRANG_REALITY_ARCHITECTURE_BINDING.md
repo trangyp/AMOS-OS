@@ -1,5 +1,6 @@
 ---
 title: "TRANG Reality Architecture Binding"
+type: architecture
 artifact: "TRANG_REALITY_ARCHITECTURE_BINDING.md"
 artifact_id: "amos_05_cognitive_organism_06_world_model_trang_reality_architecture_binding"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/06_WORLD_MODEL"
 artifact_kind: "BINDING"
 path: "05_COGNITIVE_ORGANISM/06_WORLD_MODEL/TRANG_REALITY_ARCHITECTURE_BINDING.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive, organism]
   - 05_cognitive_organism
   - binding
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # TRANG Reality Architecture Binding
 

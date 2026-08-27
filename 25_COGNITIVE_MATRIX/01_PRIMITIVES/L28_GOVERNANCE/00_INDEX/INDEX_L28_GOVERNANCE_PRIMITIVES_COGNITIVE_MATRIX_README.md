@@ -1,7 +1,9 @@
 ---
 title: INDEX L28 GOVERNANCE PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l28_governance']
+type: index
+tags: [cognitive_matrix, l28_governance]
 ---
+
 
 
 # INDEX L28 GOVERNANCE PRIMITIVES COGNITIVE MATRIX README

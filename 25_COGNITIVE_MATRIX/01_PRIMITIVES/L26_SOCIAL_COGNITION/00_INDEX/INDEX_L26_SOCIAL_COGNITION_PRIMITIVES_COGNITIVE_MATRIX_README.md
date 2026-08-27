@@ -1,7 +1,9 @@
 ---
 title: INDEX L26 SOCIAL COGNITION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l26_social_cognition']
+type: index
+tags: [cognitive_matrix, l26_social_cognition]
 ---
+
 
 
 # INDEX L26 SOCIAL COGNITION PRIMITIVES COGNITIVE MATRIX README

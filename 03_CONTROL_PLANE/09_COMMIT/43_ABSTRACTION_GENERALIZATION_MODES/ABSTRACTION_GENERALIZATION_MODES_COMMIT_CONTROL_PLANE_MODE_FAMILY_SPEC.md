@@ -1,7 +1,9 @@
 ---
 title: ABSTRACTION GENERALIZATION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '43_abstraction_generalization_modes']
+type: control-plane
+tags: [control_plane, 43_abstraction_generalization_modes]
 ---
+
 
 
 # ABSTRACTION GENERALIZATION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

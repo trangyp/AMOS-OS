@@ -1,9 +1,11 @@
 ---
 title: AMOS VISUAL DESIGN INTELLIGENCE ENGINE
-tags: [models]
+tags: [models, model, specification]
 type: document
 source: 11_KNOWLEDGE/models
 ---
+
+
 
 
 # AMOS VISUAL DESIGN + UI/UX STRUCTURAL INTELLIGENCE ENGINE

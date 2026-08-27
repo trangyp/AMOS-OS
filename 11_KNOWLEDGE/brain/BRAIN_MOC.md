@@ -4,6 +4,7 @@ type: moc
 tags: [moc, brain]
 ---
 
+
 # Brain — Map of Content
 
 - [[AMOS_BRAIN_SELF_ENHANCEMENT]]

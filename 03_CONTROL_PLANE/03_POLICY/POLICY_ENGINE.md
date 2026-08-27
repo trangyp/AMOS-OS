@@ -1,7 +1,9 @@
 ---
 title: POLICY ENGINE
-tags: ['control_plane', 'policy', 'note']
+type: engine
+tags: [control_plane, policy, note]
 ---
+
 
 
 Yes. Below is a **full paste-ready `POLICY_ENGINE.md`**, designed to sit directly above the `POLICY_DECISION.md` contract and integrate with `POLICY_REGISTRY.md`, `CAPABILITY_MANIFEST.md`, `CAPABILITY_CONTRACT.md`, and `CONTROL_PLANE_MAP.md`.

@@ -1,5 +1,6 @@
 ---
 title: 2026 08 22 THE HUMAN SYSTEM BOOK KNOWLEDGE BASE
+type: human
 origin: external — "The Complete Human System" (book manuscript)
 provenance: direct ingestion of full text
 confidence: 0.95
@@ -11,6 +12,7 @@ source_title: "The Complete Human System — A Unified Fractal Theory of Mind, B
 source_type: book-manuscript
 source_url: local-ingestion
 ---
+
 
 
 # The Complete Human System — Book Knowledge Base

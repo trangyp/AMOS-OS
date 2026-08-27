@@ -1,7 +1,9 @@
 ---
 title: INV-AUTHZ-008
-tags: ['control_plane', 'inv-authz-008.md']
+type: invariant
+tags: [control_plane, inv-authz-008.md]
 ---
+
 
 
 # INV-AUTHZ-008

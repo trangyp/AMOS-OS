@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 12-c02-math-compute]
 ---
 
+
 # 12_C02_MATH_COMPUTE — Map of Content
 
 ## Files

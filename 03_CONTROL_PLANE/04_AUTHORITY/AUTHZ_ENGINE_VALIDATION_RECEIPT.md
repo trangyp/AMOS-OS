@@ -1,4 +1,5 @@
 ---
+type: authority
 artifact_id: AMOS-CP-04-AUTHZ-ENGINE-RECEIPT
 title: "AUTHZ Invariant Engine — Execution Receipt"
 artifact_class: VALIDATION_EVIDENCE
@@ -9,6 +10,7 @@ epistemic_class: DERIVED
 conclusion_class: PARTIAL
 tags: [note, 04-authority]
 ---
+
 
 # AUTHZ Invariant Engine — Execution Receipt
 

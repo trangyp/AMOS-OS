@@ -1,7 +1,9 @@
 ---
 title: 100 HANDOFF CONTINUITY MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '100_handoff_continuity_modes']
+type: control-plane
+tags: [control_plane, 100_handoff_continuity_modes]
 ---
+
 
 
 # 100 HANDOFF CONTINUITY MODES COMMIT CONTROL PLANE README

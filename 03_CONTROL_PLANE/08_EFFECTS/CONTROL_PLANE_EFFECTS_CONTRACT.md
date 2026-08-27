@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE EFFECTS CONTRACT
-tags: ['control_plane', 'control_plane_effects_contract.md']
+type: control-plane
+tags: [control_plane, control_plane_effects_contract.md]
 ---
+
 
 
 # CONTROL PLANE EFFECTS CONTRACT

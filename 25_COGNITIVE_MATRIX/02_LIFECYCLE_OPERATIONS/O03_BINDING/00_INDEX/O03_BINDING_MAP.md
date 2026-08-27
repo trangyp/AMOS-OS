@@ -1,7 +1,9 @@
 ---
 title: O03 BINDING MAP
-tags: ['cognitive_matrix', 'o03_binding']
+type: map
+tags: [cognitive_matrix, o03_binding]
 ---
+
 
 
 # O03 BINDING MAP

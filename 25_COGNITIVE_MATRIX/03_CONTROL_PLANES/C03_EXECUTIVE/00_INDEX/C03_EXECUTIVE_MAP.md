@@ -1,7 +1,9 @@
 ---
 title: C03 EXECUTIVE MAP
-tags: ['cognitive_matrix', 'c03_executive']
+type: map
+tags: [cognitive_matrix, c03_executive]
 ---
+
 
 
 # C03 EXECUTIVE MAP

@@ -1,8 +1,10 @@
 ---
 title: AUTOMATION ENGINE MODEL
+type: model
 aliases: [Automation Engine, AMOS_Automation, Unified Automation OS]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/automation-engine-model, engine]
 ---
+
 
 
 # AMOS Automation Engine

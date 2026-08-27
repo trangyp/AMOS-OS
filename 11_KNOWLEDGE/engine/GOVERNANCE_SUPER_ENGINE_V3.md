@@ -1,5 +1,6 @@
 ---
 title: GOVERNANCE SUPER ENGINE V3
+type: engine
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: governance-super-engine-v3
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/governance-super-engine-v3, engine]
 created: 2026-08-22
 ---
+
 
 
 ```json

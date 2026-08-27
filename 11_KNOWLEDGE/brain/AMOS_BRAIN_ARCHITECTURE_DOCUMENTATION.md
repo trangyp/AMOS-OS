@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN ARCHITECTURE DOCUMENTATION
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 # AMOS Brain Final Architecture Documentation

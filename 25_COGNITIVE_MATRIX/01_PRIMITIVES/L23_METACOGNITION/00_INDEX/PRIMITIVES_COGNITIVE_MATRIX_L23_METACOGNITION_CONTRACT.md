@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L23 METACOGNITION CONTRACT
-tags: ['cognitive_matrix', 'l23_metacognition']
+type: cognitive
+tags: [cognitive_matrix, l23_metacognition]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L23 METACOGNITION CONTRACT

@@ -1,9 +1,11 @@
 ---
 title: SKILL FRACTAL STATE
-tags: [fractal]
+tags: [fractal, math, self-similarity]
 type: document
 source: 11_KNOWLEDGE/fractal
 ---
+
+
 
 
 # Fractal State Skill

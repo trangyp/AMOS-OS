@@ -1,9 +1,11 @@
 ---
 title: TRANG ASEA ADAPTIVE SELF EVOLUTION AI
-tags: [trang]
+tags: [trang, framework, reality]
 type: document
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

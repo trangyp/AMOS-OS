@@ -1,9 +1,11 @@
 ---
 title: TRANG FRAMEWORK L M H LAMBDA E T2 AP DUNG CH
-tags: [trang]
+tags: [trang, framework, reality]
 type: document
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

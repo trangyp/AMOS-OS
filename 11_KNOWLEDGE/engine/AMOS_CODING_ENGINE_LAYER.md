@@ -2,12 +2,13 @@
 title: "amos-coding-engine-layer"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "bridge"
+type: bridge
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-coding-engine-layer, engine]
 status: "index"
 provenance: "SOURCE_CLAIM"
 confidence: "VERIFIED"
 ---
+
 
 # amos-coding-engine-layer
 

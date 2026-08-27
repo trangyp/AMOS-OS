@@ -1,7 +1,9 @@
 ---
 title: K RSCF
-tags: ['amos_os', '02_kernel']
+type: rscf
+tags: [amos_os, 02_kernel]
 ---
+
 
 
 # K RSCF

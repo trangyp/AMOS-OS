@@ -1,5 +1,6 @@
 ---
 title: 2026 08 22 AMOS GO BOARD 19X19 RUNTIME METHODS
+type: runtime
 origin_architect: Trang Phan
 provenance: cosmo-brain/AMOS_GO_BOARD_19X19.py diff; 75-section formal spec sections 10-72
 confidence: 0.95
@@ -8,6 +9,7 @@ conclusion_label: VERIFIED_PRESENT
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-amos-go-board-19x19-runtime-m, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 
 # AMOS 19×19 Go Board — Runtime Methods (62+ Sections)

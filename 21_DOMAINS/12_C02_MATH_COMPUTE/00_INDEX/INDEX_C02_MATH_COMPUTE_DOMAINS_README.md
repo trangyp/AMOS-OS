@@ -1,7 +1,9 @@
 ---
 title: INDEX C02 MATH COMPUTE DOMAINS README
-tags: ['amos_os', '21_domains']
+type: index
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # INDEX C02 MATH COMPUTE DOMAINS README

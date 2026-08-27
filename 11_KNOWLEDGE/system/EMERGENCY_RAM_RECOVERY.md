@@ -1,9 +1,11 @@
 ---
 title: EMERGENCY RAM RECOVERY
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 # AMOS EMERGENCY RAM RECOVERY - CRITICAL SWAP SITUATION

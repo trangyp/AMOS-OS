@@ -1,7 +1,9 @@
 ---
 title: MEASURE REASONING MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '06_reasoning_modes/05_measure']
+type: control-plane
+tags: [control_plane, 06_reasoning_modes/05_measure]
 ---
+
 
 
 # MEASURE REASONING MODES COMMIT CONTROL PLANE README

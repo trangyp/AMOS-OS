@@ -1,7 +1,9 @@
 ---
 title: INDEX O15 OBSERVATION LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o15_observation']
+type: index
+tags: [cognitive_matrix, o15_observation]
 ---
+
 
 
 # INDEX O15 OBSERVATION LIFECYCLE OPERATIONS COGNITIVE MATRIX README

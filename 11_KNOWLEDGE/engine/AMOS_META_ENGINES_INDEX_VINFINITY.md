@@ -1,5 +1,6 @@
 ---
 title: AMOS META ENGINES INDEX VINFINITY
+type: index
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-meta-engines-index-vinfinity
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-meta-engines-index-vinfinity, engine]
 created: 2026-08-22
 ---
+
 
 
 ```json

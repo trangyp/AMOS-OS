@@ -1,10 +1,12 @@
 ---
 title: AMOS FOREX PACKAGES MURK PRIMITIVES
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: note
 source: 11_KNOWLEDGE/amos-general
 ---
 
+
+# AMOS FOREX PACKAGES MURK PRIMITIVES
 
 """MURK primitive definitions.
 

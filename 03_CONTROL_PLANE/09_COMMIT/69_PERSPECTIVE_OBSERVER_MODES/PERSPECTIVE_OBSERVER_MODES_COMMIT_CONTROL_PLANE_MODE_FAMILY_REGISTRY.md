@@ -1,7 +1,9 @@
 ---
 title: PERSPECTIVE OBSERVER MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '69_perspective_observer_modes']
+type: control-plane
+tags: [control_plane, 69_perspective_observer_modes]
 ---
+
 
 
 # PERSPECTIVE OBSERVER MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

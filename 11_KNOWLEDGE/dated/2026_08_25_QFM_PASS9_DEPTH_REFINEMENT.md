@@ -7,6 +7,7 @@ status: complete
 tags: [dated, dated/2026-08-25]
 ---
 
+
 # QFM Pass 9 (2026-08-25) — Depth Refinement
 
 ## Focus shift: breadth → depth

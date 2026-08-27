@@ -1,9 +1,11 @@
 ---
 title: INTEGRITY BOUNDED ENERGY STANDARD IBES 1 0
-tags: [energy]
+tags: [energy, power, green]
 type: document
 source: 11_KNOWLEDGE/energy
 ---
+
+
 
 
 

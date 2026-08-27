@@ -1,9 +1,11 @@
 ---
 title: THE 4 PILLARS OF EMPIRE A UNIVERSAL GOVERNANCE L
-tags: [governance]
+tags: [governance, policy, authority]
 type: document
 source: 11_KNOWLEDGE/governance
 ---
+
+
 
 
 

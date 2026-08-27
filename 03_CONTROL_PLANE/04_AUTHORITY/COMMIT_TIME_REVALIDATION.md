@@ -1,7 +1,9 @@
 ---
 title: COMMIT TIME REVALIDATION
-tags: ['control_plane', 'authority', 'note']
+type: validation
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Commit Time Revalidation

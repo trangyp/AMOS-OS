@@ -1,7 +1,9 @@
 ---
 title: L17 RSCF
-tags: ['canon', 'core_laws', 'note']
+type: rscf
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L17 RSCF Claim Discipline

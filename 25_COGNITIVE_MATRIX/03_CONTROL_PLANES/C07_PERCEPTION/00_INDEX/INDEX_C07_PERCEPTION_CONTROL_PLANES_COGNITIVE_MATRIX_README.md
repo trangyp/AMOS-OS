@@ -1,7 +1,9 @@
 ---
 title: INDEX C07 PERCEPTION CONTROL PLANES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'c07_perception']
+type: index
+tags: [cognitive_matrix, c07_perception]
 ---
+
 
 
 # INDEX C07 PERCEPTION CONTROL PLANES COGNITIVE MATRIX README

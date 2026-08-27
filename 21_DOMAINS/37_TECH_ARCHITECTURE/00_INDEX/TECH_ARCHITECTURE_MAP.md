@@ -1,7 +1,9 @@
 ---
 title: TECH ARCHITECTURE MAP
-tags: ['amos_os', '21_domains']
+type: architecture
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # TECH ARCHITECTURE MAP

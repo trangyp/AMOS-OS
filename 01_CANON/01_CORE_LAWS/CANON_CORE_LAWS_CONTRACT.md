@@ -4,6 +4,7 @@ type: note
 tags: [note, 01-core-laws]
 ---
 
+
 ````markdown id="amos-core-laws-contract"
 ---
 title: "AMOS OS CORE LAWS Contract"

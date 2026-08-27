@@ -1,4 +1,5 @@
 ---
+type: log
 artifact_id: AMOS-OS-MODE-MODE_ONTOLOGY
 title: AMOS OS Mode Ontology
 canonical_name: MODE_ONTOLOGY
@@ -34,9 +35,10 @@ empirical_validation_status: NOT_CLAIMED
 
 promotion_required: true
 updated: 2026-08-26
-tags: ['control_plane', 'commit', 'mode_index', 'note']
+tags: [control_plane, commit, mode_index, note]
 
 ---
+
 # AMOS OS — Mode Ontology
 
 > **Status:** `CANDIDATE_CANON`

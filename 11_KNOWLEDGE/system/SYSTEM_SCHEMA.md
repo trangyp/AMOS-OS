@@ -1,5 +1,6 @@
 ---
 title: SYSTEM SCHEMA
+type: schema
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: system-schema
 tags: [canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/system-schema, system]
 created: 2026-08-22
 ---
+
 
 
 # System Schema

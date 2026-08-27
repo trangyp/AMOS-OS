@@ -1,7 +1,9 @@
 ---
 title: L LOW SCALE MAP
-tags: ['cognitive_matrix', 'l_low_scale']
+type: map
+tags: [cognitive_matrix, l_low_scale]
 ---
+
 
 
 # L LOW SCALE MAP

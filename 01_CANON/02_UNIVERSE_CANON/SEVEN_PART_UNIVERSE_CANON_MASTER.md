@@ -1,5 +1,6 @@
 ---
 title: "Seven-Part Universe Canon Master"
+type: canon
 artifact: "SEVEN_PART_UNIVERSE_CANON_MASTER.md"
 artifact_id: "amos_01_canon_02_universe_canon_seven_part_universe_canon_master"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/02_UNIVERSE_CANON"
 artifact_kind: "CANON"
 path: "01_CANON/02_UNIVERSE_CANON/SEVEN_PART_UNIVERSE_CANON_MASTER.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - canon
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Seven-Part Universe Canon Master
 

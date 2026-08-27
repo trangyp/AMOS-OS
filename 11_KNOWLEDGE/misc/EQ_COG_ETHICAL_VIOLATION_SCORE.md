@@ -1,9 +1,11 @@
 ---
 title: EQ COG ETHICAL VIOLATION SCORE
-tags: [misc]
+tags: [misc, reference, general]
 type: data
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

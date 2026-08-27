@@ -1,5 +1,6 @@
 ---
 title: "QLS/QCLA RSCF Index"
+type: index
 artifact: "QLS_QCLA_RSCF_INDEX.md"
 artifact_id: "amos_11_knowledge_03_rscf_qls_qcla_rscf_index"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/03_RSCF"
 artifact_kind: "INDEX"
 path: "11_KNOWLEDGE/03_RSCF/QLS_QCLA_RSCF_INDEX.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - index
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # QLS/QCLA RSCF Index
 

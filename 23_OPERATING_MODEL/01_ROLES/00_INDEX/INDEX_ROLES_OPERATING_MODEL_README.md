@@ -1,7 +1,9 @@
 ---
 title: INDEX ROLES OPERATING MODEL README
-tags: ['amos_os', '23_operating_model']
+type: index
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # INDEX ROLES OPERATING MODEL README

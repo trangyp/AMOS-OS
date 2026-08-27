@@ -1,7 +1,9 @@
 ---
 title: INDEX L25 IDENTITY CONTINUITY PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l25_identity_continuity']
+type: index
+tags: [cognitive_matrix, l25_identity_continuity]
 ---
+
 
 
 # INDEX L25 IDENTITY CONTINUITY PRIMITIVES COGNITIVE MATRIX README

@@ -1,7 +1,9 @@
 ---
 title: DEPENDENCY CLOSURE
-tags: ['control_plane', 'authority', 'note']
+type: dependency
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Dependency Closure

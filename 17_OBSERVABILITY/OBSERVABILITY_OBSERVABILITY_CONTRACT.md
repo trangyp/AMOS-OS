@@ -1,7 +1,9 @@
 ---
 title: OBSERVABILITY OBSERVABILITY CONTRACT
-tags: ['amos_os', '17_observability']
+type: observability
+tags: [amos_os, 17_observability]
 ---
+
 
 
 # OBSERVABILITY OBSERVABILITY CONTRACT

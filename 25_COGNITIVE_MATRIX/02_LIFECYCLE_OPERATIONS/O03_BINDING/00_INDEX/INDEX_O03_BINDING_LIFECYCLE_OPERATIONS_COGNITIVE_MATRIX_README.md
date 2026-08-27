@@ -1,7 +1,9 @@
 ---
 title: INDEX O03 BINDING LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o03_binding']
+type: index
+tags: [cognitive_matrix, o03_binding]
 ---
+
 
 
 # INDEX O03 BINDING LIFECYCLE OPERATIONS COGNITIVE MATRIX README

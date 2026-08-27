@@ -1,5 +1,6 @@
 ---
 title: "Canon IP Governance"
+type: canon
 artifact: "CANON_IP_GOVERNANCE.md"
 artifact_id: "amos_21_domains_08_legal_canon_ip_governance"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/08_LEGAL"
 artifact_kind: "CANON"
 path: "21_DOMAINS/08_LEGAL/CANON_IP_GOVERNANCE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - canon
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Canon IP Governance
 

@@ -4,6 +4,7 @@ type: note
 tags: [note, 12-generators]
 ---
 
+
 ````markdown
 ---
 artifact_id: AMOS-CM-11-VALIDATION-CONTRACT

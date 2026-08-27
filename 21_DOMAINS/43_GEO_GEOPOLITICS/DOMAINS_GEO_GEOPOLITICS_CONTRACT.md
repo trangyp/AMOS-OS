@@ -1,7 +1,9 @@
 ---
 title: DOMAINS GEO GEOPOLITICS CONTRACT
-tags: ['amos_os', '21_domains']
+type: note
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS GEO GEOPOLITICS CONTRACT

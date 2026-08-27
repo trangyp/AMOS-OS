@@ -1,5 +1,6 @@
 ---
 title: "HML Router"
+type: routing
 artifact: "HML_ROUTER.md"
 artifact_id: "amos_04_runtime_02_router_hml_router"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "04_RUNTIME/02_ROUTER"
 artifact_kind: "ROUTER"
 path: "04_RUNTIME/02_ROUTER/HML_ROUTER.md"
 
-tags:
-  - amos_os
+tags: [amos_os, runtime, execution]
   - 04_runtime
   - router
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # HML Router
 

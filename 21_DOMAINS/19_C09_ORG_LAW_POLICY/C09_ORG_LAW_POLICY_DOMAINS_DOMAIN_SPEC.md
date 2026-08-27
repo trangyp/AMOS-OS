@@ -1,7 +1,9 @@
 ---
 title: C09 ORG LAW POLICY DOMAINS DOMAIN SPEC
-tags: ['amos_os', '21_domains']
+type: law
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C09 ORG LAW POLICY DOMAINS DOMAIN SPEC

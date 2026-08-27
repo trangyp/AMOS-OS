@@ -1,9 +1,11 @@
 ---
 title: ACCESS CONTROL PRIV ESC
-tags: [control]
+tags: [control, governance, policy]
 type: document
 source: 11_KNOWLEDGE/control
 ---
+
+
 
 
 # Access Control/Priv Esc

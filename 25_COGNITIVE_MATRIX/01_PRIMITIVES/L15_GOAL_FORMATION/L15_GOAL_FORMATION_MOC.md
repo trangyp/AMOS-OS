@@ -4,6 +4,7 @@ type: moc
 tags: [moc, l15-goal-formation]
 ---
 
+
 # L15_GOAL_FORMATION — Map of Content
 
 ## Files

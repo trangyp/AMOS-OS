@@ -1,10 +1,12 @@
 ---
 title: BASE SECTOR ENGINE
-tags: [engine]
+tags: [engine, processing, runtime]
 type: note
 source: 11_KNOWLEDGE/engine
 ---
 
+
+# BASE SECTOR ENGINE
 
 """Base sector engine for sector-level orchestration.
 

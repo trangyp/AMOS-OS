@@ -1,7 +1,9 @@
 ---
 title: REVOCATION AUTHORITY
-tags: ['control_plane', 'authority', 'note']
+type: authority
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Revocation Authority

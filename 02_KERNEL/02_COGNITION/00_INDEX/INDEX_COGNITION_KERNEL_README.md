@@ -1,7 +1,9 @@
 ---
 title: INDEX COGNITION KERNEL README
-tags: ['amos_os', '02_kernel']
+type: index
+tags: [amos_os, 02_kernel]
 ---
+
 
 
 # INDEX COGNITION KERNEL README

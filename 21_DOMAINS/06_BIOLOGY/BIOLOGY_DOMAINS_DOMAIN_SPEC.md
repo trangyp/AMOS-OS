@@ -1,7 +1,9 @@
 ---
 title: BIOLOGY DOMAINS DOMAIN SPEC
-tags: ['amos_os', '21_domains']
+type: biology
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # BIOLOGY DOMAINS DOMAIN SPEC

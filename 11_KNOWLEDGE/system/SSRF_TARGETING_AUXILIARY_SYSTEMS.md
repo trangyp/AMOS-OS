@@ -1,9 +1,11 @@
 ---
 title: SSRF TARGETING AUXILIARY SYSTEMS
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 ## Targeting auxiliary systems

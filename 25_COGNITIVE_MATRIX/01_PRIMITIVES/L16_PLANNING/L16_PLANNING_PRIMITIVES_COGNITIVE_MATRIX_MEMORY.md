@@ -4,6 +4,7 @@ type: note
 tags: [note, l16-planning]
 ---
 
+
 # L16 — Memory Contract
 
 **Package:** `L16_PLANNING`  

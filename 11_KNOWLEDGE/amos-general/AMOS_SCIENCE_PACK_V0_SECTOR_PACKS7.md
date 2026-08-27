@@ -1,5 +1,6 @@
 ---
 title: AMOS SCIENCE PACK V0 SECTOR PACKS7
+type: note
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-science-pack-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-science-pack-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 ```json

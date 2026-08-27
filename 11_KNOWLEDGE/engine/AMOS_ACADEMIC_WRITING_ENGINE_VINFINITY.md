@@ -1,11 +1,13 @@
 ---
 title: "AMOS Academic Writing Engine vInfinity"
+type: engine
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Logic/AMOS_Academic_Writing_Kernal_Engine_v0.json (75KB, massive multi-layer engine)"
 origin_type: "SOURCE"
 category: "kernel"
 tags: [amos, academic, writing, engine, v-infinity, logic, reasoning, research, paper, composition, cross-domain]
 ---
+
 
 # AMOS Academic Writing Engine vInfinity
 

@@ -1,5 +1,6 @@
 ---
 title: "UBI Recovery Engine"
+type: engine
 artifact: "UBI_RECOVERY_ENGINE.md"
 artifact_id: "amos_05_cognitive_organism_16_repair_ubi_recovery_engine"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/16_REPAIR"
 artifact_kind: "ENGINE"
 path: "05_COGNITIVE_ORGANISM/16_REPAIR/UBI_RECOVERY_ENGINE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive, organism]
   - 05_cognitive_organism
   - engine
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # UBI Recovery Engine
 

@@ -1,7 +1,9 @@
 ---
 title: DOMAINS MARKET INTELLIGENCE CONTRACT
-tags: ['amos_os', '21_domains']
+type: note
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS MARKET INTELLIGENCE CONTRACT

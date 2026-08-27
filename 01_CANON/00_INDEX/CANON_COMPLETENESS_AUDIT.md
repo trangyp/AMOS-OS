@@ -1,5 +1,6 @@
 ---
 title: "Canon Completeness Audit"
+type: canon
 artifact: "CANON_COMPLETENESS_AUDIT.md"
 artifact_id: "amos_01_canon_00_index_canon_completeness_audit"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/00_INDEX"
 artifact_kind: "AUDIT"
 path: "01_CANON/00_INDEX/CANON_COMPLETENESS_AUDIT.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - audit
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Canon Completeness Audit
 

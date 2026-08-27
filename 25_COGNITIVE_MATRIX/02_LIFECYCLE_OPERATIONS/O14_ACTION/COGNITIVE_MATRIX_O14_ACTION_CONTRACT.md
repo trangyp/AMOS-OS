@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX O14 ACTION CONTRACT
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o14_action', 'contract']
+type: cognitive
+tags: [cognitive_matrix, lifecycle_operations, o14_action, contract]
 ---
+
 
 
 # O14_ACTION — O14 Action

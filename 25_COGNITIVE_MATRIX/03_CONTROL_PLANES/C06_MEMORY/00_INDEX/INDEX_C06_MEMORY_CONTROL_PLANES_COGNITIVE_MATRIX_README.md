@@ -1,7 +1,9 @@
 ---
 title: INDEX C06 MEMORY CONTROL PLANES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'c06_memory']
+type: index
+tags: [cognitive_matrix, c06_memory]
 ---
+
 
 
 # INDEX C06 MEMORY CONTROL PLANES COGNITIVE MATRIX README

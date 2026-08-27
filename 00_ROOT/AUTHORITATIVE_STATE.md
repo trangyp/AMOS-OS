@@ -1,5 +1,6 @@
 ---
 title: AUTHORITATIVE STATE
+type: state
 artifact_id: AMOS-OS-AUTHORITATIVE-STATE
 canonical_name: AUTHORITATIVE_STATE
 artifact_type: authoritative_state_contract
@@ -18,8 +19,7 @@ authority_level: root_state_record
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, amos_os, root]
   - canon-group/tech-ai
   - canon/model
   - state
@@ -50,6 +50,8 @@ aliases:
   - AMOS Authoritative State
   - AUTHORITATIVE_STATE
 ---
+
+
 
 
 # AMOS OS Authoritative State

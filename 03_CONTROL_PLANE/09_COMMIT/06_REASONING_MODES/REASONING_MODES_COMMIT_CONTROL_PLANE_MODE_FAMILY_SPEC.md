@@ -1,4 +1,5 @@
 ---
+type: control-plane
 artifact_id: AMOS-MODE-FAMILY-06_REASONING_MODES
 title: "06_REASONING_MODES — Mode Family Placeholder"
 document_version: "0.1.0-placeholder"
@@ -9,9 +10,10 @@ steward: "Trang Phan"
 status: PROPOSED_SPECIFICATION
 conclusion_class: "UNKNOWN/GAP"
 rscf_state: "placeholder"
-tags: ['control_plane', 'commit', 'reasoning_modes', 'note']
+tags: [control_plane, commit, reasoning_modes, note]
 
 ---
+
 # 06_REASONING_MODES
 
 ## Status

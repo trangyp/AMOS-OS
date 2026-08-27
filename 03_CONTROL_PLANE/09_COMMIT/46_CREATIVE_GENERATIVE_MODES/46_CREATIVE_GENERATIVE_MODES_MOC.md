@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 46-creative-generative-modes]
 ---
 
+
 # 46_CREATIVE_GENERATIVE_MODES — Map of Content
 
 ## Files

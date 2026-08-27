@@ -1,9 +1,11 @@
 ---
 title: PIPELINE
-tags: [pipelines]
+tags: [pipelines, pipeline, workflow]
 type: document
 source: 11_KNOWLEDGE/pipelines
 ---
+
+
 
 
 

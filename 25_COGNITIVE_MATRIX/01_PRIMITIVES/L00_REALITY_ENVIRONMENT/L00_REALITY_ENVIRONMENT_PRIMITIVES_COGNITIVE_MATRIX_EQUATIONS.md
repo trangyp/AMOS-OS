@@ -1,5 +1,6 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Equations"
+type: cognitive
 aliases:
 
 * "AMOS Reality Environment Equations"
@@ -32,9 +33,10 @@ aliases:
 * rscf/T-topology
 * rscf/X-cross-scale
 * rscf/type-model
-tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
+tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---
+
 # L00_REALITY_ENVIRONMENT — Equations
 
 **Class:** `AMOS_REALITY_ENVIRONMENT_FORMAL_ARCHITECTURE`

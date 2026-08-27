@@ -1,7 +1,9 @@
 ---
 title: CUSTOM DOMAINS CUSTOM CONTRACT
-tags: ['amos_os', '21_domains']
+type: note
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # CUSTOM DOMAINS CUSTOM CONTRACT

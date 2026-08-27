@@ -1,7 +1,9 @@
 ---
 title: SUPERSEDED ARCHIVE SUPERSEDED CONTRACT
-tags: ['amos_os', '24_archive']
+type: superseded
+tags: [amos_os, 24_archive]
 ---
+
 
 
 # SUPERSEDED ARCHIVE SUPERSEDED CONTRACT

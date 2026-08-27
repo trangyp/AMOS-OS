@@ -6,6 +6,7 @@ source: 11_KNOWLEDGE/dated
 ---
 
 
+
 # Uncertainty & Calibration Governance (Gaps 217-221)
 
 **Date**: 2026-08-22

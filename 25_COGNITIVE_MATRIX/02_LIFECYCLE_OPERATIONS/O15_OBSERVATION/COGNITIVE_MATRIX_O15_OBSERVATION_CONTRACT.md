@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX O15 OBSERVATION CONTRACT
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o15_observation', 'contract']
+type: cognitive
+tags: [cognitive_matrix, lifecycle_operations, o15_observation, contract]
 ---
+
 
 
 # O15_OBSERVATION — O15 Observation

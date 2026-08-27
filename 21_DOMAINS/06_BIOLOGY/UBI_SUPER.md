@@ -1,5 +1,6 @@
 ---
 title: "UBI SUPER"
+type: note
 artifact: "UBI_SUPER.md"
 artifact_id: "amos_21_domains_06_biology_ubi_super"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/06_BIOLOGY"
 artifact_kind: "ARTIFACT"
 path: "21_DOMAINS/06_BIOLOGY/UBI_SUPER.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # UBI SUPER
 

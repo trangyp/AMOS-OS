@@ -1,7 +1,9 @@
 ---
 title: DECISION MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '41_decision_modes']
+type: control-plane
+tags: [control_plane, 41_decision_modes]
 ---
+
 
 
 # DECISION MODES COMMIT CONTROL PLANE README

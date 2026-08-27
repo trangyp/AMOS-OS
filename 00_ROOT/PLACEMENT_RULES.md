@@ -1,4 +1,5 @@
 ---
+type: rule
 artifact_id: AMOS-OS-ROOT
 name: AMOS_OS
 title: "AMOS OS — Governed Cognitive Operating Architecture"
@@ -42,8 +43,7 @@ scope:
   - research
   - governance
 
-tags:
-  - amos
+tags: [amos, amos_os, root]
   - amos-os
   - operating-system
   - cognitive-operating-system
@@ -113,6 +113,8 @@ related:
   - "PLACEMENT_RULES|Placement Rules"
   - "ROADMAP|Roadmap"
 ---
+
+
 
 # AMOS OS
 

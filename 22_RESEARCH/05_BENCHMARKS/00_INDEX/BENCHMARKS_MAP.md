@@ -1,7 +1,9 @@
 ---
 title: BENCHMARKS MAP
-tags: ['amos_os', '22_research']
+type: map
+tags: [amos_os, 22_research]
 ---
+
 
 
 # BENCHMARKS MAP

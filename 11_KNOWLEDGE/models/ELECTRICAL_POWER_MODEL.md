@@ -1,8 +1,10 @@
 ---
 title: ELECTRICAL POWER MODEL
+type: model
 aliases: [Electrical Power Engine, AMOS_Electrical_Power]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/electrical-power-model, models]
 ---
+
 
 
 # AMOS Electrical Power Engine

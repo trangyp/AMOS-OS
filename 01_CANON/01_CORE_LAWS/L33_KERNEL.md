@@ -1,7 +1,9 @@
 ---
 title: L33 KERNEL
-tags: ['canon', 'core_laws', 'note']
+type: kernel
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L33 Kernel Law

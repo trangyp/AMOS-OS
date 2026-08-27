@@ -1,5 +1,6 @@
 ---
 title: K EFFECT CLASSIFICATION
+type: note
 artifact_id: AMOS-OS-K-EFFECT-CLASSIFICATION
 canonical_name: K_EFFECT_CLASSIFICATION
 artifact_type: kernel_effect_classification_contract
@@ -11,9 +12,10 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
-tags: ['kernel', 'authority', 'note']
+tags: [kernel, authority, note]
 
 ---
+
 
 # K EFFECT CLASSIFICATION
 

@@ -1,7 +1,9 @@
 ---
 title: DOMAINS ORGANIZATIONAL BEHAVIOR CONTRACT
-tags: ['amos_os', '21_domains']
+type: behavior
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS ORGANIZATIONAL BEHAVIOR CONTRACT

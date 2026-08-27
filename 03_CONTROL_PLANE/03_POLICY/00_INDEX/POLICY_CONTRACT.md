@@ -1,7 +1,9 @@
 ---
 title: POLICY CONTRACT
-tags: ['control_plane', '00_index']
+type: policy
+tags: [control_plane, 00_index]
 ---
+
 
 
 # POLICY CONTRACT

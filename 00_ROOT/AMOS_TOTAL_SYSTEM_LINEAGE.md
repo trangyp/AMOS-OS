@@ -1,5 +1,6 @@
 ---
 title: "AMOS Total System Lineage"
+type: system
 artifact: "AMOS_TOTAL_SYSTEM_LINEAGE.md"
 artifact_id: "amos_00_root_amos_total_system_lineage"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "00_ROOT"
 artifact_kind: "LINEAGE"
 path: "00_ROOT/AMOS_TOTAL_SYSTEM_LINEAGE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, root, index]
   - 00_root
   - lineage
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # AMOS Total System Lineage
 

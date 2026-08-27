@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX L16 PLANNING CONTRACT
-tags: ['cognitive_matrix', 'primitives', 'l16_planning', 'contract']
+type: cognitive
+tags: [cognitive_matrix, primitives, l16_planning, contract]
 ---
+
 
 
 # L16_PLANNING — Planning Contract

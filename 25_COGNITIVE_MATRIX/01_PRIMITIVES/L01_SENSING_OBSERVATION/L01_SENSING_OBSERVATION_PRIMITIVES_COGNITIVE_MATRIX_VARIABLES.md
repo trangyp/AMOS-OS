@@ -1,7 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX VARIABLES
-tags:
-  - amos
+type: variable
+tags: [amos]
   - cognitive-matrix
   - l01
   - sensing-observation
@@ -12,6 +12,7 @@ tags:
   - hml
   - control-plane
 ---
+
 
 
 # L01_SENSING_OBSERVATION — Variables

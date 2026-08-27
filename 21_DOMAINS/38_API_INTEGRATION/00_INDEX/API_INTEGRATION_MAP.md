@@ -1,7 +1,9 @@
 ---
 title: API INTEGRATION MAP
-tags: ['amos_os', '21_domains']
+type: integration
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # API INTEGRATION MAP

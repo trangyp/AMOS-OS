@@ -1,4 +1,5 @@
 ---
+type: invariant
 artifact_id: AMOS-INVARIANT-REGISTRY
 name: INVARIANT_REGISTRY
 title: "AMOS Invariant Registry — Constitutional and Runtime Integrity Constraints"
@@ -39,8 +40,7 @@ scope:
   - SECURITY
   - OPERATIONS
 
-tags:
-  - amos
+tags: [amos, canon, universe]
   - amos-os
   - amos-core
   - amos-core-v4-4
@@ -85,6 +85,8 @@ related:
   - "KERNEL_MAP|Kernel Map"
   - "CONTROL_PLANE_MAP|Control Plane Map"
 ---
+
+
 
 # AMOS Invariant Registry
 

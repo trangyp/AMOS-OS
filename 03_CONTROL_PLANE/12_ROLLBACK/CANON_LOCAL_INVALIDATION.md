@@ -1,5 +1,6 @@
 ---
 title: "Canon Local Invalidation"
+type: canon
 artifact: "CANON_LOCAL_INVALIDATION.md"
 artifact_id: "amos_03_control_plane_12_rollback_canon_local_invalidation"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "03_CONTROL_PLANE/12_ROLLBACK"
 artifact_kind: "CANON"
 path: "03_CONTROL_PLANE/12_ROLLBACK/CANON_LOCAL_INVALIDATION.md"
 
-tags:
-  - amos_os
+tags: [amos_os, control_plane, governance]
   - 03_control_plane
   - canon
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Canon Local Invalidation
 

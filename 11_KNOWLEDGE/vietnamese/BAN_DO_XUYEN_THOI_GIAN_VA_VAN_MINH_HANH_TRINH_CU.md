@@ -1,9 +1,11 @@
 ---
 title: BAN DO XUYEN THOI GIAN VA VAN MINH HANH TRINH CU
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

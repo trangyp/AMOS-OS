@@ -4,6 +4,7 @@ type: note
 tags: [note, o06-model]
 ---
 
+
 # O06 — Control-Plane Requirements
 
 **Package:** `O06_MODEL`  

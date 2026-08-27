@@ -1,7 +1,9 @@
 ---
 title: STRUCTURAL GAPS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'structural_gaps', 'readme', 'contract_filled']
+type: gap
+tags: [cognitive_matrix, structural_gaps, readme, contract_filled]
 ---
+
 
 
 # 08_STRUCTURAL_GAPS — Structural Gap Registry Contract Overview

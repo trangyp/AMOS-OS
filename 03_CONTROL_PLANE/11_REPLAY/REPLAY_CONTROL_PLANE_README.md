@@ -1,7 +1,9 @@
 ---
 title: REPLAY CONTROL PLANE README
-tags: ['control_plane', 'replay_control_plane_readme.md']
+type: control-plane
+tags: [control_plane, replay_control_plane_readme.md]
 ---
+
 
 
 # REPLAY CONTROL PLANE README

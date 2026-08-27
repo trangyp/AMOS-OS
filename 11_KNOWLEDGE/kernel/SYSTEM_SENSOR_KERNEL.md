@@ -1,10 +1,12 @@
 ---
 title: SYSTEM SENSOR KERNEL
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: note
 source: 11_KNOWLEDGE/kernel
 ---
 
+
+# SYSTEM SENSOR KERNEL
 
 """AMOS logical component.
 

@@ -1,5 +1,6 @@
 ---
 title: AMOS SCIENTIFIC KERNEL V0 SCIENCE HEALTH7 2
+type: kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-scientific-kernel-v0
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-scientific-kernel-v0, kernel]
 created: 2026-08-22
 ---
+
 
 
 ```json

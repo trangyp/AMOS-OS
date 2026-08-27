@@ -1,8 +1,10 @@
 ---
 title: PHYSICS COSMOS MODEL
+type: physics
 aliases: [Physics & Cosmos Engine, AMOS_Physics_Cosmos]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/physics-cosmos-model, universe-cosmos]
 ---
+
 
 
 # AMOS Physics & Cosmos Engine

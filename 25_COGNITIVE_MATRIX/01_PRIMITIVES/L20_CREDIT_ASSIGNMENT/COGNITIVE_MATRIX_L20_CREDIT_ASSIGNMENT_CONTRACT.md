@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX L20 CREDIT ASSIGNMENT CONTRACT
-tags: ['cognitive_matrix', 'primitives', 'l20_credit_assignment', 'contract']
+type: cognitive
+tags: [cognitive_matrix, primitives, l20_credit_assignment, contract]
 ---
+
 
 
 # L20_CREDIT_ASSIGNMENT — Credit assignment Contract

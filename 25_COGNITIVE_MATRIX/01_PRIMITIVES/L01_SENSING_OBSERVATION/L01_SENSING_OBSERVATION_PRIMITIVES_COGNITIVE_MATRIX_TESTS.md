@@ -1,7 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX TESTS
-tags:
-  - amos
+type: test
+tags: [amos]
   - cognitive-matrix
   - l01
   - sensing-observation
@@ -13,6 +13,7 @@ tags:
   - hml
   - control-plane
 ---
+
 
 
 # L01_SENSING_OBSERVATION — Tests

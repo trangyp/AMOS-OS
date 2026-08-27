@@ -1,7 +1,9 @@
 ---
 title: L00 REALITY ENVIRONMENT MAP
-tags: ['cognitive_matrix', 'l00_reality_environment']
+type: map
+tags: [cognitive_matrix, l00_reality_environment]
 ---
+
 
 
 # L00 REALITY ENVIRONMENT MAP

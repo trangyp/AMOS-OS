@@ -1,7 +1,9 @@
 ---
 title: INDEX VALIDATION RESEARCH README
-tags: ['amos_os', '22_research']
+type: index
+tags: [amos_os, 22_research]
 ---
+
 
 
 # INDEX VALIDATION RESEARCH README

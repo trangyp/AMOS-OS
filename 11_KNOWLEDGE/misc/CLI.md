@@ -1,10 +1,12 @@
 ---
 title: CLI
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# CLI
 
 """
 Command-line interface for the Hierarchical AI Architecture Generator.

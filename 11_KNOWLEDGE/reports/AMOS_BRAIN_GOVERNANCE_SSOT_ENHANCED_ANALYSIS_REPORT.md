@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN GOVERNANCE SSOT ENHANCED ANALYSIS REPORT
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS BRAIN - GOVERNANCE SSOT ENHANCED ANALYSIS REPORT

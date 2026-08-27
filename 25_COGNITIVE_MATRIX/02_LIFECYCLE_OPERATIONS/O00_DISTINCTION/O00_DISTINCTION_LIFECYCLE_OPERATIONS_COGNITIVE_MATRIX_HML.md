@@ -4,6 +4,7 @@ type: note
 tags: [note, o00-distinction]
 ---
 
+
 # O00 — H/M/L Applicability
 
 **Package:** `O00_DISTINCTION`  

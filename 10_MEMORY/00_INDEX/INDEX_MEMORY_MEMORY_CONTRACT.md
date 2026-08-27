@@ -1,7 +1,9 @@
 ---
 title: INDEX MEMORY MEMORY CONTRACT
-tags: ['amos_os', '10_memory']
+type: index
+tags: [amos_os, 10_memory]
 ---
+
 
 
 # INDEX MEMORY MEMORY CONTRACT

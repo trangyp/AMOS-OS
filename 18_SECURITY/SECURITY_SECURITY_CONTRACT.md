@@ -1,7 +1,9 @@
 ---
 title: SECURITY SECURITY CONTRACT
-tags: ['amos_os', '18_security']
+type: security
+tags: [amos_os, 18_security]
 ---
+
 
 
 # SECURITY SECURITY CONTRACT

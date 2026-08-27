@@ -1,4 +1,5 @@
 ---
+type: canon
 artifact_id: AMOS-FULL-BRAIN-OS-CANON
 name: FULL_BRAIN_OS_CANON
 title: "AMOS Full Brain OS Canon — Unified Cognitive Systems Architecture"
@@ -20,8 +21,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos
+tags: [amos, canon, universe]
   - amos-os
   - amos-core
   - amos-core-v4-4
@@ -78,6 +78,8 @@ related:
   - "AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture"
   - "COGNITIVE_MATRIX_ARCHITECTURE|Cognitive Matrix"
 ---
+
+
 
 # AMOS Full Brain OS Canon
 

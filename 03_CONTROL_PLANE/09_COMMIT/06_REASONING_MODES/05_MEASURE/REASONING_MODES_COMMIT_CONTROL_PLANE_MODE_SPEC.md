@@ -1,7 +1,9 @@
 ---
 title: REASONING MODES COMMIT CONTROL PLANE MODE SPEC
-tags: ['control_plane', '06_reasoning_modes/05_measure']
+type: control-plane
+tags: [control_plane, 06_reasoning_modes/05_measure]
 ---
+
 
 
 # REASONING MODES COMMIT CONTROL PLANE MODE SPEC

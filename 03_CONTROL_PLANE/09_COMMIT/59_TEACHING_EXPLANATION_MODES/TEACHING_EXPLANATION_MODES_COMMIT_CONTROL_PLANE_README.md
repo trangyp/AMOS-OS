@@ -1,7 +1,9 @@
 ---
 title: TEACHING EXPLANATION MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '59_teaching_explanation_modes']
+type: control-plane
+tags: [control_plane, 59_teaching_explanation_modes]
 ---
+
 
 
 # TEACHING EXPLANATION MODES COMMIT CONTROL PLANE README

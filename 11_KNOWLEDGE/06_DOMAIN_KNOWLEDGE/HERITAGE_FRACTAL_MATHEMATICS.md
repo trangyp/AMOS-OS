@@ -1,5 +1,6 @@
 ---
 title: "Heritage Fractal Mathematics"
+type: fractal
 artifact: "HERITAGE_FRACTAL_MATHEMATICS.md"
 artifact_id: "amos_11_knowledge_06_domain_knowledge_heritage_fractal_mathematics"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE"
 artifact_kind: "ARTIFACT"
 path: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_FRACTAL_MATHEMATICS.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Heritage Fractal Mathematics
 

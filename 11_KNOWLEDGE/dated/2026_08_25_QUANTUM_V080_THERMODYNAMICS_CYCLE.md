@@ -6,6 +6,7 @@ source: 11_KNOWLEDGE/dated
 ---
 
 
+
 # Quantum Library v0.8.0 Cycle — Quantum Thermodynamics (2026-08-25)
 
 ## Cycle summary

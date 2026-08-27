@@ -1,9 +1,11 @@
 ---
 title: AI GOVERNANCE STACK
-tags: [governance]
+tags: [governance, policy, authority]
 type: data
 source: 11_KNOWLEDGE/governance
 ---
+
+
 
 
 

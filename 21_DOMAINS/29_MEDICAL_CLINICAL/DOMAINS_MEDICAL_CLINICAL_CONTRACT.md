@@ -1,7 +1,9 @@
 ---
 title: DOMAINS MEDICAL CLINICAL CONTRACT
-tags: ['amos_os', '21_domains']
+type: note
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS MEDICAL CLINICAL CONTRACT

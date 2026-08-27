@@ -1,4 +1,5 @@
 ---
+type: agent
 artifact_id: AMOS-ENVIRONMENT-SCAN-AGENT
 name: EnvironmentScan_Agent
 title: "AMOS EnvironmentScan Agent — Governed Sense-System Component"
@@ -29,8 +30,7 @@ aliases:
   - AMOS Environment Scan Agent
   - Sense System Environment Scanner
 
-tags:
-  - agents
+tags: [agents, knowledge, vault]
   - canon-group/tech-ai
   - canon/component
   - rscf/claim
@@ -43,6 +43,8 @@ tags:
 
 governing_law: "integrity > completeness > fluency > speed > token savings"
 ---
+
+
 
 # AMOS EnvironmentScan Agent
 ## Governed Sense-System Component

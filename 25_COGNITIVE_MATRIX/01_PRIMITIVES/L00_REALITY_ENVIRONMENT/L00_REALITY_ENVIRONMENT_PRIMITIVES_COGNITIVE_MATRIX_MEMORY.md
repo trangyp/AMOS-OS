@@ -1,5 +1,6 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Memory"
+type: memory
 aliases:
 
 * "AMOS Reality Environment Memory"
@@ -33,9 +34,10 @@ aliases:
 * rscf/X-cross-scale
 * rscf/P-repair
 * rscf/type-system
-tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
+tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---
+
 # L00_REALITY_ENVIRONMENT — Memory
 
 **Class:** `AMOS_REALITY_MEMORY_ARCHITECTURE`

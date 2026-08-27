@@ -1,10 +1,12 @@
 ---
 title: ENGLISHCORE
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# ENGLISHCORE
 
 // English Core Pack
 import { PackItem, PackCategory } from "../masterPacks";

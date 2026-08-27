@@ -1,7 +1,9 @@
 ---
 title: INDEX C09 KERNEL CONTROL CONTROL PLANES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'c09_kernel_control']
+type: index
+tags: [cognitive_matrix, c09_kernel_control]
 ---
+
 
 
 # INDEX C09 KERNEL CONTROL CONTROL PLANES COGNITIVE MATRIX README

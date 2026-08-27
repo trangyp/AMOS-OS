@@ -6,6 +6,7 @@ epistemic: SOURCE/DERIVED
 tags: [math, fractal, networks, diagnostics, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — Network-Structure Diagnostics (Graph-Fractal Family Deep)
 
 ## Gap found

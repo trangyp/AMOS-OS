@@ -1,9 +1,11 @@
 ---
 title: SYSTEM STATUS SUMMARY
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 # 📊 AMOS SYSTEM STATUS SUMMARY V3

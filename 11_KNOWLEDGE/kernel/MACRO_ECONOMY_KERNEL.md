@@ -1,10 +1,12 @@
 ---
 title: MACRO ECONOMY KERNEL
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: note
 source: 11_KNOWLEDGE/kernel
 ---
 
+
+# MACRO ECONOMY KERNEL
 
 """AMOS logical component.
 

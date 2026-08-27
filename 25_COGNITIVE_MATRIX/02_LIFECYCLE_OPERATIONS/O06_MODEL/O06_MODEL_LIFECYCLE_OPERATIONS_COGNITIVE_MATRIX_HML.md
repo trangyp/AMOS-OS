@@ -4,6 +4,7 @@ type: note
 tags: [note, o06-model]
 ---
 
+
 # O06 — H/M/L Applicability
 
 **Package:** `O06_MODEL`  

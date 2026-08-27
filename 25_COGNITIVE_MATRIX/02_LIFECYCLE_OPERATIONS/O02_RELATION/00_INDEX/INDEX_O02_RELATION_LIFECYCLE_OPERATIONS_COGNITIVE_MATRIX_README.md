@@ -1,7 +1,9 @@
 ---
 title: INDEX O02 RELATION LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o02_relation']
+type: index
+tags: [cognitive_matrix, o02_relation]
 ---
+
 
 
 # INDEX O02 RELATION LIFECYCLE OPERATIONS COGNITIVE MATRIX README

@@ -1,7 +1,9 @@
 ---
 title: COVERAGE COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'coverage', 'readme', 'contract_filled']
+type: coverage
+tags: [cognitive_matrix, coverage, readme, contract_filled]
 ---
+
 
 
 # 07_COVERAGE — Coverage Model Contract Overview

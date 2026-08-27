@@ -1,4 +1,5 @@
 ---
+type: law
 artifact_id: AMOS-CORE-LAWS
 name: AMOS_CORE_LAWS
 title: "AMOS Core Laws — Constitutional Invariants of AMOS OS"
@@ -34,8 +35,7 @@ scope:
   - runtime_authority
   - recovery
 
-tags:
-  - amos
+tags: [amos, canon, universe]
   - amos-os
   - amos-core
   - amos-core-v4-4
@@ -87,6 +87,8 @@ related:
   - "KERNEL_MAP|Kernel Map"
   - "CONTROL_PLANE_MAP|Control Plane Map"
 ---
+
+
 
 # AMOS Core Laws
 

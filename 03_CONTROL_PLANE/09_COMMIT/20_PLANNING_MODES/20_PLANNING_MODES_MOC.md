@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 20-planning-modes]
 ---
 
+
 # 20_PLANNING_MODES — Map of Content
 
 ## Files

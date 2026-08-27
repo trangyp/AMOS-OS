@@ -1,9 +1,11 @@
 ---
 title: THE THREE LAYER ARCHITECTURE OF CONSCIOUSNESS
-tags: [architecture]
+tags: [architecture, design, structure]
 type: document
 source: 11_KNOWLEDGE/architecture
 ---
+
+
 
 
 

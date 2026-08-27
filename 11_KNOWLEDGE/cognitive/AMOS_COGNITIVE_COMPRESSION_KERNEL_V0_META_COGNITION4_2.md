@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/cognitive
 
 
 
+
 ```json
 {
   "kernel_id": "Cognitive_Compression_Kernel",

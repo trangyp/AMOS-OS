@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE CAPABILITY CONTRACT
-tags: ['control_plane', 'capability', 'contract']
+type: control-plane
+tags: [control_plane, capability, contract]
 ---
+
 
 
 Yes. The placeholder should be replaced by a substantive contract. Below is a **full paste-ready `CAPABILITY_CONTRACT.md`**. It is intentionally classified as an **AMOS MODEL / proposed governed contract**, not falsely presented as already implemented or canonically validated.

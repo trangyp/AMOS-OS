@@ -1,9 +1,11 @@
 ---
 title: TRANG TAT 2
-tags: [trang]
+tags: [trang, framework, reality]
 type: document
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

@@ -1,5 +1,6 @@
 ---
 title: AGENT TEMPLATES
+type: agent
 canon-group: meta
 canon-type: framework
 canon-status: active
@@ -23,8 +24,7 @@ rscf-provenance-required: true
 
 topic: agent-templates
 
-tags:
-  - canon-group/tech-ai
+tags: [canon-group/tech-ai, knowledge, vault]
   - canon/framework
   - canon/agent
   - rscf/claim
@@ -40,6 +40,8 @@ updated: 2026-08-25
 origin-architect: Trang Phan
 steward: Trang Phan
 ---
+
+
 
 
 # AMOS Agent Templates

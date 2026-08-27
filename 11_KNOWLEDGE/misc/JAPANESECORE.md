@@ -1,10 +1,12 @@
 ---
 title: JAPANESECORE
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# JAPANESECORE
 
 // Japanese Core Pack
 import { PackItem, PackCategory } from "../masterPacks";

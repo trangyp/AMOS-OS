@@ -1,5 +1,6 @@
 ---
 title: DETERMINISTIC LOGIC AND LAW ENGINE
+type: engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: deterministic-logic-and-law-engine
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/deterministic-logic-and-law-engine, engine]
 created: 2026-08-22
 ---
+
 
 
 ```json

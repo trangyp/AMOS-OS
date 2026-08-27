@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE PRECONDITIONS
-tags: ['control_plane', '03_coding']
+type: condition
+tags: [control_plane, 03_coding]
 ---
+
 
 
 # CONTROL PLANE PRECONDITIONS

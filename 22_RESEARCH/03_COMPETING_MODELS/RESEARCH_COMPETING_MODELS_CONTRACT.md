@@ -1,7 +1,9 @@
 ---
 title: RESEARCH COMPETING MODELS CONTRACT
-tags: ['amos_os', '22_research']
+type: model
+tags: [amos_os, 22_research]
 ---
+
 
 
 # RESEARCH COMPETING MODELS CONTRACT

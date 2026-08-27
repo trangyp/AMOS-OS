@@ -1,9 +1,11 @@
 ---
 title: V4 2 CAUSAL EPOCH
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 # v4.2 — Deterministic Causal Epoch Runtime

@@ -1,9 +1,11 @@
 ---
 title: LAW 90 THE RULE OF FOUR AS DETERMINISTIC SYMMETR
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

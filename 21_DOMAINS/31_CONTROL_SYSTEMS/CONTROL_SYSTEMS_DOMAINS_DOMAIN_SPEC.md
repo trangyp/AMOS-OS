@@ -1,7 +1,9 @@
 ---
 title: CONTROL SYSTEMS DOMAINS DOMAIN SPEC
-tags: ['amos_os', '21_domains']
+type: system
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # CONTROL SYSTEMS DOMAINS DOMAIN SPEC

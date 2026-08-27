@@ -1,7 +1,9 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX PURPOSE
-tags: ['cognitive_matrix', 'primitives', 'l01_sensing_observation', 'note']
+type: cognitive
+tags: [cognitive_matrix, primitives, l01_sensing_observation, note]
 ---
+
 
 
 ---

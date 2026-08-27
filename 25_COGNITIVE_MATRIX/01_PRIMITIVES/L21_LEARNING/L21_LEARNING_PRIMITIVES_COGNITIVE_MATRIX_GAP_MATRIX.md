@@ -4,6 +4,7 @@ type: note
 tags: [note, l21-learning]
 ---
 
+
 # L21 — Gap Matrix
 
 **Package:** `L21_LEARNING`  

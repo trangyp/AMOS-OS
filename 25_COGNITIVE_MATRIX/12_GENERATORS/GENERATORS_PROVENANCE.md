@@ -4,6 +4,7 @@ type: note
 tags: [note, 12-generators]
 ---
 
+
 Below is a full AMOS-aligned replacement for `12_GENERATORS/PROVENANCE.md`. It makes provenance a first-class infrastructure contract for Generator identity, source ancestry, derivation lineage, independence, freshness, receipts, state transitions, replay, supersession, and selective invalidation—without treating generated derivatives as independent evidence or allowing provenance metadata to create canon or authority. This is consistent with the AMOS Full Brain OS requirement to preserve terminology/provenance and expose missing implementation or provenance facts rather than fabricate them.  The primary Skill canon remains `AMOS_FULL_BRAIN_OS.json`; structural preservation is not itself empirical or runtime validation.
 
 ````md

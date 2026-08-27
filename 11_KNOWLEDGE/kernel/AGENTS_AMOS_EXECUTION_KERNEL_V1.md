@@ -1,9 +1,11 @@
 ---
 title: AGENTS AMOS EXECUTION KERNEL V1
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: document
 source: 11_KNOWLEDGE/kernel
 ---
+
+
 
 
 # AMOS Kernel Agent Contract

@@ -1,5 +1,6 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — README"
+type: cognitive
 aliases:
   - "AMOS Reality Environment README"
   - "L00 Reality Environment"
@@ -11,8 +12,7 @@ amos-layer: L00_REALITY_ENVIRONMENT
 architecture-role: reality-grounding-root-and-navigation-contract
 origin-architect: "Trang Phan"
 status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-tags:
-  - amos
+tags: [amos]
   - reality-environment
   - reality-grounding
   - observation
@@ -27,6 +27,7 @@ tags:
   - validation
   - ai
 ---
+
 
 # L00_REALITY_ENVIRONMENT — README
 

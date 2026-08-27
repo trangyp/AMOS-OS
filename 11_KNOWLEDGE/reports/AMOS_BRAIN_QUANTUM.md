@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN QUANTUM
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS BRAIN QUANTUM OMEGA - QUANTUM SUPREMACY COMPLETE

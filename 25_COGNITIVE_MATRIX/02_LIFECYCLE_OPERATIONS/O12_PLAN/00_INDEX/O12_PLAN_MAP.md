@@ -1,7 +1,9 @@
 ---
 title: O12 PLAN MAP
-tags: ['cognitive_matrix', 'o12_plan']
+type: map
+tags: [cognitive_matrix, o12_plan]
 ---
+
 
 
 # O12 PLAN MAP

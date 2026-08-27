@@ -1,9 +1,11 @@
 ---
 title: EQUATION REGISTRY
-tags: [indexes]
+tags: [indexes, index, moc]
 type: document
 source: 11_KNOWLEDGE/indexes
 ---
+
+
 
 
 # Equation Registry

@@ -1,9 +1,11 @@
 ---
 title: OPTIMIZATION REPORT
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 # OMEGA PERFORMANCE & REPOSITORY OPTIMIZATION ENGINE

@@ -4,6 +4,7 @@ type: moc
 tags: [moc, l20-credit-assignment]
 ---
 
+
 # L20_CREDIT_ASSIGNMENT — Map of Content
 
 ## Files

@@ -1,7 +1,9 @@
 ---
 title: STATE STATE CONTRACT
-tags: ['amos_os', '12_state']
+type: state
+tags: [amos_os, 12_state]
 ---
+
 
 
 # STATE STATE CONTRACT

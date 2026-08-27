@@ -4,6 +4,7 @@ type: note
 tags: [note, o11-goal]
 ---
 
+
 # O11 — Input/Output
 
 **Package:** `O11_GOAL`  

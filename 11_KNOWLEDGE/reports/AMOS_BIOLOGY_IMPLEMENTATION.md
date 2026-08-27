@@ -1,9 +1,11 @@
 ---
 title: AMOS BIOLOGY IMPLEMENTATION
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS OMEGA BIOLOGY + QUANTUM BIOLOGY CIVILISATIONAL STRUCTURE ENGINE

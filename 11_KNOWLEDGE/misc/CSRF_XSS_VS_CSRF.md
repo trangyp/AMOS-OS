@@ -1,9 +1,11 @@
 ---
 title: CSRF XSS VS CSRF
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 ## XSS vs CSRF

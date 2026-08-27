@@ -1,12 +1,13 @@
 ---
 title: "AMOS Core Infrastructure Modules"
 created: "2026-08-22"
-type: "note"
+type: note
 tags: [cosmo, amos, canon-group/system, rscf/claim, rscf/state/observation, topic/implementation, topic/core-infrastructure, dated, dated/2026-08-22]
 status: "verified"
 provenance: "OBSERVATION"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS Core Infrastructure Modules
 

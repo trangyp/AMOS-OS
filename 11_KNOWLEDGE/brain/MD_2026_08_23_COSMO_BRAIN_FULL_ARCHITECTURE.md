@@ -1,5 +1,6 @@
 ---
 title: MD 2026 08 23 COSMO BRAIN FULL ARCHITECTURE
+type: architecture
 origin_architect: Trang Phan
 provenance: direct file inspection of cosmo-brain/ on 2026-08-23 (README, package.json, manifest.json, 4 subagent explorations, direct reads of key files)
 confidence: 0.95
@@ -7,6 +8,7 @@ epistemic_class: OBSERVATION
 conclusion_class: VERIFIED
 tags: [cosmo-brain, architecture, typescript, python, amos, algorithms, governance, domains, knowledge, schemas, registry, prompts, trang-agent, amos-os-kernel, amos-md-brain, amos-v1-production, brain]
 ---
+
 
 
 # Cosmo Brain — Full Architecture

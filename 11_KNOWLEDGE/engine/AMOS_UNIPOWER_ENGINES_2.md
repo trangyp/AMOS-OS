@@ -3,13 +3,14 @@ title: "AMOS Unipower Engines — Full Inventory"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Unipower/"
 origin_architect: "Trang Phan"
-type: "reference"
+type: reference
 tags: [canon-group/tech-ai, unipower, engines, vietnam, australia, china, global, canon-group/human-system, economy, workforce, ev, market, system-operations, ai-intelligence, bod, scientific, strategic-document, tech, risk-policy-governance, omnistructure, engine]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 source: "Google Drive /_00_AMOS_CANON/Unipower/ (20 files: 18 JSON + 2 TXT/MD)"
 ---
+
 
 # AMOS Unipower Engines
 

@@ -4,6 +4,7 @@ type: note
 tags: [note, l24-self-regulation]
 ---
 
+
 # L24 — H/M/L Applicability
 
 **Package:** `L24_SELF_REGULATION`  

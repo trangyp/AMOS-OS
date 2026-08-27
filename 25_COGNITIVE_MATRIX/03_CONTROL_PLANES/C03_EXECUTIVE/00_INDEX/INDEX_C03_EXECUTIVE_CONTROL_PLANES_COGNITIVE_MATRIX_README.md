@@ -1,7 +1,9 @@
 ---
 title: INDEX C03 EXECUTIVE CONTROL PLANES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'c03_executive']
+type: index
+tags: [cognitive_matrix, c03_executive]
 ---
+
 
 
 # INDEX C03 EXECUTIVE CONTROL PLANES COGNITIVE MATRIX README

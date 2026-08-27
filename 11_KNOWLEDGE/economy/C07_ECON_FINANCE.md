@@ -1,5 +1,6 @@
 ---
 title: C07 ECON FINANCE
+type: finance
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: c07-econ-finance
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c07-econ-finance, economy]
 created: 2026-08-22
 ---
+
 
 
 ```json

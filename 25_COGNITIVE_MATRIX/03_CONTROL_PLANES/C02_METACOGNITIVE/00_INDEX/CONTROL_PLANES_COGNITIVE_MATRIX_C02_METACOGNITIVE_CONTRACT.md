@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANES COGNITIVE MATRIX C02 METACOGNITIVE CONTRACT
-tags: ['cognitive_matrix', 'c02_metacognitive']
+type: control-plane
+tags: [cognitive_matrix, c02_metacognitive]
 ---
+
 
 
 # CONTROL PLANES COGNITIVE MATRIX C02 METACOGNITIVE CONTRACT

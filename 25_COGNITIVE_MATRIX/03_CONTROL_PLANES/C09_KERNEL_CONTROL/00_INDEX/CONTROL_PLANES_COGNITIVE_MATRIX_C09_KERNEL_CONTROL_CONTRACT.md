@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANES COGNITIVE MATRIX C09 KERNEL CONTROL CONTRACT
-tags: ['cognitive_matrix', 'c09_kernel_control']
+type: kernel
+tags: [cognitive_matrix, c09_kernel_control]
 ---
+
 
 
 # CONTROL PLANES COGNITIVE MATRIX C09 KERNEL CONTROL CONTRACT

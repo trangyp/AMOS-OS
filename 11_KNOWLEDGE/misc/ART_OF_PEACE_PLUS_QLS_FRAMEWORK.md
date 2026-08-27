@@ -3,12 +3,13 @@ title: "The Art of Peace — 12 Chapters + QLS Framework"
 created: "2026-08-22"
 origin: "Google Drive — The_Art_of_Peace.pdf (1.88MB) + quantum-logic-systems-qls.pdf (5.1MB)"
 origin_architect: "Quynh Trang Phan"
-type: "book-summary"
+type: book-summary
 tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, rscf/E-entropy, rscf/K-compression, rscf/G-relation, rscf/mu-mutation, topic/art-of-peace, misc]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # The Art of Peace: Ending All Human Suffering Through UBI™
 

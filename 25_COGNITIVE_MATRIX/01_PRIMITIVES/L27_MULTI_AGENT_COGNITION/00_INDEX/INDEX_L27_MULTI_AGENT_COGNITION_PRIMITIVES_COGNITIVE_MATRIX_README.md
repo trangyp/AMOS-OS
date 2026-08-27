@@ -1,7 +1,9 @@
 ---
 title: INDEX L27 MULTI AGENT COGNITION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l27_multi_agent_cognition']
+type: index
+tags: [cognitive_matrix, l27_multi_agent_cognition]
 ---
+
 
 
 # INDEX L27 MULTI AGENT COGNITION PRIMITIVES COGNITIVE MATRIX README

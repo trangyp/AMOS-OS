@@ -1,5 +1,6 @@
 ---
 title: "Neutral Interface Training Protocol"
+type: protocol
 artifact: "NEUTRAL_INTERFACE_TRAINING_PROTOCOL.md"
 artifact_id: "amos_11_knowledge_05_frameworks_neutral_interface_training_protocol"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "PROTOCOL"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/NEUTRAL_INTERFACE_TRAINING_PROTOCOL.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - protocol
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Neutral Interface Training Protocol
 

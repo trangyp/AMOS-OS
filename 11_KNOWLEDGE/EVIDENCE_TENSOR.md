@@ -1,6 +1,7 @@
 ---
 
 title: "AMOS Evidence Tensor Architecture"
+type: tensor
 aliases:
 
 * "Evidence Tensor"
@@ -34,8 +35,10 @@ aliases:
 * rscf/T-topology
 * rscf/M-memory
 * rscf/type-evidence
-tags: [tensor]
+tags: [tensor, knowledge, vault]
 ---
+
+
 
 # AMOS Evidence Tensor
 

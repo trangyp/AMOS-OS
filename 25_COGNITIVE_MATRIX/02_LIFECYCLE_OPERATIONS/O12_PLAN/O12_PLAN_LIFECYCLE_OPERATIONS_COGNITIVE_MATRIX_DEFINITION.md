@@ -4,6 +4,7 @@ type: note
 tags: [note, o12-plan]
 ---
 
+
 # O12 — Definition
 
 **Package:** `O12_PLAN`  

@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O02 RELATION CONTRACT
-tags: ['cognitive_matrix', 'o02_relation']
+type: lifecycle
+tags: [cognitive_matrix, o02_relation]
 ---
+
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O02 RELATION CONTRACT

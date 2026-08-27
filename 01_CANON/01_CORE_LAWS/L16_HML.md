@@ -1,7 +1,9 @@
 ---
 title: L16 HML
-tags: ['canon', 'core_laws', 'note']
+type: note
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L16 H/M/L Lens Laws

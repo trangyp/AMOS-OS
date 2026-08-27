@@ -3,12 +3,13 @@ title: "ABSOLUTE-VN Omnistructure — Single-Layer Collapsed Vietnam"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/VN_OMNISTRUCTURE.txt.txt"
 origin_architect: "Trang Phan"
-type: "reference"
+type: reference
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/X-crossscale, topic/vn-omnistructure, misc]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # ABSOLUTE-VN Omnistructure
 

@@ -1,7 +1,9 @@
 ---
 title: INDEX C05 REPRESENTATION CONTROL PLANES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'c05_representation']
+type: index
+tags: [cognitive_matrix, c05_representation]
 ---
+
 
 
 # INDEX C05 REPRESENTATION CONTROL PLANES COGNITIVE MATRIX README

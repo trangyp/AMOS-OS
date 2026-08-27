@@ -1,5 +1,6 @@
 ---
 title: AMOS EVOLUTIONARY ADAPTIVE SYSTEMS CANCER TO
+type: system
 canon-group: cross-domain-biological-ai
 canon-type: architecture
 rscf-state: model
@@ -13,8 +14,7 @@ source-lineage:
   - "AMOS_CORE v4.4 reasoning lineage"
 language: en
 epistemic-boundary: "Cancer source model and AI transfer remain distinct; cross-domain recurrence is MODEL, not mechanistic identity."
-tags:
-  - amos
+tags: [amos, system, architecture]
   - evolutionary-oncology
   - artificial-intelligence
   - adaptive-systems
@@ -30,6 +30,8 @@ tags:
   - system
 
 ---
+
+
 
 
 # AMOS Evolutionary Adaptive Systems Architecture

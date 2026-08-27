@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O11 GOAL CONTRACT
-tags: ['cognitive_matrix', 'o11_goal']
+type: lifecycle
+tags: [cognitive_matrix, o11_goal]
 ---
+
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O11 GOAL CONTRACT

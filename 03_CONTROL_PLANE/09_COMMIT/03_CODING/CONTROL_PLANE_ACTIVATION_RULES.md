@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE ACTIVATION RULES
-tags: ['control_plane', '03_coding']
+type: rule
+tags: [control_plane, 03_coding]
 ---
+
 
 
 # CONTROL PLANE ACTIVATION RULES

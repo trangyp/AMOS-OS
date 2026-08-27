@@ -1,5 +1,6 @@
 ---
 title: BIZFIN SUPER ENGINE
+type: engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: bizfin-super-engine
 tags: [canon-group/tech-ai, canon/metric, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/bizfin-super-engine, engine]
 created: 2026-08-22
 ---
+
 
 
 ```json

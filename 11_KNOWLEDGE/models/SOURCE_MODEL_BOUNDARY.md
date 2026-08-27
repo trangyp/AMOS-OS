@@ -1,9 +1,11 @@
 ---
 title: SOURCE MODEL BOUNDARY
-tags: [models]
+tags: [models, model, specification]
 type: document
 source: 11_KNOWLEDGE/models
 ---
+
+
 
 
 # Source / Model / Empirical Boundary

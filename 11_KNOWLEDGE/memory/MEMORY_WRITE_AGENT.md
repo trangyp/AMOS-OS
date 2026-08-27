@@ -1,10 +1,12 @@
 ---
 title: MEMORY WRITE AGENT
-tags: [memory]
+tags: [memory, state, persistence]
 type: note
 source: 11_KNOWLEDGE/memory
 ---
 
+
+# MEMORY WRITE AGENT
 
 """AMOS logical component.
 

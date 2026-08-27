@@ -1,4 +1,5 @@
 ---
+type: design
 id: AMOS-C11-DESIGN-LANGUAGE-MASTER-KNOWLEDGE
 title: "AMOS C11 — Design & Language Master Knowledge"
 origin_architect: "Trang Phan"
@@ -27,9 +28,10 @@ source_family_mapping:
   - "F06_expression_translation_envelopes"
   - "F07_tone_style_and_aesthetic_governance"
   - "F08_evaluation_falsification_and_quality_gates"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # AMOS C11 — Design & Language Master Knowledge
 
 > **Epistemic boundary**

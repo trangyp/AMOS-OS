@@ -1,7 +1,9 @@
 ---
 title: DESIGN MAP
-tags: ['amos_os', '21_domains']
+type: map
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DESIGN MAP

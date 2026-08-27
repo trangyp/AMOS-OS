@@ -1,10 +1,12 @@
 ---
 title: HEALTH KERNEL
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: note
 source: 11_KNOWLEDGE/kernel
 ---
 
+
+# HEALTH KERNEL
 
 """AMOS logical component.
 

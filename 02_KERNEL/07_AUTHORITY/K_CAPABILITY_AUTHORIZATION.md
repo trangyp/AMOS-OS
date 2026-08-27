@@ -1,5 +1,6 @@
 ---
 title: K CAPABILITY AUTHORIZATION
+type: note
 artifact_id: AMOS-OS-K-CAPABILITY-AUTHORIZATION
 canonical_name: K_CAPABILITY_AUTHORIZATION
 artifact_type: kernel_capability_authorization_contract
@@ -11,9 +12,10 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
-tags: ['kernel', 'authority', 'note']
+tags: [kernel, authority, note]
 
 ---
+
 
 # K CAPABILITY AUTHORIZATION
 

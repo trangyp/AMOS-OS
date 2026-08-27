@@ -1,7 +1,9 @@
 ---
 title: L28 GOVERNANCE MAP
-tags: ['cognitive_matrix', 'l28_governance']
+type: map
+tags: [cognitive_matrix, l28_governance]
 ---
+
 
 
 # L28 GOVERNANCE MAP

@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN GOVERNOR PHASE C
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 # amos_brain_governor_phase_c

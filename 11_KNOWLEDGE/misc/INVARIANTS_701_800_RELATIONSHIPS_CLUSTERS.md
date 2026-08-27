@@ -3,13 +3,14 @@ title: "Invariants 701–800: Relationships & Clusters (with equations)"
 created: "2026-08-22"
 origin: "AMOS brain knowledge ingest — Google Drive / external formalization"
 origin_architect: "Trang Phan / AMOS"
-type: "invariant-cluster"
+type: invariant-cluster
 status: "active"
 provenance: "OBSERVATION"
 confidence: "VERIFIED"
 source: "Ingest batch 2026-08-22"
 tags: [canon-group/human-system, canon/metric, rscf/claim, rscf/provenance, rscf/state/observation, topic/invariants-701-800-relationships-cluster, misc]
 ---
+
 
 # Invariants 701–800: Relationships & Clusters
 

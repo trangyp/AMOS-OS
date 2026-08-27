@@ -1,7 +1,9 @@
 ---
 title: L19 PROOF CAPSULE
-tags: ['canon', 'core_laws', 'note']
+type: proof
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L19 Proof Capsule Laws

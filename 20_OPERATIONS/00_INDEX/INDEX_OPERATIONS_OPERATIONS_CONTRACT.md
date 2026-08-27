@@ -1,7 +1,9 @@
 ---
 title: INDEX OPERATIONS OPERATIONS CONTRACT
-tags: ['amos_os', '20_operations']
+type: index
+tags: [amos_os, 20_operations]
 ---
+
 
 
 # INDEX OPERATIONS OPERATIONS CONTRACT

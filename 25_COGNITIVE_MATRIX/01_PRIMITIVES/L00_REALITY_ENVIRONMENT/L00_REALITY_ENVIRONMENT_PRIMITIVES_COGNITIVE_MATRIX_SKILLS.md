@@ -1,5 +1,6 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Skills"
+type: skill
 aliases:
   - "AMOS Reality Environment Skills"
   - "L00 Reality Skills"
@@ -11,8 +12,7 @@ amos-layer: L00_REALITY_ENVIRONMENT
 architecture-role: reality-grounded-capability-routing-and-skill-governance
 origin-architect: "Trang Phan"
 status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-tags:
-  - amos
+tags: [amos]
   - reality-environment
   - skills
   - capability
@@ -25,6 +25,7 @@ tags:
   - control-plane
   - validation
 ---
+
 
 # L00_REALITY_ENVIRONMENT — Skills
 

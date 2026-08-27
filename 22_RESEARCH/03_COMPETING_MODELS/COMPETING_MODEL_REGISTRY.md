@@ -1,7 +1,9 @@
 ---
 title: COMPETING MODEL REGISTRY
-tags: ['amos_os', '22_research']
+type: model
+tags: [amos_os, 22_research]
 ---
+
 
 
 # COMPETING MODEL REGISTRY

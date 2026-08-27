@@ -1,9 +1,11 @@
 ---
 title: LOVE WITHOUT SAFETY IS NOISE SAFETY WITHOUT CONSIS
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

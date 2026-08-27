@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/misc
 
 
 
+
 April 2020
 
 Purpose: Shifting

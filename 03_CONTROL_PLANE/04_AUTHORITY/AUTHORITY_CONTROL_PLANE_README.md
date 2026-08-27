@@ -1,7 +1,9 @@
 ---
 title: AUTHORITY CONTROL PLANE README
-tags: ['control_plane', 'authority_control_plane_readme.md']
+type: authority
+tags: [control_plane, authority_control_plane_readme.md]
 ---
+
 
 
 # AUTHORITY CONTROL PLANE README

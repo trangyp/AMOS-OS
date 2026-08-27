@@ -1,7 +1,9 @@
 ---
 title: STRATEGY COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '04_strategy']
+type: control-plane
+tags: [control_plane, 04_strategy]
 ---
+
 
 
 # STRATEGY COMMIT CONTROL PLANE MODE FAMILY REGISTRY

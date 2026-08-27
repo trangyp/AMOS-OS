@@ -1,7 +1,9 @@
 ---
 title: INDEX O10 VALUE LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o10_value']
+type: index
+tags: [cognitive_matrix, o10_value]
 ---
+
 
 
 # INDEX O10 VALUE LIFECYCLE OPERATIONS COGNITIVE MATRIX README

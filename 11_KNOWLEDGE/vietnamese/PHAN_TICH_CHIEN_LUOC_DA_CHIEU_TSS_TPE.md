@@ -1,9 +1,11 @@
 ---
 title: PHAN TICH CHIEN LUOC DA CHIEU TSS TPE
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

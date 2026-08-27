@@ -1,9 +1,11 @@
 ---
 title: METHOD DETECTION ISSUES RESOLUTION MISSION
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 # 🌟 AMOS Method Detection Issues Resolution Mission - COMPLETE

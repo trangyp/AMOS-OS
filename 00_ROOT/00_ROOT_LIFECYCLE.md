@@ -1,7 +1,9 @@
 ---
 title: 00 ROOT LIFECYCLE
-tags: ['amos_os', '00_root']
+type: lifecycle
+tags: [amos_os, 00_root]
 ---
+
 
 
 # 00 ROOT LIFECYCLE

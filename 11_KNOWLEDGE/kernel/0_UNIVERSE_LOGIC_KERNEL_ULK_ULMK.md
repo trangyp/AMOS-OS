@@ -1,9 +1,11 @@
 ---
 title: 0 UNIVERSE LOGIC KERNEL ULK ULMK
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: document
 source: 11_KNOWLEDGE/kernel
 ---
+
+
 
 
 # ============================================================

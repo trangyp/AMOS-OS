@@ -2,12 +2,13 @@
 title: "AMOS OS Masterfile Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "brain_model"
+type: brain-model
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/os-masterfile-model, models]
 status: "active"
 provenance: "_AMOS_OS_MasterFile.uos  copy.txt"
 confidence: "STRUCTURAL"
 ---
+
 
 # AMOS OS Masterfile Model
 

@@ -1,5 +1,6 @@
 ---
 title: "Heritage Competing Models"
+type: model
 artifact: "HERITAGE_COMPETING_MODELS.md"
 artifact_id: "amos_22_research_03_competing_models_heritage_competing_models"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "22_RESEARCH/03_COMPETING_MODELS"
 artifact_kind: "MODEL"
 path: "22_RESEARCH/03_COMPETING_MODELS/HERITAGE_COMPETING_MODELS.md"
 
-tags:
-  - amos_os
+tags: [amos_os, research, arxiv]
   - 22_research
   - model
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Heritage Competing Models
 

@@ -1,5 +1,6 @@
 ---
 title: "Canon Bootstrap"
+type: canon
 artifact: "CANON_BOOTSTRAP.md"
 artifact_id: "amos_04_runtime_01_boot_canon_bootstrap"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "04_RUNTIME/01_BOOT"
 artifact_kind: "CANON"
 path: "04_RUNTIME/01_BOOT/CANON_BOOTSTRAP.md"
 
-tags:
-  - amos_os
+tags: [amos_os, runtime, execution]
   - 04_runtime
   - canon
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Canon Bootstrap
 

@@ -1,5 +1,6 @@
 ---
 title: "Multi-RSCF Transaction"
+type: action
 artifact: "MULTI_RSCF_TRANSACTION.md"
 artifact_id: "amos_03_control_plane_06_semantic_transaction_multi_rscf_transaction"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION"
 artifact_kind: "ARTIFACT"
 path: "03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/MULTI_RSCF_TRANSACTION.md"
 
-tags:
-  - amos_os
+tags: [amos_os, control_plane, governance]
   - 03_control_plane
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Multi-RSCF Transaction
 

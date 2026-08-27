@@ -1,9 +1,11 @@
 ---
 title: WHY SPEED IS A MORAL DECISION
-tags: [speed]
+tags: [speed, performance, optimization]
 type: document
 source: 11_KNOWLEDGE/speed
 ---
+
+
 
 
 

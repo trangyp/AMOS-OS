@@ -1,10 +1,12 @@
 ---
 title: PARTNERSHIPS CHANNELS ENGINE
-tags: [engine]
+tags: [engine, processing, runtime]
 type: note
 source: 11_KNOWLEDGE/engine
 ---
 
+
+# PARTNERSHIPS CHANNELS ENGINE
 
 """Partnerships & Channels domain engine.
 

@@ -4,6 +4,7 @@ type: note
 tags: [note, l19-outcome-observation]
 ---
 
+
 # L19 — Tests & Validators
 
 **Package:** `L19_OUTCOME_OBSERVATION`  

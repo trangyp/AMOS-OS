@@ -1,7 +1,9 @@
 ---
 title: INDEX O12 PLAN LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o12_plan']
+type: index
+tags: [cognitive_matrix, o12_plan]
 ---
+
 
 
 # INDEX O12 PLAN LIFECYCLE OPERATIONS COGNITIVE MATRIX README

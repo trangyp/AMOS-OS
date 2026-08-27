@@ -1,7 +1,9 @@
 ---
 title: CELL CONTRACTS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'cell_contracts', 'readme', 'contract_filled']
+type: cognitive
+tags: [cognitive_matrix, cell_contracts, readme, contract_filled]
 ---
+
 
 
 # 06_CELL_CONTRACTS — Cell Contracts Contract Overview

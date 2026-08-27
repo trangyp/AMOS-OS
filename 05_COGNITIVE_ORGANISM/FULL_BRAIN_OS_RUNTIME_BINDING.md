@@ -1,5 +1,6 @@
 ---
 title: "Full Brain OS Runtime Binding"
+type: brain
 artifact: "FULL_BRAIN_OS_RUNTIME_BINDING.md"
 artifact_id: "amos_05_cognitive_organism_full_brain_os_runtime_binding"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "05_COGNITIVE_ORGANISM"
 artifact_kind: "BINDING"
 path: "05_COGNITIVE_ORGANISM/FULL_BRAIN_OS_RUNTIME_BINDING.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive, organism]
   - 05_cognitive_organism
   - binding
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Full Brain OS Runtime Binding
 

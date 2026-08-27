@@ -1,5 +1,6 @@
 ---
 title: SOURCE REGISTRY
+type: registry
 artifact_id: AMOS-OS-SOURCE-REGISTRY
 canonical_name: SOURCE_REGISTRY
 artifact_type: canonical_source_registry
@@ -17,8 +18,7 @@ authority_scope: source-identification-classification-registration-and-resolutio
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, canon, universe]
   - canon-group/meta
   - canon/framework
   - canon/registry
@@ -43,6 +43,8 @@ aliases:
   - AMOS OS Source Registry
   - Canon Source Registry
 ---
+
+
 
 
 # AMOS OS Source Registry

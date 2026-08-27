@@ -1,9 +1,11 @@
 ---
 title: AMOS ENHANCEMENT
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS OMEGA BRAIN - MAXIMUM ENHANCEMENT COMPLETE

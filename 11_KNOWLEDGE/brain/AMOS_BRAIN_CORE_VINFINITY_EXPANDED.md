@@ -1,5 +1,6 @@
 ---
 title: AMOS BRAIN CORE VINFINITY EXPANDED
+type: brain
 canon-group: tech-ai
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-brain-core-vinfinity-expanded
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-brain-core-vinfinity-expanded, brain]
 created: 2026-08-22
 ---
+
 
 
 ```json

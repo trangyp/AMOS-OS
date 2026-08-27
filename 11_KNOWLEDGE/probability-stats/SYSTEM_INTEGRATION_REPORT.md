@@ -1,9 +1,11 @@
 ---
 title: SYSTEM INTEGRATION REPORT
-tags: [probability-stats]
+tags: [probability-stats, probability, statistics]
 type: document
 source: 11_KNOWLEDGE/probability-stats
 ---
+
+
 
 
 # AMOS Final System Integration - Complete Unified Architecture

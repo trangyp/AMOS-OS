@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 01-task-contract]
 ---
 
+
 # 01_TASK_CONTRACT — Map of Content
 
 ## Files

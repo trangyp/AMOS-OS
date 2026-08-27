@@ -1,7 +1,9 @@
 ---
 title: BLIND SPOT REGISTRY
-tags: ['control_plane', 'blind_spot_registry.md']
+type: registry
+tags: [control_plane, blind_spot_registry.md]
 ---
+
 
 
 # BLIND SPOT REGISTRY

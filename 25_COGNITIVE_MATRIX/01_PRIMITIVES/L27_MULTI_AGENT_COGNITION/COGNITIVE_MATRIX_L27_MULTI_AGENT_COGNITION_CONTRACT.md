@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX L27 MULTI AGENT COGNITION CONTRACT
-tags: ['cognitive_matrix', 'primitives', 'l27_multi_agent_cognition', 'contract']
+type: agent
+tags: [cognitive_matrix, primitives, l27_multi_agent_cognition, contract]
 ---
+
 
 
 # L27_MULTI_AGENT_COGNITION — Multi-agent cognition Contract

@@ -1,5 +1,6 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Protocols"
+type: protocol
 aliases:
 
 * "AMOS Reality Environment Protocols"
@@ -27,9 +28,10 @@ aliases:
 * recovery
 * hml
 * rscf
-tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
+tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---
+
 # L00_REALITY_ENVIRONMENT — Protocols
 
 **Class:** `AMOS_REALITY_ENVIRONMENT_PROTOCOL_ARCHITECTURE`

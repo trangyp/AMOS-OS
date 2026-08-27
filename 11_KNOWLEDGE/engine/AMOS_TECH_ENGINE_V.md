@@ -3,13 +3,14 @@ title: "AMOS Tech Engine V∞ — Universal Technical Reasoning Kernel"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Tech Engine .txt"
 origin_architect: "Trang Phan"
-type: "referen"
+type: reference
 tags: [canon-group/tech-ai, amos, tech-engine, technical-reasoning, triple-density, computation, information, causality, interaction, identity, structure, state, transition, canon/framework, rscf/state/observation, rscf/claim, rscf/provenance, topic/amos-tech-engine-v], engine]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 source: "Google Drive /_00_AMOS_CANON/Tech Engine .txt (3013 lines, JSON)"
 ---
+
 
 # AMOS Tech Engine V∞
 

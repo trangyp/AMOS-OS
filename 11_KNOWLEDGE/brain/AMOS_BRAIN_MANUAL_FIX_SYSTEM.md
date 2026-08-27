@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN MANUAL FIX SYSTEM
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 # amos_brain_ultimate_manual_fix_system

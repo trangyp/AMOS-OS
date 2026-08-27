@@ -1,5 +1,6 @@
 ---
 title: "QLS Model Registry"
+type: model
 artifact: "QLS_MODEL_REGISTRY.md"
 artifact_id: "amos_13_models_04_domain_qls_model_registry"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "13_MODELS/04_DOMAIN"
 artifact_kind: "REGISTRY"
 path: "13_MODELS/04_DOMAIN/QLS_MODEL_REGISTRY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, model, specification]
   - 13_models
   - registry
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # QLS Model Registry
 

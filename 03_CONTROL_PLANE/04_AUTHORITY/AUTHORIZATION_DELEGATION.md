@@ -1,7 +1,9 @@
 ---
 title: AUTHORIZATION DELEGATION
-tags: ['control_plane', 'authority', 'note']
+type: delegation
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Authorization Delegation

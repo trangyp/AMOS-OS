@@ -1,7 +1,9 @@
 ---
 title: CONSTRAINT SOLVING MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '95_constraint_solving_modes']
+type: control-plane
+tags: [control_plane, 95_constraint_solving_modes]
 ---
+
 
 
 # CONSTRAINT SOLVING MODES COMMIT CONTROL PLANE README

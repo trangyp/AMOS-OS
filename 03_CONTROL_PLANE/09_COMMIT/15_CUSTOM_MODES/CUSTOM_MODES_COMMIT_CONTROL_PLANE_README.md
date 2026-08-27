@@ -1,7 +1,9 @@
 ---
 title: CUSTOM MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '15_custom_modes']
+type: control-plane
+tags: [control_plane, 15_custom_modes]
 ---
+
 
 
 # CUSTOM MODES COMMIT CONTROL PLANE README

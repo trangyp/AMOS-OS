@@ -4,6 +4,7 @@ type: note
 tags: [note, amos-7-part-universe-canon]
 ---
 
+
 # AMOS 7-Part Universe Canon — Persistence Canon
 
 ## When to Use

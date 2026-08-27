@@ -1,7 +1,9 @@
 ---
 title: GENERATOR CONTRACT
-tags: ['cognitive_matrix', 'generators', 'contract']
+type: generator
+tags: [cognitive_matrix, generators, contract]
 ---
+
 
 
 I found the actual `12_GENERATORS` canonical folder in your Drive, but it currently contains only `build_amos_cognitive_cells.py`; there is no authoritative `12 Generators Contract` artifact there to recover. 

@@ -1,4 +1,5 @@
 ---
+type: neural
 id: AMOS-C04-BIO-NEURO-MASTER-KNOWLEDGE
 title: "AMOS C04 — Biology & Neuro Master Knowledge"
 origin_architect: "Trang Phan"
@@ -29,9 +30,10 @@ source_family_mapping:
   - "F07_organizational_biological_models"
   - "F08_ubbi_alignment_governance"
   - "F09_neuro_plausibility_firewall"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # AMOS C04 — Biology & Neuro Master Knowledge
 
 > **Epistemic boundary**

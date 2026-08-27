@@ -1,9 +1,11 @@
 ---
 title: BIOLOGICAL COMPUTING
-tags: [logic]
+tags: [logic, reasoning, formal]
 type: document
 source: 11_KNOWLEDGE/logic
 ---
+
+
 
 
 

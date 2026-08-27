@@ -1,10 +1,12 @@
 ---
 title: AMOS BRAIN CONTINUOUS STATUS
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: note
 source: 11_KNOWLEDGE/brain
 ---
 
+
+# AMOS BRAIN CONTINUOUS STATUS
 
 🧠 AMOS Brain Supreme - Continuous Execution Status
 =================================================

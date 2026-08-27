@@ -1,9 +1,11 @@
 ---
 title: AMOS GOVERNANCE BENCHMARK STRUCTURAL PCT
-tags: [governance]
+tags: [governance, policy, authority]
 type: document
 source: 11_KNOWLEDGE/governance
 ---
+
+
 
 
 

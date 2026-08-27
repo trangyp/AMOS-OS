@@ -1,7 +1,9 @@
 ---
 title: GENERATOR FALSIFICATION
+type: generator
 tags: [25_cognitive_matrix, 12_generators, generator, falsification, note]
 ---
+
 
 
 # Generator Falsification

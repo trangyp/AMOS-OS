@@ -1,7 +1,9 @@
 ---
 title: L26 SOCIAL COGNITION MAP
-tags: ['cognitive_matrix', 'l26_social_cognition']
+type: map
+tags: [cognitive_matrix, l26_social_cognition]
 ---
+
 
 
 # L26 SOCIAL COGNITION MAP

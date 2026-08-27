@@ -1,7 +1,9 @@
 ---
 title: DEEP ANALYSIS COMMIT CONTROL PLANE ACTIVATION RULES
-tags: ['control_plane', '02_deep_analysis']
+type: rule
+tags: [control_plane, 02_deep_analysis]
 ---
+
 
 
 # DEEP ANALYSIS COMMIT CONTROL PLANE ACTIVATION RULES

@@ -1,5 +1,6 @@
 ---
 title: AMOS NATIONAL BANKING OS EMOTION KERNEL V1 NATIONAL BANKING OS4
+type: kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-national-banking-os-emotion-kernel-v1
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-national-banking-os-emotion-kernel-, kernel]
 created: 2026-08-22
 ---
+
 
 
 ```json

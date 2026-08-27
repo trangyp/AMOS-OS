@@ -1,5 +1,6 @@
 ---
 title: AMOS ECONOMY AND SECTORS PACK V0 AU4
+type: economy
 canon-group: human-system
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-economy-and-sectors-pack-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-economy-and-sectors-pack-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 # AMOS Economy And Sectors Pack v0 Au4

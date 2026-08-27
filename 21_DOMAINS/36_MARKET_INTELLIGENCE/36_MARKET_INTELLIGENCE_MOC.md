@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 36-market-intelligence]
 ---
 
+
 # 36_MARKET_INTELLIGENCE — Map of Content
 
 ## Files

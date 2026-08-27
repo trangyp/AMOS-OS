@@ -1,7 +1,9 @@
 ---
 title: DELEGATION HISTORY
-tags: ['control_plane', 'authority', 'note']
+type: delegation
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Delegation History

@@ -1,10 +1,12 @@
 ---
 title: EQUATIONS FRACTAL COGNITIVE ARCHITECTURE
-tags: [fractal]
+tags: [fractal, math, self-similarity]
 type: note
 source: 11_KNOWLEDGE/fractal
 ---
 
+
+# EQUATIONS FRACTAL COGNITIVE ARCHITECTURE
 
 EQUATIONS = {
     "cognitive_fractal": {

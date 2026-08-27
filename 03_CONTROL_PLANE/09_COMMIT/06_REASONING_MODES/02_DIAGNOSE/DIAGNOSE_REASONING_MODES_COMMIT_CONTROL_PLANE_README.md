@@ -1,7 +1,9 @@
 ---
 title: DIAGNOSE REASONING MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '06_reasoning_modes/02_diagnose']
+type: control-plane
+tags: [control_plane, 06_reasoning_modes/02_diagnose]
 ---
+
 
 
 # DIAGNOSE REASONING MODES COMMIT CONTROL PLANE README

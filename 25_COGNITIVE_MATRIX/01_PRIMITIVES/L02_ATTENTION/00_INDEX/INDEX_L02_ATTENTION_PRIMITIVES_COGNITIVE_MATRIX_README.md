@@ -1,7 +1,9 @@
 ---
 title: INDEX L02 ATTENTION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l02_attention']
+type: index
+tags: [cognitive_matrix, l02_attention]
 ---
+
 
 
 # INDEX L02 ATTENTION PRIMITIVES COGNITIVE MATRIX README

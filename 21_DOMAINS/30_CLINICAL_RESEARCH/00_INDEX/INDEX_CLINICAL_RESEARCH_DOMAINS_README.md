@@ -1,7 +1,9 @@
 ---
 title: INDEX CLINICAL RESEARCH DOMAINS README
-tags: ['amos_os', '21_domains']
+type: index
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # INDEX CLINICAL RESEARCH DOMAINS README

@@ -3,12 +3,13 @@ title: "GCBAT Strategic Partnership Proposal — UBI + NeuroSyncAI IP"
 created: "2026-08-22"
 origin: "Google Drive — Strategic_Partnership_Proposal_to_GCBAT.pdf (836KB)"
 origin_architect: "Quynh Trang Phan"
-type: "business-proposal"
+type: business-proposal
 tags: [canon-group/governance, canon/business, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/X-crossscale, topic/partnership-proposal, misc]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # Strategic Partnership Proposal to GCBAT
 

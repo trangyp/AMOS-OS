@@ -1,7 +1,9 @@
 ---
 title: GENERATORS ROADMAP
-tags: ['cognitive_matrix', 'generators', 'note']
+type: roadmap
+tags: [cognitive_matrix, generators, note]
 ---
+
 
 
 Below is a full AMOS-aligned replacement for `12_GENERATORS/ROADMAP.md`. It treats the roadmap as a governed transition plan, not as proof that the Generator subsystem exists, is implemented, or has passed validation. It also keeps roadmap milestones subordinate to provenance, validation, promotion, authority, and supersession rather than letting “planned” silently become “done.” This follows the AMOS Full Brain OS requirement to preserve structural orchestration while exposing missing implementation or evidence as gaps.  The primary Skill canon is `AMOS_FULL_BRAIN_OS.json`; preserving that architecture does not itself establish empirical or runtime validity.

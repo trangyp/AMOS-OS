@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX CELL REGISTRY CONTRACT
-tags: ['cognitive_matrix', 'cognitive_matrix_cell_registry_contract.md']
+type: cognitive
+tags: [cognitive_matrix, cognitive_matrix_cell_registry_contract.md]
 ---
+
 
 
 # COGNITIVE MATRIX CELL REGISTRY CONTRACT

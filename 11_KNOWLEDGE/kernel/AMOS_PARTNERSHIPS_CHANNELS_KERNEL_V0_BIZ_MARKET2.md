@@ -1,5 +1,6 @@
 ---
 title: AMOS PARTNERSHIPS CHANNELS KERNEL V0 BIZ MARKET2
+type: kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-partnerships-channels-kernel-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-partnerships-channels-kernel-v0, kernel]
 created: 2026-08-22
 ---
+
 
 
 # AMOS_Partnerships_Channels_Kernel_v0

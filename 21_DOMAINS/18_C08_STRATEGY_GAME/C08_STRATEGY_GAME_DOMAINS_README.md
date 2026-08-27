@@ -1,7 +1,9 @@
 ---
 title: C08 STRATEGY GAME DOMAINS README
-tags: ['amos_os', '21_domains']
+type: strategy
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C08 STRATEGY GAME DOMAINS README

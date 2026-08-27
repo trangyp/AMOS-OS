@@ -3,11 +3,12 @@ title: "2026-08-23 Brain Improvement Audit — Vault Structural Repairs"
 created: "2026-08-23"
 origin: "Self-audit of vault structural integrity"
 origin_type: "MODEL"
-type: "audit-note"
+type: audit-note
 status: "validated"
 confidence: "STRUCTURAL"
 tags: [amos, brain-improvement, integrity-audit, wikilink-repair, frontmatter, dated, dated/2026-08-23]
 ---
+
 
 # Brain Improvement Audit — 2026-08-23
 

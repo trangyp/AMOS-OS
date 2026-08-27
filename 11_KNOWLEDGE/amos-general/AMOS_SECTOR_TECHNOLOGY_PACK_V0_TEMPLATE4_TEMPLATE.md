@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/amos-general
 
 
 
+
 # AMOS Sector Technology Pack v0 Template4 Template
 
 > [!info] Template File

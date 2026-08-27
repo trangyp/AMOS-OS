@@ -1,7 +1,9 @@
 ---
 title: MODE ADMISSION QUEUE
-tags: ['control_plane', 'commit', 'mode_index', 'note']
+type: note
+tags: [control_plane, commit, mode_index, note]
 ---
+
 
 
 `MODE_ADMISSION_QUEUE.md` currently contains only a generic README placeholder, so there is no substantive existing file to reproduce verbatim.  There is, however, a related AMOS structural placeholder for `25_CANON_ADMISSION_MODE.md` whose required contract explicitly calls for candidate/schema/provenance/contradiction/scope/authority/admitted/rejected state, transition graphs, entry/exit conditions, provenance, RSCF/GMEF, H/M/L, event bus, MVCC/read-set dependencies, observability, repair, tests, and supersession. 

@@ -1,5 +1,6 @@
 ---
 title: AMOS VN LANGUAGE AND INTERFACE PACK V0 VN4
+type: interface
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-vn-language-and-interface-pack-v0
 tags: [canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-vn-language-and-interface-pack-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 # AMOS Vn Language And Interface Pack v0 Vn4

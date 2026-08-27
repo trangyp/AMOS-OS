@@ -1,12 +1,13 @@
 ---
 title: "AMOS Governance Architecture Decommissioning"
 created: "2026-08-22"
-type: "note"
+type: note
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-governance-architecture, dated, dated/2026-08-22]
 status: "living"
 provenance: "MODEL"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS Governance Architecture & Decommissioning (Gaps 280-290)
 

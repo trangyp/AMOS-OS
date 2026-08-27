@@ -1,5 +1,6 @@
 ---
 title: "Bio-Logical Architecture Design"
+type: architecture
 artifact: "BIO_LOGICAL_ARCHITECTURE_DESIGN.md"
 artifact_id: "amos_21_domains_05_design_bio_logical_architecture_design"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/05_DESIGN"
 artifact_kind: "LOG"
 path: "21_DOMAINS/05_DESIGN/BIO_LOGICAL_ARCHITECTURE_DESIGN.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - log
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Bio-Logical Architecture Design
 

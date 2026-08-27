@@ -1,8 +1,10 @@
 ---
 title: RISK COMPLIANCE MODEL
+type: model
 aliases: [Risk & Compliance Engine, AMOS_Risk_Compliance]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/risk-compliance-model, security]
 ---
+
 
 
 # AMOS Risk & Compliance Engine

@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 03-forex]
 ---
 
+
 # 03_FOREX — Map of Content
 
 ## Files

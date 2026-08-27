@@ -1,5 +1,6 @@
 ---
 title: AMOS NATIONAL BRAIN ENGINE V0 SECTOR PACKS7
+type: brain
 canon-group: tech-ai
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-national-brain-engine-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-national-brain-engine-v0, brain]
 created: 2026-08-22
 ---
+
 
 
 ```json

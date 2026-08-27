@@ -1,7 +1,9 @@
 ---
 title: VALIDATION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '26_validation_modes']
+type: control-plane
+tags: [control_plane, 26_validation_modes]
 ---
+
 
 
 # VALIDATION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

@@ -1,7 +1,9 @@
 ---
 title: L18 ACTION MAP
-tags: ['cognitive_matrix', 'l18_action']
+type: map
+tags: [cognitive_matrix, l18_action]
 ---
+
 
 
 # L18 ACTION MAP

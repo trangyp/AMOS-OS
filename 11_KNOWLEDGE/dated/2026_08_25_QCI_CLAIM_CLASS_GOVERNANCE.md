@@ -6,6 +6,7 @@ epistemic: DERIVED/MODEL
 tags: [quantum, qci, coherence, governance, epistemic, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — QCI Claim-Class Governance
 
 ## Gap found

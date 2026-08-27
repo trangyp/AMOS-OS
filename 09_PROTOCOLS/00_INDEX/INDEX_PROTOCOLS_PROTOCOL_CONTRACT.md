@@ -1,7 +1,9 @@
 ---
 title: INDEX PROTOCOLS PROTOCOL CONTRACT
-tags: ['amos_os', '09_protocols']
+type: index
+tags: [amos_os, 09_protocols]
 ---
+
 
 
 # INDEX PROTOCOLS PROTOCOL CONTRACT

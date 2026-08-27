@@ -1,8 +1,10 @@
 ---
 title: SOCIETY CULTURE MODEL
+type: model
 aliases: [Society & Culture Engine, AMOS_Society_Culture]
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/society-culture-model, models]
 ---
+
 
 
 # AMOS Society & Culture Engine

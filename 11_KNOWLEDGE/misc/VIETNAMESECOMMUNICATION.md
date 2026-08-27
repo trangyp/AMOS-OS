@@ -1,10 +1,12 @@
 ---
 title: VIETNAMESECOMMUNICATION
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# VIETNAMESECOMMUNICATION
 
 // Vietnamese Communication Pack
 import { PackItem, PackCategory } from "../masterPacks";

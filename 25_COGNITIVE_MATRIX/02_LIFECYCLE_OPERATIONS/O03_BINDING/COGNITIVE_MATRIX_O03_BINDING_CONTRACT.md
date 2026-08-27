@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX O03 BINDING CONTRACT
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o03_binding', 'contract']
+type: cognitive
+tags: [cognitive_matrix, lifecycle_operations, o03_binding, contract]
 ---
+
 
 
 # O03_BINDING — Binding features/entities across contexts; conflicts fail visible.

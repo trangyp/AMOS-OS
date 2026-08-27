@@ -4,6 +4,7 @@ type: note
 tags: [note, 12-generators]
 ---
 
+
 I did not recover an authoritative Drive artifact named `GENERATOR_SEED.md`; the search returned unrelated or adjacent materials instead, so the content below is a **substantive `AMOS_MODEL / CANDIDATE_CANON` replacement**, not recovered canon. 
 
 ````markdown

@@ -1,7 +1,9 @@
 ---
 title: INDEX O14 ACTION LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o14_action']
+type: index
+tags: [cognitive_matrix, o14_action]
 ---
+
 
 
 # INDEX O14 ACTION LIFECYCLE OPERATIONS COGNITIVE MATRIX README

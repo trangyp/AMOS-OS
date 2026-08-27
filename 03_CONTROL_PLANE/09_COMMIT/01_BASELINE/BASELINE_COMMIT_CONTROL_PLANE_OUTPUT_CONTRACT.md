@@ -1,7 +1,9 @@
 ---
 title: BASELINE COMMIT CONTROL PLANE OUTPUT CONTRACT
-tags: ['control_plane', '01_baseline']
+type: control-plane
+tags: [control_plane, 01_baseline]
 ---
+
 
 
 # BASELINE COMMIT CONTROL PLANE OUTPUT CONTRACT

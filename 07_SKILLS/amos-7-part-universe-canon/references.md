@@ -4,6 +4,7 @@ type: note
 tags: [note, amos-7-part-universe-canon]
 ---
 
+
 # References — amos-7-part-universe-canon
 
 ## Session-Specific Detail

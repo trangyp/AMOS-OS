@@ -1,7 +1,9 @@
 ---
 title: INDEX O05 MEMORY LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o05_memory']
+type: index
+tags: [cognitive_matrix, o05_memory]
 ---
+
 
 
 # INDEX O05 MEMORY LIFECYCLE OPERATIONS COGNITIVE MATRIX README

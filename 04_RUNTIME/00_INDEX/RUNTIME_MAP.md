@@ -1,7 +1,9 @@
 ---
 title: RUNTIME MAP
-tags: ['amos_os', '04_runtime']
+type: map
+tags: [amos_os, 04_runtime]
 ---
+
 
 
 # RUNTIME MAP

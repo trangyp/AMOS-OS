@@ -1,7 +1,9 @@
 ---
 title: SUPERSESSION MAP
-tags: ['amos_os', '01_canon']
+type: supersession
+tags: [amos_os, 01_canon]
 ---
+
 
 
 # SUPERSESSION MAP

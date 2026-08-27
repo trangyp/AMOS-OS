@@ -1,7 +1,9 @@
 ---
 title: 00 ROOT RELEASE NOTES
-tags: ['amos_os', '00_root']
+type: note
+tags: [amos_os, 00_root]
 ---
+
 
 
 # 00 ROOT RELEASE NOTES

@@ -1,9 +1,11 @@
 ---
 title: ENERGY ARCHITECTURE
-tags: [energy]
+tags: [energy, power, green]
 type: data
 source: 11_KNOWLEDGE/energy
 ---
+
+
 
 
 

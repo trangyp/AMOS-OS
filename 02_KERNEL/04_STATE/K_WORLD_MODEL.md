@@ -1,5 +1,6 @@
 ---
 title: K WORLD MODEL
+type: model
 artifact_id: AMOS-OS-K-WORLD-MODEL
 canonical_name: K_WORLD_MODEL
 artifact_type: kernel_world_model_contract
@@ -13,8 +14,7 @@ kernel_family: WORLD_MODEL
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - canon/model
   - kernel
@@ -37,6 +37,8 @@ tags:
   - topic/simulation
   - topic/uncertainty
 ---
+
+
 
 
 # K WORLD MODEL

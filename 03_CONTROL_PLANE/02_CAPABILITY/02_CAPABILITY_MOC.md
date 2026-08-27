@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 02-capability]
 ---
 
+
 # 02_CAPABILITY — Map of Content
 
 ## Files

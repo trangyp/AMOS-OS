@@ -1,7 +1,9 @@
 ---
 title: TASK RESOLVER
-tags: ['control_plane', 'task_contract', 'note']
+type: task
+tags: [control_plane, task_contract, note]
 ---
+
 
 
 Confirmed: the Drive artifact `TASK_RESOLVER.md` exists in the intended Task Contract subsystem, but its current content is the same erroneous `# K COUNTERFACTUAL` placeholder rather than a substantive resolver specification.  

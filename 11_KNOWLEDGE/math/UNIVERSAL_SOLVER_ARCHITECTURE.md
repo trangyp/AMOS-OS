@@ -1,9 +1,11 @@
 ---
 title: UNIVERSAL SOLVER ARCHITECTURE
-tags: [math]
+tags: [math, equation, formal]
 type: document
 source: 11_KNOWLEDGE/math
 ---
+
+
 
 
 # AMOS Universal Solver Architecture (USA) - Implementation Complete

@@ -1,5 +1,6 @@
 ---
 title: "UBI SUPER"
+type: note
 artifact: "UBI_SUPER.md"
 artifact_id: "amos_11_knowledge_05_frameworks_ubi_super"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "ARTIFACT"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/UBI_SUPER.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # UBI SUPER
 

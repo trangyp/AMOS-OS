@@ -1,7 +1,9 @@
 ---
 title: MODELS MODEL CONTRACT
-tags: ['amos_os', '13_models']
+type: model
+tags: [amos_os, 13_models]
 ---
+
 
 
 # MODELS MODEL CONTRACT

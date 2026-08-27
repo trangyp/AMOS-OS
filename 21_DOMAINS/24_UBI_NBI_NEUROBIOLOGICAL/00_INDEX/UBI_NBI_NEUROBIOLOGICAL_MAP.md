@@ -1,7 +1,9 @@
 ---
 title: UBI NBI NEUROBIOLOGICAL MAP
-tags: ['amos_os', '21_domains']
+type: map
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # UBI NBI NEUROBIOLOGICAL MAP

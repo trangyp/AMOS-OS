@@ -1,7 +1,9 @@
 ---
 title: INDEX COGNITIVE ORGANISM COGNITIVE ORGANISM CONTRACT
-tags: ['amos_os', '05_cognitive_organism']
+type: index
+tags: [amos_os, 05_cognitive_organism]
 ---
+
 
 
 # INDEX COGNITIVE ORGANISM COGNITIVE ORGANISM CONTRACT

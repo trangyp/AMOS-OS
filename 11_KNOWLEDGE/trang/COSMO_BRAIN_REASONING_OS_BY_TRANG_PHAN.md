@@ -5,6 +5,7 @@ created: 2026-08-22
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/cosmo-brain-reasoning-os-by-trang-phan, trang]
 ---
 
+
 # Bridge: Cosmo Brain — Reasoning OS by Trang Phan
 
 > [!warning] GAP — No target note exists

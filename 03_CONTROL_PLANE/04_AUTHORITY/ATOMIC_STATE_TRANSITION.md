@@ -1,7 +1,9 @@
 ---
 title: ATOMIC STATE TRANSITION
-tags: ['control_plane', 'authority', 'note']
+type: transition
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Atomic State Transition

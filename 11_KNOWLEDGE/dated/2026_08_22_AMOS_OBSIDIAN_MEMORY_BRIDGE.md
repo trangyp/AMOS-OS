@@ -1,5 +1,6 @@
 ---
 title: 2026 08 22 AMOS OBSIDIAN MEMORY BRIDGE
+type: memory
 origin_architect: Trang Phan
 provenance: cosmo-brain/AMOS_OBSIDIAN_MEMORY_BRIDGE.py
 confidence: 0.95
@@ -8,6 +9,7 @@ conclusion_label: "VERIFIED_PRESENT"
 tags: [canon-group/tech-ai, cosmo-brain, memory-bridge, obsidian, persistence, rscf/state/observation, canon/os-module, rscf/claim, rscf/provenance, topic/2026-08-22-amos-obsidian-memory-bridge, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 
 # AMOS Obsidian Memory Bridge — Brain as Vault

@@ -4,6 +4,7 @@ type: note
 tags: [note, 07-coverage]
 ---
 
+
 # COVERAGE_MODEL — Definition
 
 **Package:** `COVERAGE_MODEL_`  

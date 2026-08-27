@@ -1,7 +1,9 @@
 ---
 title: INTERACTION EXPRESSION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '33_interaction_expression_modes']
+type: control-plane
+tags: [control_plane, 33_interaction_expression_modes]
 ---
+
 
 
 # INTERACTION EXPRESSION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

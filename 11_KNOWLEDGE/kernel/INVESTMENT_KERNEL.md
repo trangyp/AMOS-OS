@@ -1,10 +1,12 @@
 ---
 title: INVESTMENT KERNEL
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: note
 source: 11_KNOWLEDGE/kernel
 ---
 
+
+# INVESTMENT KERNEL
 
 """AMOS logical component.
 

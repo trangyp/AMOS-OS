@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN ADVANCED FIXER
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 # -*- coding: utf-8 -*-

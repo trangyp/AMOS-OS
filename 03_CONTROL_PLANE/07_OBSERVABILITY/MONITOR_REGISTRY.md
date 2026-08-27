@@ -1,7 +1,9 @@
 ---
 title: MONITOR REGISTRY
-tags: ['control_plane', 'monitor_registry.md']
+type: registry
+tags: [control_plane, monitor_registry.md]
 ---
+
 
 
 # MONITOR REGISTRY

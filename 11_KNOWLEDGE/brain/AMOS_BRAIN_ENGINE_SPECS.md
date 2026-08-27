@@ -3,7 +3,7 @@ title: "AMOS Brain Engine Specs"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Core/"
 origin_architect: "Trang Phan"
-type: "reference"
+type: reference
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-brain-engine-specs, brain]
 status: "active"
 provenance: "VERIFIED"
@@ -17,6 +17,7 @@ sources:
   - "_00_AMOS_CANON/AMOS_MAX_EXPANDED.json"
   - "_00_AMOS_CANON/AMOS_Speed_Engine_v0.json"
 ---
+
 
 # AMOS Brain Engine Specs
 

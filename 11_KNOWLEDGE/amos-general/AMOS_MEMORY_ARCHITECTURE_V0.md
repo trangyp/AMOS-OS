@@ -1,5 +1,6 @@
 ---
 title: AMOS MEMORY ARCHITECTURE V0
+type: architecture
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-memory-architecture-v0
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-memory-architecture-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 ```json

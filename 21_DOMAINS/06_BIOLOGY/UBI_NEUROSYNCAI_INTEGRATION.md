@@ -1,5 +1,6 @@
 ---
 title: "UBI NeuroSyncAI Integration"
+type: integration
 artifact: "UBI_NEUROSYNCAI_INTEGRATION.md"
 artifact_id: "amos_21_domains_06_biology_ubi_neurosyncai_integration"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/06_BIOLOGY"
 artifact_kind: "INTEGRATION"
 path: "21_DOMAINS/06_BIOLOGY/UBI_NEUROSYNCAI_INTEGRATION.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - integration
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # UBI NeuroSyncAI Integration
 

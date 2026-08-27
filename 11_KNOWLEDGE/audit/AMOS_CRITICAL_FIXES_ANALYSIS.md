@@ -1,9 +1,11 @@
 ---
 title: AMOS CRITICAL FIXES ANALYSIS
-tags: [audit]
+tags: [audit, repair, quality]
 type: document
 source: 11_KNOWLEDGE/audit
 ---
+
+
 
 
 # AMOS BRAIN SUPREME - CRITICAL FIXES ANALYSIS

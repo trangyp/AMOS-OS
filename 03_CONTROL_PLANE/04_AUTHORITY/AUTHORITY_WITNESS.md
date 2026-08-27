@@ -1,7 +1,9 @@
 ---
 title: AUTHORITY WITNESS
-tags: ['control_plane', 'authority', 'note']
+type: authority
+tags: [control_plane, authority, note]
 ---
+
 
 
 # AUTHORITY_WITNESS.md

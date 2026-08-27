@@ -1,7 +1,9 @@
 ---
 title: EFFECT RELEASE STATE
-tags: ['control_plane', 'effect_release_state.md']
+type: state
+tags: [control_plane, effect_release_state.md]
 ---
+
 
 
 # EFFECT RELEASE STATE

@@ -1,7 +1,9 @@
 ---
 title: MODE TEMPLATE COMMIT CONTROL PLANE ACTIVATION RULES
-tags: ['control_plane', '16_mode_template']
+type: rule
+tags: [control_plane, 16_mode_template]
 ---
+
 
 
 # MODE TEMPLATE COMMIT CONTROL PLANE ACTIVATION RULES

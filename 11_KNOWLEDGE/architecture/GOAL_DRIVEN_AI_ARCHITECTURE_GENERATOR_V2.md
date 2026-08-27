@@ -1,9 +1,11 @@
 ---
 title: GOAL DRIVEN AI ARCHITECTURE GENERATOR V2
-tags: [architecture]
+tags: [architecture, design, structure]
 type: document
 source: 11_KNOWLEDGE/architecture
 ---
+
+
 
 
 # goal_driven_ai_architecture_generator_v2

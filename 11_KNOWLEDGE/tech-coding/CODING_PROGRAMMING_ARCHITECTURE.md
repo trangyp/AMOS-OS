@@ -1,9 +1,11 @@
 ---
 title: CODING PROGRAMMING ARCHITECTURE
-tags: [tech-coding]
+tags: [tech-coding, tech, coding]
 type: data
 source: 11_KNOWLEDGE/tech-coding
 ---
+
+
 
 
 

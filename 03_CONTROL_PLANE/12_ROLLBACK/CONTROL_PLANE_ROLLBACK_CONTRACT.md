@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE ROLLBACK CONTRACT
-tags: ['control_plane', 'control_plane_rollback_contract.md']
+type: control-plane
+tags: [control_plane, control_plane_rollback_contract.md]
 ---
+
 
 
 # CONTROL PLANE ROLLBACK CONTRACT

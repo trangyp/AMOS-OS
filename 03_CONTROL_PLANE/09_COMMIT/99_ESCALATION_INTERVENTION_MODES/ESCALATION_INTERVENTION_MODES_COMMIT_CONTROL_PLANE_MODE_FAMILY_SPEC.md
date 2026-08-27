@@ -1,7 +1,9 @@
 ---
 title: ESCALATION INTERVENTION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '99_escalation_intervention_modes']
+type: control-plane
+tags: [control_plane, 99_escalation_intervention_modes]
 ---
+
 
 
 # ESCALATION INTERVENTION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

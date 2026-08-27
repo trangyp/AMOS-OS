@@ -1,9 +1,11 @@
 ---
 title: AMOS ENGINE PRACTICAL
-tags: [engine]
+tags: [engine, processing, runtime]
 type: document
 source: 11_KNOWLEDGE/engine
 ---
+
+
 
 
 # AMOS Engine - Practical Post-LLM Intelligence System - Implementation Complete

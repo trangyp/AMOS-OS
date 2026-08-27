@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 06-reasoning-modes]
 ---
 
+
 # 06_REASONING_MODES — Map of Content
 
 ## Files

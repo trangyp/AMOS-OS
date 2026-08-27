@@ -1,7 +1,9 @@
 ---
 title: INDEX WORKFLOWS WORKFLOW CONTRACT
-tags: ['amos_os', '08_workflows']
+type: index
+tags: [amos_os, 08_workflows]
 ---
+
 
 
 # INDEX WORKFLOWS WORKFLOW CONTRACT

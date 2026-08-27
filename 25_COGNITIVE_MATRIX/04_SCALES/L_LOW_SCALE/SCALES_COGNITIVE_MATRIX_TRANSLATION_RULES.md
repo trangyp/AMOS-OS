@@ -4,6 +4,7 @@ type: note
 tags: [note, l-low-scale]
 ---
 
+
 # L — Translation Rules
 
 **Package:** `L_LOW_SCALE`  

@@ -1,7 +1,9 @@
 ---
 title: FULL TREE
-tags: ['00_root', 'note']
+type: tree
+tags: [00_root, note]
 ---
+
 
 
 # AMOS OS Full Tree

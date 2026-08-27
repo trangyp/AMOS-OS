@@ -1,7 +1,9 @@
 ---
 title: FINALIZATION CHECKPOINT MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '82_finalization_checkpoint_modes']
+type: control-plane
+tags: [control_plane, 82_finalization_checkpoint_modes]
 ---
+
 
 
 # FINALIZATION CHECKPOINT MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

@@ -1,7 +1,9 @@
 ---
 title: ENGINEERING MATH DOMAINS DOMAIN SPEC
-tags: ['amos_os', '21_domains']
+type: math
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # ENGINEERING MATH DOMAINS DOMAIN SPEC

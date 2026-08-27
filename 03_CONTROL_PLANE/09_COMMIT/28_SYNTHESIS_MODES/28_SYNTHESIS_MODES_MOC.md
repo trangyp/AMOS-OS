@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 28-synthesis-modes]
 ---
 
+
 # 28_SYNTHESIS_MODES — Map of Content
 
 ## Files

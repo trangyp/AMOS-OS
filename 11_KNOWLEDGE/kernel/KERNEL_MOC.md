@@ -4,6 +4,7 @@ type: moc
 tags: [moc, kernel]
 ---
 
+
 # Kernel — Map of Content
 
 - [[AMOS_ANALOGY_ABSTRACTION_KERNEL]]

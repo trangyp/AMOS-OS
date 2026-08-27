@@ -1,7 +1,9 @@
 ---
 title: TOOL USE MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '32_tool_use_modes']
+type: control-plane
+tags: [control_plane, 32_tool_use_modes]
 ---
+
 
 
 # TOOL USE MODES COMMIT CONTROL PLANE README

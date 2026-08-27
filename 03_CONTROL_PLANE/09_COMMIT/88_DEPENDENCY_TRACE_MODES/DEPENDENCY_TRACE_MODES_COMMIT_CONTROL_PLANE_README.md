@@ -1,7 +1,9 @@
 ---
 title: DEPENDENCY TRACE MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '88_dependency_trace_modes']
+type: dependency
+tags: [control_plane, 88_dependency_trace_modes]
 ---
+
 
 
 # DEPENDENCY TRACE MODES COMMIT CONTROL PLANE README

@@ -4,6 +4,7 @@ type: note
 tags: [note, 11-validation]
 ---
 
+
 ````markdown
 ---
 artifact_id: AMOS-CM-11-VALIDATION-L00-REALITY

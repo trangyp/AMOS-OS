@@ -1,9 +1,11 @@
 ---
 title: THE LAW OF LAW THE RULE OF 2 AND THE RULE OF 4
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

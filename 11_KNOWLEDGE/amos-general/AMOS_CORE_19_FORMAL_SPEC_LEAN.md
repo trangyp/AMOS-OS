@@ -3,13 +3,14 @@ title: "AMOS CORE-19 v0.3 — Formal Specification (Lean-style)"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Reasoning kernel.txt"
 origin_architect: "Trang Phan"
-type: "referen"
+type: reference
 tags: [canon-group/tech-ai, amos, deterministic-logic, formal-spec, CORE-19, lean, theorem-proving, sorts, predicates, canon/framework, rscf/state/observation, rscf/claim, rscf/provenance, topic/amos-core-19-formal-spec-lean], amos-general]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 source: "Google Drive /_00_AMOS_CANON/Reasoning kernel.txt (211 lines, Lean-style spec)"
 ---
+
 
 # AMOS CORE-19 v0.3 — Formal Specification (Lean-style)
 

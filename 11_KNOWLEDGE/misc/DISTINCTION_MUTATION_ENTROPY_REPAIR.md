@@ -1,10 +1,12 @@
 ---
 title: DISTINCTION MUTATION ENTROPY REPAIR
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# DISTINCTION MUTATION ENTROPY REPAIR
 
 ﻿canon-group: tech-ai
 canon-type: architecture

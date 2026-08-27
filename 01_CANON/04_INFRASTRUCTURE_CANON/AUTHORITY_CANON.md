@@ -1,4 +1,5 @@
 ---
+type: canon
 artifact_id: AMOS-AUTHORITY-CANON
 name: AUTHORITY_CANON
 title: "AMOS Authority Canon — Decision Rights, Permission, Commit, and Governance Law"
@@ -20,8 +21,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos
+tags: [amos, canon, universe]
   - amos-os
   - amos-core
   - amos-core-v4-4
@@ -55,6 +55,8 @@ aliases:
   - AMOS Decision Rights Canon
   - AMOS Governance Authority Model
 ---
+
+
 
 # AMOS Authority Canon
 

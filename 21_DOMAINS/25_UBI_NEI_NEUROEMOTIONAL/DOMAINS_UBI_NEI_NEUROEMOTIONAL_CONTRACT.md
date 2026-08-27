@@ -1,7 +1,9 @@
 ---
 title: DOMAINS UBI NEI NEUROEMOTIONAL CONTRACT
-tags: ['amos_os', '21_domains']
+type: emotion
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS UBI NEI NEUROEMOTIONAL CONTRACT

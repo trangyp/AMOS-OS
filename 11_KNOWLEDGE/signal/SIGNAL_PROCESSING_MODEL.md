@@ -1,8 +1,10 @@
 ---
 title: SIGNAL PROCESSING MODEL
+type: model
 aliases: [Signal Processing Engine, AMOS_Signal_Processing]
 tags: [canon-group/biology, canon/model, rscf/claim, rscf/provenance, rscf/state/observation, topic/signal-processing-model, signal]
 ---
+
 
 
 # AMOS Signal Processing Engine

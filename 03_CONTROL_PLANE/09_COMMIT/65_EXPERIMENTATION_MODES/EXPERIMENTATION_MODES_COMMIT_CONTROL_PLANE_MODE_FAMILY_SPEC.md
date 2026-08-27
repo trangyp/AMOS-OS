@@ -1,7 +1,9 @@
 ---
 title: EXPERIMENTATION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '65_experimentation_modes']
+type: control-plane
+tags: [control_plane, 65_experimentation_modes]
 ---
+
 
 
 # EXPERIMENTATION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

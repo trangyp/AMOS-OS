@@ -1,9 +1,11 @@
 ---
 title: RAW WRITE VIOLATIONS
-tags: [audit]
+tags: [audit, repair, quality]
 type: document
 source: 11_KNOWLEDGE/audit
 ---
+
+
 
 
 # Raw Write Enforcement Report

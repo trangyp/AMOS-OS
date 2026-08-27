@@ -1,9 +1,11 @@
 ---
 title: HOA DON CHIEU LE PROFORMA INVOICE
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

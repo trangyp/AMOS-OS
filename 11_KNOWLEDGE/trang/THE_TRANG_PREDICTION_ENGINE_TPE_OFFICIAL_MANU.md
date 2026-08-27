@@ -1,9 +1,11 @@
 ---
 title: THE TRANG PREDICTION ENGINE TPE OFFICIAL MANU
-tags: [trang]
+tags: [trang, framework, reality]
 type: document
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

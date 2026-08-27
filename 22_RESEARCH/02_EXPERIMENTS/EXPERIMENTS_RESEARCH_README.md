@@ -1,7 +1,9 @@
 ---
 title: EXPERIMENTS RESEARCH README
-tags: ['amos_os', '22_research']
+type: research
+tags: [amos_os, 22_research]
 ---
+
 
 
 # EXPERIMENTS RESEARCH README

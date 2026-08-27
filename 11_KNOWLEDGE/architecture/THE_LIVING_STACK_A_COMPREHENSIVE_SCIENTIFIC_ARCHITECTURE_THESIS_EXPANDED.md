@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/architecture
 ---
 
-
+# THE LIVING STACK A COMPREHENSIVE SCIENTIFIC ARCHITECTURE THESIS EXPANDED
 
 Talent Attraction and Development: The Living Stack's emphasis on human capability enhancement
 

@@ -4,6 +4,7 @@ type: note
 tags: [note, c04-reasoning]
 ---
 
+
 # C04 — Invariants
 
 **Package:** `C04_REASONING`  

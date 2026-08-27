@@ -1,5 +1,6 @@
 ---
 title: K IDENTITY
+type: identity
 artifact_id: AMOS-OS-K-IDENTITY
 canonical_name: K_IDENTITY
 artifact_type: kernel_identity_contract
@@ -14,8 +15,7 @@ domain: identity
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - canon/model
   - kernel
@@ -39,6 +39,8 @@ aliases:
   - K Identity
   - K_IDENTITY
 ---
+
+
 
 
 # K IDENTITY

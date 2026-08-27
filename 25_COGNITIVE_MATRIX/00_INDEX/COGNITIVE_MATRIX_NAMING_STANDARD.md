@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX NAMING STANDARD
-tags: ['cognitive_matrix', 'index', 'note']
+type: naming
+tags: [cognitive_matrix, index, note]
 ---
+
 
 
 # 00_INDEX — AMOS Cognitive Matrix Naming Standard

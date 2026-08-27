@@ -4,6 +4,7 @@ type: note
 tags: [note, o09-simulation]
 ---
 
+
 # O09 — Agents
 
 **Package:** `O09_SIMULATION`  

@@ -4,6 +4,7 @@ type: note
 tags: [note, l22-consolidation]
 ---
 
+
 # L22 — H/M/L Applicability
 
 **Package:** `L22_CONSOLIDATION`  

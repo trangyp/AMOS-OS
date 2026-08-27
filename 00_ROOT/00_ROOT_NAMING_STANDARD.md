@@ -1,4 +1,5 @@
 ---
+type: naming
 aliases:
 - NAMING_STANDARD
 
@@ -41,8 +42,7 @@ scope:
   - version_identity
   - rename_governance
 
-tags:
-  - amos
+tags: [amos, amos_os, root]
   - amos-os
   - naming
   - naming-standard
@@ -103,6 +103,8 @@ related:
   - "[[ROADMAP]]"
   - "[[RSCF_NODE_INDEX]]"
 ---
+
+
 
 # AMOS OS Naming Standard
 

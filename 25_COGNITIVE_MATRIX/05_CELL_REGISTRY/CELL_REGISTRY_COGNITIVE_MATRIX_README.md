@@ -1,7 +1,9 @@
 ---
 title: CELL REGISTRY COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'cell_registry', 'readme', 'contract_filled']
+type: cognitive
+tags: [cognitive_matrix, cell_registry, readme, contract_filled]
 ---
+
 
 
 # 05_CELL_REGISTRY — Cell Registry Contract Overview

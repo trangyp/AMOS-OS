@@ -1,7 +1,9 @@
 ---
 title: COMMIT CONTROL PLANE FAILURE RECOVERY
-tags: ['control_plane', '02_deep_analysis']
+type: failure-mode
+tags: [control_plane, 02_deep_analysis]
 ---
+
 
 
 # COMMIT CONTROL PLANE FAILURE RECOVERY

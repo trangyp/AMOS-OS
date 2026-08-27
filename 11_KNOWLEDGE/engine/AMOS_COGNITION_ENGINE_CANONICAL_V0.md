@@ -1,5 +1,6 @@
 ---
 title: AMOS COGNITION ENGINE CANONICAL V0
+type: canon
 canon-group: biology
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-cognition-engine-canonical-v0
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-cognition-engine-canonical-v0, engine]
 created: 2026-08-22
 ---
+
 
 
 ```json

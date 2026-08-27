@@ -1,5 +1,6 @@
 ---
 title: "AMOS OS — ADD-ONLY Canon File Manifest"
+type: canon
 artifact: AMOS_OS_ADD_ONLY_CANON_FILE_MANIFEST.md
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -8,13 +9,14 @@ updated: 2026-08-27
 status: ACTIVE_MANIFEST
 epistemic_class: AMOS_MODEL
 ingestion_action: ADD_ONLY
-tags:
-  - amos_os
+tags: [amos_os, root, index]
   - canon-ingestion
   - add-only
   - manifest
   - rscf
 ---
+
+
 
 # AMOS OS — ADD-ONLY Canon File Manifest
 

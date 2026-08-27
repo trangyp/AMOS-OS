@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/kernel
 ---
 
-
+# REASONING KERNEL
 
 /-
   CORE-19 v0.3 — Formal Spec (Lean-style)

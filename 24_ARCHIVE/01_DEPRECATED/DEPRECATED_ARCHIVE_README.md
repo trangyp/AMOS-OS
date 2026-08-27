@@ -1,7 +1,9 @@
 ---
 title: DEPRECATED ARCHIVE README
-tags: ['amos_os', '24_archive']
+type: deprecated
+tags: [amos_os, 24_archive]
 ---
+
 
 
 # DEPRECATED ARCHIVE README

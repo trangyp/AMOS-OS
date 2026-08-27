@@ -5,6 +5,7 @@ created: 2026-08-22
 tags: [canon-group/tech-ai, canon/os-module, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-full-brain-os-architecture, brain]
 ---
 
+
 # Bridge: AMOS Full Brain OS Architecture
 
 > [!info] Resolved Bridge

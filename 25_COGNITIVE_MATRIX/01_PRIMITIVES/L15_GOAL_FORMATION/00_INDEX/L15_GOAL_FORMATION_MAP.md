@@ -1,7 +1,9 @@
 ---
 title: L15 GOAL FORMATION MAP
-tags: ['cognitive_matrix', 'l15_goal_formation']
+type: map
+tags: [cognitive_matrix, l15_goal_formation]
 ---
+
 
 
 # L15 GOAL FORMATION MAP

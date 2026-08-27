@@ -1,9 +1,11 @@
 ---
 title: STRATEGIC ANALYSIS REPORT
-tags: [strategy]
+tags: [strategy, game, planning]
 type: document
 source: 11_KNOWLEDGE/strategy
 ---
+
+
 
 
 

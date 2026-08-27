@@ -1,7 +1,9 @@
 ---
 title: POLICY MAP
-tags: ['control_plane', '00_index']
+type: map
+tags: [control_plane, 00_index]
 ---
+
 
 
 # POLICY MAP

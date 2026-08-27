@@ -4,6 +4,7 @@ type: note
 tags: [note, o02-relation]
 ---
 
+
 # O02 — Preconditions
 
 **Package:** `O02_RELATION`  

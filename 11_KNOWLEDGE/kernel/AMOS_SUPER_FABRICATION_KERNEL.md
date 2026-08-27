@@ -1,5 +1,6 @@
 ---
 title: AMOS SUPER FABRICATION KERNEL
+type: kernel
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-super-fabrication
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-super-fabrication, kernel]
 created: 2026-08-22
 ---
+
 
 
 ```json

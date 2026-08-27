@@ -3,12 +3,13 @@ title: "Planetary Consent Infrastructure — Investment Brief"
 created: "2026-08-22"
 origin: "Google Drive — new troy/Planetary Consent Infrastructure - Investor Brief.pdf"
 origin_architect: "Quynh Trang Phan"
-type: "investment-brief"
+type: investment-brief
 tags: [troy, planetary-consent, consent-infrastructure, investor-brief, 308T-decisions, 67-actors, 98-consent-types, 100B-market, series-A-25M, misc]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # Planetary Consent Infrastructure — Executive Investment Brief
 

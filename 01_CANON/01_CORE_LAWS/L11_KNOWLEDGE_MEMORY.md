@@ -1,7 +1,9 @@
 ---
 title: L11 KNOWLEDGE MEMORY
-tags: ['canon', 'core_laws', 'note']
+type: memory
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L11 Knowledge & Memory Laws

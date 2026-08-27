@@ -1,9 +1,11 @@
 ---
 title: CANONICAL EQUATION FRAMEWORK
-tags: [math]
+tags: [math, equation, formal]
 type: document
 source: 11_KNOWLEDGE/math
 ---
+
+
 
 
 # AMOS Canonical Equation Framework - Implementation Complete

@@ -1,9 +1,11 @@
 ---
 title: HOW THE FLOATING ECONOMY USES THE MARKET
-tags: [economy]
+tags: [economy, finance, market]
 type: document
 source: 11_KNOWLEDGE/economy
 ---
+
+
 
 
 

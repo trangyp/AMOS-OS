@@ -1,7 +1,9 @@
 ---
 title: AUTHORIZATION AUDIT
-tags: ['control_plane', 'authority', 'note']
+type: note
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Authorization Audit

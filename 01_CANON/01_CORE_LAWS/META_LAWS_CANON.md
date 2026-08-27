@@ -1,5 +1,6 @@
 ---
 title: "Meta-Laws Canon"
+type: canon
 artifact: "META_LAWS_CANON.md"
 artifact_id: "amos_01_canon_01_core_laws_meta_laws_canon"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/01_CORE_LAWS"
 artifact_kind: "CANON"
 path: "01_CANON/01_CORE_LAWS/META_LAWS_CANON.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - canon
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Meta-Laws Canon
 

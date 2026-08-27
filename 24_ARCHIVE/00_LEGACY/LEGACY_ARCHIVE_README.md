@@ -1,7 +1,9 @@
 ---
 title: LEGACY ARCHIVE README
-tags: ['amos_os', '24_archive']
+type: legacy
+tags: [amos_os, 24_archive]
 ---
+
 
 
 # LEGACY ARCHIVE README

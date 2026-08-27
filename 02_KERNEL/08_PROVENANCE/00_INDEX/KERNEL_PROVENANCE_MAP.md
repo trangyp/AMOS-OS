@@ -1,7 +1,9 @@
 ---
 title: KERNEL PROVENANCE MAP
-tags: ['amos_os', '02_kernel']
+type: kernel
+tags: [amos_os, 02_kernel]
 ---
+
 
 
 # KERNEL PROVENANCE MAP

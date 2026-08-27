@@ -4,6 +4,7 @@ type: moc
 tags: [moc, math]
 ---
 
+
 # Math — Map of Content
 
 - [[CANONICAL_EQUATION_FRAMEWORK]]

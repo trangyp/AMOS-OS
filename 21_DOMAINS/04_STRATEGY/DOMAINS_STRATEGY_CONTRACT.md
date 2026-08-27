@@ -1,7 +1,9 @@
 ---
 title: DOMAINS STRATEGY CONTRACT
-tags: ['amos_os', '21_domains']
+type: strategy
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS STRATEGY CONTRACT

@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L08 REPRESENTATION CONTRACT
-tags: ['cognitive_matrix', 'l08_representation']
+type: cognitive
+tags: [cognitive_matrix, l08_representation]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L08 REPRESENTATION CONTRACT

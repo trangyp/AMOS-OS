@@ -1,7 +1,9 @@
 ---
 title: GENERATORS TESTS
-tags: ['cognitive_matrix', 'generators', 'note']
+type: test
+tags: [cognitive_matrix, generators, note]
 ---
+
 
 
 ````md id="amos-generators-tests"

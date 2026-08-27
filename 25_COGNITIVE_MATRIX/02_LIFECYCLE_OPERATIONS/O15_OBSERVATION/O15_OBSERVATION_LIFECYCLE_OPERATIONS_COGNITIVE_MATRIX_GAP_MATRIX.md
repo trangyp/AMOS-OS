@@ -4,6 +4,7 @@ type: note
 tags: [note, o15-observation]
 ---
 
+
 # O15 — Gap Matrix
 
 **Package:** `O15_OBSERVATION`  

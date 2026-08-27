@@ -1,7 +1,9 @@
 ---
 title: EPISTEMIC MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '10_epistemic_modes']
+type: control-plane
+tags: [control_plane, 10_epistemic_modes]
 ---
+
 
 
 # EPISTEMIC MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

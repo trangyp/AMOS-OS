@@ -1,7 +1,9 @@
 ---
 title: SCHEDULES OPERATIONS README
-tags: ['amos_os', '20_operations']
+type: schedule
+tags: [amos_os, 20_operations]
 ---
+
 
 
 # SCHEDULES OPERATIONS README

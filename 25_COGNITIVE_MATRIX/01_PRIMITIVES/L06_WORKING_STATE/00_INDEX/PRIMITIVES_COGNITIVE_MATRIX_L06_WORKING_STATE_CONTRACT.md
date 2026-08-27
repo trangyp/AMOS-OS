@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L06 WORKING STATE CONTRACT
-tags: ['cognitive_matrix', 'l06_working_state']
+type: state
+tags: [cognitive_matrix, l06_working_state]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L06 WORKING STATE CONTRACT

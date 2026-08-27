@@ -1,9 +1,11 @@
 ---
 title: AMOS EQ ABSOLUTE META OPERATING SYSTEM
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 

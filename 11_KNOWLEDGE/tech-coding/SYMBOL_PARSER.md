@@ -1,9 +1,11 @@
 ---
 title: SYMBOL PARSER
-tags: [tech-coding]
+tags: [tech-coding, tech, coding]
 type: document
 source: 11_KNOWLEDGE/tech-coding
 ---
+
+
 
 
 # AMOS Symbol-Semantic Parser Implementation Complete

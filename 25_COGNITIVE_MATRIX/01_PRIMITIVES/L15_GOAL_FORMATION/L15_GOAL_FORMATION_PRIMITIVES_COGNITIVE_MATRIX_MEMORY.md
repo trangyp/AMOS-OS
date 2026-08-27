@@ -4,6 +4,7 @@ type: note
 tags: [note, l15-goal-formation]
 ---
 
+
 # L15 — Memory Contract
 
 **Package:** `L15_GOAL_FORMATION`  

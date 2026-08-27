@@ -1,7 +1,9 @@
 ---
 title: TECH ARCHITECTURE DOMAINS README
-tags: ['amos_os', '21_domains']
+type: architecture
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # TECH ARCHITECTURE DOMAINS README

@@ -1,7 +1,9 @@
 ---
 title: SECURITY THREAT MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '57_security_threat_modes']
+type: control-plane
+tags: [control_plane, 57_security_threat_modes]
 ---
+
 
 
 # SECURITY THREAT MODES COMMIT CONTROL PLANE README

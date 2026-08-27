@@ -1,7 +1,9 @@
 ---
 title: INDEX SKILLS SKILL CONTRACT
-tags: ['amos_os', '07_skills']
+type: index
+tags: [amos_os, 07_skills]
 ---
+
 
 
 # INDEX SKILLS SKILL CONTRACT

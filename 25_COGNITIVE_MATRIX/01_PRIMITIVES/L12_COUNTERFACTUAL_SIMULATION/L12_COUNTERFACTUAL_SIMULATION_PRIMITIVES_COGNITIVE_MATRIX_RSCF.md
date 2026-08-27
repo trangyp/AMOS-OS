@@ -4,6 +4,7 @@ type: note
 tags: [note, l12-counterfactual-simulation]
 ---
 
+
 # L12 — RSCF Record
 
 **Package:** `L12_COUNTERFACTUAL_SIMULATION`  

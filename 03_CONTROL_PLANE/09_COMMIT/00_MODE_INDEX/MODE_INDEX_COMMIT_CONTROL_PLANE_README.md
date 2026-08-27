@@ -1,7 +1,9 @@
 ---
 title: MODE INDEX COMMIT CONTROL PLANE README
-tags: ['control_plane', '00_mode_index']
+type: index
+tags: [control_plane, 00_mode_index]
 ---
+
 
 
 # MODE INDEX COMMIT CONTROL PLANE README

@@ -6,6 +6,7 @@ epistemic: DERIVED/TESTED
 tags: [quantum, fractal, math, adversarial, enforcement-root-attestation, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — QFM Adversarial Hardening Pass
 
 ## Context

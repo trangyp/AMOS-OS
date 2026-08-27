@@ -1,5 +1,6 @@
 ---
 title: AMOS VN COUNTRY PROFILE PACK V0 VN4
+type: note
 canon-group: human-system
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-vn-country-profile-pack-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-vn-country-profile-pack-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 # AMOS Vn Country Profile Pack v0 Vn4

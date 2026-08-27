@@ -1,7 +1,9 @@
 ---
 title: MODE TEMPLATE COMMIT CONTROL PLANE ROUTING BINDINGS
-tags: ['control_plane', '16_mode_template']
+type: template
+tags: [control_plane, 16_mode_template]
 ---
+
 
 
 # MODE TEMPLATE COMMIT CONTROL PLANE ROUTING BINDINGS

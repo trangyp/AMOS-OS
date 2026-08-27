@@ -1,7 +1,9 @@
 ---
 title: DOMAINS CONTROL SYSTEMS CONTRACT
-tags: ['amos_os', '21_domains']
+type: system
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS CONTROL SYSTEMS CONTRACT

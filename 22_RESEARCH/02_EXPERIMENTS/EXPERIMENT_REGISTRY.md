@@ -1,7 +1,9 @@
 ---
 title: EXPERIMENT REGISTRY
-tags: ['amos_os', '22_research']
+type: registry
+tags: [amos_os, 22_research]
 ---
+
 
 
 # EXPERIMENT REGISTRY

@@ -4,6 +4,7 @@ type: note
 tags: [note, o14-action]
 ---
 
+
 # O14 — State Transitions
 
 **Package:** `O14_ACTION`  

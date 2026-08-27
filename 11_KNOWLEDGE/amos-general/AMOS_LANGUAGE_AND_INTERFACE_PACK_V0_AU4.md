@@ -1,5 +1,6 @@
 ---
 title: AMOS LANGUAGE AND INTERFACE PACK V0 AU4
+type: interface
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-language-and-interface-pack-v0
 tags: [canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-language-and-interface-pack-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 # AMOS Language And Interface Pack v0 Au4

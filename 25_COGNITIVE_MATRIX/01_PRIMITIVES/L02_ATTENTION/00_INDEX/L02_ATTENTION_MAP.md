@@ -1,7 +1,9 @@
 ---
 title: L02 ATTENTION MAP
-tags: ['cognitive_matrix', 'l02_attention']
+type: map
+tags: [cognitive_matrix, l02_attention]
 ---
+
 
 
 # L02 ATTENTION MAP

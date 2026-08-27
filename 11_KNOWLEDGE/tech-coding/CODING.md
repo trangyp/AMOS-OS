@@ -1,9 +1,11 @@
 ---
 title: CODING
-tags: [tech-coding]
+tags: [tech-coding, tech, coding]
 type: document
 source: 11_KNOWLEDGE/tech-coding
 ---
+
+
 
 
 

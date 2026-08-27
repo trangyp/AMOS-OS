@@ -1,5 +1,6 @@
 ---
 title: "Kernel · Quantum Causality"
+type: quantum
 artifact: "K_QUANTUM_CAUSALITY.md"
 artifact_id: "amos_02_kernel_03_causal_k_quantum_causality"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "02_KERNEL/03_CAUSAL"
 artifact_kind: "ARTIFACT"
 path: "02_KERNEL/03_CAUSAL/K_QUANTUM_CAUSALITY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, kernel, core]
   - 02_kernel
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Kernel · Quantum Causality
 

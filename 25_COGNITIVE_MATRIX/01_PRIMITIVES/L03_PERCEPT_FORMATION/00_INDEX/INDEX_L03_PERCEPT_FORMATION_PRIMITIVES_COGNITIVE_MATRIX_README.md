@@ -1,7 +1,9 @@
 ---
 title: INDEX L03 PERCEPT FORMATION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l03_percept_formation']
+type: index
+tags: [cognitive_matrix, l03_percept_formation]
 ---
+
 
 
 # INDEX L03 PERCEPT FORMATION PRIMITIVES COGNITIVE MATRIX README

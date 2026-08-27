@@ -1,7 +1,9 @@
 ---
 title: O04 STATE MAP
-tags: ['cognitive_matrix', 'o04_state']
+type: map
+tags: [cognitive_matrix, o04_state]
 ---
+
 
 
 # O04 STATE MAP

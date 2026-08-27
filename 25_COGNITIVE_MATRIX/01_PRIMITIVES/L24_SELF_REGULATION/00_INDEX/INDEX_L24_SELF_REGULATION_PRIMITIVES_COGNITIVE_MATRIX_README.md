@@ -1,7 +1,9 @@
 ---
 title: INDEX L24 SELF REGULATION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l24_self_regulation']
+type: index
+tags: [cognitive_matrix, l24_self_regulation]
 ---
+
 
 
 # INDEX L24 SELF REGULATION PRIMITIVES COGNITIVE MATRIX README

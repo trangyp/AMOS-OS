@@ -1,9 +1,11 @@
 ---
 title: STATIC DYNAMIC EVIDENCE
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 # Static vs Dynamic Code Evidence

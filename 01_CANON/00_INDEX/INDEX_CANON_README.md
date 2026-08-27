@@ -1,4 +1,5 @@
 ---
+type: index
 artifact_id: AMOS-OS-CANON-README
 name: AMOS_OS_CANON_README
 title: "AMOS OS Canon — Authoritative Definitions, Laws, Lineage, and Governance"
@@ -32,8 +33,7 @@ scope:
   - dependency_lineage
   - epistemic_classification
 
-tags:
-  - amos
+tags: [amos, canon, universe]
   - amos-os
   - canon
   - canon-root
@@ -84,6 +84,8 @@ related:
   - "PLACEMENT_RULES|Placement Rules"
   - "CANON_MAP|Canon Map"
 ---
+
+
 
 # AMOS OS Canon
 

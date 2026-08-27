@@ -1,7 +1,9 @@
 ---
 title: DOMAINS C08 STRATEGY GAME CONTRACT
-tags: ['amos_os', '21_domains']
+type: strategy
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS C08 STRATEGY GAME CONTRACT

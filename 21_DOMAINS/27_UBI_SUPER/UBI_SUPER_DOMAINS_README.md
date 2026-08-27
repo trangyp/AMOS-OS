@@ -1,7 +1,9 @@
 ---
 title: UBI SUPER DOMAINS README
-tags: ['amos_os', '21_domains']
+type: note
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # UBI SUPER DOMAINS README

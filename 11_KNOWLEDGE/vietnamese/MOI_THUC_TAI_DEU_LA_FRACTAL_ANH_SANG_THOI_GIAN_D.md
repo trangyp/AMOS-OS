@@ -1,9 +1,11 @@
 ---
 title: MOI THUC TAI DEU LA FRACTAL ANH SANG THOI GIAN D
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

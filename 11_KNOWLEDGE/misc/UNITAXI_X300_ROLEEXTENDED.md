@@ -1,5 +1,6 @@
 ---
 title: UNITAXI X300 ROLEEXTENDED
+type: unit
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: unitaxi-x300-roleextended
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/unitaxi-x300-roleextended, misc]
 created: 2026-08-22
 ---
+
 
 
 ```json

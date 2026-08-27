@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 97-allocation-resource-modes]
 ---
 
+
 # 97_ALLOCATION_RESOURCE_MODES — Map of Content
 
 ## Files

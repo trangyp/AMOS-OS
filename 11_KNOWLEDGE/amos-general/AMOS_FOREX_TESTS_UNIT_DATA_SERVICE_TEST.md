@@ -1,10 +1,12 @@
 ---
 title: AMOS FOREX TESTS UNIT DATA SERVICE TEST
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: note
 source: 11_KNOWLEDGE/amos-general
 ---
 
+
+# AMOS FOREX TESTS UNIT DATA SERVICE TEST
 
 // tests/unit/data_service.test.js
 const EventBus = require('../../event_bus');

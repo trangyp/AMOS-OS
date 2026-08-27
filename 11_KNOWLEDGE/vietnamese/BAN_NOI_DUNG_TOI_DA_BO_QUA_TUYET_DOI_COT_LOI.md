@@ -1,9 +1,11 @@
 ---
 title: BAN NOI DUNG TOI DA BO QUA TUYET DOI COT LOI
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

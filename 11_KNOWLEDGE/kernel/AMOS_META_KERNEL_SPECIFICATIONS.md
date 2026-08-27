@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/kernel
 
 
 
+
 # AMOS Meta-Kernel Specifications
 
 Specifications for meta-cognition kernels defined in the brain's AMOS_Omni_KERNEL.json (md/Core/AMOS_Os_Agent_v0.md). These fill gaps where source files are empty or missing.

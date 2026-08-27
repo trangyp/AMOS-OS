@@ -4,6 +4,7 @@ type: note
 tags: [note, o03-binding]
 ---
 
+
 # O03 — Failure Modes
 
 **Package:** `O03_BINDING`  

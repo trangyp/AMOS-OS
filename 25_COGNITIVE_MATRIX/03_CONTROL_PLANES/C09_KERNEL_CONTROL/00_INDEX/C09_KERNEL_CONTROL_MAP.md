@@ -1,7 +1,9 @@
 ---
 title: C09 KERNEL CONTROL MAP
-tags: ['cognitive_matrix', 'c09_kernel_control']
+type: kernel
+tags: [cognitive_matrix, c09_kernel_control]
 ---
+
 
 
 # C09 KERNEL CONTROL MAP

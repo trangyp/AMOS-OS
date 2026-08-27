@@ -1,9 +1,11 @@
 ---
 title: SYSTEM RECOVERY
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 # AMOS System Recovery - Complete Fix Summary

@@ -1,7 +1,9 @@
 ---
 title: INTERPRETATION SEMANTIC MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '85_interpretation_semantic_modes']
+type: control-plane
+tags: [control_plane, 85_interpretation_semantic_modes]
 ---
+
 
 
 # INTERPRETATION SEMANTIC MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

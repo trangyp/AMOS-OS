@@ -1,9 +1,11 @@
 ---
 title: WHY SOLAR IS MORE EXPENSIVE THAN IT IS ADVERTISED
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

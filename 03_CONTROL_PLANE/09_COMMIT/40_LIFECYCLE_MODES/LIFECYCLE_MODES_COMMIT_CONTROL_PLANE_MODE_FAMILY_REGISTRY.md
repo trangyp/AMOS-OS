@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '40_lifecycle_modes']
+type: lifecycle
+tags: [control_plane, 40_lifecycle_modes]
 ---
+
 
 
 # LIFECYCLE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

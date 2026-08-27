@@ -1,7 +1,9 @@
 ---
 title: 00 ROOT CONTRACT
-tags: ['00_root', 'contract']
+type: note
+tags: [00_root, contract]
 ---
+
 
 
 # AMOS OS — 00 Root Contract

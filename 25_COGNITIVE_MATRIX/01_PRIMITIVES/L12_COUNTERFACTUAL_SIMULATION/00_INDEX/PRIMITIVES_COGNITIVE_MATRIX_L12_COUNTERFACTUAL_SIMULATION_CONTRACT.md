@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L12 COUNTERFACTUAL SIMULATION CONTRACT
-tags: ['cognitive_matrix', 'l12_counterfactual_simulation']
+type: cognitive
+tags: [cognitive_matrix, l12_counterfactual_simulation]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L12 COUNTERFACTUAL SIMULATION CONTRACT

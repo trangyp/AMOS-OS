@@ -1,5 +1,6 @@
 ---
 title: "Omega FX Structural OS"
+type: note
 artifact: "OMEGA_FX_STRUCTURAL_OS.md"
 artifact_id: "amos_21_domains_09_finance_omega_fx_structural_os"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/09_FINANCE"
 artifact_kind: "ARTIFACT"
 path: "21_DOMAINS/09_FINANCE/OMEGA_FX_STRUCTURAL_OS.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Omega FX Structural OS
 

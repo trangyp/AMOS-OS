@@ -1,10 +1,12 @@
 ---
 title: SECTOR ROTATION ENGINE
-tags: [engine]
+tags: [engine, processing, runtime]
 type: note
 source: 11_KNOWLEDGE/engine
 ---
 
+
+# SECTOR ROTATION ENGINE
 
 """AMOS logical component.
 

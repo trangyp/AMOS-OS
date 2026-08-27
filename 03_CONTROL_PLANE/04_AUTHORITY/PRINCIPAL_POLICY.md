@@ -1,7 +1,9 @@
 ---
 title: PRINCIPAL POLICY
-tags: ['control_plane', 'authority', 'note']
+type: policy
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Principal Policy

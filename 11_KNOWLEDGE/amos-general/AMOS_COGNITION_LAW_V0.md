@@ -1,5 +1,6 @@
 ---
 title: AMOS COGNITION LAW V0
+type: law
 canon-group: biology
 canon-type: law
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-cognition-law-v0
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-cognition-law-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 ```json

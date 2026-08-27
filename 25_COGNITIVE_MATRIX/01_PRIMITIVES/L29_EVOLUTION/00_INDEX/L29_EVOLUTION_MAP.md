@@ -1,7 +1,9 @@
 ---
 title: L29 EVOLUTION MAP
-tags: ['cognitive_matrix', 'l29_evolution']
+type: map
+tags: [cognitive_matrix, l29_evolution]
 ---
+
 
 
 # L29 EVOLUTION MAP

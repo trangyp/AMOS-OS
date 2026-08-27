@@ -1,9 +1,11 @@
 ---
 title: EQ COG RELATIONSHIP TENSION SCORE
-tags: [misc]
+tags: [misc, reference, general]
 type: data
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

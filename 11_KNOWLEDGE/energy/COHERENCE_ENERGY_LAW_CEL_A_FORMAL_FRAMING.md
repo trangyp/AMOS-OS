@@ -1,9 +1,11 @@
 ---
 title: COHERENCE ENERGY LAW CEL A FORMAL FRAMING
-tags: [energy]
+tags: [energy, power, green]
 type: document
 source: 11_KNOWLEDGE/energy
 ---
+
+
 
 
 

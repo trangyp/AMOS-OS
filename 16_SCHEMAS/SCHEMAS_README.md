@@ -1,7 +1,9 @@
 ---
 title: SCHEMAS README
-tags: ['amos_os', '16_schemas']
+type: schema
+tags: [amos_os, 16_schemas]
 ---
+
 
 
 # SCHEMAS README

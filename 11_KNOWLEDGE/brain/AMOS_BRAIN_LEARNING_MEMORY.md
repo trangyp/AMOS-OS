@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/brain
 
 
 
+
 # AMOS Brain: What I Learned (Updated with Corrected Architecture)
 
 **Date:** 2026-08-22  

@@ -1,8 +1,10 @@
 ---
 title: ORG GOVERNANCE MODEL
+type: model
 aliases: [Org Governance Engine, AMOS_Org_Governance]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/org-governance-model, governance]
 ---
+
 
 
 # AMOS Org Governance Engine

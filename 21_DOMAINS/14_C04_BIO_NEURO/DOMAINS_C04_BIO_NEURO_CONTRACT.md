@@ -1,7 +1,9 @@
 ---
 title: DOMAINS C04 BIO NEURO CONTRACT
-tags: ['amos_os', '21_domains']
+type: neural
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS C04 BIO NEURO CONTRACT

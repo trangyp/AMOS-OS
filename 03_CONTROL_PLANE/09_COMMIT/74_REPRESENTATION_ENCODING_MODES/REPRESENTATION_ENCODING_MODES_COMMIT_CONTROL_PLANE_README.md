@@ -1,7 +1,9 @@
 ---
 title: REPRESENTATION ENCODING MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '74_representation_encoding_modes']
+type: control-plane
+tags: [control_plane, 74_representation_encoding_modes]
 ---
+
 
 
 # REPRESENTATION ENCODING MODES COMMIT CONTROL PLANE README

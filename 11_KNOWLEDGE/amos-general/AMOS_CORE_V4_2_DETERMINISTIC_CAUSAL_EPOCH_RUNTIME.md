@@ -1,9 +1,11 @@
 ---
 title: AMOS CORE V4 2 DETERMINISTIC CAUSAL EPOCH RUNTIME
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: document
 source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 
 """

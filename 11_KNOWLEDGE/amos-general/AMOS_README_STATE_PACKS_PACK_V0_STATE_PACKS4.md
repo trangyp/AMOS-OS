@@ -1,5 +1,6 @@
 ---
 title: AMOS README STATE PACKS PACK V0 STATE PACKS4
+type: state
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-readme-state-packs-pack-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-readme-state-packs-pack-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 # AMOS Readme State Packs Pack v0 State Packs4

@@ -1,7 +1,9 @@
 ---
 title: INDEX L07 MEMORY PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l07_memory']
+type: index
+tags: [cognitive_matrix, l07_memory]
 ---
+
 
 
 # INDEX L07 MEMORY PRIMITIVES COGNITIVE MATRIX README

@@ -1,7 +1,9 @@
 ---
 title: NEGOTIATION BARGAINING MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '48_negotiation_bargaining_modes']
+type: control-plane
+tags: [control_plane, 48_negotiation_bargaining_modes]
 ---
+
 
 
 # NEGOTIATION BARGAINING MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

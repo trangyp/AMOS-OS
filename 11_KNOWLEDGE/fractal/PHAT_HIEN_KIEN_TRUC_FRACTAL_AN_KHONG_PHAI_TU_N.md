@@ -1,9 +1,11 @@
 ---
 title: PHAT HIEN KIEN TRUC FRACTAL AN KHONG PHAI TU N
-tags: [fractal]
+tags: [fractal, math, self-similarity]
 type: document
 source: 11_KNOWLEDGE/fractal
 ---
+
+
 
 
 

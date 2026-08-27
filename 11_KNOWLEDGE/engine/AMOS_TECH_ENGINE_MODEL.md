@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/engine
 
 
 
+
 # AMOS Tech Architecture Kernel Model
 
 **Source File**: `Unipower/AMOS_Tech_Engine_v0.json`

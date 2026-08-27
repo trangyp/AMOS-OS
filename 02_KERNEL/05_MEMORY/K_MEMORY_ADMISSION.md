@@ -1,5 +1,6 @@
 ---
 title: K MEMORY ADMISSION
+type: memory
 artifact_id: AMOS-OS-K-MEMORY-ADMISSION
 canonical_name: K_MEMORY_ADMISSION
 artifact_type: kernel_memory_admission_contract
@@ -13,8 +14,7 @@ kernel_family: MEMORY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - kernel
   - kernel/memory
@@ -32,6 +32,8 @@ tags:
   - topic/knowledge-harvest
   - topic/invalidation
 ---
+
+
 
 
 # K MEMORY ADMISSION

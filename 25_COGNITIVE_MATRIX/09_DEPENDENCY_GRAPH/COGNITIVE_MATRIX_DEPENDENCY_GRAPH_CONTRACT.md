@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX DEPENDENCY GRAPH CONTRACT
-tags: ['cognitive_matrix', 'cognitive_matrix_dependency_graph_contract.md']
+type: dependency
+tags: [cognitive_matrix, cognitive_matrix_dependency_graph_contract.md]
 ---
+
 
 
 # COGNITIVE MATRIX DEPENDENCY GRAPH CONTRACT

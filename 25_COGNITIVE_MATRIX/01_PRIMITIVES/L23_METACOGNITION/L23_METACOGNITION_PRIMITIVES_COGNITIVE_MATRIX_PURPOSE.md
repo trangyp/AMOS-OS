@@ -4,6 +4,7 @@ type: note
 tags: [note, l23-metacognition]
 ---
 
+
 # L23 — Purpose
 
 **Package:** `L23_METACOGNITION`  

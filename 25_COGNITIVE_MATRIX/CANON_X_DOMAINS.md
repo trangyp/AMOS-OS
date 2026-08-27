@@ -1,5 +1,6 @@
 ---
 title: "Canon × Domains"
+type: canon
 artifact: "CANON_X_DOMAINS.md"
 artifact_id: "amos_25_cognitive_matrix_canon_x_domains"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "CANON"
 path: "25_COGNITIVE_MATRIX/CANON_X_DOMAINS.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive_matrix, matrix]
   - 25_cognitive_matrix
   - canon
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Canon × Domains
 

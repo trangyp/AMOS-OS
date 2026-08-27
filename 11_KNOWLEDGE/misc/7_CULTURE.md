@@ -1,5 +1,6 @@
 ---
 title: 7 CULTURE
+type: note
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -8,6 +9,7 @@ tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, r
 created: 2026-08-22
 ---
 
+# 7 CULTURE
 
 TRANSFORMING CUSTOMER JOURNEYS
 Playbook

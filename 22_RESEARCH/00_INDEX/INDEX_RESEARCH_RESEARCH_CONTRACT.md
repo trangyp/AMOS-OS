@@ -1,7 +1,9 @@
 ---
 title: INDEX RESEARCH RESEARCH CONTRACT
-tags: ['amos_os', '22_research']
+type: index
+tags: [amos_os, 22_research]
 ---
+
 
 
 # INDEX RESEARCH RESEARCH CONTRACT

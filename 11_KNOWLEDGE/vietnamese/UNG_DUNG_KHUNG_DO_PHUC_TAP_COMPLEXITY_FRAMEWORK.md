@@ -1,9 +1,11 @@
 ---
 title: UNG DUNG KHUNG DO PHUC TAP COMPLEXITY FRAMEWORK
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

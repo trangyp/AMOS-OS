@@ -1,7 +1,9 @@
 ---
 title: INDEX MODELS MODEL CONTRACT
-tags: ['amos_os', '13_models']
+type: index
+tags: [amos_os, 13_models]
 ---
+
 
 
 # INDEX MODELS MODEL CONTRACT

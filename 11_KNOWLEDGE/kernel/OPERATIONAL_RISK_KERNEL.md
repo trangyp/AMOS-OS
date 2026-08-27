@@ -1,5 +1,6 @@
 ---
 title: OPERATIONAL RISK KERNEL
+type: kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: operational-risk-kernel
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/operational-risk-kernel, kernel]
 created: 2026-08-22
 ---
+
 
 
 # Operational Risk Kernel

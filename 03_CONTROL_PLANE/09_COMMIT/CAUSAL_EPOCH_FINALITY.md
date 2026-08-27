@@ -1,5 +1,6 @@
 ---
 title: "Causal Epoch Finality"
+type: note
 artifact: "CAUSAL_EPOCH_FINALITY.md"
 artifact_id: "amos_03_control_plane_09_commit_causal_epoch_finality"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "03_CONTROL_PLANE/09_COMMIT"
 artifact_kind: "FINALITY"
 path: "03_CONTROL_PLANE/09_COMMIT/CAUSAL_EPOCH_FINALITY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, control_plane, governance]
   - 03_control_plane
   - finality
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Causal Epoch Finality
 

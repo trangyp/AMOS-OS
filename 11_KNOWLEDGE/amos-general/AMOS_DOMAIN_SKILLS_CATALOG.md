@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/amos-general
 
 
 
+
 # AMOS Domain-Specific Skills Catalog
 
 Catalog of domain-specific skills that extend the AMOS brain's capabilities beyond the core reasoning layer.

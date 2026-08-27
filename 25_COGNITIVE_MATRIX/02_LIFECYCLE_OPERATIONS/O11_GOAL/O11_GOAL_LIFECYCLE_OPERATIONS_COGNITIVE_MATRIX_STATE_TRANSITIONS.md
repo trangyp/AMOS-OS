@@ -4,6 +4,7 @@ type: note
 tags: [note, o11-goal]
 ---
 
+
 # O11 — State Transitions
 
 **Package:** `O11_GOAL`  

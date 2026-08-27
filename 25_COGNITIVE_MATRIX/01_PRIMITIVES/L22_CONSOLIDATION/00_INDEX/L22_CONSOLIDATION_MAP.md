@@ -1,7 +1,9 @@
 ---
 title: L22 CONSOLIDATION MAP
-tags: ['cognitive_matrix', 'l22_consolidation']
+type: map
+tags: [cognitive_matrix, l22_consolidation]
 ---
+
 
 
 # L22 CONSOLIDATION MAP

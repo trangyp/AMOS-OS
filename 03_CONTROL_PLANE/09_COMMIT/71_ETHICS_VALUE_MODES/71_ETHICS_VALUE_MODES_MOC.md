@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 71-ethics-value-modes]
 ---
 
+
 # 71_ETHICS_VALUE_MODES — Map of Content
 
 ## Files

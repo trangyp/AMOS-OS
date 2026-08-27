@@ -1,9 +1,11 @@
 ---
 title: THE MONETIZATION OF MENTAL ILLNESS WAS NOT AN ACCI
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

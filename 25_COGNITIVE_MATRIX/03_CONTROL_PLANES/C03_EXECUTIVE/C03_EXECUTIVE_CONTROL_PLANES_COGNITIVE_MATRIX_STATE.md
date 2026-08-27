@@ -4,6 +4,7 @@ type: note
 tags: [note, c03-executive]
 ---
 
+
 # C03 — State
 
 **Package:** `C03_EXECUTIVE`  

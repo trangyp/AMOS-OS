@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 02-lifecycle-operations]
 ---
 
+
 # 02_LIFECYCLE_OPERATIONS — Map of Content
 
 ## Files

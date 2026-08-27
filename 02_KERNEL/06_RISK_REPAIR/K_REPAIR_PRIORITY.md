@@ -1,5 +1,6 @@
 ---
 title: K REPAIR PRIORITY
+type: repair
 artifact_id: AMOS-OS-K-REPAIR-PRIORITY
 canonical_name: K_REPAIR_PRIORITY
 artifact_type: kernel_repair_priority_contract
@@ -13,8 +14,7 @@ kernel_family: RECOVERY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - kernel
   - kernel/repair
   - kernel/priority
@@ -30,6 +30,8 @@ tags:
   - topic/failure-containment
   - topic/reversibility
 ---
+
+
 
 
 # K REPAIR PRIORITY

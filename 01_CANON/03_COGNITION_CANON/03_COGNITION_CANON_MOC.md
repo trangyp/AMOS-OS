@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 03-cognition-canon]
 ---
 
+
 # 03_COGNITION_CANON — Map of Content
 
 ## Files

@@ -1,7 +1,9 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX INVARIANTS
-tags: ['cognitive_matrix', 'primitives', 'l01_sensing_observation', 'note']
+type: invariant
+tags: [cognitive_matrix, primitives, l01_sensing_observation, note]
 ---
+
 
 
 Below is the full paste-ready `L01_SENSING_OBSERVATION/INVARIANTS.md`. I keep the L01-specific invariant set at `AMOS_MODEL / CONDITIONAL` rather than presenting reconstructed rules as direct canon.

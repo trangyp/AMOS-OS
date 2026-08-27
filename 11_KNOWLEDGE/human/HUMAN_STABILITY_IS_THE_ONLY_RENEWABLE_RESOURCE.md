@@ -1,9 +1,11 @@
 ---
 title: HUMAN STABILITY IS THE ONLY RENEWABLE RESOURCE
-tags: [human]
+tags: [human, alignment, interaction]
 type: document
 source: 11_KNOWLEDGE/human
 ---
+
+
 
 
 

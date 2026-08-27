@@ -1,4 +1,5 @@
 ---
+type: state
 id: AMOS-STATE-RUNTIME-SNAPSHOT-1774073874
 title: "AMOS OS Runtime State Snapshot"
 origin_architect: "Trang Phan"
@@ -29,9 +30,10 @@ cross_links:
 captured_boot_time_unix: 1774073874.6112227
 captured_boot_time_utc: "2026-03-21T06:17:54.611223+00:00"
 payload_sha256: "9d058a56d9d12dd75b5cb81f67343b47b90557b8c445c2d7e4282813aa22be26"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # AMOS OS Runtime State Snapshot
 
 > **State boundary**

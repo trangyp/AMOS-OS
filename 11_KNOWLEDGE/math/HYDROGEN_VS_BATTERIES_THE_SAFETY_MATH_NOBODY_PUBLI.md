@@ -1,9 +1,11 @@
 ---
 title: HYDROGEN VS BATTERIES THE SAFETY MATH NOBODY PUBLI
-tags: [math]
+tags: [math, equation, formal]
 type: document
 source: 11_KNOWLEDGE/math
 ---
+
+
 
 
 

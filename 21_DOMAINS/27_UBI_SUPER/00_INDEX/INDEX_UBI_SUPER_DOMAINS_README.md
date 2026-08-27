@@ -1,7 +1,9 @@
 ---
 title: INDEX UBI SUPER DOMAINS README
-tags: ['amos_os', '21_domains']
+type: index
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # INDEX UBI SUPER DOMAINS README

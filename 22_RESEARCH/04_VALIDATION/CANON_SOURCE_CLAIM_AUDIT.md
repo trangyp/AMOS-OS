@@ -1,5 +1,6 @@
 ---
 title: "Canon Source Claim Audit"
+type: canon
 artifact: "CANON_SOURCE_CLAIM_AUDIT.md"
 artifact_id: "amos_22_research_04_validation_canon_source_claim_audit"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "22_RESEARCH/04_VALIDATION"
 artifact_kind: "AUDIT"
 path: "22_RESEARCH/04_VALIDATION/CANON_SOURCE_CLAIM_AUDIT.md"
 
-tags:
-  - amos_os
+tags: [amos_os, research, arxiv]
   - 22_research
   - audit
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Canon Source Claim Audit
 

@@ -1,9 +1,11 @@
 ---
 title: README FX STRUCTURAL ENGINE
-tags: [economy]
+tags: [economy, finance, market]
 type: document
 source: 11_KNOWLEDGE/economy
 ---
+
+
 
 
 # AMOS OMEGA FX STRUCTURAL ENGINE — COMPLETE SYSTEM

@@ -1,7 +1,9 @@
 ---
 title: INDEX COGNITIVE MATRIX COGNITIVE MATRIX CONTRACT
-tags: ['cognitive_matrix', 'index', 'contract']
+type: index
+tags: [cognitive_matrix, index, contract]
 ---
+
 
 
 # 00_INDEX — AMOS Cognitive Matrix Contract

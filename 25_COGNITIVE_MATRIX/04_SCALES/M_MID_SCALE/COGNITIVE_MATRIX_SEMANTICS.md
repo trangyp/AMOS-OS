@@ -4,6 +4,7 @@ type: note
 tags: [note, m-mid-scale]
 ---
 
+
 # M — Semantics
 
 **Package:** `M_MID_SCALE`  

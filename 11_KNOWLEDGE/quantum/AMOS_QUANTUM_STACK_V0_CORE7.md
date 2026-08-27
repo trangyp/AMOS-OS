@@ -1,5 +1,6 @@
 ---
 title: AMOS QUANTUM STACK V0 CORE7
+type: quantum
 canon-group: quantum
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-quantum-stack-v0
 tags: [canon-group/quantum, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-quantum-stack-v0, quantum]
 created: 2026-08-22
 ---
+
 
 
 ```json

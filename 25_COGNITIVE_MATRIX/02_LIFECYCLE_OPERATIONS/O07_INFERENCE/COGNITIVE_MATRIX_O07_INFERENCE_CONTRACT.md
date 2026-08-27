@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX O07 INFERENCE CONTRACT
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o07_inference', 'contract']
+type: cognitive
+tags: [cognitive_matrix, lifecycle_operations, o07_inference, contract]
 ---
+
 
 
 # O07_INFERENCE — Operator application over typed objects; lineage recorded per step.

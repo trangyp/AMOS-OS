@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN ASYMPTOTIC CEILING
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS BRAIN - ASYMPTOTIC STRUCTURAL CEILING ACHIEVEMENT COMPLETE

@@ -1,7 +1,9 @@
 ---
 title: SYNTHESIS MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '28_synthesis_modes']
+type: control-plane
+tags: [control_plane, 28_synthesis_modes]
 ---
+
 
 
 # SYNTHESIS MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

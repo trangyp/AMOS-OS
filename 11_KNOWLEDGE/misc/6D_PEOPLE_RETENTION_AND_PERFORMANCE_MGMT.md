@@ -1,5 +1,6 @@
 ---
 title: 6D PEOPLE RETENTION AND PERFORMANCE MGMT
+type: performance
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -8,6 +9,7 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 created: 2026-08-22
 ---
 
+# 6D PEOPLE RETENTION AND PERFORMANCE MGMT
 
 TRANSFORMING CUSTOMER JOURNEYS
 Playbook

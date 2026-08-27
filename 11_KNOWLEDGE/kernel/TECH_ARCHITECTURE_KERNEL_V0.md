@@ -1,10 +1,12 @@
 ---
 title: TECH ARCHITECTURE KERNEL V0
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: note
 source: 11_KNOWLEDGE/kernel
 ---
 
+
+# TECH ARCHITECTURE KERNEL V0
 
 """Auto-generated AMOS framework module.
 

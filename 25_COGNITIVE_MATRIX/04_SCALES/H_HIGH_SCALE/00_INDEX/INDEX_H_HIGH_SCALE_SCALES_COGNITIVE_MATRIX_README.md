@@ -1,7 +1,9 @@
 ---
 title: INDEX H HIGH SCALE SCALES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'h_high_scale']
+type: index
+tags: [cognitive_matrix, h_high_scale]
 ---
+
 
 
 # INDEX H HIGH SCALE SCALES COGNITIVE MATRIX README

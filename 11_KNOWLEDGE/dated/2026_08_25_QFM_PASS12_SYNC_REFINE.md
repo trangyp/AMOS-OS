@@ -7,6 +7,7 @@ status: complete
 tags: [dated, dated/2026-08-25]
 ---
 
+
 # QFM Pass 12 (2026-08-25)
 
 ## 6 wave empties filled (real content, mapped sources)

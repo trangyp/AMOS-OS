@@ -1,9 +1,11 @@
 ---
 title: BIOLOGICAL KERNEL COMPUTING BKC
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: document
 source: 11_KNOWLEDGE/kernel
 ---
+
+
 
 
 

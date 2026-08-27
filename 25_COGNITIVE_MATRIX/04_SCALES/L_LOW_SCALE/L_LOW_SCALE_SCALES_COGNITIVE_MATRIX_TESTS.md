@@ -4,6 +4,7 @@ type: note
 tags: [note, l-low-scale]
 ---
 
+
 # L — Tests & Validators
 
 **Package:** `L_LOW_SCALE`  

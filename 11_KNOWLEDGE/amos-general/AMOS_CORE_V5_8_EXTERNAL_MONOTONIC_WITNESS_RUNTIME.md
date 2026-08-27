@@ -1,9 +1,11 @@
 ---
 title: AMOS CORE V5 8 EXTERNAL MONOTONIC WITNESS RUNTIME
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: document
 source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 
 """

@@ -1,7 +1,9 @@
 ---
 title: INDEX O11 GOAL LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o11_goal']
+type: index
+tags: [cognitive_matrix, o11_goal]
 ---
+
 
 
 # INDEX O11 GOAL LIFECYCLE OPERATIONS COGNITIVE MATRIX README

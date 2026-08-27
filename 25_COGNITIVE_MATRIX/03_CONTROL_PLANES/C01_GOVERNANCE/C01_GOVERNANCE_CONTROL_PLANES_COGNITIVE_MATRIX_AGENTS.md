@@ -4,6 +4,7 @@ type: note
 tags: [note, c01-governance]
 ---
 
+
 # C01 — Agents
 
 **Package:** `C01_GOVERNANCE`  

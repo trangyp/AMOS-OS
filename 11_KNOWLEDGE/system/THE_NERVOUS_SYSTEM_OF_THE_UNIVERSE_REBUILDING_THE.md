@@ -1,9 +1,11 @@
 ---
 title: THE NERVOUS SYSTEM OF THE UNIVERSE REBUILDING THE
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 

@@ -1,7 +1,9 @@
 ---
 title: C12 EARTH ECOLOGY DOMAINS README
-tags: ['amos_os', '21_domains']
+type: log
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C12 EARTH ECOLOGY DOMAINS README

@@ -1,5 +1,6 @@
 ---
 title: 2026 08 22 THE HUMAN SYSTEM BOOKS ONE SIX
+type: human
 origin: external — "The Complete Human System" (alternate version / Book One–Six)
 provenance: direct ingestion of full text
 confidence: 0.95
@@ -11,6 +12,7 @@ source_title: "The Complete Human System — A Unified Theory of Mind, Body, Civ
 source_type: book-manuscript
 source_url: local-ingestion
 ---
+
 
 
 # The Complete Human System — Alternate Version (Books One–Six)

@@ -1,7 +1,9 @@
 ---
 title: L27 MULTI AGENT COGNITION MAP
-tags: ['cognitive_matrix', 'l27_multi_agent_cognition']
+type: agent
+tags: [cognitive_matrix, l27_multi_agent_cognition]
 ---
+
 
 
 # L27 MULTI AGENT COGNITION MAP

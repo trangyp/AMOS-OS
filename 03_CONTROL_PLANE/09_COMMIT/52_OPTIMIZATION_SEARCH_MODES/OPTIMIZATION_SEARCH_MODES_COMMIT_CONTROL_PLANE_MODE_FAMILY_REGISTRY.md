@@ -1,7 +1,9 @@
 ---
 title: OPTIMIZATION SEARCH MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '52_optimization_search_modes']
+type: control-plane
+tags: [control_plane, 52_optimization_search_modes]
 ---
+
 
 
 # OPTIMIZATION SEARCH MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

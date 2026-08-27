@@ -1,7 +1,9 @@
 ---
 title: RESILIENCE REPAIR MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '55_resilience_repair_modes']
+type: control-plane
+tags: [control_plane, 55_resilience_repair_modes]
 ---
+
 
 
 # RESILIENCE REPAIR MODES COMMIT CONTROL PLANE README

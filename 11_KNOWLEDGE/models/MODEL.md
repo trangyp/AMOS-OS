@@ -1,9 +1,11 @@
 ---
 title: MODEL
-tags: [models]
+tags: [models, model, specification]
 type: data
 source: 11_KNOWLEDGE/models
 ---
+
+
 
 
 

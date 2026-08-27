@@ -1,7 +1,9 @@
 ---
 title: INDEX AGENTS README
-tags: ['amos_os', '06_agents']
+type: index
+tags: [amos_os, 06_agents]
 ---
+
 
 
 # INDEX AGENTS README

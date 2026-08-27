@@ -1,10 +1,12 @@
 ---
 title: INTEGRATION
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# INTEGRATION
 
 """
 Integration module for connecting the Hierarchical AI Architecture Generator

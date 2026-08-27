@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/amos-general
 ---
 
-
+# RUN AMOS
 
 from __future__ import annotations
 

@@ -4,6 +4,7 @@ type: note
 tags: [note, o16-learning]
 ---
 
+
 # O16 — State Transitions
 
 **Package:** `O16_LEARNING`  

@@ -1,7 +1,9 @@
 ---
 title: ESCALATION PATHS
-tags: ['amos_os', '23_operating_model']
+type: note
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # ESCALATION PATHS

@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN INTELLIGENCE
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS Brain Supreme Intelligence - COMPLETE IMPLEMENTATION REPORT

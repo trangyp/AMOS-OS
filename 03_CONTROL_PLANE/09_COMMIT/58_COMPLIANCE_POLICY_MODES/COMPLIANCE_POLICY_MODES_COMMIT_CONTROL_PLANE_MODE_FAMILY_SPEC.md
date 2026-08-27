@@ -1,7 +1,9 @@
 ---
 title: COMPLIANCE POLICY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '58_compliance_policy_modes']
+type: control-plane
+tags: [control_plane, 58_compliance_policy_modes]
 ---
+
 
 
 # COMPLIANCE POLICY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

@@ -1,7 +1,9 @@
 ---
 title: VARIABLE REGISTRY MAP
-tags: ['amos_os', '01_canon']
+type: variable
+tags: [amos_os, 01_canon]
 ---
+
 
 
 # VARIABLE REGISTRY MAP

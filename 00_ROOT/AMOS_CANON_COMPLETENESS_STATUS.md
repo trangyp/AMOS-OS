@@ -1,5 +1,6 @@
 ---
 title: "AMOS Canon Completeness Status"
+type: canon
 artifact: "AMOS_CANON_COMPLETENESS_STATUS.md"
 artifact_id: "amos_00_root_amos_canon_completeness_status"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "00_ROOT"
 artifact_kind: "CANON"
 path: "00_ROOT/AMOS_CANON_COMPLETENESS_STATUS.md"
 
-tags:
-  - amos_os
+tags: [amos_os, root, index]
   - 00_root
   - canon
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # AMOS Canon Completeness Status
 

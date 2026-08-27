@@ -6,6 +6,7 @@ source: 11_KNOWLEDGE/dated
 ---
 
 
+
 # 2026-08-25 — AMOS Full Brain OS — Canonical Note
 
 **Canon class**: CONDITIONAL — source-grounded for major structures; gaps around cross-artifact containment/version precedence.

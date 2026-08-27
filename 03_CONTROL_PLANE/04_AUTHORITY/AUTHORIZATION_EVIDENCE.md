@@ -1,7 +1,9 @@
 ---
 title: AUTHORIZATION EVIDENCE
-tags: ['control_plane', 'authority', 'note']
+type: evidence
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Authorization Evidence

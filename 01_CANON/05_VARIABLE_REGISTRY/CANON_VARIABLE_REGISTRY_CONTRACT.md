@@ -1,7 +1,9 @@
 ---
 title: CANON VARIABLE REGISTRY CONTRACT
-tags: ['amos_os', '01_canon']
+type: canon
+tags: [amos_os, 01_canon]
 ---
+
 
 
 # CANON VARIABLE REGISTRY CONTRACT

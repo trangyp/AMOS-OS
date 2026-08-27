@@ -1,5 +1,6 @@
 ---
 title: "Confidence Ceiling Calibration"
+type: note
 artifact: "CONFIDENCE_CEILING_CALIBRATION.md"
 artifact_id: "amos_13_models_05_calibration_confidence_ceiling_calibration"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "13_MODELS/05_CALIBRATION"
 artifact_kind: "CALIBRATION"
 path: "13_MODELS/05_CALIBRATION/CONFIDENCE_CEILING_CALIBRATION.md"
 
-tags:
-  - amos_os
+tags: [amos_os, model, specification]
   - 13_models
   - calibration
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Confidence Ceiling Calibration
 

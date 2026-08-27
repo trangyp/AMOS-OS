@@ -1,5 +1,6 @@
 ---
 title: "Domain Canon Programming"
+type: canon
 artifact: "DOMAIN_CANON_PROGRAMMING.md"
 artifact_id: "amos_11_knowledge_05_frameworks_domain_canon_programming"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "CANON"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/DOMAIN_CANON_PROGRAMMING.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - canon
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Domain Canon Programming
 

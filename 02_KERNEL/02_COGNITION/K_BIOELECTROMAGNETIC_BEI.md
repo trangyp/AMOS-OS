@@ -1,5 +1,6 @@
 ---
 title: "Kernel · Bioelectromagnetic Intelligence / BEI"
+type: note
 artifact: "K_BIOELECTROMAGNETIC_BEI.md"
 artifact_id: "amos_02_kernel_02_cognition_k_bioelectromagnetic_bei"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "02_KERNEL/02_COGNITION"
 artifact_kind: "ARTIFACT"
 path: "02_KERNEL/02_COGNITION/K_BIOELECTROMAGNETIC_BEI.md"
 
-tags:
-  - amos_os
+tags: [amos_os, kernel, core]
   - 02_kernel
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Kernel · Bioelectromagnetic Intelligence / BEI
 

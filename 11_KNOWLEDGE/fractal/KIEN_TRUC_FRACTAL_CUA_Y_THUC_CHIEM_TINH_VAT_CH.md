@@ -1,9 +1,11 @@
 ---
 title: KIEN TRUC FRACTAL CUA Y THUC CHIEM TINH VAT CH
-tags: [fractal]
+tags: [fractal, math, self-similarity]
 type: document
 source: 11_KNOWLEDGE/fractal
 ---
+
+
 
 
 

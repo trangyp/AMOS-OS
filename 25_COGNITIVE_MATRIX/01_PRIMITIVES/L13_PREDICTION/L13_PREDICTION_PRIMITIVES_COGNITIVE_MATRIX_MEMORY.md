@@ -4,6 +4,7 @@ type: note
 tags: [note, l13-prediction]
 ---
 
+
 # L13 — Memory Contract
 
 **Package:** `L13_PREDICTION`  

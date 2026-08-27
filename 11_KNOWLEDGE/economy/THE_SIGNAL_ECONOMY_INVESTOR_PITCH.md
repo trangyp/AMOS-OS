@@ -1,9 +1,11 @@
 ---
 title: THE SIGNAL ECONOMY INVESTOR PITCH
-tags: [economy]
+tags: [economy, finance, market]
 type: document
 source: 11_KNOWLEDGE/economy
 ---
+
+
 
 
 

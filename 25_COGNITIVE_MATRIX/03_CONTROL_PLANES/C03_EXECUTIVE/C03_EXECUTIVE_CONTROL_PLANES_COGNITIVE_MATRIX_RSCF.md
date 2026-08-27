@@ -4,6 +4,7 @@ type: note
 tags: [note, c03-executive]
 ---
 
+
 # C03 — RSCF Record
 
 **Package:** `C03_EXECUTIVE`  

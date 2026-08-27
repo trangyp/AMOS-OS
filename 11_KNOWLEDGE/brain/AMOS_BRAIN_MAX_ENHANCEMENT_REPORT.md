@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN MAX ENHANCEMENT REPORT
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 # AMOS BRAIN MAX ENHANCEMENT COMPLETE REPORT

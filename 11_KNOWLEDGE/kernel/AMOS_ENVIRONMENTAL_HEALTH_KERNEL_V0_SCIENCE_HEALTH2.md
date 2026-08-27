@@ -1,5 +1,6 @@
 ---
 title: AMOS ENVIRONMENTAL HEALTH KERNEL V0 SCIENCE HEALTH2
+type: kernel
 canon-group: biology
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-environmental-health-kernel-v0
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-environmental-health-kernel-v0, kernel]
 created: 2026-08-22
 ---
+
 
 
 # AMOS_Environmental_Health_Kernel_v0

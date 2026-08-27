@@ -1,11 +1,13 @@
 ---
 title: "2026-08-23 LEGACY BRAIN2 Core — Engine & Law Inventory"
+type: legacy
 created: "2026-08-23"
 origin: "/Users/mac/Downloads/stitch_project_cosmo/designs/_00_Cosmo brain/_LEGACY BRAIN2/"
 origin_type: "SOURCE"
 provenance: Direct filesystem survey of _LEGACY BRAIN2 archive tree
 tags: [amos, legacy-brain2, engine-inventory, canonical-laws, ubi, json-schema, dated, dated/2026-08-23]
 ---
+
 
 # LEGACY BRAIN2 Core — Engine & Law Inventory (2026-08-23)
 

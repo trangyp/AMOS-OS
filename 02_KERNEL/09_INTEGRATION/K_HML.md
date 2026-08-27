@@ -1,7 +1,9 @@
 ---
 title: K HML
-tags: ['kernel', 'integration', 'note']
+type: note
+tags: [kernel, integration, note]
 ---
+
 
 
 # K HML — Full Canonical Reconstruction

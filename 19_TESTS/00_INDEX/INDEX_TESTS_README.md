@@ -1,7 +1,9 @@
 ---
 title: INDEX TESTS README
-tags: ['amos_os', '19_tests']
+type: index
+tags: [amos_os, 19_tests]
 ---
+
 
 
 # INDEX TESTS README

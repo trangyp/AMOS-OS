@@ -1,11 +1,13 @@
 ---
 title: "AMOS Tech Architecture Kernel vInfinity"
+type: kernel
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Tech_Architecture_Kernel_v0.json (216 lines, 8KB)"
 origin_type: "SOURCE"
 category: "kernel"
 tags: [amos, tech, architecture, kernel, v-infinity, engineering, infrastructure, deterministic, safety-by-architecture]
 ---
+
 
 # AMOS Tech Architecture Kernel vInfinity (AMOS_Tech_KERNEL_SUPER)
 

@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 08-effects]
 ---
 
+
 # 08_EFFECTS — Map of Content
 
 ## Files

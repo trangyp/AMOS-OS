@@ -1,5 +1,6 @@
 ---
 title: SCHIZOPHRENIA STRUCTURAL MODEL HUMAN SYSTEM
+type: model
 origin: external — "The Complete Human System" (canonical version)
 provenance: direct ingestion of Chapter 16 (Schizophrenia — Complete Grounding)
 confidence: 0.95
@@ -11,6 +12,7 @@ source_title: "The Complete Human System — Chapter 16: Schizophrenia — Compl
 source_type: book-manuscript
 source_url: local-ingestion
 ---
+
 
 
 # Schizophrenia Structural Model — Complete Human System

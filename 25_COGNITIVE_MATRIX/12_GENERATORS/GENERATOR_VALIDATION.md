@@ -4,6 +4,7 @@ type: note
 tags: [note, 12-generators]
 ---
 
+
 Below is a full AMOS-aligned replacement for `25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VALIDATION.md`.
 
 This artifact should sit **below the general `12_GENERATORS/VALIDATION.md` architecture and above concrete Validator implementations**. Its job is to define what must be true before a particular Generator version, invocation, or generated candidate can be considered valid within a declared scope/regime. It does **not** grant authority, promote canon, perform Worker effects, or turn missing evidence into a pass. That separation follows the AMOS Full Brain OS requirement to preserve provenance, distinguish evidence classes, challenge consequential conclusions, and expose missing implementation/authority/validation instead of inventing it. 

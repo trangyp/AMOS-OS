@@ -1,7 +1,9 @@
 ---
 title: KERNEL COGNITION CONTRACT
-tags: ['amos_os', '02_kernel']
+type: kernel
+tags: [amos_os, 02_kernel]
 ---
+
 
 
 # KERNEL COGNITION CONTRACT

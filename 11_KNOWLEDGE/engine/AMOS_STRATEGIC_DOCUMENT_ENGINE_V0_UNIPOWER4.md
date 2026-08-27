@@ -1,5 +1,6 @@
 ---
 title: AMOS STRATEGIC DOCUMENT ENGINE V0 UNIPOWER4
+type: engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-strategic-document-engine-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-strategic-document-engine-v0, engine]
 created: 2026-08-22
 ---
+
 
 
 ```json

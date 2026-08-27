@@ -6,6 +6,7 @@ epistemic: SOURCE/DERIVED
 tags: [math, fractal, ifs, lsystem, tiling, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — Generative-Family Validation (FR004 · FR010 · FR022 Deep)
 
 ## Gap found

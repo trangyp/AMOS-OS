@@ -1,8 +1,10 @@
 ---
 title: BOD ENGINE MODEL
+type: model
 aliases: [BOD Engine, AMOS_Bod_Engine]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/bod-engine-model, engine]
 ---
+
 
 
 # AMOS BOD Engine

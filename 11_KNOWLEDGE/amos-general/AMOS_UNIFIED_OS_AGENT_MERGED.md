@@ -1,5 +1,6 @@
 ---
 title: AMOS UNIFIED OS AGENT MERGED
+type: agent
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-unified-os-agent-merged
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-unified-os-agent-merged, amos-general]
 created: 2026-08-22
 ---
+
 
 
 ```json

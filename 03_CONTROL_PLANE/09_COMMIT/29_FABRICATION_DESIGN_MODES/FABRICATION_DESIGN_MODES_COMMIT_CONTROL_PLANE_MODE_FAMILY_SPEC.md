@@ -1,7 +1,9 @@
 ---
 title: FABRICATION DESIGN MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '29_fabrication_design_modes']
+type: control-plane
+tags: [control_plane, 29_fabrication_design_modes]
 ---
+
 
 
 # FABRICATION DESIGN MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

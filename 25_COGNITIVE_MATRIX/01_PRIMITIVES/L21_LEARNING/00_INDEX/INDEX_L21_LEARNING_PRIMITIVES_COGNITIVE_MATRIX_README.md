@@ -1,7 +1,9 @@
 ---
 title: INDEX L21 LEARNING PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l21_learning']
+type: index
+tags: [cognitive_matrix, l21_learning]
 ---
+
 
 
 # INDEX L21 LEARNING PRIMITIVES COGNITIVE MATRIX README

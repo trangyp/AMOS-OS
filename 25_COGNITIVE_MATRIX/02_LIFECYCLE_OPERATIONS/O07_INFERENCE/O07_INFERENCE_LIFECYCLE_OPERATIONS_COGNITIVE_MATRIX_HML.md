@@ -4,6 +4,7 @@ type: note
 tags: [note, o07-inference]
 ---
 
+
 # O07 — H/M/L Applicability
 
 **Package:** `O07_INFERENCE`  

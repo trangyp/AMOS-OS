@@ -1,9 +1,11 @@
 ---
 title: SYSTEM OPTIMIZATION
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 # AMOS BRAIN - SYSTEM OPTIMIZATION COMPLETE

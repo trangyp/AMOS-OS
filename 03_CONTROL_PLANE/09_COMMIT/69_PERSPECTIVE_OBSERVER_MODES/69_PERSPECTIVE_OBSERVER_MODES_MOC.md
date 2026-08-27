@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 69-perspective-observer-modes]
 ---
 
+
 # 69_PERSPECTIVE_OBSERVER_MODES — Map of Content
 
 ## Files

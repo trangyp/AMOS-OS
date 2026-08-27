@@ -1,7 +1,9 @@
 ---
 title: ROLES OPERATING MODEL ROLES CONTRACT
-tags: ['amos_os', '23_operating_model']
+type: model
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # ROLES OPERATING MODEL ROLES CONTRACT

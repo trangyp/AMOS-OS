@@ -1,9 +1,11 @@
 ---
 title: AMOS FOREX RUN TESTS
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: document
 source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 
 # AMOS forex__run_tests

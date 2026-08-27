@@ -1,4 +1,5 @@
 ---
+type: canon
 artifact_id: AMOS-INFRASTRUCTURE-CANON
 name: INFRASTRUCTURE_CANON
 title: "AMOS Infrastructure Canon — Substrate, Resource, Deployment, Resilience, and Operational Foundations"
@@ -20,8 +21,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos
+tags: [amos, canon, universe]
   - amos-os
   - amos-core
   - amos-core-v4-4
@@ -62,6 +62,8 @@ aliases:
   - AMOS Infrastructure Foundation
   - AMOS Operational Substrate Canon
 ---
+
+
 
 # AMOS Infrastructure Canon
 

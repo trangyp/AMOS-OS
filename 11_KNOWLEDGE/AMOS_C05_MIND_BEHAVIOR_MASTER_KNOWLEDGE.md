@@ -1,4 +1,5 @@
 ---
+type: mind
 id: AMOS-C05-MIND-BEHAVIOR-MASTER-KNOWLEDGE
 title: "AMOS C05 — Mind & Behavior Master Knowledge"
 origin_architect: "Trang Phan"
@@ -29,9 +30,10 @@ source_family_mapping:
   - "F10_habit_systems"
   - "F11_change_models"
   - "F12_universe_aligned_behaviour"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # AMOS C05 — Mind & Behavior Master Knowledge
 
 > **Epistemic boundary**

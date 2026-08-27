@@ -1,7 +1,9 @@
 ---
 title: OPERATIONS MAP
-tags: ['amos_os', '20_operations']
+type: map
+tags: [amos_os, 20_operations]
 ---
+
 
 
 # OPERATIONS MAP

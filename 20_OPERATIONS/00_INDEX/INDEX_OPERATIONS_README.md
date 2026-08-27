@@ -1,7 +1,9 @@
 ---
 title: INDEX OPERATIONS README
-tags: ['amos_os', '20_operations']
+type: index
+tags: [amos_os, 20_operations]
 ---
+
 
 
 # INDEX OPERATIONS README

@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANES COGNITIVE MATRIX C08 EXECUTION CONTRACT
-tags: ['cognitive_matrix', 'c08_execution']
+type: control-plane
+tags: [cognitive_matrix, c08_execution]
 ---
+
 
 
 # CONTROL PLANES COGNITIVE MATRIX C08 EXECUTION CONTRACT

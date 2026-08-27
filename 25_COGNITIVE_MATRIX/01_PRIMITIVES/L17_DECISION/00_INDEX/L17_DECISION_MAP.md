@@ -1,7 +1,9 @@
 ---
 title: L17 DECISION MAP
-tags: ['cognitive_matrix', 'l17_decision']
+type: map
+tags: [cognitive_matrix, l17_decision]
 ---
+
 
 
 # L17 DECISION MAP

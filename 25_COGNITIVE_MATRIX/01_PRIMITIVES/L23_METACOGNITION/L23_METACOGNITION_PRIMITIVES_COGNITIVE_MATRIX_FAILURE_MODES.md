@@ -4,6 +4,7 @@ type: note
 tags: [note, l23-metacognition]
 ---
 
+
 # L23 — Failure Modes
 
 **Package:** `L23_METACOGNITION`  

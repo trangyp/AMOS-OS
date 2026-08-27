@@ -1,7 +1,9 @@
 ---
 title: GENERATORS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'generators', 'readme']
+type: cognitive
+tags: [cognitive_matrix, generators, readme]
 ---
+
 
 
 Below is a **full replacement README** for `12_GENERATORS`. It treats the branch as an AMOS infrastructure layer for governed generation rather than a collection of arbitrary content-producing scripts. The structure is **DERIVED / CONDITIONAL** from the Full Brain OS, v4.4 runtime, RSCF, authority/control-plane, deployment, and provenance rules; it does not claim that every proposed generator type already exists in source canon. The Full Brain architecture explicitly separates cognition, runtime, control/authority, and deployment, so generators must preserve those boundaries.  

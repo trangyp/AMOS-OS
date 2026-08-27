@@ -1,7 +1,9 @@
 ---
 title: OBSERVABILITY CONTROL PLANE README
-tags: ['control_plane', 'observability_control_plane_readme.md']
+type: control-plane
+tags: [control_plane, observability_control_plane_readme.md]
 ---
+
 
 
 # OBSERVABILITY CONTROL PLANE README

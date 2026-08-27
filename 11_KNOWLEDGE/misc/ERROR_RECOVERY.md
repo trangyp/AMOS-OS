@@ -1,9 +1,11 @@
 ---
 title: ERROR RECOVERY
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 # Epistemic Error Recovery

@@ -1,7 +1,9 @@
 ---
 title: INDEX HSE SAFETY DOMAINS README
-tags: ['amos_os', '21_domains']
+type: index
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # INDEX HSE SAFETY DOMAINS README

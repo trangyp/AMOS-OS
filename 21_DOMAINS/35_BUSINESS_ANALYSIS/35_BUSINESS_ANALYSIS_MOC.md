@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 35-business-analysis]
 ---
 
+
 # 35_BUSINESS_ANALYSIS — Map of Content
 
 ## Files

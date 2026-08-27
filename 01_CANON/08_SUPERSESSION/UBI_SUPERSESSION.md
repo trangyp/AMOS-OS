@@ -1,5 +1,6 @@
 ---
 title: "UBI Supersession"
+type: supersession
 artifact: "UBI_SUPERSESSION.md"
 artifact_id: "amos_01_canon_08_supersession_ubi_supersession"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/08_SUPERSESSION"
 artifact_kind: "SUPERSESSION"
 path: "01_CANON/08_SUPERSESSION/UBI_SUPERSESSION.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - supersession
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # UBI Supersession
 

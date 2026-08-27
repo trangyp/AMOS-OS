@@ -1,5 +1,6 @@
 ---
 title: K REPAIR HARM
+type: repair
 artifact_id: AMOS-OS-K-REPAIR-HARM
 canonical_name: K_REPAIR_HARM
 artifact_type: kernel_repair_harm_contract
@@ -13,8 +14,7 @@ kernel_family: RECOVERY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - kernel
   - kernel/repair
   - kernel/harm
@@ -31,6 +31,8 @@ tags:
   - topic/reversibility
   - topic/collateral-damage
 ---
+
+
 
 
 # K REPAIR HARM

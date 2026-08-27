@@ -1,5 +1,6 @@
 ---
 title: K INFORMATION EXPOSURE
+type: note
 artifact_id: AMOS-OS-K-INFORMATION-EXPOSURE
 canonical_name: K_INFORMATION_EXPOSURE
 artifact_type: kernel_information_exposure_contract
@@ -11,9 +12,10 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
-tags: ['kernel', 'authority', 'note']
+tags: [kernel, authority, note]
 
 ---
+
 
 # K INFORMATION EXPOSURE
 

@@ -1,7 +1,9 @@
 ---
 title: DOMAIN ONTOLOGY
-tags: ['amos_os', '21_domains']
+type: log
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAIN ONTOLOGY

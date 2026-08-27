@@ -1,7 +1,9 @@
 ---
 title: INDEX L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l01_sensing_observation']
+type: index
+tags: [cognitive_matrix, l01_sensing_observation]
 ---
+
 
 
 # INDEX L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX README

@@ -1,5 +1,6 @@
 ---
 title: "TPE — Trang Prediction Engine"
+type: engine
 artifact: "TPE_TRANG_PREDICTION_ENGINE.md"
 artifact_id: "amos_11_knowledge_05_frameworks_tpe_trang_prediction_engine"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "ENGINE"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/TPE_TRANG_PREDICTION_ENGINE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - engine
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # TPE — Trang Prediction Engine
 

@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L18 ACTION CONTRACT
-tags: ['cognitive_matrix', 'l18_action']
+type: cognitive
+tags: [cognitive_matrix, l18_action]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L18 ACTION CONTRACT

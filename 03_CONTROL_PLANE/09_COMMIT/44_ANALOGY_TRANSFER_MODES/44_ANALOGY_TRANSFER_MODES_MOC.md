@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 44-analogy-transfer-modes]
 ---
 
+
 # 44_ANALOGY_TRANSFER_MODES — Map of Content
 
 ## Files

@@ -4,6 +4,7 @@ type: note
 tags: [note, 00-root]
 ---
 
+
 # AMOS OS — 00 Root Dependencies
 
 ```yaml

@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX O06 MODEL CONTRACT
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o06_model', 'contract']
+type: cognitive
+tags: [cognitive_matrix, lifecycle_operations, o06_model, contract]
 ---
+
 
 
 # O06_MODEL — Building/updating structural models; MODEL-class outputs only.

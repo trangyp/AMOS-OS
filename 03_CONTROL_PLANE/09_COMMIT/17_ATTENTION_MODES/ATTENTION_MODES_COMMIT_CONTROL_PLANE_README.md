@@ -1,7 +1,9 @@
 ---
 title: ATTENTION MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '17_attention_modes']
+type: control-plane
+tags: [control_plane, 17_attention_modes]
 ---
+
 
 
 # ATTENTION MODES COMMIT CONTROL PLANE README

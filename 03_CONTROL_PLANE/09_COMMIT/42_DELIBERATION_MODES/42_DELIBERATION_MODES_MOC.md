@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 42-deliberation-modes]
 ---
 
+
 # 42_DELIBERATION_MODES — Map of Content
 
 ## Files

@@ -4,6 +4,7 @@ type: note
 tags: [note, m-mid-scale]
 ---
 
+
 # M — Boundaries
 
 **Package:** `M_MID_SCALE`  

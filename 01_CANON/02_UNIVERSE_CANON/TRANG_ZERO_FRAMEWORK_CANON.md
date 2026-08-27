@@ -1,5 +1,6 @@
 ---
 title: "Trang Zero Framework Canon"
+type: canon
 artifact: "TRANG_ZERO_FRAMEWORK_CANON.md"
 artifact_id: "amos_01_canon_02_universe_canon_trang_zero_framework_canon"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/02_UNIVERSE_CANON"
 artifact_kind: "FRAMEWORK"
 path: "01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK_CANON.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - framework
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Trang Zero Framework Canon
 

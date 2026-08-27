@@ -1,9 +1,11 @@
 ---
 title: SKILL RSCF
-tags: [rscf]
+tags: [rscf, epistemic, claim]
 type: document
 source: 11_KNOWLEDGE/rscf
 ---
+
+
 
 
 # RSCF — Resonance Scan Causal Field

@@ -1,7 +1,9 @@
 ---
 title: UNIVERSE CANON MAP
-tags: ['amos_os', '01_canon']
+type: canon
+tags: [amos_os, 01_canon]
 ---
+
 
 
 # UNIVERSE CANON MAP

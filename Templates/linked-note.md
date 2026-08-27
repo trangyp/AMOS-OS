@@ -8,8 +8,7 @@ origin_architect: Trang Phan
 provenance: USER_REQUEST / AMOS_Obsidian_Linking_Plugins
 status: active
 steward: Trang Phan
-tags:
-- template
+tags: [template, boilerplate, reference]
 - templater
 - linkme
 - moc
@@ -18,6 +17,8 @@ tags:
 title: linked-note template
 type: template
 ---
+
+
 # <% tp.file.title %>
 
 > Epistemic class: MODEL

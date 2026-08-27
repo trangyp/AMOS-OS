@@ -1,7 +1,9 @@
 ---
 title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX PROVENANCE
-tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'note']
+type: provenance
+tags: [cognitive_matrix, primitives, l02_attention, note]
 ---
+
 
 
 # L02_ATTENTION — Provenance

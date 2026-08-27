@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/misc
 ---
 
-
+# GRAND CANNON ROOT
 
 THE TRANG GRAND SYSTEM
 CODEX™

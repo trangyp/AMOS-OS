@@ -1,5 +1,6 @@
 ---
 title: "Superseded Canon Registry"
+type: canon
 artifact: "SUPERSEDED_CANON_REGISTRY.md"
 artifact_id: "amos_24_archive_02_superseded_superseded_canon_registry"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "24_ARCHIVE/02_SUPERSEDED"
 artifact_kind: "REGISTRY"
 path: "24_ARCHIVE/02_SUPERSEDED/SUPERSEDED_CANON_REGISTRY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, archive, legacy]
   - 24_archive
   - registry
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Superseded Canon Registry
 

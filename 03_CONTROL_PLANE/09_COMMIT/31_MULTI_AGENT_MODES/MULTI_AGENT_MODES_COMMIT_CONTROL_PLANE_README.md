@@ -1,7 +1,9 @@
 ---
 title: MULTI AGENT MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '31_multi_agent_modes']
+type: agent
+tags: [control_plane, 31_multi_agent_modes]
 ---
+
 
 
 # MULTI AGENT MODES COMMIT CONTROL PLANE README

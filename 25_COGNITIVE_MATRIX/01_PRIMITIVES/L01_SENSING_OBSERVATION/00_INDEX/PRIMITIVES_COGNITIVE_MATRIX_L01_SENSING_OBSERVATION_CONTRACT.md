@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L01 SENSING OBSERVATION CONTRACT
-tags: ['cognitive_matrix', 'l01_sensing_observation']
+type: cognitive
+tags: [cognitive_matrix, l01_sensing_observation]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L01 SENSING OBSERVATION CONTRACT

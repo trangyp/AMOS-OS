@@ -1,10 +1,12 @@
 ---
 title: DEPLOYMENT ENGINE
-tags: [engine]
+tags: [engine, processing, runtime]
 type: note
 source: 11_KNOWLEDGE/engine
 ---
 
+
+# DEPLOYMENT ENGINE
 
 """AMOS logical component.
 

@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE COMMIT CONTRACT
-tags: ['control_plane', 'control_plane_commit_contract.md']
+type: control-plane
+tags: [control_plane, control_plane_commit_contract.md]
 ---
+
 
 
 # CONTROL PLANE COMMIT CONTRACT

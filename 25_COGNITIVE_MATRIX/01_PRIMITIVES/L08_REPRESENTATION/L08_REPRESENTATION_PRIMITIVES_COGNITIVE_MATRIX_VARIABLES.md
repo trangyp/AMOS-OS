@@ -4,6 +4,7 @@ type: note
 tags: [note, l08-representation]
 ---
 
+
 # L08 — Variables
 
 **Package:** `L08_REPRESENTATION`  

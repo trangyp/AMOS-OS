@@ -1,5 +1,6 @@
 ---
 title: "AMOS GIANT VALUE CREATION OS — Strategic Commercial Architecture"
+type: value
 origin_architect: "Trang Phan"
 source_artifact: "⭐ KẾ HOẠCH TẠO GIÁ TRỊ KHỔNG LỒ (THE GIANT MONEY PLAN)"
 artifact_type: "AMOS commercial operating architecture"
@@ -18,8 +19,10 @@ epistemic_classes:
 conclusion_class: "CONDITIONAL"
 version: "2.0-deep"
 date: "2026-08-25"
-tags: [amos-general]
+tags: [amos-general, amos, general]
 ---
+
+
 
 # ⭐ AMOS GIANT VALUE CREATION OS
 ## Hệ điều hành tạo giá trị quy mô lớn — bản kiến trúc thương mại cấp hệ thống

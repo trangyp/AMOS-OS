@@ -1,5 +1,6 @@
 ---
 title: "Planetary Synchronization Interface"
+type: plan
 artifact: "PLANETARY_SYNCHRONIZATION_INTERFACE.md"
 artifact_id: "amos_21_domains_10_custom_planetary_synchronization_interface"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/10_CUSTOM"
 artifact_kind: "ARTIFACT"
 path: "21_DOMAINS/10_CUSTOM/PLANETARY_SYNCHRONIZATION_INTERFACE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Planetary Synchronization Interface
 

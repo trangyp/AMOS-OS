@@ -1,7 +1,9 @@
 ---
 title: INDEX REPLAY CONTROL PLANE README
-tags: ['control_plane', '00_index']
+type: index
+tags: [control_plane, 00_index]
 ---
+
 
 
 # INDEX REPLAY CONTROL PLANE README

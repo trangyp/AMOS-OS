@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX L07 MEMORY CONTRACT
-tags: ['cognitive_matrix', 'primitives', 'l07_memory', 'contract']
+type: memory
+tags: [cognitive_matrix, primitives, l07_memory, contract]
 ---
+
 
 
 # L07_MEMORY — Memory Contract

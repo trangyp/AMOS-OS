@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/misc
 ---
 
-
+# NEUROSYNCAI AS CERTIFIABLE INTELLIGENCE INFRASTRUCTURE
 
 🧠
 NeuroSyncAI™ as Certifiable

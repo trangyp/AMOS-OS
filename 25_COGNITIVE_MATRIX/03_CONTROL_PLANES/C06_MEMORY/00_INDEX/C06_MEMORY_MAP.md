@@ -1,7 +1,9 @@
 ---
 title: C06 MEMORY MAP
-tags: ['cognitive_matrix', 'c06_memory']
+type: map
+tags: [cognitive_matrix, c06_memory]
 ---
+
 
 
 # C06 MEMORY MAP

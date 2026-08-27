@@ -1,7 +1,9 @@
 ---
 title: BASELINE COMMIT CONTROL PLANE DEPRECATION SUPERSESSION
-tags: ['control_plane', '01_baseline']
+type: supersession
+tags: [control_plane, 01_baseline]
 ---
+
 
 
 # BASELINE COMMIT CONTROL PLANE DEPRECATION SUPERSESSION

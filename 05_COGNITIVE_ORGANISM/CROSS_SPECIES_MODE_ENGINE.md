@@ -1,5 +1,6 @@
 ---
 title: "Cross-Species Mode Engine"
+type: engine
 artifact: "CROSS_SPECIES_MODE_ENGINE.md"
 artifact_id: "amos_05_cognitive_organism_cross_species_mode_engine"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "05_COGNITIVE_ORGANISM"
 artifact_kind: "SPEC"
 path: "05_COGNITIVE_ORGANISM/CROSS_SPECIES_MODE_ENGINE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive, organism]
   - 05_cognitive_organism
   - spec
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Cross-Species Mode Engine
 

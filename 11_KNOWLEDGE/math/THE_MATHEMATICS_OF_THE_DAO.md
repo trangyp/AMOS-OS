@@ -1,9 +1,11 @@
 ---
 title: THE MATHEMATICS OF THE DAO
-tags: [math]
+tags: [math, equation, formal]
 type: document
 source: 11_KNOWLEDGE/math
 ---
+
+
 
 
 

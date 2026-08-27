@@ -1,4 +1,5 @@
 ---
+type: note
 aliases:
 - AMOS MOC
 - AMOS OS MOC
@@ -45,8 +46,7 @@ scope:
 - knowledge_navigation
 status: ACTIVE_MOC
 steward: Trang Phan
-tags:
-- amos
+tags: [amos, amos_os, root]
 - amos-os
 - moc
 - map-of-content
@@ -98,6 +98,8 @@ tags:
 title: AMOS OS — Master Map of Content
 updated: 2026-08-26
 ---
+
+
 
 # AMOS OS — Master Map of Content
 

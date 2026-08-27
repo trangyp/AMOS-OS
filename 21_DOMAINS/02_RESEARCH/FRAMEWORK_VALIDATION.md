@@ -1,5 +1,6 @@
 ---
 title: "Framework Validation"
+type: validation
 artifact: "FRAMEWORK_VALIDATION.md"
 artifact_id: "amos_21_domains_02_research_framework_validation"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/02_RESEARCH"
 artifact_kind: "FRAMEWORK"
 path: "21_DOMAINS/02_RESEARCH/FRAMEWORK_VALIDATION.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - framework
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Framework Validation
 

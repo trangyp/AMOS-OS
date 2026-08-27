@@ -1,7 +1,9 @@
 ---
 title: C06 SOCIETY CULTURE MAP
-tags: ['amos_os', '21_domains']
+type: map
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C06 SOCIETY CULTURE MAP

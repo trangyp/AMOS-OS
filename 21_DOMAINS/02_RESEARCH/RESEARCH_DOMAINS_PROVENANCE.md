@@ -1,7 +1,9 @@
 ---
 title: RESEARCH DOMAINS PROVENANCE
-tags: ['amos_os', '21_domains']
+type: provenance
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # RESEARCH DOMAINS PROVENANCE

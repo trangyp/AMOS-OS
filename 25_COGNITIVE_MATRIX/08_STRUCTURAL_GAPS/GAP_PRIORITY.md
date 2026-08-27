@@ -4,6 +4,7 @@ type: note
 tags: [note, 08-structural-gaps]
 ---
 
+
 # GAP_PRIORITY — Definition
 
 **Package:** `GAP_PRIORITY_`  

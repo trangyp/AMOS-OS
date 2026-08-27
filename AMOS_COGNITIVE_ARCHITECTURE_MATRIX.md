@@ -4,6 +4,7 @@ type: note
 tags: [note, vault]
 ---
 
+
 # AMOS Cognitive Architecture Matrix
 
 > **Status:** v1.0 — formal 4-axis matrix exposing every cognitive-primitive × lifecycle-operation × control-plane × scale interaction in AMOS, with rule-based coverage status.

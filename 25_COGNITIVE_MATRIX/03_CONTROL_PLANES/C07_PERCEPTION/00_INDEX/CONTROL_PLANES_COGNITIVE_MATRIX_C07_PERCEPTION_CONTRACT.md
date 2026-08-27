@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANES COGNITIVE MATRIX C07 PERCEPTION CONTRACT
-tags: ['cognitive_matrix', 'c07_perception']
+type: control-plane
+tags: [cognitive_matrix, c07_perception]
 ---
+
 
 
 # CONTROL PLANES COGNITIVE MATRIX C07 PERCEPTION CONTRACT

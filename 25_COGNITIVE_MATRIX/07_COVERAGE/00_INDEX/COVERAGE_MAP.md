@@ -1,7 +1,9 @@
 ---
 title: COVERAGE MAP
-tags: ['cognitive_matrix', '00_index']
+type: coverage
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # COVERAGE MAP

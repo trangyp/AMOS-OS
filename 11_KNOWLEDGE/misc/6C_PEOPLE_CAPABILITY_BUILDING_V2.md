@@ -1,5 +1,6 @@
 ---
 title: 6C PEOPLE CAPABILITY BUILDING V2
+type: note
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -8,6 +9,7 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 created: 2026-08-22
 ---
 
+# 6C PEOPLE CAPABILITY BUILDING V2
 
 TRANSFORMING CUSTOMER JOURNEYS
 Playbook

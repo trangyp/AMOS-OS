@@ -1,5 +1,6 @@
 ---
 title: ORG ENGINE
+type: engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: org-engine
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/org-engine, engine]
 created: 2026-08-22
 ---
+
 
 
 # Org Engine

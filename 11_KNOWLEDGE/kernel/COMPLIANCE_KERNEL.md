@@ -1,10 +1,12 @@
 ---
 title: COMPLIANCE KERNEL
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: note
 source: 11_KNOWLEDGE/kernel
 ---
 
+
+# COMPLIANCE KERNEL
 
 """AMOS logical component.
 

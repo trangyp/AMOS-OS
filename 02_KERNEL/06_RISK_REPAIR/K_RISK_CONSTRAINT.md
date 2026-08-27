@@ -1,5 +1,6 @@
 ---
 title: K RISK CONSTRAINT
+type: risk
 artifact_id: AMOS-OS-K-RISK-CONSTRAINT
 canonical_name: K_RISK_CONSTRAINT
 artifact_type: kernel_risk_constraint_contract
@@ -13,8 +14,7 @@ kernel_family: GOVERNED_DECISION
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - kernel
   - kernel/risk
   - kernel/constraint
@@ -28,6 +28,8 @@ tags:
   - topic/irreversibility
   - topic/action-governance
 ---
+
+
 
 
 # K RISK CONSTRAINT

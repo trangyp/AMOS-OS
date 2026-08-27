@@ -1,9 +1,11 @@
 ---
 title: BAN DO TOAN BO CAC HIEN TUONG BI GOI LA NGUOI NGOA
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

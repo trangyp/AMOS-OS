@@ -1,7 +1,9 @@
 ---
 title: STRATEGY DOMAINS INTERFACES
-tags: ['amos_os', '21_domains']
+type: strategy
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # STRATEGY DOMAINS INTERFACES

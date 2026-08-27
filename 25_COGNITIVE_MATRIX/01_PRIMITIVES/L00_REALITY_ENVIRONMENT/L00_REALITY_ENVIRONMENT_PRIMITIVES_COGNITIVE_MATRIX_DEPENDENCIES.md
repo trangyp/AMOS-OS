@@ -1,5 +1,6 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Dependencies"
+type: dependency
 aliases:
 
 * "AMOS Reality Environment Dependencies"
@@ -32,9 +33,10 @@ aliases:
 * rscf/T-topology
 * rscf/X-cross-scale
 * rscf/type-system
-tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
+tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---
+
 # L00_REALITY_ENVIRONMENT — Dependencies
 
 **Class:** `AMOS_REALITY_ENVIRONMENT_DEPENDENCY_ARCHITECTURE`

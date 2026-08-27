@@ -1,5 +1,6 @@
 ---
 title: "AMOS Cross-Species Functional Mode Model"
+type: model
 artifact: "AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL.md"
 artifact_id: "amos_01_canon_03_cognition_canon_amos_cross_species_functional_mode_model"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/03_COGNITION_CANON"
 artifact_kind: "SPEC"
 path: "01_CANON/03_COGNITION_CANON/AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - spec
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # AMOS Cross-Species Functional Mode Model
 

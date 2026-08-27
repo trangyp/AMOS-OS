@@ -1,7 +1,9 @@
 ---
 title: L19 OUTCOME OBSERVATION MAP
-tags: ['cognitive_matrix', 'l19_outcome_observation']
+type: map
+tags: [cognitive_matrix, l19_outcome_observation]
 ---
+
 
 
 # L19 OUTCOME OBSERVATION MAP

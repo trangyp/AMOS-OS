@@ -1,12 +1,14 @@
 ---
 title: F77COMMENTS
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
 
-      SUBROUTINE TESTSUB(
+# F77COMMENTS
+
+SUBROUTINE TESTSUB(
      &    INPUT1, INPUT2,                                 !Input
      &    OUTPUT1, OUTPUT2)                               !Output
 

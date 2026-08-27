@@ -1,5 +1,6 @@
 ---
 title: "Universe Boundary Architecture"
+type: architecture
 artifact: "UNIVERSE_BOUNDARY_ARCHITECTURE.md"
 artifact_id: "amos_01_canon_02_universe_canon_universe_boundary_architecture"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/02_UNIVERSE_CANON"
 artifact_kind: "ARCHITECTURE"
 path: "01_CANON/02_UNIVERSE_CANON/UNIVERSE_BOUNDARY_ARCHITECTURE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - architecture
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Universe Boundary Architecture
 

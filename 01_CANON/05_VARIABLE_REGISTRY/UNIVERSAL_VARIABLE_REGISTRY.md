@@ -1,4 +1,5 @@
 ---
+type: variable
 artifact_id: AMOS-UNIVERSAL-VARIABLE-REGISTRY
 name: UNIVERSAL_VARIABLE_REGISTRY
 title: "AMOS Universal Variable Registry"
@@ -19,8 +20,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos
+tags: [amos, canon, universe]
   - amos-os
   - amos-core
   - amos-core-v4-4
@@ -68,6 +68,8 @@ related:
   - "AUTHORITY_CANON|Authority Canon"
   - "SCHEMA_MAP|Schema Map"
 ---
+
+
 
 # AMOS Universal Variable Registry
 

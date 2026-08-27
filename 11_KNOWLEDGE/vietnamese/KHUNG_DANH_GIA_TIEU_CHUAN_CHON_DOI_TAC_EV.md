@@ -1,9 +1,11 @@
 ---
 title: KHUNG DANH GIA TIEU CHUAN CHON DOI TAC EV
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

@@ -1,7 +1,9 @@
 ---
 title: PROVENANCE CANON README
-tags: ['amos_os', '01_canon']
+type: canon
+tags: [amos_os, 01_canon]
 ---
+
 
 
 # PROVENANCE CANON README

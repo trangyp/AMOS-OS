@@ -1,7 +1,9 @@
 ---
 title: SECURITY README
-tags: ['amos_os', '18_security']
+type: security
+tags: [amos_os, 18_security]
 ---
+
 
 
 # SECURITY README

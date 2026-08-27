@@ -4,6 +4,7 @@ type: note
 tags: [note, 12-generators]
 ---
 
+
 Below is a full AMOS-aligned replacement for `25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_AUDIT.md`.
 
 The key distinction is that **Audit is neither Validation nor Testing nor Benchmarking**. Audit examines whether the Generator subsystem’s contracts, runtime bindings, provenance, authority boundaries, state transitions, evidence, change history, tests, benchmarks, and governance claims are mutually consistent and actually supported. It should actively search for missing proof, bypass paths, stale assumptions, correlated provenance, scope leakage, invariant weakening, and unsupported lifecycle elevation. This follows the AMOS Full Brain OS integrity rule that missing implementation, authority, validation, or provenance must remain explicit rather than being filled by plausible architecture. 

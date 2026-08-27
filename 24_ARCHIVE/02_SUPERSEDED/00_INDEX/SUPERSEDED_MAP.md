@@ -1,7 +1,9 @@
 ---
 title: SUPERSEDED MAP
-tags: ['amos_os', '24_archive']
+type: superseded
+tags: [amos_os, 24_archive]
 ---
+
 
 
 # SUPERSEDED MAP

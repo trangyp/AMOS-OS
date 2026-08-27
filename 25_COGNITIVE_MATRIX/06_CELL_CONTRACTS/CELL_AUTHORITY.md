@@ -4,6 +4,7 @@ type: note
 tags: [note, 06-cell-contracts]
 ---
 
+
 # CELL_AUTHORITY — Definition
 
 **Package:** `CELL_AUTHORITY_`  

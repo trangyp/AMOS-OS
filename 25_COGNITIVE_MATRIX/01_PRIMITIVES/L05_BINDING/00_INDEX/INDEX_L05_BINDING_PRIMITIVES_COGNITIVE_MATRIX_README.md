@@ -1,7 +1,9 @@
 ---
 title: INDEX L05 BINDING PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l05_binding']
+type: index
+tags: [cognitive_matrix, l05_binding]
 ---
+
 
 
 # INDEX L05 BINDING PRIMITIVES COGNITIVE MATRIX README

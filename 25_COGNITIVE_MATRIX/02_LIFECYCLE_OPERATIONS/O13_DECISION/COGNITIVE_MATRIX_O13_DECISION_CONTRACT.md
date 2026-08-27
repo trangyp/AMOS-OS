@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX O13 DECISION CONTRACT
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o13_decision', 'contract']
+type: cognitive
+tags: [cognitive_matrix, lifecycle_operations, o13_decision, contract]
 ---
+
 
 
 # O13_DECISION — O13 Decision

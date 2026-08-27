@@ -1,7 +1,9 @@
 ---
 title: CONSISTENCY CONCURRENCY MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '80_consistency_concurrency_modes']
+type: control-plane
+tags: [control_plane, 80_consistency_concurrency_modes]
 ---
+
 
 
 # CONSISTENCY CONCURRENCY MODES COMMIT CONTROL PLANE README

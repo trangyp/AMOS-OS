@@ -4,6 +4,7 @@ type: moc
 tags: [moc, c06-memory]
 ---
 
+
 # C06_MEMORY — Map of Content
 
 ## Files

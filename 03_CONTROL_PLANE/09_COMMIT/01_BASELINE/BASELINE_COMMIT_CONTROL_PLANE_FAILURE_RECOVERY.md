@@ -1,7 +1,9 @@
 ---
 title: BASELINE COMMIT CONTROL PLANE FAILURE RECOVERY
-tags: ['control_plane', '01_baseline']
+type: failure-mode
+tags: [control_plane, 01_baseline]
 ---
+
 
 
 # BASELINE COMMIT CONTROL PLANE FAILURE RECOVERY

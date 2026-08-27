@@ -1,7 +1,9 @@
 ---
 title: CONTRADICTION RESOLUTION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '76_contradiction_resolution_modes']
+type: control-plane
+tags: [control_plane, 76_contradiction_resolution_modes]
 ---
+
 
 
 # CONTRADICTION RESOLUTION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

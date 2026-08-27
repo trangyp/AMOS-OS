@@ -1,5 +1,6 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Repair"
+type: cognitive
 aliases:
   - "AMOS Reality Environment Repair"
   - "L00 Reality Repair"
@@ -11,8 +12,7 @@ amos-layer: L00_REALITY_ENVIRONMENT
 architecture-role: reality-grounded-repair-and-recovery
 origin-architect: "Trang Phan"
 status: "ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT"
-tags:
-  - amos
+tags: [amos]
   - reality-environment
   - repair
   - recovery
@@ -25,6 +25,7 @@ tags:
   - rscf
   - resilience
 ---
+
 
 # L00_REALITY_ENVIRONMENT — Repair
 

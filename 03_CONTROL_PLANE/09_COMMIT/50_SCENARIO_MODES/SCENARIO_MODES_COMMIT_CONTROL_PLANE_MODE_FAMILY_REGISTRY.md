@@ -1,7 +1,9 @@
 ---
 title: SCENARIO MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '50_scenario_modes']
+type: control-plane
+tags: [control_plane, 50_scenario_modes]
 ---
+
 
 
 # SCENARIO MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

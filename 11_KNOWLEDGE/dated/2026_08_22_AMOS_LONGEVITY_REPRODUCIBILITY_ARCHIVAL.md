@@ -1,12 +1,13 @@
 ---
 title: "AMOS Longevity Reproducibility Archival"
 created: "2026-08-22"
-type: "note"
+type: note
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-longevity-reproducibility, dated, dated/2026-08-22]
 status: "living"
 provenance: "MODEL"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS Longevity, Reproducibility & Archival (Gaps 291-300)
 

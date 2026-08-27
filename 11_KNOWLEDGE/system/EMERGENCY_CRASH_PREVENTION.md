@@ -1,9 +1,11 @@
 ---
 title: EMERGENCY CRASH PREVENTION
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 # AMOS BRAIN - EMERGENCY CRASH PREVENTION REPORT

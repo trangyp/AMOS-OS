@@ -4,6 +4,7 @@ type: note
 tags: [note, l04-object-entity-formation]
 ---
 
+
 # L04 — Dependencies
 
 **Package:** `L04_OBJECT_ENTITY_FORMATION`  

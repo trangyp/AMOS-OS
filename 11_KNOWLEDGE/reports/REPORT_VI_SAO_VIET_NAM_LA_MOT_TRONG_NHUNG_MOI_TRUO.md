@@ -1,9 +1,11 @@
 ---
 title: REPORT VI SAO VIET NAM LA MOT TRONG NHUNG MOI TRUO
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 

@@ -1,7 +1,9 @@
 ---
 title: ROLE REGISTRY
-tags: ['amos_os', '23_operating_model']
+type: registry
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # ROLE REGISTRY

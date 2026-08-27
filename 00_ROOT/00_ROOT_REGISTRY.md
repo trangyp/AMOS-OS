@@ -1,7 +1,9 @@
 ---
 title: 00 ROOT REGISTRY
-tags: ['amos_os', '00_root']
+type: registry
+tags: [amos_os, 00_root]
 ---
+
 
 
 # 00 ROOT REGISTRY

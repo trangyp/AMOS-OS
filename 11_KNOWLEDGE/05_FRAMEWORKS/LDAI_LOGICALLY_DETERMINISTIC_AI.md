@@ -1,5 +1,6 @@
 ---
 title: "LDAI — Logically Deterministic AI"
+type: logic
 artifact: "LDAI_LOGICALLY_DETERMINISTIC_AI.md"
 artifact_id: "amos_11_knowledge_05_frameworks_ldai_logically_deterministic_ai"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "LOG"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - log
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # LDAI — Logically Deterministic AI
 

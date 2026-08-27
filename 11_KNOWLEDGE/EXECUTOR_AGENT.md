@@ -1,4 +1,5 @@
 ---
+type: agent
 artifact_id: AMOS-EXECUTOR-AGENT
 name: Executor_Agent
 title: "AMOS Executor Agent — Governed Execution-System Component"
@@ -30,8 +31,7 @@ aliases:
   - Execution System Executor
   - Governed Effect Executor
 
-tags:
-  - agents
+tags: [agents, knowledge, vault]
   - canon-group/tech-ai
   - canon/component
   - rscf/claim
@@ -45,6 +45,8 @@ tags:
 
 governing_law: "integrity > completeness > fluency > speed > token savings"
 ---
+
+
 
 # AMOS Executor Agent
 ## Governed Execution-System Component

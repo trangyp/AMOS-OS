@@ -1,7 +1,10 @@
 ---
 title: COGNITIVE MATRIX MAP
-tags: ['cognitive_matrix', 'cognitive_matrix']
+type: map
+tags: [cognitive_matrix, matrix, cognition]
 ---
+
+
 
 
 # COGNITIVE MATRIX MAP

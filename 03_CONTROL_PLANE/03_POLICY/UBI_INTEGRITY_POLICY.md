@@ -1,5 +1,6 @@
 ---
 title: "UBI Integrity Policy"
+type: policy
 artifact: "UBI_INTEGRITY_POLICY.md"
 artifact_id: "amos_03_control_plane_03_policy_ubi_integrity_policy"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "03_CONTROL_PLANE/03_POLICY"
 artifact_kind: "POLICY"
 path: "03_CONTROL_PLANE/03_POLICY/UBI_INTEGRITY_POLICY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, control_plane, governance]
   - 03_control_plane
   - policy
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # UBI Integrity Policy
 

@@ -1,5 +1,6 @@
 ---
 title: GOVERNANCE ENGINE
+type: engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: governance-engine
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/governance-engine, engine]
 created: 2026-08-22
 ---
+
 
 
 # Governance Engine

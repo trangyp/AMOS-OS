@@ -1,7 +1,9 @@
 ---
 title: MEMORY MEMORY MAP
-tags: ['amos_os', '10_memory']
+type: map
+tags: [amos_os, 10_memory]
 ---
+
 
 
 # MEMORY MEMORY MAP

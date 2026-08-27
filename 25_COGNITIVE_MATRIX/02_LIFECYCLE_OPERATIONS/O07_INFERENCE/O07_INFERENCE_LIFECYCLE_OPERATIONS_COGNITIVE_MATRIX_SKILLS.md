@@ -4,6 +4,7 @@ type: note
 tags: [note, o07-inference]
 ---
 
+
 # O07 — Skills
 
 **Package:** `O07_INFERENCE`  

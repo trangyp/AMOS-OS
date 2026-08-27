@@ -1,9 +1,11 @@
 ---
 title: QUANTUM LOGIC SCAFFOLD QLS OFFICIAL MANUAL
-tags: [quantum]
+tags: [quantum, physics, qfm]
 type: document
 source: 11_KNOWLEDGE/quantum
 ---
+
+
 
 
 

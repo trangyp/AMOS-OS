@@ -1,5 +1,6 @@
 ---
 title: "Provenance × Confidence"
+type: provenance
 artifact: "PROVENANCE_X_CONFIDENCE.md"
 artifact_id: "amos_25_cognitive_matrix_provenance_x_confidence"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "PROVENANCE"
 path: "25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive_matrix, matrix]
   - 25_cognitive_matrix
   - provenance
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Provenance × Confidence
 

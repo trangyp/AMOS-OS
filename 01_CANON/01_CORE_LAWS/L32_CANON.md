@@ -1,7 +1,9 @@
 ---
 title: L32 CANON
-tags: ['canon', 'core_laws', 'note']
+type: canon
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L32 Canon Laws

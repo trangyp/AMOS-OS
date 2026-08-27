@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/kernel
 
 
 
+
 ```json
 {
   "kernel_id": "Meta_Epistemology_Kernel",

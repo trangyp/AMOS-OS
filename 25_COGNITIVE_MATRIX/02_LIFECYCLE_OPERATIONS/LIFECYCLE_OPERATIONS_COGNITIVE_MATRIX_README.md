@@ -1,7 +1,10 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'cognitive_matrix']
+type: lifecycle
+tags: [cognitive_matrix, matrix, cognition]
 ---
+
+
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX README

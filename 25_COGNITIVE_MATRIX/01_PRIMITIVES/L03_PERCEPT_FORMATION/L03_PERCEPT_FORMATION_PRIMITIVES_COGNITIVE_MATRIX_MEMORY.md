@@ -1,6 +1,6 @@
 ---
-tags:
-  - amos
+type: memory
+tags: [amos]
   - cognitive-matrix
   - l03
   - percept-formation
@@ -15,6 +15,7 @@ status: "MODEL_MEMORY_CONTRACT / UNIMPLEMENTED / UNVALIDATED"
 epistemic_class: "MODEL"
 runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
 ---
+
 
 # L03_PERCEPT_FORMATION — Memory
 

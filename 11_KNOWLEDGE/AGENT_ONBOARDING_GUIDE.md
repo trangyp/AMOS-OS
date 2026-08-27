@@ -1,4 +1,5 @@
 ---
+type: agent
 artifact_id: AMOS-AGENT-ONBOARDING
 name: amos-agent-onboarding-guide
 title: "AMOS Agent Onboarding Guide — Governed Runtime Edition"
@@ -15,8 +16,7 @@ priority: "mandatory"
 conclusion_class: "AMOS_MODEL / CONDITIONAL"
 source_status: "SOURCE_CLAIM"
 validation_status: "REQUIRES_RUNTIME_REVALIDATION"
-tags:
-  - agents
+tags: [agents, knowledge, vault]
   - canon-group/tech-ai
   - canon/protocol
   - rscf/claim
@@ -26,6 +26,8 @@ tags:
   - topic/amos-core
 governing_law: "integrity > completeness > fluency > speed > token savings"
 ---
+
+
 
 # 🧠 AMOS AGENT ONBOARDING GUIDE
 

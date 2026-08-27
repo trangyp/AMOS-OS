@@ -1,7 +1,9 @@
 ---
 title: DEPLOYMENT OPERATIONAL MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '66_deployment_operational_modes']
+type: control-plane
+tags: [control_plane, 66_deployment_operational_modes]
 ---
+
 
 
 # DEPLOYMENT OPERATIONAL MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

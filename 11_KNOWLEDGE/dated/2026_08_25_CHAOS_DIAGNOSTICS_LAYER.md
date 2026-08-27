@@ -6,6 +6,7 @@ epistemic: SOURCE/DERIVED
 tags: [math, fractal, chaos, time-series, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — Chaos Diagnostics Layer (FR017–FR018 Deep)
 
 ## Gap found

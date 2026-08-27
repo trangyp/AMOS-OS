@@ -1,9 +1,11 @@
 ---
 title: CPU RAM OPTIMIZATION REPORT
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 # AMOS BRAIN - CPU/RAM OPTIMIZATION REPORT

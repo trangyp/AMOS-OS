@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 39-politics-power]
 ---
 
+
 # 39_POLITICS_POWER — Map of Content
 
 ## Files

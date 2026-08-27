@@ -1,9 +1,11 @@
 ---
 title: DIR TRAVERSAL
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 # DIR Traversal

@@ -1,7 +1,9 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX CONTROL PLANES
-tags: ['cognitive_matrix', 'primitives', 'l01_sensing_observation', 'note']
+type: control-plane
+tags: [cognitive_matrix, primitives, l01_sensing_observation, note]
 ---
+
 
 
 Here is the full paste-ready `L01_SENSING_OBSERVATION/CONTROL_PLANES.md`. Direct L01-specific control-plane canon remains source-gap bounded; the operational structure below is therefore an AMOS `MODEL / CONDITIONAL` contract rather than a claim of recovered canon.

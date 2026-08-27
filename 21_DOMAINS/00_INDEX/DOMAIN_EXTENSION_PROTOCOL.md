@@ -1,7 +1,9 @@
 ---
 title: DOMAIN EXTENSION PROTOCOL
-tags: ['amos_os', '21_domains']
+type: protocol
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAIN EXTENSION PROTOCOL

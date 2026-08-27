@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/human
 ---
 
-
+# ABSOLUTE HUMAN VERSION ROOT
 
 ============================================================
 ABSOLUTE_HUMAN_OMNISTRUCTURE

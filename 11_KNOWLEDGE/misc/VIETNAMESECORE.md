@@ -1,10 +1,12 @@
 ---
 title: VIETNAMESECORE
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# VIETNAMESECORE
 
 // Vietnamese Core Pack
 import { PackItem, PackCategory } from "../masterPacks";

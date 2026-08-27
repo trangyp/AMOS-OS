@@ -1,7 +1,9 @@
 ---
 title: PLAYBOOKS OPERATIONS README
-tags: ['amos_os', '20_operations']
+type: operation
+tags: [amos_os, 20_operations]
 ---
+
 
 
 # PLAYBOOKS OPERATIONS README

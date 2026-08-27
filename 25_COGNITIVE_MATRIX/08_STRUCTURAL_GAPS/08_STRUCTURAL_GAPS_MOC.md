@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 08-structural-gaps]
 ---
 
+
 # 08_STRUCTURAL_GAPS — Map of Content
 
 ## Files

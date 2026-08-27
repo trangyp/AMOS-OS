@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVE REGISTRY
-tags: ['cognitive_matrix', 'index', 'note']
+type: registry
+tags: [cognitive_matrix, index, note]
 ---
+
 
 
 # Primitive Registry

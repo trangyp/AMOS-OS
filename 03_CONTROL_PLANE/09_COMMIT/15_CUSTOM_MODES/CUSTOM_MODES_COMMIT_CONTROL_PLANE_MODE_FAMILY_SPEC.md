@@ -1,4 +1,5 @@
 ---
+type: control-plane
 artifact_id: AMOS-MODE-FAMILY-15_CUSTOM_MODES
 title: "15_CUSTOM_MODES — Mode Family Placeholder"
 document_version: "0.1.0-placeholder"
@@ -9,9 +10,10 @@ steward: "Trang Phan"
 status: PROPOSED_SPECIFICATION
 conclusion_class: "UNKNOWN/GAP"
 rscf_state: "placeholder"
-tags: ['control_plane', 'commit', 'custom_modes', 'note']
+tags: [control_plane, commit, custom_modes, note]
 
 ---
+
 # 15_CUSTOM_MODES
 
 ## Status

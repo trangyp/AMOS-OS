@@ -1,5 +1,6 @@
 ---
 title: "Absolute Biological Integrity"
+type: biology
 artifact: "ABSOLUTE_BIOLOGICAL_INTEGRITY.md"
 artifact_id: "amos_21_domains_06_biology_absolute_biological_integrity"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/06_BIOLOGY"
 artifact_kind: "ARTIFACT"
 path: "21_DOMAINS/06_BIOLOGY/ABSOLUTE_BIOLOGICAL_INTEGRITY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Absolute Biological Integrity
 

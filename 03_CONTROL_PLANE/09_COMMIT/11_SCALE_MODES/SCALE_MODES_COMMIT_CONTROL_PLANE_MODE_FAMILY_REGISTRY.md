@@ -1,7 +1,9 @@
 ---
 title: SCALE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '11_scale_modes']
+type: control-plane
+tags: [control_plane, 11_scale_modes]
 ---
+
 
 
 # SCALE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

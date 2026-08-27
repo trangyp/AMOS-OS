@@ -2,12 +2,13 @@
 title: "AMOS HSE CEO Engine Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "brain_model"
+type: brain-model
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/hse-ceo-engine-model, engine]
 status: "active"
 provenance: "HSE_CEO_Enginev.txt"
 confidence: "STRUCTURAL"
 ---
+
 
 # AMOS HSE CEO Engine Model
 

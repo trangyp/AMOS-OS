@@ -1,4 +1,5 @@
 ---
+type: canon
 artifact_id: AMOS-OS-CANON-MAP
 name: AMOS_OS_CANON_MAP
 title: "AMOS OS Canon Map — Canonical Authority, Lineage, Provenance, and Promotion Topology"
@@ -31,8 +32,7 @@ scope:
   - epistemic_classification
   - dependency_governance
 
-tags:
-  - amos
+tags: [amos, canon, universe]
   - amos-os
   - canon
   - canon-map
@@ -80,6 +80,8 @@ related:
   - "CANON_MAP|Canon Map"
   - "AMOS_7_PART_UNIVERSE_CANON|7-Part Universe Canon"
 ---
+
+
 
 # AMOS OS Canon Map
 

@@ -1,5 +1,6 @@
 ---
 title: "Absolute Biological Integrity"
+type: biology
 artifact: "ABSOLUTE_BIOLOGICAL_INTEGRITY.md"
 artifact_id: "amos_05_cognitive_organism_15_homeostasis_absolute_biological_integrity"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/15_HOMEOSTASIS"
 artifact_kind: "ARTIFACT"
 path: "05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/ABSOLUTE_BIOLOGICAL_INTEGRITY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive, organism]
   - 05_cognitive_organism
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Absolute Biological Integrity
 

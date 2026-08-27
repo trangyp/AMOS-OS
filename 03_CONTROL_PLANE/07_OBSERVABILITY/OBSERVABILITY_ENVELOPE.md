@@ -1,7 +1,9 @@
 ---
 title: OBSERVABILITY ENVELOPE
-tags: ['control_plane', 'observability_envelope.md']
+type: observability
+tags: [control_plane, observability_envelope.md]
 ---
+
 
 
 # OBSERVABILITY ENVELOPE

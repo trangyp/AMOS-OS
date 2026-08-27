@@ -1,5 +1,6 @@
 ---
 title: CANON PROVENANCE
+type: canon
 artifact_id: AMOS-OS-CANON-PROVENANCE
 canonical_name: CANON_PROVENANCE
 artifact_type: canonical_provenance_registry
@@ -18,8 +19,7 @@ authority_scope: canon-provenance-lineage-and-supersession
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, canon, universe]
   - canon-group/meta
   - canon/provenance
   - canon/lineage
@@ -43,6 +43,8 @@ aliases:
   - AMOS Canon Lineage Registry
   - Canon Source Lineage
 ---
+
+
 
 
 # AMOS OS Canon Provenance

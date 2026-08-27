@@ -8,8 +8,7 @@ origin_architect: Trang Phan
 provenance: USER_REQUEST / COMMUNITY_PLUGIN_REGISTRY
 status: active
 steward: Trang Phan
-tags:
-- obsidian
+tags: [obsidian, knowledge, vault]
 - vault
 - linking
 - plugins
@@ -26,6 +25,8 @@ tags:
 title: AMOS Obsidian — Linking Plugin Stack
 type: reference
 ---
+
+
 # AMOS Obsidian — Linking Plugin Stack
 
 **Purpose:** Use Obsidian as the persistent brain surface for AMOS. This note configures the linking plugin stack and provides a starter Templater script so new notes are born already connected to the MOC network.

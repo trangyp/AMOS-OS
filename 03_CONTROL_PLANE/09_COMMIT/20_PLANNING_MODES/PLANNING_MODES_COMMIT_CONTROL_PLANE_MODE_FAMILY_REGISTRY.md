@@ -1,7 +1,9 @@
 ---
 title: PLANNING MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '20_planning_modes']
+type: control-plane
+tags: [control_plane, 20_planning_modes]
 ---
+
 
 
 # PLANNING MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

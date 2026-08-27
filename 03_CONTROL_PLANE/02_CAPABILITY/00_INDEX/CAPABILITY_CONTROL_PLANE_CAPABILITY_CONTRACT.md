@@ -1,7 +1,9 @@
 ---
 title: CAPABILITY CONTROL PLANE CAPABILITY CONTRACT
-tags: ['control_plane', '00_index']
+type: control-plane
+tags: [control_plane, 00_index]
 ---
+
 
 
 # CAPABILITY CONTROL PLANE CAPABILITY CONTRACT

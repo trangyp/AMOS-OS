@@ -1,5 +1,6 @@
 ---
 title: "Framework Claim Registry"
+type: framework
 artifact: "FRAMEWORK_CLAIM_REGISTRY.md"
 artifact_id: "amos_11_knowledge_02_claims_framework_claim_registry"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/02_CLAIMS"
 artifact_kind: "REGISTRY"
 path: "11_KNOWLEDGE/02_CLAIMS/FRAMEWORK_CLAIM_REGISTRY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - registry
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Framework Claim Registry
 

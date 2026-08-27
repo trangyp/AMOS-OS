@@ -1,7 +1,9 @@
 ---
 title: DOMAIN TEMPLATE
-tags: ['amos_os', '21_domains']
+type: template
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAIN TEMPLATE

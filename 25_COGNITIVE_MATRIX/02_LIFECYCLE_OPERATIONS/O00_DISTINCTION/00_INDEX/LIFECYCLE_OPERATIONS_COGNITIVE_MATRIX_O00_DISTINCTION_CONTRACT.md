@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O00 DISTINCTION CONTRACT
-tags: ['cognitive_matrix', 'o00_distinction']
+type: lifecycle
+tags: [cognitive_matrix, o00_distinction]
 ---
+
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O00 DISTINCTION CONTRACT

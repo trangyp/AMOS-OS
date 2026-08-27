@@ -1,5 +1,6 @@
 ---
 title: "RSCF × GMEF"
+type: rscf
 artifact: "RSCF_X_GMEF.md"
 artifact_id: "amos_25_cognitive_matrix_rscf_x_gmef"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "ARTIFACT"
 path: "25_COGNITIVE_MATRIX/RSCF_X_GMEF.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive_matrix, matrix]
   - 25_cognitive_matrix
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # RSCF × GMEF
 

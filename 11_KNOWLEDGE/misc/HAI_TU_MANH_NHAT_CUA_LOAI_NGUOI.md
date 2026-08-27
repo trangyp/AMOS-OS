@@ -1,9 +1,11 @@
 ---
 title: HAI TU MANH NHAT CUA LOAI NGUOI
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

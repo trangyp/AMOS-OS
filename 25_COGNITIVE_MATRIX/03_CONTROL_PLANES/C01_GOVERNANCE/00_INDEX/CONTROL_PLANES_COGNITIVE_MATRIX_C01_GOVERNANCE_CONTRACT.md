@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANES COGNITIVE MATRIX C01 GOVERNANCE CONTRACT
-tags: ['cognitive_matrix', 'c01_governance']
+type: control-plane
+tags: [cognitive_matrix, c01_governance]
 ---
+
 
 
 # CONTROL PLANES COGNITIVE MATRIX C01 GOVERNANCE CONTRACT

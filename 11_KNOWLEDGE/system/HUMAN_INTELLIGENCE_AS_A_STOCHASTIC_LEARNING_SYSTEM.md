@@ -1,9 +1,11 @@
 ---
 title: HUMAN INTELLIGENCE AS A STOCHASTIC LEARNING SYSTEM
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 

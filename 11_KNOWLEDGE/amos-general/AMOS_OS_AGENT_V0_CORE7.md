@@ -1,5 +1,6 @@
 ---
 title: AMOS OS AGENT V0 CORE7
+type: agent
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-os-agent-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-os-agent-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 ```json

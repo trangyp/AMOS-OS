@@ -6,6 +6,7 @@ epistemic: SOURCE/DERIVED
 tags: [math, signal, spectral, diagnostics, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — Spectral-Method Governance (Signal-Kernel Deep)
 
 ## Gap found

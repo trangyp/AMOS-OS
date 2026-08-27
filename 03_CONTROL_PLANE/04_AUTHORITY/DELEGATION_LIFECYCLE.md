@@ -1,7 +1,9 @@
 ---
 title: DELEGATION LIFECYCLE
-tags: ['control_plane', 'authority', 'note']
+type: delegation
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Delegation Lifecycle

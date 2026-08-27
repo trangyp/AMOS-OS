@@ -1,7 +1,9 @@
 ---
 title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX OPERATORS
-tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'note']
+type: cognitive
+tags: [cognitive_matrix, primitives, l02_attention, note]
 ---
+
 
 
 The source placeholder explicitly defines L02 as **“attention allocation; budget scarce reasoning/observation resources”** and requires operators/kernels, invariants, H/M/L, interfaces, dependencies, provenance, repair, tests, governance, freshness, and version lineage before promotion. It also explicitly prohibits inventing missing canon or implementation status. 

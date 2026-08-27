@@ -1,7 +1,9 @@
 ---
 title: AUTHORITY REGISTRY
-tags: ['control_plane', 'authority', 'note']
+type: authority
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Authority Registry

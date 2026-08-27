@@ -1,9 +1,11 @@
 ---
 title: KHUNG TRANG FULL MAX DETAIL ARCHITECTURE EQUATIONS
-tags: [trang]
+tags: [trang, framework, reality]
 type: data
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

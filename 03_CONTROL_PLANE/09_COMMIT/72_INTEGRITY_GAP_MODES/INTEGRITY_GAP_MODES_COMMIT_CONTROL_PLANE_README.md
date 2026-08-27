@@ -1,7 +1,9 @@
 ---
 title: INTEGRITY GAP MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '72_integrity_gap_modes']
+type: gap
+tags: [control_plane, 72_integrity_gap_modes]
 ---
+
 
 
 # INTEGRITY GAP MODES COMMIT CONTROL PLANE README

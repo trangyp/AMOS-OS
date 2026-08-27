@@ -1,9 +1,11 @@
 ---
 title: AMOS QUANTUM ENHANCEMENT PROGRESS REPORT
-tags: [quantum]
+tags: [quantum, physics, qfm]
 type: document
 source: 11_KNOWLEDGE/quantum
 ---
+
+
 
 
 # AMOS QUANTUM ENHANCEMENT - PROGRESS REPORT V2

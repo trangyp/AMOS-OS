@@ -1,7 +1,9 @@
 ---
 title: GENERATOR ADMISSION
-tags: ['cognitive_matrix', 'generator_admission.md']
+type: generator
+tags: [cognitive_matrix, generator_admission.md]
 ---
+
 
 
 # GENERATOR ADMISSION

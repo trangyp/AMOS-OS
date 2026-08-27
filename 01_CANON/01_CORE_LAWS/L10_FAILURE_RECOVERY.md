@@ -1,7 +1,9 @@
 ---
 title: L10 FAILURE RECOVERY
-tags: ['canon', 'core_laws', 'note']
+type: failure-mode
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L10 Failure & Recovery Laws

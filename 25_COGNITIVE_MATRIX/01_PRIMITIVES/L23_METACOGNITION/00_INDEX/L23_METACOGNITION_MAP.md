@@ -1,7 +1,9 @@
 ---
 title: L23 METACOGNITION MAP
-tags: ['cognitive_matrix', 'l23_metacognition']
+type: map
+tags: [cognitive_matrix, l23_metacognition]
 ---
+
 
 
 # L23 METACOGNITION MAP

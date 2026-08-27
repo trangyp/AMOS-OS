@@ -1,7 +1,9 @@
 ---
 title: COUNTERFACTUAL MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '22_counterfactual_modes']
+type: control-plane
+tags: [control_plane, 22_counterfactual_modes]
 ---
+
 
 
 # COUNTERFACTUAL MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

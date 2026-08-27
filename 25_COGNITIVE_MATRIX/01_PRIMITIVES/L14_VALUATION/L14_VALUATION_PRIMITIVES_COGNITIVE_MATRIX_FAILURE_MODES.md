@@ -4,6 +4,7 @@ type: note
 tags: [note, l14-valuation]
 ---
 
+
 # L14 — Failure Modes
 
 **Package:** `L14_VALUATION`  

@@ -1,7 +1,9 @@
 ---
 title: INDEX L11 CAUSAL MODELING PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l11_causal_modeling']
+type: index
+tags: [cognitive_matrix, l11_causal_modeling]
 ---
+
 
 
 # INDEX L11 CAUSAL MODELING PRIMITIVES COGNITIVE MATRIX README

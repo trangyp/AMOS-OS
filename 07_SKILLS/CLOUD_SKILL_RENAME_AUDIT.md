@@ -4,6 +4,7 @@ type: note
 tags: [note, 07-skills]
 ---
 
+
 # Cloud Skill Rename Audit
 
 - Source tree: `My Drive/Projects/.devin/skills`

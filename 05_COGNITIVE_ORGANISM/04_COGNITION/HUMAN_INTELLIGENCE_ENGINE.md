@@ -1,5 +1,6 @@
 ---
 title: "Human Intelligence Engine"
+type: engine
 artifact: "HUMAN_INTELLIGENCE_ENGINE.md"
 artifact_id: "amos_05_cognitive_organism_04_cognition_human_intelligence_engine"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/04_COGNITION"
 artifact_kind: "ENGINE"
 path: "05_COGNITIVE_ORGANISM/04_COGNITION/HUMAN_INTELLIGENCE_ENGINE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive, organism]
   - 05_cognitive_organism
   - engine
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Human Intelligence Engine
 

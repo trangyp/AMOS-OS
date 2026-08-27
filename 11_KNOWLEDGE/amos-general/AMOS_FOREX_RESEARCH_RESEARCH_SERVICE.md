@@ -1,10 +1,12 @@
 ---
 title: AMOS FOREX RESEARCH RESEARCH SERVICE
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: note
 source: 11_KNOWLEDGE/amos-general
 ---
 
+
+# AMOS FOREX RESEARCH RESEARCH SERVICE
 
 // research/research_service.js
 // Technical indicator service – computes SMA, EMA, ATR, and volatility on‑the‑fly.

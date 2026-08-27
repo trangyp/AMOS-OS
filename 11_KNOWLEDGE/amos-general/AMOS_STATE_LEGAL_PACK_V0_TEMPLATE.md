@@ -1,5 +1,6 @@
 ---
 title: AMOS STATE LEGAL PACK V0 TEMPLATE
+type: template
 canon-group: human-system
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-state-legal-pack-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-state-legal-pack-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 # AMOS State Legal Pack v0 Template

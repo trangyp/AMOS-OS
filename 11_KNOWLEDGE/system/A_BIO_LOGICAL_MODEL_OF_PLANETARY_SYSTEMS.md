@@ -1,9 +1,11 @@
 ---
 title: A BIO LOGICAL MODEL OF PLANETARY SYSTEMS
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 

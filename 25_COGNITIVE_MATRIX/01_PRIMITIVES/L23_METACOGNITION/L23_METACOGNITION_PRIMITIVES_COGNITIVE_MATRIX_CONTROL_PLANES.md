@@ -4,6 +4,7 @@ type: note
 tags: [note, l23-metacognition]
 ---
 
+
 # L23 — Control-Plane Requirements
 
 **Package:** `L23_METACOGNITION`  

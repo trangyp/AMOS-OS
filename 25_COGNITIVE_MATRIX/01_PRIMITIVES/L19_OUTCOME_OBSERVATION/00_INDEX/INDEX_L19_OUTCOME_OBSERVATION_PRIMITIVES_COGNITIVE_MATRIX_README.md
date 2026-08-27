@@ -1,7 +1,9 @@
 ---
 title: INDEX L19 OUTCOME OBSERVATION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l19_outcome_observation']
+type: index
+tags: [cognitive_matrix, l19_outcome_observation]
 ---
+
 
 
 # INDEX L19 OUTCOME OBSERVATION PRIMITIVES COGNITIVE MATRIX README

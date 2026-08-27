@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX O05 MEMORY CONTRACT
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o05_memory', 'contract']
+type: memory
+tags: [cognitive_matrix, lifecycle_operations, o05_memory, contract]
 ---
+
 
 
 # O05_MEMORY — Persist/retrieve with lifecycle (formation→evolution→retrieval) and trust gating.

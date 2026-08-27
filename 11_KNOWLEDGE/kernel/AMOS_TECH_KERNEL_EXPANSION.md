@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/kernel
 ---
 
-
+# AMOS TECH KERNEL EXPANSION
 
 AMOS Tech Kernel Expansion Complete (2026-08-22)
 

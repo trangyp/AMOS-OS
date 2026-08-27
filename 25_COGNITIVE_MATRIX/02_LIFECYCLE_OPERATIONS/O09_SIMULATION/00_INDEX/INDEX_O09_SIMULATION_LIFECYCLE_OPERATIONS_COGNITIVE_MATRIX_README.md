@@ -1,7 +1,9 @@
 ---
 title: INDEX O09 SIMULATION LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o09_simulation']
+type: index
+tags: [cognitive_matrix, o09_simulation]
 ---
+
 
 
 # INDEX O09 SIMULATION LIFECYCLE OPERATIONS COGNITIVE MATRIX README

@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE DEPRECATION SUPERSESSION
-tags: ['control_plane', '03_coding']
+type: supersession
+tags: [control_plane, 03_coding]
 ---
+
 
 
 # CONTROL PLANE DEPRECATION SUPERSESSION

@@ -1,11 +1,13 @@
 ---
 title: "AMOS Medical Clinical Kernel vInfinity"
+type: kernel
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Biology_Cognition/AMOS_Medical_Clinical_Kernel_v0.json (253 lines, 7KB)"
 origin_type: "SOURCE"
 category: "kernel"
 tags: [amos, medical, clinical, kernel, v-infinity, differential-diagnosis, risk-assessment, care-pathways, lens-space]
 ---
+
 
 # AMOS Medical Clinical Kernel vInfinity
 

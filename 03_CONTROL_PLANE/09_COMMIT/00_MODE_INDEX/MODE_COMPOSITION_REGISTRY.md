@@ -1,7 +1,9 @@
 ---
 title: MODE COMPOSITION REGISTRY
-tags: ['control_plane', '00_mode_index']
+type: registry
+tags: [control_plane, 00_mode_index]
 ---
+
 
 
 # MODE COMPOSITION REGISTRY

@@ -1,5 +1,6 @@
 ---
 title: "IP Ownership Registry"
+type: registry
 artifact: "IP_OWNERSHIP_REGISTRY.md"
 artifact_id: "amos_01_canon_07_provenance_ip_ownership_registry"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/07_PROVENANCE"
 artifact_kind: "REGISTRY"
 path: "01_CANON/07_PROVENANCE/IP_OWNERSHIP_REGISTRY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - registry
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # IP Ownership Registry
 

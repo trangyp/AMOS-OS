@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX L22 CONSOLIDATION CONTRACT
-tags: ['cognitive_matrix', 'primitives', 'l22_consolidation', 'contract']
+type: cognitive
+tags: [cognitive_matrix, primitives, l22_consolidation, contract]
 ---
+
 
 
 # L22_CONSOLIDATION — Consolidation Contract

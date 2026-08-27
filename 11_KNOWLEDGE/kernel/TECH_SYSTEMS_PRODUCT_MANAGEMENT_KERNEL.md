@@ -1,9 +1,11 @@
 ---
 title: TECH SYSTEMS PRODUCT MANAGEMENT KERNEL
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: data
 source: 11_KNOWLEDGE/kernel
 ---
+
+
 
 
 

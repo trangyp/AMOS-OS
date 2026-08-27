@@ -1,7 +1,9 @@
 ---
 title: L11 CAUSAL MODELING MAP
-tags: ['cognitive_matrix', 'l11_causal_modeling']
+type: map
+tags: [cognitive_matrix, l11_causal_modeling]
 ---
+
 
 
 # L11 CAUSAL MODELING MAP

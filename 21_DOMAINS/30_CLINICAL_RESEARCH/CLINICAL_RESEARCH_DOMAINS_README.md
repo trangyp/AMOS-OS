@@ -1,7 +1,9 @@
 ---
 title: CLINICAL RESEARCH DOMAINS README
-tags: ['amos_os', '21_domains']
+type: research
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # CLINICAL RESEARCH DOMAINS README

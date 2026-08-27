@@ -1,13 +1,15 @@
 ---
 title: AGENT FIX REASONING BRAIN
+type: agent
 claim_class: AMOS_MODEL
 origin_architect: Trang Phan
 status: COMPLETE
-tags:
-- agent-fix
+tags: [agent-fix, agent, automation]
 - reasoning-brain
 - worklog
 ---
+
+
 
 # Agent Fix Reasoning Brain
 

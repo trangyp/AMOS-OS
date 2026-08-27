@@ -1,7 +1,9 @@
 ---
 title: ADVERSARIAL RED TEAM MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '47_adversarial_red_team_modes']
+type: control-plane
+tags: [control_plane, 47_adversarial_red_team_modes]
 ---
+
 
 
 # ADVERSARIAL RED TEAM MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

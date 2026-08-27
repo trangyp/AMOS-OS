@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/amos-general
 
 
 
+
 ```json
 {\rtf1\ansi\ansicpg1252\cocoartf2867
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 .SFNS-Regular;\f1\fnil\fcharset0 .SFNS-RegularItalic;\f2\fnil\fcharset0 .SFNS-Semibold;

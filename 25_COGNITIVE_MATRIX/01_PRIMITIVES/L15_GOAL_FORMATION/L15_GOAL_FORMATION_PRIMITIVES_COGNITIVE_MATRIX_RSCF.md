@@ -4,6 +4,7 @@ type: note
 tags: [note, l15-goal-formation]
 ---
 
+
 # L15 — RSCF Record
 
 **Package:** `L15_GOAL_FORMATION`  

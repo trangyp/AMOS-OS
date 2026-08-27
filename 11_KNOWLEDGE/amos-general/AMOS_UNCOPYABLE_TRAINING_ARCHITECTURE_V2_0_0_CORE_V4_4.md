@@ -1,4 +1,5 @@
 ---
+type: architecture
 artifact_id: AMOS-UTA
 title: "The Uncopyable Training Architecture — AMOS Governed Edition"
 document_version: "2.0.0"
@@ -11,8 +12,10 @@ steward: "Trang Phan"
 epistemic_status: "AMOS_MODEL / CONDITIONAL"
 supersedes: "AMOS_UNCOPYABLE_TRAINING_ARCHITECTURE_v4_4.md"
 governing_law: "integrity > completeness > fluency > speed > token savings"
-tags: [amos-general]
+tags: [amos-general, amos, general]
 ---
+
+
 
 # ⭐ THE UNCOPYABLE TRAINING ARCHITECTURE
 ## AMOS Governed Edition v2.0.0 · CORE target v4.4

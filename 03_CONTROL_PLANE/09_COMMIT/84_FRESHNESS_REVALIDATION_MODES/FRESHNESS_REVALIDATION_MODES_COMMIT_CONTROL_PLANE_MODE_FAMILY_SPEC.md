@@ -1,7 +1,9 @@
 ---
 title: FRESHNESS REVALIDATION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '84_freshness_revalidation_modes']
+type: control-plane
+tags: [control_plane, 84_freshness_revalidation_modes]
 ---
+
 
 
 # FRESHNESS REVALIDATION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

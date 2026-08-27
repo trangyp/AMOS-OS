@@ -1,5 +1,6 @@
 ---
 title: K SYSTEM STATE
+type: state
 artifact_id: AMOS-OS-K-SYSTEM-STATE
 canonical_name: K_SYSTEM_STATE
 artifact_type: kernel_system_state_contract
@@ -13,8 +14,7 @@ kernel_family: STATE
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - canon/model
   - kernel
@@ -41,6 +41,8 @@ aliases:
   - K System State
   - K_SYSTEM_STATE
 ---
+
+
 
 
 # K SYSTEM STATE

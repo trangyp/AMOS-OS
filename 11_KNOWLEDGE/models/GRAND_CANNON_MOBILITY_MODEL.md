@@ -2,12 +2,13 @@
 title: "AMOS Grand Cannon Mobility Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "brain_model"
+type: brain-model
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/grand-cannon-mobility-model, models]
 status: "active"
 provenance: "Grand Cannon.txt"
 confidence: "STRUCTURAL"
 ---
+
 
 # AMOS Grand Cannon Mobility Model
 

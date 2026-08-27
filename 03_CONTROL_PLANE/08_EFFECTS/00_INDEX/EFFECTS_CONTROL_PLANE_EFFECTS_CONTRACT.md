@@ -1,7 +1,9 @@
 ---
 title: EFFECTS CONTROL PLANE EFFECTS CONTRACT
-tags: ['control_plane', '00_index']
+type: control-plane
+tags: [control_plane, 00_index]
 ---
+
 
 
 # EFFECTS CONTROL PLANE EFFECTS CONTRACT

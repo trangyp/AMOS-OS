@@ -1,7 +1,9 @@
 ---
 title: L12 COUNTERFACTUAL SIMULATION MAP
-tags: ['cognitive_matrix', 'l12_counterfactual_simulation']
+type: map
+tags: [cognitive_matrix, l12_counterfactual_simulation]
 ---
+
 
 
 # L12 COUNTERFACTUAL SIMULATION MAP

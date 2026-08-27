@@ -1,5 +1,6 @@
 ---
 title: AMOS PERSONALITY
+type: note
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -8,6 +9,7 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 created: 2026-08-22
 ---
 
+# AMOS PERSONALITY
 
 AMOS_PERSONALITY_CORE_vInfinity
 

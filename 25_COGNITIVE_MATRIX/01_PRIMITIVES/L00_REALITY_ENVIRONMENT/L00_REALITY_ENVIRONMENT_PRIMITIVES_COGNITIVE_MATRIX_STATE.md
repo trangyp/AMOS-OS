@@ -1,9 +1,8 @@
 ---
 title: L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX STATE
+type: state
 
-tags:
-
-* amos
+tags: [amos]
 * cognitive-matrix
 * l00
 * reality-environment
@@ -24,6 +23,7 @@ tags:
 * rscf/type-model
 
 ---
+
 
 
 # L00_REALITY_ENVIRONMENT — State

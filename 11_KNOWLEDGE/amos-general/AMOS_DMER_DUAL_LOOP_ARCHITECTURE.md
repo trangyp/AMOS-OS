@@ -1,5 +1,6 @@
 ---
 title: AMOS DMER DUAL LOOP ARCHITECTURE
+type: architecture
 canon-group: tech-ai
 canon-type: architecture
 rscf-state: model
@@ -8,8 +9,7 @@ status: proposed-amos-alignment
 version: v1.0
 origin-architect: Trang Phan
 source-origin: "∞ và ● — source mapping of HIE, UMPL, UIE, UEL, Absolute Human, Ancient Math"
-tags:
-  - amos
+tags: [amos, general, architecture]
   - dmer
   - distinction
   - mutation
@@ -32,6 +32,8 @@ tags:
   - amos-general
 
 ---
+
+
 
 
 # AMOS D/M/E/R Dual-Loop Architecture

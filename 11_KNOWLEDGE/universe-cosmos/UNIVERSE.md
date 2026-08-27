@@ -1,9 +1,11 @@
 ---
 title: UNIVERSE
-tags: [universe-cosmos]
+tags: [universe-cosmos, universe, cosmos]
 type: document
 source: 11_KNOWLEDGE/universe-cosmos
 ---
+
+
 
 
 

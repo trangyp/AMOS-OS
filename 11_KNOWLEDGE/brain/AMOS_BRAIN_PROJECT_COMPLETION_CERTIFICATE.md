@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN PROJECT COMPLETION CERTIFICATE
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 # AMOS Brain Project - Official Completion Certificate

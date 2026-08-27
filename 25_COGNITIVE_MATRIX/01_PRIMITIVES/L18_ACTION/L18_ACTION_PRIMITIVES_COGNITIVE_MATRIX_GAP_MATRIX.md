@@ -4,6 +4,7 @@ type: note
 tags: [note, l18-action]
 ---
 
+
 # L18 — Gap Matrix
 
 **Package:** `L18_ACTION`  

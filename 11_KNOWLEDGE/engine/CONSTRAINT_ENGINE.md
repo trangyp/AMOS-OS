@@ -1,9 +1,11 @@
 ---
 title: CONSTRAINT ENGINE
-tags: [engine]
+tags: [engine, processing, runtime]
 type: document
 source: 11_KNOWLEDGE/engine
 ---
+
+
 
 
 # Constraint Propagation Engine

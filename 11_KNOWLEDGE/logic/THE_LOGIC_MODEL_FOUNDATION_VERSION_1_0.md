@@ -1,9 +1,11 @@
 ---
 title: THE LOGIC MODEL FOUNDATION VERSION 1 0
-tags: [logic]
+tags: [logic, reasoning, formal]
 type: document
 source: 11_KNOWLEDGE/logic
 ---
+
+
 
 
 

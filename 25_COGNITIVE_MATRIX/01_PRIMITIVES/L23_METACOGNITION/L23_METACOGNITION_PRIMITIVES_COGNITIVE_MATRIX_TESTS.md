@@ -4,6 +4,7 @@ type: note
 tags: [note, l23-metacognition]
 ---
 
+
 # L23 — Tests & Validators
 
 **Package:** `L23_METACOGNITION`  

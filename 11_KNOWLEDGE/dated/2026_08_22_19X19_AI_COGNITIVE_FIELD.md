@@ -1,5 +1,6 @@
 ---
 title: 2026 08 22 19X19 AI COGNITIVE FIELD
+type: cognitive
 origin_architect: Trang Phan
 provenance: user-supplied 19×19 strategic-ontology AI-cognition extension (sections 127–237); base geometry in cosmo-brain/AMOS_GO_BOARD_19X19.py and strategic field in cosmo-brain/AMOS_GO_BOARD_19X19_STRATEGIC.py
 confidence: 0.88
@@ -8,6 +9,7 @@ conclusion_label: MODEL
 tags: [ai-cognition, attention, cognitive-field, kernel-routing, metacognition, rscf/M-memory, rscf/type-model, strategic-field, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 
 # 19×19 AI Cognitive Field

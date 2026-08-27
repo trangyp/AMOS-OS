@@ -1,9 +1,11 @@
 ---
 title: FROM BIOMETRICS TO BIOLOGICAL INTELLIGENCE BUILDIN BOOKS
-tags: [logic]
+tags: [logic, reasoning, formal]
 type: document
 source: 11_KNOWLEDGE/logic
 ---
+
+
 
 
 

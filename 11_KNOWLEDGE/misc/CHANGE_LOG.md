@@ -1,5 +1,6 @@
 ---
 title: CHANGE LOG
+type: changelog
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: change-log
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/change-log, misc]
 created: 2026-08-22
 ---
+
 
 
 # Change Log

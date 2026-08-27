@@ -1,9 +1,11 @@
 ---
 title: GOVERNANCE TENSOR
-tags: [governance]
+tags: [governance, policy, authority]
 type: document
 source: 11_KNOWLEDGE/governance
 ---
+
+
 
 
 # Governance Tensor

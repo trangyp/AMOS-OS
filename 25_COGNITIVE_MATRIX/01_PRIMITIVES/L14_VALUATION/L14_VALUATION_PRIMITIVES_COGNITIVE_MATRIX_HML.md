@@ -4,6 +4,7 @@ type: note
 tags: [note, l14-valuation]
 ---
 
+
 # L14 — H/M/L Applicability
 
 **Package:** `L14_VALUATION`  

@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX L13 PREDICTION CONTRACT
-tags: ['cognitive_matrix', 'primitives', 'l13_prediction', 'contract']
+type: cognitive
+tags: [cognitive_matrix, primitives, l13_prediction, contract]
 ---
+
 
 
 # L13_PREDICTION — Prediction Contract

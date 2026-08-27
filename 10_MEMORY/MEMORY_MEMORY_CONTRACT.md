@@ -1,7 +1,9 @@
 ---
 title: MEMORY MEMORY CONTRACT
-tags: ['amos_os', '10_memory']
+type: memory
+tags: [amos_os, 10_memory]
 ---
+
 
 
 # MEMORY MEMORY CONTRACT

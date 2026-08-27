@@ -1,4 +1,5 @@
 ---
+type: logic
 id: AMOS-C01-META-LOGIC-MASTER-KNOWLEDGE
 title: "AMOS C01 — Meta-Logic Master Knowledge"
 origin_architect: "Trang Phan"
@@ -29,9 +30,10 @@ source_family_mapping:
   - "F08_uncertainty_and_risk"
   - "F09_temporal_meta_logic_and_binding"
   - "F10_root_commitments_and_universal_operators"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # AMOS C01 — Meta-Logic Master Knowledge
 
 > **Epistemic boundary**

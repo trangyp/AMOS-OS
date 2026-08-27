@@ -1,9 +1,11 @@
 ---
 title: NHAP KHAU DAU KEO EV AND XE TAI EV TRUNG QUOC
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

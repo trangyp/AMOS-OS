@@ -1,7 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX GAP MATRIX
-tags:
-  - amos
+type: gap
+tags: [amos]
   - cognitive-matrix
   - l01
   - sensing-observation
@@ -14,6 +14,7 @@ tags:
   - rscf
   - rscf/type-model
 ---
+
 
 
 # L01_SENSING_OBSERVATION — Gap Matrix

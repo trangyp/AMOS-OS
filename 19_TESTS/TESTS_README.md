@@ -1,7 +1,9 @@
 ---
 title: TESTS README
-tags: ['amos_os', '19_tests']
+type: test
+tags: [amos_os, 19_tests]
 ---
+
 
 
 # TESTS README

@@ -1,5 +1,6 @@
 ---
 title: K METACOGNITION
+type: note
 artifact_id: AMOS-OS-K-METACOGNITION
 canonical_name: K_METACOGNITION
 artifact_type: kernel_metacognition_contract
@@ -18,8 +19,7 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - canon/model
   - kernel
@@ -45,6 +45,8 @@ aliases:
   - K Metacognition
   - K_METACOGNITION
 ---
+
+
 
 
 # K_METACOGNITION

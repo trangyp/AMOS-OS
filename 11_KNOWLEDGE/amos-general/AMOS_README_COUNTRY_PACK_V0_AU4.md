@@ -1,5 +1,6 @@
 ---
 title: AMOS README COUNTRY PACK V0 AU4
+type: note
 canon-group: human-system
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-readme-country-pack-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-readme-country-pack-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 # AMOS Readme Country Pack v0 Au4

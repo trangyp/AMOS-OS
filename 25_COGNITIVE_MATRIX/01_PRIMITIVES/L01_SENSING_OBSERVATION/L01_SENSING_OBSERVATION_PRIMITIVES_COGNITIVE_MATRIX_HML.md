@@ -1,7 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX HML
-tags:
-  - amos
+type: cognitive
+tags: [amos]
   - cognitive-matrix
   - l01
   - sensing-observation
@@ -12,6 +12,7 @@ tags:
   - rscf
   - control-plane
 ---
+
 
 
 # L01_SENSING_OBSERVATION — HML

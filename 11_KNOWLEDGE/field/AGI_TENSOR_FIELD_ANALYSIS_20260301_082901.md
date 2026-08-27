@@ -1,9 +1,11 @@
 ---
 title: AGI TENSOR FIELD ANALYSIS 20260301 082901
-tags: [field]
+tags: [field, physics, domain]
 type: data
 source: 11_KNOWLEDGE/field
 ---
+
+
 
 
 

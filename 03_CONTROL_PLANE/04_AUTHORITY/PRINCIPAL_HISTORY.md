@@ -1,7 +1,9 @@
 ---
 title: PRINCIPAL HISTORY
-tags: ['control_plane', 'authority', 'note']
+type: history
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Principal History

@@ -1,7 +1,9 @@
 ---
 title: L25 SHARD LOCAL
-tags: ['canon', 'core_laws', 'note']
+type: note
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L25 Shard-Local Law

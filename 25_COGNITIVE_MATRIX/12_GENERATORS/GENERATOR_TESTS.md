@@ -1,4 +1,5 @@
 ---
+type: test
 id: AMOS-12-GENERATORS-GENERATOR-TESTS
 title: "12_GENERATORS — Generator Tests"
 origin_architect: "Trang Phan"
@@ -43,6 +44,7 @@ runtime_dependencies:
 hard_rule: "TEST_PASS != TRUTH != AUTHORITY != COMMIT"
 tags: [note, 12-generators]
 ---
+
 
 # 12_GENERATORS — Generator Tests
 

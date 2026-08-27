@@ -4,6 +4,7 @@ type: note
 tags: [note, o15-observation]
 ---
 
+
 # O15 — Preconditions
 
 **Package:** `O15_OBSERVATION`  

@@ -1,9 +1,11 @@
 ---
 title: HERITAGE INTELLIGENCE V7 0 KIEN TRUC DAY DU EXH
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

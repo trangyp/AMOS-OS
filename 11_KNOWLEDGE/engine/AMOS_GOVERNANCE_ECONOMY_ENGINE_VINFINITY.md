@@ -1,10 +1,12 @@
 ---
 title: "AMOS Governance Economy Engine vInfinity"
+type: economy
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Governance_Economy_Engine_v0.json (750 lines, 27KB)"
 origin_type: "SOURCE"
 tags: [amos, kernel, governance, economy, tss, tpe, vInfinity, 12-axes, 32-dimensions, 7-tensor-layers, engine]
 ---
+
 
 # AMOS Governance Economy Engine vInfinity
 

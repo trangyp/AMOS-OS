@@ -1,5 +1,6 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Operators"
+type: cognitive
 aliases:
 
 * "AMOS Reality Environment Operators"
@@ -28,9 +29,10 @@ aliases:
 * validation
 * repair
 * governance
-tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
+tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---
+
 # L00_REALITY_ENVIRONMENT — Operators
 
 **Class:** `AMOS_REALITY_ENVIRONMENT_OPERATOR_ARCHITECTURE`

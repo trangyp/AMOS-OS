@@ -1,7 +1,9 @@
 ---
 title: STATE README
-tags: ['amos_os', '12_state']
+type: state
+tags: [amos_os, 12_state]
 ---
+
 
 
 # STATE README

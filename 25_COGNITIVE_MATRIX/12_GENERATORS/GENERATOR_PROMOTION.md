@@ -1,5 +1,6 @@
 ---
 title: GENERATOR PROMOTION
+type: generator
 
 ## tags: ['cognitive_matrix', 'generators', 'promotion', 'governance', 'validation', 'provenance', 'canon']
 
@@ -13,8 +14,10 @@ title: GENERATOR PROMOTION
 **Implementation Status:** NOT ESTABLISHED BY THIS DOCUMENT
 **Empirical Validation Status:** NOT ESTABLISHED BY THIS DOCUMENT
 **Final Canon Status:** NOT ESTABLISHED BY THIS DOCUMENT
-tags: [12_GENERATORS]
+tags: [12_GENERATORS, cognitive_matrix, matrix]
 ---
+
+
 
 
 

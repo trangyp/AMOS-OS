@@ -1,7 +1,9 @@
 ---
 title: ARCHIVE DEPRECATED CONTRACT
-tags: ['amos_os', '24_archive']
+type: deprecated
+tags: [amos_os, 24_archive]
 ---
+
 
 
 # ARCHIVE DEPRECATED CONTRACT

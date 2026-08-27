@@ -1,4 +1,5 @@
 ---
+type: validation
 id: AMOS-11-VALIDATION-EVIDENCE
 title: "11_VALIDATION — Validation Evidence"
 origin_architect: "Trang Phan"
@@ -52,6 +53,7 @@ runtime_dependencies:
 hard_rule: "EVIDENCE != CLAIM != VALIDATION != AUTHORITY != COMMIT"
 tags: [note, 11-validation]
 ---
+
 
 # 11_VALIDATION — Validation Evidence
 

@@ -1,5 +1,6 @@
 ---
 title: AMOS DETERMINISTIC LOGIC AND LAW ENGINE V0 COGNITIVE4
+type: cognitive
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-deterministic-logic-and-law-engine-v0
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-deterministic-logic-and-law-engine-, cognitive]
 created: 2026-08-22
 ---
+
 
 
 ```json

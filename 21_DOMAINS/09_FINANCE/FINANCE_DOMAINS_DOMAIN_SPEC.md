@@ -1,7 +1,9 @@
 ---
 title: FINANCE DOMAINS DOMAIN SPEC
-tags: ['amos_os', '21_domains']
+type: finance
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # FINANCE DOMAINS DOMAIN SPEC

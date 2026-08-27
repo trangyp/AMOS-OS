@@ -1,7 +1,9 @@
 ---
 title: RESEARCH DOMAINS DOMAIN SPEC
-tags: ['amos_os', '21_domains']
+type: research
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # RESEARCH DOMAINS DOMAIN SPEC

@@ -1,7 +1,9 @@
 ---
 title: TARGET RESOLUTION
-tags: ['control_plane', 'authority', 'note']
+type: note
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Target Resolution

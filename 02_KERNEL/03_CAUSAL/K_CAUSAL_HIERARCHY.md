@@ -1,5 +1,6 @@
 ---
 title: K CAUSAL HIERARCHY
+type: note
 artifact_id: AMOS-OS-K-CAUSAL-HIERARCHY
 canonical_name: K_CAUSAL_HIERARCHY
 artifact_type: kernel_causal_hierarchy_contract
@@ -18,8 +19,7 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - canon/model
   - kernel
@@ -49,6 +49,8 @@ aliases:
   - K Causal Hierarchy
   - K_CAUSAL_HIERARCHY
 ---
+
+
 
 
 # K CAUSAL HIERARCHY

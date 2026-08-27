@@ -1,7 +1,9 @@
 ---
 title: GOVERNANCE FORUMS
-tags: ['amos_os', '23_operating_model']
+type: governance
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # GOVERNANCE FORUMS

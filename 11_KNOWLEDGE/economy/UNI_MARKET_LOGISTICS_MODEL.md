@@ -1,8 +1,10 @@
 ---
 title: UNI MARKET LOGISTICS MODEL
+type: model
 aliases: [Uni Market Logistics Engine, AMOS_Uni_Market, VN_Driver_Charging_Logistics]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/uni-market-logistics-model, economy]
 ---
+
 
 
 # AMOS Uni Market Logistics Engine

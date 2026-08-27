@@ -1,9 +1,11 @@
 ---
 title: RSCF REFERENCES
-tags: [rscf]
+tags: [rscf, epistemic, claim]
 type: document
 source: 11_KNOWLEDGE/rscf
 ---
+
+
 
 
 # RSCF Contract

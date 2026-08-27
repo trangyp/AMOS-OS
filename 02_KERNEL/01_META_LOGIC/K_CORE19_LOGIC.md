@@ -1,5 +1,6 @@
 ---
 title: K CORE19 LOGIC
+type: logic
 artifact_id: AMOS-OS-K-CORE19-LOGIC
 canonical_name: K_CORE19_LOGIC
 artifact_type: kernel_logic_contract
@@ -18,8 +19,7 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - canon/model
   - kernel
@@ -46,6 +46,8 @@ aliases:
   - AMOS CORE19 Logic Kernel
   - CORE19 Deterministic Logic Kernel
 ---
+
+
 
 
 # K_CORE19_LOGIC

@@ -4,6 +4,7 @@ type: note
 tags: [note, 12-generators]
 ---
 
+
 Below is a full AMOS-aligned replacement for `25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VERSIONING.md`.
 
 The central rule is that **Generator versioning is not just semantic version numbering**. In AMOS, a Generator version must bind contract, implementation, schema/template dependencies, provenance, validation/test evidence, scope/regime, policy epoch, compatibility, supersession, rollback, and state-read assumptions strongly enough that a previously validated Generator cannot silently drift underneath the same identity. This follows the AMOS Full Brain OS integrity model: implementation, authority, provenance, or validation facts that are unavailable remain explicit gaps rather than being inferred.  The primary canon source for this Skill is `AMOS_FULL_BRAIN_OS.json`; preserving its version/provenance architecture is separate from claiming an implemented runtime mechanism. 

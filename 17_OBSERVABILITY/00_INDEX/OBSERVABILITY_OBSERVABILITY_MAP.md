@@ -1,7 +1,9 @@
 ---
 title: OBSERVABILITY OBSERVABILITY MAP
-tags: ['amos_os', '17_observability']
+type: map
+tags: [amos_os, 17_observability]
 ---
+
 
 
 # OBSERVABILITY OBSERVABILITY MAP

@@ -1,7 +1,9 @@
 ---
 title: C01 GOVERNANCE MAP
-tags: ['cognitive_matrix', 'c01_governance']
+type: map
+tags: [cognitive_matrix, c01_governance]
 ---
+
 
 
 # C01 GOVERNANCE MAP

@@ -1,5 +1,6 @@
 ---
 title: DOCTPR
+type: doc
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -8,6 +9,7 @@ tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, r
 created: 2026-08-22
 ---
 
+# DOCTPR
 
 DOCTOR OF SCIENCE
 (DSc/ScD) SUBMISSION

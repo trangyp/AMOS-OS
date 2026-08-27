@@ -4,6 +4,7 @@ type: note
 tags: [note, c09-kernel-control]
 ---
 
+
 # C09 — RSCF Record
 
 **Package:** `C09_KERNEL_CONTROL`  

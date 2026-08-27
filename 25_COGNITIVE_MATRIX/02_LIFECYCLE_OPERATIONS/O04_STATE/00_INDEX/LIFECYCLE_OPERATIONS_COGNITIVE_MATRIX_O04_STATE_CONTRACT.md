@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O04 STATE CONTRACT
-tags: ['cognitive_matrix', 'o04_state']
+type: lifecycle
+tags: [cognitive_matrix, o04_state]
 ---
+
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O04 STATE CONTRACT

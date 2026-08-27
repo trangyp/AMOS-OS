@@ -1,7 +1,9 @@
 ---
 title: L06 WORKING STATE MAP
-tags: ['cognitive_matrix', 'l06_working_state']
+type: map
+tags: [cognitive_matrix, l06_working_state]
 ---
+
 
 
 # L06 WORKING STATE MAP

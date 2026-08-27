@@ -1,8 +1,10 @@
 ---
 title: LEGAL ENGINE MODEL
+type: model
 aliases: [Legal Engine Kernel, AMOS_Legal_Engine]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/legal-engine-model, engine]
 ---
+
 
 
 # AMOS Legal Engine Kernel

@@ -1,4 +1,5 @@
 ---
+type: agent
 artifact_id: AMOS-INVESTMENT-AGENT
 name: Investment_Agent
 title: "AMOS Investment Agent — Governed Money-System Component"
@@ -34,8 +35,7 @@ aliases:
   - Money System Investment Agent
   - Governed Investment Analysis Agent
 
-tags:
-  - agents
+tags: [agents, knowledge, vault]
   - canon-group/tech-ai
   - canon/component
   - rscf/claim
@@ -49,6 +49,8 @@ tags:
 
 governing_law: "integrity > completeness > fluency > speed > token savings"
 ---
+
+
 
 # AMOS Investment Agent
 ## Governed Money-System Component

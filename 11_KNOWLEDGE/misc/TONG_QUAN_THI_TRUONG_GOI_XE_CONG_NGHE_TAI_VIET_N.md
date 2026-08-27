@@ -1,9 +1,11 @@
 ---
 title: TONG QUAN THI TRUONG GOI XE CONG NGHE TAI VIET N
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

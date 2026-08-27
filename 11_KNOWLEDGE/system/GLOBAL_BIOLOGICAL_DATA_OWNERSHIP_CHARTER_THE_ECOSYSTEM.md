@@ -1,9 +1,11 @@
 ---
 title: GLOBAL BIOLOGICAL DATA OWNERSHIP CHARTER THE ECOSYSTEM
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 

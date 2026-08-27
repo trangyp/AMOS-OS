@@ -1,9 +1,11 @@
 ---
 title: README PAYLOAD
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 ## These are not payloads I have created myself, they were sourced from other resources like:

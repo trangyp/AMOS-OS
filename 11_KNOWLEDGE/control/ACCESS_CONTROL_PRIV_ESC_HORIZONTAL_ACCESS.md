@@ -1,9 +1,11 @@
 ---
 title: ACCESS CONTROL PRIV ESC HORIZONTAL ACCESS
-tags: [control]
+tags: [control, governance, policy]
 type: document
 source: 11_KNOWLEDGE/control
 ---
+
+
 
 
 ## Horizontal Access

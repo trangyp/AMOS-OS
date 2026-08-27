@@ -1,5 +1,6 @@
 ---
 title: AMOS PERSONALITY TRANG ENGINE V0 WEB7
+type: engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-personality-trang-engine-v0
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-personality-trang-engine-v0, trang]
 created: 2026-08-22
 ---
+
 
 
 ```json

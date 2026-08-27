@@ -1,9 +1,11 @@
 ---
 title: VI SAO TON GIAO THAT BAI TRONG VIEC BAO TON CAI TH
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

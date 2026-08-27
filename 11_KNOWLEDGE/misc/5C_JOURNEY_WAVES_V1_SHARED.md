@@ -1,5 +1,6 @@
 ---
 title: 5C JOURNEY WAVES V1 SHARED
+type: note
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -8,6 +9,7 @@ tags: [canon-group/tech-ai, canon/narrative, rscf/claim, rscf/provenance, rscf/s
 created: 2026-08-22
 ---
 
+# 5C JOURNEY WAVES V1 SHARED
 
 TRANSFORMING CUSTOMER JOURNEYS
 Playbook

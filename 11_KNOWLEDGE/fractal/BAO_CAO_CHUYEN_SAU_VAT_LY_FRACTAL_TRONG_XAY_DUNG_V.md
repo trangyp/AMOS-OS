@@ -1,9 +1,11 @@
 ---
 title: BAO CAO CHUYEN SAU VAT LY FRACTAL TRONG XAY DUNG V
-tags: [fractal]
+tags: [fractal, math, self-similarity]
 type: document
 source: 11_KNOWLEDGE/fractal
 ---
+
+
 
 
 

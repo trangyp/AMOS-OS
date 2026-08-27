@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/misc
 ---
 
-
+# PLANETARY CONSENT INFRASTRUCTURE INVESTOR BRIEF
 
 Planetary Consent Infrastructure
 

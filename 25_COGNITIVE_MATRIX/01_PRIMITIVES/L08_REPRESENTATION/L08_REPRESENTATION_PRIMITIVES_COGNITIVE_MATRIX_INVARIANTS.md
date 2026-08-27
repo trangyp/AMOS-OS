@@ -4,6 +4,7 @@ type: note
 tags: [note, l08-representation]
 ---
 
+
 # L08 — Invariants
 
 **Package:** `L08_REPRESENTATION`  

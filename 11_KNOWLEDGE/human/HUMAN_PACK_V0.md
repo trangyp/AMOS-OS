@@ -1,10 +1,12 @@
 ---
 title: HUMAN PACK V0
-tags: [human]
+tags: [human, alignment, interaction]
 type: note
 source: 11_KNOWLEDGE/human
 ---
 
+
+# HUMAN PACK V0
 
 """Auto-generated AMOS framework module.
 

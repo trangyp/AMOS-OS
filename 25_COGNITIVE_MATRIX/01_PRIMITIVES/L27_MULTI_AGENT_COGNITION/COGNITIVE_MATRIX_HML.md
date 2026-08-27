@@ -4,6 +4,7 @@ type: note
 tags: [note, l27-multi-agent-cognition]
 ---
 
+
 # L27 — H/M/L Applicability
 
 **Package:** `L27_MULTI_AGENT_COGNITION`  

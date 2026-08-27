@@ -1,9 +1,11 @@
 ---
 title: FRACTAL FOREX ENTERPRISE
-tags: [fractal]
+tags: [fractal, math, self-similarity]
 type: document
 source: 11_KNOWLEDGE/fractal
 ---
+
+
 
 
 

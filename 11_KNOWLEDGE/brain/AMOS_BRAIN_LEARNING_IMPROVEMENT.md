@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN LEARNING IMPROVEMENT
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 # AMOS Brain: What I Learned and Improved

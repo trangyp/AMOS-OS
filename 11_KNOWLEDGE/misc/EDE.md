@@ -1,5 +1,6 @@
 ---
 title: EDE
+type: note
 
 canon-group: human-system
 canon-type: architecture
@@ -8,9 +9,7 @@ topic: truth-preserving-biological-operating-system
 status: standalone-architecture
 version: v1.0
 source-title: "The Illusion of Enlightenment"
-tags:
-
-* truth-preservation
+tags: [truth-preservation, misc, reference]
 * biological-truth-os
 * enlightenment
 * perception
@@ -34,6 +33,8 @@ tags:
 * rscf/type-model
 
 ---
+
+
 
 
 # Truth-Preserving Biological Operating System

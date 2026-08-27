@@ -1,7 +1,9 @@
 ---
 title: L18 GMEF
-tags: ['canon', 'core_laws', 'note']
+type: note
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L18 GMEF Gate Laws

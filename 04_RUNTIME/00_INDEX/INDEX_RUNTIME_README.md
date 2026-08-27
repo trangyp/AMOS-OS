@@ -1,7 +1,9 @@
 ---
 title: INDEX RUNTIME README
-tags: ['amos_os', '04_runtime']
+type: index
+tags: [amos_os, 04_runtime]
 ---
+
 
 
 # INDEX RUNTIME README

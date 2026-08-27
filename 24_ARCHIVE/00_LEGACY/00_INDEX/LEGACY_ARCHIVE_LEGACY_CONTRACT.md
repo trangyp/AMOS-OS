@@ -1,7 +1,9 @@
 ---
 title: LEGACY ARCHIVE LEGACY CONTRACT
-tags: ['amos_os', '24_archive']
+type: legacy
+tags: [amos_os, 24_archive]
 ---
+
 
 
 # LEGACY ARCHIVE LEGACY CONTRACT

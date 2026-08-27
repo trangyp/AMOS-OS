@@ -1,5 +1,6 @@
 ---
 title: "World Model Engine"
+type: model
 artifact: "WORLD_MODEL_ENGINE.md"
 artifact_id: "amos_05_cognitive_organism_world_model_engine"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "05_COGNITIVE_ORGANISM"
 artifact_kind: "MODEL"
 path: "05_COGNITIVE_ORGANISM/WORLD_MODEL_ENGINE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive, organism]
   - 05_cognitive_organism
   - model
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # World Model Engine
 

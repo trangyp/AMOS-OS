@@ -4,6 +4,7 @@ type: note
 tags: [note, 12-generators]
 ---
 
+
 Below is the substantive replacement for `GENERATOR_REGISTRY.md`. I checked the connected Drive generator material first; the canonical `12_GENERATORS` folder currently exposes only a builder script, while broader Drive search surfaces generator source artifacts such as `unified_generator.md` and `hierarchical_ai_architecture_generator.md`. I therefore treat the registry below as an **AMOS model/specification**, not as proof that a populated runtime registry already exists.  
 
 ````markdown

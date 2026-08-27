@@ -1,9 +1,11 @@
 ---
 title: UNIVERSAL FIELD MODEL
-tags: [field]
+tags: [field, physics, domain]
 type: document
 source: 11_KNOWLEDGE/field
 ---
+
+
 
 
 # Universal Field Architecture — MODEL Layer

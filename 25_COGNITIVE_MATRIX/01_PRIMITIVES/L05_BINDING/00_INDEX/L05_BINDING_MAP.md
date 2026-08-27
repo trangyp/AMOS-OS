@@ -1,7 +1,9 @@
 ---
 title: L05 BINDING MAP
-tags: ['cognitive_matrix', 'l05_binding']
+type: map
+tags: [cognitive_matrix, l05_binding]
 ---
+
 
 
 # L05 BINDING MAP

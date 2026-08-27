@@ -4,6 +4,7 @@ type: note
 tags: [note, 25-cognitive-matrix]
 ---
 
+
 ````markdown
 ---
 canon-group: governance

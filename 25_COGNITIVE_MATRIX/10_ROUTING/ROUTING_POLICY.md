@@ -1,7 +1,9 @@
 ---
 title: ROUTING POLICY
-tags: ['cognitive_matrix', 'routing', 'note']
+type: routing
+tags: [cognitive_matrix, routing, note]
 ---
+
 
 
 ````md

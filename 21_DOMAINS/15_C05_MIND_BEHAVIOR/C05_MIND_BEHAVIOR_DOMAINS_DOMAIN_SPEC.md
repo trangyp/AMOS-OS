@@ -1,7 +1,9 @@
 ---
 title: C05 MIND BEHAVIOR DOMAINS DOMAIN SPEC
-tags: ['amos_os', '21_domains']
+type: mind
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C05 MIND BEHAVIOR DOMAINS DOMAIN SPEC

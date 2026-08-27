@@ -4,6 +4,7 @@ type: note
 tags: [note, 09-dependency-graph]
 ---
 
+
 # INVALIDATION_RULES — Definition
 
 **Package:** `INVALIDATION_RULES_`  

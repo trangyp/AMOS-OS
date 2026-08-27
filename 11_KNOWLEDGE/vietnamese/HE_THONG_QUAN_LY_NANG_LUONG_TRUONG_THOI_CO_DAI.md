@@ -1,9 +1,11 @@
 ---
 title: HE THONG QUAN LY NANG LUONG TRUONG THOI CO DAI
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

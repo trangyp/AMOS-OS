@@ -1,7 +1,9 @@
 ---
 title: INDEX SECTOR VALUE CHAIN DOMAINS README
-tags: ['amos_os', '21_domains']
+type: index
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # INDEX SECTOR VALUE CHAIN DOMAINS README

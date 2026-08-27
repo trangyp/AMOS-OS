@@ -1,9 +1,11 @@
 ---
 title: GLOBAL RAW INTELLIGENCE AUDIT FRAMEWORK GRIAF
-tags: [audit]
+tags: [audit, repair, quality]
 type: document
 source: 11_KNOWLEDGE/audit
 ---
+
+
 
 
 

@@ -1,5 +1,6 @@
 ---
 title: AMOS VIETNAMESE GLOBAL CULTURAL BRIDGE GOVERNOR
+type: bridge
 claim_ceiling: 0.9
 created: 2026-08-27
 domain: cross-domain
@@ -8,12 +9,13 @@ origin_architect: Trang Phan
 parent_skill: amos-c06-society-culture-master
 rscf_node_type: skill
 status: production_ready
-tags:
-- rscf/node
+tags: [rscf/node, knowledge, vault]
 - canon-group/cross-domain
 - topic/vietnamese-global
 - topic/cultural-bridge
 ---
+
+
 
 # AMOS Vietnamese-Global Cultural Bridge Governor
 

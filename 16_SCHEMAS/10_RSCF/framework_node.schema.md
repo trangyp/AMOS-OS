@@ -1,5 +1,6 @@
 ---
 title: "Framework Node Schema"
+type: schema
 artifact: "framework_node.schema.md"
 artifact_id: "amos_16_schemas_10_rscf_framework_node.schema"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "16_SCHEMAS/10_RSCF"
 artifact_kind: "FRAMEWORK"
 path: "16_SCHEMAS/10_RSCF/framework_node.schema.md"
 
-tags:
-  - amos_os
+tags: [amos_os, schema, specification]
   - 16_schemas
   - framework
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Framework Node Schema
 

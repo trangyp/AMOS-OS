@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/tech-coding
 ---
 
-
+# V11 PLANETARY CONSENT INFRASTRUCTURE TECHNICAL FRAMEWORK
 
 Planetary Consent Infrastructure: Complete Technical Framework
 

@@ -1,9 +1,11 @@
 ---
 title: KERNEL PROTOCOL
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: document
 source: 11_KNOWLEDGE/kernel
 ---
+
+
 
 
 # AMOS Kernel Protocol

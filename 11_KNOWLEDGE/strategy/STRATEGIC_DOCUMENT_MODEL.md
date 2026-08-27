@@ -1,8 +1,10 @@
 ---
 title: STRATEGIC DOCUMENT MODEL
+type: model
 aliases: [Strategic Document Engine, AMOS_Strategic_Document]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/strategic-document-model, strategy]
 ---
+
 
 
 # AMOS Strategic Document Engine

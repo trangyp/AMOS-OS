@@ -1,9 +1,11 @@
 ---
 title: AMOS CORE V4 7 HARDENED DETERMINISTIC GOVERNANCE
-tags: [governance]
+tags: [governance, policy, authority]
 type: document
 source: 11_KNOWLEDGE/governance
 ---
+
+
 
 
 """

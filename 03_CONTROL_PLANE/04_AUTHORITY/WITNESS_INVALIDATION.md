@@ -1,7 +1,9 @@
 ---
 title: WITNESS INVALIDATION
-tags: ['control_plane', 'authority', 'note']
+type: validation
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Witness Invalidation

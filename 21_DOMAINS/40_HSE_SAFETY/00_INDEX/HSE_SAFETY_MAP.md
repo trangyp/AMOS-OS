@@ -1,7 +1,9 @@
 ---
 title: HSE SAFETY MAP
-tags: ['amos_os', '21_domains']
+type: map
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # HSE SAFETY MAP

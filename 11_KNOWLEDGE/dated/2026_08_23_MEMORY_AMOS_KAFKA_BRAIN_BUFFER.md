@@ -6,6 +6,7 @@ source: 11_KNOWLEDGE/dated
 ---
 
 
+
 # Memory — AMOS Kafka Brain Buffer
 
 **Created:** 2026-08-23

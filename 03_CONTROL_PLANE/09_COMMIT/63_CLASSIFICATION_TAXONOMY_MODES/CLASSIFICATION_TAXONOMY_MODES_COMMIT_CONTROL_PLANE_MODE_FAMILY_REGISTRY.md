@@ -1,7 +1,9 @@
 ---
 title: CLASSIFICATION TAXONOMY MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '63_classification_taxonomy_modes']
+type: control-plane
+tags: [control_plane, 63_classification_taxonomy_modes]
 ---
+
 
 
 # CLASSIFICATION TAXONOMY MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

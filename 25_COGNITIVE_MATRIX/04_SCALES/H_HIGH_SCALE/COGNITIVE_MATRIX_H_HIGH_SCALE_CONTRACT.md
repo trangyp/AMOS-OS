@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX H HIGH SCALE CONTRACT
-tags: ['cognitive_matrix', 'scales', 'h_high_scale', 'contract']
+type: cognitive
+tags: [cognitive_matrix, scales, h_high_scale, contract]
 ---
+
 
 
 # H_HIGH_SCALE — High scale: constitutional/governance reasoning; strictest gates, slowest cadence, highest evidence bar.

@@ -1,7 +1,9 @@
 ---
 title: INDEX O16 LEARNING LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o16_learning']
+type: index
+tags: [cognitive_matrix, o16_learning]
 ---
+
 
 
 # INDEX O16 LEARNING LIFECYCLE OPERATIONS COGNITIVE MATRIX README

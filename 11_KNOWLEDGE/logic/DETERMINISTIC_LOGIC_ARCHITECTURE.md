@@ -1,9 +1,11 @@
 ---
 title: DETERMINISTIC LOGIC ARCHITECTURE
-tags: [logic]
+tags: [logic, reasoning, formal]
 type: data
 source: 11_KNOWLEDGE/logic
 ---
+
+
 
 
 

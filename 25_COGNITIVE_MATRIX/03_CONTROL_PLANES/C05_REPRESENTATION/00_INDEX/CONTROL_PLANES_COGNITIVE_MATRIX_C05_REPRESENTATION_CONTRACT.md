@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANES COGNITIVE MATRIX C05 REPRESENTATION CONTRACT
-tags: ['cognitive_matrix', 'c05_representation']
+type: control-plane
+tags: [cognitive_matrix, c05_representation]
 ---
+
 
 
 # CONTROL PLANES COGNITIVE MATRIX C05 REPRESENTATION CONTRACT

@@ -1,7 +1,9 @@
 ---
 title: PROVENANCE CONTROL PLANE PROVENANCE CONTRACT
-tags: ['control_plane', '00_index']
+type: provenance
+tags: [control_plane, 00_index]
 ---
+
 
 
 # PROVENANCE CONTROL PLANE PROVENANCE CONTRACT

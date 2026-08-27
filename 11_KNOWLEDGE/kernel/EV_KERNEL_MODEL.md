@@ -1,8 +1,10 @@
 ---
 title: EV KERNEL MODEL
+type: kernel
 aliases: [EV Kernel, AMOS_EV_Kernel, Unified_EV_Kernel]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/observation, topic/ev-kernel-model, kernel]
 ---
+
 
 
 # AMOS EV Kernel

@@ -4,6 +4,7 @@ type: note
 tags: [note, c07-perception]
 ---
 
+
 # C07 — Policies
 
 **Package:** `C07_PERCEPTION`  

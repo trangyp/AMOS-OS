@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 79-coordination-independence-modes]
 ---
 
+
 # 79_COORDINATION_INDEPENDENCE_MODES — Map of Content
 
 ## Files

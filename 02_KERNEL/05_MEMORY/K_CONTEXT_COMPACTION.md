@@ -1,5 +1,6 @@
 ---
 title: K CONTEXT COMPACTION
+type: action
 artifact_id: AMOS-OS-K-CONTEXT-COMPACTION
 canonical_name: K_CONTEXT_COMPACTION
 artifact_type: kernel_context_compaction_contract
@@ -13,8 +14,7 @@ kernel_family: CONTEXT
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - kernel
   - kernel/context
@@ -32,6 +32,8 @@ tags:
   - topic/lossy-compression
   - topic/retrieval
 ---
+
+
 
 
 # K CONTEXT COMPACTION

@@ -1,7 +1,9 @@
 ---
 title: VALIDATION REGISTRY
-tags: ['amos_os', '22_research']
+type: validation
+tags: [amos_os, 22_research]
 ---
+
 
 
 # VALIDATION REGISTRY

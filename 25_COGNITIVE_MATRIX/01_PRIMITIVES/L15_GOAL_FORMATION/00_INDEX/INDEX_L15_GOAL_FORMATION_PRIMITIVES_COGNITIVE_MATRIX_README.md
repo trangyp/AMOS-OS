@@ -1,7 +1,9 @@
 ---
 title: INDEX L15 GOAL FORMATION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l15_goal_formation']
+type: index
+tags: [cognitive_matrix, l15_goal_formation]
 ---
+
 
 
 # INDEX L15 GOAL FORMATION PRIMITIVES COGNITIVE MATRIX README

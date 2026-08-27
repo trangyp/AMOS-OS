@@ -1,5 +1,6 @@
 ---
 title: AMOS SECTOR ECONOMICS PACK V0 TEMPLATE
+type: template
 canon-group: human-system
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-sector-economics-pack-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-sector-economics-pack-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 # AMOS Sector Economics Pack v0 Template

@@ -1,7 +1,9 @@
 ---
 title: C01 META LOGIC DOMAINS DOMAIN SPEC
-tags: ['amos_os', '21_domains']
+type: logic
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C01 META LOGIC DOMAINS DOMAIN SPEC

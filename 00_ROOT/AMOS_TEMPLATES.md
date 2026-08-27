@@ -7,8 +7,7 @@ origin_architect: Trang Phan
 provenance: VAULT_INDEX
 status: active
 steward: Trang Phan
-tags:
-- templates
+tags: [templates, amos_os, root]
 - templater
 - index
 - moc
@@ -19,6 +18,8 @@ tags:
 title: AMOS Templates
 type: index
 ---
+
+
 # AMOS Templates
 
 Index of Obsidian note and automation templates used by the AMOS vault.

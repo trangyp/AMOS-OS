@@ -1,7 +1,9 @@
 ---
 title: CAUSAL MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '24_causal_modes']
+type: control-plane
+tags: [control_plane, 24_causal_modes]
 ---
+
 
 
 # CAUSAL MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

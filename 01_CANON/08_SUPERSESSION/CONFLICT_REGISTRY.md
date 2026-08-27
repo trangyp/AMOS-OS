@@ -1,5 +1,6 @@
 ---
 title: CONFLICT REGISTRY
+type: registry
 artifact_id: AMOS-OS-CONFLICT-REGISTRY
 canonical_name: CONFLICT_REGISTRY
 artifact_type: canonical_conflict_registry
@@ -17,8 +18,7 @@ authority_scope: conflict-identification-preservation-classification-resolution-
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, canon, universe]
   - canon-group/meta
   - canon/framework
   - canon/registry
@@ -44,6 +44,8 @@ aliases:
   - AMOS OS Conflict Registry
   - Canon Conflict Registry
 ---
+
+
 
 
 # AMOS OS Conflict Registry

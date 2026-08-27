@@ -8,7 +8,9 @@ tags: [moc, templates]
 
 ## Files
 
-- [[linked-note]]
+- [[AMOS_TEMPLATES]]
+- [[AGENT_TEMPLATES]]
+- [[AMOS_LAYER_MAPS]]
 
 ---
 **Parent:** [[AMOS_HOME]]

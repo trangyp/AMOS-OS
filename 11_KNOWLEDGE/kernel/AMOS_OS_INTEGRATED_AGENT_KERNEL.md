@@ -1,5 +1,6 @@
 ---
 title: AMOS OS INTEGRATED AGENT KERNEL
+type: kernel
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-os-integrated-agent
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-os-integrated-agent, kernel]
 created: 2026-08-22
 ---
+
 
 
 ```json

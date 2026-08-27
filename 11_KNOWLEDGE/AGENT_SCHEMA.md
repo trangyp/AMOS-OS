@@ -1,4 +1,5 @@
 ---
+type: agent
 artifact_id: AMOS-AGENT-SCHEMA
 name: amos-agent-schema-full
 title: "AMOS Agent Schema — Full Governed Specification"
@@ -17,8 +18,7 @@ topic: agent-schema-full
 status: active
 conclusion_class: "AMOS_MODEL"
 source_status: "SOURCE_CLAIM"
-tags:
-  - canon-group/tech-ai
+tags: [canon-group/tech-ai, knowledge, vault]
   - canon/protocol
   - rscf/claim
   - rscf/provenance
@@ -30,6 +30,8 @@ aliases:
   - Unified Agent Construction Schema
 governing_law: "integrity > completeness > fluency > speed > token savings"
 ---
+
+
 
 # AMOS Agent Schema — Full Governed Specification
 

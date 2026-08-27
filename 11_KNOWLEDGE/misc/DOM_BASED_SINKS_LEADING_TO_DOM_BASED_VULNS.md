@@ -1,9 +1,11 @@
 ---
 title: DOM BASED SINKS LEADING TO DOM BASED VULNS
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 ## Sinks leading to DOM-based vulns

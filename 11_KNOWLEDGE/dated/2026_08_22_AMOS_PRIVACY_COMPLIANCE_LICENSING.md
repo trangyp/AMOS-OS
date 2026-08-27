@@ -1,12 +1,13 @@
 ---
 title: "AMOS Privacy Compliance Licensing"
 created: "2026-08-22"
-type: "note"
+type: note
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-privacy-compliance, dated, dated/2026-08-22]
 status: "living"
 provenance: "MODEL"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS Privacy, Compliance & Licensing (Gaps 258-269)
 

@@ -6,6 +6,7 @@ epistemic: SOURCE/DERIVED
 tags: [math, fractal, golden-ratio, diagnostics, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — Golden-Ratio & Log-Spiral Diagnostics (FR021 Deep)
 
 ## Gap found

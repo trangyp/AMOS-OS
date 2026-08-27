@@ -1,7 +1,9 @@
 ---
 title: INDEX MEMORY README
-tags: ['amos_os', '10_memory']
+type: index
+tags: [amos_os, 10_memory]
 ---
+
 
 
 # INDEX MEMORY README

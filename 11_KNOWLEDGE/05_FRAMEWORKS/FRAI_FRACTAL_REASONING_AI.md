@@ -1,5 +1,6 @@
 ---
 title: "FRAI — Fractal Reasoning AI"
+type: fractal
 artifact: "FRAI_FRACTAL_REASONING_AI.md"
 artifact_id: "amos_11_knowledge_05_frameworks_frai_fractal_reasoning_ai"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "REASONING"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - reasoning
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # FRAI — Fractal Reasoning AI
 

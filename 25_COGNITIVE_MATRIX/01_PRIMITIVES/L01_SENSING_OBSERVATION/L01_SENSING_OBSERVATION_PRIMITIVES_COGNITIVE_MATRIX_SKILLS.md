@@ -1,7 +1,9 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX SKILLS
-tags: ['cognitive_matrix', 'primitives', 'l01_sensing_observation', 'note']
+type: skill
+tags: [cognitive_matrix, primitives, l01_sensing_observation, note]
 ---
+
 
 
 # L01_SENSING_OBSERVATION — Skills

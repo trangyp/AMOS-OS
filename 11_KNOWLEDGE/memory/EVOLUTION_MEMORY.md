@@ -1,9 +1,11 @@
 ---
 title: EVOLUTION MEMORY
-tags: [memory]
+tags: [memory, state, persistence]
 type: document
 source: 11_KNOWLEDGE/memory
 ---
+
+
 
 
 # Evolutionary and Anti-Regression Memory

@@ -1,7 +1,9 @@
 ---
 title: DOMAINS C03 PHYSICS COSMOS CONTRACT
-tags: ['amos_os', '21_domains']
+type: physics
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS C03 PHYSICS COSMOS CONTRACT

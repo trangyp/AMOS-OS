@@ -4,6 +4,7 @@ type: moc
 tags: [moc, reports]
 ---
 
+
 # Reports — Map of Content
 
 - [[AMOS_ADVANCED_INTELLIGENCE]]

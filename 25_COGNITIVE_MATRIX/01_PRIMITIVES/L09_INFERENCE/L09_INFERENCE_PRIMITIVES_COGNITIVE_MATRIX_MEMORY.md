@@ -4,6 +4,7 @@ type: note
 tags: [note, l09-inference]
 ---
 
+
 # L09 — Memory Contract
 
 **Package:** `L09_INFERENCE`  

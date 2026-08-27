@@ -1,9 +1,11 @@
 ---
 title: HERITAGE 12 LOAI FRACTAL VA UNG DUNG CUA CHUN
-tags: [fractal]
+tags: [fractal, math, self-similarity]
 type: document
 source: 11_KNOWLEDGE/fractal
 ---
+
+
 
 
 

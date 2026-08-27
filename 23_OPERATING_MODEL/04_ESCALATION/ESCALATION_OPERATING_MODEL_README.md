@@ -1,7 +1,9 @@
 ---
 title: ESCALATION OPERATING MODEL README
-tags: ['amos_os', '23_operating_model']
+type: model
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # ESCALATION OPERATING MODEL README

@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L00 REALITY ENVIRONMENT CONTRACT
-tags: ['cognitive_matrix', 'l00_reality_environment']
+type: cognitive
+tags: [cognitive_matrix, l00_reality_environment]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L00 REALITY ENVIRONMENT CONTRACT

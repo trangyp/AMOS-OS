@@ -1,7 +1,9 @@
 ---
 title: SCALE REGISTRY
-tags: ['cognitive_matrix', 'index', 'note']
+type: registry
+tags: [cognitive_matrix, index, note]
 ---
+
 
 
 # Scale Registry

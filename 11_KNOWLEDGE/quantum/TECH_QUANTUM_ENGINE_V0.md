@@ -1,10 +1,12 @@
 ---
 title: TECH QUANTUM ENGINE V0
-tags: [quantum]
+tags: [quantum, physics, qfm]
 type: note
 source: 11_KNOWLEDGE/quantum
 ---
 
+
+# TECH QUANTUM ENGINE V0
 
 """Auto-generated AMOS framework module.
 

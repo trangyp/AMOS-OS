@@ -1,10 +1,12 @@
 ---
 title: MONEY CORE KERNEL
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: note
 source: 11_KNOWLEDGE/kernel
 ---
 
+
+# MONEY CORE KERNEL
 
 """AMOS logical component.
 

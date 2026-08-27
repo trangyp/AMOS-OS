@@ -6,6 +6,7 @@ source: 11_KNOWLEDGE/dated
 ---
 
 
+
 # 2026-08-25 Architecture Quantum Audit and v0.7.0 Plan
 
 **Canonical path**: `_00_Cosmo brain/md/`

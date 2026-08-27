@@ -1,7 +1,9 @@
 ---
 title: C04 REASONING MAP
-tags: ['cognitive_matrix', 'c04_reasoning']
+type: map
+tags: [cognitive_matrix, c04_reasoning]
 ---
+
 
 
 # C04 REASONING MAP

@@ -1,7 +1,9 @@
 ---
 title: DOMAINS C02 MATH COMPUTE CONTRACT
-tags: ['amos_os', '21_domains']
+type: math
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS C02 MATH COMPUTE CONTRACT

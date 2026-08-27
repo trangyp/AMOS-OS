@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/quantum
 ---
 
-
+# QUANTUM LOGIC SYSTEMS QLS WHERE INFORMATION COMES FROM STANDARD
 
 |         | QUYNH       | TRANG   | PHAN  |       |
 | ------- | ----------- | ------- | ----- | ----- |

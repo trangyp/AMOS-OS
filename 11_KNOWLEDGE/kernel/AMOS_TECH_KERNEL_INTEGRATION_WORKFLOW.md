@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/kernel
 
 
 
+
 # AMOS Tech Kernel Integration Workflow
 
 **Purpose:** Use the 18 Tech kernels (plus 2 coordination/orchestration kernels) as an integrated technology capability. This workflow shows how to compose Tech kernels for complex technology tasks.

@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX PRIMITIVES CONTRACT
-tags: ['cognitive_matrix', '00_index']
+type: cognitive
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX PRIMITIVES CONTRACT

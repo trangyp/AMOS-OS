@@ -1,7 +1,9 @@
 ---
 title: L29 DECISION VALUE
-tags: ['canon', 'core_laws', 'note']
+type: decision
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L29 Decision Value Laws

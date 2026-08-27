@@ -1,7 +1,9 @@
 ---
 title: INDEX C10 TECH ENGINEERING DOMAINS README
-tags: ['amos_os', '21_domains']
+type: index
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # INDEX C10 TECH ENGINEERING DOMAINS README

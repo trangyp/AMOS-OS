@@ -1,8 +1,10 @@
 ---
 title: SCIENTIFIC ENGINE MODEL
+type: model
 aliases: [Scientific Engine Kernel, AMOS_Scientific_Engine]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/scientific-engine-model, engine]
 ---
+
 
 
 # AMOS Scientific Engine Kernel

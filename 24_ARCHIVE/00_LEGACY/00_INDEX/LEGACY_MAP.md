@@ -1,7 +1,9 @@
 ---
 title: LEGACY MAP
-tags: ['amos_os', '24_archive']
+type: legacy
+tags: [amos_os, 24_archive]
 ---
+
 
 
 # LEGACY MAP

@@ -4,6 +4,7 @@ type: note
 tags: [note, h-high-scale]
 ---
 
+
 # H — Definition
 
 **Package:** `H_HIGH_SCALE`  

@@ -1,9 +1,11 @@
 ---
 title: DEFENSE SECURITY AND CIVIL PROTECTION SYSTEMS NON
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 

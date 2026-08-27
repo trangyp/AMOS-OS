@@ -1,7 +1,9 @@
 ---
 title: INDEX SECURITY README
-tags: ['amos_os', '18_security']
+type: index
+tags: [amos_os, 18_security]
 ---
+
 
 
 # INDEX SECURITY README

@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX INTEGRATION
-tags: ['00_root', 'note']
+type: integration
+tags: [00_root, note]
 ---
+
 
 
 # AMOS OS — Cognitive Matrix Integration

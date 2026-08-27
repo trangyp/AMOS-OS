@@ -1,7 +1,9 @@
 ---
 title: EXPERIMENTAL ARCHIVE README
-tags: ['amos_os', '24_archive']
+type: experimental
+tags: [amos_os, 24_archive]
 ---
+
 
 
 # EXPERIMENTAL ARCHIVE README

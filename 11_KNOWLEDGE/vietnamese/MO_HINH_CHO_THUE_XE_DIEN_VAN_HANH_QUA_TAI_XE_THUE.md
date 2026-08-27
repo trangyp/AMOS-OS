@@ -1,9 +1,11 @@
 ---
 title: MO HINH CHO THUE XE DIEN VAN HANH QUA TAI XE THUE
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

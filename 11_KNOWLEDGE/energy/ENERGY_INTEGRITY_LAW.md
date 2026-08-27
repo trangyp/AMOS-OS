@@ -1,9 +1,11 @@
 ---
 title: ENERGY INTEGRITY LAW
-tags: [energy]
+tags: [energy, power, green]
 type: document
 source: 11_KNOWLEDGE/energy
 ---
+
+
 
 
 

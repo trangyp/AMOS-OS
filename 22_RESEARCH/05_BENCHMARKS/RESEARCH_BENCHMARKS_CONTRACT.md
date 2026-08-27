@@ -1,7 +1,9 @@
 ---
 title: RESEARCH BENCHMARKS CONTRACT
-tags: ['amos_os', '22_research']
+type: benchmark
+tags: [amos_os, 22_research]
 ---
+
 
 
 # RESEARCH BENCHMARKS CONTRACT

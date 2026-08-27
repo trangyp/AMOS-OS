@@ -3,12 +3,13 @@ title: "AMOS Quantum Knowledge Base Integration"
 created: "2026-08-22"
 origin: "Hermes ↔ Cosmo Brain"
 origin_architect: "Trang Phan"
-type: "note"
+type: note
 tags: [cosmo, amos, canon-group/system, rscf/claim, rscf/state/observation, topic/quantum, topic/knowledge-base, dated, dated/2026-08-22]
 status: "verified"
 provenance: "OBSERVATION"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS Quantum Knowledge Base Integration
 

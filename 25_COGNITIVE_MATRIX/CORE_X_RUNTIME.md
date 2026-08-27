@@ -1,5 +1,6 @@
 ---
 title: "Core × Runtime"
+type: runtime
 artifact: "CORE_X_RUNTIME.md"
 artifact_id: "amos_25_cognitive_matrix_core_x_runtime"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "RUNTIME"
 path: "25_COGNITIVE_MATRIX/CORE_X_RUNTIME.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive_matrix, matrix]
   - 25_cognitive_matrix
   - runtime
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Core × Runtime
 

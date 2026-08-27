@@ -4,6 +4,7 @@ type: moc
 tags: [moc, cognitive]
 ---
 
+
 # Cognitive — Map of Content
 
 - [[AMOS_COGNITIVE_COMPRESSION_KERNEL]]

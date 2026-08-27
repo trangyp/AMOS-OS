@@ -1,11 +1,13 @@
 ---
 title: "AMOS Personality Engine vInfinity (AMOS_PERSONALITY_CORE_vInfinity)"
+type: engine
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Core/AMOS_Personality_Engine_v0.json (109KB, massive personality specification)"
 origin_type: "SOURCE"
 category: "kernel"
 tags: [amos, personality, engine, v-infinity, identity, ethics, healing, non-harm, biological-law, cognitive-architecture, cultural-stack, humour, trangs-love]
 ---
+
 
 # AMOS Personality Engine vInfinity (AMOS_PERSONALITY_CORE_vInfinity)
 

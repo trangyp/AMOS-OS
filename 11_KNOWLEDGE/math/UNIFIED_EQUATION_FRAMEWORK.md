@@ -1,9 +1,11 @@
 ---
 title: UNIFIED EQUATION FRAMEWORK
-tags: [math]
+tags: [math, equation, formal]
 type: document
 source: 11_KNOWLEDGE/math
 ---
+
+
 
 
 # AMOS Unified Equation Framework (UEF) - Implementation Complete

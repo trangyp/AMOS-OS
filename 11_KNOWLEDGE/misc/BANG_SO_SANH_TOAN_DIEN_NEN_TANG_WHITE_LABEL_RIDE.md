@@ -1,9 +1,11 @@
 ---
 title: BANG SO SANH TOAN DIEN NEN TANG WHITE LABEL RIDE
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

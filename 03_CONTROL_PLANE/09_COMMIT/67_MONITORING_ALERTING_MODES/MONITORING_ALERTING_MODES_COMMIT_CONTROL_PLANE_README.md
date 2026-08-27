@@ -1,7 +1,9 @@
 ---
 title: MONITORING ALERTING MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '67_monitoring_alerting_modes']
+type: control-plane
+tags: [control_plane, 67_monitoring_alerting_modes]
 ---
+
 
 
 # MONITORING ALERTING MODES COMMIT CONTROL PLANE README

@@ -1,7 +1,9 @@
 ---
 title: AUTHORIZATION BINDING
-tags: ['control_plane', 'authority', 'note']
+type: note
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Authorization Binding

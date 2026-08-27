@@ -6,6 +6,7 @@ epistemic: DERIVED
 tags: [integrity, agents, schema, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — Agent Registry Schema Repair
 
 ## Defect found

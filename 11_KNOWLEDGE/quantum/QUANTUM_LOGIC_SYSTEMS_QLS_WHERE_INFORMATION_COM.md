@@ -1,9 +1,11 @@
 ---
 title: QUANTUM LOGIC SYSTEMS QLS WHERE INFORMATION COM
-tags: [quantum]
+tags: [quantum, physics, qfm]
 type: document
 source: 11_KNOWLEDGE/quantum
 ---
+
+
 
 
 

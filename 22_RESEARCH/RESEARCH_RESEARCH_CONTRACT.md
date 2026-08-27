@@ -1,7 +1,9 @@
 ---
 title: RESEARCH RESEARCH CONTRACT
-tags: ['amos_os', '22_research']
+type: research
+tags: [amos_os, 22_research]
 ---
+
 
 
 # RESEARCH RESEARCH CONTRACT

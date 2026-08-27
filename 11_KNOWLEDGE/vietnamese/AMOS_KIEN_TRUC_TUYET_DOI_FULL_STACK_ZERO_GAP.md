@@ -1,9 +1,11 @@
 ---
 title: AMOS KIEN TRUC TUYET DOI FULL STACK ZERO GAP
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

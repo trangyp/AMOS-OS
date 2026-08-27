@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O08 PREDICTION CONTRACT
-tags: ['cognitive_matrix', 'o08_prediction']
+type: lifecycle
+tags: [cognitive_matrix, o08_prediction]
 ---
+
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O08 PREDICTION CONTRACT

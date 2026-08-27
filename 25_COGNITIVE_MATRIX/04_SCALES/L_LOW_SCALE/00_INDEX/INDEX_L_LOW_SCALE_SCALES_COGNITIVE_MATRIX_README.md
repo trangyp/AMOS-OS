@@ -1,7 +1,9 @@
 ---
 title: INDEX L LOW SCALE SCALES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l_low_scale']
+type: index
+tags: [cognitive_matrix, l_low_scale]
 ---
+
 
 
 # INDEX L LOW SCALE SCALES COGNITIVE MATRIX README

@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATION REGISTRY
-tags: ['cognitive_matrix', 'index', 'note']
+type: lifecycle
+tags: [cognitive_matrix, index, note]
 ---
+
 
 
 # Lifecycle Operation Registry

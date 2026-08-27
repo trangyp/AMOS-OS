@@ -1,4 +1,5 @@
 ---
+type: note
 id: AMOS-C06-SOCIETY-CULTURE-MASTER-KNOWLEDGE
 title: "AMOS C06 — Society & Culture Master Knowledge"
 origin_architect: "Trang Phan"
@@ -27,9 +28,10 @@ source_family_mapping:
   - "F08_monitoring_and_social_data"
   - "F09_scenarios_policy_and_intervention"
   - "F10_meta_society_research_bridge"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # AMOS C06 — Society & Culture Master Knowledge
 
 > **Epistemic boundary**

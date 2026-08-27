@@ -6,6 +6,7 @@ epistemic: SOURCE/DERIVED
 tags: [quantum, math, information-theory, governance, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — Information-Measure Governance Layer
 
 ## Gap found

@@ -1,5 +1,6 @@
 ---
 title: C08 STRATEGY GAME
+type: strategy
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: c08-strategy-game
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c08-strategy-game, strategy]
 created: 2026-08-22
 ---
+
 
 
 ```json

@@ -1,12 +1,13 @@
 ---
 title: "AMOS Accessibility I18n"
 created: "2026-08-22"
-type: "note"
+type: note
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-accessibility-i18n, dated, dated/2026-08-22]
 status: "living"
 provenance: "MODEL"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS Accessibility & i18n (Gaps 270-273)
 

@@ -1,7 +1,10 @@
 ---
 title: CONTROL PLANE CONTROL PLANE CONTRACT
-tags: ['control_plane', '']
+type: control-plane
+tags: [control_plane, governance, policy]
 ---
+
+
 
 
 # CONTROL PLANE CONTROL PLANE CONTRACT

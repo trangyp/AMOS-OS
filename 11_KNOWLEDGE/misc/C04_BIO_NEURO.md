@@ -1,5 +1,6 @@
 ---
 title: C04 BIO NEURO
+type: neural
 canon-group: biology
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: c04-bio-neuro
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c04-bio-neuro, misc]
 created: 2026-08-22
 ---
+
 
 
 ```json

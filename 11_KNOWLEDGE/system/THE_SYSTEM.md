@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/system
 ---
 
-
+# THE SYSTEM
 
 🌏 The System:
 

@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATIONS MAP
-tags: ['cognitive_matrix', '00_index']
+type: lifecycle
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # LIFECYCLE OPERATIONS MAP

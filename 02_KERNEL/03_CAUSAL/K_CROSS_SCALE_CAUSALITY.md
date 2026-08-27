@@ -1,5 +1,6 @@
 ---
 title: "Kernel · Cross-Scale Causality"
+type: scale
 artifact: "K_CROSS_SCALE_CAUSALITY.md"
 artifact_id: "amos_02_kernel_03_causal_k_cross_scale_causality"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "02_KERNEL/03_CAUSAL"
 artifact_kind: "ARTIFACT"
 path: "02_KERNEL/03_CAUSAL/K_CROSS_SCALE_CAUSALITY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, kernel, core]
   - 02_kernel
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Kernel · Cross-Scale Causality
 

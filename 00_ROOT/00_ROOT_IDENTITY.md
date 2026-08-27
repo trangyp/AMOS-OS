@@ -1,7 +1,9 @@
 ---
 title: 00 ROOT IDENTITY
-tags: ['amos_os', '00_root']
+type: identity
+tags: [amos_os, 00_root]
 ---
+
 
 
 # 00 ROOT IDENTITY

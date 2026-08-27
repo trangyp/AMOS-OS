@@ -1,7 +1,9 @@
 ---
 title: O00 DISTINCTION MAP
-tags: ['cognitive_matrix', 'o00_distinction']
+type: map
+tags: [cognitive_matrix, o00_distinction]
 ---
+
 
 
 # O00 DISTINCTION MAP

@@ -1,5 +1,6 @@
 ---
 title: CODING ENGINE VINFINITY V1 6 0
+type: engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: coding-engine-vinfinity-v1-6-0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/coding-engine-vinfinity-v1-6-0, engine]
 created: 2026-08-22
 ---
+
 
 
 ```json

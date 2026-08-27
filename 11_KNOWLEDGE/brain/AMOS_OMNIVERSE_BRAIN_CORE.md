@@ -1,5 +1,6 @@
 ---
 title: AMOS OMNIVERSE BRAIN CORE
+type: brain
 canon-group: tech-ai
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-omniverse-brain
 tags: [canon-group/tech-ai, canon/os-module, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-omniverse-brain, brain]
 created: 2026-08-22
 ---
+
 
 
 ```json

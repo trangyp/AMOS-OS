@@ -1,9 +1,11 @@
 ---
 title: PHAN TICH TINH HINH VIET NAM VA BOI CANH TOAN CAU
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

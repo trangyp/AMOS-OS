@@ -1,5 +1,6 @@
 ---
 title: AMOS ABSOLUE HUMAN
+type: human
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-absolue-human
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-absolue-human, amos-general]
 created: 2026-08-22
 ---
+
 
 
 ```json

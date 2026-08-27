@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX O09 SIMULATION CONTRACT
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o09_simulation', 'contract']
+type: cognitive
+tags: [cognitive_matrix, lifecycle_operations, o09_simulation, contract]
 ---
+
 
 
 # O09_SIMULATION — O09 Simulation

@@ -4,6 +4,7 @@ type: note
 tags: [note, c07-perception]
 ---
 
+
 # C07 — RSCF Record
 
 **Package:** `C07_PERCEPTION`  

@@ -1,7 +1,9 @@
 ---
 title: SIMULATION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '21_simulation_modes']
+type: control-plane
+tags: [control_plane, 21_simulation_modes]
 ---
+
 
 
 # SIMULATION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

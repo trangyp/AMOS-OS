@@ -1,5 +1,6 @@
 ---
 title: 5A JOURNEY PLANNING PHASE V4
+type: plan
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: 5a-journey-planning-phase-v4
 tags: [canon-group/tech-ai, canon/narrative, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/5a-journey-planning-phase-v4, misc]
 created: 2026-08-22
 ---
+
 
 
 TRANSFORMING CUSTOMER JOURNEYS

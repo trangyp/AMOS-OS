@@ -1,7 +1,9 @@
 ---
 title: ANOMALY DETECTION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '90_anomaly_detection_modes']
+type: control-plane
+tags: [control_plane, 90_anomaly_detection_modes]
 ---
+
 
 
 # ANOMALY DETECTION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

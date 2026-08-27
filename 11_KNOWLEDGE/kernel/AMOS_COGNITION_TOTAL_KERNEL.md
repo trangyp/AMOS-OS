@@ -1,5 +1,6 @@
 ---
 title: AMOS COGNITION TOTAL KERNEL
+type: kernel
 canon-group: biology
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-cognition-total-kernel
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-cognition-total-kernel, kernel]
 created: 2026-08-22
 ---
+
 
 
 ```json

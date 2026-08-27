@@ -16,6 +16,7 @@ tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, r
 ---
 
 
+
 # The Complete Human System — Vault Knowledge Base
 
 > **One model. All equations grounded in biology/neuroscience. No fluff.**

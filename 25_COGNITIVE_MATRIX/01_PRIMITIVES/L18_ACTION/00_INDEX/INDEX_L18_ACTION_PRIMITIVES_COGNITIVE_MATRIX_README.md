@@ -1,7 +1,9 @@
 ---
 title: INDEX L18 ACTION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l18_action']
+type: index
+tags: [cognitive_matrix, l18_action]
 ---
+
 
 
 # INDEX L18 ACTION PRIMITIVES COGNITIVE MATRIX README

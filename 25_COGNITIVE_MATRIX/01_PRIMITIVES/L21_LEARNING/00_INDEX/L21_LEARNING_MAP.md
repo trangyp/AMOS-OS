@@ -1,7 +1,9 @@
 ---
 title: L21 LEARNING MAP
-tags: ['cognitive_matrix', 'l21_learning']
+type: map
+tags: [cognitive_matrix, l21_learning]
 ---
+
 
 
 # L21 LEARNING MAP

@@ -1,7 +1,9 @@
 ---
 title: API INTEGRATION DOMAINS README
-tags: ['amos_os', '21_domains']
+type: integration
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # API INTEGRATION DOMAINS README

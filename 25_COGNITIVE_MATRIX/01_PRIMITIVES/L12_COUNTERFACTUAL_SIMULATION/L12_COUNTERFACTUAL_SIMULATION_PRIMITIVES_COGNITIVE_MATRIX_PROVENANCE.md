@@ -4,6 +4,7 @@ type: note
 tags: [note, l12-counterfactual-simulation]
 ---
 
+
 # L12 — Provenance
 
 **Package:** `L12_COUNTERFACTUAL_SIMULATION`  

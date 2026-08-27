@@ -1,7 +1,9 @@
 ---
 title: CODING COMMIT CONTROL PLANE README
-tags: ['control_plane', '03_coding']
+type: control-plane
+tags: [control_plane, 03_coding]
 ---
+
 
 
 # CODING COMMIT CONTROL PLANE README

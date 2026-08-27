@@ -1,5 +1,6 @@
 ---
 title: C03 PHYSICS COSMOS
+type: physics
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: c03-physics-cosmos-super
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c03-physics-cosmos-super, universe-cosmos]
 created: 2026-08-22
 ---
+
 
 
 ```json

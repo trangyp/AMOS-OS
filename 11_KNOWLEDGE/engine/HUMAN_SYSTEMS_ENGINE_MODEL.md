@@ -2,12 +2,13 @@
 title: "AMOS Human Systems Engine Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "brain_model"
+type: brain-model
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/human-systems-engine-model, engine]
 status: "active"
 provenance: "HSE_Enginev∞_AMOS_FORMAT_WITH_UCM.txt"
 confidence: "STRUCTURAL"
 ---
+
 
 # AMOS Human Systems Engine (HSE) Model
 

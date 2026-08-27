@@ -1,9 +1,11 @@
 ---
 title: TASTE ETIQUETTE CIVILIZATIONS VN INTERNATIONAL 1000 EQUATIONS
-tags: [misc]
+tags: [misc, reference, general]
 type: data
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

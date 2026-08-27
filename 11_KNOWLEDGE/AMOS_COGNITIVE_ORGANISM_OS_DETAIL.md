@@ -1,9 +1,10 @@
 ---
 title: AMOS COGNITIVE ORGANISM OS DETAIL
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 type: document
 source: 11_KNOWLEDGE/root
 ---
+
 
 
 

@@ -4,6 +4,7 @@ type: note
 tags: [note, 01-core-laws]
 ---
 
+
 Below is a **full substantive replacement** for `01_CANON/01_CORE_LAWS/L2_PROVENANCE.md`. I’ve kept the strongest source-supported point explicit: AMOS_CORE v3.7.1 contains provenance-topology hardening and the exact-root fingerprint rule for collapsing provenance aliases; the broader tensor/equation system below is labeled `AMOS_MODEL`, not falsely presented as recovered source canon.
 
 ````markdown

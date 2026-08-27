@@ -1,9 +1,11 @@
 ---
 title: TRANG FPR FIRST PRINCIPLE REASONING
-tags: [trang]
+tags: [trang, framework, reality]
 type: document
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

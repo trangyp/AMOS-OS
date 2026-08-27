@@ -1,7 +1,9 @@
 ---
 title: MODE DEPENDENCY GRAPH
-tags: ['control_plane', '00_mode_index']
+type: dependency
+tags: [control_plane, 00_mode_index]
 ---
+
 
 
 # MODE DEPENDENCY GRAPH

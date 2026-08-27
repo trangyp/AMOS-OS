@@ -1,7 +1,7 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX DEFINITION
-tags:
-  - amos
+type: definition
+tags: [amos]
   - cognitive-matrix
   - l01
   - sensing
@@ -11,6 +11,7 @@ tags:
   - provenance
   - rscf
 ---
+
 
 
 # L01_SENSING_OBSERVATION — Definition

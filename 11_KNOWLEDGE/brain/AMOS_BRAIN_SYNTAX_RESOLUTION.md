@@ -1,10 +1,12 @@
 ---
 title: AMOS BRAIN SYNTAX RESOLUTION
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: note
 source: 11_KNOWLEDGE/brain
 ---
 
+
+# AMOS BRAIN SYNTAX RESOLUTION
 
 🧠 AMOS Brain Supreme - Syntax Error Resolution Results
 =====================================================

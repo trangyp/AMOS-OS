@@ -1,5 +1,6 @@
 ---
 title: SOURCE LINEAGE
+type: note
 artifact_id: AMOS-OS-SOURCE-LINEAGE
 canonical_name: SOURCE_LINEAGE
 artifact_type: canonical_lineage_framework
@@ -17,8 +18,7 @@ authority_scope: source-ancestry-derivation-transformation-and-supersession-line
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, canon, universe]
   - canon-group/meta
   - canon/framework
   - canon/provenance
@@ -44,6 +44,8 @@ aliases:
   - Source Ancestry
   - Canon Source Lineage
 ---
+
+
 
 
 # AMOS OS Source Lineage

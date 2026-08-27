@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 06-semantic-transaction]
 ---
 
+
 # 06_SEMANTIC_TRANSACTION — Map of Content
 
 ## Files

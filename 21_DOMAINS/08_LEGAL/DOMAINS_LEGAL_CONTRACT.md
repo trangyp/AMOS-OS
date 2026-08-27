@@ -1,7 +1,9 @@
 ---
 title: DOMAINS LEGAL CONTRACT
-tags: ['amos_os', '21_domains']
+type: legal
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS LEGAL CONTRACT

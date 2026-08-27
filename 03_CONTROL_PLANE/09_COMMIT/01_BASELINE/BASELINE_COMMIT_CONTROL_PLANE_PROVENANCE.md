@@ -1,7 +1,9 @@
 ---
 title: BASELINE COMMIT CONTROL PLANE PROVENANCE
-tags: ['control_plane', '01_baseline']
+type: provenance
+tags: [control_plane, 01_baseline]
 ---
+
 
 
 # BASELINE COMMIT CONTROL PLANE PROVENANCE

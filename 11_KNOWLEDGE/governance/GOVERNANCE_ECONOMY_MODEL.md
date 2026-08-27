@@ -1,8 +1,10 @@
 ---
 title: GOVERNANCE ECONOMY MODEL
+type: economy
 aliases: [Governance Economy Engine, AMOS_Governance_Economy]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/observation, topic/governance-economy-model, governance]
 ---
+
 
 
 # AMOS Governance Economy Engine

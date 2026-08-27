@@ -1,9 +1,11 @@
 ---
 title: THI TRUONG VIET NAM BIEN DONG O BE MAT NHUNG CO
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

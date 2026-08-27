@@ -1,9 +1,11 @@
 ---
 title: COSMO BRAIN BRIDGE INDEX
+type: index
 canon-group: reference
 rscf-state: derived
 tags: [moc, index, bridge, cosmo-brain]
 ---
+
 
 
 # Cosmo Brain Bridge Index

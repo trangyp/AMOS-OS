@@ -4,6 +4,7 @@ type: moc
 tags: [moc, economy]
 ---
 
+
 # Economy — Map of Content
 
 - [[MONEY_REGIMES_MAX_ENHANCEMENT_REPORT]]

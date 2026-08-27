@@ -1,9 +1,11 @@
 ---
 title: AMOS CONSCIOUSNESS ENHANCEMENT
-tags: [cognitive]
+tags: [cognitive, cognition, mind]
 type: document
 source: 11_KNOWLEDGE/cognitive
 ---
+
+
 
 
 # AMOS OMEGA FX STRUCTURAL MARKET ENGINE - CONSCIOUSNESS-ENHANCED COMPLETE

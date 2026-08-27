@@ -1,5 +1,6 @@
 ---
 title: GENERATOR OUTPUT
+type: generator
 
 ## tags: ['cognitive_matrix', 'generators', 'output', 'contract', 'provenance', 'validation']
 
@@ -13,8 +14,10 @@ title: GENERATOR OUTPUT
 **Implementation Status:** NOT ESTABLISHED BY THIS DOCUMENT
 **Empirical Validation Status:** NOT ESTABLISHED BY THIS DOCUMENT
 **Final Canon Status:** NOT ESTABLISHED BY THIS DOCUMENT
-tags: [12_GENERATORS]
+tags: [12_GENERATORS, cognitive_matrix, matrix]
 ---
+
+
 
 
 

@@ -1,7 +1,9 @@
 ---
 title: REASONING MODES COMMIT CONTROL PLANE PROVENANCE
-tags: ['control_plane', '06_reasoning_modes/05_measure']
+type: provenance
+tags: [control_plane, 06_reasoning_modes/05_measure]
 ---
+
 
 
 # REASONING MODES COMMIT CONTROL PLANE PROVENANCE

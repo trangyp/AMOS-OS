@@ -1,9 +1,11 @@
 ---
 title: AMOS RSCF NODES
+type: rscf
 canon-group: reference
 rscf-state: derived
 tags: [rscf, index, moc, nodes]
 ---
+
 
 
 # AMOS RSCF Nodes

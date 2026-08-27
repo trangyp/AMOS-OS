@@ -1,7 +1,9 @@
 ---
 title: UBI BEI BIOELECTROMAGNETIC MAP
-tags: ['amos_os', '21_domains']
+type: map
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # UBI BEI BIOELECTROMAGNETIC MAP

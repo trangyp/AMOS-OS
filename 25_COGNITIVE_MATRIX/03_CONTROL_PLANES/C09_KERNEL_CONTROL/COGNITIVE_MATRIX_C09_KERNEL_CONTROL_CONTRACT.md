@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX C09 KERNEL CONTROL CONTRACT
-tags: ['cognitive_matrix', 'control_planes', 'c09_kernel_control', 'contract']
+type: kernel
+tags: [cognitive_matrix, control_planes, c09_kernel_control, contract]
 ---
+
 
 
 # C09_KERNEL_CONTROL — Kernel integrity control: boot order, immutability under operation, fail-closed boot.

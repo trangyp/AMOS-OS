@@ -1,5 +1,6 @@
 ---
 title: CANONICAL GLOSSARY
+type: canon
 artifact_id: AMOS-OS-CANONICAL-GLOSSARY
 canonical_name: CANONICAL_GLOSSARY
 artifact_type: canonical_semantic_registry
@@ -15,8 +16,7 @@ authority_scope: canonical-terminology-and-semantic-boundaries
 version: 1.0.0
 created: 2026-08-25
 updated: 2026-08-25
-tags:
-  - amos-os
+tags: [amos-os, canon, universe]
   - canon-group/meta
   - canon/glossary
   - canon/semantics
@@ -36,6 +36,8 @@ aliases:
   - Canonical Terminology Registry
   - AMOS Semantic Glossary
 ---
+
+
 
 
 # AMOS OS Canonical Glossary

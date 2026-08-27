@@ -1,7 +1,9 @@
 ---
 title: INDEX O00 DISTINCTION LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o00_distinction']
+type: index
+tags: [cognitive_matrix, o00_distinction]
 ---
+
 
 
 # INDEX O00 DISTINCTION LIFECYCLE OPERATIONS COGNITIVE MATRIX README

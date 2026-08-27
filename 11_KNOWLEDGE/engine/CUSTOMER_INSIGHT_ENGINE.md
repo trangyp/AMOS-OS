@@ -1,10 +1,12 @@
 ---
 title: CUSTOMER INSIGHT ENGINE
-tags: [engine]
+tags: [engine, processing, runtime]
 type: note
 source: 11_KNOWLEDGE/engine
 ---
 
+
+# CUSTOMER INSIGHT ENGINE
 
 """Customer Insight domain engine.
 

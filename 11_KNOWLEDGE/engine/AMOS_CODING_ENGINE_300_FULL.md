@@ -1,5 +1,6 @@
 ---
 title: AMOS CODING ENGINE 300 FULL
+type: engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-coding-engine-ultra-300-full
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-coding-engine-ultra-300-full, engine]
 created: 2026-08-22
 ---
+
 
 
 ```json

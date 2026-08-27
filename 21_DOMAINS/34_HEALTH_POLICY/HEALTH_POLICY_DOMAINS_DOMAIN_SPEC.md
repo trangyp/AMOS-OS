@@ -1,7 +1,9 @@
 ---
 title: HEALTH POLICY DOMAINS DOMAIN SPEC
-tags: ['amos_os', '21_domains']
+type: policy
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # HEALTH POLICY DOMAINS DOMAIN SPEC

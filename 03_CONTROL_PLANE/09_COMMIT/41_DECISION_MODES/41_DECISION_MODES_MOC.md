@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 41-decision-modes]
 ---
 
+
 # 41_DECISION_MODES — Map of Content
 
 ## Files

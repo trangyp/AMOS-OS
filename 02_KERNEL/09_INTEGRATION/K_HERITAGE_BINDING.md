@@ -1,5 +1,6 @@
 ---
 title: "Kernel · Heritage Binding"
+type: heritage
 artifact: "K_HERITAGE_BINDING.md"
 artifact_id: "amos_02_kernel_09_integration_k_heritage_binding"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "02_KERNEL/09_INTEGRATION"
 artifact_kind: "BINDING"
 path: "02_KERNEL/09_INTEGRATION/K_HERITAGE_BINDING.md"
 
-tags:
-  - amos_os
+tags: [amos_os, kernel, core]
   - 02_kernel
   - binding
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Kernel · Heritage Binding
 

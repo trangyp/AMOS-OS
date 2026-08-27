@@ -1,9 +1,11 @@
 ---
 title: QUYEN LOI BAO HIEM XE CO GIOI TASCO
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

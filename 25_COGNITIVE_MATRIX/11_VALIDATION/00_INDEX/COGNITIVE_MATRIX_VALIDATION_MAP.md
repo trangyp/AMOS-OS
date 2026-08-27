@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX VALIDATION MAP
-tags: ['cognitive_matrix', '00_index']
+type: map
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # COGNITIVE MATRIX VALIDATION MAP

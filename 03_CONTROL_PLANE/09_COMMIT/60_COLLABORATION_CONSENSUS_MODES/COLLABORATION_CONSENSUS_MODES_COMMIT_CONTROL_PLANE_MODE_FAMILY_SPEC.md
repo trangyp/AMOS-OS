@@ -1,7 +1,9 @@
 ---
 title: COLLABORATION CONSENSUS MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '60_collaboration_consensus_modes']
+type: control-plane
+tags: [control_plane, 60_collaboration_consensus_modes]
 ---
+
 
 
 # COLLABORATION CONSENSUS MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

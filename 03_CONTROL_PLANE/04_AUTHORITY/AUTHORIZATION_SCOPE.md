@@ -1,7 +1,9 @@
 ---
 title: AUTHORIZATION SCOPE
-tags: ['control_plane', 'authority', 'note']
+type: note
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Authorization Scope

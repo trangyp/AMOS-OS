@@ -1,7 +1,9 @@
 ---
 title: COGNITION CANON CANON README
-tags: ['amos_os', '01_canon']
+type: canon
+tags: [amos_os, 01_canon]
 ---
+
 
 
 # COGNITION CANON CANON README

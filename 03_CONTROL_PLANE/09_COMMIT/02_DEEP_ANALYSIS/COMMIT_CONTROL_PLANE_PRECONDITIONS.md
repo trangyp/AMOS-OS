@@ -1,7 +1,9 @@
 ---
 title: COMMIT CONTROL PLANE PRECONDITIONS
-tags: ['control_plane', '02_deep_analysis']
+type: condition
+tags: [control_plane, 02_deep_analysis]
 ---
+
 
 
 # COMMIT CONTROL PLANE PRECONDITIONS

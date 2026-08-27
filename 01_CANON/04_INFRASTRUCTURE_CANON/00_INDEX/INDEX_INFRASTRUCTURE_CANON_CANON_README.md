@@ -1,7 +1,9 @@
 ---
 title: INDEX INFRASTRUCTURE CANON CANON README
-tags: ['amos_os', '01_canon']
+type: index
+tags: [amos_os, 01_canon]
 ---
+
 
 
 # INDEX INFRASTRUCTURE CANON CANON README

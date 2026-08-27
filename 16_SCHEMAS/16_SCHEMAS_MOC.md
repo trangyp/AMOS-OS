@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 16-schemas]
 ---
 
+
 # 16_SCHEMAS — Map of Content
 
 ## Files

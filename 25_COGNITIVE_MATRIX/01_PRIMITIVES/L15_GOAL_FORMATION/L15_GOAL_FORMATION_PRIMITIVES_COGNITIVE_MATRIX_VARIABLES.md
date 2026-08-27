@@ -4,6 +4,7 @@ type: note
 tags: [note, l15-goal-formation]
 ---
 
+
 # L15 — Variables
 
 **Package:** `L15_GOAL_FORMATION`  

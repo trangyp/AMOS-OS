@@ -1,7 +1,9 @@
 ---
 title: DELIBERATION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '42_deliberation_modes']
+type: control-plane
+tags: [control_plane, 42_deliberation_modes]
 ---
+
 
 
 # DELIBERATION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

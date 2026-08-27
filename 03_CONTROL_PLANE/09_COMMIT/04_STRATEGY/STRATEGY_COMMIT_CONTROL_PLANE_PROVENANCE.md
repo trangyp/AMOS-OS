@@ -1,7 +1,9 @@
 ---
 title: STRATEGY COMMIT CONTROL PLANE PROVENANCE
-tags: ['control_plane', '04_strategy']
+type: provenance
+tags: [control_plane, 04_strategy]
 ---
+
 
 
 # STRATEGY COMMIT CONTROL PLANE PROVENANCE

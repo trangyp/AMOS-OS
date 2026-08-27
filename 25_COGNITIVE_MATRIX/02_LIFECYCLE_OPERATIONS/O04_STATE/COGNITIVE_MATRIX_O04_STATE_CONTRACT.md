@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX O04 STATE CONTRACT
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o04_state', 'contract']
+type: state
+tags: [cognitive_matrix, lifecycle_operations, o04_state, contract]
 ---
+
 
 
 # O04_STATE — State transitions under MVCC/CAS discipline; epoch-bound snapshots.

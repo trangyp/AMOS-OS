@@ -1,10 +1,12 @@
 ---
 title: "AMOS Audit Quality Engine v0 — MAX Density"
+type: engine
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/AMOS_Audit_Quality_Engine_v0.json (1,692 lines, 107KB)"
 origin_type: "SOURCE"
 tags: [amos, kernel, audit-quality, tts, tpe, governance, financial, operational, risk, engine]
 ---
+
 
 # AMOS Audit Quality Engine v0 (MAX Density)
 

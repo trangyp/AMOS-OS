@@ -1,9 +1,11 @@
 ---
 title: WHEN HUMANITY TRULY BEGAN AND THE HORIZON SCIENC
-tags: [human]
+tags: [human, alignment, interaction]
 type: document
 source: 11_KNOWLEDGE/human
 ---
+
+
 
 
 

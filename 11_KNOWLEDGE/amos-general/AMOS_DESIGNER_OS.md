@@ -3,12 +3,13 @@ title: "AMOS Designer OS — Standalone Shell (5 Files)"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/AMOS_DESIGNER_OS/"
 origin_architect: "Trang Phan"
-type: "reference"
+type: reference
 tags: [amos, designer-os, standalone-shell, AMOS.brain, run_amos.py, workers.py, deterministic-auditable, no-api-dependency, 7-layer-brain-model, amos-general]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS Designer OS — Standalone Shell
 

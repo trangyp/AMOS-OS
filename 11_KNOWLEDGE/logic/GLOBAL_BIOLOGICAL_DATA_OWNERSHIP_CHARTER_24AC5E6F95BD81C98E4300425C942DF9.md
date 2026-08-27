@@ -1,9 +1,11 @@
 ---
 title: GLOBAL BIOLOGICAL DATA OWNERSHIP CHARTER 24AC5E6F95BD81C98E4300425C942DF9
-tags: [logic]
+tags: [logic, reasoning, formal]
 type: document
 source: 11_KNOWLEDGE/logic
 ---
+
+
 
 
 

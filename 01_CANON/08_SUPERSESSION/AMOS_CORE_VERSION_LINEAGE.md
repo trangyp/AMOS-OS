@@ -1,5 +1,6 @@
 ---
 title: "AMOS Core Version Lineage"
+type: note
 artifact: "AMOS_CORE_VERSION_LINEAGE.md"
 artifact_id: "amos_01_canon_08_supersession_amos_core_version_lineage"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/08_SUPERSESSION"
 artifact_kind: "LINEAGE"
 path: "01_CANON/08_SUPERSESSION/AMOS_CORE_VERSION_LINEAGE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - lineage
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # AMOS Core Version Lineage
 

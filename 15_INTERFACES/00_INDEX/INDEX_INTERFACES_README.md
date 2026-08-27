@@ -1,7 +1,9 @@
 ---
 title: INDEX INTERFACES README
-tags: ['amos_os', '15_interfaces']
+type: index
+tags: [amos_os, 15_interfaces]
 ---
+
 
 
 # INDEX INTERFACES README

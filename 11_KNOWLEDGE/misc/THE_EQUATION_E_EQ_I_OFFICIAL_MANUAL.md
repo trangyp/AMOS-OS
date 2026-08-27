@@ -1,9 +1,11 @@
 ---
 title: THE EQUATION E EQ I OFFICIAL MANUAL
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

@@ -4,6 +4,7 @@ type: note
 tags: [note, l08-representation]
 ---
 
+
 # L08 — Failure Modes
 
 **Package:** `L08_REPRESENTATION`  

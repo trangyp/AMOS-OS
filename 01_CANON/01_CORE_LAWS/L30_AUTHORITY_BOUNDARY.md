@@ -1,7 +1,9 @@
 ---
 title: L30 AUTHORITY BOUNDARY
-tags: ['canon', 'core_laws', 'note']
+type: authority
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L30 Authority Boundary Law

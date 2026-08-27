@@ -1,7 +1,9 @@
 ---
 title: CAUSAL KERNEL CAUSAL CONTRACT
-tags: ['amos_os', '02_kernel']
+type: kernel
+tags: [amos_os, 02_kernel]
 ---
+
 
 
 # CAUSAL KERNEL CAUSAL CONTRACT

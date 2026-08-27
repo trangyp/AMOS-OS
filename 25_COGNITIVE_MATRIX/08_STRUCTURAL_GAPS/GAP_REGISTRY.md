@@ -4,6 +4,7 @@ type: note
 tags: [note, 08-structural-gaps]
 ---
 
+
 # GAP_REGISTRY — Definition
 
 **Package:** `GAP_REGISTRY_`  

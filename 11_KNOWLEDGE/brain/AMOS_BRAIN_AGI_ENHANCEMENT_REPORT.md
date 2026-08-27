@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN AGI ENHANCEMENT REPORT
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 # AMOS BRAIN AGI ENHANCEMENT COMPLETE REPORT

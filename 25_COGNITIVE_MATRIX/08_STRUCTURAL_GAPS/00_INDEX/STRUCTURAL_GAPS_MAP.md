@@ -1,7 +1,9 @@
 ---
 title: STRUCTURAL GAPS MAP
-tags: ['cognitive_matrix', '00_index']
+type: gap
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # STRUCTURAL GAPS MAP

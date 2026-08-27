@@ -4,6 +4,7 @@ type: note
 tags: [note, l11-causal-modeling]
 ---
 
+
 # L11 — Memory Contract
 
 **Package:** `L11_CAUSAL_MODELING`  

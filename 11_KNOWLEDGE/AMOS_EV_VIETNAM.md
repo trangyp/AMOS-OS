@@ -1,5 +1,6 @@
 ---
 title: "AMOS / TRANG — TOÀN CẢNH EV VIỆT NAM: MAX DETAIL MASTER"
+type: note
 subtitle: "UBI × ULF × PSI × QLS/QIC × QCLA × H/M/L × RSCF × Infrastructure Control Plane"
 origin_architect: "Trang Phan"
 source_artifact: "⭐ Toàn cảnh EV Việt Nam"
@@ -8,9 +9,10 @@ version: "MAX_DETAIL_v1"
 date: "2026-08-25"
 language: "vi"
 status: "SOURCE_PRESERVED__AMOS_MODEL_OVERLAY__EMPIRICAL_FIREWALL_ACTIVE"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # 0. Tuyên bố phạm vi và ranh giới bằng chứng
 
 Tài liệu này là bản **MAX DETAIL** của corpus “Toàn cảnh EV Việt Nam”, được tái cấu trúc thành một kiến trúc AMOS có thể nghiên cứu, kiểm chứng, vận hành và cập nhật.

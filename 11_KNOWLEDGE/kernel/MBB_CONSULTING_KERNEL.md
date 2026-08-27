@@ -1,5 +1,6 @@
 ---
 title: MBB CONSULTING KERNEL
+type: kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: mbb-consulting-kernel
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/mbb-consulting-kernel, kernel]
 created: 2026-08-22
 ---
+
 
 
 ```json

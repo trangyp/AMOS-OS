@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 51-temporal-horizon-modes]
 ---
 
+
 # 51_TEMPORAL_HORIZON_MODES — Map of Content
 
 ## Files

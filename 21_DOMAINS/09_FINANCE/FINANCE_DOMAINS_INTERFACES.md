@@ -1,7 +1,9 @@
 ---
 title: FINANCE DOMAINS INTERFACES
-tags: ['amos_os', '21_domains']
+type: finance
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # FINANCE DOMAINS INTERFACES

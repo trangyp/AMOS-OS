@@ -1,7 +1,9 @@
 ---
 title: EXPOSURE CONTROL PLANE README
-tags: ['control_plane', 'exposure_control_plane_readme.md']
+type: control-plane
+tags: [control_plane, exposure_control_plane_readme.md]
 ---
+
 
 
 # EXPOSURE CONTROL PLANE README

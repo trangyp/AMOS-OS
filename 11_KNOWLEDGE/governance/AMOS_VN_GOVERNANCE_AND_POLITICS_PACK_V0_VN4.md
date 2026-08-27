@@ -1,5 +1,6 @@
 ---
 title: AMOS VN GOVERNANCE AND POLITICS PACK V0 VN4
+type: governance
 canon-group: human-system
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-vn-governance-and-politics-pack-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-vn-governance-and-politics-pack-v0, governance]
 created: 2026-08-22
 ---
+
 
 
 # AMOS Vn Governance And Politics Pack v0 Vn4

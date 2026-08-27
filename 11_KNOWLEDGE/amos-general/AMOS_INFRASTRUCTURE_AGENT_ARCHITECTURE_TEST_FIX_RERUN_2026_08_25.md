@@ -1,9 +1,11 @@
 ---
 title: AMOS INFRASTRUCTURE AGENT ARCHITECTURE TEST FIX RERUN 2026 08 25
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: document
 source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 
 # AMOS Infrastructure Layer — Agent Architecture Test / Fix / Rerun Record

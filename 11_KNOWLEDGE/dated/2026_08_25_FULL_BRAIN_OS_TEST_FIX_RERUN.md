@@ -6,6 +6,7 @@ epistemic: DERIVED/VERIFIED
 tags: [testing, infrastructure, full-brain-os, open-source, enforcement, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — AMOS Infrastructure Test·Fix·Re-run + Open-Source Substrate Verification
 
 ## Cycle 1: Test → found defect

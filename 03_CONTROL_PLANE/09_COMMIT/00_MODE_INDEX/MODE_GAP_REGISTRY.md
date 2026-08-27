@@ -1,4 +1,5 @@
 ---
+type: gap
 artifact_id: AMOS-OS-MODE-MODE_GAP_REGISTRY
 title: AMOS OS Mode Gap Registry
 canonical_name: MODE_GAP_REGISTRY
@@ -34,9 +35,10 @@ empirical_validation_status: NOT_CLAIMED
 
 promotion_required: true
 updated: 2026-08-26
-tags: ['control_plane', 'commit', 'mode_index', 'note']
+tags: [control_plane, commit, mode_index, note]
 
 ---
+
 # AMOS OS — Mode Gap Registry
 
 > **Status:** `CANDIDATE_CANON`

@@ -1,9 +1,11 @@
 ---
 title: HUMANITY FROM THE ICE AGE TO THE PRESENT
-tags: [human]
+tags: [human, alignment, interaction]
 type: document
 source: 11_KNOWLEDGE/human
 ---
+
+
 
 
 

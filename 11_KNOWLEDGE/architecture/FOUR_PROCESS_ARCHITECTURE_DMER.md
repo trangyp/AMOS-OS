@@ -3,11 +3,12 @@ title: "Four-Process Architecture — D/M/E/R as Canonical Adaptive Model"
 created: "2026-08-23"
 origin: "User-supplied canonical architecture (Four-Process Architecture of Adaptive Systems)"
 origin_type: "SOURCE"
-type: "canon-entry"
+type: canon-entry
 status: "validated"
 confidence: "STRUCTURAL"
 tags: [amos, canon/law, rscf/claim, four-process-architecture, dmer, adaptive-systems, collapse-recovery, architecture]
 ---
+
 
 # Four-Process Architecture — Distinction, Mutation, Entropy, Repair
 

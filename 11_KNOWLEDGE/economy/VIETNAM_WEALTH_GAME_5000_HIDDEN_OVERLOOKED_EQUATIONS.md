@@ -1,9 +1,11 @@
 ---
 title: VIETNAM WEALTH GAME 5000 HIDDEN OVERLOOKED EQUATIONS
-tags: [economy]
+tags: [economy, finance, market]
 type: data
 source: 11_KNOWLEDGE/economy
 ---
+
+
 
 
 

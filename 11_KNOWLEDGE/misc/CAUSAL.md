@@ -1,10 +1,12 @@
 ---
 title: CAUSAL
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# CAUSAL
 
 LEVEL={"descriptive":0,"association":1,"correlation":2,"enabling":3,
        "mediator":4,"confounder":4,"mechanism":5,"intervention_effect":6}

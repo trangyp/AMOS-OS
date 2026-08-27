@@ -1,5 +1,6 @@
 ---
 title: "Biological Entropy Correction"
+type: biology
 artifact: "BIOLOGICAL_ENTROPY_CORRECTION.md"
 artifact_id: "amos_05_cognitive_organism_16_repair_biological_entropy_correction"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/16_REPAIR"
 artifact_kind: "ARTIFACT"
 path: "05_COGNITIVE_ORGANISM/16_REPAIR/BIOLOGICAL_ENTROPY_CORRECTION.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive, organism]
   - 05_cognitive_organism
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Biological Entropy Correction
 

@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE FAILURE RECOVERY
-tags: ['control_plane', '03_coding']
+type: failure-mode
+tags: [control_plane, 03_coding]
 ---
+
 
 
 # CONTROL PLANE FAILURE RECOVERY

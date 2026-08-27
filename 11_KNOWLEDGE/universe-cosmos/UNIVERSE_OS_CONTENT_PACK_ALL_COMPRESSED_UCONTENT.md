@@ -1,5 +1,6 @@
 ---
 title: UNIVERSE OS CONTENT PACK ALL COMPRESSED UCONTENT
+type: universe
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -8,6 +9,7 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 created: 2026-08-22
 ---
 
+# UNIVERSE OS CONTENT PACK ALL COMPRESSED UCONTENT
 
 UNIVERSE_OS_CONTENT_PACK_ALL_COMPRESSED.ucontent
 Version: 2.0

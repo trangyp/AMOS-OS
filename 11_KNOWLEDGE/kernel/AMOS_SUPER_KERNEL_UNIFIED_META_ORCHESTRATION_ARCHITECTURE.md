@@ -1,9 +1,11 @@
 ---
 title: AMOS SUPER KERNEL UNIFIED META ORCHESTRATION ARCHITECTURE
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: document
 source: 11_KNOWLEDGE/kernel
 ---
+
+
 
 
 # AMOS Super Kernel — Unified Meta-Orchestration Architecture

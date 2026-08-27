@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX CONTROL PLANES CONTRACT
-tags: ['cognitive_matrix', 'cognitive_matrix_control_planes_contract.md']
+type: control-plane
+tags: [cognitive_matrix, cognitive_matrix_control_planes_contract.md]
 ---
+
 
 
 # COGNITIVE MATRIX CONTROL PLANES CONTRACT

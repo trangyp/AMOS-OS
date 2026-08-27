@@ -1,7 +1,9 @@
 ---
 title: SENSEMAKING MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '62_sensemaking_modes']
+type: control-plane
+tags: [control_plane, 62_sensemaking_modes]
 ---
+
 
 
 # SENSEMAKING MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

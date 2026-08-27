@@ -1,4 +1,5 @@
 ---
+type: brain
 aliases:
 - Cosmo Brain MOC (root stub)
 canon_group: tech-ai
@@ -7,13 +8,14 @@ document_version: 1.0.1
 origin_architect: Trang Phan
 rscf_state: derived
 status: ACTIVE_MOC
-tags:
-- moc
+tags: [moc, amos_os, root]
 - cosmo
 - brain
 - navigation
 title: 00 Cosmo Brain MOC (root stub)
 ---
+
+
 
 # 00 Cosmo Brain MOC (root stub)
 

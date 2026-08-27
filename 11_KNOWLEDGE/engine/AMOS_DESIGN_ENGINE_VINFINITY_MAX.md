@@ -1,11 +1,13 @@
 ---
 title: "AMOS Design Engine vInfinity_MAX (X1000)"
+type: engine
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Design_Engine_v0.json (5,875 lines, 215KB)"
 origin_type: "SOURCE"
 category: "kernel"
 tags: [amos, design, engine, v-infinity, x1000, tech, architecture, systems, fabrication, audit, quantum]
 ---
+
 
 # AMOS Design Engine vInfinity_MAX (X1000)
 

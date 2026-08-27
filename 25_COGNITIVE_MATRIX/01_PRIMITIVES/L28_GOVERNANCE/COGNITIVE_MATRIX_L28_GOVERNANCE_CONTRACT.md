@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX L28 GOVERNANCE CONTRACT
-tags: ['cognitive_matrix', 'primitives', 'l28_governance', 'contract']
+type: cognitive
+tags: [cognitive_matrix, primitives, l28_governance, contract]
 ---
+
 
 
 # L28_GOVERNANCE — Governance Contract

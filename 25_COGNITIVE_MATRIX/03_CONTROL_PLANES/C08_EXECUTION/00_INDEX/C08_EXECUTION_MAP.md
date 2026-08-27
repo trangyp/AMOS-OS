@@ -1,7 +1,9 @@
 ---
 title: C08 EXECUTION MAP
-tags: ['cognitive_matrix', 'c08_execution']
+type: map
+tags: [cognitive_matrix, c08_execution]
 ---
+
 
 
 # C08 EXECUTION MAP

@@ -8,6 +8,7 @@ tags: [vault, integrity, canon, wikilink-repair, 7-part-canon, dated, dated/2026
 aliases: ["2026-08-23 Vault Integrity Pass"]
 ---
 
+
 # Vault Integrity Pass — 2026-08-23
 
 > Applied the 7-part canon lens to the vault itself: what limits, what flows, what holds, what corrects.

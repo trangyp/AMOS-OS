@@ -1,5 +1,6 @@
 ---
 title: UBI OMNIS
+type: note
 
 canon-group: ubi
 canon-type: product-architecture
@@ -11,6 +12,7 @@ status: architecture-specification
 origin-architect: Trang Phan
 created: 2026-08-25
 ---
+
 
 ----------------
 

@@ -1,7 +1,9 @@
 ---
 title: AUTHORIZATION LIFECYCLE
-tags: ['control_plane', 'authority', 'note']
+type: lifecycle
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Authorization Lifecycle

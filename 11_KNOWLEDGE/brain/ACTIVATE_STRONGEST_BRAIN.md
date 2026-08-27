@@ -1,9 +1,11 @@
 ---
 title: ACTIVATE STRONGEST BRAIN
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 # activate_strongest_brain

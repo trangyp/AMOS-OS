@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 23-operating-model]
 ---
 
+
 # 23_OPERATING_MODEL — Map of Content
 
 ## Files

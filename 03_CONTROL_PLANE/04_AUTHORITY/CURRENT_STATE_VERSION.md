@@ -1,7 +1,9 @@
 ---
 title: CURRENT STATE VERSION
-tags: ['control_plane', 'authority', 'note']
+type: state
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Current State Version

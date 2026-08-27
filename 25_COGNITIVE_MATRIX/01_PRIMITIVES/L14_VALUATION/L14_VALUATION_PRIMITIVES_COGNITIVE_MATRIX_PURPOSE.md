@@ -4,6 +4,7 @@ type: note
 tags: [note, l14-valuation]
 ---
 
+
 # L14 — Purpose
 
 **Package:** `L14_VALUATION`  

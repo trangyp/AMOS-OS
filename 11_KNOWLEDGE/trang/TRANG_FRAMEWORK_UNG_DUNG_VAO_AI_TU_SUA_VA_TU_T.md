@@ -1,9 +1,11 @@
 ---
 title: TRANG FRAMEWORK UNG DUNG VAO AI TU SUA VA TU T
-tags: [trang]
+tags: [trang, framework, reality]
 type: document
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

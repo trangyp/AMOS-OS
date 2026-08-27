@@ -1,5 +1,6 @@
 ---
 title: ECOSYSTEM STRATEGY MAX
+type: strategy
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: ecosystem-strategy-max
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/ecosystem-strategy-max, system]
 created: 2026-08-22
 ---
+
 
 
 ```json

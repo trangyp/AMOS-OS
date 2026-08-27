@@ -1,9 +1,11 @@
 ---
 title: INTELLIGENCE FIELD THEORY
-tags: [cognitive]
+tags: [cognitive, cognition, mind]
 type: document
 source: 11_KNOWLEDGE/cognitive
 ---
+
+
 
 
 # AMOS Intelligence Field Theory - Implementation Complete

@@ -1,9 +1,11 @@
 ---
 title: TOP TIER STRATEGIC PARTNERS LIST
-tags: [strategy]
+tags: [strategy, game, planning]
 type: document
 source: 11_KNOWLEDGE/strategy
 ---
+
+
 
 
 

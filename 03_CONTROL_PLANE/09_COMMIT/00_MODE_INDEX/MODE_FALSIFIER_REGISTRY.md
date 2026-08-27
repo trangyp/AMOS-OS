@@ -1,4 +1,5 @@
 ---
+type: registry
 artifact_id: AMOS-OS-MODE-MODE_FALSIFIER_REGISTRY
 title: AMOS OS Mode Falsifier Registry
 canonical_name: MODE_FALSIFIER_REGISTRY
@@ -34,9 +35,10 @@ empirical_validation_status: NOT_CLAIMED
 
 promotion_required: true
 updated: 2026-08-26
-tags: ['control_plane', 'commit', 'mode_index', 'note']
+tags: [control_plane, commit, mode_index, note]
 
 ---
+
 # AMOS OS — Mode Falsifier Registry
 
 > **Status:** `CANDIDATE_CANON`

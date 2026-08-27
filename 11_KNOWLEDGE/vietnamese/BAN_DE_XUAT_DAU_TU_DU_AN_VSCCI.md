@@ -1,9 +1,11 @@
 ---
 title: BAN DE XUAT DAU TU DU AN VSCCI
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

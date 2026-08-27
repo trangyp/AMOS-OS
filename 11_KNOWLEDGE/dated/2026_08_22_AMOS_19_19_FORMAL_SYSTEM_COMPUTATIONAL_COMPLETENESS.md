@@ -11,6 +11,7 @@ byte_count_implementation: 213000
 ---
 
 
+
 # AMOS 19×19 Formal System — Computational Completeness
 
 > **361 cells. 684 edges. 75 sections of formal machinery. One consistent system.**

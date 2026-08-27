@@ -1,5 +1,6 @@
 ---
 title: "Heritage Music/Acoustic Intelligence"
+type: heritage
 artifact: "HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE.md"
 artifact_id: "amos_11_knowledge_05_frameworks_heritage_music_acoustic_intelligence"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "INTELLIGENCE"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - intelligence
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Heritage Music/Acoustic Intelligence
 

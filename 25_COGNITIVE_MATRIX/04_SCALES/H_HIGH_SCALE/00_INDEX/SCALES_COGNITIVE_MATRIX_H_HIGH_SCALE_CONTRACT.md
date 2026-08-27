@@ -1,7 +1,9 @@
 ---
 title: SCALES COGNITIVE MATRIX H HIGH SCALE CONTRACT
-tags: ['cognitive_matrix', 'h_high_scale']
+type: cognitive
+tags: [cognitive_matrix, h_high_scale]
 ---
+
 
 
 # SCALES COGNITIVE MATRIX H HIGH SCALE CONTRACT

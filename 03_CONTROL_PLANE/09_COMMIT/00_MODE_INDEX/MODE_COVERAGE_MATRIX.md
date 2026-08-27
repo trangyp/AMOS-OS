@@ -1,7 +1,9 @@
 ---
 title: MODE COVERAGE MATRIX
-tags: ['control_plane', 'commit', 'mode_index', 'note']
+type: coverage
+tags: [control_plane, commit, mode_index, note]
 ---
+
 
 
 `MODE_COVERAGE_MATRIX.md` in Drive is currently only the generic placeholder, so there is no substantive canonical matrix to reproduce verbatim. 

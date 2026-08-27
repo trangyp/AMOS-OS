@@ -1,8 +1,10 @@
 ---
 title: ENGINEERING MATH MODEL
+type: math
 aliases: [Engineering Math Kernel, AMOS_Engineering_Math]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/engineering-math-model, math]
 ---
+
 
 
 # AMOS Engineering Math Kernel

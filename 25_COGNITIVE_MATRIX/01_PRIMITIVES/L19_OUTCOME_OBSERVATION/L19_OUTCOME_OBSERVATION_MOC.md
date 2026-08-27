@@ -4,6 +4,7 @@ type: moc
 tags: [moc, l19-outcome-observation]
 ---
 
+
 # L19_OUTCOME_OBSERVATION — Map of Content
 
 ## Files

@@ -1,7 +1,9 @@
 ---
 title: CALIBRATION CONFIDENCE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '91_calibration_confidence_modes']
+type: control-plane
+tags: [control_plane, 91_calibration_confidence_modes]
 ---
+
 
 
 # CALIBRATION CONFIDENCE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

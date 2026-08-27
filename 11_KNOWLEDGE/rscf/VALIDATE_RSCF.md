@@ -1,9 +1,11 @@
 ---
 title: VALIDATE RSCF
-tags: [rscf]
+tags: [rscf, epistemic, claim]
 type: document
 source: 11_KNOWLEDGE/rscf
 ---
+
+
 
 
 # validate_rscf

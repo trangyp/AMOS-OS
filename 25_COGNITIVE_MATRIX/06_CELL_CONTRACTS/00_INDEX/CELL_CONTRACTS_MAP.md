@@ -1,7 +1,9 @@
 ---
 title: CELL CONTRACTS MAP
-tags: ['cognitive_matrix', '00_index']
+type: map
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # CELL CONTRACTS MAP

@@ -1,7 +1,9 @@
 ---
 title: INDEX SUPERSEDED ARCHIVE README
-tags: ['amos_os', '24_archive']
+type: index
+tags: [amos_os, 24_archive]
 ---
+
 
 
 # INDEX SUPERSEDED ARCHIVE README

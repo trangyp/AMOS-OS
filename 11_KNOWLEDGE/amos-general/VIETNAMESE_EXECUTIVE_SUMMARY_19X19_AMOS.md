@@ -3,13 +3,14 @@ title: "VIETNAMESE Executive Summary — 19×19 AMOS System Model"
 created: "2026-08-22"
 origin: "AMOS brain knowledge ingest"
 origin_architect: "Trang Phan / AMOS"
-type: "executive-summary"
+type: executive-summary
 tags: [canon-group/human-system, canon/metric, rscf/claim, rscf/provenance, rscf/state/observation, topic/vietnamese-executive-summary-19x19-amos, amos-general]
 status: "active"
 provenance: "OBSERVATION"
 confidence: "DERIVED"
 source: "Ingest batch 2026-08-22"
 ---
+
 
 # VIETNAMESE EXECUTIVE SUMMARY — 19×19 AMOS System Model
 

@@ -1,7 +1,9 @@
 ---
 title: DOMAINS C11 DESIGN LANGUAGE CONTRACT
-tags: ['amos_os', '21_domains']
+type: design
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS C11 DESIGN LANGUAGE CONTRACT

@@ -1,12 +1,14 @@
 ---
 title: FOO77
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
 
-       function t0(value)
+# FOO77
+
+function t0(value)
          character value
          character t0
          t0 = value

@@ -1,7 +1,9 @@
 ---
 title: RESEARCH DOMAINS INTERFACES
-tags: ['amos_os', '21_domains']
+type: interface
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # RESEARCH DOMAINS INTERFACES

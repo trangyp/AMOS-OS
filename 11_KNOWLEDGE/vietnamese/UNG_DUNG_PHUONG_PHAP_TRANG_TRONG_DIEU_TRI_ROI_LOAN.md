@@ -1,9 +1,11 @@
 ---
 title: UNG DUNG PHUONG PHAP TRANG TRONG DIEU TRI ROI LOAN
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

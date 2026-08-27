@@ -1,5 +1,6 @@
 ---
 title: K DISTINCTION RELATION CONSTRAINT
+type: constraint
 artifact_id: AMOS-OS-K-DISTINCTION-RELATION-CONSTRAINT
 canonical_name: K_DISTINCTION_RELATION_CONSTRAINT
 artifact_type: kernel_semantic_contract
@@ -18,8 +19,7 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - canon/model
   - kernel
@@ -46,6 +46,8 @@ aliases:
   - K DRC
   - AMOS Distinction Relation Constraint Kernel
 ---
+
+
 
 
 # K_DISTINCTION_RELATION_CONSTRAINT

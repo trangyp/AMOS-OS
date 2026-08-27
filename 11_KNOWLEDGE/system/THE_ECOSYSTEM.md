@@ -1,9 +1,11 @@
 ---
 title: THE ECOSYSTEM
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 

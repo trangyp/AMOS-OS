@@ -1,5 +1,6 @@
 ---
 title: AMOS OMNI KERNEL CORE
+type: kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-omni-kernel
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-omni-kernel, kernel]
 created: 2026-08-22
 ---
+
 
 
 ```json

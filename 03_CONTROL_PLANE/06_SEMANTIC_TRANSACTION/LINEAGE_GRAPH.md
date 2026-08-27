@@ -1,7 +1,9 @@
 ---
 title: LINEAGE GRAPH
-tags: ['control_plane', 'lineage_graph.md']
+type: graph
+tags: [control_plane, lineage_graph.md]
 ---
+
 
 
 # LINEAGE GRAPH

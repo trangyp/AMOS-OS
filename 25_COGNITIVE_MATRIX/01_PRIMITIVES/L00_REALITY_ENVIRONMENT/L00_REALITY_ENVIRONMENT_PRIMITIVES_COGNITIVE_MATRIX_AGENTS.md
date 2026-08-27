@@ -1,7 +1,9 @@
 ---
 title: L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX AGENTS
-tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
+type: agent
+tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 ---
+
 
 
 # L00_REALITY_ENVIRONMENT — Agents

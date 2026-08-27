@@ -1,7 +1,9 @@
 ---
 title: INDEX C01 GOVERNANCE CONTROL PLANES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'c01_governance']
+type: index
+tags: [cognitive_matrix, c01_governance]
 ---
+
 
 
 # INDEX C01 GOVERNANCE CONTROL PLANES COGNITIVE MATRIX README

@@ -1,5 +1,6 @@
 ---
 title: 2026 08 22 TRANG PHI FRAMEWORK
+type: trang-framework
 origin_architect: Hermes Agent (AMOS session)
 provenance: user-supplied canonical 17-group equation catalog (Trang ∅ Framework) + implemented & verified Python agent
 confidence: 0.95
@@ -8,6 +9,7 @@ conclusion_label: VERIFIED
 tags: [canon-group/human-system, canon/metric, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-trang-phi-framework, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 
 # Trang ∅ Framework — 17-Group Equation Catalog & Trang Agent

@@ -1,9 +1,11 @@
 ---
 title: CAC BAI TOAN KINH TE KHO NHAT MANG LAI DOANH THU
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

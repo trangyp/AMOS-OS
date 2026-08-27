@@ -4,6 +4,7 @@ type: note
 tags: [note, l06-working-state]
 ---
 
+
 # L06 — Control-Plane Requirements
 
 **Package:** `L06_WORKING_STATE`  

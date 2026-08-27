@@ -1,9 +1,11 @@
 ---
 title: AI EQUATION ARCHITECTURE DATASET 2
-tags: [architecture]
+tags: [architecture, design, structure]
 type: data
 source: 11_KNOWLEDGE/architecture
 ---
+
+
 
 
 

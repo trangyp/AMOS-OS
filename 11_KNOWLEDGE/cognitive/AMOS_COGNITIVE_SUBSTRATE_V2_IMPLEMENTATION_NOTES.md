@@ -1,5 +1,6 @@
 ---
 title: AMOS COGNITIVE SUBSTRATE V2 IMPLEMENTATION NOTES
+type: cognitive
 created: 2026-08-23
 updated: 2026-08-23
 status: verified_complete
@@ -9,8 +10,7 @@ provenance: self_test_verified
 rscf-state: DONE
 rscf-claim: verified
 rscf-provenance: self_test
-tags:
-  - canon-group/tech-ai
+tags: [canon-group/tech-ai, cognitive, cognition]
   - cosmo-brain
   - cognitive-substrate
   - implementation
@@ -20,6 +20,8 @@ tags:
   - cognitive
 
 ---
+
+
 
 
 # AMOS Cognitive Substrate v2.0 — Implementation Notes

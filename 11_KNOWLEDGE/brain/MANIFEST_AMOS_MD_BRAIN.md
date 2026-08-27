@@ -1,9 +1,11 @@
 ---
 title: MANIFEST AMOS MD BRAIN
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: data
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 

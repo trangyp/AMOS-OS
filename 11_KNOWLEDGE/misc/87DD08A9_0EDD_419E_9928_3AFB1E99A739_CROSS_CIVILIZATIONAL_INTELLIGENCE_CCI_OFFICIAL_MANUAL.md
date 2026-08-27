@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/misc
 ---
 
-
+# 87DD08A9 0EDD 419E 9928 3AFB1E99A739 CROSS CIVILIZATIONAL INTELLIGENCE CCI OFFICIAL MANUAL
 
 Cross-Civilizational
 Intelligence™ (CCI) – Official

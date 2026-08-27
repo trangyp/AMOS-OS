@@ -1,5 +1,6 @@
 ---
 title: "ASEA — Adaptive Self-Evolution AI"
+type: adaptation
 artifact: "ASEA_ADAPTIVE_SELF_EVOLUTION_AI.md"
 artifact_id: "amos_11_knowledge_05_frameworks_asea_adaptive_self_evolution_ai"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "EVOLUTION"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/ASEA_ADAPTIVE_SELF_EVOLUTION_AI.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - evolution
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # ASEA — Adaptive Self-Evolution AI
 

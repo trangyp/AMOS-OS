@@ -1,9 +1,11 @@
 ---
 title: HUMAN LIMITS AS DESIGN CONSTRAINTS
-tags: [human]
+tags: [human, alignment, interaction]
 type: document
 source: 11_KNOWLEDGE/human
 ---
+
+
 
 
 

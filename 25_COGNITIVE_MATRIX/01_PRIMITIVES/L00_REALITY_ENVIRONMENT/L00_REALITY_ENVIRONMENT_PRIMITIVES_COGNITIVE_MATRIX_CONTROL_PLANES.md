@@ -1,5 +1,6 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Control Planes"
+type: control-plane
 aliases:
 
 * "AMOS Control Planes"
@@ -33,9 +34,10 @@ aliases:
 * rscf/T-topology
 * rscf/M-memory
 * rscf/P-repair
-tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
+tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---
+
 # L00_REALITY_ENVIRONMENT — Control Planes
 
 **Class:** `AMOS_INFRASTRUCTURE_CONTROL_PLANE`

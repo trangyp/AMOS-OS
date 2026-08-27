@@ -1,5 +1,6 @@
 ---
 title: K PROVENANCE TOPOLOGY
+type: provenance
 artifact_id: AMOS-OS-K-PROVENANCE-TOPOLOGY
 canonical_name: K_PROVENANCE_TOPOLOGY
 artifact_type: kernel_provenance_topology_contract
@@ -11,9 +12,10 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
-tags: ['kernel', 'provenance', 'note']
+tags: [kernel, provenance, note]
 
 ---
+
 
 # K PROVENANCE TOPOLOGY
 

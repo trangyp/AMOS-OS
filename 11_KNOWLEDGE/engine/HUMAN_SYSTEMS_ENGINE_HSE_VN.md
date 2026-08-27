@@ -1,5 +1,6 @@
 ---
 title: HUMAN SYSTEMS ENGINE HSE VN
+type: engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -8,6 +9,7 @@ tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, r
 created: 2026-08-22
 ---
 
+# HUMAN SYSTEMS ENGINE HSE VN
 
 Human Systems Engine™ (HSE) VN
 I. CHỨC NĂNG TRUNG TÂM (CORE FUNCTIONS)

@@ -1,9 +1,11 @@
 ---
 title: NHUNG GI CON THIEU TRONG TRANG FRAMEWORK VA CH
-tags: [trang]
+tags: [trang, framework, reality]
 type: document
 source: 11_KNOWLEDGE/trang
 ---
+
+
 
 
 

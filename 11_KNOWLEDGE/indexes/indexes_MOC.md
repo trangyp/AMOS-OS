@@ -4,6 +4,7 @@ type: moc
 tags: [moc, indexes]
 ---
 
+
 # indexes — Map of Content
 
 ## Files

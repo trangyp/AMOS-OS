@@ -1,9 +1,11 @@
 ---
 title: amos-tech-quantum-engine-layer
+type: quantum
 created: 2026-08-25
 tags: [canon-group/quantum, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-tech-quantum-engine-layer, quantum]
 status: validated
 ---
+
 
 # amos-tech-quantum-engine-layer
 

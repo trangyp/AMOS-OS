@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 18-c08-strategy-game]
 ---
 
+
 # 18_C08_STRATEGY_GAME — Map of Content
 
 ## Files

@@ -4,6 +4,7 @@ type: note
 tags: [note, o08-prediction]
 ---
 
+
 # O08 — Gap Matrix
 
 **Package:** `O08_PREDICTION`  

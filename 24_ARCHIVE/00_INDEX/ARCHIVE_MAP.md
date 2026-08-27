@@ -1,7 +1,9 @@
 ---
 title: ARCHIVE MAP
-tags: ['amos_os', '24_archive']
+type: archive
+tags: [amos_os, 24_archive]
 ---
+
 
 
 # ARCHIVE MAP

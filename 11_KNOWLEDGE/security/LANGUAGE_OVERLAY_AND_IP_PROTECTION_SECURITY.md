@@ -1,5 +1,6 @@
 ---
 title: LANGUAGE OVERLAY AND IP PROTECTION SECURITY
+type: security
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: language-overlay-and-ip-protection
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/language-overlay-and-ip-protection, security]
 created: 2026-08-22
 ---
+
 
 
 ```json

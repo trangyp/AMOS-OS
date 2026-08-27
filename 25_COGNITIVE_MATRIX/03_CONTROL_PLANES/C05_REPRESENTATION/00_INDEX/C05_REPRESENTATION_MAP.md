@@ -1,7 +1,9 @@
 ---
 title: C05 REPRESENTATION MAP
-tags: ['cognitive_matrix', 'c05_representation']
+type: map
+tags: [cognitive_matrix, c05_representation]
 ---
+
 
 
 # C05 REPRESENTATION MAP

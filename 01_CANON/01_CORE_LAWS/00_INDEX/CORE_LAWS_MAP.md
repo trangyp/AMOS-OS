@@ -4,6 +4,7 @@ type: note
 tags: [note, 00-index]
 ---
 
+
 ````markdown
 ---
 title: "AMOS Core Laws Map"

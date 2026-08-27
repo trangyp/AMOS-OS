@@ -1,7 +1,9 @@
 ---
 title: INDEX COGNITIVE ORGANISM README
-tags: ['amos_os', '05_cognitive_organism']
+type: index
+tags: [amos_os, 05_cognitive_organism]
 ---
+
 
 
 # INDEX COGNITIVE ORGANISM README

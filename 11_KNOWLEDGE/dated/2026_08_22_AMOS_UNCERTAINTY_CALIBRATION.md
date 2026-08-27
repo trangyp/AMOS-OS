@@ -1,12 +1,13 @@
 ---
 title: "AMOS Uncertainty & Calibration"
 created: "2026-08-22"
-type: "note"
+type: note
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-uncertainty-calibration, dated, dated/2026-08-22]
 status: "living"
 provenance: "MODEL"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS Uncertainty & Calibration (Gaps 217-221)
 

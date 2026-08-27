@@ -1,7 +1,9 @@
 ---
 title: C06 SOCIETY CULTURE DOMAINS DOMAIN SPEC
-tags: ['amos_os', '21_domains']
+type: note
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C06 SOCIETY CULTURE DOMAINS DOMAIN SPEC

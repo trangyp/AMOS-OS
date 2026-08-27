@@ -1,7 +1,9 @@
 ---
 title: INDEX O01 OBJECT LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o01_object']
+type: index
+tags: [cognitive_matrix, o01_object]
 ---
+
 
 
 # INDEX O01 OBJECT LIFECYCLE OPERATIONS COGNITIVE MATRIX README

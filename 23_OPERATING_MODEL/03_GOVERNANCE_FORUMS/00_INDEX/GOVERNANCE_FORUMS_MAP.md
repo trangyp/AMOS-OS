@@ -1,7 +1,9 @@
 ---
 title: GOVERNANCE FORUMS MAP
-tags: ['amos_os', '23_operating_model']
+type: map
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # GOVERNANCE FORUMS MAP

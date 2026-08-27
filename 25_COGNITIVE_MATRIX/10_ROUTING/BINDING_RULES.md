@@ -1,4 +1,5 @@
 ---
+type: rule
 artifact_id: AMOS-CM-10-ROUTING-BINDING-RULES
 title: "10_ROUTING — Binding Rules"
 
@@ -65,8 +66,7 @@ hml_scope:
     - PARAMETER_BINDING
     - LOCAL_ROUTE_DECISION
 
-tags:
-  identity:
+tags: [identity:, cognitive_matrix, matrix]
     - AMOS
     - AMOS_OS
     - AMOS_CORE
@@ -151,6 +151,7 @@ tags:
     - FALSIFICATION
     - RECOVERY
 ---
+
 
 # 10_ROUTING — Binding Rules
 

@@ -1,4 +1,5 @@
 ---
+type: registry
 artifact_id: AMOS-UNIT-REGISTRY
 name: UNIT_REGISTRY
 title: "AMOS Unit Registry — Canonical Dimensions, Units, Scales, Conversion, and Measurement Semantics"
@@ -20,8 +21,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos
+tags: [amos, canon, universe]
   - amos-os
   - amos-core
   - amos-core-v4-4
@@ -69,6 +69,8 @@ related:
   - "PERSISTENCE_CANON|Persistence Canon"
   - "SCHEMA_MAP|Schema Map"
 ---
+
+
 
 # AMOS Unit Registry
 

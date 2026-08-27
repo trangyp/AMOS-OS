@@ -4,6 +4,7 @@ type: note
 tags: [note, l26-social-cognition]
 ---
 
+
 # L26 — Failure Modes
 
 **Package:** `L26_SOCIAL_COGNITION`  

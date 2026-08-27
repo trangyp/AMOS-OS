@@ -1,9 +1,11 @@
 ---
 title: MONEY REGIMES MAX ENHANCEMENT REPORT
-tags: [economy]
+tags: [economy, finance, market]
 type: document
 source: 11_KNOWLEDGE/economy
 ---
+
+
 
 
 # AMOS BRAIN MAX ENHANCEMENT REPORT

@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/logic
 ---
 
-
+# THE ART OF PEACE ENDING ALL HUMAN SUFFERING THROUGH UNIFIED BIOLOGICAL INTELLIGENCE
 
 📘
 The Art of Peace: Ending All

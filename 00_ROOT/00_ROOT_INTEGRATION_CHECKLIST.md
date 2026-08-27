@@ -1,7 +1,9 @@
 ---
 title: 00 ROOT INTEGRATION CHECKLIST
-tags: ['amos_os', '00_root']
+type: checklist
+tags: [amos_os, 00_root]
 ---
+
 
 
 # 00 ROOT INTEGRATION CHECKLIST

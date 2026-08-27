@@ -3,12 +3,13 @@ title: "AMOS Org Governance Kernel — 10 Task Types × 5 Org Sizes × 6 Ownersh
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Org_Governance_Engine_v0.json"
 origin_architect: "Trang Phan"
-type: "reference"
+type: reference
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/B-boundary, topic/org-governance-model, kernel]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS Org Governance Kernel vInfinity
 

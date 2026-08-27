@@ -4,6 +4,7 @@ type: note
 tags: [note, o16-learning]
 ---
 
+
 # O16 — Preconditions
 
 **Package:** `O16_LEARNING`  

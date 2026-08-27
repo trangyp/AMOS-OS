@@ -1,10 +1,12 @@
 ---
 title: LIFE CORE KERNEL
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: note
 source: 11_KNOWLEDGE/kernel
 ---
 
+
+# LIFE CORE KERNEL
 
 """AMOS logical component.
 

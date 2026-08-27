@@ -1,7 +1,9 @@
 ---
 title: SUPERSESSION CANON SUPERSESSION CONTRACT
-tags: ['amos_os', '01_canon']
+type: canon
+tags: [amos_os, 01_canon]
 ---
+
 
 
 # SUPERSESSION CANON SUPERSESSION CONTRACT

@@ -1,7 +1,9 @@
 ---
 title: ORGANIZATIONAL BEHAVIOR DOMAINS README
-tags: ['amos_os', '21_domains']
+type: behavior
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # ORGANIZATIONAL BEHAVIOR DOMAINS README

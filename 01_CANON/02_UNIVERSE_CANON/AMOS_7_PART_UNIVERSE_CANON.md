@@ -1,4 +1,5 @@
 ---
+type: canon
 artifact_id: AMOS-7-PART-UNIVERSE-CANON
 name: AMOS_7_PART_UNIVERSE_CANON
 title: "AMOS 7-Part Universe Canon — Universal Partition, Boundary, and Integration Model"
@@ -20,8 +21,7 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos
+tags: [amos, canon, universe]
   - amos-os
   - amos-core
   - amos-core-v4-4
@@ -66,6 +66,8 @@ related:
   - "INVARIANT_REGISTRY|Invariant Registry"
   - "LAW_HIERARCHY|Law Hierarchy"
 ---
+
+
 
 # AMOS 7-Part Universe Canon
 

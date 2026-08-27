@@ -1,9 +1,11 @@
 ---
 title: CAU TAI CAU VAN DUOI NGUYEN LY FRACTAL L M H VA
-tags: [fractal]
+tags: [fractal, math, self-similarity]
 type: document
 source: 11_KNOWLEDGE/fractal
 ---
+
+
 
 
 

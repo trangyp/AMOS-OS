@@ -1,9 +1,11 @@
 ---
 title: ACCESS CONTROL PRIV ESC SECURITY MODELS
-tags: [security]
+tags: [security, safety, adversarial]
 type: document
 source: 11_KNOWLEDGE/security
 ---
+
+
 
 
 ## Security Models

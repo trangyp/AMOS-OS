@@ -1,7 +1,9 @@
 ---
 title: INDEX INTEGRATION KERNEL README
-tags: ['amos_os', '02_kernel']
+type: index
+tags: [amos_os, 02_kernel]
 ---
+
 
 
 # INDEX INTEGRATION KERNEL README

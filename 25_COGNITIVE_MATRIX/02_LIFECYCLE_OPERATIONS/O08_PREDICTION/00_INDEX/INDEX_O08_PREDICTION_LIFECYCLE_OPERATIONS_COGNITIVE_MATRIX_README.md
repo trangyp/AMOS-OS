@@ -1,7 +1,9 @@
 ---
 title: INDEX O08 PREDICTION LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o08_prediction']
+type: index
+tags: [cognitive_matrix, o08_prediction]
 ---
+
 
 
 # INDEX O08 PREDICTION LIFECYCLE OPERATIONS COGNITIVE MATRIX README

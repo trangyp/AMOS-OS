@@ -1,9 +1,11 @@
 ---
 title: SYSTEM STATUS
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 # AMOS UNIVERSE - System Status Report

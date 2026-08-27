@@ -1,9 +1,11 @@
 ---
 title: INTEGRATED OPTIMIZATION
-tags: [system]
+tags: [system, architecture, design]
 type: document
 source: 11_KNOWLEDGE/system
 ---
+
+
 
 
 # AMOS BRAIN - INTEGRATED OPTIMIZATION COMPLETE

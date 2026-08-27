@@ -1,9 +1,11 @@
 ---
 title: THE ARCHITECTURE OF INTELLIGENCE AND PERCEPTION
-tags: [architecture]
+tags: [architecture, design, structure]
 type: document
 source: 11_KNOWLEDGE/architecture
 ---
+
+
 
 
 

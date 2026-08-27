@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 27-research-modes]
 ---
 
+
 # 27_RESEARCH_MODES — Map of Content
 
 ## Files

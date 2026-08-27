@@ -3,12 +3,13 @@ title: "AMOS vOmni Master Kernel — All 33 Meta-Kernels"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_vOmni_KERNEL_v0.json"
 origin_architect: "Trang Phan"
-type: "reference"
+type: reference
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/mu-mutation, rscf/X-crossscale, topic/vomni-kernel-model, kernel]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS vOmni Master Kernel vInfinity_MAX
 

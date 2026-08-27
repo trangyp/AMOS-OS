@@ -1,7 +1,9 @@
 ---
 title: PROTOCOL MAP
-tags: ['amos_os', '09_protocols']
+type: protocol
+tags: [amos_os, 09_protocols]
 ---
+
 
 
 # PROTOCOL MAP

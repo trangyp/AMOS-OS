@@ -1,7 +1,9 @@
 ---
 title: INDEX SCHEMAS SCHEMA CONTRACT
-tags: ['amos_os', '16_schemas']
+type: index
+tags: [amos_os, 16_schemas]
 ---
+
 
 
 # INDEX SCHEMAS SCHEMA CONTRACT

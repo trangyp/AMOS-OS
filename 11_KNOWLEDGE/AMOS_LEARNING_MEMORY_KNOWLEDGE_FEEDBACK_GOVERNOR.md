@@ -1,5 +1,6 @@
 ---
 title: AMOS LEARNING MEMORY KNOWLEDGE FEEDBACK GOVERNOR
+type: memory
 claim_ceiling: 0.9
 created: 2026-08-27
 domain: cross-domain
@@ -8,13 +9,14 @@ origin_architect: Trang Phan
 parent_skill: amos-knowledge-research-master
 rscf_node_type: skill
 status: production_ready
-tags:
-- rscf/node
+tags: [rscf/node, knowledge, vault]
 - canon-group/cross-domain
 - topic/learning-memory-knowledge
 - topic/feedback-loop
 - topic/epistemic-preservation
 ---
+
+
 
 # AMOS Learning-Memory-Knowledge Feedback Governor
 

@@ -1,4 +1,5 @@
 ---
+type: finance
 id: AMOS-C07-ECON-FINANCE-MASTER-KNOWLEDGE
 title: "AMOS C07 — Economics & Finance Master Knowledge"
 origin_architect: "Trang Phan"
@@ -27,9 +28,10 @@ source_family_mapping:
   - "F07_data_measurement_and_indicators"
   - "F08_investment_reasoning_and_governance"
   - "F09_meta_finance_governance_and_boundaries"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # AMOS C07 — Economics & Finance Master Knowledge
 
 > **Epistemic boundary**

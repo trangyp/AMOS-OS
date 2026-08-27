@@ -4,6 +4,7 @@ type: note
 tags: [note, o08-prediction]
 ---
 
+
 # O08 — Agents
 
 **Package:** `O08_PREDICTION`  

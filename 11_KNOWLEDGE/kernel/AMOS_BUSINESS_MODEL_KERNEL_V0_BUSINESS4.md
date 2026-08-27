@@ -1,5 +1,6 @@
 ---
 title: AMOS BUSINESS MODEL KERNEL V0 BUSINESS4
+type: kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-business-model-kernel-v0
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-business-model-kernel-v0, kernel]
 created: 2026-08-22
 ---
+
 
 
 # AMOS Business Model Kernel v0 Business4

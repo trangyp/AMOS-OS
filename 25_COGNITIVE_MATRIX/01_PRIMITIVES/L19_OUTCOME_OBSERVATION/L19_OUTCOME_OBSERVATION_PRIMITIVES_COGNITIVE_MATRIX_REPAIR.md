@@ -4,6 +4,7 @@ type: note
 tags: [note, l19-outcome-observation]
 ---
 
+
 # L19 — Repair & Recovery
 
 **Package:** `L19_OUTCOME_OBSERVATION`  

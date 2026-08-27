@@ -1,5 +1,6 @@
 ---
 title: "Bio-Logical Computing Model"
+type: model
 artifact: "BIO_LOGICAL_COMPUTING_MODEL.md"
 artifact_id: "amos_13_models_01_foundation_bio_logical_computing_model"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "13_MODELS/01_FOUNDATION"
 artifact_kind: "LOG"
 path: "13_MODELS/01_FOUNDATION/BIO_LOGICAL_COMPUTING_MODEL.md"
 
-tags:
-  - amos_os
+tags: [amos_os, model, specification]
   - 13_models
   - log
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Bio-Logical Computing Model
 

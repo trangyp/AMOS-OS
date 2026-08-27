@@ -1,7 +1,9 @@
 ---
 title: TOOL MAP
-tags: ['amos_os', '14_tools']
+type: map
+tags: [amos_os, 14_tools]
 ---
+
 
 
 # TOOL MAP

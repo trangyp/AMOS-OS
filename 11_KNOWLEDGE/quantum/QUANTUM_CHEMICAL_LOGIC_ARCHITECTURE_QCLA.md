@@ -1,9 +1,11 @@
 ---
 title: QUANTUM CHEMICAL LOGIC ARCHITECTURE QCLA
-tags: [quantum]
+tags: [quantum, physics, qfm]
 type: document
 source: 11_KNOWLEDGE/quantum
 ---
+
+
 
 
 

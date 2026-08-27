@@ -1,5 +1,6 @@
 ---
 title: "Kernel · Bio-Logical Computing"
+type: logic
 artifact: "K_BIO_LOGICAL_COMPUTING.md"
 artifact_id: "amos_02_kernel_01_meta_logic_k_bio_logical_computing"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "02_KERNEL/01_META_LOGIC"
 artifact_kind: "LOG"
 path: "02_KERNEL/01_META_LOGIC/K_BIO_LOGICAL_COMPUTING.md"
 
-tags:
-  - amos_os
+tags: [amos_os, kernel, core]
   - 02_kernel
   - log
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Kernel · Bio-Logical Computing
 

@@ -1,7 +1,9 @@
 ---
 title: ROLLBACK REPLAY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '83_rollback_replay_modes']
+type: control-plane
+tags: [control_plane, 83_rollback_replay_modes]
 ---
+
 
 
 # ROLLBACK REPLAY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

@@ -1,10 +1,12 @@
 ---
 title: OPENAI 10
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# OPENAI 10
 
 interface:
   name: amos-openai-config-10

@@ -1,7 +1,9 @@
 ---
 title: AUDIT REASONING MODES COMMIT CONTROL PLANE MODE SPEC
-tags: ['control_plane', '06_reasoning_modes/04_audit']
+type: control-plane
+tags: [control_plane, 06_reasoning_modes/04_audit]
 ---
+
 
 
 # AUDIT REASONING MODES COMMIT CONTROL PLANE MODE SPEC

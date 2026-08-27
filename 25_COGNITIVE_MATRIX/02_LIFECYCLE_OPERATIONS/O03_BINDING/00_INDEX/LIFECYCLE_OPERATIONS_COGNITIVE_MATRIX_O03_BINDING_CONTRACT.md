@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O03 BINDING CONTRACT
-tags: ['cognitive_matrix', 'o03_binding']
+type: lifecycle
+tags: [cognitive_matrix, o03_binding]
 ---
+
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O03 BINDING CONTRACT

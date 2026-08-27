@@ -3,12 +3,13 @@ title: "Making Planetary Consent Infrastructure Relatable"
 created: "2026-08-22"
 origin: "Google Drive — new troy/Public Messaging - Making Consent Infrastructure Relatable.pdf"
 origin_architect: "Quynh Trang Phan"
-type: "framework"
+type: framework
 tags: [planetary-consent, public-messaging, relatable-anecdotes, smart-home, ethical-coffee, city-planning, forest-voice, Q&A, community-engagement, misc]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # Making Planetary Consent Infrastructure Relatable
 

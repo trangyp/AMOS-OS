@@ -1,7 +1,9 @@
 ---
 title: INDEX L04 OBJECT ENTITY FORMATION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l04_object_entity_formation']
+type: index
+tags: [cognitive_matrix, l04_object_entity_formation]
 ---
+
 
 
 # INDEX L04 OBJECT ENTITY FORMATION PRIMITIVES COGNITIVE MATRIX README

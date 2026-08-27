@@ -1,5 +1,6 @@
 ---
 title: "Post-Theory Communication"
+type: note
 artifact: "POST_THEORY_COMMUNICATION.md"
 artifact_id: "amos_11_knowledge_05_frameworks_post_theory_communication"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "COMMUNICATION"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/POST_THEORY_COMMUNICATION.md"
 
-tags:
-  - amos_os
+tags: [amos_os, knowledge, vault]
   - 11_knowledge
   - communication
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Post-Theory Communication
 

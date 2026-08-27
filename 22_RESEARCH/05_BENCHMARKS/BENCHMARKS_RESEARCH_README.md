@@ -1,7 +1,9 @@
 ---
 title: BENCHMARKS RESEARCH README
-tags: ['amos_os', '22_research']
+type: benchmark
+tags: [amos_os, 22_research]
 ---
+
 
 
 # BENCHMARKS RESEARCH README

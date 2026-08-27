@@ -1,10 +1,12 @@
 ---
 title: QUANTUM STACK V0
-tags: [quantum]
+tags: [quantum, physics, qfm]
 type: note
 source: 11_KNOWLEDGE/quantum
 ---
 
+
+# QUANTUM STACK V0
 
 """Auto-generated AMOS framework module.
 

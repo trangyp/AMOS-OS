@@ -1,7 +1,9 @@
 ---
 title: INDEX CELL CONTRACTS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', '00_index']
+type: index
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # INDEX CELL CONTRACTS COGNITIVE MATRIX README

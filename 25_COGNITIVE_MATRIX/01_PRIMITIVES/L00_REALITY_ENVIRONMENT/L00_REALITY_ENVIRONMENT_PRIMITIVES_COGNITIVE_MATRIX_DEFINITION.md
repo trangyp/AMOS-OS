@@ -1,5 +1,6 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Definition"
+type: definition
 aliases:
 
 * "AMOS Reality Environment"
@@ -33,9 +34,10 @@ aliases:
 * rscf/C-constraint
 * rscf/X-cross-scale
 * rscf/type-system
-tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
+tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---
+
 # L00_REALITY_ENVIRONMENT — Definition
 
 **Class:** `AMOS_REALITY_ENVIRONMENT_ARCHITECTURE`

@@ -1,4 +1,5 @@
 ---
+type: architecture
 aliases:
 - ARCHITECTURE
 
@@ -30,8 +31,7 @@ scope:
   - agent_architecture
   - knowledge_architecture
 
-tags:
-  - amos
+tags: [amos, amos_os, root]
   - amos-os
   - architecture
   - system-architecture
@@ -97,6 +97,8 @@ related:
   - "GMEF"
   - "[[HML_CANON]]"
 ---
+
+
 
 # AMOS OS Architecture
 

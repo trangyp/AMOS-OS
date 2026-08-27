@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX L00 REALITY ENVIRONMENT CONTRACT
-tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'contract']
+type: cognitive
+tags: [cognitive_matrix, primitives, l00_reality_environment, contract]
 ---
+
 
 
 # L00_REALITY_ENVIRONMENT — Reality & Environment grounding Contract

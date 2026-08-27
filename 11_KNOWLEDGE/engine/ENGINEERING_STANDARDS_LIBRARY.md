@@ -1,5 +1,6 @@
 ---
 title: ENGINEERING STANDARDS LIBRARY
+type: engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: engineering-standards-library
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/engineering-standards-library, engine]
 created: 2026-08-22
 ---
+
 
 
 ```json

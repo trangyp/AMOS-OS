@@ -1,7 +1,9 @@
 ---
 title: AGENT MAP
-tags: ['amos_os', '06_agents']
+type: agent
+tags: [amos_os, 06_agents]
 ---
+
 
 
 # AGENT MAP

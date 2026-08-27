@@ -1,7 +1,9 @@
 ---
 title: AUDIT PROVENANCE
-tags: ['control_plane', 'authority', 'note']
+type: provenance
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Audit Provenance

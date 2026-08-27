@@ -1,7 +1,9 @@
 ---
 title: DOMAINS FINANCE CONTRACT
-tags: ['amos_os', '21_domains']
+type: finance
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS FINANCE CONTRACT

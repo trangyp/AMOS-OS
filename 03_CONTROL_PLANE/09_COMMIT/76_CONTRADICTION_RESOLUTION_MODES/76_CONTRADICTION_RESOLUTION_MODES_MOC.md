@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 76-contradiction-resolution-modes]
 ---
 
+
 # 76_CONTRADICTION_RESOLUTION_MODES — Map of Content
 
 ## Files

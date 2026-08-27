@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L05 BINDING CONTRACT
-tags: ['cognitive_matrix', 'l05_binding']
+type: cognitive
+tags: [cognitive_matrix, l05_binding]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L05 BINDING CONTRACT

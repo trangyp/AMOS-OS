@@ -1,7 +1,9 @@
 ---
 title: REVOCATION AUDIT
-tags: ['control_plane', 'revocation_audit.md']
+type: revocation
+tags: [control_plane, revocation_audit.md]
 ---
+
 
 
 # REVOCATION AUDIT

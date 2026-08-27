@@ -1,9 +1,11 @@
 ---
 title: OP COG ANNOTATE ETHICAL STATE
-tags: [misc]
+tags: [misc, reference, general]
 type: data
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

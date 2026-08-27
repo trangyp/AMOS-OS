@@ -1,5 +1,6 @@
 ---
 title: "AMOS Relation Tensor Architecture"
+type: tensor
 aliases:
 
 * "Relation Tensor"
@@ -28,9 +29,10 @@ aliases:
 * scale
 * analogy
 * governance
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # AMOS Relation Tensor
 
 ## Typed Relational Architecture for AI Reasoning

@@ -1,8 +1,10 @@
 ---
 title: DESIGN ENGINE MODEL
+type: model
 aliases: [Unified Design Kernel, AMOS_Design_Engine, Design Kernel]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/design-engine-model, engine]
 ---
+
 
 
 # AMOS Unified Design Engine

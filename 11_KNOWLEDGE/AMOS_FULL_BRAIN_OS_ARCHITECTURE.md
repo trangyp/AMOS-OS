@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/root
 
 
 
+
 # AMOS Full Brain OS — Rebuilt Architecture (2026-08-22)
 
 **Canon class**: CONDITIONAL — source-grounded for major structures; gaps around cross-artifact containment/version precedence.

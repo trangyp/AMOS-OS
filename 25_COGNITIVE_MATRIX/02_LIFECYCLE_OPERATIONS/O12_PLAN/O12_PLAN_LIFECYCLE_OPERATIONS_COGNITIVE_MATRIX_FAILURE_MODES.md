@@ -4,6 +4,7 @@ type: note
 tags: [note, o12-plan]
 ---
 
+
 # O12 — Failure Modes
 
 **Package:** `O12_PLAN`  

@@ -1,7 +1,9 @@
 ---
 title: PROVENANCE EVIDENCE MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '39_provenance_evidence_modes']
+type: provenance
+tags: [control_plane, 39_provenance_evidence_modes]
 ---
+
 
 
 # PROVENANCE EVIDENCE MODES COMMIT CONTROL PLANE README

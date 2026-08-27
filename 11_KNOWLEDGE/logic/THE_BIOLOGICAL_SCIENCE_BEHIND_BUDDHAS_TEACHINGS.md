@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/logic
 ---
 
-
+# THE BIOLOGICAL SCIENCE BEHIND BUDDHAS TEACHINGS
 
 📘
 The Biological Science

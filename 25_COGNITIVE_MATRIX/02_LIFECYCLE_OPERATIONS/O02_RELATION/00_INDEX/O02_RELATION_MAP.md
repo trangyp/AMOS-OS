@@ -1,7 +1,9 @@
 ---
 title: O02 RELATION MAP
-tags: ['cognitive_matrix', 'o02_relation']
+type: map
+tags: [cognitive_matrix, o02_relation]
 ---
+
 
 
 # O02 RELATION MAP

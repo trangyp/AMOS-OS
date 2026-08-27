@@ -1,5 +1,6 @@
 ---
 title: "Cross-Framework Transaction"
+type: action
 artifact: "CROSS_FRAMEWORK_TRANSACTION.md"
 artifact_id: "amos_03_control_plane_06_semantic_transaction_cross_framework_transaction"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION"
 artifact_kind: "FRAMEWORK"
 path: "03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/CROSS_FRAMEWORK_TRANSACTION.md"
 
-tags:
-  - amos_os
+tags: [amos_os, control_plane, governance]
   - 03_control_plane
   - framework
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Cross-Framework Transaction
 

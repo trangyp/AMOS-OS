@@ -1,7 +1,9 @@
 ---
 title: BIOLOGY DOMAINS BIOLOGY CONTRACT
-tags: ['amos_os', '21_domains']
+type: biology
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # BIOLOGY DOMAINS BIOLOGY CONTRACT

@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '67_monitoring_alerting_modes']
+type: control-plane
+tags: [control_plane, 67_monitoring_alerting_modes]
 ---
+
 
 
 # CONTROL PLANE MODE FAMILY SPEC

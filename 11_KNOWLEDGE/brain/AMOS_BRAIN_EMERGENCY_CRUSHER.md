@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN EMERGENCY CRUSHER
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 # amos_brain_emergency_crusher

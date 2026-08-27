@@ -1,7 +1,9 @@
 ---
 title: FOREX DOMAINS INTERFACES
-tags: ['amos_os', '21_domains']
+type: interface
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # FOREX DOMAINS INTERFACES

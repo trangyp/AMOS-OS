@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN SINGULARITY
-tags: [reports]
+tags: [reports, report, analysis]
 type: document
 source: 11_KNOWLEDGE/reports
 ---
+
+
 
 
 # AMOS BRAIN SINGULARITY - ULTIMATE TRANSCENDENCE COMPLETE

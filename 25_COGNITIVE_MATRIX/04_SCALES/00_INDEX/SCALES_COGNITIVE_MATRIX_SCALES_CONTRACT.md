@@ -1,7 +1,9 @@
 ---
 title: SCALES COGNITIVE MATRIX SCALES CONTRACT
-tags: ['cognitive_matrix', '00_index']
+type: cognitive
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # SCALES COGNITIVE MATRIX SCALES CONTRACT

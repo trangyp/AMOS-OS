@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 05-cell-registry]
 ---
 
+
 # 05_CELL_REGISTRY — Map of Content
 
 ## Files

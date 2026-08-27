@@ -1,9 +1,11 @@
 ---
 title: UNI POWER AI TOOLKIT AND PROMPT LIBRARY 2025
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

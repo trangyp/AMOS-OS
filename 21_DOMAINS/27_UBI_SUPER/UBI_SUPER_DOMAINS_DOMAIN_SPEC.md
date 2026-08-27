@@ -1,7 +1,9 @@
 ---
 title: UBI SUPER DOMAINS DOMAIN SPEC
-tags: ['amos_os', '21_domains']
+type: note
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # UBI SUPER DOMAINS DOMAIN SPEC

@@ -1,5 +1,6 @@
 ---
 title: INDEX SUPERSESSION CANON README
+type: index
 
 ## tags: ['amos_os', '01_canon', 'supersession', 'index', 'contract_navigation', 'provenance', 'rscf']
 
@@ -18,6 +19,7 @@ title: INDEX SUPERSESSION CANON README
 **Updated:** `2026-08-26`
 tags: [00_INDEX]
 ---
+
 
 
 

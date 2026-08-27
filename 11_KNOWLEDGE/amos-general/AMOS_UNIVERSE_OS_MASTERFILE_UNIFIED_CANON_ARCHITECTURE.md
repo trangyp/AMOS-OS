@@ -1,9 +1,11 @@
 ---
 title: AMOS UNIVERSE OS MASTERFILE UNIFIED CANON ARCHITECTURE
-tags: [amos-general]
+tags: [amos-general, amos, general]
 type: document
 source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 
 # AMOS Universe OS Masterfile — Unified Canon Architecture

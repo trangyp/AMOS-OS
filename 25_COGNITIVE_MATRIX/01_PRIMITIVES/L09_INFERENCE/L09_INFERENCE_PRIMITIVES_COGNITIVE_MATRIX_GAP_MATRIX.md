@@ -4,6 +4,7 @@ type: note
 tags: [note, l09-inference]
 ---
 
+
 # L09 — Gap Matrix
 
 **Package:** `L09_INFERENCE`  

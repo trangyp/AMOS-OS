@@ -1,7 +1,9 @@
 ---
 title: INDEX L20 CREDIT ASSIGNMENT PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l20_credit_assignment']
+type: index
+tags: [cognitive_matrix, l20_credit_assignment]
 ---
+
 
 
 # INDEX L20 CREDIT ASSIGNMENT PRIMITIVES COGNITIVE MATRIX README

@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX O02 RELATION CONTRACT
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o02_relation', 'contract']
+type: cognitive
+tags: [cognitive_matrix, lifecycle_operations, o02_relation, contract]
 ---
+
 
 
 # O02_RELATION — Declaring typed relations between objects; relation ≠ similarity.

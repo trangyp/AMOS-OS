@@ -1,9 +1,11 @@
 ---
 title: HIERARCHICAL AI ARCHITECTURE GENERATOR
-tags: [architecture]
+tags: [architecture, design, structure]
 type: document
 source: 11_KNOWLEDGE/architecture
 ---
+
+
 
 
 # Hierarchical AI Architecture Generator v2

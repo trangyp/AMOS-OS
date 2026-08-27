@@ -1,7 +1,9 @@
 ---
 title: AUTHORITY PERMISSION MODES COMMIT CONTROL PLANE README
-tags: ['control_plane', '38_authority_permission_modes']
+type: authority
+tags: [control_plane, 38_authority_permission_modes]
 ---
+
 
 
 # AUTHORITY PERMISSION MODES COMMIT CONTROL PLANE README

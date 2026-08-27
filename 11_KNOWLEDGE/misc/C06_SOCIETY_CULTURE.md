@@ -1,5 +1,6 @@
 ---
 title: C06 SOCIETY CULTURE
+type: note
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: c06-society-culture
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c06-society-culture, misc]
 created: 2026-08-22
 ---
+
 
 
 ```json

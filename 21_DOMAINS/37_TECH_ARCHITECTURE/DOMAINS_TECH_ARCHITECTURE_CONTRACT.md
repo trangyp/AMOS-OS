@@ -1,7 +1,9 @@
 ---
 title: DOMAINS TECH ARCHITECTURE CONTRACT
-tags: ['amos_os', '21_domains']
+type: architecture
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS TECH ARCHITECTURE CONTRACT

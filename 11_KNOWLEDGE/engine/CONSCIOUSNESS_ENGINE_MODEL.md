@@ -2,12 +2,13 @@
 title: "Consciousness Engine Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
-type: "note"
+type: note
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/consciousness-engine-model, engine]
 status: "active"
 provenance: "MODEL"
 confidence: "DERIVED"
 ---
+
 
 # Consciousness Engine Model
 

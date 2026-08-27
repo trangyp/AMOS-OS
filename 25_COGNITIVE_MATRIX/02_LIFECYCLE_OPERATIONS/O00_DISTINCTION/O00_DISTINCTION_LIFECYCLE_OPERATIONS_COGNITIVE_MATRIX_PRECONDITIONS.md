@@ -4,6 +4,7 @@ type: note
 tags: [note, o00-distinction]
 ---
 
+
 # O00 — Preconditions
 
 **Package:** `O00_DISTINCTION`  

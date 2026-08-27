@@ -1,5 +1,6 @@
 ---
 title: "Somatic Intelligence (SI)"
+type: note
 artifact: "SOMATIC_INTELLIGENCE_SI.md"
 artifact_id: "amos_05_cognitive_organism_15_homeostasis_somatic_intelligence_si"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "05_COGNITIVE_ORGANISM/15_HOMEOSTASIS"
 artifact_kind: "INTELLIGENCE"
 path: "05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/SOMATIC_INTELLIGENCE_SI.md"
 
-tags:
-  - amos_os
+tags: [amos_os, cognitive, organism]
   - 05_cognitive_organism
   - intelligence
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Somatic Intelligence (SI)
 

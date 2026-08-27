@@ -1,7 +1,9 @@
 ---
 title: TEST MAP
-tags: ['amos_os', '19_tests']
+type: test
+tags: [amos_os, 19_tests]
 ---
+
 
 
 # TEST MAP

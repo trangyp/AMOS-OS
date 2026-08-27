@@ -1,5 +1,6 @@
 ---
 title: K STRUCTURAL REASONING
+type: reasoning
 artifact_id: AMOS-OS-K-STRUCTURAL-REASONING
 canonical_name: K_STRUCTURAL_REASONING
 artifact_type: kernel_reasoning_contract
@@ -19,8 +20,7 @@ authority_level: deterministic_kernel_contract
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - canon/model
   - kernel
@@ -52,6 +52,8 @@ aliases:
   - AMOS Structural Reasoning
   - K_STRUCTURAL_REASONING
 ---
+
+
 
 
 # K STRUCTURAL REASONING

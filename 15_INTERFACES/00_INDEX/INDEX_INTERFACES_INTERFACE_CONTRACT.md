@@ -1,7 +1,9 @@
 ---
 title: INDEX INTERFACES INTERFACE CONTRACT
-tags: ['amos_os', '15_interfaces']
+type: index
+tags: [amos_os, 15_interfaces]
 ---
+
 
 
 # INDEX INTERFACES INTERFACE CONTRACT

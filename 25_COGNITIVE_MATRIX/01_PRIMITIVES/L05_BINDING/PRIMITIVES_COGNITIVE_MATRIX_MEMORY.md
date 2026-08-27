@@ -4,6 +4,7 @@ type: note
 tags: [note, l05-binding]
 ---
 
+
 # L05 — Memory Contract
 
 **Package:** `L05_BINDING`  

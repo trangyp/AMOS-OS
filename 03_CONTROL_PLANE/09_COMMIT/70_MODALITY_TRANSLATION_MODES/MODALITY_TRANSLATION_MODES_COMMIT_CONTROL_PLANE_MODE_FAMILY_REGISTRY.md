@@ -1,7 +1,9 @@
 ---
 title: MODALITY TRANSLATION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '70_modality_translation_modes']
+type: control-plane
+tags: [control_plane, 70_modality_translation_modes]
 ---
+
 
 
 # MODALITY TRANSLATION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

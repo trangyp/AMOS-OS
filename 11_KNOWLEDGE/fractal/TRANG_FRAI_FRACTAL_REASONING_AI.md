@@ -1,9 +1,11 @@
 ---
 title: TRANG FRAI FRACTAL REASONING AI
-tags: [fractal]
+tags: [fractal, math, self-similarity]
 type: document
 source: 11_KNOWLEDGE/fractal
 ---
+
+
 
 
 

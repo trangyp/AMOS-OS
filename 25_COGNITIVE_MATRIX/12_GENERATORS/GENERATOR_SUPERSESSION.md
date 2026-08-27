@@ -4,6 +4,7 @@ type: note
 tags: [note, 12-generators]
 ---
 
+
 Below is a **full substantive replacement** for `25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_SUPERSESSION.md`. I am keeping it explicitly `CANDIDATE_CANON / AMOS_MODEL`: it specifies the intended AMOS architecture but does not falsely claim the mechanisms are already implemented or empirically validated.
 
 ````markdown

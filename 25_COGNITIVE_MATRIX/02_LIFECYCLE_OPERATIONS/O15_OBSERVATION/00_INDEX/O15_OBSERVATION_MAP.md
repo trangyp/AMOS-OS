@@ -1,7 +1,9 @@
 ---
 title: O15 OBSERVATION MAP
-tags: ['cognitive_matrix', 'o15_observation']
+type: map
+tags: [cognitive_matrix, o15_observation]
 ---
+
 
 
 # O15 OBSERVATION MAP

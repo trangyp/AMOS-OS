@@ -1,7 +1,9 @@
 ---
 title: AGENTS README
-tags: ['amos_os', '06_agents']
+type: agent
+tags: [amos_os, 06_agents]
 ---
+
 
 
 # AGENTS README

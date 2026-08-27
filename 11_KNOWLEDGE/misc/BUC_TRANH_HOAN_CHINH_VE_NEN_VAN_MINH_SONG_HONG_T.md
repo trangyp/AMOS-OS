@@ -1,9 +1,11 @@
 ---
 title: BUC TRANH HOAN CHINH VE NEN VAN MINH SONG HONG T
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L25 IDENTITY CONTINUITY CONTRACT
-tags: ['cognitive_matrix', 'l25_identity_continuity']
+type: identity
+tags: [cognitive_matrix, l25_identity_continuity]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L25 IDENTITY CONTINUITY CONTRACT

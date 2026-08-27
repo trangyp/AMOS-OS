@@ -1,7 +1,9 @@
 ---
 title: P3 KNOWLEDGE MEMORY
-tags: ['canon', 'universe_canon', 'note']
+type: memory
+tags: [canon, universe_canon, note]
 ---
+
 
 
 # P3 — Knowledge & Memory Plane

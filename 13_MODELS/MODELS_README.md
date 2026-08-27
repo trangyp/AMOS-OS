@@ -1,7 +1,9 @@
 ---
 title: MODELS README
-tags: ['amos_os', '13_models']
+type: model
+tags: [amos_os, 13_models]
 ---
+
 
 
 # MODELS README

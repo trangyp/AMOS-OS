@@ -1,7 +1,9 @@
 ---
 title: INTERFACES INTERFACE CONTRACT
-tags: ['amos_os', '15_interfaces']
+type: interface
+tags: [amos_os, 15_interfaces]
 ---
+
 
 
 # INTERFACES INTERFACE CONTRACT

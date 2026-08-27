@@ -1,7 +1,9 @@
 ---
 title: ONTOLOGY CONCEPT MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '86_ontology_concept_modes']
+type: control-plane
+tags: [control_plane, 86_ontology_concept_modes]
 ---
+
 
 
 # ONTOLOGY CONCEPT MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

@@ -1,11 +1,13 @@
 ---
 title: "AMOS Engineering Math Kernel vInfinity"
+type: kernel
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Engineering_Math_Kernel_v0.json (257 lines, 7KB)"
 origin_type: "SOURCE"
 category: "kernel"
 tags: [amos, engineering, math, kernel, v-infinity, control-theory, signal-processing, optimization, simulation]
 ---
+
 
 # AMOS Engineering Math Kernel vInfinity
 

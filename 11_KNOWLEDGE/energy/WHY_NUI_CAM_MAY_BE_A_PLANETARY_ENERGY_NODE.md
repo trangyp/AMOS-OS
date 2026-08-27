@@ -1,9 +1,11 @@
 ---
 title: WHY NUI CAM MAY BE A PLANETARY ENERGY NODE
-tags: [energy]
+tags: [energy, power, green]
 type: document
 source: 11_KNOWLEDGE/energy
 ---
+
+
 
 
 

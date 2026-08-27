@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANES COGNITIVE MATRIX C06 MEMORY CONTRACT
-tags: ['cognitive_matrix', 'c06_memory']
+type: control-plane
+tags: [cognitive_matrix, c06_memory]
 ---
+
 
 
 # CONTROL PLANES COGNITIVE MATRIX C06 MEMORY CONTRACT

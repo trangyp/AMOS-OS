@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/misc
 ---
 
-
+# ENHANCED AI SWEET SPOTS RESEARCH PAPER
 
 AI Sweet Spots: Differential Cognitive Effects of Generative AI
 Across Neurotypical, Neurodivergent, Twice-Exceptional, Elderly,

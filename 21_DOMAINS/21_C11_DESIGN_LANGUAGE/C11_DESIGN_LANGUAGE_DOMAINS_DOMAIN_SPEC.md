@@ -1,7 +1,9 @@
 ---
 title: C11 DESIGN LANGUAGE DOMAINS DOMAIN SPEC
-tags: ['amos_os', '21_domains']
+type: design
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C11 DESIGN LANGUAGE DOMAINS DOMAIN SPEC

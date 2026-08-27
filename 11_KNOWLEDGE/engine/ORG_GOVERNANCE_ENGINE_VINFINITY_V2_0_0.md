@@ -1,5 +1,6 @@
 ---
 title: ORG GOVERNANCE ENGINE VINFINITY V2 0 0
+type: engine
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: org-governance-engine-vinfinity-v2-0-0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/org-governance-engine-vinfinity-v2-0-0, engine]
 created: 2026-08-22
 ---
+
 
 
 ```json

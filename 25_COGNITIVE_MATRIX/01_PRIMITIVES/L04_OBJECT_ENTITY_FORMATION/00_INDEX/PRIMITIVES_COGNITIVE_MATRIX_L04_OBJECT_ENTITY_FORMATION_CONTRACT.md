@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L04 OBJECT ENTITY FORMATION CONTRACT
-tags: ['cognitive_matrix', 'l04_object_entity_formation']
+type: cognitive
+tags: [cognitive_matrix, l04_object_entity_formation]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L04 OBJECT ENTITY FORMATION CONTRACT

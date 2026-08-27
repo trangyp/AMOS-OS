@@ -1,5 +1,6 @@
 ---
 title: NEUROTRANSMITTER MAP HUMAN SYSTEM
+type: map
 origin: external — "The Complete Human System" (canonical version)
 provenance: direct ingestion of Chapter 8 (Neurochemical System)
 confidence: 0.95
@@ -11,6 +12,7 @@ source_title: "The Complete Human System — Chapter 8: The Neurochemical System
 source_type: book-manuscript
 source_url: local-ingestion
 ---
+
 
 
 # Neurotransmitter Map — Complete Human System

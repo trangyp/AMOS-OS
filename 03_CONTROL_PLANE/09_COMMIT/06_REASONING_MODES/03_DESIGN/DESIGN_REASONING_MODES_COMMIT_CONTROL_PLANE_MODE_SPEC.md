@@ -1,7 +1,9 @@
 ---
 title: DESIGN REASONING MODES COMMIT CONTROL PLANE MODE SPEC
-tags: ['control_plane', '06_reasoning_modes/03_design']
+type: control-plane
+tags: [control_plane, 06_reasoning_modes/03_design]
 ---
+
 
 
 # DESIGN REASONING MODES COMMIT CONTROL PLANE MODE SPEC

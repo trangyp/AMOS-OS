@@ -1,5 +1,6 @@
 ---
 title: "Cross-Species Functional Mode Model"
+type: model
 artifact: "CROSS_SPECIES_FUNCTIONAL_MODE_MODEL.md"
 artifact_id: "amos_21_domains_06_biology_cross_species_functional_mode_model"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/06_BIOLOGY"
 artifact_kind: "SPEC"
 path: "21_DOMAINS/06_BIOLOGY/CROSS_SPECIES_FUNCTIONAL_MODE_MODEL.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - spec
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Cross-Species Functional Mode Model
 

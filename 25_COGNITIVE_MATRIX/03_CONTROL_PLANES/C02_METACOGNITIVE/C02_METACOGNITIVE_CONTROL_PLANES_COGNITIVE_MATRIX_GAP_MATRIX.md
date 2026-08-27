@@ -4,6 +4,7 @@ type: note
 tags: [note, c02-metacognitive]
 ---
 
+
 # C02 — Gap Matrix
 
 **Package:** `C02_METACOGNITIVE`  

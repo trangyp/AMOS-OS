@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 18-memory-modes]
 ---
 
+
 # 18_MEMORY_MODES — Map of Content
 
 ## Files

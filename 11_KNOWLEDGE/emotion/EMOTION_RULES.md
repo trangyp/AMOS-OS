@@ -1,9 +1,11 @@
 ---
 title: EMOTION RULES
-tags: [emotion]
+tags: [emotion, affect, mind]
 type: data
 source: 11_KNOWLEDGE/emotion
 ---
+
+
 
 
 

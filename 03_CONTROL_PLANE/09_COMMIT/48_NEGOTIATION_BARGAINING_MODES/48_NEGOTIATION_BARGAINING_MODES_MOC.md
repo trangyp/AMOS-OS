@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 48-negotiation-bargaining-modes]
 ---
 
+
 # 48_NEGOTIATION_BARGAINING_MODES — Map of Content
 
 ## Files

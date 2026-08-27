@@ -1,5 +1,6 @@
 ---
 title: IP KERNEL SHIELD ARCHIVE AMOS22
+type: kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: ip-kernel-shield
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/ip-kernel-shield, kernel]
 created: 2026-08-22
 ---
+
 
 
 # IP_Kernel_Shield

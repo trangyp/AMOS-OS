@@ -1,7 +1,9 @@
 ---
 title: OBSERVED READ SET
-tags: ['control_plane', 'observed_read_set.md']
+type: note
+tags: [control_plane, observed_read_set.md]
 ---
+
 
 
 # OBSERVED READ SET

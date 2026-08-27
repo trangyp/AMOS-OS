@@ -1,7 +1,9 @@
 ---
 title: AUTHORIZATION POLICY
-tags: ['control_plane', 'authority', 'note']
+type: policy
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Authorization Policy

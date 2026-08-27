@@ -1,12 +1,14 @@
 ---
 title: DATA WITH COMMENTS
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
 
-      BLOCK DATA PARAM_INI
+# DATA WITH COMMENTS
+
+BLOCK DATA PARAM_INI
       COMMON /MYCOM/ MYTAB
       INTEGER  MYTAB(3)
       DATA MYTAB/

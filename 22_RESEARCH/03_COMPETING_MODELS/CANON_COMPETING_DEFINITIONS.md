@@ -1,5 +1,6 @@
 ---
 title: "Canon Competing Definitions"
+type: canon
 artifact: "CANON_COMPETING_DEFINITIONS.md"
 artifact_id: "amos_22_research_03_competing_models_canon_competing_definitions"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "22_RESEARCH/03_COMPETING_MODELS"
 artifact_kind: "CANON"
 path: "22_RESEARCH/03_COMPETING_MODELS/CANON_COMPETING_DEFINITIONS.md"
 
-tags:
-  - amos_os
+tags: [amos_os, research, arxiv]
   - 22_research
   - canon
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Canon Competing Definitions
 

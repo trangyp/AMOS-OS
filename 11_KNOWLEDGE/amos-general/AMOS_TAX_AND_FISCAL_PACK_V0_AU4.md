@@ -1,5 +1,6 @@
 ---
 title: AMOS TAX AND FISCAL PACK V0 AU4
+type: note
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-tax-and-fiscal-pack-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-tax-and-fiscal-pack-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 # AMOS Tax And Fiscal Pack v0 Au4

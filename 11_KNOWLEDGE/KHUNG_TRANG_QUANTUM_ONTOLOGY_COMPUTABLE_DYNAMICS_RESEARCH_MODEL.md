@@ -1,4 +1,5 @@
 ---
+type: quantum
 id: TRA-RESEARCH-QUANTUM-ONTOLOGY-COMPUTABLE-DYNAMICS
 title: "Khung Trang — Quantum, Ontology & Computable Recursive Survival Dynamics"
 origin_architect: "Trang Phan"
@@ -31,9 +32,10 @@ cross_links:
   - "02_KERNEL/09_INTEGRATION"
   - "22_RESEARCH/02_EXPERIMENTS"
   - "22_RESEARCH/04_VALIDATION"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # Khung Trang — Quantum, Ontology & Computable Recursive Survival Dynamics
 
 > **Epistemic boundary**

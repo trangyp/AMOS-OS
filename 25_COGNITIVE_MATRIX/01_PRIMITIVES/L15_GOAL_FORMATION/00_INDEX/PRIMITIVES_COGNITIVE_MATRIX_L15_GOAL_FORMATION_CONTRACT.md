@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L15 GOAL FORMATION CONTRACT
-tags: ['cognitive_matrix', 'l15_goal_formation']
+type: cognitive
+tags: [cognitive_matrix, l15_goal_formation]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L15 GOAL FORMATION CONTRACT

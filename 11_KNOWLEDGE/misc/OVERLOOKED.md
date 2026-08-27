@@ -1,10 +1,12 @@
 ---
 title: OVERLOOKED
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# OVERLOOKED
 
 ﻿Những điểm extraordinary tôi thấy từ Drive/sample papers mà kiến trúc Trang đã có lõi, nhưng chưa nhấn đủ như một module riêng:
 1. Memory poisoning as entropy attack

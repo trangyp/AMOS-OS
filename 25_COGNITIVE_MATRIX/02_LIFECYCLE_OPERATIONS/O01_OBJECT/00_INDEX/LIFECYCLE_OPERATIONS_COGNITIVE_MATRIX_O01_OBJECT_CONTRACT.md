@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O01 OBJECT CONTRACT
-tags: ['cognitive_matrix', 'o01_object']
+type: lifecycle
+tags: [cognitive_matrix, o01_object]
 ---
+
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O01 OBJECT CONTRACT

@@ -1,7 +1,9 @@
 ---
 title: KNOWLEDGE GRAPH MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
-tags: ['control_plane', '87_knowledge_graph_modes']
+type: control-plane
+tags: [control_plane, 87_knowledge_graph_modes]
 ---
+
 
 
 # KNOWLEDGE GRAPH MODES COMMIT CONTROL PLANE MODE FAMILY SPEC

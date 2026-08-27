@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 30-clinical-research]
 ---
 
+
 # 30_CLINICAL_RESEARCH — Map of Content
 
 ## Files

@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 02-decision-rights]
 ---
 
+
 # 02_DECISION_RIGHTS — Map of Content
 
 ## Files

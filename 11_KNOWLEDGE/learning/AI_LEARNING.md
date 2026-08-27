@@ -1,9 +1,11 @@
 ---
 title: AI LEARNING
-tags: [learning]
+tags: [learning, training, adaptation]
 type: document
 source: 11_KNOWLEDGE/learning
 ---
+
+
 
 
 

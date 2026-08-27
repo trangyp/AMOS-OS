@@ -4,6 +4,7 @@ type: note
 tags: [note, law-stack-enforcement-pipeline]
 ---
 
+
 # Law Stack Enforcement Pipeline
 
 ## Overview

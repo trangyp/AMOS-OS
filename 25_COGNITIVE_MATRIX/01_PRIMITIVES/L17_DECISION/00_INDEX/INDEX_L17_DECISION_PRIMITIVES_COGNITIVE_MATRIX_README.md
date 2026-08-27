@@ -1,7 +1,9 @@
 ---
 title: INDEX L17 DECISION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l17_decision']
+type: index
+tags: [cognitive_matrix, l17_decision]
 ---
+
 
 
 # INDEX L17 DECISION PRIMITIVES COGNITIVE MATRIX README

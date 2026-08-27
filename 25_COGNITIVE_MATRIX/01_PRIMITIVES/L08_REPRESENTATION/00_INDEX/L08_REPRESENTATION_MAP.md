@@ -1,7 +1,9 @@
 ---
 title: L08 REPRESENTATION MAP
-tags: ['cognitive_matrix', 'l08_representation']
+type: map
+tags: [cognitive_matrix, l08_representation]
 ---
+
 
 
 # L08 REPRESENTATION MAP

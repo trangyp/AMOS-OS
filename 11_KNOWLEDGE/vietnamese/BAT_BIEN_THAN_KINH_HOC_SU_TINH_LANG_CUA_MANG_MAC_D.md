@@ -1,9 +1,11 @@
 ---
 title: BAT BIEN THAN KINH HOC SU TINH LANG CUA MANG MAC D
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

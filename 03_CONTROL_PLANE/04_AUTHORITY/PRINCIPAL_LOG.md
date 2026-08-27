@@ -1,7 +1,9 @@
 ---
 title: PRINCIPAL LOG
-tags: ['control_plane', 'authority', 'note']
+type: log
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Principal Log

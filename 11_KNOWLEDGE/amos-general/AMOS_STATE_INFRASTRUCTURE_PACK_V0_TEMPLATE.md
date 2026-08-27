@@ -1,5 +1,6 @@
 ---
 title: AMOS STATE INFRASTRUCTURE PACK V0 TEMPLATE
+type: template
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-state-infrastructure-pack-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-state-infrastructure-pack-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 # AMOS State Infrastructure Pack v0 Template

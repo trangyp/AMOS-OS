@@ -1,5 +1,6 @@
 ---
 title: HSE VIETNAM MASTER
+type: note
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: hse-vietnam-master
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/hse-vietnam-master, misc]
 created: 2026-08-22
 ---
+
 
 
 ```json

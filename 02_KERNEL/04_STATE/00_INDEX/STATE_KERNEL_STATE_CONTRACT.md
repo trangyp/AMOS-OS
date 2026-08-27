@@ -1,7 +1,9 @@
 ---
 title: STATE KERNEL STATE CONTRACT
-tags: ['amos_os', '02_kernel']
+type: kernel
+tags: [amos_os, 02_kernel]
 ---
+
 
 
 # STATE KERNEL STATE CONTRACT

@@ -4,6 +4,7 @@ type: note
 tags: [note, l16-planning]
 ---
 
+
 # L16 — Failure Modes
 
 **Package:** `L16_PLANNING`  

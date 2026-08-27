@@ -1,8 +1,10 @@
 ---
 title: AUDIT QUALITY MODEL
+type: model
 aliases: [Audit Quality Engine, AMOS_Audit_Quality, Quality Kernel]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/audit-quality-model, models]
 ---
+
 
 
 # AMOS Audit Quality Engine

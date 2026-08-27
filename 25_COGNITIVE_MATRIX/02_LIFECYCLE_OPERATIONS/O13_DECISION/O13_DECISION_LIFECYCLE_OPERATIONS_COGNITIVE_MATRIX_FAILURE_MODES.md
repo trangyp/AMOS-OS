@@ -4,6 +4,7 @@ type: note
 tags: [note, o13-decision]
 ---
 
+
 # O13 — Failure Modes
 
 **Package:** `O13_DECISION`  

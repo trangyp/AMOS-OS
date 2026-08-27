@@ -1,5 +1,6 @@
 ---
 title: AMOS ECON FINANCE ENGINE V0 COGNITIVE4
+type: cognitive
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-econ-finance-engine-v0
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-econ-finance-engine-v0, cognitive]
 created: 2026-08-22
 ---
+
 
 
 ```json

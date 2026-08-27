@@ -1,7 +1,9 @@
 ---
 title: L20 ADVERSARIAL
-tags: ['canon', 'core_laws', 'note']
+type: note
+tags: [canon, core_laws, note]
 ---
+
 
 
 # L20 Adversarial Validation Laws

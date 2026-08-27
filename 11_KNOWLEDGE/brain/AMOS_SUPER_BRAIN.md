@@ -1,5 +1,6 @@
 ---
 title: AMOS SUPER BRAIN
+type: brain
 canon-group: tech-ai
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-super-omega-brain
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-super-omega-brain, brain]
 created: 2026-08-22
 ---
+
 
 
 ```json

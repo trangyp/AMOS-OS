@@ -1,5 +1,6 @@
 ---
 title: "AMOS OS Root Change Log"
+type: changelog
 artifact: "00_ROOT_CHANGE_LOG.md"
 artifact_id: "AMOS_ROOT_CHANGE_LOG_000"
 origin_architect: "Trang Phan"
@@ -18,6 +19,7 @@ implementation_status: "UNKNOWN/GAP"
 validation_status: "UNKNOWN/GAP"
 tags: [note, 00-root]
 ---
+
 
 # AMOS OS — 00 Root Change Log
 

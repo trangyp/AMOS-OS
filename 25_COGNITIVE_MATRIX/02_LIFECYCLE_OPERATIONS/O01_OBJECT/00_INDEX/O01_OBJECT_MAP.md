@@ -1,7 +1,9 @@
 ---
 title: O01 OBJECT MAP
-tags: ['cognitive_matrix', 'o01_object']
+type: map
+tags: [cognitive_matrix, o01_object]
 ---
+
 
 
 # O01 OBJECT MAP

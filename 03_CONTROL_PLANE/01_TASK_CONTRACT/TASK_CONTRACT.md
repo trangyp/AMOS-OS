@@ -1,7 +1,9 @@
 ---
 title: TASK CONTRACT
-tags: ['control_plane', 'task_contract', 'contract']
+type: task
+tags: [control_plane, task_contract, contract]
 ---
+
 
 
 Confirmed: the current Drive `TASK_CONTRACT.md` is only a **275-byte erroneous placeholder** containing `# K COUNTERFACTUAL`; it has no actual Task Contract specification.  

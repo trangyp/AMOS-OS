@@ -1,7 +1,9 @@
 ---
 title: INV-AUTHZ-021
-tags: ['control_plane', 'inv-authz-021.md']
+type: invariant
+tags: [control_plane, inv-authz-021.md]
 ---
+
 
 
 # INV-AUTHZ-021

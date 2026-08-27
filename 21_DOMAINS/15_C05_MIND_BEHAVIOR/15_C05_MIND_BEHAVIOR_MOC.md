@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 15-c05-mind-behavior]
 ---
 
+
 # 15_C05_MIND_BEHAVIOR — Map of Content
 
 ## Files

@@ -1,4 +1,5 @@
 ---
+type: roadmap
 artifact_id: AMOS-OS-ROADMAP
 name: AMOS_OS_ROADMAP
 title: "AMOS OS Roadmap — Governed Promotion, Integration, Validation, and Operational Maturity Plan"
@@ -50,8 +51,7 @@ scope:
   - archive
   - cognitive_matrix
 
-tags:
-  - amos
+tags: [amos, amos_os, root]
   - amos-os
   - roadmap
   - architecture-roadmap
@@ -126,6 +126,8 @@ related:
   - "PLACEMENT_RULES|Placement Rules"
   - "AMOS_7_PART_UNIVERSE_CANON|7-Part Universe Canon"
 ---
+
+
 
 # AMOS OS Roadmap
 

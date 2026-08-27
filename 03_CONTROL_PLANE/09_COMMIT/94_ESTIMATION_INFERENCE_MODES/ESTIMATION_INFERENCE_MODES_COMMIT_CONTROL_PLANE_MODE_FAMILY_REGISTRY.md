@@ -1,7 +1,9 @@
 ---
 title: ESTIMATION INFERENCE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '94_estimation_inference_modes']
+type: control-plane
+tags: [control_plane, 94_estimation_inference_modes]
 ---
+
 
 
 # ESTIMATION INFERENCE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

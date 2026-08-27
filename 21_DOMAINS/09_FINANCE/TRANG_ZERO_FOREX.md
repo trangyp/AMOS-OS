@@ -1,5 +1,6 @@
 ---
 title: "Trang Zero Forex"
+type: trang-framework
 artifact: "TRANG_ZERO_FOREX.md"
 artifact_id: "amos_21_domains_09_finance_trang_zero_forex"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "21_DOMAINS/09_FINANCE"
 artifact_kind: "ARTIFACT"
 path: "21_DOMAINS/09_FINANCE/TRANG_ZERO_FOREX.md"
 
-tags:
-  - amos_os
+tags: [amos_os, domain, specialization]
   - 21_domains
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Trang Zero Forex
 

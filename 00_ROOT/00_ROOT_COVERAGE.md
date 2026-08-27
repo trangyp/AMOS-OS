@@ -1,7 +1,9 @@
 ---
 title: 00 ROOT COVERAGE
-tags: ['amos_os', '00_root']
+type: coverage
+tags: [amos_os, 00_root]
 ---
+
 
 
 # 00 ROOT COVERAGE

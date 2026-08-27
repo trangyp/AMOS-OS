@@ -1,7 +1,9 @@
 ---
 title: KERNEL INTEGRATION CONTRACT
-tags: ['amos_os', '02_kernel']
+type: kernel
+tags: [amos_os, 02_kernel]
 ---
+
 
 
 # KERNEL INTEGRATION CONTRACT

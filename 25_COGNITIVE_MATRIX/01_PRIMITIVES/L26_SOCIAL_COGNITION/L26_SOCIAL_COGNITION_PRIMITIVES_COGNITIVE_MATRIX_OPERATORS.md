@@ -4,6 +4,7 @@ type: note
 tags: [note, l26-social-cognition]
 ---
 
+
 # L26 — Operators
 
 **Package:** `L26_SOCIAL_COGNITION`  

@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 08-incident-response]
 ---
 
+
 # 08_INCIDENT_RESPONSE — Map of Content
 
 ## Files

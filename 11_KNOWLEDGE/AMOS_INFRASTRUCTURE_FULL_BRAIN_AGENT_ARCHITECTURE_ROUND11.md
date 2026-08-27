@@ -1,9 +1,10 @@
 ---
 title: AMOS INFRASTRUCTURE FULL BRAIN AGENT ARCHITECTURE ROUND11
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 type: document
 source: 11_KNOWLEDGE/root
 ---
+
 
 
 

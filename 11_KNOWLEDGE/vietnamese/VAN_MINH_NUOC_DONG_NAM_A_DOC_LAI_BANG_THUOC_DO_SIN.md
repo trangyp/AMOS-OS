@@ -1,9 +1,11 @@
 ---
 title: VAN MINH NUOC DONG NAM A DOC LAI BANG THUOC DO SIN
-tags: [vietnamese]
+tags: [vietnamese, vietnam, regional]
 type: document
 source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 
 

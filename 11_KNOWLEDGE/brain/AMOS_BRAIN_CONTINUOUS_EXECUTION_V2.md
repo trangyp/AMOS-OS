@@ -1,9 +1,11 @@
 ---
 title: AMOS BRAIN CONTINUOUS EXECUTION V2
-tags: [brain]
+tags: [brain, cognitive, neural]
 type: document
 source: 11_KNOWLEDGE/brain
 ---
+
+
 
 
 # amos_brain_continuous_execution_v2

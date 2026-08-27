@@ -1,7 +1,9 @@
 ---
 title: O06 MODEL MAP
-tags: ['cognitive_matrix', 'o06_model']
+type: map
+tags: [cognitive_matrix, o06_model]
 ---
+
 
 
 # O06 MODEL MAP

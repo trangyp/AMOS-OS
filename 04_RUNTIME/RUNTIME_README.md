@@ -1,7 +1,9 @@
 ---
 title: RUNTIME README
-tags: ['amos_os', '04_runtime']
+type: runtime
+tags: [amos_os, 04_runtime]
 ---
+
 
 
 # RUNTIME README

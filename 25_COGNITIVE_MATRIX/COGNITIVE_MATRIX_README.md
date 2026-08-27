@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'readme']
+type: cognitive
+tags: [cognitive_matrix, readme]
 ---
+
 
 
 Below is a full **candidate implementation** for `COGNITIVE_MATRIX_README.md`. Because no authoritative file with this exact content was recovered, this is **DERIVED / CANDIDATE_CANON**, not recovered historical canon.

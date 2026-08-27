@@ -1,5 +1,6 @@
 ---
 title: "Heritage Variable Registry"
+type: variable
 artifact: "HERITAGE_VARIABLE_REGISTRY.md"
 artifact_id: "amos_01_canon_05_variable_registry_heritage_variable_registry"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/05_VARIABLE_REGISTRY"
 artifact_kind: "REGISTRY"
 path: "01_CANON/05_VARIABLE_REGISTRY/HERITAGE_VARIABLE_REGISTRY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - registry
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Heritage Variable Registry
 

@@ -1,5 +1,6 @@
 ---
 title: "AMOS 19x19 Cognitive Field"
+type: cognitive
 artifact: "AMOS_19X19_COGNITIVE_FIELD.md"
 artifact_id: "amos_01_canon_03_cognition_canon_amos_19x19_cognitive_field"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/03_COGNITION_CANON"
 artifact_kind: "ARTIFACT"
 path: "01_CANON/03_COGNITION_CANON/AMOS_19X19_COGNITIVE_FIELD.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # AMOS 19x19 Cognitive Field
 

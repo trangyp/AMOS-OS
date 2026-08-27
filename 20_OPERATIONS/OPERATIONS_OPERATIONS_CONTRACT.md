@@ -1,7 +1,9 @@
 ---
 title: OPERATIONS OPERATIONS CONTRACT
-tags: ['amos_os', '20_operations']
+type: operation
+tags: [amos_os, 20_operations]
 ---
+
 
 
 # OPERATIONS OPERATIONS CONTRACT

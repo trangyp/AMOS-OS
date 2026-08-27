@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/logic
 ---
 
-
+# UNIFIED BIOLOGICAL INTELLIGENCE AND THE RESTORATION OF ABORIGINAL SOMATIC INTELLIGENCE
 
 🧬 Unified Biological Intelligence™
 and the Restoration of Aboriginal

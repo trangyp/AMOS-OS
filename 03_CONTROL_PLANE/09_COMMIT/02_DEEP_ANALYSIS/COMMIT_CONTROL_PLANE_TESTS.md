@@ -1,7 +1,9 @@
 ---
 title: COMMIT CONTROL PLANE TESTS
-tags: ['control_plane', '02_deep_analysis']
+type: test
+tags: [control_plane, 02_deep_analysis]
 ---
+
 
 
 # COMMIT CONTROL PLANE TESTS

@@ -1,7 +1,9 @@
 ---
 title: REVOCATION BINDING
-tags: ['control_plane', 'authority', 'note']
+type: revocation
+tags: [control_plane, authority, note]
 ---
+
 
 
 # Revocation Binding

@@ -1,5 +1,6 @@
 ---
 title: "Cognitive Canon Relation Map"
+type: canon
 artifact: "COGNITIVE_CANON_RELATION_MAP.md"
 artifact_id: "amos_01_canon_03_cognition_canon_cognitive_canon_relation_map"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/03_COGNITION_CANON"
 artifact_kind: "MAP"
 path: "01_CANON/03_COGNITION_CANON/COGNITIVE_CANON_RELATION_MAP.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - map
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Cognitive Canon Relation Map
 

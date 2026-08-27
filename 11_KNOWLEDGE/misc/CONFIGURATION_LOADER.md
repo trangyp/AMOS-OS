@@ -1,10 +1,12 @@
 ---
 title: CONFIGURATION LOADER
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# CONFIGURATION LOADER
 
 """
 Configuration Loader — Load TOML configuration files

@@ -1,7 +1,9 @@
 ---
 title: C08 STRATEGY GAME MAP
-tags: ['amos_os', '21_domains']
+type: map
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # C08 STRATEGY GAME MAP

@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX O01 OBJECT CONTRACT
-tags: ['cognitive_matrix', 'lifecycle_operations', 'o01_object', 'contract']
+type: cognitive
+tags: [cognitive_matrix, lifecycle_operations, o01_object, contract]
 ---
+
 
 
 # O01_OBJECT — Creating typed cognitive objects with class + provenance + trust state.

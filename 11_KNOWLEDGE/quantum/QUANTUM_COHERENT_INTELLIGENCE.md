@@ -1,9 +1,11 @@
 ---
 title: QUANTUM COHERENT INTELLIGENCE
-tags: [quantum]
+tags: [quantum, physics, qfm]
 type: document
 source: 11_KNOWLEDGE/quantum
 ---
+
+
 
 
 

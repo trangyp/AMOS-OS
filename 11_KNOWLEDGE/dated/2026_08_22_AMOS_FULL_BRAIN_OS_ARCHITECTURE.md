@@ -1,5 +1,6 @@
 ---
 title: 2026 08 22 AMOS FULL BRAIN OS ARCHITECTURE
+type: architecture
 origin_architect: Trang Phan (user re-read of mounted AMOS_FULL_BRAIN_OS.json, version vInfinity_merged_2)
 provenance: user-supplied exhaustive architecture (77 sections); raw json NOT present in this vault (no AMOS_FULL_BRAIN_OS.json found; partial specs in _Archive/ and cosmo-brain/AMOS_OS_ARCHITECTURE_BRIDGE.md)
 confidence: 0.93
@@ -8,6 +9,7 @@ conclusion_label: VERIFIED_PRESENT
 tags: [canon-group/human-system, canon/os-module, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-amos-full-brain-os-architectu, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 
 # AMOS Full Brain OS — Exhaustive Multi-Plane Architecture (SUPERSEDES linear model)

@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L21 LEARNING CONTRACT
-tags: ['cognitive_matrix', 'l21_learning']
+type: cognitive
+tags: [cognitive_matrix, l21_learning]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L21 LEARNING CONTRACT

@@ -1,5 +1,6 @@
 ---
 title: AMOS TECH IDENTITY KERNEL V1 TECH4
+type: kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-tech-identity-kernel-v1
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-tech-identity-kernel-v1, kernel]
 created: 2026-08-22
 ---
+
 
 
 ```json

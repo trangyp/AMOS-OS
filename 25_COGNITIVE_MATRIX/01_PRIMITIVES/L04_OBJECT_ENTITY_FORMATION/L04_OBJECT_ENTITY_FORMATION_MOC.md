@@ -4,6 +4,7 @@ type: moc
 tags: [moc, l04-object-entity-formation]
 ---
 
+
 # L04_OBJECT_ENTITY_FORMATION — Map of Content
 
 ## Files

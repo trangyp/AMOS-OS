@@ -7,6 +7,7 @@ status: complete
 tags: [dated, dated/2026-08-25]
 ---
 
+
 # QFM Pass 3 — Cross-Artifact Dependency Integrity (2026-08-25)
 
 ## Scope

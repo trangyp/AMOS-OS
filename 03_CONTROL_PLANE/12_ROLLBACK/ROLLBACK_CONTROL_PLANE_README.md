@@ -1,7 +1,9 @@
 ---
 title: ROLLBACK CONTROL PLANE README
-tags: ['control_plane', 'rollback_control_plane_readme.md']
+type: control-plane
+tags: [control_plane, rollback_control_plane_readme.md]
 ---
+
 
 
 # ROLLBACK CONTROL PLANE README

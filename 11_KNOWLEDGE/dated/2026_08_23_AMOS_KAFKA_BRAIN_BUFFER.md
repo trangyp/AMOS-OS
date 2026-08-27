@@ -6,6 +6,7 @@ source: 11_KNOWLEDGE/dated
 ---
 
 
+
 # AMOS_Kafka_Brain_Buffer_v1.0: A Verbena-First Brain Engine
 
 **Canon group:** tech-engineering  (stream+log+buffer brain)

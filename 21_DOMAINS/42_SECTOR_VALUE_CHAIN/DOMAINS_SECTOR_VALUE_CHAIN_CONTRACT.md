@@ -1,7 +1,9 @@
 ---
 title: DOMAINS SECTOR VALUE CHAIN CONTRACT
-tags: ['amos_os', '21_domains']
+type: value
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS SECTOR VALUE CHAIN CONTRACT

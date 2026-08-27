@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX C08 EXECUTION CONTRACT
-tags: ['cognitive_matrix', 'control_planes', 'c08_execution', 'contract']
+type: cognitive
+tags: [cognitive_matrix, control_planes, c08_execution, contract]
 ---
+
 
 
 # C08_EXECUTION — Execution control: worker-only effects, commit-time revalidation, budgets.

@@ -1,5 +1,6 @@
 ---
 title: "Kernel · NeuroSyncAI Recovery"
+type: neural
 artifact: "K_NEUROSYNCAI_RECOVERY.md"
 artifact_id: "amos_02_kernel_06_risk_repair_k_neurosyncai_recovery"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "02_KERNEL/06_RISK_REPAIR"
 artifact_kind: "RECOVERY"
 path: "02_KERNEL/06_RISK_REPAIR/K_NEUROSYNCAI_RECOVERY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, kernel, core]
   - 02_kernel
   - recovery
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Kernel · NeuroSyncAI Recovery
 

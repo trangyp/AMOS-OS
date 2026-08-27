@@ -1,11 +1,13 @@
 ---
 title: "AMOS Unified Coding Kernel vInfinity"
+type: kernel
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Coding_Kernel_v0.json (629 lines, 32KB)"
 origin_type: "SOURCE"
 category: "kernel"
 tags: [amos, coding, kernel, v-infinity, unified, runtime, testing, memory, self-correction, architecture, documentation]
 ---
+
 
 # AMOS Unified Coding Kernel vInfinity
 

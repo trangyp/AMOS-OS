@@ -1,7 +1,9 @@
 ---
 title: COMMIT CONTROL PLANE COMMIT CONTRACT
-tags: ['control_plane', '00_index']
+type: control-plane
+tags: [control_plane, 00_index]
 ---
+
 
 
 # COMMIT CONTROL PLANE COMMIT CONTRACT

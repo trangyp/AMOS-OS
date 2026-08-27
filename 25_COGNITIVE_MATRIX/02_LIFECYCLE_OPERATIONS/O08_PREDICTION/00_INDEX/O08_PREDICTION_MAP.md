@@ -1,7 +1,9 @@
 ---
 title: O08 PREDICTION MAP
-tags: ['cognitive_matrix', 'o08_prediction']
+type: map
+tags: [cognitive_matrix, o08_prediction]
 ---
+
 
 
 # O08 PREDICTION MAP

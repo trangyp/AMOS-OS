@@ -6,6 +6,7 @@ source: 11_KNOWLEDGE/dated
 ---
 
 
+
 # Resource Governance (Gaps 230-238)
 
 **Date**: 2026-08-22

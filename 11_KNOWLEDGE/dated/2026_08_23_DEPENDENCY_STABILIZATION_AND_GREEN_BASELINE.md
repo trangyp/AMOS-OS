@@ -6,6 +6,7 @@ source: 11_KNOWLEDGE/dated
 ---
 
 
+
 # 2026-08-23 — Dependency Stabilization & Green Baseline
 
 ## Context

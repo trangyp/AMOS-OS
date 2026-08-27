@@ -1,9 +1,11 @@
 ---
 title: 2026 08 25 QFM PASS9 ENGINE RUNNER
+type: engine
 tags: [daily/integrity-pass, topic/qfm-pass9-consolidation, dated, dated/2026-08-25]
 created: 2026-08-25
 conclusion_class: AMOS MODEL / DERIVED
 ---
+
 
 
 # 2026-08-25 Pass 9 — Consolidation & Engine Suite Runner

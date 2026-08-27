@@ -1,7 +1,9 @@
 ---
 title: INDEX STATE README
-tags: ['amos_os', '12_state']
+type: index
+tags: [amos_os, 12_state]
 ---
+
 
 
 # INDEX STATE README

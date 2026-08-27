@@ -1,8 +1,10 @@
 ---
 title: POLICY GEOSTRATEGY MODEL
+type: strategy
 aliases: [Policy & Geostrategy Engine, AMOS_Policy_Geostrategy]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/policy-geostrategy-model, strategy]
 ---
+
 
 
 # AMOS Policy & Geostrategy Engine

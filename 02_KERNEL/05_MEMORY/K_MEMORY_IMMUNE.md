@@ -1,5 +1,6 @@
 ---
 title: K MEMORY IMMUNE
+type: memory
 artifact_id: AMOS-OS-K-MEMORY-IMMUNE
 canonical_name: K_MEMORY_IMMUNE
 artifact_type: kernel_memory_immune_contract
@@ -13,8 +14,7 @@ kernel_family: MEMORY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags:
-  - amos-os
+tags: [amos-os, kernel, core]
   - canon-group/tech-ai
   - kernel
   - kernel/memory
@@ -36,6 +36,8 @@ tags:
   - topic/sybil-hardening
   - topic/revalidation
 ---
+
+
 
 
 # K MEMORY IMMUNE

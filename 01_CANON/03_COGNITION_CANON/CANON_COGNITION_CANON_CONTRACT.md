@@ -1,7 +1,9 @@
 ---
 title: CANON COGNITION CANON CONTRACT
-tags: ['amos_os', '01_canon']
+type: canon
+tags: [amos_os, 01_canon]
 ---
+
 
 
 # CANON COGNITION CANON CONTRACT

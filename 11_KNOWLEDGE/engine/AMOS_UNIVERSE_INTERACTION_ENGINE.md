@@ -9,6 +9,7 @@ source: "AMOS Universe Total Canon UTC Master File.md"
 tags: [universe, uie, canon, pointer, engine]
 ---
 
+
 # AMOS Universe Interaction Engine (UIE)
 
 > **Pointer / alias note.** This note exists so that `AMOS Universe Interaction Engine` resolves in the knowledge graph. The authoritative definition of the Universe Interaction Engine (UIE) lives in the canon master file.

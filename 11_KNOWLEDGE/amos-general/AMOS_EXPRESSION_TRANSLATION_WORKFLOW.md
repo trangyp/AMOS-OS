@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/amos-general
 
 
 
+
 # AMOS Expression Translation Workflow
 
 Implements AMOS_EXPRESSION_TRANSLATION_vInfinity from the brain's root (md/Core/AMOS_Os_Agent_v0.md).

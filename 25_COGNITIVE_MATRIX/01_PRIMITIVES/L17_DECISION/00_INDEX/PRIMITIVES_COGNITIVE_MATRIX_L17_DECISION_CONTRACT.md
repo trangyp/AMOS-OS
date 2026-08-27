@@ -1,7 +1,9 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L17 DECISION CONTRACT
-tags: ['cognitive_matrix', 'l17_decision']
+type: cognitive
+tags: [cognitive_matrix, l17_decision]
 ---
+
 
 
 # PRIMITIVES COGNITIVE MATRIX L17 DECISION CONTRACT

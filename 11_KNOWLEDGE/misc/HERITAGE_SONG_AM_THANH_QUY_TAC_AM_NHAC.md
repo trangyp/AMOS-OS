@@ -1,9 +1,11 @@
 ---
 title: HERITAGE SONG AM THANH QUY TAC AM NHAC
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 # HERITAGE ∅ – SÓNG ÂM THANH & QUY TẮC ÂM NHẠC (BẢN MỞ RỘNG TỐI ĐA)

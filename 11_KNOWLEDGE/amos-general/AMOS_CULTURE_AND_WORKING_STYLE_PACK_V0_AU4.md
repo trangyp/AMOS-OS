@@ -1,5 +1,6 @@
 ---
 title: AMOS CULTURE AND WORKING STYLE PACK V0 AU4
+type: note
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: amos-culture-and-working-style-pack-v0
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-culture-and-working-style-pack-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 
 # AMOS Culture And Working Style Pack v0 Au4

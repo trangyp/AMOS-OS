@@ -1,5 +1,6 @@
 ---
 title: "Bio-Logical Governance Policy"
+type: logic
 artifact: "BIO_LOGICAL_GOVERNANCE_POLICY.md"
 artifact_id: "amos_03_control_plane_03_policy_bio_logical_governance_policy"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "03_CONTROL_PLANE/03_POLICY"
 artifact_kind: "LOG"
 path: "03_CONTROL_PLANE/03_POLICY/BIO_LOGICAL_GOVERNANCE_POLICY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, control_plane, governance]
   - 03_control_plane
   - log
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Bio-Logical Governance Policy
 

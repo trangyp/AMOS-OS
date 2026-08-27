@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 05-cognitive-organism]
 ---
 
+
 # 05_COGNITIVE_ORGANISM — Map of Content
 
 ## Files

@@ -1,7 +1,9 @@
 ---
 title: INDEX L23 METACOGNITION PRIMITIVES COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'l23_metacognition']
+type: index
+tags: [cognitive_matrix, l23_metacognition]
 ---
+
 
 
 # INDEX L23 METACOGNITION PRIMITIVES COGNITIVE MATRIX README

@@ -1,7 +1,9 @@
 ---
 title: L13 PREDICTION MAP
-tags: ['cognitive_matrix', 'l13_prediction']
+type: map
+tags: [cognitive_matrix, l13_prediction]
 ---
+
 
 
 # L13 PREDICTION MAP

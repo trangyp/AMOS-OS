@@ -1,9 +1,11 @@
 ---
 title: MASTER SIGNAL SPEC GENESIS V1 0 PROOF OF SIGNAL
-tags: [signal]
+tags: [signal, processing, detection]
 type: document
 source: 11_KNOWLEDGE/signal
 ---
+
+
 
 
 

@@ -1,5 +1,6 @@
 ---
 title: SUPERSESSION LOG
+type: supersession
 artifact_id: AMOS-OS-SUPERSESSION-LOG
 canonical_name: SUPERSESSION_LOG
 artifact_type: canonical_supersession_ledger
@@ -17,8 +18,7 @@ authority_scope: canonical-supersession-lineage-and-history
 created: 2026-08-25
 updated: 2026-08-25
 
-tags:
-  - amos-os
+tags: [amos-os, canon, universe]
   - canon-group/meta
   - canon/framework
   - canon/registry
@@ -41,6 +41,8 @@ aliases:
   - AMOS OS Supersession Log
   - Canon Supersession Log
 ---
+
+
 
 
 # AMOS OS Supersession Log

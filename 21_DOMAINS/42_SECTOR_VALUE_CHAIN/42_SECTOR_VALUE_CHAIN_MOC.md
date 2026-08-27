@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 42-sector-value-chain]
 ---
 
+
 # 42_SECTOR_VALUE_CHAIN — Map of Content
 
 ## Files

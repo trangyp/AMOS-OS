@@ -1,7 +1,9 @@
 ---
 title: RECOVERY DEGRADED MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
-tags: ['control_plane', '13_recovery_degraded_modes']
+type: control-plane
+tags: [control_plane, 13_recovery_degraded_modes]
 ---
+
 
 
 # RECOVERY DEGRADED MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY

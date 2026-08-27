@@ -1,7 +1,9 @@
 ---
 title: INDEX TOOLS TOOL CONTRACT
-tags: ['amos_os', '14_tools']
+type: index
+tags: [amos_os, 14_tools]
 ---
+
 
 
 # INDEX TOOLS TOOL CONTRACT

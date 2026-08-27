@@ -3,12 +3,13 @@ title: "UBI Official Manual — 4 Biological Intelligence Domains"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/training/UBI_Official_Manual.pdf"
 origin_architect: "Trang Phan"
-type: "training-manual"
+type: training-manual
 tags: [canon-group/biology, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/mu-mutation, rscf/E-entropy, rscf/X-crossscale, topic/absolute-omniverse-model, biology-ubi]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 ---
+
 
 # Unified Biological Intelligence™ (UBI) — Official Manual
 

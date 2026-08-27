@@ -7,6 +7,7 @@ source: 11_KNOWLEDGE/kernel
 
 
 
+
 ```json
 {
   "name": "AMOS_KERNEL_SUPER_vInfinity",

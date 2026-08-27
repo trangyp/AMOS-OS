@@ -4,6 +4,7 @@ type: note
 tags: [note, l25-identity-continuity]
 ---
 
+
 # L25 — H/M/L Applicability
 
 **Package:** `L25_IDENTITY_CONTINUITY`  

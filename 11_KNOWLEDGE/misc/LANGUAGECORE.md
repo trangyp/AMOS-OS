@@ -1,10 +1,12 @@
 ---
 title: LANGUAGECORE
-tags: [misc]
+tags: [misc, reference, general]
 type: note
 source: 11_KNOWLEDGE/misc
 ---
 
+
+# LANGUAGECORE
 
 // Language Core Packs
 import { PackItem, PackCategory } from "../masterPacks";

@@ -1,12 +1,13 @@
 ---
 title: "AMOS Adversarial Environment & Model Robustness"
 created: "2026-08-22"
-type: "note"
+type: note
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-adversarial-robustness, dated, dated/2026-08-22]
 status: "living"
 provenance: "MODEL"
 confidence: "VERIFIED"
 ---
+
 
 # AMOS Adversarial Environment & Model Robustness (Gaps 210-216)
 

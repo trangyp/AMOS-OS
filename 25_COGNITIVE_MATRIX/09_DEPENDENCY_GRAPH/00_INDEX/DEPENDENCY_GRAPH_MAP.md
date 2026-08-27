@@ -1,7 +1,9 @@
 ---
 title: DEPENDENCY GRAPH MAP
-tags: ['cognitive_matrix', '00_index']
+type: dependency
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # DEPENDENCY GRAPH MAP

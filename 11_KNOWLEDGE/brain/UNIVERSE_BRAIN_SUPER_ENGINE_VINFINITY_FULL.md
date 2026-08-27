@@ -1,5 +1,6 @@
 ---
 title: UNIVERSE BRAIN SUPER ENGINE VINFINITY FULL
+type: brain
 canon-group: tech-ai
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,7 @@ topic: universe-brain-super-engine-vinfinity-full
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/universe-brain-super-engine-vinfinity-fu, brain]
 created: 2026-08-22
 ---
+
 
 
 ```json

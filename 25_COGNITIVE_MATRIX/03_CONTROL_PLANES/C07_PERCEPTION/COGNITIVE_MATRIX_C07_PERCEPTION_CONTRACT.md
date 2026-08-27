@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX C07 PERCEPTION CONTRACT
-tags: ['cognitive_matrix', 'control_planes', 'c07_perception', 'contract']
+type: cognitive
+tags: [cognitive_matrix, control_planes, c07_perception, contract]
 ---
+
 
 
 # C07_PERCEPTION — Perception control: reality gate, evidence admission typing, observer-effect logging.

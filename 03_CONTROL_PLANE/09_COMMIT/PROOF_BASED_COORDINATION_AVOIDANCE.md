@@ -1,5 +1,6 @@
 ---
 title: "Proof-Based Coordination Avoidance"
+type: proof
 artifact: "PROOF_BASED_COORDINATION_AVOIDANCE.md"
 artifact_id: "amos_03_control_plane_09_commit_proof_based_coordination_avoidance"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "03_CONTROL_PLANE/09_COMMIT"
 artifact_kind: "ARTIFACT"
 path: "03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE.md"
 
-tags:
-  - amos_os
+tags: [amos_os, control_plane, governance]
   - 03_control_plane
   - artifact
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # Proof-Based Coordination Avoidance
 

@@ -1,9 +1,11 @@
 ---
 title: CANONICAL STRUCTURE UPDATED
-tags: [canon]
+tags: [canon, universe, law]
 type: document
 source: 11_KNOWLEDGE/canon
 ---
+
+
 
 
 

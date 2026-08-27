@@ -3,7 +3,7 @@ title: "AMOS Drive Ingest Summary"
 created: "2026-08-22"
 origin: "Hermes ↔ Google Drive ↔ Cosmo Brain"
 origin_architect: "Trang Phan"
-type: "ingest-log"
+type: ingest-log
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-drive-ingest-summary, amos-general]
 status: "active"
 provenance: "OBSERVATION"
@@ -11,6 +11,7 @@ confidence: "VERIFIED"
 source_drive: "phanqtrang@gmail.com"
 source_folder: "My Drive"
 ---
+
 
 # AMOS Drive Ingest Summary
 

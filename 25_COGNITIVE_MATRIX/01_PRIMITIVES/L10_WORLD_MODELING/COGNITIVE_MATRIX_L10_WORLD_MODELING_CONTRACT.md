@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX L10 WORLD MODELING CONTRACT
-tags: ['cognitive_matrix', 'primitives', 'l10_world_modeling', 'contract']
+type: cognitive
+tags: [cognitive_matrix, primitives, l10_world_modeling, contract]
 ---
+
 
 
 # L10_WORLD_MODELING — World modeling Contract

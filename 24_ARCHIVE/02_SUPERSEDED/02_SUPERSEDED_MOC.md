@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 02-superseded]
 ---
 
+
 # 02_SUPERSEDED — Map of Content
 
 ## Files

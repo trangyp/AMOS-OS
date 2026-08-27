@@ -4,6 +4,7 @@ type: note
 tags: [note, l17-decision]
 ---
 
+
 # L17 — Equations
 
 **Package:** `L17_DECISION`  

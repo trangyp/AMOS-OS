@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE REPLAY CONTRACT
-tags: ['control_plane', 'control_plane_replay_contract.md']
+type: control-plane
+tags: [control_plane, control_plane_replay_contract.md]
 ---
+
 
 
 # CONTROL PLANE REPLAY CONTRACT

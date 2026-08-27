@@ -1,5 +1,6 @@
 ---
 title: "QLS/QCLA Glossary"
+type: glossary
 artifact: "QLS_QCLA_GLOSSARY.md"
 artifact_id: "amos_01_canon_06_glossary_qls_qcla_glossary"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/06_GLOSSARY"
 artifact_kind: "GLOSSARY"
 path: "01_CANON/06_GLOSSARY/QLS_QCLA_GLOSSARY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - glossary
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # QLS/QCLA Glossary
 

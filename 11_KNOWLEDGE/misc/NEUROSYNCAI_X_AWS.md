@@ -5,7 +5,7 @@ type: note
 source: 11_KNOWLEDGE/misc
 ---
 
-
+# NEUROSYNCAI X AWS
 
 NeuroSyncAI™ x AWS
 Deterministic Infrastructure Deployment and Full-System

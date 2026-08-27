@@ -1,7 +1,9 @@
 ---
 title: L01 SENSING OBSERVATION MAP
-tags: ['cognitive_matrix', 'l01_sensing_observation']
+type: map
+tags: [cognitive_matrix, l01_sensing_observation]
 ---
+
 
 
 # L01 SENSING OBSERVATION MAP

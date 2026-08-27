@@ -1,7 +1,9 @@
 ---
 title: CONTROL PLANE BENCHMARKS
-tags: ['control_plane', '03_coding']
+type: control-plane
+tags: [control_plane, 03_coding]
 ---
+
 
 
 # CONTROL PLANE BENCHMARKS

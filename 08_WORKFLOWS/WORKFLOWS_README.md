@@ -1,7 +1,9 @@
 ---
 title: WORKFLOWS README
-tags: ['amos_os', '08_workflows']
+type: workflow
+tags: [amos_os, 08_workflows]
 ---
+
 
 
 # WORKFLOWS README

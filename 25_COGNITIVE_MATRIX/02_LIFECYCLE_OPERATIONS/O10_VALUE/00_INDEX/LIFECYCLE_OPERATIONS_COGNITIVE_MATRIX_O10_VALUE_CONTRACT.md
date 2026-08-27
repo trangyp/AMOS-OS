@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O10 VALUE CONTRACT
-tags: ['cognitive_matrix', 'o10_value']
+type: lifecycle
+tags: [cognitive_matrix, o10_value]
 ---
+
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O10 VALUE CONTRACT

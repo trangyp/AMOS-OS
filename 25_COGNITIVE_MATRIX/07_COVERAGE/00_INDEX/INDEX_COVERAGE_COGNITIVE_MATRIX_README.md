@@ -1,7 +1,9 @@
 ---
 title: INDEX COVERAGE COGNITIVE MATRIX README
-tags: ['cognitive_matrix', '00_index']
+type: index
+tags: [cognitive_matrix, 00_index]
 ---
+
 
 
 # INDEX COVERAGE COGNITIVE MATRIX README

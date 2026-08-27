@@ -6,6 +6,7 @@ epistemic: DERIVED
 tags: [architecture, refinement, qfm, routing, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — QFM Refinement Pass (using what was created)
 
 ## Method shift

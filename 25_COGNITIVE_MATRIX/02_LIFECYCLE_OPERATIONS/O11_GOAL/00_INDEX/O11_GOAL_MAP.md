@@ -1,7 +1,9 @@
 ---
 title: O11 GOAL MAP
-tags: ['cognitive_matrix', 'o11_goal']
+type: map
+tags: [cognitive_matrix, o11_goal]
 ---
+
 
 
 # O11 GOAL MAP

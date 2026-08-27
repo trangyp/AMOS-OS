@@ -10,6 +10,7 @@ distilled_byte_count: ~12000
 ---
 
 
+
 # The Complete Human System — Distilled Executive Summary
 
 > **One model. All equations grounded in biology/neuroscience. No fluff.**

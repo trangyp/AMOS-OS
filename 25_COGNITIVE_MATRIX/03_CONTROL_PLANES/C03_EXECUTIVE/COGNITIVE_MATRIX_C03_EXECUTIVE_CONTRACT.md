@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX C03 EXECUTIVE CONTRACT
-tags: ['cognitive_matrix', 'control_planes', 'c03_executive', 'contract']
+type: cognitive
+tags: [cognitive_matrix, control_planes, c03_executive, contract]
 ---
+
 
 
 # C03_EXECUTIVE — Executive arbitration among competing goals and plans; explicit defer semantics.

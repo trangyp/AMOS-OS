@@ -1,5 +1,6 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — H/M/L Architecture"
+type: cognitive
 aliases:
 
 * "AMOS Reality Environment HML"
@@ -34,9 +35,10 @@ aliases:
 * rscf/T-topology
 * rscf/X-cross-scale
 * rscf/type-model
-tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
+tags: [cognitive_matrix, primitives, l00_reality_environment, note]
 
 ---
+
 # L00_REALITY_ENVIRONMENT — H/M/L Architecture
 
 **Class:** `AMOS_REALITY_ENVIRONMENT_CROSS_SCALE_ARCHITECTURE`

@@ -1,7 +1,9 @@
 ---
 title: SERVICE LEVELS OPERATING MODEL SERVICE LEVELS CONTRACT
-tags: ['amos_os', '23_operating_model']
+type: model
+tags: [amos_os, 23_operating_model]
 ---
+
 
 
 # SERVICE LEVELS OPERATING MODEL SERVICE LEVELS CONTRACT

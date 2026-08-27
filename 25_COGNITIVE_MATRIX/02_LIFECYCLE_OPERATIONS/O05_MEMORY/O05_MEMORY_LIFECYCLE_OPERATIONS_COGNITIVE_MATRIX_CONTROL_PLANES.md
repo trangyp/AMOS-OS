@@ -4,6 +4,7 @@ type: note
 tags: [note, o05-memory]
 ---
 
+
 # O05 — Control-Plane Requirements
 
 **Package:** `O05_MEMORY`  

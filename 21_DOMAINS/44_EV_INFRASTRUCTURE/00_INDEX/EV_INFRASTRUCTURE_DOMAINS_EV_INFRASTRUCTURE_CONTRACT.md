@@ -1,7 +1,9 @@
 ---
 title: EV INFRASTRUCTURE DOMAINS EV INFRASTRUCTURE CONTRACT
-tags: ['amos_os', '21_domains']
+type: infrastructure
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # EV INFRASTRUCTURE DOMAINS EV INFRASTRUCTURE CONTRACT

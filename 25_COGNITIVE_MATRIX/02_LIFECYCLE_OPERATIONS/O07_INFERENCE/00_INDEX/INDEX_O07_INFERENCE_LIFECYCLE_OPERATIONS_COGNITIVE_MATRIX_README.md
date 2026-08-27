@@ -1,7 +1,9 @@
 ---
 title: INDEX O07 INFERENCE LIFECYCLE OPERATIONS COGNITIVE MATRIX README
-tags: ['cognitive_matrix', 'o07_inference']
+type: index
+tags: [cognitive_matrix, o07_inference]
 ---
+
 
 
 # INDEX O07 INFERENCE LIFECYCLE OPERATIONS COGNITIVE MATRIX README

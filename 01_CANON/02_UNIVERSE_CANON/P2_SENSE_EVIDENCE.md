@@ -1,7 +1,9 @@
 ---
 title: P2 SENSE EVIDENCE
-tags: ['canon', 'universe_canon', 'note']
+type: evidence
+tags: [canon, universe_canon, note]
 ---
+
 
 
 # P2 — Sense & Evidence Plane

@@ -1,4 +1,5 @@
 ---
+type: physics
 id: AMOS-C03-PHYSICS-COSMOS-MASTER-KNOWLEDGE
 title: "AMOS C03 — Physics & Cosmos Master Knowledge"
 origin_architect: "Trang Phan"
@@ -11,9 +12,10 @@ language: "en"
 architecture: "HML_fractal_single_file"
 placeholder_status: "NONE"
 version: "1.0"
-tags: ['knowledge', 'note']
+tags: [knowledge, note]
 
 ---
+
 # AMOS C03 — Physics & Cosmos Master Knowledge
 
 > **Epistemic boundary**

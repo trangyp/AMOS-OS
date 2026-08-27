@@ -1,7 +1,9 @@
 ---
 title: BUSINESS ANALYSIS DOMAINS BUSINESS ANALYSIS CONTRACT
-tags: ['amos_os', '21_domains']
+type: analysis
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # BUSINESS ANALYSIS DOMAINS BUSINESS ANALYSIS CONTRACT

@@ -1,7 +1,9 @@
 ---
 title: 00 ROOT HISTORY
-tags: ['amos_os', '00_root']
+type: history
+tags: [amos_os, 00_root]
 ---
+
 
 
 # 00 ROOT HISTORY

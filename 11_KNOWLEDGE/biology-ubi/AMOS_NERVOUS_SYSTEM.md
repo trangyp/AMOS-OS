@@ -1,9 +1,11 @@
 ---
 title: AMOS NERVOUS SYSTEM
-tags: [biology-ubi]
+tags: [biology-ubi, biology, ubi]
 type: document
 source: 11_KNOWLEDGE/biology-ubi
 ---
+
+
 
 
 # AMOS Nervous System Framework - The Missing Link Layer

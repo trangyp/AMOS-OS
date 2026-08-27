@@ -1,9 +1,11 @@
 ---
 title: ANCIENT MATH ARCHITECTURE
-tags: [math]
+tags: [math, equation, formal]
 type: data
 source: 11_KNOWLEDGE/math
 ---
+
+
 
 
 

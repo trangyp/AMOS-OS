@@ -4,6 +4,7 @@ type: note
 tags: [note, 12-generators]
 ---
 
+
 Below is a fuller AMOS-aligned replacement for `12_GENERATORS/INTEGRATION.md`. I’m treating **integration** as the contract that binds Generators into Routing, Validation, Skills, Agents, Engines, Kernels, Workers, Event Bus, state/versioning, provenance, promotion, recovery, and finality—without collapsing any of those layers into one another. This follows the AMOS Full Brain OS rule that architecture should preserve provenance, expose missing dependencies, and distinguish structural orchestration from verified implementation.  The primary canon source for the Skill is `AMOS_FULL_BRAIN_OS.json`; the exact runtime integration described here remains `MODEL / UNKNOWN-GAP` until supported by implementation evidence.
 
 ````md

@@ -1,7 +1,9 @@
 ---
 title: DOMAINS C12 EARTH ECOLOGY CONTRACT
-tags: ['amos_os', '21_domains']
+type: log
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS C12 EARTH ECOLOGY CONTRACT

@@ -1,7 +1,9 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O12 PLAN CONTRACT
-tags: ['cognitive_matrix', 'o12_plan']
+type: lifecycle
+tags: [cognitive_matrix, o12_plan]
 ---
+
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O12 PLAN CONTRACT

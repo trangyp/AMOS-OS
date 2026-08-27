@@ -1,9 +1,11 @@
 ---
 title: DEPLOYMENT TIMELINE PROOF OF SIGNAL NETWORK
-tags: [signal]
+tags: [signal, processing, detection]
 type: document
 source: 11_KNOWLEDGE/signal
 ---
+
+
 
 
 

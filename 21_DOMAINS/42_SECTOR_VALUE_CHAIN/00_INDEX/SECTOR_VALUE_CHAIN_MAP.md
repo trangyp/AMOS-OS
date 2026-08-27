@@ -1,7 +1,9 @@
 ---
 title: SECTOR VALUE CHAIN MAP
-tags: ['amos_os', '21_domains']
+type: map
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # SECTOR VALUE CHAIN MAP

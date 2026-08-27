@@ -1,9 +1,11 @@
 ---
 title: AMOS NEURAL ENHANCEMENT
-tags: [biology-ubi]
+tags: [biology-ubi, biology, ubi]
 type: document
 source: 11_KNOWLEDGE/biology-ubi
 ---
+
+
 
 
 # AMOS NEURAL ENHANCEMENT COMPLETE

@@ -1,9 +1,11 @@
 ---
 title: COGNITION KERNEL
-tags: [kernel]
+tags: [kernel, core, runtime]
 type: document
 source: 11_KNOWLEDGE/kernel
 ---
+
+
 
 
 # Cognition Kernel Adapter

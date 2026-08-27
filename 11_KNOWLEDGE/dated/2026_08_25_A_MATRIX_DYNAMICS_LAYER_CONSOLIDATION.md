@@ -6,6 +6,7 @@ epistemic: SOURCE/DERIVED
 tags: [math, 19x19, a-matrix, system-dynamics, qfm, dated, dated/2026-08-25]
 ---
 
+
 # 2026-08-25 — A-Matrix System-Dynamics Layer
 
 ## Finding

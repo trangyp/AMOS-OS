@@ -1,7 +1,9 @@
 ---
 title: COGNITIVE MATRIX C06 MEMORY CONTRACT
-tags: ['cognitive_matrix', 'control_planes', 'c06_memory', 'contract']
+type: memory
+tags: [cognitive_matrix, control_planes, c06_memory, contract]
 ---
+
 
 
 # C06_MEMORY — Memory control: lifecycle gating, trust states, consolidation thresholds.

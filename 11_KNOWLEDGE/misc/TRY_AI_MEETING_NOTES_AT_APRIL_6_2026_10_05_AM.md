@@ -1,9 +1,11 @@
 ---
 title: TRY AI MEETING NOTES AT APRIL 6 2026 10 05 AM
-tags: [misc]
+tags: [misc, reference, general]
 type: document
 source: 11_KNOWLEDGE/misc
 ---
+
+
 
 
 

@@ -1,5 +1,6 @@
 ---
 title: "AMOS All Frameworks Canon Hierarchy"
+type: canon
 artifact: "AMOS_ALL_FRAMEWORKS_CANON_HIERARCHY.md"
 artifact_id: "amos_01_canon_00_index_amos_all_frameworks_canon_hierarchy"
 origin_architect: "Trang Phan"
@@ -10,8 +11,7 @@ segment: "01_CANON/00_INDEX"
 artifact_kind: "FRAMEWORK"
 path: "01_CANON/00_INDEX/AMOS_ALL_FRAMEWORKS_CANON_HIERARCHY.md"
 
-tags:
-  - amos_os
+tags: [amos_os, canon, universe]
   - 01_canon
   - framework
   - canon_placeholder
@@ -28,6 +28,8 @@ validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 ---
+
+
 
 # AMOS All Frameworks Canon Hierarchy
 

@@ -4,6 +4,7 @@ type: moc
 tags: [moc, 07-observability]
 ---
 
+
 # 07_OBSERVABILITY — Map of Content
 
 ## Files

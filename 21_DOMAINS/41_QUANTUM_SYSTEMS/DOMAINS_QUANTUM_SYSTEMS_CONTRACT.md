@@ -1,7 +1,9 @@
 ---
 title: DOMAINS QUANTUM SYSTEMS CONTRACT
-tags: ['amos_os', '21_domains']
+type: quantum
+tags: [amos_os, 21_domains]
 ---
+
 
 
 # DOMAINS QUANTUM SYSTEMS CONTRACT

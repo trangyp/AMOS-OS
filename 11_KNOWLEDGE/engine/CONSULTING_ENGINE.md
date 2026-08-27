@@ -1,10 +1,12 @@
 ---
 title: CONSULTING ENGINE
-tags: [engine]
+tags: [engine, processing, runtime]
 type: note
 source: 11_KNOWLEDGE/engine
 ---
 
+
+# CONSULTING ENGINE
 
 """Consulting domain engine.
 
