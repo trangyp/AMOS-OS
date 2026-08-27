@@ -1,13 +1,32 @@
 ---
-title: P5 GOVERNANCE AUTHORITY
-type: note
-source: 01_CANON/02_UNIVERSE_CANON
-tags: [note, 02-universe-canon, canon/universe]
+artifact_kind: UNIVERSE_PLANE
+epistemic_class: AMOS_MODEL
+origin_architect: Trang Phan
+plane: 01_CANON
 rscf:
-  state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: universe_canon
+  state: SOURCE_CLAIM
+source: 01_CANON/02_UNIVERSE_CANON
+steward: Trang Phan
+system: AMOS OS
+tags:
+- amos_os
+- canon
+- universe_canon
+- governance
+- authority
+- policy
+- authorization
+- commit
+- capability
+- p5_plane
+- rscf
+- canon/universe
+title: P5 GOVERNANCE AUTHORITY
+type: note
+version: 0.2.0
 ---
 
 

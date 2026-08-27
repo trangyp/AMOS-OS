@@ -26,5 +26,11 @@
     "00_ROOT/AMOS_RSCF_NODES.md",
     "00_ROOT/00_HOME.md",
     "11_KNOWLEDGE/AMOS_RUNTIME_STATE.md"
-  ]
+  ],
+  "newFileLocation": "root",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "trashOption": "none",
+  "uriCallbacks": true,
+  "newLinkFormat": "absolute"
 }

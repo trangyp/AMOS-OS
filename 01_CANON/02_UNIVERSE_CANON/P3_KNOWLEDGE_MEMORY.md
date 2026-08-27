@@ -1,13 +1,33 @@
 ---
-title: P3 KNOWLEDGE MEMORY
-type: memory
-source: 01_CANON/02_UNIVERSE_CANON
-tags: [canon, universe_canon, note, canon/universe]
+artifact_kind: UNIVERSE_PLANE
+epistemic_class: AMOS_MODEL
+origin_architect: Trang Phan
+plane: 01_CANON
 rscf:
-  state: SOURCE_CLAIM
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: universe_canon
+  state: SOURCE_CLAIM
+source: 01_CANON/02_UNIVERSE_CANON
+steward: Trang Phan
+system: AMOS OS
+tags:
+- amos_os
+- canon
+- universe_canon
+- knowledge
+- memory
+- persistence
+- consolidation
+- staleness
+- retrieval
+- provenance
+- p3_plane
+- rscf
+- canon/universe
+title: P3 KNOWLEDGE MEMORY
+type: memory
+version: 0.2.0
 ---
 
 

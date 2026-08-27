@@ -4,9 +4,11 @@ type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
 artifact: "PROVENANCE_X_CONFIDENCE.md"
 artifact_id: "amos_25_cognitive_matrix_provenance_x_confidence"
+
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
 system: "AMOS OS"
+
 plane: "25_COGNITIVE_MATRIX"
 segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "MATRIX"
@@ -21,6 +23,25 @@ tags:
   - epistemic_audit
   - confidence_ceiling_law
   - source_independence
+  - provenance_topology
+  - provenance_ancestry
+  - empirical_grounding
+  - empirical_primacy
+  - inheritance_penalty
+  - weakest_load_bearing_premise
+  - correlated_sources
+  - echo_chamber_resistance
+  - sybil_hardening
+  - confidence_governance
+  - claim_lineage
+  - evidence_topology
+  - epistemic_regime
+  - source_claim
+  - observation
+  - derived
+  - model
+  - decision
+  - unknown
   - rscf
   - canon_candidate
   - canon/matrix
@@ -31,83 +52,76 @@ updated: "2026-08-27"
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
+formal_verification_status: "NOT_ESTABLISHED"
+runtime_enforcement_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
+
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
+
   provenance:
     - 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE
     - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
     - AMOS_CORPUS
+
   scope:
     - COGNITIVE_MATRIX
     - PROVENANCE_CONFIDENCE_GOVERNOR
     - SOURCE_DEFINED_MODEL
 
 framework_binding:
+
   provenance_master:
     artifact: "11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE"
+
   claims_moc:
     artifact: "11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC"
 
+  integrity_law:
+    artifact: "01_CANON/01_CORE_LAWS/L0_INTEGRITY"
+
 epistemic_boundary:
+
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE
+  confidence_ceiling_law: VERIFIED_SOURCE_STRUCTURE
   cross_plane_routing: SOURCE_DEFINED_MODEL
+  empirical_threshold_calibration: NOT_ESTABLISHED
   runtime_enforcement: NOT_ESTABLISHED
+  executable_binding: NOT_ESTABLISHED
 ---
 
-# Provenance x Confidence Cognitive Matrix Specification
+# Provenance × Confidence — Full Canon Expansion
 
-`PROVENANCE_X_CONFIDENCE.md` is the canonical Cognitive Matrix specification enforcing the **Confidence Ceiling Law** based on source ancestry and independence across all knowledge nodes in AMOS OS.
+The supplied artifact establishes **Provenance × Confidence** as an AMOS Cognitive Matrix specification governing how provenance ancestry, source independence, empirical grounding, and inherited premises constrain epistemic confidence. Its decisive invariant is that **source multiplicity is not evidence independence**, and derived confidence cannot outrun the weakest load-bearing premise.
 
----
+The artifact is explicitly `AMOS_MODEL`, `SOURCE_CLAIM`, and `CONCEPTUAL_SOURCE_DEFINED`; runtime enforcement and executable binding remain unestablished.
 
-# 1. Epistemic Confidence Ceiling Invariant
+# Provenance × Confidence Cognitive Matrix
 
-$$\text{Confidence Ceiling} = f(\text{Independent Provenance Roots}, \text{Empirical Grounding})$$
+`PROVENANCE_X_CONFIDENCE.md` defines the source-grounded AMOS Cognitive Matrix governing:
 
-1. **Source Independence Rule:** $\text{Source Count} \neq \text{Independent Provenance}$. Echo-chamber repetitions do NOT increment confidence.
-2. **Empirical Primacy:** Theoretical models are strictly capped at `AMOS_MODEL` ($C \le 0.70$) without direct sensor or empirical observation.
-3. **Inheritance Penalty:** Any proof step inheriting ungrounded premises collapses its confidence ceiling to $\min(C_k)$.
-
----
-
-# 2. Inter-Plane & Vault Connections
-
-- **Provenance Framework:** 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE
-- **Claims MOC:** 11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC
-- **Canon Integrity:** 01_CANON/01_CORE_LAWS/L0_INTEGRITY
+```text
+PROVENANCE
+      ×
+CONFIDENCE
 
 ---
 
-# 3. RSCF Contract
-
-```yaml
-RSCF:
-  node_id: amos_25_cognitive_matrix_provenance_x_confidence
-  node_type: matrix_spec
-  claim_class: AMOS_MODEL
-  state: SOURCE_CLAIM
-  H:
-    identity: "Provenance x Confidence Cognitive Matrix"
-    role: "Specification enforcing epistemic confidence ceilings based on source independence"
-  M:
-    primitives: [source_independence_rule, empirical_primacy, inheritance_penalty]
-  confidence_ceiling:
-    source_model: SOURCE_BOUND
-    runtime: UNKNOWN
-```
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[HERITAGE_PROVENANCE]] · [[L0_INTEGRITY]]
 
 ---
 
-**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE · 11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC
-
----
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+
+---
+
+*RSCF Status: SOURCE_CLAIM · Epistemic Class: AMOS_MODEL · Canonical Status: SOURCE_GROUNDED_CANON_CANDIDATE*

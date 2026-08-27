@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "Emergence Canon"
 type: canon
@@ -82,7 +81,6 @@ rscf:
 
 ```text
 01_CANON/01_CORE_LAWS
-````
 
 It reserves the canonical slot for the AMOS framework family named:
 
@@ -5326,4 +5324,3 @@ RSCF-RELATIONS:
 ```
 
 Critical gap preserved: **the word “Emergence” does not itself establish an AMOS emergence law**. In particular, the expansion does not silently import complexity-theory or philosophical definitions such as novelty, irreducibility, unpredictability, self-organization, micro→macro generation, strong/weak emergence, or downward causation. Those remain separately typed `UNKNOWN/GAP` slots until supported by verified native AMOS canon.
-```
