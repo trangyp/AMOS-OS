@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "0eef45e655db358b",
+    "id": "main",
     "type": "split",
     "children": [
       {
-        "id": "2db23920c3a83b11",
+        "id": "tabs1",
         "type": "tabs",
         "children": [
           {
-            "id": "891a523245ef98a4",
+            "id": "graph1",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -17,21 +17,22 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 0
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ecb1af78b0793ce6",
+    "id": "left",
     "type": "split",
     "children": [
       {
-        "id": "82be140f663f09e7",
+        "id": "lefttabs",
         "type": "tabs",
         "children": [
           {
-            "id": "c649fcc3bbeedf61",
+            "id": "explorer",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,36 +45,6 @@
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
-          },
-          {
-            "id": "8c647ae583bd8481",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
-            "id": "68e7a73a26a2c3b3",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
           }
         ]
       }
@@ -82,15 +53,15 @@
     "width": 300
   },
   "right": {
-    "id": "6edca87f8de6e2bb",
+    "id": "right",
     "type": "split",
     "children": [
       {
-        "id": "774de6bc09458c87",
+        "id": "righttabs",
         "type": "tabs",
         "children": [
           {
-            "id": "ed6daf800b87d176",
+            "id": "backlinks",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -105,62 +76,6 @@
               },
               "icon": "links-coming-in",
               "title": "Backlinks"
-            }
-          },
-          {
-            "id": "0ed6bafe63f3cba9",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
-            }
-          },
-          {
-            "id": "4c76e7fee645eeb7",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "087310f3de25486f",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "7fa6a360ebc9c73d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
             }
           }
         ]
@@ -177,47 +92,12 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "891a523245ef98a4",
+  "active": "graph1",
   "lastOpenFiles": [
-    "_00_Cosmo brain/md",
-    "01_CANON/04_INFRASTRUCTURE_CANON/SHARD_LOCAL_FINALIZATION_CANON.md",
-    "scripts/_add_canon_report/pass2_dirs_made.txt",
-    "scripts/_add_canon_report/pass2_skipped.txt",
-    "scripts/_add_canon_report/pass2_created.txt",
-    "25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE.md",
-    "25_COGNITIVE_MATRIX/CANON_X_DOMAINS.md",
-    "25_COGNITIVE_MATRIX/CANON_X_KNOWLEDGE.md",
-    "25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE.md",
-    "25_COGNITIVE_MATRIX/CORE_X_RUNTIME.md",
-    "25_COGNITIVE_MATRIX/RSCF_X_GMEF.md",
-    "25_COGNITIVE_MATRIX/ULK_X_RSCF.md",
-    "25_COGNITIVE_MATRIX/REALITY_X_ULK.md",
-    "25_COGNITIVE_MATRIX/HERITAGE_X_TSS.md",
-    "25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO.md",
-    "25_COGNITIVE_MATRIX/UBI_X_NEUROSYNCAI.md",
-    "25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN.md",
-    "25_COGNITIVE_MATRIX/UBI_X_EMOTION.md",
-    "25_COGNITIVE_MATRIX/UBI_X_COGNITION.md",
-    "25_COGNITIVE_MATRIX/AMOS_X_TPE.md",
-    "25_COGNITIVE_MATRIX/AMOS_X_TSS.md",
-    "25_COGNITIVE_MATRIX/AMOS_X_QCLA.md",
-    "25_COGNITIVE_MATRIX/AMOS_X_QLS.md",
-    "25_COGNITIVE_MATRIX/AMOS_X_OMEGA.md",
-    "25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON.md",
-    "25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI.md",
-    "25_COGNITIVE_MATRIX/AMOS_X_UBI.md",
-    "25_COGNITIVE_MATRIX/AMOS_X_HERITAGE.md",
-    "25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY.md",
-    "scripts/add_canon_placeholders_v2.py",
-    "scripts/_add_canon_report/skipped.txt",
-    "scripts/_add_canon_report/dirs_made.txt",
-    "scripts/_add_canon_report/created.txt",
-    "scripts/_add_canon_report",
-    "16_SCHEMAS/11_OBSERVABILITY",
-    "16_SCHEMAS/10_RSCF"
+    "00_ROOT/00_ROOT_MOC.md",
+    "AMOS Home.md"
   ]
 }
