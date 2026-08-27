@@ -54,3 +54,6 @@ node_id: amos_2_c12_earth_ecology_00_index_index_c12_earth_ecology_domains_readm
 node_type: note
 path: 21_DOMAINS/22_C12_EARTH_ECOLOGY/00_INDEX/INDEX_C12_EARTH_ECOLOGY_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

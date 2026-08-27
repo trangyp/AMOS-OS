@@ -56,3 +56,6 @@ node_id: amos_14_tools_00_index_tool_map_md
 node_type: note
 path: 14_TOOLS/00_INDEX/TOOL_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

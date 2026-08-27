@@ -53,3 +53,6 @@ node_id: cognitive_matrix_rimitives_l10_world_modeling_00_index_l10_world_modeli
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING/00_INDEX/L10_WORLD_MODELING_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

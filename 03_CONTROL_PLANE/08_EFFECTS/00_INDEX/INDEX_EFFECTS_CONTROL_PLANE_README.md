@@ -54,3 +54,6 @@ node_id: cp_ontrol_plane_08_effects_00_index_index_effects_control_plane_readme_
 node_type: note
 path: 03_CONTROL_PLANE/08_EFFECTS/00_INDEX/INDEX_EFFECTS_CONTROL_PLANE_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

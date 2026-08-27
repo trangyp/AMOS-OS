@@ -51,3 +51,6 @@ node_id: cognitive_matrix_x_l01_sensing_observation_primitives_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/00_INDEX/INDEX_L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

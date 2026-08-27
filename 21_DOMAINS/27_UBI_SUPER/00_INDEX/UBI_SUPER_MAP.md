@@ -56,3 +56,6 @@ node_id: amos_21_domains_27_ubi_super_00_index_ubi_super_map_md
 node_type: note
 path: 21_DOMAINS/27_UBI_SUPER/00_INDEX/UBI_SUPER_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

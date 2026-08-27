@@ -51,3 +51,6 @@ node_id: cognitive_matrix__index_index_l17_decision_primitives_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L17_DECISION/00_INDEX/INDEX_L17_DECISION_PRIMITIVES_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

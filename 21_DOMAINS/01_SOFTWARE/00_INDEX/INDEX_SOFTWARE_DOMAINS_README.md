@@ -54,3 +54,6 @@ node_id: amos_21_domains_01_software_00_index_index_software_domains_readme_md
 node_type: note
 path: 21_DOMAINS/01_SOFTWARE/00_INDEX/INDEX_SOFTWARE_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -56,3 +56,6 @@ node_id: amos_mains_25_ubi_nei_neuroemotional_00_index_ubi_nei_neuroemotional_ma
 node_type: note
 path: 21_DOMAINS/25_UBI_NEI_NEUROEMOTIONAL/00_INDEX/UBI_NEI_NEUROEMOTIONAL_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

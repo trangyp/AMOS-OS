@@ -54,3 +54,6 @@ node_id: amos_02_kernel_07_authority_00_index_index_authority_kernel_readme_md
 node_type: note
 path: 02_KERNEL/07_AUTHORITY/00_INDEX/INDEX_AUTHORITY_KERNEL_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

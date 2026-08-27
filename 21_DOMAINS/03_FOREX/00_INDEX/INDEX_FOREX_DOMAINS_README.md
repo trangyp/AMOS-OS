@@ -54,3 +54,6 @@ node_id: amos_21_domains_03_forex_00_index_index_forex_domains_readme_md
 node_type: note
 path: 21_DOMAINS/03_FOREX/00_INDEX/INDEX_FOREX_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

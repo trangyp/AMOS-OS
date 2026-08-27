@@ -53,3 +53,6 @@ node_id: cognitive_matrix_rimitives_l15_goal_formation_00_index_l15_goal_formati
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION/00_INDEX/L15_GOAL_FORMATION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

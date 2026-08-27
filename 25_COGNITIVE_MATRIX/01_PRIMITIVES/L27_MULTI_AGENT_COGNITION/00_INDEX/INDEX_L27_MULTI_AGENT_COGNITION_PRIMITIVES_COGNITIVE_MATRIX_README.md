@@ -51,3 +51,6 @@ node_id: cognitive_matrix_l27_multi_agent_cognition_primitives_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION/00_INDEX/INDEX_L27_MULTI_AGENT_COGNITION_PRIMITIVES_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

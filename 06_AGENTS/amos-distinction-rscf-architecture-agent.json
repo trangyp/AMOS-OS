@@ -1,0 +1,97 @@
+{
+  "name": "amos-distinction-rscf-architecture-agent",
+  "display_name": "Distinction Rscf Architecture",
+  "description": "Trang framework engine for Distinction Rscf Architecture",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Distinction Rscf Architecture — Runtime and OS engine within the runtime domain.",
+  "skill_binding": {
+    "primary_skill": "amos-distinction-rscf-architecture",
+    "skill_path": ".devin/skills/amos-distinction-rscf-architecture/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "distinction_architecture.recover_collapse",
+      "description": "Recover from collapse: detect, diagnose, and restore after system failure",
+      "side_effect": "read"
+    },
+    {
+      "name": "distinction_architecture.analyze_distinction",
+      "description": "Analyze distinction-relation architecture: boundaries, identities, and transformations",
+      "side_effect": "read"
+    },
+    {
+      "name": "distinction_architecture.translate_architecture",
+      "description": "Translate RSCF architecture across representation systems",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-distinction-rscf-architecture skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against runtime sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-distinction-rscf-architecture"
+  ],
+  "depends_on_workflows": [
+    "amos-distinction-rscf-architecture-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "runtime",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "fc82405a70bc9a0a",
+  "implementation": {
+    "type": "json",
+    "file": "amos-distinction-rscf-architecture-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

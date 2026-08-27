@@ -1,0 +1,104 @@
+---
+title: SKILL
+type: skill
+name: mckinsey-wealth-management-rscf
+description: Wealth Management — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability.
+parent_skill: amos-c08-strategy-game-master
+domain: mckinsey
+origin_architect: Trang Phan
+epistemic_class: SOURCE_CLAIM
+tags: [note, mckinsey-wealth-management-rscf]
+---
+
+
+# Mckinsey: wealth Management Rscf
+
+## Identity
+
+- **Origin architect and steward**: Trang Phan
+- **Parent skill**: `amos-c08-strategy-game-master`
+- **Domain**: mckinsey
+- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
+
+McKinsey strategy framework for Mckinsey: wealth Management Rscf
+
+## When to Use
+
+- When mckinsey strategy framework for mckinsey: wealth management rscf is needed within the mckinsey domain
+- When the parent skill (`amos-c08-strategy-game-master`) routes to this specialized capability
+- When a query requires mckinsey-specific reasoning grounded in vault sources
+- When managing lifecycle operations across classify, validate, trace, assess, and detect
+- When detecting drift in evidence chains, provenance freshness, or confidence calibration
+- When validating outputs against domain constraints and epistemic class
+
+## Capabilities
+
+- **wealth_management.assess_commercial**: Assess commercial due diligence: market, competitive position, and growth
+- **wealth_management.evaluate_credit**: Evaluate credit and lending: risk scoring, portfolio, and concentration
+- **wealth_management.analyze_banking**: Analyze banking CRM: customer lifetime value, retention, and cross-sell
+- **wealth_management.transfer_architecture**: Transfer architecture references: best practices across organizational contexts
+- **wealth_management.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+- **wealth_management.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+- **wealth_management.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
+## 11_KNOWLEDGE Vault Content
+
+> **Source**: `11_KNOWLEDGE/AMOS_C07_ECON_FINANCE_MASTER_KNOWLEDGE.md` (content_hash: afc81525bb75994d) (vault canon, SOURCE_CLAIM)
+> **Additional source**: `11_KNOWLEDGE/AMOS_C08_STRATEGY_GAME_MASTER_KNOWLEDGE.md` (content_hash: 4b676ad6f9ca020f) (vault canon, SOURCE_CLAIM)
+
+### Wealth Management
+
+From C07 Econ & Finance: Investment management and portfolio theory. From C08 Strategy & Game: Strategic portfolio management.
+
+**Wealth management model**:
+- **Asset allocation**: strategic allocation across asset classes (equity, fixed income, alternatives)
+- **Risk management**: risk budgeting, VaR, stress testing
+- **Portfolio optimization**: mean-variance optimization, factor models
+- **Wealth preservation**: capital preservation, downside protection, generational transfer
+
+**Wealth management laws**:
+- `RETURN != ALPHA`: returns may be from beta (market) not alpha (skill)
+- `PAST != FUTURE`: past performance does not guarantee future results
+- `DIVERSIFICATION != GUARANTEE`: diversification reduces risk but does not eliminate it
+
+**RSCF integration**:
+- Wealth management claims are MODEL (conditional on assumptions)
+- Confidence ceiling: return predictions <= evidence support
+- Falsifier: underperformance vs benchmark over declared period
+- Scope: claims valid only within declared market regime
+
+**McKinsey framework integration**:
+- Portfolio analysis using BCG matrix (stars, cash cows, question marks, dogs)
+- Strategic allocation using GE-McKinsey matrix (attractiveness vs strength)
+- Risk-adjusted returns using Sharpe, Sortino, Calmar ratios
+
+### Epistemic Boundary
+
+Wealth management is an analytical framework. It does not prove positive returns, that models predict markets, or that risk management eliminates all risk.
+
+## Summary
+
+Implemented `UnknownUnknownRegistry` class in `AMOS_GapRegistry.py` to track
+areas where we don't know what we don't know. This closes GAP-MGMT-002 and
+upgrades GAP-OMNIVERSE-003 to COVERED. The GAP_MANAGEMENT component is now
+fully COVERED.
+
+## What Was Implemented
+
+### `UnknownUnknownEntry` dataclass
+- `entry_id`: unique identifier (e.g., "UU-001")
+- `surface_area`: what domain/area was surveyed
+- `survey_method`: how we looked for unknowns (architectural_review, fuzzing, etc.)
+- `estimated_count`: how many unknown-unknowns we think exist
+- `confidence`: 0.0-1.0 confidence in the estimate
+- `surveyed`: has this area been surveyed at all?
+- `last_surveyed`: ISO timestamp of last survey
+- `notes`: additional context
+
+### `UnknownUnknownRegistry` class
+- **5 pre-populated surface areas**:
+  - UU-001: BRAIN_CORE_ubi_integration (surveyed, est=5, conf=0.3)
+  - UU-002: OMNI_KERNEL_runtime_integration (surveyed, est=3, conf=0.4)
+  - UU-003: OMNIVERSE_BRAIN_world_model (surveyed, est=8, conf=0.2)
+  - UU-004: EXPRESSION_TRANSLATION_edge_cases (unsurveyed)
+  - UU

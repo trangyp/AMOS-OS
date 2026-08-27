@@ -53,3 +53,6 @@ node_id: cognitive_matrix__primitives_l22_consolidation_00_index_l22_consolidati
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L22_CONSOLIDATION/00_INDEX/L22_CONSOLIDATION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

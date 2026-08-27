@@ -54,3 +54,6 @@ node_id: amos__canon_02_universe_canon_00_index_index_universe_canon_canon_readm
 node_type: note
 path: 01_CANON/02_UNIVERSE_CANON/00_INDEX/INDEX_UNIVERSE_CANON_CANON_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

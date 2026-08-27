@@ -38,3 +38,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[INDEX_C05_MIND_BEHAVIOR_DOMAINS_README]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

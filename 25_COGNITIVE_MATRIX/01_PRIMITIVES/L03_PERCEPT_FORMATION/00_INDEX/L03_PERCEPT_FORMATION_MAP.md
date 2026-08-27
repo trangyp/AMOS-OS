@@ -53,3 +53,6 @@ node_id: cognitive_matrix_ves_l03_percept_formation_00_index_l03_percept_formati
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/00_INDEX/L03_PERCEPT_FORMATION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

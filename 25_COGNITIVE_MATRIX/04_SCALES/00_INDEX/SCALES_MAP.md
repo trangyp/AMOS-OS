@@ -53,3 +53,6 @@ node_id: cognitive_matrix_25_cognitive_matrix_04_scales_00_index_scales_map
 node_type: note
 path: 25_COGNITIVE_MATRIX/04_SCALES/00_INDEX/SCALES_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

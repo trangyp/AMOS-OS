@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[INDEX_VARIABLE_REGISTRY_CANON_README]]
+- [[VARIABLE_REGISTRY_CANON_VARIABLE_REGISTRY_CONTRACT]]
+- [[VARIABLE_REGISTRY_MAP]]
+
+---
+**Parent:** [[05_VARIABLE_REGISTRY_MOC]]

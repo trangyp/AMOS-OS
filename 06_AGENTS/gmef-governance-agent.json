@@ -1,0 +1,122 @@
+{
+  "name": "gmef-governance-agent",
+  "display_name": "Gmef Governance",
+  "description": "Gmef Governance — Strategy and game engine. Bound to c08 domain. Use when strategy and game engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Gmef Governance — Strategy and game engine within the c08 domain.",
+  "skill_binding": {
+    "primary_skill": "gmef-governance",
+    "skill_path": ".devin/skills/gmef-governance/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "gmef_governance.analyze_strategy",
+      "description": "Analyze strategic position: competitive landscape, game-theoretic equilibrium",
+      "side_effect": "read"
+    },
+    {
+      "name": "gmef_governance.evaluate_decision",
+      "description": "Evaluate decisions under uncertainty: expected value, regret, risk-adjusted return",
+      "side_effect": "read"
+    },
+    {
+      "name": "gmef_governance.model_game",
+      "description": "Model game-theoretic interactions: players, strategies, payoffs, equilibria",
+      "side_effect": "read"
+    },
+    {
+      "name": "gmef_governance.assess_risk",
+      "description": "Assess strategic risk: downside scenarios, adversarial responses, black swans",
+      "side_effect": "read"
+    },
+    {
+      "name": "gmef_governance.classify_mutation",
+      "description": "Classify evolution mutations (M0-M5) and enforce mutation permission profiles",
+      "side_effect": "read"
+    },
+    {
+      "name": "gmef_governance.detect_drift",
+      "description": "Detect governance drift: scope creep, authority decay, or constitutional boundary erosion",
+      "side_effect": "read"
+    },
+    {
+      "name": "gmef_governance.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "gmef_governance.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the gmef-governance skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against c08 sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "gmef-governance"
+  ],
+  "depends_on_workflows": [
+    "gmef-governance-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "c08",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "10c7128bbfb2e357",
+  "implementation": {
+    "type": "json",
+    "file": "gmef-governance-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

@@ -1828,3 +1828,6 @@ confidence_ceiling: 0
 
 - [[CORE_LAWS_CANON_CORE_LAWS_CONTRACT]]
 - [[CORE_LAWS_MAP]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

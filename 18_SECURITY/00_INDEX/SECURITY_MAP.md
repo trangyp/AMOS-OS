@@ -56,3 +56,6 @@ node_id: amos_18_security_00_index_security_map_md
 node_type: note
 path: 18_SECURITY/00_INDEX/SECURITY_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

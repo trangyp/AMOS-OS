@@ -51,3 +51,6 @@ node_id: cognitive_matrix_ndex_index_c06_memory_control_planes_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY/00_INDEX/INDEX_C06_MEMORY_CONTROL_PLANES_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -14,3 +14,6 @@ No reference files yet. Canonical content lives in SKILL|SKILL.md and in the Her
 
 ---
 **Links:** [[SKILL]]
+
+---
+**MOC:** [[references_MOC]]

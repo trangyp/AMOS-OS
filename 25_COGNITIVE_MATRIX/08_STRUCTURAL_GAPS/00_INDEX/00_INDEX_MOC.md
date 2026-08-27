@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[INDEX_STRUCTURAL_GAPS_COGNITIVE_MATRIX_README]]
+- [[STRUCTURAL_GAPS_COGNITIVE_MATRIX_STRUCTURAL_GAPS_CONTRACT]]
+- [[STRUCTURAL_GAPS_MAP]]
+
+---
+**Parent:** [[08_STRUCTURAL_GAPS_MOC]]

@@ -1,0 +1,84 @@
+---
+title: amos-vietnamese-global-cultural-bridge-governor-workflow
+Type: Workflow
+Skill: amos-vietnamese-global-cultural-bridge-governor
+Agent: amos-vietnamese-global-cultural-bridge-governor-agent
+Trigger: When bridging Vietnamese-specific cultural analysis with global sociological frameworks, or when validating that global models apply to Vietnamese contexts, or when translating Vietnamese-specific insights for global comparison, or when detecting cultural context mismatch between Vietnamese and global claims, or when amos-c06-society-culture-master routes to cross-domain Vietnamese-global cultural bridge governance
+Version: 1.0.0
+tags: [note, vault]
+---
+
+
+# Workflow: Vietnamese-Global Cultural Bridge Governor
+
+## Preconditions
+
+- The `amos-vietnamese-global-cultural-bridge-governor` skill exists and is loaded.
+- The `amos-vietnamese-global-cultural-bridge-governor-agent` agent is available and has valid content_hash.
+- The query involves at least one direction of the Vietnamese-global cultural bridge.
+- C06 F07 (Vietnam Regional Systems) knowledge is available.
+- C06 F01-F06, F08-F10 (global frameworks) are available.
+- Epistemic class labeling is enabled.
+
+## Steps
+
+1. **Intake** (`vgc_bridge.manage_lifecycle`): Identify the problem and confirm it matches the Vietnamese-Global Cultural Bridge Governor scope.
+   - Classify the query: which bridge direction is needed?
+     - VN_TO_GLOBAL: translate Vietnamese-specific claims to global framework terms
+     - GLOBAL_TO_VN: validate global model for Vietnamese context
+     - COMPARE: compare Vietnamese and global cultural systems
+     - GOVERN: full bidirectional bridge governance
+     - DETECT_DRIFT: cultural drift detection
+   - **Gate G1**: scope_confirmed — query involves at least one bridge direction
+
+2. **Bridge Transition Execution** (`vgc_bridge.translate_vietnamese_to_global`, `vgc_bridge.validate_global_for_vietnamese`): Execute the requested bridge transition.
+   - VN_TO_GLOBAL: map Vietnamese concepts to global sociological categories
+   - GLOBAL_TO_VN: check for cultural context mismatch, missing Vietnamese variables
+   - COMPARE: identify structural similarities, differences, incommensurable elements
+   - GOVERN: execute all transitions in sequence
+   - DETECT_DRIFT: check for Vietnamese context changes and global model changes
+   - Tag every output with epistemic status (CONDITIONAL for VN-specific, MODEL for global)
+   - **Gate G2**: transition_executed — transition completed or marked UNKNOWN/GAP
+
+3. **Cultural Specificity Validation** (`vgc_bridge.govern_bridge`): Validate that cultural specificity is preserved.
+   - Check G7: Vietnamese cultural specificity preserved during translation
+   - Check G8: no universalization of Vietnamese-specific claims without evidence
+   - Flag any flattening as CULTURAL_FLATTENING
+   - Flag any universalization as UNIVERSALIZATION_RISK
+   - **Gate G3**: cultural_validated — no violations; violations flagged and transition blocked if critical
+
+4. **Provenance Chain Tracing** (`vgc_bridge.trace_cultural_provenance`): Trace the full provenance chain across the bridge.
+   - Record Vietnamese source path, cultural context, epistemic class
+   - Record global framework mapping, translation step, epistemic class
+   - Record any UNKNOWN/GAP markers from source domains
+   - **Gate G4**: provenance_traced — full provenance chain recorded in both directions
+
+5. **Cultural Drift Detection** (`vgc_bridge.detect_cultural_drift`, `vgc_bridge.detect_drift`): Detect cultural drift between Vietnamese and global models.
+   - Check: Vietnamese context changes not reflected in global mappings
+   - Check: global model changes that invalidate Vietnamese applications
+   - Flag any drift as CULTURAL_DRIFT
+   - **Gate G5**: drift_checked — no drift detected; drift flagged and bridge blocked if critical
+
+6. **Cultural Claim Assessment** (`vgc_bridge.assess_cultural_claim`): Assess cultural claim for epistemic class and universalization risk.
+   - Verify: Vietnamese-specific claims are CONDITIONAL on Vietnamese context
+   - Verify: global claims are MODEL unless independently validated
+   - Verify: cultural ritual energy equations (gia hệ) are MODEL/structural metaphor
+   - Block if universalization risk is detected
+   - **Gate G6**: claim_assessed — claim assessment completed
+
+7. **Bridge Governance** (`vgc_bridge.compare_cultural_systems`): Govern the full bidirectional bridge if GOVERN was requested.
+   - Verify all transitions completed successfully
+   - Verify cultural specificity preserved
+   - Verify provenance chain unbroken in both directions
+   - Verify no cultural drift detected
+   - Verify claim assessment passed
+   - Return BRIDGE_PERMITTED / BRIDGE_BLOCKED / BRIDGE_CONDITIONAL
+   - **Gate G7**: bridge_governed — bridge verdict returned with justification
+
+8. **Validation** (`vgc_bridge.validate_outputs`): Check results against all 10 validation gates (G1-G10).
+   - G1: No contradictions across Vietnamese-global bridge
+   - G2: All claims labeled (CONDITIONAL for VN-specific, MODEL for global)
+   - G3: Pr
+
+---
+**MOC:** [[08_WORKFLOWS_MOC]]

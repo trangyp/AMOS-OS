@@ -1577,3 +1577,6 @@ This preserves your original `ROUTING MAP` as a **map**, rather than incorrectly
 
 ---
 **MOC:** [[INDEX_ROUTING_COGNITIVE_MATRIX_README]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

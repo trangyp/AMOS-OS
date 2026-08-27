@@ -56,3 +56,6 @@ node_id: amos_21_domains_16_c06_society_culture_00_index_c06_society_culture_map
 node_type: note
 path: 21_DOMAINS/16_C06_SOCIETY_CULTURE/00_INDEX/C06_SOCIETY_CULTURE_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

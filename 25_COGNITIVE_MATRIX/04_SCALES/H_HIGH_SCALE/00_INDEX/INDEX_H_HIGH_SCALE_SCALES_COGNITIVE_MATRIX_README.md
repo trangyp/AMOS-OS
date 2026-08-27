@@ -51,3 +51,6 @@ node_id: cognitive_matrix_e_00_index_index_h_high_scale_scales_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE/00_INDEX/INDEX_H_HIGH_SCALE_SCALES_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

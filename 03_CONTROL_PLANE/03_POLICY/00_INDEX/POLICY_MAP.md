@@ -56,3 +56,6 @@ node_id: cp_03_control_plane_03_policy_00_index_policy_map_md
 node_type: note
 path: 03_CONTROL_PLANE/03_POLICY/00_INDEX/POLICY_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

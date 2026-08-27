@@ -75,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[INDEX_RISK_REPAIR_KERNEL_README]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -54,3 +54,6 @@ node_id: amos_1_design_language_00_index_index_c11_design_language_domains_readm
 node_type: note
 path: 21_DOMAINS/21_C11_DESIGN_LANGUAGE/00_INDEX/INDEX_C11_DESIGN_LANGUAGE_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

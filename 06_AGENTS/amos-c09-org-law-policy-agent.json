@@ -1,0 +1,131 @@
+{
+  "name": "amos-c09-org-law-policy-agent",
+  "display_name": "AMOS C09 Org, Law & Policy",
+  "description": "AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory frameworks, constitutional governance, legal reasoning, policy analysis. Use for governance design, legal analysis, or pol",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Organization, law, and policy: governance design, legal reasoning, compliance, regulatory frameworks.",
+  "skill_binding": {
+    "primary_skill": "amos-c09-org-law-policy-master",
+    "skill_path": ".devin/skills/amos-c09-org-law-policy-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "c09_org_law.enforce_governance",
+      "description": "Enforce AMOS C09 Org, Law & Policy governance: separation of powers, contract hierarchy, ownership accountability, and sanctions.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c09_org_law.validate_governance",
+      "description": "Validate AMOS C09 Org, Law & Policy outputs against constitutional hierarchy, authority separation, and RSCF governance constraints.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c09_org_law.analyze_economy",
+      "description": "Analyze AMOS C09 Org, Law & Policy economy: agent ownership chains, contract tiers, incentive structures, and audit ledger.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c09_org_law.trace_governance_provenance",
+      "description": "Trace AMOS C09 Org, Law & Policy governance decisions to contracts, legislative state, audit records, and source evidence.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c09_org_law.assess_economy_claim",
+      "description": "Assess AMOS C09 Org, Law & Policy economic claims for source status, empirical support, scope, assumptions, and overreach.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c09_org_law.manage_governance_lifecycle",
+      "description": "Manage AMOS C09 Org, Law & Policy governance lifecycle: propose, legislate, execute, adjudicate, audit, and finalize.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c09_org_law.detect_governance_drift",
+      "description": "Detect governance drift: authority creep, contract violation, sanction evasion, and audit gap growth.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c09_org_law.escalate_governance_gaps",
+      "description": "Escalate AMOS C09 Org, Law & Policy governance gaps: flag constitutional violations, require adjudication, trigger legislative change.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c09_org_law.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c09_org_law.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c09_org_law.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "ROLE AND RESPONSIBILITY CLARITY: Apply role and responsibility clarity within the C09 org law policy domain.",
+      "gate": "role_and_responsibility_clarity_complete"
+    },
+    {
+      "step": 2,
+      "action": "GOVERNANCE MECHANISM DESIGN: Apply governance mechanism design within the C09 org law policy domain.",
+      "gate": "governance_mechanism_design_complete"
+    },
+    {
+      "step": 3,
+      "action": "REGULATORY LANDSCAPE SCANNING: Apply regulatory landscape scanning within the C09 org law policy domain.",
+      "gate": "regulatory_landscape_scanning_complete"
+    },
+    {
+      "step": 4,
+      "action": "POLICY IMPACT PATHWAYS: Apply policy impact pathways within the C09 org law policy domain.",
+      "gate": "policy_impact_pathways_complete"
+    }
+  ],
+  "integrity_requirements": [
+    "not formal legal advice: this risk must be bounded by explicit gates",
+    "local law variation can be large: this risk must be bounded by explicit gates",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-c09-org-law-policy-master"
+  ],
+  "depends_on_workflows": [
+    "amos-c09-org-law-policy-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "org",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-c09-org-law-policy-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "8a27041c28799897"
+}

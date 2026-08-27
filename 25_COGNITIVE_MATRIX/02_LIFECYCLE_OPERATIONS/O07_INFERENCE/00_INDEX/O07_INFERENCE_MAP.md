@@ -53,3 +53,6 @@ node_id: cognitive_matrix_ifecycle_operations_o07_inference_00_index_o07_inferen
 node_type: note
 path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O07_INFERENCE/00_INDEX/O07_INFERENCE_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

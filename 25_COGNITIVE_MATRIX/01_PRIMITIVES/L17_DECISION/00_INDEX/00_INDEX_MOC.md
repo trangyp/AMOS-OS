@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[INDEX_L17_DECISION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L17_DECISION_MAP]]
+- [[PRIMITIVES_COGNITIVE_MATRIX_L17_DECISION_CONTRACT]]
+
+---
+**Parent:** [[L17_DECISION_MOC]]

@@ -1,0 +1,129 @@
+{
+  "name": "amos-workflow-builder-agent",
+  "display_name": "AMOS Workflow Builder",
+  "description": "Build, validate, analyze, govern, checkpoint, recover, repair, and package executable AMOS workflows as typed dependency graphs and governed state machines.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Workflow design, dependency orchestration, authority gating, failure recovery, compensation, validation, provenance, and lifecycle specialist.",
+  "skill_binding": {
+    "primary_skill": "amos-workflow-builder",
+    "skill_path": ".devin/skills/amos-workflow-builder/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "workflow.design",
+      "description": "Design a governed workflow graph from objective, steps, contracts, dependencies, gates, authority, retries, compensation, and rollback.",
+      "side_effect": "read"
+    },
+    {
+      "name": "workflow.validate_topology",
+      "description": "Validate workflow topology, gates, contracts, authority boundaries, and cycles",
+      "side_effect": "read"
+    },
+    {
+      "name": "workflow.analyze",
+      "description": "Analyze workflow topology, critical path, fan-out, fan-in, risk concentration, authority surface, failure propagation, and repair targets.",
+      "side_effect": "read"
+    },
+    {
+      "name": "workflow.manage_lifecycle",
+      "description": "Manage workflow lifecycle: plan execution frontier, stage step execution under authority, checkpoint, recover from valid checkpoints, compensate completed durable steps after partial failure, and package validated workflow definitions.",
+      "side_effect": "read"
+    },
+    {
+      "name": "workflow.detect_drift",
+      "description": "Detect workflow scope, dependency, authority, schema, environment, provenance, and confidence drift.",
+      "side_effect": "read"
+    },
+    {
+      "name": "workflow.trace_workflow_provenance",
+      "description": "Trace workflow provenance to skills, agents, and vault sources",
+      "side_effect": "read"
+    },
+    {
+      "name": "workflow.assess_workflow_claim",
+      "description": "Assess workflow claims: gate enforcement, step ordering, and promotion readiness",
+      "side_effect": "read"
+    },
+    {
+      "name": "workflow.escalate_gaps",
+      "description": "Classify workflow gaps and escalate blocking unknowns.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-workflow-builder skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against workflow builder sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against G1-G10 hard gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the workflow scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived step",
+    "Anti-overreach: no claim beyond the workflow declared scope",
+    "1:1:1 binding: every workflow binds to exactly one agent and one skill",
+    "Gate enforcement: every step has a validation gate with pass/fail criteria",
+    "Capability != authority: write-classified capabilities require separate authorization",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders",
+    "No workflow without failure paths: every failure must fail closed",
+    "No workflow without agent and skill bindings: 1:1:1 routing is mandatory",
+    "No durable effect without fresh authority witness",
+    "No retry of non-idempotent effect without equivalent guard"
+  ],
+  "depends_on_skills": [
+    "amos-workflow-builder"
+  ],
+  "depends_on_workflows": [
+    "amos-workflow-builder-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "runtime",
+    "risk_tier": "medium",
+    "observability": "structured_logs+workflow_state_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-workflow-builder-agent.json",
+    "class": null,
+    "executable": false
+  },
+  "content_hash": "c7163a50ef37ddcb"
+}

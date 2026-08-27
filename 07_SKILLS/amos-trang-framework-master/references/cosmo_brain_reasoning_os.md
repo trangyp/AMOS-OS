@@ -1,0 +1,31 @@
+---
+title: cosmo brain reasoning os
+type: reference
+tags: [reference, amos-trang-framework-master]
+---
+
+# Cosmo Brain Reasoning OS by Trang Phan
+
+> Source: `_00_Cosmo brain/trang/Cosmo_Brain_Reasoning_OS_by_Trang_Phan.md`
+> Epistemic class: SOURCE_DERIVED
+
+---
+type: doc
+title: Bridge to Cosmo Brain — Reasoning OS by Trang Phan
+created: 2026-08-22
+tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/cosmo-brain-reasoning-os-by-trang-phan, trang]
+---
+
+# Bridge: Cosmo Brain — Reasoning OS by Trang Phan
+
+> [!warning] Unresolved wikilink target
+> The wikilink `Cosmo Brain — Reasoning OS by Trang Phan` has no matching note in the vault.
+> This bridge note exists to prevent graph fragmentation.
+
+Target: `Cosmo Brain — Reasoning OS by Trang Phan`
+
+## Related
+- [[COSMO_BRAIN_MOC]]
+
+---
+**MOC:** [[references_MOC]]

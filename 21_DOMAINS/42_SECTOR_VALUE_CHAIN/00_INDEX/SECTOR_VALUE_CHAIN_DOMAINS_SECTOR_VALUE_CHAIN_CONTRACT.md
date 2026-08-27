@@ -38,3 +38,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[INDEX_SECTOR_VALUE_CHAIN_DOMAINS_README]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

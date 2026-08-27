@@ -1,0 +1,107 @@
+{
+  "name": "amos-bundle-manifold-concentration-rscf-engine-agent",
+  "display_name": "Bundle Manifold Concentration Rscf Engine",
+  "description": "RSCF epistemic engine for Bundle Manifold Concentration Rscf Engine",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Bundle Manifold Concentration Rscf Engine — Runtime and OS engine within the runtime domain.",
+  "skill_binding": {
+    "primary_skill": "amos-bundle-manifold-concentration-rscf-engine",
+    "skill_path": ".devin/skills/amos-bundle-manifold-concentration-rscf-engine/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "bundle_manifold.classify_claim",
+      "description": "Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence",
+      "side_effect": "read"
+    },
+    {
+      "name": "bundle_manifold.validate_evidence",
+      "description": "Validate evidence chains: provenance, freshness, scope, and regime validity",
+      "side_effect": "read"
+    },
+    {
+      "name": "bundle_manifold.trace_provenance",
+      "description": "Trace output provenance to vault sources and tag with content_hash",
+      "side_effect": "read"
+    },
+    {
+      "name": "bundle_manifold.assess_confidence",
+      "description": "Assess confidence ceiling based on epistemic class and evidence strength",
+      "side_effect": "read"
+    },
+    {
+      "name": "bundle_manifold.detect_falsifier",
+      "description": "Detect falsifiers and downgrade confidence when counter-evidence emerges",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-bundle-manifold-concentration-rscf-engine skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against runtime sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-bundle-manifold-concentration-rscf-engine"
+  ],
+  "depends_on_workflows": [
+    "amos-bundle-manifold-concentration-rscf-engine-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "runtime",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "2c1dd929b48d46ed",
+  "implementation": {
+    "type": "json",
+    "file": "amos-bundle-manifold-concentration-rscf-engine-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

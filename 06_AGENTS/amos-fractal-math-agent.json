@@ -1,0 +1,117 @@
+{
+  "name": "amos-fractal-math-agent",
+  "display_name": "Fractal Math",
+  "description": "Fractal Math — Fractal analysis engine. Bound to fractal domain. Use when fractal analysis engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Fractal Math — Fractal analysis engine within the fractal domain.",
+  "skill_binding": {
+    "primary_skill": "amos-fractal-math",
+    "skill_path": ".devin/skills/amos-fractal-math/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "fractal_math.analyze_fractal",
+      "description": "Analyze fractal structure: self-similarity, scale invariance, and recursion",
+      "side_effect": "read"
+    },
+    {
+      "name": "fractal_math.quantify_entropy",
+      "description": "Quantify AI entropy within fractal architectures: information vs disorder",
+      "side_effect": "read"
+    },
+    {
+      "name": "fractal_math.validate_equation",
+      "description": "Validate strict fractal equations against scale-invariance requirements",
+      "side_effect": "read"
+    },
+    {
+      "name": "fractal_math.map_biology",
+      "description": "Map human biology fractal patterns: branching, scaling, and self-organization",
+      "side_effect": "read"
+    },
+    {
+      "name": "fractal_math.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "fractal_math.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "fractal_math.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-fractal-math skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against fractal sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-fractal-math"
+  ],
+  "depends_on_workflows": [
+    "amos-fractal-math-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "fractal",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "c999d1f09f45eca9",
+  "implementation": {
+    "type": "json",
+    "file": "amos-fractal-math-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

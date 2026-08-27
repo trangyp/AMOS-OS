@@ -1,0 +1,137 @@
+{
+  "name": "amos-causal-reasoning-agent",
+  "display_name": "AMOS Causal Reasoning",
+  "description": "AMOS Causal Reasoning — causal closure, causal hierarchy, counterfactual reasoning, intervention analysis. 4 causal modes (Direct, Distributed, Delayed, Cascading), 6 causal gates. Use for causal a",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Causal reasoning: causal closure, causal hierarchy, counterfactual analysis, intervention design.",
+  "skill_binding": {
+    "primary_skill": "amos-causal-reasoning-master",
+    "skill_path": ".devin/skills/amos-causal-reasoning-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "causal_reason.analyze_causal",
+      "description": "Analyze AMOS Causal Reasoning causal hierarchy: observation, intervention, counterfactual, and causal closure.",
+      "side_effect": "read"
+    },
+    {
+      "name": "causal_reason.validate_causal",
+      "description": "Validate AMOS Causal Reasoning causal claims for identification, confounder control, and causal gate compliance.",
+      "side_effect": "read"
+    },
+    {
+      "name": "causal_reason.apply_intervention",
+      "description": "Apply AMOS Causal Reasoning causal intervention analysis: do-calculus, effect estimation, and counterfactual mapping.",
+      "side_effect": "write"
+    },
+    {
+      "name": "causal_reason.trace_causal_provenance",
+      "description": "Trace AMOS Causal Reasoning causal findings to observational data, intervention records, and counterfactual models.",
+      "side_effect": "read"
+    },
+    {
+      "name": "causal_reason.assess_causal_claim",
+      "description": "Assess AMOS Causal Reasoning causal claims for identification type, evidence strength, and mechanism vs correlation.",
+      "side_effect": "read"
+    },
+    {
+      "name": "causal_reason.manage_causal_lifecycle",
+      "description": "Manage AMOS Causal Reasoning causal lifecycle: observe, hypothesize, test, intervene, validate, and finalize.",
+      "side_effect": "write"
+    },
+    {
+      "name": "causal_reason.detect_causal_drift",
+      "description": "Detect causal drift: confounder emergence, regime change, causal chain break, and effect decay.",
+      "side_effect": "read"
+    },
+    {
+      "name": "causal_reason.escalate_causal_gaps",
+      "description": "Escalate AMOS Causal Reasoning causal gaps: flag unconfirmed causality, require discriminating test, trigger analysis.",
+      "side_effect": "write"
+    },
+    {
+      "name": "causal_reason.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "causal_reason.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "causal_reason.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "ORIENT: Identify the problem and confirm it matches the causal reasoning scope.",
+      "gate": "scope_confirmed"
+    },
+    {
+      "step": 2,
+      "action": "CLASSIFY: Classify the query against causal reasoning sub-capabilities and frameworks.",
+      "gate": "domain_classified"
+    },
+    {
+      "step": 3,
+      "action": "APPLY: Apply the appropriate causal reasoning framework with epistemic class labeling.",
+      "gate": "framework_applied"
+    },
+    {
+      "step": 4,
+      "action": "CHALLENGE: Challenge results against epistemic firewall and domain-specific invariants.",
+      "gate": "firewall_passed"
+    },
+    {
+      "step": 5,
+      "action": "SYNTHESIZE: Synthesize results with provenance and confidence ceiling.",
+      "gate": "result_synthesized"
+    }
+  ],
+  "integrity_requirements": [
+    "CAUSAL REASONING model != empirical proof: framework is not empirical validation",
+    "Structural mapping != causal proof: mapping is not causation",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Competing hypotheses must be preserved under uncertainty",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-causal-reasoning-master"
+  ],
+  "depends_on_workflows": [
+    "amos-causal-reasoning-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "causal",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-causal-reasoning-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "1d7d5ea3f22dd42a"
+}

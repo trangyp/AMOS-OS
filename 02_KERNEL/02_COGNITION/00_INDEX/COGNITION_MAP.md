@@ -56,3 +56,6 @@ node_id: amos_02_kernel_02_cognition_00_index_cognition_map_md
 node_type: note
 path: 02_KERNEL/02_COGNITION/00_INDEX/COGNITION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

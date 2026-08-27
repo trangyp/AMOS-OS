@@ -1,0 +1,102 @@
+{
+  "name": "amos-action-memory-firewall-agent",
+  "display_name": "Action Memory Firewall",
+  "description": "Action Memory Firewall — Govern how persistent memory, preferences, and retrieved context may influence actions and tool parameters.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Govern how persistent memory, preferences, and retrieved context may influence actions and tool parameters.",
+  "skill_binding": {
+    "primary_skill": "amos-action-memory-firewall",
+    "skill_path": ".devin/skills/amos-action-memory-firewall/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "memory.evaluate_influence_request",
+      "description": "Evaluate a memory-influence request against the 13-axis coupling tensor (action, tool, parameter, memory_id, memory_type, source_context, destination_context, personalizable, consent_state, stakes, irreversibility, provenance, uncertainty) to determine whether memory may influence a pending action.",
+      "side_effect": "read"
+    },
+    {
+      "name": "memory.enforce_hard_gates",
+      "description": "Enforce hard partition gates: DATA_FLOW != AUTHORITY_FLOW, EVIDENCE_FLOW != EFFECT_PERMISSION, TOOL_OUTPUT != ACCEPTED_KNOWLEDGE, MODEL_PROPOSAL != COMMITTED_ACTION. Block memory influence that crosses action/authority/effect boundaries.",
+      "side_effect": "read"
+    },
+    {
+      "name": "memory.preserve_epistemic_class",
+      "description": "Preserve epistemic class through memory operations: SOURCE_CLAIM, OBSERVATION, DERIVED, MODEL, DECISION survive storage unchanged; modality, negation, quantifiers, and correlation-vs-cause distinctions must not be dropped during consolidation.",
+      "side_effect": "read"
+    },
+    {
+      "name": "memory.manage_consent_and_reversibility",
+      "description": "Manage consent state (EXPLICIT_CURRENT, EXPLICIT_PERSISTENT, IMPLIED, ABSENT, REVOKED) and reversibility for memory-influenced actions. Require current confirmation when stakes are high or consent is absent/revoked.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-action-memory-firewall skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against domain sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-action-memory-firewall"
+  ],
+  "depends_on_workflows": [
+    "amos-action-memory-firewall-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "memory",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-action-memory-firewall-agent.json",
+    "class": null,
+    "executable": false
+  },
+  "content_hash": "e3ce5bebcd3f8c10"
+}

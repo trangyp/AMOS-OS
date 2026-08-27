@@ -1,0 +1,137 @@
+{
+  "name": "amos-super-engines-agent",
+  "display_name": "AMOS Super Engines",
+  "description": "AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity engine variants. Cognition + Emotion + Consciousness triad. Use for super-engine reasoning, consciousness emulation, or",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Super engines: Super Mind OS, Omega Infinity Stack, cognition + emotion + consciousness triad.",
+  "skill_binding": {
+    "primary_skill": "amos-super-engines-master",
+    "skill_path": ".devin/skills/amos-super-engines-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "super_engines.design_inference_loop",
+      "description": "Execute the AMOS Super Engines governed perception-belief-action loop with evidence, uncertainty, authority, and safety bounds.",
+      "side_effect": "write"
+    },
+    {
+      "name": "super_engines.validate_governance",
+      "description": "Validate AMOS Super Engines outputs against governance gates: constraint, authority, safety, policy, scope, evidence, reversibility.",
+      "side_effect": "read"
+    },
+    {
+      "name": "super_engines.analyze_belief_state",
+      "description": "Analyze AMOS Super Engines belief state: competing hypotheses, uncertainty vector, prediction error, and evidence basis.",
+      "side_effect": "read"
+    },
+    {
+      "name": "super_engines.trace_inference_provenance",
+      "description": "Trace AMOS Super Engines outputs to observations, evidence, prediction model, and RSCF provenance chain.",
+      "side_effect": "read"
+    },
+    {
+      "name": "super_engines.assess_inference_claim",
+      "description": "Assess AMOS Super Engines claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF), evidence strength, and falsifier availability.",
+      "side_effect": "read"
+    },
+    {
+      "name": "super_engines.manage_loop_lifecycle",
+      "description": "Manage AMOS Super Engines loop lifecycle: observe, infer, compare, generate, govern, select, act, measure, update, stop.",
+      "side_effect": "write"
+    },
+    {
+      "name": "super_engines.detect_loop_drift",
+      "description": "Detect inference drift: goal drift, authority drift, proxy optimization, confirmation loop, and belief overconfidence.",
+      "side_effect": "read"
+    },
+    {
+      "name": "super_engines.escalate_inference_gaps",
+      "description": "Escalate AMOS Super Engines gaps: FREEZE on unresolved validation, preserve competing hypotheses, trigger discriminating evidence.",
+      "side_effect": "write"
+    },
+    {
+      "name": "super_engines.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "super_engines.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "super_engines.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "ORIENT: Identify the problem and confirm it matches the super engines scope.",
+      "gate": "scope_confirmed"
+    },
+    {
+      "step": 2,
+      "action": "CLASSIFY: Classify the query against super engines sub-capabilities and frameworks.",
+      "gate": "domain_classified"
+    },
+    {
+      "step": 3,
+      "action": "APPLY: Apply the appropriate super engines framework with epistemic class labeling.",
+      "gate": "framework_applied"
+    },
+    {
+      "step": 4,
+      "action": "CHALLENGE: Challenge results against epistemic firewall and domain-specific invariants.",
+      "gate": "firewall_passed"
+    },
+    {
+      "step": 5,
+      "action": "SYNTHESIZE: Synthesize results with provenance and confidence ceiling.",
+      "gate": "result_synthesized"
+    }
+  ],
+  "integrity_requirements": [
+    "SUPER ENGINES model != empirical proof: framework is not empirical validation",
+    "Structural mapping != causal proof: mapping is not causation",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Competing hypotheses must be preserved under uncertainty",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-super-engines-master"
+  ],
+  "depends_on_workflows": [
+    "amos-super-engines-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "super",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-super-engines-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "d09373747f22cc7f"
+}

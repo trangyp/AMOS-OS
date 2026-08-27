@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[C03_EXECUTIVE_MAP]]
+- [[CONTROL_PLANES_COGNITIVE_MATRIX_C03_EXECUTIVE_CONTRACT]]
+- [[INDEX_C03_EXECUTIVE_CONTROL_PLANES_COGNITIVE_MATRIX_README]]
+
+---
+**Parent:** [[C03_EXECUTIVE_MOC]]

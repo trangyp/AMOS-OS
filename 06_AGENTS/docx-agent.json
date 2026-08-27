@@ -1,0 +1,122 @@
+{
+  "name": "docx-agent",
+  "display_name": "Docx",
+  "description": "Docx — Tech-engineering engine. Bound to c10 domain. Use when tech-engineering engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Docx — Tech-engineering engine within the c10 domain.",
+  "skill_binding": {
+    "primary_skill": "docx",
+    "skill_path": ".devin/skills/docx/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "docx.parse_document",
+      "description": "Parse .docx files: extract text, tables, styles, headers, footers, and metadata",
+      "side_effect": "read"
+    },
+    {
+      "name": "docx.validate_structure",
+      "description": "Validate document structure against OOXML schema and content integrity",
+      "side_effect": "read"
+    },
+    {
+      "name": "docx.extract_content",
+      "description": "Extract structured content: paragraphs, runs, tables, images, hyperlinks",
+      "side_effect": "read"
+    },
+    {
+      "name": "docx.generate_document",
+      "description": "Generate .docx files from structured content with proper styling and formatting",
+      "side_effect": "read"
+    },
+    {
+      "name": "docx.track_provenance",
+      "description": "Track provenance of document content to source sections and transformations",
+      "side_effect": "read"
+    },
+    {
+      "name": "docx.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "docx.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "docx.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the docx skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against c10 sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "docx"
+  ],
+  "depends_on_workflows": [
+    "docx-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "c10",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "6122d7483e17e2f7",
+  "implementation": {
+    "type": "json",
+    "file": "docx-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

@@ -53,3 +53,6 @@ node_id: cognitive_matrix_atrix_11_validation_00_index_cognitive_matrix_validati
 node_type: note
 path: 25_COGNITIVE_MATRIX/11_VALIDATION/00_INDEX/COGNITIVE_MATRIX_VALIDATION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

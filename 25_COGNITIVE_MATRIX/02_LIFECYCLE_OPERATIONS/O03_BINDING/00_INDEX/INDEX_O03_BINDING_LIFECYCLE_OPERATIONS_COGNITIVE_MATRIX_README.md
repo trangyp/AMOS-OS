@@ -51,3 +51,6 @@ node_id: cognitive_matrix_dex_o03_binding_lifecycle_operations_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O03_BINDING/00_INDEX/INDEX_O03_BINDING_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

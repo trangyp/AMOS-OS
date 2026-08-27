@@ -56,3 +56,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

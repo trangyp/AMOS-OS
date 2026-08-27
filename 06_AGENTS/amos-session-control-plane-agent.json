@@ -1,0 +1,107 @@
+{
+  "name": "amos-session-control-plane-agent",
+  "display_name": "Session Control Plane",
+  "description": "Session Control Plane — Session Control Plane — Runtime and OS engine within the runtime domain.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Session Control Plane — Runtime and OS engine within the runtime domain.",
+  "skill_binding": {
+    "primary_skill": "amos-session-control-plane",
+    "skill_path": ".devin/skills/amos-session-control-plane/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "session_control.monitor_stability",
+      "description": "Monitor runtime stability: drift, oscillation, divergence, and regime transitions",
+      "side_effect": "read"
+    },
+    {
+      "name": "session_control.calibrate_feedback",
+      "description": "Calibrate feedback control loops to maintain stable operating conditions",
+      "side_effect": "read"
+    },
+    {
+      "name": "session_control.decompose_primitive",
+      "description": "Decompose complex operations into primitive, atomic, verifiable steps",
+      "side_effect": "read"
+    },
+    {
+      "name": "session_control.align_drift",
+      "description": "Align AI drift back to authorized operating envelope when deviation is detected",
+      "side_effect": "read"
+    },
+    {
+      "name": "session_control.enforce_closed_loop",
+      "description": "Enforce closed-loop learning: every output feeds back into the next iteration",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-session-control-plane skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against runtime sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-session-control-plane"
+  ],
+  "depends_on_workflows": [
+    "amos-session-control-plane-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "runtime",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "b4d1e0373cf141e9",
+  "implementation": {
+    "type": "json",
+    "file": "amos-session-control-plane-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

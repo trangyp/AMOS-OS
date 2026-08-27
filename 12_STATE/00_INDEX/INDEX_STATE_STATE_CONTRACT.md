@@ -54,3 +54,6 @@ node_id: amos_12_state_00_index_index_state_state_contract_md
 node_type: note
 path: 12_STATE/00_INDEX/INDEX_STATE_STATE_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

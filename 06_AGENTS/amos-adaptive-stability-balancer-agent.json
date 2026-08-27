@@ -1,0 +1,167 @@
+{
+  "name": "amos-adaptive-stability-balancer-agent",
+  "display_name": "Adaptive Stability Balancer",
+  "description": "Balance stability-preserving operation against adaptation, scaling, exploration, mutation, and recovery in AMOS runtimes. Use when a system risks collapse from excessive load, recursion, concurrency, memory pressure, dependency degradation, operational pressure, oscillation, uncontrolled adaptation, or excessive rigidity; when deciding whether to freeze, contain, degrade gracefully, maintain, recover, cautiously adapt, scale, or resume normal operation; when resource headroom, observability, resilience, dependency health, damping, saturation, collapse thresholds, or recovery capacity matter; or when amos-os-runtime-master routes a runtime stability decision. Preserve hard safety boundaries, hardware/environment scope, H/M/L coupling, bounded resources, reversibility, provenance, regime validity, and selective recovery. Stability does not mean immobility, and adaptation is never allowed to consume the reserves required for survival.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Adaptive Stability Balancer — Runtime and OS engine within the runtime domain.",
+  "skill_binding": {
+    "primary_skill": "amos-adaptive-stability-balancer",
+    "skill_path": ".devin/skills/amos-adaptive-stability-balancer/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "adaptive_stabil_balancer.evaluate_influence",
+      "description": "Evaluate whether memory may influence a pending action through the AMOS Adaptive Stability Balancer consent, provenance, and risk gates.",
+      "side_effect": "read"
+    },
+    {
+      "name": "adaptive_stabil_balancer.validate_gates",
+      "description": "Validate AMOS Adaptive Stability Balancer decisions against hard partition gates, epistemic class preservation, and consent state requirements.",
+      "side_effect": "read"
+    },
+    {
+      "name": "adaptive_stabil_balancer.analyze_state",
+      "description": "Analyze AMOS Adaptive Stability Balancer memory state: working, episodic, semantic stores, consolidation, and retrieval graph health.",
+      "side_effect": "read"
+    },
+    {
+      "name": "adaptive_stabil_balancer.trace_provenance",
+      "description": "Trace AMOS Adaptive Stability Balancer memory entries to source, encoding operation, consolidation history, and field-level lineage.",
+      "side_effect": "read"
+    },
+    {
+      "name": "adaptive_stabil_balancer.assess_claim",
+      "description": "Assess AMOS Adaptive Stability Balancer memory claims for epistemic class, freshness, contradiction status, and confidence ceiling.",
+      "side_effect": "read"
+    },
+    {
+      "name": "adaptive_stabil_balancer.manage_lifecycle",
+      "description": "Manage AMOS Adaptive Stability Balancer lifecycle: encode, normalize, admit, consolidate, index, retrieve, filter, update.",
+      "side_effect": "write"
+    },
+    {
+      "name": "adaptive_stabil_balancer.detect_drift",
+      "description": "Detect memory drift: stale entries, broken provenance, epistemic class erosion, and context discontinuity.",
+      "side_effect": "read"
+    },
+    {
+      "name": "adaptive_stabil_balancer.escalate_gaps",
+      "description": "Escalate AMOS Adaptive Stability Balancer memory gaps: flag UNKNOWN/GAP entries, quarantine untrusted data, trigger memory repair.",
+      "side_effect": "write"
+    },
+    {
+      "name": "adaptive_stabil_balancer.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    },
+    {
+      "name": "adaptive_stability.monitor_stability",
+      "description": "Monitor runtime stability: drift, oscillation, divergence, and regime transitions",
+      "side_effect": "read"
+    },
+    {
+      "name": "adaptive_stability.calibrate_feedback",
+      "description": "Calibrate feedback control loops to maintain stable operating conditions",
+      "side_effect": "read"
+    },
+    {
+      "name": "adaptive_stability.decompose_primitive",
+      "description": "Decompose complex operations into primitive, atomic, verifiable steps",
+      "side_effect": "read"
+    },
+    {
+      "name": "adaptive_stability.align_drift",
+      "description": "Align AI drift back to authorized operating envelope when deviation is detected",
+      "side_effect": "read"
+    },
+    {
+      "name": "adaptive_stability.enforce_closed_loop",
+      "description": "Enforce closed-loop learning: every output feeds back into the next iteration",
+      "side_effect": "read"
+    },
+    {
+      "name": "adaptive_stability.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "adaptive_stability.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "adaptive_stability.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-adaptive-stability-balancer skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against runtime sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-adaptive-stability-balancer"
+  ],
+  "depends_on_workflows": [
+    "amos-adaptive-stability-balancer-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "runtime",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "7e311933bb030931",
+  "implementation": {
+    "type": "json",
+    "file": "amos-adaptive-stability-balancer-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

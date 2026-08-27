@@ -1,0 +1,117 @@
+{
+  "name": "amos-instinct-pattern-governor-agent",
+  "display_name": "Instinct Pattern Governor",
+  "description": "Instinct Pattern Governor — Instinct/artistic governance engine. Bound to c05 domain. Use when instinct/artistic governance engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Instinct Pattern Governor — Instinct/artistic governance engine within the c05 domain.",
+  "skill_binding": {
+    "primary_skill": "amos-instinct-pattern-governor",
+    "skill_path": ".devin/skills/amos-instinct-pattern-governor/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "instinct_pattern.model_cognition",
+      "description": "Model cognitive processes: attention, awareness, compression, and inference",
+      "side_effect": "read"
+    },
+    {
+      "name": "instinct_pattern.allocate_attention",
+      "description": "Allocate attention resources across competing demands and priorities",
+      "side_effect": "read"
+    },
+    {
+      "name": "instinct_pattern.assess_awareness",
+      "description": "Assess awareness levels: meta-cognition, self-monitoring, and calibration",
+      "side_effect": "read"
+    },
+    {
+      "name": "instinct_pattern.govern_expression",
+      "description": "Govern artistic and emotional expression within healthy bounds",
+      "side_effect": "read"
+    },
+    {
+      "name": "instinct_pattern.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "instinct_pattern.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "instinct_pattern.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-instinct-pattern-governor skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against c05 sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-instinct-pattern-governor"
+  ],
+  "depends_on_workflows": [
+    "amos-instinct-pattern-governor-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "c05",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "0738e583f6d75f14",
+  "implementation": {
+    "type": "json",
+    "file": "amos-instinct-pattern-governor-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

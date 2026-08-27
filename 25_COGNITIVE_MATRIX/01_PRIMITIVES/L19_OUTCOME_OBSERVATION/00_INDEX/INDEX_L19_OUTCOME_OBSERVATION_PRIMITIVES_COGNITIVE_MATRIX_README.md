@@ -51,3 +51,6 @@ node_id: cognitive_matrix_x_l19_outcome_observation_primitives_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION/00_INDEX/INDEX_L19_OUTCOME_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

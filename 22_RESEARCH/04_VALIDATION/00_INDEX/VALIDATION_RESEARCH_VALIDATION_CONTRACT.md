@@ -75,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[INDEX_VALIDATION_RESEARCH_README]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

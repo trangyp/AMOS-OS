@@ -1,13 +1,10 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX PURPOSE
-type: cognitive
-tags: [cognitive_matrix, primitives, l01_sensing_observation, note]
+type: note
+tags: [note, vault]
 ---
 
-
-
----
-tags:
+---tags:
   - amos
   - cognitive-matrix
   - l01

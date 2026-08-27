@@ -54,3 +54,6 @@ node_id: amos_omains_34_health_policy_00_index_index_health_policy_domains_readm
 node_type: note
 path: 21_DOMAINS/34_HEALTH_POLICY/00_INDEX/INDEX_HEALTH_POLICY_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

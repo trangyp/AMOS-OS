@@ -53,3 +53,6 @@ node_id: cognitive_matrix_ycle_operations_o15_observation_00_index_o15_observati
 node_type: note
 path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION/00_INDEX/O15_OBSERVATION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

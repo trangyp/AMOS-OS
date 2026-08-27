@@ -54,3 +54,6 @@ node_id: cp_ransaction_00_index_index_semantic_transaction_control_plane_readme_
 node_type: note
 path: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/00_INDEX/INDEX_SEMANTIC_TRANSACTION_CONTROL_PLANE_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

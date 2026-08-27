@@ -53,3 +53,6 @@ node_id: cognitive_matrix_nitive_matrix_04_scales_l_low_scale_00_index_l_low_sca
 node_type: note
 path: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE/00_INDEX/L_LOW_SCALE_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

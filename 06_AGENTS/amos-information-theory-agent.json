@@ -1,0 +1,122 @@
+{
+  "name": "amos-information-theory-agent",
+  "display_name": "AMOS Information Theory",
+  "description": "AMOS Information Theory — entropy, complexity, information boundaries, information collapse topology, exposure control. Use for information-theoretic analysis, entropy reasoning, or complexity meas",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Information theory: entropy, complexity, information boundaries, uncertainty laws, exposure control.",
+  "skill_binding": {
+    "primary_skill": "amos-information-theory-master",
+    "skill_path": ".devin/skills/amos-information-theory-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "info_theory.measure_entropy",
+      "description": "Measure Shannon entropy, conditional entropy, and mutual information for distributions and signals",
+      "side_effect": "read"
+    },
+    {
+      "name": "info_theory.analyze_complexity",
+      "description": "Analyze Kolmogorov complexity, computational complexity, and information-theoretic complexity bounds",
+      "side_effect": "read"
+    },
+    {
+      "name": "info_theory.map_boundaries",
+      "description": "Map information boundaries: exposure control, information collapse topology, and information geometry",
+      "side_effect": "read"
+    },
+    {
+      "name": "info_theory.assess_claim",
+      "description": "Assess information theory claims for epistemic class, evidence strength, and regime validity",
+      "side_effect": "read"
+    },
+    {
+      "name": "info_theory.manage_lifecycle",
+      "description": "Manage information theory lifecycle: measure, analyze, map, validate, and govern",
+      "side_effect": "read"
+    },
+    {
+      "name": "info_theory.detect_drift",
+      "description": "Detect drift in entropy measurements, complexity bounds, or information boundary consistency",
+      "side_effect": "read"
+    },
+    {
+      "name": "info_theory.classify_claim",
+      "description": "Classify information-theoretic claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP)",
+      "side_effect": "read"
+    },
+    {
+      "name": "info_theory.validate_outputs",
+      "description": "Validate information theory outputs against domain constraints and epistemic class",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "ORIENT: Identify the problem and confirm it matches the information theory scope.",
+      "gate": "scope_confirmed"
+    },
+    {
+      "step": 2,
+      "action": "CLASSIFY: Classify the query against information theory sub-capabilities and frameworks.",
+      "gate": "domain_classified"
+    },
+    {
+      "step": 3,
+      "action": "APPLY: Apply the appropriate information theory framework with epistemic class labeling.",
+      "gate": "framework_applied"
+    },
+    {
+      "step": 4,
+      "action": "CHALLENGE: Challenge results against epistemic firewall and domain-specific invariants.",
+      "gate": "firewall_passed"
+    },
+    {
+      "step": 5,
+      "action": "SYNTHESIZE: Synthesize results with provenance and confidence ceiling.",
+      "gate": "result_synthesized"
+    }
+  ],
+  "integrity_requirements": [
+    "INFORMATION THEORY model != empirical proof: framework is not empirical validation",
+    "Structural mapping != causal proof: mapping is not causation",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Competing hypotheses must be preserved under uncertainty",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-information-theory-master"
+  ],
+  "depends_on_workflows": [
+    "amos-information-theory-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "info",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-information-theory-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "6b6e5f3f9a18b5d6"
+}

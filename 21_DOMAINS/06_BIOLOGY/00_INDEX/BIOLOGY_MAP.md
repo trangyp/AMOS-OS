@@ -56,3 +56,6 @@ node_id: amos_21_domains_06_biology_00_index_biology_map_md
 node_type: note
 path: 21_DOMAINS/06_BIOLOGY/00_INDEX/BIOLOGY_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

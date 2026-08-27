@@ -54,3 +54,6 @@ node_id: amos_22_research_01_papers_00_index_index_papers_research_readme_md
 node_type: note
 path: 22_RESEARCH/01_PAPERS/00_INDEX/INDEX_PAPERS_RESEARCH_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

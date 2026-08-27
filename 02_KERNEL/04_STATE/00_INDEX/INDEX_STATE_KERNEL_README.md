@@ -54,3 +54,6 @@ node_id: amos_02_kernel_04_state_00_index_index_state_kernel_readme_md
 node_type: note
 path: 02_KERNEL/04_STATE/00_INDEX/INDEX_STATE_KERNEL_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

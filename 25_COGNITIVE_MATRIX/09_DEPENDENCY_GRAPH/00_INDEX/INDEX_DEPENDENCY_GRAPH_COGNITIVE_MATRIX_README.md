@@ -51,3 +51,6 @@ node_id: cognitive_matrix_raph_00_index_index_dependency_graph_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/00_INDEX/INDEX_DEPENDENCY_GRAPH_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

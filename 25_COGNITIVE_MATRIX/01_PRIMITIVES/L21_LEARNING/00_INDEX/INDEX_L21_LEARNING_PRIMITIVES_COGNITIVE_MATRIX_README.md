@@ -51,3 +51,6 @@ node_id: cognitive_matrix__index_index_l21_learning_primitives_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING/00_INDEX/INDEX_L21_LEARNING_PRIMITIVES_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

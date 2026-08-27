@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[C04_REASONING_MAP]]
+- [[CONTROL_PLANES_COGNITIVE_MATRIX_C04_REASONING_CONTRACT]]
+- [[INDEX_C04_REASONING_CONTROL_PLANES_COGNITIVE_MATRIX_README]]
+
+---
+**Parent:** [[C04_REASONING_MOC]]

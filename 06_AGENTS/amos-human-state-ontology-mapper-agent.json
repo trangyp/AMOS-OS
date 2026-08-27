@@ -1,0 +1,122 @@
+{
+  "name": "amos-human-state-ontology-mapper-agent",
+  "display_name": "Human State Ontology Mapper",
+  "description": "Human State Ontology Mapper — Canon and universe engine. Bound to canon domain. Use when canon and universe engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Human State Ontology Mapper — Canon and universe engine within the canon domain.",
+  "skill_binding": {
+    "primary_skill": "amos-human-state-ontology-mapper",
+    "skill_path": ".devin/skills/amos-human-state-ontology-mapper/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "human_state.compile_canon",
+      "description": "Compile canonical structure from sources into a consistent, navigable canon",
+      "side_effect": "read"
+    },
+    {
+      "name": "human_state.check_consistency",
+      "description": "Check canon consistency: no contradictions, no gaps, no orphan references",
+      "side_effect": "read"
+    },
+    {
+      "name": "human_state.enforce_invariant",
+      "description": "Enforce canon invariants: structural laws that must hold across all parts",
+      "side_effect": "read"
+    },
+    {
+      "name": "human_state.navigate_canon",
+      "description": "Navigate canon: locate the canonical part for any topic or query",
+      "side_effect": "read"
+    },
+    {
+      "name": "human_state.validate_substrate",
+      "description": "Validate canonical software substrate against canon requirements",
+      "side_effect": "read"
+    },
+    {
+      "name": "human_state.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "human_state.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "human_state.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-human-state-ontology-mapper skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against canon sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-human-state-ontology-mapper"
+  ],
+  "depends_on_workflows": [
+    "amos-human-state-ontology-mapper-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "canon",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "6f6e3013d942aba4",
+  "implementation": {
+    "type": "json",
+    "file": "amos-human-state-ontology-mapper-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

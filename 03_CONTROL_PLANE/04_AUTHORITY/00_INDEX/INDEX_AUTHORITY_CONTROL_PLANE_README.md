@@ -54,3 +54,6 @@ node_id: cp_ol_plane_04_authority_00_index_index_authority_control_plane_readme_
 node_type: note
 path: 03_CONTROL_PLANE/04_AUTHORITY/00_INDEX/INDEX_AUTHORITY_CONTROL_PLANE_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

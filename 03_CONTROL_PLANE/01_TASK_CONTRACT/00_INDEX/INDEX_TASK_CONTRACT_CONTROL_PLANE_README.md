@@ -54,3 +54,6 @@ node_id: cp__01_task_contract_00_index_index_task_contract_control_plane_readme_
 node_type: note
 path: 03_CONTROL_PLANE/01_TASK_CONTRACT/00_INDEX/INDEX_TASK_CONTRACT_CONTROL_PLANE_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

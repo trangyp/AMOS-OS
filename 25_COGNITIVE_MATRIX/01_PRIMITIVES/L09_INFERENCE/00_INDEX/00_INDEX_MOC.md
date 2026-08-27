@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[INDEX_L09_INFERENCE_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L09_INFERENCE_MAP]]
+- [[PRIMITIVES_COGNITIVE_MATRIX_L09_INFERENCE_CONTRACT]]
+
+---
+**Parent:** [[L09_INFERENCE_MOC]]

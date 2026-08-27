@@ -53,3 +53,6 @@ node_id: cognitive_matrix_03_control_planes_c07_perception_00_index_c07_percepti
 node_type: note
 path: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C07_PERCEPTION/00_INDEX/C07_PERCEPTION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

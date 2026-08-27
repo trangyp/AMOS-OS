@@ -56,3 +56,6 @@ node_id: amos_23_operating_model_02_decision_rights_00_index_decision_rights_map
 node_type: note
 path: 23_OPERATING_MODEL/02_DECISION_RIGHTS/00_INDEX/DECISION_RIGHTS_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

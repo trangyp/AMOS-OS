@@ -54,3 +54,6 @@ node_id: amos_21_domains_10_custom_00_index_index_custom_domains_readme_md
 node_type: note
 path: 21_DOMAINS/10_CUSTOM/00_INDEX/INDEX_CUSTOM_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

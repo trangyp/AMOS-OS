@@ -1,0 +1,32 @@
+---
+title: brain consistency auditor
+type: reference
+tags: [reference, amos-audit-repair-master]
+---
+
+# Brain Consistency Auditor Agent
+
+> Source: `_00_Cosmo brain/brain/B/Brain_Consistency_Auditor_Agent.md`
+> Epistemic class: SOURCE_DERIVED
+
+---
+title: "Brain_Consistency_Auditor_Agent"
+created: "2026-08-22"
+origin_architect: "Trang Phan"
+type: "bridge"
+tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/brain-consistency-auditor-agent, brain]
+status: "index"
+provenance: "SOURCE_CLAIM"
+confidence: "VERIFIED"
+---
+
+# Brain_Consistency_Auditor_Agent
+
+> Bridge note — resolves the `Brain_Consistency_Auditor_Agent` link from the Cosmo Brain MOC / daily notes to the real agent in the vault.
+
+**Location:** `.devin/agents/Brain_Consistency_Auditor_Agent.md`
+
+- Open the agent: .devin/agents/Brain_Consistency_Auditor_Agent.md
+
+---
+**MOC:** [[references_MOC]]

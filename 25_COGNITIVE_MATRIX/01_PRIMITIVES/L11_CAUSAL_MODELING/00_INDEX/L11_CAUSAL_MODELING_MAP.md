@@ -53,3 +53,6 @@ node_id: cognitive_matrix_mitives_l11_causal_modeling_00_index_l11_causal_modeli
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L11_CAUSAL_MODELING/00_INDEX/L11_CAUSAL_MODELING_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

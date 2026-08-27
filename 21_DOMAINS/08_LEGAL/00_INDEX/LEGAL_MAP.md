@@ -56,3 +56,6 @@ node_id: amos_21_domains_08_legal_00_index_legal_map_md
 node_type: note
 path: 21_DOMAINS/08_LEGAL/00_INDEX/LEGAL_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

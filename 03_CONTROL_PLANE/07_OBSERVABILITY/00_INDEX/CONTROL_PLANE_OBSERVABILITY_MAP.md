@@ -56,3 +56,6 @@ node_id: cp_rol_plane_07_observability_00_index_control_plane_observability_map_
 node_type: note
 path: 03_CONTROL_PLANE/07_OBSERVABILITY/00_INDEX/CONTROL_PLANE_OBSERVABILITY_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

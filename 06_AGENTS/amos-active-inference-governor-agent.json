@@ -1,0 +1,157 @@
+{
+  "name": "amos-active-inference-governor-agent",
+  "display_name": "Active Inference Governor",
+  "description": "Active Inference Governor — Active inference governance engine. Bound to c05 domain. Use when active inference governance engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Active Inference Governor — Active inference governance engine within the c05 domain.",
+  "skill_binding": {
+    "primary_skill": "amos-active-inference-governor",
+    "skill_path": ".devin/skills/amos-active-inference-governor/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "aig.run_governed_loop",
+      "description": "Execute the 10-step governed perception-belief-action loop (OBSERVE -> INFER -> COMPARE -> GENERATE -> GOVERN -> SELECT -> ACT_OR_OBSERVE -> MEASURE -> UPDATE -> STOP_OR_CONTINUE) with every transition bounded by evidence, uncertainty, authority, safety, and scope.",
+      "side_effect": "read"
+    },
+    {
+      "name": "aig.evaluate_governance_pass",
+      "description": "Evaluate whether a candidate action passes the governance gate: ConstraintPass AND AuthorityPass AND SafetyPass AND PolicyPass AND ScopePass AND EvidencePass AND ReversibilityPass. Reject actions that fail any gate regardless of predicted benefit.",
+      "side_effect": "read"
+    },
+    {
+      "name": "aig.preserve_competing_hypotheses",
+      "description": "Preserve at least one competing explanation when evidence is weak, stakes are high, interpretations imply different actions, or provenance is correlated. Maintain COMPETING status until discriminating evidence appears.",
+      "side_effect": "read"
+    },
+    {
+      "name": "aig.enforce_epistemic_firewall",
+      "description": "Enforce the active-inference epistemic firewall: ACTIVE_INFERENCE_MODEL != BIOLOGICAL_PROOF, PREDICTION_ERROR != OBJECTIVE_ERROR, BELIEF_UPDATE != TRUTH, PREFERRED_STATE != AUTHORIZED_STATE, ACTION_SELECTION != ACTION_AUTHORITY, SYSTEM_HOMEOSTASIS != CONSCIOUSNESS.",
+      "side_effect": "read"
+    },
+    {
+      "name": "aig.detect_failure_modes",
+      "description": "Detect active-inference failure modes including MODEL_CAPTURE, PREDICTION_LOCK, CONFIRMATION_LOOP, PROXY_OPTIMIZATION, BELIEF_OVERCONFIDENCE, ACTION_BIAS, GOAL_DRIFT, AUTHORITY_DRIFT, SELF_CONFIRMING_ACTION, REWARD_HACKING, and ENDLESS_LOOP.",
+      "side_effect": "read"
+    },
+    {
+      "name": "aig.select_smallest_sufficient_action",
+      "description": "Select the smallest sufficient admissible action considering expected usefulness, uncertainty reduction, risk, reversibility, cost, authority, and downstream dependencies. Prefer reversible information-gathering actions under uncertainty. NO_ACTION is a valid governed outcome.",
+      "side_effect": "read"
+    },
+    {
+      "name": "aig.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "aig.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "aig.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "OBSERVE: Collect observations from the environment.",
+      "gate": "observations_collected"
+    },
+    {
+      "step": 2,
+      "action": "INFER: Update beliefs based on observations.",
+      "gate": "beliefs_updated"
+    },
+    {
+      "step": 3,
+      "action": "COMPARE: Compute prediction error against expected state.",
+      "gate": "prediction_error_computed"
+    },
+    {
+      "step": 4,
+      "action": "GENERATE: Generate candidate actions.",
+      "gate": "candidates_generated"
+    },
+    {
+      "step": 5,
+      "action": "GOVERN: Evaluate governance gates (Constraint, Authority, Safety, Policy, Scope, Evidence, Reversibility).",
+      "gate": "governance_evaluated"
+    },
+    {
+      "step": 6,
+      "action": "SELECT: Select smallest sufficient admissible action. NO_ACTION is valid.",
+      "gate": "action_selected"
+    },
+    {
+      "step": 7,
+      "action": "ACT_OR_OBSERVE: Execute action or continue observing.",
+      "gate": "decision_made"
+    },
+    {
+      "step": 8,
+      "action": "MEASURE: Measure outcome and prediction error.",
+      "gate": "outcome_measured"
+    },
+    {
+      "step": 9,
+      "action": "UPDATE: Update beliefs and model based on outcome.",
+      "gate": "model_updated"
+    },
+    {
+      "step": 10,
+      "action": "STOP_OR_CONTINUE: Decide whether to stop or continue the loop.",
+      "gate": "loop_decision"
+    }
+  ],
+  "integrity_requirements": [
+    "ACTIVE_INFERENCE_MODEL != BIOLOGICAL_PROOF: model is not biological proof",
+    "PREDICTION_ERROR != OBJECTIVE_ERROR: prediction error is not objective error",
+    "BELIEF_UPDATE != TRUTH: belief update is not truth",
+    "PREFERRED_STATE != AUTHORIZED_STATE: preference is not authorization",
+    "ACTION_SELECTION != ACTION_AUTHORITY: selection is not authority",
+    "SYSTEM_HOMEOSTASIS != CONSCIOUSNESS: homeostasis is not consciousness",
+    "Capability != Authority: having a capability does not authorize its use",
+    "NO_ACTION is a valid governed outcome",
+    "Competing hypotheses must be preserved under uncertainty",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-active-inference-governor"
+  ],
+  "depends_on_workflows": [
+    "amos-active-inference-governor-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "c05",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "2a3ad14129e44647",
+  "implementation": {
+    "type": "python",
+    "file": "cosmo-brain/amos_v1_production/active_inference_governor_agent.py",
+    "class": "ActiveInferenceGovernorAgent",
+    "executable": true
+  }
+}

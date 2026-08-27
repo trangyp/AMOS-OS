@@ -1,0 +1,112 @@
+{
+  "name": "amos-emergent-social-intelligence-risk-rscf-agent",
+  "display_name": "Emergent Social Intelligence Risk Rscf",
+  "description": "Emergent Social Intelligence Risk Rscf — Society-culture engine. Bound to c06 domain. Use when society-culture engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Emergent Social Intelligence Risk Rscf — Society-culture engine within the c06 domain.",
+  "skill_binding": {
+    "primary_skill": "amos-emergent-social-intelligence-risk-rscf",
+    "skill_path": ".devin/skills/amos-emergent-social-intelligence-risk-rscf/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "emergent_social.analyze_social",
+      "description": "Analyze emergent social intelligence: norms, networks, and cultural dynamics",
+      "side_effect": "read"
+    },
+    {
+      "name": "emergent_social.model_heritage",
+      "description": "Model heritage decision intelligence: tradition, continuity, and adaptation",
+      "side_effect": "read"
+    },
+    {
+      "name": "emergent_social.assess_language",
+      "description": "Assess language as equation: semantic structure, pragmatic force, and drift",
+      "side_effect": "read"
+    },
+    {
+      "name": "emergent_social.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "emergent_social.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "emergent_social.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-emergent-social-intelligence-risk-rscf skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against c06 sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-emergent-social-intelligence-risk-rscf"
+  ],
+  "depends_on_workflows": [
+    "amos-emergent-social-intelligence-risk-rscf-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "c06",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "b212fadb262379b9",
+  "implementation": {
+    "type": "json",
+    "file": "amos-emergent-social-intelligence-risk-rscf-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

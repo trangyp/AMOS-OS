@@ -55,3 +55,6 @@ node_id: amos_7_observability_00_index_index_observability_observability_contrac
 node_type: note
 path: 17_OBSERVABILITY/00_INDEX/INDEX_OBSERVABILITY_OBSERVABILITY_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

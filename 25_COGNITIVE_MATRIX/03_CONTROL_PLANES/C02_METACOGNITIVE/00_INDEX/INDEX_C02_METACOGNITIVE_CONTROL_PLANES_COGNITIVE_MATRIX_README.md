@@ -51,3 +51,6 @@ node_id: cognitive_matrix_dex_c02_metacognitive_control_planes_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C02_METACOGNITIVE/00_INDEX/INDEX_C02_METACOGNITIVE_CONTROL_PLANES_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

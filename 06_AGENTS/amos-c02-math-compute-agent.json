@@ -1,0 +1,136 @@
+{
+  "name": "amos-c02-math-compute-agent",
+  "display_name": "AMOS C02 Math & Compute",
+  "description": "AMOS C02 Math & Compute — 10 knowledge families: problem framing, numerical methods, probability/statistics, optimization, complexity, control systems, signal processing, simulation, meta-control,",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Mathematical computation, numerical methods, probability, optimization, proof validation, equation firewall enforcement.",
+  "skill_binding": {
+    "primary_skill": "amos-c02-math-compute-master",
+    "skill_path": ".devin/skills/amos-c02-math-compute-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "c02_math_compute.compute_information",
+      "description": "Compute AMOS C02 Math & Compute information metrics: Shannon entropy, mutual information, KL divergence, channel capacity.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c02_math_compute.validate_information",
+      "description": "Validate AMOS C02 Math & Compute information outputs against entropy bounds, complexity limits, and uncertainty principles.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c02_math_compute.analyze_information",
+      "description": "Analyze AMOS C02 Math & Compute information structure: entropy distribution, complexity hierarchy, and information flow.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c02_math_compute.trace_information_provenance",
+      "description": "Trace AMOS C02 Math & Compute information findings to source data, entropy measurements, and complexity calculations.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c02_math_compute.assess_information_claim",
+      "description": "Assess AMOS C02 Math & Compute information claims for established math vs model-derived, scope, and measurement validity.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c02_math_compute.manage_information_lifecycle",
+      "description": "Manage AMOS C02 Math & Compute information lifecycle: measure, classify, validate, compare, and finalize.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c02_math_compute.detect_information_drift",
+      "description": "Detect information drift: entropy growth, complexity change, channel degradation, and uncertainty shift.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c02_math_compute.escalate_information_gaps",
+      "description": "Escalate AMOS C02 Math & Compute information gaps: flag unmeasurable quantities, require new measurements, trigger repair.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c02_math_compute.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c02_math_compute.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c02_math_compute.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "DIMENSIONAL ANALYSIS: Apply dimensional analysis within the C02 math compute domain.",
+      "gate": "dimensional_analysis_complete"
+    },
+    {
+      "step": 2,
+      "action": "BACK OF ENVELOPE ESTIMATION: Apply back of envelope estimation within the C02 math compute domain.",
+      "gate": "back_of_envelope_estimation_complete"
+    },
+    {
+      "step": 3,
+      "action": "SENSITIVITY ANALYSIS: Apply sensitivity analysis within the C02 math compute domain.",
+      "gate": "sensitivity_analysis_complete"
+    },
+    {
+      "step": 4,
+      "action": "BASIC OPTIMIZATION: Apply basic optimization within the C02 math compute domain.",
+      "gate": "basic_optimization_complete"
+    },
+    {
+      "step": 5,
+      "action": "STABILITY AND CONVERGENCE CHECKS: Apply stability and convergence checks within the C02 math compute domain.",
+      "gate": "stability_and_convergence_checks_complete"
+    }
+  ],
+  "integrity_requirements": [
+    "risk of false precision if input is very uncertain: this risk must be bounded by explicit gates",
+    "easy to overfit models without domain context: this risk must be bounded by explicit gates",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-c02-math-compute-master"
+  ],
+  "depends_on_workflows": [
+    "amos-c02-math-compute-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "math",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-c02-math-compute-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "b3801c759de91daa"
+}

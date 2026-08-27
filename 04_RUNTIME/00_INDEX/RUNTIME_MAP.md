@@ -56,3 +56,6 @@ node_id: amos_04_runtime_00_index_runtime_map_md
 node_type: note
 path: 04_RUNTIME/00_INDEX/RUNTIME_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

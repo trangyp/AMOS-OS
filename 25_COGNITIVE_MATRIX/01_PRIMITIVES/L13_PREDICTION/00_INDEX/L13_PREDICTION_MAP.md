@@ -53,3 +53,6 @@ node_id: cognitive_matrix_rix_01_primitives_l13_prediction_00_index_l13_predicti
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L13_PREDICTION/00_INDEX/L13_PREDICTION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

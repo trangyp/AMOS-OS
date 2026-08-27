@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[GOVERNANCE_FORUMS_MAP]]
+- [[GOVERNANCE_FORUMS_OPERATING_MODEL_GOVERNANCE_FORUMS_CONTRACT]]
+- [[INDEX_GOVERNANCE_FORUMS_OPERATING_MODEL_README]]
+
+---
+**Parent:** [[03_GOVERNANCE_FORUMS_MOC]]

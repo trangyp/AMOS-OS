@@ -53,3 +53,6 @@ node_id: cognitive_matrix_ecycle_operations_o08_prediction_00_index_o08_predicti
 node_type: note
 path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O08_PREDICTION/00_INDEX/O08_PREDICTION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

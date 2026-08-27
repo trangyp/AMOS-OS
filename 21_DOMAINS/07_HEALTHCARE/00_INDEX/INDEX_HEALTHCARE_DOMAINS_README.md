@@ -54,3 +54,6 @@ node_id: amos_21_domains_07_healthcare_00_index_index_healthcare_domains_readme_
 node_type: note
 path: 21_DOMAINS/07_HEALTHCARE/00_INDEX/INDEX_HEALTHCARE_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

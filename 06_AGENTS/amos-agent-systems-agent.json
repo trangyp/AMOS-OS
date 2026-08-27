@@ -1,0 +1,137 @@
+{
+  "name": "amos-agent-systems-agent",
+  "display_name": "AMOS Agent Systems",
+  "description": "AMOS Agent Systems — agent fabrication, delegation, agency-consequence tensors, agent economy governance, agent-to-agent protocols. Use for agent design, delegation reasoning, or multi-agent govern",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Agent systems: agent fabrication, delegation, agency-consequence tensors, agent economy governance.",
+  "skill_binding": {
+    "primary_skill": "amos-agent-systems-master",
+    "skill_path": ".devin/skills/amos-agent-systems-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "agent_systems.fabricate_agent",
+      "description": "Fabricate agents with proper schema: capabilities, side-effect classification, governance metadata, and content hash.",
+      "side_effect": "write"
+    },
+    {
+      "name": "agent_systems.delegate_task",
+      "description": "Delegate tasks to subordinate agents with scope bounds, authority gates, and consequence tensor tracking.",
+      "side_effect": "write"
+    },
+    {
+      "name": "agent_systems.validate_agent_composition",
+      "description": "Validate agent composition: MECE coverage, skill binding integrity, capability bounds, and governance metadata.",
+      "side_effect": "read"
+    },
+    {
+      "name": "agent_systems.trace_agent_provenance",
+      "description": "Trace agent capabilities, content, and delegation chain to source skills and vault provenance.",
+      "side_effect": "read"
+    },
+    {
+      "name": "agent_systems.assess_agent_claim",
+      "description": "Assess agent claims for epistemic class, capability scope, authority bounds, and lifecycle status.",
+      "side_effect": "read"
+    },
+    {
+      "name": "agent_systems.manage_agent_lifecycle",
+      "description": "Manage agent lifecycle: fabricate, activate, promote, retire, and archive with provenance tracking.",
+      "side_effect": "write"
+    },
+    {
+      "name": "agent_systems.detect_agent_drift",
+      "description": "Detect agent drift: capability creep, scope expansion, governance decay, and content hash tampering.",
+      "side_effect": "read"
+    },
+    {
+      "name": "agent_systems.escalate_agent_gaps",
+      "description": "Escalate agent gaps: flag orphan agents, broken skill bindings, missing capabilities, trigger repair.",
+      "side_effect": "write"
+    },
+    {
+      "name": "agent_systems.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "agent_systems.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "agent_systems.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "ORIENT: Identify the problem and confirm it matches the agent systems scope.",
+      "gate": "scope_confirmed"
+    },
+    {
+      "step": 2,
+      "action": "CLASSIFY: Classify the query against agent systems sub-capabilities and frameworks.",
+      "gate": "domain_classified"
+    },
+    {
+      "step": 3,
+      "action": "APPLY: Apply the appropriate agent systems framework with epistemic class labeling.",
+      "gate": "framework_applied"
+    },
+    {
+      "step": 4,
+      "action": "CHALLENGE: Challenge results against epistemic firewall and domain-specific invariants.",
+      "gate": "firewall_passed"
+    },
+    {
+      "step": 5,
+      "action": "SYNTHESIZE: Synthesize results with provenance and confidence ceiling.",
+      "gate": "result_synthesized"
+    }
+  ],
+  "integrity_requirements": [
+    "AGENT SYSTEMS model != empirical proof: framework is not empirical validation",
+    "Structural mapping != causal proof: mapping is not causation",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Competing hypotheses must be preserved under uncertainty",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-agent-systems-master"
+  ],
+  "depends_on_workflows": [
+    "amos-agent-systems-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "agent",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-agent-systems-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "57b4c9142fe3ecc7"
+}

@@ -56,3 +56,6 @@ node_id: amos_21_domains_13_c03_physics_cosmos_00_index_c03_physics_cosmos_map_m
 node_type: note
 path: 21_DOMAINS/13_C03_PHYSICS_COSMOS/00_INDEX/C03_PHYSICS_COSMOS_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

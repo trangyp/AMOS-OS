@@ -53,3 +53,6 @@ node_id: cognitive_matrix__lifecycle_operations_o16_learning_00_index_o16_learni
 node_type: note
 path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O16_LEARNING/00_INDEX/O16_LEARNING_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -53,3 +53,6 @@ node_id: cognitive_matrix_mitives_l24_self_regulation_00_index_l24_self_regulati
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION/00_INDEX/L24_SELF_REGULATION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

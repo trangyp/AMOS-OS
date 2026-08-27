@@ -56,3 +56,6 @@ node_id: amos_10_memory_00_index_memory_memory_map_md
 node_type: note
 path: 10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

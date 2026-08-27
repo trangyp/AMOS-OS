@@ -54,3 +54,6 @@ node_id: amos_odel_04_escalation_00_index_index_escalation_operating_model_readm
 node_type: note
 path: 23_OPERATING_MODEL/04_ESCALATION/00_INDEX/INDEX_ESCALATION_OPERATING_MODEL_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

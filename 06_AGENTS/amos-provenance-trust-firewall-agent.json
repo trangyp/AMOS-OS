@@ -1,0 +1,122 @@
+{
+  "name": "amos-provenance-trust-firewall-agent",
+  "display_name": "Provenance Trust Firewall",
+  "description": "Provenance Trust Firewall — Security and trust engine. Bound to security domain. Use when security and trust engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Provenance Trust Firewall — Security and trust engine within the security domain.",
+  "skill_binding": {
+    "primary_skill": "amos-provenance-trust-firewall",
+    "skill_path": ".devin/skills/amos-provenance-trust-firewall/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "provenance_trust.detect_adversary",
+      "description": "Detect adversarial activity: attacks, probes, and manipulation attempts",
+      "side_effect": "read"
+    },
+    {
+      "name": "provenance_trust.quantify_entropy",
+      "description": "Quantify adversarial entropy: uncertainty, information leakage, and attack surface",
+      "side_effect": "read"
+    },
+    {
+      "name": "provenance_trust.govern_trust",
+      "description": "Govern principal-trust relationships: delegation, revocation, and audit",
+      "side_effect": "read"
+    },
+    {
+      "name": "provenance_trust.monitor_attack",
+      "description": "Monitor distributed attack composition: multi-stage, multi-vector threats",
+      "side_effect": "read"
+    },
+    {
+      "name": "provenance_trust.replay_provenance",
+      "description": "Replay execution provenance: trace and verify every action for integrity",
+      "side_effect": "read"
+    },
+    {
+      "name": "provenance_trust.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "provenance_trust.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "provenance_trust.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-provenance-trust-firewall skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against security sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-provenance-trust-firewall"
+  ],
+  "depends_on_workflows": [
+    "amos-provenance-trust-firewall-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "security",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "72cca1505548bc82",
+  "implementation": {
+    "type": "json",
+    "file": "amos-provenance-trust-firewall-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

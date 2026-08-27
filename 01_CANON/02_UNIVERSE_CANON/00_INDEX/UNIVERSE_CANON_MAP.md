@@ -56,3 +56,6 @@ node_id: amos_01_canon_02_universe_canon_00_index_universe_canon_map_md
 node_type: note
 path: 01_CANON/02_UNIVERSE_CANON/00_INDEX/UNIVERSE_CANON_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

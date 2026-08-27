@@ -53,3 +53,6 @@ node_id: cognitive_matrix_ct_entity_formation_00_index_l04_object_entity_formati
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/00_INDEX/L04_OBJECT_ENTITY_FORMATION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

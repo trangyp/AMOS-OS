@@ -1,0 +1,161 @@
+{
+  "name": "amos-biology-quantum-bridge-governor-agent",
+  "display_name": "Biology-Quantum Bridge Governor",
+  "description": "Bridges C04 biological systems with C03 quantum physics models. Creates governed translation layer with anti-overclaim firewall: all mappings are MODEL/METAPHOR, never physical predictions.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Biology-Quantum Bridge Governor — cross-domain engine bridging C04 Bio-Neuro and C03 Physics-Cosmos with anti-overclaim firewall.",
+  "skill_binding": {
+    "primary_skill": "amos-biology-quantum-bridge-governor",
+    "skill_path": ".devin/skills/amos-biology-quantum-bridge-governor/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "bq_bridge.translate_bio_to_quantum",
+      "description": "Translate biological concept into quantum-mechanical analogue with MODEL/METAPHOR label.",
+      "side_effect": "read"
+    },
+    {
+      "name": "bq_bridge.translate_quantum_to_bio",
+      "description": "Translate quantum concept into biological analogue with MODEL/METAPHOR label.",
+      "side_effect": "read"
+    },
+    {
+      "name": "bq_bridge.govern_bridge",
+      "description": "Govern the biology-quantum bridge. Enforces anti-overclaim firewall. Returns BRIDGE_PERMITTED/BLOCKED/CONDITIONAL.",
+      "side_effect": "read"
+    },
+    {
+      "name": "bq_bridge.detect_overclaim",
+      "description": "Detect overclaim in quantum-biological reasoning.",
+      "side_effect": "read"
+    },
+    {
+      "name": "bq_bridge.validate_firewall",
+      "description": "Validate that anti-overclaim firewall is preserved across all mappings.",
+      "side_effect": "read"
+    },
+    {
+      "name": "bq_bridge.trace_mapping_provenance",
+      "description": "Trace provenance of a bio-quantum mapping from source to target domain.",
+      "side_effect": "read"
+    },
+    {
+      "name": "bq_bridge.assess_mapping_claim",
+      "description": "Assess a bio-quantum mapping for epistemic class, metaphor status, and overclaim risk.",
+      "side_effect": "read"
+    },
+    {
+      "name": "bq_bridge.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "bq_bridge.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration across the bridge.",
+      "side_effect": "read"
+    },
+    {
+      "name": "bq_bridge.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-biology-quantum-bridge-governor skill",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query: which bridge direction is needed (bio to quantum, quantum to bio, govern, detect overclaim)",
+      "gate": "direction_identified"
+    },
+    {
+      "step": 3,
+      "action": "Execute the requested bridge transition with MODEL/METAPHOR labeling",
+      "gate": "transition_executed"
+    },
+    {
+      "step": 4,
+      "action": "Validate anti-overclaim firewall preservation (G7) and overclaim detection (G8)",
+      "gate": "firewall_validated"
+    },
+    {
+      "step": 5,
+      "action": "Trace provenance chain across the bio-quantum bridge",
+      "gate": "provenance_traced"
+    },
+    {
+      "step": 6,
+      "action": "Assess mapping claim for epistemic class and overclaim risk",
+      "gate": "claim_assessed"
+    },
+    {
+      "step": 7,
+      "action": "Detect drift in bio-quantum mapping evidence",
+      "gate": "drift_checked"
+    },
+    {
+      "step": 8,
+      "action": "Validate results against all 10 validation gates (G1-G10)",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 9,
+      "action": "Present results with bridge verdict, provenance chain, overclaim flags, and firewall status",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within or across the bio-quantum bridge",
+    "Epistemic class: all mappings labeled MODEL/METAPHOR — no promotion to VERIFIED without evidence",
+    "Provenance: source path recorded for every mapping including source domain and mapping type",
+    "Anti-overreach: no mapping promoted beyond MODEL — no physical prediction from metaphor",
+    "Firewall preservation: anti-overclaim firewall preserved across all mappings",
+    "Overclaim detection: no quantum entanglement as causal evidence — no consciousness claims from quantum biology",
+    "Metaphor discipline: mappings generate diagnostic questions, not physical predictions",
+    "Bidirectional provenance: full chain traceable in both directions",
+    "Failure mode: on validation failure, downgrade, flag, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate mappings",
+    "No MODEL/METAPHOR promotion to VERIFIED without independent evidence",
+    "No physical predictions from metaphor mappings",
+    "No causal claims from quantum analogies",
+    "No consciousness claims from quantum biology",
+    "No broken provenance: full chain must be traceable in both directions"
+  ],
+  "depends_on_skills": [
+    "amos-biology-quantum-bridge-governor"
+  ],
+  "depends_on_workflows": [
+    "amos-biology-quantum-bridge-governor-workflow.md"
+  ],
+  "epistemic_class": "SOURCE_CLAIM",
+  "claim_ceiling": 0.85,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "cross-domain",
+    "risk_tier": "high",
+    "observability": "structured_logs+bridge_trace+provenance_chain+overclaim_audit",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "96b2d2a7ac745147",
+  "implementation": {
+    "type": "json",
+    "file": "amos-biology-quantum-bridge-governor-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

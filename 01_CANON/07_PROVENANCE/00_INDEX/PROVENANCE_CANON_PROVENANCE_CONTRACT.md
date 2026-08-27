@@ -75,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[INDEX_PROVENANCE_CANON_README]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

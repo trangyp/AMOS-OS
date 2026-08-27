@@ -1,0 +1,122 @@
+{
+  "name": "amos-ethics-os-governor-agent",
+  "display_name": "Ethics Os Governor",
+  "description": "Ethics Os Governor — Ethics governance engine. Bound to c09 domain. Use when ethics governance engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Ethics Os Governor — Ethics governance engine within the c09 domain.",
+  "skill_binding": {
+    "primary_skill": "amos-ethics-os-governor",
+    "skill_path": ".devin/skills/amos-ethics-os-governor/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "ethics.govern_ethics",
+      "description": "Govern ethical decisions: principles, consequences, and procedural fairness",
+      "side_effect": "read"
+    },
+    {
+      "name": "ethics.enforce_risk_constraint",
+      "description": "Enforce risk constraints: acceptable risk, risk budget, and risk escalation",
+      "side_effect": "read"
+    },
+    {
+      "name": "ethics.assess_trust",
+      "description": "Assess trust formation: evidence, reputation, and accountability mechanisms",
+      "side_effect": "read"
+    },
+    {
+      "name": "ethics.evaluate_action",
+      "description": "Evaluate action impact across 6 ethical integrity axes",
+      "side_effect": "read"
+    },
+    {
+      "name": "ethics.classify_decision",
+      "description": "Classify ethical decisions: ALLOW, CONDITIONAL, or BLOCK",
+      "side_effect": "read"
+    },
+    {
+      "name": "ethics.detect_drift",
+      "description": "Detect drift in ethical policy, axis weights, or threshold calibration",
+      "side_effect": "read"
+    },
+    {
+      "name": "ethics.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "ethics.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-ethics-os-governor skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against c09 sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-ethics-os-governor"
+  ],
+  "depends_on_workflows": [
+    "amos-ethics-os-governor-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "c09",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "3cf428aca2c5d554",
+  "implementation": {
+    "type": "json",
+    "file": "amos-ethics-os-governor-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

@@ -56,3 +56,6 @@ node_id: amos_operating_model_03_governance_forums_00_index_governance_forums_ma
 node_type: note
 path: 23_OPERATING_MODEL/03_GOVERNANCE_FORUMS/00_INDEX/GOVERNANCE_FORUMS_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

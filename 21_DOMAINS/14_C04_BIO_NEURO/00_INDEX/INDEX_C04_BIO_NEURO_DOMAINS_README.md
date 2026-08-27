@@ -54,3 +54,6 @@ node_id: amos_omains_14_c04_bio_neuro_00_index_index_c04_bio_neuro_domains_readm
 node_type: note
 path: 21_DOMAINS/14_C04_BIO_NEURO/00_INDEX/INDEX_C04_BIO_NEURO_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

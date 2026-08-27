@@ -1,0 +1,127 @@
+{
+  "name": "amos-security-safety-agent",
+  "display_name": "AMOS Security & Safety",
+  "description": "AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, immune systems, drift alignment. Use for security analysis, safety verification, or adversarial defense.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Security and safety: adversarial robustness, privacy, safety firewalls, immune systems, drift alignment.",
+  "skill_binding": {
+    "primary_skill": "amos-security-safety-master",
+    "skill_path": ".devin/skills/amos-security-safety-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "security_safety.evaluate_influence",
+      "description": "Evaluate whether memory may influence a pending action through the AMOS Security & Safety consent, provenance, and risk gates.",
+      "side_effect": "read"
+    },
+    {
+      "name": "security_safety.validate_gates",
+      "description": "Validate AMOS Security & Safety decisions against hard partition gates, epistemic class preservation, and consent state requirements.",
+      "side_effect": "read"
+    },
+    {
+      "name": "security_safety.analyze_state",
+      "description": "Analyze AMOS Security & Safety memory state: working, episodic, semantic stores, consolidation, and retrieval graph health.",
+      "side_effect": "read"
+    },
+    {
+      "name": "security_safety.trace_provenance",
+      "description": "Trace AMOS Security & Safety memory entries to source, encoding operation, consolidation history, and field-level lineage.",
+      "side_effect": "read"
+    },
+    {
+      "name": "security_safety.assess_claim",
+      "description": "Assess AMOS Security & Safety memory claims for epistemic class, freshness, contradiction status, and confidence ceiling.",
+      "side_effect": "read"
+    },
+    {
+      "name": "security_safety.manage_lifecycle",
+      "description": "Manage AMOS Security & Safety lifecycle: encode, normalize, admit, consolidate, index, retrieve, filter, update.",
+      "side_effect": "read"
+    },
+    {
+      "name": "security_safety.detect_drift",
+      "description": "Detect memory drift: stale entries, broken provenance, epistemic class erosion, and context discontinuity.",
+      "side_effect": "read"
+    },
+    {
+      "name": "security_safety.escalate_gaps",
+      "description": "Escalate AMOS Security & Safety memory gaps: flag UNKNOWN/GAP entries, quarantine untrusted data, trigger memory repair.",
+      "side_effect": "read"
+    },
+    {
+      "name": "security_safety.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "ORIENT: Identify the problem and confirm it matches the security safety scope.",
+      "gate": "scope_confirmed"
+    },
+    {
+      "step": 2,
+      "action": "CLASSIFY: Classify the query against security safety sub-capabilities and frameworks.",
+      "gate": "domain_classified"
+    },
+    {
+      "step": 3,
+      "action": "APPLY: Apply the appropriate security safety framework with epistemic class labeling.",
+      "gate": "framework_applied"
+    },
+    {
+      "step": 4,
+      "action": "CHALLENGE: Challenge results against epistemic firewall and domain-specific invariants.",
+      "gate": "firewall_passed"
+    },
+    {
+      "step": 5,
+      "action": "SYNTHESIZE: Synthesize results with provenance and confidence ceiling.",
+      "gate": "result_synthesized"
+    }
+  ],
+  "integrity_requirements": [
+    "SECURITY SAFETY model != empirical proof: framework is not empirical validation",
+    "Structural mapping != causal proof: mapping is not causation",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Competing hypotheses must be preserved under uncertainty",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-security-safety-master"
+  ],
+  "depends_on_workflows": [
+    "amos-security-safety-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "security",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-security-safety-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "a4f612054fc52fbc"
+}

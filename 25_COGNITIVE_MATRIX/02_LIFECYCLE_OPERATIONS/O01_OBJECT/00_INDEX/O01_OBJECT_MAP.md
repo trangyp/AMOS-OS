@@ -53,3 +53,6 @@ node_id: cognitive_matrix_x_02_lifecycle_operations_o01_object_00_index_o01_obje
 node_type: note
 path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O01_OBJECT/00_INDEX/O01_OBJECT_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

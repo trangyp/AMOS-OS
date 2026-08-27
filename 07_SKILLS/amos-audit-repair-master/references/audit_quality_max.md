@@ -1,0 +1,92 @@
+---
+title: audit quality max
+type: reference
+tags: [reference, amos-audit-repair-master]
+---
+
+# Audit Quality MAX
+
+> Source: `_00_Cosmo brain/audit/Audit_Quality_MAX.md`
+> Epistemic class: SOURCE_DERIVED
+
+---
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: audit-quality-max
+tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/audit-quality-max, audit]
+created: 2026-08-22
+---
+
+{
+  "meta": {
+    "name": "Audit_Quality_MAX",
+    "kernel_source": "Audit_Quality_ULTRA",
+    "version": "1.0.1",
+    "created_utc": "2025-11-28T21:26:39.184032Z",
+    "density_profile": "kernel_x100k_virtual",
+    "description": "MAX-density audit quality kernel with explicit AMOS × TTS × TPE linkage."
+  },
+  "kernel": {
+    "kernel_name": "Audit_Quality_ULTRA_Kernel",
+    "version": "1.0",
+    "scope": "Cross-domain audit quality universe integrating COSO, ISO, Basel, Operational Risk, TTS, TPE, AMOS.",
+    "domains": {
+      "financial_audit": {
+        "principles": [
+          "accuracy",
+          "completeness",
+          "consistency",
+          "timeliness"
+        ],
+        "rules": [
+          "FIN_RULE_1: Financial audit structural requirement.",
+          "FIN_RULE_2: Financial audit structural requirement.",
+          "FIN_RULE_3: Financial audit structural requirement.",
+          "FIN_RULE_4: Financial audit structural requirement.",
+          "FIN_RULE_5: Financial audit structural requirement.",
+          "FIN_RULE_6: Financial audit structural requirement.",
+          "FIN_RULE_7: Financial audit structural requirement.",
+          "FIN_RULE_8: Financial audit structural requirement.",
+          "FIN_RULE_9: Financial audit structural requirement.",
+          "FIN_RULE_10: Financial audit structural requirement.",
+          "FIN_RULE_11: Financial audit structural requirement.",
+          "FIN_RULE_12: Financial audit structural requirement.",
+          "FIN_RULE_13: Financial audit structural requirement.",
+          "FIN_RULE_14: Financial audit structural requirement.",
+          "FIN_RULE_15: Financial audit structural requirement.",
+          "FIN_RULE_16: Financial audit structural requirement.",
+          "FIN_RULE_17: Financial audit structural requirement.",
+          "FIN_RULE_18: Financial audit structural requirement.",
+          "FIN_RULE_19: Financial audit structural requirement.",
+          "FIN_RULE_20: Financial audit structural requirement.",
+          "FIN_RULE_21: Financial audit structural requirement.",
+          "FIN_RULE_22: Financial audit structural requirement.",
+          "FIN_RULE_23: Financial audit structural requirement.",
+          "FIN_RULE_24: Financial audit structural requirement.",
+          "FIN_RULE_25: Financial audit structural requirement.",
+          "FIN_RULE_26: Financial audit structural requirement.",
+          "FIN_RULE_27: Financial audit structural requirement.",
+          "FIN_RULE_28: Financial audit structural requirement.",
+          "FIN_RULE_29: Financial audit structural requirement.",
+          "FIN_RULE_30: Financial audit structural requirement.",
+          "FIN_RULE_31: Financial audit structural requirement.",
+          "FIN_RULE_32: Financial audit structural requirement.",
+          "FIN_RULE_33: Financial audit structural requirement.",
+          "FIN_RULE_34: Financial audit structural requirement.",
+          "FIN_RULE_35: Financial audit structural requirement.",
+          "FIN_RULE_36: Financial audit structural requirement.",
+          "FIN_RULE_37: Financial audit structural requirement.",
+          "FIN_RULE_38: Financial audit structural requirement.",
+          "FIN_RULE_39: Financial audit structural requirement.",
+          "FIN_RULE_40: Financial audit structural requirement.",
+          "FIN_RULE_41: Financial audit structural requirement.",
+          "FIN_RULE_42: Financial audit structural requirement.",
+          "FIN_RULE_43: Financial audit structural requirement.",
+          "FIN_RULE_44: Financial audit structural requirement.",
+          "FIN_RULE_45: Financial audit structural requirement.",
+          "FIN_RULE_46: Financial audit structural requirement.",
+          "FIN_RU
+
+---
+**MOC:** [[references_MOC]]

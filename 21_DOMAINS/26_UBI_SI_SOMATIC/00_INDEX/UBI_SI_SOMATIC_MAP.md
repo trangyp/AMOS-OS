@@ -56,3 +56,6 @@ node_id: amos_21_domains_26_ubi_si_somatic_00_index_ubi_si_somatic_map_md
 node_type: note
 path: 21_DOMAINS/26_UBI_SI_SOMATIC/00_INDEX/UBI_SI_SOMATIC_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

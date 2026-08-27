@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[INDEX_MEDICAL_CLINICAL_DOMAINS_README]]
+- [[MEDICAL_CLINICAL_DOMAINS_MEDICAL_CLINICAL_CONTRACT]]
+- [[MEDICAL_CLINICAL_MAP]]
+
+---
+**Parent:** [[29_MEDICAL_CLINICAL_MOC]]

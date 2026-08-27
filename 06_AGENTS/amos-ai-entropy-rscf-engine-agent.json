@@ -1,0 +1,102 @@
+{
+  "name": "amos-ai-entropy-rscf-engine-agent",
+  "display_name": "Ai Entropy Rscf Engine",
+  "description": "Ai Entropy Rscf Engine — Fractal analysis engine. Bound to fractal domain. Use when fractal analysis engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Ai Entropy Rscf Engine — Fractal analysis engine within the fractal domain.",
+  "skill_binding": {
+    "primary_skill": "amos-ai-entropy-rscf-engine",
+    "skill_path": ".devin/skills/amos-ai-entropy-rscf-engine/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "ai_entropy.analyze_fractal",
+      "description": "Analyze fractal structure: self-similarity, scale invariance, and recursion",
+      "side_effect": "read"
+    },
+    {
+      "name": "ai_entropy.quantify_entropy",
+      "description": "Quantify AI entropy within fractal architectures: information vs disorder",
+      "side_effect": "read"
+    },
+    {
+      "name": "ai_entropy.validate_equation",
+      "description": "Validate strict fractal equations against scale-invariance requirements",
+      "side_effect": "read"
+    },
+    {
+      "name": "ai_entropy.map_biology",
+      "description": "Map human biology fractal patterns: branching, scaling, and self-organization",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-ai-entropy-rscf-engine skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against fractal sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-ai-entropy-rscf-engine"
+  ],
+  "depends_on_workflows": [
+    "amos-ai-entropy-rscf-engine-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "fractal",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "7cd5335664ed5d0e",
+  "implementation": {
+    "type": "json",
+    "file": "amos-ai-entropy-rscf-engine-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

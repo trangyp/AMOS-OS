@@ -64,3 +64,6 @@ node_id: amos_07_skills_00_index_skill_map_md
 node_type: note
 path: 07_SKILLS/00_INDEX/SKILL_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

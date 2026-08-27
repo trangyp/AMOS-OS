@@ -56,3 +56,6 @@ node_id: amos_02_kernel_09_integration_00_index_integration_map_md
 node_type: note
 path: 02_KERNEL/09_INTEGRATION/00_INDEX/INTEGRATION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

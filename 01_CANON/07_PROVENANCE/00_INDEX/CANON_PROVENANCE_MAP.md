@@ -57,3 +57,6 @@ node_id: amos_01_canon_07_provenance_00_index_canon_provenance_map_md
 node_type: note
 path: 01_CANON/07_PROVENANCE/00_INDEX/CANON_PROVENANCE_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -1,0 +1,3 @@
+interface:
+  display_name: "AMOS Audit & Repair Master"
+  short_description: "AMOS Audit & Repair — failure recovery, gap discovery, quality auditing, validation gates, repair allocation. Use for..."

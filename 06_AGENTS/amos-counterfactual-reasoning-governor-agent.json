@@ -1,0 +1,102 @@
+{
+  "name": "amos-counterfactual-reasoning-governor-agent",
+  "display_name": "Counterfactual Reasoning Governor",
+  "description": "Counterfactual Reasoning Governor — Causal reasoning engine. Bound to causal domain. Use when causal reasoning engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Counterfactual Reasoning Governor — Causal reasoning engine within the causal domain.",
+  "skill_binding": {
+    "primary_skill": "amos-counterfactual-reasoning-governor",
+    "skill_path": ".devin/skills/amos-counterfactual-reasoning-governor/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "counterfactual_reasoning.validate_abstraction",
+      "description": "Validate causal abstraction: does the higher-level model preserve causal structure?",
+      "side_effect": "read"
+    },
+    {
+      "name": "counterfactual_reasoning.enforce_closure",
+      "description": "Enforce causal closure: every effect must have a sufficient cause within the system",
+      "side_effect": "read"
+    },
+    {
+      "name": "counterfactual_reasoning.govern_hierarchy",
+      "description": "Govern causal hierarchy: direct, distributed, delayed, and cascading causes",
+      "side_effect": "read"
+    },
+    {
+      "name": "counterfactual_reasoning.reason_counterfactual",
+      "description": "Reason counterfactually: what would happen under alternative interventions",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-counterfactual-reasoning-governor skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against causal sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-counterfactual-reasoning-governor"
+  ],
+  "depends_on_workflows": [
+    "amos-counterfactual-reasoning-governor-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "causal",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "50f806a07b0a2487",
+  "implementation": {
+    "type": "json",
+    "file": "amos-counterfactual-reasoning-governor-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

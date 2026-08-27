@@ -53,3 +53,6 @@ node_id: cognitive_matrix_tives_l26_social_cognition_00_index_l26_social_cogniti
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L26_SOCIAL_COGNITION/00_INDEX/L26_SOCIAL_COGNITION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

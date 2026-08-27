@@ -56,3 +56,6 @@ node_id: amos_21_domains_43_geo_geopolitics_00_index_geo_geopolitics_map_md
 node_type: note
 path: 21_DOMAINS/43_GEO_GEOPOLITICS/00_INDEX/GEO_GEOPOLITICS_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

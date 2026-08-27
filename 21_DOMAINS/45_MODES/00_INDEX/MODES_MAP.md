@@ -56,3 +56,6 @@ node_id: amos_21_domains_45_modes_00_index_modes_map_md
 node_type: note
 path: 21_DOMAINS/45_MODES/00_INDEX/MODES_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -54,3 +54,6 @@ node_id: amos_21_domains_40_hse_safety_00_index_index_hse_safety_domains_readme_
 node_type: note
 path: 21_DOMAINS/40_HSE_SAFETY/00_INDEX/INDEX_HSE_SAFETY_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

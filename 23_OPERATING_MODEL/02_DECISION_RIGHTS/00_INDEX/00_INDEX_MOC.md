@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[DECISION_RIGHTS_MAP]]
+- [[DECISION_RIGHTS_OPERATING_MODEL_DECISION_RIGHTS_CONTRACT]]
+- [[INDEX_DECISION_RIGHTS_OPERATING_MODEL_README]]
+
+---
+**Parent:** [[02_DECISION_RIGHTS_MOC]]

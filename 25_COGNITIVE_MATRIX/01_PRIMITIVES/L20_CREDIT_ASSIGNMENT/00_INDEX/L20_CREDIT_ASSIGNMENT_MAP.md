@@ -53,3 +53,6 @@ node_id: cognitive_matrix_ves_l20_credit_assignment_00_index_l20_credit_assignme
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L20_CREDIT_ASSIGNMENT/00_INDEX/L20_CREDIT_ASSIGNMENT_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

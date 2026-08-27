@@ -53,3 +53,6 @@ node_id: cognitive_matrix_rix_02_lifecycle_operations_o04_state_00_index_o04_sta
 node_type: note
 path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O04_STATE/00_INDEX/O04_STATE_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

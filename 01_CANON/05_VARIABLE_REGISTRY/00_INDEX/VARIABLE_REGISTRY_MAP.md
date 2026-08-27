@@ -56,3 +56,6 @@ node_id: amos_01_canon_05_variable_registry_00_index_variable_registry_map_md
 node_type: note
 path: 01_CANON/05_VARIABLE_REGISTRY/00_INDEX/VARIABLE_REGISTRY_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

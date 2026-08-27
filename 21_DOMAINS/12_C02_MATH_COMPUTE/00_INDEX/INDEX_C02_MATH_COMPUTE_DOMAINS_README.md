@@ -54,3 +54,6 @@ node_id: amos__12_c02_math_compute_00_index_index_c02_math_compute_domains_readm
 node_type: note
 path: 21_DOMAINS/12_C02_MATH_COMPUTE/00_INDEX/INDEX_C02_MATH_COMPUTE_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

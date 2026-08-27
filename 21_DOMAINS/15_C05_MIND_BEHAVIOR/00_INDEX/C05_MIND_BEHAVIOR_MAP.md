@@ -56,3 +56,6 @@ node_id: amos_21_domains_15_c05_mind_behavior_00_index_c05_mind_behavior_map_md
 node_type: note
 path: 21_DOMAINS/15_C05_MIND_BEHAVIOR/00_INDEX/C05_MIND_BEHAVIOR_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

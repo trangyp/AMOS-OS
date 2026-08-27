@@ -53,3 +53,6 @@ node_id: cognitive_matrix__primitives_l23_metacognition_00_index_l23_metacogniti
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION/00_INDEX/L23_METACOGNITION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

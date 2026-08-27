@@ -58,3 +58,6 @@ node_id: amos_21_domains_00_index_index_domains_readme_md
 node_type: note
 path: 21_DOMAINS/00_INDEX/INDEX_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

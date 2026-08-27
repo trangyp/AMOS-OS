@@ -1,0 +1,102 @@
+{
+  "name": "executive-deck-decision-system-agent",
+  "display_name": "Executive Deck Decision System",
+  "description": "Executive Deck Decision System — Strategy and game engine. Bound to c08 domain. Use when strategy and game engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Executive Deck Decision System — Strategy and game engine within the c08 domain.",
+  "skill_binding": {
+    "primary_skill": "executive-deck-decision-system",
+    "skill_path": ".devin/skills/executive-deck-decision-system/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "executive_deck.analyze_strategy",
+      "description": "Analyze strategic position: competitive landscape, game-theoretic equilibrium",
+      "side_effect": "read"
+    },
+    {
+      "name": "executive_deck.evaluate_decision",
+      "description": "Evaluate decisions under uncertainty: expected value, regret, risk-adjusted return",
+      "side_effect": "read"
+    },
+    {
+      "name": "executive_deck.model_game",
+      "description": "Model game-theoretic interactions: players, strategies, payoffs, equilibria",
+      "side_effect": "read"
+    },
+    {
+      "name": "executive_deck.assess_risk",
+      "description": "Assess strategic risk: downside scenarios, adversarial responses, black swans",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the executive-deck-decision-system skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against c08 sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "executive-deck-decision-system"
+  ],
+  "depends_on_workflows": [
+    "executive-deck-decision-system-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "c08",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "48ec555ef0fa5c0c",
+  "implementation": {
+    "type": "json",
+    "file": "executive-deck-decision-system-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

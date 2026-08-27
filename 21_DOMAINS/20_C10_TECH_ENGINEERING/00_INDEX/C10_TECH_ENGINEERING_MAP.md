@@ -56,3 +56,6 @@ node_id: amos_1_domains_20_c10_tech_engineering_00_index_c10_tech_engineering_ma
 node_type: note
 path: 21_DOMAINS/20_C10_TECH_ENGINEERING/00_INDEX/C10_TECH_ENGINEERING_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

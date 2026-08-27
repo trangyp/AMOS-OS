@@ -54,3 +54,6 @@ node_id: amos_c09_org_law_policy_00_index_index_c09_org_law_policy_domains_readm
 node_type: note
 path: 21_DOMAINS/19_C09_ORG_LAW_POLICY/00_INDEX/INDEX_C09_ORG_LAW_POLICY_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

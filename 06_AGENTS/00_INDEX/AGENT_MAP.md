@@ -61,3 +61,6 @@ node_id: amos_06_agents_00_index_agent_map_md
 node_type: note
 path: 06_AGENTS/00_INDEX/AGENT_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

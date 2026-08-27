@@ -53,3 +53,6 @@ node_id: cognitive_matrix_atrix_01_primitives_l14_valuation_00_index_l14_valuati
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION/00_INDEX/L14_VALUATION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -54,3 +54,6 @@ node_id: amos_18_security_00_index_index_security_security_contract_md
 node_type: note
 path: 18_SECURITY/00_INDEX/INDEX_SECURITY_SECURITY_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

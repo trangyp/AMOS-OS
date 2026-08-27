@@ -38,3 +38,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[INDEX_DEPRECATED_ARCHIVE_README]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[INDEX_O11_GOAL_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README]]
+- [[LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_O11_GOAL_CONTRACT]]
+- [[O11_GOAL_MAP]]
+
+---
+**Parent:** [[O11_GOAL_MOC]]

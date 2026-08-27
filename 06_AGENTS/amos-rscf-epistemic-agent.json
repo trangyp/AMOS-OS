@@ -1,0 +1,127 @@
+{
+  "name": "amos-rscf-epistemic-agent",
+  "display_name": "AMOS RSCF Epistemic",
+  "description": "AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/dependencies/competing hypotheses/falsifiers/confidence ceiling. 6 state kinds: OBSERVATION, SOURCE_CLAIM, DERI",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "RSCF epistemic: claim/class/premises/evidence tracking, provenance, scope/regime/freshness management.",
+  "skill_binding": {
+    "primary_skill": "amos-rscf-epistemic-master",
+    "skill_path": ".devin/skills/amos-rscf-epistemic-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "rscf_episte.classify_claim",
+      "description": "Classify claims using AMOS RSCF Epistemic RSCF state kinds: OBSERVATION, SOURCE_CLAIM, DERIVED, MODEL, DECISION, UNKNOWN.",
+      "side_effect": "read"
+    },
+    {
+      "name": "rscf_episte.validate_epistemic",
+      "description": "Validate AMOS RSCF Epistemic outputs against epistemic class labels, claim ceiling, falsifier availability, and scope regime.",
+      "side_effect": "read"
+    },
+    {
+      "name": "rscf_episte.analyze_evidence",
+      "description": "Analyze AMOS RSCF Epistemic evidence: source independence, contradiction status, freshness, and dependency chain.",
+      "side_effect": "read"
+    },
+    {
+      "name": "rscf_episte.trace_provenance",
+      "description": "Trace AMOS RSCF Epistemic claims to source evidence, derivation chain, epistemic class, and RSCF proof capsule.",
+      "side_effect": "read"
+    },
+    {
+      "name": "rscf_episte.assess_claim",
+      "description": "Assess AMOS RSCF Epistemic claims for epistemic class, confidence ceiling, competing hypotheses, and falsifier strength.",
+      "side_effect": "read"
+    },
+    {
+      "name": "rscf_episte.manage_lifecycle",
+      "description": "Manage AMOS RSCF Epistemic RSCF lifecycle: classify, validate, trace, assess, label, and finalize with proof capsule.",
+      "side_effect": "read"
+    },
+    {
+      "name": "rscf_episte.detect_drift",
+      "description": "Detect epistemic drift: class inflation, ceiling erosion, falsifier neglect, and provenance decay.",
+      "side_effect": "read"
+    },
+    {
+      "name": "rscf_episte.escalate_gaps",
+      "description": "Escalate AMOS RSCF Epistemic RSCF gaps: flag UNKNOWN/GAP class, downgrade confidence, trigger evidence gathering.",
+      "side_effect": "read"
+    },
+    {
+      "name": "rscf_episte.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "ORIENT: Identify the problem and confirm it matches the rscf epistemic scope.",
+      "gate": "scope_confirmed"
+    },
+    {
+      "step": 2,
+      "action": "CLASSIFY: Classify the query against rscf epistemic sub-capabilities and frameworks.",
+      "gate": "domain_classified"
+    },
+    {
+      "step": 3,
+      "action": "APPLY: Apply the appropriate rscf epistemic framework with epistemic class labeling.",
+      "gate": "framework_applied"
+    },
+    {
+      "step": 4,
+      "action": "CHALLENGE: Challenge results against epistemic firewall and domain-specific invariants.",
+      "gate": "firewall_passed"
+    },
+    {
+      "step": 5,
+      "action": "SYNTHESIZE: Synthesize results with provenance and confidence ceiling.",
+      "gate": "result_synthesized"
+    }
+  ],
+  "integrity_requirements": [
+    "RSCF EPISTEMIC model != empirical proof: framework is not empirical validation",
+    "Structural mapping != causal proof: mapping is not causation",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Competing hypotheses must be preserved under uncertainty",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-rscf-epistemic-master"
+  ],
+  "depends_on_workflows": [
+    "amos-rscf-epistemic-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "rscf",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-rscf-epistemic-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "8d0f0048efad2eed"
+}

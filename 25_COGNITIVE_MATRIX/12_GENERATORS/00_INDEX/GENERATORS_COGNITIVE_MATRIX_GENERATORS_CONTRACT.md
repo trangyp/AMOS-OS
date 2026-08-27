@@ -2386,3 +2386,6 @@ persistence_binding_state: UNKNOWN/GAP
 
 ---
 **MOC:** [[INDEX_GENERATORS_COGNITIVE_MATRIX_README]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

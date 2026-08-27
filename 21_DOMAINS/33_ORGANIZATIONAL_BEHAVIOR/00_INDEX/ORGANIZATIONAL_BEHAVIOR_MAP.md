@@ -56,3 +56,6 @@ node_id: amos_ins_33_organizational_behavior_00_index_organizational_behavior_ma
 node_type: note
 path: 21_DOMAINS/33_ORGANIZATIONAL_BEHAVIOR/00_INDEX/ORGANIZATIONAL_BEHAVIOR_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

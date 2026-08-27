@@ -53,3 +53,6 @@ node_id: cognitive_matrix_ol_planes_c05_representation_00_index_c05_representati
 node_type: note
 path: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C05_REPRESENTATION/00_INDEX/C05_REPRESENTATION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

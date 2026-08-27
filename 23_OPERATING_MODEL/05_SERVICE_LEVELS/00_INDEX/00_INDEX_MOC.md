@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[INDEX_SERVICE_LEVELS_OPERATING_MODEL_README]]
+- [[SERVICE_LEVELS_MAP]]
+- [[SERVICE_LEVELS_OPERATING_MODEL_SERVICE_LEVELS_CONTRACT]]
+
+---
+**Parent:** [[05_SERVICE_LEVELS_MOC]]

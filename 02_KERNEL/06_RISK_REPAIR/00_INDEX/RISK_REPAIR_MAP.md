@@ -56,3 +56,6 @@ node_id: amos_02_kernel_06_risk_repair_00_index_risk_repair_map_md
 node_type: note
 path: 02_KERNEL/06_RISK_REPAIR/00_INDEX/RISK_REPAIR_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

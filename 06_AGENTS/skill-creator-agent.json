@@ -1,0 +1,102 @@
+{
+  "name": "skill-creator-agent",
+  "display_name": "Skill Creator",
+  "description": "Skill Creator — Agent systems engine. Bound to agent domain. Use when agent systems engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Skill Creator — Agent systems engine within the agent domain.",
+  "skill_binding": {
+    "primary_skill": "skill-creator",
+    "skill_path": ".devin/skills/skill-creator/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "skill_creator.govern_agency",
+      "description": "Govern agency: who acts, under what authority, with what consequences",
+      "side_effect": "read"
+    },
+    {
+      "name": "skill_creator.design_externalization",
+      "description": "Design agent externalization: what is delegated, to whom, with what controls",
+      "side_effect": "read"
+    },
+    {
+      "name": "skill_creator.attribute_ownership",
+      "description": "Attribute agent ownership: who is responsible for each agent action",
+      "side_effect": "read"
+    },
+    {
+      "name": "skill_creator.verify_agentic",
+      "description": "Verify agentic skill-lie algebroid: structural consistency of agent capabilities",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the skill-creator skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against agent sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "skill-creator"
+  ],
+  "depends_on_workflows": [
+    "skill-creator-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "agent",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "22e677421a679c1a",
+  "implementation": {
+    "type": "json",
+    "file": "skill-creator-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "name": "arxiv-grapheval-reasoning-coherence-rscf-agent",
+  "display_name": "Arxiv: grapheval Reasoning Coherence Rscf",
+  "description": "Arxiv: grapheval Reasoning Coherence Rscf — Arxiv research paper RSCF skill. Bound to arxiv domain. Use when arxiv research paper rscf skill is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Arxiv: grapheval Reasoning Coherence Rscf — Arxiv research paper RSCF skill within the arxiv domain.",
+  "skill_binding": {
+    "primary_skill": "arxiv-grapheval-reasoning-coherence-rscf",
+    "skill_path": ".devin/skills/arxiv-grapheval-reasoning-coherence-rscf/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "grapheval_reasoning.analyze_paper",
+      "description": "Analyze arxiv papers: extract claims, methods, evidence, and limitations",
+      "side_effect": "read"
+    },
+    {
+      "name": "grapheval_reasoning.classify_research",
+      "description": "Classify research by epistemic state: established, emerging, speculative, refuted",
+      "side_effect": "read"
+    },
+    {
+      "name": "grapheval_reasoning.assess_reproducibility",
+      "description": "Assess reproducibility: can the results be independently verified?",
+      "side_effect": "read"
+    },
+    {
+      "name": "grapheval_reasoning.trace_literature",
+      "description": "Trace literature chains: citations, dependencies, and influence networks",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the arxiv-grapheval-reasoning-coherence-rscf skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against arxiv sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "arxiv-grapheval-reasoning-coherence-rscf"
+  ],
+  "depends_on_workflows": [
+    "arxiv-grapheval-reasoning-coherence-rscf-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "arxiv",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "215b25434050b8c8",
+  "implementation": {
+    "type": "json",
+    "file": "arxiv-grapheval-reasoning-coherence-rscf-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

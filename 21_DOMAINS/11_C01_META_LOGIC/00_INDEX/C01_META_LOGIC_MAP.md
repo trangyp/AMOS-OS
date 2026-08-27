@@ -56,3 +56,6 @@ node_id: amos_21_domains_11_c01_meta_logic_00_index_c01_meta_logic_map_md
 node_type: note
 path: 21_DOMAINS/11_C01_META_LOGIC/00_INDEX/C01_META_LOGIC_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

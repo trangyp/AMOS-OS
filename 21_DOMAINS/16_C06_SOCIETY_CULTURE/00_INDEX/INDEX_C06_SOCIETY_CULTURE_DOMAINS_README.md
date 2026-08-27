@@ -54,3 +54,6 @@ node_id: amos_6_society_culture_00_index_index_c06_society_culture_domains_readm
 node_type: note
 path: 21_DOMAINS/16_C06_SOCIETY_CULTURE/00_INDEX/INDEX_C06_SOCIETY_CULTURE_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

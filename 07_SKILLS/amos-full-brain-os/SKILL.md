@@ -1,0 +1,100 @@
+---
+title: SKILL
+type: skill
+name: amos-full-brain-os
+description: Full Brain Os — super engines capability. Use when super-engine reasoning, consciousness emulation, or mega-engine analysis. Use when amos-super-engines-master routes to this specialized capability.
+parent_skill: amos-super-engines-master
+domain: super
+origin_architect: Trang Phan
+epistemic_class: SOURCE_CLAIM
+tags: [note, amos-full-brain-os]
+---
+
+
+# Full Brain Os
+
+## Identity
+
+- **Origin architect and steward**: Trang Phan
+- **Parent skill**: `amos-super-engines-master`
+- **Domain**: super
+- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
+
+Super engine for Full Brain Os
+
+## When to Use
+
+- When orchestrating the full brain OS: coordinating all cognitive engines as a unified system
+- When routing between brain core, omni kernel, omniverse brain, personality, and expression translation
+- When managing the gap/integrity system that constrains the brain by known limitations
+- When distinguishing Full Brain OS from Super Mind OS and Omega Infinity Stack (separate compatible planes)
+- When the parent skill (`amos-super-engines-master`) routes to this specialized capability
+- When managing lifecycle operations across classify, validate, trace, assess, and detect
+- When detecting drift in evidence chains, provenance freshness, or confidence calibration
+- When validating outputs against domain constraints and epistemic class
+
+## Capabilities
+
+- **full_brain.orchestrate_brain**: Orchestrate full brain OS: coordinate all cognitive engines as a unified system
+- **full_brain.route_cognition**: Route cognitive tasks through omni kernel dynamic routing (activate minimum relevant region)
+- **full_brain.manage_expression**: Manage expression translation: RAW EXPRESSION → LOGIC-READY AMOS INPUT pipeline
+- **full_brain.assess_claim**: Assess Full Brain OS claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF)
+- **full_brain.detect_drift**: Detect drift between brain components, engine registry, or world model layers
+- **full_brain.escalate_gaps**: Escalate unresolved brain OS gaps (GAP-BRAIN-001, GAP-OMNI-001, GAP-OMNIVERSE-001)
+- **full_brain.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+- **full_brain.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
+## Vault-Sourced Domain Knowledge
+
+> **Source**: `_00_Cosmo brain/dated/2026-08-25/2026-08-25 AMOS_Full_Brain_OS_CANON.md` (content_hash: 90a45dc5960eaa0e) (vault canon, SOURCE_CLAIM, CONDITIONAL)
+> **Canon class**: CONDITIONAL — source-grounded for major structures; gaps around cross-artifact containment/version precedence.
+
+### Five Primary Components
+
+`FullBrainOS = { B_core, K_omni, B_omniverse, P_personality, T_expression, G_gap }`
+
+| Component | Description |
+|-----------|-------------|
+| `brain_core` | 26 engines (UBI BEI/NBI/NEI/SI/UBI + domain C01-C12 + fabrication/tech) |
+| `omni_kernel` | Structural coordination / routing / governance / safety / integration / evaluation |
+| `omniverse_brain` | 10-layer world/system model (foundational law → agent & fabrication) |
+| `personality` | Expression/interaction characteristics (not domain cognition) |
+| `expression_translation` | Front door: RAW EXPRESSION → LOGIC-READY AMOS INPUT |
+| `gap_management` | Constrains system by known limitations |
+
+### Expression Translation Pipeline
+
+RAW EXPRESSION → Expression_Classify → Intent_Extraction → Meaning_Core → Structural_Logic_Map → Emotion_to_Signal → Symbolism_to_Structure → Expression_Normalise → LOGIC-READY AMOS INPUT
+
+**Boundary**: Human representation ≠ Internal reasoning representation.
+
+### Omniverse Brain — 10 Layers
+
+1. Foundational Law (ULK_CORE, QCLS_CORE, METRIC_OF_INTEGRITY)
+2. Physical & Quantum
+3. Information & Complexity
+4. Biological & Consciousness (UBI_CORE, HUMAN_STATE, EMOTION, C04)
+5. Social & Institutional (MULTI_AGENT, CRISIS, GOVERNANCE_AND_POLICY)
+6. Planetary & Ecological (PSI_CORE, TSS_TPE, RESOURCE/INFRA)
+7. Temporal & Scenario
+8. Multiverse & Modality
+9. Observer & Perspective
+10. Agent & Fabrication
+
+### Three Large Systems
+
+| System | Description |
+|--------|-------------|
+| AMOS BRAIN | Expression Translation, Personality, Omni Kernel, Brain Core, Omniverse Brain, Super Mind |
+| AMOS RUNTIME | OS Kernel, RSCF, H/M/L, provenance, memory, competing hypotheses, firewalls, repair/replay/audit |
+| AMOS CONTROL/BODY | Capability manifests, read sets, authorization, semantic transactions, tools, commit/rollback |
+
+### Critical Gaps (do NOT invent edges)
+
+- GAP-BRAIN-001: Brain Core 26 engines NOT_COVERED (CognitiveState MODEL-level only)
+- GAP-OMNI-001: Omni Kernel dynamic routing NOT_COVERED (hardcoded 5-stage flow)
+- GAP-OMNIVERSE-001: Omniverse 10-layer world model NOT_COVERED
+
+### Epistemic Boundary
+
+Full Brain OS is AMOS_MODEL. The pipeline is a governance-aware demonstration, not a complete brain. Super Mind OS is a separate compatible plane, NOT a child of Full Brain OS. "Kernel → Engine → Agent →

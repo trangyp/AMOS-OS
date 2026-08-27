@@ -56,3 +56,6 @@ node_id: amos_21_domains_38_api_integration_00_index_api_integration_map_md
 node_type: note
 path: 21_DOMAINS/38_API_INTEGRATION/00_INDEX/API_INTEGRATION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

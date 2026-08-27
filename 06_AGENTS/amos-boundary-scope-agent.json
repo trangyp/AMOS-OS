@@ -1,0 +1,127 @@
+{
+  "name": "amos-boundary-scope-agent",
+  "display_name": "AMOS Boundary & Scope",
+  "description": "AMOS Boundary & Scope — scope regimes, boundary admission, context continuity, capability bounds. Use for scope analysis, boundary reasoning, or context management.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Boundary and scope: scope regimes, boundary admission, context continuity, capability bounds.",
+  "skill_binding": {
+    "primary_skill": "amos-boundary-scope-master",
+    "skill_path": ".devin/skills/amos-boundary-scope-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "boundary_scope.evaluate_influence",
+      "description": "Evaluate whether memory may influence a pending action through the AMOS Boundary & Scope consent, provenance, and risk gates.",
+      "side_effect": "read"
+    },
+    {
+      "name": "boundary_scope.validate_gates",
+      "description": "Validate AMOS Boundary & Scope decisions against hard partition gates, epistemic class preservation, and consent state requirements.",
+      "side_effect": "read"
+    },
+    {
+      "name": "boundary_scope.analyze_state",
+      "description": "Analyze AMOS Boundary & Scope memory state: working, episodic, semantic stores, consolidation, and retrieval graph health.",
+      "side_effect": "read"
+    },
+    {
+      "name": "boundary_scope.trace_provenance",
+      "description": "Trace AMOS Boundary & Scope memory entries to source, encoding operation, consolidation history, and field-level lineage.",
+      "side_effect": "read"
+    },
+    {
+      "name": "boundary_scope.assess_claim",
+      "description": "Assess AMOS Boundary & Scope memory claims for epistemic class, freshness, contradiction status, and confidence ceiling.",
+      "side_effect": "read"
+    },
+    {
+      "name": "boundary_scope.manage_lifecycle",
+      "description": "Manage AMOS Boundary & Scope lifecycle: encode, normalize, admit, consolidate, index, retrieve, filter, update.",
+      "side_effect": "read"
+    },
+    {
+      "name": "boundary_scope.detect_drift",
+      "description": "Detect memory drift: stale entries, broken provenance, epistemic class erosion, and context discontinuity.",
+      "side_effect": "read"
+    },
+    {
+      "name": "boundary_scope.escalate_gaps",
+      "description": "Escalate AMOS Boundary & Scope memory gaps: flag UNKNOWN/GAP entries, quarantine untrusted data, trigger memory repair.",
+      "side_effect": "read"
+    },
+    {
+      "name": "boundary_scope.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "ORIENT: Identify the problem and confirm it matches the boundary scope scope.",
+      "gate": "scope_confirmed"
+    },
+    {
+      "step": 2,
+      "action": "CLASSIFY: Classify the query against boundary scope sub-capabilities and frameworks.",
+      "gate": "domain_classified"
+    },
+    {
+      "step": 3,
+      "action": "APPLY: Apply the appropriate boundary scope framework with epistemic class labeling.",
+      "gate": "framework_applied"
+    },
+    {
+      "step": 4,
+      "action": "CHALLENGE: Challenge results against epistemic firewall and domain-specific invariants.",
+      "gate": "firewall_passed"
+    },
+    {
+      "step": 5,
+      "action": "SYNTHESIZE: Synthesize results with provenance and confidence ceiling.",
+      "gate": "result_synthesized"
+    }
+  ],
+  "integrity_requirements": [
+    "BOUNDARY SCOPE model != empirical proof: framework is not empirical validation",
+    "Structural mapping != causal proof: mapping is not causation",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Competing hypotheses must be preserved under uncertainty",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-boundary-scope-master"
+  ],
+  "depends_on_workflows": [
+    "amos-boundary-scope-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "boundary",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-boundary-scope-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "917a36c94dc63786"
+}

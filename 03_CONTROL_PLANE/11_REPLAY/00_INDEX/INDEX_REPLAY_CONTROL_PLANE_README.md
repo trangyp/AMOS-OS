@@ -54,3 +54,6 @@ node_id: cp__control_plane_11_replay_00_index_index_replay_control_plane_readme_
 node_type: note
 path: 03_CONTROL_PLANE/11_REPLAY/00_INDEX/INDEX_REPLAY_CONTROL_PLANE_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

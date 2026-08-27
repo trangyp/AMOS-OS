@@ -56,3 +56,6 @@ node_id: cp_03_control_plane_12_rollback_00_index_rollback_map_md
 node_type: note
 path: 03_CONTROL_PLANE/12_ROLLBACK/00_INDEX/ROLLBACK_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

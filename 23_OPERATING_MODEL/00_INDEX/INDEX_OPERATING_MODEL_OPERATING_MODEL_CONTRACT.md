@@ -55,3 +55,6 @@ node_id: amos_ating_model_00_index_index_operating_model_operating_model_contrac
 node_type: note
 path: 23_OPERATING_MODEL/00_INDEX/INDEX_OPERATING_MODEL_OPERATING_MODEL_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

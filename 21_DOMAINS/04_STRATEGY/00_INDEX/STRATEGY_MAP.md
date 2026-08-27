@@ -56,3 +56,6 @@ node_id: amos_21_domains_04_strategy_00_index_strategy_map_md
 node_type: note
 path: 21_DOMAINS/04_STRATEGY/00_INDEX/STRATEGY_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

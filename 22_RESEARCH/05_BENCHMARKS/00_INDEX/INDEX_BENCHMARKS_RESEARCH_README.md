@@ -54,3 +54,6 @@ node_id: amos_22_research_05_benchmarks_00_index_index_benchmarks_research_readm
 node_type: note
 path: 22_RESEARCH/05_BENCHMARKS/00_INDEX/INDEX_BENCHMARKS_RESEARCH_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

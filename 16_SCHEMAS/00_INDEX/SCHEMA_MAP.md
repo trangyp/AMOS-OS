@@ -56,3 +56,6 @@ node_id: amos_16_schemas_00_index_schema_map_md
 node_type: note
 path: 16_SCHEMAS/00_INDEX/SCHEMA_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

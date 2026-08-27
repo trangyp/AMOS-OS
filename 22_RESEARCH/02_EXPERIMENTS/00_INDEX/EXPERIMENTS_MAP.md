@@ -56,3 +56,6 @@ node_id: amos_22_research_02_experiments_00_index_experiments_map_md
 node_type: note
 path: 22_RESEARCH/02_EXPERIMENTS/00_INDEX/EXPERIMENTS_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

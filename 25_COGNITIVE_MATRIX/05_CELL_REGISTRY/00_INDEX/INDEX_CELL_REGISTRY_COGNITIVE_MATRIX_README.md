@@ -51,3 +51,6 @@ node_id: cognitive_matrix_egistry_00_index_index_cell_registry_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/05_CELL_REGISTRY/00_INDEX/INDEX_CELL_REGISTRY_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

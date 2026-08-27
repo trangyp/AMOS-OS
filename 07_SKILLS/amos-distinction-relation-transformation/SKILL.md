@@ -1,0 +1,93 @@
+---
+title: SKILL
+type: skill
+name: amos-distinction-relation-transformation
+description: Distinction Relation Transformation — super engines capability. Use when super-engine reasoning, consciousness emulation, or mega-engine analysis. Use when amos-super-engines-master routes to this specialized capability.
+parent_skill: amos-super-engines-master
+domain: super
+origin_architect: Trang Phan
+epistemic_class: SOURCE_CLAIM
+tags: [note, amos-distinction-relation-transformation]
+---
+
+
+# Distinction Relation Transformation
+
+## Identity
+
+- **Origin architect and steward**: Trang Phan
+- **Parent skill**: `amos-super-engines-master`
+- **Domain**: super
+- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
+
+Super engine for Distinction Relation Transformation
+
+## When to Use
+
+- When supervising testing with cost-awareness: coverage vs cost
+- When transforming distinction-relation structures across scales
+- When orchestrating full brain OS: coordinating all cognitive engines
+- When the parent skill (`amos-super-engines-master`) routes to this specialized capability
+- When managing lifecycle operations across classify, validate, trace, assess, and detect
+- When detecting drift in evidence chains, provenance freshness, or confidence calibration
+- When validating outputs against domain constraints and epistemic class
+
+## Capabilities
+
+- **distinction_relation_trans.supervise_test**: Supervise testing with cost-awareness: balance test coverage vs resource cost
+- **distinction_relation_trans.transform_distinction**: Transform distinction-relation structures across scales and contexts
+- **distinction_relation_trans.orchestrate_brain**: Orchestrate full brain OS: coordinate all cognitive engines as a unified system
+- **distinction_relation_trans.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+- **distinction_relation_trans.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+- **distinction_relation_trans.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
+> **Reference**: See `references/vault_domain_knowledge.md` (content_hash: aeeb0e55c59a623a) for the full vault-sourced domain knowledge (8208 chars).
+
+## 11_KNOWLEDGE Vault Content
+
+> **Source**: `11_KNOWLEDGE/AMOS_C01_META_LOGIC_MASTER_KNOWLEDGE.md` (content_hash: ff5575df755d7e25) (vault canon, SOURCE_CLAIM)
+> **Additional source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)
+
+### Distinction-Relation-Transformation (DRT)
+
+From C01 Meta Logic: DRT as the fundamental triad of AMOS logic. From Cognitive Organism OS: DRT as the basis for structural reasoning.
+
+**DRT triad**:
+- **Distinction (D)**: the act of distinguishing one thing from another; creates boundaries
+- **Relation (R)**: the connection between distinguished things; creates structure
+- **Transformation (T)**: the change from one state to another; creates dynamics
+
+**DRT laws**:
+- `NO_DISTINCTION -> NO_RELATION`: without distinction, there is nothing to relate
+- `NO_RELATION -> NO_TRANSFORMATION`: without relation, there is nothing to transform
+- `DISTINCTION != SEPARATION`: distinction creates boundaries but does not require separation
+- `RELATION != IDENTITY**: relation connects things; it does not make them identical
+- `TRANSFORMATION != DESTRUCTION**: transformation changes; it does not destroy
+
+**DRT operations**:
+1. **Distinguish**: identify boundaries (what is A, what is not A)
+2. **Relate**: identify connections (how A relates to B)
+3. **Transform**: identify changes (how A becomes B)
+4. **Validate**: validate that the DRT is consistent and complete
+5. **Record**: record with provenance and epistemic class
+
+**DRT in AMOS**: DRT is the fundamental analytical triad. Every AMOS analysis can be decomposed into distinction, relation, and transformation steps.
+
+### Epistemic Boundary
+
+DRT is an analytical framework. It does not prove all reality can be decomposed into DRT, that the triad is exhaustive, or that DRT operations are always correct.
+
+## Failure Modes
+
+- **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
+- **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
+- **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
+- **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
+- **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
+
+## Validation Gates
+
+- **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
+- **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
+- **G3 (Provenance)**: Source path recorded for every derived claim.
+- 

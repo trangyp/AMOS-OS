@@ -54,3 +54,6 @@ node_id: amos_5_c05_mind_behavior_00_index_index_c05_mind_behavior_domains_readm
 node_type: note
 path: 21_DOMAINS/15_C05_MIND_BEHAVIOR/00_INDEX/INDEX_C05_MIND_BEHAVIOR_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

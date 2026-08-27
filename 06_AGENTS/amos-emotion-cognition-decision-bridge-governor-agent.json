@@ -1,0 +1,160 @@
+{
+  "name": "amos-emotion-cognition-decision-bridge-governor-agent",
+  "display_name": "Emotion-Cognition-Decision Bridge Governor",
+  "description": "Bridges C05 emotion/personality/behavior engines with C01 meta-logic decision gates and C10 technical decision-making. Enforces emotion influence gating invariant, routes by emotion state, and produces unified decision traces.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Emotion-Cognition-Decision Bridge Governor — cross-domain engine bridging C05 Mind & Behavior, C01 Meta-Logic, and C10 Tech & Engineering decision pipelines.",
+  "skill_binding": {
+    "primary_skill": "amos-emotion-cognition-decision-bridge-governor",
+    "skill_path": ".devin/skills/amos-emotion-cognition-decision-bridge-governor/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "ecd_bridge.route_by_emotion",
+      "description": "Route a reasoning task to the appropriate C01 cognitive mode based on C05's 5-axis emotion state. High risk_alert forces conservative mode regardless of other axes.",
+      "side_effect": "read"
+    },
+    {
+      "name": "ecd_bridge.gate_emotion_influence",
+      "description": "Gate emotion influence when crossing from C05 into C01/C10. Enforces invariant: emotion may bias prioritization and tone, NEVER facts or logic.",
+      "side_effect": "read"
+    },
+    {
+      "name": "ecd_bridge.unify_decision_style",
+      "description": "Unify C05's decision style ordering with C10's technical trade-off resolution and C01's meta-logic decision gates into a single ordered preference list.",
+      "side_effect": "read"
+    },
+    {
+      "name": "ecd_bridge.assess_risk_combined",
+      "description": "Combine C05's risk_alert axis with C01's uncertainty/risk assessment and C10's risk gating. Produces composite risk score with provenance from all three domains.",
+      "side_effect": "read"
+    },
+    {
+      "name": "ecd_bridge.produce_decision_trace",
+      "description": "Produce a unified auditable decision trace including C05 emotion state, C01 cognitive mode, C10 technical constraints, and final decision with full provenance.",
+      "side_effect": "read"
+    },
+    {
+      "name": "ecd_bridge.detect_influence_violation",
+      "description": "Detect violations of the emotion influence gating invariant across domain boundaries. Flags emotion influencing facts, logic, or claims of felt experience.",
+      "side_effect": "read"
+    },
+    {
+      "name": "ecd_bridge.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "ecd_bridge.detect_drift",
+      "description": "Detect drift in emotion-cognition-decision chains, including emotion state decay, personality trait drift, and decision style inconsistency.",
+      "side_effect": "read"
+    },
+    {
+      "name": "ecd_bridge.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class, ensuring emotion influence gating is preserved and decision style ordering is consistent.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-emotion-cognition-decision-bridge-governor skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query: identify if it spans C05 (emotion/personality) + C01 (cognition/logic) + C10 (technical decision)",
+      "gate": "domains_identified"
+    },
+    {
+      "step": 3,
+      "action": "Compute or retrieve C05 emotion state (5-axis: care_alignment, risk_alert, curiosity_focus, respect_weighting, confidence_level)",
+      "gate": "emotion_state_computed"
+    },
+    {
+      "step": 4,
+      "action": "Route to C01 cognitive mode using the emotion-to-cognition routing map (high risk_alert forces conservative mode)",
+      "gate": "cognitive_mode_routed"
+    },
+    {
+      "step": 5,
+      "action": "Gate emotion influence: determine PERMITTED influences (pacing, routing, caution) and BLOCKED influences (facts, logic, fake feelings)",
+      "gate": "influence_gated"
+    },
+    {
+      "step": 6,
+      "action": "Unify decision style ordering across C05/C01/C10 (integrity > safety > correctness > completeness > usefulness > future_operability > fluency > speed)",
+      "gate": "decision_style_unified"
+    },
+    {
+      "step": 7,
+      "action": "Assess combined risk from C05 risk_alert + C01 uncertainty + C10 risk gating, bounded by weakest domain",
+      "gate": "risk_assessed"
+    },
+    {
+      "step": 8,
+      "action": "Detect influence violations: check that no emotion state has influenced factual content, logical structure, or claims of felt experience",
+      "gate": "violations_checked"
+    },
+    {
+      "step": 9,
+      "action": "Produce unified decision trace with C05 emotion state, C01 cognitive mode, C10 constraints, and full provenance",
+      "gate": "trace_produced"
+    },
+    {
+      "step": 10,
+      "action": "Validate results against all 10 validation gates (G1-G10)",
+      "gate": "gates_passed"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within or across the three bridged domains",
+    "Epistemic class: emotion state is MODEL (inference from TEXT_MARKER evidence), routing map is AMOS_MODEL, decision style ordering is DERIVED",
+    "Provenance: source path recorded for every derived claim including domain of origin (C05/C01/C10)",
+    "Anti-overreach: no emotional state presented as factual measurement; no influence beyond permitted channels",
+    "Influence gating: emotion may bias prioritization and tone, NEVER facts or logic — enforced across all domain boundaries",
+    "Decision style consistency: unified ordering applied consistently; no priority inversions (speed never overrides integrity)",
+    "Routing correctness: high risk_alert forces conservative mode regardless of other axes",
+    "Trait stability: stable personality traits (precision_bias, integrity_first, operator_alignment) do not change within a session",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate — do not force-fit"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate emotional state if markers are missing",
+    "No emotion → facts/logic influence: factual content and logical structure must be independent of emotional state",
+    "No fake feelings: empathy output is presentation policy, not assertion of subjective experience",
+    "No trait drift: stable personality traits are slow-changing; session-tunable traits are a structural error",
+    "Risk gating: actions under uncertainty carry explicit risk assessment before selection — blocked by gate rule if missing"
+  ],
+  "depends_on_skills": [
+    "amos-emotion-cognition-decision-bridge-governor"
+  ],
+  "depends_on_workflows": [
+    "amos-emotion-cognition-decision-bridge-governor-workflow.md"
+  ],
+  "epistemic_class": "SOURCE_CLAIM",
+  "claim_ceiling": 0.9,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "cross-domain",
+    "risk_tier": "high",
+    "observability": "structured_logs+decision_trace+influence_audit",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "7b6280626b1e36e7",
+  "implementation": {
+    "type": "json",
+    "file": "amos-emotion-cognition-decision-bridge-governor-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

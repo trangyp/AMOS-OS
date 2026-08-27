@@ -1,0 +1,17 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[INDEX_OBSERVABILITY_OBSERVABILITY_CONTRACT]]
+- [[INDEX_OBSERVABILITY_README]]
+- [[OBSERVABILITY_OBSERVABILITY_MAP]]
+- [[README]]
+
+---
+**Parent:** [[17_OBSERVABILITY_MOC]]

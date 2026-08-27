@@ -1,0 +1,122 @@
+{
+  "name": "amos-github-rscf-ingestion-agent",
+  "display_name": "Github Rscf Ingestion",
+  "description": "Github Rscf Ingestion — Tech-engineering engine. Bound to c10 domain. Use when tech-engineering engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Github Rscf Ingestion — Tech-engineering engine within the c10 domain.",
+  "skill_binding": {
+    "primary_skill": "amos-github-rscf-ingestion",
+    "skill_path": ".devin/skills/amos-github-rscf-ingestion/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "github_ingestion.analyze_architecture",
+      "description": "Analyze software architecture: patterns, dependencies, coupling, cohesion",
+      "side_effect": "read"
+    },
+    {
+      "name": "github_ingestion.discover_program",
+      "description": "Discover program behavior: black-box analysis, symbolic execution, fuzzing",
+      "side_effect": "read"
+    },
+    {
+      "name": "github_ingestion.verify_code_facts",
+      "description": "Verify code facts: type safety, memory safety, termination, complexity",
+      "side_effect": "read"
+    },
+    {
+      "name": "github_ingestion.optimize_performance",
+      "description": "Optimize performance: profiling, bottleneck analysis, and resource tuning",
+      "side_effect": "read"
+    },
+    {
+      "name": "github_ingestion.enforce_bounds",
+      "description": "Enforce bounded code: resource limits, time limits, and capability limits",
+      "side_effect": "read"
+    },
+    {
+      "name": "github_ingestion.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "github_ingestion.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "github_ingestion.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-github-rscf-ingestion skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against c10 sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-github-rscf-ingestion"
+  ],
+  "depends_on_workflows": [
+    "amos-github-rscf-ingestion-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "c10",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "c084fb901e142fa6",
+  "implementation": {
+    "type": "json",
+    "file": "amos-github-rscf-ingestion-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "amos-future-debt-option-value-governor-agent",
+  "display_name": "Future Debt Option Value Governor",
+  "description": "Future Debt Option Value Governor — Future debt governance engine. Bound to econ domain. Use when future debt governance engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Future Debt Option Value Governor — Future debt governance engine within the econ domain.",
+  "skill_binding": {
+    "primary_skill": "amos-future-debt-option-value-governor",
+    "skill_path": ".devin/skills/amos-future-debt-option-value-governor/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "future_debt.govern_economy",
+      "description": "Govern agent economy: constitutional rules, monetary policy, and allocation",
+      "side_effect": "read"
+    },
+    {
+      "name": "future_debt.model_economic",
+      "description": "Model economic dynamics: supply, demand, price formation, and equilibrium",
+      "side_effect": "read"
+    },
+    {
+      "name": "future_debt.assess_debt",
+      "description": "Assess future debt and option value: intertemporal tradeoffs and commitments",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-future-debt-option-value-governor skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against econ sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-future-debt-option-value-governor"
+  ],
+  "depends_on_workflows": [
+    "amos-future-debt-option-value-governor-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "econ",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "fa964888d4fabdcc",
+  "implementation": {
+    "type": "json",
+    "file": "amos-future-debt-option-value-governor-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

@@ -56,3 +56,6 @@ node_id: amos_21_domains_29_medical_clinical_00_index_medical_clinical_map_md
 node_type: note
 path: 21_DOMAINS/29_MEDICAL_CLINICAL/00_INDEX/MEDICAL_CLINICAL_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -54,3 +54,6 @@ node_id: amos_22_research_00_index_index_research_research_contract_md
 node_type: note
 path: 22_RESEARCH/00_INDEX/INDEX_RESEARCH_RESEARCH_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

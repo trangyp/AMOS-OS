@@ -1,0 +1,34 @@
+---
+title: access control
+type: reference
+tags: [reference, amos-security-safety-master]
+---
+
+# Access Control & Privilege Escalation
+
+> Source: `_00_Cosmo brain/control/Access_Control-Priv_Esc.md`
+> Epistemic class: SOURCE_CANON
+
+---
+tags: [control]
+---
+# Access Control/Priv Esc
+What is it?
+* Application of constraints on who/what actions can be performed 
+* Access control is dependent on authentication and session management.
+* Authentication: identifies and confirms user
+* Session Management: identifies which HTTP requests are made by same user
+* Access Control: determines whether a user can carry out an action
+
+Prevention
+* Don't rely on obfuscation for access control
+* All non-publically accessible resources should be denied by default
+* Use signle application-wide mechanisms for enforcing access controls
+* Mandate developers to declare the allowed access for each resource and deny access by default
+* Audit and test to ensure they are working as designed.
+
+---
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS Simulation Kernel v0 Math Foundations · system scan agent · automation profiles
+
+---
+**MOC:** [[references_MOC]]

@@ -54,3 +54,6 @@ node_id: amos_21_domains_09_finance_00_index_index_finance_domains_readme_md
 node_type: note
 path: 21_DOMAINS/09_FINANCE/00_INDEX/INDEX_FINANCE_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

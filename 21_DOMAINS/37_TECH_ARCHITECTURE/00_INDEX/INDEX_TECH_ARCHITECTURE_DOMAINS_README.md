@@ -54,3 +54,6 @@ node_id: amos_7_tech_architecture_00_index_index_tech_architecture_domains_readm
 node_type: note
 path: 21_DOMAINS/37_TECH_ARCHITECTURE/00_INDEX/INDEX_TECH_ARCHITECTURE_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

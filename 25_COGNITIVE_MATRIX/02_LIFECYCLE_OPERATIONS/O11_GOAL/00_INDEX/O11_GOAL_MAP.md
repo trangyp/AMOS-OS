@@ -53,3 +53,6 @@ node_id: cognitive_matrix_atrix_02_lifecycle_operations_o11_goal_00_index_o11_go
 node_type: note
 path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O11_GOAL/00_INDEX/O11_GOAL_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

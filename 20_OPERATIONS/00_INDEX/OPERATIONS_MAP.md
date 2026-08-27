@@ -56,3 +56,6 @@ node_id: amos_20_operations_00_index_operations_map_md
 node_type: note
 path: 20_OPERATIONS/00_INDEX/OPERATIONS_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

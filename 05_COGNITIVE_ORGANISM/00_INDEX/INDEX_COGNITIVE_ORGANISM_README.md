@@ -54,3 +54,6 @@ node_id: amos_05_cognitive_organism_00_index_index_cognitive_organism_readme_md
 node_type: note
 path: 05_COGNITIVE_ORGANISM/00_INDEX/INDEX_COGNITIVE_ORGANISM_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

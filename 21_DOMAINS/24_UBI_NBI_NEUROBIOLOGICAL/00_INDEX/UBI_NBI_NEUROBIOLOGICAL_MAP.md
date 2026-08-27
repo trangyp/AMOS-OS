@@ -56,3 +56,6 @@ node_id: amos_ins_24_ubi_nbi_neurobiological_00_index_ubi_nbi_neurobiological_ma
 node_type: note
 path: 21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL/00_INDEX/UBI_NBI_NEUROBIOLOGICAL_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

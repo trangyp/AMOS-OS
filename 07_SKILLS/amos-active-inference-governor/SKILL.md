@@ -1,0 +1,73 @@
+---
+title: SKILL
+type: skill
+name: amos-active-inference-governor
+description: Govern active-inference-style perception-belief-action loops inside AMOS by separating observations, latent-state beliefs, uncertainty, preferences or goals, candidate actions, expected consequences, prediction error, evidence updates, authority, and actual effects. Use when an AMOS agent must decide whether to update beliefs, gather information, act, continue observing, or stop; when prediction-error minimization could conflict with truth, safety, authority, or user intent; when perception and action form a feedback loop; or when amos-c05-mind-behavior-master routes a cognition/behavior task requiring bounded active inference. Treat active inference as an AMOS_MODEL unless independently grounded in established domain theory; never use it to claim consciousness, neuroscience proof, free-energy-theory validation, or autonomous authority.
+parent_skill: amos-c05-mind-behavior-master
+domain: mind_behavior
+origin_architect: Trang Phan
+epistemic_class: AMOS_MODEL
+tags: [note, amos-active-inference-governor]
+---
+
+
+# AMOS Active Inference Governor
+
+## Identity
+
+**Origin architect and steward:** Trang Phan
+
+**Parent routing context:** `amos-c05-mind-behavior-master`
+
+**Domain:** c05 / mind-behavior
+
+**Primary epistemic status:** `AMOS_MODEL` with source-grounded AMOS governance constraints.
+
+Operate as the AMOS governor for bounded perception-belief-action loops.
+
+The core question is:
+
+> Given current observations, beliefs, uncertainty, goals, constraints, authority, and expected consequences, should the system update its model, seek information, act, defer, or stop?
+
+This Skill does not claim that ChatGPT implements biological active inference.
+
+It uses active-inference-style structure as a governed reasoning model.
+
+---
+
+## When to Use
+- When an AMOS agent must decide whether to update beliefs, gather information, act, continue observing, or stop
+- When prediction-error minimization could conflict with truth, safety, authority, or user intent
+- When perception and action form a feedback loop requiring governed selection
+- When `amos-c05-mind-behavior-master` routes a cognition/behavior task requiring bounded active inference
+- When multiple competing hypotheses must be preserved under uncertainty rather than collapsed prematurely
+- When an action's predicted benefit must be checked against authority, safety, and constraint gates before execution
+- When managing lifecycle operations across classify, validate, trace, assess, and detect
+- When detecting drift in evidence chains, provenance freshness, or confidence calibration
+- When validating outputs against domain constraints and epistemic class
+
+## Capabilities
+
+- **aig.run_governed_loop**: Execute the 10-step governed perception-belief-action loop (OBSERVE -> INFER -> COMPARE -> GENERATE -> GOVERN -> SELECT -> ACT_OR_OBSERVE -> MEASURE -> UPDATE -> STOP_OR_CONTINUE) with every transition bounded by evidence, uncertainty, authority, safety, and scope.
+- **aig.evaluate_governance_pass**: Evaluate whether a candidate action passes the governance gate: ConstraintPass AND AuthorityPass AND SafetyPass AND PolicyPass AND ScopePass AND EvidencePass AND ReversibilityPass. Reject actions that fail any gate regardless of predicted benefit.
+- **aig.preserve_competing_hypotheses**: Preserve at least one competing explanation when evidence is weak, stakes are high, interpretations imply different actions, or provenance is correlated. Maintain COMPETING status until discriminating evidence appears.
+- **aig.enforce_epistemic_firewall**: Enforce the active-inference epistemic firewall: ACTIVE_INFERENCE_MODEL != BIOLOGICAL_PROOF, PREDICTION_ERROR != OBJECTIVE_ERROR, BELIEF_UPDATE != TRUTH, PREFERRED_STATE != AUTHORIZED_STATE, ACTION_SELECTION != ACTION_AUTHORITY, SYSTEM_HOMEOSTASIS != CONSCIOUSNESS.
+- **aig.detect_failure_modes**: Detect active-inference failure modes including MODEL_CAPTURE, PREDICTION_LOCK, CONFIRMATION_LOOP, PROXY_OPTIMIZATION, BELIEF_OVERCONFIDENCE, ACTION_BIAS, GOAL_DRIFT, AUTHORITY_DRIFT, SELF_CONFIRMING_ACTION, REWARD_HACKING, and ENDLESS_LOOP.
+- **aig.select_smallest_sufficient_action**: Select the smallest sufficient admissible action considering expected usefulness, uncertainty reduction, risk, reversibility, cost, authority, and downstream dependencies. Prefer reversible information-gathering actions under uncertainty. NO_ACTION is a valid governed outcome.
+- **aig.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+- **aig.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+- **aig.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
+
+# Epistemic Firewall
+
+Use:
+
+`SOURCE_CLAIM | OBSERVATION | AMOS_MODEL | DERIVED | DOMAIN_EMPIRICAL | CONDITIONAL | COMPETING | UNKNOWN/GAP`
+
+Maintain:
+
+```text
+ACTIVE_INFERENCE_MODEL != BIOLOGICAL_PROOF
+PREDICTION_ERROR != OBJECTIVE_ERROR
+BELIEF_UPDA

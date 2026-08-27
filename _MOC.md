@@ -1,0 +1,46 @@
+---
+title:  MOC
+type: moc
+tags: [moc, ]
+---
+
+#  — Map of Content
+
+## Files
+
+- [[AGENTS]]
+- [[AMOS_COGNITIVE_ARCHITECTURE_MATRIX]]
+- [[AMOS_HOME]]
+- [[README]]
+
+## Subdirectories
+
+- [[00_COSMO_BRAIN_MOC]]
+- [[01_CANON_MOC]]
+- [[02_KERNEL_MOC]]
+- [[03_CONTROL_PLANE_MOC]]
+- [[04_RUNTIME_MOC]]
+- [[05_COGNITIVE_ORGANISM_MOC]]
+- [[06_AGENTS_MOC]]
+- [[07_SKILLS_MOC]]
+- [[08_WORKFLOWS_MOC]]
+- [[09_PROTOCOLS_MOC]]
+- [[10_MEMORY_MOC]]
+- [[KNOWLEDGE_MOC]]
+- [[12_STATE_MOC]]
+- [[13_MODELS_MOC]]
+- [[14_TOOLS_MOC]]
+- [[15_INTERFACES_MOC]]
+- [[16_SCHEMAS_MOC]]
+- [[17_OBSERVABILITY_MOC]]
+- [[18_SECURITY_MOC]]
+- [[19_TESTS_MOC]]
+- [[20_OPERATIONS_MOC]]
+- [[21_DOMAINS_MOC]]
+- [[22_RESEARCH_MOC]]
+- [[23_OPERATING_MODEL_MOC]]
+- [[24_ARCHIVE_MOC]]
+- [[25_COGNITIVE_MATRIX_MOC]]
+- AMOS OS MOC
+- [[Templates_MOC]]
+

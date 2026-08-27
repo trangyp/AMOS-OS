@@ -1,0 +1,122 @@
+{
+  "name": "amos-os-kernel-agent",
+  "display_name": "Os Kernel",
+  "description": "Os Kernel — Os Kernel — Runtime and OS engine within the runtime domain.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Os Kernel — Runtime and OS engine within the runtime domain.",
+  "skill_binding": {
+    "primary_skill": "amos-os-kernel",
+    "skill_path": ".devin/skills/amos-os-kernel/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "os.monitor_stability",
+      "description": "Monitor runtime stability: drift, oscillation, divergence, and regime transitions",
+      "side_effect": "read"
+    },
+    {
+      "name": "os.calibrate_feedback",
+      "description": "Calibrate feedback control loops to maintain stable operating conditions",
+      "side_effect": "read"
+    },
+    {
+      "name": "os.decompose_primitive",
+      "description": "Decompose complex operations into primitive, atomic, verifiable steps",
+      "side_effect": "read"
+    },
+    {
+      "name": "os.align_drift",
+      "description": "Align AI drift back to authorized operating envelope when deviation is detected",
+      "side_effect": "read"
+    },
+    {
+      "name": "os.enforce_closed_loop",
+      "description": "Enforce closed-loop learning: every output feeds back into the next iteration",
+      "side_effect": "read"
+    },
+    {
+      "name": "os.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "os.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "os.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-os-kernel skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against runtime sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-os-kernel"
+  ],
+  "depends_on_workflows": [
+    "amos-os-kernel-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "runtime",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "512f8b5f942a8bf9",
+  "implementation": {
+    "type": "json",
+    "file": "amos-os-kernel-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

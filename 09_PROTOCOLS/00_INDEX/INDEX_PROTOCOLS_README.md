@@ -54,3 +54,6 @@ node_id: amos_09_protocols_00_index_index_protocols_readme_md
 node_type: note
 path: 09_PROTOCOLS/00_INDEX/INDEX_PROTOCOLS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

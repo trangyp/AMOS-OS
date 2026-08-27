@@ -1,0 +1,131 @@
+{
+  "name": "amos-c10-tech-engineering-agent",
+  "display_name": "AMOS C10 Tech & Engineering",
+  "description": "AMOS C10 Tech & Engineering — coding, software engineering, automation, DevOps, architecture, factory systems, production. Use for software development, engineering design, or technical architecture.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Technology and engineering: software development, architecture, DevOps, production systems.",
+  "skill_binding": {
+    "primary_skill": "amos-c10-tech-engineering-master",
+    "skill_path": ".devin/skills/amos-c10-tech-engineering-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "c10_tech_engine.execute_engineering",
+      "description": "Execute AMOS C10 Tech & Engineering engineering design: software architecture, system implementation with fractal principles.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c10_tech_engine.validate_architecture",
+      "description": "Validate AMOS C10 Tech & Engineering technical architecture for integrity, scalability, maintainability, and invariants.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c10_tech_engine.analyze_code",
+      "description": "Analyze AMOS C10 Tech & Engineering code quality: design patterns, implementation correctness, and provenance requirements.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c10_tech_engine.trace_tech_provenance",
+      "description": "Trace AMOS C10 Tech & Engineering technical outputs to design specs, code sources, and engineering standards.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c10_tech_engine.assess_tech_claim",
+      "description": "Assess AMOS C10 Tech & Engineering technical claims for architecture validity, test coverage, and compliance.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c10_tech_engine.manage_tech_lifecycle",
+      "description": "Manage AMOS C10 Tech & Engineering engineering lifecycle: design, implement, test, deploy, and maintain.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c10_tech_engine.detect_tech_drift",
+      "description": "Detect technical drift: architecture decay, code degradation, test erosion, and dependency rot.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c10_tech_engine.escalate_tech_gaps",
+      "description": "Escalate AMOS C10 Tech & Engineering technical gaps: flag architecture violations, require refactoring, trigger repair.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c10_tech_engine.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c10_tech_engine.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c10_tech_engine.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "REQUIREMENTS CLARIFICATION: Apply requirements clarification within the C10 tech engineering domain.",
+      "gate": "requirements_clarification_complete"
+    },
+    {
+      "step": 2,
+      "action": "ARCHITECTURAL PATTERN SELECTION: Apply architectural pattern selection within the C10 tech engineering domain.",
+      "gate": "architectural_pattern_selection_complete"
+    },
+    {
+      "step": 3,
+      "action": "RELIABILITY AND FAILURE MODE ANALYSIS: Apply reliability and failure mode analysis within the C10 tech engineering domain.",
+      "gate": "reliability_and_failure_mode_analysis_complete"
+    },
+    {
+      "step": 4,
+      "action": "HUMAN IN THE LOOP AI DESIGN: Apply human in the loop ai design within the C10 tech engineering domain.",
+      "gate": "human_in_the_loop_ai_design_complete"
+    }
+  ],
+  "integrity_requirements": [
+    "must match design to true constraints not idealized ones: this risk must be bounded by explicit gates",
+    "risk of over automating without humans: this risk must be bounded by explicit gates",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-c10-tech-engineering-master"
+  ],
+  "depends_on_workflows": [
+    "amos-c10-tech-engineering-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "tech",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-c10-tech-engineering-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "71bbee1e41f8cbf0"
+}

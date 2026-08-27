@@ -1,0 +1,117 @@
+{
+  "name": "amos-fx-macro-differential-mapper-agent",
+  "display_name": "Fx Macro Differential Mapper",
+  "description": "Fx Macro Differential Mapper — FX market analysis engine. Bound to fx domain. Use when fx market analysis engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Fx Macro Differential Mapper — FX market analysis engine within the fx domain.",
+  "skill_binding": {
+    "primary_skill": "amos-fx-macro-differential-mapper",
+    "skill_path": ".devin/skills/amos-fx-macro-differential-mapper/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "macro_differential.calibrate_model",
+      "description": "Calibrate FX models: Bayesian neural SDEs, volatility surfaces, and term structures",
+      "side_effect": "read"
+    },
+    {
+      "name": "macro_differential.assess_risk",
+      "description": "Assess FX risk: currency exposure, correlation breakdown, and tail events",
+      "side_effect": "read"
+    },
+    {
+      "name": "macro_differential.backtest_strategy",
+      "description": "Backtest FX strategies: walk-forward, regime-aware, and stress-tested",
+      "side_effect": "read"
+    },
+    {
+      "name": "macro_differential.monitor_regime",
+      "description": "Monitor FX regime shifts: volatility, correlation, and liquidity transitions",
+      "side_effect": "read"
+    },
+    {
+      "name": "macro_differential.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "macro_differential.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "macro_differential.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-fx-macro-differential-mapper skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against fx sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-fx-macro-differential-mapper"
+  ],
+  "depends_on_workflows": [
+    "amos-fx-macro-differential-mapper-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "fx",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "32c743b732c5cf3a",
+  "implementation": {
+    "type": "json",
+    "file": "amos-fx-macro-differential-mapper-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

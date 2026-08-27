@@ -1,0 +1,122 @@
+{
+  "name": "amos-sensory-map-integrator-agent",
+  "display_name": "Sensory Map Integrator",
+  "description": "Sensory Map Integrator — Bio-neuro engine. Bound to c04 domain. Use when bio-neuro engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Sensory Map Integrator — Bio-neuro engine within the c04 domain.",
+  "skill_binding": {
+    "primary_skill": "amos-sensory-map-integrator",
+    "skill_path": ".devin/skills/amos-sensory-map-integrator/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "sensory_map.map_mechanism",
+      "description": "Map biological mechanisms: cellular, neural, developmental, and evolutionary",
+      "side_effect": "read"
+    },
+    {
+      "name": "sensory_map.assess_cognition",
+      "description": "Assess cross-species cognition: comparative neural computation and intelligence",
+      "side_effect": "read"
+    },
+    {
+      "name": "sensory_map.model_morphogenesis",
+      "description": "Model morphogenesis: pattern formation, self-organization, and development",
+      "side_effect": "read"
+    },
+    {
+      "name": "sensory_map.map_neurotransmitters",
+      "description": "Map neurotransmitter systems: synthesis sites, release sites, receptor subtypes",
+      "side_effect": "read"
+    },
+    {
+      "name": "sensory_map.integrate_layers",
+      "description": "Integrate biological cognition layers: molecular → neural → cognitive → social",
+      "side_effect": "read"
+    },
+    {
+      "name": "sensory_map.detect_drift",
+      "description": "Detect drift in neurotransmitter maps, cognition models, or evidence freshness",
+      "side_effect": "read"
+    },
+    {
+      "name": "sensory_map.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "sensory_map.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-sensory-map-integrator skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against c04 sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-sensory-map-integrator"
+  ],
+  "depends_on_workflows": [
+    "amos-sensory-map-integrator-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "c04",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "4512477cc9499e26",
+  "implementation": {
+    "type": "json",
+    "file": "amos-sensory-map-integrator-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

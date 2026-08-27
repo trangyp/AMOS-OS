@@ -1,0 +1,104 @@
+{
+  "name": "amos-7-part-universe-canon-full-agent",
+  "display_name": "7 Part Universe Canon Full",
+  "description": "7 Part Universe Canon Full — Canon and universe engine. Bound to canon domain. Use when canon and universe engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "7 Part Universe Canon Full — Canon and universe engine within the canon domain.",
+  "skill_binding": {
+    "primary_skill": "amos-7-part-universe-canon-full",
+    "skill_path": ".devin/skills/amos-7-part-universe-canon-full/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "canon.apply_seven_part_test",
+      "description": "Apply the 7-question canon test (Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination) to verify structural coverage of a target system. Failure to answer all seven = structural invalidity for that layer's stated scope.",
+      "side_effect": "read"
+    },
+    {
+      "name": "canon.enforce_epistemic_firewall",
+      "description": "Enforce the canon/model/evidence separation: SOURCE_CANON is not EMPIRICAL_LAW, structural mapping is not causal proof, cross-domain analogy is not mechanism, all-seven-present is not system-true.",
+      "side_effect": "read"
+    },
+    {
+      "name": "canon.map_persistence_functions",
+      "description": "Map a target system to the seven persistence functions (Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination) and identify which parts are present, sharpened, or missing.",
+      "side_effect": "read"
+    },
+    {
+      "name": "canon.validate_canon_invariants",
+      "description": "Validate that all canon claims maintain hard invariants: SOURCE_CANON != EMPIRICAL_LAW, STRUCTURAL_MAPPING != CAUSAL_PROOF, FORMAL_ELEGANCE != VALIDATION.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "ORIENT: Identify the target system and confirm canon scope.",
+      "gate": "scope_confirmed"
+    },
+    {
+      "step": 2,
+      "action": "MAP: Map the target to the seven persistence functions (Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination).",
+      "gate": "seven_parts_mapped"
+    },
+    {
+      "step": 3,
+      "action": "TEST: Test each part for evidence, scope, mechanism, and gap.",
+      "gate": "parts_tested"
+    },
+    {
+      "step": 4,
+      "action": "CHALLENGE: Challenge epistemic firewall (SOURCE_CANON != EMPIRICAL_LAW, STRUCTURAL_MAPPING != CAUSAL_PROOF).",
+      "gate": "firewall_passed"
+    },
+    {
+      "step": 5,
+      "action": "SYNTHESIZE: Synthesize canon test result with provenance and confidence ceiling.",
+      "gate": "result_synthesized"
+    }
+  ],
+  "integrity_requirements": [
+    "SOURCE_CANON != EMPIRICAL_LAW: canon is not empirical law",
+    "STRUCTURAL_MAPPING != CAUSAL_PROOF: mapping is not causation",
+    "FORMAL_ELEGANCE != VALIDATION: elegance is not validation",
+    "ALL_SEVEN_PRESENT != SYSTEM_TRUE: coverage is not truth",
+    "CROSS_DOMAIN_ANALOGY != MECHANISM: analogy is not mechanism",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-7-part-universe-canon-full"
+  ],
+  "depends_on_workflows": [
+    "amos-7-part-universe-canon-full-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "canon",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "399612fb2039db7b",
+  "implementation": {
+    "type": "python",
+    "file": "cosmo-brain/amos_v1_production/seven_part_universe_canon_agent.py",
+    "class": "SevenPartUniverseCanonFullAgent",
+    "executable": true
+  }
+}

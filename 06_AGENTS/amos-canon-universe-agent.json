@@ -1,0 +1,137 @@
+{
+  "name": "amos-canon-universe-agent",
+  "display_name": "AMOS Canon & Universe",
+  "description": "AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants, law hierarchy, universe-scale canonical structures. Use for canon reasoning, universe-level analysis, or invariant ver",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "7-Part Universe Canon: absolute protocols, invariants, law hierarchy, universe-scale canonical structures.",
+  "skill_binding": {
+    "primary_skill": "amos-canon-universe-master",
+    "skill_path": ".devin/skills/amos-canon-universe-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "canon_universe.apply_canon_model",
+      "description": "Apply the AMOS Canon & Universe canon model to analyze structural coverage, persistence functions, and canonical invariants.",
+      "side_effect": "read"
+    },
+    {
+      "name": "canon_universe.validate_canon_compliance",
+      "description": "Validate AMOS Canon & Universe outputs against canon separation laws, epistemic firewall, and source-canon vs empirical-law distinction.",
+      "side_effect": "read"
+    },
+    {
+      "name": "canon_universe.analyze_canon_structure",
+      "description": "Analyze AMOS Canon & Universe structural layers, constraint tensors, and canon nuclei for completeness and coherence.",
+      "side_effect": "read"
+    },
+    {
+      "name": "canon_universe.trace_canon_provenance",
+      "description": "Trace AMOS Canon & Universe claims to vault canon sources, source-canon status, and AMOS_MODEL formalization chain.",
+      "side_effect": "read"
+    },
+    {
+      "name": "canon_universe.assess_canon_claim",
+      "description": "Assess AMOS Canon & Universe claims for canon status (SOURCE_CANON vs AMOS_MODEL vs EMPIRICAL), scope regime, and overclaim risk.",
+      "side_effect": "read"
+    },
+    {
+      "name": "canon_universe.manage_canon_lifecycle",
+      "description": "Manage AMOS Canon & Universe lifecycle: initialize canon test, execute 7-part sweep, checkpoint results, recover from gaps, finalize.",
+      "side_effect": "write"
+    },
+    {
+      "name": "canon_universe.detect_canon_drift",
+      "description": "Detect canon drift: scope regime changes, source-canon promotion attempts, and structural coverage degradation over time.",
+      "side_effect": "read"
+    },
+    {
+      "name": "canon_universe.escalate_canon_gaps",
+      "description": "Escalate AMOS Canon & Universe canon gaps: flag missing parts, downgrade structural validity, trigger canon completeness repair.",
+      "side_effect": "write"
+    },
+    {
+      "name": "canon_universe.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "canon_universe.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "canon_universe.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "ORIENT: Identify the problem and confirm it matches the canon universe scope.",
+      "gate": "scope_confirmed"
+    },
+    {
+      "step": 2,
+      "action": "CLASSIFY: Classify the query against canon universe sub-capabilities and frameworks.",
+      "gate": "domain_classified"
+    },
+    {
+      "step": 3,
+      "action": "APPLY: Apply the appropriate canon universe framework with epistemic class labeling.",
+      "gate": "framework_applied"
+    },
+    {
+      "step": 4,
+      "action": "CHALLENGE: Challenge results against epistemic firewall and domain-specific invariants.",
+      "gate": "firewall_passed"
+    },
+    {
+      "step": 5,
+      "action": "SYNTHESIZE: Synthesize results with provenance and confidence ceiling.",
+      "gate": "result_synthesized"
+    }
+  ],
+  "integrity_requirements": [
+    "CANON UNIVERSE model != empirical proof: framework is not empirical validation",
+    "Structural mapping != causal proof: mapping is not causation",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Competing hypotheses must be preserved under uncertainty",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-canon-universe-master"
+  ],
+  "depends_on_workflows": [
+    "amos-canon-universe-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "canon",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-canon-universe-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "12bcd1557cd5d84c"
+}

@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[COGNITIVE_ORGANISM_MAP]]
+- [[INDEX_COGNITIVE_ORGANISM_COGNITIVE_ORGANISM_CONTRACT]]
+- [[INDEX_COGNITIVE_ORGANISM_README]]
+
+---
+**Parent:** [[05_COGNITIVE_ORGANISM_MOC]]

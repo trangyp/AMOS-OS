@@ -53,3 +53,6 @@ node_id: cognitive_matrix_atrix_01_primitives_l29_evolution_00_index_l29_evoluti
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L29_EVOLUTION/00_INDEX/L29_EVOLUTION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -56,3 +56,6 @@ node_id: cp_rol_plane_06_semantic_transaction_00_index_semantic_transaction_map_
 node_type: note
 path: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/00_INDEX/SEMANTIC_TRANSACTION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

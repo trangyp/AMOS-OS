@@ -1,0 +1,93 @@
+---
+title: SKILL
+type: skill
+name: amos-distinction-relation-constraint-rscf-algebra
+description: Distinction Relation Constraint Rscf Algebra — formal verification capability. Use when formal verification, symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes to this specialized capability.
+parent_skill: amos-formal-engines-master
+domain: formal
+origin_architect: Trang Phan
+epistemic_class: SOURCE_CLAIM
+tags: [note, amos-distinction-relation-constraint-rscf-algebra]
+---
+
+
+# Distinction Relation Constraint Rscf Algebra
+
+## Identity
+
+- **Origin architect and steward**: Trang Phan
+- **Parent skill**: `amos-formal-engines-master`
+- **Domain**: formal
+- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
+
+Formal reasoning engine for Distinction Relation Constraint Rscf Algebra
+
+## When to Use
+
+- When verifying formal proofs against axioms and inference rules
+- When checking soundness and completeness of formal systems
+- When propagating constraints and detecting unsatisfiable cores
+- When validating invariants under all operating conditions
+- When the parent skill (`amos-formal-engines-master`) routes to this specialized capability
+- When managing lifecycle operations across classify, validate, trace, assess, and detect
+- When detecting drift in evidence chains, provenance freshness, or confidence calibration
+- When validating outputs against domain constraints and epistemic class
+
+## Capabilities
+
+- **distinction_relation.verify_proof**: Verify formal proofs against axioms, inference rules, and consistency constraints
+- **distinction_relation.check_soundness**: Check soundness and completeness of formal systems under test
+- **distinction_relation.propagate_constraints**: Propagate constraints through the formal system and detect unsatisfiable cores
+- **distinction_relation.validate_invariant**: Validate invariants hold under all specified operating conditions
+- **distinction_relation.detect_contradiction**: Detect contradictions and derive minimal conflict explanations
+
+> **Reference**: See `references/vault_domain_knowledge.md` (content_hash: c484401c2918de99) for the full vault-sourced domain knowledge (9568 chars).
+- **distinction_relation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+- **distinction_relation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+- **distinction_relation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
+## 11_KNOWLEDGE Vault Content
+
+> **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)
+
+### RSCF Epistemic Substrate
+
+This RSCF engine operates on the AMOS RSCF (Reasoning, Scope, Claim, Falsifier) epistemic substrate.
+
+**RSCF objects**: claim / class / premises / evidence / provenance / scope / regime / freshness / dependencies / competing hypotheses / falsifiers / confidence ceiling.
+
+**RSCF state kinds**: OBSERVATION, SOURCE_CLAIM, DERIVED, MODEL, DECISION, UNKNOWN.
+
+**RSCF laws**:
+- `CLAIM != FACT`: a claim is not a fact; it must be labeled with epistemic class
+- `CONFIDENCE <= EVIDENCE`: confidence cannot exceed evidence support
+- `FALSIFIER_REQUIRED`: every claim must declare its falsifier
+- `SCOPE_BOUND`: every claim is valid only within its declared scope and regime
+- `PROVENANCE_REQUIRED`: every claim must have traceable provenance
+
+**RSCF validation gates**:
+- G1 (Law of Law): no unresolved contradictions
+- G2 (Epistemic class): all claims labeled, no class promotion without evidence
+- G3 (Provenance): source path recorded for every derived claim
+- G4 (Anti-overreach): no claim beyond declared scope
+- G5 (Equation firewall): equations carry status tags
+- G6 (Failure mode): on failure, downgrade, flag, escalate
+
+### Epistemic Boundary
+
+This RSCF engine is an epistemic governance tool. It does not prove claims are true, that all falsifiers are known, or that the RSCF framework is complete.
+
+## Failure Modes
+
+- **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
+- **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
+- **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
+- **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
+- **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
+
+## Validation Gates
+
+- **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
+- **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
+- **G3 (Provenance)**: Source path recorded for every derived claim.
+- **G4 (Anti-overreach)**: No claim beyond the skill's decla

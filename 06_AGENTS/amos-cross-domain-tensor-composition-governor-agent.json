@@ -1,0 +1,154 @@
+{
+  "name": "amos-cross-domain-tensor-composition-governor-agent",
+  "display_name": "Cross-Domain Tensor Composition Governor",
+  "description": "Governor for cross-domain tensor composition across C01-C12 AMOS domain engines. Enforces tensor compatibility invariant, epistemic class preservation, weakest-load-bearing-edge confidence rule, and cross-domain provenance tracking.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Cross-Domain Tensor Composition Governor — RSCF epistemic engine governing composition of typed tensors across AMOS domain boundaries (C01-C12).",
+  "skill_binding": {
+    "primary_skill": "amos-cross-domain-tensor-composition-governor",
+    "skill_path": ".devin/skills/amos-cross-domain-tensor-composition-governor/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "cross_domain.validate_axis_compatibility",
+      "description": "Validate that shared axes between two domain tensors are semantically compatible (not just name-matching). Checks scope, regime, causal_level, time, observer, and provenance axes.",
+      "side_effect": "read"
+    },
+    {
+      "name": "cross_domain.govern_composition",
+      "description": "Govern when tensors from different domains can be composed. Enforces compatibility invariant. Returns COMPOSITION_PERMITTED / COMPOSITION_BLOCKED / COMPOSITION_CONDITIONAL.",
+      "side_effect": "read"
+    },
+    {
+      "name": "cross_domain.detect_epistemic_overreach",
+      "description": "Detect when a claim from domain A is used beyond its epistemic class or scope in domain B. Flags class promotion, scope expansion, regime mismatch, falsifier neglect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "cross_domain.trace_cross_domain_provenance",
+      "description": "Trace provenance chains across domain boundaries. Records full derivation path from source domain through bridge to consuming domain.",
+      "side_effect": "read"
+    },
+    {
+      "name": "cross_domain.enforce_weakest_edge",
+      "description": "Enforce the weakest-load-bearing-edge confidence rule across composed domains. Composition confidence cannot exceed weakest load-bearing premise.",
+      "side_effect": "read"
+    },
+    {
+      "name": "cross_domain.classify_bridge",
+      "description": "Classify cross-domain bridge type: ANALOGY, ISOMORPHISM, CAUSAL, INFORMATIONAL, STRUCTURAL. Each type has different epistemic requirements and confidence ceilings.",
+      "side_effect": "read"
+    },
+    {
+      "name": "cross_domain.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "cross_domain.detect_drift",
+      "description": "Detect drift in cross-domain evidence chains, provenance freshness across boundaries, or confidence calibration decay.",
+      "side_effect": "read"
+    },
+    {
+      "name": "cross_domain.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class, ensuring no domain's claims are promoted beyond their valid scope in another domain.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-cross-domain-tensor-composition-governor skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query: identify source domains (C01-C12) and target composition operation",
+      "gate": "domains_identified"
+    },
+    {
+      "step": 3,
+      "action": "Validate axis compatibility between source domain tensors using the domain axis registry",
+      "gate": "axes_compatible"
+    },
+    {
+      "step": 4,
+      "action": "Classify the bridge type (ANALOGY / ISOMORPHISM / CAUSAL / INFORMATIONAL / STRUCTURAL)",
+      "gate": "bridge_classified"
+    },
+    {
+      "step": 5,
+      "action": "Detect epistemic overreach: check for class promotion, scope expansion, regime mismatch across boundaries",
+      "gate": "overreach_checked"
+    },
+    {
+      "step": 6,
+      "action": "Enforce weakest-load-bearing-edge confidence rule across all domain boundaries",
+      "gate": "confidence_bounded"
+    },
+    {
+      "step": 7,
+      "action": "Trace cross-domain provenance: record full derivation path with source paths, content hashes, epistemic classes",
+      "gate": "provenance_traced"
+    },
+    {
+      "step": 8,
+      "action": "Validate results against all 10 validation gates (G1-G10)",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 9,
+      "action": "Present results with composition verdict, confidence ceiling, provenance chain, and gap flags",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within or across composed domains",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — no cross-domain class promotion",
+    "Provenance: source path recorded for every derived claim including domain of origin and bridge type",
+    "Anti-overreach: no domain's claims promoted beyond their valid scope in another domain",
+    "Axis compatibility: all shared axes verified semantically compatible before composition permitted",
+    "Weakest edge: composition confidence <= weakest load-bearing premise across all boundaries",
+    "Bridge classification: every cross-domain composition has explicit bridge type with confidence ceiling",
+    "Scope intersection: composed scope subset of input scope intersection; composed regime subset of input regime intersection",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate — do not force-fit"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate axis compatibility to permit composition",
+    "No silent axis merging: same-name axes with different semantics must be flagged as collision",
+    "No cross-domain class promotion: MODEL in domain A cannot become VERIFIED in domain B",
+    "Composition blocked if any validation gate fails — no partial composition"
+  ],
+  "depends_on_skills": [
+    "amos-cross-domain-tensor-composition-governor"
+  ],
+  "depends_on_workflows": [
+    "amos-cross-domain-tensor-composition-governor-workflow.md"
+  ],
+  "epistemic_class": "SOURCE_CLAIM",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "cross-domain",
+    "risk_tier": "high",
+    "observability": "structured_logs+content_hash+provenance_chain",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "8487a74ac0631d4e",
+  "implementation": {
+    "type": "json",
+    "file": "amos-cross-domain-tensor-composition-governor-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

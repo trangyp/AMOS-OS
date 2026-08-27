@@ -1,0 +1,165 @@
+{
+  "name": "amos-c11-design-language-agent",
+  "display_name": "AMOS C11 Design & Language",
+  "description": "AMOS C11 Design & Language — content creation, corporate documentation, academic writing, artistic expression, presentation design, language patterns. Use for content creation, documentation, or de",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Design and language: content creation, documentation, academic writing, visual design, accessibility.",
+  "skill_binding": {
+    "primary_skill": "amos-c11-design-language-master",
+    "skill_path": ".devin/skills/amos-c11-design-language-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "c11.design.primitive.definition",
+      "description": "Design Primitive Definition — design language capability",
+      "side_effect": "read"
+    },
+    {
+      "name": "c11.design.token.systems",
+      "description": "Design Token Systems — design language capability",
+      "side_effect": "read"
+    },
+    {
+      "name": "c11.visual.and.typographic.grammar",
+      "description": "Visual And Typographic Grammar — design language capability",
+      "side_effect": "read"
+    },
+    {
+      "name": "c11.spatial.and.layout.systems",
+      "description": "Spatial And Layout Systems — design language capability",
+      "side_effect": "read"
+    },
+    {
+      "name": "c11.interaction.and.motion.patterns",
+      "description": "Interaction And Motion Patterns — design language capability",
+      "side_effect": "read"
+    },
+    {
+      "name": "c11.information.hierarchy.mapping",
+      "description": "Information Hierarchy Mapping — design language capability",
+      "side_effect": "read"
+    },
+    {
+      "name": "c11.cross.channel.design.translation",
+      "description": "Cross Channel Design Translation — design language capability",
+      "side_effect": "read"
+    },
+    {
+      "name": "c11.accessibility.and.inclusion.mapping",
+      "description": "Accessibility And Inclusion Mapping — design language capability",
+      "side_effect": "read"
+    },
+    {
+      "name": "c11.design.language.auditing.and.refactoring",
+      "description": "Design Language Auditing And Refactoring — design language capability",
+      "side_effect": "read"
+    },
+    {
+      "name": "c11.design.language.change.management",
+      "description": "Design Language Change Management — design language capability",
+      "side_effect": "read"
+    },
+    {
+      "name": "c11.assess_claim",
+      "description": "Assess C11 design language claims for epistemic class and evidence",
+      "side_effect": "read"
+    },
+    {
+      "name": "c11.manage_lifecycle",
+      "description": "Manage C11 design language lifecycle: define, audit, refactor, evolve",
+      "side_effect": "read"
+    },
+    {
+      "name": "c11.detect_drift",
+      "description": "Detect drift in design language consistency, token systems, or pattern adherence",
+      "side_effect": "read"
+    },
+    {
+      "name": "c11.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "DESIGN PRIMITIVE DEFINITION: Apply design primitive definition within the c11 design language domain.",
+      "gate": "design_primitive_definition_complete"
+    },
+    {
+      "step": 2,
+      "action": "DESIGN TOKEN SYSTEMS: Apply design token systems within the c11 design language domain.",
+      "gate": "design_token_systems_complete"
+    },
+    {
+      "step": 3,
+      "action": "VISUAL AND TYPOGRAPHIC GRAMMAR: Apply visual and typographic grammar within the c11 design language domain.",
+      "gate": "visual_and_typographic_grammar_complete"
+    },
+    {
+      "step": 4,
+      "action": "SPATIAL AND LAYOUT SYSTEMS: Apply spatial and layout systems within the c11 design language domain.",
+      "gate": "spatial_and_layout_systems_complete"
+    },
+    {
+      "step": 5,
+      "action": "INTERACTION AND MOTION PATTERNS: Apply interaction and motion patterns within the c11 design language domain.",
+      "gate": "interaction_and_motion_patterns_complete"
+    },
+    {
+      "step": 6,
+      "action": "INFORMATION HIERARCHY MAPPING: Apply information hierarchy mapping within the c11 design language domain.",
+      "gate": "information_hierarchy_mapping_complete"
+    },
+    {
+      "step": 7,
+      "action": "CROSS CHANNEL DESIGN TRANSLATION: Apply cross channel design translation within the c11 design language domain.",
+      "gate": "cross_channel_design_translation_complete"
+    }
+  ],
+  "integrity_requirements": [
+    "can become overly rigid if not allowing controlled evolution: this risk must be bounded by explicit gates",
+    "can over prioritize aesthetic consistency over functional clarity: this risk must be bounded by explicit gates",
+    "if misused can collapse distinct brand or context signatures: this risk must be bounded by explicit gates",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders",
+    "keeps_semantic_language_vague_or_marketing_loaded: detect and prevent this failure mode",
+    "fails_to_convert_high_level_intent_into_concrete_design_rules: detect and prevent this failure mode",
+    "allows_random_shape_and_icon_styles_to_coexist: detect and prevent this failure mode"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-c11-design-language-master"
+  ],
+  "depends_on_workflows": [
+    "amos-c11-design-language-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "design",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-c11-design-language-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "0b8849482ebda235"
+}

@@ -40,3 +40,6 @@ claim_class: AMOS_MODEL
 
 - [[LEGACY_ARCHIVE_LEGACY_CONTRACT]]
 - [[LEGACY_MAP]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -53,3 +53,6 @@ node_id: cognitive_matrix_02_lifecycle_operations_o03_binding_00_index_o03_bindi
 node_type: note
 path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O03_BINDING/00_INDEX/O03_BINDING_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

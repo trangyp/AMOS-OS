@@ -54,3 +54,6 @@ node_id: amos_02_kernel_08_provenance_00_index_index_provenance_kernel_readme_md
 node_type: note
 path: 02_KERNEL/08_PROVENANCE/00_INDEX/INDEX_PROVENANCE_KERNEL_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

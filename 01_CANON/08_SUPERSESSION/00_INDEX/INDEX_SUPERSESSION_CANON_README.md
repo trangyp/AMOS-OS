@@ -2127,3 +2127,6 @@ The artifact is therefore suitable as a **full AMOS supersession index specifica
 **Origin architect / steward:** Trang Phan
 **Claim class:** `AMOS_MODEL`
 **Canonical status:** `CONDITIONAL`
+
+---
+**MOC:** [[00_INDEX_MOC]]

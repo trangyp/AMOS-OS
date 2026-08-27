@@ -53,3 +53,6 @@ node_id: cognitive_matrix__lifecycle_operations_o13_decision_00_index_o13_decisi
 node_type: note
 path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O13_DECISION/00_INDEX/O13_DECISION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

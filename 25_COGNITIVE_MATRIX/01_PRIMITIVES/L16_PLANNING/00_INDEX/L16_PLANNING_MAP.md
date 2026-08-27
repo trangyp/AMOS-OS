@@ -53,3 +53,6 @@ node_id: cognitive_matrix__matrix_01_primitives_l16_planning_00_index_l16_planni
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING/00_INDEX/L16_PLANNING_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

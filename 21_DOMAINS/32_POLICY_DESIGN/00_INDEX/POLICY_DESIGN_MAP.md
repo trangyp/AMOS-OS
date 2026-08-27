@@ -56,3 +56,6 @@ node_id: amos_21_domains_32_policy_design_00_index_policy_design_map_md
 node_type: note
 path: 21_DOMAINS/32_POLICY_DESIGN/00_INDEX/POLICY_DESIGN_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -54,3 +54,6 @@ node_id: amos_ains_26_ubi_si_somatic_00_index_index_ubi_si_somatic_domains_readm
 node_type: note
 path: 21_DOMAINS/26_UBI_SI_SOMATIC/00_INDEX/INDEX_UBI_SI_SOMATIC_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

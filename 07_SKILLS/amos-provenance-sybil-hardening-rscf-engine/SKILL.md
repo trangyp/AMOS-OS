@@ -1,0 +1,131 @@
+---
+title: SKILL
+type: skill
+name: amos-provenance-sybil-hardening-rscf-engine
+description: Provenance Sybil Hardening — security and safety capability. Use when security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master routes to this specialized capability.
+parent_skill: amos-security-safety-master
+domain: security
+origin_architect: Trang Phan
+epistemic_class: SOURCE_CLAIM
+tags: [note, amos-provenance-sybil-hardening-rscf-engine]
+---
+
+
+# Provenance Sybil Hardening Rscf Engine
+
+## Identity
+
+- **Origin architect and steward**: Trang Phan
+- **Parent skill**: `amos-security-safety-master`
+- **Domain**: security
+- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
+
+Security and trust engine for Provenance Sybil Hardening Rscf Engine
+
+## When to Use
+
+- When detecting adversarial activity: attacks, probes, manipulation
+- When quantifying adversarial entropy and attack surface
+- When governing principal-trust relationships: delegation, revocation
+- When monitoring distributed attack composition: multi-stage threats
+- When the parent skill (`amos-security-safety-master`) routes to this specialized capability
+- When managing lifecycle operations across classify, validate, trace, assess, and detect
+- When detecting drift in evidence chains, provenance freshness, or confidence calibration
+- When validating outputs against domain constraints and epistemic class
+
+## Capabilities
+
+- **provenance_sybil.detect_adversary**: Detect adversarial activity: attacks, probes, and manipulation attempts
+- **provenance_sybil.quantify_entropy**: Quantify adversarial entropy: uncertainty, information leakage, and attack surface
+- **provenance_sybil.govern_trust**: Govern principal-trust relationships: delegation, revocation, and audit
+- **provenance_sybil.monitor_attack**: Monitor distributed attack composition: multi-stage, multi-vector threats
+- **provenance_sybil.replay_provenance**: Replay execution provenance: trace and verify every action for integrity
+- **provenance_sybil.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+- **provenance_sybil.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+- **provenance_sybil.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
+## Vault-Sourced Content
+
+### Source 1: v3.7.1 — Provenance Topology Hardened Runtime
+
+> Path: `misc/V/V3_7_1.md` | Size: 1467 chars | Match score: 9 | content_hash: 497a4dd5c70d0081
+
+# v3.7.1 — Provenance Topology Hardened Runtime
+
+## Focus
+- root-content fingerprints
+- Sybil alias collapse
+- cycle/missing-parent/equivocation rejection
+
+## Known gap at this version
+Recursive Python traversal failed around depth ~3000.
+
+## Brain adaptation
+Treat this runtime stage as a loadable reasoning capability. Preserve the later lineage improvements; never regress to an earlier weakness when a later module corrects it.
+
+## Benchmark record
+> **Reference**: See `references/sybil_hardening_spec.md` (content_hash: 5dacd8a6a7b937d4) for the JSON specification.
+
+Benchmark claims are bounded to the recorded test corpus/environment and must not be generalized universally.
+
+---
+
+---
+
+### Source 2: AMOS Provenance and Trust
+
+> Path: `brain/P/PROVENANCE (AMOS_MD_BRAIN).md` | Size: 1161 chars | Match score: 9 | content_hash: e6058f84799a8578
+
+# AMOS Provenance and Trust
+
+## Trust is local
+Trust is typed, scoped, provenance-aware, regime-aware, and freshness-bounded.
+
+## Evidence identity
+Track when material:
+- source identity
+- source type
+- parent/ancestor source
+- timestamp/version
+- environment/regime
+- transformation history
+- independence status
+
+## Sybil hardening
+Multiple documents, posts, agents, or summaries descending from the same origin count as correlated support, not independent confirmation.
+
+Authority, popularity, repetition, or paraphrase do not prove independence.
+
+## Independence test
+Before aggregating support ask:
+1. Do sources share a parent?
+2. Do they share a dataset, benchmark, fixture, model output, or press release?
+3. Is one merely summarizing another?
+4. Were they independently measured?
+5. Do they fail independently?
+
+If unknown, mark provenance independence as uncertain.
+
+## Freshness
+A stale source can remain historically accurate but lose applicability in a changed regime.
+
+---
+
+---
+
+### Source 3: AMOS_CORE v3.9 — Persistent Incremental Provenance Runtime
+
+> Path: `amos-general/A/CORE/AMOS_CORE v3.9 — Persistent Incremental Provenance Runtime.md` | Size: 127625 chars | Match score: 8 | content_hash: a182e8c6905ed6dd
+
+"""
+AMOS_CORE v3 – Deterministic Reasoning Kernel (Clean Single-File Version)
+
+Status:
+- Executable Python module (no external dependencies beyond stdlib).
+- Canon-aligned structure with:
+    - Core-19 logic + rewrite system
+    - Knowledge base + entailment + contradiction detection
+- TSS-style system state
+    - Task + engine API
+- Minimal translation layer (NL <-> logic stubs)
+    - D

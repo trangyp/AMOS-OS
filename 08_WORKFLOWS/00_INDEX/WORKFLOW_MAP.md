@@ -61,3 +61,6 @@ node_id: amos_08_workflows_00_index_workflow_map_md
 node_type: note
 path: 08_WORKFLOWS/00_INDEX/WORKFLOW_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

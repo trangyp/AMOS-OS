@@ -1,0 +1,131 @@
+{
+  "name": "amos-c12-earth-ecology-agent",
+  "display_name": "AMOS C12 Earth & Ecology",
+  "description": "AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructure, electrical power, hydrogen, battery systems, solar, wind, green tech. Use for environmental analysis, energy system",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Earth and ecology: climate, energy systems, environmental analysis, hydro, hydrogen, EV infrastructure.",
+  "skill_binding": {
+    "primary_skill": "amos-c12-earth-ecology-master",
+    "skill_path": ".devin/skills/amos-c12-earth-ecology-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "c12_earth_ecology.execute_engineering",
+      "description": "Execute AMOS C12 Earth & Ecology engineering design: software architecture, system implementation with fractal principles.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c12_earth_ecology.validate_architecture",
+      "description": "Validate AMOS C12 Earth & Ecology technical architecture for integrity, scalability, maintainability, and invariants.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c12_earth_ecology.analyze_code",
+      "description": "Analyze AMOS C12 Earth & Ecology code quality: design patterns, implementation correctness, and provenance requirements.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c12_earth_ecology.trace_tech_provenance",
+      "description": "Trace AMOS C12 Earth & Ecology technical outputs to design specs, code sources, and engineering standards.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c12_earth_ecology.assess_tech_claim",
+      "description": "Assess AMOS C12 Earth & Ecology technical claims for architecture validity, test coverage, and compliance.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c12_earth_ecology.manage_tech_lifecycle",
+      "description": "Manage AMOS C12 Earth & Ecology engineering lifecycle: design, implement, test, deploy, and maintain.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c12_earth_ecology.detect_tech_drift",
+      "description": "Detect technical drift: architecture decay, code degradation, test erosion, and dependency rot.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c12_earth_ecology.escalate_tech_gaps",
+      "description": "Escalate AMOS C12 Earth & Ecology technical gaps: flag architecture violations, require refactoring, trigger repair.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c12_earth_ecology.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c12_earth_ecology.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c12_earth_ecology.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "LIFECYCLE AND SUPPLY CHAIN VIEW: Apply lifecycle and supply chain view within the C12 earth ecology domain.",
+      "gate": "lifecycle_and_supply_chain_view_complete"
+    },
+    {
+      "step": 2,
+      "action": "INFRASTRUCTURE DEPENDENCY MAPPING: Apply infrastructure dependency mapping within the C12 earth ecology domain.",
+      "gate": "infrastructure_dependency_mapping_complete"
+    },
+    {
+      "step": 3,
+      "action": "RESILIENCE AND REDUNDANCY ASSESSMENT: Apply resilience and redundancy assessment within the C12 earth ecology domain.",
+      "gate": "resilience_and_redundancy_assessment_complete"
+    },
+    {
+      "step": 4,
+      "action": "CLIMATE RISK SCENARIO USE: Apply climate risk scenario use within the C12 earth ecology domain.",
+      "gate": "climate_risk_scenario_use_complete"
+    }
+  ],
+  "integrity_requirements": [
+    "future climate trajectories have uncertainty: this risk must be bounded by explicit gates",
+    "models must not be treated as oracles: this risk must be bounded by explicit gates",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-c12-earth-ecology-master"
+  ],
+  "depends_on_workflows": [
+    "amos-c12-earth-ecology-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "earth",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-c12-earth-ecology-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "d47d99ccd41c6dce"
+}

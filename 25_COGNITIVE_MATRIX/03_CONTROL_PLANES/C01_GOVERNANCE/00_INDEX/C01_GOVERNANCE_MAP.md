@@ -53,3 +53,6 @@ node_id: cognitive_matrix_03_control_planes_c01_governance_00_index_c01_governan
 node_type: note
 path: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE/00_INDEX/C01_GOVERNANCE_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

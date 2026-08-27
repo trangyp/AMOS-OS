@@ -56,3 +56,6 @@ node_id: amos_02_kernel_05_memory_00_index_kernel_memory_map_md
 node_type: note
 path: 02_KERNEL/05_MEMORY/00_INDEX/KERNEL_MEMORY_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

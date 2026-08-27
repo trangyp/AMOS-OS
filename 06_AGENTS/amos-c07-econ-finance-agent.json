@@ -1,0 +1,131 @@
+{
+  "name": "amos-c07-econ-finance-agent",
+  "display_name": "AMOS C07 Econ & Finance",
+  "description": "AMOS C07 Econ & Finance — unit economics, forex, investment, wealth, business analysis, market dynamics, trade. BizFin Engine: unit economics first, then scale. Use for financial analysis, economic",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Economics and finance: market dynamics, corporate finance, BizFin engine, economic structure analysis.",
+  "skill_binding": {
+    "primary_skill": "amos-c07-econ-finance-master",
+    "skill_path": ".devin/skills/amos-c07-econ-finance-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "c07_econ_finance.analyze_market",
+      "description": "Analyze AMOS C07 Econ & Finance market dynamics: price formation, regime shifts, fractal economics, and chaos diagnostics.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c07_econ_finance.validate_econ",
+      "description": "Validate AMOS C07 Econ & Finance economic claims for scope regime, empirical calibration vs theoretical model, and overclaim.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c07_econ_finance.compute_risk",
+      "description": "Compute AMOS C07 Econ & Finance financial risk: tail risk, conformal prediction, and investment decision metrics.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c07_econ_finance.trace_econ_provenance",
+      "description": "Trace AMOS C07 Econ & Finance economic findings to market data, fractal analysis, and vault sources.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c07_econ_finance.assess_econ_claim",
+      "description": "Assess AMOS C07 Econ & Finance economic claims for empirical support, model validity, scope, and falsifier.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c07_econ_finance.manage_econ_lifecycle",
+      "description": "Manage AMOS C07 Econ & Finance economic lifecycle: analyze, model, validate, calibrate, and finalize.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c07_econ_finance.detect_econ_drift",
+      "description": "Detect economic drift: regime shift, model decay, market change, and calibration loss.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c07_econ_finance.escalate_econ_gaps",
+      "description": "Escalate AMOS C07 Econ & Finance economic gaps: flag model invalidity, require recalibration, trigger repair.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c07_econ_finance.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c07_econ_finance.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c07_econ_finance.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "UNIT ECONOMICS BREAKDOWN: Apply unit economics breakdown within the C07 econ finance domain.",
+      "gate": "unit_economics_breakdown_complete"
+    },
+    {
+      "step": 2,
+      "action": "SCENARIO AND SENSITIVITY ANALYSIS: Apply scenario and sensitivity analysis within the C07 econ finance domain.",
+      "gate": "scenario_and_sensitivity_analysis_complete"
+    },
+    {
+      "step": 3,
+      "action": "BALANCE SHEET AND CASH FLOW CONSISTENCY: Apply balance sheet and cash flow consistency within the C07 econ finance domain.",
+      "gate": "balance_sheet_and_cash_flow_consistency_complete"
+    },
+    {
+      "step": 4,
+      "action": "RISK RETURN PROFILE MAPPING: Apply risk return profile mapping within the C07 econ finance domain.",
+      "gate": "risk_return_profile_mapping_complete"
+    }
+  ],
+  "integrity_requirements": [
+    "not investment advice: this risk must be bounded by explicit gates",
+    "macroeconomic shocks can dominate any model: this risk must be bounded by explicit gates",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-c07-econ-finance-master"
+  ],
+  "depends_on_workflows": [
+    "amos-c07-econ-finance-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "econ",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-c07-econ-finance-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "c363e3e62b4a5f8a"
+}

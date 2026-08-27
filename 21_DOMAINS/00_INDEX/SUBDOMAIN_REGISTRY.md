@@ -74,3 +74,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[INDEX_DOMAINS_DOMAIN_ALIAS_CONTRACT]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

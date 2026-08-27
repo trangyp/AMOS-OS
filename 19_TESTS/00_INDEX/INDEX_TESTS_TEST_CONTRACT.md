@@ -55,3 +55,6 @@ node_id: amos_19_tests_00_index_index_tests_test_contract_md
 node_type: note
 path: 19_TESTS/00_INDEX/INDEX_TESTS_TEST_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

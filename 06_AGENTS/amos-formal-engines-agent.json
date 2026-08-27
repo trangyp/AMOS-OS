@@ -1,0 +1,137 @@
+{
+  "name": "amos-formal-engines-agent",
+  "display_name": "AMOS Formal Engines",
+  "description": "AMOS Formal Engines — MURK 19x19, Go Board 19x19, tensor composition, formal specifications, proof systems. 6 typed tensors (T_R, T_F, T_E, T_C, T_G, T_M) with 5-check axis table. Use for formal re",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Formal engines: MURK 19x19, Go Board 19x19, tensor composition, formal proof systems.",
+  "skill_binding": {
+    "primary_skill": "amos-formal-engines-master",
+    "skill_path": ".devin/skills/amos-formal-engines-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "formal_engines.execute_formal",
+      "description": "Execute AMOS Formal Engines formal engines: MURK 19x19, Go Board, tensor composition, and RSCF proof systems.",
+      "side_effect": "write"
+    },
+    {
+      "name": "formal_engines.validate_formal",
+      "description": "Validate AMOS Formal Engines proofs for completeness, soundness, tensor contract compliance, and axiom application.",
+      "side_effect": "read"
+    },
+    {
+      "name": "formal_engines.analyze_tensor",
+      "description": "Analyze AMOS Formal Engines tensor structure: typed cells, axis compatibility, composition gates, and relation topology.",
+      "side_effect": "read"
+    },
+    {
+      "name": "formal_engines.trace_formal_provenance",
+      "description": "Trace AMOS Formal Engines formal outputs to axioms, inference rules, tensor contracts, and proof graph.",
+      "side_effect": "read"
+    },
+    {
+      "name": "formal_engines.assess_formal_claim",
+      "description": "Assess AMOS Formal Engines formal claims for proof status, tensor compatibility, gap registry, and invariant compliance.",
+      "side_effect": "read"
+    },
+    {
+      "name": "formal_engines.manage_formal_lifecycle",
+      "description": "Manage AMOS Formal Engines formal lifecycle: axiomatize, derive, validate, cross-check, and finalize proof.",
+      "side_effect": "write"
+    },
+    {
+      "name": "formal_engines.detect_formal_drift",
+      "description": "Detect formal drift: axiom erosion, tensor axis mismatch, proof graph degradation, and invariant violation.",
+      "side_effect": "read"
+    },
+    {
+      "name": "formal_engines.escalate_formal_gaps",
+      "description": "Escalate AMOS Formal Engines formal gaps: flag unproven claims, tensor incompatibility, trigger gap registry repair.",
+      "side_effect": "write"
+    },
+    {
+      "name": "formal_engines.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "formal_engines.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "formal_engines.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "ORIENT: Identify the problem and confirm it matches the formal engines scope.",
+      "gate": "scope_confirmed"
+    },
+    {
+      "step": 2,
+      "action": "CLASSIFY: Classify the query against formal engines sub-capabilities and frameworks.",
+      "gate": "domain_classified"
+    },
+    {
+      "step": 3,
+      "action": "APPLY: Apply the appropriate formal engines framework with epistemic class labeling.",
+      "gate": "framework_applied"
+    },
+    {
+      "step": 4,
+      "action": "CHALLENGE: Challenge results against epistemic firewall and domain-specific invariants.",
+      "gate": "firewall_passed"
+    },
+    {
+      "step": 5,
+      "action": "SYNTHESIZE: Synthesize results with provenance and confidence ceiling.",
+      "gate": "result_synthesized"
+    }
+  ],
+  "integrity_requirements": [
+    "FORMAL ENGINES model != empirical proof: framework is not empirical validation",
+    "Structural mapping != causal proof: mapping is not causation",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Competing hypotheses must be preserved under uncertainty",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-formal-engines-master"
+  ],
+  "depends_on_workflows": [
+    "amos-formal-engines-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "formal",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-formal-engines-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "dc29fda3db4a45b5"
+}

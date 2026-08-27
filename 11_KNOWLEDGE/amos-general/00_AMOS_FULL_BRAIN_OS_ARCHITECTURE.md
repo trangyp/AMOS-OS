@@ -1,10 +1,4 @@
 ---
-title: AMOS Full Brain OS Architecture
-type: architecture
-tags: [note, amos-general, brain, architecture]
----
-
----
 title: "AMOS Full Brain OS — Rebuilt Architecture"
 canonical_name: "AMOS Full Brain OS Architecture"
 version_date: 2026-08-22
@@ -3139,35 +3133,35 @@ Additional AMOS lineage artifacts should be linked through provenance rather tha
 
 ## Related
 
-[[docs/moc/00-Home]]
+[[00_HOME]]
 
-[[docs/moc/06-Knowledge-Base-MOC]]
+[[KNOWLEDGE_MOC]]
 
-[[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]]
+[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]
 
-[[docs/brain/system_scan_agent]]
+[[SYSTEM_SCAN_AGENT]]
 
-[[docs/brain/automation_profiles]]
+[[AUTOMATION_PROFILES]]
 
 [[AMOS_RSCF_NODES]]
 
-[[AMOS_FULL_BRAIN_OS]]
+AMOS_FULL_BRAIN_OS
 
-[[AMOS_SUPER_MIND_OS]]
+AMOS_SUPER_MIND_OS
 
-[[AMOS_OMNI_KERNEL]]
+AMOS_OMNI_KERNEL
 
-[[AMOS_OMNIVERSE_BRAIN]]
+AMOS_OMNIVERSE_BRAIN
 
-[[AMOS_BRAIN_CORE]]
+AMOS_BRAIN_CORE
 
-[[AMOS_UBI_FULL_SUPER_STACK]]
+AMOS_UBI_FULL_SUPER_STACK
 
-[[AMOS_OS_KERNEL_V4_4]]
+AMOS_OS_KERNEL_V4_4
 
-[[AMOS_INFRASTRUCTURE_CONTROL_PLANE]]
+AMOS_INFRASTRUCTURE_CONTROL_PLANE
 
-[[AMOS_OMEGA_INFINITY_STACK]]
+AMOS_OMEGA_INFINITY_STACK
 
 ---
 
@@ -3177,3 +3171,6 @@ Additional AMOS lineage artifacts should be linked through provenance rather tha
 
 ```
 ```
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

@@ -1,0 +1,107 @@
+{
+  "name": "amos-sae-semantic-transport-rscf-engine-agent",
+  "display_name": "Sae Semantic Transport Rscf Engine",
+  "description": "RSCF epistemic engine for Sae Semantic Transport Rscf Engine",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Sae Semantic Transport Rscf Engine — Runtime and OS engine within the runtime domain.",
+  "skill_binding": {
+    "primary_skill": "amos-sae-semantic-transport-rscf-engine",
+    "skill_path": ".devin/skills/amos-sae-semantic-transport-rscf-engine/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "sae_semantic.classify_claim",
+      "description": "Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence",
+      "side_effect": "read"
+    },
+    {
+      "name": "sae_semantic.validate_evidence",
+      "description": "Validate evidence chains: provenance, freshness, scope, and regime validity",
+      "side_effect": "read"
+    },
+    {
+      "name": "sae_semantic.trace_provenance",
+      "description": "Trace output provenance to vault sources and tag with content_hash",
+      "side_effect": "read"
+    },
+    {
+      "name": "sae_semantic.assess_confidence",
+      "description": "Assess confidence ceiling based on epistemic class and evidence strength",
+      "side_effect": "read"
+    },
+    {
+      "name": "sae_semantic.detect_falsifier",
+      "description": "Detect falsifiers and downgrade confidence when counter-evidence emerges",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-sae-semantic-transport-rscf-engine skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against runtime sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-sae-semantic-transport-rscf-engine"
+  ],
+  "depends_on_workflows": [
+    "amos-sae-semantic-transport-rscf-engine-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "runtime",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "98ab47f3d29a8a85",
+  "implementation": {
+    "type": "json",
+    "file": "amos-sae-semantic-transport-rscf-engine-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

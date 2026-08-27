@@ -54,3 +54,6 @@ node_id: amos_07_skills_00_index_index_skills_readme_md
 node_type: note
 path: 07_SKILLS/00_INDEX/INDEX_SKILLS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -54,3 +54,6 @@ node_id: amos_8_c08_strategy_game_00_index_index_c08_strategy_game_domains_readm
 node_type: note
 path: 21_DOMAINS/18_C08_STRATEGY_GAME/00_INDEX/INDEX_C08_STRATEGY_GAME_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

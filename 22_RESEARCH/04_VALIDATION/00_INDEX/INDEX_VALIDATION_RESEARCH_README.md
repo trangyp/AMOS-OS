@@ -54,3 +54,6 @@ node_id: amos_22_research_04_validation_00_index_index_validation_research_readm
 node_type: note
 path: 22_RESEARCH/04_VALIDATION/00_INDEX/INDEX_VALIDATION_RESEARCH_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

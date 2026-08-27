@@ -56,3 +56,6 @@ node_id: amos_09_protocols_00_index_protocol_map_md
 node_type: note
 path: 09_PROTOCOLS/00_INDEX/PROTOCOL_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

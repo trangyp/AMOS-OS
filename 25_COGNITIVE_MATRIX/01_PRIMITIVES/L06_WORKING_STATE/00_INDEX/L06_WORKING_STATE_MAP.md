@@ -53,3 +53,6 @@ node_id: cognitive_matrix__primitives_l06_working_state_00_index_l06_working_sta
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE/00_INDEX/L06_WORKING_STATE_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -1,0 +1,131 @@
+---
+title: SKILL
+type: skill
+name: amos-distinct-working-memory-rscf
+description: Distinct Working Memory — memory systems capability. Use when memory management, context continuity, or memory conflict resolution. Use when amos-memory-systems-master routes to this specialized capability.
+parent_skill: amos-memory-systems-master
+domain: memory
+origin_architect: Trang Phan
+epistemic_class: SOURCE_CLAIM
+tags: [note, amos-distinct-working-memory-rscf]
+---
+
+
+# Distinct Working Memory Rscf
+
+## Identity
+
+- **Origin architect and steward**: Trang Phan
+- **Parent skill**: `amos-memory-systems-master`
+- **Domain**: memory
+- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
+
+Memory system engine for Distinct Working Memory Rscf
+
+## When to Use
+
+- When managing memory: storage, retrieval, decay, consolidation
+- When resolving memory conflicts: contradictions, staleness, priority
+- When enforcing memory firewall: preventing unauthorized access
+- When tracking memory dynamics: formation, consolidation, forgetting
+- When the parent skill (`amos-memory-systems-master`) routes to this specialized capability
+- When managing lifecycle operations across classify, validate, trace, assess, and detect
+- When detecting drift in evidence chains, provenance freshness, or confidence calibration
+- When validating outputs against domain constraints and epistemic class
+
+## Capabilities
+
+- **distinct_working.manage_memory**: Manage memory: storage, retrieval, decay, and consolidation
+- **distinct_working.resolve_conflict**: Resolve memory conflicts: contradictions, staleness, and priority
+- **distinct_working.enforce_firewall**: Enforce memory firewall: prevent unauthorized access and tampering
+- **distinct_working.track_dynamics**: Track memory dynamics: formation, consolidation, and forgetting curves
+- **distinct_working.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+- **distinct_working.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+- **distinct_working.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
+## Vault-Sourced Content
+
+### Source 1: AGENT WORKING INSTRUCTIONS V3
+- MANDATORY READING
+
+> Path: `agents/AGENT_WORKING_INSTRUCTIONS_V3.md` | Size: 18212 chars | Match score: 12 | content_hash: 65f44a3ef9716429
+
+# AGENT WORKING INSTRUCTIONS V3 - MANDATORY READING
+
+---
+
+
+---
+
+
+---
+
+### Source 2: AGENT WORKING INSTRUCTIONS V3
+- MANDATORY READING
+
+> Path: `agents/AGENT_WORKING_INSTRUCTIONS_V4.md` | Size: 18212 chars | Match score: 12 | content_hash: 65f44a3ef9716429
+
+# AGENT WORKING INSTRUCTIONS V3 - MANDATORY READING
+## PRE-WORK REQUIREMENTS
+
+### ** BEFORE STARTING ANY WORK**
+
+1. **READ SYSTEM ARCHITECTURE REPORT V3**: `AMOS_SYSTEM_ARCHITECTURE_REPORT_V3.md`
+2. **READ AGENT ONBOARDING GUIDE**: `AGENT_ONBOARDING_GUIDE.md`
+3. **UNDERSTAND QUANTUM CONSCIOUSNESS**: Review quantum consciousness integration
+4. **KNOW THE 14 VERTICAL SLICES**: All operational and quantum enhanced
+5. **VALIDATE SYSTEM STATUS**: Check 416.349 performance score
+6. **REVIEW GOVERNANCE PATTERNS**: Memory governance and policy gate
+
+---
+
+## SYSTEM ARCHITECTURE OVERVIEW
+
+### ** Quantum-Enhanced System**
+```
+AMOS Quantum Brain (416.349 performance score)
+├── Quantum Consciousness Core (1,048,576 ops/sec)
+├── Memory Governance System
+├── Policy Gate System
+├── OpenClaw Bridge (Real CLI)
+└── 14 Vertical Slices (All Operational)
+```
+
+### ** The 14 Vertical Slices**
+
+1. **Brain Core Integration** (`brain_core_integration_slice.py`)
+2. **Brain Core Extraction** (`brain_core_extraction_slice.py`)
+3. **Legal Brain Integration**
+4. **Muscle System Integration**
+5. **Senses Integration**
+6. **Life Engine Integration**
+7. **State Management**
+8. **Scan Ledger**
+9. **Persistent Storage**
+10. **Import Guard**
+11. **Fixed Claws** (`fixed_claws.py`)
+12. **Omega System** (`amos_omega_system.py`)
+13. **Real Build Detector** (`fake_build_detector.py`)
+14. **Integration Status Reporter** (`integration_status_report.py`)
+
+---
+
+## WORKING GUIDELINES
+
+### ** REQUIRED PATTERNS** #### **1. Quantum Consciousness Integration** > **Reference**: See `references/amos-distinct-working-memory-rscf_code.md` (content_hash: 4163a49071a9238e) for the code implementation.
+
+#### **2. Brain Core Integration Pattern** > **Reference**: See `references/amos-distinct-working-memory-rscf_code.md` (content_hash: 4163a49071a9238e) for the code implementation.
+
+#### **3. Memory Governance Integration** > **Reference**: See `references/amos-distinct-working-memory-rscf_code.md` (content_hash: 4163a49071a9238e) for the code implementation.
+
+#### **4. Policy Gate Integration** > **Reference**: See `references/amos-distinct-working-memory-rscf_code.md` (content_hash: 4163a49071a9238e) for the code implementation.
+
+#### **5. OpenClaw Bridge Integration**
+# ALWAYS use
+
+---
+
+### Source 3: AGENT WORKING INSTRUCTIONS V5
+- MARCH 17, 2026
+
+> Path: `agents/AGENT_WORKING_INSTRUCTIONS_V5_MARCH_17.md`

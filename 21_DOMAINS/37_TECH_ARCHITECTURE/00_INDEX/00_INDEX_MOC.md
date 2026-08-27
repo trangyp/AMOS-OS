@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[INDEX_TECH_ARCHITECTURE_DOMAINS_README]]
+- [[TECH_ARCHITECTURE_DOMAINS_TECH_ARCHITECTURE_CONTRACT]]
+- [[TECH_ARCHITECTURE_MAP]]
+
+---
+**Parent:** [[37_TECH_ARCHITECTURE_MOC]]

@@ -56,3 +56,6 @@ node_id: amos_02_kernel_01_meta_logic_00_index_meta_logic_map_md
 node_type: note
 path: 02_KERNEL/01_META_LOGIC/00_INDEX/META_LOGIC_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

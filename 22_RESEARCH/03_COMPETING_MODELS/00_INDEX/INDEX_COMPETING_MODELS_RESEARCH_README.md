@@ -54,3 +54,6 @@ node_id: amos_03_competing_models_00_index_index_competing_models_research_readm
 node_type: note
 path: 22_RESEARCH/03_COMPETING_MODELS/00_INDEX/INDEX_COMPETING_MODELS_RESEARCH_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

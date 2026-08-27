@@ -38,3 +38,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[INDEX_GOVERNANCE_FORUMS_OPERATING_MODEL_README]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

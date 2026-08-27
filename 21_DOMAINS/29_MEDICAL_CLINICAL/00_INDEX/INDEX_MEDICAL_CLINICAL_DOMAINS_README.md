@@ -54,3 +54,6 @@ node_id: amos__29_medical_clinical_00_index_index_medical_clinical_domains_readm
 node_type: note
 path: 21_DOMAINS/29_MEDICAL_CLINICAL/00_INDEX/INDEX_MEDICAL_CLINICAL_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

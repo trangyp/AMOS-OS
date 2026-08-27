@@ -56,3 +56,6 @@ node_id: amos_21_domains_05_design_00_index_design_map_md
 node_type: note
 path: 21_DOMAINS/05_DESIGN/00_INDEX/DESIGN_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

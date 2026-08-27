@@ -1,0 +1,102 @@
+{
+  "name": "amos-information-exposure-control-agent",
+  "display_name": "Information Exposure Control",
+  "description": "Information Exposure Control — Information theory engine. Bound to info domain. Use when information theory engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Information Exposure Control — Information theory engine within the info domain.",
+  "skill_binding": {
+    "primary_skill": "amos-information-exposure-control",
+    "skill_path": ".devin/skills/amos-information-exposure-control/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "information_exposure.measure_entropy",
+      "description": "Measure entropy and lacunarity: information content, gaps, and structure",
+      "side_effect": "read"
+    },
+    {
+      "name": "information_exposure.analyze_topology",
+      "description": "Analyze information collapse topology: how information condenses and structures",
+      "side_effect": "read"
+    },
+    {
+      "name": "information_exposure.control_exposure",
+      "description": "Control information exposure: what is revealed, to whom, and under what conditions",
+      "side_effect": "read"
+    },
+    {
+      "name": "information_exposure.map_geometry",
+      "description": "Map information geometry: manifolds, distances, and projections in information space",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-information-exposure-control skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against info sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-information-exposure-control"
+  ],
+  "depends_on_workflows": [
+    "amos-information-exposure-control-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "info",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "aa1628b3eda5e4bb",
+  "implementation": {
+    "type": "json",
+    "file": "amos-information-exposure-control-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

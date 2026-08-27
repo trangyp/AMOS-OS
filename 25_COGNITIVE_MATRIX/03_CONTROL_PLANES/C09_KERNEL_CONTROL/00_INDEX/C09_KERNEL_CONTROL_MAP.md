@@ -53,3 +53,6 @@ node_id: cognitive_matrix_ol_planes_c09_kernel_control_00_index_c09_kernel_contr
 node_type: note
 path: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C09_KERNEL_CONTROL/00_INDEX/C09_KERNEL_CONTROL_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

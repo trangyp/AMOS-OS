@@ -53,3 +53,6 @@ node_id: cognitive_matrix_itive_matrix_08_structural_gaps_00_index_structural_ga
 node_type: note
 path: 25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/00_INDEX/STRUCTURAL_GAPS_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

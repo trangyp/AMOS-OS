@@ -1,0 +1,117 @@
+{
+  "name": "amos-heritage-decision-intelligence-agent",
+  "display_name": "Heritage Decision Intelligence",
+  "description": "Heritage Decision Intelligence — Society-culture engine. Bound to c06 domain. Use when society-culture engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Heritage Decision Intelligence — Society-culture engine within the c06 domain.",
+  "skill_binding": {
+    "primary_skill": "amos-heritage-decision-intelligence",
+    "skill_path": ".devin/skills/amos-heritage-decision-intelligence/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "heritage_decision.analyze_social",
+      "description": "Analyze emergent social intelligence: norms, networks, and cultural dynamics",
+      "side_effect": "read"
+    },
+    {
+      "name": "heritage_decision.model_heritage",
+      "description": "Model heritage decision intelligence: tradition, continuity, and adaptation",
+      "side_effect": "read"
+    },
+    {
+      "name": "heritage_decision.assess_language",
+      "description": "Assess language as equation: semantic structure, pragmatic force, and drift",
+      "side_effect": "read"
+    },
+    {
+      "name": "heritage_decision.evaluate_pattern",
+      "description": "Evaluate heritage pattern claims: statistical validity, sample size, p-value",
+      "side_effect": "read"
+    },
+    {
+      "name": "heritage_decision.detect_drift",
+      "description": "Detect drift in heritage patterns, cultural cycles, or evidence freshness",
+      "side_effect": "read"
+    },
+    {
+      "name": "heritage_decision.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "heritage_decision.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-heritage-decision-intelligence skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against c06 sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-heritage-decision-intelligence"
+  ],
+  "depends_on_workflows": [
+    "amos-heritage-decision-intelligence-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "c06",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "1b5e918d3c3f0edd",
+  "implementation": {
+    "type": "json",
+    "file": "amos-heritage-decision-intelligence-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

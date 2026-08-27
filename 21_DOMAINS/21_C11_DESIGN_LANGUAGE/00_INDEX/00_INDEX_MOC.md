@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[C11_DESIGN_LANGUAGE_DOMAINS_C11_DESIGN_LANGUAGE_CONTRACT]]
+- [[C11_DESIGN_LANGUAGE_MAP]]
+- [[INDEX_C11_DESIGN_LANGUAGE_DOMAINS_README]]
+
+---
+**Parent:** [[21_C11_DESIGN_LANGUAGE_MOC]]

@@ -54,3 +54,6 @@ node_id: amos__28_engineering_math_00_index_index_engineering_math_domains_readm
 node_type: note
 path: 21_DOMAINS/28_ENGINEERING_MATH/00_INDEX/INDEX_ENGINEERING_MATH_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

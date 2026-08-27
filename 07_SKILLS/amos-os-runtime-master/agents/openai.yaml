@@ -1,0 +1,3 @@
+interface:
+  display_name: "AMOS OS & Runtime Master"
+  short_description: "AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit→Plan→Schedule→Execute→Observe→Repair→Audit..."

@@ -1,0 +1,117 @@
+{
+  "name": "bluebook-strategy-system-agent",
+  "display_name": "Bluebook Strategy System",
+  "description": "Bluebook Strategy System — Strategy and game engine. Bound to c08 domain. Use when strategy and game engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Bluebook Strategy System — Strategy and game engine within the c08 domain.",
+  "skill_binding": {
+    "primary_skill": "bluebook-strategy-system",
+    "skill_path": ".devin/skills/bluebook-strategy-system/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "strategy.analyze_strategy",
+      "description": "Analyze strategic position: competitive landscape, game-theoretic equilibrium",
+      "side_effect": "read"
+    },
+    {
+      "name": "strategy.evaluate_decision",
+      "description": "Evaluate decisions under uncertainty: expected value, regret, risk-adjusted return",
+      "side_effect": "read"
+    },
+    {
+      "name": "strategy.model_game",
+      "description": "Model game-theoretic interactions: players, strategies, payoffs, equilibria",
+      "side_effect": "read"
+    },
+    {
+      "name": "strategy.assess_risk",
+      "description": "Assess strategic risk: downside scenarios, adversarial responses, black swans",
+      "side_effect": "read"
+    },
+    {
+      "name": "strategy.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "strategy.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "strategy.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the bluebook-strategy-system skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against c08 sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "bluebook-strategy-system"
+  ],
+  "depends_on_workflows": [
+    "bluebook-strategy-system-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "c08",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "1ca6aabf08f01c21",
+  "implementation": {
+    "type": "json",
+    "file": "bluebook-strategy-system-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

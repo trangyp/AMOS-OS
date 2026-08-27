@@ -56,3 +56,6 @@ node_id: amos_21_domains_31_control_systems_00_index_control_systems_map_md
 node_type: note
 path: 21_DOMAINS/31_CONTROL_SYSTEMS/00_INDEX/CONTROL_SYSTEMS_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

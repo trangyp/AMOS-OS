@@ -56,3 +56,6 @@ node_id: amos_01_canon_06_glossary_00_index_glossary_map_md
 node_type: note
 path: 01_CANON/06_GLOSSARY/00_INDEX/GLOSSARY_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

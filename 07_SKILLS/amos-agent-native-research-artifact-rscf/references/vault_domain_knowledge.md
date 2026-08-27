@@ -1,0 +1,184 @@
+---
+title: vault domain knowledge
+type: reference
+tags: [reference, amos-agent-native-research-artifact-rscf]
+---
+
+# Vault-Sourced Domain Knowledge
+
+> Source: AMOS_OS Obsidian vault (`_00_Cosmo brain/`)
+> Epistemic class: SOURCE_CLAIM
+> Extracted from skill: `amos-agent-native-research-artifact-rscf`
+
+## Vault-Sourced Content
+
+### Source 1: Enhanced AI Sweet Spots Research Paper
+
+> Path: `misc/E/Enhanced AI Sweet Spots Research Paper.md` | Size: 18856 chars | Match score: 10 | content_hash: 07106daa7207e233
+
+AI Sweet Spots: Differential Cognitive Effects of Generative AI
+Across Neurotypical, Neurodivergent, Twice-Exceptional, Elderly,
+and Culturally Diverse Populations
+Abstract
+Background: Recent neuroscientific evidence demonstrates that generative artificial intelligence (AI)
+tools induce "cognitive debt" in neurotypical users, reducing neural engagement and memory recall
+during writing tasks by 20-30%. However, this finding assumes cognitive homogeneity across human
+populations.
+Objective: To develop and validate the AI Sweet Spot Model—a framework mapping optimal AI
+involvement levels across five distinct cognitive populations to maximize effectiveness while
+minimizing workload.
+Methods: Systematic evidence synthesis across PubMed, PsycINFO, IEEE Xplore, and arXiv (2020-
+2025) examining AI assistance, cognitive load, and performance. We analyzed neurotypical (N=54),
+ADHD (N=633), autism spectrum (N=240), dyslexic (N=200), twice-exceptional (N=50), and elderly
+(N=400,000+) populations using dual-axis measurement of cognitive effectiveness and workload
+against AI involvement percentage.
+Results: Optimal AI involvement varies systematically: neurotypical users peak at 20-35%, ADHD
+users at 40-70% (often exceeding neurotypical performance), dyslexic users show immediate gains
+from minimal support, twice-exceptional learners exhibit dual optimization peaks, and elderly users
+benefit from prosthetic-level assistance at 35-60%. Cultural contexts shift effectiveness curves
+independently of cognitive factors.
+Conclusions: The assumption of universal AI impact on human cognition is false. Neurodivergent
+populations often achieve superior performance through AI scaffolding at levels that impair
+neurotypical users. These findings necessitate differentiated AI policies in education, workplace
+optimization for neurodivergent talent, and culturally responsive AI design.
+Keywords: artificial intelligence, cognitive diversity, neurodivergence, human-computer interaction,
+cognitive load theory, differential optimization
+1. Introduction
+1.1 The Cognitive Debt Problem
+The proliferation of large language models (LLMs) has created unprecedented opportunities to study
+human-AI cognitive interaction at scale. Recent neurophysiological research from MIT provides a
+
+concerning baseline: when neurotypical adults used ChatGPT for essay writing, EEG measurements
+revealed:
+20% reduced neural connectivity in attention-related frequency bands
+30% impaired recall of self-generated content
+25% diminished authorship ownership compared to unassisted writing
+Persistent effects continuing after return to solo work
+These "cognitive debt" effects suggest adaptive neural changes toward reduced effort allocation
+(Kos'myna et al., 2025), catalyzing debate about AI's universal impact on human intelligence.
+1.2 The Cognitive Homogeneity Assumption
+Current interpretations of cognitive debt assume all brains respond identically to technological
+scaffolding. This assumption contradicts substan
+
+---
+
+### Source 2: AMOS_Clinical_Research_Kernel_v0_Biology_Cognition7_3
+
+> Path: `kernel/A/AMOS_Clinical_Research_Kernel_v0_Biology_Cognition7_3.md` | Size: 2702 chars | Match score: 10 | content_hash: e53481b31a1049c6
+
+{
+  "meta": {
+    "name": "Clinical_Research_Kernel",
+    "version": "1.0.0",
+    "description": "Kernel for clinical research: trial design, conduct, analysis, and reporting."
+  },
+  "kernel": {
+    "description": "Supports clinical research: trial design, protocol development, regulatory compliance, data collection, analysis, and reporting per CONSORT and other guidelines.",
+    "functions": {
+      "trial_design": {
+        "description": "Design a clinical trial.",
+        "inputs": ["research_question", "intervention", "population", " comparators", "primary_outcome", "regulatory_pathway"],
+        "outputs": ["trial_design_summary", "phase_determination", "randomisation_scheme", "blinding_plan", "endpoint_selection"]
+      },
+      "protocol_development": {
+        "description": "Develop a clinical trial protocol.",
+        "inputs": ["trial_design", "ICH_GCP_requirements", "ethical_considerations", "statistical_plan", "operational_plan"],
+        "outputs": ["protocol_document_outline", "informed_consent_requirements", "data_management_plan", "safety_monitoring_plan"]
+      },
+      "regulatory_compliance": {
+        "description": "Check regulatory and ethical compliance.",
+        "inputs": ["trial_details", "jurisdiction", "submission_pathway", "vulnerable_population_involvement"],
+        "outputs": ["compliance_checklist", "IRB/ethics_requirements", "regulatory_submission_needs", "risk_based_monitoring_plan"]
+      },
+      "results_reporting": {
+        "description": "Report trial results per CONSORT and other guidelines.",
+        "inputs": ["trial_results", "consort_checklist", "subgroup_analyses", "adverse_events", "limitations"],
+        "outputs": ["consort_flow_diagram_description", "results_summary", "adverse_event_summary", "interpretation_and_limitation"]
+      }
+    },
+    "capabilities": {
+      "trial_phases": "Phase I (safety), Phase II (dose-finding/efficacy signal), Phase III (confirmatory), Phase IV (post-market).",
+      "design_types": "Parallel, crossover, factorial, cluster, adaptive, basket, umbrella.",
+      "ethical_frameworks": "Declaration of Helsinki, ICH GCP E6(R2), CIOMS guidelines, Belmont Report principles.",
+      "reporting_guidelines": "CONSORT, SPIRIT, PRISMA, STROBE, STARD, ICH E3.",
+      "data_management": "Case report forms, data validation, SAE reporting, data monitoring committees."
+    }
+  }
+}
+
+---
+
+---
+
+### Source 3: AMOS forex__research__research_service
+
+> Path: `amos-general/A/forex/AMOS forex__research__research_service.md` | Size: 2180 chars | Match score: 10 | content_hash: 8e51e0152ac335b0
+
+// research/research_service.js
+// Technical indicator service – computes SMA, EMA, ATR, and volatility on‑the‑fly.
+
+const EventBus = require('../event_bus');
+
+class TechnicalIndicatorService {
+  constructor() {
+    this.priceHistory = [];
+    this.maxHistory = 200; // keep enough candles for longer SMA
+  }
+
+  // Subscribe to price ticks when the module is loaded
+  init() {
+    EventBus.on('price_tick', (tick) => this.onPriceTick(tick));
+  }
+
+  onPriceTick(tick) {
+    const price = (parseFloat(tick.bid) + parseFloat(tick.ask)) / 2;
+    this.priceHistory.push({ price, time: new Date(tick.time) });
+    if (this.priceHistory.length > this.maxHistory) this.priceHistory.shift();
+
+    const features = {
+      sma20: this.sma(20),
+      sma50: this.sma(50),
+      ema20: this.ema(20),
+      volatility: this.volatility(20),
+    };
+
+    EventBus.emit('feature_generated', { instrument: tick.instrument, time: tick.time, features });
+  }
+
+  sma(period) {
+    if (this.priceHistory.length < period) return null;
+    const slice = this.priceHistory.slice(-period);
+    const sum = slice.reduce((a, v) => a + v.price, 0);
+    return parseFloat((sum / period).toFixed(5));
+  }
+
+  ema(period) {
+    if (this.priceHistory.length < period) return null;
+    const k = 2 / (period + 1);
+    // Start EMA with SMA of first period
+    let ema = this.sma(period);
+    const recent = this.priceHistory.slice(-period);
+    recent.forEach((point) => {
+      ema = point.price * k + ema * (1 - k);
+    });
+    return parseFloat(ema.toFixed(5));
+  }
+
+  volatility(period) {
+    if (this.priceHistory.length < period) return null;
+    const slice = this.priceHistory.slice(-period);
+    const mean = slice.reduce((a, v) => a + v.price, 0) / period;
+    const variance = slice.reduce((a, v) => a + Math.pow(v.price - mean, 2), 0) / period;
+    return parseFloat(Math.sqrt(variance).toFixed(5));
+  }
+}
+
+module.exports = new TechnicalIndicatorService();
+
+// Initialise listeners immediately
+module.exports.init();
+
+---
+
+---
+**MOC:** [[references_MOC]]

@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[EV_INFRASTRUCTURE_DOMAINS_EV_INFRASTRUCTURE_CONTRACT]]
+- [[EV_INFRASTRUCTURE_MAP]]
+- [[INDEX_EV_INFRASTRUCTURE_DOMAINS_README]]
+
+---
+**Parent:** [[44_EV_INFRASTRUCTURE_MOC]]

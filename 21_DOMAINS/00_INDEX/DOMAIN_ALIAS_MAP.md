@@ -60,3 +60,6 @@ node_id: amos_21_domains_00_index_domain_alias_map_md
 node_type: note
 path: 21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

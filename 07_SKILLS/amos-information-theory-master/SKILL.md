@@ -1,0 +1,97 @@
+---
+title: SKILL
+type: skill
+name: amos-information-theory-master
+description: AMOS Information Theory — entropy, complexity, information boundaries, information collapse topology, exposure control. Use for information-theoretic analysis, entropy reasoning, or complexity meas...
+parent_skill: none
+domain: information
+origin_architect: Trang Phan
+epistemic_class: SOURCE_CANON
+tags: [note, amos-information-theory-master]
+---
+
+# L6 Uncertainty Laws
+
+## Identity
+
+Origin architect and steward: **Trang Phan**.
+
+This is a **parent skill** that consolidates 3 sub-skills into a single domain master.
+Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
+A parent skill with clearly labeled sections is better than 3 separate shallow skills.
+
+**Epistemic class**: SOURCE_CLAIM (vault-sourced from `01_CANON/01_CORE_LAWS/L6_UNCERTAINTY.md`).
+
+## When to Use
+
+- When performing information-theoretic analysis, entropy reasoning, or complexity measurement
+- When evaluating information boundaries, exposure control, or information collapse topology
+- When analyzing entropy-lacunarity relationships and structural persistence
+- When measuring AI output integrity through entropy and validation alignment
+- When a child skill routes an information theory or entropy task to this master
+- When validating outputs against domain constraints and epistemic class
+
+## Capabilities
+
+- **info_theory.measure_entropy**: Measure Shannon entropy, conditional entropy, and mutual information for distributions and signals
+- **info_theory.analyze_complexity**: Analyze Kolmogorov complexity, computational complexity, and information-theoretic complexity bounds
+- **info_theory.map_boundaries**: Map information boundaries: exposure control, information collapse topology, and information geometry
+- **info_theory.assess_claim**: Assess information theory claims for epistemic class, evidence strength, and regime validity
+- **info_theory.manage_lifecycle**: Manage information theory lifecycle: measure, analyze, map, validate, and govern
+- **info_theory.detect_drift**: Detect drift in entropy measurements, complexity bounds, or information boundary consistency
+- **info_theory.classify_claim**: Classify information-theoretic claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP)
+- **info_theory.validate_outputs**: Validate information theory outputs against domain constraints and epistemic class
+
+## Vault-Sourced Domain Knowledge
+
+> **Sources**: `_00_Cosmo brain/misc/E/ENTROPY_LACUNARITY.md` (content_hash: a859135f66fe21d5), `_00_Cosmo brain/architecture/ai_entropy_architecture 2.md` (content_hash: 3b09ceb0cbe19fda) (vault canon, SOURCE_CLAIM)
+
+### Entropy and Lacunarity Equations
+
+These quantities are domain-sensitive. Do not confuse AMOS structural proxies with thermodynamic entropy or formal mathematical lacunarity unless definitions match.
+
+- `E_X = -(1/ln N) Σ_i p_i ln p_i` — normalized Shannon entropy (AMOS_MODEL)
+- `E_total = w_L E_L + w_M E_M + w_H E_H` — weighted cross-scale entropy (AMOS_MODEL)
+- `Λ_X = Var(Mass)/Mean(Mass)^2` — lacunarity (AMOS_MODEL)
+- `Λ_X ≈ 1/(1+e^{-k(E_X-0.5)})` — framework approximation linking entropy to lacunarity (AMOS_MODEL)
+
+### Structural Persistence
+
+`PV = (BoundaryIntegrity × MemoryContinuity × RepairCapacity × RelationCoherence) / (EntropyLoad × ContradictionDensity × FragmentationPressure × ObserverVariance)`
+
+Sustained viability requires repair capacity/rate to exceed degradation/entropy accumulation.
+
+### AI Entropy Architecture
+
+Core law: `AI = Intent + Context + Memory + Reasoning + Tooling + Entropy + Validation + Permission + Output`
+
+**Main law**: AI output is not trusted because it is fluent. It is trusted only when intent, grounding, validation, calibration, and permission align.
+
+**H/M/L Integrity Levels**:
+- **L (low)**: unclear intent, missing context, high hallucination risk
+- **M (medium)**: fluent but uncertain, plausible output, weak grounding, hidden entropy
+- **H (high)**: grounded, scoped, validated, calibrated output
+
+**Fractal Scales**: token → sentence → answer → conversation → memory → tool_call → agent_loop → system
+
+### Key Templates
+
+| ID | Name | Formula | Layer |
+|----|------|---------|-------|
+| AIE001 | intent_alignment | IA = match(user_intent, model_interpretation) | intent |
+| AIE002 | context_completeness | CC = available_context / required_context | context |
+| AIE003 | memory_relevance | MR = relevant_memory / used_memory | memory |
+| AIE004 | memory_conflict | MC = conflicting_memory / total_memory | memory_entropy |
+| AIE005 | retrieval_grounding | RG = grounded_claims / total_claims | grounding |
+
+## Consolidated Sub-Skills (3)
+
+This parent skill consolidates the following sub-skills. Each is a section within this domain:
+
+> **Reference**: See `references/vault_domain_knowledge.md` (content_hash: b0dda351f49405e2) for detailed vault-sourced domain knowledge.
+> Load only when specific domain detail is decision-relevant.
+
+
+
+> **Reference**: Se
+- [[AGENT_TEMPLATE]]

@@ -1,0 +1,127 @@
+{
+  "name": "amos-audit-repair-agent",
+  "display_name": "AMOS Audit & Repair",
+  "description": "AMOS Audit & Repair — failure recovery, gap discovery, quality auditing, validation gates, repair allocation. Use for system auditing, gap analysis, or failure recovery.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Audit and repair: failure recovery, gap discovery, quality auditing, validation gates, repair allocation.",
+  "skill_binding": {
+    "primary_skill": "amos-audit-repair-master",
+    "skill_path": ".devin/skills/amos-audit-repair-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "audit_repair.execute_recovery",
+      "description": "Execute AMOS Audit & Repair failure recovery: detect failure, diagnose root cause, apply repair, verify recovery.",
+      "side_effect": "read"
+    },
+    {
+      "name": "audit_repair.validate_quality",
+      "description": "Validate AMOS Audit & Repair outputs against validation gates, equation firewall, golden ratio, and integrity requirements.",
+      "side_effect": "read"
+    },
+    {
+      "name": "audit_repair.discover_gaps",
+      "description": "Discover knowledge gaps using AMOS Audit & Repair gap discovery engine, completion graph, and unknown-unknown registry.",
+      "side_effect": "read"
+    },
+    {
+      "name": "audit_repair.trace_provenance",
+      "description": "Trace AMOS Audit & Repair findings to test results, integrity scans, gap registry, and validation gate outputs.",
+      "side_effect": "read"
+    },
+    {
+      "name": "audit_repair.assess_claim",
+      "description": "Assess AMOS Audit & Repair audit claims for severity, scope, evidence strength, and repair priority.",
+      "side_effect": "read"
+    },
+    {
+      "name": "audit_repair.manage_lifecycle",
+      "description": "Manage AMOS Audit & Repair audit lifecycle: scan, detect, classify, allocate repair, verify, and document.",
+      "side_effect": "read"
+    },
+    {
+      "name": "audit_repair.detect_drift",
+      "description": "Detect audit drift: test count drift, gap regression, integrity degradation, and validation gate erosion.",
+      "side_effect": "read"
+    },
+    {
+      "name": "audit_repair.escalate_gaps",
+      "description": "Escalate AMOS Audit & Repair audit gaps: flag CRITICAL gaps, prioritize repair allocation, trigger bounded recovery.",
+      "side_effect": "read"
+    },
+    {
+      "name": "audit_repair.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "ORIENT: Identify the problem and confirm it matches the audit repair scope.",
+      "gate": "scope_confirmed"
+    },
+    {
+      "step": 2,
+      "action": "CLASSIFY: Classify the query against audit repair sub-capabilities and frameworks.",
+      "gate": "domain_classified"
+    },
+    {
+      "step": 3,
+      "action": "APPLY: Apply the appropriate audit repair framework with epistemic class labeling.",
+      "gate": "framework_applied"
+    },
+    {
+      "step": 4,
+      "action": "CHALLENGE: Challenge results against epistemic firewall and domain-specific invariants.",
+      "gate": "firewall_passed"
+    },
+    {
+      "step": 5,
+      "action": "SYNTHESIZE: Synthesize results with provenance and confidence ceiling.",
+      "gate": "result_synthesized"
+    }
+  ],
+  "integrity_requirements": [
+    "AUDIT REPAIR model != empirical proof: framework is not empirical validation",
+    "Structural mapping != causal proof: mapping is not causation",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Competing hypotheses must be preserved under uncertainty",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-audit-repair-master"
+  ],
+  "depends_on_workflows": [
+    "amos-audit-repair-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "audit",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-audit-repair-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "54c4660387ef8f8f"
+}

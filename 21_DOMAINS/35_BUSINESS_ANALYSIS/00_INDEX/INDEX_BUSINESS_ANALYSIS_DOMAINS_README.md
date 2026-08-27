@@ -54,3 +54,6 @@ node_id: amos_5_business_analysis_00_index_index_business_analysis_domains_readm
 node_type: note
 path: 21_DOMAINS/35_BUSINESS_ANALYSIS/00_INDEX/INDEX_BUSINESS_ANALYSIS_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

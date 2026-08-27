@@ -55,3 +55,6 @@ node_id: amos_23_operating_model_00_index_index_operating_model_readme_md
 node_type: note
 path: 23_OPERATING_MODEL/00_INDEX/INDEX_OPERATING_MODEL_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

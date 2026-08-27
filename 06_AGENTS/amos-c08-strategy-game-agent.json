@@ -1,0 +1,131 @@
+{
+  "name": "amos-c08-strategy-game-agent",
+  "display_name": "AMOS C08 Strategy & Game",
+  "description": "AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation, Nash equilibria, game theory, consulting discipline, McKinsey frameworks, Bluebook strategy. Use for strategic analysi",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Strategy and game theory: Nash equilibria, coalitions, bargaining, McKinsey frameworks, Bluebook strategy.",
+  "skill_binding": {
+    "primary_skill": "amos-c08-strategy-game-master",
+    "skill_path": ".devin/skills/amos-c08-strategy-game-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "c08_strategy_game.decompose_strategy",
+      "description": "Decompose AMOS C08 Strategy & Game strategic problems using MECE and hypothesis-first investigation.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c08_strategy_game.validate_strategy",
+      "description": "Validate AMOS C08 Strategy & Game strategic assumptions for hidden dependencies, circular reasoning, and RSCF compliance.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c08_strategy_game.analyze_game",
+      "description": "Analyze AMOS C08 Strategy & Game game equilibria: Nash solutions, coalition formation, and bargaining outcomes.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c08_strategy_game.trace_strategy_provenance",
+      "description": "Trace AMOS C08 Strategy & Game strategic findings to game models, equilibrium analysis, and vault sources.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c08_strategy_game.assess_strategy_claim",
+      "description": "Assess AMOS C08 Strategy & Game strategic claims for assumption validity, evidence strength, and scope.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c08_strategy_game.manage_strategy_lifecycle",
+      "description": "Manage AMOS C08 Strategy & Game strategy lifecycle: frame, decompose, analyze, validate, and finalize.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c08_strategy_game.detect_strategy_drift",
+      "description": "Detect strategy drift: assumption invalidation, regime change, equilibrium shift, and evidence decay.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c08_strategy_game.escalate_strategy_gaps",
+      "description": "Escalate AMOS C08 Strategy & Game strategy gaps: flag invalid assumptions, require new analysis, trigger repair.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c08_strategy_game.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c08_strategy_game.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c08_strategy_game.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "GAME STRUCTURE IDENTIFICATION: Apply game structure identification within the C08 strategy game domain.",
+      "gate": "game_structure_identification_complete"
+    },
+    {
+      "step": 2,
+      "action": "PAYOFF MATRIX SKETCHING: Apply payoff matrix sketching within the C08 strategy game domain.",
+      "gate": "payoff_matrix_sketching_complete"
+    },
+    {
+      "step": 3,
+      "action": "DOMINANT STRATEGY AND EQUILIBRIUM ANALYSIS: Apply dominant strategy and equilibrium analysis within the C08 strategy game domain.",
+      "gate": "dominant_strategy_and_equilibrium_analysis_complete"
+    },
+    {
+      "step": 4,
+      "action": "COALITION AND BARGAINING MAPPING: Apply coalition and bargaining mapping within the C08 strategy game domain.",
+      "gate": "coalition_and_bargaining_mapping_complete"
+    }
+  ],
+  "integrity_requirements": [
+    "real world games are messier than models: this risk must be bounded by explicit gates",
+    "hidden information can reverse conclusions: this risk must be bounded by explicit gates",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-c08-strategy-game-master"
+  ],
+  "depends_on_workflows": [
+    "amos-c08-strategy-game-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "strategy",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-c08-strategy-game-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "c15ba63601ccfefd"
+}

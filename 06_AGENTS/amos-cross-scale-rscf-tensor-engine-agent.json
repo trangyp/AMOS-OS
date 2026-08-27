@@ -1,0 +1,122 @@
+{
+  "name": "amos-cross-scale-rscf-tensor-engine-agent",
+  "display_name": "Cross Scale Rscf Tensor Engine",
+  "description": "Formal reasoning engine for Cross Scale Rscf Tensor Engine",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Cross Scale Rscf Tensor Engine — Runtime and OS engine within the runtime domain.",
+  "skill_binding": {
+    "primary_skill": "amos-cross-scale-rscf-tensor-engine",
+    "skill_path": ".devin/skills/amos-cross-scale-rscf-tensor-engine/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "cross_scale.verify_proof",
+      "description": "Verify formal proofs against axioms, inference rules, and consistency constraints",
+      "side_effect": "read"
+    },
+    {
+      "name": "cross_scale.check_soundness",
+      "description": "Check soundness and completeness of formal systems under test",
+      "side_effect": "read"
+    },
+    {
+      "name": "cross_scale.propagate_constraints",
+      "description": "Propagate constraints through the formal system and detect unsatisfiable cores",
+      "side_effect": "read"
+    },
+    {
+      "name": "cross_scale.validate_invariant",
+      "description": "Validate invariants hold under all specified operating conditions",
+      "side_effect": "read"
+    },
+    {
+      "name": "cross_scale.detect_contradiction",
+      "description": "Detect contradictions and derive minimal conflict explanations",
+      "side_effect": "read"
+    },
+    {
+      "name": "cross_scale.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "cross_scale.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "cross_scale.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-cross-scale-rscf-tensor-engine skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against runtime sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-cross-scale-rscf-tensor-engine"
+  ],
+  "depends_on_workflows": [
+    "amos-cross-scale-rscf-tensor-engine-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "runtime",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "de12044dc3bc14e8",
+  "implementation": {
+    "type": "json",
+    "file": "amos-cross-scale-rscf-tensor-engine-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

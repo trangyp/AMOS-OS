@@ -53,3 +53,6 @@ node_id: cognitive_matrix_rix_01_primitives_l28_governance_00_index_l28_governan
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L28_GOVERNANCE/00_INDEX/L28_GOVERNANCE_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

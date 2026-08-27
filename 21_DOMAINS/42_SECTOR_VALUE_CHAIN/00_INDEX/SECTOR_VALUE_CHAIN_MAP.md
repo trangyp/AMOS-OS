@@ -56,3 +56,6 @@ node_id: amos_21_domains_42_sector_value_chain_00_index_sector_value_chain_map_m
 node_type: note
 path: 21_DOMAINS/42_SECTOR_VALUE_CHAIN/00_INDEX/SECTOR_VALUE_CHAIN_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

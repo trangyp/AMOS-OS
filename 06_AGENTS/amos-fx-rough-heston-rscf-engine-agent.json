@@ -1,0 +1,102 @@
+{
+  "name": "amos-fx-rough-heston-rscf-engine-agent",
+  "display_name": "Fx Rough Heston Rscf Engine",
+  "description": "Fx Rough Heston Rscf Engine — FX market analysis engine. Bound to fx domain. Use when fx market analysis engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Fx Rough Heston Rscf Engine — FX market analysis engine within the fx domain.",
+  "skill_binding": {
+    "primary_skill": "amos-fx-rough-heston-rscf-engine",
+    "skill_path": ".devin/skills/amos-fx-rough-heston-rscf-engine/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "rough_heston.calibrate_model",
+      "description": "Calibrate FX models: Bayesian neural SDEs, volatility surfaces, and term structures",
+      "side_effect": "read"
+    },
+    {
+      "name": "rough_heston.assess_risk",
+      "description": "Assess FX risk: currency exposure, correlation breakdown, and tail events",
+      "side_effect": "read"
+    },
+    {
+      "name": "rough_heston.backtest_strategy",
+      "description": "Backtest FX strategies: walk-forward, regime-aware, and stress-tested",
+      "side_effect": "read"
+    },
+    {
+      "name": "rough_heston.monitor_regime",
+      "description": "Monitor FX regime shifts: volatility, correlation, and liquidity transitions",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-fx-rough-heston-rscf-engine skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against fx sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-fx-rough-heston-rscf-engine"
+  ],
+  "depends_on_workflows": [
+    "amos-fx-rough-heston-rscf-engine-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "fx",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "56530e8bbce5dcfa",
+  "implementation": {
+    "type": "json",
+    "file": "amos-fx-rough-heston-rscf-engine-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

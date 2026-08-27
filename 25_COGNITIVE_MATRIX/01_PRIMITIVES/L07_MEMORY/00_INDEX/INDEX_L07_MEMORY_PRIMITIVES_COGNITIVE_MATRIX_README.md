@@ -51,3 +51,6 @@ node_id: cognitive_matrix_00_index_index_l07_memory_primitives_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY/00_INDEX/INDEX_L07_MEMORY_PRIMITIVES_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

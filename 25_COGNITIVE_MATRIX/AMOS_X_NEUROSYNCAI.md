@@ -4343,3 +4343,6 @@ The most important source-backed elements above are not inferred from the file n
 
 I preserved the strongest biological, clinical, deterministic, deployment, and certifiability statements as **source claims/models** rather than silently promoting them to verified empirical facts. That distinction is especially important because the source itself makes strong claims about trauma, PTSD, burnout, diagnostics, nervous-system recovery, deterministic certainty, sovereign deployment, and certification. :contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7}
 ```
+
+---
+**MOC:** [[25_COGNITIVE_MATRIX_MOC]]

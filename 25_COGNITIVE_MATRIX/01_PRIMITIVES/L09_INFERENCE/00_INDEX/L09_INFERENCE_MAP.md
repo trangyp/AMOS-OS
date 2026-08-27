@@ -53,3 +53,6 @@ node_id: cognitive_matrix_atrix_01_primitives_l09_inference_00_index_l09_inferen
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE/00_INDEX/L09_INFERENCE_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

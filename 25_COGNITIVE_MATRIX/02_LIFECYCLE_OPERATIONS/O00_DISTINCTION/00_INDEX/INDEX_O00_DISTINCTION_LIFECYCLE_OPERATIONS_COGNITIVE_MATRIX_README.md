@@ -51,3 +51,6 @@ node_id: cognitive_matrix_o00_distinction_lifecycle_operations_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION/00_INDEX/INDEX_O00_DISTINCTION_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

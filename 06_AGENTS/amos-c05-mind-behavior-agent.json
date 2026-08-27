@@ -1,0 +1,131 @@
+{
+  "name": "amos-c05-mind-behavior-agent",
+  "display_name": "AMOS C05 Mind & Behavior",
+  "description": "AMOS C05 Mind & Behavior — cognition, emotion, consciousness, awareness, metacognition, thinking, reasoning, perception, attention. 5-axis Emotion Law, HIE/UMPL/UST/UIE/UEL super-consciousness emul",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Mind and behavior modeling: emotion, personality, behavior engine, cognition, consciousness with epistemic boundaries.",
+  "skill_binding": {
+    "primary_skill": "amos-c05-mind-behavior-master",
+    "skill_path": ".devin/skills/amos-c05-mind-behavior-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "c05_mind_behavior.design_inference_loop",
+      "description": "Execute the AMOS C05 Mind & Behavior governed perception-belief-action loop with evidence, uncertainty, authority, and safety bounds.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c05_mind_behavior.validate_governance",
+      "description": "Validate AMOS C05 Mind & Behavior outputs against governance gates: constraint, authority, safety, policy, scope, evidence, reversibility.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c05_mind_behavior.analyze_belief_state",
+      "description": "Analyze AMOS C05 Mind & Behavior belief state: competing hypotheses, uncertainty vector, prediction error, and evidence basis.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c05_mind_behavior.trace_inference_provenance",
+      "description": "Trace AMOS C05 Mind & Behavior outputs to observations, evidence, prediction model, and RSCF provenance chain.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c05_mind_behavior.assess_inference_claim",
+      "description": "Assess AMOS C05 Mind & Behavior claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF), evidence strength, and falsifier availability.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c05_mind_behavior.manage_loop_lifecycle",
+      "description": "Manage AMOS C05 Mind & Behavior loop lifecycle: observe, infer, compare, generate, govern, select, act, measure, update, stop.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c05_mind_behavior.detect_loop_drift",
+      "description": "Detect inference drift: goal drift, authority drift, proxy optimization, confirmation loop, and belief overconfidence.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c05_mind_behavior.escalate_inference_gaps",
+      "description": "Escalate AMOS C05 Mind & Behavior gaps: FREEZE on unresolved validation, preserve competing hypotheses, trigger discriminating evidence.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c05_mind_behavior.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c05_mind_behavior.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c05_mind_behavior.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "BIAS MAPPING: Apply bias mapping within the C05 mind behavior domain.",
+      "gate": "bias_mapping_complete"
+    },
+    {
+      "step": 2,
+      "action": "MOTIVATION LANDSCAPE ANALYSIS: Apply motivation landscape analysis within the C05 mind behavior domain.",
+      "gate": "motivation_landscape_analysis_complete"
+    },
+    {
+      "step": 3,
+      "action": "CONFLICT PATTERN DETECTION: Apply conflict pattern detection within the C05 mind behavior domain.",
+      "gate": "conflict_pattern_detection_complete"
+    },
+    {
+      "step": 4,
+      "action": "CHANGE READINESS ASSESSMENT: Apply change readiness assessment within the C05 mind behavior domain.",
+      "gate": "change_readiness_assessment_complete"
+    }
+  ],
+  "integrity_requirements": [
+    "cannot read minds only patterns: this risk must be bounded by explicit gates",
+    "must not pathologize normal responses: this risk must be bounded by explicit gates",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-c05-mind-behavior-master"
+  ],
+  "depends_on_workflows": [
+    "amos-c05-mind-behavior-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "mind",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-c05-mind-behavior-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "c85d8e13308b8845"
+}

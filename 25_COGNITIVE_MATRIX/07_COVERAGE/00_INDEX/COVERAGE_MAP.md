@@ -53,3 +53,6 @@ node_id: cognitive_matrix_25_cognitive_matrix_07_coverage_00_index_coverage_map
 node_type: note
 path: 25_COGNITIVE_MATRIX/07_COVERAGE/00_INDEX/COVERAGE_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

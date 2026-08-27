@@ -54,3 +54,6 @@ node_id: cp_3_control_plane_00_index_index_control_plane_control_plane_contract_
 node_type: note
 path: 03_CONTROL_PLANE/00_INDEX/INDEX_CONTROL_PLANE_CONTROL_PLANE_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

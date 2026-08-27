@@ -53,3 +53,6 @@ node_id: cognitive_matrix_rimitives_l08_representation_00_index_l08_representati
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION/00_INDEX/L08_REPRESENTATION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

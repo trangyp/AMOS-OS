@@ -38,3 +38,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[INDEX_C02_MATH_COMPUTE_DOMAINS_README]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

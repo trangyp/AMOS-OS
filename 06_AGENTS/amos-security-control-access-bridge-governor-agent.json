@@ -1,0 +1,160 @@
+{
+  "name": "amos-security-control-access-bridge-governor-agent",
+  "display_name": "Security-Control-Access Bridge Governor",
+  "description": "Bridges C09 security policy with C10 access control mechanisms and runtime enforcement. Creates unified policy-to-mechanism-to-enforcement pipeline.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Security-Control-Access Bridge Governor — cross-domain engine bridging C09 Org-Law-Policy, C10 Tech-Engineering, and Runtime Enforcement into a unified pipeline.",
+  "skill_binding": {
+    "primary_skill": "amos-security-control-access-bridge-governor",
+    "skill_path": ".devin/skills/amos-security-control-access-bridge-governor/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "sca_bridge.translate_policy_to_mechanism",
+      "description": "Translate C09 security policy into C10 access control mechanisms.",
+      "side_effect": "read"
+    },
+    {
+      "name": "sca_bridge.validate_mechanism_enforcement",
+      "description": "Validate that C10 access control mechanism is correctly enforced at runtime.",
+      "side_effect": "read"
+    },
+    {
+      "name": "sca_bridge.govern_pipeline",
+      "description": "Govern the full security-control-access pipeline. Returns PIPELINE_PERMITTED/BLOCKED/CONDITIONAL.",
+      "side_effect": "read"
+    },
+    {
+      "name": "sca_bridge.detect_layer_drift",
+      "description": "Detect drift between policy, mechanism, and enforcement layers.",
+      "side_effect": "read"
+    },
+    {
+      "name": "sca_bridge.audit_pipeline",
+      "description": "Audit the full pipeline for compliance. Returns audit report with compliance status.",
+      "side_effect": "read"
+    },
+    {
+      "name": "sca_bridge.trace_pipeline_provenance",
+      "description": "Trace full provenance chain: C09 policy to C10 mechanism to runtime enforcement to audit log.",
+      "side_effect": "read"
+    },
+    {
+      "name": "sca_bridge.assess_risk_compliance",
+      "description": "Assess risk and compliance across the pipeline. Returns risk assessment with compliance verdict.",
+      "side_effect": "read"
+    },
+    {
+      "name": "sca_bridge.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "sca_bridge.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration across the pipeline.",
+      "side_effect": "read"
+    },
+    {
+      "name": "sca_bridge.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-security-control-access-bridge-governor skill",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query: which pipeline transition is needed (translate, validate, audit, govern, detect drift)",
+      "gate": "transition_identified"
+    },
+    {
+      "step": 3,
+      "action": "Execute the requested pipeline transition with epistemic class labeling",
+      "gate": "transition_executed"
+    },
+    {
+      "step": 4,
+      "action": "Validate policy-mechanism match (G7) and mechanism-enforcement match (G8)",
+      "gate": "layer_match_validated"
+    },
+    {
+      "step": 5,
+      "action": "Trace provenance chain across the pipeline layers",
+      "gate": "provenance_traced"
+    },
+    {
+      "step": 6,
+      "action": "Detect layer drift between policy, mechanism, and enforcement",
+      "gate": "drift_checked"
+    },
+    {
+      "step": 7,
+      "action": "Assess risk and compliance across the pipeline",
+      "gate": "risk_assessed"
+    },
+    {
+      "step": 8,
+      "action": "Validate results against all 10 validation gates (G1-G10)",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 9,
+      "action": "Present results with pipeline verdict, provenance chain, drift flags, and compliance status",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within or across the three pipeline layers",
+    "Epistemic class: all claims labeled — no class promotion across layers without evidence",
+    "Provenance: source path recorded for every derived claim including layer of origin",
+    "Anti-overreach: no enforcement claim beyond what the mechanism actually enforces",
+    "Policy-mechanism match: every mechanism has a corresponding policy",
+    "Mechanism-enforcement match: every enforcement matches the specified mechanism",
+    "Layer drift: no drift between policy, mechanism, and enforcement layers",
+    "Audit trail: every access decision has traceable policy origin, mechanism, and enforcement",
+    "Failure mode: on validation failure, downgrade, flag, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate policy or mechanism",
+    "No epistemic class promotion across layers without independent evidence",
+    "No layer drift: drift detected triggers realignment before pipeline execution",
+    "No bypass: access decisions must go through the full pipeline",
+    "No broken provenance: full chain must be traceable across all layers"
+  ],
+  "depends_on_skills": [
+    "amos-security-control-access-bridge-governor"
+  ],
+  "depends_on_workflows": [
+    "amos-security-control-access-bridge-governor-workflow.md"
+  ],
+  "epistemic_class": "SOURCE_CLAIM",
+  "claim_ceiling": 0.9,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "cross-domain",
+    "risk_tier": "high",
+    "observability": "structured_logs+pipeline_trace+provenance_chain+drift_audit",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "4680963cf1549fd0",
+  "implementation": {
+    "type": "json",
+    "file": "amos-security-control-access-bridge-governor-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

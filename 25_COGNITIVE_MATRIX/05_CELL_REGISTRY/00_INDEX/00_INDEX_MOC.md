@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[CELL_REGISTRY_COGNITIVE_MATRIX_CELL_REGISTRY_CONTRACT]]
+- [[CELL_REGISTRY_MAP]]
+- [[INDEX_CELL_REGISTRY_COGNITIVE_MATRIX_README]]
+
+---
+**Parent:** [[05_CELL_REGISTRY_MOC]]

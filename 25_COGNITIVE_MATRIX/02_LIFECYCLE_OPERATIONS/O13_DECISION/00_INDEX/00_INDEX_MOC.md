@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[INDEX_O13_DECISION_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README]]
+- [[LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_O13_DECISION_CONTRACT]]
+- [[O13_DECISION_MAP]]
+
+---
+**Parent:** [[O13_DECISION_MOC]]

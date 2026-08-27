@@ -1,0 +1,131 @@
+{
+  "name": "amos-c04-bio-neuro-agent",
+  "display_name": "AMOS C04 Bio & Neuro",
+  "description": "AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI, cell intelligence, genetics, molecular biology. Biological logic translation for cognitive architecture. Use for biological",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Biological and neurobiological intelligence: NBI, NEI, BEI, cell intelligence, genetics, molecular biology.",
+  "skill_binding": {
+    "primary_skill": "amos-c04-bio-neuro-master",
+    "skill_path": ".devin/skills/amos-c04-bio-neuro-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "c04_bio_neuro.apply_bio_model",
+      "description": "Apply AMOS C04 Bio & Neuro biological models: NBI, NEI, BEI, SI for cognitive architecture and fractal biology.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c04_bio_neuro.validate_bio",
+      "description": "Validate AMOS C04 Bio & Neuro bio claims for epistemic class, biological analogy vs empirical finding, and scope.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c04_bio_neuro.analyze_biological",
+      "description": "Analyze AMOS C04 Bio & Neuro biological systems: cell intelligence, genetics, neural networks, homeostasis.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c04_bio_neuro.trace_bio_provenance",
+      "description": "Trace AMOS C04 Bio & Neuro bio findings to vault sources, biological models, and neurobiological evidence.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c04_bio_neuro.assess_bio_claim",
+      "description": "Assess AMOS C04 Bio & Neuro bio claims for analogy vs empirical, evidence strength, and overclaim risk.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c04_bio_neuro.manage_bio_lifecycle",
+      "description": "Manage AMOS C04 Bio & Neuro bio lifecycle: model, analogize, validate, bridge to cognitive, and finalize.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c04_bio_neuro.detect_bio_drift",
+      "description": "Detect bio drift: analogy overclaim, scope creep, model-reality conflation, and evidence decay.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c04_bio_neuro.escalate_bio_gaps",
+      "description": "Escalate AMOS C04 Bio & Neuro bio gaps: flag overclaim, require empirical evidence, trigger scope correction.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c04_bio_neuro.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c04_bio_neuro.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c04_bio_neuro.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "MECHANISM MAPPING: Apply mechanism mapping within the C04 bio neuro domain.",
+      "gate": "mechanism_mapping_complete"
+    },
+    {
+      "step": 2,
+      "action": "EVOLUTIONARY CONSIDERATIONS: Apply evolutionary considerations within the C04 bio neuro domain.",
+      "gate": "evolutionary_considerations_complete"
+    },
+    {
+      "step": 3,
+      "action": "RISK BENEFIT CLINICAL PATTERNING: Apply risk benefit clinical patterning within the C04 bio neuro domain.",
+      "gate": "risk_benefit_clinical_patterning_complete"
+    },
+    {
+      "step": 4,
+      "action": "MULTI SYSTEM INTERACTION MAPPING: Apply multi system interaction mapping within the C04 bio neuro domain.",
+      "gate": "multi_system_interaction_mapping_complete"
+    }
+  ],
+  "integrity_requirements": [
+    "not a substitute for medical care: this risk must be bounded by explicit gates",
+    "must remain cautious with novel or rare conditions: this risk must be bounded by explicit gates",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-c04-bio-neuro-master"
+  ],
+  "depends_on_workflows": [
+    "amos-c04-bio-neuro-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "bio",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-c04-bio-neuro-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "e6ec670cbd95482d"
+}

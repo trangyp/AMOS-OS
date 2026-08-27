@@ -2296,3 +2296,6 @@ confidence_ceiling: 0
 
 ---
 **MOC:** [[INDEX_CORE_LAWS_CANON_README]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

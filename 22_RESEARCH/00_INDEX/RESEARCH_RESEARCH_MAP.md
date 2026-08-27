@@ -56,3 +56,6 @@ node_id: amos_22_research_00_index_research_research_map_md
 node_type: note
 path: 22_RESEARCH/00_INDEX/RESEARCH_RESEARCH_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

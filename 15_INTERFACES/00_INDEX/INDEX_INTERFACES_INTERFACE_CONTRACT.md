@@ -54,3 +54,6 @@ node_id: amos_15_interfaces_00_index_index_interfaces_interface_contract_md
 node_type: note
 path: 15_INTERFACES/00_INDEX/INDEX_INTERFACES_INTERFACE_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

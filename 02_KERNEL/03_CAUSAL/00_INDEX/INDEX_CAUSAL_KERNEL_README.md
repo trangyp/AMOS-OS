@@ -54,3 +54,6 @@ node_id: amos_02_kernel_03_causal_00_index_index_causal_kernel_readme_md
 node_type: note
 path: 02_KERNEL/03_CAUSAL/00_INDEX/INDEX_CAUSAL_KERNEL_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

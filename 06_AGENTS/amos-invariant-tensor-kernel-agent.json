@@ -1,0 +1,107 @@
+{
+  "name": "amos-invariant-tensor-kernel-agent",
+  "display_name": "Invariant Tensor Kernel",
+  "description": "Invariant Tensor Kernel — Formal reasoning engine. Bound to formal domain. Use when formal reasoning engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Invariant Tensor Kernel — Formal reasoning engine within the formal domain.",
+  "skill_binding": {
+    "primary_skill": "amos-invariant-tensor-kernel",
+    "skill_path": ".devin/skills/amos-invariant-tensor-kernel/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "invariant_tensor.verify_proof",
+      "description": "Verify formal proofs against axioms, inference rules, and consistency constraints",
+      "side_effect": "read"
+    },
+    {
+      "name": "invariant_tensor.check_soundness",
+      "description": "Check soundness and completeness of formal systems under test",
+      "side_effect": "read"
+    },
+    {
+      "name": "invariant_tensor.propagate_constraints",
+      "description": "Propagate constraints through the formal system and detect unsatisfiable cores",
+      "side_effect": "read"
+    },
+    {
+      "name": "invariant_tensor.validate_invariant",
+      "description": "Validate invariants hold under all specified operating conditions",
+      "side_effect": "read"
+    },
+    {
+      "name": "invariant_tensor.detect_contradiction",
+      "description": "Detect contradictions and derive minimal conflict explanations",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-invariant-tensor-kernel skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against formal sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-invariant-tensor-kernel"
+  ],
+  "depends_on_workflows": [
+    "amos-invariant-tensor-kernel-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "formal",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "b5c2cbce673c00df",
+  "implementation": {
+    "type": "json",
+    "file": "amos-invariant-tensor-kernel-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

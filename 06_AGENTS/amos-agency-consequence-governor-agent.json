@@ -1,0 +1,102 @@
+{
+  "name": "amos-agency-consequence-governor-agent",
+  "display_name": "Agency Consequence Governor",
+  "description": "AMOS Agency & Consequence Governor — governs bounded agency through source identity, scope, invariants, permissions, consequence, RSCF dependencies, competing hypotheses, provenance, validation, and repair.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Govern agency as bounded action capacity with explicit permission and consequence tracking.",
+  "skill_binding": {
+    "primary_skill": "amos-agency-consequence-governor",
+    "skill_path": ".devin/skills/amos-agency-consequence-governor/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "agency_consequence.govern_agency",
+      "description": "Govern agency: who acts, under what authority, with what consequences",
+      "side_effect": "read"
+    },
+    {
+      "name": "agency_consequence.design_externalization",
+      "description": "Design agent externalization: what is delegated, to whom, with what controls",
+      "side_effect": "read"
+    },
+    {
+      "name": "agency_consequence.attribute_ownership",
+      "description": "Attribute agent ownership: who is responsible for each agent action",
+      "side_effect": "read"
+    },
+    {
+      "name": "agency_consequence.verify_agentic",
+      "description": "Verify agentic skill-lie algebroid: structural consistency of agent capabilities",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-agency-consequence-governor skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against domain sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-agency-consequence-governor"
+  ],
+  "depends_on_workflows": [
+    "amos-agency-consequence-governor-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "agent",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-agency-consequence-governor-agent.json",
+    "class": null,
+    "executable": false
+  },
+  "content_hash": "295760f2c09f77d2"
+}

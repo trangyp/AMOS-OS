@@ -1,0 +1,117 @@
+{
+  "name": "amos-agent-externalization-architecture-rscf-agent",
+  "display_name": "Agent Externalization Architecture Rscf",
+  "description": "Agent Externalization Architecture RSCF — governs where cognitive and execution burden should live across context, memory, skills, protocols, code, tools, and harness policy.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Externalization architecture specialist for state persistence, procedural packaging, interaction protocols, deterministic computation, tool interfaces, and execution-control placement.",
+  "skill_binding": {
+    "primary_skill": "amos-agent-externalization-architecture-rscf",
+    "skill_path": ".devin/skills/amos-agent-externalization-architecture-rscf/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "agent_externalization.govern_agency",
+      "description": "Govern agency: who acts, under what authority, with what consequences",
+      "side_effect": "read"
+    },
+    {
+      "name": "agent_externalization.design_externalization",
+      "description": "Design agent externalization: what is delegated, to whom, with what controls",
+      "side_effect": "read"
+    },
+    {
+      "name": "agent_externalization.attribute_ownership",
+      "description": "Attribute agent ownership: who is responsible for each agent action",
+      "side_effect": "read"
+    },
+    {
+      "name": "agent_externalization.verify_agentic",
+      "description": "Verify agentic skill-lie algebroid: structural consistency of agent capabilities",
+      "side_effect": "read"
+    },
+    {
+      "name": "agent_externalization.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "agent_externalization.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "agent_externalization.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-agent-externalization-architecture-rscf skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against domain sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-agent-externalization-architecture-rscf"
+  ],
+  "depends_on_workflows": [
+    "amos-agent-externalization-architecture-rscf-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "runtime",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-agent-externalization-architecture-rscf-agent.json",
+    "class": null,
+    "executable": false
+  },
+  "content_hash": "1c2c6e43b0fc7109"
+}

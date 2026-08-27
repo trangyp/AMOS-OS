@@ -75,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[INDEX_TASK_CONTRACT_CONTROL_PLANE_README]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -38,3 +38,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[INDEX_VARIABLE_REGISTRY_CANON_README]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

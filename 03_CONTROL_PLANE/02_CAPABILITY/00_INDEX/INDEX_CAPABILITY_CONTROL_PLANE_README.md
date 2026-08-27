@@ -54,3 +54,6 @@ node_id: cp__plane_02_capability_00_index_index_capability_control_plane_readme_
 node_type: note
 path: 03_CONTROL_PLANE/02_CAPABILITY/00_INDEX/INDEX_CAPABILITY_CONTROL_PLANE_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -56,3 +56,6 @@ node_id: cp_03_control_plane_10_exposure_00_index_exposure_map_md
 node_type: note
 path: 03_CONTROL_PLANE/10_EXPOSURE/00_INDEX/EXPOSURE_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

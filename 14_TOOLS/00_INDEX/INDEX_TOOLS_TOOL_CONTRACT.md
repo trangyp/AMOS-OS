@@ -54,3 +54,6 @@ node_id: amos_14_tools_00_index_index_tools_tool_contract_md
 node_type: note
 path: 14_TOOLS/00_INDEX/INDEX_TOOLS_TOOL_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -38,3 +38,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[INDEX_C07_ECON_FINANCE_DOMAINS_README]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

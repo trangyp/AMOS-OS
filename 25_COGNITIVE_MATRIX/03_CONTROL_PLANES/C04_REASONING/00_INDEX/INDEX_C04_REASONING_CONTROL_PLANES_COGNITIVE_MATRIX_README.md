@@ -51,3 +51,6 @@ node_id: cognitive_matrix_x_index_c04_reasoning_control_planes_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C04_REASONING/00_INDEX/INDEX_C04_REASONING_CONTROL_PLANES_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

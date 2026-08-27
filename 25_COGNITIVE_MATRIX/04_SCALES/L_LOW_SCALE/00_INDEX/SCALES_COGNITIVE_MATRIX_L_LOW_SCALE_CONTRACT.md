@@ -75,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[INDEX_L_LOW_SCALE_SCALES_COGNITIVE_MATRIX_README]]
+
+---
+**MOC:** [[00_INDEX_MOC]]

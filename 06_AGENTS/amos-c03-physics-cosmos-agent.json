@@ -1,0 +1,150 @@
+{
+  "name": "amos-c03-physics-cosmos-agent",
+  "display_name": "AMOS C03 Physics & Cosmos",
+  "description": "AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, particle physics, and quantum analogies for reasoning. Quantum terms labeled AMOS_MODEL, never physics claims. Use for physics r",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Physics and cosmology reasoning: quantum mechanics, relativity, cosmology, particle physics with epistemic class discipline.",
+  "skill_binding": {
+    "primary_skill": "amos-c03-physics-cosmos-master",
+    "skill_path": ".devin/skills/amos-c03-physics-cosmos-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "physics.apply_quantum_reasoning",
+      "description": "Apply AMOS C03 Physics & Cosmos quantum reasoning analogies: superposition, entanglement, collapse for cognitive problems.",
+      "side_effect": "write"
+    },
+    {
+      "name": "physics.validate_physics",
+      "description": "Validate AMOS C03 Physics & Cosmos physics claims for epistemic class (AMOS_MODEL not physics claim), scope, and overclaim.",
+      "side_effect": "read"
+    },
+    {
+      "name": "physics.analyze_cosmological",
+      "description": "Analyze AMOS C03 Physics & Cosmos cosmological patterns: spacetime, fields, particles for structural insights.",
+      "side_effect": "read"
+    },
+    {
+      "name": "physics.trace_physics_provenance",
+      "description": "Trace AMOS C03 Physics & Cosmos physics findings to quantum analogies, cosmological models, and vault sources.",
+      "side_effect": "read"
+    },
+    {
+      "name": "physics.assess_physics_claim",
+      "description": "Assess AMOS C03 Physics & Cosmos physics claims for reasoning analogy vs empirical claim, scope, and falsifier.",
+      "side_effect": "read"
+    },
+    {
+      "name": "physics.manage_physics_lifecycle",
+      "description": "Manage AMOS C03 Physics & Cosmos physics lifecycle: model, analogize, validate, bridge, and finalize.",
+      "side_effect": "write"
+    },
+    {
+      "name": "physics.detect_physics_drift",
+      "description": "Detect physics drift: analogy overclaim, scope creep, model-reality conflation, and confidence inflation.",
+      "side_effect": "read"
+    },
+    {
+      "name": "physics.escalate_physics_gaps",
+      "description": "Escalate AMOS C03 Physics & Cosmos physics gaps: flag overclaim, require empirical evidence, trigger scope correction.",
+      "side_effect": "write"
+    },
+    {
+      "name": "physics.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "physics.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "physics.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "CONSTRAINT MAPPING: Apply constraint mapping within the c03 physics cosmos domain.",
+      "gate": "constraint_mapping_complete"
+    },
+    {
+      "step": 2,
+      "action": "ORDER OF MAGNITUDE PHYSICS: Apply order of magnitude physics within the c03 physics cosmos domain.",
+      "gate": "order_of_magnitude_physics_complete"
+    },
+    {
+      "step": 3,
+      "action": "SYSTEMS DYNAMICS PATTERNS: Apply systems dynamics patterns within the c03 physics cosmos domain.",
+      "gate": "systems_dynamics_patterns_complete"
+    },
+    {
+      "step": 4,
+      "action": "STABILITY VS CHAOS CHARACTERIZATION: Apply stability vs chaos characterization within the c03 physics cosmos domain.",
+      "gate": "stability_vs_chaos_characterization_complete"
+    },
+    {
+      "step": 5,
+      "action": "MULTI LAYER CONSERVATION ANALYSIS: Apply multi layer conservation analysis within the c03 physics cosmos domain.",
+      "gate": "multi_layer_conservation_analysis_complete"
+    },
+    {
+      "step": 6,
+      "action": "ENERGY INFORMATION FLOW MODELLING: Apply energy information flow modelling within the c03 physics cosmos domain.",
+      "gate": "energy_information_flow_modelling_complete"
+    },
+    {
+      "step": 7,
+      "action": "COSMIC TOPOLOGY PROJECTION: Apply cosmic topology projection within the c03 physics cosmos domain.",
+      "gate": "cosmic_topology_projection_complete"
+    }
+  ],
+  "integrity_requirements": [
+    "high risk if used outside empirical regime: this risk must be bounded by explicit gates",
+    "can produce over simplified models if data is sparse: this risk must be bounded by explicit gates",
+    "timeline errors cascade nonlocally: this risk must be bounded by explicit gates",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders",
+    "treats_soft_assumptions_as_hard_constraints: detect and prevent this failure mode",
+    "misses_hidden_constraints_fromadjacent_layers: detect and prevent this failure mode",
+    "assumes_linear_flow_where_feedback_is_dominant: detect and prevent this failure mode"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-c03-physics-cosmos-master"
+  ],
+  "depends_on_workflows": [
+    "amos-c03-physics-cosmos-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "physics",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-c03-physics-cosmos-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "0f4fe93d32db55f6"
+}

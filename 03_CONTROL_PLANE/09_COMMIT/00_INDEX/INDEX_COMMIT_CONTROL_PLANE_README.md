@@ -54,3 +54,6 @@ node_id: cp__control_plane_09_commit_00_index_index_commit_control_plane_readme_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/00_INDEX/INDEX_COMMIT_CONTROL_PLANE_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -1,0 +1,122 @@
+{
+  "name": "amos-full-brain-os-agent",
+  "display_name": "Full Brain Os",
+  "description": "Full Brain Os — Full Brain Os — Runtime and OS engine within the runtime domain.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Full Brain Os — Runtime and OS engine within the runtime domain.",
+  "skill_binding": {
+    "primary_skill": "amos-full-brain-os",
+    "skill_path": ".devin/skills/amos-full-brain-os/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "full_brain.orchestrate_brain",
+      "description": "Orchestrate full brain OS: coordinate all cognitive engines as a unified system",
+      "side_effect": "read"
+    },
+    {
+      "name": "full_brain.route_cognition",
+      "description": "Route cognitive tasks through omni kernel dynamic routing (activate minimum relevant region)",
+      "side_effect": "read"
+    },
+    {
+      "name": "full_brain.manage_expression",
+      "description": "Manage expression translation: RAW EXPRESSION → LOGIC-READY AMOS INPUT pipeline",
+      "side_effect": "read"
+    },
+    {
+      "name": "full_brain.assess_claim",
+      "description": "Assess Full Brain OS claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF)",
+      "side_effect": "read"
+    },
+    {
+      "name": "full_brain.detect_drift",
+      "description": "Detect drift between brain components, engine registry, or world model layers",
+      "side_effect": "read"
+    },
+    {
+      "name": "full_brain.escalate_gaps",
+      "description": "Escalate unresolved brain OS gaps (GAP-BRAIN-001, GAP-OMNI-001, GAP-OMNIVERSE-001)",
+      "side_effect": "read"
+    },
+    {
+      "name": "full_brain.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "full_brain.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-full-brain-os skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against runtime sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-full-brain-os"
+  ],
+  "depends_on_workflows": [
+    "amos-full-brain-os-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "runtime",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "2b256654af10bd90",
+  "implementation": {
+    "type": "json",
+    "file": "amos-full-brain-os-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

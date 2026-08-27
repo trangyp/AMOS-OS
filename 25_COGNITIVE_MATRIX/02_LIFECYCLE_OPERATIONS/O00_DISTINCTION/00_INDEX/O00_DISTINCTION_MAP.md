@@ -53,3 +53,6 @@ node_id: cognitive_matrix_ycle_operations_o00_distinction_00_index_o00_distincti
 node_type: note
 path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION/00_INDEX/O00_DISTINCTION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

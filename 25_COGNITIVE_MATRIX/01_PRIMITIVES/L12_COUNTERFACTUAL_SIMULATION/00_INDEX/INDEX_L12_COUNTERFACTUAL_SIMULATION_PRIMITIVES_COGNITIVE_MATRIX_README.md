@@ -51,3 +51,6 @@ node_id: cognitive_matrix_counterfactual_simulation_primitives_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L12_COUNTERFACTUAL_SIMULATION/00_INDEX/INDEX_L12_COUNTERFACTUAL_SIMULATION_PRIMITIVES_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

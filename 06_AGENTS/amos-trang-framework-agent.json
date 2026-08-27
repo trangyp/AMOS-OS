@@ -1,0 +1,137 @@
+{
+  "name": "amos-trang-framework-agent",
+  "display_name": "AMOS Trang Framework",
+  "description": "AMOS Trang Framework — Khung Trang, cascade collapse-recovery, FRAI fractal reasoning, LDAI formalization, reality architecture, equation registry. Use for Trang framework reasoning or cascade anal",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Trang framework: Khung Trang, cascade collapse-recovery, FRAI fractal reasoning, LDAI formalization.",
+  "skill_binding": {
+    "primary_skill": "amos-trang-framework-master",
+    "skill_path": ".devin/skills/amos-trang-framework-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "trang.execute_formal",
+      "description": "Execute AMOS Trang Framework formal engines: MURK 19x19, Go Board, tensor composition, and RSCF proof systems.",
+      "side_effect": "write"
+    },
+    {
+      "name": "trang.validate_formal",
+      "description": "Validate AMOS Trang Framework proofs for completeness, soundness, tensor contract compliance, and axiom application.",
+      "side_effect": "read"
+    },
+    {
+      "name": "trang.analyze_tensor",
+      "description": "Analyze AMOS Trang Framework tensor structure: typed cells, axis compatibility, composition gates, and relation topology.",
+      "side_effect": "read"
+    },
+    {
+      "name": "trang.trace_formal_provenance",
+      "description": "Trace AMOS Trang Framework formal outputs to axioms, inference rules, tensor contracts, and proof graph.",
+      "side_effect": "read"
+    },
+    {
+      "name": "trang.assess_formal_claim",
+      "description": "Assess AMOS Trang Framework formal claims for proof status, tensor compatibility, gap registry, and invariant compliance.",
+      "side_effect": "read"
+    },
+    {
+      "name": "trang.manage_formal_lifecycle",
+      "description": "Manage AMOS Trang Framework formal lifecycle: axiomatize, derive, validate, cross-check, and finalize proof.",
+      "side_effect": "write"
+    },
+    {
+      "name": "trang.detect_formal_drift",
+      "description": "Detect formal drift: axiom erosion, tensor axis mismatch, proof graph degradation, and invariant violation.",
+      "side_effect": "read"
+    },
+    {
+      "name": "trang.escalate_formal_gaps",
+      "description": "Escalate AMOS Trang Framework formal gaps: flag unproven claims, tensor incompatibility, trigger gap registry repair.",
+      "side_effect": "write"
+    },
+    {
+      "name": "trang.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "trang.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "trang.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "ORIENT: Identify the problem and confirm it matches the trang framework scope.",
+      "gate": "scope_confirmed"
+    },
+    {
+      "step": 2,
+      "action": "CLASSIFY: Classify the query against trang framework sub-capabilities and frameworks.",
+      "gate": "domain_classified"
+    },
+    {
+      "step": 3,
+      "action": "APPLY: Apply the appropriate trang framework framework with epistemic class labeling.",
+      "gate": "framework_applied"
+    },
+    {
+      "step": 4,
+      "action": "CHALLENGE: Challenge results against epistemic firewall and domain-specific invariants.",
+      "gate": "firewall_passed"
+    },
+    {
+      "step": 5,
+      "action": "SYNTHESIZE: Synthesize results with provenance and confidence ceiling.",
+      "gate": "result_synthesized"
+    }
+  ],
+  "integrity_requirements": [
+    "TRANG FRAMEWORK model != empirical proof: framework is not empirical validation",
+    "Structural mapping != causal proof: mapping is not causation",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Competing hypotheses must be preserved under uncertainty",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-trang-framework-master"
+  ],
+  "depends_on_workflows": [
+    "amos-trang-framework-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "trang",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-trang-framework-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "b1cca6373f3d28ea"
+}

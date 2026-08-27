@@ -54,3 +54,6 @@ node_id: amos_4_ev_infrastructure_00_index_index_ev_infrastructure_domains_readm
 node_type: note
 path: 21_DOMAINS/44_EV_INFRASTRUCTURE/00_INDEX/INDEX_EV_INFRASTRUCTURE_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

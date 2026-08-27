@@ -56,3 +56,6 @@ node_id: amos_23_operating_model_01_roles_00_index_roles_map_md
 node_type: note
 path: 23_OPERATING_MODEL/01_ROLES/00_INDEX/ROLES_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

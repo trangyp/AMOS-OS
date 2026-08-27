@@ -54,3 +54,6 @@ node_id: amos_06_agents_00_index_index_agents_agent_contract_md
 node_type: note
 path: 06_AGENTS/00_INDEX/INDEX_AGENTS_AGENT_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

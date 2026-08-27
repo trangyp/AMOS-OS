@@ -1,0 +1,107 @@
+{
+  "name": "amos-ai-architecture-factory-rscf-engine-agent",
+  "display_name": "Ai Architecture Factory Rscf Engine",
+  "description": "Ai Architecture Factory Rscf Engine — Tech-engineering engine. Bound to c10 domain. Use when tech-engineering engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Ai Architecture Factory Rscf Engine — Tech-engineering engine within the c10 domain.",
+  "skill_binding": {
+    "primary_skill": "amos-ai-architecture-factory-rscf-engine",
+    "skill_path": ".devin/skills/amos-ai-architecture-factory-rscf-engine/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "ai_architecture.analyze_architecture",
+      "description": "Analyze software architecture: patterns, dependencies, coupling, cohesion",
+      "side_effect": "read"
+    },
+    {
+      "name": "ai_architecture.discover_program",
+      "description": "Discover program behavior: black-box analysis, symbolic execution, fuzzing",
+      "side_effect": "read"
+    },
+    {
+      "name": "ai_architecture.verify_code_facts",
+      "description": "Verify code facts: type safety, memory safety, termination, complexity",
+      "side_effect": "read"
+    },
+    {
+      "name": "ai_architecture.optimize_performance",
+      "description": "Optimize performance: profiling, bottleneck analysis, and resource tuning",
+      "side_effect": "read"
+    },
+    {
+      "name": "ai_architecture.enforce_bounds",
+      "description": "Enforce bounded code: resource limits, time limits, and capability limits",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-ai-architecture-factory-rscf-engine skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against c10 sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-ai-architecture-factory-rscf-engine"
+  ],
+  "depends_on_workflows": [
+    "amos-ai-architecture-factory-rscf-engine-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "c10",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "6ca54cb5440682d3",
+  "implementation": {
+    "type": "json",
+    "file": "amos-ai-architecture-factory-rscf-engine-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

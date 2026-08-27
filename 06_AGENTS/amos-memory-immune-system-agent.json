@@ -1,0 +1,122 @@
+{
+  "name": "amos-memory-immune-system-agent",
+  "display_name": "Memory Immune System",
+  "description": "Memory Immune System — Memory system engine. Bound to memory domain. Use when memory system engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Memory Immune System — Memory system engine within the memory domain.",
+  "skill_binding": {
+    "primary_skill": "amos-memory-immune-system",
+    "skill_path": ".devin/skills/amos-memory-immune-system/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "memory_immune.manage_memory",
+      "description": "Manage memory: storage, retrieval, decay, and consolidation",
+      "side_effect": "read"
+    },
+    {
+      "name": "memory_immune.resolve_conflict",
+      "description": "Resolve memory conflicts: contradictions, staleness, and priority",
+      "side_effect": "read"
+    },
+    {
+      "name": "memory_immune.enforce_firewall",
+      "description": "Enforce memory firewall: prevent unauthorized access and tampering",
+      "side_effect": "read"
+    },
+    {
+      "name": "memory_immune.track_dynamics",
+      "description": "Track memory dynamics: formation, consolidation, and forgetting curves",
+      "side_effect": "read"
+    },
+    {
+      "name": "memory_immune.assess_integrity",
+      "description": "Assess immune system integrity: activation, threat, recovery capacity",
+      "side_effect": "read"
+    },
+    {
+      "name": "memory_immune.detect_drift",
+      "description": "Detect drift in memory integrity, conflict patterns, or firewall coverage",
+      "side_effect": "read"
+    },
+    {
+      "name": "memory_immune.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "memory_immune.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-memory-immune-system skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against memory sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-memory-immune-system"
+  ],
+  "depends_on_workflows": [
+    "amos-memory-immune-system-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "memory",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "2396fc57f3e68168",
+  "implementation": {
+    "type": "json",
+    "file": "amos-memory-immune-system-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

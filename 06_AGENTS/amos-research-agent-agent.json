@@ -1,0 +1,122 @@
+{
+  "name": "amos-research-agent",
+  "display_name": "Research Agent",
+  "description": "Research Agent — Knowledge-research engine. Bound to knowledge domain. Use when knowledge-research engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Research Agent — Knowledge-research engine within the knowledge domain.",
+  "skill_binding": {
+    "primary_skill": "amos-research-agent",
+    "skill_path": ".devin/skills/amos-research-agent/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "research_agent.search_corpus",
+      "description": "Search the corpus directly: retrieve relevant passages with provenance",
+      "side_effect": "read"
+    },
+    {
+      "name": "research_agent.manage_artifact",
+      "description": "Manage research artifacts: create, version, and link to vault sources",
+      "side_effect": "read"
+    },
+    {
+      "name": "research_agent.trace_footprint",
+      "description": "Trace agent storage footprint and optimize knowledge retention",
+      "side_effect": "read"
+    },
+    {
+      "name": "research_agent.validate_epistemology",
+      "description": "Validate knowledge epistemology: source quality, freshness, and scope",
+      "side_effect": "read"
+    },
+    {
+      "name": "research_agent.index_knowledge",
+      "description": "Index knowledge for rapid retrieval and cross-reference navigation",
+      "side_effect": "read"
+    },
+    {
+      "name": "research_agent.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "research_agent.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "research_agent.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-research-agent skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against knowledge sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-research-agent"
+  ],
+  "depends_on_workflows": [
+    "amos-research-agent-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "knowledge",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "31bdf583ebfa503a",
+  "implementation": {
+    "type": "json",
+    "file": "amos-research-agent-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

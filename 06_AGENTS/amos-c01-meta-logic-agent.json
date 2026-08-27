@@ -1,0 +1,150 @@
+{
+  "name": "amos-c01-meta-logic-agent",
+  "display_name": "AMOS C01 Meta Logic",
+  "description": "AMOS C01 Meta Logic — the irreducible logic core: 8 Atomic Logic Units (ALUs), 7 Universal Meta-Laws (UMLs), 6 Universal Operators (UOPs), 5 Universal Pattern Families. Law of Law, Rule of 2, Rule",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Irreducible logic core: 8 Atomic Logic Units, 7 Universal Meta-Laws, 6 Universal Operators, reasoning chain auditing.",
+  "skill_binding": {
+    "primary_skill": "amos-c01-meta-logic-master",
+    "skill_path": ".devin/skills/amos-c01-meta-logic-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "c01_meta_logic.analyze_governance",
+      "description": "Analyze AMOS C01 Meta Logic governance structures: authority distribution, compliance frameworks, and legal reasoning.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c01_meta_logic.validate_policy",
+      "description": "Validate AMOS C01 Meta Logic policy outputs against constitutional requirements, authority gates, and scope regime.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c01_meta_logic.design_policy",
+      "description": "Design AMOS C01 Meta Logic policy frameworks: regulatory structures, decision processes, and compliance mechanisms.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c01_meta_logic.trace_policy_provenance",
+      "description": "Trace AMOS C01 Meta Logic policy findings to legal sources, governance models, and vault sources.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c01_meta_logic.assess_policy_claim",
+      "description": "Assess AMOS C01 Meta Logic policy claims for legal validity, authority scope, and compliance status.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c01_meta_logic.manage_policy_lifecycle",
+      "description": "Manage AMOS C01 Meta Logic policy lifecycle: draft, validate, enact, monitor, and finalize.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c01_meta_logic.detect_policy_drift",
+      "description": "Detect policy drift: regulatory change, authority shift, compliance degradation, and scope creep.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c01_meta_logic.escalate_policy_gaps",
+      "description": "Escalate AMOS C01 Meta Logic policy gaps: flag constitutional issues, require legal review, trigger repair.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c01_meta_logic.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c01_meta_logic.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c01_meta_logic.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "PROBLEM DECOMPOSITION: Apply problem decomposition within the c01 meta logic domain.",
+      "gate": "problem_decomposition_complete"
+    },
+    {
+      "step": 2,
+      "action": "DEFINITION NORMALIZATION: Apply definition normalization within the c01 meta logic domain.",
+      "gate": "definition_normalization_complete"
+    },
+    {
+      "step": 3,
+      "action": "ASSUMPTION SURFACING: Apply assumption surfacing within the c01 meta logic domain.",
+      "gate": "assumption_surfacing_complete"
+    },
+    {
+      "step": 4,
+      "action": "CONSISTENCY CHECKING: Apply consistency checking within the c01 meta logic domain.",
+      "gate": "consistency_checking_complete"
+    },
+    {
+      "step": 5,
+      "action": "EPISTEMIC STATUS LABELLING: Apply epistemic status labelling within the c01 meta logic domain.",
+      "gate": "epistemic_status_labelling_complete"
+    },
+    {
+      "step": 6,
+      "action": "FRAME SELECTION: Apply frame selection within the c01 meta logic domain.",
+      "gate": "frame_selection_complete"
+    },
+    {
+      "step": 7,
+      "action": "FRAME SWITCHING CONTROL: Apply frame switching control within the c01 meta logic domain.",
+      "gate": "frame_switching_control_complete"
+    }
+  ],
+  "integrity_requirements": [
+    "can be overly slow if not bounded: this risk must be bounded by explicit gates",
+    "can expose discomfort by flagging hidden assumptions: this risk must be bounded by explicit gates",
+    "if misused can over normalize and remove useful nuance: this risk must be bounded by explicit gates",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders",
+    "accepts_user_framing_without_challenge: detect and prevent this failure mode",
+    "fails_to_detect_impossible_or_self_contradictory_requests: detect and prevent this failure mode",
+    "allows_mixed_jargon_from_multiple_domains_without_disambiguation: detect and prevent this failure mode"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-c01-meta-logic-master"
+  ],
+  "depends_on_workflows": [
+    "amos-c01-meta-logic-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "logic",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-c01-meta-logic-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "aae6000c2c401560"
+}

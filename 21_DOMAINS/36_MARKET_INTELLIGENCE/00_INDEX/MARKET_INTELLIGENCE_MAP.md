@@ -56,3 +56,6 @@ node_id: amos_21_domains_36_market_intelligence_00_index_market_intelligence_map
 node_type: note
 path: 21_DOMAINS/36_MARKET_INTELLIGENCE/00_INDEX/MARKET_INTELLIGENCE_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

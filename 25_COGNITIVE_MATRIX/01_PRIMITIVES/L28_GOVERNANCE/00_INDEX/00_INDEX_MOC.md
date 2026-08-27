@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[INDEX_L28_GOVERNANCE_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L28_GOVERNANCE_MAP]]
+- [[PRIMITIVES_COGNITIVE_MATRIX_L28_GOVERNANCE_CONTRACT]]
+
+---
+**Parent:** [[L28_GOVERNANCE_MOC]]

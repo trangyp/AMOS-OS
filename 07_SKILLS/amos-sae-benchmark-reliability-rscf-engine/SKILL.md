@@ -1,0 +1,121 @@
+---
+title: SKILL
+type: skill
+name: amos-sae-benchmark-reliability-rscf-engine
+description: Sae Benchmark Reliability — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability.
+parent_skill: amos-audit-repair-master
+domain: audit
+origin_architect: Trang Phan
+epistemic_class: SOURCE_CLAIM
+tags: [note, amos-sae-benchmark-reliability-rscf-engine]
+---
+
+
+# Sae Benchmark Reliability Rscf Engine
+
+## Identity
+
+- **Origin architect and steward**: Trang Phan
+- **Parent skill**: `amos-audit-repair-master`
+- **Domain**: audit
+- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
+
+Audit and verification engine for Sae Benchmark Reliability Rscf Engine
+
+## When to Use
+
+- When auditing claims against evidence and provenance
+- When detecting gaps in capabilities, evidence, tests, or monitors
+- When allocating repair resources to highest-leverage gaps
+- When verifying gap closure across the full lifecycle chain
+- When the parent skill (`amos-audit-repair-master`) routes to this specialized capability
+- When managing lifecycle operations across classify, validate, trace, assess, and detect
+- When detecting drift in evidence chains, provenance freshness, or confidence calibration
+- When validating outputs against domain constraints and epistemic class
+
+## Capabilities
+
+- **sae_benchmark.audit_claim**: Audit claims against evidence, provenance, and epistemic class
+- **sae_benchmark.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+- **sae_benchmark.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+- **sae_benchmark.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+- **sae_benchmark.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+- **sae_benchmark.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+- **sae_benchmark.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+- **sae_benchmark.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
+## Vault-Sourced Content
+
+### Source 3: v4.1 — Transactional Multi-RSCF Runtime
+
+> Path: `rscf/V4_1_ATOMIC_MULTI_RSCF.md` | Size: 1140 chars | Match score: 5 | content_hash: e740b413ac4b8cf6
+
+# v4.1 — Transactional Multi-RSCF Runtime
+
+## Focus
+- transaction IDs
+- read/write sets
+- transaction-level CAS
+- atomic publication
+- cross-RSCF invariants
+- all-or-nothing rollback
+
+## Markdown brain adaptation
+Treat cross-RSCF update sets atomically: all-or-nothing.
+
+## Historical gap
+Distributed transaction finality under partition and competing certified transactions.
+
+## Benchmark boundary
+```json
+{
+  "status": "passed_transactional_multi_RSCF_suite",
+  "results": {
+    "overlapping_transaction_trials": 2000,
+    "partial_mixed_states": 0,
+    "schedule_dependent_final_states": 0,
+    "atomicity_violations": 0,
+    "write_skew_violations_accepted": 0,
+    "forced_partial_failure_rollback": "passed",
+    "transaction_sizes_passed": [
+      3,
+      10,
+      100,
+      1000
+    ],
+    "historical_snapshot_readers": "passed"
+  }
+}
+```
+
+Benchmark results are preserved only within their tested operationalization and are not universal guarantees.
+
+---
+
+## 11_KNOWLEDGE Vault Content
+
+> **Source**: `11_KNOWLEDGE/AMOS_C02_MATH_COMPUTE_MASTER_KNOWLEDGE.md` (content_hash: 7369abada641e374) (vault canon, SOURCE_CLAIM)
+> **Additional source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)
+
+### SAE Benchmark Reliability
+
+From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. From Cognitive Organism OS: Runtime benchmarking with integrity checks.
+
+**SAE benchmark model**: Sparse Autoencoders are evaluated on reconstruction quality, sparsity, and interpretability of learned features.
+
+**Benchmark dimensions**:
+- **Reconstruction loss**: how well the SAE reconstructs the input
+- **Sparsity**: how sparse the latent representation is (L1 penalty)
+- **Feature interpretability**: how interpretable the learned features are
+- **Downstream task performance**: how the SAE features perform on downstream tasks
+- **Computational cost**: training and inference cost
+
+**Reliability protocol**:
+1. **Declare benchmark**: declare metrics, baselines, and thresholds
+2. **Run benchmark**: run with controlled inputs and declared hyperparameters
+3. **Record results**: record with full provenance (seed, data, hyperparameters)
+4. **Compare**: compare against baselines and previous runs
+5. **Detect regression**: detect when results regress from baseline
+6. **Report**: report with confidence intervals and provenance
+
+**Reliability law**: `BENCHMARK_PASS != PRODUCTION_READY`. A benchmark pass is necessary but not sufficient for production deployment.

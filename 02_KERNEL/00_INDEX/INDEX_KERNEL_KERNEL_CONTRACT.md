@@ -54,3 +54,6 @@ node_id: amos_02_kernel_00_index_index_kernel_kernel_contract_md
 node_type: note
 path: 02_KERNEL/00_INDEX/INDEX_KERNEL_KERNEL_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

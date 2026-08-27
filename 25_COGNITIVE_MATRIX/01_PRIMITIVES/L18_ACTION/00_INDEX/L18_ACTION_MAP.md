@@ -53,3 +53,6 @@ node_id: cognitive_matrix_tive_matrix_01_primitives_l18_action_00_index_l18_acti
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L18_ACTION/00_INDEX/L18_ACTION_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

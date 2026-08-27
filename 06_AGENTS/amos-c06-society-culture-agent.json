@@ -1,0 +1,131 @@
+{
+  "name": "amos-c06-society-culture-agent",
+  "display_name": "AMOS C06 Society & Culture",
+  "description": "AMOS C06 Society & Culture — social dynamics, cultural analysis, Vietnamese language/regional analysis, linguistic patterns, anthropology. Use for social analysis, cultural reasoning, or Vietnamese",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Society and culture analysis: social dynamics, cultural patterns, Vietnamese language, anthropology.",
+  "skill_binding": {
+    "primary_skill": "amos-c06-society-culture-master",
+    "skill_path": ".devin/skills/amos-c06-society-culture-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "c06_society_culture.analyze_social",
+      "description": "Analyze AMOS C06 Society & Culture social dynamics: power structures, collective action, institutional governance, cultural patterns.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c06_society_culture.validate_social",
+      "description": "Validate AMOS C06 Society & Culture social claims for epistemic class, cultural specificity vs universal, and scope regime.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c06_society_culture.analyze_cultural",
+      "description": "Analyze AMOS C06 Society & Culture cultural patterns: linguistic structures, regional systems, and anthropological models.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c06_society_culture.trace_social_provenance",
+      "description": "Trace AMOS C06 Society & Culture social findings to vault sources, cultural analysis, and regional evidence.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c06_society_culture.assess_social_claim",
+      "description": "Assess AMOS C06 Society & Culture social claims for cultural specificity, evidence strength, and overclaim risk.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c06_society_culture.manage_social_lifecycle",
+      "description": "Manage AMOS C06 Society & Culture social lifecycle: observe, analyze, model, validate, and finalize.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c06_society_culture.detect_social_drift",
+      "description": "Detect social drift: cultural shift, regime change, institutional evolution, and evidence decay.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c06_society_culture.escalate_social_gaps",
+      "description": "Escalate AMOS C06 Society & Culture social gaps: flag cultural overclaim, require regional evidence, trigger repair.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c06_society_culture.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "c06_society_culture.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "c06_society_culture.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "HISTORICAL ANALOGY WITH CAVEATS: Apply historical analogy with caveats within the C06 society culture domain.",
+      "gate": "historical_analogy_with_caveats_complete"
+    },
+    {
+      "step": 2,
+      "action": "INSTITUTIONAL INCENTIVE MAPPING: Apply institutional incentive mapping within the C06 society culture domain.",
+      "gate": "institutional_incentive_mapping_complete"
+    },
+    {
+      "step": 3,
+      "action": "CULTURE CODE DECODING: Apply culture code decoding within the C06 society culture domain.",
+      "gate": "culture_code_decoding_complete"
+    },
+    {
+      "step": 4,
+      "action": "COLLECTIVE MEMORY ANALYSIS: Apply collective memory analysis within the C06 society culture domain.",
+      "gate": "collective_memory_analysis_complete"
+    }
+  ],
+  "integrity_requirements": [
+    "history does not repeat mechanically: this risk must be bounded by explicit gates",
+    "risk of projection from other cultures: this risk must be bounded by explicit gates",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-c06-society-culture-master"
+  ],
+  "depends_on_workflows": [
+    "amos-c06-society-culture-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "society",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-c06-society-culture-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "0a9a2b4a489fa1ba"
+}

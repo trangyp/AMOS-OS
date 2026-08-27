@@ -56,3 +56,6 @@ node_id: amos_21_domains_39_politics_power_00_index_politics_power_map_md
 node_type: note
 path: 21_DOMAINS/39_POLITICS_POWER/00_INDEX/POLITICS_POWER_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

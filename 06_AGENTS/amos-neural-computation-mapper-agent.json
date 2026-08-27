@@ -1,0 +1,112 @@
+{
+  "name": "amos-neural-computation-mapper-agent",
+  "display_name": "Neural Computation Mapper",
+  "description": "Neural Computation Mapper — Bio-neuro engine. Bound to c04 domain. Use when bio-neuro engine is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Neural Computation Mapper — Bio-neuro engine within the c04 domain.",
+  "skill_binding": {
+    "primary_skill": "amos-neural-computation-mapper",
+    "skill_path": ".devin/skills/amos-neural-computation-mapper/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "neural_computation.map_mechanism",
+      "description": "Map biological mechanisms: cellular, neural, developmental, and evolutionary",
+      "side_effect": "read"
+    },
+    {
+      "name": "neural_computation.assess_cognition",
+      "description": "Assess cross-species cognition: comparative neural computation and intelligence",
+      "side_effect": "read"
+    },
+    {
+      "name": "neural_computation.model_morphogenesis",
+      "description": "Model morphogenesis: pattern formation, self-organization, and development",
+      "side_effect": "read"
+    },
+    {
+      "name": "neural_computation.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "neural_computation.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "neural_computation.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-neural-computation-mapper skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against c04 sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-neural-computation-mapper"
+  ],
+  "depends_on_workflows": [
+    "amos-neural-computation-mapper-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "c04",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "734436d9626901a1",
+  "implementation": {
+    "type": "json",
+    "file": "amos-neural-computation-mapper-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

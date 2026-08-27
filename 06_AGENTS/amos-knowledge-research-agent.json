@@ -1,0 +1,137 @@
+{
+  "name": "amos-knowledge-research-agent",
+  "display_name": "AMOS Knowledge & Research",
+  "description": "AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowledge indexing, curation, RAG best practices. 68,979-note vault as reasoning brain. Use for knowledge management, researc",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Knowledge and research: Obsidian vault integration, arxiv research, knowledge indexing, RAG best practices.",
+  "skill_binding": {
+    "primary_skill": "amos-knowledge-research-master",
+    "skill_path": ".devin/skills/amos-knowledge-research-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "knowle_research.integrate_vault",
+      "description": "Integrate AMOS Knowledge & Research vault knowledge: read, parse, index Markdown files with provenance and epistemic class.",
+      "side_effect": "write"
+    },
+    {
+      "name": "knowle_research.validate_knowledge",
+      "description": "Validate AMOS Knowledge & Research knowledge entries for provenance, epistemic class, freshness, and dependency chain.",
+      "side_effect": "read"
+    },
+    {
+      "name": "knowle_research.analyze_knowledge",
+      "description": "Analyze AMOS Knowledge & Research knowledge graph: MOC structure, orphan notes, wikilink health, and knowledge frontier.",
+      "side_effect": "read"
+    },
+    {
+      "name": "knowle_research.trace_knowledge_provenance",
+      "description": "Trace AMOS Knowledge & Research knowledge to vault source paths, arxiv papers, and derivation chain.",
+      "side_effect": "read"
+    },
+    {
+      "name": "knowle_research.assess_knowledge_claim",
+      "description": "Assess AMOS Knowledge & Research knowledge claims for source quality, citation completeness, and scope validity.",
+      "side_effect": "read"
+    },
+    {
+      "name": "knowle_research.manage_knowledge_lifecycle",
+      "description": "Manage AMOS Knowledge & Research knowledge lifecycle: ingest, index, curate, validate, update, and archive.",
+      "side_effect": "write"
+    },
+    {
+      "name": "knowle_research.detect_knowledge_drift",
+      "description": "Detect knowledge drift: stale entries, broken wikilinks, orphan notes, and provenance decay.",
+      "side_effect": "read"
+    },
+    {
+      "name": "knowle_research.escalate_knowledge_gaps",
+      "description": "Escalate AMOS Knowledge & Research knowledge gaps: flag missing sources, broken links, trigger vault repair.",
+      "side_effect": "write"
+    },
+    {
+      "name": "knowle_research.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "write"
+    },
+    {
+      "name": "knowle_research.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "side_effect": "read"
+    },
+    {
+      "name": "knowle_research.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "ORIENT: Identify the problem and confirm it matches the knowledge research scope.",
+      "gate": "scope_confirmed"
+    },
+    {
+      "step": 2,
+      "action": "CLASSIFY: Classify the query against knowledge research sub-capabilities and frameworks.",
+      "gate": "domain_classified"
+    },
+    {
+      "step": 3,
+      "action": "APPLY: Apply the appropriate knowledge research framework with epistemic class labeling.",
+      "gate": "framework_applied"
+    },
+    {
+      "step": 4,
+      "action": "CHALLENGE: Challenge results against epistemic firewall and domain-specific invariants.",
+      "gate": "firewall_passed"
+    },
+    {
+      "step": 5,
+      "action": "SYNTHESIZE: Synthesize results with provenance and confidence ceiling.",
+      "gate": "result_synthesized"
+    }
+  ],
+  "integrity_requirements": [
+    "KNOWLEDGE RESEARCH model != empirical proof: framework is not empirical validation",
+    "Structural mapping != causal proof: mapping is not causation",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Competing hypotheses must be preserved under uncertainty",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "amos-knowledge-research-master"
+  ],
+  "depends_on_workflows": [
+    "amos-knowledge-research-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "research",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-knowledge-research-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "content_hash": "cdba7cdba1561b49"
+}

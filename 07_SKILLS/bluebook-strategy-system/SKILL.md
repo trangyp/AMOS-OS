@@ -1,0 +1,98 @@
+---
+title: SKILL
+type: skill
+name: bluebook-strategy-system
+description: Strategy System — strategy and game theory capability. Use when strategic analysis, game theory, or competitive reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability.
+parent_skill: amos-c08-strategy-game-master
+domain: c08
+origin_architect: Trang Phan
+epistemic_class: SOURCE_CLAIM
+tags: [note, bluebook-strategy-system]
+---
+
+
+# Bluebook Strategy System
+
+## Identity
+
+- **Origin architect and steward**: Trang Phan
+- **Parent skill**: `amos-c08-strategy-game-master`
+- **Domain**: c08
+- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
+
+Strategy and game engine for Bluebook Strategy System
+
+## When to Use
+
+- When analyzing strategic position and competitive landscape
+- When evaluating decisions under uncertainty: expected value, regret
+- When modeling game-theoretic interactions and equilibria
+- When assessing strategic risk: downside, adversarial, black swans
+- When the parent skill (`amos-c08-strategy-game-master`) routes to this specialized capability
+- When managing lifecycle operations across classify, validate, trace, assess, and detect
+- When detecting drift in evidence chains, provenance freshness, or confidence calibration
+- When validating outputs against domain constraints and epistemic class
+
+## Capabilities
+
+- **strategy.analyze_strategy**: Analyze strategic position: competitive landscape, game-theoretic equilibrium
+- **strategy.evaluate_decision**: Evaluate decisions under uncertainty: expected value, regret, risk-adjusted return
+- **strategy.model_game**: Model game-theoretic interactions: players, strategies, payoffs, equilibria
+- **strategy.assess_risk**: Assess strategic risk: downside scenarios, adversarial responses, black swans
+- **strategy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+- **strategy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+- **strategy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
+> **Reference**: See `references/vault_domain_knowledge.md` (content_hash: f9cbc6e87c4f6bff) for the full vault-sourced domain knowledge (5576 chars).
+
+## 11_KNOWLEDGE Vault Content
+
+> **Source**: `11_KNOWLEDGE/AMOS_C08_STRATEGY_GAME_MASTER_KNOWLEDGE.md` (content_hash: 4b676ad6f9ca020f) (vault canon, SOURCE_CLAIM)
+
+### Bluebook Strategy System
+
+From C08 Strategy & Game: Bluebook strategy and consulting discipline.
+
+**Bluebook strategy principles**:
+- **Issue-driven**: start with the key issue, not the data
+- **Hypothesis-led**: form hypothesis before collecting data
+- **MECE-structured**: structure analysis to be Mutually Exclusive, Collectively Exhaustive
+- **Evidence-based**: every recommendation backed by evidence
+- **Actionable**: recommendations must be actionable, not just analytical
+
+**Strategy protocol**:
+1. **Define the issue**: what is the key strategic question?
+2. **Form hypothesis**: what is the likely answer?
+3. **Structure analysis**: MECE decomposition of the issue
+4. **Gather evidence**: collect data to test the hypothesis
+5. **Synthesize**: synthesize findings into recommendation
+6. **Communicate**: communicate using pyramid principle (conclusion first)
+
+### Epistemic Boundary
+
+The Bluebook strategy system is an analytical methodology. It does not prove strategic success, that all issues can be resolved this way, or that hypothesis-led investigation is always optimal.
+
+## Failure Modes
+- **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
+- **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
+- **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
+- **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
+- **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
+
+## Validation Gates
+
+- **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
+- **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
+- **G3 (Provenance)**: Source path recorded for every derived claim.
+- **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epistemic class.
+- **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
+- **G6 (Failure mode)**: On validation failure, downgrade confidence, flag the gap, escalate — do not force-fit.
+
+## Provenance
+
+- **Skill**: `bluebook-strategy-system`
+- **Parent**: `amos-c08-strategy-game-master`
+- **Domain**: c08
+- **Origin architect**: Trang Phan
+- **Vault sources**:
+- `engine/A/AMOS Policy Geostrategy Engine vInfinity.md` — AMOS Policy Geostr

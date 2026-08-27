@@ -51,3 +51,6 @@ node_id: cognitive_matrix_index_l11_causal_modeling_primitives_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L11_CAUSAL_MODELING/00_INDEX/INDEX_L11_CAUSAL_MODELING_PRIMITIVES_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -54,3 +54,6 @@ node_id: cp__plane_05_provenance_00_index_index_provenance_control_plane_readme_
 node_type: note
 path: 03_CONTROL_PLANE/05_PROVENANCE/00_INDEX/INDEX_PROVENANCE_CONTROL_PLANE_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

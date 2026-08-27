@@ -1,0 +1,102 @@
+{
+  "name": "mckinsey-framework-navigator-agent",
+  "display_name": "Mckinsey: framework Navigator",
+  "description": "Mckinsey: framework Navigator — McKinsey strategy framework. Bound to mckinsey domain. Use when mckinsey strategy framework is needed within the AMOS framework.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Mckinsey: framework Navigator — McKinsey strategy framework within the mckinsey domain.",
+  "skill_binding": {
+    "primary_skill": "mckinsey-framework-navigator",
+    "skill_path": ".devin/skills/mckinsey-framework-navigator/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "framework_navigator.assess_commercial",
+      "description": "Assess commercial due diligence: market, competitive position, and growth",
+      "side_effect": "read"
+    },
+    {
+      "name": "framework_navigator.evaluate_credit",
+      "description": "Evaluate credit and lending: risk scoring, portfolio, and concentration",
+      "side_effect": "read"
+    },
+    {
+      "name": "framework_navigator.analyze_banking",
+      "description": "Analyze banking CRM: customer lifetime value, retention, and cross-sell",
+      "side_effect": "read"
+    },
+    {
+      "name": "framework_navigator.transfer_architecture",
+      "description": "Transfer architecture references: best practices across organizational contexts",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the mckinsey-framework-navigator skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query against mckinsey sub-capabilities",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "depends_on_skills": [
+    "mckinsey-framework-navigator"
+  ],
+  "depends_on_workflows": [
+    "mckinsey-framework-navigator-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "mckinsey",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "799e85c61b173076",
+  "implementation": {
+    "type": "json",
+    "file": "mckinsey-framework-navigator-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

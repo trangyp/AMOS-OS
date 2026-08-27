@@ -51,3 +51,6 @@ node_id: cognitive_matrix_x_index_c03_executive_control_planes_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE/00_INDEX/INDEX_C03_EXECUTIVE_CONTROL_PLANES_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

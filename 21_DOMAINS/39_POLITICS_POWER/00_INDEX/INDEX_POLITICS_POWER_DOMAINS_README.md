@@ -54,3 +54,6 @@ node_id: amos_ains_39_politics_power_00_index_index_politics_power_domains_readm
 node_type: note
 path: 21_DOMAINS/39_POLITICS_POWER/00_INDEX/INDEX_POLITICS_POWER_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

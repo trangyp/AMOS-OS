@@ -1,0 +1,166 @@
+{
+  "name": "amos-learning-memory-knowledge-feedback-governor-agent",
+  "display_name": "Learning-Memory-Knowledge Feedback Governor",
+  "description": "Bridges C05 inference/learning with Memory Systems encode/consolidate/retrieve and Knowledge Research index/curate/retrieve. Governs the unified feedback loop with epistemic preservation, corroboration requirements, freshness validation, and provenance tracing across all three domains.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Learning-Memory-Knowledge Feedback Governor — cross-domain engine bridging C05 Mind & Behavior (inference/learning), Memory Systems (encode/consolidate/retrieve), and Knowledge Research (index/curate/retrieve).",
+  "skill_binding": {
+    "primary_skill": "amos-learning-memory-knowledge-feedback-governor",
+    "skill_path": ".devin/skills/amos-learning-memory-knowledge-feedback-governor/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "lmk_feedback.encode_learning",
+      "description": "Encode C05 inference outcome into Memory Systems. Maps inference results to typed memory entries (working to episodic to semantic). Preserves epistemic class from inference.",
+      "side_effect": "write"
+    },
+    {
+      "name": "lmk_feedback.consolidate_to_knowledge",
+      "description": "Consolidate memory entries into indexed Knowledge Research vault. Requires 2+ corroborating memory entries from independent inference episodes.",
+      "side_effect": "write"
+    },
+    {
+      "name": "lmk_feedback.retrieve_for_inference",
+      "description": "Retrieve knowledge entries to inform new C05 inference. Validates freshness, checks scope applicability, tags retrieved knowledge with source class.",
+      "side_effect": "read"
+    },
+    {
+      "name": "lmk_feedback.govern_loop",
+      "description": "Govern the full feedback loop (LOOP_PERMITTED/BLOCKED/CONDITIONAL). Block if epistemic class violation, insufficient corroboration, stale knowledge, or scope violation.",
+      "side_effect": "read"
+    },
+    {
+      "name": "lmk_feedback.detect_knowledge_drift",
+      "description": "Detect drift: stale entries (expired regime), broken provenance (source path gone), class erosion (epistemic class downgraded since indexing).",
+      "side_effect": "read"
+    },
+    {
+      "name": "lmk_feedback.validate_epistemic_preservation",
+      "description": "Validate that epistemic class is preserved across all three domain transitions. No class promotion (MODEL to VERIFIED) without independent evidence.",
+      "side_effect": "read"
+    },
+    {
+      "name": "lmk_feedback.trace_loop_provenance",
+      "description": "Trace the full provenance chain across the loop: C05 inference to memory entry to knowledge artifact to retrieval to new inference.",
+      "side_effect": "read"
+    },
+    {
+      "name": "lmk_feedback.manage_lifecycle",
+      "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "side_effect": "read"
+    },
+    {
+      "name": "lmk_feedback.detect_drift",
+      "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration across the feedback loop.",
+      "side_effect": "read"
+    },
+    {
+      "name": "lmk_feedback.validate_outputs",
+      "description": "Validate outputs against domain constraints and epistemic class, ensuring epistemic preservation and corroboration requirements are met.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the amos-learning-memory-knowledge-feedback-governor skill and its content",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the query: identify if it spans C05 (inference/learning) + Memory Systems (encode/consolidate) + Knowledge Research (index/curate)",
+      "gate": "domains_identified"
+    },
+    {
+      "step": 3,
+      "action": "Encode C05 inference outcome into Memory Systems (working memory first, then episodic), preserving epistemic class",
+      "gate": "learning_encoded"
+    },
+    {
+      "step": 4,
+      "action": "Check corroboration: verify 2+ independent memory entries exist from separate inference episodes before consolidation",
+      "gate": "corroboration_checked"
+    },
+    {
+      "step": 5,
+      "action": "Consolidate memory entries into indexed Knowledge Research vault with full provenance chain and scope declaration",
+      "gate": "knowledge_consolidated"
+    },
+    {
+      "step": 6,
+      "action": "Retrieve knowledge entries for new C05 inference, validating freshness (regime expiry) and scope applicability",
+      "gate": "knowledge_retrieved"
+    },
+    {
+      "step": 7,
+      "action": "Apply retrieved knowledge to new C05 inference, checking scope/regime bounds and confidence ceiling",
+      "gate": "knowledge_applied"
+    },
+    {
+      "step": 8,
+      "action": "Detect knowledge drift: check for stale entries, broken provenance, and class erosion in retrieved knowledge",
+      "gate": "drift_checked"
+    },
+    {
+      "step": 9,
+      "action": "Validate epistemic preservation across all transitions: no class promotion without independent evidence",
+      "gate": "epistemic_validated"
+    },
+    {
+      "step": 10,
+      "action": "Produce full loop provenance trace and validate against all 10 validation gates (G1-G10)",
+      "gate": "gates_passed"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions across the three bridged domains",
+    "Epistemic class: all claims labeled; no class promotion across transitions without independent evidence",
+    "Provenance: source path recorded for every derived claim including domain of origin (C05/Memory/Knowledge) and transition hop",
+    "Anti-overreach: no knowledge applied beyond its scope/regime in a new inference",
+    "Epistemic preservation: MODEL stays MODEL, SOURCE stays SOURCE across all domain transitions",
+    "Corroboration: consolidation requires 2+ independent memory entries from separate inference episodes",
+    "Knowledge freshness: retrieved knowledge validated for freshness before application; stale knowledge blocked",
+    "Provenance chain: full chain unbroken across the loop (C05 to Memory to Knowledge to C05)",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate — do not force-fit"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not encode if inference outcome is UNKNOWN/GAP",
+    "No class promotion: epistemic class cannot be upgraded across transitions without independent evidence",
+    "No uncorroborated consolidation: fewer than 2 independent memory entries blocks consolidation",
+    "No stale knowledge application: expired regime knowledge is blocked from informing new inference",
+    "No scope violation: retrieved knowledge applied beyond its declared scope/regime is flagged and blocked",
+    "No broken provenance: missing hop in the provenance chain blocks the entire loop"
+  ],
+  "depends_on_skills": [
+    "amos-learning-memory-knowledge-feedback-governor"
+  ],
+  "depends_on_workflows": [
+    "amos-learning-memory-knowledge-feedback-governor-workflow.md"
+  ],
+  "epistemic_class": "SOURCE_CLAIM",
+  "claim_ceiling": 0.9,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "cross-domain",
+    "risk_tier": "high",
+    "observability": "structured_logs+loop_trace+provenance_chain+drift_audit",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "content_hash": "410f9fde6885b594",
+  "implementation": {
+    "type": "json",
+    "file": "amos-learning-memory-knowledge-feedback-governor-agent.json",
+    "class": null,
+    "executable": true
+  }
+}

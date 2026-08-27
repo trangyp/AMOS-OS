@@ -56,3 +56,6 @@ node_id: amos_21_domains_21_c11_design_language_00_index_c11_design_language_map
 node_type: note
 path: 21_DOMAINS/21_C11_DESIGN_LANGUAGE/00_INDEX/C11_DESIGN_LANGUAGE_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

@@ -1,0 +1,16 @@
+---
+title: 00_INDEX MOC
+type: moc
+tags: [moc, 00-index]
+---
+
+# 00_INDEX — Map of Content
+
+## Files
+
+- [[INDEX_L05_BINDING_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L05_BINDING_MAP]]
+- [[PRIMITIVES_COGNITIVE_MATRIX_L05_BINDING_CONTRACT]]
+
+---
+**Parent:** [[L05_BINDING_MOC]]

@@ -51,3 +51,6 @@ node_id: cognitive_matrix_le_00_index_index_l_low_scale_scales_cognitive_matrix_
 node_type: note
 path: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE/00_INDEX/INDEX_L_LOW_SCALE_SCALES_COGNITIVE_MATRIX_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]

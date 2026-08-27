@@ -54,3 +54,6 @@ node_id: amos_ns_41_quantum_systems_00_index_index_quantum_systems_domains_readm
 node_type: note
 path: 21_DOMAINS/41_QUANTUM_SYSTEMS/00_INDEX/INDEX_QUANTUM_SYSTEMS_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_INDEX_MOC]]
