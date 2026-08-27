@@ -9,7 +9,7 @@ rscf:
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
+# INDEX CONTROL PLANE README
 
 ---
 artifact_id: AMOS-OS-CONTROL-PLANE-README

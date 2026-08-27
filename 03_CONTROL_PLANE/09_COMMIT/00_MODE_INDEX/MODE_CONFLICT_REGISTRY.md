@@ -9,7 +9,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
+# MODE CONFLICT REGISTRY
 
 `MODE_CONFLICT_REGISTRY.md` in Drive is also only the reservation placeholder; there is no substantive canonical implementation in that artifact to reproduce verbatim. 
 

@@ -9,6 +9,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
+# AMOS X UBI MATRIX
 
 The native UBI manual confirms the four-domain architecture—NBI, NEI, SI, and BEI—and explicitly describes them as interdependent biological systems with distinct functions and biological bases. It also directly binds UBI to `e = i²`, TSS, and TPE. 
 
@@ -3460,4 +3461,4 @@ i = f(NBI, NEI, SI, BEI)
 
 while `e = i²` **is present in the native UBI manual as a framework relationship**. The same source also explicitly connects UBI to TSS and TPE. 
 
-The Drive search independently located the dedicated `Unified Biological Intelligence™ (UBI) – Official.md` artifact and also surfaced UBI/NeuroSyncAI integration material; that latter material should remain separate provenance rather than being silently merged into the native UBI definition.  
+The Drive search independently located the dedicated `Unified Biological Intelligence™ (UBI) – Official.md` artifact and also surfaced UBI/NeuroSyncAI integration material; that latter material should remain separate provenance rather than being silently merged into the native UBI definition.

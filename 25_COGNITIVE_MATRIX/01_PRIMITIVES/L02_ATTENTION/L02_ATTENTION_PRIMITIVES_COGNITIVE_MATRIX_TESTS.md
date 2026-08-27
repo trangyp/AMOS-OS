@@ -9,7 +9,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
+# L02 ATTENTION PRIMITIVES COGNITIVE MATRIX TESTS
 
 The recovered L02 source currently provides only the placeholder role—**attention allocation / budgeting scarce reasoning-observation resources**—and explicitly requires tests/falsifiers before promotion; no canonical `TESTS.md` was recovered.  Therefore the test suite below is deliberately `AMOS_MODEL / UNEXECUTED`, not evidence that L02 is implemented or validated.
 

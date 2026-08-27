@@ -10,7 +10,7 @@ rscf:
   scope: AMOS_architecture
 
 ---
-
+# AMOS CORE V3 7 1 PROVENANCE TOPOLOGY HARDENED RUNTIME
 
 """
 AMOS_CORE v3 – Deterministic Reasoning Kernel (Clean Single-File Version)

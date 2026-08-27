@@ -9,7 +9,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
+# CONTROL PLANE CAPABILITY CONTRACT
 
 Yes. The placeholder should be replaced by a substantive contract. Below is a **full paste-ready `CAPABILITY_CONTRACT.md`**. It is intentionally classified as an **AMOS MODEL / proposed governed contract**, not falsely presented as already implemented or canonically validated.
 

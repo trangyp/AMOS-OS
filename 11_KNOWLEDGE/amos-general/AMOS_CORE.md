@@ -14,7 +14,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_architecture
 ---
-
+# AMOS CORE
 
 """
 AMOS_CORE v1.0

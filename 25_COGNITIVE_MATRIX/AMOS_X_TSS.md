@@ -9,6 +9,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
+# AMOS × TSS
 
 I found the native TSS/TPE source family in the connected Drive: a dedicated **TSS × TPE multidimensional strategic analysis** artifact, plus separate **TSS Official Manual** and **TPE Official Manual** sources.   
 
@@ -3687,4 +3688,4 @@ TPE source located
 direct TSS × TPE composite source located
 ````
 
-The Drive results also show duplicate/variant copies of at least the TPE and composite material, so **lineage reconciliation remains a real promotion gate rather than a cosmetic one**.    
+The Drive results also show duplicate/variant copies of at least the TPE and composite material, so **lineage reconciliation remains a real promotion gate rather than a cosmetic one**.

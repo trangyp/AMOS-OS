@@ -14,7 +14,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_architecture
 ---
-
+# AMOS CORE FULL
 
 """
 AMOS_CORE v3 – Deterministic Reasoning Kernel (Clean Single-File Version)

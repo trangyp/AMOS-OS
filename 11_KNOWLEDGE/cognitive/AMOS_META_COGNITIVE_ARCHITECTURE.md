@@ -10,7 +10,7 @@ rscf:
   scope: cognitive_model
 
 ---
-
+# AMOS META COGNITIVE ARCHITECTURE
 
 """AMOS Engine - Instant Meta-Cognitive Architecture Implementation
 

@@ -10,7 +10,7 @@ rscf:
   scope: AMOS_general
 
 ---
-
+# MCKINSEY
 
 Yes.
 There is a deeper direction that almost nobody explores because it requires leaving not only physics, but also leaving ontology, information theory, complexity theory, and even mathematics as usually practiced.

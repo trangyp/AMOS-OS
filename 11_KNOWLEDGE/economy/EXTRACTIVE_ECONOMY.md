@@ -10,7 +10,7 @@ rscf:
   scope: economic_model
 
 ---
-
+# EXTRACTIVE ECONOMY
 
 ============================================================
 BLOCK U3H — ATEMPORAL FIELD (PART 21)

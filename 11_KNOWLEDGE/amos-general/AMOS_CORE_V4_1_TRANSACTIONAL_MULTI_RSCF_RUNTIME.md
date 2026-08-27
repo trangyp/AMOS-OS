@@ -10,7 +10,7 @@ rscf:
   scope: AMOS_architecture
 
 ---
-
+# AMOS CORE V4 1 TRANSACTIONAL MULTI RSCF RUNTIME
 
 """
 AMOS_CORE v3 – Deterministic Reasoning Kernel (Clean Single-File Version)

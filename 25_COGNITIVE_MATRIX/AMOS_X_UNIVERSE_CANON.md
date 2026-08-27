@@ -12,6 +12,7 @@ rscf:
 tags: [note, 25-cognitive-matrix]
 canon-group: canon/cognitive-matrix
 ---
+# AMOS X UNIVERSE CANON
 
 The same **canon collision exists here**, and it is more fundamental than in the routing-table artifact.
 

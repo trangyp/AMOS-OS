@@ -14,7 +14,7 @@ rscf:
   provenance: AMOS_corpus
   scope: economic_model
 ---
-
+# INDUSTRIAL ECONOMY
 
 ============================================================
 BLOCK U3H — ATEMPORAL FIELD (PART 21)

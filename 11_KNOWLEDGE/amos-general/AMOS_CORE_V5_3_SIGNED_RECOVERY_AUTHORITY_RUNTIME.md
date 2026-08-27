@@ -10,7 +10,7 @@ rscf:
   scope: AMOS_architecture
 
 ---
-
+# AMOS CORE V5 3 SIGNED RECOVERY AUTHORITY RUNTIME
 
 """
 AMOS_CORE v3 – Deterministic Reasoning Kernel (Clean Single-File Version)

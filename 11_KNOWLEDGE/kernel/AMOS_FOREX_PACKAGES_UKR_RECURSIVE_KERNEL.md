@@ -10,7 +10,7 @@ rscf:
   scope: AMOS_knowledge
 
 ---
-
+# AMOS FOREX PACKAGES UKR RECURSIVE KERNEL
 
 """UKR recursive kernel – orchestrates the 17-stage pipeline.
 

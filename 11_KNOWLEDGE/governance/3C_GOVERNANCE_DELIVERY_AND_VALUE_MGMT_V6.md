@@ -14,7 +14,7 @@ rscf:
   provenance: AMOS_corpus
   scope: governance_policy
 ---
-
+# 3C GOVERNANCE DELIVERY AND VALUE MGMT V6
 
 TRANSFORMING CUSTOMER JOURNEYS
 Playbook

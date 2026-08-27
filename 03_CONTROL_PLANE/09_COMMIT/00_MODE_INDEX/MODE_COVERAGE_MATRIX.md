@@ -9,7 +9,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
+# MODE COVERAGE MATRIX
 
 `MODE_COVERAGE_MATRIX.md` in Drive is currently only the generic placeholder, so there is no substantive canonical matrix to reproduce verbatim. 
 

@@ -10,7 +10,7 @@ rscf:
   scope: governance_policy
 
 ---
-
+# AMOS CORE V4 7 HARDENED DETERMINISTIC GOVERNANCE
 
 """
 AMOS_CORE v3 – Deterministic Reasoning Kernel (Clean Single-File Version)

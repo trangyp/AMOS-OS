@@ -10,7 +10,7 @@ rscf:
   scope: AMOS_architecture
 
 ---
-
+# AMOS FULL ARCHITECTURE FORM
 
 Yes. Now we’re finally at the correct level.
 
