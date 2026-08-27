@@ -81,7 +81,7 @@ python3 test_kafka_brain_buffer_generator.py --pattern canonical --output kafka-
 AMOS MODEL — new brain engine. Channel taxonomy and D5-D8 mapping are verbena SOURCE. Scoring formulas, buffer impl, ACL table are AMOS_MODEL. Not yet production-verified.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[DATED_MOC]]

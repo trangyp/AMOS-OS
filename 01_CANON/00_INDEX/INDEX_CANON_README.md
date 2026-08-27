@@ -75,14 +75,14 @@ aliases:
   - AMOS Canonical Authority Layer
 
 related:
-  - "[[00_ROOT/README.md|AMOS OS]]"
-  - "[[00_ROOT/ARCHITECTURE.md|Architecture]]"
-  - "[[00_ROOT/SYSTEM_MAP.md|System Map]]"
-  - "[[00_ROOT/DEPENDENCY_MAP.md|Dependency Map]]"
-  - "[[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]]"
-  - "[[00_ROOT/00_ROOT_NAMING_STANDARD.md|Naming Standard]]"
-  - "[[00_ROOT/PLACEMENT_RULES.md|Placement Rules]]"
-  - "[[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]]"
+  - "[[README|AMOS OS]]"
+  - "[[ARCHITECTURE|Architecture]]"
+  - "[[SYSTEM_MAP|System Map]]"
+  - "[[DEPENDENCY_MAP|Dependency Map]]"
+  - "[[AUTHORITATIVE_STATE|Authoritative State]]"
+  - "[[00_ROOT_NAMING_STANDARD|Naming Standard]]"
+  - "[[PLACEMENT_RULES|Placement Rules]]"
+  - "[[CANON_MAP|Canon Map]]"
 ---
 
 # AMOS OS Canon
@@ -1729,7 +1729,7 @@ dependencies:
   - "SYSTEM_MAP"
   - "DEPENDENCY_MAP"
   - "AUTHORITATIVE_STATE"
-  - "[[00_ROOT/00_ROOT_NAMING_STANDARD.md]]"
+  - "[[00_ROOT_NAMING_STANDARD]]"
   - "PLACEMENT_RULES"
   - "CANON_MAP"
 
@@ -1858,17 +1858,17 @@ The third invariant is:
 
 ---
 
-**Related:** [[00_ROOT/README.md|AMOS OS]] · [[00_ROOT/00_ROOT_MOC.md|MOC]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/SYSTEM_MAP.md|System Map]] · [[00_ROOT/DEPENDENCY_MAP.md|Dependency Map]] · [[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]] · [[00_ROOT/00_ROOT_NAMING_STANDARD.md|Naming Standard]] · [[00_ROOT/PLACEMENT_RULES.md|Placement Rules]] · [[00_ROOT/ROADMAP.md|Roadmap]] · [[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|Kernel Map]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|Control Plane Map]] · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|Knowledge Architecture]] · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README.md|Research]] · [[24_ARCHIVE/00_LEGACY/LEGACY_ARCHIVE_README.md|Archive]]
+**Related:** [[README|AMOS OS]] · [[00_ROOT_MOC|MOC]] · [[ARCHITECTURE|Architecture]] · [[SYSTEM_MAP|System Map]] · [[DEPENDENCY_MAP|Dependency Map]] · [[AUTHORITATIVE_STATE|Authoritative State]] · [[00_ROOT_NAMING_STANDARD|Naming Standard]] · [[PLACEMENT_RULES|Placement Rules]] · [[ROADMAP|Roadmap]] · [[CANON_MAP|Canon Map]] · [[KERNEL_MAP|Kernel Map]] · [[CONTROL_PLANE_MAP|Control Plane Map]] · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|Knowledge Architecture]] · [[INDEX_RESEARCH_README|Research]] · [[LEGACY_ARCHIVE_README|Archive]]
 
 ```
 ```
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -1876,7 +1876,7 @@ node_id: index_canon_readme
 node_type: note
 path: 01_CANON/00_INDEX/INDEX_CANON_README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

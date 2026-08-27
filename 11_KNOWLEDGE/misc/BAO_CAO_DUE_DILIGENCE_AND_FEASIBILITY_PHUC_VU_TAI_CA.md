@@ -572,7 +572,7 @@ Bản chất vấn đề của doanh nghiệp **không nằm ở mô hình kinh 
 Trong bối cảnh đó, **tái cấu trúc vẫn là phương án khả thi và có cơ hội thành công** , nhưng **chỉ khi được triển khai đúng trình tự và trọng tâm**. Việc tái cấu trúc cần **bắt đầu từ kiểm soát chặt chẽ dòng tiền ngắn hạn và tái cơ cấu các nghĩa vụ nợ hiện hữu** , bao gồm kéo dài kỳ hạn, điều chỉnh điều kiện trả nợ và thiết lập lại kỷ luật tài chính.
 Ngược lại, **việc huy động thêm vốn ngắn hạn trong giai đoạn hiện tại không giải quyết được vấn đề cốt lõi** , thậm chí có thể làm gia tăng rủi ro hệ thống và đẩy doanh nghiệp tiến gần hơn tới ngưỡng mất khả năng thanh toán.
 **Tóm lại, doanh nghiệp chưa gãy, nhưng đang ở sát ngưỡng gãy. Tái cấu trúc có thể cứu được doanh nghiệp, nhưng chỉ thành công nếu được thực hiện như một bài toán kiểm soát dòng tiền và tái cấu trúc nợ, không phải bài toán huy động vốn ngắn hạn mới.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

@@ -297,7 +297,7 @@ Dashboard này là **công cụ ra quyết định ULF** :
 
 > Khi dòng tiền đã an toàn, tài sản sẽ tự động mở rộng theo sau.
 > Ngược lại, nếu cố mở rộng theo tài sản, tài sản sẽ kéo cả hệ thống xuống.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

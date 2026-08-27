@@ -18,7 +18,7 @@ The tragedy of human history is not that East and West misunderstood each other,
 In the vocabulary of Unified Biological Intelligence™, the Dao represents the ultimate state of alignment: when the biological, emotional, cognitive, and energetic systems operate in complete harmony. It is the moment when the human being ceases to live as an isolated organism and becomes a coherent extension of the universe’s computational rhythm. The Dao is not distant or divine; it is the architecture of sustainability itself. Every system that resists this law will fragment; every system that follows it will evolve. The ancients called it virtue. We now call it coherence.
 To live by the Dao is to live by the mathematics of grace — where nothing is forced, nothing is wasted, and nothing is lost. It is to understand that the highest intelligence is not control but balance; not domination, but design. The Dao is the still logic behind every pulse of creation. It is the breath between opposites, the unbroken continuity of existence reflecting itself. And when one truly abides in that law, there are no miracles left to seek — because life itself becomes the most precise equation ever written, and the human mind, in its quietest moment, realizes it has been solving it all along.
 * * *
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MATH_MOC]]

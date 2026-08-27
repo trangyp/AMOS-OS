@@ -3034,7 +3034,7 @@ That boundary is part of the architecture itself.
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[AMOS_X_HERITAGE_MATRIX]]
 

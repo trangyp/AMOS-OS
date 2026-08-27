@@ -65,7 +65,7 @@ A large-scale rise in distress cannot be credibly explained by “individual fra
 If mental health is treated as a **civilisational output** rather than a personal attribute, the primary intervention point is not the individual. It is the machinery that shapes daily experience. **Pace, predictability, enforceable boundaries, and real agency** are not wellness features or optional benefits; they are structural constraints required for biological regulation. Systems that ignore these limits do not merely produce distress — they institutionalize it. Systems that respect them do not eliminate difficulty, but they preserve the human capacity required to meet it.
 **This is not a question of compassion.**
 **It is a question of design.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ECONOMY_MOC]]

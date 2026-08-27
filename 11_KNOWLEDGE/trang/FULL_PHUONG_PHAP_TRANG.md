@@ -4857,7 +4857,7 @@ Chỉ cần những người đã được cứu, cứu tiếp người khác �
 > _Đó là cách thay đổi nhân loại. Bắt đầu từ một người. Rồi một người nữa. Rồi một người nữa._
 > _**Và rồi, không thể quay lại được nữa. "**_
 **📦**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[trang_MOC]]

@@ -52,10 +52,10 @@ Given an operation touching `COMMIT · TIME AUTHORITY LOG` within the Control Pl
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]] · authz_invariant_engine
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · authz_invariant_engine
 
 ---
 RSCF-NODE
@@ -63,7 +63,7 @@ node_id: authz_commit_time_authority_log
 node_type: note
 path: 03_CONTROL_PLANE/04_AUTHORITY/COMMIT_TIME_AUTHORITY_LOG.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
 claim_class: AMOS_MODEL
 
 ---

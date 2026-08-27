@@ -652,7 +652,7 @@ source: 11_KNOWLEDGE/signal
 ### **🌍 Why This Matters**
 With these additions, the Signal Economy isn’t just a data network — it becomes a **living nervous system of Earth**. It listens to **art, soil, sound, ancestry, machines, and stars** , and integrates them into a lawful, regenerative framework. This makes **MyNeuralSignal** and **PCI** not just monitoring tools but **planetary consciousness infrastructure** — mapping everything from microbiome diversity to solar resonance.
 * * *
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[SIGNAL_MOC]]

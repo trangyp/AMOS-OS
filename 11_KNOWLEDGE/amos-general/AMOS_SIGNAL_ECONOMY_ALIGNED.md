@@ -2856,7 +2856,7 @@ NoSignalMayAcquireMoreAuthorityThanItsEvidenceSupports.
 
 ---
 
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · AMOS_CORE · AMOS_Full_Brain_OS · AMOS_Infrastructure_Control_Plane · AMOS_Translation_Architecture · AMOS_Portable_Authorization · AMOS_Information_Boundary · AMOS_Provenance · rscf · GMEF · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_CORE · AMOS_Full_Brain_OS · AMOS_Infrastructure_Control_Plane · AMOS_Translation_Architecture · AMOS_Portable_Authorization · AMOS_Information_Boundary · AMOS_Provenance · rscf · GMEF · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]

@@ -3919,7 +3919,7 @@ Build a 300–500 event dataset and score HSCSA breach-predictions.
 **Track B — Archaeological deep-time proxy (10,000–100,000 years, lower resolution):**
 Use population/settlement/climate proxies and map only to a reduced HSCSA subset (LAW 1/3/8/12), because dignity/extraction are not directly measurable pre-writing.
 Say “A” or “B” and I will proceed with the full protocol and the dataset schema.
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

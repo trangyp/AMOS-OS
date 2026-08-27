@@ -256,7 +256,7 @@ Ethics that rely on goodwill fail at scale.
 Ethics that are not enforced are not ethics.
 Ethics that are not infrastructural are performative.
 **Ethical Intelligence™ requires ethics to be built into systems, incentives, contracts, and controls — or harm becomes inevitable and blame becomes policy.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

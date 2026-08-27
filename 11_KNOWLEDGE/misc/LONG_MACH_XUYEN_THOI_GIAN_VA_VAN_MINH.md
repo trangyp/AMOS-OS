@@ -2473,7 +2473,7 @@ Memory\ of\ a\ network-based\ survival\ civilization
 ]
 Trong cụm lành mạnh, nó tạo ấm áp và gắn kết.
 Trong cụm độc hại, nó tạo mơ hồ, nợ, hạ vai và kiểm soát.
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

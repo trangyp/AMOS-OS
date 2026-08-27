@@ -427,7 +427,7 @@ source: 11_KNOWLEDGE/fractal
 "domain": "cognition", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X04993", "equation": "x_{n+1}=f(x_n)", "type": "network", "scale": 82, "domain": "economics", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X04994", "equation": "x_{n+1}=f(x_n)", "type": "dynamic", "scale": 88, "domain": "math", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X04995", "equation": "x_{n+1}=f(x_n)", "type": "network", "scale": 81, "domain": "economics", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X04996", "equation": "x_{n+1}=f(x_n)", "type": "recursive", "scale": 81, "domain": "biology", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X04997", "equation": "x_{n+1}=f(x_n)", "type": "fractal", "scale": 84, "domain": "cognition", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X04998", "equation": "x_{n+1}=f(x_n)", "type": "recursive", "scale": 67, "domain": "biology", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X04999", "equation": "x_{n+1}=f(x_n)", "type": "network", "scale": 63, "domain": "math", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X05000", "equation": "x_{n+1}=f(x_n)", "type": "dynamic", "scale": 64, "domain": "cognition", "note": "expanded synthetic fractal-architecture mapping"}]}
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 ```
 
 ---

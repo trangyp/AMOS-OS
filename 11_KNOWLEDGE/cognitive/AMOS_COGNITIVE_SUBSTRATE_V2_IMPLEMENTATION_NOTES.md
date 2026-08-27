@@ -153,7 +153,7 @@ Memory retrieved is not current truth merely because it was retrieved. Epistemic
 - `2026-08-22 Cognitive Substrate Memory Graph` — Slice 3: `M_t` memory operation graph
 - `2026-08-22 Cognitive Substrate Interface Coupling` — Slice 4: interface coupling
 - `2026-08-22 The Complete Human System — Book Knowledge Base` — nested memory architecture framing
-- `[[AMOS_OBSIDIAN_MEMORY_BRIDGE]]` — vault as externalized memory layer
+- `AMOS_OBSIDIAN_MEMORY_BRIDGE` — vault as externalized memory layer
 
 ## 9. Post-implementation lessons
 

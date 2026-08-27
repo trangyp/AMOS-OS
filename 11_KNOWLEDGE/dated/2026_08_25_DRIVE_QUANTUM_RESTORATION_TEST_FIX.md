@@ -46,7 +46,7 @@ symbols preserved, bodies = NotImplementedError with restore instructions) + rea
 - The corrupted originals are overwritten in place (Drive cloud history retains prior versions).
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass15-corpus-depth]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-qfm-pass4-runtime-sync]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · 2026-08-25-qfm-pass15-corpus-depth · 2026-08-25-qfm-pass5-zero-empty · 2026-08-25-qfm-pass4-runtime-sync
 
 ---
 **MOC:** [[DATED_MOC]]

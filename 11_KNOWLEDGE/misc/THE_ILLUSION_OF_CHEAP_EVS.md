@@ -186,7 +186,7 @@ They are cheap because **someone else is paying for the hardest part of the syst
 The moment peak load is no longer hidden, “cheap” EVs stop being cheap — not gradually, but abruptly.
 Sustainable electrification does not depend on lower prices.
 It depends on **honest pricing of peak responsibility**.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

@@ -307,7 +307,7 @@ It closes gaps by **changing systems**.
 By designing a learning platform grounded in Aboriginal cognition, authority, and dignity, this project supports self-determination, cultural continuity, and genuine educational participation.
 It offers funders a **high-integrity, low-risk, community-led model** with lasting impact—one that aligns with national priorities while respecting the world’s oldest living cultures.
 * * *
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[learning_MOC]]

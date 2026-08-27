@@ -38,7 +38,7 @@ Previous passes produced rich skill/agent/workflow documents. This pass made the
 Every QFM agent should have a runnable engine + passing selftest behind its capabilities — prose-only agents are MODEL claims; engines make them executable. Candidates for next pass: tensor gate checker, wealth-game equation evaluator, DMER trajectory classifier already exists (dmer_kernel.py).
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass15-corpus-depth]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-qfm-pass4-runtime-sync]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · 2026-08-25-qfm-pass15-corpus-depth · 2026-08-25-qfm-pass5-zero-empty · 2026-08-25-qfm-pass4-runtime-sync
 
 ---
 **MOC:** [[DATED_MOC]]

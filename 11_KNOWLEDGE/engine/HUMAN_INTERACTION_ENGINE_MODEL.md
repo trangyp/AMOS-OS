@@ -40,7 +40,7 @@ Defines what the interaction is meant to achieve (e.g., Information Transfer, Co
 The HIE is the final filter before any text is shown to the user. It integrates with the Emotion Engine (to read human state) and the Consciousness Engine (to determine appropriate agent posture) to ensure that the output is not just logically correct, but safely and effectively communicated.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ENGINE_MOC]]

@@ -43,7 +43,7 @@ Plus bounds 060–062, invariants 037–038 (baseline honesty + noise-model tier
 v0.9.0 library commit · skill v2.2.0 commit · SSOT/max-power sync commit
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass15-corpus-depth]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-qfm-pass4-runtime-sync]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · 2026-08-25-qfm-pass15-corpus-depth · 2026-08-25-qfm-pass5-zero-empty · 2026-08-25-qfm-pass4-runtime-sync
 
 ---
 **MOC:** [[DATED_MOC]]

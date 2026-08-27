@@ -1928,10 +1928,10 @@ The decisive unresolved gap remains **who canonically owns L02 attention-state c
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -1939,7 +1939,7 @@ node_id: l02_attention_primitives_cognitive_matrix_control_planes
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_CONTROL_PLANES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

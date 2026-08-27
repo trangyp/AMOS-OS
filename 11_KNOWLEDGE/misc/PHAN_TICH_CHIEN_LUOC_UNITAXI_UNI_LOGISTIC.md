@@ -227,7 +227,7 @@ Hai pháp nhân này sẽ trở thành **xương sống vận hành** của hệ
 
 Nếu các yếu tố này được đảm bảo, UniPower sẽ trở thành **mô hình mẫu quốc gia về chuyển đổi giao thông xanh**.
 * * *
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

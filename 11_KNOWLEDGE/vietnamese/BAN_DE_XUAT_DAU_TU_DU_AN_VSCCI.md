@@ -191,7 +191,7 @@ Dự án VSCCI được định vị là một "Doanh nghiệp có tác động 
 ## 10\. VỊ THẾ CUỐI CÙNG (CONCLUSION)
 **VSCCI** không đơn thuần là một dự án bất động sản kho bãi hay một ứng dụng công nghệ thuần túy. Dự án là một kiến trúc hạ tầng thế hệ mới, vận hành bằng sự đồng thuận xã hội, có cấu trúc chống mong manh trước các biến động chính sách và thị trường.
 Bằng việc kết hợp chặt chẽ giữa tính minh bạch pháp lý đạt chuẩn kiểm toán quốc tế và năng lực tối ưu hóa của trí tuệ nhân tạo, VSCCI được định vị để trở thành mạng lưới hạ tầng lạnh đáng tin cậy nhất, đồng hành cùng sự hưng thịnh của nền kinh tế xuất khẩu Việt Nam trong thập kỷ tới.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

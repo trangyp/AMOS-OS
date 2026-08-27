@@ -690,7 +690,7 @@ The task is not to choose between ancient and modern. The task is to integrate: 
 That integration is the work of the next generation of human-centered research. This whitepaper is not the final word. It is the opening of a conversation that should have begun centuries ago.
 Let it begin now.
 > _**Ancient astrology is a symbolic operating system for reading human life: research system, design thinking framework, persona architecture, journey map, quality research, person-in-network model. It is not deterministic causal science. Final fractal equation: Living Human Map = Birth Time × Place × Body × Family × Culture × Environment × Cycles × Consciousness × Correction ÷ Entropy. Final principle: The chart is the first prototype, not a prison. Life is the iteration. Consciousness is the designer. Final humility: Our data systems are young (150 years). Astrology is ancient (4,000+ years). The wise student does not mistake youth for superiority.**_
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

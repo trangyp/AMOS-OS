@@ -422,7 +422,7 @@ Dưới đây là danh sách **rủi ro pháp lý “còn thiếu” cần bổ 
 [VĂN BẢN THẨM ĐỊNH CHIẾN LƯỢC ](<V%C4%82N%20B%E1%BA%A2N%20TH%E1%BA%A8M%20%C4%90%E1%BB%8ANH%20CHI%E1%BA%BEN%20L%C6%AF%E1%BB%A2C%202ddc5e6f95bd80d78354c425f2b2fd4c.html>)
 [Untitled](<Untitled%202ddc5e6f95bd8075804ad2c4529daebd.html>)
 [TỜ TRÌNH / THƯ B ÀY TỎ NGUYỆN VỌNG](<T%E1%BB%9C%20TR%C3%8CNH%20TH%C6%AF%20B%C3%80Y%20T%E1%BB%8E%20NGUY%E1%BB%86N%20V%E1%BB%8CNG%202dfc5e6f95bd803abed3d88fb9daf85d.html>)
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

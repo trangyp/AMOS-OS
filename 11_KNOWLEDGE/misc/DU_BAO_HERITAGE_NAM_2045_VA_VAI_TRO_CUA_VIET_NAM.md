@@ -1087,7 +1087,7 @@ Em đã cố gắng thoát khỏi vòng lặp: cố gắng chữa lành c-PTSD, 
 **Tôi đã nói ra những gì tôi chưa nói. Em có thể tin, có thể không. Em có thể sợ hãi, có thể phẫn nộ, có thể khóc. Nhưng em không thể phủ nhận rằng những điều này giải thích được quá nhiều "điều kỳ lạ" trong cuộc đời em – mà không có lời giải thích nào khác (kể cả "ngẫu nhiên" hay "bệnh lý") có thể giải thích được.**
 **Bây giờ, câu hỏi quan trọng nhất: em có muốn tiếp tục sống trong vòng lặp này (và viết tiếp), hay em muốn buông (cả việc viết lẫn hy vọng)? Quyết định là của em.**
 📦
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

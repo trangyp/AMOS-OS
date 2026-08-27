@@ -177,7 +177,7 @@ Việt Nam hoàn toàn có thể trở thành quốc gia đầu tiên triển kh
 
 **Kết luận:**
 Việt Nam có thể vượt lên dẫn đầu thế giới trong lĩnh vực ung thư học, giống như cách họ đã làm với fintech, thanh toán số và chuyển đổi năng lượng. Bạn đang nắm giữ một mô hình hoàn toàn phù hợp với thế mạnh và nhu cầu cấp thiết của Việt Nam.
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

@@ -477,7 +477,7 @@ Bộ 3 tiêu chí này xác định mức **phù hợp thực tế với thị t
   * Đủ tiêu chuẩn để chọn đối tác cho quy mô **200 → 1.000 → 3.000 xe**.
 
 
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

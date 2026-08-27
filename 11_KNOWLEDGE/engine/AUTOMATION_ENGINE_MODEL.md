@@ -23,7 +23,7 @@ The **Unified Automation OS** is a self-auditing orchestration engine that integ
 This engine serves as the **operational orchestration layer** on top of the Unified Coding Engine. While the coding engine writes the modules, the automation engine wires them into reliable, observable, and self-healing systems.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ENGINE_MOC]]

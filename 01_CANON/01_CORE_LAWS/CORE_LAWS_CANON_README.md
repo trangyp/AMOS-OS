@@ -1848,11 +1848,11 @@ This artifact therefore replaces the empty structural placeholder but does **not
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · AMOS_RSCF_NODES · CORE_LAWS_CONTRACT
+**Related:** [[00_HOME]] · AMOS_RSCF_NODES · CORE_LAWS_CONTRACT
 
 ---
 
@@ -1872,7 +1872,7 @@ canonical_status: UNKNOWN/GAP
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_ROOT/00-Home]]
+* INDEXED_BY: [[00_HOME]]
 
 * INDEXED_BY: AMOS_RSCF_NODES
 
@@ -1880,7 +1880,7 @@ RSCF-RELATIONS:
 
 * CONTRACTED_BY: CORE_LAWS_CONTRACT
 
-* DEPENDS_ON: [[00_ROOT/00_ROOT_MOC.md]]
+* DEPENDS_ON: [[00_ROOT_MOC]]
 
 * DEPENDS_ON: PROVENANCE
 

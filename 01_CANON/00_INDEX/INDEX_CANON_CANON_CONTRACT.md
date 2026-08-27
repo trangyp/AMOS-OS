@@ -2119,7 +2119,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 **Artifact status:** `PROPOSED_SPECIFICATION`
 **Structural status:** `COMPLETE_FOR_DECLARED_MODEL_SCOPE`
@@ -2129,7 +2129,7 @@ UNKNOWN/GAP != PASS
 **Origin architect / steward:** **Trang Phan**
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2137,7 +2137,7 @@ node_id: index_canon_canon_contract
 node_type: note
 path: 01_CANON/00_INDEX/INDEX_CANON_CANON_CONTRACT.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

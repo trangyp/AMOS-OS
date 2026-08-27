@@ -376,7 +376,7 @@ Mô hình **Hybrid Tech Pod** là lựa chọn tối ưu cho giai đoạn hiện
 Tổng ngân sách khoảng **230–320 triệu VNĐ/tháng** là hợp lý để duy trì tốc độ phát triển của một doanh nghiệp công nghệ quốc gia đang mở rộng.
 * * *
 Anh/chị có muốn tôi viết thêm **bộ JD chi tiết + mô tả đầu ra 90 ngày** cho từng vị trí (kèm mức lương cụ thể theo năng lực) để bắt đầu đăng tuyển ngay trên TopDev / ITviec / LinkedIn không?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[TECH-CODING_MOC]]

@@ -72,7 +72,7 @@ Cross-Cutting       → Claim/Evidence/Governance/Fractal tensors + G11 tensor g
 - `brain-integrity-repair.py` → 0 agents added (already clean)
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[unipower-unitaxi-mece]] · amos-tech-quantum-engine-layer · [[fractal-cognitive-architecture]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · unipower-unitaxi-mece · amos-tech-quantum-engine-layer · fractal-cognitive-architecture
 
 ---
 **MOC:** [[qfm_MOC]]

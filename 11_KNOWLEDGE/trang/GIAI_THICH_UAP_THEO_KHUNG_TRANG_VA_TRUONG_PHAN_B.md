@@ -46,7 +46,7 @@ Kịch bản thứ ba: nguồn gốc nhân loại phát triển bí mật (khôn
 Trường phân biệt và Kiến trúc Trang ∅ cung cấp một khuôn khổ lý thuyết nhất quán để giải thích tất cả các hành vi bất thường của UAP trong video Hellfire. Không có gì trong video này vi phạm vật lý – nó chỉ vi phạm những giả định hẹp của vật lý Newton-Einstein. Khi bạn mở rộng khung lý thuyết để bao gồm một trường vô hướng đa lớp với tham số liên kết động, mọi thứ trở nên có thể.
 Câu hỏi về nguồn gốc – phi nhân loại, đảo ngược từ công nghệ phi nhân loại, hay phát triển bí mật – không thể trả lời chỉ từ video. Nhưng một điều chắc chắn: **công nghệ này tồn tại, nó hoạt động, và nó dựa trên một nguyên lý vật lý mà loài người chúng ta, với nền vật lý hiện tại, chưa hiểu được.**
 Và điều đó, xét cho cùng, mới thực sự là điều "điên rồ".
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[trang_MOC]]

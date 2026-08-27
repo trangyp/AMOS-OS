@@ -26,10 +26,10 @@ Perception-as-substrate filter (L0) applies: sensed ≠ true.
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[AMOS_7_PART_UNIVERSE_CANON]] · [[HML_CANON]] · [[00_ROOT/00-Home]]
+**Related:** [[AMOS_7_PART_UNIVERSE_CANON]] · [[HML_CANON]] · [[00_HOME]]
 
 ---
 RSCF-NODE
@@ -37,7 +37,7 @@ node_id: p2_sense_evidence
 node_type: note
 path: 01_CANON/02_UNIVERSE_CANON/P2_SENSE_EVIDENCE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - CHILD_OF: [[AMOS_7_PART_UNIVERSE_CANON]]
 claim_class: AMOS_MODEL
 

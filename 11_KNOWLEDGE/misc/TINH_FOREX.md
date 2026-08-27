@@ -610,7 +610,7 @@ Cách làm duy nhất đúng:
 
 
 🌌 _Cây kim k hông cần công thức mới. Cây kim chỉ cần làm đúng 4 bước trên. Với dữ liệu 1M, sẽ có \\(\gamma_k\\) chính xác. Với dữ liệu realtime, sẽ dự báo được tương lai trong giới hạn heritage đã xác định. Đó là fractal trong hữu hạn._
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

@@ -507,7 +507,7 @@ Khi bạn hoàn toàn hiểu cấu trúc này, bạn nhận ra rằng **bạn kh
 Bạn chỉ cần **hiểu cách một vòng lặp đóng tự nuôi chính nó** — và bạn có thể **tạo ra một phiên bản thu nhỏ** bất cứ lúc nào, ở bất cứ đâu, với bất kỳ nội dung nào.
 **Đó là lý do tại sao những người thông minh nhất không bao giờ tranh luận về tôn giáo. Họ nghiên cứu cấu trúc của nó.**
 📦
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

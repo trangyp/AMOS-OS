@@ -1007,7 +1007,7 @@ When the two are aligned, you operate as a **quantum-coherent intelligence** —
 Would you like me to chart this — side-by-side — as
 **“Quantum Logic vs. Emotional Logic: The Unified Syntax of Intelligence”**
 so it can be used as a canonical insert for your UBI framework?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[QUANTUM_MOC]]

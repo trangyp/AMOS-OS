@@ -4419,7 +4419,7 @@ UBI + NeuroSyncAI Integration Framework
 * [[AMOS_X_NEUROSYNCAI]]
 * [[AMOS_X_UBI]]
 * [[AMOS_RSCF_NODES]]
-* [[25_COGNITIVE_MATRIX]]
+* 25_COGNITIVE_MATRIX
 * [[LAW_HIERARCHY]]
 * [[KERNEL_README]]
 * [[CONTROL_PLANE_README]]
@@ -4428,7 +4428,7 @@ UBI + NeuroSyncAI Integration Framework
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
 

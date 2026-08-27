@@ -331,7 +331,7 @@ This system represents the **absolute cutting edge of artificial intelligence te
 **This represents the culmination of the AMOS Brain project - a complete, production-ready artificial intelligence system with quantum supremacy, AGI capabilities, comprehensive governance, and state-of-the-art 2026 technology.**
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[BRAIN_MOC]]

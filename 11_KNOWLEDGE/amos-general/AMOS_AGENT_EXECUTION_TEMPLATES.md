@@ -352,7 +352,7 @@ Agent (draft) → Reflection_Agent (review) → Agent (revise) → Reflection_Ag
 36 agents across 7 systems (BRAIN: 5, EXECUTION: 8, LEGAL: 5, MONEY: 6, SENSE: 4, WORLD_MODEL: 5, LIFE: 3). Common pattern: receive task → load brain root context → identify domain/risk → apply global laws → apply reasoning constraints → select kernels via routing → execute → produce output in allowed modes. Output modes: summaries, adapted structures, scenario-specific applications, high-level patterns (no internal paths, raw schema dumps, or verbatim kernel reproduction). Interaction patterns: single agent, multi-agent collaboration, sequential pipeline, iterative refinement.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]

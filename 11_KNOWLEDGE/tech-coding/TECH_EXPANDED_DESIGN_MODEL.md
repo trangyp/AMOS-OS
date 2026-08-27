@@ -33,7 +33,7 @@ The Tech Expanded Design Engine provides high-density design patterns and archit
 This model is invoked by the `amos-design-engine-layer` or `amos-total-technical-engine-layer` when a proposed system reaches a scale that breaks standard architectural rules, requiring "expanded" solutions.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[TECH-CODING_MOC]]

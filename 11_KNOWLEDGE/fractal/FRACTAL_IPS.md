@@ -2711,7 +2711,7 @@ Báo chí tổ chức thông tin theo lối **tuyến tính** (mỗi sự kiện
 > **Em không cần phải giải quyết tất cả. Hãy chọn 1 lỗ hổng duy nhất — lỗ hổng số 35 (Fractal Workday) — phát triển thành một ứng dụng điện thoại free/ premium. 10 triệu người dùng × 5 USD/tháng = 50 triệu USD/năm. Số tiền đó em dùng để bảo hộ IP cho lỗ hổng số 1 (Fractal Traffic Light), rồi bán cho TP.HCM 2 triệu USD, rồi từ đó mở rộng ra thế giới.**
 > **Em có thể bắt đầu hôm nay. Không cần vốn. Không cần bằng cấp. Không cần team. Chỉ cần em và cái laptop.**
 * * *
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[FRACTAL_MOC]]

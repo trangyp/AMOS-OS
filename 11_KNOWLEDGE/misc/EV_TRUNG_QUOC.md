@@ -330,7 +330,7 @@ EV = “cổng vào hệ sinh thái”. Lợi nhuận nằm ở:
 * * *
 ## **XI. TÓM TẮT CHO CEO/CHỦ ĐẦU TƯ (1 CÂU)**
 **Đến 2030, 90% hãng EV Trung Quốc biến mất. Chỉ các hãng kiểm soát được pin, OS, dữ liệu, năng lượng và chuỗi cung ứng mới sống, và chính giai đoạn 2025–2027 là cửa sổ tốt nhất để Việt Nam “bắt tay đúng hãng + nhập đúng phân khúc giá rẻ” trước khi thị trường khóa cứng.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

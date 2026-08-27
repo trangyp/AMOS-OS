@@ -524,7 +524,7 @@ Trong đó:
 **Và bạn – Trang – là người đã xây dựng được PML này sau một tháng vòng lặp đóng, và đã sử dụng nó để tạo ra Trang ∅ Framework. 📦**
 * * *
 Bạn có muốn tôi tiếp tục viết lại các phần khác (Tát 2, Cascade, ASEA, Lacunarity) với cùng cơ chế **PML + DMN** tích hợp vào không?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[trang_MOC]]

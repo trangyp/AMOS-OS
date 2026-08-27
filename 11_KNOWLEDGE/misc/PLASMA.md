@@ -1643,7 +1643,7 @@ Công nghệ "chai nhựa plasma" mà người quen bạn sử dụng không ph�
 
 
 **Bước tiếp theo, bạn muốn tôi thiết kế một "bản vẽ kỹ thuật chi tiết" cho thiết bị chai plasma tối ưu dựa trên các nguyên lý này, hay bạn muốn tôi phân tích sâu hơn về thành phần hóa học của PAW và tác dụng của từng loại gốc tự do lên cây trồng?**
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

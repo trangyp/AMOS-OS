@@ -193,7 +193,7 @@ Bên cạnh đó, trong quá trình đánh giá hiệu quả công việc, việ
 Điều này dẫn đến tình trạng đội ngũ đã **hoàn thành đầy đủ những gì được giao và được yêu cầu trong từng thời điểm** , nhưng kết quả ghi nhận lại không phản ánh đầy đủ tổng thể đóng góp. Việc đánh giá dựa trên các chỉ số không ổn định hoặc không được thống nhất từ đầu không chỉ ảnh hưởng đến cá nhân, mà còn tác động trực tiếp đến tinh thần, động lực và sự gắn kết của đội ngũ triển khai.
 Từ góc độ quản trị nhân sự và phát triển tổ chức, việc **không ghi nhận đầy đủ nỗ lực và kết quả của đội ngũ** , đặc biệt trong giai đoạn khởi tạo khi nguồn lực hạn chế và áp lực cao, có thể tạo ra các hệ quả dài hạn như giảm động lực làm việc, suy giảm niềm tin vào hệ thống đánh giá, và làm gia tăng nguy cơ mất nhân sự có năng lực. Đây là rủi ro cần được nhìn nhận nghiêm túc ở cấp quản trị, bởi nó ảnh hưởng trực tiếp đến khả năng thu hút, giữ chân và phát huy đội ngũ trong các giai đoạn phát triển tiếp theo.
 Do đó, việc xem xét lại cách t hức ghi nhận, đánh giá và phản hồi đối với nỗ lực của đội ngũ là cần thiết, không chỉ để đảm bảo công bằng trong đánh giá nội bộ, mà còn để xây dựng một môi trường làm việc tôn trọng giá trị lao động, khuyến khích tinh thần chủ động và tạo nền tảng cho hiệu quả triển khai bền vững.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

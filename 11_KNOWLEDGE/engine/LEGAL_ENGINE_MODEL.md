@@ -32,7 +32,7 @@ Key variables that shape the legal strategy:
 The engine routes based on matter type to focus on specific clusters (e.g., contentious matters focus on Disputes & Litigation, International Arbitration, and prioritize the fact pattern and enforcement layers).
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ENGINE_MOC]]

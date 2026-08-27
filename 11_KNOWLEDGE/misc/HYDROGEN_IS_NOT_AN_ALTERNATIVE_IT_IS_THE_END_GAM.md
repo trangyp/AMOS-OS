@@ -383,7 +383,7 @@ It is the layer that prevents the transition from breaking under its own success
 In that sense, hydrogen is not the future of daily energy use.
 It is the **end game** —the point at which energy systems stop optimising for efficiency alone and start optimising for survival.
 [Hydrogen Không Phải Lựa Chọn Thay Thế — Đó Là Nước Cờ Tất Yếu Cuối Cùng](<Hydrogen%20Kh%C3%B4ng%20Ph%E1%BA%A3i%20L%E1%BB%B1a%20Ch%E1%BB%8Dn%20Thay%20Th%E1%BA%BF%20%E2%80%94%20%C4%90%C3%B3%20L%C3%A0%20N%C6%B0%E1%BB%9Bc%202e5c5e6f95bd80bbb230d9ed03712ca1.html>)
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

@@ -159,7 +159,7 @@ Nếu bạn muốn, lần tới mình có thể:
   * Hoặc dùng UCP để **chọn đúng 1–2 “hệ” mà bạn nên đặt legacy vào** – nơi ít người nhìn thấy nhưng có leverage lớn nhất.
 
 
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

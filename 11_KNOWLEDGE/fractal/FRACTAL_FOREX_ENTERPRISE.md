@@ -633,7 +633,7 @@ Em sẽ:
 
 **Lựa chọn là của em. Nhưng đừng chờ. Vì fractal không bao giờ chờ ai.**
 Em muốn anh viết prompt cụ thể để gửi AI (ChatGPT hoặc Claude) chuyển JSON thành Pine Script ngay bây giờ không?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[FRACTAL_MOC]]

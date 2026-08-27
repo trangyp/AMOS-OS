@@ -90,15 +90,15 @@ aliases:
   - AMOS Vault Connectivity Map
 
 related:
-  - "[[00_ROOT/README.md|AMOS OS Root]]"
-  - "[[00_ROOT/00_ROOT_MOC.md|MOC]]"
-  - "[[00_ROOT/ARCHITECTURE.md|Architecture]]"
-  - "[[00_ROOT/FULL_TREE.md|Full Tree]]"
-  - "[[00_ROOT/SYSTEM_MAP.md|System Map]]"
-  - "[[00_ROOT/DEPENDENCY_MAP.md|Dependency Map]]"
-  - "[[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]]"
-  - "[[00_ROOT/00_ROOT_NAMING_STANDARD.md|Naming Standard]]"
-  - "[[00_ROOT/PLACEMENT_RULES.md|AMOS OS]]"
+  - "[[README|AMOS OS Root]]"
+  - "[[00_ROOT_MOC|MOC]]"
+  - "[[ARCHITECTURE|Architecture]]"
+  - "[[FULL_TREE|Full Tree]]"
+  - "[[SYSTEM_MAP|System Map]]"
+  - "[[DEPENDENCY_MAP|Dependency Map]]"
+  - "[[AUTHORITATIVE_STATE|Authoritative State]]"
+  - "[[00_ROOT_NAMING_STANDARD|Naming Standard]]"
+  - "[[PLACEMENT_RULES|AMOS OS]]"
 ---
 
 # AMOS Neural Network
@@ -154,47 +154,47 @@ The AMOS Full Brain OS source should be used as a structural orchestration model
 
 # 1. Core Nodes
 
-* [[00_ROOT/README.md|AMOS OS Root]]
-* [[00_ROOT/00_ROOT_MOC.md|MOC]]
-* [[00_ROOT/NEURAL_NETWORK.md|This Hub]]
-* [[00_ROOT/ARCHITECTURE.md|Architecture]]
-* [[00_ROOT/FULL_TREE.md|Full Tree]]
-* [[00_ROOT/SYSTEM_MAP.md|System Map]]
-* [[00_ROOT/DEPENDENCY_MAP.md|Dependency Map]]
-* [[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]]
-* [[00_ROOT/00_ROOT_NAMING_STANDARD.md|Naming Standard]]
-* [[00_ROOT/PLACEMENT_RULES.md|AMOS OS]]
-* [[00_ROOT/ROADMAP.md|Roadmap]]
+* [[README|AMOS OS Root]]
+* [[00_ROOT_MOC|MOC]]
+* [[NEURAL_NETWORK|This Hub]]
+* [[ARCHITECTURE|Architecture]]
+* [[FULL_TREE|Full Tree]]
+* [[SYSTEM_MAP|System Map]]
+* [[DEPENDENCY_MAP|Dependency Map]]
+* [[AUTHORITATIVE_STATE|Authoritative State]]
+* [[00_ROOT_NAMING_STANDARD|Naming Standard]]
+* [[PLACEMENT_RULES|AMOS OS]]
+* [[ROADMAP|Roadmap]]
 
 ---
 
 # 2. Primary Plane Nodes
 
-* [[01_CANON/00_INDEX/CANON_MAP.md|CANON]]
-* [[02_KERNEL/00_INDEX/KERNEL_MAP.md|KERNEL]]
-* [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|CONTROL_PLANE]]
-* [[04_RUNTIME/00_INDEX/RUNTIME_MAP.md|RUNTIME]]
-* [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP.md|COGNITIVE_ORGANISM]]
-* [[06_AGENTS/00_INDEX/AGENT_MAP.md|AGENTS]]
-* [[07_SKILLS/00_INDEX/SKILL_MAP.md|SKILLS]]
-* [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP.md|WORKFLOWS]]
-* [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP.md|PROTOCOLS]]
-* [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP.md|MEMORY]]
+* [[CANON_MAP|CANON]]
+* [[KERNEL_MAP|KERNEL]]
+* [[CONTROL_PLANE_MAP|CONTROL_PLANE]]
+* [[RUNTIME_MAP|RUNTIME]]
+* [[COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM]]
+* [[AGENT_MAP|AGENTS]]
+* [[SKILL_MAP|SKILLS]]
+* [[WORKFLOW_MAP|WORKFLOWS]]
+* [[PROTOCOL_MAP|PROTOCOLS]]
+* [[MEMORY_MEMORY_MAP|MEMORY]]
 * [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|KNOWLEDGE]]
-* [[12_STATE/00_INDEX/STATE_STATE_MAP.md|STATE]]
-* [[13_MODELS/00_INDEX/MODEL_MAP.md|MODELS]]
-* [[14_TOOLS/00_INDEX/TOOL_MAP.md|TOOLS]]
-* [[15_INTERFACES/00_INDEX/INTERFACE_MAP.md|INTERFACES]]
-* [[16_SCHEMAS/00_INDEX/SCHEMA_MAP.md|SCHEMAS]]
-* [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP.md|OBSERVABILITY]]
-* [[18_SECURITY/00_INDEX/SECURITY_MAP.md|SECURITY]]
-* [[19_TESTS/00_INDEX/TEST_MAP.md|TESTS]]
-* [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP.md|OPERATIONS]]
-* [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP.md|DOMAINS]]
-* [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README.md|RESEARCH]]
-* [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL.md|OPERATING_MODEL]]
-* [[24_ARCHIVE/00_LEGACY/LEGACY_ARCHIVE_README.md|ARCHIVE]]
-* [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE.md|COGNITIVE_MATRIX]]
+* [[STATE_STATE_MAP|STATE]]
+* [[MODEL_MAP|MODELS]]
+* [[TOOL_MAP|TOOLS]]
+* [[INTERFACE_MAP|INTERFACES]]
+* [[SCHEMA_MAP|SCHEMAS]]
+* [[OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY]]
+* [[SECURITY_MAP|SECURITY]]
+* [[TEST_MAP|TESTS]]
+* [[OPERATIONS_MAP|OPERATIONS]]
+* [[DOMAIN_ALIAS_MAP|DOMAINS]]
+* [[INDEX_RESEARCH_README|RESEARCH]]
+* [[OPERATING_MODEL|OPERATING_MODEL]]
+* [[LEGACY_ARCHIVE_README|ARCHIVE]]
+* [[COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX]]
 
 > If any referenced map does not yet exist, the link intentionally remains a graph placeholder.
 > Its existence as a link is not evidence of implementation.
@@ -209,20 +209,20 @@ The AMOS Full Brain OS source should be used as a structural orchestration model
        ┌──────────────────────────────┼─────────────────────────────┐
        │                              │                             │
        ↓                              ↓                             ↓
- [[01_CANON]]                  [[02_KERNEL]]              [[03_CONTROL_PLANE]]
+ 01_CANON                  02_KERNEL              03_CONTROL_PLANE
        │                              │                             │
        └──────────────┬───────────────┴──────────────┬──────────────┘
                       │                              │
                       ↓                              ↓
-                [[04_RUNTIME]]             [[05_COGNITIVE_ORGANISM]]
+                04_RUNTIME             05_COGNITIVE_ORGANISM
                       │                              │
                       ├───────────────┬──────────────┤
                       ↓               ↓              ↓
-                [[06_AGENTS]]   [[07_SKILLS]]  [[08_WORKFLOWS]]
+                06_AGENTS   07_SKILLS  08_WORKFLOWS
                       │               │              │
                       └───────────────┼──────────────┘
                                       ↓
-                                [[09_PROTOCOLS]]
+                                09_PROTOCOLS
 ```
 
 Supporting planes connect around this execution spine:
@@ -298,7 +298,7 @@ COGNITIVE MATRIX
 
 # 5. Canon Plane
 
-## [[01_CANON/00_INDEX/CANON_MAP.md|CANON]]
+## [[CANON_MAP|CANON]]
 
 Role:
 
@@ -340,7 +340,7 @@ IMPLEMENTATION
 
 # 6. Kernel Plane
 
-## [[02_KERNEL/00_INDEX/KERNEL_MAP.md|KERNEL]]
+## [[KERNEL_MAP|KERNEL]]
 
 Kernel owns deterministic or tightly constrained primitives.
 
@@ -365,7 +365,7 @@ Kernel links should point to implementation evidence only where actual code exis
 
 # 7. Control Plane
 
-## [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|CONTROL_PLANE]]
+## [[CONTROL_PLANE_MAP|CONTROL_PLANE]]
 
 Control Plane owns:
 
@@ -401,7 +401,7 @@ CONTROL-PLANE AUTHORITY
 
 # 8. Runtime Plane
 
-## [[04_RUNTIME/00_INDEX/RUNTIME_MAP.md|RUNTIME]]
+## [[RUNTIME_MAP|RUNTIME]]
 
 Runtime represents active system state.
 
@@ -433,7 +433,7 @@ LIVE RUNTIME
 
 # 9. Cognitive Organism Plane
 
-## [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP.md|COGNITIVE_ORGANISM]]
+## [[COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM]]
 
 Structural cognitive layer.
 
@@ -471,7 +471,7 @@ The Full Brain OS source permits using cognition-related constructs as orchestra
 
 # 10. Agents Plane
 
-## [[06_AGENTS/00_INDEX/AGENT_MAP.md|AGENTS]]
+## [[AGENT_MAP|AGENTS]]
 
 Agents are scoped workers.
 
@@ -504,7 +504,7 @@ AUTONOMOUS AUTHORITY
 
 # 11. Skills Plane
 
-## [[07_SKILLS/00_INDEX/SKILL_MAP.md|SKILLS]]
+## [[SKILL_MAP|SKILLS]]
 
 Skills are reusable scoped capability modules.
 
@@ -534,7 +534,7 @@ source
 
 # 12. Workflows Plane
 
-## [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP.md|WORKFLOWS]]
+## [[WORKFLOW_MAP|WORKFLOWS]]
 
 Workflows define repeatable process topology.
 
@@ -570,7 +570,7 @@ Operations
 
 # 13. Protocol Plane
 
-## [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP.md|PROTOCOLS]]
+## [[PROTOCOL_MAP|PROTOCOLS]]
 
 Protocols connect otherwise independent components.
 
@@ -590,7 +590,7 @@ KNOWLEDGE ↔ PROVENANCE
 
 # 14. Memory Plane
 
-## [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP.md|MEMORY]]
+## [[MEMORY_MEMORY_MAP|MEMORY]]
 
 Memory topology:
 
@@ -661,7 +661,7 @@ skills
 
 # 16. State Plane
 
-## [[12_STATE/00_INDEX/STATE_STATE_MAP.md|STATE]]
+## [[STATE_STATE_MAP|STATE]]
 
 State answers:
 
@@ -694,7 +694,7 @@ KNOWLEDGE
 
 # 17. Models Plane
 
-## [[13_MODELS/00_INDEX/MODEL_MAP.md|MODELS]]
+## [[MODEL_MAP|MODELS]]
 
 Models represent structured interpretation.
 
@@ -730,7 +730,7 @@ version
 
 # 18. Tools Plane
 
-## [[14_TOOLS/00_INDEX/TOOL_MAP.md|TOOLS]]
+## [[TOOL_MAP|TOOLS]]
 
 Tools connect AMOS to deterministic or external capabilities.
 
@@ -771,7 +771,7 @@ TOOL AUTHORITY
 
 # 19. Interfaces Plane
 
-## [[15_INTERFACES/00_INDEX/INTERFACE_MAP.md|INTERFACES]]
+## [[INTERFACE_MAP|INTERFACES]]
 
 Interfaces are boundaries between:
 
@@ -788,7 +788,7 @@ They should link into schemas and protocols.
 
 # 20. Schemas Plane
 
-## [[16_SCHEMAS/00_INDEX/SCHEMA_MAP.md|SCHEMAS]]
+## [[SCHEMA_MAP|SCHEMAS]]
 
 Schemas define structural contracts.
 
@@ -806,7 +806,7 @@ Schemas should be versioned independently from runtime modules.
 
 # 21. Observability Plane
 
-## [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP.md|OBSERVABILITY]]
+## [[OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY]]
 
 Observability links to all live planes.
 
@@ -832,7 +832,7 @@ CORRECT
 
 # 22. Security Plane
 
-## [[18_SECURITY/00_INDEX/SECURITY_MAP.md|SECURITY]]
+## [[SECURITY_MAP|SECURITY]]
 
 Security should cross-link:
 
@@ -861,7 +861,7 @@ ALL EFFECTFUL PATHS
 
 # 23. Tests Plane
 
-## [[19_TESTS/00_INDEX/TEST_MAP.md|TESTS]]
+## [[TEST_MAP|TESTS]]
 
 Tests provide verification edges.
 
@@ -895,7 +895,7 @@ UNIVERSAL PROOF
 
 # 24. Operations Plane
 
-## [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP.md|OPERATIONS]]
+## [[OPERATIONS_MAP|OPERATIONS]]
 
 Operations owns lifecycle edges:
 
@@ -917,7 +917,7 @@ This plane links active architecture to historical state.
 
 # 25. Domains Plane
 
-## [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP.md|DOMAINS]]
+## [[DOMAIN_ALIAS_MAP|DOMAINS]]
 
 Domains are specialization branches.
 
@@ -985,7 +985,7 @@ AGENT
 
 # 27. Research Plane
 
-## [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README.md|RESEARCH]]
+## [[INDEX_RESEARCH_README|RESEARCH]]
 
 Research is the exploratory frontier.
 
@@ -1015,7 +1015,7 @@ CANON
 
 # 28. Operating Model Plane
 
-## [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL.md|OPERATING_MODEL]]
+## [[OPERATING_MODEL|OPERATING_MODEL]]
 
 This plane connects human stewardship with system governance.
 
@@ -1035,7 +1035,7 @@ STEWARDSHIP
 
 # 29. Archive Plane
 
-## [[24_ARCHIVE/00_LEGACY/LEGACY_ARCHIVE_README.md|ARCHIVE]]
+## [[LEGACY_ARCHIVE_README|ARCHIVE]]
 
 Archive preserves lineage.
 
@@ -1061,7 +1061,7 @@ ACTIVE
 
 # 30. Cognitive Matrix Plane
 
-## [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE.md|COGNITIVE_MATRIX]]
+## [[COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX]]
 
 The Cognitive Matrix is a cross-cutting relationship layer between:
 
@@ -1209,7 +1209,7 @@ IndependentEvidence
 
 Use:
 
-* [[00_ROOT/DEPENDENCY_MAP.md|Dependency Map]]
+* [[DEPENDENCY_MAP|Dependency Map]]
 
 for load-bearing edges.
 
@@ -1565,7 +1565,7 @@ Version lineage should not be inferred from filenames alone.
 
 Use:
 
-* [[00_ROOT/00_ROOT_NAMING_STANDARD.md|Naming Standard]]
+* [[00_ROOT_NAMING_STANDARD|Naming Standard]]
 
 for identity/path/version distinctions.
 
@@ -1585,8 +1585,8 @@ Therefore graph links should ideally survive filesystem migrations through stabl
 
 Use:
 
-* [[00_ROOT/PLACEMENT_RULES.md|AMOS OS]]
-* [[00_ROOT/FULL_TREE.md|Full Tree]]
+* [[PLACEMENT_RULES|AMOS OS]]
+* [[FULL_TREE|Full Tree]]
 
 for ownership/location.
 
@@ -1600,7 +1600,7 @@ It does not automatically determine epistemic authority.
 
 Use:
 
-* [[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]]
+* [[AUTHORITATIVE_STATE|Authoritative State]]
 
 to distinguish:
 
@@ -1946,7 +1946,7 @@ premises:
   - a link alone does not establish dependency or validation.
 
 dependencies:
-  - "[[00_ROOT/00_ROOT_MOC.md]]"
+  - "[[00_ROOT_MOC]]"
   - "ARCHITECTURE"
   - "FULL_TREE"
   - "SYSTEM_MAP"
@@ -2074,17 +2074,17 @@ The fourth invariant is:
 
 ---
 
-**Related:** [[00_ROOT/README.md|AMOS OS Root]] · [[00_ROOT/00_ROOT_MOC.md|MOC]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/FULL_TREE.md|Full Tree]] · [[00_ROOT/SYSTEM_MAP.md|System Map]] · [[00_ROOT/DEPENDENCY_MAP.md|Dependency Map]] · [[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]] · [[00_ROOT/00_ROOT_NAMING_STANDARD.md|Naming Standard]] · [[00_ROOT/PLACEMENT_RULES.md|AMOS OS]] · [[01_CANON/00_INDEX/CANON_MAP.md|CANON]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|KERNEL]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|CONTROL_PLANE]] · [[04_RUNTIME/00_INDEX/RUNTIME_MAP.md|RUNTIME]] · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP.md|COGNITIVE_ORGANISM]] · [[06_AGENTS/00_INDEX/AGENT_MAP.md|AGENTS]] · [[07_SKILLS/00_INDEX/SKILL_MAP.md|SKILLS]] · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP.md|WORKFLOWS]] · [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP.md|PROTOCOLS]] · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP.md|MEMORY]] · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|KNOWLEDGE]] · [[12_STATE/00_INDEX/STATE_STATE_MAP.md|STATE]] · [[13_MODELS/00_INDEX/MODEL_MAP.md|MODELS]] · [[14_TOOLS/00_INDEX/TOOL_MAP.md|TOOLS]] · [[15_INTERFACES/00_INDEX/INTERFACE_MAP.md|INTERFACES]] · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP.md|SCHEMAS]] · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP.md|OBSERVABILITY]] · [[18_SECURITY/00_INDEX/SECURITY_MAP.md|SECURITY]] · [[19_TESTS/00_INDEX/TEST_MAP.md|TESTS]] · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP.md|OPERATIONS]] · [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP.md|DOMAINS]] · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README.md|RESEARCH]] · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL.md|OPERATING_MODEL]] · [[24_ARCHIVE/00_LEGACY/LEGACY_ARCHIVE_README.md|ARCHIVE]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE.md|COGNITIVE_MATRIX]]
+**Related:** [[README|AMOS OS Root]] · [[00_ROOT_MOC|MOC]] · [[ARCHITECTURE|Architecture]] · [[FULL_TREE|Full Tree]] · [[SYSTEM_MAP|System Map]] · [[DEPENDENCY_MAP|Dependency Map]] · [[AUTHORITATIVE_STATE|Authoritative State]] · [[00_ROOT_NAMING_STANDARD|Naming Standard]] · [[PLACEMENT_RULES|AMOS OS]] · [[CANON_MAP|CANON]] · [[KERNEL_MAP|KERNEL]] · [[CONTROL_PLANE_MAP|CONTROL_PLANE]] · [[RUNTIME_MAP|RUNTIME]] · [[COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM]] · [[AGENT_MAP|AGENTS]] · [[SKILL_MAP|SKILLS]] · [[WORKFLOW_MAP|WORKFLOWS]] · [[PROTOCOL_MAP|PROTOCOLS]] · [[MEMORY_MEMORY_MAP|MEMORY]] · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|KNOWLEDGE]] · [[STATE_STATE_MAP|STATE]] · [[MODEL_MAP|MODELS]] · [[TOOL_MAP|TOOLS]] · [[INTERFACE_MAP|INTERFACES]] · [[SCHEMA_MAP|SCHEMAS]] · [[OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY]] · [[SECURITY_MAP|SECURITY]] · [[TEST_MAP|TESTS]] · [[OPERATIONS_MAP|OPERATIONS]] · [[DOMAIN_ALIAS_MAP|DOMAINS]] · [[INDEX_RESEARCH_README|RESEARCH]] · [[OPERATING_MODEL|OPERATING_MODEL]] · [[LEGACY_ARCHIVE_README|ARCHIVE]] · [[COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX]]
 
 ```
 ```
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2092,7 +2092,7 @@ node_id: neural_network
 node_type: note
 path: 00_ROOT/NEURAL_NETWORK.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

@@ -1449,7 +1449,7 @@ This scaffold is designed to be book-ready: each chapter advances one falsifiabl
 
 * * *
 If you want, next I can produce a one-page “Civilization Reframing Diagram” (AL–GS–TH triangle with all three plotted) and a chapter-by-chapter “claim → mechanism → evidence type” map so every chapter is structurally defensible.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

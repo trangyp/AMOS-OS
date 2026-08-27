@@ -414,7 +414,7 @@ When the human brain interprets the world, it is not creating illusion — it is
 **Matter is thought stabilised; thought is matter reconfigured.**
 This framework offers not only a unified science but a new ethics of understanding — one grounded in logical integrity rather than belief. It suggests that clarity, empathy, and reason are not just virtues but structural necessities of a stable universe. To think with precision is to align with the order that sustains all things. Einstein once sought “a theory so simple that God Himself could not have made it otherwise.” QLS proposes that such simplicity already exists — not in equations alone, but in the law that binds all logic together:
 > **Existence endures because it cannot contradict itself.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[LOGIC_MOC]]

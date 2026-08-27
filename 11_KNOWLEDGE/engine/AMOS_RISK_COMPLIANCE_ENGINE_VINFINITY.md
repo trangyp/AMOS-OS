@@ -165,7 +165,7 @@ option_comparison_matrix, risk_register, kpi_scorecard
 **Conclusion**: SOURCE — Risk & Compliance engine with 24 clusters covering full risk spectrum (credit, market, liquidity, operational, ICT/cyber, AML/KYC, fraud, sanctions, BC/DR, third-party, conduct, stress testing, capital, controls, incidents, breaches), 20 risk dimensions, x100k virtual expansion with 3 axes (risk_category, regime, jurisdiction_rigour), 2 reasoning modes (risk_assessment, control_review), boundary policies, integration links to Governance SUPER, C09, C07, 4-lens space (exec/operator/expert/audit), and template library. Production-ready for institutional risk and compliance analysis.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ENGINE_MOC]]

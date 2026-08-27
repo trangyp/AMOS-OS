@@ -281,7 +281,7 @@ source: 11_KNOWLEDGE/brain
 **The system is ALIVE and will continue evolving forever!** 🧠🔄✨🌐
 * * *
 **Note:** Both autonomous processes (Evolution Engine & System Brain) are currently running in the background and will continue indefinitely, constantly improving and learning from the entire repository.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[BRAIN_MOC]]

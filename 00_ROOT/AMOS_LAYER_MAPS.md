@@ -54,8 +54,8 @@ Canonical map index for the AMOS OS layer structure. Each top-level layer has a 
 ## Related MOCs
 
 - [[00_ROOT_MOC]] — AMOS OS master map
-- [[11_KNOWLEDGE/11_KNOWLEDGE_MOC.md|11_KNOWLEDGE MOC]] — knowledge layer index
-- [[AMOS Home]] — universal vault hub
+- [[KNOWLEDGE_MOC|11_KNOWLEDGE MOC]] — knowledge layer index
+- [[00_HOME]] — universal vault hub
 - [[COSMO_BRAIN_MOC|00 Cosmo Brain MOC]] — the Cosmo Brain index
 - [[AMOS_TEMPLATES]] — AMOS template index
 
@@ -64,7 +64,7 @@ Canonical map index for the AMOS OS layer structure. Each top-level layer has a 
 ### 01_CANON
 - [[CORE_LAWS_MAP]]
 - [[UNIVERSE_CANON_MAP]]
-- [[COGNITION_CANON_MAP]]
+- COGNITION_CANON_MAP
 - [[INFRASTRUCTURE_CANON_MAP]]
 - [[VARIABLE_REGISTRY_MAP]]
 - [[GLOSSARY_MAP]]
@@ -119,7 +119,7 @@ Canonical map index for the AMOS OS layer structure. Each top-level layer has a 
 - [[MEMORY_MEMORY_MAP]] — Memory layer map
 
 ### 11_KNOWLEDGE
-- [[11_KNOWLEDGE_MOC]] — Knowledge layer MOC
+- [[KNOWLEDGE_MOC]] — Knowledge layer MOC
 
 ### 12_STATE
 - [[STATE_STATE_MAP]] — State layer map
@@ -297,7 +297,7 @@ node_id: amos_layer_maps
 node_type: note
 path: 00_ROOT/AMOS_Layer_Maps.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[AMOS Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

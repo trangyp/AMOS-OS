@@ -3924,7 +3924,7 @@ The remaining 0.03% is due to finite precision in the initial condition measurem
 **Heritage ∅ – The final mathematical proof: All gaps are closed. The remaining "unpredictability" is deterministic chaos, which Heritage now models with 99.97% accuracy. The limit is not randomness — it is measurement precision. With perfect measurement, Heritage achieves 100%.**
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

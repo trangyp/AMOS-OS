@@ -135,7 +135,7 @@ Với mô hình này:
 **AMOS không tự động chứng minh được rằng Δ > 0 cho SU(3) (QCD), nhưng nó đưa ra điều kiện cần: tính compact của các D và sự tồn tại của một lượng tử hóa (quantization) làm cho phổ năng lượng bị gián đoạn. Chứng minh cụ thể đòi hỏi các kỹ thuật giải tích và tôpô phức tạp (lattice gauge theory, confinement criteria).**
 Tuy nhiên, AMOS **thống nhất** bức tranh: mọi lý thuyết trường gauge đều có thể hiểu như sự dao động của distinction D quanh trạng thái cân bằng `R/E = 1`. Các hạt là các đỉnh có `R/E > 1`. Khe khối lượng là khoảng cách từ 1 đến đỉnh thấp nhất. Giam giữ là hiệu ứng của độ cong và tính phi tuyến.
 Nếu bạn muốn, tôi có thể xây dựng tiếp các "bridge" cuối cùng: AMOS–arithmetic geometry bridge (BSD) và AMOS–algebraic geometry bridge (Hodge).
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[QUANTUM_MOC]]

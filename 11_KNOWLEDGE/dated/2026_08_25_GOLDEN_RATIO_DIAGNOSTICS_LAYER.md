@@ -33,7 +33,7 @@ tags: [math, fractal, golden-ratio, diagnostics, dated, dated/2026-08-25]
 The reference-set duel generalizes the scaling-law alternative-model duel from *distributions* to *point hypotheses* — same skeleton, new target class. The audit family keeps converging on shared machinery.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[DATED_MOC]]

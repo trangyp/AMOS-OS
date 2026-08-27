@@ -9,7 +9,7 @@ tags: ['cognitive_matrix', 'o09_simulation']
 - See also — [[O09_SIMULATION_MAP]]
 
 ## Indexing rule
-This index resolves by basename within its own directory. Cross-plane resolution goes through [[00_ROOT/00-Home]] and [[AMOS_RSCF_NODES]].
+This index resolves by basename within its own directory. Cross-plane resolution goes through [[00_HOME]] and [[AMOS_RSCF_NODES]].
 
 ## Gaps
 Automated link-integrity execution for this index is PARTIAL ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
@@ -39,7 +39,7 @@ Given an operation touching `O09 SIMULATION LIFECYCLE OPERATIONS COGNITIVE MATRI
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
 RSCF-NODE

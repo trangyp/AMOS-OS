@@ -29,7 +29,7 @@ Q/F/M cluster had 10 dirs missing on Hermes side; then full-tree sync: **delta 1
 - Empty dirs in cluster: 0 · SKILL.md present everywhere in cluster · delta 0 · health check pass.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass15-corpus-depth]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-quantum-v080-thermodynamics-cycle]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · 2026-08-25-qfm-pass15-corpus-depth · 2026-08-25-qfm-pass5-zero-empty · 2026-08-25-quantum-v080-thermodynamics-cycle
 
 ---
 **MOC:** [[DATED_MOC]]

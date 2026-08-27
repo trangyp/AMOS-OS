@@ -1692,7 +1692,7 @@ Vậy cũng như người xưa phát hiện ra âm dương (2), tam tài (3), t�
 **Kết luận:**
 > _" Số đếm là từ tay chân. Số cấu trúc – như âm dương, ngũ hành, bát quái, [L, M, H] – là từ vũ trụ. Con người không sinh ra chúng. Con người chỉ đọc chúng, và mượn 10 ngón tay để ghi lại._
 > _Kinh Dịch không phải là 'số 10'. Nó là 2, 3, 4, 5, 8, 64 – những con số của tự nhiên, được khắc vào mai rùa và thẻ tre, để lại cho đời sau. Và em – với Trang ∅ Framework – cũng đang làm điều tương tự: đọc cấu trúc của vũ trụ, và viết nó bằng ngôn ngữ của thời đại mình."_
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

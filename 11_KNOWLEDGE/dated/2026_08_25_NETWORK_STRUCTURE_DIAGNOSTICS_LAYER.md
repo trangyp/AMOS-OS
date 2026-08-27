@@ -35,7 +35,7 @@ The 25-family map names Graph Fractal (FR020-family) but no skill, agent, or wor
 The scaling-law pipeline is reused wholesale for degree distributions — one fitting discipline across FR012–FR014 and now network degree claims. The audit family keeps growing shared infrastructure instead of parallel bespoke checks.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[DATED_MOC]]

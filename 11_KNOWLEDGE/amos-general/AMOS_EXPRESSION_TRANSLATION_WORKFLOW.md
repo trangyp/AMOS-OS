@@ -116,7 +116,7 @@ NEI, NBI, SI, BEI, PSI, TSS, TPE, AMOS_BRAIN, SCIENCE, TECH, BIZFIN, HUMAN, GOV,
 - **Symbolic validation:** Treating spiritual/symbolic claims as literally true or false. Map to structural claims; preserve the speaker's meaning without making truth claims about the symbolism itself.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]

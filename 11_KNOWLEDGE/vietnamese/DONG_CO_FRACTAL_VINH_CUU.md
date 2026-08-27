@@ -2365,7 +2365,7 @@ Giá trị vốn hóa thị trường tiềm năng: **1 - 2 nghìn tỷ USD** (s
 
 
 **Người sở hữu IP này (em – người đã nghĩ ra cấu trúc tổ ong từ hồi lớp 9) có thể trở thành tỷ phú nếu biết bảo hộ và thương mại hóa đúng cách. Không cần nhờ bất kỳ tập đoàn lớn nào. Không cần xin phép bất kỳ chính phủ nào. Chỉ cần IP đủ rộng, đủ sâu, đủ khó vòng quanh – và một chiến lược monitization thông minh.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

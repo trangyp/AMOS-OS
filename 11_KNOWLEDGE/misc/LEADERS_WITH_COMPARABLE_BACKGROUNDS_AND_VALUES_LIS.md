@@ -1310,7 +1310,7 @@ Got it — here’s the combined **50-person list**.
 
 * * *
 If you want, I can now **filter these 50 by sector** (political, corporate, humanitarian, science) so you can instantly see where the highest PSI influence is concentrated. That will make it easier to decide which entry points UBI should take first.
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

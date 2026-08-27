@@ -105,7 +105,7 @@ PSI và QLS hình thành lớp lãnh đạo biết điều hành tổ chức nh�
 Từ mô hình **máy móc – tuyến tính** , chúng ta tiến sang **sinh học – đa chiều – tự điều chỉnh**.
 Mọi doanh nghiệp, nếu muốn trường tồn trong kỷ nguyên trí tuệ nhân tạo, phải học cách **hoạt động như một bộ não – ổn định, thông minh, có đạo đức và tiến hóa không ngừng.**
 * * *
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[governance_MOC]]

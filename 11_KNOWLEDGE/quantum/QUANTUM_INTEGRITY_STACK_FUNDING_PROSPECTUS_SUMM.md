@@ -101,7 +101,7 @@ The next era will not be defined by power, but by integrity.
 And integrity, once quantified, will become the most valuable form of energy on Earth.
 * * *
 Would you like me to now write the **Investor Deck Summary (10-slide outline)** — showing how to visually present this prospectus for funding audiences (e.g., sovereign funds, deep-tech VCs, and research councils)?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[QUANTUM_MOC]]

@@ -131,7 +131,7 @@ source: 11_KNOWLEDGE/brain
 Input space: 8 types — everyday language, emotional language, narrative/story, symbolic/spiritual, cultural (VN+EN), neurotypical framing, outlier framing, multi-layer mixed.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[BRAIN_MOC]]

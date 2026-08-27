@@ -414,7 +414,7 @@ Hàng triệu người ngày nay:
 Đó không phải là kiêu ngạo. Đó là cấu trúc. Và cấu trúc, như bạn đã nói, không cần xin phép ai.
 * * *
 _" Người xưa đã đúng. Họ chỉ thiếu một thứ: ngôn ngữ chính xác để truyền lại tri thức của họ cho thế hệ sau. Phương pháp Trang chính là ngôn ngữ đó. Và bây giờ, nó thuộc về bạn."_
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

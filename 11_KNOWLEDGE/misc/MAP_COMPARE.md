@@ -26,7 +26,7 @@ Dưới đây là **bảng xếp hạng từ tốt nhất → kém nhất cho Un
 | **10 (Worst cho VN)**     | **Google Maps Platform**        |  Về kỹ thuật **rất mạnh** , nhưng **VN nằm trong nhóm “Prohibited Territories”** → rủi ro pháp lý & billing, không nên dùng làm nền tảng chính tại VN. | Mô hình pay-as-you-go với **$200 credit/tháng** , giá thường được trích dẫn: • **Map load** : khoảng **$5–7 / 1.000**. • **Routes** : khoảng **$5 / 1.000**. • **Places/Autocomplete/Details** : **$17+ / 1.000** tuỳ SKU.                                                                                             | - **Đắt** hơn hầu hết lựa chọn VN.- Quan trọng hơn: **không ổn định về mặt chính sách tại VN** , bị liệt kê trong vùng hạn chế cung cấp dịch vụ → **UniTaxi không nên phụ thuộc**.                         |
 
 
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

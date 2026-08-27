@@ -125,7 +125,7 @@ The Quantum Logic System™ provides the complete operating environment required
 [🌍 Masterplan: Decentralised Quantum Logic Infrastructure for Energy, EROI, and Carbon Scoring](<%F0%9F%8C%8D%20Masterplan%20Decentralised%20Quantum%20Logic%20Infrastru%20268c5e6f95bd80c1bd10e4f9ca6b2af0.html>)
 [⭐\\\ THE ABSOLUTE LOGIC MANUAL](<%E2%AD%90%20THE%20ABSOLUTE%20LOGIC%20MANUAL%202b5c5e6f95bd8011a66cc6861dcaa147.html>)
 [Expert](<Expert%20304c5e6f95bd80c8aa13e75528c5c41c.html>)
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[QUANTUM_MOC]]

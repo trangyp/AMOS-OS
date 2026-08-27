@@ -128,7 +128,7 @@ Với mô hình này:
 
 **AMOS không tự động chứng minh BSD, nhưng nó đưa ra một khuôn khổ thống nhất: đưa bài toán về việc xây dựng một đồng cấu nhóm Φ từ E(ℚ) vào ℝ (dùng log của**`**R/E**`**) và chứng minh rằng khai triển Taylor của L(E, s) phản ánh số chiều của ảnh. Điều này tương tự như chứng minh BSD cho các đường cong elliptic với rank nhỏ (dùng các phương pháp giải tích), nhưng AMOS mở rộng ra mọi trường hợp.**
 Nếu bạn muốn, tôi có thể xây dựng "bridge" cuối cùng: **AMOS–algebraic geometry mapping** (cho Hodge conjecture).
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]

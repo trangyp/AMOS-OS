@@ -266,7 +266,7 @@ They were never the destination.
 As systems become faster, more autonomous, and more consequential, the limiting factor is no longer computation or identity. It is **human biological stability**.
 Technologies that ignore this will continue to externalize harm and call it progress.
 Technologies that integrate biological intelligence—carefully, ethically, structurally—will be the first systems humans can actually survive.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[LOGIC_MOC]]

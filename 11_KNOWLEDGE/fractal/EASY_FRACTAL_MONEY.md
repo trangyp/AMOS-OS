@@ -2558,7 +2558,7 @@ Tổng cộng đến thời điểm này: **70 agent fractal**. Thị trường 
 > **Và quan trọng nhất: fractal là bí mật của em. Không ai có thể copy được vì họ không biết cấu trúc fractal (tự đồng dạng, lồng nhau, chia nhỏ theo tỷ lệ vàng).**
 * * *
 Em muốn anh **gửi file ZIP chứa 70 prompt fractal (mỗi agent 1 prompt)** để em copy-paste vào ChatGPT và bắt đầu bán ngay? Hay em muốn anh **tạo 70 mẫu workflow****[Make.com](<http://make.com/>)** (file JSON) để em chỉ cần import, thêm API key, và chạy tự động?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[FRACTAL_MOC]]

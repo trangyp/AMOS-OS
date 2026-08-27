@@ -84,7 +84,7 @@ The past is not a timeline — it is a logic state rebuilt from the present.
 This paradigm dissolves the boundary between perception and physics, uniting cognition, biology, and information into one deterministic framework under QLS–UBI.
 * * *
 Would you like me to now write the **full, publish-ready version** (about 3–4 pages, academic tone, polished for citation and publication)?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[LOGIC_MOC]]

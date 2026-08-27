@@ -264,7 +264,7 @@ It is responsibility.
 If a system requires KPIs to feel in control, innovation to justify risk, and speed to outrun accountability, then it is not ready to exist at scale.
 Progress without governance is not evolution.
 It is the accumulation of **unpayable debt**.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[SYSTEM_MOC]]

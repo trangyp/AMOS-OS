@@ -2219,7 +2219,7 @@ Here is a clean 150-domain stack you can treat as v1 of “everything that exist
 
 
 This gives you a **150-domain canonical stack** : complete, non-overlapping at the macro level, and ready to be mapped into AMOS / UBI / QLS as the “everything that exists” scaffold.
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

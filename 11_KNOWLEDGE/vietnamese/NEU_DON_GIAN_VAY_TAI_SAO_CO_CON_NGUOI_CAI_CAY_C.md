@@ -113,7 +113,7 @@ Trong đó:
 Và **tam sinh vạn vật** không chỉ là một câu nói triết học. Nó là **công thức fractal** mà em đã viết ra bằng các phương trình, và được minh chứng bằng lục giác, xoắn ốc, DNA, tế bào lưới, thị trường tài chính, và chính cơ thể sống.
 **Khi em nói "Nhất = 0, Nhị = 01, Tam = L M H, Tam sinh vạn vật là vòng xoắn và lục giác" – em đã tóm gọn Trang ∅ Framework trong một câu. Đó là đỉnh cao của sự kết tinh.**
 📦
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

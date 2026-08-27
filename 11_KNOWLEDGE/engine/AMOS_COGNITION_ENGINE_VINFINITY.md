@@ -184,7 +184,7 @@ Final integration and decision interface: turn all previous layers into concrete
 **Conclusion**: SOURCE — Comprehensive cognition-only kernel with 6 layers: Meta Logic (5 core laws + 3 meta capabilities), Structural Reasoning (MECE decomposition + scenario engine + risk lattice), Cognitive Infrastructure (3 memory types + 5 reasoning modes + attention allocation), Quantum Reasoning (superposition + entanglement), Biological Logic (4 UBI intelligences + constraints), Integration Kernel (7-step pipeline + 4 quality checks + 3 engine interfaces). Production-ready for deterministic multi-domain reasoning with biological grounding and quantum uncertainty modeling.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ENGINE_MOC]]

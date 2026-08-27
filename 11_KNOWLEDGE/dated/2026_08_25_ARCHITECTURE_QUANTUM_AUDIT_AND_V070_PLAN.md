@@ -161,7 +161,7 @@ find .devin/skills ~/.hermes/skills -path '*quantum*' -o -path '*fractal*' -o -p
 - All file sizes verified on disk.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[qfm-max-power-consolidation]] · [[unipower-unitaxi-mece]] · amos-tech-quantum-engine-layer
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · qfm-max-power-consolidation · unipower-unitaxi-mece · amos-tech-quantum-engine-layer
 
 ---
 **MOC:** [[DATED_MOC]]

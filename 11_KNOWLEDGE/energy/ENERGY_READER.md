@@ -70,7 +70,7 @@ source: 11_KNOWLEDGE/energy
 [48.5/50: Sápara Elders (Amazon)](<Energy%20reader/48%205%2050%20S%C3%A1para%20Elders%20\(Amazon\)%20255c5e6f95bd80e698d2df2e6988050d.html>)
 [47.5/50: Robin Wall Kimmerer](<Energy%20reader/47%205%2050%20Robin%20Wall%20Kimmerer%20255c5e6f95bd8097a4e9d3270f8cee56.html>)
 [47.5/50: Angaangaq Angakkorsuaq](<Energy%20reader/47%205%2050%20Angaangaq%20Angakkorsuaq%20255c5e6f95bd803f813dc9576ab32f08.html>)
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[energy_MOC]]

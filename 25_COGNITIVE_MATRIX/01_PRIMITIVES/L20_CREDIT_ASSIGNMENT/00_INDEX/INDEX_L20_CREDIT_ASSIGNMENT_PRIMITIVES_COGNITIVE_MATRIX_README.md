@@ -9,7 +9,7 @@ tags: ['cognitive_matrix', 'l20_credit_assignment']
 - See also — [[PRIMITIVES_COGNITIVE_MATRIX_L20_CREDIT_ASSIGNMENT_CONTRACT]]
 
 ## Indexing rule
-This index resolves by basename within its own directory. Cross-plane resolution goes through [[00_ROOT/00-Home]] and [[AMOS_RSCF_NODES]].
+This index resolves by basename within its own directory. Cross-plane resolution goes through [[00_HOME]] and [[AMOS_RSCF_NODES]].
 
 ## Gaps
 Automated link-integrity execution for this index is PARTIAL ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
@@ -39,7 +39,7 @@ Given an operation touching `L20 CREDIT ASSIGNMENT PRIMITIVES COGNITIVE MATRIX R
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
 RSCF-NODE

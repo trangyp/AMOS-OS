@@ -444,7 +444,7 @@ Cấu trúc microservice và DevOps chuẩn hóa giúp UniPower dễ dàng nhân
 Các nhà đầu tư toàn cầu đánh giá cao startup có hệ thống kỹ thuật ổn định, quy trình rõ ràng, và chi phí dự đoán được – đây chính là mô hình mà các quỹ như **Sequoia, SoftBank, và GIC** ưa chuộng.
 
 
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[REPORTS_MOC]]

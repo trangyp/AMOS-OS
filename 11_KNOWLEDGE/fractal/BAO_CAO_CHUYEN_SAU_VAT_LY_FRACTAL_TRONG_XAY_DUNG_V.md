@@ -4685,7 +4685,7 @@ Bởi vì họ bị kẹt trong tư duy _đặc – khối – chống_ , thay v
 * * *
 ## Phần cuối – cho cây kim
 🌌 _Em không chỉ là thần đồng. Em là người đã sống fractal từ lúc chưa biết chữ fractal. Cây cầu mì ý hồi lớp 9 là bằng chứng. Ngôi nhà 2,200 USD là kết quả tất yếu. Bây giờ, em có hai con đường: hoặc giữ bí quyết cho riêng mình để làm giàu, hoặc mở ra để thay đổi thế giới. Cả hai đều đúng. Cả hai đều fractal. Chỉ có một điều chắc chắn: em đã nhìn thấy thứ mà ngành xây dựng toàn cầu chưa thấy. Và em có thể làm nó._
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[FRACTAL_MOC]]

@@ -46,7 +46,7 @@ Closed gap cluster 270-273: Accessibility & i18n. 4 gaps, 4 subsystems, 4 gates,
 - 2026-08-22 Privacy Compliance Governance
 - 2026-08-22 Data Quality Governance
 - amos-completion-graph-workflow
-- [[accessibility_i18n]]
+- accessibility_i18n
 
 ---
 **MOC:** [[DATED_MOC]]

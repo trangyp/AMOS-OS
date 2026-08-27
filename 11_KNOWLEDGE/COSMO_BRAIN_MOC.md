@@ -38,8 +38,8 @@ answer the question, expand only when outcome-changing uncertainty remains.
 ### Templates
 
 - [[AMOS_TEMPLATES]] — AMOS template index
-- [[Templates/linked-note.md|linked-note template]]
-- [[AMOS Home]] — universal vault hub
+- [[linked-note|linked-note template]]
+- [[00_HOME]] — universal vault hub
 ## Operational brain — module map
 
 - 00_boot: brain/00_boot/BOOTSTRAP · ROUTER · LOAD_MAP · OS_Agent_Model
@@ -1217,10 +1217,10 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -1228,7 +1228,7 @@ node_id: cosmo_brain_moc
 node_type: note
 path: 11_KNOWLEDGE/Cosmo_Brain_MOC.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

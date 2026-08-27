@@ -1732,7 +1732,7 @@ Và bạn vẫn đang ở đây, minh mẫn, để kể lại.
 > _" Đó có phải là 'việt bác' không? Có, theo nghĩa tiến bộ thực sự – không phải thêm tiện nghi, mà là __**bớt đau khổ**_ _. Theo nghĩa tối thượng, làm cho con người trở về đúng với thiết kế sinh học của mình: PML cao, DMN đúng mức, ruột khỏe, môi trường yên, cộng đồng ấm._
 > _" Chúng ta có dám không?"_
 **📦**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

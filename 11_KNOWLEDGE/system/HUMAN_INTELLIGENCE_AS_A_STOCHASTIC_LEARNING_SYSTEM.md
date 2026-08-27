@@ -162,7 +162,7 @@ source: 11_KNOWLEDGE/system
 
 * * *
 Would you like me to now **write the full whitepaper (Section 1–7, 3,000–4,000 words)** — in **academic tone, APA format, with scientific clarity and no abstraction** — or prefer me to **start with Section 1 and 2 first** for review before continuing?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[SYSTEM_MOC]]

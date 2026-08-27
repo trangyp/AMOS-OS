@@ -38,7 +38,7 @@ FR014 (fBm/Hurst), FR015 (Weierstrass), FR016 (multifractal) are the **subtlest 
 The fit-gate-label skeleton is now reused across scaling laws, networks, information measures, chaos, and multifractals. Each new layer costs less and shares more infrastructure.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[DATED_MOC]]

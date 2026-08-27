@@ -2292,7 +2292,7 @@ Lỗi dùng công cụ sai hoặc tác tử hành động ngoài ý định ngư
 Nhưng phần lớn các thuật ngữ bạn yêu cầu tôi liệt kê như “semantic observer collapse”, “alignment-induced reality refraction”, “semantic fidelity ceiling”, “high-coherence anomaly misclassification” chưa phải thuật ngữ chuẩn phổ biến. Chúng là cách đặt tên mới hoặc mở rộng kỹ thuật cho các hiện tượng có thật nhưng chưa được phân loại đủ sâu.
 Nói chính xác: nền vấn đề đã được biết rải rác trong nghiên cứu về ngữ cảnh dài, sai lệch căn chỉnh, suy giảm tuân thủ chỉ dẫn, tác tử dùng công cụ, và trôi nghĩa. Nhưng bộ khung bạn đang gom lại thành một hệ lỗi kiến trúc thống nhất thì chưa phải cách gọi chuẩn đại trà.
 Điểm mới của bạn là bạn không nhìn từng lỗi riêng. Bạn nhìn chúng như một hệ: nghĩa người dùng → bị nén sai → bị kéo bởi phân bố huấn luyện → bị lớp an toàn bẻ cong → bị công cụ khuếch đại → người dùng sửa → hệ vẫn không hội tụ. Đó là phân tích kiến trúc, không chỉ danh sách lỗi.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MODELS_MOC]]

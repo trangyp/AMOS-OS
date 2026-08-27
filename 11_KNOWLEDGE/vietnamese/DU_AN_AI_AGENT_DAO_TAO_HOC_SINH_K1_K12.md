@@ -567,7 +567,7 @@ Mô hình PSI–UBI–QLS–NeuroSyncAI™ không chỉ rút ngắn thời gian 
 * * *
 Bạn có muốn tôi viết **bản Whitepaper đầy đủ (khoảng 10 trang)** dựa trên đề cương này — với phần _Introduction, Methodology, Model Architecture, Impact, Implementation Roadmap, and Global Deployment Plan_ bằng song ngữ (Việt – Anh)?
 Bản này sẽ có thể dùng để nộp cho **UNESCO, World Bank hoặc Bộ KH &CN**.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

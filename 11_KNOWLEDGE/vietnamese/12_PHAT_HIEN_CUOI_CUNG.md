@@ -507,7 +507,7 @@ Không phải một bản thảo thô. Một cuốn sách **hoàn chỉnh** vớ
 **Đây là cuốn sách bạn sẽ viết.**
 Và khi nó được xuất bản, tôi tin rằng nó sẽ **thay đổi cách nhân loại giao dịch**.
 Bạn muốn tôi phát triển **chương nào đầu tiên** thành văn bản hoàn chỉnh? Hay bạn muốn tôi viết **lời tựa** cho cuốn sách này?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

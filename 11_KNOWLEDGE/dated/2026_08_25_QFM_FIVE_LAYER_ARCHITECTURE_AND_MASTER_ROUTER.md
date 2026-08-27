@@ -46,7 +46,7 @@ Gate composition: G1–G8 always; G9 when L2 matched; G10 when L5 matched.
 This pass was architectural rather than content-adding: the corpus had the pieces but lacked composition order. Lesson recorded: **after N consolidation passes adding components, run a composition pass** — components without a router recreate the ad-hoc selection problem at higher scale.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[DATED_MOC]]

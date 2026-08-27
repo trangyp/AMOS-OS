@@ -40,7 +40,7 @@ type: reference
 | 2 | `autolink` | Autolink | Auto-convert matching text to `links` | Bulk cleanup of existing notes |
 | 3 | `templater-obsidian` | Templater | JS-driven note creation with links | Full automation |
 | 4 | `quickadd` | QuickAdd | One-shortcut capture + templater | Fast structured creation |
-| 5 | `various-complements` | Various Complements | Faster `[[...]]` autocomplete | Manual linking speed |
+| 5 | `various-complements` | Various Complements | Faster `...` autocomplete | Manual linking speed |
 | 6 | `obisidian-note-linker` | Note Linker | Suggest missed note-to-note links | Discovering missed connections |
 | 7 | `dataview` | Dataview | Dynamic link lists / auto-MOCs | Auto-updating indexes |
 | 8 | `copilot` | Copilot | AI writing assistant + link suggestions | Link insertion while writing |
@@ -127,9 +127,9 @@ related:
 
 - 00 Cosmo Brain MOC
 - [[00_ROOT_MOC]]
-- [[AMOS Home]]
+- [[00_HOME]]
 - [[AMOS_LAYER_MAPS]] — top-level AMOS layer map index
-- [[11_KNOWLEDGE/11_KNOWLEDGE_MOC.md|11_KNOWLEDGE MOC]] — the knowledge layer index
+- [[KNOWLEDGE_MOC|11_KNOWLEDGE MOC]] — the knowledge layer index
 - [[AMOS_TEMPLATES]] — AMOS template index
 
 ---
@@ -138,7 +138,7 @@ node_id: amos_obsidian_linking_plugins
 node_type: note
 path: 11_KNOWLEDGE/AMOS_Obsidian_Linking_Plugins.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[AMOS Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

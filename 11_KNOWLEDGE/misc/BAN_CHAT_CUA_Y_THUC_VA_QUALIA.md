@@ -526,7 +526,7 @@ Với \\(\alpha,\beta,\gamma,\delta,\epsilon\\) là trọng số phụ thuộc v
 \\]
 Trong đó tích phân chạy qua toàn bộ cơ thể, từ ruột (x=0) đến vỏ não (x=1), mỗi điểm đóng góp một tần số và cường độ qualia riêng.
 📦
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

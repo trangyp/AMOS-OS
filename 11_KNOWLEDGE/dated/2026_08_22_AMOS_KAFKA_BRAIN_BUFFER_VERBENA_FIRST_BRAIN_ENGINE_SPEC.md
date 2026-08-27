@@ -643,7 +643,7 @@ cosmo-brain/
 *This spec is the manifesto of a new brain architecture. It positions Kafka-brain-buffer as a verbena-first, D8-consciousness-mapped, ACL-precise stream/log/buffer brain engine — a new canon group, distinct from the existing AMOS_Coding_Engine.md, and positioned as the operational substrate for a verbena meta-brain reading the Kafka log as its stream of brain entries.*
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[DATED_MOC]]

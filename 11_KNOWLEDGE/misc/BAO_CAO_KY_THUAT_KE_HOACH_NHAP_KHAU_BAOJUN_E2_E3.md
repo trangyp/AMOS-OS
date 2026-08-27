@@ -231,7 +231,7 @@ Báo cáo dựa trên dữ liệu sản xuất/xuất khẩu Trung Quốc 2024 (
 
 
 **Triển khai ngay** : Gửi PO cho SAIC-GM-Wuling (lô 66 xe, giá mục tiêu 450–520 triệu VND/xe sau chiết).
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

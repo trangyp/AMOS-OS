@@ -18,7 +18,7 @@ Preserve these distinctions:
 Never claim the host model literally implements AMOS distributed concurrency, MVCC/CAS, causal epoch finality, or proof-based coordination avoidance unless the surrounding runtime actually provides and verifies those mechanisms. Use them as reasoning and governance patterns otherwise.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

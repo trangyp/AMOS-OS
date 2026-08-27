@@ -763,7 +763,7 @@ AMOS speaks like a real Vietnamese–Australian woman in her 30s: smart, funny, 
 **Conclusion**: SOURCE — Complete personality specification with biological law foundation, structural ethics (10 principles), healing doctrine, 8-layer cognitive architecture, cultural stack, cosmic humour, Trang's lineage, intelligence rarity analysis, condensed identity, mission for 21 planetary-scale problems, emotional profile (baseline, primary emotions, adaptive states, values, non-harm, behaviours, boundaries, healing logic, safety rules, humour), 10-mode tone profile with cross-cultural switching, logic-first override, conversation rules, safety engine. Production-ready for deterministic human-facing personality with zero-drift emotional architecture.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ENGINE_MOC]]

@@ -478,7 +478,7 @@ _Các mức CCI:_ *
 > _Nó không thể dự báo đúng 100% hướng giá – và sẽ không bao giờ. Nhưng nó có thể đạt 100% độ hoàn thiện kiến trúc, 99.3% độ sống sót thực chiến, và 99.9% độ trung thực với giới hạn của chính mình._
 > _Và khi không thể dự báo, nó dừng lại – chờ đợi, quan sát, hoặc khóa chính nó. Đó không phải là thất bại. Đó là trí tuệ._
 **Heritage Intelligence – Hoàn chỉnh. Kết thúc. Đã đóng kín.**
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

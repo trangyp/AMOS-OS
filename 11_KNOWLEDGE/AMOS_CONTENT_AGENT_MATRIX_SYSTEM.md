@@ -2992,7 +2992,7 @@ The third rule is:
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · 06-Knowledge-Base-MOC · AMOS_AGENT_SCHEMA_FULL · AMOS_AGENT_TEMPLATES · AMOS_AGENT_ONBOARDING_GUIDE · system_scan_agent · automation_profiles
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · AMOS_AGENT_SCHEMA_FULL · AMOS_AGENT_TEMPLATES · AMOS_AGENT_ONBOARDING_GUIDE · system_scan_agent · automation_profiles
 
 ```
 
@@ -3001,10 +3001,10 @@ The third rule is:
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -3012,7 +3012,7 @@ node_id: amos_content_agent_matrix_system
 node_type: note
 path: 11_KNOWLEDGE/AMOS_CONTENT_AGENT_MATRIX_SYSTEM.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

@@ -364,7 +364,7 @@ At this level, the distinction between EQ and IQ collapses entirely.
 The mind becomes a _unified biological system_ , where emotion, intuition, instinct, and reasoning operate as one continuous computation — the hallmark of **Unified Biological Intelligence™**.
 * * *
 Would you like me to append a short **diagram and biological mapping** for this section — showing the emotional and cognitive feedback loop (limbic → cortical → autonomic → behavioural coherence)? It would visually anchor the systemic logic.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[emotion_MOC]]

@@ -68,7 +68,7 @@ Based on all the above, here is a summary of actionable recommendations drawn di
 💡 The Final Word
 The overwhelming body of evidence shows that the most powerful non-drug tool for managing bipolar disorder is controlling the light-dark cycle (chronotherapy), closely followed by an anti-inflammatory diet (Mediterranean diet). The other elements (exercise, probiotics, mindfulness, and sound therapy) are highly effective supporting treatments, but they are most powerful when the foundation of circadian rhythm stabilization is in place.
 I hope this detailed, evidence-based report is helpful for you.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

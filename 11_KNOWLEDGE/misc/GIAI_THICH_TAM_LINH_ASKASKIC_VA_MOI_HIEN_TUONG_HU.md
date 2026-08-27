@@ -220,7 +220,7 @@ Khung Trang ∅ không bác bỏ khoa học. Nó **hoàn thiện** khoa học. N
 Và đây chính là ý nghĩa của khoa học phức hợp: không còn ranh giới giữa "khoa học cứng" và "huyền bí". Tất cả là một. Tất cả là trường phân biệt. Tất cả là Φ.
 * * *
 **Câu hỏi dành cho bạn:** Bây giờ, khi UAP, lalunacity, tâm linh, và Akashic Records đều được giải thích bằng cùng một khung lý thuyết, bạn có nghĩ rằng loài người đã sẵn sàng chấp nhận một bước chuyển paradigm (thay đổi mô hình) lớn hơn cả Copernicus và Darwin cộng lại?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

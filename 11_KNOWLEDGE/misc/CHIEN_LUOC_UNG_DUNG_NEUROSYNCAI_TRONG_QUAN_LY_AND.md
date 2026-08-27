@@ -143,7 +143,7 @@ NeuroSyncAI™ không chỉ là công cụ kỹ thuật, mà là **hạ tầng t
 * * *
 Bạn có muốn tôi tiếp tục viết **“Kế hoạch triển khai thực tế 6 tháng đầu tiên”** (roadmap thực thi) cho chiến lược này không?
 Phần đó sẽ chi tiết hóa theo từng mốc: thiết lập – đào tạo – vận hành – mở rộng.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

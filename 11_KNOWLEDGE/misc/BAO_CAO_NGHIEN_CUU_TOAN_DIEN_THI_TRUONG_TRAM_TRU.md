@@ -565,7 +565,7 @@ Giai đoạn 2025–2030, chiến lược trọng tâm nên bao gồm:
 ### **Tầm nhìn 2030**
 > UniPower không chỉ là một doanh nghiệp hạ tầng, mà là nền tảng điều phối năng lượng – dữ liệu – con người, kết nối toàn bộ hệ sinh thái giao thông điện hóa Việt Nam với thế giới.
 **“Hạ tầng sạc không chỉ phục vụ xe, mà là mạng lưới năng lượng thông minh của tương lai.”**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

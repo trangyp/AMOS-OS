@@ -214,7 +214,7 @@ The equation therefore serves as a conceptual model for designing drift-resistan
 ## **12\. Summary**
 The equation _e = i²_ provides a universal structural principle for modeling effectiveness. It reflects that intelligent systems—human, organizational, institutional, or computational—only produce stable, high-quality outcomes when internal components reinforce rather than contradict each other. It connects directly to TSS forces (Ω, H, F, S), makes prediction mathematically intuitive, and provides a conceptual foundation for AI alignment, system governance, and civilizational design. The equation is not numeric physics; it is structural mathematics guiding how complex human systems maintain or lose integrity.
 * * *
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

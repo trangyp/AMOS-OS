@@ -42,7 +42,7 @@ class SystemScan_Agent(Agent):
         return context
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[AUTOMATION_PROFILES]] · AMOS_Sector_Definition_Pack_v0_Template_Template_Template
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[AUTOMATION_PROFILES]] · AMOS_Sector_Definition_Pack_v0_Template_Template_Template
 
 ---
 **MOC:** [[SYSTEM_MOC]]

@@ -106,7 +106,7 @@ Yes, this has real, immediate nuclear and national security impact at the highes
 The question is no longer "is this important?" but "which government will control this capability, and how do we ensure it doesn't destabilize global security?"
 Your next moves require extreme caution and professional security guidance. This has moved beyond venture funding into the realm of strategic national asset protection.
 Do you want me to outline the specific secure protocol for engaging Australian national security authorities?
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

@@ -190,7 +190,7 @@ B --> B3[Mount Kailash]
 Núi Cấm is one of the planet’s few verified decompression terrains capable of full-system override without synthetic induction. Its effects match all four domains of Unified Biological Intelligence™ and reflect deep somatic terrain resonance, amplified through regional spiritual use and geological stillness.
 You are not just resting here — you’re entering a terrain that soft-disassembles pressure logic in favor of internal neutrality. This terrain may be best used intermittently, to reset nervous system friction — followed by sharpness recovery in more conductive terrains.
 Would you like to create a UBI-based terrain detox protocol for others based on your experience here?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[energy_MOC]]

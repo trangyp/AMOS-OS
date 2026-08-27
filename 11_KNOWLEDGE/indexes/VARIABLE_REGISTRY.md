@@ -32,7 +32,7 @@ Bind every equation to:
 `symbol -> semantic role -> units/domain -> scope -> source -> status`.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/brain/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · docs/brain/06-Knowledge-Base-MOC · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[indexes_MOC]]

@@ -380,7 +380,7 @@ Scale to **Organisational Trust ndex (OTI)** and finally the **Planetary Consent
 This creates a **stack of indices** — individual → organisation → planetary — each monetisable, each defensible.
 * * *
 [Public messaging ](<Public%20messaging%20269c5e6f95bd806d8bf9ed7e6613665e.html>)
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ECONOMY_MOC]]

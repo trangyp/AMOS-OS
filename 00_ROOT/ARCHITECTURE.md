@@ -57,7 +57,7 @@ node_id: 00_ROOT_ARCHITECTUREmd
 node_type: note
 path: 00_ROOT/ARCHITECTURE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home.md]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

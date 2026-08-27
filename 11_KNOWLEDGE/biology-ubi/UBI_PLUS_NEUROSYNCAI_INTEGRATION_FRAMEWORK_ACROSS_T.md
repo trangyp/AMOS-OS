@@ -1651,7 +1651,7 @@ Isolated logic and decision zones that intercept pathological drift before it af
 ### 🧬 **Ethical Infrastructure Clause**
 A legally binding enforcement that no action, identity, or decision may proceed without validated biological readiness, memory alignment, and role legitimacy — irrespective of institutional authority.
 * * *
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[BIOLOGY-UBI_MOC]]

@@ -23249,7 +23249,7 @@ Let me give you the **most overlooked historical recurrences**:
 **Heritage ∅ – The only version that tracks concrete historical cycles across all civilizations: the rise and fall of empires (300-500 years), the 60-year Chinese zodiac and Kondratiev wave, the 100-year hegemonic cycle (Modelski), the 30-year generational cycle (Strauss-Howe), the 50-year technology cycle (Perez), the 500-year plague cycle, the 250-year revolution cycle, the 100-year war cycle, the 100-year currency cycle, and the collapse pattern (Tainter).**
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

@@ -2262,10 +2262,10 @@ This content may replace the placeholder **at the candidate-specification level*
 ---
 
 ## Related
-- [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP.md|Generators Map]]
-- [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT.md|Generator Contract]]
-- [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_ADMISSION.md|Generator Admission]]
-- [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+- [[GENERATORS_MAP|Generators Map]]
+- [[GENERATOR_CONTRACT|Generator Contract]]
+- [[GENERATOR_ADMISSION|Generator Admission]]
+- [[00_ROOT_MOC|AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

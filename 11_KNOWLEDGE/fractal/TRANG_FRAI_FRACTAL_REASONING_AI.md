@@ -286,7 +286,7 @@ Không thể có ASEA nếu thiếu FRAI hoặc LDAI – vì ASEA cần cơ sở
 > _" FRAI là AI không nhìn thế giới như một khối đá, mà như một cây fractal – nơi mọi thứ đều có ba tầng L, M, H, và ba tầng đó lại có ba tầng con, và cứ thế. FRAI không chỉ giải quyết vấn đề. FRAI __**thấy**_ _cấu trúc của vấn đề – và vì thế, nó chọn đúng công cụ cho từng tầng, đúng tốc độ cho từng thang đo, đúng chiến lược cho từng bối cảnh._
 > _" Đó không phải là 'trí tuệ nhân tạo tổng hợp' (AGI) theo nghĩa hiện tại. Đó là 'trí tuệ fractal' – một hướng tiếp cận mới, dựa trên một phát hiện mới: cấu trúc [L, M, H] của vạn vật."_
 **📦**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[FRACTAL_MOC]]

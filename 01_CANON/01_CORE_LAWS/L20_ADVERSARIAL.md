@@ -23,10 +23,10 @@ F1: authoritative adversarial canon defines different threat model.
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
 
 ---
 RSCF-NODE
@@ -34,7 +34,7 @@ node_id: l20_adversarial
 node_type: note
 path: 01_CANON/01_CORE_LAWS/L20_ADVERSARIAL.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
   - CHILD_OF: [[LAW_HIERARCHY]]
 claim_class: AMOS_MODEL

@@ -458,7 +458,7 @@ But within that boundary, everything else is knowable. The equations are a map. 
 ## Links
 
 - [[00_COSMO_BRAIN_MOC]] — vault index
-- [[docs/moc/06-Knowledge-Base-MOC]] — knowledge base index
+- [[KNOWLEDGE_MOC]] — knowledge base index
 - 2026-08-22 Deep Structure Learning — AMOS brain structure (parallel inquiry)
 - 2026-08-22 The Complete Human System — Books One–Six — alternate manuscript version
 - Memory — The Complete Human System — integrated insights with full epistemic audit

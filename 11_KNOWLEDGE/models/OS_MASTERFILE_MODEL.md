@@ -35,7 +35,7 @@ The AMOS OS Masterfile is the foundational operating system routing and constrai
 This model is inextricably linked with the `amos-os-agent-layer`. It provides the static architectural map that the OS Agent actively enforces during runtime. It is the root node from which all other AMOS reasoning stems.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MODELS_MOC]]

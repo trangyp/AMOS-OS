@@ -109,7 +109,7 @@ source: 11_KNOWLEDGE/misc
 [ 42.5/50: Nguyễn Văn Dũng](<Mapped%20Taxonomy%20of%20Vietnamese%20Energetic%20Practition/42%205%2050%20Nguy%E1%BB%85n%20V%C4%83n%20D%C5%A9ng%2025bc5e6f95bd80ee97c6c90edc9b9ba9.html>)
 [44/50: Thầy Nam Hải](<Mapped%20Taxonomy%20of%20Vietnamese%20Energetic%20Practition/44%2050%20Th%E1%BA%A7y%20Nam%20H%E1%BA%A3i%2025bc5e6f95bd808fb686fdb1e531cf0e.html>)
 [38.5/50: Phạm Văn Hưng](<Mapped%20Taxonomy%20of%20Vietnamese%20Energetic%20Practition/38%205%2050%20Ph%E1%BA%A1m%20V%C4%83n%20H%C6%B0ng%2025bc5e6f95bd803f8565f68f448e4571.html>)
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

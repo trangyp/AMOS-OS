@@ -456,11 +456,11 @@ Its weakest claims are runtime assertions such as full determinism, production r
 
 ---
 
-**Related:** [[00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
 
@@ -473,7 +473,7 @@ node_type: architecture_knowledge
 path: 11_KNOWLEDGE/AMOS_CORE/AMOS_DISTRIBUTED_COGNITION_CLUSTER_ORCHESTRATOR.md
 
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 
 claim_class: AMOS_MODEL

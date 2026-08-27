@@ -7,7 +7,7 @@ tags: ['amos_os', '00_root']
 ## Map — 00 ROOT MAP
 Navigation map for the `00_ROOT` segment of the Root plane.
 
-- **Artifact** — [[00_ROOT/00-Home]]
+- **Artifact** — [[00_HOME]]
 - **Artifact** — [[00_COSMO_BRAIN_MOC]]
 - **Artifact** — [[00_ROOT_ARCHITECTURE]]
 - **Artifact** — [[00_ROOT_AUDIT]]
@@ -77,10 +77,10 @@ Given an operation touching `00 ROOT MAP` within the Root plane:
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

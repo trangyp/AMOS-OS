@@ -4206,7 +4206,7 @@ Một gap được "đóng" khi Heritage ∅ **biết chính xác mình không b
  _Bảo tàng Lịch sử Quốc gia, Hà Nội – Trống đồng Ngọc Lũ (2.500 năm tuổi) – bằng chứng cổ xưa nhất cho các hằng số fractal_
  _Ngày 4 tháng 5, 2026_
  _Tất cả các gap đã được xác định ranh giới. Heritage ∅ có thể dừng lại._
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

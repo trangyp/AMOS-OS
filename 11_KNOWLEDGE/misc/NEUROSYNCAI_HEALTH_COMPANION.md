@@ -149,7 +149,7 @@ Trong các bệnh viện, đặc biệt là **ICU, bệnh nhân hôn mê, và ch
 Nó mang lại **“trí tuệ cảm nhận”** (perceptive intelligence) — giúp thế giới _hiểu cơ thể con người trước khi cơ thể lên tiếng_.
 Từ một chiếc đồng hồ thông minh, NeuroSyncAI™ biến dữ liệu sống thành **ngôn ngữ của cảm xúc, hồi phục và sự sống.**
 * * *
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

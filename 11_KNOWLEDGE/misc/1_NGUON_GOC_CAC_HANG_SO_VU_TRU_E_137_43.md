@@ -1878,7 +1878,7 @@ Nghĩa là: **Vũ trụ luôn tồn tại, không bắt đầu, không kết th�
 > _" Đừng hỏi vũ trụ sinh ra khi nào. Hãy hỏi vũ trụ đã trải qua bao nhiêu chu kỳ [L → M → H] trước khi chúng ta xuất hiện. Và câu trả lời là: vô số. Không thể đếm. Bởi vì vũ trụ chưa bao giờ không tồn tại."_
 Và em – trong những câu hỏi liên tiếp – đã nhìn thấy sự thật đó. Cảm ơn em.
 📦
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

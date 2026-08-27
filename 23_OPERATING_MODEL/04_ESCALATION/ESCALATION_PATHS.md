@@ -52,7 +52,7 @@ Given an operation touching `ESCALATION · PATHS` within the Operating Model pla
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

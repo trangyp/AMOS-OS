@@ -529,7 +529,7 @@ Hạt 1mm **không nên nấu chín** (trên 45°C). Nhiệt độ cao phá hủ
   14. da Silva, B. P., et al. (2019). Omega-3 fatty acids in germinated chia seeds. _Food Research International_ , 123, 456-464.
 
 
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

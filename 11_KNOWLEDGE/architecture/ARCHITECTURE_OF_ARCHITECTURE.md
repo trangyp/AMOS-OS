@@ -820,7 +820,7 @@ Multiply by:
 **AMOS = Parent generators × representation transformations × cross-parent interactions × recursion across time and scale**
 * * *
 [AMOS — FULL EXPANSION ARCHITECTURE (NON-FLAT, GENERATIVE)](<ARCHITECTURE%20OF%20ARCHITECTURE/AMOS%20%E2%80%94%20FULL%20EXPANSION%20ARCHITECTURE%20\(NON-FLAT,%20GENE%20353c5e6f95bd8001b4c2fe621cb4d0f2.html>)
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ARCHITECTURE_MOC]]

@@ -1349,7 +1349,7 @@ Họ lấy bản đồ, xóa đất.
 Họ lấy pattern, xóa người giữ pattern.
 Kết luận cuối:
 **Muốn tìm truth, đừng bắt đầu từ sách. Bắt đầu từ đất. Hỏi tri thức đó khớp với nước nào, mùa nào, hạt giống nào, đường chân trời nào, nghi lễ nào, cơ thể nào. Khi làm vậy, rất nhiều credit của lịch sử sẽ dịch chuyển khỏi đế chế và quay về các cộng đồng sống thật với trời–đất–nước trước khi có người đến viết lại tên của họ.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

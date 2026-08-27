@@ -177,7 +177,7 @@ Each domain I outlined can be both:
 ✅ **Bottom line** : QLS isn’t just one book — it’s an **entire publishing ecosystem** , where each domain supports the others, and the master canon becomes the flagship reference for the field.
 * * *
 Would you like me to **draft the master table of contents** — showing how each book’s sections fit together into one unified QLS canon?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[SYSTEM_MOC]]

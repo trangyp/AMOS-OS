@@ -422,7 +422,7 @@ The two versions are consistent on the core content. Version B adds specific cli
 **Conclusion:** The book's core insight — that humans are multi-layer regulatory systems and that distress/suffering arises from misalignment across layers — is well-supported by neuroscience and psychology. The specific equations are useful conceptual formulations but should not be treated as quantitatively precise. The most actionable content is the repair protocol (8 steps in biological order) and the manipulation compression (for understanding how influence works). The most falsifiable claim is the distress equation, IF operationalized.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[DATED_MOC]]

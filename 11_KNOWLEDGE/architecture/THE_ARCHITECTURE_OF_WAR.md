@@ -2336,7 +2336,7 @@ If you want the next step executed (not outlined), choose one path and I will wr
 
 [Humain leadership ](<Humain%20leadership%20304c5e6f95bd8091bfa4c0bb30acce1a.html>)
 [Read](<Read%20300c5e6f95bd8061b421c41bda86257f.html>)
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ARCHITECTURE_MOC]]

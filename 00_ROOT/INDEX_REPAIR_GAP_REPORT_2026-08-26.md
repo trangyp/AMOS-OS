@@ -158,7 +158,7 @@ Extended bridge to cover ALL meaningful subdirectories:
 
 ---
 
-**Related:** [[00_ROOT_MOC]] · [[11_KNOWLEDGE_MOC]] · ARXIV_QFM_MOC · Cosmo_Brain_BRIDGE_INDEX · [[COGNITIVE_MATRIX_MOC]]
+**Related:** [[00_ROOT_MOC]] · [[KNOWLEDGE_MOC]] · ARXIV_QFM_MOC · Cosmo_Brain_BRIDGE_INDEX · [[COGNITIVE_MATRIX_MOC]]
 
 ---
 **MOC:** [[00_COSMO_BRAIN_MOC]]

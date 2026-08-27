@@ -54,15 +54,15 @@ aliases:
   - AMOS Constitutional Hierarchy
 
 related:
-  - "[[00_ROOT/README.md|AMOS OS]]"
-  - "[[00_ROOT/ARCHITECTURE.md|Architecture]]"
-  - "[[00_ROOT/SYSTEM_MAP.md|System Map]]"
-  - "[[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]]"
-  - "[[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]]"
+  - "[[README|AMOS OS]]"
+  - "[[ARCHITECTURE|Architecture]]"
+  - "[[SYSTEM_MAP|System Map]]"
+  - "[[AUTHORITATIVE_STATE|Authoritative State]]"
+  - "[[CANON_MAP|Canon Map]]"
   - "[[AMOS_CORE_LAWS|AMOS Core Laws]]"
   - "[[INVARIANT_REGISTRY|Invariant Registry]]"
-  - "[[02_KERNEL/00_INDEX/KERNEL_MAP.md|Kernel Map]]"
-  - "[[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|Control Plane Map]]"
+  - "[[KERNEL_MAP|Kernel Map]]"
+  - "[[CONTROL_PLANE_MAP|Control Plane Map]]"
 ---
 
 # AMOS Law Hierarchy
@@ -2144,17 +2144,17 @@ PASS
 
 ---
 
-**Related:** [[00_ROOT/README.md|AMOS OS]] · [[00_ROOT/00_ROOT_MOC.md|MOC]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/SYSTEM_MAP.md|System Map]] · [[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]] · [[00_ROOT/PLACEMENT_RULES.md|Placement Rules]] · [[00_ROOT/00_ROOT_NAMING_STANDARD.md|Naming Standard]] · AMOS Canon · [[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]] · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[INVARIANT_REGISTRY|Invariant Registry]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|Kernel Map]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|Control Plane Map]] · [[04_RUNTIME/00_INDEX/RUNTIME_MAP.md|Runtime Map]] · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP.md|Memory Map]] · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[12_STATE/00_INDEX/STATE_STATE_MAP.md|State Map]] · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP.md|Schema Map]] · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP.md|Observability Map]] · [[18_SECURITY/00_INDEX/SECURITY_MAP.md|Security Map]] · [[19_TESTS/00_INDEX/TEST_MAP.md|Tests]] · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP.md|Operations]]
+**Related:** [[README|AMOS OS]] · [[00_ROOT_MOC|MOC]] · [[ARCHITECTURE|Architecture]] · [[SYSTEM_MAP|System Map]] · [[AUTHORITATIVE_STATE|Authoritative State]] · [[PLACEMENT_RULES|Placement Rules]] · [[00_ROOT_NAMING_STANDARD|Naming Standard]] · AMOS Canon · [[CANON_MAP|Canon Map]] · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[INVARIANT_REGISTRY|Invariant Registry]] · [[KERNEL_MAP|Kernel Map]] · [[CONTROL_PLANE_MAP|Control Plane Map]] · [[RUNTIME_MAP|Runtime Map]] · [[MEMORY_MEMORY_MAP|Memory Map]] · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[STATE_STATE_MAP|State Map]] · [[SCHEMA_MAP|Schema Map]] · [[OBSERVABILITY_OBSERVABILITY_MAP|Observability Map]] · [[SECURITY_MAP|Security Map]] · [[TEST_MAP|Tests]] · [[OPERATIONS_MAP|Operations]]
 
 ```
 ```
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2162,7 +2162,7 @@ node_id: law_hierarchy
 node_type: note
 path: 01_CANON/01_CORE_LAWS/LAW_HIERARCHY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

@@ -212,7 +212,7 @@ The next frontier will shift from building external instruments to refining cogn
 Science, therefore, is not merely a discovery of external laws but the living articulation of biological stability. To understand why experiments are logical is to understand the biological foundation of reason itself.
 * * *
 Would you like me to produce a **publication-ready version** (formatted as a full academic manuscript with keywords, citations, and author note) next — suitable for submission to a philosophy or consciousness studies journal?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ARCHITECTURE_MOC]]

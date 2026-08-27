@@ -58,16 +58,16 @@ aliases:
   - AMOS Dimensional Semantics Registry
 
 related:
-  - "[[00_ROOT/README.md|AMOS OS]]"
-  - "[[00_ROOT/ARCHITECTURE.md|Architecture]]"
-  - "[[00_ROOT/00_ROOT_NAMING_STANDARD.md|Naming Standard]]"
-  - "[[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]]"
+  - "[[README|AMOS OS]]"
+  - "[[ARCHITECTURE|Architecture]]"
+  - "[[00_ROOT_NAMING_STANDARD|Naming Standard]]"
+  - "[[CANON_MAP|Canon Map]]"
   - "[[SYMBOL_REGISTRY|Symbol Registry]]"
   - "[[INVARIANT_REGISTRY|Invariant Registry]]"
   - "[[AMOS_CORE_LAWS|AMOS Core Laws]]"
   - "[[HML_CANON|H/M/L Canon]]"
   - "[[PERSISTENCE_CANON|Persistence Canon]]"
-  - "[[16_SCHEMAS/00_INDEX/SCHEMA_MAP.md|Schema Map]]"
+  - "[[SCHEMA_MAP|Schema Map]]"
 ---
 
 # AMOS Unit Registry
@@ -4025,17 +4025,17 @@ KEEP IT UNKNOWN/GAP.
 
 ---
 
-**Related:** [[00_ROOT/README.md|AMOS OS]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/00_ROOT_NAMING_STANDARD.md|Naming Standard]] · [[00_ROOT/PLACEMENT_RULES.md|Placement Rules]] · [[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]] · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[INVARIANT_REGISTRY|Invariant Registry]] · [[LAW_HIERARCHY|Law Hierarchy]] · [[SYMBOL_REGISTRY|Symbol Registry]] · [[HML_CANON|H/M/L Canon]] · [[PERSISTENCE_CANON|Persistence Canon]] · [[COGNITION_CANON|Cognition Canon]] · [[INFRASTRUCTURE_CANON|Infrastructure Canon]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|Kernel Map]] · [[04_RUNTIME/00_INDEX/RUNTIME_MAP.md|Runtime Map]] · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP.md|Cognitive Organism Map]] · Knowledge Map · [[12_STATE/00_INDEX/STATE_STATE_MAP.md|State Map]] · [[13_MODELS/00_INDEX/MODEL_MAP.md|Model Map]] · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP.md|Schema Map]] · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP.md|Observability Map]] · [[19_TESTS/00_INDEX/TEST_MAP.md|Test Map]] · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README.md|Research]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE.md|Cognitive Matrix]]
+**Related:** [[README|AMOS OS]] · [[ARCHITECTURE|Architecture]] · [[00_ROOT_NAMING_STANDARD|Naming Standard]] · [[PLACEMENT_RULES|Placement Rules]] · [[CANON_MAP|Canon Map]] · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[INVARIANT_REGISTRY|Invariant Registry]] · [[LAW_HIERARCHY|Law Hierarchy]] · [[SYMBOL_REGISTRY|Symbol Registry]] · [[HML_CANON|H/M/L Canon]] · [[PERSISTENCE_CANON|Persistence Canon]] · [[COGNITION_CANON|Cognition Canon]] · [[INFRASTRUCTURE_CANON|Infrastructure Canon]] · [[KERNEL_MAP|Kernel Map]] · [[RUNTIME_MAP|Runtime Map]] · [[COGNITIVE_ORGANISM_MAP|Cognitive Organism Map]] · Knowledge Map · [[STATE_STATE_MAP|State Map]] · [[MODEL_MAP|Model Map]] · [[SCHEMA_MAP|Schema Map]] · [[OBSERVABILITY_OBSERVABILITY_MAP|Observability Map]] · [[TEST_MAP|Test Map]] · [[INDEX_RESEARCH_README|Research]] · [[COGNITIVE_MATRIX_ARCHITECTURE|Cognitive Matrix]]
 
 ```text
 ```
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -4043,7 +4043,7 @@ node_id: unit_registry
 node_type: note
 path: 01_CANON/05_VARIABLE_REGISTRY/UNIT_REGISTRY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

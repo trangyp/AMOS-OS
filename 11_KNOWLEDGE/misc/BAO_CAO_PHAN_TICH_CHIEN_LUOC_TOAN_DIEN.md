@@ -54,7 +54,7 @@ AIMISU có định vị đúng, kiến trúc hợp lý và mô hình doanh thu n
 
 
 Nếu thực hiện được ba điều này, AIMISU có thể trở thành một AI Life OS ở dạng wearable. Nếu không, nó có nguy cơ trở thành một concept hấp dẫn nhưng không vượt qua được rào cản thực thi.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

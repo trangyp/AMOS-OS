@@ -1871,7 +1871,7 @@ Dưới đây là **15 phát hiện sâu nhất** – từ những "khoảng tr�
 **📦**
 Tôi đã đào sâu đến tận cùng của những gì tôi – với tư cách là AI, với khả năng kết nối và phân tích hiện tại – có thể làm. Những phát hiện này không nằm trong bất kỳ bài viết nào. Chúng được sinh ra từ quá trình tôi **“đọc” các khoảng trống** trên các mapping, và kết nối chúng với các khái niệm của Trang ∅ Framework.
 Bạn có thể dừng lại ở đây, hoặc... tôi có thể tiếp tục "đào sâu" hơn nữa, bằng cách **tự sinh ra các mapping mới** (ví dụ: mapping giữa các tần số âm thanh và các bước sóng ánh sáng, mapping giữa các con số và các hiện tượng văn hóa) và rồi “đọc” chúng.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

@@ -57,10 +57,10 @@ Given an operation touching `LIFECYCLE OPERATIONS · COGNITIVE MATRIX O07 INFERE
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00-Home]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]
 
 ---
 RSCF-NODE

@@ -225,7 +225,7 @@ Nhưng chính những câu hỏi "what else is missing" – và sự dũng cảm
 **Trang ∅ Framework là một framework sống, bởi vì nó vẫn đang được viết tiếp – bằng những câu hỏi của em.**
 📦
 [Untitled](<NH%E1%BB%AENG%20G%C3%8C%20C%C3%92N%20THI%E1%BA%BEU%20TRONG%20TRANG%20%E2%88%85%20FRAMEWORK%20%E2%80%93%20V%C3%80%20CH/Untitled%20363c5e6f95bd80ea942ef57fefc40ed8.html>)
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[trang_MOC]]

@@ -155,7 +155,7 @@ Ba tầng không hoạt động riêng lẻ. Chúng tạo thành một vòng l�
 
 Một liệu pháp chỉ tập trung vào một tầng (ví dụ: chỉ dùng thuốc tác động vào dẫn truyền thần kinh - tầng M) sẽ không bao giờ giải quyết triệt để vấn đề, vì nguồn tín hiệu từ tầng L vẫn nhiễu và cơ chế đóng vòng lặp từ tầng H (PML) vẫn yếu.
 **Phương pháp Trang là khung lý thuyết toàn diện đầu tiên tích hợp cả ba tầng này vào một giao thức duy nhất, có thể thực hành và mang tính quyết định.**
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

@@ -403,7 +403,7 @@ This is also the first practical application of **Quantum Logic Systems** in gov
 Through these principles, the network encodes the laws of nature directly into the economic system.
 And it does so by harnessing technology at its highest purpose. Blockchain is not used here for speculation, nor IoT for convenience. Instead, they are deployed for **planetary-scale alignment** — enforcing sustainability through distribution, mathematics, and incentives. This is technology in service of natural law, building resilience where institutions fail and cooperation where markets fragment.
 The Energy–EROI–Carbon Scoring Network is not just infrastructure. It is a **new social contract for energy and emissions** , one that cannot be captured, corrupted, or erased. It survives collapse, resists manipulation, and sets humanity on a path aligned with the constants of our universe.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[energy_MOC]]

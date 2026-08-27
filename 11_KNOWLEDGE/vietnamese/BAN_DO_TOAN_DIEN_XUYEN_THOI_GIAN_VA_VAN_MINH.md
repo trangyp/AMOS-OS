@@ -512,7 +512,7 @@ Vì nó là bản đồ hiện tượng, không phải engine sinh quyết đị
 \boxed{AMOS\ Core =Origin\rightarrowTransform\rightarrowScale\rightarrowDeviation\rightarrowRecurrence\rightarrowInvariant\rightarrowAttractor\rightarrowCapacity\rightarrowFeedback\rightarrowIntegrity\rightarrowPermission}
 Câu đúng nhất:
 **Heritage Map cho biết hiện tượng nằm ở đâu.AMOS Core quyết định hiện tượng đó có hợp lệ, lặp thật, giữ invariant, còn trong capacity, và được phép hành động hay không.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

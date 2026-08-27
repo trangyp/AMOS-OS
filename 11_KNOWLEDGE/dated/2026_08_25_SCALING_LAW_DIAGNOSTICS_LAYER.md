@@ -34,7 +34,7 @@ The corpus names power laws, Zipf rankings, and fBm everywhere (FR012–FR014 in
 A-matrix cascade magnitudes, UCP historical-collapse frequencies, vault file-size distributions, and agent-count claims all become auditable under one pipeline — and the RG bridge's exponent tables now have a quality floor.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[DATED_MOC]]

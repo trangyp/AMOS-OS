@@ -56,7 +56,7 @@ source: 11_KNOWLEDGE/math
 }
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]] · AMOS_Sector_Definition_Pack_v0_Template_Template_Template
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]] · AMOS_Sector_Definition_Pack_v0_Template_Template_Template
 ```
 
 ---

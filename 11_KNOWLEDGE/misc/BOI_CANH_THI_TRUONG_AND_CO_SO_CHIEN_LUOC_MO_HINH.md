@@ -178,7 +178,7 @@ Bảng khung (điền số sau khi chốt giá xe/thu nhập/định mức ca):
 
 => Với bối cảnh này, mô hình “sinh viên + xe điện” không phải ngách nhỏ; nó là lớp người dùng tương lai của chuyển đổi phương tiện, và có thể được “tổ chức hóa” bằng kỷ luật dòng tiền.
 * * *
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

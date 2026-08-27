@@ -543,7 +543,7 @@ Trong bối cảnh chiến tranh kéo dài, năng lượng trở thành rủi ro
 * * *
 ### **5) Kết luận điều hành**
 Muốn **nhiều tiền nhất** , Việt Nam phải đầu tư vào **những thứ khiến tiền yên tâm ở lại** , không phải những thứ hứa lợi nhuận cao ngắn hạn. **Năng lượng, logistics, hạ tầng chuẩn và sản xuất chiến lược** là bốn trụ. Khi bốn trụ này đủ dày, dòng tiền sẽ tự tăng, C3 không phải gánh, và tăng trưởng trở thành bền.
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

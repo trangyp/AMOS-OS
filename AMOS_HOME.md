@@ -8,7 +8,7 @@ tags: [note, vault]
 
 ## Vault MOCs and tools
 
-- [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]] — AMOS OS master map
+- [[00_ROOT_MOC|AMOS MOC]] — AMOS OS master map
 - [[KNOWLEDGE_MOC|11_KNOWLEDGE MOC]] — knowledge layer index
 - [[COSMO_BRAIN_MOC|00 Cosmo Brain MOC]] — Cosmo Brain index
 - [[AMOS_OBSIDIAN_LINKING_PLUGINS]] — Obsidian linking plugin stack
@@ -86,3 +86,4 @@ FROM ""
 WHERE length(file.inlinks) = 0 AND length(file.outlinks) = 0
 LIMIT 20
 ```
+- [[AGENTS]]

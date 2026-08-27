@@ -227,7 +227,7 @@ The **Unified Biological Intelligence™** audit **does not rely on superstition
 > ✅ This mapping honours the ancestral Vietnamese and Chinese long mạch systems
 > ✅ It removes abstraction and superstition by verifying effects through **nervous system-based diagnostics**
 > ✅ It replaces **metaphysical geomancy** with **biological terrain design** , preserving integrity while advancing logic
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

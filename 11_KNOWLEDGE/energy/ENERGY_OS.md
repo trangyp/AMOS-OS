@@ -504,7 +504,7 @@ Mình có thể đi tiếp theo 1 trong 3 hướng sâu nhất (bạn chỉ cầ
 
 
 Nếu bạn không chọn, mình sẽ mặc định làm **A (Energy OS)** vì đó là “lõi min cost” và là thứ giúp bạn khác biệt thật.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[energy_MOC]]

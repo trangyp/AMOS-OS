@@ -40,7 +40,7 @@ Gates 10+13 · UBCAR 8 · Pipeline 11/11 · MURK 10 · DMER 21 · TS vitest 1142
 5e36e46 → aad3623 → 5e8f26a → 8c3b7ae → 1edfcdb → 3c06290 → 0ce6330 → ff20a59 → 8c3b7ae-line → 39ce307 → 5971cef → 2371370 → de395f7 → 73736ce → 256d128 → 0b0d1cc → (MOC) → (max-power sync)
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass15-corpus-depth]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-qfm-pass4-runtime-sync]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · 2026-08-25-qfm-pass15-corpus-depth · 2026-08-25-qfm-pass5-zero-empty · 2026-08-25-qfm-pass4-runtime-sync
 
 ---
 **MOC:** [[DATED_MOC]]

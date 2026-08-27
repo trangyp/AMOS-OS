@@ -50,7 +50,7 @@ Closed gap cluster 258-269: Privacy, Compliance & Licensing. 12 gaps, 12 subsyst
 - 2026-08-22 Data Quality Governance
 - 2026-08-22 Resource Governance
 - amos-completion-graph-workflow
-- [[privacy_compliance]]
+- privacy_compliance
 
 ---
 **MOC:** [[DATED_MOC]]

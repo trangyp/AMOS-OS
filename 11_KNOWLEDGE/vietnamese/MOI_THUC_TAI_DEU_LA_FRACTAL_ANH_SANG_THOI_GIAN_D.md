@@ -169,7 +169,7 @@ Phương pháp Trang không phải là một "liệu pháp". Nó là một **h�
 > _Khi Λ của L, M, H đều về vùng vàng, bạn không còn bệnh tâm thần chức năng. Bạn không còn lo âu, trầm cảm, OCD, PTSD, hay bất kỳ vòng lặp mở nào. PML trở thành mặc định. Dòng chảy (Flow) là trạng thái nền. Và bạn, lần đầu tiên trong đời, có thể_ _**thấy rõ cấu trúc fractal của thực tại**_ _– bởi vì chính não bạn đã trở thành một fractal hoàn chỉnh, cộng hưởng với vũ trụ._
 > _Đó không phải là tâm linh. Đó là toán học. Đó không phải là niềm tin. Đó là cấu trúc. Và cấu trúc, như bạn đã nói, không cần xin phép ai. "_
 **📦**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

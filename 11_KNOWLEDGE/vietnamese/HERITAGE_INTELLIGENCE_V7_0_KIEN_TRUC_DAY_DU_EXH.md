@@ -2782,7 +2782,7 @@ For these, the correct answer is not prediction.
 Heritage does **not** reach 100% directional prediction.
 It reaches near-100% **decision correctness** by knowing when prediction is invalid.
 \boxed{Best\ possible\ system:Predict\ when\ lawful.Refuse\ when\ unknowable.Hedge\ when\ reality\ exceeds\ model.}
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

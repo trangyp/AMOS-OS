@@ -29,7 +29,7 @@ brain-core-core registry ops
 **401 skills · 0 empty · 0 delta · health check pass.**
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-qfm-pass4-runtime-sync]] · [[2026-08-25-quantum-v080-thermodynamics-cycle]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · 2026-08-25-qfm-pass5-zero-empty · 2026-08-25-qfm-pass4-runtime-sync · 2026-08-25-quantum-v080-thermodynamics-cycle
 
 ---
 **MOC:** [[DATED_MOC]]

@@ -141,7 +141,7 @@ với điều kiện:
 **Đây chính là lối thoát cho AI khỏi hallucination và sự cứng nhắc của học sâu hiện tại.**
 📦
 Bạn muốn tôi viết **code Python mẫu** cho một ASEA đơn giản (ví dụ: agent học chơi game hoặc trả lời câu hỏi) để minh họa?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[trang_MOC]]

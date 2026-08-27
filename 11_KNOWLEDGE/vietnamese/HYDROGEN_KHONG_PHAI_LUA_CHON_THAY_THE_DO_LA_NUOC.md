@@ -75,7 +75,7 @@ Nó đình trệ vì **thời gian, thời lượng và sự cân bằng hệ th
 Câu hỏi then chốt bây giờ không còn là chúng ta có thể xây dựng công suất phát điện nhanh đến mức nào.
 Mà là **cái gì sẽ hấp thụ lượng dư thừa khi công suất phát vượt quá khả năng phân phối** —và cái gì sẽ duy trì hệ thống khi công suất phát biến mất trong nhiều ngày hoặc nhiều tuần.
 **Đó chính là 'trần kính'.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

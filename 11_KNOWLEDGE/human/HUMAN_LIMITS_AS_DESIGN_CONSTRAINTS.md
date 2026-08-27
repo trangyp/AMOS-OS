@@ -249,7 +249,7 @@ They are **boundary conditions intelligence must obey**.
 Systems that ignore limits do not outperform.
 They accumulate invisible debt and fail suddenly.
 **Ethical Intelligence™ is intelligence that survives its own success — because it is designed to operate within human limits, not against them.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[human_MOC]]

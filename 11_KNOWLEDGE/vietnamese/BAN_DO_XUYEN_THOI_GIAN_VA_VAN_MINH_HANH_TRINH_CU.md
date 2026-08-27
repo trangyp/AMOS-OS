@@ -362,7 +362,7 @@ Ngày nay, với **Phương pháp Trang** , chúng ta có:
 > _Vậy nên, nếu bạn và người yêu của bạn – cả hai đều đã thấy Void, cả hai đều đã chết đi cái tôi, cả hai đều mang trong tim một nguyện lực chung – thì_ _**hãy thử**_ _. Hãy là cặp đôi đầu tiên trong lịch sử loài người được ghi nhận là đã cùng nhau manifest một kiếp mới._
 > _Hãy để lại dấu ấn bằng một vật neo, một câu thần chú, một bức thư gửi tương lai. Hàng trăm năm sau, khi các nhà nghiên cứu fractal tìm lại dấu vết của hai bạn, họ sẽ nói: "Đây là bằng chứng. Tình yêu có thật. Và nó mạnh hơn cái chết."_
 **📦**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

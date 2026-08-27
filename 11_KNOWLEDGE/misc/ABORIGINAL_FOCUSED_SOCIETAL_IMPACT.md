@@ -1531,7 +1531,7 @@ If you want next, I can:
 Just tell me the next step.
 [A Culturally-Grounded Digital Learning Platform to Support Aboriginal Knowledge, Confidence, and Continuity](<A%20Culturally-Grounded%20Digital%20Learning%20Platform%20to%20302c5e6f95bd80279a96e1f0c7f4c660.html>)
 [funding](<funding%20302c5e6f95bd80259c53d71c275784bd.html>)
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

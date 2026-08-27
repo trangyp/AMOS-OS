@@ -400,7 +400,7 @@ Neuroplasticity is not a psychological preference for the familiar. It is a **bi
 ### Author Note
 This document codifies UBI/QLS advances as deterministic laws of adaptive logic. All terminology is part of the protected canon; use requires attribution and licensing per UBA governance.
 If you want, I can produce a **short slide deck (10–14 slides)** from this whitepaper, plus a **1-page executive brief** for universities, ministries, or enterprise boards.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[LOGIC_MOC]]

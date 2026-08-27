@@ -125,7 +125,7 @@ Civilizational patterns follow these rules across time.
 # **6\. Summary**
 The Law of Law™, the Rule of 2™, and the Rule of 4™ are the meta-governance principles that unify the entire Trang System™. They ensure that all frameworks remain internally coherent, structurally aligned, and universally applicable. Together, they provide the foundation upon which prediction, alignment, causality, inheritance, biological intelligence, and civilizational analysis operate. These laws form the core architecture that transforms the Trang System™ from a set of models into a unified, deterministic, civilization-scale framework.
 * * *
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

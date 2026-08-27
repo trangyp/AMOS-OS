@@ -2284,7 +2284,7 @@ No stronger claim is licensed by the supplied evidence.
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
 
@@ -2314,7 +2314,7 @@ RSCF-RELATIONS:
 
 * INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+* INDEXED_BY: [[00_ROOT_MOC|AMOS MOC]]
 
 * INDEXED_BY: AMOS_RSCF_NODES
 

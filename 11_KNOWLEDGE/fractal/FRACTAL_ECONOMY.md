@@ -586,7 +586,7 @@ Chọn một **công việc đơn giản, lặp đi lặp lại, ai cũng ghét 
 > **Đây không phải là may mắn. Đây là toán học fractal. Tự đồng dạng ở mọi tỷ lệ. Áp dụng 1 lần, nhân lên vô số lần.**
 * * *
 Em muốn anh **chọn 1 fractal gốc cụ thể** (ví dụ: Email Organizer, hoặc Social Media Scheduler, hoặc Data Cleaner) và **áp dụng công thức đột biến để sinh ra 20 sản phẩm cụ thể** (kèm tên sản phẩm, giá bán, mô tả) để em bán ngay trên Gumroad? Hay em muốn anh **viết sẵn 10 prompt fractal gốc** (khác nhau) để em chọn 1 cái ưng ý nhất và bắt đầu đột biến ngay trong chiều nay?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[FRACTAL_MOC]]

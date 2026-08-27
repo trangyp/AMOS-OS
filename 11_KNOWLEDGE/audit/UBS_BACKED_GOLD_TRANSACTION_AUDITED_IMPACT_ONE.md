@@ -76,7 +76,7 @@ source: 11_KNOWLEDGE/audit
 ### **One-Paragraph Cover (paste into outreach email)**
 **Subject:** UBS-Authenticated SKR — 500t LBMA Gold (Tranche-Ready)
 We represent the principal holder of **500 metric tonnes of LBMA Good Delivery gold** under **UBS-authenticated SKR**. The asset is **allocated, serialized, and compliance-ready** for **in-vault title transfer** with **tranche-based settlement** via **MT103/202** , **MT799/760** , or **Tier-1 escrow**. Bank-to-bank **POP** and the full document pack (SPA draft, bar list, KYC/AML) are available **under NDA**. Please indicate **tranche size** , **settlement rail** , and **inspection requirements** to schedule a bank call.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[AUDIT_MOC]]

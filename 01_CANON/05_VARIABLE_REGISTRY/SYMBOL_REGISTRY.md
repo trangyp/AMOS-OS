@@ -2201,17 +2201,17 @@ REGISTER THE GAP RATHER THAN FABRICATE THE MEANING.
 
 ---
 
-**Related:** [[00_ROOT/README.md|AMOS OS]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/00_ROOT_NAMING_STANDARD.md|Naming Standard]] · [[00_ROOT/PLACEMENT_RULES.md|Placement Rules]] · [[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]] · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[INVARIANT_REGISTRY|Invariant Registry]] · [[LAW_HIERARCHY|Law Hierarchy]] · [[HML_CANON|HML Canon]] · [[PERSISTENCE_CANON|Persistence Canon]] · [[AUTHORITY_CANON|Authority Canon]] · [[CONTROL_PLANE_CANON|Control Plane Canon]] · [[INFRASTRUCTURE_CANON|Infrastructure Canon]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|Kernel Map]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|Control Plane Map]] · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP.md|Schema Map]] · Registry Schemas · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP.md|Observability Map]] · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL.md|Operating Model]]
+**Related:** [[README|AMOS OS]] · [[ARCHITECTURE|Architecture]] · [[00_ROOT_NAMING_STANDARD|Naming Standard]] · [[PLACEMENT_RULES|Placement Rules]] · [[CANON_MAP|Canon Map]] · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[INVARIANT_REGISTRY|Invariant Registry]] · [[LAW_HIERARCHY|Law Hierarchy]] · [[HML_CANON|HML Canon]] · [[PERSISTENCE_CANON|Persistence Canon]] · [[AUTHORITY_CANON|Authority Canon]] · [[CONTROL_PLANE_CANON|Control Plane Canon]] · [[INFRASTRUCTURE_CANON|Infrastructure Canon]] · [[KERNEL_MAP|Kernel Map]] · [[CONTROL_PLANE_MAP|Control Plane Map]] · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[SCHEMA_MAP|Schema Map]] · Registry Schemas · [[OBSERVABILITY_OBSERVABILITY_MAP|Observability Map]] · [[OPERATING_MODEL|Operating Model]]
 
 ```text
 ```
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2219,7 +2219,7 @@ node_id: symbol_registry
 node_type: note
 path: 01_CANON/05_VARIABLE_REGISTRY/SYMBOL_REGISTRY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

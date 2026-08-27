@@ -43,7 +43,7 @@ A unique layer representing the *absence of time as a category*.
 This model acts as a structural foundation for other engines (like the Emotion Engine, Consciousness Engine, and HSE Engine). When reasoning about human behavior, trauma, or cultural shifts, AMOS agents refer to the defined clusters and states within this model to ensure consistency and precision in terminology and trajectory.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MODELS_MOC]]

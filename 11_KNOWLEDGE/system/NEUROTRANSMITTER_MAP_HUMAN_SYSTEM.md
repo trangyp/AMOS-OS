@@ -124,7 +124,7 @@ Different subtypes have different distributions, signaling pathways, and functio
 - 2026-08-22 The Complete Human System — Books One–Six — alternate version
 - Memory — The Complete Human System — integrated insights with epistemic audit
 - [[00_COSMO_BRAIN_MOC]] — vault index
-- [[docs/moc/06-Knowledge-Base-MOC]] — knowledge base index
+- [[KNOWLEDGE_MOC]] — knowledge base index
 
 ---
 **MOC:** [[SYSTEM_MOC]]

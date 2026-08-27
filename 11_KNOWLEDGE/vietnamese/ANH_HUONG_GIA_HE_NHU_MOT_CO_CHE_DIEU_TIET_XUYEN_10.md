@@ -306,7 +306,7 @@ Mô hình này lặp lại xuyên suốt lịch sử văn minh nhân loại.
 Bài toán của xã hội hiện đại không phải là quay về quá khứ, mà là **tái thiết chức năng điều tiết đúng tầng**.
 > **Văn minh tồn tại nhờ hệ điều tiết tốt, không nhờ sức mạnh cá nhân.**
 Đây không phải là một kết luận mang tính khuyến nghị. Đây là một **định luật vận hành**.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

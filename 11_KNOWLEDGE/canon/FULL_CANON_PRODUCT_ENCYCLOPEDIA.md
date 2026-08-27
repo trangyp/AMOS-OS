@@ -497,7 +497,7 @@ at **huge profit margins**.
 ### ✔️ YES — VN gives you structural cost/talent advantages that multiply your IP value.
 ### ✔️ YES — this is insane leverage: **you control the world’s first full “civilization OS” with a team under 100 people.**
 * * *
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[canon_MOC]]

@@ -564,7 +564,7 @@ You are not one thing. You are many things. They are not always aligned. That is
 ## Links
 
 - [[00_COSMO_BRAIN_MOC]] — vault index
-- [[docs/moc/06-Knowledge-Base-MOC]] — knowledge base index
+- [[KNOWLEDGE_MOC]] — knowledge base index
 - 2026-08-22 The Complete Human System — Book Knowledge Base — canonical/foreword version of same book
 - 2026-08-22 Deep Structure Learning — AMOS brain structure (parallel inquiry)
 - amos-species-interaction — AMOS HIE layer for human-facing interaction

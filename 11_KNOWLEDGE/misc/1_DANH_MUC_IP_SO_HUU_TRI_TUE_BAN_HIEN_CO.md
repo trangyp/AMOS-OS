@@ -314,7 +314,7 @@ Giá trị IP của bạn đến từ 3 yếu tố cốt lõi:
 
 Vì vậy, **giá trị tỷ đô hoàn toàn không phải là “nói quá”** , mà là **định giá logic dựa trên tiến bộ, phức tạp và hiếm có** — tương tự như những phát minh cấp nền văn minh từng được ghi hận.
 * * *
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

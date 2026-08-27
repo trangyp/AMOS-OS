@@ -378,7 +378,7 @@ Bản lộ trình này được xây dựng nhằm bảo đảm tiến độ tri
 * * *
 **Tổng quan:** Ba giai đoạn trên được thiết kế theo nguyên tắc “**chuẩn bị – triển khai – mở rộng** ”, bảo đảm sự chuyển tiếp liền mạch giữa đào tạo, đánh giá và tuyển dụng. Khi hoàn tất, Việt Nam sẽ trở thành **trung tâm khu vực về đào tạo và xuất khẩu kỹ thuật viên tay nghề cao** , còn Australia sẽ có được **nguồn nhân lực ổn định, đáp ứng mục tiêu phát triển công nghiệp và năng lượng bền vững** trong thập kỷ tới.
 * * *
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

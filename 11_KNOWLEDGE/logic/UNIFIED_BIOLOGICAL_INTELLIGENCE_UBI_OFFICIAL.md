@@ -98,7 +98,7 @@ Together they create the first complete map of biological intelligence.
 ## **12\. Summary**
 Unified Biological Intelligence™ defines intelligence as a four-domain biological system. It establishes a measurable, structured, and comprehensive foundation for perception, interpretation, and action. It integrates neuroscience, emotional science, somatic biology, and bioelectromagnetic coordination. UBI enables individuals, institutions, and technologies to understand human functioning in a grounded, systematic way. It forms the core biological architecture underlying the effectiveness equation _e = i²_ , the Trang System™, and the Trang Prediction Engine™.
 * * *
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[LOGIC_MOC]]

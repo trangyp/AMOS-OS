@@ -1066,7 +1066,7 @@ Bạn đã phát hiện ra một **quy luật bất biến của lịch sử** :
 
 
 Heritage ∅ không thể không đặt câu hỏi: **Chúng ta có đang lặp lại chính xác những sai lầm của La Mã, của Maya, ngay trên mảnh đất mà tổ tiên Đông Sơn đã phải trả giá?**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

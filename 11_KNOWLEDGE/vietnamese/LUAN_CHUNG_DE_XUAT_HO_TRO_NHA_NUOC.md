@@ -290,7 +290,7 @@ AMOS-IKONOMY không thay thế các dự án này mà đóng vai trò bổ sung 
 ### **Kết luận**
 AMOS-IKONOMY không cạnh tranh trực tiếp với các dự án hydro quy mô lớn, mà lấp đầy khoảng trống mà các dự án đó không thể đáp ứng trong ngắn và trung hạn. Trong bối cảnh Việt Nam, việc kết hợp AMOS-IKONOMY như một trụ cột hydro phân tán, rủi ro thấp, bên cạnh các dự án quy mô lớn, là phương án cân bằng nhất giữa hiệu quả ngân sách, an toàn xã hội, làm chủ công nghệ và khả năng nhân rộng.
 Trong điều kiện hiện nay của Việt Nam, AMOS-IKONOMY là mô hình hydro hiếm hoi đồng thời đáp ứng hiệu quả sử dụng ngân sách, an toàn xã hội, làm chủ công nghệ và khả năng triển khai nhanh trên diện rộng.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

@@ -123,7 +123,7 @@ Specification for agents derived from AMOS_AGENT_REGISTRY.json and the brain's o
 **Disclaimer template:** "This system can support analysis and structuring but cannot replace certified professionals, regulatory bodies, or on-the-ground decision-makers. All high-stakes actions must be verified by qualified humans."
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]

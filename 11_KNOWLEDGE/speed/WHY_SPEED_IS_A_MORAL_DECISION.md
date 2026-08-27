@@ -298,7 +298,7 @@ It is about **who gets to think, who gets to object, and who pays when things br
 Systems that worship speed sacrifice care.
 Systems that slow down preserve legitimacy.
 **Ethical Intelligence™ treats speed as a moral variable — because once a system outruns responsibility, harm becomes inevitable and denial becomes policy.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[speed_MOC]]

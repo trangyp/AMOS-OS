@@ -293,7 +293,7 @@ Both systems eliminate institutional control by replacing it with protocol-level
 
 * * *
 ✅ **Summary:** This masterplan decentralises energy, EROI, and carbon scoring into a Bitcoin-class infrastructure. It ensures that measurement, verification, and scoring are permissionless, reproducible, and resistant to manipulation. By embedding Quantum Logic principles into its architecture, it builds the foundation for a planetary system of reliable baselines — governed by protocols, not institutions.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[energy_MOC]]

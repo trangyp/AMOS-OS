@@ -183,7 +183,7 @@ Given an operation touching `25_COGNITIVE_MATRIX · MATRIX` within the Cognitive
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
 

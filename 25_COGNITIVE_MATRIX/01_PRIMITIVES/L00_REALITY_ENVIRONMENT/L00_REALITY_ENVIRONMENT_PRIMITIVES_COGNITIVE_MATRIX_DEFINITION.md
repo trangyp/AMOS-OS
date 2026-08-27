@@ -2980,14 +2980,14 @@ The architectural purpose of `L00_REALITY_ENVIRONMENT` is therefore to keep AMOS
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Reality_Simulation_Distinction · AMOS_Measurement_Integrity · AMOS_Information_Boundary_Governor · Cosmo_Brain_BRIDGE_INDEX · AMOS_Execution_Provenance_Replay · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Reality_Simulation_Distinction · AMOS_Measurement_Integrity · AMOS_Information_Boundary_Governor · Cosmo_Brain_BRIDGE_INDEX · AMOS_Execution_Provenance_Replay · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2995,7 +2995,7 @@ node_id: l00_reality_environment_primitives_cognitive_matrix_definition
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_DEFINITION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

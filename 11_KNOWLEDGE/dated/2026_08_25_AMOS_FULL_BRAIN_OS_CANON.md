@@ -271,7 +271,7 @@ The pipeline is a governance-aware demonstration, not a complete brain. The 3 CR
 *Stored 2026-08-25 per user request. Validated against 00_AMOS_Full_Brain_OS_Architecture.md and AMOS_FULL_BRAIN_OS.json.*
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[DATED_MOC]]

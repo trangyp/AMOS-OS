@@ -1979,7 +1979,7 @@ META\n========================================\n\nThis installer can be extended
 {"name": "6dc731c0-5244-4ded-b58e-698a1f780f7a_Planetary-Scale_Intelligence_(PSI)__Official_Manual_.pdf", "size_bytes": 93877, "suffix": ".pdf"}, {"name": "7bbb5fc2-c362-4526-9560-6d016d67bedf_Unified_Coherence_Protocol_(UCP)__Official_Manual_.pdf", "size_bytes": 54160, "suffix": ".pdf"}, {"name": "10ff6daf-8008-4b56-9da4-0a3aa49bcc3d_The_Law_of_Law_The_Rule_of_2_and_The_Rule_of_4__Official_Manual.pdf", "size_bytes": 75554, "suffix": ".pdf"}, {"name": "9ceebcfa-ae92-424e-897b-52e0cc336ec7_Quantum_Causality_Layer_Architecture_(QCLA)__Official_Manual.pdf", "size_bytes": 230054, "suffix": ".pdf"}, {"name": "8ce41027-6dbd-48e3-8bdd-759545b09590_The_Trang_System_(TSS)__Official_Manual.pdf", "size_bytes": 100749, "suffix": ".pdf"}, {"name": "17a3c7f7-caf1-423f-8601-eea4440923cb_The_Equation_e__i__Official_Manual_.pdf", "size_bytes": 153830, "suffix": ".pdf"}, {"name": "87dd08a9-0edd-419e-9928-3afb1e99a739_Cross-Civilizational_Intelligence_(CCI)__Official_Manual_.pdf", "size_bytes": 455760, "suffix": ".pdf"}, {"name": "38e498b6-6313-4b6b-a09e-d5943bcbfb58_Quantum_Logic_Scaffold_(QLS)__Official_Manual.pdf", "size_bytes": 155926, "suffix": ".pdf"}, {"name": "6354A5CC-F433-4AC1-9ED8-EBD199E18C83.png", "size_bytes": 45585, "suffix": ".png"}]}
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 ```
 
 ---

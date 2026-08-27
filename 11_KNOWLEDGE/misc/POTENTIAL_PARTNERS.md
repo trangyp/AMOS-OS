@@ -17,7 +17,7 @@ Vo Nguyen Giap
 https://www.instagram.com/p/DNN6eXiTEHN/?img_index=7&igsh=ZHNmNGdxOWU5Z3pv
 https://www.ashoka.org/en-gb
 [![](Potential%20partners/1000082206.jpg)](<Potential%20partners/1000082206.jpg>)
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

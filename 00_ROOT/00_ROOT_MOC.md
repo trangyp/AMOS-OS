@@ -17,7 +17,7 @@ moc_version: 1.0.0
 name: AMOS_OS_MOC
 origin_architect: Trang Phan
 related:
-- '[[AMOS Home]]'
+- '[[00_HOME]]'
 - '[[ARCHITECTURE]]'
 - '[[FULL_TREE]]'
 - '[[SYSTEM_MAP]]'
@@ -30,7 +30,7 @@ related:
 - 'GMEF'
 - '[[HML_CANON]]'
 - '[[COSMO_BRAIN_MOC|00 Cosmo Brain MOC]]'
-- '[[11_KNOWLEDGE/11_KNOWLEDGE_MOC.md|11_KNOWLEDGE MOC]]'
+- '[[KNOWLEDGE_MOC|11_KNOWLEDGE MOC]]'
 - '[[AMOS_OBSIDIAN_LINKING_PLUGINS]]'
 - '[[AMOS_LAYER_MAPS]]'
 rscf_state: derived
@@ -406,7 +406,7 @@ A canonical definition may exist even when runtime support remains incomplete.
 - [[AMOS_CORE_LAWS]]
 - [[HML_CANON]]
 - [[UNIVERSE_CANON_MAP]]
-- [[COGNITION_CANON_MAP]]
+- COGNITION_CANON_MAP
 - [[INFRASTRUCTURE_CANON_MAP]]
 - [[GLOSSARY_MAP]]
 - [[PROVENANCE_CANON_MAP]]
@@ -802,7 +802,7 @@ VALIDATED KNOWLEDGE
 
 ### Key knowledge indexes
 
-- [[11_KNOWLEDGE_MOC]]
+- [[KNOWLEDGE_MOC]]
 # 14. State
 
 ## `12_STATE`
@@ -1961,12 +1961,12 @@ confidence_ceiling:
 
 - [[COSMO_BRAIN_MOC|00 Cosmo Brain MOC]] — the canonical Cosmo Brain index
 - [[COSMO_BRAIN_BRIDGE_INDEX|Cosmo Brain Bridge Index]] — comprehensive bridge to external vault (8,253 entries across 20 directories)
-- [[11_KNOWLEDGE/11_KNOWLEDGE_MOC.md|11_KNOWLEDGE MOC]] — the knowledge layer index
-- [[11_KNOWLEDGE/_arxiv_md/ARXIV_QFM_MOC.md|arXiv QFM MOC]] — 66,028 arXiv preprints (68,367 entries with cross-listings; QFM + C01-C12 domain-classified; 0 unclassified)
-- [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC.md|Cognitive Matrix MOC]] — 1,552 cognitive matrix files (100% indexed)
+- [[KNOWLEDGE_MOC|11_KNOWLEDGE MOC]] — the knowledge layer index
+- arXiv QFM MOC — 66,028 arXiv preprints (68,367 entries with cross-listings; QFM + C01-C12 domain-classified; 0 unclassified)
+- [[COGNITIVE_MATRIX_MOC|Cognitive Matrix MOC]] — 1,552 cognitive matrix files (100% indexed)
 - [[AMOS_OBSIDIAN_LINKING_PLUGINS]] — Obsidian vault linking plugin stack
-- [[00_ROOT/00-Home]] — universal vault hub (00_ROOT)
-- [[AMOS Home]] — root AMOS Home
+- [[00_HOME]] — universal vault hub (00_ROOT)
+- [[00_HOME]] — root AMOS Home
 
 ---
 
@@ -2032,13 +2032,13 @@ UNKNOWN/GAP != PASS
 
 ---
 
-**Related:** [[AMOS Home]] · [[ARCHITECTURE]] · [[FULL_TREE]] · [[SYSTEM_MAP]] · [[AUTHORITATIVE_STATE]] · [[DEPENDENCY_MAP]] · NAMING_STANDARD · [[PLACEMENT_RULES]] · [[ROADMAP]] · [[RSCF_NODE_INDEX]] · GMEF · [[HML_CANON]] · [[CONTROL_PLANE_CANON]] · [[AUTHORITY_CANON]] · [[COGNITION_CANON]] · [[COGNITIVE_ORGANISM_CANON]]
+**Related:** [[00_HOME]] · [[ARCHITECTURE]] · [[FULL_TREE]] · [[SYSTEM_MAP]] · [[AUTHORITATIVE_STATE]] · [[DEPENDENCY_MAP]] · NAMING_STANDARD · [[PLACEMENT_RULES]] · [[ROADMAP]] · [[RSCF_NODE_INDEX]] · GMEF · [[HML_CANON]] · [[CONTROL_PLANE_CANON]] · [[AUTHORITY_CANON]] · [[COGNITION_CANON]] · [[COGNITIVE_ORGANISM_CANON]]
 
 ```
 ```
 
 ---
-**Related:** [[AMOS Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2046,7 +2046,7 @@ node_id: 00_root_moc
 node_type: note
 path: 00_ROOT/00_ROOT_MOC.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[AMOS Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

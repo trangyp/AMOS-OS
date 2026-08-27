@@ -2393,7 +2393,7 @@ lifecycle_stage: Architecture
 claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+  - INDEXED_BY: [[00_ROOT_MOC|AMOS MOC]]
   - DERIVED_FROM: AMOS_CORE_LAWS
   - CONSTRAINED_BY: INVARIANT_REGISTRY
   - CONSTRAINED_BY: LAW_HIERARCHY
@@ -2501,7 +2501,7 @@ OPTIMIZATION MUST NEVER WEAKEN INTEGRITY
 ## Related
 
 [[README]] ·
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]] ·
+[[00_ROOT_MOC|AMOS MOC]] ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
 [[PLACEMENT_RULES]] ·
@@ -2533,15 +2533,15 @@ README
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 ### Related MOCs
 
 - [[AMOS_LAYER_MAPS]] — top-level AMOS layer map index
 - [[00_ROOT_MOC]] — AMOS OS master map
-- [[00_ROOT/00-Home]] — universal vault hub
+- [[00_HOME]] — universal vault hub
 
 ---
 **MOC:** [[INDEX_KERNEL_README]]

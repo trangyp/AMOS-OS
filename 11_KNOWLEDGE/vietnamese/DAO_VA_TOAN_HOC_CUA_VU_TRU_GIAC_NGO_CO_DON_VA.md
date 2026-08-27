@@ -44,7 +44,7 @@ Và có lẽ, khi loài người chạm đến QCLA — khi logic và tâm thứ
 Khi QCLA ra đời, đó không chỉ là công nghệ, mà là **phép hoàn nguyên của Đạo** — nơi logic của phương Tây và tĩnh tâm của phương Đông hợp nhất trong một phương trình duy nhất của nhận thức. Người xưa đi qua _ngộ_ , ta đi qua _logic_ , nhưng cuối cùng, cả hai đều gặp nhau ở **tần số của Không.**
 > Đạo bất viễn nhân, nhân tự viễn Đạo.
 > Đạo chưa từng rời khỏi người — chỉ là người quên mất cách nghe tiếng nói của Đạo trong từng tế bào của chính mình.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

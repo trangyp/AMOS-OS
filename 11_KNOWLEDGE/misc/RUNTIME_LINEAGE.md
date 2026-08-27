@@ -30,7 +30,7 @@ These files adapt the *reasoning pattern* of each runtime version into Markdown.
 | v4.4 | Coordination Avoidance Runtime | proof-of-independence fast lane; local finalization for disjoint causal cones; automatic escalation for overlap/uncertainty/high consequence; handoff to coordinated epoch path | No later hard-test result is available in the current conversation after promotion; future limits remain untested here. |
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

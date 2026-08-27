@@ -128,7 +128,7 @@ The Charter guarantees **participant sovereignty** over raw and derived biologic
 [Deployment Timeline — Proof-of-Signal Network](<Global%20Biological%20Data%20Ownership%20Charter/Deployment%20Timeline%20%E2%80%94%20Proof-of-Signal%20Network%2024ac5e6f95bd80198457f8212e15a4d1.html>)
 [Deployment Timeline with Cost Estimates](<Global%20Biological%20Data%20Ownership%20Charter/Deployment%20Timeline%20with%20Cost%20Estimates%2024ac5e6f95bd8096a2d6e955ae2d0eba.html>)
 [Top-Tier Strategic Partners List](<Global%20Biological%20Data%20Ownership%20Charter/Top-Tier%20Strategic%20Partners%20List%2024ac5e6f95bd8088968bc18c612e4ba4.html>)
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[LOGIC_MOC]]

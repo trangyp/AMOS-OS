@@ -36,7 +36,7 @@ The Vietnam Omnistructure is the absolute structural mapping of the Vietnamese s
 This model is the foundational bedrock for any AMOS agent operating within the Vietnamese context. Agents using the `amos-vietnam-engine-layer` (Legal) or `amos-grand-cannon-mobility-layer` (Mobility) must inherit the physical and political constraints defined in the VN Omnistructure to prevent hallucinating impossible or culturally ignorant strategies.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MODELS_MOC]]

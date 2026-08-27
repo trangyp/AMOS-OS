@@ -158,7 +158,7 @@ option_comparison_matrix, risk_register, kpi_scorecard
 **Conclusion**: SOURCE — Medical/Clinical kernel with 20 clusters spanning symptom history through public health context, 20 clinical dimensions covering severity/risk/evidence/safety/equity, x100k virtual expansion with 3 axes (care_setting, urgency, age_group), structuring-only reasoning mode (non-prescriptive), integration links to Scientific SUPER and C04 bio_neuro, 4-lens space (exec/operator/expert/audit), and template library. Production-ready for clinical reasoning structuring tasks.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[KERNEL_MOC]]

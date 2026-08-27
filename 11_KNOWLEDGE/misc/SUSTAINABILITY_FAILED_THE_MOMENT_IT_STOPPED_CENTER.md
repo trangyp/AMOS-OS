@@ -60,7 +60,7 @@ Once these metrics exist, a basic truth becomes measurable: many systems that lo
 ## **Final Constraint: No Transition Is Sustainable If It Consumes Human Stability**
 Clean energy that destabilises people is not clean. Sustainability that degrades predictability and recovery is not sustainable. If emissions reduction is achieved by increasing volatility exposure, unpaid vigilance, constrained agency, sleep disruption, or recovery failure, the system is not solving a problem. It is relocating it—from infrastructure into nervous systems, from governance into households, from design into coping.
 **A civilisation cannot endure on systems that consume human stability faster than humans can recover. Ethical Intelligence™ exists to enforce that boundary before correction arrives through backlash, collapse, or coercion.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

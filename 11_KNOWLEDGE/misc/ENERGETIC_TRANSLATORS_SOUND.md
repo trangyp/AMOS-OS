@@ -59,7 +59,7 @@ Sound ecologist; tape work and field recording framed as living ecosystems—son
 [45/50: Émilie Levienaise-Farrouch](<Energetic%20Translators%20\(sound\)/45%2050%20%C3%89milie%20Levienaise-Farrouch%20256c5e6f95bd8057b6ddf3ddf6884360.html>)
 [43.5/50: Ben Frost](<Energetic%20Translators%20\(sound\)/43%205%2050%20Ben%20Frost%20256c5e6f95bd80f78a7ee47f0db683e5.html>)
 [45/50: Trịnh Công Sơn](<Energetic%20Translators%20\(sound\)/45%2050%20Tr%E1%BB%8Bnh%20C%C3%B4ng%20S%C6%A1n%20256c5e6f95bd807ca8aee2de2524fe87.html>)
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

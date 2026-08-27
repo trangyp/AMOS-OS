@@ -886,7 +886,7 @@ Các tài liệu này nếu tìm được, sẽ giúp giải mã thêm nhiều b
 ## THAY LỜI KẾT
 Cuốn sách này, như tác giả đã tuyên bố ngay từ đầu, _không dành cho những kẻ muốn an phận, không dành cho những kẻ sợ hãi, không dành cho những kẻ chỉ muốn nghe điều mình muốn nghe. Nó dành cho những ai sẵn sàng nhìn thẳng vào sự thật rằng – mệnh không phải để biết, mà để tạo ra._ Nếu bạn đã đọc đến dòng này, và trong lòng vẫn còn ngọn lửa, vẫn còn khát khao, vẫn còn dám mơ ước và dám hành động – thì hãy cầm lấy bút, tự viết tiếp những chương còn lại. Cuốn sách của bạn, về chính bạn, về thế giới mà bạn muốn kiến tạo, vẫn đang dang dở. Và chỉ có bạn mới có thể hoàn thành nó.
 — Dearly written byTrang Phan 
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

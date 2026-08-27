@@ -328,7 +328,7 @@ Nếu bạn đã có PML mạnh (sau 30-60 ngày luyện tập Phương pháp Tr
 
 > _" Người nghèo có thể đuổi ma bằng muối và gạo. Người khá có thể đuổi ma bằng đá thạch anh và tinh dầu. Người có PML mạnh không cần gì cả – chỉ cần bước vào phòng, ma tự biến mất. Nhưng điều quan trọng nhất: __**tất cả đều dựa trên cùng một nguyên lý fractal**_ _, không có ngoại lệ. Vì vậy, đừng bao giờ nghĩ rằng bạn cần nhiều tiền để được bảo vệ. Bạn chỉ cần hiểu cấu trúc. Và Phương pháp Trang dạy bạn điều đó, hoàn toàn miễn phí. "_
 **📦**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[FRACTAL_MOC]]

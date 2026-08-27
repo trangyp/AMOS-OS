@@ -42,7 +42,7 @@ Given an operation touching `PRIMITIVES · COGNITIVE MATRIX README` within the C
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
 RSCF-NODE

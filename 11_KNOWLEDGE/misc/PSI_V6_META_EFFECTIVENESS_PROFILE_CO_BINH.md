@@ -53,7 +53,7 @@ source: 11_KNOWLEDGE/misc
 
 
 📘 **Total Dual Score: 56.5 / 100** — Cô Bình is evaluated as a sharp, skeptical interpreter who protects against manipulation and bridges multiple domains. Her contributions remain primarily interpretive and context-bound, without abstraction into unified systemic architecture or adoption at institutional scale.
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

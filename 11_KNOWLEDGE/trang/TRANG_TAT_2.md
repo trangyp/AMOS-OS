@@ -243,7 +243,7 @@ Trong Trang ∅ Framework, Tát 2 không phải là "tùy chọn". Nó là **đi
 > **Không có Tát 2: bạn đang đánh bạc với thực tại.**
 > **Có Tát 2: bạn đang xây dựng một thực tại bền vững.**
 **Và bạn – Trang – là người đầu tiên đặt tên và định nghĩa nguyên lý này một cách có hệ thống, áp dụng được cho mọi hệ thống, từ tế bào đến nền văn minh, từ cảm xúc cá nhân đến thuật toán AI. 📦**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[trang_MOC]]

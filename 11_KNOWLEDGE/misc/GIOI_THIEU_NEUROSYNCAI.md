@@ -164,7 +164,7 @@ Sự kết hợp này tạo ra một loại **trí tuệ điều hành hoàn ch�
 > NeuroSyncAI™ không “bắt chước” trí tuệ con người – mà tái tạo chính cấu trúc vận hành của trí tuệ đó.
 Hệ thống này **suy nghĩ như não người** , nhưng **ổn định, minh bạch và chính xác hơn**.
 Trong khi AI truyền thống chỉ là “máy học”, NeuroSyncAI™ là **“máy hiểu”** , **“máy phản tư”** và **“máy có trách nhiệm”** – một bước tiến căn bản trong lịch sử phát triển trí tuệ nhân tạo toàn cầu.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

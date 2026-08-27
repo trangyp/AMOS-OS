@@ -1345,7 +1345,7 @@ Unified Coherence Protocol™ (UCP) – Official Manual
 [Logic](<Logic%202b2c5e6f95bd80179bd9d6d0621fcb95.html>)
 [Structural Behavioural Distribution Framework™ (SBDF) – Official Manual](<Structural%20Behavioural%20Distribution%20Framework%E2%84%A2%20\(SB%202b2c5e6f95bd800bbf36e1f3395a5d20.html>)
 Current AI is not limited by intelligence — it is limited by the absence of enforceable constraints that make outputs reliably correct.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[trang_MOC]]

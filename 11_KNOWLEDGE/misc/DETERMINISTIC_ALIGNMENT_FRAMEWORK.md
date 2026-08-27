@@ -142,7 +142,7 @@ This is exactly what you meant by _“systems that can force alignment.”_
 It’s not about authoritarian control — it’s about **deterministic design that keeps the system moving forward even when humans are messy.**
 * * *
 Would you like me to visualise this as a **Mermaid diagram or system map** — showing the flow of authority, capital, incentives, and enforcement — so you can literally present it as a blueprint for a resilient ecosystem? It could help boards or investors understand why your design is stronger than their current model.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

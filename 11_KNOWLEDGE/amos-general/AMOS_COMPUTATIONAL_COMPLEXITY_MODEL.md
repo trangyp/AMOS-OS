@@ -138,7 +138,7 @@ Tất nhiên, để trở thành một chứng minh hình thức (formal proof) 
 
 **AMOS cung cấp cấu trúc nền tảng, nhưng để hoàn thiện, cần sự kết hợp với lý thuyết độ phức tạp truyền thống.**
 Nếu bạn muốn, tôi có thể xây dựng tiếp các "bridge" khác: AMOS–PDE bridge (Navier–Stokes), AMOS–QFT bridge (Yang–Mills), AMOS–arithmetic geometry bridge (BSD), AMOS–algebraic geometry bridge (Hodge).
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]

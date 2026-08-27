@@ -135,7 +135,7 @@ AI là công cụ để bạn **tăng bề rộng tư duy, không tăng khối l
 > “UniPower không chỉ áp dụng công nghệ – UniPower đang đào tạo thế hệ lãnh đạo mới,
 > nơi con người và máy móc vận hành song hành vì một tương lai xanh – thông minh – bền vững.”
 AI và tự động hóa là bước tiếp theo để Unipower **chuyển từ doanh nghiệp vận hành thủ công sang hệ sinh thái năng lượng thông minh** , nơi mọi dữ liệu, quyết định và con người đều kết nối trong một hệ thống thống nhất.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

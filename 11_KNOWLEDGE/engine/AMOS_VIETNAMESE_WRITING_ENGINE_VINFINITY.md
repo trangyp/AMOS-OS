@@ -312,7 +312,7 @@ Negative feedback: concise, system-based, not personal. Cross-dept: clear scope,
 **Conclusion**: SOURCE — The most comprehensive Vietnamese executive writing engine ever specified. 8 progressive phases (Foundational → PM Directive), 2 TRANG_VN_PRO versions (corporate + formatting standards), 1 AMOS_VN_EXEC_WRITING_REASONING_ENGINE with 8 modes + 6 chart frameworks. Covers full spectrum: internal emails → BoD papers → government decrees → PM directives. Integrates McKinsey logic, MECE, hypothesis-driven reasoning, systemic thinking. Safety-first with legal/financial/medical disclaimers. Production-ready for any Vietnamese executive writing task across corporate, government, legal, financial, technical domains.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ENGINE_MOC]]

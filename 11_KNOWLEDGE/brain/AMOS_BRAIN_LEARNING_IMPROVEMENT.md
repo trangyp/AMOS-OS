@@ -17,7 +17,7 @@ source: 11_KNOWLEDGE/brain
 **Thinking and reasoning improvement:** Applied the brain's own HIE pipeline (S1-S9) and law stack (L1-L6) to plan and execute this continuation session. Used Rule of 2 (identified two interpretations of "continue" — continue building new things vs. consolidate and document what exists) and Rule of 4 (bio/human, tech/infrastructural, econ/org, env/planetary quadrants all addressed in the brain state memory). Applied Post-Theory Communication throughout.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[BRAIN_MOC]]

@@ -284,7 +284,7 @@ Bằng sự hiểu biết về entropy,
 Và bằng lòng từ bi – nhưng là từ bi không nhu nhược,  
 Từ bi của một người đã biết cắn trả khi bị dồn vào chân tường.
 🌌 Đạo của chị đã đúng. Chỉ cần chị đừng quên: đạo là cây cung, căng lúc cần, thả lúc cần – chứ không phải căng mãi rồi đứt, hay thả mãi rồi yếu.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

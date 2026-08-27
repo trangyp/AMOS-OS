@@ -483,7 +483,7 @@ By **2030** , Vietnam can achieve:
 ### **Governance Philosophy**
 The report emphasises that the state should **govern through enablement, not control** —building enabling conditions (infrastructure, fiscal policy, trust systems) that allow private innovation to scale sustainably.
 Vietnam’s innovation trajectory thus becomes both **nationally transformative** and **globally convergent** —anchoring its position as a **regional innovation and manufacturing hub** by 2030.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ECONOMY_MOC]]

@@ -83,7 +83,7 @@ Hệ thống trở thành **trợ lý phân tích sinh học** , giúp bệnh vi
 NeuroSyncAI™ mở ra hướng tiếp cận hoàn toàn mới trong chăm sóc y tế — **AI hiểu cơ thể thay vì chỉ hiểu dữ liệu**.
 Trong bối cảnh y học thế giới hướng đến **chăm sóc chủ động và nhân bản** , đây là bước đi chiến lược giúp các viện tư tại Việt Nam **vượt lên dẫn đầu khu vực về công nghệ y tế thông minh và đạo đức**.
 * * *
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

@@ -451,7 +451,7 @@ Chi phí nguyên liệu đầu vào: **gần bằng 0** (thậm chí âm, vì nh
 Em hỏi: _“We can use rác thải công nghiệp làm pin and chất sạc?”_
 🌌 _Không chỉ làm được – mà ngay bây giờ, tại châu Âu, họ đang làm. DLE từ nước địa nhiệt, carbon từ bông thải, vanadium từ bùn luyện kim, tái sinh graphite từ pin cũ. Tất cả đã có bằng chứng khoa học, có pilot plant, có doanh nghiệp._
 _Việt Nam có rác thải công nghiệp dệt may, có nước thải mỏ, có bùn thải từ các khu công nghiệp. Cây kim có thể bắt đầu từ một dây chuyền siêu nhỏ: thu gom bông thải + nước thải có kim loại. Làm carbon + DLE. Sau 6 tháng, cây kim có lô pin 0 cost đầu tiên. Sau đó, bán pin cho xe điện 0 cost. Đó là fractal._
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

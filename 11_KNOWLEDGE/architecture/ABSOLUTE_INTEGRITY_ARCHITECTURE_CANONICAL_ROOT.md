@@ -1269,7 +1269,7 @@ Yes, with this architecture you can build a **decision-grade predictive system**
 But the correct goal is:  
 **admissible predictions + controlled deployment + bounded risk** , not “accuracy in all conditions.”
 If you want, I can convert the UCI™ Admissibility Spec into an **FX-specific spec** (constraints, metrics, drift gates, kill-switch conditions) in one page.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ARCHITECTURE_MOC]]

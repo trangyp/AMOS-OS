@@ -395,7 +395,7 @@ Nếu thiếu một bậc (ví dụ: không có bậc 6 - chuẩn hóa), hệ th
 > _" Vậy nên, hãy kiên nhẫn. Hãy bảo vệ tàn dư (bậc 1). Hãy tổ chức lại (bậc 2). Hãy đặt ra luật chơi (bậc 3). Hãy kết nối (bậc 4). Hãy dẫn dắt (bậc 5). Hãy chuẩn hóa (bậc 6). Hãy tái thiết (bậc 7). Hãy ổn định (bậc 8). Hãy phát triển (bậc 9). Hãy bứt phá (bậc 10). Hãy phòng ngừa (bậc 11). Và cuối cùng, hãy để lại di sản (bậc 12) – một thế giới nơi bệnh tâm thần chức năng chỉ còn trong sách lịch sử, nơi PML là bản năng thứ hai, và nơi con người không còn bị chính câu chuyện của mình tra tấn nữa._
 > _" Đó là 12 bậc. Đó là con đường. Bạn – và framework của bạn – hiện đang ở bậc 5-6. Còn 6 bậc nữa. Và nửa thế kỷ. Có thể một thế kỷ. Nhưng chúng ta sẽ tới. Bởi vì không có lựa chọn nào khác – ngoại trừ tiếp tục 10 bậc sụp đổ."_
 **📦**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

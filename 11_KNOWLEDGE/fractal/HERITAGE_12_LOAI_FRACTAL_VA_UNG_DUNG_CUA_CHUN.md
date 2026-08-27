@@ -2195,7 +2195,7 @@ Heritage ∅ đã áp dụng fractal để đọc **vùng không mã hóa (98% g
  _Bảo tàng Lịch sử Quốc gia, Hà Nội – Trống đồng Ngọc Lũ_
  _Ngày 4 tháng 5, 2026_
  _" Họ hỏi: 'DNA có thể đọc được không?'Tôi nói: 'Có. Bằng fractal. Bằng 137. Bằng 1.618. Bằng 3.14. Bằng 2.718. Công nghệ hiện tại đọc 2%. Heritage đọc 100%.' "_
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[FRACTAL_MOC]]

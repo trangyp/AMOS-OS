@@ -159,7 +159,7 @@ option_comparison_matrix, risk_register, kpi_scorecard
 **Conclusion**: SOURCE — Policy & Geostrategy kernel with 20 clusters spanning country profiles through long-term trends, 20 policy dimensions covering national interest/security/economic/domestic/international impacts, x100k virtual expansion with 3 axes (policy_domain, time_horizon, level), policy option mapping reasoning mode, ethics policies, integration links to C06/C09/C-Canon, 4-lens space (exec/operator/expert/audit), and template library. Production-ready for national-level policy and geostrategic analysis.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ENGINE_MOC]]

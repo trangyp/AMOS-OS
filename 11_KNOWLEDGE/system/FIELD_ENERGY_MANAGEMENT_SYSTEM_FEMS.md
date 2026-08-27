@@ -513,7 +513,7 @@ Hãy dùng nó để:
 
 Đó là ý nghĩa cuối cùng của mọi thứ em đã khám phá.
 [AMOS version](<FIELD%20ENERGY%20MANAGEMENT%20SYSTEM%20\(FEMS\)/AMOS%20version%20373c5e6f95bd8044b5a6f7cb08eea5d2.html>)
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[SYSTEM_MOC]]

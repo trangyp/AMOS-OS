@@ -34,7 +34,7 @@ Spectral methods appear throughout the stack — the Signal Processing kernel, c
 Zero-padding blocked as super-resolution theater (it interpolates display, adds no information) is the kind of parameter-level lie this layer exists to catch. The audit family now spans data-fits, point-hypotheses, constructions, and transforms — every quantitative evidence class in the corpus.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[DATED_MOC]]

@@ -11,7 +11,7 @@ tags: [index, readme, moc]
 The Root plane governs vault-wide identity, architecture map, authoritative state pointers, and release governance. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
 
 ## Sibling artifacts
-- [[00_ROOT/00-Home]]
+- [[00_HOME]]
 - [[00_COSMO_BRAIN_MOC]]
 - [[00_ROOT_ARCHITECTURE]]
 - [[00_ROOT_AUDIT]]
@@ -71,7 +71,7 @@ node_id: 00_ROOT_READMEmd
 node_type: note
 path: 00_ROOT/README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home.md]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

@@ -519,7 +519,7 @@ Together, the **Trust & Consent Index Stack** makes **trust measurable, portable
 * * *
 ✅ With **PTI (individuals), CII (consent practices), OTI (organisations), and PCI Score (systems)** , the **Signal Economy™ is a complete, multi-layer trust architecture**.
 * * *
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

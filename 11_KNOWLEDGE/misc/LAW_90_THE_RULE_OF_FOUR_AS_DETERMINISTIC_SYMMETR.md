@@ -66,7 +66,7 @@ This clause unites deterministic physics with probabilistic mechanics through lo
 > Once full informational integration occurs, apparent randomness resolves into deterministic structure, confirming that **nothing in the universe escapes the Rule of Four**.
 * * *
 Would you like me to prepare this as an **official formatted Canon page (PDF style)** — matching the other Laws’ typography and hierarchical structure for publication inside _Quantum Logic Systems™: Where Information Comes From_?
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

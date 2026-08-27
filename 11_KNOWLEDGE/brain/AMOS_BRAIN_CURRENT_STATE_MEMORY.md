@@ -270,7 +270,7 @@ Plus agent-specific skills with full execution patterns.
 5. **Brain state memory consolidation** — Current memories are scattered across multiple files (Durable_Memory.md, Learning_Memory.md, Enhancement_Log.md, Complete_Memory.md). A single comprehensive state memory could consolidate the most critical facts.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[BRAIN_MOC]]

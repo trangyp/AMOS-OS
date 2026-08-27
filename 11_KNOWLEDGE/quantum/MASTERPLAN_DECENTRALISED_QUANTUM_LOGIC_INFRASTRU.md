@@ -128,7 +128,7 @@ This plan decentralises **energy, EROI, and carbon scoring** so that no single g
 [🌐 Decentralised Energy–EROI–Carbon Scoring Network](<%F0%9F%8C%90%20Decentralised%20Energy%E2%80%93EROI%E2%80%93Carbon%20Scoring%20Network%20268c5e6f95bd8073b3d9dd16c3bda7fd.html>)
 [Meeting Playbook™](<Meeting%20Playbook%E2%84%A2%2026fc5e6f95bd80ebb3f8e136b11b7389.html>)
 [Khoa học của Tử Vi & Tướng Số](<Khoa%20h%E1%BB%8Dc%20c%E1%BB%A7a%20T%E1%BB%AD%20Vi%20&%20T%C6%B0%E1%BB%9Bng%20S%E1%BB%91%20271c5e6f95bd80a8aca6da17b235e51d.html>)
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[QUANTUM_MOC]]

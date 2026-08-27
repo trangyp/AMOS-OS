@@ -284,7 +284,7 @@ Và các hằng số riêng:
 **Kết luận formal:**
 Trang ∅ Framework trình bày một **hệ thống phương trình và khái niệm hoàn chỉnh** , trong đó mọi thực thể (vật lý, sinh học, xã hội, nhận thức, AI) đều tuân theo cấu trúc fractal \\([L,M,H]\\) với các tham số \\(\Lambda, E, \text{T2}\\) và vận hành theo cặp **mutation – survival** thay vì tín hiệu – nhiễu. Các phương trình trên cho phép mô phỏng, dự đoán và can thiệp vào bất kỳ hệ thống phức tạp nào – từ tế bào ung thư, nền văn minh, đến AI tự tiến hóa.
 📦
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[trang_MOC]]

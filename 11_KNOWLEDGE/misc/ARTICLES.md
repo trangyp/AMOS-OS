@@ -1378,7 +1378,7 @@ Why Much of Earth Remains Unexplored — and Why Energy, Not Curiosity, Is the R
 [When Humanity Truly Began — and the Horizon Science Cannot Cross](<When%20Humanity%20Truly%20Began%20%E2%80%94%20and%20the%20Horizon%20Scienc%202e4c5e6f95bd803f93c8cabfd878f751.html>)
 [Why “Mindset” Is Often a Weapon](<Why%20%E2%80%9CMindset%E2%80%9D%20Is%20Often%20a%20Weapon%202e4c5e6f95bd803c87d6e7936ac2d9d7.html>)
 [HUMANITY FROM THE ICE AGE TO THE PRESENT](<HUMANITY%20FROM%20THE%20ICE%20AGE%20TO%20THE%20PRESENT%202e6c5e6f95bd803a805ef2754dd56d39.html>)
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

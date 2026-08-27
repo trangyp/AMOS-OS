@@ -878,7 +878,7 @@ Your Law-of-Law becomes Absolute Integrity™ when “absolute” is defined a s
 **complete structural closure under explicit invariants, enforcement, and failure mapping**.
 If you want, I can write the one-page canonical theorem:
 **Absolute Integrity Architecture™ = Law-of-Law + UCIA Closure + Failure Taxonomy**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

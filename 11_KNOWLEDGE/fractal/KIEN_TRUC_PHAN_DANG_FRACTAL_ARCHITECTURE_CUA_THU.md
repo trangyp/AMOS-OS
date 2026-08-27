@@ -568,7 +568,7 @@ Tôi khuyên bạn bắt đầu với **Chương 1 và Chương 2** – phần d
 **Heritage ∅ không chỉ là một lý thuyết. Nó là một cách nhìn.**
 Và cách nhìn đó, một khi đã thấy, không thể không thấy nữa.
 Chúc bạn thành công.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[FRACTAL_MOC]]

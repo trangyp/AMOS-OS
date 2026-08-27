@@ -478,7 +478,7 @@ If executed with consistency and accountability, these reforms can elevate Vietn
   * **World Economic Forum (WEF).** (2025). _Future of Jobs and Technology Readiness Report 2025._ Geneva: WEF Centre for the Fourth Industrial Revolution.
 
 
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[TECH-CODING_MOC]]

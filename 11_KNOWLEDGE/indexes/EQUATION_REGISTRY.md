@@ -123,7 +123,7 @@ Equations are preserved with their source/framework status. AMOS MODEL equations
 - **awareness framework**: `Awareness = EntropyPressure × OwnedBoundary × ProtectedVoid × MemoryContinuity × Valence × SelfRisk × CorrectionAuthority × SelfReference`
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/brain/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · docs/brain/06-Knowledge-Base-MOC · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[indexes_MOC]]

@@ -79,7 +79,7 @@ aliases:
   - AMOS Cognitive Operating Architecture
 
 related:
-  - "[[00_ROOT/00-Home]]"
+  - "[[00_HOME]]"
   - "[[FULL_TREE]]"
   - "[[SYSTEM_MAP]]"
   - "[[AUTHORITATIVE_STATE]]"
@@ -2610,7 +2610,7 @@ The governing invariant is:
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · [[FULL_TREE]] · [[SYSTEM_MAP]] · [[AUTHORITATIVE_STATE]] · [[DEPENDENCY_MAP]] · NAMING_STANDARD · [[PLACEMENT_RULES]] · [[ROADMAP]] · [[AMOS_CORE_LAWS]] · [[FULL_BRAIN_OS_CANON]] · [[COGNITION_CANON]] · [[COGNITIVE_ORGANISM_CANON]] · [[CONTROL_PLANE_CANON]] · [[AUTHORITY_CANON]] · [[HML_CANON]] · [[RSCF_NODE_INDEX]] · GMEF
+**Related:** [[00_HOME]] · [[FULL_TREE]] · [[SYSTEM_MAP]] · [[AUTHORITATIVE_STATE]] · [[DEPENDENCY_MAP]] · NAMING_STANDARD · [[PLACEMENT_RULES]] · [[ROADMAP]] · [[AMOS_CORE_LAWS]] · [[FULL_BRAIN_OS_CANON]] · [[COGNITION_CANON]] · [[COGNITIVE_ORGANISM_CANON]] · [[CONTROL_PLANE_CANON]] · [[AUTHORITY_CANON]] · [[HML_CANON]] · [[RSCF_NODE_INDEX]] · GMEF
 
 ```
 
@@ -2619,10 +2619,10 @@ This fills the former root placeholder using the AMOS Full Brain OS structural b
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2630,7 +2630,7 @@ node_id: 00_root_architecture
 node_type: note
 path: 00_ROOT/00_ROOT_ARCHITECTURE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

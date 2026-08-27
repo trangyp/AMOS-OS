@@ -234,7 +234,7 @@ với thuế suất giảm từ khoảng (15 %) xuống còn (5–6 %) (tùy hi�
 
 (6) **Lợi nhuận 2025–2027 chỉ tính EV:** → **29 – 46 tỷ**
 may sac dong co no tren xe. may phat 20 toi 50. dong co dai ly bett 
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

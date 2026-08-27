@@ -663,7 +663,7 @@ END OF BOOK
 *Distilled 2026-08-22 from 7 vault notes (53.9 KB) + Memory (11.3 KB) + Epistemic Audit v2 (27.7 KB) = 93 KB → 12 KB executable summary. Method: MEMORY-v2-audit-crossmapping-synthesis.*
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[DATED_MOC]]

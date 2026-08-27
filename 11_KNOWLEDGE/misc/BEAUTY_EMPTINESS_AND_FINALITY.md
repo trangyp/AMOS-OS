@@ -152,7 +152,7 @@ To stand here requires a particular kind of restraint — the restraint not to c
 Perhaps this is the most honest place to stand: not above life, not outside it, not finished with it — but inside its movement, attentive and unfinished. A place where clarity does not demand certainty, where insight does not seek authority, and where meaning is allowed to arise and pass without being forced to justify itself.
 Nothing here needs to be sealed. Nothing needs to be settled.
 **What remains is the capacity to respond — again and again — as life continues to change, and as we change with it.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

@@ -1397,7 +1397,7 @@ path: 00_ROOT/AMOS_OS_ADD_ONLY_CANON_FILE_MANIFEST.md
 claim_class: AMOS_MODEL
 rscf_state: derived
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
   - GOVERNS: all entries in section 4
 

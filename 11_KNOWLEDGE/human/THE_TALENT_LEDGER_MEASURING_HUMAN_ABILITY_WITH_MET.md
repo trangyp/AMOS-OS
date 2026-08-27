@@ -454,7 +454,7 @@ _Resilience is the foundation of all intelligence. Without it, other abilities c
 * * *
 ⚡ **Summary:** Raising MIS is not about cramming knowledge — it’s about training the nervous system, sharpening clarity, and aligning decisions with integrity. Small, repeated practice in each d imension steadily increases scores and builds **true systemic intelligence**.
 * * *
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[human_MOC]]

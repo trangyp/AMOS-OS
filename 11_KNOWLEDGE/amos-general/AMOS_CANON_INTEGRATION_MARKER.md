@@ -1585,7 +1585,7 @@ Until evidence for those downstream checks is available, they remain **UNKNOWN /
 
 ---
 
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · Fractal_Cognitive_Architecture_v2 · Hierarchical_AI_Architecture_Generator_v2 · Language_Fractal_Architecture_500000 · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · Fractal_Cognitive_Architecture_v2 · Hierarchical_AI_Architecture_Generator_v2 · Language_Fractal_Architecture_500000 · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]

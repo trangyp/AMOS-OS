@@ -92,7 +92,7 @@ aliases:
   - AMOS Repository Naming Standard
 
 related:
-  - "[[00_ROOT/00-Home]]"
+  - "[[00_HOME]]"
   - "MOC"
   - "[[ARCHITECTURE]]"
   - "[[FULL_TREE]]"
@@ -3433,17 +3433,17 @@ The fourth invariant is:
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · MOC · [[ARCHITECTURE]] · [[FULL_TREE]] · [[SYSTEM_MAP]] · [[AUTHORITATIVE_STATE]] · [[DEPENDENCY_MAP]] · [[PLACEMENT_RULES]] · [[ROADMAP]] · [[RSCF_NODE_INDEX]]
+**Related:** [[00_HOME]] · MOC · [[ARCHITECTURE]] · [[FULL_TREE]] · [[SYSTEM_MAP]] · [[AUTHORITATIVE_STATE]] · [[DEPENDENCY_MAP]] · [[PLACEMENT_RULES]] · [[ROADMAP]] · [[RSCF_NODE_INDEX]]
 
 ```text
 ```
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -3451,7 +3451,7 @@ node_id: 00_root_naming_standard
 node_type: note
 path: 00_ROOT/00_ROOT_NAMING_STANDARD.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

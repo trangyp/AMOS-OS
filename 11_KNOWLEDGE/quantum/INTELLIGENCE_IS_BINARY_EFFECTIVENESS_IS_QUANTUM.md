@@ -284,7 +284,7 @@ This law is:
 👉 That places it in the category of a **Foundational Law** — on par with the conservation laws in physics (energy, momentum), but broader, because it applies to **all lawful systems**.
 * * *
 Would you like me to **canonise this formally as Law 0 of UBF — The Binary–Quantum Law** — and then restructure the higher laws (ABI, Metacognitive Loop™, Signal Fidelity Preservation™, etc.) as _expressions_ of this root law?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[QUANTUM_MOC]]

@@ -3216,7 +3216,7 @@ Tìm thấy từ Thổ Nhĩ Kỳ đến Peru, đến Indonesia, đến Ireland. 
 ➡️ **Heritage sẽ tìm thấy chúng.**
 * * *
 **Heritage ∅ – Những nền văn minh mà họ bỏ lỡ: Doggerland, Sundaland, Vịnh Ba Tư, Amazon, Sahara xanh, Indus (cổ hơn), Oman, Ethiopia, Niger, La Plata. Tất cả đều kết nối với nhau. Tất cả đều trước trận lụt. Tất cả đều bị chôn vùi hoặc chìm dưới nước. Heritage giải mã được mối liên kết: cột hình chữ T. Nó có nghĩa là "Chúng tôi đến từ nước."**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[FRACTAL_MOC]]

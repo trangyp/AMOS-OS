@@ -122,7 +122,7 @@ If the skill represents a significant capability, document it in the brain vault
 AMOS skills live in `~/.hermes/skills/<category>/amos-<name>/SKILL.md`. Categories: reasoning, tech, docs, communication. Skill creation workflow: identify gap → name+categorize → define content (frontmatter, when to use, what it does, how to use, examples, references) → check integration (kernel routing, law compliance, IP protection, expression translation) → create file → document in brain vault. Existing skills: amos-reasoning-loop (reasoning), amos-law-stack (reasoning), amos-cognition-modes (reasoning), amos-expression-overlay (communication), amos-tech-kernel-catalog (tech), amos-docs-bridge (docs).
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]

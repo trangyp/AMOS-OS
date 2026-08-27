@@ -7784,7 +7784,7 @@ Tôi có thể viết tiếp ngay theo 2 hướng “đến mép” (không hỏ
 **(1) Bộ SRS đầy đủ cho AMOS (software requirements) SRS-Safety (safety requirements)** theo format chuẩn: Scope, Interfaces, Timing, States, Fault handling, Logging, Cybersecurity, Verification.
 **(2) Mermaid block diagram chi tiết** gồm: power path, sensing path, Safety MCU path, AMOS core, waveform library, budgets, remote/policy, audit logs.
 Nếu bạn trả lời **1 chữ** : **SRS** hoặc **MERMAID** , tôi sẽ xuất bản hoàn chỉnh ngay theo chữ đó (tiếng Việt, chuẩn hồ sơ).
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]

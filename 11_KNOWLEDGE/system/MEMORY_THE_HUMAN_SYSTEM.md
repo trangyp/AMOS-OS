@@ -200,7 +200,7 @@ No verified framework currently derives this. Every known system reaches this bo
 ## Links
 
 - [[00_COSMO_BRAIN_MOC]] — vault index
-- [[docs/moc/06-Knowledge-Base-MOC]] — knowledge base index
+- [[KNOWLEDGE_MOC]] — knowledge base index
 - 2026-08-22 The Complete Human System — Book Knowledge Base — canonical version
 - 2026-08-22 The Complete Human System — Books One–Six — alternate version
 - Cheat Sheet — Manipulation Compression — practical handbook

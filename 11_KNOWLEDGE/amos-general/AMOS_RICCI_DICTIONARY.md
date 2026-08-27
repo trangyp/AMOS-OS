@@ -112,7 +112,7 @@ Với dictionary này, bất kỳ chứng minh nào của Poincaré conjecture b
 
 
 Nếu bạn muốn, tôi có thể xây dựng tiếp các "dictionary" khác cho Riemann hypothesis, P vs NP, Navier–Stokes, Yang–Mills, BSD, Hodge.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]

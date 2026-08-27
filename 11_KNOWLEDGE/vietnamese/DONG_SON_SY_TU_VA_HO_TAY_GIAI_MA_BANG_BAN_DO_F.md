@@ -208,7 +208,7 @@ Hồ Tây thỏa mãn cả hai. Hồ Gươm không thỏa mãn (H≥0.42?). Ph�
  _Hồ Tây, Hà Nội – nơi fractal gặp fractal_
  _Ngày 4 tháng 5, 2026_
  _Việt Nam – từ Đông Sơn đến hôm nay, vẫn là một fractal._
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

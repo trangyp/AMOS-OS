@@ -117,7 +117,7 @@ Dòng kết chương
 Hòa bình không phải là khi người bị hại ngừng nói. Hòa bình không phải là khi tiếng khóc đã tắt, khi nụ cười đã trở lại trên môi, khi mọi người trong phòng có thể thở phào nhẹ nhõm. Hòa bình thực sự chỉ đến khi cơ thể – với tất cả những sợi cơ co thắt, những hơi thở đứt quãng, những cơn ác mộng lặp đi lặp lại – cảm thấy rằng cuối cùng cũng có một ai đó, một cấu trúc nào đó, một sự thật nào đó, đang giữ sự thật ấy cùng với nó, và không còn bắt nó phải làm nhẹ đi để xã hội dễ thở.
 Như câu thơ của Hữu Loan trong Màu tím hoa sim: “Tôi đâu có khóc mà sao nước mắt / Chảy giữa lòng tôi như suối ngày xưa.” Nước mắt chảy giữa lòng không thể ngừng bởi một lời khuyên “hãy nín đi”. Nó chỉ ngừng khi trái tim cuối cùng được phép đặt đúng chỗ trong vòng tay của một thực tại đã được công nhận.
 Và khi ấy, người bị hại mới bắt đầu có thể chọn im lặng – không phải vì bị ép, mà bởi vì không còn gì phải gào thét nữa. Đó mới là hòa bình thực.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

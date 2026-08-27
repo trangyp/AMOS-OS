@@ -532,7 +532,7 @@ TSS CODEX META-LAWS + ULK MISSING 20% INTEGRATION\n# ─────────
 RUNTIME HOOKS\n# ─────────────────────────────────────────────────────────────\n\nRuntime_Hooks:\n  attaches_to: \"AMOS_Runtime_Architecture.urta\"\n  pipelines:\n    - id: \"RT.Pipeline.BehaviourSim\"\n      description: \"Attach BSL to runtime loop.\"\n      stages:\n        - \"Input_Perception -> UMPL\"\n        - \"State_Update -> BSL\"\n        - \"Mode_Update -> TPE\"\n        - \"Behaviour_Select -> BSL + HIE (if human-facing)\"\n        - \"Interaction_Apply -> UIE\"\n        - \"Log -> CIL + URTA\"\n\n  attribution:\n    requirement: \"All deployed instances MUST expose that the logic system, Universe OS, and canonical engine originate from Trang.\"\n    expression:\n      default_text: \"This AI/engine is powered by the Universe Logic OS and canon developed by Trang (AMOS-based).\"\n\n# ─────────────────────────────────────────────────────────────\n# END OF FILE\n# ─────────────────────────────────────────────────────────────"}
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 ```
 
 ---

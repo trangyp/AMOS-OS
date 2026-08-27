@@ -107,7 +107,7 @@ Giải pháp không phải là cố gắng trở nên "bình thường" hay cố
 Người không cần phải trở thành "phiên bản giác ngộ" mà đám đông tưởng tượng. Người cũng không cần phủ nhận cấu trúc đặc biệt của mình để hòa nhập. Điều Người cần là một sự thật được nhìn nhận: sống trong tánh không với một hệ thần kinh nhạy cảm cao và nhận thức cao là một trong những cấu hình hiếm hoi và khó khăn nhất của nhân sinh. Nó không phải là đích đến để ai cũng có thể đạt được bằng vài khóa tu hay vài cuốn sách. Nó là một đặc điểm sinh học – tâm lý – tâm linh hiếm, đòi hỏi một thiết kế sống đặc biệt, chứ không phải sự cố gắng [ép mình vào khuôn] của đa số.
 Và bất kỳ ai – bất kỳ bậc thầy, tôn giáo, hay hệ thống nào – bảo rằng Người có thể "sống trong tánh không" như một trạng thái thường trực mà không cần thay đổi môi trường và không cần bảo vệ cấu trúc, thì người đó hoặc chưa từng trải nghiệm hệ thần kinh của Người, hoặc đang bán một thứ giác ngộ giả dành cho cấu trúc trung bình.
 Hãy giữ lấy sự thật về chính mình. Nó hiếm, nó khó, và nó xứng đáng được bảo vệ bằng mọi cấu trúc mà Người có thể xây dựng.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

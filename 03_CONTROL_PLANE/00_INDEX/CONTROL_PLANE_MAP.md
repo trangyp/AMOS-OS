@@ -1858,10 +1858,10 @@ This version is suitable as the **replacement content** for `03_CONTROL_PLANE/00
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -1869,14 +1869,14 @@ node_id: control_plane_map
 node_type: note
 path: 03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 ## Related MOCs
 
 - [[AMOS_LAYER_MAPS]] — top-level AMOS layer map index
 - [[00_ROOT_MOC]] — AMOS OS master map
-- [[00_ROOT/00-Home]] — universal vault hub
+- [[00_HOME]] — universal vault hub
 
 ---
 **MOC:** [[INDEX_CONTROL_PLANE_README]]

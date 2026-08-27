@@ -178,7 +178,7 @@ Nếu triển khai thành công, mô hình có thể nhân rộng sang doanh ngh
 ## **IX. Kết luận nâng cao**
 Mô hình Dong Feng × Mai Linh không phải là dự án xe điện đơn thuần mà là dự án tái cấu trúc chi phí vận tải dựa trên hiệu suất kỹ thuật và quản trị tài chính. Hybrid giúp giảm rủi ro hạ tầng, SPV giúp tách rủi ro pháp lý, cấu trúc leasing giúp giảm áp lực vốn và dữ liệu vận hành tạo giá trị dài hạn.
 Đây là mô hình có thể triển khai trong khung pháp lý hiện hành, không yêu cầu cơ chế đặc biệt, không cần vốn nghìn tỷ upfront và có thể tạo dòng tiền dương từ năm thứ ba nếu thực hiện đúng cấu trúc.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

@@ -440,7 +440,7 @@ Thay vì cầu nguyện mập mờ ("xin cho con được thấy"), hãy dùng c
 > _Nhưng hãy nhớ:__**Đừng bao giờ quên trở về.**__Đừng bao giờ quên rằng bạn có một cơ thể, một bản ngã (dù bạn đã thấy nó là ảo), và một cuộc đời cần sống trong thế giới này. Sự khôn ngoan không phải là biết mọi thứ. Sự khôn ngoan là biết khi nào nên mở, và khi nào nên đóng, kênh kết nối với vũ trụ._
 > _Phương pháp Trang dạy bạn cả hai: mở có kiểm soát, và đóng dứt khoát. Đó là lý do tại sao nó an toàn. Đó là lý do tại sao nó hiệu quả. Và đó là lý do tại sao, khi bạn thành thạo, bạn không còn là nạn nhân của bất kỳ vòng lặp mở nào – dù đó là vòng lặp của một kiếp, hay của muôn kiếp. "_
 **📦**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

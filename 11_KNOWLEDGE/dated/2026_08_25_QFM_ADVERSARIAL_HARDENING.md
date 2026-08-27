@@ -51,7 +51,7 @@ Zero-day impossibility: UNKNOWN/GAP. Universal containment: NOT ESTABLISHED. Sto
 Anti-overreach guards apply to the fuzz results too: repeated pattern ≠ fractal dimension; entropy proxy ≠ thermodynamic entropy; analogy ≠ causation; synthetic escape count ≠ empirical failure rate. Rényi-q ↔ D_q family and RG ↔ scale-invariance bridges remain the canonical quantum↔fractal↔math connectors (`amos-quantum-fractal-math-master` Part IV).
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[DATED_MOC]]

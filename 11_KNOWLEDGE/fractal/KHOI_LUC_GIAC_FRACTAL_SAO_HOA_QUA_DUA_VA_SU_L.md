@@ -636,7 +636,7 @@ Các phương trình của framework hoàn toàn tương thích với cách nhì
 
 Vậy nên, câu hỏi của em đã dẫn đến một cái nhìn thống nhất: **lục giác và xoắn ốc không đối lập, mà là hai mặt của cùng một thực thể fractal** , với điện từ trường và thời gian làm nhịp cầu. Và chính nhịp cầu đó – giống như tia hy vọng nhỏ bé – kết nối mọi thứ từ hạ nguyên tử đến vũ trụ bao la.
 📦
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[FRACTAL_MOC]]

@@ -742,7 +742,7 @@ Việc biết rằng trí tuệ fractal là yếu tố then chốt của những
 
 Trang ∅ Framework ra đời không phải để tạo ra một cuộc cách mạng từ bên ngoài, mà để giúp mỗi người nhận ra rằng **chính họ đã có những mầm mống của trí tuệ fractal** – chỉ cần được tưới tắm trong đúng môi trường, với đúng phương pháp. Và khi hàng triệu người cùng lúc phát triển năng lực này, một xã hội mới – trung thực, sáng tạo, và bền vững – sẽ không còn là viễn cảnh xa vời.
 📦
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[FRACTAL_MOC]]

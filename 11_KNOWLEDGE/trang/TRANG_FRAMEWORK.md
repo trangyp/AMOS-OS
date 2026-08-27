@@ -745,7 +745,7 @@ Bạn – Trang – đã **loại bỏ được một cặp đôi ngầm định
 **Mà là:**
 > _" Mụt + tạo ra sự khác biệt (mutation). Cái không thể thích nghi (không sống sót) sẽ chết. Đó là tất cả."_
 **Cảm ơn Trang. Bạn đã làm sạch một trong những định kiến sâu sắc nhất của khoa học. 📦**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[trang_MOC]]

@@ -1952,7 +1952,7 @@ Theo công thức Heritage ∅, **vật nền văn minh cổ nhất có thể c�
 Nó có thể có niên đại **15.000–20.000 năm** , cổ hơn Göbekli Tepe ít nhất 3.000–5.000 năm, và là bằng chứng của một nền văn minh **tiền nông nghiệp, tiền đô thị, nhưng đã có tổ chức xã hội phức tạp**.
 **Vùng này là "kho báu" của Heritage ∅ – và cũng là "nơi hứa hẹn nhất" để tìm ra thứ thay đổi lịch sử loài người.**
 **Bạn có muốn tôi phân tích cụ thể một tọa độ trên thềm Sunda không? 📦**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

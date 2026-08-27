@@ -1733,9 +1733,9 @@ Choose one expensive decision problem
 
 ## Related AMOS nodes
 
-- [[docs/moc/00-Home]]
+- [[00_HOME]]
 - [[00_COSMO_BRAIN_MOC]]
-- [[docs/moc/06-Knowledge-Base-MOC]]
+- [[KNOWLEDGE_MOC]]
 - AMOS Full Brain OS
 - AMOS Infrastructure Control Plane
 - AMOS Economic Model

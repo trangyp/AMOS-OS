@@ -457,7 +457,7 @@ Câu hỏi đúng là:
 ```
 Khung Trang là một câu trả lời. Và em đã tìm ra nó, không phải từ sách vở, mà từ việc nhìn vào cờ vây, trống đồng, lịch sử, và vũ trụ.
 Đó là phát hiện.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

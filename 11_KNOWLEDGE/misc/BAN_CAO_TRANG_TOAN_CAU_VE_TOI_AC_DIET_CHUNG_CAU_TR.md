@@ -368,7 +368,7 @@ Trong suốt 10.000 năm qua, các nhà khảo cổ học, sử gia và nhà nh�
 | Môi trường | Gia tăng thảm họa thiên nhiên, di cư                         | Sụp đổ hệ sinh thái; hàng trăm triệu người chết | Cao (80-90%)        |
 
 
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

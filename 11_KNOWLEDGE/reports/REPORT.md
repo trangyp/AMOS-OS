@@ -2801,7 +2801,7 @@ Văn hóa Miền Tây (ở mức phổ biến) ít dùng kiểu “mặt mũi ch
 Thay vì kết luận theo vùng miền, kết luận logic, sạch nhất là:
 **Em không tìm “người đúng vùng”. Em tìm “người có chuẩn”: định danh rõ, bảo vệ phẩm giá, chịu trách nhiệm xã hội cho lựa chọn.**
 Nếu em muốn, tôi có thể viết một checklist 12 tiêu chí “gia giáo thật” trong quan hệ (không cảm tính, quan sát được trong 2–4 tuần) để em dùng như bộ lọc.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[REPORTS_MOC]]

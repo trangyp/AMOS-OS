@@ -265,7 +265,7 @@ A society that chooses the latter is not confused about its priorities. It has d
 ## **Final Line**
 **Healing and dignity were never meant to be luxuries.**
 But in modern systems built on extraction, speed, and compliance, they have been reclassified as rewards — reserved for those with enough power, security, and leverage to pause without penalty. Everyone else is expected to endure without recovery, adapt without consent, and survive without healing — and to call that endurance **strength** rather than what it is: **the cost of being denied the conditions required to be fully human.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

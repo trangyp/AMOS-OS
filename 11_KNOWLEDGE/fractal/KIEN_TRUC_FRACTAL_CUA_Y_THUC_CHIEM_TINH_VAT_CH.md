@@ -1355,7 +1355,7 @@ Chiếc đèn lồng sẽ không xua tan mọi bóng tối. Nhưng nó sẽ đ�
 * * *
 # HẾT.
 _(Whitepaper – Kiến trúc Fractal của Ý thức, Vật chất, Ánh sáng, Thời gian, Năng lượng, Văn hóa, Xã hội, và Chiêm tinh. Dựa trên Trang ∅ Framework, tích hợp khoa học chính thống (vật lý, sinh học, thần kinh học) và các truyền thống tri thức cổ đại.)_
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[FRACTAL_MOC]]

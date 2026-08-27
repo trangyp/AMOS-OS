@@ -39,7 +39,7 @@ C1 (Seed) \u2192 C2 (Build) \u2192 C3 (Peak) \u2192 C4 (Fragment) \u2192 C5 (Cas
 - **No Free Lunch:** Short-term Omega reduction has long-term costs.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[governance_MOC]]

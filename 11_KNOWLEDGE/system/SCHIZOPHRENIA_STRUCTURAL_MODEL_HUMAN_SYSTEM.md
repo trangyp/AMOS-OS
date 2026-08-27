@@ -138,7 +138,7 @@ This is presented as a structural model — a way of organizing the observed neu
 - Memory — The Complete Human System — integrated insights with epistemic audit
 - Neurotransmitter Map — Complete Human System — receptor-level detail
 - [[00_COSMO_BRAIN_MOC]] — vault index
-- [[docs/moc/06-Knowledge-Base-MOC]] — knowledge base index
+- [[KNOWLEDGE_MOC]] — knowledge base index
 
 ---
 **MOC:** [[SYSTEM_MOC]]

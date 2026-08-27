@@ -398,7 +398,7 @@ Vì vậy, lớp còn thiếu trong Khung Trang là:
 Hay nói ngắn gọn:
 **" Người ngoài hành tinh" là nhãn dán cho lỗ hổng chuỗi công cụ và lỗ hổng ký ức. Không phải bằng chứng.**
 Và công việc của Khung Trang là thay thế nhãn dán đó bằng một phương trình cấu trúc.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

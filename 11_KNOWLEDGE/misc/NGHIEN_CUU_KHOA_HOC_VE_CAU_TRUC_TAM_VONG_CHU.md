@@ -428,7 +428,7 @@ Nghiên cứu này không nhận được bất kỳ khoản tài trợ nào t�
   18. (Các tài liệu khác về khảo cổ học Đông Sơn, Cổ Loa, và lịch sử Việt Nam có thể được tham khảo từ các nguồn trong nước, nhưng để đảm bảo tính “formal” cho một bài nghiên cứu quốc tế, chúng tôi tập trung vào các nguồn xuất bản quốc tế, có phản biện – peer-reviewed.)
 
 
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

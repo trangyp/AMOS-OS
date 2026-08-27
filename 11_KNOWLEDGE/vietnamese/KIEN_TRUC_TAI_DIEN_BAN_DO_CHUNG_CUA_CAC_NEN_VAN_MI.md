@@ -347,7 +347,7 @@ Ma trận Saros-Inex của NASA là một bảng tái diễn chính xác đến 
     → Entropy/độ trôi → Sửa chữa → Tái diễn → Sống sót
 ```
 **Mọi nền văn minh đều viết cùng một bản mã. Chỉ khác ngôn ngữ và chất liệu.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

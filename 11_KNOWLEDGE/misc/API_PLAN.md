@@ -2170,7 +2170,7 @@ Tuyệt vời — tiếp tục **Vietnam National API Matrix** với **Tier XIX 
 
 
 Bạn cần mình **tiếp tục #1423–#1522** (100 endpoint nữa) để đủ “250 more” cho Tier XIX không? Chỉ cần bạn nói “tiếp”, mình sẽ xuất ngay phần còn lại theo đúng định dạng bảng này.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

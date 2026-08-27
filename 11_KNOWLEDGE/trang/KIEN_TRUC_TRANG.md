@@ -312,7 +312,7 @@ Kiến trúc Trang đang phù hợp với các đối tác muốn xây dựng:
 Các vấn đề lớn của thế kỷ 21 không thể được giải quyết bằng các công cụ phân mảnh của thế kỷ 20.
 **Kiến trúc Trang** đề xuất một cách nhìn khác:
 thay vì chỉ tối ưu hiệu suất, hãy thiết kế hệ thống có khả năng **nhận tín hiệu đúng, giữ bộ nhớ sạch, sửa chữa kịp thời, bảo vệ biên giới, và tiến hóa mà không tự phá vỡ chính mình.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[trang_MOC]]

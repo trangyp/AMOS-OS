@@ -49,7 +49,7 @@ Her record reflects a strong ethical orientation — focusing on empowering peer
 ⸻
 ## **Overall Summary**
 Trần Vũ Khánh Chi achieves a **PSI score of 8.5/10** , placing her as a **developing systems connector and cultural organizer**. Her profile indicates strong biological integrity, emotional stability, and a clear ethical compass. While her logic compression and pattern recognition are still in the formative stage, she is already showing signs of systems thinking — particularly in mobilizing peers and bridging education with practice. With continued exposure to cross-domain problem-solving, she could evolve into a highly influential leader in education, youth development, or cultural innovation.
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

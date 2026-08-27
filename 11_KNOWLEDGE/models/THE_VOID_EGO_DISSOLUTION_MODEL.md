@@ -164,7 +164,7 @@ Phase 3: Reconfiguration
 - Schizophrenia Structural Model — Complete Human System — related: boundary coherence failure, but pathological rather than transient
 - Neurotransmitter Map — Complete Human System — receptor-level detail
 - [[00_COSMO_BRAIN_MOC]] — vault index
-- [[docs/moc/06-Knowledge-Base-MOC]] — knowledge base index
+- [[KNOWLEDGE_MOC]] — knowledge base index
 
 ---
 **MOC:** [[MODELS_MOC]]

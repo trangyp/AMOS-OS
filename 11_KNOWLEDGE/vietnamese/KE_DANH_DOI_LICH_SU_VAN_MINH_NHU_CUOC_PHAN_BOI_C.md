@@ -2340,7 +2340,7 @@ Một khi bạn đã thấy những fractal này, bạn sẽ bắt đầu nhận
 Những fractal này không phải là định mệnh. Bạn có thể phá vỡ chúng – nếu bạn nhận ra chúng. Và sự nhận ra đó bắt đầu bằng việc đặt câu hỏi. Câu hỏi tương tự, ở mọi quy mô:
 **Đây có phải là một quá trình sống, hay chỉ là một cái vỏ rỗng?Tôi đang kết nối với cơ thể mình, hay đang phân ly?Liệu có cách nào khác không?**
 Hãy mang những câu hỏi đó bên mình. Và hãy để chúng làm công việc của mình.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

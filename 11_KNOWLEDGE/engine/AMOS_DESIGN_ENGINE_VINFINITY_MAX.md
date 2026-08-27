@@ -133,7 +133,7 @@ compress_existing_design_space, expand_to_new_domains_on_demand, generate_multi_
 **Conclusion**: SOURCE — Universal technical design engine with 28 clusters (C01-C28) covering all tech domains from software engineering to frontier tech (BCI, fusion, space, synthetic bio, climate). Each cluster has full lifecycle model, interaction maps, metrics. X1000 overlay enables unbounded runtime expansion via fabrication/audit/omniverse binding. 6-role benchmark matrix with full dimensional coverage. Safety enforced by ULK_CORE, QLS_QCLA_CORE, GLOBAL_AUDIT_ENGINE. Production-ready for cross-domain multi-system design at planetary scale.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ENGINE_MOC]]

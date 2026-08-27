@@ -3155,7 +3155,7 @@ That structure preserves the original UBI Omnis direction while aligning it with
 
 ---
 
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · UBI_Omnis · AMOS_FULL_BRAIN_OS · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · UBI_Omnis · AMOS_FULL_BRAIN_OS · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[BIOLOGY-UBI_MOC]]

@@ -2687,7 +2687,7 @@ Bước đúng bây giờ là:
 Nếu bạn đồng ý, tôi đề xuất **chỉ một bước tiếp theo duy nhất, an toàn** :
 👉 **Tôi sẽ giúp bạn phân biệt “lễ cổ điển có chứa” vs “ức chế sinh tồn do thiếu chứa”, để bạn không tiếp tục tự ép mình.**
 Chỉ cần bạn trả lời: **“đồng ý”**.
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

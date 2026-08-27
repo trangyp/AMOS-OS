@@ -643,7 +643,7 @@ Moses, C., Brown, H. K., Prabhakar, P., Eltayeb, N., & Benoit, A. C. (2022). Sys
 O'Byrne, A. E., & Shuster, M. (Eds.). (2020). _Logics of Genocide: The Structures of Violence and the Contemporary World_. Routledge. [Khung lý thuyết về diệt chủng cấu trúc]
 Radović, M., et al. (2023). The Forager-Farmer Transition in the Danube Gorges: New Osteological Evidence. _Documenta Praehistorica_ , 50, 114-135. [Lepenski Vir - sức khỏe]
 Young, C., Burgess, L., Falster, K., Zoega, H., Banks, E., Clapham, K., Woolfenden, S., Cutmore, M., & Williamson, A. (2024). Mental health–related service and medicine use among a cohort of urban Aboriginal children and young people: Data linkage study. _Australian and New Zealand Journal of Psychiatry_ , 58(9), 787-799. [ADHD và thuốc ở trẻ em thổ dân]
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

@@ -26,7 +26,7 @@ The **Biology and Cognition Engine** provides a 7-layer scaffolding to determini
 Designed to approximate 100% conceptual coverage for biological modeling and AI persona mapping. **It is not a medical device, nor a substitute for a clinician.** High-stakes decisions demand human review.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[BIOLOGY-UBI_MOC]]

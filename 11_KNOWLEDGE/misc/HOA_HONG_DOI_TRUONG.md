@@ -70,7 +70,7 @@ Giả sử đội có **10 xe** , cùng mức doanh thu 1,5 triệu/xe/ngày:
 * * *
 ✅ **Kết luận:**
 Đội trưởng chưa đủ 15 xe vẫn nhận **5% trên tổng doanh thu đội** , và khi đạt chuẩn 15 xe, chuyển sang mức **3,6%** nhưng tổng hoa hồng vẫn tăng nhờ quy mô lớn hơn.
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

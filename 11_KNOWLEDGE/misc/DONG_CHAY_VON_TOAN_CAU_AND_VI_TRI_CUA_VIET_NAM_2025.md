@@ -239,7 +239,7 @@ Ngành này duy nhất ở VN 2025–2030 có: nhu cầu x10 (EV 400.000 xe năm
 Chọn 1 ngành đặt cược 10 năm: Đây, với IRR >50% (từ TCO thấp + chính sách PDP8 118,2 tỷ USD đầu tư).
 **Nguồn** : Mordor Intelligence 2025, World Bank 2024, PDP8 sửa đổi 2025, GSO 2024, IMARC 2025, TechSci Research 2025, Makreo Research 2025.
 Nếu cần: “Investment Thesis: Việt Nam EV & Green Infrastructure 2025–2030” cho C-level (20 slide, gọi vốn).
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

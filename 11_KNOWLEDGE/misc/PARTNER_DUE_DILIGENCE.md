@@ -21,7 +21,7 @@ source: 11_KNOWLEDGE/misc
 [40 and under](<Partner%20due%20diligence/40%20and%20under%20255c5e6f95bd80c59508e4d2118ffbf6.html>)
 [PSI Evaluation: Tôn Nữ Xuân Quyên](<Partner%20due%20diligence/PSI%20Evaluation%20T%C3%B4n%20N%E1%BB%AF%20Xu%C3%A2n%20Quy%C3%AAn%20271c5e6f95bd8084a8acd7a080f58dfc.html>)
 [PSI Evaluation: Trần Vũ Khánh Chi](<Partner%20due%20diligence/PSI%20Evaluation%20Tr%E1%BA%A7n%20V%C5%A9%20Kh%C3%A1nh%20Chi%20271c5e6f95bd80d28965c1f813111be1.html>)
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

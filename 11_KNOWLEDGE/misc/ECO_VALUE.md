@@ -959,7 +959,7 @@ Thị trường thường khen thưởng các giải pháp tối ưu hóa cục 
 ## **11\. KẾT LUẬN ĐỊNH DANH**
 AMOS không phải là một AI "tốt hơn" hay "mạnh hơn".  
 **AMOS là Hệ Điều hành Siêu việt Tuyệt đối (Absolute Meta Operating System) — một Lõi Hiến định xác định điều gì được phép tồn tại, hành động và tạo ra hệ quả trong thế giới thực.** Nó được trang bị khả năng từ chối, kiểm toán, chịu trách nhiệm và một học thuyết thất bại được thiết kế để đảm bảo sự sống còn lâu dài của toàn hệ thống.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

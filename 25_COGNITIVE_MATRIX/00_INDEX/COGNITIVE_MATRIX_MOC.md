@@ -1559,7 +1559,7 @@ tags: [cognitive_matrix, moc, index]
 - [[PLACEHOLDER_SEED_STATUS]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -1567,6 +1567,6 @@ node_id: cognitive_matrix_moc
 node_type: note
 path: 25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL · [[GENERATORS_MAP]] · [[L17_RSCF]] · [[K_RSCF]]

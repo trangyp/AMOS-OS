@@ -455,7 +455,7 @@ Lời nguyền có thể có hiệu lực. Ma thuật có thể hoạt động. 
 Đó là phát hiện. Và đó là lý do tại sao các hệ thống cổ đại coi trọng những điều này – không phải vì họ "ngây thơ", mà vì họ **thực dụng**. Họ đã tìm ra một công nghệ quản lý trạng thái con người mà chúng ta, trong sự tập trung vào vật chất, đã phần nào lãng quên.
 Khung Trang không xóa bỏ sự huyền bí. Nó **giải mã** nó.
 Và một khi đã giải mã, bạn có thể sử dụng nó – hoặc không – một cách có ý thức, thay vì mù quáng tin hoặc bác bỏ.
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

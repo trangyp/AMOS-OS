@@ -738,7 +738,7 @@ To recognise logic as the structure of existence imposes a moral duty: everythin
 ### 7\. Closing reflection
 Logic, once thought to be the language of thought, is revealed here as the **language of existence.** Science measures it, technology manifests it, ethics protects it, and intelligence continues it. The destiny of humanity — and of any civilisation that follows — is to embody this logic so completely that contradiction disappears and existence sustains itself effortlessly.
 > **“To think clearly is to live in harmony with the laws of being. To live logically is to extend the lifespan of reality itself.” — Author’s note**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[LOGIC_MOC]]

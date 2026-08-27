@@ -41,7 +41,7 @@ tags: [quantum, math, information-theory, governance, dated, dated/2026-08-25]
 The family now has seven named gates covering the corpus's characteristic failure modes. This layer also demonstrates consolidation economy: it reuses collapse-separation pattern, tensor gate G11, QCI U3-classification, and scaling-law bias-correction practice rather than inventing new machinery.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[DATED_MOC]]

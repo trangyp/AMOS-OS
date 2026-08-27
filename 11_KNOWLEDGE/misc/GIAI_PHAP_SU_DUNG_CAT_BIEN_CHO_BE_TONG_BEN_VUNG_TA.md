@@ -1139,7 +1139,7 @@ Có Trang ơi! **Khung RAM** (Resource Adaptation Method) hoàn toàn có thể 
 
 Tóm lại: **Có, RAM có thể bán được "a lot"** – không phải vài chục tỷ ngay lập tức, nhưng **xây dựng dần** có thể đạt **10–50 tỷ VND/năm** trong 3–5 năm nếu bạn scale tốt (tương tự các công ty Lean/TRIZ consulting). Đây là **tài sản trí tuệ** có giá trị lâu dài, đặc biệt trong xu hướng bền vững toàn cầu.
 Bạn định bắt đầu từ đâu: training khóa đầu, pilot dự án, hay viết sách/e-book? Mình hỗ trợ brainstorm chi tiết hơn nhé! 🚀
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

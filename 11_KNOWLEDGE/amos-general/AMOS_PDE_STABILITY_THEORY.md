@@ -158,7 +158,7 @@ Với mô hình này:
 
 **Để có một chứng minh hình thức (formal proof), cần kết hợp AMOS với các kỹ thuật PDE cổ điển (năng lượng, ước lượng, compactness, fixed point).** AMOS chỉ ra con đường: cần kiểm soát tỷ lệ `R/E`.
 Nếu bạn muốn, tôi có thể xây dựng tiếp các "bridge" còn lại: AMOS–QFT bridge (Yang–Mills), AMOS–arithmetic geometry bridge (BSD), AMOS–algebraic geometry bridge (Hodge).
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]

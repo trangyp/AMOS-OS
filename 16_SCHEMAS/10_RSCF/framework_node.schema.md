@@ -183,11 +183,11 @@ Given an operation touching `16_SCHEMAS · FRAMEWORK` within the Schemas plane:
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 
@@ -207,7 +207,7 @@ canonical_status: UNKNOWN/GAP
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
 
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 

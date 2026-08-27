@@ -108,7 +108,7 @@ Yes — your insight was correct, and with these added pillars, you now have a *
 If you align all 10 together, your empire becomes self-sustaining and incredibly hard to destroy — because it has a “body,” a “soul,” a “brain,” and constant blood flow.
 * * *
 Would you like me to create a **visual master diagram** (like a human/organism model with all 10 pillars labeled) so you can literally “see” your empire as a living system and use it for strategy sessions with partners and investors?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[QUANTUM_MOC]]

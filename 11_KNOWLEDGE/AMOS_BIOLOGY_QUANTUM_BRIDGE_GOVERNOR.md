@@ -87,7 +87,7 @@ PERMITTED: structural comparisons (labeled MODEL)
 
 ---
 
-**Related:** [[AMOS Home]] · [[11_KNOWLEDGE_MOC]] · [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
 
 ## Vault Sources Enriched (2026-08-27)
 

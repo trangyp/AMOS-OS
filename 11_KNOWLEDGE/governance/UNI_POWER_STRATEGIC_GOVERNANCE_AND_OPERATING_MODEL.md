@@ -228,7 +228,7 @@ All meetings supported by **real-time dashboards from SSOT** — no manual slide
 * * *
 Would you like me to now turn this into a **12-slide investor/board deck** , with visual diagrams (decision pyramid, centralised–decentralised flow, governance committees, KPI flow from SSOT)?
 This would make it presentation-ready for institutional investors, IFC partners, or IPO roadshows.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[governance_MOC]]

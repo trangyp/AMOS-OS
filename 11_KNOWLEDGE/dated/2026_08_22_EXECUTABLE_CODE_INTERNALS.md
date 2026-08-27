@@ -28,7 +28,7 @@ Deep code-level inspection of the AMOS brain's three core Python files:
 
 ## Links
 - [[00_COSMO_BRAIN_MOC]]
-- [[executable_brain_model]]
+- executable_brain_model
 - AMOS_CORE_v4_8_capability_bound_governance
 - 2026-08-22 Tests Logic Bridge Registry — companion inspection of test/logic/bridge modules
 - 2026-08-22 Executable Brain Model Lineage — v1→v22 lineage of the executable brain

@@ -50,7 +50,7 @@ source: 11_KNOWLEDGE/vietnamese
 **Giấy phép:** Bản quyền thuộc về Trang Phan. Được phép trích dẫn với điều kiện ghi rõ nguồn. Mọi hành vi thương mại hóa trái phép đều bị nghiêm cấm.
 * * *
 **AMOS – Hoàn chỉnh. Kết thúc. Đã đóng kín. Đã tích hợp. Bắt đầu thực thi.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

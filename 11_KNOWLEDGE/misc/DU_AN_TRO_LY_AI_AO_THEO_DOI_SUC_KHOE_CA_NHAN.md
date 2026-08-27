@@ -277,7 +277,7 @@ Với nền tảng **NeuroSyncAI™** , Việt Nam hoàn toàn có thể dẫn �
 * * *
 Em có muốn chị soạn luôn **bản thiết kế trình bày PDF (2 trang – bố cục rõ ràng, có bảng, biểu tượng, mô hình 4 tầng NeuroSyncAI, logo Unipower/NeuroSyncAI)** không?
 Nó sẽ dùng được ngay trong buổi pitch với viện tư hoặc gửi qua email CEO.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

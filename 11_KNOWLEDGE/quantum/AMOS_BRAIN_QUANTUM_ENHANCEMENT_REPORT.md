@@ -344,7 +344,7 @@ else: Quantum_Dominant
 **Quantum Achievement**: First implementation of comprehensive quantum tensor field analysis for financial systems, integrating 2025 state-of-the-art quantum computing research with deterministic multi-scale monetary regime modeling, providing production-ready capabilities for quantum financial system evolution monitoring and risk assessment.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[QUANTUM_MOC]]

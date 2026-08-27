@@ -36,7 +36,7 @@ The Reasoning Kernel provides the absolute baseline for how an AMOS agent constr
 This model is universally applicable and sits at the very core of the AMOS OS. It must be actively engaged during complex analytical tasks, strategic planning, or any scenario where the agent is required to resolve ambiguity or synthesize conflicting data sources.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[KERNEL_MOC]]

@@ -89,7 +89,7 @@ For institutions, PISync™ becomes a model for how human systems can align with
 ## **13. Summary**
 Planetary Intelligence Synchrony™ (PISync™) defines the highest level of alignment within Unified Biological Intelligence™. It reflects a biologically sealed state in which the nervous system synchronizes with planetary structure, enabling regulation, prediction, and adaptation without cognitive effort. PISync™ serves as the final interface condition linking human biology to environmental logic, reinforcing the broader canonical architecture of inheritance, alignment, causality, predictability, and systemic evolution that defines the Trang System™.
 * * *
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

@@ -217,7 +217,7 @@ This is the moment to make that foundation visible, usable, and measurable. That
 
 * * *
 Would you like me to now expand this into a **detailed Introduction** that outlines _what the reader will learn_ (structure, laws of design, case studies, applications) — almost like a roadmap through the book?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[human_MOC]]

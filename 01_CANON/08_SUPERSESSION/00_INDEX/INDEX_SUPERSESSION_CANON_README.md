@@ -135,7 +135,7 @@ Supporting canonical infrastructure:
 
 * [[LAW_HIERARCHY]]
 * [[AMOS_RSCF_NODES]]
-* [[00_ROOT/00-Home]]
+* [[00_HOME]]
 * [[HML_CANON]]
 * [[PERSISTENCE_CANON]]
 
@@ -185,7 +185,7 @@ LAW_HIERARCHY
 SUPERSESSION_CANON_SUPERSESSION_CONTRACT
 SUPERSESSION_MAP
 AMOS_RSCF_NODES
-[[00_ROOT/00-Home]]
+[[00_HOME]]
 ```
 
 Where these references disagree, the index must not silently choose a winner.
@@ -286,7 +286,7 @@ directory-local candidate set
 Cross-plane resolution must proceed through canonical navigation structures:
 
 ```text
-[[00_ROOT/00-Home]]
+[[00_HOME]]
         +
 AMOS_RSCF_NODES
 ```
@@ -2071,7 +2071,7 @@ path: 01_CANON/08_SUPERSESSION/00_INDEX/INDEX_SUPERSESSION_CANON_README.md
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: AMOS_RSCF_NODES
 
   - GOVERNED_BY: LAW_HIERARCHY
@@ -2111,11 +2111,11 @@ The artifact is therefore suitable as a **full AMOS supersession index specifica
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]] · [[SUPERSESSION_CANON_SUPERSESSION_CONTRACT]] · [[SUPERSESSION_MAP]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[SUPERSESSION_CANON_SUPERSESSION_CONTRACT]] · [[SUPERSESSION_MAP]]
 
 ---
 

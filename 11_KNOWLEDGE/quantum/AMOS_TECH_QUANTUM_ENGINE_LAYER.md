@@ -87,7 +87,7 @@ L/M/H lens:
 - `amos-tech-quantum-engine`
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[qfm-max-power-consolidation]] · [[unipower-unitaxi-mece]] · [[fractal-cognitive-architecture]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · qfm-max-power-consolidation · unipower-unitaxi-mece · fractal-cognitive-architecture
 
 ---
 **MOC:** [[QUANTUM_MOC]]

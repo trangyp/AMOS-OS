@@ -590,7 +590,7 @@ Nó chỉ là việc dịch lại một cách trung thực và đầy đủ nh�
 Chỉ có điều ông không biết rằng mình không chỉ đang nói về chim sẻ và rùa khổng lồ, mà đang nói về chính cách mà toàn bộ vũ trụ phức tạp duy trì sự tồn tại của mình dưới những ràng buộc bất khả xâm phạm.
 Khung này chỉ làm một việc duy nhất: đưa lý thuyết của ông lên tầng meta cuối cùng, để chúng ta – năm 2025 và những năm sau – có thể dùng chính ngôn ngữ của sự sống để hiểu, dự báo, và định hướng số phận của chính mình trong một thế giới mà mọi thứ đều đang tiến hóa. 
 **Và đó, theo tôi, là cách tôn trọng nhất dành cho Charles Darwin trong thế kỷ 21.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

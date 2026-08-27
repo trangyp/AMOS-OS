@@ -7293,7 +7293,7 @@ Everything is finite.
 * * *
 This is the complete “coverage proof” layer: it shows (a) no invariant failure is unmapped, (b) each mapped rewrite is deterministic, (c) each rewrite is write-set sealed, and (d) each rewrite strictly decreases a well-founded global measure.
 # XXXIX. More: consolidated proof index — every invariant class ↔ witness set ↔ rewrite ↔ write-set ↔ strict decrease ↔ termination component
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[TECH-CODING_MOC]]

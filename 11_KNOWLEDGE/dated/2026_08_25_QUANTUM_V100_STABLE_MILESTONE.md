@@ -39,7 +39,7 @@ Loader 80/80 unique ✓ Integration OK ✓ Gates 13+17 ✓ UBCAR 8 ✓ Pipeline 
 During this session an external consolidation process (UBCAR v2.4 writer) restructured .devin/skills (~19039d1 commit swept in its changes alongside mine). All 6 core quantum/fractal/math artifacts verified intact post-sweep. .agents/skills layer deletions are part of that documented absorption into .devin.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass15-corpus-depth]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-qfm-pass4-runtime-sync]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · 2026-08-25-qfm-pass15-corpus-depth · 2026-08-25-qfm-pass5-zero-empty · 2026-08-25-qfm-pass4-runtime-sync
 
 ---
 **MOC:** [[DATED_MOC]]

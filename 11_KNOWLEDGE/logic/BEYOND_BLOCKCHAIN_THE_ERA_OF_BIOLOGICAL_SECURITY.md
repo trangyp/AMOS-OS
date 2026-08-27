@@ -626,7 +626,7 @@ It proves that the highest form of security is not isolation, but **inner equili
 > Trust begins where stability endures.
 * * *
 Would you like me to integrate this appendix into your _Beyond Blockchain_ PDF layout as the official closing section — formatted and paginated as “Appendix A: The Law of Trust”?
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[LOGIC_MOC]]

@@ -243,7 +243,7 @@ Offshore energy safety is not achieved by choosing the least powerful fuel.
 It is achieved by choosing the fuel whose **failure modes are transparent, interruptible, and survivable under isolation**.
 By that standard, hydrogen is not an offshore risk experiment.
 It is a **risk-management instrument**.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[SYSTEM_MOC]]

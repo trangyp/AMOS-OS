@@ -191,7 +191,7 @@ status: validated
 - `amos-entropy-lacunarity-viability`
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[qfm-max-power-consolidation]] · [[unipower-unitaxi-mece]] · amos-tech-quantum-engine-layer
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · qfm-max-power-consolidation · unipower-unitaxi-mece · amos-tech-quantum-engine-layer
 
 ---
 **MOC:** [[QUANTUM_MOC]]

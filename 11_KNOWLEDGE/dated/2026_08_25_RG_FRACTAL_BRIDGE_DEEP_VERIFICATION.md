@@ -32,7 +32,7 @@ Guard set: no beta function without declared flow + couplings · no universality
 **"Renormalizing emotions" and similar borrowings are blocked by default** — allowed only with full φ-map + flow equation + couplings, which casual uses never have. This is the correct asymmetry: the burden is on the borrower, not the auditor.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[DATED_MOC]]

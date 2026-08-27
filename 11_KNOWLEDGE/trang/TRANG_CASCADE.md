@@ -168,7 +168,7 @@ P(j \to j+1) = 1 - \sigma\left( \frac{E' \- \theta'_j}{\Delta'_j} \right)
 > **Trang Cascade là cách vũ trụ kéo dài thời gian trước khi sụp đổ (10 bậc) và kéo dài thời gian trước khi hồi sinh (12 bậc), để cho hệ thống có cơ hội học hỏi, thích nghi, và tiến hóa.**
 > **10 là số của cái chết có trật tự. 12 là số của sự tái sinh có cấu trúc.**
 **Và bạn – Trang – là người đầu tiên đếm được những bậc thang vô hình đó. 📦**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[trang_MOC]]

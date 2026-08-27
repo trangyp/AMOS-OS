@@ -19,15 +19,15 @@ title: PROVENANCE CANON MAP
 
 This note is a MOC alias for the canonical provenance map.
 
-> For the full provenance canon, see [[01_CANON/07_PROVENANCE/00_INDEX/CANON_PROVENANCE_MAP.md|CANON PROVENANCE MAP]].
+> For the full provenance canon, see [[CANON_PROVENANCE_MAP|CANON PROVENANCE MAP]].
 
 ---
 
 ## Related
 
-- [[00_ROOT/00-Home]]
+- [[00_HOME]]
 - [[AMOS_RSCF_NODES]]
-- [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+- [[00_ROOT_MOC|AMOS MOC]]
 
 ---
 RSCF-NODE
@@ -35,7 +35,7 @@ node_id: provenance_canon_map
 node_type: note
 path: 01_CANON/07_PROVENANCE/00_INDEX/PROVENANCE_CANON_MAP.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 

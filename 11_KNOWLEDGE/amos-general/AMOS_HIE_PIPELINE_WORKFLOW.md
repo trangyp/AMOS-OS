@@ -87,7 +87,7 @@ Did output obey all 6 laws (L1-L6)? All 4 quadrants? Rule of 2? Uncertainty labe
 S1: Parse→7-layer snapshot | S2: Update→deltas | S3: Goal→8 options | S4: Strategy→6 profiles | S5: Structure→Rule of 2+4 | S6: Safety→hard prohibitions+high-risk | S7: Channel→match state | S8: Write→Post-Theory+IP | S9: Evaluate→tag
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]

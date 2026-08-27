@@ -6759,7 +6759,7 @@ If you want this wired into AMOS Loop Kernel, the minimal SSOT module boundaries
 
 
 If you want the next step, say: **KernelSpec** , and I will output the complete file-level spec (modules, functions, tests, and required reports) for implementing both the matrix engine and cross-species grader.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

@@ -70,7 +70,7 @@ Her work emphasizes honoring cultural history, heritage, legacy. Rather than dis
 ## **Overall Summary**
 Tôn Nữ Xuân Quyên averages a **PSI score of ~8.5/10** (42.5/50). She is a strong exemplar of a modern cultural entrepreneur who bridges heritage and innovation. Her strengths are in **ethical alignment** and **pattern recognition** , with solid logic compression and resilience. Her emotional neutrality is good, though perhaps less tested in large-scale shocks or extreme adversity compared to long-rooted healers or thinkers.
 She represents a valuable node in planetary intelligence—preserving and elevating culture, identity, tradition, while applying business rigour and global awareness.
---- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

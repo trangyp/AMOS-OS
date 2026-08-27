@@ -133,7 +133,7 @@ Question_Answer, Design_Workshop, Debugging_Session, Architecture_Review, Tradeo
 **Conclusion**: SOURCE — Compact deterministic tech architecture kernel (216 lines) with 6 state axes, 6 state levels, 5 reasoning layers (L1-L5), 7 conversation modes, 3 hard safety stops, 3 integrity checks, 3 integration handoffs (code, design, business/finance), and 5 execution modes. References canonical Tech Engine v∞ MAX clusters/dimensions by index rather than duplicating. Production-ready for deterministic tech reasoning, architecture, and implementation planning.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[KERNEL_MOC]]

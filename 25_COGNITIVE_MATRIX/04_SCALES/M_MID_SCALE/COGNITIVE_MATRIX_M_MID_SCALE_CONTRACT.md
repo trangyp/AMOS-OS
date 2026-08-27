@@ -22,7 +22,7 @@ Runtime binding PARTIAL.
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
 **Related:** [[HML_CANON]] · [[COGNITIVE_MATRIX_MOC]]

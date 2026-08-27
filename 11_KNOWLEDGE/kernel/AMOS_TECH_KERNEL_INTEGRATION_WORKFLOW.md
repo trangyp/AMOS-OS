@@ -232,7 +232,7 @@ The 20 Tech kernels form an integrated technology capability. For any tech task:
 The AMOS_Tech_Unified_Engine_v0 provides the highest-level integration: it coordinates software architecture, infrastructure, security, data engineering, DevOps, and quality into a single coherent capability.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[KERNEL_MOC]]

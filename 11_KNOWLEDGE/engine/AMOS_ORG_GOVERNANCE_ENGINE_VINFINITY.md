@@ -229,7 +229,7 @@ ORG_INPUT_Resolved, Mode_Selected, Org_Profile, Structure_and_Role_Map, Decision
 **Conclusion**: SOURCE — Complete deterministic organisational governance kernel+engine with 10 pillars, 20 evaluation dimensions, 20 structural O_DIMENSIONS, task-type routing, 6 engine modes, metrics library, scenario engine, evaluation engine with stress tests, 3 alignment layers (TSS/PSI/UBI), and 15-step pipeline. Bilingual EN/VI output. Production-ready for governance diagnosis, design, and evolution across all organisation types.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ENGINE_MOC]]

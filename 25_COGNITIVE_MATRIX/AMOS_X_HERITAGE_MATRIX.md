@@ -4020,7 +4020,7 @@ RSCF_RELATIONS:
     - "[[AMOS_RSCF_NODES]]"
 
   BELONGS_TO:
-    - "[[25_COGNITIVE_MATRIX]]"
+    - "25_COGNITIVE_MATRIX"
 
   GOVERNED_BY:
     - "[[LAW_HIERARCHY]]"
@@ -4028,10 +4028,10 @@ RSCF_RELATIONS:
   RELATED_TO:
     - "[[AMOS_COGNITIVE_ARCHITECTURE_MATRIX]]"
     - "[[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]"
-    - "[[AMOS Physics Cosmos Engine]]"
-    - "[[AMOS Strategy Game Engine]]"
-    - "[[AMOS Econ Finance Engine]]"
-    - "[[AMOS Biology And Cognition Engine]]"
+    - "AMOS Physics Cosmos Engine"
+    - "AMOS Strategy Game Engine"
+    - "AMOS Econ Finance Engine"
+    - "AMOS Biology And Cognition Engine"
 
   SOURCE_OF:
     - heritage_signal_layers
@@ -4224,7 +4224,7 @@ No AMOS process should replace a genuine gap with fabricated certainty.
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+[[00_ROOT_MOC|AMOS MOC]]
 
 ---
 
@@ -4232,7 +4232,7 @@ No AMOS process should replace a genuine gap with fabricated certainty.
 
 - [[00_HOME]]
 - [[AMOS_RSCF_NODES]]
-- [[25_COGNITIVE_MATRIX]]
+- 25_COGNITIVE_MATRIX
 - [[AMOS_COGNITIVE_ARCHITECTURE_MATRIX]]
 - [[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
 
@@ -4260,7 +4260,7 @@ RSCF-RELATIONS:
 
   - GOVERNED_BY: [[LAW_HIERARCHY]]
 
-  - BELONGS_TO: [[25_COGNITIVE_MATRIX]]
+  - BELONGS_TO: 25_COGNITIVE_MATRIX
 
   - RELATED_TO: [[AMOS_COGNITIVE_ARCHITECTURE_MATRIX]]
 

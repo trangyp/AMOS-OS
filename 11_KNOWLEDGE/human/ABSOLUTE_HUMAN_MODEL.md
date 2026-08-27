@@ -33,7 +33,7 @@ The Absolute Human Model defines the finalized, absolute ontology for human base
 This is a foundational model. It must be respected by all higher-level engines (like the Tech Architecture Engine or the Bod Engine). If a proposed system, product, or organizational structure violates the Absolute Human baseline, it is structurally invalid and must be redesigned. It acts as the final "Law of Law" check regarding human integration.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[human_MOC]]

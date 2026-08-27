@@ -147,7 +147,7 @@ Each cluster has: subdomains, roles, artifacts, core_patterns, triple_density_mo
 **Conclusion**: SOURCE — Comprehensive tech design engine with 28 clusters, 6-role benchmark matrix, 3 UniPower VN design roles with time-horizon roadmaps, embedded TRANG_VN_PRO_WRITING_ENGINE (v1.0 + v2.0) for Vietnamese executive writing, embedded AMOS_VN_EXEC_WRITING_REASONING_ENGINE with 8 modes + 6 chart frameworks. Integrates McKinsey logic, MECE, hypothesis-driven reasoning, systemic thinking. Safety-first with legal/financial/medical disclaimers. Production-ready for cross-domain tech design and Vietnamese executive communication.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ENGINE_MOC]]

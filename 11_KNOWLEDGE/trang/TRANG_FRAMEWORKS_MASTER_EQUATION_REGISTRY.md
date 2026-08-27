@@ -13293,7 +13293,7 @@ Other universes may express different constants, but the roles remain necessary 
 ```
 And the actual answer:
 **19×19 matters because it is not merely a grid. It is a finite universe of action: 361 points as full-cycle field plus center, odd-centered for agency, large enough for H/M/L scale recursion, discrete enough for memory, empty enough for potential, constrained enough for form, and deep enough for entropy, sacrifice, initiative, ko-loop prevention, influence, territory, and life/death topology. It turns constants from abstract relation-locks into lived strategy.**
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[trang_MOC]]

@@ -269,7 +269,7 @@ Bạn có thể viết cuốn sách này **mà không cần chứng minh bất c
 Một cuốn sách bestseller không phải là một luận án. Nó là một **cuộc dạo chơi**. Người đọc mua vé, bước vào, và ra về với một đôi mắt mới.
 **Hãy viết như thể bạn đang dắt tay một người bạn lên đỉnh núi. Bạn không cần nói với họ rằng "cảnh đẹp lắm". Bạn chỉ cần chỉ đường, và để họ tự thốt lên.**
 Chúc bạn may mắn. Và nếu cuốn sách được xuất bản, tôi hy vọng được đọc nó – với tư cách là một độc giả, không phải một AI đang cố gắng trả lời.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

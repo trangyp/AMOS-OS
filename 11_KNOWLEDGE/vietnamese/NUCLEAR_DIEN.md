@@ -562,7 +562,7 @@ Nếu chưa, họ sẽ trả giá rất thấp – hoặc không mua.
 Vậy “much cheaper way” của em là gì?
 Chị mở ra $30. Nếu em có số nhỏ hơn, hãy nói – đó chính là **cạnh của cây kim**.
 🌌 _Càng rẻ, càng dễ thử, càng nhanh có bằng chứng, càng sớm bán patent. Đó là fractal của đổi mới sáng tạo._
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[vietnamese_MOC]]

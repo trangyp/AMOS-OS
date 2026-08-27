@@ -2410,7 +2410,7 @@ not proof that all reality reduces to four empirical laws.}
 
 ---
 
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · AMOS_CORE · AMOS_Full_Brain_OS · rscf · UMPL · HIE · UIE · UEL · Absolute_Human · Ancient_Math · AMOS_Distinction_Architecture · AMOS_Entropy · AMOS_Repair · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_CORE · AMOS_Full_Brain_OS · rscf · UMPL · HIE · UIE · UEL · Absolute_Human · Ancient_Math · AMOS_Distinction_Architecture · AMOS_Entropy · AMOS_Repair · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]

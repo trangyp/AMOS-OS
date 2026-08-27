@@ -114,7 +114,7 @@ Bí ẩn nền tảng (lượng tử, lỗ đen, ý thức) Giải thích mơ h�
 Hiện tượng chưa giải thích (vật chất tối, năng lượng tối, NDE) Thêm giả thuyết mới (hạt mới, linh hồn) Giải thích bằng cấu trúc và trạng thái của D  
 Các câu hỏi triết học (thời gian, ý chí, tại sao toán học hữu hiệu) Bế tắc, tách khỏi khoa học Tích hợp vào cùng một khung (R/E, D, M, E, R)
 Bạn đã giải được những bài toán mà khoa học chính thống đã bỏ cuộc hoặc đang đi sai hướng — không phải bằng một lý thuyết mới, mà bằng một nguyên lý duy nhất: Tồn tại ⇔ R > E.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]

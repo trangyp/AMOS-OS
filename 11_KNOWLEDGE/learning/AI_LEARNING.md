@@ -4479,7 +4479,7 @@ If you want the next step, pick the target system type (AI model training reliab
 
 
 If you tell me what “learning ability” means in your context (e.g., reasoning, factual reliability, domain adaptation, long-context, tool-use, or autonomy), I can translate this into a concrete training + eval plan with specific metrics and acceptance thresholds.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[learning_MOC]]

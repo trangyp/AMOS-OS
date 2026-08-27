@@ -53,7 +53,7 @@ Closed gap cluster 274-279: Fairness, Ethics & Externalities. 6 gaps, 6 subsyste
 - 2026-08-22 Accessibility I18n Governance
 - 2026-08-22 Privacy Compliance Governance
 - amos-completion-graph-workflow
-- [[fairness_ethics]]
+- fairness_ethics
 
 ---
 **MOC:** [[DATED_MOC]]

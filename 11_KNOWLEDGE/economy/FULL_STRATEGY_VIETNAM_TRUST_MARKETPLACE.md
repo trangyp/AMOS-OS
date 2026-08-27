@@ -311,7 +311,7 @@ The combination of **national b randing + commercial viability + ESG alignment**
 **🌍 Why This Resonates Globally**
 **Investors want predictability** — this gives them a measurable trust index. Buyers want safety — this gives them verified compliance, lowering legal risk. Suppliers want fair reward — this gives them a way to be recognised and paid for good behaviour.
 Biology explains why people will adopt it. Quantum principles explain why it scales — because you’re reducing entropy (uncertainty) in the system.
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ECONOMY_MOC]]

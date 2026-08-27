@@ -54,7 +54,7 @@ Hiệu quả của dự án được đo lường định lượng qua các ch�
 Dự án được định vị để trở thành mạng lưới hạ tầng chuỗi cung ứng lạnh thông minh đáng tin cậy nhất Việt Nam bằng cách kết hợp sự minh bạch về pháp lý, sự tin cậy về vận hành, bảo vệ an toàn dữ liệu, khả năng tiếp cận thị trường công bằng và tạo ra giá trị thực tế có thể đo lường được cho nền kinh tế xuất khẩu nông sản nước nhà.
 [5 PHỤ LỤC](<CHU%E1%BB%96I%20CUNG%20%E1%BB%A8NG%20KHO%20L%E1%BA%A0NH/5%20PH%E1%BB%A4%20L%E1%BB%A4C%20371c5e6f95bd809788f5d57810045f74.html>)
 [BẢN ĐỀ XUẤT ĐẦU TƯ: DỰ ÁN VSCCI](<CHU%E1%BB%96I%20CUNG%20%E1%BB%A8NG%20KHO%20L%E1%BA%A0NH/B%E1%BA%A2N%20%C4%90%E1%BB%80%20XU%E1%BA%A4T%20%C4%90%E1%BA%A6U%20T%C6%AF%20D%E1%BB%B0%20%C3%81N%20VSCCI%20371c5e6f95bd80b8bafbefffbe1cd831.html>)
-\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[MISC_MOC]]
