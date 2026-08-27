@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   bio_architecture_framework:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE]]"
+    artifact: "[[BIO_LOGICAL_ARCHITECTURE]]"
   biological_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+    artifact: "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -79,9 +79,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Bio-Architecture Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE]]
-- **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE]]
-- **Organism OS:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_ORGANISM_OS_FRAMEWORK]]
+- **Bio-Architecture Framework:** [[BIO_LOGICAL_ARCHITECTURE]]
+- **Biological Master:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+- **Organism OS:** [[AMOS_ORGANISM_OS_FRAMEWORK]]
 
 ---
 
@@ -105,7 +105,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_ORGANISM_OS_FRAMEWORK]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[BIO_LOGICAL_ARCHITECTURE]] · [[AMOS_ORGANISM_OS_FRAMEWORK]]
 
 ---
-**MOC:** [[21_DOMAINS/05_DESIGN/05_DESIGN_MOC]]
+**MOC:** [[05_DESIGN_MOC]]

@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "AMOS 19x19 Cognitive Field"
 type: cognitive
@@ -89,7 +88,6 @@ rscf:
 
 ```text
 01_CANON/03_COGNITION_CANON
-````
 
 It reserves the canonical slot for the AMOS framework family named:
 
@@ -4666,4 +4664,3 @@ RSCF-RELATIONS:
 ```
 
 The key integrity constraint is that **“19x19” is currently a source-supported framework label, not a recovered native structure**. Even though `19 × 19 = 361` is mathematically verified, that does not license the claim that AMOS canon contains exactly 361 cognitive cells, states, relations, or operators. The first result-changing native evidence to recover is the definition of **each “19” and the relation between them**.
-```

@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   neurosyncai_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER]]"
+    artifact: "[[NEUROSYNCAI_MASTER]]"
   matrix_binding:
-    artifact: "[[25_COGNITIVE_MATRIX/UBI_X_NEUROSYNCAI]]"
+    artifact: "[[UBI_X_NEUROSYNCAI]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -79,9 +79,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **NeurosyncAI Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER]]
-- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/UBI_X_NEUROSYNCAI]]
-- **Recovery Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_RECOVERY_ENGINE]]
+- **NeurosyncAI Master:** [[NEUROSYNCAI_MASTER]]
+- **Cognitive Matrix:** [[UBI_X_NEUROSYNCAI]]
+- **Recovery Engine:** [[NEUROSYNCAI_RECOVERY_ENGINE]]
 
 ---
 
@@ -105,7 +105,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER]] · [[25_COGNITIVE_MATRIX/UBI_X_NEUROSYNCAI]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[NEUROSYNCAI_MASTER]] · [[UBI_X_NEUROSYNCAI]]
 
 ---
 **MOC:** [[21_DOMAINS_MOC]]

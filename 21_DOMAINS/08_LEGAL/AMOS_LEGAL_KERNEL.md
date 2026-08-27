@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   law_of_law:
-    artifact: "[[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]"
+    artifact: "[[L0_INTEGRITY]]"
   legal_moc:
-    artifact: "[[21_DOMAINS/08_LEGAL/08_LEGAL_MOC]]"
+    artifact: "[[08_LEGAL_MOC]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -89,8 +89,8 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Law of Law:** [[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]
-- **Legal MOC:** [[21_DOMAINS/08_LEGAL/08_LEGAL_MOC]]
+- **Law of Law:** [[L0_INTEGRITY]]
+- **Legal MOC:** [[08_LEGAL_MOC]]
 - **IP Governance:** [[CANON_IP_GOVERNANCE]]
 
 ---
@@ -115,7 +115,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY]] · [[21_DOMAINS/08_LEGAL/08_LEGAL_MOC]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[L0_INTEGRITY]] · [[08_LEGAL_MOC]]
 
 ---
-**MOC:** [[21_DOMAINS/08_LEGAL/08_LEGAL_MOC]]
+**MOC:** [[08_LEGAL_MOC]]

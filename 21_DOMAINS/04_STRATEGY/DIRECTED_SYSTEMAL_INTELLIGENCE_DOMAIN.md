@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   dsi_framework:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/DIRECTED_SYSTEMAL_INTELLIGENCE]]"
+    artifact: "[[DIRECTED_SYSTEMAL_INTELLIGENCE]]"
   strategy_moc:
-    artifact: "[[21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC]]"
+    artifact: "[[04_STRATEGY_MOC]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -79,8 +79,8 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **DSI Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/DIRECTED_SYSTEMAL_INTELLIGENCE]]
-- **Strategy MOC:** [[21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC]]
+- **DSI Framework:** [[DIRECTED_SYSTEMAL_INTELLIGENCE]]
+- **Strategy MOC:** [[04_STRATEGY_MOC]]
 - **TSS Domain:** [[TSS_DOMAIN_MODEL]]
 
 ---
@@ -105,7 +105,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/DIRECTED_SYSTEMAL_INTELLIGENCE]] · [[TSS_DOMAIN_MODEL]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[DIRECTED_SYSTEMAL_INTELLIGENCE]] · [[TSS_DOMAIN_MODEL]]
 
 ---
-**MOC:** [[21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC]]
+**MOC:** [[04_STRATEGY_MOC]]

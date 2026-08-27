@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   dfai_framework:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY]]"
+    artifact: "[[DESIGN_FOR_ABSOLUTE_INTEGRITY]]"
   law_of_law:
-    artifact: "[[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]"
+    artifact: "[[L0_INTEGRITY]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -79,9 +79,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **DFAI Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY]]
-- **Law of Law:** [[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]
-- **Absolute Integrity:** [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY]]
+- **DFAI Framework:** [[DESIGN_FOR_ABSOLUTE_INTEGRITY]]
+- **Law of Law:** [[L0_INTEGRITY]]
+- **Absolute Integrity:** [[ABSOLUTE_STRUCTURAL_INTEGRITY]]
 
 ---
 
@@ -105,7 +105,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[DESIGN_FOR_ABSOLUTE_INTEGRITY]] · [[L0_INTEGRITY]]
 
 ---
-**MOC:** [[21_DOMAINS/05_DESIGN/05_DESIGN_MOC]]
+**MOC:** [[05_DESIGN_MOC]]

@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   validation_report:
-    artifact: "[[22_RESEARCH/04_VALIDATION/CROSS_FRAMEWORK_VALIDATION]]"
+    artifact: "[[CROSS_FRAMEWORK_VALIDATION]]"
   frameworks_moc:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC]]"
+    artifact: "[[05_FRAMEWORKS_MOC]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -79,9 +79,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Validation Report:** [[22_RESEARCH/04_VALIDATION/CROSS_FRAMEWORK_VALIDATION]]
-- **Empirical Status:** [[22_RESEARCH/04_VALIDATION/FRAMEWORK_EMPIRICAL_STATUS]]
-- **Frameworks MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC]]
+- **Validation Report:** [[CROSS_FRAMEWORK_VALIDATION]]
+- **Empirical Status:** [[FRAMEWORK_EMPIRICAL_STATUS]]
+- **Frameworks MOC:** [[05_FRAMEWORKS_MOC]]
 
 ---
 
@@ -105,7 +105,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[22_RESEARCH/04_VALIDATION/CROSS_FRAMEWORK_VALIDATION]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[CROSS_FRAMEWORK_VALIDATION]] · [[05_FRAMEWORKS_MOC]]
 
 ---
-**MOC:** [[21_DOMAINS/02_RESEARCH/02_RESEARCH_MOC]]
+**MOC:** [[02_RESEARCH_MOC]]

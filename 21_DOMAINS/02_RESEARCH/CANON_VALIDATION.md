@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   claim_audit:
-    artifact: "[[22_RESEARCH/04_VALIDATION/CANON_SOURCE_CLAIM_AUDIT]]"
+    artifact: "[[CANON_SOURCE_CLAIM_AUDIT]]"
   canon_moc:
-    artifact: "[[01_CANON/01_CANON_MOC]]"
+    artifact: "[[01_CANON_MOC]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -79,9 +79,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Claim Audit:** [[22_RESEARCH/04_VALIDATION/CANON_SOURCE_CLAIM_AUDIT]]
-- **Canon Plane MOC:** [[01_CANON/01_CANON_MOC]]
-- **Total Canon Matrix:** [[25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX]]
+- **Claim Audit:** [[CANON_SOURCE_CLAIM_AUDIT]]
+- **Canon Plane MOC:** [[01_CANON_MOC]]
+- **Total Canon Matrix:** [[TOTAL_CANON_MATRIX]]
 
 ---
 
@@ -105,7 +105,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[22_RESEARCH/04_VALIDATION/CANON_SOURCE_CLAIM_AUDIT]] · [[01_CANON/01_CANON_MOC]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[CANON_SOURCE_CLAIM_AUDIT]] · [[01_CANON_MOC]]
 
 ---
-**MOC:** [[21_DOMAINS/02_RESEARCH/02_RESEARCH_MOC]]
+**MOC:** [[02_RESEARCH_MOC]]

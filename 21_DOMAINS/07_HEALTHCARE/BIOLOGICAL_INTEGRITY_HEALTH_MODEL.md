@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   firewall_framework:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK]]"
+    artifact: "[[ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK]]"
   healthcare_moc:
-    artifact: "[[21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC]]"
+    artifact: "[[07_HEALTHCARE_MOC]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -81,8 +81,8 @@ $$\text{Allostatic Index} = \sum_{k=1}^4 w_k (1 - x_k)^2, \quad \text{where } x_
 
 # 2. Inter-Plane & Vault Connections
 
-- **Firewall Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK]]
-- **Healthcare MOC:** [[21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC]]
+- **Firewall Framework:** [[ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK]]
+- **Healthcare MOC:** [[07_HEALTHCARE_MOC]]
 - **UBI Health:** [[UBI_HEALTH_APPLICATION]]
 
 ---
@@ -107,7 +107,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK]] · [[UBI_HEALTH_APPLICATION]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK]] · [[UBI_HEALTH_APPLICATION]]
 
 ---
-**MOC:** [[21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC]]
+**MOC:** [[07_HEALTHCARE_MOC]]

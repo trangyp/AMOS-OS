@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   irreducible_framework:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/IRREDUCIBLE_SYSTEMS_ARCHITECTURE]]"
+    artifact: "[[IRREDUCIBLE_SYSTEMS_ARCHITECTURE]]"
   design_moc:
-    artifact: "[[21_DOMAINS/05_DESIGN/05_DESIGN_MOC]]"
+    artifact: "[[05_DESIGN_MOC]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -79,9 +79,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Irreducible Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/IRREDUCIBLE_SYSTEMS_ARCHITECTURE]]
-- **Design MOC:** [[21_DOMAINS/05_DESIGN/05_DESIGN_MOC]]
-- **DFAI Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY]]
+- **Irreducible Framework:** [[IRREDUCIBLE_SYSTEMS_ARCHITECTURE]]
+- **Design MOC:** [[05_DESIGN_MOC]]
+- **DFAI Framework:** [[DESIGN_FOR_ABSOLUTE_INTEGRITY]]
 
 ---
 
@@ -105,7 +105,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/IRREDUCIBLE_SYSTEMS_ARCHITECTURE]] · [[21_DOMAINS/05_DESIGN/05_DESIGN_MOC]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[IRREDUCIBLE_SYSTEMS_ARCHITECTURE]] · [[05_DESIGN_MOC]]
 
 ---
-**MOC:** [[21_DOMAINS/05_DESIGN/05_DESIGN_MOC]]
+**MOC:** [[05_DESIGN_MOC]]

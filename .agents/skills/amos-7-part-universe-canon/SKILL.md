@@ -78,5 +78,5 @@ The 7-part canon's Enforcement (Part IV) directly gates the AMOS_OS Law Stack:
 - Rule of 4™ → Quadrant completeness after Flow + Structure + Enforcement are all first-class
 
 ## References
-- [[07_SKILLS/amos-7-part-universe-canon/references]] — session-specific detail and authoritative sources
+- [[references]] — session-specific detail and authoritative sources
 - references/README — references subdirectory readme

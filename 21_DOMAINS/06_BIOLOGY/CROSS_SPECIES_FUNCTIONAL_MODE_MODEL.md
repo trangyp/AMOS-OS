@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   uba_framework:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK]]"
+    artifact: "[[UBA_FRAMEWORK]]"
   biological_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+    artifact: "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -82,9 +82,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **UBA Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK]]
-- **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE]]
-- **Organism OS:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_ORGANISM_OS_FRAMEWORK]]
+- **UBA Framework:** [[UBA_FRAMEWORK]]
+- **Biological Master:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+- **Organism OS:** [[AMOS_ORGANISM_OS_FRAMEWORK]]
 
 ---
 
@@ -108,7 +108,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[UBA_FRAMEWORK]] · [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
 ---
 **MOC:** [[21_DOMAINS_MOC]]

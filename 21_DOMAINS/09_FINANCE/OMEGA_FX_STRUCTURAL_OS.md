@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   forex_engine:
-    artifact: "[[21_DOMAINS/09_FINANCE/TRANG_ZERO_FOREX]]"
+    artifact: "[[TRANG_ZERO_FOREX]]"
   finance_moc:
-    artifact: "[[21_DOMAINS/09_FINANCE/09_FINANCE_MOC]]"
+    artifact: "[[09_FINANCE_MOC]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -79,9 +79,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Trang Zero Forex:** [[21_DOMAINS/09_FINANCE/TRANG_ZERO_FOREX]]
-- **Macro Economy:** [[21_DOMAINS/09_FINANCE/MACRO_ECONOMY_KERNEL]]
-- **Finance MOC:** [[21_DOMAINS/09_FINANCE/09_FINANCE_MOC]]
+- **Trang Zero Forex:** [[TRANG_ZERO_FOREX]]
+- **Macro Economy:** [[MACRO_ECONOMY_KERNEL]]
+- **Finance MOC:** [[09_FINANCE_MOC]]
 
 ---
 
@@ -105,7 +105,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[21_DOMAINS/09_FINANCE/TRANG_ZERO_FOREX]] · [[21_DOMAINS/09_FINANCE/09_FINANCE_MOC]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[TRANG_ZERO_FOREX]] · [[09_FINANCE_MOC]]
 
 ---
-**MOC:** [[21_DOMAINS/09_FINANCE/09_FINANCE_MOC]]
+**MOC:** [[09_FINANCE_MOC]]

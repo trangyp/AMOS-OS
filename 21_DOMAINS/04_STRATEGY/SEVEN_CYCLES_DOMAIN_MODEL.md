@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   seven_cycles_framework:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES]]"
+    artifact: "[[TSS_SEVEN_CYCLES]]"
   tss_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM]]"
+    artifact: "[[TSS_THE_TRANG_SYSTEM]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -91,9 +91,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Seven Cycles Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES]]
-- **TSS Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM]]
-- **TPE Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/TPE_TRANG_PREDICTION_ENGINE]]
+- **Seven Cycles Framework:** [[TSS_SEVEN_CYCLES]]
+- **TSS Master:** [[TSS_THE_TRANG_SYSTEM]]
+- **TPE Engine:** [[TPE_TRANG_PREDICTION_ENGINE]]
 
 ---
 
@@ -117,7 +117,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[TSS_SEVEN_CYCLES]] · [[TSS_THE_TRANG_SYSTEM]]
 
 ---
-**MOC:** [[21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC]]
+**MOC:** [[04_STRATEGY_MOC]]

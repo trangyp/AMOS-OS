@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   provenance_framework:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE]]"
+    artifact: "[[HERITAGE_PROVENANCE]]"
   research_moc:
-    artifact: "[[21_DOMAINS/02_RESEARCH/02_RESEARCH_MOC]]"
+    artifact: "[[02_RESEARCH_MOC]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -79,9 +79,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Provenance Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE]]
-- **Civilization History:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_CIVILIZATION_HISTORY]]
-- **Research MOC:** [[21_DOMAINS/02_RESEARCH/02_RESEARCH_MOC]]
+- **Provenance Framework:** [[HERITAGE_PROVENANCE]]
+- **Civilization History:** [[HERITAGE_CIVILIZATION_HISTORY]]
+- **Research MOC:** [[02_RESEARCH_MOC]]
 
 ---
 
@@ -105,7 +105,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE]] · [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_CIVILIZATION_HISTORY]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[HERITAGE_PROVENANCE]] · [[HERITAGE_CIVILIZATION_HISTORY]]
 
 ---
-**MOC:** [[21_DOMAINS/02_RESEARCH/02_RESEARCH_MOC]]
+**MOC:** [[02_RESEARCH_MOC]]

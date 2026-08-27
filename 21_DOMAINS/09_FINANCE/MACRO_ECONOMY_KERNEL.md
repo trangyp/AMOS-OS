@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   tss_framework:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM]]"
+    artifact: "[[TSS_THE_TRANG_SYSTEM]]"
   finance_moc:
-    artifact: "[[21_DOMAINS/09_FINANCE/09_FINANCE_MOC]]"
+    artifact: "[[09_FINANCE_MOC]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -82,9 +82,9 @@ $$i_{\text{Macro}} = [H(1-\Omega)(1-F)(1-S)]^{1/4}$$
 
 # 2. Inter-Plane & Vault Connections
 
-- **TSS Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM]]
-- **Finance MOC:** [[21_DOMAINS/09_FINANCE/09_FINANCE_MOC]]
-- **TPE Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/TPE_TRANG_PREDICTION_ENGINE]]
+- **TSS Framework:** [[TSS_THE_TRANG_SYSTEM]]
+- **Finance MOC:** [[09_FINANCE_MOC]]
+- **TPE Engine:** [[TPE_TRANG_PREDICTION_ENGINE]]
 
 ---
 
@@ -108,7 +108,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM]] · [[21_DOMAINS/09_FINANCE/09_FINANCE_MOC]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[TSS_THE_TRANG_SYSTEM]] · [[09_FINANCE_MOC]]
 
 ---
-**MOC:** [[21_DOMAINS/09_FINANCE/09_FINANCE_MOC]]
+**MOC:** [[09_FINANCE_MOC]]

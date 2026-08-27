@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   biological_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+    artifact: "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
   healthcare_moc:
-    artifact: "[[21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC]]"
+    artifact: "[[07_HEALTHCARE_MOC]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -82,8 +82,8 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE]]
-- **Healthcare MOC:** [[21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC]]
+- **Biological Master:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+- **Healthcare MOC:** [[07_HEALTHCARE_MOC]]
 - **Medical Kernel:** [[AMOS_MEDICAL_CLINICAL_KERNEL]]
 
 ---
@@ -108,7 +108,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[07_HEALTHCARE_MOC]]
 
 ---
-**MOC:** [[21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC]]
+**MOC:** [[07_HEALTHCARE_MOC]]

@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   legal_kernel:
-    artifact: "[[21_DOMAINS/08_LEGAL/AMOS_LEGAL_KERNEL]]"
+    artifact: "[[AMOS_LEGAL_KERNEL]]"
   legal_moc:
-    artifact: "[[21_DOMAINS/08_LEGAL/08_LEGAL_MOC]]"
+    artifact: "[[08_LEGAL_MOC]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -79,9 +79,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Legal Kernel:** [[21_DOMAINS/08_LEGAL/AMOS_LEGAL_KERNEL]]
-- **Legal MOC:** [[21_DOMAINS/08_LEGAL/08_LEGAL_MOC]]
-- **Heritage Provenance:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE]]
+- **Legal Kernel:** [[AMOS_LEGAL_KERNEL]]
+- **Legal MOC:** [[08_LEGAL_MOC]]
+- **Heritage Provenance:** [[HERITAGE_PROVENANCE]]
 
 ---
 
@@ -105,7 +105,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[21_DOMAINS/08_LEGAL/AMOS_LEGAL_KERNEL]] · [[21_DOMAINS/08_LEGAL/08_LEGAL_MOC]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[AMOS_LEGAL_KERNEL]] · [[08_LEGAL_MOC]]
 
 ---
-**MOC:** [[21_DOMAINS/08_LEGAL/08_LEGAL_MOC]]
+**MOC:** [[08_LEGAL_MOC]]

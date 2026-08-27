@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   zero_framework:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_ZERO_FRAMEWORK]]"
+    artifact: "[[TRANG_ZERO_FRAMEWORK]]"
   finance_moc:
-    artifact: "[[21_DOMAINS/09_FINANCE/09_FINANCE_MOC]]"
+    artifact: "[[09_FINANCE_MOC]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -81,8 +81,8 @@ $$\Delta P_{\text{FX}} = f(S_0, \Delta \Omega, \Delta H)$$
 
 # 2. Inter-Plane & Vault Connections
 
-- **Zero Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_ZERO_FRAMEWORK]]
-- **Finance MOC:** [[21_DOMAINS/09_FINANCE/09_FINANCE_MOC]]
+- **Zero Framework:** [[TRANG_ZERO_FRAMEWORK]]
+- **Finance MOC:** [[09_FINANCE_MOC]]
 - **Omega FX OS:** [[OMEGA_FX_STRUCTURAL_OS]]
 
 ---
@@ -107,7 +107,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_ZERO_FRAMEWORK]] · [[OMEGA_FX_STRUCTURAL_OS]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[TRANG_ZERO_FRAMEWORK]] · [[OMEGA_FX_STRUCTURAL_OS]]
 
 ---
-**MOC:** [[21_DOMAINS/09_FINANCE/09_FINANCE_MOC]]
+**MOC:** [[09_FINANCE_MOC]]

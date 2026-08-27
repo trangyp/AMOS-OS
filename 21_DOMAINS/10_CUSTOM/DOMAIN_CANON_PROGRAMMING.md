@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   dcp_framework:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/DOMAIN_CANON_PROGRAMMING]]"
+    artifact: "[[DOMAIN_CANON_PROGRAMMING]]"
   law_of_law:
-    artifact: "[[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]"
+    artifact: "[[L0_INTEGRITY]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -89,9 +89,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **DCP Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/DOMAIN_CANON_PROGRAMMING]]
-- **Law of Law:** [[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]
-- **LDAI Determinism:** [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI]]
+- **DCP Framework:** [[DOMAIN_CANON_PROGRAMMING]]
+- **Law of Law:** [[L0_INTEGRITY]]
+- **LDAI Determinism:** [[LDAI_LOGICALLY_DETERMINISTIC_AI]]
 
 ---
 
@@ -115,7 +115,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/DOMAIN_CANON_PROGRAMMING]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[DOMAIN_CANON_PROGRAMMING]] · [[L0_INTEGRITY]]
 
 ---
 **MOC:** [[21_DOMAINS_MOC]]

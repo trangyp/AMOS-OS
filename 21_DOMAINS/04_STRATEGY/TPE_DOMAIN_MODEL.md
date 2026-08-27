@@ -52,11 +52,11 @@ rscf:
 
 framework_binding:
   tpe_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/TPE_TRANG_PREDICTION_ENGINE]]"
+    artifact: "[[TPE_TRANG_PREDICTION_ENGINE]]"
   strategy_moc:
-    artifact: "[[21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC]]"
+    artifact: "[[04_STRATEGY_MOC]]"
   matrix_binding:
-    artifact: "[[25_COGNITIVE_MATRIX/AMOS_X_TPE]]"
+    artifact: "[[AMOS_X_TPE]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -95,9 +95,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **TPE Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/TPE_TRANG_PREDICTION_ENGINE]]
-- **Seven Cycles:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES]]
-- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_TPE]]
+- **TPE Master:** [[TPE_TRANG_PREDICTION_ENGINE]]
+- **Seven Cycles:** [[TSS_SEVEN_CYCLES]]
+- **Cognitive Matrix:** [[AMOS_X_TPE]]
 
 ---
 
@@ -121,7 +121,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TPE_TRANG_PREDICTION_ENGINE]] · [[25_COGNITIVE_MATRIX/AMOS_X_TPE]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[TPE_TRANG_PREDICTION_ENGINE]] · [[AMOS_X_TPE]]
 
 ---
-**MOC:** [[21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC]]
+**MOC:** [[04_STRATEGY_MOC]]

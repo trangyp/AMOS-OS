@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   heritage_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER]]"
+    artifact: "[[HERITAGE_INTELLIGENCE_MASTER]]"
   matrix_binding:
-    artifact: "[[25_COGNITIVE_MATRIX/AMOS_X_HERITAGE]]"
+    artifact: "[[AMOS_X_HERITAGE]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -79,9 +79,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Heritage Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER]]
-- **Heritage Handbook:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_HANDBOOK]]
-- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_HERITAGE]]
+- **Heritage Master:** [[HERITAGE_INTELLIGENCE_MASTER]]
+- **Heritage Handbook:** [[HERITAGE_HANDBOOK]]
+- **Cognitive Matrix:** [[AMOS_X_HERITAGE]]
 
 ---
 
@@ -105,7 +105,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER]] · [[25_COGNITIVE_MATRIX/AMOS_X_HERITAGE]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[HERITAGE_INTELLIGENCE_MASTER]] · [[AMOS_X_HERITAGE]]
 
 ---
 **MOC:** [[21_DOMAINS_MOC]]

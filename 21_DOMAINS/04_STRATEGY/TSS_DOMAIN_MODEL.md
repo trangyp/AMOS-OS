@@ -52,11 +52,11 @@ rscf:
 
 framework_binding:
   tss_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM]]"
+    artifact: "[[TSS_THE_TRANG_SYSTEM]]"
   strategy_moc:
-    artifact: "[[21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC]]"
+    artifact: "[[04_STRATEGY_MOC]]"
   matrix_binding:
-    artifact: "[[25_COGNITIVE_MATRIX/AMOS_X_TSS]]"
+    artifact: "[[AMOS_X_TSS]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -87,9 +87,9 @@ $$i_{\text{TSS}} = [H(1-\Omega)(1-F)(1-S)]^{1/4}, \quad e = i_{\text{TSS}}^2$$
 
 # 2. Inter-Plane & Vault Connections
 
-- **TSS Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM]]
-- **Strategy MOC:** [[21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC]]
-- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_TSS]]
+- **TSS Master:** [[TSS_THE_TRANG_SYSTEM]]
+- **Strategy MOC:** [[04_STRATEGY_MOC]]
+- **Cognitive Matrix:** [[AMOS_X_TSS]]
 
 ---
 
@@ -113,7 +113,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM]] · [[25_COGNITIVE_MATRIX/AMOS_X_TSS]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[TSS_THE_TRANG_SYSTEM]] · [[AMOS_X_TSS]]
 
 ---
-**MOC:** [[21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC]]
+**MOC:** [[04_STRATEGY_MOC]]

@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   health_application:
-    artifact: "[[21_DOMAINS/07_HEALTHCARE/UBI_HEALTH_APPLICATION]]"
+    artifact: "[[UBI_HEALTH_APPLICATION]]"
   healthcare_moc:
-    artifact: "[[21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC]]"
+    artifact: "[[07_HEALTHCARE_MOC]]"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -89,9 +89,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **UBI Health Application:** [[21_DOMAINS/07_HEALTHCARE/UBI_HEALTH_APPLICATION]]
-- **Health Model:** [[21_DOMAINS/07_HEALTHCARE/BIOLOGICAL_INTEGRITY_HEALTH_MODEL]]
-- **Healthcare MOC:** [[21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC]]
+- **UBI Health Application:** [[UBI_HEALTH_APPLICATION]]
+- **Health Model:** [[BIOLOGICAL_INTEGRITY_HEALTH_MODEL]]
+- **Healthcare MOC:** [[07_HEALTHCARE_MOC]]
 
 ---
 
@@ -115,7 +115,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[21_DOMAINS/07_HEALTHCARE/UBI_HEALTH_APPLICATION]] · [[21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC]]
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[UBI_HEALTH_APPLICATION]] · [[07_HEALTHCARE_MOC]]
 
 ---
-**MOC:** [[21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC]]
+**MOC:** [[07_HEALTHCARE_MOC]]
