@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "Canon Law Crosswalk"
 type: canon
@@ -72,7 +71,6 @@ rscf:
 
 ```text
 01_CANON/01_CORE_LAWS
-````
 
 Its function is to reserve and define the target contract for a governed crosswalk among AMOS canonical law artifacts.
 
@@ -2966,6 +2964,3 @@ RSCF-RELATIONS:
 **Executable binding:** NOT_ESTABLISHED
 
 **Validation:** NOT_ESTABLISHED
-
-```
-```
