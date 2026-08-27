@@ -1,5 +1,5 @@
 ---
-title: "TRANG Reality Architecture"
+title: "TRANG Reality Architecture — 05 Frameworks"
 type: trang-framework
 source: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact: "TRANG_REALITY_ARCHITECTURE.md"

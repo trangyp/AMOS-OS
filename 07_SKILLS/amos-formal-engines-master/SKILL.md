@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Formal Engines Master"
 type: skill
 source: 07_SKILLS/amos-formal-engines-master
 name: amos-formal-engines-master

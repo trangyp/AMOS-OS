@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Agency Consequence Governor"
 type: reference
 source: 07_SKILLS/amos-agency-consequence-governor/references
 tags: [reference, amos-agency-consequence-governor, canon/skill]
@@ -324,3 +324,7 @@ orchest
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-agency-consequence-governor_MOC]]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Mechmath Research Orchestration Rscf"
 type: skill
 source: 07_SKILLS/amos-mechmath-research-orchestration-rscf
 name: amos-mechmath-research-orchestration-rscf

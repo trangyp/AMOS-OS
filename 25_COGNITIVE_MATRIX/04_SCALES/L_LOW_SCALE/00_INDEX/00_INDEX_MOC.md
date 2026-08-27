@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Cognitive Matrix / Scales / L Low Scale / Index"
 type: moc
 source: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE/00_INDEX
 tags: [moc, 00-index, canon/cognitive-matrix]

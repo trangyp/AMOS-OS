@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Regulated Clinical Agent Evolution Rscf"
 type: skill
 source: 07_SKILLS/amos-regulated-clinical-agent-evolution-rscf
 name: amos-regulated-clinical-agent-evolution-rscf

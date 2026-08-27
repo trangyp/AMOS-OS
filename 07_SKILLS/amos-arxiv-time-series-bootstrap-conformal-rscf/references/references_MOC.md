@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Arxiv Time Series Bootstrap Conformal Rscf"
 type: moc
 source: 07_SKILLS/amos-arxiv-time-series-bootstrap-conformal-rscf/references
 tags: [moc, references, canon/skill]

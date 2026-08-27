@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Principal Trust Governance Rscf"
 type: reference
 source: 07_SKILLS/amos-principal-trust-governance-rscf/references
 tags: [reference, amos-principal-trust-governance-rscf, canon/skill]

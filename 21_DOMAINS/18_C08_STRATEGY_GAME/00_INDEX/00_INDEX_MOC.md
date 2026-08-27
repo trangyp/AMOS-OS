@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Domains / C08 Strategy Game / Index"
 type: moc
 source: 21_DOMAINS/18_C08_STRATEGY_GAME/00_INDEX
 tags: [moc, 00-index, canon/domain]

@@ -1,5 +1,5 @@
 ---
-title: validation
+title: "validation — References — Amos Skill Builder"
 type: reference
 source: 07_SKILLS/amos-skill-builder/references
 tags: [reference, amos-skill-builder, canon/skill]

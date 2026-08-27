@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Neural Computation Mapper"
 type: skill
 source: 07_SKILLS/amos-neural-computation-mapper
 name: amos-neural-computation-mapper

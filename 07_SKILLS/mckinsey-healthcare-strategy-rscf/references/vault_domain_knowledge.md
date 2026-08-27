@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Mckinsey Healthcare Strategy Rscf"
 type: reference
 source: 07_SKILLS/mckinsey-healthcare-strategy-rscf/references
 tags: [reference, mckinsey-healthcare-strategy-rscf, canon/skill]

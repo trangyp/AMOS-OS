@@ -1,5 +1,5 @@
 ---
-title: AGENT TEMPLATE
+title: "AGENT TEMPLATE — Amos Fractal Systems Master"
 type: note
 source: 07_SKILLS/amos-fractal-systems-master
 tags: [note, amos-fractal-systems-master, canon/skill]

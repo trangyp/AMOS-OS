@@ -1,5 +1,5 @@
 ---
-title: fabrication engine
+title: "fabrication engine — References — Amos Agent Systems Master"
 type: reference
 source: 07_SKILLS/amos-agent-systems-master/references
 tags: [reference, amos-agent-systems-master, canon/skill]

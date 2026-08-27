@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Cosmo Human Problem Architecture"
 type: reference
 source: 07_SKILLS/cosmo-human-problem-architecture/references
 tags: [reference, cosmo-human-problem-architecture, canon/skill]
@@ -196,3 +196,7 @@ GOOD: Social pain activates overlapping neural substrates in dorsal anterior cin
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[cosmo-human-problem-architecture_MOC]]

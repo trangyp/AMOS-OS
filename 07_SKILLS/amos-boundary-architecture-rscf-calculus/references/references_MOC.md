@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Boundary Architecture Rscf Calculus"
 type: moc
 source: 07_SKILLS/amos-boundary-architecture-rscf-calculus/references
 tags: [moc, references, canon/skill]

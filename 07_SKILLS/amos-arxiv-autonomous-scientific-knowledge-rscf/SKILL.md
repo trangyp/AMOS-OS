@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Arxiv Autonomous Scientific Knowledge Rscf"
 type: skill
 source: 07_SKILLS/amos-arxiv-autonomous-scientific-knowledge-rscf
 name: amos-arxiv-autonomous-scientific-knowledge-rscf

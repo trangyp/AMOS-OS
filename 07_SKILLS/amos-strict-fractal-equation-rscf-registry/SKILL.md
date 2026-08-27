@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Strict Fractal Equation Rscf Registry"
 type: skill
 source: 07_SKILLS/amos-strict-fractal-equation-rscf-registry
 name: amos-strict-fractal-equation-rscf-registry

@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Framework Registry Compiler"
 type: moc
 source: 07_SKILLS/amos-framework-registry-compiler/references
 tags: [moc, references, canon/skill]

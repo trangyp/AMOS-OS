@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Combined Program Analysis Rscf"
 type: moc
 source: 07_SKILLS/amos-combined-program-analysis-rscf/references
 tags: [moc, references, canon/skill]

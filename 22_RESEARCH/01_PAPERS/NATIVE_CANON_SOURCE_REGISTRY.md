@@ -1,5 +1,5 @@
 ---
-title: "Native Canon Source Registry"
+title: "Native Canon Source Registry — 01 Papers"
 type: research
 source: 22_RESEARCH/01_PAPERS
 artifact: "NATIVE_CANON_SOURCE_REGISTRY.md"

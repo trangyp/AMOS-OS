@@ -1,5 +1,5 @@
 ---
-title: "Heritage Fractal Mathematics"
+title: "Heritage Fractal Mathematics — 06 Domain Knowledge"
 type: domain_knowledge
 source: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact: "HERITAGE_FRACTAL_MATHEMATICS.md"

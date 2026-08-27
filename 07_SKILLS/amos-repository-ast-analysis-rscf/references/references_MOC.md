@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Repository Ast Analysis Rscf"
 type: moc
 source: 07_SKILLS/amos-repository-ast-analysis-rscf/references
 tags: [moc, references, canon/skill]

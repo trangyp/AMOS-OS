@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Formal Agent Skill Verification Rscf"
 type: skill
 source: 07_SKILLS/amos-formal-agent-skill-verification-rscf
 name: amos-formal-agent-skill-verification-rscf

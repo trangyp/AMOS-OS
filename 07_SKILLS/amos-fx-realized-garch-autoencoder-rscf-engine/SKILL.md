@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Fx Realized Garch Autoencoder Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-fx-realized-garch-autoencoder-rscf-engine
 name: amos-fx-realized-garch-autoencoder-rscf-engine

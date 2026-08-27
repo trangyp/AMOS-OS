@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Context Compaction Recoverability Rscf"
 type: moc
 source: 07_SKILLS/amos-context-compaction-recoverability-rscf/references
 tags: [moc, references, canon/skill]

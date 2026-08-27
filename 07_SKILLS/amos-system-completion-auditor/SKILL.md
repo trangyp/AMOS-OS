@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos System Completion Auditor"
 type: skill
 source: 07_SKILLS/amos-system-completion-auditor
 name: amos-system-completion-auditor

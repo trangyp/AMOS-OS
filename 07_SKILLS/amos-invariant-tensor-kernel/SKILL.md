@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Invariant Tensor Kernel"
 type: skill
 source: 07_SKILLS/amos-invariant-tensor-kernel
 name: amos-invariant-tensor-kernel

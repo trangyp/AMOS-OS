@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Memory Conflict Governor"
 type: skill
 source: 07_SKILLS/amos-memory-conflict-governor
 name: amos-memory-conflict-governor

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Streaming Attention Sinks Rscf"
 type: skill
 source: 07_SKILLS/arxiv-streaming-attention-sinks-rscf
 name: arxiv-streaming-attention-sinks-rscf

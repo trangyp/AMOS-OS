@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Mckinsey Framework Navigator"
 type: moc
 source: 07_SKILLS/mckinsey-framework-navigator/references
 tags: [moc, references, canon/skill]

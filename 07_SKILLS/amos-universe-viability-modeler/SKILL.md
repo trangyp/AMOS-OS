@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Universe Viability Modeler"
 type: skill
 source: 07_SKILLS/amos-universe-viability-modeler
 name: amos-universe-viability-modeler

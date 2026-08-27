@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Agent Externalization Architecture Rscf"
 type: skill
 source: 07_SKILLS/amos-agent-externalization-architecture-rscf
 name: amos-agent-externalization-architecture-rscf

@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Runtime Benchmarking"
 type: reference
 source: 07_SKILLS/amos-runtime-benchmarking/references
 tags: [reference, amos-runtime-benchmarking, canon/skill]

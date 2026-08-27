@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Fx Bayesian Neural Sde Calibration Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-fx-bayesian-neural-sde-calibration-rscf-engine/references
 tags: [reference, amos-fx-bayesian-neural-sde-calibration-rscf-engine, canon/skill]

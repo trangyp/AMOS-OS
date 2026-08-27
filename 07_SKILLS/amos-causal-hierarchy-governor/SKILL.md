@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Causal Hierarchy Governor"
 type: skill
 source: 07_SKILLS/amos-causal-hierarchy-governor
 name: amos-causal-hierarchy-governor

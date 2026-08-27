@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Mckinsey Transformation Org Structure Rscf"
 type: reference
 source: 07_SKILLS/mckinsey-transformation-org-structure-rscf/references
 tags: [reference, mckinsey-transformation-org-structure-rscf, canon/skill]

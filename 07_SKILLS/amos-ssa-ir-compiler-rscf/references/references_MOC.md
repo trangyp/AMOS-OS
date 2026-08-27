@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Ssa Ir Compiler Rscf"
 type: moc
 source: 07_SKILLS/amos-ssa-ir-compiler-rscf/references
 tags: [moc, references, canon/skill]

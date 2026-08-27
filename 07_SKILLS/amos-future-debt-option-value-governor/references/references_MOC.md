@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Future Debt Option Value Governor"
 type: moc
 source: 07_SKILLS/amos-future-debt-option-value-governor/references
 tags: [moc, references, canon/skill]

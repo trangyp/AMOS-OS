@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Target Of Repair Intelligence"
 type: skill
 source: 07_SKILLS/amos-target-of-repair-intelligence
 name: amos-target-of-repair-intelligence

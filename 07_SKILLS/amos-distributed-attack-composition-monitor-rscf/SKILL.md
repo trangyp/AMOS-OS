@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Distributed Attack Composition Monitor Rscf"
 type: skill
 source: 07_SKILLS/amos-distributed-attack-composition-monitor-rscf
 name: amos-distributed-attack-composition-monitor-rscf

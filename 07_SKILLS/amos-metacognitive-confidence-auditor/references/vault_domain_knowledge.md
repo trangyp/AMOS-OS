@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Metacognitive Confidence Auditor"
 type: reference
 source: 07_SKILLS/amos-metacognitive-confidence-auditor/references
 tags: [reference, amos-metacognitive-confidence-auditor, canon/skill]

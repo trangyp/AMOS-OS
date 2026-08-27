@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Archive / Superseded / Index"
 type: moc
 source: 24_ARCHIVE/02_SUPERSEDED/00_INDEX
 tags: [moc, 00-index, canon/archive]

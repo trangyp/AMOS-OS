@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Agent Systems Master"
 type: skill
 source: 07_SKILLS/amos-agent-systems-master
 name: amos-agent-systems-master

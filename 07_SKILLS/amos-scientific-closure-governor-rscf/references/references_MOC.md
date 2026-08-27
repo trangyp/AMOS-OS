@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Scientific Closure Governor Rscf"
 type: moc
 source: 07_SKILLS/amos-scientific-closure-governor-rscf/references
 tags: [moc, references, canon/skill]

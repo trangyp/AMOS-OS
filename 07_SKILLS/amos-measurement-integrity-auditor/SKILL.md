@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Measurement Integrity Auditor"
 type: skill
 source: 07_SKILLS/amos-measurement-integrity-auditor
 name: amos-measurement-integrity-auditor

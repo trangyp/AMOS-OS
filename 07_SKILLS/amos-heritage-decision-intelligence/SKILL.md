@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Heritage Decision Intelligence"
 type: skill
 source: 07_SKILLS/amos-heritage-decision-intelligence
 name: amos-heritage-decision-intelligence

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Economic Model"
 type: skill
 source: 07_SKILLS/amos-economic-model
 name: amos-economic-model

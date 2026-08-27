@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Arxiv Autosota Research Automation Rscf"
 type: moc
 source: 07_SKILLS/arxiv-autosota-research-automation-rscf/references
 tags: [moc, references, canon/skill]

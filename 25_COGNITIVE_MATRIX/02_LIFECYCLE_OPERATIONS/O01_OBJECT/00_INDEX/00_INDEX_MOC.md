@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Cognitive Matrix / Lifecycle Operations / O01 Object / Index"
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O01_OBJECT/00_INDEX
 tags: [moc, 00-index, canon/cognitive-matrix]

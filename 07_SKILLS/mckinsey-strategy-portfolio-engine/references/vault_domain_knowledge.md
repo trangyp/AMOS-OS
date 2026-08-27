@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Mckinsey Strategy Portfolio Engine"
 type: reference
 source: 07_SKILLS/mckinsey-strategy-portfolio-engine/references
 tags: [reference, mckinsey-strategy-portfolio-engine, canon/skill]

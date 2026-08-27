@@ -1,5 +1,5 @@
 ---
-title: AGENT TEMPLATE
+title: "AGENT TEMPLATE — Amos Memory Systems Master"
 type: note
 source: 07_SKILLS/amos-memory-systems-master
 tags: [note, amos-memory-systems-master, canon/skill]

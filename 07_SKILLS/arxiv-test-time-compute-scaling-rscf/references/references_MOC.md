@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Arxiv Test Time Compute Scaling Rscf"
 type: moc
 source: 07_SKILLS/arxiv-test-time-compute-scaling-rscf/references
 tags: [moc, references, canon/skill]

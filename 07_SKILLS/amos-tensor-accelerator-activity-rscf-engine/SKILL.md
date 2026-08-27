@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Tensor Accelerator Activity Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-tensor-accelerator-activity-rscf-engine
 name: amos-tensor-accelerator-activity-rscf-engine

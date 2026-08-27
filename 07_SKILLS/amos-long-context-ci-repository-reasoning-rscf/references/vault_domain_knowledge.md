@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Long Context Ci Repository Reasoning Rscf"
 type: reference
 source: 07_SKILLS/amos-long-context-ci-repository-reasoning-rscf/references
 tags: [reference, amos-long-context-ci-repository-reasoning-rscf, canon/skill]

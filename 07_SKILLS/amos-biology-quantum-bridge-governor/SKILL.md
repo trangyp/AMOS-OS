@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Biology Quantum Bridge Governor"
 type: skill
 source: 07_SKILLS/amos-biology-quantum-bridge-governor
 name: amos-biology-quantum-bridge-governor

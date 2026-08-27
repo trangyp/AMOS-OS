@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Agency Consequence Governor"
 type: skill
 source: 07_SKILLS/amos-agency-consequence-governor
 name: amos-agency-consequence-governor

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Boundary Architecture Rscf Calculus"
 type: skill
 source: 07_SKILLS/amos-boundary-architecture-rscf-calculus
 name: amos-boundary-architecture-rscf-calculus

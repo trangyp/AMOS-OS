@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos 7 Part Universe Canon"
 type: note
 source: 07_SKILLS/amos-7-part-universe-canon
 tags: [note, amos-7-part-universe-canon, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Narrative Integrity Governor"
 type: skill
 source: 07_SKILLS/amos-narrative-integrity-governor
 name: amos-narrative-integrity-governor

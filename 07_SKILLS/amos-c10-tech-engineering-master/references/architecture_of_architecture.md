@@ -1,5 +1,5 @@
 ---
-title: architecture of architecture
+title: "architecture of architecture — References — Amos C10 Tech Engineering Master"
 type: reference
 source: 07_SKILLS/amos-c10-tech-engineering-master/references
 tags: [reference, amos-c10-tech-engineering-master, canon/skill]

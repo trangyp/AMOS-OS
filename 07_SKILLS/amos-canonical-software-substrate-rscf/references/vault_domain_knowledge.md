@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Canonical Software Substrate Rscf"
 type: reference
 source: 07_SKILLS/amos-canonical-software-substrate-rscf/references
 tags: [reference, amos-canonical-software-substrate-rscf, canon/skill]

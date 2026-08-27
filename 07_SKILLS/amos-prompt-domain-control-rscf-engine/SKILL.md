@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Prompt Domain Control Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-prompt-domain-control-rscf-engine
 name: amos-prompt-domain-control-rscf-engine

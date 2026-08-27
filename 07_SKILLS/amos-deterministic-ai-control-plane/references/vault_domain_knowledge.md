@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Deterministic Ai Control Plane"
 type: reference
 source: 07_SKILLS/amos-deterministic-ai-control-plane/references
 tags: [reference, amos-deterministic-ai-control-plane, canon/skill]

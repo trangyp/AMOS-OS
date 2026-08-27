@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Canon Consistency Governor"
 type: reference
 source: 07_SKILLS/amos-canon-consistency-governor/references
 tags: [reference, amos-canon-consistency-governor, canon/skill]
@@ -479,3 +479,7 @@ class PatchR
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-canon-consistency-governor_MOC]]

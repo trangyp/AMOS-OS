@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Observability Driven Harness Evolution Rscf"
 type: reference
 source: 07_SKILLS/amos-observability-driven-harness-evolution-rscf/references
 tags: [reference, amos-observability-driven-harness-evolution-rscf, canon/skill]
@@ -359,3 +359,7 @@ class Formula:
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-observability-driven-harness-evolution-rscf_MOC]]

@@ -1,5 +1,5 @@
 ---
-title: "TRANG Zero Framework"
+title: "TRANG Zero Framework — 05 Frameworks"
 type: trang-framework
 source: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact: "TRANG_ZERO_FRAMEWORK.md"

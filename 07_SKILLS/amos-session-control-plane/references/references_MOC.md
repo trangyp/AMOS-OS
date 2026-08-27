@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Session Control Plane"
 type: moc
 source: 07_SKILLS/amos-session-control-plane/references
 tags: [moc, references, canon/skill]

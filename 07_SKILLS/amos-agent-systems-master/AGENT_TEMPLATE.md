@@ -1,5 +1,5 @@
 ---
-title: AGENT TEMPLATE
+title: "AGENT TEMPLATE — Amos Agent Systems Master"
 type: note
 source: 07_SKILLS/amos-agent-systems-master
 tags: [note, amos-agent-systems-master, canon/skill]

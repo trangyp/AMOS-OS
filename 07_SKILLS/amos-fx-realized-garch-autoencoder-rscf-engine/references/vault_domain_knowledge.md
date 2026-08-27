@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Fx Realized Garch Autoencoder Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-fx-realized-garch-autoencoder-rscf-engine/references
 tags: [reference, amos-fx-realized-garch-autoencoder-rscf-engine, canon/skill]

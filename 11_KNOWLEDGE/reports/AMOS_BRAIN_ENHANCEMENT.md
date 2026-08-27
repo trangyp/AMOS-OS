@@ -1,5 +1,5 @@
 ---
-title: AMOS BRAIN ENHANCEMENT
+title: "AMOS BRAIN ENHANCEMENT — Reports"
 tags: [reports, report, analysis, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/reports

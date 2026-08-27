@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Mckinsey Framework Navigator"
 type: reference
 source: 07_SKILLS/mckinsey-framework-navigator/references
 tags: [reference, mckinsey-framework-navigator, canon/skill]

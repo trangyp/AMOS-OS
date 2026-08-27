@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Archive / Deprecated / Index"
 type: moc
 source: 24_ARCHIVE/01_DEPRECATED/00_INDEX
 tags: [moc, 00-index, canon/archive]

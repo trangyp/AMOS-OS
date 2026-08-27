@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Grpo Reasoning Policy Rscf"
 type: skill
 source: 07_SKILLS/arxiv-grpo-reasoning-policy-rscf
 name: arxiv-grpo-reasoning-policy-rscf

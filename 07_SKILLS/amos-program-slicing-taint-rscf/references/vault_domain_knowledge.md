@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Program Slicing Taint Rscf"
 type: reference
 source: 07_SKILLS/amos-program-slicing-taint-rscf/references
 tags: [reference, amos-program-slicing-taint-rscf, canon/skill]

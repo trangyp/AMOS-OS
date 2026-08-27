@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Arxiv Quantum Arithmetic Cryptanalysis Rscf"
 type: skill
 source: 07_SKILLS/amos-arxiv-quantum-arithmetic-cryptanalysis-rscf
 name: amos-arxiv-quantum-arithmetic-cryptanalysis-rscf

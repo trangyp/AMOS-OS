@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Pac Bayes Piml Generalization Rscf"
 type: skill
 source: 07_SKILLS/arxiv-pac-bayes-piml-generalization-rscf
 name: arxiv-pac-bayes-piml-generalization-rscf

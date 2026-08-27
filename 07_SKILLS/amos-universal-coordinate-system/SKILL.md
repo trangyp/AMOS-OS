@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Universal Coordinate System"
 type: skill
 source: 07_SKILLS/amos-universal-coordinate-system
 name: amos-universal-coordinate-system

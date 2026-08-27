@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Process Compliance Auditor Rscf"
 type: skill
 source: 07_SKILLS/amos-process-compliance-auditor-rscf
 name: amos-process-compliance-auditor-rscf

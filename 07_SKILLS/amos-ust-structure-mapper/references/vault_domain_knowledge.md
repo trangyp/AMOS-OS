@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Ust Structure Mapper"
 type: reference
 source: 07_SKILLS/amos-ust-structure-mapper/references
 tags: [reference, amos-ust-structure-mapper, canon/skill]

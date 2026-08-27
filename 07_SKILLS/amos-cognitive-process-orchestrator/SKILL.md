@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Cognitive Process Orchestrator"
 type: skill
 source: 07_SKILLS/amos-cognitive-process-orchestrator
 name: amos-cognitive-process-orchestrator

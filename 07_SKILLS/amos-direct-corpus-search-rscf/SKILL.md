@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Direct Corpus Search Rscf"
 type: skill
 source: 07_SKILLS/amos-direct-corpus-search-rscf
 name: amos-direct-corpus-search-rscf

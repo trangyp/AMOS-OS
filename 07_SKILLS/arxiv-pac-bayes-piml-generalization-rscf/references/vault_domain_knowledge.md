@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Arxiv Pac Bayes Piml Generalization Rscf"
 type: reference
 source: 07_SKILLS/arxiv-pac-bayes-piml-generalization-rscf/references
 tags: [reference, arxiv-pac-bayes-piml-generalization-rscf, canon/skill]

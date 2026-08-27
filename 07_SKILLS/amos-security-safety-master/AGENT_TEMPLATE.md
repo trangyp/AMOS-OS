@@ -1,5 +1,5 @@
 ---
-title: AGENT TEMPLATE
+title: "AGENT TEMPLATE — Amos Security Safety Master"
 type: note
 source: 07_SKILLS/amos-security-safety-master
 tags: [note, amos-security-safety-master, canon/skill]

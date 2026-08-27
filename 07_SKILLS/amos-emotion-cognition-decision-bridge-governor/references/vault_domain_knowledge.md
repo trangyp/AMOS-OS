@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Emotion Cognition Decision Bridge Governor"
 type: reference
 source: 07_SKILLS/amos-emotion-cognition-decision-bridge-governor/references
 tags: [reference, amos-emotion-cognition-decision-bridge-governor, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Collapse Recovery"
 type: skill
 source: 07_SKILLS/amos-collapse-recovery
 name: amos-collapse-recovery

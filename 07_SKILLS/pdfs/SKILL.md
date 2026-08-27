@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Pdfs"
 type: skill
 source: 07_SKILLS/pdfs
 name: pdfs

@@ -1,5 +1,5 @@
 ---
-title: "UBI OMNIS"
+title: "UBI OMNIS — 05 Frameworks"
 type: biology
 source: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact: "UBI_OMNIS.md"

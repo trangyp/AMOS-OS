@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos C04 Bio Neuro Master"
 type: moc
 source: 07_SKILLS/amos-c04-bio-neuro-master/references
 tags: [moc, references, canon/skill]

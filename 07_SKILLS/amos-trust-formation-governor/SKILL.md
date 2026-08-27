@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Trust Formation Governor"
 type: skill
 source: 07_SKILLS/amos-trust-formation-governor
 name: amos-trust-formation-governor

@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Universe Viability Modeler"
 type: moc
 source: 07_SKILLS/amos-universe-viability-modeler/references
 tags: [moc, references, canon/skill]

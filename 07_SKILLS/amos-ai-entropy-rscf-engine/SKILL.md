@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Ai Entropy Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-ai-entropy-rscf-engine
 name: amos-ai-entropy-rscf-engine

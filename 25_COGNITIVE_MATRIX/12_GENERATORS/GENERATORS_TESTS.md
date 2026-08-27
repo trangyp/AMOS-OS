@@ -3618,3 +3618,7 @@ claim_class: AMOS_MODEL
 ---
 **MOC:** [[12_GENERATORS_MOC]]
 ```
+
+---
+
+**Related:** [[25_COGNITIVE_MATRIX_MOC]]

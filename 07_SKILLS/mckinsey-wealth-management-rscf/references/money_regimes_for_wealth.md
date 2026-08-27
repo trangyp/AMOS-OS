@@ -120,3 +120,7 @@ Policy_Rate_Effectiveness = f(CBDC_Design, Market_Penetration)
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[mckinsey-wealth-management-rscf_MOC]]

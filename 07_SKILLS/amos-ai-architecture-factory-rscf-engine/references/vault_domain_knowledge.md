@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Ai Architecture Factory Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-ai-architecture-factory-rscf-engine/references
 tags: [reference, amos-ai-architecture-factory-rscf-engine, canon/skill]
@@ -329,3 +329,7 @@ Before a cognition object becomes load
 ---
 **MOC:** [[references_MOC]]
 ```
+
+---
+
+**Related:** [[amos-ai-architecture-factory-rscf-engine_MOC]]

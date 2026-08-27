@@ -1,5 +1,5 @@
 ---
-title: "Proof-Based Coordination Avoidance"
+title: "Proof-Based Coordination Avoidance — 04 Infrastructure Canon"
 type: proof
 source: 01_CANON/04_INFRASTRUCTURE_CANON
 artifact: "PROOF_BASED_COORDINATION_AVOIDANCE.md"

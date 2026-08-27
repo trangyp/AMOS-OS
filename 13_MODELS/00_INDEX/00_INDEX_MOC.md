@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Models / Index"
 type: moc
 source: 13_MODELS/00_INDEX
 tags: [moc, 00-index, canon/model]

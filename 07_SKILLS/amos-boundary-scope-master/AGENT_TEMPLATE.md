@@ -1,5 +1,5 @@
 ---
-title: AGENT TEMPLATE
+title: "AGENT TEMPLATE — Amos Boundary Scope Master"
 type: note
 source: 07_SKILLS/amos-boundary-scope-master
 tags: [note, amos-boundary-scope-master, canon/skill]

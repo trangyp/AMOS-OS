@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Security Safety Master"
 type: skill
 source: 07_SKILLS/amos-security-safety-master
 name: amos-security-safety-master

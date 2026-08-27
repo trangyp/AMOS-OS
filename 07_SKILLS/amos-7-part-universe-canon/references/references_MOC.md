@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos 7 Part Universe Canon"
 type: moc
 source: 07_SKILLS/amos-7-part-universe-canon/references
 tags: [moc, references, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Customer Journey Planning Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-customer-journey-planning-rscf
 name: mckinsey-customer-journey-planning-rscf

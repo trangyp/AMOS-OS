@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Fx Vecm Cointegration Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-fx-vecm-cointegration-rscf-engine/references
 tags: [reference, amos-fx-vecm-cointegration-rscf-engine, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: AGENT TEMPLATE
+title: "AGENT TEMPLATE — Amos C11 Design Language Master"
 type: note
 source: 07_SKILLS/amos-c11-design-language-master
 tags: [note, amos-c11-design-language-master, canon/skill]

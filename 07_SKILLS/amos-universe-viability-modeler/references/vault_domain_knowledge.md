@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Universe Viability Modeler"
 type: reference
 source: 07_SKILLS/amos-universe-viability-modeler/references
 tags: [reference, amos-universe-viability-modeler, canon/skill]

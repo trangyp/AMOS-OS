@@ -655,7 +655,7 @@ class AMOSBrainGovernor:
         
         # Eigenvalue decomposition of interaction matrices
         if len(agents) > 1:
-            agent_matrix = np.array([[agents[agent].get('network', 0) for agent in agents] for _ in agents])
+            agent_matrix = np.array(\[\[agents[agent].get('network', 0) for agent in agents] for _ in agents])
             try:
                 eigenvalues = np.linalg.eigvals(agent_matrix)
                 self.eigenvalue_decomposition = {

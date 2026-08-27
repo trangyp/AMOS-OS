@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Fractal Math"
 type: skill
 source: 07_SKILLS/amos-fractal-math
 name: amos-fractal-math

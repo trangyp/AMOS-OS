@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Neural Computation Mapper"
 type: moc
 source: 07_SKILLS/amos-neural-computation-mapper/references
 tags: [moc, references, canon/skill]

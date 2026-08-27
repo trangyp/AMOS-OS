@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Temporal Multiscale Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-temporal-multiscale-rscf-engine/references
 tags: [reference, amos-temporal-multiscale-rscf-engine, canon/skill]
@@ -146,3 +146,7 @@ or decisions that require evidence-grounded conclusions.
 - [[07_SKILLS_MOC]]
 **MOC:** [[references_MOC]]
 ```
+
+---
+
+**Related:** [[amos-temporal-multiscale-rscf-engine_MOC]]

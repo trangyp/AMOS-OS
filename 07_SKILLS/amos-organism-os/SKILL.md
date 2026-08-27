@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Organism Os"
 type: skill
 source: 07_SKILLS/amos-organism-os
 name: amos-organism-os

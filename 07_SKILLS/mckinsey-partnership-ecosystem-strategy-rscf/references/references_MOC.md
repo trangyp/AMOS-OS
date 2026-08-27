@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Mckinsey Partnership Ecosystem Strategy Rscf"
 type: moc
 source: 07_SKILLS/mckinsey-partnership-ecosystem-strategy-rscf/references
 tags: [moc, references, canon/skill]

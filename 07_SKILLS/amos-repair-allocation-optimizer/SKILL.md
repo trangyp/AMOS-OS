@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Repair Allocation Optimizer"
 type: skill
 source: 07_SKILLS/amos-repair-allocation-optimizer
 name: amos-repair-allocation-optimizer

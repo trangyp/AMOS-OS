@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Transformation Org Structure Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-transformation-org-structure-rscf
 name: mckinsey-transformation-org-structure-rscf

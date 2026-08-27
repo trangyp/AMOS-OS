@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Qls Qic Substrate Mapper"
 type: skill
 source: 07_SKILLS/amos-qls-qic-substrate-mapper
 name: amos-qls-qic-substrate-mapper

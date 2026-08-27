@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Tensor Network Contraction Sketch Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-tensor-network-contraction-sketch-rscf-engine
 name: amos-tensor-network-contraction-sketch-rscf-engine

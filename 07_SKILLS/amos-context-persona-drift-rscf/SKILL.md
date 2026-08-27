@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Context Persona Drift Rscf"
 type: skill
 source: 07_SKILLS/amos-context-persona-drift-rscf
 name: amos-context-persona-drift-rscf

@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Distributed Causal Evolution Rscf Engine"
 type: moc
 source: 07_SKILLS/amos-distributed-causal-evolution-rscf-engine/references
 tags: [moc, references, canon/skill]

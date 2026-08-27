@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Boundary Scope Master"
 type: skill
 source: 07_SKILLS/amos-boundary-scope-master
 name: amos-boundary-scope-master

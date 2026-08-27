@@ -119,3 +119,7 @@ created: 2026-08-22
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-c12-earth-ecology-master_MOC]]

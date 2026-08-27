@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Temporal Multiscale Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-temporal-multiscale-rscf-engine
 name: amos-temporal-multiscale-rscf-engine

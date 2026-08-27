@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Information Theory Master"
 type: skill
 source: 07_SKILLS/amos-information-theory-master
 name: amos-information-theory-master

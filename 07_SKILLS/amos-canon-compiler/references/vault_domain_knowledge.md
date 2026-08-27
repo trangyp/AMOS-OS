@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Canon Compiler"
 type: reference
 source: 07_SKILLS/amos-canon-compiler/references
 tags: [reference, amos-canon-compiler, canon/skill]
@@ -479,3 +479,7 @@ class PatchR
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-canon-compiler_MOC]]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Mixture Of Depths Rscf"
 type: skill
 source: 07_SKILLS/arxiv-mixture-of-depths-rscf
 name: arxiv-mixture-of-depths-rscf

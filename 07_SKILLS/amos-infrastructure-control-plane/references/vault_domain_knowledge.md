@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Infrastructure Control Plane"
 type: reference
 source: 07_SKILLS/amos-infrastructure-control-plane/references
 tags: [reference, amos-infrastructure-control-plane, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Agent Storage Footprint Rscf"
 type: skill
 source: 07_SKILLS/amos-agent-storage-footprint-rscf
 name: amos-agent-storage-footprint-rscf

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Source Reading Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-source-reading-rscf-engine
 name: amos-source-reading-rscf-engine

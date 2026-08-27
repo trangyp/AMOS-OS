@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Fx Realized Kernel Microstructure Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-fx-realized-kernel-microstructure-rscf-engine
 name: amos-fx-realized-kernel-microstructure-rscf-engine

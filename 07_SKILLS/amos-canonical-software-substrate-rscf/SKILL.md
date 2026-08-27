@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Canonical Software Substrate Rscf"
 type: skill
 source: 07_SKILLS/amos-canonical-software-substrate-rscf
 name: amos-canonical-software-substrate-rscf

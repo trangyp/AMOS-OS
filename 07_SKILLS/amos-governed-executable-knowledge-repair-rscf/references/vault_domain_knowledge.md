@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Governed Executable Knowledge Repair Rscf"
 type: reference
 source: 07_SKILLS/amos-governed-executable-knowledge-repair-rscf/references
 tags: [reference, amos-governed-executable-knowledge-repair-rscf, canon/skill]
@@ -250,3 +250,7 @@ All 8 v1.0 layers exist verbatim in `cosmo-brain/executable_brain_model.py` (70 
 ---
 **MOC:** [[references_MOC]]
 ```
+
+---
+
+**Related:** [[amos-governed-executable-knowledge-repair-rscf_MOC]]

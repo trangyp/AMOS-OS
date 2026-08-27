@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Recursive Observer Contamination"
 type: skill
 source: 07_SKILLS/amos-recursive-observer-contamination
 name: amos-recursive-observer-contamination

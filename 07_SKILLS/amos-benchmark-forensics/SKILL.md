@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Benchmark Forensics"
 type: skill
 source: 07_SKILLS/amos-benchmark-forensics
 name: amos-benchmark-forensics

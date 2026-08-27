@@ -125,3 +125,7 @@ created: 2026-08-22
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-c10-tech-engineering-master_MOC]]

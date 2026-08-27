@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Research / Benchmarks / Index"
 type: moc
 source: 22_RESEARCH/05_BENCHMARKS/00_INDEX
 tags: [moc, 00-index, canon/research]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Purpose Impact Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-purpose-impact-rscf
 name: mckinsey-purpose-impact-rscf

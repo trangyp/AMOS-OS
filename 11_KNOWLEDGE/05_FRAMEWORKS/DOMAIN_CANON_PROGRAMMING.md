@@ -1,5 +1,5 @@
 ---
-title: "Domain Canon Programming"
+title: "Domain Canon Programming — 05 Frameworks"
 type: trang-framework
 source: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact: "DOMAIN_CANON_PROGRAMMING.md"

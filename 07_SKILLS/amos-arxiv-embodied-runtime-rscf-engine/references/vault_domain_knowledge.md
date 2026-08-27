@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Arxiv Embodied Runtime Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-arxiv-embodied-runtime-rscf-engine/references
 tags: [reference, amos-arxiv-embodied-runtime-rscf-engine, canon/skill]

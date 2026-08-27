@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos C04 Bio Neuro Master"
 type: skill
 source: 07_SKILLS/amos-c04-bio-neuro-master
 name: amos-c04-bio-neuro-master

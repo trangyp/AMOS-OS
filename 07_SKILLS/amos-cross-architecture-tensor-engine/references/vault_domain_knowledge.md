@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Cross Architecture Tensor Engine"
 type: reference
 source: 07_SKILLS/amos-cross-architecture-tensor-engine/references
 tags: [reference, amos-cross-architecture-tensor-engine, canon/skill]

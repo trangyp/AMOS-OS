@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Os Kernel"
 type: skill
 source: 07_SKILLS/amos-os-kernel
 name: amos-os-kernel

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Sae Benchmark Reliability Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-sae-benchmark-reliability-rscf-engine
 name: amos-sae-benchmark-reliability-rscf-engine

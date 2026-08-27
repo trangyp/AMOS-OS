@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Slides"
 type: skill
 source: 07_SKILLS/slides
 name: slides

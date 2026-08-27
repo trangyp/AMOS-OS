@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Rag Evaluation Rscf"
 type: skill
 source: 07_SKILLS/arxiv-rag-evaluation-rscf
 name: arxiv-rag-evaluation-rscf

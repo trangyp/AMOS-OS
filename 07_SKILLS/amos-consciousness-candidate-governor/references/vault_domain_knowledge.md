@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Consciousness Candidate Governor"
 type: reference
 source: 07_SKILLS/amos-consciousness-candidate-governor/references
 tags: [reference, amos-consciousness-candidate-governor, canon/skill]

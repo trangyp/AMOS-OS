@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Value Delivery Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-value-delivery-rscf
 name: mckinsey-value-delivery-rscf

@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Operating Model / Escalation / Index"
 type: moc
 source: 23_OPERATING_MODEL/04_ESCALATION/00_INDEX
 tags: [moc, 00-index, canon/operating-model]

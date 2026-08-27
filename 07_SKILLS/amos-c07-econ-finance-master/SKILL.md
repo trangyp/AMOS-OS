@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos C07 Econ Finance Master"
 type: skill
 source: 07_SKILLS/amos-c07-econ-finance-master
 name: amos-c07-econ-finance-master

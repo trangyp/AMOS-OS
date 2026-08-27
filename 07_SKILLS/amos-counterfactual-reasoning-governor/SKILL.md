@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Counterfactual Reasoning Governor"
 type: skill
 source: 07_SKILLS/amos-counterfactual-reasoning-governor
 name: amos-counterfactual-reasoning-governor

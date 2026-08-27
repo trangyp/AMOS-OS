@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Trang Framework Master"
 type: moc
 source: 07_SKILLS/amos-trang-framework-master/references
 tags: [moc, references, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Arxiv Activation Checkpointing Rscf"
 type: moc
 source: 07_SKILLS/arxiv-activation-checkpointing-rscf/references
 tags: [moc, references, canon/skill]

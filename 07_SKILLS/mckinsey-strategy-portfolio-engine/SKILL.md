@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Strategy Portfolio Engine"
 type: skill
 source: 07_SKILLS/mckinsey-strategy-portfolio-engine
 name: mckinsey-strategy-portfolio-engine

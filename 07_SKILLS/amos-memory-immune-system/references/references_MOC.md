@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Memory Immune System"
 type: moc
 source: 07_SKILLS/amos-memory-immune-system/references
 tags: [moc, references, canon/skill]

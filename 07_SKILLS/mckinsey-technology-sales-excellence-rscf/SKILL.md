@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Technology Sales Excellence Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-technology-sales-excellence-rscf
 name: mckinsey-technology-sales-excellence-rscf

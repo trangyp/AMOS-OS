@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Fx Macro Differential Mapper"
 type: reference
 source: 07_SKILLS/amos-fx-macro-differential-mapper/references
 tags: [reference, amos-fx-macro-differential-mapper, canon/skill]

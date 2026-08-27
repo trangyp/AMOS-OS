@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Structured Document Parsing Rscf"
 type: skill
 source: 07_SKILLS/amos-structured-document-parsing-rscf
 name: amos-structured-document-parsing-rscf

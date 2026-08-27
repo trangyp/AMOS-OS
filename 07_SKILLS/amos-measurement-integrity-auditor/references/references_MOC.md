@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Measurement Integrity Auditor"
 type: moc
 source: 07_SKILLS/amos-measurement-integrity-auditor/references
 tags: [moc, references, canon/skill]

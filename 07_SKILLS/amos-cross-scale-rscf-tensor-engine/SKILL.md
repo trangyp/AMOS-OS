@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Cross Scale Rscf Tensor Engine"
 type: skill
 source: 07_SKILLS/amos-cross-scale-rscf-tensor-engine
 name: amos-cross-scale-rscf-tensor-engine

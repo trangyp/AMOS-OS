@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Canon Consistency Governor"
 type: moc
 source: 07_SKILLS/amos-canon-consistency-governor/references
 tags: [moc, references, canon/skill]

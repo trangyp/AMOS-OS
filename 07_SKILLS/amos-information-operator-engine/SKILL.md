@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Information Operator Engine"
 type: skill
 source: 07_SKILLS/amos-information-operator-engine
 name: amos-information-operator-engine

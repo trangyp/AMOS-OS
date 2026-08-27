@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Runtime Context Reuse Rscf"
 type: skill
 source: 07_SKILLS/amos-runtime-context-reuse-rscf
 name: amos-runtime-context-reuse-rscf

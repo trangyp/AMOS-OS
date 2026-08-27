@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Sensory Map Integrator"
 type: skill
 source: 07_SKILLS/amos-sensory-map-integrator
 name: amos-sensory-map-integrator

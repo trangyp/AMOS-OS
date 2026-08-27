@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Os Runtime Master"
 type: skill
 source: 07_SKILLS/amos-os-runtime-master
 name: amos-os-runtime-master

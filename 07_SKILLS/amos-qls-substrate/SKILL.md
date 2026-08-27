@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Qls Substrate"
 type: skill
 source: 07_SKILLS/amos-qls-substrate
 name: amos-qls-substrate

@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — State / Index"
 type: moc
 source: 12_STATE/00_INDEX
 tags: [moc, 00-index, canon/state]

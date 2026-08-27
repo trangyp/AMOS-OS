@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Trang Framework Master"
 type: skill
 source: 07_SKILLS/amos-trang-framework-master
 name: amos-trang-framework-master

@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Active Inference Governor"
 type: moc
 source: 07_SKILLS/amos-active-inference-governor/references
 tags: [moc, references, canon/skill]

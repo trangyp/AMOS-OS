@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Arxiv Agent Memory Dynamics Rscf"
 type: skill
 source: 07_SKILLS/amos-arxiv-agent-memory-dynamics-rscf
 name: amos-arxiv-agent-memory-dynamics-rscf

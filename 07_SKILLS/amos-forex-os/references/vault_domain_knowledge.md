@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Forex Os"
 type: reference
 source: 07_SKILLS/amos-forex-os/references
 tags: [reference, amos-forex-os, canon/skill]
@@ -260,3 +260,7 @@ def test_ukr_pipeline():
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-forex-os_MOC]]

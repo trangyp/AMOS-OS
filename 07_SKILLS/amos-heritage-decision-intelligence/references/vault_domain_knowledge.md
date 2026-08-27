@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Heritage Decision Intelligence"
 type: reference
 source: 07_SKILLS/amos-heritage-decision-intelligence/references
 tags: [reference, amos-heritage-decision-intelligence, canon/skill]

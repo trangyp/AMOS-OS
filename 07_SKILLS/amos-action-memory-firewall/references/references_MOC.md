@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Action Memory Firewall"
 type: moc
 source: 07_SKILLS/amos-action-memory-firewall/references
 tags: [moc, references, canon/skill]

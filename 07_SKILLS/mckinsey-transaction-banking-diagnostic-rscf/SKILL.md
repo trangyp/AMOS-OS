@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Transaction Banking Diagnostic Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-transaction-banking-diagnostic-rscf
 name: mckinsey-transaction-banking-diagnostic-rscf

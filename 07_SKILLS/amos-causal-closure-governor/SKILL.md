@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Causal Closure Governor"
 type: skill
 source: 07_SKILLS/amos-causal-closure-governor
 name: amos-causal-closure-governor

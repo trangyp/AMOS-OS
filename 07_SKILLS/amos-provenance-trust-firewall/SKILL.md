@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Provenance Trust Firewall"
 type: skill
 source: 07_SKILLS/amos-provenance-trust-firewall
 name: amos-provenance-trust-firewall

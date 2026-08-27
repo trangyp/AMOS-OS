@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos C12 Earth Ecology Master"
 type: moc
 source: 07_SKILLS/amos-c12-earth-ecology-master/references
 tags: [moc, references, canon/skill]

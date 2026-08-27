@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Information Theory Master"
 type: moc
 source: 07_SKILLS/amos-information-theory-master/references
 tags: [moc, references, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Provenance Sybil Hardening Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-provenance-sybil-hardening-rscf-engine
 name: amos-provenance-sybil-hardening-rscf-engine

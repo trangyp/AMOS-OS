@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Mckinsey Banking Crm Assessment Rscf"
 type: reference
 source: 07_SKILLS/mckinsey-banking-crm-assessment-rscf/references
 tags: [reference, mckinsey-banking-crm-assessment-rscf, canon/skill]

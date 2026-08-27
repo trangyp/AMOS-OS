@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Arxiv Future Confidence Distillation Rscf"
 type: reference
 source: 07_SKILLS/arxiv-future-confidence-distillation-rscf/references
 tags: [reference, arxiv-future-confidence-distillation-rscf, canon/skill]

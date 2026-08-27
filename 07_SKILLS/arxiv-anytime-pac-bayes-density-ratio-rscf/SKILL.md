@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Anytime Pac Bayes Density Ratio Rscf"
 type: skill
 source: 07_SKILLS/arxiv-anytime-pac-bayes-density-ratio-rscf
 name: arxiv-anytime-pac-bayes-density-ratio-rscf

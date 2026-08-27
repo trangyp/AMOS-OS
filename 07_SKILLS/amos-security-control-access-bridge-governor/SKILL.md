@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Security Control Access Bridge Governor"
 type: skill
 source: 07_SKILLS/amos-security-control-access-bridge-governor
 name: amos-security-control-access-bridge-governor

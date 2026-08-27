@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Test Time Training Rscf"
 type: skill
 source: 07_SKILLS/arxiv-test-time-training-rscf
 name: arxiv-test-time-training-rscf

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Reality Simulation Distinction"
 type: skill
 source: 07_SKILLS/amos-reality-simulation-distinction
 name: amos-reality-simulation-distinction

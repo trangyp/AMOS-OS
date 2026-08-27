@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Interprocedural Callgraph Rscf"
 type: reference
 source: 07_SKILLS/amos-interprocedural-callgraph-rscf/references
 tags: [reference, amos-interprocedural-callgraph-rscf, canon/skill]

@@ -164,3 +164,7 @@ class AMOSOmegaChartEngine:
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-c08-strategy-game-master_MOC]]

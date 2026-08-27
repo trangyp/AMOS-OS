@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Boundary Admission Governor"
 type: skill
 source: 07_SKILLS/amos-boundary-admission-governor
 name: amos-boundary-admission-governor

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Cross Architecture Tensor Engine"
 type: skill
 source: 07_SKILLS/amos-cross-architecture-tensor-engine
 name: amos-cross-architecture-tensor-engine

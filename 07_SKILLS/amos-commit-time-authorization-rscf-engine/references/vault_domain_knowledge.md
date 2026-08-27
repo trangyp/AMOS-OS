@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Commit Time Authorization Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-commit-time-authorization-rscf-engine/references
 tags: [reference, amos-commit-time-authorization-rscf-engine, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: "Heritage Provenance"
+title: "Heritage Provenance — 07 Provenance"
 type: provenance
 source: 01_CANON/07_PROVENANCE
 artifact: "HERITAGE_PROVENANCE.md"

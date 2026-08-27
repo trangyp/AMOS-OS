@@ -1,5 +1,5 @@
 ---
-title: architecture of architecture
+title: "architecture of architecture — References — Amos C11 Design Language Master"
 type: reference
 source: 07_SKILLS/amos-c11-design-language-master/references
 tags: [reference, amos-c11-design-language-master, canon/skill]

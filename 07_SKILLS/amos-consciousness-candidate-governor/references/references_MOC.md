@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Consciousness Candidate Governor"
 type: moc
 source: 07_SKILLS/amos-consciousness-candidate-governor/references
 tags: [moc, references, canon/skill]

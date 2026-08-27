@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Persistence Dissolution Rscf Dynamics"
 type: skill
 source: 07_SKILLS/amos-persistence-dissolution-rscf-dynamics
 name: amos-persistence-dissolution-rscf-dynamics

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Arxiv Multistage Order Causal Discovery Rscf"
 type: skill
 source: 07_SKILLS/amos-arxiv-multistage-order-causal-discovery-rscf
 name: amos-arxiv-multistage-order-causal-discovery-rscf

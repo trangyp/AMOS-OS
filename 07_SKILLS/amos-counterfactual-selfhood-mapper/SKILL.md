@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Counterfactual Selfhood Mapper"
 type: skill
 source: 07_SKILLS/amos-counterfactual-selfhood-mapper
 name: amos-counterfactual-selfhood-mapper

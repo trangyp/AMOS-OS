@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Consciousness Candidate Governor"
 type: skill
 source: 07_SKILLS/amos-consciousness-candidate-governor
 name: amos-consciousness-candidate-governor

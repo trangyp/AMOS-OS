@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Mckinsey Human Centered Design Rscf"
 type: reference
 source: 07_SKILLS/mckinsey-human-centered-design-rscf/references
 tags: [reference, mckinsey-human-centered-design-rscf, canon/skill]

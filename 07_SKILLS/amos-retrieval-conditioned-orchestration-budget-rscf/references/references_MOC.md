@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Retrieval Conditioned Orchestration Budget Rscf"
 type: moc
 source: 07_SKILLS/amos-retrieval-conditioned-orchestration-budget-rscf/references
 tags: [moc, references, canon/skill]

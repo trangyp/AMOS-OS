@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Information Boundary Governor"
 type: reference
 source: 07_SKILLS/amos-information-boundary-governor/references
 tags: [reference, amos-information-boundary-governor, canon/skill]

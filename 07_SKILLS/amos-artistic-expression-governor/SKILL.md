@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Artistic Expression Governor"
 type: skill
 source: 07_SKILLS/amos-artistic-expression-governor
 name: amos-artistic-expression-governor

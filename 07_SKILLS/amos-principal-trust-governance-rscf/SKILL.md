@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Principal Trust Governance Rscf"
 type: skill
 source: 07_SKILLS/amos-principal-trust-governance-rscf
 name: amos-principal-trust-governance-rscf

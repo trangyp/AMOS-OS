@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Cognitive Matrix / Control Planes / C05 Representation / Index"
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C05_REPRESENTATION/00_INDEX
 tags: [moc, 00-index, canon/cognitive-matrix]

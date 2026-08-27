@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Natural Evidence Trail Reasoning Rscf"
 type: reference
 source: 07_SKILLS/amos-natural-evidence-trail-reasoning-rscf/references
 tags: [reference, amos-natural-evidence-trail-reasoning-rscf, canon/skill]

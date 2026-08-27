@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Cell Intelligence Mapper"
 type: reference
 source: 07_SKILLS/amos-cell-intelligence-mapper/references
 tags: [reference, amos-cell-intelligence-mapper, canon/skill]

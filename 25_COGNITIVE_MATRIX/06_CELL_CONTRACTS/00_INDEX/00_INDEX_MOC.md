@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Cognitive Matrix / Cell Contracts / Index"
 type: moc
 source: 25_COGNITIVE_MATRIX/06_CELL_CONTRACTS/00_INDEX
 tags: [moc, 00-index, canon/cognitive-matrix]

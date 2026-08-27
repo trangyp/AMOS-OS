@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Arxiv Streaming Attention Sinks Rscf"
 type: reference
 source: 07_SKILLS/arxiv-streaming-attention-sinks-rscf/references
 tags: [reference, arxiv-streaming-attention-sinks-rscf, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Universal Coordinate Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-universal-coordinate-rscf-engine
 name: amos-universal-coordinate-rscf-engine

@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Domains / Ubi Nbi Neurobiological / Index"
 type: moc
 source: 21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL/00_INDEX
 tags: [moc, 00-index, canon/domain]

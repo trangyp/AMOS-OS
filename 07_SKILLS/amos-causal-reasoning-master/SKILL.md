@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Causal Reasoning Master"
 type: skill
 source: 07_SKILLS/amos-causal-reasoning-master
 name: amos-causal-reasoning-master

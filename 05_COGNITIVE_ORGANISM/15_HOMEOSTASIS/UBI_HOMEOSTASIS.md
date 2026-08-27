@@ -1,5 +1,5 @@
 ---
-title: "UBI Homeostasis"
+title: "UBI Homeostasis — 15 Homeostasis"
 type: note
 source: 05_COGNITIVE_ORGANISM/15_HOMEOSTASIS
 artifact: "UBI_HOMEOSTASIS.md"

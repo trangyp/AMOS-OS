@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Multimodal Perception Layer"
 type: skill
 source: 07_SKILLS/amos-multimodal-perception-layer
 name: amos-multimodal-perception-layer

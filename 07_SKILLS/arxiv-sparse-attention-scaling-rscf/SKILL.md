@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Sparse Attention Scaling Rscf"
 type: skill
 source: 07_SKILLS/arxiv-sparse-attention-scaling-rscf
 name: arxiv-sparse-attention-scaling-rscf

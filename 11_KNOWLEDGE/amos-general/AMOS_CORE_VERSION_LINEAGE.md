@@ -1,5 +1,5 @@
 ---
-title: "AMOS Core Version Lineage"
+title: "AMOS Core Version Lineage — Amos General"
 created: "2026-08-22"
 origin: "AMOS_CORE_ALL_VERSIONS_EXHAUSTIVE_MASTER.json"
 origin_architect: "Trang Phan"

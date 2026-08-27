@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Information Collapse Topology"
 type: skill
 source: 07_SKILLS/amos-information-collapse-topology
 name: amos-information-collapse-topology

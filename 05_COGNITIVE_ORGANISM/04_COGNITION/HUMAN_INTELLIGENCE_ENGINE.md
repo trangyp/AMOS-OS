@@ -1,5 +1,5 @@
 ---
-title: "Human Intelligence Engine"
+title: "Human Intelligence Engine — 04 Cognition"
 type: engine
 source: 05_COGNITIVE_ORGANISM/04_COGNITION
 artifact: "HUMAN_INTELLIGENCE_ENGINE.md"

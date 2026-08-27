@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Universal Coordinate System"
 type: moc
 source: 07_SKILLS/amos-universal-coordinate-system/references
 tags: [moc, references, canon/skill]

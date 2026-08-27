@@ -1,5 +1,5 @@
 ---
-title: README
+title: "README — 00 Index — 17 Observability"
 type: note
 source: 17_OBSERVABILITY/00_INDEX
 aliases:

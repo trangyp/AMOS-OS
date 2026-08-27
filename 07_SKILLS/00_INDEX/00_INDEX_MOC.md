@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Skills / Index"
 type: moc
 source: 07_SKILLS/00_INDEX
 tags: [moc, 00-index, canon/skill]

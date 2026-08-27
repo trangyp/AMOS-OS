@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Heterogeneous Exploration Cohort Rscf"
 type: skill
 source: 07_SKILLS/amos-heterogeneous-exploration-cohort-rscf
 name: amos-heterogeneous-exploration-cohort-rscf

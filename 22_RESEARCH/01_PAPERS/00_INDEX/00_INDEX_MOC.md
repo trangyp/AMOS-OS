@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Research / Papers / Index"
 type: moc
 source: 22_RESEARCH/01_PAPERS/00_INDEX
 tags: [moc, 00-index, canon/research]

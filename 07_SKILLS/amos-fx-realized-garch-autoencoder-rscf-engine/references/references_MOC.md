@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Fx Realized Garch Autoencoder Rscf Engine"
 type: moc
 source: 07_SKILLS/amos-fx-realized-garch-autoencoder-rscf-engine/references
 tags: [moc, references, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Reality Simulation Distinction"
 type: moc
 source: 07_SKILLS/amos-reality-simulation-distinction/references
 tags: [moc, references, canon/skill]

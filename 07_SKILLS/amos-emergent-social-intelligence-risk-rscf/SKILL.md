@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Emergent Social Intelligence Risk Rscf"
 type: skill
 source: 07_SKILLS/amos-emergent-social-intelligence-risk-rscf
 name: amos-emergent-social-intelligence-risk-rscf

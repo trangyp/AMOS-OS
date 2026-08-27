@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Causal Abstraction Validity Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-causal-abstraction-validity-rscf-engine/references
 tags: [reference, amos-causal-abstraction-validity-rscf-engine, canon/skill]

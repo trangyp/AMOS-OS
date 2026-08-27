@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos C11 Design Language Master"
 type: skill
 source: 07_SKILLS/amos-c11-design-language-master
 name: amos-c11-design-language-master

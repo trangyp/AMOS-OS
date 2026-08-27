@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Fractal Math"
 type: reference
 source: 07_SKILLS/amos-fractal-math/references
 tags: [reference, amos-fractal-math, canon/skill]

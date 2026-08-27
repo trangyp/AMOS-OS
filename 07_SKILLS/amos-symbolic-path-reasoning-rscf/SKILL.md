@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Symbolic Path Reasoning Rscf"
 type: skill
 source: 07_SKILLS/amos-symbolic-path-reasoning-rscf
 name: amos-symbolic-path-reasoning-rscf

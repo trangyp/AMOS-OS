@@ -118,3 +118,7 @@ OP_LOGIC_STRENGTH= "L(A) = I(A) * S(A)"    # 0
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-c10-tech-engineering-master_MOC]]

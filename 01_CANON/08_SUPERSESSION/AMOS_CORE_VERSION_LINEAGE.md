@@ -1,5 +1,5 @@
 ---
-title: "AMOS Core Version Lineage"
+title: "AMOS Core Version Lineage — 08 Supersession"
 type: note
 source: 01_CANON/08_SUPERSESSION
 artifact: "AMOS_CORE_VERSION_LINEAGE.md"

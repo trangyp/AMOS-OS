@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Agent Economy Constitutional Governance Rscf"
 type: skill
 source: 07_SKILLS/amos-agent-economy-constitutional-governance-rscf
 name: amos-agent-economy-constitutional-governance-rscf

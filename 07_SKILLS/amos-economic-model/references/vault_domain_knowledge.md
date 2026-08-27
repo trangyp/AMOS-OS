@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Economic Model"
 type: reference
 source: 07_SKILLS/amos-economic-model/references
 tags: [reference, amos-economic-model, canon/skill]

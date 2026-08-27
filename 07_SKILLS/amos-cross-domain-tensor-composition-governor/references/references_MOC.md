@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Cross Domain Tensor Composition Governor"
 type: moc
 source: 07_SKILLS/amos-cross-domain-tensor-composition-governor/references
 tags: [moc, references, canon/skill]

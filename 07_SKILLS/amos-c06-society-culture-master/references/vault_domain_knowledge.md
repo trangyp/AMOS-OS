@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos C06 Society Culture Master"
 type: reference
 source: 07_SKILLS/amos-c06-society-culture-master/references
 tags: [reference, amos-c06-society-culture-master, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Framework Registry Compiler"
 type: skill
 source: 07_SKILLS/amos-framework-registry-compiler
 name: amos-framework-registry-compiler

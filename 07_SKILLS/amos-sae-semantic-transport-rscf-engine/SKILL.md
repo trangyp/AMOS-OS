@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Sae Semantic Transport Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-sae-semantic-transport-rscf-engine
 name: amos-sae-semantic-transport-rscf-engine

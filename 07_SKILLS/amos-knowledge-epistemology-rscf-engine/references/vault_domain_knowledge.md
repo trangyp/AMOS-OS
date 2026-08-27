@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Knowledge Epistemology Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-knowledge-epistemology-rscf-engine/references
 tags: [reference, amos-knowledge-epistemology-rscf-engine, canon/skill]
@@ -223,3 +223,7 @@ npm test
 ---
 **MOC:** [[references_MOC]]
 ```
+
+---
+
+**Related:** [[amos-knowledge-epistemology-rscf-engine_MOC]]

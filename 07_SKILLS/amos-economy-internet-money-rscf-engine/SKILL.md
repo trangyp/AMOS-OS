@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Economy Internet Money Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-economy-internet-money-rscf-engine
 name: amos-economy-internet-money-rscf-engine

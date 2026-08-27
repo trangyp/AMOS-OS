@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Observability Driven Harness Evolution Rscf"
 type: skill
 source: 07_SKILLS/amos-observability-driven-harness-evolution-rscf
 name: amos-observability-driven-harness-evolution-rscf

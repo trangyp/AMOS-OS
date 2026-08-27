@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Cli Failure Process Diagnostics Rscf"
 type: moc
 source: 07_SKILLS/amos-cli-failure-process-diagnostics-rscf/references
 tags: [moc, references, canon/skill]

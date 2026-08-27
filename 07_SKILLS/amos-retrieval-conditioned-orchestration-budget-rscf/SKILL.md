@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Retrieval Conditioned Orchestration Budget Rscf"
 type: skill
 source: 07_SKILLS/amos-retrieval-conditioned-orchestration-budget-rscf
 name: amos-retrieval-conditioned-orchestration-budget-rscf

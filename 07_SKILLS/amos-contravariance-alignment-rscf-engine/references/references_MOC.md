@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Contravariance Alignment Rscf Engine"
 type: moc
 source: 07_SKILLS/amos-contravariance-alignment-rscf-engine/references
 tags: [moc, references, canon/skill]

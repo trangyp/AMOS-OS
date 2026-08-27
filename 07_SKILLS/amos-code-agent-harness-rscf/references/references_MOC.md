@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Code Agent Harness Rscf"
 type: moc
 source: 07_SKILLS/amos-code-agent-harness-rscf/references
 tags: [moc, references, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Slides"
 type: reference
 source: 07_SKILLS/slides/references
 tags: [reference, slides, canon/skill]

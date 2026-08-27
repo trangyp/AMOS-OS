@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Domains / Health Policy / Index"
 type: moc
 source: 21_DOMAINS/34_HEALTH_POLICY/00_INDEX
 tags: [moc, 00-index, canon/domain]

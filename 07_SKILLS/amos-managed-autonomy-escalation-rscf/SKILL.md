@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Managed Autonomy Escalation Rscf"
 type: skill
 source: 07_SKILLS/amos-managed-autonomy-escalation-rscf
 name: amos-managed-autonomy-escalation-rscf

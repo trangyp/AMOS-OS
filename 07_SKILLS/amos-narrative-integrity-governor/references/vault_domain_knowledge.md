@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Narrative Integrity Governor"
 type: reference
 source: 07_SKILLS/amos-narrative-integrity-governor/references
 tags: [reference, amos-narrative-integrity-governor, canon/skill]

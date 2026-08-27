@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Procedural Repository Retrieval Rscf"
 type: reference
 source: 07_SKILLS/amos-procedural-repository-retrieval-rscf/references
 tags: [reference, amos-procedural-repository-retrieval-rscf, canon/skill]

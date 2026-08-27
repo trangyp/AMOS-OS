@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Bluebook Strategy System"
 type: skill
 source: 07_SKILLS/bluebook-strategy-system
 name: bluebook-strategy-system

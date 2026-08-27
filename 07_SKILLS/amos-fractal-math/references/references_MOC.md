@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Fractal Math"
 type: moc
 source: 07_SKILLS/amos-fractal-math/references
 tags: [moc, references, canon/skill]

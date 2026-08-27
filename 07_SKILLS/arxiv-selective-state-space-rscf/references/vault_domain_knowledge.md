@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Arxiv Selective State Space Rscf"
 type: reference
 source: 07_SKILLS/arxiv-selective-state-space-rscf/references
 tags: [reference, arxiv-selective-state-space-rscf, canon/skill]

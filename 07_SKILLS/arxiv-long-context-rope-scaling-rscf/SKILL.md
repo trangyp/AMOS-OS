@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Long Context Rope Scaling Rscf"
 type: skill
 source: 07_SKILLS/arxiv-long-context-rope-scaling-rscf
 name: arxiv-long-context-rope-scaling-rscf

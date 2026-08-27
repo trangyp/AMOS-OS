@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Instinct Pattern Governor"
 type: skill
 source: 07_SKILLS/amos-instinct-pattern-governor
 name: amos-instinct-pattern-governor

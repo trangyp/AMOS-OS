@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Llm Judge Bias Geometry Rscf"
 type: skill
 source: 07_SKILLS/arxiv-llm-judge-bias-geometry-rscf
 name: arxiv-llm-judge-bias-geometry-rscf

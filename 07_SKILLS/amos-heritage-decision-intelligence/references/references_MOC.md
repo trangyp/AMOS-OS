@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Heritage Decision Intelligence"
 type: moc
 source: 07_SKILLS/amos-heritage-decision-intelligence/references
 tags: [moc, references, canon/skill]

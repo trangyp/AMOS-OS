@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Future Confidence Distillation Rscf"
 type: skill
 source: 07_SKILLS/arxiv-future-confidence-distillation-rscf
 name: arxiv-future-confidence-distillation-rscf

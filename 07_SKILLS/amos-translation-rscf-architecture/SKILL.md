@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Translation Rscf Architecture"
 type: skill
 source: 07_SKILLS/amos-translation-rscf-architecture
 name: amos-translation-rscf-architecture

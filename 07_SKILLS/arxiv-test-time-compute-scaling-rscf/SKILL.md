@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Test Time Compute Scaling Rscf"
 type: skill
 source: 07_SKILLS/arxiv-test-time-compute-scaling-rscf
 name: arxiv-test-time-compute-scaling-rscf

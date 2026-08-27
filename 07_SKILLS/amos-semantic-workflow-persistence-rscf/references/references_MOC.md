@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Semantic Workflow Persistence Rscf"
 type: moc
 source: 07_SKILLS/amos-semantic-workflow-persistence-rscf/references
 tags: [moc, references, canon/skill]

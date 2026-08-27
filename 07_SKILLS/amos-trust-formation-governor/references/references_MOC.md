@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Trust Formation Governor"
 type: moc
 source: 07_SKILLS/amos-trust-formation-governor/references
 tags: [moc, references, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Repair Priority Governor"
 type: reference
 source: 07_SKILLS/amos-repair-priority-governor/references
 tags: [reference, amos-repair-priority-governor, canon/skill]

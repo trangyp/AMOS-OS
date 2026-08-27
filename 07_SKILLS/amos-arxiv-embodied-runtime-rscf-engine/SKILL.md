@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Arxiv Embodied Runtime Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-arxiv-embodied-runtime-rscf-engine
 name: amos-arxiv-embodied-runtime-rscf-engine

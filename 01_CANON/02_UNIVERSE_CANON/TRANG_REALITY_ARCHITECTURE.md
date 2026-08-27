@@ -1,5 +1,5 @@
 ---
-title: "TRANG Reality Architecture"
+title: "TRANG Reality Architecture — 02 Universe Canon"
 type: architecture
 source: 01_CANON/02_UNIVERSE_CANON
 artifact: "TRANG_REALITY_ARCHITECTURE.md"

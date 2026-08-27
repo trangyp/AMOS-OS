@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Claim Verifier"
 type: reference
 source: 07_SKILLS/amos-claim-verifier/references
 tags: [reference, amos-claim-verifier, canon/skill]

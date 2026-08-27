@@ -99,3 +99,7 @@ Exploitation_Score = (ambiguity * 0.2 + low_penalty * 0.15 + network_asymmetry *
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-c03-physics-cosmos-master_MOC]]

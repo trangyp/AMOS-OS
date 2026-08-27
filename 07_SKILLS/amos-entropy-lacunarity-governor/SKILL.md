@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Entropy Lacunarity Governor"
 type: skill
 source: 07_SKILLS/amos-entropy-lacunarity-governor
 name: amos-entropy-lacunarity-governor

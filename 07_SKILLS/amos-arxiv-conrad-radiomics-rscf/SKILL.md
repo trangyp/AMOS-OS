@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Arxiv Conrad Radiomics Rscf"
 type: skill
 source: 07_SKILLS/amos-arxiv-conrad-radiomics-rscf
 name: amos-arxiv-conrad-radiomics-rscf

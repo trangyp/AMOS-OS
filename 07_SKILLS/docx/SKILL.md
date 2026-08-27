@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Docx"
 type: skill
 source: 07_SKILLS/docx
 name: docx

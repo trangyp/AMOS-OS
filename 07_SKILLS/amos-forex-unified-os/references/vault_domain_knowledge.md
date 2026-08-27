@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Forex Unified Os"
 type: reference
 source: 07_SKILLS/amos-forex-unified-os/references
 tags: [reference, amos-forex-unified-os, canon/skill]

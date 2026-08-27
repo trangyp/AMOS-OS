@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Calibrated Feedback Control Rscf"
 type: skill
 source: 07_SKILLS/amos-calibrated-feedback-control-rscf
 name: amos-calibrated-feedback-control-rscf

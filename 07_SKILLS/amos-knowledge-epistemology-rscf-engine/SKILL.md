@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Knowledge Epistemology Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-knowledge-epistemology-rscf-engine
 name: amos-knowledge-epistemology-rscf-engine

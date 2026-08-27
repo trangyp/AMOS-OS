@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Docx"
 type: reference
 source: 07_SKILLS/docx/references
 tags: [reference, docx, canon/skill]

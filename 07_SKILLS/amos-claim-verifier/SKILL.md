@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Claim Verifier"
 type: skill
 source: 07_SKILLS/amos-claim-verifier
 name: amos-claim-verifier

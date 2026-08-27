@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Scientific Assumption Semantic Differencing Rscf"
 type: moc
 source: 07_SKILLS/amos-scientific-assumption-semantic-differencing-rscf/references
 tags: [moc, references, canon/skill]

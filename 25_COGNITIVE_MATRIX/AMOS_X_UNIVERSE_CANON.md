@@ -2400,7 +2400,11 @@ RSCF-RELATIONS:
 
 ```
 
-The decisive repair is therefore **not to discard the submitted quantum/biological/cognitive/cosmic construct**, but to remove its unsupported identity with the seven canonical parts. The Drive corpus has a dedicated `AMOS_7_PART_UNIVERSE_CANON.md`, a dedicated P7 child, and separate canon/provenance infrastructure, which supports treating this as an explicit governed architecture rather than deriving its identity from the four-strata diagram. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
+The decisive repair is therefore **not to discard the submitted quantum/biological/cognitive/cosmic construct**, but to remove its unsupported identity with the seven canonical parts. The Drive corpus has a dedicated `AMOS_7_PART_UNIVERSE_CANON.md`, a dedicated P7 child, and separate canon/provenance infrastructure, which supports treating this as an explicit governed architecture rather than deriving its identity from the four-strata diagram.
 
 **Conclusion class:** `DERIVED`, with the seven-part identity `SOURCE_GROUNDED`; four-strata equivalence remains `UNKNOWN/COMPETING`; runtime enforcement remains `NOT_ESTABLISHED`.
 ```
+
+---
+
+**Related:** [[25_COGNITIVE_MATRIX_MOC]]

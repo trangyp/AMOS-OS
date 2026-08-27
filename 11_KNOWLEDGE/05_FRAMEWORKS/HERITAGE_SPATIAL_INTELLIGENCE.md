@@ -1,5 +1,5 @@
 ---
-title: "Heritage Spatial Intelligence"
+title: "Heritage Spatial Intelligence — 05 Frameworks"
 type: heritage
 source: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact: "HERITAGE_SPATIAL_INTELLIGENCE.md"

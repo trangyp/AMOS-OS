@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Time Series Conformal Uq Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-time-series-conformal-uq-rscf-engine
 name: amos-time-series-conformal-uq-rscf-engine

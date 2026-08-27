@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Law Hierarchy Resolver"
 type: skill
 source: 07_SKILLS/amos-law-hierarchy-resolver
 name: amos-law-hierarchy-resolver

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Closed Loop Learning Governor"
 type: skill
 source: 07_SKILLS/amos-closed-loop-learning-governor
 name: amos-closed-loop-learning-governor

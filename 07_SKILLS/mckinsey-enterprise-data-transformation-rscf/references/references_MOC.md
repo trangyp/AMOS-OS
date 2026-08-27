@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Mckinsey Enterprise Data Transformation Rscf"
 type: moc
 source: 07_SKILLS/mckinsey-enterprise-data-transformation-rscf/references
 tags: [moc, references, canon/skill]

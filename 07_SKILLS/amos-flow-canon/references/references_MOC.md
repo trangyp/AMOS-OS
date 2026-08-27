@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Flow Canon"
 type: moc
 source: 07_SKILLS/amos-flow-canon/references
 tags: [moc, references, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Fx Conformal Tail Risk Control Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-fx-conformal-tail-risk-control-rscf-engine
 name: amos-fx-conformal-tail-risk-control-rscf-engine

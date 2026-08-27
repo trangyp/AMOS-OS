@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Instinct Pattern Governor"
 type: moc
 source: 07_SKILLS/amos-instinct-pattern-governor/references
 tags: [moc, references, canon/skill]

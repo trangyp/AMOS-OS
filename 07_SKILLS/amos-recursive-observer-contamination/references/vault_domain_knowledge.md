@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Recursive Observer Contamination"
 type: reference
 source: 07_SKILLS/amos-recursive-observer-contamination/references
 tags: [reference, amos-recursive-observer-contamination, canon/skill]

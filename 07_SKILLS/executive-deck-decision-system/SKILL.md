@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Executive Deck Decision System"
 type: skill
 source: 07_SKILLS/executive-deck-decision-system
 name: executive-deck-decision-system

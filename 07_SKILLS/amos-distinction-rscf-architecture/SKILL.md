@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Distinction Rscf Architecture"
 type: skill
 source: 07_SKILLS/amos-distinction-rscf-architecture
 name: amos-distinction-rscf-architecture

@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Repository Knowledge Acquisition Rscf"
 type: reference
 source: 07_SKILLS/amos-repository-knowledge-acquisition-rscf/references
 tags: [reference, amos-repository-knowledge-acquisition-rscf, canon/skill]
@@ -265,3 +265,7 @@ Total knowledge tests: 33 (was 29, +4 new)
 ---
 **MOC:** [[references_MOC]]
 ```
+
+---
+
+**Related:** [[amos-repository-knowledge-acquisition-rscf_MOC]]

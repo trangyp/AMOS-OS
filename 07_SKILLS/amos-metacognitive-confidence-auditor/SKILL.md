@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Metacognitive Confidence Auditor"
 type: skill
 source: 07_SKILLS/amos-metacognitive-confidence-auditor
 name: amos-metacognitive-confidence-auditor

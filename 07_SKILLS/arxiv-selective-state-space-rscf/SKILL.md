@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Selective State Space Rscf"
 type: skill
 source: 07_SKILLS/arxiv-selective-state-space-rscf
 name: arxiv-selective-state-space-rscf

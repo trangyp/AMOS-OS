@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Arxiv Data Mixture Optimization Rscf"
 type: moc
 source: 07_SKILLS/arxiv-data-mixture-optimization-rscf/references
 tags: [moc, references, canon/skill]

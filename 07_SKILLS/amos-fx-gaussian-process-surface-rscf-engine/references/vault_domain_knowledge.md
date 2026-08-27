@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Fx Gaussian Process Surface Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-fx-gaussian-process-surface-rscf-engine/references
 tags: [reference, amos-fx-gaussian-process-surface-rscf-engine, canon/skill]

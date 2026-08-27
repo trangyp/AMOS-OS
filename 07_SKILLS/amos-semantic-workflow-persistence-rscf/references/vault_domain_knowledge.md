@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Semantic Workflow Persistence Rscf"
 type: reference
 source: 07_SKILLS/amos-semantic-workflow-persistence-rscf/references
 tags: [reference, amos-semantic-workflow-persistence-rscf, canon/skill]
@@ -244,3 +244,7 @@ Activate: K_META_LOGIC, K_MATH_COMPUTE, K_BIO_NEURO
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-semantic-workflow-persistence-rscf_MOC]]

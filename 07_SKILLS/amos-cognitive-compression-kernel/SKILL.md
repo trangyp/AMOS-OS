@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Cognitive Compression Kernel"
 type: skill
 source: 07_SKILLS/amos-cognitive-compression-kernel
 name: amos-cognitive-compression-kernel

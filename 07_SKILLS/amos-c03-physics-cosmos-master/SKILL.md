@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos C03 Physics Cosmos Master"
 type: skill
 source: 07_SKILLS/amos-c03-physics-cosmos-master
 name: amos-c03-physics-cosmos-master

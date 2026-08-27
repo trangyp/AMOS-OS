@@ -1,5 +1,5 @@
 ---
-title: UBI OMNIS
+title: "UBI OMNIS — Biology Ubi"
 type: note
 source: 11_KNOWLEDGE/biology-ubi
 

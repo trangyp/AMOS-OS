@@ -1,5 +1,5 @@
 ---
-title: AGENT TEMPLATE
+title: "AGENT TEMPLATE — Amos Audit Repair Master"
 type: note
 source: 07_SKILLS/amos-audit-repair-master
 tags: [note, amos-audit-repair-master, canon/skill]

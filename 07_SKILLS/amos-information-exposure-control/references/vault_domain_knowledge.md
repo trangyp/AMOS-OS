@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Information Exposure Control"
 type: reference
 source: 07_SKILLS/amos-information-exposure-control/references
 tags: [reference, amos-information-exposure-control, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Repair Substrate Capture Resistance Rscf"
 type: skill
 source: 07_SKILLS/amos-repair-substrate-capture-resistance-rscf
 name: amos-repair-substrate-capture-resistance-rscf

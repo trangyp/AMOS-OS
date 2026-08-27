@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Scientific Assumption Semantic Differencing Rscf"
 type: skill
 source: 07_SKILLS/amos-scientific-assumption-semantic-differencing-rscf
 name: amos-scientific-assumption-semantic-differencing-rscf

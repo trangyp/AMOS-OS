@@ -1,5 +1,5 @@
 ---
-title: "Heritage Fractal Mathematics"
+title: "Heritage Fractal Mathematics — 05 Frameworks"
 type: fractal
 source: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact: "HERITAGE_FRACTAL_MATHEMATICS.md"

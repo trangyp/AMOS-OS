@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Cross Domain Tensor Composition Governor"
 type: reference
 source: 07_SKILLS/amos-cross-domain-tensor-composition-governor/references
 tags: [reference, amos-cross-domain-tensor-composition-governor, canon/skill]

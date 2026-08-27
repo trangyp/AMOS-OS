@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Formal Agent Skill Verification Rscf"
 type: moc
 source: 07_SKILLS/amos-formal-agent-skill-verification-rscf/references
 tags: [moc, references, canon/skill]

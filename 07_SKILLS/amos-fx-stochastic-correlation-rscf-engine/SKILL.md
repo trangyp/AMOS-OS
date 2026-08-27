@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Fx Stochastic Correlation Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-fx-stochastic-correlation-rscf-engine
 name: amos-fx-stochastic-correlation-rscf-engine

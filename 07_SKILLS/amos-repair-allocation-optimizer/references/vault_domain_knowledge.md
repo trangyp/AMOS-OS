@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Repair Allocation Optimizer"
 type: reference
 source: 07_SKILLS/amos-repair-allocation-optimizer/references
 tags: [reference, amos-repair-allocation-optimizer, canon/skill]

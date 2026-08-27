@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Audit Repair Master"
 type: skill
 source: 07_SKILLS/amos-audit-repair-master
 name: amos-audit-repair-master

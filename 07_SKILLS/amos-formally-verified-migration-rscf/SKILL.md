@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Formally Verified Migration Rscf"
 type: skill
 source: 07_SKILLS/amos-formally-verified-migration-rscf
 name: amos-formally-verified-migration-rscf

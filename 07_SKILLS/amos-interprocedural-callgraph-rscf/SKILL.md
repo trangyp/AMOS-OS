@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Interprocedural Callgraph Rscf"
 type: skill
 source: 07_SKILLS/amos-interprocedural-callgraph-rscf
 name: amos-interprocedural-callgraph-rscf

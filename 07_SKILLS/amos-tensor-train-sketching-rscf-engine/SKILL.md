@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Tensor Train Sketching Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-tensor-train-sketching-rscf-engine
 name: amos-tensor-train-sketching-rscf-engine

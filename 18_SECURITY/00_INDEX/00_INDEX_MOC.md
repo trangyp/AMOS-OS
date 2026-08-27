@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Security / Index"
 type: moc
 source: 18_SECURITY/00_INDEX
 tags: [moc, 00-index, canon/security]

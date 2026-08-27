@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Arxiv Ttstack Sketching Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-arxiv-ttstack-sketching-rscf-engine/references
 tags: [reference, amos-arxiv-ttstack-sketching-rscf-engine, canon/skill]

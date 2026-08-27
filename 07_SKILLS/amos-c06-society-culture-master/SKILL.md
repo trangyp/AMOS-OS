@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos C06 Society Culture Master"
 type: skill
 source: 07_SKILLS/amos-c06-society-culture-master
 name: amos-c06-society-culture-master

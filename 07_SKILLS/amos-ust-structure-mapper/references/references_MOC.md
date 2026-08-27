@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Ust Structure Mapper"
 type: moc
 source: 07_SKILLS/amos-ust-structure-mapper/references
 tags: [moc, references, canon/skill]

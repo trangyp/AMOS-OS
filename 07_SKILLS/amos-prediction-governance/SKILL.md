@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Prediction Governance"
 type: skill
 source: 07_SKILLS/amos-prediction-governance
 name: amos-prediction-governance

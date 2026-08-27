@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Spreadsheets"
 type: skill
 source: 07_SKILLS/spreadsheets
 name: spreadsheets

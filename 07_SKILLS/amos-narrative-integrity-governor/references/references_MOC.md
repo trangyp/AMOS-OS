@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Narrative Integrity Governor"
 type: moc
 source: 07_SKILLS/amos-narrative-integrity-governor/references
 tags: [moc, references, canon/skill]

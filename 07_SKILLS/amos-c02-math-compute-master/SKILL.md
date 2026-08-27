@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos C02 Math Compute Master"
 type: skill
 source: 07_SKILLS/amos-c02-math-compute-master
 name: amos-c02-math-compute-master

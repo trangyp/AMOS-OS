@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Dependency Environment Reconstruction Rscf"
 type: skill
 source: 07_SKILLS/amos-dependency-environment-reconstruction-rscf
 name: amos-dependency-environment-reconstruction-rscf

@@ -39,7 +39,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
   provenance:
     - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
@@ -92,7 +92,7 @@ RSCF:
   node_id: amos_21_domains_08_legal_canon_ip_governance
   node_type: domain_governance
   claim_class: SYSTEM_INVARIANT
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Canon Intellectual Property Governance Specification"
     role: "Cryptographic IP provenance licensing, author attestation, and anti-exfiltration engine"

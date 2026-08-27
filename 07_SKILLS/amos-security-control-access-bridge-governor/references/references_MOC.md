@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Security Control Access Bridge Governor"
 type: moc
 source: 07_SKILLS/amos-security-control-access-bridge-governor/references
 tags: [moc, references, canon/skill]

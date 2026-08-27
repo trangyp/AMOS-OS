@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Unreachable Semantics Rscf"
 type: skill
 source: 07_SKILLS/amos-unreachable-semantics-rscf
 name: amos-unreachable-semantics-rscf

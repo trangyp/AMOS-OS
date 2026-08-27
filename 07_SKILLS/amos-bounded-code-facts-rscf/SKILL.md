@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Bounded Code Facts Rscf"
 type: skill
 source: 07_SKILLS/amos-bounded-code-facts-rscf
 name: amos-bounded-code-facts-rscf

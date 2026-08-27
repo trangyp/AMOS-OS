@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Canon Universe Master"
 type: skill
 source: 07_SKILLS/amos-canon-universe-master
 name: amos-canon-universe-master

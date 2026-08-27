@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Fx Quantile Distribution Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-fx-quantile-distribution-rscf-engine
 name: amos-fx-quantile-distribution-rscf-engine

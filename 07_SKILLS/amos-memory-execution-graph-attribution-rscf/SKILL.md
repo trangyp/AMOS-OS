@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Memory Execution Graph Attribution Rscf"
 type: skill
 source: 07_SKILLS/amos-memory-execution-graph-attribution-rscf
 name: amos-memory-execution-graph-attribution-rscf

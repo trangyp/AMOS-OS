@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Measurement Integrity Auditor"
 type: reference
 source: 07_SKILLS/amos-measurement-integrity-auditor/references
 tags: [reference, amos-measurement-integrity-auditor, canon/skill]

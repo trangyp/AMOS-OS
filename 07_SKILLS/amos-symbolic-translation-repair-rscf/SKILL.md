@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Symbolic Translation Repair Rscf"
 type: skill
 source: 07_SKILLS/amos-symbolic-translation-repair-rscf
 name: amos-symbolic-translation-repair-rscf

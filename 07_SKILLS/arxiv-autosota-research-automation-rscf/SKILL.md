@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Autosota Research Automation Rscf"
 type: skill
 source: 07_SKILLS/arxiv-autosota-research-automation-rscf
 name: arxiv-autosota-research-automation-rscf

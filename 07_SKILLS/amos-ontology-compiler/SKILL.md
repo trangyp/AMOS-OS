@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Ontology Compiler"
 type: skill
 source: 07_SKILLS/amos-ontology-compiler
 name: amos-ontology-compiler

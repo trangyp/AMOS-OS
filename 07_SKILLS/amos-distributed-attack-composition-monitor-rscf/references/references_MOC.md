@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Distributed Attack Composition Monitor Rscf"
 type: moc
 source: 07_SKILLS/amos-distributed-attack-composition-monitor-rscf/references
 tags: [moc, references, canon/skill]

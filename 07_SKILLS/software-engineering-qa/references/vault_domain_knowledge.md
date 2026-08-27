@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Software Engineering Qa"
 type: reference
 source: 07_SKILLS/software-engineering-qa/references
 tags: [reference, software-engineering-qa, canon/skill]

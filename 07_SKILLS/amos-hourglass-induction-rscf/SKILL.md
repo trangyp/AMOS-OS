@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Hourglass Induction Rscf"
 type: skill
 source: 07_SKILLS/amos-hourglass-induction-rscf
 name: amos-hourglass-induction-rscf

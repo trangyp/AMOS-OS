@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Arxiv Continual Interference Geometry Rscf"
 type: skill
 source: 07_SKILLS/amos-arxiv-continual-interference-geometry-rscf
 name: amos-arxiv-continual-interference-geometry-rscf

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Contravariance Alignment Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-contravariance-alignment-rscf-engine
 name: amos-contravariance-alignment-rscf-engine

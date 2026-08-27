@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Distinction Relation Transformation"
 type: skill
 source: 07_SKILLS/amos-distinction-relation-transformation
 name: amos-distinction-relation-transformation

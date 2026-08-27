@@ -1,5 +1,5 @@
 ---
-title: README
+title: "README — Readme"
 type: note
 source: .
 tags: [note, vault, canon/general]

@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Mckinsey Strategy Portfolio Engine"
 type: moc
 source: 07_SKILLS/mckinsey-strategy-portfolio-engine/references
 tags: [moc, references, canon/skill]

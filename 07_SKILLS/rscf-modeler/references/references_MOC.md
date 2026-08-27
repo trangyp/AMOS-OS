@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Rscf Modeler"
 type: moc
 source: 07_SKILLS/rscf-modeler/references
 tags: [moc, references, canon/skill]

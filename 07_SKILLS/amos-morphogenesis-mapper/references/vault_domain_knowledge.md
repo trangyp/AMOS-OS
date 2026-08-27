@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Morphogenesis Mapper"
 type: reference
 source: 07_SKILLS/amos-morphogenesis-mapper/references
 tags: [reference, amos-morphogenesis-mapper, canon/skill]
@@ -337,3 +337,7 @@ Hardware must remain replaceable without destroying the higher-order Omnis archi
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-morphogenesis-mapper_MOC]]

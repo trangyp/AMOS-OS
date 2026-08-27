@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Infrastructure Control Plane"
 type: skill
 source: 07_SKILLS/amos-infrastructure-control-plane
 name: amos-infrastructure-control-plane

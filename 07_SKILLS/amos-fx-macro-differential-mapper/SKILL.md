@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Fx Macro Differential Mapper"
 type: skill
 source: 07_SKILLS/amos-fx-macro-differential-mapper
 name: amos-fx-macro-differential-mapper

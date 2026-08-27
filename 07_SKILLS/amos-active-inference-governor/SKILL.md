@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Active Inference Governor"
 type: skill
 source: 07_SKILLS/amos-active-inference-governor
 name: amos-active-inference-governor

@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Domains / C06 Society Culture / Index"
 type: moc
 source: 21_DOMAINS/16_C06_SOCIETY_CULTURE/00_INDEX
 tags: [moc, 00-index, canon/domain]

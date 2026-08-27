@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Control Plane / Exposure / Index"
 type: moc
 source: 03_CONTROL_PLANE/10_EXPOSURE/00_INDEX
 tags: [moc, 00-index, canon/control-plane]

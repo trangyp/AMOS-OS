@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Repair Harm Auditor"
 type: skill
 source: 07_SKILLS/amos-repair-harm-auditor
 name: amos-repair-harm-auditor

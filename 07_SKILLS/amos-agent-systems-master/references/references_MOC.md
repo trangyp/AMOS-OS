@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Agent Systems Master"
 type: moc
 source: 07_SKILLS/amos-agent-systems-master/references
 tags: [moc, references, canon/skill]

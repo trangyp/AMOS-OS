@@ -1,5 +1,5 @@
 ---
-title: "Domain Canon Programming"
+title: "Domain Canon Programming — 04 Infrastructure Canon"
 type: canon
 source: 01_CANON/04_INFRASTRUCTURE_CANON
 artifact: "DOMAIN_CANON_PROGRAMMING.md"

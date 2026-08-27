@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Ust Structure Mapper"
 type: skill
 source: 07_SKILLS/amos-ust-structure-mapper
 name: amos-ust-structure-mapper

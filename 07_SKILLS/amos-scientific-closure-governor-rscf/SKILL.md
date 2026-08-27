@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Scientific Closure Governor Rscf"
 type: skill
 source: 07_SKILLS/amos-scientific-closure-governor-rscf
 name: amos-scientific-closure-governor-rscf

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Verification Aware Implementation Diversity Rscf"
 type: skill
 source: 07_SKILLS/amos-verification-aware-implementation-diversity-rscf
 name: amos-verification-aware-implementation-diversity-rscf

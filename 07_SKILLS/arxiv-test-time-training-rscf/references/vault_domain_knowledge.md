@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Arxiv Test Time Training Rscf"
 type: reference
 source: 07_SKILLS/arxiv-test-time-training-rscf/references
 tags: [reference, arxiv-test-time-training-rscf, canon/skill]

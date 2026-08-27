@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Agent Memory Dynamics Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine
 name: amos-agent-memory-dynamics-rscf-engine

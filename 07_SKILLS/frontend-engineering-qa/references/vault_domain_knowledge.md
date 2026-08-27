@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Frontend Engineering Qa"
 type: reference
 source: 07_SKILLS/frontend-engineering-qa/references
 tags: [reference, frontend-engineering-qa, canon/skill]

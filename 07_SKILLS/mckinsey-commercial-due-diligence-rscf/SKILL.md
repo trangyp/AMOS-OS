@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Commercial Due Diligence Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-commercial-due-diligence-rscf
 name: mckinsey-commercial-due-diligence-rscf

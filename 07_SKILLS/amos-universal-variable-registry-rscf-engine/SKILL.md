@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Universal Variable Registry Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-universal-variable-registry-rscf-engine
 name: amos-universal-variable-registry-rscf-engine

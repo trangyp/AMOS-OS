@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Language Equation Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-language-equation-rscf-engine
 name: amos-language-equation-rscf-engine

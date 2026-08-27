@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Context Compaction Recoverability Rscf"
 type: skill
 source: 07_SKILLS/amos-context-compaction-recoverability-rscf
 name: amos-context-compaction-recoverability-rscf

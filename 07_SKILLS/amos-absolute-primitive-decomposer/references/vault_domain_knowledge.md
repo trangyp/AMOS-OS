@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Absolute Primitive Decomposer"
 type: reference
 source: 07_SKILLS/amos-absolute-primitive-decomposer/references
 tags: [reference, amos-absolute-primitive-decomposer, canon/skill]
@@ -240,3 +240,7 @@ This model is invoked by the `amos-canon-integration-layer` and the `amos-reason
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-absolute-primitive-decomposer_MOC]]

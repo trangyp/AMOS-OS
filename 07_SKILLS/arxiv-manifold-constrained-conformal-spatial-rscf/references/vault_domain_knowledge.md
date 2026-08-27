@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Arxiv Manifold Constrained Conformal Spatial Rscf"
 type: reference
 source: 07_SKILLS/arxiv-manifold-constrained-conformal-spatial-rscf/references
 tags: [reference, arxiv-manifold-constrained-conformal-spatial-rscf, canon/skill]

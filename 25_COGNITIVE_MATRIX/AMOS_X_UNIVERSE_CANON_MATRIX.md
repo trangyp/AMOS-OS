@@ -3025,4 +3025,8 @@ P6 EXECUTION / AGENCY
 P7 EVOLUTION / LEARNING
 ````
 
-while the submitted physical → pre-symbolic → biological → logic → cognitive → governance → civilizational sequence remains **COMPETING/HISTORICAL pending lineage reconciliation**, rather than being destroyed or silently merged. That preserves both the current source authority and any potentially meaningful earlier Universe architecture until its provenance can discriminate between supersession, parallel model, or taxonomy collision. 
+while the submitted physical → pre-symbolic → biological → logic → cognitive → governance → civilizational sequence remains **COMPETING/HISTORICAL pending lineage reconciliation**, rather than being destroyed or silently merged. That preserves both the current source authority and any potentially meaningful earlier Universe architecture until its provenance can discriminate between supersession, parallel model, or taxonomy collision.
+
+---
+
+**Related:** [[25_COGNITIVE_MATRIX_MOC]]

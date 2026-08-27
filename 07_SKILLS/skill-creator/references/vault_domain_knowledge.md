@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Skill Creator"
 type: reference
 source: 07_SKILLS/skill-creator/references
 tags: [reference, skill-creator, canon/skill]

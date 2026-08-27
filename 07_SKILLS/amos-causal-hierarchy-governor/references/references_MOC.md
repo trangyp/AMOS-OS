@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Causal Hierarchy Governor"
 type: moc
 source: 07_SKILLS/amos-causal-hierarchy-governor/references
 tags: [moc, references, canon/skill]

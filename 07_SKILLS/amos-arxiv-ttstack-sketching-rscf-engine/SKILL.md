@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Arxiv Ttstack Sketching Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-arxiv-ttstack-sketching-rscf-engine
 name: amos-arxiv-ttstack-sketching-rscf-engine

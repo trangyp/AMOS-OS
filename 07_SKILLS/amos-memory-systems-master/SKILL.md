@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Memory Systems Master"
 type: skill
 source: 07_SKILLS/amos-memory-systems-master
 name: amos-memory-systems-master

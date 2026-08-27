@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Full Brain Os"
 type: skill
 source: 07_SKILLS/amos-full-brain-os
 name: amos-full-brain-os

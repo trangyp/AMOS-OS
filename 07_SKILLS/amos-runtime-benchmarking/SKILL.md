@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Runtime Benchmarking"
 type: skill
 source: 07_SKILLS/amos-runtime-benchmarking
 name: amos-runtime-benchmarking

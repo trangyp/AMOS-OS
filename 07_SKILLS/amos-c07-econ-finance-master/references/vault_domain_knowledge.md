@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos C07 Econ Finance Master"
 type: reference
 source: 07_SKILLS/amos-c07-econ-finance-master/references
 tags: [reference, amos-c07-econ-finance-master, canon/skill]
@@ -556,3 +556,7 @@ Incorrect: `Rates will do X` / `Buy Y`.
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-c07-econ-finance-master_MOC]]

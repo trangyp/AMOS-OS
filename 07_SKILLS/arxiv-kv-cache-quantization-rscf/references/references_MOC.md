@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Arxiv Kv Cache Quantization Rscf"
 type: moc
 source: 07_SKILLS/arxiv-kv-cache-quantization-rscf/references
 tags: [moc, references, canon/skill]

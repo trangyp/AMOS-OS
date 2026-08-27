@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Infrastructure Control Plane"
 type: moc
 source: 07_SKILLS/amos-infrastructure-control-plane/references
 tags: [moc, references, canon/skill]

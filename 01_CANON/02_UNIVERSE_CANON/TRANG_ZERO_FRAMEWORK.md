@@ -1,5 +1,5 @@
 ---
-title: "TRANG Zero Framework"
+title: "TRANG Zero Framework — 02 Universe Canon"
 type: trang-framework
 source: 01_CANON/02_UNIVERSE_CANON
 artifact: "TRANG_ZERO_FRAMEWORK.md"

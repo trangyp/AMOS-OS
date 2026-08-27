@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Ethics Os Governor"
 type: moc
 source: 07_SKILLS/amos-ethics-os-governor/references
 tags: [moc, references, canon/skill]

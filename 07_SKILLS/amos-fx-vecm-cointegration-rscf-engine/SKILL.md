@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Fx Vecm Cointegration Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-fx-vecm-cointegration-rscf-engine
 name: amos-fx-vecm-cointegration-rscf-engine

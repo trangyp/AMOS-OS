@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Skill Creator"
 type: skill
 source: 07_SKILLS/skill-creator
 name: skill-creator

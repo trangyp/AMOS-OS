@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Memory Immune System"
 type: skill
 source: 07_SKILLS/amos-memory-immune-system
 name: amos-memory-immune-system

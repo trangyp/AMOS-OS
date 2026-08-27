@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Forex Unified Os"
 type: moc
 source: 07_SKILLS/amos-forex-unified-os/references
 tags: [moc, references, canon/skill]

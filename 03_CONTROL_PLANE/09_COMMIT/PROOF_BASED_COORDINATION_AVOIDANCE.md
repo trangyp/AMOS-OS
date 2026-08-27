@@ -1,5 +1,5 @@
 ---
-title: "Proof-Based Coordination Avoidance"
+title: "Proof-Based Coordination Avoidance — 09 Commit"
 type: proof
 source: 03_CONTROL_PLANE/09_COMMIT
 artifact: "PROOF_BASED_COORDINATION_AVOIDANCE.md"

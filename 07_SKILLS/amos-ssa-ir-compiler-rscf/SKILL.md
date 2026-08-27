@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Ssa Ir Compiler Rscf"
 type: skill
 source: 07_SKILLS/amos-ssa-ir-compiler-rscf
 name: amos-ssa-ir-compiler-rscf

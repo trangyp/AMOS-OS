@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Arxiv Time Series Bootstrap Conformal Rscf"
 type: skill
 source: 07_SKILLS/amos-arxiv-time-series-bootstrap-conformal-rscf
 name: amos-arxiv-time-series-bootstrap-conformal-rscf

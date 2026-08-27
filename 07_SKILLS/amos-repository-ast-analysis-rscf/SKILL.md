@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Repository Ast Analysis Rscf"
 type: skill
 source: 07_SKILLS/amos-repository-ast-analysis-rscf
 name: amos-repository-ast-analysis-rscf

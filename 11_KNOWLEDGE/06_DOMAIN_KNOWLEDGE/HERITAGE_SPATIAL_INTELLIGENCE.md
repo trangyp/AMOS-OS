@@ -1,5 +1,5 @@
 ---
-title: "Heritage Spatial Intelligence"
+title: "Heritage Spatial Intelligence — 06 Domain Knowledge"
 type: domain_knowledge
 source: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact: "HERITAGE_SPATIAL_INTELLIGENCE.md"

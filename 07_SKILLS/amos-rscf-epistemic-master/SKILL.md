@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Rscf Epistemic Master"
 type: skill
 source: 07_SKILLS/amos-rscf-epistemic-master
 name: amos-rscf-epistemic-master

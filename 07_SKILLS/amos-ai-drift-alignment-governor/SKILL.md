@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Ai Drift Alignment Governor"
 type: skill
 source: 07_SKILLS/amos-ai-drift-alignment-governor
 name: amos-ai-drift-alignment-governor

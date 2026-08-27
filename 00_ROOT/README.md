@@ -1,5 +1,5 @@
 ---
-title: README
+title: "README — 00 Root"
 type: note
 source: 00_ROOT
 aliases:

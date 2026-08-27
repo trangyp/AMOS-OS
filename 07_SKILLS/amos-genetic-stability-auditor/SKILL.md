@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Genetic Stability Auditor"
 type: skill
 source: 07_SKILLS/amos-genetic-stability-auditor
 name: amos-genetic-stability-auditor

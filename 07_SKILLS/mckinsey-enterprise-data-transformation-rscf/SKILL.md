@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Enterprise Data Transformation Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-enterprise-data-transformation-rscf
 name: mckinsey-enterprise-data-transformation-rscf

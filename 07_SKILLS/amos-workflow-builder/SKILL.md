@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Workflow Builder"
 type: skill
 source: 07_SKILLS/amos-workflow-builder
 name: amos-workflow-builder

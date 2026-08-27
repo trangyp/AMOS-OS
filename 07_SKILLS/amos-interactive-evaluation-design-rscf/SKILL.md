@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Interactive Evaluation Design Rscf"
 type: skill
 source: 07_SKILLS/amos-interactive-evaluation-design-rscf
 name: amos-interactive-evaluation-design-rscf

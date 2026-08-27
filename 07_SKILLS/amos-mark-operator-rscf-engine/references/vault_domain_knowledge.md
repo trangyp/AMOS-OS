@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Mark Operator Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-mark-operator-rscf-engine/references
 tags: [reference, amos-mark-operator-rscf-engine, canon/skill]
@@ -361,3 +361,7 @@ Stateframes are constructed by intersecting:
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-mark-operator-rscf-engine_MOC]]

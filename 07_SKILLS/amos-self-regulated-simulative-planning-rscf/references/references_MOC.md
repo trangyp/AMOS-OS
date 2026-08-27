@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Self Regulated Simulative Planning Rscf"
 type: moc
 source: 07_SKILLS/amos-self-regulated-simulative-planning-rscf/references
 tags: [moc, references, canon/skill]

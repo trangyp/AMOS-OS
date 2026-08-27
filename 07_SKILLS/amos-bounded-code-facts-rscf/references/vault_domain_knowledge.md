@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Bounded Code Facts Rscf"
 type: reference
 source: 07_SKILLS/amos-bounded-code-facts-rscf/references
 tags: [reference, amos-bounded-code-facts-rscf, canon/skill]
@@ -234,3 +234,7 @@ Authorization code grant type
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-bounded-code-facts-rscf_MOC]]

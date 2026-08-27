@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Fx Typed Tensor Contract Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-fx-typed-tensor-contract-rscf-engine/references
 tags: [reference, amos-fx-typed-tensor-contract-rscf-engine, canon/skill]

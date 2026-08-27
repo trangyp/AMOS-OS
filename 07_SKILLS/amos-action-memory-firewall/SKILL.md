@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Action Memory Firewall"
 type: skill
 source: 07_SKILLS/amos-action-memory-firewall
 name: amos-action-memory-firewall

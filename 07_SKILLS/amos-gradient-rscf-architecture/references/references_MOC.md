@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Gradient Rscf Architecture"
 type: moc
 source: 07_SKILLS/amos-gradient-rscf-architecture/references
 tags: [moc, references, canon/skill]

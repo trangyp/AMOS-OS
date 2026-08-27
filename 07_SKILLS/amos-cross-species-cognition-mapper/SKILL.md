@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Cross Species Cognition Mapper"
 type: skill
 source: 07_SKILLS/amos-cross-species-cognition-mapper
 name: amos-cross-species-cognition-mapper

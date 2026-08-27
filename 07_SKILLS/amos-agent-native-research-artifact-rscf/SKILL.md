@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Agent Native Research Artifact Rscf"
 type: skill
 source: 07_SKILLS/amos-agent-native-research-artifact-rscf
 name: amos-agent-native-research-artifact-rscf

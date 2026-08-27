@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Knowledge Research Master"
 type: skill
 source: 07_SKILLS/amos-knowledge-research-master
 name: amos-knowledge-research-master

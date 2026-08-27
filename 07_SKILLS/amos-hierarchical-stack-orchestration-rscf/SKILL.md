@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Hierarchical Stack Orchestration Rscf"
 type: skill
 source: 07_SKILLS/amos-hierarchical-stack-orchestration-rscf
 name: amos-hierarchical-stack-orchestration-rscf

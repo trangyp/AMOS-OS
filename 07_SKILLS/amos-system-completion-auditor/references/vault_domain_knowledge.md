@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos System Completion Auditor"
 type: reference
 source: 07_SKILLS/amos-system-completion-auditor/references
 tags: [reference, amos-system-completion-auditor, canon/skill]

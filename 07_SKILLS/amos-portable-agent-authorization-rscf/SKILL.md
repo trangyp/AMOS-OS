@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Portable Agent Authorization Rscf"
 type: skill
 source: 07_SKILLS/amos-portable-agent-authorization-rscf
 name: amos-portable-agent-authorization-rscf

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Trajectory Bug Specification Refinement Rscf"
 type: skill
 source: 07_SKILLS/amos-trajectory-bug-specification-refinement-rscf
 name: amos-trajectory-bug-specification-refinement-rscf

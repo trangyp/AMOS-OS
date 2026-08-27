@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Agent Owner Attribution Rscf"
 type: moc
 source: 07_SKILLS/amos-agent-owner-attribution-rscf/references
 tags: [moc, references, canon/skill]

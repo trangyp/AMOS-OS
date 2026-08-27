@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Mckinsey Technology Sales Excellence Rscf"
 type: moc
 source: 07_SKILLS/mckinsey-technology-sales-excellence-rscf/references
 tags: [moc, references, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Arxiv Autosota Research Automation Rscf"
 type: reference
 source: 07_SKILLS/arxiv-autosota-research-automation-rscf/references
 tags: [reference, arxiv-autosota-research-automation-rscf, canon/skill]

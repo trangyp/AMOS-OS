@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Mark Operator Rscf Engine"
 type: moc
 source: 07_SKILLS/amos-mark-operator-rscf-engine/references
 tags: [moc, references, canon/skill]

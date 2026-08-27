@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Ghost Code Symbolic Execution Rscf"
 type: skill
 source: 07_SKILLS/amos-ghost-code-symbolic-execution-rscf
 name: amos-ghost-code-symbolic-execution-rscf

@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Workflows / Index"
 type: moc
 source: 08_WORKFLOWS/00_INDEX
 tags: [moc, 00-index, canon/workflow]

@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos C03 Physics Cosmos Master"
 type: moc
 source: 07_SKILLS/amos-c03-physics-cosmos-master/references
 tags: [moc, references, canon/skill]

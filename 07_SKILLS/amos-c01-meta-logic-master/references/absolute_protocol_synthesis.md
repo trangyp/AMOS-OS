@@ -110,3 +110,7 @@ K = {Gov
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-c01-meta-logic-master_MOC]]

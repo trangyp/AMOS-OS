@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Credit Lending Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-credit-lending-rscf
 name: mckinsey-credit-lending-rscf

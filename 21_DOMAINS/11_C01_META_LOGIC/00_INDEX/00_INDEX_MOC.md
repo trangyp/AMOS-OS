@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Domains / C01 Meta Logic / Index"
 type: moc
 source: 21_DOMAINS/11_C01_META_LOGIC/00_INDEX
 tags: [moc, 00-index, canon/domain]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Manifold Constrained Conformal Spatial Rscf"
 type: skill
 source: 07_SKILLS/arxiv-manifold-constrained-conformal-spatial-rscf
 name: arxiv-manifold-constrained-conformal-spatial-rscf

@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Fx Conformal Tail Risk Control Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-fx-conformal-tail-risk-control-rscf-engine/references
 tags: [reference, amos-fx-conformal-tail-risk-control-rscf-engine, canon/skill]

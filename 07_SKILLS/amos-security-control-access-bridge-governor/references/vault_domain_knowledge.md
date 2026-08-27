@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Security Control Access Bridge Governor"
 type: reference
 source: 07_SKILLS/amos-security-control-access-bridge-governor/references
 tags: [reference, amos-security-control-access-bridge-governor, canon/skill]

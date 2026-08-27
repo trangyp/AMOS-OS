@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Repository Knowledge Acquisition Rscf"
 type: skill
 source: 07_SKILLS/amos-repository-knowledge-acquisition-rscf
 name: amos-repository-knowledge-acquisition-rscf

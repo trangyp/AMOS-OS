@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Agent Storage Footprint Rscf"
 type: moc
 source: 07_SKILLS/amos-agent-storage-footprint-rscf/references
 tags: [moc, references, canon/skill]

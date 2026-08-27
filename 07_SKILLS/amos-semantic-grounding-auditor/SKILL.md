@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Semantic Grounding Auditor"
 type: skill
 source: 07_SKILLS/amos-semantic-grounding-auditor
 name: amos-semantic-grounding-auditor

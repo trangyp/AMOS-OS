@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Proof Loss Diagnostic Reconstruction Rscf"
 type: moc
 source: 07_SKILLS/amos-proof-loss-diagnostic-reconstruction-rscf/references
 tags: [moc, references, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Kv Cache Quantization Rscf"
 type: skill
 source: 07_SKILLS/arxiv-kv-cache-quantization-rscf
 name: arxiv-kv-cache-quantization-rscf

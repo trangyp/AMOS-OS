@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Commit Time Authorization Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-commit-time-authorization-rscf-engine
 name: amos-commit-time-authorization-rscf-engine

@@ -1,5 +1,5 @@
 ---
-title: "Native Canon Source Registry"
+title: "Native Canon Source Registry — 07 Provenance"
 type: canon
 source: 01_CANON/07_PROVENANCE
 artifact: "NATIVE_CANON_SOURCE_REGISTRY.md"

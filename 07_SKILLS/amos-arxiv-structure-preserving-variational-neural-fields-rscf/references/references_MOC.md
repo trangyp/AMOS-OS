@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Arxiv Structure Preserving Variational Neural Fields Rscf"
 type: moc
 source: 07_SKILLS/amos-arxiv-structure-preserving-variational-neural-fields-rscf/references
 tags: [moc, references, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Domains / Hse Safety / Index"
 type: moc
 source: 21_DOMAINS/40_HSE_SAFETY/00_INDEX
 tags: [moc, 00-index, canon/domain]

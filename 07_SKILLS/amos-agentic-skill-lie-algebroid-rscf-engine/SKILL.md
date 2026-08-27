@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Agentic Skill Lie Algebroid Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-agentic-skill-lie-algebroid-rscf-engine
 name: amos-agentic-skill-lie-algebroid-rscf-engine

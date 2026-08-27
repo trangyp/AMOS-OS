@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Risk Constraint Governor"
 type: skill
 source: 07_SKILLS/amos-risk-constraint-governor
 name: amos-risk-constraint-governor

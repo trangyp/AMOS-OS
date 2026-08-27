@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Digital Strategy Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-digital-strategy-rscf
 name: mckinsey-digital-strategy-rscf

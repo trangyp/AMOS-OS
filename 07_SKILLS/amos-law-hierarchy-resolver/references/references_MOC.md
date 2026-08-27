@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Law Hierarchy Resolver"
 type: moc
 source: 07_SKILLS/amos-law-hierarchy-resolver/references
 tags: [moc, references, canon/skill]

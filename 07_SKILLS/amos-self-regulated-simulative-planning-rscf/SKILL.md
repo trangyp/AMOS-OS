@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Self Regulated Simulative Planning Rscf"
 type: skill
 source: 07_SKILLS/amos-self-regulated-simulative-planning-rscf
 name: amos-self-regulated-simulative-planning-rscf

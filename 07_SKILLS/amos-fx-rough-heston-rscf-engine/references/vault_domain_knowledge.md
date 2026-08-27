@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Fx Rough Heston Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-fx-rough-heston-rscf-engine/references
 tags: [reference, amos-fx-rough-heston-rscf-engine, canon/skill]

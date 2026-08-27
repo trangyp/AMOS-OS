@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos C02 Math Compute Master"
 type: reference
 source: 07_SKILLS/amos-c02-math-compute-master/references
 tags: [reference, amos-c02-math-compute-master, canon/skill]
@@ -669,3 +669,7 @@ C
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-c02-math-compute-master_MOC]]

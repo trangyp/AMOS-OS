@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos C12 Earth Ecology Master"
 type: skill
 source: 07_SKILLS/amos-c12-earth-ecology-master
 name: amos-c12-earth-ecology-master

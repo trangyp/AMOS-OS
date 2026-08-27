@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Long Context Ci Repository Reasoning Rscf"
 type: moc
 source: 07_SKILLS/amos-long-context-ci-repository-reasoning-rscf/references
 tags: [moc, references, canon/skill]

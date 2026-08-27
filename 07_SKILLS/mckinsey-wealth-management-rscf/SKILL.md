@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Wealth Management Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-wealth-management-rscf
 name: mckinsey-wealth-management-rscf

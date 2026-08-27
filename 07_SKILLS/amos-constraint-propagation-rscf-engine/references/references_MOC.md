@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Constraint Propagation Rscf Engine"
 type: moc
 source: 07_SKILLS/amos-constraint-propagation-rscf-engine/references
 tags: [moc, references, canon/skill]

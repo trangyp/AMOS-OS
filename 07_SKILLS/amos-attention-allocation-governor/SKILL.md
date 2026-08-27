@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Attention Allocation Governor"
 type: skill
 source: 07_SKILLS/amos-attention-allocation-governor
 name: amos-attention-allocation-governor

@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Boundary Admission Governor"
 type: moc
 source: 07_SKILLS/amos-boundary-admission-governor/references
 tags: [moc, references, canon/skill]

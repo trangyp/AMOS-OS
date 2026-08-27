@@ -1,5 +1,5 @@
 ---
-title: AGENT TEMPLATE
+title: "AGENT TEMPLATE — Amos C03 Physics Cosmos Master"
 type: note
 source: 07_SKILLS/amos-c03-physics-cosmos-master
 tags: [note, amos-c03-physics-cosmos-master, canon/skill]

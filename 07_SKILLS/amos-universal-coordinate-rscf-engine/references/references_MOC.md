@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Universal Coordinate Rscf Engine"
 type: moc
 source: 07_SKILLS/amos-universal-coordinate-rscf-engine/references
 tags: [moc, references, canon/skill]

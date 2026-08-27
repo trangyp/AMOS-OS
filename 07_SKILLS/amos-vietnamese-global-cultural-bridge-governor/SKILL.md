@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Vietnamese Global Cultural Bridge Governor"
 type: skill
 source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor
 name: amos-vietnamese-global-cultural-bridge-governor

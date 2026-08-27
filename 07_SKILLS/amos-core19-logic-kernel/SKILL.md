@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Core19 Logic Kernel"
 type: skill
 source: 07_SKILLS/amos-core19-logic-kernel
 name: amos-core19-logic-kernel

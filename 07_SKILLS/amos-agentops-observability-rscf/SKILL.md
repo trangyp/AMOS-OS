@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Agentops Observability Rscf"
 type: skill
 source: 07_SKILLS/amos-agentops-observability-rscf
 name: amos-agentops-observability-rscf

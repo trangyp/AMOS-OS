@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Framework Registry Compiler"
 type: reference
 source: 07_SKILLS/amos-framework-registry-compiler/references
 tags: [reference, amos-framework-registry-compiler, canon/skill]

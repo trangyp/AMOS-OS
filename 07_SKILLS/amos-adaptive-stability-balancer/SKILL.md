@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Adaptive Stability Balancer"
 type: skill
 source: 07_SKILLS/amos-adaptive-stability-balancer
 name: amos-adaptive-stability-balancer

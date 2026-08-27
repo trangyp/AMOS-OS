@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Constructive Metamorphic Testing Rscf"
 type: skill
 source: 07_SKILLS/amos-constructive-metamorphic-testing-rscf
 name: amos-constructive-metamorphic-testing-rscf

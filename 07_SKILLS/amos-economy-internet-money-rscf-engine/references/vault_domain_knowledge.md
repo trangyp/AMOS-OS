@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Economy Internet Money Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-economy-internet-money-rscf-engine/references
 tags: [reference, amos-economy-internet-money-rscf-engine, canon/skill]

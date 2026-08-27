@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Canon Consistency Governor"
 type: skill
 source: 07_SKILLS/amos-canon-consistency-governor
 name: amos-canon-consistency-governor

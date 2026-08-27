@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Fx Bayesian Neural Sde Calibration Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-fx-bayesian-neural-sde-calibration-rscf-engine
 name: amos-fx-bayesian-neural-sde-calibration-rscf-engine

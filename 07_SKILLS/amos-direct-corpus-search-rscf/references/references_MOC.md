@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Direct Corpus Search Rscf"
 type: moc
 source: 07_SKILLS/amos-direct-corpus-search-rscf/references
 tags: [moc, references, canon/skill]

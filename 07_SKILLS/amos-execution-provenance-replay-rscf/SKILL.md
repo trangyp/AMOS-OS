@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Execution Provenance Replay Rscf"
 type: skill
 source: 07_SKILLS/amos-execution-provenance-replay-rscf
 name: amos-execution-provenance-replay-rscf

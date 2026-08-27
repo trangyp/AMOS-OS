@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Llm Judge Bias Geometry Rscf"
 type: skill
 source: 07_SKILLS/amos-llm-judge-bias-geometry-rscf
 name: amos-llm-judge-bias-geometry-rscf

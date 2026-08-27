@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Semantic Grounding Auditor"
 type: reference
 source: 07_SKILLS/amos-semantic-grounding-auditor/references
 tags: [reference, amos-semantic-grounding-auditor, canon/skill]

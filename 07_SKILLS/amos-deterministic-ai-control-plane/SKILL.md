@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Deterministic Ai Control Plane"
 type: skill
 source: 07_SKILLS/amos-deterministic-ai-control-plane
 name: amos-deterministic-ai-control-plane

@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Translation Rscf Architecture"
 type: reference
 source: 07_SKILLS/amos-translation-rscf-architecture/references
 tags: [reference, amos-translation-rscf-architecture, canon/skill]

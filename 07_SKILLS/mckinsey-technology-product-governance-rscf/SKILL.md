@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Technology Product Governance Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-technology-product-governance-rscf
 name: mckinsey-technology-product-governance-rscf

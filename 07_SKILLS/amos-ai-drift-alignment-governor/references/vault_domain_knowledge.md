@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Ai Drift Alignment Governor"
 type: reference
 source: 07_SKILLS/amos-ai-drift-alignment-governor/references
 tags: [reference, amos-ai-drift-alignment-governor, canon/skill]
@@ -305,3 +305,7 @@ scaffolding. This assumption contradicts substan
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-ai-drift-alignment-governor_MOC]]

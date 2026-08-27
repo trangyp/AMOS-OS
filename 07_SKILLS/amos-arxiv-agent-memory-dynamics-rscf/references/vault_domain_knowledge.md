@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Arxiv Agent Memory Dynamics Rscf"
 type: reference
 source: 07_SKILLS/amos-arxiv-agent-memory-dynamics-rscf/references
 tags: [reference, amos-arxiv-agent-memory-dynamics-rscf, canon/skill]

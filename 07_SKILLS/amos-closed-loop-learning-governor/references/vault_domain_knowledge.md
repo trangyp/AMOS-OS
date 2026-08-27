@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Closed Loop Learning Governor"
 type: reference
 source: 07_SKILLS/amos-closed-loop-learning-governor/references
 tags: [reference, amos-closed-loop-learning-governor, canon/skill]
@@ -306,3 +306,7 @@ Results:
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-closed-loop-learning-governor_MOC]]

@@ -218,3 +218,7 @@ class Investment_Agent(Agent):
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-c07-econ-finance-master_MOC]]

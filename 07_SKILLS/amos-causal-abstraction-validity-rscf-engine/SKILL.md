@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Causal Abstraction Validity Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-causal-abstraction-validity-rscf-engine
 name: amos-causal-abstraction-validity-rscf-engine

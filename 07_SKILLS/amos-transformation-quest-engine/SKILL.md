@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Transformation Quest Engine"
 type: skill
 source: 07_SKILLS/amos-transformation-quest-engine
 name: amos-transformation-quest-engine

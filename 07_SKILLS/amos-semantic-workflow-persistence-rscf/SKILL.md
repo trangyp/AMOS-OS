@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Semantic Workflow Persistence Rscf"
 type: skill
 source: 07_SKILLS/amos-semantic-workflow-persistence-rscf
 name: amos-semantic-workflow-persistence-rscf

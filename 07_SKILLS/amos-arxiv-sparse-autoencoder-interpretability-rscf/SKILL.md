@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Arxiv Sparse Autoencoder Interpretability Rscf"
 type: skill
 source: 07_SKILLS/amos-arxiv-sparse-autoencoder-interpretability-rscf
 name: amos-arxiv-sparse-autoencoder-interpretability-rscf

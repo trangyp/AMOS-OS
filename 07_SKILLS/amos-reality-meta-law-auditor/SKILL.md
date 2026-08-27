@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Reality Meta Law Auditor"
 type: skill
 source: 07_SKILLS/amos-reality-meta-law-auditor
 name: amos-reality-meta-law-auditor

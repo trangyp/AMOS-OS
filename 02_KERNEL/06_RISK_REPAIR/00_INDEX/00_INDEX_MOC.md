@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Kernel / Risk Repair / Index"
 type: moc
 source: 02_KERNEL/06_RISK_REPAIR/00_INDEX
 tags: [moc, 00-index, canon/kernel]

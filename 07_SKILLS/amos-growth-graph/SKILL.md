@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Growth Graph"
 type: skill
 source: 07_SKILLS/amos-growth-graph
 name: amos-growth-graph

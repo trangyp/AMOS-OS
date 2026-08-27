@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Law Stack Enforcement"
 type: note
 source: 07_SKILLS/amos-law-stack-enforcement
 tags: [note, amos-law-stack-enforcement, canon/skill]

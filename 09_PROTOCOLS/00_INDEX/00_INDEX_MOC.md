@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Protocols / Index"
 type: moc
 source: 09_PROTOCOLS/00_INDEX
 tags: [moc, 00-index, canon/protocol]

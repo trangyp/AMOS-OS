@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Program Slicing Taint Rscf"
 type: skill
 source: 07_SKILLS/amos-program-slicing-taint-rscf
 name: amos-program-slicing-taint-rscf

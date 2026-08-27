@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Adversarial Entropy Accountant"
 type: reference
 source: 07_SKILLS/amos-adversarial-entropy-accountant/references
 tags: [reference, amos-adversarial-entropy-accountant, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Awareness Inference Governor"
 type: skill
 source: 07_SKILLS/amos-awareness-inference-governor
 name: amos-awareness-inference-governor

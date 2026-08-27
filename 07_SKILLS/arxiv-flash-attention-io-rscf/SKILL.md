@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Flash Attention Io Rscf"
 type: skill
 source: 07_SKILLS/arxiv-flash-attention-io-rscf
 name: arxiv-flash-attention-io-rscf

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Combined Program Analysis Rscf"
 type: skill
 source: 07_SKILLS/amos-combined-program-analysis-rscf
 name: amos-combined-program-analysis-rscf

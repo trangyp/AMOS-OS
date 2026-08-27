@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Cross Scale Rscf Tensor Engine"
 type: reference
 source: 07_SKILLS/amos-cross-scale-rscf-tensor-engine/references
 tags: [reference, amos-cross-scale-rscf-tensor-engine, canon/skill]

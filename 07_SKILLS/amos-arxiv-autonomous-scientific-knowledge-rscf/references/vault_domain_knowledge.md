@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Arxiv Autonomous Scientific Knowledge Rscf"
 type: reference
 source: 07_SKILLS/amos-arxiv-autonomous-scientific-knowledge-rscf/references
 tags: [reference, amos-arxiv-autonomous-scientific-knowledge-rscf, canon/skill]
@@ -230,3 +230,7 @@ GOOD: Approximately 80% of the ~100,000 vag
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-arxiv-autonomous-scientific-knowledge-rscf_MOC]]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos C10 Tech Engineering Master"
 type: skill
 source: 07_SKILLS/amos-c10-tech-engineering-master
 name: amos-c10-tech-engineering-master

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Distributed Causal Evolution Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-distributed-causal-evolution-rscf-engine
 name: amos-distributed-causal-evolution-rscf-engine

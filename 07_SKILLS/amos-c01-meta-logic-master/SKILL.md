@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos C01 Meta Logic Master"
 type: skill
 source: 07_SKILLS/amos-c01-meta-logic-master
 name: amos-c01-meta-logic-master

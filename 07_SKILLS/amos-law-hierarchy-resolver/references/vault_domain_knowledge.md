@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Law Hierarchy Resolver"
 type: reference
 source: 07_SKILLS/amos-law-hierarchy-resolver/references
 tags: [reference, amos-law-hierarchy-resolver, canon/skill]
@@ -237,3 +237,7 @@ layer_1_meta_logic_kernel → layer_2_structural_reasoning_engine → layer_3_co
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-law-hierarchy-resolver_MOC]]

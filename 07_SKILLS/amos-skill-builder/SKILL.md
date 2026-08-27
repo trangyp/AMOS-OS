@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Skill Builder"
 type: skill
 source: 07_SKILLS/amos-skill-builder
 name: amos-skill-builder

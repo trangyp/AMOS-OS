@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Gmef Governance"
 type: moc
 source: 07_SKILLS/gmef-governance/references
 tags: [moc, references, canon/skill]

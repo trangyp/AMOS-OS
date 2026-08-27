@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Learning Memory Knowledge Feedback Governor"
 type: skill
 source: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor
 name: amos-learning-memory-knowledge-feedback-governor

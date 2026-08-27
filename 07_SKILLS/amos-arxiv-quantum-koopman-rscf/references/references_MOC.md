@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Arxiv Quantum Koopman Rscf"
 type: moc
 source: 07_SKILLS/amos-arxiv-quantum-koopman-rscf/references
 tags: [moc, references, canon/skill]

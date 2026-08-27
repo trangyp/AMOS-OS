@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Morphogenesis Mapper"
 type: skill
 source: 07_SKILLS/amos-morphogenesis-mapper
 name: amos-morphogenesis-mapper

@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Transformation Quest Engine"
 type: reference
 source: 07_SKILLS/amos-transformation-quest-engine/references
 tags: [reference, amos-transformation-quest-engine, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Frontend Engineering Qa"
 type: skill
 source: 07_SKILLS/frontend-engineering-qa
 name: frontend-engineering-qa

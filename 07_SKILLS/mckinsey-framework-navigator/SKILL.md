@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Framework Navigator"
 type: skill
 source: 07_SKILLS/mckinsey-framework-navigator
 name: mckinsey-framework-navigator

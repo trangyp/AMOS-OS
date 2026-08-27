@@ -1,5 +1,5 @@
 ---
-title: "UBI Homeostasis"
+title: "UBI Homeostasis — 05 Frameworks"
 type: biology
 source: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact: "UBI_HOMEOSTASIS.md"

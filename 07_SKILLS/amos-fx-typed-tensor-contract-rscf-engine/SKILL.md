@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Fx Typed Tensor Contract Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-fx-typed-tensor-contract-rscf-engine
 name: amos-fx-typed-tensor-contract-rscf-engine

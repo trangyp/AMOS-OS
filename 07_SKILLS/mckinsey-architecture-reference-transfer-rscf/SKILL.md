@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Architecture Reference Transfer Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf
 name: mckinsey-architecture-reference-transfer-rscf

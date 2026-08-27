@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Cell Intelligence Mapper"
 type: skill
 source: 07_SKILLS/amos-cell-intelligence-mapper
 name: amos-cell-intelligence-mapper

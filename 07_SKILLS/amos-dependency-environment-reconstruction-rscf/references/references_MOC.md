@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Dependency Environment Reconstruction Rscf"
 type: moc
 source: 07_SKILLS/amos-dependency-environment-reconstruction-rscf/references
 tags: [moc, references, canon/skill]

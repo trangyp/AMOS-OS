@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Context Compaction Recoverability Rscf"
 type: reference
 source: 07_SKILLS/amos-context-compaction-recoverability-rscf/references
 tags: [reference, amos-context-compaction-recoverability-rscf, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Cost Aware Test Supervision Rscf"
 type: skill
 source: 07_SKILLS/amos-cost-aware-test-supervision-rscf
 name: amos-cost-aware-test-supervision-rscf

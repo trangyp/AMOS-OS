@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Cognitive Matrix / Coverage / Index"
 type: moc
 source: 25_COGNITIVE_MATRIX/07_COVERAGE/00_INDEX
 tags: [moc, 00-index, canon/cognitive-matrix]

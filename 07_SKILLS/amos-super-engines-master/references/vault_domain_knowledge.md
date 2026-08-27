@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Super Engines Master"
 type: reference
 source: 07_SKILLS/amos-super-engines-master/references
 tags: [reference, amos-super-engines-master, canon/skill]
@@ -1364,3 +1364,7 @@ diversity/coherence governance
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-super-engines-master_MOC]]

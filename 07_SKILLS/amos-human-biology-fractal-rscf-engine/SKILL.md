@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Human Biology Fractal Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-human-biology-fractal-rscf-engine
 name: amos-human-biology-fractal-rscf-engine

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Budget Aware Optimizer Selection Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-budget-aware-optimizer-selection-rscf-engine
 name: amos-budget-aware-optimizer-selection-rscf-engine

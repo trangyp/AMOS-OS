@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos C11 Design Language Master"
 type: reference
 source: 07_SKILLS/amos-c11-design-language-master/references
 tags: [reference, amos-c11-design-language-master, canon/skill]
@@ -630,3 +630,7 @@ Reviewer objections address
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-c11-design-language-master_MOC]]

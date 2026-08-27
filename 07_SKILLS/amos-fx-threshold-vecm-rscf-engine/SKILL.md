@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Fx Threshold Vecm Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-fx-threshold-vecm-rscf-engine
 name: amos-fx-threshold-vecm-rscf-engine

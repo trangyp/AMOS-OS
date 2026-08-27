@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos C08 Strategy Game Master"
 type: skill
 source: 07_SKILLS/amos-c08-strategy-game-master
 name: amos-c08-strategy-game-master

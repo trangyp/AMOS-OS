@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Fractal Systems Master"
 type: skill
 source: 07_SKILLS/amos-fractal-systems-master
 name: amos-fractal-systems-master

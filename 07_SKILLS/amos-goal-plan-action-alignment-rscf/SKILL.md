@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Goal Plan Action Alignment Rscf"
 type: skill
 source: 07_SKILLS/amos-goal-plan-action-alignment-rscf
 name: amos-goal-plan-action-alignment-rscf

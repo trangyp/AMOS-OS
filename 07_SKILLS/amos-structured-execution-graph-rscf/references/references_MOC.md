@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Structured Execution Graph Rscf"
 type: moc
 source: 07_SKILLS/amos-structured-execution-graph-rscf/references
 tags: [moc, references, canon/skill]

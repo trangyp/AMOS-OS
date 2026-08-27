@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Fx State Space Kalman Engine"
 type: skill
 source: 07_SKILLS/amos-fx-state-space-kalman-engine
 name: amos-fx-state-space-kalman-engine

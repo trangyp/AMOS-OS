@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Session Control Plane"
 type: reference
 source: 07_SKILLS/amos-session-control-plane/references
 tags: [reference, amos-session-control-plane, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Constrained Structured Decoding Rscf"
 type: skill
 source: 07_SKILLS/arxiv-constrained-structured-decoding-rscf
 name: arxiv-constrained-structured-decoding-rscf

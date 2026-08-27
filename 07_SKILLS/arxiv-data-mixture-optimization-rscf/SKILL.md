@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Data Mixture Optimization Rscf"
 type: skill
 source: 07_SKILLS/arxiv-data-mixture-optimization-rscf
 name: arxiv-data-mixture-optimization-rscf

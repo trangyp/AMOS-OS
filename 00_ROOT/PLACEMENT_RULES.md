@@ -3,8 +3,7 @@ type: rule
 source: 00_ROOT
 artifact_id: AMOS-OS-ROOT
 name: AMOS_OS
-title: "AMOS OS — Governed Cognitive Operating Architecture"
-
+title: "AMOS OS — Governed Cognitive Operating Architecture — 00 Root — 00 Root"
 document_version: "2.0.0"
 architecture_contract_version: "1.0.0"
 amos_core_target: "v4.4"

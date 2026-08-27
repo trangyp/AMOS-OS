@@ -1,5 +1,5 @@
 ---
-title: AMOS BRAIN ENHANCEMENT
+title: "AMOS BRAIN ENHANCEMENT — Brain"
 tags: [brain, cognitive, neural, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/brain

@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Ai Entropy Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-ai-entropy-rscf-engine/references
 tags: [reference, amos-ai-entropy-rscf-engine, canon/skill]
@@ -329,3 +329,7 @@ Before a cognition object becomes load
 ---
 **MOC:** [[references_MOC]]
 ```
+
+---
+
+**Related:** [[amos-ai-entropy-rscf-engine_MOC]]

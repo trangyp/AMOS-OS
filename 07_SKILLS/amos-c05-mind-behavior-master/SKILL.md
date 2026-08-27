@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos C05 Mind Behavior Master"
 type: skill
 source: 07_SKILLS/amos-c05-mind-behavior-master
 name: amos-c05-mind-behavior-master

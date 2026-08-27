@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Mckinsey Wealth Management Rscf"
 type: moc
 source: 07_SKILLS/mckinsey-wealth-management-rscf/references
 tags: [moc, references, canon/skill]

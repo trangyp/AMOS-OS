@@ -1,5 +1,5 @@
 ---
-title: README
+title: "README — 11 Knowledge"
 tags: [moc, index, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/root

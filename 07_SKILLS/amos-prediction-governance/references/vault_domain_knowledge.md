@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Prediction Governance"
 type: reference
 source: 07_SKILLS/amos-prediction-governance/references
 tags: [reference, amos-prediction-governance, canon/skill]
@@ -348,3 +348,7 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-prediction-governance_MOC]]

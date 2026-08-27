@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Digital Bank Value Proposition Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-digital-bank-value-proposition-rscf
 name: mckinsey-digital-bank-value-proposition-rscf

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Arxiv Influence Guided Symbolic Regression Rscf"
 type: skill
 source: 07_SKILLS/amos-arxiv-influence-guided-symbolic-regression-rscf
 name: amos-arxiv-influence-guided-symbolic-regression-rscf

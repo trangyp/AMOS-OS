@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Tool Grounded Configuration Repair Rscf"
 type: moc
 source: 07_SKILLS/amos-tool-grounded-configuration-repair-rscf/references
 tags: [moc, references, canon/skill]

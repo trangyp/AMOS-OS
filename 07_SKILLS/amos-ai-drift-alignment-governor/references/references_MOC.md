@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Ai Drift Alignment Governor"
 type: moc
 source: 07_SKILLS/amos-ai-drift-alignment-governor/references
 tags: [moc, references, canon/skill]

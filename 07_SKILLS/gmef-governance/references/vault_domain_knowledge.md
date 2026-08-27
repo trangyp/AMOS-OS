@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Gmef Governance"
 type: reference
 source: 07_SKILLS/gmef-governance/references
 tags: [reference, gmef-governance, canon/skill]

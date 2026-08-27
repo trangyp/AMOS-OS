@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Llm Judge Bias Geometry Rscf"
 type: reference
 source: 07_SKILLS/amos-llm-judge-bias-geometry-rscf/references
 tags: [reference, amos-llm-judge-bias-geometry-rscf, canon/skill]

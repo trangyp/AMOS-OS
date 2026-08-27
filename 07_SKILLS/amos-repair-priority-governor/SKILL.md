@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Repair Priority Governor"
 type: skill
 source: 07_SKILLS/amos-repair-priority-governor
 name: amos-repair-priority-governor

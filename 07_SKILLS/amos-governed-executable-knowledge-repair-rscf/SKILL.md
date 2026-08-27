@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Governed Executable Knowledge Repair Rscf"
 type: skill
 source: 07_SKILLS/amos-governed-executable-knowledge-repair-rscf
 name: amos-governed-executable-knowledge-repair-rscf

@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Hierarchical Stack Orchestration Rscf"
 type: reference
 source: 07_SKILLS/amos-hierarchical-stack-orchestration-rscf/references
 tags: [reference, amos-hierarchical-stack-orchestration-rscf, canon/skill]
@@ -317,3 +317,7 @@ NOT Verified -> NOT Complete
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-hierarchical-stack-orchestration-rscf_MOC]]

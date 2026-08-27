@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Software Engineering Qa"
 type: moc
 source: 07_SKILLS/software-engineering-qa/references
 tags: [moc, references, canon/skill]

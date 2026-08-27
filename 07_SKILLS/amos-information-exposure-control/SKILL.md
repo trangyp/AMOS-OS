@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Information Exposure Control"
 type: skill
 source: 07_SKILLS/amos-information-exposure-control
 name: amos-information-exposure-control

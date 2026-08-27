@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Information Geometry Mapper"
 type: skill
 source: 07_SKILLS/amos-information-geometry-mapper
 name: amos-information-geometry-mapper

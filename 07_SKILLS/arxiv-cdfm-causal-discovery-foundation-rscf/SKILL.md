@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Cdfm Causal Discovery Foundation Rscf"
 type: skill
 source: 07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf
 name: arxiv-cdfm-causal-discovery-foundation-rscf

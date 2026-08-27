@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Adversarial Entropy Accountant"
 type: skill
 source: 07_SKILLS/amos-adversarial-entropy-accountant
 name: amos-adversarial-entropy-accountant

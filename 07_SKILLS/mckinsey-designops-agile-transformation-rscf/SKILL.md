@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Designops Agile Transformation Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-designops-agile-transformation-rscf
 name: mckinsey-designops-agile-transformation-rscf

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Procedural Repository Retrieval Rscf"
 type: skill
 source: 07_SKILLS/amos-procedural-repository-retrieval-rscf
 name: amos-procedural-repository-retrieval-rscf

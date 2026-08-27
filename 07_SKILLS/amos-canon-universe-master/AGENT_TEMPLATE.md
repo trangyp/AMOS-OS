@@ -1,5 +1,5 @@
 ---
-title: AGENT TEMPLATE
+title: "AGENT TEMPLATE — Amos Canon Universe Master"
 type: note
 source: 07_SKILLS/amos-canon-universe-master
 tags: [note, amos-canon-universe-master, canon/skill]

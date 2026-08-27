@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Cognitive Matrix / Structural Gaps / Index"
 type: moc
 source: 25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/00_INDEX
 tags: [moc, 00-index, canon/cognitive-matrix]

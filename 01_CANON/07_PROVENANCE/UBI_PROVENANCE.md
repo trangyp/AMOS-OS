@@ -1,5 +1,5 @@
 ---
-title: "UBI Provenance"
+title: "UBI Provenance — 07 Provenance"
 type: provenance
 source: 01_CANON/07_PROVENANCE
 artifact: "UBI_PROVENANCE.md"

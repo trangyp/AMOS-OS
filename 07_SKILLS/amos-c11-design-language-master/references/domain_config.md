@@ -1,5 +1,5 @@
 ---
-title: domain config
+title: "domain config — References — Amos C11 Design Language Master"
 type: reference
 source: 07_SKILLS/amos-c11-design-language-master/references
 tags: [reference, amos-c11-design-language-master, canon/skill]
@@ -94,3 +94,7 @@ created: 2026-08-22
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-c11-design-language-master_MOC]]

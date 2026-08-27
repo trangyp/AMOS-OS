@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos C01 Meta Logic Master"
 type: reference
 source: 07_SKILLS/amos-c01-meta-logic-master/references
 tags: [reference, amos-c01-meta-logic-master, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Qls Qic Substrate Mapper"
 type: reference
 source: 07_SKILLS/amos-qls-qic-substrate-mapper/references
 tags: [reference, amos-qls-qic-substrate-mapper, canon/skill]

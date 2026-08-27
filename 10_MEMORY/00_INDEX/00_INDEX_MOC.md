@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Memory / Index"
 type: moc
 source: 10_MEMORY/00_INDEX
 tags: [moc, 00-index, canon/memory]

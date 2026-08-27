@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Kernel / Cognition / Index"
 type: moc
 source: 02_KERNEL/02_COGNITION/00_INDEX
 tags: [moc, 00-index, canon/kernel]

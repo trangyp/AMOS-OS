@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Blackbox Program Discovery Rscf"
 type: skill
 source: 07_SKILLS/amos-blackbox-program-discovery-rscf
 name: amos-blackbox-program-discovery-rscf

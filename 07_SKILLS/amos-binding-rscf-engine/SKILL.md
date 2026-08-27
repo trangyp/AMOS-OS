@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Binding Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-binding-rscf-engine
 name: amos-binding-rscf-engine

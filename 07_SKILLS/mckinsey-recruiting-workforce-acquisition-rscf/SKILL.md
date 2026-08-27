@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Recruiting Workforce Acquisition Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-recruiting-workforce-acquisition-rscf
 name: mckinsey-recruiting-workforce-acquisition-rscf

@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Operating Model / Governance Forums / Index"
 type: moc
 source: 23_OPERATING_MODEL/03_GOVERNANCE_FORUMS/00_INDEX
 tags: [moc, 00-index, canon/operating-model]

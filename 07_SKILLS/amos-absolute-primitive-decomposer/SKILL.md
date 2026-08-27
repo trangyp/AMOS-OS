@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Absolute Primitive Decomposer"
 type: skill
 source: 07_SKILLS/amos-absolute-primitive-decomposer
 name: amos-absolute-primitive-decomposer

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Ai Architecture Factory Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-ai-architecture-factory-rscf-engine
 name: amos-ai-architecture-factory-rscf-engine

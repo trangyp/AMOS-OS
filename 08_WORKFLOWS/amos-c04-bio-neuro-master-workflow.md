@@ -189,3 +189,6 @@ This workflow follows a single-agent orchestration with explicit validation gate
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked
 
+---
+
+**Related:** [[08_WORKFLOWS_MOC]]

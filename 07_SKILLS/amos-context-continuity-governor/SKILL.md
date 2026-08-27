@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Context Continuity Governor"
 type: skill
 source: 07_SKILLS/amos-context-continuity-governor
 name: amos-context-continuity-governor

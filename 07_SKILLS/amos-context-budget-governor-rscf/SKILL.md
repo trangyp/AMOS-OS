@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Context Budget Governor Rscf"
 type: skill
 source: 07_SKILLS/amos-context-budget-governor-rscf
 name: amos-context-budget-governor-rscf

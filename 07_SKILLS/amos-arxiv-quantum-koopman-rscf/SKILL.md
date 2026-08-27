@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Arxiv Quantum Koopman Rscf"
 type: skill
 source: 07_SKILLS/amos-arxiv-quantum-koopman-rscf
 name: amos-arxiv-quantum-koopman-rscf

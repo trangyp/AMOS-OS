@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Arxiv Structured Gp Omics Uq Rscf"
 type: reference
 source: 07_SKILLS/arxiv-structured-gp-omics-uq-rscf/references
 tags: [reference, arxiv-structured-gp-omics-uq-rscf, canon/skill]

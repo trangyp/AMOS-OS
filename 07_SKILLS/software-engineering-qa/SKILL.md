@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Software Engineering Qa"
 type: skill
 source: 07_SKILLS/software-engineering-qa
 name: software-engineering-qa

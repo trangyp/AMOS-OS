@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Knowledge Harvest Runtime"
 type: skill
 source: 07_SKILLS/amos-knowledge-harvest-runtime
 name: amos-knowledge-harvest-runtime

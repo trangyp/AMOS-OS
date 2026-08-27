@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Mckinsey Digital Bank Value Proposition Rscf"
 type: moc
 source: 07_SKILLS/mckinsey-digital-bank-value-proposition-rscf/references
 tags: [moc, references, canon/skill]

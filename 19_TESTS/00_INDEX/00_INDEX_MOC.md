@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Tests / Index"
 type: moc
 source: 19_TESTS/00_INDEX
 tags: [moc, 00-index, canon/test]

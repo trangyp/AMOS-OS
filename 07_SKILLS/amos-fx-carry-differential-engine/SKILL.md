@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Fx Carry Differential Engine"
 type: skill
 source: 07_SKILLS/amos-fx-carry-differential-engine
 name: amos-fx-carry-differential-engine

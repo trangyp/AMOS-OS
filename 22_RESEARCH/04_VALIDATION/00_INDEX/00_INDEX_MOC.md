@@ -1,5 +1,5 @@
 ---
-title: "00 Index MOC"
+title: "Index MOC — Research / Validation / Index"
 type: moc
 source: 22_RESEARCH/04_VALIDATION/00_INDEX
 tags: [moc, 00-index, canon/research]

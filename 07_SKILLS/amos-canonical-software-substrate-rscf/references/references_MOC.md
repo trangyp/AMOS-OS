@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Canonical Software Substrate Rscf"
 type: moc
 source: 07_SKILLS/amos-canonical-software-substrate-rscf/references
 tags: [moc, references, canon/skill]

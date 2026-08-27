@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Attention Allocation Governor"
 type: moc
 source: 07_SKILLS/amos-attention-allocation-governor/references
 tags: [moc, references, canon/skill]

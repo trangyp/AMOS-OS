@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Mark Operator Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-mark-operator-rscf-engine
 name: amos-mark-operator-rscf-engine

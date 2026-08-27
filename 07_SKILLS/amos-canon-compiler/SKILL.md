@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Canon Compiler"
 type: skill
 source: 07_SKILLS/amos-canon-compiler
 name: amos-canon-compiler

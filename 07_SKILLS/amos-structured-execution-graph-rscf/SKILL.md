@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Structured Execution Graph Rscf"
 type: skill
 source: 07_SKILLS/amos-structured-execution-graph-rscf
 name: amos-structured-execution-graph-rscf

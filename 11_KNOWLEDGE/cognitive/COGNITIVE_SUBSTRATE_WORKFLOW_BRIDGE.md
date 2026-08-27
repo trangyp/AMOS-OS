@@ -1,6 +1,6 @@
 ---
 
-title: "AMOS Cognitive Stack Engines — Full Inventory"
+title: "AMOS Cognitive Stack Engines — Full Inventory — Cognitive — 11 Knowledge / Cognitive"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Cognitive/*.json"
 origin_architect: "Trang Phan"

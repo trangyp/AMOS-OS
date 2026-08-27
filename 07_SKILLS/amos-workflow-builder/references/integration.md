@@ -1,5 +1,5 @@
 ---
-title: integration
+title: "integration — References — Amos Workflow Builder"
 type: reference
 source: 07_SKILLS/amos-workflow-builder/references
 tags: [reference, amos-workflow-builder, canon/skill]

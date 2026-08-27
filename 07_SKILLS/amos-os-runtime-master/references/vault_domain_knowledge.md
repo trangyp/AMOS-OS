@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Os Runtime Master"
 type: reference
 source: 07_SKILLS/amos-os-runtime-master/references
 tags: [reference, amos-os-runtime-master, canon/skill]

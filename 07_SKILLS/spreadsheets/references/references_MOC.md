@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Spreadsheets"
 type: moc
 source: 07_SKILLS/spreadsheets/references
 tags: [moc, references, canon/skill]

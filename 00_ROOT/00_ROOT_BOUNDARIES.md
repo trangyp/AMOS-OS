@@ -3373,3 +3373,7 @@ claim_class: AMOS_MODEL
 ---
 **MOC:** [[00_COSMO_BRAIN_MOC]]
 ```
+
+---
+
+**Related:** [[00_ROOT_MOC]]

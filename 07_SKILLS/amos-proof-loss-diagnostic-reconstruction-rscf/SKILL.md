@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Proof Loss Diagnostic Reconstruction Rscf"
 type: skill
 source: 07_SKILLS/amos-proof-loss-diagnostic-reconstruction-rscf
 name: amos-proof-loss-diagnostic-reconstruction-rscf

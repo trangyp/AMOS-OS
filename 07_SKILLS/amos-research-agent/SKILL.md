@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Research Agent"
 type: skill
 source: 07_SKILLS/amos-research-agent
 name: amos-research-agent

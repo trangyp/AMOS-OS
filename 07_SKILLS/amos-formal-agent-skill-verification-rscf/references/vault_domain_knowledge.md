@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Formal Agent Skill Verification Rscf"
 type: reference
 source: 07_SKILLS/amos-formal-agent-skill-verification-rscf/references
 tags: [reference, amos-formal-agent-skill-verification-rscf, canon/skill]

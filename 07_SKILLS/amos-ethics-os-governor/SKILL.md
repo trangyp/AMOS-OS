@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Ethics Os Governor"
 type: skill
 source: 07_SKILLS/amos-ethics-os-governor
 name: amos-ethics-os-governor

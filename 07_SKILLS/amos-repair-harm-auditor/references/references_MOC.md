@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Repair Harm Auditor"
 type: moc
 source: 07_SKILLS/amos-repair-harm-auditor/references
 tags: [moc, references, canon/skill]

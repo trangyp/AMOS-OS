@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Knowledge Harvest Runtime"
 type: moc
 source: 07_SKILLS/amos-knowledge-harvest-runtime/references
 tags: [moc, references, canon/skill]

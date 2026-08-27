@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Session Control Plane"
 type: skill
 source: 07_SKILLS/amos-session-control-plane
 name: amos-session-control-plane

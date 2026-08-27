@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Technology Company Strategy Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-technology-company-strategy-rscf
 name: mckinsey-technology-company-strategy-rscf

@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Cross Scale Rscf Tensor Engine"
 type: moc
 source: 07_SKILLS/amos-cross-scale-rscf-tensor-engine/references
 tags: [moc, references, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Future Debt Option Value Governor"
 type: reference
 source: 07_SKILLS/amos-future-debt-option-value-governor/references
 tags: [reference, amos-future-debt-option-value-governor, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Arxiv Grapheval Reasoning Coherence Rscf"
 type: skill
 source: 07_SKILLS/arxiv-grapheval-reasoning-coherence-rscf
 name: arxiv-grapheval-reasoning-coherence-rscf

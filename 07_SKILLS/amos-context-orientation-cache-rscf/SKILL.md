@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Context Orientation Cache Rscf"
 type: skill
 source: 07_SKILLS/amos-context-orientation-cache-rscf
 name: amos-context-orientation-cache-rscf

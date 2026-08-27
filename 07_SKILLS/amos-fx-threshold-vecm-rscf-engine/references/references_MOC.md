@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Fx Threshold Vecm Rscf Engine"
 type: moc
 source: 07_SKILLS/amos-fx-threshold-vecm-rscf-engine/references
 tags: [moc, references, canon/skill]

@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Bluebook Strategy System"
 type: reference
 source: 07_SKILLS/bluebook-strategy-system/references
 tags: [reference, bluebook-strategy-system, canon/skill]

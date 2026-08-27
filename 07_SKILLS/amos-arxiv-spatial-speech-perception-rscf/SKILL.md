@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Arxiv Spatial Speech Perception Rscf"
 type: skill
 source: 07_SKILLS/amos-arxiv-spatial-speech-perception-rscf
 name: amos-arxiv-spatial-speech-perception-rscf

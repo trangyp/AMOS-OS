@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Formal Model Checking Orchestrator Rscf"
 type: skill
 source: 07_SKILLS/amos-formal-model-checking-orchestrator-rscf
 name: amos-formal-model-checking-orchestrator-rscf

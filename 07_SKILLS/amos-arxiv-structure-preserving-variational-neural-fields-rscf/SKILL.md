@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Arxiv Structure Preserving Variational Neural Fields Rscf"
 type: skill
 source: 07_SKILLS/amos-arxiv-structure-preserving-variational-neural-fields-rscf
 name: amos-arxiv-structure-preserving-variational-neural-fields-rscf

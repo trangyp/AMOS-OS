@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Constraint Propagation Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-constraint-propagation-rscf-engine
 name: amos-constraint-propagation-rscf-engine

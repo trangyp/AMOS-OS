@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Information Collapse Topology"
 type: reference
 source: "07_SKILLS/amos-information-collapse-topology/references"
 rscf:

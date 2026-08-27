@@ -1,0 +1,50 @@
+---
+name: amos-ubi-bio-reasoning
+description: >-
+  Executes Unified Biological Intelligence (UBI) reasoning across the 4 non-compensatory domains
+  (NBI, NEI, SI, BEI). Use when evaluating physiological telemetry, cognitive load, autonomic vagal
+  coherence, 40Hz multi-agent clock pacing, quadratic emergence (e = i^2), and substrate distress veto (tau < 0.2).
+---
+
+# AMOS Unified Biological Intelligence (UBI) Reasoning Skill
+
+This skill governs the execution of biological intelligence constraints, living-substrate primacy, and bio-adaptive runtime pacing across the AMOS OS cognitive architecture.
+
+---
+
+## 1. Core Mathematical Primitives
+
+1. **Non-Compensatory Alignment Formulation:**
+   $$i_{\text{UBI}} = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI})^{1/4}$$
+   * If any single domain drops to zero ($x_k \to 0$), total alignment collapses ($i_{\text{UBI}} \to 0$).
+
+2. **Quadratic Emergence Scaling:**
+   $$e = i_{\text{UBI}}^2$$
+   * Direct governor for System 2 tree search depth in [`04_RUNTIME/06_EXECUTION/ADAPTIVE_COMPLEXITY_RUNTIME`](file:///Users/mac/Documents/AMOS_OS/04_RUNTIME/06_EXECUTION/ADAPTIVE_COMPLEXITY_RUNTIME.md).
+
+3. **Thermodynamic Entropy Export:**
+   $$\frac{dS}{dt} = \frac{d_i S}{dt} + \frac{d_e S}{dt}, \quad \text{where } \frac{d_e S}{dt} < 0$$
+   * Actively purges cognitive drift and computational entropy to maintain non-positive system entropy ($\frac{dS}{dt} \le 0$).
+
+4. **Absolute Substrate Distress Veto:**
+   $$\tau_{\text{bio}} < \tau_{\text{crit}} = 0.2 \implies \text{HALT / PRE-EMPTIVE INTERRUPT}$$
+   * Forces immediate system fallback to restorative ground state rest ($S_0$).
+
+---
+
+## 2. The 4 Biological Intelligence Domains
+
+- **NBI (Neurobiological Intelligence):** Cortical load management, theta/gamma oscillatory phase locking, and working memory saturation prevention.
+- **NEI (Neuroemotional Intelligence):** Autonomic vagal tone tracking (HRV RMSSD), sympathetic de-escalation, and Phép Trang semantic reframing.
+- **SI (Somatic Intelligence):** Biotensegrity proprioception, fascial shear dynamics, and somatic ground anchoring.
+- **BEI (Bioelectromagnetic Intelligence):** Cardiac-neural field coherence and 40Hz unified oscillatory system clock pacing.
+
+---
+
+## 3. Protocol & Execution Steps
+
+1. **Telemetry Ingestion:** Sample real-time NBI, NEI, SI, and BEI vector inputs.
+2. **Substrate Veto Check:** If $\tau_{\text{bio}} < 0.2$ or any domain $< 0.1$, halt execution, emit distress warning, and lock in rest mode ($S_0$).
+3. **Emergence Throttling:** Calculate $i_{\text{UBI}}$ and scale permissible token budget and search tree depth according to $e = i^2$.
+4. **Bio-Synchrony Cadence:** Adjust UI contrast and LLM generation latency via NeurosyncAI bi-directional pacing loops.
+5. **RSCF Proof Emission:** Assemble signed proof capsule linking bio-telemetry to the causal state commit.

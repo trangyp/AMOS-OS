@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Banking Crm Assessment Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-banking-crm-assessment-rscf
 name: mckinsey-banking-crm-assessment-rscf

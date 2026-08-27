@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Information Boundary Governor"
 type: skill
 source: 07_SKILLS/amos-information-boundary-governor
 name: amos-information-boundary-governor

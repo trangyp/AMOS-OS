@@ -224,3 +224,7 @@ new
 
 - [[07_SKILLS_MOC]]
 ```
+
+---
+
+**Related:** [[amos-os-runtime-master_MOC]]

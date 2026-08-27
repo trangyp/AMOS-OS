@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Mckinsey Human Centered Design Rscf"
 type: skill
 source: 07_SKILLS/mckinsey-human-centered-design-rscf
 name: mckinsey-human-centered-design-rscf

@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Rscf Modeler"
 type: skill
 source: 07_SKILLS/rscf-modeler
 name: rscf-modeler

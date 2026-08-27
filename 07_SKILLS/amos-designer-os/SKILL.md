@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Designer Os"
 type: skill
 source: 07_SKILLS/amos-designer-os
 name: amos-designer-os

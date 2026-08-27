@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Forex Os"
 type: skill
 source: 07_SKILLS/amos-forex-os
 name: amos-forex-os

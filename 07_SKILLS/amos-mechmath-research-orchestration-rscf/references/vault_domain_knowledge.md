@@ -1,5 +1,5 @@
 ---
-title: vault domain knowledge
+title: "Vault Domain Knowledge — Amos Mechmath Research Orchestration Rscf"
 type: reference
 source: 07_SKILLS/amos-mechmath-research-orchestration-rscf/references
 tags: [reference, amos-mechmath-research-orchestration-rscf, canon/skill]

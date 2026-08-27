@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Gmef Governance"
 type: skill
 source: 07_SKILLS/gmef-governance
 name: gmef-governance

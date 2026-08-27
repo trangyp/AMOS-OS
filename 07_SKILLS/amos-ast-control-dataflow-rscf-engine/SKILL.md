@@ -1,5 +1,5 @@
 ---
-title: SKILL
+title: "SKILL — Amos Ast Control Dataflow Rscf Engine"
 type: skill
 source: 07_SKILLS/amos-ast-control-dataflow-rscf-engine
 name: amos-ast-control-dataflow-rscf-engine

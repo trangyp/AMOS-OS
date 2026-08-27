@@ -1,5 +1,5 @@
 ---
-title: "References MOC"
+title: "References MOC — References — Amos Counterfactual Selfhood Mapper"
 type: moc
 source: 07_SKILLS/amos-counterfactual-selfhood-mapper/references
 tags: [moc, references, canon/skill]

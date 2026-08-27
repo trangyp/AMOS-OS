@@ -1,5 +1,5 @@
 ---
-title: domain config
+title: "domain config — References — Amos C04 Bio Neuro Master"
 type: reference
 source: 07_SKILLS/amos-c04-bio-neuro-master/references
 tags: [reference, amos-c04-bio-neuro-master, canon/skill]
