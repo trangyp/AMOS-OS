@@ -13,5 +13,5 @@ tags: [moc, 11-observability]
 
 ---
 **Parent:** [[16_SCHEMAS_MOC]]
-- [[provenance_health.schema]]
-- [[canon_health.schema]]
+- provenance_health.schema
+- canon_health.schema

@@ -1,6 +1,8 @@
 ---
+title: AUDIT REASONING MODES COMMIT CONTROL PLANE PROVENANCE
 tags: ['control_plane', '06_reasoning_modes/04_audit']
 ---
+
 
 # AUDIT REASONING MODES COMMIT CONTROL PLANE PROVENANCE
 
@@ -20,7 +22,7 @@ Executable binding PARTIAL — see [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] and [[ROU
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX O12 PLAN CONTRACT
 tags: ['cognitive_matrix', 'lifecycle_operations', 'o12_plan', 'contract']
 ---
+
 
 # O12_PLAN — O12 Plan
 
@@ -26,7 +28,7 @@ Executable binding PARTIAL — see 11_VALIDATION receipts.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

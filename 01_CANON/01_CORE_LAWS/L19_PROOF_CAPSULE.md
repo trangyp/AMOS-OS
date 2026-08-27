@@ -1,6 +1,8 @@
 ---
+title: L19 PROOF CAPSULE
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L19 Proof Capsule Laws
 
@@ -23,7 +25,7 @@ F1: authoritative proof-capsule canon defines different required fields.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

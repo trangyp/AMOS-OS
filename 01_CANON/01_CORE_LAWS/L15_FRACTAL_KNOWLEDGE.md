@@ -1,6 +1,8 @@
 ---
+title: L15 FRACTAL KNOWLEDGE
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L15 Fractal Knowledge Laws
 
@@ -23,7 +25,7 @@ F1: recovered fractal canon defines different family taxonomy.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

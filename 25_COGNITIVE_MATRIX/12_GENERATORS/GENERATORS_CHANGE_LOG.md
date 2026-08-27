@@ -2103,7 +2103,7 @@ RSCF-RELATIONS:
       "[[COGNITIVE_MATRIX_MOC]]"
 
   - RELATED_TO:
-      "[[GENERATOR_CONTRACT|Generator Contract]]"
+      "GENERATOR_CONTRACT|Generator Contract"
 
   - RELATED_TO:
       "Generator Provenance"
@@ -2115,7 +2115,7 @@ RSCF-RELATIONS:
       "Generator Tests"
 
   - RELATED_TO:
-      "[[ROADMAP|Generator Roadmap]]"
+      "ROADMAP|Generator Roadmap"
 
   - RELATED_TO:
       "Generator Integration"
@@ -2908,7 +2908,7 @@ NON_AUTHORITATIVE
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 

@@ -1,6 +1,8 @@
 ---
+title: L25 SHARD LOCAL
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L25 Shard-Local Law
 
@@ -23,7 +25,7 @@ F1: authoritative distribution canon defines different sharding semantics.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

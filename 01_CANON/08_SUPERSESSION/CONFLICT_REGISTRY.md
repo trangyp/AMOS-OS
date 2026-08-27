@@ -1,4 +1,5 @@
 ---
+title: CONFLICT REGISTRY
 artifact_id: AMOS-OS-CONFLICT-REGISTRY
 canonical_name: CONFLICT_REGISTRY
 artifact_type: canonical_conflict_registry
@@ -43,6 +44,7 @@ aliases:
   - AMOS OS Conflict Registry
   - Canon Conflict Registry
 ---
+
 
 # AMOS OS Conflict Registry
 
@@ -2587,7 +2589,7 @@ lifecycle_stage: CanonGovernance
 claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT_MOC|AMOS MOC]]
+  - INDEXED_BY: 00_ROOT_MOC|AMOS MOC
   - INDEXED_BY: CANON_MAP
   - GOVERNED_BY: AMOS_CORE_LAWS
   - CONSTRAINED_BY: INVARIANT_REGISTRY
@@ -2737,7 +2739,7 @@ UNKNOWN/GAP.
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
 [[NEURAL_NETWORK]] ·
@@ -2765,7 +2767,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

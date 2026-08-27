@@ -1,6 +1,8 @@
 ---
+title: L16 HML
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L16 H/M/L Lens Laws
 
@@ -23,7 +25,7 @@ F1: authoritative HML canon defines different level semantics.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

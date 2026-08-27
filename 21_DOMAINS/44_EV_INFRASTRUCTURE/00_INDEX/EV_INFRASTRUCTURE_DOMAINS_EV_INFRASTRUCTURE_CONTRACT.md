@@ -1,6 +1,8 @@
 ---
+title: EV INFRASTRUCTURE DOMAINS EV INFRASTRUCTURE CONTRACT
 tags: ['amos_os', '21_domains']
 ---
+
 
 # EV INFRASTRUCTURE DOMAINS EV INFRASTRUCTURE CONTRACT
 
@@ -20,7 +22,7 @@ Executable binding PARTIAL unless an executed validation receipt exists for this
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -1,6 +1,8 @@
 ---
+title: L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX VARIABLES
 tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
 ---
+
 
 # L00_REALITY_ENVIRONMENT — Variables
 
@@ -1788,7 +1790,7 @@ MODEL / CONDITIONAL
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

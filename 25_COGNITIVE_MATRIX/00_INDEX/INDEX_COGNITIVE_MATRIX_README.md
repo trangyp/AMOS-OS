@@ -1,6 +1,8 @@
 ---
+title: INDEX COGNITIVE MATRIX README
 tags: ['cognitive_matrix', 'index', 'readme']
 ---
+
 
 # AMOS Cognitive Matrix
 
@@ -34,7 +36,7 @@ Each binding is `UNVALIDATED_BINDING` until validated by tests and provenance.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

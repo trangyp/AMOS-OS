@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX C07 PERCEPTION CONTRACT
 tags: ['cognitive_matrix', 'control_planes', 'c07_perception', 'contract']
 ---
+
 
 # C07_PERCEPTION — Perception control: reality gate, evidence admission typing, observer-effect logging.
 
@@ -23,7 +25,7 @@ Executable binding PARTIAL.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

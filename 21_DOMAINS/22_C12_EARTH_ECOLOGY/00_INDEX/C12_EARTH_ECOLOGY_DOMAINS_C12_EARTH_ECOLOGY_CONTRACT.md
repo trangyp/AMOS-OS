@@ -1,6 +1,8 @@
 ---
+title: C12 EARTH ECOLOGY DOMAINS C12 EARTH ECOLOGY CONTRACT
 tags: ['amos_os', '21_domains']
 ---
+
 
 # C12 EARTH ECOLOGY DOMAINS C12 EARTH ECOLOGY CONTRACT
 
@@ -20,7 +22,7 @@ Executable binding PARTIAL unless an executed validation receipt exists for this
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

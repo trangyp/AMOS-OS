@@ -1,4 +1,5 @@
 ---
+title: K BINDING
 artifact_id: AMOS-OS-K-BINDING
 canonical_name: K_BINDING
 artifact_type: kernel_binding_contract
@@ -13,6 +14,7 @@ updated: 2026-08-26
 tags: ['kernel', 'integration', 'note']
 
 ---
+
 # K BINDING
 
 > **AMOS Core target:** `v4.4`  
@@ -3160,7 +3162,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -3193,7 +3193,7 @@ RSCF-RELATIONS:
       "[[COGNITIVE_MATRIX_MOC]]"
 
   - GOVERNS_VERSION_OF:
-      "[[GENERATOR_CONTRACT|Generator Contract]]"
+      "GENERATOR_CONTRACT|Generator Contract"
 
   - RELATED_TO:
       "Generator Provenance"
@@ -3205,16 +3205,16 @@ RSCF-RELATIONS:
       "Generator Tests"
 
   - RELATED_TO:
-      "[[GENERATORS_BENCHMARKS|Generator Benchmarks]]"
+      "GENERATORS_BENCHMARKS|Generator Benchmarks"
 
   - RELATED_TO:
-      "[[GENERATORS_AUDIT|Generator Audit]]"
+      "GENERATORS_AUDIT|Generator Audit"
 
   - RELATED_TO:
       "Generator History"
 
   - RELATED_TO:
-      "[[GENERATORS_CHANGE_LOG|Generator Change Log]]"
+      "GENERATORS_CHANGE_LOG|Generator Change Log"
 ```
 
 ---
@@ -3978,7 +3978,7 @@ NON_AUTHORITATIVE
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 

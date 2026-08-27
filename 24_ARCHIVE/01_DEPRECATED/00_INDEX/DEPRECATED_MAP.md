@@ -1,6 +1,8 @@
 ---
+title: DEPRECATED MAP
 tags: ['amos_os', '24_archive']
 ---
+
 
 # DEPRECATED MAP
 
@@ -20,7 +22,7 @@ Executable binding PARTIAL unless an executed validation receipt exists for this
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -35,7 +35,7 @@ Same-name axes do not prove same meaning.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]] · [[AMOS_RSCF_NODES]]
+00_ROOT_MOC|AMOS MOC · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

@@ -1,6 +1,8 @@
 ---
+title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX FAILURE MODES
 tags: ['cognitive_matrix', 'primitives', 'l01_sensing_observation', 'note']
 ---
+
 
 Below is the full paste-ready `L01_SENSING_OBSERVATION/FAILURE_MODES.md`. I’m keeping the failure taxonomy as an **AMOS structural contract**, not claiming that these failure modes are already implemented, runtime-validated, or exhaustive empirical laws.
 
@@ -4094,7 +4096,7 @@ AMOS_MODEL / CONDITIONAL
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]] · [[AMOS_RSCF_NODES]]

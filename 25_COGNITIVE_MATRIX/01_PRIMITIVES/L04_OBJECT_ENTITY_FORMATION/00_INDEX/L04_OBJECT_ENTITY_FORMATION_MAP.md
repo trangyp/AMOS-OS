@@ -1,6 +1,8 @@
 ---
+title: L04 OBJECT ENTITY FORMATION MAP
 tags: ['cognitive_matrix', 'l04_object_entity_formation']
 ---
+
 
 # L04 OBJECT ENTITY FORMATION MAP
 
@@ -34,14 +36,14 @@ Given an operation touching `L04 OBJECT ENTITY FORMATION MAP` within the Cogniti
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 RSCF-NODE

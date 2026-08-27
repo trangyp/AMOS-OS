@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX O00 DISTINCTION CONTRACT
 tags: ['cognitive_matrix', 'lifecycle_operations', 'o00_distinction', 'contract']
 ---
+
 
 # O00_DISTINCTION — Drawing boundaries: what is distinct from what, under scope compatibility checks.
 
@@ -26,7 +28,7 @@ Executable binding PARTIAL — see 11_VALIDATION receipts.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

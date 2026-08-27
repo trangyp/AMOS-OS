@@ -1,6 +1,8 @@
 ---
+title: PRIMITIVES COGNITIVE MATRIX L12 COUNTERFACTUAL SIMULATION CONTRACT
 tags: ['cognitive_matrix', 'l12_counterfactual_simulation']
 ---
+
 
 # PRIMITIVES COGNITIVE MATRIX L12 COUNTERFACTUAL SIMULATION CONTRACT
 
@@ -20,7 +22,7 @@ Executable binding PARTIAL — see [[VALIDATION_EVIDENCE]] receipts.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

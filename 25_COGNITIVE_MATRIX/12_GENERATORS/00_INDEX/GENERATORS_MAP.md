@@ -2532,7 +2532,7 @@ None of these functions should silently substitute for another.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 

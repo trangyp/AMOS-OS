@@ -1,4 +1,5 @@
 ---
+title: K CONSTRAINT PROPAGATION
 artifact_id: AMOS-OS-K-CONSTRAINT-PROPAGATION
 canonical_name: K_CONSTRAINT_PROPAGATION
 artifact_type: kernel_constraint_propagation_contract
@@ -13,6 +14,7 @@ updated: 2026-08-26
 tags: ['kernel', 'integration', 'note']
 
 ---
+
 # K CONSTRAINT PROPAGATION
 
 > **AMOS Core target:** `v4.4`  
@@ -2881,7 +2883,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -17,7 +17,7 @@ Axes are typed and non-interchangeable. Preserve UNKNOWN and provenance.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]] · [[AMOS_RSCF_NODES]]
+00_ROOT_MOC|AMOS MOC · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

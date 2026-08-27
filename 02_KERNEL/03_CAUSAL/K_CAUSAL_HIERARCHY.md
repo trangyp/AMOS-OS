@@ -1,4 +1,5 @@
 ---
+title: K CAUSAL HIERARCHY
 artifact_id: AMOS-OS-K-CAUSAL-HIERARCHY
 canonical_name: K_CAUSAL_HIERARCHY
 artifact_type: kernel_causal_hierarchy_contract
@@ -48,6 +49,7 @@ aliases:
   - K Causal Hierarchy
   - K_CAUSAL_HIERARCHY
 ---
+
 
 # K CAUSAL HIERARCHY
 
@@ -2382,7 +2384,7 @@ WITH FLUENT EXPLANATION.
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[DEPENDENCY_MAP]] ·
 [[AUTHORITATIVE_STATE]] ·
@@ -2419,7 +2421,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

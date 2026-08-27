@@ -1,6 +1,8 @@
 ---
+title: RESILIENCE REPAIR MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 tags: ['control_plane', '55_resilience_repair_modes']
 ---
+
 
 # RESILIENCE REPAIR MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 
@@ -20,7 +22,7 @@ Executable binding PARTIAL — see [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] and [[ROU
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

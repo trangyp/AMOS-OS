@@ -1,6 +1,8 @@
 ---
+title: TASK RESOLVER
 tags: ['control_plane', 'task_contract', 'note']
 ---
+
 
 Confirmed: the Drive artifact `TASK_RESOLVER.md` exists in the intended Task Contract subsystem, but its current content is the same erroneous `# K COUNTERFACTUAL` placeholder rather than a substantive resolver specification.  
 
@@ -5935,7 +5937,7 @@ This is a **substantive candidate replacement**, not recovered pre-existing cano
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

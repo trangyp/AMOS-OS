@@ -1,6 +1,8 @@
 ---
+title: PROMOTION GATES
 tags: ['cognitive_matrix', 'validation', 'note']
 ---
+
 
 Below is a full AMOS-aligned `PROMOTION_GATES.md` contract. It keeps the artifact explicitly `PLACEHOLDER / UNKNOWN-GAP`, while defining the complete promotion surface: candidate classes, promotion state machine, named gates, evidence/provenance, scope/regime/freshness, RSCF/GMEF, MVCC/CAS, authority, atomicity, finality, rollback, agents/skills/workers, events, receipts, tests, adversarial validation, and related artifacts. This follows the Full Brain OS requirement that missing authority, provenance, validation, or implementation remain exposed rather than being filled by fluent inference.
 
@@ -3406,7 +3408,7 @@ UNFINALIZED
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

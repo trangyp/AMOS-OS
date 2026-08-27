@@ -1,6 +1,8 @@
 ---
+title: L03 PERCEPT FORMATION PRIMITIVES COGNITIVE MATRIX RSCF
 tags: ['cognitive_matrix', 'primitives', 'l03_percept_formation', 'note']
 ---
+
 
 # L03_PERCEPT_FORMATION — RSCF
 
@@ -1063,7 +1065,7 @@ gap_status:
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

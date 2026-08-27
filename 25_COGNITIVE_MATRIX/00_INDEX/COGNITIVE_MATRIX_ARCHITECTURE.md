@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX ARCHITECTURE
 tags: ['cognitive_matrix', 'index', 'note']
 ---
+
 
 # AMOS Cognitive Matrix Architecture
 
@@ -33,7 +35,7 @@ authority, or scale.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

@@ -175,7 +175,7 @@ Given an operation touching `05_COGNITIVE_ORGANISM · ARTIFACT` within the Cogni
 
 ## 8. Cross-plane bindings (target)
 
-- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -183,7 +183,7 @@ Given an operation touching `05_COGNITIVE_ORGANISM · ARTIFACT` within the Cogni
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 

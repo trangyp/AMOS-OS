@@ -1,4 +1,5 @@
 ---
+title: K COLLAPSE RECOVERY
 artifact_id: AMOS-OS-K-COLLAPSE-RECOVERY
 canonical_name: K_COLLAPSE_RECOVERY
 artifact_type: kernel_recovery_contract
@@ -37,6 +38,7 @@ tags:
   - topic/cas
   - topic/causal-finality
 ---
+
 
 # K COLLAPSE RECOVERY
 
@@ -2080,7 +2082,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

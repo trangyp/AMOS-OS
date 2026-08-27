@@ -1,4 +1,5 @@
 ---
+title: AGENT FIX REASONING BRAIN
 claim_class: AMOS_MODEL
 origin_architect: Trang Phan
 status: COMPLETE
@@ -7,6 +8,7 @@ tags:
 - reasoning-brain
 - worklog
 ---
+
 # Agent Fix Reasoning Brain
 
 > Living reasoning log for the agent specialization task. Updated as work progresses.

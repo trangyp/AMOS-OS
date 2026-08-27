@@ -1,4 +1,5 @@
 ---
+title: K MEMORY ADMISSION
 artifact_id: AMOS-OS-K-MEMORY-ADMISSION
 canonical_name: K_MEMORY_ADMISSION
 artifact_type: kernel_memory_admission_contract
@@ -31,6 +32,7 @@ tags:
   - topic/knowledge-harvest
   - topic/invalidation
 ---
+
 
 # K MEMORY ADMISSION
 
@@ -2574,7 +2576,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

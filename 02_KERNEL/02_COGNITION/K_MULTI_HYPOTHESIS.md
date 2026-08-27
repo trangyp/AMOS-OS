@@ -1,4 +1,5 @@
 ---
+title: K MULTI HYPOTHESIS
 artifact_id: AMOS-OS-K-MULTI-HYPOTHESIS
 canonical_name: K_MULTI_HYPOTHESIS
 artifact_type: kernel_multi_hypothesis_contract
@@ -52,6 +53,7 @@ aliases:
   - K_MULTI_HYPOTHESIS
   - Competing Hypothesis Kernel
 ---
+
 
 # K_MULTI_HYPOTHESIS
 
@@ -2765,7 +2767,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

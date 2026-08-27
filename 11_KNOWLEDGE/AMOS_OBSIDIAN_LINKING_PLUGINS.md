@@ -129,7 +129,7 @@ related:
 - [[00_ROOT_MOC]]
 - [[00_HOME]]
 - [[AMOS_LAYER_MAPS]] — top-level AMOS layer map index
-- [[KNOWLEDGE_MOC|11_KNOWLEDGE MOC]] — the knowledge layer index
+- KNOWLEDGE_MOC|11_KNOWLEDGE MOC — the knowledge layer index
 - [[AMOS_TEMPLATES]] — AMOS template index
 
 ---

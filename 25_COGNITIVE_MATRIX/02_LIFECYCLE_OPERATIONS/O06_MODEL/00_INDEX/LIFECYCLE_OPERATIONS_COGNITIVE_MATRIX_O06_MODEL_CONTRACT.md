@@ -1,6 +1,8 @@
 ---
+title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O06 MODEL CONTRACT
 tags: ['cognitive_matrix', 'o06_model']
 ---
+
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O06 MODEL CONTRACT
 
@@ -50,14 +52,14 @@ Given an operation touching `LIFECYCLE OPERATIONS · COGNITIVE MATRIX O06 MODEL 
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

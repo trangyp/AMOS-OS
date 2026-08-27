@@ -1,6 +1,8 @@
 ---
+title: INDEX CONTROL PLANE README
 tags: ['control_plane', 'index', 'readme']
 ---
+
 
 Yes — the placeholder in `03_CONTROL_PLANE/00_INDEX/README.md` should **not** contain `K_COUNTERFACTUAL` at all. The repository tree shows that this README belongs to the Control Plane index alongside `CONTROL_PLANE_MAP.md`, and that the Control Plane currently spans task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, and rollback. 
 
@@ -3532,7 +3534,7 @@ This version is aligned to the actual `03_CONTROL_PLANE` tree in `FULL_TREE.md`,
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

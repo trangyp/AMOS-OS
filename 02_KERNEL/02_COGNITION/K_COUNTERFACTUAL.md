@@ -1,4 +1,5 @@
 ---
+title: K COUNTERFACTUAL
 artifact_id: AMOS-OS-K-COUNTERFACTUAL
 canonical_name: K_COUNTERFACTUAL
 artifact_type: kernel_counterfactual_contract
@@ -46,6 +47,7 @@ aliases:
   - K Counterfactual
   - K_COUNTERFACTUAL
 ---
+
 
 # K_COUNTERFACTUAL
 
@@ -2165,7 +2167,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

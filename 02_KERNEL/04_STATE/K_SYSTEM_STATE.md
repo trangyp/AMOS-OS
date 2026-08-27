@@ -1,4 +1,5 @@
 ---
+title: K SYSTEM STATE
 artifact_id: AMOS-OS-K-SYSTEM-STATE
 canonical_name: K_SYSTEM_STATE
 artifact_type: kernel_system_state_contract
@@ -40,6 +41,7 @@ aliases:
   - K System State
   - K_SYSTEM_STATE
 ---
+
 
 # K SYSTEM STATE
 
@@ -2405,7 +2407,7 @@ STATE.
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[AUTHORITATIVE_STATE]] ·
 [[DEPENDENCY_MAP]] ·
@@ -2445,7 +2447,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

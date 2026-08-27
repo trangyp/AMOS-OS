@@ -1,6 +1,8 @@
 ---
+title: L27 GAP
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L27 Gap Law
 
@@ -23,7 +25,7 @@ F1: authoritative canon treats gaps as failures to hide.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

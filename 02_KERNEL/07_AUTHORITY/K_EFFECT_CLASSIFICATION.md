@@ -1,4 +1,5 @@
 ---
+title: K EFFECT CLASSIFICATION
 artifact_id: AMOS-OS-K-EFFECT-CLASSIFICATION
 canonical_name: K_EFFECT_CLASSIFICATION
 artifact_type: kernel_effect_classification_contract
@@ -13,6 +14,7 @@ updated: 2026-08-26
 tags: ['kernel', 'authority', 'note']
 
 ---
+
 # K EFFECT CLASSIFICATION
 
 > **AMOS Core target:** `v4.4`  
@@ -2402,7 +2404,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -3272,7 +3272,7 @@ Such transitions require their own evidence and governance.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 

@@ -1,6 +1,8 @@
 ---
+title: UBI NEI NEUROEMOTIONAL DOMAINS UBI NEI NEUROEMOTIONAL CONTRACT
 tags: ['amos_os', '21_domains']
 ---
+
 
 # UBI NEI NEUROEMOTIONAL DOMAINS UBI NEI NEUROEMOTIONAL CONTRACT
 
@@ -20,7 +22,7 @@ Executable binding PARTIAL unless an executed validation receipt exists for this
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

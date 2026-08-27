@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX C09 KERNEL CONTROL CONTRACT
 tags: ['cognitive_matrix', 'control_planes', 'c09_kernel_control', 'contract']
 ---
+
 
 # C09_KERNEL_CONTROL — Kernel integrity control: boot order, immutability under operation, fail-closed boot.
 
@@ -23,7 +25,7 @@ Executable binding PARTIAL.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

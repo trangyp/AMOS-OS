@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX O03 BINDING CONTRACT
 tags: ['cognitive_matrix', 'lifecycle_operations', 'o03_binding', 'contract']
 ---
+
 
 # O03_BINDING — Binding features/entities across contexts; conflicts fail visible.
 
@@ -26,7 +28,7 @@ Executable binding PARTIAL — see 11_VALIDATION receipts.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

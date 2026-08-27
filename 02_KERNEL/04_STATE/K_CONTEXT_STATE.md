@@ -1,4 +1,5 @@
 ---
+title: K CONTEXT STATE
 artifact_id: AMOS-OS-K-CONTEXT-STATE
 canonical_name: K_CONTEXT_STATE
 artifact_type: kernel_context_state_contract
@@ -44,6 +45,7 @@ aliases:
   - K Context State
   - K_CONTEXT_STATE
 ---
+
 
 # K CONTEXT STATE
 
@@ -2454,7 +2456,7 @@ CONTEXT COMPLETENESS.
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[DEPENDENCY_MAP]] ·
 [[AUTHORITATIVE_STATE]] ·
@@ -2492,7 +2494,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

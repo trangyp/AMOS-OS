@@ -1,6 +1,8 @@
 ---
+title: CAPABILITY RESOLVER
 tags: ['control_plane', 'capability', 'note']
 ---
+
 
 The current Drive artifact `CAPABILITY_RESOLVER.md` is **not substantive canon**. It contains the same misplaced `# K COUNTERFACTUAL` placeholder and explicitly says it is only reserving the canonical location.  The architecture tree places it with `CAPABILITY_CONTRACT.md` and `CAPABILITY_MANIFEST.md` in the Capability subsystem. 
 
@@ -4891,7 +4893,7 @@ CONTINUE.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

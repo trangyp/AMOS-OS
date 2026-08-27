@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX L08 REPRESENTATION CONTRACT
 tags: ['cognitive_matrix', 'primitives', 'l08_representation', 'contract']
 ---
+
 
 # L08_REPRESENTATION — Representation Contract
 
@@ -31,7 +33,7 @@ Runtime binding to executable engines is PARTIAL; see subsystem validation recei
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]] · [[AMOS_RSCF_NODES]]

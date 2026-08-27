@@ -1,6 +1,8 @@
 ---
+title: PRIVACY CONFIDENTIALITY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 tags: ['control_plane', '56_privacy_confidentiality_modes']
 ---
+
 
 # PRIVACY CONFIDENTIALITY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 
@@ -20,7 +22,7 @@ Executable binding PARTIAL — see [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] and [[ROU
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

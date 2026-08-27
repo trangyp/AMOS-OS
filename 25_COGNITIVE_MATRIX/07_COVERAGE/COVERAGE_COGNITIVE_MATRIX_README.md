@@ -1,6 +1,8 @@
 ---
+title: COVERAGE COGNITIVE MATRIX README
 tags: ['cognitive_matrix', 'coverage', 'readme', 'contract_filled']
 ---
+
 
 # 07_COVERAGE — Coverage Model Contract Overview
 
@@ -62,7 +64,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT_MOC|AMOS MOC]]
+[[COGNITIVE_MATRIX_MOC]] · 00_ROOT_MOC|AMOS MOC
 
 ---
 RSCF-NODE

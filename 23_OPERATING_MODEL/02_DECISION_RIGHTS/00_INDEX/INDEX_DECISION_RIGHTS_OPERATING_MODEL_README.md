@@ -1,6 +1,8 @@
 ---
+title: INDEX DECISION RIGHTS OPERATING MODEL README
 tags: ['amos_os', '23_operating_model']
 ---
+
 
 # INDEX DECISION RIGHTS OPERATING MODEL README
 
@@ -20,7 +22,7 @@ Executable binding PARTIAL unless an executed validation receipt exists for this
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -56,15 +56,15 @@ aliases:
   - Hierarchical Knowledge Resolution Canon
 
 related:
-  - "[[README|AMOS OS]]"
-  - "[[ARCHITECTURE|Architecture]]"
-  - "[[SYSTEM_MAP|System Map]]"
-  - "[[NEURAL_NETWORK|AMOS Neural Network]]"
-  - "[[CANON_MAP|Canon Map]]"
-  - "[[AMOS_CORE_LAWS|AMOS Core Laws]]"
-  - "[[INVARIANT_REGISTRY|Invariant Registry]]"
-  - "[[LAW_HIERARCHY|Law Hierarchy]]"
-  - "[[AMOS_7_PART_UNIVERSE_CANON|AMOS 7-Part Universe Canon]]"
+  - "README|AMOS OS"
+  - "ARCHITECTURE|Architecture"
+  - "SYSTEM_MAP|System Map"
+  - "NEURAL_NETWORK|AMOS Neural Network"
+  - "CANON_MAP|Canon Map"
+  - "AMOS_CORE_LAWS|AMOS Core Laws"
+  - "INVARIANT_REGISTRY|Invariant Registry"
+  - "LAW_HIERARCHY|Law Hierarchy"
+  - "AMOS_7_PART_UNIVERSE_CANON|AMOS 7-Part Universe Canon"
 ---
 
 # AMOS H/M/L Canon
@@ -2561,14 +2561,14 @@ UNKNOWN/GAP != PASS
 
 ---
 
-**Related:** [[README|AMOS OS]] · [[00_ROOT_MOC|MOC]] · [[ARCHITECTURE|Architecture]] · [[SYSTEM_MAP|System Map]] · [[NEURAL_NETWORK|AMOS Neural Network]] · [[AUTHORITATIVE_STATE|Authoritative State]] · [[PLACEMENT_RULES|Placement Rules]] · AMOS Canon · [[CANON_MAP|Canon Map]] · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[INVARIANT_REGISTRY|Invariant Registry]] · [[LAW_HIERARCHY|Law Hierarchy]] · [[AMOS_7_PART_UNIVERSE_CANON|AMOS 7-Part Universe Canon]] · [[KERNEL_MAP|Kernel Map]] · [[CONTROL_PLANE_MAP|Control Plane Map]] · [[COGNITIVE_ORGANISM_MAP|Cognitive Organism]] · [[MEMORY_MEMORY_MAP|Memory Map]] · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · Knowledge Map · [[STATE_STATE_MAP|State Map]] · [[MODEL_MAP|Model Map]] · [[SCHEMA_MAP|Schema Map]] · [[OBSERVABILITY_OBSERVABILITY_MAP|Observability Map]] · [[TEST_MAP|Test Map]] · [[INDEX_RESEARCH_README|Research]] · [[COGNITIVE_MATRIX_ARCHITECTURE|Cognitive Matrix]]
+**Related:** README|AMOS OS · 00_ROOT_MOC|MOC · ARCHITECTURE|Architecture · SYSTEM_MAP|System Map · NEURAL_NETWORK|AMOS Neural Network · AUTHORITATIVE_STATE|Authoritative State · PLACEMENT_RULES|Placement Rules · AMOS Canon · CANON_MAP|Canon Map · AMOS_CORE_LAWS|AMOS Core Laws · INVARIANT_REGISTRY|Invariant Registry · LAW_HIERARCHY|Law Hierarchy · AMOS_7_PART_UNIVERSE_CANON|AMOS 7-Part Universe Canon · KERNEL_MAP|Kernel Map · CONTROL_PLANE_MAP|Control Plane Map · COGNITIVE_ORGANISM_MAP|Cognitive Organism · MEMORY_MEMORY_MAP|Memory Map · AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture · Knowledge Map · STATE_STATE_MAP|State Map · MODEL_MAP|Model Map · SCHEMA_MAP|Schema Map · OBSERVABILITY_OBSERVABILITY_MAP|Observability Map · TEST_MAP|Test Map · INDEX_RESEARCH_README|Research · COGNITIVE_MATRIX_ARCHITECTURE|Cognitive Matrix
 
 ```
 ```
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

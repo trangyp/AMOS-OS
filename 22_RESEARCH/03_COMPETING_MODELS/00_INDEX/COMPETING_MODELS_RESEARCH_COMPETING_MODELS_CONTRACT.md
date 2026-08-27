@@ -1,6 +1,8 @@
 ---
+title: COMPETING MODELS RESEARCH COMPETING MODELS CONTRACT
 tags: ['amos_os', '22_research']
 ---
+
 
 # COMPETING MODELS RESEARCH COMPETING MODELS CONTRACT
 
@@ -20,7 +22,7 @@ Executable binding PARTIAL unless an executed validation receipt exists for this
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

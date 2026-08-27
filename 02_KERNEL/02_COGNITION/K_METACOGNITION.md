@@ -1,4 +1,5 @@
 ---
+title: K METACOGNITION
 artifact_id: AMOS-OS-K-METACOGNITION
 canonical_name: K_METACOGNITION
 artifact_type: kernel_metacognition_contract
@@ -44,6 +45,7 @@ aliases:
   - K Metacognition
   - K_METACOGNITION
 ---
+
 
 # K_METACOGNITION
 
@@ -2290,7 +2292,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

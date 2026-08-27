@@ -27,7 +27,7 @@ Brain-level index of RSCF-typed notes in the AMOS OS vault.
 
 - [[00_HOME]]
 - [[AMOS_RSCF_NODES]]
-- [[00_ROOT_MOC|AMOS MOC]]
+- 00_ROOT_MOC|AMOS MOC
 
 ---
 RSCF-NODE

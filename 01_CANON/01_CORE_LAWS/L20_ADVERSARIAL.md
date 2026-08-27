@@ -1,6 +1,8 @@
 ---
+title: L20 ADVERSARIAL
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L20 Adversarial Validation Laws
 
@@ -23,7 +25,7 @@ F1: authoritative adversarial canon defines different threat model.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

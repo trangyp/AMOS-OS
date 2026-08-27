@@ -1,6 +1,8 @@
 ---
+title: P1 REALITY ENVIRONMENT
 tags: ['canon', 'universe_canon', 'note']
 ---
+
 
 # P1 — Reality & Environment Plane
 
@@ -27,7 +29,7 @@ This plane describes structure, not physics claims. Empirical validity requires 
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[AMOS_7_PART_UNIVERSE_CANON]] · [[HML_CANON]] · [[00_HOME]]

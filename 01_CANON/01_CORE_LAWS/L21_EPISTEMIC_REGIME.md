@@ -1,6 +1,8 @@
 ---
+title: L21 EPISTEMIC REGIME
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L21 Epistemic Regime Laws
 
@@ -23,7 +25,7 @@ F1: authoritative regime canon defines different axis set.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

@@ -1,4 +1,5 @@
 ---
+title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX DEFINITION
 tags:
   - amos
   - cognitive-matrix
@@ -10,6 +11,7 @@ tags:
   - provenance
   - rscf
 ---
+
 
 # L01_SENSING_OBSERVATION — Definition
 
@@ -2943,7 +2945,7 @@ MODEL / CONDITIONAL
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]] · [[AMOS_RSCF_NODES]]

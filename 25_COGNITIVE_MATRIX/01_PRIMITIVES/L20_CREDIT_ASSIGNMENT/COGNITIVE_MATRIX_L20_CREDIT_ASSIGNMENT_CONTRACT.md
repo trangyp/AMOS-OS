@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX L20 CREDIT ASSIGNMENT CONTRACT
 tags: ['cognitive_matrix', 'primitives', 'l20_credit_assignment', 'contract']
 ---
+
 
 # L20_CREDIT_ASSIGNMENT — Credit assignment Contract
 
@@ -31,7 +33,7 @@ Runtime binding to executable engines is PARTIAL; see subsystem validation recei
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]] · [[AMOS_RSCF_NODES]]

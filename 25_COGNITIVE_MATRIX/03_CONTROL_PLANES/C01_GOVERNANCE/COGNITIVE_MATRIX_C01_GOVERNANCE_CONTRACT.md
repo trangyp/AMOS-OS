@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX C01 GOVERNANCE CONTRACT
 tags: ['cognitive_matrix', 'control_planes', 'c01_governance', 'contract']
 ---
+
 
 # C01_GOVERNANCE — Top governance control: law stack, authority envelopes, gate composition over the whole matrix.
 
@@ -23,7 +25,7 @@ Executable binding PARTIAL.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

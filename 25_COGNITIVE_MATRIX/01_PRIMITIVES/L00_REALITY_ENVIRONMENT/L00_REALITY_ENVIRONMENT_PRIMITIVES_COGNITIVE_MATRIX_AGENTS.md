@@ -1,6 +1,8 @@
 ---
+title: L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX AGENTS
 tags: ['cognitive_matrix', 'primitives', 'l00_reality_environment', 'note']
 ---
+
 
 # L00_REALITY_ENVIRONMENT — Agents
 
@@ -2817,7 +2819,7 @@ This gives `L00_REALITY_ENVIRONMENT/AGENTS.md` its AMOS-specific function: **mai
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

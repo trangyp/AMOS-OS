@@ -1,4 +1,5 @@
 ---
+title: INDEX SUPERSESSION CANON README
 
 ## tags: ['amos_os', '01_canon', 'supersession', 'index', 'contract_navigation', 'provenance', 'rscf']
 
@@ -15,8 +16,10 @@
 **Authority class:** `INDEX_ONLY`
 **Mutation authority:** `NONE`
 **Updated:** `2026-08-26`
-
+tags: [00_INDEX]
 ---
+
+
 
 ## 1. Purpose
 
@@ -1750,7 +1753,7 @@ Before this artifact or its executable bindings are promoted beyond conditional 
 
 Governed by:
 
-[[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
 
 The supersession index cannot supersede higher-order law merely by recording an edge.
 
@@ -2111,7 +2114,7 @@ The artifact is therefore suitable as a **full AMOS supersession index specifica
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 

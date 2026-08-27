@@ -1,6 +1,8 @@
 ---
+title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX SKILLS
 tags: ['cognitive_matrix', 'primitives', 'l01_sensing_observation', 'note']
 ---
+
 
 # L01_SENSING_OBSERVATION — Skills
 
@@ -1201,7 +1203,7 @@ TEST_DEFINED != TEST_EXECUTED
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

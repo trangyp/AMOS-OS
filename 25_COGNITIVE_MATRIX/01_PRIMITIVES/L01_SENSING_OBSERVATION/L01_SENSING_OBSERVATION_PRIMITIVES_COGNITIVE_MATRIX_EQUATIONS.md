@@ -1,4 +1,5 @@
 ---
+title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX EQUATIONS
 tags:
   - amos
   - cognitive-matrix
@@ -13,6 +14,7 @@ tags:
   - rscf
   - rscf/type-model
 ---
+
 
 # L01_SENSING_OBSERVATION — Equations
 
@@ -4483,7 +4485,7 @@ AMOS_MODEL / CONDITIONAL
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]] · [[AMOS_RSCF_NODES]]

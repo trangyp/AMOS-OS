@@ -1,4 +1,5 @@
 ---
+title: K PROVENANCE TOPOLOGY
 artifact_id: AMOS-OS-K-PROVENANCE-TOPOLOGY
 canonical_name: K_PROVENANCE_TOPOLOGY
 artifact_type: kernel_provenance_topology_contract
@@ -13,6 +14,7 @@ updated: 2026-08-26
 tags: ['kernel', 'provenance', 'note']
 
 ---
+
 # K PROVENANCE TOPOLOGY
 
 > **AMOS Core target:** `v4.4`  
@@ -3516,7 +3518,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

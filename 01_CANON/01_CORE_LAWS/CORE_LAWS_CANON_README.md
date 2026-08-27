@@ -1848,7 +1848,7 @@ This artifact therefore replaces the empty structural placeholder but does **not
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 

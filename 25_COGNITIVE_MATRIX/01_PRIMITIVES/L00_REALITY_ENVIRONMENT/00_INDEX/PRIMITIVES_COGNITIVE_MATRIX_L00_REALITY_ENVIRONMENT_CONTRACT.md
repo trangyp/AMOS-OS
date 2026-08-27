@@ -1,6 +1,8 @@
 ---
+title: PRIMITIVES COGNITIVE MATRIX L00 REALITY ENVIRONMENT CONTRACT
 tags: ['cognitive_matrix', 'l00_reality_environment']
 ---
+
 
 # PRIMITIVES COGNITIVE MATRIX L00 REALITY ENVIRONMENT CONTRACT
 
@@ -20,7 +22,7 @@ Executable binding PARTIAL — see [[VALIDATION_EVIDENCE]] receipts.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

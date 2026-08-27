@@ -1,6 +1,8 @@
 ---
+title: PRIMITIVES COGNITIVE MATRIX L10 WORLD MODELING CONTRACT
 tags: ['cognitive_matrix', 'l10_world_modeling']
 ---
+
 
 # PRIMITIVES COGNITIVE MATRIX L10 WORLD MODELING CONTRACT
 
@@ -20,7 +22,7 @@ Executable binding PARTIAL — see [[VALIDATION_EVIDENCE]] receipts.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

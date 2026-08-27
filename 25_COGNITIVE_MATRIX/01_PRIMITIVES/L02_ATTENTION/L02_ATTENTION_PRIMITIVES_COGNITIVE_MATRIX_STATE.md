@@ -1,6 +1,8 @@
 ---
+title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX STATE
 tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'note']
 ---
+
 
 # L02_ATTENTION — State
 
@@ -1505,7 +1507,7 @@ primary_gap: DIRECT_CANON_AND_RUNTIME_VALIDATION
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

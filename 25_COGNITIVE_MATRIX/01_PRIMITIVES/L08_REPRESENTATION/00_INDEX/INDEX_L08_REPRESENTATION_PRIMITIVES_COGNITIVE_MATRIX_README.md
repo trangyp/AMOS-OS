@@ -1,6 +1,8 @@
 ---
+title: INDEX L08 REPRESENTATION PRIMITIVES COGNITIVE MATRIX README
 tags: ['cognitive_matrix', 'l08_representation']
 ---
+
 
 # INDEX L08 REPRESENTATION PRIMITIVES COGNITIVE MATRIX README
 
@@ -32,14 +34,14 @@ Given an operation touching `L08 REPRESENTATION PRIMITIVES COGNITIVE MATRIX READ
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 RSCF-NODE

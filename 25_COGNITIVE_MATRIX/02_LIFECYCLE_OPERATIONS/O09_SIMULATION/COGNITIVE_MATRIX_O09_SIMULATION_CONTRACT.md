@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX O09 SIMULATION CONTRACT
 tags: ['cognitive_matrix', 'lifecycle_operations', 'o09_simulation', 'contract']
 ---
+
 
 # O09_SIMULATION — O09 Simulation
 
@@ -26,7 +28,7 @@ Executable binding PARTIAL — see 11_VALIDATION receipts.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

@@ -1,6 +1,8 @@
 ---
+title: STRUCTURAL GAPS COGNITIVE MATRIX README
 tags: ['cognitive_matrix', 'structural_gaps', 'readme', 'contract_filled']
 ---
+
 
 # 08_STRUCTURAL_GAPS — Structural Gap Registry Contract Overview
 
@@ -62,7 +64,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT_MOC|AMOS MOC]]
+[[COGNITIVE_MATRIX_MOC]] · 00_ROOT_MOC|AMOS MOC
 
 ---
 RSCF-NODE

@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX L10 WORLD MODELING CONTRACT
 tags: ['cognitive_matrix', 'primitives', 'l10_world_modeling', 'contract']
 ---
+
 
 # L10_WORLD_MODELING — World modeling Contract
 
@@ -31,7 +33,7 @@ Runtime binding to executable engines is PARTIAL; see subsystem validation recei
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]] · [[AMOS_RSCF_NODES]]

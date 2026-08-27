@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX L19 OUTCOME OBSERVATION CONTRACT
 tags: ['cognitive_matrix', 'primitives', 'l19_outcome_observation', 'contract']
 ---
+
 
 # L19_OUTCOME_OBSERVATION — Outcome observation Contract
 
@@ -31,7 +33,7 @@ Runtime binding to executable engines is PARTIAL; see subsystem validation recei
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]] · [[AMOS_RSCF_NODES]]

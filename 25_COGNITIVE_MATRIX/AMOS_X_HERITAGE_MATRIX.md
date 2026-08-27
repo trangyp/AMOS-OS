@@ -4224,7 +4224,7 @@ No AMOS process should replace a genuine gap with fabricated certainty.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 

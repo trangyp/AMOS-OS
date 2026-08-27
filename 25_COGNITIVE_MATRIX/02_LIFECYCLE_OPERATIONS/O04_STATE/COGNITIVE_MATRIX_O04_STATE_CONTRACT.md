@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX O04 STATE CONTRACT
 tags: ['cognitive_matrix', 'lifecycle_operations', 'o04_state', 'contract']
 ---
+
 
 # O04_STATE — State transitions under MVCC/CAS discipline; epoch-bound snapshots.
 
@@ -26,7 +28,7 @@ Executable binding PARTIAL — see 11_VALIDATION receipts.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

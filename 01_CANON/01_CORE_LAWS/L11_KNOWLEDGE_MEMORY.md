@@ -1,6 +1,8 @@
 ---
+title: L11 KNOWLEDGE MEMORY
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L11 Knowledge & Memory Laws
 
@@ -23,7 +25,7 @@ F1: authoritative memory canon defines different persistence contract.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

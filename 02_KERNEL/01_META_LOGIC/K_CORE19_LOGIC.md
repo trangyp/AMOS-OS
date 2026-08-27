@@ -1,4 +1,5 @@
 ---
+title: K CORE19 LOGIC
 artifact_id: AMOS-OS-K-CORE19-LOGIC
 canonical_name: K_CORE19_LOGIC
 artifact_type: kernel_logic_contract
@@ -45,6 +46,7 @@ aliases:
   - AMOS CORE19 Logic Kernel
   - CORE19 Deterministic Logic Kernel
 ---
+
 
 # K_CORE19_LOGIC
 
@@ -1714,7 +1716,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -1,4 +1,5 @@
 ---
+title: K MEMORY IMMUNE
 artifact_id: AMOS-OS-K-MEMORY-IMMUNE
 canonical_name: K_MEMORY_IMMUNE
 artifact_type: kernel_memory_immune_contract
@@ -35,6 +36,7 @@ tags:
   - topic/sybil-hardening
   - topic/revalidation
 ---
+
 
 # K MEMORY IMMUNE
 
@@ -2394,7 +2396,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

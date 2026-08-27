@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX C04 REASONING CONTRACT
 tags: ['cognitive_matrix', 'control_planes', 'c04_reasoning', 'contract']
 ---
+
 
 # C04_REASONING — Reasoning control: operator scheduling, derivation lineage, chain validation.
 
@@ -23,7 +25,7 @@ Executable binding PARTIAL.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

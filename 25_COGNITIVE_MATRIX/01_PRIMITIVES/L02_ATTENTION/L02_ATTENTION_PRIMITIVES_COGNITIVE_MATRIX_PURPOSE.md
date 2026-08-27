@@ -1,4 +1,5 @@
 ---
+title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX PURPOSE
 artifact_id: AMOS-OS-K-META-LOGIC
 canonical_name: K_META_LOGIC
 artifact_type: kernel_meta_logic_contract
@@ -49,6 +50,7 @@ aliases:
   - K Meta Logic
   - K_META_LOGIC
 ---
+
 
 # K_META_LOGIC
 
@@ -2511,7 +2513,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

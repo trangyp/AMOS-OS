@@ -1,6 +1,8 @@
 ---
+title: L28 CRITICAL GAP
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L28 Critical Gap Law
 
@@ -23,7 +25,7 @@ F1: authoritative canon permits consequential execution across critical gaps.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

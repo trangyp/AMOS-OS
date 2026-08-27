@@ -1,8 +1,10 @@
 ---
+title: INDEX REPAIR GAP REPORT 2026-08-26
 canon-group: reference
 rscf-state: derived
 tags: [gap-report, index-repair, audit]
 ---
+
 
 # Index Repair Gap Report — 2026-08-26
 

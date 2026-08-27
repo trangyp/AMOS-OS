@@ -1,6 +1,8 @@
 ---
+title: L24 CAUSAL EPOCH
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L24 Causal Epoch Laws
 
@@ -23,7 +25,7 @@ F1: authoritative causality canon defines different epoch semantics.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

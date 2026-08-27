@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX C02 METACOGNITIVE CONTRACT
 tags: ['cognitive_matrix', 'control_planes', 'c02_metacognitive', 'contract']
 ---
+
 
 # C02_METACOGNITIVE — Monitors cognition itself: loop detection, drift alarms, interrupt taxonomy.
 
@@ -23,7 +25,7 @@ Executable binding PARTIAL.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

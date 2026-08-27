@@ -1,6 +1,8 @@
 ---
+title: CELL REGISTRY COGNITIVE MATRIX README
 tags: ['cognitive_matrix', 'cell_registry', 'readme', 'contract_filled']
 ---
+
 
 # 05_CELL_REGISTRY — Cell Registry Contract Overview
 
@@ -63,7 +65,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT_MOC|AMOS MOC]]
+[[COGNITIVE_MATRIX_MOC]] · 00_ROOT_MOC|AMOS MOC
 
 ---
 RSCF-NODE

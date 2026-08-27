@@ -1,6 +1,8 @@
 ---
+title: GENERATOR FALSIFICATION
 tags: [25_cognitive_matrix, 12_generators, generator, falsification, note]
 ---
+
 
 # Generator Falsification
 
@@ -2262,10 +2264,10 @@ This content may replace the placeholder **at the candidate-specification level*
 ---
 
 ## Related
-- [[GENERATORS_MAP|Generators Map]]
-- [[GENERATOR_CONTRACT|Generator Contract]]
-- [[GENERATOR_ADMISSION|Generator Admission]]
-- [[00_ROOT_MOC|AMOS MOC]]
+- GENERATORS_MAP|Generators Map
+- GENERATOR_CONTRACT|Generator Contract
+- GENERATOR_ADMISSION|Generator Admission
+- 00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

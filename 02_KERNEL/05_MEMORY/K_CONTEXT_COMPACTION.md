@@ -1,4 +1,5 @@
 ---
+title: K CONTEXT COMPACTION
 artifact_id: AMOS-OS-K-CONTEXT-COMPACTION
 canonical_name: K_CONTEXT_COMPACTION
 artifact_type: kernel_context_compaction_contract
@@ -31,6 +32,7 @@ tags:
   - topic/lossy-compression
   - topic/retrieval
 ---
+
 
 # K CONTEXT COMPACTION
 
@@ -2585,7 +2587,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

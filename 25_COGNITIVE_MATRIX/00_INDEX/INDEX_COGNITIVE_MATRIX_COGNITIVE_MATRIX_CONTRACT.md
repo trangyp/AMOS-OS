@@ -1,6 +1,8 @@
 ---
+title: INDEX COGNITIVE MATRIX COGNITIVE MATRIX CONTRACT
 tags: ['cognitive_matrix', 'index', 'contract']
 ---
+
 
 # 00_INDEX — AMOS Cognitive Matrix Contract
 
@@ -2643,7 +2645,7 @@ NEVER CONFUSE STRUCTURAL COMPLETENESS WITH TRUTH.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

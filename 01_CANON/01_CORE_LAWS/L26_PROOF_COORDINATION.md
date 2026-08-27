@@ -1,6 +1,8 @@
 ---
+title: L26 PROOF COORDINATION
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L26 Proof Coordination Laws
 
@@ -23,7 +25,7 @@ F1: authoritative proof canon defines different coordination model.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

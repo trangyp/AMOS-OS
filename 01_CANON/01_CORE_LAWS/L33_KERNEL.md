@@ -1,6 +1,8 @@
 ---
+title: L33 KERNEL
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L33 Kernel Law
 
@@ -23,7 +25,7 @@ F1: authoritative kernel canon defines different minimality contract.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

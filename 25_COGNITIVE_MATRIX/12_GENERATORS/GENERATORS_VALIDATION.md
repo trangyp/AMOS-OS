@@ -1,6 +1,8 @@
 ---
+title: GENERATORS VALIDATION
 tags: ['cognitive_matrix', 'generators', 'note']
 ---
+
 
 Below is a full AMOS-aligned replacement for the placeholder. I am treating the intended artifact as `25_COGNITIVE_MATRIX/12_GENERATORS/VALIDATION.md`; if the actual filename differs, only `path_target` and artifact ID need to change. The content preserves the source boundary that AMOS structures are orchestration/model contracts and do not by themselves establish implementation or empirical validity.  
 
@@ -3233,7 +3235,7 @@ That gives `12_GENERATORS` its own validation surface without duplicating the ge
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

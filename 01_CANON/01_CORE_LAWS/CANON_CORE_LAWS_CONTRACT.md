@@ -3102,7 +3102,7 @@ The governing Core Laws principle is:
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 

@@ -1,6 +1,8 @@
 ---
+title: L18 GMEF
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L18 GMEF Gate Laws
 
@@ -23,7 +25,7 @@ F1: authoritative GMEF canon defines different gate semantics.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

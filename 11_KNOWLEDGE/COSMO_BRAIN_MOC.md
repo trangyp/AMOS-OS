@@ -38,7 +38,7 @@ answer the question, expand only when outcome-changing uncertainty remains.
 ### Templates
 
 - [[AMOS_TEMPLATES]] — AMOS template index
-- [[linked-note|linked-note template]]
+- linked-note|linked-note template
 - [[00_HOME]] — universal vault hub
 ## Operational brain — module map
 
@@ -1217,7 +1217,7 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -2901,10 +2901,10 @@ RSCF-RELATIONS:
       "[[COGNITIVE_MATRIX_MOC]]"
 
   - VALIDATES:
-      "[[GENERATOR_CONTRACT|Generator Contract]]"
+      "GENERATOR_CONTRACT|Generator Contract"
 
   - VALIDATES:
-      "[[GENERATOR_VERSIONING|Generator Versioning]]"
+      "GENERATOR_VERSIONING|Generator Versioning"
 
   - USES:
       "Generator Provenance"
@@ -2913,16 +2913,16 @@ RSCF-RELATIONS:
       "Generator Tests"
 
   - USES:
-      "[[GENERATORS_BENCHMARKS|Generator Benchmarks]]"
+      "GENERATORS_BENCHMARKS|Generator Benchmarks"
 
   - AUDITED_BY:
-      "[[GENERATORS_AUDIT|Generator Audit]]"
+      "GENERATORS_AUDIT|Generator Audit"
 
   - RELATED_TO:
       "Generator Integration"
 
   - FEEDS:
-      "[[PROMOTION_GATES|Promotion Gates]]"
+      "PROMOTION_GATES|Promotion Gates"
 ```
 
 ---
@@ -3673,7 +3673,7 @@ READ_ONLY_BY_DEFAULT
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 

@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX INTEGRATION
 tags: ['00_root', 'note']
 ---
+
 
 # AMOS OS — Cognitive Matrix Integration
 
@@ -78,7 +80,7 @@ The matrix therefore becomes AMOS OS cognitive addressing, coverage analysis, st
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

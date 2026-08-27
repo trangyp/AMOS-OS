@@ -1,6 +1,8 @@
 ---
+title: P3 KNOWLEDGE MEMORY
 tags: ['canon', 'universe_canon', 'note']
 ---
+
 
 # P3 — Knowledge & Memory Plane
 
@@ -26,7 +28,7 @@ Vault/files are externalized memory substrate, not cognition.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[AMOS_7_PART_UNIVERSE_CANON]] · [[HML_CANON]] · [[00_HOME]]

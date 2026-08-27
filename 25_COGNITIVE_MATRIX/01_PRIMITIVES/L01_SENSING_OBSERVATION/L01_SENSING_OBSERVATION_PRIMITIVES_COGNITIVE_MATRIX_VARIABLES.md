@@ -1,4 +1,5 @@
 ---
+title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX VARIABLES
 tags:
   - amos
   - cognitive-matrix
@@ -11,6 +12,7 @@ tags:
   - hml
   - control-plane
 ---
+
 
 # L01_SENSING_OBSERVATION — Variables
 
@@ -2636,7 +2638,7 @@ KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

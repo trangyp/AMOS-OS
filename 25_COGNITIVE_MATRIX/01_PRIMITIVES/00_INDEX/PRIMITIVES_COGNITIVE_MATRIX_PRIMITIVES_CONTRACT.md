@@ -1,6 +1,8 @@
 ---
+title: PRIMITIVES COGNITIVE MATRIX PRIMITIVES CONTRACT
 tags: ['cognitive_matrix', '00_index']
 ---
+
 
 # PRIMITIVES COGNITIVE MATRIX PRIMITIVES CONTRACT
 
@@ -50,14 +52,14 @@ Given an operation touching `PRIMITIVES · COGNITIVE MATRIX PRIMITIVES CONTRACT`
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

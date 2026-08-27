@@ -1,4 +1,5 @@
 ---
+title: K MEMORY RETRIEVAL
 artifact_id: AMOS-OS-K-MEMORY-RETRIEVAL
 canonical_name: K_MEMORY_RETRIEVAL
 artifact_type: kernel_memory_retrieval_contract
@@ -34,6 +35,7 @@ tags:
   - topic/regime
   - topic/context-relevance
 ---
+
 
 # K MEMORY RETRIEVAL
 
@@ -2208,7 +2210,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

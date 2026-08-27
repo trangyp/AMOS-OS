@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX O01 OBJECT CONTRACT
 tags: ['cognitive_matrix', 'lifecycle_operations', 'o01_object', 'contract']
 ---
+
 
 # O01_OBJECT — Creating typed cognitive objects with class + provenance + trust state.
 
@@ -26,7 +28,7 @@ Executable binding PARTIAL — see 11_VALIDATION receipts.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

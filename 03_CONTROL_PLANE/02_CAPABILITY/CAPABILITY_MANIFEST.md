@@ -1,6 +1,8 @@
 ---
+title: CAPABILITY MANIFEST
 tags: ['control_plane', 'capability', 'note']
 ---
+
 
 Below is the **full paste-ready `CAPABILITY_MANIFEST.md`**, designed to sit beside `CAPABILITY_CONTRACT.md`. It is a substantive manifest specification, not a placeholder, while preserving the boundary between architecture definition and validated runtime implementation.
 
@@ -3238,7 +3240,7 @@ until evidence, authority, or governance resolves it.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -1,4 +1,5 @@
 ---
+title: K WORLD MODEL
 artifact_id: AMOS-OS-K-WORLD-MODEL
 canonical_name: K_WORLD_MODEL
 artifact_type: kernel_world_model_contract
@@ -36,6 +37,7 @@ tags:
   - topic/simulation
   - topic/uncertainty
 ---
+
 
 # K WORLD MODEL
 
@@ -2628,7 +2630,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

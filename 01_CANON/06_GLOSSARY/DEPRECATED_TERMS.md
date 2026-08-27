@@ -1,4 +1,5 @@
 ---
+title: DEPRECATED TERMS
 artifact_id: AMOS-OS-DEPRECATED-TERMS
 canonical_name: DEPRECATED_TERMS
 artifact_type: canonical_semantic_lifecycle_registry
@@ -34,6 +35,7 @@ aliases:
   - Deprecated Terminology Registry
   - AMOS Terminology Migration Registry
 ---
+
 
 # AMOS OS Deprecated Terms
 
@@ -1771,7 +1773,7 @@ lifecycle_stage: SemanticGovernance
 claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT_MOC|AMOS MOC]]
+  - INDEXED_BY: 00_ROOT_MOC|AMOS MOC
   - INDEXED_BY: CANON_MAP
   - GOVERNED_BY: AMOS_CORE_LAWS
   - GOVERNED_BY: LAW_HIERARCHY
@@ -1795,7 +1797,7 @@ RSCF-RELATIONS:
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
 NAMING_STANDARD ·
@@ -1822,7 +1824,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

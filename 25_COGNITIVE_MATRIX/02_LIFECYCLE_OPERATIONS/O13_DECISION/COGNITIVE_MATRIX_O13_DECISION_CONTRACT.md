@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX O13 DECISION CONTRACT
 tags: ['cognitive_matrix', 'lifecycle_operations', 'o13_decision', 'contract']
 ---
+
 
 # O13_DECISION — O13 Decision
 
@@ -26,7 +28,7 @@ Executable binding PARTIAL — see 11_VALIDATION receipts.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

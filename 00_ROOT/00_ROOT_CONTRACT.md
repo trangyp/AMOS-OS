@@ -1,6 +1,8 @@
 ---
+title: 00 ROOT CONTRACT
 tags: ['00_root', 'contract']
 ---
+
 
 # AMOS OS — 00 Root Contract
 
@@ -2614,7 +2616,7 @@ The governing root law is:
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

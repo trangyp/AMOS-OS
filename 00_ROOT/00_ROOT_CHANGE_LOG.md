@@ -3091,7 +3091,7 @@ The governing root law is:
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]] · [[AMOS_RSCF_NODES]]
+00_ROOT_MOC|AMOS MOC · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

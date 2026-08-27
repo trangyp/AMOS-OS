@@ -3379,14 +3379,14 @@ KEEP IT UNKNOWN/GAP.
 
 ---
 
-**Related:** [[README|AMOS OS]] · [[ARCHITECTURE|Architecture]] · [[SYSTEM_MAP|System Map]] · [[PLACEMENT_RULES|Placement Rules]] · [[CANON_MAP|Canon Map]] · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[INVARIANT_REGISTRY|Invariant Registry]] · [[LAW_HIERARCHY|Law Hierarchy]] · [[PERSISTENCE_CANON|Persistence Canon]] · [[AUTHORITY_CANON|Authority Canon]] · [[CONTROL_PLANE_CANON|Control Plane Canon]] · [[KERNEL_MAP|Kernel Map]] · [[CONTROL_PLANE_MAP|Control Plane Map]] · [[RUNTIME_MAP|Runtime Map]] · [[MEMORY_MEMORY_MAP|Memory Map]] · [[STATE_STATE_MAP|State Map]] · [[TOOL_MAP|Tool Map]] · [[INTERFACE_MAP|Interface Map]] · [[SCHEMA_MAP|Schema Map]] · [[OBSERVABILITY_OBSERVABILITY_MAP|Observability Map]] · [[SECURITY_MAP|Security Map]] · [[TEST_MAP|Test Map]] · [[OPERATIONS_MAP|Operations Map]] · [[OPERATING_MODEL|Operating Model]]
+**Related:** README|AMOS OS · ARCHITECTURE|Architecture · SYSTEM_MAP|System Map · PLACEMENT_RULES|Placement Rules · CANON_MAP|Canon Map · AMOS_CORE_LAWS|AMOS Core Laws · INVARIANT_REGISTRY|Invariant Registry · LAW_HIERARCHY|Law Hierarchy · PERSISTENCE_CANON|Persistence Canon · AUTHORITY_CANON|Authority Canon · CONTROL_PLANE_CANON|Control Plane Canon · KERNEL_MAP|Kernel Map · CONTROL_PLANE_MAP|Control Plane Map · RUNTIME_MAP|Runtime Map · MEMORY_MEMORY_MAP|Memory Map · STATE_STATE_MAP|State Map · TOOL_MAP|Tool Map · INTERFACE_MAP|Interface Map · SCHEMA_MAP|Schema Map · OBSERVABILITY_OBSERVABILITY_MAP|Observability Map · SECURITY_MAP|Security Map · TEST_MAP|Test Map · OPERATIONS_MAP|Operations Map · OPERATING_MODEL|Operating Model
 
 ```text
 ```
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

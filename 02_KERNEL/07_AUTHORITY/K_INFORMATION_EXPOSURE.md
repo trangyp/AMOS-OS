@@ -1,4 +1,5 @@
 ---
+title: K INFORMATION EXPOSURE
 artifact_id: AMOS-OS-K-INFORMATION-EXPOSURE
 canonical_name: K_INFORMATION_EXPOSURE
 artifact_type: kernel_information_exposure_contract
@@ -13,6 +14,7 @@ updated: 2026-08-26
 tags: ['kernel', 'authority', 'note']
 
 ---
+
 # K INFORMATION EXPOSURE
 
 > **AMOS Core target:** `v4.4`  
@@ -2876,7 +2878,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

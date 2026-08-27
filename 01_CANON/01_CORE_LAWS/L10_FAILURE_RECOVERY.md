@@ -1,6 +1,8 @@
 ---
+title: L10 FAILURE RECOVERY
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L10 Failure & Recovery Laws
 
@@ -23,7 +25,7 @@ F1: authoritative failure canon defines different recovery semantics.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

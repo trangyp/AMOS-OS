@@ -1,4 +1,5 @@
 ---
+title: K DISTINCTION RELATION CONSTRAINT
 artifact_id: AMOS-OS-K-DISTINCTION-RELATION-CONSTRAINT
 canonical_name: K_DISTINCTION_RELATION_CONSTRAINT
 artifact_type: kernel_semantic_contract
@@ -45,6 +46,7 @@ aliases:
   - K DRC
   - AMOS Distinction Relation Constraint Kernel
 ---
+
 
 # K_DISTINCTION_RELATION_CONSTRAINT
 
@@ -2106,7 +2108,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

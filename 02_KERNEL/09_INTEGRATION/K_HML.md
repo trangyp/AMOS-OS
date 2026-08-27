@@ -1,6 +1,8 @@
 ---
+title: K HML
 tags: ['kernel', 'integration', 'note']
 ---
+
 
 # K HML — Full Canonical Reconstruction
 
@@ -2688,7 +2690,7 @@ So this is suitable as the **full `K_HML` canon-candidate specification**, but t
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

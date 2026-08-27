@@ -1,6 +1,8 @@
 ---
+title: CONTROL PLANE MAP
 tags: ['control_plane', 'index', 'map']
 ---
+
 
 Yes. Paste the following over the incorrect placeholder.
 
@@ -1858,7 +1860,7 @@ This version is suitable as the **replacement content** for `03_CONTROL_PLANE/00
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

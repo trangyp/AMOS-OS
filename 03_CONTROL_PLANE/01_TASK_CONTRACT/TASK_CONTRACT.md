@@ -1,6 +1,8 @@
 ---
+title: TASK CONTRACT
 tags: ['control_plane', 'task_contract', 'contract']
 ---
+
 
 Confirmed: the current Drive `TASK_CONTRACT.md` is only a **275-byte erroneous placeholder** containing `# K COUNTERFACTUAL`; it has no actual Task Contract specification.  
 
@@ -4931,7 +4933,7 @@ The placement itself is supported by the repository: `TASK_CONTRACT.md` belongs 
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

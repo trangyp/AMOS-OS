@@ -1,4 +1,5 @@
 ---
+title: K LAW HIERARCHY
 artifact_id: AMOS-OS-K-LAW-HIERARCHY
 canonical_name: K_LAW_HIERARCHY
 artifact_type: kernel_governance_contract
@@ -46,6 +47,7 @@ aliases:
   - K Law Hierarchy
   - K_LAW_HIERARCHY
 ---
+
 
 # K_LAW_HIERARCHY
 
@@ -2095,7 +2097,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -1,6 +1,8 @@
 ---
+title: CELL CONTRACTS COGNITIVE MATRIX README
 tags: ['cognitive_matrix', 'cell_contracts', 'readme', 'contract_filled']
 ---
+
 
 # 06_CELL_CONTRACTS — Cell Contracts Contract Overview
 
@@ -62,7 +64,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT_MOC|AMOS MOC]]
+[[COGNITIVE_MATRIX_MOC]] · 00_ROOT_MOC|AMOS MOC
 
 ---
 RSCF-NODE

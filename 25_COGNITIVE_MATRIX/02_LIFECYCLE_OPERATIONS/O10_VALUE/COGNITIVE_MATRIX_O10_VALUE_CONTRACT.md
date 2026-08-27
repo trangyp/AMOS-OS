@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX O10 VALUE CONTRACT
 tags: ['cognitive_matrix', 'lifecycle_operations', 'o10_value', 'contract']
 ---
+
 
 # O10_VALUE — O10 Value
 
@@ -26,7 +28,7 @@ Executable binding PARTIAL — see 11_VALIDATION receipts.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

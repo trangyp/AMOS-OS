@@ -1,6 +1,8 @@
 ---
+title: DEPENDENCY TRACE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 tags: ['control_plane', '88_dependency_trace_modes']
 ---
+
 
 # DEPENDENCY TRACE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 
@@ -20,7 +22,7 @@ Executable binding PARTIAL — see [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] and [[ROU
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

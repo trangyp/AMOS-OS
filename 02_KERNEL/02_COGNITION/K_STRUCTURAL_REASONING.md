@@ -1,4 +1,5 @@
 ---
+title: K STRUCTURAL REASONING
 artifact_id: AMOS-OS-K-STRUCTURAL-REASONING
 canonical_name: K_STRUCTURAL_REASONING
 artifact_type: kernel_reasoning_contract
@@ -51,6 +52,7 @@ aliases:
   - AMOS Structural Reasoning
   - K_STRUCTURAL_REASONING
 ---
+
 
 # K STRUCTURAL REASONING
 
@@ -2067,7 +2069,7 @@ CHANGE THAT CONCLUSION.
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[DEPENDENCY_MAP]] ·
 [[SYSTEM_MAP]] ·
@@ -2098,7 +2100,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

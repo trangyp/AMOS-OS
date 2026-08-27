@@ -3916,7 +3916,7 @@ NON_AUTHORITATIVE
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ## Related
 
@@ -3978,7 +3978,7 @@ That keeps the Generator subsystem integrated with AMOS infrastructure without t
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

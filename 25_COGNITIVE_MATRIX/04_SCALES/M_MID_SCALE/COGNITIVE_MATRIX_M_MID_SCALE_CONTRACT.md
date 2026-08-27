@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX M MID SCALE CONTRACT
 tags: ['cognitive_matrix', 'scales', 'm_mid_scale', 'contract']
 ---
+
 
 # M_MID_SCALE — Mid scale: domain policy and planning; medium rigor, batched evaluation.
 
@@ -22,7 +24,7 @@ Runtime binding PARTIAL.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[HML_CANON]] · [[COGNITIVE_MATRIX_MOC]]

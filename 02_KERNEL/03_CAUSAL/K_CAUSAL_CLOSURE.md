@@ -1,4 +1,5 @@
 ---
+title: K CAUSAL CLOSURE
 artifact_id: AMOS-OS-K-CAUSAL-CLOSURE
 canonical_name: K_CAUSAL_CLOSURE
 artifact_type: kernel_causal_closure_contract
@@ -53,6 +54,7 @@ aliases:
   - K Causal Closure
   - K_CAUSAL_CLOSURE
 ---
+
 
 # K CAUSAL CLOSURE
 
@@ -2277,7 +2279,7 @@ CHANGE THAT CLAIM.
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[DEPENDENCY_MAP]] ·
 [[CANON_MAP]] ·
@@ -2313,7 +2315,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

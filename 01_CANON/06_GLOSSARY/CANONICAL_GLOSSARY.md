@@ -1,4 +1,5 @@
 ---
+title: CANONICAL GLOSSARY
 artifact_id: AMOS-OS-CANONICAL-GLOSSARY
 canonical_name: CANONICAL_GLOSSARY
 artifact_type: canonical_semantic_registry
@@ -35,6 +36,7 @@ aliases:
   - Canonical Terminology Registry
   - AMOS Semantic Glossary
 ---
+
 
 # AMOS OS Canonical Glossary
 
@@ -2870,7 +2872,7 @@ lifecycle_stage: Canonicalization
 claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT_MOC|AMOS MOC]]
+  - INDEXED_BY: 00_ROOT_MOC|AMOS MOC
   - GOVERNED_BY: AMOS_CORE_LAWS
   - GOVERNED_BY: LAW_HIERARCHY
   - CONSTRAINED_BY: INVARIANT_REGISTRY
@@ -2894,7 +2896,7 @@ RSCF-RELATIONS:
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
 NAMING_STANDARD ·
@@ -2923,7 +2925,7 @@ ALIASES ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

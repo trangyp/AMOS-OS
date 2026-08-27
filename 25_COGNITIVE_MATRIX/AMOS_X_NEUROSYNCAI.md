@@ -1,3 +1,9 @@
+---
+title: AMOS X NeuroSyncAI
+type: note
+tags: [note, cognitive-matrix, neurosyncai]
+---
+
 Below is the full populated Markdown for `AMOS_X_NEUROSYNCAI.md`, replacing the placeholder with the substantive NeuroSyncAI framework rather than the matrix-only representation. It is grounded in the native Drive source family: the Dual-System Architecture defines NeuroSyncAI as a source-described deterministic infrastructure built around four UBI domains, diagnostic and reflection/enforcement models, and a detect → reflect → aligned output → reject compensation/noise → reassess loop; the Certifiable Intelligence Infrastructure source adds the five-tier stack and nine operational principles, including **Self-Auditing Before Output**.  
 
 ````markdown
@@ -4286,7 +4292,7 @@ UBI + NeuroSyncAI Integration Framework
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 

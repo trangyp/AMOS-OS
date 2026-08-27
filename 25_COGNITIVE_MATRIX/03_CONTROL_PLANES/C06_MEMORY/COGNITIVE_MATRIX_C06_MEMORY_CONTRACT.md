@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX C06 MEMORY CONTRACT
 tags: ['cognitive_matrix', 'control_planes', 'c06_memory', 'contract']
 ---
+
 
 # C06_MEMORY — Memory control: lifecycle gating, trust states, consolidation thresholds.
 
@@ -23,7 +25,7 @@ Executable binding PARTIAL.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

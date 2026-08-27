@@ -1,4 +1,5 @@
 ---
+title: K EVENT BUS
 artifact_id: AMOS-OS-K-EVENT-BUS
 canonical_name: K_EVENT_BUS
 artifact_type: kernel_event_bus_contract
@@ -45,6 +46,7 @@ aliases:
   - K Event Bus
   - K_EVENT_BUS
 ---
+
 
 # K EVENT BUS
 
@@ -2490,7 +2492,7 @@ VALIDITY.
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[DEPENDENCY_MAP]] ·
 [[AUTHORITATIVE_STATE]] ·
@@ -2534,7 +2536,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

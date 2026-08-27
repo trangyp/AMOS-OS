@@ -1,4 +1,5 @@
 ---
+title: DEPENDENCY MAP
 artifact_id: AMOS-OS-DEPENDENCY-MAP
 canonical_name: DEPENDENCY_MAP
 artifact_type: dependency_topology_contract
@@ -50,6 +51,7 @@ aliases:
   - AMOS Dependency Topology
   - DEPENDENCY_MAP
 ---
+
 
 # AMOS OS Dependency Map
 
@@ -2240,7 +2242,7 @@ NO LESS.
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
 [[AUTHORITATIVE_STATE]] ·
@@ -2285,7 +2287,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

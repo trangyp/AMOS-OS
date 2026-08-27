@@ -1,4 +1,5 @@
 ---
+title: AUTHORITATIVE STATE
 artifact_id: AMOS-OS-AUTHORITATIVE-STATE
 canonical_name: AUTHORITATIVE_STATE
 artifact_type: authoritative_state_contract
@@ -49,6 +50,7 @@ aliases:
   - AMOS Authoritative State
   - AUTHORITATIVE_STATE
 ---
+
 
 # AMOS OS Authoritative State
 
@@ -1722,7 +1724,7 @@ AND RECOVERABLE.
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
 [[PLACEMENT_RULES]] ·
@@ -1758,7 +1760,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

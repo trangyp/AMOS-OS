@@ -1,8 +1,10 @@
 ---
+title: COGNITIVE MATRIX MOC
 canon-group: reference
 rscf-state: derived
 tags: [cognitive_matrix, moc, index]
 ---
+
 
 # Cognitive Matrix MOC
 

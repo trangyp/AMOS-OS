@@ -1,4 +1,5 @@
 ---
+title: K REPAIR PRIORITY
 artifact_id: AMOS-OS-K-REPAIR-PRIORITY
 canonical_name: K_REPAIR_PRIORITY
 artifact_type: kernel_repair_priority_contract
@@ -29,6 +30,7 @@ tags:
   - topic/failure-containment
   - topic/reversibility
 ---
+
 
 # K REPAIR PRIORITY
 
@@ -2296,7 +2298,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

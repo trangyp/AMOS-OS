@@ -1,6 +1,8 @@
 ---
+title: P4 COGNITION MODELS
 tags: ['canon', 'universe_canon', 'note']
 ---
+
 
 # P4 — Cognition & Models Plane
 
@@ -26,7 +28,7 @@ Cognitive machinery here is structural analogy, not neuroscience claim.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[AMOS_7_PART_UNIVERSE_CANON]] · [[HML_CANON]] · [[00_HOME]]

@@ -1,6 +1,8 @@
 ---
+title: POLICY DECISION
 tags: ['control_plane', 'policy', 'note']
 ---
+
 
 Below is the **full paste-ready `POLICY_DECISION.md`**. It is written as a substantive AMOS OS governance/control-plane contract, not a placeholder. It preserves the critical separation between policy evaluation, capability, authority, proposal, effect release, and durable commit.
 
@@ -4191,7 +4193,7 @@ Integrity remains prior to completeness, fluency, speed, and optimization.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

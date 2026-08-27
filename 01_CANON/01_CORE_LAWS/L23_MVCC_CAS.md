@@ -1,6 +1,8 @@
 ---
+title: L23 MVCC CAS
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L23 MVCC/CAS Analogy Boundary
 
@@ -26,7 +28,7 @@ F1: authoritative state canon mandates literal MVCC storage.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

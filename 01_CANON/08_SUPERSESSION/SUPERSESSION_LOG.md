@@ -1,4 +1,5 @@
 ---
+title: SUPERSESSION LOG
 artifact_id: AMOS-OS-SUPERSESSION-LOG
 canonical_name: SUPERSESSION_LOG
 artifact_type: canonical_supersession_ledger
@@ -40,6 +41,7 @@ aliases:
   - AMOS OS Supersession Log
   - Canon Supersession Log
 ---
+
 
 # AMOS OS Supersession Log
 
@@ -2007,7 +2009,7 @@ lifecycle_stage: CanonGovernance
 claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT_MOC|AMOS MOC]]
+  - INDEXED_BY: 00_ROOT_MOC|AMOS MOC
   - INDEXED_BY: CANON_MAP
   - GOVERNED_BY: AMOS_CORE_LAWS
   - CONSTRAINED_BY: INVARIANT_REGISTRY
@@ -2143,7 +2145,7 @@ UNKNOWN/GAP.
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
 [[ROADMAP]] ·
@@ -2174,7 +2176,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

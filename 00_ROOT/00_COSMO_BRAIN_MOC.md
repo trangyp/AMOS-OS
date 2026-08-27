@@ -17,7 +17,7 @@ title: 00 Cosmo Brain MOC (root stub)
 
 # 00 Cosmo Brain MOC (root stub)
 
-Lightweight navigation hub for the AMOS brain layer. The full canonical index lives at [[COSMO_BRAIN_MOC|00 Cosmo Brain MOC]].
+Lightweight navigation hub for the AMOS brain layer. The full canonical index lives at COSMO_BRAIN_MOC|00 Cosmo Brain MOC.
 
 ---
 
@@ -25,8 +25,8 @@ Lightweight navigation hub for the AMOS brain layer. The full canonical index li
 
 - [[00_HOME]]
 - [[AMOS_RSCF_NODES]]
-- [[00_ROOT_MOC|AMOS MOC]]
-- [[COSMO_BRAIN_MOC|00 Cosmo Brain MOC]]
+- 00_ROOT_MOC|AMOS MOC
+- COSMO_BRAIN_MOC|00 Cosmo Brain MOC
 - [[AMOS_LAYER_MAPS]] — top-level AMOS layer map index
 - [[AMOS_TEMPLATES]] — AMOS template index
 - [[AMOS_OBSIDIAN_LINKING_PLUGINS]] — Obsidian vault linking plugin stack

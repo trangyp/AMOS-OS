@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX README
 tags: ['cognitive_matrix', 'readme']
 ---
+
 
 Below is a full **candidate implementation** for `COGNITIVE_MATRIX_README.md`. Because no authoritative file with this exact content was recovered, this is **DERIVED / CANDIDATE_CANON**, not recovered historical canon.
 
@@ -3137,7 +3139,7 @@ Until such promotion occurs, this document provides a complete candidate archite
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES

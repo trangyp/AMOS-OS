@@ -1,9 +1,11 @@
 ---
+title: README
 aliases:
 - README
 rscf-state: derived
 tags: [index, readme, moc]
 ---
+
 # README
 
 ## Purpose
@@ -39,7 +41,7 @@ Given an operation touching `README` within the Observability plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority

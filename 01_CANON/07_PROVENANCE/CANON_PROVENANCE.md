@@ -1,4 +1,5 @@
 ---
+title: CANON PROVENANCE
 artifact_id: AMOS-OS-CANON-PROVENANCE
 canonical_name: CANON_PROVENANCE
 artifact_type: canonical_provenance_registry
@@ -42,6 +43,7 @@ aliases:
   - AMOS Canon Lineage Registry
   - Canon Source Lineage
 ---
+
 
 # AMOS OS Canon Provenance
 
@@ -2900,7 +2902,7 @@ lifecycle_stage: ProvenanceGovernance
 claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT_MOC|AMOS MOC]]
+  - INDEXED_BY: 00_ROOT_MOC|AMOS MOC
   - INDEXED_BY: CANON_MAP
   - GOVERNED_BY: AMOS_CORE_LAWS
   - GOVERNED_BY: LAW_HIERARCHY
@@ -3023,7 +3025,7 @@ UNTIL EVIDENCE CLOSES THE PATH.
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
 NAMING_STANDARD ·
@@ -3055,7 +3057,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

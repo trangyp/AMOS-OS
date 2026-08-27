@@ -1,6 +1,8 @@
 ---
+title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX OPERATORS
 tags: ['cognitive_matrix', 'primitives', 'l01_sensing_observation', 'note']
 ---
+
 
 Below is the full paste-ready `L01_SENSING_OBSERVATION / OPERATORS.md`. I’m keeping the exact L01 operator registry explicitly **MODEL / canon-bounded**, rather than presenting reconstructed operators as validated canon.
 
@@ -3649,7 +3651,7 @@ VALIDATED
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -1,6 +1,8 @@
 ---
+title: CONTROL PLANE CAPABILITY CONTRACT
 tags: ['control_plane', 'capability', 'contract']
 ---
+
 
 Yes. The placeholder should be replaced by a substantive contract. Below is a **full paste-ready `CAPABILITY_CONTRACT.md`**. It is intentionally classified as an **AMOS MODEL / proposed governed contract**, not falsely presented as already implemented or canonically validated.
 
@@ -2705,7 +2707,7 @@ The important epistemic boundary is that the content above **completes the archi
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

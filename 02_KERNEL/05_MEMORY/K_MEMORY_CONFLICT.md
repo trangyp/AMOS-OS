@@ -1,4 +1,5 @@
 ---
+title: K MEMORY CONFLICT
 artifact_id: AMOS-OS-K-MEMORY-CONFLICT
 canonical_name: K_MEMORY_CONFLICT
 artifact_type: kernel_memory_conflict_contract
@@ -32,6 +33,7 @@ tags:
   - topic/supersession
   - topic/provenance-topology
 ---
+
 
 # K MEMORY CONFLICT
 
@@ -2203,7 +2205,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

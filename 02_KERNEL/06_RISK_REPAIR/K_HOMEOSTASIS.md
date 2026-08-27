@@ -1,4 +1,5 @@
 ---
+title: K HOMEOSTASIS
 artifact_id: AMOS-OS-K-HOMEOSTASIS
 canonical_name: K_HOMEOSTASIS
 artifact_type: kernel_homeostasis_contract
@@ -36,6 +37,7 @@ tags:
   - topic/failure-containment
   - topic/revalidation
 ---
+
 
 # K HOMEOSTASIS
 
@@ -1903,7 +1905,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

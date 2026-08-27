@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX C05 REPRESENTATION CONTRACT
 tags: ['cognitive_matrix', 'control_planes', 'c05_representation', 'contract']
 ---
+
 
 # C05_REPRESENTATION — Representation control: tensor axis discipline, class demarcation on encodings.
 
@@ -23,7 +25,7 @@ Executable binding PARTIAL.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

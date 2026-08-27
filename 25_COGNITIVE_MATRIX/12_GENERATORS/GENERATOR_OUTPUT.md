@@ -1,4 +1,5 @@
 ---
+title: GENERATOR OUTPUT
 
 ## tags: ['cognitive_matrix', 'generators', 'output', 'contract', 'provenance', 'validation']
 
@@ -12,8 +13,10 @@
 **Implementation Status:** NOT ESTABLISHED BY THIS DOCUMENT
 **Empirical Validation Status:** NOT ESTABLISHED BY THIS DOCUMENT
 **Final Canon Status:** NOT ESTABLISHED BY THIS DOCUMENT
-
+tags: [12_GENERATORS]
 ---
+
+
 
 ## 0. Contract Declaration
 
@@ -2541,7 +2544,7 @@ artifact:
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

@@ -1,6 +1,8 @@
 ---
+title: DEPENDENCY GRAPH COGNITIVE MATRIX README
 tags: ['cognitive_matrix', 'dependency_graph', 'readme', 'contract_filled']
 ---
+
 
 # 09_DEPENDENCY_GRAPH — Dependency Graph Contract Overview
 
@@ -62,7 +64,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT_MOC|AMOS MOC]]
+[[COGNITIVE_MATRIX_MOC]] · 00_ROOT_MOC|AMOS MOC
 
 ---
 RSCF-NODE

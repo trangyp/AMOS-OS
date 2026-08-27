@@ -1,4 +1,5 @@
 ---
+title: GENERATOR PROMOTION
 
 ## tags: ['cognitive_matrix', 'generators', 'promotion', 'governance', 'validation', 'provenance', 'canon']
 
@@ -12,8 +13,10 @@
 **Implementation Status:** NOT ESTABLISHED BY THIS DOCUMENT
 **Empirical Validation Status:** NOT ESTABLISHED BY THIS DOCUMENT
 **Final Canon Status:** NOT ESTABLISHED BY THIS DOCUMENT
-
+tags: [12_GENERATORS]
 ---
+
+
 
 ## 0. Contract Declaration
 
@@ -2300,7 +2303,7 @@ artifact:
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 

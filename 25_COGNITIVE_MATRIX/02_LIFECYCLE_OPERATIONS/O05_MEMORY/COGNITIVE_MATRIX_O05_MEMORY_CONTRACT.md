@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX O05 MEMORY CONTRACT
 tags: ['cognitive_matrix', 'lifecycle_operations', 'o05_memory', 'contract']
 ---
+
 
 # O05_MEMORY — Persist/retrieve with lifecycle (formation→evolution→retrieval) and trust gating.
 
@@ -26,7 +28,7 @@ Executable binding PARTIAL — see 11_VALIDATION receipts.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

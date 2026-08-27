@@ -1,6 +1,8 @@
 ---
+title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX SKILLS
 tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'note']
 ---
+
 
 # L02_ATTENTION — Skills
 
@@ -653,7 +655,7 @@ TEST DEFINED != TEST EXECUTED
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

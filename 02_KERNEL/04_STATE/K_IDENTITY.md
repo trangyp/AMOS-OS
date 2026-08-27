@@ -1,4 +1,5 @@
 ---
+title: K IDENTITY
 artifact_id: AMOS-OS-K-IDENTITY
 canonical_name: K_IDENTITY
 artifact_type: kernel_identity_contract
@@ -38,6 +39,7 @@ aliases:
   - K Identity
   - K_IDENTITY
 ---
+
 
 # K IDENTITY
 
@@ -2392,7 +2394,7 @@ SAMENESS.
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[DEPENDENCY_MAP]] ·
 [[AUTHORITATIVE_STATE]] ·
@@ -2431,7 +2433,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

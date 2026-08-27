@@ -1,6 +1,8 @@
 ---
+title: MODE COVERAGE MATRIX
 tags: ['control_plane', 'commit', 'mode_index', 'note']
 ---
+
 
 `MODE_COVERAGE_MATRIX.md` in Drive is currently only the generic placeholder, so there is no substantive canonical matrix to reproduce verbatim. 
 
@@ -4526,7 +4528,7 @@ This is `DERIVED / CANDIDATE_CANON`, not recovered original canon. The actual Dr
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

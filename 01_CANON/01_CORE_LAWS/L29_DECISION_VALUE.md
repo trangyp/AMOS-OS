@@ -1,6 +1,8 @@
 ---
+title: L29 DECISION VALUE
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L29 Decision Value Laws
 
@@ -23,7 +25,7 @@ F1: authoritative decision canon defines different value hierarchy.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

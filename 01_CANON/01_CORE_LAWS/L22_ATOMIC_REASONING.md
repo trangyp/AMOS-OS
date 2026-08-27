@@ -1,6 +1,8 @@
 ---
+title: L22 ATOMIC REASONING
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L22 Atomic Reasoning Laws
 
@@ -23,7 +25,7 @@ F1: authoritative reasoning canon defines different atomicity contract.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

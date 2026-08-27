@@ -1,6 +1,8 @@
 ---
+title: ADVERSARIAL RED TEAM MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 tags: ['control_plane', '47_adversarial_red_team_modes']
 ---
+
 
 # ADVERSARIAL RED TEAM MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 
@@ -20,7 +22,7 @@ Executable binding PARTIAL — see [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] and [[ROU
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

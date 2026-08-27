@@ -1,4 +1,5 @@
 ---
+title: K RISK CONSTRAINT
 artifact_id: AMOS-OS-K-RISK-CONSTRAINT
 canonical_name: K_RISK_CONSTRAINT
 artifact_type: kernel_risk_constraint_contract
@@ -27,6 +28,7 @@ tags:
   - topic/irreversibility
   - topic/action-governance
 ---
+
 
 # K RISK CONSTRAINT
 
@@ -2504,7 +2506,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -1,6 +1,8 @@
 ---
+title: FULL TREE
 tags: ['00_root', 'note']
 ---
+
 
 # AMOS OS Full Tree
 
@@ -873,7 +875,7 @@ AMOS_OS/
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

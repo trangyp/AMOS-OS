@@ -1,6 +1,8 @@
 ---
+title: GENERATOR CONTRACT
 tags: ['cognitive_matrix', 'generators', 'contract']
 ---
+
 
 I found the actual `12_GENERATORS` canonical folder in your Drive, but it currently contains only `build_amos_cognitive_cells.py`; there is no authoritative `12 Generators Contract` artifact there to recover. 
 
@@ -3082,7 +3084,7 @@ This version is deliberately stricter than the earlier draft: it does **not** pr
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES

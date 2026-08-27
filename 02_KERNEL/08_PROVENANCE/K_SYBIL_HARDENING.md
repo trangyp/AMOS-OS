@@ -1,4 +1,5 @@
 ---
+title: K SYBIL HARDENING
 artifact_id: AMOS-OS-K-SYBIL-HARDENING
 canonical_name: K_SYBIL_HARDENING
 artifact_type: kernel_evidence_independence_security_contract
@@ -13,6 +14,7 @@ updated: 2026-08-26
 tags: ['kernel', 'provenance', 'note']
 
 ---
+
 # K SYBIL HARDENING
 
 > **AMOS Core target:** `v4.4`  
@@ -2807,7 +2809,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

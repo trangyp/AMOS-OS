@@ -1,4 +1,5 @@
 ---
+title: CANON ALIASES
 artifact_id: AMOS-OS-ALIASES
 canonical_name: ALIASES
 artifact_type: canonical_registry
@@ -32,6 +33,7 @@ aliases:
   - Canonical Alias Registry
   - Alias Resolution Registry
 ---
+
 
 # AMOS OS Alias Registry
 
@@ -1650,7 +1652,7 @@ lifecycle_stage: Canonicalization
 claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT_MOC|AMOS MOC]]
+  - INDEXED_BY: 00_ROOT_MOC|AMOS MOC
   - GOVERNED_BY: NAMING_STANDARD
   - RELATED_TO: CANON_MAP
   - RELATED_TO: SYMBOL_REGISTRY
@@ -1666,7 +1668,7 @@ RSCF-RELATIONS:
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
 [[NEURAL_NETWORK]] ·
@@ -1686,7 +1688,7 @@ NAMING_STANDARD ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

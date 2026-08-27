@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX O16 LEARNING CONTRACT
 tags: ['cognitive_matrix', 'lifecycle_operations', 'o16_learning', 'contract']
 ---
+
 
 # O16_LEARNING — O16 Learning
 
@@ -26,7 +28,7 @@ Executable binding PARTIAL — see 11_VALIDATION receipts.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

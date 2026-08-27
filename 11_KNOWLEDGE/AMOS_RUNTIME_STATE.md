@@ -172100,7 +172100,7 @@ For machine consumption, retain the raw JSON sidecar in the same folder.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

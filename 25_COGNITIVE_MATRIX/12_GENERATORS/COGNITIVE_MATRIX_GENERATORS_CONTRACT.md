@@ -2423,7 +2423,7 @@ They MUST NOT silently promote this entire contract or the entire Cognitive Matr
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 
@@ -2453,7 +2453,7 @@ RSCF-RELATIONS:
 
 * INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[00_ROOT_MOC|AMOS MOC]]
+* INDEXED_BY: 00_ROOT_MOC|AMOS MOC
 
 * INDEXED_BY: AMOS_RSCF_NODES
 

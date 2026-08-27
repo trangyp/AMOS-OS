@@ -1,4 +1,5 @@
 ---
+title: K REPAIR HARM
 artifact_id: AMOS-OS-K-REPAIR-HARM
 canonical_name: K_REPAIR_HARM
 artifact_type: kernel_repair_harm_contract
@@ -30,6 +31,7 @@ tags:
   - topic/reversibility
   - topic/collateral-damage
 ---
+
 
 # K REPAIR HARM
 
@@ -2038,7 +2040,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

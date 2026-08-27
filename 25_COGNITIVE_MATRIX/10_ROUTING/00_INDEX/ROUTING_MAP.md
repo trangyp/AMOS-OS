@@ -1514,7 +1514,7 @@ The decisive routing discipline is:
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 

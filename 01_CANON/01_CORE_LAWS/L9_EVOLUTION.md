@@ -4414,7 +4414,7 @@ The final L9 governing principle is:
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 

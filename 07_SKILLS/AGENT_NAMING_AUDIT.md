@@ -1,10 +1,12 @@
 ---
+title: AGENT NAMING AUDIT
 name: agent-naming-audit
 version: 1.0.0
 source: AGENT_SCHEMA.md, Agent_Templates.md, amos-agent-registry-index.md
 description: AMOS agent naming and structure audit produced from .devin/agents across the vault.
 tags: [note, 07-skills]
 ---
+
 
 # AMOS Agent Naming Audit
 

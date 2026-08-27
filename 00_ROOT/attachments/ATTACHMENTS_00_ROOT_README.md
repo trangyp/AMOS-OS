@@ -2251,7 +2251,7 @@ provided no unresolved load-bearing gap remains hidden.
 
 ## Root
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 [[00_HOME]]
 
 ## Core laws
@@ -2863,7 +2863,7 @@ RSCF-NODE:
 
 RSCF-RELATIONS:
   - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[00_ROOT_MOC|AMOS MOC]]
+  - INDEXED_BY: 00_ROOT_MOC|AMOS MOC
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 
   - GOVERNED_BY: [[LAW_HIERARCHY]]
@@ -2891,7 +2891,7 @@ claim_class: AMOS_MODEL
 **Root / navigation**
 
 [[00_HOME]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 AMOS_RSCF_NODES
 
 **Canon**
@@ -2973,7 +2973,7 @@ DO NOT CONVERT UNKNOWN INTO PASS.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 

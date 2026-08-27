@@ -1,6 +1,8 @@
 ---
+title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX PROTOCOLS
 tags: ['cognitive_matrix', 'primitives', 'l02_attention', 'note']
 ---
+
 
 Drive inspection confirms that the `L02_ATTENTION` folder currently contains only `PLACEHOLDER.md`; there is no recovered canonical `PROTOCOLS.md`.  The placeholder defines L02 as attention allocation over scarce reasoning/observation resources, but explicitly forbids inventing missing canon, equations, thresholds, empirical claims, or implementation status. 
 
@@ -3038,7 +3040,7 @@ AUTHORIZATION TO COMMIT
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

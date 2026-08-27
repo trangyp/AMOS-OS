@@ -1,6 +1,8 @@
 ---
+title: O07 INFERENCE MAP
 tags: ['cognitive_matrix', 'o07_inference']
 ---
+
 
 # O07 INFERENCE MAP
 
@@ -34,14 +36,14 @@ Given an operation touching `O07 INFERENCE MAP` within the Cognitive Matrix plan
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 RSCF-NODE

@@ -1,6 +1,8 @@
 ---
+title: L17 RSCF
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L17 RSCF Claim Discipline
 
@@ -23,7 +25,7 @@ F1: authoritative RSCF suite v6+ defines materially different claim taxonomy.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

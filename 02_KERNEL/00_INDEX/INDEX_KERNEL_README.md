@@ -1,4 +1,5 @@
 ---
+title: INDEX KERNEL README
 artifact_id: AMOS-OS-KERNEL-README
 canonical_name: KERNEL_README
 artifact_type: kernel_plane_entrypoint
@@ -49,6 +50,7 @@ aliases:
   - AMOS OS Kernel
   - Kernel Plane
 ---
+
 
 # AMOS OS Kernel
 
@@ -1695,7 +1697,7 @@ lifecycle_stage: Architecture
 claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT_MOC|AMOS MOC]]
+  - INDEXED_BY: 00_ROOT_MOC|AMOS MOC
   - MAPPED_BY: KERNEL_MAP
   - DERIVED_FROM: AMOS_CORE_LAWS
   - CONSTRAINED_BY: INVARIANT_REGISTRY
@@ -1766,7 +1768,7 @@ AUTHORITY
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
 [[PLACEMENT_RULES]] ·
@@ -1798,7 +1800,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

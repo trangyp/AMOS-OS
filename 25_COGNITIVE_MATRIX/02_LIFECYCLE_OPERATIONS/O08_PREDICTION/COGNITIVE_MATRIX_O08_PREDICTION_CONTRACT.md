@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX O08 PREDICTION CONTRACT
 tags: ['cognitive_matrix', 'lifecycle_operations', 'o08_prediction', 'contract']
 ---
+
 
 # O08_PREDICTION — O08 Prediction
 
@@ -26,7 +28,7 @@ Executable binding PARTIAL — see 11_VALIDATION receipts.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

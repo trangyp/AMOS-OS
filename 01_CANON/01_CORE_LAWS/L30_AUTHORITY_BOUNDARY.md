@@ -1,6 +1,8 @@
 ---
+title: L30 AUTHORITY BOUNDARY
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L30 Authority Boundary Law
 
@@ -23,7 +25,7 @@ F1: authoritative authority canon merges any separated term.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

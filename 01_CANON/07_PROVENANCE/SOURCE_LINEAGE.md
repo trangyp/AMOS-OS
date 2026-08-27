@@ -1,4 +1,5 @@
 ---
+title: SOURCE LINEAGE
 artifact_id: AMOS-OS-SOURCE-LINEAGE
 canonical_name: SOURCE_LINEAGE
 artifact_type: canonical_lineage_framework
@@ -43,6 +44,7 @@ aliases:
   - Source Ancestry
   - Canon Source Lineage
 ---
+
 
 # AMOS OS Source Lineage
 
@@ -2719,7 +2721,7 @@ lifecycle_stage: CanonGovernance
 claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT_MOC|AMOS MOC]]
+  - INDEXED_BY: 00_ROOT_MOC|AMOS MOC
   - INDEXED_BY: CANON_MAP
   - GOVERNED_BY: AMOS_CORE_LAWS
   - CONSTRAINED_BY: INVARIANT_REGISTRY
@@ -2851,7 +2853,7 @@ UNKNOWN/GAP.
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
 NAMING_STANDARD ·
@@ -2880,7 +2882,7 @@ README
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -1,4 +1,5 @@
 ---
+title: K COMMIT TIME AUTHORITY
 artifact_id: AMOS-OS-K-COMMIT-TIME-AUTHORITY
 canonical_name: K_COMMIT_TIME_AUTHORITY
 artifact_type: kernel_commit_time_authority_contract
@@ -13,6 +14,7 @@ updated: 2026-08-26
 tags: ['kernel', 'authority', 'note']
 
 ---
+
 # K COMMIT TIME AUTHORITY
 
 > **AMOS Core target:** `v4.4`  
@@ -2443,7 +2445,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

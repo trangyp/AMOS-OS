@@ -75,14 +75,14 @@ aliases:
   - AMOS Canonical Authority Layer
 
 related:
-  - "[[README|AMOS OS]]"
-  - "[[ARCHITECTURE|Architecture]]"
-  - "[[SYSTEM_MAP|System Map]]"
-  - "[[DEPENDENCY_MAP|Dependency Map]]"
-  - "[[AUTHORITATIVE_STATE|Authoritative State]]"
-  - "[[00_ROOT_NAMING_STANDARD|Naming Standard]]"
-  - "[[PLACEMENT_RULES|Placement Rules]]"
-  - "[[CANON_MAP|Canon Map]]"
+  - "README|AMOS OS"
+  - "ARCHITECTURE|Architecture"
+  - "SYSTEM_MAP|System Map"
+  - "DEPENDENCY_MAP|Dependency Map"
+  - "AUTHORITATIVE_STATE|Authoritative State"
+  - "00_ROOT_NAMING_STANDARD|Naming Standard"
+  - "PLACEMENT_RULES|Placement Rules"
+  - "CANON_MAP|Canon Map"
 ---
 
 # AMOS OS Canon
@@ -1858,14 +1858,14 @@ The third invariant is:
 
 ---
 
-**Related:** [[README|AMOS OS]] · [[00_ROOT_MOC|MOC]] · [[ARCHITECTURE|Architecture]] · [[SYSTEM_MAP|System Map]] · [[DEPENDENCY_MAP|Dependency Map]] · [[AUTHORITATIVE_STATE|Authoritative State]] · [[00_ROOT_NAMING_STANDARD|Naming Standard]] · [[PLACEMENT_RULES|Placement Rules]] · [[ROADMAP|Roadmap]] · [[CANON_MAP|Canon Map]] · [[KERNEL_MAP|Kernel Map]] · [[CONTROL_PLANE_MAP|Control Plane Map]] · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|Knowledge Architecture]] · [[INDEX_RESEARCH_README|Research]] · [[LEGACY_ARCHIVE_README|Archive]]
+**Related:** README|AMOS OS · 00_ROOT_MOC|MOC · ARCHITECTURE|Architecture · SYSTEM_MAP|System Map · DEPENDENCY_MAP|Dependency Map · AUTHORITATIVE_STATE|Authoritative State · 00_ROOT_NAMING_STANDARD|Naming Standard · PLACEMENT_RULES|Placement Rules · ROADMAP|Roadmap · CANON_MAP|Canon Map · KERNEL_MAP|Kernel Map · CONTROL_PLANE_MAP|Control Plane Map · AMOS_FULL_BRAIN_OS_ARCHITECTURE|Knowledge Architecture · INDEX_RESEARCH_README|Research · LEGACY_ARCHIVE_README|Archive
 
 ```
 ```
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

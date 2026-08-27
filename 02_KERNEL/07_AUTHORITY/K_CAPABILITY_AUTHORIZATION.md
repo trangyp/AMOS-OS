@@ -1,4 +1,5 @@
 ---
+title: K CAPABILITY AUTHORIZATION
 artifact_id: AMOS-OS-K-CAPABILITY-AUTHORIZATION
 canonical_name: K_CAPABILITY_AUTHORIZATION
 artifact_type: kernel_capability_authorization_contract
@@ -13,6 +14,7 @@ updated: 2026-08-26
 tags: ['kernel', 'authority', 'note']
 
 ---
+
 # K CAPABILITY AUTHORIZATION
 
 > **AMOS Core target:** `v4.4`  
@@ -2906,7 +2908,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

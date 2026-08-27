@@ -1,6 +1,8 @@
 ---
+title: COGNITIVE MATRIX NAMING STANDARD
 tags: ['cognitive_matrix', 'index', 'note']
 ---
+
 
 # 00_INDEX — AMOS Cognitive Matrix Naming Standard
 
@@ -4771,7 +4773,7 @@ AUTHORITY
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

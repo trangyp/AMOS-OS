@@ -1,6 +1,8 @@
 ---
+title: MODE CONFLICT REGISTRY
 tags: ['control_plane', 'commit', 'mode_index', 'note']
 ---
+
 
 `MODE_CONFLICT_REGISTRY.md` in Drive is also only the reservation placeholder; there is no substantive canonical implementation in that artifact to reproduce verbatim. 
 
@@ -4055,7 +4057,7 @@ This should be treated as `DERIVED / CANDIDATE_CANON`, not recovered original ca
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

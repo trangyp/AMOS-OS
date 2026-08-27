@@ -1,6 +1,8 @@
 ---
+title: L31 AMOS PLANE
 tags: ['canon', 'core_laws', 'note']
 ---
+
 
 # L31 AMOS Plane Law
 
@@ -23,7 +25,7 @@ F1: authoritative plane canon merges plane responsibilities.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]

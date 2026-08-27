@@ -2943,7 +2943,7 @@ This document therefore replaces the placeholder as a substantive **Core Laws go
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+title: K CAUSAL EPOCH
 artifact_id: AMOS-OS-K-CAUSAL-EPOCH
 canonical_name: K_CAUSAL_EPOCH
 artifact_type: kernel_causal_epoch_contract
@@ -52,6 +53,7 @@ aliases:
   - K Causal Epoch
   - K_CAUSAL_EPOCH
 ---
+
 
 # K CAUSAL EPOCH
 
@@ -2539,7 +2541,7 @@ SILENTLY MUTATING HISTORY.
 ## Related
 
 [[README]] ·
-[[00_ROOT_MOC|AMOS MOC]] ·
+00_ROOT_MOC|AMOS MOC ·
 [[ARCHITECTURE]] ·
 [[AUTHORITATIVE_STATE]] ·
 [[DEPENDENCY_MAP]] ·
@@ -2577,7 +2579,7 @@ README ·
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+00_ROOT_MOC|AMOS MOC
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
