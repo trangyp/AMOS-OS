@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "Heritage × TSS Matrix"
 type: matrix
@@ -140,7 +139,6 @@ Heritage Decision Intelligence™
 ×
 
 The Trang System™ (TSS)
-````
 
 It operationalizes the source-defined framework relationship in:
 
@@ -5709,6 +5707,3 @@ RSCF-RELATIONS:
 ---
 
 **END OF `HERITAGE_X_TSS_MATRIX.md`**
-
-```
-```
