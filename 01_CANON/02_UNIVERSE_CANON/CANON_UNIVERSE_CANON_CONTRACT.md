@@ -1,5 +1,4 @@
 ---
-
 title: "CANON UNIVERSE CANON CONTRACT"
 canonical_name: "CANON_UNIVERSE_CANON_CONTRACT"
 type: canon
@@ -17,27 +16,26 @@ artifact_kind: "CANON_CONTRACT"
 path: "01_CANON/02_UNIVERSE_CANON/CANON_UNIVERSE_CANON_CONTRACT.md"
 
 tags:
-
-* amos_os
-* canon
-* universe
-* universe_canon
-* canon_contract
-* law_hierarchy
-* typed_artifacts
-* epistemic_governance
-* provenance
-* lineage
-* supersession
-* dependency_closure
-* local_finality
-* selective_invalidation
-* epoch_separation
-* receipts
-* rollback
-* rscf
-* gmef
-* canon/universe
+  - amos_os
+  - canon
+  - universe
+  - universe_canon
+  - canon_contract
+  - law_hierarchy
+  - typed_artifacts
+  - epistemic_governance
+  - provenance
+  - lineage
+  - supersession
+  - dependency_closure
+  - local_finality
+  - selective_invalidation
+  - epoch_separation
+  - receipts
+  - rollback
+  - rscf
+  - gmef
+  - canon/universe
 
 version: "1.0.0-contract-candidate"
 updated: "2026-08-27"
@@ -51,22 +49,22 @@ executable_binding: "PARTIAL_OR_NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 
 rscf:
-state: SOURCE_CLAIM
-claim_class: SOURCE_CLAIM
-provenance: "AMOS_corpus"
-scope: "universe_canon"
-regime: "CANON_UNIVERSE_CONTRACT"
-confidence_ceiling: 0.95
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: "AMOS_corpus"
+  scope: "universe_canon"
+  regime: "CANON_UNIVERSE_CONTRACT"
+  confidence_ceiling: 0.95
 
 governance:
-fail_closed_on_unknown_gap: true
-selective_invalidation: true
-competing_hypotheses_preserved: true
-rollback_before_consequential_mutation: true
-consequential_effect_receipts: true
-local_finality_requires_proof: true
-independence_must_be_demonstrated: true
----------------------------------------
+  fail_closed_on_unknown_gap: true
+  selective_invalidation: true
+  competing_hypotheses_preserved: true
+  rollback_before_consequential_mutation: true
+  consequential_effect_receipts: true
+  local_finality_requires_proof: true
+  independence_must_be_demonstrated: true
+---
 
 # CANON UNIVERSE CANON CONTRACT
 
