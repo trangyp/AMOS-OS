@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "Bio-Logical Laws Canon"
 type: canon
@@ -81,7 +80,6 @@ rscf:
 
 ```text
 01_CANON/01_CORE_LAWS
-````
 
 It reserves the canonical address for the AMOS framework family:
 
@@ -3103,6 +3101,3 @@ RSCF-RELATIONS:
 **Validation:** NOT_ESTABLISHED
 
 **Substantive native Bio-Logical laws:** UNKNOWN/GAP
-
-```
-```
