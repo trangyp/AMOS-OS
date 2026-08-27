@@ -1,7 +1,16 @@
 ---
 title: AMOS X UNIVERSE CANON
 type: note
+source: "25_COGNITIVE_MATRIX"
+rscf:
+  state: SOURCE_CLAIM
+  class: STRUCTURAL
+  provenance:
+    - internal
+  freshness: EVERGREEN
+  falsifiers: []
 tags: [note, 25-cognitive-matrix]
+canon-group: canon/cognitive-matrix
 ---
 
 The same **canon collision exists here**, and it is more fundamental than in the routing-table artifact.

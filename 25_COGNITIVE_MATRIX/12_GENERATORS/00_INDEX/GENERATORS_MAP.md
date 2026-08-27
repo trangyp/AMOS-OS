@@ -1,7 +1,16 @@
 ---
 title: GENERATORS MAP
 type: note
+source: "25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX"
+rscf:
+  state: SOURCE_CLAIM
+  class: STRUCTURAL
+  provenance:
+    - internal
+  freshness: EVERGREEN
+  falsifiers: []
 tags: [note, 00-index]
+canon-group: canon/cognitive-matrix
 ---
 
 ---title: "GENERATORS MAP"

@@ -1,7 +1,16 @@
 ---
 title: AMOS X NEUROSYNCAI
 type: note
+source: "25_COGNITIVE_MATRIX"
+rscf:
+  state: SOURCE_CLAIM
+  class: STRUCTURAL
+  provenance:
+    - internal
+  freshness: EVERGREEN
+  falsifiers: []
 tags: [note, 25-cognitive-matrix]
+canon-group: canon/cognitive-matrix
 ---
 
 ---title: "AMOS × NeuroSyncAI"

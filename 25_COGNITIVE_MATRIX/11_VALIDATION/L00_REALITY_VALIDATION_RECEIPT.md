@@ -1,7 +1,16 @@
 ---
 title: L00 REALITY VALIDATION RECEIPT
 type: note
+source: "25_COGNITIVE_MATRIX/11_VALIDATION"
+rscf:
+  state: SOURCE_CLAIM
+  class: STRUCTURAL
+  provenance:
+    - internal
+  freshness: EVERGREEN
+  falsifiers: []
 tags: [note, 11-validation]
+canon-group: canon/cognitive-matrix
 ---
 
 ---title: "L00_REALITY_ENVIRONMENT — Execution Validation Receipt"

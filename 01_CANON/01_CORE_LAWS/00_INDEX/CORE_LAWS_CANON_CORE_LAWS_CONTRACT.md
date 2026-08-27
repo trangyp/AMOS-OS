@@ -1,7 +1,16 @@
 ---
 title: CORE LAWS CANON CORE LAWS CONTRACT
 type: note
+source: "01_CANON/01_CORE_LAWS/00_INDEX"
+rscf:
+  state: SOURCE_CLAIM
+  class: STRUCTURAL
+  provenance:
+    - internal
+  freshness: EVERGREEN
+  falsifiers: []
 tags: [note, 00-index]
+canon-group: canon/core-laws
 ---
 
 ---title: "AMOS Core Laws Canon — Core Laws Contract"

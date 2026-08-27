@@ -1,7 +1,16 @@
 ---
 title: vault domain knowledge
 type: reference
+source: "07_SKILLS/amos-collapse-recovery/references"
+rscf:
+  state: SOURCE_CLAIM
+  class: STRUCTURAL
+  provenance:
+    - internal
+  freshness: EVERGREEN
+  falsifiers: []
 tags: [reference, references]
+canon-group: canon/skills
 ---
 
 ---title: "AMOS Collapse-Space Coverage Audit"

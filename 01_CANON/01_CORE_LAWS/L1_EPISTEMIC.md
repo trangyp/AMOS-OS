@@ -1,7 +1,16 @@
 ---
 title: L1 EPISTEMIC
 type: note
+source: "01_CANON/01_CORE_LAWS"
+rscf:
+  state: SOURCE_CLAIM
+  class: STRUCTURAL
+  provenance:
+    - internal
+  freshness: EVERGREEN
+  falsifiers: []
 tags: [note, 01-core-laws]
+canon-group: canon/core-laws
 ---
 
 ---title: "AMOS Core Laws — L1 Epistemic Laws"

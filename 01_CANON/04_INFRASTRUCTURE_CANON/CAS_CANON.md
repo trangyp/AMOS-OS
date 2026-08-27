@@ -1,7 +1,16 @@
 ---
 title: CAS CANON
 type: note
+source: "01_CANON/04_INFRASTRUCTURE_CANON"
+rscf:
+  state: SOURCE_CLAIM
+  class: STRUCTURAL
+  provenance:
+    - internal
+  freshness: EVERGREEN
+  falsifiers: []
 tags: [note, 04-infrastructure-canon]
+canon-group: canon/infrastructure
 ---
 
 ---title: "CAS Canon"

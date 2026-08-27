@@ -1,7 +1,16 @@
 ---
 title: AMOS X UBI
 type: note
+source: "25_COGNITIVE_MATRIX"
+rscf:
+  state: SOURCE_CLAIM
+  class: STRUCTURAL
+  provenance:
+    - internal
+  freshness: EVERGREEN
+  falsifiers: []
 tags: [note, 25-cognitive-matrix]
+canon-group: canon/cognitive-matrix
 ---
 
 The submitted `AMOS_X_UBI.md` is **not ready for unchanged canon ingestion**. The same load-bearing issue identified in `AMOS_X_UBI_MATRIX.md` remains: the geometric-mean definition of `i` is being promoted from a derived candidate into a native UBI equation without source support established in the retrieved official-manual evidence.

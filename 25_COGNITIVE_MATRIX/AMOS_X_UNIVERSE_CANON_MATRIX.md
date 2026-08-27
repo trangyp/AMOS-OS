@@ -1,7 +1,16 @@
 ---
 title: AMOS X UNIVERSE CANON MATRIX
 type: note
+source: "25_COGNITIVE_MATRIX"
+rscf:
+  state: SOURCE_CLAIM
+  class: STRUCTURAL
+  provenance:
+    - internal
+  freshness: EVERGREEN
+  falsifiers: []
 tags: [note, 25-cognitive-matrix]
+canon-group: canon/cognitive-matrix
 ---
 
 This matrix needs a **structural correction before canon ingestion**. The retrieved current `AMOS_7_PART_UNIVERSE_CANON.md` defines the canonical seven parts as **Reality → Sense → Knowledge → Cognition → Governance → Execution → Evolution**, not Physical Root → Pre-Symbolic → Biological → Logic → Cognitive → Governance → Civilizational Memory. The source itself identifies version `2.0.0`, AMOS Core target `v4.4`, status `ACTIVE_CANON_CANDIDATE`, and explicitly says the seven parts are semantic responsibility classes. 

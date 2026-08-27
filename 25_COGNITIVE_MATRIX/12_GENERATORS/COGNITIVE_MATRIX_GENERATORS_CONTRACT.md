@@ -1,7 +1,16 @@
 ---
 title: COGNITIVE MATRIX GENERATORS CONTRACT
 type: note
+source: "25_COGNITIVE_MATRIX/12_GENERATORS"
+rscf:
+  state: SOURCE_CLAIM
+  class: STRUCTURAL
+  provenance:
+    - internal
+  freshness: EVERGREEN
+  falsifiers: []
 tags: [note, 12-generators]
+canon-group: canon/cognitive-matrix
 ---
 
 ---title: "Cognitive Matrix Validation Contract"

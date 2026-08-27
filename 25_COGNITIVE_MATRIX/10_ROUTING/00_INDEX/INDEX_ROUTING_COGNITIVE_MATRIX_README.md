@@ -1,7 +1,16 @@
 ---
 title: INDEX ROUTING COGNITIVE MATRIX README
 type: note
+source: "25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX"
+rscf:
+  state: SOURCE_CLAIM
+  class: STRUCTURAL
+  provenance:
+    - internal
+  freshness: EVERGREEN
+  falsifiers: []
 tags: [note, 00-index]
+canon-group: canon/cognitive-matrix
 ---
 
 ---title: "INDEX ROUTING COGNITIVE MATRIX README"

@@ -1,7 +1,16 @@
 ---
 title: ATTACHMENTS 00 ROOT README
 type: note
+source: "00_ROOT/attachments"
+rscf:
+  state: SOURCE_CLAIM
+  class: STRUCTURAL
+  provenance:
+    - internal
+  freshness: EVERGREEN
+  falsifiers: []
 tags: [note, attachments]
+canon-group: canon/root
 ---
 
 ---title: "CANON README"
