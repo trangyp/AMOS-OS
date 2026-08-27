@@ -3,10 +3,14 @@ title: AMOS POLICY DESIGN ENGINE V0 GOVERNANCE RISK
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-policy-design-engine-v0, engine]
 type: data
 source: 11_KNOWLEDGE/engine
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
+
 ---
-
-
-
+# AMOS POLICY DESIGN ENGINE V0 GOVERNANCE RISK
 
 ```json
 {
@@ -64,3 +68,6 @@ source: 11_KNOWLEDGE/engine
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

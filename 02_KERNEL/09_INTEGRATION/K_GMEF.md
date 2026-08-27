@@ -1,26 +1,15 @@
 ---
 title: K GMEF
 type: note
-tags: [kernel, integration, note]
+source: 02_KERNEL/09_INTEGRATION
+tags: [kernel, integration, note, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-
-
-Below is the substantive `K_GMEF` replacement, grounded in the retrieved AMOS Core lineage rather than treating the placeholder as implemented canon. The v4.4 source explicitly describes GMEF as a **Governed Meta-Evolution** runtime, requires governance burden to be monotonic with recursive depth/consequence radius/irreversibility, and includes constitutional locking, external judging, failure memory, rollback, mutation classes, lineage/traceability, bounded mutation, and stale/replay protection. It also explicitly warns that its numerical thresholds are runtime/benchmark policy parameters—not empirical laws—and that the distributed mechanisms are not universal Byzantine-consensus proofs. 
-
----
-artifact_id: AMOS-OS-K-GMEF
-canonical_name: K_GMEF
-artifact_type: governed_meta_evolution_kernel
-status: AMOS_MODEL
-conclusion_class: MODEL
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-plane: KERNEL
-scope: AMOS_OS
-updated: 2026-08-26
----
 
 # K GMEF
 
@@ -2852,7 +2841,7 @@ EVOLUTION SPEED.
 
 ```text
 
-**Epistemic status:** `MODEL`, not automatically `VERIFIED` or final canon. The retrieved v4.4 lineage does provide direct source support for the GMEF runtime concept, recursive-governance requirement, monotonic burden principle, constitutional lock/external judging/failure-memory/rollback policy fields, mutation-class ordering, and lineage/replay/distributed-governance boundaries. :contentReference[oaicite:1]{index=1}
+**Epistemic status:** `MODEL`, not automatically `VERIFIED` or final canon. The retrieved v4.4 lineage does provide direct source support for the GMEF runtime concept, recursive-governance requirement, monotonic burden principle, constitutional lock/external judging/failure-memory/rollback policy fields, mutation-class ordering, and lineage/replay/distributed-governance boundaries.
 
 I have deliberately kept implementation claims such as persistent governance graphs, formal atomic multi-RSCF execution, universal distributed finality, and Byzantine guarantees at `UNKNOWN/GAP` rather than promoting architectural language into facts.
 ```
@@ -3309,7 +3298,6 @@ OWN THE BOUNDARY.
 ```
 
 
-
 ---
 
 # 7. Constitutional Layer
@@ -3513,7 +3501,6 @@ MAY CHANGE
 WITHOUT AN
 EXPLICIT MPP.
 ```
-
 
 
 Expanded AMOS representation:
@@ -3733,7 +3720,6 @@ or difficult-to-reverse changes.
 ```
 
 
-
 ---
 
 # 18. Evidence Packet
@@ -3764,7 +3750,6 @@ REPLICATION STATUS
 
 TRANSFERABILITY LIMITS
 ```
-
 
 
 Expanded representation:
@@ -3849,7 +3834,6 @@ F(v)
   Repairability
 ]
 ```
-
 
 
 This is a vector of evaluation dimensions, not a universal quantitative equation.
@@ -3955,7 +3939,6 @@ INDEPENDENT EVIDENCE
 ```
 
 
-
 This ties GMEF directly to AMOS v4.4 epistemic-regime and provenance discipline.
 
 ---
@@ -4024,7 +4007,6 @@ in current regime
 and fails after
 environmental change
 ```
-
 
 
 ---
@@ -4099,7 +4081,6 @@ Permit(v) = FALSE
 ```
 
 
-
 ---
 
 # 28. Structural Compression
@@ -4171,7 +4152,6 @@ MODEL OUTPUT
 !=
 AUTHORIZATION TOKEN
 ```
-
 
 
 ---
@@ -4300,7 +4280,6 @@ no security breach
 ```
 
 
-
 ---
 
 # 35. Stop Conditions
@@ -4352,7 +4331,6 @@ SHUTDOWN
 ```
 
 
-
 ---
 
 # 36. Reversibility Relation
@@ -4402,7 +4380,6 @@ FORGETTING
 ```
 
 
-
 ---
 
 # 38. Evolutionary Memory
@@ -4448,7 +4425,6 @@ rollback_target
 
 final_status
 ```
-
 
 
 ---
@@ -4515,7 +4491,6 @@ WARNING TRIGGER
 NOT
 PROOF OF FAILURE
 ```
-
 
 
 ---
@@ -4656,7 +4631,6 @@ governing second-order evolution
 ```
 
 
-
 ---
 
 # 46. Recursive Governance Relation
@@ -4746,7 +4720,6 @@ PERMANENT AUTHORITY
 ```
 
 
-
 ---
 
 # 49. Regime Revalidation
@@ -4798,7 +4771,6 @@ WHERE FEASIBLE
 ```
 
 
-
 ---
 
 # 51. Human Authority Boundary
@@ -4831,7 +4803,6 @@ SCOPED
 REVIEWABLE
 REVOCABLE
 ```
-
 
 
 ---
@@ -5287,7 +5258,6 @@ NEW STATE
 ```
 
 
-
 ---
 
 # 69. What May Evolve
@@ -5315,7 +5285,6 @@ INTERFACE VARIANTS
 BOUNDED
 RESOURCE ALLOCATION
 ```
-
 
 
 ---
@@ -5350,7 +5319,6 @@ IS REQUIRED
 UNRESTRICTED EXPANSION
 OF MACHINE AUTHORITY
 ```
-
 
 
 ---
@@ -5901,7 +5869,6 @@ Evolution Framework
 ```
 
 
-
 Later implementation note:
 
 ```text
@@ -5910,7 +5877,6 @@ GMEF
 Governance Mutation
 Evaluation Framework
 ```
-
 
 
 Recommended canonical resolution:
@@ -7083,9 +7049,9 @@ BURDEN MUST BECOME.
 
 ```text
 
-The key improvement here is that this is no longer mainly an inferred AMOS-v4.4 governance design. Its core is now mapped directly to the **actual 33-section GMEF v1.0 source**, while the later AMOS kernel implementation is separately typed as implementation evidence rather than being allowed to redefine the framework. :contentReference[oaicite:61]{index=61} :contentReference[oaicite:62]{index=62}
+The key improvement here is that this is no longer mainly an inferred AMOS-v4.4 governance design. Its core is now mapped directly to the **actual 33-section GMEF v1.0 source**, while the later AMOS kernel implementation is separately typed as implementation evidence rather than being allowed to redefine the framework.
 
-The largest remaining gap is implementation coverage: the evidence I found verifies a narrower GMEF mutation gate, not yet the entire canonical GMEF architecture—MPP, full lifecycle, X0–X6, ET0–ET5, HA0–HA5, evolutionary debt, repair-capacity logic, and the full audit contract should therefore **not** be marked implemented solely from that gate record. :contentReference[oaicite:63]{index=63}
+The largest remaining gap is implementation coverage: the evidence I found verifies a narrower GMEF mutation gate, not yet the entire canonical GMEF architecture—MPP, full lifecycle, X0–X6, ET0–ET5, HA0–HA5, evolutionary debt, repair-capacity logic, and the full audit contract should therefore **not** be marked implemented solely from that gate record.
 ```
 
 ---

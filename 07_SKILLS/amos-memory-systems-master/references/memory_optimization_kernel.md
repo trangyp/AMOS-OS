@@ -1,8 +1,15 @@
 ---
 title: memory optimization kernel
 type: reference
-tags: [reference, amos-memory-systems-master]
+source: 07_SKILLS/amos-memory-systems-master/references
+tags: [reference, amos-memory-systems-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Memory Optimization Kernel v0 Tech
 

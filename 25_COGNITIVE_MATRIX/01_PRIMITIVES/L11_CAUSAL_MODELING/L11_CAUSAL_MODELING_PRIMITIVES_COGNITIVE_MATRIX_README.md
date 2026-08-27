@@ -1,7 +1,13 @@
 ---
 title: L11 CAUSAL MODELING PRIMITIVES COGNITIVE MATRIX README
 type: note
-tags: [note, l11-causal-modeling]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L11_CAUSAL_MODELING
+tags: [note, l11-causal-modeling, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -48,3 +54,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L
 
 ---
 **MOC:** [[L11_CAUSAL_MODELING_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

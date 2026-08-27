@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-vietnamese-global-cultural-bridge-governor]
+source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/references
+tags: [reference, amos-vietnamese-global-cultural-bridge-governor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault Domain Knowledge — Vietnamese-Global Cultural Bridge Governor
 
@@ -168,3 +175,7 @@ This skill should be used in conjunction with `amos-cross-domain-tensor-composit
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

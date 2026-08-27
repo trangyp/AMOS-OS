@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, mckinsey-human-centered-design-rscf]
+source: 07_SKILLS/mckinsey-human-centered-design-rscf/references
+tags: [reference, mckinsey-human-centered-design-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -155,3 +162,7 @@ Tao sẽ **không giải thích lại**, mà tao sẽ **liệt kê tất cả ph
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

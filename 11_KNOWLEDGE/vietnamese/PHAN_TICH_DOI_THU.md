@@ -1,18 +1,21 @@
 ---
 title: PHAN TICH DOI THU
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # Phân tích đối thủ
 Hiện trạng thị trường xe công nghệ và taxi Việt Nam phản ánh một cấu trúc cạnh tranh phân mảnh nhưng lại đồng quy ở các điểm yếu hệ thống: không hãng nào vừa bảo đảm an sinh dài hạn, vừa tạo thu nhập minh bạch, vừa cho tài xế quyền tự chủ vận hành. Grab thống trị nhờ quy mô khách và hệ sinh thái đa dịch vụ, song thiếu an sinh, thu nhập biến động và kỷ luật zero-tolerance khiến tỷ lệ rời bỏ cao. Be tận dụng thương hiệu nội địa và chi phí gia nhập thấp, nhưng không đạt khối lượng cuốc cần thiết để duy trì thu nhập bền vững. Xanh SM nổi bật với lương cơ bản, BHXH và phương tiện điện cấp sẵn, nhưng lại bù trừ bằng KPI gắt gao, auto-assign và cơ chế truy thu gây áp lực lớn. Các hãng truyền thống (Vinasun, Mai Linh, G7) cung cấp hợp đồng lao động và phúc lợi đầy đủ, song bị giới hạn bởi doanh số cứng, công nghệ yếu và thu nhập thấp, làm họ mất dần tài xế trẻ về phía các nền tảng số.
 Khoảng trống thị trường (white space) xuất hiện chính ở giao điểm chưa được khai thác: **thu nhập minh bạch và dự đoán được, an sinh đầy đủ, kỷ luật hỗ trợ thay vì phạt, và tích hợp B2B để bảo đảm nguồn cuốc ổn định**. Không hãng nào hiện nay hiển thị cho tài xế “P&L theo giờ” (gross, phí nền tảng, chi phí vận hành, net), không hãng nào cung cấp bảo hiểm thu nhập hoặc gói phúc lợi gia đình, và không hãng nào loại bỏ cơ chế truy thu. Đây là cơ hội chiến lược cho UniTaxi định vị như nền tảng đầu tiên kết hợp sức mạnh công nghệ (app hiện đại, dữ liệu minh bạch) với giá trị truyền thống (an sinh xã hội, lương cơ bản), đồng thời mở rộng bằng **multi-energy fleet** và **corporate ride contracts**. Nếu thực thi đúng, UniTaxi có thể chiếm lợi thế cạnh tranh bền vững, trở thành chuẩn mực mới về hiệu quả vận hành và trải nghiệm tài xế trong ngành.
-# **🚖 Vietnam Ride-Hailing & Taxi Competition Matrix (Exhaustive 2.0)**
+# **Vietnam Ride-Hailing & Taxi Competition Matrix (Exhaustive 2.0)**
 |                                    |
 | **Metric**                         | **Grab**                                                           | **Be**                                | **Xanh SM (GSM)**                                      | **Vinasun**                       | **Mai Linh**                     | **G7 (HN)**                |
 |------------------------------------|--------------------------------------------------------------------|---------------------------------------|--------------------------------------------------------|-----------------------------------|----------------------------------|----------------------------|

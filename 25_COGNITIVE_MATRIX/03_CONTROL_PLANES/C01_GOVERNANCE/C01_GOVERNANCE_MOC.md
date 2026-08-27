@@ -1,8 +1,15 @@
 ---
 title: "C01 Governance MOC"
 type: moc
-tags: [moc, c01-governance]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE
+tags: [moc, c01-governance, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # C01 Governance — Map of Content
 

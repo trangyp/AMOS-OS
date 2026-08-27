@@ -1,18 +1,21 @@
 ---
 title: MAP
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Map
 Here’s a clear and updated comparison — focused on **accuracy, cost, and suitability for Vietnam’s regulatory environment**. This reflects how each provider performs in real-world mobility and logistics applications.
 * * *
-## 🧭 1. **Benchmark Summary**
+## 1. **Benchmark Summary**
 |                         |
 | Provider                | Accuracy (Vietnam)                                                  | Cost Level        | Local Compliance                    | API Flexibility                        | Notes                                                         |
 |-------------------------|---------------------------------------------------------------------|-------------------|-------------------------------------|----------------------------------------|---------------------------------------------------------------|
@@ -24,7 +27,7 @@ Here’s a clear and updated comparison — focused on **accuracy, cost, and sui
 
 
 * * *
-## ⚙️ 2. **Accuracy Detail (Vietnam Context)**
+## ️ 2. **Accuracy Detail (Vietnam Context)**
 |                         |
 | Region                  | Google   | Mapbox  | HERE    | Vietmap | OSM     |
 |-------------------------|----------|---------|---------|---------|---------|
@@ -35,7 +38,7 @@ Here’s a clear and updated comparison — focused on **accuracy, cost, and sui
 
 ➡️ _Vietmap wins slightly outside big cities because it’s updated by Vietnamese survey data._
 * * *
-## 💵 3. **Typical API Cost (per 1,000 requests)**
+## 3. **Typical API Cost (per 1,000 requests)**
 |                                |
 | API Function                   | Google Maps | Mapbox      | HERE  | Vietmap      | OSM                |
 |--------------------------------|-------------|-------------|-------|--------------|--------------------|
@@ -46,7 +49,7 @@ Here’s a clear and updated comparison — focused on **accuracy, cost, and sui
 
 _(Indicative global averages; Vietmap pricing varies by contract but is roughly 70–90 % cheaper than Google.)_
 * * *
-## 🧩 4. **Best-Value Setup for UniPower**
+## 4. **Best-Value Setup for UniPower**
 |                                  |
 | Priority                         | Recommendation          | Why                                                            |
 |----------------------------------|-------------------------|----------------------------------------------------------------|

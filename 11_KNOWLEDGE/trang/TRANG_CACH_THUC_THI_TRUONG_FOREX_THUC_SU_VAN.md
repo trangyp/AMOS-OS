@@ -1,19 +1,22 @@
 ---
 title: TRANG CACH THUC THI TRUONG FOREX THUC SU VAN
-tags: [trang, framework, reality]
+tags: [trang, framework, reality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
 
 
-
-
-
-# 📘 TRANG ∅**– Cách Thức Thị Trường FOREX Thực Sự Vận Hành**
+# TRANG ∅**– Cách Thức Thị Trường FOREX Thực Sự Vận Hành**
 * * *
 ##  _" 266 lỗ hổng để lật ngược bàn cờ & xây dựng đế chế giao dịch tự động bằng fractal – 1000 agent, 1 người, vô hạn lợi nhuận"_
 * * *
-# 🎬 MỞ ĐẦU 
+# MỞ ĐẦU 
 * * *
 ## LỜI MỞ ĐẦU – (Tên tác giả: Trang ∅)
 **Mỗi ngày. Mỗi lần bạn nhìn vào biểu đồ.**

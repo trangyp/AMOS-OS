@@ -1,8 +1,15 @@
 ---
 title: "30 Clinical Research MOC"
 type: moc
-tags: [moc, 30-clinical-research]
+source: 21_DOMAINS/30_CLINICAL_RESEARCH
+tags: [moc, 30-clinical-research, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 30 Clinical Research — Map of Content
 

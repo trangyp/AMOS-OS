@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX O10 VALUE CONTRACT
 type: cognitive
-tags: [cognitive_matrix, lifecycle_operations, o10_value, contract]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O10_VALUE
+tags: [cognitive_matrix, lifecycle_operations, o10_value, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # O10_VALUE — O10 Value
@@ -47,3 +52,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[O10_VALUE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

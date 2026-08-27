@@ -1,12 +1,15 @@
 ---
 title: VI SAO TON GIAO THAT BAI TRONG VIEC BAO TON CAI TH
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Vì Sao Tôn Giáo Thất Bại Trong Việc Bảo Tồn Cái Thấy Trực Tiếp

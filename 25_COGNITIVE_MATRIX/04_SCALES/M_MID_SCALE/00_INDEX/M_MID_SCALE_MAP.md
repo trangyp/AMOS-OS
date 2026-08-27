@@ -1,9 +1,14 @@
 ---
 title: M MID SCALE MAP
 type: map
-tags: [cognitive_matrix, m_mid_scale]
+source: 25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE/00_INDEX
+tags: [cognitive_matrix, m_mid_scale, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # M MID SCALE MAP
@@ -56,3 +61,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

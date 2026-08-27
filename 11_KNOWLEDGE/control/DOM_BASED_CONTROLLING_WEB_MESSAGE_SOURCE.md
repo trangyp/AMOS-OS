@@ -1,12 +1,17 @@
 ---
 title: DOM BASED CONTROLLING WEB MESSAGE SOURCE
-tags: [control, governance, policy]
+tags: [control, governance, policy, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/control
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: control_plane
+
 ---
 
-
-
+# DOM BASED CONTROLLING WEB MESSAGE SOURCE
 
 ## Controlling web-message source
 What is it

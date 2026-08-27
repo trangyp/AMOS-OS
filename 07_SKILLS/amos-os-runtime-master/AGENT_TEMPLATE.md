@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-os-runtime-master]
+source: 07_SKILLS/amos-os-runtime-master
+tags: [note, amos-os-runtime-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-os-runtime-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS OS & Runtime Master. Consolidates 141 sub-skills.
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-os-runtime-master_MOC]]

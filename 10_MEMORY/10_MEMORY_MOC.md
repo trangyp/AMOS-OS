@@ -1,8 +1,15 @@
 ---
 title: "10 Memory MOC"
 type: moc
-tags: [moc, 10-memory]
+source: 10_MEMORY
+tags: [moc, 10-memory, canon/memory]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 10 Memory — Map of Content
 

@@ -1,9 +1,14 @@
 ---
 title: INDEX COGNITIVE MATRIX README
 type: index
-tags: [cognitive_matrix, index, readme]
+source: 25_COGNITIVE_MATRIX/00_INDEX
+tags: [cognitive_matrix, index, readme, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # AMOS Cognitive Matrix

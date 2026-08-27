@@ -1,8 +1,15 @@
 ---
 title: "26 Ubi Si Somatic MOC"
 type: moc
-tags: [moc, 26-ubi-si-somatic]
+source: 21_DOMAINS/26_UBI_SI_SOMATIC
+tags: [moc, 26-ubi-si-somatic, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 26 Ubi Si Somatic — Map of Content
 

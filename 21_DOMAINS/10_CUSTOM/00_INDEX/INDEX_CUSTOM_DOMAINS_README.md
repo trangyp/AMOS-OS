@@ -1,9 +1,14 @@
 ---
 title: INDEX CUSTOM DOMAINS README
 type: index
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/10_CUSTOM/00_INDEX
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INDEX CUSTOM DOMAINS README

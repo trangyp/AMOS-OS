@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-boundary-scope-master]
+source: 07_SKILLS/amos-boundary-scope-master/references
+tags: [reference, amos-boundary-scope-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # amos-boundary-scope-master — Vault-Sourced Domain Knowledge
 
@@ -937,8 +944,6 @@ L5Input:
   requested_target_scope: ScopeEnvelope | null
   requested_target_regime: RegimeState | null
   requested_targe
-
-
 
 
 ## Vault-Sourced Domain Content

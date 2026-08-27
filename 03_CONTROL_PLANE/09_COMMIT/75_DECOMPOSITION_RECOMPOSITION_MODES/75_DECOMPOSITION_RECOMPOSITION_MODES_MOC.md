@@ -1,8 +1,15 @@
 ---
 title: "75 Decomposition Recomposition Modes MOC"
 type: moc
-tags: [moc, 75-decomposition-recomposition-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/75_DECOMPOSITION_RECOMPOSITION_MODES
+tags: [moc, 75-decomposition-recomposition-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 75 Decomposition Recomposition Modes — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, mckinsey-technology-sales-excellence-rscf]
+source: 07_SKILLS/mckinsey-technology-sales-excellence-rscf/references
+tags: [reference, mckinsey-technology-sales-excellence-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -180,3 +187,7 @@ Models assets, liabilities, leverage, liquidity, and default risk in banks and c
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,10 +1,15 @@
 ---
 title: LEGAL ENGINE MODEL
 type: model
+source: 11_KNOWLEDGE/engine
 aliases: [Legal Engine Kernel, AMOS_Legal_Engine]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/legal-engine-model, engine]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
 
 
 # AMOS Legal Engine Kernel
@@ -38,3 +43,6 @@ The engine routes based on matter type to focus on specific clusters (e.g., cont
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

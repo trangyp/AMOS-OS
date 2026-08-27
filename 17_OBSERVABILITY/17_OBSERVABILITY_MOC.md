@@ -1,8 +1,15 @@
 ---
 title: "17 Observability MOC"
 type: moc
-tags: [moc, 17-observability]
+source: 17_OBSERVABILITY
+tags: [moc, 17-observability, canon/observability]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 17 Observability — Map of Content
 

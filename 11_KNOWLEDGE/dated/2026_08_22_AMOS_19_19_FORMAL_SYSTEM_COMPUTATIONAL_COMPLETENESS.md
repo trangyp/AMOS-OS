@@ -8,8 +8,13 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 provenance: combined-ingestion (spec + implementation)
 byte_count_spec_ingested: 34500
 byte_count_implementation: 213000
----
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 
+---
 
 
 # AMOS 19×19 Formal System — Computational Completeness

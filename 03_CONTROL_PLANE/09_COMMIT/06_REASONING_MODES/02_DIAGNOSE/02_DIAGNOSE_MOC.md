@@ -1,8 +1,15 @@
 ---
 title: "02 Diagnose MOC"
 type: moc
-tags: [moc, 02-diagnose]
+source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/02_DIAGNOSE
+tags: [moc, 02-diagnose, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 02 Diagnose — Map of Content
 

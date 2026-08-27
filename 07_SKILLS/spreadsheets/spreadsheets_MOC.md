@@ -1,8 +1,15 @@
 ---
 title: "Spreadsheets MOC"
 type: moc
-tags: [moc, spreadsheets]
+source: 07_SKILLS/spreadsheets
+tags: [moc, spreadsheets, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Spreadsheets — Map of Content
 

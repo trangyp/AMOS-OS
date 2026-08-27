@@ -1,8 +1,15 @@
 ---
 title: coding engine vinfinity
 type: reference
-tags: [reference, amos-c10-tech-engineering-master]
+source: 07_SKILLS/amos-c10-tech-engineering-master/references
+tags: [reference, amos-c10-tech-engineering-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Coding Engine vInfinity
 
@@ -86,3 +93,7 @@ AMOS_OS_ROOT architecture, Universe_Brain/Omnistructure mappings, full multi-ker
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

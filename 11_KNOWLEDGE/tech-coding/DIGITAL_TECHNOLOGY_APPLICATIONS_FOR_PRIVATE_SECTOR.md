@@ -1,12 +1,15 @@
 ---
 title: DIGITAL TECHNOLOGY APPLICATIONS FOR PRIVATE SECTOR
-tags: [tech-coding, tech, coding]
+tags: [tech-coding, tech, coding, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/tech-coding
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: tech_engineering
+
 ---
-
-
-
 
 
 # **Digital Technology Applications for Private-Sector Development in Vietnam**

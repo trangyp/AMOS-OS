@@ -1,14 +1,19 @@
 ---
 title: MD 2026 08 23 COSMO BRAIN VAULT FULL DIRECTORY MAP
 type: map
+source: 11_KNOWLEDGE/brain
 origin_architect: Trang Phan
 provenance: direct file inspection + subagent exploration of _00_Cosmo brain subdirectories on 2026-08-23. All source files have been flattened to root level.
 confidence: 0.9
 epistemic_class: OBSERVATION
 conclusion_class: VERIFIED
-tags: [cosmo-brain, flatten, amos-consulting, amos-system-main, amos-forex, openclaw, main, amos-copilot, architecture, directory-map, brain]
+tags: [cosmo-brain, flatten, amos-consulting, amos-system-main, amos-forex, openclaw, main, amos-copilot, architecture, directory-map, brain, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
 ---
-
 
 
 # Cosmo Brain Vault — Full Directory Map (Post-Flatten)

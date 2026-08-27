@@ -1,8 +1,15 @@
 ---
 title: "Amos-Repair-Allocation-Optimizer MOC"
 type: moc
-tags: [moc, amos-repair-allocation-optimizer]
+source: 07_SKILLS/amos-repair-allocation-optimizer
+tags: [moc, amos-repair-allocation-optimizer, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Repair-Allocation-Optimizer — Map of Content
 

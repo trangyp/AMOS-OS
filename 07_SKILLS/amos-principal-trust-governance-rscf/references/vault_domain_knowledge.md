@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-principal-trust-governance-rscf]
+source: 07_SKILLS/amos-principal-trust-governance-rscf/references
+tags: [reference, amos-principal-trust-governance-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -320,3 +327,7 @@ This is the governance layer of the AMOS Universe OS — it sits between the tec
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

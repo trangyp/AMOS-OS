@@ -1,8 +1,15 @@
 ---
 title: "Amos-Agent-Systems-Master MOC"
 type: moc
-tags: [moc, amos-agent-systems-master]
+source: 07_SKILLS/amos-agent-systems-master
+tags: [moc, amos-agent-systems-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Agent-Systems-Master — Map of Content
 

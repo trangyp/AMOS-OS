@@ -1,8 +1,15 @@
 ---
 title: system status summary
 type: reference
-tags: [reference, amos-os-runtime-master]
+source: 07_SKILLS/amos-os-runtime-master/references
+tags: [reference, amos-os-runtime-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # System Status Summary
 
@@ -12,13 +19,13 @@ tags: [reference, amos-os-runtime-master]
 ---
 tags: [system]
 ---
-# 🚨 **SYSTEM STATUS SUMMARY**
+# **SYSTEM STATUS SUMMARY**
 
 ## **Current AMOS System State - 2026-03-16 12:51:38 UTC+07:00**
 
 ---
 
-## 📊 **OVERALL SYSTEM STATUS**
+## **OVERALL SYSTEM STATUS**
 
 **System Status**: ✅ **PRODUCTION READY**  
 **Branch**: brain-consolidation  
@@ -29,9 +36,9 @@ tags: [system]
 
 ---
 
-## 🎯 **VERTICAL SLICE STATUS**
+## **VERTICAL SLICE STATUS**
 
-### ✅ **FULLY OPERATIONAL (6/10) - SAFE FOR PRODUCTION**
+### **FULLY OPERATIONAL (6/10) - SAFE FOR PRODUCTION**
 
 | Component | Pass Rate | Status | API Endpoints |
 |-----------|-----------|--------|--------------|
@@ -42,14 +49,14 @@ tags: [system]
 | **Brain Intelligence** | 91.3% | ✅ FULLY OPERATIONAL | `/brain/*` |
 | **Audit & Security** | 91.7% | ✅ FULLY OPERATIONAL | `/audit/*`, `/security/*` |
 
-### 🔄 **NEAR-COMPLETE (2/10) - USE WITH CAUTION**
+### **NEAR-COMPLETE (2/10) - USE WITH CAUTION**
 
 | Component | Pass Rate | Status | Issues |
 |-----------|-----------|--------|---------|
 | **Quantum Meta-Cognitive** | 72.0% | 🔄 NEAR COMPLETE | Minor syntax issues |
 | **Metrics & Monitoring** | 77.8% | 🔄 NEAR COMPLETE | Minor syntax issues |
 
-### ⚠️ **PARTIAL SUCCESS (2/10) - LIMITED FUNCTIONALITY**
+### ️ **PARTIAL SUCCESS (2/10) - LIMITED FUNCTIONALITY**
 
 | Component | Pass Rate | Status | Issues |
 |-----------|-----------|--------|---------|
@@ -58,7 +65,7 @@ tags: [system]
 
 ---
 
-## 🌐 **API ENDPOINT SUMMARY**
+## **API ENDPOINT SUMMARY**
 
 ### **Core APIs (Fully Operational)**
 - **Runtime**: `/tasks`, `/tasks/{task_id}`, `/health`
@@ -76,7 +83,7 @@ tags: [system]
 
 ---
 
-## 🔧 **TECHNICAL ARCHITECTURE**
+## **TECHNICAL ARCHITECTURE**
 
 ### **Bridge Layer Pattern**
 - **Location**: `amos/integration/[component]_bridge.py`
@@ -95,7 +102,7 @@ tags: [system]
 
 ---
 
-## 📈 **PERFORMANCE METRICS**
+## **PERFORMANCE METRICS**
 
 ### **System Performance**
 - **Average Pass Rate**: 78.3%
@@ -118,10 +125,14 @@ tags: [system]
 
 ---
 
-## 🚨 **CRITICAL WARNINGS**
+## **CRITICAL WARNINGS**
 
 ### **High Risk Components**
 - **Organ System**: Syntax errors in source files, limited functionality
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

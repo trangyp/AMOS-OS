@@ -1,9 +1,14 @@
 ---
 title: INDEX MEDICAL CLINICAL DOMAINS README
 type: index
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/29_MEDICAL_CLINICAL/00_INDEX
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INDEX MEDICAL CLINICAL DOMAINS README

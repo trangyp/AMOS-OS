@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX O11 GOAL CONTRACT
 type: cognitive
-tags: [cognitive_matrix, lifecycle_operations, o11_goal, contract]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O11_GOAL
+tags: [cognitive_matrix, lifecycle_operations, o11_goal, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # O11_GOAL — O11 Goal
@@ -47,3 +52,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[O11_GOAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

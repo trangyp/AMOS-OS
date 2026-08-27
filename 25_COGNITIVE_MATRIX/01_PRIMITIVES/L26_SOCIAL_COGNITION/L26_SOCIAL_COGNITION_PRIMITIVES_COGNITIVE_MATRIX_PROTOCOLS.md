@@ -1,7 +1,13 @@
 ---
 title: L26 SOCIAL COGNITION PRIMITIVES COGNITIVE MATRIX PROTOCOLS
 type: note
-tags: [note, l26-social-cognition]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L26_SOCIAL_COGNITION
+tags: [note, l26-social-cognition, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -44,3 +50,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L
 
 ---
 **MOC:** [[L26_SOCIAL_COGNITION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

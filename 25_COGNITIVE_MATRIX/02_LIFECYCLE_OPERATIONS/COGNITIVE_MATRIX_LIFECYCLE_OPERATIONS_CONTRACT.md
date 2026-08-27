@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX LIFECYCLE OPERATIONS CONTRACT
 type: lifecycle
-tags: [cognitive_matrix, cognitive_matrix_lifecycle_operations_contract.md]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS
+tags: [cognitive_matrix, cognitive_matrix_lifecycle_operations_contract.md, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # COGNITIVE MATRIX LIFECYCLE OPERATIONS CONTRACT
@@ -75,3 +80,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[02_LIFECYCLE_OPERATIONS_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

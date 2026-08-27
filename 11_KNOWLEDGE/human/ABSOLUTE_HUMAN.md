@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Absolute-Human (final version).txt"
 origin_architect: "Trang Phan"
 type: reference
-tags: [amos, absolute-human, omnistucture, 27-archetypes, 54-risks, 196-process-risks, behavioral-risks, cognitive-risks, social-risks, structural-risks, human]
+source: 11_KNOWLEDGE/human
+tags: [amos, absolute-human, omnistucture, 27-archetypes, 54-risks, 196-process-risks, behavioral-risks, cognitive-risks, social-risks, structural-risks, human, canon/knowledge]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: human_alignment
 ---
 
 

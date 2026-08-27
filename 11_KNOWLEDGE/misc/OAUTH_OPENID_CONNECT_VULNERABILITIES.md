@@ -1,12 +1,17 @@
 ---
 title: OAUTH OPENID CONNECT VULNERABILITIES
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
-
-
+# OAUTH OPENID CONNECT VULNERABILITIES
 
 ### Vulnerabilities
 * Specification for OpenID Connect is much stricter than basic OAuth

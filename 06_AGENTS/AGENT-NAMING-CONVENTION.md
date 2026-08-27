@@ -1,8 +1,15 @@
 ---
 title: AGENT NAMING CONVENTION
 type: note
-tags: [note, vault]
+source: 06_AGENTS
+tags: [note, vault, canon/agent]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # AMOS Agent Naming Convention
 

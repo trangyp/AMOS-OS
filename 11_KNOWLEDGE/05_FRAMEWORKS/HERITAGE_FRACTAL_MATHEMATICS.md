@@ -1,6 +1,7 @@
 ---
 title: "Heritage Fractal Mathematics"
 type: fractal
+source: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact: "HERITAGE_FRACTAL_MATHEMATICS.md"
 artifact_id: "amos_11_knowledge_05_frameworks_heritage_fractal_mathematics"
 origin_architect: "Trang Phan"
@@ -8,208 +9,122 @@ steward: "Trang Phan"
 system: "AMOS OS"
 plane: "11_KNOWLEDGE"
 segment: "11_KNOWLEDGE/05_FRAMEWORKS"
-artifact_kind: "ARTIFACT"
+artifact_kind: "MATHEMATICS"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_FRACTAL_MATHEMATICS.md"
 
-tags: [amos_os, knowledge, vault, 11_knowledge, artifact, canon_placeholder, rscf]
+tags:
+  - amos_os
+  - knowledge
+  - vault
+  - 11_knowledge
+  - 05_frameworks
+  - heritage_fractal_mathematics
+  - ancient_fractals
+  - 12_fractal_types
+  - repeating_geometry
+  - self_similarity
+  - rscf
+  - canon_candidate
+  - canon/knowledge
 
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
+validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
----
 
+ingestion_action: "NATIVE_CANON_INGESTION"
+raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: AMOS_MODEL
+  provenance:
+    - HERITAGE_ANCIENT_FRACTAL_MATHEMATICS_AND_REPEATI
+    - HERITAGE_12_LOAI_FRACTAL_VA_UNG_DUNG_CUA_CHUN
+    - AMOS_CORPUS
+  scope:
+    - KNOWLEDGE_FRAMEWORKS
+    - FRACTAL_MATHEMATICS
+    - SOURCE_DEFINED_MODEL
+
+framework_binding:
+  primary:
+    name: "Heritage Ancient Fractal Mathematics & Geometry"
+    role: FRACTAL_MATHEMATICAL_FOUNDATIONS
+  master_framework:
+    artifact: "[[HERITAGE_INTELLIGENCE_MASTER]]"
+  fractal_reasoning:
+    artifact: "[[FRAI_FRACTAL_REASONING_AI]]"
+
+epistemic_boundary:
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  framework_structure: VERIFIED_SOURCE_STRUCTURE
+  mathematical_model: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
+---
 
 
 # Heritage Fractal Mathematics
 
-## 0. Status
+`HERITAGE_FRACTAL_MATHEMATICS.md` is the canonical Knowledge Plane reference artifact for **Heritage Ancient Fractal Mathematics & Geometry** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
-`HERITAGE_FRACTAL_MATHEMATICS.md` is an **ADD-ONLY placeholder** for the **Knowledge** plane segment at `11_KNOWLEDGE/05_FRAMEWORKS`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-Origin architect / steward:
-
-**Trang Phan**
+It articulates the ancient mathematical foundations of scale-invariant geometries, detailing **12 distinct fractal types** and their applications across architecture, spatial organization, social structures, and economic networks.
 
 ---
 
-## 1. Purpose
+# 1. Structural Typology: 12 Fractal Classes
 
-This artifact reserves the **Heritage Fractal Mathematics** slot within the Knowledge plane. The Knowledge plane governs knowledge base integration: claims, RSCF indices, framework nodes, domain knowledge.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
+1. **Self-Similar Geometric Iteration:** Exact scaling iterations (Cantor sets, Sierpinski gaskets, Koch structures).
+2. **Harmonic Acoustic Fractals:** Scale-invariant frequency distributions and resonance ladders.
+3. **Branching & Vascular Networks:** Optimal fluid, energy, and token transport topologies (Murray's Law).
+4. **Spatial Settlement Fractals:** Historical human urban growth patterns and market hierarchies (Christaller scaling).
+5. **Lacunarity & Void Distribution:** Gapping and texture density invariance across spatial scales.
+6. **Multi-Scale Tensegrity Meshes:** Structural load distribution without bulk mass accumulation.
+7. **Recursive Temporal Cycles:** Nested cyclical rhythms in historical systems ($C_1 \dots C_7$).
+8. **Cognitive Abstraction Ladders:** Hierarchical concept clustering in biological neural networks.
+9. **Relational Kinship Networks:** Scale-stable social group organization (Dunbar fractals).
+10. **Economic Market Order Flows:** Multi-timeframe liquidity structures and power-law distribution.
+11. **Boundary & Defense Perimeters:** Nested perimeter fortification and fault isolation.
+12. **Null-Origin Symmetrical Fractals:** Symmetrical balance around an invariant center ($\emptyset$).
 
 ---
 
-## 3. Ingestion Rule
+# 2. Inter-Plane & Vault Connections
+
+- **Master Framework:** [[HERITAGE_INTELLIGENCE_MASTER]]
+- **Fractal AI:** [[FRAI_FRACTAL_REASONING_AI]]
+- **Pattern Systems:** [[HERITAGE_PATTERN_INTELLIGENCE]] and [[HERITAGE_SPATIAL_INTELLIGENCE]]
+- **Native Sources:** `HERITAGE_ANCIENT_FRACTAL_MATHEMATICS_AND_REPEATI` and `HERITAGE_12_LOAI_FRACTAL_VA_UNG_DUNG_CUA_CHUN`
+
+---
+
+# 3. RSCF Contract
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+RSCF:
+  node_id: amos_11_knowledge_05_frameworks_heritage_fractal_mathematics
+  node_type: mathematics
+  claim_class: AMOS_MODEL
+  state: SOURCE_GROUNDED
+  H:
+    identity: "Heritage Fractal Mathematics"
+    role: "Scale-invariant geometric and mathematical foundations across 12 fractal classes"
+  M:
+    classes_count: 12
+    primitives: [geometric_iteration, acoustic_fractals, vascular_networks, settlement_scaling, lacunarity]
+  confidence_ceiling:
+    source_model: SOURCE_BOUND
+    runtime: UNKNOWN
 ```
 
 ---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `11_KNOWLEDGE · ARTIFACT` within the Knowledge plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-00_ROOT_MOC|AMOS MOC
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_11_knowledge_05_frameworks_heritage_fractal_mathematics
-
-node_type: artifact
-
-path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_FRACTAL_MATHEMATICS.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[05_FRAMEWORKS_MOC]] · [[HERITAGE_INTELLIGENCE_MASTER]] · [[FRAI_FRACTAL_REASONING_AI]] · [[HERITAGE_PATTERN_INTELLIGENCE]]
 
 ---
 **MOC:** [[05_FRAMEWORKS_MOC]]

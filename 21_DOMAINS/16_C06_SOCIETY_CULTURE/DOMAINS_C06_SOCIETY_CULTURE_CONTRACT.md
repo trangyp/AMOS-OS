@@ -1,9 +1,14 @@
 ---
 title: DOMAINS C06 SOCIETY CULTURE CONTRACT
 type: note
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/16_C06_SOCIETY_CULTURE
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # DOMAINS C06 SOCIETY CULTURE CONTRACT

@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, mckinsey-technology-company-strategy-rscf]
+source: 07_SKILLS/mckinsey-technology-company-strategy-rscf/references
+tags: [reference, mckinsey-technology-company-strategy-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -145,3 +152,7 @@ Strict prohibitions against generating strategies for physical harm or illegal m
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

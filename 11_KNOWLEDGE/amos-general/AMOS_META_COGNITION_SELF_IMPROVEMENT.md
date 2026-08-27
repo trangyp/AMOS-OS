@@ -3,9 +3,13 @@ title: AMOS META COGNITION SELF IMPROVEMENT
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-meta-cognition-self-improvement, amos-general]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
 
 
 # AMOS Meta-Cognition: How the Brain Thinks

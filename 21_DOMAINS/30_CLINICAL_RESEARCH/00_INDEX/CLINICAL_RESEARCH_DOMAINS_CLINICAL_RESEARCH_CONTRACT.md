@@ -1,9 +1,14 @@
 ---
 title: CLINICAL RESEARCH DOMAINS CLINICAL RESEARCH CONTRACT
 type: research
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/30_CLINICAL_RESEARCH/00_INDEX
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # CLINICAL RESEARCH DOMAINS CLINICAL RESEARCH CONTRACT

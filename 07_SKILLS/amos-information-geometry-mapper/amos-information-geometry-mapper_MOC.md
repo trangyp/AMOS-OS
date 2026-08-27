@@ -1,8 +1,15 @@
 ---
 title: "Amos-Information-Geometry-Mapper MOC"
 type: moc
-tags: [moc, amos-information-geometry-mapper]
+source: 07_SKILLS/amos-information-geometry-mapper
+tags: [moc, amos-information-geometry-mapper, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Information-Geometry-Mapper — Map of Content
 

@@ -1,18 +1,18 @@
 ---
 title: QUY CHE GIA TREN APP
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
 # Quy che gia tren app
-✅ **Yes — this setup can fully work as a temporary MVP workaround.**
-Here’s how to map the Vietnamese fare structure to the existing fields so you don’t need new development right away:
-* * *
 ### **Recommended configuration mapping**
 |                            |
 | **VN Fare Component**      | **System Field**                | **How to configure**                                                                                                |
@@ -24,7 +24,6 @@ Here’s how to map the Vietnamese fare structure to the existing fields so you 
 | **Giá lốc (giảm 10%)**     |  Surge value (âm)               | Nhập giá trị âm hoặc giảm giá theo thời gian nhất định (VD: -10%) để khuyến khích hành vi đi lại định kỳ.           |
 | **Giá tối thiểu (nếu có)** |  Base fare                      | Giữ 0 nếu không áp dụng.                                                                                            |
 | **Giá giờ cao điểm**       |  Surge price details            | Bật “Yes” → chọn khung giờ và phần trăm tăng (VD: +20%).                                                            |
-
 
 * * *
 ## **How to simulate “Cơ chế giá mềm” using current fare fields**
@@ -38,7 +37,6 @@ Here’s how to map the Vietnamese fare structure to the existing fields so you 
 | **> 30 km → 14.000đ/km**  | Bù chiều về              | Use **Surge Price = +25%** after 30km threshold.                                                                        |
 | **Giá chờ (1.000đ/phút)** |  Thời gian chờ khách     | Input in **Minute price** or **Waiting fare** field.                                                                    |
 
-
 * * *
 ## **Implementation Logic (for dev note / config sheet)**
 > “Surge pricing” is repurposed not as a time-based multiplier, but as a
@@ -46,12 +44,9 @@ Here’s how to map the Vietnamese fare structure to the existing fields so you 
 > Example:
   * Surge Rule 1: Distance > 10 km → +9%
 
-
   * Surge Rule 2: Distance > 20 km → +18%
 
-
   * Surge Rule 3: Distance > 30 km → +27%
-
 
 Even if RadicalStart doesn’t currently allow multiple surge layers, you can still run these adjustments manually via **periodic fare table updates (per distance band)** until dynamic logic is added.
 * * *
@@ -64,17 +59,13 @@ Even if RadicalStart doesn’t currently allow multiple surge layers, you can st
 | Hành trình mượt giữa cuốc ngắn & dài | Tránh bất mãn từ tài xế / khách hàng về giá cước “nhảy sốc”        |
 | Dễ triển khai MVP                    | Không cần phát triển tính năng mới, chỉ dùng surge & manual update |
 
-
 * * *
 ## **Kết luận**
   * Có thể triển khai ngay với hệ thống hiện tại bằng **cấu hình giá + surge theo khoảng cách**.
 
-
   * Khi UniTaxi mở rộng, chỉ cần **thêm trường “Distance Tier Pricing”** để tự động hóa.
 
-
   * Mô hình này giúp UniPower **trở thành nền tảng giá mềm đầu tiên ở Việt Nam** , đúng định hướng “giao thông xanh – minh bạch – nhân văn”.
-
 
 * * *
 --- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]

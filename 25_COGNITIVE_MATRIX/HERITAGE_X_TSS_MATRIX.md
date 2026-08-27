@@ -1,6 +1,7 @@
 ---
 title: "Heritage × TSS Matrix"
-type: heritage
+type: matrix
+source: 25_COGNITIVE_MATRIX
 artifact: "HERITAGE_X_TSS_MATRIX.md"
 artifact_id: "amos_25_cognitive_matrix_heritage_x_tss_matrix"
 origin_architect: "Trang Phan"
@@ -11,205 +12,128 @@ segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "MATRIX"
 path: "25_COGNITIVE_MATRIX/HERITAGE_X_TSS_MATRIX.md"
 
-tags: [amos_os, cognitive_matrix, matrix, 25_cognitive_matrix, canon_placeholder, rscf]
+tags:
+  - amos_os
+  - cognitive_matrix
+  - matrix
+  - 25_cognitive_matrix
+  - heritage
+  - tss
+  - heritage_tss_matrix
+  - decision_routing
+  - governance
+  - lifecycle_matrix
+  - risk_lattice
+  - rscf
+  - canon_candidate
+  - canon/cognitive-matrix
 
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
+validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
----
 
+ingestion_action: "NATIVE_CANON_INGESTION"
+raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: AMOS_MODEL
+  provenance:
+    - HERITAGE_INTELLIGENCE_CANON
+    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
+    - AMOS_CORPUS
+  scope:
+    - DECISION_ROUTING
+    - MATRIX_TRAVERSAL
+    - COGNITIVE_MATRIX
+
+framework_binding:
+  artifact:
+    name: "Heritage × TSS"
+    artifact_ref: "[[HERITAGE_X_TSS]]"
+  role: MULTIDIMENSIONAL_DECISION_ROUTING_MATRIX
+
+epistemic_boundary:
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  framework_structure: VERIFIED_SOURCE_STRUCTURE
+  decision_rules: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
+---
 
 
 # Heritage × TSS Matrix
 
-## 0. Status
-
-`HERITAGE_X_TSS_MATRIX.md` is an **ADD-ONLY placeholder** for the **Cognitive Matrix** plane segment at `25_COGNITIVE_MATRIX`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+`HERITAGE_X_TSS_MATRIX.md` provides the multi-dimensional Cognitive Matrix routing interface over:
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+Heritage Decision Intelligence™
+×
+The Trang System™ (TSS)
 ```
 
-Origin architect / steward:
-
-**Trang Phan**
+It operationalizes the framework definitions established in [`HERITAGE_X_TSS.md`](file:///Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/HERITAGE_X_TSS.md) into actionable matrix cells, risk lattices, and decision traversal pipelines.
 
 ---
 
-## 1. Purpose
+# 1. 2D Decision Matrix: TSS Cycles $\times$ Heritage Decision Dimensions
 
-This artifact reserves the **Heritage × TSS Matrix** slot within the Cognitive Matrix plane. The Cognitive Matrix plane governs primitives L00-L29, lifecycle operations, control planes, scales, cell registry, routing, validation, generators.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
+```text
+               │  TRUST & IDENTITY  │  TIMING & READINESS  │  SELF-REFUTATION  │  ROLLBACK & PRESERVATION
+───────────────┼────────────────────┼──────────────────────┼───────────────────┼───────────────────────────
+C1: Emergence  │ Genesis invariants │ Formative pacing     │ Anti-thesis test  │ Establish clean root basin
+C2: Expansion  │ Cultural cohesion  │ Reserve-scaled speed │ Scale stress-test │ Reversible growth bets
+C3: Overreach  │ Value alignment    │ Pre-emptive pruning  │ Bureaucracy audit │ De-escalation triggers
+C4: Fragment   │ Cross-silo trust   │ Freeze expansion     │ Neutral mediation │ Core asset ring-fencing
+C5: Crisis     │ Emergency command  │ Rapid triage window  │ Worst-case models │ Survival fallback lock
+C6: Collapse   │ Minimum viable core│ Orderly wind-down    │ Legacy post-mortem│ Archive & seed preservation
+C7: Reset      │ New social charter │ Reconstruction phase │ Reform audit      │ Iterative roll-forward
+```
 
 ---
 
-## 3. Ingestion Rule
+# 2. Matrix Traversal Protocol
+
+When a strategic decision or governance query arrives:
+
+```text
+1. CYCLE LOCATE       → Diagnose target system's position in C1–C7 using TSS variable vector (Ω, H, F, S).
+2. RISK LATTICE       → Compute P_collapse and trust score against cycle-specific threshold.
+3. ADVERSARIAL PASS   → Execute Self-Refutation protocol to locate unmodeled downside catastrophic basins.
+4. GOVERNANCE GATE    → Check authority warrant (Capability != Authority) and mandate explicit rollback basin.
+5. COMMIT OR HOLD     → If all gates pass: issue Decision Receipt. If critical gaps exist: fail-closed to HOLD.
+```
+
+---
+
+# 3. RSCF Contract
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+RSCF:
+  node_id: amos_25_cognitive_matrix_heritage_x_tss_matrix
+  node_type: matrix
+  claim_class: AMOS_MODEL
+  state: SOURCE_GROUNDED
+  H:
+    identity: "Heritage × TSS Matrix"
+    role: "Multidimensional decision routing and cycle governance matrix"
+  M:
+    traversal_dimensions: [cycle, trust, timing, self_refutation, rollback]
+  L:
+    load_on_demand: [cell_specific_governance_receipts, risk_lattice_evaluations]
+  confidence_ceiling:
+    source_model: SOURCE_BOUND
+    runtime: UNKNOWN
 ```
 
 ---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `25_COGNITIVE_MATRIX · MATRIX` within the Cognitive Matrix plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-00_ROOT_MOC|AMOS MOC
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_25_cognitive_matrix_heritage_x_tss_matrix
-
-node_type: matrix
-
-path: 25_COGNITIVE_MATRIX/HERITAGE_X_TSS_MATRIX.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[HERITAGE_X_TSS]] · [[AMOS_X_TSS]] · [[AMOS_X_TSS_TPE_MATRIX]] · [[AMOS_X_TPE]] · [[HERITAGE_X_TRANG_ZERO]]
 
 ---
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]

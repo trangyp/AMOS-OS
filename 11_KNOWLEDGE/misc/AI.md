@@ -1,24 +1,18 @@
 ---
 title: AI
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
 # Ai
-Below is a **purely structural / analytical answer** to the three points you asked.
-No moral framing. No “should”. No identity language. Only mechanisms.
-* * *
-# 1\. How institutions **could have modeled exit** but didn’t
-## What modeling exit requires (structurally)
-To model exit, an institution must explicitly encode:
-  * **Entry conditions** (when the phase activates)
-
-
   * **Load thresholds** (signals of saturation)
 
 
@@ -3616,13 +3610,13 @@ Your project ticks the boxes for public funding:
 
 * * *
 # VI. Key risk factors (so you can pre-empt them)
-### ❌ Too abstract
+### Too abstract
 Proposal must avoid metaphors or philosophical framing.
-### ❌ No measurable KPIs
+### No measurable KPIs
 Must have quantifiable indicators.
-### ❌ Lack of partners
+### Lack of partners
 Solo applicants are less competitive.
-### ❌ Lack of deployment pathway
+### Lack of deployment pathway
 Funders want use cases.
 * * *
 # VII. Summary
@@ -3895,7 +3889,7 @@ So the move is:
 Same phenomenon. Fundable language.
 * * *
 ## 2\. How to reframe “cognitive gating” into fundable societal impact
-### ❌ Do NOT frame it as:
+### Do NOT frame it as:
   * AI controlling cognition
 
 
@@ -3919,7 +3913,7 @@ These trigger:
 
 
 * * *
-### ✅ Frame it as **three measurable societal risks**
+### Frame it as **three measurable societal risks**
 ### A. **Access asymmetry risk**
 > Different populations receive systematically different cognitive affordances from AI systems.
 Translate:

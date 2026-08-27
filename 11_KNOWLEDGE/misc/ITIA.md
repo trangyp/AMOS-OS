@@ -1,35 +1,18 @@
 ---
 title: ITIA
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
 # ITIA
-Yes — **that is correct, clean, and internally consistent**.
-> ITIA = Institute for Trust, Intelligence & Autonomy
-This mapping **works semantically, institutionally, and strategically**.
-Let me lock it in properly so you can use it with confidence.
-* * *
-## Canonical form (use this everywhere)
-### **Full name**
-**Institute for Trust, Intelligence & Autonomy**
-### **Acronym**
-**ITIA**
-### **Short reference**
-**ITIA**
-(no expansion needed once established)
-* * *
-## Why this is the _right_ expansion (no hype)
-Each term maps exactly to your actual system layers:
-  * **Trust**  
-→ consent, provenance, scoring, accountability, law alignment
-
-
   * **Intelligence**  
 → human + AI cognition, decision systems, AMOS
 

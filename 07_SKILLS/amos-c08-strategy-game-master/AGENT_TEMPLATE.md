@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-c08-strategy-game-master]
+source: 07_SKILLS/amos-c08-strategy-game-master
+tags: [note, amos-c08-strategy-game-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-c08-strategy-game-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS C08 — Strategy & Game Master. Consolidates 31 sub
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-c08-strategy-game-master_MOC]]

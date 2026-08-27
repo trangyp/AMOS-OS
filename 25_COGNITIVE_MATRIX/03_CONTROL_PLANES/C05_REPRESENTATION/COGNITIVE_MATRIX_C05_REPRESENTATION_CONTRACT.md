@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX C05 REPRESENTATION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, control_planes, c05_representation, contract]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C05_REPRESENTATION
+tags: [cognitive_matrix, control_planes, c05_representation, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # C05_REPRESENTATION — Representation control: tensor axis discipline, class demarcation on encodings.
@@ -44,3 +49,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[C05_REPRESENTATION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

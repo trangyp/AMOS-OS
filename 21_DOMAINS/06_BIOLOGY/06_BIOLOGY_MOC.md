@@ -1,8 +1,15 @@
 ---
 title: "06 Biology MOC"
 type: moc
-tags: [moc, 06-biology]
+source: 21_DOMAINS/06_BIOLOGY
+tags: [moc, 06-biology, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 06 Biology — Map of Content
 

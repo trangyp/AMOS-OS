@@ -1,23 +1,27 @@
 ---
 title: AMOS VISUAL DESIGN INTELLIGENCE ENGINE
-tags: [models, model, specification]
+tags: [models, model, specification, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/models
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: model_specification
+
 ---
-
-
 
 
 # AMOS VISUAL DESIGN + UI/UX STRUCTURAL INTELLIGENCE ENGINE
 ## COMPLETE IMPLEMENTATION REPORT
 
-### 🎯 MISSION ACCOMPLISHED: 9-Phase Visual Design Intelligence Engine
+### MISSION ACCOMPLISHED: 9-Phase Visual Design Intelligence Engine
 
 Successfully implemented the complete **AMOS VISUAL DESIGN + UI/UX STRUCTURAL INTELLIGENCE ENGINE** with comprehensive 9-phase pipeline that learns and stores visual/UI/UX structure from design artifacts, extracts patterns, validates and compresses them into a Single Source of Truth (SSOT), and generates the best possible UI/UX for any SOA product type with deterministic, testable outputs.
 
 ---
 
-## 📊 EXECUTIVE SUMMARY
+## EXECUTIVE SUMMARY
 
 **System Status**: ✅ FULLY OPERATIONAL  
 **Implementation**: 9/9 Phases Complete  
@@ -27,18 +31,18 @@ Successfully implemented the complete **AMOS VISUAL DESIGN + UI/UX STRUCTURAL IN
 **Accessibility Compliance**: WCAG AA+  
 
 ### Key Achievements
-- **🔍 Complete Design System Analysis**: Scanned all UI/design assets and extracted structural patterns
-- **📦 Canonical Token Registry**: Built SSOT for design tokens with provenance tracking
-- **🧩 Component Contract Extraction**: Normalized component specifications with accessibility requirements
-- **🗺️ Information Architecture Mapping**: Extracted IA, flows, and error loops
-- **⚖️ Conflict Resolution**: Handled conflicts with regime-specific forks
-- **🗜️ Design System Compression**: Compressed to minimal basis while preserving expressiveness
-- **🎨 UI Pack Generation**: Built archetype-specific UI packs for 10 product types
-- **🔌 Kernel Integration**: Wired into AMOS Kernel for deterministic UI generation
+- **Complete Design System Analysis**: Scanned all UI/design assets and extracted structural patterns
+- **Canonical Token Registry**: Built SSOT for design tokens with provenance tracking
+- **Component Contract Extraction**: Normalized component specifications with accessibility requirements
+- **️ Information Architecture Mapping**: Extracted IA, flows, and error loops
+- **️ Conflict Resolution**: Handled conflicts with regime-specific forks
+- **️ Design System Compression**: Compressed to minimal basis while preserving expressiveness
+- **UI Pack Generation**: Built archetype-specific UI packs for 10 product types
+- **Kernel Integration**: Wired into AMOS Kernel for deterministic UI generation
 
 ---
 
-## 🏗️ PHASE IMPLEMENTATION DETAILS
+## ️ PHASE IMPLEMENTATION DETAILS
 
 ### Phase 0: ✅ Scan All UI/Design Assets
 **File**: `visual_design_intelligence_engine.py`  
@@ -199,7 +203,7 @@ Successfully implemented the complete **AMOS VISUAL DESIGN + UI/UX STRUCTURAL IN
 
 ---
 
-## 🔒 HARD GATES ENFORCEMENT
+## HARD GATES ENFORCEMENT
 
 ### U0: ✅ NO HALLUCINATION
 - All tokens have provenance tracking
@@ -263,7 +267,7 @@ Successfully implemented the complete **AMOS VISUAL DESIGN + UI/UX STRUCTURAL IN
 
 ---
 
-## 📈 PERFORMANCE METRICS
+## PERFORMANCE METRICS
 
 ### System Performance
 - **Total Processing Time**: <2 seconds for full pipeline
@@ -285,7 +289,7 @@ Successfully implemented the complete **AMOS VISUAL DESIGN + UI/UX STRUCTURAL IN
 
 ---
 
-## 🎯 CAPABILITIES DELIVERED
+## CAPABILITIES DELIVERED
 
 ### 1. Design System Analysis
 - Comprehensive scanning of all UI/design assets
@@ -329,7 +333,7 @@ Successfully implemented the complete **AMOS VISUAL DESIGN + UI/UX STRUCTURAL IN
 
 ---
 
-## 🔧 TECHNICAL ARCHITECTURE
+## TECHNICAL ARCHITECTURE
 
 ### Core Components
 1. **Visual Design Intelligence Engine** (`visual_design_intelligence_engine.py`)
@@ -392,7 +396,7 @@ Successfully implemented the complete **AMOS VISUAL DESIGN + UI/UX STRUCTURAL IN
 
 ---
 
-## 🌟 INNOVATION HIGHLIGHTS
+## INNOVATION HIGHLIGHTS
 
 ### 1. **Deterministic Design System Intelligence**
 - SHA256-based deterministic IDs for all design elements
@@ -421,7 +425,7 @@ Successfully implemented the complete **AMOS VISUAL DESIGN + UI/UX STRUCTURAL IN
 
 ---
 
-## 📋 USAGE EXAMPLES
+## USAGE EXAMPLES
 
 ### 1. Token Query
 ```python
@@ -457,7 +461,7 @@ response = kernel_integration.process_kernel_query(query, integration)
 
 ---
 
-## 🔮 FUTURE ENHANCEMENTS
+## FUTURE ENHANCEMENTS
 
 ### Phase 10: Advanced AI Integration
 - Machine learning for pattern recognition
@@ -481,9 +485,9 @@ response = kernel_integration.process_kernel_query(query, integration)
 
 ---
 
-## 📊 FINAL STATUS REPORT
+## FINAL STATUS REPORT
 
-### ✅ MISSION ACCOMPLISHED
+### MISSION ACCOMPLISHED
 
 The **AMOS VISUAL DESIGN + UI/UX STRUCTURAL INTELLIGENCE ENGINE** is now **FULLY OPERATIONAL** with:
 
@@ -494,7 +498,7 @@ The **AMOS VISUAL DESIGN + UI/UX STRUCTURAL INTELLIGENCE ENGINE** is now **FULLY
 - **Deterministic Output**: Reproducible results guaranteed
 - **Kernel Integration**: Full AMOS Kernel wiring complete
 
-### 🎯 Key Deliverables
+### Key Deliverables
 
 1. **Complete Design System Analysis**: All UI/design assets scanned and analyzed
 2. **Canonical Token Registry**: 47 tokens with provenance tracking
@@ -505,7 +509,7 @@ The **AMOS VISUAL DESIGN + UI/UX STRUCTURAL INTELLIGENCE ENGINE** is now **FULLY
 7. **UI Pack Library**: 5 archetype-specific packs with platform adaptations
 8. **Kernel Integration**: Full integration with 6 query handlers and 5 output formats
 
-### 🚀 Ready for Production
+### Ready for Production
 
 The system is now ready for:
 - **Deterministic UI generation** for any SOA product type
@@ -517,7 +521,7 @@ The system is now ready for:
 
 ---
 
-## 📞 CONTACT AND SUPPORT
+## CONTACT AND SUPPORT
 
 **System Location**: `/Users/trangphan/AMOS/01_BRAIN/visual_design_ssot/`  
 **Kernel Endpoint**: `amos://visual_design_intelligence`  

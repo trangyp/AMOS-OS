@@ -1,6 +1,7 @@
 ---
 title: "Framework Validation"
 type: validation
+source: 21_DOMAINS/02_RESEARCH
 artifact: "FRAMEWORK_VALIDATION.md"
 artifact_id: "amos_21_domains_02_research_framework_validation"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "21_DOMAINS/02_RESEARCH"
 artifact_kind: "FRAMEWORK"
 path: "21_DOMAINS/02_RESEARCH/FRAMEWORK_VALIDATION.md"
 
-tags: [amos_os, domain, specialization, 21_domains, framework, canon_placeholder, rscf]
+tags: [amos_os, domain, specialization, 21_domains, framework, canon_placeholder, rscf, canon/domain]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Framework Validation

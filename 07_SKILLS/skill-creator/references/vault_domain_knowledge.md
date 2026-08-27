@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, skill-creator]
+source: 07_SKILLS/skill-creator/references
+tags: [reference, skill-creator, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -227,3 +234,7 @@ Strategist_Agent → Context_Agent → Opportunity_Agent → Planner_Agent → R
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

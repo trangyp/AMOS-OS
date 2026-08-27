@@ -1,8 +1,15 @@
 ---
 title: "06 Execution MOC"
 type: moc
-tags: [moc, 06-execution]
+source: 04_RUNTIME/06_EXECUTION
+tags: [moc, 06-execution, canon/runtime]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 06 Execution — Map of Content
 

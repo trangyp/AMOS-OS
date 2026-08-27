@@ -1,8 +1,15 @@
 ---
 title: trang system codex meta laws v2
 type: reference
-tags: [reference, amos-trang-framework-master]
+source: 07_SKILLS/amos-trang-framework-master/references
+tags: [reference, amos-trang-framework-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Trang System Codex Meta-Laws v2
 

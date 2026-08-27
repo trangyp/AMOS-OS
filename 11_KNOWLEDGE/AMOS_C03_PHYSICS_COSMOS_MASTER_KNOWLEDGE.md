@@ -1,5 +1,6 @@
 ---
 type: physics
+source: 11_KNOWLEDGE
 id: AMOS-C03-PHYSICS-COSMOS-MASTER-KNOWLEDGE
 title: "AMOS C03 — Physics & Cosmos Master Knowledge"
 origin_architect: "Trang Phan"
@@ -12,9 +13,14 @@ language: "en"
 architecture: "HML_fractal_single_file"
 placeholder_status: "NONE"
 version: "1.0"
-tags: [knowledge, note]
-
+tags: [knowledge, note, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # AMOS C03 — Physics & Cosmos Master Knowledge
 

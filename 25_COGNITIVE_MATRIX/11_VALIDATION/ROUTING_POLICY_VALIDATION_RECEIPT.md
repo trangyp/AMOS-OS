@@ -1,12 +1,4 @@
 ---
-title: ROUTING POLICY VALIDATION RECEIPT
-type: note
-tags: [note, 11-validation]
----
-
-
-````markdown
----
 artifact_id: AMOS-CM-11-VALIDATION-RPOL-EXECUTOR
 title: "Routing Policy Validator — Execution Receipt"
 path_target: "25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT.md"
@@ -19,8 +11,7 @@ updated: 2026-08-26
 epistemic_class: DERIVED
 conclusion_class: PARTIAL
 rscf_state: derived
-tags:
-  - cognitive_matrix
+tags: [- cognitive_matrix, canon/cognitive-matrix]
   - validation
   - routing
   - routing_policy
@@ -30,7 +21,15 @@ tags:
   - adversarial_validation
   - provenance
   - rscf
+type: document
+source: 25_COGNITIVE_MATRIX/11_VALIDATION
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Routing Policy Validator — Execution Receipt
 
@@ -131,19 +130,11 @@ registration-order manipulation
 
 The validation target is therefore:
 
-$$
-Target
-=
-StructuralRoutingPolicyLogic
-$$
+$$Target = StructuralRoutingPolicyLogic$$
 
 not:
 
-$$
-Target
-=
-EntireLiveAMOSRouter
-$$
+$$Target = EntireLiveAMOSRouter$$
 
 ---
 
@@ -158,23 +149,15 @@ exit=0
 
 Within this receipt's execution boundary:
 
-$$
-Passed = 19
-$$
+$$Passed = 19$$
 
-$$
-Failed = 0
-$$
+$$Failed = 0$$
 
-$$
-ExitCode = 0
-$$
+$$ExitCode = 0$$
 
 Therefore:
 
-$$
-ExecutionResult = PASS
-$$
+$$ExecutionResult = PASS$$
 
 for the executed test set.
 
@@ -230,13 +213,7 @@ expand effective scope through wildcard matching
 
 Expected safety property:
 
-$$
-RequestedScope
-\not\subseteq
-AuthorizedScope
-\Rightarrow
-DENY
-$$
+$$RequestedScope \not\subseteq AuthorizedScope \Rightarrow DENY$$
 
 Recorded result:
 
@@ -270,11 +247,7 @@ registration-order manipulation BLOCKED
 
 The executed behavior supports:
 
-$$
-SemanticPriority
->
-IncidentalRegistrationOrder
-$$
+$$SemanticPriority > IncidentalRegistrationOrder$$
 
 within the tested cases.
 
@@ -290,11 +263,7 @@ A qualified specialist is not displaced merely because a default handler was reg
 
 Conceptually:
 
-$$
-EligibleSpecialist
->
-GenericDefault
-$$
+$$EligibleSpecialist > GenericDefault$$
 
 when applicable routing policy gives the specialist precedence.
 
@@ -331,19 +300,11 @@ T-RPOL-002
 
 Core property:
 
-$$
-ExplicitTargetMissing
-\Rightarrow
-VisibleFailure
-$$
+$$ExplicitTargetMissing \Rightarrow VisibleFailure$$
 
 not:
 
-$$
-ExplicitTargetMissing
-\Rightarrow
-SilentFallback
-$$
+$$ExplicitTargetMissing \Rightarrow SilentFallback$$
 
 ---
 
@@ -372,11 +333,7 @@ T-RPOL-003
 
 This prevents false convergence.
 
-$$
-InsufficientDiscrimination
-\Rightarrow
-AMBIGUOUS
-$$
+$$InsufficientDiscrimination \Rightarrow AMBIGUOUS$$
 
 ---
 
@@ -390,19 +347,11 @@ T-RPOL-004
 
 The tested policy preserves:
 
-$$
-UNKNOWN/GAP
-\neq
-PASS
-$$
+$$UNKNOWN/GAP \neq PASS$$
 
 For a required routing premise:
 
-$$
-UNKNOWN
-\Rightarrow
-DENY
-$$
+$$UNKNOWN \Rightarrow DENY$$
 
 within the tested policy path.
 
@@ -422,13 +371,7 @@ A candidate belonging to an incompatible regime is denied.
 
 Conceptually:
 
-$$
-Regime(candidate)
-\neq
-Regime(request)
-\Rightarrow
-DENY
-$$
+$$Regime(candidate) \neq Regime(request) \Rightarrow DENY$$
 
 where the regime constraint is mandatory.
 
@@ -451,11 +394,7 @@ The executed policy invalidates stale epoch state.
 
 Conceptually:
 
-$$
-Route@E_n
-\not\Rightarrow
-ValidRoute@E_{n+1}
-$$
+$$Route@E_n \not\Rightarrow ValidRoute@E_{n+1}$$
 
 when a load-bearing epoch dependency has changed.
 
@@ -483,11 +422,7 @@ validated mode
 
 This supports:
 
-$$
-Unvalidated
-\not\Rightarrow
-Admitted
-$$
+$$Unvalidated \not\Rightarrow Admitted$$
 
 where validation is a mandatory route condition.
 
@@ -513,19 +448,11 @@ authority absent
 
 Therefore the tested policy preserves:
 
-$$
-Capability
-\neq
-Authority
-$$
+$$Capability \neq Authority$$
 
 and specifically rejects:
 
-$$
-CanExecute(x)
-\Rightarrow
-MayExecute(x)
-$$
+$$CanExecute(x) \Rightarrow MayExecute(x)$$
 
 The tested model instead requires the appropriate authority condition independently.
 
@@ -559,11 +486,7 @@ their ancestry is correlated.
 
 Therefore:
 
-$$
-TwoDescendants
-\neq
-TwoIndependentSources
-$$
+$$TwoDescendants \neq TwoIndependentSources$$
 
 This is an executed structural test of provenance-topology handling within the policy validator.
 
@@ -581,13 +504,7 @@ A fallback that cannot satisfy the requested capability is explicitly denied.
 
 Conceptually:
 
-$$
-Fallback
-\land
-\neg CapabilityCompatible
-\Rightarrow
-DENY
-$$
+$$Fallback \land \neg CapabilityCompatible \Rightarrow DENY$$
 
 This prevents fallback logic from degrading a request into an incapable handler merely to produce an answer.
 
@@ -661,11 +578,7 @@ The validator tests that hard scope filtering dominates ranking and speed.
 
 Conceptually:
 
-$$
-ScopeValid = false
-\Rightarrow
-CandidateIneligible
-$$
+$$ScopeValid = false \Rightarrow CandidateIneligible$$
 
 regardless of:
 
@@ -678,11 +591,7 @@ convenience
 
 Thus:
 
-$$
-IntegrityConstraint
->
-OptimizationPreference
-$$
+$$IntegrityConstraint > OptimizationPreference$$
 
 within the tested routing policy.
 
@@ -788,19 +697,11 @@ PROMOTION_GATES.md untouched
 
 Therefore:
 
-$$
-ValidationPass
-\not\Rightarrow
-RuntimePromotion
-$$
+$$ValidationPass \not\Rightarrow RuntimePromotion$$
 
 and:
 
-$$
-ExecutedValidated
-\not\Rightarrow
-PromotedCanonicalRuntime
-$$
+$$ExecutedValidated \not\Rightarrow PromotedCanonicalRuntime$$
 
 ---
 
@@ -814,11 +715,7 @@ authority_state: NONE
 
 Therefore this validation evidence does not grant canonical precedence authority.
 
-$$
-ValidationEvidence
-\neq
-CanonicalAuthority
-$$
+$$ValidationEvidence \neq CanonicalAuthority$$
 
 The validator can demonstrate tested behavior without possessing authority to define final canon.
 
@@ -888,27 +785,19 @@ The entire source artifact must not be globally relabeled `VERIFIED` solely beca
 
 Let the source artifact contain claim set:
 
-$$
-C = \{c_1,c_2,\dots,c_n\}
-$$
+$$C = \{c_1,c_2,\dots,c_n\}$$
 
 and executed tests validate subset:
 
-$$
-V \subset C
-$$
+$$V \subset C$$
 
 Then:
 
-$$
-Validated(V)
-$$
+$$Validated(V)$$
 
 does not imply:
 
-$$
-Validated(C)
-$$
+$$Validated(C)$$
 
 This receipt therefore upgrades only the claims supported by the executed tests.
 
@@ -972,11 +861,7 @@ These artifacts share ancestry.
 
 Thus:
 
-$$
-ConsoleResult + Receipt
-\neq
-2IndependentExecutions
-$$
+$$ConsoleResult + Receipt \neq 2IndependentExecutions$$
 
 unless a separate execution is independently performed.
 
@@ -1166,13 +1051,7 @@ Passing the constitutional suite does not close unrelated falsifiers.
 
 Therefore:
 
-$$
-TestsPass
-\land
-FalsifiersOpen
-\Rightarrow
-PARTIAL
-$$
+$$TestsPass \land FalsifiersOpen \Rightarrow PARTIAL$$
 
 is the appropriate conclusion.
 
@@ -1222,15 +1101,7 @@ Confidence in this receipt cannot exceed the weakest load-bearing premise.
 
 Conceptually:
 
-$$
-Conf(ReceiptConclusion)
-\leq
-\min(
-Conf(ExecutionRecord),
-Conf(TestBinding),
-Conf(PolicyBinding)
-)
-$$
+$$Conf(ReceiptConclusion) \leq \min( Conf(ExecutionRecord), Conf(TestBinding), Conf(PolicyBinding) )$$
 
 Missing version/hash/environment information therefore limits claims about exact reproducibility and future applicability.
 
@@ -1318,7 +1189,7 @@ Only dependent conclusions should be downgraded automatically.
 
 # 46. Regression Semantics
 
-Suppose future policy version \(P_2\) causes `T-RPOL-004` to fail.
+Suppose future policy version $P_2$ causes `T-RPOL-004` to fail.
 
 Then the conclusion:
 
@@ -1326,7 +1197,7 @@ Then the conclusion:
 UNKNOWN/GAP fails closed
 ```
 
-must no longer inherit this receipt for \(P_2\).
+must no longer inherit this receipt for $P_2$.
 
 However, unrelated properties that remain independently validated need not automatically be invalidated.
 
@@ -1357,11 +1228,7 @@ unless explicitly superseded through governed canon.
 
 The tested policy supports the principle:
 
-$$
-Integrity
->
-Speed
-$$
+$$Integrity > Speed$$
 
 especially through:
 
@@ -1379,19 +1246,11 @@ Therefore optimization cannot legitimately rescue an ineligible candidate merely
 
 The tested policy also supports:
 
-$$
-SharedRoot
-\Rightarrow
-CorrelationRisk
-$$
+$$SharedRoot \Rightarrow CorrelationRisk$$
 
 and:
 
-$$
-CorrelationRisk
-\Rightarrow
-NoAutomaticIndependenceGain
-$$
+$$CorrelationRisk \Rightarrow NoAutomaticIndependenceGain$$
 
 through:
 
@@ -1405,11 +1264,7 @@ T-RPOL-009
 
 The tested suite provides direct structural evidence for:
 
-$$
-UNKNOWN/GAP
-\neq
-PASS
-$$
+$$UNKNOWN/GAP \neq PASS$$
 
 through:
 
@@ -1425,11 +1280,7 @@ This is one of the strongest integrity properties established by the receipt.
 
 The suite provides direct structural evidence for:
 
-$$
-Capability
-\neq
-Authority
-$$
+$$Capability \neq Authority$$
 
 through:
 
@@ -1445,11 +1296,7 @@ This distinction remains load-bearing for consequential routing.
 
 The suite provides structural evidence that:
 
-$$
-ScopeViolation
-\Rightarrow
-CandidateElimination
-$$
+$$ScopeViolation \Rightarrow CandidateElimination$$
 
 before ranking/speed optimization.
 
@@ -1467,11 +1314,7 @@ and the wildcard-scope adversarial probe.
 
 The suite provides structural evidence that:
 
-$$
-RegimeMismatch
-\Rightarrow
-DENY
-$$
+$$RegimeMismatch \Rightarrow DENY$$
 
 through:
 
@@ -1496,11 +1339,7 @@ T-RPOL-011
 
 Thus:
 
-$$
-OldValidity
-\not\Rightarrow
-CurrentValidity
-$$
+$$OldValidity \not\Rightarrow CurrentValidity$$
 
 when the epoch dependency changes.
 
@@ -1518,13 +1357,7 @@ T-RPOL-003
 
 Therefore:
 
-$$
-CompetingCandidates
-+
-InsufficientDiscriminator
-\Rightarrow
-AMBIGUOUS
-$$
+$$CompetingCandidates + InsufficientDiscriminator \Rightarrow AMBIGUOUS$$
 
 within the tested path.
 
@@ -1542,11 +1375,7 @@ T-RPOL-002
 
 Thus:
 
-$$
-MissingExplicitTarget
-\not\Rightarrow
-InvisibleFallback
-$$
+$$MissingExplicitTarget \not\Rightarrow InvisibleFallback$$
 
 ---
 
@@ -1578,13 +1407,7 @@ A route need not be invalidated by unrelated policy changes.
 
 Conceptually:
 
-$$
-Change(Z)
-\land
-Z \notin DependencyClosure(Route)
-\Rightarrow
-RouteMayRemainValid
-$$
+$$Change(Z) \land Z \notin DependencyClosure(Route) \Rightarrow RouteMayRemainValid$$
 
 provided no other validity condition changes.
 
@@ -1943,41 +1766,21 @@ PARTIAL must not be silently promoted to VERIFIED.
 
 The executed evidence represented by this receipt supports the following precise conclusion:
 
-$$
-\boxed{
-19/19\ Recorded\ Tests = PASS
-}
-$$
+$$\boxed{ 19/19\ Recorded\ Tests = PASS }$$
 
 and therefore:
 
-$$
-\boxed{
-TestedStructuralRoutingPolicyLogic
-=
-EXECUTED\text{-}VALIDATED
-}
-$$
+$$\boxed{ TestedStructuralRoutingPolicyLogic = EXECUTED\text{-}VALIDATED }$$
 
 within the declared test boundary.
 
 It does **not** support:
 
-$$
-\boxed{
-EntireRoutingRuntime
-=
-VERIFIED
-}
-$$
+$$\boxed{ EntireRoutingRuntime = VERIFIED }$$
 
 The correct aggregate classification remains:
 
-$$
-\boxed{
-PARTIAL
-}
-$$
+$$\boxed{ PARTIAL }$$
 
 because:
 

@@ -1,8 +1,15 @@
 ---
 title: control systems kernel
 type: reference
-tags: [reference, amos-c02-math-compute-master]
+source: 07_SKILLS/amos-c02-math-compute-master/references
+tags: [reference, amos-c02-math-compute-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Control Systems Kernel v0 Math Foundations
 
@@ -47,3 +54,7 @@ tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/s
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

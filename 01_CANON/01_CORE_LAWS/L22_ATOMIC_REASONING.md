@@ -1,9 +1,14 @@
 ---
 title: L22 ATOMIC REASONING
 type: reasoning
-tags: [canon, core_laws, note]
+source: 01_CANON/01_CORE_LAWS
+tags: [canon, core_laws, note, canon/universe]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: core_laws
 ---
-
 
 
 # L22 Atomic Reasoning Laws
@@ -45,3 +50,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[01_CORE_LAWS_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

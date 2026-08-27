@@ -1,8 +1,15 @@
 ---
 title: "03 Policy MOC"
 type: moc
-tags: [moc, 03-policy]
+source: 03_CONTROL_PLANE/03_POLICY
+tags: [moc, 03-policy, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 03 Policy — Map of Content
 

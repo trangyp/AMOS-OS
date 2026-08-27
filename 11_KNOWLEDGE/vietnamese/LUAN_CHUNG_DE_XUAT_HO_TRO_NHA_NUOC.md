@@ -1,12 +1,15 @@
 ---
 title: LUAN CHUNG DE XUAT HO TRO NHA NUOC
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # **LUẬN CHỨNG ĐỀ XUẤT HỖ TRỢ NHÀ NƯỚC**

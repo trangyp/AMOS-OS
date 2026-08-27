@@ -1,22 +1,19 @@
 ---
 title: OPERATING SYSTEMS FOR SURVIVAL
-tags: [system, architecture, design]
+tags: [system, architecture, design, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/system
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
+
 ---
-
-
-
 
 
 # **Operating Systems for Survival**
 You can absolutely turn **“Why organizations collapse long before balance sheets show it”** into a _killer_ business book. The core thesis is strong: **financials are lagging indicators; collapse starts as identity + boundary + load/capacity + synchrony failure** —then it eventually surfaces as revenue, churn, write-downs, legal issues, or cash stress.
-Below is a high-impact, exhaustive structure that lets you use your canon (URK / collapse–recovery / drift / load–capacity / identity continuity) while still feeling readable to “normal” business readers. Your DSc portfolio already frames this as a deterministic collapse/recovery system with load–capacity failure curves, drift, and recovery modes—perfect backbone for the book.
-* * *
-## **Working title options (pick 1 vibe)**
-  1. **The Collapse Before the Numbers**
-
-
   2. **Silent Failure**
 
 
@@ -1430,3 +1427,6 @@ Just say which one.
 
 ---
 **MOC:** [[SYSTEM_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

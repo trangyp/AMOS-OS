@@ -1,15 +1,20 @@
 ---
 title: AUDIT QUALITY MAX
 type: note
+source: 11_KNOWLEDGE/audit
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: audit-quality-max
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/audit-quality-max, audit]
 created: 2026-08-22
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: audit_repair
 ---
-
-
+# AUDIT QUALITY MAX
 
 ```json
 {

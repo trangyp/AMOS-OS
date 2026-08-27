@@ -3,9 +3,13 @@ title: AMOS TECH ENGINE MODEL
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-tech-engine-model, engine]
 type: document
 source: 11_KNOWLEDGE/engine
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
+
 ---
-
-
 
 
 # AMOS Tech Architecture Kernel Model
@@ -39,3 +43,6 @@ Every domain defines critical dependencies, upstream inputs, downstream outputs,
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

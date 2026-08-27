@@ -1,15 +1,20 @@
 ---
 title: 2026 08 22 19X19 AI COGNITIVE FIELD
 type: cognitive
+source: 11_KNOWLEDGE/dated
 origin_architect: Trang Phan
 provenance: user-supplied 19×19 strategic-ontology AI-cognition extension (sections 127–237); base geometry in cosmo-brain/AMOS_GO_BOARD_19X19.py and strategic field in cosmo-brain/AMOS_GO_BOARD_19X19_STRATEGIC.py
 confidence: 0.88
 epistemic_class: SOURCE_DERIVED
 conclusion_label: MODEL
-tags: [ai-cognition, attention, cognitive-field, kernel-routing, metacognition, rscf/M-memory, rscf/type-model, strategic-field, dated, dated/2026-08-22]
+tags: [ai-cognition, attention, cognitive-field, kernel-routing, metacognition, rscf/M-memory, rscf/type-model, strategic-field, dated, dated/2026-08-22, canon/knowledge]
 date: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
-
 
 
 # 19×19 AI Cognitive Field

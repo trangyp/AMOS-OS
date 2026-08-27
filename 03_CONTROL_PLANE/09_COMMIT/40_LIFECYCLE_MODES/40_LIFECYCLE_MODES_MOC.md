@@ -1,8 +1,15 @@
 ---
 title: "40 Lifecycle Modes MOC"
 type: moc
-tags: [moc, 40-lifecycle-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/40_LIFECYCLE_MODES
+tags: [moc, 40-lifecycle-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 40 Lifecycle Modes — Map of Content
 

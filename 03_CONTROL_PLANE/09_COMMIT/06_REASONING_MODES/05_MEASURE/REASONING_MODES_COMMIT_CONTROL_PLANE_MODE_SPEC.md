@@ -1,9 +1,14 @@
 ---
 title: REASONING MODES COMMIT CONTROL PLANE MODE SPEC
 type: control-plane
-tags: [control_plane, 06_reasoning_modes/05_measure]
+source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/05_MEASURE
+tags: [control_plane, 06_reasoning_modes/05_measure, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # REASONING MODES COMMIT CONTROL PLANE MODE SPEC
@@ -70,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[05_MEASURE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

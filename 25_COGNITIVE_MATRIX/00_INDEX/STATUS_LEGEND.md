@@ -1,9 +1,14 @@
 ---
 title: STATUS LEGEND
 type: status
-tags: [cognitive_matrix, index, note]
+source: 25_COGNITIVE_MATRIX/00_INDEX
+tags: [cognitive_matrix, index, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # 00_INDEX — Status Legend

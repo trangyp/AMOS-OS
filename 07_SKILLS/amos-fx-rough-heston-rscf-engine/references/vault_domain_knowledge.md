@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-fx-rough-heston-rscf-engine]
+source: 07_SKILLS/amos-fx-rough-heston-rscf-engine/references
+tags: [reference, amos-fx-rough-heston-rscf-engine, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -265,3 +272,7 @@ I have successfully activated and enhanced the **strongest AMOS brain system** w
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

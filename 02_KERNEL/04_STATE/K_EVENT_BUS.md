@@ -1,6 +1,7 @@
 ---
 title: K EVENT BUS
 type: note
+source: 02_KERNEL/04_STATE
 artifact_id: AMOS-OS-K-EVENT-BUS
 canonical_name: K_EVENT_BUS
 artifact_type: kernel_event_bus_contract
@@ -24,8 +25,6 @@ aliases: "- AMOS Event Bus Kernel
   - Event Bus Kernel
   - K Event Bus
   - K_EVENT_BUS..."---
-
-
 
 
 # K EVENT BUS
@@ -59,8 +58,13 @@ DELIVERY != ACCEPTANCE
 ACCEPTANCE != VALIDATION
 VALIDATION != COMMIT
 ```
-
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 1. Core Definition
 

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Agent-Externalization-Architecture-Rscf MOC"
 type: moc
-tags: [moc, amos-agent-externalization-architecture-]
+source: 07_SKILLS/amos-agent-externalization-architecture-rscf
+tags: [moc, amos-agent-externalization-architecture-, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Agent-Externalization-Architecture-Rscf — Map of Content
 

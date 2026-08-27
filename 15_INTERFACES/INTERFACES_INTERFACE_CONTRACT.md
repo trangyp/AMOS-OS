@@ -1,9 +1,14 @@
 ---
 title: INTERFACES INTERFACE CONTRACT
 type: interface
-tags: [amos_os, 15_interfaces]
+source: 15_INTERFACES
+tags: [amos_os, 15_interfaces, canon/interface]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # INTERFACES INTERFACE CONTRACT

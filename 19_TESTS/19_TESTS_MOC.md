@@ -1,8 +1,15 @@
 ---
 title: "19 Tests MOC"
 type: moc
-tags: [moc, 19-tests]
+source: 19_TESTS
+tags: [moc, 19-tests, canon/test]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 19 Tests — Map of Content
 

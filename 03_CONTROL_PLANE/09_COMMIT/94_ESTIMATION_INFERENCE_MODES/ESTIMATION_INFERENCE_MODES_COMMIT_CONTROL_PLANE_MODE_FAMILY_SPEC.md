@@ -1,9 +1,14 @@
 ---
 title: ESTIMATION INFERENCE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
-tags: [control_plane, 94_estimation_inference_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/94_ESTIMATION_INFERENCE_MODES
+tags: [control_plane, 94_estimation_inference_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # ESTIMATION INFERENCE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
@@ -38,3 +43,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[94_ESTIMATION_INFERENCE_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,8 +1,15 @@
 ---
 title: money regimes for wealth
 type: reference
-tags: [reference, mckinsey-wealth-management-rscf]
+source: 07_SKILLS/mckinsey-wealth-management-rscf/references
+tags: [reference, mckinsey-wealth-management-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Money Regimes for Wealth Management
 
@@ -25,26 +32,26 @@ tags: [economy]
 
 ## MAXIMUM ENHANCEMENT ACHIEVEMENTS
 
-### ✅ 2024-2025 Digital Currency Integration
+### 2024-2025 Digital Currency Integration
 - **CBDC Research Integration**: IMF Fintech Notes (2024) + ArXiv Survey (2025)
 - **Stablecoin Analysis**: IMF Working Paper (2025) - 85/93 central banks exploring CBDCs
 - **Academic Sources**: 7 verified primary sources with peer-reviewed research
 - **Real Data Integration**: BIS survey data + IMF policy documents
 
-### ✅ Tensor Field Analysis Implementation
+### Tensor Field Analysis Implementation
 - **Multi-Scale Modeling**: S_t = T(Agents, Signals, Power, Incentives, Enforcement, Information, Constraints, Time)
 - **Agent Representation**: A_i = (resources, incentives, constraints, network, information, enforcementExposure, leverage, entropyPosition)
 - **Agent Pack Coordination**: P_j = (agents, coordination_mechanism, power_center, enforcement_capability)
 - **Core Kernels**: 11 deterministic kernels (Governance, Incentive, Enforcement, Information, Recourse, Audit, Evolution, Drift, Collapse, OutputScan, Logging)
 
-### ✅ Structural Invariant Detection
+### Structural Invariant Detection
 - **Stability Analysis**: ∂S/∂t = 0 transformation group detection
 - **Gradient Analysis**: ∇S for hidden structure discovery
 - **Eigenvalue Decomposition**: Interaction matrix eigenvalue spectrum analysis
 - **Asymmetry Tensor**: M_{ij} for exploitation opportunity detection
 - **Entropy Reduction**: System complexity monitoring and plateau detection
 
-### ✅ Exploitation Modeling
+### Exploitation Modeling
 - **E = f(Ambiguity, LowPenalty, NetworkAsymmetry, RecourseCapture, EnforcementLag, EntropyGradient)**
 - **Deterministic Risk Score**: R = Σ w_k X_k with validated tensor delta updates
 - **Patch-Only Mode**: Reversible reasoning with structured logging
@@ -54,14 +61,14 @@ tags: [economy]
 
 ## ENHANCED MONETARY REGIMES FRAMEWORK
 
-### ✅ Five-Regime Timeline (1870-Present)
+### Five-Regime Timeline (1870-Present)
 1. **Gold Standard** (1870-1914, 1925-1933, 1944-1971)
 2. **Bretton Woods** (1944-1971)
 3. **Fiat Money** (1971-Present)
 4. **Digital Currency Era** (2020s-Present) - **NEW**
 5. **Multi-Currency Competition** (Emerging) - **NEW**
 
-### ✅ Enhanced Structural Components
+### Enhanced Structural Components
 
 #### New Symbols
 - **CBDC**: Central Bank Digital Currency
@@ -108,3 +115,8 @@ Policy_Rate_Effectiveness = f(CBDC_Design, Market_Penetration)
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]
+```

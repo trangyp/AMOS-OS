@@ -1,8 +1,15 @@
 ---
 title: datapoint economic role mapping
 type: reference
-tags: [reference, amos-c07-econ-finance-master]
+source: 07_SKILLS/amos-c07-econ-finance-master/references
+tags: [reference, amos-c07-econ-finance-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Datapoint to Economic Role Mapping
 
@@ -318,3 +325,7 @@ ol > li {
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

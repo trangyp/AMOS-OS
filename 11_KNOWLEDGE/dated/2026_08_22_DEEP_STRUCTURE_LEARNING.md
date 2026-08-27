@@ -1,6 +1,7 @@
 ---
 title: 2026 08 22 DEEP STRUCTURE LEARNING
 type: learning
+source: 11_KNOWLEDGE/dated
 origin_architect: Devin (AMOS session)
 provenance: direct JSON parsing, find/ls enumeration, structural inspection of all brain subdirectories
 confidence: 0.95
@@ -8,8 +9,12 @@ epistemic_class: OBSERVATION
 conclusion_label: VERIFIED
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-deep-structure-learning, dated, dated/2026-08-22]
 date: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
-
 
 
 # Devin Deep Structure Learning — 2026-08-22

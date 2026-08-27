@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-information-theory-master]
+source: 07_SKILLS/amos-information-theory-master
+tags: [note, amos-information-theory-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-information-theory-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS Information Theory Master. Consolidates 3 sub-skill
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-information-theory-master_MOC]]

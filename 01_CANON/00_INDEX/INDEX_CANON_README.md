@@ -1,5 +1,6 @@
 ---
 type: index
+source: 01_CANON/00_INDEX
 artifact_id: AMOS-OS-CANON-README
 name: AMOS_OS_CANON_README
 title: "AMOS OS Canon — Authoritative Definitions, Laws, Lineage, and Governance"
@@ -37,7 +38,6 @@ aliases: "- AMOS Canon
 related: "see body"---
 
 
-
 # AMOS OS Canon
 
 **Origin architect / steward:** Trang Phan
@@ -45,8 +45,13 @@ related: "see body"---
 > **Status:** `ACTIVE_ROOT`  
 > **AMOS_CORE target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
+
 
 # 0. Purpose
 

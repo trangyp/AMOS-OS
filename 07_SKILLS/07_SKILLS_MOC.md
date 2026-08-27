@@ -1,8 +1,15 @@
 ---
 title: "07 Skills MOC"
 type: moc
-tags: [moc, 07-skills]
+source: 07_SKILLS
+tags: [moc, 07-skills, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 07 Skills — Map of Content
 

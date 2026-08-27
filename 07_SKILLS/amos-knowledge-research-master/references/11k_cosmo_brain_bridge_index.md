@@ -1,8 +1,15 @@
 ---
 title: 11k cosmo brain bridge index
 type: reference
-tags: [reference, amos-knowledge-research-master]
+source: 07_SKILLS/amos-knowledge-research-master/references
+tags: [reference, amos-knowledge-research-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # 11K Cosmo Brain Bridge Index
 
@@ -90,3 +97,7 @@ tags: [moc, index, bridge, cosmo-brain]
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

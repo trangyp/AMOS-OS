@@ -1,8 +1,15 @@
 ---
 title: "16 Mode Template MOC"
 type: moc
-tags: [moc, 16-mode-template]
+source: 03_CONTROL_PLANE/09_COMMIT/16_MODE_TEMPLATE
+tags: [moc, 16-mode-template, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 16 Mode Template — Map of Content
 

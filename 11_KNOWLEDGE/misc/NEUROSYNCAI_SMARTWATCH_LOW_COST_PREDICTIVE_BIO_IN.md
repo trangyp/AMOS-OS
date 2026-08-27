@@ -1,12 +1,15 @@
 ---
 title: NEUROSYNCAI SMARTWATCH LOW COST PREDICTIVE BIO IN
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **NeuroSyncAI™ Smartwatch: Low-Cost Predictive Bio-Intelligence Platform**

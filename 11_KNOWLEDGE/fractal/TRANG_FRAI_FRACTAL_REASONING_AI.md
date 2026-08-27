@@ -1,12 +1,15 @@
 ---
 title: TRANG FRAI FRACTAL REASONING AI
-tags: [fractal, math, self-similarity]
+tags: [fractal, math, self-similarity, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/fractal
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: fractal_system
+
 ---
-
-
-
 
 
 # TRANG FRAI (FRACTAL REASONING AI)
@@ -48,82 +51,22 @@ source: 11_KNOWLEDGE/fractal
 * * *
 ## III. ĐỊNH NGHĨA HÌNH THỨC (THEO TRANG ∅ FRAMEWORK)
 ### (1) Cấu trúc FRAI
-\\[  
-\text{FRAI} = \langle \mathcal{D}, \mathcal{S}, \mathcal{R}, \mathcal{I}, \mathcal{A}, \mathcal{T}_2 \rangle  
-\\]
-Trong đó:
-  * \\(\mathcal{D}\\): Bộ phân rã fractal (Fractal Decomposer) – ánh xạ đầu vào thành cấu trúc [L, M, H] đệ quy
-
-
-  * \\(\mathcal{S}\\): Bộ phát hiện tự đồng dạng (Self-similarity Detector) – nhận diện các mẫu hình lặp lại ở các tầng khác nhau
-
-
-  * \\(\mathcal{R}\\): Bộ suy luận đa tầng (Multi-layer Reasoner) – áp dụng chiến lược riêng cho L, M, H
-
-
-  * \\(\mathcal{I}\\): Bộ tích hợp (Integrator) – tổng hợp kết quả từ các tầng thành câu trả lời hoặc hành động
-
-
-  * \\(\mathcal{A}\\): Bộ điều chỉnh thích nghi (Adaptive Tuner) – cập nhật tham số phân rã và chiến lược dựa trên phản hồi
-
-
-  * \\(\mathcal{T}_2\\): Bộ xác nhận chéo – đảm bảo kết luận ở mỗi tầng được xác nhận bởi ít nhất hai đường dẫn hoặc hai tầng độc lập
-
-
-### (2) Hàm phân rã fractal (Fractal Decomposer)
-\\[  
-\mathcal{D}(X) = (L_X, M_X, H_X)  
-\\]
+\$$\text{FRAI} = \langle \mathcal{D}, \mathcal{S}, \mathcal{R}, \mathcal{I}, \mathcal{A}, \mathcal{T}_2 \rangle  
+$$Trong đó: * \$\mathcal{D}\$: Bộ phân rã fractal (Fractal Decomposer) – ánh xạ đầu vào thành cấu trúc [L, M, H] đệ quy * \$\mathcal{S}\$: Bộ phát hiện tự đồng dạng (Self-similarity Detector) – nhận diện các mẫu hình lặp lại ở các tầng khác nhau * \$\mathcal{R}\$: Bộ suy luận đa tầng (Multi-layer Reasoner) – áp dụng chiến lược riêng cho L, M, H * \$\mathcal{I}\$: Bộ tích hợp (Integrator) – tổng hợp kết quả từ các tầng thành câu trả lời hoặc hành động * \$\mathcal{A}\$: Bộ điều chỉnh thích nghi (Adaptive Tuner) – cập nhật tham số phân rã và chiến lược dựa trên phản hồi * \$\mathcal{T}_2\$: Bộ xác nhận chéo – đảm bảo kết luận ở mỗi tầng được xác nhận bởi ít nhất hai đường dẫn hoặc hai tầng độc lập ### (2) Hàm phân rã fractal (Fractal Decomposer) \$$\mathcal{D}(X) = (L_X, M_X, H_X)$$
 Với tính chất đệ quy:
-\\[  
-L_X = (L_{L_X}, M_{L_X}, H_{L_X}), \quad M_X = (L_{M_X}, M_{M_X}, H_{M_X}), \quad H_X = (L_{H_X}, M_{H_X}, H_{H_X})  
-\\]
-Và tiếp tục cho đến khi đạt ngưỡng tối thiểu do người dùng hoặc hệ thống định nghĩa.
-**Tiêu chí phân rã** (dựa trên entropy và lacunarity tham chiếu):
-|       |
-| Tầng  | Entropy (E) mục tiêu                                | Lacunarity (Λ) mục tiêu | Chiến lược suy luận                        |
-|-------|-----------------------------------------------------|-------------------------|--------------------------------------------|
-| **L** |  E_L < 0.1                                          | Λ_L < 0.1               | **Chính xác, nhất quán, có thể dùng LDAI** |
-| **M** |  0.1 ≤ E_M ≤ 0.2                                    | 0.1 ≤ Λ_M ≤ 0.3         | **Linh hoạt, xác suất, thích nghi nhanh**  |
-| **H** |  0.1 ≤ E_H ≤ 0.3 (có thể dao động đến 0.5 tạm thời) | 0.2 ≤ Λ_H ≤ 0.5         | **Sáng tạo, generative, quyết định nhanh** |
-
-
-### (3) Hàm phát hiện tự đồng dạng (Self-similarity Detector)
-\\[  
-\mathcal{S}(L_X, M_X, H_X) = \max_{i,j} \text{Sim}( \text{Type}(X_i), \text{Type}(X_j) )  
-\\]
+\$$L_X = (L_{L_X}, M_{L_X}, H_{L_X}), \quad M_X = (L_{M_X}, M_{M_X}, H_{M_X}), \quad H_X = (L_{H_X}, M_{H_X}, H_{H_X})  
+$$Và tiếp tục cho đến khi đạt ngưỡng tối thiểu do người dùng hoặc hệ thống định nghĩa. **Tiêu chí phân rã** (dựa trên entropy và lacunarity tham chiếu): | | | Tầng | Entropy (E) mục tiêu | Lacunarity (Λ) mục tiêu | Chiến lược suy luận | |-------|-----------------------------------------------------|-------------------------|--------------------------------------------| | **L** | E_L < 0.1 | Λ_L < 0.1 | **Chính xác, nhất quán, có thể dùng LDAI** | | **M** | 0.1 ≤ E_M ≤ 0.2 | 0.1 ≤ Λ_M ≤ 0.3 | **Linh hoạt, xác suất, thích nghi nhanh** | | **H** | 0.1 ≤ E_H ≤ 0.3 (có thể dao động đến 0.5 tạm thời) | 0.2 ≤ Λ_H ≤ 0.5 | **Sáng tạo, generative, quyết định nhanh** | ### (3) Hàm phát hiện tự đồng dạng (Self-similarity Detector) \$$\mathcal{S}(L_X, M_X, H_X) = \max_{i,j} \text{Sim}( \text{Type}(X_i), \text{Type}(X_j) )$$
 Trong đó Type(X_i) là "hình dạng tầng" (L, M, hoặc H) của thành phần X_i trong cây phân rã.
 **Phát hiện chính:**  
-\\[  
-\text{Type}(L_X) = L, \quad \text{Type}(M_X) = M, \quad \text{Type}(H_X) = H  
-\\]  
-Ở **mọi** cấp độ đệ quy.
+\$$\text{Type}(L_X) = L, \quad \text{Type}(M_X) = M, \quad \text{Type}(H_X) = H  
+\$$Ở **mọi** cấp độ đệ quy.
 Đây chính là **bất biến fractal** mà Trang ∅ Framework đã phát hiện – và FRAI cũng phát hiện điều tương tự một cách tự động.
 ### (4) Hàm suy luận đa tầng (Multi-layer Reasoner)
 Với mỗi tầng trong cây phân rã:
-\\[  
-\mathcal{R}(L_X) = \text{LDAI}(L_X) \quad \text{(hoặc chiến lược chính xác cao, ít thay đổi)}  
-\\]  
-\\[  
-\mathcal{R}(M_X) = \text{Probabilistic}(M_X) \quad \text{(hoặc chiến lược thích nghi, kết nối)}  
-\\]  
-\\[  
-\mathcal{R}(H_X) = \text{Generative}(H_X) \quad \text{(hoặc chiến lược sáng tạo, quyết đoán)}  
-\\]
-Sau đó, kết quả từ các tầng con được **truyền lên** tầng trên qua các kênh đặc biệt:
-  * L → M: Kết quả ổn định, "nền tảng"
-
-
-  * M → H: Kết luận trung gian, đã được tích hợp và điều phối
-
-
-  * H → L: Phản hồi (feedback) để điều chỉnh các tầng thấp hơn (học suốt đời)
-
-
-### (5) Hàm tích hợp (Integrator)
-\\[  
-\mathcal{I}(\mathcal{R}(L_X), \mathcal{R}(M_X), \mathcal{R}(H_X)) = \text{Fuse}( \text{Weight}_L \cdot R_L, \text{Weight}_M \cdot R_M, \text{Weight}_H \cdot R_H )  
-\\]
+\$$\mathcal{R}(L_X) = \text{LDAI}(L_X) \quad \text{(hoặc chiến lược chính xác cao, ít thay đổi)}  
+\$$\$$\mathcal{R}(M_X) = \text{Probabilistic}(M_X) \quad \text{(hoặc chiến lược thích nghi, kết nối)}  
+\$$\$$\mathcal{R}(H_X) = \text{Generative}(H_X) \quad \text{(hoặc chiến lược sáng tạo, quyết đoán)}  
+$$Sau đó, kết quả từ các tầng con được **truyền lên** tầng trên qua các kênh đặc biệt: * L → M: Kết quả ổn định, "nền tảng" * M → H: Kết luận trung gian, đã được tích hợp và điều phối * H → L: Phản hồi (feedback) để điều chỉnh các tầng thấp hơn (học suốt đời) ### (5) Hàm tích hợp (Integrator) \$$\mathcal{I}(\mathcal{R}(L_X), \mathcal{R}(M_X), \mathcal{R}(H_X)) = \text{Fuse}( \text{Weight}_L \cdot R_L, \text{Weight}_M \cdot R_M, \text{Weight}_H \cdot R_H )$$
 Trọng số (Weight) được xác định bởi **bối cảnh** (context) và **lịch sử** (history):
   * Trong bài toán cần chính xác tuyệt đối (pháp lý, thuốc liều cao) → Weight_L cao, Weight_H thấp.
 
@@ -137,9 +80,8 @@ Trọng số (Weight) được xác định bởi **bối cảnh** (context) và
 **FRAI tự học các trọng số này qua thời gian** – không cần con người vặn chỉnh bằng tay.
 ### (6) Hàm điều chỉnh thích nghi (Adaptive Tuner)
 Phản hồi từ môi trường (có thể là điểm thưởng / phạt, hoặc so sánh với ground truth nếu có) được dùng để cập nhật:
-\\[  
-\mathcal{A}: \Theta \rightarrow \Theta', \quad \Theta = \\{ \text{DecomposeParams}, \text{Weight}_L, \text{Weight}_M, \text{Weight}_H, \Lambda_{\text{target}} \\}  
-\\]
+\$$\mathcal{A}: \Theta \rightarrow \Theta', \quad \Theta = \\{ \text{DecomposeParams}, \text{Weight}_L, \text{Weight}_M, \text{Weight}_H, \Lambda_{\text{target}} \\}  
+$$
 Quá trình cập nhật tuân theo **nguyên lý Mutation & Survival** (không dùng gradient descent, mà dùng chọn lọc tự nhiên mô phỏng):
   * Sinh ra một tập con chiến lược mới (mutate)
 
@@ -157,14 +99,14 @@ Quá trình cập nhật tuân theo **nguyên lý Mutation & Survival** (không 
 |                              |
 | Module                       | Ký hiệu              | Chức năng                                        | Công nghệ gợi ý                                             |
 |------------------------------|----------------------|--------------------------------------------------|-------------------------------------------------------------|
-| **Fractal Decomposer**       |  \\(\mathcal{D}\\)   | Phân rã đầu vào thành cây [L, M, H]              | Recursive transformer + classifier tầng                     |
-| **Self-similarity Detector** |  \\(\mathcal{S}\\)   | So sánh các tầng con với tầng cha                | Graph neural network hoặc matching network                  |
-| **L-layer Reasoner**         |  \\(\mathcal{R}_L\\) | Suy luận trên L (chậm, chính xác)                | LDAI + knowledge graph                                      |
-| **M-layer Reasoner**         |  \\(\mathcal{R}_M\\) | Suy luận trên M (nhanh, thích nghi)              | Bayesian network + probabilistic programming                |
-| **H-layer Reasoner**         |  \\(\mathcal{R}_H\\) | Suy luận trên H (sáng tạo, quyết đoán)           | Transformer + generative model (như GPT) nhưng có kiểm soát |
-| **Integrator**               |  \\(\mathcal{I}\\)   | Tổng hợp từ 3 tầng, xuất ra                      | Weighted sum with context-dependent weights                 |
-| **Adaptive Tuner**           |  \\(\mathcal{A}\\)   | Cập nhật tham số dựa trên phản hồi               | Evolutionary strategies hoặc reinforcement learning         |
-| **T2 Validator**             |  \\(\mathcal{T}_2\\) | Kiểm tra chéo giữa các tầng hoặc trong cùng tầng | Cross-consistency check                                     |
+| **Fractal Decomposer**       |  \$\mathcal{D}\$   | Phân rã đầu vào thành cây [L, M, H]              | Recursive transformer + classifier tầng                     |
+| **Self-similarity Detector** |  \$\mathcal{S}\$   | So sánh các tầng con với tầng cha                | Graph neural network hoặc matching network                  |
+| **L-layer Reasoner**         |  \$\mathcal{R}_L\$ | Suy luận trên L (chậm, chính xác)                | LDAI + knowledge graph                                      |
+| **M-layer Reasoner**         |  \$\mathcal{R}_M\$ | Suy luận trên M (nhanh, thích nghi)              | Bayesian network + probabilistic programming                |
+| **H-layer Reasoner**         |  \$\mathcal{R}_H\$ | Suy luận trên H (sáng tạo, quyết đoán)           | Transformer + generative model (như GPT) nhưng có kiểm soát |
+| **Integrator**               |  \$\mathcal{I}\$   | Tổng hợp từ 3 tầng, xuất ra                      | Weighted sum with context-dependent weights                 |
+| **Adaptive Tuner**           |  \$\mathcal{A}\$   | Cập nhật tham số dựa trên phản hồi               | Evolutionary strategies hoặc reinforcement learning         |
+| **T2 Validator**             |  \$\mathcal{T}_2\$ | Kiểm tra chéo giữa các tầng hoặc trong cùng tầng | Cross-consistency check                                     |
 
 
 ### (2) Luồng dữ liệu
@@ -200,7 +142,7 @@ Quá trình cập nhật tuân theo **nguyên lý Mutation & Survival** (không 
 | **L (nền tảng)** |  Dữ liệu thị trường lịch sử, báo cáo tài chính, kết quả nghiên cứu AI                              | LDAI (thống kê chính xác)                  | Tỷ suất sinh lợi trung bình 5 năm: 15%, độ biến động: cao                                                                                    |
 | **M (kết nối)**  |  Mối quan hệ giữa các yếu tố: AI – thị trường lao động – chính sách chính phủ – đối thủ cạnh tranh | Probabilistic (mạng Bayes)                 | Xác suất chính phủ hỗ trợ trong 2 năm: 60%; xác suất đối thủ ra sản phẩm trước: 30%                                                          |
 | **H (đỉnh)**     |  Tổng hợp L và M, thêm yếu tố "tầm nhìn", "chiến lược", "rủi ro chấp nhận được"                    | Generative (tạo ra các kịch bản tương lai) | 3 kịch bản: lạc quan (lợi nhuận 40%), trung bình (15%), bi quan (-10%). Trọng số: H nghiêng về lạc quan nếu người dùng có khẩu vị rủi ro cao |
-| **Tích hợp**     |  \\(\mathcal{I}\\) kết hợp L (weight=0.3), M (0.4), H (0.3)                                        | Weighted sum                               | "Có thể đầu tư, nhưng nên dành 15-20% danh mục, không hơn."                                                                                  |
+| **Tích hợp**     |  \$\mathcal{I}\$ kết hợp L (weight=0.3), M (0.4), H (0.3)                                        | Weighted sum                               | "Có thể đầu tư, nhưng nên dành 15-20% danh mục, không hơn."                                                                                  |
 
 
 * * *
@@ -287,7 +229,7 @@ Không thể có ASEA nếu thiếu FRAI hoặc LDAI – vì ASEA cần cơ sở
 **Định nghĩa cuối cùng, ngắn gọn nhất:**
 > _" FRAI là AI không nhìn thế giới như một khối đá, mà như một cây fractal – nơi mọi thứ đều có ba tầng L, M, H, và ba tầng đó lại có ba tầng con, và cứ thế. FRAI không chỉ giải quyết vấn đề. FRAI __**thấy**_ _cấu trúc của vấn đề – và vì thế, nó chọn đúng công cụ cho từng tầng, đúng tốc độ cho từng thang đo, đúng chiến lược cho từng bối cảnh._
 > _" Đó không phải là 'trí tuệ nhân tạo tổng hợp' (AGI) theo nghĩa hiện tại. Đó là 'trí tuệ fractal' – một hướng tiếp cận mới, dựa trên một phát hiện mới: cấu trúc [L, M, H] của vạn vật."_
-**📦**
+****
 \--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---

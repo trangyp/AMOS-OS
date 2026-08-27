@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX O07 INFERENCE CONTRACT
 type: cognitive
-tags: [cognitive_matrix, lifecycle_operations, o07_inference, contract]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O07_INFERENCE
+tags: [cognitive_matrix, lifecycle_operations, o07_inference, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # O07_INFERENCE — Operator application over typed objects; lineage recorded per step.
@@ -47,3 +52,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[O07_INFERENCE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

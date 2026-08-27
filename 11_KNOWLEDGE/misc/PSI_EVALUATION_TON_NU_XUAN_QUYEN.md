@@ -1,12 +1,15 @@
 ---
 title: PSI EVALUATION TON NU XUAN QUYEN
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **PSI Evaluation: Tôn Nữ Xuân Quyên**

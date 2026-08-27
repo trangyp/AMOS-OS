@@ -1,8 +1,15 @@
 ---
 title: hermes omni signal
 type: reference
-tags: [reference, amos-information-theory-master]
+source: 07_SKILLS/amos-information-theory-master/references
+tags: [reference, amos-information-theory-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Hermes Omni Signal Completion Report
 
@@ -27,7 +34,7 @@ tags: [signal]
 
 Successfully implemented **HERMES OMNI-SIGNAL INTELLIGENCE AGENT** - MAX POWER HUMAN UNDERSTANDING ENGINE with comprehensive SSOT-ready signal library for AMOS. The system operates under strict governance with no-proof-no-claim constraints and perpetual hallucination risk management.
 
-### 🎯 Key Achievements
+### Key Achievements
 
 - **7 Canonical Signals** extracted from authoritative sources
 - **3 Multimodal Fusion Tensors** constructed for signal relationships  
@@ -40,7 +47,7 @@ Successfully implemented **HERMES OMNI-SIGNAL INTELLIGENCE AGENT** - MAX POWER H
 
 ## PHASE COMPLETION STATUS
 
-### ✅ Phase 1: Extraction (PARTIAL)
+### Phase 1: Extraction (PARTIAL)
 - **Psycholinguistics & Pragmatics:** ✅ COMPLETED
   - Gricean Maxims (Cooperative Principle, Quality, Quantity)
   - Source: Stanford Encyclopedia of Philosophy (Tier 1)
@@ -56,23 +63,23 @@ Successfully implemented **HERMES OMNI-SIGNAL INTELLIGENCE AGENT** - MAX POWER H
 - **Writing & Rhetoric:** ⏸️ PENDING
 - **Multimodal ML + HCI:** ⏸️ PENDING
 
-### ✅ Phase 2: Canonicalization
+### Phase 2: Canonicalization
 - **Unified Signal Format:** ✅ COMPLETED
 - **SSOT-Ready Objects:** ✅ COMPLETED
 - **Stable ID Generation:** ✅ COMPLETED
 - **Provenance Tracking:** ✅ COMPLETED
 
-### ✅ Phase 3: Signal Taxonomy
+### Phase 3: Signal Taxonomy
 - **Hierarchical Library:** ✅ COMPLETED
 - **Signal Type Classification:** ✅ COMPLETED
 - **Modality Organization:** ✅ COMPLETED
 
-### ✅ Phase 4: Multimodal Fusion Tensors
+### Phase 4: Multimodal Fusion Tensors
 - **Consistency Tensor (COH):** ✅ COMPLETED
 - **Power Tensor (POW):** ✅ COMPLETED  
 - **Warmth Tensor (REL):** ✅ COMPLETED
 
-### ✅ Phase 5: Probabilistic Inference Rules
+### Phase 5: Probabilistic Inference Rules
 - **Trust Inference Rule:** ✅ COMPLETED
 - **Uncertainty Modeling:** ✅ COMPLETED
 - **Bayesian Updating:** ✅ COMPLETED
@@ -92,7 +99,7 @@ Successfully implemented **HERMES OMNI-SIGNAL INTELLIGENCE AGENT** - MAX POWER H
 - **Fairness Metrics:** ⏸️ PENDING
 - **Ablation Tests:** ⏸️ PENDING
 
-### ✅ Phase 9: Ethics/Safety Gates
+### Phase 9: Ethics/Safety Gates
 - **No Protected Attributes:** ✅ COMPLETED
 - **No Medical Diagnosis:** ✅ COMPLETED
 - **Uncertainty Requirements:** ✅ COMPLETED
@@ -102,7 +109,7 @@ Successfully implemented **HERMES OMNI-SIGNAL INTELLIGENCE AGENT** - MAX POWER H
 
 ## TECHNICAL SPECIFICATIONS
 
-### 📊 Library Statistics
+### Library Statistics
 - **Total Signals:** 7
 - **Signal Types:** RULE (5), FEATURE (2)
 - **Modalities:** LANGUAGE (3), MULTIMODAL (4)
@@ -110,7 +117,7 @@ Successfully implemented **HERMES OMNI-SIGNAL INTELLIGENCE AGENT** - MAX POWER H
 - **Average Confidence:** 78.6%
 - **Evidence Integrity:** 100%
 
-### 🧠 Canonical Signal Structure
+### Canonical Signal Structure
 ```python
 @dataclass
 class CanonicalSignal:
@@ -131,3 +138,8 @@ class CanonicalSignal:
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]
+```

@@ -1,6 +1,7 @@
 ---
 title: "Biological Programming"
 type: biology
+source: 21_DOMAINS/06_BIOLOGY
 artifact: "BIOLOGICAL_PROGRAMMING.md"
 artifact_id: "amos_21_domains_06_biology_biological_programming"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "21_DOMAINS/06_BIOLOGY"
 artifact_kind: "PROGRAMMING"
 path: "21_DOMAINS/06_BIOLOGY/BIOLOGICAL_PROGRAMMING.md"
 
-tags: [amos_os, domain, specialization, 21_domains, programming, canon_placeholder, rscf]
+tags: [amos_os, domain, specialization, 21_domains, programming, canon_placeholder, rscf, canon/domain]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Biological Programming

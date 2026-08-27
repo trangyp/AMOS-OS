@@ -1,8 +1,15 @@
 ---
 title: floating economy market
 type: reference
-tags: [reference, amos-c07-econ-finance-master]
+source: 07_SKILLS/amos-c07-econ-finance-master/references
+tags: [reference, amos-c07-econ-finance-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # How The Floating Economy Uses the Market
 
@@ -167,3 +174,7 @@ Planetary → atmospheric, seismic, ecological signal st
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

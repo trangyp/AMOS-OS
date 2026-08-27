@@ -1,6 +1,7 @@
 ---
 title: "Native Canon Source Registry"
 type: canon
+source: 22_RESEARCH/01_PAPERS
 artifact: "NATIVE_CANON_SOURCE_REGISTRY.md"
 artifact_id: "amos_22_research_01_papers_native_canon_source_registry"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "22_RESEARCH/01_PAPERS"
 artifact_kind: "REGISTRY"
 path: "22_RESEARCH/01_PAPERS/NATIVE_CANON_SOURCE_REGISTRY.md"
 
-tags: [amos_os, research, arxiv, 22_research, registry, canon_placeholder, rscf]
+tags: [amos_os, research, arxiv, 22_research, registry, canon_placeholder, rscf, canon/research]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Native Canon Source Registry

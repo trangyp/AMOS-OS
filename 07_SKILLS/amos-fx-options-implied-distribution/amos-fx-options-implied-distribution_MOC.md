@@ -1,8 +1,15 @@
 ---
 title: "Amos-Fx-Options-Implied-Distribution MOC"
 type: moc
-tags: [moc, amos-fx-options-implied-distribution]
+source: 07_SKILLS/amos-fx-options-implied-distribution
+tags: [moc, amos-fx-options-implied-distribution, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Fx-Options-Implied-Distribution — Map of Content
 

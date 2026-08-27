@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Selective-State-Space-Rscf MOC"
 type: moc
-tags: [moc, arxiv-selective-state-space-rscf]
+source: 07_SKILLS/arxiv-selective-state-space-rscf
+tags: [moc, arxiv-selective-state-space-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Selective-State-Space-Rscf — Map of Content
 

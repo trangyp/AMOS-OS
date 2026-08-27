@@ -1,15 +1,18 @@
 ---
 title: QLS ABI LONGEVITY TRONG NEN KINH TE TUOI THO
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
-# 🌏 **QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ**
+# **QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ**
 * * *
 ## **1. Nền kinh tế tuổi thọ là gì?**
 Theo WHO và OECD, _nền kinh tế tuổi thọ_ bao gồm tất cả các sản phẩm, dịch vụ, công nghệ và hạ tầng giúp con người **sống khỏe – sống lâu – sống có năng suất**.

@@ -1,12 +1,15 @@
 ---
 title: CIVILIZATIONAL SCALE FRAMEWORK CSF
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # CIVILIZATIONAL SCALE FRAMEWORK (CSF)
@@ -687,7 +690,7 @@ High SNF:
 
 
 * * *
-# 🔟 Demographic Competence Skew (DCS)
+# Demographic Competence Skew (DCS)
 Not just age.  
 Skill distribution across age.
 ```
@@ -728,7 +731,7 @@ Large negative gap:
 
 
 * * *
-# 🔥 True Deep Invariant
+# True Deep Invariant
 Across 3,000+ years:
 Civilizations collapse not from poverty,  
 but from:
@@ -1147,7 +1150,7 @@ If yields compress system-wide:
 
 
 * * *
-# 🔟 Sovereign Optionality Index (SOI)
+# Sovereign Optionality Index (SOI)
 How many policy levers remain?
 ```
     SOI = MonetaryFlexibility + FiscalFlexibility + ExternalBalance + PoliticalLegitimacy
@@ -1972,7 +1975,7 @@ Nếu:
     \frac{d}{dt}Entropy > \frac{d}{dt}Productivity
 ```
 * * *
-# 🔟 Tầng “Sự mục ruỗng chuẩn mực” (Norm Degradation Layer)
+# Tầng “Sự mục ruỗng chuẩn mực” (Norm Degradation Layer)
 Không phải đạo đức suy.
 Mà là **chuẩn mực bị tái định nghĩa theo sống sót**.
 ## Proxy:

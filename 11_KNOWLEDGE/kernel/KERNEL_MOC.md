@@ -1,8 +1,15 @@
 ---
 title: "Kernel MOC"
 type: moc
-tags: [moc, kernel]
+source: 11_KNOWLEDGE/kernel
+tags: [moc, kernel, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # Kernel — Map of Content
 

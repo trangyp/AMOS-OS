@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-semantic-grounding-auditor]
+source: 07_SKILLS/amos-semantic-grounding-auditor/references
+tags: [reference, amos-semantic-grounding-auditor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -109,3 +116,7 @@ Gates 10+13 · UBCAR 8 · Pipeline 11/11 · MURK 10 · DMER 21 · TS vitest 1142
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

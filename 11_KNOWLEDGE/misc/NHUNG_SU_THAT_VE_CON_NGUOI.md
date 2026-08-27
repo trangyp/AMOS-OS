@@ -1,12 +1,15 @@
 ---
 title: NHUNG SU THAT VE CON NGUOI
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 ![](https://app.notion.com/images/page-cover/nasa_buzz_aldrin_on_the_moon.jpg)

@@ -1,12 +1,15 @@
 ---
 title: KHUNG GIAO TRINH 48 GIO CHO TAI XE DIEU PHOI K
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # **Khung Giáo trình 48 giờ cho tài xế – điều phối – kỹ thuật.**

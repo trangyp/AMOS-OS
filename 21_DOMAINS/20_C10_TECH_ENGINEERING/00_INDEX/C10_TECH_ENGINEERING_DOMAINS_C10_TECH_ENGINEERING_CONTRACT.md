@@ -1,9 +1,14 @@
 ---
 title: C10 TECH ENGINEERING DOMAINS C10 TECH ENGINEERING CONTRACT
 type: engine
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/20_C10_TECH_ENGINEERING/00_INDEX
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # C10 TECH ENGINEERING DOMAINS C10 TECH ENGINEERING CONTRACT

@@ -1,12 +1,15 @@
 ---
 title: CAC HE THONG BAN DO MAU HINH PATTERN MAP TRONG V
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # Các hệ thống bản đồ mẫu hình (Pattern Map) trong văn minh Đông Nam Á: Kinh Dịch, Tử Vi, Phong Thủy và tri thức truyền thống

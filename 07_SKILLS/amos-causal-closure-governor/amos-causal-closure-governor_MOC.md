@@ -1,8 +1,15 @@
 ---
 title: "Amos-Causal-Closure-Governor MOC"
 type: moc
-tags: [moc, amos-causal-closure-governor]
+source: 07_SKILLS/amos-causal-closure-governor
+tags: [moc, amos-causal-closure-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Causal-Closure-Governor — Map of Content
 

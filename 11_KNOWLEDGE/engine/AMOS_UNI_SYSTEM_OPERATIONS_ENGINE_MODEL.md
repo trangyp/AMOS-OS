@@ -3,9 +3,13 @@ title: AMOS UNI SYSTEM OPERATIONS ENGINE MODEL
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-uni-system-operations-engine-model, engine]
 type: document
 source: 11_KNOWLEDGE/engine
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
+
 ---
-
-
 
 
 # AMOS Uni System Operations Engine Model
@@ -45,3 +49,6 @@ Uses an x100k expansion logic utilizing templates for:
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

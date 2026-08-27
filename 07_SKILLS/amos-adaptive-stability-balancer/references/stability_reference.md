@@ -1,8 +1,15 @@
 ---
 title: stability reference
 type: reference
-tags: [reference, amos-adaptive-stability-balancer]
+source: 07_SKILLS/amos-adaptive-stability-balancer/references
+tags: [reference, amos-adaptive-stability-balancer, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Adaptive Stability Balancer — Detailed Reference
 
@@ -1653,3 +1660,7 @@ Avoid:
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

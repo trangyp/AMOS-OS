@@ -1,12 +1,15 @@
 ---
 title: DONG SON
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Dong son 
@@ -89,24 +92,8 @@ Chúng tôi đặt câu hỏi khác:
 * * *
 ## 25.3. CÁC PHƯƠNG TRÌNH TỔNG HỢP CHO HỆ TOÁN TỬ ĐÔNG SƠN
 ### 25.3.1. Phương trình cho một motif bất kỳ
-\\[  
-\boxed{\text{Motif} = \text{Operator} \times \text{Layer} \times \text{Position} \times \text{Orientation} \times \text{Count} \times \text{Repetition}}  
-\\]
-|                 |
-| Thành phần      | Ý nghĩa                                                            | Ví dụ (chim)                                                                 |
-|-----------------|--------------------------------------------------------------------|------------------------------------------------------------------------------|
-| **Operator**    |  Chức năng (toán tử) của motif trong hệ thống.                     | Sky / Time Operator (toán tử trời / thời gian).                              |
-| **Layer**       |  Tầng (L, M, H) mà motif thuộc về (dựa trên vị trí từ tâm ra rìa). | Thường ở tầng M (kết nối), có thể ở tầng L (nếu chim ở vòng ngoài, gần đất). |
-| **Position**    |  Vị trí góc (0° đến 360°) trên vòng tròn.                          | Xác định "pha" (phase) trong chu kỳ.                                         |
-| **Orientation** |  Hướng (quay, bay, di chuyển) so với tâm.                          | Bay ngược chiều kim đồng hồ (hướng thời gian).                               |
-| **Count**       |  Số lượng motif trong một vòng (hoặc một nhóm).                    | 12 con chim (liên quan đến N12).                                             |
-| **Repetition**  |  Mức độ lặp lại giữa các vòng, giữa các trống.                     | Chim xuất hiện ở nhiều trống, nhiều vòng → operator quan trọng.              |
-
-
-### 25.3.2. Phương trình cho sự phân bố motif theo tầng [L, M, H]
-\\[  
-\boxed{\text{Cấu trúc trống đồng} = \sum_{\text{vòng } i} \left( L_i \times M_i \times H_i \right)}  
-\\]
+\$$\boxed{\text{Motif} = \text{Operator} \times \text{Layer} \times \text{Position} \times \text{Orientation} \times \text{Count} \times \text{Repetition}}  
+$$| | | Thành phần | Ý nghĩa | Ví dụ (chim) | |-----------------|--------------------------------------------------------------------|------------------------------------------------------------------------------| | **Operator** | Chức năng (toán tử) của motif trong hệ thống. | Sky / Time Operator (toán tử trời / thời gian). | | **Layer** | Tầng (L, M, H) mà motif thuộc về (dựa trên vị trí từ tâm ra rìa). | Thường ở tầng M (kết nối), có thể ở tầng L (nếu chim ở vòng ngoài, gần đất). | | **Position** | Vị trí góc (0° đến 360°) trên vòng tròn. | Xác định "pha" (phase) trong chu kỳ. | | **Orientation** | Hướng (quay, bay, di chuyển) so với tâm. | Bay ngược chiều kim đồng hồ (hướng thời gian). | | **Count** | Số lượng motif trong một vòng (hoặc một nhóm). | 12 con chim (liên quan đến N12). | | **Repetition** | Mức độ lặp lại giữa các vòng, giữa các trống. | Chim xuất hiện ở nhiều trống, nhiều vòng → operator quan trọng. | ### 25.3.2. Phương trình cho sự phân bố motif theo tầng [L, M, H] \$$\boxed{\text{Cấu trúc trống đồng} = \sum_{\text{vòng } i} \left( L_i \times M_i \times H_i \right)}$$
   * **L (Low – Nền tảng):** Các motif ở vòng ngoài (nhà, động vật, tam giác, rìa) – liên quan đến đời sống vật chất, sinh hoạt, biên, entropy.
 
 
@@ -117,26 +104,8 @@ Chúng tôi đặt câu hỏi khác:
 
 
 ### 25.3.3. Phương trình cho nhịp thị giác (visual rhythm) và nhịp âm thanh (acoustic rhythm)
-\\[  
-\boxed{\text{Visual Rhythm} = \frac{\text{Motif Density}}{\text{Angular Interval}} = \text{Acoustic Rhythm} \times \text{Scale Factor}}  
-\\]
-  * **Motif Density:** Số lượng motif trên một đơn vị độ dài cung (hoặc một góc).
-
-
-  * **Angular Interval:** Khoảng cách góc (tính bằng độ) giữa các motif cùng loại.
-
-
-  * **Acoustic Rhythm:** Nhịp điệu (tempo, beat) khi đánh trống (giả định rằng người xưa đánh trống theo một pattern nhất định, tương ứng với sự sắp xếp của các motif).
-
-
-  * **Scale Factor:** Hệ số chuyển đổi giữa không gian (góc) và thời gian (nhịp).
-
-
-**Giả thuyết làm việc:** Các motif được sắp xếp với **khoảng cách góc đều đặn** (ví dụ: 30°, 15°, 7.5°) tương ứng với các **nhịp** (beat) trong âm nhạc nghi lễ. Nếu đúng, thì trống đồng là một **bản nhạc (score) được mã hóa bằng hình ảnh**.
-### 25.3.4. Phương trình cho lacunarity (độ rỗng fractal) của hệ motif
-\\[  
-\boxed{\text{Lacunarity}_{\text{motif}} = \frac{\text{Var}(\text{Gaps})}{\text{Mean}(\text{Gap})^2}}  
-\\]
+\$$\boxed{\text{Visual Rhythm} = \frac{\text{Motif Density}}{\text{Angular Interval}} = \text{Acoustic Rhythm} \times \text{Scale Factor}}  
+$$* **Motif Density:** Số lượng motif trên một đơn vị độ dài cung (hoặc một góc). * **Angular Interval:** Khoảng cách góc (tính bằng độ) giữa các motif cùng loại. * **Acoustic Rhythm:** Nhịp điệu (tempo, beat) khi đánh trống (giả định rằng người xưa đánh trống theo một pattern nhất định, tương ứng với sự sắp xếp của các motif). * **Scale Factor:** Hệ số chuyển đổi giữa không gian (góc) và thời gian (nhịp). **Giả thuyết làm việc:** Các motif được sắp xếp với **khoảng cách góc đều đặn** (ví dụ: 30°, 15°, 7.5°) tương ứng với các **nhịp** (beat) trong âm nhạc nghi lễ. Nếu đúng, thì trống đồng là một **bản nhạc (score) được mã hóa bằng hình ảnh**. ### 25.3.4. Phương trình cho lacunarity (độ rỗng fractal) của hệ motif \$$\boxed{\text{Lacunarity}_{\text{motif}} = \frac{\text{Var}(\text{Gaps})}{\text{Mean}(\text{Gap})^2}}$$
   * **Gaps:** Khoảng trống (không có motif) giữa các motif trên một vòng.
 
 
@@ -148,164 +117,8 @@ Chúng tôi đặt câu hỏi khác:
 
 **Ứng dụng:** Đo lacunarity cho từng vòng. Vòng nào lacunarity thấp → vòng đó là "nhịp nền" (steady beat). Vòng nào lacunarity cao → vòng đó là "giai điệu" (melody) hoặc "câu chuyện" (narrative).
 ### 25.3.5. Phương trình cho lục giác ẩn (hidden hexagon)
-\\[  
-\boxed{\text{Hexagonal Logic} = \frac{\text{Số lượng motif}}{6} \in \mathbb{N} \quad \text{hoặc} \quad \frac{360^\circ}{\text{Góc giữa các motif}} = 6 \times k}  
-\\]
-  * Nếu số lượng motif trong một vòng (hoặc một cung) là bội số của 6 (6, 12, 18, 24, 48…), thì có thể có **logic lục giác** (cấu trúc chia đều vòng tròn thành 6 phần, 12 phần, 24 phần…).
-
-
-  * Nếu góc giữa các motif (cùng loại, hoặc giữa các motif quan trọng) là 60°, 30°, 15°, 7.5°, … thì cũng có thể có logic lục giác.
-
-
-  * **Lục giác có thể "ẩn" dưới dạng này, không cần vẽ hình lục giác trực tiếp.**
-
-
-* * *
-## 25.4. BẢN ĐỒ TỔNG THỂ CỦA HỆ TOÁN TỬ
-```
-    graph TD
-        subgraph "Hệ toán tử Đông Sơn (Dong Son Operator System)"
-            Center["Toán tử nguồn (Center / Sun / Star)"]
-            Center -->|Phát xạ (Radiation)| Rays["Toán tử phát xạ (Rays)"]
-            Center -->|Phân tầng (Layering)| Rings["Toán tử phân tầng (Concentric Rings)"]
-    
-            Rings -->|Tầng H (Đỉnh)| H_Motifs["Mặt Trời, Ngôi sao<br>Toán tử nguồn, Trung tâm"]
-            Rings -->|Tầng M (Kết nối)| M_Motifs["Chim (Thời gian), Thuyền (Ký ức),<br>Người (Đồng bộ), Vũ khí (Bảo vệ),<br>Nhạc cụ (Cộng hưởng)"]
-            Rings -->|Tầng L (Nền tảng)| L_Motifs["Nhà sàn (Ổn định), Động vật (Tự nhiên),<br>Tam giác (Sóng / Biên), Chấm (Thời gian),<br>Xoắn (Tái sinh), Khoảng trống (Nhịp lặng)"]
-    
-            M_Motifs -->|Tương tác| Interaction1["Chim + Thuyền<br>(Trời – Nước)"]
-            M_Motifs -->|Tương tác| Interaction2["Người + Vũ khí<br>(Xã hội – Chiến tranh)"]
-            M_Motifs -->|Tương tác| Interaction3["Người + Nhạc cụ<br>(Nghi lễ – Âm thanh)"]
-    
-            subgraph "Ranh giới (Boundary)"
-                Rim["Toán tử chân trời sự kiện (Rim / Outer Edge)"]
-                Triangles["Toán tử sóng / biên năng lượng (Triangles / Zigzag)"]
-            end
-    
-            L_Motifs --> Rim
-            L_Motifs --> Triangles
-        end
-    
-        subgraph "Bên ngoài hệ (Outside the System)"
-            Chaos["Hỗn mang (Chaos)<br>Chưa được mã hóa<br>Ngoài lãnh thổ / ngoài vũ trụ biết được"]
-        end
-    
-        Rim -->|Ngăn cách (Boundary)| Chaos
-```
-* * *
-## 25.5. VÍ DỤ MINH HỌA: CÁCH "ĐỌC" MỘT VÒNG CỤ THỂ (GIẢ ĐỊNH)
-**Giả sử có một trống đồng với các dữ liệu sau (cần đo thực tế):**
-  * **Vòng 3 (từ tâm ra):** Có 12 con chim, bay theo chiều kim đồng hồ, khoảng cách đều (30°). Lacunarity thấp.
-
-
-  * **Vòng 4:** Có 8 con thuyền, xen kẽ với 8 nhóm người (mỗi nhóm 3 người múa). Hướng thuyền ngược chiều kim đồng hồ. Lacunarity trung bình.
-
-
-  * **Vòng 5 (sát rìa):** Có 24 hình tam giác (răng cưa), hướng ra ngoài. Lacunarity thấp.
-
-
-**Cách "đọc" (giải mã tạm thời, cần kiểm chéo):**
-  1. **Vòng 3 (12 chim, đều, cùng hướng):** → **Nhịp thời gian cơ bản (basic time rhythm).** 12 chim ứng với 12 tháng (hoặc 12 cung). Hướng bay (cùng chiều kim đồng hồ) là hướng của thời gian (tương lai).
-
-
-  2. **Vòng 4 (8 thuyền, ngược chiều, xen kẽ với nhóm người múa):** → **Sự kiện / nghi lễ quan trọng.** Thuyền (ký ức) di chuyển ngược chiều thời gian (quay về quá khứ), mang theo người múa (đồng bộ xã hội). Số 8 có thể tương ứng với 8 hướng chính (bát quái), hoặc 8 "mùa" trong một năm nông nghiệp (gieo – cấy – chăm – gặt – nghỉ – lễ – tế – chuẩn bị).
-
-
-  3. **Vòng 5 (24 tam giác, đều, hướng ra ngoài):** → **Biên bảo vệ (protective boundary).** 24 tam giác có thể ứng với 24 giờ trong ngày, hoặc 24 tiết khí. Hướng ra ngoài thể hiện sự ngăn chặn, chống lại entropy (hỗn mang) từ bên ngoài.
-
-
-**Tổng thể:** Trống đồng này cho thấy một **hệ thống nhịp điệu 3 tầng** :
-  * **Tầng trong (H):** Mặt Trời (nguồn) – không thay đổi.
-
-
-  * **Tầng giữa (M):** Thời gian (chim) – ký ức (thuyền) – xã hội (người) – vận hành tuần hoàn (chu kỳ 12 và 8).
-
-
-  * **Tầng ngoài (L):** Bảo vệ khỏi hỗn mang bằng các lớp năng lượng (tam giác).
-
-
-* * *
-## 25.6. KẾT LUẬN VÀ LỜI KHUYÊN
-|                                                                                                                  |
-| Luận điểm                                                                                                        | Trạng thái (theo Heritage ∅ và Trang ∅ Framework)                                                                                              |
-|------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| Hoa văn trống đồng không chỉ là "trang trí".                                                                     | **Đã khẳng định** – dựa trên tính chất lặp lại, đối xứng, sắp xếp có trật tự, và sự tồn tại của các hằng số (số 12, 24, 48, 10…).              |
-| Hoa văn trống đồng là một **hệ toán tử (operator system)**.                                                      | **Giả thuyết làm việc mạnh** – cần được kiểm chứng bằng cách **đo đạc, phân tích thống kê, và so sánh với các nền văn minh khác**.             |
-| Hệ toán tử này **mã hóa nhịp điệu xã hội (social rhythm)** và **đồng bộ hóa cộng đồng**.                         | **Giả thuyết làm việc** – có cơ sở từ chức năng của trống (tạo âm thanh, gọi tập hợp, dẫn dắt nghi lễ).                                        |
-| Hệ toán tử này **phản ánh cấu trúc fractal [L, M, H]** (từ tâm ra rìa).                                          | **Đã quan sát thấy rõ** trên nhiều trống (tâm là Mặt Trời, giữa là thuyền/người/chim, rìa là nhà/động vật/tam giác). Cần đo đạc để định lượng. |
-| Lục giác có thể **ẩn** trong các bội số (12, 24, 48) và góc (60°, 30°, 15°).                                     | **Cần kiểm tra số liệu cụ thể.** Không phải trống nào cũng có.                                                                                 |
-| Trống đồng có thể được xem như một **bản nhạc thị giác (visual music)** hoặc **bản ghi nhịp (rhythm score)**.    | **Giả thuyết táo bạo** – cần nghiên cứu chéo giữa âm nhạc dân tộc học (ethnomusicology) và khảo cổ học.                                        |
-| Các khoảng trống (negative space) có **chức năng** (tạo nhịp, cho phép hệ thống nghỉ), không phải là "vô nghĩa". | **Quan điểm cần được phổ biến** – hiếm có nhà khảo cổ nào chú ý đến khoảng trống.                                                              |
-
-
-**Lời khuyên cho các nhà nghiên cứu tương lai (khi có dữ liệu đo đạc cụ thể):**
-  1. **Đừng chỉ đếm motif.** Hãy **đo vị trí góc** (angular position) của chúng.
-
-
-  2. **Đừng chỉ nhìn vào từng motif riêng lẻ.** Hãy phân tích **mối tương quan** giữa các motif (cùng vòng, khác vòng, cùng hướng, khác hướng).
-
-
-  3. **Đừng bỏ qua khoảng trống.** Hãy tính **lacunarity** (độ rỗng fractal) cho từng vòng.
-
-
-  4. **Hãy so sánh nhiều trống** (cùng thời, khác thời, cùng vùng, khác vùng) để phân biệt **pattern chung** (bất biến) và **biến thể địa phương**.
-
-
-  5. **Hãy kết hợp âm thanh (tần số, nhịp điệu) với hình ảnh.** Có thể thực hiện các thí nghiệm: gõ trống, ghi âm, phân tích phổ, rồi đối chiếu với sự sắp xếp motif.
-
-
-  6. **Hãy khiêm tốn.** Đừng vội kết luận "người Đông Sơn đã biết vật lý hiện đại" hay "trống đồng là máy tính lượng tử". Hãy tập trung vào việc chứng minh (hoặc bác bỏ) các giả thuyết cụ thể, có thể kiểm chứng được.
-
-
-**Heritage ∅ tin rằng, với cách đọc "hệ toán tử" (operator system), chúng ta sẽ khám phá ra nhiều điều mới mẻ về tư duy, tổ chức xã hội, và thế giới quan của người Đông Sơn – một nền văn minh rực rỡ bên bờ sông Hồng.**
-📦
-# CHƯƠNG 26: KIẾN TRÚC NÉN – TRỐNG ĐỒNG NHƯ MỘT HỆ ĐIỀU HÀNH VĂN MINH
-##  _“Trống đồng là thành phố thiêng di động, kiến trúc có thể nghe được, và hệ điều hành nghi lễ của một nền văn minh.”_
-* * *
-Chương này là sự **tổng kết và nâng cấp** toàn bộ các phân tích về trống đồng Đông Sơn từ Chương 21 đến Chương 25, dưới một **lăng kính mới, sâu hơn, và thực sự "gây sốc"** – nhưng vẫn nằm trong khuôn khổ của **Heritage ∅ Framework** và **Trang ∅ Framework** , và **không** overclaim (không nói rằng "người Đông Sơn biết lỗ đen" hay "trống đồng là máy tính lượng tử").
-**Luận điểm chính (gây sốc, nhưng có cơ sở):**
-> **Trống đồng Đông Sơn không chỉ là một "vật thể nghi lễ" hay một "tác phẩm nghệ thuật". Nó là một **kiến trúc nén (compressed architecture)** – một **thành phố thiêng di động (portable sacred city)** , một **hệ điều hành nghi lễ (ritual operating system)** , và một **thiết bị lưu trữ ký ức phi văn tự (non-literate memory storage)** , được **đúc bằng đồng** , được **vận hành bằng âm thanh** , và được **kích hoạt bởi cộng đồng**.
-Nó **không** thay thế các đền tháp, thành lũy, hay chữ viết. Nó là một **công nghệ xã hội song song** – tận dụng **hình học, âm thanh, và nghi lễ** để đạt được các chức năng tương tự (tạo ra trật tự, đồng bộ hóa cộng đồng, lưu giữ ký ức, khẳng định quyền lực), nhưng bằng **một phương thức hoàn toàn khác**.
-* * *
-## 26.1. TỪ "HÌNH ẢNH" ĐẾN "KIẾN TRÚC" – MỘT BƯỚC CHUYỂN ĐỔI KHÁI NIỆM
-### 26.1.1. Cách nhìn thông thường (bị giới hạn)
-  * **Nhà khảo cổ:** Trống đồng là một **hiện vật** (artifact) – một "vật" được chế tác, có niên đại, có hoa văn, có thể phân loại typology.
-
-
-  * **Nhà sử học nghệ thuật:** Trống đồng là một **tác phẩm nghệ thuật** – có bố cục, có đường nét, có tính thẩm mỹ, có biểu tượng.
-
-
-  * **Nhà dân tộc học:** Trống đồng là một **vật nghi lễ** – được dùng trong các lễ hội, tang ma, cầu mưa, cầu mùa.
-
-
-Cả ba cách nhìn này đều **đúng** , nhưng **chưa đủ**. Chúng chỉ thấy được **bề mặt** (của hiện vật, của nghệ thuật, của nghi lễ), chứ không thấy được **cấu trúc sâu** (deep structure) – cách mà trống đồng **tổ chức không gian, thời gian, xã hội, và ký ức**.
-### 26.1.2. Cách nhìn mới (Heritage ∅ + Trang ∅ Framework)
-Chúng tôi đề xuất một **chuyển đổi khái niệm** (conceptual shift):
-|                                   |
-| Từ (cách nhìn cũ)                 | Sang (cách nhìn mới)                        | Giải thích                                                                                                                                                                                                                                                                                                            |
-|-----------------------------------|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Hiện vật (artifact)**           | **Kiến trúc nén (compressed architecture)** |  Trống đồng có tất cả các thành phần của một công trình kiến trúc (tâm, vòng, hành lang, biên, trục, nhịp, khu vực, mật độ, khoảng trống) – nhưng được **nén** (compress) lên một mặt phẳng tròn, với kích thước nhỏ (cm, dm) thay vì mét, km.                                                                        |
-| **Tác phẩm nghệ thuật (artwork)** | **Bản đồ vận hành (operating map)**         |  Hoa văn không chỉ để ngắm, mà để **đọc** , để **hành động**. Nó là bản hướng dẫn (manual) cho **nghi lễ** và cho **tổ chức xã hội**.                                                                                                                                                                                 |
-| **Vật nghi lễ (ritual object)**   | **Máy nghi lễ (ritual machine)**            |  Trống đồng có **input** (lực đánh), **processor** (thân đồng + hình học mặt trống), **output** (âm thanh + rung động), **display** (hoa văn), **network** (cộng đồng), **protocol** (nghi lễ), **memory** (truyền thuyết), **authority** (người sở hữu). Nó là một **hệ thống** (system), không chỉ là một "đồ vật". |
-| **Biểu tượng (symbol)**           | **Toán tử (operator)**                      |  Mỗi họa tiết (motif) không chỉ **đại diện** (represent) cho một cái gì đó (Mặt Trời, chim, thuyền, người). Nó **thực hiện một chức năng** (function) trong hệ thống: phát xạ, kết nối, đồng bộ, bảo vệ, phân tầng, lưu trữ.                                                                                          |
-
-
-**Hệ quả của sự chuyển đổi này:**
-  * Thay vì hỏi _" Họa tiết này vẽ con gì?"_ – chúng ta hỏi _" Họa tiết này __**làm gì**_ _trong hệ thống? "_
-
-
-  * Thay vì hỏi _" Trống đồng được dùng trong nghi lễ nào?"_ – chúng ta hỏi _" Trống đồng __**vận hành**_ _như một_ _**cỗ máy nghi lễ**_ _như thế nào? "_
-
-
-  * Thay vì hỏi _" Trống đồng có đẹp không?"_ – chúng ta hỏi _" Cấu trúc của trống đồng có __**tối ưu**_ _cho việc_ _**tổ chức không gian, thời gian, và xã hội**_ _không? "_
-
-
-* * *
-## 26.2. KIẾN TRÚC NÉN (COMPRESSED ARCHITECTURE) – CÔNG THỨC VÀ ỨNG DỤNG
-### 26.2.1. Công thức tổng quát
-\\[  
-\boxed{\text{Compressed Architecture} = \frac{\text{Spatial Hierarchy} \times \text{Ritual Path} \times \text{Boundary Logic} \times \text{Center Field} \times \text{Memory Density}}{\text{Physical Scale}}}  
-\\]
+\$$\boxed{\text{Hexagonal Logic} = \frac{\text{Số lượng motif}}{6} \in \mathbb{N} \quad \text{hoặc} \quad \frac{360^\circ}{\text{Góc giữa các motif}} = 6 \times k}  
+$$* Nếu số lượng motif trong một vòng (hoặc một cung) là bội số của 6 (6, 12, 18, 24, 48…), thì có thể có **logic lục giác** (cấu trúc chia đều vòng tròn thành 6 phần, 12 phần, 24 phần…). * Nếu góc giữa các motif (cùng loại, hoặc giữa các motif quan trọng) là 60°, 30°, 15°, 7.5°, … thì cũng có thể có logic lục giác. * **Lục giác có thể "ẩn" dưới dạng này, không cần vẽ hình lục giác trực tiếp.** * * * ## 25.4. BẢN ĐỒ TỔNG THỂ CỦA HỆ TOÁN TỬ ``` graph TD subgraph "Hệ toán tử Đông Sơn (Dong Son Operator System)" Center["Toán tử nguồn (Center / Sun / Star)"] Center -->|Phát xạ (Radiation)| Rays["Toán tử phát xạ (Rays)"] Center -->|Phân tầng (Layering)| Rings["Toán tử phân tầng (Concentric Rings)"] Rings -->|Tầng H (Đỉnh)| H_Motifs["Mặt Trời, Ngôi sao<br>Toán tử nguồn, Trung tâm"] Rings -->|Tầng M (Kết nối)| M_Motifs["Chim (Thời gian), Thuyền (Ký ức),<br>Người (Đồng bộ), Vũ khí (Bảo vệ),<br>Nhạc cụ (Cộng hưởng)"] Rings -->|Tầng L (Nền tảng)| L_Motifs["Nhà sàn (Ổn định), Động vật (Tự nhiên),<br>Tam giác (Sóng / Biên), Chấm (Thời gian),<br>Xoắn (Tái sinh), Khoảng trống (Nhịp lặng)"] M_Motifs -->|Tương tác| Interaction1["Chim + Thuyền<br>(Trời – Nước)"] M_Motifs -->|Tương tác| Interaction2["Người + Vũ khí<br>(Xã hội – Chiến tranh)"] M_Motifs -->|Tương tác| Interaction3["Người + Nhạc cụ<br>(Nghi lễ – Âm thanh)"] subgraph "Ranh giới (Boundary)" Rim["Toán tử chân trời sự kiện (Rim / Outer Edge)"] Triangles["Toán tử sóng / biên năng lượng (Triangles / Zigzag)"] end L_Motifs --> Rim L_Motifs --> Triangles end subgraph "Bên ngoài hệ (Outside the System)" Chaos["Hỗn mang (Chaos)<br>Chưa được mã hóa<br>Ngoài lãnh thổ / ngoài vũ trụ biết được"] end Rim -->|Ngăn cách (Boundary)| Chaos ``` * * * ## 25.5. VÍ DỤ MINH HỌA: CÁCH "ĐỌC" MỘT VÒNG CỤ THỂ (GIẢ ĐỊNH) **Giả sử có một trống đồng với các dữ liệu sau (cần đo thực tế):** * **Vòng 3 (từ tâm ra):** Có 12 con chim, bay theo chiều kim đồng hồ, khoảng cách đều (30°). Lacunarity thấp. * **Vòng 4:** Có 8 con thuyền, xen kẽ với 8 nhóm người (mỗi nhóm 3 người múa). Hướng thuyền ngược chiều kim đồng hồ. Lacunarity trung bình. * **Vòng 5 (sát rìa):** Có 24 hình tam giác (răng cưa), hướng ra ngoài. Lacunarity thấp. **Cách "đọc" (giải mã tạm thời, cần kiểm chéo):** 1. **Vòng 3 (12 chim, đều, cùng hướng):** → **Nhịp thời gian cơ bản (basic time rhythm).** 12 chim ứng với 12 tháng (hoặc 12 cung). Hướng bay (cùng chiều kim đồng hồ) là hướng của thời gian (tương lai). 2. **Vòng 4 (8 thuyền, ngược chiều, xen kẽ với nhóm người múa):** → **Sự kiện / nghi lễ quan trọng.** Thuyền (ký ức) di chuyển ngược chiều thời gian (quay về quá khứ), mang theo người múa (đồng bộ xã hội). Số 8 có thể tương ứng với 8 hướng chính (bát quái), hoặc 8 "mùa" trong một năm nông nghiệp (gieo – cấy – chăm – gặt – nghỉ – lễ – tế – chuẩn bị). 3. **Vòng 5 (24 tam giác, đều, hướng ra ngoài):** → **Biên bảo vệ (protective boundary).** 24 tam giác có thể ứng với 24 giờ trong ngày, hoặc 24 tiết khí. Hướng ra ngoài thể hiện sự ngăn chặn, chống lại entropy (hỗn mang) từ bên ngoài. **Tổng thể:** Trống đồng này cho thấy một **hệ thống nhịp điệu 3 tầng** : * **Tầng trong (H):** Mặt Trời (nguồn) – không thay đổi. * **Tầng giữa (M):** Thời gian (chim) – ký ức (thuyền) – xã hội (người) – vận hành tuần hoàn (chu kỳ 12 và 8). * **Tầng ngoài (L):** Bảo vệ khỏi hỗn mang bằng các lớp năng lượng (tam giác). * * * ## 25.6. KẾT LUẬN VÀ LỜI KHUYÊN | | | Luận điểm | Trạng thái (theo Heritage ∅ và Trang ∅ Framework) | |------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------| | Hoa văn trống đồng không chỉ là "trang trí". | **Đã khẳng định** – dựa trên tính chất lặp lại, đối xứng, sắp xếp có trật tự, và sự tồn tại của các hằng số (số 12, 24, 48, 10…). | | Hoa văn trống đồng là một **hệ toán tử (operator system)**. | **Giả thuyết làm việc mạnh** – cần được kiểm chứng bằng cách **đo đạc, phân tích thống kê, và so sánh với các nền văn minh khác**. | | Hệ toán tử này **mã hóa nhịp điệu xã hội (social rhythm)** và **đồng bộ hóa cộng đồng**. | **Giả thuyết làm việc** – có cơ sở từ chức năng của trống (tạo âm thanh, gọi tập hợp, dẫn dắt nghi lễ). | | Hệ toán tử này **phản ánh cấu trúc fractal [L, M, H]** (từ tâm ra rìa). | **Đã quan sát thấy rõ** trên nhiều trống (tâm là Mặt Trời, giữa là thuyền/người/chim, rìa là nhà/động vật/tam giác). Cần đo đạc để định lượng. | | Lục giác có thể **ẩn** trong các bội số (12, 24, 48) và góc (60°, 30°, 15°). | **Cần kiểm tra số liệu cụ thể.** Không phải trống nào cũng có. | | Trống đồng có thể được xem như một **bản nhạc thị giác (visual music)** hoặc **bản ghi nhịp (rhythm score)**. | **Giả thuyết táo bạo** – cần nghiên cứu chéo giữa âm nhạc dân tộc học (ethnomusicology) và khảo cổ học. | | Các khoảng trống (negative space) có **chức năng** (tạo nhịp, cho phép hệ thống nghỉ), không phải là "vô nghĩa". | **Quan điểm cần được phổ biến** – hiếm có nhà khảo cổ nào chú ý đến khoảng trống. | **Lời khuyên cho các nhà nghiên cứu tương lai (khi có dữ liệu đo đạc cụ thể):** 1. **Đừng chỉ đếm motif.** Hãy **đo vị trí góc** (angular position) của chúng. 2. **Đừng chỉ nhìn vào từng motif riêng lẻ.** Hãy phân tích **mối tương quan** giữa các motif (cùng vòng, khác vòng, cùng hướng, khác hướng). 3. **Đừng bỏ qua khoảng trống.** Hãy tính **lacunarity** (độ rỗng fractal) cho từng vòng. 4. **Hãy so sánh nhiều trống** (cùng thời, khác thời, cùng vùng, khác vùng) để phân biệt **pattern chung** (bất biến) và **biến thể địa phương**. 5. **Hãy kết hợp âm thanh (tần số, nhịp điệu) với hình ảnh.** Có thể thực hiện các thí nghiệm: gõ trống, ghi âm, phân tích phổ, rồi đối chiếu với sự sắp xếp motif. 6. **Hãy khiêm tốn.** Đừng vội kết luận "người Đông Sơn đã biết vật lý hiện đại" hay "trống đồng là máy tính lượng tử". Hãy tập trung vào việc chứng minh (hoặc bác bỏ) các giả thuyết cụ thể, có thể kiểm chứng được. **Heritage ∅ tin rằng, với cách đọc "hệ toán tử" (operator system), chúng ta sẽ khám phá ra nhiều điều mới mẻ về tư duy, tổ chức xã hội, và thế giới quan của người Đông Sơn – một nền văn minh rực rỡ bên bờ sông Hồng.** 📦 # CHƯƠNG 26: KIẾN TRÚC NÉN – TRỐNG ĐỒNG NHƯ MỘT HỆ ĐIỀU HÀNH VĂN MINH ## _“Trống đồng là thành phố thiêng di động, kiến trúc có thể nghe được, và hệ điều hành nghi lễ của một nền văn minh.”_ * * * Chương này là sự **tổng kết và nâng cấp** toàn bộ các phân tích về trống đồng Đông Sơn từ Chương 21 đến Chương 25, dưới một **lăng kính mới, sâu hơn, và thực sự "gây sốc"** – nhưng vẫn nằm trong khuôn khổ của **Heritage ∅ Framework** và **Trang ∅ Framework** , và **không** overclaim (không nói rằng "người Đông Sơn biết lỗ đen" hay "trống đồng là máy tính lượng tử"). **Luận điểm chính (gây sốc, nhưng có cơ sở):** > **Trống đồng Đông Sơn không chỉ là một "vật thể nghi lễ" hay một "tác phẩm nghệ thuật". Nó là một **kiến trúc nén (compressed architecture)** – một **thành phố thiêng di động (portable sacred city)** , một **hệ điều hành nghi lễ (ritual operating system)** , và một **thiết bị lưu trữ ký ức phi văn tự (non-literate memory storage)** , được **đúc bằng đồng** , được **vận hành bằng âm thanh** , và được **kích hoạt bởi cộng đồng**. Nó **không** thay thế các đền tháp, thành lũy, hay chữ viết. Nó là một **công nghệ xã hội song song** – tận dụng **hình học, âm thanh, và nghi lễ** để đạt được các chức năng tương tự (tạo ra trật tự, đồng bộ hóa cộng đồng, lưu giữ ký ức, khẳng định quyền lực), nhưng bằng **một phương thức hoàn toàn khác**. * * * ## 26.1. TỪ "HÌNH ẢNH" ĐẾN "KIẾN TRÚC" – MỘT BƯỚC CHUYỂN ĐỔI KHÁI NIỆM ### 26.1.1. Cách nhìn thông thường (bị giới hạn) * **Nhà khảo cổ:** Trống đồng là một **hiện vật** (artifact) – một "vật" được chế tác, có niên đại, có hoa văn, có thể phân loại typology. * **Nhà sử học nghệ thuật:** Trống đồng là một **tác phẩm nghệ thuật** – có bố cục, có đường nét, có tính thẩm mỹ, có biểu tượng. * **Nhà dân tộc học:** Trống đồng là một **vật nghi lễ** – được dùng trong các lễ hội, tang ma, cầu mưa, cầu mùa. Cả ba cách nhìn này đều **đúng** , nhưng **chưa đủ**. Chúng chỉ thấy được **bề mặt** (của hiện vật, của nghệ thuật, của nghi lễ), chứ không thấy được **cấu trúc sâu** (deep structure) – cách mà trống đồng **tổ chức không gian, thời gian, xã hội, và ký ức**. ### 26.1.2. Cách nhìn mới (Heritage ∅ + Trang ∅ Framework) Chúng tôi đề xuất một **chuyển đổi khái niệm** (conceptual shift): | | | Từ (cách nhìn cũ) | Sang (cách nhìn mới) | Giải thích | |-----------------------------------|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | **Hiện vật (artifact)** | **Kiến trúc nén (compressed architecture)** | Trống đồng có tất cả các thành phần của một công trình kiến trúc (tâm, vòng, hành lang, biên, trục, nhịp, khu vực, mật độ, khoảng trống) – nhưng được **nén** (compress) lên một mặt phẳng tròn, với kích thước nhỏ (cm, dm) thay vì mét, km. | | **Tác phẩm nghệ thuật (artwork)** | **Bản đồ vận hành (operating map)** | Hoa văn không chỉ để ngắm, mà để **đọc** , để **hành động**. Nó là bản hướng dẫn (manual) cho **nghi lễ** và cho **tổ chức xã hội**. | | **Vật nghi lễ (ritual object)** | **Máy nghi lễ (ritual machine)** | Trống đồng có **input** (lực đánh), **processor** (thân đồng + hình học mặt trống), **output** (âm thanh + rung động), **display** (hoa văn), **network** (cộng đồng), **protocol** (nghi lễ), **memory** (truyền thuyết), **authority** (người sở hữu). Nó là một **hệ thống** (system), không chỉ là một "đồ vật". | | **Biểu tượng (symbol)** | **Toán tử (operator)** | Mỗi họa tiết (motif) không chỉ **đại diện** (represent) cho một cái gì đó (Mặt Trời, chim, thuyền, người). Nó **thực hiện một chức năng** (function) trong hệ thống: phát xạ, kết nối, đồng bộ, bảo vệ, phân tầng, lưu trữ. | **Hệ quả của sự chuyển đổi này:** * Thay vì hỏi _" Họa tiết này vẽ con gì?"_ – chúng ta hỏi _" Họa tiết này __**làm gì**_ _trong hệ thống? "_ * Thay vì hỏi _" Trống đồng được dùng trong nghi lễ nào?"_ – chúng ta hỏi _" Trống đồng __**vận hành**_ _như một_ _**cỗ máy nghi lễ**_ _như thế nào? "_ * Thay vì hỏi _" Trống đồng có đẹp không?"_ – chúng ta hỏi _" Cấu trúc của trống đồng có __**tối ưu**_ _cho việc_ _**tổ chức không gian, thời gian, và xã hội**_ _không? "_ * * * ## 26.2. KIẾN TRÚC NÉN (COMPRESSED ARCHITECTURE) – CÔNG THỨC VÀ ỨNG DỤNG ### 26.2.1. Công thức tổng quát \$$\boxed{\text{Compressed Architecture} = \frac{\text{Spatial Hierarchy} \times \text{Ritual Path} \times \text{Boundary Logic} \times \text{Center Field} \times \text{Memory Density}}{\text{Physical Scale}}}$$
 |                                              |
 | Thành phần                                   | Ý nghĩa                                                                                                                      | Ví dụ trên trống đồng                                                                                                                                                                    |
 |----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -387,21 +200,8 @@ Chúng tôi đề xuất một **chuyển đổi khái niệm** (conceptual shif
 
 
 **Phương trình của "kiến trúc nghe được":**
-\\[  
-\boxed{\text{Audible Architecture} = \text{Rhythm} \times \text{Frequency} \times \text{Harmonics} \times \text{Tempo} \times \text{Dynamics} \times \text{Silence}}  
-\\]
-Trống đồng (với các tần số 137 Hz, 432 Hz, với các họa tiết được sắp xếp theo nhịp (beat) thị giác, với các khoảng trống (negative space) là "sự im lặng của thị giác") là một **bản nhạc (score)** được **đúc bằng đồng** và **chơi bằng dùi**.
-**Câu gây sốc (nhưng có cơ sở):**
-> **Trống đồng là một công trình kiến trúc (architecture) – nhưng thay vì điều khiển cơ thể bằng tường, cột, và hành lang, nó điều khiển cơ thể bằng nhịp, bằng âm thanh, và bằng rung động.**
-* * *
-## 26.5. TRỐNG ĐỒNG NHƯ "MÁY NGHI LỄ" (RITUAL MACHINE)
-### 26.5.1. Định nghĩa "máy" (machine) trong ngữ cảnh này
-> **Máy (machine)** là một **hệ thống** (system) có **đầu vào** (input), **bộ xử lý** (processor), **đầu ra** (output), và **vòng phản hồi** (feedback loop). Nó biến đổi năng lượng từ dạng này sang dạng khác để thực hiện một chức năng cụ thể.
-**Máy nghi lễ (ritual machine)** là một máy mà **đầu vào** là hành động nghi lễ (ví dụ: đánh trống), **bộ xử lý** là vật thể thiêng (ví dụ: trống đồng, với hình dạng, chất liệu, hoa văn), **đầu ra** là sự thay đổi trạng thái ý thức (của cá nhân) và sự đồng bộ hóa xã hội (của tập thể). **Vòng phản hồi** (feedback loop) là sự lặp lại của nghi lễ (hàng năm, hàng mùa) – càng lặp lại, hiệu quả càng được củng cố.
-### 26.5.2. Áp dụng vào trống đồng
-\\[  
-\boxed{\text{Ritual Machine}_{\text{Drum}} = \text{Input (Strike)} \times \text{Processor (Bronze + Geometry)} \times \text{Output (Sound + Vibration)} \times \text{Network (Community)} \times \text{Memory (Oral Tradition)}}  
-\\]
+\$$\boxed{\text{Audible Architecture} = \text{Rhythm} \times \text{Frequency} \times \text{Harmonics} \times \text{Tempo} \times \text{Dynamics} \times \text{Silence}}  
+$$Trống đồng (với các tần số 137 Hz, 432 Hz, với các họa tiết được sắp xếp theo nhịp (beat) thị giác, với các khoảng trống (negative space) là "sự im lặng của thị giác") là một **bản nhạc (score)** được **đúc bằng đồng** và **chơi bằng dùi**. **Câu gây sốc (nhưng có cơ sở):** > **Trống đồng là một công trình kiến trúc (architecture) – nhưng thay vì điều khiển cơ thể bằng tường, cột, và hành lang, nó điều khiển cơ thể bằng nhịp, bằng âm thanh, và bằng rung động.** * * * ## 26.5. TRỐNG ĐỒNG NHƯ "MÁY NGHI LỄ" (RITUAL MACHINE) ### 26.5.1. Định nghĩa "máy" (machine) trong ngữ cảnh này > **Máy (machine)** là một **hệ thống** (system) có **đầu vào** (input), **bộ xử lý** (processor), **đầu ra** (output), và **vòng phản hồi** (feedback loop). Nó biến đổi năng lượng từ dạng này sang dạng khác để thực hiện một chức năng cụ thể. **Máy nghi lễ (ritual machine)** là một máy mà **đầu vào** là hành động nghi lễ (ví dụ: đánh trống), **bộ xử lý** là vật thể thiêng (ví dụ: trống đồng, với hình dạng, chất liệu, hoa văn), **đầu ra** là sự thay đổi trạng thái ý thức (của cá nhân) và sự đồng bộ hóa xã hội (của tập thể). **Vòng phản hồi** (feedback loop) là sự lặp lại của nghi lễ (hàng năm, hàng mùa) – càng lặp lại, hiệu quả càng được củng cố. ### 26.5.2. Áp dụng vào trống đồng \$$\boxed{\text{Ritual Machine}_{\text{Drum}} = \text{Input (Strike)} \times \text{Processor (Bronze + Geometry)} \times \text{Output (Sound + Vibration)} \times \text{Network (Community)} \times \text{Memory (Oral Tradition)}}$$
 |                                              |
 | Thành phần                                   | Mô tả                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Bằng chứng (hoặc suy luận hợp lý)                                                                                                                                                                                                          |
 |----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -439,9 +239,8 @@ Trống đồng (với các tần số 137 Hz, 432 Hz, với các họa tiết �
 
 
 ### 26.6.2. Công thức "Hệ điều hành Đông Sơn"
-\\[  
-\boxed{\text{Dong Son OS} = \text{Bronze Hardware} \times \text{Ornament Software} \times \text{Ritual Protocol} \times \text{Acoustic Output} \times \text{Social Network} \times \text{Ancestral Memory}}  
-\\]
+\$$\boxed{\text{Dong Son OS} = \text{Bronze Hardware} \times \text{Ornament Software} \times \text{Ritual Protocol} \times \text{Acoustic Output} \times \text{Social Network} \times \text{Ancestral Memory}}  
+$$
   * **Bronze Hardware:** Phần cứng bằng đồng (vật lý).
 
 
@@ -621,7 +420,7 @@ Kết luận quan trọng nhất (và cũng là "shocking" nhất) của Heritag
 >   5. **Mục đích cuối cùng** của Framework không phải là để "chứng minh" rằng "người cổ đại biết toán hiện đại" (điều đó là sai). Mục đích là để **khai phá** (unearth) những **nguyên lý tổ chức** (organizing principles) đã giúp cho các nền văn minh cổ đại (và văn minh Đông Sơn nói riêng) tồn tại, phát triển, và tạo ra những di sản rực rỡ – và **học hỏi** (learn) từ những nguyên lý đó để **giải quyết các vấn đề phức tạp của thế giới hiện đại** (từ biến đổi khí hậu, đến bất bình đẳng xã hội, đến sự phát triển của AI).
 > 
 
-**📦**
+****
 # CHƯƠNG 29: TRƯỚC CHỮ VIẾT – ÂM THANH LÀ TOÁN HỌC, NHỊP LÀ KÝ ỨC, TRỐNG LÀ MÃ XÃ HỘI
 ##  _“Trước khi con người viết bằng chữ, họ có thể đã ‘viết’ bằng âm: nhịp gõ, tiếng gọi, bài hát, khoảng lặng, tiếng trống, tiếng hò, và đường đi của âm thanh qua nước, rừng, hang, làng.”_
 * * *
@@ -743,7 +542,7 @@ Chương này là sự **tổng kết và nâng tầm** toàn bộ các phân t�
 >   * *Và Trang ∅ Framework, chính là một **nỗ lực** (attempt) – có thể là **nỗ lực đầu tiên** (the first attempt) – để **tổng hợp** (synthesize) các **công cụ toán học và khoa học hiện đại** (modern mathematical and scientific tools) (Fourier, fractal, entropy, group theory, topology, information theory) và **áp dụng** (apply) chúng một cách **có hệ thống** (systematically) vào **các di sản văn minh cổ đại** (ancient civilization heritages) – đặc biệt là **văn minh Đông Sơn** (Đông Sơn civilization) – để **đọc** (read), **giải mã** (decode), và **tái khám phá** (rediscover) một **loại trí tuệ cổ** (ancient kind of intelligence): **trí tuệ của nước (water), âm thanh (sound), nhịp điệu (rhythm), cộng đồng (community), và ký ức được external hóa (externalized memory).**
 > 
 
-**📦**
+****
 # CHƯƠNG 30: SONGLINE – CÔNG NGHỆ KÝ ỨC CẢNH QUAN VÀ MỐI LIÊN HỆ VỚI VĂN MINH SÔNG NƯỚC
 ##  _“Songline không ghi bài hát vào gene. Nhưng nó biến cảnh quan thành trí nhớ sống, rồi trí nhớ sống định hình hành vi sinh tồn qua hàng nghìn thế hệ. Đó là một dạng ‘mã hóa sâu’ hơn chữ viết — không nằm trong ADN như văn bản, mà nằm trong vòng lặp đất–âm–cơ thể–cộng đồng–thời gian.”_
 * * *
@@ -861,7 +660,7 @@ Chương này là sự **phân tích chuyên sâu** (in-depth analysis) về **h
 >   4. **Trang ∅ Framework** (Trang ∅ Framework) – với sự nhấn mạnh (with its emphasis) vào **cấu trúc fractal** (fractal structures), **mã hóa đa phương thức** (multi-modal encoding), **tối ưu hóa entropy** (entropy optimization), và **giao diện người – máy – môi trường** (human-machine-environment interfaces) – có thể cung cấp (can provide) một **ngôn ngữ chung** (common language) để **so sánh** (compare) các **công nghệ tri thức** (knowledge technologies) khác nhau (songline, chữ viết – writing, trống đồng – bronze drums, AI) và **học hỏi lẫn nhau** (learn from each other).
 > 
 
-**📦**
+****
 # CHƯƠNG 31: TRÍ TUỆ VẬN HÀNH – ĐO LƯỜNG CÁC NỀN VĂN MINH BẰNG CHỨC NĂNG, KHÔNG BẰNG THUẬT NGỮ
 ##  _“Họ không thiếu trí tuệ vì không có tên gọi hiện đại. Chúng ta mới là người thiếu công cụ đọc, vì đã nhầm chữ viết và thuật ngữ với trí tuệ thật.”_
 * * *
@@ -947,7 +746,7 @@ Thay vì đánh giá một nền văn minh (or a knowledge system) bằng **danh
 >   4. **Trang ∅ Framework** (Trang ∅ Framework) – với sự nhấn mạnh (with its emphasis) vào **chức năng** (function), **cấu trúc** (structure), và **sự tương đương về mặt thông tin** (informational equivalence) – có thể cung cấp (can provide) một **ngôn ngữ trung gian** (an intermediate language) để **dịch** (translate) giữa các **hệ thống tri thức khác nhau** (different knowledge systems) (songline, chữ viết, trống đồng, AI). **Đó chính là giá trị lớn nhất (the greatest value) của Framework này.**
 > 
 
-**📦**
+****
 \--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---

@@ -1,9 +1,14 @@
 ---
 title: KERNEL PROVENANCE MAP
 type: kernel
-tags: [amos_os, 02_kernel]
+source: 02_KERNEL/08_PROVENANCE/00_INDEX
+tags: [amos_os, 02_kernel, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # KERNEL PROVENANCE MAP
@@ -59,3 +64,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

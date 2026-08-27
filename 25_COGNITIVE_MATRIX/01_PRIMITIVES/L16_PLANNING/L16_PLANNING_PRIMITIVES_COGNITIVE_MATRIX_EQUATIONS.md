@@ -1,7 +1,13 @@
 ---
 title: L16 PLANNING PRIMITIVES COGNITIVE MATRIX EQUATIONS
 type: note
-tags: [note, l16-planning]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING
+tags: [note, l16-planning, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -48,3 +54,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L
 
 ---
 **MOC:** [[L16_PLANNING_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

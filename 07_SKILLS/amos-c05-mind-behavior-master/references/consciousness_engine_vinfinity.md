@@ -1,8 +1,15 @@
 ---
 title: consciousness engine vinfinity
 type: reference
-tags: [reference, amos-c05-mind-behavior-master]
+source: 07_SKILLS/amos-c05-mind-behavior-master/references
+tags: [reference, amos-c05-mind-behavior-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Consciousness Engine vInfinity
 
@@ -86,3 +93,7 @@ direct_structural_answer, step_by_step_tutorial, boundary_setting_with_explanati
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

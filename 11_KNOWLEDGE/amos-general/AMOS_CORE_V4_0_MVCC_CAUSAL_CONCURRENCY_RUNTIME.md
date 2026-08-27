@@ -1,11 +1,15 @@
 ---
 title: AMOS CORE V4 0 MVCC CAUSAL CONCURRENCY RUNTIME
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
 
 
 """
@@ -2938,7 +2942,6 @@ def authorize_action_from_resolution(
 AMOS_VERSION = "3.6.0-competing-hypothesis-field"
 
 
-
 # ============================================================
 # 7. EVIDENCE PROVENANCE TOPOLOGY (v3.7)
 # ============================================================
@@ -3515,8 +3518,6 @@ BatchEvidenceProvenanceGraph = EvidenceProvenanceGraph
 EvidenceProvenanceGraph = PersistentEvidenceProvenanceGraph
 
 
-
-
 # ============================================================
 # 20. v4.0 MVCC + CAUSAL CAS CONCURRENCY LAYER
 # ============================================================
@@ -3782,7 +3783,6 @@ class MVCCPersistentEvidenceProvenanceGraph:
 
 # v4.0 concurrency-safe construction path; the v3.9 class remains directly available.
 ConcurrentEvidenceProvenanceGraph = MVCCPersistentEvidenceProvenanceGraph
-
 
 
 def _mvcc_add_node(self, node: EvidenceNode) -> int:

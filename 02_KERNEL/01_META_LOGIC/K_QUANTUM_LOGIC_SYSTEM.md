@@ -1,6 +1,7 @@
 ---
 title: "Kernel · Quantum Logic System (QLS)"
 type: quantum
+source: 02_KERNEL/01_META_LOGIC
 artifact: "K_QUANTUM_LOGIC_SYSTEM.md"
 artifact_id: "amos_02_kernel_01_meta_logic_k_quantum_logic_system"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "02_KERNEL/01_META_LOGIC"
 artifact_kind: "LOG"
 path: "02_KERNEL/01_META_LOGIC/K_QUANTUM_LOGIC_SYSTEM.md"
 
-tags: [amos_os, kernel, core, 02_kernel, log, canon_placeholder, rscf]
+tags: [amos_os, kernel, core, 02_kernel, log, canon_placeholder, rscf, canon/kernel]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Kernel · Quantum Logic System (QLS)

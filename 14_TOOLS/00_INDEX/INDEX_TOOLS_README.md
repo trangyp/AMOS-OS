@@ -1,9 +1,14 @@
 ---
 title: INDEX TOOLS README
 type: index
-tags: [amos_os, 14_tools]
+source: 14_TOOLS/00_INDEX
+tags: [amos_os, 14_tools, canon/tool]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INDEX TOOLS README

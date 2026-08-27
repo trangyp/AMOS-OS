@@ -1,8 +1,16 @@
 ---
 title: "INDEX SUPERSESSION CANON README"
 type: index
-tags: [00_INDEX]
+source: 01_CANON/08_SUPERSESSION/00_INDEX
+tags: [00_INDEX, canon/universe]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
+
+# INDEX SUPERSESSION CANON README
 
 ## 1. Purpose
 

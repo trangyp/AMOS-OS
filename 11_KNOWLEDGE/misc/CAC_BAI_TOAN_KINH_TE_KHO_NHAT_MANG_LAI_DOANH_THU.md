@@ -1,12 +1,15 @@
 ---
 title: CAC BAI TOAN KINH TE KHO NHAT MANG LAI DOANH THU
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Các bài toán kinh tế khó nhất, mang lại doanh thu lớn nhất — mà AMOS có thể giải ngay

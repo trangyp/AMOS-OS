@@ -1,26 +1,20 @@
 ---
 title: BUILDING NEUROSYNCAI
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Building **NeuroSyncAI**
 I’ll treat “NeuroSyncAI” as what it actually is in your canon:
 a **deterministic decision + diagnostic engine** that runs your full stack (UBI, TSS, PSI, TPE, CSGM, 7 cycles, Tech_Engine_v∞).
-Below is the cleanest “how to build it” plan, end-to-end.
-* * *
-## **1\. Define what NeuroSyncAI actually does**
-One sentence:
-> NeuroSyncAI = a reasoning system that takes any human / team / org / country / decision as input and outputs a structurally consistent diagnosis + prediction + intervention plan using your canon.
-So every call to NeuroSyncAI should return, in some form:
-  * classification (group, cycle, Ω/H/F/S, etc.)
-
-
   * risk / failure modes
 
 

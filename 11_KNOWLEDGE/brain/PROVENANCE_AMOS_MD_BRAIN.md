@@ -1,11 +1,15 @@
 ---
 title: PROVENANCE AMOS MD BRAIN
-tags: [brain, cognitive, neural]
+tags: [brain, cognitive, neural, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/brain
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
+
 ---
-
-
 
 
 # AMOS Provenance and Trust
@@ -46,3 +50,6 @@ A stale source can remain historically accurate but lose applicability in a chan
 
 ---
 **MOC:** [[BRAIN_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,6 +1,7 @@
 ---
 title: AMOS DMER DUAL LOOP ARCHITECTURE
 type: architecture
+source: 11_KNOWLEDGE/amos-general
 canon-group: tech-ai
 canon-type: architecture
 rscf-state: model
@@ -9,11 +10,13 @@ status: proposed-amos-alignment
 version: v1.0
 origin-architect: Trang Phan
 source-origin: "∞ và ● — source mapping of HIE, UMPL, UIE, UEL, Absolute Human, Ancient Math"
-tags: [amos, general, architecture, dmer, distinction, mutation, entropy, repair, dual-loop, hie, umpl, uie, uel, absolute-human, ancient-math, rscf/D-distinction, rscf/S-state, rscf/G-relation, rscf/E-entropy, rscf/P-repair, rscf/X-cross-scale, rscf/type-model, amos-general]
-
+tags: [amos, general, architecture, dmer, distinction, mutation, entropy, repair, dual-loop, hie, umpl, uie, uel, absolute-human, ancient-math, rscf/D-distinction, rscf/S-state, rscf/G-relation, rscf/E-entropy, rscf/P-repair, rscf/X-cross-scale, rscf/type-model, amos-general, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
-
-
 
 
 # AMOS D/M/E/R Dual-Loop Architecture
@@ -32,34 +35,22 @@ This note formalizes the source mapping of:
 
 into the AMOS structural primitives:
 
-\[
-\boxed{
-D,\ M,\ E,\ R
-}
-\]
+$$\boxed{ D,\ M,\ E,\ R }$$
 
 where:
 
-- \(D\) = Distinction
-- \(M\) = Mutation
-- \(E\) = Entropy
-- \(R\) = Repair
+- $D$ = Distinction
+- $M$ = Mutation
+- $E$ = Entropy
+- $R$ = Repair
 
 and the two source-defined loop states:
 
-\[
-\boxed{
-\infty
-}
-\]
+$$\boxed{ \infty }$$
 
 and:
 
-\[
-\boxed{
-\bullet
-}
-\]
+$$\boxed{ \bullet }$$
 
 The architecture preserves the source claim that these modules can be interpreted through D/M/E/R, but it does **not** preserve unsupported numerical fit scores such as 92–99% as measured evidence because the source provides no reproducible scoring function, benchmark, denominator, or calibration procedure.
 
@@ -130,32 +121,15 @@ must not be promoted from framework terms into empirical truth without independe
 
 The base architecture is:
 
-\[
-\boxed{
-D \rightarrow M \rightarrow E \rightarrow R
-}
-\]
+$$\boxed{ D \rightarrow M \rightarrow E \rightarrow R }$$
 
 but this is not necessarily a one-way causal chain.
 
 A more accurate runtime model is:
 
-\[
-\boxed{
-X_{t+1}
-=
-F(
-D_t,
-M_t,
-E_t,
-R_t,
-X_t,
-U_t
-)
-}
-\]
+$$\boxed{ X_{t+1} = F( D_t, M_t, E_t, R_t, X_t, U_t ) }$$
 
-where \(U_t\) represents external input or environment.
+where $U_t$ represents external input or environment.
 
 ---
 
@@ -180,21 +154,7 @@ fractal structures
 
 A distinction object is:
 
-\[
-\boxed{
-D_i=
-(
-id,
-left,
-right,
-criterion,
-scope,
-observer,
-provenance,
-status
-)
-}
-\]
+$$\boxed{ D_i= ( id, left, right, criterion, scope, observer, provenance, status ) }$$
 
 A distinction is valid only if the separation criterion is explicit.
 
@@ -241,50 +201,19 @@ timeline branching
 
 A mutation object is:
 
-\[
-\boxed{
-M_j=
-(
-from,
-to,
-trigger,
-time,
-scope,
-cost,
-reversibility,
-provenance
-)
-}
-\]
+$$\boxed{ M_j= ( from, to, trigger, time, scope, cost, reversibility, provenance ) }$$
 
 ---
 
 # 7. Mutation Equation
 
-\[
-\boxed{
-M_t
-=
-\Delta X_t
-=
-X_{t+1}-X_t
-}
-\]
+$$\boxed{ M_t = \Delta X_t = X_{t+1}-X_t }$$
 
-for a defined state representation \(X\).
+for a defined state representation $X$.
 
 When state space is non-numeric:
 
-\[
-\boxed{
-M_t
-=
-Transition(
-X_t,
-X_{t+1}
-)
-}
-\]
+$$\boxed{ M_t = Transition( X_t, X_{t+1} ) }$$
 
 rather than arithmetic subtraction.
 
@@ -314,7 +243,7 @@ M07  Simulated mutation is not observed mutation.
 
 Within this architecture, entropy is **not thermodynamic entropy** unless a domain-specific physical definition is supplied.
 
-AMOS uses \(E\) as a structural degradation/error variable encompassing source concepts such as:
+AMOS uses $E$ as a structural degradation/error variable encompassing source concepts such as:
 
 ```text
 overload
@@ -330,20 +259,7 @@ entropy shift
 
 A structural entropy vector is:
 
-\[
-\boxed{
-E_t=
-[
-E_{overload},
-E_{contradiction},
-E_{fragmentation},
-E_{drift},
-E_{uncertainty},
-E_{capacity},
-E_{provenance}
-]_t
-}
-\]
+$$\boxed{ E_t= [ E_{overload}, E_{contradiction}, E_{fragmentation}, E_{drift}, E_{uncertainty}, E_{capacity}, E_{provenance} ]_t }$$
 
 ---
 
@@ -388,54 +304,26 @@ external expression
 
 A repair object is:
 
-\[
-\boxed{
-R_k=
-(
-target,
-failure,
-intervention,
-evidence,
-expected_effect,
-actual_effect,
-validation,
-rollback
-)
-}
-\]
+$$\boxed{ R_k= ( target, failure, intervention, evidence, expected_effect, actual_effect, validation, rollback ) }$$
 
 ---
 
 # 12. Repair Equation
 
-Let \(E_t\) represent structural degradation and \(R_t\) validated repair capacity.
+Let $E_t$ represent structural degradation and $R_t$ validated repair capacity.
 
 A simplified runtime balance is:
 
-\[
-\boxed{
-\Delta E_t
-=
-E^{+}_t
--
-R^{eff}_t
-}
-\]
+$$\boxed{ \Delta E_t = E^{+}_t - R^{eff}_t }$$
 
 where:
 
-- \(E^{+}_t\) = newly introduced degradation;
-- \(R^{eff}_t\) = effective verified repair.
+- $E^{+}_t$ = newly introduced degradation;
+- $R^{eff}_t$ = effective verified repair.
 
 Thus:
 
-\[
-\boxed{
-E_{t+1}
-=
-E_t+E^{+}_t-R^{eff}_t
-}
-\]
+$$\boxed{ E_{t+1} = E_t+E^{+}_t-R^{eff}_t }$$
 
 This is an **AMOS MODEL**, not a universal law.
 
@@ -467,43 +355,24 @@ R08  Recovery and return-to-prior-state are not always equivalent.
 
 The mandatory AMOS typed state is:
 
-\[
-\boxed{
-T[o,p,s,t,r,v,g,e,c,k]
-}
-\]
+$$\boxed{ T[o,p,s,t,r,v,g,e,c,k] }$$
 
 with this architecture interpreting the axes as:
 
-- \(o\) — object/entity
-- \(p\) — primitive role
-- \(s\) — scale
-- \(t\) — time
-- \(r\) — regime
-- \(v\) — value/state payload
-- \(g\) — governance/authority
-- \(e\) — epistemic status
-- \(c\) — confidence
-- \(k\) — provenance/knowledge lineage
+- $o$ — object/entity
+- $p$ — primitive role
+- $s$ — scale
+- $t$ — time
+- $r$ — regime
+- $v$ — value/state payload
+- $g$ — governance/authority
+- $e$ — epistemic status
+- $c$ — confidence
+- $k$ — provenance/knowledge lineage
 
 A D/M/E/R state can therefore be represented as:
 
-\[
-\boxed{
-T[
-entity,
-DMER,
-scale,
-time,
-regime,
-state,
-authority,
-epistemicClass,
-confidence,
-provenance
-]
-}
-\]
+$$\boxed{ T[ entity, DMER, scale, time, regime, state, authority, epistemicClass, confidence, provenance ] }$$
 
 ---
 
@@ -511,18 +380,7 @@ provenance
 
 AMOS relation:
 
-\[
-\boxed{
-R[
-i,
-j,
-relation\_type,
-time,
-regime,
-provenance
-]
-}
-\]
+$$\boxed{ R[ i, j, relation\_type, time, regime, provenance ] }$$
 
 Examples:
 
@@ -576,19 +434,11 @@ specific ratio or cycle
 
 The governing direction is:
 
-\[
-\boxed{
-H \rightarrow M \rightarrow L
-}
-\]
+$$\boxed{ H \rightarrow M \rightarrow L }$$
 
 while observations return:
 
-\[
-\boxed{
-L \rightarrow M \rightarrow H
-}
-\]
+$$\boxed{ L \rightarrow M \rightarrow H }$$
 
 ---
 
@@ -615,33 +465,11 @@ The source frames UMPL as the primary sensory/distinction layer.
 
 AMOS interpretation:
 
-\[
-\boxed{
-UMPL
-:
-InputChannels
-\rightarrow
-CandidateDistinctions
-}
-\]
+$$\boxed{ UMPL : InputChannels \rightarrow CandidateDistinctions }$$
 
 State:
 
-\[
-\boxed{
-U_t=
-[
-Visual,
-Auditory,
-Somatic,
-Interoceptive,
-Emotional,
-Social,
-Environmental,
-Availability
-]_t
-}
-\]
+$$\boxed{ U_t= [ Visual, Auditory, Somatic, Interoceptive, Emotional, Social, Environmental, Availability ]_t }$$
 
 Unavailable channels must be explicitly masked.
 
@@ -649,13 +477,7 @@ Unavailable channels must be explicitly masked.
 
 # 19. UMPL Availability Invariant
 
-\[
-\boxed{
-Available(channel)=0
-\Rightarrow
-Observed(channel)=UNKNOWN
-}
-\]
+$$\boxed{ Available(channel)=0 \Rightarrow Observed(channel)=UNKNOWN }$$
 
 The system must not fabricate multimodal observations it does not possess.
 
@@ -663,16 +485,7 @@ The system must not fabricate multimodal observations it does not possess.
 
 # 20. UMPL Compatibility Mask
 
-\[
-\boxed{
-C[
-feature,
-source,
-target,
-status
-]
-}
-\]
+$$\boxed{ C[ feature, source, target, status ] }$$
 
 Examples:
 
@@ -691,17 +504,7 @@ The source describes HIE through multiple internal-state layers and processing s
 
 AMOS interpretation:
 
-\[
-\boxed{
-HIE
-:
-Perception
-\rightarrow
-HumanStateHypothesis
-\rightarrow
-InteractionConstraints
-}
-\]
+$$\boxed{ HIE : Perception \rightarrow HumanStateHypothesis \rightarrow InteractionConstraints }$$
 
 The key word is **hypothesis**.
 
@@ -711,20 +514,7 @@ HIE outputs about emotional, cognitive, nervous-system, or identity states are n
 
 # 22. HIE State Tensor
 
-\[
-\boxed{
-H_t=
-[
-Identity,
-Emotion,
-Regulation,
-Cognition,
-Intent,
-Boundary,
-Risk
-]_t
-}
-\]
+$$\boxed{ H_t= [ Identity, Emotion, Regulation, Cognition, Intent, Boundary, Risk ]_t }$$
 
 Each dimension must carry:
 
@@ -742,23 +532,11 @@ status.
 
 # 23. HIE Epistemic Invariant
 
-\[
-\boxed{
-InferredHumanState
-\neq
-ObservedHumanState
-}
-\]
+$$\boxed{ InferredHumanState \neq ObservedHumanState }$$
 
 and:
 
-\[
-\boxed{
-InteractionModel
-\neq
-Diagnosis
-}
-\]
+$$\boxed{ InteractionModel \neq Diagnosis }$$
 
 ---
 
@@ -768,19 +546,7 @@ The source describes UIE as integrating identity, state, context, emotion, cogni
 
 AMOS interpretation:
 
-\[
-\boxed{
-UIE
-:
-State
-+
-Context
-+
-Constraints
-\rightarrow
-CandidateAction
-}
-\]
+$$\boxed{ UIE : State + Context + Constraints \rightarrow CandidateAction }$$
 
 UIE is therefore primarily a **state-transition and interaction synthesis layer**.
 
@@ -788,38 +554,11 @@ UIE is therefore primarily a **state-transition and interaction synthesis layer*
 
 # 25. UIE State
 
-\[
-\boxed{
-I_t=
-[
-Entity,
-Identity,
-Context,
-Emotion,
-Cognition,
-Intent,
-Behavior,
-Risk,
-Environment
-]_t
-}
-\]
+$$\boxed{ I_t= [ Entity, Identity, Context, Emotion, Cognition, Intent, Behavior, Risk, Environment ]_t }$$
 
 Transition:
 
-\[
-\boxed{
-I_{t+1}
-=
-F(
-I_t,
-UMPL_t,
-HIE_t,
-Action_t,
-Feedback_t
-)
-}
-\]
+$$\boxed{ I_{t+1} = F( I_t, UMPL_t, HIE_t, Action_t, Feedback_t ) }$$
 
 ---
 
@@ -833,23 +572,11 @@ Load > Capacity
 
 AMOS must preserve this as a model condition:
 
-\[
-\boxed{
-Load>Capacity
-\Rightarrow
-ElevatedFailureRisk
-}
-\]
+$$\boxed{ Load>Capacity \Rightarrow ElevatedFailureRisk }$$
 
 not:
 
-\[
-\boxed{
-Load>Capacity
-\Rightarrow
-GuaranteedCollapse
-}
-\]
+$$\boxed{ Load>Capacity \Rightarrow GuaranteedCollapse }$$
 
 unless a specific subsystem defines a deterministic threshold.
 
@@ -861,15 +588,7 @@ The source frames UEL as the external expression interface.
 
 AMOS interpretation:
 
-\[
-\boxed{
-UEL
-:
-InternalActionState
-\rightarrow
-ExternalSignal
-}
-\]
+$$\boxed{ UEL : InternalActionState \rightarrow ExternalSignal }$$
 
 Channels include source-described forms such as:
 
@@ -894,23 +613,11 @@ It is the actuator through which some repair may be expressed.
 
 Therefore:
 
-\[
-\boxed{
-UEL
-\neq
-R
-}
-\]
+$$\boxed{ UEL \neq R }$$
 
 but:
 
-\[
-\boxed{
-UEL
-\supset
-Actuation(R)
-}
-\]
+$$\boxed{ UEL \supset Actuation(R) }$$
 
 for externally expressed repair.
 
@@ -918,33 +625,17 @@ for externally expressed repair.
 
 # 29. Expression Invariant
 
-\[
-\boxed{
-Expression
-\neq
-Effect
-}
-\]
+$$\boxed{ Expression \neq Effect }$$
 
 A message intended to repair a situation must be evaluated by downstream effect.
 
 Thus:
 
-\[
-\boxed{
-RepairSuccess
-=
-ObservedImprovement
-}
-\]
+$$\boxed{ RepairSuccess = ObservedImprovement }$$
 
 not merely:
 
-\[
-RepairSuccess
-=
-RepairMessageGenerated
-\]
+$$RepairSuccess = RepairMessageGenerated$$
 
 ---
 
@@ -965,23 +656,11 @@ civilizational tensors
 
 AMOS interpretation:
 
-\[
-\boxed{
-AbsoluteHuman
-=
-HumanStateOntologyModel
-}
-\]
+$$\boxed{ AbsoluteHuman = HumanStateOntologyModel }$$
 
 not:
 
-\[
-\boxed{
-AbsoluteHuman
-=
-VerifiedCompleteHumanOntology
-}
-\]
+$$\boxed{ AbsoluteHuman = VerifiedCompleteHumanOntology }$$
 
 ---
 
@@ -1000,29 +679,11 @@ anti-essentialism
 
 Therefore:
 
-\[
-\boxed{
-Archetype
-\neq
-BiologicalEssence
-}
-\]
+$$\boxed{ Archetype \neq BiologicalEssence }$$
 
-\[
-\boxed{
-RiskClass
-\neq
-Diagnosis
-}
-\]
+$$\boxed{ RiskClass \neq Diagnosis }$$
 
-\[
-\boxed{
-IdentityLevel
-\neq
-HumanWorth
-}
-\]
+$$\boxed{ IdentityLevel \neq HumanWorth }$$
 
 ---
 
@@ -1041,15 +702,7 @@ and interprets these as distinction systems.
 
 AMOS can preserve:
 
-\[
-\boxed{
-AncientMath
-:
-ObservedPattern
-\rightarrow
-SymbolicRepresentation
-}
-\]
+$$\boxed{ AncientMath : ObservedPattern \rightarrow SymbolicRepresentation }$$
 
 but must distinguish historical/symbolic modeling from validated physical law.
 
@@ -1057,29 +710,11 @@ but must distinguish historical/symbolic modeling from validated physical law.
 
 # 33. Ancient Math Firewall
 
-\[
-\boxed{
-PatternSimilarity
-\neq
-UniversalMechanism
-}
-\]
+$$\boxed{ PatternSimilarity \neq UniversalMechanism }$$
 
-\[
-\boxed{
-FractalAppearance
-\neq
-FractalCausality
-}
-\]
+$$\boxed{ FractalAppearance \neq FractalCausality }$$
 
-\[
-\boxed{
-GoldenRatioPresence
-\neq
-UniversalLaw
-}
-\]
+$$\boxed{ GoldenRatioPresence \neq UniversalLaw }$$
 
 unless independently demonstrated in the relevant domain.
 
@@ -1133,29 +768,17 @@ The source defines two high-level system regimes:
 
 The source describes:
 
-\[
-\boxed{
-R>E
-}
-\]
+$$\boxed{ R>E }$$
 
 as the condition associated with continuing repair and development.
 
 AMOS refinement:
 
-\[
-\boxed{
-R^{eff}_t
->
-E^{+}_t
-}
-\]
+$$\boxed{ R^{eff}_t > E^{+}_t }$$
 
 over a relevant window:
 
-\[
-[t_0,t_1]
-\]
+$$[t_0,t_1]$$
 
 indicates a **net-repair regime**.
 
@@ -1175,27 +798,11 @@ within the selected model.
 
 Define:
 
-\[
-\boxed{
-\rho_t
-=
-\frac{
-R^{eff}_t
-}{
-E^{+}_t+\epsilon
-}
-}
-\]
+$$\boxed{ \rho_t = \frac{ R^{eff}_t }{ E^{+}_t+\epsilon } }$$
 
 Then:
 
-\[
-\boxed{
-\rho_t>1
-\Rightarrow
-NET\_REPAIR
-}
-\]
+$$\boxed{ \rho_t>1 \Rightarrow NET\_REPAIR }$$
 
 for the defined scope.
 
@@ -1205,19 +812,7 @@ This is an **AMOS MODEL metric**.
 
 # 37. ∞ Regime Tensor
 
-\[
-\boxed{
-\infty_t=
-[
-RepairCapacity,
-RepairEffectiveness,
-EntropyInput,
-Adaptation,
-Recovery,
-Optionality
-]_t
-}
-\]
+$$\boxed{ \infty_t= [ RepairCapacity, RepairEffectiveness, EntropyInput, Adaptation, Recovery, Optionality ]_t }$$
 
 ---
 
@@ -1225,21 +820,13 @@ Optionality
 
 The source describes:
 
-\[
-\boxed{
-R\approx0,\ E>0
-}
-\]
+$$\boxed{ R\approx0,\ E>0 }$$
 
 as a closed collapse-like loop.
 
 AMOS refinement:
 
-\[
-\boxed{
-R^{eff}_t\ll E^{+}_t
-}
-\]
+$$\boxed{ R^{eff}_t\ll E^{+}_t }$$
 
 over a sustained interval indicates **repair deficit**.
 
@@ -1251,47 +838,21 @@ It does not automatically mean death, psychosis, black-hole physics, or irrevers
 
 Using:
 
-\[
-\rho_t
-=
-\frac{R^{eff}_t}{E^{+}_t+\epsilon}
-\]
+$$\rho_t = \frac{R^{eff}_t}{E^{+}_t+\epsilon}$$
 
 a repair-deficit condition is:
 
-\[
-\boxed{
-\rho_t<1
-}
-\]
+$$\boxed{ \rho_t<1 }$$
 
 A severe trapped regime additionally requires:
 
-\[
-\boxed{
-\rho_t\ll1
-\land
-RecoveryPathUnavailable
-}
-\]
+$$\boxed{ \rho_t\ll1 \land RecoveryPathUnavailable }$$
 
 ---
 
 # 40. ● Regime Tensor
 
-\[
-\boxed{
-\bullet_t=
-[
-RepairDeficit,
-EntropyAccumulation,
-ConstraintLock,
-RecoveryLoss,
-OptionalityLoss,
-Irreversibility
-]_t
-}
-\]
+$$\boxed{ \bullet_t= [ RepairDeficit, EntropyAccumulation, ConstraintLock, RecoveryLoss, OptionalityLoss, Irreversibility ]_t }$$
 
 ---
 
@@ -1311,18 +872,7 @@ UNKNOWN
 
 Define:
 
-\[
-\boxed{
-State_\rho=
-\begin{cases}
-NET\_REPAIR & \rho>1+\delta\\
-BALANCED & |\rho-1|\leq\delta\\
-NET\_DEGRADATION & 0<\rho<1-\delta\\
-TRAPPED & \rho\approx0 \land recovery=0\\
-UNKNOWN & inputs\ insufficient
-\end{cases}
-}
-\]
+$$\boxed{ State_\rho= \begin{cases} NET\_REPAIR & \rho>1+\delta\\ BALANCED & |\rho-1|\leq\delta\\ NET\_DEGRADATION & 0<\rho<1-\delta\\ TRAPPED & \rho\approx0 \land recovery=0\\ UNKNOWN & inputs\ insufficient \end{cases} }$$
 
 This prevents false binary classification.
 
@@ -1354,33 +904,11 @@ L08  Unknown inputs must return UNKNOWN rather than forced classification.
 
 AMOS translation from source representation into D/M/E/R uses:
 
-\[
-\boxed{
-T[
-source,
-target,
-map\_type,
-scope,
-regime,
-observer,
-status
-]
-}
-\]
+$$\boxed{ T[ source, target, map\_type, scope, regime, observer, status ] }$$
 
 Example:
 
-\[
-T[
-UMPL,
-D,
-structural,
-multimodal\ perception,
-runtime,
-system,
-DERIVED
-]
-\]
+$$T[ UMPL, D, structural, multimodal\ perception, runtime, system, DERIVED ]$$
 
 ---
 
@@ -1390,15 +918,7 @@ Translation is not equivalence.
 
 Define:
 
-\[
-\boxed{
-\epsilon_T
-=
-RequiredStructure(source)
--
-RecoverableStructure(target)
-}
-\]
+$$\boxed{ \epsilon_T = RequiredStructure(source) - RecoverableStructure(target) }$$
 
 If D/M/E/R cannot preserve an important source distinction, that residual must remain visible.
 
@@ -1406,16 +926,7 @@ If D/M/E/R cannot preserve an important source distinction, that residual must r
 
 # 45. Compatibility Mask
 
-\[
-\boxed{
-C[
-feature,
-source,
-target,
-status
-]
-}
-\]
+$$\boxed{ C[ feature, source, target, status ] }$$
 
 Example:
 
@@ -1434,15 +945,9 @@ Example:
 
 # 46. Hard Admission Gate
 
-For any mapping \(x\):
+For any mapping $x$:
 
-\[
-\boxed{
-Admit(x)
-=
-\bigwedge_i I_i(x)
-}
-\]
+$$\boxed{ Admit(x) = \bigwedge_i I_i(x) }$$
 
 Required invariants may include:
 
@@ -1461,25 +966,7 @@ no critical contradiction
 
 # 47. RSCF Node
 
-\[
-\boxed{
-N=
-(
-id,
-type,
-HML,
-claim,
-scope,
-regime,
-time,
-observer,
-provenance,
-confidence,
-falsifier,
-status
-)
-}
-\]
+$$\boxed{ N= ( id, type, HML, claim, scope, regime, time, observer, provenance, confidence, falsifier, status ) }$$
 
 Example:
 
@@ -1497,19 +984,7 @@ falsifier: UMPL implementation contains no meaningful distinction-producing func
 
 # 48. RSCF Edge
 
-\[
-\boxed{
-E=
-(
-parent,
-child,
-edge\_type,
-load\_bearing,
-independence,
-condition
-)
-}
-\]
+$$\boxed{ E= ( parent, child, edge\_type, load\_bearing, independence, condition ) }$$
 
 Example:
 
@@ -1525,17 +1000,11 @@ condition: modality available and provenance valid
 
 # 49. Confidence Ceiling
 
-For conclusion \(C\):
+For conclusion $C$:
 
-\[
-\boxed{
-Conf(C)
-\leq
-\min_i Conf(P_i)
-}
-\]
+$$\boxed{ Conf(C) \leq \min_i Conf(P_i) }$$
 
-for load-bearing premises \(P_i\), unless independently revalidated.
+for load-bearing premises $P_i$, unless independently revalidated.
 
 This directly prevents unsupported fit claims such as:
 
@@ -1552,15 +1021,7 @@ when no scoring evidence exists.
 
 If a premise fails:
 
-\[
-\boxed{
-Invalid(P)
-\Rightarrow
-Invalidate(
-LoadBearingDescendants(P)
-)
-}
-\]
+$$\boxed{ Invalid(P) \Rightarrow Invalidate( LoadBearingDescendants(P) ) }$$
 
 Do not invalidate unrelated modules.
 
@@ -1578,19 +1039,7 @@ UMPL mapping fails
 
 Each module claim should preserve:
 
-\[
-\boxed{
-P=
-(
-origin,
-source,
-version,
-transform,
-time,
-status
-)
-}
-\]
+$$\boxed{ P= ( origin, source, version, transform, time, status ) }$$
 
 Multiple restatements of the same origin do not count as independent evidence.
 
@@ -1602,11 +1051,7 @@ D/M/E/R is primarily a structural architecture.
 
 Therefore:
 
-\[
-\boxed{
-D\rightarrow M
-}
-\]
+$$\boxed{ D\rightarrow M }$$
 
 may mean:
 
@@ -1620,13 +1065,7 @@ and not necessarily empirical causation.
 
 Similarly:
 
-\[
-\boxed{
-E\uparrow
-\rightarrow
-collapse
-}
-\]
+$$\boxed{ E\uparrow \rightarrow collapse }$$
 
 requires domain-specific causal evidence before being treated as a real-world law.
 
@@ -1645,13 +1084,7 @@ universe
 
 AMOS must preserve:
 
-\[
-\boxed{
-StructuralSimilarity
-\neq
-MechanisticIdentity
-}
-\]
+$$\boxed{ StructuralSimilarity \neq MechanisticIdentity }$$
 
 Cross-scale mappings remain:
 
@@ -1680,13 +1113,7 @@ cannot be assigned to a real person without appropriate evidence.
 
 Therefore:
 
-\[
-\boxed{
-ModelLabel
-\neq
-Diagnosis
-}
-\]
+$$\boxed{ ModelLabel \neq Diagnosis }$$
 
 ---
 
@@ -1829,13 +1256,7 @@ I30  Invalid premises invalidate only dependent conclusions.
 
 ### E01 — State Evolution
 
-\[
-\boxed{
-X_{t+1}
-=
-F(D_t,M_t,E_t,R_t,X_t,U_t)
-}
-\]
+$$\boxed{ X_{t+1} = F(D_t,M_t,E_t,R_t,X_t,U_t) }$$
 
 **Class:** AMOS_MODEL
 
@@ -1843,13 +1264,7 @@ F(D_t,M_t,E_t,R_t,X_t,U_t)
 
 ### E02 — Mutation
 
-\[
-\boxed{
-M_t
-=
-Transition(X_t,X_{t+1})
-}
-\]
+$$\boxed{ M_t = Transition(X_t,X_{t+1}) }$$
 
 **Class:** AMOS_MODEL
 
@@ -1857,13 +1272,7 @@ Transition(X_t,X_{t+1})
 
 ### E03 — Entropy Balance
 
-\[
-\boxed{
-E_{t+1}
-=
-E_t+E_t^{+}-R_t^{eff}
-}
-\]
+$$\boxed{ E_{t+1} = E_t+E_t^{+}-R_t^{eff} }$$
 
 **Class:** AMOS_MODEL
 
@@ -1871,13 +1280,7 @@ E_t+E_t^{+}-R_t^{eff}
 
 ### E04 — Repair Ratio
 
-\[
-\boxed{
-\rho_t
-=
-\frac{R_t^{eff}}{E_t^{+}+\epsilon}
-}
-\]
+$$\boxed{ \rho_t = \frac{R_t^{eff}}{E_t^{+}+\epsilon} }$$
 
 **Class:** AMOS_MODEL
 
@@ -1885,13 +1288,7 @@ E_t+E_t^{+}-R_t^{eff}
 
 ### E05 — Net-Repair Regime
 
-\[
-\boxed{
-\rho_t>1
-\Rightarrow
-NET\_REPAIR
-}
-\]
+$$\boxed{ \rho_t>1 \Rightarrow NET\_REPAIR }$$
 
 **Class:** MODEL
 
@@ -1899,13 +1296,7 @@ NET\_REPAIR
 
 ### E06 — Repair-Deficit Regime
 
-\[
-\boxed{
-\rho_t<1
-\Rightarrow
-NET\_DEGRADATION
-}
-\]
+$$\boxed{ \rho_t<1 \Rightarrow NET\_DEGRADATION }$$
 
 **Class:** MODEL
 
@@ -1913,15 +1304,7 @@ NET\_DEGRADATION
 
 ### E07 — Trapped Regime
 
-\[
-\boxed{
-\rho_t\ll1
-\land
-RecoveryPath=0
-\Rightarrow
-TRAPPED
-}
-\]
+$$\boxed{ \rho_t\ll1 \land RecoveryPath=0 \Rightarrow TRAPPED }$$
 
 **Class:** MODEL
 
@@ -1929,11 +1312,7 @@ TRAPPED
 
 ### E08 — Translation
 
-\[
-\boxed{
-y=T_{a\rightarrow b}(x)
-}
-\]
+$$\boxed{ y=T_{a\rightarrow b}(x) }$$
 
 **Class:** AMOS_MODEL
 
@@ -1941,15 +1320,7 @@ y=T_{a\rightarrow b}(x)
 
 ### E09 — Translation Residual
 
-\[
-\boxed{
-\epsilon_T
-=
-RequiredStructure(x)
--
-RecoverableStructure(y)
-}
-\]
+$$\boxed{ \epsilon_T = RequiredStructure(x) - RecoverableStructure(y) }$$
 
 **Class:** AMOS_MODEL
 
@@ -1957,13 +1328,7 @@ RecoverableStructure(y)
 
 ### E10 — Admission
 
-\[
-\boxed{
-Admit(x)
-=
-\bigwedge_i I_i(x)
-}
-\]
+$$\boxed{ Admit(x) = \bigwedge_i I_i(x) }$$
 
 **Class:** AMOS_CONTROL_MODEL
 
@@ -1971,13 +1336,7 @@ Admit(x)
 
 ### E11 — Confidence Ceiling
 
-\[
-\boxed{
-Conf(C)
-\leq
-\min Conf(P_i)
-}
-\]
+$$\boxed{ Conf(C) \leq \min Conf(P_i) }$$
 
 for load-bearing premises.
 
@@ -1989,157 +1348,51 @@ for load-bearing premises.
 
 ### T01 — Mandatory AMOS State
 
-\[
-T[o,p,s,t,r,v,g,e,c,k]
-\]
+$$T[o,p,s,t,r,v,g,e,c,k]$$
 
 ### T02 — Relation
 
-\[
-R[i,j,relation\_type,time,regime,provenance]
-\]
+$$R[i,j,relation\_type,time,regime,provenance]$$
 
 ### T03 — D/M/E/R State
 
-\[
-DME R_t=
-[
-Distinction,
-Mutation,
-Entropy,
-Repair
-]_t
-\]
+$$DME R_t= [ Distinction, Mutation, Entropy, Repair ]_t$$
 
 ### T04 — UMPL State
 
-\[
-U_t=
-[
-Visual,
-Auditory,
-Somatic,
-Interoceptive,
-Emotional,
-Social,
-Environmental,
-Availability
-]
-\]
+$$U_t= [ Visual, Auditory, Somatic, Interoceptive, Emotional, Social, Environmental, Availability ]$$
 
 ### T05 — HIE State
 
-\[
-H_t=
-[
-Identity,
-Emotion,
-Regulation,
-Cognition,
-Intent,
-Boundary,
-Risk
-]
-\]
+$$H_t= [ Identity, Emotion, Regulation, Cognition, Intent, Boundary, Risk ]$$
 
 ### T06 — UIE State
 
-\[
-I_t=
-[
-Entity,
-Identity,
-Context,
-Emotion,
-Cognition,
-Intent,
-Behavior,
-Risk,
-Environment
-]
-\]
+$$I_t= [ Entity, Identity, Context, Emotion, Cognition, Intent, Behavior, Risk, Environment ]$$
 
 ### T07 — Entropy State
 
-\[
-E_t=
-[
-Overload,
-Contradiction,
-Fragmentation,
-Drift,
-Uncertainty,
-CapacityStress,
-ProvenanceLoss
-]
-\]
+$$E_t= [ Overload, Contradiction, Fragmentation, Drift, Uncertainty, CapacityStress, ProvenanceLoss ]$$
 
 ### T08 — Repair State
 
-\[
-R_t=
-[
-Target,
-Intervention,
-Effect,
-Validation,
-Recovery,
-Rollback
-]
-\]
+$$R_t= [ Target, Intervention, Effect, Validation, Recovery, Rollback ]$$
 
 ### T09 — ∞ State
 
-\[
-\infty_t=
-[
-RepairCapacity,
-RepairEffectiveness,
-EntropyInput,
-Adaptation,
-Recovery,
-Optionality
-]
-\]
+$$\infty_t= [ RepairCapacity, RepairEffectiveness, EntropyInput, Adaptation, Recovery, Optionality ]$$
 
 ### T10 — ● State
 
-\[
-\bullet_t=
-[
-RepairDeficit,
-EntropyAccumulation,
-ConstraintLock,
-RecoveryLoss,
-OptionalityLoss,
-Irreversibility
-]
-\]
+$$\bullet_t= [ RepairDeficit, EntropyAccumulation, ConstraintLock, RecoveryLoss, OptionalityLoss, Irreversibility ]$$
 
 ### T11 — Translation Tensor
 
-\[
-T[
-source,
-target,
-map\_type,
-scope,
-regime,
-observer,
-status
-]
-\]
+$$T[ source, target, map\_type, scope, regime, observer, status ]$$
 
 ### T12 — Compatibility Mask
 
-\[
-C[
-feature,
-source,
-target,
-status
-]
-\]
+$$C[ feature, source, target, status ]$$
 
 ---
 
@@ -2200,12 +1453,7 @@ with explicit reasons.
 
 Replaced with:
 
-\[
-\boxed{
-Most\ modules\ admit\ a\ useful\ D/M/E/R\ mapping,
-but\ translation\ is\ not\ equivalence.
-}
-\]
+$$\boxed{ Most\ modules\ admit\ a\ useful\ D/M/E/R\ mapping, but\ translation\ is\ not\ equivalence. }$$
 
 ## 61.3 “Nothing is wrong”
 
@@ -2224,13 +1472,7 @@ translation residual
 
 Reframed as:
 
-\[
-\boxed{
-D/M/E/R
-=
-useful\ compression\ layer
-}
-\]
+$$\boxed{ D/M/E/R = useful\ compression\ layer }$$
 
 not proof that all underlying systems contain only four fundamental properties.
 
@@ -2294,101 +1536,39 @@ Unknown for universal empirical validity.
 
 # 63. Final AMOS Architecture
 
-\[
-\boxed{
-Perception
-\rightarrow
-Distinction
-\rightarrow
-StateChange
-\rightarrow
-EntropyAssessment
-\rightarrow
-Repair
-\rightarrow
-Expression
-\rightarrow
-Feedback
-}
-\]
+$$\boxed{ Perception \rightarrow Distinction \rightarrow StateChange \rightarrow EntropyAssessment \rightarrow Repair \rightarrow Expression \rightarrow Feedback }$$
 
 with:
 
-\[
-\boxed{
-UMPL
-\rightarrow
-HIE
-\rightarrow
-UIE
-\rightarrow
-UEL
-\rightarrow
-Environment
-\rightarrow
-UMPL
-}
-\]
+$$\boxed{ UMPL \rightarrow HIE \rightarrow UIE \rightarrow UEL \rightarrow Environment \rightarrow UMPL }$$
 
 and the shared D/M/E/R state:
 
-\[
-\boxed{
-X_{DMER}
-=
-[D,M,E,R]
-}
-\]
+$$\boxed{ X_{DMER} = [D,M,E,R] }$$
 
 The two source loops become governed regime classifications:
 
-\[
-\boxed{
-\infty
-=
-NET\_REPAIR
-}
-\]
+$$\boxed{ \infty = NET\_REPAIR }$$
 
 when:
 
-\[
-\boxed{
-R^{eff}>E^{+}
-}
-\]
+$$\boxed{ R^{eff}>E^{+} }$$
 
 over a defined scope and interval;
 
 and:
 
-\[
-\boxed{
-\bullet
-=
-TRAPPED/REPAIR\_DEFICIT
-}
-\]
+$$\boxed{ \bullet = TRAPPED/REPAIR\_DEFICIT }$$
 
 when:
 
-\[
-\boxed{
-R^{eff}\ll E^{+}
-}
-\]
+$$\boxed{ R^{eff}\ll E^{+} }$$
 
 and recovery options are materially absent.
 
 The AMOS correction is therefore:
 
-\[
-\boxed{
-D/M/E/R
-\text{ is a powerful compression architecture,
-not proof that all reality reduces to four empirical laws.}
-}
-\]
+$$\boxed{ D/M/E/R \text{ is a powerful compression architecture, not proof that all reality reduces to four empirical laws.} }$$
 
 ---
 

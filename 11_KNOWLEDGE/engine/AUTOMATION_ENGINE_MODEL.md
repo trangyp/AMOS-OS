@@ -1,10 +1,15 @@
 ---
 title: AUTOMATION ENGINE MODEL
 type: model
+source: 11_KNOWLEDGE/engine
 aliases: [Automation Engine, AMOS_Automation, Unified Automation OS]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/automation-engine-model, engine]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
 
 
 # AMOS Automation Engine
@@ -29,3 +34,6 @@ This engine serves as the **operational orchestration layer** on top of the Unif
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,8 +1,15 @@
 ---
 title: authority gmef gate integration
 type: reference
-tags: [reference, gmef-governance]
+source: 07_SKILLS/gmef-governance/references
+tags: [reference, gmef-governance, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Authority and GMEF Gate Integration
 
@@ -120,3 +127,7 @@ The kernel's `run()` method now has this gate order:
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

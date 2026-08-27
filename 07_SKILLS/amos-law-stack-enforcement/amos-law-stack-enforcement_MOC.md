@@ -1,8 +1,15 @@
 ---
 title: "Amos-Law-Stack-Enforcement MOC"
 type: moc
-tags: [moc, amos-law-stack-enforcement]
+source: 07_SKILLS/amos-law-stack-enforcement
+tags: [moc, amos-law-stack-enforcement, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Law-Stack-Enforcement — Map of Content
 

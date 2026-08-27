@@ -1,13 +1,16 @@
 ---
 title: UBI LAW FAMILIES
-tags: [biology-ubi, biology, ubi]
+tags: [biology-ubi, biology, ubi, canon/knowledge]
 type: data
 source: 11_KNOWLEDGE/biology-ubi
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: biology_neuroscience
+
 ---
-
-
-
-
+# UBI LAW FAMILIES
 
 ```json
 {

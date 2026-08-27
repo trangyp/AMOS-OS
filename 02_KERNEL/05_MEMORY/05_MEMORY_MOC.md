@@ -1,8 +1,15 @@
 ---
 title: "05 Memory MOC"
 type: moc
-tags: [moc, 05-memory]
+source: 02_KERNEL/05_MEMORY
+tags: [moc, 05-memory, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 05 Memory — Map of Content
 

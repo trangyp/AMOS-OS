@@ -1,13 +1,20 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-workflow-builder
 name: amos-workflow-builder
 description: Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Workflows from capability gaps, existing skills, agent bindings, engine/runtime specifications, or operational sequences. Use when creating a new AMOS-aligned Workflow, strengthening a thin workflow, converting an AMOS engine/spec into an operational workflow, checking agent-skill-workflow routing, separating operational steps from validation gates, adding RSCF/HML/provenance/governance controls, validating step ordering and gate enforcement, or preparing a complete installable workflow bundle. This is the AMOS-specialized Workflow factory; do not use it as a generic replacement for ordinary non-AMOS workflow creation.
 parent_skill: none
 domain: workflow
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-workflow-builder]
+tags: [note, amos-workflow-builder, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
 
 
@@ -100,3 +107,79 @@ Do not ask again for information already available from the request, source bund
 
 ---
 **Links:** [[07_SKILLS_MOC]]
+
+## Related
+
+- [[amos-workflow-builder_MOC]]
+
+## Examples
+
+- **Scenario**: When managing lifecycle operations across classify, validate, trace, assess, and detect
+  - **Input**: A query matching this skill's domain (workflow)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When detecting drift in evidence chains, provenance freshness, or confidence calibration
+  - **Input**: A query matching this skill's domain (workflow)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When validating outputs against domain constraints and epistemic class
+  - **Input**: A query matching this skill's domain (workflow)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the workflow domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when workflow specialization is needed
+- **Peers**: Other skills in the `workflow` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/integration.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/validation.md` — loaded on demand
+- `references/workflows.md` — loaded on demand
+- `[[amos-workflow-builder_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-workflow-builder-workflow]]` — corresponding workflow
+- `[[amos-workflow-builder-agent]]` — corresponding agent
+

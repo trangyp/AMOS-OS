@@ -1,12 +1,15 @@
 ---
 title: AU GOV FUNDING DETAILED TO DO LIST
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **AU Gov Funding — Ultra-Detailed To-Do List**
@@ -387,31 +390,31 @@ Before applying:
 
 **Done =** you can claim properly.
 * * *
-# **✅ QUEENSLAND (QLD) GOVERNMENT FUNDING — DETAILED TO-DO LIST**
+# **QUEENSLAND (QLD) GOVERNMENT FUNDING — DETAILED TO-DO LIST**
 ## **PHASE 0 — QLD-Specific Setup (Day 1–2)**
 ### **0.1 Confirm QLD eligibility anchors**
-  * ☐ Business registered i n QLD **OR**
+  * Business registered i n QLD **OR**
 
 
-  * ☐ Primary operations / pilot activity located in QLD
+  * Primary operations / pilot activity located in QLD
 
 
-  * ☐ QLD address (can be coworking / registered office)
+  * QLD address (can be coworking / registered office)
 
 
-  * ☐ QLD bank account acceptable for funding receipts
+  * QLD bank account acceptable for funding receipts
 
 
 👉 _Most QLD grants require “economic benefit to QLD”, not HQ exclusivity._
 * * *
 ### **0.2 Create QLD grant access points**
-  * ☐ **GrantConnect** (federal, still needed)
+  * **GrantConnect** (federal, still needed)
 
 
-  * ☐ **Business Queensland** account
+  * **Business Queensland** account
 
 
-  * ☐ Bookmark:
+  * Bookmark:
     * Business Queensland – Grants & Funding
     * Advance Queensland portal
     * Department of State Development, Infrastructure & Planning (DSDIP)
@@ -423,19 +426,19 @@ Before applying:
 ### **1️⃣**
 This is QLD’s flagship innovation funding ecosystem.
 ### **Programs to monitor / apply to:**
-  * ☐ **Advance Queensland Innovation Partnerships**
+  * **Advance Queensland Innovation Partnerships**
 
 
-  * ☐ **Industry Research Fellowships**
+  * **Industry Research Fellowships**
 
 
-  * ☐ **Ignite Ideas Fund** (SMEs, tech, digital)
+  * **Ignite Ideas Fund** (SMEs, tech, digital)
 
 
-  * ☐ **Regional Innovation Program** (if pilot regional)
+  * **Regional Innovation Program** (if pilot regional)
 
 
-  * ☐ **Queensland Future Skills / Digital Capability rounds**
+  * **Queensland Future Skills / Digital Capability rounds**
 
 
 **Typical funding:**
@@ -443,13 +446,13 @@ This is QLD’s flagship innovation funding ecosystem.
 
 
 **To-do:**
-  * ☐ Subscribe to Advance Queensland alerts
+  * Subscribe to Advance Queensland alerts
 
 
-  * ☐ Download guidelines for **Ignite Ideas Fund** immediately
+  * Download guidelines for **Ignite Ideas Fund** immediately
 
 
-  * ☐ Map your project to:
+  * Map your project to:
     * productivity
     * digital capability
     * infrastructure
@@ -463,16 +466,16 @@ You have **one Advance QLD grant chosen as your anchor application**.
 ### **Ignite Ideas Fund — Immediate Target**
 This is one of the **best fits** for you.
 ### **To-do checklist:**
-  * ☐ Confirm SME eligibility thresholds
+  * Confirm SME eligibility thresholds
 
 
-  * ☐ Prepare:
+  * Prepare:
     * 1-page commercialisation plan
     * 2-page technical delivery p lan
     * Budget + milestones
 
 
-  * ☐ Emphasise:
+  * Emphasise:
     * risk reduction
     * execution certainty
     * public benefit to QLD economy
@@ -511,31 +514,31 @@ QLD departments regularly fund:
 
 
 Departments to watch:
-  * ☐ Transport and Main Roads (TMR)
+  * Transport and Main Roads (TMR)
 
 
-  * ☐ Energy & Public Works
+  * Energy & Public Works
 
 
-  * ☐ Queensland Health (governance tools only)
+  * Queensland Health (governance tools only)
 
 
-  * ☐ Department of Environment, Science & Innovation (DESI)
+  * Department of Environment, Science & Innovation (DESI)
 
 
-  * ☐ Queensland Treasury (digital policy tools)
+  * Queensland Treasury (digital policy tools)
 
 
 ### **To-do:**
-  * ☐ Prepare a **2-page pilot concept note**
+  * Prepare a **2-page pilot concept note**
 
 
-  * ☐ Request informal meetings via:
+  * Request informal meetings via:
     * innovation units
     * digital transformation teams
 
 
-  * ☐ Ask:
+  * Ask:
 _“Is there a pilot or challenge program we could align with?”_
 
 
@@ -570,16 +573,16 @@ Funding:
 
 
 ### **To-do:**
-  * ☐ Identify **2 councils**
+  * Identify **2 councils**
 
 
-  * ☐ Check:
+  * Check:
     * innovation grants
     * smart city funding
     * digital economy initiatives
 
 
-  * ☐ Submit **1–2 applications** max
+  * Submit **1–2 applications** max
 
 
 * * *
@@ -587,16 +590,16 @@ Funding:
 ### **5️⃣**
 ### **QLD Universities — Translation Funding**
 Key institutions:
-  * ☐ UQ
+  * UQ
 
 
-  * ☐ QUT
+  * QUT
 
 
-  * ☐ Griffith
+  * Griffith
 
 
-  * ☐ UniSC
+  * UniSC
 
 
 What to ask for:
@@ -613,14 +616,14 @@ What to ask for:
 
 
 ### **To-do:**
-  * ☐ Contact **Industry Engagement / Research Translation office**
+  * Contact **Industry Engagement / Research Translation office**
 
 
-  * ☐ Pitch yourself as:
+  * Pitch yourself as:
 > “Industry architect + delivery lead”
 
 
-  * ☐ Aim for:
+  * Aim for:
     * letter of support
     * pilot partnership
     * pathway to AEA Ignite later
@@ -630,13 +633,13 @@ What to ask for:
 ## **PHASE 5 — FEDERAL (BUT QLD-LEVERAGED)**
 ### **6️⃣**
 ### **Federal grants you should target from QLD**
-  * ☐ Mid-tier federal innovation grants (non-AEA first)
+  * Mid-tier federal innovation grants (non-AEA first)
 
 
-  * ☐ Infrastructure & digital resilience programs
+  * Infrastructure & digital resilience programs
 
 
-  * ☐ AI governance / cyber / critical systems funding
+  * AI governance / cyber / critical systems funding
 
 
 **Note:**
@@ -653,21 +656,21 @@ You will win federal money **after** :
 * * *
 ## **PHASE 6 — R &D TAX INCENTIVE (DO IN PARALLEL)**
 ### **7️⃣ R &D Tax Incentive — QLD friendly**
-  * ☐ Register R&D activities
+  * Register R&D activities
 
 
-  * ☐ Maintain logs:
+  * Maintain logs:
     * technical u ncertainty
     * experiments
     * iterations
 
 
-  * ☐ Track staff hours + costs
+  * Track staff hours + costs
 
 
 This stacks **on top of all QLD grants**.
 * * *
-# **🔢 REALISTIC QLD FUNDING OUTCOME (HONEST)**
+# **REALISTIC QLD FUNDING OUTCOME (HONEST)**
 ### **Year 1 (QLD-focused)**
   * $150k – $600k very realistic
 
@@ -686,45 +689,45 @@ This stacks **on top of all QLD grants**.
 * * *
 Here’s the **clean, correct, step-by-step way to register an ACN in Australia** , written so you can do it **today without mistakes**. No fluff.
 * * *
-# **✅ How to Register an ACN (Australia)**
+# **How to Register an ACN (Australia)**
 An **ACN (Australian Company Number)** is issued automatically when you register a **company** with ASIC.
 Here’s the **clean, correct, step-by-step way to register an ACN in Australia** , written so you can do it **today without mistakes**. No fluff.
 * * *
-# **✅ How to Register an ACN (Australia)**
+# **How to Register an ACN (Australia)**
 An **ACN (Australian Company Number)** is issued automatically when you register a **company** with ASIC.
 You do **not** apply for an ACN separately.
 * * *
 ## **OPTION 1 —**
 ## **Register directly with ASIC (recommended)**
 This is the **cheapest, cleanest** way.
-### **🔹 What you need (prepare first)**
+### **What you need (prepare first)**
 Have these ready before you start:
-  * ✔ Company name (or choose “proprietary limited” without a name)
+  * Company name (or choose “proprietary limited” without a name)
 
 
-  * ✔ Director details (you)
+  * Director details (you)
     * Full legal name
     * Date & place of birth
     * Residential address
 
 
-  * ✔ Shareholder details (you)
+  * Shareholder details (you)
 
 
-  * ✔ Registered office address (can be your home)
+  * Registered office address (can be your home)
 
 
-  * ✔ Principal place of business (can be same as above)
+  * Principal place of business (can be same as above)
 
 
-  * ✔ Email address
+  * Email address
 
 
-  * ✔ Payment method
+  * Payment method
 
 
 * * *
-### **🔹 Step-by-step (10–20 minutes)**
+### **Step-by-step (10–20 minutes)**
 1️⃣ Go to **ASIC Company Registration**
 (Official ASIC site → “Register a company”)
 2️⃣ Choose:
@@ -757,15 +760,15 @@ Have these ready before you start:
 7️⃣ Pay fee
 💰 **~AUD $576** (ASIC fee)
 * * *
-### **🔹 What you get**
+### **What you get**
 Within minutes to a few hours:
-  * ✅ **ACN issued**
+  * **ACN issued**
 
 
-  * ✅ Company registered
+  * Company registered
 
 
-  * ✅ Company details live on ASIC
+  * Company details live on ASIC
 
 
   * ⏳ Certificate emailed (same day or next day)
@@ -801,7 +804,7 @@ Examples:
 **Not necessary** if you’re comfortable filling a form.
 * * *
 ## **AFTER you g et the ACN (DO THESE NEXT)**
-### **🔹 1️⃣ Get an ABN for the company (free)**
+### **1️⃣ Get an ABN for the company (free)**
   * Apply via ABR (Australian Business Register)
 
 
@@ -813,7 +816,7 @@ Examples:
 
 👉 Grants almost always require **ABN + ACN**
 * * *
-### **🔹 2️⃣ Open a company bank account**
+### **2️⃣ Open a company bank account**
   * Any major bank
 
 
@@ -827,7 +830,7 @@ Examples:
 
 
 * * *
-### **🔹 3️⃣ Set up MyGovID + RAM**
+### **3️⃣ Set up MyGovID + RAM**
   * Needed to:
     * apply for grants
     * manage ASIC
@@ -835,7 +838,7 @@ Examples:
 
 
 * * *
-### **🔹 4️⃣ IP assignment (important for grants)**
+### **4️⃣ IP assignment (important for grants)**
 If you created IP personally **before** the company:
   * Assign IP to the company
 
@@ -847,19 +850,19 @@ Grant panels care about **clean IP ownership**.
 * * *
 ## **Minimal structure I recommend (for grants)**
 For speed + funding eligibility:
-  * ✔ 1 director (you)
+  * 1 director (you)
 
 
-  * ✔ 1 shareholder (you)
+  * 1 shareholder (you)
 
 
-  * ✔ Standard constitution
+  * Standard constitution
 
 
-  * ✔ No employees yet (fine)
+  * No employees yet (fine)
 
 
-  * ✔ No complex share classes
+  * No complex share classes
 
 
 This is a **“grant-ready shell”** , not a startup bureaucracy.
@@ -890,34 +893,34 @@ You do **not** apply for an ACN separately.
 ## **OPTION 1 —**
 ## **Register directly with ASIC (recommended)**
 This is the **cheapest, cleanest** way.
-### **🔹 What you need (prepare first)**
+### **What you need (prepare first)**
 Have these ready before you start:
-  * ✔ Company name (or choose “proprietary limited” without a name)
+  * Company name (or choose “proprietary limited” without a name)
 
 
-  * ✔ Director details (you)
+  * Director details (you)
     * Full legal name
     * Date & place of birth
     * Residential address
 
 
-  * ✔ Shareholder details (you)
+  * Shareholder details (you)
 
 
-  * ✔ Registered office address (can be your home)
+  * Registered office address (can be your home)
 
 
-  * ✔ Principal place of business (can be same as above)
+  * Principal place of business (can be same as above)
 
 
-  * ✔ Email address
+  * Email address
 
 
-  * ✔ Payment method
+  * Payment method
 
 
 * * *
-### **🔹 Step-by-step (10–20 minutes)**
+### **Step-by-step (10–20 minutes)**
 1️⃣ Go to **ASIC Company Registration**
 (Official ASIC site → “Register a company”)
 2️⃣ Choose:
@@ -950,15 +953,15 @@ Have these ready before you start:
 7️⃣ Pay fee
 💰 **~AUD $576** (ASIC fee)
 * * *
-### **🔹 What you get**
+### **What you get**
 Within minutes to a few hours:
-  * ✅ **ACN issued**
+  * **ACN issued**
 
 
-  * ✅ Company registered
+  * Company registered
 
 
-  * ✅ Company details live on ASIC
+  * Company details live on ASIC
 
 
   * ⏳ Certificate emailed (same day or next day)
@@ -994,7 +997,7 @@ Examples:
 **Not necessary** if you’re comfortable filling a form.
 * * *
 ## **AFTER you g et the ACN (DO THESE NEXT)**
-### **🔹 1️⃣ Get an ABN for the company (free)**
+### **1️⃣ Get an ABN for the company (free)**
   * Apply via ABR (Australian Business Register)
 
 
@@ -1006,7 +1009,7 @@ Examples:
 
 👉 Grants almost always require **ABN + ACN**
 * * *
-### **🔹 2️⃣ Open a company bank account**
+### **2️⃣ Open a company bank account**
   * Any major bank
 
 
@@ -1020,7 +1023,7 @@ Examples:
 
 
 * * *
-### **🔹 3️⃣ Set up MyGovID + RAM**
+### **3️⃣ Set up MyGovID + RAM**
   * Needed to:
     * apply for grants
     * manage ASIC
@@ -1028,7 +1031,7 @@ Examples:
 
 
 * * *
-### **🔹 4️⃣ IP assignment (important for grants)**
+### **4️⃣ IP assignment (important for grants)**
 If you created IP personally **before** the company:
   * Assign IP to the company
 
@@ -1040,19 +1043,19 @@ Grant panels care about **clean IP ownership**.
 * * *
 ## **Minimal structure I recommend (for grants)**
 For speed + funding eligibility:
-  * ✔ 1 director (you)
+  * 1 director (you)
 
 
-  * ✔ 1 shareholder (you)
+  * 1 shareholder (you)
 
 
-  * ✔ Standard constitution
+  * Standard constitution
 
 
-  * ✔ No employees yet (fine)
+  * No employees yet (fine)
 
 
-  * ✔ No complex share classes
+  * No complex share classes
 
 
 This is a **“grant-ready shell”** , not a startup bureaucracy.

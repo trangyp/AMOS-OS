@@ -1,8 +1,15 @@
 ---
 title: "Amos-Memory-Systems-Master MOC"
 type: moc
-tags: [moc, amos-memory-systems-master]
+source: 07_SKILLS/amos-memory-systems-master
+tags: [moc, amos-memory-systems-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Memory-Systems-Master — Map of Content
 

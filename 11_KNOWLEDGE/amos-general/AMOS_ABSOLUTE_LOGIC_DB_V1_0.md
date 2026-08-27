@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/LOGIC.txt (277 KB, 8647 lines)"
 origin_architect: "Trang Phan"
 type: reference
+source: 11_KNOWLEDGE/amos-general
 tags: [canon-group/meta, canon/law, rscf/claim, rscf/provenance, rscf/state/derived, rscf/D-distinction, rscf/T-topology, rscf/K-compression, rscf/B-boundary, topic/absolute-logic-model, amos-general]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
 
 

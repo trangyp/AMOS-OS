@@ -1,8 +1,15 @@
 ---
 title: "Amos-Arxiv-Spatial-Speech-Perception-Rscf MOC"
 type: moc
-tags: [moc, amos-arxiv-spatial-speech-perception-rsc]
+source: 07_SKILLS/amos-arxiv-spatial-speech-perception-rscf
+tags: [moc, amos-arxiv-spatial-speech-perception-rsc, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Arxiv-Spatial-Speech-Perception-Rscf — Map of Content
 

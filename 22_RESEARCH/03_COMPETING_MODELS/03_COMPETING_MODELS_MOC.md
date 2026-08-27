@@ -1,8 +1,15 @@
 ---
 title: "03 Competing Models MOC"
 type: moc
-tags: [moc, 03-competing-models]
+source: 22_RESEARCH/03_COMPETING_MODELS
+tags: [moc, 03-competing-models, canon/research]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 03 Competing Models — Map of Content
 

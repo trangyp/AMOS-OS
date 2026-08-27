@@ -1,12 +1,15 @@
 ---
 title: NOBEL SINH HOC
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # nobel sinh hoc
@@ -89,9 +92,7 @@ Bạn cần ít nhất một trong các bước sau:
 
 ### b. **Đề xuất một đại lượng không thứ nguyên mới (giống số Reynolds trong thủy động lực học, hoặc chỉ số fractal trong hình học)**
 Ví dụ:
-\[  
-H = \frac{|X-M|}{W} \times \frac{F_+}{F_-} \times (1 - E)  
-\]  
+$$H = \frac{|X-M|}{W} \times \frac{F_+}{F_-} \times (1 - E)$$
 có thể phân loại bệnh nhân thành các **pha** (ổn định, nguy cơ, sụp đổ, phục hồi) chính xác hơn phân loại hiện tại.
 ### c. **Phát triển thành một lý thuyết “điều khiển học sinh học” thực sự**
   * Dự đoán **cửa sổ can thiệp tối ưu** (khi nào nên kích thích phục hồi, khi nào nên giảm tải).

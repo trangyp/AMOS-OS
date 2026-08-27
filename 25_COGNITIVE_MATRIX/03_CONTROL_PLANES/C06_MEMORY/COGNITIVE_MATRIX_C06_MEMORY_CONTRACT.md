@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX C06 MEMORY CONTRACT
 type: memory
-tags: [cognitive_matrix, control_planes, c06_memory, contract]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY
+tags: [cognitive_matrix, control_planes, c06_memory, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # C06_MEMORY — Memory control: lifecycle gating, trust states, consolidation thresholds.
@@ -44,3 +49,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[C06_MEMORY_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

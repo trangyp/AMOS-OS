@@ -1,8 +1,15 @@
 ---
 title: "03 Causal MOC"
 type: moc
-tags: [moc, 03-causal]
+source: 02_KERNEL/03_CAUSAL
+tags: [moc, 03-causal, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 03 Causal — Map of Content
 

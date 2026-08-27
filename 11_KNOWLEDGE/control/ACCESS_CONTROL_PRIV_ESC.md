@@ -1,11 +1,15 @@
 ---
 title: ACCESS CONTROL PRIV ESC
-tags: [control, governance, policy]
+tags: [control, governance, policy, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/control
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: control_plane
+
 ---
-
-
 
 
 # Access Control/Priv Esc

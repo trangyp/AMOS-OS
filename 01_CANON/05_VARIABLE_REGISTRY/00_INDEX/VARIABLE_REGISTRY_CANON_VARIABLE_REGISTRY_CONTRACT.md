@@ -1,9 +1,14 @@
 ---
 title: VARIABLE REGISTRY CANON VARIABLE REGISTRY CONTRACT
 type: canon
-tags: [amos_os, 01_canon]
+source: 01_CANON/05_VARIABLE_REGISTRY/00_INDEX
+tags: [amos_os, 01_canon, canon/universe]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # VARIABLE REGISTRY CANON VARIABLE REGISTRY CONTRACT
@@ -41,3 +46,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

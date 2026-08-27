@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L22 CONSOLIDATION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, primitives, l22_consolidation, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L22_CONSOLIDATION
+tags: [cognitive_matrix, primitives, l22_consolidation, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L22_CONSOLIDATION — Consolidation Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L22_CONSOLIDATION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

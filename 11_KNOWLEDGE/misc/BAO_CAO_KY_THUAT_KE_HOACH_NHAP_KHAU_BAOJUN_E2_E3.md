@@ -1,12 +1,15 @@
 ---
 title: BAO CAO KY THUAT KE HOACH NHAP KHAU BAOJUN E2 E3
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # BÁO CÁO KỸ THUẬT – KẾ HOẠCH NHẬP KHẨU BAOJUN E2/E3 (2025–2030)

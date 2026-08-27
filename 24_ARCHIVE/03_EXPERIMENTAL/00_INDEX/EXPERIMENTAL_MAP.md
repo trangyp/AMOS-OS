@@ -1,9 +1,14 @@
 ---
 title: EXPERIMENTAL MAP
 type: experimental
-tags: [amos_os, 24_archive]
+source: 24_ARCHIVE/03_EXPERIMENTAL/00_INDEX
+tags: [amos_os, 24_archive, canon/archive]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # EXPERIMENTAL MAP

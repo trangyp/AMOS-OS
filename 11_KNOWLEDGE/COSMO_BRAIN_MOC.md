@@ -3,10 +3,16 @@ title: "00 Cosmo Brain MOC"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: moc
+source: 11_KNOWLEDGE
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/00-cosmo-brain-moc, moc, index]
 status: "living"
 provenance: "MODEL"
 confidence: "DERIVED"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 
@@ -1065,7 +1071,7 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 
 #### New QLDPC FPGA decoder and fermion operator-algebra skills from arXiv QFM master index
 
-- `amos-arxiv-2605-01035-fpga-real-time-qldpc-gari` — scalable FPGA GARI decoder for quantum LDPC codes; serial DX/DZ + parallel U/V BP units; \[\[144,12,12\]\] bivariate bicycle VCU19P case study; 596 ns average latency; 6× resource reduction. arXiv preprint (unrefereed)
+- `amos-arxiv-2605-01035-fpga-real-time-qldpc-gari` — scalable FPGA GARI decoder for quantum LDPC codes; serial DX/DZ + parallel U/V BP units; $$$$144,12,12$$$$ bivariate bicycle VCU19P case study; 596 ns average latency; 6× resource reduction. arXiv preprint (unrefereed)
 - `amos-qic-ldpc-gari-fpga-agent.json` — agent for GARI transform, DX/DZ and U/V units, scheduling, FPGA case study
 - `amos-arxiv-2605-01035-fpga-real-time-qldpc-gari-workflow.md` — 9-phase workflow: metadata → QEC context → GARI → DX/DZ → U/V → scheduling → case study → resources → epistemic label
 - `amos-arxiv-2605-00784-gauge-invariant-gaussian-fermion-operations` — Eric A. Carlen. Gauge-invariant Gaussian quantum operations on finite Fermion systems; CAR algebra, Araki-Wyss algebra, GIG states; two main structure theorems; semigroup parameterization (G,A) with 0 ≤ A ≤ −G − G*; extension to full CAR algebra. arXiv preprint (unrefereed)

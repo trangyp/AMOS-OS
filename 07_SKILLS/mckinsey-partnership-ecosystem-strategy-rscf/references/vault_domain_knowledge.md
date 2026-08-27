@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, mckinsey-partnership-ecosystem-strategy-rscf]
+source: 07_SKILLS/mckinsey-partnership-ecosystem-strategy-rscf/references
+tags: [reference, mckinsey-partnership-ecosystem-strategy-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -309,3 +316,7 @@ tags: [reference, mckinsey-partnership-ecosystem-strategy-rscf]
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

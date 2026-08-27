@@ -1,11 +1,15 @@
 ---
 title: EQUATION REGISTRY
-tags: [indexes, index, moc]
+tags: [indexes, index, moc, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/indexes
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: index_navigation
+
 ---
-
-
 
 
 # Equation Registry

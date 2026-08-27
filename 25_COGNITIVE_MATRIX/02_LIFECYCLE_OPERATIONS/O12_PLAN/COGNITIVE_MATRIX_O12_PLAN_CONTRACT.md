@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX O12 PLAN CONTRACT
 type: cognitive
-tags: [cognitive_matrix, lifecycle_operations, o12_plan, contract]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O12_PLAN
+tags: [cognitive_matrix, lifecycle_operations, o12_plan, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # O12_PLAN — O12 Plan
@@ -47,3 +52,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[O12_PLAN_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

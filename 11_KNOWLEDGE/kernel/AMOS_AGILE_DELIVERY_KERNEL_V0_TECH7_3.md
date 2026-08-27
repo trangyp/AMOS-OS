@@ -3,10 +3,14 @@ title: AMOS AGILE DELIVERY KERNEL V0 TECH7 3
 tags: [canon-group/tech-ai, canon/metric, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-agile-delivery-kernel-v0, kernel]
 type: data
 source: 11_KNOWLEDGE/kernel
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
+# AMOS AGILE DELIVERY KERNEL V0 TECH7 3
 
 ```json
 {

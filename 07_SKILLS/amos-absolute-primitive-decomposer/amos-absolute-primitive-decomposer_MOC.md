@@ -1,8 +1,15 @@
 ---
 title: "Amos-Absolute-Primitive-Decomposer MOC"
 type: moc
-tags: [moc, amos-absolute-primitive-decomposer]
+source: 07_SKILLS/amos-absolute-primitive-decomposer
+tags: [moc, amos-absolute-primitive-decomposer, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Absolute-Primitive-Decomposer — Map of Content
 

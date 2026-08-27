@@ -1,10 +1,15 @@
 ---
 title: 2026 08 22 FAIRNESS ETHICS EXTERNALITIES GOVERNANCE
-tags: [dated, dated/2026-08-22]
+tags: [dated, dated/2026-08-22, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/dated
----
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 
+---
 
 
 # 2026-08-22 Fairness, Ethics & Externalities Governance
@@ -57,4 +62,5 @@ Closed gap cluster 274-279: Fairness, Ethics & Externalities. 6 gaps, 6 subsyste
 - fairness_ethics
 
 ---
+- [[KNOWLEDGE_MOC]]
 **MOC:** [[DATED_MOC]]

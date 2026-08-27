@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Manifold-Constrained-Conformal-Spatial-Rscf MOC"
 type: moc
-tags: [moc, arxiv-manifold-constrained-conformal-spa]
+source: 07_SKILLS/arxiv-manifold-constrained-conformal-spatial-rscf
+tags: [moc, arxiv-manifold-constrained-conformal-spa, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Manifold-Constrained-Conformal-Spatial-Rscf — Map of Content
 

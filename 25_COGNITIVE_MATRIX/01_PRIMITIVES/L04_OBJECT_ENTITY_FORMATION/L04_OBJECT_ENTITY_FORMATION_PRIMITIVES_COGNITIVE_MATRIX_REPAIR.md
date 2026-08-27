@@ -1,6 +1,7 @@
 ---
 title: "L04_OBJECT_ENTITY_FORMATION — Repair"
 type: cognitive
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
 origin_architect: "Trang Phan"
 class: "COGNITIVE_PRIMITIVE_CONTRACT"
 status: "AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED"
@@ -8,9 +9,14 @@ epistemic_class: "MODEL"
 primitive: "L04_OBJECT_ENTITY_FORMATION"
 artifact: "REPAIR.md"
 runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
-tags: [cognitive_matrix, primitives, l04_object_entity_formation, note]
-
+tags: [cognitive_matrix, primitives, l04_object_entity_formation, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L04_OBJECT_ENTITY_FORMATION — REPAIR
 

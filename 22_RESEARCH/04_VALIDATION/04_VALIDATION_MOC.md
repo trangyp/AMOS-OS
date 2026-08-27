@@ -1,8 +1,15 @@
 ---
 title: "04 Validation MOC"
 type: moc
-tags: [moc, 04-validation]
+source: 22_RESEARCH/04_VALIDATION
+tags: [moc, 04-validation, canon/research]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 04 Validation — Map of Content
 

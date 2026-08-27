@@ -1,14 +1,22 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-c04-bio-neuro-master
 name: amos-c04-bio-neuro-master
 description: "AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI, cell intelligence, genetics, molecular biology. Biological logic translation for cognitive architecture. Use for biological ..."
 parent_skill: none
 domain: c04
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c04-bio-neuro-master]
+tags: [note, amos-c04-bio-neuro-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
+
 
 # AMOS C04 — Biology & Neuro Master Knowledge
 
@@ -94,3 +102,108 @@ Hard anti-overclaim: quantum effects in brain, quantum consciousness, macroscopi
 
 > **Reference**:
 - [[AGENT_TEMPLATE]]
+
+---
+**MOC:** [[amos-c04-bio-neuro-master_MOC]]
+
+## Examples
+
+- **Scenario**: When managing lifecycle operations across classify, validate, trace, assess, and detect
+  - **Input**: A query matching this skill's domain (c04)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When detecting drift in evidence chains, provenance freshness, or confidence calibration
+  - **Input**: A query matching this skill's domain (c04)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When validating outputs against domain constraints and epistemic class
+  - **Input**: A query matching this skill's domain (c04)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the c04 domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when c04 specialization is needed
+- **Peers**: Other skills in the `c04` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/bci_intelligence_biological.md` — loaded on demand
+- `references/bei_engine_v0.md` — loaded on demand
+- `references/biocurrency_monetary_architecture.md` — loaded on demand
+- `references/biological_computing.md` — loaded on demand
+- `references/biology_cognition_engine.md` — loaded on demand
+- `references/biometrics_to_bio_intelligence.md` — loaded on demand
+- `references/biometrics_to_bio_intelligence_v2.md` — loaded on demand
+- `references/brain_superxc_ubi_cognitive_max.md` — loaded on demand
+- `references/domain_config.md` — loaded on demand
+- `references/evolutionary_adaptive_systems_v2.md` — loaded on demand
+- `references/id_exchange_ubi_neurosyncai.md` — loaded on demand
+- `references/kernels_biology_cognition.md` — loaded on demand
+- `references/nbi_engine.md` — loaded on demand
+- `references/nei_engine.md` — loaded on demand
+- `references/nervous_system_framework.md` — loaded on demand
+- `references/nervous_system_states.md` — loaded on demand
+- `references/neuroplasticity_unified_biological.md` — loaded on demand
+- `references/neurosync_quantum_aligned.md` — loaded on demand
+- `references/omega_biology_implementation.md` — loaded on demand
+- `references/quantum_chemical_logic_qcla.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/si_engine.md` — loaded on demand
+- `references/species_interaction_engine.md` — loaded on demand
+- `references/ubi_baseline_rule.md` — loaded on demand
+- `references/ubi_core_engine_biology.md` — loaded on demand
+- `references/ubi_engine_v0.md` — loaded on demand
+- `references/ubi_equations.md` — loaded on demand
+- `references/ubi_neurosyncai_consentx.md` — loaded on demand
+- `references/ubi_neurosyncai_integration.md` — loaded on demand
+- `references/ubi_neurosyncai_ratpak.md` — loaded on demand
+- `references/ubi_official_manual.md` — loaded on demand
+- `references/ubi_operators.md` — loaded on demand
+- `references/unified_biological_governance.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `[[amos-c04-bio-neuro-master_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-c04-bio-neuro-master-workflow]]` — corresponding workflow
+- `[[amos-c04-bio-neuro-master-agent]]` — corresponding agent
+

@@ -1,8 +1,15 @@
 ---
 title: domain config
 type: reference
-tags: [reference, amos-c04-bio-neuro-master]
+source: 07_SKILLS/amos-c04-bio-neuro-master/references
+tags: [reference, amos-c04-bio-neuro-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Biology, Medicine & Neuroscience — Domain Configuration
 
@@ -40,3 +47,7 @@ Biological structure, physiology, nervous systems, evolution, health logic.
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

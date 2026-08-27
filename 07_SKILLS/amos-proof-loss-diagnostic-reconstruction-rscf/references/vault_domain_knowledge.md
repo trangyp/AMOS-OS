@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-proof-loss-diagnostic-reconstruction-rscf]
+source: 07_SKILLS/amos-proof-loss-diagnostic-reconstruction-rscf/references
+tags: [reference, amos-proof-loss-diagnostic-reconstruction-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 

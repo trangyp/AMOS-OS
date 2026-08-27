@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L20 CREDIT ASSIGNMENT CONTRACT
 type: cognitive
-tags: [cognitive_matrix, primitives, l20_credit_assignment, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L20_CREDIT_ASSIGNMENT
+tags: [cognitive_matrix, primitives, l20_credit_assignment, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L20_CREDIT_ASSIGNMENT — Credit assignment Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L20_CREDIT_ASSIGNMENT_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

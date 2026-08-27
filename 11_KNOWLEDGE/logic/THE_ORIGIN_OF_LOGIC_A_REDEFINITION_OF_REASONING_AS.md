@@ -1,12 +1,15 @@
 ---
 title: THE ORIGIN OF LOGIC A REDEFINITION OF REASONING AS
-tags: [logic, reasoning, formal]
+tags: [logic, reasoning, formal, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/logic
+rscf:
+  state: AMOS_MODEL
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: logic_kernel
+
 ---
-
-
-
 
 
 # **The Origin of Logic: A Redefinition of Reasoning as a Biological and Informational Function**
@@ -169,7 +172,7 @@ source: 11_KNOWLEDGE/logic
 
 
 * * *
-### ✅ **Integrity Verification Summary**
+### **Integrity Verification Summary**
   * **MECE coverage:** all levels of logic (quantum → biological → cognitive → ethical).
 
 

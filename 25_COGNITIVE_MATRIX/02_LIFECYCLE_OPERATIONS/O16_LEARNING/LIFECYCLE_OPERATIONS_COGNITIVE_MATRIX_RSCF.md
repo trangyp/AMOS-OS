@@ -1,7 +1,13 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX RSCF
 type: note
-tags: [note, o16-learning]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O16_LEARNING
+tags: [note, o16-learning, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -56,3 +62,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/02_LIFECYCLE_OP
 
 ---
 **MOC:** [[O16_LEARNING_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

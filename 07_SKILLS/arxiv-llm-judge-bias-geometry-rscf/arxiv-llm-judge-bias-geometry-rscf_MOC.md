@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Llm-Judge-Bias-Geometry-Rscf MOC"
 type: moc
-tags: [moc, arxiv-llm-judge-bias-geometry-rscf]
+source: 07_SKILLS/arxiv-llm-judge-bias-geometry-rscf
+tags: [moc, arxiv-llm-judge-bias-geometry-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Llm-Judge-Bias-Geometry-Rscf — Map of Content
 

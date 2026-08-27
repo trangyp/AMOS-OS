@@ -1,10 +1,15 @@
 ---
 title: 2026 08 22 LONGEVITY REPRODUCIBILITY GOVERNANCE
-tags: [dated, dated/2026-08-22]
+tags: [dated, dated/2026-08-22, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/dated
----
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 
+---
 
 
 # Longevity, Reproducibility & Archival Governance

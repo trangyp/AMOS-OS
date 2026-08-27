@@ -1,9 +1,14 @@
 ---
 title: O09 SIMULATION MAP
 type: map
-tags: [cognitive_matrix, o09_simulation]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O09_SIMULATION/00_INDEX
+tags: [cognitive_matrix, o09_simulation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # O09 SIMULATION MAP
@@ -56,3 +61,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

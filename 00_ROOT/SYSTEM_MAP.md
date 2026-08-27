@@ -1,28 +1,15 @@
 ---
 title: SYSTEM MAP
 type: map
-tags: [00_root, map]
+source: 00_ROOT
+tags: [00_root, map, canon/root]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
-
-
-Below is a **full replacement artifact** for the placeholder `SYSTEM_MAP.md`. It is written as an architecture/specification artifact, not as a claim that every mapped component is already implemented or canonically admitted. The completion distinction is deliberate: structural completeness does not establish implementation or empirical validity. 
-
----
-title: "AMOS OS System Map"
-artifact: "SYSTEM_MAP.md"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-artifact_class: "SYSTEM_ARCHITECTURE_MAP"
-status: "PROPOSED / STRUCTURALLY_COMPLETE / IMPLEMENTATION-UNVALIDATED"
-epistemic_class: "MODEL"
-version: "1.0.0"
-updated: "2026-08-26"
-canonical_status: "UNKNOWN/GAP"
-runtime_status: "UNKNOWN/GAP"
-validation_status: "UNKNOWN/GAP"
----
 
 # AMOS OS — System Map
 

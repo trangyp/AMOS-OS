@@ -1,15 +1,20 @@
 ---
 title: UNIVERSE BRAIN SUPER ENGINE VINFINITY FULL
 type: brain
+source: 11_KNOWLEDGE/brain
 canon-group: tech-ai
 canon-type: framework
 rscf-state: source-claim
 topic: universe-brain-super-engine-vinfinity-full
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/universe-brain-super-engine-vinfinity-fu, brain]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
 ---
-
-
+# UNIVERSE BRAIN SUPER ENGINE VINFINITY FULL
 
 ```json
 {
@@ -220,3 +225,6 @@ created: 2026-08-22
 
 ---
 **MOC:** [[BRAIN_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

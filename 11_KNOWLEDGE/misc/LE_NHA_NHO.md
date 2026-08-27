@@ -1,12 +1,15 @@
 ---
 title: LE NHA NHO
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Le nha nho
@@ -502,13 +505,13 @@ Nhiều nghiên cứu về _cognitive load_ và _executive function_ cũng chỉ
 * * *
 ## Phần CẦN HIỆU CHỈNH (rất quan trọng)
 Điều **không nên kết luận** là:
-  * ❌ “Gia hệ này thông minh hơn người khác”
+  * “Gia hệ này thông minh hơn người khác”
 
 
-  * ❌ “Đây là đỉnh cao trí tuệ”
+  * “Đây là đỉnh cao trí tuệ”
 
 
-  * ❌ “Người khác không có thì không học được”
+  * “Người khác không có thì không học được”
 
 
 Vì thực tế là:
@@ -1684,23 +1687,23 @@ Nhất Lễ **cấm điều đó tuyệt đối**.
 ## 2. Không đánh nhau, không mắng chửi – nhưng cũng không “nói câu thấm”
 Điểm này rất dễ bị hiểu sai.
 Nhất Lễ:
-  * ❌ không đánh
+  * không đánh
 
 
-  * ❌ không chửi
+  * không chửi
 
 
-  * ❌ không to tiếng  
+  * không to tiếng  
 nhưng cũng:
 
 
-  * ❌ không “dạy đời”
+  * không “dạy đời”
 
 
-  * ❌ không nói câu “để người ta nhớ”
+  * không nói câu “để người ta nhớ”
 
 
-  * ❌ không nói câu làm người khác **định danh bản thân suốt đời**
+  * không nói câu làm người khác **định danh bản thân suốt đời**
 
 
 Vì trong Nhất Lễ:
@@ -2551,10 +2554,10 @@ Ngược lại, nó **giải thích vì sao cơ chế đó trở nên cực đoa
 * * *
 ## 2. Điều thực sự xảy ra: **không phải “gia đình nghiêm” mà là “trục bị đứt”**
 Cần phân biệt rất rõ:
-  * ❌ Gia đình nghiêm, bảo bọc → tạo kỷ luật ổn định
+  * Gia đình nghiêm, bảo bọc → tạo kỷ luật ổn định
 
 
-  * ✅ Gia đình **không bảo bọc + không chứa cảm xúc** → trẻ phải **tự tạo hệ kiểm soát**
+  * Gia đình **không bảo bọc + không chứa cảm xúc** → trẻ phải **tự tạo hệ kiểm soát**
 
 
 Bạn mô tả:

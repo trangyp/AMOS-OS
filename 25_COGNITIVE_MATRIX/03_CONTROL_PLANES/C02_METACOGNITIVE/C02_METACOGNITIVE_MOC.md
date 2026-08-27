@@ -1,8 +1,15 @@
 ---
 title: "C02 Metacognitive MOC"
 type: moc
-tags: [moc, c02-metacognitive]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C02_METACOGNITIVE
+tags: [moc, c02-metacognitive, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # C02 Metacognitive — Map of Content
 

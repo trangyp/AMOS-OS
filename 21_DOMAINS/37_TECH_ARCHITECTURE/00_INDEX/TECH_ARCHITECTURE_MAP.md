@@ -1,9 +1,14 @@
 ---
 title: TECH ARCHITECTURE MAP
 type: architecture
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/37_TECH_ARCHITECTURE/00_INDEX
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # TECH ARCHITECTURE MAP

@@ -3,9 +3,13 @@ title: AMOS KERNEL ROUTING WORKFLOW
 tags: [canon-group/tech-ai, canon/os-module, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-kernel-routing-workflow, kernel]
 type: document
 source: 11_KNOWLEDGE/kernel
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
 
 
 # AMOS Kernel Routing Workflow

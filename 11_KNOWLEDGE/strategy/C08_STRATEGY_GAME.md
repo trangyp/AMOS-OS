@@ -1,15 +1,20 @@
 ---
 title: C08 STRATEGY GAME
 type: strategy
+source: 11_KNOWLEDGE/strategy
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: c08-strategy-game
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c08-strategy-game, strategy]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: strategy_game
 ---
-
-
+# C08 STRATEGY GAME
 
 ```json
 {

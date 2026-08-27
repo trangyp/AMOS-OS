@@ -1,8 +1,15 @@
 ---
 title: universe interaction engine
 type: reference
-tags: [reference, amos-canon-universe-master]
+source: 07_SKILLS/amos-canon-universe-master/references
+tags: [reference, amos-canon-universe-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Universe Interaction Engine
 
@@ -34,6 +41,7 @@ UIE = the engine governing interactions between nodes of the Universe Structure 
 - AMOS Universe Structure Tree — UST defines the node set UIE operates over.
 - 0.Universe_Logic_Kernel-ULK.ulmk — ULK supplies the logical primitives.
 - AMOS Universe Total Canon UTC Master File — canonical home.
+- [[07_SKILLS_MOC]]
 
 ## Epistemic note
 This note is a **link-resolution anchor**, not an independent architecture claim. All interaction-layer authority is delegated to the UTC master file above. Confidence = SOURCE (delegated to canonical master).

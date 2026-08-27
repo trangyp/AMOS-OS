@@ -3,9 +3,13 @@ title: AMOS EXPRESSION TRANSLATION WORKFLOW
 tags: [canon-group/tech-ai, canon/os-module, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-expression-translation-workflow, amos-general]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
 
 
 # AMOS Expression Translation Workflow
@@ -121,3 +125,6 @@ NEI, NBI, SI, BEI, PSI, TSS, TPE, AMOS_BRAIN, SCIENCE, TECH, BIZFIN, HUMAN, GOV,
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

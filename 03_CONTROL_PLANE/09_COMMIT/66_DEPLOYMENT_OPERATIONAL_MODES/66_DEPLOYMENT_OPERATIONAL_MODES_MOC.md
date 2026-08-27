@@ -1,8 +1,15 @@
 ---
 title: "66 Deployment Operational Modes MOC"
 type: moc
-tags: [moc, 66-deployment-operational-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/66_DEPLOYMENT_OPERATIONAL_MODES
+tags: [moc, 66-deployment-operational-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 66 Deployment Operational Modes — Map of Content
 

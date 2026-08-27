@@ -1,8 +1,15 @@
 ---
 title: "20 Planning Modes MOC"
 type: moc
-tags: [moc, 20-planning-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/20_PLANNING_MODES
+tags: [moc, 20-planning-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 20 Planning Modes — Map of Content
 

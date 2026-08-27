@@ -1,8 +1,15 @@
 ---
 title: "Tech-Coding MOC"
 type: moc
-tags: [moc, tech-coding]
+source: 11_KNOWLEDGE/tech-coding
+tags: [moc, tech-coding, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: tech_engineering
 ---
+
 
 # Tech-Coding — Map of Content
 

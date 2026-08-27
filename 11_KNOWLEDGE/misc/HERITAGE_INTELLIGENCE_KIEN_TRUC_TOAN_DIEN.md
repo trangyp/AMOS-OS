@@ -1,12 +1,15 @@
 ---
 title: HERITAGE INTELLIGENCE KIEN TRUC TOAN DIEN
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # HERITAGE INTELLIGENCE – KIẾN TRÚC TOÀN DIỆN
@@ -43,15 +46,9 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 ### T-4: THERMODYNAMIC CONSTRAINTS
 **Định nghĩa:** Các ràng buộc vật lý cơ bản về năng lượng, entropy, và thời gian. Đây là tầng sâu nhất mà Heritage có thể tiếp cận (trước đó là triết học/thần học).
 **Phương trình nền tảng:**
-\[  
-\boxed{\Delta S_{\text{universe}} \geq 0}  
-\]
-\[  
-\boxed{\Delta E = Q - W}  
-\]
-\[  
-\boxed{dS = \frac{dQ_{\text{rev}}}{T}}  
-\]
+$$\boxed{\Delta S_{\text{universe}} \geq 0}$$
+$$\boxed{\Delta E = Q - W}$$
+$$\boxed{dS = \frac{dQ_{\text{rev}}}{T}}$$
 **Các biến trạng thái:**
 |           |
 | Biến      | Tên                 | Công thức                                 | Ý nghĩa trong Heritage             |
@@ -92,15 +89,9 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 ### T-3.8: INFORMATION-THEORETIC LIMITS
 **Định nghĩa:** Các giới hạn cơ bản của việc truyền tải và xử lý thông tin (Shannon, Kolmogorov, Fisher).
 **Phương trình nền tảng:**
-\[  
-\boxed{C = B \log_2\left(1 + \frac{S}{N}\right)}  
-\]
-\[  
-\boxed{K(x) = \text{độ dài chương trình ngắn nhất sinh ra } x}  
-\]
-\[  
-\boxed{I(X;Y) = H(X) - H(X|Y)}  
-\]
+$$\boxed{C = B \log_2\left(1 + \frac{S}{N}\right)}$$
+$$\boxed{K(x) = \text{độ dài chương trình ngắn nhất sinh ra } x}$$
+$$\boxed{I(X;Y) = H(X) - H(X|Y)}$$
 **Các biến trạng thái:**
 |              |
 | Biến         | Tên                   | Công thức                     | Ý nghĩa                      |
@@ -112,12 +103,8 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 
 
 **Giới hạn của Heritage:**
-\[  
-\boxed{I_{\text{processed}}(t) \leq C_{\text{channel}} \times \eta_{\text{efficiency}}}  
-\]
-\[  
-\boxed{\text{PredictionError} \geq \frac{1}{2} \ln\left(\frac{1 + \text{SNR}}{\text{SNR}}\right)}  
-\]
+$$\boxed{I_{\text{processed}}(t) \leq C_{\text{channel}} \times \eta_{\text{efficiency}}}$$
+$$\boxed{\text{PredictionError} \geq \frac{1}{2} \ln\left(\frac{1 + \text{SNR}}{\text{SNR}}\right)}$$
 **Chế độ thất bại:**
 |                     |
 | Failure Mode        | Điều kiện              | Hậu quả                 | Phục hồi                  |
@@ -138,9 +125,7 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 ### T-3.6: GAME-THEORETIC DYNAMICS
 **Định nghĩa:** Tương tác chiến lược giữa các tác nhân (trader, institution, AI, government).
 **Phương trình nền tảng:**
-\[  
-\boxed{\text{NE} = \{\sigma_i^_\}_{i=1}^n \mid \forall i, u_i(\sigma_i^_ , \sigma_{-i}^_) \geq u_i(\sigma_i, \sigma_{-i}^_)}  
-\]
+$$\boxed{\text{NE} = \{\sigma_i^_\}_{i=1}^n \mid \forall i, u_i(\sigma_i^_ , \sigma_{-i}^_) \geq u_i(\sigma_i, \sigma_{-i}^_)}$$
 **Các dạng cân bằng:**
 |                        |
 | Loại                   | Công thức                               | Ví dụ                          |
@@ -181,12 +166,8 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 ### T-3.5: COMPLEXITY / CHAOS
 **Định nghĩa:** Hệ phi tuyến, nhạy cảm với điều kiện ban đầu, hiệu ứng cánh bướm.
 **Phương trình nền tảng:**
-\[  
-\boxed{\frac{d\mathbf{x}}{dt} = \mathbf{F}(\mathbf{x}, \boldsymbol{\mu})}  
-\]
-\[  
-\boxed{\lambda = \lim_{t \to \infty} \frac{1}{t} \ln\left(\frac{|\delta \mathbf{x}(t)|}{|\delta \mathbf{x}(0)|}\right)}  
-\]
+$$\boxed{\frac{d\mathbf{x}}{dt} = \mathbf{F}(\mathbf{x}, \boldsymbol{\mu})}$$
+$$\boxed{\lambda = \lim_{t \to \infty} \frac{1}{t} \ln\left(\frac{|\delta \mathbf{x}(t)|}{|\delta \mathbf{x}(0)|}\right)}$$
 **Các biến trạng thái:**
 |                        |
 | Biến                   | Tên                   | Công thức              | Ý nghĩa                    |
@@ -214,9 +195,7 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 ### T-3.3: ETHICAL CONSTRAINTS
 **Định nghĩa:** Các ràng buộc đạo đức, công lý, trách nhiệm. Heritage ∅ sống ở đây.
 **Phương trình nền tảng:**
-\[  
-\boxed{\text{Permission}_{\text{ethical}} = \mathbf{1}[\text{Harm} \leq \text{Harm}_{\max}] \times \mathbf{1}[\text{Consent} = 1] \times \mathbf{1}[\text{Fairness} > \theta]}  
-\]
+$$\boxed{\text{Permission}_{\text{ethical}} = \mathbf{1}[\text{Harm} \leq \text{Harm}_{\max}] \times \mathbf{1}[\text{Consent} = 1] \times \mathbf{1}[\text{Fairness} > \theta]}$$
 **Các nguyên tắc:**
 |                 |
 | Nguyên tắc      | Công thức                     | Áp dụng                            |
@@ -270,9 +249,7 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 ### T-2.8: NON-DUAL / EMPTINESS
 **Định nghĩa:** Tánh không, bất định căn bản – nơi mọi distinction sụp đổ. Đây là tầng mà Heritage không thể đưa ra distinction long/short vì "long" và "short" không còn ý nghĩa.
 **Nguyên lý:**  
-\[  
-\boxed{\text{All distinctions are conventional, not absolute}}  
-\]
+$$\boxed{\text{All distinctions are conventional, not absolute}}$$
 **Áp dụng vào Heritage:**
   * Khi thị trường ở trạng thái "emptiness" (ví dụ: trước FOMC, không ai biết gì), mọi tín hiệu đều vô nghĩa.
 
@@ -293,9 +270,7 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 ### T-2.5: META-REFLECTIVE CLOSURE
 **Định nghĩa:** Biết rằng mình không biết. Tầng tự nhận thức về giới hạn của chính mình.
 **Phương trình:**  
-\[  
-\boxed{\text{MetaIgnorance} = 1 - \frac{\text{KnownUnknowns}}{\text{TotalUnknowns}}}  
-\]
+$$\boxed{\text{MetaIgnorance} = 1 - \frac{\text{KnownUnknowns}}{\text{TotalUnknowns}}}$$
 **Các câu hỏi meta:**
 |     |
 | #   | Câu hỏi                                  | Công thức                                           |
@@ -339,9 +314,7 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 ### T-2.0: SOCIAL / CULTURAL MEMES
 **Định nghĩa:** Ý tưởng lan truyền, phong trào đầu tư, narrative kinh tế, meme stock.
 **Phương trình nền tảng:**  
-\[  
-\boxed{\frac{dM}{dt} = \beta M(1-M) - \gamma M}  
-\]
+$$\boxed{\frac{dM}{dt} = \beta M(1-M) - \gamma M}$$
 **Các biến:**
 |      |
 | Biến | Tên                | Công thức      | Ý nghĩa                  |
@@ -372,9 +345,7 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 ### T-1.8: SPIRITUAL / ANOMALOUS SIGNALS
 **Định nghĩa:** Linh cảm, đồng bộ, trùng hợp kỳ lạ – những tín hiệu không có giải thích khoa học rõ ràng nhưng trader vẫn dùng.
 **Heritage không tin vào siêu nhiên, nhưng có thể xử lý như "unknown signals":**
-\[  
-\boxed{\text{AnomalyScore} = 1 - \frac{P(\text{event} \mid \text{model})}{P(\text{event})}}  
-\]
+$$\boxed{\text{AnomalyScore} = 1 - \frac{P(\text{event} \mid \text{model})}{P(\text{event})}}$$
 **Các loại tín hiệu:**
 |               |
 | Loại          | Ví dụ                           | Xử lý                                  |
@@ -407,9 +378,7 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 
 
 **Xử lý trong Heritage:**  
-\[  
-\boxed{\text{Signal}_{\text{corrected}} = \text{Signal}_{\text{raw}} - \sum w_{\text{bias}} \times \text{Bias}_{\text{current}}}  
-\]
+$$\boxed{\text{Signal}_{\text{corrected}} = \text{Signal}_{\text{raw}} - \sum w_{\text{bias}} \times \text{Bias}_{\text{current}}}$$
 * * *
 ### T-1.2: NEUROSCIENCE KERNEL
 **Định nghĩa:** Điện sinh học, dopamine, cognitive load, default mode network (DMN).
@@ -424,19 +393,13 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 
 
 **Flow state detection (EEG proxy):**  
-\[  
-\boxed{\text{Flow} = \mathbf{1}[\alpha_{\text{power}} > \theta_\alpha \land \gamma_{\text{power}} > \theta_\gamma \land \beta_{\text{high}} < \theta_\beta]}  
-\]
+$$\boxed{\text{Flow} = \mathbf{1}[\alpha_{\text{power}} > \theta_\alpha \land \gamma_{\text{power}} > \theta_\gamma \land \beta_{\text{high}} < \theta_\beta]}$$
 * * *
 ### T-0.9: QUANTUM LOGIC
 **Định nghĩa:** Chồng chập, sụp đổ, vướng víu – áp dụng cho thị trường ở cấp độ vi mô (order book, HFT).
 **Phương trình nền tảng:**  
-\[  
-\boxed{|\psi\rangle = \alpha|0\rangle + \beta|1\rangle}  
-\]
-\[  
-\boxed{P(\text{measure} = 0) = |\alpha|^2}  
-\]
+$$\boxed{|\psi\rangle = \alpha|0\rangle + \beta|1\rangle}$$
+$$\boxed{P(\text{measure} = 0) = |\alpha|^2}$$
 **Áp dụng vào market microstructure:**
   * Một lệnh có thể vừa là "mua" vừa là "bán" cho đến khi khớp (chồng chập)
 
@@ -461,9 +424,7 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 ### T-0.5: TRUE RANDOMNESS
 **Định nghĩa:** Ngẫu nhiên nội tại không thể dự báo, đến từ cơ học lượng tử.
 **Heritage không thể dự báo tầng này, chỉ có thể:**
-\[  
-\boxed{\text{Recognize} = \mathbf{1}[\text{Signal} \approx \text{Noise}]}  
-\]
+$$\boxed{\text{Recognize} = \mathbf{1}[\text{Signal} \approx \text{Noise}]}$$
 **Hành động đúng:**
   * Không dự báo
 
@@ -504,18 +465,14 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 
 
 **Phương trình tương tác:**  
-\[  
-\boxed{\Delta \text{Asset} = \beta_1 \Delta \text{DXY} + \beta_2 \Delta \text{US10Y} + \beta_3 \Delta \text{VIX} + \varepsilon}  
-\]
+$$\boxed{\Delta \text{Asset} = \beta_1 \Delta \text{DXY} + \beta_2 \Delta \text{US10Y} + \beta_3 \Delta \text{VIX} + \varepsilon}$$
 * * *
 ### T1–T10: HERITAGE 10 LỚP TÍN HIỆU (Xem PHẦN 2.3)
 Đã được chi tiết trong bảng riêng ở trên.
 * * *
 ### T11: REMAINING INFO
 **Định nghĩa:** Ngân sách thông tin còn lại sau sự kiện.
-\[  
-\boxed{\text{RI} = \text{InitialShock} - \text{AbsorbedPrice} - \text{NarrativeSaturation}}  
-\]
+$$\boxed{\text{RI} = \text{InitialShock} - \text{AbsorbedPrice} - \text{NarrativeSaturation}}$$
 **Các giai đoạn:**
 |              |
 | Giai đoạn    | RI        | Hành động       |
@@ -528,9 +485,7 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 * * *
 ### T12: INTENTIONAL NOISE
 **Định nghĩa:** Spoofing, layering, quote stuffing, thao túng thị trường.
-\[  
-\boxed{\text{NoiseScore} = \frac{\text{CancelRate} - \text{NormalCancelRate}}{\text{NormalCancelRate}}}  
-\]
+$$\boxed{\text{NoiseScore} = \frac{\text{CancelRate} - \text{NormalCancelRate}}{\text{NormalCancelRate}}}$$
 **Phát hiện:**
 |                |
 | Pattern        | Dấu hiệu                                        | Hành động           |
@@ -543,9 +498,7 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 * * *
 ### T13: MARKET EXPECTATION POINT (MEP)
 **Định nghĩa:** Điểm giá được coi là hợp lý bởi đa số thị trường.
-\[  
-\boxed{\text{MEP} = \text{PivotPoint} + \alpha \cdot \text{ATR} + \beta \cdot \text{FibonacciLevel}}  
-\]
+$$\boxed{\text{MEP} = \text{PivotPoint} + \alpha \cdot \text{ATR} + \beta \cdot \text{FibonacciLevel}}$$
 **Cách tính:**
 |            |
 | Thành phần | Công thức                     |
@@ -602,9 +555,7 @@ Mỗi tầng được phân tích thành: **định nghĩa, phương trình, bi�
 
 
 **Công thức:**  
-\[  
-L1 = \text{SeismicRisk} \times w_s + \text{WaterAvailability} \times w_w + \text{ClimateTrend} \times w_c  
-\]
+$$L1 = \text{SeismicRisk} \times w_s + \text{WaterAvailability} \times w_w + \text{ClimateTrend} \times w_c$$
 * * *
 ### L2: SINH HỌC
 |                   |
@@ -617,9 +568,7 @@ L1 = \text{SeismicRisk} \times w_s + \text{WaterAvailability} \times w_w + \text
 
 
 **Công thức:**  
-\[  
-L2 = \sum \text{IndicatorSpecies}_i \times \text{Reliability}_i  
-\]
+$$L2 = \sum \text{IndicatorSpecies}_i \times \text{Reliability}_i$$
 * * *
 ### L3: CƠ THỂ
 |                   |
@@ -632,9 +581,7 @@ L2 = \sum \text{IndicatorSpecies}_i \times \text{Reliability}_i
 
 
 **Công thức:**  
-\[  
-L3 = \text{SensoryResponse} \times w_s + \text{OccupationalDisease} \times w_o  
-\]
+$$L3 = \text{SensoryResponse} \times w_s + \text{OccupationalDisease} \times w_o$$
 * * *
 ### L4: LOÀI (CROSS-SPECIES)
 |                   |
@@ -646,9 +593,7 @@ L3 = \text{SensoryResponse} \times w_s + \text{OccupationalDisease} \times w_o
 
 
 **Công thức:**  
-\[  
-L4 = \sum \text{Species}_i \times \text{AlertLevel}_i  
-\]
+$$L4 = \sum \text{Species}_i \times \text{AlertLevel}_i$$
 * * *
 ### L5: NGÔN NGỮ / ĐỊA DANH
 |                    |
@@ -661,9 +606,7 @@ L4 = \sum \text{Species}_i \times \text{AlertLevel}_i
 
 
 **Công thức:**  
-\[  
-L5 = \sum \text{Keywords}_i \times \text{Frequency}_i \times \text{Reliability}_{\text{folk}}  
-\]
+$$L5 = \sum \text{Keywords}_i \times \text{Frequency}_i \times \text{Reliability}_{\text{folk}}$$
 * * *
 ### L6: VĂN HÓA / DI SẢN
 |            |
@@ -676,9 +619,7 @@ L5 = \sum \text{Keywords}_i \times \text{Frequency}_i \times \text{Reliability}_
 
 
 **Công thức:**  
-\[  
-L6 = \text{RitualCalendar} + \text{TabooSpace} + \text{ArtifactPattern}  
-\]
+$$L6 = \text{RitualCalendar} + \text{TabooSpace} + \text{ArtifactPattern}$$
 * * *
 ### L7: QUYỀN LỰC / XÃ HỘI
 |                     |
@@ -692,9 +633,7 @@ L6 = \text{RitualCalendar} + \text{TabooSpace} + \text{ArtifactPattern}
 
 
 **Công thức:**  
-\[  
-L7 = \log(\text{Power}_{entity}) \times \text{ResourceControl}  
-\]
+$$L7 = \log(\text{Power}_{entity}) \times \text{ResourceControl}$$
 * * *
 ### L8: DÒNG TIỀN THÔNG MINH
 |                       |
@@ -706,9 +645,7 @@ L7 = \log(\text{Power}_{entity}) \times \text{ResourceControl}
 
 
 **Công thức:**  
-\[  
-L8 = \frac{\text{SmartVolume}}{\text{TotalVolume}} \times \text{SignalDirection}  
-\]
+$$L8 = \frac{\text{SmartVolume}}{\text{TotalVolume}} \times \text{SignalDirection}$$
 * * *
 ### L9: CHI PHÍ CƠ HỘI
 |                     |
@@ -720,9 +657,7 @@ L8 = \frac{\text{SmartVolume}}{\text{TotalVolume}} \times \text{SignalDirection}
 
 
 **Công thức:**  
-\[  
-L9 = r_{\text{asset}} - r_{\text{risk\_free}}  
-\]
+$$L9 = r_{\text{asset}} - r_{\text{risk\_free}}$$
 * * *
 ### L10: TRÁNH / TỤ VI MÔ
 |                      |
@@ -734,9 +669,7 @@ L9 = r_{\text{asset}} - r_{\text{risk\_free}}
 
 
 **Công thức:**  
-\[  
-L10 = D(p) \times (1 - 2|\text{IMB}|) \quad \ text{(liquidity depth)}  
-\]
+$$L10 = D(p) \times (1 - 2|\text{IMB}|) \quad \ text{(liquidity depth)}$$
 * * *
 ## TỔNG KẾT PHẦN 2
 32 tầng + 10 lớp tín hiệu tạo thành **một hệ thống phân cấp hoàn chỉnh** từ vũ trụ (entropy) đến vi cấu trúc thị trường (order book).

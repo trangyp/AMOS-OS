@@ -1,12 +1,15 @@
 ---
 title: INVARIANT INSTITUTE PTY LTD
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Invariant Institute Pty Ltd
@@ -249,15 +252,15 @@ violates the Institute’s ethic. Access is granted not as permission, but as **
 ### **Integrity without compromise.**
 _In service of human dignity — when it is easy, and especially when it is not._
 * * *
-# **🔗 Task: Create LinkedIn Page — Invariant Institute**
-## **🌿 Please Read First (Important)**
+# **Task: Create LinkedIn Page — Invariant Institute**
+## **Please Read First (Important)**
 This task is about **careful setup** , not speed.
 There is **no rush** , and there is **no expectation to be creative or promotional**.
 Your role here is simply to **set up a correct, accurate foundation** that can be reviewed and adjusted later.
 If anything feels unclear at any point, it is completely okay to **pause and ask before continuing**.
 Accuracy and care are much more important than finishing quickly.
 ⸻
-## **🎯 Purpose of This Task**
+## **Purpose of This Task**
 The goal is to create an **official LinkedIn Organization Page** for **Invariant Institute** that:
   * Clearly reflects the Institute’s mission and values
 
@@ -274,7 +277,7 @@ The goal is to create an **official LinkedIn Organization Page** for **Invariant
 This page is **not** meant to attract followers, advertise services, or publish frequent posts.
 It is meant to **exist quietly and correctly**.
 ⸻
-## **✅ What “Complete” Means**
+## **What “Complete” Means**
 This task is considered complete **only when** :
   * The LinkedIn Organization Page exists
 
@@ -292,7 +295,7 @@ This task is considered complete **only when** :
 
 
 ⸻
-## **🧩 PART 1 — Page Type & Ownership (Very Important)**
+## **PART 1 — Page Type & Ownership (Very Important)**
 ### **1.1 Page Type**
 Please create a **LinkedIn Organization Page**.
 Do **not** create:
@@ -351,7 +354,7 @@ Please keep a simple record of:
 
 This is standard operational practice and is not about trust or performance.
 ⸻
-## **🏷 PART 2 — Basic Organization Information**
+## **PART 2 — Basic Organization Information**
 Fill in the following carefully.
 If you are unsure about any field, it is **better to leave it blank and note the question** , rather than guessing.
 ### **2.1 Organization Details**
@@ -381,7 +384,7 @@ If you are unsure about any field, it is **better to leave it blank and note the
 
 Again, if unsure → **pause and ask**.
 ⸻
-## **🧠 PART 3 — About Section (Please Be Careful Here)**
+## **PART 3 — About Section (Please Be Careful Here)**
 ### **3.1 Source Text**
 All wording must be derived from the Institute’s core statement:
 **“Upholding non-negotiable integrity to prevent harm and protect human dignity — across systems, society, and the human self.”**
@@ -463,7 +466,7 @@ End neutrally, without a call-to-action.
 
 
 ⸻
-## **🖼 PART 4 — Visual Setup**
+## **PART 4 — Visual Setup**
 ### **4.1 Logo**
   * Use **only** the official logo if available
 

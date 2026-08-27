@@ -1,9 +1,14 @@
 ---
 title: DIAGNOSE REASONING MODES COMMIT CONTROL PLANE README
 type: control-plane
-tags: [control_plane, 06_reasoning_modes/02_diagnose]
+source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/02_DIAGNOSE
+tags: [control_plane, 06_reasoning_modes/02_diagnose, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # DIAGNOSE REASONING MODES COMMIT CONTROL PLANE README
@@ -61,3 +66,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[02_DIAGNOSE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

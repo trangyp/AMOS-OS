@@ -1,8 +1,15 @@
 ---
 title: "02 Router MOC"
 type: moc
-tags: [moc, 02-router]
+source: 04_RUNTIME/02_ROUTER
+tags: [moc, 02-router, canon/runtime]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 02 Router — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Context-Orientation-Cache-Rscf MOC"
 type: moc
-tags: [moc, amos-context-orientation-cache-rscf]
+source: 07_SKILLS/amos-context-orientation-cache-rscf
+tags: [moc, amos-context-orientation-cache-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Context-Orientation-Cache-Rscf — Map of Content
 

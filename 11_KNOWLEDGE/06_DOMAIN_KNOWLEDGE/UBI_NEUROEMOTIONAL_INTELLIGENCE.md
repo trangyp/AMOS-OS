@@ -1,6 +1,7 @@
 ---
-title: "UBI Neuroemotional Intelligence"
-type: emotion
+title: "UBI Neuroemotional Intelligence (NEI)"
+type: biology
+source: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact: "UBI_NEUROEMOTIONAL_INTELLIGENCE.md"
 artifact_id: "amos_11_knowledge_06_domain_knowledge_ubi_neuroemotional_intelligence"
 origin_architect: "Trang Phan"
@@ -8,208 +9,120 @@ steward: "Trang Phan"
 system: "AMOS OS"
 plane: "11_KNOWLEDGE"
 segment: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE"
-artifact_kind: "INTELLIGENCE"
+artifact_kind: "DOMAIN_KNOWLEDGE"
 path: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE.md"
 
-tags: [amos_os, knowledge, vault, 11_knowledge, intelligence, canon_placeholder, rscf]
+tags:
+  - amos_os
+  - knowledge
+  - vault
+  - 11_knowledge
+  - 06_domain_knowledge
+  - ubi
+  - nei
+  - neuroemotional
+  - affect_regulation
+  - empathy
+  - vagus_nerve
+  - autonomic_balance
+  - rscf
+  - canon_candidate
+  - canon/knowledge
 
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
+validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+
+ingestion_action: "NATIVE_CANON_INGESTION"
+raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: AMOS_MODEL
+  provenance:
+    - UBI_OFFICIAL_MANUAL
+    - UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL
+    - AMOS_CORPUS
+  scope:
+    - BIOLOGICAL_INTELLIGENCE
+    - NEUROEMOTION
+    - SOURCE_DEFINED_NEI_MODEL
+
+framework_binding:
+  parent_framework:
+    name: "Unified Biological Intelligence™"
+    acronym: "UBI"
+    artifact: "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+  matrix_binding:
+    artifact: "[[AMOS_X_UBI]]"
+    matrix: "[[AMOS_X_UBI_MATRIX]]"
+
+epistemic_boundary:
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  domain_structure: VERIFIED_SOURCE_STRUCTURE
+  clinical_fact: NOT_ESTABLISHED
+  runtime_enforcement: NOT_ESTABLISHED
 ---
 
 
+# Neuroemotional Intelligence™ (NEI)
 
-# UBI Neuroemotional Intelligence
+`UBI_NEUROEMOTIONAL_INTELLIGENCE.md` is the canonical Knowledge Plane reference artifact for **Neuroemotional Intelligence™ (NEI)** within `11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE`.
 
-## 0. Status
-
-`UBI_NEUROEMOTIONAL_INTELLIGENCE.md` is an **ADD-ONLY placeholder** for the **Knowledge** plane segment at `11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-Origin architect / steward:
-
-**Trang Phan**
+NEI governs emotional awareness, autonomic balance, and interpersonal affect modulation within the Unified Biological Intelligence (UBI) architecture.
 
 ---
 
-## 1. Purpose
+# 1. Biological Foundations
 
-This artifact reserves the **UBI Neuroemotional Intelligence** slot within the Knowledge plane. The Knowledge plane governs knowledge base integration: claims, RSCF indices, framework nodes, domain knowledge.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
+* **Substrate:** Limbic networks, insular cortex, ventromedial prefrontal cortex, vagal nerve complexes, hypothalamic-pituitary-adrenal (HPA) axis.
+* **Core Functions:** Affective regulation, empathy, interpersonal resonance, modulation of threat reactivity, distinguishing instinctive reaction from chosen intentional response.
+* **Biological Markers:** Heart Rate Variability (HRV), respiratory sinus arrhythmia, autonomic balance, salivary cortisol profiles.
 
 ---
 
-## 3. Ingestion Rule
+# 2. Epistemic Guardrail: Emotion as Signal, Not Truth
+
+$$\text{Emotion } (\text{NEI}) = \text{Relevance & Biological Significance Signal} \neq \text{Objective Factual Truth}$$
+* Emotion alerts the cognitive system to threat, affiliation, meaning, or boundary violation, but must be cross-checked through NBI logic before translating into action.
+
+---
+
+# 3. Inter-Plane & Vault Connections
+
+- **Parent Framework:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+- **Cognitive Matrix:** [[AMOS_X_UBI]] and [[AMOS_X_UBI_MATRIX]]
+- **Domain Siblings:** [[UBI_NEUROBIOLOGICAL_INTELLIGENCE]], [[UBI_SOMATIC_INTELLIGENCE]], [[UBI_BIOELECTROMAGNETIC_INTELLIGENCE]]
+
+---
+
+# 4. RSCF Contract
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+RSCF:
+  node_id: amos_11_knowledge_06_domain_knowledge_ubi_neuroemotional_intelligence
+  node_type: domain_knowledge
+  claim_class: AMOS_MODEL
+  state: SOURCE_GROUNDED
+  H:
+    identity: "Neuroemotional Intelligence™ (NEI)"
+    role: "Affect regulation, autonomic balance, and interpersonal interpretation"
+  M:
+    subsystems: [limbic_regulation, vagal_tone, affect_modulation, empathy_resonance]
+  confidence_ceiling:
+    source_model: SOURCE_BOUND
+    runtime: UNKNOWN
 ```
 
 ---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `11_KNOWLEDGE · INTELLIGENCE` within the Knowledge plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-00_ROOT_MOC|AMOS MOC
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_11_knowledge_06_domain_knowledge_ubi_neuroemotional_intelligence
-
-node_type: intelligence
-
-path: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[06_DOMAIN_KNOWLEDGE_MOC]] · [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[AMOS_X_UBI]]
 
 ---
 **MOC:** [[06_DOMAIN_KNOWLEDGE_MOC]]

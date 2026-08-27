@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, arxiv-future-confidence-distillation-rscf]
+source: 07_SKILLS/arxiv-future-confidence-distillation-rscf/references
+tags: [reference, arxiv-future-confidence-distillation-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -153,3 +160,7 @@ decision_relevance: low | medium | high
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

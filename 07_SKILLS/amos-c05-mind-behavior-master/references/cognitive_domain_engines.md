@@ -1,8 +1,15 @@
 ---
 title: cognitive domain engines
 type: reference
-tags: [reference, amos-c05-mind-behavior-master]
+source: 07_SKILLS/amos-c05-mind-behavior-master/references
+tags: [reference, amos-c05-mind-behavior-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Cognitive Domain Engines
 
@@ -91,3 +98,7 @@ Ingest of Cognitive Stack engines, Domain engines, Kernels, Packs, Unipower engi
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

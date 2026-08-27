@@ -1,14 +1,19 @@
 ---
 title: MD 2026 08 23 COSMO BRAIN CORE ARCHITECTURE
 type: architecture
+source: 11_KNOWLEDGE/brain
 origin_architect: Trang Phan
 provenance: direct file inspection of cosmo-brain/core/ on 2026-08-23
 confidence: 0.95
 epistemic_class: OBSERVATION
 conclusion_class: VERIFIED
-tags: [cosmo-brain, core, architecture, typescript, epistemics, reasoning, memory, orchestration, identity, constraints, validation, design-synthesis, amos-core, brain]
+tags: [cosmo-brain, core, architecture, typescript, epistemics, reasoning, memory, orchestration, identity, constraints, validation, design-synthesis, amos-core, brain, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
 ---
-
 
 
 # Cosmo Brain Core Architecture

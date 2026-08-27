@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-fractal-systems-master]
+source: 07_SKILLS/amos-fractal-systems-master
+tags: [note, amos-fractal-systems-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-fractal-systems-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS Fractal Systems Master. Consolidates 26 sub-skills.
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-fractal-systems-master_MOC]]

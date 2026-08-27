@@ -1,8 +1,15 @@
 ---
 title: nervous system state drift
 type: reference
-tags: [reference, amos-context-persona-drift-rscf]
+source: 07_SKILLS/amos-context-persona-drift-rscf/references
+tags: [reference, amos-context-persona-drift-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Nervous System States for Drift
 

@@ -1,8 +1,15 @@
 ---
 title: bluememory water scarcity os
 type: reference
-tags: [reference, amos-organism-os]
+source: 07_SKILLS/amos-organism-os/references
+tags: [reference, amos-organism-os, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS BlueMemory Water Scarcity OS
 
@@ -318,3 +325,7 @@ ol > li {
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

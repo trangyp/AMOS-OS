@@ -1,9 +1,14 @@
 ---
 title: CANON INFRASTRUCTURE CANON CONTRACT
 type: canon
-tags: [amos_os, 01_canon]
+source: 01_CANON/04_INFRASTRUCTURE_CANON
+tags: [amos_os, 01_canon, canon/universe]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # CANON INFRASTRUCTURE CANON CONTRACT
@@ -75,3 +80,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[04_INFRASTRUCTURE_CANON_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

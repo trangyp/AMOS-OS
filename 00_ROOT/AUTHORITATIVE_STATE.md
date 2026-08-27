@@ -1,6 +1,7 @@
 ---
 title: AUTHORITATIVE STATE
 type: state
+source: 00_ROOT
 artifact_id: AMOS-OS-AUTHORITATIVE-STATE
 canonical_name: AUTHORITATIVE_STATE
 artifact_type: authoritative_state_contract
@@ -25,8 +26,6 @@ aliases: "- AMOS OS Authoritative State
   - Authoritative State
   - AMOS Authoritative State
   - AUTHORITATIVE..."---
-
-
 
 
 # AMOS OS Authoritative State
@@ -66,8 +65,13 @@ AUTHORIZED
 ```
 
 The authoritative state is established only through explicit identity, provenance, compatibility, validation, authority, and commit semantics.
-
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
+
 
 # 1. Core State Contract
 

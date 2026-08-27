@@ -1,11 +1,16 @@
 ---
 title: 00 HOME
 type: note
+source: 00_ROOT
 canon-group: reference
 rscf-state: derived
-tags: [moc, index, home]
+tags: [moc, index, home, canon/root]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
-
 
 
 # 00-Home

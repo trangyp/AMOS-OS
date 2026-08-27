@@ -1,6 +1,7 @@
 ---
 title: "TSS — The Trang System"
 type: trang-framework
+source: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact: "TSS_THE_TRANG_SYSTEM.md"
 artifact_id: "amos_11_knowledge_05_frameworks_tss_the_trang_system"
 origin_architect: "Trang Phan"
@@ -8,208 +9,146 @@ steward: "Trang Phan"
 system: "AMOS OS"
 plane: "11_KNOWLEDGE"
 segment: "11_KNOWLEDGE/05_FRAMEWORKS"
-artifact_kind: "ARTIFACT"
+artifact_kind: "FRAMEWORK"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM.md"
 
-tags: [amos_os, knowledge, vault, 11_knowledge, artifact, canon_placeholder, rscf]
+tags:
+  - amos_os
+  - knowledge
+  - vault
+  - 11_knowledge
+  - 05_frameworks
+  - tss
+  - trang_system
+  - seven_cycles
+  - four_variables
+  - systems_dynamics
+  - governance
+  - lifecycle_analysis
+  - rscf
+  - canon_candidate
+  - canon/knowledge
 
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
+validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+
+ingestion_action: "NATIVE_CANON_INGESTION"
+raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: AMOS_MODEL
+  provenance:
+    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
+    - THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M
+    - AMOS_CORPUS
+  scope:
+    - KNOWLEDGE_FRAMEWORKS
+    - SYSTEMS_DYNAMICS
+    - SOURCE_DEFINED_TSS_MODEL
+
+framework_binding:
+  primary:
+    name: "The Trang System™"
+    acronym: "TSS"
+    role: STRUCTURAL_SYSTEMS_DYNAMICS_MODEL
+  downstream_prediction_engine:
+    name: "The Trang Prediction Engine™"
+    acronym: "TPE"
+    artifact: "[[TPE_TRANG_PREDICTION_ENGINE]]"
+  cognitive_matrix_binding:
+    artifact: "[[AMOS_X_TSS]]"
+    matrix: "[[AMOS_X_TSS_TPE_MATRIX]]"
+
+epistemic_boundary:
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  framework_structure: VERIFIED_SOURCE_STRUCTURE
+  structural_rules: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
 ---
 
 
+# TSS — The Trang System™
 
-# TSS — The Trang System
+`TSS_THE_TRANG_SYSTEM.md` is the canonical Knowledge Plane reference artifact for **The Trang System™ (TSS)** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
-## 0. Status
+It integrates the foundational models established in native vault manuals:
+* [`11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL.md`](file:///Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL.md)
+* [`11_KNOWLEDGE/trang/THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M.md`](file:///Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/trang/THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M.md)
 
-`TSS_THE_TRANG_SYSTEM.md` is an **ADD-ONLY placeholder** for the **Knowledge** plane segment at `11_KNOWLEDGE/05_FRAMEWORKS`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+# 1. Structural Architecture
 
-The governing boundaries are:
+The Trang System™ provides a universal language for interpreting how human-linked systems evolve across time, scale, and complexity.
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+               ┌────────────────────────────────────────────────────────┐
+               │              THE TRANG SYSTEM™ (TSS)                   │
+               └───────────────────────────┬────────────────────────────┘
+                                           │
+         ┌─────────────────────────────────┼─────────────────────────────────┐
+         ▼                                 ▼                                 ▼
+4 UNIVERSAL VARIABLES              7 EVOLUTIONARY CYCLES            4 OUTCOME ATTRACTORS
+(Ω: Overload, H: Cohesion,         (C1: Emergence → C7: Reset)      (Renewal, Termination,
+ F: Fragmentation, S: Shock)                                         Absorption, Stagnation)
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+# 2. Key Mathematical Formulations
+
+* **Variable Couplings:**
+  $$\frac{\partial H}{\partial F} < 0 \quad (\text{Internal division erodes social trust and cohesion})$$
+  $$\frac{\partial F}{\partial \Omega} > 0 \quad (\text{Unchecked load and complexity accelerate fragmentation})$$
+* **Structural Vulnerability Function:**
+  $$\text{Vulnerability} \sim \frac{\Omega \cdot F}{H} \cdot S$$
+* **Internal Coherence ($i$) and Emergence ($e$):**
+  $$i = \left[ H \cdot (1 - \Omega) \cdot (1 - F) \cdot (1 - S) \right]^{1/4}, \quad e = i^2$$
 
 ---
 
-## 1. Purpose
+# 3. Inter-Plane & Cross-Framework Connections
 
-This artifact reserves the **TSS — The Trang System** slot within the Knowledge plane. The Knowledge plane governs knowledge base integration: claims, RSCF indices, framework nodes, domain knowledge.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
+- **Cognitive Matrix:** [[AMOS_X_TSS]] and [[AMOS_X_TSS_TPE_MATRIX]] (Decision and foresight routing).
+- **Prediction Engine:** [[TPE_TRANG_PREDICTION_ENGINE]] (Trajectory and window forecasting).
+- **Biological Grounding:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] (Biological constraints on $\Omega$ and $H$).
+- **Ontological Grounding:** [[TRANG_REALITY_ARCHITECTURE]] ($P \to D \to R \to C \to F \to M$).
+- **Native Sources:** `11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL`
 
 ---
 
-## 3. Ingestion Rule
+# 4. RSCF Contract
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+RSCF:
+  node_id: amos_11_knowledge_05_frameworks_tss_the_trang_system
+  node_type: framework
+  claim_class: AMOS_MODEL
+  state: SOURCE_GROUNDED
+  H:
+    identity: "The Trang System™ (TSS)"
+    role: "Foundational structural systems dynamics and lifecycle model"
+  M:
+    components:
+      - variables: [Omega, H, F, S]
+      - cycles: [C1, C2, C3, C4, C5, C6, C7]
+      - outcomes: [Renewal, Termination, Absorption, Stagnation]
+  confidence_ceiling:
+    source_model: SOURCE_BOUND
+    runtime: UNKNOWN
 ```
 
 ---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `11_KNOWLEDGE · ARTIFACT` within the Knowledge plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-00_ROOT_MOC|AMOS MOC
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_11_knowledge_05_frameworks_tss_the_trang_system
-
-node_type: artifact
-
-path: 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[05_FRAMEWORKS_MOC]] · [[TPE_TRANG_PREDICTION_ENGINE]] · [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[AMOS_X_TSS]] · [[AMOS_X_TSS_TPE_MATRIX]]
 
 ---
 **MOC:** [[05_FRAMEWORKS_MOC]]

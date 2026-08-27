@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-c05-mind-behavior-master]
+source: 07_SKILLS/amos-c05-mind-behavior-master
+tags: [note, amos-c05-mind-behavior-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-c05-mind-behavior-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS C05 — Mind & Behavior Master. Consolidates 59 sub
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-c05-mind-behavior-master_MOC]]

@@ -1,9 +1,14 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX MEMORY
 type: memory
-tags: [amos, cognitive-matrix, l01, sensing-observation, memory, provenance, temporal-integrity, rscf]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
+tags: [amos, cognitive-matrix, l01, sensing-observation, memory, provenance, temporal-integrity, rscf, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L01_SENSING_OBSERVATION — Memory

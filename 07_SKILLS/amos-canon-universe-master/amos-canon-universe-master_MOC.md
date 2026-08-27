@@ -1,8 +1,15 @@
 ---
 title: "Amos-Canon-Universe-Master MOC"
 type: moc
-tags: [moc, amos-canon-universe-master]
+source: 07_SKILLS/amos-canon-universe-master
+tags: [moc, amos-canon-universe-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Canon-Universe-Master — Map of Content
 

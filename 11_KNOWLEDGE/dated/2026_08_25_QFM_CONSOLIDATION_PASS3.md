@@ -1,9 +1,16 @@
 ---
 title: 2026 08 25 QFM CONSOLIDATION PASS3
-tags: [dated, dated/2026-08-25]
+tags: [dated, dated/2026-08-25, canon/knowledge]
 type: note
 source: 11_KNOWLEDGE/dated
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
+
 ---
+
 
 # 2026 08 25 QFM CONSOLIDATION PASS3
 

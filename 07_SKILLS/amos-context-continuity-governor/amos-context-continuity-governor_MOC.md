@@ -1,8 +1,15 @@
 ---
 title: "Amos-Context-Continuity-Governor MOC"
 type: moc
-tags: [moc, amos-context-continuity-governor]
+source: 07_SKILLS/amos-context-continuity-governor
+tags: [moc, amos-context-continuity-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Context-Continuity-Governor — Map of Content
 

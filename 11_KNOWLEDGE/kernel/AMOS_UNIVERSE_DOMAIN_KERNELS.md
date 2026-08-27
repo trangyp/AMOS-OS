@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/_AMOS_UNIVERSE/Domains/"
 origin_architect: "Trang Phan"
 type: reference
-tags: [amos, universe, domain-kernels, biz-market, org-risk-policy, science-health, tech-systems, 24-kernels, x100k, kernel]
+source: 11_KNOWLEDGE/kernel
+tags: [amos, universe, domain-kernels, biz-market, org-risk-policy, science-health, tech-systems, 24-kernels, x100k, kernel, canon/knowledge]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 

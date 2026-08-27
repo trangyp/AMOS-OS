@@ -1,8 +1,15 @@
 ---
 title: "26 Validation Modes MOC"
 type: moc
-tags: [moc, 26-validation-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/26_VALIDATION_MODES
+tags: [moc, 26-validation-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 26 Validation Modes — Map of Content
 

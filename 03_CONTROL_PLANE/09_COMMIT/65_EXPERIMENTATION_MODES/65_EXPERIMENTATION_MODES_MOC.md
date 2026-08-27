@@ -1,8 +1,15 @@
 ---
 title: "65 Experimentation Modes MOC"
 type: moc
-tags: [moc, 65-experimentation-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/65_EXPERIMENTATION_MODES
+tags: [moc, 65-experimentation-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 65 Experimentation Modes — Map of Content
 

@@ -1,15 +1,20 @@
 ---
 title: AMOS HUMAN INTELLIGENCE ENGINE V0 CORE7
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-human-intelligence-engine-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-human-intelligence-engine-v0, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
+# AMOS HUMAN INTELLIGENCE ENGINE V0 CORE7
 
 ```json
 [

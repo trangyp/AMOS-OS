@@ -1,8 +1,17 @@
 ---
 title: super factory engine v2
 type: reference
-tags: [reference, amos-c10-tech-engineering-master]
+source: 07_SKILLS/amos-c10-tech-engineering-master/references
+tags: [reference, amos-c10-tech-engineering-master, canon/skill]
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: skill_reference
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
+
 
 # AMOS SUPER Factory Engine v2.0.0
 
@@ -108,3 +117,7 @@ created: 2026-08-22
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

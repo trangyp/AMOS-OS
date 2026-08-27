@@ -1,8 +1,15 @@
 ---
 title: "L15 Goal Formation MOC"
 type: moc
-tags: [moc, l15-goal-formation]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION
+tags: [moc, l15-goal-formation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L15 Goal Formation — Map of Content
 

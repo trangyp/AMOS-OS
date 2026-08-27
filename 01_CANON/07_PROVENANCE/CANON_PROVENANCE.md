@@ -1,6 +1,7 @@
 ---
 title: CANON PROVENANCE
 type: canon
+source: 01_CANON/07_PROVENANCE
 artifact_id: AMOS-OS-CANON-PROVENANCE
 canonical_name: CANON_PROVENANCE
 artifact_type: canonical_provenance_registry
@@ -25,8 +26,6 @@ aliases: "- AMOS Canon Provenance
   - Canon Provenance Registry
   - AMOS Canon Lineage Registry
   - Canon Sour..."---
-
-
 
 
 # AMOS OS Canon Provenance
@@ -75,8 +74,13 @@ RECOVERABLE PROVENANCE
 =
 INTEGRITY GAP
 ```
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 2. Core Provenance Law
 

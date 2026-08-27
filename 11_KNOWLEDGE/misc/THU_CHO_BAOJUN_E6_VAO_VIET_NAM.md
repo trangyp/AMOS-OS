@@ -1,12 +1,15 @@
 ---
 title: THU CHO BAOJUN E6 VAO VIET NAM
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **Thủ cho Baojun E6 vào Việt Nam**

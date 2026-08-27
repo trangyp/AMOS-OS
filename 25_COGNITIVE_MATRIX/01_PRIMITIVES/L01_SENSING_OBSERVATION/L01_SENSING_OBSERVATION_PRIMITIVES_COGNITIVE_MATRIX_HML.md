@@ -1,9 +1,14 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX HML
 type: cognitive
-tags: [amos, cognitive-matrix, l01, sensing-observation, hml, cross-scale, observation, provenance, rscf, control-plane]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
+tags: [amos, cognitive-matrix, l01, sensing-observation, hml, cross-scale, observation, provenance, rscf, control-plane, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L01_SENSING_OBSERVATION — HML

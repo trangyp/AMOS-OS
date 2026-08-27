@@ -1,14 +1,6 @@
 ---
-title: GENERATOR TEMPLATES
-type: note
-tags: [note, 12-generators]
----
-
-
-````markdown
----
-tags:
-  - cognitive_matrix
+title: "GENERATOR TEMPLATES"
+tags: [- cognitive_matrix, canon/cognitive-matrix]
   - generators
   - templates
   - contracts
@@ -17,7 +9,15 @@ tags:
   - falsification
   - governance
   - rscf
+type: document
+source: 25_COGNITIVE_MATRIX/12_GENERATORS
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Generator Templates
 
@@ -52,19 +52,11 @@ It is not final canon merely because it appears in this file.
 
 The governing distinction is:
 
-\[
-\boxed{
-Template \neq Implementation
-}
-\]
+$$\boxed{ Template \neq Implementation }$$
 
 and:
 
-\[
-\boxed{
-Conformance \neq Validation
-}
-\]
+$$\boxed{ Conformance \neq Validation }$$
 
 A generator can structurally conform to a template while still being incorrect, unsafe, unsupported, incompatible, stale, or inappropriate for a particular scope or regime.
 
@@ -106,73 +98,41 @@ Templates exist to reduce accidental structural variance without erasing meaning
 
 Let:
 
-\[
-T
-\]
+$$T$$
 
 be a generator template and:
 
-\[
-G
-\]
+$$G$$
 
-a generator constructed using \(T\).
+a generator constructed using $T$.
 
 Template conformance may establish:
 
-\[
-Conforms(G,T)
-\]
+$$Conforms(G,T)$$
 
 It does not establish:
 
-\[
-Correct(G)
-\]
+$$Correct(G)$$
 
 or:
 
-\[
-Validated(G)
-\]
+$$Validated(G)$$
 
 or:
 
-\[
-Promoted(G)
-\]
+$$Promoted(G)$$
 
 or:
 
-\[
-Canonical(G)
-\]
+$$Canonical(G)$$
 
 Therefore:
 
-\[
-\boxed{
-Conforms(G,T)
-\not\Rightarrow
-Correct(G)
-}
-\]
+$$\boxed{ Conforms(G,T) \not\Rightarrow Correct(G) }$$
 
-\[
-\boxed{
-Conforms(G,T)
-\not\Rightarrow
-Validated(G)
-}
-\]
+$$\boxed{ Conforms(G,T) \not\Rightarrow Validated(G) }$$
 
-\[
-\boxed{
-Conforms(G,T)
-\not\Rightarrow
-Promoted(G)
-}
-\]
+$$\boxed{ Conforms(G,T) \not\Rightarrow Promoted(G) }$$
 
 ---
 
@@ -361,19 +321,11 @@ Recovery templates define behavior when generation fails.
 
 Core principle:
 
-$$
-Failure(P)
-\Rightarrow
-Invalidate(Dependent(P))
-$$
+$$Failure(P) \Rightarrow Invalidate(Dependent(P))$$
 
 not:
 
-$$
-Failure(P)
-\Rightarrow
-Invalidate(All)
-$$
+$$Failure(P) \Rightarrow Invalidate(All)$$
 
 ---
 
@@ -660,11 +612,9 @@ Input normalization MUST NOT silently change decision-relevant semantics.
 
 If:
 
-$$
-Normalize(x)=x'
-$$
+$$Normalize(x)=x'$$
 
-and \(x'\) changes the task meaning, the transformation must be surfaced or rejected.
+and $x'$ changes the task meaning, the transformation must be surfaced or rejected.
 
 ---
 
@@ -882,11 +832,7 @@ provenance:
 
 Multiple references do not imply multiple independent origins.
 
-$$
-ReferenceCount
-\neq
-IndependentEvidenceCount
-$$
+$$ReferenceCount \neq IndependentEvidenceCount$$
 
 Independence must be demonstrated when it materially affects confidence.
 
@@ -1098,11 +1044,7 @@ A child generator cannot silently weaken inherited hard constraints.
 
 Conceptually:
 
-$$
-C_{parent}
-\Rightarrow
-C_{child}
-$$
+$$C_{parent} \Rightarrow C_{child}$$
 
 unless an authorized governance transition explicitly changes the governing contract.
 
@@ -1524,7 +1466,7 @@ remain valid.
 
 # 52. Proof Capsule Invalidation
 
-If premise \(P\) fails:
+If premise $P$ fails:
 
 ```text
 P
@@ -2430,11 +2372,7 @@ generator_supersession:
 
 # 90. Supersession Law
 
-$$
-Superseded
-\neq
-Erased
-$$
+$$Superseded \neq Erased$$
 
 Historical outputs retain the identity of the generator that actually produced them.
 
@@ -2626,11 +2564,7 @@ They are not automatically trusted.
 
 A generator that produces another generator cannot grant the child more epistemic authority than its evidence and governance support.
 
-$$
-Authority(G_{child})
-\not>
-AuthorizedSupport(G_{child})
-$$
+$$Authority(G_{child}) \not> AuthorizedSupport(G_{child})$$
 
 ---
 
@@ -3734,25 +3668,11 @@ generator traversal expands without decision value
 
 A high-quality generator template SHOULD maximize:
 
-$$
-Q_T =
-f(
-Integrity,
-Clarity,
-Traceability,
-Composability,
-Falsifiability,
-Repairability,
-ScopeSafety,
-Efficiency
-)
-$$
+$$Q_T = f( Integrity, Clarity, Traceability, Composability, Falsifiability, Repairability, ScopeSafety, Efficiency )$$
 
 subject to:
 
-$$
-Integrity
-$$
+$$Integrity$$
 
 being non-negotiable relative to optimization.
 
@@ -3963,63 +3883,21 @@ Generator templates exist to create structural discipline without manufacturing 
 
 Therefore:
 
-$$
-\boxed{
-Template
-\neq
-Generator
-}
-$$
+$$\boxed{ Template \neq Generator }$$
 
-$$
-\boxed{
-Generator
-\neq
-ValidatedGenerator
-}
-$$
+$$\boxed{ Generator \neq ValidatedGenerator }$$
 
-$$
-\boxed{
-StructuralConformance
-\neq
-EmpiricalValidation
-}
-$$
+$$\boxed{ StructuralConformance \neq EmpiricalValidation }$$
 
-$$
-\boxed{
-MultipleSources
-\neq
-IndependentSources
-}
-$$
+$$\boxed{ MultipleSources \neq IndependentSources }$$
 
-$$
-\boxed{
-NewVersion
-\neq
-AutomaticSupersession
-}
-$$
+$$\boxed{ NewVersion \neq AutomaticSupersession }$$
 
-$$
-\boxed{
-GeneratedGenerator
-\neq
-PromotedGenerator
-}
-$$
+$$\boxed{ GeneratedGenerator \neq PromotedGenerator }$$
 
 and:
 
-$$
-\boxed{
-MissingEvidence
-\Rightarrow
-VisibleGap
-}
-$$
+$$\boxed{ MissingEvidence \Rightarrow VisibleGap }$$
 
 not fabricated completion.
 
@@ -4077,41 +3955,11 @@ If a template cannot preserve the information necessary to answer a decision-rel
 
 The governing objective is therefore:
 
-$$
-\boxed{
-GeneratorTemplate
-=
-MinimumSufficientStructure
-+
-ExplicitSemantics
-+
-Provenance
-+
-Constraints
-+
-Validation
-+
-Falsifiability
-+
-GovernedLineage
-}
-$$
+$$\boxed{ GeneratorTemplate = MinimumSufficientStructure + ExplicitSemantics + Provenance + Constraints + Validation + Falsifiability + GovernedLineage }$$
 
 subject always to:
 
-$$
-\boxed{
-Integrity
->
-Completeness
->
-Fluency
->
-Speed
->
-TokenSavings
-}
-$$
+$$\boxed{ Integrity > Completeness > Fluency > Speed > TokenSavings }$$
 
 ---
 

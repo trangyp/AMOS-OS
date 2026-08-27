@@ -1,13 +1,16 @@
 ---
 title: AMOS V5 3 VERIFICATION REPORT
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
 type: data
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
-
-
+# AMOS V5 3 VERIFICATION REPORT
 
 ```json
 {
@@ -68,3 +71,6 @@ source: 11_KNOWLEDGE/amos-general
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

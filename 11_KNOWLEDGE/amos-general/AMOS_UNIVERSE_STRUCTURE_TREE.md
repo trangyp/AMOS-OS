@@ -6,7 +6,13 @@ confidence: SOURCE
 created: 2026-08-23
 aliases: ["AMOS Universe Structure Tree", "UST canonical tree", "Universe Structure Tree"]
 source: "AMOS Universe Total Canon UTC Master File.md"
-tags: [universe, ust, canon, pointer, amos-general]
+tags: [universe, ust, canon, pointer, amos-general, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
 
 
@@ -30,3 +36,6 @@ This note is a **link-resolution anchor**, not an independent architecture claim
 
 ---
 **Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

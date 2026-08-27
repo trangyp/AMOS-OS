@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-causal-abstraction-validity-rscf-engine]
+source: 07_SKILLS/amos-causal-abstraction-validity-rscf-engine/references
+tags: [reference, amos-causal-abstraction-validity-rscf-engine, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -209,4 +216,5 @@ class Formula:
     "analogy_illustrates_not_proves": "An analogy can illustrate a structural point but cannot serve as proof. Always distinguish illustratio
 
 ---
+- [[07_SKILLS_MOC]]
 **MOC:** [[references_MOC]]

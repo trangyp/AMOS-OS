@@ -1,8 +1,15 @@
 ---
 title: "Amos-Vietnamese-Global-Cultural-Bridge-Governor MOC"
 type: moc
-tags: [moc, amos-vietnamese-global-cultural-bridge-g]
+source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor
+tags: [moc, amos-vietnamese-global-cultural-bridge-g, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Vietnamese-Global-Cultural-Bridge-Governor — Map of Content
 

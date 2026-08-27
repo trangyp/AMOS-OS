@@ -1,12 +1,15 @@
 ---
 title: FROM RELATIVITY TO LOGIC COMPLETING EINSTEIN S MOD
-tags: [logic, reasoning, formal]
+tags: [logic, reasoning, formal, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/logic
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
+
 ---
-
-
-
 
 
 # From Relativity to Logic: Completing Einstein’s Model through Quantum Logic Systems™

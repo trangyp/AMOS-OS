@@ -1,8 +1,15 @@
 ---
 title: "08 Workflows MOC"
 type: moc
-tags: [moc, 08-workflows]
+source: 08_WORKFLOWS
+tags: [moc, 08-workflows, canon/workflow]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: workflow_process
 ---
+
 
 # 08 Workflows — Map of Content
 

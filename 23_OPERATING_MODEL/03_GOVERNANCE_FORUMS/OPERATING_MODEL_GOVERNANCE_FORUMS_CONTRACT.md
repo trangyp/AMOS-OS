@@ -1,9 +1,14 @@
 ---
 title: OPERATING MODEL GOVERNANCE FORUMS CONTRACT
 type: model
-tags: [amos_os, 23_operating_model]
+source: 23_OPERATING_MODEL/03_GOVERNANCE_FORUMS
+tags: [amos_os, 23_operating_model, canon/operating-model]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # OPERATING MODEL GOVERNANCE FORUMS CONTRACT

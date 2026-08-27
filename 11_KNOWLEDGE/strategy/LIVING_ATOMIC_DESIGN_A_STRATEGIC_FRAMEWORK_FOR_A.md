@@ -1,12 +1,15 @@
 ---
 title: LIVING ATOMIC DESIGN A STRATEGIC FRAMEWORK FOR A
-tags: [strategy, game, planning]
+tags: [strategy, game, planning, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/strategy
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: strategy_game
+
 ---
-
-
-
 
 
 # _Living Atomic Design — A Strategic Framework for AI-Era Design Systems._

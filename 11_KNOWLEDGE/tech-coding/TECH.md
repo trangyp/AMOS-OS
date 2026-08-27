@@ -1,12 +1,15 @@
 ---
 title: TECH
-tags: [tech-coding, tech, coding]
+tags: [tech-coding, tech, coding, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/tech-coding
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: tech_engineering
+
 ---
-
-
-
 
 
 # tech 
@@ -245,7 +248,7 @@ You don’t need 30 people — you need **10 strategic hires, disciplined proces
 Rất hay — dưới đây là **phiên bản cập nhật của kế hoạch tuyển dụng UniPower** với **mức lương quy đổi sang VNĐ** , theo **mặt bằng thị trường hiện tại (2025)** cho nhân sự công nghệ trung – cao cấp tại Việt Nam (TP.HCM / Hà Nội).
 Số liệu này được tính theo **giá thị trường freelancer + nhân sự chính thức** , dựa trên khảo sát 2024–2025 của TopDev, Glints và GEEK Up.
 * * *
-# **🧭**
+# ****
 # **KẾ HOẠCH TUYỂN DỤNG & NHÂN SỰ CÔNG NGHỆ UNIPOWER (PHIÊN BẢN VNĐ)**
 * * *
 ## **I. CẤU TRÚC NHÓM NÒNG CỐT (FULL-TIME CORE TEAM)**

@@ -1,6 +1,7 @@
 ---
 title: K CONTEXT STATE
 type: state
+source: 02_KERNEL/04_STATE
 artifact_id: AMOS-OS-K-CONTEXT-STATE
 canonical_name: K_CONTEXT_STATE
 artifact_type: kernel_context_state_contract
@@ -24,8 +25,6 @@ aliases: "- AMOS Context State Kernel
   - Context State Kernel
   - K Context State
   - K_CONTEXT_STATE..."---
-
-
 
 
 # K CONTEXT STATE
@@ -56,8 +55,13 @@ CONTEXT != PROVENANCE
 ```
 
 Context may reference all of these, but it does not replace them.
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 1. Core Definition
 

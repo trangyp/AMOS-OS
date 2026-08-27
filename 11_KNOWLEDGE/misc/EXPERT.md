@@ -1,12 +1,15 @@
 ---
 title: EXPERT
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Expert
@@ -508,7 +511,7 @@ This version maximizes:
 
 No abstraction. No metaphysics. Pure signal.
 * * *
-# 🔹 Expert Network Bio (Optimized Version)
+# Expert Network Bio (Optimized Version)
 **Trang Q. Phan**
 Global Systems Architect & AI Governance Strategist
 Former McKinsey Consultant | Enterprise CTO | National-Scale Infrastructure Architect
@@ -588,7 +591,7 @@ Special focus areas:
 
 Available for advisory calls, diligence reviews, and strategic discussions on AI deployment, governance frameworks, infrastructure systems, enterprise risk, and emerging market execution environments.
 * * *
-# 🔥 Why This Version Works
+# Why This Version Works
 It:
   * Removes metaphysical language.
 
@@ -609,7 +612,7 @@ It:
 
 
 * * *
-# 💰 Rate Positioning
+# Rate Positioning
 With this profile:
 Starting target:
 $900–$1,200 USD/hour

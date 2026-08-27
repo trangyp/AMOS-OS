@@ -1,8 +1,15 @@
 ---
 title: generative family validation
 type: reference
-tags: [reference, amos-fractal-systems-master]
+source: 07_SKILLS/amos-fractal-systems-master/references
+tags: [reference, amos-fractal-systems-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Generative-Family Validation Layer
 

@@ -1,8 +1,15 @@
 ---
 title: "07 Emotion Regulation MOC"
 type: moc
-tags: [moc, 07-emotion-regulation]
+source: 05_COGNITIVE_ORGANISM/07_EMOTION_REGULATION
+tags: [moc, 07-emotion-regulation, canon/cognitive]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 07 Emotion Regulation — Map of Content
 

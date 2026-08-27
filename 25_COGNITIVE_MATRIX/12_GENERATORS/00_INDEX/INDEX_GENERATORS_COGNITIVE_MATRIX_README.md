@@ -1,14 +1,6 @@
 ---
-title: INDEX GENERATORS COGNITIVE MATRIX README
-type: note
-tags: [note, 00-index]
----
-
-
-````markdown
----
-tags:
-  - cognitive_matrix
+title: "INDEX GENERATORS COGNITIVE MATRIX README"
+tags: [- cognitive_matrix, canon/cognitive-matrix]
   - routing
   - index
   - readme
@@ -19,7 +11,15 @@ tags:
   - constraints
   - provenance
   - rscf
+type: document
+source: 25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Cognitive Matrix Routing — README
 
@@ -71,19 +71,11 @@ Routing is the governed resolution of a task across potentially interacting dime
 
 The conceptual routing problem is:
 
-\[
-\boxed{
-Task
-\rightarrow
-AdmissibleExecutionConfiguration
-}
-\]
+$$\boxed{ Task \rightarrow AdmissibleExecutionConfiguration }$$
 
 not simply:
 
-\[
-Task \rightarrow Mode
-\]
+$$Task \rightarrow Mode$$
 
 ---
 
@@ -133,23 +125,11 @@ Those are separate claims requiring appropriate evidence.
 
 Therefore:
 
-$$
-\boxed{
-ArchitectureSpecification
-\neq
-ImplementationEvidence
-}
-$$
+$$\boxed{ ArchitectureSpecification \neq ImplementationEvidence }$$
 
 and:
 
-$$
-\boxed{
-RoutingModel
-\neq
-VerifiedRuntimeBehavior
-}
-$$
+$$\boxed{ RoutingModel \neq VerifiedRuntimeBehavior }$$
 
 ---
 
@@ -159,53 +139,29 @@ The routing layer MUST select the smallest sufficient execution configuration th
 
 Conceptually:
 
-$$
-R^*
-=
-\arg\min_R Cost(R)
-$$
+$$R^* = \arg\min_R Cost(R)$$
 
 subject to:
 
-$$
-TaskSatisfied(R)
-$$
+$$TaskSatisfied(R)$$
 
-$$
-ConstraintsSatisfied(R)
-$$
+$$ConstraintsSatisfied(R)$$
 
-$$
-CapabilitiesSatisfied(R)
-$$
+$$CapabilitiesSatisfied(R)$$
 
-$$
-DependenciesSatisfied(R)
-$$
+$$DependenciesSatisfied(R)$$
 
-$$
-ScopeCompatible(R)
-$$
+$$ScopeCompatible(R)$$
 
-$$
-RegimeCompatible(R)
-$$
+$$RegimeCompatible(R)$$
 
-$$
-IntegrityPreserved(R)
-$$
+$$IntegrityPreserved(R)$$
 
 The optimization objective is subordinate to integrity.
 
 Therefore:
 
-$$
-\boxed{
-Efficiency
-\not>
-Integrity
-}
-$$
+$$\boxed{ Efficiency \not> Integrity }$$
 
 ---
 
@@ -213,33 +169,15 @@ $$
 
 Routing receives a task state:
 
-$$
-T
-$$
+$$T$$
 
 and seeks a valid routing configuration:
 
-$$
-R
-$$
+$$R$$
 
 where conceptually:
 
-$$
-R =
-\{
-TaskBinding,
-Capabilities,
-Modes,
-Generators,
-Dependencies,
-Constraints,
-Scope,
-Regime,
-EvidenceRequirements,
-ExecutionPolicy
-\}
-$$
+$$R = \{ TaskBinding, Capabilities, Modes, Generators, Dependencies, Constraints, Scope, Regime, EvidenceRequirements, ExecutionPolicy \}$$
 
 A route is admissible only if the load-bearing requirements are jointly compatible.
 
@@ -437,10 +375,7 @@ A route is unsatisfiable when no known configuration can jointly satisfy the app
 
 Conceptually:
 
-$$
-\neg \exists R :
-Requirements(R)
-$$
+$$\neg \exists R : Requirements(R)$$
 
 ---
 
@@ -450,9 +385,7 @@ Use when route validity cannot be established because critical routing informati
 
 Unknown is not equivalent to admissible.
 
-$$
-UNKNOWN \neq TRUE
-$$
+$$UNKNOWN \neq TRUE$$
 
 ---
 
@@ -512,21 +445,11 @@ Routing begins from the task rather than from a preferred mode.
 
 The governing direction is:
 
-$$
-Task
-\rightarrow
-Requirements
-\rightarrow
-Route
-$$
+$$Task \rightarrow Requirements \rightarrow Route$$
 
 not:
 
-$$
-PreferredMode
-\rightarrow
-ForceTaskIntoMode
-$$
+$$PreferredMode \rightarrow ForceTaskIntoMode$$
 
 This prevents solution-first routing.
 
@@ -638,21 +561,15 @@ capability_resolution:
 
 For required capability set:
 
-$$
-C_R
-$$
+$$C_R$$
 
 and route capability set:
 
-$$
-C_X
-$$
+$$C_X$$
 
 the route requires:
 
-$$
-C_R \subseteq C_X
-$$
+$$C_R \subseteq C_X$$
 
 subject to compatibility and constraints.
 
@@ -680,17 +597,13 @@ These are not synonyms.
 
 # 23. Requested Mode
 
-A user or subsystem MAY request mode \(M\).
+A user or subsystem MAY request mode $M$.
 
 That request is evidence of intent.
 
 It is not automatic admission.
 
-$$
-Requested(M)
-\not\Rightarrow
-Admitted(M)
-$$
+$$Requested(M) \not\Rightarrow Admitted(M)$$
 
 ---
 
@@ -708,17 +621,7 @@ A mode becomes admissible only after relevant checks succeed.
 
 Conceptually:
 
-$$
-Admissible(M)
-=
-Coverage(M)
-\land
-Dependencies(M)
-\land
-Constraints(M)
-\land
-NoBlockingConflict(M)
-$$
+$$Admissible(M) = Coverage(M) \land Dependencies(M) \land Constraints(M) \land NoBlockingConflict(M)$$
 
 with additional scope/regime/governance conditions where required.
 
@@ -794,11 +697,9 @@ A selected mode inherits relevant load-bearing dependencies.
 
 # 31. Dependency Closure
 
-For candidate route \(R\):
+For candidate route $R$:
 
-$$
-Closure(R)
-$$
+$$Closure(R)$$
 
 contains the dependencies that can materially affect route validity.
 
@@ -814,11 +715,7 @@ It requires the smallest sufficient closure.
 
 Therefore:
 
-$$
-RelevantClosure
-\subseteq
-TotalReachableGraph
-$$
+$$RelevantClosure \subseteq TotalReachableGraph$$
 
 in many tasks.
 
@@ -871,11 +768,7 @@ UNKNOWN
 
 A hard conflict blocks simultaneous activation under the applicable scope.
 
-$$
-Conflict_{hard}(M_1,M_2)
-\Rightarrow
-\neg Compose(M_1,M_2)
-$$
+$$Conflict_{hard}(M_1,M_2) \Rightarrow \neg Compose(M_1,M_2)$$
 
 unless a higher-level authorized resolution changes the conditions.
 
@@ -930,9 +823,7 @@ composition:
 
 If:
 
-$$
-M_1 + M_2
-$$
+$$M_1 + M_2$$
 
 are simultaneously present, that does not establish that they compose safely.
 
@@ -958,11 +849,7 @@ M2 → M1
 
 Therefore:
 
-$$
-Compose(M_1,M_2)
-\neq
-Compose(M_2,M_1)
-$$
+$$Compose(M_1,M_2) \neq Compose(M_2,M_1)$$
 
 unless commutativity is independently established.
 
@@ -1000,19 +887,11 @@ Candidate status MUST NOT silently become active status.
 
 Conceptually:
 
-$$
-Candidate
-\neq
-Admitted
-$$
+$$Candidate \neq Admitted$$
 
 and:
 
-$$
-Admitted
-\neq
-Executed
-$$
+$$Admitted \neq Executed$$
 
 ---
 
@@ -1061,15 +940,9 @@ EPISTEMIC
 
 # 44. Constraint Propagation Rule
 
-For inherited hard constraint \(C\):
+For inherited hard constraint $C$:
 
-$$
-C_{task}
-\Rightarrow
-C_{route}
-\Rightarrow
-C_{execution}
-$$
+$$C_{task} \Rightarrow C_{route} \Rightarrow C_{execution}$$
 
 unless explicitly superseded by authorized governance.
 
@@ -1174,11 +1047,7 @@ Routing validity MAY change when the operating regime changes.
 
 Therefore:
 
-$$
-Valid(R, Regime_1)
-\not\Rightarrow
-Valid(R, Regime_2)
-$$
+$$Valid(R, Regime_1) \not\Rightarrow Valid(R, Regime_2)$$
 
 ---
 
@@ -1240,11 +1109,7 @@ but all derive from one source.
 
 Then:
 
-$$
-3\ references
-\neq
-3\ independent\ confirmations
-$$
+$$3\ references \neq 3\ independent\ confirmations$$
 
 Routing confidence must account for shared ancestry where material.
 
@@ -1449,11 +1314,7 @@ counterfactual
 
 A route containing only correlation-capable evidence cannot automatically be upgraded into a causal route.
 
-$$
-CorrelationEvidence
-\not\Rightarrow
-CausalEffectEvidence
-$$
+$$CorrelationEvidence \not\Rightarrow CausalEffectEvidence$$
 
 ---
 
@@ -1685,9 +1546,7 @@ Unknown conflicts do not establish absence of conflict.
 
 Therefore:
 
-$$
-UNKNOWN \neq ESTABLISHED
-$$
+$$UNKNOWN \neq ESTABLISHED$$
 
 ---
 
@@ -1933,13 +1792,7 @@ REVALIDATE
 
 A failed route SHOULD NOT be repeated without changed evidence, state, configuration, or assumptions.
 
-$$
-SameFailureState
-+
-SameRoute
-\Rightarrow
-NoExpectedInformationGain
-$$
+$$SameFailureState + SameRoute \Rightarrow NoExpectedInformationGain$$
 
 ---
 
@@ -2022,15 +1875,7 @@ For irreversible actions, validation requirements SHOULD increase.
 
 Conceptually:
 
-$$
-ValidationDepth
-\uparrow
-\quad
-as
-\quad
-Irreversibility
-\uparrow
-$$
+$$ValidationDepth \uparrow \quad as \quad Irreversibility \uparrow$$
 
 ---
 
@@ -2106,19 +1951,7 @@ governance state changes.
 
 A prior route MAY be reused only while its load-bearing assumptions remain valid.
 
-$$
-Reuse(R)
-\Rightarrow
-ValidDependencies
-\land
-ValidScope
-\land
-ValidRegime
-\land
-ValidFreshness
-\land
-ValidConstraints
-$$
+$$Reuse(R) \Rightarrow ValidDependencies \land ValidScope \land ValidRegime \land ValidFreshness \land ValidConstraints$$
 
 ---
 
@@ -2138,11 +1971,9 @@ Where routing inputs and governing registries are fixed, deterministic routing S
 
 Conceptually:
 
-$$
-R(T,S)=R(T,S)
-$$
+$$R(T,S)=R(T,S)$$
 
-for identical task \(T\) and routing state \(S\).
+for identical task $T$ and routing state $S$.
 
 This does not establish that every AMOS routing implementation is literally deterministic.
 
@@ -2786,7 +2617,7 @@ Generator G
 Dependency D
 ```
 
-and \(D\) becomes stale.
+and $D$ becomes stale.
 
 Correct recovery:
 
@@ -2831,15 +2662,11 @@ A component trusted for one routing role is not globally trusted.
 
 Conceptually:
 
-$$
-Trust(Component,Capability,Scope,Regime,Time)
-$$
+$$Trust(Component,Capability,Scope,Regime,Time)$$
 
 rather than:
 
-$$
-Trust(Component)=TRUE
-$$
+$$Trust(Component)=TRUE$$
 
 ---
 
@@ -2912,11 +2739,7 @@ A route SHOULD preserve which routing rules or registry versions materially infl
 
 When a routing artifact is superseded:
 
-$$
-NewArtifact
-\neq
-RetroactiveRewrite
-$$
+$$NewArtifact \neq RetroactiveRewrite$$
 
 Historical routes retain the routing state under which they were resolved unless explicitly migrated or re-evaluated.
 
@@ -2988,11 +2811,7 @@ Where a dedicated routing artifact defines a more specific contract, the dedicat
 
 Therefore:
 
-$$
-SpecificContract
->
-README\ Summary
-$$
+$$SpecificContract > README\ Summary$$
 
 within the specific contract's valid scope.
 
@@ -3076,25 +2895,11 @@ Does governance escalation apply?
 
 Conceptually:
 
-$$
-Q_R =
-f(
-Integrity,
-Coverage,
-Compatibility,
-Traceability,
-ScopeCorrectness,
-Provenance,
-Repairability,
-Efficiency
-)
-$$
+$$Q_R = f( Integrity, Coverage, Compatibility, Traceability, ScopeCorrectness, Provenance, Repairability, Efficiency )$$
 
 subject to:
 
-$$
-Integrity
-$$
+$$Integrity$$
 
 being a hard governing priority.
 
@@ -3104,31 +2909,19 @@ being a hard governing priority.
 
 A route SHOULD minimize unnecessary complexity:
 
-$$
-Complexity(R)
-$$
+$$Complexity(R)$$
 
 while maintaining:
 
-$$
-Integrity(R)=1
-$$
+$$Integrity(R)=1$$
 
-$$
-TaskSufficiency(R)=1
-$$
+$$TaskSufficiency(R)=1$$
 
-$$
-ConstraintValidity(R)=1
-$$
+$$ConstraintValidity(R)=1$$
 
 Thus:
 
-$$
-R^*
-=
-\arg\min Complexity(R)
-$$
+$$R^* = \arg\min Complexity(R)$$
 
 subject to the integrity constraints.
 
@@ -3140,35 +2933,11 @@ The Cognitive Matrix Routing layer exists to transform a task into the smallest 
 
 Its governing principle is:
 
-$$
-\boxed{
-Task
-\rightarrow
-Requirements
-\rightarrow
-Capabilities
-\rightarrow
-Modes
-\rightarrow
-Dependencies
-\rightarrow
-Constraints
-\rightarrow
-Binding
-\rightarrow
-Admission
-}
-$$
+$$\boxed{ Task \rightarrow Requirements \rightarrow Capabilities \rightarrow Modes \rightarrow Dependencies \rightarrow Constraints \rightarrow Binding \rightarrow Admission }$$
 
 not:
 
-$$
-\boxed{
-Task
-\rightarrow
-FavoriteMode
-}
-$$
+$$\boxed{ Task \rightarrow FavoriteMode }$$
 
 A valid route should preserve:
 
@@ -3192,19 +2961,7 @@ and expose any material gap that prevents safe admission.
 
 The final governing ordering remains:
 
-$$
-\boxed{
-Integrity
->
-Completeness
->
-Fluency
->
-Speed
->
-TokenSavings
-}
-$$
+$$\boxed{ Integrity > Completeness > Fluency > Speed > TokenSavings }$$
 
 ---
 

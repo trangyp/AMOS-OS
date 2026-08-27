@@ -13,8 +13,13 @@ byte_count_neurotransmitter: 5287
 byte_count_schizophrenia: 6991
 byte_count_void: 8843
 tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-03-09-the-complete-human-system-vau, dated, dated/2026-03-09]
----
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 
+---
 
 
 # The Complete Human System — Vault Knowledge Base

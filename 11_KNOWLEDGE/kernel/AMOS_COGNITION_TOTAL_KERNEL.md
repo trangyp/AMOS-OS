@@ -1,15 +1,20 @@
 ---
 title: AMOS COGNITION TOTAL KERNEL
 type: kernel
+source: 11_KNOWLEDGE/kernel
 canon-group: biology
 canon-type: framework
 rscf-state: source-claim
 topic: amos-cognition-total-kernel
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-cognition-total-kernel, kernel]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
-
-
+# AMOS COGNITION TOTAL KERNEL
 
 ```json
 {

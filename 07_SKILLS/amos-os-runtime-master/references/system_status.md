@@ -1,8 +1,15 @@
 ---
 title: system status
 type: reference
-tags: [reference, amos-os-runtime-master]
+source: 07_SKILLS/amos-os-runtime-master/references
+tags: [reference, amos-os-runtime-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # System Status
 
@@ -78,7 +85,7 @@ The AMOS UNIVERSE system has been successfully integrated and is ready for produ
 | Unit | 23 | 23 | ✅ 100% |
 | Integration | 13 | 13 | ✅ 100% |
 | E2E | 7 | 7 | ✅ 100% |
-| **Total** | **43** | **43** | **✅ 100%** |
+| **Total** | **43** | **43** | **100%** |
 
 ### Benchmarks (5 Tests)
 
@@ -170,3 +177,7 @@ See `docs/status/known-issues.md` for full list.
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

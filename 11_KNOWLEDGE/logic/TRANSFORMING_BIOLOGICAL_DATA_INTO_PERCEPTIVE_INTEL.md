@@ -1,12 +1,15 @@
 ---
 title: TRANSFORMING BIOLOGICAL DATA INTO PERCEPTIVE INTEL
-tags: [logic, reasoning, formal]
+tags: [logic, reasoning, formal, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/logic
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
+
 ---
-
-
-
 
 
 # **Transforming Biological Data into Perceptive Intelligence – The First AI That Can Read and Interpret the Human Body’s Signals**

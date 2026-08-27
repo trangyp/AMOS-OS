@@ -1,8 +1,15 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX PURPOSE
 type: note
-tags: [note, vault]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
+tags: [note, vault, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 ---tags:
   - amos
@@ -35,17 +42,7 @@ The purpose of `L01_SENSING_OBSERVATION` is to provide the first governed cognit
 
 Its fundamental responsibility is:
 
-\[
-\boxed{
-RealityContact
-\rightarrow
-Sensing
-\rightarrow
-ObservationCandidate
-\rightarrow
-GovernedObservation
-}
-\]
+$$\boxed{ RealityContact \rightarrow Sensing \rightarrow ObservationCandidate \rightarrow GovernedObservation }$$
 
 without silently converting:
 

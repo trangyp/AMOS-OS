@@ -1,6 +1,7 @@
 ---
 title: CANONICAL GLOSSARY
 type: canon
+source: 01_CANON/06_GLOSSARY
 artifact_id: AMOS-OS-CANONICAL-GLOSSARY
 canonical_name: CANONICAL_GLOSSARY
 artifact_type: canonical_semantic_registry
@@ -21,8 +22,6 @@ aliases: "- AMOS Canonical Glossary
   - AMOS OS Glossary
   - Canonical Terminology Registry
   - AMOS Semantic ..."---
-
-
 
 
 # AMOS OS Canonical Glossary
@@ -61,8 +60,13 @@ NAME != IDENTITY
 TERM != IMPLEMENTATION
 MODEL != REALITY
 ```
-
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 2. Glossary Authority Boundary
 

@@ -1,6 +1,7 @@
 ---
 title: K COLLAPSE RECOVERY
 type: note
+source: 02_KERNEL/06_RISK_REPAIR
 artifact_id: AMOS-OS-K-COLLAPSE-RECOVERY
 canonical_name: K_COLLAPSE_RECOVERY
 artifact_type: kernel_recovery_contract
@@ -14,10 +15,13 @@ kernel_family: RECOVERY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags: [amos-os, kernel, core, kernel/recovery, kernel/collapse-recovery, kernel/failure-recovery, kernel/invalidation, kernel/rollback, kernel/dependency, kernel/state, kernel/provenance, kernel/causal-epoch, kernel/rscf, rscf/recovery, rscf/invalidation, rscf/dependency, topic/local-repair, topic/failure-containment, topic/rollback, topic/replay, topic/atomicity, topic/mvcc, topic/cas, topic/causal-finality]
+tags: [amos-os, kernel, core, kernel/recovery, kernel/collapse-recovery, kernel/failure-recovery, kernel/invalidation, kernel/rollback, kernel/dependency, kernel/state, kernel/provenance, kernel/causal-epoch, kernel/rscf, rscf/recovery, rscf/invalidation, rscf/dependency, topic/local-repair, topic/failure-containment, topic/rollback, topic/replay, topic/atomicity, topic/mvcc, topic/cas, topic/causal-finality, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
-
 
 
 # K COLLAPSE RECOVERY

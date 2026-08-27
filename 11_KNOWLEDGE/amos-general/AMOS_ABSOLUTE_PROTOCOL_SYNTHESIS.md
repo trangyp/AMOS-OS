@@ -1,11 +1,15 @@
 ---
 title: AMOS ABSOLUTE PROTOCOL SYNTHESIS
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
 
 
 # AMOS ABSOLUTE PROTOCOL SYNTHESIS — COMPLETE ARCHITECTURE
@@ -2378,7 +2382,7 @@ def normalize_mathematical_expression(expression):
     expression = expression.replace('>', ' > ').replace('<', ' < ')
     
     # Standardize function notation
-    expression = re.sub(r'f\s*\(\s*([^)]+)\s*\)', r'f(\1)', expression)
+    expression = re.sub(r'f\s*$\s*([^)]+)\s*$', r'f(\1)', expression)
     
     # Normalize partial derivatives
     expression = re.sub(r'∂\s*(\w+)/∂\s*(\w+)', r'∂\1/∂\2', expression)
@@ -3006,3 +3010,6 @@ This synthesis provides a robust foundation for civilizational-scale system desi
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,15 +1,20 @@
 ---
 title: BIZFIN SUPER ENGINE
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: bizfin-super-engine
 tags: [canon-group/tech-ai, canon/metric, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/bizfin-super-engine, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
+# BIZFIN SUPER ENGINE
 
 ```json
 {
@@ -26554,3 +26559,6 @@ created: 2026-08-22
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,9 +1,14 @@
 ---
 title: MODEL MAP
 type: map
-tags: [amos_os, 13_models]
+source: 13_MODELS/00_INDEX
+tags: [amos_os, 13_models, canon/model]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # MODEL MAP

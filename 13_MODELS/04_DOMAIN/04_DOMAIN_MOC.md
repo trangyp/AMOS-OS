@@ -1,8 +1,15 @@
 ---
 title: "04 Domain MOC"
 type: moc
-tags: [moc, 04-domain]
+source: 13_MODELS/04_DOMAIN
+tags: [moc, 04-domain, canon/model]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 04 Domain — Map of Content
 

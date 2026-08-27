@@ -1,12 +1,15 @@
 ---
 title: WHY INSTITUTIONS THAT LOOK STRONG FAIL FIRST
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **Why Institutions That Look Strong Fail First**

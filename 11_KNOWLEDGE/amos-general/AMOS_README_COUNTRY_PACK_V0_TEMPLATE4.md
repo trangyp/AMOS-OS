@@ -3,9 +3,13 @@ title: AMOS README COUNTRY PACK V0 TEMPLATE4
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-readme-country-pack-v0, amos-general]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
 
 
 # AMOS Readme Country Pack v0 Template4
@@ -29,3 +33,6 @@ This template is used to generate country-specific and sector-specific pack file
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-tensor-accelerator-activity-rscf-engine]
+source: 07_SKILLS/amos-tensor-accelerator-activity-rscf-engine/references
+tags: [reference, amos-tensor-accelerator-activity-rscf-engine, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -156,3 +163,7 @@ Successfully implemented and deployed the AMOS BRAIN OMEGA Ultimate Tensor Field
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,9 +1,14 @@
 ---
 title: L23 METACOGNITION MAP
 type: map
-tags: [cognitive_matrix, l23_metacognition]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION/00_INDEX
+tags: [cognitive_matrix, l23_metacognition, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # L23 METACOGNITION MAP
@@ -56,3 +61,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

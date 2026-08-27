@@ -4,6 +4,7 @@ canonical_name: "AMOS Full Brain OS Architecture"
 version_date: 2026-08-22
 language: en
 type: architecture
+source: 11_KNOWLEDGE/amos-general
 
 tags:
   - canon-group/tech-ai
@@ -48,6 +49,7 @@ anti_regression:
   preserve_omega_separation: true
   preserve_deployment_ontology_boundary: true
 ---
+
 
 # AMOS Full Brain OS — Rebuilt Architecture
 
@@ -3175,3 +3177,6 @@ AMOS_OMEGA_INFINITY_STACK
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

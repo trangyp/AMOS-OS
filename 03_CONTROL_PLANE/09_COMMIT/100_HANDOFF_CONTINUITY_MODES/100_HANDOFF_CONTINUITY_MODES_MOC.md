@@ -1,8 +1,15 @@
 ---
 title: "100 Handoff Continuity Modes MOC"
 type: moc
-tags: [moc, 100-handoff-continuity-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/100_HANDOFF_CONTINUITY_MODES
+tags: [moc, 100-handoff-continuity-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 100 Handoff Continuity Modes — Map of Content
 

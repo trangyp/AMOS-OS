@@ -9,6 +9,12 @@ status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 source: "Google Drive /_00_AMOS_CANON/Cognitive/ (13 engine JSON files)"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: cognitive_model
+
 ---
 
 

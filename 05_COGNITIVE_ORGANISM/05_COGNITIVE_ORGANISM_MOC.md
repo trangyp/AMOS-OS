@@ -1,8 +1,15 @@
 ---
 title: "05 Cognitive Organism MOC"
 type: moc
-tags: [moc, 05-cognitive-organism]
+source: 05_COGNITIVE_ORGANISM
+tags: [moc, 05-cognitive-organism, canon/cognitive]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 05 Cognitive Organism — Map of Content
 

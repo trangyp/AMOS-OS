@@ -1,9 +1,14 @@
 ---
 title: INDEX INTERFACES INTERFACE CONTRACT
 type: index
-tags: [amos_os, 15_interfaces]
+source: 15_INTERFACES/00_INDEX
+tags: [amos_os, 15_interfaces, canon/interface]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INDEX INTERFACES INTERFACE CONTRACT

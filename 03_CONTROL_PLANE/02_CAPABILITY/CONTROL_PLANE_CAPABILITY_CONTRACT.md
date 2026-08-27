@@ -1,9 +1,14 @@
 ---
 title: CONTROL PLANE CAPABILITY CONTRACT
 type: control-plane
-tags: [control_plane, capability, contract]
+source: 03_CONTROL_PLANE/02_CAPABILITY
+tags: [control_plane, capability, contract, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 Yes. The placeholder should be replaced by a substantive contract. Below is a **full paste-ready `CAPABILITY_CONTRACT.md`**. It is intentionally classified as an **AMOS MODEL / proposed governed contract**, not falsely presented as already implemented or canonically validated.
@@ -2702,7 +2707,7 @@ Any path that bypasses a load-bearing gate MUST fail closed, remain `UNKNOWN/GAP
 
 ```
 
-This is substantially different from the existing Drive file, which currently contains only the unrelated `K COUNTERFACTUAL` placeholder. :contentReference[oaicite:0]{index=0}
+This is substantially different from the existing Drive file, which currently contains only the unrelated `K COUNTERFACTUAL` placeholder.
 
 The important epistemic boundary is that the content above **completes the architecture as a proposed contract**, but does not pretend the runtime, tests, or canon approval already exist.
 ```

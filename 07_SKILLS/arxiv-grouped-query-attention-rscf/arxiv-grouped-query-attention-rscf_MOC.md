@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Grouped-Query-Attention-Rscf MOC"
 type: moc
-tags: [moc, arxiv-grouped-query-attention-rscf]
+source: 07_SKILLS/arxiv-grouped-query-attention-rscf
+tags: [moc, arxiv-grouped-query-attention-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Grouped-Query-Attention-Rscf — Map of Content
 

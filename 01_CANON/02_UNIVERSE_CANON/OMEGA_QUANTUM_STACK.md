@@ -1,6 +1,7 @@
 ---
 title: "Omega Quantum Stack"
 type: quantum
+source: 01_CANON/02_UNIVERSE_CANON
 artifact: "OMEGA_QUANTUM_STACK.md"
 artifact_id: "amos_01_canon_02_universe_canon_omega_quantum_stack"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "01_CANON/02_UNIVERSE_CANON"
 artifact_kind: "ARTIFACT"
 path: "01_CANON/02_UNIVERSE_CANON/OMEGA_QUANTUM_STACK.md"
 
-tags: [amos_os, canon, universe, 01_canon, artifact, canon_placeholder, rscf]
+tags: [amos_os, canon, universe, 01_canon, artifact, canon_placeholder, rscf, canon/universe]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
-
 
 
 # Omega Quantum Stack

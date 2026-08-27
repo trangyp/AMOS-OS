@@ -1,7 +1,13 @@
 ---
 title: L15 GOAL FORMATION PRIMITIVES COGNITIVE MATRIX GAP MATRIX
 type: note
-tags: [note, l15-goal-formation]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION
+tags: [note, l15-goal-formation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -50,3 +56,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L
 
 ---
 **MOC:** [[L15_GOAL_FORMATION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

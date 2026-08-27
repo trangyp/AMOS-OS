@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — new troy/Enhanced AI Sweet Spots Research Paper.pdf"
 origin_architect: "Research paper"
 type: research-paper
-tags: [ai-sweet-spots, cognitive-debt, neurodivergent, ADHD, autism, dyslexia, 2e, elderly, cultural-HCI, cognitive-load, neural-engagement, differential-optimization, misc]
+source: 11_KNOWLEDGE/misc
+tags: [ai-sweet-spots, cognitive-debt, neurodivergent, ADHD, autism, dyslexia, 2e, elderly, cultural-HCI, cognitive-load, neural-engagement, differential-optimization, misc, canon/knowledge]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 

@@ -1,12 +1,4 @@
 ---
-title: L1 EPISTEMIC
-type: note
-tags: [note, 01-core-laws]
----
-
-
-````markdown
----
 title: "AMOS Core Laws — L1 Epistemic Laws"
 artifact: "L1_EPISTEMIC.md"
 artifact_id: "AMOS_CORE_LAWS_L1_EPISTEMIC"
@@ -18,8 +10,7 @@ domain: "01_CORE_LAWS"
 law_family: "L1_EPISTEMIC"
 path: "01_CANON/01_CORE_LAWS/L1_EPISTEMIC.md"
 
-tags:
-  - canon
+tags: [- canon, canon/universe]
   - core_laws
   - epistemic
   - knowledge
@@ -38,7 +29,15 @@ epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
 implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
+type: document
+source: 01_CANON/01_CORE_LAWS
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L1 Epistemic Laws
 

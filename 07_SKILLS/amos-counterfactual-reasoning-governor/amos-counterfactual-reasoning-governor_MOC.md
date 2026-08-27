@@ -1,8 +1,15 @@
 ---
 title: "Amos-Counterfactual-Reasoning-Governor MOC"
 type: moc
-tags: [moc, amos-counterfactual-reasoning-governor]
+source: 07_SKILLS/amos-counterfactual-reasoning-governor
+tags: [moc, amos-counterfactual-reasoning-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Counterfactual-Reasoning-Governor — Map of Content
 

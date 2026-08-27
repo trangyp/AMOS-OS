@@ -1,8 +1,15 @@
 ---
 title: execution provenance spec
 type: reference
-tags: [reference, amos-execution-provenance-replay-rscf]
+source: 07_SKILLS/amos-execution-provenance-replay-rscf/references
+tags: [reference, amos-execution-provenance-replay-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # JSON Specification
 
@@ -34,3 +41,7 @@ tags: [reference, amos-execution-provenance-replay-rscf]
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

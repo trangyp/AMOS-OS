@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-universal-coordinate-system]
+source: 07_SKILLS/amos-universal-coordinate-system/references
+tags: [reference, amos-universal-coordinate-system, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -224,3 +231,7 @@ Final State: {'x': 1.0, 'y': 0.0, 'time': 4}
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

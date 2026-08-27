@@ -1,7 +1,13 @@
 ---
 title: 00 ROOT DEPENDENCIES
 type: note
-tags: [note, 00-root]
+source: 00_ROOT
+tags: [note, 00-root, canon/root]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 

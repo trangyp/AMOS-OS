@@ -1,8 +1,15 @@
 ---
 title: "11 Validation MOC"
 type: moc
-tags: [moc, 11-validation]
+source: 25_COGNITIVE_MATRIX/11_VALIDATION
+tags: [moc, 11-validation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 11 Validation — Map of Content
 

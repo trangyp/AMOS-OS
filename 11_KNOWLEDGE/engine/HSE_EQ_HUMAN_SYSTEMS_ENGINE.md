@@ -1,12 +1,15 @@
 ---
 title: HSE EQ HUMAN SYSTEMS ENGINE
-tags: [engine, processing, runtime]
+tags: [engine, processing, runtime, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/engine
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
+
 ---
-
-
-
 
 
 # **HSE = Human Systems Engine.**

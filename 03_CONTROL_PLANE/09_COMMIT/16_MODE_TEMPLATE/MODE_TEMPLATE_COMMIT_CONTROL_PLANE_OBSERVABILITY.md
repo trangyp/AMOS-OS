@@ -1,9 +1,14 @@
 ---
 title: MODE TEMPLATE COMMIT CONTROL PLANE OBSERVABILITY
 type: template
-tags: [control_plane, 16_mode_template]
+source: 03_CONTROL_PLANE/09_COMMIT/16_MODE_TEMPLATE
+tags: [control_plane, 16_mode_template, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # MODE TEMPLATE COMMIT CONTROL PLANE OBSERVABILITY
@@ -70,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[16_MODE_TEMPLATE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

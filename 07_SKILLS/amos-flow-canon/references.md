@@ -1,7 +1,13 @@
 ---
 title: references
 type: note
-tags: [note, amos-flow-canon]
+source: 07_SKILLS/amos-flow-canon
+tags: [note, amos-flow-canon, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 

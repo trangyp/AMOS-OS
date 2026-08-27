@@ -3,7 +3,15 @@ title: V11 PLANETARY CONSENT INFRASTRUCTURE TECHNICAL FRAMEWORK
 tags: [canon-group/planetary, canon/protocol, rscf/claim, rscf/provenance, rscf/state/observation, topic/v11-planetary-consent-infrastructure-com, tech-coding]
 type: note
 source: 11_KNOWLEDGE/tech-coding
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: tech_engineering
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
+
 
 # V11 PLANETARY CONSENT INFRASTRUCTURE TECHNICAL FRAMEWORK
 

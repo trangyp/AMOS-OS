@@ -1,8 +1,15 @@
 ---
 title: "Amos-Distinction-Relation-Transformation MOC"
 type: moc
-tags: [moc, amos-distinction-relation-transformation]
+source: 07_SKILLS/amos-distinction-relation-transformation
+tags: [moc, amos-distinction-relation-transformation, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Distinction-Relation-Transformation — Map of Content
 

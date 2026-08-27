@@ -1,6 +1,7 @@
 ---
 title: "AMOS OS Root Boundaries"
 type: boundary
+source: 00_ROOT
 artifact: "00_ROOT_BOUNDARIES.md"
 artifact_id: "AMOS_ROOT_BOUNDARIES_000"
 origin_architect: "Trang Phan"
@@ -17,8 +18,14 @@ epistemic_class: "MODEL"
 canonical_status: "UNKNOWN/GAP"
 implementation_status: "UNKNOWN/GAP"
 validation_status: "UNKNOWN/GAP"
-tags: [note, 00-root]
+tags: [note, 00-root, canon/root]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
+
 
 ```
 
@@ -3365,3 +3372,4 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_COSMO_BRAIN_MOC]]
+```

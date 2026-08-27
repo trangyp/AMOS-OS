@@ -1,20 +1,24 @@
 ---
 title: READMEA
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
 
 
 # AMOS Brain Service - Complete Architecture
 
-## 🚀 Overview
+## Overview
 
 AMOS Brain Service is a standalone AI operating system that runs as a persistent background service. It provides multi-model LLM routing, tool orchestration, memory management, and task processing through a clean FastAPI architecture.
 
-## 🏗️ Architecture
+## ️ Architecture
 
 ```
 Dashboard (Claws/WebUI/Open WebUI)
@@ -34,7 +38,7 @@ ModelRouter   ToolRegistry   MemorySystem
     Task Queue (Redis)
 ```
 
-## 🎯 Core Components
+## Core Components
 
 ### 1. Model Router
 - **Multi-model routing** for optimal model selection
@@ -66,7 +70,7 @@ ModelRouter   ToolRegistry   MemorySystem
 - **WebSocket** for real-time chat
 - **CORS middleware** for dashboard integration
 
-## 📁 File Structure
+## File Structure
 
 ```
 /Users/trangphan/AMOS/39_BRAIN_SERVICE/
@@ -79,7 +83,7 @@ ModelRouter   ToolRegistry   MemorySystem
 └── README.md                 # This documentation
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option 1: Direct Setup
 
@@ -118,7 +122,7 @@ sudo systemctl enable amos-brain
 sudo systemctl start amos-brain
 ```
 
-## 🔗 External Services
+## External Services
 
 ### Required Services
 - **Ollama**: `ollama serve` (http://localhost:11434)
@@ -138,7 +142,7 @@ ollama pull wizardmath
 ollama pull llama3
 ```
 
-## 🌐 API Endpoints
+## API Endpoints
 
 ### Core Endpoints
 - `POST /api/task` - Create new task
@@ -155,7 +159,7 @@ ollama pull llama3
 - `http://localhost:8000/docs` - Interactive API docs
 - `http://localhost:8000/redoc` - ReDoc documentation
 
-## 🎛️ Dashboard Integration
+## ️ Dashboard Integration
 
 ### Open WebUI (Recommended)
 ```bash
@@ -168,7 +172,7 @@ http://localhost:3000
 - Use WebSocket for real-time updates
 - Integrate with existing frontend frameworks
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 - `AMOS_OLLAMA_URL`: Ollama endpoint (default: http://localhost:11434)
@@ -182,7 +186,7 @@ Edit `ModelRouter._initialize_models()` to add/remove models or adjust prioritie
 ### Tool Configuration
 Edit `ToolRegistry._initialize_tools()` to add/remove tools or change capabilities.
 
-## 🔒 Security
+## Security
 
 ### ActionGate
 - **Permission checking** for all tool executions
@@ -195,7 +199,7 @@ Edit `ToolRegistry._initialize_tools()` to add/remove tools or change capabiliti
 - **API key support** for external integrations
 - **Session management** for dashboard connections
 
-## 📊 Monitoring
+## Monitoring
 
 ### Service Status
 ```bash
@@ -214,7 +218,7 @@ curl http://localhost:8000/api/status
 - **Error tracking** with stack traces
 - **Performance metrics** collection
 
-## 🚀 Performance
+## Performance
 
 ### Async Processing
 - **FastAPI + AsyncIO** for concurrent request handling
@@ -228,7 +232,7 @@ curl http://localhost:8000/api/status
 - **Tool execution** with timeout handling
 - **Result caching** for repeated requests
 
-## 🔧 Development
+## Development
 
 ### Local Development
 ```bash
@@ -256,7 +260,7 @@ pytest tests/
 - **Type hints** with Pydantic models
 - **Error handling** with proper HTTP status codes
 
-## 📈 Scaling
+## Scaling
 
 ### Horizontal Scaling
 - **Multiple instances** behind load balancer
@@ -270,7 +274,7 @@ pytest tests/
 - **I/O optimization** with streaming responses
 - **Resource monitoring** with metrics collection
 
-## 🔄 Maintenance
+## Maintenance
 
 ### Updates
 - **Rolling updates** with zero downtime
@@ -284,7 +288,7 @@ pytest tests/
 - **Log rotation** for storage management
 - **State persistence** for active tasks
 
-## 🎯 Use Cases
+## Use Cases
 
 ### AI Assistant
 - **Multi-model routing** for optimal responses
@@ -310,7 +314,7 @@ pytest tests/
 - **Task queue** for reliable execution
 - **Error handling** for robust automation
 
-## 🌟 Benefits
+## Benefits
 
 ### Over Windsurf/VSCode
 - **Persistent brain** that runs 24/7
@@ -326,7 +330,7 @@ pytest tests/
 - **Memory persistence** with graph and vector capabilities
 - **Production ready** with monitoring and observability
 
-## 🎯 Next Steps
+## Next Steps
 
 1. **Install and configure** external services (Ollama, Redis)
 2. **Deploy AMOS Brain Service** using preferred method
@@ -335,7 +339,7 @@ pytest tests/
 5. **Configure models** and tools for specific use cases
 6. **Monitor performance** and optimize as needed
 
-## 📞 Support
+## Support
 
 ### Documentation
 - **API docs**: http://localhost:8000/docs

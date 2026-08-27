@@ -1,8 +1,15 @@
 ---
 title: "05 Cell Registry MOC"
 type: moc
-tags: [moc, 05-cell-registry]
+source: 25_COGNITIVE_MATRIX/05_CELL_REGISTRY
+tags: [moc, 05-cell-registry, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 05 Cell Registry — Map of Content
 

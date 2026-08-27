@@ -1,12 +1,15 @@
 ---
 title: DOT PHA THAT SU CUA NEUROSYNCAI
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # Đột phá thật sự của **NeuroSyncAI™**
@@ -27,18 +30,18 @@ Những con số này không nói lên điều gì. Nhưng **NeuroSyncAI™** s�
 > “Chỉ số phục hồi thần kinh phó giao cảm đã trở lại mức ổn định — bệnh nhân có thể đang bước vào giai đoạn nghỉ sâu.”
 Tức là, thay vì chỉ “đo lường”, hệ thống **hiểu được điều gì đang thực sự xảy ra bên trong cơ thể**.
 * * *
-### ⚙️ **2\. Từ ngôn ngữ → thành hành động**
+### ️ **2\. Từ ngôn ngữ → thành hành động**
 NeuroSyncAI™ có thể **tổng hợp và hiển thị lại các mô hình thay đổi** để hỗ trợ bác sĩ:
 > “Mức độ đau đang tăng — kiểm tra lại thời gian dùng thuốc.”
 > “Nhịp tim đêm qua không phục hồi — xem lại điều kiện giấc ngủ.”
 > “Phát hiện tín hiệu phản ứng thần kinh nhẹ — nên thử kiểm tra phản xạ giao tiếp.”
 Tức là, **AI không chỉ thông báo mà còn gợi ý hành động** , giúp đội ngũ y tế **hiểu được ‘vì sao’ và ‘nên làm gì’**.
 * * *
-### 🌍 **3\. Từ cá nhân → thành hệ thống thông minh**
+### **3\. Từ cá nhân → thành hệ thống thông minh**
 Nhờ được xây dựng dựa trên **Unified Biological Intelligence™** , NeuroSyncAI™ không chỉ phân tích một người — mà còn có thể **nhìn toàn cảnh hệ thống** : phát hiện nhóm bệnh nhân đang cùng căng thẳng, môi trường gây kích thích, hay tình trạng quá tải cảm xúc của điều dưỡng.
 Không có bất kỳ nền tảng hay thiết bị nào hiện nay trên thế giới làm được điều này.
 * * *
-### 💡 **Vì sao điều này quan trọng**
+### **Vì sao điều này quan trọng**
 Dữ liệu mà không có ý nghĩa — khiến bác sĩ quá tải.
 Còn ý nghĩa mà không có cấu trúc — dễ dẫn đến sai lệch.
 **NeuroSyncAI™ là cầu nối giữa hai thế giới đó.**
@@ -179,7 +182,7 @@ Hệ thống nhắn người nhà: “ _Giảm ánh sáng xanh, thêm chăn mỏ
 
 * * *
 * * *
-# 🏥 **SỔ TAY CAN THIỆP VI MÔ NEUROSYNCAI™**
+# **SỔ TAY CAN THIỆP VI MÔ NEUROSYNCAI™**
 ###  _Hỗ trợ bệnh nhân hôn mê, phục hồi hoặc theo dõi thần kinh tự chủ_
 * * *
 ## **1\. Mục tiêu**

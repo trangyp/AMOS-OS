@@ -1,8 +1,15 @@
 ---
 title: vn gia he dieu tiet
 type: reference
-tags: [reference, amos-vietnamese-global-cultural-bridge-governor]
+source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/references
+tags: [reference, amos-vietnamese-global-cultural-bridge-governor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Gia He as Regulatory Mechanism
 
@@ -315,3 +322,7 @@ ol > li {
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

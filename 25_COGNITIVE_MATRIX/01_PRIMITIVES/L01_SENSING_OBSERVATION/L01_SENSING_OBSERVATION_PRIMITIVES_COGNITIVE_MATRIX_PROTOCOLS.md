@@ -1,9 +1,14 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX PROTOCOLS
 type: protocol
-tags: [amos, cognitive-matrix, l01, sensing-observation, protocols, provenance, control-plane, rscf]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
+tags: [amos, cognitive-matrix, l01, sensing-observation, protocols, provenance, control-plane, rscf, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L01_SENSING_OBSERVATION — Protocols

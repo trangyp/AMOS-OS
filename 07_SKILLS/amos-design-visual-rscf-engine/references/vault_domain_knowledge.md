@@ -1,8 +1,17 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-design-visual-rscf-engine]
+source: 07_SKILLS/amos-design-visual-rscf-engine/references
+tags: [reference, amos-design-visual-rscf-engine, canon/skill]
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: skill_reference
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -236,3 +245,7 @@ Successfully implemented **Phase 11: Quantum Enhancement** with cutting-edge 202
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

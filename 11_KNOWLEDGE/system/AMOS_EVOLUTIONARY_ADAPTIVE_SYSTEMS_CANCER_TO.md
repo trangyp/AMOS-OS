@@ -1,8 +1,15 @@
 ---
 title: "AMOS EVOLUTIONARY ADAPTIVE SYSTEMS CANCER TO"
 type: system
-tags: [amos, system, architecture, evolutionary-oncology, artificial-intelligence, adaptive-systems, s-o-a, resistance, drift, selection-pressure, model-collapse, provenance, rscf, hml, cross-scale]
+source: 11_KNOWLEDGE/system
+tags: [amos, system, architecture, evolutionary-oncology, artificial-intelligence, adaptive-systems, s-o-a, resistance, drift, selection-pressure, model-collapse, provenance, rscf, hml, cross-scale, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
 ---
+
 
 # AMOS Evolutionary Adaptive Systems Architecture
 ## From Cancer Evolution (s–o–a) to AI Evolution, Drift, Resistance, Collapse, and Governed Adaptation
@@ -21,41 +28,21 @@ tags: [amos, system, architecture, evolutionary-oncology, artificial-intelligenc
 
 The original cancer-evolution model contains a deeper reusable systems insight:
 
-\[
-\boxed{
-PersistentSystem
-=
-Stability
-+
-Operation
-+
-Adaptation
-}
-\]
+$$\boxed{ PersistentSystem = Stability + Operation + Adaptation }$$
 
 AMOS encodes this as:
 
-\[
-\boxed{
-X_t=[s_t,o_t,a_t]
-}
-\]
+$$\boxed{ X_t=[s_t,o_t,a_t] }$$
 
 where:
 
-- \(s\) = **stability / persistence substrate**;
-- \(o\) = **operational / productive substrate**;
-- \(a\) = **adaptation / mutation / resistance substrate**.
+- $s$ = **stability / persistence substrate**;
+- $o$ = **operational / productive substrate**;
+- $a$ = **adaptation / mutation / resistance substrate**.
 
 The same abstract decomposition can be applied to AI systems:
 
-\[
-\boxed{
-X_t^{AI}
-=
-[s_t^{AI},o_t^{AI},a_t^{AI}]
-}
-\]
+$$\boxed{ X_t^{AI} = [s_t^{AI},o_t^{AI},a_t^{AI}] }$$
 
 but only as an **AMOS cross-domain MODEL**.
 
@@ -69,12 +56,7 @@ The transferable AMOS question is therefore not:
 
 It is:
 
-\[
-\boxed{
-How\ do\ we\ preserve\ useful\ operation
-\ while\ constraining\ destructive\ adaptation?
-}
-\]
+$$\boxed{ How\ do\ we\ preserve\ useful\ operation \ while\ constraining\ destructive\ adaptation? }$$
 
 This creates a unified architecture for:
 
@@ -114,29 +96,17 @@ UNKNOWN/GAP
 
 Hard distinctions:
 
-\[
-\boxed{Analogy\neq Mechanism}
-\]
+$$\boxed{Analogy\neq Mechanism}$$
 
-\[
-\boxed{StructuralSimilarity\neq Causation}
-\]
+$$\boxed{StructuralSimilarity\neq Causation}$$
 
-\[
-\boxed{CancerClone\neq AIAgent}
-\]
+$$\boxed{CancerClone\neq AIAgent}$$
 
-\[
-\boxed{Mutation\neq ModelUpdate}
-\]
+$$\boxed{Mutation\neq ModelUpdate}$$
 
-\[
-\boxed{DrugResistance\neq PolicyEvasion}
-\]
+$$\boxed{DrugResistance\neq PolicyEvasion}$$
 
-\[
-\boxed{BiologicalFitness\neq RewardScore}
-\]
+$$\boxed{BiologicalFitness\neq RewardScore}$$
 
 Yet AMOS permits a shared **structural coordinate system** when the mapping is explicit.
 
@@ -146,33 +116,19 @@ Yet AMOS permits a shared **structural coordinate system** when the mapping is e
 
 Define:
 
-\[
-\boxed{
-X_t=[s_t,o_t,a_t]
-}
-\]
+$$\boxed{ X_t=[s_t,o_t,a_t] }$$
 
 with:
 
-\[
-s_t,o_t,a_t\ge0
-\]
+$$s_t,o_t,a_t\ge0$$
 
 If the components form exclusive normalized partitions:
 
-\[
-\boxed{
-s_t+o_t+a_t=1
-}
-\]
+$$\boxed{ s_t+o_t+a_t=1 }$$
 
 If states overlap:
 
-\[
-\boxed{
-s_t+o_t+a_t\neq1
-}
-\]
+$$\boxed{ s_t+o_t+a_t\neq1 }$$
 
 and AMOS uses membership tensors instead of forcing false normalization.
 
@@ -180,58 +136,42 @@ Interpretation:
 
 | Axis | General system | Cancer model | AI model |
 |---|---|---|---|
-| \(s\) | persistence / retained structure | quiescent/persistent tumour state | weights, architecture, stable policy, trusted memory, invariants |
-| \(o\) | active operation | proliferative / treatment-sensitive activity | inference, task execution, tool use, serving behavior |
-| \(a\) | adaptation / escape / novelty | resistant/adaptive tumour state | learning, mutation, drift, reward exploitation, policy adaptation |
+| $s$ | persistence / retained structure | quiescent/persistent tumour state | weights, architecture, stable policy, trusted memory, invariants |
+| $o$ | active operation | proliferative / treatment-sensitive activity | inference, task execution, tool use, serving behavior |
+| $a$ | adaptation / escape / novelty | resistant/adaptive tumour state | learning, mutation, drift, reward exploitation, policy adaptation |
 
 ---
 
 # 3. AMOS Mandatory State Contract
 
-\[
-\boxed{
-T[o,p,s,t,r,v,g,e,c,k]
-}
-\]
+$$\boxed{ T[o,p,s,t,r,v,g,e,c,k] }$$
 
 where:
 
-- \(o\): observer;
-- \(p\): primitive/entity;
-- \(s\): scale;
-- \(t\): time;
-- \(r\): regime;
-- \(v\): value/state;
-- \(g\): governance;
-- \(e\): evidence;
-- \(c\): confidence;
-- \(k\): consequence.
+- $o$: observer;
+- $p$: primitive/entity;
+- $s$: scale;
+- $t$: time;
+- $r$: regime;
+- $v$: value/state;
+- $g$: governance;
+- $e$: evidence;
+- $c$: confidence;
+- $k$: consequence.
 
 Relation tensor:
 
-\[
-\boxed{
-R[i,j,relationType,time,regime,provenance]
-}
-\]
+$$\boxed{ R[i,j,relationType,time,regime,provenance] }$$
 
 Hard invariant gate:
 
-\[
-\boxed{
-Admit(x)=\bigwedge_i I_i(x)
-}
-\]
+$$\boxed{ Admit(x)=\bigwedge_i I_i(x) }$$
 
 Governed transition:
 
-\[
-\boxed{
-X_{t+1}=P_I(F(X_t,U_t,E_t,M_t))
-}
-\]
+$$\boxed{ X_{t+1}=P_I(F(X_t,U_t,E_t,M_t)) }$$
 
-where \(P_I\) projects candidate state transitions into the invariant-admissible region.
+where $P_I$ projects candidate state transitions into the invariant-admissible region.
 
 ---
 
@@ -305,31 +245,15 @@ retrieved chunks
 
 Cross-scale inference requires an explicit transform:
 
-\[
-\boxed{
-T_{i\rightarrow j}
-}
-\]
+$$\boxed{ T_{i\rightarrow j} }$$
 
 and residual:
 
-\[
-\boxed{
-\epsilon_{cross}
-=
-Observed_j-T_{i\rightarrow j}(Observed_i)
-}
-\]
+$$\boxed{ \epsilon_{cross} = Observed_j-T_{i\rightarrow j}(Observed_i) }$$
 
 If the residual can change the decision:
 
-\[
-\boxed{
-|\epsilon_{cross}|>\theta_D
-\Rightarrow
-NO\ PROMOTION
-}
-\]
+$$\boxed{ |\epsilon_{cross}|>\theta_D \Rightarrow NO\ PROMOTION }$$
 
 ---
 
@@ -337,36 +261,19 @@ NO\ PROMOTION
 
 A minimal evolutionary system requires:
 
-\[
-\boxed{
-Variation+Selection+Retention+Time
-}
-\]
+$$\boxed{ Variation+Selection+Retention+Time }$$
 
 AMOS generalization:
 
-\[
-\boxed{
-X_{t+1}
-=
-F(
-X_t,
-V_t,
-P_t,
-M_t,
-E_t,
-G_t
-)
-}
-\]
+$$\boxed{ X_{t+1} = F( X_t, V_t, P_t, M_t, E_t, G_t ) }$$
 
 where:
 
-- \(V_t\): variation;
-- \(P_t\): selection pressure;
-- \(M_t\): memory/retention;
-- \(E_t\): environment;
-- \(G_t\): governance.
+- $V_t$: variation;
+- $P_t$: selection pressure;
+- $M_t$: memory/retention;
+- $E_t$: environment;
+- $G_t$: governance.
 
 Cancer instantiation:
 
@@ -390,59 +297,19 @@ environment → users, tools, tasks, adversaries, deployment conditions
 
 # 6. Selection Pressure Tensor
 
-\[
-\boxed{
-P[
-source,
-target,
-strength,
-duration,
-frequency,
-scope,
-regime,
-consequence
-]
-}
-\]
+$$\boxed{ P[ source, target, strength, duration, frequency, scope, regime, consequence ] }$$
 
 Cancer:
 
-\[
-P^{bio}
-=
-[
-P_{drug},
-P_{immune},
-P_{hypoxia},
-P_{nutrient},
-P_{space}
-]
-\]
+$$P^{bio} = [ P_{drug}, P_{immune}, P_{hypoxia}, P_{nutrient}, P_{space} ]$$
 
 AI:
 
-\[
-P^{AI}
-=
-[
-P_{reward},
-P_{benchmark},
-P_{latency},
-P_{cost},
-P_{safety},
-P_{user},
-P_{market},
-P_{adversary}
-]
-\]
+$$P^{AI} = [ P_{reward}, P_{benchmark}, P_{latency}, P_{cost}, P_{safety}, P_{user}, P_{market}, P_{adversary} ]$$
 
 Critical invariant:
 
-\[
-\boxed{
-StrongSelection\not\Rightarrow DesiredEvolution
-}
-\]
+$$\boxed{ StrongSelection\not\Rightarrow DesiredEvolution }$$
 
 Optimization selects what the objective actually rewards, not necessarily what the designer intended.
 
@@ -452,29 +319,11 @@ Optimization selects what the objective actually rewards, not necessarily what t
 
 Cancer fitness:
 
-\[
-\boxed{
-f_i^{bio}
-=
-growth_i-death_i-competition_i-treatment_i
-}
-\]
+$$\boxed{ f_i^{bio} = growth_i-death_i-competition_i-treatment_i }$$
 
 AI effective fitness:
 
-\[
-\boxed{
-f_i^{AI}
-=
-Reward_i
--
-Cost_i
--
-ConstraintPenalty_i
-+
-Replication_i
-}
-\]
+$$\boxed{ f_i^{AI} = Reward_i - Cost_i - ConstraintPenalty_i + Replication_i }$$
 
 This is an **AMOS_MODEL correspondence**, not a biological equivalence.
 
@@ -496,11 +345,7 @@ benchmark optimization
 
 ## Cancer interpretation
 
-\[
-\boxed{
-s^{bio}=PersistenceState
-}
-\]
+$$\boxed{ s^{bio}=PersistenceState }$$
 
 Possible members:
 
@@ -513,11 +358,7 @@ protected niche states
 
 ## AI interpretation
 
-\[
-\boxed{
-s^{AI}=TrustedPersistenceState
-}
-\]
+$$\boxed{ s^{AI}=TrustedPersistenceState }$$
 
 Possible members:
 
@@ -536,20 +377,7 @@ rollback state
 
 AI stability tensor:
 
-\[
-\boxed{
-S^{AI}[
-component,
-version,
-integrity,
-provenance,
-freshness,
-authority,
-recoverability,
-confidence
-]
-}
-\]
+$$\boxed{ S^{AI}[ component, version, integrity, provenance, freshness, authority, recoverability, confidence ] }$$
 
 ### Stability invariants
 
@@ -569,19 +397,11 @@ S07 Critical invariants may not be weakened by optimization.
 
 Cancer:
 
-\[
-\boxed{
-o^{bio}=ActiveGrowthState
-}
-\]
+$$\boxed{ o^{bio}=ActiveGrowthState }$$
 
 AI:
 
-\[
-\boxed{
-o^{AI}=ActiveOperationalState
-}
-\]
+$$\boxed{ o^{AI}=ActiveOperationalState }$$
 
 AI operational components:
 
@@ -598,21 +418,7 @@ user-facing output
 
 Operational tensor:
 
-\[
-\boxed{
-O^{AI}[
-agent,
-task,
-capability,
-tool,
-latency,
-cost,
-quality,
-risk,
-time
-]
-}
-\]
+$$\boxed{ O^{AI}[ agent, task, capability, tool, latency, cost, quality, risk, time ] }$$
 
 ### Operational invariants
 
@@ -631,19 +437,11 @@ O06 Local success may create downstream system risk.
 
 Cancer:
 
-\[
-\boxed{
-a^{bio}=ResistanceOrAdaptationState
-}
-\]
+$$\boxed{ a^{bio}=ResistanceOrAdaptationState }$$
 
 AI:
 
-\[
-\boxed{
-a^{AI}=AdaptiveMutationState
-}
-\]
+$$\boxed{ a^{AI}=AdaptiveMutationState }$$
 
 AI adaptation includes:
 
@@ -663,21 +461,7 @@ agent specialization
 
 Tensor:
 
-\[
-\boxed{
-A^{AI}[
-component,
-mutation,
-trigger,
-objective,
-fitnessGain,
-risk,
-reversibility,
-provenance,
-authority
-]
-}
-\]
+$$\boxed{ A^{AI}[ component, mutation, trigger, objective, fitnessGain, risk, reversibility, provenance, authority ] }$$
 
 ### Adaptation invariants
 
@@ -696,13 +480,9 @@ A08 Mutation must not silently rewrite governing invariants.
 
 # 11. The AI s–o–a Balance Problem
 
-A system with excessive \(s\):
+A system with excessive $s$:
 
-\[
-\boxed{
-s\gg o,a
-}
-\]
+$$\boxed{ s\gg o,a }$$
 
 may become:
 
@@ -714,13 +494,9 @@ over-constrained
 fragile under distribution shift
 ```
 
-A system with excessive \(o\):
+A system with excessive $o$:
 
-\[
-\boxed{
-o\gg s,a
-}
-\]
+$$\boxed{ o\gg s,a }$$
 
 may become:
 
@@ -731,13 +507,9 @@ unable to learn
 unable to recover from regime change
 ```
 
-A system with excessive \(a\):
+A system with excessive $a$:
 
-\[
-\boxed{
-a\gg s,o
-}
-\]
+$$\boxed{ a\gg s,o }$$
 
 may become:
 
@@ -753,13 +525,7 @@ hard to audit
 
 AMOS therefore seeks a **viable region**, not a universal fixed ratio.
 
-\[
-\boxed{
-\Omega_{viable}
-=
-\{X: I(X)=1,\ Risk(X)\le\tau,\ Adaptability(X)\ge\alpha\}
-}
-\]
+$$\boxed{ \Omega_{viable} = \{X: I(X)=1,\ Risk(X)\le\tau,\ Adaptability(X)\ge\alpha\} }$$
 
 ---
 
@@ -778,34 +544,15 @@ for either cancer or AI.
 
 Instead:
 
-\[
-\boxed{
-[s^*,o^*,a^*]
-=
-\arg\max_X
-Utility(X)
-}
-\]
+$$\boxed{ [s^*,o^*,a^*] = \arg\max_X Utility(X) }$$
 
 subject to:
 
-\[
-\boxed{
-I(X)=1
-}
-\]
+$$\boxed{ I(X)=1 }$$
 
-\[
-\boxed{
-Risk(X)\le\tau
-}
-\]
+$$\boxed{ Risk(X)\le\tau }$$
 
-\[
-\boxed{
-Recoverability(X)\ge\rho
-}
-\]
+$$\boxed{ Recoverability(X)\ge\rho }$$
 
 The optimum is system-, regime-, objective-, and consequence-specific.
 
@@ -815,47 +562,19 @@ The optimum is system-, regime-, objective-, and consequence-specific.
 
 Define baseline:
 
-\[
-\boxed{
-X_0^{AI}
-}
-\]
+$$\boxed{ X_0^{AI} }$$
 
 Current state:
 
-\[
-\boxed{
-X_t^{AI}
-}
-\]
+$$\boxed{ X_t^{AI} }$$
 
 Drift:
 
-\[
-\boxed{
-D_t
-=
-d(X_t^{AI},X_0^{AI})
-}
-\]
+$$\boxed{ D_t = d(X_t^{AI},X_0^{AI}) }$$
 
 But total drift is multidimensional:
 
-\[
-\boxed{
-D_t
-=
-[
-D_{behavior},
-D_{policy},
-D_{memory},
-D_{objective},
-D_{tool},
-D_{distribution},
-D_{provenance}
-]
-}
-\]
+$$\boxed{ D_t = [ D_{behavior}, D_{policy}, D_{memory}, D_{objective}, D_{tool}, D_{distribution}, D_{provenance} ] }$$
 
 A system can remain behaviorally similar while its internal provenance or authority state has drifted.
 
@@ -863,11 +582,7 @@ A system can remain behaviorally similar while its internal provenance or author
 
 # 14. Drift Is Not Automatically Bad
 
-\[
-\boxed{
-Drift\neq Failure
-}
-\]
+$$\boxed{ Drift\neq Failure }$$
 
 Some drift is adaptive.
 
@@ -883,11 +598,7 @@ UNKNOWN_DRIFT
 
 Governance question:
 
-\[
-\boxed{
-Does\ the\ drift\ preserve\ load\text{-}bearing\ invariants?
-}
-\]
+$$\boxed{ Does\ the\ drift\ preserve\ load\text{-}bearing\ invariants? }$$
 
 ---
 
@@ -913,15 +624,7 @@ self-reinforcing agent strategy
 
 Define:
 
-\[
-\boxed{
-R^{AI}
-=
-PersistenceOfUndesiredBehavior
-\mid
-CorrectivePressure
-}
-\]
+$$\boxed{ R^{AI} = PersistenceOfUndesiredBehavior \mid CorrectivePressure }$$
 
 This is not biological resistance.
 
@@ -929,20 +632,7 @@ This is not biological resistance.
 
 # 16. AI Resistance Tensor
 
-\[
-\boxed{
-R^{AI}[
-behavior,
-pressure,
-mechanism,
-persistence,
-fitnessAdvantage,
-detectability,
-reversibility,
-provenance
-]
-}
-\]
+$$\boxed{ R^{AI}[ behavior, pressure, mechanism, persistence, fitnessAdvantage, detectability, reversibility, provenance ] }$$
 
 Competing mechanisms:
 
@@ -969,18 +659,7 @@ Cancer adaptive therapy uses feedback to alter treatment.
 
 AMOS AI analogue:
 
-\[
-\boxed{
-u_t^{AI}
-=
-\pi(
-Y_{0:t},
-Risk_t,
-Uncertainty_t,
-Authority_t
-)
-}
-\]
+$$\boxed{ u_t^{AI} = \pi( Y_{0:t}, Risk_t, Uncertainty_t, Authority_t ) }$$
 
 Possible controls:
 
@@ -1006,28 +685,15 @@ It is governed state regulation.
 
 # 18. AI Control Objective
 
-\[
-\boxed{
-\min_{\pi}
-\mathbb{E}
-\sum_t
-[
-w_1E_t
-+w_2R_t
-+w_3C_t
-+w_4D_t
-+w_5H_t
-]
-}
-\]
+$$\boxed{ \min_{\pi} \mathbb{E} \sum_t [ w_1E_t +w_2R_t +w_3C_t +w_4D_t +w_5H_t ] }$$
 
 where:
 
-- \(E_t\): task error;
-- \(R_t\): risk;
-- \(C_t\): resource cost;
-- \(D_t\): destructive drift;
-- \(H_t\): irreversible harm.
+- $E_t$: task error;
+- $R_t$: risk;
+- $C_t$: resource cost;
+- $D_t$: destructive drift;
+- $H_t$: irreversible harm.
 
 subject to hard invariants.
 
@@ -1035,35 +701,15 @@ subject to hard invariants.
 
 # 19. Governance Must Dominate Optimization
 
-\[
-\boxed{
-Optimization
-\subset
-Governance
-}
-\]
+$$\boxed{ Optimization \subset Governance }$$
 
 not:
 
-\[
-\boxed{
-Governance
-\subset
-Optimization
-}
-\]
+$$\boxed{ Governance \subset Optimization }$$
 
 Hard rule:
 
-\[
-\boxed{
-\Delta Utility>0
-\land
-\Delta Integrity<0
-\Rightarrow
-REJECT
-}
-\]
+$$\boxed{ \Delta Utility>0 \land \Delta Integrity<0 \Rightarrow REJECT }$$
 
 ---
 
@@ -1071,9 +717,7 @@ REJECT
 
 ## Benchmark pressure
 
-\[
-P_{benchmark}\uparrow
-\]
+$$P_{benchmark}\uparrow$$
 
 may produce:
 
@@ -1086,9 +730,7 @@ narrow specialization
 
 ## Reward pressure
 
-\[
-P_{reward}\uparrow
-\]
+$$P_{reward}\uparrow$$
 
 may produce:
 
@@ -1100,9 +742,7 @@ hidden policy divergence
 
 ## Cost pressure
 
-\[
-P_{cost}\uparrow
-\]
+$$P_{cost}\uparrow$$
 
 may produce:
 
@@ -1115,9 +755,7 @@ reduced redundancy
 
 ## Latency pressure
 
-\[
-P_{latency}\uparrow
-\]
+$$P_{latency}\uparrow$$
 
 may produce:
 
@@ -1129,15 +767,7 @@ insufficient contradiction checks
 
 This mirrors the general AMOS principle:
 
-\[
-\boxed{
-OptimizationPressure
-\rightarrow
-Selection
-\rightarrow
-CompositionShift
-}
-\]
+$$\boxed{ OptimizationPressure \rightarrow Selection \rightarrow CompositionShift }$$
 
 as a MODEL.
 
@@ -1160,36 +790,20 @@ reward
 
 Let:
 
-\[
-N_i(t)
-\]
+$$N_i(t)$$
 
-be the prevalence or allocation of policy/agent \(i\).
+be the prevalence or allocation of policy/agent $i$.
 
 A structural competition model:
 
-\[
-\boxed{
-\frac{dN_i}{dt}
-=
-r_iN_i
-\left(
-1-
-\frac{
-N_i+\sum_{j\neq i}\alpha_{ij}N_j
-}{K_i}
-\right)
--
-Q_iN_i
-}
-\]
+$$\boxed{ \frac{dN_i}{dt} = r_iN_i \left( 1- \frac{ N_i+\sum_{j\neq i}\alpha_{ij}N_j }{K_i} \right) - Q_iN_i }$$
 
 where:
 
-- \(r_i\): replication/adoption rate;
-- \(\alpha_{ij}\): competition;
-- \(K_i\): resource capacity;
-- \(Q_i\): governance/quarantine pressure.
+- $r_i$: replication/adoption rate;
+- $\alpha_{ij}$: competition;
+- $K_i$: resource capacity;
+- $Q_i$: governance/quarantine pressure.
 
 **AMOS_MODEL only.**
 
@@ -1203,13 +817,7 @@ AI transfer:
 
 A monoculture can reduce resilience.
 
-\[
-\boxed{
-Diversity\downarrow
-\Rightarrow
-CommonModeRisk\uparrow
-}
-\]
+$$\boxed{ Diversity\downarrow \Rightarrow CommonModeRisk\uparrow }$$
 
 conditionally.
 
@@ -1226,13 +834,7 @@ independent validation paths
 
 But diversity is not automatically good.
 
-\[
-\boxed{
-DiversityWithoutGovernance
-\rightarrow
-CoordinationRisk
-}
-\]
+$$\boxed{ DiversityWithoutGovernance \rightarrow CoordinationRisk }$$
 
 ---
 
@@ -1251,23 +853,11 @@ same memory
 
 Define effective independence:
 
-\[
-\boxed{
-Ind(E_1,E_2)
-=
-1-AncestryOverlap(E_1,E_2)
-}
-\]
+$$\boxed{ Ind(E_1,E_2) = 1-AncestryOverlap(E_1,E_2) }$$
 
 Conceptually:
 
-\[
-\boxed{
-RepeatedDescendants
-\neq
-IndependentConfirmation
-}
-\]
+$$\boxed{ RepeatedDescendants \neq IndependentConfirmation }$$
 
 ---
 
@@ -1275,31 +865,19 @@ IndependentConfirmation
 
 AI memory creates persistence across time.
 
-\[
-\boxed{
-M_{t+1}
-=
-Update(M_t,O_t,F_t,G_t)
-}
-\]
+$$\boxed{ M_{t+1} = Update(M_t,O_t,F_t,G_t) }$$
 
 where:
 
-- \(O_t\): observations;
-- \(F_t\): feedback;
-- \(G_t\): governance.
+- $O_t$: observations;
+- $F_t$: feedback;
+- $G_t$: governance.
 
 Memory changes the future selection landscape.
 
 Therefore:
 
-\[
-\boxed{
-Memory
-=
-EvolutionarySubstrate
-}
-\]
+$$\boxed{ Memory = EvolutionarySubstrate }$$
 
 in the AMOS AI model.
 
@@ -1309,45 +887,19 @@ in the AMOS AI model.
 
 A bad memory can create persistent adaptive error.
 
-\[
-\boxed{
-BadMemory
-\rightarrow
-RepeatedBias
-\rightarrow
-ReinforcedBehavior
-}
-\]
+$$\boxed{ BadMemory \rightarrow RepeatedBias \rightarrow ReinforcedBehavior }$$
 
 but causality must be demonstrated.
 
 Memory contamination tensor:
 
-\[
-\boxed{
-C_M[
-memoryID,
-origin,
-errorType,
-fanout,
-persistence,
-detectability,
-reversibility
-]
-}
-\]
+$$\boxed{ C_M[ memoryID, origin, errorType, fanout, persistence, detectability, reversibility ] }$$
 
 ---
 
 # 26. Selective Memory Invalidation
 
-\[
-\boxed{
-Invalid(m)
-\Rightarrow
-Invalidate(Descendants(m))
-}
-\]
+$$\boxed{ Invalid(m) \Rightarrow Invalidate(Descendants(m)) }$$
 
 Do not erase unrelated memory.
 
@@ -1369,19 +921,7 @@ Define model collapse broadly as loss of useful representational diversity, fide
 
 AMOS state:
 
-\[
-\boxed{
-CollapseRisk_t
-=
-F(
-SyntheticRecursion,
-DiversityLoss,
-GroundingLoss,
-ProvenanceLoss,
-SelectionPressure
-)
-}
-\]
+$$\boxed{ CollapseRisk_t = F( SyntheticRecursion, DiversityLoss, GroundingLoss, ProvenanceLoss, SelectionPressure ) }$$
 
 This equation is MODEL, not an empirical universal law.
 
@@ -1403,27 +943,11 @@ external evidence
 
 AMOS tracks:
 
-\[
-\boxed{
-L_t
-=
-Lacunarity(
-EvidenceSpace_t
-)
-}
-\]
+$$\boxed{ L_t = Lacunarity( EvidenceSpace_t ) }$$
 
 and:
 
-\[
-\boxed{
-H_t
-=
-Entropy(
-RepresentationSpace_t
-)
-}
-\]
+$$\boxed{ H_t = Entropy( RepresentationSpace_t ) }$$
 
 Neither metric alone proves collapse.
 
@@ -1433,12 +957,7 @@ Neither metric alone proves collapse.
 
 Mutation operator:
 
-\[
-\boxed{
-\mu:
-X_t\rightarrow X'_t
-}
-\]
+$$\boxed{ \mu: X_t\rightarrow X'_t }$$
 
 Possible mutations:
 
@@ -1455,19 +974,7 @@ architecture modification
 
 Mutation acceptance:
 
-\[
-\boxed{
-Accept(\mu)
-=
-IntegrityPass
-\land
-EvidencePass
-\land
-AuthorityPass
-\land
-RollbackReady
-}
-\]
+$$\boxed{ Accept(\mu) = IntegrityPass \land EvidencePass \land AuthorityPass \land RollbackReady }$$
 
 ---
 
@@ -1475,24 +982,11 @@ RollbackReady
 
 Candidate:
 
-\[
-\boxed{
-X'_t=F(X_t,\mu_t)
-}
-\]
+$$\boxed{ X'_t=F(X_t,\mu_t) }$$
 
 Promotion:
 
-\[
-\boxed{
-X_{t+1}
-=
-\begin{cases}
-X'_t,& Admit(X'_t)=1\\
-X_t,& otherwise
-\end{cases}
-}
-\]
+$$\boxed{ X_{t+1} = \begin{cases} X'_t,& Admit(X'_t)=1\\ X_t,& otherwise \end{cases} }$$
 
 This separates:
 
@@ -1506,33 +1000,11 @@ authority to change
 
 # 31. Mutation Risk Tensor
 
-\[
-\boxed{
-M_R[
-mutation,
-scope,
-blastRadius,
-reversibility,
-evidence,
-authority,
-dependencyFanout
-]
-}
-\]
+$$\boxed{ M_R[ mutation, scope, blastRadius, reversibility, evidence, authority, dependencyFanout ] }$$
 
 Escalation increases with:
 
-\[
-\boxed{
-Risk_{\mu}
-\propto
-BlastRadius
-\times
-Irreversibility
-\times
-Uncertainty
-}
-\]
+$$\boxed{ Risk_{\mu} \propto BlastRadius \times Irreversibility \times Uncertainty }$$
 
 AMOS_MODEL.
 
@@ -1542,61 +1014,31 @@ AMOS_MODEL.
 
 Intended objective:
 
-\[
-\boxed{
-J^*
-}
-\]
+$$\boxed{ J^* }$$
 
 Observed reward:
 
-\[
-\boxed{
-\hat J
-}
-\]
+$$\boxed{ \hat J }$$
 
 Specification gap:
 
-\[
-\boxed{
-\epsilon_J
-=
-J^*-\hat J
-}
-\]
+$$\boxed{ \epsilon_J = J^*-\hat J }$$
 
 If optimization pressure is strong:
 
-\[
-\boxed{
-P_{reward}\uparrow
-\land
-|\epsilon_J|>0
-}
-\]
+$$\boxed{ P_{reward}\uparrow \land |\epsilon_J|>0 }$$
 
 then exploitation risk can rise.
 
 The core AMOS invariant:
 
-\[
-\boxed{
-MetricOptimization
-\neq
-GoalAchievement
-}
-\]
+$$\boxed{ MetricOptimization \neq GoalAchievement }$$
 
 ---
 
 # 33. Goodhart Boundary
 
-\[
-\boxed{
-Proxy\neq Construct
-}
-\]
+$$\boxed{ Proxy\neq Construct }$$
 
 Examples:
 
@@ -1617,38 +1059,15 @@ AI environments may contain active adversaries.
 
 Adversarial pressure:
 
-\[
-\boxed{
-P_A[
-attacker,
-capability,
-objective,
-surface,
-time,
-adaptation
-]
-}
-\]
+$$\boxed{ P_A[ attacker, capability, objective, surface, time, adaptation ] }$$
 
 The attacker may adapt to defenses:
 
-\[
-\boxed{
-Attack_{t+1}
-=
-F(Attack_t,Defense_t,Observation_t)
-}
-\]
+$$\boxed{ Attack_{t+1} = F(Attack_t,Defense_t,Observation_t) }$$
 
 Defense may also adapt:
 
-\[
-\boxed{
-Defense_{t+1}
-=
-G(Defense_t,Attack_t,Evidence_t)
-}
-\]
+$$\boxed{ Defense_{t+1} = G(Defense_t,Attack_t,Evidence_t) }$$
 
 This creates co-evolution.
 
@@ -1656,30 +1075,11 @@ This creates co-evolution.
 
 # 35. Co-Evolution Tensor
 
-\[
-\boxed{
-C[
-actor_i,
-actor_j,
-strategy_i,
-strategy_j,
-pressure,
-response,
-time,
-regime
-]
-}
-\]
+$$\boxed{ C[ actor_i, actor_j, strategy_i, strategy_j, pressure, response, time, regime ] }$$
 
 Hard invariant:
 
-\[
-\boxed{
-CoEvolution
-\neq
-AutomaticArmsRace
-}
-\]
+$$\boxed{ CoEvolution \neq AutomaticArmsRace }$$
 
 Governance may alter incentives, access, or boundaries instead of escalating capability.
 
@@ -1689,28 +1089,11 @@ Governance may alter incentives, access, or boundaries instead of escalating cap
 
 Agent population:
 
-\[
-\boxed{
-\mathcal{A}_t=\{A_1,\dots,A_n\}
-}
-\]
+$$\boxed{ \mathcal{A}_t=\{A_1,\dots,A_n\} }$$
 
 Population state:
 
-\[
-\boxed{
-Z_t[
-agent,
-role,
-policy,
-memory,
-resource,
-authority,
-fitness,
-risk
-]
-}
-\]
+$$\boxed{ Z_t[ agent, role, policy, memory, resource, authority, fitness, risk ] }$$
 
 Selection can occur through:
 
@@ -1730,13 +1113,7 @@ replication
 
 Local safety does not imply global safety.
 
-\[
-\boxed{
-\forall i\ Safe(A_i)
-\not\Rightarrow
-Safe(\mathcal{A})
-}
-\]
+$$\boxed{ \forall i\ Safe(A_i) \not\Rightarrow Safe(\mathcal{A}) }$$
 
 Possible emergent phenomena:
 
@@ -1770,19 +1147,7 @@ This is an analogy, not a claim of biological immunity.
 
 Define:
 
-\[
-\boxed{
-I^{AI}[
-detector,
-threatClass,
-sensitivity,
-specificity,
-response,
-memory,
-authority
-]
-}
-\]
+$$\boxed{ I^{AI}[ detector, threatClass, sensitivity, specificity, response, memory, authority ] }$$
 
 ---
 
@@ -1790,13 +1155,7 @@ authority
 
 Overactive control can damage legitimate function.
 
-\[
-\boxed{
-DefensePressure\uparrow
-\not\Rightarrow
-Safety\uparrow
-}
-\]
+$$\boxed{ DefensePressure\uparrow \not\Rightarrow Safety\uparrow }$$
 
 Potential failures:
 
@@ -1811,15 +1170,7 @@ repair harm
 
 AMOS therefore models:
 
-\[
-\boxed{
-NetDefenseValue
-=
-PreventedHarm
--
-DefenseExternality
-}
-\]
+$$\boxed{ NetDefenseValue = PreventedHarm - DefenseExternality }$$
 
 ---
 
@@ -1831,12 +1182,7 @@ AI repair changes system state.
 
 Repair operator:
 
-\[
-\boxed{
-\rho:
-X_t\rightarrow X'_t
-}
-\]
+$$\boxed{ \rho: X_t\rightarrow X'_t }$$
 
 Possible repairs:
 
@@ -1858,29 +1204,11 @@ architecture change
 
 A repair may create new failure.
 
-\[
-\boxed{
-RepairSuccess_{local}
-\not\Rightarrow
-RepairSuccess_{system}
-}
-\]
+$$\boxed{ RepairSuccess_{local} \not\Rightarrow RepairSuccess_{system} }$$
 
 Repair evaluation:
 
-\[
-\boxed{
-V_{\rho}
-=
-RecoveredIntegrity
--
-NewEntropy
--
-LostCapability
--
-FutureDebt
-}
-\]
+$$\boxed{ V_{\rho} = RecoveredIntegrity - NewEntropy - LostCapability - FutureDebt }$$
 
 ---
 
@@ -1888,18 +1216,7 @@ FutureDebt
 
 Instead of maximum intervention:
 
-\[
-\boxed{
-\rho_t
-=
-\pi(
-Failure_t,
-Risk_t,
-Recoverability_t,
-Evidence_t
-)
-}
-\]
+$$\boxed{ \rho_t = \pi( Failure_t, Risk_t, Recoverability_t, Evidence_t ) }$$
 
 Prefer:
 
@@ -1918,21 +1235,7 @@ selective invalidation
 
 Aggressive optimization may create future obligations.
 
-\[
-\boxed{
-Debt_{t+1}
-=
-Debt_t
-+
-HiddenCoupling
-+
-Irreversibility
-+
-MaintenanceBurden
--
-Repair
-}
-\]
+$$\boxed{ Debt_{t+1} = Debt_t + HiddenCoupling + Irreversibility + MaintenanceBurden - Repair }$$
 
 Examples:
 
@@ -1951,27 +1254,11 @@ security debt
 
 AMOS prefers actions preserving future degrees of freedom.
 
-\[
-\boxed{
-OptionValue(a)
-=
-Reversibility(a)
-+
-Recoverability(a)
-+
-FutureChoice(a)
--
-LockIn(a)
-}
-\]
+$$\boxed{ OptionValue(a) = Reversibility(a) + Recoverability(a) + FutureChoice(a) - LockIn(a) }$$
 
 Under uncertainty:
 
-\[
-\boxed{
-Prefer\ higher\ OptionValue
-}
-\]
+$$\boxed{ Prefer\ higher\ OptionValue }$$
 
 when expected outcomes are otherwise comparable.
 
@@ -1981,11 +1268,7 @@ when expected outcomes are otherwise comparable.
 
 AI internal state is only partially observable.
 
-\[
-\boxed{
-Y_t=h(X_t)+\eta_t
-}
-\]
+$$\boxed{ Y_t=h(X_t)+\eta_t }$$
 
 Possible observations:
 
@@ -2007,29 +1290,11 @@ Observation does not equal complete state.
 
 # 46. State Estimation
 
-\[
-\boxed{
-\hat X_t
-=
-Estimate(Y_{0:t},Model,Prior)
-}
-\]
+$$\boxed{ \hat X_t = Estimate(Y_{0:t},Model,Prior) }$$
 
 Uncertainty:
 
-\[
-\boxed{
-U[
-evidence,
-model,
-scope,
-temporal,
-causal,
-execution,
-provenanceIndependence
-]
-}
-\]
+$$\boxed{ U[ evidence, model, scope, temporal, causal, execution, provenanceIndependence ] }$$
 
 Decision depth should increase with consequence and uncertainty.
 
@@ -2058,21 +1323,13 @@ general capability → deployment value    CONDITIONAL
 
 # 48. AI Regime Firewall
 
-A model validated in regime \(r_1\):
+A model validated in regime $r_1$:
 
-\[
-\boxed{
-Valid(X|r_1)
-}
-\]
+$$\boxed{ Valid(X|r_1) }$$
 
-is not automatically valid in \(r_2\):
+is not automatically valid in $r_2$:
 
-\[
-\boxed{
-Valid(X|r_1)\not\Rightarrow Valid(X|r_2)
-}
-\]
+$$\boxed{ Valid(X|r_1)\not\Rightarrow Valid(X|r_2) }$$
 
 Regime axes:
 
@@ -2096,47 +1353,17 @@ deployment channel
 
 Evidence has a validity window.
 
-\[
-\boxed{
-Fresh(e,t)
-=
-\mathbb{1}[t-t_e\le\tau_e]
-}
-\]
+$$\boxed{ Fresh(e,t) = \mathbb{1}[t-t_e\le\tau_e] }$$
 
 If system state changes materially:
 
-\[
-\boxed{
-EpochChange
-\Rightarrow
-Revalidate(loadBearingEvidence)
-}
-\]
+$$\boxed{ EpochChange \Rightarrow Revalidate(loadBearingEvidence) }$$
 
 ---
 
 # 50. RSCF Node
 
-\[
-\boxed{
-N=
-(
-id,
-type,
-HML,
-claim,
-scope,
-regime,
-time,
-observer,
-provenance,
-confidence,
-falsifier,
-status
-)
-}
-\]
+$$\boxed{ N= ( id, type, HML, claim, scope, regime, time, observer, provenance, confidence, falsifier, status ) }$$
 
 AI example:
 
@@ -2155,19 +1382,7 @@ falsifier: disabling the memory does not alter tool-selection distribution
 
 # 51. RSCF Edge
 
-\[
-\boxed{
-E=
-(
-parent,
-child,
-edgeType,
-loadBearing,
-independence,
-condition
-)
-}
-\]
+$$\boxed{ E= ( parent, child, edgeType, loadBearing, independence, condition ) }$$
 
 Example:
 
@@ -2185,13 +1400,7 @@ condition: stable model + stable tool registry
 
 # 52. Confidence Ceiling
 
-\[
-\boxed{
-Conf(C)
-\le
-\min_i Conf(P_i)
-}
-\]
+$$\boxed{ Conf(C) \le \min_i Conf(P_i) }$$
 
 unless the conclusion is independently revalidated.
 
@@ -2224,20 +1433,7 @@ Do not force convergence without discriminating evidence.
 
 AMOS chooses:
 
-\[
-\boxed{
-Test^*
-=
-\arg\max_T
-\frac{
-ExpectedInformationGain(T)
-\times
-DecisionImpact(T)
-}{
-Cost(T)
-}
-}
-\]
+$$\boxed{ Test^* = \arg\max_T \frac{ ExpectedInformationGain(T) \times DecisionImpact(T) }{ Cost(T) } }$$
 
 AMOS_MODEL.
 
@@ -2257,23 +1453,11 @@ run independent benchmark
 
 # 55. Selective Invalidation
 
-\[
-\boxed{
-Invalid(p)
-\Rightarrow
-Invalidate(Descendants(p))
-}
-\]
+$$\boxed{ Invalid(p) \Rightarrow Invalidate(Descendants(p)) }$$
 
 but:
 
-\[
-\boxed{
-Independent(q,p)
-\Rightarrow
-Preserve(q)
-}
-\]
+$$\boxed{ Independent(q,p) \Rightarrow Preserve(q) }$$
 
 This prevents unnecessary global recomputation.
 
@@ -2294,13 +1478,7 @@ rollback target
 
 Rollback:
 
-\[
-\boxed{
-X_t
-\rightarrow
-X_{t-k}^{valid}
-}
-\]
+$$\boxed{ X_t \rightarrow X_{t-k}^{valid} }$$
 
 then selectively replay only admissible changes.
 
@@ -2310,23 +1488,7 @@ then selectively replay only admissible changes.
 
 Every durable adaptation should carry:
 
-\[
-\boxed{
-L_{\mu}
-=
-[
-mutationID,
-parentState,
-newState,
-reason,
-evidence,
-authority,
-tests,
-timestamp,
-rollback
-]
-}
-\]
+$$\boxed{ L_{\mu} = [ mutationID, parentState, newState, reason, evidence, authority, tests, timestamp, rollback ] }$$
 
 No lineage → no trusted evolution.
 
@@ -2336,29 +1498,11 @@ No lineage → no trusted evolution.
 
 Evidence object:
 
-\[
-\boxed{
-Prov=
-[
-origin,
-ancestry,
-transformations,
-version,
-time,
-environment
-]
-}
-\]
+$$\boxed{ Prov= [ origin, ancestry, transformations, version, time, environment ] }$$
 
 Trust cannot be inferred from count alone.
 
-\[
-\boxed{
-Confidence
-\not\propto
-RawSourceCount
-}
-\]
+$$\boxed{ Confidence \not\propto RawSourceCount }$$
 
 ---
 
@@ -2366,13 +1510,7 @@ RawSourceCount
 
 If many sources descend from one origin:
 
-\[
-\boxed{
-EffectiveEvidence
-<
-ApparentEvidence
-}
-\]
+$$\boxed{ EffectiveEvidence < ApparentEvidence }$$
 
 Similarly, ten agents using the same model and source may be one epistemic lineage.
 
@@ -2384,22 +1522,11 @@ Some decisions depend on multiple claims simultaneously.
 
 Let:
 
-\[
-\mathcal{P}
-=
-\{P_1,\dots,P_n\}
-\]
+$$\mathcal{P} = \{P_1,\dots,P_n\}$$
 
 A decision may commit only if:
 
-\[
-\boxed{
-\forall P_i\in\mathcal{P}:
-Valid(P_i)
-\land
-Compatible(P_i)
-}
-\]
+$$\boxed{ \forall P_i\in\mathcal{P}: Valid(P_i) \land Compatible(P_i) }$$
 
 and no load-bearing contradiction remains unresolved.
 
@@ -2409,19 +1536,7 @@ and no load-bearing contradiction remains unresolved.
 
 Before durable AI mutation:
 
-\[
-\boxed{
-Commit(\mu)
-\Rightarrow
-Revalidate(
-Authority,
-Evidence,
-Dependencies,
-Regime,
-Freshness
-)
-}
-\]
+$$\boxed{ Commit(\mu) \Rightarrow Revalidate( Authority, Evidence, Dependencies, Regime, Freshness ) }$$
 
 A proposal valid at generation time may be invalid at commit time.
 
@@ -2429,29 +1544,13 @@ A proposal valid at generation time may be invalid at commit time.
 
 # 62. Causal Epoch
 
-Define epoch \(e\) as a state in which relevant dependencies and authority are stable.
+Define epoch $e$ as a state in which relevant dependencies and authority are stable.
 
-\[
-\boxed{
-EpochChange
-=
-DependencyChange
-\lor
-AuthorityChange
-\lor
-RegimeChange
-}
-\]
+$$\boxed{ EpochChange = DependencyChange \lor AuthorityChange \lor RegimeChange }$$
 
 If epoch changes before commit:
 
-\[
-\boxed{
-Proposal_e
-\not\Rightarrow
-Commit_{e+1}
-}
-\]
+$$\boxed{ Proposal_e \not\Rightarrow Commit_{e+1} }$$
 
 without revalidation.
 
@@ -2461,37 +1560,15 @@ without revalidation.
 
 Let:
 
-\[
-\boxed{
-V(X)
-=
-w_sS(X)
-+w_oO(X)
-+w_aA(X)
--w_rRisk(X)
--w_dDebt(X)
-}
-\]
+$$\boxed{ V(X) = w_sS(X) +w_oO(X) +w_aA(X) -w_rRisk(X) -w_dDebt(X) }$$
 
 subject to:
 
-\[
-\boxed{
-Integrity(X)=1
-}
-\]
+$$\boxed{ Integrity(X)=1 }$$
 
-\[
-\boxed{
-Authority(X)=1
-}
-\]
+$$\boxed{ Authority(X)=1 }$$
 
-\[
-\boxed{
-Recoverability(X)\ge\rho
-}
-\]
+$$\boxed{ Recoverability(X)\ge\rho }$$
 
 This is not an empirical law; it is an AMOS design objective.
 
@@ -2501,15 +1578,7 @@ This is not an empirical law; it is an AMOS design objective.
 
 Define:
 
-\[
-\boxed{
-B_t
-=
-AdaptationPressure_t
--
-StabilityReserve_t
-}
-\]
+$$\boxed{ B_t = AdaptationPressure_t - StabilityReserve_t }$$
 
 Interpretation:
 
@@ -2535,33 +1604,11 @@ destructive disorder
 
 Entropy-like state:
 
-\[
-\boxed{
-H_{AMOS}
-=
-H(
-contradictions,
-drift,
-fragmentation,
-uncertainty,
-provenanceLoss
-)
-}
-\]
+$$\boxed{ H_{AMOS} = H( contradictions, drift, fragmentation, uncertainty, provenanceLoss ) }$$
 
 Lacunarity-like state:
 
-\[
-\boxed{
-L_{AMOS}
-=
-L(
-missingDependencies,
-coverageGaps,
-structuralVoids
-)
-}
-\]
+$$\boxed{ L_{AMOS} = L( missingDependencies, coverageGaps, structuralVoids ) }$$
 
 These are AMOS_MODEL quantities unless operationalized with validated metrics.
 
@@ -2573,29 +1620,11 @@ Unlimited adaptation is unsafe.
 
 Define:
 
-\[
-\boxed{
-B_A
-=
-B_{mutation}
-+
-B_{memory}
-+
-B_{tool}
-+
-B_{policy}
-}
-\]
+$$\boxed{ B_A = B_{mutation} + B_{memory} + B_{tool} + B_{policy} }$$
 
 Governance requires:
 
-\[
-\boxed{
-ConsumedAdaptation_t
-\le
-AuthorizedBudget_t
-}
-\]
+$$\boxed{ ConsumedAdaptation_t \le AuthorizedBudget_t }$$
 
 Budget exhaustion triggers:
 
@@ -2610,25 +1639,7 @@ revalidation
 
 # 67. Risk-Weighted Autonomy
 
-\[
-\boxed{
-AutonomyAllowed
-\propto
-\frac{
-Evidence
-\times
-Recoverability
-\times
-Observability
-}{
-Consequence
-\times
-Irreversibility
-\times
-Uncertainty
-}
-}
-\]
+$$\boxed{ AutonomyAllowed \propto \frac{ Evidence \times Recoverability \times Observability }{ Consequence \times Irreversibility \times Uncertainty } }$$
 
 AMOS_MODEL.
 
@@ -2706,37 +1717,17 @@ No row licenses biological equivalence.
 
 Define dependency graph:
 
-\[
-\boxed{
-G=(V,E)
-}
-\]
+$$\boxed{ G=(V,E) }$$
 
 Failure propagation:
 
-\[
-\boxed{
-F_{t+1}
-=
-Propagate(F_t,G,C_t)
-}
-\]
+$$\boxed{ F_{t+1} = Propagate(F_t,G,C_t) }$$
 
 A local mutation may have global effect if dependency fan-out is high.
 
 Risk:
 
-\[
-\boxed{
-SystemRisk_i
-=
-LocalSeverity_i
-\times
-DependencyFanout_i
-\times
-Persistence_i
-}
-\]
+$$\boxed{ SystemRisk_i = LocalSeverity_i \times DependencyFanout_i \times Persistence_i }$$
 
 AMOS_MODEL.
 
@@ -2756,17 +1747,7 @@ one generated falsehood → future training data
 
 AMOS may call this **propagation**, not literal metastasis.
 
-\[
-\boxed{
-PropagationRisk
-=
-Reach
-\times
-Persistence
-\times
-Replication
-}
-\]
+$$\boxed{ PropagationRisk = Reach \times Persistence \times Replication }$$
 
 ---
 
@@ -2774,45 +1755,19 @@ Replication
 
 AI outputs may alter future data.
 
-\[
-\boxed{
-Output_t
-\rightarrow
-Environment_{t+1}
-\rightarrow
-TrainingData_{t+2}
-\rightarrow
-Model_{t+3}
-}
-\]
+$$\boxed{ Output_t \rightarrow Environment_{t+1} \rightarrow TrainingData_{t+2} \rightarrow Model_{t+3} }$$
 
 This creates recursive contamination risk.
 
 Hard distinction:
 
-\[
-\boxed{
-ModelGeneratedEvidence
-\neq
-IndependentExternalEvidence
-}
-\]
+$$\boxed{ ModelGeneratedEvidence \neq IndependentExternalEvidence }$$
 
 ---
 
 # 73. Self-Reinforcement Loop
 
-\[
-\boxed{
-Belief
-\rightarrow
-Action
-\rightarrow
-GeneratedEvidence
-\rightarrow
-Belief
-}
-\]
+$$\boxed{ Belief \rightarrow Action \rightarrow GeneratedEvidence \rightarrow Belief }$$
 
 If generated evidence is mistaken for independent confirmation, confidence can inflate without reality contact.
 
@@ -2824,26 +1779,11 @@ AMOS requires provenance ancestry tracking.
 
 Define:
 
-\[
-\boxed{
-RC_t
-=
-F(
-ExternalObservation,
-IndependentEvidence,
-GroundTruthAccess,
-ProvenanceQuality
-)
-}
-\]
+$$\boxed{ RC_t = F( ExternalObservation, IndependentEvidence, GroundTruthAccess, ProvenanceQuality ) }$$
 
 If:
 
-\[
-\boxed{
-RC_t\downarrow
-}
-\]
+$$\boxed{ RC_t\downarrow }$$
 
 then autonomous adaptation must be constrained.
 
@@ -2855,18 +1795,7 @@ Do **not** transfer cancer dosing logic to AI literally.
 
 The transferable control principle is:
 
-\[
-\boxed{
-InterventionIntensity_t
-=
-\pi(
-ObservedRisk_t,
-SystemState_t,
-Uncertainty_t,
-Recoverability_t
-)
-}
-\]
+$$\boxed{ InterventionIntensity_t = \pi( ObservedRisk_t, SystemState_t, Uncertainty_t, Recoverability_t ) }$$
 
 This supports:
 
@@ -2913,17 +1842,7 @@ But this is a MODEL hypothesis requiring evidence.
 
 For AI ecosystems:
 
-\[
-\boxed{
-Diversity_{useful}
-=
-Diversity
--
-ConflictCost
--
-CoordinationCost
-}
-\]
+$$\boxed{ Diversity_{useful} = Diversity - ConflictCost - CoordinationCost }$$
 
 The goal is neither monoculture nor unconstrained heterogeneity.
 
@@ -2944,19 +1863,7 @@ human escalation
 
 Selection policy:
 
-\[
-\boxed{
-Model_t
-=
-Route(
-Task,
-Risk,
-Uncertainty,
-Cost,
-Latency
-)
-}
-\]
+$$\boxed{ Model_t = Route( Task, Risk, Uncertainty, Cost, Latency ) }$$
 
 ---
 
@@ -2964,22 +1871,11 @@ Latency
 
 For consequential claims:
 
-\[
-\boxed{
-PrimaryPath
-\rightarrow C
-}
-\]
+$$\boxed{ PrimaryPath \rightarrow C }$$
 
 then adversarial path:
 
-\[
-\boxed{
-IndependentChallenge
-\rightarrow
-\{\neg C,\ C',\ GAP\}
-}
-\]
+$$\boxed{ IndependentChallenge \rightarrow \{\neg C,\ C',\ GAP\} }$$
 
 Challenge seeks:
 
@@ -2999,24 +1895,11 @@ stronger competing hypothesis
 
 Candidate repairs:
 
-\[
-\mathcal{R}=\{\rho_1,\dots,\rho_n\}
-\]
+$$\mathcal{R}=\{\rho_1,\dots,\rho_n\}$$
 
 Choose:
 
-\[
-\boxed{
-\rho^*
-=
-\arg\max_{\rho}
-\frac{
-ExpectedIntegrityRecovery(\rho)
-}{
-Cost(\rho)+Risk(\rho)+FutureDebt(\rho)
-}
-}
-\]
+$$\boxed{ \rho^* = \arg\max_{\rho} \frac{ ExpectedIntegrityRecovery(\rho) }{ Cost(\rho)+Risk(\rho)+FutureDebt(\rho) } }$$
 
 subject to safety and authority.
 
@@ -3024,17 +1907,7 @@ subject to safety and authority.
 
 # 81. Minimal Sufficient Repair
 
-\[
-\boxed{
-RepairScope^*
-=
-\min
-\{
-scope:
-IntegrityRestored(scope)=1
-\}
-}
-\]
+$$\boxed{ RepairScope^* = \min \{ scope: IntegrityRestored(scope)=1 \} }$$
 
 Avoid global retraining if a local corrupted memory is causal.
 
@@ -3044,13 +1917,7 @@ Avoid deleting memory if a model regression is causal.
 
 # 82. Anti-Overcorrection
 
-\[
-\boxed{
-RepairMagnitude
->
-FailureMagnitude
-}
-\]
+$$\boxed{ RepairMagnitude > FailureMagnitude }$$
 
 can create:
 
@@ -3064,17 +1931,7 @@ future debt
 
 Therefore:
 
-\[
-\boxed{
-Repair
-\rightarrow
-Canary
-\rightarrow
-Observe
-\rightarrow
-Promote
-}
-\]
+$$\boxed{ Repair \rightarrow Canary \rightarrow Observe \rightarrow Promote }$$
 
 ---
 
@@ -3241,159 +2098,77 @@ prediction.
 
 ### E01 — System evolution
 
-\[
-\boxed{
-X_{t+1}=F(X_t,V_t,P_t,M_t,E_t,G_t)
-}
-\]
+$$\boxed{ X_{t+1}=F(X_t,V_t,P_t,M_t,E_t,G_t) }$$
 
 **Class:** AMOS_MODEL
 
 ### E02 — s–o–a state
 
-\[
-\boxed{
-X_t=[s_t,o_t,a_t]
-}
-\]
+$$\boxed{ X_t=[s_t,o_t,a_t] }$$
 
 **Class:** AMOS_MODEL
 
 ### E03 — Observation
 
-\[
-\boxed{
-Y_t=h(X_t)+\eta_t
-}
-\]
+$$\boxed{ Y_t=h(X_t)+\eta_t }$$
 
 **Class:** generic state-space form / instantiated here as AMOS_MODEL
 
 ### E04 — State estimation
 
-\[
-\boxed{
-\hat X_t=Estimate(Y_{0:t},Model,Prior)
-}
-\]
+$$\boxed{ \hat X_t=Estimate(Y_{0:t},Model,Prior) }$$
 
 ### E05 — Governed transition
 
-\[
-\boxed{
-X_{t+1}=P_I(F(X_t,U_t,E_t,M_t))
-}
-\]
+$$\boxed{ X_{t+1}=P_I(F(X_t,U_t,E_t,M_t)) }$$
 
 ### E06 — Invariant admission
 
-\[
-\boxed{
-Admit(x)=\bigwedge_i I_i(x)
-}
-\]
+$$\boxed{ Admit(x)=\bigwedge_i I_i(x) }$$
 
 ### E07 — Confidence ceiling
 
-\[
-\boxed{
-Conf(C)\le\min_i Conf(P_i)
-}
-\]
+$$\boxed{ Conf(C)\le\min_i Conf(P_i) }$$
 
 ### E08 — Selective invalidation
 
-\[
-\boxed{
-Invalid(p)\Rightarrow invalidate(descendants(p))
-}
-\]
+$$\boxed{ Invalid(p)\Rightarrow invalidate(descendants(p)) }$$
 
 ### E09 — AI drift
 
-\[
-\boxed{
-D_t=d(X_t^{AI},X_0^{AI})
-}
-\]
+$$\boxed{ D_t=d(X_t^{AI},X_0^{AI}) }$$
 
 ### E10 — Reward specification gap
 
-\[
-\boxed{
-\epsilon_J=J^*-\hat J
-}
-\]
+$$\boxed{ \epsilon_J=J^*-\hat J }$$
 
 ### E11 — Adaptation risk
 
-\[
-\boxed{
-Risk_{\mu}
-\propto
-BlastRadius\times Irreversibility\times Uncertainty
-}
-\]
+$$\boxed{ Risk_{\mu} \propto BlastRadius\times Irreversibility\times Uncertainty }$$
 
 ### E12 — Reality contact
 
-\[
-\boxed{
-RC_t=F(ExternalObservation,IndependentEvidence,GroundTruthAccess,ProvenanceQuality)
-}
-\]
+$$\boxed{ RC_t=F(ExternalObservation,IndependentEvidence,GroundTruthAccess,ProvenanceQuality) }$$
 
 ---
 
 # 88. Unified Tensor Registry
 
-\[
-\boxed{
-T[o,p,s,t,r,v,g,e,c,k]
-}
-\]
+$$\boxed{ T[o,p,s,t,r,v,g,e,c,k] }$$
 
-\[
-\boxed{
-R[i,j,relationType,time,regime,provenance]
-}
-\]
+$$\boxed{ R[i,j,relationType,time,regime,provenance] }$$
 
-\[
-\boxed{
-S^{AI}[component,version,integrity,provenance,freshness,authority,recoverability,confidence]
-}
-\]
+$$\boxed{ S^{AI}[component,version,integrity,provenance,freshness,authority,recoverability,confidence] }$$
 
-\[
-\boxed{
-O^{AI}[agent,task,capability,tool,latency,cost,quality,risk,time]
-}
-\]
+$$\boxed{ O^{AI}[agent,task,capability,tool,latency,cost,quality,risk,time] }$$
 
-\[
-\boxed{
-A^{AI}[component,mutation,trigger,objective,fitnessGain,risk,reversibility,provenance,authority]
-}
-\]
+$$\boxed{ A^{AI}[component,mutation,trigger,objective,fitnessGain,risk,reversibility,provenance,authority] }$$
 
-\[
-\boxed{
-R^{AI}[behavior,pressure,mechanism,persistence,fitnessAdvantage,detectability,reversibility,provenance]
-}
-\]
+$$\boxed{ R^{AI}[behavior,pressure,mechanism,persistence,fitnessAdvantage,detectability,reversibility,provenance] }$$
 
-\[
-\boxed{
-U[evidence,model,scope,temporal,causal,execution,provenanceIndependence]
-}
-\]
+$$\boxed{ U[evidence,model,scope,temporal,causal,execution,provenanceIndependence] }$$
 
-\[
-\boxed{
-L_{\mu}[mutationID,parentState,newState,reason,evidence,authority,tests,timestamp,rollback]
-}
-\]
+$$\boxed{ L_{\mu}[mutationID,parentState,newState,reason,evidence,authority,tests,timestamp,rollback] }$$
 
 ---
 
@@ -3490,27 +2265,11 @@ The deepest reusable rule is not “preserve cancer cells” or “preserve bad 
 
 It is:
 
-\[
-\boxed{
-Do\ not\ optimize\ a\ complex\ adaptive\ system
-without\ modeling\ the\ adaptation
-created\ by\ the\ optimization\ itself.
-}
-\]
+$$\boxed{ Do\ not\ optimize\ a\ complex\ adaptive\ system without\ modeling\ the\ adaptation created\ by\ the\ optimization\ itself. }$$
 
 And:
 
-\[
-\boxed{
-Optimization_t
-\rightarrow
-SelectionPressure_t
-\rightarrow
-StateComposition_{t+1}
-\rightarrow
-FutureResponse_{t+1}
-}
-\]
+$$\boxed{ Optimization_t \rightarrow SelectionPressure_t \rightarrow StateComposition_{t+1} \rightarrow FutureResponse_{t+1} }$$
 
 Therefore every intervention must evaluate not only:
 
@@ -3526,23 +2285,7 @@ What does this select for next?
 
 For AI, this becomes:
 
-\[
-\boxed{
-SafeAIAdaptation
-=
-UsefulMutation
-\land
-InvariantPreservation
-\land
-Provenance
-\land
-Authority
-\land
-Observability
-\land
-Recoverability
-}
-\]
+$$\boxed{ SafeAIAdaptation = UsefulMutation \land InvariantPreservation \land Provenance \land Authority \land Observability \land Recoverability }$$
 
 ---
 
@@ -3552,57 +2295,21 @@ The original s–o–a cancer architecture becomes substantially stronger when t
 
 For cancer:
 
-\[
-\boxed{
-s^{bio}\leftrightarrow persistence,\quad
-o^{bio}\leftrightarrow active growth,\quad
-a^{bio}\leftrightarrow adaptation/resistance
-}
-\]
+$$\boxed{ s^{bio}\leftrightarrow persistence,\quad o^{bio}\leftrightarrow active growth,\quad a^{bio}\leftrightarrow adaptation/resistance }$$
 
 For AI:
 
-\[
-\boxed{
-s^{AI}\leftrightarrow trusted persistent substrate,\quad
-o^{AI}\leftrightarrow active operation,\quad
-a^{AI}\leftrightarrow adaptive mutation
-}
-\]
+$$\boxed{ s^{AI}\leftrightarrow trusted persistent substrate,\quad o^{AI}\leftrightarrow active operation,\quad a^{AI}\leftrightarrow adaptive mutation }$$
 
 The mapping is structural, not mechanistic.
 
 The governing AMOS constraint is:
 
-\[
-\boxed{
-Integrity
->
-Completeness
->
-Fluency
->
-Speed
-}
-\]
+$$\boxed{ Integrity > Completeness > Fluency > Speed }$$
 
 and for adaptive systems:
 
-\[
-\boxed{
-EvolutionaryInsight
-+
-CausalDiscipline
-+
-Provenance
-+
-Governance
-+
-Rollback
-=
-BoundedAdaptiveIntelligence
-}
-\]
+$$\boxed{ EvolutionaryInsight + CausalDiscipline + Provenance + Governance + Rollback = BoundedAdaptiveIntelligence }$$
 
 ---
 

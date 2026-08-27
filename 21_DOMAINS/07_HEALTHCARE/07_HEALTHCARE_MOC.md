@@ -1,8 +1,15 @@
 ---
 title: "07 Healthcare MOC"
 type: moc
-tags: [moc, 07-healthcare]
+source: 21_DOMAINS/07_HEALTHCARE
+tags: [moc, 07-healthcare, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 07 Healthcare — Map of Content
 

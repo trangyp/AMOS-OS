@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Packs/Sector_Packs/"
 origin_architect: "Trang Phan"
 type: reference
-tags: [amos, super-engines, bizfin, gov-risk, human, science, tech, 5-engines, deterministic, SEAs, engine]
+source: 11_KNOWLEDGE/engine
+tags: [amos, super-engines, bizfin, gov-risk, human, science, tech, 5-engines, deterministic, SEAs, engine, canon/knowledge]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
 
 

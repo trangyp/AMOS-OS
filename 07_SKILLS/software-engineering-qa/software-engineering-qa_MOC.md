@@ -1,8 +1,15 @@
 ---
 title: "Software-Engineering-Qa MOC"
 type: moc
-tags: [moc, software-engineering-qa]
+source: 07_SKILLS/software-engineering-qa
+tags: [moc, software-engineering-qa, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Software-Engineering-Qa — Map of Content
 

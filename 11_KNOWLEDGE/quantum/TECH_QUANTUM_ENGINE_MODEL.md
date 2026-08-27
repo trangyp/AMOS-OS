@@ -3,10 +3,16 @@ title: "AMOS Tech Quantum Engine Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: brain-model
+source: 11_KNOWLEDGE/quantum
 tags: [canon-group/quantum, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/tech-quantum-engine-model, quantum]
 status: "active"
 provenance: "AMOS_Tech_Quantum_Engine_v0.json"
 confidence: "STRUCTURAL"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: quantum_reasoning
 ---
 
 

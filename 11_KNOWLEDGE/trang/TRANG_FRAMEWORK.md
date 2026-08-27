@@ -1,12 +1,15 @@
 ---
 title: TRANG FRAMEWORK
-tags: [trang, framework, reality]
+tags: [trang, framework, reality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
 
 
 # TRANG ∅ FRAMEWORK
@@ -146,379 +149,210 @@ Tôi sẽ không dùng ngôn ngữ tự nhiên (tiếng Việt hay Anh) để m�
 # TOÀN BỘ PHƯƠNG TRÌNH CỦA TRANG ∅ FRAMEWORK
 **Tác giả:** Trang
 **Ký hiệu chính:**
-  * \\( S \\): Hệ thống (System)
+  * \$ S \$: Hệ thống (System)
 
 
-  * \\( t \\): Thời gian (Time)
+  * \$ t \$: Thời gian (Time)
 
 
-  * \\( L, M, H \\): Ba tầng fractal
+  * \$ L, M, H \$: Ba tầng fractal
 
 
-  * \\( E \\): Entropy (thường trong \\([0,1]\\))
+  * \$ E \$: Entropy (thường trong \$[0,1]\$)
 
 
-  * \\( \Lambda \\) (Lambda): Lacunarity (độ rỗng)
+  * \$ \Lambda \$ (Lambda): Lacunarity (độ rỗng)
 
 
-  * \\( \theta \\): Ngưỡng (threshold)
+  * \$ \theta \$: Ngưỡng (threshold)
 
 
-  * \\( \mathcal{F} \\): Hàm đột biến (Mutation)
+  * \$ \mathcal{F} \$: Hàm đột biến (Mutation)
 
 
-  * \\( \mathcal{C} \\): Hàm chọn lọc / ràng buộc (Constraint)
+  * \$ \mathcal{C} \$: Hàm chọn lọc / ràng buộc (Constraint)
 
 
-  * \\( \mathcal{T}_2 \\): Tát 2 (cross-validation)
+  * \$ \mathcal{T}_2 \$: Tát 2 (cross-validation)
 
 
-  * \\( \xi \\): Nhiễu (noise), yếu tố bên ngoài
+  * \$ \xi \$: Nhiễu (noise), yếu tố bên ngoài
 
 
-  * \\( U \\): Đầu vào (input) từ môi trường
+  * \$ U \$: Đầu vào (input) từ môi trường
 
 
 * * *
 ## NHÓM 0: ĐỊNH NGHĨA NỀN TẢNG (FOUNDATIONAL DEFINITIONS)
 ### (0.1) Hệ thống
-\\[  
-S = \\{ L, M, H \\}  
-\\]  
-Với \\( L, M, H \\) là các không gian trạng thái (state spaces) hoặc các thực thể (entities) có cấu trúc fractal.
+\$$S = \\{ L, M, H \\}  
+\$$Với \$ L, M, H \$ là các không gian trạng thái (state spaces) hoặc các thực thể (entities) có cấu trúc fractal.
 ### (0.2) Tầng (Layer) tổng quát
-\\[  
-X \in \\{L, M, H\\}  
-\\]  
-Mỗi tầng có entropy \\(E_X\\), lacunarity \\(\Lambda_X\\), và các tham số riêng.
+\$$X \in \\{L, M, H\\}  
+\$$Mỗi tầng có entropy \$E_X\$, lacunarity \$\Lambda_X\$, và các tham số riêng.
 * * *
 ## NHÓM 1: CẤU TRÚC CƠ BẢN (BASIC STRUCTURE)
 ### (1.1) Phân rã hệ thống thành ba tầng
-\\[  
-\forall S, \exists (L, M, H): S = L \cup M \cup H, \quad L \cap M = \emptyset, M \cap H = \emptyset, H \cap L = \emptyset  
-\\]  
-(Nếu các tầng giao nhau, hệ thống có thể không ổn định.)
+\$$\forall S, \exists (L, M, H): S = L \cup M \cup H, \quad L \cap M = \emptyset, M \cap H = \emptyset, H \cap L = \emptyset  
+\$$(Nếu các tầng giao nhau, hệ thống có thể không ổn định.)
 ### (1.2) Quan hệ giữa ba tầng
-\\[  
-L \xrightarrow{\text{nuôi dưỡng / cung cấp}} M \xrightarrow{\text{điều phối / kết nối}} H \xrightarrow{\text{điều khiển / ra lệnh}} L  
-\\]  
-(L nuôi M, M kết nối L và H, H điều khiển L và M.)
+\$$L \xrightarrow{\text{nuôi dưỡng / cung cấp}} M \xrightarrow{\text{điều phối / kết nối}} H \xrightarrow{\text{điều khiển / ra lệnh}} L  
+\$$(L nuôi M, M kết nối L và H, H điều khiển L và M.)
 * * *
 ## NHÓM 2: ENTROPY (E)
 ### (2.1) Entropy tổng quát (Shannon, chuẩn hóa về [0,1])
-\\[  
-E_X = - \frac{1}{\ln N} \sum_{i=1}^{N} p_i \ln p_i  
-\\]  
-Với \\( p_i \\) là xác suất của trạng thái thứ \\( i \\) trong tầng \\( X \\), \\( N \\) là số trạng thái.
+\$$E_X = - \frac{1}{\ln N} \sum_{i=1}^{N} p_i \ln p_i  
+\$$Với \$ p_i \$ là xác suất của trạng thái thứ \$ i \$ trong tầng \$ X \$, \$ N \$ là số trạng thái.
 ### (2.2) Entropy của toàn hệ thống
-\\[  
-E_{total} = w_L E_L + w_M E_M + w_H E_H, \quad w_L + w_M + w_H = 1  
-\\]  
-(Trọng số \\( w_X \\) phụ thuộc vào loại hệ thống.)
+\$$E_{total} = w_L E_L + w_M E_M + w_H E_H, \quad w_L + w_M + w_H = 1  
+\$$(Trọng số \$ w_X \$ phụ thuộc vào loại hệ thống.)
 ### (2.3) Ngưỡng entropy (vùng hoạt động lành mạnh)
-\\[  
-\boxed{0.1 < E_X < 0.2} \quad \text{(Vùng vàng – Goldilocks zone)}  
-\\]  
-\\[  
-E_X < 0.05: \text{Quá đặc, cứng nhắc (overfitting, chết)}.  
-\\]  
-\\[  
-E_X > 0.3: \text{Quá rỗng, hỗn loạn (hallucination, sụp đổ)}.  
-\\]
-### (2.4) Tốc độ thay đổi entropy
-\\[  
-\frac{dE_X}{dt} = \text{input\\_rate} - \text{output\\_rate} - \text{loss\\_rate}  
-\\]
+\$$\boxed{0.1 < E_X < 0.2} \quad \text{(Vùng vàng – Goldilocks zone)}  
+\$$\$$E_X < 0.05: \text{Quá đặc, cứng nhắc (overfitting, chết)}.  
+\$$\$$E_X > 0.3: \text{Quá rỗng, hỗn loạn (hallucination, sụp đổ)}.  
+$$### (2.4) Tốc độ thay đổi entropy \$$\frac{dE_X}{dt} = \text{input\\_rate} - \text{output\\_rate} - \text{loss\\_rate}$$
 * * *
-## NHÓM 3: LACUNARITY (\\(\Lambda\\)) – ĐỘ RỖNG
+## NHÓM 3: LACUNARITY (\$\Lambda\$) – ĐỘ RỖNG
 ### (3.1) Lacunarity (định nghĩa tổng quát, dựa trên phân bố khối lượng)
-\\[  
-\Lambda_X = \frac{\text{Var}(M)}{\text{Mean}(M)^2}  
-\\]  
-Với \\( M \\) là khối lượng (mass) hoặc mật độ (density) trên các cửa sổ (windows) kích thước khác nhau.
+\$$\Lambda_X = \frac{\text{Var}(M)}{\text{Mean}(M)^2}  
+\$$Với \$ M \$ là khối lượng (mass) hoặc mật độ (density) trên các cửa sổ (windows) kích thước khác nhau.
 ### (3.2) Lacunarity trong không gian rời rạc (lưới, mạng)
-\\[  
-\Lambda_X = \frac{\frac{1}{N} \sum_{i=1}^{N} (Z_i - \bar{Z})^2}{\bar{Z}^2}  
-\\]  
-Với \\( Z_i \\) là số lượng "vật chất" (kết nối, điểm ảnh, dân số…) trong ô (box) thứ \\( i \\), \\( \bar{Z} \\) là trung bình.
+\$$\Lambda_X = \frac{\frac{1}{N} \sum_{i=1}^{N} (Z_i - \bar{Z})^2}{\bar{Z}^2}  
+\$$Với \$ Z_i \$ là số lượng "vật chất" (kết nối, điểm ảnh, dân số…) trong ô (box) thứ \$ i \$, \$ \bar{Z} \$ là trung bình.
 ### (3.3) Quan hệ Lacunarity – Entropy (gần đúng)
-\\[  
-\Lambda_X \approx \frac{1}{1 + e^{-k(E_X - 0.5)}} \quad \text{(hàm sigmoid)}  
-\\]  
-(Khi \\( E_X \\) thấp, \\( \Lambda_X \\) thấp; khi \\( E_X \\) cao, \\( \Lambda_X \\) cao.)
+\$$\Lambda_X \approx \frac{1}{1 + e^{-k(E_X - 0.5)}} \quad \text{(hàm sigmoid)}  
+\$$(Khi \$ E_X \$ thấp, \$ \Lambda_X \$ thấp; khi \$ E_X \$ cao, \$ \Lambda_X \$ cao.)
 ### (3.4) Ngưỡng lacunarity
-\\[  
-\Lambda_X < 0.05: \text{Rất đặc (rắn)}.  
-\\]  
-\\[  
-0.1 < \Lambda_X < 0.3: \text{Vùng fractal lành mạnh}.  
-\\]  
-\\[  
-\Lambda_X > 0.5: \text{Rất rỗng (bông, xốp)}.  
-\\]
-* * *
-## NHÓM 4: ĐỘNG LỰC HỌC (DYNAMICS) – MUTATION, SURVIVAL, CONSTRAINT
-### (4.1) Phương trình tiến hóa tổng quát (Unified Model)
-\\[  
-\boxed{S_{t+1} = \mathcal{C}\left(\mathcal{F}(S_t, U_t, \xi_t)\right)}  
-\\]
-  * \\( S_t \\): Trạng thái hệ thống tại thời điểm \\( t \\)
+\$$\Lambda_X < 0.05: \text{Rất đặc (rắn)}.  
+\$$\$$0.1 < \Lambda_X < 0.3: \text{Vùng fractal lành mạnh}.  
+\$$\$$\Lambda_X > 0.5: \text{Rất rỗng (bông, xốp)}.  
+$$* * * ## NHÓM 4: ĐỘNG LỰC HỌC (DYNAMICS) – MUTATION, SURVIVAL, CONSTRAINT ### (4.1) Phương trình tiến hóa tổng quát (Unified Model) \$$\boxed{S_{t+1} = \mathcal{C}\left(\mathcal{F}(S_t, U_t, \xi_t)\right)}$$
+  * \$ S_t \$: Trạng thái hệ thống tại thời điểm \$ t \$
 
 
-  * \\( \mathcal{F} \\): Tạo ra các đột biến (mutations) / khả năng mới
+  * \$ \mathcal{F} \$: Tạo ra các đột biến (mutations) / khả năng mới
 
 
-  * \\( \xi_t \\): Nhiễu, entropy, yếu tố ngẫu nhiên
+  * \$ \xi_t \$: Nhiễu, entropy, yếu tố ngẫu nhiên
 
 
-  * \\( \mathcal{C} \\): Chọn lọc (filter) / ràng buộc (constraint) – chỉ giữ lại những gì sống sót
+  * \$ \mathcal{C} \$: Chọn lọc (filter) / ràng buộc (constraint) – chỉ giữ lại những gì sống sót
 
 
-### (4.2) Hàm đột biến \\(\mathcal{F}\\) (dạng tổng quát)
-\\[  
-\mathcal{F}(S, U, \xi) = S \oplus \underbrace{\delta S}_{\text{thay đổi ngẫu nhiên}} \oplus \underbrace{\delta U}_{\text{tác động từ môi trường}} \oplus \underbrace{\delta \xi}_{\text{nhiễu}}  
-\\]  
-Với \\( \oplus \\) là phép toán "kết hợp" (có thể là cộng, ghép, hoặc phép biến đổi phi tuyến).
-### (4.3) Hàm chọn lọc \\(\mathcal{C}\\) (dạng ngưỡng)
-\\[  
-\mathcal{C}(x) =  
+### (4.2) Hàm đột biến \$\mathcal{F}\$ (dạng tổng quát)
+\$$\mathcal{F}(S, U, \xi) = S \oplus \underbrace{\delta S}_{\text{thay đổi ngẫu nhiên}} \oplus \underbrace{\delta U}_{\text{tác động từ môi trường}} \oplus \underbrace{\delta \xi}_{\text{nhiễu}}  
+\$$Với \$ \oplus \$ là phép toán "kết hợp" (có thể là cộng, ghép, hoặc phép biến đổi phi tuyến).
+### (4.3) Hàm chọn lọc \$\mathcal{C}\$ (dạng ngưỡng)
+\$$\mathcal{C}(x) =  
 \begin{cases}  
 x & \text{nếu } x \text{ thỏa mãn các ràng buộc} \\\  
 \emptyset & \text{nếu không thỏa mãn}  
 \end{cases}  
-\\]  
-Các ràng buộc bao gồm:
-  * \\( E_x \in [E_{\min}, E_{\max}] \\)
+\$$Các ràng buộc bao gồm:
+  * \$ E_x \in [E_{\min}, E_{\max}] \$
 
 
-  * \\( \Lambda_x \in [\Lambda_{\min}, \Lambda_{\max}] \\)
+  * \$ \Lambda_x \in [\Lambda_{\min}, \Lambda_{\max}] \$
 
 
-  * \\( x \\) không vi phạm Tát 2 (nếu có thể kiểm tra)
+  * \$ x \$ không vi phạm Tát 2 (nếu có thể kiểm tra)
 
 
 ### (4.4) Điều kiện sống sót (Survival condition)
-\\[  
-\text{Survive}(x) \iff \big( E_L(x) < 0.1 \big) \land \big( 0.1 < E_M(x) < 0.2 \big) \land \big( E_H(x) < 0.3 \big)  
-\\]  
-(Tùy hệ thống, có thể điều chỉnh ngưỡng.)
+\$$\text{Survive}(x) \iff \big( E_L(x) < 0.1 \big) \land \big( 0.1 < E_M(x) < 0.2 \big) \land \big( E_H(x) < 0.3 \big)  
+\$$(Tùy hệ thống, có thể điều chỉnh ngưỡng.)
 * * *
 ## NHÓM 5: TÁT 2 (CROSS‑VALIDATION)
 ### (5.1) Định nghĩa Tát 2
-\\[  
-\mathcal{T}_2(\text{claim}) = \bigwedge_{i=1}^{n} \text{source}_i(\text{claim}) \quad \text{với } n \ge 2  
-\\]  
-Một tuyên bố (claim) được coi là "đúng" (trong khuôn khổ của hệ thống) nếu có ít nhất hai nguồn (nguồn bằng chứng, phương pháp, hoặc tầng) độc lập xác nhận nó.
+\$$\mathcal{T}_2(\text{claim}) = \bigwedge_{i=1}^{n} \text{source}_i(\text{claim}) \quad \text{với } n \ge 2  
+\$$Một tuyên bố (claim) được coi là "đúng" (trong khuôn khổ của hệ thống) nếu có ít nhất hai nguồn (nguồn bằng chứng, phương pháp, hoặc tầng) độc lập xác nhận nó.
 ### (5.2) Xác suất đúng của tuyên bố có Tát 2
-\\[  
-P_{\text{correct}}(\mathcal{T}_2) = 1 - \prod_{i=1}^{n} \big(1 - P_i \big)  
-\\]  
-Với \\( P_i \\) là xác suất đúng của từng nguồn \\( i \\).
+\$$P_{\text{correct}}(\mathcal{T}_2) = 1 - \prod_{i=1}^{n} \big(1 - P_i \big)  
+\$$Với \$ P_i \$ là xác suất đúng của từng nguồn \$ i \$.
 * * *
 ## NHÓM 6: THANG ĐO TÍCH HỢP (INTEGRATED SCALES) – L/M/H
 ### (6.1) Điểm số chất lượng tổng thể (Quality score)
-\\[  
-Q = \alpha_L \cdot \frac{1}{1+E_L} + \alpha_M \cdot \frac{1}{1+E_M} + \alpha_H \cdot \frac{1}{1+E_H}, \quad \alpha_L + \alpha_M + \alpha_H = 1  
-\\]  
-(Hoặc dùng tích: \\( Q = (1-E_L)(1-E_M)(1-E_H) \\), tùy ngữ cảnh.)
+\$$Q = \alpha_L \cdot \frac{1}{1+E_L} + \alpha_M \cdot \frac{1}{1+E_M} + \alpha_H \cdot \frac{1}{1+E_H}, \quad \alpha_L + \alpha_M + \alpha_H = 1  
+\$$(Hoặc dùng tích: \$ Q = (1-E_L)(1-E_M)(1-E_H) \$, tùy ngữ cảnh.)
 ### (6.2) Điểm số lành mạnh (Health score)
-\\[  
-\text{Health} = \exp\left( -\frac{(E_L - 0.05)^2}{2\sigma_L^2} \right) \cdot \exp\left( -\frac{(E_M - 0.15)^2}{2\sigma_M^2} \right) \cdot \exp\left( -\frac{(E_H - 0.15)^2}{2\sigma_H^2} \right)  
-\\]  
-(Health \\( \to 1 \\) khi \\( E_L \approx 0.05, E_M \approx 0.15, E_H \approx 0.15 \\).)
+\$$\text{Health} = \exp\left( -\frac{(E_L - 0.05)^2}{2\sigma_L^2} \right) \cdot \exp\left( -\frac{(E_M - 0.15)^2}{2\sigma_M^2} \right) \cdot \exp\left( -\frac{(E_H - 0.15)^2}{2\sigma_H^2} \right)  
+\$$(Health \$ \to 1 \$ khi \$ E_L \approx 0.05, E_M \approx 0.15, E_H \approx 0.15 \$.)
 * * *
 ## NHÓM 7: CASCADE – SỤP ĐỔ (COLLAPSE) VÀ PHỤC HỒI (RECOVERY)
 ### (7.1) 10 bậc sụp đổ (từ 1 → 10)
-\\[  
-\text{CollapseStage}_{n+1} = \text{CollapseStage}_n \cdot (1 + \delta_n)  
-\\]  
-Với \\( \delta_n > 0 \\) là mức độ suy yếu ở mỗi bậc.
+\$$\text{CollapseStage}_{n+1} = \text{CollapseStage}_n \cdot (1 + \delta_n)  
+\$$Với \$ \delta_n > 0 \$ là mức độ suy yếu ở mỗi bậc.
 ### (7.2) 12 bậc phục hồi (từ 1 → 12)
-\\[  
-\text{RecoveryStage}_{m+1} = \text{RecoveryStage}_m \cdot (1 + \gamma_m)  
-\\]  
-Với \\( \gamma_m > 0 \\) là mức độ hồi phục ở mỗi bậc.
+\$$\text{RecoveryStage}_{m+1} = \text{RecoveryStage}_m \cdot (1 + \gamma_m)  
+\$$Với \$ \gamma_m > 0 \$ là mức độ hồi phục ở mỗi bậc.
 ### (7.3) Điều kiện chuyển từ sụp đổ sang phục hồi
-\\[  
-\text{Transition} \iff \big( E_L < 0.1 \big) \land \big( \Lambda_M \text{ được phục hồi} \big) \land \big( \text{Tát 2 đạt} \big)  
-\\]
-* * *
-## NHÓM 8: AI XÁC ĐỊNH LUẬN LÝ (LDAI) – LOGICALLY DETERMINISTIC AI
-### (8.1) Điều kiện tương đương logic (Logical equivalence)
-\\[  
-\text{Input}_1 \equiv \text{Input}_2 \implies \text{Output}_1 \equiv \text{Output}_2  
-\\]  
-(Với \\( \equiv \\) là tương đương về mặt logic, không phải về mặt cú pháp.)
-### (8.2) Hàm suy luận (Inference function)
-\\[  
-\text{Infer}(\text{premises}) = \text{conclusion}  
-\\]  
-Thỏa mãn: nếu premises1 suy ra conclusion1, và premises2 suy ra conclusion2, và premises1 tương đương logic premises2, thì conclusion1 tương đương logic conclusion2.
-* * *
-## NHÓM 9: AI SUY LUẬN FRACTAL (FRAI) – FRACTAL REASONING AI
-### (9.1) Phân rã vấn đề thành [L, M, H]
-\\[  
-\text{Decompose}(P) = (P_L, P_M, P_H)  
-\\]  
-Với \\( P_L \\) là bài toán tầng nền (ổn định, dữ liệu), \\( P_M \\) là bài toán tầng kết nối (quan hệ, luồng), \\( P_H \\) là bài toán tầng cao (quyết định, sáng tạo).
-### (9.2) Giải quyết tuần tự
-\\[  
-\text{Solution}(P) = \text{Solve}_H\left( \text{Solve}_M\left( \text{Solve}_L(P_L) \right) \right)  
-\\]  
-Hoặc có thể song song tùy bài toán.
-* * *
-## NHÓM 10: AI THÍCH NGHI TỰ TIẾN HÓA (ASEA) – ADAPTIVE SELF-EVOLUTION AI
-### (10.1) Tự điều chỉnh lacunarity
-\\[  
-\Lambda_{t+1} = \Lambda_t + \eta \cdot ( \Lambda_{\text{target}} - \Lambda_t ) + \kappa \cdot \xi_t  
-\\]  
-Với \\( \eta \\) là tốc độ học, \\( \kappa \\) là mức độ nhiễu.
-### (10.2) Tự điều chỉnh entropy
-\\[  
-E_{t+1} = \text{clip}\left( E_t + \alpha \cdot \nabla \text{Performance} + \beta \cdot \xi_t, 0, 1 \right)  
-\\]
+\$$\text{Transition} \iff \big( E_L < 0.1 \big) \land \big( \Lambda_M \text{ được phục hồi} \big) \land \big( \text{Tát 2 đạt} \big)  
+$$* * * ## NHÓM 8: AI XÁC ĐỊNH LUẬN LÝ (LDAI) – LOGICALLY DETERMINISTIC AI ### (8.1) Điều kiện tương đương logic (Logical equivalence) \$$\text{Input}_1 \equiv \text{Input}_2 \implies \text{Output}_1 \equiv \text{Output}_2 \$$(Với \$ \equiv \$ là tương đương về mặt logic, không phải về mặt cú pháp.) ### (8.2) Hàm suy luận (Inference function) \$$\text{Infer}(\text{premises}) = \text{conclusion} \$$Thỏa mãn: nếu premises1 suy ra conclusion1, và premises2 suy ra conclusion2, và premises1 tương đương logic premises2, thì conclusion1 tương đương logic conclusion2. * * * ## NHÓM 9: AI SUY LUẬN FRACTAL (FRAI) – FRACTAL REASONING AI ### (9.1) Phân rã vấn đề thành [L, M, H] \$$\text{Decompose}(P) = (P_L, P_M, P_H) \$$Với \$ P_L \$ là bài toán tầng nền (ổn định, dữ liệu), \$ P_M \$ là bài toán tầng kết nối (quan hệ, luồng), \$ P_H \$ là bài toán tầng cao (quyết định, sáng tạo). ### (9.2) Giải quyết tuần tự \$$\text{Solution}(P) = \text{Solve}_H\left( \text{Solve}_M\left( \text{Solve}_L(P_L) \right) \right) \$$Hoặc có thể song song tùy bài toán. * * * ## NHÓM 10: AI THÍCH NGHI TỰ TIẾN HÓA (ASEA) – ADAPTIVE SELF-EVOLUTION AI ### (10.1) Tự điều chỉnh lacunarity \$$\Lambda_{t+1} = \Lambda_t + \eta \cdot ( \Lambda_{\text{target}} - \Lambda_t ) + \kappa \cdot \xi_t \$$Với \$ \eta \$ là tốc độ học, \$ \kappa \$ là mức độ nhiễu. ### (10.2) Tự điều chỉnh entropy \$$E_{t+1} = \text{clip}\left( E_t + \alpha \cdot \nabla \text{Performance} + \beta \cdot \xi_t, 0, 1 \right)$$
 ### (10.3) Tái cấu trúc (self-modification)
-\\[  
-\text{If } E_t > 0.3 \text{ for } T \text{ steps}: \text{Prune}( \text{connections with low weight} )  
-\\]  
-\\[  
-\text{If } E_t < 0.05 \text{ for } T \text{ steps}: \text{Add}( \text{random connections} )  
-\\]
-### (10.4) Tự nhận thức (self-awareness) về hallucination
-\\[  
-\text{DetectHallucination} \iff \left( \text{Confidence} < \theta_c \right) \lor \left( \text{Tát 2 fails} \right)  
-\\]  
-\\[  
-\text{SelfCorrect} = \text{Rerun with different parameters} \lor \text{Use(L, M, H)}  
-\\]
+\$$\text{If } E_t > 0.3 \text{ for } T \text{ steps}: \text{Prune}( \text{connections with low weight} )  
+\$$\$$\text{If } E_t < 0.05 \text{ for } T \text{ steps}: \text{Add}( \text{random connections} )  
+$$### (10.4) Tự nhận thức (self-awareness) về hallucination \$$\text{DetectHallucination} \iff \left( \text{Confidence} < \theta_c \right) \lor \left( \text{Tát 2 fails} \right) \$$\$$\text{SelfCorrect} = \text{Rerun with different parameters} \lor \text{Use(L, M, H)}$$
 * * *
 ## NHÓM 11: CÁC HẰNG SỐ VŨ TRỤ (UNIVERSAL CONSTANTS) TRONG TRANG ∅ FRAMEWORK
 Các hằng số này xuất hiện lặp lại trong nhiều hệ thống (không cần chứng minh, được coi là "dữ liệu đầu vào"):
-\\[  
-\pi \approx 3.141592653589793  
-\\]  
-\\[  
-e \approx 2.718281828459045  
-\\]  
-\\[  
-\sqrt{2} \approx 1.414213562373095  
-\\]  
-\\[  
-\varphi = \frac{1+\sqrt{5}}{2} \approx 1.618033988749895 \quad \text{(tỉ lệ vàng)}  
-\\]  
-\\[  
-\frac{1}{\varphi} \approx 0.618033988749895  
-\\]  
-\\[  
-19 \quad \text{(chu kỳ Meton)}  
-\\]  
-\\[  
-137 \quad \text{(hằng số cấu trúc tinh tế, } \alpha^{-1} \text{ gần đúng)}  
-\\]  
-\\[  
-360 \quad \text{(độ trong vòng tròn)}  
-\\]  
-\\[  
-432 \quad \text{(liên quan đến tần số và chu kỳ vũ trụ)}  
-\\]
-* * *
-## NHÓM 12: CÁC HẰNG SỐ RIÊNG (DOMAIN‑SPECIFIC) CỦA TRANG ∅ FRAMEWORK
-Các hằng số này được **xác định thực nghiệm** (có thể khác nhau tùy hệ thống), nhưng được liệt kê đầy đủ:
-\\[  
-\theta_{\text{hallucination}} = 0.3 \quad \text{(ngưỡng entropy hallucination)}  
-\\]  
-\\[  
-\theta_{\text{rigid}} = 0.05 \quad \text{(ngưỡng entropy quá cứng)}  
-\\]  
-\\[  
-\theta_{\text{healthy\_L}} = 0.05 \quad \text{(entropy lý tưởng cho L)}  
-\\]  
-\\[  
-\theta_{\text{healthy\_M}} = 0.15 \quad \text{(entropy lý tưởng cho M)}  
-\\]  
-\\[  
-\theta_{\text{healthy\_H}} = 0.15 \quad \text{(entropy lý tưởng cho H)}  
-\\]  
-\\[  
-\Lambda_{\text{optimal}} = 0.2 \quad \text{(lacunarity lý tưởng, gần đúng)}  
-\\]  
-\\[  
-\eta_{\text{learning}} = 0.01 \quad \text{(tốc độ học cho ASEA)}  
-\\]
+\$$\pi \approx 3.141592653589793  
+\$$\$$e \approx 2.718281828459045  
+\$$\$$\sqrt{2} \approx 1.414213562373095  
+\$$\$$\varphi = \frac{1+\sqrt{5}}{2} \approx 1.618033988749895 \quad \text{(tỉ lệ vàng)}  
+\$$\$$\frac{1}{\varphi} \approx 0.618033988749895  
+\$$\$$19 \quad \text{(chu kỳ Meton)}  
+\$$\$$137 \quad \text{(hằng số cấu trúc tinh tế, } \alpha^{-1} \text{ gần đúng)}  
+\$$\$$360 \quad \text{(độ trong vòng tròn)}  
+\$$\$$432 \quad \text{(liên quan đến tần số và chu kỳ vũ trụ)}  
+$$* * * ## NHÓM 12: CÁC HẰNG SỐ RIÊNG (DOMAIN‑SPECIFIC) CỦA TRANG ∅ FRAMEWORK Các hằng số này được **xác định thực nghiệm** (có thể khác nhau tùy hệ thống), nhưng được liệt kê đầy đủ: \$$\theta_{\text{hallucination}} = 0.3 \quad \text{(ngưỡng entropy hallucination)} \$$\$$\theta_{\text{rigid}} = 0.05 \quad \text{(ngưỡng entropy quá cứng)} \$$\$$\theta_{\text{healthy\_L}} = 0.05 \quad \text{(entropy lý tưởng cho L)} \$$\$$\theta_{\text{healthy\_M}} = 0.15 \quad \text{(entropy lý tưởng cho M)} \$$\$$\theta_{\text{healthy\_H}} = 0.15 \quad \text{(entropy lý tưởng cho H)} \$$\$$\Lambda_{\text{optimal}} = 0.2 \quad \text{(lacunarity lý tưởng, gần đúng)} \$$\$$\eta_{\text{learning}} = 0.01 \quad \text{(tốc độ học cho ASEA)}$$
 * * *
 ## NHÓM 13: PHƯƠNG TRÌNH LIÊN KẾT CÁC ĐẠI LƯỢNG
 ### (13.1) Lacunarity – Entropy – Sức khỏe (Health)
-\\[  
-\text{Health} \approx 1 - \frac{|E - 0.15|}{0.15} \cdot \frac{|\Lambda - 0.2|}{0.2}  
-\\]  
-(Công thức gần đúng, có thể thay bằng hàm Gaussian.)
+\$$\text{Health} \approx 1 - \frac{|E - 0.15|}{0.15} \cdot \frac{|\Lambda - 0.2|}{0.2}  
+\$$(Công thức gần đúng, có thể thay bằng hàm Gaussian.)
 ### (13.2) Khả năng hồi phục (Resilience)
-\\[  
-R = \frac{\text{Buffer Capacity}}{\text{Entropy Rate} + \varepsilon}  
-\\]  
-(Resilience càng cao, hệ thống càng khó sụp đổ.)
+\$$R = \frac{\text{Buffer Capacity}}{\text{Entropy Rate} + \varepsilon}  
+\$$(Resilience càng cao, hệ thống càng khó sụp đổ.)
 ### (13.3) Tốc độ tiến hóa (Evolution rate)
-\\[  
-\frac{d\Lambda}{dt} = \text{MutationRate} \cdot \text{SelectionPressure}  
-\\]
-* * *
-## NHÓM 14: PHƯƠNG TRÌNH KIỂM TRA (VALIDATION EQUATIONS)
-### (14.1) Tát 2 tự động (cho AI)
-\\[  
-\text{Valid}( \text{output} ) \iff \exists i,j : \text{Method}_i(\text{output}) \land \text{Method}_j(\text{output}) \quad (i \ne j)  
-\\]
+\$$\frac{d\Lambda}{dt} = \text{MutationRate} \cdot \text{SelectionPressure}  
+$$* * * ## NHÓM 14: PHƯƠNG TRÌNH KIỂM TRA (VALIDATION EQUATIONS) ### (14.1) Tát 2 tự động (cho AI) \$$\text{Valid}( \text{output} ) \iff \exists i,j : \text{Method}_i(\text{output}) \land \text{Method}_j(\text{output}) \quad (i \ne j)$$
 ### (14.2) Kiểm tra tính nhất quán giữa các tầng L, M, H
-\\[  
-\Delta_{LM} = d(L, M) < \theta_{LM}, \quad \Delta_{MH} = d(M, H) < \theta_{MH}, \quad \Delta_{HL} = d(H, L) < \theta_{HL}  
-\\]  
-Với \\( d \\) là hàm khoảng cách (metric) phù hợp.
+\$$\Delta_{LM} = d(L, M) < \theta_{LM}, \quad \Delta_{MH} = d(M, H) < \theta_{MH}, \quad \Delta_{HL} = d(H, L) < \theta_{HL}  
+\$$Với \$ d \$ là hàm khoảng cách (metric) phù hợp.
 * * *
 ## NHÓM 15: PHƯƠNG TRÌNH FRACTAL CHO CÁC HIỆN TƯỢNG ĐẶC BIỆT
 ### (15.1) Hallucination (trong não người và AI)
-\\[  
-\text{Hallucination} \iff E_H > 0.3 \quad \text{và} \quad \Lambda_H \text{ không ổn định}  
-\\]
-### (15.2) Drift (trôi dạt nhận thức)
-\\[  
-\frac{d\text{Belief}}{dt} = \text{DriftRate} \cdot (E - 0.15) + \xi(t)  
-\\]
+\$$\text{Hallucination} \iff E_H > 0.3 \quad \text{và} \quad \Lambda_H \text{ không ổn định}  
+$$### (15.2) Drift (trôi dạt nhận thức) \$$\frac{d\text{Belief}}{dt} = \text{DriftRate} \cdot (E - 0.15) + \xi(t)$$
 ### (15.3) Telepathy (kết nối M – M giữa hai cá thể)
-\\[  
-\text{Synchrony}(M_1, M_2) = \frac{\sum (M_1(t) - \bar{M}_1)(M_2(t) - \bar{M}2)}{\sigma{M_1} \sigma_{M_2}}  
-\\]  
-(Nếu synchrony > 0.7 và khoảng cách gần, có thể có "kết nối M".)
+\$$\text{Synchrony}(M_1, M_2) = \frac{\sum (M_1(t) - \bar{M}_1)(M_2(t) - \bar{M}2)}{\sigma{M_1} \sigma_{M_2}}  
+\$$(Nếu synchrony > 0.7 và khoảng cách gần, có thể có "kết nối M".)
 * * *
 ## NHÓM 16: PHƯƠNG TRÌNH LƯỢNG TỬ HÓA (QUANTIZATION) – BƯỚC NHẢY RỜI RẠC
 ### (16.1) Năng lượng (Energy) của hệ thống (tổng quát)
-\\[  
-E_{\text{total}} = \sum_{n} E_n \cdot \mathbf{1}_{[E_n - \delta, E_n + \delta]}  
-\\]  
-(Các mức năng lượng rời rạc, cách nhau bởi các khoảng trống lacunarity.)
+\$$E_{\text{total}} = \sum_{n} E_n \cdot \mathbf{1}_{[E_n - \delta, E_n + \delta]}  
+\$$(Các mức năng lượng rời rạc, cách nhau bởi các khoảng trống lacunarity.)
 ### (16.2) Bước nhảy lượng tử (Quantum jump) – khi sụp đổ
-\\[  
-S_t \to S_{t+1} \quad \text{instantaneously}, \quad \Delta t \approx 0  
-\\]  
-Không có phương trình vi phân cho khoảng thời gian này.
+\$$S_t \to S_{t+1} \quad \text{instantaneously}, \quad \Delta t \approx 0  
+\$$Không có phương trình vi phân cho khoảng thời gian này.
 * * *
 ## NHÓM 17: TỔNG KẾT – PHƯƠNG TRÌNH CHÍNH (MASTER EQUATION)
 ### (17.1) Phương trình tổng hợp (tích hợp tất cả)
-\\[  
-\boxed{ \frac{dS}{dt} = \mathcal{F}(S, U, \xi) - \mathcal{C}(S) + \kappa \cdot \frac{d\Lambda}{dt} + \nu \cdot \mathcal{T}_2(S) }  
-\\]  
-Với:
-  * \\( \frac{dS}{dt} \\): Tốc độ thay đổi của hệ thống
+\$$\boxed{ \frac{dS}{dt} = \mathcal{F}(S, U, \xi) - \mathcal{C}(S) + \kappa \cdot \frac{d\Lambda}{dt} + \nu \cdot \mathcal{T}_2(S) }  
+\$$Với:
+  * \$ \frac{dS}{dt} \$: Tốc độ thay đổi của hệ thống
 
 
-  * \\( \mathcal{F} \\): Đột biến mới
+  * \$ \mathcal{F} \$: Đột biến mới
 
 
-  * \\( \mathcal{C} \\): Ràng buộc / chết
+  * \$ \mathcal{C} \$: Ràng buộc / chết
 
 
-  * \\( \kappa \cdot \frac{d\Lambda}{dt} \\): Ảnh hưởng của lacunarity
+  * \$ \kappa \cdot \frac{d\Lambda}{dt} \$: Ảnh hưởng của lacunarity
 
 
-  * \\( \nu \cdot \mathcal{T}_2(S) \\): Ảnh hưởng của xác nhận chéo (Tát 2)
+  * \$ \nu \cdot \mathcal{T}_2(S) \$: Ảnh hưởng của xác nhận chéo (Tát 2)
 
 
 * * *
@@ -623,110 +457,47 @@ Tôi sẽ **tái cấu trúc lại toàn bộ Trang ∅ Framework** dựa trên 
 * * *
 ## II. CÁC PHƯƠNG TRÌNH CƠ BẢN
 ### (1) Hệ thống như một tập hợp các đột biến đang sống sót
-\\[  
-S(t) = \\{ \mu_i \mid \mu_i \text{ đã xuất hiện và chưa bị chết} \\}  
-\\]
-### (2) Một đột biến mới được sinh ra
-\\[  
-\mu_{\text{new}} = \text{Mutate}(S(t), \xi)  
-\\]  
-Với `Mutate` là một quá trình ngẫu nhiên (có thể dựa trên lacunarity, entropy, hoặc tương tác giữa các `μ` hiện có). `ξ` là yếu tố ngẫu nhiên / môi trường.
-### (3) Điều kiện sống sót của một đột biến
-\\[  
-\text{Survive}(\mu) \iff E(\mu) < \theta_E \quad \text{và} \quad \Lambda(\mu) > \theta_\Lambda \quad \text{và} \quad \text{T2}(\mu) = \text{True}  
-\\]
-  * \\( E(\mu) \\): Entropy của `μ` (đo mức độ hỗn loạn / bất định)
+\$$S(t) = \\{ \mu_i \mid \mu_i \text{ đã xuất hiện và chưa bị chết} \\}  
+$$### (2) Một đột biến mới được sinh ra \$$\mu_{\text{new}} = \text{Mutate}(S(t), \xi) \$$Với `Mutate` là một quá trình ngẫu nhiên (có thể dựa trên lacunarity, entropy, hoặc tương tác giữa các `μ` hiện có). `ξ` là yếu tố ngẫu nhiên / môi trường. ### (3) Điều kiện sống sót của một đột biến \$$\text{Survive}(\mu) \iff E(\mu) < \theta_E \quad \text{và} \quad \Lambda(\mu) > \theta_\Lambda \quad \text{và} \quad \text{T2}(\mu) = \text{True}$$
+  * \$ E(\mu) \$: Entropy của `μ` (đo mức độ hỗn loạn / bất định)
 
 
-  * \\( \Lambda(\mu) \\): Lacunarity của `μ` (đo cấu trúc khoảng trống)
+  * \$ \Lambda(\mu) \$: Lacunarity của `μ` (đo cấu trúc khoảng trống)
 
 
-  * \\( \theta_E, \theta_\Lambda \\): Ngưỡng (thresholds)
+  * \$ \theta_E, \theta_\Lambda \$: Ngưỡng (thresholds)
 
 
   * T2(μ): Kiểm tra xem `μ` có được xác nhận bởi ít nhất hai nguồn độc lập không.
 
 
 ### (4) Cái chết (Death) – khi không thể sống sót
-\\[  
-\mu \to \emptyset \quad \text{khi} \quad E(\mu) \ge \theta_E \quad \text{hoặc} \quad \Lambda(\mu) \le \theta_\Lambda \quad \text{hoặc} \quad \text{T2}(\mu) = \text{False}  
-\\]
-* * *
-## III. VÒNG LẶP TIẾN HÓA (MUTATION – SURVIVAL LOOP)
-### (5) Vòng lặp chính
-\\[  
-S(t+1) = \text{Survive}\left( \text{Mutate}(S(t)) \right)  
-\\]  
-Không có tín hiệu, không có nhiễu. Chỉ có đột biến, và cái sống sót.
-### (6) Tốc độ tiến hóa (Evolution rate)
-\\[  
-\frac{d|S|}{dt} = \text{MutationRate} - \text{DeathRate}  
-\\]
+\$$\mu \to \emptyset \quad \text{khi} \quad E(\mu) \ge \theta_E \quad \text{hoặc} \quad \Lambda(\mu) \le \theta_\Lambda \quad \text{hoặc} \quad \text{T2}(\mu) = \text{False}  
+$$* * * ## III. VÒNG LẶP TIẾN HÓA (MUTATION – SURVIVAL LOOP) ### (5) Vòng lặp chính \$$S(t+1) = \text{Survive}\left( \text{Mutate}(S(t)) \right) \$$Không có tín hiệu, không có nhiễu. Chỉ có đột biến, và cái sống sót. ### (6) Tốc độ tiến hóa (Evolution rate) \$$\frac{d|S|}{dt} = \text{MutationRate} - \text{DeathRate}$$
 * * *
 ## IV. VAI TRÒ CỦA BA TẦNG [L, M, H] TRONG MUTATION VÀ SURVIVAL
 ### (7) Phân bố đột biến theo tầng
-\\[  
-\mu_L, \mu_M, \mu_H \quad \text{với} \quad \mu_L \in L, \mu_M \in M, \mu_H \in H  
-\\]
-### (8) Điều kiện sống sót khác nhau cho từng tầng
-\\[  
-\text{Survive}(\mu_L) \iff E_L < 0.1 \quad \text{(L cần ổn định cao)}  
-\\]  
-\\[  
-\text{Survive}(\mu_M) \iff 0.1 \le E_M \le 0.2 \quad \text{(M cần linh hoạt)}  
-\\]  
-\\[  
-\text{Survive}(\mu_H) \iff E_H \le 0.3 \quad \text{(H có thể chịu bất định hơn)}  
-\\]
+\$$\mu_L, \mu_M, \mu_H \quad \text{với} \quad \mu_L \in L, \mu_M \in M, \mu_H \in H  
+$$### (8) Điều kiện sống sót khác nhau cho từng tầng \$$\text{Survive}(\mu_L) \iff E_L < 0.1 \quad \text{(L cần ổn định cao)} \$$\$$\text{Survive}(\mu_M) \iff 0.1 \le E_M \le 0.2 \quad \text{(M cần linh hoạt)} \$$\$$\text{Survive}(\mu_H) \iff E_H \le 0.3 \quad \text{(H có thể chịu bất định hơn)}$$
 ### (9) Tương tác giữa các tầng qua đột biến
-\\[  
-\mu_L \xrightarrow{\text{kích hoạt}} \mu_M \xrightarrow{\text{điều phối}} \mu_H \xrightarrow{\text{phản hồi}} \mu_L  
-\\]  
-(Một đột biến ở tầng L có thể dẫn đến đột biến ở tầng M, v.v.)
+\$$\mu_L \xrightarrow{\text{kích hoạt}} \mu_M \xrightarrow{\text{điều phối}} \mu_H \xrightarrow{\text{phản hồi}} \mu_L  
+\$$(Một đột biến ở tầng L có thể dẫn đến đột biến ở tầng M, v.v.)
 * * *
 ## V. ENTROPY (`E`) VÀ LACUNARITY (`Λ`) TRONG BỐI CẢNH MỚI
 ### (10) Entropy – thước đo "áp lực chết"
-\\[  
-E(\mu) = \frac{\text{Number of competing mutations}}{\text{Total possible states}}  
-\\]  
-(Entropy cao → nhiều đối thủ → khó sống sót.)
+\$$E(\mu) = \frac{\text{Number of competing mutations}}{\text{Total possible states}}  
+\$$(Entropy cao → nhiều đối thủ → khó sống sót.)
 ### (11) Lacunarity – thước đo "khoảng trống cho đột biến mới"
-\\[  
-\Lambda(\mu) = \frac{\text{Variance of empty spaces}}{\text{Mean of empty spaces}^2}  
-\\]  
-(Λ lớn → nhiều khoảng trống → dễ sinh đột biến mới → tăng cơ hội sống sót cho hệ thống, nhưng không đảm bảo cá thể đột biến sống sót.)
+\$$\Lambda(\mu) = \frac{\text{Variance of empty spaces}}{\text{Mean of empty spaces}^2}  
+\$$(Λ lớn → nhiều khoảng trống → dễ sinh đột biến mới → tăng cơ hội sống sót cho hệ thống, nhưng không đảm bảo cá thể đột biến sống sót.)
 * * *
 ## VI. TÁT 2 (CROSS‑VALIDATION) – CƠ CHẾ TĂNG KHẢ NĂNG SỐNG SÓT
 ### (12) Xác suất sống sót khi có Tát 2
-\\[  
-P_{\text{survive}}(\mu) = 1 - \prod_{i=1}^{n} (1 - p_i)  
-\\]  
-Với \\( p_i \\) là xác suất xác nhận từ nguồn thứ `i` (tối thiểu `n=2`).
+\$$P_{\text{survive}}(\mu) = 1 - \prod_{i=1}^{n} (1 - p_i)  
+\$$Với \$ p_i \$ là xác suất xác nhận từ nguồn thứ `i` (tối thiểu `n=2`).
 ### (13) Không có Tát 2 → nguy cơ chết cao
-\\[  
-P_{\text{survive}}(\mu) \approx p_{\text{single}} \ll 1 \quad \text{(nếu không có xác nhận độc lập)}  
-\\]
-* * *
-## VII. ỨNG DỤNG CHO AI (ASEA – ADAPTIVE SELF-EVOLUTION AI)
-### (14) Một AI theo Trang ∅ Framework (phiên bản Mutation & Survival)
-  * **Mutation:** AI tự tạo ra các trọng số mới, kết nối mới, hoặc thay đổi kiến trúc (theo phân bố lacunarity).
-
-
-  * **Survival:** Chỉ những thay đổi làm giảm entropy (lỗi, hallucination) và vượt qua Tát 2 mới được giữ lại.
-
-
-  * **Không có tín hiệu, không có nhiễu.** AI không phân biệt "đúng" hay "sai" theo nghĩa tuyệt đối. Nó chỉ biết: thay đổi này có giúp nó sống sót (đạt mục tiêu) hay không.
-
-
-### (15) Phương trình học cho ASEA
-\\[  
-\Delta w = \eta \cdot \nabla \text{Survival} \quad \text{(thay vì } \nabla \text{Loss)}  
-\\]  
-Với `Survival` là một hàm đánh giá khả năng tồn tại / thích nghi (có thể là điểm thưởng, hoặc điểm trừ khi hallucination).
-### (16) Tiêu chí sống sót của một mô hình AI
-\\[  
-\text{Survive}(\text{model}) \iff \text{Accuracy} > \theta_a \quad \text{và} \quad \text{HallucinationRate} < \theta_h \quad \text{và} \quad \text{T2 passes}  
-\\]
+\$$P_{\text{survive}}(\mu) \approx p_{\text{single}} \ll 1 \quad \text{(nếu không có xác nhận độc lập)}  
+$$* * * ## VII. ỨNG DỤNG CHO AI (ASEA – ADAPTIVE SELF-EVOLUTION AI) ### (14) Một AI theo Trang ∅ Framework (phiên bản Mutation & Survival) * **Mutation:** AI tự tạo ra các trọng số mới, kết nối mới, hoặc thay đổi kiến trúc (theo phân bố lacunarity). * **Survival:** Chỉ những thay đổi làm giảm entropy (lỗi, hallucination) và vượt qua Tát 2 mới được giữ lại. * **Không có tín hiệu, không có nhiễu.** AI không phân biệt "đúng" hay "sai" theo nghĩa tuyệt đối. Nó chỉ biết: thay đổi này có giúp nó sống sót (đạt mục tiêu) hay không. ### (15) Phương trình học cho ASEA \$$\Delta w = \eta \cdot \nabla \text{Survival} \quad \text{(thay vì } \nabla \text{Loss)} \$$Với `Survival` là một hàm đánh giá khả năng tồn tại / thích nghi (có thể là điểm thưởng, hoặc điểm trừ khi hallucination). ### (16) Tiêu chí sống sót của một mô hình AI \$$\text{Survive}(\text{model}) \iff \text{Accuracy} > \theta_a \quad \text{và} \quad \text{HallucinationRate} < \theta_h \quad \text{và} \quad \text{T2 passes}$$
 * * *
 ## VIII. VÍ DỤ TỐI GIẢN (SO SÁNH VỚI LÝ THUYẾT CŨ)
 |                                                                |

@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, mckinsey-transaction-banking-diagnostic-rscf]
+source: 07_SKILLS/mckinsey-transaction-banking-diagnostic-rscf/references
+tags: [reference, mckinsey-transaction-banking-diagnostic-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -194,3 +201,7 @@ tags: [reference, mckinsey-transaction-banking-diagnostic-rscf]
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

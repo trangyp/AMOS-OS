@@ -1,8 +1,15 @@
 ---
 title: "L11 Causal Modeling MOC"
 type: moc
-tags: [moc, l11-causal-modeling]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L11_CAUSAL_MODELING
+tags: [moc, l11-causal-modeling, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L11 Causal Modeling — Map of Content
 

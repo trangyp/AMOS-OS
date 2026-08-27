@@ -1,8 +1,15 @@
 ---
 title: "Layers MOC"
 type: moc
-tags: [moc, layers]
+source: 11_KNOWLEDGE/layers
+tags: [moc, layers, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: layer_architecture
 ---
+
 
 # Layers — Map of Content
 

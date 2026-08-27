@@ -3,7 +3,14 @@ title: NEUROSYNCAI X AWS
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/neurosyncai-x-aws, misc]
 type: note
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
+
 
 # NEUROSYNCAI X AWS
 

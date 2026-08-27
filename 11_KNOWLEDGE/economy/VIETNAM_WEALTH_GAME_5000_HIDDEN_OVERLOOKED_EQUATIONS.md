@@ -1,13 +1,16 @@
 ---
 title: VIETNAM WEALTH GAME 5000 HIDDEN OVERLOOKED EQUATIONS
-tags: [economy, finance, market]
+tags: [economy, finance, market, canon/knowledge]
 type: data
 source: 11_KNOWLEDGE/economy
+rscf:
+  state: AMOS_MODEL
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: economic_model
+
 ---
-
-
-
-
+# VIETNAM WEALTH GAME 5000 HIDDEN OVERLOOKED EQUATIONS
 
 ```json
 {

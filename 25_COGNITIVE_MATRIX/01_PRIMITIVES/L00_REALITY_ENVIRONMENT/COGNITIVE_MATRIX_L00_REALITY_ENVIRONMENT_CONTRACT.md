@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L00 REALITY ENVIRONMENT CONTRACT
 type: cognitive
-tags: [cognitive_matrix, primitives, l00_reality_environment, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
+tags: [cognitive_matrix, primitives, l00_reality_environment, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L00_REALITY_ENVIRONMENT — Reality & Environment grounding Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L00_REALITY_ENVIRONMENT_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

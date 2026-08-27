@@ -1,10 +1,15 @@
 ---
 title: 2026 08 22 ACCESSIBILITY I18N GOVERNANCE
-tags: [dated, dated/2026-08-22]
+tags: [dated, dated/2026-08-22, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/dated
----
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 
+---
 
 
 # 2026-08-22 Accessibility & i18n Governance
@@ -50,4 +55,5 @@ Closed gap cluster 270-273: Accessibility & i18n. 4 gaps, 4 subsystems, 4 gates,
 - accessibility_i18n
 
 ---
+- [[KNOWLEDGE_MOC]]
 **MOC:** [[DATED_MOC]]

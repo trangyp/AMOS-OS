@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-agency-consequence-governor]
+source: 07_SKILLS/amos-agency-consequence-governor/references
+tags: [reference, amos-agency-consequence-governor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -192,31 +199,11 @@ budget) Group Technology Leads (e.g. EAS, IT Security, App)
 
 The architecture separates:
 
-\[
-\boxed{
-Core\ Intelligence
-\neq
-Domain\ Product
-\neq
-Commercial\ Layer
-\neq
-Company\ Value
-}
-\]
+$$\boxed{ Core\ Intelligence \neq Domain\ Product \neq Commercial\ Layer \neq Company\ Value }$$
 
 The primary system relationship is:
 
-\[
-\boxed{
-CoreEngine
-\rightarrow
-DomainProducts
-\rightarrow
-CommercialSystems
-\rightarrow
-CompanyScale
-}
-\]
+$$\boxed{ CoreEngine \rightarrow DomainProducts \rightarrow CommercialSystems \rightarrow CompanyScale }$$
 
 The source frames the system as a reusable intelligence substrate rather than a single application.
 
@@ -244,23 +231,11 @@ The architecture should preserve these categories separately.
 
 In particular:
 
-\[
-\boxed{
-Architecture\ Plausibility
-\neq
-Commercial\ Validation
-}
-\]
+$$\boxed{ Architecture\ Plausibility \neq Commercial\ Validation }$$
 
 and:
 
-\[
-\boxed{
-Projected\ Revenue
-\neq
-Observed\ Revenue
-}
-\]
+$$\boxed{ Projected\ Revenue \neq Observed\ Revenue }$$
 
 ---
 
@@ -294,17 +269,7 @@ The source can be represented as:
 
 The system is therefore fundamentally:
 
-\[
-\boxed{
-Platform
-+
-Portfolio
-+
-Commercialization
-+
-Scale
-}
-\]
+$$\boxed{ Platform + Portfolio + Commercialization + Scale }$$
 
 ---
 
@@ -327,13 +292,7 @@ How products are packaged, sold, governed, supported, and scaled.
 
 These layers must not be collapsed.
 
-\[
-\boxed{
-IntelligenceCapability
-\neq
-ProductMarketFit
-}
-\]
+$$\boxed{ IntelligenceCapability \neq ProductMarketFit }$$
 
 ---
 
@@ -343,13 +302,7 @@ Level 0 is the shared engine beneath all commercial domains.
 
 Conceptually:
 
-\[
-\boxed{
-L_0
-=
-CoreIntelligence
-}
-\]
+$$\boxed{ L_0 = CoreIntelligence }$$
 
 Its role is to provide reusable primitives such as:
 
@@ -366,3 +319,8 @@ orchest
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]
+```

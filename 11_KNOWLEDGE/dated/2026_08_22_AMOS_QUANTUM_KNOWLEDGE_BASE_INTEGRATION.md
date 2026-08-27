@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Hermes ↔ Cosmo Brain"
 origin_architect: "Trang Phan"
 type: note
-tags: [cosmo, amos, canon-group/system, rscf/claim, rscf/state/observation, topic/quantum, topic/knowledge-base, dated, dated/2026-08-22]
+source: 11_KNOWLEDGE/dated
+tags: [cosmo, amos, canon-group/system, rscf/claim, rscf/state/observation, topic/quantum, topic/knowledge-base, dated, dated/2026-08-22, canon/knowledge]
 status: "verified"
 provenance: "OBSERVATION"
 confidence: "VERIFIED"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
 
 
@@ -46,7 +52,7 @@ The knowledge base now covers:
 ```bash
 cd cosmo-brain
 npx esbuild knowledge/approved/index.ts --bundle --format=esm --outfile=/dev/null
-# ✓ Done in 3ms
+# Done in 3ms
 
 npm test
 # 73 test files passed, 1191 tests passed, 0 failures

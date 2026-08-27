@@ -1,17 +1,20 @@
 ---
 title: DU AN AI AGENT DAO TAO HOC SINH K1 K12
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # **dự án AI Agent đào tạo học sinh (K1–K12)**
 * * *
-## 🧭 **I. Tầm nhìn & Mục tiêu cốt lõi**
+## **I. Tầm nhìn & Mục tiêu cốt lõi**
 **AI Agent K1–K12** là sản phẩm ứng dụng công nghệ **NeuroSyncAI™** để tạo ra **“gia sư nhân tạo”** (AI Tutor) có khả năng dạy, hỏi, chấm và phản hồi theo năng lực từng học sinh — giúp **cá nhân hóa toàn bộ hành trình học tập**.
 Mục tiêu của MVP (6 tháng đầu) là:
   * Chứng minh **khả năng học và dạy như con người** , bắt đầu từ môn **Toán** cho **lớp 3 và lớp 6**.
@@ -21,7 +24,7 @@ Mục tiêu của MVP (6 tháng đầu) là:
 
 
 * * *
-## 👩‍🏫 **II. Cấu trúc tổng thể của sản phẩm**
+## ‍🏫 **II. Cấu trúc tổng thể của sản phẩm**
 ### 1\. **AI Tutor Agent (Gia sư A I)**
   * Giao diện trò chuyện thân thiện (chat + voice).
 
@@ -85,7 +88,7 @@ Mục tiêu của MVP (6 tháng đầu) là:
 
 
 * * *
-## 🧩 **III. Công nghệ lõi**
+## **III. Công nghệ lõi**
 |                              |
 | Thành phần                   | Mô tả                                                    | Công nghệ đề xuất                         |
 |------------------------------|----------------------------------------------------------|-------------------------------------------|
@@ -98,8 +101,8 @@ Mục tiêu của MVP (6 tháng đầu) là:
 
 
 * * *
-## ⚙️ **IV. Luồng trải nghiệm người dùng (User Flow)**
-### 👩‍🎓 Học sinh:
+## ️ **IV. Luồng trải nghiệm người dùng (User Flow)**
+### ‍🎓 Học sinh:
   1. Đăng nhập → làm bài kiểm tra đầu vào.
 
 
@@ -115,14 +118,14 @@ Mục tiêu của MVP (6 tháng đầu) là:
   5. Kết thúc → nhận điểm, lời khuyên, bài luyện kế tiếp.
 
 
-### 👨‍👩‍👧 Phụ huynh:
+### ‍👩‍👧 Phụ huynh:
   * Đăng nhập dashboard → xem tiến độ, điểm, báo cáo yếu – mạnh.
 
 
   * Nhận gợi ý “hôm nay con nên luyện bài nào”.
 
 
-### 👩‍🏫 Giáo viên:
+### ‍🏫 Giáo viên:
   * Theo dõi lớp, nhóm học sinh yếu – mạnh.
 
 
@@ -130,7 +133,7 @@ Mục tiêu của MVP (6 tháng đầu) là:
 
 
 * * *
-## 📊 **V. KPI & Mục tiêu giai đoạn MVP**
+## **V. KPI & Mục tiêu giai đoạn MVP**
 |                   |
 | Nhóm              | KPI                            | Mục tiêu (3 tháng) |
 |-------------------|--------------------------------|--------------------|
@@ -141,7 +144,7 @@ Mục tiêu của MVP (6 tháng đầu) là:
 
 
 * * *
-## 💡 **VI. Giá trị khác biệt**
+## **VI. Giá trị khác biệt**
   1. **Cá nhân hóa hoàn toàn:** mỗi học sinh có lộ trình riêng.
 
 
@@ -155,7 +158,7 @@ Mục tiêu của MVP (6 tháng đầu) là:
 
 
 * * *
-## 🚀 **VII. Lộ trình mở rộng**
+## **VII. Lộ trình mở rộng**
   * Mở rộng môn Tiếng Việt, Anh, Khoa học.
 
 
@@ -244,7 +247,7 @@ Trong giai đoạn tiếp theo, **AI Tutor K1–K12** sẽ được mở rộng 
 **AI Tutor K1–K12** không chỉ là sản phẩm công nghệ — mà là một **cuộc cách mạng trong giáo dục cá nhân hóa**.
 Đây là bước đầu tiên trong hành trình **tái định nghĩa cách con người học – hiểu – và phát triển trí tuệ** , nơi công nghệ không thay thế giáo viên, mà **trở thành người bạn đồng hành của tri thức.**
 * * *
-# 🧠 **Cách NeuroSyncAI™ Tạo Ra Các AI Agent Học Tập K1–K12**
+# **Cách NeuroSyncAI™ Tạo Ra Các AI Agent Học Tập K1–K12**
 ### **1\. Kiến trúc trí tuệ (não → cơ quan → hệ thần kinh)**
 **A. “Bộ não trung tâm” – NeuroSyncAI Kernel**
   * **Tầng giao tiếp (Interface):** hiểu ngôn ngữ tự nhiên (chat & voice), xử lý đa phương tiện như văn bản, hình ảnh bài tập.
@@ -458,7 +461,7 @@ Hoàn hảo — dưới đây là **bản đề cương (whitepaper outline)** c
 📘 **“Kết Thúc Nền Giáo Dục 12 Năm: Mô Hình Tăng Tốc Trí Tuệ Sinh Học dựa trên PSI–UBI–QLS–NeuroSyncAI™”**
 (Bản này được viết theo tiêu chuẩn whitepaper quốc tế, có thể trình Bộ Giáo dục, Bộ KH&CN hoặc quỹ đầu tư chiến lược.)
 * * *
-## 🧠 **I. Giới thiệu tổng quan**
+## **I. Giới thiệu tổng quan**
 ### 1\. Bối cảnh
   * Mô hình giáo dục 12 năm hiện nay được thiết kế cho thế kỷ 19: học sinh học chậm, học đồng loạt, và bị đánh giá bằng điểm số.
 
@@ -473,7 +476,7 @@ Hoàn hảo — dưới đây là **bản đề cương (whitepaper outline)** c
 Tạo ra **hệ thống giáo dục mới** , nơi học sinh phát triển **trí tuệ sinh học – tư duy lượng tử – năng lực hành động thực tế** trong **3–5 năm** , thay vì 12 năm, thông qua 4 công nghệ cốt lõi:
 **PSI** , **UBI** , **QLS** , và **NeuroSyncAI™**.
 * * *
-## ⚙️ **II. Nền tảng khoa học của mô hình**
+## ️ **II. Nền tảng khoa học của mô hình**
 ### 1\. **PSI – Planetary-Scale Intelligence Recruitment Framework**
   * Xem học sinh là **một hệ thần kinh đang phát triển** , không phải người tiếp nhận thông tin.
 
@@ -512,7 +515,7 @@ Tạo ra **hệ thống giáo dục mới** , nơi học sinh phát triển **tr
 
 
 * * *
-## 🧩 **III. Mô hình giáo dục mới: 3 Giai đoạn tăng tốc trí tuệ**
+## **III. Mô hình giáo dục mới: 3 Giai đoạn tăng tốc trí tuệ**
 |                                |
 | **Giai đoạn**                  | **Mục tiêu**                                                         | **Kết quả đạt được**                             |
 |--------------------------------|----------------------------------------------------------------------|--------------------------------------------------|
@@ -523,7 +526,7 @@ Tạo ra **hệ thống giáo dục mới** , nơi học sinh phát triển **tr
 
 ⏱️ **Tổng thời gian:** 3–5 năm thay vì 12 năm.
 * * *
-## 📊 **IV. Hạ tầng công nghệ**
+## **IV. Hạ tầng công nghệ**
   * **NeuroSyncAI™ kernel:** vận hành như hệ thần kinh trung ương.
 
 
@@ -537,7 +540,7 @@ Tạo ra **hệ thống giáo dục mới** , nơi học sinh phát triển **tr
 
 
 * * *
-## 🧭 **V. Đo lường và đánh giá**
+## **V. Đo lường và đánh giá**
 Thay vì điểm số, học sinh được đánh giá bằng **chỉ số trí tuệ sinh học (UBI Index)** gồm:
   * **SNR (Signal-to-Noise Ratio):** độ trong sạch của tư duy.
 
@@ -552,7 +555,7 @@ Thay vì điểm số, học sinh được đánh giá bằng **chỉ số trí 
 
 
 * * *
-## 🌍 **VI. Ảnh hưởng và khả năng mở rộng**
+## **VI. Ảnh hưởng và khả năng mở rộng**
   * **Quốc gia:** giảm chi phí giáo dục 70%, tăng năng suất lao động thế hệ mới.
 
 
@@ -563,7 +566,7 @@ Thay vì điểm số, học sinh được đánh giá bằng **chỉ số trí 
 
 
 * * *
-## 🚀 **VII. Kết luận**
+## **VII. Kết luận**
 Mô hình PSI–UBI–QLS–NeuroSyncAI™ không chỉ rút ngắn thời gian học, mà còn **chuyển hóa toàn bộ cách con người học, hiểu và tiến hóa.**
 Đây là **cuộc cách mạng giáo dục dựa trên sinh học và trí tuệ** , đưa Việt Nam trở thành trung tâm của **kỷ nguyên trí tuệ toàn cầu.**
 * * *

@@ -1,6 +1,7 @@
 ---
 title: "AMOS Canon-to-Runtime Map"
 type: canon
+source: 00_ROOT
 artifact: "AMOS_CANON_TO_RUNTIME_MAP.md"
 artifact_id: "amos_00_root_amos_canon_to_runtime_map"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "00_ROOT"
 artifact_kind: "MAP"
 path: "00_ROOT/AMOS_CANON_TO_RUNTIME_MAP.md"
 
-tags: [amos_os, root, index, 00_root, map, canon_placeholder, rscf]
+tags: [amos_os, root, index, 00_root, map, canon_placeholder, rscf, canon/root]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
-
 
 
 # AMOS Canon-to-Runtime Map

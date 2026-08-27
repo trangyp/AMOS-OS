@@ -1,18 +1,21 @@
 ---
 title: FROM BIOMETRICS TO BIOLOGICAL INTELLIGENCE BUILDIN BOOKS
-tags: [logic, reasoning, formal]
+tags: [logic, reasoning, formal, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/logic
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
+
 ---
-
-
-
 
 
 # **From Biometrics to Biological Intelligence: Building the Infrastructure of Human-Centric Technology**
 * * *
 * * *
-## 🔧 STRUCTURAL FRAME (MECE + UBI-Aligned)
+## STRUCTURAL FRAME (MECE + UBI-Aligned)
 * * *
 ### **1\. Introduction**
   * Clarify purpose: why biometrics are insufficient for ethical, functional, or high-stakes systems.
@@ -152,7 +155,7 @@ source: 11_KNOWLEDGE/logic
 
 
 * * *
-### 📎 Appendix / Visuals
+### Appendix / Visuals
   * Diagram: 3-layer stack (Biometrics → Nervous System → Biological Intelligence)
 
 

@@ -1,11 +1,15 @@
 ---
 title: AMOS 7 PART UNIVERSE CANON FULL ARCHITECTURE V2
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
 
 
 # AMOS 7-Part Universe Canon — Full Persistence Architecture
@@ -104,9 +108,7 @@ Constraint defines what can and cannot occur inside the modeled system.
 
 Let a bounded system at time `t` have admissible state space:
 
-\[
-\Omega_t = \{x \in \mathcal{X} : C_i(x,t,r,o) \le 0,\; i=1,\ldots,m\}
-\]
+$$\Omega_t = \{x \in \mathcal{X} : C_i(x,t,r,o) \le 0,\; i=1,\ldots,m\}$$
 
 where:
 
@@ -197,9 +199,7 @@ Source properties:
 
 Represent a directed flow graph:
 
-\[
-G_F = (V, E, q, \kappa, \ell, \tau)
-\]
+$$G_F = (V, E, q, \kappa, \ell, \tau)$$
 
 where:
 
@@ -212,15 +212,11 @@ where:
 
 A bounded flow condition:
 
-\[
-0 \le q_e(t) \le \kappa_e(t)
-\]
+$$0 \le q_e(t) \le \kappa_e(t)$$
 
 A simple conservation-style AMOS model:
 
-\[
-\Delta S_i = \sum_j q_{ji} - \sum_k q_{ik} - \ell_i
-\]
+$$\Delta S_i = \sum_j q_{ji} - \sum_k q_{ik} - \ell_i$$
 
 This is a structural modeling device, not a universal conservation law for all AMOS domains.
 
@@ -292,9 +288,7 @@ Source properties:
 
 Let structure be a typed graph:
 
-\[
-G_S = (N, R, I, D)
-\]
+$$G_S = (N, R, I, D)$$
 
 where:
 
@@ -305,9 +299,7 @@ where:
 
 Define structural integrity:
 
-\[
-I_S = 1 - \frac{W_{broken}}{W_{load-bearing}}
-\]
+$$I_S = 1 - \frac{W_{broken}}{W_{load-bearing}}$$
 
 with explicit warning: this is an AMOS scoring model and only meaningful if edge weights are defined and validated.
 
@@ -392,26 +384,15 @@ Source properties:
 
 For proposed transition:
 
-\[
-x_t \xrightarrow{a} x_{t+1}
-\]
+$$x_t \xrightarrow{a} x_{t+1}$$
 
 define admissibility:
 
-\[
-A(a,x_t) =
-C(x_t)
-\land P(a,x_t)
-\land Auth(a,x_t)
-\land Fresh(x_t)
-\land TxValid(a,x_t)
-\]
+$$A(a,x_t) = C(x_t) \land P(a,x_t) \land Auth(a,x_t) \land Fresh(x_t) \land TxValid(a,x_t)$$
 
 Commit is allowed only if:
 
-\[
-Commit(a) = A(a,x_t) \land A(a,x_{commit})
-\]
+$$Commit(a) = A(a,x_t) \land A(a,x_{commit})$$
 
 This implements the v4.4 infrastructure principle:
 
@@ -493,14 +474,7 @@ T[event_time,
 
 ### Freshness operator
 
-\[
-Fresh(e,t) =
-\mathbf{1}[t - t_{obs} \le \Delta_e]
-\cdot
-\mathbf{1}[regime_t = regime_e]
-\cdot
-\mathbf{1}[epoch_t = epoch_e]
-\]
+$$Fresh(e,t) = \mathbf{1}[t - t_{obs} \le \Delta_e] \cdot \mathbf{1}[regime_t = regime_e] \cdot \mathbf{1}[epoch_t = epoch_e]$$
 
 where `Δ_e` is evidence-specific validity horizon.
 
@@ -508,9 +482,7 @@ where `Δ_e` is evidence-specific validity horizon.
 
 Define deviation burden:
 
-\[
-D(t) = \int_0^t \max(0,\delta(\tau)-R(\tau))\,d\tau
-\]
+$$D(t) = \int_0^t \max(0,\delta(\tau)-R(\tau))\,d\tau$$
 
 where:
 
@@ -561,15 +533,7 @@ Let:
 
 Admissible adaptation:
 
-\[
-\Delta\theta \in \mathcal{A}
-\iff
-I^*(\theta+\Delta\theta)=true
-\land
-R(\theta+\Delta\theta)\le R_{max}
-\land
-Validation(\theta+\Delta\theta)=pass
-\]
+$$\Delta\theta \in \mathcal{A} \iff I^*(\theta+\Delta\theta)=true \land R(\theta+\Delta\theta)\le R_{max} \land Validation(\theta+\Delta\theta)=pass$$
 
 ### Governed evolution loop
 
@@ -652,24 +616,13 @@ Let:
 
 A source-aligned AMOS collapse condition can be modeled as:
 
-\[
-CollapseRisk \uparrow \quad \text{when} \quad E(t) > K(t)
-\]
+$$CollapseRisk \uparrow \quad \text{when} \quad E(t) > K(t)$$
 
 This is not a universal deterministic law; it is an AMOS structural model.
 
 ### Recovery condition
 
-\[
-Recoverable =
-Damage < IrreversibilityThreshold
-\land
-RepairCapacity > RepairDemand
-\land
-CoreIdentityRecoverable
-\land
-AuthorityAvailable
-\]
+$$Recoverable = Damage < IrreversibilityThreshold \land RepairCapacity > RepairDemand \land CoreIdentityRecoverable \land AuthorityAvailable$$
 
 ### Termination failure modes
 
@@ -689,9 +642,7 @@ The seven parts should not be treated as isolated boxes.
 
 Define coupling matrix:
 
-\[
-M_{ij} = influence(P_i \rightarrow P_j)
-\]
+$$M_{ij} = influence(P_i \rightarrow P_j)$$
 
 where `P_i` and `P_j` are canon parts.
 
@@ -768,11 +719,7 @@ PartCell = {
 
 ### Confidence ceiling
 
-\[
-Conf(conclusion)
-\le
-\min_{p \in load-bearing-premises} Conf(p)
-\]
+$$Conf(conclusion) \le \min_{p \in load-bearing-premises} Conf(p)$$
 
 unless an independent path revalidates the conclusion.
 
@@ -909,9 +856,7 @@ D19 Temporal Position
 
 ### State address
 
-\[
-L_{ij}(t) = State(D_i, C_j, t)
-\]
+$$L_{ij}(t) = State(D_i, C_j, t)$$
 
 The seven-part canon tells AMOS **what persistence function to audit**.
 
@@ -971,9 +916,7 @@ Y[cycle, phase, velocity, stress, synchronization, evidence]
 
 Let `φ_i` be normalized phase of cycle `i`.
 
-\[
-Slip_{ij}=|\phi_i-\phi_j|
-\]
+$$Slip_{ij}=|\phi_i-\phi_j|$$
 
 A system may have correct components but be temporally misaligned.
 
@@ -986,11 +929,7 @@ Example:
 
 ### Synchronization risk
 
-\[
-R_{sync}
-=
-\sum_{i<j} w_{ij} \cdot Slip_{ij}
-\]
+$$R_{sync} = \sum_{i<j} w_{ij} \cdot Slip_{ij}$$
 
 This is a diagnostic AMOS model.
 
@@ -1036,9 +975,7 @@ X_t = {
 
 Transition:
 
-\[
-X_{t+1} = \mathcal{T}(X_t, u_t, e_t)
-\]
+$$X_{t+1} = \mathcal{T}(X_t, u_t, e_t)$$
 
 where:
 
@@ -1125,21 +1062,15 @@ No edge is promoted to causal mechanism merely because it fits the seven-part na
 
 ## Deviation load
 
-\[
-L_D(t) = \sum_k w_k \cdot d_k(t)
-\]
+$$L_D(t) = \sum_k w_k \cdot d_k(t)$$
 
 ## Repair capacity
 
-\[
-R_C(t) = f(resources, authority, time, information, trust, reversibility)
-\]
+$$R_C(t) = f(resources, authority, time, information, trust, reversibility)$$
 
 ## Persistence margin
 
-\[
-M_P(t)=R_C(t)-L_D(t)
-\]
+$$M_P(t)=R_C(t)-L_D(t)$$
 
 Interpretation:
 
@@ -1384,41 +1315,21 @@ If yes, canon closure should be marked `COMPETING` for that scope.
 
 Define decision-relevant function set for target `S`:
 
-\[
-\mathcal{F}^*(S)
-\]
+$$\mathcal{F}^*(S)$$
 
 Define canon-representable functions:
 
-\[
-\mathcal{F}_7(S)
-\]
+$$\mathcal{F}_7(S)$$
 
 Coverage:
 
-\[
-Coverage_7(S)
-=
-\frac{
-|\mathcal{F}^*(S)\cap\mathcal{F}_7(S)|
-}{
-|\mathcal{F}^*(S)|
-}
-\]
+$$Coverage_7(S) = \frac{ |\mathcal{F}^*(S)\cap\mathcal{F}_7(S)| }{ |\mathcal{F}^*(S)| }$$
 
 But coverage alone is insufficient.
 
 Define semantic distortion:
 
-\[
-Distortion_7(S)
-=
-\sum_f
-distance(
-meaning_{target}(f),
-meaning_{canon}(map(f))
-)
-\]
+$$Distortion_7(S) = \sum_f distance( meaning_{target}(f), meaning_{canon}(map(f)) )$$
 
 A stronger structural criterion:
 

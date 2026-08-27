@@ -1,8 +1,15 @@
 ---
 title: amos agent externalization architecture rscf code
 type: reference
-tags: [reference, amos-agent-externalization-architecture-rscf]
+source: 07_SKILLS/amos-agent-externalization-architecture-rscf/references
+tags: [reference, amos-agent-externalization-architecture-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Code Reference
 
@@ -50,3 +57,7 @@ class AmosAgentExternalizationArchitectureRscf:
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

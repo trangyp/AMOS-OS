@@ -1,9 +1,14 @@
 ---
 title: READ SET VALIDATOR
 type: note
-tags: [control_plane, read_set_validator.md]
+source: 03_CONTROL_PLANE/05_PROVENANCE
+tags: [control_plane, read_set_validator.md, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # READ SET VALIDATOR
@@ -70,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[05_PROVENANCE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

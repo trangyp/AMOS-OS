@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-c05-mind-behavior-master]
+source: 07_SKILLS/amos-c05-mind-behavior-master/references
+tags: [reference, amos-c05-mind-behavior-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # amos-c05-mind-behavior-master — Vault-Sourced Domain Knowledge
 
@@ -364,8 +371,6 @@ Sub-capabilities: surface value conflicts, map coping/protective strategies, dis
 vs mal
 
 
-
-
 ## Vault-Sourced Domain Content
 
 > Source: `11_KNOWLEDGE/AMOS_C05_MIND_BEHAVIOR_MASTER_KNOWLEDGE.md` (36420 bytes in vault)
@@ -607,3 +612,7 @@ Change-path projections are conditional s
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

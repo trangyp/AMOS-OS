@@ -1,7 +1,13 @@
 ---
 title: COGNITIVE MATRIX PURPOSE
 type: note
-tags: [note, l27-multi-agent-cognition]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION
+tags: [note, l27-multi-agent-cognition, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -46,3 +52,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L
 
 ---
 **MOC:** [[L27_MULTI_AGENT_COGNITION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,8 +1,15 @@
 ---
 title: "01 Explore MOC"
 type: moc
-tags: [moc, 01-explore]
+source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/01_EXPLORE
+tags: [moc, 01-explore, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 01 Explore — Map of Content
 

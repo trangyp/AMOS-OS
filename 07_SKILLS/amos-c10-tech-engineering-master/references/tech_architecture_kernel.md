@@ -1,8 +1,15 @@
 ---
 title: tech architecture kernel
 type: reference
-tags: [reference, amos-c10-tech-engineering-master]
+source: 07_SKILLS/amos-c10-tech-engineering-master/references
+tags: [reference, amos-c10-tech-engineering-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Tech Architecture Kernel SUPER vInfinity
 
@@ -99,3 +106,7 @@ tags: [amos, kernel, tech, architecture, engineering, vInfinity, 5-reasoning-lay
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

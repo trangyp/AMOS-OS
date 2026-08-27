@@ -1,14 +1,22 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-c01-meta-logic-master
 name: amos-c01-meta-logic-master
 description: "AMOS C01 Meta Logic — irreducible logic core: 8 ALUs, 7 UMLs, 6 UOPs, 5 Pattern Families. Law of Law, Rule of 2, Rule of 4. Use for logic reasoning, decomposition, or meta-law validation."
 parent_skill: none
 domain: c01
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c01-meta-logic-master]
+tags: [note, amos-c01-meta-logic-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
+
 
 # AMOS C01 — Meta-Logic Master Knowledge
 
@@ -95,3 +103,91 @@ C01 governs the QUALITY of reasoning processes, not the content of the world. Ab
 
 This parent skill con
 - [[AGENT_TEMPLATE]]
+
+---
+**MOC:** [[amos-c01-meta-logic-master_MOC]]
+
+## Examples
+
+- **Scenario**: When clarifying questions, cleaning concepts, detecting contradictions, or choosing correct frames
+  - **Input**: A query matching this skill's domain (c01)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When decomposing problems into minimal coherent assumptions
+  - **Input**: A query matching this skill's domain (c01)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When selecting, combining, or disabling reasoning frameworks based on problem type
+  - **Input**: A query matching this skill's domain (c01)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the c01 domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when c01 specialization is needed
+- **Peers**: Other skills in the `c01` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/absolute_protocol_synthesis.md` — loaded on demand
+- `references/architecture_beneath_science.md` — loaded on demand
+- `references/business_logic_vulns.md` — loaded on demand
+- `references/determinism_boundaries.md` — loaded on demand
+- `references/deterministic_logic_law_engine.md` — loaded on demand
+- `references/deterministic_logic_law_engine_cognitive.md` — loaded on demand
+- `references/kernels_logic.md` — loaded on demand
+- `references/logic_architecture_human_reality.md` — loaded on demand
+- `references/logic_archive_amos2.md` — loaded on demand
+- `references/logic_core_engine.md` — loaded on demand
+- `references/logic_rule.md` — loaded on demand
+- `references/mathematics_of_dao.md` — loaded on demand
+- `references/meta_logic_config.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/trang_fpr.md` — loaded on demand
+- `references/universal_reasoning_framework.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `[[amos-c01-meta-logic-master_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-c01-meta-logic-master-workflow]]` — corresponding workflow
+- `[[amos-c01-meta-logic-master-agent]]` — corresponding agent
+

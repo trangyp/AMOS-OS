@@ -1,9 +1,14 @@
 ---
 title: O08 PREDICTION MAP
 type: map
-tags: [cognitive_matrix, o08_prediction]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O08_PREDICTION/00_INDEX
+tags: [cognitive_matrix, o08_prediction, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # O08 PREDICTION MAP
@@ -56,3 +61,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

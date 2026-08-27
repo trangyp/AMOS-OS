@@ -1,8 +1,15 @@
 ---
 title: "08 Provenance MOC"
 type: moc
-tags: [moc, 08-provenance]
+source: 02_KERNEL/08_PROVENANCE
+tags: [moc, 08-provenance, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 08 Provenance — Map of Content
 

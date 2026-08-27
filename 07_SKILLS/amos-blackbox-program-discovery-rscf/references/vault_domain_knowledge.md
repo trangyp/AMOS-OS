@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-blackbox-program-discovery-rscf]
+source: 07_SKILLS/amos-blackbox-program-discovery-rscf/references
+tags: [reference, amos-blackbox-program-discovery-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -258,3 +265,7 @@ upgraded from NOT_COVERED to COVERED.
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

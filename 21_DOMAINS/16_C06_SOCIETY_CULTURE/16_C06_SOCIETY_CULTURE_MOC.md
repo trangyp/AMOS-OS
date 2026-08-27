@@ -1,8 +1,15 @@
 ---
 title: "16 C06 Society Culture MOC"
 type: moc
-tags: [moc, 16-c06-society-culture]
+source: 21_DOMAINS/16_C06_SOCIETY_CULTURE
+tags: [moc, 16-c06-society-culture, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 16 C06 Society Culture — Map of Content
 

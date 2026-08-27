@@ -1,10 +1,15 @@
 ---
 title: BOD ENGINE MODEL
 type: model
+source: 11_KNOWLEDGE/engine
 aliases: [BOD Engine, AMOS_Bod_Engine]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/bod-engine-model, engine]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
 
 
 # AMOS BOD Engine
@@ -40,3 +45,6 @@ The **BOD Engine** provides the decision framework for a Global Chief Executive 
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

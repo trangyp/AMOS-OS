@@ -1,6 +1,7 @@
 ---
 title: "Heritage Model Registry"
 type: model
+source: 13_MODELS/04_DOMAIN
 artifact: "HERITAGE_MODEL_REGISTRY.md"
 artifact_id: "amos_13_models_04_domain_heritage_model_registry"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "13_MODELS/04_DOMAIN"
 artifact_kind: "REGISTRY"
 path: "13_MODELS/04_DOMAIN/HERITAGE_MODEL_REGISTRY.md"
 
-tags: [amos_os, model, specification, 13_models, registry, canon_placeholder, rscf]
+tags: [amos_os, model, specification, 13_models, registry, canon_placeholder, rscf, canon/model]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Heritage Model Registry

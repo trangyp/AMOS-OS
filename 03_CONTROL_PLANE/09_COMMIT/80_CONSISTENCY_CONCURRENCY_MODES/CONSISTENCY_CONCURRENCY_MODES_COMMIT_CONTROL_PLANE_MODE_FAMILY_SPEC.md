@@ -1,9 +1,14 @@
 ---
 title: CONSISTENCY CONCURRENCY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
-tags: [control_plane, 80_consistency_concurrency_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/80_CONSISTENCY_CONCURRENCY_MODES
+tags: [control_plane, 80_consistency_concurrency_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # CONSISTENCY CONCURRENCY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
@@ -38,3 +43,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[80_CONSISTENCY_CONCURRENCY_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

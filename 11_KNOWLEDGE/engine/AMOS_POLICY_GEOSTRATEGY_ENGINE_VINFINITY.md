@@ -1,11 +1,17 @@
 ---
 title: "AMOS Policy Geostrategy Engine vInfinity"
 type: strategy
+source: 11_KNOWLEDGE/engine
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Policy_Geostrategy_Engine_v0.json (257 lines, 7KB)"
 origin_type: "SOURCE"
 category: "kernel"
-tags: [amos, policy, geostrategy, engine, v-infinity, national-strategy, decision-support, lens-space]
+tags: [amos, policy, geostrategy, engine, v-infinity, national-strategy, decision-support, lens-space, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
 
 
@@ -165,3 +171,6 @@ option_comparison_matrix, risk_register, kpi_scorecard
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

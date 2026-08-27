@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Anytime-Pac-Bayes-Density-Ratio-Rscf MOC"
 type: moc
-tags: [moc, arxiv-anytime-pac-bayes-density-ratio-rs]
+source: 07_SKILLS/arxiv-anytime-pac-bayes-density-ratio-rscf
+tags: [moc, arxiv-anytime-pac-bayes-density-ratio-rs, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Anytime-Pac-Bayes-Density-Ratio-Rscf — Map of Content
 

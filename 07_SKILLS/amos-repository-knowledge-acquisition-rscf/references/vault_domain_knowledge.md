@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-repository-knowledge-acquisition-rscf]
+source: 07_SKILLS/amos-repository-knowledge-acquisition-rscf/references
+tags: [reference, amos-repository-knowledge-acquisition-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -257,3 +264,4 @@ Total knowledge tests: 33 (was 29, +4 new)
 
 ---
 **MOC:** [[references_MOC]]
+```

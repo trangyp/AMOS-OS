@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-c03-physics-cosmos-master]
+source: 07_SKILLS/amos-c03-physics-cosmos-master/references
+tags: [reference, amos-c03-physics-cosmos-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # amos-c03-physics-cosmos-master — Vault-Sourced Domain Knowledge
 
@@ -425,8 +432,6 @@ critical conditions. Conventional BCS theory explains many superconductors via p
 electrons and a condensate; unconventional mechanisms remai
 
 
-
-
 ## Vault-Sourced Domain Content
 
 > Source: `11_KNOWLEDGE/AMOS_C03_PHYSICS_COSMOS_MASTER_KNOWLEDGE.md` (37852 bytes in vault)
@@ -679,3 +684,7 @@ A new AMOS physics claim may move from `MODEL` toward stronger status only when:
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

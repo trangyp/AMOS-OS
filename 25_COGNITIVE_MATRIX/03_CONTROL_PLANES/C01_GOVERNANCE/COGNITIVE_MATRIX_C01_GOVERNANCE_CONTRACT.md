@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX C01 GOVERNANCE CONTRACT
 type: cognitive
-tags: [cognitive_matrix, control_planes, c01_governance, contract]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE
+tags: [cognitive_matrix, control_planes, c01_governance, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # C01_GOVERNANCE — Top governance control: law stack, authority envelopes, gate composition over the whole matrix.
@@ -44,3 +49,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[C01_GOVERNANCE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

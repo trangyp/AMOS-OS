@@ -1,11 +1,16 @@
 ---
 title: AMOS RSCF NODES
 type: rscf
+source: 00_ROOT
 canon-group: reference
 rscf-state: derived
-tags: [rscf, index, moc, nodes]
+tags: [rscf, index, moc, nodes, canon/root]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
-
 
 
 # AMOS RSCF Nodes

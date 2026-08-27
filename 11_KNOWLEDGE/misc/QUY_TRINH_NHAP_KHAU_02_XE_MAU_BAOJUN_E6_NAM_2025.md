@@ -1,12 +1,15 @@
 ---
 title: QUY TRINH NHAP KHAU 02 XE MAU BAOJUN E6 NAM 2025
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **QUY TRÌNH NHẬP KHẨU 02 XE MẪU BAOJUN E6 NĂM 2025**

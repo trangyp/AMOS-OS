@@ -1,8 +1,15 @@
 ---
 title: "Amos-Runtime-Context-Reuse-Rscf MOC"
 type: moc
-tags: [moc, amos-runtime-context-reuse-rscf]
+source: 07_SKILLS/amos-runtime-context-reuse-rscf
+tags: [moc, amos-runtime-context-reuse-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Runtime-Context-Reuse-Rscf — Map of Content
 

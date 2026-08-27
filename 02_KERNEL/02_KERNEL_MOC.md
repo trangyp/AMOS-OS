@@ -1,8 +1,15 @@
 ---
 title: "02 Kernel MOC"
 type: moc
-tags: [moc, 02-kernel]
+source: 02_KERNEL
+tags: [moc, 02-kernel, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 02 Kernel — Map of Content
 

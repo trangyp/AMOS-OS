@@ -1,8 +1,15 @@
 ---
 title: "08 Legal MOC"
 type: moc
-tags: [moc, 08-legal]
+source: 21_DOMAINS/08_LEGAL
+tags: [moc, 08-legal, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 08 Legal — Map of Content
 

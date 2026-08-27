@@ -1,8 +1,15 @@
 ---
 title: "Amos-Github-Rscf-Ingestion MOC"
 type: moc
-tags: [moc, amos-github-rscf-ingestion]
+source: 07_SKILLS/amos-github-rscf-ingestion
+tags: [moc, amos-github-rscf-ingestion, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Github-Rscf-Ingestion — Map of Content
 

@@ -1,20 +1,24 @@
 ---
 title: LOGIC FIRST STACK
-tags: [logic, reasoning, formal]
+tags: [logic, reasoning, formal, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/logic
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
+
 ---
-
-
 
 
 # AMOS Logic-First Stack Rewrite - Implementation Complete
 
-## 🎯 MISSION ACCOMPLISHED
+## MISSION ACCOMPLISHED
 
 I have successfully implemented the **AMOS Logic-First Stack Rewrite** following your exact specification, creating a unified enforcement layer that applies the pure-logic integrity profile across the entire AMOS stack: Runtime, Mathematical Kernel, Equation Engine, and Self-Programming Architecture.
 
-### ✅ **Global Principle Enforced**
+### **Global Principle Enforced**
 
 **Core Integrity Rule**:
 ```
@@ -26,7 +30,7 @@ ClaimedCapability <= VerifiedCapability
 NOT Verified -> NOT Complete
 ```
 
-### 📊 **All 10 Stack Components Implemented**
+### **All 10 Stack Components Implemented**
 
 1. **Unified Enforcement Layer**:
    - `IntegrityContract` with 6 core requirements
@@ -88,7 +92,7 @@ NOT Verified -> NOT Complete
     - Derivation/execution traces required
     - Verification reports attached
 
-### 🔍 **Demonstration Results**
+### **Demonstration Results**
 
 **Configuration Validation**:
 ```
@@ -123,7 +127,7 @@ NOT Verified -> NOT Complete
 ✅ constraint_awareness: True
 ```
 
-### 🧠 **All 12 Updated Main Laws Implemented**
+### **All 12 Updated Main Laws Implemented**
 
 ✅ **Law 1 — Non-Fabrication**: `UnsupportedClaim -> RejectOrDownscope`
 ✅ **Law 2 — Assumption Visibility**: `NonTrivialConclusion -> AssumptionSet`
@@ -133,7 +137,7 @@ NOT Verified -> NOT Complete
 ✅ **Law 6 — Route Discipline**: `Execute only through verified routes`
 ✅ **Law 7 — Auditability**: `Every state mutation logged`
 
-### 🚀 **Production Features**
+### **Production Features**
 
 **Error Handling**: Comprehensive validation with clear rejection reasons
 **Audit Trails**: Complete operation logging with evidence tracking
@@ -142,7 +146,7 @@ NOT Verified -> NOT Complete
 **Route Contracts**: Precondition validation before execution
 **State Management**: Explicit transitions with validation
 
-### 🎮 **Usage Examples**
+### **Usage Examples**
 
 ```python
 # Initialize logic-first configuration
@@ -172,20 +176,20 @@ result = kernel.process(
 )
 ```
 
-### 🏆 **Final Stack Definition**
+### **Final Stack Definition**
 
 **AMOS after rewrite is**:
-- ✅ **a logic-first task system**
-- ✅ **a structured mathematical kernel**
-- ✅ **a verified execution runtime**
-- ✅ **an auditable code and equation engine**
+- **a logic-first task system**
+- **a structured mathematical kernel**
+- **a verified execution runtime**
+- **an auditable code and equation engine**
 
 **Final Canonical Statement**:
 ```
 AMOS = LogicFirstRuntime + SymbolDiscipline + VerifiedRoutes + Auditability + TruthfulLimits
 ```
 
-### 🎯 **Key Achievements**
+### **Key Achievements**
 
 ✅ **Complete Integrity Enforcement**: All 6 integrity contract requirements
 ✅ **Symbol Discipline**: Framework-aware resolution for all mathematical notation
@@ -196,7 +200,7 @@ AMOS = LogicFirstRuntime + SymbolDiscipline + VerifiedRoutes + Auditability + Tr
 ✅ **State Management**: Explicit transitions with validation
 ✅ **Output Contracts**: No unverified outputs allowed
 
-### 📈 **Integration Status**
+### **Integration Status**
 
 The Logic-First Stack is now ready to replace existing AMOS components:
 - **Runtime System**: Replace soft reasoning with explicit state transitions

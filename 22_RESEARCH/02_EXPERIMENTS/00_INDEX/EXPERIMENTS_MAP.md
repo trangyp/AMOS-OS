@@ -1,9 +1,14 @@
 ---
 title: EXPERIMENTS MAP
 type: map
-tags: [amos_os, 22_research]
+source: 22_RESEARCH/02_EXPERIMENTS/00_INDEX
+tags: [amos_os, 22_research, canon/research]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # EXPERIMENTS MAP

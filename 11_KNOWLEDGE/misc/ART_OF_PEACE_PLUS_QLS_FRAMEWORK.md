@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — The_Art_of_Peace.pdf (1.88MB) + quantum-logic-systems-qls.pdf (5.1MB)"
 origin_architect: "Quynh Trang Phan"
 type: book-summary
+source: 11_KNOWLEDGE/misc
 tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, rscf/E-entropy, rscf/K-compression, rscf/G-relation, rscf/mu-mutation, topic/art-of-peace, misc]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 

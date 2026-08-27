@@ -1,8 +1,15 @@
 ---
 title: unified coding engine spec
 type: reference
-tags: [reference, amos-ghost-code-symbolic-execution-rscf]
+source: 07_SKILLS/amos-ghost-code-symbolic-execution-rscf/references
+tags: [reference, amos-ghost-code-symbolic-execution-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Unified Coding Engine Specification
 
@@ -189,13 +196,17 @@ tags: [reference, amos-ghost-code-symbolic-execution-rscf]
 
 # AMOS Real Code Verification System - Implementation Complete
 
-## 🎯 MISSION ACCOMPLISHED
+## MISSION ACCOMPLISHED
 
 I have successfully implemented the **AMOS Real Code Verification System** following your exact specification, creating a stricter foundation for distinguishing real code from fake code and enforcing the principle: `ClaimedCapability <= VerifiedCapability`.
 
-### ✅ **Global Principle Enforced**
+### **Global Principle Enforced**
 
 ```
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,6 +1,7 @@
 ---
 title: AMOS COGNITIVE SUBSTRATE V2 IMPLEMENTATION NOTES
 type: cognitive
+source: 11_KNOWLEDGE/cognitive
 created: 2026-08-23
 updated: 2026-08-23
 status: verified_complete
@@ -10,11 +11,13 @@ provenance: self_test_verified
 rscf-state: DONE
 rscf-claim: verified
 rscf-provenance: self_test
-tags: [canon-group/tech-ai, cognitive, cognition, cosmo-brain, cognitive-substrate, implementation, rscf/state/completion, rscf/claim/verified, rscf/provenance/self-test]
-
+tags: [canon-group/tech-ai, cognitive, cognition, cosmo-brain, cognitive-substrate, implementation, rscf/state/completion, rscf/claim/verified, rscf/provenance/self-test, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: cognitive_model
 ---
-
-
 
 
 # AMOS Cognitive Substrate v2.0 — Implementation Notes
@@ -106,7 +109,7 @@ tags: [canon-group/tech-ai, cognitive, cognition, cosmo-brain, cognitive-substra
 | 10. Memory retrieval governance | 34 | ✅ |
 | 11. Meta-cognitive state | 5 | ✅ |
 | 12. Persistence | 8 | ✅ (cover save/load round-trip) |
-| **Total** | **146** | **✅ 0 failures** |
+| **Total** | **146** | **0 failures** |
 
 Note: Section 3 has 12 tests (not 8) because the unified substrate tests all 20 operators individually. The 8-operator count in earlier versions was for the 17-operator draft. Final count: 11 reasoning operators × 1 test each + 9 memory/structural operators tested via integration = 12 operator tests in the unified substrate.
 
@@ -169,3 +172,6 @@ Memory retrieved is not current truth merely because it was retrieved. Epistemic
 
 ---
 **MOC:** [[COGNITIVE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

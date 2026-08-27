@@ -1,7 +1,13 @@
 ---
 title: L17 DECISION PRIMITIVES COGNITIVE MATRIX FAILURE MODES
 type: note
-tags: [note, l17-decision]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L17_DECISION
+tags: [note, l17-decision, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -45,3 +51,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L
 
 ---
 **MOC:** [[L17_DECISION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

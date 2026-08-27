@@ -1,8 +1,15 @@
 ---
 title: "Law-Stack-Enforcement-Pipeline MOC"
 type: moc
-tags: [moc, law-stack-enforcement-pipeline]
+source: 08_WORKFLOWS/law-stack-enforcement-pipeline
+tags: [moc, law-stack-enforcement-pipeline, canon/workflow]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: workflow_process
 ---
+
 
 # Law-Stack-Enforcement-Pipeline — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: vietnamese writing model
 type: reference
-tags: [reference, amos-c06-society-culture-master]
+source: 07_SKILLS/amos-c06-society-culture-master/references
+tags: [reference, amos-c06-society-culture-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vietnamese Writing Model
 

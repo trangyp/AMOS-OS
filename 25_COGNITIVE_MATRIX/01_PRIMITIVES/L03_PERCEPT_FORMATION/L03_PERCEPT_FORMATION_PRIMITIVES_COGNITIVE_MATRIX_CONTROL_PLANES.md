@@ -1,12 +1,18 @@
 ---
 type: control-plane
-tags: [amos, cognitive-matrix, l03, percept-formation, control-plane, perception, provenance, rscf, hml, governance]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
+tags: [amos, cognitive-matrix, l03, percept-formation, control-plane, perception, provenance, rscf, hml, governance, canon/cognitive-matrix]
 
 title: "L03_PERCEPT_FORMATION — Control Planes"
 origin_architect: "Trang Phan"
 status: "MODEL_CONTROL_PLANE_CONTRACT / UNIMPLEMENTED / UNVALIDATED"
 epistemic_class: "MODEL"
 runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -18,7 +24,7 @@ runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
 **Artifact:** `CONTROL_PLANES.md`  
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
-> **Canon boundary:** This artifact defines a source-bounded AMOS control-plane contract for percept formation. The governing infrastructure pattern is supported by the AMOS Infrastructure Control Plane: domain/cognitive workers produce typed evidence and proposals; infrastructure validates evidence, observed read sets, semantic transactions, constraints, provenance, authority, observability, and finalization. Detailed L03-specific object names, thresholds, topology, and implementation remain `AMOS_MODEL` unless independently recovered from direct canon or executable runtime evidence. :contentReference[oaicite:0]{index=0}
+> **Canon boundary:** This artifact defines a source-bounded AMOS control-plane contract for percept formation. The governing infrastructure pattern is supported by the AMOS Infrastructure Control Plane: domain/cognitive workers produce typed evidence and proposals; infrastructure validates evidence, observed read sets, semantic transactions, constraints, provenance, authority, observability, and finalization. Detailed L03-specific object names, thresholds, topology, and implementation remain `AMOS_MODEL` unless independently recovered from direct canon or executable runtime evidence.
 
 ---
 
@@ -1667,7 +1673,7 @@ AUTHORITY TO COMMIT
 
 ```text
 
-The strongest source-grounded part is the generic AMOS control-plane boundary: typed evidence, fine-grained observed read sets, semantic-transaction recomputation, authorization separation, observability, commit-time freshness, and authority checks are explicitly defined there. The **mapping of those controls onto `L03_PERCEPT_FORMATION` remains `MODEL`** until direct L03 canon or executable evidence establishes it. :contentReference[oaicite:10]{index=10}
+The strongest source-grounded part is the generic AMOS control-plane boundary: typed evidence, fine-grained observed read sets, semantic-transaction recomputation, authorization separation, observability, commit-time freshness, and authority checks are explicitly defined there. The **mapping of those controls onto `L03_PERCEPT_FORMATION` remains `MODEL`** until direct L03 canon or executable evidence establishes it.
 ```
 
 ---

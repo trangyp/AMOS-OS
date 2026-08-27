@@ -1,8 +1,15 @@
 ---
 title: "12 State MOC"
 type: moc
-tags: [moc, 12-state]
+source: 12_STATE
+tags: [moc, 12-state, canon/state]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 12 State — Map of Content
 

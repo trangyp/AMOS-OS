@@ -1,8 +1,15 @@
 ---
 title: "Amos-Multimodal-Perception-Layer MOC"
 type: moc
-tags: [moc, amos-multimodal-perception-layer]
+source: 07_SKILLS/amos-multimodal-perception-layer
+tags: [moc, amos-multimodal-perception-layer, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Multimodal-Perception-Layer — Map of Content
 

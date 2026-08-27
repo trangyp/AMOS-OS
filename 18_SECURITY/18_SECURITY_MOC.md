@@ -1,8 +1,15 @@
 ---
 title: "18 Security MOC"
 type: moc
-tags: [moc, 18-security]
+source: 18_SECURITY
+tags: [moc, 18-security, canon/security]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 18 Security — Map of Content
 

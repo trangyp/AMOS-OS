@@ -1,5 +1,6 @@
 ---
 type: law
+source: 01_CANON/01_CORE_LAWS
 artifact_id: AMOS-LAW-HIERARCHY
 name: LAW_HIERARCHY
 title: "AMOS Law Hierarchy — Authority, Precedence, Scope, Conflict, and Supersession"
@@ -30,7 +31,6 @@ aliases: "- AMOS Law Hierarchy
 related: "see body"---
 
 
-
 # AMOS Law Hierarchy
 
 **Origin architect / steward:** Trang Phan
@@ -38,8 +38,14 @@ related: "see body"---
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`
-
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: core_laws
 ---
+
+# AMOS Law Hierarchy — Authority, Precedence, Scope, Conflict, and Supersession
 
 ## 0. Purpose
 

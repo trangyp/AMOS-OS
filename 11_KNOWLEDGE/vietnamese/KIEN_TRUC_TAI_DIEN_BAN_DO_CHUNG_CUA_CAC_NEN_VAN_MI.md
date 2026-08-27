@@ -1,12 +1,15 @@
 ---
 title: KIEN TRUC TAI DIEN BAN DO CHUNG CUA CAC NEN VAN MI
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # KIẾN TRÚC TÁI DIỄN: BẢN ĐỒ CHUNG CỦA CÁC NỀN VĂN MINH

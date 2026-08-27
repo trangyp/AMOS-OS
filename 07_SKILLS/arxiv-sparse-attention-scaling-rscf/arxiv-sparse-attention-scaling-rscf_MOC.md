@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Sparse-Attention-Scaling-Rscf MOC"
 type: moc
-tags: [moc, arxiv-sparse-attention-scaling-rscf]
+source: 07_SKILLS/arxiv-sparse-attention-scaling-rscf
+tags: [moc, arxiv-sparse-attention-scaling-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Sparse-Attention-Scaling-Rscf — Map of Content
 

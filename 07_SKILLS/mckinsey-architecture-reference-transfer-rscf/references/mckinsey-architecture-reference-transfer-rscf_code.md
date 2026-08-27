@@ -1,8 +1,15 @@
 ---
 title: mckinsey architecture reference transfer rscf code
 type: reference
-tags: [reference, mckinsey-architecture-reference-transfer-rscf]
+source: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf/references
+tags: [reference, mckinsey-architecture-reference-transfer-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Code Reference
 
@@ -49,3 +56,7 @@ class ArchitectureReferenceTransfer:
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

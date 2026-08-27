@@ -1,8 +1,15 @@
 ---
 title: "Mckinsey-Digital-Strategy-Rscf MOC"
 type: moc
-tags: [moc, mckinsey-digital-strategy-rscf]
+source: 07_SKILLS/mckinsey-digital-strategy-rscf
+tags: [moc, mckinsey-digital-strategy-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Mckinsey-Digital-Strategy-Rscf — Map of Content
 

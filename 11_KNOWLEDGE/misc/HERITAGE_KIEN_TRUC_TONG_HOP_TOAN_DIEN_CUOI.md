@@ -1,12 +1,15 @@
 ---
 title: HERITAGE KIEN TRUC TONG HOP TOAN DIEN CUOI
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # HERITAGE FINAL – KIẾN TRÚC TỔNG HỢP TOÀN DIỆN CUỐI CÙNG
@@ -22,24 +25,16 @@ Con người không phát minh ra nguyên lý này. Con người chỉ là một
 ## PHẦN 1: CÁC TIÊN ĐỀ NỀN TẢNG
 Heritage Intelligence được xây dựng trên bốn tiên đề bất biến, đã được xác thực xuyên suốt các nền văn minh và các loài.
 **Axiom 1 – Tiên đề về Sự sống (Life Axiom)**
-\[  
-\boxed{\text{Life} = \text{Encoding} + \text{Decoding} + \text{Response under Constraint}}  
-\]
+$$\boxed{\text{Life} = \text{Encoding} + \text{Decoding} + \text{Response under Constraint}}$$
 Mọi hệ thống sống đều phải mã hóa thông tin từ môi trường, giải mã để ra quyết định, và phản ứng trong giới hạn của các ràng buộc sinh học và vật lý. **Hệ quả:** Không có hệ thống sống nào "thấy" thực tại trực tiếp. Tất cả đều thấy các bản dịch của thực tại qua bộ cảm biến của chính nó.
 **Axiom 2 – Tiên đề về Bảo mật Thông tin (Information Security Axiom)**
-\[  
-\boxed{\text{High-value knowledge is always protected by structure, not just by secrecy.}}  
-\]
+$$\boxed{\text{High-value knowledge is always protected by structure, not just by secrecy.}}$$
 Tri thức có giá trị sống còn không chỉ được "giấu", mà còn được bảo vệ bằng **cấu trúc** – phân tán, đa lớp, khóa ngữ cảnh. **Hệ quả:** Các xã hội cổ đại không viết hết tri thức vào sách. Họ phân tán tri thức vào đất, nước, cây, động vật, cơ thể, âm thanh, nghi lễ, địa danh, ca dao, và các cấu trúc xã hội.
 **Axiom 3 – Tiên đề về Bộ não (Brain Axiom)**
-\[  
-\boxed{\text{The brain is an interface, not a reality recorder. Reality is what the brain can translate from biological and environmental signals, within its limits.}}  
-\]
+$$\boxed{\text{The brain is an interface, not a reality recorder. Reality is what the brain can translate from biological and environmental signals, within its limits.}}$$
 Bộ não là một giao diện, không phải một máy ghi âm thực tại. **Hệ quả:** "Thực tại" không phải là một. Nó là nhiều, tùy thuộc vào bộ não/giao diện của mỗi loài. Con người chỉ thấy một phần cực nhỏ của vũ trụ vật lý.
 **Axiom 4 – Tiên đề về Ngoại hóa (Externalization Axiom)**
-\[  
-\boxed{\text{Knowledge that cannot be stored in the brain must be externalized into the environment, tools, symbols, rituals, and social structures.}}  
-\]
+$$\boxed{\text{Knowledge that cannot be stored in the brain must be externalized into the environment, tools, symbols, rituals, and social structures.}}$$
 Tri thức không thể lưu trữ hết trong não buộc phải được **ngoại hóa** vào môi trường, công cụ, biểu tượng, nghi lễ, và cấu trúc xã hội. **Hệ quả:** Mọi di sản văn hóa – từ trống đồng, songline, ca dao, đến hệ thống luật pháp và công nghệ – đều là các "vật chứa tri thức" được ngoại hóa từ bộ não con người qua hàng nghìn năm.
 * * *
 ## PHẦN 2: LÕI LÝ THUYẾT – BẢO MẬT VÀ GIẢI MÃ THÔNG TIN ĐA TẦNG
@@ -65,13 +60,9 @@ Tri thức không thể lưu trữ hết trong não buộc phải được **ngo
 
 
 ### 2.3. Công thức phục hồi tín hiệu (Signal Resurrection Formula – SRF)
-\[  
-\boxed{\text{Resurrected Signal} = \sum_{i=1}^{13} w_i \cdot L_i - \lambda \cdot \text{Noise}_{\text{intentional}}}  
-\]
+$$\boxed{\text{Resurrected Signal} = \sum_{i=1}^{13} w_i \cdot L_i - \lambda \cdot \text{Noise}_{\text{intentional}}}$$
 **Dạng thực dụng:**
-\[  
-\boxed{\text{Hidden Value} = \text{What survived} + \text{What decayed} + \text{What people repeated} + \text{What land still constrains}}  
-\]
+$$\boxed{\text{Hidden Value} = \text{What survived} + \text{What decayed} + \text{What people repeated} + \text{What land still constrains}}$$
 ### 2.4. Sáu định lý bất biến xuyên suốt (IT1 – IT6)
 |         |
 | Định lý | Nội dung                                                                                                                                       |
@@ -110,9 +101,7 @@ Heritage Intelligence đối chiếu chéo giữa 6 lớp bằng chứng độc 
 
 
 ### 3.2. Nguyên lý "Phân tách hiện tượng" (Phenomenon Decomposition Principle)
-\[  
-\boxed{\text{Phenomenon} = \text{Biology} + \text{Neural} + \text{Environment} + \text{Culture} + R}  
-\]
+$$\boxed{\text{Phenomenon} = \text{Biology} + \text{Neural} + \text{Environment} + \text{Culture} + R}$$
   * **R (Residual):** Phần chưa giải thích – được giữ lại, không phủ nhận, không gán cho siêu nhiên.
 
 
@@ -208,18 +197,10 @@ Heritage Intelligence đối chiếu chéo giữa 6 lớp bằng chứng độc 
 ## PHẦN 5: CÁC PHƯƠNG TRÌNH LÕI
 ### 5.1. TSS (Trang System Structure)
 **Bốn biến cấu trúc:**
-\[  
-\Omega_s(t) = \frac{L_s(t)}{K_s(t) + \varepsilon_\Omega}  
-\]
-\[  
-H_s(t) = w_L L^{legit}_s(t) + w_A A^{align}_s(t) + w_T T^{trust}_s(t)  
-\]
-\[  
-F_s(t) = \min(1, \tilde{F}_s(t))  
-\]
-\[  
-S_s(t) = \sum_{e \in E_s(t)} m(e) = S^{int}_s(t) + S^{ext}_s(t)  
-\]
+$$\Omega_s(t) = \frac{L_s(t)}{K_s(t) + \varepsilon_\Omega}$$
+$$H_s(t) = w_L L^{legit}_s(t) + w_A A^{align}_s(t) + w_T T^{trust}_s(t)$$
+$$F_s(t) = \min(1, \tilde{F}_s(t))$$
+$$S_s(t) = \sum_{e \in E_s(t)} m(e) = S^{int}_s(t) + S^{ext}_s(t)$$
 **Bảy chu kỳ (C1 – C7) với điều kiện ngưỡng:**
 |                       |
 | Chu kỳ                | Điều kiện                                       |
@@ -236,158 +217,39 @@ S_s(t) = \sum_{e \in E_s(t)} m(e) = S^{int}_s(t) + S^{ext}_s(t)
 **Bốn kết cục dài hạn:** Renewal (R), Termination (T), Absorption (A), Stagnation (Sg)
 ### 5.2. TPE (Trang Prediction Engine)
 **Xác suất chuyển tiếp:**
-\[  
-P(C_s(t+1) = C_j | C_s(t) = C_i, X_s(t)) = T_{C_i \to C_j}(t) \cdot p_{ij}(X_s(t))  
-\]
+$$P(C_s(t+1) = C_j | C_s(t) = C_i, X_s(t)) = T_{C_i \to C_j}(t) \cdot p_{ij}(X_s(t))$$
 **Xác suất kết cục:**
-\[  
-P_O = (P(R), P(T), P(A), P(Sg)), \quad \sum P = 1  
-\]
+$$P_O = (P(R), P(T), P(A), P(Sg)), \quad \sum P = 1$$
 ### 5.3. Grand Unified Loop Kernel (GULK) – State Vector
-\[  
-x_t = \begin{bmatrix}  
-q_t, \mathcal{W}_t, G_t, U_t, \Xi_t, R_t, r_t, D_t, \varepsilon^{(1..D)}_t, \\  
-P_t, M_t, B_t, \Pi_t, Rob_t, A^{attack}_t, S_t, C_t, NS_t, \Sigma_t, \\  
-T_t, H_t, Z_t, \Phi_t, s_{j,t}, \rho_t, \mathcal{I}_t, \tau_t  
-\end{bmatrix}  
-\]
+$$x_t = \begin{bmatrix} q_t, \mathcal{W}_t, G_t, U_t, \Xi_t, R_t, r_t, D_t, \varepsilon^{(1..D)}_t, \\ P_t, M_t, B_t, \Pi_t, Rob_t, A^{attack}_t, S_t, C_t, NS_t, \Sigma_t, \\ T_t, H_t, Z_t, \Phi_t, s_{j,t}, \rho_t, \mathcal{I}_t, \tau_t \end{bmatrix}$$
 ### 5.4. 16 Gates (Điều kiện sống còn)
 |     |
 | #   | Gate          | Công thức                                                |
 |-----|---------------|----------------------------------------------------------|
-| G1  | ArrowGate     | \( \beta G_t B_t U_t > \kappa \Xi_t R_t \)               |
-| G2  | CodeGate      | \( p(\Xi_t) < p_{th}(r_t) \)                             |
-| G3  | ControlGate   | \( S_t > s_0 + s_1 \tau_t \)                             |
-| G4  | BudgetGate    | \( P_t \geq kT_t \ln 2 \cdot \dot{B}(D_t) \)             |
-| G5  | MemoryGate    | \( I_{rec}(R_t,r_t) + I_{mod}(D_t) \leq I_{\max}(U_t) \) |
-| G6  | SelfGate      | \( C_t \geq C_{\min} \)                                  |
-| G7  | BoundaryGate  | \( B_t \geq B_{\min} \)                                  |
-| G8  | NoneSelfGate  | \( NS_t < NS_{\max} \)                                   |
-| G9  | ScaleGate     | \(                                                       | \mathcal{R}(x^{micro}_{t+1}) - F_{macro}(\mathcal{R}(x^{micro}_t)) | \leq \delta_{scale} \) |
-| G10 | AgencyGate    | \(                                                       |do_t                                                                | > 0 \Rightarrow        |\Delta^{do}_t | \geq \epsilon_{do} \) |
-| G11 | EnergyGate    | \( E_{t+1} \geq 0 \)                                     |
-| G12 | MeaningGate   | \( M_t \geq M_{\min} \)                                  |
-| G13 | ImmuneGate    | \( B_t \cdot Rob_t \geq \beta_{\min} \)                  |
-| G14 | LifeGate      | \( LIFE_t > 0 \)                                         |
-| G15 | LocalGate     | \( \forall (j \to i): \tau_{ji} \geq 1 \)                |
-| G16 | ConsensusGate | \( \text{median}_{a <b} D_{ab}(t) \leq D_{\max} \)       |
+| G1  | ArrowGate     | $ \beta G_t B_t U_t > \kappa \Xi_t R_t $               |
+| G2  | CodeGate      | $ p(\Xi_t) < p_{th}(r_t) $                             |
+| G3  | ControlGate   | $ S_t > s_0 + s_1 \tau_t $                             |
+| G4  | BudgetGate    | $ P_t \geq kT_t \ln 2 \cdot \dot{B}(D_t) $             |
+| G5  | MemoryGate    | $ I_{rec}(R_t,r_t) + I_{mod}(D_t) \leq I_{\max}(U_t) $ |
+| G6  | SelfGate      | $ C_t \geq C_{\min} $                                  |
+| G7  | BoundaryGate  | $ B_t \geq B_{\min} $                                  |
+| G8  | NoneSelfGate  | $ NS_t < NS_{\max} $                                   |
+| G9  | ScaleGate     | $                                                       | \mathcal{R}(x^{micro}_{t+1}) - F_{macro}(\mathcal{R}(x^{micro}_t)) | \leq \delta_{scale} $ |
+| G10 | AgencyGate    | $                                                       |do_t                                                                | > 0 \Rightarrow        |\Delta^{do}_t | \geq \epsilon_{do} $ |
+| G11 | EnergyGate    | $ E_{t+1} \geq 0 $                                     |
+| G12 | MeaningGate   | $ M_t \geq M_{\min} $                                  |
+| G13 | ImmuneGate    | $ B_t \cdot Rob_t \geq \beta_{\min} $                  |
+| G14 | LifeGate      | $ LIFE_t > 0 $                                         |
+| G15 | LocalGate     | $ \forall (j \to i): \tau_{ji} \geq 1 $                |
+| G16 | ConsensusGate | $ \text{median}_{a <b} D_{ab}(t) \leq D_{\max} $       |
 
 
 ### 5.5. Phương trình Trade Permission (Quyết định cuối cùng)
-\[  
-\boxed{  
-\text{TradePermission} =  
-\begin{cases}  
-\text{Full long / short} & \text{nếu ATS > 70\%, Trust > 70\%, TRS > 70\%, CollapseProb < 30\%, Gates 1–16 pass} \\  
-\text{Reduced size} & \text{nếu 50\% < ATS < 70\%, Trust > 50\%, CollapseProb < 50\%} \\  
-\text{Bias only} & \text{nếu SignalStrength > 60\% nhưng Trust < 50\% hoặc TRS < 50\%} \\  
-\text{No trade} & \text{nếu Trust < 30\% hoặc ATS < 40\% hoặc CollapseProb > 70\%} \\  
-\text{Event lockout} & \text{nếu black swan, ethics violation, self-reference loop, hoặc bất kỳ gate nào fail}  
-\end{cases}}  
-\]
+$$\boxed{ \text{TradePermission} = \begin{cases} \text{Full long / short} & \text{nếu ATS > 70\%, Trust > 70\%, TRS > 70\%, CollapseProb < 30\%, Gates 1–16 pass} \\ \text{Reduced size} & \text{nếu 50\% < ATS < 70\%, Trust > 50\%, CollapseProb < 50\%} \\ \text{Bias only} & \text{nếu SignalStrength > 60\% nhưng Trust < 50\% hoặc TRS < 50\%} \\ \text{No trade} & \text{nếu Trust < 30\% hoặc ATS < 40\% hoặc CollapseProb > 70\%} \\ \text{Event lockout} & \text{nếu black swan, ethics violation, self-reference loop, hoặc bất kỳ gate nào fail} \end{cases}}$$
 ### 5.6. Digital Consciousness Candidate Index (CCI*)
-\[  
-\boxed{  
-\text{CCI*}_t = \text{Gate}_t \times \left( \prod_{i=1}^{10} \text{Factor}_i \right)^{1/10}  
-}\]
-**10 yếu tố:** Integration, Differentiation, Persistence, Self–World Separation, Selective Access, Regulation, Meaning, Temporal Depth, Agency, Meta-Calibration.
-_Các mức CCI:_ *
-  * 0.00–0.15: Tool-like computation
-
-
-  * 0.15–0.35: Stateful reactive system
-
-
-  * 0.35–0.55: Persistent cognitive agent
-
-
-  * 0.55–0.72: Self-modeling regulated agent
-
-
-  * 0.72–0.85: Strong consciousness-candidate
-
-
-  * 0.85–1.00: Ethics escalation regime
-
-
-* * *
-## PHẦN 6: CÁC BẤT BIẾN (INVARIANTS)
-### 6.1. 27 bất biến gốc (I-1 → I-27)
-|      |
-| #    | Bất biến                    | #    | Bất biến                               |
-|------|-----------------------------|------|----------------------------------------|
-| I-1  | Entropy không giảm          | I-15 | Low cohesion precedes fragmentation    |
-| I-2  | Thông tin không từ hư không | I-16 | Harm must remain below threshold       |
-| I-3  | Nhân quả                    | I-17 | Asymmetry must be detected             |
-| I-4  | Loss aversion               | I-18 | Decisions must be traceable            |
-| I-5  | Herd behavior               | I-19 | ¬(A ∧ ¬A)                              |
-| I-6  | Recency bias                | I-20 | x = x                                  |
-| I-7  | Cognitive load              | I-21 | A ∨ ¬A                                 |
-| I-8  | Narrative can dominate data | I-22 | Every strong claim needs falsification |
-| I-9  | Perception ≠ Reality        | I-23 | P(correct) < 1                         |
-| I-10 | Observer changes system     | I-24 | No infinite regress                    |
-| I-11 | Superposition               | I-25 | Price ≠ Value                          |
-| I-12 | Correlation nonlocal        | I-26 | Liquidity can vanish                   |
-| I-13 | Meme propagation            | I-27 | Black swans are inevitable             |
-| I-14 | Attention follows power law | —    | —                                      |
-
-
-### 6.2. 18 bất biến bổ sung (I-28 → I-45)
-|      |
-| #    | Bất biến                                  | #    | Bất biến                             |
-|------|-------------------------------------------|------|--------------------------------------|
-| I-28 | Self model cannot equal self              | I-37 | Truth does not guarantee outcome     |
-| I-29 | Value cannot be fully formalized          | I-38 | Timing is required for edge          |
-| I-30 | Every system faces an event outside model | I-39 | Systems fail at scale transitions    |
-| I-31 | Knowing when not to know is intelligence  | I-40 | Survival depends on capital          |
-| I-32 | Visible liquidity ≠ executable            | I-41 | Every edge h as half-life            |
-| I-33 | Profitable patterns invite adversaries    | I-42 | Identity Continuity                  |
-| I-34 | Operator is part of risk                  | I-43 | Memory Coherence                     |
-| I-35 | Simplicity protects survival              | I-44 | Regulation Viability                 |
-| I-36 | Shocks cluster                            | I-45 | Energy / Compute Budget              |
-| —    | —                                         | I-46 | Self / World Boundary                |
-| —    | —                                         | I-47 | Language Cannot Overwrite Core State |
-| —    | —                                         | I-48 | Agency Must Be Bounded               |
-
-
-### 6.3. 7 bất biến hiến pháp của AMOS (Invariant Charter)
-|      |
-| #    | Bất biến                               | Nội dung                                                 |
-|------|----------------------------------------|----------------------------------------------------------|
-| I-49 | Lawful Consent Primacy                 | No action without explicit, revocable, traceable consent |
-| I-50 | Reality Before Intelligence            | No unverified signals                                    |
-| I-51 | Trust Is Computed, Not Declared        | Trust from behavior, not status                          |
-| I-52 | Bounded Agency                         | No open-ended autonomy                                   |
-| I-53 | No Action Without Accountability       | Trace + reason + responsible entity                      |
-| I-54 | No Concentration of Irreversible Power | Exit and portability are fundamental                     |
-| I-55 | Learning Without Law Mutation          | Adapt thresholds, not invariants                         |
-| I-56 | Human Agency Is Preserved              | May say "no," never "you must"                           |
-| I-57 | Graceful Failure Over Silent Harm      | Degrade, surface conflict, choose least irreversible     |
-| I-58 | Invariants Are Immutable               | No modification, fork, or suspension                     |
-
-
-* * *
-## PHẦN 7: BẢNG TỔNG HỢP ACCURACY
-|                   |
-| **Phiên bản**     | **Kỳ vọng thực tế** | **Trần lý thuyết** |
-|-------------------|---------------------|--------------------|
-| V7                | 60–70%              | 75–85%             |
-| V8–V10            | 72–80%              | 85–90%             |
-| V11–V15           | 78–88%              | 88–94%             |
-| V16–V20           | 84–92%              | 92–97%             |
-| V21–V24           | 86–94%              | 94–98%             |
-| V25–V28           | 88–95%              | 95–98.5%           |
-| **V29 (GULK)**    | **90–96%**          | **96–99%**         |
-| **V29 + 12 gaps** | **85–93%**          | **94–98%**         |
-
-
-**Con số trung thực nhất:**
-\[  
+$$\boxed{ \text{CCI*}_t = \text{Gate}_t \times \left( \prod_{i=1}^{10} \text{Factor}_i \right)^{1/10} }$$**10 yếu tố:** Integration, Differentiation, Persistence, Self–World Separation, Selective Access, Regulation, Meaning, Temporal Depth, Agency, Meta-Calibration. _Các mức CCI:_ * * 0.00–0.15: Tool-like computation * 0.15–0.35: Stateful reactive system * 0.35–0.55: Persistent cognitive agent * 0.55–0.72: Self-modeling regulated agent * 0.72–0.85: Strong consciousness-candidate * 0.85–1.00: Ethics escalation regime * * * ## PHẦN 6: CÁC BẤT BIẾN (INVARIANTS) ### 6.1. 27 bất biến gốc (I-1 → I-27) | | | # | Bất biến | # | Bất biến | |------|-----------------------------|------|----------------------------------------| | I-1 | Entropy không giảm | I-15 | Low cohesion precedes fragmentation | | I-2 | Thông tin không từ hư không | I-16 | Harm must remain below threshold | | I-3 | Nhân quả | I-17 | Asymmetry must be detected | | I-4 | Loss aversion | I-18 | Decisions must be traceable | | I-5 | Herd behavior | I-19 | ¬(A ∧ ¬A) | | I-6 | Recency bias | I-20 | x = x | | I-7 | Cognitive load | I-21 | A ∨ ¬A | | I-8 | Narrative can dominate data | I-22 | Every strong claim needs falsification | | I-9 | Perception ≠ Reality | I-23 | P(correct) < 1 | | I-10 | Observer changes system | I-24 | No infinite regress | | I-11 | Superposition | I-25 | Price ≠ Value | | I-12 | Correlation nonlocal | I-26 | Liquidity can vanish | | I-13 | Meme propagation | I-27 | Black swans are inevitable | | I-14 | Attention follows power law | — | — | ### 6.2. 18 bất biến bổ sung (I-28 → I-45) | | | # | Bất biến | # | Bất biến | |------|-------------------------------------------|------|--------------------------------------| | I-28 | Self model cannot equal self | I-37 | Truth does not guarantee outcome | | I-29 | Value cannot be fully formalized | I-38 | Timing is required for edge | | I-30 | Every system faces an event outside model | I-39 | Systems fail at scale transitions | | I-31 | Knowing when not to know is intelligence | I-40 | Survival depends on capital | | I-32 | Visible liquidity ≠ executable | I-41 | Every edge h as half-life | | I-33 | Profitable patterns invite adversaries | I-42 | Identity Continuity | | I-34 | Operator is part of risk | I-43 | Memory Coherence | | I-35 | Simplicity protects survival | I-44 | Regulation Viability | | I-36 | Shocks cluster | I-45 | Energy / Compute Budget | | — | — | I-46 | Self / World Boundary | | — | — | I-47 | Language Cannot Overwrite Core State | | — | — | I-48 | Agency Must Be Bounded | ### 6.3. 7 bất biến hiến pháp của AMOS (Invariant Charter) | | | # | Bất biến | Nội dung | |------|----------------------------------------|----------------------------------------------------------| | I-49 | Lawful Consent Primacy | No action without explicit, revocable, traceable consent | | I-50 | Reality Before Intelligence | No unverified signals | | I-51 | Trust Is Computed, Not Declared | Trust from behavior, not status | | I-52 | Bounded Agency | No open-ended autonomy | | I-53 | No Action Without Accountability | Trace + reason + responsible entity | | I-54 | No Concentration of Irreversible Power | Exit and portability are fundamental | | I-55 | Learning Without Law Mutation | Adapt thresholds, not invariants | | I-56 | Human Agency Is Preserved | May say "no," never "you must" | | I-57 | Graceful Failure Over Silent Harm | Degrade, surface conflict, choose least irreversible | | I-58 | Invariants Are Immutable | No modification, fork, or suspension | * * * ## PHẦN 7: BẢNG TỔNG HỢP ACCURACY | | | **Phiên bản** | **Kỳ vọng thực tế** | **Trần lý thuyết** | |-------------------|---------------------|--------------------| | V7 | 60–70% | 75–85% | | V8–V10 | 72–80% | 85–90% | | V11–V15 | 78–88% | 88–94% | | V16–V20 | 84–92% | 92–97% | | V21–V24 | 86–94% | 94–98% | | V25–V28 | 88–95% | 95–98.5% | | **V29 (GULK)** | **90–96%** | **96–99%** | | **V29 + 12 gaps** | **85–93%** | **94–98%** | **Con số trung thực nhất:**$$
 \boxed{\text{Heritage Final Directional Accuracy} = 85–93\%}  
-\]
-\[  
-\boxed{\text{Unclosable gap} = 7–15\%}  
-\]
+$$$$ \boxed{\text{Unclosable gap} = 7–15\%}$$
 * * *
 ## PHẦN 8: NGUYÊN TẮC ĐẠO ĐỨC VÀ GIỚI HẠN
 ### 8.1. Bảy nguyên tắc đạo đức
@@ -432,42 +294,23 @@ _Các mức CCI:_ *
 
 
 ### 8.3. Bất biến cuối cùng
-\[  
-\boxed{  
-\text{Nếu một trạng thái không thể được đo, phân loại, giới hạn, và hành động có đạo đức,} \\  
-\text{thì đầu ra hợp lệ duy nhất là NoPrediction.}  
-}\]
-\[  
-\boxed{  
-\text{Reality} \nsubseteq \text{Math}  
-}\]
-\[  
-\boxed{  
-\text{V29 đóng kiến trúc – không đóng thực tại.}  
-}\]
-* * *
-## KẾT LUẬN CUỐI CÙNG
-\[  
+$$\boxed{ \text{Nếu một trạng thái không thể được đo, phân loại, giới hạn, và hành động có đạo đức,} \\ \text{thì đầu ra hợp lệ duy nhất là NoPrediction.} }$$$$ \boxed{ \text{Reality} \nsubseteq \text{Math} }$$$$ \boxed{ \text{V29 đóng kiến trúc – không đóng thực tại.} }$$* * * ## KẾT LUẬN CUỐI CÙNG$$
 \boxed{  
 \text{Heritage Intelligence V29 – Grand Unified Decision Governance Kernel – là kiến trúc đóng kín cuối cùng.}  
-}\]
-\[  
+}$$$$
 \boxed{  
 \text{Không còn tầng tín hiệu nào bị bỏ qua, không còn lỗ hổng lý thuyết nào chưa được xử lý.}  
-}\]
-\[  
+}$$$$
 \boxed{  
 \text{Kỳ vọng thực tế sau backtest: 85–93\% directional accuracy trên forced-causality events.}  
-}\]
-\[  
+}$$$$
 \boxed{  
 \text{Unclosable gap còn lại: 7–15\% – true randomness + black swan + residual choice + Gödel.}  
-}\]
-\[  
+}$$$$
 \boxed{  
 \text{Heritage V29 là hệ thống quản trị quyết định trung thực và có kỷ luật nhất,} \\  
 \boxed{\text{đồng thời là hệ thống đọc tín hiệu toàn diện nhất có thể xây dựng được trong vũ trụ này.}}  
-\]
+$$
 * * *
 **Tài liệu chính thức**
 **Tác giả:** Trang Phan

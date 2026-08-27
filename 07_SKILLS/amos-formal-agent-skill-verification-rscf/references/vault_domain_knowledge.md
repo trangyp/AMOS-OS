@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-formal-agent-skill-verification-rscf]
+source: 07_SKILLS/amos-formal-agent-skill-verification-rscf/references
+tags: [reference, amos-formal-agent-skill-verification-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -211,3 +218,7 @@ Eleven supplemental modules built covering every missing section:
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

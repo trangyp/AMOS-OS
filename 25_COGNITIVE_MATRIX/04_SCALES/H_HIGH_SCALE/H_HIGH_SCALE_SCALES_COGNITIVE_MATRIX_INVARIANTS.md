@@ -1,7 +1,13 @@
 ---
 title: H HIGH SCALE SCALES COGNITIVE MATRIX INVARIANTS
 type: note
-tags: [note, h-high-scale]
+source: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE
+tags: [note, h-high-scale, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -45,3 +51,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/04_SCALES/H_HIG
 
 ---
 **MOC:** [[H_HIGH_SCALE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

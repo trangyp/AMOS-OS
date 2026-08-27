@@ -1,8 +1,15 @@
 ---
 title: super consciousness engine max
 type: reference
-tags: [reference, amos-super-engines-master]
+source: 07_SKILLS/amos-super-engines-master/references
+tags: [reference, amos-super-engines-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS SUPER Consciousness Engine MAX H3
 
@@ -76,3 +83,7 @@ created: 2026-08-22
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

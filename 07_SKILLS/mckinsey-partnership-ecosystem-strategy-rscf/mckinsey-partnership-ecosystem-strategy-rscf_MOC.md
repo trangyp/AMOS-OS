@@ -1,8 +1,15 @@
 ---
 title: "Mckinsey-Partnership-Ecosystem-Strategy-Rscf MOC"
 type: moc
-tags: [moc, mckinsey-partnership-ecosystem-strategy-]
+source: 07_SKILLS/mckinsey-partnership-ecosystem-strategy-rscf
+tags: [moc, mckinsey-partnership-ecosystem-strategy-, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Mckinsey-Partnership-Ecosystem-Strategy-Rscf — Map of Content
 

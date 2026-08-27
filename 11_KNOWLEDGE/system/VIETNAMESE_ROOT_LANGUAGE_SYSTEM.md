@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/The_Vietnamese_Root_Language_System.pdf (1.55MB)"
 origin_architect: "Trang Phan"
 type: research-paper
-tags: [vietnamese-language, root-language, 7-tone-phonemic, biological-interface, neurolinguistic-compression, bioelectromagnetic-entrainment, somatic-mirroring, quantum-alignment, UBI, neuro-sync, ancestral-encoding, system]
+source: 11_KNOWLEDGE/system
+tags: [vietnamese-language, root-language, 7-tone-phonemic, biological-interface, neurolinguistic-compression, bioelectromagnetic-entrainment, somatic-mirroring, quantum-alignment, UBI, neuro-sync, ancestral-encoding, system, canon/knowledge]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
 ---
 
 

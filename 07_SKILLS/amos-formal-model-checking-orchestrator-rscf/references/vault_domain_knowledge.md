@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-formal-model-checking-orchestrator-rscf]
+source: 07_SKILLS/amos-formal-model-checking-orchestrator-rscf/references
+tags: [reference, amos-formal-model-checking-orchestrator-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -113,3 +120,7 @@ This model is a critical orchestration component. It is closely related to the `
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

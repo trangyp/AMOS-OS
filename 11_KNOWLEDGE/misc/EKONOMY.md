@@ -1,24 +1,19 @@
 ---
 title: EKONOMY
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Ekonomy
 Understood. I’ll stay **concrete and actionable** , not philosophical.
-Below is a **direct improvement blueprint for IKONOMY** , using AMOS as a governing layer — improving _performance in the real world_ , not lab specs.
-* * *
-## How to Improve IKONOMY (Practically)
-### 1\. Add a **Human-Stable Operating Specification** (this is the keystone)
-Right now IKONOMY likely has:
-  * technical limits (pressure, temp, output)
-
-
   * safety cut-offs (hardware protection)
 
 

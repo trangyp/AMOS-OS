@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Mixture-Of-Depths-Rscf MOC"
 type: moc
-tags: [moc, arxiv-mixture-of-depths-rscf]
+source: 07_SKILLS/arxiv-mixture-of-depths-rscf
+tags: [moc, arxiv-mixture-of-depths-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Mixture-Of-Depths-Rscf — Map of Content
 

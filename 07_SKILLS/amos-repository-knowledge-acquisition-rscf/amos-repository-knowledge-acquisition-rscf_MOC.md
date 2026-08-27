@@ -1,8 +1,15 @@
 ---
 title: "Amos-Repository-Knowledge-Acquisition-Rscf MOC"
 type: moc
-tags: [moc, amos-repository-knowledge-acquisition-rs]
+source: 07_SKILLS/amos-repository-knowledge-acquisition-rscf
+tags: [moc, amos-repository-knowledge-acquisition-rs, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Repository-Knowledge-Acquisition-Rscf — Map of Content
 

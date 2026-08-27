@@ -3,10 +3,14 @@ title: CANONICAL BODY REGISTRY
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/state/derived, topic/canonical-body-registry, canon]
 type: data
 source: 11_KNOWLEDGE/canon
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: canon_universe
+
 ---
-
-
-
+# CANONICAL BODY REGISTRY
 
 ```json
 {
@@ -590,3 +594,6 @@ source: 11_KNOWLEDGE/canon
 
 ---
 **MOC:** [[canon_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

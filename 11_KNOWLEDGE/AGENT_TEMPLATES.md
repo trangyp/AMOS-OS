@@ -1,6 +1,7 @@
 ---
 title: AGENT TEMPLATES
 type: agent
+source: 11_KNOWLEDGE
 canon-group: meta
 canon-type: framework
 canon-status: active
@@ -30,9 +31,12 @@ created: 2026-08-22
 updated: 2026-08-25
 origin-architect: Trang Phan
 steward: Trang Phan
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
-
-
 
 
 # AMOS Agent Templates

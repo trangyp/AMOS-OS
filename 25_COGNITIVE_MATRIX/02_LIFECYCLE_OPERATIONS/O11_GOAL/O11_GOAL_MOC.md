@@ -1,8 +1,15 @@
 ---
 title: "O11 Goal MOC"
 type: moc
-tags: [moc, o11-goal]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O11_GOAL
+tags: [moc, o11-goal, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # O11 Goal — Map of Content
 

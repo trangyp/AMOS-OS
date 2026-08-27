@@ -1,8 +1,15 @@
 ---
 title: learning memory fractal
 type: reference
-tags: [reference, amos-memory-systems-master]
+source: 07_SKILLS/amos-memory-systems-master/references
+tags: [reference, amos-memory-systems-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Learning and Memory Fractal Architecture
 
@@ -37,3 +44,7 @@ Learning + Memory = Attention + Encoding + Consolidation + Retrieval + Feedback 
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

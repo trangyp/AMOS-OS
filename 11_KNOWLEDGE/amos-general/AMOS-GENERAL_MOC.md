@@ -1,8 +1,15 @@
 ---
 title: "Amos-General MOC"
 type: moc
-tags: [moc, amos-general]
+source: 11_KNOWLEDGE/amos-general
+tags: [moc, amos-general, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
+
 
 # Amos-General — Map of Content
 

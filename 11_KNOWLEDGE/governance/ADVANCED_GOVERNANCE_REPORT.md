@@ -1,13 +1,16 @@
 ---
 title: ADVANCED GOVERNANCE REPORT
-tags: [governance, policy, authority]
+tags: [governance, policy, authority, canon/knowledge]
 type: data
 source: 11_KNOWLEDGE/governance
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: governance_policy
+
 ---
-
-
-
-
+# ADVANCED GOVERNANCE REPORT
 
 ```json
 {

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Flow-Canon MOC"
 type: moc
-tags: [moc, amos-flow-canon]
+source: 07_SKILLS/amos-flow-canon
+tags: [moc, amos-flow-canon, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Flow-Canon — Map of Content
 

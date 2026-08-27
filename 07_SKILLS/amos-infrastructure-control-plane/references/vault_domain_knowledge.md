@@ -1,8 +1,17 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-infrastructure-control-plane]
+source: 07_SKILLS/amos-infrastructure-control-plane/references
+tags: [reference, amos-infrastructure-control-plane, canon/skill]
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: skill_reference
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -238,3 +247,7 @@ Logging company wants timber → no ecosystem input → solution: forest speaks 
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

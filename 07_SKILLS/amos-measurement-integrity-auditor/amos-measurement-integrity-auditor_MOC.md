@@ -1,8 +1,15 @@
 ---
 title: "Amos-Measurement-Integrity-Auditor MOC"
 type: moc
-tags: [moc, amos-measurement-integrity-auditor]
+source: 07_SKILLS/amos-measurement-integrity-auditor
+tags: [moc, amos-measurement-integrity-auditor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Measurement-Integrity-Auditor — Map of Content
 

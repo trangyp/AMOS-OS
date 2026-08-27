@@ -1,9 +1,14 @@
 ---
 title: EFFECTS CONTROL PLANE README
 type: control-plane
-tags: [control_plane, effects_control_plane_readme.md]
+source: 03_CONTROL_PLANE/08_EFFECTS
+tags: [control_plane, effects_control_plane_readme.md, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # EFFECTS CONTROL PLANE README
@@ -63,3 +68,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[08_EFFECTS_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

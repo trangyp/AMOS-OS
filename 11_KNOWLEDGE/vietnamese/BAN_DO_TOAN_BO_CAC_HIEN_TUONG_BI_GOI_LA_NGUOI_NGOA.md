@@ -1,12 +1,15 @@
 ---
 title: BAN DO TOAN BO CAC HIEN TUONG BI GOI LA NGUOI NGOA
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # BẢN ĐỒ TOÀN BỘ CÁC HIỆN TƯỢNG BỊ GỌI LÀ "NGƯỜI NGOÀI HÀNH TINH"

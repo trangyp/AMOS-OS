@@ -1,8 +1,15 @@
 ---
 title: "Universe-Cosmos MOC"
 type: moc
-tags: [moc, universe-cosmos]
+source: 11_KNOWLEDGE/universe-cosmos
+tags: [moc, universe-cosmos, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: universe_cosmos
 ---
+
 
 # Universe-Cosmos — Map of Content
 

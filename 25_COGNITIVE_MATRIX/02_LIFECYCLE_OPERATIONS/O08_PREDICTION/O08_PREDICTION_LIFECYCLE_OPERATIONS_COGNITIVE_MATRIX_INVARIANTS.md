@@ -1,7 +1,13 @@
 ---
 title: O08 PREDICTION LIFECYCLE OPERATIONS COGNITIVE MATRIX INVARIANTS
 type: note
-tags: [note, o08-prediction]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O08_PREDICTION
+tags: [note, o08-prediction, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -44,3 +50,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/02_LIFECYCLE_OP
 
 ---
 **MOC:** [[O08_PREDICTION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

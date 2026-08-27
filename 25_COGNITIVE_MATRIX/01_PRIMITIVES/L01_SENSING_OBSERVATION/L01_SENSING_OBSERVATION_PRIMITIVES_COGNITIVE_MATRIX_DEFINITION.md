@@ -1,9 +1,14 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX DEFINITION
 type: definition
-tags: [amos, cognitive-matrix, l01, sensing, observation, cognitive-primitive, epistemics, provenance, rscf]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
+tags: [amos, cognitive-matrix, l01, sensing, observation, cognitive-primitive, epistemics, provenance, rscf, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L01_SENSING_OBSERVATION — Definition
@@ -26,34 +31,20 @@ tags: [amos, cognitive-matrix, l01, sensing, observation, cognitive-primitive, e
 
 Its fundamental transformation is:
 
-\[
-\boxed{
-Environment
-\rightarrow
-SensingInteraction
-\rightarrow
-Observation
-}
-\]
+$$\boxed{ Environment \rightarrow SensingInteraction \rightarrow Observation }$$
 
 More precisely:
 
-\[
-\boxed{
-E_t
-\xrightarrow{S_{a,c,m}}
-O_t
-}
-\]
+$$\boxed{ E_t \xrightarrow{S_{a,c,m}} O_t }$$
 
 where:
 
-- \(E_t\) = environment state or addressable environment condition,
-- \(S\) = sensing operation,
-- \(a\) = observing agent or sensing system,
-- \(c\) = observation channel,
-- \(m\) = measurement or acquisition method,
-- \(O_t\) = resulting observation object.
+- $E_t$ = environment state or addressable environment condition,
+- $S$ = sensing operation,
+- $a$ = observing agent or sensing system,
+- $c$ = observation channel,
+- $m$ = measurement or acquisition method,
+- $O_t$ = resulting observation object.
 
 The primitive must preserve the distinction between:
 

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Structured-Document-Parsing-Rscf MOC"
 type: moc
-tags: [moc, amos-structured-document-parsing-rscf]
+source: 07_SKILLS/amos-structured-document-parsing-rscf
+tags: [moc, amos-structured-document-parsing-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Structured-Document-Parsing-Rscf — Map of Content
 

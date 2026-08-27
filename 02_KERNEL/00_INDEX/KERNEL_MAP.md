@@ -1,6 +1,7 @@
 ---
 title: KERNEL MAP
 type: kernel
+source: 02_KERNEL/00_INDEX
 artifact_id: AMOS-OS-KERNEL-MAP
 canonical_name: KERNEL_MAP
 artifact_type: kernel_topology_map
@@ -24,8 +25,6 @@ aliases: "- AMOS Kernel Map
   - AMOS OS Kernel Map
   - Kernel Topology
   - Kernel Contract Map..."---
-
-
 
 
 # AMOS OS Kernel Map
@@ -56,8 +55,13 @@ Its purpose is to map the smallest deterministic operators, invariants, typed st
 This map describes architecture and expected contracts.
 
 It does **not** assert that every mapped kernel is currently implemented, formally verified, distributed, persistent, or production-ready.
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
+
 
 # 2. Kernel Boundary
 

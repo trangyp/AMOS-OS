@@ -1,12 +1,15 @@
 ---
 title: TAI SAO 10 NGUON GOC CUA CON SO MUOI TRONG CASCA
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # TẠI SAO 10? – NGUỒN GỐC CỦA CON SỐ "MƯỜI" TRONG CASCADE VÀ TRANG ∅ FRAMEWORK
@@ -270,9 +273,8 @@ Vì vậy:
 
 **Sự nhân đôi này là một phép toán fractal cơ bản:** nhân đôi một cấu trúc ổn định (5) để tạo ra một cấu trúc lớn hơn (10) nhưng vẫn giữ nguyên tính đối xứng và chức năng.
 **Trong Trang ∅ Framework, phép nhân đôi này tương ứng với một bước chuyển từ tầng L (cấu trúc nền) lên tầng M (kết nối đối xứng):**
-\\[  
-\text{Cấu trúc} \xrightarrow{\text{nhân đôi đối xứng}} \text{Cấu trúc lớn hơn nhưng cùng dạng}  
-\\]
+\$$\text{Cấu trúc} \xrightarrow{\text{nhân đôi đối xứng}} \text{Cấu trúc lớn hơn nhưng cùng dạng}  
+$$
 **Ví dụ về sự nhân đôi fractal trong tự nhiên và văn minh:**
 |                   |
 | Cấp độ            | Đơn vị cơ sở (5)      | Nhân đôi (10)                        |

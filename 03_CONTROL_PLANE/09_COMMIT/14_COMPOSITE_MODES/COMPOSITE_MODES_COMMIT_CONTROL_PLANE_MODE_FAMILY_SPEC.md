@@ -1,5 +1,6 @@
 ---
 type: control-plane
+source: 03_CONTROL_PLANE/09_COMMIT/14_COMPOSITE_MODES
 artifact_id: AMOS-MODE-FAMILY-14_COMPOSITE_MODES
 title: "14_COMPOSITE_MODES — Mode Family Placeholder"
 document_version: "0.1.0-placeholder"
@@ -10,9 +11,14 @@ steward: "Trang Phan"
 status: PROPOSED_SPECIFICATION
 conclusion_class: "UNKNOWN/GAP"
 rscf_state: "placeholder"
-tags: [control_plane, commit, composite_modes, note]
-
+tags: [control_plane, commit, composite_modes, note, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 14_COMPOSITE_MODES
 

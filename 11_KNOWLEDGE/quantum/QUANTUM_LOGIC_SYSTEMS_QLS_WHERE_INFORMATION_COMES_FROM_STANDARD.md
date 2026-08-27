@@ -3,7 +3,15 @@ title: QUANTUM LOGIC SYSTEMS QLS WHERE INFORMATION COMES FROM STANDARD
 tags: [canon-group/quantum, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/quantum-logic-systems-qls-where-informat, quantum]
 type: note
 source: 11_KNOWLEDGE/quantum
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: quantum_reasoning
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
+
 
 # QUANTUM LOGIC SYSTEMS QLS WHERE INFORMATION COMES FROM STANDARD
 

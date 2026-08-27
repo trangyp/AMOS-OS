@@ -1,8 +1,15 @@
 ---
 title: "34 Social Trust Modes MOC"
 type: moc
-tags: [moc, 34-social-trust-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/34_SOCIAL_TRUST_MODES
+tags: [moc, 34-social-trust-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 34 Social Trust Modes — Map of Content
 

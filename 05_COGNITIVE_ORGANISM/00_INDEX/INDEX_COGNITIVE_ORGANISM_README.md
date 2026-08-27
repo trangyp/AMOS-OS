@@ -1,9 +1,14 @@
 ---
 title: INDEX COGNITIVE ORGANISM README
 type: index
-tags: [amos_os, 05_cognitive_organism]
+source: 05_COGNITIVE_ORGANISM/00_INDEX
+tags: [amos_os, 05_cognitive_organism, canon/cognitive]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INDEX COGNITIVE ORGANISM README
@@ -57,3 +62,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

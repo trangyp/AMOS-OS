@@ -1,6 +1,7 @@
 ---
 title: "Framework Empirical Status"
 type: status
+source: 22_RESEARCH/04_VALIDATION
 artifact: "FRAMEWORK_EMPIRICAL_STATUS.md"
 artifact_id: "amos_22_research_04_validation_framework_empirical_status"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "22_RESEARCH/04_VALIDATION"
 artifact_kind: "FRAMEWORK"
 path: "22_RESEARCH/04_VALIDATION/FRAMEWORK_EMPIRICAL_STATUS.md"
 
-tags: [amos_os, research, arxiv, 22_research, framework, canon_placeholder, rscf]
+tags: [amos_os, research, arxiv, 22_research, framework, canon_placeholder, rscf, canon/research]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Framework Empirical Status

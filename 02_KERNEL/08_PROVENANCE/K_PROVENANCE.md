@@ -1,6 +1,7 @@
 ---
 title: K PROVENANCE
 type: provenance
+source: 02_KERNEL/08_PROVENANCE
 artifact_id: AMOS-OS-K-PROVENANCE
 canonical_name: K_PROVENANCE
 artifact_type: kernel_provenance_contract
@@ -12,8 +13,12 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
-tags: [kernel, provenance, note]
-
+tags: [kernel, provenance, note, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 

@@ -1,9 +1,14 @@
 ---
 title: STRUCTURAL GAPS COGNITIVE MATRIX README
 type: gap
-tags: [cognitive_matrix, structural_gaps, readme, contract_filled]
+source: 25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS
+tags: [cognitive_matrix, structural_gaps, readme, contract_filled, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # 08_STRUCTURAL_GAPS — Structural Gap Registry Contract Overview
@@ -77,3 +82,6 @@ claim_class: DERIVED
 
 ---
 **MOC:** [[08_STRUCTURAL_GAPS_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

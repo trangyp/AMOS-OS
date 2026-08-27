@@ -1,6 +1,7 @@
 ---
 title: NEUROTRANSMITTER MAP HUMAN SYSTEM
 type: map
+source: 11_KNOWLEDGE/system
 origin: external — "The Complete Human System" (canonical version)
 provenance: direct ingestion of Chapter 8 (Neurochemical System)
 confidence: 0.95
@@ -11,8 +12,12 @@ date: 2026-08-22
 source_title: "The Complete Human System — Chapter 8: The Neurochemical System"
 source_type: book-manuscript
 source_url: local-ingestion
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
 ---
-
 
 
 # Neurotransmitter Map — Complete Human System
@@ -130,3 +135,6 @@ Different subtypes have different distributions, signaling pathways, and functio
 
 ---
 **MOC:** [[SYSTEM_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -11,6 +11,12 @@ steward: Trang Phan
 tags: [obsidian, knowledge, vault, linking, plugins, moc, templater, smart-connections, dataview, canon-group/tech-ai, canon/tooling, rscf/claim, rscf/provenance, rscf/state/derived, topic/obsidian-linking]
 title: AMOS Obsidian — Linking Plugin Stack
 type: reference
+source: 11_KNOWLEDGE
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 

@@ -1,8 +1,15 @@
 ---
 title: "Misc MOC"
 type: moc
-tags: [moc, misc]
+source: 11_KNOWLEDGE/misc
+tags: [moc, misc, canon/knowledge]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Misc — Map of Content
 

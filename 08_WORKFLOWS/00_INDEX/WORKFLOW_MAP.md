@@ -1,9 +1,14 @@
 ---
 title: WORKFLOW MAP
 type: workflow
-tags: [amos_os, 08_workflows]
+source: 08_WORKFLOWS/00_INDEX
+tags: [amos_os, 08_workflows, canon/workflow]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # WORKFLOW MAP

@@ -1,27 +1,15 @@
 ---
 title: COGNITIVE MATRIX README
 type: cognitive
-tags: [cognitive_matrix, readme]
+source: 25_COGNITIVE_MATRIX
+tags: [cognitive_matrix, readme, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-
-
-Below is a full **candidate implementation** for `COGNITIVE_MATRIX_README.md`. Because no authoritative file with this exact content was recovered, this is **DERIVED / CANDIDATE_CANON**, not recovered historical canon.
-
-````markdown
-# AMOS COGNITIVE MATRIX
-
-**Artifact:** `COGNITIVE_MATRIX_README.md`  
-**System:** AMOS OS  
-**Layer:** Cognitive Architecture / Reasoning Coordination  
-**Artifact Class:** Architecture Contract + Integration Specification  
-**Status:** DERIVED / CANDIDATE_CANON  
-**Canon Authority:** Not established by this document alone  
-**Origin Architect / Steward:** Trang Phan  
-**Compatibility Target:** AMOS_CORE lineage through v4.4  
-**Supersession Rule:** May become canonical only through the AMOS canon, provenance, validation, and supersession process.
-
----
 
 # 0. STATUS AND EPISTEMIC BOUNDARY
 
@@ -95,52 +83,30 @@ The Cognitive Matrix provides a common architecture for deciding:
 
 Conceptually:
 
-\[
-CM =
-\mathcal{C}(
-T,
-E,
-P,
-S,
-R,
-H,
-M,
-L,
-G,
-X,
-U,
-A
-)
-\]
+$$CM = \mathcal{C}( T, E, P, S, R, H, M, L, G, X, U, A )$$
 
 where:
 
-- \(T\) = task contract;
-- \(E\) = admissible evidence;
-- \(P\) = provenance topology;
-- \(S\) = scope;
-- \(R\) = epistemic/environmental regime;
-- \(H,M,L\) = hierarchical/fractal knowledge resolution;
-- \(G\) = governance constraints;
-- \(X\) = active cognitive capabilities/modes;
-- \(U\) = uncertainty state;
-- \(A\) = action/decision requirements.
+- $T$ = task contract;
+- $E$ = admissible evidence;
+- $P$ = provenance topology;
+- $S$ = scope;
+- $R$ = epistemic/environmental regime;
+- $H,M,L$ = hierarchical/fractal knowledge resolution;
+- $G$ = governance constraints;
+- $X$ = active cognitive capabilities/modes;
+- $U$ = uncertainty state;
+- $A$ = action/decision requirements.
 
 The Matrix does not assume every task requires every component.
 
 The governing runtime principle is:
 
-\[
-\text{Reasoning Scope}
-=
-\text{Smallest Sufficient Proof Scope}
-\]
+$$\text{Reasoning Scope} = \text{Smallest Sufficient Proof Scope}$$
 
 subject to:
 
-\[
-\text{Integrity Constraints} = \text{Satisfied}
-\]
+$$\text{Integrity Constraints} = \text{Satisfied}$$
 
 ---
 
@@ -170,23 +136,7 @@ Terms such as *mind*, *cognition*, *consciousness*, *field*, *quantum*, *recursi
 
 Every consequential reasoning operation SHOULD be representable as:
 
-\[
-Q =
-\langle
-O,
-SC,
-ST,
-F,
-E,
-P,
-D,
-R,
-C,
-H,
-U,
-A
-\rangle
-\]
+$$Q = \langle O, SC, ST, F, E, P, D, R, C, H, U, A \rangle$$
 
 where:
 
@@ -225,10 +175,7 @@ The Cognitive Matrix is multidimensional.
 
 A useful conceptual representation is:
 
-$$
-CM =
-K \times E \times P \times R \times C \times T \times M
-$$
+$$CM = K \times E \times P \times R \times C \times T \times M$$
 
 with major axes:
 
@@ -380,11 +327,7 @@ Outputs must trace to declared inputs.
 
 ### CM-I2 — No Confidence Creation
 
-$$
-Conf(output)
-\le
-\min Conf(load\text{-}bearing\ premises)
-$$
+$$Conf(output) \le \min Conf(load\text{-}bearing\ premises)$$
 
 unless the weak premise has been independently revalidated or is no longer load-bearing.
 
@@ -392,17 +335,13 @@ unless the weak premise has been independently revalidated or is no longer load-
 
 A transformation cannot silently widen applicability.
 
-$$
-Scope(output)
-\subseteq
-Scope(valid\ inputs)
-$$
+$$Scope(output) \subseteq Scope(valid\ inputs)$$
 
 unless a justified scope-expansion operation exists.
 
 ### CM-I4 — Regime Preservation
 
-A conclusion valid under regime \(R_1\) does not automatically remain valid under \(R_2\).
+A conclusion valid under regime $R_1$ does not automatically remain valid under $R_2$.
 
 ### CM-I5 — Provenance Preservation
 
@@ -468,18 +407,11 @@ Traversal SHOULD continue only while additional resolution can materially alter:
 
 Define:
 
-$$
-VOI(n) =
-E[\Delta DecisionQuality \mid retrieve(n)]
--
-Cost(retrieve(n))
-$$
+$$VOI(n) = E[\Delta DecisionQuality \mid retrieve(n)] - Cost(retrieve(n))$$
 
 A node SHOULD be traversed when:
 
-$$
-VOI(n) > 0
-$$
+$$VOI(n) > 0$$
 
 subject to mandatory integrity checks.
 
@@ -566,11 +498,7 @@ Recursive descent is justified when a parent conclusion depends on unresolved ch
 
 Conceptually:
 
-$$
-RSCF_i
-\rightarrow
-\{RSCF_{i1},RSCF_{i2},...,RSCF_{in}\}
-$$
+$$RSCF_i \rightarrow \{RSCF_{i1},RSCF_{i2},...,RSCF_{in}\}$$
 
 The parent may finalize only when its load-bearing child requirements satisfy the applicable finalization rules.
 
@@ -584,10 +512,7 @@ A composite conclusion MUST NOT be finalized from only a convenient subset when 
 
 If:
 
-$$
-C \leftarrow
-R_1 \land R_2 \land R_3
-$$
+$$C \leftarrow R_1 \land R_2 \land R_3$$
 
 then:
 
@@ -597,15 +522,13 @@ commit(C)
 
 requires valid compatible states from all required frames.
 
-Failure of \(R_2\) does not necessarily invalidate all cognition.
+Failure of $R_2$ does not necessarily invalidate all cognition.
 
 It invalidates:
 
-$$
-Descendants(R_2)
-$$
+$$Descendants(R_2)$$
 
-plus any composite conclusion requiring \(R_2\).
+plus any composite conclusion requiring $R_2$.
 
 This provides local failure containment.
 
@@ -632,17 +555,7 @@ A model MUST NOT float free from its evidence envelope.
 
 Conceptually:
 
-$$
-ModelValidity =
-f(
-Evidence,
-Scope,
-Regime,
-Assumptions,
-Freshness,
-Provenance
-)
-$$
+$$ModelValidity = f( Evidence, Scope, Regime, Assumptions, Freshness, Provenance )$$
 
 If any load-bearing validity condition fails, model-derived conclusions MUST be reconsidered.
 
@@ -774,9 +687,7 @@ The Matrix treats provenance as a graph rather than a flat citation list.
 
 Let:
 
-$$
-G_P = (V,E)
-$$
+$$G_P = (V,E)$$
 
 where vertices represent evidence artifacts/sources and edges represent relationships such as:
 
@@ -807,9 +718,7 @@ A naive system may count three confirmations.
 
 The Cognitive Matrix recognizes:
 
-$$
-IndependentEvidenceCount \neq DocumentCount
-$$
+$$IndependentEvidenceCount \neq DocumentCount$$
 
 if all descend from the same origin.
 
@@ -819,11 +728,9 @@ if all descend from the same origin.
 
 Evidence repetition must not manufacture confidence.
 
-For evidence nodes \(e_i\):
+For evidence nodes $e_i$:
 
-$$
-Independence(e_i,e_j)
-$$
+$$Independence(e_i,e_j)$$
 
 must be demonstrated when independence materially affects the conclusion.
 
@@ -842,11 +749,7 @@ Signals of non-independence include:
 
 Therefore:
 
-$$
-N\ reports
-\not\Rightarrow
-N\ independent\ confirmations
-$$
+$$N\ reports \not\Rightarrow N\ independent\ confirmations$$
 
 ---
 
@@ -914,9 +817,7 @@ The Matrix MUST support multiple live hypotheses.
 
 For:
 
-$$
-H = \{h_1,h_2,\ldots,h_n\}
-$$
+$$H = \{h_1,h_2,\ldots,h_n\}$$
 
 each hypothesis SHOULD retain:
 
@@ -942,16 +843,7 @@ The preferred next operation is the cheapest high-information discriminating tes
 
 Conceptually:
 
-$$
-Test^*
-=
-\arg\max_t
-\frac{
-ExpectedDiscrimination(t)
-}{
-Cost(t)+Risk(t)
-}
-$$
+$$Test^* = \arg\max_t \frac{ ExpectedDiscrimination(t) }{ Cost(t)+Risk(t) }$$
 
 ---
 
@@ -987,19 +879,11 @@ The following are insufficient by themselves to establish causality:
 
 Thus:
 
-$$
-Similarity(A,B)
-\not\Rightarrow
-A \rightarrow B
-$$
+$$Similarity(A,B) \not\Rightarrow A \rightarrow B$$
 
 and:
 
-$$
-P(B|A) > P(B)
-\not\Rightarrow
-A\ causes\ B
-$$
+$$P(B|A) > P(B) \not\Rightarrow A\ causes\ B$$
 
 without an appropriate identification strategy.
 
@@ -1023,9 +907,7 @@ UNCERTAINTY
 
 A conceptual query:
 
-$$
-Y_{do(X=x')}
-$$
+$$Y_{do(X=x')}$$
 
 is not licensed merely by observational association.
 
@@ -1062,21 +944,15 @@ ScopeEnvelope {
 
 If a conclusion is established under:
 
-$$
-S_1
-$$
+$$S_1$$
 
 it cannot silently be generalized to:
 
-$$
-S_2
-$$
+$$S_2$$
 
 unless:
 
-$$
-TransferValidity(S_1,S_2)
-$$
+$$TransferValidity(S_1,S_2)$$
 
 is independently established.
 
@@ -1144,30 +1020,19 @@ The Matrix SHOULD avoid collapsing uncertainty into a single scalar when dimensi
 
 Define:
 
-$$
-U =
-(
-u_e,
-u_m,
-u_s,
-u_t,
-u_c,
-u_x,
-u_p
-)
-$$
+$$U = ( u_e, u_m, u_s, u_t, u_c, u_x, u_p )$$
 
 where:
 
 | Component | Meaning                             |
 | --------- | ----------------------------------- |
-| \(u_e\)   | evidence uncertainty                |
-| \(u_m\)   | model uncertainty                   |
-| \(u_s\)   | scope uncertainty                   |
-| \(u_t\)   | temporal uncertainty                |
-| \(u_c\)   | causal uncertainty                  |
-| \(u_x\)   | execution uncertainty               |
-| \(u_p\)   | provenance-independence uncertainty |
+| $u_e$   | evidence uncertainty                |
+| $u_m$   | model uncertainty                   |
+| $u_s$   | scope uncertainty                   |
+| $u_t$   | temporal uncertainty                |
+| $u_c$   | causal uncertainty                  |
+| $u_x$   | execution uncertainty               |
+| $u_p$   | provenance-independence uncertainty |
 
 Reasoning resources SHOULD be allocated where reducing uncertainty has positive expected decision value.
 
@@ -1179,19 +1044,13 @@ For consequential conclusions, identify the smallest assumption or observation c
 
 Let:
 
-$$
-C = f(p_1,p_2,\ldots,p_n)
-$$
+$$C = f(p_1,p_2,\ldots,p_n)$$
 
 Define the critical set:
 
-$$
-P^*
-=
-\{p_i : perturb(p_i)\ can\ flip\ C\}
-$$
+$$P^* = \{p_i : perturb(p_i)\ can\ flip\ C\}$$
 
-Test \(P^*\) before spending resources on noncritical background.
+Test $P^*$ before spending resources on noncritical background.
 
 A fragile conclusion SHOULD be classified:
 
@@ -1239,13 +1098,7 @@ A mode may enter the active Matrix only if it contributes decision-relevant capa
 
 Conceptually:
 
-$$
-Admit(m)
-=
-Need(m)
-\land Authorized(m)
-\land Compatible(m)
-$$
+$$Admit(m) = Need(m) \land Authorized(m) \land Compatible(m)$$
 
 Admission SHOULD consider:
 
@@ -1300,17 +1153,7 @@ DECISION_PRESSURE vs UNRESOLVED_CRITICAL_GAP
 
 Conflict resolution follows:
 
-$$
-Integrity
->
-Completeness
->
-Fluency
->
-Speed
->
-TokenSavings
-$$
+$$Integrity > Completeness > Fluency > Speed > TokenSavings$$
 
 Therefore a faster mode loses when it would compromise evidence integrity.
 
@@ -1416,15 +1259,11 @@ Constraints propagate along dependency edges.
 
 If:
 
-$$
-A \rightarrow B \rightarrow C
-$$
+$$A \rightarrow B \rightarrow C$$
 
-and constraint \(k\) applies to \(A\) and remains relevant downstream:
+and constraint $k$ applies to $A$ and remains relevant downstream:
 
-$$
-k(A) \Rightarrow k(B),k(C)
-$$
+$$k(A) \Rightarrow k(B),k(C)$$
 
 unless explicitly discharged.
 
@@ -1474,11 +1313,7 @@ A reasoning component should receive only information required for its function 
 
 Conceptually:
 
-$$
-Exposure(m)
-=
-MinimumInformationRequired(m)
-$$
+$$Exposure(m) = MinimumInformationRequired(m)$$
 
 subject to correctness.
 
@@ -1510,17 +1345,7 @@ Risk is not merely probability.
 
 Conceptually:
 
-$$
-Risk =
-f(
-Probability,
-Impact,
-Irreversibility,
-Exposure,
-Uncertainty,
-DependencyRadius
-)
-$$
+$$Risk = f( Probability, Impact, Irreversibility, Exposure, Uncertainty, DependencyRadius )$$
 
 Higher risk raises the evidence and governance threshold.
 
@@ -1530,9 +1355,7 @@ Higher risk raises the evidence and governance threshold.
 
 Capability does not imply authority.
 
-$$
-Can(X) \not\Rightarrow May(X)
-$$
+$$Can(X) \not\Rightarrow May(X)$$
 
 Authorization SHOULD consider:
 
@@ -1629,16 +1452,7 @@ Repair itself can cause damage.
 
 The Matrix SHOULD estimate:
 
-$$
-RepairHarm =
-InvalidationCost
-+
-RecomputationCost
-+
-OperationalDisruption
-+
-RiskOfNewError
-$$
+$$RepairHarm = InvalidationCost + RecomputationCost + OperationalDisruption + RiskOfNewError$$
 
 A repair strategy SHOULD minimize harm without preserving invalid state.
 
@@ -1684,15 +1498,7 @@ Presentation-level incompleteness.
 
 Resolution priority:
 
-$$
-Critical
->
-DecisionRelevant
->
-Explanatory
->
-Cosmetic
-$$
+$$Critical > DecisionRelevant > Explanatory > Cosmetic$$
 
 ---
 
@@ -1700,7 +1506,7 @@ $$
 
 Consequential conclusions SHOULD undergo a genuinely different challenge path.
 
-Given candidate conclusion \(C\):
+Given candidate conclusion $C$:
 
 ```text
 PRIMARY PATH → C
@@ -1754,19 +1560,16 @@ AMOS v4.4-style reasoning permits local fast-path resolution only when the depen
 
 Fast-path eligibility conceptually requires:
 
-$$
-F =
-D \land P \land S \land R \land T \land \neg C
-$$
+$$F = D \land P \land S \land R \land T \land \neg C$$
 
 where:
 
-* \(D\) = dependency closure established;
-* \(P\) = provenance independence sufficient;
-* \(S\) = scope compatible;
-* \(R\) = regime compatible;
-* \(T\) = freshness sufficient;
-* \(C\) = unresolved material conflict.
+* $D$ = dependency closure established;
+* $P$ = provenance independence sufficient;
+* $S$ = scope compatible;
+* $R$ = regime compatible;
+* $T$ = freshness sufficient;
+* $C$ = unresolved material conflict.
 
 Fast path is denied when:
 
@@ -1787,11 +1590,7 @@ The Matrix SHOULD avoid global coordination when local proof is sufficient.
 
 Conceptually:
 
-$$
-GlobalCoordination
-\rightarrow
-OnlyIf(LocalProofInsufficient)
-$$
+$$GlobalCoordination \rightarrow OnlyIf(LocalProofInsufficient)$$
 
 This is an architectural reasoning principle.
 
@@ -1813,7 +1612,7 @@ Epoch E_n
   conclusions
 ```
 
-A conclusion finalized in \(E_n\) cannot automatically inherit validity into \(E_{n+1}\) after load-bearing changes.
+A conclusion finalized in $E_n$ cannot automatically inherit validity into $E_{n+1}$ after load-bearing changes.
 
 ---
 
@@ -1848,15 +1647,11 @@ Commit a reasoning update only if the expected dependency state still matches.
 
 Conceptually:
 
-$$
-CAS(expected,\ current,\ new)
-$$
+$$CAS(expected,\ current,\ new)$$
 
 If:
 
-$$
-expected \neq current
-$$
+$$expected \neq current$$
 
 then:
 
@@ -1874,9 +1669,7 @@ Reasoning transformations SHOULD retain persistent provenance.
 
 For a derived conclusion:
 
-$$
-C \leftarrow P_1,P_2,P_3
-$$
+$$C \leftarrow P_1,P_2,P_3$$
 
 the lineage must survive summarization and reuse.
 
@@ -2065,19 +1858,13 @@ Confidence is bounded by the weakest load-bearing premise.
 
 For:
 
-$$
-C = f(P_1,\ldots,P_n)
-$$
+$$C = f(P_1,\ldots,P_n)$$
 
 a default ceiling is:
 
-$$
-Conf(C)
-\le
-\min_i Conf(P_i)
-$$
+$$Conf(C) \le \min_i Conf(P_i)$$
 
-for load-bearing \(P_i\).
+for load-bearing $P_i$.
 
 This can be altered only when:
 
@@ -2096,13 +1883,9 @@ It must eliminate enough **decision-changing uncertainty**.
 
 Define:
 
-$$
-DecisionSufficient
-=
-\neg \exists g
-$$
+$$DecisionSufficient = \neg \exists g$$
 
-such that unresolved gap \(g\) has plausible capacity to alter the decision beyond the accepted risk threshold.
+such that unresolved gap $g$ has plausible capacity to alter the decision beyond the accepted risk threshold.
 
 This allows rational stopping.
 
@@ -2142,13 +1925,7 @@ For irreversible actions, thresholds rise.
 
 Stop when:
 
-$$
-ClaimSufficiency
-\land
-DecisionSufficiency
-\land
-ActionSufficiency
-$$
+$$ClaimSufficiency \land DecisionSufficiency \land ActionSufficiency$$
 
 where action sufficiency is required.
 
@@ -2292,11 +2069,9 @@ The Matrix may translate between:
 
 Translation MUST preserve semantic invariants.
 
-For translation \(T\):
+For translation $T$:
 
-$$
-Meaning(T(x)) \approx Meaning(x)
-$$
+$$Meaning(T(x)) \approx Meaning(x)$$
 
 within declared loss bounds.
 
@@ -2312,17 +2087,13 @@ Cross-domain mappings are useful but dangerous.
 
 A structural correspondence:
 
-$$
-A \sim B
-$$
+$$A \sim B$$
 
 licenses a candidate analogy.
 
 It does not prove:
 
-$$
-Mechanism(A)=Mechanism(B)
-$$
+$$Mechanism(A)=Mechanism(B)$$
 
 Cross-domain mappings remain `MODEL` until independently validated.
 
@@ -2571,9 +2342,7 @@ The complete Matrix SHOULD preserve the following master invariants.
 
 ### M1 — Integrity dominance
 
-$$
-Integrity > Optimization
-$$
+$$Integrity > Optimization$$
 
 ### M2 — Provenance persistence
 
@@ -2637,44 +2406,25 @@ Consequential conclusions finalize only after the applicable proof obligations a
 
 A conceptual final decision function may be written:
 
-$$
-D^*
-=
-\arg\max_D
-Utility(D)
-$$
+$$D^* = \arg\max_D Utility(D)$$
 
 subject to:
 
-$$
-EvidenceIntegrity(D) \ge \theta_E
-$$
+$$EvidenceIntegrity(D) \ge \theta_E$$
 
-$$
-ScopeValidity(D) = true
-$$
+$$ScopeValidity(D) = true$$
 
-$$
-RegimeValidity(D) = true
-$$
+$$RegimeValidity(D) = true$$
 
-$$
-CausalDiscipline(D) = true
-$$
+$$CausalDiscipline(D) = true$$
 
-$$
-Governance(D) = authorized
-$$
+$$Governance(D) = authorized$$
 
-$$
-Risk(D) \le \theta_R
-$$
+$$Risk(D) \le \theta_R$$
 
 and:
 
-$$
-CriticalGaps(D)=0
-$$
+$$CriticalGaps(D)=0$$
 
 where thresholds depend on stakes and reversibility.
 
@@ -2771,15 +2521,11 @@ Trust MUST NOT be globally inherited from source reputation alone.
 
 The Matrix rejects:
 
-$$
-Popularity \Rightarrow Truth
-$$
+$$Popularity \Rightarrow Truth$$
 
 and:
 
-$$
-Authority \Rightarrow AutomaticVerification
-$$
+$$Authority \Rightarrow AutomaticVerification$$
 
 Authority can affect prior trust or evidence weighting, but claims remain bounded by:
 
@@ -2796,9 +2542,7 @@ Authority can affect prior trust or evidence weighting, but claims remain bounde
 
 The Matrix rejects:
 
-$$
-RepeatedClaim \Rightarrow IndependentConfirmation
-$$
+$$RepeatedClaim \Rightarrow IndependentConfirmation$$
 
 Evidence topology must be inspected where independence matters.
 
@@ -2808,9 +2552,7 @@ Evidence topology must be inspected where independence matters.
 
 The Matrix rejects:
 
-$$
-StructuralSimilarity \Rightarrow CausalIdentity
-$$
+$$StructuralSimilarity \Rightarrow CausalIdentity$$
 
 This is especially important for mappings across:
 
@@ -2832,11 +2574,7 @@ It cannot close causal proof.
 
 The Matrix rejects:
 
-$$
-BenchmarkSuccess
-\Rightarrow
-UniversalValidity
-$$
+$$BenchmarkSuccess \Rightarrow UniversalValidity$$
 
 Benchmark conclusions inherit:
 
@@ -2872,17 +2610,11 @@ When multiple formulations are available, choose the strongest statement fully l
 
 Formally:
 
-$$
-Claim^*
-=
-\max Claim
-$$
+$$Claim^* = \max Claim$$
 
 subject to:
 
-$$
-Evidence \models Claim
-$$
+$$Evidence \models Claim$$
 
 and all scope, provenance, regime, causal, and freshness constraints.
 
@@ -2894,24 +2626,11 @@ Trust attaches to a claim within an envelope.
 
 Conceptually:
 
-$$
-Trust =
-T(
-claim,
-source,
-scope,
-regime,
-time,
-method,
-provenance
-)
-$$
+$$Trust = T( claim, source, scope, regime, time, method, provenance )$$
 
 not:
 
-$$
-Trust = T(source)
-$$
+$$Trust = T(source)$$
 
 globally.
 
@@ -2923,17 +2642,11 @@ The Matrix SHOULD not prove everything.
 
 It SHOULD prove everything that can change the outcome.
 
-$$
-ProofScope^*
-=
-\min Scope
-$$
+$$ProofScope^* = \min Scope$$
 
 such that:
 
-$$
-DecisionCorrectness
-$$
+$$DecisionCorrectness$$
 
 is sufficiently protected for the stakes involved.
 
@@ -2943,16 +2656,7 @@ is sufficiently protected for the stakes involved.
 
 When uncertainty cannot be eliminated economically:
 
-$$
-Action^*
-=
-\arg\max
-\frac{
-ExpectedValue
-}{
-Irreversibility + Risk + RepairCost
-}
-$$
+$$Action^* = \arg\max \frac{ ExpectedValue }{ Irreversibility + Risk + RepairCost }$$
 
 subject to governance and safety constraints.
 
@@ -2962,23 +2666,17 @@ This favors staged decisions where possible.
 
 # 94. PRINCIPLE OF SELECTIVE INVALIDATION
 
-When premise \(p\) fails:
+When premise $p$ fails:
 
-$$
-Invalidate(p)
-$$
+$$Invalidate(p)$$
 
 then:
 
-$$
-Invalidate(Descendants(p))
-$$
+$$Invalidate(Descendants(p))$$
 
 not:
 
-$$
-Invalidate(AllKnowledge)
-$$
+$$Invalidate(AllKnowledge)$$
 
 unless dependency structure proves global contamination.
 
@@ -3008,23 +2706,17 @@ When hypotheses compete, retrieve evidence that separates them.
 
 If:
 
-$$
-H_1,H_2
-$$
+$$H_1,H_2$$
 
-both predict observation \(O\), then retrieving more \(O\)-type evidence has low discriminating value.
+both predict observation $O$, then retrieving more $O$-type evidence has low discriminating value.
 
-Prefer evidence \(E^*\) such that:
+Prefer evidence $E^*$ such that:
 
-$$
-P(E^*|H_1)
-$$
+$$P(E^*|H_1)$$
 
 and:
 
-$$
-P(E^*|H_2)
-$$
+$$P(E^*|H_2)$$
 
 differ materially.
 
@@ -3093,19 +2785,11 @@ The Cognitive Matrix therefore optimizes not for maximum cognition, maximum comp
 
 It optimizes for:
 
-$$
-\boxed{
-\text{Minimum Sufficient Governed Cognition}
-}
-$$
+$$\boxed{ \text{Minimum Sufficient Governed Cognition} }$$
 
 under:
 
-$$
-\boxed{
-\text{Integrity-Preserving Constraints}
-}
-$$
+$$\boxed{ \text{Integrity-Preserving Constraints} }$$
 
 ---
 
@@ -3158,3 +2842,4 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+```

@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L27 MULTI AGENT COGNITION CONTRACT
 type: agent
-tags: [cognitive_matrix, primitives, l27_multi_agent_cognition, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION
+tags: [cognitive_matrix, primitives, l27_multi_agent_cognition, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L27_MULTI_AGENT_COGNITION — Multi-agent cognition Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L27_MULTI_AGENT_COGNITION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,14 +1,21 @@
 ---
 title: 5A JOURNEY PLANNING PHASE V4
 type: plan
+source: 11_KNOWLEDGE/misc
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: 5a-journey-planning-phase-v4
 tags: [canon-group/tech-ai, canon/narrative, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/5a-journey-planning-phase-v4, misc]
 created: 2026-08-22
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
-
 
 
 TRANSFORMING CUSTOMER JOURNEYS

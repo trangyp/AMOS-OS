@@ -4,9 +4,15 @@ created: "2026-08-22"
 origin_architect: user-supplied canon audit (Hermes session)
 provenance: derived from 5 vault canon layers + 7-part canon test
 type: canon-audit
+source: 11_KNOWLEDGE/dated
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-7-part-universe-canon-vault-c, dated, dated/2026-08-22]
 status: "completed"
 confidence: "STRUCTURAL"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
 
 
@@ -27,9 +33,9 @@ For each vault canon layer, run the 7-question canon test:
 Failure to answer all seven = structural invalidity **for that layer's stated scope**.
 
 **Verdict key:**
-- ✓ PASS — layer explicitly answers this question
+- PASS — layer explicitly answers this question
 - △ SHARPEN — layer addresses it implicitly or partially; 7-part framing makes it cleaner
-- ✗ GAP — layer has no answer to this question
+- GAP — layer has no answer to this question
 
 ---
 

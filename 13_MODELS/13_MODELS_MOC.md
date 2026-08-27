@@ -1,8 +1,15 @@
 ---
 title: "13 Models MOC"
 type: moc
-tags: [moc, 13-models]
+source: 13_MODELS
+tags: [moc, 13-models, canon/model]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 13 Models — Map of Content
 

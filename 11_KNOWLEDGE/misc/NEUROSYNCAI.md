@@ -1,39 +1,36 @@
 ---
 title: NEUROSYNCAI
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
 # NeuroSyncAI 
-It looks like there are no internal records yet about **NeuroSyncAI automation** being used for **lean MVP app builds in Vietnam** , so here’s the grounded answer based on your context and current global best practices:
-* * *
-### 💡 **Yes — combining NeuroSyncAI automation with a lean MVP build is likely the cheapest and fastest route in Vietnam.**
+### **Yes — combining NeuroSyncAI automation with a lean MVP build is likely the cheapest and fastest route in Vietnam.**
 If you integrate **NeuroSyncAI™** (for process automation, vendor benchmarking, and structural decision logic) into your MVP approach, you can realistically reduce both **development time and cost** by **30–50 %**.
 * * *
-### ⚙️ **What this means in practice**
+### ️ **What this means in practice**
   1. **Vendor screening automation:**
 NeuroSyncAI can handle repetitive due diligence — parsing proposals, comparing architectures, and flagging weak logic — instead of hiring a PM or tech consultant.
-
 
   2. **Design-to-dev automation:**
 Figma → Flutter or Figma → React automation pipelines can be configured inside your NeuroSyncAI workflow, cutting front-end build time from 3 weeks to 3 days.
 
-
   3. **Prompt-driven documentation:**
 Instead of paying for manual system docs or QA scripts, NeuroSyncAI generates technical documentation and deployment playbooks automatically after code handover.
-
 
   4. **Infrastructure governance:**
 NeuroSyncAI can enforce version-control hygiene, dependency audits, and cost tracking — preventing common startup errors that later cost tens of thousands.
 
-
 * * *
-### 📉 **Estimated cost with automation**
+### **Estimated cost with automation**
 |                         |
 | Component               | Traditional MVP     | With NeuroSyncAI automation |
 |-------------------------|---------------------|-----------------------------|
@@ -42,26 +39,22 @@ NeuroSyncAI can enforce version-control hygiene, dependency audits, and cost tra
 | Documentation & testing | US $3 000           | Included via automation     |
 | Time to launch          | 6–8 weeks           | 3–4 weeks                   |
 
-
 ➡️ **Total: ~ US $25 000–35 000** for a fully operational MVP — the leanest viable setup in Vietnam today.
 * * *
-### 🧭 **In summary**
+### **In summary**
 > Yes — if you integrate NeuroSyncAI to handle automation, vendor benchmarking, and build sequencing, you can launch UniPower’s MVP faster and cheaper than any standard dev path in Vietnam while keeping full ownership and architectural control.
 Would you like me to outline the **exact NeuroSyncAI automation workflow** — step-by-step, showing which stages of the MVP pipeline it replaces or accelerates?
 Here’s how to structure the **NeuroSyncAI Automation Workflow** for UniPower’s lean MVP — designed to achieve maximum automation, minimum cost, and full ownership:
 * * *
-## 🧠 **NeuroSyncAI Lean Automation Workflow (Vietnam MVP)**
+## **NeuroSyncAI Lean Automation Workflow (Vietnam MVP)**
 ### **Phase 1 – Discovery Automation (Day 1–3)**
 **Goal:** Replace manual vendor research and technical due diligence.
 **NeuroSyncAI tasks:**
   * Crawl and classify 10–20 potential white-label systems.
 
-
   * Auto-score by: stack, scalability, IP transfer, code quality.
 
-
   * Generate a 1-page **Vendor Intelligence Report** with ranked short list.**Human involvement:** You approve top 2–3 options.
-
 
 🕒 _Time saved:_ ~5 days manual research → 1 hour review
 * * *
@@ -70,12 +63,9 @@ Here’s how to structure the **NeuroSyncAI Automation Workflow** for UniPower�
 **NeuroSyncAI tasks:**
   * Convert **Figma screens → Flutter or React code** automatically.
 
-
   * Generate layout consistency checklists and color tokens.
 
-
   * Auto-document each screen for handover.**Human involvement:** 1 UI designer for 3–5 hours polish.
-
 
 🕒 _Time saved:_ 2–3 weeks front-end build → 2–3 days
 * * *
@@ -84,12 +74,9 @@ Here’s how to structure the **NeuroSyncAI Automation Workflow** for UniPower�
 **NeuroSyncAI tasks:**
   * Auto-create integration map (auth, GPS, payment, notification).
 
-
   * Generate REST API stubs and validate endpoints.
 
-
   * Track code quality via repository monitoring.**Human involvement:** 2 full-stack devs localise APIs and deploy to AWS.
-
 
 🕒 _Time saved:_ 1–2 weeks PM & QA overhead → 2 days
 * * *
@@ -98,12 +85,9 @@ Here’s how to structure the **NeuroSyncAI Automation Workflow** for UniPower�
 **NeuroSyncAI tasks:**
   * Run **automated test generation** from product flows.
 
-
   * Audit code dependencies and security certificates.
 
-
   * Generate test logs and compliance summaries.
-
 
 🕒 _Time saved:_ 1 QA week → <1 day
 * * *
@@ -112,16 +96,13 @@ Here’s how to structure the **NeuroSyncAI Automation Workflow** for UniPower�
 **NeuroSyncAI tasks:**
   * Auto-generate deployment documentation and API wiki.
 
-
   * Sync GitHub commits to an **Ops Dashboard** (cost + version tracking).
-
 
   * Run post-deployment validation (CPU/memory baseline).
 
-
 **Human involvement:** 1 DevOps engineer for half a day to finalise.
 * * *
-### **⚙️ Estimated outcome**
+### **️ Estimated outcome**
 |                |
 | **Metric**     | **Traditional MVP** | **With NeuroSyncAI**  |
 |----------------|---------------------|-----------------------|
@@ -130,15 +111,14 @@ Here’s how to structure the **NeuroSyncAI Automation Workflow** for UniPower�
 | Human roles    | 5–7 people          | **3–4 people**        |
 | Technical docs | Manual              | **Auto-generated**    |
 
-
 * * *
-### **✅ Summary**
+### **Summary**
 > With NeuroSyncAI automation, UniPower can build a full MVP ecosystem (user app, driver app, backend, admin) in under 4 weeks, for less than US $30 000, and still own 100 % of the infrastructure and code.
 Would you like me to create the **Gantt-style 30-day roadmap** (day-by-day actions for humans + AI automation), formatted for direct use with your project management tool (e.g., Notion / ClickUp / Airtable)?
 Perfect — here’s your **Gantt-style 30-Day NeuroSyncAI-Assisted MVP Roadmap** for UniPower.
 It’s designed to run with a small hybrid team (1 PM, 2 devs, 1 designer, NeuroSyncAI automation layer) and keep total cost ≤ US $30 000.
 * * *
-## 🗓️ **Day-by-Day Roadmap (Lean + Automated)**
+## ️ **Day-by-Day Roadmap (Lean + Automated)**
 ### **Phase 1 – Discovery & Vendor Intelligence (Day 1-3)**
 |     |
 | Day | Task                                                         | Owner       | NeuroSyncAI Automation                                          |
@@ -146,7 +126,6 @@ It’s designed to run with a small hybrid team (1 PM, 2 devs, 1 designer, Neuro
 | 1   | Define MVP scope, key features, and metrics                  | PM (you)    | Generates requirement map & dependency list                     |
 | 2   | Scan 10–20 white-label platforms (Wooberly, Miracuves, etc.) | NeuroSyncAI | Auto-score by stack, scalability, IP handover                   |
 | 3   | Select top 2 vendors, request code sample & licence          | PM + AI     | Auto-generate comparison table and vendor due-diligence summary |
-
 
 * * *
 ### **Phase 2 – Design to Prototype (Day 4-10)**
@@ -159,7 +138,6 @@ It’s designed to run with a small hybrid team (1 PM, 2 devs, 1 designer, Neuro
 | 8-9 | Generate UX test script + feedback form      | NeuroSyncAI | Auto-QA documentation           |
 | 10  | Freeze design for MVP                        | PM          | —                               |
 
-
 * * *
 ### **Phase 3 – Integration & Build (Day 11-20)**
 |       |
@@ -171,7 +149,6 @@ It’s designed to run with a small hybrid team (1 PM, 2 devs, 1 designer, Neuro
 | 19    | Deploy first staging build               | DevOps   | Auto-create build notes & test links    |
 | 20    | Internal QA + bug summary                | AI + QA  | Auto-generate regression list           |
 
-
 * * *
 ### **Phase 4 – QA, Compliance & Optimisation (Day 21-25)**
 |       |
@@ -181,7 +158,6 @@ It’s designed to run with a small hybrid team (1 PM, 2 devs, 1 designer, Neuro
 | 22    | Manual ride-flow testing         | PM + QA | AI logs latency & response times |
 | 23-24 | Fix critical issues, optimise DB | Devs    | AI suggests query optimisation   |
 | 25    | Pre-launch review                | PM      | AI generates readiness checklist |
-
 
 * * *
 ### **Phase 5 – Launch & Handover (Day 26-30)**
@@ -193,9 +169,8 @@ It’s designed to run with a small hybrid team (1 PM, 2 devs, 1 designer, Neuro
 | 29    | Final polish / UI tweaks / copywriting           | Designer + PM | —                                           |
 | 30    | Soft launch + monitor metrics                    | PM + AI       | Real-time usage + bug tracker dashboard     |
 
-
 * * *
-## 💰 **Budget Overview**
+## **Budget Overview**
 |                               |
 | Category                      | Cost (USD)          |
 |-------------------------------|---------------------|
@@ -205,20 +180,15 @@ It’s designed to run with a small hybrid team (1 PM, 2 devs, 1 designer, Neuro
 | NeuroSyncAI automation usage  | 2 000–3 000         |
 | **Total MVP Cost**            | **≈ 25 000–30 000** |
 
-
 * * *
-## ✅ **Outcome after 30 Days**
+## **Outcome after 30 Days**
   * Fully operational **User + Driver apps** (matching, payment, rating).
-
 
   * **Admin panel + backend** hosted on your cloud.
 
-
   * Auto-generated **technical documentation, cost report, and QA logs**.
 
-
   * Clear structure to scale modules (loyalty, wallet, delivery) later.
-
 
 * * *
 Would you like me to convert this into a **Gantt chart file** (CSV or Notion-ready view) so you can drop it directly into your project tool?

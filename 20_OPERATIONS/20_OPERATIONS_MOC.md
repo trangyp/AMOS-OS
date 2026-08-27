@@ -1,8 +1,15 @@
 ---
 title: "20 Operations MOC"
 type: moc
-tags: [moc, 20-operations]
+source: 20_OPERATIONS
+tags: [moc, 20-operations, canon/operations]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 20 Operations — Map of Content
 

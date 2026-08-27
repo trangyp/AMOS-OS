@@ -1,8 +1,15 @@
 ---
 title: "12 C02 Math Compute MOC"
 type: moc
-tags: [moc, 12-c02-math-compute]
+source: 21_DOMAINS/12_C02_MATH_COMPUTE
+tags: [moc, 12-c02-math-compute, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 12 C02 Math Compute — Map of Content
 

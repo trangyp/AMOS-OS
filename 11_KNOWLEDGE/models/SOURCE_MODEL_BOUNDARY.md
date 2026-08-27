@@ -1,11 +1,15 @@
 ---
 title: SOURCE MODEL BOUNDARY
-tags: [models, model, specification]
+tags: [models, model, specification, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/models
+rscf:
+  state: AMOS_MODEL
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: model_specification
+
 ---
-
-
 
 
 # Source / Model / Empirical Boundary

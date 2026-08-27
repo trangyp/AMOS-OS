@@ -1,9 +1,14 @@
 ---
 title: STRATEGY DOMAINS STRATEGY CONTRACT
 type: strategy
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/04_STRATEGY/00_INDEX
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # STRATEGY DOMAINS STRATEGY CONTRACT

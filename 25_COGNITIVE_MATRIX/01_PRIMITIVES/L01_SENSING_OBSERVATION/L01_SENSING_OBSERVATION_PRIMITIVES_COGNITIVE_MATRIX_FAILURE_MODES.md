@@ -1,29 +1,15 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX FAILURE MODES
 type: failure-mode
-tags: [cognitive_matrix, primitives, l01_sensing_observation, note]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
+tags: [cognitive_matrix, primitives, l01_sensing_observation, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-
-
-Below is the full paste-ready `L01_SENSING_OBSERVATION/FAILURE_MODES.md`. I’m keeping the failure taxonomy as an **AMOS structural contract**, not claiming that these failure modes are already implemented, runtime-validated, or exhaustive empirical laws.
-
----
-tags:
-  - amos
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - failure-modes
-  - detection
-  - quarantine
-  - recovery
-  - provenance
-  - uncertainty
-  - control-plane
-  - rscf
-  - rscf/type-model
----
 
 # L01_SENSING_OBSERVATION — Failure Modes
 

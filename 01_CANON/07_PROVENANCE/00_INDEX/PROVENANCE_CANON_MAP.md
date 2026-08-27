@@ -1,5 +1,6 @@
 ---
 type: canon
+source: 01_CANON/07_PROVENANCE/00_INDEX
 aliases:
 - Provenance Canon Map
 canon_group: tech-ai
@@ -8,8 +9,13 @@ document_version: 1.0.0
 origin_architect: Trang Phan
 rscf_state: derived
 status: ACTIVE_MOC
-tags: [moc, canon, provenance, navigation]
+tags: [moc, canon, provenance, navigation, canon/universe]
 title: PROVENANCE CANON MAP
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
 
 

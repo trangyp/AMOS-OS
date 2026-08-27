@@ -1,8 +1,15 @@
 ---
 title: "References MOC"
 type: moc
-tags: [moc, references]
+source: 07_SKILLS/amos-sae-benchmark-reliability-rscf-engine/references
+tags: [moc, references, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # References — Map of Content
 

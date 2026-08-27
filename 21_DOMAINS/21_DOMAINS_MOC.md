@@ -1,8 +1,15 @@
 ---
 title: "21 Domains MOC"
 type: moc
-tags: [moc, 21-domains]
+source: 21_DOMAINS
+tags: [moc, 21-domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 21 Domains — Map of Content
 

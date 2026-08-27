@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-c06-society-culture-master]
+source: 07_SKILLS/amos-c06-society-culture-master/references
+tags: [reference, amos-c06-society-culture-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # amos-c06-society-culture-master — Vault-Sourced Domain Knowledge
 
@@ -362,8 +369,6 @@ never present `ritual energy`, `lineage energy`, etc., as instrumented observabl
    communal-house energy, filial
 
 
-
-
 ## Vault-Sourced Domain Content
 
 > Source: `11_KNOWLEDGE/AMOS_C06_SOCIETY_CULTURE_MASTER_KNOWLEDGE.md` (40086 bytes in vault)
@@ -538,3 +543,7 @@ A valid RSCF mapping preserves actual social science; generic labels must not re
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

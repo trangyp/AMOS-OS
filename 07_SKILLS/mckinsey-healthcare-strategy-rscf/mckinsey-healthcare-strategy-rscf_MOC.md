@@ -1,8 +1,15 @@
 ---
 title: "Mckinsey-Healthcare-Strategy-Rscf MOC"
 type: moc
-tags: [moc, mckinsey-healthcare-strategy-rscf]
+source: 07_SKILLS/mckinsey-healthcare-strategy-rscf
+tags: [moc, mckinsey-healthcare-strategy-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Mckinsey-Healthcare-Strategy-Rscf — Map of Content
 

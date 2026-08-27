@@ -10,6 +10,12 @@ steward: Trang Phan
 tags: [moc, amos_os, root, index, map, navigation, canon-group/tech-ai, canon/navigation, topic/layer-maps]
 title: AMOS Layer Maps
 type: index
+source: 00_ROOT
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 

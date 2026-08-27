@@ -1,8 +1,15 @@
 ---
 title: "Amos-Formally-Verified-Migration-Rscf MOC"
 type: moc
-tags: [moc, amos-formally-verified-migration-rscf]
+source: 07_SKILLS/amos-formally-verified-migration-rscf
+tags: [moc, amos-formally-verified-migration-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Formally-Verified-Migration-Rscf — Map of Content
 

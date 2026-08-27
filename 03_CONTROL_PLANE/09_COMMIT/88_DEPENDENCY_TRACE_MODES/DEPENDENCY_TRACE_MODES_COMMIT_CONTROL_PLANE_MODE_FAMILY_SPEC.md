@@ -1,9 +1,14 @@
 ---
 title: DEPENDENCY TRACE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: dependency
-tags: [control_plane, 88_dependency_trace_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/88_DEPENDENCY_TRACE_MODES
+tags: [control_plane, 88_dependency_trace_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # DEPENDENCY TRACE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
@@ -38,3 +43,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[88_DEPENDENCY_TRACE_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

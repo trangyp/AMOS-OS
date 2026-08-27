@@ -1,8 +1,15 @@
 ---
 title: "L Low Scale MOC"
 type: moc
-tags: [moc, l-low-scale]
+source: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE
+tags: [moc, l-low-scale, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L Low Scale — Map of Content
 

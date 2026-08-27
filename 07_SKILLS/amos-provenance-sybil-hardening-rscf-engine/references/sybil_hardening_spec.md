@@ -1,8 +1,15 @@
 ---
 title: sybil hardening spec
 type: reference
-tags: [reference, amos-provenance-sybil-hardening-rscf-engine]
+source: 07_SKILLS/amos-provenance-sybil-hardening-rscf-engine/references
+tags: [reference, amos-provenance-sybil-hardening-rscf-engine, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # JSON Specification
 
@@ -32,3 +39,7 @@ tags: [reference, amos-provenance-sybil-hardening-rscf-engine]
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,8 +1,15 @@
 ---
 title: "31 Control Systems MOC"
 type: moc
-tags: [moc, 31-control-systems]
+source: 21_DOMAINS/31_CONTROL_SYSTEMS
+tags: [moc, 31-control-systems, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 31 Control Systems — Map of Content
 

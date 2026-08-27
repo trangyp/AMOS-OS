@@ -1,9 +1,14 @@
 ---
 title: L03 PERCEPT FORMATION PRIMITIVES COGNITIVE MATRIX REPAIR
 type: cognitive
-tags: [cognitive_matrix, primitives, l03_percept_formation, note]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
+tags: [cognitive_matrix, primitives, l03_percept_formation, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L03_PERCEPT_FORMATION — Repair

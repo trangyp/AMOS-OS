@@ -1,8 +1,15 @@
 ---
 title: org governance engine
 type: reference
-tags: [reference, amos-c09-org-law-policy-master]
+source: 07_SKILLS/amos-c09-org-law-policy-master/references
+tags: [reference, amos-c09-org-law-policy-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Org Governance Engine vInfinity
 
@@ -72,3 +79,7 @@ startup, sme, family_business, corporate, financial_institution, soes, public_ag
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,8 +1,15 @@
 ---
 title: "Vietnamese MOC"
 type: moc
-tags: [moc, vietnamese]
+source: 11_KNOWLEDGE/vietnamese
+tags: [moc, vietnamese, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
 ---
+
 
 # Vietnamese — Map of Content
 

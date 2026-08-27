@@ -1,9 +1,14 @@
 ---
 title: EXPERIMENTAL ARCHIVE README
 type: experimental
-tags: [amos_os, 24_archive]
+source: 24_ARCHIVE/03_EXPERIMENTAL
+tags: [amos_os, 24_archive, canon/archive]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # EXPERIMENTAL ARCHIVE README

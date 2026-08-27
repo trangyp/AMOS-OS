@@ -1,8 +1,15 @@
 ---
 title: "05 Measure MOC"
 type: moc
-tags: [moc, 05-measure]
+source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/05_MEASURE
+tags: [moc, 05-measure, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 05 Measure — Map of Content
 

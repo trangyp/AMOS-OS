@@ -1,9 +1,14 @@
 ---
 title: SECTOR VALUE CHAIN DOMAINS README
 type: value
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/42_SECTOR_VALUE_CHAIN
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # SECTOR VALUE CHAIN DOMAINS README

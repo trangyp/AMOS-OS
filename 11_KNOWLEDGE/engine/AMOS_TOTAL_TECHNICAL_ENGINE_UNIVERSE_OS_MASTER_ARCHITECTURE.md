@@ -3,9 +3,13 @@ title: AMOS TOTAL TECHNICAL ENGINE UNIVERSE OS MASTER ARCHITECTURE
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-total-technical-engine, engine]
 type: code
 source: 11_KNOWLEDGE/engine
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
+
 ---
-
-
 
 
 ```

@@ -1,8 +1,15 @@
 ---
 title: bizfin kernel
 type: reference
-tags: [reference, amos-c07-econ-finance-master]
+source: 07_SKILLS/amos-c07-econ-finance-master/references
+tags: [reference, amos-c07-econ-finance-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS BizFin Kernel v0
 
@@ -112,3 +119,7 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

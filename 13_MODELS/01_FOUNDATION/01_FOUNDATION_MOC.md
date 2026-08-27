@@ -1,8 +1,15 @@
 ---
 title: "01 Foundation MOC"
 type: moc
-tags: [moc, 01-foundation]
+source: 13_MODELS/01_FOUNDATION
+tags: [moc, 01-foundation, canon/model]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 01 Foundation — Map of Content
 

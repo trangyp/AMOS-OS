@@ -1,8 +1,15 @@
 ---
 title: "15 Homeostasis MOC"
 type: moc
-tags: [moc, 15-homeostasis]
+source: 05_COGNITIVE_ORGANISM/15_HOMEOSTASIS
+tags: [moc, 15-homeostasis, canon/cognitive]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 15 Homeostasis — Map of Content
 

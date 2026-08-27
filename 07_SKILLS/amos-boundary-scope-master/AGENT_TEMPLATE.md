@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-boundary-scope-master]
+source: 07_SKILLS/amos-boundary-scope-master
+tags: [note, amos-boundary-scope-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-boundary-scope-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS Boundary & Scope Master. Consolidates 2 sub-skills.
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-boundary-scope-master_MOC]]

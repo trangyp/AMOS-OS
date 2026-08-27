@@ -1,8 +1,15 @@
 ---
 title: "02 Experiments MOC"
 type: moc
-tags: [moc, 02-experiments]
+source: 22_RESEARCH/02_EXPERIMENTS
+tags: [moc, 02-experiments, canon/research]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 02 Experiments — Map of Content
 

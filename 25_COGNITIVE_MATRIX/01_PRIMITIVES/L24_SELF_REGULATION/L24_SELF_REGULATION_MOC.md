@@ -1,8 +1,15 @@
 ---
 title: "L24 Self Regulation MOC"
 type: moc
-tags: [moc, l24-self-regulation]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION
+tags: [moc, l24-self-regulation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L24 Self Regulation — Map of Content
 

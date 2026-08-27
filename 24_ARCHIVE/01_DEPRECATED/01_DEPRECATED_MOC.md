@@ -1,8 +1,15 @@
 ---
 title: "01 Deprecated MOC"
 type: moc
-tags: [moc, 01-deprecated]
+source: 24_ARCHIVE/01_DEPRECATED
+tags: [moc, 01-deprecated, canon/archive]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 01 Deprecated — Map of Content
 

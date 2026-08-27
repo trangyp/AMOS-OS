@@ -1,12 +1,15 @@
 ---
 title: OS PROCESS
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # OS Process
@@ -2048,11 +2051,11 @@ Now ULTRA will automatically include Domain-150 reasoning, cognition expansion, 
     ./amos_ONECLICK_ULTRA.sh
 ```
 This installs:
-### **✓ Full 150-domain universe map**
-### **✓ Expanded cognition kernel**
-### **✓ Automatic domain-level routing**
-### **✓ Domain-aware workflows**
-### **✓ Canon manifest integrated with memory**
+### **Full 150-domain universe map**
+### **Expanded cognition kernel**
+### **Automatic domain-level routing**
+### **Domain-aware workflows**
+### **Canon manifest integrated with memory**
 * * *
 # **Confirm Next Step**
 When you’re ready, next mega-phase is:

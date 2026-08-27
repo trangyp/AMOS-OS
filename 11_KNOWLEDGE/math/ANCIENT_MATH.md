@@ -1,12 +1,15 @@
 ---
 title: ANCIENT MATH
-tags: [math, equation, formal]
+tags: [math, equation, formal, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/math
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: mathematical_model
+
 ---
-
-
-
 
 
 # Ancient math

@@ -1,12 +1,15 @@
 ---
 title: TONG QUAN THI TRUONG GOI XE CONG NGHE TAI VIET N
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **Tổng quan Thị trường – Gọi xe công nghệ tại Việt Nam**
@@ -150,7 +153,7 @@ _Thông lệ:_
 
 
 * * *
-## **🔑 Tóm tắt**
+## **Tóm tắt**
 Thị trường gọi xe công nghệ Việt Nam **lớn, tăng trưởng nhanh, chủ yếu tập trung đô thị** , nhưng đang đối mặt với:
   * **Khoảng trống pháp lý & thực thi** (thuế, bảo hiểm, quản lý thuật toán).
 
@@ -185,13 +188,13 @@ Thông lệ tốt từ **Singapore, EU, Mỹ, Philippines, Malaysia** chỉ ra g
 
 * * *
 Đây là **bảng so sánh nhanh (scorecard)** giữa Việt Nam và thông lệ quốc tế (Singapore, EU, Mỹ, Philippines, Malaysia) theo các trụ cột chính. Màu sắc:
-  * 🟢 Tốt / đã tiệm cận thông lệ
+  * Tốt / đã tiệm cận thông lệ
 
 
-  * 🟡 Trung bình / còn thiếu một phần
+  * Trung bình / còn thiếu một phần
 
 
-  * 🔴 Yếu / khoảng trống lớn
+  * Yếu / khoảng trống lớn
 
 
 * * *
@@ -210,7 +213,7 @@ Thông lệ tốt từ **Singapore, EU, Mỹ, Philippines, Malaysia** chỉ ra g
 
 
 * * *
-## **🔑 Tóm tắt so sánh**
+## **Tóm tắt so sánh**
   * **Việt Nam mạnh** ở: tốc độ chấp nhận dịch vụ, sự đa dạng đối thủ (dù Grab vẫn thống lĩnh), bước đầu EV taxi.
 
 
@@ -299,7 +302,7 @@ Thông lệ tốt từ **Singapore, EU, Mỹ, Philippines, Malaysia** chỉ ra g
 
 
 * * *
-## **🔑 Tóm tắt điểm mạnh**
+## **Tóm tắt điểm mạnh**
   1. **Phủ sóng đa phương tiện:** Việt Nam tận dụng cả ô tô, xe máy, xe điện – phù hợp thói quen di chuyển ngắn và đô thị đông đúc.
 
 
@@ -428,7 +431,7 @@ Thông lệ tốt từ **Singapore, EU, Mỹ, Philippines, Malaysia** chỉ ra g
 
 
 * * *
-## **🔑 Tóm tắt mức độ ưu tiên (Risk Map)**
+## **Tóm tắt mức độ ưu tiên (Risk Map)**
   * **High Impact:** Khung pháp lý & chính sách, Lực lượng tài xế, Trải nghiệm khách hàng, Minh bạch & quản trị.
 
 
@@ -552,7 +555,7 @@ Thông lệ tốt từ **Singapore, EU, Mỹ, Philippines, Malaysia** chỉ ra g
 
 
 * * *
-# **🔑 Tóm tắt Cơ hội Ưu tiên**
+# **Tóm tắt Cơ hội Ưu tiên**
   1. **EV Leadership** → Định vị thương hiệu xanh, tiên phong.
 
 

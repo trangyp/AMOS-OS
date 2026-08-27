@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-neural-computation-mapper]
+source: 07_SKILLS/amos-neural-computation-mapper/references
+tags: [reference, amos-neural-computation-mapper, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -169,3 +176,7 @@ AMOS Brain has been **successfully enhanced with neuromorphic computing capabili
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

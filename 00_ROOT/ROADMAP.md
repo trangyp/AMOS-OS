@@ -1,5 +1,6 @@
 ---
 type: roadmap
+source: 00_ROOT
 artifact_id: AMOS-OS-ROADMAP
 name: AMOS_OS_ROADMAP
 title: "AMOS OS Roadmap — Governed Promotion, Integration, Validation, and Operational Maturity Plan"
@@ -32,7 +33,6 @@ aliases: "- AMOS Roadmap
 related: "see body"---
 
 
-
 # AMOS OS Roadmap
 
 **Origin architect / steward:** Trang Phan
@@ -41,8 +41,14 @@ related: "see body"---
 > **Roadmap version:** `1.0.0`  
 > **AMOS_CORE target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`
-
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
+
+# AMOS OS Roadmap — Governed Promotion, Integration, Validation, and Operational Maturity Plan
 
 ## 0. Purpose
 

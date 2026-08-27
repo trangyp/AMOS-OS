@@ -1,9 +1,14 @@
 ---
 title: K HML
 type: note
-tags: [kernel, integration, note]
+source: 02_KERNEL/09_INTEGRATION
+tags: [kernel, integration, note, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # K HML — Full Canonical Reconstruction

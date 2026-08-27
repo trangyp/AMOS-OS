@@ -1,12 +1,15 @@
 ---
 title: 20 CUOC THI BAT KHA THI NOI TIEN THUONG LEN DEN
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # 20 CUỘC THI "BẤT KHẢ THI" – NƠI TIỀN THƯỞNG LÊN ĐẾN HÀNG TRIỆU USD CHO NHỮNG THỨ CHƯA AI GIẢI ĐƯỢC
@@ -349,7 +352,7 @@ Dưới đây là **20 giải thưởng "bất khả thi"** tiếp theo - nhữn
 
 
 * * *
-## 💡 Ý nghĩa thực sự của những "thử thách bất khả thi"
+## Ý nghĩa thực sự của những "thử thách bất khả thi"
 ### 1\. **Kalshi $1 Billion - Bất khả thi nhưng vẫn đáng thử**
   * Xác suất: **1/120.000.000.000** (1 trên 120 tỷ)
 
@@ -395,7 +398,7 @@ Một số người trong cộng đồng Web3 từng thảo luận về việc *
 
 
 * * *
-## 🎯 Bạn nên làm gì với những thử thách này?
+## Bạn nên làm gì với những thử thách này?
 |                                    |
 | Loại thử thách                     | Nên tham gia?                 | Lý do                                                                                    |
 |------------------------------------|-------------------------------|------------------------------------------------------------------------------------------|
@@ -435,7 +438,7 @@ Dưới đây là **20 giải thưởng "bất khả thi"** tiếp theo - nhữn
 
 
 * * *
-## 💡 Ý nghĩa thực sự của những "thử thách bất khả thi"
+## Ý nghĩa thực sự của những "thử thách bất khả thi"
 ### 1\. **Kalshi $1 Billion - Bất khả thi nhưng vẫn đáng thử**
   * Xác suất: **1/120.000.000.000** (1 trên 120 tỷ)
 
@@ -481,7 +484,7 @@ Một số người trong cộng đồng Web3 từng thảo luận về việc *
 
 
 * * *
-## 🎯 Bạn nên làm gì với những thử thách này?
+## Bạn nên làm gì với những thử thách này?
 |                                    |
 | Loại thử thách                     | Nên tham gia?                 | Lý do                                                                                    |
 |------------------------------------|-------------------------------|------------------------------------------------------------------------------------------|
@@ -522,17 +525,17 @@ Dưới đây là **20 giải thưởng & thử thách dự đoán miễn phí t
 
 
 * * *
-## 📌 Tổng kết theo mức độ khả thi & khu vực
+## Tổng kết theo mức độ khả thi & khu vực
 |                                            |
 | Mức độ                                     | Giải thưởng (#)                                                     | Khuyến nghị                                                            |
 |--------------------------------------------|---------------------------------------------------------------------|------------------------------------------------------------------------|
-| **✅ Có thể tham gia từ Việt Nam**          |  61, 62, 65, 66, 67, 68, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80 | Tập trung vào Toshi.bet, Myriad, Kickgeist, và các giveaway trên Gleam |
-| **❌ Giới hạn khu vực (Mỹ/Canada)**         |  63, 64, 69                                                         | Bỏ qua nếu không sống tại Mỹ                                           |
-| **⚠️ Đã kết thúc (tham khảo cho năm sau)** |  63, 64, 76, 77                                                     | Học hỏi format để chuẩn bị cho mùa giải tới                            |
+| **Có thể tham gia từ Việt Nam**          |  61, 62, 65, 66, 67, 68, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80 | Tập trung vào Toshi.bet, Myriad, Kickgeist, và các giveaway trên Gleam |
+| **Giới hạn khu vực (Mỹ/Canada)**         |  63, 64, 69                                                         | Bỏ qua nếu không sống tại Mỹ                                           |
+| **️ Đã kết thúc (tham khảo cho năm sau)** |  63, 64, 76, 77                                                     | Học hỏi format để chuẩn bị cho mùa giải tới                            |
 
 
 * * *
-## 🔥 Các giải đáng chú ý nhất cho tháng 6-7/2026
+## Các giải đáng chú ý nhất cho tháng 6-7/2026
   1. **Myriad World Cup Contest** (#61) – **$20,000 cho top 1** , đang mở, toàn cầu, không cần nạp tiền
 
 

@@ -1,11 +1,15 @@
 ---
 title: AMOS INFRASTRUCTURE CROSS SKILL PROOF COMPOSITION REPORT
-tags: [knowledge, note]
+tags: [knowledge, note, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/root
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
 
 
 # AMOS Infrastructure Layer — Cross-Skill Proof Composition Report

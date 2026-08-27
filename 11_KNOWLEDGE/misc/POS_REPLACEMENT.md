@@ -1,19 +1,22 @@
 ---
 title: POS REPLACEMENT
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Pos replacement
 Chính xác — và đây là điểm quan trọng mà nhiều startup thanh toán ở Việt Nam **bỏ sót** khi thay thế POS.
 Dưới đây là giải thích chi tiết và **hướng xử lý đúng quy định pháp luật Việt Nam** (theo Nghị định 123/2020/NĐ-CP và Thông tư 78/2021/TT-BTC):
 * * *
-### ⚖️ **1. Vấn đề pháp lý**
+### ️ **1. Vấn đề pháp lý**
 Các hình thức thanh toán QR, ví điện tử (MoMo, ZaloPay, VNPay…) **chỉ là phương tiện thanh toán** , **không phải công cụ phát hành hóa đơn**.
   * Khi khách quét QR và thanh toán thành công, hệ thống chỉ ghi nhận **biên lai giao dịch điện tử (transaction receipt)**.
 
@@ -27,7 +30,7 @@ Các hình thức thanh toán QR, ví điện tử (MoMo, ZaloPay, VNPay…) **c
 
 
 * * *
-### ⚙️ **2. Giải pháp tích hợp chuẩn**
+### ️ **2. Giải pháp tích hợp chuẩn**
 Cách hợp pháp và tối ưu cho UniTaxi là **kết hợp 2 tầng:**
 ### **Tầng 1 – Thanh toán**
   * Dùng **VNPay QR / MoMo / ZaloPay / FPT Pay** làm **phương thức thanh toán**.
@@ -45,7 +48,7 @@ Cách hợp pháp và tối ưu cho UniTaxi là **kết hợp 2 tầng:**
 
 ✅ **Hóa đơn này hợp pháp, lưu thông qua hệ thống thuế.**
 * * *
-### 🧩 **3. Kết luận – Giải pháp khuyến nghị cho UniPower**
+### **3. Kết luận – Giải pháp khuyến nghị cho UniPower**
 > Không cần máy POS, nhưng vẫn xuất hóa đơn hợp lệ nếu triển khai theo mô hình:
 > **VNPay QR / MoMo (thanh toán)** → **MISA hoặc Viettel Invoice (hóa đơn điện tử)**.
   * Giao dịch **vẫn hợp pháp** , **tiện lợi** , và **không vi phạm quy định thuế**.
@@ -85,7 +88,7 @@ Bạn có muốn mình viết thêm **phiên bản rút gọn 3 câu** để b�
 Rất tốt — đây là phần bạn nên nắm thật chắc khi nói chuyện với CEO, kế toán trưởng, hoặc đối tác ngân hàng.
 Dưới đây là bản **phân tích chi tiết, có thể dùng cho trình bày chính thức hoặc gửi lên Ban Điều Hành** :
 * * *
-## 🔹 **Mô hình thanh toán QR + hóa đơn điện tử toàn diện**
+## **Mô hình thanh toán QR + hóa đơn điện tử toàn diện**
 ### (Grab, Be, Gojek và xu hướng pháp lý tại Việt Nam)
 * * *
 ### **1. Bối cảnh chuyển đổi toàn ngành**

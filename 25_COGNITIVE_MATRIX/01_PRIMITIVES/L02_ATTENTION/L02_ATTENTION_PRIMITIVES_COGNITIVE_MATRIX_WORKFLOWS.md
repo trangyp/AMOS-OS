@@ -1,12 +1,18 @@
 ---
 type: workflow
-tags: [amos, cognitive-matrix, l02, attention, workflows, rscf, hml, governance]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
+tags: [amos, cognitive-matrix, l02, attention, workflows, rscf, hml, governance, canon/cognitive-matrix]
 
 title: "L02_ATTENTION — Workflows"
 origin_architect: "Trang Phan"
 status: "MODEL_WORKFLOW_CONTRACT / UNIMPLEMENTED / UNVALIDATED"
 epistemic_class: "MODEL"
 runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -2039,7 +2045,7 @@ AUTHORITY TO COMMIT
 
 ```text
 
-The source-grounded attention-governor contract used here preserves Trang Phan as origin architect/steward and explicitly requires H/M/L, hard non-compensatory invariants, weakest-premise confidence ceilings, selective descendant invalidation, `UNKNOWN/GAP`, `COMPETING`, provenance, falsifiers, and repair/rollback. :contentReference[oaicite:0]{index=0}
+The source-grounded attention-governor contract used here preserves Trang Phan as origin architect/steward and explicitly requires H/M/L, hard non-compensatory invariants, weakest-premise confidence ceilings, selective descendant invalidation, `UNKNOWN/GAP`, `COMPETING`, provenance, falsifiers, and repair/rollback.
 ```
 
 ---

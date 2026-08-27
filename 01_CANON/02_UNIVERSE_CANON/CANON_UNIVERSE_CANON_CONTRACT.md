@@ -1,9 +1,14 @@
 ---
 title: CANON UNIVERSE CANON CONTRACT
 type: canon
-tags: [amos_os, 01_canon]
+source: 01_CANON/02_UNIVERSE_CANON
+tags: [amos_os, 01_canon, canon/universe]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
-
 
 
 # CANON UNIVERSE CANON CONTRACT
@@ -75,3 +80,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[02_UNIVERSE_CANON_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

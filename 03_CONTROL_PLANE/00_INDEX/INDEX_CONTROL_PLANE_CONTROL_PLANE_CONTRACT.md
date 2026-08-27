@@ -1,9 +1,14 @@
 ---
 title: INDEX CONTROL PLANE CONTROL PLANE CONTRACT
 type: index
-tags: [control_plane, index_control_plane_control_plane_contract.md]
+source: 03_CONTROL_PLANE/00_INDEX
+tags: [control_plane, index_control_plane_control_plane_contract.md, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INDEX CONTROL PLANE CONTROL PLANE CONTRACT
@@ -57,3 +62,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,8 +1,15 @@
 ---
 title: "08 Structural Gaps MOC"
 type: moc
-tags: [moc, 08-structural-gaps]
+source: 25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS
+tags: [moc, 08-structural-gaps, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 08 Structural Gaps — Map of Content
 

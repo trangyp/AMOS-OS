@@ -1,8 +1,15 @@
 ---
 title: "Amos-Full-Brain-Os MOC"
 type: moc
-tags: [moc, amos-full-brain-os]
+source: 07_SKILLS/amos-full-brain-os
+tags: [moc, amos-full-brain-os, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Full-Brain-Os — Map of Content
 

@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L LOW SCALE CONTRACT
 type: cognitive
-tags: [cognitive_matrix, scales, l_low_scale, contract]
+source: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE
+tags: [cognitive_matrix, scales, l_low_scale, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L_LOW_SCALE — Low scale: mechanical checks and reflexes; fastest cadence, deterministic validators only.
@@ -42,3 +47,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L_LOW_SCALE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

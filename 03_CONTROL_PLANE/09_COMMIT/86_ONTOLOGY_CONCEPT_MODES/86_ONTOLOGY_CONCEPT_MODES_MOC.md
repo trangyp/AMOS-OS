@@ -1,8 +1,15 @@
 ---
 title: "86 Ontology Concept Modes MOC"
 type: moc
-tags: [moc, 86-ontology-concept-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/86_ONTOLOGY_CONCEPT_MODES
+tags: [moc, 86-ontology-concept-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 86 Ontology Concept Modes — Map of Content
 

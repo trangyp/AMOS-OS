@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L19 OUTCOME OBSERVATION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, primitives, l19_outcome_observation, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION
+tags: [cognitive_matrix, primitives, l19_outcome_observation, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L19_OUTCOME_OBSERVATION — Outcome observation Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L19_OUTCOME_OBSERVATION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

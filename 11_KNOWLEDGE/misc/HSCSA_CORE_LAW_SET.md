@@ -1,12 +1,15 @@
 ---
 title: HSCSA CORE LAW SET
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **HSCSA – Core Law Set (Complete)**
@@ -2271,10 +2274,10 @@ If any gate breaches threshold:
 No action is valid if it contradicts physical constraint.
 ### Threshold
 Binary.
-  * ✅ consistent with time, causality, resources
+  * consistent with time, causality, resources
 
 
-  * ❌ violates reality → collapse inevitable
+  * violates reality → collapse inevitable
 
 
 ### Stop Condition

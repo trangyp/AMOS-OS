@@ -1,8 +1,15 @@
 ---
 title: bio data ownership charter
 type: reference
-tags: [reference, amos-c09-org-law-policy-master]
+source: 07_SKILLS/amos-c09-org-law-policy-master/references
+tags: [reference, amos-c09-org-law-policy-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Global Biological Data Ownership Charter
 
@@ -318,3 +325,7 @@ ol > li {
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

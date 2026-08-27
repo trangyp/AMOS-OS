@@ -1,8 +1,15 @@
 ---
 title: society culture engine cognitive
 type: reference
-tags: [reference, amos-c06-society-culture-master]
+source: 07_SKILLS/amos-c06-society-culture-master/references
+tags: [reference, amos-c06-society-culture-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Society Culture Engine Cognitive
 
@@ -165,3 +172,7 @@ tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, r
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

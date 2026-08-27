@@ -1,8 +1,15 @@
 ---
 title: "00 Index MOC"
 type: moc
-tags: [moc, 00-index]
+source: 22_RESEARCH/03_COMPETING_MODELS/00_INDEX
+tags: [moc, 00-index, canon/research]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
+
 
 # 00 Index — Map of Content
 

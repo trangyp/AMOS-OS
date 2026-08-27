@@ -1,6 +1,7 @@
 ---
 title: "Trang Zero Forex"
 type: trang-framework
+source: 21_DOMAINS/09_FINANCE
 artifact: "TRANG_ZERO_FOREX.md"
 artifact_id: "amos_21_domains_09_finance_trang_zero_forex"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "21_DOMAINS/09_FINANCE"
 artifact_kind: "ARTIFACT"
 path: "21_DOMAINS/09_FINANCE/TRANG_ZERO_FOREX.md"
 
-tags: [amos_os, domain, specialization, 21_domains, artifact, canon_placeholder, rscf]
+tags: [amos_os, domain, specialization, 21_domains, artifact, canon_placeholder, rscf, canon/domain]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Trang Zero Forex

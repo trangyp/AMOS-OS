@@ -1,8 +1,15 @@
 ---
 title: "03 Cognition Canon MOC"
 type: moc
-tags: [moc, 03-cognition-canon]
+source: 01_CANON/03_COGNITION_CANON
+tags: [moc, 03-cognition-canon, canon/universe]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 03 Cognition Canon — Map of Content
 
@@ -51,3 +58,6 @@ tags: [moc, 03-cognition-canon]
 
 ---
 **Parent:** [[01_CANON_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

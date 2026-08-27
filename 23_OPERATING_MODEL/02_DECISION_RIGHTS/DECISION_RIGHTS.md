@@ -1,9 +1,14 @@
 ---
 title: DECISION RIGHTS
 type: decision
-tags: [amos_os, 23_operating_model]
+source: 23_OPERATING_MODEL/02_DECISION_RIGHTS
+tags: [amos_os, 23_operating_model, canon/operating-model]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # DECISION RIGHTS

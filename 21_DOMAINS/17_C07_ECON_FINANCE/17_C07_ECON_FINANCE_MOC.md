@@ -1,8 +1,15 @@
 ---
 title: "17 C07 Econ Finance MOC"
 type: moc
-tags: [moc, 17-c07-econ-finance]
+source: 21_DOMAINS/17_C07_ECON_FINANCE
+tags: [moc, 17-c07-econ-finance, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 17 C07 Econ Finance — Map of Content
 

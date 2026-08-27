@@ -1,12 +1,15 @@
 ---
 title: ENGAGEMENT ENQUIRY GLOBAL IP PROTECTION FOR DETE
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Engagement Enquiry – Global IP Protection for Deterministic AI Canon and Meta Operating System

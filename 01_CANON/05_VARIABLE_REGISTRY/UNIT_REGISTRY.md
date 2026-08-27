@@ -1,5 +1,6 @@
 ---
 type: registry
+source: 01_CANON/05_VARIABLE_REGISTRY
 artifact_id: AMOS-UNIT-REGISTRY
 name: UNIT_REGISTRY
 title: "AMOS Unit Registry — Canonical Dimensions, Units, Scales, Conversion, and Measurement Semantics"
@@ -30,7 +31,6 @@ aliases: "- AMOS Unit Registry
 related: "see body"---
 
 
-
 # AMOS Unit Registry
 
 **Origin architect / steward:** Trang Phan
@@ -38,8 +38,13 @@ related: "see body"---
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 0. Purpose
 

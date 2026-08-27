@@ -1,12 +1,15 @@
 ---
 title: GLOBAL BIOLOGICAL DATA OWNERSHIP CHARTER 24AC5E6F95BD81C98E4300425C942DF9
-tags: [logic, reasoning, formal]
+tags: [logic, reasoning, formal, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/logic
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
+
 ---
-
-
-
 
 
 # **Global Biological Data Ownership Charter**

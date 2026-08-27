@@ -1,15 +1,20 @@
 ---
 title: C01 META LOGIC
 type: logic
+source: 11_KNOWLEDGE/logic
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: c01-meta-logic-super
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c01-meta-logic-super, logic]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
 ---
-
-
+# C01 META LOGIC
 
 ```json
 {

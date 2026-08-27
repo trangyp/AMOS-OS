@@ -1,9 +1,15 @@
 ---
 title: 2026-08-25 RG-Fractal Bridge Deep Verification
 type: daily-learning
+source: 11_KNOWLEDGE/dated
 date: 2026-08-25
 epistemic: DERIVED/MODEL
-tags: [quantum, fractal, math, rg, bridge-b1, dated, dated/2026-08-25]
+tags: [quantum, fractal, math, rg, bridge-b1, dated, dated/2026-08-25, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
 
 

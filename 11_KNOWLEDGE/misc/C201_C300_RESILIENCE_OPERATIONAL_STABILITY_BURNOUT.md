@@ -9,6 +9,12 @@ provenance: "OBSERVATION"
 confidence: "VERIFIED"
 source: "Ingest batch 2026-08-22"
 tags: [canon-group/tech-ai, canon/metric, rscf/claim, rscf/provenance, rscf/state/observation, topic/c201-c300-resilience-operational-stabili, misc]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 

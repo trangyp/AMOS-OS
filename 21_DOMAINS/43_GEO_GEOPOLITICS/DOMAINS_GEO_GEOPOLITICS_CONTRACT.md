@@ -1,9 +1,14 @@
 ---
 title: DOMAINS GEO GEOPOLITICS CONTRACT
 type: note
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/43_GEO_GEOPOLITICS
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # DOMAINS GEO GEOPOLITICS CONTRACT

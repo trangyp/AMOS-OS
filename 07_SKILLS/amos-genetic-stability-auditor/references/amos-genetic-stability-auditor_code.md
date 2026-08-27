@@ -1,8 +1,15 @@
 ---
 title: amos genetic stability auditor code
 type: reference
-tags: [reference, amos-genetic-stability-auditor]
+source: 07_SKILLS/amos-genetic-stability-auditor/references
+tags: [reference, amos-genetic-stability-auditor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Code Reference
 
@@ -46,3 +53,7 @@ for arena_name, ArenaClass, kwargs in [
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

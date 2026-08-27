@@ -3,10 +3,14 @@ title: AMOS PSYCHOLOGY DECISION KERNEL V0 HUMAN SOCIETY4 2
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-psychology-decision-kernel-v0, kernel]
 type: data
 source: 11_KNOWLEDGE/kernel
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
+# AMOS PSYCHOLOGY DECISION KERNEL V0 HUMAN SOCIETY4 2
 
 ```json
 [

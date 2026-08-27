@@ -1,8 +1,15 @@
 ---
 title: quantum field theory mapping
 type: reference
-tags: [reference, amos-c03-physics-cosmos-master]
+source: 07_SKILLS/amos-c03-physics-cosmos-master/references
+tags: [reference, amos-c03-physics-cosmos-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Quantum Field Theory Mapping
 
@@ -318,3 +325,7 @@ ol > li {
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

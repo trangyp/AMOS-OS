@@ -1,147 +1,15 @@
 ---
 title: P5 GOVERNANCE AUTHORITY
 type: note
-tags: [note, 02-universe-canon]
+source: 01_CANON/02_UNIVERSE_CANON
+tags: [note, 02-universe-canon, canon/universe]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
-
-Below is the **full replacement content** for:
-
-`01_CANON/02_UNIVERSE_CANON/P5_GOVERNANCE_AUTHORITY.md`
-
-`P5 Governance / Authority` should be the plane where AMOS separates **what is known or modeled** from **what may actually be decided, changed, promoted, committed, executed, revoked, or delegated**. P1–P4 establish reality, evidence, memory, and cognition; P5 determines who or what has legitimate authority to convert proposals into governed state transitions. Its central firewall is that **capability does not imply authority, evidence does not imply permission, recommendation does not imply commitment, and successful reasoning does not authorize real-world action**. The Full Brain contract explicitly preserves this boundary: AMOS is a structural orchestration architecture, not an autonomous actor with inherent world authority.  The declared primary corpus source remains `AMOS_FULL_BRAIN_OS.json`; preserving governance architecture from that source does not itself establish legal, institutional, or external authority. 
-
-````md
----
-id: AMOS-CANON-U-P5-GOVERNANCE-AUTHORITY
-title: "AMOS OS — P5 Governance / Authority"
-
-tags:
-  - canon
-  - universe_canon
-  - governance
-  - authority
-  - control
-  - decision
-  - authorization
-  - delegation
-  - accountability
-  - policy
-  - approval
-  - execution
-  - rollback
-  - audit
-  - rscf
-  - hml
-  - note
-
-origin_architect: "Trang Phan"
-artifact_type: "universe_canon_plane"
-
-class: "CANON_MODEL"
-conclusion_class: "DERIVED"
-canon_status: "CONDITIONAL"
-validation_status: "ARCHITECTURE_DEFINED"
-implementation_status: "PARTIAL_OR_UNKNOWN"
-external_authority_status: "NOT_ESTABLISHED_BY_THIS_ARTIFACT"
-gap_status: "OPEN"
-
-path: "01_CANON/02_UNIVERSE_CANON/P5_GOVERNANCE_AUTHORITY.md"
-
-parent:
-  - "01_CANON"
-  - "01_CANON/02_UNIVERSE_CANON"
-
-contract:
-  - "CANON_UNIVERSE_CANON_CONTRACT.md"
-
-upstream:
-  - "P1_REALITY_ENVIRONMENT.md"
-  - "P2_SENSE_EVIDENCE.md"
-  - "P3_KNOWLEDGE_MEMORY.md"
-  - "P4_COGNITION_MODELS.md"
-
-related:
-  - "00_ROOT/00_ROOT_MOC.md"
-  - "00_ROOT/00_ROOT_REGISTRY.md"
-  - "00_ROOT/00_ROOT_VERSIONING.md"
-  - "00_ROOT/00_ROOT_STATUS.md"
-  - "00_ROOT/00_ROOT_PROVENANCE.md"
-  - "00_ROOT/00_ROOT_LIFECYCLE.md"
-  - "01_CANON"
-  - "02_KERNEL"
-  - "07_PROVENANCE"
-  - "08_GOVERNANCE"
-  - "09_DEPENDENCY_GRAPH"
-  - "10_CONTROL_PLANE"
-  - "11_VALIDATION"
-  - "12_GENERATORS"
-  - "18_OBSERVABILITY"
-  - "19_DEPLOYMENT"
-  - "21_DOMAINS"
-  - "22_RESEARCH"
-  - "AMOS_RSCF_NODES"
-
-scope:
-  - governance
-  - authority
-  - authorization
-  - control
-  - policy
-  - decisions
-  - proposals
-  - approvals
-  - commitments
-  - execution
-  - delegation
-  - revocation
-  - accountability
-  - ownership
-  - stewardship
-  - jurisdiction
-  - separation_of_duties
-  - least_authority
-  - capability_control
-  - agent_permissions
-  - tool_permissions
-  - canon_promotion
-  - canon_revocation
-  - root_changes
-  - model_changes
-  - memory_changes
-  - deployment
-  - rollback
-  - emergency_action
-  - audit
-  - conflict_resolution
-  - veto
-  - escalation
-  - quorum
-  - consent
-  - temporal_authority
-  - scoped_authority
-  - policy_precedence
-  - governance_provenance
-  - decision_provenance
-  - authority_lifecycle
-  - governance_failure
-  - governance_repair
-
-hard_rule: "CAPABILITY != AUTHORITY; PROPOSAL != APPROVAL; APPROVAL != COMMIT; COMMIT != SUCCESS"
-
-RSCF-NODE:
-  node_id: p5_governance_authority
-  node_type: note
-  claim_class: AMOS_MODEL
-
-RSCF-RELATIONS:
-  - "INDEXED_BY: [[00_HOME]]"
-  - "INDEXED_BY: AMOS_RSCF_NODES"
-  - "DEPENDS_ON: P1_REALITY_ENVIRONMENT"
-  - "DEPENDS_ON: P2_SENSE_EVIDENCE"
-  - "DEPENDS_ON: P3_KNOWLEDGE_MEMORY"
-  - "DEPENDS_ON: P4_COGNITION_MODELS"
----
 
 # P5 Governance / Authority
 
@@ -5772,3 +5640,4 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[02_UNIVERSE_CANON_MOC]]
+```

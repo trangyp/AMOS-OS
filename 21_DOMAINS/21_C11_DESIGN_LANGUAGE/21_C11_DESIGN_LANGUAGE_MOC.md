@@ -1,8 +1,15 @@
 ---
 title: "21 C11 Design Language MOC"
 type: moc
-tags: [moc, 21-c11-design-language]
+source: 21_DOMAINS/21_C11_DESIGN_LANGUAGE
+tags: [moc, 21-c11-design-language, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 21 C11 Design Language — Map of Content
 

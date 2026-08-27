@@ -1,8 +1,15 @@
 ---
 title: vn omnistructure clean engine
 type: reference
-tags: [reference, amos-c06-society-culture-master]
+source: 07_SKILLS/amos-c06-society-culture-master/references
+tags: [reference, amos-c06-society-culture-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Absolute VN Omnistructure Clean Engine
 
@@ -171,3 +178,7 @@ created: 2026-08-22
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

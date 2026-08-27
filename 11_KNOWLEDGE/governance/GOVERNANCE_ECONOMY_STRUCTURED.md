@@ -1,15 +1,20 @@
 ---
 title: GOVERNANCE ECONOMY STRUCTURED
 type: economy
+source: 11_KNOWLEDGE/governance
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: governance-economy-structured
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/governance-economy-structured, governance]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: governance_policy
 ---
-
-
+# GOVERNANCE ECONOMY STRUCTURED
 
 ```json
 {

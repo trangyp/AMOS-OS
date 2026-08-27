@@ -1,8 +1,15 @@
 ---
 title: "O13 Decision MOC"
 type: moc
-tags: [moc, o13-decision]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O13_DECISION
+tags: [moc, o13-decision, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # O13 Decision — Map of Content
 

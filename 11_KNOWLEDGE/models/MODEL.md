@@ -1,13 +1,16 @@
 ---
 title: MODEL
-tags: [models, model, specification]
+tags: [models, model, specification, canon/knowledge]
 type: data
 source: 11_KNOWLEDGE/models
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: model_specification
+
 ---
-
-
-
-
+# MODEL
 
 ```json
 {

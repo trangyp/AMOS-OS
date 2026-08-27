@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-morphogenesis-mapper]
+source: 07_SKILLS/amos-morphogenesis-mapper/references
+tags: [reference, amos-morphogenesis-mapper, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -105,7 +112,6 @@ class AMOSBrainPerformanceOptimizer:
  logger.info(f" Hypothesis Class: {self.hypothesis_class}")
 
 
-
 ---
 
 ### Source 2: -*- coding: utf-8 -*-
@@ -202,7 +208,7 @@ class AMOSBrainFinalOptimizer:
  "reversible": True
  },
  {
- "pattern": r'(\w+)\s*\[\s*\]',
+ "pattern": r'(\w+)\s*$$\s*$$',
  "replacement": r'\1[]',
  "validation": "bracket_syntax_check",
  "reversible": True
@@ -326,3 +332,8 @@ Hardware must remain replaceable without destroying the higher-order Omnis archi
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]
+```

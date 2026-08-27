@@ -1,8 +1,15 @@
 ---
 title: wealth game hack 50000
 type: reference
-tags: [reference, amos-c07-econ-finance-master]
+source: 07_SKILLS/amos-c07-econ-finance-master/references
+tags: [reference, amos-c07-econ-finance-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Wealth Game Hack 50000 Equations
 
@@ -30,3 +37,7 @@ Open original (in _reference/)
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

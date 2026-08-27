@@ -1,9 +1,14 @@
 ---
 title: SEMANTIC TRANSACTION CONTROL PLANE README
 type: control-plane
-tags: [control_plane, semantic_transaction_control_plane_readme.md]
+source: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
+tags: [control_plane, semantic_transaction_control_plane_readme.md, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # SEMANTIC TRANSACTION CONTROL PLANE README
@@ -63,3 +68,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[06_SEMANTIC_TRANSACTION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,9 +1,14 @@
 ---
 title: DOMAINS C07 ECON FINANCE CONTRACT
 type: finance
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/17_C07_ECON_FINANCE
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # DOMAINS C07 ECON FINANCE CONTRACT

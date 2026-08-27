@@ -1,12 +1,15 @@
 ---
 title: TRANG TAT 2
-tags: [trang, framework, reality]
+tags: [trang, framework, reality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
 
 
 # TRANG TÁT 2
@@ -35,41 +38,15 @@ source: 11_KNOWLEDGE/trang
 * * *
 ## II. ĐỊNH NGHĨA HÌNH THỨC
 ### (1) Ký hiệu
-Cho một tuyên bố \\( C \\) (claim).
-Cho \\( S_1, S_2, \dots, S_n \\) là các **nguồn độc lập** (independent sources).
-Một nguồn \\( S_i \\) được coi là **xác nhận** (confirm) \\( C \\) nếu nó cung cấp bằng chứng / lập luận / dữ liệu ủng hộ \\( C \\) mà **không phụ thuộc** vào bất kỳ nguồn nào khác trong tập hợp.
+Cho một tuyên bố \$ C \$ (claim).
+Cho \$ S_1, S_2, \dots, S_n \$ là các **nguồn độc lập** (independent sources).
+Một nguồn \$ S_i \$ được coi là **xác nhận** (confirm) \$ C \$ nếu nó cung cấp bằng chứng / lập luận / dữ liệu ủng hộ \$ C \$ mà **không phụ thuộc** vào bất kỳ nguồn nào khác trong tập hợp.
 ### (2) Điều kiện Tát 2
-\\[  
-\text{T2}(C) = \text{True} \iff \exists i, j \ (i \ne j) \ \text{sao cho} \ S_i \ \text{và} \ S_j \ \text{đều xác nhận} \ C  
-\\]
-### (3) Xác suất đúng khi có Tát 2 (nguồn độc lập)
-\\[  
-P_{\text{correct}}(C \mid \text{T2}) = 1 - \prod_{i=1}^{n} (1 - P_i)  
-\\]  
-Với \\( P_i \\) là xác suất đúng của từng nguồn \\( S_i \\) (đã biết hoặc ước lượng).
-### (4) Tát 2 bắt buộc (Mandatory T2) – Không có ngoại lệ
-\\[  
-\forall \text{quyết định quan trọng, hành động có rủi ro, niềm tin nền tảng} : \text{T2}(C) = \text{True} \ \text{là điều kiện cần}.  
-\\]
+\$$\text{T2}(C) = \text{True} \iff \exists i, j \ (i \ne j) \ \text{sao cho} \ S_i \ \text{và} \ S_j \ \text{đều xác nhận} \ C  
+$$### (3) Xác suất đúng khi có Tát 2 (nguồn độc lập) \$$P_{\text{correct}}(C \mid \text{T2}) = 1 - \prod_{i=1}^{n} (1 - P_i) \$$Với \$ P_i \$ là xác suất đúng của từng nguồn \$ S_i \$ (đã biết hoặc ước lượng). ### (4) Tát 2 bắt buộc (Mandatory T2) – Không có ngoại lệ \$$\forall \text{quyết định quan trọng, hành động có rủi ro, niềm tin nền tảng} : \text{T2}(C) = \text{True} \ \text{là điều kiện cần}.$$
 ### (5) Hệ quả của việc bỏ qua Tát 2
-\\[  
-\neg \text{T2}(C) \implies P_{\text{error}} \gtrsim P_{\text{single}} \quad \text{(cao hơn nhiều so với khi có T2)}  
-\\]
-* * *
-## III. BA TẦNG CỦA TÁT 2 (THE THREE LAYERS OF TÁT 2)
-Theo Trang ∅ Framework, một phép xác nhận chéo mạnh nhất phải đến từ **ba tầng khác nhau** [L, M, H]:
-|                               |
-| Tầng                          | Loại xác nhận                                                                                                                           | Ví dụ                                                                                                                    |
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| **L – Nền tảng (Foundation)** |  Bằng chứng vật lý, dữ liệu thô, quan sát trực tiếp, thí nghiệm lặp lại, bộ nhớ dài hạn.                                                | Đo đạc bằng máy, xét nghiệm máu, khai quật khảo cổ, mã nguồn mở.                                                         |
-| **M – Trung gian (Mediator)** |  Suy luận logic, mô hình toán học, sự đồng thuận của cộng đồng chuyên môn, phản hồi từ hệ thống, trực giác (sau khi đã kiểm chứng).     | Định lý, mô phỏng, peer review, cảm giác “đúng” của chuyên gia (nếu đã có kinh nghiệm).                                  |
-| **H – Đỉnh (Peak)**           |  Tổng hợp, triết học, nguyên lý đầu tiên, sự thấu cảm, lãnh đạo tinh thần, niềm tin không thể chứng minh nhưng cần thiết cho hành động. | Các tiên đề toán học, các giá trị đạo đức cốt lõi, linh cảm của người có chuyên môn sâu (chỉ khi đã qua Tát 2 ở L và M). |
-
-
-_Tát 2 lý tưởng (T2)_ * là khi có xác nhận từ **cả ba tầng** :  
-\\[  
-\text{T2}^* (C) \iff \text{confirmed}_L(C) \land \text{confirmed}_M(C) \land \text{confirmed}_H(C)  
-\\]
+\$$\neg \text{T2}(C) \implies P_{\text{error}} \gtrsim P_{\text{single}} \quad \text{(cao hơn nhiều so với khi có T2)}  
+$$* * * ## III. BA TẦNG CỦA TÁT 2 (THE THREE LAYERS OF TÁT 2) Theo Trang ∅ Framework, một phép xác nhận chéo mạnh nhất phải đến từ **ba tầng khác nhau** [L, M, H]: | | | Tầng | Loại xác nhận | Ví dụ | |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------| | **L – Nền tảng (Foundation)** | Bằng chứng vật lý, dữ liệu thô, quan sát trực tiếp, thí nghiệm lặp lại, bộ nhớ dài hạn. | Đo đạc bằng máy, xét nghiệm máu, khai quật khảo cổ, mã nguồn mở. | | **M – Trung gian (Mediator)** | Suy luận logic, mô hình toán học, sự đồng thuận của cộng đồng chuyên môn, phản hồi từ hệ thống, trực giác (sau khi đã kiểm chứng). | Định lý, mô phỏng, peer review, cảm giác “đúng” của chuyên gia (nếu đã có kinh nghiệm). | | **H – Đỉnh (Peak)** | Tổng hợp, triết học, nguyên lý đầu tiên, sự thấu cảm, lãnh đạo tinh thần, niềm tin không thể chứng minh nhưng cần thiết cho hành động. | Các tiên đề toán học, các giá trị đạo đức cốt lõi, linh cảm của người có chuyên môn sâu (chỉ khi đã qua Tát 2 ở L và M). | _Tát 2 lý tưởng (T2)_ * là khi có xác nhận từ **cả ba tầng** : \$$\text{T2}^* (C) \iff \text{confirmed}_L(C) \land \text{confirmed}_M(C) \land \text{confirmed}_H(C)$$
 * * *
 ## IV. CÁC LOẠI TÁT 2 THEO ĐỘ MẠNH
 |                                  |
@@ -102,81 +79,20 @@ _Tát 2 lý tưởng (T2)_ * là khi có xác nhận từ **cả ba tầng** :
 
 
   * **Công thức:**  
-\\[  
-\text{Output} = \begin{cases}  
+\$$\text{Output} = \begin{cases}  
 \text{Answer} & \text{nếu } \text{verify}_L(\text{Answer}) \land \text{verify}_M(\text{Answer}) \\\  
 \text{"I don't know"} & \text{nếu không có T2}  
 \end{cases}  
-\\]
-
-
-### 4\. Pháp luật & Công lý
-  * **Hai bằng chứng độc lập** (lời khai nhân chứng + camera, hoặc lời khai + DNA) là điều kiện tối thiểu để kết tội (trừ một số ngoại lệ, nhưng Trang ∅ Framework coi các ngoại lệ đó là rủi ro cao).
-
-
-  * **Phúc thẩm (appeal)** là một cơ chế T2 theo thời gian (một phiên tòa khác, với thẩm phán khác, sau một khoảng cách).
-
-
-### 5\. Kinh tế & Đầu tư
-  * **Không đầu tư vào một tài sản chỉ dựa trên một nguồn tin.** Cần ít nhất hai nguồn độc lập (báo cáo tài chính + phân tích kỹ thuật, hoặc hai công ty phân tích độc lập).
-
-
-  * **Các quyết định đầu tư lớn** cần T2* (L: dữ liệu cơ bản, M: phân tích kỹ thuật, H: nhận định của chuyên gia có uy tín).
-
-
-### 6\. Đời sống hàng ngày & Văn hóa
-  * **Tin tức:** Không tin một nguồn tin duy nhất (dù là báo chí lớn). Kiểm tra chéo với ít nhất hai nguồn độc lập về mặt chính trị / tư tưởng.
-
-
-  * **Quan hệ xã hội:** Một lời hứa / cam kết có giá trị hơn khi có hai nhân chứng hoặc có văn bản + lời nói Tát 2.
-
-
-* * *
-## VI. CÁC PHIÊN BẢN ĐẶC BIỆT CỦA TÁT 2
-### (1) Tát 2 Thời gian (Temporal T2)
-\\[  
-\text{T2}_t(C) \iff C \ \text{được xác nhận tại hai thời điểm khác nhau} \ (t_1 \ \text{và} \ t_2) \ \text{với khoảng cách đủ lớn để tránh trùng lặp do trí nhớ ngắn hạn}.  
-\\]  
-(Ví dụ: một bệnh nhân được chẩn đoán ung thư, sau 6 tháng xét nghiệm lại vẫn cho kết quả tương tự.)
-### (2) Tát 2 Không gian (Spatial T2)
-\\[  
-\text{T2}_s(C) \iff C \ \text{được xác nhận tại hai vị trí địa lý khác nhau, độc lập về văn hóa / chính trị}.  
-\\]  
-(Ví dụ: một hiện tượng tự nhiên được ghi nhận bởi các trạm quan sát ở Nhật Bản và Chile.)
-### (3) Tát 2 Xã hội (Social T2)
-\\[  
-\text{T2}_{so}(C) \iff C \ \text{được xác nhận bởi ít nhất hai nhóm xã hội có lợi ích đối lập nhau (hoặc ít nhất không liên minh)}.  
-\\]  
-(Ví dụ: một sự kiện lịch sử được ghi chép bởi cả hai phe tham chiến.)
-* * *
-## VII. CÁC PHƯƠNG TRÌNH CỦA TRANG TÁT 2
-### (1) Xác suất một nguồn độc lập đúng (lý tưởng, nếu không có bias hệ thống)
-\\[  
-P(\text{source}_i) = p_i  
-\\]
+$$### 4\. Pháp luật & Công lý * **Hai bằng chứng độc lập** (lời khai nhân chứng + camera, hoặc lời khai + DNA) là điều kiện tối thiểu để kết tội (trừ một số ngoại lệ, nhưng Trang ∅ Framework coi các ngoại lệ đó là rủi ro cao). * **Phúc thẩm (appeal)** là một cơ chế T2 theo thời gian (một phiên tòa khác, với thẩm phán khác, sau một khoảng cách). ### 5\. Kinh tế & Đầu tư * **Không đầu tư vào một tài sản chỉ dựa trên một nguồn tin.** Cần ít nhất hai nguồn độc lập (báo cáo tài chính + phân tích kỹ thuật, hoặc hai công ty phân tích độc lập). * **Các quyết định đầu tư lớn** cần T2* (L: dữ liệu cơ bản, M: phân tích kỹ thuật, H: nhận định của chuyên gia có uy tín). ### 6\. Đời sống hàng ngày & Văn hóa * **Tin tức:** Không tin một nguồn tin duy nhất (dù là báo chí lớn). Kiểm tra chéo với ít nhất hai nguồn độc lập về mặt chính trị / tư tưởng. * **Quan hệ xã hội:** Một lời hứa / cam kết có giá trị hơn khi có hai nhân chứng hoặc có văn bản + lời nói Tát 2. * * * ## VI. CÁC PHIÊN BẢN ĐẶC BIỆT CỦA TÁT 2 ### (1) Tát 2 Thời gian (Temporal T2) \$$\text{T2}_t(C) \iff C \ \text{được xác nhận tại hai thời điểm khác nhau} \ (t_1 \ \text{và} \ t_2) \ \text{với khoảng cách đủ lớn để tránh trùng lặp do trí nhớ ngắn hạn}. \$$(Ví dụ: một bệnh nhân được chẩn đoán ung thư, sau 6 tháng xét nghiệm lại vẫn cho kết quả tương tự.) ### (2) Tát 2 Không gian (Spatial T2) \$$\text{T2}_s(C) \iff C \ \text{được xác nhận tại hai vị trí địa lý khác nhau, độc lập về văn hóa / chính trị}. \$$(Ví dụ: một hiện tượng tự nhiên được ghi nhận bởi các trạm quan sát ở Nhật Bản và Chile.) ### (3) Tát 2 Xã hội (Social T2) \$$\text{T2}_{so}(C) \iff C \ \text{được xác nhận bởi ít nhất hai nhóm xã hội có lợi ích đối lập nhau (hoặc ít nhất không liên minh)}. \$$(Ví dụ: một sự kiện lịch sử được ghi chép bởi cả hai phe tham chiến.) * * * ## VII. CÁC PHƯƠNG TRÌNH CỦA TRANG TÁT 2 ### (1) Xác suất một nguồn độc lập đúng (lý tưởng, nếu không có bias hệ thống) \$$P(\text{source}_i) = p_i$$
 ### (2) Xác suất Tát 2 yếu (hai nguồn độc lập, cùng tầng)
-\\[  
-P_{\text{T2, weak}} = 1 - (1-p_1)(1-p_2)  
-\\]
-### (3) Xác suất Tát 2 mạnh (hai nguồn khác tầng)
-\\[  
-P_{\text{T2, strong}} = 1 - (1-p_{\text{layer1}})(1-p_{\text{layer2}})  
-\\]  
-với \\(p_{\text{layer1}} = P(\text{đúng} \mid \text{tầng})\\).
-### (4) Xác suất Tát 2 hoàn hảo (ba nguồn ba tầng)
-\\[  
-P_{\text{T2}^*} = 1 - (1-p_L)(1-p_M)(1-p_H)  
-\\]
+\$$P_{\text{T2, weak}} = 1 - (1-p_1)(1-p_2)  
+$$### (3) Xác suất Tát 2 mạnh (hai nguồn khác tầng) \$$P_{\text{T2, strong}} = 1 - (1-p_{\text{layer1}})(1-p_{\text{layer2}}) \$$với \$p_{\text{layer1}} = P(\text{đúng} \mid \text{tầng})\$. ### (4) Xác suất Tát 2 hoàn hảo (ba nguồn ba tầng) \$$P_{\text{T2}^*} = 1 - (1-p_L)(1-p_M)(1-p_H)$$
 ### (5) Độ tin cậy hệ thống khi bắt buộc Tát 2 (T2 mandatory)
-\\[  
-R_{\text{system}} = 1 - \sum (1 - P_{\text{T2}}(C_i)) \cdot \text{Impact}(C_i)  
-\\]  
-(Độ tin cậy tăng vọt khi mọi quyết định đều có T2.)
+\$$R_{\text{system}} = 1 - \sum (1 - P_{\text{T2}}(C_i)) \cdot \text{Impact}(C_i)  
+\$$(Độ tin cậy tăng vọt khi mọi quyết định đều có T2.)
 ### (6) Chi phí của Tát 2 (Cost of T2)
-\\[  
-\text{Cost}_{\text{T2}} = \sum (\text{thời gian} + \text{nguồn lực} + \text{cơ hội bị bỏ lỡ})  
-\\]  
-**Trang ∅ Framework khẳng định:** Chi phí này **luôn nhỏ hơn** chi phí của một quyết định sai lầm do thiếu T2, trong dài hạn.
+\$$\text{Cost}_{\text{T2}} = \sum (\text{thời gian} + \text{nguồn lực} + \text{cơ hội bị bỏ lỡ})  
+\$$**Trang ∅ Framework khẳng định:** Chi phí này **luôn nhỏ hơn** chi phí của một quyết định sai lầm do thiếu T2, trong dài hạn.
 * * *
 ## VIII. HẬU QUẢ CỦA VIỆC THIẾU TÁT 2
 |                       |

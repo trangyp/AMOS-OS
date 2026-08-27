@@ -1,8 +1,15 @@
 ---
 title: geometric causal spec
 type: reference
-tags: [reference, arxiv-geometric-causal-models-rscf]
+source: 07_SKILLS/arxiv-geometric-causal-models-rscf/references
+tags: [reference, arxiv-geometric-causal-models-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # JSON Specification
 
@@ -35,3 +42,7 @@ tags: [reference, arxiv-geometric-causal-models-rscf]
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

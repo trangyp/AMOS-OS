@@ -1,8 +1,15 @@
 ---
 title: "01 Boot MOC"
 type: moc
-tags: [moc, 01-boot]
+source: 04_RUNTIME/01_BOOT
+tags: [moc, 01-boot, canon/runtime]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 01 Boot — Map of Content
 

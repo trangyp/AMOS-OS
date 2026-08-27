@@ -1,81 +1,210 @@
 ---
-title: K CORE19 LOGIC
-type: logic
-artifact_id: AMOS-OS-K-CORE19-LOGIC
-canonical_name: K_CORE19_LOGIC
-artifact_type: kernel_logic_contract
-status: AMOS_MODEL
-conclusion_class: AMOS_MODEL
-amos_core_target: v4.4
+title: "Kernel · CORE19 Deterministic Logic"
+canonical_name: "K_CORE19_LOGIC"
+artifact_id: "AMOS-OS-K-CORE19-LOGIC"
+artifact: "K_CORE19_LOGIC.md"
+artifact_type: "kernel_logic_contract"
+type: "logic"
 
-origin_architect: Trang Phan
-steward: Trang Phan
+system: "AMOS OS"
+amos_core_target: "v4.4"
 
-plane: KERNEL
-kernel_family: FOUNDATION
-domain: deterministic-logic
-scope: AMOS_OS
+origin_architect: "Trang Phan"
+steward: "Trang Phan"
 
-created: 2026-08-25
-updated: 2026-08-25
+plane: "02_KERNEL"
+plane_name: "KERNEL"
+kernel_family: "FOUNDATION"
+segment: "02_KERNEL/01_META_LOGIC"
+domain: "deterministic-logic"
+scope: "AMOS_OS"
 
-tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/core19, kernel/logic, kernel/deterministic, kernel/invariants, kernel/state-transition, kernel/dependency, kernel/provenance, kernel/scope, kernel/regime, kernel/validation, kernel/recovery, rscf/claim, rscf/provenance, rscf/state/model, topic/core19, topic/deterministic-logic]
+status: "AMOS_MODEL"
+epistemic_class: "AMOS_MODEL"
+conclusion_class: "AMOS_MODEL"
 
-aliases: "- CORE19 Logic
-  - K CORE19 LOGIC
-  - AMOS CORE19 Logic Kernel
-  - CORE19 Deterministic Logic Kernel..."---
+canonical_status: "CANON_CANDIDATE / LINEAGE_UNVERIFIED"
+historical_identity_status: "NOT_ESTABLISHED"
+implementation_status: "UNKNOWN/GAP"
+validation_status: "NOT_ESTABLISHED"
+runtime_enforcement: "NOT_ESTABLISHED"
+authority_status: "NON_AUTHORITATIVE_MODEL"
+executable_binding: "NOT_ESTABLISHED"
 
+created: "2026-08-25"
+updated: "2026-08-27"
 
+tags:
+  - amos-os
+  - kernel
+  - foundation
+  - core19
+  - deterministic-logic
+  - kernel/core19
+  - kernel/logic
+  - kernel/deterministic
+  - kernel/invariants
+  - kernel/state-transition
+  - kernel/dependency
+  - kernel/provenance
+  - kernel/scope
+  - kernel/regime
+  - kernel/validation
+  - kernel/recovery
+  - kernel/concurrency
+  - kernel/atomicity
+  - kernel/finality
+  - canon-group/tech-ai
+  - canon/model
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/model
+  - topic/core19
+  - topic/deterministic-logic
+
+aliases:
+  - "CORE19 Logic"
+  - "K CORE19 LOGIC"
+  - "AMOS CORE19 Logic Kernel"
+  - "CORE19 Deterministic Logic Kernel"
+
+rscf:
+  state: DERIVED
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: AMOS_general
+  regime: AMOS_v4_4_kernel_model
+  confidence_ceiling: AMOS_MODEL
+  canonical_lineage: UNKNOWN/GAP
+
+integrity:
+  fail_closed_on_unknown: true
+  preserve_competing: true
+  preserve_provenance: true
+  preserve_scope: true
+  preserve_regime: true
+  preserve_dependency_edges: true
+  validity_grants_authority: false
+  proposal_is_commit: false
+  deterministic_derivation_verifies_premises: false
+source: 02_KERNEL/01_META_LOGIC
+---
 
 
 # K_CORE19_LOGIC
 
 > **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
+> **Origin architect / steward:** **Trang Phan**  
 > **Plane:** `02_KERNEL`  
+> **Family:** `FOUNDATION`  
+> **Domain:** `deterministic-logic`  
+> **Artifact class:** `kernel_logic_contract`  
 > **Status:** `AMOS_MODEL`  
 > **Conclusion class:** `AMOS_MODEL`
 
-## Purpose
+---
 
-`K_CORE19_LOGIC` is the foundational deterministic-logic contract for AMOS OS.
+# 0. Canon Status
 
-It defines the semantic boundary through which explicit inputs, state, rules, dependencies, scope, regime, and provenance can be evaluated before a result is allowed to propagate toward governance or execution.
+`K_CORE19_LOGIC` defines the current AMOS-model representation of a foundational deterministic-logic contract.
 
-Its core responsibility is:
+Its support envelope is:
 
 ```text
-EXPLICIT INPUT
-+
-EXPLICIT STATE
-+
-APPLICABLE RULES
-+
-DEPENDENCY CLOSURE
-+
-SCOPE / REGIME
-+
-PROVENANCE
-↓
-DETERMINISTIC EVALUATION
-↓
-VALID | CONDITIONAL | CONFLICT | UNKNOWN/GAP
-```
+ARTIFACT IDENTITY              = ESTABLISHED BY SUPPLIED ARTIFACT
+AMOS v4.4 TARGET               = ESTABLISHED BY SUPPLIED ARTIFACT
+DETERMINISTIC-LOGIC ROLE       = ESTABLISHED AS AMOS_MODEL
+19-INVARIANT MODEL             = ESTABLISHED AS AMOS_MODEL
 
-`K_CORE19_LOGIC` defines **validity semantics**.
+HISTORICAL CORE19 IDENTITY     = UNKNOWN/GAP
+ORIGINAL CORE19 SOURCE         = UNKNOWN/GAP
+SOURCE-MAPPED 19 INVARIANTS    = NOT_ESTABLISHED
+EXECUTABLE IMPLEMENTATION      = UNKNOWN/GAP
+EXECUTED VALIDATION            = NOT_ESTABLISHED
+RUNTIME ENFORCEMENT            = NOT_ESTABLISHED
+````
 
-It does not grant authority, execute external actions, or create canon.
+Therefore:
+
+$$
+\boxed{
+K_{\mathrm{CORE19}}
+=
+AMOS\_MODEL
+}
+$$
+
+not:
+
+$$
+K_{\mathrm{CORE19}}
+=
+VERIFIED\_HISTORICAL\_CANON
+$$
+
+The distinction is load-bearing.
 
 ---
 
-# 1. Architectural Position
+# 1. Purpose
+
+`K_CORE19_LOGIC` is the foundational deterministic-logic contract for AMOS OS.
+
+Its purpose is to determine whether an explicit proposition, transition, or candidate result is semantically admissible under its declared:
+
+```text
+INPUT
+STATE
+RULES
+DEPENDENCIES
+PROVENANCE
+SCOPE
+REGIME
+FRESHNESS
+ASSUMPTIONS
+```
+
+The canonical model pipeline is:
+
+```text
+EXPLICIT INPUT
+      +
+EXPLICIT STATE
+      +
+APPLICABLE RULES
+      +
+DEPENDENCY CLOSURE
+      +
+PROVENANCE TOPOLOGY
+      +
+APPLICABILITY ENVELOPE
+      ↓
+DETERMINISTIC EVALUATION
+      ↓
+VALID
+CONDITIONAL
+COMPETING
+CONFLICT
+INVALID
+UNKNOWN/GAP
+```
+
+CORE19 governs **validity semantics**.
+
+It does not itself grant authority or commit effects.
+
+---
+
+# 2. Architectural Position
 
 ```text
 01_CANON
-   ↓
+   │
+   ▼
 02_KERNEL
+   │
    ├── K_CORE19_LOGIC
+   │
    ├── RSCF
    ├── H/M/L
    ├── EPISTEMIC
@@ -89,17 +218,31 @@ It does not grant authority, execute external actions, or create canon.
    ├── FINALITY
    ├── VALIDATION
    └── RECOVERY
-   ↓
+   │
+   ▼
 03_CONTROL_PLANE
-   ↓
+   │
+   ▼
 04_RUNTIME
 ```
 
-CORE19 therefore belongs below canon and above authority/execution.
+Conceptually:
+
+$$
+CANON
+\rightarrow
+KERNEL
+\rightarrow
+CONTROL
+\rightarrow
+RUNTIME
+$$
+
+CORE19 occupies the semantic-validation layer.
 
 ---
 
-# 2. Hard Boundary
+# 3. Hard Boundary
 
 ```text
 CORE19 != CANON
@@ -109,34 +252,72 @@ CORE19 != COGNITION
 CORE19 != AGENT
 CORE19 != SKILL
 CORE19 != WORKFLOW
-CORE19 != MODEL
 CORE19 != TOOL
 ```
 
-And:
+The supplied source also states:
 
 ```text
-VALIDITY != AUTHORITY
-CAPABILITY != AUTHORITY
-PROPOSAL != COMMIT
-MODEL != AUTHORITY
-TOOL != PERMISSION
-UNKNOWN/GAP != PASS
+CORE19 != MODEL
 ```
 
-A CORE19 result can establish semantic eligibility.
+This requires an epistemic distinction:
 
-It cannot establish permission to commit.
+```text
+CORE19
+=
+modeled kernel component
+
+K_CORE19_LOGIC artifact
+=
+AMOS_MODEL describing that component
+```
+
+Thus:
+
+```text
+THE COMPONENT'S INTENDED ROLE
+!=
+THE EPISTEMIC STATUS OF THIS DOCUMENT
+```
 
 ---
 
-# 3. Deterministic Core Contract
+# 4. Primary Firewalls
+
+```text
+VALIDITY != AUTHORITY
+
+CAPABILITY != AUTHORITY
+
+PROPOSAL != COMMIT
+
+MODEL != AUTHORITY
+
+TOOL != PERMISSION
+
+SEMANTIC ELIGIBILITY != COMMIT ELIGIBILITY
+
+COMPUTE-TIME VALIDITY != COMMIT-TIME VALIDITY
+
+VALIDATED != FINAL
+
+COMMITTED != GLOBALLY FINAL
+
+UNKNOWN/GAP != PASS
+```
+
+These distinctions MUST remain explicit.
+
+---
+
+# 5. Deterministic Core Contract
 
 Conceptually:
 
-```text
-R = CORE19(I, S, L, D, P, E)
-```
+$$
+R = CORE19(I,S,L,D,P,E)
+$$
 
 where:
 
@@ -149,119 +330,191 @@ P = provenance topology
 E = applicability envelope
 ```
 
-The applicability envelope may contain:
+with:
 
-```text
-SCOPE
-REGIME
-TIME
-FRESHNESS
-ENVIRONMENT
-ASSUMPTIONS
-```
+$$
+E =
+\{
+scope,
+regime,
+time,
+freshness,
+environment,
+assumptions
+\}
+$$
 
-The result `R` must not depend on material hidden state.
+The output is:
 
----
+$$
+R \in
+\{
+VALID,
+CONDITIONAL,
+COMPETING,
+CONFLICT,
+INVALID,
+UNKNOWN/GAP
+\}
+$$
 
-# 4. CORE19 Determinism Law
-
-For semantically equivalent valid inputs:
-
-```text
-CORE19(X) → R
-CORE19(X) → R
-```
-
-subject to the same:
-
-```text
-STATE VERSION
-LAW SET
-DEPENDENCIES
-SCOPE
-REGIME
-FRESHNESS
-```
-
-If any load-bearing element changes:
-
-```text
-X₁ != X₂
-```
-
-and result equivalence must be re-established rather than assumed.
+subject to the declared contract.
 
 ---
 
-# 5. CORE19 Logic Envelope
+# 6. Determinism Law
 
-A consequential evaluation should conceptually resolve:
+For semantically equivalent inputs evaluated against the same load-bearing state:
+
+$$
+CORE19(X,\Sigma)=R
+$$
+
+and again:
+
+$$
+CORE19(X,\Sigma)=R
+$$
+
+where:
+
+$$
+\Sigma =
+(StateVersion,
+LawSet,
+Dependencies,
+Scope,
+Regime,
+Freshness)
+$$
+
+If a load-bearing element changes:
+
+$$
+\Sigma_1 \neq \Sigma_2
+$$
+
+then:
+
+$$
+R_1 = R_2
+$$
+
+MUST NOT be assumed.
+
+Revalidation is required.
+
+---
+
+# 7. Material Hidden-State Prohibition
+
+A deterministic result must not depend on material undeclared state.
+
+Target invariant:
+
+$$
+Material(x)
+\land
+Affects(x,R)
+\Rightarrow
+Declared(x)
+$$
+
+If a hidden dependency capable of changing the result is discovered:
+
+```text
+RESULT VALIDITY
+→
+INVALIDATE / REVALIDATE
+```
+
+as appropriate.
+
+---
+
+# 8. Input Envelope
 
 ```yaml
 core19_input:
-  operation_id:
-  operation_type:
 
-  input:
-  state_reference:
+  operation:
+    operation_id:
+    operation_type:
 
-  applicable_rules: []
-  invariants: []
+  explicit_input:
+
+  state:
+    state_reference:
+    expected_version:
+    epoch:
+
+  logic:
+    applicable_rules: []
+    invariants: []
 
   dependencies: []
+
   provenance: []
 
-  scope:
-  regime:
-  freshness:
+  applicability:
+    scope:
+    regime:
+    environment:
+    time:
+    freshness:
+    assumptions: []
 
-  assumptions: []
-  authority_requirement:
+  governance:
+    authority_requirement:
 ```
 
-Not every primitive operation requires every field.
+The schema is conceptual.
 
-The smallest sufficient envelope should be used.
+The smallest sufficient envelope SHOULD be used.
 
 ---
 
-# 6. Result Contract
-
-Conceptually:
+# 9. Output Envelope
 
 ```yaml
 core19_result:
+
   operation_id:
 
   result:
-  result_class:
+    result_class:
+    conclusion_class:
 
-  conclusion_class:
-
-  valid:
-  conditional:
-  conflict:
-  unknown_gap:
+  flags:
+    valid: false
+    conditional: false
+    competing: false
+    conflict: false
+    invalid: false
+    unknown_gap: false
 
   premises: []
   dependencies: []
   provenance: []
 
-  scope:
-  regime:
-  freshness:
+  applicability:
+    scope:
+    regime:
+    freshness:
 
-  state_delta:
-  invalidations: []
+  transition:
+    state_delta:
+    invalidations: []
+
   conflicts: []
   gaps: []
 
-  commit_eligibility:
-  authority_required:
+  governance:
+    commit_eligibility:
+    authority_required:
 ```
 
-The output remains a semantic result.
+Hard boundary:
 
 ```text
 CORE19_RESULT
@@ -271,36 +524,36 @@ COMMITTED_STATE
 
 ---
 
-# 7. Result Classes
+# 10. Result Algebra
 
-CORE19 should distinguish at minimum:
+Minimum result set:
 
-```text
-VALID
-CONDITIONAL
-COMPETING
-CONFLICT
-INVALID
+$$
+\mathcal{R}
+=
+\{
+VALID,
+CONDITIONAL,
+COMPETING,
+CONFLICT,
+INVALID,
 UNKNOWN/GAP
-```
+\}
+$$
 
-These must not be silently collapsed.
-
-Examples:
+Do not collapse:
 
 ```text
-CONDITIONAL != VALID
-COMPETING != RESOLVED
-CONFLICT != INVALID
-UNKNOWN/GAP != FALSE
-UNKNOWN/GAP != PASS
+CONDITIONAL → VALID
+COMPETING → RESOLVED
+CONFLICT → INVALID
+UNKNOWN/GAP → FALSE
+UNKNOWN/GAP → PASS
 ```
 
 ---
 
-# 8. Conclusion Classes
-
-AMOS epistemic conclusion classes remain:
+# 11. Epistemic Conclusion Classes
 
 ```text
 VERIFIED
@@ -313,19 +566,30 @@ UNKNOWN/GAP
 
 CORE19 uses the weakest accurate class.
 
-It must not strengthen a claim simply because the logical transformation itself is deterministic.
+Therefore:
 
-```text
-DETERMINISTIC DERIVATION
-!=
-VERIFIED PREMISE
-```
+$$
+DeterministicTransformation
+\not\Rightarrow
+VerifiedPremise
+$$
+
+and:
+
+$$
+VerifiedLogic
++
+UnverifiedPremise
+\not\Rightarrow
+VerifiedConclusion
+$$
 
 ---
 
-# 9. Core Integrity Order
+# 12. Core Integrity Order
 
-```text
+$$
+\boxed{
 INTEGRITY
 >
 COMPLETENESS
@@ -334,53 +598,57 @@ FLUENCY
 >
 SPEED
 >
-TOKEN SAVINGS
-```
+TOKEN\ SAVINGS
+}
+$$
 
-Optimization may reduce computational or retrieval cost only when integrity properties remain preserved.
-
----
-
-# 10. Load-Bearing Premise Law
-
-For conclusion `C` derived from load-bearing premises:
-
-```text
-P1
-P2
-...
-Pn
-↓
-C
-```
-
-the confidence ceiling satisfies conceptually:
-
-```text
-CONFIDENCE(C)
-<=
-MIN(
-    CONFIDENCE(P1),
-    CONFIDENCE(P2),
-    ...
-    CONFIDENCE(Pn)
-)
-```
-
-unless the weak premise is independently revalidated or removed from the dependency path.
+Optimization is admissible only beneath this ordering.
 
 ---
 
-# 11. Dependency Closure
+# 13. Confidence Ceiling
 
-CORE19 should evaluate the smallest dependency set capable of changing the result.
+For:
 
-```text
-CLOSURE(C)
+$$
+P_1,P_2,\ldots,P_n \vdash C
+$$
+
+where the premises are load-bearing:
+
+$$
+Confidence(C)
+\leq
+\min_i Confidence(P_i)
+$$
+
+unless a weak premise is:
+
+1. independently revalidated;
+2. replaced by stronger evidence; or
+3. proven non-load-bearing.
+
+This prevents deterministic logic from laundering weak evidence into strong conclusions.
+
+---
+
+# 14. Dependency Closure
+
+For conclusion \(C\):
+
+$$
+Closure(C)
 =
-ALL LOAD-BEARING DEPENDENCIES
-REQUIRED TO DETERMINE C
-```
+\{d \mid d \text{ can materially alter } C\}
+$$
+
+Preferred retrieval objective:
+
+$$
+\boxed{
+SmallestSufficientProofScope(C)
+}
+$$
 
 Therefore:
 
@@ -390,17 +658,11 @@ MORE CONTEXT
 BETTER REASONING
 ```
 
-Preferred:
-
-```text
-SMALLEST SUFFICIENT PROOF SCOPE
-```
-
 ---
 
-# 12. Dependency Graph
+# 15. Dependency Graph
 
-Conceptually:
+Example:
 
 ```text
 P1 ─────┐
@@ -410,66 +672,50 @@ P2 ─────┘
 P3 ────────── C2
 ```
 
-If `P1` fails, CORE19 invalidates only dependent descendants.
+If:
 
 ```text
 FAILED(P1)
-→
-INVALIDATE(C1, C3)
 ```
 
-It does not automatically invalidate:
+then:
 
 ```text
-C2
+INVALIDATE(C1)
+INVALIDATE(C3)
+```
+
+but not automatically:
+
+```text
+INVALIDATE(C2)
 ```
 
 ---
 
-# 13. Local Invalidation Law
+# 16. Local Invalidation Law
 
-```text
-LOCAL FAILURE
-!=
-GLOBAL FAILURE
-```
+$$
+LOCAL\ FAILURE
+\neq
+GLOBAL\ FAILURE
+$$
 
-Canonical behavior:
+Target:
 
 ```text
 FAILED PREMISE
-↓
-FAILED EDGE
-↓
+      ↓
+FAILED DEPENDENCY EDGE
+      ↓
 DEPENDENT DESCENDANTS
 ```
 
-Unaffected graph regions remain valid unless another dependency establishes otherwise.
+Unaffected graph regions survive unless another invalidating path exists.
 
 ---
 
-# 14. Provenance-Aware Logic
-
-CORE19 does not treat evidence as anonymous values.
-
-Material evidence should preserve:
-
-```text
-SOURCE IDENTITY
-SOURCE TYPE
-ANCESTRY
-DEPENDENCY EDGES
-DERIVATION EDGES
-VERSION / HASH
-FRESHNESS
-SCOPE
-REGIME
-CORRELATION RISK
-```
-
----
-
-# 15. Evidence Types
+# 17. Evidence Typing
 
 CORE19 distinguishes:
 
@@ -482,20 +728,62 @@ DECISION
 UNKNOWN
 ```
 
-The following transformations are prohibited without justification:
+Forbidden silent promotions include:
 
 ```text
 SOURCE_CLAIM → VERIFIED
+
+MODEL → OBSERVATION
+
 MODEL → FACT
+
 DECISION → TRUTH
+
 REPETITION → INDEPENDENCE
+
+UNKNOWN → TRUE
 ```
 
 ---
 
-# 16. Provenance Independence
+# 18. Provenance Topology
 
-Multiple observations do not necessarily represent multiple independent sources.
+Material evidence should preserve:
+
+```yaml
+provenance_record:
+  source_id:
+  source_type:
+  source_version:
+  source_hash:
+
+  ancestry: []
+  dependencies: []
+  derivations: []
+
+  scope:
+  regime:
+  freshness:
+
+  correlation_risk:
+  independence_status:
+```
+
+---
+
+# 19. Independence Law
+
+```text
+REPETITION != INDEPENDENCE
+
+MULTIPLE SOURCES != INDEPENDENT SOURCES
+
+MULTIPLE DESCENDANTS != MULTIPLE ORIGINS
+
+NO OBSERVED CONFLICT != PROOF OF INDEPENDENCE
+```
+
+Example:
 
 ```text
 SOURCE A
@@ -504,62 +792,44 @@ SOURCE A
 └── CLAIM D
 ```
 
-CORE19 must not count this automatically as:
+does not imply:
 
 ```text
 3 INDEPENDENT CONFIRMATIONS
 ```
 
-Instead:
+It may imply:
 
 ```text
-COMMON ANCESTRY
-→
-CORRELATION RISK
+1 ORIGIN
++
+3 DESCENDANTS
 ```
 
 ---
 
-# 17. Independence Law
+# 20. Conflict Preservation
 
-```text
-REPETITION != INDEPENDENCE
-
-MULTIPLE SOURCES
-!=
-INDEPENDENT SOURCES
-
-MULTIPLE DESCENDANTS
-!=
-MULTIPLE ORIGINS
-```
-
-Independence must be demonstrated where it affects the conclusion.
-
----
-
-# 18. Conflict Preservation
-
-Given:
+For incompatible hypotheses:
 
 ```text
 H1
 H2
 ```
 
-if both remain materially supported and no discriminating evidence resolves them:
+if neither dominates under admissible independent evidence:
 
 ```text
 RESULT = COMPETING
 ```
 
-CORE19 must not force convergence for presentation simplicity.
+Do not force convergence for fluency.
 
 ---
 
-# 19. Competing Hypothesis Rule
+# 21. Competing-Hypothesis Contract
 
-Preserve `COMPETING` when support is:
+Preserve `COMPETING` when evidence is:
 
 ```text
 EQUAL
@@ -570,17 +840,24 @@ INSUFFICIENT
 
 Resolution requires discriminating evidence.
 
-Preferred test:
+Conceptual target:
 
-```text
-MINIMUM COST
-+
-MAXIMUM EXPECTED INFORMATION GAIN
-```
+$$
+T^*
+=
+\arg\max_T
+\frac{
+ExpectedInformationGain(T)
+}{
+Cost(T)+Risk(T)+Delay(T)
+}
+$$
+
+This is a decision heuristic, not asserted here as a recovered historical CORE19 equation.
 
 ---
 
-# 20. Causal Firewall
+# 22. Causal Firewall
 
 CORE19 distinguishes:
 
@@ -597,7 +874,7 @@ FEEDBACK
 CAUSAL EFFECT
 ```
 
-The following do not establish causation:
+The following are insufficient alone:
 
 ```text
 SEQUENCE
@@ -608,115 +885,86 @@ STRUCTURAL SIMILARITY
 
 Therefore:
 
-```text
-STRUCTURAL_SIMILARITY
-!=
-CAUSATION
-```
+$$
+StructuralSimilarity
+\not\Rightarrow
+Causation
+$$
 
 ---
 
-# 21. Scope Firewall
+# 23. Scope Firewall
 
-A conclusion inherits its applicability envelope.
+A conclusion inherits an applicability envelope.
 
-Possible dimensions:
-
-```text
-SYSTEM
-POPULATION
-ENVIRONMENT
-SCALE
-TIME
-REGIME
-MEASUREMENT METHOD
-ASSUMPTIONS
+```yaml
+scope:
+  system:
+  population:
+  environment:
+  scale:
+  time:
+  measurement_method:
+  assumptions: []
 ```
 
-Therefore:
+Thus:
 
-```text
-VALID_IN_SCOPE_A
-!=
-VALID_UNIVERSALLY
-```
+$$
+Valid(C\mid S_1)
+\not\Rightarrow
+Valid(C\mid S_2)
+$$
 
-Scope expansion requires explicit validation.
+unless the scope transition is validated.
 
 ---
 
-# 22. Regime Firewall
+# 24. Regime Firewall
 
-For:
+For regime \(R_1\):
 
-```text
-REGIME R1
-↓
-CONCLUSION C
-```
+$$
+Valid(C\mid R_1)
+$$
 
-transition to:
+does not imply:
 
-```text
-REGIME R2
-```
+$$
+Valid(C\mid R_2)
+$$
 
-requires revalidation when the regime is load-bearing.
+where the regime transition is load-bearing.
 
-```text
-VALID(C | R1)
-!=
-VALID(C | R2)
-```
-
-unless regime invariance is demonstrated.
+A regime shift triggers revalidation.
 
 ---
 
-# 23. Freshness
+# 25. Freshness
 
 Freshness is independently typed.
 
 ```text
-AUTHORITY
-!=
-FRESHNESS
+AUTHORITY != FRESHNESS
+
+TRUSTED != CURRENT
+
+CURRENT != UNIVERSAL
 ```
 
-A source may be authoritative but stale.
+Possible fields:
 
-CORE19 may therefore track:
-
-```text
-VALID_AT
-FRESH_UNTIL
-REVALIDATE_AFTER
-INVALIDATED_AT
+```yaml
+freshness:
+  valid_at:
+  fresh_until:
+  revalidate_after:
+  invalidated_at:
 ```
 
 ---
 
-# 24. H/M/L Interaction
-
-CORE19 supports recursive AMOS decomposition:
-
-```text
-H
-↓
-M
-↓
-L
-```
-
-where:
-
-```text
-H = high-level domain
-M = subsystem
-L = detail
-```
-
-H/M/L is recursive.
+# 26. H/M/L Recursive Interaction
 
 ```text
 H
@@ -727,29 +975,39 @@ H
     └── L3
 ```
 
-CORE19 should traverse only branches capable of changing the result.
+Where:
+
+```text
+H = domain
+M = subsystem
+L = detail
+```
+
+The pattern is recursive.
+
+CORE19 traverses only branches capable of materially changing the result.
 
 ---
 
-# 25. Fractal Retrieval Rule
-
-Preferred retrieval:
+# 27. Fractal Retrieval Contract
 
 ```text
 BOOTSTRAP CAPSULE
-↓
-H
-↓
-M
-↓
-L
-↓
+        ↓
+H DOMAIN
+        ↓
+M SUBSYSTEM
+        ↓
+L DETAIL
+        ↓
 RAW EVIDENCE
 ```
 
-Raw evidence defaults to:
+Default:
 
 ```text
+RAW EVIDENCE
+=
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
@@ -757,87 +1015,102 @@ This is an efficiency rule constrained by integrity.
 
 ---
 
-# 26. RSCF Interaction
-
-CORE19 may evaluate RSCF structures containing:
-
-```text
-CLAIM
-CLAIM CLASS
-PREMISES
-EVIDENCE
-PROVENANCE
-SCOPE
-REGIME
-FRESHNESS
-DEPENDENCIES
-COMPETING CLAIMS
-FALSIFIERS
-CONFIDENCE CEILING
-STATE
-```
+# 28. RSCF Interaction
 
 Conceptually:
 
 ```text
 RSCF
-↓
-CORE19 VALIDATION
-↓
+  │
+  ├── CLAIM
+  ├── CLASS
+  ├── PREMISES
+  ├── EVIDENCE
+  ├── PROVENANCE
+  ├── SCOPE
+  ├── REGIME
+  ├── FRESHNESS
+  ├── DEPENDENCIES
+  ├── COMPETING CLAIMS
+  ├── FALSIFIERS
+  └── CONFIDENCE CEILING
+       ↓
+CORE19
+       ↓
 VALID / CONDITIONAL / COMPETING / UNKNOWN
 ```
 
 ---
 
-# 27. Atomic Multi-RSCF Logic
+# 29. Atomic Multi-RSCF Logic
 
-Some conclusions depend jointly on multiple RSCFs.
+For jointly dependent structures:
 
-```text
-RSCF_A
-+
-RSCF_B
-+
-RSCF_C
-↓
-JOINT CORE19 CHECK
-```
+$$
+R_A + R_B + R_C
+\rightarrow
+CORE19_{joint}
+$$
 
-A critical law is:
+Critical distinction:
 
-```text
-INDIVIDUALLY_VALID
-!=
-JOINTLY_VALID
-```
+$$
+IndividualValidity
+\not\Rightarrow
+JointValidity
+$$
 
-Joint invariants must be checked where the transition depends on the set as a whole.
+A cross-RSCF invariant must be evaluated over the complete load-bearing set.
 
 ---
 
-# 28. State Transition Logic
+# 30. Atomic Transition Rule
+
+Where atomicity is required:
+
+$$
+Commit(A,B,C)
+$$
+
+or:
+
+$$
+Commit(\varnothing)
+$$
+
+Partial state mutation must not create a state that violates the joint invariant.
+
+---
+
+# 31. State Transition Logic
 
 Conceptually:
 
-```text
-STATE_n
+$$
+S_n
 +
-OPERATION
+Operation
 +
-PRECONDITIONS
+Preconditions
 +
-INVARIANTS
-↓
-PROPOSED_STATE_n+1
-```
+Invariants
+\rightarrow
+S'_{n+1}
+$$
 
-CORE19 evaluates semantic validity of the transition.
+where:
 
-It does not itself grant commit authority.
+$$
+S'_{n+1}
+$$
+
+is a **proposed** state.
+
+It is not committed merely because CORE19 finds the transition semantically valid.
 
 ---
 
-# 29. Transition Preconditions
+# 32. Transition Preconditions
 
 A transition may require:
 
@@ -847,63 +1120,68 @@ VALID DEPENDENCIES
 VALID PROVENANCE
 VALID SCOPE
 VALID REGIME
+VALID FRESHNESS
 SATISFIED INVARIANTS
 NO BLOCKING CONFLICT
 ```
 
-Failure of a required precondition prevents unconditional validity.
+Missing required information blocks unconditional `VALID`.
 
 ---
 
-# 30. MVCC / CAS Semantic Contract
-
-AMOS v4.x includes MVCC/CAS concepts for concurrent state reasoning.
+# 33. MVCC / CAS Semantics
 
 Conceptually:
 
 ```text
-READ VERSION V
-↓
-COMPUTE RESULT
-↓
-CHECK CURRENT VERSION == V
-↓
-ELIGIBLE
+READ state@V
+      ↓
+COMPUTE candidate
+      ↓
+READ current version
+      ↓
+current == V ?
+   ┌──────┴──────┐
+  YES            NO
+   │              │
+eligible       STALE
+                  ↓
+             REVALIDATE
 ```
 
-If:
+Thus:
+
+$$
+CAS(expected=V,current=V)
+\Rightarrow
+eligible
+$$
+
+otherwise:
 
 ```text
-CURRENT VERSION != V
+CORE19_CONCURRENT_MODIFICATION
 ```
-
-then:
-
-```text
-CONCURRENT_MODIFICATION
-```
-
-and the transition requires revalidation.
 
 ---
 
-# 31. Compute-Time vs Commit-Time Validity
+# 34. Compute-Time vs Commit-Time Validity
 
-```text
-VALID_WHEN_COMPUTED
-!=
-VALID_WHEN_COMMITTED
-```
+$$
+VALID_{compute}
+\not\Rightarrow
+VALID_{commit}
+$$
 
-State may change between evaluation and commit.
+A load-bearing state mutation between evaluation and commit can invalidate the proposal.
 
-Therefore semantic validity can expire.
+Therefore commit-time revalidation may be required.
 
 ---
 
-# 32. Authority Firewall
+# 35. Validity / Authority Separation
 
-CORE19 may return:
+CORE19 can return:
 
 ```text
 SEMANTICALLY_VALID
@@ -915,29 +1193,31 @@ while the control plane returns:
 NOT_AUTHORIZED
 ```
 
-This is not a contradiction.
+No contradiction exists.
 
-```text
-VALIDITY
-AND
-AUTHORITY
-```
+The dimensions are independent:
 
-are independent dimensions.
+$$
+Validity
+\neq
+Authority
+$$
 
 ---
 
-# 33. Proposal Firewall
-
-CORE19 produces or validates proposals.
+# 36. Proposal Firewall
 
 ```text
+CORE19
+   ↓
+SEMANTIC RESULT
+   ↓
 PROPOSAL
-↓
+   ↓
 CONTROL PLANE
-↓
+   ↓
 AUTHORITY CHECK
-↓
+   ↓
 COMMIT / REJECT
 ```
 
@@ -951,33 +1231,25 @@ COMMIT
 
 ---
 
-# 34. Tool Firewall
-
-External tools may supply observations or execute authorized actions.
-
-But:
+# 37. Tool Firewall
 
 ```text
 TOOL_OUTPUT
 !=
 VERIFIED FACT
-```
 
-and:
-
-```text
 TOOL_ACCESS
 !=
 AUTHORITY
 ```
 
-Tool-derived information enters the normal provenance and validation path.
+Tool evidence enters the same provenance, freshness, scope, and validation path as other evidence.
 
 ---
 
-# 35. Model Firewall
+# 38. Model Firewall
 
-A model may provide:
+Models may produce:
 
 ```text
 PREDICTION
@@ -987,7 +1259,7 @@ GENERATION
 ESTIMATE
 ```
 
-CORE19 treats these according to their evidence class.
+but:
 
 ```text
 MODEL_OUTPUT
@@ -995,11 +1267,13 @@ MODEL_OUTPUT
 KERNEL_TRUTH
 ```
 
+The output's epistemic type must be preserved.
+
 ---
 
-# 36. Adversarial Validation
+# 39. Adversarial Validation
 
-For consequential conclusions, CORE19 should support a challenge path seeking:
+For consequential conclusions, challenge through a genuinely different path seeking:
 
 ```text
 CONTRADICTION
@@ -1012,82 +1286,74 @@ CAUSAL OVERREACH
 STRONGER ALTERNATIVE
 ```
 
-A challenge should be genuinely different from merely repeating the original derivation.
+Repeating the original derivation is not an independent challenge.
 
 ---
 
-# 37. Challenge Outcomes
+# 40. Challenge Outcomes
 
-If adversarial validation succeeds:
+A successful challenge may cause:
 
 ```text
-VERIFIED
-→ DERIVED
+VERIFIED → DERIVED
 
-DERIVED
-→ CONDITIONAL
+DERIVED → CONDITIONAL
 
-CONDITIONAL
-→ COMPETING
+CONDITIONAL → COMPETING
 
-or
-
-RESULT
-→ UNKNOWN/GAP
+ANY CLASS → UNKNOWN/GAP
 ```
 
-as warranted.
+when warranted.
 
-Downgrade only the affected conclusion and descendants.
+Downgrade only affected conclusions and descendants.
 
 ---
 
-# 38. Sensitivity Logic
+# 41. Sensitivity Logic
 
-CORE19 should identify the smallest load-bearing element capable of changing the decision.
+Identify the smallest result-flipping element:
+
+$$
+Flip(C)=
+\arg\min_x
+\{
+x:
+Change(x)\Rightarrow Change(C)
+\}
+$$
+
+where \(x\) may be:
 
 ```text
-MINIMUM FLIP VARIABLE
-=
-ARGMIN(
-  premise,
-  threshold,
-  assumption,
-  observation
-)
+PREMISE
+THRESHOLD
+ASSUMPTION
+OBSERVATION
+DEPENDENCY
 ```
 
-The exact mathematical form is implementation-dependent.
-
-The semantic requirement is:
-
-> Test the most decision-sensitive uncertainty before spending effort on low-value detail.
+The exact numerical implementation remains implementation-dependent.
 
 ---
 
-# 39. Robustness
+# 42. Robustness
 
-A result is stronger when it survives plausible perturbations of noncritical assumptions.
+If plausible perturbations of noncritical assumptions leave the conclusion unchanged:
 
 ```text
-SMALL PERTURBATION
-+
-SAME CONCLUSION
-→
-MORE ROBUST
+ROBUSTNESS ↑
 ```
 
-A conclusion that flips easily should remain:
+If small plausible perturbations flip it:
 
 ```text
-CONDITIONAL
+RESULT → CONDITIONAL
 ```
 
 ---
 
-# 40. Gap Classes
-
-CORE19 recognizes gap severity conceptually as:
+# 43. Gap Taxonomy
 
 ```text
 CRITICAL
@@ -1096,23 +1362,23 @@ EXPLANATORY
 COSMETIC
 ```
 
-Resolution priority:
+Priority:
 
-```text
+$$
 CRITICAL
-↓
-DECISION-RELEVANT
-↓
+>
+DECISION\text{-}RELEVANT
+>
 EXPLANATORY
-↓
+>
 COSMETIC
-```
+$$
 
 A critical unresolved gap blocks unconditional promotion.
 
 ---
 
-# 41. Unknown Handling
+# 44. Unknown Handling
 
 ```text
 MISSING REQUIRED PREMISE
@@ -1128,33 +1394,41 @@ STALE LOAD-BEARING PREMISE
 → CONDITIONAL / UNKNOWN/GAP
 ```
 
-No fluent bridge may substitute for missing evidence.
+Never:
+
+```text
+MISSING EVIDENCE
++
+FLUENT INFERENCE
+→
+PASS
+```
 
 ---
 
-# 42. Failure Recovery
-
-Recovery follows:
+# 45. Failure Recovery
 
 ```text
 FAILURE
-↓
+   ↓
 LOCATE FAILED PREMISE / EDGE
-↓
-INVALIDATE DESCENDANTS
-↓
+   ↓
+INVALIDATE DEPENDENT DESCENDANTS
+   ↓
 PRESERVE UNAFFECTED STATE
-↓
+   ↓
 ROLL BACK TO NEAREST VALID STATE
-↓
+   ↓
 REROUTE
+   ↓
+REVALIDATE
 ```
 
 Global recomputation is a last resort.
 
 ---
 
-# 43. Failed Path Rule
+# 46. Failed-Path Rule
 
 ```text
 FAILED PATH
@@ -1168,13 +1442,13 @@ SAME METHOD
 DO NOT REPEAT
 ```
 
-Retry requires a material change.
+A retry requires a material change.
 
 ---
 
-# 44. Fast Path
+# 47. Fast-Path Contract
 
-CORE19 may use a local fast path only when:
+Local evaluation may be used only when:
 
 ```text
 DEPENDENCY CLOSURE ESTABLISHED
@@ -1188,11 +1462,15 @@ AND
 FRESHNESS VALID
 AND
 NO MATERIAL CONFLICT
+AND
+NO MATERIAL CROSS-BOUNDARY DEPENDENCY
 ```
+
+Fast-path eligibility must be established, not assumed.
 
 ---
 
-# 45. Escalation Conditions
+# 48. Escalation
 
 Escalate when evidence:
 
@@ -1207,13 +1485,9 @@ AFFECTS GOVERNANCE
 HAS HIGH IRREVERSIBILITY
 ```
 
-Fast-path eligibility must be demonstrated rather than assumed.
-
 ---
 
-# 46. Proof-Based Coordination Avoidance
-
-AMOS v4.4 reasoning permits avoiding unnecessary global coordination when independence is established.
+# 49. Proof-Based Coordination Avoidance
 
 Conceptually:
 
@@ -1226,8 +1500,10 @@ VALID SCOPE
 +
 VALID REGIME
 +
+VALID FRESHNESS
++
 NO MATERIAL CROSS-BOUNDARY CONFLICT
-↓
+        ↓
 LOCAL RESOLUTION ELIGIBLE
 ```
 
@@ -1241,56 +1517,94 @@ PROOF_OF_INDEPENDENCE
 
 ---
 
-# 47. Finality Interaction
+# 50. Finality Interaction
 
-CORE19 may participate in establishing semantic prerequisites for:
+CORE19 may contribute semantic prerequisites to:
 
 ```text
 CAUSAL EPOCH FINALITY
 SHARD-LOCAL FINALIZATION
 ```
 
-but finality remains governed by its full authority and state contract.
+but:
 
 ```text
-VALIDATED
-!=
-FINAL
+VALIDATED != FINAL
 
-COMMITTED
-!=
-GLOBALLY_FINAL
+COMMITTED != GLOBALLY_FINAL
 ```
+
+The full finality contract remains separately governed.
 
 ---
 
-# 48. Evolution Logic
+# 51. Causal Epoch Boundary
 
-CORE19 logic itself evolves through governed lineage.
+A semantically valid candidate should not be treated as final if a causally prior load-bearing mutation remains unresolved.
+
+Conceptually:
+
+$$
+UnresolvedPriorDependency(C)
+\Rightarrow
+\neg Final(C)
+$$
+
+This is an AMOS architectural model statement, not a claim that the conversational host literally implements distributed finality machinery.
+
+---
+
+# 52. Evolution Logic
 
 ```text
-CURRENT LOGIC
-↓
+CURRENT CORE19 MODEL
+       ↓
 PROPOSED CHANGE
-↓
+       ↓
 VALIDATION
-↓
+       ↓
 COMPATIBILITY CHECK
-↓
+       ↓
 AUTHORITY
-↓
+       ↓
 COMMIT
-↓
-NEW CURRENT LOGIC
+       ↓
+NEW CURRENT MODEL
 ```
 
-No self-modification becomes authoritative merely because it is logically generated.
+Self-generated change has no intrinsic authority.
 
 ---
 
-# 49. Anti-Regression
+# 53. Governed Evolution
 
-A CORE19 evolution must preserve or improve:
+A proposed evolution \(K'\) may replace \(K\) only through governed transition.
+
+$$
+K
+\rightarrow
+Proposal(K')
+\rightarrow
+Validate(K')
+\rightarrow
+Authorize(K')
+\rightarrow
+Commit(K')
+$$
+
+not:
+
+$$
+Generate(K')
+\Rightarrow
+Canonical(K')
+$$
+
+---
+
+# 54. Anti-Regression
+
+Evolution must preserve or improve:
 
 ```text
 FACTUAL SUPPORT
@@ -1305,7 +1619,7 @@ SAFETY
 EFFICIENCY
 ```
 
-If not:
+Failure:
 
 ```text
 REJECT
@@ -1315,26 +1629,31 @@ ROLLBACK
 
 ---
 
-# 50. Composition Law
+# 55. Composition Law
 
 Suppose:
 
-```text
-K1: A → B
-K2: B → C
-```
+$$
+K_1:A\rightarrow B
+$$
 
-Then composition requires more than independent validity.
+and:
 
-```text
-VALID(K1)
+$$
+K_2:B\rightarrow C
+$$
+
+Then:
+
+$$
+Valid(K_1)
 +
-VALID(K2)
-!=
-VALID(K2 ∘ K1)
-```
+Valid(K_2)
+\not\Rightarrow
+Valid(K_2\circ K_1)
+$$
 
-CORE19 must also verify:
+Composition additionally requires:
 
 ```text
 TYPE COMPATIBILITY
@@ -1347,31 +1666,36 @@ INVARIANT PRESERVATION
 
 ---
 
-# 51. Side-Effect Boundary
+# 56. Side-Effect Boundary
 
-CORE19 should be semantically separable from external effects.
-
-Preferred architecture:
+Preferred separation:
 
 ```text
 CORE19
-↓
+   ↓
 PROPOSAL
-↓
+   ↓
 CONTROL PLANE
-↓
+   ↓
 RUNTIME
-↓
+   ↓
 TOOL
-↓
+   ↓
 EXTERNAL EFFECT
 ```
 
-This supports replay, audit, validation, and recovery.
+This supports:
+
+```text
+REPLAY
+AUDIT
+VALIDATION
+RECOVERY
+```
 
 ---
 
-# 52. Core Error Classes
+# 57. Error Taxonomy
 
 ```text
 CORE19_TYPE_ERROR
@@ -1391,41 +1715,33 @@ CORE19_RECOVERY_REQUIRED
 CORE19_UNKNOWN_GAP
 ```
 
-These are semantic categories; implementation-specific exception names may differ.
+These are semantic classes.
+
+Implementation-specific names may differ.
 
 ---
 
-# 53. Fail-Closed Contract
-
-For integrity-sensitive operations:
+# 58. Fail-Closed Contract
 
 ```text
 IF REQUIRED_INFORMATION == UNKNOWN
 THEN
-    DO NOT RETURN PASS
+    DO_NOT_RETURN PASS
 ```
 
-Equivalent:
+Therefore:
 
 ```text
 UNKNOWN/GAP != PASS
-```
 
-Also:
+ABSENCE_OF_CONTRADICTION != PROOF
 
-```text
-ABSENCE_OF_CONTRADICTION
-!=
-PROOF
-
-ABSENCE_OF_FAILURE
-!=
-SUCCESS
+ABSENCE_OF_FAILURE != SUCCESS
 ```
 
 ---
 
-# 54. Minimal Pseudocode
+# 59. Reference Evaluation Algorithm
 
 ```python
 def core19_evaluate(operation, context):
@@ -1448,6 +1764,9 @@ def core19_evaluate(operation, context):
     if not regime_is_compatible(operation, closure):
         return REGIME_MISMATCH
 
+    if not freshness_is_valid(closure):
+        return STALE_PREMISE
+
     conflicts = detect_material_conflicts(closure)
 
     if conflicts.unresolved:
@@ -1460,64 +1779,163 @@ def core19_evaluate(operation, context):
     )
 
     result = apply_confidence_ceiling(result, closure)
+    result = attach_dependencies(result, closure)
     result = attach_provenance(result, provenance)
 
     return result
 ```
 
-This is architectural pseudocode, not evidence of a particular deployed implementation.
-
----
-
-# 55. Core Invariants
+This remains architectural pseudocode.
 
 ```text
-I01  INPUTS MUST BE EXPLICIT ENOUGH TO DETERMINE THE RESULT
-
-I02  MATERIAL HIDDEN STATE MUST NOT ALTER SEMANTIC OUTPUT
-
-I03  UNKNOWN/GAP MUST NOT BECOME PASS
-
-I04  DERIVED CONFIDENCE MUST NOT EXCEED LOAD-BEARING PREMISES
-
-I05  DEPENDENCY INVALIDATION MUST REMAIN LOCAL WHERE POSSIBLE
-
-I06  PROVENANCE ANCESTRY MUST NOT BE COUNTED AS INDEPENDENCE
-
-I07  STRUCTURAL SIMILARITY MUST NOT ESTABLISH CAUSATION
-
-I08  SCOPE MUST NOT SILENTLY EXPAND
-
-I09  REGIME MUST NOT SILENTLY EXPAND
-
-I10  STALE LOAD-BEARING PREMISES REQUIRE REVALIDATION
-
-I11  COMPETING HYPOTHESES MUST REMAIN VISIBLE
-
-I12  INDIVIDUAL VALIDITY MUST NOT IMPLY JOINT VALIDITY
-
-I13  COMPUTE-TIME VALIDITY MUST NOT IMPLY COMMIT-TIME VALIDITY
-
-I14  VALIDITY MUST NOT GRANT AUTHORITY
-
-I15  TOOL ACCESS MUST NOT GRANT PERMISSION
-
-I16  MODEL OUTPUT MUST NOT BECOME KERNEL TRUTH WITHOUT VALIDATION
-
-I17  FAILURE RECOVERY SHOULD INVALIDATE ONLY DEPENDENT STATE
-
-I18  OPTIMIZATION MUST NOT WEAKEN INTEGRITY
-
-I19  FINALIZATION REQUIRES ITS DECLARED DEPENDENCY AND AUTHORITY CONDITIONS
+PSEUDOCODE
+!=
+EXECUTABLE BINDING
 ```
-
-These nineteen invariants provide the logical interpretation of the `CORE19` kernel name in this architecture.
-
-They are an **AMOS model contract**, not a claim that a separately verified historical CORE19 specification has been recovered from the currently accessible source corpus.
 
 ---
 
-# 56. CORE19 Compact Form
+# 60. CORE19 Nineteen-Invariant Contract
+
+## I01 — Explicit Input
+
+```text
+INPUTS MUST BE EXPLICIT ENOUGH
+TO DETERMINE THE RESULT
+```
+
+## I02 — Determinism
+
+```text
+MATERIAL HIDDEN STATE MUST NOT
+ALTER SEMANTIC OUTPUT
+```
+
+## I03 — Fail Closed
+
+```text
+UNKNOWN/GAP MUST NOT BECOME PASS
+```
+
+## I04 — Confidence Ceiling
+
+```text
+DERIVED CONFIDENCE MUST NOT EXCEED
+LOAD-BEARING PREMISES
+```
+
+## I05 — Dependency Closure
+
+```text
+REASON OVER THE SMALLEST
+RESULT-CHANGING DEPENDENCY CLOSURE
+```
+
+## I06 — Local Invalidation
+
+```text
+DEPENDENCY INVALIDATION MUST
+REMAIN LOCAL WHERE POSSIBLE
+```
+
+## I07 — Provenance Topology
+
+```text
+PROVENANCE ANCESTRY MUST
+REMAIN RECOVERABLE
+```
+
+## I08 — Independence Proof
+
+```text
+ANCESTRY MUST NOT BE
+COUNTED AS INDEPENDENCE
+```
+
+## I09 — Conflict Preservation
+
+```text
+COMPETING HYPOTHESES MUST
+REMAIN VISIBLE
+```
+
+## I10 — Causal Firewall
+
+```text
+STRUCTURAL SIMILARITY MUST
+NOT ESTABLISH CAUSATION
+```
+
+## I11 — Scope Firewall
+
+```text
+SCOPE MUST NOT
+SILENTLY EXPAND
+```
+
+## I12 — Regime Firewall
+
+```text
+REGIME MUST NOT
+SILENTLY EXPAND
+```
+
+## I13 — Freshness
+
+```text
+STALE LOAD-BEARING PREMISES
+REQUIRE REVALIDATION
+```
+
+## I14 — Atomic Validity
+
+```text
+INDIVIDUAL VALIDITY MUST NOT
+IMPLY JOINT VALIDITY
+```
+
+## I15 — Concurrency Validity
+
+```text
+COMPUTE-TIME VALIDITY MUST NOT
+IMPLY COMMIT-TIME VALIDITY
+```
+
+## I16 — Authority Firewall
+
+```text
+VALIDITY MUST NOT
+GRANT AUTHORITY
+```
+
+## I17 — Recovery
+
+```text
+FAILURE SHOULD INVALIDATE
+ONLY DEPENDENT STATE
+```
+
+## I18 — Anti-Regression
+
+```text
+OPTIMIZATION MUST NOT
+WEAKEN INTEGRITY
+```
+
+## I19 — Finality Conditions
+
+```text
+FINALIZATION REQUIRES
+DECLARED DEPENDENCY
++
+STATE
++
+AUTHORITY CONDITIONS
+```
+
+---
+
+# 61. Compact CORE19
 
 ```text
 01 EXPLICIT INPUT
@@ -1543,123 +1961,1196 @@ They are an **AMOS model contract**, not a claim that a separately verified hist
 
 ---
 
-# 57. Lifecycle
+# 62. Important Epistemic Boundary of “CORE19”
+
+The nineteen-invariant interpretation is internally coherent with the supplied AMOS v4.4 model.
+
+However:
+
+```text
+19 CURRENT MODEL INVARIANTS
+!=
+PROOF OF HISTORICAL CORE19 DEFINITION
+```
+
+The artifact itself identifies the missing historical source lineage.
+
+Therefore the number nineteen MUST NOT be retroactively presented as historically verified canon until source mapping exists.
+
+---
+
+# 63. Historical Canon Gap
+
+```yaml
+gap:
+  gap_id: CORE19-HISTORICAL-CANON
+  class: CRITICAL
+  status: OPEN
+
+  question: >
+    Does a native historical AMOS source explicitly define
+    CORE19 as these nineteen deterministic-logic invariants?
+
+  currently_supported_answer:
+    class: UNKNOWN/GAP
+
+  required_evidence:
+    - canonical CORE19 source
+    - source identity
+    - version
+    - provenance
+    - lineage
+    - explicit invariant mapping
+```
+
+---
+
+# 64. Invariant Source-Mapping Registry
+
+Until source lineage is recovered:
+
+```yaml
+invariant_source_map:
+
+  I01: UNKNOWN/GAP
+  I02: UNKNOWN/GAP
+  I03: UNKNOWN/GAP
+  I04: UNKNOWN/GAP
+  I05: UNKNOWN/GAP
+  I06: UNKNOWN/GAP
+  I07: UNKNOWN/GAP
+  I08: UNKNOWN/GAP
+  I09: UNKNOWN/GAP
+  I10: UNKNOWN/GAP
+  I11: UNKNOWN/GAP
+  I12: UNKNOWN/GAP
+  I13: UNKNOWN/GAP
+  I14: UNKNOWN/GAP
+  I15: UNKNOWN/GAP
+  I16: UNKNOWN/GAP
+  I17: UNKNOWN/GAP
+  I18: UNKNOWN/GAP
+  I19: UNKNOWN/GAP
+```
+
+This means:
+
+```text
+MODEL CONTENT EXISTS
+```
+
+while:
+
+```text
+HISTORICAL SOURCE MAPPING
+DOES NOT YET EXIST
+```
+
+---
+
+# 65. Lifecycle
 
 ```text
 PLACEHOLDER
-↓
+    ↓
 AMOS_MODEL
-↓
+    ↓
+SOURCE_BOUND
+    ↓
+CANONICALLY_RESOLVED
+    ↓
 IMPLEMENTED
-↓
+    ↓
 TESTED
-↓
+    ↓
 VALIDATED
-↓
-AUTHORIZED
+    ↓
+AUTHORIZED / ENFORCED
 ```
 
-These states must remain distinct.
+These states remain distinct.
 
 ```text
 MODEL != IMPLEMENTATION
-IMPLEMENTATION != VALIDATION
+
+IMPLEMENTATION != TESTED
+
+TESTED != VALIDATED
+
 VALIDATION != AUTHORITY
+
+AUTHORITY != EXECUTION
 ```
 
 ---
 
-# 58. Promotion Gate
+# 66. Promotion Gate — Source Binding
 
-Before `K_CORE19_LOGIC` can be promoted beyond model status:
+Before historical/canonical promotion:
 
-```text
-[ ] canonical CORE19 source bound
-[ ] historical identity verified
-[ ] version lineage established
-[ ] nineteen invariants source-mapped
-[ ] input contract finalized
-[ ] output contract finalized
-[ ] deterministic semantics implemented
-[ ] dependency closure tested
-[ ] provenance topology tested
-[ ] conflict behavior tested
-[ ] scope firewall tested
-[ ] regime firewall tested
-[ ] concurrency behavior tested
-[ ] atomic multi-RSCF behavior tested
-[ ] failure recovery tested
-[ ] authority boundary tested
-[ ] negative tests passed
-[ ] unresolved conflicts recorded
-[ ] supersession lineage recorded
-```
+* [ ] canonical CORE19 source identified;
+* [ ] source identity verified;
+* [ ] source provenance persisted;
+* [ ] source hash/version recorded where available;
+* [ ] historical identity established;
+* [ ] canonical precedence established;
+* [ ] nineteen invariants source-mapped;
+* [ ] contradictions recorded;
+* [ ] supersession lineage established.
 
-Until these conditions are evidenced:
+---
 
-```text
-IMPLEMENTATION STATUS = UNKNOWN/GAP
+# 67. Promotion Gate — Implementation
+
+Before implementation status:
+
+* [ ] typed input schema finalized;
+* [ ] typed result schema finalized;
+* [ ] deterministic transformation implemented;
+* [ ] dependency closure implemented;
+* [ ] provenance topology implemented;
+* [ ] scope firewall implemented;
+* [ ] regime firewall implemented;
+* [ ] freshness checks implemented;
+* [ ] conflict preservation implemented;
+* [ ] atomic multi-RSCF checks implemented;
+* [ ] MVCC/CAS semantics implemented where applicable;
+* [ ] recovery semantics implemented.
+
+---
+
+# 68. Promotion Gate — Validation
+
+Before `VALIDATED`:
+
+* [ ] deterministic replay test;
+* [ ] hidden-state test;
+* [ ] missing-premise test;
+* [ ] missing-provenance test;
+* [ ] shared-ancestry test;
+* [ ] scope mismatch test;
+* [ ] regime mismatch test;
+* [ ] stale-premise test;
+* [ ] competing-hypothesis test;
+* [ ] causal-overreach test;
+* [ ] local invalidation test;
+* [ ] multi-RSCF joint-validity test;
+* [ ] concurrent modification test;
+* [ ] authority firewall test;
+* [ ] failed-path recovery test;
+* [ ] rollback test;
+* [ ] finality prerequisite test;
+* [ ] adversarial validation;
+* [ ] executed validation receipt.
+
+---
+
+# 69. Negative Cases
+
+| Input condition                     | CORE19 target result        |
+| ----------------------------------- | --------------------------- |
+| Required premise missing            | `UNKNOWN/GAP`               |
+| Required provenance missing         | `UNKNOWN/GAP`               |
+| Input malformed                     | type/schema error           |
+| Scope incompatible                  | `CORE19_SCOPE_MISMATCH`     |
+| Regime incompatible                 | `CORE19_REGIME_MISMATCH`    |
+| Load-bearing premise stale          | conditional/gap             |
+| Shared ancestry miscounted          | independence failure        |
+| Equal supported hypotheses          | `COMPETING`                 |
+| Blocking contradiction              | conflict/competing          |
+| Structural similarity used causally | reject causal promotion     |
+| Joint invariant fails               | atomicity failure           |
+| State version changed               | concurrent modification     |
+| Valid but unauthorized              | authority required          |
+| Failed path unchanged               | do not repeat               |
+| Critical gap unresolved             | never unconditional `VALID` |
+
+---
+
+# 70. Proof Capsule
+
+A consequential CORE19 result SHOULD conceptually carry:
+
+```yaml
+proof_capsule:
+
+  claim:
+  result_class:
+  conclusion_class:
+
+  load_bearing_premises: []
+
+  evidence: []
+
+  provenance:
+    sources: []
+    ancestry: []
+    independence:
+
+  applicability:
+    scope:
+    regime:
+    environment:
+    time:
+    freshness:
+    assumptions: []
+
+  dependencies: []
+
+  competing_hypotheses: []
+
+  falsifiers: []
+
+  confidence_ceiling:
+
+  state:
+    observed_version:
+    epoch:
+
+  invalidation_conditions: []
 ```
 
 ---
 
-# 59. Integrity Note
+# 71. Reuse Contract
 
-This artifact replaces an empty placeholder with a structured AMOS v4.4-aligned kernel model.
-
-The available conversation context establishes the AMOS v4.4 reasoning spine, but does **not** independently establish a canonical historical definition of a component specifically named `CORE19`.
-
-Therefore the nineteen-invariant interpretation above remains:
+A cached proof capsule may be reused only while:
 
 ```text
-CONCLUSION_CLASS = AMOS_MODEL
+DEPENDENCIES VALID
+AND
+SCOPE VALID
+AND
+REGIME VALID
+AND
+FRESHNESS VALID
+AND
+STATE VERSION COMPATIBLE
+AND
+NO MATERIAL NEW CONFLICT
 ```
 
-rather than:
+Otherwise:
 
 ```text
-VERIFIED
+REVALIDATE
 ```
-
-This distinction must be preserved until canonical source lineage is bound.
 
 ---
 
-# 60. RSCF Node
+# 72. Persistent Provenance
 
-```RSCF-NODE
-node_id: AMOS-OS-K-CORE19-LOGIC
-node_type: kernel_logic_contract
-domain: AMOS_OS_KERNEL
-functional_type: DeterministicLogicKernel
-lifecycle_stage: Architecture
-claim_class: AMOS_MODEL
+Where results persist across operations, provenance SHOULD persist with them.
+
+```text
+PERSISTED CLAIM
++
+LOST PROVENANCE
+=
+INTEGRITY DEGRADATION
+```
+
+A later reader must be able to determine why the conclusion existed.
+
+---
+
+# 73. State Identity
+
+Conceptual mutable-state identity:
+
+```yaml
+state_identity:
+  object_id:
+  version:
+  epoch:
+```
+
+The observed version is part of the semantic context for concurrent reasoning.
+
+---
+
+# 74. CAS Eligibility
+
+Conceptually:
+
+```text
+expected_version == current_version
+```
+
+is necessary where version-sensitive commit semantics apply.
+
+But:
+
+```text
+VERSION MATCH
+!=
+FULL VALIDITY
+```
+
+Other invariants must still hold.
+
+---
+
+# 75. Atomic Multi-RSCF Example
+
+Suppose:
+
+```text
+RSCF_A = VALID
+RSCF_B = VALID
+RSCF_C = VALID
+```
+
+but their joint transition violates invariant \(J\).
+
+Then:
+
+```text
+INDIVIDUAL RESULT:
+A = VALID
+B = VALID
+C = VALID
+
+JOINT RESULT:
+INVALID / CONFLICT
+```
+
+This is precisely why:
+
+$$
+IndividualValidity
+\not\Rightarrow
+JointValidity
+$$
+
+---
+
+# 76. Scope Example
+
+Suppose:
+
+```text
+C valid for SYSTEM_A
+```
+
+CORE19 cannot silently return:
+
+```text
+C valid for SYSTEM_B
+```
+
+without a bridge establishing scope compatibility.
+
+---
+
+# 77. Regime Example
+
+Suppose:
+
+```text
+C valid under REGIME_1
+```
+
+and the environment moves to:
+
+```text
+REGIME_2
+```
+
+If regime is load-bearing:
+
+```text
+C → REVALIDATE
+```
+
+---
+
+# 78. Provenance Example
+
+```text
+SOURCE_A
+   ├── ARTICLE_B
+   ├── SUMMARY_C
+   └── REPORT_D
+```
+
+Counting B/C/D as three independent confirmations violates the independence contract unless independent evidentiary origins are demonstrated.
+
+---
+
+# 79. Conflict Example
+
+```text
+H1:
+System property P holds.
+
+H2:
+System property P does not hold.
+```
+
+If evidence remains incomparable:
+
+```text
+RESULT:
+COMPETING
+```
+
+not:
+
+```text
+AVERAGED CONSENSUS
+```
+
+---
+
+# 80. Causal Example
+
+```text
+A occurs before B
+```
+
+supports temporal ordering.
+
+It does not by itself establish:
+
+```text
+A causes B
+```
+
+Likewise:
+
+```text
+A structurally resembles B
+```
+
+does not establish a causal relation.
+
+---
+
+# 81. Recovery Example
+
+```text
+P1 → C1 → C3
+P2 → C2
+```
+
+Failure of `P1` yields:
+
+```text
+INVALIDATE:
+C1
+C3
+
+PRESERVE:
+P2
+C2
+```
+
+unless another dependency connects them.
+
+---
+
+# 82. Fast-Path Example
+
+A local CORE19 evaluation can avoid wider traversal when:
+
+```text
+local dependency closure complete
++
+provenance independence established
++
+scope/regime compatible
++
+freshness valid
++
+no cross-boundary conflict
+```
+
+This is proof-based coordination avoidance.
+
+It is not:
+
+```text
+ASSUME LOCAL
+BECAUSE LOCAL IS FASTER
+```
+
+---
+
+# 83. Governance Interaction
+
+```text
+CORE19
+   ↓
+SEMANTIC ELIGIBILITY
+   ↓
+CONTROL PLANE
+   ↓
+AUTHORITY
+   ↓
+TRANSACTION / COMMIT
+```
+
+CORE19 therefore constrains governance without replacing governance.
+
+---
+
+# 84. Runtime Interaction
+
+```text
+CORE19 RESULT
+   ↓
+AUTHORIZED PROPOSAL
+   ↓
+RUNTIME
+   ↓
+EXECUTION
+```
+
+A runtime effect requires more than a valid CORE19 result.
+
+---
+
+# 85. Observability Interaction
+
+Runtime observation can return evidence to the kernel:
+
+```text
+RUNTIME
+   ↓
+OBSERVATION
+   ↓
+PROVENANCE
+   ↓
+CORE19
+```
+
+But:
+
+```text
+OBSERVED
+!=
+AUTHORIZED
+
+LOGGED
+!=
+APPROVED
+```
+
+---
+
+# 86. Recovery Interaction
+
+```text
+FAILURE RECEIPT
+   ↓
+DEPENDENCY ANALYSIS
+   ↓
+LOCAL INVALIDATION
+   ↓
+ROLLBACK
+   ↓
+REROUTE
+   ↓
+REVALIDATION
+```
+
+---
+
+# 87. Core Error Object
+
+Conceptually:
+
+```yaml
+core19_error:
+  error_id:
+  error_class:
+
+  operation_id:
+
+  failed_premises: []
+  failed_dependencies: []
+
+  provenance:
+  scope:
+  regime:
+  freshness:
+
+  affected_descendants: []
+  unaffected_state: []
+
+  recovery_required:
+  rollback_target:
+
+  epistemic_result:
+```
+
+---
+
+# 88. Validation Receipt
+
+Conceptually:
+
+```yaml
+core19_validation_receipt:
+
+  artifact_id: AMOS-OS-K-CORE19-LOGIC
+  artifact_version:
+
+  implementation:
+    implementation_id:
+    version:
+    hash:
+
+  tests:
+    deterministic_replay:
+    dependency_closure:
+    local_invalidation:
+    provenance:
+    independence:
+    conflict:
+    causal_firewall:
+    scope:
+    regime:
+    freshness:
+    atomic_multi_rscf:
+    concurrency:
+    authority_boundary:
+    recovery:
+    anti_regression:
+    finality_conditions:
+
+  result:
+  executed_at:
+  validator:
+```
+
+Until such an executed receipt exists:
+
+```text
+VALIDATION_STATUS
+=
+NOT_ESTABLISHED
+```
+
+---
+
+# 89. Canonical Lineage Object
+
+```yaml
+core19_lineage:
+
+  current_artifact:
+    id: AMOS-OS-K-CORE19-LOGIC
+
+  historical_sources: []
+
+  predecessors: []
+
+  successors: []
+
+  supersession:
+    status: UNKNOWN/GAP
+
+  invariant_source_mapping:
+    status: UNKNOWN/GAP
+
+  canonical_precedence:
+    status: UNKNOWN/GAP
+```
+
+---
+
+# 90. Current Gap Register
+
+```yaml
+gaps:
+
+  - id: CORE19-GAP-001
+    class: CRITICAL
+    subject: historical_CORE19_source
+    status: OPEN
+
+  - id: CORE19-GAP-002
+    class: CRITICAL
+    subject: nineteen_invariant_source_mapping
+    status: OPEN
+
+  - id: CORE19-GAP-003
+    class: DECISION-RELEVANT
+    subject: canonical_precedence
+    status: OPEN
+
+  - id: CORE19-GAP-004
+    class: DECISION-RELEVANT
+    subject: executable_binding
+    status: OPEN
+
+  - id: CORE19-GAP-005
+    class: DECISION-RELEVANT
+    subject: validation_receipt
+    status: OPEN
+
+  - id: CORE19-GAP-006
+    class: DECISION-RELEVANT
+    subject: runtime_enforcement
+    status: OPEN
+```
+
+---
+
+# 91. Current Evidence Register
+
+```yaml
+evidence:
+
+  - id: CORE19-E-001
+    type: SOURCE_CLAIM
+    supports:
+      - artifact identity
+      - canonical name
+      - AMOS v4.4 target
+      - kernel placement
+      - deterministic logic domain
+
+  - id: CORE19-E-002
+    type: SOURCE_CLAIM
+    supports:
+      - validity/authority separation
+      - dependency closure
+      - provenance topology
+      - causal firewall
+      - scope/regime firewalls
+      - concurrency semantics
+      - recovery semantics
+
+  - id: CORE19-E-003
+    type: AMOS_MODEL
+    supports:
+      - nineteen-invariant CORE19 interpretation
+
+  - id: CORE19-E-004
+    type: UNKNOWN
+    subject:
+      - historical CORE19 canonical source
+      - source-mapped invariant lineage
+      - executable implementation
+      - executed validation
+```
+
+---
+
+# 92. Current Claim Register
+
+```yaml
+claims:
+
+  - id: CORE19-C-001
+    proposition: >
+      K_CORE19_LOGIC is represented as an AMOS v4.4
+      deterministic-logic kernel contract.
+    class: AMOS_MODEL
+
+  - id: CORE19-C-002
+    proposition: >
+      CORE19 semantic validity does not itself grant
+      commit authority.
+    class: AMOS_MODEL
+
+  - id: CORE19-C-003
+    proposition: >
+      The current artifact defines nineteen core invariants.
+    class: SOURCE_CLAIM
+
+  - id: CORE19-C-004
+    proposition: >
+      The currently supplied artifact does not independently
+      establish that those nineteen invariants constitute a
+      historically verified CORE19 specification.
+    class: DERIVED
+
+  - id: CORE19-C-005
+    proposition: >
+      Historical CORE19 identity and invariant lineage
+      remain unresolved.
+    class: UNKNOWN/GAP
+```
+
+---
+
+# 93. Invalidation Conditions
+
+Reclassify this artifact if stronger native evidence establishes:
+
+```text
+CANONICAL HISTORICAL CORE19 SOURCE
+SOURCE-MAPPED NINETEEN INVARIANTS
+DIFFERENT CORE19 DEFINITION
+DIFFERENT NUMBER OF INVARIANTS
+DIFFERENT ARCHITECTURAL ROLE
+SUPERSEDING CANONICAL VERSION
+EXECUTABLE IMPLEMENTATION
+EXECUTED VALIDATION
+RUNTIME ENFORCEMENT
+```
+
+Invalidate only affected derived/model claims.
+
+Preserve unaffected provenance and lineage.
+
+---
+
+# 94. Anti-Fabrication Boundary
+
+Never transform:
+
+```text
+CORE19 NAME
+→
+HISTORICAL PROOF OF 19 INVARIANTS
+```
+
+or:
+
+```text
+AMOS v4.4 ALIGNMENT
+→
+VERIFIED HISTORICAL CANON
+```
+
+or:
+
+```text
+ARCHITECTURAL PSEUDOCODE
+→
+IMPLEMENTED CODE
+```
+
+or:
+
+```text
+DETERMINISTIC LOGIC
+→
+VERIFIED PREMISES
+```
+
+or:
+
+```text
+SEMANTIC VALIDITY
+→
+AUTHORITY
+```
+
+---
+
+# 95. Anti-Regression Test
+
+Any future revision SHOULD satisfy:
+
+$$
+Integrity(K_{new})
+\geq
+Integrity(K_{old})
+$$
+
+across at least:
+
+```text
+factual support
+dependency correctness
+scope correctness
+regime correctness
+provenance recoverability
+contradiction visibility
+causal discipline
+recovery
+authority separation
+```
+
+If not:
+
+```text
+ROLLBACK
+```
+
+---
+
+# 96. Completion Criteria
+
+`K_CORE19_LOGIC` becomes canonically source-resolved when:
+
+```text
+HISTORICAL IDENTITY RESOLVED
+AND
+SOURCE LINEAGE RESOLVED
+AND
+NINETEEN INVARIANTS SOURCE-MAPPED
+AND
+CANONICAL PRECEDENCE RESOLVED
+```
+
+It becomes implementation-resolved when:
+
+```text
+EXECUTABLE BINDING EXISTS
+AND
+SCHEMA EXISTS
+AND
+STATE SEMANTICS EXIST
+```
+
+It becomes validated when:
+
+```text
+EXECUTED TESTS PASS
+AND
+NEGATIVE CASES PASS
+AND
+VALIDATION RECEIPT EXISTS
+```
+
+These transitions remain independent.
+
+---
+
+# 97. Current Completion Matrix
+
+```text
+┌─────────────────────────────────────────────┬────────────────────────┐
+│ Dimension                                   │ State                  │
+├─────────────────────────────────────────────┼────────────────────────┤
+│ Artifact identity                           │ ESTABLISHED            │
+│ AMOS v4.4 target                            │ ESTABLISHED            │
+│ Kernel placement                            │ ESTABLISHED            │
+│ Deterministic-logic model                   │ AMOS_MODEL             │
+│ 19-invariant model                          │ AMOS_MODEL             │
+│ Historical CORE19 identity                  │ UNKNOWN/GAP            │
+│ Historical canonical source                 │ UNKNOWN/GAP            │
+│ 19-invariant source mapping                 │ UNKNOWN/GAP            │
+│ Canonical precedence                        │ UNKNOWN/GAP            │
+│ Executable binding                          │ NOT_ESTABLISHED        │
+│ Implementation validation                   │ NOT_ESTABLISHED        │
+│ Runtime enforcement                         │ NOT_ESTABLISHED        │
+└─────────────────────────────────────────────┴────────────────────────┘
+```
+
+---
+
+# 98. Machine-Readable Contract
+
+```yaml
+AMOS_CORE19:
+
+  identity:
+    artifact_id: AMOS-OS-K-CORE19-LOGIC
+    canonical_name: K_CORE19_LOGIC
+    system: AMOS_OS
+    core_target: v4.4
+    plane: 02_KERNEL
+    family: FOUNDATION
+    domain: deterministic-logic
+
+  stewardship:
+    origin_architect: Trang_Phan
+    steward: Trang_Phan
+
+  epistemic:
+    artifact_status: AMOS_MODEL
+    conclusion_class: AMOS_MODEL
+    historical_identity: UNKNOWN/GAP
+    canonical_lineage: UNKNOWN/GAP
+
+  role:
+    evaluates_semantic_validity: true
+    grants_authority: false
+    commits_state: false
+    executes_external_effects: false
+    creates_canon: false
+
+  invariants:
+    count: 19
+    status: AMOS_MODEL
+    historical_source_mapping: UNKNOWN/GAP
+
+  integrity:
+    fail_closed: true
+    confidence_ceiling: true
+    local_invalidation: true
+    provenance_aware: true
+    independence_requires_proof: true
+    preserve_competing: true
+    causal_firewall: true
+    scope_firewall: true
+    regime_firewall: true
+    freshness_required: true
+    atomic_joint_validation: true
+    concurrency_revalidation: true
+    authority_firewall: true
+    recovery_localized: true
+    anti_regression: true
+    finality_conditions_required: true
+
+  implementation:
+    status: UNKNOWN/GAP
+
+  validation:
+    status: NOT_ESTABLISHED
+
+  enforcement:
+    status: NOT_ESTABLISHED
+```
+
+---
+
+# 99. RSCF Node
+
+```text
+RSCF-NODE
+
+node_id:
+AMOS-OS-K-CORE19-LOGIC
+
+node_type:
+kernel_logic_contract
+
+domain:
+AMOS_OS_KERNEL
+
+functional_type:
+DeterministicLogicKernel
+
+lifecycle_stage:
+Architecture
+
+claim_class:
+AMOS_MODEL
+
+rscf_state:
+DERIVED
+
+canonical_status:
+CANON_CANDIDATE / LINEAGE_UNVERIFIED
+
+implementation_status:
+UNKNOWN/GAP
+
+validation_status:
+NOT_ESTABLISHED
 
 RSCF-RELATIONS:
-  - INDEXED_BY: KERNEL_MAP
-  - GOVERNED_BY: AMOS_CORE_LAWS
-  - CONSTRAINED_BY: INVARIANT_REGISTRY
-  - CONSTRAINED_BY: LAW_HIERARCHY
-  - HML_GOVERNED_BY: HML_CANON
-  - PROVENANCE_GOVERNED_BY: CANON_PROVENANCE
-  - LINEAGE_TRACKED_BY: SOURCE_LINEAGE
-  - CONFLICTS_TRACKED_BY: CONFLICT_REGISTRY
-  - EVOLUTION_TRACKED_BY: SUPERSESSION_LOG
-  - AUTHORITY_GOVERNED_BY: AUTHORITY_CANON
-  - AUTHORIZED_BY: CONTROL_PLANE_MAP
-  - EXECUTED_BY: RUNTIME_MAP
-  - VERIFIED_BY: README
+
+  - INDEXED_BY: [[KERNEL_MAP]]
+
+  - INDEXED_BY: [[00_HOME]]
+
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+
+  - GOVERNED_BY: [[AMOS_CORE_LAWS]]
+
+  - CONSTRAINED_BY: [[INVARIANT_REGISTRY]]
+
+  - CONSTRAINED_BY: [[LAW_HIERARCHY]]
+
+  - HML_GOVERNED_BY: [[HML_CANON]]
+
+  - PROVENANCE_GOVERNED_BY: [[CANON_PROVENANCE]]
+
+  - LINEAGE_TRACKED_BY: [[SOURCE_LINEAGE]]
+
+  - CONFLICTS_TRACKED_BY: [[CONFLICT_REGISTRY]]
+
+  - EVOLUTION_TRACKED_BY: [[SUPERSESSION_LOG]]
+
+  - AUTHORITY_GOVERNED_BY: [[AUTHORITY_CANON]]
+
+  - AUTHORIZED_BY: [[CONTROL_PLANE_MAP]]
+
+  - EXECUTED_BY: [[RUNTIME_MAP]]
+
+  - STATE_BOUND_TO: [[AUTHORITATIVE_STATE]]
 ```
 
 ---
 
-## Related
+# 100. Canon Integrity Declaration
 
-[[README]] ·
-[[ARCHITECTURE]] ·
-[[SYSTEM_MAP]] ·
-[[PLACEMENT_RULES]] ·
-[[CANON_MAP]] ·
+`K_CORE19_LOGIC` currently establishes a **structured AMOS v4.4 model** of deterministic kernel validity semantics.
+
+Its strongest defensible conclusion is:
+
+```yaml
+artifact: K_CORE19_LOGIC
+artifact_id: AMOS-OS-K-CORE19-LOGIC
+
+status: AMOS_MODEL
+conclusion_class: AMOS_MODEL
+
+core_target: v4.4
+
+deterministic_logic_contract:
+  status: AMOS_MODEL
+
+nineteen_invariants:
+  status: AMOS_MODEL
+  historical_source_mapping: UNKNOWN/GAP
+
+historical_core19_identity:
+  status: UNKNOWN/GAP
+
+canonical_lineage:
+  status: UNKNOWN/GAP
+
+implementation:
+  status: UNKNOWN/GAP
+
+validation:
+  status: NOT_ESTABLISHED
+
+runtime_enforcement:
+  status: NOT_ESTABLISHED
+
+promotion_blockers:
+  - CANONICAL_CORE19_SOURCE
+  - HISTORICAL_IDENTITY
+  - SOURCE_LINEAGE
+  - NINETEEN_INVARIANT_SOURCE_MAPPING
+  - IMPLEMENTATION_EVIDENCE
+  - EXECUTED_VALIDATION_RECEIPT
+```
+
+The controlling boundary is:
+
+$$
+\boxed{
+\text{Coherent AMOS Model}
+\neq
+\text{Historically Verified Canon}
+}
+$$
+
+and:
+
+$$
+\boxed{
+\text{Deterministic Validity}
+\neq
+\text{Authority}
+\neq
+\text{Commit}
+}
+$$
+
+---
+
+00_ROOT_MOC|AMOS MOC
+
+---
+
+**Related:**
+[[00_HOME]] ·
+[[AMOS_RSCF_NODES]] ·
+[[KERNEL_MAP]] ·
 [[AMOS_CORE_LAWS]] ·
 [[INVARIANT_REGISTRY]] ·
 [[LAW_HIERARCHY]] ·
@@ -1671,36 +3162,47 @@ RSCF-RELATIONS:
 [[SOURCE_REGISTRY]] ·
 [[CONFLICT_REGISTRY]] ·
 [[SUPERSESSION_LOG]] ·
-README ·
-[[KERNEL_MAP]] ·
-README ·
-README ·
-README ·
-README ·
-README ·
-README ·
-README ·
-README ·
-README ·
-README ·
-README ·
-README ·
-README ·
 [[CONTROL_PLANE_MAP]] ·
 [[RUNTIME_MAP]] ·
-[[AUTHORITATIVE_STATE]] ·
-[[README]] ·
-[[README]]
+[[AUTHORITATIVE_STATE]]
+
+---
+
+**MOC:** [[01_META_LOGIC_MOC]]
+
+---
+
+## Terminal Classification
+
+**Origin architect / steward:** Trang Phan
 
 ```text
+K_CORE19_LOGIC
+      =
+AMOS v4.4-aligned deterministic-logic model contract
+
+CURRENT CLASS
+      =
+AMOS_MODEL
+
+HISTORICAL CORE19 CANON
+      =
+UNKNOWN/GAP
+
+EXECUTABLE IMPLEMENTATION
+      =
+UNKNOWN/GAP
+
+EXECUTED VALIDATION
+      =
+NOT_ESTABLISHED
 ```
 
----
+**Promotion principle:**
 
-00_ROOT_MOC|AMOS MOC
+> Preserve the nineteen-invariant model, but do not convert its architectural coherence into historical provenance. Bind the native CORE19 source and lineage first; then promote only the claims that the recovered evidence actually supports.
 
----
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+```
 
----
-**MOC:** [[01_META_LOGIC_MOC]]
+**Conclusion class: `AMOS_MODEL`.** The supplied artifact supports the deterministic-logic architecture and its nineteen-invariant formulation as an AMOS model, while explicitly leaving historical CORE19 identity/source mapping, implementation, and executed validation unresolved.
+```

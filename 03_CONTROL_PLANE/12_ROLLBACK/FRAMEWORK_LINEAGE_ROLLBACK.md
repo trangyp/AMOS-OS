@@ -1,6 +1,7 @@
 ---
 title: "Framework Lineage Rollback"
 type: framework
+source: 03_CONTROL_PLANE/12_ROLLBACK
 artifact: "FRAMEWORK_LINEAGE_ROLLBACK.md"
 artifact_id: "amos_03_control_plane_12_rollback_framework_lineage_rollback"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "03_CONTROL_PLANE/12_ROLLBACK"
 artifact_kind: "LINEAGE"
 path: "03_CONTROL_PLANE/12_ROLLBACK/FRAMEWORK_LINEAGE_ROLLBACK.md"
 
-tags: [amos_os, control_plane, governance, 03_control_plane, lineage, canon_placeholder, rscf]
+tags: [amos_os, control_plane, governance, 03_control_plane, lineage, canon_placeholder, rscf, canon/control-plane]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Framework Lineage Rollback

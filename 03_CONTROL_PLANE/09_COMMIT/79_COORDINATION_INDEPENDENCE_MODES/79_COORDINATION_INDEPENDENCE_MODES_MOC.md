@@ -1,8 +1,15 @@
 ---
 title: "79 Coordination Independence Modes MOC"
 type: moc
-tags: [moc, 79-coordination-independence-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/79_COORDINATION_INDEPENDENCE_MODES
+tags: [moc, 79-coordination-independence-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 79 Coordination Independence Modes — Map of Content
 

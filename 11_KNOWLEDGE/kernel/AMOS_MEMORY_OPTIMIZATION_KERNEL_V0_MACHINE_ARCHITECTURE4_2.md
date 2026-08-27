@@ -3,10 +3,14 @@ title: AMOS MEMORY OPTIMIZATION KERNEL V0 MACHINE ARCHITECTURE4 2
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-memory-optimization-kernel-v0, kernel]
 type: data
 source: 11_KNOWLEDGE/kernel
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
+# AMOS MEMORY OPTIMIZATION KERNEL V0 MACHINE ARCHITECTURE4 2
 
 ```json
 {

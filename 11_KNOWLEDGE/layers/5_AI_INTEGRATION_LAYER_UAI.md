@@ -1,11 +1,15 @@
 ---
 title: 5 AI INTEGRATION LAYER UAI
-tags: [layers, layer, architecture]
+tags: [layers, layer, architecture, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/layers
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: layer_architecture
+
 ---
-
-
 
 
 # ============================================================

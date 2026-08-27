@@ -1,8 +1,15 @@
 ---
 title: "13 Recovery Degraded Modes MOC"
 type: moc
-tags: [moc, 13-recovery-degraded-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/13_RECOVERY_DEGRADED_MODES
+tags: [moc, 13-recovery-degraded-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 13 Recovery Degraded Modes — Map of Content
 

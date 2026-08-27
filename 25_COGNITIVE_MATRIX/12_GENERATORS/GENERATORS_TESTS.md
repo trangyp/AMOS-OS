@@ -1,9 +1,14 @@
 ---
 title: GENERATORS TESTS
 type: test
-tags: [cognitive_matrix, generators, note]
+source: 25_COGNITIVE_MATRIX/12_GENERATORS
+tags: [cognitive_matrix, generators, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 ````md id="amos-generators-tests"
@@ -3590,7 +3595,7 @@ TEST_SANDBOX_ONLY_WHERE_AUTHORIZED
 
 ```
 
-This makes `TESTS.md` the executable-assurance specification beside `GENERATOR_CONTRACT.md` and `VALIDATION.md`, without collapsing the distinction between “we know what must be tested” and “the tests exist and pass.” The AMOS Full Brain OS canon specifically requires that missing implementation, authority, provenance, or validation remain explicit rather than being inferred from architectural completeness. :contentReference[oaicite:2]{index=2}
+This makes `TESTS.md` the executable-assurance specification beside `GENERATOR_CONTRACT.md` and `VALIDATION.md`, without collapsing the distinction between “we know what must be tested” and “the tests exist and pass.” The AMOS Full Brain OS canon specifically requires that missing implementation, authority, provenance, or validation remain explicit rather than being inferred from architectural completeness.
 ```
 
 ---
@@ -3612,3 +3617,4 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[12_GENERATORS_MOC]]
+```

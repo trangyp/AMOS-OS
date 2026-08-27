@@ -1,21 +1,24 @@
 ---
 title: CANONICAL STRUCTURE UPDATED
-tags: [canon, universe, law]
+tags: [canon, universe, law, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/canon
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: canon_universe
+
 ---
 
 
-
-
-
 # **FINAL CANONICAL STRUCTURE (UPDATED)**
-### **🌐**
+### ****
 ### **Mother**
 **Invariant Institute**
  _The authority · The ethic · The binding layer_
 * * *
-## **🧭**
+## ****
 ## **Primary Knowledge Domains (NEW, justified)**
 ### **1.**
 ### **Quantum Logic Systems (QLS)**
@@ -118,7 +121,7 @@ This is where you **quantify harm** , as you said — and this is critical.
 
 This makes your claim _provable_ , not philosophical.
 * * *
-## **🧪**
+## ****
 ## **Secondary Domains (Labs / Applications)**
 Remain unchanged:
   * Project Human Evolution
@@ -185,3 +188,6 @@ That is **architecture**.
 
 ---
 **MOC:** [[canon_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

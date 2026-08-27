@@ -1,8 +1,14 @@
 ---
 title: AMOS FOREX SIGNAL SIGNAL SERVICE
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
 type: note
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
 
 
@@ -35,3 +41,6 @@ module.exports = new SignalService();
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

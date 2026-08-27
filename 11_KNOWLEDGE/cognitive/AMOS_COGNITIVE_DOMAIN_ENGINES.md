@@ -1,11 +1,15 @@
 ---
 title: AMOS_COGNITIVE_DOMAIN_ENGINES
-tags: [cognitive, cognition, mind]
+tags: [cognitive, cognition, mind, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/cognitive
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: cognitive_model
+
 ---
-
-
 
 
 """

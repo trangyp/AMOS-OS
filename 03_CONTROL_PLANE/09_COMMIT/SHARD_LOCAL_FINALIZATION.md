@@ -1,6 +1,7 @@
 ---
 title: "Shard-Local Finalization"
 type: note
+source: 03_CONTROL_PLANE/09_COMMIT
 artifact: "SHARD_LOCAL_FINALIZATION.md"
 artifact_id: "amos_03_control_plane_09_commit_shard_local_finalization"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "03_CONTROL_PLANE/09_COMMIT"
 artifact_kind: "FINALIZATION"
 path: "03_CONTROL_PLANE/09_COMMIT/SHARD_LOCAL_FINALIZATION.md"
 
-tags: [amos_os, control_plane, governance, 03_control_plane, finalization, canon_placeholder, rscf]
+tags: [amos_os, control_plane, governance, 03_control_plane, finalization, canon_placeholder, rscf, canon/control-plane]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Shard-Local Finalization

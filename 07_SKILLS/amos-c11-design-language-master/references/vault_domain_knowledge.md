@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-c11-design-language-master]
+source: 07_SKILLS/amos-c11-design-language-master/references
+tags: [reference, amos-c11-design-language-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # amos-c11-design-language-master — Vault-Sourced Domain Knowledge
 
@@ -373,8 +380,6 @@ Inputs handled: conversational language; strong emotional expression; narrative/
 s
 
 
-
-
 ## Vault-Sourced Domain Content
 
 > Source: `11_KNOWLEDGE/AMOS_C11_DESIGN_LANGUAGE_MASTER_KNOWLEDGE.md` (25555 bytes in vault)
@@ -620,3 +625,8 @@ Reviewer objections address
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]
+```

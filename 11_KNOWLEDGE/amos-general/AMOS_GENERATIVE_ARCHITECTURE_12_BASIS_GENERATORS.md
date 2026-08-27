@@ -4,9 +4,15 @@ created: "2026-08-23"
 origin_architect: QUANTUM OMEGA INTELLIGENCE AGENT
 provenance: user-provided expansion + self-analysis from 7-part canon + AMOS Quantum Library v0.6.0 integration
 type: architecture
+source: 11_KNOWLEDGE/amos-general
 status: "validated"
 confidence: "STRUCTURAL"
-tags: [canon-group/tech-ai, architecture, generative, 12-generators, minimal-basis, expansion-rules, loop-stack, tensor-field, periodic-table, zero-gap, amos-general]
+tags: [canon-group/tech-ai, architecture, generative, 12-generators, minimal-basis, expansion-rules, loop-stack, tensor-field, periodic-table, zero-gap, amos-general, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
 
 
@@ -342,3 +348,6 @@ No gaps.
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

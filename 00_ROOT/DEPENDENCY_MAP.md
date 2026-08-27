@@ -1,6 +1,7 @@
 ---
 title: DEPENDENCY MAP
 type: dependency
+source: 00_ROOT
 artifact_id: AMOS-OS-DEPENDENCY-MAP
 canonical_name: DEPENDENCY_MAP
 artifact_type: dependency_topology_contract
@@ -25,8 +26,6 @@ aliases: "- AMOS OS Dependency Map
   - Dependency Map
   - AMOS Dependency Topology
   - DEPENDENCY_MAP..."---
-
-
 
 
 # AMOS OS Dependency Map
@@ -60,8 +59,13 @@ invalidate only dependent descendants(p)
 ```
 
 unless evidence establishes that the failure compromises a wider shared invariant.
-
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
+
 
 # 1. Dependency Is a Typed Relation
 

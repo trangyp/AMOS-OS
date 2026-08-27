@@ -1,15 +1,20 @@
 ---
 title: AMOS CONSULTING BIZFIN ENGINE VINFINITY
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-consulting-bizfin-engine-vinfinity
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-consulting-bizfin-engine-vinfinity, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
+# AMOS CONSULTING BIZFIN ENGINE VINFINITY
 
 ```json
 {
@@ -30748,3 +30753,6 @@ created: 2026-08-22
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

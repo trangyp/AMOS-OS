@@ -1,7 +1,13 @@
 ---
 title: L09 INFERENCE PRIMITIVES COGNITIVE MATRIX PROVENANCE
 type: note
-tags: [note, l09-inference]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE
+tags: [note, l09-inference, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -47,3 +53,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L
 
 ---
 **MOC:** [[L09_INFERENCE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

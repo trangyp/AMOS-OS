@@ -1,11 +1,16 @@
 ---
 title: 2026 08 25 QFM PASS6 CLOSURE
 type: note
-tags: [daily/integrity-pass, topic/qfm-consolidation-pass6, dated, dated/2026-08-25]
+source: 11_KNOWLEDGE/dated
+tags: [daily/integrity-pass, topic/qfm-consolidation-pass6, dated, dated/2026-08-25, canon/knowledge]
 created: 2026-08-25
 conclusion_class: AMOS MODEL / DERIVED
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
-
 
 
 # 2026-08-25 Pass 6 — Final Empty-Skill Closure + 5th Runnable Engine

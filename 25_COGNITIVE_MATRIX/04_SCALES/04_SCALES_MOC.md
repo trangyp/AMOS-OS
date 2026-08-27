@@ -1,8 +1,15 @@
 ---
 title: "04 Scales MOC"
 type: moc
-tags: [moc, 04-scales]
+source: 25_COGNITIVE_MATRIX/04_SCALES
+tags: [moc, 04-scales, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 04 Scales — Map of Content
 

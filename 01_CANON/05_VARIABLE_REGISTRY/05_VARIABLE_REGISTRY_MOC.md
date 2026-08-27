@@ -1,8 +1,15 @@
 ---
 title: "05 Variable Registry MOC"
 type: moc
-tags: [moc, 05-variable-registry]
+source: 01_CANON/05_VARIABLE_REGISTRY
+tags: [moc, 05-variable-registry, canon/universe]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 05 Variable Registry — Map of Content
 

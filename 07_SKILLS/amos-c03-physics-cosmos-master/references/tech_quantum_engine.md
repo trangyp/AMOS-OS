@@ -1,8 +1,15 @@
 ---
 title: tech quantum engine
 type: reference
-tags: [reference, amos-c03-physics-cosmos-master]
+source: 07_SKILLS/amos-c03-physics-cosmos-master/references
+tags: [reference, amos-c03-physics-cosmos-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Tech Quantum Engine vInfinity
 
@@ -85,3 +92,7 @@ tags: [amos, tech, quantum, engine, v-infinity, augmentation, live-data, empiric
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

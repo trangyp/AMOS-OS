@@ -1,8 +1,15 @@
 ---
 title: memory optimization for kv cache
 type: reference
-tags: [reference, arxiv-kv-cache-quantization-rscf]
+source: 07_SKILLS/arxiv-kv-cache-quantization-rscf/references
+tags: [reference, arxiv-kv-cache-quantization-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Memory Optimization Kernel for KV Cache
 

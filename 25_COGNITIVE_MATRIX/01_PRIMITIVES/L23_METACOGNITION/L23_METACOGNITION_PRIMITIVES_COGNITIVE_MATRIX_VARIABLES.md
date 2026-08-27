@@ -1,7 +1,13 @@
 ---
 title: L23 METACOGNITION PRIMITIVES COGNITIVE MATRIX VARIABLES
 type: note
-tags: [note, l23-metacognition]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION
+tags: [note, l23-metacognition, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -50,3 +56,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L
 
 ---
 **MOC:** [[L23_METACOGNITION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

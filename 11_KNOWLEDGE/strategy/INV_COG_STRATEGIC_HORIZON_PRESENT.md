@@ -1,13 +1,16 @@
 ---
 title: INV COG STRATEGIC HORIZON PRESENT
-tags: [strategy, game, planning]
+tags: [strategy, game, planning, canon/knowledge]
 type: data
 source: 11_KNOWLEDGE/strategy
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: strategy_game
+
 ---
-
-
-
-
+# INV COG STRATEGIC HORIZON PRESENT
 
 ```json
 {

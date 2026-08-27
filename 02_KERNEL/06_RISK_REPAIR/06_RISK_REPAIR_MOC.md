@@ -1,8 +1,15 @@
 ---
 title: "06 Risk Repair MOC"
 type: moc
-tags: [moc, 06-risk-repair]
+source: 02_KERNEL/06_RISK_REPAIR
+tags: [moc, 06-risk-repair, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 06 Risk Repair — Map of Content
 

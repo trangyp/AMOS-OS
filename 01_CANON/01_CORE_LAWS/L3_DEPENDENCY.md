@@ -1,14 +1,4 @@
 ---
-title: L3 DEPENDENCY
-type: note
-tags: [note, 01-core-laws]
----
-
-
-Below is the **full substantive replacement** for `01_CANON/01_CORE_LAWS/L3_DEPENDENCY.md`. It follows the same standard as the completed L2 file, while keeping dependency-graph equations and generalized runtime rules explicitly `AMOS_MODEL` unless directly recovered from canon. The AMOS OS kernel explicitly requires dependency closure before execution, selective invalidation of dependent descendants, and confidence bounded by load-bearing premises.
-
-````markdown
----
 title: "AMOS Core Laws — L3 Dependency Laws"
 artifact: "L3_DEPENDENCY.md"
 artifact_id: "AMOS_CORE_LAWS_L3_DEPENDENCY"
@@ -20,8 +10,7 @@ domain: "01_CORE_LAWS"
 law_family: "L3_DEPENDENCY"
 path: "01_CANON/01_CORE_LAWS/L3_DEPENDENCY.md"
 
-tags:
-  - canon
+tags: [- canon, canon/universe]
   - core_laws
   - dependency
   - dependency_graph
@@ -42,7 +31,15 @@ epistemic_class: "AMOS_MODEL"
 canonical_status: "PARTIAL_SOURCE_ALIGNMENT"
 implementation_status: "NOT_ESTABLISHED"
 validation_status: "PARTIAL_SOURCE_SUPPORT"
+type: document
+source: 01_CANON/01_CORE_LAWS
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L3 Dependency Laws
 

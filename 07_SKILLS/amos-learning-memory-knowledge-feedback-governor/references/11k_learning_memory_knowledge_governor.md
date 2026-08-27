@@ -1,8 +1,15 @@
 ---
 title: 11k learning memory knowledge governor
 type: reference
-tags: [reference, amos-learning-memory-knowledge-feedback-governor]
+source: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor/references
+tags: [reference, amos-learning-memory-knowledge-feedback-governor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # 11K Learning Memory Knowledge Feedback Governor
 
@@ -97,3 +104,7 @@ The loop has 4 transition types:
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

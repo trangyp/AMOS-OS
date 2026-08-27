@@ -1,8 +1,15 @@
 ---
 title: "09 Finance MOC"
 type: moc
-tags: [moc, 09-finance]
+source: 21_DOMAINS/09_FINANCE
+tags: [moc, 09-finance, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 09 Finance — Map of Content
 

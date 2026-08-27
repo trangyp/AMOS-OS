@@ -1,8 +1,15 @@
 ---
 title: "Amos-Causal-Abstraction-Validity-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-causal-abstraction-validity-rscf-en]
+source: 07_SKILLS/amos-causal-abstraction-validity-rscf-engine
+tags: [moc, amos-causal-abstraction-validity-rscf-en, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Causal-Abstraction-Validity-Rscf-Engine — Map of Content
 

@@ -1,12 +1,17 @@
 ---
 title: ACCESS CONTROL PRIV ESC HORIZONTAL ACCESS
-tags: [control, governance, policy]
+tags: [control, governance, policy, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/control
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: control_plane
+
 ---
 
-
-
+# ACCESS CONTROL PRIV ESC HORIZONTAL ACCESS
 
 ## Horizontal Access
 Overview

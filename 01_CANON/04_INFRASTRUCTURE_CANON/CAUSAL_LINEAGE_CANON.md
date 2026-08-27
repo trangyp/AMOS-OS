@@ -1,6 +1,7 @@
 ---
 title: "Causal Lineage Canon"
 type: canon
+source: 01_CANON/04_INFRASTRUCTURE_CANON
 artifact: "CAUSAL_LINEAGE_CANON.md"
 artifact_id: "amos_01_canon_04_infrastructure_canon_causal_lineage_canon"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "01_CANON/04_INFRASTRUCTURE_CANON"
 artifact_kind: "LINEAGE"
 path: "01_CANON/04_INFRASTRUCTURE_CANON/CAUSAL_LINEAGE_CANON.md"
 
-tags: [amos_os, canon, universe, 01_canon, lineage, canon_placeholder, rscf]
+tags: [amos_os, canon, universe, 01_canon, lineage, canon_placeholder, rscf, canon/universe]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Causal Lineage Canon

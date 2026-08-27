@@ -1,20 +1,23 @@
 ---
 title: UNI POWER AI TOOLKIT AND PROMPT LIBRARY 2025
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **UNI POWER – AI TOOLKIT & PROMPT LIBRARY (2025)**
 **Phân nhóm theo loại công việc**
  _(Chuẩn hóa cho môi trường doanh nghiệp năng lượng & vận tải thông minh)_
 * * *
-## **🔹 1️⃣ LÃNH ĐẠO & BOD (Executive Decision & Strategy)**
-### **🔧 Công cụ AI**
+## **1️⃣ LÃNH ĐẠO & BOD (Executive Decision & Strategy)**
+### **Công cụ AI**
   * **ChatGPT Enterprise / Claude 3.5 / Gemini Advanced:** tóm tắt, dự báo, chiến lược
 
 
@@ -27,7 +30,7 @@ source: 11_KNOWLEDGE/misc
   * **Power BI + Copilot:** dashboard tự động, phân tích KPI
 
 
-### **💼 Nhiệm vụ**
+### **Nhiệm vụ**
   * Tạo báo cáo tuần/tháng cho BOD
 
 
@@ -40,7 +43,7 @@ source: 11_KNOWLEDGE/misc
   * Tạo 3 kịch bản chiến lược (base / optimistic / stress)
 
 
-### **💬 Prompts mẫu**
+### **Prompts mẫu**
   1. “Tạo **bản tóm tắt điều hành** 1 trang: gồm 5 chỉ số chính, 3 rủi ro, và 3 đề xuất hành động.”
 
 
@@ -54,8 +57,8 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## **🔹 2️⃣ TÀI CHÍNH & ĐẦU TƯ (Finance & UniFinance)**
-### **🔧 Công cụ AI**
+## **2️⃣ TÀI CHÍNH & ĐẦU TƯ (Finance & UniFinance)**
+### **Công cụ AI**
   * **ChatGPT + Excel Copilot** : phân tích chi phí & lợi nhuận
 
 
@@ -68,7 +71,7 @@ source: 11_KNOWLEDGE/misc
   * **Revolut AI Finance / Ramp AI:** dự báo chi tiêu, phát hiện bất thường
 
 
-### **💼 Nhiệm vụ**
+### **Nhiệm vụ**
   * Dự báo dòng tiền 12 tuần
 
 
@@ -81,7 +84,7 @@ source: 11_KNOWLEDGE/misc
   * Phát hiện giao dịch ví năng lượng bất thường
 
 
-### **💬 Prompts mẫu**
+### **Prompts mẫu**
   1. “Phân tích dữ liệu chi phí vận hành và gợi ý **3 cách giảm 10% chi phí điện năng**.”
 
 
@@ -95,8 +98,8 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## **🔹 3️⃣ VẬN HÀNH TRẠM SẠC & NĂNG LƯỢNG (UniCharge / Energy Ops)**
-### **🔧 Công cụ AI**
+## **3️⃣ VẬN HÀNH TRẠM SẠC & NĂNG LƯỢNG (UniCharge / Energy Ops)**
+### **Công cụ AI**
   * **Power BI + IoT Data Connector** : giám sát uptime
 
 
@@ -109,7 +112,7 @@ source: 11_KNOWLEDGE/misc
   * **Zapier / Make + OCPP API:** tự động báo lỗi & tạo ticket
 
 
-### **💼 Nhiệm vụ**
+### **Nhiệm vụ**
   * Giám sát trạm sạc theo thời gian thực
 
 
@@ -122,7 +125,7 @@ source: 11_KNOWLEDGE/misc
   * Tạo lịch bảo trì định kỳ tự động
 
 
-### **💬 Prompts mẫu**
+### **Prompts mẫu**
   1. “Từ dữ liệu OCPP tuần này, tạo **báo cáo Uptime** từng trạm & highlight 3 trạm dưới 97%.”
 
 
@@ -136,8 +139,8 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## **🔹 4️⃣ ĐỘI XE & TÀI XẾ (Fleet Management / Driver Ops)**
-### **🔧 Công cụ AI**
+## **4️⃣ ĐỘI XE & TÀI XẾ (Fleet Management / Driver Ops)**
+### **Công cụ AI**
   * **ChatGPT Vision + Map API:** phân tích hành trình, quãng đường
 
 
@@ -150,7 +153,7 @@ source: 11_KNOWLEDGE/misc
   * **ChatGPT Custom GPT (Driver Coach):** huấn luyện & phản hồi cá nhân
 
 
-### **💼 Nhiệm vụ**
+### **Nhiệm vụ**
   * Theo dõi hiệu suất tài xế (utilization, an toàn)
 
 
@@ -163,7 +166,7 @@ source: 11_KNOWLEDGE/misc
   * Tạo “coaching note” cho từng đội trưởng
 
 
-### **💬 Prompts mẫu**
+### **Prompts mẫu**
   1. “Phân tích dữ liệu hành trình 7 ngày, liệt kê **10 tài xế có hiệu suất cao nhất & thấp nhất**.”
 
 
@@ -177,8 +180,8 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## **🔹 5️⃣ TUYỂN DỤNG & ĐÀO TẠO (HR & Recruitment AI)**
-### **🔧 Công cụ AI**
+## **5️⃣ TUYỂN DỤNG & ĐÀO TẠO (HR & Recruitment AI)**
+### **Công cụ AI**
   * **HireVue / ChatGPT Interview Bot:** phỏng vấn tự động
 
 
@@ -191,7 +194,7 @@ source: 11_KNOWLEDGE/misc
   * **ChatGPT Fine-tuned:** phản hồi & xếp hạng ứng viên
 
 
-### **💼 Nhiệm vụ**
+### **Nhiệm vụ**
   * Sàng lọc hồ sơ tài xế tự động (CCCD, GPLX, LLTP)
 
 
@@ -204,7 +207,7 @@ source: 11_KNOWLEDGE/misc
   * Phân tích pipeline tuyển dụng
 
 
-### **💬 Prompts mẫu**
+### **Prompts mẫu**
   1. “Tạo **10 câu hỏi phỏng vấn tài xế EV** về an toàn, dịch vụ, tình huống.”
 
 
@@ -218,8 +221,8 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## **🔹 6️⃣ MARKETING & TRUYỀN THÔNG (Marketing / Brand)**
-### **🔧 Công cụ AI**
+## **6️⃣ MARKETING & TRUYỀN THÔNG (Marketing / Brand)**
+### **Công cụ AI**
   * **ChatGPT / Jasper / Notion AI:** viết bài, thông điệp
 
 
@@ -232,7 +235,7 @@ source: 11_KNOWLEDGE/misc
   * **Synthesia / HeyGen:** tạo video AI có giọng nói tiếng Việt
 
 
-### **💼 Nhiệm vụ**
+### **Nhiệm vụ**
   * Viết nội dung mạng xã hội / bài PR
 
 
@@ -245,7 +248,7 @@ source: 11_KNOWLEDGE/misc
   * Tạo chiến dịch email tự động
 
 
-### **💬 Prompts mẫu**
+### **Prompts mẫu**
   1. “Viết **bài đăng LinkedIn 200 chữ** về mô hình EaaS của UniPower, giọng chuyên nghiệp.”
 
 
@@ -259,8 +262,8 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## **🔹 7️⃣ KHÁCH HÀNG & HỖ TRỢ (Customer Support / Partner Ops)**
-### **🔧 Công cụ AI**
+## **7️⃣ KHÁCH HÀNG & HỖ TRỢ (Customer Support / Partner Ops)**
+### **Công cụ AI**
   * **Zendesk AI / ChatGPT API:** chatbot & ticket phân loại
 
 
@@ -273,7 +276,7 @@ source: 11_KNOWLEDGE/misc
   * **Speech-to-Text (Whisper)** : tóm tắt cuộc gọi CSKH
 
 
-### **💼 Nhiệm vụ**
+### **Nhiệm vụ**
   * Tự động trả lời câu hỏi thường gặp
 
 
@@ -286,7 +289,7 @@ source: 11_KNOWLEDGE/misc
   * Tổng hợp top lỗi khách hàng
 
 
-### **💬 Prompts mẫu**
+### **Prompts mẫu**
   1. “Tạo **macro trả lời** cho lỗi sạc không kết nối, hướng dẫn 4 bước đơn giản.”
 
 
@@ -300,8 +303,8 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## **🔹 8️⃣ PHÁP CHẾ & ESG (Legal / Compliance / Sustainability)**
-### **🔧 Công cụ AI**
+## **8️⃣ PHÁP CHẾ & ESG (Legal / Compliance / Sustainability)**
+### **Công cụ AI**
   * **Harvey AI / ChatGPT Legal Mode:** soạn hợp đồng & tóm điều khoản
 
 
@@ -314,7 +317,7 @@ source: 11_KNOWLEDGE/misc
   * **Google Sheets Copilot:** tính toán CO₂ tránh được
 
 
-### **💼 Nhiệm vụ**
+### **Nhiệm vụ**
   * Soạn & rà hợp đồng BCC, MOU, NDA
 
 
@@ -327,7 +330,7 @@ source: 11_KNOWLEDGE/misc
   * Đánh giá rủi ro pháp lý của trạm / hợp tác
 
 
-### **💬 Prompts mẫu**
+### **Prompts mẫu**
   1. “Soạn **hợp đồng BCC 5 năm** giữa UniPower & đối tác trạm sạc, chia sẻ doanh thu 70/30.”
 
 
@@ -341,8 +344,8 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## **🔹 9️⃣ DỮ LIỆU & PHÂN TÍCH (Data / BI / Product)**
-### **🔧 Công cụ AI**
+## **9️⃣ DỮ LIỆU & PHÂN TÍCH (Data / BI / Product)**
+### **Công cụ AI**
   * **ChatGPT Code Interpreter / Python Sandbox:** xử lý CSV, biểu đồ
 
 
@@ -355,7 +358,7 @@ source: 11_KNOWLEDGE/misc
   * **ChatGPT Vision:** đọc & diễn giải dashboard
 
 
-### **💼 Nhiệm vụ**
+### **Nhiệm vụ**
   * Phân tích dữ liệu đội xe, trạm, tài xế
 
 
@@ -368,7 +371,7 @@ source: 11_KNOWLEDGE/misc
   * Tạo biểu đồ tự động cho báo cáo
 
 
-### **💬 Prompts mẫu**
+### **Prompts mẫu**
   1. “Phân tích file CSV này, tạo **3 biểu đồ** thể hiện doanh thu theo khu vực & thời gian.”
 
 
@@ -382,8 +385,8 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## **🔹 🔟 NHÂN SỰ & VĂN HÓA NỘI BỘ (People & Culture)**
-### **🔧 Công cụ AI**
+## **🔟 NHÂN SỰ & VĂN HÓA NỘI BỘ (People & Culture)**
+### **Công cụ AI**
   * **ChatGPT / Notion AI:** viết thông báo & chính sách
 
 
@@ -396,7 +399,7 @@ source: 11_KNOWLEDGE/misc
   * **ChatGPT HR GPT:** tạo JD & đánh giá năng lực
 
 
-### **💼 Nhiệm vụ**
+### **Nhiệm vụ**
   * Viết JD / đăng tin tuyển dụng
 
 
@@ -409,7 +412,7 @@ source: 11_KNOWLEDGE/misc
   * Huấn luyện phản chiếu (reflective coaching)
 
 
-### **💬 Prompts mẫu**
+### **Prompts mẫu**
   1. “Viết **JD Đội trưởng khu vực TP.HCM** , 200 từ, giọng chuyên nghiệp.”
 
 
@@ -423,8 +426,8 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## **🔹 11️⃣ SÁNG TẠO & PHÁT TRIỂN SẢN PHẨM (Innovation / R&D)**
-### **🔧 Công cụ AI**
+## **11️⃣ SÁNG TẠO & PHÁT TRIỂN SẢN PHẨM (Innovation / R&D)**
+### **Công cụ AI**
   * **ChatGPT / Ideaflow / Miro AI:** brainstorming ý tưởng
 
 
@@ -437,7 +440,7 @@ source: 11_KNOWLEDGE/misc
   * **Claude 3.5 / Cursor AI:** sinh mã code nhanh
 
 
-### **💼 Nhiệm vụ**
+### **Nhiệm vụ**
   * Brainstorm mô hình sản phẩm mới (ví, app, dashboard)
 
 
@@ -450,7 +453,7 @@ source: 11_KNOWLEDGE/misc
   * Viết tài liệu kỹ thuật (API docs, SOP)
 
 
-### **💬 Prompts mẫu**
+### **Prompts mẫu**
   1. “Brainstorm **3 tính năng mới** cho UniPower Wallet – tập trung vào loyalty & carbon point.”
 
 
@@ -464,7 +467,7 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-# **🧱 TỔNG HỢP CÔNG CỤ & CHỨC NĂNG CHÍNH**
+# **TỔNG HỢP CÔNG CỤ & CHỨC NĂNG CHÍNH**
 |                       |
 | **Nhóm**              | **Công cụ AI tiêu chuẩn**               | **Ứng dụng chính**                   |
 |-----------------------|-----------------------------------------|--------------------------------------|
@@ -482,7 +485,7 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## **🧩 Kết luận**
+## **Kết luận**
   * Danh mục này bao phủ **tất cả nghiệp vụ chính của UniPower** , từ **chiến lược – tài chính – năng lượng – nhân sự – marketing – công nghệ.**
 
 

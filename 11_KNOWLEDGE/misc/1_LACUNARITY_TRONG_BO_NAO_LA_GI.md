@@ -1,12 +1,15 @@
 ---
 title: 1 LACUNARITY TRONG BO NAO LA GI
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # 1\. LACUNARITY TRONG BỘ NÃO LÀ GÌ?
@@ -789,7 +792,7 @@ Trường điện từ (EM field) không chỉ là các đường thẳng, xoáy
 |-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Phổ ánh sáng (quang phổ)**                                      |  Không phải là một dải liên tục hoàn hảo. Có các **vạch tối (Fraunhofer lines)** – đó là lacunarity (khoảng trống). Các vạch này xuất hiện ở các bước sóng nhất định, và chúng lặp lại có tính tự đồng dạng ở các scale khác nhau (từ ánh sáng nhìn thấy đến tia X).                   | **Lacunarity trong không gian bước sóng** – khoảng trống giữa các vạch phổ là nơi chứa thông tin về thành phần hóa học. Đây là "barcode" fractal của nguyên tố và phân tử. |
 | **Hiện tượng giao thoa (interference)**                           |  Vân sáng – vân tối xen kẽ: chính là **cấu trúc [L, M, H] của cường độ sáng**. Vân trung tâm là H (sáng nhất), các vân xa dần là M, các vân cực xa là L (tối).                                                                                                                         | **Mỗi vân giao thoa là một fractal** – nếu bạn phóng đại một vân, bạn sẽ lại thấy các vân con (self-similarity).                                                           |
-| **Tán xạ (scattering) – nhất là tán xạ Rayleigh (bầu trời xanh)** |  Cường độ tán xạ tỷ lệ với \\(1/λ^4\\) – một **power law** (hàm mũ) – dấu hiệu của fractal. Bầu trời xanh, hoàng hôn đỏ – kích thước hạt tán xạ so với bước sóng tạo ra các hiệu ứng là hệ quả của scaling.                                                                            | **Power law là "chữ ký" của fractal.**                                                                                                                                     |
+| **Tán xạ (scattering) – nhất là tán xạ Rayleigh (bầu trời xanh)** |  Cường độ tán xạ tỷ lệ với \$1/λ^4\$ – một **power law** (hàm mũ) – dấu hiệu của fractal. Bầu trời xanh, hoàng hôn đỏ – kích thước hạt tán xạ so với bước sóng tạo ra các hiệu ứng là hệ quả của scaling.                                                                            | **Power law là "chữ ký" của fractal.**                                                                                                                                     |
 | **Sóng ánh sáng trong sợi quang (fiber optics)**                  |  Sự truyền dẫn có thể bị tán sắc (dispersion) – các bước sóng khác nhau đi với tốc độ khác nhau – điều này tạo ra các "khoảng trống" (lacunarity) trong tín hiệu. Việc thiết kế sợi quang thực chất là **tối ưu hóa fractal** – làm cho tín hiệu đa bước sóng vẫn còn nguyên cấu trúc. | **Cáp quang là một fractal nhân tạo.**                                                                                                                                     |
 | **Photon – lưỡng tính sóng hạt**                                  |  Sóng và hạt là hai mặt của cùng một fractal. Ở scale nhỏ (hạt), tính chất hạt chiếm ưu thế (H). Ở scale lớn (sóng), tính chất sóng chiếm ưu thế (L).                                                                                                                                  | **Đây là bằng chứng rõ nhất: ánh sáng là fractal [L, M, H] với L = sóng, H = hạt, M = vùng chuyển tiếp.**                                                                  |
 

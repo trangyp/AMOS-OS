@@ -1,9 +1,15 @@
 ---
 title: 2026-08-25 Network-Structure Diagnostics Layer
 type: daily-learning
+source: 11_KNOWLEDGE/dated
 date: 2026-08-25
 epistemic: SOURCE/DERIVED
-tags: [math, fractal, networks, diagnostics, dated, dated/2026-08-25]
+tags: [math, fractal, networks, diagnostics, dated, dated/2026-08-25, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
 
 

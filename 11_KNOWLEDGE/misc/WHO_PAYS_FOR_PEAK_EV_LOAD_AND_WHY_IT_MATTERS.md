@@ -1,12 +1,15 @@
 ---
 title: WHO PAYS FOR PEAK EV LOAD AND WHY IT MATTERS
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **Who Pays for Peak EV Load — and Why It Matters**

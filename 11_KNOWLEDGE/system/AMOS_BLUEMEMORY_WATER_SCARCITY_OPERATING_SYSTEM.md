@@ -1,12 +1,15 @@
 ---
 title: AMOS BLUEMEMORY WATER SCARCITY OPERATING SYSTEM
-tags: [system, architecture, design]
+tags: [system, architecture, design, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/system
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
+
 ---
-
-
-
 
 
 # AMOS BlueMemory: Water Scarcity Operating System

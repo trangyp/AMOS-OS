@@ -1,8 +1,15 @@
 ---
 title: amos qfm paper agents index
 type: index
-tags: [index, vault]
+source: 06_AGENTS
+tags: [index, vault, canon/agent]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # AMOS Q/F/M Paper Agents Index
 

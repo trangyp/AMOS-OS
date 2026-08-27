@@ -1,8 +1,15 @@
 ---
 title: fractal math core
 type: reference
-tags: [reference, amos-fractal-systems-master]
+source: 07_SKILLS/amos-fractal-systems-master/references
+tags: [reference, amos-fractal-systems-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Fractal Mathematics & Cognitive Architecture Runtime
 
@@ -119,3 +126,7 @@ When mathematical quantities are mapped onto cognitive architecture, architectur
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

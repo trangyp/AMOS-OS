@@ -1,11 +1,15 @@
 ---
 title: AMOS CORE V4 4 COORDINATION AVOIDANCE RUNTIME
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
 
 
 """
@@ -2938,7 +2942,6 @@ def authorize_action_from_resolution(
 AMOS_VERSION = "3.6.0-competing-hypothesis-field"
 
 
-
 # ============================================================
 # 7. EVIDENCE PROVENANCE TOPOLOGY (v3.7)
 # ============================================================
@@ -3515,8 +3518,6 @@ BatchEvidenceProvenanceGraph = EvidenceProvenanceGraph
 EvidenceProvenanceGraph = PersistentEvidenceProvenanceGraph
 
 
-
-
 # ============================================================
 # 20. v4.0 MVCC + CAUSAL CAS CONCURRENCY LAYER
 # ============================================================
@@ -3784,7 +3785,6 @@ class MVCCPersistentEvidenceProvenanceGraph:
 ConcurrentEvidenceProvenanceGraph = MVCCPersistentEvidenceProvenanceGraph
 
 
-
 def _mvcc_add_node(self, node: EvidenceNode) -> int:
     """Atomically add a previously absent node and publish it as one MVCC generation."""
     with self._lock:
@@ -4044,7 +4044,6 @@ MVCCPersistentEvidenceProvenanceGraph.make_transaction = _tx_make
 MVCCPersistentEvidenceProvenanceGraph.submit_transaction = _tx_stage
 MVCCPersistentEvidenceProvenanceGraph.reconcile_transactions = _tx_reconcile
 TransactionalEvidenceProvenanceGraph = MVCCPersistentEvidenceProvenanceGraph
-
 
 
 # ============================================================
@@ -4505,7 +4504,6 @@ def verbose_epoch_transaction_json(tx: DistributedTransaction) -> bytes:
 AMOS_VERSION_V42 = "4.2-causal-epoch-finality"
 
 
-
 # ============================================================
 # v4.3 HARDENED ADAPTIVE EPOCH + SHARD-LOCAL FINALITY EXTENSION
 # ============================================================
@@ -4755,7 +4753,6 @@ def verbose_epoch_bundle_json(txs) -> bytes:
     return b"[" + b",".join(verbose_epoch_transaction_json(t) for t in txs) + b"]"
 
 AMOS_VERSION_V43 = "4.3-hardened-adaptive-epoch"
-
 
 
 # ============================================================

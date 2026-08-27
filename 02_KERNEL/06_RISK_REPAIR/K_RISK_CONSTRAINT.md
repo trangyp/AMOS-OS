@@ -1,6 +1,7 @@
 ---
 title: K RISK CONSTRAINT
 type: risk
+source: 02_KERNEL/06_RISK_REPAIR
 artifact_id: AMOS-OS-K-RISK-CONSTRAINT
 canonical_name: K_RISK_CONSTRAINT
 artifact_type: kernel_risk_constraint_contract
@@ -14,10 +15,13 @@ kernel_family: GOVERNED_DECISION
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags: [amos-os, kernel, core, kernel/risk, kernel/constraint, kernel/governance, kernel/invariants, kernel/uncertainty, kernel/repair, kernel/causal, kernel/provenance, topic/risk-envelope, topic/irreversibility, topic/action-governance]
+tags: [amos-os, kernel, core, kernel/risk, kernel/constraint, kernel/governance, kernel/invariants, kernel/uncertainty, kernel/repair, kernel/causal, kernel/provenance, topic/risk-envelope, topic/irreversibility, topic/action-governance, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
-
 
 
 # K RISK CONSTRAINT

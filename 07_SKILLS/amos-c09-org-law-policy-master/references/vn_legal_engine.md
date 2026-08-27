@@ -1,8 +1,15 @@
 ---
 title: vn legal engine
 type: reference
-tags: [reference, amos-c09-org-law-policy-master]
+source: 07_SKILLS/amos-c09-org-law-policy-master/references
+tags: [reference, amos-c09-org-law-policy-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS VN Legal Engine vInfinity
 
@@ -72,3 +79,7 @@ tags: [amos, kernel, legal, vietnam, vInfinity, governance-risk, 25-axes, 24-dim
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

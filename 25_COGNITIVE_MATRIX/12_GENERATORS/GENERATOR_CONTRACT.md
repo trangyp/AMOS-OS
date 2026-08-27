@@ -1,30 +1,15 @@
 ---
 title: GENERATOR CONTRACT
 type: generator
-tags: [cognitive_matrix, generators, contract]
+source: 25_COGNITIVE_MATRIX/12_GENERATORS
+tags: [cognitive_matrix, generators, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-
-
-I found the actual `12_GENERATORS` canonical folder in your Drive, but it currently contains only `build_amos_cognitive_cells.py`; there is no authoritative `12 Generators Contract` artifact there to recover. 
-
-So below is a **full substantive replacement**, explicitly marked **CANDIDATE_CANON** rather than pretending it was recovered canon.
-
-````markdown
-# 12 Generators Contract
-
-**Canonical Artifact:** `12_GENERATORS/CONTRACT.md`  
-**System:** AMOS OS  
-**Architecture:** AMOS Fractal Knowledge Network  
-**Lineage Compatibility:** AMOS_CORE v3.0 → v4.4  
-**Origin Architect / Steward:** Trang Phan  
-**Artifact Type:** Generator Governance Contract  
-**Status:** CANDIDATE_CANON — SUBSTANTIVE SPECIFICATION  
-**Implementation Status:** NOT ESTABLISHED BY THIS DOCUMENT  
-**Empirical Validation Status:** NOT ESTABLISHED BY THIS DOCUMENT  
-**Supersession Authority:** AMOS canon/provenance/governance process only
-
----
 
 ## 0. CONTRACT DECLARATION
 
@@ -34,53 +19,29 @@ The subsystem exists to generate candidate cognitive structures, hypotheses, mod
 
 The central invariant is:
 
-\[
-\boxed{
-Generation\ expands\ candidate\ space,\ not\ evidence\ space.
-}
-\]
+$$\boxed{ Generation\ expands\ candidate\ space,\ not\ evidence\ space. }$$
 
 Therefore:
 
-\[
-GENERATED \neq VERIFIED
-\]
+$$GENERATED \neq VERIFIED$$
 
-\[
-PLAUSIBLE \neq TRUE
-\]
+$$PLAUSIBLE \neq TRUE$$
 
-\[
-COHERENT \neq EMPIRICALLY\ VALID
-\]
+$$COHERENT \neq EMPIRICALLY\ VALID$$
 
-\[
-GENERATOR\ AGREEMENT \neq INDEPENDENT\ CONFIRMATION
-\]
+$$GENERATOR\ AGREEMENT \neq INDEPENDENT\ CONFIRMATION$$
 
-\[
-MODEL \neq OBSERVATION
-\]
+$$MODEL \neq OBSERVATION$$
 
-\[
-PLAN \neq AUTHORITY
-\]
+$$PLAN \neq AUTHORITY$$
 
-\[
-SIMULATION \neq REALITY
-\]
+$$SIMULATION \neq REALITY$$
 
-\[
-COUNTERFACTUAL \neq OBSERVED\ OUTCOME
-\]
+$$COUNTERFACTUAL \neq OBSERVED\ OUTCOME$$
 
-\[
-DOCUMENTED \neq IMPLEMENTED
-\]
+$$DOCUMENTED \neq IMPLEMENTED$$
 
-\[
-IMPLEMENTED \neq VALIDATED
-\]
+$$IMPLEMENTED \neq VALIDATED$$
 
 No generator, generator composition, generator majority, generator recursion, or generator synthesis may override these distinctions.
 
@@ -92,27 +53,11 @@ The 12 Generators subsystem provides a governed generative layer between task re
 
 Its function is:
 
-\[
-Task
-\rightarrow
-Generation
-\rightarrow
-Validation
-\rightarrow
-Decision
-\rightarrow
-Action
-\]
+$$Task \rightarrow Generation \rightarrow Validation \rightarrow Decision \rightarrow Action$$
 
 not:
 
-\[
-Task
-\rightarrow
-Generation
-\rightarrow
-Truth
-\]
+$$Task \rightarrow Generation \rightarrow Truth$$
 
 The subsystem SHOULD increase:
 
@@ -144,19 +89,7 @@ It MUST NOT increase those properties by sacrificing:
 
 Every generator inherits the AMOS core priority ordering:
 
-\[
-\boxed{
-Integrity
->
-Completeness
->
-Fluency
->
-Speed
->
-TokenSavings
-}
-\]
+$$\boxed{ Integrity > Completeness > Fluency > Speed > TokenSavings }$$
 
 Consequently:
 
@@ -177,25 +110,20 @@ No implementation optimization may weaken this ordering.
 
 A generator is a bounded transformation operator.
 
-For generator \(G_i\):
+For generator $G_i$:
 
-$$
-G_i:
-(I,E,C,S,R,P,A)
-\rightarrow
-O_i
-$$
+$$G_i: (I,E,C,S,R,P,A) \rightarrow O_i$$
 
 where:
 
-* \(I\) = task/input state;
-* \(E\) = admitted evidence;
-* \(C\) = active constraints;
-* \(S\) = applicability scope;
-* \(R\) = epistemic/environmental regime;
-* \(P\) = provenance state;
-* \(A\) = authority envelope;
-* \(O_i\) = generated candidate output.
+* $I$ = task/input state;
+* $E$ = admitted evidence;
+* $C$ = active constraints;
+* $S$ = applicability scope;
+* $R$ = epistemic/environmental regime;
+* $P$ = provenance state;
+* $A$ = authority envelope;
+* $O_i$ = generated candidate output.
 
 The output MUST remain linked to the inputs that materially produced it.
 
@@ -361,13 +289,9 @@ constraint topology
 
 Formally:
 
-$$
-G_{structure}(X)
-\rightarrow
-S_X
-$$
+$$G_{structure}(X) \rightarrow S_X$$
 
-where \(S_X\) is a candidate representation.
+where $S_X$ is a candidate representation.
 
 ### Required output
 
@@ -385,11 +309,7 @@ structure:
 
 Structural resemblance does not establish causal equivalence.
 
-$$
-Isomorphic(A,B)
-\not\Rightarrow
-CausallyEquivalent(A,B)
-$$
+$$Isomorphic(A,B) \not\Rightarrow CausallyEquivalent(A,B)$$
 
 ---
 
@@ -399,13 +319,9 @@ $$
 
 Generate materially distinct candidate explanations.
 
-Given observations \(E\):
+Given observations $E$:
 
-$$
-G_H(E)
-=
-\{H_1,H_2,\ldots,H_n\}
-$$
+$$G_H(E) = \{H_1,H_2,\ldots,H_n\}$$
 
 Each hypothesis SHOULD include:
 
@@ -452,13 +368,9 @@ where each is genuinely plausible.
 
 Produce materially different candidate strategies, interpretations, architectures, or decisions.
 
-For candidate \(A\):
+For candidate $A$:
 
-$$
-G_A(A)
-\rightarrow
-\{A_1,\ldots,A_n\}
-$$
+$$G_A(A) \rightarrow \{A_1,\ldots,A_n\}$$
 
 Useful alternatives differ in outcome-relevant dimensions.
 
@@ -486,13 +398,7 @@ Generate candidate causal explanations and intervention structures.
 
 Possible representation:
 
-$$
-X
-\rightarrow
-M
-\rightarrow
-Y
-$$
+$$X \rightarrow M \rightarrow Y$$
 
 with:
 
@@ -544,26 +450,16 @@ Generate controlled alternative-world reasoning.
 
 Counterfactual representation:
 
-$$
-CF =
-\langle
-W,
-I,
-B,
-M,
-Y',
-U
-\rangle
-$$
+$$CF = \langle W, I, B, M, Y', U \rangle$$
 
 where:
 
-* \(W\) = reference world;
-* \(I\) = intervention;
-* \(B\) = preserved background;
-* \(M\) = causal/model assumptions;
-* \(Y'\) = counterfactual outcome;
-* \(U\) = uncertainty.
+* $W$ = reference world;
+* $I$ = intervention;
+* $B$ = preserved background;
+* $M$ = causal/model assumptions;
+* $Y'$ = counterfactual outcome;
+* $U$ = uncertainty.
 
 Every counterfactual MUST identify:
 
@@ -622,13 +518,9 @@ Scenario detail does not convert a scenario into a prediction.
 
 Generate candidate solutions satisfying task constraints.
 
-$$
-G_S(P,C)
-=
-\{S_1,\ldots,S_n\}
-$$
+$$G_S(P,C) = \{S_1,\ldots,S_n\}$$
 
-where \(P\) is the problem and \(C\) the constraint set.
+where $P$ is the problem and $C$ the constraint set.
 
 Each candidate SHOULD expose:
 
@@ -653,10 +545,7 @@ Generation and selection remain separate operations.
 
 Transform a selected strategy into candidate execution structure.
 
-$$
-Plan =
-(a_1,a_2,\ldots,a_n)
-$$
+$$Plan = (a_1,a_2,\ldots,a_n)$$
 
 Each action SHOULD expose:
 
@@ -673,11 +562,7 @@ action:
 
 Planning does not imply execution authority.
 
-$$
-AuthorizedToGeneratePlan
-\not\Rightarrow
-AuthorizedToExecutePlan
-$$
+$$AuthorizedToGeneratePlan \not\Rightarrow AuthorizedToExecutePlan$$
 
 ---
 
@@ -689,16 +574,7 @@ Generate discriminating tests.
 
 The preferred test maximizes expected information gain relative to cost and risk:
 
-$$
-T^*
-=
-\arg\max_T
-\frac{
-E[InformationGain(T)]
-}{
-Cost(T)+Risk(T)
-}
-$$
+$$T^* = \arg\max_T \frac{ E[InformationGain(T)] }{ Cost(T)+Risk(T) }$$
 
 A high-value test SHOULD discriminate among competing explanations rather than merely collect more evidence of the same ancestry.
 
@@ -710,13 +586,9 @@ A high-value test SHOULD discriminate among competing explanations rather than m
 
 Attack candidate claims through genuine falsification attempts.
 
-For claim \(C\):
+For claim $C$:
 
-$$
-G_F(C)
-=
-\{F_1,\ldots,F_n\}
-$$
+$$G_F(C) = \{F_1,\ldots,F_n\}$$
 
 Potential falsifiers include:
 
@@ -765,13 +637,7 @@ repair harm
 
 Preferred repair minimizes:
 
-$$
-RepairCost
-+
-RepairHarm
-+
-ResidualRisk
-$$
+$$RepairCost + RepairHarm + ResidualRisk$$
 
 subject to restoring validity.
 
@@ -832,11 +698,9 @@ Generators cannot erase source type.
 
 If:
 
-$$
-I = SOURCE\_CLAIM
-$$
+$$I = SOURCE\_CLAIM$$
 
-then transforming \(I\) does not magically create an observation.
+then transforming $I$ does not magically create an observation.
 
 ---
 
@@ -877,11 +741,7 @@ Every consequential output MUST retain its ancestry.
 
 Conceptually:
 
-$$
-E
-\xrightarrow{G_i@v}
-O
-$$
+$$E \xrightarrow{G_i@v} O$$
 
 The lineage SHOULD preserve:
 
@@ -903,9 +763,7 @@ time/epoch
 
 Generator outputs form a graph:
 
-$$
-P=(V,E)
-$$
+$$P=(V,E)$$
 
 Example:
 
@@ -938,19 +796,13 @@ Multiple generators do not create multiple independent evidence sources.
 
 Suppose:
 
-$$
-O_i=G_i(E)
-$$
+$$O_i=G_i(E)$$
 
-for twelve generators sharing evidence \(E\).
+for twelve generators sharing evidence $E$.
 
 Then:
 
-$$
-Agreement(O_1,\ldots,O_{12})
-\not\Rightarrow
-12IndependentConfirmations
-$$
+$$Agreement(O_1,\ldots,O_{12}) \not\Rightarrow 12IndependentConfirmations$$
 
 The subsystem MUST distinguish:
 
@@ -971,16 +823,7 @@ Generator diversity SHOULD be assessed through ancestry.
 
 A conceptual measure is:
 
-$$
-I_{eff}
-=
-f(
-source\ diversity,
-ancestry\ separation,
-model\ separation,
-dependency\ separation
-)
-$$
+$$I_{eff} = f( source\ diversity, ancestry\ separation, model\ separation, dependency\ separation )$$
 
 Repeated descendants of one origin contribute limited evidential independence.
 
@@ -1020,9 +863,7 @@ The system MUST NOT force convergence for narrative convenience.
 
 Instead identify:
 
-$$
-T^*
-$$
+$$T^*$$
 
 the cheapest high-information discriminating test.
 
@@ -1030,25 +871,13 @@ the cheapest high-information discriminating test.
 
 # 27. CONSTRAINT PROPAGATION
 
-If constraint \(C\) applies to an upstream generator:
+If constraint $C$ applies to an upstream generator:
 
-$$
-G_1
-\rightarrow
-G_2
-\rightarrow
-G_3
-$$
+$$G_1 \rightarrow G_2 \rightarrow G_3$$
 
 then:
 
-$$
-C(G_1)
-\Rightarrow
-C(G_2)
-\Rightarrow
-C(G_3)
-$$
+$$C(G_1) \Rightarrow C(G_2) \Rightarrow C(G_3)$$
 
 until explicitly discharged.
 
@@ -1060,11 +889,9 @@ Constraints cannot disappear merely because content was transformed.
 
 Outputs inherit the applicability envelope of their load-bearing inputs.
 
-For input valid under scope \(S\):
+For input valid under scope $S$:
 
-$$
-O_G \subseteq S
-$$
+$$O_G \subseteq S$$
 
 unless an explicit validated generalization establishes otherwise.
 
@@ -1080,13 +907,11 @@ until validated.
 
 # 29. REGIME INHERITANCE
 
-If evidence is valid under regime \(R_1\):
+If evidence is valid under regime $R_1$:
 
-$$
-E@R_1
-$$
+$$E@R_1$$
 
-generated conclusions do not automatically remain valid under \(R_2\).
+generated conclusions do not automatically remain valid under $R_2$.
 
 A regime transition triggers targeted revalidation.
 
@@ -1096,11 +921,7 @@ A regime transition triggers targeted revalidation.
 
 Generation does not refresh evidence.
 
-$$
-Transform(StaleEvidence)
-\neq
-FreshEvidence
-$$
+$$Transform(StaleEvidence) \neq FreshEvidence$$
 
 A generator output dependent on stale evidence inherits the relevant temporal weakness.
 
@@ -1108,13 +929,9 @@ A generator output dependent on stale evidence inherits the relevant temporal we
 
 # 31. CONFIDENCE CEILING
 
-For generated conclusion \(C\) with load-bearing premises \(P_i\):
+For generated conclusion $C$ with load-bearing premises $P_i$:
 
-$$
-Conf(C)
-\le
-\min_i Conf(P_i)
-$$
+$$Conf(C) \le \min_i Conf(P_i)$$
 
 unless the weak premise is independently revalidated or no longer load-bearing.
 
@@ -1126,28 +943,17 @@ Generator confidence cannot exceed evidence confidence through rhetoric or repet
 
 Consequential generated outputs SHOULD preserve:
 
-$$
-U =
-(
-U_E,
-U_M,
-U_S,
-U_T,
-U_C,
-U_X,
-U_P
-)
-$$
+$$U = ( U_E, U_M, U_S, U_T, U_C, U_X, U_P )$$
 
 where:
 
-* \(U_E\) = evidence uncertainty;
-* \(U_M\) = model uncertainty;
-* \(U_S\) = scope uncertainty;
-* \(U_T\) = temporal uncertainty;
-* \(U_C\) = causal uncertainty;
-* \(U_X\) = execution uncertainty;
-* \(U_P\) = provenance-independence uncertainty.
+* $U_E$ = evidence uncertainty;
+* $U_M$ = model uncertainty;
+* $U_S$ = scope uncertainty;
+* $U_T$ = temporal uncertainty;
+* $U_C$ = causal uncertainty;
+* $U_X$ = execution uncertainty;
+* $U_P$ = provenance-independence uncertainty.
 
 A single scalar confidence SHOULD NOT hide materially different uncertainty types.
 
@@ -1159,22 +965,13 @@ For consequential generated conclusions, identify the smallest premise or thresh
 
 Define:
 
-$$
-P^*
-=
-\arg\min_P
-Cost(Test(P))
-$$
+$$P^* = \arg\min_P Cost(Test(P))$$
 
 subject to:
 
-$$
-Failure(P)
-\Rightarrow
-ChangeDecision
-$$
+$$Failure(P) \Rightarrow ChangeDecision$$
 
-Test \(P^*\) early.
+Test $P^*$ early.
 
 Fragile generated conclusions SHOULD be marked:
 
@@ -1225,29 +1022,11 @@ UNKNOWN/GAP
 
 Generators SHOULD execute only when they can materially improve the task.
 
-$$
-Admit(G_i)
-=
-Relevant(G_i)
-\land
-Compatible(G_i)
-\land
-Authorized(G_i)
-$$
+$$Admit(G_i) = Relevant(G_i) \land Compatible(G_i) \land Authorized(G_i)$$
 
 Optional decision-value formulation:
 
-$$
-EV(G_i)
-=
-InformationGain
--
-Cost
--
-Risk
--
-Complexity
-$$
+$$EV(G_i) = InformationGain - Cost - Risk - Complexity$$
 
 Execute when expected value is positive and integrity constraints are satisfied.
 
@@ -1259,11 +1038,7 @@ The existence of twelve generator classes does not imply all twelve execute.
 
 Default:
 
-$$
-G_{active}
-=
-MinimumSufficientSet
-$$
+$$G_{active} = MinimumSufficientSet$$
 
 This minimizes:
 
@@ -1373,11 +1148,9 @@ Outputs inherit the RSCF's active validity envelope.
 
 # 41. MULTI-RSCF GENERATION
 
-If output \(O\) depends on:
+If output $O$ depends on:
 
-$$
-R_1,R_2,\ldots,R_n
-$$
+$$R_1,R_2,\ldots,R_n$$
 
 then all load-bearing RSCF states must be compatible at finalization.
 
@@ -1510,9 +1283,7 @@ Generator availability cannot bypass mode governance.
 
 If modes compose:
 
-$$
-M_1 \circ M_2
-$$
+$$M_1 \circ M_2$$
 
 their generator constraints must also compose consistently.
 
@@ -1605,9 +1376,7 @@ An unbound output is not eligible for consequential reuse.
 
 Generated outputs SHOULD retain:
 
-$$
-O@G_i^{v_n}
-$$
+$$O@G_i^{v_n}$$
 
 A later generator version does not rewrite historical provenance.
 
@@ -1639,13 +1408,9 @@ Corrects implementation without intended semantic change.
 
 # 53. SELECTIVE REVALIDATION
 
-If generator \(G\) changes:
+If generator $G$ changes:
 
-$$
-G^{v_n}
-\rightarrow
-G^{v_{n+1}}
-$$
+$$G^{v_n} \rightarrow G^{v_{n+1}}$$
 
 do not globally invalidate all outputs.
 
@@ -1675,9 +1440,7 @@ Historical records should not be destructively rewritten to make them appear pro
 
 Where concurrent reasoning state matters, generator reads SHOULD conceptually bind to a consistent state snapshot.
 
-$$
-Read(G_i)=Snapshot(E_n)
-$$
+$$Read(G_i)=Snapshot(E_n)$$
 
 This prevents mixing incompatible state versions without detection.
 
@@ -1689,11 +1452,7 @@ This is an AMOS reasoning pattern, not a claim that every deployment literally i
 
 Before consequential finalization, verify that expected load-bearing state remains current.
 
-$$
-ExpectedState
-\stackrel{?}{=}
-CurrentState
-$$
+$$ExpectedState \stackrel{?}{=} CurrentState$$
 
 If false:
 
@@ -1708,11 +1467,9 @@ STALE_GENERATION
 
 Generator output MAY be bound to a causal epoch:
 
-$$
-O@E_n
-$$
+$$O@E_n$$
 
-If a load-bearing causal dependency changes at \(E_{n+1}\), only affected outputs require revalidation.
+If a load-bearing causal dependency changes at $E_{n+1}$, only affected outputs require revalidation.
 
 ---
 
@@ -1740,9 +1497,7 @@ Do not invoke additional generators merely to obtain cosmetic consensus.
 
 If:
 
-$$
-Proof_{local}
-$$
+$$Proof_{local}$$
 
 already establishes decision sufficiency, then additional coordination has zero or negative expected value.
 
@@ -1788,11 +1543,7 @@ Higher risk requires stronger validation and narrower authority.
 
 Possessing a generator capability does not imply authorization to use its result operationally.
 
-$$
-Capability
-\neq
-Authority
-$$
+$$Capability \neq Authority$$
 
 A plan generator can propose an action without being authorized to execute it.
 
@@ -1802,11 +1553,7 @@ A plan generator can propose an action without being authorized to execute it.
 
 Authority MUST be checked at the point of consequential commitment where applicable.
 
-$$
-Authority_{generation}
-\not\Rightarrow
-Authority_{commit}
-$$
+$$Authority_{generation} \not\Rightarrow Authority_{commit}$$
 
 State may change between generation and commitment.
 
@@ -1886,15 +1633,7 @@ Global recomputation is a last resort.
 
 Repair order:
 
-$$
-CRITICAL
->
-DECISION\text{-}RELEVANT
->
-EXPLANATORY
->
-COSMETIC
-$$
+$$CRITICAL > DECISION\text{-}RELEVANT > EXPLANATORY > COSMETIC$$
 
 A cosmetic generator defect must never outrank an integrity-critical provenance or causal failure.
 
@@ -1904,17 +1643,7 @@ A cosmetic generator defect must never outrank an integrity-critical provenance 
 
 Repair selection SHOULD minimize:
 
-$$
-H_R
-=
-LostValidWork
-+
-Recomputation
-+
-OperationalDisruption
-+
-NewRisk
-$$
+$$H_R = LostValidWork + Recomputation + OperationalDisruption + NewRisk$$
 
 while restoring validity.
 
@@ -1943,22 +1672,11 @@ Homeostasis means preservation of valid state, not preservation of obsolete conc
 
 Conceptually:
 
-$$
-G^*
-=
-\arg\max_G
-\frac{
-ExpectedDecisionValue(G)
-}{
-Cost(G)+Risk(G)+Complexity(G)
-}
-$$
+$$G^* = \arg\max_G \frac{ ExpectedDecisionValue(G) }{ Cost(G)+Risk(G)+Complexity(G) }$$
 
 subject to:
 
-$$
-Integrity(G)=TRUE
-$$
+$$Integrity(G)=TRUE$$
 
 This is a reasoning model, not necessarily literal runtime code.
 
@@ -1968,11 +1686,7 @@ This is a reasoning model, not necessarily literal runtime code.
 
 Generation SHOULD stop when:
 
-$$
-E[\Delta DecisionQuality|G_{next}]
-\le
-Cost(G_{next})
-$$
+$$E[\Delta DecisionQuality|G_{next}] \le Cost(G_{next})$$
 
 provided required integrity checks are complete.
 
@@ -1992,7 +1706,7 @@ BETTER REASONING
 
 # 72. CLAIM SUFFICIENCY
 
-Generated claim \(C\) reaches Claim Sufficiency when:
+Generated claim $C$ reaches Claim Sufficiency when:
 
 ```text
 class known
@@ -2018,15 +1732,7 @@ A generated decision space reaches Decision Sufficiency when additional generati
 
 Action Sufficiency requires:
 
-$$
-ClaimSufficiency
-\land
-DecisionSufficiency
-\land
-RiskAcceptable
-\land
-AuthorityValid
-$$
+$$ClaimSufficiency \land DecisionSufficiency \land RiskAcceptable \land AuthorityValid$$
 
 Generation alone never establishes Action Sufficiency.
 
@@ -2059,15 +1765,7 @@ Useful generator diversity is not measured by output count alone.
 
 Conceptually:
 
-$$
-D_{useful}
-=
-D_{semantic}
-\times
-D_{assumption}
-\times
-D_{mechanism}
-$$
+$$D_{useful} = D_{semantic} \times D_{assumption} \times D_{mechanism}$$
 
 subject to task relevance.
 
@@ -2079,13 +1777,7 @@ Paraphrase inflation SHOULD be suppressed.
 
 Where evidence independence matters:
 
-$$
-D_{effective}
-=
-D_{useful}
-\times
-I_{provenance}
-$$
+$$D_{effective} = D_{useful} \times I_{provenance}$$
 
 A hundred variants with identical ancestry may have high linguistic diversity but near-zero additional evidential independence.
 
@@ -2148,7 +1840,7 @@ Generalization requires independent justification.
 
 # 81. REGIME FIREWALL
 
-A conclusion valid under regime \(R_a\) does not automatically survive regime \(R_b\).
+A conclusion valid under regime $R_a$ does not automatically survive regime $R_b$.
 
 Generators SHOULD explicitly identify regime-sensitive assumptions where material.
 
@@ -2190,19 +1882,11 @@ provided those outputs remain correctly typed.
 
 Repeated generative transformation cannot convert a model into causal evidence.
 
-$$
-MODEL
-\xrightarrow{G}
-MODEL
-\xrightarrow{G}
-MODEL
-$$
+$$MODEL \xrightarrow{G} MODEL \xrightarrow{G} MODEL$$
 
 does not imply:
 
-$$
-VERIFIED\ CAUSAL\ EFFECT
-$$
+$$VERIFIED\ CAUSAL\ EFFECT$$
 
 ---
 
@@ -2210,13 +1894,7 @@ $$
 
 Generator repetition cannot manufacture confidence.
 
-$$
-WeakPremise
-+
-ManyDerivedOutputs
-\not\Rightarrow
-StrongPremise
-$$
+$$WeakPremise + ManyDerivedOutputs \not\Rightarrow StrongPremise$$
 
 ---
 
@@ -2602,9 +2280,7 @@ defines supersession
 
 Therefore:
 
-$$
-Contract \neq Versioning
-$$
+$$Contract \neq Versioning$$
 
 but each constrains the other.
 
@@ -2640,11 +2316,7 @@ Generator multiplicity is explicitly covered by Sybil hardening.
 
 Fundamental invariant:
 
-$$
-GeneratorCount
-\neq
-IndependentEvidenceCount
-$$
+$$GeneratorCount \neq IndependentEvidenceCount$$
 
 ---
 
@@ -2852,41 +2524,23 @@ Optimization cannot weaken integrity.
 
 A generated result may finalize only if:
 
-$$
-F(O)
-=
-D
-\land
-P
-\land
-S
-\land
-R
-\land
-T
-\land
-C
-\land
-V
-$$
+$$F(O) = D \land P \land S \land R \land T \land C \land V$$
 
 where:
 
-* \(D\) = dependency validity;
-* \(P\) = provenance validity;
-* \(S\) = scope validity;
-* \(R\) = regime validity;
-* \(T\) = temporal/freshness validity;
-* \(C\) = constraint satisfaction;
-* \(V\) = required validation.
+* $D$ = dependency validity;
+* $P$ = provenance validity;
+* $S$ = scope validity;
+* $R$ = regime validity;
+* $T$ = temporal/freshness validity;
+* $C$ = constraint satisfaction;
+* $V$ = required validation.
 
 For consequential action add:
 
-$$
-A
-$$
+$$A$$
 
-where \(A\) = valid authority.
+where $A$ = valid authority.
 
 ---
 
@@ -2948,47 +2602,19 @@ It does not exist to manufacture certainty.
 
 Its governing sequence is:
 
-$$
-Generate
-\rightarrow
-Type
-\rightarrow
-Bind
-\rightarrow
-Challenge
-\rightarrow
-Validate
-\rightarrow
-Decide
-$$
+$$Generate \rightarrow Type \rightarrow Bind \rightarrow Challenge \rightarrow Validate \rightarrow Decide$$
 
 not:
 
-$$
-Generate
-\rightarrow
-Believe
-$$
+$$Generate \rightarrow Believe$$
 
 The architecture therefore follows three master laws:
 
-$$
-\boxed{
-Generate\ candidates\ freely\ within\ constraints
-}
-$$
+$$\boxed{ Generate\ candidates\ freely\ within\ constraints }$$
 
-$$
-\boxed{
-Believe\ only\ what\ evidence\ licenses
-}
-$$
+$$\boxed{ Believe\ only\ what\ evidence\ licenses }$$
 
-$$
-\boxed{
-Commit\ only\ what\ governance\ authorizes
-}
-$$
+$$\boxed{ Commit\ only\ what\ governance\ authorizes }$$
 
 ---
 
@@ -3014,31 +2640,11 @@ No optimization, recursive generation, generator composition, version upgrade, s
 
 The preferred architecture is therefore:
 
-$$
-\boxed{
-Minimum\ Sufficient\ Generation
-+
-Maximum\ Necessary\ Integrity
-}
-$$
+$$\boxed{ Minimum\ Sufficient\ Generation + Maximum\ Necessary\ Integrity }$$
 
 with:
 
-$$
-\boxed{
-Persistent\ Provenance
-+
-Typed\ Evidence
-+
-Scope/Regime\ Control
-+
-Causal\ Discipline
-+
-Localized\ Repair
-+
-Proof\text{-}Based\ Finalization
-}
-$$
+$$\boxed{ Persistent\ Provenance + Typed\ Evidence + Scope/Regime\ Control + Causal\ Discipline + Localized\ Repair + Proof\text{-}Based\ Finalization }$$
 
 ---
 
@@ -3103,3 +2709,4 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[12_GENERATORS_MOC]]
+```

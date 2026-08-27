@@ -1,12 +1,15 @@
 ---
 title: DONG CHAY VON TOAN CAU AND VI TRI CUA VIET NAM 2025
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Dòng Chảy Vốn Toàn Cầu & Vị Trí Của Việt Nam 2025–2030

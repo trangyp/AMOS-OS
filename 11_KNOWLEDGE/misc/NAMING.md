@@ -1,15 +1,20 @@
 ---
 title: NAMING
 type: naming
+source: 11_KNOWLEDGE/misc
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: naming
 tags: [canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/naming, misc]
 created: 2026-08-22
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
-
+# NAMING
 
 ```json
 {

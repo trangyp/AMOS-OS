@@ -1,15 +1,23 @@
 ---
 title: AMOS OS ABSOLUTE
 type: note
+source: 11_KNOWLEDGE/amos-general
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
 topic: amos-os-absolute
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-os-absolute, amos-general]
 created: 2026-08-22
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
 
-
+# AMOS OS ABSOLUTE
 
 ```json
 {

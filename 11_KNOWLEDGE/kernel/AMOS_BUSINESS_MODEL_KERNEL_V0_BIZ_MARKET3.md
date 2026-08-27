@@ -1,14 +1,19 @@
 ---
 title: AMOS BUSINESS MODEL KERNEL V0 BIZ MARKET3
 type: kernel
+source: 11_KNOWLEDGE/kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-business-model-kernel-v0
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-business-model-kernel-v0, kernel]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
-
 
 
 # AMOS Business Model Kernel v0 Biz Market3

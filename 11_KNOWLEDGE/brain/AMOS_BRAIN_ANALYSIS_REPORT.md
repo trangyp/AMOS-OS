@@ -1,13 +1,16 @@
 ---
 title: AMOS BRAIN ANALYSIS REPORT
-tags: [brain, cognitive, neural]
+tags: [brain, cognitive, neural, canon/knowledge]
 type: data
 source: 11_KNOWLEDGE/brain
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
+
 ---
-
-
-
-
+# AMOS BRAIN ANALYSIS REPORT
 
 ```json
 {
@@ -103,3 +106,6 @@ source: 11_KNOWLEDGE/brain
 
 ---
 **MOC:** [[BRAIN_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

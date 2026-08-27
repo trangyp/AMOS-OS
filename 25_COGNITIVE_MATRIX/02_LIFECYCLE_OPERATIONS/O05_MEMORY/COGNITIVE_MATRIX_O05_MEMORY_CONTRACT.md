@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX O05 MEMORY CONTRACT
 type: memory
-tags: [cognitive_matrix, lifecycle_operations, o05_memory, contract]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY
+tags: [cognitive_matrix, lifecycle_operations, o05_memory, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # O05_MEMORY — Persist/retrieve with lifecycle (formation→evolution→retrieval) and trust gating.
@@ -47,3 +52,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[O05_MEMORY_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

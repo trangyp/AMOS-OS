@@ -3,10 +3,16 @@ title: "AMOS Absolute Human Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: brain-model
+source: 11_KNOWLEDGE/human
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/absolute-human-model, human]
 status: "active"
 provenance: "Absolute-Human (final version).txt"
 confidence: "STRUCTURAL"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: human_alignment
 ---
 
 

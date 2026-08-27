@@ -3,10 +3,16 @@ title: "AMOS Human Systems Engine Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: brain-model
+source: 11_KNOWLEDGE/engine
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/human-systems-engine-model, engine]
 status: "active"
 provenance: "HSE_Enginev∞_AMOS_FORMAT_WITH_UCM.txt"
 confidence: "STRUCTURAL"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
 
 

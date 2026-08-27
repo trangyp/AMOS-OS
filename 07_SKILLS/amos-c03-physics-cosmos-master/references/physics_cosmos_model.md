@@ -1,8 +1,15 @@
 ---
 title: physics cosmos model
 type: reference
-tags: [reference, amos-c03-physics-cosmos-master]
+source: 07_SKILLS/amos-c03-physics-cosmos-master/references
+tags: [reference, amos-c03-physics-cosmos-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Physics Cosmos Model
 

@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Test-Time-Compute-Scaling-Rscf MOC"
 type: moc
-tags: [moc, arxiv-test-time-compute-scaling-rscf]
+source: 07_SKILLS/arxiv-test-time-compute-scaling-rscf
+tags: [moc, arxiv-test-time-compute-scaling-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Test-Time-Compute-Scaling-Rscf — Map of Content
 

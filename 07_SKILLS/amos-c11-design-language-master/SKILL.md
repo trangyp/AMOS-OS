@@ -1,14 +1,22 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-c11-design-language-master
 name: amos-c11-design-language-master
 description: "AMOS C11 Design & Language — content creation, corporate documentation, academic writing, artistic expression, presentation design, language patterns. Use for content creation, documentation, or de..."
 parent_skill: none
 domain: c11
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c11-design-language-master]
+tags: [note, amos-c11-design-language-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
+
 
 # AMOS C11 — Design & Language Master Knowledge
 
@@ -94,3 +102,103 @@ Aesthetic judgments are VALUES, not FACTS. Fractal language hypothesis is MODEL 
 
 This parent skill consolidates the following sub-skills. Each is a section within th
 - [[AGENT_TEMPLATE]]
+
+---
+**MOC:** [[amos-c11-design-language-master_MOC]]
+
+## Examples
+
+- **Scenario**: When defining or evolving a design language for products, brands, interfaces, or systems
+  - **Input**: A query matching this skill's domain (c11)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When creating corporate documentation, academic writing, or artistic expression
+  - **Input**: A query matching this skill's domain (c11)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When designing presentations, spreadsheets, or structured documents
+  - **Input**: A query matching this skill's domain (c11)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the c11 domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when c11 specialization is needed
+- **Peers**: Other skills in the `c11` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/academic_writing_engine.md` — loaded on demand
+- `references/academic_writing_kernel_engine.md` — loaded on demand
+- `references/accessibility_i18n.md` — loaded on demand
+- `references/architecture_of_architecture.md` — loaded on demand
+- `references/atomic_to_living_design.md` — loaded on demand
+- `references/beauty_emptiness_finality.md` — loaded on demand
+- `references/corp_doc_engine.md` — loaded on demand
+- `references/corp_doc_engine_super.md` — loaded on demand
+- `references/design_engine_layer.md` — loaded on demand
+- `references/design_engine_model.md` — loaded on demand
+- `references/design_engine_tech.md` — loaded on demand
+- `references/design_language_config.md` — loaded on demand
+- `references/design_language_engine_cognitive.md` — loaded on demand
+- `references/design_language_engine_layer.md` — loaded on demand
+- `references/design_language_model.md` — loaded on demand
+- `references/doc_super_engine.md` — loaded on demand
+- `references/documentation_engine_layer.md` — loaded on demand
+- `references/domain_config.md` — loaded on demand
+- `references/human_centered_design_drift.md` — loaded on demand
+- `references/monogram_engine.md` — loaded on demand
+- `references/monogram_kernel_engine.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/strategic_document_engine_layer.md` — loaded on demand
+- `references/super_corp_doc_engine.md` — loaded on demand
+- `references/super_corp_doc_engine_light.md` — loaded on demand
+- `references/tech_design_engine.md` — loaded on demand
+- `references/tech_expanded_design_engine.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `references/vietnamese_writing_engine.md` — loaded on demand
+- `[[amos-c11-design-language-master_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-c11-design-language-master-workflow]]` — corresponding workflow
+- `[[amos-c11-design-language-master-agent]]` — corresponding agent
+

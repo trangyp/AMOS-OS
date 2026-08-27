@@ -1,12 +1,15 @@
 ---
 title: ARTICLES
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Articles
@@ -1350,13 +1353,13 @@ Say which.
 [Why Hydrogen Is Safer Than What We Use Today](<Why%20Hydrogen%20Is%20Safer%20Than%20What%20We%20Use%20Today%202e4c5e6f95bd8025b315f65041ae8a51.html>)
 [Hospitals & Healthcare Infrastructure](<Hospitals%20&%20Healthcare%20Infrastructure%202e4c5e6f95bd803ea46ec4b63bf19c54.html>)
 [Why Ethical Intelligence™ Is Mandatory in Life-Critical Energy Systems](<Why%20Ethical%20Intelligence%E2%84%A2%20Is%20Mandatory%20in%20Life-Cri%202e4c5e6f95bd803db262cf2a8141d1f4.html>)
-[Defense, Security & Civil Protection Systems (Non-Combat)](<Defense,%20Security%20&%20Civil%20Protection%20Systems%20\(Non-%202e4c5e6f95bd8049bcd7ecb6ada9e197.html>)
+[Defense, Security & Civil Protection Systems (Non-Combat)](<Defense,%20Security%20&%20Civil%20Protection%20Systems%20$Non-%202e4c5e6f95bd8049bcd7ecb6ada9e197.html>)
 [Why Cities Will Ban Ungoverned Storage Before They Ban Hydrogen](<Why%20Cities%20Will%20Ban%20Ungoverned%20Storage%20Before%20They%202e4c5e6f95bd808e918fc8de283c2f94.html>)
 [When Leadership Ignores Biology, Systems Collapse](<When%20Leadership%20Ignores%20Biology,%20Systems%20Collapse%202e4c5e6f95bd80f8bb05e66e60fe45d1.html>)
 [Why Modern Education Fights Human Biology](<Why%20Modern%20Education%20Fights%20Human%20Biology%202e4c5e6f95bd80b29672ea724b86821b.html>)
 [Why Governance Collapses When It Ignores Human Biology](<Why%20Governance%20Collapses%20When%20It%20Ignores%20Human%20Bio%202e4c5e6f95bd801a9a24d35ec53ed92a.html>)
 [A Bio-Logical Model of Planetary Systems](<A%20Bio-Logical%20Model%20of%20Planetary%20Systems%202e4c5e6f95bd8079b9bae5e89d013f19.html>)
-[Planetary Collapse Trigger Map (Decision-Grade)](<Planetary%20Collapse%20Trigger%20Map%20\(Decision-Grade\)%202e4c5e6f95bd8050a19cee860e98f1ea.html>)
+[Planetary Collapse Trigger Map (Decision-Grade)](<Planetary%20Collapse%20Trigger%20Map%20$Decision-Grade$%202e4c5e6f95bd8050a19cee860e98f1ea.html>)
 [Why Institutions That Look Strong Fail First](<Why%20Institutions%20That%20Look%20Strong%20Fail%20First%202e4c5e6f95bd8092befbd610b44b020d.html>)
 [Resilience vs Control: The Design Tradeoff That Decides Survival](<Resilience%20vs%20Control%20The%20Design%20Tradeoff%20That%20Dec%202e4c5e6f95bd8091aa3ed7f62e6387ce.html>)
 [The Case for Space — I f Earth Comes First](<The%20Case%20for%20Space%20%E2%80%94%20If%20Earth%20Comes%20First%202e4c5e6f95bd80e48bfce3e2a39d5950.html>)

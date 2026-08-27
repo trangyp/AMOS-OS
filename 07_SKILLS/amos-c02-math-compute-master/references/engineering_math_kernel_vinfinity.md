@@ -1,8 +1,15 @@
 ---
 title: engineering math kernel vinfinity
 type: reference
-tags: [reference, amos-c02-math-compute-master]
+source: 07_SKILLS/amos-c02-math-compute-master/references
+tags: [reference, amos-c02-math-compute-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Engineering Math Kernel vInfinity
 
@@ -99,3 +106,7 @@ tags: [amos, engineering, math, kernel, v-infinity, control-theory, signal-proce
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

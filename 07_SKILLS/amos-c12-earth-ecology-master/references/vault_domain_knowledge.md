@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-c12-earth-ecology-master]
+source: 07_SKILLS/amos-c12-earth-ecology-master/references
+tags: [reference, amos-c12-earth-ecology-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # amos-c12-earth-ecology-master — Vault-Sourced Domain Knowledge
 
@@ -522,8 +529,6 @@ Productivity may be limited by:
 -
 
 
-
-
 ## Vault-Sourced Domain Content
 
 > Source: `11_KNOWLEDGE/AMOS_C12_EARTH_ECOLOGY_MASTER_KNOWLEDGE.md` (45598 bytes in vault)
@@ -708,3 +713,7 @@ confounders, and uncertainty.
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

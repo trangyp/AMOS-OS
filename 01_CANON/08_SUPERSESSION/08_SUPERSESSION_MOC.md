@@ -1,8 +1,15 @@
 ---
 title: "08 Supersession MOC"
 type: moc
-tags: [moc, 08-supersession]
+source: 01_CANON/08_SUPERSESSION
+tags: [moc, 08-supersession, canon/universe]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 08 Supersession — Map of Content
 

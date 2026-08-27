@@ -1,12 +1,15 @@
 ---
 title: REDESIGNING ATOMIC DESIGN THROUGH TRANG PHAN S LIV
-tags: [trang, framework, reality]
+tags: [trang, framework, reality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
 
 
 # **Redesigning Atomic Design Through Trang Phan’s Living Intelligence Stack**

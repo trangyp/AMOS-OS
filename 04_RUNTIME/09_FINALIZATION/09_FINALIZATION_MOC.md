@@ -1,8 +1,15 @@
 ---
 title: "09 Finalization MOC"
 type: moc
-tags: [moc, 09-finalization]
+source: 04_RUNTIME/09_FINALIZATION
+tags: [moc, 09-finalization, canon/runtime]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 09 Finalization — Map of Content
 

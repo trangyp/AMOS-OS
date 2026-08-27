@@ -1,8 +1,15 @@
 ---
 title: "Slides MOC"
 type: moc
-tags: [moc, slides]
+source: 07_SKILLS/slides
+tags: [moc, slides, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Slides — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: "Mckinsey-Designops-Agile-Transformation-Rscf MOC"
 type: moc
-tags: [moc, mckinsey-designops-agile-transformation-]
+source: 07_SKILLS/mckinsey-designops-agile-transformation-rscf
+tags: [moc, mckinsey-designops-agile-transformation-, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Mckinsey-Designops-Agile-Transformation-Rscf — Map of Content
 

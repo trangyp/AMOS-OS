@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-distinction-relation-transformation]
+source: 07_SKILLS/amos-distinction-relation-transformation/references
+tags: [reference, amos-distinction-relation-transformation, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -228,3 +235,7 @@ Key insight: Value comes from **maintaining optimal states** (continuity economi
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

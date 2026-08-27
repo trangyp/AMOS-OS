@@ -1,12 +1,17 @@
 ---
 title: CORS ACCESS CONTROL ALLOW ORIGIN HEADER
-tags: [control, governance, policy]
+tags: [control, governance, policy, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/control
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: control_plane
+
 ---
 
-
-
+# CORS ACCESS CONTROL ALLOW ORIGIN HEADER
 
 ## Access-Control-Allow-Origin Header
 Overview

@@ -1,11 +1,15 @@
 ---
 title: AMOS BRAIN STRUCTURE REORGANIZATION PLAN
-tags: [reports, report, analysis]
+tags: [reports, report, analysis, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/reports
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: audit_report
+
 ---
-
-
 
 
 # AMOS BRAIN STRUCTURE REORGANIZATION PLAN
@@ -16,7 +20,7 @@ source: 11_KNOWLEDGE/reports
 **Task**: Directory structure organization and link fixing  
 **Hallucination Risk**: ACKNOWLEDGED AND MANAGED  
 
-## 🚨 CURRENT STRUCTURE ANALYSIS
+## CURRENT STRUCTURE ANALYSIS
 
 ### **Identified Issues**
 1. **Hallucination Directories**: Multiple output directories that don't exist or are artifacts
@@ -49,7 +53,7 @@ source: 11_KNOWLEDGE/reports
 - `canonical/` - May be legitimate canonical models
 - `chaos_systems/` - May be legitimate chaos theory implementations
 
-## 🎯 PROPOSED REORGANIZATION STRUCTURE
+## PROPOSED REORGANIZATION STRUCTURE
 
 ### **Core AMOS Brain Structure**
 ```
@@ -83,7 +87,7 @@ source: 11_KNOWLEDGE/reports
 └── archive/                        # Archive old/hallucination components (NEW)
 ```
 
-## 🔧 REORGANIZATION ACTIONS
+## REORGANIZATION ACTIONS
 
 ### **Phase 1: Cleanup Hallucination Directories**
 ```bash
@@ -135,7 +139,7 @@ mkdir -p archive/hallucination_artifacts
 # Move questionable items to archive for review
 ```
 
-## 📋 DIRECTORY VERIFICATION CHECKLIST
+## DIRECTORY VERIFICATION CHECKLIST
 
 ### **Verify Legitimacy** ❓
 - [ ] `amos_capital_engine/` - Check if legitimate capital engine
@@ -163,7 +167,7 @@ mkdir -p archive/hallucination_artifacts
 - [ ] `visual_design_ssot/` - Verify visual design SSOT
 - [ ] `world/` - Check if exists
 
-## 🛡️ GOVERNANCE SSOT COMPLIANCE
+## ️ GOVERNANCE SSOT COMPLIANCE
 
 ### **SSOT Enforcement**
 - **Single Source of Truth**: Maintain SSOT/ directory as authoritative
@@ -183,7 +187,7 @@ mkdir -p archive/hallucination_artifacts
 - **Risk Assessment**: Evaluate impact of each move
 - **Rollback Plan**: Ability to undo changes if needed
 
-## 🚀 IMPLEMENTATION PLAN
+## IMPLEMENTATION PLAN
 
 ### **Step 1: Assessment Phase**
 1. **Directory Verification**: Check each questionable directory
@@ -209,7 +213,7 @@ mkdir -p archive/hallucination_artifacts
 3. **Structure Review**: Validate new organization
 4. **Documentation**: Update documentation
 
-## 📊 EXPECTED OUTCOMES
+## EXPECTED OUTCOMES
 
 ### **Improved Organization**
 - **Reduced Complexity**: From 50+ directories to ~20 logical directories
@@ -229,7 +233,7 @@ mkdir -p archive/hallucination_artifacts
 - **SSOT Compliance**: Single source of truth maintained
 - **Governance Enforcement**: Proper structure compliance
 
-## 🎯 NEXT ACTIONS
+## NEXT ACTIONS
 
 1. **Immediate**: Continue removing hallucination directories
 2. **Short-term**: Verify questionable directories legitimacy

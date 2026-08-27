@@ -1,21 +1,18 @@
 ---
 title: BOUNDED INTELLIGENCE SECURITY BIS
-tags: [security, safety, adversarial]
+tags: [security, safety, adversarial, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/security
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: security_model
+
 ---
 
 
-
-
-
 # Bounded Intelligence Security™ (BIS™)
-Below is a **single, formalized doctrine** that consolidates the entire conversation into one coherent specification.
-This is not a list of ideas.
-It is a structured system definition with:
-  * Formal model
-
-
   * Threat model
 
 
@@ -729,21 +726,21 @@ Each requires **controls + documented evidence + operational history**.
 * * *
 # 2\. Does BIS™ Architecturally Align?
 Yes — structurally, BIS™ aligns unusually well with high-assurance regimes because it already includes:
-### ✔ Mandatory access control (IFC lattice)
+### Mandatory access control (IFC lattice)
 Maps to: ISO 27001 Annex A, NIST AC family
-### ✔ Reference monitor enforcement
+### Reference monitor enforcement
 Maps to: NIST SC-7, SC-39
-### ✔ Capability-based authority
+### Capability-based authority
 Maps to: Least privilege (AC-6)
-### ✔ Deterministic logging + proof bundles
+### Deterministic logging + proof bundles
 Maps to: AU family controls (auditability)
-### ✔ Supply chain attestation
+### Supply chain attestation
 Maps to: SA-12, SBOM, software integrity
-### ✔ Monotone degradation / fail-closed
+### Monotone degradation / fail-closed
 Maps to: Resilience and incident response controls
-### ✔ Replay determinism
+### Replay determinism
 Maps to: Forensics and traceability
-### ✔ Global leakage ledger
+### Global leakage ledger
 Maps to: Data governance, DLP, privacy controls
 Architecturally, BIS™ is _stronger_ than most systems submitted for certification.
 * * *

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Cli-Failure-Process-Diagnostics-Rscf MOC"
 type: moc
-tags: [moc, amos-cli-failure-process-diagnostics-rsc]
+source: 07_SKILLS/amos-cli-failure-process-diagnostics-rscf
+tags: [moc, amos-cli-failure-process-diagnostics-rsc, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Cli-Failure-Process-Diagnostics-Rscf — Map of Content
 

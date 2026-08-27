@@ -1,8 +1,15 @@
 ---
 title: "Amos-Boundary-Admission-Governor MOC"
 type: moc
-tags: [moc, amos-boundary-admission-governor]
+source: 07_SKILLS/amos-boundary-admission-governor
+tags: [moc, amos-boundary-admission-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Boundary-Admission-Governor — Map of Content
 

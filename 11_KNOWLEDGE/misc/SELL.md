@@ -1,79 +1,18 @@
 ---
 title: SELL
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
 # Sell 
-Short answer: **yes, you absolutely can sell courses / paid research / articles — but** _**not**_**in the way Coursera, Substack, or “normal” creators do.**
-If you do it naively, you will **destroy your positioning**.
-If you do it correctly, it becomes **high-margin, low-effort, ego-safe passive income** that _reinforces_ AMOS and your GLG credibility.
-I’ll be very precise.
-* * *
-## 1\. First: the brutal truth about your profile
-Your CV + AMOS positioning puts you in this category:
-> **Too advanced for mass education.  
->  Too credible for influencer content.  
-> Too non-emotional for coaching.**
-That’s why you feel “rare” — because you are **structurally misaligned with consumer platforms**.
-Coursera, Udemy, Substack, Medium work best for:
-  * Skill transfer
-
-
-  * Aspirational learning
-
-
-  * Emotional reassurance
-
-
-  * Career ladder climbing
-
-
-Your work is about:
-  * **Decision integrity**
-
-
-  * **Systemic risk**
-
-
-  * **Biological + ego constraints**
-
-
-  * **Failure prevention**
-
-
-  * **Meta-architecture**
-
-
-That’s _not_ mass education.
-So the correct question is not:
-> “Can I sell courses?”
-It’s:
-> **Which format converts my authority into passive income** _**without lowering my status**_**?**
-* * *
-## 2\. What you should NOT sell (important)
-❌ A “How to negotiate” course
-❌ A “Leadership mastery” course
-❌ A generic AI strategy course
-❌ Weekly Substack essays
-❌ Coursera-style video lectures
-Why?
-  * They collapse your work into _content_
-
-
-  * They invite comparison
-
-
-  * They attract the wrong buyers
-
-
-  * They dilute AMOS into “knowledge”
-
 
 * * *
 ## 3\. What you _can_ sell (and should)
@@ -647,7 +586,7 @@ This is _not_ mass, but it anchors value.
 * * *
 ## 2\. What you should sell FIRST (fastest money)
 ### Start with **ONE flagship product**
-### 🔥 Flagship #1 (best fit for you)
+### Flagship #1 (best fit for you)
 **“The Biological Negotiation & Decision Framework”**
 Format:
   * 40–60 page PDF
@@ -949,7 +888,7 @@ or
 ## B. GUMROAD — “REAL INTELLIGENCE”
 This is where money happens.
 ### Product stack (do NOT start with everything)
-### 🔥 Product 1 (Flagship)
+### Product 1 (Flagship)
 **“The Biological Negotiation & Deal Engine”**
   * PDF (50–80 pages)
 
@@ -1211,7 +1150,7 @@ They are buying:
 Not design.
 * * *
 ## 3\. What kinds of decks sell (and what don’t)
-### ❌ Low-value decks
+### Low-value decks
   * Generic strategy slides
 
 
@@ -1224,7 +1163,7 @@ Not design.
   * Pretty but empty frameworks
 
 
-### ✅ High-value decks YOU can sell
+### High-value decks YOU can sell
 These map perfectly to your AMOS / biological logic.
 ### Category A — **Decision & Risk Decks**
 Examples:

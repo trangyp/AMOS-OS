@@ -1,9 +1,14 @@
 ---
 title: CAUSAL MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
-tags: [control_plane, 24_causal_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/24_CAUSAL_MODES
+tags: [control_plane, 24_causal_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # CAUSAL MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
@@ -74,3 +79,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[24_CAUSAL_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

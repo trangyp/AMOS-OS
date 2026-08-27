@@ -1,10 +1,16 @@
 ---
 title: README
 type: note
+source: 00_ROOT
 aliases:
 - README
 rscf-state: derived
-tags: [index, readme, moc]
+tags: [index, readme, moc, canon/root]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 

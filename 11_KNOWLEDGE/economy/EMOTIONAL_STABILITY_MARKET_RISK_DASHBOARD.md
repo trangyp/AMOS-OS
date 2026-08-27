@@ -1,12 +1,15 @@
 ---
 title: EMOTIONAL STABILITY MARKET RISK DASHBOARD
-tags: [economy, finance, market]
+tags: [economy, finance, market, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/economy
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: economic_model
+
 ---
-
-
-
 
 
 # Emotional Stability → Market Risk Dashboard 
@@ -22,7 +25,7 @@ By building this dashboard, Educhain Fintech positions itself as a safer, more p
 ## Goal
 Build a **predictive early-warning system** for sharp drawdowns by converting market “emotional instability” into a 0–100 **Market Risk Index (MRI)** with actionable alerts.
 * * *
-## 🏆 What is it? 
+## What is it? 
 This model isn’t just “cool tech” — it’s a **decision-making weapon** :
   * Lets you **front-run liquidations** and avoid getting trapped.
 

@@ -1,11 +1,17 @@
 ---
 title: "AMOS Automation Kernel vInfinity"
 type: kernel
+source: 11_KNOWLEDGE/kernel
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Automation_Kernel_v0.json (7,449 lines, 858KB)"
 origin_type: "SOURCE"
 category: "kernel"
-tags: [amos, automation, engine, v-infinity, tech, workflow, orchestration, n8n, self-correction, testing, memory, architecture, kernel]
+tags: [amos, automation, engine, v-infinity, tech, workflow, orchestration, n8n, self-correction, testing, memory, architecture, kernel, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 

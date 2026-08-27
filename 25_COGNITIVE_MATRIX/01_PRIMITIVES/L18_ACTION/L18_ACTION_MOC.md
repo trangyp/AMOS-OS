@@ -1,8 +1,15 @@
 ---
 title: "L18 Action MOC"
 type: moc
-tags: [moc, l18-action]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L18_ACTION
+tags: [moc, l18-action, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L18 Action — Map of Content
 

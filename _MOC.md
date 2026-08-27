@@ -1,8 +1,15 @@
 ---
 title: "AMOS Vault MOC"
 type: moc
-tags: [moc, vault, root]
+source: .
+tags: [moc, vault, root, canon/general]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # AMOS Vault — Master Map of Content
 

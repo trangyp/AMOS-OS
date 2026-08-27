@@ -1,12 +1,15 @@
 ---
 title: WHITEPAPER HUMAN AGING GERONTOLOGY RESEARCH AND
-tags: [human, alignment, interaction]
+tags: [human, alignment, interaction, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/human
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: human_alignment
+
 ---
-
-
-
 
 
 # **Whitepaper: Human Aging, Gerontology Research, and Unified Biological Intelligence™ Integration**

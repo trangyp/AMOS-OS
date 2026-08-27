@@ -1,9 +1,14 @@
 ---
 title: ARCHIVE LEGACY CONTRACT
 type: legacy
-tags: [amos_os, 24_archive]
+source: 24_ARCHIVE/00_LEGACY
+tags: [amos_os, 24_archive, canon/archive]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # ARCHIVE LEGACY CONTRACT

@@ -1,10 +1,15 @@
 ---
 title: MEDICAL CLINICAL MODEL
 type: model
+source: 11_KNOWLEDGE/models
 aliases: [Medical Clinical Kernel, AMOS_Medical_Clinical]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/observation, topic/medical-clinical-model, models]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: model_specification
 ---
-
 
 
 # AMOS Medical & Clinical Engine Kernel

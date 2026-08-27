@@ -1,8 +1,15 @@
 ---
 title: "54 Crisis Incident Modes MOC"
 type: moc
-tags: [moc, 54-crisis-incident-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/54_CRISIS_INCIDENT_MODES
+tags: [moc, 54-crisis-incident-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 54 Crisis Incident Modes — Map of Content
 

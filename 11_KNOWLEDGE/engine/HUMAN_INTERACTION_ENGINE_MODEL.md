@@ -3,10 +3,16 @@ title: "AMOS Human Interaction Engine (HIE) Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: brain-model
+source: 11_KNOWLEDGE/engine
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/human-interaction-engine-model, engine]
 status: "active"
 provenance: "3.Spicies_Interaction_Engine-HIE.uiface.txt"
 confidence: "STRUCTURAL"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
 
 

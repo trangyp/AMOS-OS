@@ -4,10 +4,16 @@ created: "2026-08-23"
 origin: "Hermes ↔ Cosmo Brain"
 origin_architect: "Trang Phan"
 type: note
-tags: [cosmo, amos, canon-group/tech-ai, rscf/claim, rscf/state/observation, topic/typescript, topic/architecture, topic/core-modules, brain]
+source: 11_KNOWLEDGE/brain
+tags: [cosmo, amos, canon-group/tech-ai, rscf/claim, rscf/state/observation, topic/typescript, topic/architecture, topic/core-modules, brain, canon/knowledge]
 status: "complete"
 provenance: "OBSERVATION"
 confidence: "HIGH"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
 ---
 
 

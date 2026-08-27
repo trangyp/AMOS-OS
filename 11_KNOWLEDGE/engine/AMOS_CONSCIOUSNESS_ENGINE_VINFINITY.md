@@ -1,11 +1,17 @@
 ---
 title: "AMOS Consciousness Engine vInfinity"
 type: consciousness
+source: 11_KNOWLEDGE/engine
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Core/AMOS_Consciousness_Engine_v0.json (632 lines, 27KB)"
 origin_type: "SOURCE"
 category: "kernel"
-tags: [amos, consciousness, engine, v-infinity, hie, human-interaction, emotional-comprehension, somatic, intuition, empathy, identity]
+tags: [amos, consciousness, engine, v-infinity, hie, human-interaction, emotional-comprehension, somatic, intuition, empathy, identity, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
 
 

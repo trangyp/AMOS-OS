@@ -1,8 +1,15 @@
 ---
 title: "02 Superseded MOC"
 type: moc
-tags: [moc, 02-superseded]
+source: 24_ARCHIVE/02_SUPERSEDED
+tags: [moc, 02-superseded, canon/archive]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 02 Superseded — Map of Content
 

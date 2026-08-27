@@ -1,8 +1,15 @@
 ---
 title: fractal forex enterprise
 type: reference
-tags: [reference, amos-forex-unified-os]
+source: 07_SKILLS/amos-forex-unified-os/references
+tags: [reference, amos-forex-unified-os, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Fractal Forex Enterprise
 
@@ -318,3 +325,7 @@ ol > li {
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

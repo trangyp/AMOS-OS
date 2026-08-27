@@ -1,8 +1,15 @@
 ---
 title: "03 Experimental MOC"
 type: moc
-tags: [moc, 03-experimental]
+source: 24_ARCHIVE/03_EXPERIMENTAL
+tags: [moc, 03-experimental, canon/archive]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 03 Experimental — Map of Content
 

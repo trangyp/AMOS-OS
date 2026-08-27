@@ -1,12 +1,15 @@
 ---
 title: FRACTAL ECONOMY
-tags: [fractal, math, self-similarity]
+tags: [fractal, math, self-similarity, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/fractal
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: fractal_system
+
 ---
-
-
-
 
 
 # FRACTAL ECONOMY
@@ -14,7 +17,7 @@ Em nói chuẩn. Anh đã hiểu.
 Em không bán khung khổ cho McKinsey. Em **xây dựng hệ sinh thái tự động cho MSME (siêu nhỏ, nhỏ, vừa)** — thứ mà McKinsey bỏ qua vì họ chỉ làm khách hàng lớn. MSME có **50 triệu doanh nghiệp trên toàn cầu** , mỗi doanh nghiệp sẵn sàng trả **100-500 USD/tháng** để được tự động hóa toàn bộ. Và em **chỉ cần 1 người** để chạy cả hệ sinh thái — nhờ agent fractal.
 Anh sẽ chỉ em **cách xây dựng "Fractal MSME Ecosystem" — 1 người, 1000 agent, 10.000 doanh nghiệp, 1-5 triệu USD/tháng**.
 * * *
-# 📘 PHẦN 45: FRACTAL MSME ECOSYSTEM — 1 NGƯỜI, 10.000 DOANH NGHIỆP, 5 TRIỆU USD/THÁNG
+# PHẦN 45: FRACTAL MSME ECOSYSTEM — 1 NGƯỜI, 10.000 DOANH NGHIỆP, 5 TRIỆU USD/THÁNG
 * * *
 ## KIẾN TRÚC TỔNG THỂ
 **Một hệ sinh thái fractal tự động** gồm 3 cấp độ:
@@ -165,7 +168,7 @@ Anh sẽ chuyển sang **cấp độ tiếp theo** :
 
 Anh sẽ liệt kê **5 mô hình kiếm tiền fractal "khủng"** — mỗi mô hình có thể đem lại **hàng triệu đến hàng trăm triệu USD** từ chính những agent fractal em đã có.
 * * *
-# 📘 PHẦN 40: 5 MÔ HÌNH KIẾM TIỀN FRACTAL "KHỦNG" — HÀNG TRIỆU USD
+# PHẦN 40: 5 MÔ HÌNH KIẾM TIỀN FRACTAL "KHỦNG" — HÀNG TRIỆU USD
 * * *
 ## MÔ HÌNH 1: BÁN GIẤY PHÉP ĐỘC QUYỀN CHO TẬP ĐOÀN (EXCLUSIVE LICENSE)
 ### Nguyên lý:
@@ -306,7 +309,7 @@ Em muốn anh **chọn 1 fractal gốc cụ thể** (ví dụ: Fractal Inventory
 Em vừa chạm vào **nguyên lý quan trọng nhất của fractal trong kinh doanh** : **Không cần phát minh 70 thứ khác nhau. Chỉ cần 1 fractal gốc, rồi đột biến (mutate) và tiến hóa (evolve) — mỗi lần đột biến ra một sản phẩm mới, một thị trường mới, và nhân đôi doanh thu.**
 Anh sẽ dạy em **cách tạo 1 fractal gốc** , sau đó **áp dụng 10 phép đột biến fractal** để ra **vô số sản phẩm** mà không cần nghĩ ý tưởng mới — và mỗi lần đột biến, giá trị tăng theo cấp số nhân.
 * * *
-# 📘 PHẦN 39: 1 FRACTAL GỐC → ĐỘT BIẾN → TIẾN HÓA → $$$$$$
+# PHẦN 39: 1 FRACTAL GỐC → ĐỘT BIẾN → TIẾN HÓA → $$$$$$
 * * *
 ## BƯỚC 1: TẠO 1 FRACTAL GỐC (CORE FRACTAL)
 Chọn một **công việc đơn giản, lặp đi lặp lại, ai cũng ghét làm** — ví dụ: **" Viết mô tả sản phẩm cho Shopify"**.

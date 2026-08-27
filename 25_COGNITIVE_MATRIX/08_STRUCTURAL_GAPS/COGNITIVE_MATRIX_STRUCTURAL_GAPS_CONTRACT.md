@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX STRUCTURAL GAPS CONTRACT
 type: gap
-tags: [cognitive_matrix, cognitive_matrix_structural_gaps_contract.md]
+source: 25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS
+tags: [cognitive_matrix, cognitive_matrix_structural_gaps_contract.md, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # COGNITIVE MATRIX STRUCTURAL GAPS CONTRACT
@@ -75,3 +80,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[08_STRUCTURAL_GAPS_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

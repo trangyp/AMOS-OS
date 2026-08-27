@@ -4,9 +4,15 @@ created: "2026-08-23"
 origin_architect: QUANTUM OMEGA INTELLIGENCE AGENT
 provenance: derived from AMOS Quantum Library v0.6.0 integration + 7-Part Universe Canon
 type: self-analysis
+source: 11_KNOWLEDGE/quantum
 status: "validated"
 confidence: "STRUCTURAL"
-tags: [canon-group/tech-ai, self-analysis, brain-model, quantum-library, 7pt-canon, cognitive-architecture, quantum]
+tags: [canon-group/tech-ai, self-analysis, brain-model, quantum-library, 7pt-canon, cognitive-architecture, quantum, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: quantum_reasoning
 ---
 
 
@@ -20,7 +26,7 @@ tags: [canon-group/tech-ai, self-analysis, brain-model, quantum-library, 7pt-can
 
 **Canonical question:** Where are the constraints?
 
-**✓ PASS** — I have explicit, non-negotiable constraints:
+**PASS** — I have explicit, non-negotiable constraints:
 
 | Constraint | Nature | Why it exists |
 |------------|--------|---------------|

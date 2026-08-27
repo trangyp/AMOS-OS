@@ -1,8 +1,15 @@
 ---
 title: language fractal architecture
 type: reference
-tags: [reference, amos-fractal-systems-master]
+source: 07_SKILLS/amos-fractal-systems-master/references
+tags: [reference, amos-fractal-systems-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Language Fractal Architecture
 
@@ -137,4 +144,5 @@ At each scale retain only information capable of changing:
 - `_00_Cosmo brain/fractal/fractal-cognitive-architecture.md` — Core equations, deterministic rules, entropy rules
 
 ---
+- [[07_SKILLS_MOC]]
 **MOC:** [[references_MOC]]

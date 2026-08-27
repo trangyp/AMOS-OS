@@ -1,14 +1,22 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-fractal-systems-master
 name: amos-fractal-systems-master
 description: AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity, scale-invariance, H/M/L fractal integrity levels. 500,000-entry quantum fractal database. Use for fractal analysis, scale r...
 parent_skill: none
 domain: fractal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-fractal-systems-master]
+tags: [note, amos-fractal-systems-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
+
 
 # L15 Fractal Knowledge Laws
 
@@ -87,3 +95,86 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 ## 4. Falsifiers
 F1: recovered fractal canon defines diff
 - [[AGENT_TEMPLATE]]
+
+---
+**MOC:** [[amos-fractal-systems-master_MOC]]
+
+## Examples
+
+- **Scenario**: When validating outputs against domain constraints and epistemic class
+  - **Input**: A query matching this skill's domain (fractal)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the fractal domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when fractal specialization is needed
+- **Peers**: Other skills in the `fractal` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/chaos_diagnostics.md` — loaded on demand
+- `references/forex_fractal_geometry_research.md` — loaded on demand
+- `references/fractal_architecture_reality.md` — loaded on demand
+- `references/fractal_cognitive_architecture_equations.md` — loaded on demand
+- `references/fractal_cognitive_architecture_requirements.md` — loaded on demand
+- `references/fractal_cognitive_architecture_rules.md` — loaded on demand
+- `references/fractal_ips.md` — loaded on demand
+- `references/fractal_math_core.md` — loaded on demand
+- `references/fractal_state_skill.md` — loaded on demand
+- `references/generative_family_validation.md` — loaded on demand
+- `references/heritage_12_fractal_types.md` — loaded on demand
+- `references/hexagonal_fractal_mars_pineapple.md` — loaded on demand
+- `references/lacunarity_in_brain.md` — loaded on demand
+- `references/language_fractal_architecture.md` — loaded on demand
+- `references/lmh_structure.md` — loaded on demand
+- `references/multifractal_hurst_diagnostics.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/rg_fractal_bridge.md` — loaded on demand
+- `references/scaling_law_diagnostics.md` — loaded on demand
+- `references/ubi_fractal_entropy_correction.md` — loaded on demand
+- `[[amos-fractal-systems-master_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-fractal-systems-master-workflow]]` — corresponding workflow
+- `[[amos-fractal-systems-master-agent]]` — corresponding agent
+

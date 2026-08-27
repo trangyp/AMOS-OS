@@ -1,13 +1,16 @@
 ---
 title: ABSOLUTE TRANSCENDENT SYNTHESIS 20260219 214228
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: data
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
-
+# ABSOLUTE TRANSCENDENT SYNTHESIS 20260219 214228
 
 ```json
 {

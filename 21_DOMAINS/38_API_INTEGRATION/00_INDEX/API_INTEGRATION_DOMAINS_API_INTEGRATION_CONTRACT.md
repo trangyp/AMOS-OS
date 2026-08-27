@@ -1,9 +1,14 @@
 ---
 title: API INTEGRATION DOMAINS API INTEGRATION CONTRACT
 type: integration
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/38_API_INTEGRATION/00_INDEX
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # API INTEGRATION DOMAINS API INTEGRATION CONTRACT

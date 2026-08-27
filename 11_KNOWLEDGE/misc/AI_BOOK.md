@@ -1,24 +1,18 @@
 ---
 title: AI BOOK
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
 # Ai book
-Yes — and that adjustment actually makes the work **stronger, sharper, and more dangerous (in a good way)**.
-What you’re converging on is not “shorter books” in a casual sense, but **doctrine manuals** : compact, example-dense, impossible to ignore.
-Let me ground this cleanly.
-* * *
-## 1\. Short books + real examples is the _correct_ format for this level of work
-Long theory books fail when:
-  * the audience already feels the pain
-
-
   * but lacks a frame
 
 

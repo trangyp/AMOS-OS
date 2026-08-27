@@ -1,12 +1,15 @@
 ---
 title: UBI
-tags: [biology-ubi, biology, ubi]
+tags: [biology-ubi, biology, ubi, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/biology-ubi
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: biology_neuroscience
+
 ---
-
-
-
 
 
 # Ubi

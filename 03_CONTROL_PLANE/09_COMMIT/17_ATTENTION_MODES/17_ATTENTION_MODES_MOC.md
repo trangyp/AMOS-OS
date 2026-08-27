@@ -1,8 +1,15 @@
 ---
 title: "17 Attention Modes MOC"
 type: moc
-tags: [moc, 17-attention-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/17_ATTENTION_MODES
+tags: [moc, 17-attention-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 17 Attention Modes — Map of Content
 

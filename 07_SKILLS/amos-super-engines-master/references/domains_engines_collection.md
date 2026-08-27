@@ -1,8 +1,15 @@
 ---
 title: domains engines collection
 type: reference
-tags: [reference, amos-super-engines-master]
+source: 07_SKILLS/amos-super-engines-master/references
+tags: [reference, amos-super-engines-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Domains Engines Collection
 
@@ -169,4 +176,5 @@ The 17 domain engines form the **application layer** of AMOS. They consume the c
 - `_00_Cosmo brain/engine/A/AMOS Unipower Engines.md` — 20 Unipower engines (country/sector layer)
 
 ---
+- [[07_SKILLS_MOC]]
 **MOC:** [[references_MOC]]

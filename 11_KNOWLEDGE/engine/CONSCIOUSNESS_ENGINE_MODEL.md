@@ -3,10 +3,16 @@ title: "Consciousness Engine Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: note
+source: 11_KNOWLEDGE/engine
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/consciousness-engine-model, engine]
 status: "active"
 provenance: "MODEL"
 confidence: "DERIVED"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
 
 

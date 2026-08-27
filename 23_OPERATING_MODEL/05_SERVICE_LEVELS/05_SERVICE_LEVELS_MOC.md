@@ -1,8 +1,15 @@
 ---
 title: "05 Service Levels MOC"
 type: moc
-tags: [moc, 05-service-levels]
+source: 23_OPERATING_MODEL/05_SERVICE_LEVELS
+tags: [moc, 05-service-levels, canon/operating-model]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 05 Service Levels — Map of Content
 

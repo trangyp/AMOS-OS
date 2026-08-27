@@ -1,11 +1,15 @@
 ---
 title: AMOS CROSS SPECIES FUNCTIONAL DYNAMICS ARCHITECTURE
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
 
 
 # AMOS Cross-Species Functional Dynamics Architecture (CSFDA)
@@ -504,15 +508,11 @@ f(
 
 A Markov-like model:
 
-\[
-P(Z_{t+1} | Z_t, X_t, R_t)
-\]
+$$P(Z_{t+1} | Z_t, X_t, R_t)$$
 
 A non-Markov extension:
 
-\[
-P(Z_{t+1} | Z_{0:t}, X_{0:t}, R_{0:t})
-\]
+$$P(Z_{t+1} | Z_{0:t}, X_{0:t}, R_{0:t})$$
 
 is required when hysteresis or memory matters.
 
@@ -604,17 +604,7 @@ This prevents symbol collision with unrelated AMOS architectures.
 
 For co-active modes:
 
-\[
-P(Z_{k,t}=1 | X_t, A, E, R)
-=
-σ(
-β_{k0}
-+ β_k^\top X_t
-+ u_{k,A}
-+ v_{k,E}
-+ w_{k,R}
-)
-\]
+$$P(Z_{k,t}=1 | X_t, A, E, R) = σ( β_{k0} + β_k^\top X_t + u_{k,A} + v_{k,E} + w_{k,R} )$$
 
 where:
 
@@ -624,12 +614,7 @@ where:
 
 For competitive modes:
 
-\[
-P(Z_t=k | X_t,A,E,R)
-=
-\frac{\exp(\eta_k)}
-{\sum_j \exp(\eta_j)}
-\]
+$$P(Z_t=k | X_t,A,E,R) = \frac{\exp(\eta_k)} {\sum_j \exp(\eta_j)}$$
 
 AMOS default: use co-active representation unless exclusivity is validated.
 
@@ -641,19 +626,11 @@ Cross-species modeling requires partial pooling, not one universal coefficient s
 
 For species/system class `s`:
 
-\[
-β_{k,s}
-\sim
-\mathcal{N}(μ_k, Σ_k)
-\]
+$$β_{k,s} \sim \mathcal{N}(μ_k, Σ_k)$$
 
 Observation model:
 
-\[
-y_{i,t}
-\sim
-p(y | Z_{i,t}, \theta_s, context)
-\]
+$$y_{i,t} \sim p(y | Z_{i,t}, \theta_s, context)$$
 
 This allows:
 
@@ -741,14 +718,7 @@ The evidence class remains attached.
 
 Define a target-specific comparability distance:
 
-\[
-D(a_i,a_j)
-=
-\sum_d
-w_d
-\cdot
-δ_d(a_i,a_j)
-\]
+$$D(a_i,a_j) = \sum_d w_d \cdot δ_d(a_i,a_j)$$
 
 where:
 
@@ -790,15 +760,7 @@ not empirical prevalence.
 
 Target-specific priors:
 
-\[
-π_k =
-P(Z=k |
-agent_class,
-population,
-context,
-regime,
-measurement)
-\]
+$$π_k = P(Z=k | agent_class, population, context, regime, measurement)$$
 
 ---
 
@@ -849,16 +811,7 @@ not a hard invariant.
 
 Define mode gradient:
 
-\[
-\nabla z_k =
-[
-\partial z_k/\partial Ω,
-\partial z_k/\partial H,
-\partial z_k/\partial F,
-\partial z_k/\partial S,
-\partial z_k/\partial C^*
-]
-\]
+$$\nabla z_k = [ \partial z_k/\partial Ω, \partial z_k/\partial H, \partial z_k/\partial F, \partial z_k/\partial S, \partial z_k/\partial C^* ]$$
 
 This is useful for sensitivity and intervention analysis.
 
@@ -921,12 +874,7 @@ TSS_STATE != MODE_STATE
 
 CSFDA mode state may be a feature in transition prediction.
 
-\[
-P(X_{t+1} |
-X_t,
-Z_t,
-E_t)
-\]
+$$P(X_{t+1} | X_t, Z_t, E_t)$$
 
 The discriminating benchmark is:
 
@@ -1061,23 +1009,9 @@ CSFDA itself must satisfy the persistence canon.
 
 A richer AMOS representation:
 
-\[
-x_{t+1}
-=
-A_r x_t
-+
-B_r u_t
-+
-w_t
-\]
+$$x_{t+1} = A_r x_t + B_r u_t + w_t$$
 
-\[
-y_t
-=
-C_s x_t
-+
-v_t
-\]
+$$y_t = C_s x_t + v_t$$
 
 where:
 
@@ -1089,9 +1023,7 @@ where:
 
 CSFDA modes are derived from latent state:
 
-\[
-z_t = g(x_t)
-\]
+$$z_t = g(x_t)$$
 
 This separates observation from interpretation.
 
@@ -1114,15 +1046,11 @@ R_t ∈ {
 
 Use:
 
-\[
-P(R_{t+1}|R_t,X_t)
-\]
+$$P(R_{t+1}|R_t,X_t)$$
 
 and regime-specific parameters:
 
-\[
-β_k^{(R)}
-\]
+$$β_k^{(R)}$$
 
 This prevents one static model from being applied through all conditions.
 
@@ -1719,24 +1647,13 @@ not “emotional organization.”
 
 For population `N`:
 
-\[
-\mu_k(t)
-=
-\frac{1}{N}
-\sum_i z_{i,k,t}
-\]
+$$\mu_k(t) = \frac{1}{N} \sum_i z_{i,k,t}$$
 
 This produces average activation, not fixed population caste proportions.
 
 Variance:
 
-\[
-Var_k(t)
-=
-\frac{1}{N}
-\sum_i
-(z_{i,k,t} - \mu_k(t))^2
-\]
+$$Var_k(t) = \frac{1}{N} \sum_i (z_{i,k,t} - \mu_k(t))^2$$
 
 Heterogeneity matters.
 
@@ -1746,11 +1663,7 @@ Heterogeneity matters.
 
 Mode-distribution entropy:
 
-\[
-H_Z(t)
-=
--\sum_k p_k(t)\log p_k(t)
-\]
+$$H_Z(t) = -\sum_k p_k(t)\log p_k(t)$$
 
 Interpretation depends on model family.
 
@@ -1828,9 +1741,7 @@ This is a hypothesis pattern, not a deterministic law.
 
 A mode transition may occur when:
 
-\[
-g_k(X_t) > \theta_k
-\]
+$$g_k(X_t) > \theta_k$$
 
 but thresholds are target-specific.
 
@@ -1856,12 +1767,7 @@ For mode activation, calibration must be defined against observable targets.
 
 Define:
 
-\[
-TransferScore =
-Performance_{target}
--
-Performance_{target\_specific\_baseline}
-\]
+$$TransferScore = Performance_{target} - Performance_{target\_specific\_baseline}$$
 
 A positive transfer score is necessary to claim useful cross-species reuse.
 
@@ -1877,14 +1783,7 @@ cross_species_model = QUARANTINE_FOR_TARGET
 
 Define:
 
-\[
-D_{sem}
-=
-distance(
-source_function,
-target_function
-)
-\]
+$$D_{sem} = distance( source_function, target_function )$$
 
 High distortion blocks translation.
 

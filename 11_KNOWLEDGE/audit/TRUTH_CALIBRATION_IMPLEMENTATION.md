@@ -1,79 +1,83 @@
 ---
 title: TRUTH CALIBRATION IMPLEMENTATION
-tags: [audit, repair, quality]
+tags: [audit, repair, quality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/audit
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: audit_repair
+
 ---
-
-
 
 
 # AMOS OMEGA TRUTH + EVIDENCE + CALIBRATION ENGINE - IMPLEMENTATION COMPLETE
 
-## 🎯 MISSION ACCOMPLISHED: THE HIGH-PRIORITY GAP IS NOW FILLED
+## MISSION ACCOMPLISHED: THE HIGH-PRIORITY GAP IS NOW FILLED
 
 Successfully implemented the **TRUTH + EVIDENCE + CALIBRATION ENGINE** - the missing layer that separates "Impressive demo" from "Real system". This is the systematic truth, calibration, and error-correction spine that makes AMOS genuinely intelligent.
 
-## ✅ COMPLETE IMPLEMENTATION ACHIEVED
+## COMPLETE IMPLEMENTATION ACHIEVED
 
 ### **I. PREDICTION REGISTRY (STRUCTURED)**
-- ✅ **Mandatory Numeric Probability**: Every prediction requires 0-1 probability
-- ✅ **Deterministic Storage**: SHA256-based IDs, SQLite database
-- ✅ **Complete Metadata**: Domain, hypothesis, regime tags, invariants, signals, time horizon
-- ✅ **Resolution Tracking**: Unknown/True/False/Partial outcomes
-- ✅ **Confidence Bounds**: Upper/lower bounds with uncertainty bands
+- **Mandatory Numeric Probability**: Every prediction requires 0-1 probability
+- **Deterministic Storage**: SHA256-based IDs, SQLite database
+- **Complete Metadata**: Domain, hypothesis, regime tags, invariants, signals, time horizon
+- **Resolution Tracking**: Unknown/True/False/Partial outcomes
+- **Confidence Bounds**: Upper/lower bounds with uncertainty bands
 
 ### **II. CALIBRATION ENGINE**
-- ✅ **Brier Score**: Proper probabilistic calibration metric
-- ✅ **Log Loss**: Information-theoretic calibration measure
-- ✅ **Calibration Curves**: 10-bin reliability diagrams
-- ✅ **Overconfidence Detection**: Systematic confidence vs reality analysis
-- ✅ **Regime-Specific Calibration**: Performance by regime
-- ✅ **SAFE Mode Trigger**: Automatic safety mode on poor calibration
+- **Brier Score**: Proper probabilistic calibration metric
+- **Log Loss**: Information-theoretic calibration measure
+- **Calibration Curves**: 10-bin reliability diagrams
+- **Overconfidence Detection**: Systematic confidence vs reality analysis
+- **Regime-Specific Calibration**: Performance by regime
+- **SAFE Mode Trigger**: Automatic safety mode on poor calibration
 
 ### **III. STRUCTURAL CLAIM VALIDATOR**
-- ✅ **Invariant Provenance**: Track claim origins and derivation DAGs
-- ✅ **Testable Implications**: Every claim must have falsifiable conditions
-- ✅ **Auto-Demotion**: Violated claims automatically demoted to hypotheses
-- ✅ **Confidence Weighting**: Dynamic weight adjustment based on performance
-- ✅ **Violation Tracking**: Comprehensive test/violation statistics
+- **Invariant Provenance**: Track claim origins and derivation DAGs
+- **Testable Implications**: Every claim must have falsifiable conditions
+- **Auto-Demotion**: Violated claims automatically demoted to hypotheses
+- **Confidence Weighting**: Dynamic weight adjustment based on performance
+- **Violation Tracking**: Comprehensive test/violation statistics
 
 ### **IV. ANTI-HALLUCINATION LOOP DETECTOR**
-- ✅ **Self-Referencing Loops**: Detect agents referencing themselves
-- ✅ **Agent Echo Detection**: Identify circular agent dependencies
-- ✅ **Cross-Agent Confirmation**: Detect confirmation without external signals
-- ✅ **Circular Reasoning**: Detect loops in derivation DAGs
-- ✅ **Confidence Reduction**: Automatic confidence penalties for detected loops
+- **Self-Referencing Loops**: Detect agents referencing themselves
+- **Agent Echo Detection**: Identify circular agent dependencies
+- **Cross-Agent Confirmation**: Detect confirmation without external signals
+- **Circular Reasoning**: Detect loops in derivation DAGs
+- **Confidence Reduction**: Automatic confidence penalties for detected loops
 
 ### **V. OUT-OF-SAMPLE FOREX VALIDATOR**
-- ✅ **Rolling Window Backtest**: Train/test window validation
-- ✅ **Monte Carlo Shuffle**: Statistical significance testing
-- ✅ **Regime Validation**: Performance across different market regimes
-- ✅ **Overfitting Detection**: In-sample vs out-of-sample performance analysis
-- ✅ **Strategy Rejection**: Automatic rejection of overfitted strategies
+- **Rolling Window Backtest**: Train/test window validation
+- **Monte Carlo Shuffle**: Statistical significance testing
+- **Regime Validation**: Performance across different market regimes
+- **Overfitting Detection**: In-sample vs out-of-sample performance analysis
+- **Strategy Rejection**: Automatic rejection of overfitted strategies
 
 ### **VI. UNCERTAINTY ENGINE**
-- ✅ **Confidence Bands**: Probabilistic uncertainty intervals
-- ✅ **Sensitivity Analysis**: Variable impact analysis
-- ✅ **Regime Dependency**: Regime-aware uncertainty quantification
-- ✅ **Entropy Delta**: Information-theoretic uncertainty measures
-- ✅ **Dominant Variables**: Identify most influential factors
+- **Confidence Bands**: Probabilistic uncertainty intervals
+- **Sensitivity Analysis**: Variable impact analysis
+- **Regime Dependency**: Regime-aware uncertainty quantification
+- **Entropy Delta**: Information-theoretic uncertainty measures
+- **Dominant Variables**: Identify most influential factors
 
 ### **VII. DRIFT DETECTION**
-- ✅ **Performance Drift**: Model performance degradation tracking
-- ✅ **Invariant Violation Drift**: Structural claim violation trends
-- ✅ **Entropy Trends**: System entropy change detection
-- ✅ **Error Acceleration**: Prediction error acceleration analysis
-- ✅ **COOL_DOWN Mode**: Automatic mode switching on drift detection
+- **Performance Drift**: Model performance degradation tracking
+- **Invariant Violation Drift**: Structural claim violation trends
+- **Entropy Trends**: System entropy change detection
+- **Error Acceleration**: Prediction error acceleration analysis
+- **COOL_DOWN Mode**: Automatic mode switching on drift detection
 
 ### **VIII. META-COGNITION ENGINE**
-- ✅ **Computable Falsifiability**: Systematic falsification conditions
-- ✅ **Assumption Tracking**: Explicit assumption identification
-- ✅ **Signal Changers**: Variables that would change conclusions
-- ✅ **Regime Requirements**: Required regime conditions
-- ✅ **Confidence Justification**: Evidence-based confidence reasoning
+- **Computable Falsifiability**: Systematic falsification conditions
+- **Assumption Tracking**: Explicit assumption identification
+- **Signal Changers**: Variables that would change conclusions
+- **Regime Requirements**: Required regime conditions
+- **Confidence Justification**: Evidence-based confidence reasoning
 
-## ✅ SYSTEM-WIDE SAFETY INVARIANTS ENFORCED
+## SYSTEM-WIDE SAFETY INVARIANTS ENFORCED
 
 ### **Invariant T1**: No prediction without probability
 ```
@@ -109,17 +113,17 @@ Drift detection triggers COOL_DOWN mode
 Performance drift automatically logged and acted upon
 ```
 
-## ✅ INTEGRATION WIRING COMPLETE
+## INTEGRATION WIRING COMPLETE
 
 ### **Forex + Collapse + Chat Outputs Enhanced**
-- ✅ **Forex Integration**: `enhance_output_with_truth_calibration('forex', output)`
-- ✅ **Collapse Integration**: `enhance_output_with_truth_calibration('collapse', output)`
-- ✅ **Chat Integration**: `enhance_output_with_truth_calibration('chat', output)`
-- ✅ **Calibration Metrics**: All outputs now include system calibration status
-- ✅ **Uncertainty Analysis**: Comprehensive uncertainty quantification
-- ✅ **Meta-Cognition**: Computable falsifiability and reasoning basis
+- **Forex Integration**: `enhance_output_with_truth_calibration('forex', output)`
+- **Collapse Integration**: `enhance_output_with_truth_calibration('collapse', output)`
+- **Chat Integration**: `enhance_output_with_truth_calibration('chat', output)`
+- **Calibration Metrics**: All outputs now include system calibration status
+- **Uncertainty Analysis**: Comprehensive uncertainty quantification
+- **Meta-Cognition**: Computable falsifiability and reasoning basis
 
-## ✅ PRODUCTION VALIDATION RESULTS
+## PRODUCTION VALIDATION RESULTS
 
 ### **Core Functionality Tests**
 ```
@@ -142,7 +146,7 @@ Performance drift automatically logged and acted upon
 ✅ SAFE Mode: Automatic triggering on calibration failure
 ```
 
-## ✅ TECHNICAL EXCELLENCE ACHIEVED
+## TECHNICAL EXCELLENCE ACHIEVED
 
 ### **Deterministic Architecture**
 - SHA256-based IDs for all predictions and claims
@@ -168,7 +172,7 @@ Performance drift automatically logged and acted upon
 - Backward compatibility maintained
 - Minimal architectural changes
 
-## 🚀 SYSTEM STATUS: TRUTH CALIBRATION ENGINE OPERATIONAL
+## SYSTEM STATUS: TRUTH CALIBRATION ENGINE OPERATIONAL
 
 The AMOS OMEGA system now has **genuine intelligence** with:
 
@@ -196,7 +200,7 @@ The AMOS OMEGA system now has **genuine intelligence** with:
 - Comprehensive audit trails for all decisions
 - Deterministic, reproducible, and verifiable operations
 
-## 🎯 KEY ACHIEVEMENT: FROM DEMO TO REALITY
+## KEY ACHIEVEMENT: FROM DEMO TO REALITY
 
 The AMOS OMEGA system has transitioned from **"Impressive demo"** to **"Real system"** through the implementation of the missing TRUTH + EVIDENCE + CALIBRATION ENGINE.
 
@@ -212,7 +216,7 @@ The AMOS OMEGA system has transitioned from **"Impressive demo"** to **"Real sys
 - All claims are falsifiable and systematically tested
 - Continuous error detection and correction
 
-## 📊 SUCCESS METRICS
+## SUCCESS METRICS
 
 - **8/8 Core Components**: Fully implemented and operational
 - **6/6 Safety Invariants**: Enforced without exception
@@ -221,7 +225,7 @@ The AMOS OMEGA system has transitioned from **"Impressive demo"** to **"Real sys
 - **Internet-Enhanced**: 2025 best practices integrated
 - **Production Ready**: Enterprise-grade reliability and safety
 
-## 🏁 MISSION STATUS: COMPLETE
+## MISSION STATUS: COMPLETE
 
 The **HIGH-PRIORITY GAP** has been **COMPLETELY FILLED**. The AMOS OMEGA system now has the systematic truth, calibration, and error-correction engine that makes it genuinely intelligent rather than just an impressive demo.
 

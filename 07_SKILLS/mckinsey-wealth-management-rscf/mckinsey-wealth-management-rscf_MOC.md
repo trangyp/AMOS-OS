@@ -1,8 +1,15 @@
 ---
 title: "Mckinsey-Wealth-Management-Rscf MOC"
 type: moc
-tags: [moc, mckinsey-wealth-management-rscf]
+source: 07_SKILLS/mckinsey-wealth-management-rscf
+tags: [moc, mckinsey-wealth-management-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Mckinsey-Wealth-Management-Rscf — Map of Content
 

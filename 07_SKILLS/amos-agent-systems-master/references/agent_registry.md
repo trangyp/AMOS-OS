@@ -1,8 +1,15 @@
 ---
 title: agent registry
 type: reference
-tags: [reference, amos-agent-systems-master]
+source: 07_SKILLS/amos-agent-systems-master/references
+tags: [reference, amos-agent-systems-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Agent Registry
 
@@ -97,3 +104,7 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

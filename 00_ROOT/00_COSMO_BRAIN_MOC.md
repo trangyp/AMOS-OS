@@ -1,8 +1,15 @@
 ---
 title: "00 Root MOC"
 type: moc
-tags: [moc, 00-root]
+source: 00_ROOT
+tags: [moc, 00-root, canon/root]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
+
 
 # 00 Root — Map of Content
 

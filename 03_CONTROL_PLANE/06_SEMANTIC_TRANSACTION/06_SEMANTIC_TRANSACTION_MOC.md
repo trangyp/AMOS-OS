@@ -1,8 +1,15 @@
 ---
 title: "06 Semantic Transaction MOC"
 type: moc
-tags: [moc, 06-semantic-transaction]
+source: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
+tags: [moc, 06-semantic-transaction, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 06 Semantic Transaction — Map of Content
 

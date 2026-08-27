@@ -1,14 +1,22 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-security-safety-master
 name: amos-security-safety-master
 description: "AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, immune systems, drift alignment. Use for security analysis, safety verification, or adversarial defense."
 parent_skill: none
 domain: security
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-security-safety-master]
+tags: [note, amos-security-safety-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
+
 
 # SECURITY README
 
@@ -88,3 +96,95 @@ Given an operation touching `SECURITY · README` within the Security plane:
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations —
 - [[AGENT_TEMPLATE]]
+
+---
+**MOC:** [[amos-security-safety-master_MOC]]
+
+## Examples
+
+- **Scenario**: When validating outputs against domain constraints and epistemic class
+  - **Input**: A query matching this skill's domain (security)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the security domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when security specialization is needed
+- **Peers**: Other skills in the `security` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/access_control.md` — loaded on demand
+- `references/access_control_priv_esc.md` — loaded on demand
+- `references/access_control_security_models.md` — loaded on demand
+- `references/adversarial_robustness_governance.md` — loaded on demand
+- `references/adversarial_validation.md` — loaded on demand
+- `references/beyond_blockchain_bio_security.md` — loaded on demand
+- `references/blockchain_hackable_security.md` — loaded on demand
+- `references/bounded_intelligence_security.md` — loaded on demand
+- `references/cors_security.md` — loaded on demand
+- `references/crisis_management_engine.md` — loaded on demand
+- `references/defense_security_civil_protection.md` — loaded on demand
+- `references/horizontal_access_control.md` — loaded on demand
+- `references/institutional_digital_security.md` — loaded on demand
+- `references/ios_reverse_engineering.md` — loaded on demand
+- `references/language_overlay_ip_security.md` — loaded on demand
+- `references/ldap_security.md` — loaded on demand
+- `references/oauth_openid_connect.md` — loaded on demand
+- `references/omega_crypto_internet.md` — loaded on demand
+- `references/omega_crypto_structural_engine.md` — loaded on demand
+- `references/privacy_compliance_licensing.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/risk_compliance_engine.md` — loaded on demand
+- `references/risk_compliance_engine_layer.md` — loaded on demand
+- `references/risk_compliance_engine_v0.md` — loaded on demand
+- `references/risk_compliance_kernel.md` — loaded on demand
+- `references/security_architecture_kernel.md` — loaded on demand
+- `references/shellshock.md` — loaded on demand
+- `references/tech_safe_honest_societies.md` — loaded on demand
+- `references/web_cache_poisoning.md` — loaded on demand
+- `[[amos-security-safety-master_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-security-safety-master-workflow]]` — corresponding workflow
+- `[[amos-security-safety-master-agent]]` — corresponding agent
+

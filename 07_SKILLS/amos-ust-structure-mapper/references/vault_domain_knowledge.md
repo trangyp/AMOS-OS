@@ -1,8 +1,17 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-ust-structure-mapper]
+source: 07_SKILLS/amos-ust-structure-mapper/references
+tags: [reference, amos-ust-structure-mapper, canon/skill]
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: skill_reference
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -30,6 +39,7 @@ UST = the canonical structural tree of the AMOS Universe domain: the MECE decomp
 - 0.Universe Logic Kernel-ULK.ulmk — Universe Logic Kernel (ULK) defines the logical atoms UST is built from.
 - AMOS Universe Interaction Engine — UIE defines how UST nodes interact.
 - AMOS Universe Total Canon UTC Master File — canonical home.
+- [[07_SKILLS_MOC]]
 
 ## Epistemic note
 This note is a **link-resolution anchor**, not an independent architecture claim. All structural authority is delegated to the UTC master file above. Confidence = SOURCE (delegated to canonical master).
@@ -123,7 +133,6 @@ Why It Matters: "Your community gets better infrastructure that actually reflect
 and your privacy choices are respected."
 
 4. The Forest That Has a Voice
-
 
 
 ---

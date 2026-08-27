@@ -1,12 +1,18 @@
 ---
 type: memory
-tags: [amos, cognitive-matrix, l02, attention, memory, rscf, governance]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
+tags: [amos, cognitive-matrix, l02, attention, memory, rscf, governance, canon/cognitive-matrix]
 
 title: "L02_ATTENTION — Memory"
 origin_architect: "Trang Phan"
 status: "MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED"
 epistemic_class: "MODEL"
 runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -18,7 +24,7 @@ runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
 **Artifact:** `MEMORY.md`  
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
-> **Canon boundary:** Drive evidence confirms that AMOS treats `MEMORY` as an explicit cognitive-cell concern, while the primitive registry separately identifies `L07 — MEMORY` with only partial source maturity. Therefore this artifact defines **memory used by L02 attention**, not the canonical semantics of the dedicated L07 memory primitive. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+> **Canon boundary:** Drive evidence confirms that AMOS treats `MEMORY` as an explicit cognitive-cell concern, while the primitive registry separately identifies `L07 — MEMORY` with only partial source maturity. Therefore this artifact defines **memory used by L02 attention**, not the canonical semantics of the dedicated L07 memory primitive.
 
 ---
 

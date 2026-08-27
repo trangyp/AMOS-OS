@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-tensor-network-contraction-sketch-rscf-engine]
+source: 07_SKILLS/amos-tensor-network-contraction-sketch-rscf-engine/references
+tags: [reference, amos-tensor-network-contraction-sketch-rscf-engine, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -135,3 +142,7 @@ AMOS Brain has been **successfully enhanced with quantum tensor network processi
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

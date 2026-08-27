@@ -1,8 +1,15 @@
 ---
 title: "18 Lifecycle MOC"
 type: moc
-tags: [moc, 18-lifecycle]
+source: 05_COGNITIVE_ORGANISM/18_LIFECYCLE
+tags: [moc, 18-lifecycle, canon/cognitive]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 18 Lifecycle — Map of Content
 

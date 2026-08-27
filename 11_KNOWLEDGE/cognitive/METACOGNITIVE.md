@@ -1,12 +1,15 @@
 ---
 title: METACOGNITIVE
-tags: [cognitive, cognition, mind]
+tags: [cognitive, cognition, mind, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/cognitive
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: cognitive_model
+
 ---
-
-
-
 
 
 # Metacognitive 
@@ -3818,3 +3821,6 @@ That is how advanced systems stay advanced.
 
 ---
 **MOC:** [[COGNITIVE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

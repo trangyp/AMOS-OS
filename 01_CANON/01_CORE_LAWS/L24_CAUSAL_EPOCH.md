@@ -1,9 +1,14 @@
 ---
 title: L24 CAUSAL EPOCH
 type: note
-tags: [canon, core_laws, note]
+source: 01_CANON/01_CORE_LAWS
+tags: [canon, core_laws, note, canon/universe]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: core_laws
 ---
-
 
 
 # L24 Causal Epoch Laws
@@ -45,3 +50,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[01_CORE_LAWS_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

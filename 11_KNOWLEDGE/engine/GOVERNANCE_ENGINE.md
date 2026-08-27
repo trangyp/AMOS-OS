@@ -1,14 +1,19 @@
 ---
 title: GOVERNANCE ENGINE
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: governance-engine
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/governance-engine, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
 
 
 # Governance Engine
@@ -77,3 +82,6 @@ See `engine/G/Governance_Super_Engine_v3.md` for the complete 902-line specifica
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,15 +1,20 @@
 ---
 title: AMOS TECH QUANTUM ENGINE V0 DOMAINS7
 type: quantum
+source: 11_KNOWLEDGE/quantum
 canon-group: quantum
 canon-type: framework
 rscf-state: source-claim
 topic: amos-tech-quantum-engine-v0
 tags: [canon-group/quantum, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-tech-quantum-engine-v0, quantum]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: quantum_reasoning
 ---
-
-
+# AMOS TECH QUANTUM ENGINE V0 DOMAINS7
 
 ```json
 [

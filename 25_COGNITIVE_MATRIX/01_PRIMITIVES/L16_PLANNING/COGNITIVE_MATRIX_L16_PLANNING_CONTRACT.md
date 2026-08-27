@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L16 PLANNING CONTRACT
 type: cognitive
-tags: [cognitive_matrix, primitives, l16_planning, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING
+tags: [cognitive_matrix, primitives, l16_planning, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L16_PLANNING — Planning Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L16_PLANNING_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

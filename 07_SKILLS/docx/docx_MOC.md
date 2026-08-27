@@ -1,8 +1,15 @@
 ---
 title: "Docx MOC"
 type: moc
-tags: [moc, docx]
+source: 07_SKILLS/docx
+tags: [moc, docx, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Docx — Map of Content
 

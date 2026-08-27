@@ -1,8 +1,15 @@
 ---
 title: critical fixes analysis
 type: reference
-tags: [reference, amos-audit-repair-master]
+source: 07_SKILLS/amos-audit-repair-master/references
+tags: [reference, amos-audit-repair-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Critical Fixes Analysis
 
@@ -21,7 +28,7 @@ tags: [audit]
 **Governance SSOT**: Enforced  
 **Hallucination Risk**: Acknowledged  
 
-## 🧠 AMOS BRAIN SUPREME STATUS
+## AMOS BRAIN SUPREME STATUS
 
 **Brain Type**: AMOS_BRAIN_SUPREME  
 **Status**: OPERATIONAL  
@@ -30,7 +37,7 @@ tags: [audit]
 **Agent Packs**: 2 coordinated  
 **Core Kernels**: 11 operational  
 
-## 🔍 TENSOR FIELD GOVERNANCE ANALYSIS
+## TENSOR FIELD GOVERNANCE ANALYSIS
 
 ### Multi-Scale Tensor Field S_t
 - **Shape**: (3, 4) - 3 agents × 4-dimensional state space
@@ -44,7 +51,7 @@ tags: [audit]
 - **Asymmetry Tensor**: M_{ij} anomaly detection
 - **Exhaustive Scan**: micro → meso → macro → meta layers
 
-## 🚨 CRITICAL SYSTEM ISSUES IDENTIFIED (H2)
+## CRITICAL SYSTEM ISSUES IDENTIFIED (H2)
 
 ### 1. MEMORY CONTAINMENT CRITICAL ⚠️
 **Issue**: 16.7GB swap usage (418% over 4GB limit)  
@@ -86,7 +93,7 @@ tags: [audit]
 **Impact**: Brain systems non-functional  
 **Risk Level**: HIGH  
 
-## 🔧 EXPLOITATION FACTORS ANALYSIS
+## EXPLOITATION FACTORS ANALYSIS
 
 ### Computed Exploitation Factors (H2)
 - **Ambiguity**: 0.234 (Medium)
@@ -101,7 +108,7 @@ tags: [audit]
 **Risk Level**: LOW  
 **Critical Factors**: NetworkAsymmetry, EnforcementLag  
 
-## 🎯 RECOMMENDED CRITICAL FIXES (H2 Hypotheses)
+## RECOMMENDED CRITICAL FIXES (H2 Hypotheses)
 
 ### Priority 1: Memory Containment Emergency
 1. **Restart System** - Clear 16.7GB swap
@@ -124,3 +131,7 @@ tags: [audit]
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

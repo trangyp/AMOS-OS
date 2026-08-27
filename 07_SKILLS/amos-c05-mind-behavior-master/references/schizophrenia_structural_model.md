@@ -1,8 +1,15 @@
 ---
 title: schizophrenia structural model
 type: reference
-tags: [reference, amos-c05-mind-behavior-master]
+source: 07_SKILLS/amos-c05-mind-behavior-master/references
+tags: [reference, amos-c05-mind-behavior-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Schizophrenia Structural Model Complete Human System
 
@@ -101,3 +108,7 @@ The book's model of schizophrenia is fundamentally a **boundary coherence failur
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

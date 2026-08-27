@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Long-Context-Rope-Scaling-Rscf MOC"
 type: moc
-tags: [moc, arxiv-long-context-rope-scaling-rscf]
+source: 07_SKILLS/arxiv-long-context-rope-scaling-rscf
+tags: [moc, arxiv-long-context-rope-scaling-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Long-Context-Rope-Scaling-Rscf — Map of Content
 

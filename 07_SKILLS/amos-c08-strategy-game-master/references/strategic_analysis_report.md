@@ -1,8 +1,15 @@
 ---
 title: strategic analysis report
 type: reference
-tags: [reference, amos-c08-strategy-game-master]
+source: 07_SKILLS/amos-c08-strategy-game-master/references
+tags: [reference, amos-c08-strategy-game-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Strategic Analysis Report
 
@@ -318,3 +325,7 @@ ol > li {
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

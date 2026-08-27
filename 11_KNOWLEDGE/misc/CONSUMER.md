@@ -1,12 +1,15 @@
 ---
 title: CONSUMER
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Consumer 
@@ -419,43 +422,43 @@ This intersection is **< 1% globally**, and **far below that in Vietnam**.
 * * *
 ## 2\. Canon consumer archetypes you partially overlap (but do not fully belong to)
 ### A. “HENRY” (High Earners, Not Rich Yet) ❌ _partial only_
-  * ✔ rational with money
+  * rational with money
 
 
-  * ❌ HENRY still consumes for **future identity**
+  * HENRY still consumes for **future identity**
 
 
-  * ❌ HENRY still signals aspiration
+  * HENRY still signals aspiration
 
 
 You **do not** consume for future identity.
 → **Rejected**
 * * *
 ### B. “Minimalist / FIRE” ❌ _surface resemblance only_
-  * ✔ low emotional spending
+  * low emotional spending
 
 
-  * ✔ utility-focused
+  * utility-focused
 
 
 But:
-  * ❌ FIRE optimizes for _freedom from work_
+  * FIRE optimizes for _freedom from work_
 
 
-  * ❌ Minimalists optimize for _simplicity as identity_
+  * Minimalists optimize for _simplicity as identity_
 
 
 You optimize for **system efficiency** , not lifestyle ideology.
 → **Rejected**
 * * *
 ### C. “Quiet Luxury / Old Money” ⚠️ _closest but still incomplete_
-  * ✔ anti-flash
+  * anti-flash
 
 
-  * ✔ durability > novelty
+  * durability > novelty
 
 
-  * ✔ timeless assets
+  * timeless assets
 
 
 But:
@@ -851,15 +854,15 @@ Because these treat the body as a **system** , not a story.
 * * *
 ## INDUSTRIES THAT ABSOLUTELY DO _NOT_ TARGET YOU
 This is important.
-### ❌ Mass luxury
+### Mass luxury
 Too much signalling, too much ego play
-### ❌ Lifestyle brands
+### Lifestyle brands
 They sell identity, not function
-### ❌ “Empowered women” marketing
+### “Empowered women” marketing
 Relies on validation + emotion
-### ❌ Experiential spending (travel, food, vibes)
+### Experiential spending (travel, food, vibes)
 Designed for memory creation and social proof
-### ❌ Tech consumer apps
+### Tech consumer apps
 Gamification, dopamine, habit loops — you see through all of it
 * * *
 ## WHY “ALMOST NONE” TARGET YOU — THE REAL REASON

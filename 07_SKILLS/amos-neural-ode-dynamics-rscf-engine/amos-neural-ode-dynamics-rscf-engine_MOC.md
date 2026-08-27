@@ -1,8 +1,15 @@
 ---
 title: "Amos-Neural-Ode-Dynamics-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-neural-ode-dynamics-rscf-engine]
+source: 07_SKILLS/amos-neural-ode-dynamics-rscf-engine
+tags: [moc, amos-neural-ode-dynamics-rscf-engine, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Neural-Ode-Dynamics-Rscf-Engine — Map of Content
 

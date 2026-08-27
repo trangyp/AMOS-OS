@@ -1,8 +1,17 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-repository-ast-analysis-rscf]
+source: 07_SKILLS/amos-repository-ast-analysis-rscf/references
+tags: [reference, amos-repository-ast-analysis-rscf, canon/skill]
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: skill_reference
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -273,3 +282,8 @@ with community consent for resource allocation
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]
+```

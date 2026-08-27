@@ -1,15 +1,20 @@
 ---
 title: 2026 08 23 AMOS KAFKA BRAIN BUFFER ALL 180 TESTS PASSING
 type: test
+source: 11_KNOWLEDGE/dated
 origin_architect: Trang Phan
 provenance: AMOS Kafka Brain Buffer v1.0 test suite — all 180 tests passing
 confidence: VERIFIED
 epistemic_class: OBSERVATION
 conclusion_label: VERIFIED
-tags: [amos, kafka-brain-buffer, typescript, testing, bugfix, cosmo-brain, dated, dated/2026-08-23]
+tags: [amos, kafka-brain-buffer, typescript, testing, bugfix, cosmo-brain, dated, dated/2026-08-23, canon/knowledge]
 date: 2026-08-23
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
-
 
 
 # AMOS Kafka Brain Buffer v1.0 — All 180 Tests Passing

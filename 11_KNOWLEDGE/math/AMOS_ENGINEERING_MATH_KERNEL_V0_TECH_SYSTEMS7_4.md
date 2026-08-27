@@ -3,10 +3,14 @@ title: AMOS ENGINEERING MATH KERNEL V0 TECH SYSTEMS7 4
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-engineering-math-kernel-v0, math]
 type: data
 source: 11_KNOWLEDGE/math
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: mathematical_model
+
 ---
-
-
-
+# AMOS ENGINEERING MATH KERNEL V0 TECH SYSTEMS7 4
 
 ```json
 [

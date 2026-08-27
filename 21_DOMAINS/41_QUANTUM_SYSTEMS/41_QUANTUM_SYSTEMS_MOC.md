@@ -1,8 +1,15 @@
 ---
 title: "41 Quantum Systems MOC"
 type: moc
-tags: [moc, 41-quantum-systems]
+source: 21_DOMAINS/41_QUANTUM_SYSTEMS
+tags: [moc, 41-quantum-systems, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 41 Quantum Systems — Map of Content
 

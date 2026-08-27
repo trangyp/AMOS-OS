@@ -1,15 +1,20 @@
 ---
 title: AMOS AI
 type: note
+source: 11_KNOWLEDGE/amos-general
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
 topic: amos-ai
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-ai, amos-general]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
-
-
+# AMOS AI
 
 ```json
 {

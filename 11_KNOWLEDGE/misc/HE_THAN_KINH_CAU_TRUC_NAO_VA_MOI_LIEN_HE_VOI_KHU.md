@@ -1,12 +1,15 @@
 ---
 title: HE THAN KINH CAU TRUC NAO VA MOI LIEN HE VOI KHU
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Hệ Thần Kinh, Cấu Trúc Não, và Mối Liên Hệ Với Khung Hậu Trang (HML – Hậu Trang M & L)

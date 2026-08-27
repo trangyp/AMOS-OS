@@ -1,8 +1,15 @@
 ---
 title: "04 Runtime MOC"
 type: moc
-tags: [moc, 04-runtime]
+source: 04_RUNTIME
+tags: [moc, 04-runtime, canon/runtime]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 04 Runtime — Map of Content
 

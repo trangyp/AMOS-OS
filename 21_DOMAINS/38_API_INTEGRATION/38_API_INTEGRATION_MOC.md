@@ -1,8 +1,15 @@
 ---
 title: "38 Api Integration MOC"
 type: moc
-tags: [moc, 38-api-integration]
+source: 21_DOMAINS/38_API_INTEGRATION
+tags: [moc, 38-api-integration, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 38 Api Integration — Map of Content
 

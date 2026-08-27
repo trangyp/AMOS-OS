@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-long-context-ci-repository-reasoning-rscf]
+source: 07_SKILLS/amos-long-context-ci-repository-reasoning-rscf/references
+tags: [reference, amos-long-context-ci-repository-reasoning-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 

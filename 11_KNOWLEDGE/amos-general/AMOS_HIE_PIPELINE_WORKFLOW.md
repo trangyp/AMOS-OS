@@ -3,9 +3,13 @@ title: AMOS HIE PIPELINE WORKFLOW
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/state/observation, topic/amos-hie-pipeline-workflow, amos-general]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
 
 
 # AMOS HIE Pipeline Workflow
@@ -92,3 +96,6 @@ S1: Parse→7-layer snapshot | S2: Update→deltas | S3: Goal→8 options | S4: 
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

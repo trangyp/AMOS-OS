@@ -1,8 +1,15 @@
 ---
 title: "44 Analogy Transfer Modes MOC"
 type: moc
-tags: [moc, 44-analogy-transfer-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/44_ANALOGY_TRANSFER_MODES
+tags: [moc, 44-analogy-transfer-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 44 Analogy Transfer Modes — Map of Content
 

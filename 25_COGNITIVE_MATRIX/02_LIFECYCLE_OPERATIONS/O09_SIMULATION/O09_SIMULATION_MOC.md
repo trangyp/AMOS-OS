@@ -1,8 +1,15 @@
 ---
 title: "O09 Simulation MOC"
 type: moc
-tags: [moc, o09-simulation]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O09_SIMULATION
+tags: [moc, o09-simulation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # O09 Simulation — Map of Content
 

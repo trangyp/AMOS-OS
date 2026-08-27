@@ -1,7 +1,13 @@
 ---
 title: WORKFLOW
 type: note
-tags: [note, law-stack-enforcement-pipeline]
+source: 08_WORKFLOWS/law-stack-enforcement-pipeline
+tags: [note, law-stack-enforcement-pipeline, canon/workflow]
+rscf:
+  state: AMOS_MODEL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: workflow_process
 ---
 
 
@@ -52,3 +58,7 @@ hermes pipeline run law-stack-enforcement-pipeline \
 
 ---
 **MOC:** [[law-stack-enforcement-pipeline_MOC]]
+
+## Related
+
+- [[08_WORKFLOWS_MOC]]

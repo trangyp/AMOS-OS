@@ -1,19 +1,11 @@
 ---
-title: ROUTING MAP
-type: note
-tags: [note, 00-index]
----
-
-
-````markdown
----
+title: "ROUTING MAP"
 canon-group: reference
 rscf-state: derived
 epistemic_class: AMOS_MODEL
 canonical_status: CONDITIONAL
 updated: 2026-08-26
-tags:
-  - cognitive_matrix
+tags: [- cognitive_matrix, canon/cognitive-matrix]
   - routing
   - 00_index
   - map
@@ -22,7 +14,15 @@ tags:
   - provenance
   - validation
   - rscf
+type: document
+source: 25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # ROUTING MAP
 
@@ -65,11 +65,7 @@ It is not itself:
 
 The governing distinction is:
 
-\[
-\boxed{
-Map \neq Contract \neq Implementation \neq Validation
-}
-\]
+$$\boxed{ Map \neq Contract \neq Implementation \neq Validation }$$
 
 ---
 
@@ -164,17 +160,7 @@ The default reading order is:
 
 Or compactly:
 
-$$
-Map
-\rightarrow
-Orientation
-\rightarrow
-Contract
-\rightarrow
-Artifact
-\rightarrow
-Evidence
-$$
+$$Map \rightarrow Orientation \rightarrow Contract \rightarrow Artifact \rightarrow Evidence$$
 
 Raw evidence defaults to:
 
@@ -190,22 +176,17 @@ Within the Cognitive Matrix, **routing** is the governed process of selecting an
 
 Conceptually:
 
-$$
-R:
-(T,C,S,R_g,A,D,P)
-\rightarrow
-Destination
-$$
+$$R: (T,C,S,R_g,A,D,P) \rightarrow Destination$$
 
 where:
 
-* \(T\) = task;
-* \(C\) = constraints;
-* \(S\) = scope;
-* \(R_g\) = regime;
-* \(A\) = authorization/admission state;
-* \(D\) = dependencies;
-* \(P\) = provenance and policy context.
+* $T$ = task;
+* $C$ = constraints;
+* $S$ = scope;
+* $R_g$ = regime;
+* $A$ = authorization/admission state;
+* $D$ = dependencies;
+* $P$ = provenance and policy context.
 
 This equation is an architectural model.
 
@@ -312,19 +293,11 @@ validated capability
 
 These states are not interchangeable.
 
-$$
-DeclaredCapability
-\not\Rightarrow
-AvailableCapability
-$$
+$$DeclaredCapability \not\Rightarrow AvailableCapability$$
 
 and:
 
-$$
-AvailableCapability
-\not\Rightarrow
-ValidatedCapability
-$$
+$$AvailableCapability \not\Rightarrow ValidatedCapability$$
 
 ---
 
@@ -358,13 +331,7 @@ Composable routes MAY depend on:
 
 Composition MUST NOT be inferred merely because two modes independently exist.
 
-$$
-Valid(M_1)
-\land
-Valid(M_2)
-\not\Rightarrow
-Valid(M_1 \circ M_2)
-$$
+$$Valid(M_1) \land Valid(M_2) \not\Rightarrow Valid(M_1 \circ M_2)$$
 
 Composition-level compatibility must be established where consequential.
 
@@ -403,11 +370,7 @@ to evaluate whether a candidate route covers required task capabilities.
 
 Coverage is not equivalent to correctness.
 
-$$
-Coverage(T,M)
-\not\Rightarrow
-CorrectExecution(T,M)
-$$
+$$Coverage(T,M) \not\Rightarrow CorrectExecution(T,M)$$
 
 ---
 
@@ -435,18 +398,9 @@ regime dependencies
 
 # 14. Dependency Closure
 
-For a candidate route \(r\):
+For a candidate route $r$:
 
-$$
-Closure(r)
-=
-r
-\cup
-Dependencies(r)
-\cup
-Dependencies^2(r)
-\cup \dots
-$$
+$$Closure(r) = r \cup Dependencies(r) \cup Dependencies^2(r) \cup \dots$$
 
 Routing SHOULD traverse only the portion of dependency closure capable of changing the route decision.
 
@@ -456,11 +410,9 @@ This preserves the AMOS smallest-sufficient-proof principle.
 
 # 15. Routing Candidate Set
 
-Given task \(T\), routing MAY first construct:
+Given task $T$, routing MAY first construct:
 
-$$
-Candidates(T)=\{r_1,r_2,\ldots,r_n\}
-$$
+$$Candidates(T)=\{r_1,r_2,\ldots,r_n\}$$
 
 A candidate route is not an admitted route.
 
@@ -485,35 +437,18 @@ risk
 
 Conceptually:
 
-$$
-Admissible(r)=
-C
-\land
-D
-\land
-S
-\land
-R
-\land
-F
-\land
-P
-\land
-A
-\land
-\neg X
-$$
+$$Admissible(r)= C \land D \land S \land R \land F \land P \land A \land \neg X$$
 
 where:
 
-* \(C\) = capability sufficient;
-* \(D\) = dependencies valid;
-* \(S\) = scope compatible;
-* \(R\) = regime compatible;
-* \(F\) = freshness sufficient;
-* \(P\) = policy/provenance requirements satisfied;
-* \(A\) = authorization/admission satisfied;
-* \(X\) = unresolved blocking conflict.
+* $C$ = capability sufficient;
+* $D$ = dependencies valid;
+* $S$ = scope compatible;
+* $R$ = regime compatible;
+* $F$ = freshness sufficient;
+* $P$ = policy/provenance requirements satisfied;
+* $A$ = authorization/admission satisfied;
+* $X$ = unresolved blocking conflict.
 
 This is a conceptual governance model.
 
@@ -523,11 +458,7 @@ This is a conceptual governance model.
 
 A central routing invariant is:
 
-$$
-\boxed{
-UNKNOWN/GAP \neq PASS
-}
-$$
+$$\boxed{ UNKNOWN/GAP \neq PASS }$$
 
 If a load-bearing gate is unknown, routing MUST NOT silently interpret the missing state as successful validation.
 
@@ -569,13 +500,9 @@ required gate
 
 Routes are scope-bound.
 
-If a capability is validated only within \(S_1\):
+If a capability is validated only within $S_1$:
 
-$$
-Valid(C,S_1)
-\not\Rightarrow
-Valid(C,S_2)
-$$
+$$Valid(C,S_1) \not\Rightarrow Valid(C,S_2)$$
 
 Routing MUST NOT silently broaden applicability.
 
@@ -585,11 +512,7 @@ Routing MUST NOT silently broaden applicability.
 
 Routing decisions inherit regime constraints.
 
-$$
-RouteValid(r,R_1)
-\not\Rightarrow
-RouteValid(r,R_2)
-$$
+$$RouteValid(r,R_1) \not\Rightarrow RouteValid(r,R_2)$$
 
 unless transfer is established.
 
@@ -681,19 +604,13 @@ This schema is architectural unless separately implemented.
 
 Among admissible routes:
 
-$$
-R_A=\{r \mid Admissible(r)\}
-$$
+$$R_A=\{r \mid Admissible(r)\}$$
 
 routing MAY optimize among candidates.
 
 However:
 
-$$
-Optimization
-\not>
-Integrity
-$$
+$$Optimization \not> Integrity$$
 
 A faster or cheaper route MUST NOT be selected if doing so weakens a required integrity condition.
 
@@ -724,24 +641,15 @@ Where several routes are valid, prefer the smallest route sufficient to achieve 
 
 Conceptually:
 
-$$
-r^*
-=
-\arg\min_{r \in R_A}
-Cost(r)
-$$
+$$r^* = \arg\min_{r \in R_A} Cost(r)$$
 
 subject to:
 
-$$
-Integrity(r)=PASS
-$$
+$$Integrity(r)=PASS$$
 
 and:
 
-$$
-Sufficiency(r)=PASS
-$$
+$$Sufficiency(r)=PASS$$
 
 ---
 
@@ -794,9 +702,7 @@ Routing MUST NOT force convergence where two or more candidate routes remain gen
 
 If:
 
-$$
-Support(r_1)\approx Support(r_2)
-$$
+$$Support(r_1)\approx Support(r_2)$$
 
 and no discriminating evidence exists:
 
@@ -814,13 +720,7 @@ When competing routes matter, prefer the cheapest high-information test capable 
 
 Conceptually:
 
-$$
-Test^*
-=
-\arg\max_t
-\frac{ExpectedDecisionInformation(t)}
-{Cost(t)}
-$$
+$$Test^* = \arg\max_t \frac{ExpectedDecisionInformation(t)} {Cost(t)}$$
 
 subject to integrity and safety constraints.
 
@@ -830,19 +730,11 @@ subject to integrity and safety constraints.
 
 Routing and authorization MUST remain distinct concepts.
 
-$$
-Routable(x)
-\not\Rightarrow
-Authorized(x)
-$$
+$$Routable(x) \not\Rightarrow Authorized(x)$$
 
 Likewise:
 
-$$
-Authorized(x)
-\not\Rightarrow
-CorrectRoute(x)
-$$
+$$Authorized(x) \not\Rightarrow CorrectRoute(x)$$
 
 Routing policy and authorization evidence therefore require separate treatment when both are load-bearing.
 
@@ -878,11 +770,7 @@ This artifact is intended to evidence relevant authorization-engine behavior.
 
 Again:
 
-$$
-ReceiptReference
-\neq
-ValidatedImplementation
-$$
+$$ReceiptReference \neq ValidatedImplementation$$
 
 The actual receipt, version, scope, environment, and evidence must support the implementation claim.
 
@@ -900,11 +788,7 @@ Therefore this map MUST NOT be interpreted as proof that the declared routing to
 
 Architectural edges may exist without executable bindings.
 
-$$
-DeclaredEdge
-\not\Rightarrow
-ExecutableEdge
-$$
+$$DeclaredEdge \not\Rightarrow ExecutableEdge$$
 
 ---
 
@@ -948,23 +832,17 @@ This prevents a local map from pretending to be the complete global graph.
 
 Let:
 
-$$
-G_L
-$$
+$$G_L$$
 
 be the local Routing map and:
 
-$$
-G_U
-$$
+$$G_U$$
 
 the wider AMOS topology.
 
 Then:
 
-$$
-G_L \subseteq G_U
-$$
+$$G_L \subseteq G_U$$
 
 conceptually.
 
@@ -1014,11 +892,7 @@ These may share provenance ancestry.
 
 Therefore:
 
-$$
-3\ Documents
-\not\Rightarrow
-3\ IndependentConfirmations
-$$
+$$3\ Documents \not\Rightarrow 3\ IndependentConfirmations$$
 
 ---
 
@@ -1035,9 +909,7 @@ then outcome C occurred
 
 this alone does not establish:
 
-$$
-A \rightarrow C
-$$
+$$A \rightarrow C$$
 
 as a causal effect.
 
@@ -1249,7 +1121,7 @@ validation invalidation
 
 # 47. Selective Invalidation
 
-If dependency \(D_1\) fails:
+If dependency $D_1$ fails:
 
 ```text
 D1
@@ -1262,7 +1134,7 @@ D1
 
 then dependent routes should be invalidated.
 
-Unrelated Route C should remain intact if its proof closure does not depend on \(D_1\).
+Unrelated Route C should remain intact if its proof closure does not depend on $D_1$.
 
 ---
 
@@ -1270,11 +1142,7 @@ Unrelated Route C should remain intact if its proof closure does not depend on \
 
 Routing artifacts SHOULD remain version-aware where behavior changes.
 
-$$
-Validated(RoutingPolicy@v_1)
-\not\Rightarrow
-Validated(RoutingPolicy@v_2)
-$$
+$$Validated(RoutingPolicy@v_1) \not\Rightarrow Validated(RoutingPolicy@v_2)$$
 
 unless compatibility is independently established.
 
@@ -1403,47 +1271,15 @@ raw evidence only if required
 
 The routing plane can be summarized as:
 
-$$
-\boxed{
-Task
-\rightarrow
-Resolve
-\rightarrow
-Discover
-\rightarrow
-Admit
-\rightarrow
-Authorize
-\rightarrow
-Route
-\rightarrow
-Receipt
-}
-$$
+$$\boxed{ Task \rightarrow Resolve \rightarrow Discover \rightarrow Admit \rightarrow Authorize \rightarrow Route \rightarrow Receipt }$$
 
 subject to:
 
-$$
-\boxed{
-Scope
-\land
-Regime
-\land
-Freshness
-\land
-Dependencies
-\land
-Provenance
-}
-$$
+$$\boxed{ Scope \land Regime \land Freshness \land Dependencies \land Provenance }$$
 
 and:
 
-$$
-\boxed{
-UNKNOWN/GAP \neq PASS
-}
-$$
+$$\boxed{ UNKNOWN/GAP \neq PASS }$$
 
 ---
 
@@ -1455,27 +1291,11 @@ Its role is to preserve navigability without falsely upgrading architecture into
 
 Therefore:
 
-$$
-\boxed{
-Map
-\rightarrow
-Locate
-\rightarrow
-Traverse
-\rightarrow
-Validate
-}
-$$
+$$\boxed{ Map \rightarrow Locate \rightarrow Traverse \rightarrow Validate }$$
 
 not:
 
-$$
-\boxed{
-Map
-\rightarrow
-Assume
-}
-$$
+$$\boxed{ Map \rightarrow Assume }$$
 
 The decisive routing discipline is:
 
@@ -1580,3 +1400,6 @@ This preserves your original `ROUTING MAP` as a **map**, rather than incorrectly
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

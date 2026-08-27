@@ -1,15 +1,20 @@
 ---
 title: AMOS UNI SYSTEM OPERATIONS ENGINE V0 UNIPOWER4
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-uni-system-operations-engine-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-uni-system-operations-engine-v0, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
+# AMOS UNI SYSTEM OPERATIONS ENGINE V0 UNIPOWER4
 
 ```json
 [

@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, arxiv-anytime-pac-bayes-density-ratio-rscf]
+source: 07_SKILLS/arxiv-anytime-pac-bayes-density-ratio-rscf/references
+tags: [reference, arxiv-anytime-pac-bayes-density-ratio-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -316,3 +323,7 @@ All derivative works, adaptations, and improvements thereof
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

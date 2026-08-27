@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-c01-meta-logic-master]
+source: 07_SKILLS/amos-c01-meta-logic-master/references
+tags: [reference, amos-c01-meta-logic-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # amos-c01-meta-logic-master — Vault-Sourced Domain Knowledge
 
@@ -385,8 +392,6 @@ Any output claiming moral authority fails the root check regardless of downstrea
 Identity stability = staying within
 
 
-
-
 ## Vault-Sourced Domain Content
 
 > Source: `11_KNOWLEDGE/AMOS_C01_META_LOGIC_MASTER_KNOWLEDGE.md` (23522 bytes in vault)
@@ -549,3 +554,7 @@ purchases are a resource failure even when they succeed. [SOURCE_CLAIM]
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

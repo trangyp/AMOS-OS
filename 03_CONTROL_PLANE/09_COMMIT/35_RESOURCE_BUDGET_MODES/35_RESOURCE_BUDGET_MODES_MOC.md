@@ -1,8 +1,15 @@
 ---
 title: "35 Resource Budget Modes MOC"
 type: moc
-tags: [moc, 35-resource-budget-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/35_RESOURCE_BUDGET_MODES
+tags: [moc, 35-resource-budget-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 35 Resource Budget Modes — Map of Content
 

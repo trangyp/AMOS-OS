@@ -1,12 +1,15 @@
 ---
 title: INTEGRITY BOUNDED ENERGY STANDARD IBES 1 0
-tags: [energy, power, green]
+tags: [energy, power, green, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/energy
+rscf:
+  state: AMOS_MODEL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: energy_system
+
 ---
-
-
-
 
 
 # Integrity-Bounded Energy Standard (IBES‑1.0)

@@ -1,12 +1,15 @@
 ---
 title: THACH DUA NUOI CAY VI KHUAN CELLULOSE
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # THẠCH DỪA - NUÔI CẤY VI KHUẨN CELLULOSE

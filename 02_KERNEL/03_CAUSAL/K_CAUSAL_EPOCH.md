@@ -1,6 +1,7 @@
 ---
 title: K CAUSAL EPOCH
 type: note
+source: 02_KERNEL/03_CAUSAL
 artifact_id: AMOS-OS-K-CAUSAL-EPOCH
 canonical_name: K_CAUSAL_EPOCH
 artifact_type: kernel_causal_epoch_contract
@@ -25,8 +26,6 @@ aliases: "- AMOS Causal Epoch Kernel
   - Causal Epoch Kernel
   - K Causal Epoch
   - K_CAUSAL_EPOCH..."---
-
-
 
 
 # K CAUSAL EPOCH
@@ -65,8 +64,13 @@ FINALIZED_FOR_EPOCH
 !=
 ETERNALLY TRUE
 ```
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 1. Core Law
 

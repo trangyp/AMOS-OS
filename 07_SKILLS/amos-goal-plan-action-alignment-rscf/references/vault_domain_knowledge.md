@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-goal-plan-action-alignment-rscf]
+source: 07_SKILLS/amos-goal-plan-action-alignment-rscf/references
+tags: [reference, amos-goal-plan-action-alignment-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -208,3 +215,7 @@ Business Plan of: NeuroSyncAI™ and the Institutional Architecture for Unified 
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

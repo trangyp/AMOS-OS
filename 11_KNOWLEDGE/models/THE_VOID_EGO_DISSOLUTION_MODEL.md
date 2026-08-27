@@ -1,6 +1,7 @@
 ---
 title: THE VOID EGO DISSOLUTION MODEL
 type: model
+source: 11_KNOWLEDGE/models
 origin: external — "The Complete Human System" (canonical version)
 provenance: direct ingestion of Book Two (The Void)
 confidence: 0.95
@@ -11,8 +12,12 @@ date: 2026-08-22
 source_title: "The Complete Human System — Book Two: The Void"
 source_type: book-manuscript
 source_url: local-ingestion
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: model_specification
 ---
-
 
 
 # The Void — Ego Dissolution Model

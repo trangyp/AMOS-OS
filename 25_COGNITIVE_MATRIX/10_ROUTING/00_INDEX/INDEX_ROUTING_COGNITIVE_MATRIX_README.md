@@ -1,23 +1,11 @@
 ---
-title: INDEX ROUTING COGNITIVE MATRIX README
-type: note
-tags: [note, 00-index]
----
-
-
-Below is a full replacement for `25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/INDEX_ROUTING_COGNITIVE_MATRIX_README.md`.
-
-I did not recover a matching authoritative Drive artifact from the connected Drive search, so this is a **substantive AMOS_MODEL / CONDITIONAL specification derived from the structure and semantics you supplied**, not a claim of recovered final canon.
-
-````markdown
----
+title: "INDEX ROUTING COGNITIVE MATRIX README"
 canon-group: reference
 rscf-state: derived
 epistemic_class: AMOS_MODEL
 canonical_status: CONDITIONAL
 updated: 2026-08-26
-tags:
-  - cognitive_matrix
+tags: [- cognitive_matrix, canon/cognitive-matrix]
   - routing
   - 00_index
   - index
@@ -29,7 +17,15 @@ tags:
   - validation
   - dependency_graph
   - rscf
+type: document
+source: 25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # INDEX ROUTING COGNITIVE MATRIX README
 
@@ -92,17 +88,7 @@ final unconditional canon.
 
 The governing distinction is:
 
-$$
-\boxed{
-Index
-\neq
-Contract
-\neq
-Runtime
-\neq
-Validation
-}
-$$
+$$\boxed{ Index \neq Contract \neq Runtime \neq Validation }$$
 
 ---
 
@@ -275,26 +261,13 @@ It is not always sufficient artifact identity.
 
 A consequential artifact identity SHOULD be modeled as:
 
-$$
-ArtifactIdentity
-=
-(
-artifact\_id,
-path,
-version,
-canonical\_status
-)
-$$
+$$ArtifactIdentity = ( artifact\_id, path, version, canonical\_status )$$
 
 where those dimensions are material.
 
 Therefore:
 
-$$
-SameBasename
-\not\Rightarrow
-SameArtifact
-$$
+$$SameBasename \not\Rightarrow SameArtifact$$
 
 ---
 
@@ -382,27 +355,11 @@ It does not answer every routing question itself.
 
 The governing pattern is:
 
-$$
-\boxed{
-Index
-\rightarrow
-Resolve
-\rightarrow
-Bind
-\rightarrow
-Validate
-}
-$$
+$$\boxed{ Index \rightarrow Resolve \rightarrow Bind \rightarrow Validate }$$
 
 not:
 
-$$
-\boxed{
-Index
-\rightarrow
-Assume
-}
-$$
+$$\boxed{ Index \rightarrow Assume }$$
 
 ---
 
@@ -467,11 +424,7 @@ and consequential mutation MUST fail closed.
 
 # 12. Admission Law
 
-$$
-UnresolvedIdentity
-\Rightarrow
-NoConsequentialCommit
-$$
+$$UnresolvedIdentity \Rightarrow NoConsequentialCommit$$
 
 This prevents mutation against a merely similar artifact.
 
@@ -489,11 +442,7 @@ It does not establish:
 
 Therefore:
 
-$$
-AdmittedArtifact
-\not\Rightarrow
-AuthorizedMutation
-$$
+$$AdmittedArtifact \not\Rightarrow AuthorizedMutation$$
 
 ---
 
@@ -538,13 +487,9 @@ Do not traverse unrelated L-level material when the current operation is index-l
 
 # 16. Scope Containment
 
-If operation scope is \(S_o\) and artifact-valid scope is \(S_a\):
+If operation scope is $S_o$ and artifact-valid scope is $S_a$:
 
-$$
-S_o
-\subseteq
-S_a
-$$
+$$S_o \subseteq S_a$$
 
 SHOULD hold for unqualified execution.
 
@@ -573,13 +518,9 @@ regime_binding:
   execution_environment:
 ```
 
-A previously valid operation under \(R_1\) MUST NOT silently transfer to \(R_2\).
+A previously valid operation under $R_1$ MUST NOT silently transfer to $R_2$.
 
-$$
-Valid(Operation,R_1)
-\not\Rightarrow
-Valid(Operation,R_2)
-$$
+$$Valid(Operation,R_1) \not\Rightarrow Valid(Operation,R_2)$$
 
 ---
 
@@ -587,11 +528,7 @@ $$
 
 Core invariant:
 
-$$
-\boxed{
-RegimeIsolation
-}
-$$
+$$\boxed{ RegimeIsolation }$$
 
 Routing decisions, authority, validation receipts, and dependency states inherit the regime in which they were established.
 
@@ -601,11 +538,7 @@ Routing decisions, authority, validation receipts, and dependency states inherit
 
 Capability and authorization MUST remain separate.
 
-$$
-Capability
-\neq
-Authority
-$$
+$$Capability \neq Authority$$
 
 A component may be technically capable of modifying an artifact but not authorized to do so.
 
@@ -634,15 +567,11 @@ where those dimensions are defined and material.
 
 If authority is epoch-sensitive:
 
-$$
-AuthorityRef@E_1
-$$
+$$AuthorityRef@E_1$$
 
 must not automatically authorize operation in:
 
-$$
-E_2
-$$
+$$E_2$$
 
 when authority conditions changed.
 
@@ -658,19 +587,11 @@ authority_ref must be epoch-valid.
 
 The following implication is forbidden:
 
-$$
-CanExecute(x)
-\Rightarrow
-MayExecute(x)
-$$
+$$CanExecute(x) \Rightarrow MayExecute(x)$$
 
 Instead:
 
-$$
-CanExecute(x)
-\land
-Authorized(x)
-$$
+$$CanExecute(x) \land Authorized(x)$$
 
 must both be established where authorization is required.
 
@@ -682,11 +603,7 @@ An observer may know that an event occurred.
 
 That does not give the observer mutation authority.
 
-$$
-Observed(x)
-\not\Rightarrow
-AuthorizedToChange(x)
-$$
+$$Observed(x) \not\Rightarrow AuthorizedToChange(x)$$
 
 This is why:
 
@@ -700,21 +617,15 @@ is explicitly treated as observation, not governing authority.
 
 Before consequential mutation, resolve the smallest dependency closure capable of changing the result.
 
-Let operation \(O\) have dependency graph:
+Let operation $O$ have dependency graph:
 
-$$
-D(O)
-$$
+$$D(O)$$
 
 Then evaluate:
 
-$$
-D^*(O)
-\subseteq
-D(O)
-$$
+$$D^*(O) \subseteq D(O)$$
 
-where \(D^*(O)\) is the **smallest result-changing closure**.
+where $D^*(O)$ is the **smallest result-changing closure**.
 
 ---
 
@@ -780,13 +691,7 @@ A stale dependency MUST NOT silently be reused as current.
 
 # 28. Freshness Invariant
 
-$$
-\boxed{
-PreviouslyValid
-\not\Rightarrow
-CurrentlyValid
-}
-$$
+$$\boxed{ PreviouslyValid \not\Rightarrow CurrentlyValid }$$
 
 when a load-bearing mutable dependency may have changed.
 
@@ -796,41 +701,21 @@ when a load-bearing mutable dependency may have changed.
 
 Conceptually:
 
-$$
-Preconditions(O)
-=
-I
-\land
-V
-\land
-S
-\land
-R
-\land
-A
-\land
-D
-\land
-F
-$$
+$$Preconditions(O) = I \land V \land S \land R \land A \land D \land F$$
 
 where:
 
-* \(I\) = identity valid;
-* \(V\) = version valid;
-* \(S\) = scope compatible;
-* \(R\) = regime compatible;
-* \(A\) = authority valid;
-* \(D\) = dependency closure valid;
-* \(F\) = freshness valid.
+* $I$ = identity valid;
+* $V$ = version valid;
+* $S$ = scope compatible;
+* $R$ = regime compatible;
+* $A$ = authority valid;
+* $D$ = dependency closure valid;
+* $F$ = freshness valid.
 
 If a required term is `UNKNOWN`:
 
-$$
-UNKNOWN/GAP
-\neq
-PASS
-$$
+$$UNKNOWN/GAP \neq PASS$$
 
 ---
 
@@ -862,11 +747,7 @@ proposal:
 
 # 31. Proposal Firewall
 
-$$
-\boxed{
-PROPOSAL \neq COMMIT
-}
-$$
+$$\boxed{ PROPOSAL \neq COMMIT }$$
 
 A proposal may exist before all commit gates are satisfied.
 
@@ -937,25 +818,7 @@ GATE EVALUATION
 
 Conceptually:
 
-$$
-CommitAllowed
-=
-IdentityValid
-\land
-VersionCurrent
-\land
-ScopeValid
-\land
-RegimeValid
-\land
-AuthorityValid
-\land
-DependenciesValid
-\land
-ValidationSufficient
-\land
-RollbackSufficient
-$$
+$$CommitAllowed = IdentityValid \land VersionCurrent \land ScopeValid \land RegimeValid \land AuthorityValid \land DependenciesValid \land ValidationSufficient \land RollbackSufficient$$
 
 for operations requiring those conditions.
 
@@ -986,11 +849,7 @@ according to governance.
 
 # 37. UNKNOWN/GAP Commit Rule
 
-$$
-UNKNOWN/GAP
-\neq
-PASS
-$$
+$$UNKNOWN/GAP \neq PASS$$
 
 A missing load-bearing premise cannot be treated as implicit approval.
 
@@ -1007,7 +866,7 @@ is the preferred fail-closed behavior unless explicit canon states otherwise.
 
 # 38. Local Failure Recovery
 
-On failed premise \(P\):
+On failed premise $P$:
 
 ```text
 P
@@ -1027,19 +886,11 @@ Do not invalidate unrelated valid state.
 
 Core law:
 
-$$
-Failure(P)
-\Rightarrow
-Invalidate(Descendants(P))
-$$
+$$Failure(P) \Rightarrow Invalidate(Descendants(P))$$
 
 not:
 
-$$
-Failure(P)
-\Rightarrow
-Invalidate(AllState)
-$$
+$$Failure(P) \Rightarrow Invalidate(AllState)$$
 
 ---
 
@@ -1106,11 +957,7 @@ A receipt records what occurred and why.
 
 It does not create truth.
 
-$$
-Receipt(x)
-\not\Rightarrow
-Validity(x)
-$$
+$$Receipt(x) \not\Rightarrow Validity(x)$$
 
 unless the receipt contains sufficient evidence for the corresponding validity claim.
 
@@ -1174,11 +1021,7 @@ Before promoting this artifact or a directly governed successor beyond condition
 
 The existence of documentation is not sufficient for promotion.
 
-$$
-DocumentationComplete
-\not\Rightarrow
-PromotionEligible
-$$
+$$DocumentationComplete \not\Rightarrow PromotionEligible$$
 
 Promotion requires the evidence demanded by the target canonical state.
 
@@ -1334,11 +1177,7 @@ These are potentially correlated descendants.
 
 Therefore:
 
-$$
-3Artifacts
-\neq
-3IndependentValidationSources
-$$
+$$3Artifacts \neq 3IndependentValidationSources$$
 
 ---
 
@@ -1348,11 +1187,7 @@ The index MUST resist apparent confirmation created by duplicated descendants.
 
 Independence must be demonstrated when load-bearing.
 
-$$
-Repetition
-\neq
-Independence
-$$
+$$Repetition \neq Independence$$
 
 ---
 
@@ -1408,7 +1243,7 @@ STATE B
 STATE A'
 ```
 
-where \(A'\) may be equivalent to \(A\) only if equivalence is established.
+where $A'$ may be equivalent to $A$ only if equivalence is established.
 
 ---
 
@@ -1533,11 +1368,7 @@ RSCF edge resolution
 
 A Markdown link resolving syntactically does not prove the target behavior is executable.
 
-$$
-LinkResolves
-\not\Rightarrow
-RuntimeBindingExists
-$$
+$$LinkResolves \not\Rightarrow RuntimeBindingExists$$
 
 This distinction is especially important for:
 
@@ -1569,11 +1400,7 @@ The local index MUST NOT override a higher applicable canonical law.
 
 Conceptually:
 
-$$
-LocalContract
-\subseteq
-ApplicableCanon
-$$
+$$LocalContract \subseteq ApplicableCanon$$
 
 ---
 
@@ -1613,11 +1440,7 @@ It MUST NOT infer kernel behavior merely from a local routing declaration.
 
 # 67. Kernel Boundary
 
-$$
-RoutingReferenceToKernel
-\not\Rightarrow
-KernelImplementationProof
-$$
+$$RoutingReferenceToKernel \not\Rightarrow KernelImplementationProof$$
 
 The kernel artifact itself and its evidence govern kernel claims.
 
@@ -1651,11 +1474,7 @@ A routing decision can propose an action.
 
 It cannot bypass control-plane gates merely because the route is otherwise valid.
 
-$$
-RouteValid
-\not\Rightarrow
-ControlGatePassed
-$$
+$$RouteValid \not\Rightarrow ControlGatePassed$$
 
 ---
 
@@ -1677,11 +1496,7 @@ receipts
 
 but:
 
-$$
-Observability
-\neq
-Authority
-$$
+$$Observability \neq Authority$$
 
 An observer reports state.
 
@@ -1736,19 +1551,11 @@ Routing may request recovery.
 
 Operations governs the actual recovery path where applicable.
 
-$$
-RoutingFailure
-\rightarrow
-OperationsRecovery
-$$
+$$RoutingFailure \rightarrow OperationsRecovery$$
 
 does not mean:
 
-$$
-RoutingIndex
-=
-OperationsSystem
-$$
+$$RoutingIndex = OperationsSystem$$
 
 ---
 
@@ -1830,9 +1637,7 @@ A mutation SHOULD bind to an expected artifact version.
 
 Conceptually:
 
-$$
-ExpectedVersion = CurrentVersion
-$$
+$$ExpectedVersion = CurrentVersion$$
 
 before commit.
 
@@ -2025,13 +1830,7 @@ index_failure:
 
 # 85. Failure Recovery Law
 
-$$
-\boxed{
-LocalFailure
-\rightarrow
-LocalInvalidation
-}
-$$
+$$\boxed{ LocalFailure \rightarrow LocalInvalidation }$$
 
 where independence is established.
 
@@ -2267,11 +2066,7 @@ Global graph resolution belongs to:
 
 Therefore:
 
-$$
-LocalGraph
-\neq
-GlobalGraph
-$$
+$$LocalGraph \neq GlobalGraph$$
 
 ---
 
@@ -2472,13 +2267,9 @@ no new conflict
 
 A mutation decision cannot be more certain than its weakest load-bearing premise unless independently revalidated.
 
-$$
-Conf(Decision)
-\leq
-\min_i Conf(P_i)
-$$
+$$Conf(Decision) \leq \min_i Conf(P_i)$$
 
-where \(P_i\) are load-bearing premises.
+where $P_i$ are load-bearing premises.
 
 ---
 
@@ -2603,29 +2394,13 @@ Documentation is not itself execution evidence.
 
 # 118. Architecture / Implementation Firewall
 
-$$
-Architecture
-\neq
-Implementation
-$$
+$$Architecture \neq Implementation$$
 
-$$
-Specification
-\neq
-ExecutableBinding
-$$
+$$Specification \neq ExecutableBinding$$
 
-$$
-ReceiptReference
-\neq
-ValidatedReceipt
-$$
+$$ReceiptReference \neq ValidatedReceipt$$
 
-$$
-Link
-\neq
-ExecutableEdge
-$$
+$$Link \neq ExecutableEdge$$
 
 ---
 
@@ -3004,11 +2779,7 @@ while validation is pending.
 
 Until gates pass:
 
-$$
-P
-\neq
-AuthoritativeState
-$$
+$$P \neq AuthoritativeState$$
 
 ---
 
@@ -3174,67 +2945,27 @@ The Routing index exists to ensure that navigation and mutation begin from corre
 
 The governing pipeline is:
 
-$$
-\boxed{
-ResolveIdentity
-\rightarrow
-BindScope
-\rightarrow
-BindRegime
-\rightarrow
-CheckAuthority
-\rightarrow
-ValidateDependencies
-\rightarrow
-Propose
-\rightarrow
-CommitOrHold
-\rightarrow
-Receipt
-}
-$$
+$$\boxed{ ResolveIdentity \rightarrow BindScope \rightarrow BindRegime \rightarrow CheckAuthority \rightarrow ValidateDependencies \rightarrow Propose \rightarrow CommitOrHold \rightarrow Receipt }$$
 
 with:
 
-$$
-\boxed{
-UNKNOWN/GAP \neq PASS
-}
-$$
+$$\boxed{ UNKNOWN/GAP \neq PASS }$$
 
 and:
 
-$$
-\boxed{
-PROPOSAL \neq COMMIT
-}
-$$
+$$\boxed{ PROPOSAL \neq COMMIT }$$
 
 and:
 
-$$
-\boxed{
-CAPABILITY \neq AUTHORITY
-}
-$$
+$$\boxed{ CAPABILITY \neq AUTHORITY }$$
 
 and:
 
-$$
-\boxed{
-OBSERVABILITY \neq AUTHORITY
-}
-$$
+$$\boxed{ OBSERVABILITY \neq AUTHORITY }$$
 
 and:
 
-$$
-\boxed{
-LocalFailure
-\Rightarrow
-DependentInvalidation
-}
-$$
+$$\boxed{ LocalFailure \Rightarrow DependentInvalidation }$$
 
 rather than global destruction of valid state.
 

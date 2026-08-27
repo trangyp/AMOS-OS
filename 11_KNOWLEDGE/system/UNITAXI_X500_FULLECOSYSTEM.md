@@ -1,15 +1,20 @@
 ---
 title: UNITAXI X500 FULLECOSYSTEM
 type: system
+source: 11_KNOWLEDGE/system
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
 topic: unitaxi-x500-fullecosystem
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/unitaxi-x500-fullecosystem, system]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
 ---
-
-
+# UNITAXI X500 FULLECOSYSTEM
 
 ```json
 {
@@ -23034,3 +23039,6 @@ created: 2026-08-22
 
 ---
 **MOC:** [[SYSTEM_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,8 +1,15 @@
 ---
 title: "28 Synthesis Modes MOC"
 type: moc
-tags: [moc, 28-synthesis-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/28_SYNTHESIS_MODES
+tags: [moc, 28-synthesis-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 28 Synthesis Modes — Map of Content
 

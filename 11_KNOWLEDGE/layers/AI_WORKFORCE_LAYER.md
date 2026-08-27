@@ -1,15 +1,20 @@
 ---
 title: AI WORKFORCE LAYER
 type: note
+source: 11_KNOWLEDGE/layers
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: ai-workforce-layer
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/ai-workforce-layer, layers]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: layer_architecture
 ---
-
-
+# AI WORKFORCE LAYER
 
 ```json
 {

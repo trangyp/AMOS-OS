@@ -1,12 +1,15 @@
 ---
 title: CULTURAL BIFURCATION OF EMOTION AND LOGIC
-tags: [logic, reasoning, formal]
+tags: [logic, reasoning, formal, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/logic
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
+
 ---
-
-
-
 
 
 # _C_**ultural Bifurcation of Emotion and Logic**

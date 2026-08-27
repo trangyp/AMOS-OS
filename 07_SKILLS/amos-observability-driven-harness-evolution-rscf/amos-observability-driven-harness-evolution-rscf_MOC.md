@@ -1,8 +1,15 @@
 ---
 title: "Amos-Observability-Driven-Harness-Evolution-Rscf MOC"
 type: moc
-tags: [moc, amos-observability-driven-harness-evolut]
+source: 07_SKILLS/amos-observability-driven-harness-evolution-rscf
+tags: [moc, amos-observability-driven-harness-evolut, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Observability-Driven-Harness-Evolution-Rscf — Map of Content
 

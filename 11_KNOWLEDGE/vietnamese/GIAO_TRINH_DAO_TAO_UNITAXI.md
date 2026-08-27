@@ -1,19 +1,22 @@
 ---
 title: GIAO TRINH DAO TAO UNITAXI
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # Giáo trình đào tạo UniTaxi
 # **Nội dung nền tảng chung (16 giờ)**
 _(Học chung cho Tài xế – Điều phối – Kỹ thuật)_
 * * *
-# **📘 1. BỐI CẢNH & SỨ MỆNH UNITAXI (2 GIỜ)**
+# **1. BỐI CẢNH & SỨ MỆNH UNITAXI (2 GIỜ)**
 **Mục tiêu khóa học:** Giúp học viên hiểu **vì sao Unitaxi tồn tại** , vì sao mô hình khác biệt, và vì sao mỗi người trong hệ thống có trách nhiệm giữ hình ảnh thương hiệu.
 ## **⏱ Cấu trúc thời lượng 2 giờ**
 |               |
@@ -28,7 +31,7 @@ _(Học chung cho Tài xế – Điều phối – Kỹ thuật)_
 
 
 * * *
-# 🚀 **HÀNH TRÌNH MỚI: UNITAXI VÀ SỨ MỆNH KIẾN TẠO GIAO THÔNG VIỆT NAM**
+# **HÀNH TRÌNH MỚI: UNITAXI VÀ SỨ MỆNH KIẾN TẠO GIAO THÔNG VIỆT NAM**
 **(Thời lượng: 15 phút – Chuẩn đào tạo Quốc tế)**
 **Mục tiêu:** Cùng nhau khám phá cơ hội vàng từ những thách thức giao thông Việt Nam, nắm bắt xu hướng toàn cầu, và xác định vai trò tiên phong của chúng ta trong cuộc cách mạng taxi điện. Buổi học đề cao sự chia sẻ kinh nghiệm thực tế để mỗi chúng ta đều trở thành người dẫn đầu.
 * * *
@@ -38,29 +41,29 @@ _(Học chung cho Tài xế – Điều phối – Kỹ thuật)_
   * **1\. Ùn tắc đô thị – Áp lực hay Động lực? (1,5 phút)**
     * **Thực trạng:** Hà Nội và TP.HCM đang trong top 15 thành phố kẹt xe nhất châu Á. Khái niệm "giờ thấp điểm" dần biến mất.
     * **Hệ quả:** Thời gian mỗi chuyến kéo dài, thu nhập bấp bênh, và đặc biệt là **căng thẳng** cho cả tài xế và hành khách.
-    * **📌 Cùng Thảo Luận (30 giây):** "Hãy chia sẻ một cách xử lý thông minh hoặc một câu chuyện vui bạn đã từng trải qua trong giờ kẹt xe để giữ được thiện cảm của khách?"
+    * **Cùng Thảo Luận (30 giây):** "Hãy chia sẻ một cách xử lý thông minh hoặc một câu chuyện vui bạn đã từng trải qua trong giờ kẹt xe để giữ được thiện cảm của khách?"
 
 
   * **2\. Ô nhiễm – Sứ mệnh Làm Sạch Bầu Không Khí của Chính Chúng Ta (1,5 phút)**
     * **Sự thật:** Giao thông là thủ phạm chính gây ra 35-45% ô nhiễm không khí. Tiếng ồn và khí thải khiến các tuyến phố trở nên ngột ngạt.
     * **Xu hướng:** Các thành phố hàng đầu như Tokyo, Singapore đang chuyển mình mạnh mẽ với taxi điện – êm ái, sạch sẽ, văn minh.
-    * **📌 Cùng Thảo Luận (30 giây):** "Khách hàng đã bao giờ phản hồi với bạn về mùi xe xăng hay sự yên tĩnh của xe điện chưa? Chúng ta có thể làm gì để mang lại trải nghiệm 'sạch - êm' hơn nữa?"
+    * **Cùng Thảo Luận (30 giây):** "Khách hàng đã bao giờ phản hồi với bạn về mùi xe xăng hay sự yên tĩnh của xe điện chưa? Chúng ta có thể làm gì để mang lại trải nghiệm 'sạch - êm' hơn nữa?"
 
 
   * **3\. Chi Phí Vận Hành – Chìa Khóa Để Tăng Thu Nhập (1,5 phút)**
     * **Bài toán khó:** Giá xăng biến động không lường, chi phí bảo trì, sửa chữa cho xe xăng luôn là gánh nặng, "ăn mòn" lợi nhuận mỗi ngày.
     * **Lời giải:** Xe điện chính là chìa khóa! Nghiên cứu từ Uber & Bolt cho thấy xe điện giúp **tiết kiệm 30-50% chi phí vận hành**. Điều này nghĩa là thu nhập ổn định hơn, ít lo âu hơn!
-    * **📌 Cùng Thảo Luận (30 giây):** "Biến động giá xăng ảnh hưởng thế nào đến kế hoạch tài chính của bạn? Bạn kỳ vọng gì vào giải pháp xe điện?"
+    * **Cùng Thảo Luận (30 giây):** "Biến động giá xăng ảnh hưởng thế nào đến kế hoạch tài chính của bạn? Bạn kỳ vọng gì vào giải pháp xe điện?"
 
 
   * **4\. Hành Khách Mới – Kỳ Vọng Mới: Họ Muốn Gì? (2,5 phút)**
     * **Thế hệ Gen Z, Millennials:** Họ nhạy cảm với mùi xe, điều hòa, và sự chuyên nghiệp.
     * **Các gia đình:** Ưu tiên sự an toàn, êm ái, sạch sẽ cho con nhỏ.
     * **Doanh nghiệp:** Hướng tới các đối tác "xanh" để phát triển bền vững.
-    * **📌 Kết Luận & Thảo Luận (1 phút):** "Khách hàng ngày nay sẵn sàng trả giá cao hơn cho một trải nghiệm tuyệt vời. Ai đã từng nhận được lời khen ngợi vì thái độ tốt hoặc chiếc xe sạch sẽ? Hãy chia sẻ câu chuyện thành công của bạn để cả lớp cùng học hỏi!"
+    * **Kết Luận & Thảo Luận (1 phút):** "Khách hàng ngày nay sẵn sàng trả giá cao hơn cho một trải nghiệm tuyệt vời. Ai đã từng nhận được lời khen ngợi vì thái độ tốt hoặc chiếc xe sạch sẽ? Hãy chia sẻ câu chuyện thành công của bạn để cả lớp cùng học hỏi!"
 
 
-**➡ THÔNG ĐIỆP KẾT:** Việt Nam đang ở một ngã rẽ lịch sử. Sự thay đổi không còn là lựa chọn, mà là TẤT YẾU. Và chúng ta, những người trực tiếp vận hành, chính là những NGƯỜI TIÊN PHONG dẫn dắt sự thay đổi đó: Hướng tới một nền giao thông **XANH HƠN, ÊM ÁI HƠN, CHUYÊN NGHIỆP HƠN.**
+**THÔNG ĐIỆP KẾT:** Việt Nam đang ở một ngã rẽ lịch sử. Sự thay đổi không còn là lựa chọn, mà là TẤT YẾU. Và chúng ta, những người trực tiếp vận hành, chính là những NGƯỜI TIÊN PHONG dẫn dắt sự thay đổi đó: Hướng tới một nền giao thông **XANH HƠN, ÊM ÁI HƠN, CHUYÊN NGHIỆP HƠN.**
 * * *
 ### **B. BỨC TRANH TOÀN CẦU: UNITAXI – CHÚNG TA ĐANG Ở ĐÂU TRONG CUỘC ĐUA NÀY?**
 **(8 phút)**
@@ -70,20 +73,20 @@ _(Học chung cho Tài xế – Điều phối – Kỹ thuật)_
     * **Grab:** Đang triển khai 50.000 xe điện tại Đông Nam Á.
     * **Bolt:** Thưởng đặc biệt cho các tài xế xe điện.
     * **Bài học:** Taxi điện không chỉ là phương tiện, mà là **lợi thế cạnh tranh** giúp tăng điểm đánh giá, tăng sự trung thành của khách hàng.
-    * **📌 Cùng Thảo Luận (30 giây):** "Khi cả thế giới đang chuyển mình, theo bạn, Unitaxi nên làm gì để chúng ta không chỉ theo kịp, mà còn DẪN ĐẦU thị trường?"
+    * **Cùng Thảo Luận (30 giây):** "Khi cả thế giới đang chuyển mình, theo bạn, Unitaxi nên làm gì để chúng ta không chỉ theo kịp, mà còn DẪN ĐẦU thị trường?"
 
 
   * **2\. Chính Sách "Thúc Lưng" cho Xe Điện – Cánh Cửa Thời Đại Đang Mở (2 phút)**
     * **Singapore, EU:** Siết chặt xe xăng, ưu đãi lớn cho xe điện.
     * **Nhật Bản, Hàn Quốc:** Hạ tầng sạc điện được đầu tư mạnh mẽ, taxi điện trở thành hình ảnh quốc gia.
     * **Thông điệp toàn cầu:** "Hãy hướng tới sự **Êm Ái - Sạch Sẽ - Giảm Khí Thải** ".
-    * **📌 Cùng Thảo Luận (30 giây):** "Nếu Việt Nam áp dụng các chính sách ưu tiên xe điện, điều đó sẽ TẠO RA CƠ HỘI gì cho bạn?"
+    * **Cùng Thảo Luận (30 giây):** "Nếu Việt Nam áp dụng các chính sách ưu tiên xe điện, điều đó sẽ TẠO RA CƠ HỘI gì cho bạn?"
 
 
   * **3\. Trải Nghiệm Là Vua – Điều Gì Khiến Khách Hàng Toàn Cầu Trung Thành? (2 phút)**
     * Không còn là cuộc chiến giá rẻ. Đó là cuộc chiến về **cảm xúc**.
     * Khách hàng toàn cầu tìm kiếm sự **" yên tĩnh, sạch sẽ, êm ái"** – những yếu tố mà xe điện sở hữu một cách tuyệt đối.
-    * **📌 Cùng Thảo Luận (30 giây):** "Ngoài việc lái xe an toàn, bạn đã làm điều gì 'đặc biệt' nhỏ thôi để khiến khách hàng nhớ đến chuyến đi và muốn quay lại với bạn?" (Ví dụ: một câu chào thân thiện, nhiệt độ điều hòa vừa phải...)
+    * **Cùng Thảo Luận (30 giây):** "Ngoài việc lái xe an toàn, bạn đã làm điều gì 'đặc biệt' nhỏ thôi để khiến khách hàng nhớ đến chuyến đi và muốn quay lại với bạn?" (Ví dụ: một câu chào thân thiện, nhiệt độ điều hòa vừa phải...)
 
 
   * **4\. Chuẩn Mực Phục Vụ Đẳng Cấp Thế Giới – Chúng Ta Học Hỏi Điều Gì? (2 phút)**
@@ -91,11 +94,11 @@ _(Học chung cho Tài xế – Điều phối – Kỹ thuật)_
     * **Uber/Bolt Training:** Nghệ thuật giao tiếp, xử lý tình huống, tạo dựng niềm tin.
     * **ComfortDelGro (Singapore):** Sự kỷ luật, đúng giờ và hình ảnh chuyên nghiệp.
     * **Unitaxi** đã chắt lọc tinh hoa của thế giới để xây dựng giáo trình 48 giờ, trang bị cho bạn mọi kỹ năng để TỎA SÁNG.
-    * **📌 Cùng Thảo Luận (30 giây):** "Trong các chuẩn mực quốc tế trên, bạn cảm thấy yếu tố nào là sức mạnh của bản thân và yếu tố nào bạn muốn cùng Unitaxi trau dồi thêm?"
+    * **Cùng Thảo Luận (30 giây):** "Trong các chuẩn mực quốc tế trên, bạn cảm thấy yếu tố nào là sức mạnh của bản thân và yếu tố nào bạn muốn cùng Unitaxi trau dồi thêm?"
 
 
 * * *
-### 🎯 **LỜI KẾT: CHÚNG TA CÙNG VIẾT NÊN CÂU CHUYỆN THÀNH CÔNG**
+### **LỜI KẾT: CHÚNG TA CÙNG VIẾT NÊN CÂU CHUYỆN THÀNH CÔNG**
 **(1 phút cuối)**
 "Taxi điện không phải là điểm đến, mà là HÀNH TRÌNH chúng ta cùng nhau bắt đầu. Đây là cơ hội để chúng ta – những tài xế, điều phối viên, kỹ thuật viên – không còn là người chứng kiến, mà trở thành NHÂN VẬT CHÍNH kiến tạo tương lai giao thông Việt Nam.
 Unitaxi cam kết đồng hành cùng bạn với công nghệ, đào tạo và chính sách tốt nhất. Vậy còn bạn, bạn sẵn sàng cùng chúng tôi làm gì để biến Unitaxi trở thành biểu tượng của sự **hiện đại, thân thiện và tiên phong**?
@@ -103,7 +106,7 @@ Unitaxi cam kết đồng hành cùng bạn với công nghệ, đào tạo và 
 
 
 * * *
-# 🚀 **GIÁO TRÌNH: VÌ SAO CHÚNG TA CÙNG NHAU CHỌN XE ĐIỆN 100%?**
+# **GIÁO TRÌNH: VÌ SAO CHÚNG TA CÙNG NHAU CHỌN XE ĐIỆN 100%?**
 * * *
 ### **a. CUỘC CÁCH MẠNG CÁ NHÂN: LÁI XE ĐIỆN - VÌ SỨC KHỎE & THU NHẬP CỦA CHÍNH BẠN**
 **(Thời lượng: 7 phút)**
@@ -111,25 +114,25 @@ Unitaxi cam kết đồng hành cùng bạn với công nghệ, đào tạo và 
   * **1\. Chi phí Ổn Định - Thu nhập Có Thể Dự Đoán (2 phút)**
     * **Câu chuyện cũ (Xe xăng):** Vật lộn với biến động giá xăng, những khoản sửa chữa lặt vặt liên tục (nhớt, bugi, lọc gió) - thu nhập tháng này chẳng biết tháng sau ra sao.
     * **Tương lai mới (Xe điện):** Chi phí "nạp điện" thấp hơn 30-40%, ít bộ phận hao mòn - **bạn biết chắc mình kiếm được bao nhiêu.** Hãy nhìn Singapore: tài xế EV tiết kiệm tới 35% chi phí mỗi tháng!
-    * **📌 Cùng Thảo Luận (30 giây):** “Sự bất ổn của giá xăng đã 'ăn' bao nhiêu phần thu nhập của bạn? Bạn cảm thấy thế nào về một tương lai với chi phí cố định?”
+    * **Cùng Thảo Luận (30 giây):** “Sự bất ổn của giá xăng đã 'ăn' bao nhiêu phần thu nhập của bạn? Bạn cảm thấy thế nào về một tương lai với chi phí cố định?”
 
 
   * **2\. Trải Nghiệm Lái Xe - Sự Tỉnh Táo Sau Mỗi Ca Làm (1,5 phút)**
     * **Cảm giác cũ:** Sự mệt mỏi đến từ tiếng ồn, độ rung và mùi xe xăng sau một ngày dài.
     * **Cảm giác mới:** Sự êm ái, yên tĩnh tuyệt đối. Bạn kết thúc ca lái mà đầu óc vẫn nhẹ nhàng, cơ thể ít căng thẳng. Đó là lý do Uber ưu tiên EV cho các chuyến cao cấp!
-    * **📌 Cùng Thảo Luận (30 giây):** “Hãy tưởng tượng kết thúc một ca 12 tiếng mà vẫn cảm thấy tỉnh táo. Điều đó sẽ thay đổi cuộc sống của bạn thế nào?”
+    * **Cùng Thảo Luận (30 giây):** “Hãy tưởng tượng kết thúc một ca 12 tiếng mà vẫn cảm thấy tỉnh táo. Điều đó sẽ thay đổi cuộc sống của bạn thế nào?”
 
 
   * **3\. Độ Tin Cậy - "Chiến Hữu" Đáng Tin Cậy Trên Mọi Cung Đường (1,5 phút)**
     * **Rủi ro cũ:** "Chết máy" giữa đường, mất cuốc, mất uy tín.
     * **Tự tin mới:** Động cơ điện đơn giản, ít hỏng vặt. Bạn tập trung vào kiếm tiền, không còn lo lắng về những bất ngờ khó chịu. Ở Hàn Quốc, EV giảm 60% thời gian sửa chữa!
-    * **📌 Cùng Thảo Luận (30 giây):** “Khoảnh khắc xe hỏng giữa đường tồi tệ thế nào? Sự an tâm về độ tin cậy của EV có đáng giá với bạn không?”
+    * **Cùng Thảo Luận (30 giây):** “Khoảnh khắc xe hỏng giữa đường tồi tệ thế nào? Sự an tâm về độ tin cậy của EV có đáng giá với bạn không?”
 
 
   * **4\. Công Nghệ - Người Bạn Đồng Hành Thông Minh (2 phút)**
     * **Làm việc đơn lẻ:** Bạn phải tự nhớ mọi thứ - khi nào cần bảo dưỡng, lượng xăng còn lại...
     * **Làm việc theo đội:** Xe điện kết nối dữ liệu thời gian thực. Đội kỹ thuật chủ động nhắc bảo dưỡng, đội điều phối thông minh phân bổ chuyến đi và nhắc bạn sạc pin đúng lúc.
-    * **📌 Cùng Thảo Luận (30 giây):** “Bạn có muốn có một 'trợ lý ảo' giúp bạn tối ưu lộ trình và bảo trì xe? Dữ liệu từ EV sẽ giúp gì cho bạn?”
+    * **Cùng Thảo Luận (30 giây):** “Bạn có muốn có một 'trợ lý ảo' giúp bạn tối ưu lộ trình và bảo trì xe? Dữ liệu từ EV sẽ giúp gì cho bạn?”
 
 
 * * *
@@ -139,19 +142,19 @@ Unitaxi cam kết đồng hành cùng bạn với công nghệ, đào tạo và 
   * **1\. Định Vị Đẳng Cấp: "Taxi Điện - Êm Ái, Sạch Sẽ, An Toàn" (2 phút)**
     * **Cuộc chiến cũ:** Các hãng khác đua nhau hạ giá, khiến thu nhập của tài xế bị bào mòn.
     * **Lối đi của Unitaxi:** Chúng ta là lựa chọn **cao cấp hơn**. Khách hàng trả tiền cho sự yên tĩnh, không mùi, và cảm giác an toàn. Chúng ta xây dựng lòng trung thành, không phải sự rẻ tiền.
-    * **📌 Cùng Thảo Luận (30 giây):** “Bạn muốn khách hàng nhớ đến mình như một người lái xe bình thường, hay một tài xế chuyên nghiệp của thương hiệu taxi điện đẳng cấp?”
+    * **Cùng Thảo Luận (30 giây):** “Bạn muốn khách hàng nhớ đến mình như một người lái xe bình thường, hay một tài xế chuyên nghiệp của thương hiệu taxi điện đẳng cấp?”
 
 
   * **2\. Dấu Ấn Khó Phai - Từng Chuyến Đi Là Một Lần Quảng Cáo (2 phút)**
     * Chiếc xe điện đồng nhất, sạch bóng là hình ảnh di động mạnh mẽ nhất. Người ta sẽ chỉ điểm: "**Đó là Unitaxi, taxi điện đó!** ".
     * Khách hàng tự hào khi được sử dụng dịch vụ xanh và sạch, và họ sẽ tự động chia sẻ điều đó.
-    * **📌 Cùng Thảo Luận (30 giây):** “Khi khách hàng khen chiếc xe của bạn êm và sạch, bạn cảm thấy thế nào? Điều đó có khiến bạn tự hào về công việc của mình hơn không?”
+    * **Cùng Thảo Luận (30 giây):** “Khi khách hàng khen chiếc xe của bạn êm và sạch, bạn cảm thấy thế nào? Điều đó có khiến bạn tự hào về công việc của mình hơn không?”
 
 
   * **3\. Thoát Khỏi Vòng Xoáy Giảm Giá - Thu Nhập Bền Vững (2 phút)**
     * Chúng ta từ chối tham gia cuộc đua "đốt tiền" vô nghĩa. Thay vì chạy nhiều hơn để kiếm ít hơn, chúng ta chạy thông minh hơn để có thu nhập xứng đáng.
     * Unitaxi tập trung vào những khách hàng coi trọng chất lượng, sẵn sàng trả giá cao hơn cho một trải nghiệm tuyệt vời.
-    * **📌 Cùng Thảo Luận (30 giây):** “Bạn muốn chạy 10 chuyến với thu nhập thấp hay 7 chuyến với thu nhập cao và tinh thần thoải mái? EV chính là chìa khóa cho lựa chọn thứ hai.”
+    * **Cùng Thảo Luận (30 giây):** “Bạn muốn chạy 10 chuyến với thu nhập thấp hay 7 chuyến với thu nhập cao và tinh thần thoải mái? EV chính là chìa khóa cho lựa chọn thứ hai.”
 
 
 * * *
@@ -161,34 +164,34 @@ Unitaxi cam kết đồng hành cùng bạn với công nghệ, đào tạo và 
   * **1\. Bắt Nhịp Xu Thế Toàn Cầu - Đón Đầu Chính Sách (2 phút)**
     * Cả thế giới đang chuyển mình. Các thành phố lớn trên thế giới đang dần loại bỏ xe xăng. Chính phủ Việt Nam cũng đang có những chính sách ưu đãi mạnh mẽ cho giao thông xanh.
     * Bằng cách đi đầu, Unitaxi và các bạn đang nắm giữ lợi thế tiên phong, trở thành đối tác được ưu tiên.
-    * **📌 Cùng Thảo Luận (30 giây):** “Theo bạn, việc trở thành người tiên phong trong cuộc cách mạng xe điện tại Việt Nam mang lại lợi thế gì cho chúng ta?”
+    * **Cùng Thảo Luận (30 giây):** “Theo bạn, việc trở thành người tiên phong trong cuộc cách mạng xe điện tại Việt Nam mang lại lợi thế gì cho chúng ta?”
 
 
   * **2\. Thu Hút Những Đối Tác "Vàng" (2 phút)**
     * Các tập đoàn quốc tế, trường học quốc tế, bệnh viện lớn... chỉ muốn hợp tác với những đơn vị vận tải "xanh" và "sạch".
     * EV là tấm vé thông hành để Unitaxi ký được những hợp đồng dài hạn, ổn định, mang lại nguồn thu nhập bền vững cho tất cả mọi người.
-    * **📌 Cùng Thảo Luận (30 giây):** “Những hợp đồng doanh nghiệp ổn định sẽ giúp bạn yên tâm ra sao so với việc chạy từng chuyến riêng lẻ?”
+    * **Cùng Thảo Luận (30 giây):** “Những hợp đồng doanh nghiệp ổn định sẽ giúp bạn yên tâm ra sao so với việc chạy từng chuyến riêng lẻ?”
 
 
   * **3\. Tốc Độ Phát Triển Thần Tốc - Nhân Bản Sự Thành Công (3 phút)**
     * Khi có một đội xe đồng nhất, một quy trình vận hành chuẩn, chúng ta có thể mở rộng Unitaxi đến bất kỳ tỉnh thành nào một cách dễ dàng và nhanh chóng.
     * Thương hiệu "Unitaxi - Taxi Điện" sẽ trở thành một biểu tượng trên toàn quốc, và các bạn - những người tiên phong - chính là những hạt nhân quan trọng nhất.
-    * **📌 Cùng Thảo Luận (1 phút):** “Bạn muốn nhìn thấy Unitaxi có mặt ở tỉnh nào tiếp theo? Hãy tưởng tượng khi thương hiệu của chúng ta có mặt trên khắp cả nước, điều đó có ý nghĩa thế nào với bạn?”
+    * **Cùng Thảo Luận (1 phút):** “Bạn muốn nhìn thấy Unitaxi có mặt ở tỉnh nào tiếp theo? Hãy tưởng tượng khi thương hiệu của chúng ta có mặt trên khắp cả nước, điều đó có ý nghĩa thế nào với bạn?”
 
 
 * * *
 ### **d. KẾT NỐI SỨ MỆNH: VAI TRÒ CỦA MỖI CHÚNG TA**
 **(Thời lượng: 5 phút cuối)**
   * **Với Tài Xế:** Bạn là gương mặt của cuộc cách mạng. Mỗi lần bạn chạm vô-lăng, bạn không chỉ kiếm sống - bạn đang kiến tạo tương lai, mang lại hình ảnh đẹp về một Việt Nam hiện đại và văn minh.  
-**📌 Thảo Luận (1 phút):** “Là một trong những người đầu tiên, điều gì khiến bạn tự hào nhất?”
+**Thảo Luận (1 phút):** “Là một trong những người đầu tiên, điều gì khiến bạn tự hào nhất?”
 
 
   * **Với Điều Phối & Kỹ Thuật:** Các bạn là bộ não và trái tim của hệ thống. Dữ liệu từ EV giúp các bạn hỗ trợ tài xế tốt hơn, tối ưu hóa toàn bộ hệ thống và chứng minh giá trị của chúng ta với các đối tác.  
-**📌 Thảo Luận (1 phút):** “Công cụ và dữ liệu mới giúp bạn phát huy năng lực của mình như thế nào?”
+**Thảo Luận (1 phút):** “Công cụ và dữ liệu mới giúp bạn phát huy năng lực của mình như thế nào?”
 
 
 * * *
-### 🎯 **LỜI KẾT: CHÚNG TA LÀ NHỮNG NGƯỜI VIẾT NÊN LỊCH SỬ**
+### **LỜI KẾT: CHÚNG TA LÀ NHỮNG NGƯỜI VIẾT NÊN LỊCH SỬ**
 Unitaxi chọn 100% xe điện vì:
   * **Sức khỏe và Thu nhập** của chính bạn.
 
@@ -204,7 +207,7 @@ Các bạn không phải là người theo sau. Các bạn là **NGƯỜI DẪN 
 
 
 * * *
-# 🍀 **GIÁO TRÌNH: SỨ MỆNH GIAO THÔNG XANH - KIẾN TẠO ĐÔ THỊ VIỆT TƯƠNG LAI**
+# **GIÁO TRÌNH: SỨ MỆNH GIAO THÔNG XANH - KIẾN TẠO ĐÔ THỊ VIỆT TƯƠNG LAI**
 **(Thời lượng: 30–45 phút – Chuẩn đào tạo Quốc tế nâng cao)**
 **Mục tiêu:** Khơi dậy niềm tự hào khi mỗi học viên không chỉ là một tài xế, mà là một **" Người hùng đô thị"** \- người trực tiếp kiến tạo một môi trường sống lành mạnh, một hệ thống giao thông hiệu quả và những giá trị nhân văn cho cộng đồng.
 * * *
@@ -214,19 +217,19 @@ Các bạn không phải là người theo sau. Các bạn là **NGƯỜI DẪN 
   * **1\. Lá Phổi Của Thành Phố - Chúng Ta Đang Hít Gì Mỗi Ngày? (4 phút)**
     * **Sự thật giật mình:** 40-60% ô nhiễm không khí đô thị đến từ khí thải xe xăng/dầu. Những hạt bụi siêu mịn PM2.5 là thủ phạm vô hình gây ra viêm phổi, bệnh tim, thậm chí là ung thư.
     * **Hành động cụ thể của chúng ta:** Mỗi chiếc Unitaxi điện là một "lá phổi di động" \- **KHÔNG** thải ra bất kỳ khí độc hại nào tại chỗ. Chúng ta đang trực tiếp làm sạch bầu không khí cho chính con em và gia đình mình.
-    * **📌 Cùng Thảo Luận (1 phút):** "Bạn đã bao giờ cảm nhận rõ sự ô nhiễm trên những cung đường mình chạy? Cảm giác thế nào khi biết mình đang góp phần mang lại bầu không khí sạch hơn?"
+    * **Cùng Thảo Luận (1 phút):** "Bạn đã bao giờ cảm nhận rõ sự ô nhiễm trên những cung đường mình chạy? Cảm giác thế nào khi biết mình đang góp phần mang lại bầu không khí sạch hơn?"
 
 
   * **2\. Sự Yên Tĩnh - Món Quà Sức Khỏe Tinh Thần (4 phút)**
     * **Âm thanh của sự mệt mỏi:** Tiếng ồn giao thông không chỉ gây khó chịu; nó là tác nhân gây stress, mất ngủ và giảm sự tập trung.
     * **Âm thanh của tương lai:** Sự yên tĩnh của xe điện không chỉ là một trải nghiệm sang trọng; nó là liều thuốc cho sức khỏe tinh thần của cả tài xế, hành khách và những người dân sống ven đường.
-    * **📌 Cùng Thảo Luận (1 phút):** "Sự yên tĩnh trong cabin xe điện đã thay đổi trải nghiệm làm việc của bạn thế nào? Khách hàng đã phản hồi gì về điều này?"
+    * **Cùng Thảo Luận (1 phút):** "Sự yên tĩnh trong cabin xe điện đã thay đổi trải nghiệm làm việc của bạn thế nào? Khách hàng đã phản hồi gì về điều này?"
 
 
   * **3\. Vòng Tay Bảo Vệ Cho Những Người Dễ Tổn Thương (4 phút)**
     * Chúng ta có một đặc ân và trách nhiệm: Phục vụ những đối tượng cần sự chăm sóc đặc biệt nhất - **trẻ em, người cao tuổi, phụ nữ mang thai.**
     * Chiếc xe điện êm ái, sạch sẽ, không mùi độc hại chính là "vòng tay bảo vệ" an toàn nhất cho họ. Đây không còn là dịch vụ, mà là sứ mệnh.
-    * **📌 Cùng Thảo Luận (1 phút):** "Hãy kể về một lần bạn cảm thấy thực sự ý nghĩa khi được chở một hành khách đặc biệt. Xe điện đã giúp bạn chăm sóc họ tốt hơn thế nào?"
+    * **Cùng Thảo Luận (1 phút):** "Hãy kể về một lần bạn cảm thấy thực sự ý nghĩa khi được chở một hành khách đặc biệt. Xe điện đã giúp bạn chăm sóc họ tốt hơn thế nào?"
 
 
 * * *
@@ -236,19 +239,19 @@ Các bạn không phải là người theo sau. Các bạn là **NGƯỜI DẪN 
   * **1\. Giải Pháp Cho Sự Tắc Nghẽn - "Làn Sóng Xanh" Từ Mỗi Vô-Lăng (4 phút)**
     * Khả năng tăng tốc mượt mà và phanh tái sinh của xe điện giúp giảm thiểu hiệu ứng "sóng người đi bộ" \- một trong những nguyên nhân chính gây ùn tắc cục bộ.
     * Khi chúng ta lái xe êm ái và chủ động, chúng ta đang tạo ra một "làn sóng xanh" lưu thông cho tất cả các phương tiện phía sau.
-    * **📌 Cùng Thảo luận (1 phút):** "Bạn có nhận thấy sự khác biệt trong cách dòng xe lưu thông khi bạn lái một chiếc xe êm ái và tăng tốc mượt mà? Hãy chia sẻ trải nghiệm."
+    * **Cùng Thảo luận (1 phút):** "Bạn có nhận thấy sự khác biệt trong cách dòng xe lưu thông khi bạn lái một chiếc xe êm ái và tăng tốc mượt mà? Hãy chia sẻ trải nghiệm."
 
 
   * **2\. Trái Tim Của Thành Phố Thông Minh (3 phút)**
     * Mỗi chiếc Unitaxi là một "cảm biến di động" thu thập dữ liệu giao thông theo thời gian thực. Dữ liệu này giúp thành phố hiểu và tối ưu hóa hệ thống giao thông một cách thông minh.
     * Chúng ta không còn là những cá thể đơn lẻ; chúng ta là một mạng lưới kết nối, cùng nhau tạo nên một hệ sinh thái giao thông hiệu quả hơn.
-    * **📌 Cùng Thảo luận (30 giây):** "Theo bạn, dữ liệu từ đội xe điện của chúng ta có thể giúp ích gì cho việc quy hoạch giao thông của thành phố trong tương lai?"
+    * **Cùng Thảo luận (30 giây):** "Theo bạn, dữ liệu từ đội xe điện của chúng ta có thể giúp ích gì cho việc quy hoạch giao thông của thành phố trong tương lai?"
 
 
   * **3\. Người Gác Cổng An Toàn Đường Phố (3 phút)**
     * Thiết kế của xe điện với trọng tâm thấp và khả năng phản hồi tức thì giúp hạn chế tai nạn. Sự êm ái giúp tài xế giữ được bình tĩnh và tập trung cao độ hơn.
     * Mỗi chuyến đi an toàn không chỉ bảo vệ bạn và khách hàng, mà còn góp phần tạo nên một môi trường đường phố an toàn hơn cho tất cả mọi người.
-    * **📌 Cùng Thảo luận (30 giây):** "Điều gì về xe điện khiến bạn cảm thấy tự tin hơn về mặt an toàn so với xe xăng?"
+    * **Cùng Thảo luận (30 giây):** "Điều gì về xe điện khiến bạn cảm thấy tự tin hơn về mặt an toàn so với xe xăng?"
 
 
 * * *
@@ -258,19 +261,19 @@ Các bạn không phải là người theo sau. Các bạn là **NGƯỜI DẪN 
   * **1\. Dịch Vụ Mang Trái Tim - Phục Vụ Vì Cộng Đồng (3 phút)**
     * Unitaxi không đơn thuần là một hãng xe, mà là một mạng lưới an sinh lưu động, đặc biệt dành cho những đối tượng dễ bị tổn thương nhất.
     * Chúng ta xây dựng lòng tin thông qua từng hành động nhỏ: một cái mở cửa, một lời hỏi thăm, một chuyến xe êm ái.
-    * **📌 Cùng Thảo luận (30 giây):** "Khoảnh khắc nào khi phục vụ những nhóm hành khách đặc biệt (người già, trẻ em...) khiến bạn cảm thấy công việc của mình thực sự có ý nghĩa?"
+    * **Cùng Thảo luận (30 giây):** "Khoảnh khắc nào khi phục vụ những nhóm hành khách đặc biệt (người già, trẻ em...) khiến bạn cảm thấy công việc của mình thực sự có ý nghĩa?"
 
 
   * **2\. Người Tiên Phong - Nâng Tầm Nghề Tài Xế Việt (3 phút)**
     * Chúng ta đang viết lại câu chuyện về nghề tài xế. Từ một người lái xe, chúng ta trở thành những **" Chuyên gia Di chuyển"** \- am hiểu công nghệ, có tác phong chuẩn quốc tế và một trái tim phục vụ.
     * Hình ảnh của bạn hôm nay sẽ truyền cảm hứng cho thế hệ tài xế tương lai.
-    * **📌 Cùng Thảo luận (30 giây):** "Bạn muốn mọi người nhìn nhận nghề tài xế của chúng ta như thế nào? Làm thế nào để chúng ta cùng nhau thay đổi định kiến?"
+    * **Cùng Thảo luận (30 giây):** "Bạn muốn mọi người nhìn nhận nghề tài xế của chúng ta như thế nào? Làm thế nào để chúng ta cùng nhau thay đổi định kiến?"
 
 
   * **3\. Đối Tác Đáng Tin Cậy Cho Tương Lai (3 phút)**
     * Các trường học, bệnh viện và tập đoàn lớn đang tìm kiếm những đối tác "xanh" và "có trách nhiệm". Unitaxi, với 100% xe điện và đội ngũ được đào tạo bài bản, chính là câu trả lời hoàn hảo.
     * Điều này không chỉ mang lại những hợp đồng bền vững, mà còn khẳng định vị thế tiên phong và đạo đức của chúng ta trong ngành.
-    * **📌 Cùng Thảo luận (30 giây):** "Theo bạn, việc trở thành đối tác vận chuyển cho các trường học hoặc bệnh viện có ý nghĩa như thế nào đối với uy tín và sự phát triển của Unitaxi?"
+    * **Cùng Thảo luận (30 giây):** "Theo bạn, việc trở thành đối tác vận chuyển cho các trường học hoặc bệnh viện có ý nghĩa như thế nào đối với uy tín và sự phát triển của Unitaxi?"
 
 
 * * *
@@ -295,7 +298,7 @@ Các bạn không phải là người theo sau. Các bạn là **NGƯỜI DẪN 
 
 
 * * *
-# 🤝 **GIÁO TRÌNH: SỨC MẠNH ĐỒNG ĐỘI - KHI MỖI CHÚNG TA LÀ MỘT MẮT XÍCH HOÀN HẢO**
+# **GIÁO TRÌNH: SỨC MẠNH ĐỒNG ĐỘI - KHI MỖI CHÚNG TA LÀ MỘT MẮT XÍCH HOÀN HẢO**
 **(Thời lượng: 25 phút – Chuẩn đào tạo tinh thần đồng đội Quốc tế)**
 **Mục tiêu:** Khơi dậy tinh thần "Một người vì mọi người". Học viên hiểu rằng thành công của mỗi cá nhân được xây dựng dựa trên sự phối hợp nhịp nhàng của cả hệ thống, từ đó nâng cao niềm tự hào, trách nhiệm và hiệu quả làm việc nhóm.
 * * *
@@ -305,7 +308,7 @@ Các bạn không phải là người theo sau. Các bạn là **NGƯỜI DẪN 
   * **1\. Bạn Chính Là Điểm Khác Biệt (2 phút)**
     * Công nghệ có thể sao chép, nhưng **thái độ tử tế, sự chuyên nghiệp và kỹ năng lái xe an toàn của bạn là điều không thể thay thế.**
     * Mỗi lần bạn mở cửa, mỗi nụ cười chào hỏi, mỗi chuyến xe êm ái đều khắc sâu vào tâm trí khách hàng về thương hiệu Unitaxi.
-    * **📌 Cùng Thảo Luận (30 giây):** "Hãy kể về một lần bạn cảm thấy mình thực sự tạo ra sự khác biệt trong trải nghiệm của khách hàng. Điều gì khiến họ nhớ đến bạn?"
+    * **Cùng Thảo Luận (30 giây):** "Hãy kể về một lần bạn cảm thấy mình thực sự tạo ra sự khác biệt trong trải nghiệm của khách hàng. Điều gì khiến họ nhớ đến bạn?"
 
 
   * **2\. Người Cầm Lái Đáng Tin Cậy (3 phút)**
@@ -317,7 +320,7 @@ Các bạn không phải là người theo sau. Các bạn là **NGƯỜI DẪN 
   * **3\. Cộng Sự Thông Thái Của Đội Kỹ Thuật & Điều Phối (3 phút)**
     * Khi bạn báo lỗi **" Rõ - Đúng - Nhanh"** qua app, bạn chính là đôi mắt và đôi tai của đội kỹ thuật trên khắp các cung đường.
     * Thông tin của bạn giúp họ **chẩn đoán chính xác từ xa** , tiết kiệm thời gian và đưa ra giải pháp tức thì. Một thông báo mơ hồ có thể khiến cả hệ thống tốn thêm hàng giờ.
-    * **📌 Cùng Thảo Luận (30 giây):** "Theo bạn, một báo cáo sự cố lý tưởng cần những thông tin gì? Hãy cùng xây dựng một mẫu báo cáo hoàn hảo!"
+    * **Cùng Thảo Luận (30 giây):** "Theo bạn, một báo cáo sự cố lý tưởng cần những thông tin gì? Hãy cùng xây dựng một mẫu báo cáo hoàn hảo!"
 
 
   * **4\. Đại Sứ Thương Hiệu (2 phút)**
@@ -340,7 +343,7 @@ Các bạn không phải là người theo sau. Các bạn là **NGƯỜI DẪN 
 
   * **3\. Người Đồng Đội Hiểu Rõ Nhất (2 phút)**
     * Việc bạn chủ động nhắc tài xế nghỉ ngơi khi có dấu hiệu mệt mỏi cho thấy Unitaxi không chỉ quan tâm đến hiệu suất, mà còn **trân trọng sức khỏe của từng thành viên.**
-    * **📌 Cùng Thảo Luận (30 giây):** "Hãy chia sẻ một lần bạn cảm nhận được sự hỗ trợ kịp thời từ đội điều phối. Điều đó đã giúp ích gì cho bạn?"
+    * **Cùng Thảo Luận (30 giây):** "Hãy chia sẻ một lần bạn cảm nhận được sự hỗ trợ kịp thời từ đội điều phối. Điều đó đã giúp ích gì cho bạn?"
 
 
   * **4\. Cầu Nối Của Niềm Tin (2 phút)**
@@ -364,7 +367,7 @@ Các bạn không phải là người theo sau. Các bạn là **NGƯỜI DẪN 
   * **3\. Đối Tác Tin Cậy (2 phút)**
     * Khi tài xế đưa ra thông tin chính xác, bạn chính là người **biến thông tin thành hành động** khắc phục hiệu quả.
     * Sự phối hợp nhịp nhàng giữa tài xế và kỹ thuật tạo nên một vòng tròn khép kín của sự tin cậy và an toàn.
-    * **📌 Cùng Thảo Luận (30 giây):** "Lần gần đây nhất đội kỹ thuật đã 'giải cứu' bạn khỏi một sự cố khó chịu? Hãy gửi lời cảm ơn hoặc chia sẻ câu chuyện đó!"
+    * **Cùng Thảo Luận (30 giây):** "Lần gần đây nhất đội kỹ thuật đã 'giải cứu' bạn khỏi một sự cố khó chịu? Hãy gửi lời cảm ơn hoặc chia sẻ câu chuyện đó!"
 
 
 * * *
@@ -381,15 +384,15 @@ Chúng ta là một vòng tròn khép kín, nơi mỗi người đều là mắt
 
 
 **Hãy nhớ:** Một con én không làm nên mùa xuân. Một chiếc xe hỏng sẽ ảnh hưởng đến toàn bộ lịch trình. Một thông tin báo cáo mơ hồ sẽ làm chậm trễ cả đội xe. Nhưng khi chúng ta cùng nhau tạo thành một **" vòng tròn hoàn hảo"**, mọi vấn đề đều được giải quyết, và khách hàng nhận được trải nghiệm tuyệt vời nhất.
-**📌 Thảo luận nhanh (1 phút):** "Hãy thử tưởng tượng một ngày làm việc lý tưởp khi cả 3 bộ phận đều phối hợp ăn ý. Nó sẽ trông như thế nào?"
+**Thảo luận nhanh (1 phút):** "Hãy thử tưởng tượng một ngày làm việc lý tưởp khi cả 3 bộ phận đều phối hợp ăn ý. Nó sẽ trông như thế nào?"
 * * *
-### 🎯 **LỜI KẾT: CÙNG NHAU KIẾN TẠO NHỮNG HÀNH TRÌNH HẠNH PHÚC**
+### **LỜI KẾT: CÙNG NHAU KIẾN TẠO NHỮNG HÀNH TRÌNH HẠNH PHÚC**
 **(2 phút)**
 Thông điệp quan trọng nhất hôm nay: **" Đơn giản là, chúng ta cần nhau."**
 Khi bạn lái xe an toàn, bạn đang bảo vệ uy tín của cả đội. Khi bạn điều phối thông minh, bạn đang nâng đỡ công việc của đồng đội. Khi bạn sửa chữa tận tâm, bạn đang trao gửi sự an tâm cho mỗi hành trình. Chúng ta không chỉ giao tiếp qua sóng điện thoại hay ứng dụng. Chúng ta đang kết nối bằng **sự tin tưởng, trách nhiệm và cùng chung một mục tiêu:** Mang lại những chuyến đi hạnh phúc, an toàn và êm ái cho cộng đồng.
 Hãy tự hào vì bạn là một phần trong cỗ máy hoàn hảo này. Cảm ơn bạn vì đã là một mắt xích không thể thiếu!
 * * *
-# 🌟 **GIÁO TRÌNH: SỨ MỆNH NGƯỜI TÀI XẾ UNITAXI - KIẾN TẠO NHỮNG HÀNH TRÌNH HẠNH PHÚC**
+# **GIÁO TRÌNH: SỨ MỆNH NGƯỜI TÀI XẾ UNITAXI - KIẾN TẠO NHỮNG HÀNH TRÌNH HẠNH PHÚC**
 **Sổ tay Tác phong Unitaxi – Phần Ý nghĩa Nghề nghiệp(Thời lượng: 15 phút – Trái tim của chương trình đào tạo 48 giờ)**
 **Mục tiêu:** Khơi dậy lòng tự hào và nhận thức sâu sắc về sứ mệnh. Giúp mỗi học viên thấy rằng họ không chỉ đang LÁI XE, mà đang kiến tạo niềm tin, gìn giữ an toàn và trao gửi yêu thương trong từng hành trình.
 * * *
@@ -415,7 +418,7 @@ Hãy tự hào vì bạn là một phần trong cỗ máy hoàn hảo này. Cả
   * **4\. Người Vỗ Về Những Mệt Mỏi (The Comfort Keeper)**
     * Khách hàng bước lên xe mang theo cả một ngày dài. Có người vừa tan làm mệt nhoài, có người đang lo lắng cho người thân trong bệnh viện, có em nhỏ đang khóc vì say xe.
     * Sự êm ái của bạn, sự im lặng tôn trọng của bạn, hay đơn giản là một chai nước mát lạnh đưa kịp lúc... có thể **biến một chuyến đi thành một sự an ủi**.
-    * **📌 Cùng Thảo Luận (30 giây):** "Hãy kể về một lần bạn cảm nhận được sự biết ơn chân thành từ khách hàng. Điều gì nhỏ nhất bạn làm lại khiến họ nhớ nhất?"
+    * **Cùng Thảo Luận (30 giây):** "Hãy kể về một lần bạn cảm nhận được sự biết ơn chân thành từ khách hàng. Điều gì nhỏ nhất bạn làm lại khiến họ nhớ nhất?"
 
 
 * * *
@@ -460,7 +463,7 @@ Hôm nay, bạn có quyền tự hào vì:
 > Và bạn, với tư cách là người tài xế, có đặc quyền được trở thành một nhân tử tốt đẹp trong câu chuyện đó. Hãy phục vụ với tất cả sự chân thành và tôn trọng, như thể người ngồi sau là chính người thân của mình. Không cần điều gì quá lớn lao, chỉ cần sự **tử tế đúng lúc** và **trách nhiệm đến nơi**.
 > Cảm ơn bạn đã chọn trở thành một phần của Unitaxi. Cùng nhau, chúng ta không chỉ vận hành những chiếc xe - chúng ta đang **vận chuyển niềm tin và kiến tạo hạnh phúc**."
 * * *
-# ✅ **BÀI KIỂM TRA NHANH - KẾT THÚC HÀNH TRÌNH ĐÀO TẠO NỀN TẢNG**
+# **BÀI KIỂM TRA NHANH - KẾT THÚC HÀNH TRÌNH ĐÀO TẠO NỀN TẢNG**
 **(Thời lượng: 5 phút)**
 **Hướng dẫn cho Giảng viên:**  
 "Hãy cùng nhau ôn lại 5 điều cốt lõi nhất. Tôi sẽ đọc từng câu hỏi, chúng ta dành 15 giây suy nghĩ và cùng nhau nói đáp án. Đây không phải là bài thi, mà là dịp để chúng ta cùng khẳng định lại những giá trị chung của Unitaxi."
@@ -478,7 +481,7 @@ Hôm nay, bạn có quyền tự hào vì:
 * * *
 **Lời kết của Giảng viên (30 giây):** "Hoàn hảo! Nếu những câu trả lời này đã thấm nhuần trong tâm trí bạn, thì bạn không chỉ sẵn sàng trở thành một tài xế Unitaxi - bạn đã sẵn sàng trở thành một **Người hùng đô thị thực thụ**. Hãy ra đường với tất cả sự tự hào và trách nhiệm. Chúc các bạn luôn giữ vững tay lái, giữ trọn tâm thế và luôn tỏa sáng!"
 * * *
-# **📘 GIÁO ÁN ĐÀO TẠO – 8 CHUẨN VĂN HOÁ – TÁC PHONG UNITAXI (4 GIỜ)**
+# **GIÁO ÁN ĐÀO TẠO – 8 CHUẨN VĂN HOÁ – TÁC PHONG UNITAXI (4 GIỜ)**
 **Đối tượng:** Tài xế – Điều phối – Kỹ thuật
 **Hình thức:** Lý thuyết + Tình huống + Diễn vai + Quan sát trực tiếp
 **Mục tiêu:** Chuẩn hóa _1 bộ tác phong chung_ cho toàn hệ thống
@@ -500,7 +503,7 @@ Hôm nay, bạn có quyền tự hào vì:
 
 
 * * *
-# 🛡️ **CHUẨN 1: AN TOÀN - GIÁ TRỊ KHÔNG BAO GIỜ ĐỔI Đ ƯỢC**
+# ️ **CHUẨN 1: AN TOÀN - GIÁ TRỊ KHÔNG BAO GIỜ ĐỔI Đ ƯỢC**
 ### **A. MỞ ĐẦU: TẠI SAO AN TOÀN LÀ SỐ 1?** (4-5 phút)
 Khi bạn cầm vô-lăng Unitaxi, có một câu hỏi chúng ta nên tự đặt ra mỗi ngày: **" Nếu người ngồi sau là người thân của mình - mình sẽ lái thế nào?"**
 Câu trả lời luôn chỉ có một: **AN TOÀN TUYỆT ĐỐI**.
@@ -783,7 +786,7 @@ Mỗi chuyến xe của chúng ta không chỉ là một hành trình - đó là
 
 **An toàn không phải là chạy chậm - an toàn là lái thông minh, có trách nhiệm.** Cảm ơn các bạn - những người đang viết nên câu chuyện Unitaxi bằng sự an toàn và chuyên nghiệp!
 * * *
-# 🕒 **CHUẨN 2: ĐÚNG GIỜ & TÔN TRỌNG CAM KẾT**
+# **CHUẨN 2: ĐÚNG GIỜ & TÔN TRỌNG CAM KẾT**
 **(Phiên bản hoàn chỉnh - 25-30 phút đào tạo)**
 ### **A. MỞ ĐẦU: ĐÚNG GIỜ = TẠO NIỀM TIN ĐẦU TIÊN** (3 phút)
 **Thống kê từ Grab & Uber cho thấy:**
@@ -974,7 +977,7 @@ Hãy là những tài xế mà khách hàng không bao giờ phải hỏi:
 **" Xe đâu rồi?"**
 **Cảm ơn các bạn - những đại sứ của sự tin cậy!**
 * * *
-# 🟦 **CHUẨN 3: KHÔNG GIAN DỂ CHỊU CHO KHÁCH**
+# **CHUẨN 3: KHÔNG GIAN DỂ CHỊU CHO KHÁCH**
 **(Phiên bản n âng cấp - Bổ sung chuẩn quốc tế)**
 * * *
 ### **A. MỞ ĐẦU – 10 GIÂY ĐẦU TIÊN ĐÃ NÓI LÊN TẤT CẢ** (3 phút)
@@ -1117,7 +1120,7 @@ Hãy là những tài xế mà khách hàng không bao giờ phải hỏi:
 "Trong thế giới dịch vụ premium, không gian không còn là yếu tố phụ - đó là sản phẩm chính. Mỗi chiếc xe Unitaxi không chỉ là phương tiện vận chuyển, mà là một trải nghiệm được thiết kế tỉ mỉ."
 **Theo Harvard Business Review:** "Dịch vụ vận chuyển trong tương lai sẽ được định giá dựa trên chất lượng không gian nhiều hơn tốc độ di chuyển."
 * * *
-# 🟦 **CHUẨN 4: TÔN TRỌNG TRONG GIAO TIẾP**
+# **CHUẨN 4: TÔN TRỌNG TRONG GIAO TIẾP**
 **(Phiên bản hoàn chỉnh - 45 phút đào tạo)**
 ### **A. MỞ ĐẦU: GIAO TIẾP = TRÁI TIM DỊCH VỤ** (4 phút)
 Kính thưa anh chị em, Có một sự thật trong ngành dịch vụ: **" Khách có thể tha thứ cho một chiếc xe cũ, nhưng không bao giờ tha thứ cho một lời nói thiếu tôn trọng."**
@@ -1296,7 +1299,7 @@ Anh chị em thân mến, Mỗi lời chúng ta nói ra không chỉ đại di�
 
 Hãy để mỗi cuộc trò chuyện đều là một cơ hội lan tỏa sự tôn trọng và thấu hiểu. Cảm ơn các bạn - những nghệ sĩ của ngôn từ!
 * * *
-# 🟪 **CHUẨN 5: TRUNG THỰC VỚI HỆ THỐNG**
+# **CHUẨN 5: TRUNG THỰC VỚI HỆ THỐNG**
 ### A. MỤC TIÊU HỌC
 Sau buổi học, tài xế phải:
   1. Hiểu hệ thống dữ liệu là “xương sống” của Unitaxi.
@@ -1394,7 +1397,7 @@ Anh chị em ơi,
 Trung thực với hệ thống không phải vì công ty “soi mói”, mà vì chính mình và cả đội đang cùng xây một thương hiệu sạch để làm nghề lâu dài. Một lần lách = lãi vài chục nghìn, nhưng mất đi vài chục triệu thu nhập và danh dự nghề nghiệp.
 Cảm ơn anh chị em – những người giữ cho dữ liệu Unitaxi luôn sạch 100%, để tất cả chúng ta cùng ăn nên làm ra, cùng tự hào với nghề!
 * * *
-# 🟪 **CHUẨN 6: KỶ LUẬT GIỜ GIẤC & TUÂN THỦ QUY TRÌNH**
+# **CHUẨN 6: KỶ LUẬT GIỜ GIẤC & TUÂN THỦ QUY TRÌNH**
 **(Phiên bản chính thức Unitaxi – giảng 30 phút – chuẩn Uber Pro Diamond, Japan Taxi, ComfortDelGro Singapore, Grab Operations, Singapore LTA)**
 ### A. MỞ ĐẦU – KỶ LUẬT = TỰ DO THẬT SỰ (3 phút)
 Anh chị em thân mến,
@@ -1535,7 +1538,7 @@ Tôi mời tất cả chúng ta cùng đứng dậy, giơ tay lên và đọc to
 **“Từ hôm nay, tôi chọn kỷ luật – vì an toàn, vì thu nhập, vì anh em, và vì chính tôi!”**
 Cảm ơn anh chị em – những tài xế kỷ luật nhất thành phố này!
 * * *
-# **📍 CHUẨN 7: CHÚ Ý CHI TIẾT (25 phút)**
+# **CHUẨN 7: CHÚ Ý CHI TIẾT (25 phút)**
 **LỜI MỞ ĐẦU (3 phút)**
 Kính chào các tài xế thân mến!
 Hôm nay, chúng ta cùng khám phá một chuẩn mực quan trọng làm nên sự khác biệt của Unitaxi: **sự tinh tế trong từng chi tiết**.
@@ -1657,7 +1660,7 @@ Những điều tưởng chừng nhỏ bé ấy sẽ:
 
 Xin cảm ơn các tài xế đã lắng nghe! Chúc quý vị luôn an toàn và thành công trên mọi nẻo đường.
 * * *
-# 🟦 **CHUẨN 8: TỰ HÀO KHI MẶC ĐỒNG PHỤC (20 phút)**
+# **CHUẨN 8: TỰ HÀO KHI MẶC ĐỒNG PHỤC (20 phút)**
 **(Phiên bản chính thức Unitaxi – giảng 25 phút – chuẩn Uber Pro Diamond, Japan Taxi Association, ComfortDelGro Singapore, Grab Premium, London Black Cab)**
 ### A. MỞ ĐẦU – Đồng phục không phải là quần áo, là DANH DỰ (3 phút)
 Anh chị em thân mến,
@@ -1793,7 +1796,7 @@ Anh chị em ơi, Đồng phục Unitaxi không phải để “cho có” – n
 Mỗi lần bạn mặc đồng phục sạch sẽ, thẳng thớm, bạn không chỉ đẹp cho chính mình – bạn đang làm đẹp cho cả Unitaxi, cho gia đình mình, và cho nghề tài xế Việt Nam.
 **Cảm ơn anh chị em – những người mặc đồng phục đẹp nhất thành phố này!**
 * * *
-## 📍 **KIỂM TRA NHANH KẾT THÚC MÔ-ĐUN**
+## **KIỂM TRA NHANH KẾT THÚC MÔ-ĐUN**
 **(5 câu – 5 phút – Dùng cho Tài xế / Điều phối / Kỹ thuật – Chuẩn Unitaxi 2025)**
 Hướng dẫn trainer:
   * Đọc to từng câu, dừng 20–25 giây để học viên ghi hoặc trả lời miệng.
@@ -1840,7 +1843,7 @@ Vì để khách yên tâm, giảm 70% khả năng xung đột và giữ uy tín
 “5/5 đúng → Chúc mừng! Bạn chính thức là thành viên đội ngũ Unitaxi 5 sao.
 **Hãy giữ mãi 5 chuẩn này mỗi ngày – khách sẽ nhớ mãi và tiền sẽ tự tìm đến!”**
 * * *
-# **📘 3. AN TOÀN & PHÁP LÝ (4 GIỜ)**
+# **3. AN TOÀN & PHÁP LÝ (4 GIỜ)**
 |               |
 | **Thời gian** | **Nội dung**                                       |
 |---------------|----------------------------------------------------|
@@ -1860,7 +1863,7 @@ Mục tiêu cuối cùng: **Không vi phạm – Không tranh chấp – Không 
 # **⏱ CHƯƠNG TRÌNH ĐÀO TẠO: KHUNG PHÁP LÝ VẬN HÀNH TAXI ĐIỆN UNITAXI**
 **KHUNG PHÁP LÝ CƠ BẢN CHO TÀI XẾ TAXI ĐIỆN**
  _20 phút quyết định bạn là tài xế chuyên nghiệp hay chỉ là người cầm lái bình thường_
-**🎯 Sau 20 phút này, bạn sẽ tự tin tuyên bố:**
+**Sau 20 phút này, bạn sẽ tự tin tuyên bố:**
 “Tôi hiểu rõ pháp luật – tôi làm chủ rủi ro – tôi bảo vệ chính mình và thương hiệu Unitaxi!”
 **⏱ 0–3 phút — MỞ ĐẦU MẠNH MẼ (Giảng viên nói đúng 1 câu duy nhất, giọng trầm – chắc – truyền cảm hứng)**
 “Các anh chị ơi!
@@ -1948,7 +1951,7 @@ f. Tai nạn dù chỉ là va quẹt nhẹ
 → Từ chối không phải là mất tiền, mà là bảo vệ danh dự và an toàn!
 
 
-**📌 KẾT THÚC 20 PHÚT – GIẢNG VIÊN ĐỨNG THẲNG, GIỌNG MẠNH MẼ:**
+**KẾT THÚC 20 PHÚT – GIẢNG VIÊN ĐỨNG THẲNG, GIỌNG MẠNH MẼ:**
 “Các anh chị thân mến! Từ hôm nay, pháp luật không còn là nỗi sợ – mà là NGƯỜI BẠN HÙNG MẠNH nhất của các anh chị! Mỗi lần tuân thủ đúng một quy định, các anh chị đang bỏ tiền vào túi, bỏ sao vào hồ sơ, bỏ tự hào vào tim! Hãy bước ra khỏi phòng học này với tư thế ngẩng cao đầu và tự nhủ:
 **“Tôi không chỉ lái xe – tôi lái xe ĐÚNG LUẬT, ĐẲNG CẤP QUỐC TẾ!”**
 Unitaxi tự hào vì có các anh chị! Việt Nam tự hào vì có các anh chị! Cùng nhau, chúng ta sẽ làm nên lịch sử taxi điện sạch – an toàn – chuyên nghiệp nhất Đông Nam Á!
@@ -1956,7 +1959,7 @@ Cảm ơn các anh chị – giờ là lúc tỏa sáng trên mọi nẻo đư�
 * * *
 #  **⏱ 20–60 phút — PHẦN 2: HÀNH VI BẮT BUỘC & HÀNH VI CẤM TUYỆT ĐỐI**
 **40 phút này sẽ biến bạn từ “tài xế bình thường” thành “tài xế được khách nhớ mãi tên”!**
-**🎯 Sau 40 phút, bạn sẽ mang về nhà 3 thứ vô giá:**
+**Sau 40 phút, bạn sẽ mang về nhà 3 thứ vô giá:**
   1. Bộ kỹ năng lái xe đạt chuẩn Singapore – Nhật Bản – châu Âu
 
 
@@ -2085,7 +2088,7 @@ Cảm ơn các anh chị – bây giờ, hãy ra đường và tỏa sáng! 🚕
 * * *
 #  **⏱ 60–105 phút — PHẦN 3: AN TOÀN XE ĐIỆN – PIN – CHÁY NỔ – TRẠM SẠC**
 **45 phút này có thể cứu mạng bạn, cứu khách và cứu cả đội xe!**
-**🎯 Sau 45 phút, bạn sẽ rời phòng học với 4 sự tự tin thép:**
+**Sau 45 phút, bạn sẽ rời phòng học với 4 sự tự tin thép:**
   1. Bạn hiểu pin xe điện rõ như kỹ sư VinFast
 
 
@@ -2239,7 +2242,7 @@ Cảm ơn các anh chị – giờ là lúc ra đường và làm chủ mọi t�
 * * *
 #  **⏱ 105–145 phút — PHẦN 4: QUY ĐỊNH ĐƯA ĐÓN HỌC SINH & NGƯỜI YẾU THẾ**
 **40 phút này sẽ biến bạn thành “người hùng thầm lặng” mà mọi gia đình muốn con em mình gặp!**
-**🎯 Sau 40 phút, bạn sẽ mang về 4 siêu năng lực thực sự:**
+**Sau 40 phút, bạn sẽ mang về 4 siêu năng lực thực sự:**
   1. Đưa đón trẻ em đúng chuẩn Singapore – Nhật – Úc → phụ huynh tin tưởng tuyệt đối
 
 
@@ -2351,7 +2354,7 @@ Cảm ơn các anh chị – bây giờ, hãy ra đường và lan tỏa yêu th
 * * *
 #  **⏱ 145–180 phút — PHẦN 5: RƯỢU BIA – MA TUÝ – CAMERA – GHI ÂM**
 **35 phút này có thể cứu cả sự nghiệp và tính mạng của bạn!**
-**🎯 Sau 35 phút, bạn sẽ rời phòng học với 4 vũ khí thép:**
+**Sau 35 phút, bạn sẽ rời phòng học với 4 vũ khí thép:**
   1. Nồng độ cồn 0% – đầu óc tỉnh 100% – thu nhập cao 200%
 
 
@@ -2478,7 +2481,7 @@ Cảm ơn các anh chị – giờ là lúc ra đường và làm chủ mọi t�
 * * *
 #  **⏱ 180–220 phút — PHẦN 6: 10 TÌNH HUỐNG THỰC TẾ & CÁCH XỬ LÝ**
 **40 phút cuối cùng biến bạn thành “thầy phù thủy” của mọi tình huống đường phố!**
-**🎯 Sau 40 phút này, bạn sẽ rời phòng học với siêu năng lực thực chiến:**
+**Sau 40 phút này, bạn sẽ rời phòng học với siêu năng lực thực chiến:**
   * Không bao giờ hoảng loạn dù chuyện gì xảy ra
 
 
@@ -2647,7 +2650,7 @@ Cảm ơn các anh chị – bây giờ, hãy ra đường và LÀM NÊN KỲ T�
 * * *
 #  **⏱ 220–240 phút — PHẦN 7: BÀI TEST 10 CÂU + THẢO LUẬN NHÓM**
 **20 phút cuối cùng quyết định bạn là tài xế 5 sao hay chỉ là người cầm lái!**
-**🎯 Mục tiêu 20 phút này:**
+**Mục tiêu 20 phút này:**
   * Kiểm tra xem kiến thức đã “thấm vào máu” chưa
 
 
@@ -2775,7 +2778,7 @@ Việt Nam tự hào vì có các anh chị!
 Và từ hôm nay, mỗi con đường các anh chị đi qua sẽ an toàn hơn, đẹp hơn, và đáng tự hào hơn rất nhiều! Chúc các anh chị luôn AN TOÀN – 5 SAO – THU NHẬP KHỦNG và TỰ HÀO MÃI MÃI!
 Bây giờ… ra đường và LÀM NÊN LỊCH SỬ nào! 🚕⚡🇻🇳💚”
 * * *
-# **📘 4. GIAO TIẾP & XỬ LÝ XUNG ĐỘT (3 GIỜ)**
+# **4. GIAO TIẾP & XỬ LÝ XUNG ĐỘT (3 GIỜ)**
 |                                                       |
 | **Mục**                                               | **Nội dung chi tiết**                                                      | **Mô tả theo chuẩn quốc tế**                       | **Thời lượng** |
 |-------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------------|----------------|
@@ -2791,9 +2794,9 @@ Bây giờ… ra đường và LÀM NÊN LỊCH SỬ nào! 🚕⚡🇻🇳💚�
 | **10\. Role-play 10 tình huống**                      |  Khách sai điểm, khách la mắng, khách yêu cầu đi tắt…                      | Đánh giá trực tiếp                                 | 25’            |
 
 
-# **📘 1. NGUYÊN TẮC VÀNG TRONG GIAO TIẾP – PHIÊN BẢN ĐẦY ĐỦ 20 PHÚT**
+# **1. NGUYÊN TẮC VÀNG TRONG GIAO TIẾP – PHIÊN BẢN ĐẦY ĐỦ 20 PHÚT**
 **Chuẩn Grab Singapore Low-Tension Voice Code + Uber + Lyft + Japan Taxi**
-**🎯 Mục tiêu sau 20 phút**
+**Mục tiêu sau 20 phút**
   * Giọng nói của bạn trở thành “máy giảm căng thẳng tự động”
 
 
@@ -2907,9 +2910,9 @@ Mình bắn ngay theo đúng chuẩn này! 🔥
 
 **Chuẩn quốc tế:** _Lyft – Active Listening for Drivers._
 * * *
-# 📘 3. XIN LỖI ĐÚNG CHUẨN QUỐC TẾ (15 PHÚT)
+# 3. XIN LỖI ĐÚNG CHUẨN QUỐC TẾ (15 PHÚT)
 **15 phút này giúp bạn biến khách đang “muốn hủy chuyến + đánh giá 1 sao” thành khách cho 5 sao + boa ngay lập tức!**
-**🎯 Mục tiêu sau 15 phút**
+**Mục tiêu sau 15 phút**
   * Biết nói 1 câu xin lỗi làm tan biến 80% cơn bực của khách
 
 
@@ -3023,8 +3026,8 @@ Giờ thì ra đường và biến mọi cơn bực thành nụ cười nhé!
 Unitaxi tự hào vì có những tài xế biết xin lỗi ĐẲNG CẤP QUỐC TẾ như các anh chị! ❤️🚕”
 * * *
 ## **4\. Giải thích ngắn & rõ (15 phút)**
-**🔥 15 PHÚT NÀY SẼ BIẾN BẠN THÀNH "BẬC THẦY GIẢI THÍCH" \- KHÁCH TỨC GIẬN CŨNG PHẢI GẬT GÙ ĐỒNG Ý! 🚀**
-**🎯 MỤC TIÊU SAU 15 PHÚT:**
+**15 PHÚT NÀY SẼ BIẾN BẠN THÀNH "BẬC THẦY GIẢI THÍCH" \- KHÁCH TỨC GIẬN CŨNG PHẢI GẬT GÙ ĐỒNG Ý! 🚀**
+**MỤC TIÊU SAU 15 PHÚT:**
   * Biết cách giải thích 1 câu khiến khách từ "sao đi đường này?" thành "ồ hay quá!"
 
 
@@ -3146,7 +3149,7 @@ Unipower tự hào vì có những tài xế BIẾT NÓI NHƯNG KHÔNG BAO GIỜ
 * * *
 ## **5\. Xử lý khách nóng tính (20 phút)**
 **Chuẩn Lyft De-escalation Tactics + Grab Conflict Diffusion + Uber Safety + JapanTaxi Safety Style**
-**🎯 Mục tiêu sau 20 phút**
+**Mục tiêu sau 20 phút**
   * Bạn sẽ không còn sợ khách la hét, đập ghế, chửi bới
 
 
@@ -3241,8 +3244,8 @@ Unitaxi tự hào vì có những chiến binh giảm nhiệt đỉnh cao như c
 Giờ thì ra đường và biến mọi tiếng la hét thành… tiếng cười + 5 sao + boa nhé! ❤️🚕🔥”
 * * *
 ## **6\. Xử lý khách say (15 phút)**
-**🔥 20 PHÚT NÀY SẼ BIẾN BẠN THÀNH "BẬC THẦY XỬ LÝ XUNG ĐỘT" \- KHÁCH GIẬN DỮ ĐẾN MẤY CŨNG PHẢI BÌNH TĨNH LẠI! 🚀**
-**🎯 MỤC TIÊU ĐỘT PHÁ (1 PHÚT)**
+**20 PHÚT NÀY SẼ BIẾN BẠN THÀNH "BẬC THẦY XỬ LÝ XUNG ĐỘT" \- KHÁCH GIẬN DỮ ĐẾN MẤY CŨNG PHẢI BÌNH TĨNH LẠI! 🚀**
+**MỤC TIÊU ĐỘT PHÁ (1 PHÚT)**
   * **Thấu hiểu** tận gốc 5 nguyên nhân khiến khách "bùng nổ"
 
 
@@ -3253,51 +3256,51 @@ Giờ thì ra đường và biến mọi tiếng la hét thành… tiếng cư�
 
 
 * * *
-**🌟 VÌ SAO KHÁCH TRỞ THÀNH "NGƯỜI NHIỀU LỬA"? (3 PHÚT)**
+**VÌ SAO KHÁCH TRỞ THÀNH "NGƯỜI NHIỀU LỬA"? (3 PHÚT)**
 Theo nghiên cứu từ Lyft & Uber Global:
 **80% khách nóng tính KHÔNG HỀ NÓNG VÌ BẠN!** Họ đang mang theo:
-  * 💼 **Áp lực công việc** (trễ meeting, sếp la, deal sập)
+  * **Áp lực công việc** (trễ meeting, sếp la, deal sập)
 
 
-  * 🏥 **Lo lắng sức khỏe** (vào viện khám gấp)
+  * **Lo lắng sức khỏe** (vào viện khám gấp)
 
 
-  * ✈️ **Căng thẳng di chuyển** (sợ lỡ chuyến bay, tàu)
+  * ️ **Căng thẳng di chuyển** (sợ lỡ chuyến bay, tàu)
 
 
-  * 🏠 **Vấn đề gia đình** (cãi vợ/chồng, con ốm)
+  * **Vấn đề gia đình** (cãi vợ/chồng, con ốm)
 
 
 **SỰ THẬT CHẤN ĐỘNG:** Khách không giận bạn - họ đang giận HOÀN CẢNH!
 * * *
-**💎 6 BÍ KÍP "HẠ NHIỆT" TỪ CÁC CHUYÊN GIA LYFT (12 PHÚT)**
+**6 BÍ KÍP "HẠ NHIỆT" TỪ CÁC CHUYÊN GIA LYFT (12 PHÚT)**
 **1\. NGHỆ THUẬT "GIỮ KHOẢNG CÁCH VÀNG"**
-  * ❌ KHÔNG quay người đối diện trực tiếp
+  * KHÔNG quay người đối diện trực tiếp
 
 
-  * ✅ NGỒI thẳng, tay nắm vô-lăng, mắt hướng đường
+  * NGỒI thẳng, tay nắm vô-lăng, mắt hướng đường
 
 
-  * ✅ CHỈ nghiêng đầu 15 độ khi trả lời
+  * CHỈ nghiêng đầu 15 độ khi trả lời
 
 
 **Hiệu quả:** Giảm 40% cảm giác đối đầu ngay lập tức!
 **2\. GIỌNG NÓI "THẦN THÁNH" \- THẤP · CHẬM · ÊM**
-  * 🔊 Giảm âm lượng 2 nấc
+  * Giảm âm lượng 2 nấc
 
 
-  * 🐢 Nói chậm hơn 20%
+  * Nói chậm hơn 20%
 
 
-  * 🌬️ Kết hợp hơi thở sâu
+  * ️ Kết hợp hơi thở sâu
 
 
 **Câu "cửa miệng" của cao thủ:**_" Dạ em hiểu ạ."_
 **3\. ÁNH MẮT "KHÔNG ĐỐI ĐẦU"**
-  * 👀 Không nhìn chằm chằm qua gương
+  * Không nhìn chằm chằm qua gương
 
 
-  * 👁️ Không khóa mắt trực tiếp
+  * ️ Không khóa mắt trực tiếp
 
 
   * 🫣 Hướng tầm mắt lệch 30 độ sang phải
@@ -3305,37 +3308,37 @@ Theo nghiên cứu từ Lyft & Uber Global:
 
 **Nghiên cứu Lyft:** Tránh eye-contact giảm 50% leo thang xung đột!
 **4\. NGUYÊN TẮC "MỘT LỜI - MỘT NGHĨA"**
-  * 🚫 Tuyệt đối không tranh luận
+  * Tuyệt đối không tranh luận
 
 
-  * 🚫 Tuyệt đối không giải thích dài
+  * Tuyệt đối không giải thích dài
 
 
-  * 🚫 Tuyệt đối không chứng minh đúng sai
+  * Tuyệt đối không chứng minh đúng sai
 
 
 **Triết lý vàng:** _Thắng trong im lặng, an toàn trong hành động!_
 **5\. CÔNG THỨC "THẤU CẢM + HÀNH ĐỘNG"**
-  * 🤝 **Ghi nhận:** "Dạ em hiểu anh/chị đang rất sốt ruột"
+  * **Ghi nhận:** "Dạ em hiểu anh/chị đang rất sốt ruột"
 
 
-  * 🎯 **Chuyển hướng:** "Để em xử lý ngay cho mình ạ!"
+  * **Chuyển hướng:** "Để em xử lý ngay cho mình ạ!"
 
 
 **Hiệu quả tức thì:** Khách cảm thấy được lắng nghe → giảm bùng nổ!
 **6\. LÁI XE "ÊM NHƯ NHUNG"**
-  * 🚗 Không phanh gấp, không tăng tốc đột ngột
+  * Không phanh gấp, không tăng tốc đột ngột
 
 
-  * 🛣️ Giữ khoảng cách an toàn gấp 1.5 lần bình thường
+  * ️ Giữ khoảng cách an toàn gấp 1.5 lần bình thường
 
 
-  * 🎵 Tốc độ ổn định như dòng sông chảy
+  * Tốc độ ổn định như dòng sông chảy
 
 
 **Bí mật:** Xe êm = Tâm trạng khách dịu xuống 60%!
 * * *
-**🛡️ 6 CÂU "BÙA HỘ MỆNH" CHO MỌI TÌNH HUỐNG (3 PHÚT)**
+**️ 6 CÂU "BÙA HỘ MỆNH" CHO MỌI TÌNH HUỐNG (3 PHÚT)**
   1. ✅ **" Dạ em hiểu, để em xử lý ngay ạ."**
 
 
@@ -3354,19 +3357,19 @@ Theo nghiên cứu từ Lyft & Uber Global:
   6. ✅ **" Em sẽ cập nhật ứng dụng để minh bạch thông tin cho mình ạ."**
 
 
-**🚫 TUYỆT ĐỐI CẤM:**
-  * ❌ "Anh/chị sai rồi!"
+**TUYỆT ĐỐI CẤM:**
+  * "Anh/chị sai rồi!"
 
 
-  * ❌ "Không phải lỗi của em!"
+  * "Không phải lỗi của em!"
 
 
-  * ❌ "Em làm đúng mà!"  
+  * "Em làm đúng mà!"  
 _→ Đây là 3 câu "mồi lửa" gây nổ lớn!_
 
 
 * * *
-**🎭 3 TÌNH HUỐNG THỰC CHIẾN CẤP TỐC (1 PHÚT)**
+**3 TÌNH HUỐNG THỰC CHIẾN CẤP TỐC (1 PHÚT)**
 **Tình huống 1:** Khách quát "Sao chạy chậm thế?"  
 ➤ **Đáp trả thông minh:**_" Dạ em giữ tốc độ ổn định để đảm bảo AN TOÀN TUYỆT ĐỐI cho mình ạ!"_
 **Tình huống 2:** Khách gắt "Tôi bảo đi đường kia cơ!"  
@@ -3374,7 +3377,7 @@ _→ Đây là 3 câu "mồi lửa" gây nổ lớn!_
 **Tình huống 3:** Khách lớn tiếng vì kẹt xe  
 ➤ **Giải pháp vàng:**_" Dạ đoạn này đang đông, em đã chọn tuyến TỐI ƯU nhất rồi ạ!"_
 * * *
-**💫 KẾT THÚC TRÀN ĐẦY NĂNG LƯỢNG (1 PHÚT)**
+**KẾT THÚC TRÀN ĐẦY NĂNG LƯỢNG (1 PHÚT)**
 "Các anh chị thân mến!
 Một tài xế THÔNG THÁI không cần thắng bằng lời nói,  
 mà thắng bằng SỰ BÌNH TĨNH và CHUYÊN NGHIỆP!
@@ -3386,8 +3389,8 @@ Ra đường và tỏa sáng, những BẬC THẦY XỬ LÝ XUNG ĐỘT! 🌟�
 Unipower tự hào vì có bạn! ❤️"
 * * *
 ## **7\. Khi nào cần gọi điều phối / an ninh / công an (20 phút)**
-**🚨 20 PHÚT NÀY SẼ GIÚP BẠN TRỞ THÀNH "BẬC THẦY XỬ LÝ KHỦNG HOẢNG" \- AN TOÀN TUYỆT ĐỐI & CHUYÊN NGHIỆP ĐẲNG CẤP QUỐC TẾ! 🌟**
-**🎯 MỤC TIÊU ĐỘT PHÁ (2 PHÚT)**
+**20 PHÚT NÀY SẼ GIÚP BẠN TRỞ THÀNH "BẬC THẦY XỬ LÝ KHỦNG HOẢNG" \- AN TOÀN TUYỆT ĐỐI & CHUYÊN NGHIỆP ĐẲNG CẤP QUỐC TẾ! 🌟**
+**MỤC TIÊU ĐỘT PHÁ (2 PHÚT)**
   * **NHẬN DIỆN SIÊU NHANH** 8 tình huống "báo động đỏ" cần kích hoạt hỗ trợ
 
 
@@ -3398,26 +3401,26 @@ Unipower tự hào vì có bạn! ❤️"
 
 
 * * *
-**🔴 8 TÌNH HUỐNG "BÁO ĐỘNG ĐỎ" \- GỌI HỖ TRỢ NGAY! (10 PHÚT)**
+**8 TÌNH HUỐNG "BÁO ĐỘNG ĐỎ" \- GỌI HỖ TRỢ NGAY! (10 PHÚT)**
 **1\. KHÁCH ĐE DỌA HOẶC XÚC PHẠM**
-  * 👊 Đập ghế, đá cửa
+  * Đập ghế, đá cửa
 
 
-  * 🗣️ Chửi bới, xúc phạm
+  * ️ Chửi bới, xúc phạm
 
 
-  * ⚠️ Đe dọa: "Tao đánh mày", "Tao kiện mày"  
+  * ️ Đe dọa: "Tao đánh mày", "Tao kiện mày"  
 → **NGUY CƠ BẠO LỰC CAO** \- cần hỗ trợ an ninh ngay!
 
 
 **2\. KHÁCH SAY MẤT KIỂM SOÁT HOÀN TOÀN**
-  * 🚶 Không giữ được thăng bằng
+  * Không giữ được thăng bằng
 
 
-  * 🔊 La hét vô cớ
+  * La hét vô cớ
 
 
-  * 🚪 Cố mở cửa khi xe đang chạy  
+  * Cố mở cửa khi xe đang chạy  
 → **AN TOÀN TÍNH MẠNG BỊ ĐE DỌA** \- báo điều phối Level 1!
 
 
@@ -3425,7 +3428,7 @@ Unipower tự hào vì có bạn! ❤️"
   * 🪑 Ngồi lì không rời
 
 
-  * 🚪 Giữ chặt cửa, ghế
+  * Giữ chặt cửa, ghế
 
 
   * ⏰ Kéo dài thời gian vô lý  
@@ -3433,97 +3436,97 @@ Unipower tự hào vì có bạn! ❤️"
 
 
 **4\. KHÁCH YÊU CẦU ĐƯỜNG NGUY HIỂM**
-  * 🚫 Đường cấm taxi
+  * Đường cấm taxi
 
 
-  * 🔄 Đường một chiều
+  * Đường một chiều
 
 
-  * 🌊 Đường ngập sâu  
+  * Đường ngập sâu  
 → **VI PHẠM LUẬT GIAO THÔNG** \- tài xế chịu trách nhiệm pháp lý!
 
 
 **5\. KHÁCH CÓ HÀNH VI PHÁ HOẠI XE**
-  * 💥 Đập vỡ nội thất
+  * Đập vỡ nội thất
 
 
-  * 🎨 Bôi bẩn ghế, cửa
+  * Bôi bẩn ghế, cửa
 
 
-  * 🔧 Làm hỏng thiết bị  
+  * Làm hỏng thiết bị  
 → **THIỆT HẠI TÀI SẢN** \- cần ghi nhận để bồi thường!
 
 
 **6\. KHÁCH ĐÒI XUỐNG NƠI NGUY HIỂM**
-  * 🛣️ Giữa đường cao tốc
+  * ️ Giữa đường cao tốc
 
 
-  * 🌉 Trên cầu, hầm
+  * Trên cầu, hầm
 
 
-  * 🌃 Khu vực tối, vắng  
+  * Khu vực tối, vắng  
 → **VI PHẠM LUẬT & NGUY HIỂM TÍNH MẠNG** \- tuyệt đối không thực hiện!
 
 
 **7\. KHÁCH GÂY MẤT TẬP TRUNG KÉO DÀI**
-  * 📢 La hét liên tục
+  * La hét liên tục
 
 
-  * 👋 Đập vào ghế tài xế
+  * Đập vào ghế tài xế
 
 
-  * 🎭 Hành vi kích động  
+  * Hành vi kích động  
 → **NGUY CƠ MẤT KIỂM SOÁT TAY LÁI** \- dừng xe an toàn ngay!
 
 
 **8\. VA CHẠM GIAO THÔNG (DÙ NHẸ)**
-  * 🛵 Trầy xước nhẹ
+  * Trầy xước nhẹ
 
 
-  * 🚗 Va quẹt nhỏ
+  * Va quẹt nhỏ
 
 
-  * 🚦 Tai nạn nhẹ  
+  * Tai nạn nhẹ  
 → **BẮT BUỘC BÁO HỆ THỐNG** để ghi nhận & xử lý đúng quy trình!
 
 
 * * *
-**💎 QUY TRÌNH 3 BƯỚC VÀNG XỬ LÝ KHỦNG HOẢNG (6 PHÚT)**
+**QUY TRÌNH 3 BƯỚC VÀNG XỬ LÝ KHỦNG HOẢNG (6 PHÚT)**
 **BƯỚC 1: BÁO ĐIỀU PHỐI NGAY - "1 CÂU 5 GIÂY"**
 _Câu thần chú của cao thủ:_  
 ✅ **" Em gặp tình huống nguy hiểm cấp độ 2, cần hỗ trợ ngay!"**  
 ✅ **" Xe có va chạm nhẹ, em báo để xử lý theo quy trình!"**
 _Nguyên tắc vàng:_ **KHÔNG kể chuyện dài** \- điều phối sẽ hỏi thêm nếu cần!
 **BƯỚC 2: CHỈ ĐẠO HỆ THỐNG - KHÔNG TỰ Ý HÀNH ĐỘNG**
-  * 🚫 **KHÔNG** cãi nhau với khách
+  * **KHÔNG** cãi nhau với khách
 
 
-  * 🚫 **KHÔNG** tự ý ghi hình (trừ tự vệ)
+  * **KHÔNG** tự ý ghi hình (trừ tự vệ)
 
 
-  * 🚫 **KHÔNG** đuổi khách xuống xe
+  * **KHÔNG** đuổi khách xuống xe
 
 
-  * 🚫 **KHÔNG** xử lý theo cảm tính
+  * **KHÔNG** xử lý theo cảm tính
 
 
  _Bí kíp Bolt:_ **Tài xế không tự leo thang - để hệ thống hỗ trợ!**
 **BƯỚC 3: GHI NHẬN DỮ LIỆU - MINH BẠCH TUYỆT ĐỐI**
-  * 📸 Chụp ảnh hiện trường, hư hại
+  * Chụp ảnh hiện trường, hư hại
 
 
-  * 🕒 Ghi rõ giờ, vị trí chính xác
+  * Ghi rõ giờ, vị trí chính xác
 
 
-  * 📱 Cập nhật tình huống lên app
+  * Cập nhật tình huống lên app
 
 
-  * ⚠️ Báo điểm đón có rủi ro cho tài xế khác
+  * ️ Báo điểm đón có rủi ro cho tài xế khác
 
 
  _Mục tiêu tối thượng:_ **BẢO VỆ BẠN khỏi khiếu nại sai!**
 * * *
-**🎭 3 TÌNH HUỐNG THỰC CHIẾN CẤP TỐC (2 PHÚT)**
+**3 TÌNH HUỐNG THỰC CHIẾN CẤP TỐC (2 PHÚT)**
 **TÌNH HUỐNG 1:** Khách say mở cửa giữa đường  
 ➤ **XỬ LÝ ĐỈNH CAO:**_Giảm tốc → Dừng an toàn → Báo điều phối: "Khách say Level 3 đang cố mở cửa!"_
 **TÌNH HUỐNG 2:** Khách la hét, chửi bới  
@@ -3531,15 +3534,15 @@ _Nguyên tắc vàng:_ **KHÔNG kể chuyện dài** \- điều phối sẽ hỏ
 **TÌNH HUỐNG 3:** Va quẹt nhẹ xe máy  
 ➤ **XỬ LÝ THÔNG MINH:**_Dừng xe → Bật cảnh báo → Chụp ảnh → Báo: "Va chạm nhẹ, cần hướng dẫn xử lý!"_
 * * *
-**💫 KẾT THÚC TRÀN ĐẦY SỨC MẠNH (30 GIÂY)**
+**KẾT THÚC TRÀN ĐẦY SỨC MẠNH (30 GIÂY)**
 "Các anh chị thân mến!
 Điều phối không chỉ để xử lý giấy tờ - mà là VỊ CỨU TINH CỦA BẠN trong mọi tình huống nguy hiểm!
 Hãy nhớ kỹ: Khi bạn tuân thủ 3 bước vàng này, bạn không chỉ bảo vệ chính mình - mà còn đang VIẾT NÊN TIÊU CHUẨN AN TOÀN ĐẲNG CẤP QUỐC TẾ!
 Unipower LUÔN Ở ĐÂY để hỗ trợ bạn - vì sự an toàn của bạn là GIÁ TRỊ CỐT LÕI của chúng ta! ❤️🚗 Hãy lái xe an toàn và TỎA SÁNG, những BẬC THẦY XỬ LÝ KHỦNG HOẢNG! 🌟"
 * * *
 ## **8\. Kỷ luật ngôn từ (15 phút)**
-**🎯 15 PHÚT NÀY SẼ BIẾN BẠN THÀNH "BẬC THẦY GIAO TIẾP" \- CHUYÊN NGHIỆP, AN TOÀN & ĐẲNG CẤP QUỐC TẾ! 🌟**
-**🔥 MỤC TIÊU ĐỘT PHÁ**
+**15 PHÚT NÀY SẼ BIẾN BẠN THÀNH "BẬC THẦY GIAO TIẾP" \- CHUYÊN NGHIỆP, AN TOÀN & ĐẲNG CẤP QUỐC TẾ! 🌟**
+**MỤC TIÊU ĐỘT PHÁ**
   * **Làm chủ** nghệ thuật giao tiếp TRUNG LẬP - KHÔNG KÍCH ĐỘNG
 
 
@@ -3550,7 +3553,7 @@ Unipower LUÔN Ở ĐÂY để hỗ trợ bạn - vì sự an toàn của bạn 
 
 
 * * *
-**💎 5 NGUYÊN TẮC VÀNG "KHÔNG BAO GIỜ PHÁ VỠ" (5 PHÚT)**
+**5 NGUYÊN TẮC VÀNG "KHÔNG BAO GIỜ PHÁ VỠ" (5 PHÚT)**
 **1\. 🚫 TUYỆT ĐỐI KHÔNG NÓI TỤC - CHỬI THỀ**
   * Tạo cảm giác ĐE DỌA & MẤT AN TOÀN
 
@@ -3559,54 +3562,54 @@ Unipower LUÔN Ở ĐÂY để hỗ trợ bạn - vì sự an toàn của bạn 
 
 
 **2\. 🚫 KHÔNG ĐÙA NHẠY CẢM**
-  * ❌ Ngoại hình, cân nặng
+  * Ngoại hình, cân nặng
 
 
-  * ❌ Giới tính, xu hướng tình dục
+  * Giới tính, xu hướng tình dục
 
 
-  * ❌ Vùng miền, địa phương
+  * Vùng miền, địa phương
 
 
-  * ❌ Tôn giáo, chính trị
+  * Tôn giáo, chính trị
 
 
  _Hậu quả:_ Đánh giá 1 sao NGAY LẬP TỨC!
 **3\. 🚫 KHÔNG "DẠY ĐỜI" \- LÀM THẦY ĐỜI**
-  * ❌ "Anh/chị nên làm thế này..."
+  * "Anh/chị nên làm thế này..."
 
 
-  * ❌ "Để tôi chỉ cho..."
+  * "Để tôi chỉ cho..."
 
 
-  * ❌ "Như vậy là sai rồi!"
+  * "Như vậy là sai rồi!"
 
 
 _Tác hại:_ Tạo thế ĐỐI ĐẦU - Mất thiện cảm NGAY LẬP TỨC!
 **4\. 🚫 KHÔNG XỚI MÓI CHUYỆN RIÊNG TƯ**
-  * 💼 Thu nhập, lương bổng
+  * Thu nhập, lương bổng
 
 
-  * 👨‍👩‍👧‍👦 Hôn nhân, gia đình
+  * ‍👩‍👧‍👦 Hôn nhân, gia đình
 
 
-  * 🏥 Tình trạng sức khỏe
+  * Tình trạng sức khỏe
 
 
  _Chuẩn quốc tế:_ Đây là "HÀNH VI XÂM PHẠM" cần TRÁNH!
 **5\. 🚫 KHÔNG PHÁN XÉT - ĐÁNH GIÁ**
-  * 👕 Trang phục, ngoại hình
+  * Trang phục, ngoại hình
 
 
-  * 🗣️ Giọng nói, phương ngữ
+  * ️ Giọng nói, phương ngữ
 
 
-  * 💼 Nghề nghiệp, công việc
+  * Nghề nghiệp, công việc
 
 
  _Nguyên tắc:_ MỖI HÀNH KHÁCH ĐỀU XỨNG ĐÁNG ĐƯỢC TÔN TRỌNG!
 * * *
-**🚨 6 CÂU "CẤM KỴ" \- TUYỆT ĐỐI KHÔNG BAO GIỜ NÓI! (5 PHÚT)**
+**6 CÂU "CẤM KỴ" \- TUYỆT ĐỐI KHÔNG BAO GIỜ NÓI! (5 PHÚT)**
   1. ❌ **" Anh uống nhiều quá ha?"**  
 → Kích động khách say
 
@@ -3631,9 +3634,9 @@ _Tác hại:_ Tạo thế ĐỐI ĐẦU - Mất thiện cảm NGAY LẬP TỨC!
 → Xâm phạm đời tư
 
 
-**⚠️ ĐÂY LÀ 6 ĐIỀU "CẤM TOÀN CẦU" TRONG NGÀNH VẬN TẢI!**
+**️ ĐÂY LÀ 6 ĐIỀU "CẤM TOÀN CẦU" TRONG NGÀNH VẬN TẢI!**
 * * *
-**🛡️ 4 NHÓM CÂU "BẤT BẠI" \- DÙNG MỌI TÌNH HUỐNG (5 PHÚT)**
+**️ 4 NHÓM CÂU "BẤT BẠI" \- DÙNG MỌI TÌNH HUỐNG (5 PHÚT)**
 **NHÓM 1: CÂU XÁC NHẬN TRUNG LẬP**  
 ✅ **" Dạ em hiểu."**  
 ✅ **" Dạ đúng rồi ạ."**_→ Luôn an toàn, không sai được!_
@@ -3647,7 +3650,7 @@ _Tác hại:_ Tạo thế ĐỐI ĐẦU - Mất thiện cảm NGAY LẬP TỨC!
 ✅ **" Em hỗ trợ ngay cho mình."**  
 ✅ **" Anh/chị yên tâm, em lo phần này."**_→ Xây dựng NIỀM TIN & SỰ AN TÂM!_
 * * *
-**🎭 LUYỆN TẬP THỰC CHIẾN - 3 TÌNH HUỐNG "KHÓ NHẰN" (2 PHÚT)**
+**LUYỆN TẬP THỰC CHIẾN - 3 TÌNH HUỐNG "KHÓ NHẰN" (2 PHÚT)**
 **TÌNH HUỐNG 1:** Khách nóng tính phàn nàn về tuyến đường  
 ➤ **CÂU TRẢ LỜI VÀNG:**_" Dạ em hiểu, em đang chọn tuyến TỐI ƯU nhất cho mình ạ!"_
 **TÌNH HUỐNG 2:** Khách sai điểm đón, đổ lỗi cho tài xế  
@@ -3655,15 +3658,15 @@ _Tác hại:_ Tạo thế ĐỐI ĐẦU - Mất thiện cảm NGAY LẬP TỨC!
 **TÌNH HUỐNG 3:** Khách liên tục phàn nàn về giá cước  
 ➤ **XỬ LÝ CHUYÊN NGHIỆP:**_" Dạ em HIỂU, em sẽ CẬP NHẬT thông tin đầy đủ cho mình ạ!"_
 * * *
-**💫 KẾT THÚC ĐẦY CẢM HỨNG (30 GIÂY)**
+**KẾT THÚC ĐẦY CẢM HỨNG (30 GIÂY)**
 "Các anh chị thân mến!
 Kỷ luật ngôn từ KHÔNG PHẢI là gò bó - mà là VŨ KHÍ MẠNH NHẤT để bảo vệ chính bạn và xây dựng hình ảnh Unitaxi ĐẲNG CẤP!
 Mỗi câu nói đúng chuẩn của bạn hôm nay đang viết nên câu chuyện về một nền vận tải VĂN MINH - TÔN TRỌNG - CHUYÊN NGHIỆP!
 Hãy là những ĐẠI SỨ NGÔN TỪ - mang đến trải nghiệm TUYỆT VỜI nhất cho mỗi hành khách! 🌟🚗 Unipower TỰ HÀO vì có bạn! ❤️"
 * * *
 ## **10\. Role-play 10 tình huống thực tế (25 phút)**
-**🎯 25 PHÚT NÀY SẼ BIẾN BẠN THÀNH "BẬC THẦY XỬ LÝ TÌNH HUỐNG" \- PHẢN XẠ NHANH NHẠY & CHUYÊN NGHIỆP ĐẲNG CẤP QUỐC TẾ! 🌟**
-**🔥 MỤC TIÊU TỐI THƯỢNG**
+**25 PHÚT NÀY SẼ BIẾN BẠN THÀNH "BẬC THẦY XỬ LÝ TÌNH HUỐNG" \- PHẢN XẠ NHANH NHẠY & CHUYÊN NGHIỆP ĐẲNG CẤP QUỐC TẾ! 🌟**
+**MỤC TIÊU TỐI THƯỢNG**
   * **Rèn luyện** phản xạ TỰ NHIÊN trong 10 tình huống "khó nhằn" nhất
 
 
@@ -3674,7 +3677,7 @@ Hãy là những ĐẠI SỨ NGÔN TỪ - mang đến trải nghiệm TUYỆT V�
 
 
 * * *
-## **🎭 10 TÌNH HUỐNG THỰC TẾ "CÓ THẬT 100%"**
+## **10 TÌNH HUỐNG THỰC TẾ "CÓ THẬT 100%"**
 ### **1\. KHÁCH SAI ĐIỂM ĐÓN - XỬ LÝ "MƯỢT NHƯ NHUNG"**
 **Mục tiêu:** Giải thích ngắn gọn - không làm khách ngại ngùng
 ```
@@ -3746,70 +3749,70 @@ Hãy là những ĐẠI SỨ NGÔN TỪ - mang đến trải nghiệm TUYỆT V�
     
 ```
 * * *
-## **🎯 CÔNG THỨC HUẤN LUYỆN ROLE-PLAY ĐỈNH CAO (5 PHÚT)**
+## **CÔNG THỨC HUẤN LUYỆN ROLE-PLAY ĐỈNH CAO (5 PHÚT)**
 ### **THIẾT LẬP NHÓM THÔNG MINH**
-  * 👨‍✈️ **1 Tài xế** \- Thực hành kỹ năng
+  * ‍✈️ **1 Tài xế** \- Thực hành kỹ năng
 
 
-  * 😠 **1 Khách khó tính** \- Diễn cảm xúc chân thật
+  * **1 Khách khó tính** \- Diễn cảm xúc chân thật
 
 
-  * 👀 **1 Quan sát viên** \- Đánh giá khách quan
+  * **1 Quan sát viên** \- Đánh giá khách quan
 
 
 ### **QUY TRÌNH 90 GIÂY "THỰC CHIẾN"**
-  1. **📢 Giảng viên đọc tình huống** \- Mô tả chi tiết, cảm xúc
+  1. **Giảng viên đọc tình huống** \- Mô tả chi tiết, cảm xúc
 
 
-  2. **🎭 Khách diễn xuất** \- Giận dữ/ Say xỉn/ Thúc giục
+  2. **Khách diễn xuất** \- Giận dữ/ Say xỉn/ Thúc giục
 
 
-  3. **🚗 Tài xế phản ứng** \- 1 câu vàng + 1 hành động an toàn
+  3. **Tài xế phản ứng** \- 1 câu vàng + 1 hành động an toàn
 
 
-  4. **📊 Quan sát viên chấm điểm** \- 3 tiêu chí vàng
+  4. **Quan sát viên chấm điểm** \- 3 tiêu chí vàng
 
 
 ### **TIÊU CHÍ ĐÁNH GIÁ "3 VÀNG"**
-**🎙️ GIỌNG NÓI AN TOÀN**
-  * 🔊 Không cao giọng, không hằn học
+**️ GIỌNG NÓI AN TOÀN**
+  * Không cao giọng, không hằn học
 
 
-  * 🐢 Tốc độ chậm hơn 20% khi căng thẳng
+  * Tốc độ chậm hơn 20% khi căng thẳng
 
 
-  * ❌ Không cắt lời, không tranh luận
+  * Không cắt lời, không tranh luận
 
 
-**🛡️ XỬ LÝ ĐÚNG CHUẨN**
-  * 🎯 Chỉ 1 câu giải thích
+**️ XỬ LÝ ĐÚNG CHUẨN**
+  * Chỉ 1 câu giải thích
 
 
-  * 🤝 Không chạy theo cảm xúc khách
+  * Không chạy theo cảm xúc khách
 
 
-  * 🚗 Ưu tiên AN TOÀN trên hết
+  * Ưu tiên AN TOÀN trên hết
 
 
-**💼 TINH THẦN CHUYÊN NGHIỆP**
-  * 😐 Mặt bình tĩnh, không nhăn nhó
+**TINH THẦN CHUYÊN NGHIỆP**
+  * Mặt bình tĩnh, không nhăn nhó
 
 
-  * 🙅 Không thở dài, không lắc đầu
+  * Không thở dài, không lắc đầu
 
 
-  * 🎯 Tập trung vào GIẢI PHÁP
+  * Tập trung vào GIẢI PHÁP
 
 
 * * *
-## **💫 KẾT THÚC TRÀN ĐẦY NĂNG LƯỢNG (30 GIÂY)**
+## **KẾT THÚC TRÀN ĐẦY NĂNG LƯỢNG (30 GIÂY)**
 "Các anh chị thân mến!
 Mỗi lần thực hành role-play hôm nay chính là trang bị CHO CHÍNH BẠN mạng sống và sự nghiệp!
 Hãy nhớ: Phản xạ NHANH - Ứng xử KHÉO - Giữ bình tĩnh TUYỆT ĐỐI là ba chìa khóa vàng biến bạn thành TÀI XẾ ĐẲNG CẤP QUỐC TẾ!
 Unipower TỰ HÀO đồng hành cùng bạn trên mọi nẻo đường! ❤️🚗
 Hãy ra đường và TỎA SÁNG, những BẬC THẦY XỬ LÝ TÌNH HUỐNG! 🌟"
 * * *
-# **📘 5. HỆ THỐNG CÔNG NGHỆ UNITAXI (3 GIỜ)**
+# **5. HỆ THỐNG CÔNG NGHỆ UNITAXI (3 GIỜ)**
 |                                             |
 | **Mục**                                     | **Nội dung chi tiết**                                 | **Chuẩn quốc tế đối chiếu**       | **Thời lượng** |
 |---------------------------------------------|-------------------------------------------------------|-----------------------------------|----------------|
@@ -3842,8 +3845,8 @@ Sau 3 giờ, học viên phải:
 
 * * *
 # **I. TỔNG QUAN HỆ THỐNG UNITAXI (20 phút)**
-**🎯 15 PHÚT NÀY SẼ BIẾN BẠN THÀNH "BẬC THẦY SỬ DỤNG APP" \- THAO TÁC NHANH GỌN & CHUYÊN NGHIỆP! 🚀**
-**🔥 MỤC TIÊU ĐỘT PHÁ**
+**15 PHÚT NÀY SẼ BIẾN BẠN THÀNH "BẬC THẦY SỬ DỤNG APP" \- THAO TÁC NHANH GỌN & CHUYÊN NGHIỆP! 🚀**
+**MỤC TIÊU ĐỘT PHÁ**
   * **Làm chủ** 6 màn hình QUAN TRỌNG NHẤT trong Driver App
 
 
@@ -3854,7 +3857,7 @@ Sau 3 giờ, học viên phải:
 
 
 * * *
-## **📱 6 MÀN HÌNH "SINH TỬ" MỖI NGÀY**
+## **6 MÀN HÌNH "SINH TỬ" MỖI NGÀY**
 ### **⏱ 0-3 PHÚT - GIỚI THIỆU TỔNG QUAN**
 "Chào các anh chị! Đây chính là 'VŨ KHÍ TỐI THƯỢNG' của chúng ta - Driver App Unitaxi!
 Hôm nay chúng ta sẽ cùng nhau CHINH PHỤC 6 màn hình QUAN TRỌNG NHẤT:
@@ -3879,91 +3882,91 @@ Hôm nay chúng ta sẽ cùng nhau CHINH PHỤC 6 màn hình QUAN TRỌNG NHẤT
 Hãy cùng bắt đầu hành trình CHINH PHỤC CÔNG NGHỆ!"
 * * *
 ### **⏱ 3-6 PHÚT - MÀN HÌNH 1: BẢN ĐỒ - "BỘ NÃO" HỆ THỐNG**
-**🎯 THÀNH PHẦN QUAN TRỌNG:**
-  * 📍 **Vị trí hiện tại** \- GPS phải LUÔN BẬT
+**THÀNH PHẦN QUAN TRỌNG:**
+  * **Vị trí hiện tại** \- GPS phải LUÔN BẬT
 
 
-  * 🚗 **Trạng thái xe** : Rảnh/Đang đón/Đang chở
+  * **Trạng thái xe** : Rảnh/Đang đón/Đang chở
 
 
-  * 🔥 **Khu vực ưu tiên** \- Nơi 'vàng' dễ có cuốc
+  * **Khu vực ưu tiên** \- Nơi 'vàng' dễ có cuốc
 
 
-  * 🔋 **Pin điện thoại** \- Phải trên 20%
+  * **Pin điện thoại** \- Phải trên 20%
 
 
-  * ⚠️ **Cảnh báo hệ thống** \- Đọc NGAY khi hiện
+  * ️ **Cảnh báo hệ thống** \- Đọc NGAY khi hiện
 
 
-**🚨 LỖI 'CHẾT NGƯỜI' CẦN TRÁNH:**
-  * ❌ **Quên bật GPS** → App định vị sai → MẤT CUỐC
+**LỖI 'CHẾT NGƯỜI' CẦN TRÁNH:**
+  * **Quên bật GPS** → App định vị sai → MẤT CUỐC
 
 
-  * ❌ **Để pin yếu** → Hệ thống TỰ ĐỘNG KHÓA CUỐC
+  * **Để pin yếu** → Hệ thống TỰ ĐỘNG KHÓA CUỐC
 
 
-**💡 DEMO THỰC TẾ:**_Giảng viên thao tác trực tiếp: Bật/tắt GPS → Hiển thị sai vị trí → Giải thích hậu quả_
+**DEMO THỰC TẾ:**_Giảng viên thao tác trực tiếp: Bật/tắt GPS → Hiển thị sai vị trí → Giải thích hậu quả_
 * * *
 ### **⏱ 6-9 PHÚT - MÀN HÌNH 2: NHẬN CUỐC - "3 GIÂY VÀNG"**
-**📊 THÔNG TIN HIỂN THỊ:**
-  * 📏 Khoảng cách đến khách
+**THÔNG TIN HIỂN THỊ:**
+  * Khoảng cách đến khách
 
 
-  * 🏠 Điểm đón - điểm trả
+  * Điểm đón - điểm trả
 
 
   * ⏰ Thời gian di chuyển
 
 
-  * 💵 Giá cuốc dự kiến
+  * Giá cuốc dự kiến
 
 
-  * 🎯 Loại cuốc (Thường/Sân b ay/Ưu tiên)
+  * Loại cuốc (Thường/Sân b ay/Ưu tiên)
 
 
-**🎯 HAI THAO TÁC QUYẾT ĐỊNH:**
+**HAI THAO TÁC QUYẾT ĐỊNH:**
 **1\. NHẬN CUỐC - "PHẢN XẠ 3 GIÂY"**  
 ✅ **Bấm NGAY** trong 3 giây đầu  
 ✅ **Kiểm tra nhanh** điểm đón trong 1 giây
 **2\. TỪ CHỐI - "LÝ DO CHÍNH ĐÁNG"**  
 ✅ **Phải chọn lý do** để hệ thống HIỂU và TỐI ƯU
-**📝 LÝ DO HỢP LỆ:**
-  * 🚫 Đang ở khu vực khó quay đầu
+**LÝ DO HỢP LỆ:**
+  * Đang ở khu vực khó quay đầu
 
 
-  * 🚫 Xe đang bảo trì, sửa chữa
+  * Xe đang bảo trì, sửa chữa
 
 
-  * 🚫 Đang nghỉ giải lao, vệ sinh
+  * Đang nghỉ giải lao, vệ sinh
 
 
-  * 🚫 Pin điện thoại dưới 15%
+  * Pin điện thoại dưới 15%
 
 
-**🚨 CẢNH BÁO QUAN TRỌNG:**_" Từ chối liên tục → Hệ thống HIỂU NHẦM bạn không hoạt động → GIẢM ƯU TIÊN nhận cuốc!"_
+**CẢNH BÁO QUAN TRỌNG:**_" Từ chối liên tục → Hệ thống HIỂU NHẦM bạn không hoạt động → GIẢM ƯU TIÊN nhận cuốc!"_
 * * *
 ### **⏱ 9-11 PHÚT - MÀN HÌNH 3: ĐIỀU HƯỚNG - "TRỢ LÝ THÔNG MINH"**
-**🚀 SAU KHI NHẬN CUỐC:**
-  * 👉 Bấm **" Đi đến điểm đón"**
+**SAU KHI NHẬN CUỐC:**
+  * Bấm **" Đi đến điểm đón"**
 
 
-  * 🗺️ App tự động mở Google Maps/bản đồ nội bộ
+  * ️ App tự động mở Google Maps/bản đồ nội bộ
 
 
-**💡 TÍNH NĂNG THÔNG MINH:**
-  * 🤖 **AI tối ưu tuyến đường**
+**TÍNH NĂNG THÔNG MINH:**
+  * **AI tối ưu tuyến đường**
 
 
-  * 🚦 **Cảnh báo ùn tắc thời gian thực**
+  * **Cảnh báo ùn tắc thời gian thực**
 
 
   * ⏱️ **Tính t oán chính xác** thời gian đến
 
 
-**⚠️ LƯU Ý AN TOÀN:**_" TUYỆT ĐỐI không tự ý đi đường cấm/tắt nguy hiểm → GIẢM ĐIỂM AN TOÀN ngay lập tức!"_
+**️ LƯU Ý AN TOÀN:**_" TUYỆT ĐỐI không tự ý đi đường cấm/tắt nguy hiểm → GIẢM ĐIỂM AN TOÀN ngay lập tức!"_
 * * *
 ### **⏱ 11-13 PHÚT - MÀN HÌNH 4: BẮT ĐẦU CUỐC - "CÔNG TẮC VÀNG"**
-**🎯 QUY TRÌNH CHUẨN:**
+**QUY TRÌNH CHUẨN:**
   1. ✅ Khách lên xe → Bấm **" Bắt đầu cuốc"**
 
 
@@ -3973,44 +3976,44 @@ Hãy cùng bắt đầu hành trình CHINH PHỤC CÔNG NGHỆ!"
   3. ✅ Nhắc khách thắt dây an toàn
 
 
-**🚨 LỖI "MẤT TIỀN OAN":**_" QUÊN bấm Bắt đầu cuốc → Hệ thống KHÔNG tính tiền → MẤT TRẮNG chuyến đi!"_
+**LỖI "MẤT TIỀN OAN":**_" QUÊN bấm Bắt đầu cuốc → Hệ thống KHÔNG tính tiền → MẤT TRẮNG chuyến đi!"_
 * * *
 ### **⏱ 13-14 PHÚT - MÀN HÌNH 5: KẾT THÚC - "HOÀN HẢO ĐẾN GIÂY CUỐI"**
-**🎯 QUY TRÌNH CHUYÊN NGHIỆP:**
+**QUY TRÌNH CHUYÊN NGHIỆP:**
   * 🅿️ Dừng xe tại vị trí AN TOÀN
 
 
-  * 📣 Nhắc khách kiểm tra đồ đạc
+  * Nhắc khách kiểm tra đồ đạc
 
 
-  * 👉 Bấm **" Hoàn thành"**
+  * Bấm **" Hoàn thành"**
 
 
-  * 🎯 Chọn lý do kết thúc (nếu có vấn đề)
+  * Chọn lý do kết thúc (nếu có vấn đề)
 
 
-  * 📸 Chụp ảnh minh chứng (nếu cần)
+  * Chụp ảnh minh chứng (nếu cần)
 
 
-**⚠️ LƯU Ý QUAN TRỌNG:**_" CHỈ bấm Hoàn thành khi khách ĐÃ XUỐNG XE hoàn toàn!"_
+**️ LƯU Ý QUAN TRỌNG:**_" CHỈ bấm Hoàn thành khi khách ĐÃ XUỐNG XE hoàn toàn!"_
 * * *
 ### **⏱ 14-15 PHÚT - MÀN HÌNH 6: THU NHẬP - "THÀNH QUẢ XỨNG ĐÁNG"**
-**📊 DỮ LIỆU MINH BẠCH:**
-  * 💰 Thu nhập theo Ngày/Tuần/Tháng
+**DỮ LIỆU MINH BẠCH:**
+  * Thu nhập theo Ngày/Tuần/Tháng
 
 
-  * 🎁 Thưởng & chương trình khuyến mãi
+  * Thưởng & chương trình khuyến mãi
 
 
-  * 📈 Lịch sử chuyến chi tiết
+  * Lịch sử chuyến chi tiết
 
 
-  * ⚠️ Các chuyến lỗi & lý do
+  * ️ Các chuyến lỗi & lý do
 
 
-**🔒 CAM KẾT TỪ UNIPOWER:**_" MINH BẠCH 100% - KHÔNG tiền mặt - KHÔNG nhầm lẫn - MỌI GIAO DỊCH ĐỀU ĐƯỢC GHI LẠI!"_
+**CAM KẾT TỪ UNIPOWER:**_" MINH BẠCH 100% - KHÔNG tiền mặt - KHÔNG nhầm lẫn - MỌI GIAO DỊCH ĐỀU ĐƯỢC GHI LẠI!"_
 * * *
-## **💎 KẾT THÚC ẤN TƯỢNG**
+## **KẾT THÚC ẤN TƯỢNG**
 "Các anh chị thân mến!
 3 THAO TÁC VÀNG cần khắc cốt ghi tâm:
   1. ✅ **NHẬN CUỐC** \- Phản xạ 3 giây
@@ -4027,92 +4030,92 @@ Unipower TỰ HÀO đồng hành cùng bạn trên mọi nẻo đường! ❤️
 Chúc các anh chị NHIỀU CUỐC XE và THU NHẬP CAO! 🌟"
 * * *
 # **II. DRIVER APP – ỨNG DỤNG TÀI XẾ (75 phút)**
-**🎯 15 PHÚT ĐÀO TẠO THÀNH CÔNG: LÀM CHỦ ỨNG DỤNG TÀI XẾ UNITAXI! 🚗💨**
+**15 PHÚT ĐÀO TẠO THÀNH CÔNG: LÀM CHỦ ỨNG DỤNG TÀI XẾ UNITAXI! 🚗💨**
 * * *
-## **📱 PHẦN 1: GIAO DIỆN & CHỨC NĂNG CHÍNH DRIVER APP**
-**🎯 MỤC TIÊU:**
-  * ✅ **Hiểu rõ** toàn bộ màn hình quan trọng
+## **PHẦN 1: GIAO DIỆN & CHỨC NĂNG CHÍNH DRIVER APP**
+**MỤC TIÊU:**
+  * **Hiểu rõ** toàn bộ màn hình quan trọng
 
 
-  * ✅ **Giảm 90%** lỗi nhận cuốc - trả khách - đối soát
+  * **Giảm 90%** lỗi nhận cuốc - trả khách - đối soát
 
 
-  * ✅ **Tăng vọt** tỷ lệ hoàn thành cuốc & chất lượng dịch vụ
+  * **Tăng vọt** tỷ lệ hoàn thành cuốc & chất lượng dịch vụ
 
 
 * * *
-## **🏠 A. MÀN HÌNH CHÍNH - "TRUNG TÂM ĐIỀU KHIỂN" (5 PHÚT)**
+## **A. MÀN HÌNH CHÍNH - "TRUNG TÂM ĐIỀU KHIỂN" (5 PHÚT)**
 ### **1\. 🗺️ BẢN ĐỒ THÔNG MINH**
-  * 📍 **Vị trí xe thời gian thực** \- theo GPS
+  * **Vị trí xe thời gian thực** \- theo GPS
 
 
-  * 🧭 **Mũi tên chỉ hướng** \- luôn biết mình đang đi đâu
+  * **Mũi tên chỉ hướng** \- luôn biết mình đang đi đâu
 
 
-  * 🔵 **Vùng tìm cuốc** \- bán kính hoạt động hiệu quả
+  * **Vùng tìm cuốc** \- bán kính hoạt động hiệu quả
 
 
 ### **2\. 🔄 TRẠNG THÁI XE - "CÔNG TẮC KIẾM TIỀN"**
-  * 🟢 **Online** \- sẵn sàng nhận cuốc
+  * **Online** \- sẵn sàng nhận cuốc
 
 
-  * 🔴 **Offline** \- tạm dừng hoạt động
+  * **Offline** \- tạm dừng hoạt động
 
 
-  * 🟡 **Đang trên cuốc** \- tập trung phục vụ khách
+  * **Đang trên cuốc** \- tập trung phục vụ khách
 
 
 ### **3\. ⚡ NÚT CHUYỂN TRẠNG THÁI THÔNG MINH**
-  * 💡 **Tự động bảo vệ** : mất mạng/4G → hệ thống tự chuyển Offline
+  * **Tự động bảo vệ** : mất mạng/4G → hệ thống tự chuyển Offline
 
 
-  * 🛡️ **Tránh lỗi** : không nhận cuốc khi kết nối không ổn định
+  * ️ **Tránh lỗi** : không nhận cuốc khi kết nối không ổn định
 
 
 * * *
-## **🎯 B. NHẬN CUỐC & ĐIỀU HƯỚNG - "5 PHÚT VÀNG" (5 PHÚT)**
+## **B. NHẬN CUỐC & ĐIỀU HƯỚNG - "5 PHÚT VÀNG" (5 PHÚT)**
 ### **1\. 📲 MÀN HÌNH NHẬN CUỐC - "QUYẾT ĐỊNH TRONG 3 GIÂY"**
 **THÔNG TIN QUAN TRỌNG:**
-  * 📏 Khoảng cách đến khách
+  * Khoảng cách đến khách
 
 
   * ⏱️ Thời gian dự kiến
 
 
-  * 🎯 Loại dịch vụ
+  * Loại dịch vụ
 
 
-  * 💰 Giá cước ước tính
+  * Giá cước ước tính
 
 
 **THAO TÁC QUYẾT ĐỊNH:**
-  * ✅ **NHẬN** \- phản xạ trong 3 giây
+  * **NHẬN** \- phản xạ trong 3 giây
 
 
-  * ❌ **TỪ CHỐI** \- phải chọn lý do hợp lệ
+  * **TỪ CHỐI** \- phải chọn lý do hợp lệ
 
 
  _💡 Lưu ý: Chọn lý do từ chối giúp NOC tối ưu phân cuốc cho bạn!_
 ### **2\. 🧭 ĐIỀU HƯỚNG THÔNG MINH**
-  * 🗺️ **Tự động mở** Google Maps/bản đồ mặc định
+  * ️ **Tự động mở** Google Maps/bản đồ mặc định
 
 
-  * 📶 **Giữ 4G ổn định** \- tránh mất kết nối điều hướng
+  * **Giữ 4G ổn định** \- tránh mất kết nối điều hướng
 
 
 ### **3\. 👥 ĐÓN KHÁCH CHUYÊN NGHIỆP**
-  * 📍 **Bấm "Đã đến nơi"** khi tới điểm đón
+  * **Bấm "Đã đến nơi"** khi tới điểm đón
 
 
-  * 🔍 **Xác nhận kỹ** : biển số, tên khách
+  * **Xác nhận kỹ** : biển số, tên khách
 
 
-  * ⚠️ **TUYỆT ĐỐI** : không đón khách ngoài app
+  * ️ **TUYỆT ĐỐI** : không đón khách ngoài app
 
 
 * * *
-## **🚗 C. TRONG CHUYẾN ĐI - "3 PHÚT HOÀN HẢO" (3 PHÚT)**
-### **🎯 QUY TRÌNG CHUẨN:**
+## **C. TRONG CHUYẾN ĐI - "3 PHÚT HOÀN HẢO" (3 PHÚT)**
+### **QUY TRÌNG CHUẨN:**
   1. **BẮT ĐẦU CUỐC** \- khi khách đã lên xe an toàn
 
 
@@ -4122,67 +4125,67 @@ Chúc các anh chị NHIỀU CUỐC XE và THU NHẬP CAO! 🌟"
   3. **LINH HOẠT** \- nếu khách yêu cầu đổi đường
 
 
-### **💬 CÂU NÓI VÀNG KHI ĐỔI TUYẾN:**
+### **CÂU NÓI VÀNG KHI ĐỔI TUYẾN:**
 _" Dạ em chuyển tuyến ngay cho anh/chị."_
-**🚨 HẬU QUẢ SAI ĐƯỜNG:**
+**HẬU QUẢ SAI ĐƯỜNG:**
   * ⭐ Giảm điểm đánh giá
 
 
-  * 🎁 Mất thưởng chuyến đi
+  * Mất thưởng chuyến đi
 
 
-  * 📉 Ảnh hưởng uy tín tài xế
+  * Ảnh hưởng uy tín tài xế
 
 
 * * *
-## **💰 D. KẾT THÚC & THU NHẬP - "2 PHÚT MINH BẠCH" (2 PHÚT)**
+## **D. KẾT THÚC & THU NHẬP - "2 PHÚT MINH BẠCH" (2 PHÚT)**
 ### **1\. 🏁 KẾT THÚC CHUYẾN AN TOÀN**
-  * 🛑 **XE DỪNG 100%** mới bấm "Hoàn thành"
+  * **XE DỪNG 100%** mới bấm "Hoàn thành"
 
 
-  * ⚠️ **CẤM** bấm khi xe còn lăn bánh
+  * ️ **CẤM** bấm khi xe còn lăn bánh
 
 
 ### **2\. 📊 MÀN HÌNH THU NHẬP**
-  * 💵 Thu nhập theo ngày
+  * Thu nhập theo ngày
 
 
-  * 🎁 Thưởng & phạt
+  * Thưởng & phạt
 
 
-  * 📈 Số cuốc hoàn thành
+  * Số cuốc hoàn thành
 
 
-  * 🎯 Chỉ tiêu ngày
+  * Chỉ tiêu ngày
 
 
 ### **3\. 📖 LỊCH SỬ CHUYẾN**
-  * 🔍 Kiểm tra khi có khiếu nại
+  * Kiểm tra khi có khiếu nại
 
 
-  * 📝 Báo lỗi trực tiếp nếu sai giá/sai điểm
+  * Báo lỗi trực tiếp nếu sai giá/sai điểm
 
 
 * * *
-## **⚠️ E. LƯU Ý QUAN TRỌNG - "UNITAXI KHÔNG CÓ PIN"**
+## **️ E. LƯU Ý QUAN TRỌNG - "UNITAXI KHÔNG CÓ PIN"**
 **ĐIỂM KHÁC BIỆT QUAN TRỌNG:**
-  * 🔋 **KHÔNG có thông tin pin** như xe điện
+  * **KHÔNG có thông tin pin** như xe điện
 
 
-  * 📶 **TRỌNG TÂM** : kết nối 4G ổn định
+  * **TRỌNG TÂM** : kết nối 4G ổn định
 
 
-  * 📍 **GPS chính xác** \- luôn bật định vị
+  * **GPS chính xác** \- luôn bật định vị
 
 
-  * 📱 **KHÔNG tắt app nền**
+  * **KHÔNG tắt app nền**
 
 
-  * 🔄 **KHÔNG bật chế độ tiết kiệm pin** (gây lỗi GPS)
+  * **KHÔNG bật chế độ tiết kiệm pin** (gây lỗi GPS)
 
 
 * * *
-## **🎭 F. DEMO THỰC TẾ - "THẤY MỚI TIN, LÀM MỚI GIỎI"**
+## **F. DEMO THỰC TẾ - "THẤY MỚI TIN, LÀM MỚI GIỎI"**
 **GIẢNG VIÊN THỰC HIỆN:**
   1. 📱 Mở app Unitaxi trên màn hình lớn
 
@@ -4198,7 +4201,7 @@ _" Dạ em chuyển tuyến ngay cho anh/chị."_
 
 
 * * *
-## **💎 KẾT THÚC ẤN TƯỢNG**
+## **KẾT THÚC ẤN TƯỢNG**
 "Các anh chị thân mến!
 Ứng dụng tài xế Unitaxi chính là **NGƯỜI ĐỒNG HÀNH** đáng tin cậy nhất của chúng ta.
 **HIỂU APP = TĂNG THU NHẬP = NÂNG TẦM DỊCH VỤ**
@@ -4209,28 +4212,28 @@ Unipower **TỰ HÀO** đồng hành cùng bạn! ❤️🚗
 ## **2\. Các lỗi phổ biến & cách tránh (15 phút)**
 **Mục tiêu tối thượng:** **BẢO VỆ BẠN khỏi mọi lỗi hệ thống và khiếu nại sai!**
 * * *
-## **🚨 5 LỖI "CHẾT NGƯỜI" \- XỬ LÝ NGAY TRONG 3 GIÂY!**
-### **❌ LỖI 1: APP ĐÓNG BĂNG - MẤT CUỐC GIỮA CHỪNG**
-**➤ GIẢI PHÁP TỨC THÌ:**_Đóng app → Mở lại → Báo "Lỗi app" → Nhận cuốc mới!_
-### **❌ LỖI 2: GPS LỆCH - KHÔNG TÌM THẤY KHÁCH**
-**➤ XỬ LÝ THÔNG MINH:**_Bật lại GPS → Đợi 10 giây → Gọi khách xác nhận vị trí!_
-### **❌ LỖI 3: QUÊN BẤM BẮT ĐẦU - MẤT TIỀN OAN**
-**➤ CỨU VÃN NGAY:**_Bấm "Bắt đầu" → Báo điều phối → Ghi chú thời gian thực tế!_
-### **❌ LỖI 4: MẤT MẠNG - CUỐC BIẾN MẤT**
-**➤ KHẮC PHỤC KHẨN CẤP:**_Bật lại 4G → Chờ kết nối → Báo "Mất kết nối" để được bảo vệ!_
-### **❌ LỖI 5: NHẬN NHẦM KHÁCH - SAI CHUYẾN**
-**➤ XỬ LÝ CHUYÊN NGHIỆP:**_Xin lỗi khách → Báo hủy → Chọn lý do "Nhận nhầm khách"!_
+## **5 LỖI "CHẾT NGƯỜI" \- XỬ LÝ NGAY TRONG 3 GIÂY!**
+### **LỖI 1: APP ĐÓNG BĂNG - MẤT CUỐC GIỮA CHỪNG**
+**GIẢI PHÁP TỨC THÌ:**_Đóng app → Mở lại → Báo "Lỗi app" → Nhận cuốc mới!_
+### **LỖI 2: GPS LỆCH - KHÔNG TÌM THẤY KHÁCH**
+**XỬ LÝ THÔNG MINH:**_Bật lại GPS → Đợi 10 giây → Gọi khách xác nhận vị trí!_
+### **LỖI 3: QUÊN BẤM BẮT ĐẦU - MẤT TIỀN OAN**
+**CỨU VÃN NGAY:**_Bấm "Bắt đầu" → Báo điều phối → Ghi chú thời gian thực tế!_
+### **LỖI 4: MẤT MẠNG - CUỐC BIẾN MẤT**
+**KHẮC PHỤC KHẨN CẤP:**_Bật lại 4G → Chờ kết nối → Báo "Mất kết nối" để được bảo vệ!_
+### **LỖI 5: NHẬN NHẦM KHÁCH - SAI CHUYẾN**
+**XỬ LÝ CHUYÊN NGHIỆP:**_Xin lỗi khách → Báo hủy → Chọn lý do "Nhận nhầm khách"!_
 * * *
-## **💎 3 TÌNH HUỐNG KHẨN CẤP - XỬ LÝ TRONG 10 GIÂY!**
-### **🔥 TÌNH HUỐNG 1: APP TỰ THOÁT GIỮA CHUYẾN**
-**➤ XỬ LÝ ĐỈNH CAO:**_Mở lại app ngay → Báo "App thoát bất ngờ" → Tiếp tục chuyến đi!_
-### **🔥 TÌNH HUỐNG 2: TÍNH SAI GIÁ - KHÁCH PHÀN NÀN**
-**➤ GIẢI PHÁP VÀNG:**_Không tranh luận → Báo điều phối → Để hệ thống điều chỉnh!_
-### **🔥 TÌNH HUỐNG 3: KHÔNG BẤM KẾT THÚC ĐƯỢC**
-**➤ XỬ LÝ THÔNG MINH:**_Chụp ảnh màn hình → Gọi điều phối → Đợi hỗ trợ!_
+## **3 TÌNH HUỐNG KHẨN CẤP - XỬ LÝ TRONG 10 GIÂY!**
+### **TÌNH HUỐNG 1: APP TỰ THOÁT GIỮA CHUYẾN**
+**XỬ LÝ ĐỈNH CAO:**_Mở lại app ngay → Báo "App thoát bất ngờ" → Tiếp tục chuyến đi!_
+### **TÌNH HUỐNG 2: TÍNH SAI GIÁ - KHÁCH PHÀN NÀN**
+**GIẢI PHÁP VÀNG:**_Không tranh luận → Báo điều phối → Để hệ thống điều chỉnh!_
+### **TÌNH HUỐNG 3: KHÔNG BẤM KẾT THÚC ĐƯỢC**
+**XỬ LÝ THÔNG MINH:**_Chụp ảnh màn hình → Gọi điều phối → Đợi hỗ trợ!_
 * * *
-## **🛡️ BÍ KÍP BẢO VỆ BẢN THÂN - KHÔNG BAO GIỜ THIỆT!**
-### **📸 LUÔN LUÔN GIỮ CHỨNG CỨ:**
+## **️ BÍ KÍP BẢO VỆ BẢN THÂN - KHÔNG BAO GIỜ THIỆT!**
+### **LUÔN LUÔN GIỮ CHỨNG CỨ:**
   * Chụp ảnh màn hình lỗi
 
 
@@ -4240,7 +4243,7 @@ Unipower **TỰ HÀO** đồng hành cùng bạn! ❤️🚗
   * Lưu tin nhắn với khách
 
 
-### **📞 BÁO CÁO NGAY LẬP TỨC:**
+### **BÁO CÁO NGAY LẬP TỨC:**
   * Đừng đợi đến cuối ngày
 
 
@@ -4250,11 +4253,11 @@ Unipower **TỰ HÀO** đồng hành cùng bạn! ❤️🚗
   * Hệ thống luôn bảo vệ bạn
 
 
-### **🎯 NGUYÊN TẮC VÀNG:**
+### **NGUYÊN TẮC VÀNG:**
 _" LỖI APP + BÁO NGAY = ĐƯỢC BẢO VỆ!_
 _LỖI APP + IM LẶNG = TỰ CHỊU THIỆT! "_
 * * *
-## **💫 KẾT THÚC ĐẦY NĂNG LƯỢNG**
+## **KẾT THÚC ĐẦY NĂNG LƯỢNG**
 "Các anh chị thân mến!
 Ứng dụng Unitaxi là công cụ ĐẮC LỰC nhất của chúng ta - nhưng đôi khi cũng cần sự hỗ trợ!
 Hãy nhớ kỹ: Mọi lỗi kỹ thuật đều CÓ GIẢI PHÁP. Quan trọng là bạn PHẢI HÀNH ĐỘNG NGAY!
@@ -4263,17 +4266,17 @@ Unipower LUÔN SẴN SÀNG hỗ trợ bạn 24/7. Đừng ngần ngại - hãy l
 Chúc các anh chị NHIỀU CHUYẾN THÀNH CÔNG và THU NHẬP CAO! 🚗💨"
 * * *
 ## **3\. Quy trình xử lý lỗi & báo cáo (20 phút)**
-**🎯 20 PHÚT THÀNH THẠO: QUY TRÌNH XỬ LÝ LỖI & BÁO CÁO CHUYÊN NGHIỆP**
+**20 PHÚT THÀNH THẠO: QUY TRÌNH XỬ LÝ LỖI & BÁO CÁO CHUYÊN NGHIỆP**
 * * *
 ## **⏱ 0-5 PHÚT - 3 LÝ DO "BẮT BUỘC PHẢI BÁO CÁO"**
-### **🔍 1. MỌI SỰ CỐ ĐỀU PHẢI CÓ LOG**
+### **1. MỌI SỰ CỐ ĐỀU PHẢI CÓ LOG**
   * **KHÔNG có log → NOC KHÔNG xử lý được → TÀI XẾ chịu trách nhiệm**
 
 
   * **CÓ log → Hệ thống có căn cứ can thiệp → Bảo vệ quyền lợi của bạn**
 
 
-### **🛡️ 2. BÁO CÁO = BẢO VỆ CHÍNH MÌNH**
+### **️ 2. BÁO CÁO = BẢO VỆ CHÍNH MÌNH**
   * Log là **BẰNG CHỨNG PHÁP LÝ** khi:
     * Khách khiếu nại
     * Tranh chấp giá
@@ -4283,14 +4286,14 @@ Chúc các anh chị NHIỀU CHUYẾN THÀNH CÔNG và THU NHẬP CAO! 🚗💨"
   * **KHÔNG có báo cáo = KHÔNG có chứng cứ bảo vệ**
 
 
-### **💾 3. DỮ LIỆU SẠCH = THU NHẬP CHÍNH XÁC**
+### **3. DỮ LIỆU SẠCH = THU NHẬP CHÍNH XÁC**
   * Dữ liệu càng sạch → Thu nhập càng chính xác
 
 
   * Tài khoản hoạt động ổn định → Nhận thưởng đều đặn
 
 
-**🎯 NGUYÊN TẮC VÀNG:**_" KHÔNG nói miệng - CHỈ ghi nhận trên hệ thống!"_
+**NGUYÊN TẮC VÀNG:**_" KHÔNG nói miệng - CHỈ ghi nhận trên hệ thống!"_
 * * *
 ## **⏱ 5-10 PHÚT - 5 LOẠI BÁO CÁO "BẮT BUỘC PHẢI GỬI NGAY"**
 ### **1\. 🚨 LỖI KỸ THUẬT**
@@ -4303,7 +4306,7 @@ Chúc các anh chị NHIỀU CHUYẾN THÀNH CÔNG và THU NHẬP CAO! 🚗💨"
   * **Không nhận được cuốc**
 
 
-**➤ GIẢI PHÁP:**_Thoát app → Mở lại → Nếu còn lỗi → GỬI REPORT NGAY!_
+**GIẢI PHÁP:**_Thoát app → Mở lại → Nếu còn lỗi → GỬI REPORT NGAY!_
 ### **2\. 😠 KHÁCH PHÀN NÀN**
   * Khách nói "đi sai đường"
 
@@ -4317,7 +4320,7 @@ Chúc các anh chị NHIỀU CHUYẾN THÀNH CÔNG và THU NHẬP CAO! 🚗💨"
   * Khách yêu cầu điều tra giá
 
 
-**➤ CÁCH GHI CHUẨN:**_" Khách nói tôi đón sai điểm, đề nghị kiểm tra."_
+**CÁCH GHI CHUẨN:**_" Khách nói tôi đón sai điểm, đề nghị kiểm tra."_
 ### **3\. 📊 LỊCH SỬ CUỐC BẤT THƯỜNG**
   * Cuốc quá ngắn/ quá dài
 
@@ -4334,7 +4337,7 @@ Chúc các anh chị NHIỀU CHUYẾN THÀNH CÔNG và THU NHẬP CAO! 🚗💨"
   * Hệ thống báo "cuốc treo"
 
 
-**➤ CÁCH GHI CHUẨN:**_" Cuốc ID 79201 - km không khớp với thực tế."_
+**CÁCH GHI CHUẨN:**_" Cuốc ID 79201 - km không khớp với thực tế."_
 ### **4\. 🚗 SỰ CỐ GIAO THÔNG**
   * Va chạm nhẹ
 
@@ -4348,7 +4351,7 @@ Chúc các anh chị NHIỀU CHUYẾN THÀNH CÔNG và THU NHẬP CAO! 🚗💨"
   * Đường bị phong tỏa
 
 
-**➤ CÁCH GHI CHUẨN:**_" Va chạm nhẹ - xe không thiệt hại - khách an toàn."_
+**CÁCH GHI CHUẨN:**_" Va chạm nhẹ - xe không thiệt hại - khách an toàn."_
 ### **5\. 🎒 ĐỒ THẤT LẠC (BÁO TRONG 5 PHÚT)**
 **QUY TRÌNH KHẨN CẤP:**
   1. 📱 Mở Report → chọn "Đồ thất lạc"
@@ -4373,13 +4376,13 @@ Chúc các anh chị NHIỀU CHUYẾN THÀNH CÔNG và THU NHẬP CAO! 🚗💨"
 
 
 ### **BƯỚC 2 📸 - CHỤP BẰNG CHỨNG ĐẦY ĐỦ**
-  * 📱 Screenshot app lỗi
+  * Screenshot app lỗi
 
 
-  * 🗺️ Ảnh màn hình map
+  * ️ Ảnh màn hình map
 
 
-  * 🎥 Clip ngắn nếu cần
+  * Clip ngắn nếu cần
 
 
 ### **BƯỚC 3 📝 - GỬI REPORT TRONG DRIVER APP**
@@ -4391,13 +4394,13 @@ Chúc các anh chị NHIỀU CHUYẾN THÀNH CÔNG và THU NHẬP CAO! 🚗💨"
 
 ### **BƯỚC 4 📞 - GỌI ĐIỀU PHỐI (NẾU NGHIÊM TRỌNG)**
 **Áp dụng cho:**
-  * 🚨 Khách nguy hiểm
+  * Khách nguy hiểm
 
 
-  * 🚗 Sự cố giao thông
+  * Sự cố giao thông
 
 
-  * ⚠️ Lỗi liên quan an toàn
+  * ️ Lỗi liên quan an toàn
 
 
 ### **BƯỚC 5 ⏳ - CHỜ HƯỚNG DẪN - KHÔNG TỰ Ử**
@@ -4410,10 +4413,10 @@ Chúc các anh chị NHIỀU CHUYẾN THÀNH CÔNG và THU NHẬP CAO! 🚗💨"
 * * *
 ## **⏱ 15-20 PHÚT - TIÊU CHUẨN "DUYỆT REPORT" CỦA NOC**
 ### **1\. 🎯 ĐÚNG TIÊU ĐỀ - ĐỪNG ĐỂ CHUNG CHUNG**
-  * ❌ **SAI:** "App lỗi"
+  * **SAI:** "App lỗi"
 
 
-  * ✅ **ĐÚNG:** "Không nhận cuốc - GPS lệch"
+  * **ĐÚNG:** "Không nhận cuốc - GPS lệch"
 
 
 ### **2\. 📸 ĐỦ BẰNG CHỨNG - KHÔNG CÓ LÀ KHÔNG DUYỆT**
@@ -4431,10 +4434,10 @@ Chúc các anh chị NHIỀU CHUYẾN THÀNH CÔNG và THU NHẬP CAO! 🚗💨"
 
 
 ### **4\. 🧾 KHÔNG BÌNH LUẬN - CHỈ MÔ TẢ SỰ THẬT**
-  * ❌ **SAI:** "Khách này khó tính quá"
+  * **SAI:** "Khách này khó tính quá"
 
 
-  * ✅ **ĐÚNG:** "Khách phàn nàn về tuyến đường"
+  * **ĐÚNG:** "Khách phàn nàn về tuyến đường"
 
 
 ### **5\. 🔄 ĐÚNG QUY TRÌNH - KHÔNG NHẢY BƯỚC**
@@ -4445,7 +4448,7 @@ Chúc các anh chị NHIỀU CHUYẾN THÀNH CÔNG và THU NHẬP CAO! 🚗💨"
 
 
 * * *
-## **💎 KẾT THÚC ẤN TƯỢNG**
+## **KẾT THÚC ẤN TƯỢNG**
 **" Các anh chị thân mến!**
 Hãy khắc cốt ghi tâm:
 **' KHÔNG CÓ REPORT = KHÔNG CÓ DỮ LIỆU = KHÔNG BẢO VỆ ĐƯỢC TÀI XẾ'**
@@ -4455,134 +4458,134 @@ Chúc các anh chị NHIỀU CHUYẾN XE THÀNH CÔNG và THU NHẬP CAO! 🚗�
 * * *
 ##  **4\. Bộ 5 Kỹ năng sử dụng app theo chuẩn quốc tế (25 phút)**
 ## **I. "CÔNG THỨC BẤM CHUẨN" \- CLEAR TAP PROTOCOL (6 PHÚT)**
-### **🔥 3 NGUYÊN TẮC VÀNG TỪ UBER**
-  * 👉 **Bấm DỨT KHOÁT - một lần** → tránh lỗi hệ thống
+### **3 NGUYÊN TẮC VÀNG TỪ UBER**
+  * **Bấm DỨT KHOÁT - một lần** → tránh lỗi hệ thống
 
 
-  * 🔄 **Bấm ĐÚNG TRÌNH TỰ** : Nhận cuốc → Đến điểm đón → Bắt đầu → Kết thúc
+  * **Bấm ĐÚNG TRÌNH TỰ** : Nhận cuốc → Đến điểm đón → Bắt đầu → Kết thúc
 
 
-  * 🚫 **KHÔNG bấm khi xe lắc** → 32% lỗi GPS do xe rung
+  * **KHÔNG bấm khi xe lắc** → 32% lỗi GPS do xe rung
 
 
-### **🚨 LỖI "MẤT TIỀN" CỦA TÀI XẾ VIỆT**
-  * 💸 **Quên BẮT ĐẦU** → khách khiếu nại tiền
+### **LỖI "MẤT TIỀN" CỦA TÀI XẾ VIỆT**
+  * **Quên BẮT ĐẦU** → khách khiếu nại tiền
 
 
   * ⏰ **Quên KẾT THÚC** → cuốc treo → sai doanh thu
 
 
-  * 📍 **Bấm khi xóc** → GPS sai → khách phàn nàn
+  * **Bấm khi xóc** → GPS sai → khách phàn nàn
 
 
-### **💪 LUYỆN TẬP CẤP TỐC 1 PHÚT**
+### **LUYỆN TẬP CẤP TỐC 1 PHÚT**
  _Giảng viên demo 4 nút CHÍNH → Học viên bấm theo tốc độ CHUẨN!_
 * * *
 ## **II. "CHẾ ĐỘ TẬP TRUNG" \- FOCUS MODE (5 PHÚT)**
-### **🎯 CHUẨN VÀNG TỪ LYFT**
-  * 📵 **KHÔNG** đọc tin nhắn khi lái
+### **CHUẨN VÀNG TỪ LYFT**
+  * **KHÔNG** đọc tin nhắn khi lái
 
 
-  * 📞 **KHÔNG** nghe gọi riêng (trừ điều phối)
+  * **KHÔNG** nghe gọi riêng (trừ điều phối)
 
 
-  * 🚗 **KHÔNG** vừa lái vừa thao tác app
+  * **KHÔNG** vừa lái vừa thao tác app
 
 
-### **⚠️ SỰ THẬT GÂY SỐC**
-  * 💥 **Tai nạn TĂNG 4 LẦN** khi rời mắt 2-3 giây
+### **️ SỰ THẬT GÂY SỐC**
+  * **Tai nạn TĂNG 4 LẦN** khi rời mắt 2-3 giây
 
 
-  * 😠 **60%** khiếu nại do thao tác thiếu tập trung
+  * **60%** khiếu nại do thao tác thiếu tập trung
 
 
-### **🎮 MẸO ÁP DỤNG NGAY**
+### **MẸO ÁP DỤNG NGAY**
   * 🅿️ **Dừng xe an toàn** → mới bấm
 
 
-  * 🔕 **Tắt thông báo** không cần thiết
+  * **Tắt thông báo** không cần thiết
 
 
-  * 📱 **Cố định điện thoại** → không cầm tay
+  * **Cố định điện thoại** → không cầm tay
 
 
 * * *
 ## **III. "ĐIỀU HƯỚNG THÔNG MINH" \- SAFE NAVIGATION (5 PHÚT)**
-### **🧭 NGUYÊN TẮC BẤT BIẾN TỪ BOLT**
-  * 🛑 **KHÔNG** đổi hướng đột ngột theo GPS
+### **NGUYÊN TẮC BẤT BIẾN TỪ BOLT**
+  * **KHÔNG** đổi hướng đột ngột theo GPS
 
 
-  * 🛡️ **Ưu tiên AN TOÀN** hơn tốc độ
+  * ️ **Ưu tiên AN TOÀN** hơn tốc độ
 
 
   * ⏱️ **Giữ khoảng cách** 2-3 giây khi điều hướng
 
 
-  * 🚫 **KHÔNG** phanh gấp vì "map kêu quẹo"
+  * **KHÔNG** phanh gấp vì "map kêu quẹo"
 
 
-### **🎭 TÌNH HUỐNG THỰC TẾ**
+### **TÌNH HUỐNG THỰC TẾ**
  _" GPS báo quẹo phải 10m - nhưng bạn đang ở làn trái"_
-### **🚀 XỬ LÝ ĐỈNH CAO**
-  * 🛣️ **Đi thẳng** → tìm chỗ quay đầu an toàn
+### **XỬ LÝ ĐỈNH CAO**
+  * ️ **Đi thẳng** → tìm chỗ quay đầu an toàn
 
 
-  * 💬 **Giải thích 1 câu** :  
+  * **Giải thích 1 câu** :  
 _" Để an toàn, em đi tuyến này ạ!"_
 
 
 * * *
 ## **IV. "QUAN SÁT TINH NHẠY" \- CUSTOMER VISIBILITY (4 PHÚT)**
-### **👁️ "CỬA SỔ QUAN SÁT" THEO GRAB**
+### **️ "CỬA SỔ QUAN SÁT" THEO GRAB**
   * ⏰ **15-40 giây** \- thời gian vàng để đánh giá tình huống
 
 
-  * 🗺️ **Kiểm tra** khách có di chuyển không
+  * ️ **Kiểm tra** khách có di chuyển không
 
 
-  * 📞 **Gọi ngay** nếu khách đổi điểm đón xa
+  * **Gọi ngay** nếu khách đổi điểm đón xa
 
 
-  * 🏢 **Xác nhận** đúng block, đúng tòa nhà
+  * **Xác nhận** đúng block, đúng tòa nhà
 
 
-### **📊 CON SỐ BIẾT NÓI**
-  * ❌ **40%** hủy cuốc Đông Nam Á do sai vị trí
+### **CON SỐ BIẾT NÓI**
+  * **40%** hủy cuốc Đông Nam Á do sai vị trí
 
 
-  * 👍 **Giảm ngay** hiểu lầm "tài xế không tới"
+  * **Giảm ngay** hiểu lầm "tài xế không tới"
 
 
-### **🎯 THỰC HÀNH NHANH**
+### **THỰC HÀNH NHANH**
  _Giảng viên mô phỏng 3 vị trí khách → Học viên xác định điểm đón CHÍNH XÁC!_
 * * *
 ## **V. "50M CUỐI HOÀN HẢO" \- LAST-METER ACCURACY (5 PHÚT)**
-### **🎖️ CHUẨN SINGAPORE TAXI**
+### **️ CHUẨN SINGAPORE TAXI**
 **50m cuối = KHU VỰC RỦI RO CAO**
-### **✅ HÀNH VI BẮT BUỘC**
-  * 🐢 **Giảm tốc độ**
+### **HÀNH VI BẮT BUỘC**
+  * **Giảm tốc độ**
 
 
-  * 🎯 **Tới đúng** block - hẻm - cửa
+  * **Tới đúng** block - hẻm - cửa
 
 
-  * 👀 **Quan sát** người đi bộ - xe máy - trẻ em
+  * **Quan sát** người đi bộ - xe máy - trẻ em
 
 
-### **❌ HÀNH VI CẤM TUYỆT ĐỐI**
-  * 🚫 **Phanh gấp** khi tới điểm đón
+### **HÀNH VI CẤM TUYỆT ĐỐI**
+  * **Phanh gấp** khi tới điểm đón
 
 
-  * 🚫 **Tạt đầu** vào lề đột ngột
+  * **Tạt đầu** vào lề đột ngột
 
 
-  * 🚫 **Dừng giữa đường** vì "GPS báo tới"
+  * **Dừng giữa đường** vì "GPS báo tới"
 
 
-### **💬 CÂU NÓI VÀNG TIẾP C ẬN**
+### **CÂU NÓI VÀNG TIẾP C ẬN**
  _" Anh/chị đứng đúng block giúp em nhé, em tới ngay ạ!"_
 * * *
-## **📊 BẢNG TỔNG KẾT 5 KỸ NĂNG "VÀNG"**
+## **BẢNG TỔNG KẾT 5 KỸ NĂNG "VÀNG"**
 |                         |
 | KỸ NĂNG                 | LỢI ÍCH "SIÊU TO KHỔNG LỒ"                                                    |
 |-------------------------|-------------------------------------------------------------------------------|
@@ -4604,7 +4607,7 @@ _" Để an toàn, em đi tuyến này ạ!"_
 
 
 * * *
-## **💫 LỜI CHÚC TRÀN ĐẦY NĂNG LƯỢNG**
+## **LỜI CHÚC TRÀN ĐẦY NĂNG LƯỢNG**
 **" Các anh chị thân mến!**
 5 kỹ năng sử dụng app đẳng cấp quốc tế này chính là **VŨ KHÍ TỐI THƯỢNG** giúp bạn:
 🚀 **KIẾM TIỀN NHANH HƠN**
@@ -4615,185 +4618,185 @@ Wooberly **TỰ HÀO** đồng hành cùng bạn trên mọi nẻo đường! �
 **CHINH PHỤC CÔNG NGHỆ - TỎA SÁNG ĐẲNG CẤP!** 🌟"
 * * *
 # **III. DISPATCH CONSOLE – BẢNG ĐIỀU PHỐI (30 phút)**
-**🎯 20 PHÚT THÀNH THẠO: HỆ THỐNG GIÁM SÁT XE ĐIỆN THÔNG MINH 🚗⚡**
+**20 PHÚT THÀNH THẠO: HỆ THỐNG GIÁM SÁT XE ĐIỆN THÔNG MINH 🚗⚡**
 * * *
-## **📊 PHẦN 1: 7 THÔNG SỐ "SINH TỬ" TÀI XẾ PHẢI THUỘC LÒNG (10 PHÚT)**
+## **PHẦN 1: 7 THÔNG SỐ "SINH TỬ" TÀI XẾ PHẢI THUỘC LÒNG (10 PHÚT)**
 ### **1\. 🔋 SOC - MỨC NĂNG LƯỢNG PIN (%)**
-  * 🟢 **AN TOÀN** : > 20%
+  * **AN TOÀN** : > 20%
 
 
-  * 🎯 **TỐI ƯU** : > 40% (nhận cuốc hiệu quả)
+  * **TỐI ƯU** : > 40% (nhận cuốc hiệu quả)
 
 
-  * 🚨 **NGUY HIỂM** : < 10% (tuyệt đối tránh)
+  * **NGUY HIỂM** : < 10% (tuyệt đối tránh)
 
 
 ### **2\. 🌡️ NHIỆT ĐỘ PIN - "SỨC KHỎE" CỦA XE**
-  * ✅ **CHUẨN** : 15–40°C
+  * **CHUẨN** : 15–40°C
 
 
-  * ⚠️ **CẢNH BÁO** : > 50°C → nguy cơ mất ổn định
+  * ️ **CẢNH BÁO** : > 50°C → nguy cơ mất ổn định
 
 
-  * 💡 **LƯU Ý** : Dù app không hiển thị, NOC vẫn giám sát 24/7 từ backend
+  * **LƯU Ý** : Dù app không hiển thị, NOC vẫn giám sát 24/7 từ backend
 
 
 ### **3\. ⚠️ CẢNH BÁO CELL PIN - "BÁO ĐỘNG ĐỎ"**
-  * 🔴 **Cell Imbalance** \- mất cân bằng tế bào pin
+  * **Cell Imbalance** \- mất cân bằng tế bào pin
 
 
-  * 🔴 **Voltage Low** \- điện áp thấp
+  * **Voltage Low** \- điện áp thấp
 
 
-  * 🔴 **Battery Error** \- lỗi pin nghiêm trọng
+  * **Battery Error** \- lỗi pin nghiêm trọng
 
 
-  * 🚨 **XỬ LÝ** : DỪNG XE NGAY LẬP TỨC
+  * **XỬ LÝ** : DỪNG XE NGAY LẬP TỨC
 
 
 ### **4\. 🚀 TỐC ĐỘ VẬN HÀNH AN TOÀN**
-  * 📏 **Tuân thủ** ngưỡng tốc độ theo tuyến
+  * **Tuân thủ** ngưỡng tốc độ theo tuyến
 
 
-  * 🚫 **Tránh** tăng tốc/phanh gấp liên tục
+  * **Tránh** tăng tốc/phanh gấp liên tục
 
 
-  * 💡 **Nguyên nhân** : Gây nóng động cơ & pin
+  * **Nguyên nhân** : Gây nóng động cơ & pin
 
 
 ### **5\. 🔌 TRẠNG THÁI SẠC - "BÍ QUYẾT SẠC THÔNG MINH"**
-  * ⚡ **Công suất sạc** \- theo dõi hiệu suất
+  * **Công suất sạc** \- theo dõi hiệu suất
 
 
   * ⏱️ **Thời gian sạc** \- tối ưu thời gian chờ
 
 
-  * 📈 **% tăng mỗi phút** \- đánh giá chất lượng trạm sạc
+  * **% tăng mỗi phút** \- đánh giá chất lượng trạm sạc
 
 
-**🔧 LỖI THƯỜNG GẶP:**
-  * ❌ Cắm chưa sát
+**LỖI THƯỜNG GẶP:**
+  * Cắm chưa sát
 
 
-  * ❌ Đầu cắm bẩn
+  * Đầu cắm bẩn
 
 
-  * ❌ Cổng sạc lỏng
+  * Cổng sạc lỏng
 
 
 ### **6\. 📋 LỊCH SỬ LỖI - "HỒ SƠ SỨC KHỎE" XE**
-  * 🔧 **Motor warning** \- cảnh báo động cơ
+  * **Motor warning** \- cảnh báo động cơ
 
 
-  * 🛑 **ABS warning** \- cảnh báo hệ thống phanh
+  * **ABS warning** \- cảnh báo hệ thống phanh
 
 
-  * ⚡ **EV system warning** \- cảnh báo hệ thống điện
+  * **EV system warning** \- cảnh báo hệ thống điện
 
 
-  * 🔥 **Overheat warning** \- cảnh báo quá nhiệt
+  * **Overheat warning** \- cảnh báo quá nhiệt
 
 
-**🎨 QUY TẮC MÀU CẢNH BÁO:**
-  * 🟢 **XANH** : Bình thường - tiếp tục hoạt động
+**QUY TẮC MÀU CẢNH BÁO:**
+  * **XANH** : Bình thường - tiếp tục hoạt động
 
 
-  * 🟡 **VÀNG** : Bất thường - chạy chậm lại + báo cáo
+  * **VÀNG** : Bất thường - chạy chậm lại + báo cáo
 
 
-  * 🔴 **ĐỎ** : NGUY HIỂM - DỪNG XE NGAY
+  * **ĐỎ** : NGUY HIỂM - DỪNG XE NGAY
 
 
 ### **7\. 📍 ĐỊNH VỊ THỜI GIAN THỰC - "CON MẮT" HỆ THỐNG**
-  * 🎯 **GPS chính xác** → nhận cuốc dễ dàng
+  * **GPS chính xác** → nhận cuốc dễ dàng
 
 
-  * 📶 **Mất tín hiệu** → điều phối can thiệp ngay
+  * **Mất tín hiệu** → điều phối can thiệp ngay
 
 
   * ⏰ **Dừng lâu không lý do** → hệ thống tự động cảnh báo
 
 
 * * *
-## **🚨 PHẦN 2: 4 LỖI "DỪNG XE NGAY - KHÔNG BÀN CÃI" (5 PHÚT)**
+## **PHẦN 2: 4 LỖI "DỪNG XE NGAY - KHÔNG BÀN CÃI" (5 PHÚT)**
 ### **1\. 🔴 CẢNH BÁO PIN ĐỎ / BATTERY ERROR**
-  * 💥 **Nguy cơ** : Cháy nổ - thermal runaway
+  * **Nguy cơ** : Cháy nổ - thermal runaway
 
 
-  * 🚫 **Xử lý** : TUYỆT ĐỐI không tiếp tục chạy
+  * **Xử lý** : TUYỆT ĐỐI không tiếp tục chạy
 
 
 ### **2\. 🌡️ NHIỆT ĐỘ PIN > 50°C**
-  * 🔥 **Nguyên nhân** :
+  * **Nguyên nhân** :
     * Đường nóng
     * Chạy tốc độ cao liên tục
     * Sạc xong chưa nguội đã chạy
 
 
-  * 🛑 **Xử lý** : Dừng xe → Mở cửa → Báo NOC ngay
+  * **Xử lý** : Dừng xe → Mở cửa → Báo NOC ngay
 
 
 ### **3\. 🔊 ÂM THANH BẤT THƯỜNG**
-  * 🎵 **Tiếng lạch cạch** \- có thể do linh kiện lỏng
+  * **Tiếng lạch cạch** \- có thể do linh kiện lỏng
 
 
-  * 📳 **Rung mạnh bất thường** \- liên quan motor/trục dẫn động
+  * **Rung mạnh bất thường** \- liên quan motor/trục dẫn động
 
 
-  * 🔧 **Xử lý** : Dừng kiểm tra → Báo kỹ thuật
+  * **Xử lý** : Dừng kiểm tra → Báo kỹ thuật
 
 
 ### **4\. 🟡 ĐÈN VÀNG "EV WARNING"**
-  * ⚠️ **Mức độ** : Lỗi nhẹ động cơ/controller
+  * ️ **Mức độ** : Lỗi nhẹ động cơ/controller
 
 
-  * 📍 **Quy tắc** :
+  * **Quy tắc** :
     * Lần 1: Chạy chậm + báo cáo
     * Lần 2: KIỂM TRA NGAY
 
 
-**🎯 NGUYÊN TẮC VÀNG:**_" THẤY ĐÈN ĐỎ - DỪNG! THẤY ĐÈN VÀNG - CHẠY CHẬM + BÁO!"_
+**NGUYÊN TẮC VÀNG:**_" THẤY ĐÈN ĐỎ - DỪNG! THẤY ĐÈN VÀNG - CHẠY CHẬM + BÁO!"_
 * * *
-## **📞 PHẦN 3: QUY TRÌNH 5 BƯỚC "BÁO LỖI CHUYÊN NGHIỆP" (5 PHÚT)**
+## **PHẦN 3: QUY TRÌNH 5 BƯỚC "BÁO LỖI CHUYÊN NGHIỆP" (5 PHÚT)**
 ### **BƯỚC 1 🛑 - DỪNG XE AN TOÀN TUYỆT ĐỐI**
   * 🅿️ **Chọn vị trí** : Có lề rộng, không giữa làn
 
 
-  * ⚠️ **Bật đèn** : Đèn cảnh báo nguy hiểm
+  * ️ **Bật đèn** : Đèn cảnh báo nguy hiểm
 
 
 ### **BƯỚC 2 📱 - GỬI REPORT TRÊN APP**
-  * 🎯 **Chọn đúng mục** :
-    * ✅ "Lỗi kỹ thuật"
-    * ✅ "Cảnh báo động cơ"
-    * ✅ "Cảnh báo pin"
-    * ✅ "Âm thanh bất thường"
+  * **Chọn đúng mục** :
+    * "Lỗi kỹ thuật"
+    * "Cảnh báo động cơ"
+    * "Cảnh báo pin"
+    * "Âm thanh bất thường"
 
 
 ### **BƯỚC 3 📞 - GỌI ĐIỀU PHỐI KHẨN CẤP**
-  * 💬 **Chuẩn 1 câu** :  
+  * **Chuẩn 1 câu** :  
 _" Xe cảnh báo màu [đỏ/vàng], vị trí [địa điểm], em chờ hướng dẫn."_
 
 
 ### **BƯỚC 4 ⏳ - CHỜ HƯỚNG DẪN CHUYÊN GIA**
-  * 🔍 **Điều phối sẽ** :
+  * **Điều phối sẽ** :
     * Kiểm tra backend
     * Phân tích lịch sử xe
     * Điều xe cứu hộ/đổi xe
 
 
 ### **BƯỚC 5 🚫 - TUYỆT ĐỐI KHÔNG TỰ Ý**
-  * ❌ **Không** mở khoang pin
+  * **Không** mở khoang pin
 
 
-  * ❌ **Không** đóng/ngắt cầu chì
+  * **Không** đóng/ngắt cầu chì
 
 
-  * ❌ **Không** reset xe tự ý
+  * **Không** reset xe tự ý
 
 
 * * *
-## **💎 THÔNG ĐIỆP "CHẠM TIM" CUỐI BÀI**
+## **THÔNG ĐIỆP "CHẠM TIM" CUỐI BÀI**
 **" Các anh chị thân mến!**
 Hãy nhớ kỹ: **Tài xế thông thái KHÔNG cần là kỹ thuật viên - mà là người NHẬN BIẾT ĐÚNG & BÁO CÁO NHANH!**
 Mỗi lần bạn tuân thủ quy trình này, bạn không chỉ bảo vệ chính mình - mà còn đang bảo vệ TÀI SẢN và UY TÍN của UniTaxi!
@@ -4803,181 +4806,181 @@ UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
 _(Phần này giúp tài xế hiểu điều phối đang làm gì để phối hợp tốt hơn.)_
 * * *
 # **IV. HỆ THỐNG GIÁM SÁT XE ĐIỆN (20 phút)**
-**🎯 20 PHÚT LÀM CHỦ: HỆ THỐNG GIÁM SÁT XE ĐIỆN THÔNG MINH** ⚡
+**20 PHÚT LÀM CHỦ: HỆ THỐNG GIÁM SÁT XE ĐIỆN THÔNG MINH** ⚡
 * * *
-## **📊 PHẦN 1: 7 CHỈ SỐ "SỐNG CÒN" TÀI XẾ CẦN THUỘC LÒNG** (10 phút)
+## **PHẦN 1: 7 CHỈ SỐ "SỐNG CÒN" TÀI XẾ CẦN THUỘC LÒNG** (10 phút)
 ### **1\. 🔋 MỨC PIN (SOC) - "NHIÊN LIỆU ĐIỆN"**
-  * 🟢 **AN TOÀN** : Trên 20%
+  * **AN TOÀN** : Trên 20%
 
 
-  * 🎯 **LÝ TƯỞNG** : Trên 40% (nhận cuốc tối ưu)
+  * **LÝ TƯỞNG** : Trên 40% (nhận cuốc tối ưu)
 
 
-  * 🚨 **NGUY HIỂM** : Dưới 10% (tuyệt đối tránh)
+  * **NGUY HIỂM** : Dưới 10% (tuyệt đối tránh)
 
 
 ### **2\. 🌡️ NHIỆT ĐỘ PIN - "SỨC KHỎE ẨN"**
-  * ✅ **BÌNH THƯỜNG** : 15–40°C
+  * **BÌNH THƯỜNG** : 15–40°C
 
 
-  * ⚠️ **CẢNH BÁO** : Trên 50°C → rủi ro cao  
+  * ️ **CẢNH BÁO** : Trên 50°C → rủi ro cao  
  _💡 Dù app không hiển thị, NOC vẫn giám sát 24/7_
 
 
 ### **3\. ⚠️ CẢNH BÁO PIN - "BÁO ĐỘNG ĐỎ"**
-  * 🔴 **Mất cân bằng cell**
+  * **Mất cân bằng cell**
 
 
-  * 🔴 **Điện áp thấp**
+  * **Điện áp thấp**
 
 
-  * 🔴 **Lỗi pin nghiêm trọng**  
+  * **Lỗi pin nghiêm trọng**  
 → **XỬ LÝ** : DỪNG XE NGAY
 
 
 ### **4\. 🚀 TỐC ĐỘ VẬN HÀNH**
-  * 📏 **Tuân thủ** giới hạn tốc độ
+  * **Tuân thủ** giới hạn tốc độ
 
 
-  * 🚫 **Tránh** tăng tốc/phanh gấp liên tục
+  * **Tránh** tăng tốc/phanh gấp liên tục
 
 
-  * 💡 **Lý do** : Gây nóng động cơ và pin
+  * **Lý do** : Gây nóng động cơ và pin
 
 
 ### **5\. 🔌 TRẠNG THÁI SẠC**
-  * ⚡ **Công suất sạc**
+  * **Công suất sạc**
 
 
   * ⏱️ **Thời gian sạc**
 
 
-  * 📈 **% pin tăng theo phút**
+  * **% pin tăng theo phút**
 
 
-**🔧 LỖI THƯỜNG GẶP:**
-  * ❌ Cắm sạc không khớp
+**LỖI THƯỜNG GẶP:**
+  * Cắm sạc không khớp
 
 
-  * ❌ Đầu cắm bẩn
+  * Đầu cắm bẩn
 
 
-  * ❌ Cổng sạc lỏng lẻo
+  * Cổng sạc lỏng lẻo
 
 
 ### **6\. 📋 LỊCH SỬ LỖI**
-  * 🔧 **Cảnh báo động cơ**
+  * **Cảnh báo động cơ**
 
 
-  * 🛑 **Cảnh báo phanh ABS**
+  * **Cảnh báo phanh ABS**
 
 
-  * ⚡ **Cảnh báo hệ thống điện**
+  * **Cảnh báo hệ thống điện**
 
 
-  * 🔥 **Cảnh báo quá nhiệt**
+  * **Cảnh báo quá nhiệt**
 
 
-**🎨 QUY TẮC MÀU SẮC:**
-  * 🟢 **XANH** : Bình thường
+**QUY TẮC MÀU SẮC:**
+  * **XANH** : Bình thường
 
 
-  * 🟡 **VÀNG** : Bất thường - giảm tốc + báo cáo
+  * **VÀNG** : Bất thường - giảm tốc + báo cáo
 
 
-  * 🔴 **ĐỎ** : Nguy hiểm - DỪNG XE NGAY
+  * **ĐỎ** : Nguy hiểm - DỪNG XE NGAY
 
 
 ### **7\. 📍 ĐỊNH VỊ THỜI GIAN THỰC**
-  * 🎯 **GPS chính xác** → nhận cuốc dễ dàng
+  * **GPS chính xác** → nhận cuốc dễ dàng
 
 
-  * 📶 **Mất tín hiệu** → điều phối can thiệp
+  * **Mất tín hiệu** → điều phối can thiệp
 
 
   * ⏰ **Dừng lâu** → hệ thống tự cảnh báo
 
 
 * * *
-## **🚨 PHẦN 2: 4 TÌNH HUỐNG "DỪNG XE TỨC THÌ"** (5 phút)
+## **PHẦN 2: 4 TÌNH HUỐNG "DỪNG XE TỨC THÌ"** (5 phút)
 ### **1\. 🔴 CẢNH BÁO PIN ĐỎ**
-  * 💥 **Nguy cơ** : Cháy nổ
+  * **Nguy cơ** : Cháy nổ
 
 
-  * 🚫 **Xử lý** : DỪNG LẠI NGAY
+  * **Xử lý** : DỪNG LẠI NGAY
 
 
 ### **2\. 🌡️ NHIỆT ĐỘ PIN TRÊN 50°C**
-  * 🔥 **Nguyên nhân** :
+  * **Nguyên nhân** :
     * Đường nóng
     * Chạy tốc độ cao kéo dài
     * Sạc xong chưa nguội
 
 
-  * 🛑 **Xử lý** : Dừng xe → Mở cửa → Báo NOC
+  * **Xử lý** : Dừng xe → Mở cửa → Báo NOC
 
 
 ### **3\. 🔊 ÂM THANH LẠ**
-  * 🎵 **Lạch cạch** \- linh kiện lỏng
+  * **Lạch cạch** \- linh kiện lỏng
 
 
-  * 📳 **Rung mạnh** \- vấn đề động cơ
+  * **Rung mạnh** \- vấn đề động cơ
 
 
-  * 🔧 **Xử lý** : Dừng kiểm tra → Báo kỹ thuật
+  * **Xử lý** : Dừng kiểm tra → Báo kỹ thuật
 
 
 ### **4\. 🟡 ĐÈN VÀNG "CẢNH BÁO"**
-  * ⚠️ **Mức độ** : Lỗi nhẹ
+  * ️ **Mức độ** : Lỗi nhẹ
 
 
-  * 📍 **Quy tắc** :
+  * **Quy tắc** :
     * Lần 1: Giảm tốc + báo cáo
     * Lần 2: KIỂM TRA NGAY
 
 
-**🎯 NGUYÊN TẮC VÀNG:**_" ĐÈN ĐỎ - DỪNG! ĐÈN VÀNG - CHẬM LẠI + BÁO CÁO!"_
+**NGUYÊN TẮC VÀNG:**_" ĐÈN ĐỎ - DỪNG! ĐÈN VÀNG - CHẬM LẠI + BÁO CÁO!"_
 * * *
-## **📞 PHẦN 3: QUY TRÌNH 5 BƯỚC "XỬ LÝ SỰ CỐ"** (5 phút)
+## **PHẦN 3: QUY TRÌNH 5 BƯỚC "XỬ LÝ SỰ CỐ"** (5 phút)
 ### **BƯỚC 1 🛑 - DỪNG XE AN TOÀN**
   * 🅿️ **Vị trí** : Lề rộng, không giữa làn
 
 
-  * ⚠️ **Cảnh báo** : Bật đèn khẩn cấp
+  * ️ **Cảnh báo** : Bật đèn khẩn cấp
 
 
 ### **BƯỚC 2 📱 - GỬI BÁO CÁO TRÊN APP**
-  * 🎯 **Chọn mục** :
-    * ✅ "Lỗi kỹ thuật"
-    * ✅ "Cảnh báo động cơ"
-    * ✅ "Cảnh báo pin"
-    * ✅ "Âm thanh bất thường"
+  * **Chọn mục** :
+    * "Lỗi kỹ thuật"
+    * "Cảnh báo động cơ"
+    * "Cảnh báo pin"
+    * "Âm thanh bất thường"
 
 
 ### **BƯỚC 3 📞 - GỌI ĐIỀU PHỐI**
-  * 💬 **Câu chuẩn** :  
+  * **Câu chuẩn** :  
 _" Xe cảnh báo màu [màu], vị trí [nơi], em chờ hướng dẫn."_
 
 
 ### **BƯỚC 4 ⏳ - CHỜ CHỈ DẪN**
-  * 🔍 **Điều phối sẽ** :
+  * **Điều phối sẽ** :
     * Kiểm tra hệ thống
     * Phân tích lịch sử
     * Điều phương tiện hỗ trợ
 
 
 ### **BƯỚC 5 🚫 - KHÔNG TỰ Ý SỬA CHỮA**
-  * ❌ **Không** mở khoang pin
+  * **Không** mở khoang pin
 
 
-  * ❌ **Không** động cầu dao
+  * **Không** động cầu dao
 
 
-  * ❌ **Không** reset hệ thống
+  * **Không** reset hệ thống
 
 
 * * *
-## **💎 THÔNG ĐIỆP QUAN TRỌNG**
+## **THÔNG ĐIỆP QUAN TRỌNG**
 **" Các tài xế thân mến!**
 Hãy nhớ: **Bạn không cần là thợ kỹ thuật - chỉ cần NHẬN BIẾT ĐÚNG và BÁO CÁO NHANH!**
 Mỗi lần bạn tuân thủ quy trình này, bạn đang bảo vệ chính mình và hành khách, đồng thời góp phần vào sự PHÁT TRIỂN BỀN VỮNG của UniTaxi!
@@ -4986,10 +4989,10 @@ Hãy trở thành những TÀI XẾ ĐIỆN THÔNG THÁI - TIÊN PHONG TRONG K�
 UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
 * * *
 # **V. HỆ THỐNG GIÁM SÁT TRẠM SẠC (20 phút)**
-**🎯 20 PHÚT THÀNH THẠO: HỆ THỐNG GIÁM SÁT TRẠM SẠC THÔNG MINH** ⚡
+**20 PHÚT THÀNH THẠO: HỆ THỐNG GIÁM SÁT TRẠM SẠC THÔNG MINH** ⚡
 * * *
-## **🏗️ PHẦN 1: HIỂU RÕ "CẤU TRÚC TRẠM SẠC THÔNG MINH"** (5 phút)
-### **🔧 THÀNH PHẦN THEN CHỐT CỦA TRẠM SẠC**
+## **️ PHẦN 1: HIỂU RÕ "CẤU TRÚC TRẠM SẠC THÔNG MINH"** (5 phút)
+### **THÀNH PHẦN THEN CHỐT CỦA TRẠM SẠC**
   * **Trụ sạc** \- "Trái tim" hệ thống
 
 
@@ -5008,55 +5011,55 @@ UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
   * **Camera & cảm biến** \- "Đôi mắt" an ninh
 
 
-### **📊 TRẠNG THÁI TRẠM TRÊN HỆ THỐNG**
-  * 🟢 **Available** : Trống - sẵn sàng phục vụ
+### **TRẠNG THÁI TRẠM TRÊN HỆ THỐNG**
+  * **Available** : Trống - sẵn sàng phục vụ
 
 
-  * 🟡 **Occupied** : Đang sạc - vui lòng chờ
+  * **Occupied** : Đang sạc - vui lòng chờ
 
 
-  * 🔴 **Fault** : Lỗi kỹ thuật - không sử dụng
+  * **Fault** : Lỗi kỹ thuật - không sử dụng
 
 
-  * ⚫ **Offline** : Mất kết nối - báo điều phối ngay
+  * **Offline** : Mất kết nối - báo điều phối ngay
 
 
-### **🎯 KIỂM TRA TRẠM TRỐNG THÔNG MINH**
-  * 📱 **Kiểm tra app** \- thông tin thời gian thực
+### **KIỂM TRA TRẠM TRỐNG THÔNG MINH**
+  * **Kiểm tra app** \- thông tin thời gian thực
 
 
-  * 📞 **Gọi điều phối** \- khi khu vực đông xe
+  * **Gọi điều phối** \- khi khu vực đông xe
 
 
-  * 🚫 **Không chắn lối** \- khi chưa được hướng dẫn
+  * **Không chắn lối** \- khi chưa được hướng dẫn
 
 
 * * *
-## **⚡ PHẦN 2: QUY TRÌNH "SẠC THÔNG MINH - AN TOÀN TUYỆT ĐỐI"** (5 phút)
-### **🛡️ AN TOÀN TRƯỚC KHI SẠC**
-  * 🔌 **Tắt máy** \- kéo phanh tay
+## **PHẦN 2: QUY TRÌNH "SẠC THÔNG MINH - AN TOÀN TUYỆT ĐỐI"** (5 phút)
+### **️ AN TOÀN TRƯỚC KHI SẠC**
+  * **Tắt máy** \- kéo phanh tay
 
 
-  * 👀 **Kiểm tra** đầu cắm sạch sẽ, khô ráo
+  * **Kiểm tra** đầu cắm sạch sẽ, khô ráo
 
 
-  * 💧 **Tuyệt đối không** cắm khi đầu cắm ướt
+  * **Tuyệt đối không** cắm khi đầu cắm ướt
 
 
-  * 🚷 **Di chuyển khách** ra xa khu vực sạc
+  * **Di chuyển khách** ra xa khu vực sạc
 
 
-### **📏 KHOẢNG CÁCH AN TOÀN VÀNG**
-  * 📐 **Giữ khoảng cách** 0.5-1 mét từ đầu sạc
+### **KHOẢNG CÁCH AN TOÀN VÀNG**
+  * **Giữ khoảng cách** 0.5-1 mét từ đầu sạc
 
 
-  * 🙅 **Không cúi mặt** sát đầu sạc
+  * **Không cúi mặt** sát đầu sạc
 
 
-  * 👶 **Cảnh báo trẻ em** \- không đến gần
+  * **Cảnh báo trẻ em** \- không đến gần
 
 
-### **🔌 QUY TRÌNH CẮM SẠC CHUẨN**
+### **QUY TRÌNH CẮM SẠC CHUẨN**
   1. **Kiểm tra màn hình** → Trạng thái Available
 
 
@@ -5069,7 +5072,7 @@ UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
   4. **Di chuyển an toàn** → Đứng cách xa đầu sạc
 
 
-### **🔋 QUY TRÌNH RÚT SẠC AN TOÀN**
+### **QUY TRÌNH RÚT SẠC AN TOÀN**
   1. **Kết thúc phiên** → Trên app/trạm
 
 
@@ -5082,22 +5085,22 @@ UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
   4. **Sắp xếp gọn** → Treo dây đúng vị trí
 
 
-### **🎖️ 4 NGUYÊN TẮC VÀNG KHÔNG BAO GIỜ VI PHẠM**
-  * ❌ **KHÔNG** giật mạnh dây cáp
+### **️ 4 NGUYÊN TẮC VÀNG KHÔNG BAO GIỜ VI PHẠM**
+  * **KHÔNG** giật mạnh dây cáp
 
 
-  * ❌ **KHÔNG** xoắn vặn đầu cắm
+  * **KHÔNG** xoắn vặn đầu cắm
 
 
-  * ❌ **KHÔNG** để đầu cắm rơi xuống đất
+  * **KHÔNG** để đầu cắm rơi xuống đất
 
 
-  * ❌ **KHÔNG** khởi động xe khi đang sạc
+  * **KHÔNG** khởi động xe khi đang sạc
 
 
 * * *
-## **🚨 PHẦN 3: XỬ LÝ SỰ CỐ "NHANH - CHUẨN - AN TOÀN"** (5 phút)
-### **🔧 5 LỖI THƯỜNG GẶP**
+## **PHẦN 3: XỬ LÝ SỰ CỐ "NHANH - CHUẨN - AN TOÀN"** (5 phút)
+### **5 LỖI THƯỜNG GẶP**
   1. **Đầu cắm không nhận** \- không kết nối
 
 
@@ -5113,66 +5116,66 @@ UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
   5. **Kẹt đầu cắm** \- không rút được
 
 
-### **🛠️ QUY TRÌNH XỬ LÝ CHUẨN NOC**
-  * 🚫 **KHÔNG cố gắng** rút bằng force
+### **️ QUY TRÌNH XỬ LÝ CHUẨN NOC**
+  * **KHÔNG cố gắng** rút bằng force
 
 
-  * 🚫 **KHÔNG đập** vào trụ sạc
+  * **KHÔNG đập** vào trụ sạc
 
 
-  * 🚫 **KHÔNG chuyển trụ** khi chưa báo cáo
+  * **KHÔNG chuyển trụ** khi chưa báo cáo
 
 
-  * 📸 **Chụp ảnh lỗi** → Gửi báo cáo
+  * **Chụp ảnh lỗi** → Gửi báo cáo
 
 
-  * 📞 **Gọi ngay** điều phối & kỹ thuật
+  * **Gọi ngay** điều phối & kỹ thuật
 
 
 * * *
-## **📋 PHẦN 4: QUY ĐỊNH VẬN HÀNH "THÉP"** (5 phút)
-### **🚫 TUYỆT ĐỐI KHÔNG ĐỂ KHÁCH TỰ SẠC**
-  * ⚡ **Nguy cơ giật điện** \- rủi ro cao
+## **PHẦN 4: QUY ĐỊNH VẬN HÀNH "THÉP"** (5 phút)
+### **TUYỆT ĐỐI KHÔNG ĐỂ KHÁCH TỰ SẠC**
+  * **Nguy cơ giật điện** \- rủi ro cao
 
 
-  * 📝 **Vi phạm quy trình** \- mất chuẩn
+  * **Vi phạm quy trình** \- mất chuẩn
 
 
-  * ⚖️ **Trách nhiệm pháp lý** \- hệ lụy lớn
+  * ️ **Trách nhiệm pháp lý** \- hệ lụy lớn
 
 
-### **🌧️ KHU VỰC CẤM SẠC**
-  * 💦 **Khu vực ngập nước**
+### **️ KHU VỰC CẤM SẠC**
+  * **Khu vực ngập nước**
 
 
-  * 🌧️ **Nơi mưa tạt trực tiếp**
+  * ️ **Nơi mưa tạt trực tiếp**
 
 
-  * 🔌 **Dây điện hở** \- lộ lõi đồng
+  * **Dây điện hở** \- lộ lõi đồng
 
 
-### **⚠️ 3 HÀNH VI NGUY HIỂM CẦN TRÁNH**
-  * 🙅 **Sờ đầu cáp** bằng tay ướt
+### **️ 3 HÀNH VI NGUY HIỂM CẦN TRÁNH**
+  * **Sờ đầu cáp** bằng tay ướt
 
 
-  * 🚷 **Đứng đối diện** đầu cắm khi khởi động sạc
+  * **Đứng đối diện** đầu cắm khi khởi động sạc
 
 
-  * 🔥 **Chạm dây điện** khi đang sạc
+  * **Chạm dây điện** khi đang sạc
 
 
-### **🏁 CHUẨN "SẠC XONG - GIẢI PHÓNG"**
+### **CHUẨN "SẠC XONG - GIẢI PHÓNG"**
   * ⏱️ **Không chiếm dụng** trạm sau khi sạc xong
 
 
-  * 🚗 **Không đỗ lấn** slot
+  * **Không đỗ lấn** slot
 
 
-  * 🤝 **Tạo điều kiện** cho tài xế khác
+  * **Tạo điều kiện** cho tài xế khác
 
 
 * * *
-## **💎 THÔNG ĐIỆP "AN TOÀN TRÊN HẾT"**
+## **THÔNG ĐIỆP "AN TOÀN TRÊN HẾT"**
 **" Các tài xế thân mến!**
 Trạm sạc là **KHU VỰC AN TOÀN ĐẶC BIỆT** \- mọi thao tác đều phải TUÂN THỦ THEO QUY TRÌNH!
 Hãy nhớ:
@@ -5191,34 +5194,34 @@ Hãy trở thành những **TÀI XẾ THÔNG THÁI - CHUYÊN NGHIỆP - VĂN MIN
 UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
 * * *
 # **VI. THỰC HÀNH – ROLE-PLAY 7 TÌNH HUỐNG (20 phút)**
-**🎯 20 PHÚT THÀNH THẠO: XỬ LÝ 7 TÌNH HUỐNG THỰC TẾ ĐỈNH CAO** 🚗💨
+**20 PHÚT THÀNH THẠO: XỬ LÝ 7 TÌNH HUỐNG THỰC TẾ ĐỈNH CAO** 🚗💨
 * * *
-## **📋 GIỚI THIỆU BUỔI THỰC HÀNH**
+## **GIỚI THIỆU BUỔI THỰC HÀNH**
 **Mục tiêu:** Rèn luyện phản xạ NHANH - Xử lý ĐÚNG - Giao tiếp KHÉO trong 7 tình huống "có thật 100%"
 **3 TIÊU CHÍ ĐÁNH GIÁ:**
-  * ⚡ **Tốc độ xử lý** (5-10 giây)
+  * **Tốc độ xử lý** (5-10 giây)
 
 
-  * 💬 **Kỹ năng giao tiếp** (không tranh cãi)
+  * **Kỹ năng giao tiếp** (không tranh cãi)
 
 
-  * 📚 **Tuân thủ quy trình** (đúng 100% SOP)
+  * **Tuân thủ quy trình** (đúng 100% SOP)
 
 
 * * *
-## **🔄 7 TÌNH HUỐNG "THỬ THÁCH THẬT"**
-### **🟦 TÌNH HUỐNG 1: APP TREO KHI NHẬN CUỐC**
-**🔍 DẤU HIỆU NHẬN BIẾT:**
-  * 🗺️ Bản đồ đứng im
+## **7 TÌNH HUỐNG "THỬ THÁCH THẬT"**
+### **TÌNH HUỐNG 1: APP TREO KHI NHẬN CUỐC**
+**DẤU HIỆU NHẬN BIẾT:**
+  * ️ Bản đồ đứng im
 
 
-  * 📱 Nút "Nhận cuốc" không hoạt động
+  * Nút "Nhận cuốc" không hoạt động
 
 
   * ⏳ Không phản hồi thao tác
 
 
-**🎯 QUY TRÌNH 5 BƯỚC:**
+**QUY TRÌNH 5 BƯỚC:**
   1. 🛑 Tấp vào lề an toàn
 
 
@@ -5234,20 +5237,20 @@ UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
   5. 🚫 Không tắt máy xe
 
 
-**💬 CÂU MẪU CHUẨN:**_" Dạ hệ thống đang lỗi, em đang xử lý theo quy trình ạ."_
+**CÂU MẪU CHUẨN:**_" Dạ hệ thống đang lỗi, em đang xử lý theo quy trình ạ."_
 * * *
-### **🟦 TÌNH HUỐNG 2: GPS SAI - ĐIỀU HƯỚNG VÒNG VO**
-**🔍 DẤU HIỆU NHẬN BIẾT:**
-  * 🗺️ Bản đồ lag, chậm
+### **TÌNH HUỐNG 2: GPS SAI - ĐIỀU HƯỚNG VÒNG VO**
+**DẤU HIỆU NHẬN BIẾT:**
+  * ️ Bản đồ lag, chậm
 
 
-  * 🚏 Chỉ đường sai block/hướng
+  * Chỉ đường sai block/hướng
 
 
-  * 🔀 Điều hướng vòng vèo
+  * Điều hướng vòng vèo
 
 
-**🎯 QUY TRÌNH 4 BƯỚC:**
+**QUY TRÌNH 4 BƯỚC:**
   1. 👀 Quan sát biển báo thực tế
 
 
@@ -5260,20 +5263,20 @@ UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
   4. 📞 Báo điều phối nếu cần
 
 
-**💬 CÂU MẪU CHUẨN:**_" Đoạn này GPS hơi sai, em đi hướng an toàn nhất cho mình nhé."_
+**CÂU MẪU CHUẨN:**_" Đoạn này GPS hơi sai, em đi hướng an toàn nhất cho mình nhé."_
 * * *
-### **🟦 TÌNH HUỐNG 3: QUÊN BẤM "KẾT THÚC CUỐC"**
-**⚠️ RỦI RO NGAY LẬP TỨC:**
-  * 💸 Sai dữ liệu thu nhập
+### **TÌNH HUỐNG 3: QUÊN BẤM "KẾT THÚC CUỐC"**
+**️ RỦI RO NGAY LẬP TỨC:**
+  * Sai dữ liệu thu nhập
 
 
-  * 📊 Ảnh hưởng báo cáo
+  * Ảnh hưởng báo cáo
 
 
-  * 😠 Tranh chấp với khách
+  * Tranh chấp với khách
 
 
-**🎯 QUY TRÌNH 3 BƯỚC:**
+**QUY TRÌNH 3 BƯỚC:**
   1. 🙏 Xin lỗi khách ngay
 
 
@@ -5283,10 +5286,10 @@ UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
   3. 📞 Báo điều phối điều chỉnh
 
 
-**💬 CÂU MẪU CHUẨN:**_" Dạ em xin lỗi, để em kết thúc cuốc ngay và báo hệ thống điều chỉnh ạ."_
+**CÂU MẪU CHUẨN:**_" Dạ em xin lỗi, để em kết thúc cuốc ngay và báo hệ thống điều chỉnh ạ."_
 * * *
-### **🟦 TÌNH HUỐNG 4: KHÁCH YÊU CẦU ĐƯỜNG CẤM**
-**🎯 QUY TRÌNH 4 BƯỚC:**
+### **TÌNH HUỐNG 4: KHÁCH YÊU CẦU ĐƯỜNG CẤM**
+**QUY TRÌNH 4 BƯỚC:**
   1. 🚫 Không tranh luận
 
 
@@ -5299,20 +5302,20 @@ UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
   4. 📞 Báo điều phối nếu khách ép
 
 
-**💬 CÂU MẪU CHUẨN:**_" Đường này cấm, mình đi hướng bên kia sẽ an toàn và đúng luật hơn ạ."_
+**CÂU MẪU CHUẨN:**_" Đường này cấm, mình đi hướng bên kia sẽ an toàn và đúng luật hơn ạ."_
 * * *
-### **🟦 TÌNH HUỐNG 5: LỖI PIN BÁO NÓNG**
-**🔍 DẤU HIỆU NGUY HIỂM:**
-  * 🔥 Pin nóng bất thường
+### **TÌNH HUỐNG 5: LỖI PIN BÁO NÓNG**
+**DẤU HIỆU NGUY HIỂM:**
+  * Pin nóng bất thường
 
 
-  * 👃 Mùi lạ từ xe
+  * Mùi lạ từ xe
 
 
-  * ⚠️ Cảnh báo trên dashboard
+  * ️ Cảnh báo trên dashboard
 
 
-**🎯 QUY TRÌNH 5 BƯỚC KHẨN CẤP:**
+**QUY TRÌNH 5 BƯỚC KHẨN CẤP:**
   1. 🛑 Dừng xe NGAY LẬP TỨC
 
 
@@ -5328,10 +5331,10 @@ UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
   5. 📞 Gọi đ iều phối + kỹ thuật
 
 
-**💬 CÂU MẪU CHUẨN:**_" Xe đang báo nhiệt độ cao, em dừng kiểm tra để đảm bảo an toàn cho mình ạ."_
+**CÂU MẪU CHUẨN:**_" Xe đang báo nhiệt độ cao, em dừng kiểm tra để đảm bảo an toàn cho mình ạ."_
 * * *
-### **🟦 TÌNH HUỐNG 6: TRẠM SẠC QUÁ TẢI**
-**🎯 QUY TRÌNH 4 BƯỚC:**
+### **TÌNH HUỐNG 6: TRẠM SẠC QUÁ TẢI**
+**QUY TRÌNH 4 BƯỚC:**
   1. 🔍 Kiểm tra trạm khác trên hệ thống
 
 
@@ -5344,10 +5347,10 @@ UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
   4. 📞 Báo điều phối điều hướng trạm mới
 
 
-**💬 CÂU MẪU CHUẨN:**_" Trạm đang quá tải, em chuyển sang trạm gần nhất theo hướng dẫn hệ thống."_
+**CÂU MẪU CHUẨN:**_" Trạm đang quá tải, em chuyển sang trạm gần nhất theo hướng dẫn hệ thống."_
 * * *
-### **🟦 TÌNH HUỐNG 7: NHẶT ĐƯỢC ĐỒ KHÁCH**
-**🎯 QUY TRÌNH 5 BƯỚC BẮT BUỘC:**
+### **TÌNH HUỐNG 7: NHẶT ĐƯỢC ĐỒ KHÁCH**
+**QUY TRÌNH 5 BƯỚC BẮT BUỘC:**
   1. 📞 Không tự gọi khách
 
 
@@ -5363,56 +5366,56 @@ UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
   5. 🚫 Không mở/kiểm tra đồ
 
 
-**💬 CÂU MẪU CHUẨN:**_" Em vừa nhặt được đồ khách để lại, em báo điều phối giữ hộ ngay ạ."_
+**CÂU MẪU CHUẨN:**_" Em vừa nhặt được đồ khách để lại, em báo điều phối giữ hộ ngay ạ."_
 * * *
-## **📊 BẢNG ĐÁNH GIÁ THỰC HÀNH**
-### **🎯 TIÊU CHÍ CHẤM ĐIỂM (10 điểm/tình huống)**
-**⚡ TỐC ĐỘ XỬ LÝ (4 điểm)**
-  * ✅ Phản ứng trong 5-10 giây: 4 điểm
+## **BẢNG ĐÁNH GIÁ THỰC HÀNH**
+### **TIÊU CHÍ CHẤM ĐIỂM (10 điểm/tình huống)**
+**TỐC ĐỘ XỬ LÝ (4 điểm)**
+  * Phản ứng trong 5-10 giây: 4 điểm
 
 
-  * ✅ 11-15 giây: 3 điểm
+  * 11-15 giây: 3 điểm
 
 
-  * ✅ Trên 15 giây: 2 điểm
+  * Trên 15 giây: 2 điểm
 
 
-**💬 GIAO TIẾP (3 điểm)**
-  * ✅ Giọng nhẹ, không căng thẳng: 3 điểm
+**GIAO TIẾP (3 điểm)**
+  * Giọng nhẹ, không căng thẳng: 3 điểm
 
 
-  * ✅ Còn hơi vội: 2 điểm
+  * Còn hơi vội: 2 điểm
 
 
-  * ✅ Thiếu tự nhiên: 1 điểm
+  * Thiếu tự nhiên: 1 điểm
 
 
-**📚 TUÂN THỦ QUY TRÌNH (3 điểm)**
-  * ✅ Đúng 100% SOP: 3 điểm
+**TUÂN THỦ QUY TRÌNH (3 điểm)**
+  * Đúng 100% SOP: 3 điểm
 
 
-  * ✅ Thiếu 1 bước: 2 điểm
+  * Thiếu 1 bước: 2 điểm
 
 
-  * ✅ Thiếu 2 bước trở lên: 1 điểm
-
-
-* * *
-## **🏆 THANG ĐIỂM ĐÁNH GIÁ**
-  * 🥇 **XUẤT SẮC** : 65-70 điểm
-
-
-  * 🥈 **TỐT** : 55-64 điểm
-
-
-  * 🥉 **ĐẠT** : 45-54 điểm
-
-
-  * 📝 **CẦN LUYỆN THÊM** : Dưới 45 điểm
+  * Thiếu 2 bước trở lên: 1 điểm
 
 
 * * *
-## **💫 LỜI CHÚC KẾT THÚC**
+## **THANG ĐIỂM ĐÁNH GIÁ**
+  * **XUẤT SẮC** : 65-70 điểm
+
+
+  * **TỐT** : 55-64 điểm
+
+
+  * **ĐẠT** : 45-54 điểm
+
+
+  * **CẦN LUYỆN THÊM** : Dưới 45 điểm
+
+
+* * *
+## **LỜI CHÚC KẾT THÚC**
 **" Chúc mừng các anh chị đã hoàn thành buổi thực hành!**
 Mỗi tình huống hôm nay là một bài học QUÝ GIÁ cho hành trình TRỞ THÀNH TÀI XẾ ĐẲNG CẤP của các anh chị!
 Hãy nhớ:
@@ -5429,55 +5432,55 @@ UniTaxi **TỰ HÀO** đồng hành cùng sự PHÁT TRIỂN của các anh ch�
 **RA ĐƯỜNG VÀ TỎA SÁNG!** 🌟🚗"
 * * *
 # **VII. KẾT THÚC – BÀI TEST (10 phút)**
-**🎯 10 PHÚT ĐÁNH GIÁ TOÀN DIỆN: BÀI TEST CHUẨN ĐẦU RA UNITAXI** 📝
+**10 PHÚT ĐÁNH GIÁ TOÀN DIỆN: BÀI TEST CHUẨN ĐẦU RA UNITAXI** 📝
 * * *
-## **📋 GIỚI THIỆU BÀI KIỂM TRA**
+## **GIỚI THIỆU BÀI KIỂM TRA**
 **Mục tiêu:** Xác nhận năng lực tối thiểu - Đảm bảo an toàn - Chuẩn bị cho thực hành
 **Thời gian:** 10 phút - **Số câu:** 10 trắc nghiệm + 5 tình huống
 * * *
-## **📝 PHẦN A: 10 CÂU TRẮC NGHIỆM "THỬ THÁCH HIỂU BIẾT"**
+## **PHẦN A: 10 CÂU TRẮC NGHIỆM "THỬ THÁCH HIỂU BIẾT"**
 ### **1\. ❓ Khi app treo, tài xế được phép tắt máy để reset?**
-  * ❌ **SAI** → Chỉ reset app, không tắt máy khi đang ở nơi đông xe
+  * **SAI** → Chỉ reset app, không tắt máy khi đang ở nơi đông xe
 
 
 ### **2\. ❓ Khách yêu cầu đi đường cấm, tài xế phải từ chối ngay lập tức?**
-  * ❌ **SAI** → Giải thích 1 câu → đề xuất đường thay thế
+  * **SAI** → Giải thích 1 câu → đề xuất đường thay thế
 
 
 ### **3\. ❓ Khi pin báo nóng, tài xế phải dừng xe ngay và đưa khách ra xa?**
-  * ✅ **ĐÚNG** \- An toàn là trên hết!
+  * **ĐÚNG** \- An toàn là trên hết!
 
 
 ### **4\. ❓ Thấy trẻ em xuống xe một mình là vi phạm quy định?**
-  * ✅ **ĐÚNG** \- Bảo vệ trẻ em là trách nhiệm hàng đầu
+  * **ĐÚNG** \- Bảo vệ trẻ em là trách nhiệm hàng đầu
 
 
 ### **5\. ❓ Khi quên bấm "Kết thúc cuốc", tài xế chỉ cần xin lỗi khách?**
-  * ❌ **SAI** → Phải báo điều phối để chỉnh dữ liệu
+  * **SAI** → Phải báo điều phối để chỉnh dữ liệu
 
 
 ### **6\. ❓ Nhặt được đồ khách, tài xế được phép gọi khách trực tiếp cho nhanh?**
-  * ❌ **SAI** → Tuyệt đối báo điều phối, không gọi khách
+  * **SAI** → Tuyệt đối báo điều phối, không gọi khách
 
 
 ### **7\. ❓ Khi khách la mắng, tài xế phải giải thích đầy đủ để họ hiểu?**
-  * ❌ **SAI** → Giải thích 1 câu → hạ giọng → tránh tranh cãi
+  * **SAI** → Giải thích 1 câu → hạ giọng → tránh tranh cãi
 
 
 ### **8\. ❓ Khi trạm sạc quá tải, tài xế phải thử cắm lại nhiều lần?**
-  * ❌ **SAI** → Gửi Report → báo điều phối → sang trạm khác
+  * **SAI** → Gửi Report → báo điều phối → sang trạm khác
 
 
 ### **9\. ❓ Gặp điểm đón nguy hiểm, tài xế phải chủ động chọn vị trí an toàn hơn?**
-  * ✅ **ĐÚNG** \- Chủ động bảo vệ an toàn
+  * **ĐÚNG** \- Chủ động bảo vệ an toàn
 
 
 ### **10\. ❓ App không hiển thị đúng km/hành trình, tài xế vẫn tiếp tục chạy?**
-  * ❌ **SAI** → Báo điều phối → gửi Report trước khi tiếp tục
+  * **SAI** → Báo điều phối → gửi Report trước khi tiếp tục
 
 
 * * *
-## **🎤 PHẦN B: 5 TÌNH HUỐNG "PHẢN XẠ NHANH"** (30 giây/câu)
+## **PHẦN B: 5 TÌNH HUỐNG "PHẢN XẠ NHANH"** (30 giây/câu)
 ### **1\. 🚨 Khách yêu cầu đi rất nhanh vì sắp trễ giờ?**
 **→ "Em giữ tốc độ ổn định để mình an toàn nhất ạ."**
 ### **2\. 🔥 Xe báo lỗi pin giữa đường?**
@@ -5489,29 +5492,29 @@ UniTaxi **TỰ HÀO** đồng hành cùng sự PHÁT TRIỂN của các anh ch�
 ### **5\. 😠 Khách công kích cá nhân?**
 **→ Hạ giọng: "Dạ để em xử lý ngay ạ." → Báo điều phối**
 * * *
-## **📊 TIÊU CHÍ ĐÁNH GIÁ CHUẨN**
-### **✅ ĐẠT YÊU CẦU KHI:**
-  * 🎯 Trả lời đúng **≥ 8/10 câu**
+## **TIÊU CHÍ ĐÁNH GIÁ CHUẨN**
+### **ĐẠT YÊU CẦU KHI:**
+  * Trả lời đúng **≥ 8/10 câu**
 
 
-  * 🗣️ Thể hiện **giọng bình tĩnh** trong phần tình huống
+  * ️ Thể hiện **giọng bình tĩnh** trong phần tình huống
 
 
-  * 💬 Không sử dụng từ ngữ **phản ứng, đổ lỗi**
+  * Không sử dụng từ ngữ **phản ứng, đổ lỗi**
 
 
-### **❌ KHÔNG ĐẠT KHI:**
-  * ⚠️ Sai **≥ 3 câu quan trọng** (pin, trẻ em, trạm sạc, an toàn)
+### **KHÔNG ĐẠT KHI:**
+  * ️ Sai **≥ 3 câu quan trọng** (pin, trẻ em, trạm sạc, an toàn)
 
 
-  * 😤 Thái độ **căng thẳng, tranh cãi**
+  * Thái độ **căng thẳng, tranh cãi**
 
 
-  * 🗯️ Không nhớ **câu mẫu cơ bản**
+  * ️ Không nhớ **câu mẫu cơ bản**
 
 
 * * *
-## **🎯 5 NGUYÊN TẮC BẤT BIẾN UNITAXI**
+## **5 NGUYÊN TẮC BẤT BIẾN UNITAXI**
 ### **1\. 🛡️ AN TOÀN TUYỆT ĐỐI**
  _" Mạng sống và sức khỏe là không thể thay thế"_
 ### **2\. 🤝 KHÔNG TRANH CÃI**
@@ -5523,7 +5526,7 @@ UniTaxi **TỰ HÀO** đồng hành cùng sự PHÁT TRIỂN của các anh ch�
 ### **5\. ❤️ TỬ TẾ ĐÚNG LÚC - ĐÚNG MỨC**
  _" Chuyên nghiệp không có nghĩa là vô cảm"_
 * * *
-## **💫 LỜI KẾT TRÀN ĐẦY CẢM HỨNG**
+## **LỜI KẾT TRÀN ĐẦY CẢM HỨNG**
 **" Chúc mừng các anh chị đã hoàn thành bài kiểm tra!**
 Mỗi câu trả lời đúng của các anh chị hôm nay là một viên gạch vững chắc xây nên **SỰ NGHIỆP TÀI XẾ CHUYÊN NGHIỆP!**
 Hãy nhớ: **Kiến thức + Kỹ năng + Thái độ = TÀI XẾ UNITAXI ĐẲNG CẤP!**
@@ -5531,7 +5534,7 @@ Chúng tôi **TIN TƯỞNG** vào sự thành công của các anh chị và **C
 **HẸN GẶP LẠI TRÊN NHỮNG HÀNH TRÌNH MỚI!** 🚗✨
 UniTaxi - **VỮNG TAY LÁI, TRỌN NIỀM TIN!** ❤️"
 * * *
-# **📘 6. SỨC KHOẺ – NĂNG LƯỢNG – TẬP TRUNG (4 GIỜ)**
+# **6. SỨC KHOẺ – NĂNG LƯỢNG – TẬP TRUNG (4 GIỜ)**
 _(Chuẩn đào tạo của Nhật Bản & Singapore dành cho tài xế EV)_
 |                                         |
 | **Mục**                                 | **Nội dung chi tiết**                                          | **Tiêu chuẩn quốc tế**               | **Thời lượng** |
@@ -5571,9 +5574,9 @@ Sau 4 giờ học, học viên phải:
 
 * * *
 # **II. TỔNG QUAN VỀ “THỂ TRẠNG TÀI XẾ” (20 phút)**
-**📘 II. TỔNG QUAN VỀ “THỂ TRẠNG TÀI XẾ” – 20 PHÚT ĐỈNH CAO**
+**II. TỔNG QUAN VỀ “THỂ TRẠNG TÀI XẾ” – 20 PHÚT ĐỈNH CAO**
 **Chuẩn JapanTaxi + Singapore Taxi Academy + Uber Health & Safety**
-**🎯 Mục tiêu sau 20 phút**
+**Mục tiêu sau 20 phút**
   * Tài xế hiểu rằng: SỨC KHỎE = AN TOÀN = THU NHẬP
 
 
@@ -5670,9 +5673,9 @@ Nếu bạn sẵn sàng cho phần thực chiến nhất:
 Mình bắn ngay bản siêu thực tế + bài tập tại chỗ! 🔥
 * * *
 # **III. TƯ THẾ + THÓI QUEN TRƯỚC CA (40 phút)**
-**📘 III. TƯ THẾ + THÓI QUEN TRƯỚC CA – 40 PHÚT THỰC CHIẾN**
+**III. TƯ THẾ + THÓI QUEN TRƯỚC CA – 40 PHÚT THỰC CHIẾN**
 **Chuẩn JapanTaxi + Singapore Taxi Academy + Uber Driver Health**
-**🎯 Mục tiêu sau 40 phút**
+**Mục tiêu sau 40 phút**
   * Mọi tài xế ngồi đúng 100% ngay từ giây đầu lên xe
 
 
@@ -5780,9 +5783,9 @@ Bây giờ… ra xe và thực hiện 100% ngay từ ca tiếp theo nào! ⚡�
 (40 phút kết thúc – mọi người đã ngồi đúng, khởi động đủ, sẵn sàng lái 10 tiếng mà vẫn tỉnh!)
 * * *
 # **IV. QUY TRÌNH NGHỈ NGẮN QUỐC TẾ (30 phút)**
-**📘 IV. QUY TRÌNH NGHỈ NGẮN QUỐC TẾ – 30 PHÚT THỰC CHIẾN**
+**IV. QUY TRÌNH NGHỈ NGẮN QUỐC TẾ – 30 PHÚT THỰC CHIẾN**
 **Chuẩn Uber Driver Well-Being + Singapore LTA + JapanTaxi + Lyft Health Program**
-**🎯 Mục tiêu sau 30 phút**
+**Mục tiêu sau 30 phút**
   * Tài xế biết chính xác khi nào phải nghỉ, nghỉ bao lâu, nghỉ thế nào
 
 
@@ -5868,9 +5871,9 @@ Unitaxi tự hào vì có những tài xế biết nghỉ đúng cách để lá
 (30 phút kết thúc – mọi người đã thuộc lòng chu kỳ nghỉ, sẵn sàng áp dụng ngay!)
 * * *
 # **V. NGƯỠNG KHÔNG ĐƯỢC PHÉP LÁI (30 phút)**
-**📘 V. NGƯỠNG KHÔNG ĐƯỢC PHÉP LÁI – 30 PHÚT “ĐỎ = DỪNG NGAY”**
+**V. NGƯỠNG KHÔNG ĐƯỢC PHÉP LÁI – 30 PHÚT “ĐỎ = DỪNG NGAY”**
 **Chuẩn Uber Global Fatigue Threshold + JapanTaxi Health Board + Singapore LTA + Lyft Safety**
-**🎯 Mục tiêu sau 30 phút**
+**Mục tiêu sau 30 phút**
   * Thuộc lòng 10 dấu hiệu đỏ + 8 tình huống cấm lái
 
 
@@ -5975,7 +5978,7 @@ Unitaxi tự hào vì có các anh chị! ❤️🚕”
 * * *
 # **VI. ĂN UỐNG & SINH HOẠT CHUẨN TÀI XẾ (40 phút)**
 **Chuẩn Uber Driver Wellness + JapanTaxi Health Board + Singapore LTA Driver Care**
-**🎯 Mục tiêu sau 40 phút**
+**Mục tiêu sau 40 phút**
   * Không còn buồn ngủ, tụt năng lượng, đau đầu giữa ca
 
 
@@ -6083,9 +6086,9 @@ Unitaxi tự hào vì có những tài xế biết nuôi dưỡng cơ thể đ�
 Bây giờ… ra đường và lái bằng 100% năng lượng nào! ⚡🍌💪❤️”
 * * *
 # **VII. QUẢN LÝ CẢM XÚC & TINH THẦN (35 phút)**
-**📘 VII. QUẢN LÝ CẢM XỨC & TINH THẦN – 35 PHÚT “BÌNH TĨNH LÀ SIÊU NĂNG LỰC”**
+**VII. QUẢN LÝ CẢM XỨC & TINH THẦN – 35 PHÚT “BÌNH TĨNH LÀ SIÊU NĂNG LỰC”**
 **Chuẩn Uber Safety Academy + Lyft Mindfulness + JapanTaxi Emotional Protocol + LTA Singapore**
-**🎯 Mục tiêu sau 35 phút**
+**Mục tiêu sau 35 phút**
   * Không bao giờ bị khách “dắt cảm xúc”
 
 
@@ -6165,9 +6168,9 @@ Các anh chị chính là những tài xế MẠNH NHẤT về tinh thần mà U
 Bước ra đường và lái bằng TRÁI TIM BÌNH TĨNH, ĐẦU LẠNH, VÀ NỤ CƯỜI LUÔN SẴN SÀNG nào! ❤️🚕”
 * * *
 # **VIII. QUY TRÌNH BÁO ĐIỀU PHỐI KHI MỆT (20 phút)**
-**📘 VIII. QUY TRÌNH BÁO ĐIỀU PHỐI KHI MỆT – 20 PHÚT “MỆT LÀ BÁO, KHÔNG LÀ CỐ”**
+**VIII. QUY TRÌNH BÁO ĐIỀU PHỐI KHI MỆT – 20 PHÚT “MỆT LÀ BÁO, KHÔNG LÀ CỐ”**
 **Chuẩn Uber Rest Standard + Lyft Fatigue Protocol + JapanTaxi Safety + LTA Singapore**
-**🎯 Mục tiêu sau 20 phút**
+**Mục tiêu sau 20 phút**
   * Không còn ai “cố thêm 1 cuốc” khi đã mệt
 
 
@@ -6277,9 +6280,9 @@ Unitaxi luôn tự hào và luôn đứng sau lưng các anh chị 24/7!
 Bây giờ… ra đường và lái bằng 100% tỉnh táo, 200% trách nhiệm nào! ❤️🚕”
 * * *
 # **IX. BÀI KIỂM TRA THỰC HÀNH (10 phút)**
-**📘 IX. BÀI KIỂM TRA THỰC HÀNH “AN TOÀN 100%” – 10 PHÚT QUYẾT ĐỊNH**
+**IX. BÀI KIỂM TRA THỰC HÀNH “AN TOÀN 100%” – 10 PHÚT QUYẾT ĐỊNH**
 **Chuẩn Uber + Lyft + JapanTaxi + LTA Singapore – Mixed Test**
-**🎯 Mục tiêu**
+**Mục tiêu**
   * Kiểm tra kiến thức đã “thấm” thật chưa
 
 
@@ -6359,11 +6362,11 @@ Hãy mang kiến thức này ra đường và biến mỗi chuyến xe thành m�
 Unitaxi tự hào vì các anh chị! ❤️🚕⚡”
 * * *
 # **X. TINH THẦN KHÓA HỌC**
-**📘 X. TINH THẦN KHÓA HỌC – FINAL MINDSET STATEMENT**
+**X. TINH THẦN KHÓA HỌC – FINAL MINDSET STATEMENT**
 **“TÔI KHÔNG CHỈ LÁI XE – TÔI ĐANG BẢO VỆ MẠNG SỐNG”**
 **(Chuẩn Uber Driver Integrity + Lyft Professional Mindset + JapanTaxi “Kokoro no Anzen” + LTA Singapore Driver Oath)**
 **⏱ 10 phút cuối cùng – phần thiêng liêng nhất của khóa học**
-**🔹 5 KHẲNG ĐỊNH CỐT LÕI – UNITAXI DRIVER MINDSET**
+**5 KHẲNG ĐỊNH CỐT LÕI – UNITAXI DRIVER MINDSET**
   1. “Giữ tỉnh táo là giữ mạng sống – của tôi và của khách.”
 
 
@@ -6379,14 +6382,14 @@ Unitaxi tự hào vì các anh chị! ❤️🚕⚡”
   5. “Mỗi chuyến xe là một lời hứa: đưa khách về tới nơi – an toàn và trọn vẹn.”
 
 
-**🔹 TUYÊN NGÔN NGHỀ NGHIỆP UNITAXI**
+**TUYÊN NGÔN NGHỀ NGHIỆP UNITAXI**
 **(Giảng viên + toàn bộ học viên đứng dậy, đọc to từng câu – giọng chắc, mắt nhìn thẳng)**
 “Tôi đặt an toàn lên trên tốc độ, trên áp lực, trên mọi hoàn cảnh.
 Tôi lái xe để khách cảm thấy được tôn trọng và yên tâm tuyệt đối.
 Tôi tôn trọng luật, tôn trọng khách, tôn trọng đồng nghiệp và tôn trọng chính mình.
 Tôi không bao giờ đánh cược mạng sống – của mình, của khách, của gia đình họ.
 Tôi tự hào là tài xế Unitaxi – vì mỗi vòng quay bánh xe là một lần tôi làm nên lịch sử taxi Việt Nam đẳng cấp quốc tế!”
-**🔹 TINH THẦN CỦA MỘT TÀI XẾ CHUYÊN NGHIỆP UNITAXI**
+**TINH THẦN CỦA MỘT TÀI XẾ CHUYÊN NGHIỆP UNITAXI**
   * Bình tĩnh khi khách căng thẳng → vì tôi là người điều khiển năng lượng chuyến xe.
 
 
@@ -6399,7 +6402,7 @@ Tôi tự hào là tài xế Unitaxi – vì mỗi vòng quay bánh xe là một
   * Luôn tỉnh táo – luôn sạch sẽ – luôn tôn trọng – luôn trung thực – luôn tự hào.
 
 
-**🔹 LỜI CAM KẾT CUỐI KHÓA (cả lớp đồng thanh – 30 giây)**
+**LỜI CAM KẾT CUỐI KHÓA (cả lớp đồng thanh – 30 giây)**
 Giảng viên dẫn dắt, cả lớp hô theo từng câu:
 “TÔI CAM KẾT LÁI AN TOÀN!”
 “TÔI CAM KẾT GIỮ TỈNH TÁO!”

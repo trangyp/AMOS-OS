@@ -1,13 +1,20 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-full-brain-os
 name: amos-full-brain-os
 description: Full Brain Os — super engines capability. Use when super-engine reasoning, consciousness emulation, or mega-engine analysis. Use when amos-super-engines-master routes to this specialized capability.
 parent_skill: amos-super-engines-master
 domain: super
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-full-brain-os]
+tags: [note, amos-full-brain-os, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
 
 
@@ -101,3 +108,77 @@ Full Brain OS is AMOS_MODEL. The pipeline is a governance-aware demonstration, n
 
 ---
 **Links:** [[07_SKILLS_MOC]]
+
+## Related
+
+- [[amos-full-brain-os_MOC]]
+
+## Examples
+
+- **Scenario**: When orchestrating the full brain OS: coordinating all cognitive engines as a unified system
+  - **Input**: A query matching this skill's domain (super)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When routing between brain core, omni kernel, omniverse brain, personality, and expression translation
+  - **Input**: A query matching this skill's domain (super)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When managing the gap/integrity system that constrains the brain by known limitations
+  - **Input**: A query matching this skill's domain (super)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the super domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[amos-super-engines-master]]` — routes to this skill when super specialization is needed
+- **Peers**: Other skills in the `super` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/references_MOC.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `[[amos-full-brain-os_MOC]]` — skill Map of Content
+- `[[amos-super-engines-master]]` — parent skill
+- `[[amos-full-brain-os-workflow]]` — corresponding workflow
+- `[[amos-full-brain-os-agent]]` — corresponding agent
+

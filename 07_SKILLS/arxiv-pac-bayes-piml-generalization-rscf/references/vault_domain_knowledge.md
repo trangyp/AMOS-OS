@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, arxiv-pac-bayes-piml-generalization-rscf]
+source: 07_SKILLS/arxiv-pac-bayes-piml-generalization-rscf/references
+tags: [reference, arxiv-pac-bayes-piml-generalization-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -170,3 +177,7 @@ Key insight: Value comes from **maintaining optimal states** (continuity economi
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,12 +1,15 @@
 ---
 title: VINH VUONG
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 ![](https://app.notion.com/images/page-cover/met_fitz_henry_lane.jpg)

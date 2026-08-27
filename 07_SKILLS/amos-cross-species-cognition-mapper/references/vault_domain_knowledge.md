@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-cross-species-cognition-mapper]
+source: 07_SKILLS/amos-cross-species-cognition-mapper/references
+tags: [reference, amos-cross-species-cognition-mapper, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -387,3 +394,7 @@ I have successfully designed and implemented a comprehensive **Distributed Cogni
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

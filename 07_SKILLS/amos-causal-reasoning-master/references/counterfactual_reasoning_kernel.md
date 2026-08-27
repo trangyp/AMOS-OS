@@ -1,8 +1,15 @@
 ---
 title: counterfactual reasoning kernel
 type: reference
-tags: [reference, amos-causal-reasoning-master]
+source: 07_SKILLS/amos-causal-reasoning-master/references
+tags: [reference, amos-causal-reasoning-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Counterfactual Reasoning Kernel
 
@@ -30,3 +37,7 @@ confidence: "VERIFIED"
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

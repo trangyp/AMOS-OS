@@ -1,9 +1,14 @@
 ---
 title: DECISION RIGHTS OPERATING MODEL DECISION RIGHTS CONTRACT
 type: model
-tags: [amos_os, 23_operating_model]
+source: 23_OPERATING_MODEL/02_DECISION_RIGHTS/00_INDEX
+tags: [amos_os, 23_operating_model, canon/operating-model]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # DECISION RIGHTS OPERATING MODEL DECISION RIGHTS CONTRACT

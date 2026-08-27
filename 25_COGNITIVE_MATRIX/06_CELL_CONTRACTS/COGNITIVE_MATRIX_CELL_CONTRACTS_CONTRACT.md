@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX CELL CONTRACTS CONTRACT
 type: cognitive
-tags: [cognitive_matrix, cognitive_matrix_cell_contracts_contract.md]
+source: 25_COGNITIVE_MATRIX/06_CELL_CONTRACTS
+tags: [cognitive_matrix, cognitive_matrix_cell_contracts_contract.md, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # COGNITIVE MATRIX CELL CONTRACTS CONTRACT
@@ -75,3 +80,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[06_CELL_CONTRACTS_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,9 +1,15 @@
 ---
 title: "2026-08-26 Cognitive Matrix Contract Fill Pass"
 type: note
+source: 25_COGNITIVE_MATRIX/07_COVERAGE
 epistemic_class: DERIVED
 status: CONTRACT_FILLED_PASS_COMPLETE
-tags: [note, 07-coverage]
+tags: [note, 07-coverage, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -37,3 +43,6 @@ Implementation, execution, validation, authority binding, or runtime integration
 
 ---
 **MOC:** [[07_COVERAGE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

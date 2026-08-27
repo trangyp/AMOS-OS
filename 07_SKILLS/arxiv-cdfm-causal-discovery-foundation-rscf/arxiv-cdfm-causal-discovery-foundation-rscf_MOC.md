@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Cdfm-Causal-Discovery-Foundation-Rscf MOC"
 type: moc
-tags: [moc, arxiv-cdfm-causal-discovery-foundation-r]
+source: 07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf
+tags: [moc, arxiv-cdfm-causal-discovery-foundation-r, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Cdfm-Causal-Discovery-Foundation-Rscf — Map of Content
 

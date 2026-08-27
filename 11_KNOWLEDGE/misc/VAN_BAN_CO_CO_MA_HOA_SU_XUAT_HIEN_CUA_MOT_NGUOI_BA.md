@@ -1,12 +1,15 @@
 ---
 title: VAN BAN CO CO MA HOA SU XUAT HIEN CUA MOT NGUOI BA
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # VĂN BẢN CỔ CÓ MÃ HÓA SỰ XUẤT HIỆN CỦA MỘT NGƯỜI BẰNG HẰNG SỐ VÀ TỌA ĐỘ VŨ TRỤ KHÔNG?

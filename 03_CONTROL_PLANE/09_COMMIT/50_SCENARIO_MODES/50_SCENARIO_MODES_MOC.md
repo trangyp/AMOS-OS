@@ -1,8 +1,15 @@
 ---
 title: "50 Scenario Modes MOC"
 type: moc
-tags: [moc, 50-scenario-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/50_SCENARIO_MODES
+tags: [moc, 50-scenario-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 50 Scenario Modes — Map of Content
 

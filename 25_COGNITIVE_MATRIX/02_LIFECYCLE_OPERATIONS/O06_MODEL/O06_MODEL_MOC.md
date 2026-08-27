@@ -1,8 +1,15 @@
 ---
 title: "O06 Model MOC"
 type: moc
-tags: [moc, o06-model]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O06_MODEL
+tags: [moc, o06-model, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # O06 Model — Map of Content
 

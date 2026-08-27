@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-dependency-environment-reconstruction-rscf]
+source: 07_SKILLS/amos-dependency-environment-reconstruction-rscf/references
+tags: [reference, amos-dependency-environment-reconstruction-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -204,3 +211,7 @@ on two consecutive lines (lines 2889-2890). Removed the duplicate.
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

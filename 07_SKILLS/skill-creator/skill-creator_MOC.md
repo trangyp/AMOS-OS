@@ -1,8 +1,15 @@
 ---
 title: "Skill-Creator MOC"
 type: moc
-tags: [moc, skill-creator]
+source: 07_SKILLS/skill-creator
+tags: [moc, skill-creator, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Skill-Creator — Map of Content
 

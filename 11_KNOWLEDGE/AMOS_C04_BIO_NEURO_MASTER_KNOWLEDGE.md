@@ -1,5 +1,6 @@
 ---
 type: neural
+source: 11_KNOWLEDGE
 id: AMOS-C04-BIO-NEURO-MASTER-KNOWLEDGE
 title: "AMOS C04 — Biology & Neuro Master Knowledge"
 origin_architect: "Trang Phan"
@@ -14,9 +15,14 @@ placeholder_status: "NONE"
 version: "1.1"
 source_lineage: "see body"
 source_family_mapping: "see body"
-tags: [knowledge, note]
-
+tags: [knowledge, note, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # AMOS C04 — Biology & Neuro Master Knowledge
 

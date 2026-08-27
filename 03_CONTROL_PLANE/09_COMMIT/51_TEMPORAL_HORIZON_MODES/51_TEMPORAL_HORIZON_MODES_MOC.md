@@ -1,8 +1,15 @@
 ---
 title: "51 Temporal Horizon Modes MOC"
 type: moc
-tags: [moc, 51-temporal-horizon-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/51_TEMPORAL_HORIZON_MODES
+tags: [moc, 51-temporal-horizon-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 51 Temporal Horizon Modes — Map of Content
 

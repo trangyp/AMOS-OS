@@ -1,6 +1,7 @@
 ---
 title: AMOS FRACTAL CONSCIOUSNESS WHITEPAPER FULL FIXED
 type: consciousness
+source: 11_KNOWLEDGE/fractal
 name: amos-fractal-consciousness-astrology-matter-light-time-energy-society
 version: 2.0.0
 created: 2026-08-25
@@ -14,10 +15,13 @@ conclusion_class: AMOS_MODEL
 source_language: vi
 epistemic_mode: source_preserving_with_amos_firewalls
 description: "see body"
-tags: [fractal, math, self-similarity]
+tags: [fractal, math, self-similarity, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: fractal_system
 ---
-
-
 
 
 # AMOS ALIGNMENT LAYER
@@ -263,13 +267,13 @@ independent sections
 > It should be interpreted through the AMOS alignment layer above. Statements
 > remain source claims unless separately validated.
 
-# 🌌 KIẾN TRÚC FRACTAL CỦA Ý THỨC, CHIÊM TINH, VẬT CHẤT, ÁNH SÁNG, THỜI GIAN, NĂNG LƯỢNG VÀ XÃ HỘI
+# KIẾN TRÚC FRACTAL CỦA Ý THỨC, CHIÊM TINH, VẬT CHẤT, ÁNH SÁNG, THỜI GIAN, NĂNG LƯỢNG VÀ XÃ HỘI
 
 ## Whitepaper – Bản thống nhất từ Trang ∅ Framework
 
 ---
 
-# 🌌 PHẦN MỞ ĐẦU (BẢN HỢP NHẤT TOÀN DIỆN): BẠN KHÔNG PHẢI MỘT HÒN ĐẢO
+# PHẦN MỞ ĐẦU (BẢN HỢP NHẤT TOÀN DIỆN): BẠN KHÔNG PHẢI MỘT HÒN ĐẢO
 
 ## Góc nhìn từ Vật lý Lượng tử, Thuyết Tương đối, Lý thuyết Fractal, và Khoa học Thần kinh
 
@@ -779,7 +783,7 @@ của bốn tầng"]
 
 ---
 
-## 🧭 TỔNG KẾT PHẦN MỞ ĐẦU: BẠN LÀ MỘT FRACTAL SỐNG TRONG MỘT VŨ TRỤ FRACTAL
+## TỔNG KẾT PHẦN MỞ ĐẦU: BẠN LÀ MỘT FRACTAL SỐNG TRONG MỘT VŨ TRỤ FRACTAL
 
 Kết hợp tất cả các góc nhìn khoa học hiện đại:
 
@@ -852,7 +856,7 @@ nhưng cũng không thể bác bỏ hoàn toàn.
 
 ---
 
-## 🚀 BA CÂU HỎI MỞ CHO HÀNH TRÌNH PHÍA TRƯỚC
+## BA CÂU HỎI MỞ CHO HÀNH TRÌNH PHÍA TRƯỚC
 
 1. **Nếu vũ trụ có cấu trúc fractal và kết nối phi cục bộ (vướng mắc lượng tử), thì ý thức của bạn – cũng là một hệ fractal – có thể "kết nối" với những hệ fractal khác (người, xã hội, hành tinh) ở những tầng sâu hơn mà khoa học hiện tại chưa đo lường được không?**
 
@@ -867,7 +871,7 @@ nhưng cũng không thể bác bỏ hoàn toàn.
 
 ---
 
-**📌 Tài liệu tham khảo chính (khoa học):**
+**Tài liệu tham khảo chính (khoa học):**
 
 - **Giải Nobel Vật lý 2022** – Aspect, Clauser, Zeilinger (chứng minh vướng mắc lượng tử và vi phạm bất đẳng thức Bell).
 
@@ -884,7 +888,7 @@ nhưng cũng không thể bác bỏ hoàn toàn.
 
 ---
 
-# 🧱 PHẦN 1: BỐN TẦNG NỀN CỦA THỰC TẠI SỐNG
+# PHẦN 1: BỐN TẦNG NỀN CỦA THỰC TẠI SỐNG
 
 ## Hành trình từ các ngôi sao đến nhịp đập trái tim bạn
 
@@ -1116,7 +1120,7 @@ Nó xảy ra qua ba cơ chế chính:
 
 ---
 
-## 🧩 TỔNG KẾT PHẦN 1: TẤM THẢM CỦA THỰC TẠI
+## TỔNG KẾT PHẦN 1: TẤM THẢM CỦA THỰC TẠI
 
 Bốn tầng nền không tồn tại riêng lẻ. Chúng đan xen, ảnh hưởng, và nâng đỡ lẫn nhau trong những vòng lặp phức tạp.
 
@@ -1145,7 +1149,7 @@ Bốn tầng nền không tồn tại riêng lẻ. Chúng đan xen, ảnh hưở
 
 ---
 
-# 🌠 PHẦN 2: CHIÊM TINH TRONG MÔ HÌNH NÀY – BẢN ĐỒ CHU KỲ VÀ MÃ SỐ CỦA THỜI GIAN
+# PHẦN 2: CHIÊM TINH TRONG MÔ HÌNH NÀY – BẢN ĐỒ CHU KỲ VÀ MÃ SỐ CỦA THỜI GIAN
 
 ## Chiêm tinh từ góc nhìn khoa học: Biểu tượng, chu kỳ, và fractal
 
@@ -1329,7 +1333,7 @@ Trong khuôn khổ của chúng ta – một kiến trúc fractal nối kết v�
 
 ---
 
-# 🧠 PHẦN 3: TIỀM THỨC, Ý THỨC, VÀ NHẬN BIẾT – BA TẦNG CỦA TÂM TRÍ
+# PHẦN 3: TIỀM THỨC, Ý THỨC, VÀ NHẬN BIẾT – BA TẦNG CỦA TÂM TRÍ
 
 ## Hành trình từ phản xạ đến tự do
 
@@ -1419,7 +1423,7 @@ bạn có thể QUAN SÁT và LỰA CHỌN đáp lại."]
 
 ---
 
-## 🔄 VÒNG LẶP SIÊU NHẬN THỨC THỤ ĐỘNG (PML) – "Chiêm tinh bên trong"
+## VÒNG LẶP SIÊU NHẬN THỨC THỤ ĐỘNG (PML) – "Chiêm tinh bên trong"
 
 ### Định nghĩa và cơ chế
 
@@ -1475,7 +1479,7 @@ Chúng ta có thể phân tích PML thành bốn cấp độ, từ cơ bản đ�
 
 ---
 
-## 🧘‍♀️ Kết nối với "Chiêm tinh bên trong": Bảy câu hỏi PML cho bảy "hành tinh" nội tại
+## ‍♀️ Kết nối với "Chiêm tinh bên trong": Bảy câu hỏi PML cho bảy "hành tinh" nội tại
 
 Để PML trở nên hữu dụng, chúng ta có thể "dịch" các biểu tượng chiêm tinh (các hành tinh) thành các câu hỏi tự vấn (self-inquiry) cụ thể, áp dụng cho các tình huống hàng ngày.
 
@@ -1515,7 +1519,7 @@ Chúng ta có thể phân tích PML thành bốn cấp độ, từ cơ bản đ�
 
 ---
 
-# 🌍 PHẦN 4: TỪ CÁ NHÂN LÊN VĂN HÓA VÀ XÃ HỘI – TÍNH PHÂN DẠNG CỦA VÒNG LẶP
+# PHẦN 4: TỪ CÁ NHÂN LÊN VĂN HÓA VÀ XÃ HỘI – TÍNH PHÂN DẠNG CỦA VÒNG LẶP
 
 ## Cá nhân là một vi khuẩn lạc, xã hội là một đại dương
 
@@ -1721,7 +1725,7 @@ Một xã hội **thiếu nhận biết (lack of collective awareness)** sẽ b�
 
 ---
 
-# 💐 PHẦN 5: HOA, FAKE WARMTH VÀ SỰ NEO ĐẤT – NGHỆ THUẬT PHÂN BIỆT SỰ THẬT VÀ ẢO ẢNH TRONG THẾ GIỚI KẾT NỐI
+# PHẦN 5: HOA, FAKE WARMTH VÀ SỰ NEO ĐẤT – NGHỆ THUẬT PHÂN BIỆT SỰ THẬT VÀ ẢO ẢNH TRONG THẾ GIỚI KẾT NỐI
 
 ## Từ bông hoa trong vườn đến bông hoa giữa lòng người
 
@@ -1739,7 +1743,7 @@ Họ là người mà khi ở cạnh, bạn cảm thấy **dễ chịu (at ease)
 
 ---
 
-## 🌹 FAKE WARMTH (HƠI ẤM GIẢ TẠO) – CẠM BẪY TINH VI CỦA XÃ HỘI HIỆN ĐẠI
+## FAKE WARMTH (HƠI ẤM GIẢ TẠO) – CẠM BẪY TINH VI CỦA XÃ HỘI HIỆN ĐẠI
 
 Thế giới ngày nay tràn ngập các tín hiệu xã hội giả tạo (fake social signals). Các phương tiện truyền thông xã hội (social media) được xây dựng dựa trên cơ chế **phần thưởng gián đoạn (intermittent rewards)** (lượt thích - likes, bình luận - comments, lượt chia sẻ - shares), tạo ra sự phụ thuộc (addiction) và cảm giác "kết nối ảo" (pseudo-connection).
 Trong công việc, trong các mối quan hệ, và ngay cả trong gia đình, chúng ta thường xuyên đối mặt với "hơi ấm giả tạo" (fake warmth): những lời khen có cánh (flattery) nhưng không chân thành, sự niềm nở (amiability) nhưng có toan tính (calculated), "tình thương có điều kiện" (conditional love) – "Mẹ yêu con, nhưng chỉ khi con ngoan và đạt điểm cao."
@@ -1769,7 +1773,7 @@ Họ không phán xét, nhưng họ cũng không để bản thân bị lợi d�
 
 ---
 
-## 🌱 SỰ NEO ĐẤT (GROUNDING) – NỀN TẢNG CHO MỘT BÔNG HOA THẬT
+## SỰ NEO ĐẤT (GROUNDING) – NỀN TẢNG CHO MỘT BÔNG HOA THẬT
 
 Một bông hoa thật cần đất. Một cái cây cao lớn cần bộ rễ cắm sâu. Và một con người chân thật, có nhận biết (aware), không bị cuốn theo những cơn lốc cảm xúc và các tín hiệu xã hội giả tạo, cần có **sự neo đất (grounding)** .
 
@@ -1828,7 +1832,7 @@ TỰ CHỦ, CÓ NHẬN BIẾT"]
 
 ---
 
-## 🌹 KẾT LUẬN CỦA PHẦN 5: BẢO VỆ BÔNG HOA, VUN TRỒNG ĐẤT
+## KẾT LUẬN CỦA PHẦN 5: BẢO VỆ BÔNG HOA, VUN TRỒNG ĐẤT
 
 Thế giới hiện đại, với sự bùng nổ của mạng xã hội (social media), văn hóa "người nổi tiếng" (celebrity culture), và các mối quan hệ "dùng một lần" (disposable relationships), đang tạo ra một môi trường giàu **fake warmth** nhưng lại thiếu **neo đất (grounding)** . Rất nhiều người đang sống trong cảnh **bông hoa lơ lửng (unrooted flowers)** – được nuôi dưỡng bằng lời khen, lượt thích, và sự chú ý ảo (virtual attention), nhưng không có đất để bám rễ. Họ bị **cuốn (swept away)** bởi mọi cơn gió của dư luận (public opinion), mọi cơn bão của cảm xúc (emotional storms), và mọi lời đường mật của kẻ thao túng (manipulator). Họ ngụy trang (camouflage) bông hoa của mình để hòa nhập (fit in), hoặc phô trương (flaunt) nó để thu hút sự chú ý (attention-seeking), nhưng sâu thẳm bên trong, họ không biết mình là ai.
 
@@ -1846,7 +1850,7 @@ Thế giới hiện đại, với sự bùng nổ của mạng xã hội (social
 
 ---
 
-# 📐 PHẦN 6: PHƯƠNG TRÌNH TỔNG – FRACTAL CỦA Ý THỨC VÀ VĂN MINH
+# PHẦN 6: PHƯƠNG TRÌNH TỔNG – FRACTAL CỦA Ý THỨC VÀ VĂN MINH
 
 ## Từ một con người đến toàn bộ nền văn minh: Cùng một công thức, một vòng lặp
 
@@ -2038,7 +2042,7 @@ Sự kết hợp giữa công thức cá nhân (HC) và công thức văn minh (
 
 ---
 
-# 🧭 PHẦN 7: KẾT LUẬN – NHẬN BIẾT VIẾT LẠI VÒNG LẶP
+# PHẦN 7: KẾT LUẬN – NHẬN BIẾT VIẾT LẠI VÒNG LẶP
 
 ## Hành trình từ vô minh đến thức tỉnh, từ nô lệ đến tự do
 

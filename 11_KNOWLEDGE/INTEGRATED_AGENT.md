@@ -1,5 +1,6 @@
 ---
 type: agent
+source: 11_KNOWLEDGE
 artifact_id: AMOS-UNIVERSAL-RENAME-ENGINE
 name: amos-universal-rename-engine
 title: "AMOS Universal Rename Engine — Governed Deterministic Namespace Migration"
@@ -29,8 +30,12 @@ aliases: "- AMOS Universal Rename Engine
 tags: [canon-group/tech-ai, knowledge, vault, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/integratedagent, topic/rename-engine, topic/namespace-migration, topic/repository-migration, agents]
 
 governing_law: "integrity > completeness > fluency > speed > token savings"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
-
 
 
 # AMOS Universal Rename Engine

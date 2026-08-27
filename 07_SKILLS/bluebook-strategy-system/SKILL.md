@@ -1,13 +1,20 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/bluebook-strategy-system
 name: bluebook-strategy-system
 description: Strategy System — strategy and game theory capability. Use when strategic analysis, game theory, or competitive reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability.
 parent_skill: amos-c08-strategy-game-master
 domain: c08
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, bluebook-strategy-system]
+tags: [note, bluebook-strategy-system, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
 
 
@@ -99,3 +106,77 @@ The Bluebook strategy system is an analytical methodology. It does not prove str
 
 ---
 **Links:** [[07_SKILLS_MOC]]
+
+## Related
+
+- [[bluebook-strategy-system_MOC]]
+
+## Examples
+
+- **Scenario**: When analyzing strategic position and competitive landscape
+  - **Input**: A query matching this skill's domain (c08)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When evaluating decisions under uncertainty: expected value, regret
+  - **Input**: A query matching this skill's domain (c08)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When modeling game-theoretic interactions and equilibria
+  - **Input**: A query matching this skill's domain (c08)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the c08 domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[amos-c08-strategy-game-master]]` — routes to this skill when c08 specialization is needed
+- **Peers**: Other skills in the `c08` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/references_MOC.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `[[bluebook-strategy-system_MOC]]` — skill Map of Content
+- `[[amos-c08-strategy-game-master]]` — parent skill
+- `[[bluebook-strategy-system-workflow]]` — corresponding workflow
+- `[[bluebook-strategy-system-agent]]` — corresponding agent
+

@@ -1,8 +1,15 @@
 ---
 title: "L06 Working State MOC"
 type: moc
-tags: [moc, l06-working-state]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE
+tags: [moc, l06-working-state, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L06 Working State — Map of Content
 

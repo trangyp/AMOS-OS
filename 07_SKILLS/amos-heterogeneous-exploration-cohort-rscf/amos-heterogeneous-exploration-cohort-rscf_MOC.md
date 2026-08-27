@@ -1,8 +1,15 @@
 ---
 title: "Amos-Heterogeneous-Exploration-Cohort-Rscf MOC"
 type: moc
-tags: [moc, amos-heterogeneous-exploration-cohort-rs]
+source: 07_SKILLS/amos-heterogeneous-exploration-cohort-rscf
+tags: [moc, amos-heterogeneous-exploration-cohort-rs, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Heterogeneous-Exploration-Cohort-Rscf — Map of Content
 

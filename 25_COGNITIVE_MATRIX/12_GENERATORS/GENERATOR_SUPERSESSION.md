@@ -1,16 +1,6 @@
 ---
-title: GENERATOR SUPERSESSION
-type: note
-tags: [note, 12-generators]
----
-
-
-Below is a **full substantive replacement** for `25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_SUPERSESSION.md`. I am keeping it explicitly `CANDIDATE_CANON / AMOS_MODEL`: it specifies the intended AMOS architecture but does not falsely claim the mechanisms are already implemented or empirically validated.
-
-````markdown
----
-tags:
-  - cognitive_matrix
+title: "GENERATOR SUPERSESSION"
+tags: [- cognitive_matrix, canon/cognitive-matrix]
   - generators
   - supersession
   - versioning
@@ -20,7 +10,15 @@ tags:
   - compatibility
   - rollback
   - rscf
+type: document
+source: 25_COGNITIVE_MATRIX/12_GENERATORS
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Generator Supersession
 
@@ -49,23 +47,11 @@ Supersession is not automatic proof that the successor is universally better.
 
 The fundamental AMOS law is:
 
-\[
-\boxed{
-Supersession
-=
-Governed\ Lineage\ Transition
-}
-\]
+$$\boxed{ Supersession = Governed\ Lineage\ Transition }$$
 
 not:
 
-\[
-\boxed{
-Supersession
-=
-Historical\ Erasure
-}
-\]
+$$\boxed{ Supersession = Historical\ Erasure }$$
 
 A superseded generator remains part of causal and provenance history wherever previous outputs depend upon it.
 
@@ -113,44 +99,23 @@ The artifact prevents generator evolution from becoming an untraceable sequence 
 
 Let:
 
-$$
-G_a
-$$
+$$G_a$$
 
 be an existing generator and:
 
-$$
-G_b
-$$
+$$G_b$$
 
 a candidate successor.
 
 A supersession relation is:
 
-$$
-G_a
-\xrightarrow{S}
-G_b
-$$
+$$G_a \xrightarrow{S} G_b$$
 
-where \(S\) is a governed supersession event.
+where $S$ is a governed supersession event.
 
 The event SHOULD contain sufficient information to reconstruct:
 
-$$
-S =
-(
-Source,
-Successor,
-Reason,
-Evidence,
-Scope,
-Regime,
-Compatibility,
-EffectiveBoundary,
-Governance
-)
-$$
+$$S = ( Source, Successor, Reason, Evidence, Scope, Regime, Compatibility, EffectiveBoundary, Governance )$$
 
 ---
 
@@ -186,9 +151,7 @@ Supersession edges are directional.
 
 If:
 
-$$
-G_a \rightarrow G_b
-$$
+$$G_a \rightarrow G_b$$
 
 then:
 
@@ -205,15 +168,11 @@ The inverse relation must not be confused with equivalence.
 
 The existence of:
 
-$$
-G_a \rightarrow G_b
-$$
+$$G_a \rightarrow G_b$$
 
 does not independently prove:
 
-$$
-Quality(G_b) > Quality(G_a)
-$$
+$$Quality(G_b) > Quality(G_a)$$
 
 for every task, scope, environment, or regime.
 
@@ -259,15 +218,11 @@ G2 supersedes G1 for:
 
 Therefore:
 
-$$
-Superseded(G_1, Domain_A)
-$$
+$$Superseded(G_1, Domain_A)$$
 
 does not imply:
 
-$$
-Superseded(G_1, Domain_B)
-$$
+$$Superseded(G_1, Domain_B)$$
 
 ---
 
@@ -281,7 +236,7 @@ Global supersession SHOULD be rare relative to scoped supersession.
 
 # 9. Regime-Bounded Supersession
 
-A successor may supersede a predecessor only under regime \(R_2\).
+A successor may supersede a predecessor only under regime $R_2$.
 
 Example:
 
@@ -292,15 +247,11 @@ new environment    → G2
 
 Thus:
 
-$$
-G_2 >_S G_1 \mid R_2
-$$
+$$G_2 >_S G_1 \mid R_2$$
 
 does not establish:
 
-$$
-G_2 >_S G_1 \mid R_1
-$$
+$$G_2 >_S G_1 \mid R_1$$
 
 ---
 
@@ -323,11 +274,7 @@ Historical output produced before the boundary remains associated with the histo
 
 Where AMOS uses causal epoch reasoning, supersession MAY bind to epoch:
 
-$$
-E_n
-\rightarrow
-E_{n+1}
-$$
+$$E_n \rightarrow E_{n+1}$$
 
 Example:
 
@@ -337,7 +284,7 @@ epoch:
   effective: E43
 ```
 
-A generator active in \(E42\) is not retroactively rewritten as having been \(G_{new}\).
+A generator active in $E42$ is not retroactively rewritten as having been $G_{new}$.
 
 ---
 
@@ -456,7 +403,7 @@ Historical records must preserve:
 resolved_generator = G1
 ```
 
-rather than retroactively interpreting the historical alias as \(G2\).
+rather than retroactively interpreting the historical alias as $G2$.
 
 ---
 
@@ -500,7 +447,7 @@ G2
  └── corrected propagation
 ```
 
-Affected outputs from \(G1\) require impact analysis.
+Affected outputs from $G1$ require impact analysis.
 
 Unaffected outputs do not automatically become invalid.
 
@@ -554,7 +501,7 @@ G2:
 causal firewall enforced
 ```
 
-Historical \(G1\) conclusions remain governed by the evidence and generator behavior that actually produced them.
+Historical $G1$ conclusions remain governed by the evidence and generator behavior that actually produced them.
 
 ---
 
@@ -564,29 +511,15 @@ Performance alone does not license supersession if integrity regresses.
 
 AMOS law:
 
-$$
-Integrity
->
-Completeness
->
-Fluency
->
-Speed
->
-TokenSavings
-$$
+$$Integrity > Completeness > Fluency > Speed > TokenSavings$$
 
 Therefore:
 
-$$
-Faster(G_2)
-$$
+$$Faster(G_2)$$
 
 is insufficient if:
 
-$$
-Integrity(G_2) < Integrity(G_1)
-$$
+$$Integrity(G_2) < Integrity(G_1)$$
 
 ---
 
@@ -687,11 +620,7 @@ not automatically `VERIFIED`.
 
 Ten benchmark summaries copied from one underlying experiment do not constitute ten independent confirmations.
 
-$$
-Descendants(Source_1)
-\neq
-IndependentSources
-$$
+$$Descendants(Source_1) \neq IndependentSources$$
 
 Supersession evidence SHOULD preserve provenance topology.
 
@@ -748,11 +677,7 @@ when independence matters.
 
 # 29. Sybil-Hardening Law
 
-$$
-RepeatedClaim
-\neq
-IndependentConfirmation
-$$
+$$RepeatedClaim \neq IndependentConfirmation$$
 
 Generator supersession MUST NOT be justified by apparent evidence multiplicity created through duplicated ancestry.
 
@@ -793,11 +718,7 @@ A successor is backward compatible only if relevant predecessor contracts remain
 
 Conceptually:
 
-$$
-Contracts(G_a)
-\subseteq
-SupportedContracts(G_b)
-$$
+$$Contracts(G_a) \subseteq SupportedContracts(G_b)$$
 
 within the declared scope.
 
@@ -873,7 +794,7 @@ G2
  └── D3
 ```
 
-Supersession validation must account for \(D3\).
+Supersession validation must account for $D3$.
 
 ---
 
@@ -887,7 +808,7 @@ If:
 G2 → D3 → D4
 ```
 
-and \(D4\) introduces a material incompatibility, it belongs to the supersession dependency closure.
+and $D4$ introduces a material incompatibility, it belongs to the supersession dependency closure.
 
 ---
 
@@ -925,19 +846,15 @@ Historical seeds SHOULD remain associated with the schema under which they were 
 
 # 41. Seed Replay Across Supersession
 
-Replaying historical seed \(S\) through successor \(G_b\):
+Replaying historical seed $S$ through successor $G_b$:
 
-$$
-G_b(S)
-$$
+$$G_b(S)$$
 
 creates a new generation event.
 
 It does not replace:
 
-$$
-G_a(S)
-$$
+$$G_a(S)$$
 
 in historical lineage.
 
@@ -989,7 +906,7 @@ G2:
   supersedes: G1
 ```
 
-Historical lookup must still resolve \(G1\).
+Historical lookup must still resolve $G1$.
 
 ---
 
@@ -1478,14 +1395,14 @@ G1
 O1 O2 O3 O4
 ```
 
-If only \(O2\) and \(O4\) use the defective path:
+If only $O2$ and $O4$ use the defective path:
 
 ```text
 REVALIDATE O2
 REVALIDATE O4
 ```
 
-not necessarily \(O1\) and \(O3\).
+not necessarily $O1$ and $O3$.
 
 ---
 
@@ -1493,19 +1410,11 @@ not necessarily \(O1\) and \(O3\).
 
 Core law:
 
-$$
-Failure(P)
-\Rightarrow
-Invalidate(Descendants(P))
-$$
+$$Failure(P) \Rightarrow Invalidate(Descendants(P))$$
 
 not:
 
-$$
-Failure(P)
-\Rightarrow
-Invalidate(All)
-$$
+$$Failure(P) \Rightarrow Invalidate(All)$$
 
 This applies to supersession-triggered recovery.
 
@@ -1804,17 +1713,13 @@ Historical lookup should reconstruct the complete chain.
 
 If:
 
-$$
-G_1 \rightarrow G_2
-$$
+$$G_1 \rightarrow G_2$$
 
 and:
 
-$$
-G_2 \rightarrow G_3
-$$
+$$G_2 \rightarrow G_3$$
 
-then \(G_3\) may be the current resolution target.
+then $G_3$ may be the current resolution target.
 
 However, direct historical relation:
 
@@ -1979,11 +1884,7 @@ The record SHOULD preserve the decision authority when known.
 
 Technical superiority does not automatically grant authority to alter canonical routing.
 
-$$
-TechnicalEvidence
-\neq
-GovernanceAuthority
-$$
+$$TechnicalEvidence \neq GovernanceAuthority$$
 
 Both may be required.
 
@@ -2083,11 +1984,7 @@ A successor cannot become admissible by silently dropping constraints that made 
 
 For hard inherited constraints:
 
-$$
-C_{parent}
-\Rightarrow
-C_{successor}
-$$
+$$C_{parent} \Rightarrow C_{successor}$$
 
 unless an authorized governance transition explicitly changes the constraint itself.
 
@@ -2097,7 +1994,7 @@ Generator replacement alone cannot weaken it.
 
 # 113. Scope Firewall
 
-Evidence that G2 performs better on benchmark \(B\) does not establish universal supersession.
+Evidence that G2 performs better on benchmark $B$ does not establish universal supersession.
 
 Valid:
 
@@ -2115,7 +2012,7 @@ G2 supersedes G1 everywhere.
 
 # 114. Regime Firewall
 
-A successor validated in environment \(R_1\) cannot silently supersede a predecessor in \(R_2\).
+A successor validated in environment $R_1$ cannot silently supersede a predecessor in $R_2$.
 
 Cross-regime transfer remains `MODEL` or `CONDITIONAL` until independently validated.
 
@@ -2173,17 +2070,7 @@ It is not universal generator superiority.
 
 Reported latency improvement is environment-dependent.
 
-$$
-Latency(G)
-=
-f(
-hardware,
-load,
-runtime,
-configuration,
-dependencies
-)
-$$
+$$Latency(G) = f( hardware, load, runtime, configuration, dependencies )$$
 
 Therefore latency-based supersession must preserve environment scope.
 
@@ -2243,13 +2130,7 @@ The supersession conclusion cannot exceed its weakest load-bearing premise unles
 
 Conceptually:
 
-$$
-Confidence(S)
-\leq
-\min(
-Confidence(P_1),...,Confidence(P_n)
-)
-$$
+$$Confidence(S) \leq \min( Confidence(P_1),...,Confidence(P_n) )$$
 
 subject to the AMOS confidence model.
 
@@ -2405,7 +2286,7 @@ should be surfaced.
 
 # 129. Causal Epoch Finality
 
-Once a supersession transition is finalized for causal epoch \(E_n\), historical state for earlier epochs SHOULD remain stable unless a formal correction event is appended.
+Once a supersession transition is finalized for causal epoch $E_n$, historical state for earlier epochs SHOULD remain stable unless a formal correction event is appended.
 
 History should be corrected through lineage, not silently rewritten.
 
@@ -3158,45 +3039,15 @@ A successor receives only the authority, scope, regime, and confidence establish
 
 Therefore:
 
-$$
-\boxed{
-Newer
-\neq
-UniversallyBetter
-}
-$$
+$$\boxed{ Newer \neq UniversallyBetter }$$
 
-$$
-\boxed{
-Superseded
-\neq
-Erased
-}
-$$
+$$\boxed{ Superseded \neq Erased }$$
 
-$$
-\boxed{
-Successor
-\neq
-RetroactiveAuthor
-}
-$$
+$$\boxed{ Successor \neq RetroactiveAuthor }$$
 
-$$
-\boxed{
-BenchmarkGain
-\neq
-UniversalSupersession
-}
-$$
+$$\boxed{ BenchmarkGain \neq UniversalSupersession }$$
 
-$$
-\boxed{
-Supersession
-=
-Governed,\ Scoped,\ ProvenancePreserving\ LineageTransition
-}
-$$
+$$\boxed{ Supersession = Governed,\ Scoped,\ ProvenancePreserving\ LineageTransition }$$
 
 When evidence cannot discriminate between successors:
 
@@ -3224,11 +3075,7 @@ rather than rewriting the whole lineage.
 
 And when optimization conflicts with integrity:
 
-$$
-\boxed{
-Integrity\ Wins
-}
-$$
+$$\boxed{ Integrity\ Wins }$$
 
 ---
 

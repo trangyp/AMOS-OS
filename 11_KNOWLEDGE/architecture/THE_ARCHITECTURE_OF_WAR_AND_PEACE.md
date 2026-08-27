@@ -1,12 +1,15 @@
 ---
 title: THE ARCHITECTURE OF WAR AND PEACE
-tags: [architecture, design, structure]
+tags: [architecture, design, structure, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/architecture
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: architecture_design
+
 ---
-
-
-
 
 
 # THE ARCHITECTURE OF WAR AND PEACE
@@ -443,3 +446,6 @@ E. Mapping Index (Optional)
 
 ---
 **MOC:** [[ARCHITECTURE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

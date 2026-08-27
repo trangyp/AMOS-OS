@@ -1,8 +1,15 @@
 ---
 title: "10 Rscf MOC"
 type: moc
-tags: [moc, 10-rscf]
+source: 16_SCHEMAS/10_RSCF
+tags: [moc, 10-rscf, canon/schema]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 10 Rscf — Map of Content
 

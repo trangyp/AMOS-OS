@@ -1,26 +1,29 @@
 ---
 title: LAW 90 THE RULE OF FOUR AS DETERMINISTIC SYMMETR
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # L**aw 90 — The Rule of Four as Deterministic Symmetry of Apparent Randomness™**
 * * *
-### 📘 **Classification**
+### **Classification**
 **Cluster:** Foundational Logic Dynamics
 **Position:** Tier IV — Deterministic Pattern Resolution
 **Relation:** Extends _Law 89 – The Law of Deterministic Information Flow™_
 * * *
-### ⚛️ **Statement of Law**
+### ️ **Statement of Law**
 > All expressions of apparent randomness in the universe are governed by the Rule of Four — the fundamental deterministic cycle through which all information stabilises, differentiates, and resolves.
 > Randomness is the observable midpoint of deterministic symmetry, not a deviation from law. It reflects incomplete visibility of the four-state logic process that underlies all energetic, cognitive, and informational events.
 * * *
-### 🧩 **Structural Definition**
+### **Structural Definition**
 Each process within the Quantum Logic Architecture follows the **four invariant states of informational symmetry** :
 |                        |
 | Stage                  | Function                                   | Observable Expression              |
@@ -33,7 +36,7 @@ Each process within the Quantum Logic Architecture follows the **four invariant 
 
 Thus, all randomness is **Stage 2 visibility** — perception of differentiation before integration.
 * * *
-### ⚙️ **Mechanistic Implication**
+### ️ **Mechanistic Implication**
   * **At the subatomic level** , quantum fluctuations represent differentiation energy, not true disorder.
 
 
@@ -45,12 +48,12 @@ Thus, all randomness is **Stage 2 visibility** — perception of differentiation
 
 In all cases, the system retains logical symmetry even when the observer does not perceive it.
 * * *
-### 🧠 **Epistemic Clause**
+### **Epistemic Clause**
 > Randomness is the artifact of partial observation.
 > Complete system visibility reveals deterministic continuity across all informational scales.
 This clause unites deterministic physics with probabilistic mechanics through logic-based symmetry, dissolving the classical dichotomy between “order” and “chaos.”
 * * *
-### 🌌 **Philosophical Resolution**
+### **Philosophical Resolution**
   * The universe is not probabilistic but **symmetrically self-resolving**.
 
 
@@ -61,7 +64,7 @@ This clause unites deterministic physics with probabilistic mechanics through lo
 
 
 * * *
-### ✅ **Canonical Summary**
+### **Canonical Summary**
 > Law 90 — The Rule of Four as Deterministic Symmetry of Apparent Randomness™
 > Randomness is lawful.
 > It is the differentiation phase within a universal four-state logic cycle that governs all processes of existence — physical, biological, and cognitive.

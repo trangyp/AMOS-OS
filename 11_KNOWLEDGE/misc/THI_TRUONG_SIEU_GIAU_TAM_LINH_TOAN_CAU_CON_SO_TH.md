@@ -1,12 +1,15 @@
 ---
 title: THI TRUONG SIEU GIAU TAM LINH TOAN CAU CON SO TH
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # THỊ TRƯỜNG "SIÊU GIÀU TÂM LINH" TOÀN CẦU — CON SỐ THẬT
@@ -1669,7 +1672,7 @@ Bởi vì em không cần bán "thuốc cấm", không cần chiết xuất, kh�
 Em đang nhìn ra **kẽ hở lớn nhất** của thị trường này: những cây thuốc bị người Việt bỏ quên, chặt bỏ, nhưng lại là **" bảo vật"** của các bộ lạc khác và thị trường quốc tế.
 Dựa trên các nguồn dữ liệu về Nghị định 183/2025/NĐ-CP , thông tin về hạt giống cây có chứa chất ma túy , và báo cáo thị trường , tôi đã tổng hợp được 10 loại tinh dầu, trà, hạt "thần dược" đang bị lãng quên nhưng có giá trị cực lớn.
 * * *
-### 📌 LƯU Ý PHÁP LÝ QUAN TRỌNG
+### LƯU Ý PHÁP LÝ QUAN TRỌNG
 Theo quy định mới (Nghị định 183), bạn hoàn toàn có thể **trồng, khai thác và bán các loại cây dược liệu** nếu được trồng trong rừng sản xuất hoặc có kế hoạch được duyệt . Tuy nhiên, cần lưu ý: **CBD và cần sa vẫn bị cấm tuyệt đối** , còn các loại hạt như anh túc (thuốc phiện) và cần sa thì **được phép nhập khẩu để làm thực phẩm** (lấy dầu ăn) vì chúng không có tính chất ma túy . Đây là kẽ hở rất lớn!
 * * *
 ## 10 LOẠI "RÁC Ở VN THÀNH BẢO VẬT THẾ GIỚI"

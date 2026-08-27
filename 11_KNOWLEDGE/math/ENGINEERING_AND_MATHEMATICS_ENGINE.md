@@ -1,15 +1,20 @@
 ---
 title: ENGINEERING AND MATHEMATICS ENGINE
 type: math
+source: 11_KNOWLEDGE/math
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: engineering-and-mathematics-engine
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/engineering-and-mathematics-engine, math]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: mathematical_model
 ---
-
-
+# ENGINEERING AND MATHEMATICS ENGINE
 
 ```json
 {

@@ -1,8 +1,15 @@
 ---
 title: "L01 Sensing Observation MOC"
 type: moc
-tags: [moc, l01-sensing-observation]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
+tags: [moc, l01-sensing-observation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L01 Sensing Observation — Map of Content
 

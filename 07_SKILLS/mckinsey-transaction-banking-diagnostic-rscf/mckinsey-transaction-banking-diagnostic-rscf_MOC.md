@@ -1,8 +1,15 @@
 ---
 title: "Mckinsey-Transaction-Banking-Diagnostic-Rscf MOC"
 type: moc
-tags: [moc, mckinsey-transaction-banking-diagnostic-]
+source: 07_SKILLS/mckinsey-transaction-banking-diagnostic-rscf
+tags: [moc, mckinsey-transaction-banking-diagnostic-, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Mckinsey-Transaction-Banking-Diagnostic-Rscf — Map of Content
 

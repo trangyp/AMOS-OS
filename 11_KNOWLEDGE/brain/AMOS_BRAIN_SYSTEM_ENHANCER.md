@@ -1,11 +1,15 @@
 ---
 title: AMOS BRAIN SYSTEM ENHANCER
-tags: [brain, cognitive, neural]
+tags: [brain, cognitive, neural, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/brain
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
+
 ---
-
-
 
 
 # -*- coding: utf-8 -*-
@@ -77,13 +81,13 @@ class AMOSBrainSystemEnhancer:
         self.manual_fix_patterns = {
             "syntax_errors": [
                 (r'from\s+(\w+):import\s+(\w+)', r'from \1 import \2'),
-                (r'(\w+)\s*\[\s*\]', r'Pattern fixed'),
-                (r'(\w+)\s*\(\s*\)', r'Pattern fixed'),
+                (r'(\w+)\s*$$\s*$$', r'Pattern fixed'),
+                (r'(\w+)\s*$\s*$', r'Pattern fixed'),
                 (r'\{\{\{\{', '#!/usr/bin/env python3\n'),
                 (r'\}\}\}\}', ''),
                 (r'(\w+)\s*:\s*:\s*$', r'\1'),
-                (r'class\s+(\w+)\s*\)\s*:', r'class \1:'),
-                (r'def\s+(\w+)\s*\)\s*:', r'def \1:'),
+                (r'class\s+(\w+)\s*$\s*:', r'class \1:'),
+                (r'def\s+(\w+)\s*$\s*:', r'def \1:'),
             ],
             "import_fixes": [
                 (r'import\s+(\w+)', r'Import pattern fixed'),

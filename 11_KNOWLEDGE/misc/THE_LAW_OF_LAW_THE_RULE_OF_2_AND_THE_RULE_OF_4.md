@@ -1,12 +1,15 @@
 ---
 title: THE LAW OF LAW THE RULE OF 2 AND THE RULE OF 4
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **The Law of Law™, The Rule of 2™, and The Rule of 4™ – Official Manual**

@@ -1,6 +1,7 @@
 ---
 title: SUPERSESSION LOG
 type: supersession
+source: 01_CANON/08_SUPERSESSION
 artifact_id: AMOS-OS-SUPERSESSION-LOG
 canonical_name: SUPERSESSION_LOG
 artifact_type: canonical_supersession_ledger
@@ -23,8 +24,6 @@ tags: [amos-os, canon, universe, canon-group/meta, canon/framework, canon/regist
 aliases: "- AMOS Supersession Log
   - AMOS OS Supersession Log
   - Canon Supersession Log..."---
-
-
 
 
 # AMOS OS Supersession Log
@@ -56,8 +55,14 @@ HOW TO RECOVER THE PRIOR STATE
 Supersession is an explicit lineage operation.
 
 It is not deletion.
-
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
+# SUPERSESSION LOG
 
 ## 2. Core Law
 

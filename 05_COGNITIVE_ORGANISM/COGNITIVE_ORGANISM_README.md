@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE ORGANISM README
 type: cognitive
-tags: [amos_os, 05_cognitive_organism]
+source: 05_COGNITIVE_ORGANISM
+tags: [amos_os, 05_cognitive_organism, canon/cognitive]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # COGNITIVE ORGANISM README
@@ -60,3 +65,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[05_COGNITIVE_ORGANISM_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Geometric-Causal-Models-Rscf MOC"
 type: moc
-tags: [moc, arxiv-geometric-causal-models-rscf]
+source: 07_SKILLS/arxiv-geometric-causal-models-rscf
+tags: [moc, arxiv-geometric-causal-models-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Geometric-Causal-Models-Rscf — Map of Content
 

@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L17 DECISION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, primitives, l17_decision, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L17_DECISION
+tags: [cognitive_matrix, primitives, l17_decision, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L17_DECISION — Decision Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L17_DECISION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

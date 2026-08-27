@@ -1,12 +1,15 @@
 ---
 title: KHUNG TRANG HOC LANGUAGE
-tags: [trang, framework, reality]
+tags: [trang, framework, reality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
 
 
 # Khung Trang học language
@@ -448,7 +451,7 @@ Hệ thống nhập vai song ngữ (Việt-Anh) dạng trắc nghiệm hậu qu�
 Đây là **một thể loại mới của giáo dục tương tác** : Hệ điều hành học tập dựa trên bản sắc, mô phỏng hậu quả xã hội và thích ứng với hệ thần kinh con người.
 Nó có thể áp dụng cho ngôn ngữ, kỹ năng mềm, đào tạo doanh nghiệp và chuyển đổi bản sắc cá nhân.
 * * *
-**✅ Phân tích chi tiết: Nervous System Adaptation**
+**Phân tích chi tiết: Nervous System Adaptation**
 ### **1\. Định nghĩa**
 **Nervous System Adaptation** là trụ cột giúp hệ thống Lumina OS **điều chỉnh thời gian thực theo trạng thái thần kinh** của người học, thay vì ép người học phải thích nghi với hệ thống.
 Mục tiêu: Giữ người học ở **vùng tối ưu học tập** (Optimal Learning Zone) – nơi não bộ học nhanh nhất, ghi nhớ sâu nhất và duy trì động lực lâu dài.

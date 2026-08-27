@@ -1,9 +1,14 @@
 ---
 title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX RSCF
 type: cognitive
-tags: [cognitive_matrix, primitives, l02_attention, note]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
+tags: [cognitive_matrix, primitives, l02_attention, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 The direct `L02_ATTENTION` source currently exposes only the placeholder: it defines L02 as **attention allocation / budgeting scarce reasoning-observation resources** and explicitly requires **RSCF/GMEF links, provenance, repair, tests, governance, freshness, and version lineage** before promotion. No canonical `RSCF.md` was recovered, so the detailed capsule below is intentionally classified as `AMOS_MODEL`, with unresolved canon/runtime fields left visible. 

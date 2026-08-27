@@ -3,10 +3,14 @@ title: AMOS 21 DOMAIN AGENT V0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-21-domain-agent-v0, amos-general]
 type: data
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
-
+# AMOS 21 DOMAIN AGENT V0
 
 ```json
 {

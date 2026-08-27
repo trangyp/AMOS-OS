@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L03 PERCEPT FORMATION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, primitives, l03_percept_formation, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
+tags: [cognitive_matrix, primitives, l03_percept_formation, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L03_PERCEPT_FORMATION — Percept formation Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L03_PERCEPT_FORMATION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

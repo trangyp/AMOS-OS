@@ -1,8 +1,15 @@
 ---
 title: "06 World Model MOC"
 type: moc
-tags: [moc, 06-world-model]
+source: 05_COGNITIVE_ORGANISM/06_WORLD_MODEL
+tags: [moc, 06-world-model, canon/cognitive]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 06 World Model — Map of Content
 

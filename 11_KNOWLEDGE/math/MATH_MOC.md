@@ -1,8 +1,15 @@
 ---
 title: "Math MOC"
 type: moc
-tags: [moc, math]
+source: 11_KNOWLEDGE/math
+tags: [moc, math, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: mathematical_model
 ---
+
 
 # Math — Map of Content
 

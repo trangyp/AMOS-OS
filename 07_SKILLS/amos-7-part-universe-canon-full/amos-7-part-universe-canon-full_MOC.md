@@ -1,8 +1,15 @@
 ---
 title: "Amos-7-Part-Universe-Canon-Full MOC"
 type: moc
-tags: [moc, amos-7-part-universe-canon-full]
+source: 07_SKILLS/amos-7-part-universe-canon-full
+tags: [moc, amos-7-part-universe-canon-full, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-7-Part-Universe-Canon-Full — Map of Content
 

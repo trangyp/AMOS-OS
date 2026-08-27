@@ -1,8 +1,15 @@
 ---
 title: "11 C01 Meta Logic MOC"
 type: moc
-tags: [moc, 11-c01-meta-logic]
+source: 21_DOMAINS/11_C01_META_LOGIC
+tags: [moc, 11-c01-meta-logic, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 11 C01 Meta Logic — Map of Content
 

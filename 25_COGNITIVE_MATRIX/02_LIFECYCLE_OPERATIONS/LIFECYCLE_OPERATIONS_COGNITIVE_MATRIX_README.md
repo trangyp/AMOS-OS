@@ -1,10 +1,14 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: lifecycle
-tags: [cognitive_matrix, matrix, cognition]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS
+tags: [cognitive_matrix, matrix, cognition, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
-
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX README
@@ -58,3 +62,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[02_LIFECYCLE_OPERATIONS_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

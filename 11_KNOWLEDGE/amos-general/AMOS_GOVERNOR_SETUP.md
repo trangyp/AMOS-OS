@@ -1,20 +1,24 @@
 ---
 title: AMOS GOVERNOR SETUP
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
 
 
 # AMOS Governor Setup - Complete Implementation Report
 
-## 🎯 **MISSION ACCOMPLISHED - ALL PHASES COMPLETE**
+## **MISSION ACCOMPLISHED - ALL PHASES COMPLETE**
 
 The AMOS Governor setup has been successfully implemented with all 8 phases completed. The system now provides a 24/7 daemon with deterministic agent auto-registration, strict write governance via `Kernel.persist`, and SOA agent operation.
 
-## ✅ **PHASE COMPLETION SUMMARY**
+## **PHASE COMPLETION SUMMARY**
 
 ### **PHASE 0: Repository Scan** ✅ COMPLETED
 - **Objective**: Full repository scan to identify canonical runtime package root, existing Kernel/Router/Registry, tools/tests folders, log dirs, and governance rules storage
@@ -96,7 +100,7 @@ The AMOS Governor setup has been successfully implemented with all 8 phases comp
   - Created migration reporting and statistics
   - Integrated migration command into CLI interface
 
-## 🏗️ **SYSTEM ARCHITECTURE**
+## ️ **SYSTEM ARCHITECTURE**
 
 ### **Core Components**
 1. **Kernel (`kernel.py`)**: Central orchestrator with governance enforcement
@@ -121,7 +125,7 @@ The AMOS Governor setup has been successfully implemented with all 8 phases comp
 2. **CLI Commands (`governor_commands.py`)**: System management interface
 3. **Migration Tool (`migration_tool.py`)**: Legacy system migration
 
-## 🚀 **OPERATIONAL CAPABILITIES**
+## **OPERATIONAL CAPABILITIES**
 
 ### **24/7 Daemon Operations**
 - **Biological Cycle Management**: SENSE → HOMEOSTASIS → IMMUNE → LEARN → ACT → SLEEP
@@ -147,7 +151,7 @@ The AMOS Governor setup has been successfully implemented with all 8 phases comp
 - **Migration Support**: Legacy system migration capabilities
 - **Testing Framework**: Comprehensive test coverage
 
-## 📊 **SYSTEM METRICS**
+## **SYSTEM METRICS**
 
 ### **Component Counts**
 - **Core Components**: 5 (Kernel, Router, Registry, ActionGate, FreezeZoneEnforcer)
@@ -171,7 +175,7 @@ The AMOS Governor setup has been successfully implemented with all 8 phases comp
 - **Validation Rules**: 12+ governance enforcement rules
 - **Audit Points**: All write operations logged and tracked
 
-## 🎯 **KEY ACHIEVEMENTS**
+## **KEY ACHIEVEMENTS**
 
 ### **1. Complete 24/7 Daemon Implementation**
 ✅ Biological cycle phases with deterministic scheduling
@@ -203,7 +207,7 @@ The AMOS Governor setup has been successfully implemented with all 8 phases comp
 ✅ Audit logging across all operations
 ✅ Zero direct filesystem writes outside governance
 
-## 🛡️ **SECURITY AND GOVERNANCE**
+## ️ **SECURITY AND GOVERNANCE**
 
 ### **Freeze Zone Protection**
 - **Protected Files**: 7 core spine files with SHA256 verification
@@ -223,7 +227,7 @@ The AMOS Governor setup has been successfully implemented with all 8 phases comp
 - **Resource Management**: Memory and execution time limits
 - **Emergency Protocols**: Bypass procedures for critical situations
 
-## 🚀 **READY FOR PRODUCTION**
+## **READY FOR PRODUCTION**
 
 The AMOS Governor system is now **production-ready** with:
 
@@ -236,7 +240,7 @@ The AMOS Governor system is now **production-ready** with:
 ✅ **Audit logging** with complete traceability
 ✅ **Security enforcement** with multi-layer validation
 
-## 📋 **USAGE EXAMPLES**
+## **USAGE EXAMPLES**
 
 ### **Start the AMOS Daemon**
 ```bash
@@ -269,7 +273,7 @@ python governor_commands.py migrate-json
 python governor_commands.py create-samples
 ```
 
-## 🎉 **MISSION COMPLETE**
+## **MISSION COMPLETE**
 
 The AMOS Governor setup has achieved **complete success** with all 8 phases implemented and operational. The system now provides:
 

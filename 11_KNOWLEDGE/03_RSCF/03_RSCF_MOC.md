@@ -1,8 +1,15 @@
 ---
 title: "03 Rscf MOC"
 type: moc
-tags: [moc, 03-rscf]
+source: 11_KNOWLEDGE/03_RSCF
+tags: [moc, 03-rscf, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # 03 Rscf — Map of Content
 

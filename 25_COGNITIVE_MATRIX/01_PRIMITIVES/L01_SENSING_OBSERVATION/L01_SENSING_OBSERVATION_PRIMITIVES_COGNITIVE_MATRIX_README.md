@@ -1,9 +1,14 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX README
 type: cognitive
-tags: [cognitive_matrix, primitives, l01_sensing_observation, readme]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
+tags: [cognitive_matrix, primitives, l01_sensing_observation, readme, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 Here is the full `L01_SENSING_OBSERVATION/README.md` content to paste. I’m keeping the README as the **integration/index contract** for the L01 primitive rather than duplicating every sibling file in full.

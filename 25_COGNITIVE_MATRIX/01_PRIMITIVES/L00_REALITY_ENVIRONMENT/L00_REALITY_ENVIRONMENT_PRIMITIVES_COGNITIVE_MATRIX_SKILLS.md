@@ -1,8 +1,15 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Skills"
 type: skill
-tags: [amos, reality-environment, skills, capability, routing, evidence, provenance, rscf, governance, hml, control-plane, validation]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
+tags: [amos, reality-environment, skills, capability, routing, evidence, provenance, rscf, governance, hml, control-plane, validation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L00_REALITY_ENVIRONMENT — Skills
 

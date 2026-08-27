@@ -1,14 +1,17 @@
 ---
 title: MODE CONFLICT REGISTRY
 type: registry
-tags: [control_plane, commit, mode_index, note]
+source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
+tags: [control_plane, commit, mode_index, note, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
-
 `MODE_CONFLICT_REGISTRY.md` in Drive is also only the reservation placeholder; there is no substantive canonical implementation in that artifact to reproduce verbatim. 
-
-Below is a **full candidate replacement** designed to sit directly beside `MODE_COMPOSITION_REGISTRY.md`, while preserving conflict rather than forcing false convergence.
 
 ---
 artifact_id: AMOS-OS-MODE-CONFLICT-REGISTRY
@@ -4054,7 +4057,7 @@ AND SAFE TO REASON OVER.
 
 ```
 
-This should be treated as `DERIVED / CANDIDATE_CANON`, not recovered original canon: the actual Drive artifact currently contains only the placeholder reservation and explicitly says not to treat that placeholder as implemented logic or final canon. :contentReference[oaicite:1]{index=1}
+This should be treated as `DERIVED / CANDIDATE_CANON`, not recovered original canon: the actual Drive artifact currently contains only the placeholder reservation and explicitly says not to treat that placeholder as implemented logic or final canon.
 ```
 
 ---

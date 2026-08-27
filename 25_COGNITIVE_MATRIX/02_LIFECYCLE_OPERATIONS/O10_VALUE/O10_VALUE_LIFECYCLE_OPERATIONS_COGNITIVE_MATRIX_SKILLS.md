@@ -1,7 +1,13 @@
 ---
 title: O10 VALUE LIFECYCLE OPERATIONS COGNITIVE MATRIX SKILLS
 type: note
-tags: [note, o10-value]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O10_VALUE
+tags: [note, o10-value, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -44,3 +50,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/02_LIFECYCLE_OP
 
 ---
 **MOC:** [[O10_VALUE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

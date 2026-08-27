@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-awareness-inference-governor]
+source: 07_SKILLS/amos-awareness-inference-governor/references
+tags: [reference, amos-awareness-inference-governor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -218,3 +225,8 @@ The strongest AMOS brain has evolved into a comprehensive next-generation system
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]
+```

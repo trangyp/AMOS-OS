@@ -1,17 +1,35 @@
 ---
 title: "06 Schedules MOC"
 type: moc
-tags: [moc, 06-schedules]
+source: 20_OPERATIONS/06_SCHEDULES
+tags: [moc, 06-schedules, canon/operations]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-# 06 Schedules — Map of Content
+# 06 Schedules MOC
 
-**Path:** `20_OPERATIONS/06_SCHEDULES`
-**Files:** 1 | **Subdirectories:** 0
+## Overview
 
-## Files
+This moc file is part of the **20_OPERATIONS/06_SCHEDULES** segment of the AMOS OS vault.
 
-- [[SCHEDULES_OPERATIONS_README]]
+## Context
+
+- **Location**: `20_OPERATIONS/06_SCHEDULES/06_SCHEDULES_MOC.md`
+- **Type**: moc
+- **Parent directory**: 06_SCHEDULES
+
+## RSCF Classification
+
+This file is classified under the AMOS RSCF epistemic framework. See frontmatter for state, claim class, provenance, and scope.
+
+## Related
+
+- [[AMOS_HOME]]
+- [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
-**Parent:** [[20_OPERATIONS_MOC]]
+**MOC:** [[06_SCHEDULES_MOC]]

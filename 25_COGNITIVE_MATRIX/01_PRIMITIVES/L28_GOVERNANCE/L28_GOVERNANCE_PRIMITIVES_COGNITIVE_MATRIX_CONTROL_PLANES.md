@@ -1,7 +1,13 @@
 ---
 title: L28 GOVERNANCE PRIMITIVES COGNITIVE MATRIX CONTROL PLANES
 type: note
-tags: [note, l28-governance]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L28_GOVERNANCE
+tags: [note, l28-governance, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -45,3 +51,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L
 
 ---
 **MOC:** [[L28_GOVERNANCE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

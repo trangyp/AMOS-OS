@@ -1,8 +1,15 @@
 ---
 title: "Amos-Representation-Aware-Bug-Localization-Rscf MOC"
 type: moc
-tags: [moc, amos-representation-aware-bug-localizati]
+source: 07_SKILLS/amos-representation-aware-bug-localization-rscf
+tags: [moc, amos-representation-aware-bug-localizati, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Representation-Aware-Bug-Localization-Rscf — Map of Content
 

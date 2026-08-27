@@ -1,8 +1,15 @@
 ---
 title: sensitivity falsifiers
 type: reference
-tags: [reference, amos-causal-reasoning-master]
+source: 07_SKILLS/amos-causal-reasoning-master/references
+tags: [reference, amos-causal-reasoning-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Sensitivity Falsifiers
 

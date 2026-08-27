@@ -1,6 +1,7 @@
 ---
 title: CANON ALIASES
 type: canon
+source: 01_CANON/06_GLOSSARY
 artifact_id: AMOS-OS-ALIASES
 canonical_name: ALIASES
 artifact_type: canonical_registry
@@ -21,8 +22,6 @@ aliases: "- AMOS Alias Registry
   - AMOS Identity Alias Registry
   - Canonical Alias Registry
   - Alias Resolu..."---
-
-
 
 
 # AMOS OS Alias Registry
@@ -61,8 +60,13 @@ SEMANTIC SIMILARITY != IDENTITY
 ```
 
 This registry exists because AMOS artifacts can evolve, move, be renamed, acquire abbreviations, or retain historical references while their canonical identity and provenance must remain recoverable.
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 2. Canonical Identity Law
 

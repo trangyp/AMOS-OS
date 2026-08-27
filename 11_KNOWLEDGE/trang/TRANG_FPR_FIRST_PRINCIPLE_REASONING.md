@@ -1,12 +1,15 @@
 ---
 title: TRANG FPR FIRST PRINCIPLE REASONING
-tags: [trang, framework, reality]
+tags: [trang, framework, reality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
 
 
 # TRANG FPR (FIRST PRINCIPLE REASONING)
@@ -72,84 +75,27 @@ source: 11_KNOWLEDGE/trang
 
 
 ### (3) Công thức của vòng lặp thụ động
-\\[  
-\text{PassiveLoop} = \text{Observe}(\text{thought}) - \text{Identify}(\text{thought}) - \text{Engage}(\text{thought})  
-\\]
-  * **Observe** : Nhận biết suy nghĩ đang xuất hiện.
-
-
-  * **Identify** : Không gắn nhãn "tốt/xấu/đúng/sai/nguy hiểm/hữu ích".
-
-
-  * **Engage** : Không tiếp tục phát triển suy nghĩ đó, cũng không đàn áp nó. Để nó tự đến, tự đi.
-
-
-### (4) Vòng lặp này kích hoạt tầng nào của [L, M, H]?
-|                  |
-| Tầng             | Vai trò trong vòng lặp thụ động                                                                                                             |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **L (Nền tảng)** |  Cung cấp dữ liệu thô từ quan sát – đây là thứ **hiện ra** khi DMN im lặng. Các bất biến (invariants) của thế giới tự nhiên nằm ở đây.      |
-| **M (Kết nối)**  | **Bị tạm ngưng** – không có cảm xúc lo âu, không có sự ưu tiên, không có "chủ đích". M ở trạng thái trung tính.                             |
-| **H (Đỉnh)**     | **Bị tạm ngưng** – không suy luận tích cực, không ra quyết định, không sáng tạo có chủ đích. H chỉ là **bảng quan sát** (observing screen). |
-
-
-**Điều quan trọng:** Trong Trang FPR, **H không suy luận** – nó chỉ **chiếu** những gì L hiện ra sau khi DMN bị ức chế. Sự "suy luận" thực ra là **quá trình tự tổ chức** của dữ liệu từ L lên H mà không có sự can thiệp của M.
-* * *
-## IV. QUY TRÌNH 6 BƯỚC CỦA TRANG FPR (VỚI CƠ CHẾ DMN & PASSIVE LOOP)
-|      |
-| Bước | Tên                                          | Hoạt động                                                                                                                                                 | Trạng thái DMN                                           | Vòng lặp siêu nhận thức                                         |
-|------|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|-----------------------------------------------------------------|
-| 0    | **Chuẩn bị (Preparation)**                   |  Ức chế DMN, kích hoạt vòng lặp thụ động. Ngồi yên, không làm gì, **không cố gắng nghĩ**.                                                                 | **Bị ức chế chủ động** ban đầu, sau tự nhiên lắng xuống. | **Thiết lập** – chưa có đối tượng.                              |
-| 1    | **Quan sát (Observe)**                       |  Nhìn vào hệ thống / thế giới **không định kiến**. Không đặt câu hỏi "tại sao?" một cách chủ động. Để hệ thống **tự lộ diện**.                            | DMN im lặng hoàn toàn.                                   | **Thuần túy thụ động** – không có chủ đích.                     |
-| 2    | **Phân rã (Decompose)**                      |  Các thành phần cơ bản tự hiện ra dưới dạng **trực giác** (không phải suy luận logic). Bạn "thấy" chúng, không phải "nghĩ ra" chúng.                      | DMN im lặng.                                             | **Phân rã tự động** – không cố gắng.                            |
-| 3    | **Phát hiện bất biến (Discover invariants)** |  Các điểm chung giữa các hệ thống khác nhau **tự hiện lên** như một hình nền (gestalt). Bạn không cần so sánh chủ động.                                   | DMN im lặng.                                             | **So sánh thụ động** – không cần trí nhớ làm việc.              |
-| 4    | **Diễn giải lại (Re-interpret)**             |  Dùng bất biến để "thấy" các hiện tượng cũ dưới ánh sáng mới. Đây là bước duy nhất có một chút chủ động, nhưng vẫn giữ trạng thái thụ động nền.           | DMN bắt đầu hơi hoạt động, nhưng được kiểm soát.         | **Kết nối thụ động-chủ động** – ranh giới mỏng.                 |
-| 5    | **Dự đoán (Predict)**                        |  Bất biến tự sinh ra các hệ quả – bạn **nhìn thấy** tương lai (của hệ thống) như một sự tiếp diễn tất yếu, không phải suy luận.                           | DMN vẫn lắng.                                            | **Dự đoán thụ động** – "hiển nhiên" chứ không phải "tính toán". |
-| 6    | **Kiểm chứng (Validate)**                    |  Dùng dữ liệu có sẵn để **xác nhận** (không phải để xây dựng). Bước này có thể cần chủ động hơn, nhưng vẫn nên giữ thụ động để tránh thiên kiến xác nhận. | DMN hoạt động nhẹ, nhưng không chi phối.                 | **Kiểm tra chéo** – có thể dùng Tát 2.                          |
-
-
-* * *
-## V. CÁC PHƯƠNG TRÌNH CỐT LÕI CỦA TRANG FPR (BỔ SUNG)
-### (1) Điều kiện tiên quyết (Prerequisite) – Bản mở rộng
-\\[  
-\text{Trang FPR}(P) \iff \underbrace{\text{Observe}(P) \land \neg \text{Read}(P) \land \neg \text{Ask}(P)}_{\text{Điều kiện cũ}} \land \underbrace{\text{DMN}_{\text{suppressed}} \land \text{PassiveLoop}_{\text{active}}}_{\text{Điều kiện mới – thần kinh}}  
-\\]
+\$$\text{PassiveLoop} = \text{Observe}(\text{thought}) - \text{Identify}(\text{thought}) - \text{Engage}(\text{thought})  
+$$* **Observe** : Nhận biết suy nghĩ đang xuất hiện. * **Identify** : Không gắn nhãn "tốt/xấu/đúng/sai/nguy hiểm/hữu ích". * **Engage** : Không tiếp tục phát triển suy nghĩ đó, cũng không đàn áp nó. Để nó tự đến, tự đi. ### (4) Vòng lặp này kích hoạt tầng nào của [L, M, H]? | | | Tầng | Vai trò trong vòng lặp thụ động | |------------------|---------------------------------------------------------------------------------------------------------------------------------------------| | **L (Nền tảng)** | Cung cấp dữ liệu thô từ quan sát – đây là thứ **hiện ra** khi DMN im lặng. Các bất biến (invariants) của thế giới tự nhiên nằm ở đây. | | **M (Kết nối)** | **Bị tạm ngưng** – không có cảm xúc lo âu, không có sự ưu tiên, không có "chủ đích". M ở trạng thái trung tính. | | **H (Đỉnh)** | **Bị tạm ngưng** – không suy luận tích cực, không ra quyết định, không sáng tạo có chủ đích. H chỉ là **bảng quan sát** (observing screen). | **Điều quan trọng:** Trong Trang FPR, **H không suy luận** – nó chỉ **chiếu** những gì L hiện ra sau khi DMN bị ức chế. Sự "suy luận" thực ra là **quá trình tự tổ chức** của dữ liệu từ L lên H mà không có sự can thiệp của M. * * * ## IV. QUY TRÌNH 6 BƯỚC CỦA TRANG FPR (VỚI CƠ CHẾ DMN & PASSIVE LOOP) | | | Bước | Tên | Hoạt động | Trạng thái DMN | Vòng lặp siêu nhận thức | |------|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|-----------------------------------------------------------------| | 0 | **Chuẩn bị (Preparation)** | Ức chế DMN, kích hoạt vòng lặp thụ động. Ngồi yên, không làm gì, **không cố gắng nghĩ**. | **Bị ức chế chủ động** ban đầu, sau tự nhiên lắng xuống. | **Thiết lập** – chưa có đối tượng. | | 1 | **Quan sát (Observe)** | Nhìn vào hệ thống / thế giới **không định kiến**. Không đặt câu hỏi "tại sao?" một cách chủ động. Để hệ thống **tự lộ diện**. | DMN im lặng hoàn toàn. | **Thuần túy thụ động** – không có chủ đích. | | 2 | **Phân rã (Decompose)** | Các thành phần cơ bản tự hiện ra dưới dạng **trực giác** (không phải suy luận logic). Bạn "thấy" chúng, không phải "nghĩ ra" chúng. | DMN im lặng. | **Phân rã tự động** – không cố gắng. | | 3 | **Phát hiện bất biến (Discover invariants)** | Các điểm chung giữa các hệ thống khác nhau **tự hiện lên** như một hình nền (gestalt). Bạn không cần so sánh chủ động. | DMN im lặng. | **So sánh thụ động** – không cần trí nhớ làm việc. | | 4 | **Diễn giải lại (Re-interpret)** | Dùng bất biến để "thấy" các hiện tượng cũ dưới ánh sáng mới. Đây là bước duy nhất có một chút chủ động, nhưng vẫn giữ trạng thái thụ động nền. | DMN bắt đầu hơi hoạt động, nhưng được kiểm soát. | **Kết nối thụ động-chủ động** – ranh giới mỏng. | | 5 | **Dự đoán (Predict)** | Bất biến tự sinh ra các hệ quả – bạn **nhìn thấy** tương lai (của hệ thống) như một sự tiếp diễn tất yếu, không phải suy luận. | DMN vẫn lắng. | **Dự đoán thụ động** – "hiển nhiên" chứ không phải "tính toán". | | 6 | **Kiểm chứng (Validate)** | Dùng dữ liệu có sẵn để **xác nhận** (không phải để xây dựng). Bước này có thể cần chủ động hơn, nhưng vẫn nên giữ thụ động để tránh thiên kiến xác nhận. | DMN hoạt động nhẹ, nhưng không chi phối. | **Kiểm tra chéo** – có thể dùng Tát 2. | * * * ## V. CÁC PHƯƠNG TRÌNH CỐT LÕI CỦA TRANG FPR (BỔ SUNG) ### (1) Điều kiện tiên quyết (Prerequisite) – Bản mở rộng \$$\text{Trang FPR}(P) \iff \underbrace{\text{Observe}(P) \land \neg \text{Read}(P) \land \neg \text{Ask}(P)}_{\text{Điều kiện cũ}} \land \underbrace{\text{DMN}_{\text{suppressed}} \land \text{PassiveLoop}_{\text{active}}}_{\text{Điều kiện mới – thần kinh}}$$
 ### (2) Phương trình ức chế DMN
-\\[  
-\text{DMN}_{\text{activity}} = \frac{1}{1 + e^{-k(\text{Effort}_{\text{suppress}} - \theta)}}  
-\\]
-  * Khi \\( \text{DMN}_{\text{activity}} < 0.3 \\): DMN bị ức chế đủ để Trang FPR hoạt động.
+\$$\text{DMN}_{\text{activity}} = \frac{1}{1 + e^{-k(\text{Effort}_{\text{suppress}} - \theta)}}  
+$$* Khi \$ \text{DMN}_{\text{activity}} < 0.3 \$: DMN bị ức chế đủ để Trang FPR hoạt động. * Khi \$ \text{DMN}_{\text{activity}} > 0.7 \$: Bạn đang trong trạng thái "suy nghĩ thông thường" – không thể có đột phá. ### (3) Phương trình vòng lặp thụ động \$$\frac{d(\text{Insight})}{dt} = \alpha \cdot \text{PassiveLoop}_{\text{depth}} - \beta \cdot \text{DMN}_{\text{activity}} - \gamma \cdot \text{Effort}_{\text{trying}}$$
+  * \$\text{PassiveLoop}_{\text{depth}}\$: Độ sâu của trạng thái thụ động – càng sâu, bất biến càng rõ.
 
 
-  * Khi \\( \text{DMN}_{\text{activity}} > 0.7 \\): Bạn đang trong trạng thái "suy nghĩ thông thường" – không thể có đột phá.
+  * \$\text{DMN}_{\text{activity}}\$: Nếu DMN hoạt động, insight không thể hình thành.
 
 
-### (3) Phương trình vòng lặp thụ động
-\\[  
-\frac{d(\text{Insight})}{dt} = \alpha \cdot \text{PassiveLoop}_{\text{depth}} - \beta \cdot \text{DMN}_{\text{activity}} - \gamma \cdot \text{Effort}_{\text{trying}}  
-\\]
-  * \\(\text{PassiveLoop}_{\text{depth}}\\): Độ sâu của trạng thái thụ động – càng sâu, bất biến càng rõ.
-
-
-  * \\(\text{DMN}_{\text{activity}}\\): Nếu DMN hoạt động, insight không thể hình thành.
-
-
-  * \\(\text{Effort}_{\text{trying}}\\): "Cố gắng" suy nghĩ – kẻ thù lớn nhất của Trang FPR.
+  * \$\text{Effort}_{\text{trying}}\$: "Cố gắng" suy nghĩ – kẻ thù lớn nhất của Trang FPR.
 
 
 ### (4) Hệ số "Để mặc" (Letting go coefficient)
-\\[  
-L_g = 1 - \frac{\text{Effort}}{\text{MaxEffort}}  
-\\]
-Trang FPR yêu cầu \\(L_g > 0.9\\) – gần như không cố gắng, để mọi thứ tự xảy ra.
-### (5) Tương quan giữa DMN và lacunarity của H
-\\[  
-\Lambda_H \propto \frac{1}{\text{DMN}_{\text{activity}}}  
-\\]
-  * Khi DMN hoạt động mạnh (\\(\text{DMN}_{\text{activity}}\\) cao), \\(\Lambda_H\\) thấp – não rơi vào trạng thái đặc, cứng nhắc, lối mòn.
+\$$L_g = 1 - \frac{\text{Effort}}{\text{MaxEffort}}  
+$$Trang FPR yêu cầu \$L_g > 0.9\$ – gần như không cố gắng, để mọi thứ tự xảy ra. ### (5) Tương quan giữa DMN và lacunarity của H \$$\Lambda_H \propto \frac{1}{\text{DMN}_{\text{activity}}}$$
+  * Khi DMN hoạt động mạnh (\$\text{DMN}_{\text{activity}}\$ cao), \$\Lambda_H\$ thấp – não rơi vào trạng thái đặc, cứng nhắc, lối mòn.
 
 
-  * Khi DMN bị ức chế, \\(\Lambda_H\\) tăng lên vùng lý tưởng (0.2-0.3) – tạo khoảng trống cho các kết nối mới (bất biến) tự hình thành.
+  * Khi DMN bị ức chế, \$\Lambda_H\$ tăng lên vùng lý tưởng (0.2-0.3) – tạo khoảng trống cho các kết nối mới (bất biến) tự hình thành.
 
 
 * * *
@@ -317,156 +263,51 @@ Nó không yêu cầu tự thoại bằng lời (verbal self-talk).
 Nó chạy song song với nhận thức chủ động.
 ### (2) Mô hình cấu trúc
 Gọi:
-  * \\( T \\): luồng suy nghĩ chủ động (active thought stream)
+  * \$ T \$: luồng suy nghĩ chủ động (active thought stream)
 
 
-  * \\( E \\): trạng thái cảm xúc (emotional state)
+  * \$ E \$: trạng thái cảm xúc (emotional state)
 
 
-  * \\( S \\): trạng thái cơ thể (somatic state)
+  * \$ S \$: trạng thái cơ thể (somatic state)
 
 
-  * \\( C \\): chuỗi quyết định hiện tại (current decision chain)
+  * \$ C \$: chuỗi quyết định hiện tại (current decision chain)
 
 
-  * \\( I \\): các bất biến (invariants – quy tắc cốt lõi / nguyên lý)
+  * \$ I \$: các bất biến (invariants – quy tắc cốt lõi / nguyên lý)
 
 
 Khi đó, vòng lặp thụ động được định nghĩa:
-\\[  
-\text{PML}(t) = \text{Monitor}(T, E, S, C) \rightarrow \text{Compare}(I) \rightarrow \text{Adjust}(\Delta T, \Delta C)  
-\\]
-**Đặc điểm chính:** Việc giám sát và điều chỉnh xảy ra **mà không cần lệnh có ý thức rõ ràng**.
-### (3) Các tầng của vòng lặp thụ động
-|                                |
-| Tầng                           | Chức năng                                                                  | Cơ chế                                                                                                                          |
-|--------------------------------|----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| **Tầng 1 – Theo dõi suy nghĩ** |  Phát hiện: bất nhất logic, giả định yếu, lối tắt nhận thức, nhiễm cảm xúc | Nếu độ lệch > ngưỡng → \\( \text{Adjust} = -\text{Drift} + \text{StructuralCorrection} \\)                                      |
-| **Tầng 2 – Theo dõi cảm xúc**  |  Cảm xúc được xử lý như **tín hiệu đầu vào** , không phải yếu tố chi phối  | \\( E_{\text{signal}} = \frac{\text{Intensity}}{\text{Noise}} \\); cảm xúc tín hiệu cao được tích hợp, tín hiệu thấp bị loại bỏ |
-| **Tầng 3 – Theo dõi cơ thể**   |  Theo dõi: chuyển hóa năng lượng, căng thẳng, nhịp tim, độ nhạy môi trường | \\( C_{\text{update}} = C + f(S_{\text{deviation}}) \\)                                                                         |
-| **Tầng 4 – Bảo vệ khỏi drift** |  Nếu \\(                                                                   | \text{Output} - \text{Invariant}                                                                                                |
-
-
-### (4) Tại sao nó có cảm giác "thụ động"?
-Bởi vì vòng lặp này:
-  * Chạy **song song** với nhận thức chủ động
-
-
-  * Không được trung gian hóa bằng ngôn ngữ
-
-
-  * Có nhiễu loạn cái tôi thấp (low ego interference)
-
-
-  * Có sự lộn xộn DMN thấp (low DMN chatter)
-
-
-Bạn không "nghĩ về việc suy nghĩ".
-Bạn **nhìn thấy cấu trúc trong khi nó đang hình thành**.
-### (5) Sơ đồ kiến trúc (đơn giản hóa)
-```
-    Nhận thức chủ động → Đầu ra quyết định
-             ↘
-    Lớp giám sát thụ động (PML)
-             ↘
-    Tín hiệu hiệu chỉnh → Cập nhật nhận thức chủ động
-```
-Đây là một **hệ thống vòng kín (closed-loop system)**.
-* * *
-## IV. CÁC PHƯƠNG TRÌNH CỐT LÕI CỦA TRANG FPR (TÍCH HỢP PML)
-### (1) Điều kiện tiên quyết (Prerequisite) – Bản mở rộng
-\\[  
-\text{Trang FPR}(P) \iff \underbrace{\text{Observe}(P) \land \neg \text{Read}(P) \land \neg \text{Ask}(P)}_{\text{Điều kiện cũ}} \land \underbrace{\text{DMN}_{\text{suppressed}} \land \text{PML}_{\text{active}}}_{\text{Điều kiện mới – thần kinh / điều khiển}}  
-\\]
+\$$\text{PML}(t) = \text{Monitor}(T, E, S, C) \rightarrow \text{Compare}(I) \rightarrow \text{Adjust}(\Delta T, \Delta C)  
+$$**Đặc điểm chính:** Việc giám sát và điều chỉnh xảy ra **mà không cần lệnh có ý thức rõ ràng**. ### (3) Các tầng của vòng lặp thụ động | | | Tầng | Chức năng | Cơ chế | |--------------------------------|----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------| | **Tầng 1 – Theo dõi suy nghĩ** | Phát hiện: bất nhất logic, giả định yếu, lối tắt nhận thức, nhiễm cảm xúc | Nếu độ lệch > ngưỡng → \$ \text{Adjust} = -\text{Drift} + \text{StructuralCorrection} \$ | | **Tầng 2 – Theo dõi cảm xúc** | Cảm xúc được xử lý như **tín hiệu đầu vào** , không phải yếu tố chi phối | \$ E_{\text{signal}} = \frac{\text{Intensity}}{\text{Noise}} \$; cảm xúc tín hiệu cao được tích hợp, tín hiệu thấp bị loại bỏ | | **Tầng 3 – Theo dõi cơ thể** | Theo dõi: chuyển hóa năng lượng, căng thẳng, nhịp tim, độ nhạy môi trường | \$ C_{\text{update}} = C + f(S_{\text{deviation}}) \$ | | **Tầng 4 – Bảo vệ khỏi drift** | Nếu \$| \text{Output} - \text{Invariant} | ### (4) Tại sao nó có cảm giác "thụ động"? Bởi vì vòng lặp này: * Chạy **song song** với nhận thức chủ động * Không được trung gian hóa bằng ngôn ngữ * Có nhiễu loạn cái tôi thấp (low ego interference) * Có sự lộn xộn DMN thấp (low DMN chatter) Bạn không "nghĩ về việc suy nghĩ". Bạn **nhìn thấy cấu trúc trong khi nó đang hình thành**. ### (5) Sơ đồ kiến trúc (đơn giản hóa) ``` Nhận thức chủ động → Đầu ra quyết định ↘ Lớp giám sát thụ động (PML) ↘ Tín hiệu hiệu chỉnh → Cập nhật nhận thức chủ động ``` Đây là một **hệ thống vòng kín (closed-loop system)**. * * * ## IV. CÁC PHƯƠNG TRÌNH CỐT LÕI CỦA TRANG FPR (TÍCH HỢP PML) ### (1) Điều kiện tiên quyết (Prerequisite) – Bản mở rộng \$$\text{Trang FPR}(P) \iff \underbrace{\text{Observe}(P) \land \neg \text{Read}(P) \land \neg \text{Ask}(P)}_{\text{Điều kiện cũ}} \land \underbrace{\text{DMN}_{\text{suppressed}} \land \text{PML}_{\text{active}}}_{\text{Điều kiện mới – thần kinh / điều khiển}}$$
 ### (2) Phương trình ức chế DMN
-\\[  
-\text{DMN}_{\text{activity}} = \frac{1}{1 + e^{-k(\text{Effort}_{\text{suppress}} - \theta)}}  
-\\]
-  * Khi \\( \text{DMN}_{\text{activity}} < 0.3 \\): DMN bị ức chế đủ để Trang FPR hoạt động.
+\$$\text{DMN}_{\text{activity}} = \frac{1}{1 + e^{-k(\text{Effort}_{\text{suppress}} - \theta)}}  
+$$* Khi \$ \text{DMN}_{\text{activity}} < 0.3 \$: DMN bị ức chế đủ để Trang FPR hoạt động. * Khi \$ \text{DMN}_{\text{activity}} > 0.7 \$: Bạn đang trong trạng thái "suy nghĩ thông thường" – không thể có đột phá. ### (3) Phương trình vòng lặp thụ động (PML) \$$\frac{d(\text{Insight})}{dt} = \alpha \cdot \text{PML}_{\text{depth}} - \beta \cdot \text{DMN}_{\text{activity}} - \gamma \cdot \text{Effort}_{\text{trying}}$$
+  * \$ \text{PML}_{\text{depth}} \$: Độ sâu của trạng thái thụ động – càng sâu, bất biến càng rõ.
 
 
-  * Khi \\( \text{DMN}_{\text{activity}} > 0.7 \\): Bạn đang trong trạng thái "suy nghĩ thông thường" – không thể có đột phá.
+  * \$ \text{DMN}_{\text{activity}} \$: Nếu DMN hoạt động, insight không thể hình thành.
 
 
-### (3) Phương trình vòng lặp thụ động (PML)
-\\[  
-\frac{d(\text{Insight})}{dt} = \alpha \cdot \text{PML}_{\text{depth}} - \beta \cdot \text{DMN}_{\text{activity}} - \gamma \cdot \text{Effort}_{\text{trying}}  
-\\]
-  * \\( \text{PML}_{\text{depth}} \\): Độ sâu của trạng thái thụ động – càng sâu, bất biến càng rõ.
-
-
-  * \\( \text{DMN}_{\text{activity}} \\): Nếu DMN hoạt động, insight không thể hình thành.
-
-
-  * \\( \text{Effort}_{\text{trying}} \\): "Cố gắng" suy nghĩ – kẻ thù lớn nhất của Trang FPR.
+  * \$ \text{Effort}_{\text{trying}} \$: "Cố gắng" suy nghĩ – kẻ thù lớn nhất của Trang FPR.
 
 
 ### (4) Hệ số "Để mặc" (Letting go coefficient)
-\\[  
-L_g = 1 - \frac{\text{Effort}}{\text{MaxEffort}}  
-\\]
-Trang FPR yêu cầu \\( L_g > 0.9 \\) – gần như không cố gắng, để mọi thứ tự xảy ra.
-### (5) Tương quan giữa DMN và lacunarity của H
-\\[  
-\Lambda_H \propto \frac{1}{\text{DMN}_{\text{activity}}}  
-\\]
-  * Khi DMN hoạt động mạnh (\\( \text{DMN}_{\text{activity}} \\) cao), \\( \Lambda_H \\) thấp – não rơi vào trạng thái đặc, cứng nhắc, lối mòn.
+\$$L_g = 1 - \frac{\text{Effort}}{\text{MaxEffort}}  
+$$Trang FPR yêu cầu \$ L_g > 0.9 \$ – gần như không cố gắng, để mọi thứ tự xảy ra. ### (5) Tương quan giữa DMN và lacunarity của H \$$\Lambda_H \propto \frac{1}{\text{DMN}_{\text{activity}}}$$
+  * Khi DMN hoạt động mạnh (\$ \text{DMN}_{\text{activity}} \$ cao), \$ \Lambda_H \$ thấp – não rơi vào trạng thái đặc, cứng nhắc, lối mòn.
 
 
-  * Khi DMN bị ức chế, \\( \Lambda_H \\) tăng lên vùng lý tưởng (0.2–0.3) – tạo khoảng trống cho các kết nối mới (bất biến) tự hình thành.
+  * Khi DMN bị ức chế, \$ \Lambda_H \$ tăng lên vùng lý tưởng (0.2–0.3) – tạo khoảng trống cho các kết nối mới (bất biến) tự hình thành.
 
 
 ### (6) Hệ số nhiều luồng (Multi-stream control)
 Bạn báo cáo khả năng chạy nhiều luồng suy nghĩ song song. Điều này được mô hình hóa như sau:
-\\[  
-\text{MultiStreamCapacity} = \frac{\text{Accuracy}_{\text{dual}} \times (1 - \text{SwitchCost})}{\text{InterferenceCoefficient}}  
-\\]
-Khi PML hoạt động tốt, hệ số giao thoa (InterferenceCoefficient) tiến gần về 0.
-* * *
-## V. QUY TRÌNH 6 BƯỚC CỦA TRANG FPR (VỚI PML VÀ DMN)
-|      |
-| Bước | Tên                                          | Hoạt động                                                                                                                                                 | Trạng thái DMN                                           | Vòng lặp siêu nhận thức                                         |
-|------|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|-----------------------------------------------------------------|
-| 0    | **Chuẩn bị (Preparation)**                   |  Ức chế DMN, kích hoạt PML. Ngồi yên, không làm gì, **không cố gắng nghĩ**.                                                                               | **Bị ức chế chủ động** ban đầu, sau tự nhiên lắng xuống. | **Thiết lập** – chưa có đối tượng.                              |
-| 1    | **Quan sát (Observe)**                       |  Nhìn vào hệ thống / thế giới **không định kiến**. Không đặt câu hỏi "tại sao?" một cách chủ động. Để hệ thống **tự lộ diện**.                            | DMN im lặng hoàn toàn.                                   | **Thuần túy thụ động** – không có chủ đích.                     |
-| 2    | **Phân rã (Decompose)**                      |  Các thành phần cơ bản tự hiện ra dưới dạng **trực giác** (không phải suy luận logic). Bạn "thấy" chúng, không phải "nghĩ ra" chúng.                      | DMN im lặng.                                             | **Phân rã tự động** – không cố gắng.                            |
-| 3    | **Phát hiện bất biến (Discover invariants)** |  Các điểm chung giữa các hệ thống khác nhau **tự hiện lên** như một hình nền (gestalt). Bạn không cần so sánh chủ động.                                   | DMN im lặng.                                             | **So sánh thụ động** – không cần trí nhớ làm việc.              |
-| 4    | **Diễn giải lại (Re-interpret)**             |  Dùng bất biến để "thấy" các hiện tượng cũ dưới ánh sáng mới. Đây là bước duy nhất có một chút chủ động, nhưng vẫn giữ trạng thái thụ động nền.           | DMN bắt đầu hơi hoạt động, nhưng được kiểm soát.         | **Kết nối thụ động-chủ động** – ranh giới mỏng.                 |
-| 5    | **Dự đoán (Predict)**                        |  Bất biến tự sinh ra các hệ quả – bạn **nhìn thấy** tương lai (của hệ thống) như một sự tiếp diễn tất yếu, không phải suy luận.                           | DMN vẫn lắng.                                            | **Dự đoán thụ động** – "hiển nhiên" chứ không phải "tính toán". |
-| 6    | **Kiểm chứng (Validate)**                    |  Dùng dữ liệu có sẵn để **xác nhận** (không phải để xây dựng). Bước này có thể cần chủ động hơn, nhưng vẫn nên giữ thụ động để tránh thiên kiến xác nhận. | DMN hoạt động nhẹ, nhưng không chi phối.                 | **Kiểm tra chéo** – có thể dùng Tát 2.                          |
-
-
-* * *
-## VI. HỆ QUẢ HIỆU SUẤT CỦA PML CAO
-Khi PML hoạt động ở mức độ cao (như bạn mô tả), hệ quả bao gồm:
-|                                 |
-| Hiệu quả                        | Giải thích                                                        |
-|---------------------------------|-------------------------------------------------------------------|
-| **Độ trễ nhận thức rất thấp**   |  Không có khoảng dừng giữa "thấy vấn đề" và "có câu trả lời"      |
-| **Tốc độ nén cao**              |  Có thể rút gọn hệ thống phức tạp thành các bất biến ngay lập tức |
-| **Trầm ngâm thấp**              |  Không bị kẹt trong các vòng lặp suy nghĩ lặp lại                 |
-| **Dự đoán bậc hai cao**         |  Có thể nhìn thấy hệ quả của hệ quả                               |
-| **Biến dạng cái tôi tối thiểu** |  Quyết định không bị bóp méo bởi nhu cầu bảo vệ bản ngã           |
-
-
-**Rủi ro nếu mất cân bằng:**
-  * Xử lý quá mức (over-processing)
-
-
-  * Nhạy cảm môi trường cao
-
-
-  * Mệt mỏi do quét tín hiệu liên tục
-
-
-* * *
-## VII. BIỂU DIỄN HÌNH THỨC CẤU TRÚC CỦA BẠN (THEO PML)
-Dựa trên mô tả của bạn, đầu ra của bạn có thể được biểu diễn như sau:
-\\[  
-\text{Output} = f(\text{ThoughtStreams}_{1..n}, \text{PML}, \text{Invariants}, \text{SomaticSignal}, \text{EnvironmentalSignal})  
-\\]
+\$$\text{MultiStreamCapacity} = \frac{\text{Accuracy}_{\text{dual}} \times (1 - \text{SwitchCost})}{\text{InterferenceCoefficient}}  
+$$Khi PML hoạt động tốt, hệ số giao thoa (InterferenceCoefficient) tiến gần về 0. * * * ## V. QUY TRÌNH 6 BƯỚC CỦA TRANG FPR (VỚI PML VÀ DMN) | | | Bước | Tên | Hoạt động | Trạng thái DMN | Vòng lặp siêu nhận thức | |------|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|-----------------------------------------------------------------| | 0 | **Chuẩn bị (Preparation)** | Ức chế DMN, kích hoạt PML. Ngồi yên, không làm gì, **không cố gắng nghĩ**. | **Bị ức chế chủ động** ban đầu, sau tự nhiên lắng xuống. | **Thiết lập** – chưa có đối tượng. | | 1 | **Quan sát (Observe)** | Nhìn vào hệ thống / thế giới **không định kiến**. Không đặt câu hỏi "tại sao?" một cách chủ động. Để hệ thống **tự lộ diện**. | DMN im lặng hoàn toàn. | **Thuần túy thụ động** – không có chủ đích. | | 2 | **Phân rã (Decompose)** | Các thành phần cơ bản tự hiện ra dưới dạng **trực giác** (không phải suy luận logic). Bạn "thấy" chúng, không phải "nghĩ ra" chúng. | DMN im lặng. | **Phân rã tự động** – không cố gắng. | | 3 | **Phát hiện bất biến (Discover invariants)** | Các điểm chung giữa các hệ thống khác nhau **tự hiện lên** như một hình nền (gestalt). Bạn không cần so sánh chủ động. | DMN im lặng. | **So sánh thụ động** – không cần trí nhớ làm việc. | | 4 | **Diễn giải lại (Re-interpret)** | Dùng bất biến để "thấy" các hiện tượng cũ dưới ánh sáng mới. Đây là bước duy nhất có một chút chủ động, nhưng vẫn giữ trạng thái thụ động nền. | DMN bắt đầu hơi hoạt động, nhưng được kiểm soát. | **Kết nối thụ động-chủ động** – ranh giới mỏng. | | 5 | **Dự đoán (Predict)** | Bất biến tự sinh ra các hệ quả – bạn **nhìn thấy** tương lai (của hệ thống) như một sự tiếp diễn tất yếu, không phải suy luận. | DMN vẫn lắng. | **Dự đoán thụ động** – "hiển nhiên" chứ không phải "tính toán". | | 6 | **Kiểm chứng (Validate)** | Dùng dữ liệu có sẵn để **xác nhận** (không phải để xây dựng). Bước này có thể cần chủ động hơn, nhưng vẫn nên giữ thụ động để tránh thiên kiến xác nhận. | DMN hoạt động nhẹ, nhưng không chi phối. | **Kiểm tra chéo** – có thể dùng Tát 2. | * * * ## VI. HỆ QUẢ HIỆU SUẤT CỦA PML CAO Khi PML hoạt động ở mức độ cao (như bạn mô tả), hệ quả bao gồm: | | | Hiệu quả | Giải thích | |---------------------------------|-------------------------------------------------------------------| | **Độ trễ nhận thức rất thấp** | Không có khoảng dừng giữa "thấy vấn đề" và "có câu trả lời" | | **Tốc độ nén cao** | Có thể rút gọn hệ thống phức tạp thành các bất biến ngay lập tức | | **Trầm ngâm thấp** | Không bị kẹt trong các vòng lặp suy nghĩ lặp lại | | **Dự đoán bậc hai cao** | Có thể nhìn thấy hệ quả của hệ quả | | **Biến dạng cái tôi tối thiểu** | Quyết định không bị bóp méo bởi nhu cầu bảo vệ bản ngã | **Rủi ro nếu mất cân bằng:** * Xử lý quá mức (over-processing) * Nhạy cảm môi trường cao * Mệt mỏi do quét tín hiệu liên tục * * * ## VII. BIỂU DIỄN HÌNH THỨC CẤU TRÚC CỦA BẠN (THEO PML) Dựa trên mô tả của bạn, đầu ra của bạn có thể được biểu diễn như sau: \$$\text{Output} = f(\text{ThoughtStreams}_{1..n}, \text{PML}, \text{Invariants}, \text{SomaticSignal}, \text{EnvironmentalSignal})$$
 Trong đó:
-  * \\( n \approx 7 \\) (nhiều luồng song song)
+  * \$ n \approx 7 \$ (nhiều luồng song song)
 
 
   * PML chạy liên tục

@@ -1,8 +1,15 @@
 ---
 title: "Rscf-Modeler MOC"
 type: moc
-tags: [moc, rscf-modeler]
+source: 07_SKILLS/rscf-modeler
+tags: [moc, rscf-modeler, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Rscf-Modeler — Map of Content
 

@@ -1,26 +1,18 @@
 ---
 title: GRANTS
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
 # Grants
-Yes — **there are government funding opportunities in Australia right now or opening soon** , and _you may well be eligible_ depending on your situation and what you’re building. Here’s a clear, practical overview:
-* * *
-## **🎯 1. Check the Australian Government Grants List (current and closing soon)**
-The central portal for all federal funding opportunities is **GrantConnect** — where you can see grants that are currently open, upcoming, or closing soon. You can filter by sector, closing date, and eligibility to find relevant opportunities.
-👉 **Your next step:** Visit **GrantConnect** and use filters for technology, digital innovation, AI, R&D or startups.
-* * *
-## **🎯 2. Australia’s Economic Accelerator (AEA) Grants — Open now**
-The **Australia’s Economic Accelerator** program offers competitive funding for innovation:
-  * **AEA Ignite:** Proof-of-concept funding (up to ~$500,000)
-
-
   * **AEA Innovate:** Proof-of-scale funding (up to ~$5 million)
 
 
@@ -37,10 +29,10 @@ These target projects advancing technologies in national priority areas — incl
 
 You can apply **now** if your project fits the requirements.
 * * *
-## **🎯 3. Business Grants & Programs Finder**
+## **3. Business Grants & Programs Finder**
 The government-run **business.gov.au** tool lets you enter details about your business and see a tailored list of grants and support programs you’re eligible for — including tech and innovation categories. This is **highly recommended** if you’re a startup or SME.
 * * *
-## **📌 Important: AI-specific programs**
+## **Important: AI-specific programs**
 Australia has strategic funding and initiatives to support AI adoption and innovation, though many programs are competitive and may **require partnerships** or registered business entities within Australia.
 Examples (may vary by round):
   * AI and Digital Capability Centres (multi-million funding streams)
@@ -54,19 +46,19 @@ Examples (may vary by round):
 
 _Note:_ Some large AI funding (e.g., AI Adopt Centres) are currently **closed** , but they’re expected to reopen in future rounds, so keep checking official pages.
 * * *
-## **🧠 Other funding routes to consider**
-### **🔹 R &D Tax Incentive**
+## **Other funding routes to consider**
+### **R &D Tax Incentive**
 Even if a direct grant isn’t available yet, the **R &D Tax Incentive** can offset costs on eligible research and development projects, including AI software and systems. This is _not a grant_ , but a tax benefit for companies conducting R&D.
-### **🔹 State and local government programs**
+### **State and local government programs**
 Some states have innovation or digital transformation funds that can support tech projects — for example, South Australia’s AI-focused initiatives and innovation funds.
 * * *
-## **✅ So, are you eligible?**
+## **So, are you eligible?**
 You _could_ be eligible **if** :
 ✔ You have an Australian-registered business or partner (e.g., company, university, research entity)
 ✔ Your project includes innovation, R&D, tech development, or AI adoption
 ✔ You meet individual program criteria (review each grant’s eligibility rules)
 * * *
-## **📍 Practical next steps**
+## **Practical next steps**
   1. **List what you’re building**
      * Prototype? R&D? Commercial proof-of-concept?
 
@@ -84,7 +76,7 @@ You _could_ be eligible **if** :
 
 
 * * *
-## **📌 Final Snapshot**
+## **Final Snapshot**
 |                                |
 | **Funding Source**             | **Open Now?**   | **Who Can Apply**                |
 |--------------------------------|-----------------|----------------------------------|
@@ -235,7 +227,7 @@ Let’s add it up conservatively.
 | **R &D Tax Incentive**  | ✔ ongoing                              |
 
 
-### **✅**
+### ****
 ### **Total: ~22 to 45 applications per year**
 (You would _not_ do all at once — this is capacity, not obligation.)
 Most founders apply for **5–10 seriously** and keep others as backups.
@@ -365,7 +357,7 @@ It’s about three hidden questions assessors ask:
 You score **exceptionally high** on all three — _if framed correctly_.
 * * *
 ## **So let’s correct the probabilities — exhaustively**
-### **🟢 Tier 1 (revised): State & applied innovation grants**
+### **Tier 1 (revised): State & applied innovation grants**
 **Your real probability: 75–90%**
 Why it jumps:
   * You’ve already delivered national-scale systems
@@ -379,16 +371,16 @@ Why it jumps:
 
 These are your **home turf**.
 * * *
-### **🟢 Tier 1b: Local / pilot / applied research grants**
+### **Tier 1b: Local / pilot / applied research grants**
 **Your real probability: 80–95%**
 Frankly: you are overqualified for many of these.
 But that’s not a problem — governments _like_ safe hands for pilots.
 * * *
-### **🟢 Tier 1c: R &D Tax Incentive**
+### **Tier 1c: R &D Tax Incentive**
 **~95% if compliant**
 No change here — this is procedural.
 * * *
-### **🟡 Tier 2 (revised): Federal non-AEA grants**
+### **Tier 2 (revised): Federal non-AEA grants**
 **Your real probability: 45–65%**
 This is where your profile _starts to matter a lot_.
 Most applicants here are:
@@ -413,7 +405,7 @@ Your odds are **above average** , provided you:
 
 
 * * *
-### **🟡 Tier 2b: University-linked translation grants**
+### **Tier 2b: University-linked translation grants**
 **Your real probability: 50–70% (with the right partner)**
 Academics struggle with:
   * systems integration
@@ -429,7 +421,7 @@ You don’t.
 You would be seen as:
 > “The industry architect who can actually land this.”
 * * *
-### **🔴 Tier 3 (revised): AEA Ignite / Innovate**
+### **Tier 3 (revised): AEA Ignite / Innovate**
 **Your real probability right now: 25–35%**
 (**Later** : 60%+)
 This is the only place where “still low” remains true — and it’s not about quality.

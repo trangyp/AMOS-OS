@@ -1,15 +1,20 @@
 ---
 title: EMOTION
 type: emotion
+source: 11_KNOWLEDGE/emotion
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: emotion
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/emotion, emotion]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: emotion_model
 ---
-
-
+# EMOTION
 
 ```json
 {

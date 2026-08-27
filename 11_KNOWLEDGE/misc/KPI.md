@@ -1,20 +1,19 @@
 ---
 title: KPI
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Kpi
 Got it. What you want now is **doctrine** , not stance — something that reads as **structural law** , not personal preference, and that **removes “I” as the centre of gravity** while still clearly encoding your position.
-Below is a **rewritten version** that:
-  * removes personal defensiveness
-
-
   * shifts from “my refusal” → **system requirements**
 
 

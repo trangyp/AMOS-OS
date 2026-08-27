@@ -1,14 +1,22 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-c05-mind-behavior-master
 name: amos-c05-mind-behavior-master
 description: "AMOS C05 Mind & Behavior — cognition, emotion, consciousness, awareness, metacognition. 5-axis Emotion Law, HIE/UMPL/UST super-consciousness. Use for psychological analysis or behavioral reasoning."
 parent_skill: none
 domain: c05
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c05-mind-behavior-master]
+tags: [note, amos-c05-mind-behavior-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
+
 
 # AMOS C05 — Mind & Behavior Master Knowledge
 
@@ -94,3 +102,130 @@ The domain is organized into source families:
 
 All psychological claims are MODEL unless explicitly sourced. C05 is NOT clinic
 - [[AGENT_TEMPLATE]]
+
+---
+**MOC:** [[amos-c05-mind-behavior-master_MOC]]
+
+## Examples
+
+- **Scenario**: When managing lifecycle operations across classify, validate, trace, assess, and detect
+  - **Input**: A query matching this skill's domain (c05)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When detecting drift in evidence chains, provenance freshness, or confidence calibration
+  - **Input**: A query matching this skill's domain (c05)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When validating outputs against domain constraints and epistemic class
+  - **Input**: A query matching this skill's domain (c05)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the c05 domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when c05 specialization is needed
+- **Peers**: Other skills in the `c05` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/11k_cognitive_architecture_matrix.md` — loaded on demand
+- `references/absolute_human.md` — loaded on demand
+- `references/absolute_human_model.md` — loaded on demand
+- `references/architecture_of_okay.md` — loaded on demand
+- `references/behavior_engine_canonical.md` — loaded on demand
+- `references/brain_cognitive_max.md` — loaded on demand
+- `references/brain_superxc_cognitive.md` — loaded on demand
+- `references/c05_mind_behavior_config.md` — loaded on demand
+- `references/cognition_ai_architecture.md` — loaded on demand
+- `references/cognition_engine.md` — loaded on demand
+- `references/cognition_engine_canonical.md` — loaded on demand
+- `references/cognition_engine_core.md` — loaded on demand
+- `references/cognition_engine_layer.md` — loaded on demand
+- `references/cognition_engine_vinfinity.md` — loaded on demand
+- `references/cognition_total_kernel.md` — loaded on demand
+- `references/cognitive_architecture_matrix.md` — loaded on demand
+- `references/cognitive_domain_engines.md` — loaded on demand
+- `references/cognitive_engines.md` — loaded on demand
+- `references/cognitive_gating.md` — loaded on demand
+- `references/cognitive_stack.md` — loaded on demand
+- `references/consciousness_engine_layer.md` — loaded on demand
+- `references/consciousness_engine_vinfinity.md` — loaded on demand
+- `references/designing_systems_humans_survive.md` — loaded on demand
+- `references/deterministic_human_machine_alignment.md` — loaded on demand
+- `references/domain_config.md` — loaded on demand
+- `references/emotion_engine_canonical.md` — loaded on demand
+- `references/emotion_engine_core.md` — loaded on demand
+- `references/emotion_engine_layer.md` — loaded on demand
+- `references/emotion_engine_model.md` — loaded on demand
+- `references/emotion_rules.md` — loaded on demand
+- `references/governance_collapses_human_bio.md` — loaded on demand
+- `references/healing_through_giving.md` — loaded on demand
+- `references/hie_human_interaction_engine.md` — loaded on demand
+- `references/hse_human_systems_engine.md` — loaded on demand
+- `references/human_engine_sector_packs.md` — loaded on demand
+- `references/human_interaction_engine_layer.md` — loaded on demand
+- `references/human_pack_v0.md` — loaded on demand
+- `references/human_systems_engine_layer.md` — loaded on demand
+- `references/illusion_of_choice.md` — loaded on demand
+- `references/intelligence_binary_effectiveness_quantum.md` — loaded on demand
+- `references/mental_health_market.md` — loaded on demand
+- `references/mind_behavior_engines.md` — loaded on demand
+- `references/mood_agent.md` — loaded on demand
+- `references/personality_engine_canonical.md` — loaded on demand
+- `references/personality_engine_core.md` — loaded on demand
+- `references/personality_engine_layer.md` — loaded on demand
+- `references/personality_engine_model.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/schizophrenia_structural_model.md` — loaded on demand
+- `references/talent_ledger_human_ability.md` — loaded on demand
+- `references/therapy_becomes_social_control.md` — loaded on demand
+- `references/thoughts_and_emotion.md` — loaded on demand
+- `references/three_layer_consciousness_architecture.md` — loaded on demand
+- `references/uni_ai_intelligence_engine.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `references/void_ego_dissolution_model.md` — loaded on demand
+- `[[amos-c05-mind-behavior-master_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-c05-mind-behavior-master-workflow]]` — corresponding workflow
+- `[[amos-c05-mind-behavior-master-agent]]` — corresponding agent
+

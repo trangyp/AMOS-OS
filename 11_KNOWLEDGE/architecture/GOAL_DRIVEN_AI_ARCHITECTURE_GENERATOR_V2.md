@@ -1,11 +1,15 @@
 ---
 title: GOAL DRIVEN AI ARCHITECTURE GENERATOR V2
-tags: [architecture, design, structure]
+tags: [architecture, design, structure, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/architecture
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: architecture_design
+
 ---
-
-
 
 
 # goal_driven_ai_architecture_generator_v2
@@ -273,3 +277,6 @@ if __name__ == "__main__":
 
 ---
 **MOC:** [[ARCHITECTURE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

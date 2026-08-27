@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Unified_Biological_Intelligence_(UBI)_A_New_Infrastructure_for_Intelligence.pdf (140KB)"
 origin_architect: "Trang Phan"
 type: whitepaper
-tags: [ubi, unified-biological-intelligence, infrastructure, nervous-system, 4-domains, deterministic, somatic, neurobiological, neuroemotional, bioelectromagnetic, TCP/IP-for-intelligence, logic]
+source: 11_KNOWLEDGE/logic
+tags: [ubi, unified-biological-intelligence, infrastructure, nervous-system, 4-domains, deterministic, somatic, neurobiological, neuroemotional, bioelectromagnetic, TCP/IP-for-intelligence, logic, canon/knowledge]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
 ---
 
 

@@ -1,9 +1,14 @@
 ---
 title: SCHEDULES OPERATIONS README
 type: schedule
-tags: [amos_os, 20_operations]
+source: 20_OPERATIONS/06_SCHEDULES
+tags: [amos_os, 20_operations, canon/operations]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # SCHEDULES OPERATIONS README

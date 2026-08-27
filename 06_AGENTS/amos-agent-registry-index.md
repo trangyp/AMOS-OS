@@ -1,8 +1,15 @@
 ---
 title: amos agent registry index
 type: index
-tags: [index, vault]
+source: 06_AGENTS
+tags: [index, vault, canon/agent]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # AMOS Consolidated Agent Registry
 

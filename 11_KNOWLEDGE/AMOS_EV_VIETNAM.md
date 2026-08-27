@@ -1,6 +1,7 @@
 ---
 title: "AMOS / TRANG — TOÀN CẢNH EV VIỆT NAM: MAX DETAIL MASTER"
 type: note
+source: 11_KNOWLEDGE
 subtitle: "UBI × ULF × PSI × QLS/QIC × QCLA × H/M/L × RSCF × Infrastructure Control Plane"
 origin_architect: "Trang Phan"
 source_artifact: "⭐ Toàn cảnh EV Việt Nam"
@@ -9,9 +10,14 @@ version: "MAX_DETAIL_v1"
 date: "2026-08-25"
 language: "vi"
 status: "SOURCE_PRESERVED__AMOS_MODEL_OVERLAY__EMPIRICAL_FIREWALL_ACTIVE"
-tags: [knowledge, note]
-
+tags: [knowledge, note, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # 0. Tuyên bố phạm vi và ranh giới bằng chứng
 
@@ -134,9 +140,7 @@ Mỗi giả thuyết có thể đúng, sai hoặc chỉ đúng theo regime.
 
 Core relation:
 
-\[
-MarketOutcome_t = f(H_t, M_t, L_t, H\leftrightarrow M, M\leftrightarrow L, H\leftrightarrow L)
-\]
+$$MarketOutcome_t = f(H_t, M_t, L_t, H\leftrightarrow M, M\leftrightarrow L, H\leftrightarrow L)$$
 
 A local improvement is not valid if it damages a load-bearing higher layer.
 
@@ -157,28 +161,22 @@ cheap vehicle purchase price
 
 Define:
 
-\[
-X_t^{EV} =
-[
-P_t,F_t,C_t,B_t,G_t,D_t,O_t,U_t,S_t,R_t,E_t,Q_t,
-Policy_t,Grid_t,Capital_t,Behavior_t,Trust_t,Climate_t
-]
-\]
+$$X_t^{EV} = [ P_t,F_t,C_t,B_t,G_t,D_t,O_t,U_t,S_t,R_t,E_t,Q_t, Policy_t,Grid_t,Capital_t,Behavior_t,Trust_t,Climate_t ]$$
 
 Where:
 
-- \(P_t\): price / acquisition economics
-- \(F_t\): fleet state
-- \(C_t\): charging state
-- \(B_t\): battery state
-- \(G_t\): grid state
-- \(D_t\): data state
-- \(O_t\): operations/O&M state
-- \(U_t\): user adoption state
-- \(S_t\): serviceability / parts / repair state
-- \(R_t\): regulatory state
-- \(E_t\): ecosystem/network state
-- \(Q_t\): quality/reliability state
+- $P_t$: price / acquisition economics
+- $F_t$: fleet state
+- $C_t$: charging state
+- $B_t$: battery state
+- $G_t$: grid state
+- $D_t$: data state
+- $O_t$: operations/O&M state
+- $U_t$: user adoption state
+- $S_t$: serviceability / parts / repair state
+- $R_t$: regulatory state
+- $E_t$: ecosystem/network state
+- $Q_t$: quality/reliability state
 - `Policy`: fiscal + restriction + standards
 - `Grid`: capacity + congestion + connection constraints
 - `Capital`: financing + cost of capital + subsidy dependence
@@ -196,50 +194,17 @@ Corpus identifies nine user-level forces. In MAX DETAIL they become a structured
 
 ## 4.1 UBI state vector
 
-\[
-U_t =
-[
-HealthPain,
-SafetyFear,
-ChargingAccess,
-SocialConflict,
-LivelihoodRisk,
-StatusSignal,
-DecisionRights,
-CognitiveLoad,
-SomaticComfort,
-Trust,
-FinancialSecurity
-]
-\]
+$$U_t = [ HealthPain, SafetyFear, ChargingAccess, SocialConflict, LivelihoodRisk, StatusSignal, DecisionRights, CognitiveLoad, SomaticComfort, Trust, FinancialSecurity ]$$
 
 Adoption utility:
 
-\[
-V_{EV}
-=
-B_{health}
-+B_{comfort}
-+B_{status}
-+B_{cost}
-+B_{policy}
--
-C_{price}
--C_{charge}
--C_{fear}
--C_{conflict}
--C_{learning}
--C_{downtime}
--C_{resale}
-\]
+$$V_{EV} = B_{health} +B_{comfort} +B_{status} +B_{cost} +B_{policy} - C_{price} -C_{charge} -C_{fear} -C_{conflict} -C_{learning} -C_{downtime} -C_{resale}$$
 
 Adoption is more plausible when:
 
-\[
-V_{EV}-V_{ICE} > \theta_{switch}
-\]
+$$V_{EV}-V_{ICE} > \theta_{switch}$$
 
-But \(\theta_{switch}\) is segment-specific.
+But $\theta_{switch}$ is segment-specific.
 
 ---
 
@@ -270,10 +235,7 @@ willingness-to-pay for quieter/cleaner operation
 
 Candidate model:
 
-\[
-HealthValue_i =
-Exposure_i \times Salience_i \times PerceivedEVRelief_i
-\]
+$$HealthValue_i = Exposure_i \times Salience_i \times PerceivedEVRelief_i$$
 
 ### Falsifier
 
@@ -287,22 +249,11 @@ The user is not the only decision-maker.
 
 Define decision coalition:
 
-\[
-DecisionSet_i=
-\{User, Payer, PropertyManager, Landlord, ParkingOwner, Insurer, FireSafetyAuthority\}
-\]
+$$DecisionSet_i= \{User, Payer, PropertyManager, Landlord, ParkingOwner, Insurer, FireSafetyAuthority\}$$
 
 Effective charging access:
 
-\[
-A^{charge}_i
-=
-PhysicalAccess
-\times Permission
-\times ElectricalCapacity
-\times SafetyAcceptance
-\times TimeFit
-\]
+$$A^{charge}_i = PhysicalAccess \times Permission \times ElectricalCapacity \times SafetyAcceptance \times TimeFit$$
 
 If any multiplicative term is near zero, practical access collapses.
 
@@ -331,10 +282,7 @@ institutional response
 
 Risk perception:
 
-\[
-Risk^{perc}_t =
-f(EventSalience, MediaIntensity, SocialTransmission, TechnicalLiteracy, Trust)
-\]
+$$Risk^{perc}_t = f(EventSalience, MediaIntensity, SocialTransmission, TechnicalLiteracy, Trust)$$
 
 Potential feedback:
 
@@ -369,14 +317,7 @@ Variables:
 
 Trust equation candidate:
 
-\[
-Trust^{weather}_i
-=
-Knowledge_i
-\times ServiceSupport_i
-\times InsuranceClarity_i
-\times DemonstratedReliability_i
-\]
+$$Trust^{weather}_i = Knowledge_i \times ServiceSupport_i \times InsuranceClarity_i \times DemonstratedReliability_i$$
 
 ---
 
@@ -386,35 +327,11 @@ For commercial drivers, the objective is not “vehicle preference.”
 
 It is:
 
-\[
-DailyNetIncome
-=
-Revenue
--
-Energy
--
-Finance
--
-Maintenance
--
-IdleCost
--
-UnexpectedDowntime
-\]
+$$DailyNetIncome = Revenue - Energy - Finance - Maintenance - IdleCost - UnexpectedDowntime$$
 
 Idle cost:
 
-\[
-IdleCost
-=
-t_{queue}
-\times RevenueRate_{active}
-+
-DeadheadDistance
-\times CostPerKm
-+
-MissedDemandValue
-\]
+$$IdleCost = t_{queue} \times RevenueRate_{active} + DeadheadDistance \times CostPerKm + MissedDemandValue$$
 
 A vehicle with lower energy cost can still be economically inferior if charging/repair downtime is high.
 
@@ -424,14 +341,7 @@ A vehicle with lower energy cost can still be economically inferior if charging/
 
 Consumer utility may contain:
 
-\[
-StatusUtility =
-ModernitySignal
-+ TechIdentity
-+ EnvironmentalIdentity
-- PerceivedExperimentRisk
-- ResaleStigma
-\]
+$$StatusUtility = ModernitySignal + TechIdentity + EnvironmentalIdentity - PerceivedExperimentRisk - ResaleStigma$$
 
 Segment by:
 - income;
@@ -462,11 +372,7 @@ driver ≠ fleet manager ≠ CFO ≠ procurement ≠ risk/legal ≠ owner
 
 Decision alignment:
 
-\[
-A_{decision}
-=
-1-\frac{Conflict(Preferences,Costs,Risks)}{Conflict_{max}}
-\]
+$$A_{decision} = 1-\frac{Conflict(Preferences,Costs,Risks)}{Conflict_{max}}$$
 
 Low alignment increases sales-cycle latency and adoption friction.
 
@@ -489,13 +395,7 @@ EV adds a new operational grammar:
 
 Cognitive friction:
 
-\[
-C_{cog}=
-Steps
-\times Ambiguity
-\times ExceptionRate
-\times LearningCost
-\]
+$$C_{cog}= Steps \times Ambiguity \times ExceptionRate \times LearningCost$$
 
 A superior system reduces **decision count**, not just charging minutes.
 
@@ -527,48 +427,11 @@ Do not infer health outcomes from subjective comfort alone.
 
 ## 5.1 Fleet is not one variable
 
-\[
-F_t=
-[
-FleetSize,
-VehicleMix,
-Utilization,
-DutyCycle,
-RouteTopology,
-ChargeSchedule,
-DepotTopology,
-MaintenanceCapacity,
-DriverBehavior,
-FinanceStructure,
-ResidualValue
-]
-\]
+$$F_t= [ FleetSize, VehicleMix, Utilization, DutyCycle, RouteTopology, ChargeSchedule, DepotTopology, MaintenanceCapacity, DriverBehavior, FinanceStructure, ResidualValue ]$$
 
 Fleet economics:
 
-\[
-TCO_{fleet}
-=
-CAPEX
-+
-Energy
-+
-Finance
-+
-Maintenance
-+
-Insurance
-+
-BatteryLoss
-+
-Downtime
-+
-ChargingInfra
-+
-Operations
--
-ResidualValue
-\]
+$$TCO_{fleet} = CAPEX + Energy + Finance + Maintenance + Insurance + BatteryLoss + Downtime + ChargingInfra + Operations - ResidualValue$$
 
 The corpus’s strongest strategic thesis is that **operations can dominate vehicle purchase-price advantage**.
 
@@ -597,30 +460,15 @@ Because asset ownership without operational reliability can destroy economics.
 
 Critical KPIs:
 
-\[
-CostPerActiveKm=
-\frac{TotalLifecycleCost}{RevenueKm}
-\]
+$$CostPerActiveKm= \frac{TotalLifecycleCost}{RevenueKm}$$
 
-\[
-Availability=
-\frac{ScheduledTime-Downtime}{ScheduledTime}
-\]
+$$Availability= \frac{ScheduledTime-Downtime}{ScheduledTime}$$
 
-\[
-RevenueUtilization=
-\frac{RevenueKm}{TotalKm}
-\]
+$$RevenueUtilization= \frac{RevenueKm}{TotalKm}$$
 
-\[
-ChargeProductivity=
-\frac{kWhDelivered}{ChargerConnectedHours}
-\]
+$$ChargeProductivity= \frac{kWhDelivered}{ChargerConnectedHours}$$
 
-\[
-DriverProductivity=
-\frac{RevenueTime}{ShiftTime}
-\]
+$$DriverProductivity= \frac{RevenueTime}{ShiftTime}$$
 
 A fleet operator can lose despite low electricity cost if availability falls.
 
@@ -630,16 +478,7 @@ A fleet operator can lose despite low electricity cost if availability falls.
 
 Station utility:
 
-\[
-U_j=
-DemandFit_j
-\times RouteFit_j
-\times PowerFit_j
-\times DwellFit_j
-\times Reliability_j
--
-AccessCost_j
-\]
+$$U_j= DemandFit_j \times RouteFit_j \times PowerFit_j \times DwellFit_j \times Reliability_j - AccessCost_j$$
 
 Location data must include:
 - trip origins/destinations;
@@ -663,21 +502,11 @@ A “good map location” can be a bad operational location.
 
 Define charger reliability:
 
-\[
-Availability_{charger}
-=
-\frac{TotalTime-UnplannedDowntime}{TotalTime}
-\]
+$$Availability_{charger} = \frac{TotalTime-UnplannedDowntime}{TotalTime}$$
 
-\[
-MTBF=
-\frac{OperatingHours}{Failures}
-\]
+$$MTBF= \frac{OperatingHours}{Failures}$$
 
-\[
-MTTR=
-\frac{TotalRepairTime}{RepairEvents}
-\]
+$$MTTR= \frac{TotalRepairTime}{RepairEvents}$$
 
 Also track:
 
@@ -722,19 +551,7 @@ Discriminating metrics:
 
 Candidate flywheel:
 
-\[
-Fleet
-\rightarrow
-ChargingDemand
-\rightarrow
-OperationalData
-\rightarrow
-Optimization
-\rightarrow
-LowerTCO
-\rightarrow
-MoreFleet
-\]
+$$Fleet \rightarrow ChargingDemand \rightarrow OperationalData \rightarrow Optimization \rightarrow LowerTCO \rightarrow MoreFleet$$
 
 But flywheels fail when:
 - data is siloed;
@@ -750,31 +567,11 @@ But flywheels fail when:
 
 Battery state:
 
-\[
-B_t=
-[
-SoC,SoH,Temperature,VoltageSpread,CurrentHistory,
-FastChargeRatio,DepthOfDischarge,CycleCount,
-CalendarAge,ThermalExposure,FaultHistory
-]
-\]
+$$B_t= [ SoC,SoH,Temperature,VoltageSpread,CurrentHistory, FastChargeRatio,DepthOfDischarge,CycleCount, CalendarAge,ThermalExposure,FaultHistory ]$$
 
 ## 6.1 Degradation model candidate
 
-\[
-\Delta SoH
-=
-f(
-Temperature,
-C\text{-rate},
-DoD,
-SOC_{avg},
-CalendarAge,
-DriveLoad,
-CellChemistry
-)
-+\epsilon
-\]
+$$\Delta SoH = f( Temperature, C\text{-rate}, DoD, SOC_{avg}, CalendarAge, DriveLoad, CellChemistry ) +\epsilon$$
 
 Vietnam-specific study envelope:
 - hot/humid urban use;
@@ -789,11 +586,7 @@ Do not pool chemistries or OEMs without compatibility checks.
 
 ## 6.2 Battery economics
 
-\[
-BatteryCostPerKm
-=
-\frac{ExpectedReplacementCost+DegradationValueLoss}{LifetimeKm}
-\]
+$$BatteryCostPerKm = \frac{ExpectedReplacementCost+DegradationValueLoss}{LifetimeKm}$$
 
 Expected replacement cost should be probability-weighted, not assumed.
 
@@ -803,69 +596,21 @@ Expected replacement cost should be probability-weighted, not assumed.
 
 Charging state:
 
-\[
-C_t=
-[
-Location,
-Connector,
-RatedPower,
-ActualPower,
-Queue,
-SessionSuccess,
-EnergyDelivered,
-Price,
-GridConstraint,
-ThermalState,
-FaultState,
-PaymentState
-]
-\]
+$$C_t= [ Location, Connector, RatedPower, ActualPower, Queue, SessionSuccess, EnergyDelivered, Price, GridConstraint, ThermalState, FaultState, PaymentState ]$$
 
 ## 7.1 Effective charging power
 
-\[
-P_{eff}
-=
-min(
-P_{charger},
-P_{vehicle},
-P_{battery}(SoC,T),
-P_{grid},
-P_{thermal}
-)
-\]
+$$P_{eff} = min( P_{charger}, P_{vehicle}, P_{battery}(SoC,T), P_{grid}, P_{thermal} )$$
 
 Rated charger power is not user-experienced power.
 
 ## 7.2 Station economics
 
-\[
-Revenue_j=
-\sum_t kWh_{j,t}\cdot Margin_{j,t}
-+AncillaryRevenue
-\]
+$$Revenue_j= \sum_t kWh_{j,t}\cdot Margin_{j,t} +AncillaryRevenue$$
 
-\[
-EBITDA_j=
-Revenue_j
--
-EnergyCost_j
--
-Lease_j
--
-O\&M_j
--
-Network_j
--
-PaymentCost_j
--
-DemandCharges_j
-\]
+$$EBITDA_j= Revenue_j - EnergyCost_j - Lease_j - O\&M_j - Network_j - PaymentCost_j - DemandCharges_j$$
 
-\[
-ROI_j=
-\frac{CashFlow_j}{InvestedCapital_j}
-\]
+$$ROI_j= \frac{CashFlow_j}{InvestedCapital_j}$$
 
 This converts “station count” into actual infrastructure economics.
 
@@ -877,25 +622,11 @@ A charging network is constrained by the electrical system.
 
 Node state:
 
-\[
-G_n(t)=
-[
-Capacity,
-ExistingLoad,
-EVLoad,
-TransformerHeadroom,
-Voltage,
-PowerQuality,
-ConnectionQueue,
-UpgradeCost
-]
-\]
+$$G_n(t)= [ Capacity, ExistingLoad, EVLoad, TransformerHeadroom, Voltage, PowerQuality, ConnectionQueue, UpgradeCost ]$$
 
 Headroom:
 
-\[
-H_n(t)=Capacity_n-ExistingLoad_n(t)-CommittedLoad_n(t)
-\]
+$$H_n(t)=Capacity_n-ExistingLoad_n(t)-CommittedLoad_n(t)$$
 
 Station approval without realistic headroom can create:
 - derating;
@@ -914,44 +645,17 @@ The corpus identifies a national policy regime around decarbonization, EV incent
 
 MAX DETAIL separates policy into:
 
-\[
-Policy_t=
-[
-Fiscal,
-Registration,
-RoadAccess,
-Emissions,
-Charging,
-Grid,
-FireSafety,
-Building,
-Import,
-Localization,
-Finance,
-Data,
-Cybersecurity
-]
-\]
+$$Policy_t= [ Fiscal, Registration, RoadAccess, Emissions, Charging, Grid, FireSafety, Building, Import, Localization, Finance, Data, Cybersecurity ]$$
 
 ## 9.1 Policy dependency score
 
-\[
-PD=
-\frac{ProfitWithPolicy-ProfitWithoutPolicy}{|ProfitWithPolicy|+\epsilon}
-\]
+$$PD= \frac{ProfitWithPolicy-ProfitWithoutPolicy}{|ProfitWithPolicy|+\epsilon}$$
 
 High `PD` means business-model fragility to policy change.
 
 ## 9.2 Post-incentive resilience
 
-\[
-Resilience_{post}
-=
-Margin_{no\ subsidy}
-\times Demand_{no\ subsidy}
-\times CapitalAccess
-\times OperationalEfficiency
-\]
+$$Resilience_{post} = Margin_{no\ subsidy} \times Demand_{no\ subsidy} \times CapitalAccess \times OperationalEfficiency$$
 
 A company can grow quickly during subsidy windows and still be structurally weak.
 
@@ -996,16 +700,7 @@ standards compatibility
 
 Competitive vector:
 
-\[
-Competitiveness_o=
-Price
-\times ProductFit
-\times Serviceability
-\times CapitalSupport
-\times SupplyContinuity
-\times FleetFit
-\times Trust
-\]
+$$Competitiveness_o= Price \times ProductFit \times Serviceability \times CapitalSupport \times SupplyContinuity \times FleetFit \times Trust$$
 
 Low price alone is insufficient.
 
@@ -1019,19 +714,7 @@ Never use “99% hidden” as a literal quantified fact unless measured.
 
 Define:
 
-\[
-GapState=
-[
-Known,
-UnknownKnown,
-UnknownUnknown,
-Unavailable,
-Proprietary,
-Stale,
-LowQuality,
-Conflicting
-]
-\]
+$$GapState= [ Known, UnknownKnown, UnknownUnknown, Unavailable, Proprietary, Stale, LowQuality, Conflicting ]$$
 
 ## 11.1 Eight strategic blind spots
 
@@ -1165,56 +848,27 @@ Derived state cannot outrank raw-source quality.
 
 ## 14.1 Cost per km
 
-\[
-CPK=
-\frac{
-Energy+Maintenance+Finance+Insurance+Battery+Downtime+Ops
-}{RevenueKm}
-\]
+$$CPK= \frac{ Energy+Maintenance+Finance+Insurance+Battery+Downtime+Ops }{RevenueKm}$$
 
 ## 14.2 Revenue loss from charging
 
-\[
-Loss_{charge}
-=
-QueueTime\cdot RevRate
-+
-ChargeTime\cdot OpportunityFactor
-+
-DeadheadKm\cdot CPK
-\]
+$$Loss_{charge} = QueueTime\cdot RevRate + ChargeTime\cdot OpportunityFactor + DeadheadKm\cdot CPK$$
 
 ## 14.3 Charging congestion
 
-For arrival rate \(\lambda\) and service rate \(\mu\):
+For arrival rate $\lambda$ and service rate $\mu$:
 
-\[
-\rho=\frac{\lambda}{c\mu}
-\]
+$$\rho=\frac{\lambda}{c\mu}$$
 
 Queueing approximations can be used only if station-arrival assumptions are tested.
 
 ## 14.4 Fleet availability
 
-\[
-A_f=
-1-
-\frac{
-MaintenanceDowntime+
-ChargingDowntime+
-FaultDowntime
-}{
-ScheduledFleetHours
-}
-\]
+$$A_f= 1- \frac{ MaintenanceDowntime+ ChargingDowntime+ FaultDowntime }{ ScheduledFleetHours }$$
 
 ## 14.5 Effective vehicle requirement
 
-\[
-N_{required}
-=
-\frac{DemandHours}{VehicleAvailableHours}
-\]
+$$N_{required} = \frac{DemandHours}{VehicleAvailableHours}$$
 
 Reducing downtime can substitute for buying more vehicles.
 
@@ -1226,38 +880,17 @@ Corpus proposes data advantage as strategic moat.
 
 Formalize cautiously:
 
-\[
-DataValue
-=
-Coverage
-\times Quality
-\times Freshness
-\times CrossBrandBreadth
-\times DecisionRelevance
-\]
+$$DataValue = Coverage \times Quality \times Freshness \times CrossBrandBreadth \times DecisionRelevance$$
 
 Network value candidate:
 
-\[
-V_N
-=
-N_{fleets}^{\alpha}
-N_{stations}^{\beta}
-N_{vehicles}^{\gamma}
-Interoperability
-\]
+$$V_N = N_{fleets}^{\alpha} N_{stations}^{\beta} N_{vehicles}^{\gamma} Interoperability$$
 
-But high \(N\) with poor quality can still create low value.
+But high $N$ with poor quality can still create low value.
 
 Flywheel strength:
 
-\[
-Flywheel=
-DataGain
-\times CostImprovement
-\times Retention
-\times Acquisition
-\]
+$$Flywheel= DataGain \times CostImprovement \times Retention \times Acquisition$$
 
 If any term is near zero, the loop weakens.
 
@@ -1373,9 +1006,7 @@ Triggers:
 
 Core question:
 
-\[
-Profitability_{no\ subsidy}>0?
-\]
+$$Profitability_{no\ subsidy}>0?$$
 
 ## Regime R4 — consolidation
 
@@ -1644,17 +1275,7 @@ If charger A goes offline, invalidate only dependent proposals.
 
 A route/charge action should be atomic as a semantic package:
 
-\[
-Tx=
-\{
-VehicleAssignment,
-ChargeReservation,
-Route,
-EnergyBudget,
-DriverConstraint,
-Fallback
-\}
-\]
+$$Tx= \{ VehicleAssignment, ChargeReservation, Route, EnergyBudget, DriverConstraint, Fallback \}$$
 
 Partial commit can create failure:
 
@@ -1775,17 +1396,7 @@ Every executive KPI should be decomposable into operational evidence.
 
 # 30. Decision scorecard for a fleet EV conversion
 
-\[
-Score =
-w_1 TCOAdv
-+w_2 Availability
-+w_3 ChargeFit
-+w_4 ServiceFit
-+w_5 ResidualValue
-+w_6 PolicyFit
-+w_7 DataFit
--w_8 TailRisk
-\]
+$$Score = w_1 TCOAdv +w_2 Availability +w_3 ChargeFit +w_4 ServiceFit +w_5 ResidualValue +w_6 PolicyFit +w_7 DataFit -w_8 TailRisk$$
 
 Hard gates override weighted score:
 
@@ -1802,16 +1413,7 @@ Weighted optimization may never override hard viability constraints.
 
 # 31. Station investment gate
 
-\[
-Invest_j =
-DemandFit
-\land GridFit
-\land LandFit
-\land AccessFit
-\land UnitEconomics
-\land O\&MFit
-\land RegulatoryFit
-\]
+$$Invest_j = DemandFit \land GridFit \land LandFit \land AccessFit \land UnitEconomics \land O\&MFit \land RegulatoryFit$$
 
 A station is not “good” because traffic is high.
 
@@ -1821,15 +1423,7 @@ It must fit actual charging demand and dwell behavior.
 
 # 32. Battery-risk gate
 
-\[
-BatteryRisk=
-ThermalRisk+
-FastChargeStress+
-DutyCycleStress+
-CellVariance+
-FaultHistory+
-FloodExposure
-\]
+$$BatteryRisk= ThermalRisk+ FastChargeStress+ DutyCycleStress+ CellVariance+ FaultHistory+ FloodExposure$$
 
 Action classes:
 
@@ -2087,15 +1681,7 @@ control point = data
 
 MAX DETAIL refines this:
 
-\[
-ControlPoint
-=
-Data
-\times WorkflowIntegration
-\times DecisionRights
-\times ExecutionReach
-\times Trust
-\]
+$$ControlPoint = Data \times WorkflowIntegration \times DecisionRights \times ExecutionReach \times Trust$$
 
 Raw data without execution/workflow access is weak.
 
@@ -2275,22 +1861,7 @@ EV = vehicle + charger
 
 It is:
 
-\[
-EVSystem
-=
-Vehicle
-\times Battery
-\times Charging
-\times Grid
-\times Fleet
-\times Operations
-\times Service
-\times Data
-\times Finance
-\times Policy
-\times HumanBehavior
-\times Governance
-\]
+$$EVSystem = Vehicle \times Battery \times Charging \times Grid \times Fleet \times Operations \times Service \times Data \times Finance \times Policy \times HumanBehavior \times Governance$$
 
 The likely highest-leverage layer is not raw data alone but **governed operational intelligence that converts multi-brand observations into measurable, authorized, reversible improvements in fleet economics and infrastructure reliability**.
 
@@ -2324,7 +1895,6 @@ Before external publication or capital allocation, high-impact statements should
 # APPENDIX B — ORIGINAL SOURCE CORPUS, CLEANED AND PRESERVED
 
 The following is the visible text extracted from the attached source artifact. It is preserved for lineage and auditing; its inclusion is not empirical validation.
-
 
 
 ```text

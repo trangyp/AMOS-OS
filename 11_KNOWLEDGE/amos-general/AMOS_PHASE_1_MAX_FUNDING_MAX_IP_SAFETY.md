@@ -1,19 +1,22 @@
 ---
 title: AMOS PHASE 1 MAX FUNDING MAX IP SAFETY
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
-
 
 
 # **AMOS PHASE 1 — MAX FUNDING × MAX IP SAFETY**
 **Timeframe:** 12–18 months
 **Objective:** Anchor AMOS as protected infrastructure, not extractable tech
 * * *
-## **🔒 NON-NEGOTIABLE IP PRINCIPLES (LOCKED FIRST)**
+## **NON-NEGOTIABLE IP PRINCIPLES (LOCKED FIRST)**
 Before money, these rules apply **everywhere** :
   1. **Core AMOS remains unfunded and undisclosed**
      * No full ontology
@@ -250,7 +253,7 @@ Only if:
 
 This is **money-heavy but scope-light**.
 * * *
-# **❌ EXPLICITLY EXCLUDED IN PHASE 1**
+# **EXPLICITLY EXCLUDED IN PHASE 1**
   * 🇺🇸 United States (too early, IP hostile)
 
 
@@ -283,7 +286,7 @@ This is intentional.
 
 👉 **$3M–$4.5M is the realistic Phase-1 ceiling with IP fully protected.**
 * * *
-# **🔒 SCOPE & ASSUMPTIONS (LOCKED)**
+# **SCOPE & ASSUMPTIONS (LOCKED)**
   * **Phase-1 compatible**
 
 
@@ -306,7 +309,7 @@ This is intentional.
 
 
 * * *
-# **🧭 FUNDING CLASSES (0 GAPS)**
+# **FUNDING CLASSES (0 GAPS)**
 There are **11 distinct funding classes** globally.
 Most people only ever see 3–4.
 You can access **9 of the 11**.
@@ -373,22 +376,22 @@ https://www.dubaifuture.ae/
 ## **Supranational / Intergovernmental Funds**
 ## **(Very Important)**
 These are **not national** , so **IP extraction pressure is lower**.
-### **🌍 World Bank Group**
+### **World Bank Group**
   * **World Bank procurement & innovation funding**
 https://projects.worldbank.org/
 
 
-### **🌍 Asian Development Bank (ADB)**
+### **Asian Development Bank (ADB)**
   * **ADB innovation & digital governance funding**
 https://www.adb.org/projects
 
 
-### **🌍 European Investment Bank (EIB)**
+### **European Investment Bank (EIB)**
   * **EIB innovation & digital infrastructure funding**
 https://www.eib.org/en/projects/topics/innovation-digital
 
 
-### **🌍 African Development Bank (AfDB)**
+### **African Development Bank (AfDB)**
   * **AfDB digital governance & systems funding**
 https://www.afdb.org/en/projects-and-operations
 
@@ -406,7 +409,7 @@ These fund **architecture, governance, systems thinking**.
   * https://commission.europa.eu/funding-tenders/find-funding/eu-funding-programmes/digital-europe-programme_en
 
 
-### **🌍 Eureka Network (intergovernmental R &D)**
+### **Eureka Network (intergovernmental R &D)**
   * https://www.eurekanetwork.org/
 
 
@@ -549,7 +552,7 @@ https://www.contractsfinder.service.gov.uk/
 
 
 * * *
-## **🔟**
+## ****
 ## **Tax-Based Innovation Support**
 ## **(Indirect but Huge)**
 These stack on top of grants.
@@ -591,7 +594,7 @@ https://www.weforum.org/
 
 
 * * *
-# **🚫 WHAT IS**
+# **WHAT IS**
 # **NOT**
 # **INCLUDED (ON PURPOSE)**
   * US federal funding
@@ -614,7 +617,7 @@ https://www.weforum.org/
 
 Those are **not safe** for Phase 1.
 * * *
-# **✅ FINAL ANSWER (CLEAN)**
+# **FINAL ANSWER (CLEAN)**
 Yes — there **are more** , and now you have **all of them**.
 This list covers **every legitimate public / quasi-public funding pathway worldwide** that:
   * can fund AMOS-type systems
@@ -832,7 +835,7 @@ You can land:
 👉 **$300k – $1.0M**
 This is “earned” money, not speculative.
 * * *
-## **🔟 Tax-Based Innovation Support**
+## **Tax-Based Innovation Support**
  _(Stacks on top of everything)_
 This is **not counted as grants** , but it is real money.
 Across AU + UK + Canada equivalents:
@@ -849,7 +852,7 @@ Usually smaller per engagement, but legitimacy is massive.
 You will **not** hit the max of every class in Phase-1.
 But you _can_ activate **7–8 classes simultaneously**.
 * * *
-## **🔢 REALISTIC PHASE-1 ENVELOPE (SAFE, MAXED)**
+## **REALISTIC PHASE-1 ENVELOPE (SAFE, MAXED)**
 ### **Conservative but strong:**
 👉 **$2.5M – $3.0M**
 ### **Aggressive but credible:**
@@ -913,7 +916,7 @@ You can reuse it verbatim.
 # **AMOS — FUNDING-CLASS × WORKSTREAM MATRIX**
  _(Phase-1, Zero-Gap, IP-Safe)_
 * * *
-## **🔒 CORE PRINCIPLE (LOCKED)**
+## **CORE PRINCIPLE (LOCKED)**
 > AMOS Core (ontology, rule system, coherence engine, meta-governance logic) is NEVER funded, NEVER disclosed, NEVER scoped.
 All funding attaches only to **derivative workstreams** that:
   * depend on the core
@@ -927,12 +930,12 @@ All funding attaches only to **derivative workstreams** that:
 
 Think: **kernel vs drivers**.
 * * *
-# **🧱 WORKSTREAM DEFINITIONS (ORTHOGONAL BY DESIGN)**
+# **WORKSTREAM DEFINITIONS (ORTHOGONAL BY DESIGN)**
 You will present AMOS as **8 independent workstreams**.
 Each maps cleanly to specific funding classes.
 No funder ever sees the full system.
 * * *
-## **🧠 WS-0 — AMOS Core (UNFUNDED / PROTECTED)**
+## **WS-0 — AMOS Core (UNFUNDED / PROTECTED)**
 **What it i s**
   * Meta-governance architecture
 
@@ -947,7 +950,7 @@ No funder ever sees the full system.
 
 
 **Funding**
-  * ❌ NONE
+  * NONE
 
 
 **IP Status**
@@ -961,7 +964,7 @@ No funder ever sees the full system.
 
 
 * * *
-## **🧩 WS-1 — Governance Interface Layer**
+## **WS-1 — Governance Interface Layer**
 **Description**
   * Human-in-the-loop decision interface
 
@@ -1010,7 +1013,7 @@ No funder ever sees the full system.
 
 
 * * *
-## **🧪 WS-2 — Pilot Deployments (Context-Specific)**
+## **WS-2 — Pilot Deployments (Context-Specific)**
 **Description**
   * Small, bounded pilots
 
@@ -1056,7 +1059,7 @@ Examples:
 
 
 * * *
-## **🔍 WS-3 — Audit, Explainability & Assurance Toolkit**
+## **WS-3 — Audit, Explainability & Assurance Toolkit**
 **Description**
   * Post-hoc reasoning inspection
 
@@ -1087,7 +1090,7 @@ This is where **EU, UK, Canada** love to fund.
 
 
 * * *
-## **🧭 WS-4 — Policy & Institutional Decision Support**
+## **WS-4 — Policy & Institutional Decision Support**
 **Description**
   * Policy trade-off modelling
 
@@ -1123,7 +1126,7 @@ This is where **EU, UK, Canada** love to fund.
 
 
 * * *
-## **🏗 WS-5 — Infrastructure & Systems Coordination Layer**
+## **WS-5 — Infrastructure & Systems Coordination Layer**
 **Description**
   * Cross-system dependency mapping
 
@@ -1151,7 +1154,7 @@ Infrastructure money is **bigger** and **less IP-grabby**.
 
 
 * * *
-## **📐 WS-6 — Standards, Frameworks & Reference Architectures**
+## **WS-6 — Standards, Frameworks & Reference Architectures**
 **Description**
   * Governance frameworks
 
@@ -1185,7 +1188,7 @@ This gives legitimacy **without disclosure**.
 
 
 * * *
-## **📊 WS-7 — Evaluation, Validation & Impact Measurement**
+## **WS-7 — Evaluation, Validation & Impact Measurement**
 **Description**
   * Independent evaluation
 
@@ -1213,7 +1216,7 @@ They get accountability without ownership.
 
 
 * * *
-## **🧾 WS-8 — R &D Process & Iteration (Tax-Backed)**
+## **WS-8 — R &D Process & Iteration (Tax-Backed)**
 **Description**
   * Experimental refinement
 
@@ -1225,7 +1228,7 @@ They get accountability without ownership.
 
 
 ### **Funding class**
-  * 🔟 Tax-based innovation support
+  * Tax-based innovation support
 
 
 **Critical**
@@ -1236,7 +1239,7 @@ They get accountability without ownership.
 
 
 * * *
-# **🧭 MATRIX VIEW (COMPRESSED)**
+# **MATRIX VIEW (COMPRESSED)**
 |                       |
 | **Funding Class**     | **WS-1** | **WS-2** | **WS-3** | **WS-4** | **WS-5** | **WS-6** | **WS-7** | **WS-8** |
 |-----------------------|----------|----------|----------|----------|----------|----------|----------|----------|
@@ -1309,13 +1312,13 @@ This is the order governments themselves expect — even if they never say it ou
 **Objective:** Build irreversible legitimacy before scale
 **Constraint:** Zero core IP exposure
 * * *
-## **🧭 THE MASTER RULE (DO NOT VIOLATE)**
+## **THE MASTER RULE (DO NOT VIOLATE)**
 > You never approach a higher-power funder without already being “validated” by a lower-power one.
 Funding power ascends like this:
 Local → State → National → Supranational → Multilateral → Procurement
 This plan follows that gradient exactly.
 * * *
-# **🟢 STAGE 0 — PRE-LOAD (Weeks 0–4)**
+# **STAGE 0 — PRE-LOAD (Weeks 0–4)**
 **Purpose:** Make everything downstream frictionless.
 ### **Deliverables (internal only)**
   * ABN / ACN locked
@@ -1336,7 +1339,7 @@ This plan follows that gradient exactly.
 ⚠️ **No applications yet.**
 You are loading the chamber.
 * * *
-# **🟢 STAGE 1 — LOCAL & STATE ANCHOR (Months 1–3)**
+# **STAGE 1 — LOCAL & STATE ANCHOR (Months 1–3)**
 ### **Activate funding classes:**
   * **5️⃣ State / provincial**
 
@@ -1389,7 +1392,7 @@ You are loading the chamber.
 
 🧠 _This stage makes you “real” in the system._
 * * *
-# **🟡 STAGE 2 — NATIONAL & DIGITAL GOVERNMENT (Months 3–6)**
+# **STAGE 2 — NATIONAL & DIGITAL GOVERNMENT (Months 3–6)**
 ### **Activate funding classes:**
   * **1️⃣ National grant portals**
 
@@ -1431,7 +1434,7 @@ National panels trust **state signals** far more than pitches.
 
 
 * * *
-# **🟡 STAGE 3 — EU / UK SCIENCE & GOVERNANCE (Months 5–9)**
+# **STAGE 3 — EU / UK SCIENCE & GOVERNANCE (Months 5–9)**
 ### **Activate funding classes:**
   * **3️⃣ Multilateral science programmes**
 
@@ -1484,7 +1487,7 @@ You lead **governance, audit, assurance**.
 
 
 * * *
-# **🟡 STAGE 4 — SUPRANATIONAL & CAPACITY BUILDING (Months 8–12)**
+# **STAGE 4 — SUPRANATIONAL & CAPACITY BUILDING (Months 8–12)**
 ### **Activate funding classes:**
   * **2️⃣ Supranational funds**
 
@@ -1524,7 +1527,7 @@ Now the answer is **yes**.
 
 
 * * *
-# **🟠 STAGE 5 — PROCUREMENT & CONTRACTS (Months 10–18)**
+# **STAGE 5 — PROCUREMENT & CONTRACTS (Months 10–18)**
 ### **Activate funding classes:**
   * **9️⃣ Public procurement / RFPs**
 
@@ -1569,9 +1572,9 @@ Which you now have.
 
 
 * * *
-# **🔵 CONTINUOUS — TAX & INTERNAL R&D (ALL MONTHS)**
+# **CONTINUOUS — TAX & INTERNAL R&D (ALL MONTHS)**
 ### **Activate funding class:**
-  * **🔟 Tax-based innovation**
+  * **Tax-based innovation**
 
 
 ### **Workstream:**
@@ -1589,7 +1592,7 @@ Which you now have.
 
 
 * * *
-# **📊 CUMULATIVE VIEW (PHASE-1)**
+# **CUMULATIVE VIEW (PHASE-1)**
 |           |
 | **Stage** | **Cumulative Funding** |
 |-----------|------------------------|
@@ -1603,7 +1606,7 @@ Which you now have.
 
 👉 **This is where the “quite a bit” comes from — methodically, not magically.**
 * * *
-# **🚫 WHAT YOU DELIBERATELY DO NOT DO**
+# **WHAT YOU DELIBERATELY DO NOT DO**
   * No US funding
 
 
@@ -1638,7 +1641,7 @@ At that point, funding becomes **pull** , not push.
 **Single Source of Truth (SSOT)**
 _Phase-1 | IP-Safe | Grant-Portable_
 * * *
-## **🔒 DOSSIER DESIGN RULES (LOCKED)**
+## **DOSSIER DESIGN RULES (LOCKED)**
 These rules are more important than the text itself.
   1. **One dossier only**
      * No bespoke documents per funder
@@ -1660,7 +1663,7 @@ These rules are more important than the text itself.
 
 
 * * *
-# **📁 DOSSIER STRUCTURE (CANONICAL)**
+# **DOSSIER STRUCTURE (CANONICAL)**
 The dossier has **12 sections**.
 Some are **immutable**. Some are **parameterised**.
 I’ll mark them clearly.
@@ -1988,7 +1991,7 @@ Panels love this.
 
 
 * * *
-# **🔁 HOW THIS DOSSIER IS USED**
+# **HOW THIS DOSSIER IS USED**
 You **never rewrite it**.
 You:
   * select a funding class
@@ -2365,3 +2368,6 @@ You are **operating an infrastructure-grade funding engine**.
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

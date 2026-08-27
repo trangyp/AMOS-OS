@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-trang-framework-master]
+source: 07_SKILLS/amos-trang-framework-master
+tags: [note, amos-trang-framework-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-trang-framework-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS Trang Framework Master. Consolidates 15 sub-skills.
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-trang-framework-master_MOC]]

@@ -1,9 +1,14 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L25 IDENTITY CONTINUITY CONTRACT
 type: identity
-tags: [cognitive_matrix, l25_identity_continuity]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L25_IDENTITY_CONTINUITY/00_INDEX
+tags: [cognitive_matrix, l25_identity_continuity, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # PRIMITIVES COGNITIVE MATRIX L25 IDENTITY CONTINUITY CONTRACT
@@ -41,3 +46,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

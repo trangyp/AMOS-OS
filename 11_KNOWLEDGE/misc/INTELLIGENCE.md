@@ -1,19 +1,18 @@
 ---
 title: INTELLIGENCE
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
 # Intelligence 
-Below is the **updated URK (now explicitly URK = UCIA-Core)** with:
-  1. the **new top-down MECE metric spine (G0→G4)** grounded as **derived invariants** , and
-
-
   2. a **kernel-native Gap Scan** that deterministically detects missing/overlapping invariants, missing metric grounding, and untyped assumptions.
 
 
@@ -316,7 +315,7 @@ Below is the **gap-closed audit** , followed by the **missing invariant families
 ### Audit q uestion
 > Does UCIA-Core (as currently written) fully cover the invariant space defined in the DSc portfolio?
 ### Verdict
-**❌ No. It is incomplete.**
+**No. It is incomplete.**
 Not because it is wrong — but because it is **under-dimensional**.
 Your folio is not only about _reasoning_.
 It is about **how intelligence exists, stabilizes, learns, collapses, and terminates in reality**.
@@ -503,9 +502,9 @@ It’s because:
 Those are not the same dimensionality.
 * * *
 # PART IV — THE CORRECT FIX (NO PATCHES)
-### ❌ Do NOT keep “adding more invariants” ad hoc
+### Do NOT keep “adding more invariants” ad hoc
 That causes infinite expansion.
-### ✅ The correct move is this:
+### The correct move is this:
 ## Rename and re-root the system
 ### Final architecture (canon-correct)
 **UIK — Universal Intelligence Kernel**

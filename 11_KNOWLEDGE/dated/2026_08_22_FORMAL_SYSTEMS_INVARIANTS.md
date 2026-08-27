@@ -1,6 +1,7 @@
 ---
 title: 2026 08 22 FORMAL SYSTEMS INVARIANTS
 type: invariant
+source: 11_KNOWLEDGE/dated
 origin_architect: Trang Phan (supplied corpus)
 provenance: user-supplied formal invariant catalog (Inv 701–1000), C301–C500 constraint catalog, G–N–D–C–B dynamical system, 19×19 sparse coupling matrix, micro↔macro 100k-year civilization map
 confidence: 0.92
@@ -8,8 +9,12 @@ epistemic_class: SOURCE_DERIVED
 conclusion_label: VERIFIED_PRESENT
 tags: [canon-group/human-system, canon/metric, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-formal-systems-invariants, dated, dated/2026-08-22]
 date: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
-
 
 
 # Formal Systems Invariants & Civilizational Dynamical Model (Trang Phan)

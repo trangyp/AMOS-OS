@@ -1,12 +1,15 @@
 ---
 title: NHUNG CAI TEN THANH CONG NHAT AND TAI SAN RONG SPITI
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # NHỮNG CÁI TÊN THÀNH CÔNG NHẤT & TÀI SẢN RÒNG SPITIUAL
@@ -27,7 +30,7 @@ Những con số này cho thấy: **các nhà lãnh đạo tinh thần có thể
 * * *
 ## 2. MÔ HÌNH KINH DOANH: CẤU TRÚC 3 TẦNG [L-M-H] CỦA SỰ GIÀU CÓ
 Áp dụng **Trang ∅ Framework** vào các đế chế này, ta thấy một mô hình chung hoàn hảo:
-### 🧱 Tầng L (Nền tảng – Sản phẩm "giá rẻ" để thu hút)
+### Tầng L (Nền tảng – Sản phẩm "giá rẻ" để thu hút)
 Đây là nơi xây dựng **niềm tin ban đầu** và tạo ra số lượng lớn "tín đồ" tiềm năng.
   * **Tony Robbins** : Sách giấy bìa mềm (giá ~20 USD), các khóa học online nhỏ (~250 USD) .
 
@@ -51,7 +54,7 @@ Những con số này cho thấy: **các nhà lãnh đạo tinh thần có thể
   * Không kiếm lời nhiều ở đây, nhưng đây là _cửa trước_ để bán được các gói "cao cấp" hơn.
 
 
-### 🔗 Tầng M (Trung gian – "Hội viên" và "Đặc quyền")
+### Tầng M (Trung gian – "Hội viên" và "Đặc quyền")
 Đây là nơi vận hành **" vòng lặp đóng" (Closed Loop)**, nơi khách hàng trả tiền định kỳ để nhận được sự công nhận hoặc "thuộc về" một cộng đồng đặc biệt.
   * **Tony Robbins** : Chương trình "Platinum Partnership" (85,000 USD/năm) cho các CEO và doanh nhân, các gói coaching cao cấp, hội thảo "Business Mastery" (~10,000 USD) .
 
@@ -72,7 +75,7 @@ Những con số này cho thấy: **các nhà lãnh đạo tinh thần có thể
   * Đây là nguồn thu chính giúp họ trở nên giàu có.
 
 
-### 👑 Tầng H (Đỉnh – "Quyền lực" & "Thương hiệu")
+### Tầng H (Đỉnh – "Quyền lực" & "Thương hiệu")
 Ở tầng này, bản thân **cái tên của họ** đã là một tài sản, một "câu chuyện" có giá trị khổng lồ.
   * **Tony Robbins** : Được mời nói chuyện riêng cho các tập đoàn lớn, các nhà lãnh đạo thế giới (phí mời nói chuyện lên đến **750,000 USD/buổi**) . Ông còn đầu tư vào hàng chục công ty khởi nghiệp và bất động sản .
 
@@ -439,9 +442,7 @@ Dòng tiền: **1–3 tỷ euro/năm** , nhưng **không có báo cáo tài chí
 Trong vật lý, entropy luôn tăng.
 Trong tôn giáo – tâm linh, có những hệ thống **tự giảm entropy** mà không cần năng lượng bên ngoài.
 **Công thức theo Trang ∅** :
-\[  
-\frac{dS}{dt} < 0 \quad \text{mà không cần đầu vào năng lượng}  
-\]
+$$\frac{dS}{dt} < 0 \quad \text{mà không cần đầu vào năng lượng}$$
 Làm thế nào?
 ### Bước 1: **Biến mọi sai lệch thành “thử thách” – củng cố niềm tin**
   * Nếu một lời tiên tri sai → nó được giải thích là “chưa đủ đức tin” hoặc “thử thách từ thánh”.

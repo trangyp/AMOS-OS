@@ -1,9 +1,14 @@
 ---
 title: TESTS README
 type: test
-tags: [amos_os, 19_tests]
+source: 19_TESTS
+tags: [amos_os, 19_tests, canon/test]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # TESTS README

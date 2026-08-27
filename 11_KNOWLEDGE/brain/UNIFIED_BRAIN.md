@@ -1,11 +1,15 @@
 ---
 title: UNIFIED BRAIN
-tags: [brain, cognitive, neural]
+tags: [brain, cognitive, neural, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/brain
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
+
 ---
-
-
 
 
 """
@@ -3242,3 +3246,6 @@ if __name__ == "__main__":
 
 ---
 **MOC:** [[BRAIN_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

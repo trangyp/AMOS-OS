@@ -1,10 +1,15 @@
 ---
 title: STRATEGIC DOCUMENT MODEL
 type: model
+source: 11_KNOWLEDGE/strategy
 aliases: [Strategic Document Engine, AMOS_Strategic_Document]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/strategic-document-model, strategy]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: strategy_game
 ---
-
 
 
 # AMOS Strategic Document Engine

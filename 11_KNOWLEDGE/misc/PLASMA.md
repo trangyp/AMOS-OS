@@ -1,12 +1,15 @@
 ---
 title: PLASMA
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # plasma
@@ -1019,7 +1022,7 @@ Bạn không cần tạo ra một "lớp plasma" dày đặc như trong lò ph�
   3. **" Phủ sóng"**: Khí này được thổi vào khu vực cần xử lý (buồng bảo quản, chuồng trại). Các phân tử RONS khuếch tán khắp không gian, va chạm và tiêu diệt vi khuẩn, nấm mốc trên bề mặt của tất cả các vật thể trong vùng phủ, giống như sóng wifi phủ sóng đến mọi thiết bị.
 
 
-### 📡 Công nghệ "phủ sóng" này có điểm gì vượt trội?
+### Công nghệ "phủ sóng" này có điểm gì vượt trội?
   * **Không chạm, không dùng hóa chất** : Rất an toàn cho người vận hành và thân thiện với môi trường, đặc biệt quan trọng trong bối cảnh kháng kháng sinh và an toàn thực phẩm.
 
 
@@ -1032,7 +1035,7 @@ Bạn không cần tạo ra một "lớp plasma" dày đặc như trong lò ph�
 * * *
 ## 2. Ứng dụng "Trường plasma" trong nông nghiệp
 Khoa học đã chứng minh hiệu quả của công nghệ này trong cả trồng trọt và chăn nuôi.
-### 🌱 Trong trồng trọt (Bảo quản sau thu hoạch)
+### Trong trồng trọt (Bảo quản sau thu hoạch)
 Các nghiên cứu đã thử nghiệm thành công trên nhiều loại trái cây như nho, táo, rambutan (chôm chôm), xà lách...
 |                                    |
 | Mục tiêu                           | Hiệu quả thực tế                                                             | Nguồn tham khảo |
@@ -1043,7 +1046,7 @@ Các nghiên cứu đã thử nghiệm thành công trên nhiều loại trái c
 | **Diệt mầm bệnh**                  |  Giảm 99.99% (4.7 log) vi khuẩn E. coli trên táo và dưa chuột.               |                 |
 
 
-### 🐓 Trong chăn nuôi (Khử trùng chuồng trại và nước uống)
+### Trong chăn nuôi (Khử trùng chuồng trại và nước uống)
 Mặc dù các thử nghiệm quy mô lớn trong chăn nuôi còn hạn chế hơn, bản chất của công nghệ cho thấy tiềm năng rất lớn:
   * **Khử trùng chuồng trại** : Hệ thống có thể được lắp đặt để luân phiên xả khí plasma vào chuồng trại, giúp giảm thiểu mầm bệnh trong không khí và trên bề mặt.
 
@@ -1054,7 +1057,7 @@ Mặc dù các thử nghiệm quy mô lớn trong chăn nuôi còn hạn chế h
 * * *
 ## 3. Làm sao để tự xây dựng hệ thống này?
 Để có một hệ thống "phủ sóng plasma" quy mô trang trại, bạn có thể tham khảo mô hình **Remote Plasma Electrolysis System (RPES)** từ các nghiên cứu. Thiết kế khá đơn giản và có thể tự chế tạo:
-### 🛠️ Sơ đồ cấu tạo một hệ thống RPES
+### ️ Sơ đồ cấu tạo một hệ thống RPES
   1. **Bộ phận tạo khí sạch** : Một máy bơm khí nhỏ, có bộ lọc bụi và hơi ẩm để cung cấp không khí khô, sạch.
 
 

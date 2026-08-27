@@ -1,11 +1,15 @@
 ---
 title: V4 1 ATOMIC MULTI RSCF
-tags: [rscf, epistemic, claim]
+tags: [rscf, epistemic, claim, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/rscf
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: epistemic_framework
+
 ---
-
-
 
 
 # v4.1 — Transactional Multi-RSCF Runtime

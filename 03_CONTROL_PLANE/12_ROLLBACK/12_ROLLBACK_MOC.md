@@ -1,8 +1,15 @@
 ---
 title: "12 Rollback MOC"
 type: moc
-tags: [moc, 12-rollback]
+source: 03_CONTROL_PLANE/12_ROLLBACK
+tags: [moc, 12-rollback, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 12 Rollback — Map of Content
 

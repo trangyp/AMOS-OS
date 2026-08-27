@@ -1,15 +1,20 @@
 ---
 title: AMOS EMOTION ENGINE V0 CORE7
 type: emotion
+source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-emotion-engine-v0
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-emotion-engine-v0, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
+# AMOS EMOTION ENGINE V0 CORE7
 
 ```json
 [

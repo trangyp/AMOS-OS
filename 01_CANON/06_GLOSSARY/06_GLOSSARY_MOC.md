@@ -1,8 +1,15 @@
 ---
 title: "06 Glossary MOC"
 type: moc
-tags: [moc, 06-glossary]
+source: 01_CANON/06_GLOSSARY
+tags: [moc, 06-glossary, canon/universe]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 06 Glossary — Map of Content
 

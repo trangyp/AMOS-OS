@@ -1,8 +1,15 @@
 ---
 title: "06 Domain Knowledge MOC"
 type: moc
-tags: [moc, 06-domain-knowledge]
+source: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
+tags: [moc, 06-domain-knowledge, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # 06 Domain Knowledge — Map of Content
 

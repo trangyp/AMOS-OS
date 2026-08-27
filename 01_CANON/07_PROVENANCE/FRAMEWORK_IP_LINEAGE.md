@@ -1,6 +1,7 @@
 ---
 title: "Framework IP Lineage"
 type: framework
+source: 01_CANON/07_PROVENANCE
 artifact: "FRAMEWORK_IP_LINEAGE.md"
 artifact_id: "amos_01_canon_07_provenance_framework_ip_lineage"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "01_CANON/07_PROVENANCE"
 artifact_kind: "LINEAGE"
 path: "01_CANON/07_PROVENANCE/FRAMEWORK_IP_LINEAGE.md"
 
-tags: [amos_os, canon, universe, 01_canon, lineage, canon_placeholder, rscf]
+tags: [amos_os, canon, universe, 01_canon, lineage, canon_placeholder, rscf, canon/universe]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Framework IP Lineage

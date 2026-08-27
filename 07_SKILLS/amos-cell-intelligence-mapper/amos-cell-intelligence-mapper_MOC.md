@@ -1,8 +1,15 @@
 ---
 title: "Amos-Cell-Intelligence-Mapper MOC"
 type: moc
-tags: [moc, amos-cell-intelligence-mapper]
+source: 07_SKILLS/amos-cell-intelligence-mapper
+tags: [moc, amos-cell-intelligence-mapper, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Cell-Intelligence-Mapper — Map of Content
 

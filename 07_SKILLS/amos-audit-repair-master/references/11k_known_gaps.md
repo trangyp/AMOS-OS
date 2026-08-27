@@ -1,8 +1,15 @@
 ---
 title: 11k known gaps
 type: reference
-tags: [reference, amos-audit-repair-master]
+source: 07_SKILLS/amos-audit-repair-master/references
+tags: [reference, amos-audit-repair-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # 11K Known Gaps
 
@@ -91,3 +98,7 @@ This document records all known gaps, unresolved decisions, and deferred feature
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

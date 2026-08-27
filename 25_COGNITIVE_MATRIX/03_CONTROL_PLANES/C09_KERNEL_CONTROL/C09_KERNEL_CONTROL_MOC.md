@@ -1,8 +1,15 @@
 ---
 title: "C09 Kernel Control MOC"
 type: moc
-tags: [moc, c09-kernel-control]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C09_KERNEL_CONTROL
+tags: [moc, c09-kernel-control, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # C09 Kernel Control — Map of Content
 

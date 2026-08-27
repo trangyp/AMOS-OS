@@ -1,6 +1,7 @@
 ---
 title: K CAUSAL HIERARCHY
 type: note
+source: 02_KERNEL/03_CAUSAL
 artifact_id: AMOS-OS-K-CAUSAL-HIERARCHY
 canonical_name: K_CAUSAL_HIERARCHY
 artifact_type: kernel_causal_hierarchy_contract
@@ -25,8 +26,6 @@ aliases: "- AMOS Causal Hierarchy Kernel
   - Causal Hierarchy Kernel
   - K Causal Hierarchy
   - K_CAUSAL_HIERA..."---
-
-
 
 
 # K CAUSAL HIERARCHY
@@ -66,8 +65,13 @@ COUNTERFACTUAL EFFECT
 A claim may move upward in the causal hierarchy only when evidence appropriate to the stronger causal class is available.
 
 Structural similarity, sequence, repetition, authority, model confidence, or fluent explanation cannot substitute for causal evidence.
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 1. Core Law
 

@@ -1,12 +1,17 @@
 ---
 title: DOM BASED SINKS LEADING TO DOM BASED VULNS
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
-
-
+# DOM BASED SINKS LEADING TO DOM BASED VULNS
 
 ## Sinks leading to DOM-based vulns
 

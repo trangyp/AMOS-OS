@@ -1,6 +1,7 @@
 ---
 title: "Absolute Omniverse / U-Infinity Canon"
 type: canon
+source: 01_CANON/02_UNIVERSE_CANON
 artifact: "ABSOLUTE_OMNIVERSE_U_INFINITY_CANON.md"
 artifact_id: "amos_01_canon_02_universe_canon_absolute_omniverse_u_infinity_canon"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "01_CANON/02_UNIVERSE_CANON"
 artifact_kind: "CANON"
 path: "01_CANON/02_UNIVERSE_CANON/ABSOLUTE_OMNIVERSE_U_INFINITY_CANON.md"
 
-tags: [amos_os, canon, universe, 01_canon, canon_placeholder, rscf]
+tags: [amos_os, canon, universe, 01_canon, canon_placeholder, rscf, canon/universe]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
-
 
 
 # Absolute Omniverse / U-Infinity Canon

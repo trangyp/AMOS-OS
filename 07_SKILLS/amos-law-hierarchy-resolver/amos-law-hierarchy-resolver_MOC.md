@@ -1,8 +1,15 @@
 ---
 title: "Amos-Law-Hierarchy-Resolver MOC"
 type: moc
-tags: [moc, amos-law-hierarchy-resolver]
+source: 07_SKILLS/amos-law-hierarchy-resolver
+tags: [moc, amos-law-hierarchy-resolver, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Law-Hierarchy-Resolver — Map of Content
 

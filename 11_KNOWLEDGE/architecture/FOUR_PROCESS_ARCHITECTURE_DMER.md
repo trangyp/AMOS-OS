@@ -4,9 +4,15 @@ created: "2026-08-23"
 origin: "User-supplied canonical architecture (Four-Process Architecture of Adaptive Systems)"
 origin_type: "SOURCE"
 type: canon-entry
+source: 11_KNOWLEDGE/architecture
 status: "validated"
 confidence: "STRUCTURAL"
 tags: [amos, canon/law, rscf/claim, four-process-architecture, dmer, adaptive-systems, collapse-recovery, architecture]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: architecture_design
 ---
 
 
@@ -62,3 +68,6 @@ SOURCE for the framework text; MODEL for the mappings above (my integration into
 
 ---
 **MOC:** [[ARCHITECTURE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

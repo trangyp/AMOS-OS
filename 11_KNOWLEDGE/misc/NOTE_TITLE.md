@@ -1,8 +1,14 @@
 ---
 type: doc
+source: 11_KNOWLEDGE/misc
 title: Bridge to Note Title
 created: 2026-08-22
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/note-title, misc]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 

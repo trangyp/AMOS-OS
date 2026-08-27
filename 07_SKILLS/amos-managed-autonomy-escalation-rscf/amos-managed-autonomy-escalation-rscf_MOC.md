@@ -1,8 +1,15 @@
 ---
 title: "Amos-Managed-Autonomy-Escalation-Rscf MOC"
 type: moc
-tags: [moc, amos-managed-autonomy-escalation-rscf]
+source: 07_SKILLS/amos-managed-autonomy-escalation-rscf
+tags: [moc, amos-managed-autonomy-escalation-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Managed-Autonomy-Escalation-Rscf — Map of Content
 

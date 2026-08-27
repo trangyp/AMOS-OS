@@ -1,12 +1,15 @@
 ---
 title: NEW
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # New
@@ -2662,7 +2665,7 @@ Policy:
     \mathrm{LangTier}(c)\le TierAllowed \Rightarrow c \text{ can be certified}
 ```
 ```
-    c \to MB\ \text{(excluded from SafeBase\(^*\))}
+    c \to MB\ \text{(excluded from SafeBase$^*$)}
 ```
 * * *
 ## 4) Proof-carrying artifacts (PCA): export only with attached proofs

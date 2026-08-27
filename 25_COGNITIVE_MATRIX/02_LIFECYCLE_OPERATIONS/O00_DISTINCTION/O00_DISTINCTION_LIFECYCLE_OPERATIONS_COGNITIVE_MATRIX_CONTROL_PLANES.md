@@ -1,7 +1,13 @@
 ---
 title: O00 DISTINCTION LIFECYCLE OPERATIONS COGNITIVE MATRIX CONTROL PLANES
 type: note
-tags: [note, o00-distinction]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION
+tags: [note, o00-distinction, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -45,3 +51,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/02_LIFECYCLE_OP
 
 ---
 **MOC:** [[O00_DISTINCTION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

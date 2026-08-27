@@ -1,13 +1,20 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-growth-graph
 name: amos-growth-graph
 description: Growth Graph — society and culture capability. Use when social analysis, cultural reasoning, or anthropological study. Use when amos-c06-society-culture-master routes to this specialized capability.
 parent_skill: amos-c06-society-culture-master
 domain: c06
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-growth-graph]
+tags: [note, amos-growth-graph, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
 
 
@@ -106,3 +113,77 @@ Memory graph formalization is AMOS_MODEL. The cognitive substrate is a structura
 
 ---
 **Links:** [[07_SKILLS_MOC]]
+
+## Related
+
+- [[amos-growth-graph_MOC]]
+
+## Examples
+
+- **Scenario**: When modeling cognitive substrate memory graphs: field-level lineage, consolidation
+  - **Input**: A query matching this skill's domain (c06)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When analyzing memory operation graphs: vertices, edges, operations, queries
+  - **Input**: A query matching this skill's domain (c06)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When managing dependency-safe forgetting and reconsolidation
+  - **Input**: A query matching this skill's domain (c06)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the c06 domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[amos-c06-society-culture-master]]` — routes to this skill when c06 specialization is needed
+- **Peers**: Other skills in the `c06` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/references_MOC.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `[[amos-growth-graph_MOC]]` — skill Map of Content
+- `[[amos-c06-society-culture-master]]` — parent skill
+- `[[amos-growth-graph-workflow]]` — corresponding workflow
+- `[[amos-growth-graph-agent]]` — corresponding agent
+

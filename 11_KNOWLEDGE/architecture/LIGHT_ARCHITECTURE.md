@@ -1,13 +1,16 @@
 ---
 title: LIGHT ARCHITECTURE
-tags: [architecture, design, structure]
+tags: [architecture, design, structure, canon/knowledge]
 type: data
 source: 11_KNOWLEDGE/architecture
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: architecture_design
+
 ---
-
-
-
-
+# LIGHT ARCHITECTURE
 
 ```json
 {
@@ -362,3 +365,6 @@ source: 11_KNOWLEDGE/architecture
 
 ---
 **MOC:** [[ARCHITECTURE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

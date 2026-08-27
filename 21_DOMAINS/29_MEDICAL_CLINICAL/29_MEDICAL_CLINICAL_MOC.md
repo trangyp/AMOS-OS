@@ -1,8 +1,15 @@
 ---
 title: "29 Medical Clinical MOC"
 type: moc
-tags: [moc, 29-medical-clinical]
+source: 21_DOMAINS/29_MEDICAL_CLINICAL
+tags: [moc, 29-medical-clinical, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 29 Medical Clinical — Map of Content
 

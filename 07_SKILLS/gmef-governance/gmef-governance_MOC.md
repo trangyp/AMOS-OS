@@ -1,8 +1,15 @@
 ---
 title: "Gmef-Governance MOC"
 type: moc
-tags: [moc, gmef-governance]
+source: 07_SKILLS/gmef-governance
+tags: [moc, gmef-governance, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Gmef-Governance — Map of Content
 

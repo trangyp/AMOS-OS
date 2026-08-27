@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, mckinsey-recruiting-workforce-acquisition-rscf]
+source: 07_SKILLS/mckinsey-recruiting-workforce-acquisition-rscf/references
+tags: [reference, mckinsey-recruiting-workforce-acquisition-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -263,3 +270,7 @@ Technical Integration: The Symphony of Stability RATPAK orchestrates a dist
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

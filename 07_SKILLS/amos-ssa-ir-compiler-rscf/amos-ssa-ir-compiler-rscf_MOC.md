@@ -1,8 +1,15 @@
 ---
 title: "Amos-Ssa-Ir-Compiler-Rscf MOC"
 type: moc
-tags: [moc, amos-ssa-ir-compiler-rscf]
+source: 07_SKILLS/amos-ssa-ir-compiler-rscf
+tags: [moc, amos-ssa-ir-compiler-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Ssa-Ir-Compiler-Rscf — Map of Content
 

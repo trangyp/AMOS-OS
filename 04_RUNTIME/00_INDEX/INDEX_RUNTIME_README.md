@@ -1,9 +1,14 @@
 ---
 title: INDEX RUNTIME README
 type: index
-tags: [amos_os, 04_runtime]
+source: 04_RUNTIME/00_INDEX
+tags: [amos_os, 04_runtime, canon/runtime]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INDEX RUNTIME README

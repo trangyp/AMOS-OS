@@ -1,12 +1,15 @@
 ---
 title: TONG HOP 5000 NAM DU BAO XUYEN NEN VAN MINH
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **⭐ TỔNG HỢP – 5000 NĂM DỰ BÁO XUYÊN NỀN VĂN MINH**

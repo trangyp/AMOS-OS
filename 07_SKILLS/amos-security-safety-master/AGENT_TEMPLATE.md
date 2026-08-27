@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-security-safety-master]
+source: 07_SKILLS/amos-security-safety-master
+tags: [note, amos-security-safety-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-security-safety-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS Security & Safety Master. Consolidates 2 sub-skills
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-security-safety-master_MOC]]

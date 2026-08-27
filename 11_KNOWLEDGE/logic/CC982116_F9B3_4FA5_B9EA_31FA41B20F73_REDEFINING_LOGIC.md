@@ -3,7 +3,14 @@ title: CC982116 F9B3 4FA5 B9EA 31FA41B20F73 REDEFINING LOGIC
 tags: [canon-group/meta, canon/law, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/cc982116-f9b3-4fa5-b9ea-31fa41b20f73-red, logic]
 type: note
 source: 11_KNOWLEDGE/logic
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
+
 ---
+
 
 # CC982116 F9B3 4FA5 B9EA 31FA41B20F73 REDEFINING LOGIC
 

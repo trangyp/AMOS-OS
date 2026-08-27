@@ -9,6 +9,12 @@ provenance: "OBSERVATION"
 confidence: "VERIFIED"
 source: "Ingest batch 2026-08-22"
 tags: [canon-group/human-system, canon/metric, rscf/claim, rscf/provenance, rscf/state/observation, topic/invariants-701-800-relationships-cluster, misc]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 

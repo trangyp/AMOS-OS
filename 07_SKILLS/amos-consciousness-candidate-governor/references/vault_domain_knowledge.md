@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-consciousness-candidate-governor]
+source: 07_SKILLS/amos-consciousness-candidate-governor/references
+tags: [reference, amos-consciousness-candidate-governor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -209,3 +216,8 @@ Successfully implemented comprehensive consciousness-enhanced FX structural mark
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]
+```

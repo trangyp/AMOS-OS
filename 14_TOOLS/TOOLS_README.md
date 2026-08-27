@@ -1,9 +1,14 @@
 ---
 title: TOOLS README
 type: tool
-tags: [amos_os, 14_tools]
+source: 14_TOOLS
+tags: [amos_os, 14_tools, canon/tool]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # TOOLS README

@@ -3,10 +3,14 @@ title: AMOS SOCIETY CULTURE ENGINE V0 COGNITIVE4
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-society-culture-engine-v0, cognitive]
 type: data
 source: 11_KNOWLEDGE/cognitive
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: cognitive_model
+
 ---
-
-
-
+# AMOS SOCIETY CULTURE ENGINE V0 COGNITIVE4
 
 ```json
 [
@@ -213,3 +217,6 @@ source: 11_KNOWLEDGE/cognitive
 
 ---
 **MOC:** [[COGNITIVE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

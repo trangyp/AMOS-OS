@@ -1,8 +1,15 @@
 ---
 title: "10 Custom MOC"
 type: moc
-tags: [moc, 10-custom]
+source: 21_DOMAINS/10_CUSTOM
+tags: [moc, 10-custom, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 10 Custom — Map of Content
 

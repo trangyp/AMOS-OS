@@ -1,26 +1,15 @@
 ---
 title: POLICY REGISTRY
 type: registry
-tags: [control_plane, policy, note]
+source: 03_CONTROL_PLANE/03_POLICY
+tags: [control_plane, policy, note, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-
-
-Below is the **full paste-ready `POLICY_REGISTRY.md`**, aligned with the `POLICY_ENGINE.md`, `POLICY_DECISION.md`, `CAPABILITY_MANIFEST.md`, `CAPABILITY_CONTRACT.md`, and `CONTROL_PLANE_MAP.md` architecture we have been building.
-
----
-title: "AMOS Policy Registry"
-artifact: "POLICY_REGISTRY.md"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-artifact_class: "GOVERNED_POLICY_IDENTITY_AND_DISCOVERY_REGISTRY"
-status: "PROPOSED / STRUCTURALLY_COMPLETE / IMPLEMENTATION-UNVALIDATED"
-epistemic_class: "MODEL"
-version: "1.0.0"
-updated: "2026-08-26"
-authority: "NONE_BY_DEFAULT"
----
 
 # AMOS Policy Registry
 

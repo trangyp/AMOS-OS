@@ -1,13 +1,20 @@
 ---
 title: UNIVERSE OS CONTENT PACK ALL COMPRESSED UCONTENT
 type: universe
+source: 11_KNOWLEDGE/universe-cosmos
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
 topic: universe-os-content-pack-all-compressed-ucontent
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/universe-os-content-pack-all-compressed-, universe-cosmos]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: universe_cosmos
 ---
+
 
 # UNIVERSE OS CONTENT PACK ALL COMPRESSED UCONTENT
 

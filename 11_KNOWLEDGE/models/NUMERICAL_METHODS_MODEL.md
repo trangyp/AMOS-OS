@@ -1,10 +1,15 @@
 ---
 title: NUMERICAL METHODS MODEL
 type: model
+source: 11_KNOWLEDGE/models
 aliases: [Numerical Methods Engine, AMOS_Numerical_Methods]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/numerical-methods-model, models]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: model_specification
 ---
-
 
 
 # AMOS Numerical Methods Engine

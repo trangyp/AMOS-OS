@@ -1,12 +1,15 @@
 ---
 title: BAT BIEN THAN KINH HOC SU TINH LANG CUA MANG MAC D
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # Bất Biến Thần Kinh Học: Sự Tĩnh Lặng Của Mạng Mặc Định, Tính Nhạy Cảm Cao và Sự Hiếm Hoi Của Cấu Trúc Ổn Định

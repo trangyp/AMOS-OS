@@ -1,12 +1,15 @@
 ---
 title: BAO CAO NGHIEN CUU TOAN DIEN THI TRUONG TRAM TRU
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **BÁO CÁO NGHIÊN CỨU TOÀN DIỆN THỊ TRƯỜNG TRẠM – TRỤ SẠC XE ĐIỆN VIỆT NAM (2025)**
@@ -327,7 +330,7 @@ Theo [Roland Berger EV Charging Index 2025](<https://www.rolandberger.com/en/Ins
 | **EVolt Thailand / PTT EV Station** |  Thái Lan     | Public + Highway DC                       | Ký MOU với EVN 2024                          | Có thể vào VN qua PPP với EVN SPC               |
 
 
-> **🔹 UniPower hiện mới ở giai đoạn pilot, nhưng hệ thống kỹ thuật đạt chuẩn quốc tế cao nhất trong nhóm nội địa.  
+> **UniPower hiện mới ở giai đoạn pilot, nhưng hệ thống kỹ thuật đạt chuẩn quốc tế cao nhất trong nhóm nội địa.  
 >  🔹 Khi nhân rộng thành ≥ 100 trạm, UniPower sẽ trở thành CPO mở đầu tiên của Việt Nam tương đương Charge+ Singapore trong khu vực.**
 * * *
 ## **V. RÀO CẢN VÀ THÁCH THỨC (MARKET BARRIERS)**

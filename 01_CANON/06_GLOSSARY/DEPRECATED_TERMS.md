@@ -1,6 +1,7 @@
 ---
 title: DEPRECATED TERMS
 type: deprecated
+source: 01_CANON/06_GLOSSARY
 artifact_id: AMOS-OS-DEPRECATED-TERMS
 canonical_name: DEPRECATED_TERMS
 artifact_type: canonical_semantic_lifecycle_registry
@@ -19,8 +20,6 @@ tags: [amos-os, canon, universe, canon-group/meta, canon/semantics, canon/termin
 aliases: "- AMOS Deprecated Terms
   - Deprecated Terminology Registry
   - AMOS Terminology Migration Registry..."---
-
-
 
 
 # AMOS OS Deprecated Terms
@@ -46,8 +45,13 @@ OLD TERM
 A deprecated term may remain visible in historical artifacts, aliases, citations, provenance records, migration tables, archived code, and supersession chains.
 
 It must not silently regain canonical status through repetition.
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 2. Hard Laws
 

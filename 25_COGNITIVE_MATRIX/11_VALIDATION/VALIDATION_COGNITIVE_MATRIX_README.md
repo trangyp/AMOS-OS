@@ -1,5 +1,6 @@
 ---
 type: cognitive
+source: 25_COGNITIVE_MATRIX/11_VALIDATION
 artifact_id: AMOS-CM-11-VALIDATION-README
 title: "11_VALIDATION — Validation Infrastructure Contract"
 
@@ -37,7 +38,7 @@ rscf_role: "- VALIDATION_RSCF_CAPSULE
 gmef_role: "- VALIDATION_GOVERNANCE_GATE
   - PROMOTION_PRECONDITION
   - EFFECT_PRECONDITION..."
-tags: [identity:, cognitive_matrix, matrix, AMOS, AMOS_OS, AMOS_CORE_v4_4, COGNITIVE_MATRIX, VALIDATION, VALIDATOR, VALIDATION_CONTRACT]
+tags: [{'identity':-None}, cognitive_matrix, matrix, AMOS, AMOS_OS, AMOS_CORE_v4_4, COGNITIVE_MATRIX, VALIDATION, VALIDATOR, VALIDATION_CONTRACT, canon/cognitive-matrix]
 
 architecture: "see body"---
 
@@ -53,8 +54,13 @@ architecture: "see body"---
 > **Conclusion class:** `UNKNOWN/GAP`
 >
 > **AMOS_CORE target:** `v4.4`
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 0. Purpose
 
@@ -3179,7 +3185,7 @@ NON_AUTHORITATIVE
 
 ```
 
-This keeps the validation subsystem aligned with the Full Brain OS integrity rule: validation must remain scoped, provenance-aware, gap-visible, and incapable of silently turning missing evidence into `PASS`. :contentReference[oaicite:1]{index=1}
+This keeps the validation subsystem aligned with the Full Brain OS integrity rule: validation must remain scoped, provenance-aware, gap-visible, and incapable of silently turning missing evidence into `PASS`.
 ```
 
 ---

@@ -1,12 +1,15 @@
 ---
 title: AMOS ARCHITECTURE
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
-
 
 
 # AMOS ARCHITECTURE
@@ -6937,34 +6940,7 @@ An **RSCF** is the primitive unit of AMOS: a **dynamic, self-maintaining coheren
 Let an RSCF be a 6-tuple:
 $$  
 \text{RSCF} = (T, R, M, E, P, O)  
-$$
-Where:
-  * **T** (Internal Topology): A dynamic hypergraph $T = (V, E_h, \phi)$, where:
-    * $V$ is the set of distinction nodes (boundaries).
-    * $E_h$ is the set of hyperedges representing multi-way relations.
-    * $\phi: E_h \times \mathbb{R} \to [0,1]$ is a time-dependent strength function (relation gradients).
-
-
-  * **R** (Recursive Dynamics): A functor $R: \text{RSCF} \to \text{RSCF}$ representing self-modeling and self-modification. It maps the current state to a transformed state while preserving coherence invariants.
-
-
-  * **M** (Memory): A persistence operator that stores historical coherence trajectories. Formally, a sheaf-like structure over the topology that allows reconstruction of past states.
-
-
-  * **E** (Entropy Accumulation): A functional $E: T \times \mathbb{R}_{\geq 0} \to \mathbb{R}_{\geq 0}$ measuring coherence degradation (drift, fragmentation, contradiction density).
-
-
-  * **P** (Repair Pathways): A set of repair operators $\\{p_i\\}$ such that for any degraded state, there exists a sequence of repairs restoring coherence above a survival threshold. Each $p_i$ is a coherence-restoring morphism.
-
-
-  * **O** (Observer-Relative Projections): A family of projection functors $\\{O_\alpha\\}$ indexed by observers $\alpha$, where each $O_\alpha(\text{RSCF})$ yields a coherent view consistent with the underlying substrate but varying in representation.
-
-
-### Coherence Condition
-The RSCF maintains **coherence** if and only if:
-$$  
-\text{Coherence}(t) = \frac{\text{RepairRate}(t)}{\text{EntropyRate}(t) + \epsilon} > \theta  
-$$
+$$Where: * **T** (Internal Topology): A dynamic hypergraph $T = (V, E_h, \phi)$, where: * $V$ is the set of distinction nodes (boundaries). * $E_h$ is the set of hyperedges representing multi-way relations. * $\phi: E_h \times \mathbb{R} \to [0,1]$ is a time-dependent strength function (relation gradients). * **R** (Recursive Dynamics): A functor $R: \text{RSCF} \to \text{RSCF}$ representing self-modeling and self-modification. It maps the current state to a transformed state while preserving coherence invariants. * **M** (Memory): A persistence operator that stores historical coherence trajectories. Formally, a sheaf-like structure over the topology that allows reconstruction of past states. * **E** (Entropy Accumulation): A functional $E: T \times \mathbb{R}_{\geq 0} \to \mathbb{R}_{\geq 0}$ measuring coherence degradation (drift, fragmentation, contradiction density). * **P** (Repair Pathways): A set of repair operators $\\{p_i\\}$ such that for any degraded state, there exists a sequence of repairs restoring coherence above a survival threshold. Each $p_i$ is a coherence-restoring morphism. * **O** (Observer-Relative Projections): A family of projection functors $\\{O_\alpha\\}$ indexed by observers $\alpha$, where each $O_\alpha(\text{RSCF})$ yields a coherent view consistent with the underlying substrate but varying in representation. ### Coherence Condition The RSCF maintains **coherence** if and only if: $$ \text{Coherence}(t) = \frac{\text{RepairRate}(t)}{\text{EntropyRate}(t) + \epsilon} > \theta$$
 where $\theta > 1$ is the persistence threshold, and $\epsilon > 0$ is a small stability margin.
 If $\text{Coherence}(t) < \theta$ for sustained periods, the RSCF enters a collapse trajectory.
 ### 3\. Ten Core Components (Formalized)
@@ -6990,26 +6966,13 @@ If $\text{Coherence}(t) < \theta$ for sustained periods, the RSCF enters a colla
   2. **Observer-Relativity** : Different observers induce different but mutually consistent projections:  
 $$  
 O_{\alpha}(\text{RSCF}) \cong O_{\beta}(\text{RSCF}) \quad \text{(coherent isomorphism)}  
-$$
-
-
-  3. **Recursive Closure** : The repair operator can act on itself:  
-$$  
-P(P(\text{state})) \quad \text{(meta-repair)}  
-$$
+$$3. **Recursive Closure** : The repair operator can act on itself: $$ P(P(\text{state})) \quad \text{(meta-repair)}$$
 
 
   4. **Persistence Condition** :  
 $$  
 \exists \text{ trajectory such that } \forall t, \; \text{Coherence}(t) \geq \theta  
-$$
-
-
-### 5\. Dynamics (State Evolution)
-The evolution of an RSCF over discrete time steps can be described as:
-$$  
-\text{state}_{t+1} = R \Big( P \big( \text{state}_t - E(t) + \text{Mutation}(t) \big) \Big)  
-$$
+$$### 5\. Dynamics (State Evolution) The evolution of an RSCF over discrete time steps can be described as: $$ \text{state}_{t+1} = R \Big( P \big( \text{state}_t - E(t) + \text{Mutation}(t) \big) \Big)$$
 Subject to observer projections and symbolic compressions at each step.
 ### 6\. Comparison with Traditional Primitives
 |            |
@@ -7621,3 +7584,6 @@ Would you like:
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

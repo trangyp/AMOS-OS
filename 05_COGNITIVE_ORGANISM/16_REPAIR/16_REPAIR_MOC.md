@@ -1,8 +1,15 @@
 ---
 title: "16 Repair MOC"
 type: moc
-tags: [moc, 16-repair]
+source: 05_COGNITIVE_ORGANISM/16_REPAIR
+tags: [moc, 16-repair, canon/cognitive]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 16 Repair — Map of Content
 

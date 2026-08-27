@@ -1,8 +1,15 @@
 ---
 title: "Amos-Learning-Memory-Knowledge-Feedback-Governor MOC"
 type: moc
-tags: [moc, amos-learning-memory-knowledge-feedback-]
+source: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor
+tags: [moc, amos-learning-memory-knowledge-feedback-, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Learning-Memory-Knowledge-Feedback-Governor — Map of Content
 

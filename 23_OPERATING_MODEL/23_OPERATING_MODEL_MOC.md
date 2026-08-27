@@ -1,8 +1,15 @@
 ---
 title: "23 Operating Model MOC"
 type: moc
-tags: [moc, 23-operating-model]
+source: 23_OPERATING_MODEL
+tags: [moc, 23-operating-model, canon/operating-model]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 23 Operating Model — Map of Content
 

@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX O15 OBSERVATION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, lifecycle_operations, o15_observation, contract]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION
+tags: [cognitive_matrix, lifecycle_operations, o15_observation, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # O15_OBSERVATION — O15 Observation
@@ -47,3 +52,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[O15_OBSERVATION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

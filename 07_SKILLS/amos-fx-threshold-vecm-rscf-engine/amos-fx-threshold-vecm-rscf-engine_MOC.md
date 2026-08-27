@@ -1,8 +1,15 @@
 ---
 title: "Amos-Fx-Threshold-Vecm-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-fx-threshold-vecm-rscf-engine]
+source: 07_SKILLS/amos-fx-threshold-vecm-rscf-engine
+tags: [moc, amos-fx-threshold-vecm-rscf-engine, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Fx-Threshold-Vecm-Rscf-Engine — Map of Content
 

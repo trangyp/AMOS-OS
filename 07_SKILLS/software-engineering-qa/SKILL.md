@@ -1,13 +1,20 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/software-engineering-qa
 name: software-engineering-qa
 description: Production software QA agent for repository understanding, debugging, repair, testing, architecture validation, responsive/UI QA, accessibility, APIs, databases, CI/CD, security, release validation, provenance, and regression safety. Use when performing software QA, debugging, testing, or release validation.
 parent_skill: amos-c10-tech-engineering-master
 domain: c10
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, software-engineering-qa]
+tags: [note, software-engineering-qa, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
 
 
@@ -77,3 +84,77 @@ Production software QA agent for repository understanding, debugging, repair, te
 
 ---
 **Links:** [[07_SKILLS_MOC]]
+
+## Related
+
+- [[software-engineering-qa_MOC]]
+
+## Examples
+
+- **Scenario**: When diagnosing a repository failure mechanism before editing code
+  - **Input**: A query matching this skill's domain (c10)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When designing a bounded, falsifiable repair plan with minimal change boundary
+  - **Input**: A query matching this skill's domain (c10)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When validating a patch against architecture, contracts, runtime behavior, tests, and regression requirements
+  - **Input**: A query matching this skill's domain (c10)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the c10 domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[amos-c10-tech-engineering-master]]` — routes to this skill when c10 specialization is needed
+- **Peers**: Other skills in the `c10` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/references_MOC.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `[[software-engineering-qa_MOC]]` — skill Map of Content
+- `[[amos-c10-tech-engineering-master]]` — parent skill
+- `[[software-engineering-qa-workflow]]` — corresponding workflow
+- `[[software-engineering-qa-agent]]` — corresponding agent
+

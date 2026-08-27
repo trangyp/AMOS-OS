@@ -1,12 +1,18 @@
 ---
 type: definition
-tags: [amos, cognitive-matrix, l03, percept-formation, definition, perception, provenance, rscf, hml]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
+tags: [amos, cognitive-matrix, l03, percept-formation, definition, perception, provenance, rscf, hml, canon/cognitive-matrix]
 
 title: "L03_PERCEPT_FORMATION — Definition"
 origin_architect: "Trang Phan"
 status: "MODEL_DEFINITION_CONTRACT / UNIMPLEMENTED / UNVALIDATED"
 epistemic_class: "MODEL"
 runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 

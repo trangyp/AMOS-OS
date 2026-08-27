@@ -1,12 +1,15 @@
 ---
 title: HYDROGEN KHONG PHAI LUA CHON THAY THE DO LA NUOC
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # **Hydrogen Không Phải Lựa Chọn Thay Thế — Đó Là Nước Cờ Tất Yếu Cuối Cùng**

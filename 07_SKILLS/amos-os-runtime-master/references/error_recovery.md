@@ -1,8 +1,15 @@
 ---
 title: error recovery
 type: reference
-tags: [reference, amos-os-runtime-master]
+source: 07_SKILLS/amos-os-runtime-master/references
+tags: [reference, amos-os-runtime-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Error Recovery
 
@@ -116,4 +123,5 @@ Reproduction requires compatible environment, inputs, versions, and execution se
 - `_00_Cosmo brain/misc/E/EXECUTION_PROVENANCE.md` — Execution provenance ledger specification
 
 ---
+- [[07_SKILLS_MOC]]
 **MOC:** [[references_MOC]]

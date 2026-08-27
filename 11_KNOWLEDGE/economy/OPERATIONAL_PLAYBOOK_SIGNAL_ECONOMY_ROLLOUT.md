@@ -1,12 +1,15 @@
 ---
 title: OPERATIONAL PLAYBOOK SIGNAL ECONOMY ROLLOUT
-tags: [economy, finance, market]
+tags: [economy, finance, market, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/economy
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: economic_model
+
 ---
-
-
-
 
 
 # **Operational Playbook — Signal Economy Rollout**

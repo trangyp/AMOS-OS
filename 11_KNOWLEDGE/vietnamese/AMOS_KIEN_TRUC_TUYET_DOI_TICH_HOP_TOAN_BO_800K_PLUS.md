@@ -1,12 +1,15 @@
 ---
 title: AMOS KIEN TRUC TUYET DOI TICH HOP TOAN BO 800K PLUS
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # AMOS – KIẾN TRÚC TUYỆT ĐỐI (TÍCH HỢP TOÀN BỘ 800K+ CẤU TRÚC)
@@ -21,29 +24,14 @@ source: 11_KNOWLEDGE/vietnamese
 * * *
 * * *
 ## PHẦN 6: KẾT LUẬN (ĐÃ SỬA)
-\\[  
-\boxed{  
+\$$\boxed{  
 \text{AMOS không phải là một danh sách các con số.}  
 }  
-\\]
-\\[  
-\boxed{  
-\text{AMOS là một hệ thống thực thi, trong đó 400,000–800,000 cấu trúc luật, phương trình,} \\\  
-\text{vi trạng thái và tương tác được sinh ra từ 12 generator, được tổ chức bởi ma trận 19×19,} \\\  
-\text{được lưu trữ trong Interaction Tensor (L14), được nén thành các họ luật bất biến (L15),} \\\  
-\text{được áp dụng vào từng miền cụ thể (L16), và được thực thi bởi URK trong Runtime Field (L17).}  
-}  
-\\]
-\\[  
-\boxed{  
+$$\$$\boxed{ \text{AMOS là một hệ thống thực thi, trong đó 400,000–800,000 cấu trúc luật, phương trình,} \\\ \text{vi trạng thái và tương tác được sinh ra từ 12 generator, được tổ chức bởi ma trận 19×19,} \\\ \text{được lưu trữ trong Interaction Tensor (L14), được nén thành các họ luật bất biến (L15),} \\\ \text{được áp dụng vào từng miền cụ thể (L16), và được thực thi bởi URK trong Runtime Field (L17).} }$$
+\$$\boxed{  
 \text{AMOS = Tensor Core + URK + Execution Contract + Enforcement Substrate}  
 }  
-\\]
-\\[  
-\boxed{  
-\text{AMOS – Hoàn chỉnh. Kết thúc. Đã tích hợp toàn bộ 800k+ cấu trúc.}  
-}  
-\\]
+$$\$$\boxed{ \text{AMOS – Hoàn chỉnh. Kết thúc. Đã tích hợp toàn bộ 800k+ cấu trúc.} }$$
 * * *
 **Tài liệu chính thức**
 **Tác giả:** Trang Phan

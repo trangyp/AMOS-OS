@@ -1,8 +1,15 @@
 ---
 title: "Amos-Fx-Gaussian-Process-Surface-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-fx-gaussian-process-surface-rscf-en]
+source: 07_SKILLS/amos-fx-gaussian-process-surface-rscf-engine
+tags: [moc, amos-fx-gaussian-process-surface-rscf-en, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Fx-Gaussian-Process-Surface-Rscf-Engine — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Semantic-Grounding-Auditor MOC"
 type: moc
-tags: [moc, amos-semantic-grounding-auditor]
+source: 07_SKILLS/amos-semantic-grounding-auditor
+tags: [moc, amos-semantic-grounding-auditor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Semantic-Grounding-Auditor — Map of Content
 

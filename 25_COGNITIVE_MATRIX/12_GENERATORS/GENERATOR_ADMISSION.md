@@ -1,9 +1,14 @@
 ---
 title: GENERATOR ADMISSION
 type: generator
-tags: [cognitive_matrix, generator_admission.md]
+source: 25_COGNITIVE_MATRIX/12_GENERATORS
+tags: [cognitive_matrix, generator_admission.md, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # GENERATOR ADMISSION
@@ -70,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[12_GENERATORS_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

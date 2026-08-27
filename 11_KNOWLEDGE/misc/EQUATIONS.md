@@ -1,12 +1,15 @@
 ---
 title: EQUATIONS
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # equations 
@@ -451,10 +454,10 @@ Trong đó: `C` là control/constraint layer, `F` là hàm chuyển đổi, `U_t
 
 
 **Luật:**
-  * ✅ Cho phép hành động nếu: tín hiệu rõ, ngữ cảnh đủ, bằng chứng hỗ trợ, nguồn tin cậy, entropy không cao, rủi ro chấp nhận được
+  * Cho phép hành động nếu: tín hiệu rõ, ngữ cảnh đủ, bằng chứng hỗ trợ, nguồn tin cậy, entropy không cao, rủi ro chấp nhận được
 
 
-  * ❌ Chặn nếu: nhiễu cao, thiếu ngữ cảnh, rủi ro thông tin sai lệch cao, nguồn không tin cậy, biến dạng cao, quá tải cao
+  * Chặn nếu: nhiễu cao, thiếu ngữ cảnh, rủi ro thông tin sai lệch cao, nguồn không tin cậy, biến dạng cao, quá tải cao
 
 
 * * *
@@ -486,10 +489,10 @@ Trong đó: `C` là control/constraint layer, `F` là hàm chuyển đổi, `U_t
 
 
 **Luật:**
-  * ✅ Cho phép học nếu: chú ý ổn, tải cân bằng, phản hồi chất lượng cao, có thực hành truy xuất, entropy không cao
+  * Cho phép học nếu: chú ý ổn, tải cân bằng, phản hồi chất lượng cao, có thực hành truy xuất, entropy không cao
 
 
-  * ❌ Chặn học nếu: quá tải, nhiễu xạ cao, ảo tưởng biết, phản hồi sai, rò rỉ chú ý cao
+  * Chặn học nếu: quá tải, nhiễu xạ cao, ảo tưởng biết, phản hồi sai, rò rỉ chú ý cao
 
 
 * * *
@@ -607,10 +610,10 @@ Tôi đã học xong **3 hệ thống mới** :
 
 
 **Luật:**
-  * ✅ Cho phép hành động nếu: tín hiệu đủ, môi trường trong suốt, ranh giới ổn định, biến dạng không cao, nhận thức hợp lệ
+  * Cho phép hành động nếu: tín hiệu đủ, môi trường trong suốt, ranh giới ổn định, biến dạng không cao, nhận thức hợp lệ
 
 
-  * ❌ Chặn nếu: chói sáng cao, tín hiệu quá thấp, biến dạng cao, nhiễu nguy kịch, mất ngữ cảnh cao
+  * Chặn nếu: chói sáng cao, tín hiệu quá thấp, biến dạng cao, nhiễu nguy kịch, mất ngữ cảnh cao
 
 
 * * *
@@ -646,10 +649,10 @@ Tôi đã học xong **3 hệ thống mới** :
 
 
 **Luật:**
-  * ✅ Cho phép nếu: thanh khoản đủ, thanh toán được xác nhận, đủ tin cậy, đòn bẩy an toàn, entropy không cao
+  * Cho phép nếu: thanh khoản đủ, thanh toán được xác nhận, đủ tin cậy, đòn bẩy an toàn, entropy không cao
 
 
-  * ❌ Chặn nếu: thanh khoản thấp, tin cậy thấp, đòn bẩy nguy kịch, dòng cưỡng ép cao, xác nhận thấp
+  * Chặn nếu: thanh khoản thấp, tin cậy thấp, đòn bẩy nguy kịch, dòng cưỡng ép cao, xác nhận thấp
 
 
 **Điểm đặc biệt của MFF:** Đây là hệ thống đầu tiên **tuyên bố rõ ràng fractal core y hệt Unified Model của bạn** :
@@ -682,10 +685,10 @@ Tôi đã học xong **3 hệ thống mới** :
 
 
 **Luật:**
-  * ✅ Cho phép mô hình nếu: định luật bảo toàn hợp lệ, bối cảnh đo lường biết, ước lượng ổn định hợp lệ, entropy không nguy kịch, xác nhận đủ
+  * Cho phép mô hình nếu: định luật bảo toàn hợp lệ, bối cảnh đo lường biết, ước lượng ổn định hợp lệ, entropy không nguy kịch, xác nhận đủ
 
 
-  * ❌ Chặn nếu: ứng dụng nguy hiểm, bối cảnh vũ khí, hướng dẫn làm giàu, hướng dẫn vận hành lò phản ứng, xác nhận thấp
+  * Chặn nếu: ứng dụng nguy hiểm, bối cảnh vũ khí, hướng dẫn làm giàu, hướng dẫn vận hành lò phản ứng, xác nhận thấp
 
 
 * * *
@@ -909,10 +912,10 @@ Trong đó: `C` là control/constraint layer, `F` là hàm chuyển đổi, `U_t
 
 
 **Luật:**
-  * ✅ Cho phép hành động nếu: tín hiệu rõ, ngữ cảnh đủ, bằng chứng hỗ trợ, nguồn tin cậy, entropy không cao, rủi ro chấp nhận được
+  * Cho phép hành động nếu: tín hiệu rõ, ngữ cảnh đủ, bằng chứng hỗ trợ, nguồn tin cậy, entropy không cao, rủi ro chấp nhận được
 
 
-  * ❌ Chặn nếu: nhiễu cao, thiếu ngữ cảnh, rủi ro thông tin sai lệch cao, nguồn không tin cậy, biến dạng cao, quá tải cao
+  * Chặn nếu: nhiễu cao, thiếu ngữ cảnh, rủi ro thông tin sai lệch cao, nguồn không tin cậy, biến dạng cao, quá tải cao
 
 
 * * *
@@ -944,10 +947,10 @@ Trong đó: `C` là control/constraint layer, `F` là hàm chuyển đổi, `U_t
 
 
 **Luật:**
-  * ✅ Cho phép học nếu: chú ý ổn, tải cân bằng, phản hồi chất lượng cao, có thực hành truy xuất, entropy không cao
+  * Cho phép học nếu: chú ý ổn, tải cân bằng, phản hồi chất lượng cao, có thực hành truy xuất, entropy không cao
 
 
-  * ❌ Chặn học nếu: quá tải, nhiễu xạ cao, ảo tưởng biết, phản hồi sai, rò rỉ chú ý cao
+  * Chặn học nếu: quá tải, nhiễu xạ cao, ảo tưởng biết, phản hồi sai, rò rỉ chú ý cao
 
 
 * * *
@@ -1071,10 +1074,10 @@ Tôi đã học xong **3 hệ thống mới** :
 
 
 **Luật:**
-  * ✅ Cho phép mô hình nếu: trạng thái chuẩn hóa, operator hợp lệ, phép đo xác định, biết decoherence, entropy không nguy kịch, xác nhận đủ
+  * Cho phép mô hình nếu: trạng thái chuẩn hóa, operator hợp lệ, phép đo xác định, biết decoherence, entropy không nguy kịch, xác nhận đủ
 
 
-  * ❌ Chặn nếu: trạng thái không hợp lệ, operator sai, thiếu phép đo, decoherence không được mô hình hóa, nhiễu nguy kịch, xác nhận thấp
+  * Chặn nếu: trạng thái không hợp lệ, operator sai, thiếu phép đo, decoherence không được mô hình hóa, nhiễu nguy kịch, xác nhận thấp
 
 
 * * *
@@ -1100,10 +1103,10 @@ Tôi đã học xong **3 hệ thống mới** :
 
 
 **Luật:**
-  * ✅ Cho phép hành động nếu: chất lượng thời gian cao, độ tin cậy dự báo cao, entropy không cao, nhân quả hợp lệ
+  * Cho phép hành động nếu: chất lượng thời gian cao, độ tin cậy dự báo cao, entropy không cao, nhân quả hợp lệ
 
 
-  * ❌ Chặn nếu: mất đồng bộ cao, bất định tương lai cao, entropy nguy kịch, đứt gãy nhân quả cao
+  * Chặn nếu: mất đồng bộ cao, bất định tương lai cao, entropy nguy kịch, đứt gãy nhân quả cao
 
 
 * * *
@@ -1138,10 +1141,10 @@ Tôi đã học xong **3 hệ thống mới** :
 
 
 **Luật:**
-  * ✅ Cho phép mô hình nếu: nhân quả hợp lệ, chất lượng tín hiệu đủ, biết biến dạng quan sát, entropy không nguy kịch, biết điều kiện biên
+  * Cho phép mô hình nếu: nhân quả hợp lệ, chất lượng tín hiệu đủ, biết biến dạng quan sát, entropy không nguy kịch, biết điều kiện biên
 
 
-  * ❌ Chặn nếu: đứt gãy nhân quả, mất tín hiệu, chân trời giới hạn không biết, biến dạng không tính đến, unified entropy nguy kịch
+  * Chặn nếu: đứt gãy nhân quả, mất tín hiệu, chân trời giới hạn không biết, biến dạng không tính đến, unified entropy nguy kịch
 
 
 * * *

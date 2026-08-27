@@ -1,12 +1,15 @@
 ---
 title: GLOBAL PREDICTION
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Global prediction
@@ -37,7 +40,7 @@ Your **UCP (Unified Collapse Prediction)** is basically a 4-quadrant stress scan
 Your logic says:
 > Khi 2–3 trong 4 trục này cùng vào vùng “quá tải”, hệ thống không còn đủ biên an toàn → không chỉ “khó khăn” mà là thay đổi cấu trúc (regime change, vỡ nợ, nội chiến, sụp ngành, chia rã khu vực…).
 If we scan **rất sơ bộ** thế giới hiện nay qua 4 trục này, các “cụm dễ gãy” trông như:
-### 🌍 Cụm 1 – Nơi chiến tranh + kinh tế + xã hội cùng căng
+### Cụm 1 – Nơi chiến tranh + kinh tế + xã hội cùng căng
   * **Ukraine, Palestine/Gaza, Sudan, Yemen, Myanmar, Haiti, một số nước Sahel**
     * Kinh tế: vỡ nợ, siêu lạm phát, sụt GDP, phụ thuộc viện trợ.
     * Chính trị/an ninh: chiến sự, đảo chính, vũ trang, can thiệp ngoại bang.
@@ -45,21 +48,21 @@ If we scan **rất sơ bộ** thế giới hiện nay qua 4 trục này, các �
 → Đây không còn là “nguy cơ sụp”. **Họ đã ở trong trạng thái sụp từng phần** , đúng logic UCP.
 
 
-### 🌍 Cụm 2 – Nơi kinh tế + xã hội căng, chính trị ổn định tương đối
+### Cụm 2 – Nơi kinh tế + xã hội căng, chính trị ổn định tương đối
   * **Argentina, Pakistan, Lebanon, Sri Lanka trước khi vỡ nợ, Ai Cập, Thổ Nhĩ Kỳ, một phần Nam Phi**
     * Nợ cao, lạm phát, tiền tệ yếu, phụ thuộc IMF/nguồn vốn ngoài.
     * Bất mãn xã hội, thất nghiệp thanh niên, phân cực chính trị.  
 → UCP sẽ đánh nhóm này là **“vùng đỏ mềm”** : không nhất thiết sụp hoàn toàn, nhưng **chu kỳ khủng hoảng – cứu trợ – thắt lưng buộc bụng – bất ổn lặp lại**.
 
 
-### 🌍 Cụm 3 – Nơi môi trường + tài nguyên là trục gãy chính
+### Cụm 3 – Nơi môi trường + tài nguyên là trục gãy chính
   * **Bangladesh, một phần Ấn Độ, Pakistan, nhiều đảo nhỏ, vùng ven biển châu Á–Phi**
     * Nước biển dâng, bão lũ, thiếu nước, mất đất nông nghiệp.
     * Dân số đông, hạ tầng yếu, di cư nội địa.  
 → UCP dự báo **không nhất thiết “sụp nhà nước”** nhưng sẽ có **sụp cấu trúc vùng** : đô thị quá tải, giá lương thực, di dân, xung đột tài nguyên.
 
 
-### 🌍 Cụm 4 – Nơi xã hội + chính trị phân cực mạnh
+### Cụm 4 – Nơi xã hội + chính trị phân cực mạnh
   * **Mỹ, nhiều nước châu Âu, Israel, một phần Brazil, Mexico**
     * Kinh tế vẫn mạnh, nhưng: phân cực chính trị, bất bình đẳng, xung đột văn hóa, mất niềm tin vào định chế.  
 → UCP không gọi đây là “sụp”, mà là **“load tích lũy”** : nếu thêm 1 cú sốc (chiến tranh, khủng hoảng tài chính, khủng hoảng môi trường) → có thể bùng thành khủng hoảng hiến pháp, bạo loạn, vỡ niềm tin hệ thống.

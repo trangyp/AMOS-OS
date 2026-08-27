@@ -1,9 +1,14 @@
 ---
 title: FRESHNESS REVALIDATION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
-tags: [control_plane, 84_freshness_revalidation_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/84_FRESHNESS_REVALIDATION_MODES
+tags: [control_plane, 84_freshness_revalidation_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # FRESHNESS REVALIDATION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
@@ -38,3 +43,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[84_FRESHNESS_REVALIDATION_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

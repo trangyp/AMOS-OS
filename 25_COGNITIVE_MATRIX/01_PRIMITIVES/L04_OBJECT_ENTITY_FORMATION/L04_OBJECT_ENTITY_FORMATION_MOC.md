@@ -1,8 +1,15 @@
 ---
 title: "L04 Object Entity Formation MOC"
 type: moc
-tags: [moc, l04-object-entity-formation]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
+tags: [moc, l04-object-entity-formation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L04 Object Entity Formation — Map of Content
 

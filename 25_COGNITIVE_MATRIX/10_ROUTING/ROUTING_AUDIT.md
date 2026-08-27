@@ -2,6 +2,7 @@
 artifact_id: AMOS-CM-10-ROUTING-ROUTING-AUDIT
 title: "10_ROUTING — Routing Audit"
 type: note
+source: 25_COGNITIVE_MATRIX/10_ROUTING
 
 path_target: "25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_AUDIT.md"
 
@@ -44,7 +45,7 @@ gmef_role: "- ROUTING_ASSURANCE_GATE
   - ROUTING_POLICY_COMPLIANCE_GATE
   - ROUTE_PROMOTI..."
 hml_scope: "see body"
-tags: [identity:, cognitive_matrix, matrix, AMOS, AMOS_OS, AMOS_FULL_BRAIN_OS, AMOS_CORE, AMOS_CORE_v4_4, TRANG_PHAN, COGNITIVE_MATRIX, ROUTING, ROUTING_AUDIT]
+tags: [{'identity':-None}, cognitive_matrix, matrix, AMOS, AMOS_OS, AMOS_FULL_BRAIN_OS, AMOS_CORE, AMOS_CORE_v4_4, TRANG_PHAN, COGNITIVE_MATRIX, ROUTING, ROUTING_AUDIT, canon/cognitive-matrix]
 
 architecture: "see body"---
 
@@ -62,8 +63,13 @@ architecture: "see body"---
 > **Conclusion class:** `UNKNOWN/GAP`
 >
 > **AMOS_CORE target:** `v4.4`
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 0. Purpose
 

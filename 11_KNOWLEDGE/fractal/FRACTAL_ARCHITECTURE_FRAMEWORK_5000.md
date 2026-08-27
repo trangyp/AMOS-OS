@@ -1,13 +1,16 @@
 ---
 title: FRACTAL ARCHITECTURE FRAMEWORK 5000
-tags: [fractal, math, self-similarity]
+tags: [fractal, math, self-similarity, canon/knowledge]
 type: data
 source: 11_KNOWLEDGE/fractal
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: fractal_system
+
 ---
-
-
-
-
+# FRACTAL ARCHITECTURE FRAMEWORK 5000
 
 ```json
 {"meta": {"version": "2.0-expanded", "entries": 5000, "created": "2026-05-05T04:20:40.254762"}, "entries": [{"id": "FAF-X00001", "equation": "x_{n+1}=f(x_n)", "type": "network", "scale": 20, "domain": "architecture", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X00002", "equation": "x_{n+1}=f(x_n)", "type": "recursive", "scale": 10, "domain": "economics", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X00003", "equation": "x_{n+1}=f(x_n)", "type": "recursive", "scale": 47, "domain": "economics", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X00004", "equation": "x_{n+1}=f(x_n)", "type": "recursive", "scale": 65, "domain": "biology", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X00005", "equation": "x_{n+1}=f(x_n)", "type": "recursive", "scale": 12, "domain": "architecture", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X00006", "equation": "x_{n+1}=f(x_n)", "type": "dynamic", "scale": 9, "domain": "biology", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X00007", "equation": "x_{n+1}=f(x_n)", "type": "recursive", "scale": 71, "domain": "architecture", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X00008", "equation": "x_{n+1}=f(x_n)", "type": "recursive", "scale": 73, "domain": "math", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X00009", "equation": "x_{n+1}=f(x_n)", "type": "fractal", "scale": 81, "domain": "economics", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X00010", "equation": "x_{n+1}=f(x_n)", "type": "recursive", "scale": 74, "domain": "economics", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X00011", "equation": "x_{n+1}=f(x_n)", "type": "dynamic", "scale": 7, "domain": "biology", "note": "expanded synthetic fractal-architecture mapping"}, {"id": "FAF-X00012", "equation": "x_{n+1}=f(x_n)", 

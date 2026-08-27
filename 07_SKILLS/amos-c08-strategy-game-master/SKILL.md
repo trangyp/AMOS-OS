@@ -1,14 +1,22 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-c08-strategy-game-master
 name: amos-c08-strategy-game-master
 description: "AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation, Nash equilibria, game theory, consulting discipline, McKinsey frameworks, Bluebook strategy. Use for strategic analysi..."
 parent_skill: none
 domain: c08
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c08-strategy-game-master]
+tags: [note, amos-c08-strategy-game-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
+
 
 # AMOS C08 — Strategy, Game Theory & Negotiation Master Knowledge
 
@@ -83,3 +91,96 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Canon status**: DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES
 - **Archit
 - [[AGENT_TEMPLATE]]
+
+---
+**MOC:** [[amos-c08-strategy-game-master_MOC]]
+
+## Examples
+
+- **Scenario**: When managing lifecycle operations across classify, validate, trace, assess, and detect
+  - **Input**: A query matching this skill's domain (c08)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When detecting drift in evidence chains, provenance freshness, or confidence calibration
+  - **Input**: A query matching this skill's domain (c08)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When validating outputs against domain constraints and epistemic class
+  - **Input**: A query matching this skill's domain (c08)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the c08 domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when c08 specialization is needed
+- **Peers**: Other skills in the `c08` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/architecture_of_war.md` — loaded on demand
+- `references/architecture_of_war_and_peace.md` — loaded on demand
+- `references/c08_strategy_game_super.md` — loaded on demand
+- `references/consulting_engine.md` — loaded on demand
+- `references/consulting_engine_super.md` — loaded on demand
+- `references/consulting_super_engine.md` — loaded on demand
+- `references/directed_systemic_intelligence.md` — loaded on demand
+- `references/domain_config.md` — loaded on demand
+- `references/grand_cannon_mobility_model.md` — loaded on demand
+- `references/hse_ceo_engine_model.md` — loaded on demand
+- `references/mbb_consulting_kernel.md` — loaded on demand
+- `references/military_strategy.md` — loaded on demand
+- `references/omega_chart_engine.md` — loaded on demand
+- `references/omega_civilization_grade.md` — loaded on demand
+- `references/opportunity_agent.md` — loaded on demand
+- `references/policy_geostrategy_engine.md` — loaded on demand
+- `references/policy_geostrategy_engine_layer.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/strategic_analysis_report.md` — loaded on demand
+- `references/strategic_partners_list.md` — loaded on demand
+- `references/strategy_game_engine_cognitive.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `[[amos-c08-strategy-game-master_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-c08-strategy-game-master-workflow]]` — corresponding workflow
+- `[[amos-c08-strategy-game-master-agent]]` — corresponding agent
+

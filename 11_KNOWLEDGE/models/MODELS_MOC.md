@@ -1,8 +1,15 @@
 ---
 title: "Models MOC"
 type: moc
-tags: [moc, models]
+source: 11_KNOWLEDGE/models
+tags: [moc, models, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: model_specification
 ---
+
 
 # Models — Map of Content
 

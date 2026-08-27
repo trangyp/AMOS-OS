@@ -1,11 +1,15 @@
 ---
 title: AMOS BRAIN FRAGMENT FILE STRUCTURE
-tags: [brain, cognitive, neural]
+tags: [brain, cognitive, neural, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/brain
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
+
 ---
-
-
 
 
 # AMOS Brain Fragment File Structure — Consolidation Notes
@@ -86,3 +90,6 @@ For future work, the fragment structure is workable as-is. The fragments provide
 
 ---
 **MOC:** [[BRAIN_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX C03 EXECUTIVE CONTRACT
 type: cognitive
-tags: [cognitive_matrix, control_planes, c03_executive, contract]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE
+tags: [cognitive_matrix, control_planes, c03_executive, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # C03_EXECUTIVE — Executive arbitration among competing goals and plans; explicit defer semantics.
@@ -44,3 +49,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[C03_EXECUTIVE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

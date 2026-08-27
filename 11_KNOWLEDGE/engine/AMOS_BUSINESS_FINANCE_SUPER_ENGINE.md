@@ -1,15 +1,20 @@
 ---
 title: AMOS BUSINESS FINANCE SUPER ENGINE
 type: finance
+source: 11_KNOWLEDGE/engine
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: amos-business-finance-super-engine
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-business-finance-super-engine, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
+# AMOS BUSINESS FINANCE SUPER ENGINE
 
 ```json
 {
@@ -1372,3 +1377,6 @@ created: 2026-08-22
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

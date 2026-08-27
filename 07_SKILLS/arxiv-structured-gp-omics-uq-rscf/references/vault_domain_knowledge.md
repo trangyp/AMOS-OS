@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, arxiv-structured-gp-omics-uq-rscf]
+source: 07_SKILLS/arxiv-structured-gp-omics-uq-rscf/references
+tags: [reference, arxiv-structured-gp-omics-uq-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 

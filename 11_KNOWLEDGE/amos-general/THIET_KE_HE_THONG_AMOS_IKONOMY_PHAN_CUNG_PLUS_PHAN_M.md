@@ -1,12 +1,15 @@
 ---
 title: THIET KE HE THONG AMOS IKONOMY PHAN CUNG PLUS PHAN M
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
-
 
 
 # **THIẾT KẾ HỆ THỐNG AMOS-IKONOMY (PHẦN CỨNG + PHẦN MỀM)**
@@ -3018,15 +3021,25 @@ Bạn trả lời 2 dòng đó, tôi sẽ viết tiếp ngay nấc cuối: **m�
 ## **1) Sơ đồ khối chi tiết (Mermaid) cho hồ sơ kỹ thuật**
 ```
     flowchart TB
-      A[DC Input 48–96VDC] --> B[Input Protection & EMI Filter<br/>OVP/UVP, Reverse, Inrush, TVS+LC]
-      B --> C[DC Link<br/>Bulk Caps + Precharge + Current Sense (IN)]
-      C --> D[Cannon Power Stage<br/>Sync Buck / 4-Switch Buck-Boost<br/>PWM 50–150kHz]
-      D --> E[Output Filter<br/>Lout + Cout + Snubber]
-      E --> F[Electrolysis Stack<br/>Cell/Plate/Bar]
-      F --> G[Thermal Module<br/>Thermal Mass + Spreader + Cooling Path]
-      F --> H[Water Module<br/>Reservoir + Level + Conductivity (opt) + Feed]
-      F --> I[Gas Module<br/>Separator + Bubbler/Trap + Buffer + Check Valves]
-      I --> J[H2 Output Regulation<br/>Orifice/Regulator + Pressure Relief]
+      A[DC Input 48–96VDC] --> B[Input Protection & EMI Filter
+OVP/UVP, Reverse, Inrush, TVS+LC]
+      B --> C[DC Link
+Bulk Caps + Precharge + Current Sense (IN)]
+      C --> D[Cannon Power Stage
+Sync Buck / 4-Switch Buck-Boost
+PWM 50–150kHz]
+      D --> E[Output Filter
+Lout + Cout + Snubber]
+      E --> F[Electrolysis Stack
+Cell/Plate/Bar]
+      F --> G[Thermal Module
+Thermal Mass + Spreader + Cooling Path]
+      F --> H[Water Module
+Reservoir + Level + Conductivity (opt) + Feed]
+      F --> I[Gas Module
+Separator + Bubbler/Trap + Buffer + Check Valves]
+      I --> J[H2 Output Regulation
+Orifice/Regulator + Pressure Relief]
     
       subgraph SENS[Sensor Layer]
         S1[I_stack Sense (fast)]
@@ -3045,10 +3058,14 @@ Bạn trả lời 2 dòng đó, tôi sẽ viết tiếp ngay nấc cuối: **m�
       H --> S6
     
       subgraph RT[Layer 2: Real-Time Control (MCU/FPGA)]
-        R1[Inner Current Loop<br/>PI + Feedforward + Anti-windup]
-        R2[Slew/di-dt Limiter<br/>dI/dt hard clamp]
-        R3[PWM Modulator<br/>Duty + Deadtime + Gate Slew]
-        R4[Fault Fast Trip<br/>OCP/OVP/OTP hard]
+        R1[Inner Current Loop
+PI + Feedforward + Anti-windup]
+        R2[Slew/di-dt Limiter
+dI/dt hard clamp]
+        R3[PWM Modulator
+Duty + Deadtime + Gate Slew]
+        R4[Fault Fast Trip
+OCP/OVP/OTP hard]
       end
     
       S1 --> R1
@@ -3058,12 +3075,18 @@ Bạn trả lời 2 dòng đó, tôi sẽ viết tiếp ngay nấc cuối: **m�
       S4 --> R4
     
       subgraph AMOS[Layer 3: AMOS Core]
-        A1[State Estimator<br/>R_eq, dR/dt, Stress Indices]
-        A2[Envelope Manager<br/>Cruise/Boost/Degraded/Protective]
-        A3[Waveform Selector<br/>DC / Pulsed / Soft-Burst]
-        A4[Boost Gate + Budget<br/>Permission + Cooldown]
-        A5[Derate Planner<br/>Smooth reduction before trip]
-        A6[Audit Log Generator<br/>UCAI tags + evidence]
+        A1[State Estimator
+R_eq, dR/dt, Stress Indices]
+        A2[Envelope Manager
+Cruise/Boost/Degraded/Protective]
+        A3[Waveform Selector
+DC / Pulsed / Soft-Burst]
+        A4[Boost Gate + Budget
+Permission + Cooldown]
+        A5[Derate Planner
+Smooth reduction before trip]
+        A6[Audit Log Generator
+UCAI tags + evidence]
       end
     
       S1 --> A1
@@ -5898,7 +5921,8 @@ Hệ thống được coi là đạt “mép khả thi” khi thỏa đồng th�
 ```
     flowchart TD
       A[DC Input 48–96V] --> B[Power Conditioning & Protection]
-      B --> C[Cannon Drive Stage<br/>Current-Controlled Converter]
+      B --> C[Cannon Drive Stage
+Current-Controlled Converter]
       C --> D[Electrolysis Stack]
       D --> E[Thermal Management]
       D --> F[Water Management]
@@ -5906,19 +5930,24 @@ Hệ thống được coi là đạt “mép khả thi” khi thỏa đồng th�
       G --> H[H2 Output Regulation]
     
       subgraph RT[MCU Thời gian thực (Real-time MCU)]
-        C1[Current Control Loop<br/>PI + Feedforward] --> C2[PWM/Gate Driver]
-        C3[Fast Protections<br/>OCP/OVP/UVP/dI/dt] --> C2
+        C1[Current Control Loop
+PI + Feedforward] --> C2[PWM/Gate Driver]
+        C3[Fast Protections
+OCP/OVP/UVP/dI/dt] --> C2
       end
     
       subgraph AM[AMOS Core (Decision Layer)]
-        M1[State Estimator<br/>R_eq, drift, stress] --> M2[Envelope Manager]
+        M1[State Estimator
+R_eq, drift, stress] --> M2[Envelope Manager]
         M2 --> M3[Waveform Selector]
-        M2 --> M4[Boost Permission<br/>Enthalpy headroom]
+        M2 --> M4[Boost Permission
+Enthalpy headroom]
         M2 --> M5[MPC Light 30–60s (optional)]
       end
     
       subgraph SAFE[Safety MCU độc lập]
-        S1[Independent Sensors<br/>T,P,WL] --> S2[Hard Interlock]
+        S1[Independent Sensors
+T,P,WL] --> S2[Hard Interlock]
         S2 --> S3[Force Derate / PWM-Off / Lockout]
       end
     
@@ -7790,3 +7819,6 @@ Nếu bạn trả lời **1 chữ** : **SRS** hoặc **MERMAID** , tôi sẽ xu�
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

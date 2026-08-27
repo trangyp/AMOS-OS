@@ -1,8 +1,15 @@
 ---
 title: "Amos-Memory-Execution-Graph-Attribution-Rscf MOC"
 type: moc
-tags: [moc, amos-memory-execution-graph-attribution-]
+source: 07_SKILLS/amos-memory-execution-graph-attribution-rscf
+tags: [moc, amos-memory-execution-graph-attribution-, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Memory-Execution-Graph-Attribution-Rscf — Map of Content
 

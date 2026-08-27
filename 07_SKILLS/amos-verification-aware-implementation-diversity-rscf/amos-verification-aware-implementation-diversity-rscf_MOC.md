@@ -1,8 +1,15 @@
 ---
 title: "Amos-Verification-Aware-Implementation-Diversity-Rscf MOC"
 type: moc
-tags: [moc, amos-verification-aware-implementation-d]
+source: 07_SKILLS/amos-verification-aware-implementation-diversity-rscf
+tags: [moc, amos-verification-aware-implementation-d, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Verification-Aware-Implementation-Diversity-Rscf — Map of Content
 

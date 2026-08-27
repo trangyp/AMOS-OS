@@ -1,12 +1,15 @@
 ---
 title: PHAN NGHIEP SU THAT VE NHUNG CAU TRUC CUC DOAN M
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # **PHẢN NGHIỆP – Sự thật về những cấu trúc cực đoan mà Cổ học không dám ghi**

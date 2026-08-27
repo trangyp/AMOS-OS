@@ -1,8 +1,15 @@
 ---
 title: "L13 Prediction MOC"
 type: moc
-tags: [moc, l13-prediction]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L13_PREDICTION
+tags: [moc, l13-prediction, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L13 Prediction — Map of Content
 

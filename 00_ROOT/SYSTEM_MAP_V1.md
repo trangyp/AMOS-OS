@@ -1,5 +1,6 @@
 ---
 type: map
+source: 00_ROOT
 artifact_id: AMOS-OS-SYSTEM-MAP
 name: AMOS_OS_SYSTEM_MAP
 title: "AMOS OS System Map — Authoritative Plane Topology and Cross-System Relationship Map"
@@ -37,7 +38,6 @@ aliases: "- AMOS System Map
 related: "see body"---
 
 
-
 # AMOS OS System Map
 
 **Origin architect / steward:** Trang Phan
@@ -45,8 +45,13 @@ related: "see body"---
 > **Status:** `ACTIVE_MAP`  
 > **AMOS_CORE target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`
-
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: root_index
 ---
+
 
 # 0. Purpose
 

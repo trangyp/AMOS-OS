@@ -1,8 +1,14 @@
 ---
 title: TECH QUANTUM ENGINE V0
-tags: [quantum, physics, qfm]
+tags: [quantum, physics, qfm, canon/knowledge]
 type: note
 source: 11_KNOWLEDGE/quantum
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: quantum_reasoning
+
 ---
 
 

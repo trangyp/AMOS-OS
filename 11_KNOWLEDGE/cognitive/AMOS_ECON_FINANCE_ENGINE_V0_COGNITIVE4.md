@@ -1,15 +1,20 @@
 ---
 title: AMOS ECON FINANCE ENGINE V0 COGNITIVE4
 type: cognitive
+source: 11_KNOWLEDGE/cognitive
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: amos-econ-finance-engine-v0
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-econ-finance-engine-v0, cognitive]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: cognitive_model
 ---
-
-
+# AMOS ECON FINANCE ENGINE V0 COGNITIVE4
 
 ```json
 [
@@ -209,3 +214,6 @@ created: 2026-08-22
 
 ---
 **MOC:** [[COGNITIVE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

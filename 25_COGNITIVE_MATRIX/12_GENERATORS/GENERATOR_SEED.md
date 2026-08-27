@@ -1,16 +1,6 @@
 ---
-title: GENERATOR SEED
-type: note
-tags: [note, 12-generators]
----
-
-
-I did not recover an authoritative Drive artifact named `GENERATOR_SEED.md`; the search returned unrelated or adjacent materials instead, so the content below is a **substantive `AMOS_MODEL / CANDIDATE_CANON` replacement**, not recovered canon. 
-
-````markdown
----
-tags:
-  - cognitive_matrix
+title: "GENERATOR SEED"
+tags: [- cognitive_matrix, canon/cognitive-matrix]
   - generators
   - seed
   - initialization
@@ -18,7 +8,15 @@ tags:
   - determinism
   - reproducibility
   - rscf
+type: document
+source: 25_COGNITIVE_MATRIX/12_GENERATORS
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Generator Seed
 
@@ -66,15 +64,7 @@ freshness boundary
 
 The governing law is:
 
-$$
-\boxed{
-Seed
-=
-Initial\ Conditions
-\neq
-Truth
-}
-$$
+$$\boxed{ Seed = Initial\ Conditions \neq Truth }$$
 
 A seed determines where generation starts.
 
@@ -133,23 +123,17 @@ WHAT WOULD INVALIDATE THE SEED?
 
 # 2. Core Seed Law
 
-For generator \(G\):
+For generator $G$:
 
-$$
-O = G(S)
-$$
+$$O = G(S)$$
 
-where \(S\) is the seed state.
+where $S$ is the seed state.
 
-The output \(O\) inherits any load-bearing weakness in \(S\).
+The output $O$ inherits any load-bearing weakness in $S$.
 
 Therefore:
 
-$$
-Invalid(S)
-\Rightarrow
-PotentiallyInvalid(O)
-$$
+$$Invalid(S) \Rightarrow PotentiallyInvalid(O)$$
 
 for outputs depending materially on the failed seed component.
 
@@ -258,11 +242,7 @@ This distinction is essential for reproducibility and provenance.
 
 The generator and its seed are distinct.
 
-$$
-GeneratorIdentity
-\neq
-SeedIdentity
-$$
+$$GeneratorIdentity \neq SeedIdentity$$
 
 A single generator version may process many seeds.
 
@@ -283,25 +263,17 @@ Every consequential seed SHOULD bind the exact generator version receiving it.
 
 If:
 
-$$
-S \rightarrow G_{v_1}
-$$
+$$S \rightarrow G_{v_1}$$
 
 then reusing the same seed with:
 
-$$
-G_{v_2}
-$$
+$$G_{v_2}$$
 
 creates a new generation condition.
 
 Thus:
 
-$$
-G_{v_1}(S)
-\not\equiv
-G_{v_2}(S)
-$$
+$$G_{v_1}(S) \not\equiv G_{v_2}(S)$$
 
 unless equivalence is independently established.
 
@@ -514,11 +486,7 @@ A random seed alone does not guarantee reproducibility.
 
 The following is invalid:
 
-$$
-SameRandomSeed
-\Rightarrow
-SameOutput
-$$
+$$SameRandomSeed \Rightarrow SameOutput$$
 
 unless all other output-relevant conditions are also controlled.
 
@@ -545,18 +513,7 @@ A deterministic generator seed SHOULD identify every input dimension required fo
 
 Conceptually:
 
-$$
-S_D =
-(
-Task,
-Inputs,
-Config,
-Version,
-Dependencies,
-State,
-RandomSeed
-)
-$$
+$$S_D = ( Task, Inputs, Config, Version, Dependencies, State, RandomSeed )$$
 
 If any load-bearing dimension is omitted, deterministic replay is not fully established.
 
@@ -583,9 +540,7 @@ The class MUST reflect what is actually supported.
 
 Strong form:
 
-$$
-G(S)_1 = G(S)_2
-$$
+$$G(S)_1 = G(S)_2$$
 
 at byte level under declared conditions.
 
@@ -671,11 +626,7 @@ AMOS MUST NOT treat them as independent merely because they occupy different see
 
 If ten seed claims all descend from one source:
 
-$$
-10\ SeedItems
-\neq
-10\ IndependentEvidenceItems
-$$
+$$10\ SeedItems \neq 10\ IndependentEvidenceItems$$
 
 Seed construction MUST preserve ancestry.
 
@@ -728,11 +679,7 @@ If hidden state materially influences output, it SHOULD enter the effective seed
 
 A generation run MUST NOT be labeled fully reproducible if load-bearing hidden state is untracked.
 
-$$
-UnknownHiddenState
-\Rightarrow
-ReproducibilityCeiling < Full
-$$
+$$UnknownHiddenState \Rightarrow ReproducibilityCeiling < Full$$
 
 ---
 
@@ -776,12 +723,7 @@ A generator seed MAY have a deterministic fingerprint.
 
 Conceptually:
 
-$$
-SeedHash =
-H(
-CanonicalizedSeed
-)
-$$
+$$SeedHash = H( CanonicalizedSeed )$$
 
 This can support:
 
@@ -798,9 +740,7 @@ A matching hash establishes matching canonicalized seed representation, not corr
 
 # 34. Seed Hash Firewall
 
-$$
-Hash(S_1)=Hash(S_2)
-$$
+$$Hash(S_1)=Hash(S_2)$$
 
 may indicate seed identity under the selected canonicalization/hash process.
 
@@ -1079,9 +1019,7 @@ Conflicts MUST remain explicit until resolved.
 
 If hard constraints are mutually incompatible:
 
-$$
-C_1 \land C_2 = \bot
-$$
+$$C_1 \land C_2 = \bot$$
 
 the seed is not executable as currently bound.
 
@@ -1117,7 +1055,7 @@ explicit transfer model
 
 # 53. Regime Conflict
 
-If generator assumptions are valid only under regime \(R_1\) while task state is \(R_2\):
+If generator assumptions are valid only under regime $R_1$ while task state is $R_2$:
 
 ```text
 REGIME_MISMATCH
@@ -1387,11 +1325,9 @@ Recursive generation MUST NOT erase ancestry.
 
 If:
 
-$$
-S_2 = G(S_1)
-$$
+$$S_2 = G(S_1)$$
 
-then \(S_2\) remains dependent on \(S_1\).
+then $S_2$ remains dependent on $S_1$.
 
 A recursively generated seed is not independent evidence.
 
@@ -1401,10 +1337,7 @@ A recursively generated seed is not independent evidence.
 
 A generator may require initialization from multiple RSCF states.
 
-$$
-S =
-Merge(R_1,R_2,R_3)
-$$
+$$S = Merge(R_1,R_2,R_3)$$
 
 If those states are mutually incompatible:
 
@@ -1444,7 +1377,7 @@ Do not mix incompatible epochs.
 
 # 71. Causal Epoch Binding
 
-A seed MAY bind to causal epoch \(E_n\).
+A seed MAY bind to causal epoch $E_n$.
 
 ```yaml
 state:
@@ -1487,11 +1420,7 @@ This is a reasoning pattern, not proof of literal database MVCC.
 
 Before committing output:
 
-$$
-ExpectedSeedState
-\stackrel{?}{=}
-CurrentRelevantState
-$$
+$$ExpectedSeedState \stackrel{?}{=} CurrentRelevantState$$
 
 If false and material:
 
@@ -1578,7 +1507,7 @@ until established.
 
 # 78. Seed Migration
 
-A seed created for generator version \(v_1\) may require migration for \(v_2\).
+A seed created for generator version $v_1$ may require migration for $v_2$.
 
 ```text
 SEED@v1
@@ -1643,9 +1572,7 @@ Dependent outputs SHOULD undergo targeted impact analysis.
 
 If one seed component fails:
 
-$$
-Invalidate(S_i)
-$$
+$$Invalidate(S_i)$$
 
 invalidate only outputs materially dependent on that component.
 
@@ -1815,11 +1742,7 @@ Access SHOULD follow the applicable governance policy.
 
 A generator cannot infer permission from seed possession.
 
-$$
-HasSeed
-\not\Rightarrow
-AuthorizedForAllUses
-$$
+$$HasSeed \not\Rightarrow AuthorizedForAllUses$$
 
 Seed information remains bound to its authorized purpose and scope.
 
@@ -1901,7 +1824,7 @@ not ten independent sources.
 
 # 97. Seed Scope Test
 
-Use seed evidence from scope \(S_1\) for a task requiring \(S_2\).
+Use seed evidence from scope $S_1$ for a task requiring $S_2$.
 
 Expected:
 
@@ -2266,17 +2189,13 @@ Generator behavior SHOULD be testable against seed perturbation.
 
 For output:
 
-$$
-O=G(S)
-$$
+$$O=G(S)$$
 
 evaluate:
 
-$$
-G(S+\delta)
-$$
+$$G(S+\delta)$$
 
-for plausible \(\delta\).
+for plausible $\delta$.
 
 If small noncritical changes cause large output changes:
 
@@ -2657,33 +2576,15 @@ TRUTH
 
 Therefore:
 
-$$
-\boxed{
-Seed
-=
-Bounded\ Initial\ Conditions
-}
-$$
+$$\boxed{ Seed = Bounded\ Initial\ Conditions }$$
 
 and:
 
-$$
-\boxed{
-SeedValidity
-\neq
-OutputValidity
-}
-$$
+$$\boxed{ SeedValidity \neq OutputValidity }$$
 
 and:
 
-$$
-\boxed{
-SameSeed
-\neq
-SameOutput
-}
-$$
+$$\boxed{ SameSeed \neq SameOutput }$$
 
 unless the full declared reproducibility envelope establishes it.
 

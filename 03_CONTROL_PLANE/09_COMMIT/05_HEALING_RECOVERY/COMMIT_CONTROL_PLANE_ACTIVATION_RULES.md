@@ -1,9 +1,14 @@
 ---
 title: COMMIT CONTROL PLANE ACTIVATION RULES
 type: rule
-tags: [control_plane, 05_healing_recovery]
+source: 03_CONTROL_PLANE/09_COMMIT/05_HEALING_RECOVERY
+tags: [control_plane, 05_healing_recovery, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # COMMIT CONTROL PLANE ACTIVATION RULES
@@ -70,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[05_HEALING_RECOVERY_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

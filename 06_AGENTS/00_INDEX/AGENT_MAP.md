@@ -1,9 +1,14 @@
 ---
 title: AGENT MAP
 type: agent
-tags: [amos_os, 06_agents]
+source: 06_AGENTS/00_INDEX
+tags: [amos_os, 06_agents, canon/agent]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # AGENT MAP

@@ -2,12 +2,17 @@
 title: MD 2026 08 23 AMOS ABSOLUTE INTEGRITY PASS
 origin_architect: "Trang Phan"
 type: note
-tags: [cosmo, amos, canon-group/tech-ai, rscf/claim, rscf/state/observation, topic/integrity, topic/test-reconciliation, topic/gap-closure, amos-general]
+source: 11_KNOWLEDGE/amos-general
+tags: [cosmo, amos, canon-group/tech-ai, rscf/claim, rscf/state/observation, topic/integrity, topic/test-reconciliation, topic/gap-closure, amos-general, canon/knowledge]
 status: "complete"
 provenance: "OBSERVATION"
 confidence: "HIGH"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
-
 
 
 # AMOS Absolute Integrity Pass — 2026-08-23

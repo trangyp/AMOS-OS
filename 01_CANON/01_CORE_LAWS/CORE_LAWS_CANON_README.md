@@ -1,14 +1,4 @@
 ---
-title: CORE LAWS CANON README
-type: note
-tags: [note, 01-core-laws]
----
-
-
-Below is the **full replacement content** for `01_CANON/01_CORE_LAWS/CORE_LAWS_CANON_README.md`. It replaces the placeholder while keeping the document at `AMOS_MODEL / PROPOSED_SPECIFICATION`; it does **not** self-promote the README or any generated law into admitted canon. That follows the AMOS canon rule that admission requires provenance, conflict/dependency review, authority, versioning, and explicit governance.
-
-````markdown
----
 title: "AMOS Core Laws Canon"
 artifact: "CORE_LAWS_CANON_README.md"
 artifact_id: "AMOS_CORE_LAWS_CANON_README"
@@ -18,8 +8,7 @@ system: "AMOS OS"
 domain: "CANON / CORE LAWS"
 path: "01_CANON/01_CORE_LAWS/CORE_LAWS_CANON_README.md"
 
-tags:
-  - canon
+tags: [- canon, canon/universe]
   - core_laws
   - readme
   - governance
@@ -34,7 +23,15 @@ epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
 implementation_status: "NOT_APPLICABLE_TO_README"
 validation_status: "STRUCTURAL_SPECIFICATION_NOT_CANON_APPROVAL"
+type: document
+source: 01_CANON/01_CORE_LAWS
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # AMOS Core Laws Canon
 

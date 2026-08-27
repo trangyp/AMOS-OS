@@ -1,13 +1,5 @@
 ---
-title: L7 AUTHORITY
-type: note
-tags: [note, 01-core-laws]
----
-
-
-````markdown
----
-tags: ['canon', 'core_laws', 'authority', 'authorization', 'delegation', 'revocation', 'control_plane', 'rscf', 'governance']
+tags: ['canon', 'core_laws', 'authority', 'authorization', 'delegation', 'revocation', 'control_plane', 'rscf', 'governance', canon/universe]
 title: "L7 Authority Boundary Laws"
 origin_architect: "Trang Phan"
 updated: "2026-08-26"
@@ -15,7 +7,15 @@ status: "PROPOSED_SPECIFICATION"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "CONDITIONAL"
 implementation_status: "LOGIC_EXECUTABLE_IN_PART"
+type: document
+source: 01_CANON/01_CORE_LAWS
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L7 Authority Boundary Laws
 

@@ -1,6 +1,7 @@
 ---
 title: INDEX KERNEL README
 type: index
+source: 02_KERNEL/00_INDEX
 artifact_id: AMOS-OS-KERNEL-README
 canonical_name: KERNEL_README
 artifact_type: kernel_plane_entrypoint
@@ -23,8 +24,6 @@ tags: [amos-os, kernel, core, canon-group/tech-ai, canon/framework, kernel/readm
 aliases: "- AMOS Kernel
   - AMOS OS Kernel
   - Kernel Plane..."---
-
-
 
 
 # AMOS OS Kernel
@@ -59,8 +58,13 @@ It does **not** answer:
 > **Who is authorized to perform them?**
 
 That belongs to the control plane.
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
+
 
 # 1. Hard Boundary
 

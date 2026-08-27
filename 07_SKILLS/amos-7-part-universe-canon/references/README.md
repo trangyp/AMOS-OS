@@ -1,9 +1,14 @@
 ---
 title: README
 type: note
-tags: [skill_reference, index]
+source: 07_SKILLS/amos-7-part-universe-canon/references
+tags: [skill_reference, index, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
-
 
 
 # References — amos-7-part-universe-canon

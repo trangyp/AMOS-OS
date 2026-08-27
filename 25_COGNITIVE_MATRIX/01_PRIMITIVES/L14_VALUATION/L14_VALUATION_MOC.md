@@ -1,8 +1,15 @@
 ---
 title: "L14 Valuation MOC"
 type: moc
-tags: [moc, l14-valuation]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION
+tags: [moc, l14-valuation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L14 Valuation — Map of Content
 

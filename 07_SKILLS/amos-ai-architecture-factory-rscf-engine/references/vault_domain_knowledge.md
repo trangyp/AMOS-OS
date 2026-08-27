@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-ai-architecture-factory-rscf-engine]
+source: 07_SKILLS/amos-ai-architecture-factory-rscf-engine/references
+tags: [reference, amos-ai-architecture-factory-rscf-engine, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -321,3 +328,4 @@ Before a cognition object becomes load
 
 ---
 **MOC:** [[references_MOC]]
+```

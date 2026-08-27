@@ -1,8 +1,15 @@
 ---
 title: "L28 Governance MOC"
 type: moc
-tags: [moc, l28-governance]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L28_GOVERNANCE
+tags: [moc, l28-governance, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L28 Governance — Map of Content
 

@@ -1,12 +1,15 @@
 ---
 title: AMOS RICCI DICTIONARY
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
-
 
 
 # AMOS–RICCI DICTIONARY
@@ -118,3 +121,6 @@ Nếu bạn muốn, tôi có thể xây dựng tiếp các "dictionary" khác ch
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

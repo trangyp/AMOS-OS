@@ -1,12 +1,15 @@
 ---
 title: ALIGNMENT WOOBERLY VS UNITAXI
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **Alignment — Wooberly vs UniTaxi**
@@ -65,7 +68,7 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-# **🧾 Wooberly Deliverables — Free vs Paid Comparison.**
+# **Wooberly Deliverables — Free vs Paid Comparison.**
 |                                            |
 | **Category**                               | **Item / Service**                                    | **Included (Free)** | **Additional Cost / Notes**                           |
 |--------------------------------------------|-------------------------------------------------------|---------------------|-------------------------------------------------------|
@@ -105,7 +108,7 @@ source: 11_KNOWLEDGE/misc
 |                                            | FAQ (product-specific)                                | ☑️                  | https://www.rentallscript.com/uber-clone/#faq         |
 
 
-# **✅ Summary — What You Get “Free”**
+# **Summary — What You Get “Free”**
   * Complete source code for **Admin + Rider + Driver apps**.
 
 
@@ -127,7 +130,7 @@ source: 11_KNOWLEDGE/misc
   * Trello project coordination + email support.
 
 
-# **💵 What’s Not Free / Paid Customisation**
+# **What’s Not Free / Paid Customisation**
   * New features (e.g., **VNPay/MoMo/ZaloPay** , **MISA/Viettel eInvoice** , **iSAC integration** , **ESG/CO₂e** , **Referral wallet** , etc.).
 
 
@@ -147,10 +150,10 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-# **🚀 Next Steps to Launch UniTaxi MVP**
+# **Next Steps to Launch UniTaxi MVP**
 * * *
 ## **PHASE 0 – PREPARATION**
-**🎯 Goal:** Secure environment and admin access for the installation team.
+**Goal:** Secure environment and admin access for the installation team.
 |                                         |
 | **Task**                                | **Responsible**         | **Deliverable**                        | **Notes**                                                |
 |-----------------------------------------|-------------------------|----------------------------------------|----------------------------------------------------------|
@@ -165,7 +168,7 @@ source: 11_KNOWLEDGE/misc
 
 * * *
 ## **PHASE 1 – BASE INSTALLATION**
-**🎯 Goal:** Deploy stock Wooberly + configure environment.
+**Goal:** Deploy stock Wooberly + configure environment.
 |                                        |
 | **Task**                               | **Responsible** | **Deliverable**                 | **Notes**                   |
 |----------------------------------------|-----------------|---------------------------------|-----------------------------|
@@ -178,7 +181,7 @@ source: 11_KNOWLEDGE/misc
 
 * * *
 ## **PHASE 2 – LOCALISATION & COMPLIANCE **
-**🎯 Goal:** Make app usable in Vietnam & compliant with Decree 10.
+**Goal:** Make app usable in Vietnam & compliant with Decree 10.
 |                                            |
 | **Task**                                   | **Responsible**     | **Deliverable**              | **Notes**                             |
 |--------------------------------------------|---------------------|------------------------------|---------------------------------------|
@@ -191,7 +194,7 @@ source: 11_KNOWLEDGE/misc
 
 * * *
 ## **PHASE 3 – CUSTOM INTEGRATIONS**
-**🎯 Goal:** Add critical Vietnam-only modules.
+**Goal:** Add critical Vietnam-only modules.
 |                                               |
 | **Task**                                      | **Responsible**        | **Deliverable**                 | **Notes**                        |
 |-----------------------------------------------|------------------------|---------------------------------|----------------------------------|
@@ -203,7 +206,7 @@ source: 11_KNOWLEDGE/misc
 
 * * *
 ## **PHASE 4 – TESTING & PILOT **
-**🎯 Goal:** Validate stability, speed, and compliance.
+**Goal:** Validate stability, speed, and compliance.
 |                                 |
 | **Task**                        | **Responsible** | **Deliverable**                                   | **Notes**                                |
 |---------------------------------|-----------------|---------------------------------------------------|------------------------------------------|
@@ -215,7 +218,7 @@ source: 11_KNOWLEDGE/misc
 
 * * *
 ## **PHASE 5 – LAUNCH & TRAINING **
-**🎯 Goal:** Go live with 300 EV drivers (pilot phase).
+**Goal:** Go live with 300 EV drivers (pilot phase).
 |                                       |
 | **Task**                              | **Responsible** | **Deliverable**             | **Notes**                               |
 |---------------------------------------|-----------------|-----------------------------|-----------------------------------------|
@@ -226,7 +229,7 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-# **⚙️ Post-Launch**
+# **️ Post-Launch**
 After MVP launch, focus on:
   * Automating **driver onboarding (OCR, face match)**.
 
@@ -244,9 +247,9 @@ After MVP launch, focus on:
 
 
 * * *
-# **📋 Quick Checklist for UniPower to Start Installation**
+# **Quick Checklist for UniPower to Start Installation**
 |                                               |
-| **✅**                                         | **Item** |
+| ****                                         | **Item** |
 |-----------------------------------------------|----------|
 | ☐ Purchase Wooberly license (confirm version) |          |
 | ☐ Set up clean Ubuntu 24.04 server (AWS / DO) |          |

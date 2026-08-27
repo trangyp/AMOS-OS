@@ -1,9 +1,14 @@
 ---
 title: ROUTING POLICY
 type: routing
-tags: [cognitive_matrix, routing, note]
+source: 25_COGNITIVE_MATRIX/10_ROUTING
+tags: [cognitive_matrix, routing, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 ````md
@@ -3021,7 +3026,7 @@ proof_capsule:
 
 ```
 
-This version makes `ROUTING_POLICY.md` the **policy layer above route selection but below authority**, rather than duplicating `README`, `BINDING_RULES`, or `ROUTING_AUDIT`. The primary Full Brain OS canon specifically supports the material-relevance rule, explicit uncertainty/gap handling, and conservative routing discipline; it does not by itself prove this exact policy implementation exists. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+This version makes `ROUTING_POLICY.md` the **policy layer above route selection but below authority**, rather than duplicating `README`, `BINDING_RULES`, or `ROUTING_AUDIT`. The primary Full Brain OS canon specifically supports the material-relevance rule, explicit uncertainty/gap handling, and conservative routing discipline; it does not by itself prove this exact policy implementation exists.
 ```
 
 ---
@@ -3043,3 +3048,4 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[10_ROUTING_MOC]]
+```

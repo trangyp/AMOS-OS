@@ -1,8 +1,15 @@
 ---
 title: "10 Exposure MOC"
 type: moc
-tags: [moc, 10-exposure]
+source: 03_CONTROL_PLANE/10_EXPOSURE
+tags: [moc, 10-exposure, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 10 Exposure — Map of Content
 

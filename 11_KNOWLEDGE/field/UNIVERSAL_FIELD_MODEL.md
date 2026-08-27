@@ -1,11 +1,15 @@
 ---
 title: UNIVERSAL FIELD MODEL
-tags: [field, physics, domain]
+tags: [field, physics, domain, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/field
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: field_physics
+
 ---
-
-
 
 
 # Universal Field Architecture — MODEL Layer

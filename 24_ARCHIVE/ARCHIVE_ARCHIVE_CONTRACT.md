@@ -1,9 +1,14 @@
 ---
 title: ARCHIVE ARCHIVE CONTRACT
 type: archive
-tags: [amos_os, 24_archive]
+source: 24_ARCHIVE
+tags: [amos_os, 24_archive, canon/archive]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # ARCHIVE ARCHIVE CONTRACT

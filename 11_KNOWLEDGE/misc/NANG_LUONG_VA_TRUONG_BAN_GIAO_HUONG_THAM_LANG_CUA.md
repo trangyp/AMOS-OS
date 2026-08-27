@@ -1,12 +1,15 @@
 ---
 title: NANG LUONG VA TRUONG BAN GIAO HUONG THAM LANG CUA
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # NĂNG LƯỢNG VÀ TRƯỜNG: BẢN GIAO HƯỞNG THẦM LẶNG CỦA CÁC NỀN VĂN MINH CỔ ĐẠI

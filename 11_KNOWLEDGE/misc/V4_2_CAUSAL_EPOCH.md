@@ -1,11 +1,15 @@
 ---
 title: V4 2 CAUSAL EPOCH
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
 
 
 # v4.2 — Deterministic Causal Epoch Runtime

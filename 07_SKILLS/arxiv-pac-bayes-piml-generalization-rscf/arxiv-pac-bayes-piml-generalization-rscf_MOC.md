@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Pac-Bayes-Piml-Generalization-Rscf MOC"
 type: moc
-tags: [moc, arxiv-pac-bayes-piml-generalization-rscf]
+source: 07_SKILLS/arxiv-pac-bayes-piml-generalization-rscf
+tags: [moc, arxiv-pac-bayes-piml-generalization-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Pac-Bayes-Piml-Generalization-Rscf — Map of Content
 

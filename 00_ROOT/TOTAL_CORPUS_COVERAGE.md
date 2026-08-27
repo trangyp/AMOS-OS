@@ -1,6 +1,7 @@
 ---
 title: "Total Corpus Coverage"
 type: coverage
+source: 00_ROOT
 artifact: "TOTAL_CORPUS_COVERAGE.md"
 artifact_id: "amos_00_root_total_corpus_coverage"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "00_ROOT"
 artifact_kind: "COVERAGE"
 path: "00_ROOT/TOTAL_CORPUS_COVERAGE.md"
 
-tags: [amos_os, root, index, 00_root, coverage, canon_placeholder, rscf]
+tags: [amos_os, root, index, 00_root, coverage, canon_placeholder, rscf, canon/root]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
-
 
 
 # Total Corpus Coverage

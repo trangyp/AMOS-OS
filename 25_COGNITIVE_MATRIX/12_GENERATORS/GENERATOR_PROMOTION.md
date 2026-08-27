@@ -1,8 +1,16 @@
 ---
 title: "GENERATOR PROMOTION"
 type: generator
-tags: [12_GENERATORS, cognitive_matrix, matrix]
+source: 25_COGNITIVE_MATRIX/12_GENERATORS
+tags: [12_GENERATORS, cognitive_matrix, matrix, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
+# GENERATOR PROMOTION
 
 ## 0. Contract Declaration
 
@@ -12,21 +20,7 @@ Promotion is **not** equivalent to creation, registration, successful execution,
 
 The governing law is:
 
-$$
-\boxed{
-Existence
-\neq
-Registration
-\neq
-Validation
-\neq
-Promotion
-\neq
-Canonization
-\neq
-Authorization
-}
-$$
+$$\boxed{ Existence \neq Registration \neq Validation \neq Promotion \neq Canonization \neq Authorization }$$
 
 Promotion is an evidence-bearing, provenance-aware, scope-bound, regime-bound, dependency-aware and reversible governance transition.
 
@@ -73,42 +67,15 @@ unless independently established.
 
 # 2. Core Promotion Law
 
-For generator \(G\), version \(v\), source state \(S_i\), target state \(S_j\), evidence \(E\), constraints \(K\), validation \(V\), provenance \(P\), and governance authority \(A\):
+For generator $G$, version $v$, source state $S_i$, target state $S_j$, evidence $E$, constraints $K$, validation $V$, provenance $P$, and governance authority $A$:
 
-$$
-Promote(G_v,S_i\rightarrow S_j)
-$$
+$$Promote(G_v,S_i\rightarrow S_j)$$
 
-is admissible only if the promotion predicate for \(S_j\) is satisfied.
+is admissible only if the promotion predicate for $S_j$ is satisfied.
 
 Conceptually:
 
-$$
-PromotionAllowed =
-IdentityValid
-\land
-VersionBound
-\land
-EvidenceSufficient
-\land
-ProvenanceAdequate
-\land
-ValidationPassed
-\land
-FalsificationSurvived
-\land
-ScopeDefined
-\land
-RegimeCompatible
-\land
-DependenciesValid
-\land
-ConstraintsSatisfied
-\land
-RiskAcceptable
-\land
-AuthorityValid
-$$
+$$PromotionAllowed = IdentityValid \land VersionBound \land EvidenceSufficient \land ProvenanceAdequate \land ValidationPassed \land FalsificationSurvived \land ScopeDefined \land RegimeCompatible \land DependenciesValid \land ConstraintsSatisfied \land RiskAcceptable \land AuthorityValid$$
 
 where each term is evaluated relative to the requested promotion level.
 
@@ -120,25 +87,17 @@ Promotion attaches to an exact generator version.
 
 If:
 
-$$
-G_{v_1}
-$$
+$$G_{v_1}$$
 
 is promoted, this does not automatically promote:
 
-$$
-G_{v_2}
-$$
+$$G_{v_2}$$
 
-even when \(v_2\) is described as a minor modification.
+even when $v_2$ is described as a minor modification.
 
 Therefore:
 
-$$
-Promoted(G_{v_1})
-\not\Rightarrow
-Promoted(G_{v_2})
-$$
+$$Promoted(G_{v_1}) \not\Rightarrow Promoted(G_{v_2})$$
 
 unless the applicable versioning policy explicitly establishes compatibility and the modification falls inside an admissible equivalence envelope.
 
@@ -258,11 +217,7 @@ canonical status
 
 Therefore:
 
-$$
-Registered(G)
-\not\Rightarrow
-Trusted(G)
-$$
+$$Registered(G) \not\Rightarrow Trusted(G)$$
 
 ---
 
@@ -350,15 +305,11 @@ permanently valid
 
 Formally:
 
-$$
-Validated(G,S,R,T)
-$$
+$$Validated(G,S,R,T)$$
 
 does not imply:
 
-$$
-\forall S',R',T': Validated(G,S',R',T')
-$$
+$$\forall S',R',T': Validated(G,S',R',T')$$
 
 ---
 
@@ -428,19 +379,13 @@ They do not independently establish epistemic reliability.
 
 Repeated successful generation does not automatically establish independent validation.
 
-If all evaluations descend from common evidence \(E\):
+If all evaluations descend from common evidence $E$:
 
-$$
-E\rightarrow T_1,T_2,\ldots,T_n
-$$
+$$E\rightarrow T_1,T_2,\ldots,T_n$$
 
 then:
 
-$$
-n\ Tests
-\not\Rightarrow
-n\ IndependentEvidenceSources
-$$
+$$n\ Tests \not\Rightarrow n\ IndependentEvidenceSources$$
 
 Provenance topology must be evaluated.
 
@@ -464,9 +409,7 @@ The four descendants cannot automatically be counted as four independent confirm
 
 Promotion SHOULD reason over:
 
-$$
-IndependentEvidenceMass
-$$
+$$IndependentEvidenceMass$$
 
 rather than raw evidence count.
 
@@ -568,19 +511,13 @@ Promotion confidence cannot exceed the weakest load-bearing premise unless that 
 
 If:
 
-$$
-Promotion(G)\leftarrow P_1,P_2,\ldots,P_n
-$$
+$$Promotion(G)\leftarrow P_1,P_2,\ldots,P_n$$
 
 then conceptually:
 
-$$
-Conf(Promotion(G))
-\leq
-\min_i Conf(P_i)
-$$
+$$Conf(Promotion(G)) \leq \min_i Conf(P_i)$$
 
-for load-bearing \(P_i\).
+for load-bearing $P_i$.
 
 ---
 
@@ -602,13 +539,9 @@ promotion_scope:
   excluded_scopes: []
 ```
 
-Promotion under \(S_1\) does not imply promotion under \(S_2\).
+Promotion under $S_1$ does not imply promotion under $S_2$.
 
-$$
-Promoted(G,S_1)
-\not\Rightarrow
-Promoted(G,S_2)
-$$
+$$Promoted(G,S_1) \not\Rightarrow Promoted(G,S_2)$$
 
 ---
 
@@ -665,13 +598,9 @@ D2 ─────┼──► GENERATOR G ───► OUTPUT
 D3 ─────┘
 ```
 
-If \(D_2\) becomes invalid and is load-bearing:
+If $D_2$ becomes invalid and is load-bearing:
 
-$$
-Invalidate(D_2)
-\Rightarrow
-Reevaluate(G)
-$$
+$$Invalidate(D_2) \Rightarrow Reevaluate(G)$$
 
 ---
 
@@ -681,13 +610,7 @@ Dependencies MAY themselves have dependencies.
 
 Therefore:
 
-$$
-D(G)
-=
-D_{direct}(G)
-\cup
-D_{transitive}(G)
-$$
+$$D(G) = D_{direct}(G) \cup D_{transitive}(G)$$
 
 but only dependencies capable of materially changing the promotion decision need full traversal.
 
@@ -795,11 +718,7 @@ regression
 
 Failure to find a contradiction does not prove correctness.
 
-$$
-NoDetectedFailure
-\not\Rightarrow
-UniversalValidity
-$$
+$$NoDetectedFailure \not\Rightarrow UniversalValidity$$
 
 Falsification results must be interpreted relative to test power and tested scope.
 
@@ -859,16 +778,7 @@ When generators compete, AMOS SHOULD prefer the cheapest high-information test c
 
 Conceptually:
 
-$$
-T^*
-=
-\arg\max_T
-\frac{
-ExpectedDecisionInformation(T)
-}{
-Cost(T)
-}
-$$
+$$T^* = \arg\max_T \frac{ ExpectedDecisionInformation(T) }{ Cost(T) }$$
 
 subject to safety and governance constraints.
 
@@ -924,13 +834,7 @@ A generator optimization is promotable only when it preserves or improves requir
 
 Formally:
 
-$$
-OptimizationAccepted
-\Rightarrow
-Integrity_{new}
-\ge
-Integrity_{required}
-$$
+$$OptimizationAccepted \Rightarrow Integrity_{new} \ge Integrity_{required}$$
 
 Efficiency improvement cannot compensate for an integrity regression.
 
@@ -940,11 +844,7 @@ Efficiency improvement cannot compensate for an integrity regression.
 
 Benchmark success is evidence only for the tested benchmark envelope.
 
-$$
-Pass(G,B)
-\not\Rightarrow
-UniversalValidity(G)
-$$
+$$Pass(G,B) \not\Rightarrow UniversalValidity(G)$$
 
 Promotion documentation SHOULD preserve:
 
@@ -1017,11 +917,9 @@ Promotion SHOULD verify that required capabilities actually exist.
 
 If:
 
-$$
-Requires(G,C)
-$$
+$$Requires(G,C)$$
 
-and capability \(C\) is unavailable:
+and capability $C$ is unavailable:
 
 ```text
 PROMOTION_TO_ACTIVE = BLOCKED
@@ -1058,9 +956,7 @@ Promotion in one mode does not automatically imply promotion in another.
 
 If generator requirements conflict with active mode constraints:
 
-$$
-Conflict(G,M)=true
-$$
+$$Conflict(G,M)=true$$
 
 then admission MUST resolve the conflict before activation.
 
@@ -1082,17 +978,11 @@ A composition of individually promoted generators is not automatically promoted.
 
 If:
 
-$$
-C=Compose(G_1,G_2)
-$$
+$$C=Compose(G_1,G_2)$$
 
 then:
 
-$$
-Promoted(G_1)\land Promoted(G_2)
-\not\Rightarrow
-Promoted(C)
-$$
+$$Promoted(G_1)\land Promoted(G_2) \not\Rightarrow Promoted(C)$$
 
 because composition may introduce:
 
@@ -1128,9 +1018,7 @@ failure propagation
 
 When a promotion depends on a set:
 
-$$
-\{G_1,G_2,\ldots,G_n\}
-$$
+$$\{G_1,G_2,\ldots,G_n\}$$
 
 as an atomic operational unit, partial validation MUST NOT be represented as full-set promotion.
 
@@ -1197,7 +1085,7 @@ H2: improvement comes from dataset leakage
 H3: improvement comes from environment change
 ```
 
-Promotion SHOULD NOT assume \(H_1\) merely because it is desirable.
+Promotion SHOULD NOT assume $H_1$ merely because it is desirable.
 
 ---
 
@@ -1260,17 +1148,7 @@ promotion_proof_capsule:
 
 A prior promotion proof MAY be reused only while:
 
-$$
-DependenciesValid
-\land
-ScopeCompatible
-\land
-RegimeCompatible
-\land
-Fresh
-\land
-NonConflict
-$$
+$$DependenciesValid \land ScopeCompatible \land RegimeCompatible \land Fresh \land NonConflict$$
 
 remain true.
 
@@ -1389,11 +1267,7 @@ Authority for one transition does not imply authority for all transitions.
 
 Even after promotion:
 
-$$
-Promoted(G)
-\not\Rightarrow
-AuthorizedToExecute(G)
-$$
+$$Promoted(G) \not\Rightarrow AuthorizedToExecute(G)$$
 
 Execution remains governed by capability, task, effect, information exposure, and commit-time authority.
 
@@ -1516,17 +1390,11 @@ safety threshold is crossed
 
 If only one promotion premise fails, invalidate dependent promotion conclusions rather than unrelated generator knowledge.
 
-$$
-Invalidate(P)
-\Rightarrow
-Invalidate(Descendants(P))
-$$
+$$Invalidate(P) \Rightarrow Invalidate(Descendants(P))$$
 
 not:
 
-$$
-InvalidateEverything
-$$
+$$InvalidateEverything$$
 
 ---
 
@@ -1551,7 +1419,7 @@ Historical provenance SHOULD remain recoverable.
 
 # 68. No Silent Replacement
 
-Promotion of \(G_{v_2}\) MUST NOT silently erase \(G_{v_1}\).
+Promotion of $G_{v_2}$ MUST NOT silently erase $G_{v_1}$.
 
 The lineage should remain:
 
@@ -1569,9 +1437,7 @@ G_v1
 
 Promotion MAY be finalized relative to a causal epoch:
 
-$$
-Promotion(G_v)@E_n
-$$
+$$Promotion(G_v)@E_n$$
 
 Later changes affecting load-bearing premises trigger targeted revalidation.
 
@@ -2069,7 +1935,7 @@ amos_generator_promotion:
 
 # 84. Promotion Proof Obligation
 
-For a consequential promotion \(P\), AMOS SHOULD be able to answer:
+For a consequential promotion $P$, AMOS SHOULD be able to answer:
 
 ```text
 What exactly is being promoted?
@@ -2102,19 +1968,7 @@ PROMOTION_PROOF = INCOMPLETE
 
 AMOS v4.4-style fast-path reasoning permits localized promotion only when sufficient proof exists that:
 
-$$
-DependencyClosure
-\land
-ProvenanceIndependence
-\land
-ScopeCompatibility
-\land
-RegimeCompatibility
-\land
-Freshness
-\land
-NonConflict
-$$
+$$DependencyClosure \land ProvenanceIndependence \land ScopeCompatibility \land RegimeCompatibility \land Freshness \land NonConflict$$
 
 hold for the relevant promotion boundary.
 
@@ -2146,11 +2000,7 @@ When the promotion decision can be established from a complete local proof, unne
 
 This optimization is valid only when it preserves integrity.
 
-$$
-LocalProofSufficient
-\Rightarrow
-GlobalRecomputationNotRequired
-$$
+$$LocalProofSufficient \Rightarrow GlobalRecomputationNotRequired$$
 
 This is a reasoning architecture principle, not an empirical claim about a specific deployed implementation.
 
@@ -2188,11 +2038,7 @@ Conversely, a generator specification may become canonical without establishing 
 
 Therefore:
 
-$$
-OperationalPromotion
-\neq
-SpecificationCanonization
-$$
+$$OperationalPromotion \neq SpecificationCanonization$$
 
 ---
 
@@ -2217,12 +2063,7 @@ Those states require independent provenance.
 
 The canonical candidate principle is:
 
-$$
-\boxed{
-Promotion\ is\ earned\ by\ bounded\ evidence,
-not\ inherited\ from\ existence.
-}
-$$
+$$\boxed{ Promotion\ is\ earned\ by\ bounded\ evidence, not\ inherited\ from\ existence. }$$
 
 A generator advances only as far as its:
 
@@ -2246,13 +2087,7 @@ jointly support.
 
 And:
 
-$$
-\boxed{
-Promotion\ confidence
-\le
-weakest\ load\text{-}bearing\ premise
-}
-$$
+$$\boxed{ Promotion\ confidence \le weakest\ load\text{-}bearing\ premise }$$
 
 unless independently revalidated.
 

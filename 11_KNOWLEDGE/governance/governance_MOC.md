@@ -1,8 +1,15 @@
 ---
 title: "Governance MOC"
 type: moc
-tags: [moc, governance]
+source: 11_KNOWLEDGE/governance
+tags: [moc, governance, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: governance_policy
 ---
+
 
 # Governance — Map of Content
 

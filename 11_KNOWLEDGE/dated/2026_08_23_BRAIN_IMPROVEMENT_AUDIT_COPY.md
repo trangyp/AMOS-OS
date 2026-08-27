@@ -4,9 +4,15 @@ created: "2026-08-23"
 origin: "Self-audit of vault structural integrity"
 origin_type: "MODEL"
 type: audit-note
+source: 11_KNOWLEDGE/dated
 status: "validated"
 confidence: "STRUCTURAL"
-tags: [amos, brain-improvement, integrity-audit, wikilink-repair, frontmatter, dated, dated/2026-08-23]
+tags: [amos, brain-improvement, integrity-audit, wikilink-repair, frontmatter, dated, dated/2026-08-23, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
 
 

@@ -1,8 +1,15 @@
 ---
 title: architecture guardian agent
 type: reference
-tags: [reference, amos-agent-systems-master]
+source: 07_SKILLS/amos-agent-systems-master/references
+tags: [reference, amos-agent-systems-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Architecture Guardian Agent
 
@@ -26,3 +33,7 @@ Target: `Architecture_Guardian_Agent`
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Fx-Conformal-Tail-Risk-Control-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-fx-conformal-tail-risk-control-rscf]
+source: 07_SKILLS/amos-fx-conformal-tail-risk-control-rscf-engine
+tags: [moc, amos-fx-conformal-tail-risk-control-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Fx-Conformal-Tail-Risk-Control-Rscf-Engine — Map of Content
 

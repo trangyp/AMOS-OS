@@ -1,8 +1,15 @@
 ---
 title: "Amos-Repair-Harm-Auditor MOC"
 type: moc
-tags: [moc, amos-repair-harm-auditor]
+source: 07_SKILLS/amos-repair-harm-auditor
+tags: [moc, amos-repair-harm-auditor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Repair-Harm-Auditor — Map of Content
 

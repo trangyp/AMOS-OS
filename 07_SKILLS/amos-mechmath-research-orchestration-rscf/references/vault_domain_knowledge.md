@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-mechmath-research-orchestration-rscf]
+source: 07_SKILLS/amos-mechmath-research-orchestration-rscf/references
+tags: [reference, amos-mechmath-research-orchestration-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -303,3 +310,7 @@ scaffolding. This assumption contradicts substan
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

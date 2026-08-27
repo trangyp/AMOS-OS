@@ -1,6 +1,7 @@
 ---
 title: K DISTINCTION RELATION CONSTRAINT
 type: constraint
+source: 02_KERNEL/01_META_LOGIC
 artifact_id: AMOS-OS-K-DISTINCTION-RELATION-CONSTRAINT
 canonical_name: K_DISTINCTION_RELATION_CONSTRAINT
 artifact_type: kernel_semantic_contract
@@ -25,8 +26,6 @@ aliases: "- DRC Kernel
   - Distinction Relation Constraint
   - K DRC
   - AMOS Distinction Relation Constraint ..."---
-
-
 
 
 # K_DISTINCTION_RELATION_CONSTRAINT
@@ -83,8 +82,13 @@ BOUNDARIES ON VALID ENTITIES, RELATIONS, AND TRANSITIONS
 The DRC kernel provides semantic structure.
 
 It does not independently establish empirical truth, canon authority, execution permission, or external effects.
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 1. Architectural Position
 

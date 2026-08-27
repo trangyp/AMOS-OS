@@ -1,8 +1,15 @@
 ---
 title: amos structured execution graph rscf code
 type: reference
-tags: [reference, amos-structured-execution-graph-rscf]
+source: 07_SKILLS/amos-structured-execution-graph-rscf/references
+tags: [reference, amos-structured-execution-graph-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Code Reference
 
@@ -94,3 +101,7 @@ class AMOSBrainContinuousExecutor:
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

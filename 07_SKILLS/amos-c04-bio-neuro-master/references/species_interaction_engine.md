@@ -1,8 +1,15 @@
 ---
 title: species interaction engine
 type: reference
-tags: [reference, amos-c04-bio-neuro-master]
+source: 07_SKILLS/amos-c04-bio-neuro-master/references
+tags: [reference, amos-c04-bio-neuro-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Species Interaction Core Engine
 
@@ -97,3 +104,7 @@ Physics_and_Quantum, Information_and_Complexity, Biology_and_Life, Mind_and_Cons
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

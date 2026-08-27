@@ -1,14 +1,22 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-os-runtime-master
 name: amos-os-runtime-master
 description: "AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit→Plan→Schedule→Execute→Observe→Repair→Audit→Finalize), infrastructure control plane, deployment. Use for runtime reasoning,..."
 parent_skill: none
 domain: runtime
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-os-runtime-master]
+tags: [note, amos-os-runtime-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
+
 
 # AMOS Full Brain OS — Rebuilt Architecture (2026-08-22)
 
@@ -48,7 +56,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 498509af736d95f6) for detailed vault-sourced domain knowledge.
 
 
-
 > **Reference**: See `references/speed_governor.md` (content_hash: 183c93ed4d3e174b) for the AMOS Speed Governor (FAST/BALANCED/DEEP modes and selection criteria).
 
 
@@ -84,3 +91,116 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 > **Reference**: See `references
 - [[AGENT_TEMPLATE]]
+
+---
+**MOC:** [[amos-os-runtime-master_MOC]]
+
+## Examples
+
+- **Scenario**: When validating outputs against domain constraints and epistemic class
+  - **Input**: A query matching this skill's domain (runtime)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the runtime domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when runtime specialization is needed
+- **Peers**: Other skills in the `runtime` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/11k_executor_agent.md` — loaded on demand
+- `references/advanced_system_enhancement.md` — loaded on demand
+- `references/ai_integration_layer.md` — loaded on demand
+- `references/brain_2026_ultimate_enhancement.md` — loaded on demand
+- `references/brain_advanced_ai_complete.md` — loaded on demand
+- `references/brain_complete_integration_report.md` — loaded on demand
+- `references/brain_enhancement_completion.md` — loaded on demand
+- `references/brain_taskengine_integration.md` — loaded on demand
+- `references/complete_system_integration.md` — loaded on demand
+- `references/continuation_engine.md` — loaded on demand
+- `references/continuous_evolution.md` — loaded on demand
+- `references/core_v44_coordination_avoidance.md` — loaded on demand
+- `references/emergency_crash_prevention.md` — loaded on demand
+- `references/error_recovery.md` — loaded on demand
+- `references/final_system_integration_report.md` — loaded on demand
+- `references/full_brain_os_test_fix.md` — loaded on demand
+- `references/golden_ratio_diagnostics.md` — loaded on demand
+- `references/next_gen_system_evolution.md` — loaded on demand
+- `references/omega_precision_core.md` — loaded on demand
+- `references/operating_systems_survival.md` — loaded on demand
+- `references/operational_status.md` — loaded on demand
+- `references/phase2_completion.md` — loaded on demand
+- `references/phase7_completion.md` — loaded on demand
+- `references/phase8_completion.md` — loaded on demand
+- `references/production_deployment_report.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/resilience_vs_control.md` — loaded on demand
+- `references/resource_optimization_final.md` — loaded on demand
+- `references/speed_engine_root.md` — loaded on demand
+- `references/speed_governor.md` — loaded on demand
+- `references/speed_moral_decision.md` — loaded on demand
+- `references/system_architecture_report_v2.md` — loaded on demand
+- `references/system_integration_complete.md` — loaded on demand
+- `references/system_interfaces.md` — loaded on demand
+- `references/system_optimization_complete.md` — loaded on demand
+- `references/system_optimization_mission.md` — loaded on demand
+- `references/system_schema.md` — loaded on demand
+- `references/system_status.md` — loaded on demand
+- `references/system_status_march16.md` — loaded on demand
+- `references/system_status_march17.md` — loaded on demand
+- `references/system_status_summary.md` — loaded on demand
+- `references/system_status_summary_v2.md` — loaded on demand
+- `references/system_status_summary_v3.md` — loaded on demand
+- `references/systems_core_engine.md` — loaded on demand
+- `references/tool_routing_failure_model.md` — loaded on demand
+- `references/uni_system_operations_engine.md` — loaded on demand
+- `references/uni_system_operations_model.md` — loaded on demand
+- `references/v43_shard_local_finalization.md` — loaded on demand
+- `references/v44_coordination_avoidance_detailed.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `[[amos-os-runtime-master_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-os-runtime-master-workflow]]` — corresponding workflow
+- `[[amos-os-runtime-master-agent]]` — corresponding agent
+

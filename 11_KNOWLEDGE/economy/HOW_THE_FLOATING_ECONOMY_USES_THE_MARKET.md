@@ -1,15 +1,18 @@
 ---
 title: HOW THE FLOATING ECONOMY USES THE MARKET
-tags: [economy, finance, market]
+tags: [economy, finance, market, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/economy
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: economic_model
+
 ---
 
 
-
-
-
-# **🔹 How The Floating Economy Uses the Market**
+# **How The Floating Economy Uses the Market**
 ### **1\. Banner Group**
   * **The Floating Institute (TFI)** is the umbrella authority.
 
@@ -246,7 +249,7 @@ Ecosystem monetisation mirrors **multi-industry scaling** of the Biological Trut
 
 🔒 **Fix** : From siloed → **one root infrastructure layer uniting all systemic industries**.
 * * *
-## **✅ Canonical Difference**
+## **Canonical Difference**
   * **Floating Economy** = branding + advocacy + community.
 
 

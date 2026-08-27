@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-knowledge-epistemology-rscf-engine]
+source: 07_SKILLS/amos-knowledge-epistemology-rscf-engine/references
+tags: [reference, amos-knowledge-epistemology-rscf-engine, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -215,3 +222,4 @@ npm test
 
 ---
 **MOC:** [[references_MOC]]
+```

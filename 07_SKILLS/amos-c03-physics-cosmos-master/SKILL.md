@@ -1,14 +1,22 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-c03-physics-cosmos-master
 name: amos-c03-physics-cosmos-master
 description: "AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, particle physics, and quantum analogies for reasoning. Quantum terms labeled AMOS_MODEL, never physics claims. Use for physics r..."
 parent_skill: none
 domain: c03
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c03-physics-cosmos-master]
+tags: [note, amos-c03-physics-cosmos-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
+
 
 # AMOS C03 — Physics & Cosmos Master Knowledge
 
@@ -86,3 +94,110 @@ AMOS/Trang abstractions remain research models until precise mapping and indepen
 
 > **Reference**: S
 - [[AGENT_TEMPLATE]]
+
+---
+**MOC:** [[amos-c03-physics-cosmos-master_MOC]]
+
+## Examples
+
+- **Scenario**: When managing lifecycle operations across classify, validate, trace, assess, and detect
+  - **Input**: A query matching this skill's domain (c03)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When detecting drift in evidence chains, provenance freshness, or confidence calibration
+  - **Input**: A query matching this skill's domain (c03)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When validating outputs against domain constraints and epistemic class
+  - **Input**: A query matching this skill's domain (c03)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the c03 domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when c03 specialization is needed
+- **Peers**: Other skills in the `c03` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/11k_quantum_library.md` — loaded on demand
+- `references/brain_quantum_enhancement_complete.md` — loaded on demand
+- `references/brain_quantum_omega_complete.md` — loaded on demand
+- `references/brain_quantum_omega_final.md` — loaded on demand
+- `references/brain_supreme_quantum_complete.md` — loaded on demand
+- `references/coherence_energy_law.md` — loaded on demand
+- `references/domain_config.md` — loaded on demand
+- `references/final_quantum_cosmic_enhancement.md` — loaded on demand
+- `references/final_universe.md` — loaded on demand
+- `references/max_power_universe_os.md` — loaded on demand
+- `references/omega_quantum_structural_living.md` — loaded on demand
+- `references/physics_cosmos_engine_cognitive.md` — loaded on demand
+- `references/physics_cosmos_engine_layer.md` — loaded on demand
+- `references/physics_cosmos_model.md` — loaded on demand
+- `references/physics_cosmos_super_x3000.md` — loaded on demand
+- `references/quantum_component_enhancement.md` — loaded on demand
+- `references/quantum_enhanced_complete.md` — loaded on demand
+- `references/quantum_enhancement_mission.md` — loaded on demand
+- `references/quantum_enhancement_progress_v2.md` — loaded on demand
+- `references/quantum_enhancement_ultimate.md` — loaded on demand
+- `references/quantum_field_theory_mapping.md` — loaded on demand
+- `references/quantum_honesty_cycle.md` — loaded on demand
+- `references/quantum_integrity_stack.md` — loaded on demand
+- `references/quantum_logic_scaffold_qls.md` — loaded on demand
+- `references/quantum_logic_system_qls.md` — loaded on demand
+- `references/quantum_os.md` — loaded on demand
+- `references/quantum_speed_systems_thinking.md` — loaded on demand
+- `references/quantum_stack_core3.md` — loaded on demand
+- `references/quantum_stack_core5.md` — loaded on demand
+- `references/quantum_structural_complete.md` — loaded on demand
+- `references/quantum_supremacy_integration.md` — loaded on demand
+- `references/quantum_thermodynamics_cycle.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/tech_quantum_engine.md` — loaded on demand
+- `references/u3h_atemporal_field.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `[[amos-c03-physics-cosmos-master_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-c03-physics-cosmos-master-workflow]]` — corresponding workflow
+- `[[amos-c03-physics-cosmos-master-agent]]` — corresponding agent
+

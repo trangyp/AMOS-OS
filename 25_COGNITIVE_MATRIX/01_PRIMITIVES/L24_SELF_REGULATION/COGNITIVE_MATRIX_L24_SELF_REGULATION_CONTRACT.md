@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L24 SELF REGULATION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, primitives, l24_self_regulation, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION
+tags: [cognitive_matrix, primitives, l24_self_regulation, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L24_SELF_REGULATION — Self regulation Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L24_SELF_REGULATION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

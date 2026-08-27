@@ -1,6 +1,7 @@
 ---
 title: K REPAIR HARM
 type: repair
+source: 02_KERNEL/06_RISK_REPAIR
 artifact_id: AMOS-OS-K-REPAIR-HARM
 canonical_name: K_REPAIR_HARM
 artifact_type: kernel_repair_harm_contract
@@ -14,10 +15,13 @@ kernel_family: RECOVERY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags: [amos-os, kernel, core, kernel/repair, kernel/harm, kernel/recovery, kernel/invariants, kernel/provenance, kernel/causal, kernel/rollback, kernel/homeostasis, rscf, topic/repair, topic/harm, topic/failure-containment, topic/reversibility, topic/collateral-damage]
+tags: [amos-os, kernel, core, kernel/repair, kernel/harm, kernel/recovery, kernel/invariants, kernel/provenance, kernel/causal, kernel/rollback, kernel/homeostasis, rscf, topic/repair, topic/harm, topic/failure-containment, topic/reversibility, topic/collateral-damage, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
-
 
 
 # K REPAIR HARM

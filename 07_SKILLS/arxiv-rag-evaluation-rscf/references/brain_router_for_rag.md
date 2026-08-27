@@ -1,8 +1,15 @@
 ---
 title: brain router for rag
 type: reference
-tags: [reference, arxiv-rag-evaluation-rscf]
+source: 07_SKILLS/arxiv-rag-evaluation-rscf/references
+tags: [reference, arxiv-rag-evaluation-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Brain Router for RAG Evaluation
 

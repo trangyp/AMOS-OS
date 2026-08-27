@@ -1,11 +1,18 @@
 ---
 title: arxiv-kv-cache-quantization-rscf-workflow
+type: workflow
+source: 08_WORKFLOWS
 Type: Workflow
 Skill: arxiv-kv-cache-quantization-rscf
 Agent: arxiv-kv-cache-quantization-rscf-agent
 Trigger: When arxiv research paper rscf skill is needed within the arxiv domain
 Version: 1.0.0
-tags: [note, vault]
+tags: [note, vault, canon/workflow]
+rscf:
+  state: AMOS_MODEL
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: workflow_process
 ---
 
 
@@ -72,3 +79,73 @@ The workflow produces a structured result containing:
 
 ---
 **MOC:** [[08_WORKFLOWS_MOC]]
+
+## Orchestration Pattern
+
+**Pattern**: Single-Agent with Validation Gates
+
+This workflow follows a single-agent orchestration with explicit validation gates between steps:
+1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
+2. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
+3. On gate failure: route to error handling or escalate to parent workflow
+
+
+## Evaluation Gates
+
+### Gate 1: Intake Validation
+- Query matches skill scope
+- Required inputs present
+- No scope violations detected
+
+### Gate 2: Skill Load Validation
+- Skill file exists and is valid
+- Agent binding is valid
+- Required vault sources accessible
+
+### Gate 3: Output Validation
+- Epistemic class labels present
+- Provenance recorded for all derived claims
+- Confidence ceiling not exceeded
+- No unresolved CRITICAL_GAPs
+- Scope compliance verified
+
+
+## Error Handling
+
+| Error Type | Detection | Recovery |
+|---|---|---|
+| Scope violation | Gate 1 check | Route to parent skill |
+| Missing evidence | Gate 3 check | Flag as GAP, reduce confidence to 0.5 |
+| Contradiction | Gate 3 check | Flag as CRITICAL_GAP, halt |
+| Provenance loss | Gate 3 check | Mark as UNKNOWN, request human review |
+| Timeout | Step budget exceeded | Return partial result with warnings |
+| Drift | Confidence calibration check | Trigger drift alignment governor |
+
+
+## Human-in-the-Loop
+
+- **Default**: Automated execution without human intervention
+- **Escalation triggers**:
+  - CRITICAL_GAP detected
+  - Confidence below 0.3
+  - Scope violation requiring reclassification
+  - Contradiction that cannot be auto-resolved
+- **Review checkpoint**: After Gate 3, if any warnings are present
+
+
+## Monitoring
+
+- **Trace level**: Full (inputs, outputs, intermediate steps)
+- **Metrics**: Step count, token usage, confidence, gap count, execution time
+- **Alerts**: CRITICAL_GAP, confidence < 0.3, scope violation, timeout
+- **Provenance**: Every output traces back to source evidence via provenance chain
+
+
+## Composition
+
+- **Skill**: `[[arxiv-kv-cache-quantization-rscf]]`
+- **Agent**: `[[arxiv-kv-cache-quantization-rscf-agent]]`
+- **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
+- **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
+- **Parallel execution**: Supported when independent capabilities are invoked
+

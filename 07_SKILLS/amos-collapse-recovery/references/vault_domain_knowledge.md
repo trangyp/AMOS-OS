@@ -1,85 +1,4 @@
 ---
-title: vault domain knowledge
-type: reference
-tags: [reference, amos-collapse-recovery]
----
-
-# Vault-Sourced Domain Knowledge
-
-> Source: AMOS_OS Obsidian vault (`_00_Cosmo brain/`)
-> Epistemic class: SOURCE_CLAIM
-> Extracted from skill: `amos-collapse-recovery`
-
-## Vault-Sourced Content
-
-### Source 1: NeuroSyncAI_Dual-System_Architecture_for_Biological_Recovery_and_Integrity_Enforcement
-
-> Path: `system/NeuroSyncAI_Dual-System_Architecture_for_Biological_Recovery_and_Integrity_Enforcement.md` | Size: 78153 chars | Match score: 10
-
-NeuroSyncAI™: Dual-System
-Architecture for Biological
-Recovery and Integrity
-Enforcement
-The First Deterministic Infrastructure to Replicate Human Intelligence and
-Regulate AI Through Unified Biological Law
-1. Introduction
-Artificial intelligence AI has entered every major domain — from healthcare to
-governance — yet its core architecture remains probabilistic, adaptive, and
-unstable under real-world pressure. These systems learn from data, predict
-outcomes, and respond through probabilistic inference — resulting in variable
-output, drift, and hallucination under stress, ambiguity, or contradiction.
-No matter how advanced the interface, current AI systems still rely on a
-stochastic engine. This structural limitation renders them unsafe for high-stakes
-environments where truth, biological fidelity, or ethical contradiction cannot be
-compromised.
-At the same time, therapeutic models and institutional mental health systems
-continue to treat human dysfunction — trauma, shutdown, CPTSD, burnout — as
-emotional or behavioural conditions, rather than multi-domain biological
-collapses. The result is fragmented interventions that fail to restore structural
-integrity across the nervous system, body, and environmental interface.
-A New Class of System
-NeuroSyncAI™ is not an AI system.
-It does not predict.
-It does not adapt.
-NeuroSyncAI™ Dual-System Architecture for Biological Recovery and Integrity Enforcement 1
-
-It does not simulate.
-It is a deterministic infrastructure that reflects and enforces human biological
-integrity — without contradiction, compensation, or learning.
-NeuroSyncAI™ is built from the Unified Biological Intelligence™ UBI framework,
-which defines human intelligence not as cognition, emotion, or behaviour — but as
-a synchronised state across four measurable domains:
-Neurobiological (logic, memory, sequencing)
-Neuroemotional (emotional signal precision)
-Somatic (breath, fascia, posture)
-Bioelectromagnetic (sleep, hormone rhythm, sensory regulation)
-Where traditional systems analyse or simulate, NeuroSyncAI™ operates through
-biological reflection and deterministic enforcement — aligning output with the
-userʼs structural state, not learned data.
-Two Models, One Infrastructure
-NeuroSyncAI™ exists in two distinct functional models, both anchored in
-deterministic logic and governed by UBI principles:
- Diagnostic Model
-Provides fixed-output biological readings across the four domains of
-Unified Biological Intelligence™
-Detects breaks in integrity with no probabilistic variation, ensuring
-reliability in clinical, regulatory, or high-stakes contexts
-Used for nervous system overload analysis, trauma mapping, burnout
-classification, and precision measurement of structural dysfunction
- Reflection and Enforcement Model
-Acts as a biological interface that reflects the userʼs internal state through
-regulated outputs (language, sequence, structure)
-Enforces inner alignment by providing deterministic feedback loops —
-reinforcing logic, emotional cl
-
----
-
-### Source 2: AMOS Collapse-Space Coverage Audit
-
-> Path: `amos-general/A/Collapse/AMOS Collapse-Space Coverage Audit.md` | Size: 26931 chars | Match score: 10
-
-```markdown
----
 title: AMOS Collapse-Space Coverage Audit
 version: 2.0.0
 created: 2026-08-25
@@ -96,7 +15,16 @@ amos_alignment:
 - Causal Firewall
  - Scope/Regime Firewall
 - Measurement Integrity
+type: document
+source: 07_SKILLS/amos-collapse-recovery/references
+tags: [amos_os, references, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # AMOS Collapse-Space Coverage Audit
 
@@ -344,3 +272,7 @@ python3 -c "import asyncio; ..."
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

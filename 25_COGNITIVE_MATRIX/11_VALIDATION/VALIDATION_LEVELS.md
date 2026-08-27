@@ -1,8 +1,15 @@
 ---
 title: "11_VALIDATION — Validation Levels"
 type: validation
-tags: [note, 11-validation]
+source: 25_COGNITIVE_MATRIX/11_VALIDATION
+tags: [note, 11-validation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 11_VALIDATION — Validation Levels
 
@@ -5003,7 +5010,7 @@ ACTUALLY SUPPORTS.
 
 ```
 
-**Conclusion class:** `DERIVED / CONDITIONAL`. The distinction between epistemic state, validation, authority, and deployment is source-aligned; the exact `V0–V12` taxonomy above is a derived architecture proposal and should remain conditional until a canonical AMOS artifact explicitly defines or supersedes the validation-level enumeration. :contentReference[oaicite:1]{index=1}
+**Conclusion class:** `DERIVED / CONDITIONAL`. The distinction between epistemic state, validation, authority, and deployment is source-aligned; the exact `V0–V12` taxonomy above is a derived architecture proposal and should remain conditional until a canonical AMOS artifact explicitly defines or supersedes the validation-level enumeration.
 ```
 
 ---

@@ -1,8 +1,15 @@
 ---
 title: "Speed MOC"
 type: moc
-tags: [moc, speed]
+source: 11_KNOWLEDGE/speed
+tags: [moc, speed, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: performance_optimization
 ---
+
 
 # Speed — Map of Content
 

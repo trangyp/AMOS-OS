@@ -1,8 +1,15 @@
 ---
 title: "L16 Planning MOC"
 type: moc
-tags: [moc, l16-planning]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING
+tags: [moc, l16-planning, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L16 Planning — Map of Content
 

@@ -1,9 +1,14 @@
 ---
 title: DOMAINS EV INFRASTRUCTURE CONTRACT
 type: infrastructure
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/44_EV_INFRASTRUCTURE
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # DOMAINS EV INFRASTRUCTURE CONTRACT

@@ -1,12 +1,16 @@
 ---
 title: BOOK THE 99 PCT MIND FROM BRAIN MYTHS TO META INTEL
-tags: [brain, cognitive, neural]
+tags: [brain, cognitive, neural, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/brain
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
-
-
-
 
 
 # Book: Th _e_**99% Mind — From Brain Myths to Meta-Intelligence**

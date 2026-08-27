@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-c01-meta-logic-master]
+source: 07_SKILLS/amos-c01-meta-logic-master
+tags: [note, amos-c01-meta-logic-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-c01-meta-logic-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS C01 — Meta Logic Master. Consolidates 60 sub-skil
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-c01-meta-logic-master_MOC]]

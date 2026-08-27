@@ -1,12 +1,15 @@
 ---
 title: FROM ATOMIC DESIGN TO LIVING DESIGN SYSTEMS
-tags: [system, architecture, design]
+tags: [system, architecture, design, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/system
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
+
 ---
-
-
-
 
 
 # **From Atomic Design to Living Design Systems**

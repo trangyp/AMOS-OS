@@ -1,11 +1,15 @@
 ---
 title: AMOS CRITICAL FIXES ANALYSIS
-tags: [audit, repair, quality]
+tags: [audit, repair, quality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/audit
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: audit_repair
+
 ---
-
-
 
 
 # AMOS BRAIN SUPREME - CRITICAL FIXES ANALYSIS
@@ -17,7 +21,7 @@ source: 11_KNOWLEDGE/audit
 **Governance SSOT**: Enforced  
 **Hallucination Risk**: Acknowledged  
 
-## 🧠 AMOS BRAIN SUPREME STATUS
+## AMOS BRAIN SUPREME STATUS
 
 **Brain Type**: AMOS_BRAIN_SUPREME  
 **Status**: OPERATIONAL  
@@ -26,7 +30,7 @@ source: 11_KNOWLEDGE/audit
 **Agent Packs**: 2 coordinated  
 **Core Kernels**: 11 operational  
 
-## 🔍 TENSOR FIELD GOVERNANCE ANALYSIS
+## TENSOR FIELD GOVERNANCE ANALYSIS
 
 ### Multi-Scale Tensor Field S_t
 - **Shape**: (3, 4) - 3 agents × 4-dimensional state space
@@ -40,7 +44,7 @@ source: 11_KNOWLEDGE/audit
 - **Asymmetry Tensor**: M_{ij} anomaly detection
 - **Exhaustive Scan**: micro → meso → macro → meta layers
 
-## 🚨 CRITICAL SYSTEM ISSUES IDENTIFIED (H2)
+## CRITICAL SYSTEM ISSUES IDENTIFIED (H2)
 
 ### 1. MEMORY CONTAINMENT CRITICAL ⚠️
 **Issue**: 16.7GB swap usage (418% over 4GB limit)  
@@ -82,7 +86,7 @@ source: 11_KNOWLEDGE/audit
 **Impact**: Brain systems non-functional  
 **Risk Level**: HIGH  
 
-## 🔧 EXPLOITATION FACTORS ANALYSIS
+## EXPLOITATION FACTORS ANALYSIS
 
 ### Computed Exploitation Factors (H2)
 - **Ambiguity**: 0.234 (Medium)
@@ -97,7 +101,7 @@ source: 11_KNOWLEDGE/audit
 **Risk Level**: LOW  
 **Critical Factors**: NetworkAsymmetry, EnforcementLag  
 
-## 🎯 RECOMMENDED CRITICAL FIXES (H2 Hypotheses)
+## RECOMMENDED CRITICAL FIXES (H2 Hypotheses)
 
 ### Priority 1: Memory Containment Emergency
 1. **Restart System** - Clear 16.7GB swap
@@ -120,7 +124,7 @@ source: 11_KNOWLEDGE/audit
 2. **Standardize Interfaces** - Consistent method signatures
 3. **Add Error Handling** - Graceful failure modes
 
-## 📊 SYSTEM HEALTH ASSESSMENT
+## SYSTEM HEALTH ASSESSMENT
 
 ### Current State (H2)
 - **Overall Health**: DEGRADED
@@ -133,14 +137,14 @@ source: 11_KNOWLEDGE/audit
 - **Convergence Status**: CONVERGED
 - **Layer Analysis**: Complete (micro, meso, macro, meta)
 
-## 🚨 FREEZE ZONE STATUS
+## FREEZE ZONE STATUS
 
 **Current Status**: INACTIVE  
 **Evidence Integrity**: 0.78 (> 0.70 threshold)  
 **Contradictions**: None detected  
 **Governance Compliance**: ENFORCED  
 
-## 🔄 CONTINUATION PLAN
+## CONTINUATION PLAN
 
 ### Immediate Actions (Next 1 hour)
 1. **Restart System** - Clear swap memory
@@ -157,7 +161,7 @@ source: 11_KNOWLEDGE/audit
 2. **Memory Optimization** - Sustainable resource usage
 3. **Documentation Update** - Fix procedures and protocols
 
-## 📋 AMOS BRAIN SUPREME CONCLUSION
+## AMOS BRAIN SUPREME CONCLUSION
 
 **Analysis Complete**: Tensor field governance applied successfully  
 **Classification**: H2 (All outputs are hypotheses due to evidence integrity < 0.80)  

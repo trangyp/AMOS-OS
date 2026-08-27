@@ -1,12 +1,15 @@
 ---
 title: THE 4 PILLARS OF EMPIRE A UNIVERSAL GOVERNANCE L
-tags: [governance, policy, authority]
+tags: [governance, policy, authority, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/governance
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: governance_policy
+
 ---
-
-
-
 
 
 # The 4 Pillars of Empire — A Universal Governance Law from Ancient Dynasties to Modern Corporations.

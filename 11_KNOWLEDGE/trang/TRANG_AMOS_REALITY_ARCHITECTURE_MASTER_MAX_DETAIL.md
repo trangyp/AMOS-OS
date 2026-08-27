@@ -1,13 +1,16 @@
 ---
 title: TRANG AMOS REALITY ARCHITECTURE MASTER MAX DETAIL
-tags: [trang, framework, reality]
+tags: [trang, framework, reality, canon/knowledge]
 type: data
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
-
+# TRANG AMOS REALITY ARCHITECTURE MASTER MAX DETAIL
 
 ```json
 {

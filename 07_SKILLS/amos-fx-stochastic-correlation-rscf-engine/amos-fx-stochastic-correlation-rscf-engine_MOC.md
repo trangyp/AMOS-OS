@@ -1,8 +1,15 @@
 ---
 title: "Amos-Fx-Stochastic-Correlation-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-fx-stochastic-correlation-rscf-engi]
+source: 07_SKILLS/amos-fx-stochastic-correlation-rscf-engine
+tags: [moc, amos-fx-stochastic-correlation-rscf-engi, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Fx-Stochastic-Correlation-Rscf-Engine — Map of Content
 

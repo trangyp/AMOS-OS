@@ -10,6 +10,12 @@ steward: Trang Phan
 tags: [templates, amos_os, root, templater, index, moc, obsidian, canon-group/tech-ai, canon/tooling, topic/templates]
 title: AMOS Templates
 type: index
+source: 00_ROOT
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 

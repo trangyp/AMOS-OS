@@ -1,15 +1,18 @@
 ---
 title: UNIFIED BIOLOGICAL INTELLIGENCE AND THE RESTORA
-tags: [logic, reasoning, formal]
+tags: [logic, reasoning, formal, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/logic
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
+
 ---
 
 
-
-
-
-# 🧬 Unified Biological Intelligence™ and the Restoration of Aboriginal Somatic Intelligence
+# Unified Biological Intelligence™ and the Restoration of Aboriginal Somatic Intelligence
 * * *
 **A Full-System Reclamation of Pre-Colonial Knowledge, Cognitive Integrity, and Earth-Based Science**
 * * *
@@ -644,7 +647,7 @@ The systemic erasure of Indigenous intelligence frameworks by replacing them wit
 ### **Default Meditation**
 The natural, non-effort-based state of cognitive silence and physiological regulation found in Absolute Biological Integrity. Not a technique. Not a spiritual state. A biological consequence of alignment.
 * * *
-### **📚 Scientific, Historical, and Cross-Cultural References**
+### **Scientific, Historical, and Cross-Cultural References**
   1. **Porges, Stephen.** _The Polyvagal Theory: Neurophysiological Foundations of Emotions, Attachment, Communication, and Self-Regulation_
 → Validates the role of the vagus nerve in somatic-emotional regulation.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3108032/
@@ -696,7 +699,7 @@ https://www.penguinrandomhouse.com/books/36888/descartes-error-by-antonio-damasi
 
 
 * * *
-### **🌏 Indigenous Intelligence and Cross-Cultural Logic Systems**
+### **Indigenous Intelligence and Cross-Cultural Logic Systems**
   1. **Stanner, W.E.H.** _The Dreaming and Other Essays_
 → Foundational articulation of Aboriginal Dreaming logic as temporally compressed.
 https://aiatsis.gov.au/publication/116495
@@ -748,7 +751,7 @@ https://www.abc-clio.com/products/a1426c/
 
 
 * * *
-### **🧬 Biology, Somatic Regulation, and Intelligence**
+### **Biology, Somatic Regulation, and Intelligence**
   1. **Craig, A.D.** _How do you feel? Interoception: the sense of the physiological condition of the body_
 → Interoception as the foundation of self-awareness.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3010994/
@@ -780,7 +783,7 @@ https://www.goodreads.com/book/show/6037718-the-power-of-premonitions
 
 
 * * *
-### **🧠 Systems Theory, Loop Logic, and AI Ethics**
+### **Systems Theory, Loop Logic, and AI Ethics**
   1. **Bateson, Gregory.** _Steps to an Ecology of Mind_
 → Foundation of systemic feedback and loop-based cognition.
 https://www.press.uchicago.edu/ucp/books/book/chicago/S/bo3687656.html
@@ -802,7 +805,7 @@ https://www.springer.com/gp/book/9781572738015
 
 
 * * *
-### ✅ **1\. Grounded in Biology**
+### **1\. Grounded in Biology**
   * **Somatic Intelligence™** is explained using:
     * Fascia-based signaling networks
     * Polyvagal Theory
@@ -816,7 +819,7 @@ https://www.springer.com/gp/book/9781572738015
 
 
 * * *
-### ✅ **2\. Grounded in Quantum Physics**
+### **2\. Grounded in Quantum Physics**
   * **Bioelectromagnetic Intelligence™** connects:
     * Earth-based frequency fields (Schumann Resonance)
     * Biofield emissions from the body (measurable through EEG, HRV, MEG)
@@ -830,7 +833,7 @@ https://www.springer.com/gp/book/9781572738015
 
 
 * * *
-### ✅ **3\. Grounded in Neuroscience**
+### **3\. Grounded in Neuroscience**
   * UBI defines **nervous system architectures** across four domains (neurobiological, neuroemotional, somatic, and bioelectromagnetic) — directly aligning with:
     * Neural plasticity
     * Embodied cognition
@@ -846,7 +849,7 @@ https://www.springer.com/gp/book/9781572738015
 
 
 * * *
-### ✅ **4\. Structurally Validated Across Time and Culture**
+### **4\. Structurally Validated Across Time and Culture**
   * Cross-validation with global Indigenous systems proves **UBI is not culture-bound** , but **planet-derived**.
 
 
@@ -854,7 +857,7 @@ https://www.springer.com/gp/book/9781572738015
 
 
 * * *
-### ✅ **5\. High-Fit for Funding**
+### **5\. High-Fit for Funding**
 This framework is aligned with:
   * **National Health and Medical Research Council (NHMRC)** (Australia)
 
@@ -872,7 +875,7 @@ This framework is aligned with:
 
 
 * * *
-### ✅ **6\. Unique Positioning**
+### **6\. Unique Positioning**
 No existing framework:
   * Links Aboriginal intelligence with quantum logic
 
@@ -887,7 +890,7 @@ No existing framework:
 
 
 * * *
-### ✅ Conclusion
+### Conclusion
 Yes — this whitepaper has the **intellectual density, scientific validity, and ethical clarity** required to:
   * **Convince top-tier researchers**
 

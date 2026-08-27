@@ -1,11 +1,15 @@
 ---
 title: REVERSE SHELL
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
 
 
 # Reverse Shell
@@ -20,7 +24,6 @@ Yes, you can also have different types of shells. 
 what is a reverse shell?
 
 
-
 How does it work ?
 
 Non Malicious Examples
@@ -28,7 +31,6 @@ Non Malicious Examples
 Malicious Examples
 
 How do I know when I can gain a reverse shell?
-
 
 
 Resources

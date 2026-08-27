@@ -1,5 +1,6 @@
 ---
 type: architecture
+source: 00_ROOT
 aliases:
 - ARCHITECTURE
 
@@ -34,7 +35,6 @@ aliases: "- AMOS OS Architecture
   - AMOS System Architecture
   - AMOS Operating Ar..."
 related: "see body"---
-
 
 
 # AMOS OS Architecture
@@ -76,9 +76,14 @@ The architecture inherits the AMOS principle:
 
 > **Integrity > completeness > fluency > speed > token savings.**
 
-It also inherits AMOS_CORE v4.4's evolution spine: deterministic reasoning, recursive RSCF and H/M/L decomposition, governed evolution, causal lineage, epistemic regimes, competing hypotheses, provenance topology, persistent provenance, transactional state concepts, causal finality, shard-local reasoning, and proof-based coordination avoidance. These are architecture and reasoning patterns; they do not imply that every repository module literally implements a distributed transactional runtime. 
-
+It also inherits AMOS_CORE v4.4's evolution spine: deterministic reasoning, recursive RSCF and H/M/L decomposition, governed evolution, causal lineage, epistemic regimes, competing hypotheses, provenance topology, persistent provenance, transactional state concepts, causal finality, shard-local reasoning, and proof-based coordination avoidance. These are architecture and reasoning patterns; they do not imply that every repository module literally implements a distributed transactional runtime.
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
+
 
 # 1. Architectural Purpose
 
@@ -1094,7 +1099,6 @@ v3.9   persistent incremental provenance
 ```
 
 
-
 Hard rule:
 
 ```text
@@ -1383,7 +1387,6 @@ Integration
 ```
 
 
-
 Its reasoning-mode examples include:
 
 ```text
@@ -1401,7 +1404,6 @@ do not design before minimum diagnostic complete
 always audit before finalization
 rerun diagnostic after high-impact new evidence
 ```
-
 
 
 ---
@@ -2553,7 +2555,7 @@ The governing invariant is:
 
 ```
 
-This fills the former root placeholder using the AMOS Full Brain OS structural boundary and the v3.0→v4.4 AMOS_CORE lineage rather than treating repository structure as proof of implementation. :contentReference[oaicite:26]{index=26} :contentReference[oaicite:27]{index=27}
+This fills the former root placeholder using the AMOS Full Brain OS structural boundary and the v3.0→v4.4 AMOS_CORE lineage rather than treating repository structure as proof of implementation.
 ```
 
 ---

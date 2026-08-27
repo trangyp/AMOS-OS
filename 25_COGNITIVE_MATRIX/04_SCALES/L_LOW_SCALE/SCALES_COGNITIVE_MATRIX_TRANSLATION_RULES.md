@@ -1,7 +1,13 @@
 ---
 title: SCALES COGNITIVE MATRIX TRANSLATION RULES
 type: note
-tags: [note, l-low-scale]
+source: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE
+tags: [note, l-low-scale, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -48,3 +54,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/04_SCALES/L_LOW
 
 ---
 **MOC:** [[L_LOW_SCALE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

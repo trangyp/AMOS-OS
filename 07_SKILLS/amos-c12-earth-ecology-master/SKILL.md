@@ -1,14 +1,22 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-c12-earth-ecology-master
 name: amos-c12-earth-ecology-master
 description: "AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructure, electrical power, hydrogen, battery systems, solar, wind, green tech. Use for environmental analysis, energy system..."
 parent_skill: none
 domain: c12
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c12-earth-ecology-master]
+tags: [note, amos-c12-earth-ecology-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
+
 
 # AMOS C12 — Earth & Ecology Master Knowledge
 
@@ -87,3 +95,105 @@ The C12 Earth & Ecology domain is organized into 10 source families:
 
 - **Conclusion class**: MIXED (established scienc
 - [[AGENT_TEMPLATE]]
+
+---
+**MOC:** [[amos-c12-earth-ecology-master_MOC]]
+
+## Examples
+
+- **Scenario**: When managing lifecycle operations across classify, validate, trace, assess, and detect
+  - **Input**: A query matching this skill's domain (c12)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When detecting drift in evidence chains, provenance freshness, or confidence calibration
+  - **Input**: A query matching this skill's domain (c12)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When validating outputs against domain constraints and epistemic class
+  - **Input**: A query matching this skill's domain (c12)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the c12 domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when c12 specialization is needed
+- **Peers**: Other skills in the `c12` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/c12_earth_ecology_super_full.md` — loaded on demand
+- `references/civilization_fails_energy_transition.md` — loaded on demand
+- `references/domain_config.md` — loaded on demand
+- `references/drive_quantum_restoration.md` — loaded on demand
+- `references/electrical_power_engine_cognitive.md` — loaded on demand
+- `references/electrical_power_engine_layer.md` — loaded on demand
+- `references/electrical_power_model.md` — loaded on demand
+- `references/energy_architecture.md` — loaded on demand
+- `references/energy_eroi_carbon_scoring.md` — loaded on demand
+- `references/energy_integrity_law.md` — loaded on demand
+- `references/energy_justice_cannot_be_priced.md` — loaded on demand
+- `references/energy_os.md` — loaded on demand
+- `references/energy_pricing_moral_accounting.md` — loaded on demand
+- `references/energy_reader.md` — loaded on demand
+- `references/ev_kernel_layer.md` — loaded on demand
+- `references/ev_super_engine.md` — loaded on demand
+- `references/hydro_production_system.md` — loaded on demand
+- `references/hydrogen_governance_test.md` — loaded on demand
+- `references/hydrogen_offshore_energy_safety.md` — loaded on demand
+- `references/hydrogen_powerful_energy_vector.md` — loaded on demand
+- `references/hydrogen_vs_batteries_safety_math.md` — loaded on demand
+- `references/integrity_bounded_energy_standard.md` — loaded on demand
+- `references/nui_cam_planetary_energy_node.md` — loaded on demand
+- `references/qls_abi_longevity.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `references/vn_driver_charging_engine.md` — loaded on demand
+- `references/vn_ev_baojun_collaboration.md` — loaded on demand
+- `references/vn_ev_china_market_analysis.md` — loaded on demand
+- `references/vn_ev_china_trend_strategy.md` — loaded on demand
+- `references/vn_ev_unitax_100_vehicles.md` — loaded on demand
+- `[[amos-c12-earth-ecology-master_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-c12-earth-ecology-master-workflow]]` — corresponding workflow
+- `[[amos-c12-earth-ecology-master-agent]]` — corresponding agent
+

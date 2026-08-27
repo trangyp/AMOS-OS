@@ -1,9 +1,14 @@
 ---
 title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX TESTS
 type: test
-tags: [cognitive_matrix, primitives, l02_attention, note]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
+tags: [cognitive_matrix, primitives, l02_attention, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 The recovered L02 source currently provides only the placeholder role—**attention allocation / budgeting scarce reasoning-observation resources**—and explicitly requires tests/falsifiers before promotion; no canonical `TESTS.md` was recovered.  Therefore the test suite below is deliberately `AMOS_MODEL / UNEXECUTED`, not evidence that L02 is implemented or validated.

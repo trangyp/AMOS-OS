@@ -1,8 +1,15 @@
 ---
 title: "Amos-Ethics-Os-Governor MOC"
 type: moc
-tags: [moc, amos-ethics-os-governor]
+source: 07_SKILLS/amos-ethics-os-governor
+tags: [moc, amos-ethics-os-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Ethics-Os-Governor — Map of Content
 

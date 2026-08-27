@@ -1,8 +1,15 @@
 ---
 title: "15 Interfaces MOC"
 type: moc
-tags: [moc, 15-interfaces]
+source: 15_INTERFACES
+tags: [moc, 15-interfaces, canon/interface]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 15 Interfaces — Map of Content
 

@@ -1,9 +1,14 @@
 ---
 title: VALIDATION RESEARCH VALIDATION CONTRACT
 type: validation
-tags: [amos_os, 22_research]
+source: 22_RESEARCH/04_VALIDATION/00_INDEX
+tags: [amos_os, 22_research, canon/research]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # VALIDATION RESEARCH VALIDATION CONTRACT

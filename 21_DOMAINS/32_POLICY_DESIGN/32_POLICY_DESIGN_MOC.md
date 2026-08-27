@@ -1,8 +1,15 @@
 ---
 title: "32 Policy Design MOC"
 type: moc
-tags: [moc, 32-policy-design]
+source: 21_DOMAINS/32_POLICY_DESIGN
+tags: [moc, 32-policy-design, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 32 Policy Design — Map of Content
 

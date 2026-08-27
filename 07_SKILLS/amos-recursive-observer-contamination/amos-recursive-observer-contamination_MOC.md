@@ -1,8 +1,15 @@
 ---
 title: "Amos-Recursive-Observer-Contamination MOC"
 type: moc
-tags: [moc, amos-recursive-observer-contamination]
+source: 07_SKILLS/amos-recursive-observer-contamination
+tags: [moc, amos-recursive-observer-contamination, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Recursive-Observer-Contamination — Map of Content
 

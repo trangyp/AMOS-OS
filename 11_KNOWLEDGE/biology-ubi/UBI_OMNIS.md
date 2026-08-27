@@ -1,16 +1,22 @@
 ---
 title: UBI OMNIS
 type: note
+source: 11_KNOWLEDGE/biology-ubi
 
 canon-group: ubi
 canon-type: product-architecture
 rscf-state: model
 topic: omnis-wear
-tags: [amos, ubi, omnis, wearable, sensing, system-state, trajectory, forecasting, resilience, rscf/type-model, rscf/S-state, rscf/T-topology, rscf/C-constraint, rscf/M-memory, rscf/X-cross-scale, biology-ubi]
+tags: [amos, ubi, omnis, wearable, sensing, system-state, trajectory, forecasting, resilience, rscf/type-model, rscf/S-state, rscf/T-topology, rscf/C-constraint, rscf/M-memory, rscf/X-cross-scale, biology-ubi, canon/knowledge]
 version: 1.0
 status: architecture-specification
 origin-architect: Trang Phan
 created: 2026-08-25
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: biology_neuroscience
 ---
 
 

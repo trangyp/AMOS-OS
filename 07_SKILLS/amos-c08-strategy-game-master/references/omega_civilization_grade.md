@@ -1,8 +1,15 @@
 ---
 title: omega civilization grade
 type: reference
-tags: [reference, amos-c08-strategy-game-master]
+source: 07_SKILLS/amos-c08-strategy-game-master/references
+tags: [reference, amos-c08-strategy-game-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Omega Civilization Grade Implementation Report
 
@@ -20,7 +27,7 @@ Successfully implemented the AMOS OMEGA CIVILIZATION-GRADE DYNAMICAL CORE, trans
 
 ## KEY ACHIEVEMENTS
 
-### ✅ FORMAL SYSTEM COMPLIANCE (100%)
+### FORMAL SYSTEM COMPLIANCE (100%)
 - **State Vector**: x(t) ∈ ℝ¹¹ with 11 canonical components
 - **Control Inputs**: u(t) ∈ ℝ³ for system control
 - **Exogenous Disturbances**: d(t) ∈ ℝ⁵ for external shocks
@@ -28,7 +35,7 @@ Successfully implemented the AMOS OMEGA CIVILIZATION-GRADE DYNAMICAL CORE, trans
 - **Observation Model**: y(t) = h(x, ε) with noise handling
 - **Parameter Set**: θ with reinforcement, damping, coupling, noise parameters
 
-### ✅ CANONICAL STATE DECOMPOSITION (100%)
+### CANONICAL STATE DECOMPOSITION (100%)
 All 11 required state components implemented with full specifications:
 
 1. **S** (System Stress): dS/dt = -α*S + β*L + γ*d_stress
@@ -50,45 +57,49 @@ Each component includes:
 - Regime applicability rules
 - Invariant constraints
 
-### ✅ CAUSAL GRAPH LAYER (100%)
+### CAUSAL GRAPH LAYER (100%)
 - **Nodes**: 11 state entities with formal ontology typing
 - **Edges**: 5 causal edges with direction, polarity, lag, and confidence
 - **Shock Propagation**: Functional propagation through causal paths
 - **Path Detection**: Causal path finding between any two nodes
 - **Explicit Causality**: No causal propagation without defined edges
 
-### ✅ STABILITY ANALYSIS ENGINE (100%)
+### STABILITY ANALYSIS ENGINE (100%)
 - **Jacobian Computation**: J = ∂f/∂x with 11×11 matrix
 - **Spectral Analysis**: λ_max computation with eigenvalue decomposition
 - **Local Stability**: Assessment based on spectral radius
 - **Stability Classification**: STABLE/UNSTABLE/METASTABLE
 - **Spectral Proxy Required**: No stability claims without spectral analysis
 
-### ✅ LYAPUNOV/ENERGY FUNCTION (100%)
+### LYAPUNOV/ENERGY FUNCTION (100%)
 - **Energy Function**: V(x) = xᵀQx with positive definiteness
 - **Energy Derivative**: dV/dt = ∇V · ẋ computation
 - **Fragility Analysis**: ∂V/∂d for collapse distance estimation
 - **Collapse Distance**: Minimal Δd for energy divergence
 - **Stability Basins**: Energy-based stability region identification
 
-### ✅ UNCERTAINTY CALCULUS (100%)
+### UNCERTAINTY CALCULUS (100%)
 - **Uncertainty Mass**: U(t) = f(signal_missingness, contradiction_density, model_error, volatility, parameter_uncertainty)
 - **Confidence Function**: Conf(t) = 1 / (1 + U)
 - **Uncertainty Propagation**: Σ' = J Σ Jᵀ + Q through linearization
 - **Multi-Source Uncertainty**: Integration of 5 uncertainty sources
 - **Confidence Decay**: Real-time confidence tracking
 
-### ✅ COMPUTE GOVERNOR (100%)
+### COMPUTE GOVERNOR (100%)
 - **Budget Management**: 5-tier budget system (total, spectral, llm, signal, sim)
 - **Priority Scheduling**: 4-tier priority system (health, regime, shock, reasoning)
 - **Budget Enforcement**: Real-time budget checking and consumption
 - **Fail-Closed Operation**: Graceful degradation under budget constraints
 - **Deterministic Scheduling**: No unbounded recursion or resource consumption
 
-### ✅ STOP CONDITIONS (60% - Partial)
+### STOP CONDITIONS (60% - Partial)
 - **Stability Margin**: M ≤ 0 detection ✓
 - **Spectral Instability**: Re(λ_max) > 0 detection ✓
 - **Uncertainty Thres
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

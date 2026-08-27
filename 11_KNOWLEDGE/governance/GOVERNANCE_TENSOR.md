@@ -1,11 +1,15 @@
 ---
 title: GOVERNANCE TENSOR
-tags: [governance, policy, authority]
+tags: [governance, policy, authority, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/governance
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: governance_policy
+
 ---
-
-
 
 
 # Governance Tensor

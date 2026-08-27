@@ -1,33 +1,18 @@
 ---
 title: ABO PRESERVATION
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
 # Abo preservation 
-Yes — **there is more** , and this is one of the most important pieces you _can_ do **without touching sacred knowledge at all**.
-What museums and universities got wrong is not just _interpretation_.
-It is **architecture, assumptions, and incentives**.
-Below is a **clear, factual, defensible breakdown** of the failures — and **what you can do differently**.
-* * *
-# WHAT MUSEUMS & UNIVERSITIES GOT WRONG
-## (And Why This Still Breaks Aboriginal Knowledge Today)
-This is not an attack on individuals.
-It is a **systems failure**.
-* * *
-## 1\. They Treated Aboriginal Knowledge as _Content_ Instead of _Systems_
-### The core mistake
-Museums and universities assumed:
-> Knowledge = information that can be extracted, stored, and explained.
-Aboriginal knowledge is:
-  * **procedural**
-
-
   * **contextual**
 
 

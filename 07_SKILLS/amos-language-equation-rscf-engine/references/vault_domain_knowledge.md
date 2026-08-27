@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-language-equation-rscf-engine]
+source: 07_SKILLS/amos-language-equation-rscf-engine/references
+tags: [reference, amos-language-equation-rscf-engine, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -171,3 +178,7 @@ Equations are preserved with their source/framework status. AMOS MODEL equations
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

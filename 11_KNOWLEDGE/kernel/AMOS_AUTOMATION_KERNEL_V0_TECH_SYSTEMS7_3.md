@@ -1,16 +1,20 @@
 ---
 title: AMOS AUTOMATION KERNEL V0 TECH SYSTEMS7 3
 type: kernel
+source: 11_KNOWLEDGE/kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-automation-kernel-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-automation-kernel-v0, kernel]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
-
-
-
+# AMOS AUTOMATION KERNEL V0 TECH SYSTEMS7 3
 
 ```json
 {

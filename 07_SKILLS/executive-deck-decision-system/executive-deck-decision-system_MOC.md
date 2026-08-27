@@ -1,8 +1,15 @@
 ---
 title: "Executive-Deck-Decision-System MOC"
 type: moc
-tags: [moc, executive-deck-decision-system]
+source: 07_SKILLS/executive-deck-decision-system
+tags: [moc, executive-deck-decision-system, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Executive-Deck-Decision-System — Map of Content
 

@@ -1,9 +1,14 @@
 ---
 title: INDEX ESCALATION OPERATING MODEL README
 type: index
-tags: [amos_os, 23_operating_model]
+source: 23_OPERATING_MODEL/04_ESCALATION/00_INDEX
+tags: [amos_os, 23_operating_model, canon/operating-model]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INDEX ESCALATION OPERATING MODEL README

@@ -1,8 +1,15 @@
 ---
 title: "37 Tech Architecture MOC"
 type: moc
-tags: [moc, 37-tech-architecture]
+source: 21_DOMAINS/37_TECH_ARCHITECTURE
+tags: [moc, 37-tech-architecture, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 37 Tech Architecture — Map of Content
 

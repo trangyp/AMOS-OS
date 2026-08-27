@@ -1,6 +1,7 @@
 ---
 title: "AMOS GIANT VALUE CREATION OS — Strategic Commercial Architecture"
 type: value
+source: 11_KNOWLEDGE/amos-general
 origin_architect: "Trang Phan"
 source_artifact: "⭐ KẾ HOẠCH TẠO GIÁ TRỊ KHỔNG LỒ (THE GIANT MONEY PLAN)"
 artifact_type: "AMOS commercial operating architecture"
@@ -18,9 +19,13 @@ epistemic_classes: "- SOURCE_CLAIM
 conclusion_class: "CONDITIONAL"
 version: "2.0-deep"
 date: "2026-08-25"
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
-
 
 
 # ⭐ AMOS GIANT VALUE CREATION OS

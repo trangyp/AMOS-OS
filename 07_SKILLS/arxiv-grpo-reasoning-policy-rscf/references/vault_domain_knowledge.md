@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, arxiv-grpo-reasoning-policy-rscf]
+source: 07_SKILLS/arxiv-grpo-reasoning-policy-rscf/references
+tags: [reference, arxiv-grpo-reasoning-policy-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -168,3 +175,7 @@ tags: [reference, arxiv-grpo-reasoning-policy-rscf]
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

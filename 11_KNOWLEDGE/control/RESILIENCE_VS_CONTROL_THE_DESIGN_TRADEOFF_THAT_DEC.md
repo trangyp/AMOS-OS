@@ -1,12 +1,15 @@
 ---
 title: RESILIENCE VS CONTROL THE DESIGN TRADEOFF THAT DEC
-tags: [control, governance, policy]
+tags: [control, governance, policy, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/control
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: control_plane
+
 ---
-
-
-
 
 
 # **Resilience vs Control: The Design Tradeoff That Decides Survival**

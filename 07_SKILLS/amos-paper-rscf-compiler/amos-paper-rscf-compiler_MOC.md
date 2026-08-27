@@ -1,8 +1,15 @@
 ---
 title: "Amos-Paper-Rscf-Compiler MOC"
 type: moc
-tags: [moc, amos-paper-rscf-compiler]
+source: 07_SKILLS/amos-paper-rscf-compiler
+tags: [moc, amos-paper-rscf-compiler, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Paper-Rscf-Compiler — Map of Content
 

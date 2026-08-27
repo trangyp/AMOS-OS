@@ -1,9 +1,14 @@
 ---
 title: CONTROL PLANE MAP
 type: map
-tags: [control_plane, index, map]
+source: 03_CONTROL_PLANE/00_INDEX
+tags: [control_plane, index, map, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 Yes. Paste the following over the incorrect placeholder.

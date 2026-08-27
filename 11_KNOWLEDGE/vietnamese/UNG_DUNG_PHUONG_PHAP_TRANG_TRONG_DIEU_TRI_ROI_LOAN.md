@@ -1,12 +1,15 @@
 ---
 title: UNG DUNG PHUONG PHAP TRANG TRONG DIEU TRI ROI LOAN
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # ỨNG DỤNG PHƯƠNG PHÁP TRANG TRONG ĐIỀU TRỊ RỐI LOẠN LƯỠNG CỰC (BIPOLAR DISORDER)

@@ -1,6 +1,7 @@
 ---
 title: "Kernel · Human Intelligence"
 type: human
+source: 02_KERNEL/02_COGNITION
 artifact: "K_HUMAN_INTELLIGENCE.md"
 artifact_id: "amos_02_kernel_02_cognition_k_human_intelligence"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "02_KERNEL/02_COGNITION"
 artifact_kind: "INTELLIGENCE"
 path: "02_KERNEL/02_COGNITION/K_HUMAN_INTELLIGENCE.md"
 
-tags: [amos_os, kernel, core, 02_kernel, intelligence, canon_placeholder, rscf]
+tags: [amos_os, kernel, core, 02_kernel, intelligence, canon_placeholder, rscf, canon/kernel]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Kernel · Human Intelligence

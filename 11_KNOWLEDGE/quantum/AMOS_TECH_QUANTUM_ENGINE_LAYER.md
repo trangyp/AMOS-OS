@@ -1,9 +1,15 @@
 ---
 title: amos-tech-quantum-engine-layer
 type: quantum
+source: 11_KNOWLEDGE/quantum
 created: 2026-08-25
 tags: [canon-group/quantum, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-tech-quantum-engine-layer, quantum]
 status: validated
+rscf:
+  state: AMOS_MODEL
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: quantum_reasoning
 ---
 
 

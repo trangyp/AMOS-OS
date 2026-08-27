@@ -1,10 +1,16 @@
 ---
 title: README
 type: note
+source: 17_OBSERVABILITY/00_INDEX
 aliases:
 - README
 rscf-state: derived
-tags: [index, readme, moc]
+tags: [index, readme, moc, canon/observability]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
 
 

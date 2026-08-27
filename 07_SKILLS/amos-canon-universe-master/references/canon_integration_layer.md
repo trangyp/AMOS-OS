@@ -1,8 +1,15 @@
 ---
 title: canon integration layer
 type: reference
-tags: [reference, amos-canon-universe-master]
+source: 07_SKILLS/amos-canon-universe-master/references
+tags: [reference, amos-canon-universe-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Canon Integration Layer (CIL)
 
@@ -114,3 +121,7 @@ tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, r
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

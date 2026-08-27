@@ -1,15 +1,23 @@
 ---
 title: AMOS SUPER FACTORY ENGINE V2 0 0
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-super-factory-engine-v2-0-0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-super-factory-engine-v2-0-0, engine]
 created: 2026-08-22
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: engine_specification
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
 
-
+# AMOS SUPER FACTORY ENGINE V2 0 0
 
 ```json
 {

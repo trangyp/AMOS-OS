@@ -2,9 +2,15 @@
 title: "2026-08-25 QFM Pass 10 — Refinement Batch 2 + Logic Root Closure"
 created: 2026-08-25
 type: session-report
+source: 11_KNOWLEDGE/dated
 epistemic_label: SOURCE
 status: complete
-tags: [dated, dated/2026-08-25]
+tags: [dated, dated/2026-08-25, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
 
 

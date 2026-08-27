@@ -1,6 +1,7 @@
 ---
 title: K MEMORY ADMISSION
 type: memory
+source: 02_KERNEL/05_MEMORY
 artifact_id: AMOS-OS-K-MEMORY-ADMISSION
 canonical_name: K_MEMORY_ADMISSION
 artifact_type: kernel_memory_admission_contract
@@ -14,10 +15,13 @@ kernel_family: MEMORY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags: [amos-os, kernel, core, canon-group/tech-ai, kernel/memory, kernel/memory-admission, kernel/provenance, kernel/epistemics, kernel/freshness, kernel/dependency, kernel/recovery, rscf/claim, rscf/provenance, topic/memory, topic/admission, topic/persistence, topic/knowledge-harvest, topic/invalidation]
+tags: [amos-os, kernel, core, canon-group/tech-ai, kernel/memory, kernel/memory-admission, kernel/provenance, kernel/epistemics, kernel/freshness, kernel/dependency, kernel/recovery, rscf/claim, rscf/provenance, topic/memory, topic/admission, topic/persistence, topic/knowledge-harvest, topic/invalidation, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
-
 
 
 # K MEMORY ADMISSION

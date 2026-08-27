@@ -1,8 +1,15 @@
 ---
 title: electrical power engine layer
 type: reference
-tags: [reference, amos-c12-earth-ecology-master]
+source: 07_SKILLS/amos-c12-earth-ecology-master/references
+tags: [reference, amos-c12-earth-ecology-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Electrical Power Engine Layer
 
@@ -31,3 +38,7 @@ confidence: "VERIFIED"
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

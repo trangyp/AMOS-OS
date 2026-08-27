@@ -1,5 +1,6 @@
 ---
 type: agent
+source: 11_KNOWLEDGE
 artifact_id: AMOS-EXECUTOR-AGENT
 name: Executor_Agent
 title: "AMOS Executor Agent — Governed Execution-System Component"
@@ -32,8 +33,12 @@ aliases: "- Executor Agent
 tags: [agents, knowledge, vault, canon-group/tech-ai, canon/component, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/executor-agent, topic/execution-system, topic/effect-execution, topic/commit-governance, topic/agent-runtime]
 
 governing_law: "integrity > completeness > fluency > speed > token savings"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
-
 
 
 # AMOS Executor Agent

@@ -1,7 +1,13 @@
 ---
 title: AMOS COGNITIVE ARCHITECTURE MATRIX
 type: note
-tags: [note, vault]
+source: .
+tags: [note, vault, canon/general]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 

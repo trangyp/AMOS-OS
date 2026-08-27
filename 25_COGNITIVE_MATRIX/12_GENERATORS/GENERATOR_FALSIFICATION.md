@@ -1,9 +1,14 @@
 ---
 title: GENERATOR FALSIFICATION
 type: generator
-tags: [25_cognitive_matrix, 12_generators, generator, falsification, note]
+source: 25_COGNITIVE_MATRIX/12_GENERATORS
+tags: [25_cognitive_matrix, 12_generators, generator, falsification, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Generator Falsification
@@ -26,25 +31,17 @@ tags: [25_cognitive_matrix, 12_generators, generator, falsification, note]
 
 Its governing principle is:
 
-$$
-\boxed{
-Generation\ proposes;\ falsification\ challenges.
-}
-$$
+$$\boxed{ Generation\ proposes;\ falsification\ challenges. }$$
 
 A generated result is not strengthened merely because no challenge was attempted.
 
 Likewise:
 
-$$
-FailureToFalsify(C) \neq Verification(C)
-$$
+$$FailureToFalsify(C) \neq Verification(C)$$
 
 and:
 
-$$
-GeneratorAgreement(C) \neq IndependentConfirmation(C)
-$$
+$$GeneratorAgreement(C) \neq IndependentConfirmation(C)$$
 
 The falsification subsystem therefore exists to search actively for conditions under which a generated candidate ceases to be supportable.
 
@@ -79,49 +76,29 @@ The objective is not arbitrary skepticism.
 
 The objective is:
 
-$$
-\boxed{
-Find\ the\ cheapest\ valid\ challenge\ capable\ of\ changing\ the\ conclusion.
-}
-$$
+$$\boxed{ Find\ the\ cheapest\ valid\ challenge\ capable\ of\ changing\ the\ conclusion. }$$
 
 ---
 
 # 2. CORE FALSIFICATION LAW
 
-For generated claim \(C\):
+For generated claim $C$:
 
-$$
-F(C)=
-\{f_1,f_2,\ldots,f_n\}
-$$
+$$F(C)= \{f_1,f_2,\ldots,f_n\}$$
 
-where each \(f_i\) is a candidate falsifier or validity challenge.
+where each $f_i$ is a candidate falsifier or validity challenge.
 
 The preferred challenge is:
 
-$$
-f^*
-=
-\arg\max_f
-\frac{
-ExpectedDecisionImpact(f)\times InformationGain(f)
-}{
-Cost(f)+Risk(f)+Latency(f)
-}
-$$
+$$f^* = \arg\max_f \frac{ ExpectedDecisionImpact(f)\times InformationGain(f) }{ Cost(f)+Risk(f)+Latency(f) }$$
 
 subject to:
 
-$$
-Integrity(f)=TRUE
-$$
+$$Integrity(f)=TRUE$$
 
 and:
 
-$$
-Admissible(f)=TRUE
-$$
+$$Admissible(f)=TRUE$$
 
 This prioritizes discriminating tests over redundant challenge generation.
 
@@ -153,11 +130,7 @@ REVALIDATION_REQUIRED
 
 Therefore:
 
-$$
-Challenge(C)
-\neq
-Negate(C)
-$$
+$$Challenge(C) \neq Negate(C)$$
 
 ---
 
@@ -255,24 +228,13 @@ Falsification SHOULD attack the smallest premise whose failure can materially ch
 
 For conclusion:
 
-$$
-C=f(P_1,P_2,\ldots,P_n)
-$$
+$$C=f(P_1,P_2,\ldots,P_n)$$
 
 identify:
 
-$$
-P^*
-=
-\arg\max_{P_i}
-\frac{
-DecisionImpact(Failure(P_i))
-}{
-Cost(Test(P_i))
-}
-$$
+$$P^* = \arg\max_{P_i} \frac{ DecisionImpact(Failure(P_i)) }{ Cost(Test(P_i)) }$$
 
-Then test \(P^*\) first.
+Then test $P^*$ first.
 
 This prevents wasting effort attacking decorative assumptions while critical assumptions remain untested.
 
@@ -325,19 +287,11 @@ A failed falsification target MUST NOT automatically invalidate unrelated reason
 
 Formally:
 
-$$
-Invalid(P)
-\Rightarrow
-Invalid(Descendants(P))
-$$
+$$Invalid(P) \Rightarrow Invalid(Descendants(P))$$
 
 not:
 
-$$
-Invalid(P)
-\Rightarrow
-Invalid(AllKnowledge)
-$$
+$$Invalid(P) \Rightarrow Invalid(AllKnowledge)$$
 
 AMOS recovery therefore follows dependency-local rollback.
 
@@ -372,13 +326,11 @@ These are challenge classes, not claims that sixteen separate physical falsifica
 
 # 10. F01 — CONTRADICTION
 
-Given claim \(C\), search for evidence \(E_c\) such that:
+Given claim $C$, search for evidence $E_c$ such that:
 
-$$
-E_c \models \neg C
-$$
+$$E_c \models \neg C$$
 
-or materially reduces support for \(C\).
+or materially reduces support for $C$.
 
 Contradiction states SHOULD distinguish:
 
@@ -401,15 +353,11 @@ Not all contradictory statements are genuine contradictions.
 
 For universal or generalized claim:
 
-$$
-\forall x\in S,\ P(x)
-$$
+$$\forall x\in S,\ P(x)$$
 
 a valid counterexample:
 
-$$
-\exists x\in S:\neg P(x)
-$$
+$$\exists x\in S:\neg P(x)$$
 
 falsifies the universal formulation.
 
@@ -442,9 +390,7 @@ SOURCE A
 
 If B, C, and D merely repeat A:
 
-$$
-IndependentEvidenceCount \neq 4
-$$
+$$IndependentEvidenceCount \neq 4$$
 
 The falsification system SHOULD collapse correlated ancestry before evaluating evidential strength.
 
@@ -456,9 +402,7 @@ Independence must be demonstrated rather than inferred from multiplicity.
 
 For evidence:
 
-$$
-E_1,E_2,\ldots,E_n
-$$
+$$E_1,E_2,\ldots,E_n$$
 
 the system SHOULD ask:
 
@@ -489,9 +433,7 @@ INDEPENDENCE = NOT_ESTABLISHED
 
 Suppose twelve generators produce similar outputs:
 
-$$
-G_1(E),G_2(E),...,G_{12}(E)
-$$
+$$G_1(E),G_2(E),...,G_{12}(E)$$
 
 The falsifier MUST challenge the proposition:
 
@@ -501,11 +443,7 @@ The falsifier MUST challenge the proposition:
 
 because:
 
-$$
-SharedAncestry(E)
-\Rightarrow
-CorrelatedOutputs
-$$
+$$SharedAncestry(E) \Rightarrow CorrelatedOutputs$$
 
 Generator multiplicity cannot manufacture evidence independence.
 
@@ -515,17 +453,7 @@ Generator multiplicity cannot manufacture evidence independence.
 
 Every consequential claim SHOULD have an applicability envelope:
 
-$$
-S=
-(
-population,
-environment,
-scale,
-time,
-measurement,
-assumptions
-)
-$$
+$$S= ( population, environment, scale, time, measurement, assumptions )$$
 
 A scope falsifier asks whether the conclusion is being applied outside this envelope.
 
@@ -553,17 +481,13 @@ The proper repair may be narrowing rather than rejecting the entire claim.
 
 Claim:
 
-$$
-C@R_1
-$$
+$$C@R_1$$
 
 cannot automatically be reused under:
 
-$$
-R_2
-$$
+$$R_2$$
 
-The falsifier SHOULD test whether assumptions defining \(R_1\) still hold.
+The falsifier SHOULD test whether assumptions defining $R_1$ still hold.
 
 A regime change may include:
 
@@ -593,21 +517,15 @@ Evidence has temporal validity.
 
 For evidence:
 
-$$
-E@t_0
-$$
+$$E@t_0$$
 
 the falsifier asks whether:
 
-$$
-Valid(E,t_{now})?
-$$
+$$Valid(E,t_{now})?$$
 
 Generation, summarization, copying, or citation does not refresh evidence.
 
-$$
-Transform(E_{stale}) \neq E_{fresh}
-$$
+$$Transform(E_{stale}) \neq E_{fresh}$$
 
 ---
 
@@ -615,9 +533,7 @@ $$
 
 For causal claim:
 
-$$
-X \rightarrow Y
-$$
+$$X \rightarrow Y$$
 
 the falsifier MUST search for:
 
@@ -654,25 +570,17 @@ narrative coherence
 
 Thus:
 
-$$
-Correlation(X,Y)
-\not\Rightarrow
-Cause(X,Y)
-$$
+$$Correlation(X,Y) \not\Rightarrow Cause(X,Y)$$
 
 and:
 
-$$
-X\ precedes\ Y
-\not\Rightarrow
-X\ causes\ Y
-$$
+$$X\ precedes\ Y \not\Rightarrow X\ causes\ Y$$
 
 ---
 
 # 20. F09 — MEASUREMENT FAILURE
 
-A claim dependent on measurement \(M\) SHOULD be challenged through:
+A claim dependent on measurement $M$ SHOULD be challenged through:
 
 ```text
 measurement validity
@@ -697,11 +605,9 @@ Explicit and hidden assumptions SHOULD be enumerated.
 
 For:
 
-$$
-C=f(E,A_1,\ldots,A_n)
-$$
+$$C=f(E,A_1,\ldots,A_n)$$
 
-identify assumptions whose failure changes \(C\).
+identify assumptions whose failure changes $C$.
 
 Hidden assumptions discovered during falsification MUST be added to the dependency structure.
 
@@ -715,15 +621,11 @@ Generated output must satisfy inherited constraints.
 
 If:
 
-$$
-C=\{c_1,c_2,\ldots,c_n\}
-$$
+$$C=\{c_1,c_2,\ldots,c_n\}$$
 
-then output \(O\) is admissible only if:
+then output $O$ is admissible only if:
 
-$$
-\forall c_i,\ Satisfies(O,c_i)
-$$
+$$\forall c_i,\ Satisfies(O,c_i)$$
 
 unless an explicit authorized exception exists.
 
@@ -757,9 +659,7 @@ A logically coherent plan may still be operationally impossible.
 
 Capability does not establish authority.
 
-$$
-Can(X) \neq May(X)
-$$
+$$Can(X) \neq May(X)$$
 
 A generated plan may be technically valid while operational commitment remains unauthorized.
 
@@ -783,21 +683,15 @@ are separate properties.
 
 Generated output may depend on state version:
 
-$$
-S_n
-$$
+$$S_n$$
 
 Before consequential reuse or commit, compare against:
 
-$$
-S_{current}
-$$
+$$S_{current}$$
 
 If:
 
-$$
-S_n \neq S_{current}
-$$
+$$S_n \neq S_{current}$$
 
 and the difference affects a load-bearing premise:
 
@@ -838,21 +732,15 @@ This is a reasoning architecture pattern, not an assertion that all AMOS deploym
 
 # 27. F15 — ALTERNATIVE EXPLANATION
 
-For explanation \(H_1\), generate the strongest materially different alternatives:
+For explanation $H_1$, generate the strongest materially different alternatives:
 
-$$
-H_2,H_3,\ldots,H_n
-$$
+$$H_2,H_3,\ldots,H_n$$
 
 Then determine whether evidence discriminates among them.
 
 If:
 
-$$
-Support(H_1)
-\approx
-Support(H_2)
-$$
+$$Support(H_1) \approx Support(H_2)$$
 
 and neither dominates under valid independent evidence:
 
@@ -895,12 +783,7 @@ Falsification MUST NOT construct intentionally weak opposition.
 
 For consequential claims, the challenge SHOULD approximate:
 
-$$
-H_{alt}^*
-=
-\arg\max_{H\neq C}
-Support(H)
-$$
+$$H_{alt}^* = \arg\max_{H\neq C} Support(H)$$
 
 subject to genuine distinction.
 
@@ -983,11 +866,9 @@ Path diversity does not itself prove evidential independence, but it improves ch
 
 # 33. FAILURE TO FALSIFY
 
-A claim surviving tests \(T\):
+A claim surviving tests $T$:
 
-$$
-Survives(C,T)
-$$
+$$Survives(C,T)$$
 
 means only:
 
@@ -1038,13 +919,9 @@ This prevents partial testing from masquerading as universal validation.
 
 # 35. CONFIDENCE CEILING
 
-If conclusion \(C\) depends on premises \(P_i\):
+If conclusion $C$ depends on premises $P_i$:
 
-$$
-Conf(C)
-\le
-\min_i Conf(P_i)
-$$
+$$Conf(C) \le \min_i Conf(P_i)$$
 
 unless weak premises are independently revalidated or removed from the load-bearing path.
 
@@ -1058,21 +935,17 @@ A failed challenge does not automatically raise it.
 
 Challenge evidence must itself be provenance-aware.
 
-Suppose claim \(C\) comes from source \(A\), and apparent contradiction \(B\) also derives from \(A\).
+Suppose claim $C$ comes from source $A$, and apparent contradiction $B$ also derives from $A$.
 
 Then the contradiction is not necessarily independent.
 
 Falsification therefore tracks:
 
-$$
-Ancestry(C)
-$$
+$$Ancestry(C)$$
 
 and:
 
-$$
-Ancestry(F)
-$$
+$$Ancestry(F)$$
 
 before interpreting challenge strength.
 
@@ -1099,9 +972,7 @@ Neither support nor falsification may manufacture independence through recursive
 
 For counterfactual:
 
-$$
-Y_{do(X=x')}
-$$
+$$Y_{do(X=x')}$$
 
 challenge:
 
@@ -1139,19 +1010,9 @@ But a scenario is not falsified merely because it did not occur unless it was ex
 
 # 40. SOLUTION FALSIFICATION
 
-Candidate solution \(S\) SHOULD be challenged against:
+Candidate solution $S$ SHOULD be challenged against:
 
-$$
-Requirements
-+
-Constraints
-+
-FailureModes
-+
-Risk
-+
-Authority
-$$
+$$Requirements + Constraints + FailureModes + Risk + Authority$$
 
 A solution that optimizes one objective while violating a hard constraint MUST fail admission.
 
@@ -1230,23 +1091,15 @@ If one field fails, invalidate only conclusions dependent on that field.
 
 For capsule:
 
-$$
-PC(C)
-$$
+$$PC(C)$$
 
-if premise \(P_k\) fails:
+if premise $P_k$ fails:
 
-$$
-Invalidate(P_k)
-$$
+$$Invalidate(P_k)$$
 
 then:
 
-$$
-Invalidate(
-Descendants(P_k)
-)
-$$
+$$Invalidate( Descendants(P_k) )$$
 
 Other valid capsule components remain reusable.
 
@@ -1278,13 +1131,11 @@ Falsification results SHOULD remain attached to the relevant RSCF state.
 
 Suppose:
 
-$$
-C=f(R_1,R_2,R_3)
-$$
+$$C=f(R_1,R_2,R_3)$$
 
-A failure in \(R_2\) invalidates \(C\) if \(R_2\) is load-bearing.
+A failure in $R_2$ invalidates $C$ if $R_2$ is load-bearing.
 
-It does not automatically invalidate unrelated conclusions based solely on \(R_1\) or \(R_3\).
+It does not automatically invalidate unrelated conclusions based solely on $R_1$ or $R_3$.
 
 ---
 
@@ -1292,9 +1143,7 @@ It does not automatically invalidate unrelated conclusions based solely on \(R_1
 
 For competing models:
 
-$$
-M_1,M_2,\ldots,M_n
-$$
+$$M_1,M_2,\ldots,M_n$$
 
 GMEF SHOULD preserve:
 
@@ -1396,16 +1245,7 @@ Where uncertainty remains, prefer actions whose consequences are repairable.
 
 Conceptually:
 
-$$
-PreferredAction
-=
-\arg\max_A
-Utility(A)
--
-Risk(A)
-+
-Reversibility(A)
-$$
+$$PreferredAction = \arg\max_A Utility(A) - Risk(A) + Reversibility(A)$$
 
 subject to integrity and authority constraints.
 
@@ -1417,22 +1257,11 @@ This is a decision model, not a universal empirical law.
 
 For competing hypotheses:
 
-$$
-H_1,H_2,\ldots,H_n
-$$
+$$H_1,H_2,\ldots,H_n$$
 
-prefer test \(T^*\) maximizing expected separation:
+prefer test $T^*$ maximizing expected separation:
 
-$$
-T^*
-=
-\arg\max_T
-\frac{
-ExpectedDiscrimination(T)
-}{
-Cost(T)+Risk(T)
-}
-$$
+$$T^* = \arg\max_T \frac{ ExpectedDiscrimination(T) }{ Cost(T)+Risk(T) }$$
 
 Do not collect redundant evidence merely because it is easy.
 
@@ -1440,11 +1269,9 @@ Do not collect redundant evidence merely because it is easy.
 
 # 54. INFORMATION GAIN
 
-If test \(T\) does not materially distinguish surviving hypotheses:
+If test $T$ does not materially distinguish surviving hypotheses:
 
-$$
-IG(T)\approx0
-$$
+$$IG(T)\approx0$$
 
 then it SHOULD normally be deprioritized.
 
@@ -1454,13 +1281,9 @@ This prevents evidence-volume inflation without uncertainty reduction.
 
 # 55. SENSITIVITY FRONTIER
 
-For decision \(D\), identify the boundary where a small premise change flips the decision.
+For decision $D$, identify the boundary where a small premise change flips the decision.
 
-$$
-Boundary(D)
-=
-\{p:\Delta p \Rightarrow \Delta D\}
-$$
+$$Boundary(D) = \{p:\Delta p \Rightarrow \Delta D\}$$
 
 Tests near this boundary generally have high decision value.
 
@@ -1484,13 +1307,9 @@ and SHOULD expose the sensitive assumptions.
 
 A conclusion may be considered robust relative to tested perturbations when:
 
-$$
-C(P+\delta)
-=
-C(P)
-$$
+$$C(P+\delta) = C(P)$$
 
-for relevant plausible \(\delta\).
+for relevant plausible $\delta$.
 
 This does not establish universal robustness outside tested perturbations.
 
@@ -1649,15 +1468,11 @@ Otherwise repetition adds cost without information.
 
 Falsification applies to the tested artifact version.
 
-$$
-F(G@v_1)
-$$
+$$F(G@v_1)$$
 
 does not automatically establish:
 
-$$
-F(G@v_2)
-$$
+$$F(G@v_2)$$
 
 if relevant semantics changed.
 
@@ -1667,9 +1482,9 @@ Likewise, a repaired later version does not rewrite the historical failure of th
 
 # 67. CAUSAL EPOCH FINALITY
 
-A falsification conclusion may finalize relative to causal epoch \(E_n\).
+A falsification conclusion may finalize relative to causal epoch $E_n$.
 
-If a load-bearing dependency changes in \(E_{n+1}\):
+If a load-bearing dependency changes in $E_{n+1}$:
 
 ```text
 TARGETED_REVALIDATION
@@ -1747,21 +1562,11 @@ Integrity requires sufficient challenge, not infinite challenge.
 
 Falsification MAY stop when:
 
-$$
-ClaimSufficiency
-\land
-DecisionSufficiency
-\land
-ActionSufficiency_{if\ applicable}
-$$
+$$ClaimSufficiency \land DecisionSufficiency \land ActionSufficiency_{if\ applicable}$$
 
 are reached and:
 
-$$
-E[\Delta DecisionQuality|NextChallenge]
-\le
-Cost(NextChallenge)
-$$
+$$E[\Delta DecisionQuality|NextChallenge] \le Cost(NextChallenge)$$
 
 subject to governance requirements.
 
@@ -1800,18 +1605,7 @@ This does not require universal certainty.
 
 For action:
 
-$$
-ActionSufficiency =
-ClaimSufficiency
-\land
-DecisionSufficiency
-\land
-ExecutionFeasibility
-\land
-RiskAcceptable
-\land
-AuthorityValid
-$$
+$$ActionSufficiency = ClaimSufficiency \land DecisionSufficiency \land ExecutionFeasibility \land RiskAcceptable \land AuthorityValid$$
 
 ---
 
@@ -1842,9 +1636,7 @@ Consequential falsifiers MAY themselves require validation.
 
 Given:
 
-$$
-F \rightarrow \neg C
-$$
+$$F \rightarrow \neg C$$
 
 AMOS SHOULD ask:
 
@@ -1867,9 +1659,7 @@ Recursive falsification must terminate.
 
 Do not construct:
 
-$$
-F(F(F(F(...))))
-$$
+$$F(F(F(F(...))))$$
 
 without positive decision value.
 
@@ -1881,19 +1671,7 @@ Meta-falsification is warranted only where the falsifier is itself load-bearing.
 
 A candidate priority function is:
 
-$$
-Priority(F_i)
-=
-\frac{
-P(F_i\ changes\ conclusion)
-\times
-Impact(F_i)
-\times
-InformationGain(F_i)
-}{
-Cost(F_i)+Risk(F_i)+Latency(F_i)
-}
-$$
+$$Priority(F_i) = \frac{ P(F_i\ changes\ conclusion) \times Impact(F_i) \times InformationGain(F_i) }{ Cost(F_i)+Risk(F_i)+Latency(F_i) }$$
 
 This is a MODEL for prioritization, not an empirically established universal formula.
 
@@ -2168,43 +1946,23 @@ The falsification subsystem exists to ensure that AMOS does not confuse the abil
 
 Therefore:
 
-$$
-\boxed{
-Generate\ the\ strongest\ supported\ candidate
-}
-$$
+$$\boxed{ Generate\ the\ strongest\ supported\ candidate }$$
 
 then:
 
-$$
-\boxed{
-Attack\ its\ weakest\ load\text{-}bearing\ premise
-}
-$$
+$$\boxed{ Attack\ its\ weakest\ load\text{-}bearing\ premise }$$
 
 then:
 
-$$
-\boxed{
-Search\ for\ the\ strongest\ materially\ different\ alternative
-}
-$$
+$$\boxed{ Search\ for\ the\ strongest\ materially\ different\ alternative }$$
 
 then:
 
-$$
-\boxed{
-Prefer\ the\ cheapest\ high\text{-}information\ discriminating\ test
-}
-$$
+$$\boxed{ Prefer\ the\ cheapest\ high\text{-}information\ discriminating\ test }$$
 
 and finally:
 
-$$
-\boxed{
-Preserve\ whatever\ uncertainty\ survives
-}
-$$
+$$\boxed{ Preserve\ whatever\ uncertainty\ survives }$$
 
 The system MUST prefer:
 

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Active-Inference-Governor MOC"
 type: moc
-tags: [moc, amos-active-inference-governor]
+source: 07_SKILLS/amos-active-inference-governor
+tags: [moc, amos-active-inference-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Active-Inference-Governor — Map of Content
 

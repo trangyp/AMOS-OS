@@ -1,14 +1,4 @@
 ---
-title: L2 PROVENANCE
-type: note
-tags: [note, 01-core-laws]
----
-
-
-Below is a **full substantive replacement** for `01_CANON/01_CORE_LAWS/L2_PROVENANCE.md`. I’ve kept the strongest source-supported point explicit: AMOS_CORE v3.7.1 contains provenance-topology hardening and the exact-root fingerprint rule for collapsing provenance aliases; the broader tensor/equation system below is labeled `AMOS_MODEL`, not falsely presented as recovered source canon.
-
-````markdown
----
 title: "AMOS Core Laws — L2 Provenance Laws"
 artifact: "L2_PROVENANCE.md"
 artifact_id: "AMOS_CORE_LAWS_L2_PROVENANCE"
@@ -20,8 +10,7 @@ domain: "01_CORE_LAWS"
 law_family: "L2_PROVENANCE"
 path: "01_CANON/01_CORE_LAWS/L2_PROVENANCE.md"
 
-tags:
-  - canon
+tags: [- canon, canon/universe]
   - core_laws
   - provenance
   - lineage
@@ -42,7 +31,15 @@ epistemic_class: "AMOS_MODEL"
 canonical_status: "PARTIAL_SOURCE_ALIGNMENT"
 implementation_status: "NOT_ESTABLISHED"
 validation_status: "PARTIAL_SOURCE_SUPPORT"
+type: document
+source: 01_CANON/01_CORE_LAWS
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L2 Provenance Laws
 

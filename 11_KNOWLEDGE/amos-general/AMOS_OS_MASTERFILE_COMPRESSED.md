@@ -1,15 +1,20 @@
 ---
 title: AMOS OS MASTERFILE COMPRESSED
 type: note
+source: 11_KNOWLEDGE/amos-general
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
 topic: amos-os-masterfile-compressed
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-os-masterfile-compressed, amos-general]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
-
-
+# AMOS OS MASTERFILE COMPRESSED
 
 ```json
 {"meta":{"name":"AMOS_OS_MasterFile","source_path":"/mnt/data/_AMOS_OS_MasterFile.uos .txt","description":"Compressed, cleaned JSON wrapper of the AMOS OS master specification.","format_version":"1.0.0"},"content":"FILE: Universe_Total_Canon.utc\nVERSION: 1.0.0\nSTATUS: DRAFT_CANON\nAUTHOR: Trang\nARCHITECTURE: AMOS_CORE / AMOS_UNIVERSE_OS\nDESCRIPTION: Unified Universe OS specification – logic, structure, runtime, multimodal, expression, and canon integration.\n\n# =========================================================\n# 0. CANON METADATA\n# =========================================================\n\n[CANON.META]\nid                = UTC-000\nname              = \"Universe Total Canon\"\nowner             = \"Trang\"\nprimary_engine    = \"AMOS\"\nlicense_scope     = \"Private Canon – All Rights Reserved\"\nintegrity_target  = 1.0           # 0–1, structural integrity\nstability_target  = 1.0           # 0–1, stability over time\ndrift_tolerance   = 0.0           # allowed logical drift\ndescription       = \"Single-file universe OS spec: micro→macro, human→animal→AI→planet, logic-first, multimodal-capable.\"\n\n[CANON.COMPONENTS]\n# 10 canonical parts (MECE)\nparts = [\n  \"P1_META\",\n  \"P2_INFORMATION\",\n  \"P3_BIOLOGICAL\",\n  \"P4_COGNITIVE\",\n  \"P5_SOCIAL\",\n  \"P6_PLANETARY\",\n  \"P7_APPLIED_OS\",\n  \"P8_MULTIMODAL\",\n  \"P9_EXPRESSION\",\n  \"P10_CANON_INTEGRATION\"\n]\n\n# =========================================================\n# 1. 

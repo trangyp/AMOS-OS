@@ -1,8 +1,15 @@
 ---
 title: "L02 Attention MOC"
 type: moc
-tags: [moc, l02-attention]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
+tags: [moc, l02-attention, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L02 Attention — Map of Content
 

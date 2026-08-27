@@ -1,8 +1,15 @@
 ---
 title: "Amos-Cognitive-Compression-Kernel MOC"
 type: moc
-tags: [moc, amos-cognitive-compression-kernel]
+source: 07_SKILLS/amos-cognitive-compression-kernel
+tags: [moc, amos-cognitive-compression-kernel, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Cognitive-Compression-Kernel — Map of Content
 

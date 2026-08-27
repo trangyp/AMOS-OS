@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Kv-Cache-Quantization-Rscf MOC"
 type: moc
-tags: [moc, arxiv-kv-cache-quantization-rscf]
+source: 07_SKILLS/arxiv-kv-cache-quantization-rscf
+tags: [moc, arxiv-kv-cache-quantization-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Kv-Cache-Quantization-Rscf — Map of Content
 

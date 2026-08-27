@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-interprocedural-callgraph-rscf]
+source: 07_SKILLS/amos-interprocedural-callgraph-rscf/references
+tags: [reference, amos-interprocedural-callgraph-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -285,3 +292,7 @@ _SPEC_JSON = r"""
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

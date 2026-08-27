@@ -1,6 +1,7 @@
 ---
 title: "QLS Framework"
-type: framework
+type: trang-framework
+source: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact: "QLS_FRAMEWORK.md"
 artifact_id: "amos_11_knowledge_05_frameworks_qls_framework"
 origin_architect: "Trang Phan"
@@ -11,205 +12,118 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "FRAMEWORK"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK.md"
 
-tags: [amos_os, knowledge, vault, 11_knowledge, framework, canon_placeholder, rscf]
+tags:
+  - amos_os
+  - knowledge
+  - vault
+  - 11_knowledge
+  - 05_frameworks
+  - qls
+  - quantum_logic_scaffold
+  - non_contradiction
+  - multi_state_reasoning
+  - collapse_conditions
+  - constraint_integrity
+  - rscf
+  - canon_candidate
+  - canon/knowledge
 
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
+validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+
+ingestion_action: "NATIVE_CANON_INGESTION"
+raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: AMOS_MODEL
+  provenance:
+    - QUANTUM_LOGIC_SCAFFOLD_QLS_OFFICIAL_MANUAL
+    - QUANTUM_LOGIC_SYSTEM_QLS_SYSTEM_OFFICIAL_MANU
+    - AMOS_CORPUS
+  scope:
+    - KNOWLEDGE_FRAMEWORKS
+    - LOGIC_SCAFFOLD
+    - SOURCE_DEFINED_QLS_MODEL
+
+framework_binding:
+  primary:
+    name: "Quantum Logic Scaffold™"
+    acronym: "QLS"
+    role: STRUCTURAL_LOGIC_VALIDATION
+  cognitive_matrix_binding:
+    artifact: "[[AMOS_X_QLS]]"
+    matrix: "[[AMOS_X_QLS_QCLA_MATRIX]]"
+
+epistemic_boundary:
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  framework_structure: VERIFIED_SOURCE_STRUCTURE
+  logic_model: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
 ---
 
 
+# QLS — Quantum Logic Scaffold™
 
-# QLS Framework
+`QLS_FRAMEWORK.md` is the canonical Knowledge Plane reference artifact for the **Quantum Logic Scaffold™ (QLS)** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
-## 0. Status
+It establishes the 4 pillars of structural logic required to maintain coherent reasoning across complex human and artificial cognitive systems:
+1. **Pillar I — Non-Contradiction:** Strict identification and preservation of true vs. apparent contradictions across entity, predicate, time, and scope.
+2. **Pillar II — Multi-State Reasoning:** Maintaining competing state hypotheses ($\Sigma = \{p_1 x_1, \dots, p_n x_n\}$) under uncertainty rather than premature convergence.
+3. **Pillar III — Collapse Conditions:** Controlled resolution ($\kappa(\Sigma) \to x^*$) governed by evidence sufficiency, provenance independence, and calibrated thresholds.
+4. **Pillar IV — Constraint Integrity:** Enforcing system boundaries and preventing scope leakage across domains and scales.
 
-`QLS_FRAMEWORK.md` is an **ADD-ONLY placeholder** for the **Knowledge** plane segment at `11_KNOWLEDGE/05_FRAMEWORKS`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+# 1. Epistemic Firewalls
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
+QLS LOGICAL VALIDITY != EMPIRICAL FACTUAL TRUTH
+MULTI-STATE REASONING != PHYSICAL QUANTUM SUPERPOSITION
+LOGICAL COLLAPSE != QUANTUM MEASUREMENT
+QLS TERMINOLOGY != QUANTUM PHYSICS
 UNKNOWN/GAP != PASS
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+# 2. Inter-Plane & Cross-Framework Connections
+
+- **Cognitive Matrix:** [[AMOS_X_QLS]] and [[AMOS_X_QLS_QCLA_MATRIX]]
+- **Causality Coupling:** [[QCLA_MASTER]] (Dual-gate validation: $VALID(x) = L(x) \land C(x) \land E(x)$)
+- **Ontological Grounding:** [[TRANG_REALITY_ARCHITECTURE]]
+- **Native Sources:** `11_KNOWLEDGE/quantum/QUANTUM_LOGIC_SCAFFOLD_QLS_OFFICIAL_MANUAL`
 
 ---
 
-## 1. Purpose
-
-This artifact reserves the **QLS Framework** slot within the Knowledge plane. The Knowledge plane governs knowledge base integration: claims, RSCF indices, framework nodes, domain knowledge.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
+# 3. RSCF Contract
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+RSCF:
+  node_id: amos_11_knowledge_05_frameworks_qls_framework
+  node_type: framework
+  claim_class: AMOS_MODEL
+  state: SOURCE_GROUNDED
+  H:
+    identity: "Quantum Logic Scaffold™ (QLS)"
+    role: "Four-pillar structural logic architecture and non-contradiction gate"
+  M:
+    pillars: [non_contradiction, multi_state_reasoning, collapse_conditions, constraint_integrity]
+  confidence_ceiling:
+    source_model: SOURCE_BOUND
+    runtime: UNKNOWN
 ```
 
 ---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `11_KNOWLEDGE · FRAMEWORK` within the Knowledge plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-00_ROOT_MOC|AMOS MOC
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_11_knowledge_05_frameworks_qls_framework
-
-node_type: framework
-
-path: 11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[05_FRAMEWORKS_MOC]] · [[AMOS_X_QLS]] · [[AMOS_X_QLS_QCLA_MATRIX]] · [[QCLA_MASTER]]
 
 ---
 **MOC:** [[05_FRAMEWORKS_MOC]]

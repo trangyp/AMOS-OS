@@ -1,12 +1,4 @@
 ---
-title: INDEX CORE LAWS CANON README
-type: note
-tags: [note, 00-index]
----
-
-
-````markdown
----
 title: "AMOS Core Laws Canon Index README"
 artifact: "INDEX_CORE_LAWS_CANON_README.md"
 artifact_id: "AMOS_INDEX_CORE_LAWS_CANON_README"
@@ -18,8 +10,7 @@ domain: "01_CORE_LAWS"
 subdomain: "00_INDEX"
 path: "01_CANON/01_CORE_LAWS/00_INDEX/INDEX_CORE_LAWS_CANON_README.md"
 
-tags:
-  - canon
+tags: [- canon, canon/universe]
   - core_laws
   - index
   - readme
@@ -37,7 +28,15 @@ epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
 implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
+type: document
+source: 01_CANON/01_CORE_LAWS/00_INDEX
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # README
 

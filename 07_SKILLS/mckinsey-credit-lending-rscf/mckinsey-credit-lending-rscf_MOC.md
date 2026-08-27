@@ -1,8 +1,15 @@
 ---
 title: "Mckinsey-Credit-Lending-Rscf MOC"
 type: moc
-tags: [moc, mckinsey-credit-lending-rscf]
+source: 07_SKILLS/mckinsey-credit-lending-rscf
+tags: [moc, mckinsey-credit-lending-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Mckinsey-Credit-Lending-Rscf — Map of Content
 

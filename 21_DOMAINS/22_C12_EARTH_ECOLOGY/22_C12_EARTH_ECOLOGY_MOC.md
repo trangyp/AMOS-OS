@@ -1,8 +1,15 @@
 ---
 title: "22 C12 Earth Ecology MOC"
 type: moc
-tags: [moc, 22-c12-earth-ecology]
+source: 21_DOMAINS/22_C12_EARTH_ECOLOGY
+tags: [moc, 22-c12-earth-ecology, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 22 C12 Earth Ecology — Map of Content
 

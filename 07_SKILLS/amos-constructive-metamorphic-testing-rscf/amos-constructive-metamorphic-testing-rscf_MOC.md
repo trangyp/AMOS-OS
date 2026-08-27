@@ -1,8 +1,15 @@
 ---
 title: "Amos-Constructive-Metamorphic-Testing-Rscf MOC"
 type: moc
-tags: [moc, amos-constructive-metamorphic-testing-rs]
+source: 07_SKILLS/amos-constructive-metamorphic-testing-rscf
+tags: [moc, amos-constructive-metamorphic-testing-rs, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Constructive-Metamorphic-Testing-Rscf — Map of Content
 

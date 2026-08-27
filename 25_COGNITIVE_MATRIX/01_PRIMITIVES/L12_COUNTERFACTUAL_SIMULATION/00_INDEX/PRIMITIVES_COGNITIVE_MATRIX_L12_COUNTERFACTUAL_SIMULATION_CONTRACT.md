@@ -1,9 +1,14 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX L12 COUNTERFACTUAL SIMULATION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, l12_counterfactual_simulation]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L12_COUNTERFACTUAL_SIMULATION/00_INDEX
+tags: [cognitive_matrix, l12_counterfactual_simulation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # PRIMITIVES COGNITIVE MATRIX L12 COUNTERFACTUAL SIMULATION CONTRACT
@@ -41,3 +46,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

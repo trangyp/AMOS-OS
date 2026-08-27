@@ -1,11 +1,17 @@
 ---
 title: "AMOS Tech Design Engine vInfinity"
 type: engine
+source: 11_KNOWLEDGE/engine
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Tech_Design_Engine_v0.json (5,363 lines, 196KB)"
 origin_type: "SOURCE"
 category: "kernel"
-tags: [amos, tech, design, engine, v-infinity, ux, cx, service-design, brand, growth, compliance, ai-copilot]
+tags: [amos, tech, design, engine, v-infinity, ux, cx, service-design, brand, growth, compliance, ai-copilot, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
 
 

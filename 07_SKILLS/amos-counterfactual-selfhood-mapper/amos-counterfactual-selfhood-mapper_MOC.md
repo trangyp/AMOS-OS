@@ -1,8 +1,15 @@
 ---
 title: "Amos-Counterfactual-Selfhood-Mapper MOC"
 type: moc
-tags: [moc, amos-counterfactual-selfhood-mapper]
+source: 07_SKILLS/amos-counterfactual-selfhood-mapper
+tags: [moc, amos-counterfactual-selfhood-mapper, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Counterfactual-Selfhood-Mapper — Map of Content
 

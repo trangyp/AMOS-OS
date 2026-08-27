@@ -1,8 +1,15 @@
 ---
 title: 11k murk audit
 type: reference
-tags: [reference, amos-formal-engines-master]
+source: 07_SKILLS/amos-formal-engines-master/references
+tags: [reference, amos-formal-engines-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # 11K MURK Audit
 
@@ -81,3 +88,7 @@ falsifiers: a note lacks canon-group/rscf-state/tags; no root wikilink.
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

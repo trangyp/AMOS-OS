@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX C09 KERNEL CONTROL CONTRACT
 type: kernel
-tags: [cognitive_matrix, control_planes, c09_kernel_control, contract]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C09_KERNEL_CONTROL
+tags: [cognitive_matrix, control_planes, c09_kernel_control, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # C09_KERNEL_CONTROL — Kernel integrity control: boot order, immutability under operation, fail-closed boot.
@@ -44,3 +49,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[C09_KERNEL_CONTROL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

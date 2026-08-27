@@ -1,8 +1,15 @@
 ---
 title: causal discovery spec
 type: reference
-tags: [reference, amos-arxiv-multistage-order-causal-discovery-rscf]
+source: 07_SKILLS/amos-arxiv-multistage-order-causal-discovery-rscf/references
+tags: [reference, amos-arxiv-multistage-order-causal-discovery-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # JSON Specification
 
@@ -35,3 +42,7 @@ tags: [reference, amos-arxiv-multistage-order-causal-discovery-rscf]
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,16 +1,20 @@
 ---
 title: AUTOMATION SUPER ENGINE
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: automation-super-engine
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/automation-super-engine, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
-
+# AUTOMATION SUPER ENGINE
 
 ```json
 {

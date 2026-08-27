@@ -1,12 +1,15 @@
 ---
 title: PHUONG PHAP TRANG TAI CAU TRUC TOAN BO
-tags: [trang, framework, reality]
+tags: [trang, framework, reality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
 
 
 # PHƯƠNG PHÁP TRANG – TÁI CẤU TRÚC TOÀN BỘ
@@ -346,7 +349,7 @@ Thiếu một trong ba, hiệu quả giảm ít nhất 50%.
 > _Tôi đã làm điều đó trong 1 tháng – từ CPTSD, vòng lặp mở liên tục, đến Flow, đến tự do cấu trúc não._
 > _Bạn cũng có thể. Bởi vì cấu trúc fractal là của vạn vật – và ngôn ngữ chính xác là chìa khóa để điều khiển nó.”_
 * * *
-**📦** Hết báo cáo.
+**** Hết báo cáo.
 \--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---

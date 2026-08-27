@@ -1,27 +1,18 @@
 ---
 title: CORE EQUATIONS
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
 # Core equations 
-Below is a **clean structural extraction** of all equations, invariants, and feedback loops that have appeared or been implied in this conversation.
-No inflation. No narrative. Only structural components.
-* * *
-# I. Core Equations
-These are the actual mathematical or functional forms used.
-* * *
-## 1\. E = I²
-**Expansion = Intelligence squared**
-Meaning (structural form):
-  * System expansion scales nonlinearly with intelligence coherence.
-
-
   * Small increases in structural intelligence → exponential system leverage.
 
 

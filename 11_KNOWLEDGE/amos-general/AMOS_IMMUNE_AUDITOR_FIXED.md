@@ -1,11 +1,15 @@
 ---
 title: AMOS IMMUNE AUDITOR FIXED
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
 
 
 # amos_immune_auditor_fixed
@@ -49,12 +53,12 @@ class AMOSBioImmuneAuditor:
         logger.info("🔍 Scanning for raw file write sites...")
         
         raw_write_patterns = [
-            r'with\s+open\s*\([^)]*[\'"]\w[\'"]\s*\w.*\)\s*as\s*f:',
-            r'\.write_text\s*\(',
-            r'\.write_bytes\s*\(',
-            r'file\.write\s*\(',
-            r'f\.write\s*\(',
-            r'open\s*\([^)]*[\'"]\w[\'"]\s*[\'"]\w[\'"].*\)\s*.\s*write'
+            r'with\s+open\s*$[^)]*[\'"]\w[\'"]\s*\w.*$\s*as\s*f:',
+            r'\.write_text\s*$',
+            r'\.write_bytes\s*$',
+            r'file\.write\s*$',
+            r'f\.write\s*$',
+            r'open\s*$[^)]*[\'"]\w[\'"]\s*[\'"]\w[\'"].*$\s*.\s*write'
         ]
         
         py_files = list(self.repo_root.rglob("*.py"))

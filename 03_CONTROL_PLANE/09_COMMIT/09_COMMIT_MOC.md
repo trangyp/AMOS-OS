@@ -1,8 +1,15 @@
 ---
 title: "09 Commit MOC"
 type: moc
-tags: [moc, 09-commit]
+source: 03_CONTROL_PLANE/09_COMMIT
+tags: [moc, 09-commit, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 09 Commit — Map of Content
 

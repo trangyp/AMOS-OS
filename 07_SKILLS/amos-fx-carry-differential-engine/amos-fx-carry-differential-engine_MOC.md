@@ -1,8 +1,15 @@
 ---
 title: "Amos-Fx-Carry-Differential-Engine MOC"
 type: moc
-tags: [moc, amos-fx-carry-differential-engine]
+source: 07_SKILLS/amos-fx-carry-differential-engine
+tags: [moc, amos-fx-carry-differential-engine, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Fx-Carry-Differential-Engine — Map of Content
 

@@ -1,12 +1,15 @@
 ---
 title: THE TALENT LEDGER MEASURING HUMAN ABILITY WITH MET
-tags: [human, alignment, interaction]
+tags: [human, alignment, interaction, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/human
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: human_alignment
+
 ---
-
-
-
 
 
 # **The Talent Ledger: Measuring Human Ability with Meta Intelligence Scores**

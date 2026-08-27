@@ -1,26 +1,18 @@
 ---
 title: AU RICH
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
 # Au rich
-Yes — **but it must be handled very carefully** , because this is where most books either
-(a) lose credibility, or
-(b) collapse into ideology, hustle culture, or blame.
-Done properly, this actually **strengthens** the book and makes it sell _more_ , not less.
-Below is the **clean, powerful way to include “investing and getting rich in Australia”** without falling into traps.
-* * *
-## The correct framing (this matters)
-The book must **not** become:
-  * a “how to get rich” guide
-
-
   * an investing playbook
 
 

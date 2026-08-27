@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, mckinsey-designops-agile-transformation-rscf]
+source: 07_SKILLS/mckinsey-designops-agile-transformation-rscf/references
+tags: [reference, mckinsey-designops-agile-transformation-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -260,3 +267,7 @@ budget) Group Technology Leads (e.g. EAS, IT Security, App)
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

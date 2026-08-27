@@ -1,8 +1,15 @@
 ---
 title: "Reports MOC"
 type: moc
-tags: [moc, reports]
+source: 11_KNOWLEDGE/reports
+tags: [moc, reports, canon/knowledge]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: audit_report
 ---
+
 
 # Reports — Map of Content
 

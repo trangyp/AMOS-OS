@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-7-part-universe-canon-full]
+source: 07_SKILLS/amos-7-part-universe-canon-full/references
+tags: [reference, amos-7-part-universe-canon-full, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -104,9 +111,7 @@ Constraint defines what can and cannot occur inside the modeled system.
 
 Let a bounded system at time `t` have admissible state space:
 
-\[
-\Omega_t = \{x \in \mathcal{X} : C_i(x,t,r,o) \le 0,\; i=1,\ldots,m\}
-\]
+$$\Omega_t = \{x \in \mathcal{X} : C_i(x,t,r,o) \le 0,\; i=1,\ldots,m\}$$
 
 where:
 
@@ -404,3 +409,7 @@ Failure to answer all seven = structural invalidity **for that layer's stated sc
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

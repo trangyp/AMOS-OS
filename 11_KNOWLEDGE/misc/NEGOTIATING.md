@@ -1,28 +1,18 @@
 ---
 title: NEGOTIATING
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
 # Negotiating 
-Below is a **clean, teachable 6-step negotiation framework** that matches _exactly_ the way you operate.
-It is **non-ego, non-dominant, non-emotional** , and works especially well with senior people, ex-military, founders, and anyone sensitive to status.
-This is written so you can **use it yourself or train others**.
-* * *
-# The 6-Step Non-Ego Operational Negotiation Framework
- _(Used when you want alignment without power struggle)_
-* * *
-## **STEP 1 — Remove Power From the Room (Before Anything Else)**
-**Objective:** Neutralize hierarchy, money, age, title, or dependence _before_ it becomes a variable.
-**What you do**
-  * You explicitly signal that **money, status, or position is not leverage**.
-
-
   * You do this _early_ , calmly, and once.
 
 
@@ -2762,10 +2752,10 @@ The difference across domains is:
 * * *
 ## II. Deal Risk Heatmap (C1–C7) by Domain
 ### Legend
-  * 🔥 = primary risk
+  * = primary risk
 
 
-  * ⚠️ = secondary risk
+  * ️ = secondary risk
 
 
   * ○ = background risk
@@ -3360,7 +3350,7 @@ Each layer has:
 * * *
 ## 3. The Dashboard (Layer by Layer)
 * * *
-### 🟥 C1 — IDENTITY / EGO STABILITY
+### C1 — IDENTITY / EGO STABILITY
 **Question:**
 > Does this deal threaten who they believe they are?
 **Indicators**
@@ -3377,13 +3367,13 @@ Each layer has:
 
 
 **Risk Level**
-  * 🟢 Stable
+  * Stable
 
 
-  * 🟡 Sensitive
+  * Sensitive
 
 
-  * 🔴 Threatened
+  * Threatened
 
 
 **Common Mistake**
@@ -3409,7 +3399,7 @@ Each layer has:
 **Rule**
 > If C1 is red, logic is useless.
 * * *
-### 🟧 C2 — EMOTIONAL LOAD
+### C2 — EMOTIONAL LOAD
 **Question:**
 > Are emotions being processed or compressed?
 **Indicators**
@@ -3426,13 +3416,13 @@ Each layer has:
 
 
 **Risk Level**
-  * 🟢 Flowing
+  * Flowing
 
 
-  * 🟡 Contained
+  * Contained
 
 
-  * 🔴 Suppressed
+  * Suppressed
 
 
 **Common Mistake**
@@ -3458,7 +3448,7 @@ Each layer has:
 **Rule**
 > Suppressed emotion always exits through resistance.
 * * *
-### 🟨 C3 — BIOLOGICAL SAFETY (STRESS)
+### C3 — BIOLOGICAL SAFETY (STRESS)
 **Question:**
 > Is their nervous system overloaded?
 **Indicators**
@@ -3475,13 +3465,13 @@ Each layer has:
 
 
 **Risk Level**
-  * 🟢 Regulated
+  * Regulated
 
 
-  * 🟡 Strained
+  * Strained
 
 
-  * 🔴 Overloaded
+  * Overloaded
 
 
 **Common Mistake**
@@ -3507,7 +3497,7 @@ Each layer has:
 **Rule**
 > Stress turns cooperation into avoidance.
 * * *
-### 🟩 C4 — COGNITIVE CLARITY
+### C4 — COGNITIVE CLARITY
 **Question:**
 > Can they clearly map cause → effect?
 **Indicators**
@@ -3521,13 +3511,13 @@ Each layer has:
 
 
 **Risk Level**
-  * 🟢 Clear
+  * Clear
 
 
-  * 🟡 Foggy
+  * Foggy
 
 
-  * 🔴 Paralyzed
+  * Paralyzed
 
 
 **Common Mistake**
@@ -3553,7 +3543,7 @@ Each layer has:
 **Rule**
 > Confusion feels like danger to the brain.
 * * *
-### 🟦 C5 — BEHAVIORAL EXECUTION
+### C5 — BEHAVIORAL EXECUTION
 **Question:**
 > Is action frictionless?
 **Indicators**
@@ -3567,13 +3557,13 @@ Each layer has:
 
 
 **Risk Level**
-  * 🟢 Moving
+  * Moving
 
 
-  * 🟡 Stalling
+  * Stalling
 
 
-  * 🔴 Blocked
+  * Blocked
 
 
 **Common Mistake**
@@ -3599,7 +3589,7 @@ Each layer has:
 **Rule**
 > Behavior fails when upstream layers are ignored.
 * * *
-### 🟪 C6 — STRUCTURE / HIERARCHY
+### C6 — STRUCTURE / HIERARCHY
 **Question:**
 > Is power aligned or violated?
 **Indicators**
@@ -3613,13 +3603,13 @@ Each layer has:
 
 
 **Risk Level**
-  * 🟢 Aligned
+  * Aligned
 
 
-  * 🟡 Unclear
+  * Unclear
 
 
-  * 🔴 Contested
+  * Contested
 
 
 **Common Mistake**
@@ -3662,13 +3652,13 @@ Each layer has:
 
 
 **Risk Level**
-  * 🟢 Stable
+  * Stable
 
 
-  * 🟡 Volatile
+  * Volatile
 
 
-  * 🔴 Hostile
+  * Hostile
 
 
 **Common Mistake**
@@ -7261,7 +7251,7 @@ Tốt. Mình sẽ làm **2 phần rõ ràng, dùng được ngay cho Figma + pro
 Không nói mơ hồ. Viết theo kiểu **handover cho designer / PM / engineer**.
 * * *
 # PART I — FIGMA-READY WIREFRAMES (v1)
-## 🧭 GLOBAL INFORMATION ARCHITECTURE
+## GLOBAL INFORMATION ARCHITECTURE
 **App name (tạm):** GPDE — Global Predictive Deal Engine
 **Primary objects**
   * Deal
@@ -7336,13 +7326,13 @@ Cho executive nhìn **deal nào nguy hiểm, vì sao, và phải làm gì trong 
 
 
 ### States
-  * 🟢 Stable
+  * Stable
 
 
-  * 🟡 Drift
+  * Drift
 
 
-  * 🔴 Critical
+  * Critical
 
 
 * * *
@@ -7538,19 +7528,19 @@ Không dạy đạo đức. **Cho câu nói / hành động chính xác**.
 
 * * *
 # WHY THIS UX WORKS (VERY IMPORTANT)
-  * ❌ Không bắt user “học framework”
+  * Không bắt user “học framework”
 
 
-  * ❌ Không bắt đọc báo cáo dài
+  * Không bắt đọc báo cáo dài
 
 
-  * ✅ **Chạm thẳng vào sinh học & ego**
+  * **Chạm thẳng vào sinh học & ego**
 
 
-  * ✅ Dùng **visual threat & relief**
+  * Dùng **visual threat & relief**
 
 
-  * ✅ Cho **action ngay** , không debate
+  * Cho **action ngay** , không debate
 
 
 Đây là UX **dành cho người quyền lực** , không phải analyst junior.
@@ -8988,7 +8978,7 @@ That’s why it feels “military”:
 People who live in high-stakes environments **recognize this immediately**.
 * * *
 ## 4) The biggest risk: selling it wrong
-### ❌ What will kill it
+### What will kill it
   * Over-explaining neuroscience
 
 
@@ -9001,7 +8991,7 @@ People who live in high-stakes environments **recognize this immediately**.
   * Giving too many tactics too early
 
 
-### ✅ What makes it work
+### What makes it work
   * Frame it as **risk reduction**
 
 

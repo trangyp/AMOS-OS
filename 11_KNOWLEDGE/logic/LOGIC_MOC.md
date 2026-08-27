@@ -1,8 +1,15 @@
 ---
 title: "Logic MOC"
 type: moc
-tags: [moc, logic]
+source: 11_KNOWLEDGE/logic
+tags: [moc, logic, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
 ---
+
 
 # Logic — Map of Content
 

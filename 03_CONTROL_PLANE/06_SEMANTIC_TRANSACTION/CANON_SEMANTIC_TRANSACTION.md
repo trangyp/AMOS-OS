@@ -1,6 +1,7 @@
 ---
 title: "Canon Semantic Transaction"
 type: canon
+source: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
 artifact: "CANON_SEMANTIC_TRANSACTION.md"
 artifact_id: "amos_03_control_plane_06_semantic_transaction_canon_semantic_transaction"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION"
 artifact_kind: "CANON"
 path: "03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/CANON_SEMANTIC_TRANSACTION.md"
 
-tags: [amos_os, control_plane, governance, 03_control_plane, canon, canon_placeholder, rscf]
+tags: [amos_os, control_plane, governance, 03_control_plane, canon, canon_placeholder, rscf, canon/control-plane]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Canon Semantic Transaction

@@ -1,8 +1,15 @@
 ---
 title: "C06 Memory MOC"
 type: moc
-tags: [moc, c06-memory]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY
+tags: [moc, c06-memory, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # C06 Memory — Map of Content
 

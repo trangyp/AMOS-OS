@@ -1,5 +1,6 @@
 ---
 type: transformation
+source: 11_KNOWLEDGE/amos-general
 artifact_id: AMOS-LRPG
 title: "Language RPG → Adaptive Communication Simulation OS"
 document_version: "2.0.0"
@@ -16,9 +17,13 @@ completion_class: "COMPLETE_FOR_ARCHITECTURE_SCOPE"
 production_readiness: "NOT_YET_VERIFIED"
 source_status: "SOURCE_CLAIM + IMPLEMENTATION_SUMMARY"
 governing_law: "integrity > completeness > fluency > speed > token savings"
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
-
 
 
 # Language RPG → Adaptive Communication Simulation OS

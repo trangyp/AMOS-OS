@@ -1,13 +1,16 @@
 ---
 title: MANIFEST AMOS FORMAL RSCF SUITE V6 ALL
-tags: [rscf, epistemic, claim]
+tags: [rscf, epistemic, claim, canon/knowledge]
 type: data
 source: 11_KNOWLEDGE/rscf
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: epistemic_framework
+
 ---
-
-
-
-
+# MANIFEST AMOS FORMAL RSCF SUITE V6 ALL
 
 ```json
 {

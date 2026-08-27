@@ -1,8 +1,15 @@
 ---
 title: "44 Ev Infrastructure MOC"
 type: moc
-tags: [moc, 44-ev-infrastructure]
+source: 21_DOMAINS/44_EV_INFRASTRUCTURE
+tags: [moc, 44-ev-infrastructure, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 44 Ev Infrastructure — Map of Content
 

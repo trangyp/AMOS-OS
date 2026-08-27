@@ -1,9 +1,14 @@
 ---
 title: MULTI AGENT MODES COMMIT CONTROL PLANE README
 type: agent
-tags: [control_plane, 31_multi_agent_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/31_MULTI_AGENT_MODES
+tags: [control_plane, 31_multi_agent_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # MULTI AGENT MODES COMMIT CONTROL PLANE README
@@ -61,3 +66,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[31_MULTI_AGENT_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

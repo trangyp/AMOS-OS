@@ -1,26 +1,15 @@
 ---
 title: POLICY DECISION
 type: decision
-tags: [control_plane, policy, note]
+source: 03_CONTROL_PLANE/03_POLICY
+tags: [control_plane, policy, note, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-
-
-Below is the **full paste-ready `POLICY_DECISION.md`**. It is written as a substantive AMOS OS governance/control-plane contract, not a placeholder. It preserves the critical separation between policy evaluation, capability, authority, proposal, effect release, and durable commit.
-
----
-title: "AMOS Policy Decision"
-artifact: "POLICY_DECISION.md"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-artifact_class: "GOVERNED_POLICY_DECISION_CONTRACT"
-status: "PROPOSED / STRUCTURALLY_COMPLETE / IMPLEMENTATION-UNVALIDATED"
-epistemic_class: "MODEL"
-version: "1.0.0"
-updated: "2026-08-26"
-authority: "NONE_BY_DEFAULT"
----
 
 # AMOS Policy Decision
 

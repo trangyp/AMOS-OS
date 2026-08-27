@@ -1,12 +1,17 @@
 ---
 title: OAUTH GRANT TYPES
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
-
-
+# OAUTH GRANT TYPES
 
 ## Grant Types
 What is a grant type?

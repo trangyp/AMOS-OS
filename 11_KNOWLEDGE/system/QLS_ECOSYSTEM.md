@@ -1,21 +1,18 @@
 ---
 title: QLS ECOSYSTEM
-tags: [system, architecture, design]
+tags: [system, architecture, design, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/system
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
+
 ---
 
 
-
-
-
 # Qls ecosystem
-Yes — **Quantum Life Science (QLS)** can cover much more than intelligence, mental health, and longevity. Because it’s built on the **intersection of quantum biology + nervous system regulation + systemic design** , it can be applied across many domains. Here’s a structured expansion:
-* * *
-## 1\. **Healthcare and Medicine**
-  * **Quantum diagnostics** : Non-invasive imaging and blood analysis at molecular precision.
-
-
   * **Drug discovery** : Quantum computing to simulate protein folding and optimise treatments.
 
 
@@ -183,3 +180,6 @@ Would you like me to **draft the master table of contents** — showing how each
 
 ---
 **MOC:** [[SYSTEM_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

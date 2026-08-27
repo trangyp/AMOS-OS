@@ -1,10 +1,15 @@
 ---
 title: DESIGN ENGINE MODEL
 type: model
+source: 11_KNOWLEDGE/engine
 aliases: [Unified Design Kernel, AMOS_Design_Engine, Design Kernel]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/design-engine-model, engine]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
 
 
 # AMOS Unified Design Engine
@@ -56,3 +61,6 @@ The engine operates in 4 modes:
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

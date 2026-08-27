@@ -1,8 +1,15 @@
 ---
 title: conjecture discipline
 type: reference
-tags: [reference, amos-rscf-epistemic-master]
+source: 07_SKILLS/amos-rscf-epistemic-master/references
+tags: [reference, amos-rscf-epistemic-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Conjecture Discipline Layer
 

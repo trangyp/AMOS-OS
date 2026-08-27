@@ -1,8 +1,15 @@
 ---
 title: fabrication engine layer
 type: reference
-tags: [reference, amos-agent-systems-master]
+source: 07_SKILLS/amos-agent-systems-master/references
+tags: [reference, amos-agent-systems-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Fabrication Engine Layer
 
@@ -146,6 +153,7 @@ platform_safety > ip_protection > creator_intent > structural_integrity > user_r
 - **IP_Kernel_Shield** — intellectual property protection
 - **AMOS_ORCHESTRATOR_ROUTING** — Dynamic routing to appropriate kernels
 - **AMOS_KERNEL_CONFIG** — Kernel registry with priorities, dependencies, routing rules
+- [[07_SKILLS_MOC]]
 
 ## Related Vault Sources
 

@@ -3,10 +3,14 @@ title: AMOS OBSERVABILITY MONITORING KERNEL V0 TECH
 tags: [canon-group/tech-ai, canon/metric, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-observability-monitoring-kernel-v0, kernel]
 type: data
 source: 11_KNOWLEDGE/kernel
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
+# AMOS OBSERVABILITY MONITORING KERNEL V0 TECH
 
 ```json
 {

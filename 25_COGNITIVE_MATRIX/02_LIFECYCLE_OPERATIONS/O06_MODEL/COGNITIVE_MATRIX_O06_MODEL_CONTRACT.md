@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX O06 MODEL CONTRACT
 type: cognitive
-tags: [cognitive_matrix, lifecycle_operations, o06_model, contract]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O06_MODEL
+tags: [cognitive_matrix, lifecycle_operations, o06_model, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # O06_MODEL — Building/updating structural models; MODEL-class outputs only.
@@ -47,3 +52,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[O06_MODEL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

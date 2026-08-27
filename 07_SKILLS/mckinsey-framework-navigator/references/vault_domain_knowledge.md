@@ -1,8 +1,17 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, mckinsey-framework-navigator]
+source: 07_SKILLS/mckinsey-framework-navigator/references
+tags: [reference, mckinsey-framework-navigator, canon/skill]
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: skill_reference
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -289,3 +298,7 @@ It has four characteristics no existing programming paradigm has:
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

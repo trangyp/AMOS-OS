@@ -1,8 +1,15 @@
 ---
 title: "Mckinsey-Technology-Product-Governance-Rscf MOC"
 type: moc
-tags: [moc, mckinsey-technology-product-governance-r]
+source: 07_SKILLS/mckinsey-technology-product-governance-rscf
+tags: [moc, mckinsey-technology-product-governance-r, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Mckinsey-Technology-Product-Governance-Rscf — Map of Content
 

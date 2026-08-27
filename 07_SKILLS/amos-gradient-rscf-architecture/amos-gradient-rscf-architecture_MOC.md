@@ -1,8 +1,15 @@
 ---
 title: "Amos-Gradient-Rscf-Architecture MOC"
 type: moc
-tags: [moc, amos-gradient-rscf-architecture]
+source: 07_SKILLS/amos-gradient-rscf-architecture
+tags: [moc, amos-gradient-rscf-architecture, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Gradient-Rscf-Architecture — Map of Content
 

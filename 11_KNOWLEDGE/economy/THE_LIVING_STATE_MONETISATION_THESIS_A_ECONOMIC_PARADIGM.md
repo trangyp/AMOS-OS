@@ -3,7 +3,15 @@ title: THE LIVING STATE MONETISATION THESIS A ECONOMIC PARADIGM
 tags: [canon-group/planetary, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/the-living-state-monetisation-thesis-a-n, economy]
 type: note
 source: 11_KNOWLEDGE/economy
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: economic_model
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
+
 
 # THE LIVING STATE MONETISATION THESIS A ECONOMIC PARADIGM
 

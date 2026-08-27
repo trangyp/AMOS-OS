@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-self-regulated-simulative-planning-rscf]
+source: 07_SKILLS/amos-self-regulated-simulative-planning-rscf/references
+tags: [reference, amos-self-regulated-simulative-planning-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -206,3 +213,7 @@ The brain's own AMOS_Omni_KERNEL.json (in md/Core/AMOS_Os_Agent_v0.md lines 568-
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,9 +1,14 @@
 ---
 title: DEPENDENCY GRAPH COGNITIVE MATRIX README
 type: dependency
-tags: [cognitive_matrix, dependency_graph, readme, contract_filled]
+source: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH
+tags: [cognitive_matrix, dependency_graph, readme, contract_filled, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # 09_DEPENDENCY_GRAPH — Dependency Graph Contract Overview
@@ -77,3 +82,6 @@ claim_class: DERIVED
 
 ---
 **MOC:** [[09_DEPENDENCY_GRAPH_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

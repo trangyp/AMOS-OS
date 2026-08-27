@@ -1,12 +1,15 @@
 ---
 title: IN VIETNAM RENEWABLE RISK IS A GRID PROBLEM NOT
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **In Vietnam, Renewable Risk Is a Grid Problem, Not a Technology Problem**

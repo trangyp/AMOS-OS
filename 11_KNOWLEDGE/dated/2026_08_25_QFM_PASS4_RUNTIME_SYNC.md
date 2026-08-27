@@ -2,9 +2,15 @@
 title: "2026-08-25 QFM Pass 4 — Runtime Cells, QFT Mapping, Canon & Full Sync"
 created: 2026-08-25
 type: session-report
+source: 11_KNOWLEDGE/dated
 epistemic_label: SOURCE (file ops) + MODEL (framework synthesis)
 status: complete
-tags: [dated, dated/2026-08-25]
+tags: [dated, dated/2026-08-25, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
 
 

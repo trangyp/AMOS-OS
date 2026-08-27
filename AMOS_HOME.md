@@ -1,11 +1,16 @@
 ---
 title: AMOS HOME
 type: note
+source: .
 aliases:
 - AMOS Home
-tags: [note, vault]
+tags: [note, vault, canon/general]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # AMOS Home

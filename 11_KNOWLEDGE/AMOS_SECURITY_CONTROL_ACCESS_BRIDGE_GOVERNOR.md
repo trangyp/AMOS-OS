@@ -1,6 +1,7 @@
 ---
 title: AMOS SECURITY CONTROL ACCESS BRIDGE GOVERNOR
 type: security
+source: 11_KNOWLEDGE
 claim_ceiling: 0.9
 created: 2026-08-27
 domain: cross-domain
@@ -9,9 +10,13 @@ origin_architect: Trang Phan
 parent_skill: amos-security-safety-master
 rscf_node_type: skill
 status: production_ready
-tags: [rscf/node, knowledge, vault, canon-group/cross-domain, topic/security-control-access, topic/pipeline-governance]
+tags: [rscf/node, knowledge, vault, canon-group/cross-domain, topic/security-control-access, topic/pipeline-governance, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
-
 
 
 # AMOS Security-Control-Access Bridge Governor

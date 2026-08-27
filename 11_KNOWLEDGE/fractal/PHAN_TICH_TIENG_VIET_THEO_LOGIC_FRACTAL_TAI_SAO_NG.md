@@ -1,12 +1,15 @@
 ---
 title: PHAN TICH TIENG VIET THEO LOGIC FRACTAL TAI SAO NG
-tags: [fractal, math, self-similarity]
+tags: [fractal, math, self-similarity, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/fractal
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: fractal_system
+
 ---
-
-
-
 
 
 # PHÂN TÍCH TIẾNG VIỆT THEO LOGIC FRACTAL: TẠI SAO NGÔN NGỮ MẸ ĐẺ LÀ CÔNG CỤ MẠNH NHẤT DẪN DẮT NHẬN THỨC – VÀ TẠI SAO NGƯỜI VIỆT HIỆN ĐẠI "KHÔNG THÔNG MINH" THEO NGHĨA FRACTAL

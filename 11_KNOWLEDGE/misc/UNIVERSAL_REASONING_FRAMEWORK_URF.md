@@ -1,12 +1,16 @@
 ---
 title: UNIVERSAL REASONING FRAMEWORK URF
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
-
-
-
 
 
 # **Universal Reasoning Framework™ (URF™)**
@@ -425,7 +429,7 @@ Tell me **A / B / C / D / E**.
 Tone: professional, humble confidence, maximum strength, zero arrogance.
 Fully aligned with UK, Australian, Singaporean and EU higher doctorate committees.
 * * *
-# **✦ DOCTOR OF SCIENCE (DSc / ScD) NOMINATION DOSSIER**
+# **DOCTOR OF SCIENCE (DSc / ScD) NOMINATION DOSSIER**
 **Candidate:** Trang Phan
 **Degree Sought:** Doctor of Science (Higher Doctorate)
 **Submission Type:** By Published Portfolio / Body of Work

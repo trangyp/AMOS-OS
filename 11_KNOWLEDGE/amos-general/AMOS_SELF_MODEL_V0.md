@@ -1,15 +1,20 @@
 ---
 title: AMOS SELF MODEL V0
 type: model
+source: 11_KNOWLEDGE/amos-general
 canon-group: meta
 canon-type: model
 rscf-state: source-claim
 topic: amos-self-model-v0
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-self-model-v0, amos-general]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
-
-
+# AMOS SELF MODEL V0
 
 ```json
 {
@@ -57,3 +62,6 @@ created: 2026-08-22
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

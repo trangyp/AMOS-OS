@@ -1,15 +1,20 @@
 ---
 title: AMOS EV INFRASTRUCTURE AGENTS SUPER ENGINE X100K
 type: agent
+source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-ev-infrastructure-agents-super-engine-x100k
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-ev-infrastructure-agents-super-engi, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
+# AMOS EV INFRASTRUCTURE AGENTS SUPER ENGINE X100K
 
 ```json
 {
@@ -641,3 +646,6 @@ created: 2026-08-22
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

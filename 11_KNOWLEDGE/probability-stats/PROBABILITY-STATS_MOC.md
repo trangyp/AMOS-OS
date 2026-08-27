@@ -1,8 +1,15 @@
 ---
 title: "Probability-Stats MOC"
 type: moc
-tags: [moc, probability-stats]
+source: 11_KNOWLEDGE/probability-stats
+tags: [moc, probability-stats, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: probability_statistics
 ---
+
 
 # Probability-Stats — Map of Content
 

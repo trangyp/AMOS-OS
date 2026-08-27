@@ -1,8 +1,15 @@
 ---
 title: "Amos-Prediction-Governance MOC"
 type: moc
-tags: [moc, amos-prediction-governance]
+source: 07_SKILLS/amos-prediction-governance
+tags: [moc, amos-prediction-governance, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Prediction-Governance — Map of Content
 

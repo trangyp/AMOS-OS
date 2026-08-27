@@ -1,8 +1,15 @@
 ---
 title: engineering math kernel
 type: reference
-tags: [reference, amos-c02-math-compute-master]
+source: 07_SKILLS/amos-c02-math-compute-master/references
+tags: [reference, amos-c02-math-compute-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Engineering Math Kernel v0 Tech Systems
 
@@ -159,3 +166,7 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

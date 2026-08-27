@@ -1,8 +1,15 @@
 ---
 title: "AMOS Evidence Tensor Architecture"
 type: tensor
-tags: [tensor, knowledge, vault]
+source: 11_KNOWLEDGE
+tags: [tensor, knowledge, vault, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # AMOS Evidence Tensor
 

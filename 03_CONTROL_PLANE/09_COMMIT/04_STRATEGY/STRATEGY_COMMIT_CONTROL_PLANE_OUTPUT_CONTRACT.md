@@ -1,9 +1,14 @@
 ---
 title: STRATEGY COMMIT CONTROL PLANE OUTPUT CONTRACT
 type: control-plane
-tags: [control_plane, 04_strategy]
+source: 03_CONTROL_PLANE/09_COMMIT/04_STRATEGY
+tags: [control_plane, 04_strategy, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # STRATEGY COMMIT CONTROL PLANE OUTPUT CONTRACT
@@ -75,3 +80,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[04_STRATEGY_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

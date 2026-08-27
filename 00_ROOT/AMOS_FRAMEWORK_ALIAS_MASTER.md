@@ -1,6 +1,7 @@
 ---
 title: "AMOS Framework Alias Master"
 type: framework
+source: 00_ROOT
 artifact: "AMOS_FRAMEWORK_ALIAS_MASTER.md"
 artifact_id: "amos_00_root_amos_framework_alias_master"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "00_ROOT"
 artifact_kind: "FRAMEWORK"
 path: "00_ROOT/AMOS_FRAMEWORK_ALIAS_MASTER.md"
 
-tags: [amos_os, root, index, 00_root, framework, canon_placeholder, rscf]
+tags: [amos_os, root, index, 00_root, framework, canon_placeholder, rscf, canon/root]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
-
 
 
 # AMOS Framework Alias Master

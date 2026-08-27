@@ -3,10 +3,16 @@ title: "AMOS Absolute Omniverse Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: brain-model
+source: 11_KNOWLEDGE/models
 tags: [canon-group/human-system, canon/os-module, rscf/claim, rscf/provenance, rscf/state/derived, topic/absolute-omniverse-model, models]
 status: "active"
 provenance: "ABSOLUTE OMNIVERSE U∞.txt"
 confidence: "STRUCTURAL"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: model_specification
 ---
 
 

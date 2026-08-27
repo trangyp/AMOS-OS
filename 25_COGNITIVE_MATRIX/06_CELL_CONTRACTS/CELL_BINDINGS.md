@@ -1,7 +1,13 @@
 ---
 title: CELL BINDINGS
 type: note
-tags: [note, 06-cell-contracts]
+source: 25_COGNITIVE_MATRIX/06_CELL_CONTRACTS
+tags: [note, 06-cell-contracts, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -46,3 +52,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/06_CELL_CONTRAC
 
 ---
 **MOC:** [[06_CELL_CONTRACTS_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

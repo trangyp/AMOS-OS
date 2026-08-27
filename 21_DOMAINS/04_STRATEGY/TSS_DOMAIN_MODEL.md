@@ -1,6 +1,7 @@
 ---
 title: "TSS Domain Model"
 type: model
+source: 21_DOMAINS/04_STRATEGY
 artifact: "TSS_DOMAIN_MODEL.md"
 artifact_id: "amos_21_domains_04_strategy_tss_domain_model"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "21_DOMAINS/04_STRATEGY"
 artifact_kind: "MODEL"
 path: "21_DOMAINS/04_STRATEGY/TSS_DOMAIN_MODEL.md"
 
-tags: [amos_os, domain, specialization, 21_domains, model, canon_placeholder, rscf]
+tags: [amos_os, domain, specialization, 21_domains, model, canon_placeholder, rscf, canon/domain]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # TSS Domain Model

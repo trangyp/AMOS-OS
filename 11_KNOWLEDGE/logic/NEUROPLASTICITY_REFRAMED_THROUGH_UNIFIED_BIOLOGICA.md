@@ -1,12 +1,15 @@
 ---
 title: NEUROPLASTICITY REFRAMED THROUGH UNIFIED BIOLOGICA
-tags: [logic, reasoning, formal]
+tags: [logic, reasoning, formal, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/logic
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
+
 ---
-
-
-
 
 
 # **Neuroplasticity Reframed Through Unified Biological Intelligence™: A Deterministic Model of Adaptive Logic, Energy Efficiency, and Multi-System Synchrony**
@@ -146,7 +149,7 @@ State the final thesis:
 
 
 * * *
-### ✅ **Audit for Absolute Structural Integrity™**
+### **Audit for Absolute Structural Integrity™**
 |                           |
 | Criterion                 | Compliance | Evidence                                                                                   |
 |---------------------------|------------|--------------------------------------------------------------------------------------------|

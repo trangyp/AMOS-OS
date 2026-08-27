@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Rag-Evaluation-Rscf MOC"
 type: moc
-tags: [moc, arxiv-rag-evaluation-rscf]
+source: 07_SKILLS/arxiv-rag-evaluation-rscf
+tags: [moc, arxiv-rag-evaluation-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Rag-Evaluation-Rscf — Map of Content
 

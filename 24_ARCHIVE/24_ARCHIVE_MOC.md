@@ -1,8 +1,15 @@
 ---
 title: "24 Archive MOC"
 type: moc
-tags: [moc, 24-archive]
+source: 24_ARCHIVE
+tags: [moc, 24-archive, canon/archive]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 24 Archive — Map of Content
 

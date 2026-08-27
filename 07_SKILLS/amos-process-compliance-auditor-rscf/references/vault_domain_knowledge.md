@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-process-compliance-auditor-rscf]
+source: 07_SKILLS/amos-process-compliance-auditor-rscf/references
+tags: [reference, amos-process-compliance-auditor-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -216,3 +223,7 @@ Cannot diagnose medical conditions or bypass hardware control safeties. All outp
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

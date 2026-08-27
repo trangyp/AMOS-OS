@@ -1,8 +1,15 @@
 ---
 title: "53 Prioritization Triage Modes MOC"
 type: moc
-tags: [moc, 53-prioritization-triage-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/53_PRIORITIZATION_TRIAGE_MODES
+tags: [moc, 53-prioritization-triage-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 53 Prioritization Triage Modes — Map of Content
 

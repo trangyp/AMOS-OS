@@ -3,7 +3,14 @@ title: PUBLIC MESSAGING MAKING CONSENT INFRASTRUCTURE RELATABLE
 tags: [canon-group/planetary, canon/protocol, rscf/claim, rscf/provenance, rscf/state/observation, topic/public-messaging-making-consent-infrastr, misc]
 type: note
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
+
 
 # PUBLIC MESSAGING MAKING CONSENT INFRASTRUCTURE RELATABLE
 

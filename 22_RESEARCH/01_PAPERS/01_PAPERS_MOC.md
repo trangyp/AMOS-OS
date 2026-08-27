@@ -1,8 +1,15 @@
 ---
 title: "01 Papers MOC"
 type: moc
-tags: [moc, 01-papers]
+source: 22_RESEARCH/01_PAPERS
+tags: [moc, 01-papers, canon/research]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 01 Papers — Map of Content
 

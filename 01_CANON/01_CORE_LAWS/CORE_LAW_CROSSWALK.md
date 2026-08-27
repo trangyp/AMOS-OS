@@ -1,6 +1,7 @@
 ---
 title: "Core Law Crosswalk"
 type: law
+source: 01_CANON/01_CORE_LAWS
 artifact: "CORE_LAW_CROSSWALK.md"
 artifact_id: "amos_01_canon_01_core_laws_core_law_crosswalk"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "01_CANON/01_CORE_LAWS"
 artifact_kind: "CROSSWALK"
 path: "01_CANON/01_CORE_LAWS/CORE_LAW_CROSSWALK.md"
 
-tags: [amos_os, canon, universe, 01_canon, crosswalk, canon_placeholder, rscf]
+tags: [amos_os, canon, universe, 01_canon, crosswalk, canon_placeholder, rscf, canon/universe]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: core_laws
 ---
-
 
 
 # Core Law Crosswalk

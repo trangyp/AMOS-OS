@@ -3,9 +3,13 @@ title: AMOS FABRICATION ENGINE V0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-fabrication-engine-v0, engine]
 type: document
 source: 11_KNOWLEDGE/engine
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
+
 ---
-
-
 
 
 # AMOS Fabrication Engine v0
@@ -86,3 +90,6 @@ platform_safety > ip_protection > creator_intent > structural_integrity > user_r
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

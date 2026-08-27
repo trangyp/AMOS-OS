@@ -1,8 +1,15 @@
 ---
 title: "Amos-C06-Society-Culture-Master MOC"
 type: moc
-tags: [moc, amos-c06-society-culture-master]
+source: 07_SKILLS/amos-c06-society-culture-master
+tags: [moc, amos-c06-society-culture-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-C06-Society-Culture-Master — Map of Content
 

@@ -1,14 +1,22 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-audit-repair-master
 name: amos-audit-repair-master
 description: "AMOS Audit & Repair — failure recovery, gap discovery, quality auditing, validation gates, repair allocation. Use for system auditing, gap analysis, or failure recovery."
 parent_skill: none
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-audit-repair-master]
+tags: [note, amos-audit-repair-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
+
 
 # L10 Failure & Recovery Laws
 
@@ -90,3 +98,83 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 - **FR-3 Fail Closed on Critical Unknown**: missing authority/provenance/validation blocks execution rather than defaulting open.
 - **FR-4 Recovery Basins**: every consequential subsystem declares a rollback t
 - [[AGENT_TEMPLATE]]
+
+---
+**MOC:** [[amos-audit-repair-master_MOC]]
+
+## Examples
+
+- **Scenario**: When validating outputs against domain constraints and epistemic class
+  - **Input**: A query matching this skill's domain (audit)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the audit domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when audit specialization is needed
+- **Peers**: Other skills in the `audit` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/11k_cross_skill_proof_composition.md` — loaded on demand
+- `references/11k_known_gaps.md` — loaded on demand
+- `references/audit_quality_engine.md` — loaded on demand
+- `references/audit_quality_engine_domains.md` — loaded on demand
+- `references/audit_quality_engine_v0.md` — loaded on demand
+- `references/audit_quality_max.md` — loaded on demand
+- `references/audit_quality_model.md` — loaded on demand
+- `references/brain_consistency_auditor.md` — loaded on demand
+- `references/consolidation_report.md` — loaded on demand
+- `references/critical_fixes_analysis.md` — loaded on demand
+- `references/diagnosis.md` — loaded on demand
+- `references/final_gate.md` — loaded on demand
+- `references/hallucination_cleanup_report.md` — loaded on demand
+- `references/qa_testing_kernel.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/system_fixes_complete.md` — loaded on demand
+- `references/system_fixes_progress.md` — loaded on demand
+- `[[amos-audit-repair-master_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-audit-repair-master-workflow]]` — corresponding workflow
+- `[[amos-audit-repair-master-agent]]` — corresponding agent
+

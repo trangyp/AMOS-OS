@@ -1,8 +1,14 @@
 ---
 title: CUSTOMER INSIGHT ENGINE
-tags: [engine, processing, runtime]
+tags: [engine, processing, runtime, canon/knowledge]
 type: note
 source: 11_KNOWLEDGE/engine
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
+
 ---
 
 
@@ -74,3 +80,6 @@ class Customer_Insight_Engine(BaseDomainEngine):
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

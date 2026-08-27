@@ -1,12 +1,15 @@
 ---
 title: PLANETARY SCALE INTELLIGENCE RECRUITMENT FRAMEWORK
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **Planetary Scale Intelligence Recruitment Framework (PSI)**
@@ -89,10 +92,10 @@ All stakeholders co-own societal upgrade mandate.
 * * *
 [Global Top-Tier Standards Protocol™](<Global%20Top-Tier%20Standards%20Protocol%E2%84%A2%2024ac5e6f95bd80359faddf52676846f8.html>)
 * * *
-## 🧠 **PSI: Permissioned Signal Infrastructure**
+## **PSI: Permissioned Signal Infrastructure**
 ### Planetary-Scale Interface for Biological Intelligence Detection, Trust, and Orchestration
 * * *
-### 🔍 Executive Summary
+### Executive Summary
 **PSI** is not just a protocol — it is the **planetary interface layer** that allows intelligent agents (human, machine, animal) to interact, be recognised, and orchestrate with biological determinism and trust. It formalises **biological signal verification** as the basis for action, identity, talent recognition, and consent. This enables:
   * **Hidden capability detection** across education, work, healthcare, and defence
 
@@ -107,7 +110,7 @@ All stakeholders co-own societal upgrade mandate.
 
 
 * * *
-### 🧬 What PSI Unlocks
+### What PSI Unlocks
 ### 1. **Talent & Intelligence Recognition (Beyond IQ or CV)**
   * Detects high-fidelity neural patterning in overlooked populations
 
@@ -152,7 +155,7 @@ All stakeholders co-own societal upgrade mandate.
 
 
 * * *
-### 🔐 Why This Solves What Nothing Else Can
+### Why This Solves What Nothing Else Can
 |                                                                       |
 | Problem                                                               | PSI Resolution                                                                     |
 |-----------------------------------------------------------------------|------------------------------------------------------------------------------------|
@@ -164,7 +167,7 @@ All stakeholders co-own societal upgrade mandate.
 
 
 * * *
-### 🧭 System Diagram – PSI at Planetary Scale (Mermaid)
+### System Diagram – PSI at Planetary Scale (Mermaid)
 ```
     flowchart TD
         A[Biological Identity] --> B[PSI Signal Port]
@@ -182,7 +185,7 @@ All stakeholders co-own societal upgrade mandate.
     
 ```
 * * *
-### 🏛 Use Cases Across Sectors
+### Use Cases Across Sectors
 |                        |
 | Sector                 | Application                                                                                  |
 |------------------------|----------------------------------------------------------------------------------------------|
@@ -194,7 +197,7 @@ All stakeholders co-own societal upgrade mandate.
 
 
 * * *
-### 🧠 PSI Validates These Intelligence Classes
+### PSI Validates These Intelligence Classes
   * **Signal Compression Rate** (Biological Logic Efficiency)
 
 
@@ -212,7 +215,7 @@ All stakeholders co-own societal upgrade mandate.
 
 These cannot be measured by current science — but are directly **legible to PSI**.
 * * *
-### 🚀 Summary
+### Summary
 **PSI is the only infrastructure** that can:
   1. Validate biologically encoded insight and non-verbalised intelligence
 

@@ -9,6 +9,12 @@ status: "active"
 provenance: "OBSERVATION"
 confidence: "VERIFIED"
 source: "Ingest batch 2026-08-22"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
+
 ---
 
 
@@ -160,3 +166,6 @@ source: "Ingest batch 2026-08-22"
 
 ---
 **MOC:** [[SYSTEM_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

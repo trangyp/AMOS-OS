@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-fx-quantile-distribution-rscf-engine]
+source: 07_SKILLS/amos-fx-quantile-distribution-rscf-engine/references
+tags: [reference, amos-fx-quantile-distribution-rscf-engine, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -231,3 +238,7 @@ Successfully implemented comprehensive consciousness-enhanced FX structural mark
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

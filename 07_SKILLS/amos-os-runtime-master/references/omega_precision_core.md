@@ -1,8 +1,15 @@
 ---
 title: omega precision core
 type: reference
-tags: [reference, amos-os-runtime-master]
+source: 07_SKILLS/amos-os-runtime-master/references
+tags: [reference, amos-os-runtime-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Omega Precision Core Implementation Report
 
@@ -28,7 +35,7 @@ Successfully implemented the AMOS OMEGA PRECISION CORE BLUEPRINT as a mathematic
 
 ## I. FORMAL MATHEMATICAL BACKBONE - FULLY IMPLEMENTED
 
-### ✅ Canonical Symbol Registry (CSR)
+### Canonical Symbol Registry (CSR)
 - **Total Symbols Registered**: 14 core symbols
 - **Domain Coverage**: ℝ≥0, bounded intervals, discrete sets, percentages
 - **Observability Types**: Measured, Inferred, Derived
@@ -50,7 +57,7 @@ Successfully implemented the AMOS OMEGA PRECISION CORE BLUEPRINT as a mathematic
 - `carry_return` - Carry trade return
 - `nominal_rate` - Nominal interest rate
 
-### ✅ Equation AST Engine
+### Equation AST Engine
 - **Equations Parsed**: 4 core financial equations
 - **AST Validation**: 100% syntax and semantic validation
 - **Symbol Binding**: All equations properly bound to symbols
@@ -63,14 +70,14 @@ Successfully implemented the AMOS OMEGA PRECISION CORE BLUEPRINT as a mathematic
 3. **Real Rate**: `real_rate = nominal_rate - inflation`
 4. **Carry Trade**: `carry_return = interest_rate_differential - expected_spot_change`
 
-### ✅ Minimal Invariant Basis Reduction
+### Minimal Invariant Basis Reduction
 - **Linear Independence Testing**: Implemented with matrix decomposition
 - **Basis Reduction**: Active minimal basis identification
 - **Derivation DAG**: Complete derivation tracking
 - **Proof Requirements**: Falsifiability conditions enforced
 - **Regime Tagging**: All invariants regime-tagged
 
-### ✅ State Vector Definition Ω(t)
+### State Vector Definition Ω(t)
 - **Formal State Vector**: Complete 10-component state definition
 - **Mathematical Rigor**: All components explicitly defined
 - **Input Signal Declaration**: Clear signal dependencies
@@ -91,14 +98,14 @@ Successfully implemented the AMOS OMEGA PRECISION CORE BLUEPRINT as a mathematic
 
 ## II. STRUCTURAL FALSIFICATION ENGINE - OPERATIONAL
 
-### ✅ Prediction Testing
+### Prediction Testing
 - **Error Metric**: L2 norm implementation
 - **Threshold Enforcement**: 0.1 error threshold active
 - **Confidence Degradation**: Automatic degradation on falsification
 - **Historical Tracking**: Complete falsification history
 - **Falsification Rate**: 100% (stress test validation)
 
-### ✅ Structural Drift Detection
+### Structural Drift Detection
 - **Real-time Monitoring**: Continuous structural validation
 - **Decay Mechanism**: Confidence decay without reinforcement
 - **Logging**: Comprehensive falsification audit trail
@@ -108,3 +115,7 @@ Successfully implemented the AMOS OMEGA PRECISION CORE BLUEPRINT as a mathematic
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

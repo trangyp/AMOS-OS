@@ -1,6 +1,7 @@
 ---
 title: AMOS SIGNAL ECONOMY ALIGNED
 type: economy
+source: 11_KNOWLEDGE/amos-general
 canon-group: tech-ai
 canon-type: architecture
 rscf-state: model
@@ -10,11 +11,13 @@ version: v1.0
 origin-architect: Trang Phan
 source-title: "The Signal Economy™"
 source-status: source-claim
-tags: [amos, general, architecture, signal-economy, human-first, biological-signal, consent, authority, provenance, translation, agent-orchestration, physical-action, governance, rscf/B-boundary, rscf/C-constraint, rscf/D-distinction, rscf/G-relation, rscf/M-memory, rscf/P-repair, rscf/S-state, rscf/T-topology, rscf/X-cross-scale, rscf/type-system, amos-general]
-
+tags: [amos, general, architecture, signal-economy, human-first, biological-signal, consent, authority, provenance, translation, agent-orchestration, physical-action, governance, rscf/B-boundary, rscf/C-constraint, rscf/D-distinction, rscf/G-relation, rscf/M-memory, rscf/P-repair, rscf/S-state, rscf/T-topology, rscf/X-cross-scale, rscf/type-system, amos-general, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
-
-
 
 
 # AMOS Signal Economy™
@@ -45,19 +48,7 @@ The source architecture contains fifteen named layers and components spanning:
 
 AMOS alignment preserves this structure while separating:
 
-\[
-\boxed{
-Signal
-\neq
-Meaning
-\neq
-Intent
-\neq
-Authority
-\neq
-Action
-}
-\]
+$$\boxed{ Signal \neq Meaning \neq Intent \neq Authority \neq Action }$$
 
 This distinction is load-bearing.
 
@@ -176,13 +167,7 @@ IDENTITY  CONSENT  PROVENANCE
 
 The Signal Economy™ does **not** supersede AMOS authority.
 
-\[
-\boxed{
-SignalEconomy
-\subset
-AMOSGovernedExecution
-}
-\]
+$$\boxed{ SignalEconomy \subset AMOSGovernedExecution }$$
 
 ---
 
@@ -190,29 +175,11 @@ AMOSGovernedExecution
 
 The source's signal-flow concept becomes:
 
-\[
-\boxed{
-A_t
-=
-Commit_G
-\left(
-Verify
-\left(
-Authorize
-\left(
-Interpret
-\left(
-Observe(S_t)
-\right)
-\right)
-\right)
-\right)
-}
-\]
+$$\boxed{ A_t = Commit_G \left( Verify \left( Authorize \left( Interpret \left( Observe(S_t) \right) \right) \right) \right) }$$
 
 where:
 
-- \(S_t\) = observed signal;
+- $S_t$ = observed signal;
 - `Observe` captures signal and provenance;
 - `Interpret` creates candidate meaning;
 - `Authorize` checks identity, consent, scope, policy;
@@ -225,13 +192,7 @@ where:
 
 A core correction to the source architecture is:
 
-\[
-\boxed{
-BiologicalSignal
-\not\Rightarrow
-HumanIntent
-}
-\]
+$$\boxed{ BiologicalSignal \not\Rightarrow HumanIntent }$$
 
 A signal may correlate with, contribute to, or help infer intent.
 
@@ -239,18 +200,7 @@ It does not automatically *prove* intent.
 
 Therefore:
 
-\[
-\boxed{
-Intent_t
-=
-Infer(
-Signal_t,
-Context_t,
-UserInput_t,
-History_t
-)
-}
-\]
+$$\boxed{ Intent_t = Infer( Signal_t, Context_t, UserInput_t, History_t ) }$$
 
 with uncertainty.
 
@@ -260,59 +210,23 @@ with uncertainty.
 
 Likewise:
 
-\[
-\boxed{
-Identity
-\neq
-Authority
-}
-\]
+$$\boxed{ Identity \neq Authority }$$
 
 A system may identify or authenticate a person without establishing that a requested effect is authorized.
 
 Authority requires:
 
-\[
-\boxed{
-Authority
-=
-Principal
-+
-Permission
-+
-Resource
-+
-Action
-+
-Scope
-+
-Time
-+
-Conditions
-}
-\]
+$$\boxed{ Authority = Principal + Permission + Resource + Action + Scope + Time + Conditions }$$
 
 ---
 
 # 7. Hard Separation of Consent and Capability
 
-\[
-\boxed{
-Consent
-\neq
-Capability
-}
-\]
+$$\boxed{ Consent \neq Capability }$$
 
 and:
 
-\[
-\boxed{
-Capability
-\neq
-Consent
-}
-\]
+$$\boxed{ Capability \neq Consent }$$
 
 A device may be capable of stimulation but still lack valid consent.
 
@@ -326,24 +240,20 @@ Execution requires both plus applicable policy and safety constraints.
 
 The Signal Economy™ state is represented by:
 
-\[
-\boxed{
-T[o,p,s,t,r,v,g,e,c,k]
-}
-\]
+$$\boxed{ T[o,p,s,t,r,v,g,e,c,k] }$$
 
 where:
 
-- \(o\) = object / principal / signal / device;
-- \(p\) = primitive role;
-- \(s\) = scale;
-- \(t\) = time;
-- \(r\) = regime;
-- \(v\) = value/state;
-- \(g\) = governance / authority state;
-- \(e\) = epistemic class;
-- \(c\) = confidence;
-- \(k\) = provenance / knowledge lineage.
+- $o$ = object / principal / signal / device;
+- $p$ = primitive role;
+- $s$ = scale;
+- $t$ = time;
+- $r$ = regime;
+- $v$ = value/state;
+- $g$ = governance / authority state;
+- $e$ = epistemic class;
+- $c$ = confidence;
+- $k$ = provenance / knowledge lineage.
 
 Example:
 
@@ -368,18 +278,7 @@ T[
 
 AMOS relation:
 
-\[
-\boxed{
-R[
-i,
-j,
-relation\_type,
-time,
-regime,
-provenance
-]
-}
-\]
+$$\boxed{ R[ i, j, relation\_type, time, regime, provenance ] }$$
 
 Examples:
 
@@ -482,19 +381,7 @@ All downstream systems serve this anchor.
 
 AMOS converts this into explicit governing constraints.
 
-\[
-\boxed{
-Mission=
-[
-HumanAgency,
-Safety,
-Dignity,
-Consent,
-Benefit,
-Accountability
-]
-}
-\]
+$$\boxed{ Mission= [ HumanAgency, Safety, Dignity, Consent, Benefit, Accountability ] }$$
 
 ---
 
@@ -531,35 +418,13 @@ role transformation
 
 AMOS treats AHC as a **human enablement subsystem**, not an authority layer.
 
-\[
-\boxed{
-AHC
-:
-Capability
-\rightarrow
-HumanUnderstanding
-\rightarrow
-BoundedUse
-}
-\]
+$$\boxed{ AHC : Capability \rightarrow HumanUnderstanding \rightarrow BoundedUse }$$
 
 ---
 
 # 15. AHC Tensor
 
-\[
-\boxed{
-AHC[
-User,
-Role,
-Capability,
-Training,
-Risk,
-Outcome,
-Evidence
-]
-}
-\]
+$$\boxed{ AHC[ User, Role, Capability, Training, Risk, Outcome, Evidence ] }$$
 
 ---
 
@@ -569,13 +434,7 @@ The source says UBI proves the signal source is a living human.
 
 AMOS correction:
 
-\[
-\boxed{
-UBI
-=
-BiologicalSourceAssertion
-}
-\]
+$$\boxed{ UBI = BiologicalSourceAssertion }$$
 
 until an implementation specifies:
 
@@ -592,50 +451,19 @@ re-enrollment
 
 Therefore:
 
-\[
-\boxed{
-UBIAssertion
-\neq
-PerfectIdentityProof
-}
-\]
+$$\boxed{ UBIAssertion \neq PerfectIdentityProof }$$
 
 ---
 
 # 17. UBI State Tensor
 
-\[
-\boxed{
-U[
-Principal,
-SignalSource,
-Liveness,
-IdentityBinding,
-Confidence,
-Method,
-Time,
-Provenance
-]
-}
-\]
+$$\boxed{ U[ Principal, SignalSource, Liveness, IdentityBinding, Confidence, Method, Time, Provenance ] }$$
 
 ---
 
 # 18. UBI Admission Invariant
 
-\[
-\boxed{
-Admit(Identity)
-=
-LivenessPass
-\land
-BindingPass
-\land
-FreshnessPass
-\land
-IntegrityPass
-}
-\]
+$$\boxed{ Admit(Identity) = LivenessPass \land BindingPass \land FreshnessPass \land IntegrityPass }$$
 
 with an explicit UNKNOWN path when evidence is insufficient.
 
@@ -647,23 +475,7 @@ Consentex is structurally closer to AMOS authorization.
 
 A consent object is:
 
-\[
-\boxed{
-C=
-(
-issuer,
-recipient,
-resource,
-action,
-purpose,
-scope,
-validFrom,
-validUntil,
-revocable,
-status
-)
-}
-\]
+$$\boxed{ C= ( issuer, recipient, resource, action, purpose, scope, validFrom, validUntil, revocable, status ) }$$
 
 Consent must be:
 
@@ -702,21 +514,7 @@ C08  Historical consent is not automatically fresh consent.
 
 # 21. Consent Authorization Equation
 
-\[
-\boxed{
-Permit(a)
-=
-ConsentValid(a)
-\land
-AuthorityValid(a)
-\land
-PolicyValid(a)
-\land
-ResourceMatch(a)
-\land
-PurposeMatch(a)
-}
-\]
+$$\boxed{ Permit(a) = ConsentValid(a) \land AuthorityValid(a) \land PolicyValid(a) \land ResourceMatch(a) \land PurposeMatch(a) }$$
 
 ---
 
@@ -724,15 +522,7 @@ PurposeMatch(a)
 
 MyNeuralSignal is treated as a typed signal I/O interface.
 
-\[
-\boxed{
-MyNeuralSignal
-:
-DeviceSignal
-\leftrightarrow
-GovernedSignalObject
-}
-\]
+$$\boxed{ MyNeuralSignal : DeviceSignal \leftrightarrow GovernedSignalObject }$$
 
 Its job is to preserve:
 
@@ -750,20 +540,7 @@ provenance
 
 # 23. Neural I/O Tensor
 
-\[
-\boxed{
-S[
-Principal,
-Device,
-Modality,
-Timestamp,
-RawSignal,
-Quality,
-Consent,
-Provenance
-]
-}
-\]
+$$\boxed{ S[ Principal, Device, Modality, Timestamp, RawSignal, Quality, Consent, Provenance ] }$$
 
 ---
 
@@ -779,21 +556,7 @@ E4 — HIGH CONSEQUENCE
 
 Therefore:
 
-\[
-\boxed{
-Stimulate
-=
-ExplicitConsent
-\land
-QualifiedProtocol
-\land
-EffectBound
-\land
-SafetyPass
-\land
-AuthorityPass
-}
-\]
+$$\boxed{ Stimulate = ExplicitConsent \land QualifiedProtocol \land EffectBound \land SafetyPass \land AuthorityPass }$$
 
 No source claim can bypass this gate.
 
@@ -813,17 +576,7 @@ state labelling
 
 AMOS:
 
-\[
-\boxed{
-NeuroSyncAI
-:
-RawSignal
-\rightarrow
-FeatureRepresentation
-\rightarrow
-CandidateStateHypothesis
-}
-\]
+$$\boxed{ NeuroSyncAI : RawSignal \rightarrow FeatureRepresentation \rightarrow CandidateStateHypothesis }$$
 
 ---
 
@@ -831,27 +584,11 @@ CandidateStateHypothesis
 
 Use the AMOS translation tensor:
 
-\[
-\boxed{
-T[
-source,
-target,
-map\_type,
-scope,
-regime,
-observer,
-status
-]
-}
-\]
+$$\boxed{ T[ source, target, map\_type, scope, regime, observer, status ] }$$
 
 Transform:
 
-\[
-\boxed{
-y=T_{a\rightarrow b}(x)
-}
-\]
+$$\boxed{ y=T_{a\rightarrow b}(x) }$$
 
 For example:
 
@@ -867,15 +604,7 @@ raw neural signal
 
 Translation is not equivalence.
 
-\[
-\boxed{
-\epsilon_T
-=
-RequiredStructure(x)
--
-RecoverableStructure(y)
-}
-\]
+$$\boxed{ \epsilon_T = RequiredStructure(x) - RecoverableStructure(y) }$$
 
 A labelled state may omit meaningful source structure.
 
@@ -885,13 +614,7 @@ That residual must remain explicit.
 
 # 28. NeuroSyncAI Epistemic Firewall
 
-\[
-\boxed{
-ClassifierOutput
-\neq
-HumanStateFact
-}
-\]
+$$\boxed{ ClassifierOutput \neq HumanStateFact }$$
 
 Examples:
 
@@ -941,13 +664,7 @@ model-based translation
 
 Therefore:
 
-\[
-\boxed{
-DeterministicPipeline
-\neq
-DeterministicInference
-}
-\]
+$$\boxed{ DeterministicPipeline \neq DeterministicInference }$$
 
 ---
 
@@ -964,21 +681,7 @@ input
 
 AMOS maps this to:
 
-\[
-\boxed{
-Observe
-\rightarrow
-Model
-\rightarrow
-Propose
-\rightarrow
-Verify
-\rightarrow
-Act
-\rightarrow
-Observe'
-}
-\]
+$$\boxed{ Observe \rightarrow Model \rightarrow Propose \rightarrow Verify \rightarrow Act \rightarrow Observe' }$$
 
 The missing AMOS addition is **authority before action**.
 
@@ -986,20 +689,7 @@ The missing AMOS addition is **authority before action**.
 
 # 31. Metacognitive State
 
-\[
-\boxed{
-M_t=
-[
-Observation,
-Hypothesis,
-Goal,
-Constraints,
-Proposal,
-Confidence,
-Feedback
-]_t
-}
-\]
+$$\boxed{ M_t= [ Observation, Hypothesis, Goal, Constraints, Proposal, Confidence, Feedback ]_t }$$
 
 ---
 
@@ -1025,23 +715,11 @@ The source proposes 1,000 agents across ten domains.
 
 AMOS preserves this as an orchestration topology claim.
 
-\[
-\boxed{
-HoloOrg
-=
-MultiAgentTopology
-}
-\]
+$$\boxed{ HoloOrg = MultiAgentTopology }$$
 
 not:
 
-\[
-\boxed{
-HoloOrg
-=
-Validated1000AgentRuntime
-}
-\]
+$$\boxed{ HoloOrg = Validated1000AgentRuntime }$$
 
 until implementation evidence exists.
 
@@ -1051,34 +729,13 @@ until implementation evidence exists.
 
 Each agent must have:
 
-\[
-\boxed{
-Agent_i=
-(
-Role,
-Objective,
-Inputs,
-Tools,
-Authority,
-Budget,
-Dependencies,
-Stop,
-OutputSchema
-)
-}
-\]
+$$\boxed{ Agent_i= ( Role, Objective, Inputs, Tools, Authority, Budget, Dependencies, Stop, OutputSchema ) }$$
 
 ---
 
 # 35. Agent Authority Invariant
 
-\[
-\boxed{
-Authority(child)
-\subseteq
-Authority(parent)
-}
-\]
+$$\boxed{ Authority(child) \subseteq Authority(parent) }$$
 
 No delegation may widen authority.
 
@@ -1090,13 +747,7 @@ The source maps human goals to agent roles.
 
 AMOS refinement:
 
-\[
-\boxed{
-GoalMapping
-=
-Interpretation
-}
-\]
+$$\boxed{ GoalMapping = Interpretation }$$
 
 not truth.
 
@@ -1115,20 +766,7 @@ confirmation state
 
 # 37. Goal Tensor
 
-\[
-\boxed{
-G[
-Principal,
-Goal,
-Source,
-Scope,
-Priority,
-Confidence,
-Constraints,
-Status
-]
-}
-\]
+$$\boxed{ G[ Principal, Goal, Source, Scope, Priority, Confidence, Constraints, Status ] }$$
 
 ---
 
@@ -1160,15 +798,7 @@ No numeric symmetry alone establishes optimality.
 
 NeuroPAK is a device routing/orchestration adapter.
 
-\[
-\boxed{
-NeuroPAK
-:
-AuthorizedIntent
-\rightarrow
-DeviceCommand
-}
-\]
+$$\boxed{ NeuroPAK : AuthorizedIntent \rightarrow DeviceCommand }$$
 
 It should own:
 
@@ -1187,20 +817,7 @@ It should not own policy authority.
 
 # 40. Device Command Tensor
 
-\[
-\boxed{
-D[
-Principal,
-Device,
-Capability,
-Command,
-Authority,
-SafetyState,
-Time,
-Provenance
-]
-}
-\]
+$$\boxed{ D[ Principal, Device, Capability, Command, Authority, SafetyState, Time, Provenance ] }$$
 
 ---
 
@@ -1210,15 +827,7 @@ RATPAK is the physical-machine effect layer.
 
 This is one of the highest-risk parts of the source architecture.
 
-\[
-\boxed{
-RATPAK
-:
-AuthorizedAction
-\rightarrow
-PhysicalEffect
-}
-\]
+$$\boxed{ RATPAK : AuthorizedAction \rightarrow PhysicalEffect }$$
 
 AMOS requires strict separation between:
 
@@ -1234,35 +843,13 @@ effect verification
 
 # 42. Physical Effect Gate
 
-\[
-\boxed{
-Execute_{physical}(a)
-=
-IntentConfirmed
-\land
-AuthorityFresh
-\land
-PolicyPass
-\land
-SafetyPass
-\land
-EnvironmentPass
-\land
-EffectBound
-}
-\]
+$$\boxed{ Execute_{physical}(a) = IntentConfirmed \land AuthorityFresh \land PolicyPass \land SafetyPass \land EnvironmentPass \land EffectBound }$$
 
 ---
 
 # 43. Physical Action Invariant
 
-\[
-\boxed{
-NeuralSignal
-\not\Rightarrow
-DirectRobotCommand
-}
-\]
+$$\boxed{ NeuralSignal \not\Rightarrow DirectRobotCommand }$$
 
 A biological signal must never bypass:
 
@@ -1300,32 +887,13 @@ data-path enforcement
 
 # 45. FAR CAGE Boundary Tensor
 
-\[
-\boxed{
-B[
-Workload,
-Principal,
-Resource,
-Network,
-DataClass,
-KeyState,
-Policy,
-Audit
-]
-}
-\]
+$$\boxed{ B[ Workload, Principal, Resource, Network, DataClass, KeyState, Policy, Audit ] }$$
 
 ---
 
 # 46. Zero-Trust Invariant
 
-\[
-\boxed{
-InsideBoundary
-\neq
-Trusted
-}
-\]
+$$\boxed{ InsideBoundary \neq Trusted }$$
 
 Every request remains subject to:
 
@@ -1353,62 +921,23 @@ deployment risk checks
 
 AMOS separates:
 
-\[
-\boxed{
-Simulation
-\neq
-Prediction
-}
-\]
+$$\boxed{ Simulation \neq Prediction }$$
 
 and:
 
-\[
-\boxed{
-Prediction
-\neq
-Authority
-}
-\]
+$$\boxed{ Prediction \neq Authority }$$
 
 ---
 
 # 48. Governance Tensor
 
-\[
-\boxed{
-G[
-Proposal,
-Scenario,
-Risk,
-Stakeholder,
-Constraint,
-Authority,
-Rollback,
-Decision
-]
-}
-\]
+$$\boxed{ G[ Proposal, Scenario, Risk, Stakeholder, Constraint, Authority, Rollback, Decision ] }$$
 
 ---
 
 # 49. Governance Gate
 
-\[
-\boxed{
-Promote(change)
-=
-EvidencePass
-\land
-AuthorityPass
-\land
-RiskPass
-\land
-RollbackReady
-\land
-CompatibilityPass
-}
-\]
+$$\boxed{ Promote(change) = EvidencePass \land AuthorityPass \land RiskPass \land RollbackReady \land CompatibilityPass }$$
 
 ---
 
@@ -1436,48 +965,17 @@ They do not validate the technical stack by themselves.
 
 # 51. Measurement Firewall
 
-\[
-\boxed{
-TimeSaved
-\neq
-HumanBenefit
-}
-\]
+$$\boxed{ TimeSaved \neq HumanBenefit }$$
 
-\[
-\boxed{
-ProductivityGain
-\neq
-SafetyGain
-}
-\]
+$$\boxed{ ProductivityGain \neq SafetyGain }$$
 
-\[
-\boxed{
-Adoption
-\neq
-Correctness
-}
-\]
+$$\boxed{ Adoption \neq Correctness }$$
 
 ---
 
 # 52. Adoption Tensor
 
-\[
-\boxed{
-A[
-User,
-Capability,
-Training,
-Use,
-Outcome,
-Risk,
-Burden,
-Satisfaction
-]
-}
-\]
+$$\boxed{ A[ User, Capability, Training, Use, Outcome, Risk, Burden, Satisfaction ] }$$
 
 ---
 
@@ -1489,23 +987,11 @@ AMOS classifies this as a **regulated clinical domain projection**.
 
 Therefore:
 
-\[
-\boxed{
-HealthFlow
-\neq
-CoreControlPlane
-}
-\]
+$$\boxed{ HealthFlow \neq CoreControlPlane }$$
 
 and:
 
-\[
-\boxed{
-ClinicalAction
-\Rightarrow
-DomainSpecificClinicalValidation
-}
-\]
+$$\boxed{ ClinicalAction \Rightarrow DomainSpecificClinicalValidation }$$
 
 ---
 
@@ -1531,21 +1017,7 @@ prospective outcome evidence
 
 # 55. Clinical Tensor
 
-\[
-\boxed{
-H[
-Patient,
-Signal,
-ClinicalContext,
-Evidence,
-Recommendation,
-Clinician,
-Consent,
-Risk,
-Outcome
-]
-}
-\]
+$$\boxed{ H[ Patient, Signal, ClinicalContext, Evidence, Recommendation, Clinician, Consent, Risk, Outcome ] }$$
 
 ---
 
@@ -1555,13 +1027,7 @@ The source requires species-boundary respect.
 
 AMOS preserves this as a governance principle:
 
-\[
-\boxed{
-SpeciesDifference
-\Rightarrow
-ComparabilityCheck
-}
-\]
+$$\boxed{ SpeciesDifference \Rightarrow ComparabilityCheck }$$
 
 No human-derived state label should automatically transfer across species.
 
@@ -1569,16 +1035,7 @@ No human-derived state label should automatically transfer across species.
 
 # 57. Cross-Species Compatibility Mask
 
-\[
-\boxed{
-C[
-feature,
-species_A,
-species_B,
-status
-]
-}
-\]
+$$\boxed{ C[ feature, species_A, species_B, status ] }$$
 
 Possible status:
 
@@ -1593,13 +1050,7 @@ NONCOMPARABLE
 
 # 58. Cross-Species Invariant
 
-\[
-\boxed{
-HumanInterpretation
-\not\Rightarrow
-AnimalStateFact
-}
-\]
+$$\boxed{ HumanInterpretation \not\Rightarrow AnimalStateFact }$$
 
 Cross-species inference requires domain evidence.
 
@@ -1611,13 +1062,7 @@ The source proposes integration of Indigenous, Eastern, and ancestral knowledge 
 
 AMOS correction:
 
-\[
-\boxed{
-CrossCulturalTranslation
-\neq
-LosslessTranslation
-}
-\]
+$$\boxed{ CrossCulturalTranslation \neq LosslessTranslation }$$
 
 Cultural knowledge must preserve:
 
@@ -1636,31 +1081,11 @@ uncertainty
 
 # 60. Cross-Cultural Translation Tensor
 
-\[
-\boxed{
-T[
-sourceTradition,
-targetRepresentation,
-mapType,
-scope,
-regime,
-observer,
-status
-]
-}
-\]
+$$\boxed{ T[ sourceTradition, targetRepresentation, mapType, scope, regime, observer, status ] }$$
 
 Residual:
 
-\[
-\boxed{
-\epsilon_T
-=
-RequiredMeaning
--
-RecoverableMeaning
-}
-\]
+$$\boxed{ \epsilon_T = RequiredMeaning - RecoverableMeaning }$$
 
 If the residual is decision-changing, translation must be rejected for that use.
 
@@ -1702,23 +1127,13 @@ This is retained as the **desired transaction topology**.
 
 AMOS correction:
 
-\[
-\boxed{
-DeterministicGovernance
-+
-ProbabilisticWorkers
-}
-\]
+$$\boxed{ DeterministicGovernance + ProbabilisticWorkers }$$
 
 is compatible with AMOS.
 
 But:
 
-\[
-\boxed{
-EndToEndDeterminism
-}
-\]
+$$\boxed{ EndToEndDeterminism }$$
 
 cannot be claimed unless every relevant transition is deterministic under defined inputs, versions, environment, and state.
 
@@ -1795,21 +1210,7 @@ Validation must increase with effect class.
 
 Authority must be fresh at the moment of effect.
 
-\[
-\boxed{
-Commit(a)
-=
-ProposalValid
-\land
-AuthorityFresh
-\land
-ConsentFresh
-\land
-ConstraintFresh
-\land
-EffectStillMatches
-}
-\]
+$$\boxed{ Commit(a) = ProposalValid \land AuthorityFresh \land ConsentFresh \land ConstraintFresh \land EffectStillMatches }$$
 
 This prevents stale consent or stale context from authorizing later actions.
 
@@ -1817,21 +1218,7 @@ This prevents stale consent or stale context from authorizing later actions.
 
 # 66. Authority Witness Tensor
 
-\[
-\boxed{
-W[
-Principal,
-Action,
-Resource,
-Scope,
-Time,
-Purpose,
-Consent,
-Issuer,
-Status
-]
-}
-\]
+$$\boxed{ W[ Principal, Action, Resource, Scope, Time, Purpose, Consent, Issuer, Status ] }$$
 
 ---
 
@@ -1839,21 +1226,7 @@ Status
 
 Every significant object should preserve ancestry.
 
-\[
-\boxed{
-P=
-(
-origin,
-device,
-transform,
-model,
-policy,
-agent,
-tool,
-effect
-)
-}
-\]
+$$\boxed{ P= ( origin, device, transform, model, policy, agent, tool, effect ) }$$
 
 Example:
 
@@ -1873,13 +1246,7 @@ raw signal
 
 Multiple transformed outputs derived from the same signal are not independent evidence.
 
-\[
-\boxed{
-CommonAncestor(A,B)
-\Rightarrow
-Independence(A,B)<1
-}
-\]
+$$\boxed{ CommonAncestor(A,B) \Rightarrow Independence(A,B)<1 }$$
 
 This matters when several models appear to "agree" on one biological interpretation.
 
@@ -1887,25 +1254,7 @@ This matters when several models appear to "agree" on one biological interpretat
 
 # 69. RSCF Node
 
-\[
-\boxed{
-N=
-(
-id,
-type,
-HML,
-claim,
-scope,
-regime,
-time,
-observer,
-provenance,
-confidence,
-falsifier,
-status
-)
-}
-\]
+$$\boxed{ N= ( id, type, HML, claim, scope, regime, time, observer, provenance, confidence, falsifier, status ) }$$
 
 Example:
 
@@ -1923,19 +1272,7 @@ falsifier: independent labelled test contradicts classification
 
 # 70. RSCF Edge
 
-\[
-\boxed{
-E=
-(
-parent,
-child,
-edge\_type,
-load\_bearing,
-independence,
-condition
-)
-}
-\]
+$$\boxed{ E= ( parent, child, edge\_type, load\_bearing, independence, condition ) }$$
 
 Example:
 
@@ -1957,15 +1294,9 @@ sensor valid + model valid + scope compatible
 
 # 71. Confidence Ceiling
 
-For any conclusion \(C\):
+For any conclusion $C$:
 
-\[
-\boxed{
-Conf(C)
-\leq
-\min_i Conf(P_i)
-}
-\]
+$$\boxed{ Conf(C) \leq \min_i Conf(P_i) }$$
 
 for load-bearing premises unless independently revalidated.
 
@@ -1975,13 +1306,7 @@ Therefore low-confidence signal attribution cannot generate high-confidence inte
 
 # 72. Hard Admission Gate
 
-\[
-\boxed{
-Admit(x)
-=
-\bigwedge_i I_i(x)
-}
-\]
+$$\boxed{ Admit(x) = \bigwedge_i I_i(x) }$$
 
 Potential gates:
 
@@ -2003,15 +1328,7 @@ freshness valid
 
 If a premise fails:
 
-\[
-\boxed{
-Invalid(P)
-\Rightarrow
-Invalidate(
-LoadBearingDescendants(P)
-)
-}
-\]
+$$\boxed{ Invalid(P) \Rightarrow Invalidate( LoadBearingDescendants(P) ) }$$
 
 Example:
 
@@ -2029,37 +1346,13 @@ Feedback is not automatically learning.
 
 A repair loop is:
 
-\[
-\boxed{
-Observe
-\rightarrow
-DetectMismatch
-\rightarrow
-Localize
-\rightarrow
-Repair
-\rightarrow
-Revalidate
-}
-\]
+$$\boxed{ Observe \rightarrow DetectMismatch \rightarrow Localize \rightarrow Repair \rightarrow Revalidate }$$
 
 ---
 
 # 75. Repair Tensor
 
-\[
-\boxed{
-R[
-Failure,
-Target,
-Intervention,
-Effect,
-Validation,
-Rollback,
-Status
-]
-}
-\]
+$$\boxed{ R[ Failure, Target, Intervention, Effect, Validation, Rollback, Status ] }$$
 
 ---
 
@@ -2067,13 +1360,7 @@ Status
 
 If identity, consent, translation, or authority becomes uncertain:
 
-\[
-\boxed{
-CriticalUnknown
-\Rightarrow
-NO\_HIGH\_CONSEQUENCE\_EFFECT
-}
-\]
+$$\boxed{ CriticalUnknown \Rightarrow NO\_HIGH\_CONSEQUENCE\_EFFECT }$$
 
 Possible outcomes:
 
@@ -2091,19 +1378,7 @@ DENY
 
 A constraint introduced at an upstream layer must remain active downstream.
 
-\[
-\boxed{
-Constraint_H
-\rightarrow
-Signal
-\rightarrow
-Translation
-\rightarrow
-Agent
-\rightarrow
-Effect
-}
-\]
+$$\boxed{ Constraint_H \rightarrow Signal \rightarrow Translation \rightarrow Agent \rightarrow Effect }$$
 
 No lower layer may silently drop it.
 
@@ -2113,46 +1388,13 @@ No lower layer may silently drop it.
 
 The full Signal Economy™ state can be represented:
 
-\[
-\boxed{
-\mathcal{S}
-[
-Principal,
-Signal,
-Identity,
-Consent,
-Translation,
-Intent,
-Agent,
-Policy,
-Effect,
-Feedback,
-Provenance
-]
-}
-\]
+$$\boxed{ \mathcal{S} [ Principal, Signal, Identity, Consent, Translation, Intent, Agent, Policy, Effect, Feedback, Provenance ] }$$
 
 ---
 
 # 79. Risk Tensor
 
-\[
-\boxed{
-\mathcal{R}
-[
-Privacy,
-Identity,
-Consent,
-Inference,
-Clinical,
-Physical,
-Security,
-Cultural,
-Operational,
-Governance
-]
-}
-\]
+$$\boxed{ \mathcal{R} [ Privacy, Identity, Consent, Inference, Clinical, Physical, Security, Cultural, Operational, Governance ] }$$
 
 A critical risk dimension may block execution regardless of the average.
 
@@ -2160,34 +1402,13 @@ A critical risk dimension may block execution regardless of the average.
 
 # 80. Uncertainty Tensor
 
-\[
-\boxed{
-U=
-[
-Signal,
-Identity,
-Translation,
-Intent,
-Scope,
-Temporal,
-Causal,
-Execution,
-Provenance
-]
-}
-\]
+$$\boxed{ U= [ Signal, Identity, Translation, Intent, Scope, Temporal, Causal, Execution, Provenance ] }$$
 
 ---
 
 # 81. Uncertainty Invariant
 
-\[
-\boxed{
-Uncertainty\uparrow
-\Rightarrow
-AutonomousConsequence\downarrow
-}
-\]
+$$\boxed{ Uncertainty\uparrow \Rightarrow AutonomousConsequence\downarrow }$$
 
 for high-impact action.
 
@@ -2263,18 +1484,7 @@ I30  Human-first mission cannot substitute for executable safety.
 
 ### E01 — Master Governed Action
 
-\[
-\boxed{
-A_t
-=
-Commit_G(
-Verify(
-Authorize(
-Interpret(
-Observe(S_t)
-))))
-}
-\]
+$$\boxed{ A_t = Commit_G( Verify( Authorize( Interpret( Observe(S_t) )))) }$$
 
 **Class:** AMOS_MODEL
 
@@ -2282,18 +1492,7 @@ Observe(S_t)
 
 ### E02 — Intent Inference
 
-\[
-\boxed{
-Intent
-=
-Infer(
-Signal,
-Context,
-UserInput,
-History
-)
-}
-\]
+$$\boxed{ Intent = Infer( Signal, Context, UserInput, History ) }$$
 
 **Class:** MODEL
 
@@ -2301,21 +1500,7 @@ History
 
 ### E03 — Permission
 
-\[
-\boxed{
-Permit(a)
-=
-ConsentValid
-\land
-AuthorityValid
-\land
-PolicyValid
-\land
-ResourceMatch
-\land
-PurposeMatch
-}
-\]
+$$\boxed{ Permit(a) = ConsentValid \land AuthorityValid \land PolicyValid \land ResourceMatch \land PurposeMatch }$$
 
 **Class:** AMOS_CONTROL_MODEL
 
@@ -2323,11 +1508,7 @@ PurposeMatch
 
 ### E04 — Translation
 
-\[
-\boxed{
-y=T_{a\rightarrow b}(x)
-}
-\]
+$$\boxed{ y=T_{a\rightarrow b}(x) }$$
 
 **Class:** AMOS_MODEL
 
@@ -2335,15 +1516,7 @@ y=T_{a\rightarrow b}(x)
 
 ### E05 — Translation Residual
 
-\[
-\boxed{
-\epsilon_T
-=
-RequiredStructure(x)
--
-RecoverableStructure(y)
-}
-\]
+$$\boxed{ \epsilon_T = RequiredStructure(x) - RecoverableStructure(y) }$$
 
 **Class:** AMOS_MODEL
 
@@ -2351,19 +1524,7 @@ RecoverableStructure(y)
 
 ### E06 — Identity Admission
 
-\[
-\boxed{
-Admit(Identity)
-=
-LivenessPass
-\land
-BindingPass
-\land
-FreshnessPass
-\land
-IntegrityPass
-}
-\]
+$$\boxed{ Admit(Identity) = LivenessPass \land BindingPass \land FreshnessPass \land IntegrityPass }$$
 
 **Class:** CONTROL_MODEL
 
@@ -2371,23 +1532,7 @@ IntegrityPass
 
 ### E07 — Physical Effect
 
-\[
-\boxed{
-Execute_{physical}
-=
-IntentConfirmed
-\land
-AuthorityFresh
-\land
-PolicyPass
-\land
-SafetyPass
-\land
-EnvironmentPass
-\land
-EffectBound
-}
-\]
+$$\boxed{ Execute_{physical} = IntentConfirmed \land AuthorityFresh \land PolicyPass \land SafetyPass \land EnvironmentPass \land EffectBound }$$
 
 **Class:** CONTROL_MODEL
 
@@ -2395,21 +1540,7 @@ EffectBound
 
 ### E08 — Commit
 
-\[
-\boxed{
-Commit(a)
-=
-ProposalValid
-\land
-AuthorityFresh
-\land
-ConsentFresh
-\land
-ConstraintFresh
-\land
-EffectStillMatches
-}
-\]
+$$\boxed{ Commit(a) = ProposalValid \land AuthorityFresh \land ConsentFresh \land ConstraintFresh \land EffectStillMatches }$$
 
 **Class:** CONTROL_MODEL
 
@@ -2417,13 +1548,7 @@ EffectStillMatches
 
 ### E09 — Admission
 
-\[
-\boxed{
-Admit(x)
-=
-\bigwedge_i I_i(x)
-}
-\]
+$$\boxed{ Admit(x) = \bigwedge_i I_i(x) }$$
 
 **Class:** AMOS_CONTROL_MODEL
 
@@ -2431,13 +1556,7 @@ Admit(x)
 
 ### E10 — Confidence Ceiling
 
-\[
-\boxed{
-Conf(C)
-\leq
-\min Conf(P_i)
-}
-\]
+$$\boxed{ Conf(C) \leq \min Conf(P_i) }$$
 
 **Class:** AMOS_CONTROL_MODEL
 
@@ -2447,184 +1566,57 @@ Conf(C)
 
 ### T01 — Mandatory AMOS State
 
-\[
-T[o,p,s,t,r,v,g,e,c,k]
-\]
+$$T[o,p,s,t,r,v,g,e,c,k]$$
 
 ### T02 — Relation
 
-\[
-R[i,j,relation\_type,time,regime,provenance]
-\]
+$$R[i,j,relation\_type,time,regime,provenance]$$
 
 ### T03 — Signal
 
-\[
-S[
-Principal,
-Device,
-Modality,
-Timestamp,
-RawSignal,
-Quality,
-Consent,
-Provenance
-]
-\]
+$$S[ Principal, Device, Modality, Timestamp, RawSignal, Quality, Consent, Provenance ]$$
 
 ### T04 — Identity
 
-\[
-U[
-Principal,
-SignalSource,
-Liveness,
-IdentityBinding,
-Confidence,
-Method,
-Time,
-Provenance
-]
-\]
+$$U[ Principal, SignalSource, Liveness, IdentityBinding, Confidence, Method, Time, Provenance ]$$
 
 ### T05 — Consent
 
-\[
-C[
-Issuer,
-Recipient,
-Resource,
-Action,
-Purpose,
-Scope,
-ValidFrom,
-ValidUntil,
-Status
-]
-\]
+$$C[ Issuer, Recipient, Resource, Action, Purpose, Scope, ValidFrom, ValidUntil, Status ]$$
 
 ### T06 — Translation
 
-\[
-T[
-Source,
-Target,
-MapType,
-Scope,
-Regime,
-Observer,
-Status
-]
-\]
+$$T[ Source, Target, MapType, Scope, Regime, Observer, Status ]$$
 
 ### T07 — Goal
 
-\[
-G[
-Principal,
-Goal,
-Source,
-Scope,
-Priority,
-Confidence,
-Constraints,
-Status
-]
-\]
+$$G[ Principal, Goal, Source, Scope, Priority, Confidence, Constraints, Status ]$$
 
 ### T08 — Agent
 
-\[
-A[
-Role,
-Objective,
-Inputs,
-Tools,
-Authority,
-Budget,
-Dependencies,
-Stop,
-Status
-]
-\]
+$$A[ Role, Objective, Inputs, Tools, Authority, Budget, Dependencies, Stop, Status ]$$
 
 ### T09 — Device Command
 
-\[
-D[
-Principal,
-Device,
-Capability,
-Command,
-Authority,
-SafetyState,
-Time,
-Provenance
-]
-\]
+$$D[ Principal, Device, Capability, Command, Authority, SafetyState, Time, Provenance ]$$
 
 ### T10 — Governance
 
-\[
-Gv[
-Proposal,
-Scenario,
-Risk,
-Stakeholder,
-Constraint,
-Authority,
-Rollback,
-Decision
-]
-\]
+$$Gv[ Proposal, Scenario, Risk, Stakeholder, Constraint, Authority, Rollback, Decision ]$$
 
 ### T11 — Risk
 
-\[
-Rk[
-Privacy,
-Identity,
-Consent,
-Inference,
-Clinical,
-Physical,
-Security,
-Cultural,
-Operational,
-Governance
-]
-\]
+$$Rk[ Privacy, Identity, Consent, Inference, Clinical, Physical, Security, Cultural, Operational, Governance ]$$
 
 ### T12 — Uncertainty
 
-\[
-Uq[
-Signal,
-Identity,
-Translation,
-Intent,
-Scope,
-Temporal,
-Causal,
-Execution,
-Provenance
-]
-\]
+$$Uq[ Signal, Identity, Translation, Intent, Scope, Temporal, Causal, Execution, Provenance ]$$
 
 ---
 
 # 85. Compatibility Mask
 
-\[
-\boxed{
-C[
-feature,
-source,
-target,
-status
-]
-}
-\]
+$$\boxed{ C[ feature, source, target, status ] }$$
 
 Examples:
 
@@ -2769,71 +1761,21 @@ effectiveness, and end-to-end determinism until independently tested.
 
 # 88. Final AMOS Architecture
 
-\[
-\boxed{
-Signal
-\rightarrow
-Provenance
-\rightarrow
-IdentityEvidence
-\rightarrow
-Consent
-\rightarrow
-Translation
-\rightarrow
-Hypothesis
-\rightarrow
-IntentConfirmation
-\rightarrow
-AgentProposal
-\rightarrow
-Policy
-\rightarrow
-Commit
-\rightarrow
-Effect
-\rightarrow
-Feedback
-\rightarrow
-Repair
-}
-\]
+$$\boxed{ Signal \rightarrow Provenance \rightarrow IdentityEvidence \rightarrow Consent \rightarrow Translation \rightarrow Hypothesis \rightarrow IntentConfirmation \rightarrow AgentProposal \rightarrow Policy \rightarrow Commit \rightarrow Effect \rightarrow Feedback \rightarrow Repair }$$
 
 The strongest AMOS-compatible interpretation of **The Signal Economy™** is not:
 
-\[
-\boxed{
-Biology
-\rightarrow
-DeterministicAuthority
-}
-\]
+$$\boxed{ Biology \rightarrow DeterministicAuthority }$$
 
 It is:
 
-\[
-\boxed{
-BiologicalSignal
-\rightarrow
-GovernedEvidence
-\rightarrow
-BoundedInference
-\rightarrow
-FreshAuthority
-\rightarrow
-VerifiedEffect
-}
-\]
+$$\boxed{ BiologicalSignal \rightarrow GovernedEvidence \rightarrow BoundedInference \rightarrow FreshAuthority \rightarrow VerifiedEffect }$$
 
 The architecture is strongest when its control plane remains deterministic where possible while admitting that signal interpretation, human-state inference, future simulation, and many biological mappings may remain probabilistic or uncertain.
 
 The governing invariant is:
 
-\[
-\boxed{
-NoSignalMayAcquireMoreAuthorityThanItsEvidenceSupports.
-}
-\]
+$$\boxed{ NoSignalMayAcquireMoreAuthorityThanItsEvidenceSupports. }$$
 
 ---
 

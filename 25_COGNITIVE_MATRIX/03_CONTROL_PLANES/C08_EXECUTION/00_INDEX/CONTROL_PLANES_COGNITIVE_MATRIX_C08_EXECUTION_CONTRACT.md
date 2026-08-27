@@ -1,9 +1,14 @@
 ---
 title: CONTROL PLANES COGNITIVE MATRIX C08 EXECUTION CONTRACT
 type: control-plane
-tags: [cognitive_matrix, c08_execution]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION/00_INDEX
+tags: [cognitive_matrix, c08_execution, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # CONTROL PLANES COGNITIVE MATRIX C08 EXECUTION CONTRACT
@@ -78,3 +83,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

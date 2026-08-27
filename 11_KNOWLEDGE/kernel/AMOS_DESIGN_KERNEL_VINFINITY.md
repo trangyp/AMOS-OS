@@ -1,11 +1,17 @@
 ---
 title: "AMOS Design Kernel vInfinity"
 type: kernel
+source: 11_KNOWLEDGE/kernel
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Design_Kernel_v0.json (582 lines, 17KB)"
 origin_type: "SOURCE"
 category: "kernel"
-tags: [amos, design, kernel, v-infinity, visual, ux, product, service, org, business, market, planetary, x100k]
+tags: [amos, design, kernel, v-infinity, visual, ux, product, service, org, business, market, planetary, x100k, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 

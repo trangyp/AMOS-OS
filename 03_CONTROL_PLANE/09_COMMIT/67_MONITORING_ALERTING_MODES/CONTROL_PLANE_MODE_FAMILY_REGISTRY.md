@@ -1,9 +1,14 @@
 ---
 title: CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
-tags: [control_plane, 67_monitoring_alerting_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/67_MONITORING_ALERTING_MODES
+tags: [control_plane, 67_monitoring_alerting_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # CONTROL PLANE MODE FAMILY REGISTRY
@@ -74,3 +79,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[67_MONITORING_ALERTING_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

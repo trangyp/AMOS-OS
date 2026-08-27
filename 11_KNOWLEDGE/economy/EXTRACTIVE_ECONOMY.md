@@ -3,9 +3,13 @@ title: EXTRACTIVE ECONOMY
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/extractive-economy, economy]
 type: document
 source: 11_KNOWLEDGE/economy
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: economic_model
+
 ---
-
-
 
 
 ============================================================
@@ -11831,7 +11835,6 @@ END OF PART 5/60
     }
   }
 }
-
 
 
 - [[00_COSMO_BRAIN_MOC]]

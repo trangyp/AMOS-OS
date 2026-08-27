@@ -1,6 +1,7 @@
 ---
 title: "Origin Architect Authority"
 type: authority
+source: 03_CONTROL_PLANE/04_AUTHORITY
 artifact: "ORIGIN_ARCHITECT_AUTHORITY.md"
 artifact_id: "amos_03_control_plane_04_authority_origin_architect_authority"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "03_CONTROL_PLANE/04_AUTHORITY"
 artifact_kind: "ARTIFACT"
 path: "03_CONTROL_PLANE/04_AUTHORITY/ORIGIN_ARCHITECT_AUTHORITY.md"
 
-tags: [amos_os, control_plane, governance, 03_control_plane, artifact, canon_placeholder, rscf]
+tags: [amos_os, control_plane, governance, 03_control_plane, artifact, canon_placeholder, rscf, canon/control-plane]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: authority_governance
 ---
-
 
 
 # Origin Architect Authority

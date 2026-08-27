@@ -2,9 +2,15 @@
 title: "2026-08-25 QFM Pass 3 — Dependency Integrity"
 created: 2026-08-25
 type: session-report
+source: 11_KNOWLEDGE/dated
 epistemic_label: SOURCE (audit results)
 status: complete
-tags: [dated, dated/2026-08-25]
+tags: [dated, dated/2026-08-25, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
 
 

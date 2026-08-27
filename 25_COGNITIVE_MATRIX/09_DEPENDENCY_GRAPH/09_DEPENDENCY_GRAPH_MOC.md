@@ -1,8 +1,15 @@
 ---
 title: "09 Dependency Graph MOC"
 type: moc
-tags: [moc, 09-dependency-graph]
+source: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH
+tags: [moc, 09-dependency-graph, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 09 Dependency Graph — Map of Content
 

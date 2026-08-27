@@ -1,8 +1,15 @@
 ---
 title: "Mckinsey-Public-Sector-Transformation-Rscf MOC"
 type: moc
-tags: [moc, mckinsey-public-sector-transformation-rs]
+source: 07_SKILLS/mckinsey-public-sector-transformation-rscf
+tags: [moc, mckinsey-public-sector-transformation-rs, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Mckinsey-Public-Sector-Transformation-Rscf — Map of Content
 

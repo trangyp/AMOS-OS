@@ -1,9 +1,14 @@
 ---
 title: MODALITY TRANSLATION MODES COMMIT CONTROL PLANE README
 type: control-plane
-tags: [control_plane, 70_modality_translation_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/70_MODALITY_TRANSLATION_MODES
+tags: [control_plane, 70_modality_translation_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # MODALITY TRANSLATION MODES COMMIT CONTROL PLANE README
@@ -61,3 +66,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[70_MODALITY_TRANSLATION_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

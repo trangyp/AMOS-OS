@@ -1,12 +1,15 @@
 ---
 title: TAI LIEU THIET KE KY THUAT HE THONG AMOS IKONOMY
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
-
 
 
 # **TÀI LIỆU THIẾT KẾ KỸ THUẬT HỆ THỐNG AMOS–IKONOMY**
@@ -1633,9 +1636,7 @@ Bạn chỉ được phép viết theo 2 lớp: **(i) số đã đo** , **(ii) m
 ## **5.2. LCOH proxy (chỉ số so sánh nhanh, không thay thế LCA đầy đủ)**
 Để so sánh các phương án thiết kế và vận hành **khi chưa có phân tích vòng đời (LCA) hoàn chỉnh** , sử dụng chỉ số **LCOH proxy** với công thức đã được chuẩn hóa, dễ hiểu và dễ kiểm toán.
 ### **Định nghĩa sản lượng hiệu dụng**
-$$
-Q_{eff}=Q_{H2}\cdot U
-$$
+$$Q_{eff}=Q_{H2}\cdot U$$
 Trong đó:
   * $Q_{H2}$: sản lượng hydro danh định theo giờ (đo thực tế, tại điều kiện chuẩn đã khai báo).
 
@@ -1644,9 +1645,7 @@ Trong đó:
 
 
 ### **Công thức LCOH proxy**
-$$
-LCOH_{proxy}=\frac{C_{elec,h}+C_{cap,h}+C_{maint,h}}{Q_{eff}}
-$$
+$$LCOH_{proxy}=\frac{C_{elec,h}+C_{cap,h}+C_{maint,h}}{Q_{eff}}$$
 Với các thành phần chi phí:
   * $C_{elec,h}=P_{in}\cdot c_{kWh}$
 (chi phí điện theo giờ, từ công suất điện vào và giá điện)

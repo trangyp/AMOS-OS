@@ -3,10 +3,14 @@ title: AMOS CONVERSATION SNAPSHOT
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/state/observation, topic/amos-conversation-snapshot, amos-general]
 type: data
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
-
+# AMOS CONVERSATION SNAPSHOT
 
 ```json
 {

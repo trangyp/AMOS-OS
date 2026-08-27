@@ -1,9 +1,14 @@
 ---
 title: INDEX OPERATIONS README
 type: index
-tags: [amos_os, 20_operations]
+source: 20_OPERATIONS/00_INDEX
+tags: [amos_os, 20_operations, canon/operations]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INDEX OPERATIONS README

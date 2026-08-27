@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — AMOS backup/01_BRAIN/OPERATIONAL_STATUS.md"
 origin_architect: "AMOS Brain Supreme system"
 type: system-report
+source: 11_KNOWLEDGE/brain
 tags: [canon-group/meta, canon/model, rscf/claim, rscf/provenance, rscf/state/observation, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/X-crossscale, topic/amos-brain-supreme-operational-status, brain]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
 ---
 
 
@@ -78,3 +84,6 @@ R = Σ w_k X_k  (deterministic risk scoring)
 
 ---
 **MOC:** [[BRAIN_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

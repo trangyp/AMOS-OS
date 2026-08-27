@@ -1,9 +1,14 @@
 ---
 title: C02 MATH COMPUTE DOMAINS README
 type: math
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/12_C02_MATH_COMPUTE
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # C02 MATH COMPUTE DOMAINS README

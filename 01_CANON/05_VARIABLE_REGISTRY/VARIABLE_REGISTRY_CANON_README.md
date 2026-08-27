@@ -1,9 +1,14 @@
 ---
 title: VARIABLE REGISTRY CANON README
 type: canon
-tags: [amos_os, 01_canon]
+source: 01_CANON/05_VARIABLE_REGISTRY
+tags: [amos_os, 01_canon, canon/universe]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # VARIABLE REGISTRY CANON README
@@ -63,3 +68,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[05_VARIABLE_REGISTRY_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

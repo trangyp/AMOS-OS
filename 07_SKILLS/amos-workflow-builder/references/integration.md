@@ -1,8 +1,15 @@
 ---
 title: integration
 type: reference
-tags: [reference, amos-workflow-builder]
+source: 07_SKILLS/amos-workflow-builder/references
+tags: [reference, amos-workflow-builder, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Workflow Builder Integration Contracts
 
@@ -77,3 +84,7 @@ This ensures the workflow is executable by the bound agent.
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

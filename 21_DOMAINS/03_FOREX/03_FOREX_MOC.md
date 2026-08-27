@@ -1,8 +1,15 @@
 ---
 title: "03 Forex MOC"
 type: moc
-tags: [moc, 03-forex]
+source: 21_DOMAINS/03_FOREX
+tags: [moc, 03-forex, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 03 Forex — Map of Content
 

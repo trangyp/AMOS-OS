@@ -1,8 +1,15 @@
 ---
 title: "Amos-Information-Exposure-Control MOC"
 type: moc
-tags: [moc, amos-information-exposure-control]
+source: 07_SKILLS/amos-information-exposure-control
+tags: [moc, amos-information-exposure-control, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Information-Exposure-Control — Map of Content
 

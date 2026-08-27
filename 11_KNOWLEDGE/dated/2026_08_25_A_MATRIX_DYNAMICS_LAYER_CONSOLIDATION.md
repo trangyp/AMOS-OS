@@ -1,9 +1,15 @@
 ---
 title: 2026-08-25 A-Matrix Dynamics Layer Consolidation
 type: daily-learning
+source: 11_KNOWLEDGE/dated
 date: 2026-08-25
 epistemic: SOURCE/DERIVED
-tags: [math, 19x19, a-matrix, system-dynamics, qfm, dated, dated/2026-08-25]
+tags: [math, 19x19, a-matrix, system-dynamics, qfm, dated, dated/2026-08-25, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
 
 

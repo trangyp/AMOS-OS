@@ -1,8 +1,15 @@
 ---
 title: "RSCF STRUCTURAL TAG MIGRATION"
 type: rscf
-tags: [canon, rscf, epistemic]
+source: 11_KNOWLEDGE/rscf
+tags: [canon, rscf, epistemic, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: epistemic_framework
 ---
+
 
 # RSCF Structural Tag Migration
 
@@ -737,7 +744,7 @@ The source migration checks the first frontmatter-style tags line:
 
 ```python
 tags_match = re.search(
-    r'^tags: \[([^\]]+)\]',
+    r'^tags: $$([^$$]+)$$',
     content,
     re.MULTILINE,
 )

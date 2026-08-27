@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-arxiv-agent-memory-dynamics-rscf]
+source: 07_SKILLS/amos-arxiv-agent-memory-dynamics-rscf/references
+tags: [reference, amos-arxiv-agent-memory-dynamics-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -412,3 +419,4 @@ Equations are preserved with their source/framework status. AMOS MODEL equations
 
 ---
 **MOC:** [[references_MOC]]
+```

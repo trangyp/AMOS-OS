@@ -1,6 +1,7 @@
 ---
 title: K LAW HIERARCHY
 type: law
+source: 02_KERNEL/01_META_LOGIC
 artifact_id: AMOS-OS-K-LAW-HIERARCHY
 canonical_name: K_LAW_HIERARCHY
 artifact_type: kernel_governance_contract
@@ -25,8 +26,6 @@ aliases: "- AMOS Law Hierarchy Kernel
   - Law Hierarchy Kernel
   - K Law Hierarchy
   - K_LAW_HIERARCHY..."---
-
-
 
 
 # K_LAW_HIERARCHY
@@ -62,8 +61,13 @@ The kernel prevents arbitrary conflict resolution.
 It does **not** create authority.
 
 It evaluates authority and precedence already established through AMOS canon and governance structures.
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 1. Core Law
 

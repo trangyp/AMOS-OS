@@ -3,10 +3,14 @@ title: AMOS CONTROL SYSTEMS KERNEL V0 MATH FOUNDATIONS
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-control-systems-kernel-v0, math]
 type: data
 source: 11_KNOWLEDGE/math
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: mathematical_model
+
 ---
-
-
-
+# AMOS CONTROL SYSTEMS KERNEL V0 MATH FOUNDATIONS
 
 ```json
 {

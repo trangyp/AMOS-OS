@@ -1,8 +1,15 @@
 ---
 title: ethical intelligence
 type: reference
-tags: [reference, amos-rscf-epistemic-master]
+source: 07_SKILLS/amos-rscf-epistemic-master/references
+tags: [reference, amos-rscf-epistemic-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Ethical Intelligence
 
@@ -319,3 +326,7 @@ ol > li {
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

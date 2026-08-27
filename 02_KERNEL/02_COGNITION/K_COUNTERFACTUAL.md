@@ -1,6 +1,7 @@
 ---
 title: K COUNTERFACTUAL
 type: note
+source: 02_KERNEL/02_COGNITION
 artifact_id: AMOS-OS-K-COUNTERFACTUAL
 canonical_name: K_COUNTERFACTUAL
 artifact_type: kernel_counterfactual_contract
@@ -25,8 +26,6 @@ aliases: "- AMOS Counterfactual Kernel
   - Counterfactual Kernel
   - K Counterfactual
   - K_COUNTERFACTUAL..."---
-
-
 
 
 # K_COUNTERFACTUAL
@@ -65,8 +64,13 @@ Counterfactual reasoning is used for:
 * scenario discrimination
 
 It must never convert an imagined alternative into evidence that the alternative actually occurred.
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 1. Architectural Position
 

@@ -1,12 +1,15 @@
 ---
 title: BAO CAO FS PHUONG AN 20 XE PLUS 2 TRU 60 KW
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **BÁO CÁO FS – PHƯƠNG ÁN 20 XE + 2 TRỤ 60 kW**

@@ -1,14 +1,19 @@
 ---
 title: SYSTEM SCHEMA
 type: schema
+source: 11_KNOWLEDGE/system
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: system-schema
 tags: [canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/system-schema, system]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
 ---
-
 
 
 # System Schema
@@ -30,3 +35,6 @@ created: 2026-08-22
 
 ---
 **MOC:** [[SYSTEM_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,12 +1,15 @@
 ---
 title: NEU DON GIAN VAY TAI SAO CO CON NGUOI CAI CAY C
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # Nếu đơn giản vậy, tại sao có con người, cái cây, con cá, và cả cái bàn, cái ghế, cái bếp, các chất hóa học?
@@ -90,9 +93,8 @@ Trong văn hóa phương Đông, **Tam tài** (Trời – Đất – Người) c
 Trong tự nhiên, **L = Đất** (nền tảng), **H = Trời** (ánh sáng, nhiệt, mưa), **M = Khí quyển, hệ sinh thái** – cầu nối. Không có khí quyển (M), trời và đất không thể tương tác, không có sự sống.
 * * *
 ### 4\. Tóm tắt – Công thức "Tam sinh vạn vật" theo Trang ∅ Framework
-\\[  
-\text{Vạn vật} = f(\text{L, M, H}, \Lambda, E, t)  
-\\]
+\$$\text{Vạn vật} = f(\text{L, M, H}, \Lambda, E, t)  
+$$
 Trong đó:
   * **L** = nền, ổn định, Λ thấp, E thấp (Đất, vật chất, ruột, quá khứ)
 

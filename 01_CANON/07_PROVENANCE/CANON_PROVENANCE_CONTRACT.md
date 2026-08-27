@@ -1,9 +1,14 @@
 ---
 title: CANON PROVENANCE CONTRACT
 type: canon
-tags: [amos_os, 01_canon]
+source: 01_CANON/07_PROVENANCE
+tags: [amos_os, 01_canon, canon/universe]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # CANON PROVENANCE CONTRACT
@@ -75,3 +80,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[07_PROVENANCE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

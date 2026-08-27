@@ -1,6 +1,7 @@
 ---
 title: K MEMORY RETRIEVAL
 type: memory
+source: 02_KERNEL/05_MEMORY
 artifact_id: AMOS-OS-K-MEMORY-RETRIEVAL
 canonical_name: K_MEMORY_RETRIEVAL
 artifact_type: kernel_memory_retrieval_contract
@@ -14,10 +15,13 @@ kernel_family: MEMORY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags: [amos-os, kernel, core, canon-group/tech-ai, kernel/memory, kernel/memory-retrieval, kernel/context, kernel/provenance, kernel/dependency, kernel/conflict, kernel/epistemic-integrity, rscf/retrieval, rscf/memory, rscf/provenance, rscf/dependency, hml, topic/selective-retrieval, topic/dependency-closure, topic/freshness, topic/regime, topic/context-relevance]
+tags: [amos-os, kernel, core, canon-group/tech-ai, kernel/memory, kernel/memory-retrieval, kernel/context, kernel/provenance, kernel/dependency, kernel/conflict, kernel/epistemic-integrity, rscf/retrieval, rscf/memory, rscf/provenance, rscf/dependency, hml, topic/selective-retrieval, topic/dependency-closure, topic/freshness, topic/regime, topic/context-relevance, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
-
 
 
 # K MEMORY RETRIEVAL

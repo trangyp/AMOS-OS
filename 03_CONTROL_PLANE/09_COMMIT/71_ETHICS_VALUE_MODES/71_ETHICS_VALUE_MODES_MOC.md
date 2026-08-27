@@ -1,8 +1,15 @@
 ---
 title: "71 Ethics Value Modes MOC"
 type: moc
-tags: [moc, 71-ethics-value-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/71_ETHICS_VALUE_MODES
+tags: [moc, 71-ethics-value-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 71 Ethics Value Modes — Map of Content
 

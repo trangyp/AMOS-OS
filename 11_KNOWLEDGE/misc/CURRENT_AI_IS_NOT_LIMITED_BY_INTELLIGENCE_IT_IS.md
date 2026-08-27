@@ -1,12 +1,15 @@
 ---
 title: CURRENT AI IS NOT LIMITED BY INTELLIGENCE IT IS
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **Current AI is not limited by intelligence — it is limited by the absence of enforceable constraints that make outputs reliably correct.**

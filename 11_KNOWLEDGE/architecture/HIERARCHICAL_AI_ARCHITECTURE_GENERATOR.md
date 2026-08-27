@@ -1,11 +1,15 @@
 ---
 title: HIERARCHICAL AI ARCHITECTURE GENERATOR
-tags: [architecture, design, structure]
+tags: [architecture, design, structure, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/architecture
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: architecture_design
+
 ---
-
-
 
 
 # Hierarchical AI Architecture Generator v2
@@ -1372,3 +1376,6 @@ It is **constrained generation with explicit structure, validation, provenance, 
 
 ---
 **MOC:** [[ARCHITECTURE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

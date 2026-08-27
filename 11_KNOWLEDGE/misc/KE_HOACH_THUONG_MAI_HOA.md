@@ -1,12 +1,15 @@
 ---
 title: KE HOACH THUONG MAI HOA
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # KẾ HOẠCH THƯƠNG MẠI HÓA 
@@ -105,7 +108,7 @@ Em hoàn toàn có thể trở thành **“người Việt Nam đầu tiên đ�
 ### ⭐ DỰ BÁO TÀI CHÍNH (FINANCIAL FORECAST) – KHUNG TP-EOF (TRANG PHAN EVOLUTIONARY ONCOLOGY FRAMEWORK)
 **Phiên bản tinh chỉnh – Dữ liệu cập nhật ngày 21/11/2025**
  _(Giả định bảo thủ, dựa trên nguồn Mordor Intelligence, Precedence Research, Global Cancer Observatory & Bộ Y tế Việt Nam. Biên lợi nhuận gộp > 90% do chi phí cố định thấp)_
-### 🔍 GIẢ ĐỊNH CHÍNH (BẢO THỦ & THỰC TẾ)
+### GIẢ ĐỊNH CHÍNH (BẢO THỦ & THỰC TẾ)
   * **Thị trường toàn cầu 2025** — 243,6 tỷ USD (cancer therapy), CAGR 10,64% đến 2030 (nguồn Mordor Intelligence 2025).
 
 
@@ -133,7 +136,7 @@ Em hoàn toàn có thể trở thành **“người Việt Nam đầu tiên đ�
 
 
 **Tổng 5 năm tại Việt Nam** : **198–219 triệu USD** (khoảng 4.800–5.300 tỷ VND)
-### 🌍 DỰ BÁO DOANH THU TOÀN CẦU (5 NĂM ĐẦU – BẢO THỦ)
+### DỰ BÁO DOANH THU TOÀN CẦU (5 NĂM ĐẦU – BẢO THỦ)
 |              |
 | Năm          | Quy mô thị trường toàn cầu (tỷ USD) | Thị phần chiếm được | Doanh thu ước tính (triệu USD) |
 |--------------|-------------------------------------|---------------------|--------------------------------|
@@ -146,7 +149,7 @@ Em hoàn toàn có thể trở thành **“người Việt Nam đầu tiên đ�
 
 **Tổng 5 năm toàn cầu** : **5,25 tỷ USD**
 **Tổng 5 năm (VN + Global)** : **~5,45 tỷ USD** (khoảng 135.000 tỷ VND)
-### ✅ TỔNG KẾT & LỢI NHUẬN DỰ KIẾN
+### TỔNG KẾT & LỢI NHUẬN DỰ KIẾN
   * **Biên lợi nhuận gộp** — > 92–95% (chỉ tài liệu, phần mềm, đào tạo – chi phí biên gần 0).
 
 

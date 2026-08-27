@@ -1,9 +1,14 @@
 ---
 title: SCHEMAS README
 type: schema
-tags: [amos_os, 16_schemas]
+source: 16_SCHEMAS
+tags: [amos_os, 16_schemas, canon/schema]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # SCHEMAS README

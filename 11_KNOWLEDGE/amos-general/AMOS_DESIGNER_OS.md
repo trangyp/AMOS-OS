@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/AMOS_DESIGNER_OS/"
 origin_architect: "Trang Phan"
 type: reference
-tags: [amos, designer-os, standalone-shell, AMOS.brain, run_amos.py, workers.py, deterministic-auditable, no-api-dependency, 7-layer-brain-model, amos-general]
+source: 11_KNOWLEDGE/amos-general
+tags: [amos, designer-os, standalone-shell, AMOS.brain, run_amos.py, workers.py, deterministic-auditable, no-api-dependency, 7-layer-brain-model, amos-general, canon/knowledge]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
 
 

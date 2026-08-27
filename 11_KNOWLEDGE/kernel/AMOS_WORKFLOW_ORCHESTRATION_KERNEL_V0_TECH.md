@@ -3,10 +3,14 @@ title: AMOS WORKFLOW ORCHESTRATION KERNEL V0 TECH
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-workflow-orchestration-kernel-v0, kernel]
 type: data
 source: 11_KNOWLEDGE/kernel
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
+# AMOS WORKFLOW ORCHESTRATION KERNEL V0 TECH
 
 ```json
 {

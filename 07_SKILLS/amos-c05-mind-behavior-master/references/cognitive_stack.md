@@ -1,8 +1,15 @@
 ---
 title: cognitive stack
 type: reference
-tags: [reference, amos-c05-mind-behavior-master]
+source: 07_SKILLS/amos-c05-mind-behavior-master/references
+tags: [reference, amos-c05-mind-behavior-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Cognitive Stack
 
@@ -89,4 +96,5 @@ All engine specs from: `Google Drive /_00_AMOS_CANON/Cognitive/` (13 JSON files,
 - `cognitive/Metacognitive.md` — metacognitive layer documentation
 
 ---
+- [[07_SKILLS_MOC]]
 **MOC:** [[references_MOC]]

@@ -1,8 +1,15 @@
 ---
 title: "47 Adversarial Red Team Modes MOC"
 type: moc
-tags: [moc, 47-adversarial-red-team-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/47_ADVERSARIAL_RED_TEAM_MODES
+tags: [moc, 47-adversarial-red-team-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 47 Adversarial Red Team Modes — Map of Content
 

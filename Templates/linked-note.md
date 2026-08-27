@@ -11,6 +11,12 @@ steward: Trang Phan
 tags: [template, boilerplate, reference, templater, linkme, moc, canon-group/tech-ai, canon/tooling]
 title: linked-note template
 type: template
+source: Templates
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 

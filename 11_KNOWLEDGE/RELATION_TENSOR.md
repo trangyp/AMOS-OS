@@ -1,8 +1,15 @@
 ---
 title: "AMOS Relation Tensor Architecture"
 type: tensor
-tags: [knowledge, note]
+source: 11_KNOWLEDGE
+tags: [knowledge, note, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # AMOS Relation Tensor
 

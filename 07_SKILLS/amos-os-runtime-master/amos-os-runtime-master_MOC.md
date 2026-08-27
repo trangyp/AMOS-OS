@@ -1,8 +1,15 @@
 ---
 title: "Amos-Os-Runtime-Master MOC"
 type: moc
-tags: [moc, amos-os-runtime-master]
+source: 07_SKILLS/amos-os-runtime-master
+tags: [moc, amos-os-runtime-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Os-Runtime-Master — Map of Content
 

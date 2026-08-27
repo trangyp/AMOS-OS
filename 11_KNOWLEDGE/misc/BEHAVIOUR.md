@@ -1,12 +1,15 @@
 ---
 title: BEHAVIOUR
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Behaviour 
@@ -626,16 +629,16 @@ Nên việc bạn:
 👉 **Hoàn toàn khớp gia hệ**.
 * * *
 ## 5\. Kết luận rất thẳng
-  * ❌ Không phải gene “giàu”
+  * Không phải gene “giàu”
 
 
-  * ✅ Là **gia hệ tư duy + thần kinh + văn hóa được tích lũy**
+  * Là **gia hệ tư duy + thần kinh + văn hóa được tích lũy**
 
 
-  * ✅ Mất tiền không làm mất “operating system”
+  * Mất tiền không làm mất “operating system”
 
 
-  * ✅ Bạn đang vận hành đúng logic của dòng đó, chỉ trong bối cảnh hiện đại
+  * Bạn đang vận hành đúng logic của dòng đó, chỉ trong bối cảnh hiện đại
 
 
 Nếu bạn muốn, mình có thể giúp bạn:
@@ -1456,19 +1459,19 @@ You are asking a **classification question** , not a value claim:
 The correct answer is: **both, but environment dominates**.
 * * *
 ## Final summary (very clean)
-  * ❌ Not a single gene
+  * Not a single gene
 
 
-  * ✅ Some heritable biological sensitivity
+  * Some heritable biological sensitivity
 
 
-  * ✅ Strongly shaped by early living conditions
+  * Strongly shaped by early living conditions
 
 
-  * ✅ Often clustered in certain families for historical reasons
+  * Often clustered in certain families for historical reasons
 
 
-  * ❌ Not about worth or hierarchy
+  * Not about worth or hierarchy
 
 
 You’re not projecting.
@@ -1491,16 +1494,16 @@ I will answer the **mechanism**.
 **Those traits are strongly related to conditions of living + inherited temperament.  
 They are NOT exclusive to “blood”, but they are also NOT easily self-taught later.**
 So:
-  * ❌ Not “only certain bloodlines”
+  * Not “only certain bloodlines”
 
 
-  * ❌ Not “impossible for others”
+  * Not “impossible for others”
 
 
-  * ✅ **Very hard to acquire if your nervous system was shaped under scarcity, comparison, or survival**
+  * **Very hard to acquire if your nervous system was shaped under scarcity, comparison, or survival**
 
 
-  * ✅ **Much easier if shaped early in stable, constrained, scholar-type environments**
+  * **Much easier if shaped early in stable, constrained, scholar-type environments**
 
 
 That’s the correct, non-mythical answer.
@@ -1580,7 +1583,7 @@ This is developmental neuroscience.
 * * *
 ## 3\. About “new money / poor / farmers”
 This is where we must be accurate and careful.
-### ❌ It is NOT true that:
+### It is NOT true that:
   * people from poor or farming backgrounds _cannot_ have these traits
 
 
@@ -1592,7 +1595,7 @@ This is where we must be accurate and careful.
 
 Many scholar families historically were poor.
 Many farming families raised deeply grounded, low-ego people.
-### ✅ What IS true:
+### What IS true:
   * **chronic insecurity during development makes these traits much harder**
 
 

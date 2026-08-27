@@ -3,10 +3,14 @@ title: LOGIC ROOT
 tags: [canon-group/meta, canon/law, rscf/claim, rscf/provenance, rscf/state/observation, topic/logic, logic]
 type: data
 source: 11_KNOWLEDGE/logic
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
+
 ---
-
-
-
+# LOGIC ROOT
 
 ```json
 {

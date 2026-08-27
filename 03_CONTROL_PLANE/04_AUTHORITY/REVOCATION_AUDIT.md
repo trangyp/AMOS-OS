@@ -1,9 +1,14 @@
 ---
 title: REVOCATION AUDIT
 type: revocation
-tags: [control_plane, revocation_audit.md]
+source: 03_CONTROL_PLANE/04_AUTHORITY
+tags: [control_plane, revocation_audit.md, canon/control-plane]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: authority_governance
 ---
-
 
 
 # REVOCATION AUDIT
@@ -70,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[04_AUTHORITY_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

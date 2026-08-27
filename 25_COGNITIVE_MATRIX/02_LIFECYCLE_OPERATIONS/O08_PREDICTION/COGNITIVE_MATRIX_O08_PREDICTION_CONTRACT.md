@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX O08 PREDICTION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, lifecycle_operations, o08_prediction, contract]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O08_PREDICTION
+tags: [cognitive_matrix, lifecycle_operations, o08_prediction, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # O08_PREDICTION — O08 Prediction
@@ -47,3 +52,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[O08_PREDICTION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

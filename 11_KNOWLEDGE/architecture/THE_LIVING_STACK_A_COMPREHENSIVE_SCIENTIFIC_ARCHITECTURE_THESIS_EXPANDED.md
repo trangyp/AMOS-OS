@@ -3,7 +3,14 @@ title: THE LIVING STACK A COMPREHENSIVE SCIENTIFIC ARCHITECTURE THESIS EXPANDED
 tags: [canon-group/planetary, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/the-living-stack-a-comprehensive-scienti, architecture]
 type: note
 source: 11_KNOWLEDGE/architecture
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: architecture_design
+
 ---
+
 
 # THE LIVING STACK A COMPREHENSIVE SCIENTIFIC ARCHITECTURE THESIS EXPANDED
 
@@ -7070,3 +7077,6 @@ competitiveness while preserving core value propositions.
 
 ---
 **MOC:** [[ARCHITECTURE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

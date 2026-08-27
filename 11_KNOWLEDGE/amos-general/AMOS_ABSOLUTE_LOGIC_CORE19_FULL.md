@@ -1,16 +1,5 @@
 ---
-title: AMOS ABSOLUTE LOGIC CORE19 FULL
-tags: [amos-general, amos, general]
-type: code
-source: 11_KNOWLEDGE/amos-general
----
-
-
-
-
-
-````markdown
----
+title: "AMOS ABSOLUTE LOGIC CORE19 FULL"
 name: amos-absolute-logic-core19-full
 version: 2.0.0
 created: 2026-08-25
@@ -35,7 +24,16 @@ description: >-
   state-transition semantics, collapse/regeneration dynamics, selective
   invalidation, repair, and integration boundaries. Source-defined AMOS
   structures remain distinct from externally verified empirical claims.
+type: document
+source: 11_KNOWLEDGE/amos-general
+tags: [amos_os, amos-general, canon/knowledge]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # AMOS Absolute Logic / Core-19 — Full Architecture
 
@@ -3950,7 +3948,6 @@ lineage.
 
 ```
 ```
-```
 
 ---
-**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]
+**MOC:** [[AMOS-GENERAL_MOC]]

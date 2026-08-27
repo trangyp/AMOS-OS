@@ -1,9 +1,14 @@
 ---
 title: AGENTS README
 type: agent
-tags: [amos_os, 06_agents]
+source: 06_AGENTS
+tags: [amos_os, 06_agents, canon/agent]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # AGENTS README

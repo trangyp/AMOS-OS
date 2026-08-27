@@ -1,8 +1,15 @@
 ---
 title: "04 Strategy MOC"
 type: moc
-tags: [moc, 04-strategy]
+source: 21_DOMAINS/04_STRATEGY
+tags: [moc, 04-strategy, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 04 Strategy — Map of Content
 

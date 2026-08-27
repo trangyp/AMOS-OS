@@ -1,8 +1,15 @@
 ---
 title: design kernel
 type: reference
-tags: [reference, amos-c10-tech-engineering-master]
+source: 07_SKILLS/amos-c10-tech-engineering-master/references
+tags: [reference, amos-c10-tech-engineering-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Design Kernel v0 Tech
 
@@ -185,3 +192,7 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

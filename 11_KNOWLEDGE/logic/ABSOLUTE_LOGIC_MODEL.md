@@ -3,10 +3,16 @@ title: "AMOS Absolute Logic Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: brain-model
+source: 11_KNOWLEDGE/logic
 tags: [canon-group/meta, canon/law, rscf/claim, rscf/provenance, rscf/state/derived, topic/absolute-logic-model, logic]
 status: "active"
 provenance: "LOGIC.txt"
 confidence: "STRUCTURAL"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
 ---
 
 

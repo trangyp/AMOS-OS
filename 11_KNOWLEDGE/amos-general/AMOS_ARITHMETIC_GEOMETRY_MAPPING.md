@@ -1,12 +1,15 @@
 ---
 title: AMOS ARITHMETIC GEOMETRY MAPPING
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
-
 
 
 # AMOS–ARITHMETIC GEOMETRY MAPPING
@@ -134,3 +137,6 @@ Nếu bạn muốn, tôi có thể xây dựng "bridge" cuối cùng: **AMOS–a
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

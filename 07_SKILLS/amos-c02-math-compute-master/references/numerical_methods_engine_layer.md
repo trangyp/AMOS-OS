@@ -1,8 +1,15 @@
 ---
 title: numerical methods engine layer
 type: reference
-tags: [reference, amos-c02-math-compute-master]
+source: 07_SKILLS/amos-c02-math-compute-master/references
+tags: [reference, amos-c02-math-compute-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Numerical Methods Engine Layer
 
@@ -104,3 +111,7 @@ The Signal Processing Kernel supports analyzing, transforming, and interpreting 
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX H HIGH SCALE CONTRACT
 type: cognitive
-tags: [cognitive_matrix, scales, h_high_scale, contract]
+source: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE
+tags: [cognitive_matrix, scales, h_high_scale, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # H_HIGH_SCALE — High scale: constitutional/governance reasoning; strictest gates, slowest cadence, highest evidence bar.
@@ -42,3 +47,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[H_HIGH_SCALE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

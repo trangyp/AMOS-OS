@@ -1,8 +1,15 @@
 ---
 title: canon integration layer model
 type: reference
-tags: [reference, amos-canon-universe-master]
+source: 07_SKILLS/amos-canon-universe-master/references
+tags: [reference, amos-canon-universe-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Canon Integration Layer Model
 

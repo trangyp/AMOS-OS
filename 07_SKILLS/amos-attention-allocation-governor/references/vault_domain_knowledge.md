@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-attention-allocation-governor]
+source: 07_SKILLS/amos-attention-allocation-governor/references
+tags: [reference, amos-attention-allocation-governor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -225,3 +232,7 @@ Other domains: Healthcare, Finance, Manufacturing, Transportation, Education, Ag
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

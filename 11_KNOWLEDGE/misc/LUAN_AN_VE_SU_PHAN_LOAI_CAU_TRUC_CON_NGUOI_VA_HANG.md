@@ -1,12 +1,15 @@
 ---
 title: LUAN AN VE SU PHAN LOAI CAU TRUC CON NGUOI VA HANG
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # LUẬN ÁN VỀ SỰ PHÂN LOẠI CẤU TRÚC CON NGƯỜI VÀ HẰNG SỐ SINH HỌC 1mm: TỪ HỌC THUYẾT HUNTER-FARMER ĐẾN KHUNG TRANG ∅ BỐN NHÓM

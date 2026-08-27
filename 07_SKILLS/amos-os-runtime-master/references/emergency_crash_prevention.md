@@ -1,8 +1,15 @@
 ---
 title: emergency crash prevention
 type: reference
-tags: [reference, amos-os-runtime-master]
+source: 07_SKILLS/amos-os-runtime-master/references
+tags: [reference, amos-os-runtime-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Emergency Crash Prevention
 
@@ -21,15 +28,15 @@ tags: [system]
 **Governance SSOT**: Enforced  
 **Hallucination Risk**: ACKNOWLEDGED  
 
-## 🚨 EMERGENCY CRASH PREVENTION ACTIVATED
+## EMERGENCY CRASH PREVENTION ACTIVATED
 
-### ⚠️ CRITICAL SYSTEM STATUS
+### ️ CRITICAL SYSTEM STATUS
 **Issue**: System experiencing severe crashes
 **Request**: "script run crash sever dont run scripts"
 **Action**: Immediate emergency stabilization
 **Status**: EMERGENCY PROTOCOL ACTIVATED
 
-### 🛑️ EMERGENCY ACTIONS TAKEN
+### ️ EMERGENCY ACTIONS TAKEN
 
 #### 1. Python Process Termination
 - **Action**: All Python processes terminated
@@ -49,7 +56,7 @@ tags: [system]
 - **Method**: psutil system monitoring
 - **Status**: IN PROGRESS
 
-## 🔧 TECHNICAL IMPLEMENTATION
+## TECHNICAL IMPLEMENTATION
 
 ### Emergency Crash Prevention Protocol
 ```python
@@ -78,7 +85,7 @@ os.system('pkill -f python')
 - **Swap Usage**: Virtual memory monitoring
 - **Process Count**: Active process tracking
 
-## 📊 SYSTEM STABILIZATION RESULTS
+## SYSTEM STABILIZATION RESULTS
 
 ### Pre-Optimization State
 - **CPU Usage**: High (system overloaded)
@@ -92,7 +99,7 @@ os.system('pkill -f python')
 - **Swap Usage**: Reduced (memory freed)
 - **Python Processes**: 0 (all terminated)
 
-## 🎯 H2 HYPOTHESIS COMPLIANCE
+## H2 HYPOTHESIS COMPLIANCE
 
 ### Evidence Integrity Assessment
 - **Current Score**: 0.78 (below 0.80 threshold)
@@ -114,7 +121,7 @@ K = {Governance, Incentive, Enforcement, Information, Recourse, Audit, Evolution
 - **Information**: ✅ Enhanced with system metrics
 - **Audit**: ✅ Complete emergency action logging
 
-## 🚀 SYSTEM STATUS
+## SYSTEM STATUS
 
 ### Current Operational State
 - **Status**: EMERGENCY STABILIZATION
@@ -130,7 +137,7 @@ K = {Governance, Incentive, Enforcement, Information, Recourse, Audit, Evolution
 4. ✅ **H2 Compliance**: All emergency outputs classified
 5. ✅ **Governance SSOT**: Strict compliance maintained
 
-## 🔄 CONTINUATION PLAN
+## CONTINUATION PLAN
 
 ### Immediate Actions Required
 1. **Monitor System**: Continue resource monitoring
@@ -143,3 +150,7 @@ K = {Governance, Incentive, Enforcement, Information, Recourse, Audit, Evolution
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

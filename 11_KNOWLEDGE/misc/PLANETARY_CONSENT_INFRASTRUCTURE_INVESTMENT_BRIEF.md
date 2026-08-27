@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — new troy/Planetary Consent Infrastructure - Investor Brief.pdf"
 origin_architect: "Quynh Trang Phan"
 type: investment-brief
-tags: [troy, planetary-consent, consent-infrastructure, investor-brief, 308T-decisions, 67-actors, 98-consent-types, 100B-market, series-A-25M, misc]
+source: 11_KNOWLEDGE/misc
+tags: [troy, planetary-consent, consent-infrastructure, investor-brief, 308T-decisions, 67-actors, 98-consent-types, 100B-market, series-A-25M, misc, canon/knowledge]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 

@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Unified_Biological_Intelligence_Diagrams.pdf + The_Biological_Science_Behind_Buddhas_Teachings.pdf"
 origin_architect: "Trang Phan"
 type: comparison-reference
-tags: [ubi, ai-comparison, neurobiological, neuroemotional, somatic, bioelectromagnetic, deterministic-vs-probabilistic, fascia, nervous-system, loop-mechanics, Buddhist-biology, logic]
+source: 11_KNOWLEDGE/logic
+tags: [ubi, ai-comparison, neurobiological, neuroemotional, somatic, bioelectromagnetic, deterministic-vs-probabilistic, fascia, nervous-system, loop-mechanics, Buddhist-biology, logic, canon/knowledge]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
 ---
 
 

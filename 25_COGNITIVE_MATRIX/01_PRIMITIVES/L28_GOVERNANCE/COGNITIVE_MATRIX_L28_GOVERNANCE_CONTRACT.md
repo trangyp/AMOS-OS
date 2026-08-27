@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L28 GOVERNANCE CONTRACT
 type: cognitive
-tags: [cognitive_matrix, primitives, l28_governance, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L28_GOVERNANCE
+tags: [cognitive_matrix, primitives, l28_governance, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L28_GOVERNANCE — Governance Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L28_GOVERNANCE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

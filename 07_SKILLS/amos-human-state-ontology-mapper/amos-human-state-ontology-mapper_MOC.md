@@ -1,8 +1,15 @@
 ---
 title: "Amos-Human-State-Ontology-Mapper MOC"
 type: moc
-tags: [moc, amos-human-state-ontology-mapper]
+source: 07_SKILLS/amos-human-state-ontology-mapper
+tags: [moc, amos-human-state-ontology-mapper, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Human-State-Ontology-Mapper — Map of Content
 

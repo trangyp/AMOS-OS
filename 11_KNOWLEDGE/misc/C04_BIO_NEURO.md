@@ -1,15 +1,20 @@
 ---
 title: C04 BIO NEURO
 type: neural
+source: 11_KNOWLEDGE/misc
 canon-group: biology
 canon-type: framework
 rscf-state: source-claim
 topic: c04-bio-neuro
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c04-bio-neuro, misc]
 created: 2026-08-22
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
-
+# C04 BIO NEURO
 
 ```json
 {

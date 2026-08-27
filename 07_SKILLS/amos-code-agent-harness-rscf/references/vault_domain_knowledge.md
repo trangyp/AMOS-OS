@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-code-agent-harness-rscf]
+source: 07_SKILLS/amos-code-agent-harness-rscf/references
+tags: [reference, amos-code-agent-harness-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -225,3 +232,4 @@ Obligations:
 
 ---
 **MOC:** [[references_MOC]]
+```

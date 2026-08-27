@@ -1,8 +1,15 @@
 ---
 title: "24 Ubi Nbi Neurobiological MOC"
 type: moc
-tags: [moc, 24-ubi-nbi-neurobiological]
+source: 21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL
+tags: [moc, 24-ubi-nbi-neurobiological, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 24 Ubi Nbi Neurobiological — Map of Content
 

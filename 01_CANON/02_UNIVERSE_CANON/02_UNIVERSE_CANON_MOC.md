@@ -1,8 +1,15 @@
 ---
 title: "02 Universe Canon MOC"
 type: moc
-tags: [moc, 02-universe-canon]
+source: 01_CANON/02_UNIVERSE_CANON
+tags: [moc, 02-universe-canon, canon/universe]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
+
 
 # 02 Universe Canon — Map of Content
 

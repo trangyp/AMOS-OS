@@ -1,10 +1,14 @@
 ---
 title: CONTROL PLANE README
 type: control-plane
-tags: [control_plane, governance, policy]
+source: 03_CONTROL_PLANE
+tags: [control_plane, governance, policy, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
-
 
 
 # CONTROL PLANE README
@@ -61,3 +65,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[03_CONTROL_PLANE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,8 +1,15 @@
 ---
 title: "02 Cognition MOC"
 type: moc
-tags: [moc, 02-cognition]
+source: 02_KERNEL/02_COGNITION
+tags: [moc, 02-cognition, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 02 Cognition — Map of Content
 

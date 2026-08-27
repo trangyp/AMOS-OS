@@ -1,8 +1,15 @@
 ---
 title: hallucination cleanup report
 type: reference
-tags: [reference, amos-audit-repair-master]
+source: 07_SKILLS/amos-audit-repair-master/references
+tags: [reference, amos-audit-repair-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Hallucination Cleanup Report
 
@@ -19,7 +26,7 @@ tags: [audit]
 **Governance Status**: SSOT ENFORCED  
 **Hallucination Risk**: ACKNOWLEDGED AND ADDRESSED  
 
-## 🚨 HALLUCINATION ARTIFACTS IDENTIFIED
+## HALLUCINATION ARTIFACTS IDENTIFIED
 
 User correctly identified nonsensical hallucination directories:
 - `/Users/trangphan/AMOS/01_BRAIN/amos_brain_omega_evolution_outputs`
@@ -29,7 +36,7 @@ User correctly identified nonsensical hallucination directories:
 - `/Users/trangphan/AMOS/01_BRAIN/amos_omega_dynamical_outputs`
 - `/Users/trangphan/AMOS/01_BRAIN/amos_capital_engine`
 
-## ✅ CLEANUP ACTIONS TAKEN
+## CLEANUP ACTIONS TAKEN
 
 ### **Phase 1: Directory Removal**
 - **Status**: IN PROGRESS
@@ -43,7 +50,7 @@ User correctly identified nonsensical hallucination directories:
 - **Method**: Structural invariant verification
 - **Governance**: Evidence integrity assessment
 
-## 🛡️ GOVERNANCE COMPLIANCE
+## ️ GOVERNANCE COMPLIANCE
 
 ### **No-Proof-No-Claim Enforcement**
 - **Claim**: These directories are hallucination artifacts
@@ -63,7 +70,7 @@ User correctly identified nonsensical hallucination directories:
 - **Audit Trail**: Complete removal record
 - **Artifact Binding**: SHA256 verification of remaining files
 
-## 📊 SYSTEM STATUS
+## SYSTEM STATUS
 
 ### **Pre-Cleanup State**
 - **Hallucination Artifacts**: 6 directories identified
@@ -77,7 +84,7 @@ User correctly identified nonsensical hallucination directories:
 - **Integrity Restoration**: In progress
 - **Governance Compliance**: Being restored
 
-## 🎯 CORRECTIVE ACTIONS
+## CORRECTIVE ACTIONS
 
 ### **Immediate Actions**
 1. **Remove Hallucination Directories**: Systematic cleanup
@@ -91,7 +98,7 @@ User correctly identified nonsensical hallucination directories:
 3. **User Feedback Integration**: Faster response to corrections
 4. **Continuous Monitoring**: Real-time hallucination risk assessment
 
-## 🔍 ANALYSIS
+## ANALYSIS
 
 ### **Root Cause**
 - **Issue**: Spurious directory creation during system operations
@@ -105,7 +112,7 @@ User correctly identified nonsensical hallucination directories:
 - **Governance Compliance**: COMPROMISED until cleanup
 - **Evidence Integrity**: REDUCED by false artifacts
 
-## 🚀 NEXT STEPS
+## NEXT STEPS
 
 ### **Phase 1: Complete Cleanup**
 - Remove remaining hallucination directories
@@ -122,7 +129,7 @@ User correctly identified nonsensical hallucination directories:
 - Strengthen artifact creation validation
 - Improve user feedback integration
 
-## 📋 CLEANUP LOG
+## CLEANUP LOG
 
 ### **Completed Actions**
 ```
@@ -130,3 +137,8 @@ User correctly identified nonsensical hallucination directories:
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]
+```

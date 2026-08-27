@@ -1,8 +1,15 @@
 ---
 title: "04 Cognition MOC"
 type: moc
-tags: [moc, 04-cognition]
+source: 05_COGNITIVE_ORGANISM/04_COGNITION
+tags: [moc, 04-cognition, canon/cognitive]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 04 Cognition — Map of Content
 

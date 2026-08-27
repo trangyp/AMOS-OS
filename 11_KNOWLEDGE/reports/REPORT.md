@@ -1,12 +1,15 @@
 ---
 title: REPORT
-tags: [reports, report, analysis]
+tags: [reports, report, analysis, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/reports
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: audit_report
+
 ---
-
-
-
 
 
 # Report
@@ -484,7 +487,7 @@ Dưới đây là phiên bản nâng cấp: **12 TRỤ CỘT MECE – GIRLFRIEND
 
 
 * * *
-# 🔟 TIMELINE PROGRESSION
+# TIMELINE PROGRESSION
 (Tiến trình theo thời gian)
   * Có nâng cấp trạng thái theo tháng. **X**
 

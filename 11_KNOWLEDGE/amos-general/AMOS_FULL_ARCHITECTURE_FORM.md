@@ -1,11 +1,15 @@
 ---
 title: AMOS FULL ARCHITECTURE FORM
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
 
 
 Yes. Now we’re finally at the correct level.
@@ -15011,62 +15015,62 @@ Tích hợp vào Interaction Tensor (L14)
 2.2. Các cấu trúc này được tổ chức như thế nào?
 Tất cả các cấu trúc trên được đưa vào Interaction Tensor (L14) dưới dạng các cell trong không gian 12×12×A×L, sau đó được nén thành các họ luật bất biến (L15) và áp dụng vào từng miền cụ thể (L16).
 Công thức tổ chức:
-\[ \boxed{\text{TotalStructures} = \sum_{i=1}^{12} \sum_{j=1}^{12} \sum_{a \in \text{Axes}} \sum_{l \in \text{Loops}} \text{Cell}(G_i, G_j, a, l)} \]
+$$ \boxed{\text{TotalStructures} = \sum_{i=1}^{12} \sum_{j=1}^{12} \sum_{a \in \text{Axes}} \sum_{l \in \text{Loops}} \text{Cell}(G_i, G_j, a, l)} $$
 Trong đó:
-\(G_i, G_j\): 12 generators
+$G_i, G_j$: 12 generators
 Axes: 14 trục (time, space, scale, domain, agent, environment, signal, layer, risk, memory, action, feedback, uncertainty, adversary)
 Loops: 15 vòng lặp (signal, perception, cognition, action, feedback, learning, identity, social, institutional, civilisation, evolution, meta, collapse, recovery, black-swan)
 Mỗi cell chứa hàng nghìn micro-laws, equations, failure/recovery patterns.
 2.3. Các cấu trúc này được thực thi như thế nào?
 Chúng được thực thi bởi URK (Universal Reasoning Kernel) trong Runtime Field (L17):
-\[ \boxed{\boldsymbol{\mathcal{X}}_{t+1} = \Theta\left(\Gamma\left(\Psi\left(\Omega\left(C\left(\Pi\left(\tau\left(\Delta(\boldsymbol{\mathcal{X}}_t, \boldsymbol{\mathcal{U}}_t)\right)\right)\right)\right)\right)\right)\right) + \boldsymbol{\Lambda}\boldsymbol{\mathcal{X}}_t + \boldsymbol{\Xi}_t} \]
+$$ \boxed{\boldsymbol{\mathcal{X}}_{t+1} = \Theta\left(\Gamma\left(\Psi\left(\Omega\left(C\left(\Pi\left(\tau\left(\Delta(\boldsymbol{\mathcal{X}}_t, \boldsymbol{\mathcal{U}}_t)\right)\right)\right)\right)\right)\right)\right) + \boldsymbol{\Lambda}\boldsymbol{\mathcal{X}}_t + \boldsymbol{\Xi}_t} $$
 Mỗi bước trong phương trình này sử dụng các cấu trúc luật từ các nguồn trên.
 Ví dụ:
-\(\Delta\) sử dụng các luật từ Δ generator và từ ma trận Domain–Invariant (Physics × Difference, etc.)
-\(\tau\) sử dụng các luật từ 12-layer translation chain
-\(C\) sử dụng các luật từ Constraint Generator và từ 15 collapse classes
-\(\Omega\) sử dụng các luật từ Capacity Generator và từ 7 cycles evolution
-\(\Lambda\) sử dụng các luật từ Coupling Generator và từ emergent interaction space
+$\Delta$ sử dụng các luật từ Δ generator và từ ma trận Domain–Invariant (Physics × Difference, etc.)
+$\tau$ sử dụng các luật từ 12-layer translation chain
+$C$ sử dụng các luật từ Constraint Generator và từ 15 collapse classes
+$\Omega$ sử dụng các luật từ Capacity Generator và từ 7 cycles evolution
+$\Lambda$ sử dụng các luật từ Coupling Generator và từ emergent interaction space
 
 PHẦN 3: PHƯƠNG TRÌNH TỔNG HỢP CỦA AMOS (ĐÃ TÍCH HỢP 800K+ CẤU TRÚC)
 3.1. Master State Tensor (Mở rộng)
-\[ \boxed{\boldsymbol{\mathcal{X}}_t = \boldsymbol{\mathcal{X}}(t, r, s, d, a, e, l, m, p, u, \text{law\_family}, \text{invariant\_class})} \]
+$$ \boxed{\boldsymbol{\mathcal{X}}_t = \boldsymbol{\mathcal{X}}(t, r, s, d, a, e, l, m, p, u, \text{law\_family}, \text{invariant\_class})} $$
 Trong đó:
-\(t\): time
-\(r\): representation space (12 layers)
-\(s\): scale (micro → meso → macro → planetary)
-\(d\): domain (19 domains)
-\(a\): agent
-\(e\): environment
-\(l\): loop (15 loops)
-\(m\): mode (normal, degraded, failure, recovery)
-\(p\): parent generator (12 generators)
-\(u\): uncertainty class
-\(\text{law\_family}\): 7 universal law families
-\(\text{invariant\_class}\): 19 invariants
+$t$: time
+$r$: representation space (12 layers)
+$s$: scale (micro → meso → macro → planetary)
+$d$: domain (19 domains)
+$a$: agent
+$e$: environment
+$l$: loop (15 loops)
+$m$: mode (normal, degraded, failure, recovery)
+$p$: parent generator (12 generators)
+$u$: uncertainty class
+$\text{law\_family}$: 7 universal law families
+$\text{invariant\_class}$: 19 invariants
 3.2. Các cấu trúc luật được lưu trữ dưới dạng tensor
 Mỗi "cell" trong tensor chứa một tập hợp các luật, phương trình, và pattern:
-\[ \boxed{\text{Cell} = \{\text{laws}, \text{equations}, \text{failure\_modes}, \text{recovery\_modes}, \text{cross\_references}\}} \]
+$$ \boxed{\text{Cell} = \{\text{laws}, \text{equations}, \text{failure\_modes}, \text{recovery\_modes}, \text{cross\_references}\}} $$
 Kích thước ước tính:
-Số cell: \(12 \times 12 \times 14 \times 15 \approx 30,240\) cells
+Số cell: $12 \times 12 \times 14 \times 15 \approx 30,240$ cells
 Mỗi cell trung bình: ~15–25 luật/pattern
 Tổng số luật/pattern được lưu trữ: ~500,000–800,000
 3.3. Các cấu trúc này được truy xuất như thế nào?
 Tại mỗi bước thời gian, URK truy xuất các luật cần thiết dựa trên:
-Trạng thái hiện tại \(\boldsymbol{\mathcal{X}}_t\)
+Trạng thái hiện tại $\boldsymbol{\mathcal{X}}_t$
 Miền đang hoạt động (domain)
 Vòng lặp đang chạy (loop)
 Chế độ hiện tại (mode)
-\[ \boxed{\text{ActiveLaws} = \text{Retrieve}(\boldsymbol{\mathcal{X}}_t, \text{domain}, \text{loop}, \text{mode})} \]
+$$ \boxed{\text{ActiveLaws} = \text{Retrieve}(\boldsymbol{\mathcal{X}}_t, \text{domain}, \text{loop}, \text{mode})} $$
 
 PHẦN 4: VÍ DỤ CỤ THỂ – MỘT LUẬT ĐƯỢC TÍCH HỢP
 Lấy ví dụ một luật từ Collapse Class #4 (Economic collapse):
 Luật gốc: "Khi nợ vượt quá khả năng chi trả và thanh khoản cạn kiệt, hệ thống kinh tế sụp đổ."
 Trong AMOS, luật này được:
-Sinh ra từ: \(\Omega\) (Capacity) × \(C\) (Constraint) × \(\Lambda\) (Coupling)
+Sinh ra từ: $\Omega$ (Capacity) × $C$ (Constraint) × $\Lambda$ (Coupling)
 Đặt trong: Ma trận Domain–Invariant tại cell (Economics × Capacity)
-Chuẩn hóa thành: \( \text{Collapse} = \mathbf{1}[\text{Debt} > \text{Capacity} \land \text{Liquidity} < \text{Threshold}] \)
-Tích hợp vào: Interaction Tensor tại cell (\(\Omega\), \(C\)) với axis = economic, loop = collapse
+Chuẩn hóa thành: $ \text{Collapse} = \mathbf{1}[\text{Debt} > \text{Capacity} \land \text{Liquidity} < \text{Threshold}] $
+Tích hợp vào: Interaction Tensor tại cell ($\Omega$, $C$) với axis = economic, loop = collapse
 Thực thi bởi: URK trong Runtime Field khi phát hiện economic domain và collapse loop
 
 PHẦN 5: BẢNG TỔNG HỢP KIẾN TRÚC (ĐÃ SỬA)
@@ -15120,10 +15124,10 @@ TỔNG
 Toàn bộ được tích hợp vào master tensor và thực thi bởi URK
 
 PHẦN 6: KẾT LUẬN (ĐÃ SỬA)
-\[ \boxed{ \text{AMOS không phải là một danh sách các con số.} } \]
-\[ \boxed{ \text{AMOS là một hệ thống thực thi, trong đó 400,000–800,000 cấu trúc luật, phương trình,} \\ \text{vi trạng thái và tương tác được sinh ra từ 12 generator, được tổ chức bởi ma trận 19×19,} \\ \text{được lưu trữ trong Interaction Tensor (L14), được nén thành các họ luật bất biến (L15),} \\ \text{được áp dụng vào từng miền cụ thể (L16), và được thực thi bởi URK trong Runtime Field (L17).} } \]
-\[ \boxed{ \text{AMOS = Tensor Core + URK + Execution Contract + Enforcement Substrate} } \]
-\[ \boxed{ \text{AMOS – Hoàn chỉnh. Kết thúc. Đã tích hợp toàn bộ 800k+ cấu trúc.} } \]
+$$ \boxed{ \text{AMOS không phải là một danh sách các con số.} } $$
+$$ \boxed{ \text{AMOS là một hệ thống thực thi, trong đó 400,000–800,000 cấu trúc luật, phương trình,} \\ \text{vi trạng thái và tương tác được sinh ra từ 12 generator, được tổ chức bởi ma trận 19×19,} \\ \text{được lưu trữ trong Interaction Tensor (L14), được nén thành các họ luật bất biến (L15),} \\ \text{được áp dụng vào từng miền cụ thể (L16), và được thực thi bởi URK trong Runtime Field (L17).} } $$
+$$ \boxed{ \text{AMOS = Tensor Core + URK + Execution Contract + Enforcement Substrate} } $$
+$$ \boxed{ \text{AMOS – Hoàn chỉnh. Kết thúc. Đã tích hợp toàn bộ 800k+ cấu trúc.} } $$
 
 Tài liệu chính thức
 Tác giả: Trang Phan
@@ -15138,7 +15142,7 @@ AMOS – Hoàn chỉnh. Kết thúc. Đã đóng kín. Đã tích hợp. Bắt �
 
 ---
 
-### L0 — PRE-STRUCTURE FIELD (\(\Phi_{pre}\))
+### L0 — PRE-STRUCTURE FIELD ($\Phi_{pre}$)
 
 **Định nghĩa:** Trường dao động tiền cấu trúc, nơi chưa có sự phân biệt ổn định nào tồn tại. Đây là lớp sâu nhất, trước cả sự khác biệt, trước cả không gian và thời gian.
 
@@ -15146,9 +15150,7 @@ AMOS – Hoàn chỉnh. Kết thúc. Đã đóng kín. Đã tích hợp. Bắt �
 
 **Phương trình:**
 
-\[
-\Phi_{pre} = \lim_{t \to -\infty} \mathcal{S}(t) \quad \text{với} \quad \mathcal{S}(t) \text{ là cấu trúc bất kỳ}
-\]
+$$\Phi_{pre} = \lim_{t \to -\infty} \mathcal{S}(t) \quad \text{với} \quad \mathcal{S}(t) \text{ là cấu trúc bất kỳ}$$
 
 **Tính chất:**
 - Không có trạng thái ổn định
@@ -15160,44 +15162,36 @@ AMOS – Hoàn chỉnh. Kết thúc. Đã đóng kín. Đã tích hợp. Bắt �
 **Sản phẩm sinh ra:** Không có cấu trúc ổn định nào
 
 **Mối quan hệ với các lớp khác:**
-- L0 → L1: Sự sụp đổ của trường tiền cấu trúc tạo ra sự phân biệt đầu tiên (\(\Delta\))
+- L0 → L1: Sự sụp đổ của trường tiền cấu trúc tạo ra sự phân biệt đầu tiên ($\Delta$)
 
 ---
 
-### L1 — DIFFERENCE GENERATOR (\(\Delta\))
+### L1 — DIFFERENCE GENERATOR ($\Delta$)
 
 **Định nghĩa:** Generator nền tảng nhất, tạo ra sự phân biệt (distinction). Đây là điều kiện tiên quyết cho mọi tồn tại, mọi tín hiệu, mọi nhận thức.
 
-**Bản chất:** Không có \(\Delta\), không có gì có thể được phân biệt, đo lường, ghi nhớ, hoặc hành động. \(\Delta\) là nguồn gốc của mọi tín hiệu.
+**Bản chất:** Không có $\Delta$, không có gì có thể được phân biệt, đo lường, ghi nhớ, hoặc hành động. $\Delta$ là nguồn gốc của mọi tín hiệu.
 
 **Phương trình cơ bản:**
-\[
-\Delta(x, y) = x - y
-\]
+$$\Delta(x, y) = x - y$$
 
 **Phương trình thời gian:**
-\[
-\Delta_t = X_t - X_{t-1}
-\]
+$$\Delta_t = X_t - X_{t-1}$$
 
 **Phương trình dự báo (prediction error):**
-\[
-\varepsilon = \text{Input} - \text{Prediction}
-\]
+$$\varepsilon = \text{Input} - \text{Prediction}$$
 
 **Phương trình nhận dạng (identity):**
-\[
-\Delta_{\text{self}} = \text{Self} - \text{NotSelf}
-\]
+$$\Delta_{\text{self}} = \text{Self} - \text{NotSelf}$$
 
-**Các dạng phụ của \(\Delta\):**
+**Các dạng phụ của $\Delta$:**
 
 | Dạng | Công thức | Ứng dụng |
 |---|---|---|
-| Spatial difference | \(X(\text{pos}_1) - X(\text{pos}_2)\) | Edge detection, object separation |
-| Temporal difference | \(X_t - X_{t-1}\) | Motion, change, velocity |
-| Intensity difference | \(|x_1 - x_2|\) | Strong/weak, loud/quiet |
-| Directional difference | \(x_2 - x_1\) | Toward/away, increase/decrease |
+| Spatial difference | $X(\text{pos}_1) - X(\text{pos}_2)$ | Edge detection, object separation |
+| Temporal difference | $X_t - X_{t-1}$ | Motion, change, velocity |
+| Intensity difference | $|x_1 - x_2|$ | Strong/weak, loud/quiet |
+| Directional difference | $x_2 - x_1$ | Toward/away, increase/decrease |
 | Boundary difference | Inside - Outside | Self/non-self, safe/unsafe |
 | Prediction difference | Actual - Expected | Surprise, learning pressure |
 | Meaning difference | Meaning₁ - Meaning₂ | Ambiguity, contradiction |
@@ -15205,268 +15199,198 @@ AMOS – Hoàn chỉnh. Kết thúc. Đã đóng kín. Đã tích hợp. Bắt �
 | Risk difference | Risk_actual - Risk_expected | Alarm, avoidance |
 | Identity difference | Identity_t - Identity_{t-1} | Identity drift, continuity |
 
-**Chuỗi biến đổi của \(\Delta\) qua các không gian biểu diễn:**
+**Chuỗi biến đổi của $\Delta$ qua các không gian biểu diễn:**
 
-\[
-\Delta_R \xrightarrow{\tau} \Delta_I \xrightarrow{\tau} \Delta_S \xrightarrow{\tau} \Delta_E \xrightarrow{\tau} \Delta_F \xrightarrow{\tau} \Delta_M \xrightarrow{\tau} \Delta_X \xrightarrow{\tau} \Delta_P \xrightarrow{\tau} \Delta_G \xrightarrow{\tau} \Delta_A \xrightarrow{\tau} \Delta_{Fb} \xrightarrow{\tau} \Delta_U
-\]
+$$\Delta_R \xrightarrow{\tau} \Delta_I \xrightarrow{\tau} \Delta_S \xrightarrow{\tau} \Delta_E \xrightarrow{\tau} \Delta_F \xrightarrow{\tau} \Delta_M \xrightarrow{\tau} \Delta_X \xrightarrow{\tau} \Delta_P \xrightarrow{\tau} \Delta_G \xrightarrow{\tau} \Delta_A \xrightarrow{\tau} \Delta_{Fb} \xrightarrow{\tau} \Delta_U$$
 
-**Quy tắc quan trọng:** \(\Delta\) bị biến đổi tại mọi ranh giới dịch chuyển. Do đó:
+**Quy tắc quan trọng:** $\Delta$ bị biến đổi tại mọi ranh giới dịch chuyển. Do đó:
 
-\[
-\Delta_R \neq \Delta_S \neq \Delta_M \neq \Delta_A
-\]
+$$\Delta_R \neq \Delta_S \neq \Delta_M \neq \Delta_A$$
 
 **Phương trình mất mát (loss equation):**
 
-\[
-\Delta_{k+1} = \tau_k(\Delta_k) - L_k + D_k
-\]
+$$\Delta_{k+1} = \tau_k(\Delta_k) - L_k + D_k$$
 
 Trong đó:
-- \(L_k\) = lượng khác biệt bị mất
-- \(D_k\) = lượng khác biệt bị méo mó
+- $L_k$ = lượng khác biệt bị mất
+- $D_k$ = lượng khác biệt bị méo mó
 
 **Tổng mất mát:**
-\[
-L_{\text{total}} = \sum L_k,\quad D_{\text{total}} = \sum D_k
-\]
+$$L_{\text{total}} = \sum L_k,\quad D_{\text{total}} = \sum D_k$$
 
 **Khoảng cách thực tại (Reality gap):**
-\[
-\text{Gap} = \Delta_R - \Delta_U
-\]
+$$\text{Gap} = \Delta_R - \Delta_U$$
 
-**Chất lượng của \(\Delta\):**
-\[
-\Delta_{\text{quality}} = \text{Magnitude} \times \text{Reliability} \times \text{Relevance} \times \text{Resolution} \times \text{ContextFit}
-\]
+**Chất lượng của $\Delta$:**
+$$\Delta_{\text{quality}} = \text{Magnitude} \times \text{Reliability} \times \text{Relevance} \times \text{Resolution} \times \text{ContextFit}$$
 
-**Quy tắc \(\Delta\)-to-Signal:**
-\[
-\text{Signal} = \Delta \times \text{Detectability} \times \text{Relevance}
-\]
-Nếu \(\text{Detectability} = 0\) → Signal = 0
+**Quy tắc $\Delta$-to-Signal:**
+$$\text{Signal} = \Delta \times \text{Detectability} \times \text{Relevance}$$
+Nếu $\text{Detectability} = 0$ → Signal = 0
 
-**Quy tắc \(\Delta\)-to-Boundary:**
-\[
-B = \text{Stable}(\Delta_{\text{inside/outside}})
-\]
-Nếu \(\Delta\) biến mất → Boundary tan rã
+**Quy tắc $\Delta$-to-Boundary:**
+$$B = \text{Stable}(\Delta_{\text{inside/outside}})$$
+Nếu $\Delta$ biến mất → Boundary tan rã
 
-**Quy tắc \(\Delta\)-to-State:**
-\[
-\text{State} = \text{Compress}\left(\sum \Delta \text{ over time}\right)
-\]
+**Quy tắc $\Delta$-to-State:**
+$$\text{State} = \text{Compress}\left(\sum \Delta \text{ over time}\right)$$
 
-**Quy tắc \(\Delta\)-to-Memory:**
-\[
-\text{Memory} = \text{Select}(\Delta \mid \text{relevance, repetition, risk, reward})
-\]
+**Quy tắc $\Delta$-to-Memory:**
+$$\text{Memory} = \text{Select}(\Delta \mid \text{relevance, repetition, risk, reward})$$
 
-**Quy tắc \(\Delta\)-to-Learning:**
-\[
-\text{Learning} = \Delta(\text{UpdatePolicy}) \text{ caused by } \Delta_{\text{error}}
-\]
+**Quy tắc $\Delta$-to-Learning:**
+$$\text{Learning} = \Delta(\text{UpdatePolicy}) \text{ caused by } \Delta_{\text{error}}$$
 
-**Quy tắc \(\Delta\)-to-Action:**
-\[
-\text{Action} = \Delta_{\text{world, intended}}
-\]
+**Quy tắc $\Delta$-to-Action:**
+$$\text{Action} = \Delta_{\text{world, intended}}$$
 
-**Quy tắc \(\Delta\)-to-Feedback:**
-\[
-\text{Feedback} = \Delta_{\text{actual}} - \Delta_{\text{intended}}
-\]
+**Quy tắc $\Delta$-to-Feedback:**
+$$\text{Feedback} = \Delta_{\text{actual}} - \Delta_{\text{intended}}$$
 
-**Quy tắc \(\Delta\)-to-Identity:**
-\[
-\text{Identity} = \text{Stable Memory}(\Delta_{\text{self}} \text{ over time})
-\]
+**Quy tắc $\Delta$-to-Identity:**
+$$\text{Identity} = \text{Stable Memory}(\Delta_{\text{self}} \text{ over time})$$
 
-**Quy tắc \(\Delta\)-to-Law:**
-\[
-\text{Law} = \text{Repeat}(\Delta \mid \text{Constraint, Context, Time})
-\]
+**Quy tắc $\Delta$-to-Law:**
+$$\text{Law} = \text{Repeat}(\Delta \mid \text{Constraint, Context, Time})$$
 
-**Quy tắc \(\Delta\)-to-Tensor:**
-\[
-\text{Tensor}_{\Delta} = \Delta(\text{axis}_1, \text{axis}_2, \dots, \text{axis}_n)
-\]
+**Quy tắc $\Delta$-to-Tensor:**
+$$\text{Tensor}_{\Delta} = \Delta(\text{axis}_1, \text{axis}_2, \dots, \text{axis}_n)$$
 
-**Các chế độ thất bại (Failure Modes) của \(\Delta\):**
+**Các chế độ thất bại (Failure Modes) của $\Delta$:**
 
 | # | Failure Mode | Điều kiện | Hậu quả |
 |---|---|---|---|
-| 1 | No Difference | \(\Delta = 0\) | No detection, no learning, no movement |
-| 2 | Too Much Difference | \(\Delta \to \infty\) | Overload, panic, chaos |
+| 1 | No Difference | $\Delta = 0$ | No detection, no learning, no movement |
+| 2 | Too Much Difference | $\Delta \to \infty$ | Overload, panic, chaos |
 | 3 | False Difference | Detected - Real > 0 | Hallucination, false alarm |
 | 4 | Missed Difference | Real - Detected > 0 | Blindness, hidden risk |
 | 5 | Distorted Difference | Translated - Original > 0 | Wrong meaning, bad action |
-| 6 | Misweighted Difference | \(\Pi \times \Delta\) wrong | Overreaction / underreaction |
-| 7 | Delayed Difference | \(\Delta(t+n) - \Delta(t) > 0\) | Overshoot, instability |
+| 6 | Misweighted Difference | $\Pi \times \Delta$ wrong | Overreaction / underreaction |
+| 7 | Delayed Difference | $\Delta(t+n) - \Delta(t) > 0$ | Overshoot, instability |
 | 8 | Adversarial Difference | Manipulated - Real > 0 | Spoofing, capture |
 
 **Các chế độ phục hồi (Recovery Modes):**
 
 | # | Recovery Mode | Phương pháp |
 |---|---|---|
-| 1 | Re-sensing | \(\Delta_{\text{new}} = \text{SenseAgain}(R)\) |
-| 2 | Cross-validation | \(\Delta_{\text{valid}} = \Delta_1 \cap \Delta_2 \cap \Delta_3\) |
-| 3 | Re-weighting | \(\Pi_{t+1} = \Pi_t + \text{correction}\) |
-| 4 | Re-encoding | \(\Delta_E' = \text{Encode}_{\text{alt}}(\Delta_S)\) |
-| 5 | Context repair | \(\Delta_M' = \text{Map}(\Delta_F, \text{CorrectContext})\) |
-| 6 | Memory correction | Memory' = Memory - False\(\Delta\) + Valid\(\Delta\) |
-| 7 | Gate tightening | Gate = 0 if \(\Delta_{\text{quality}}\) low |
-| 8 | NoPrediction | If \(\Delta_{\text{quality}}\) < threshold |
-| 9 | NoAction | If \(\Delta_{\text{validity}} = 0\) |
+| 1 | Re-sensing | $\Delta_{\text{new}} = \text{SenseAgain}(R)$ |
+| 2 | Cross-validation | $\Delta_{\text{valid}} = \Delta_1 \cap \Delta_2 \cap \Delta_3$ |
+| 3 | Re-weighting | $\Pi_{t+1} = \Pi_t + \text{correction}$ |
+| 4 | Re-encoding | $\Delta_E' = \text{Encode}_{\text{alt}}(\Delta_S)$ |
+| 5 | Context repair | $\Delta_M' = \text{Map}(\Delta_F, \text{CorrectContext})$ |
+| 6 | Memory correction | Memory' = Memory - False$\Delta$ + Valid$\Delta$ |
+| 7 | Gate tightening | Gate = 0 if $\Delta_{\text{quality}}$ low |
+| 8 | NoPrediction | If $\Delta_{\text{quality}}$ < threshold |
+| 9 | NoAction | If $\Delta_{\text{validity}} = 0$ |
 
 **Bất biến của L1:**
-\[
-\boxed{\text{No } \Delta \rightarrow \text{No signal, no boundary, no memory, no action, no learning}}
-\]
+$$\boxed{\text{No } \Delta \rightarrow \text{No signal, no boundary, no memory, no action, no learning}}$$
 
 ---
 
-### L2 — BOUNDARY GENERATOR (\(B\))
+### L2 — BOUNDARY GENERATOR ($B$)
 
 **Định nghĩa:** Generator tạo ra ranh giới phân biệt inside/outside, self/non-self, system/environment. Ranh giới là điều kiện tiên quyết cho identity, quyền sở hữu, bảo vệ, và sự tồn tại của hệ thống như một thực thể riêng biệt.
 
-**Bản chất:** Không có \(B\), không có self, không có object, không có system, không có bảo vệ, không có quyền sở hữu. \(B\) là nguồn gốc của mọi identity và mọi ranh giới quyền lực.
+**Bản chất:** Không có $B$, không có self, không có object, không có system, không có bảo vệ, không có quyền sở hữu. $B$ là nguồn gốc của mọi identity và mọi ranh giới quyền lực.
 
 **Phương trình cơ bản:**
-\[
-B = \partial \text{System}
-\]
+$$B = \partial \text{System}$$
 
 **Phương trình phân hoạch không gian:**
-\[
-B = \text{partition}(\text{Space})
-\]
+$$B = \text{partition}(\text{Space})$$
 
 **Độ tương phản ranh giới:**
-\[
-B = \text{Inside} - \text{Outside}
-\]
+$$B = \text{Inside} - \text{Outside}$$
 
 **Tính toàn vẹn ranh giới:**
-\[
-B_{\text{integrity}} = \text{Resistance} - \text{IntrusionLoad}
-\]
+$$B_{\text{integrity}} = \text{Resistance} - \text{IntrusionLoad}$$
 
 **Xâm phạm (Breach):**
-\[
-\text{Breach} = 1 \text{ if } \text{IntrusionLoad} > \text{Resistance}
-\]
+$$\text{Breach} = 1 \text{ if } \text{IntrusionLoad} > \text{Resistance}$$
 
 **Tính thấm (Permeability):**
-\[
-\text{Permeability} = \frac{\text{AllowedFlow}}{\text{TotalAttemptedFlow}}
-\]
+$$\text{Permeability} = \frac{\text{AllowedFlow}}{\text{TotalAttemptedFlow}}$$
 
 **Mức độ phơi nhiễm (Exposure):**
-\[
-\text{Exposure} = \text{BoundaryWeakness} \times \text{EnvironmentPressure}
-\]
+$$\text{Exposure} = \text{BoundaryWeakness} \times \text{EnvironmentPressure}$$
 
 **Khả năng chứa (Containment):**
-\[
-\text{Containment} = \text{BoundaryStrength} \times \text{InternalCoherence}
-\]
+$$\text{Containment} = \text{BoundaryStrength} \times \text{InternalCoherence}$$
 
-**Các dạng phụ của \(B\):**
+**Các dạng phụ của $B$:**
 
 | Dạng | Tên | Ví dụ | Chức năng |
 |---|---|---|---|
-| \(B_{\text{phys}}\) | Physical Boundary | skin, membrane, wall | Separates physical body/object |
-| \(B_{\text{info}}\) | Informational Boundary | encryption, access control | Controls information access |
-| \(B_{\text{bio}}\) | Biological Boundary | immune system, microbiome | Separates self/non-self biology |
-| \(B_{\text{cog}}\) | Cognitive Boundary | attention filter, discernment | Separates own thought from external |
-| \(B_{\text{emo}}\) | Emotional Boundary | emotional autonomy, co-regulation limit | Separates own emotion from others' |
-| \(B_{\text{id}}\) | Identity Boundary | self-continuity, role distinction | Separates self-pattern from external |
-| \(B_{\text{social}}\) | Social Boundary | role, status, relationship | Separates permissions, duties |
-| \(B_{\text{legal}}\) | Legal Boundary | rights, contracts, jurisdiction | Defines formal rights and limits |
-| \(B_{\text{econ}}\) | Economic Boundary | property, capital, liability | Separates ownership, claim |
-| \(B_{\text{digital}}\) | Digital Boundary | accounts, permissions, API | Controls digital access |
-| \(B_{\text{eco}}\) | Ecological Boundary | habitat, niche, watershed | Separates ecosystem zones |
-| \(B_{\text{planet}}\) | Planetary Boundary | climate, biodiversity, water | Defines global safe limits |
+| $B_{\text{phys}}$ | Physical Boundary | skin, membrane, wall | Separates physical body/object |
+| $B_{\text{info}}$ | Informational Boundary | encryption, access control | Controls information access |
+| $B_{\text{bio}}$ | Biological Boundary | immune system, microbiome | Separates self/non-self biology |
+| $B_{\text{cog}}$ | Cognitive Boundary | attention filter, discernment | Separates own thought from external |
+| $B_{\text{emo}}$ | Emotional Boundary | emotional autonomy, co-regulation limit | Separates own emotion from others' |
+| $B_{\text{id}}$ | Identity Boundary | self-continuity, role distinction | Separates self-pattern from external |
+| $B_{\text{social}}$ | Social Boundary | role, status, relationship | Separates permissions, duties |
+| $B_{\text{legal}}$ | Legal Boundary | rights, contracts, jurisdiction | Defines formal rights and limits |
+| $B_{\text{econ}}$ | Economic Boundary | property, capital, liability | Separates ownership, claim |
+| $B_{\text{digital}}$ | Digital Boundary | accounts, permissions, API | Controls digital access |
+| $B_{\text{eco}}$ | Ecological Boundary | habitat, niche, watershed | Separates ecosystem zones |
+| $B_{\text{planet}}$ | Planetary Boundary | climate, biodiversity, water | Defines global safe limits |
 
-**Chuỗi biến đổi của \(B\) qua các không gian biểu diễn:**
+**Chuỗi biến đổi của $B$ qua các không gian biểu diễn:**
 
-\[
-B_R \xrightarrow{\tau} B_I \xrightarrow{\tau} B_S \xrightarrow{\tau} B_E \xrightarrow{\tau} B_F \xrightarrow{\tau} B_M \xrightarrow{\tau} B_X \xrightarrow{\tau} B_P \xrightarrow{\tau} B_G \xrightarrow{\tau} B_A \xrightarrow{\tau} B_{Fb} \xrightarrow{\tau} B_U
-\]
+$$B_R \xrightarrow{\tau} B_I \xrightarrow{\tau} B_S \xrightarrow{\tau} B_E \xrightarrow{\tau} B_F \xrightarrow{\tau} B_M \xrightarrow{\tau} B_X \xrightarrow{\tau} B_P \xrightarrow{\tau} B_G \xrightarrow{\tau} B_A \xrightarrow{\tau} B_{Fb} \xrightarrow{\tau} B_U$$
 
 **Quy tắc quan trọng:** Ranh giới được tái tạo tại mọi lớp biểu diễn. Do đó:
 
-\[
-\text{Physical boundary} \neq \text{Perceived boundary} \neq \text{Legal boundary} \neq \text{Action boundary}
-\]
+$$\text{Physical boundary} \neq \text{Perceived boundary} \neq \text{Legal boundary} \neq \text{Action boundary}$$
 
 **Chất lượng ranh giới:**
-\[
-B_{\text{quality}} = \text{Clarity} \times \text{Stability} \times \text{PermeabilityControl} \times \text{Resistance} \times \text{FeedbackAccess}
-\]
+$$B_{\text{quality}} = \text{Clarity} \times \text{Stability} \times \text{PermeabilityControl} \times \text{Resistance} \times \text{FeedbackAccess}$$
 
-**Quy tắc \(B\)-to-Identity:**
-\[
-\text{Identity} = \text{Stable}(B_{\text{self}} \text{ over time})
-\]
+**Quy tắc $B$-to-Identity:**
+$$\text{Identity} = \text{Stable}(B_{\text{self}} \text{ over time})$$
 
-**Quy tắc \(B\)-to-Safety:**
-\[
-\text{Safety} = B_{\text{integrity}} \times \text{Capacity} \times \text{Feedback}
-\]
+**Quy tắc $B$-to-Safety:**
+$$\text{Safety} = B_{\text{integrity}} \times \text{Capacity} \times \text{Feedback}$$
 
-**Quy tắc \(B\)-to-Action:**
-\[
-\text{ValidAction} = \text{ActionWithinBoundary} \times \text{Permission}
-\]
+**Quy tắc $B$-to-Action:**
+$$\text{ValidAction} = \text{ActionWithinBoundary} \times \text{Permission}$$
 
-**Quy tắc \(B\)-to-Memory:**
-\[
-\text{MemoryOwner} = \text{Event} \times \text{BoundaryContext}
-\]
+**Quy tắc $B$-to-Memory:**
+$$\text{MemoryOwner} = \text{Event} \times \text{BoundaryContext}$$
 
-**Quy tắc \(B\)-to-Law:**
-\[
-\text{Law} = B + \text{Enforcement} + \text{Consequence}
-\]
+**Quy tắc $B$-to-Law:**
+$$\text{Law} = B + \text{Enforcement} + \text{Consequence}$$
 
-**Quy tắc \(B\)-to-Power:**
-\[
-\text{Power} = \text{AbilityToAlterBoundary}
-\]
+**Quy tắc $B$-to-Power:**
+$$\text{Power} = \text{AbilityToAlterBoundary}$$
 
-**Quy tắc \(B\)-to-Trust:**
-\[
-\text{Trust} = B_{\text{consistency}} \times \text{RepairHistory} \times \text{Accountability}
-\]
+**Quy tắc $B$-to-Trust:**
+$$\text{Trust} = B_{\text{consistency}} \times \text{RepairHistory} \times \text{Accountability}$$
 
-**Các chế độ thất bại (Failure Modes) của \(B\):**
+**Các chế độ thất bại (Failure Modes) của $B$:**
 
 | # | Failure Mode | Điều kiện | Hậu quả |
 |---|---|---|---|
-| 1 | No Boundary | \(B = 0\) | No identity, no protection, collapse into environment |
+| 1 | No Boundary | $B = 0$ | No identity, no protection, collapse into environment |
 | 2 | Weak Boundary | Resistance < IntrusionLoad | Breach, overwhelm, capture |
 | 3 | Rigid Boundary | Permeability ≈ 0 | Isolation, no learning, stagnation |
 | 4 | Leaky Boundary | UncontrolledFlow > AllowedFlow | Data leak, energy leak, resource drain |
-| 5 | False Boundary | Detected \(B\) - Real \(B\) > 0 | False object, false enemy, false separation |
-| 6 | Missed Boundary | Real \(B\) - Detected \(B\) > 0 | Intrusion, confusion, unsafe merging |
+| 5 | False Boundary | Detected $B$ - Real $B$ > 0 | False object, false enemy, false separation |
+| 6 | Missed Boundary | Real $B$ - Detected $B$ > 0 | Intrusion, confusion, unsafe merging |
 | 7 | Boundary Inversion | Inside classified as outside | Autoimmune error, self-sabotage |
 | 8 | Boundary Capture | External agent controls boundary | Coercion, dependency, capture |
-| 9 | Boundary Drift | \(\Delta B - \text{Feedback} > 0\) | Identity drift, scope creep, mission drift |
+| 9 | Boundary Drift | $\Delta B - \text{Feedback} > 0$ | Identity drift, scope creep, mission drift |
 | 10 | Boundary Cascade | Breach₁ × Coupling × Propagation | Systemic collapse |
 
 **Các chế độ phục hồi (Recovery Modes):**
 
 | # | Recovery Mode | Phương pháp |
 |---|---|---|
-| 1 | Re-detection | \(B_{\text{new}} = \text{Detect(Inside/Outside)}\) |
-| 2 | Strengthening | Resistance\(_{t+1}\) = Resistance\(_t\) + Repair |
+| 1 | Re-detection | $B_{\text{new}} = \text{Detect(Inside/Outside)}$ |
+| 2 | Strengthening | Resistance$_{t+1}$ = Resistance$_t$ + Repair |
 | 3 | Permeability tuning | Permeability = Adjust(AllowedFlow) |
 | 4 | Access revocation | Block unauthorized flow |
-| 5 | Identity re-anchoring | Identity = Rebind(\(B_{\text{self}}\), Memory, Agency) |
+| 5 | Identity re-anchoring | Identity = Rebind($B_{\text{self}}$, Memory, Agency) |
 | 6 | Legal/rule repair | Boundary = Boundary + Enforcement |
 | 7 | Feedback restoration | BoundaryFeedback = BreachSignal + RepairSignal |
 | 8 | Containment | Isolation around breach zone |
@@ -15474,107 +15398,79 @@ B_{\text{quality}} = \text{Clarity} \times \text{Stability} \times \text{Permeab
 | 10 | NoPrediction | If boundary cannot be located |
 
 **Bất biến của L2:**
-\[
-\boxed{\text{No } B \rightarrow \text{No system, no identity, no protection}}
-\]
+$$\boxed{\text{No } B \rightarrow \text{No system, no identity, no protection}}$$
 
 ---
 
-### L3 — SPACE GENERATOR (\(S\))
+### L3 — SPACE GENERATOR ($S$)
 
 **Định nghĩa:** Generator định nghĩa không gian khả dĩ (space of possible states) – nơi mọi cấu trúc có thể tồn tại và biến đổi. Không gian là điều kiện tiên quyết cho bất kỳ sự sắp xếp, đo lường, hoặc chuyển tiếp nào.
 
-**Bản chất:** Không có \(S\), không có vị trí, không có trạng thái, không có quan hệ, không có chuyển tiếp, không có đo lường. \(S\) là nguồn gốc của mọi khả năng.
+**Bản chất:** Không có $S$, không có vị trí, không có trạng thái, không có quan hệ, không có chuyển tiếp, không có đo lường. $S$ là nguồn gốc của mọi khả năng.
 
 **Phương trình cơ bản:**
-\[
-S = \{\text{all possible states}\}
-\]
+$$S = \{\text{all possible states}\}$$
 
 **Dạng mở rộng:**
-\[
-S = (\text{Elements}, \text{Dimensions}, \text{Topology}, \text{Metric}, \text{Constraints})
-\]
+$$S = (\text{Elements}, \text{Dimensions}, \text{Topology}, \text{Metric}, \text{Constraints})$$
 
 **Số chiều (Dimension):**
-\[
-\text{Dimension} = \text{số biến độc lập}
-\]
+$$\text{Dimension} = \text{số biến độc lập}$$
 
 **Khoảng cách (Metric):**
-\[
-d(x, y) = \text{distance between states } x \text{ and } y
-\]
+$$d(x, y) = \text{distance between states } x \text{ and } y$$
 
 **Khả năng tiếp cận (Reachability):**
-\[
-\text{Reachability}(x, y) = 1 \text{ nếu tồn tại đường đi } x \to y
-\]
+$$\text{Reachability}(x, y) = 1 \text{ nếu tồn tại đường đi } x \to y$$
 
 **Vùng hợp lệ (Valid Region):**
-\[
-S_{\text{valid}} = \{x \in S \mid C(x) \text{ satisfied}\}
-\]
+$$S_{\text{valid}} = \{x \in S \mid C(x) \text{ satisfied}\}$$
 
-**Các dạng phụ của \(S\):**
+**Các dạng phụ của $S$:**
 
 | Dạng | Tên | Ví dụ | Chức năng |
 |---|---|---|---|
-| \(S_{\text{phys}}\) | Physical Space | (x, y, z, t) | Location, distance, motion |
-| \(S_{\text{state}}\) | State Space | system configurations | System dynamics, transitions |
-| \(S_{\text{action}}\) | Action Space | possible actions | Choices, strategies |
-| \(S_{\text{memory}}\) | Memory Space | stored representations | Retrieval, continuity |
-| \(S_{\text{meaning}}\) | Meaning Space | possible interpretations | Semantics, intent |
-| \(S_{\text{policy}}\) | Policy Space | decision mappings | Rules, strategies |
-| \(S_{\text{constraint}}\) | Constraint Space | constraint configurations | Feasibility, boundaries |
-| \(S_{\text{interaction}}\) | Interaction Space | possible interactions | Network, contact |
-| \(S_{\text{identity}}\) | Identity Space | possible self-states | Roles, continuity |
-| \(S_{\text{social}}\) | Social Space | positions in social structure | Status, hierarchy |
-| \(S_{\text{econ}}\) | Economic Space | allocation states | Ownership, flow |
-| \(S_{\text{eco}}\) | Ecological Space | ecosystem states | Species, resources |
+| $S_{\text{phys}}$ | Physical Space | (x, y, z, t) | Location, distance, motion |
+| $S_{\text{state}}$ | State Space | system configurations | System dynamics, transitions |
+| $S_{\text{action}}$ | Action Space | possible actions | Choices, strategies |
+| $S_{\text{memory}}$ | Memory Space | stored representations | Retrieval, continuity |
+| $S_{\text{meaning}}$ | Meaning Space | possible interpretations | Semantics, intent |
+| $S_{\text{policy}}$ | Policy Space | decision mappings | Rules, strategies |
+| $S_{\text{constraint}}$ | Constraint Space | constraint configurations | Feasibility, boundaries |
+| $S_{\text{interaction}}$ | Interaction Space | possible interactions | Network, contact |
+| $S_{\text{identity}}$ | Identity Space | possible self-states | Roles, continuity |
+| $S_{\text{social}}$ | Social Space | positions in social structure | Status, hierarchy |
+| $S_{\text{econ}}$ | Economic Space | allocation states | Ownership, flow |
+| $S_{\text{eco}}$ | Ecological Space | ecosystem states | Species, resources |
 
-**Chuỗi biến đổi của \(S\) qua các không gian biểu diễn:**
+**Chuỗi biến đổi của $S$ qua các không gian biểu diễn:**
 
-\[
-S_R \xrightarrow{\tau} S_I \xrightarrow{\tau} S_S \xrightarrow{\tau} S_E \xrightarrow{\tau} S_F \xrightarrow{\tau} S_M \xrightarrow{\tau} S_X \xrightarrow{\tau} S_P \xrightarrow{\tau} S_G \xrightarrow{\tau} S_A \xrightarrow{\tau} S_{Fb} \xrightarrow{\tau} S_U
-\]
+$$S_R \xrightarrow{\tau} S_I \xrightarrow{\tau} S_S \xrightarrow{\tau} S_E \xrightarrow{\tau} S_F \xrightarrow{\tau} S_M \xrightarrow{\tau} S_X \xrightarrow{\tau} S_P \xrightarrow{\tau} S_G \xrightarrow{\tau} S_A \xrightarrow{\tau} S_{Fb} \xrightarrow{\tau} S_U$$
 
 **Chất lượng không gian:**
-\[
-S_{\text{quality}} = \text{Completeness} \times \text{Resolution} \times \text{Validity} \times \text{Reachability}
-\]
+$$S_{\text{quality}} = \text{Completeness} \times \text{Resolution} \times \text{Validity} \times \text{Reachability}$$
 
-**Quy tắc \(S\)-to-Difference:**
-\[
-\Delta \subset S
-\]
+**Quy tắc $S$-to-Difference:**
+$$\Delta \subset S$$
 Không có không gian → không có khác biệt.
 
-**Quy tắc \(S\)-to-Boundary:**
-\[
-B \subset S
-\]
+**Quy tắc $S$-to-Boundary:**
+$$B \subset S$$
 
-**Quy tắc \(S\)-to-Action:**
-\[
-\text{Action} = \text{Transition}(S_t \to S_{t+1})
-\]
+**Quy tắc $S$-to-Action:**
+$$\text{Action} = \text{Transition}(S_t \to S_{t+1})$$
 
-**Quy tắc \(S\)-to-Law:**
-\[
-\text{Law} = \text{Restriction}(S)
-\]
+**Quy tắc $S$-to-Law:**
+$$\text{Law} = \text{Restriction}(S)$$
 
-**Quy tắc \(S\)-to-State:**
-\[
-X_t \in S
-\]
+**Quy tắc $S$-to-State:**
+$$X_t \in S$$
 
-**Các chế độ thất bại (Failure Modes) của \(S\):**
+**Các chế độ thất bại (Failure Modes) của $S$:**
 
 | # | Failure Mode | Điều kiện | Hậu quả |
 |---|---|---|---|
-| 1 | No Space | \(S = \emptyset\) | System undefined |
+| 1 | No Space | $S = \emptyset$ | System undefined |
 | 2 | Wrong Space | Operating in incorrect domain | Invalid reasoning |
 | 3 | Incomplete Space | Missing possible states | Blind spots |
 | 4 | Overexpanded Space | Too many states | Computational collapse |
@@ -15586,7 +15482,7 @@ X_t \in S
 
 | # | Recovery Mode | Phương pháp |
 |---|---|---|
-| 1 | Reconstruct space | Rebuild \(S\) |
+| 1 | Reconstruct space | Rebuild $S$ |
 | 2 | Reduce dimensionality | Project to lower dimension |
 | 3 | Align spaces | Map between incompatible spaces |
 | 4 | Constrain space | Add constraints |
@@ -15594,64 +15490,40 @@ X_t \in S
 | 6 | Re-index representation | Change encoding |
 
 **Bất biến của L3:**
-\[
-\boxed{\text{No } S \rightarrow \text{Nothing can exist}}
-\]
+$$\boxed{\text{No } S \rightarrow \text{Nothing can exist}}$$
 
 ---
 
-### L4 — TRANSLATION GENERATOR (\(\tau\))
+### L4 — TRANSLATION GENERATOR ($\tau$)
 
 **Định nghĩa:** Generator biến đổi cấu trúc từ không gian biểu diễn này sang không gian biểu diễn khác. Dịch chuyển là điều kiện tiên quyết cho cảm nhận, nhận thức, hành động, giao tiếp, và học tập.
 
-**Bản chất:** Mỗi lần dịch chuyển, thông tin bị mất (\(L\)) và bị méo mó (\(D\)). Không có dịch chuyển hoàn hảo. \(\tau^{-1}\) không tồn tại.
+**Bản chất:** Mỗi lần dịch chuyển, thông tin bị mất ($L$) và bị méo mó ($D$). Không có dịch chuyển hoàn hảo. $\tau^{-1}$ không tồn tại.
 
 **Phương trình cơ bản:**
-\[
-Z_2 = \tau(Z_1)
-\]
+$$Z_2 = \tau(Z_1)$$
 
 **Phương trình với mất mát và méo mó:**
-\[
-Z_2 = \tau(Z_1) - L + D
-\]
+$$Z_2 = \tau(Z_1) - L + D$$
 
 **Dạng đầy đủ:**
-\[
-Z_2 = \tau(Z_1; \Delta, B, S, C, \Omega, \Pi, \Xi) - L + D
-\]
+$$Z_2 = \tau(Z_1; \Delta, B, S, C, \Omega, \Pi, \Xi) - L + D$$
 
 **Các tham số ảnh hưởng:**
-- \(\Delta\): difference being translated
-- \(B\): boundary conditions
-- \(S\): source and target spaces
-- \(C\): constraints
-- \(\Omega\): capacity limits
-- \(\Pi\): weighting/precision
-- \(\Xi\): perturbation/noise
+- $\Delta$: difference being translated
+- $B$: boundary conditions
+- $S$: source and target spaces
+- $C$: constraints
+- $\Omega$: capacity limits
+- $\Pi$: weighting/precision
+- $\Xi$: perturbation/noise
 
 **Chuỗi dịch chuyển 12 lớp (Translation Chain):**
 
-\[
-\begin{aligned}
-& X_R \xrightarrow{\tau_R} X_I && \text{Reality → Interaction} \\
-& X_I \xrightarrow{\tau_I} X_S && \text{Interaction → Signal} \\
-& X_S \xrightarrow{\tau_S} X_E && \text{Signal → Encoding} \\
-& X_E \xrightarrow{\tau_E} X_F && \text{Encoding → Feature} \\
-& X_F \xrightarrow{\tau_F} X_M && \text{Feature → Meaning} \\
-& X_M \xrightarrow{\tau_M} X_X && \text{Meaning → Internal State} \\
-& X_X \xrightarrow{\tau_X} X_P && \text{Internal State → Policy} \\
-& X_P \xrightarrow{\tau_P} X_G && \text{Policy → Gate} \\
-& X_G \xrightarrow{\tau_G} X_A && \text{Gate → Action} \\
-& X_A \xrightarrow{\tau_A} X_{Fb} && \text{Action → Feedback} \\
-& X_{Fb} \xrightarrow{\tau_{Fb}} X_U && \text{Feedback → Update}
-\end{aligned}
-\]
+$$\begin{aligned} & X_R \xrightarrow{\tau_R} X_I && \text{Reality → Interaction} \\ & X_I \xrightarrow{\tau_I} X_S && \text{Interaction → Signal} \\ & X_S \xrightarrow{\tau_S} X_E && \text{Signal → Encoding} \\ & X_E \xrightarrow{\tau_E} X_F && \text{Encoding → Feature} \\ & X_F \xrightarrow{\tau_F} X_M && \text{Feature → Meaning} \\ & X_M \xrightarrow{\tau_M} X_X && \text{Meaning → Internal State} \\ & X_X \xrightarrow{\tau_X} X_P && \text{Internal State → Policy} \\ & X_P \xrightarrow{\tau_P} X_G && \text{Policy → Gate} \\ & X_G \xrightarrow{\tau_G} X_A && \text{Gate → Action} \\ & X_A \xrightarrow{\tau_A} X_{Fb} && \text{Action → Feedback} \\ & X_{Fb} \xrightarrow{\tau_{Fb}} X_U && \text{Feedback → Update} \end{aligned}$$
 
 **Phương trình mất mát tổng:**
-\[
-L_{\text{total}} = \sum_{k} L_k
-\]
+$$L_{\text{total}} = \sum_{k} L_k$$
 
 **Các loại mất mát (Loss types):**
 
@@ -15664,9 +15536,7 @@ L_{\text{total}} = \sum_{k} L_k
 | Signal drop | Tín hiệu bị rớt | Noise floor |
 
 **Phương trình méo mó tổng:**
-\[
-D_{\text{total}} = \sum_{k} D_k
-\]
+$$D_{\text{total}} = \sum_{k} D_k$$
 
 **Các loại méo mó (Distortion types):**
 
@@ -15678,47 +15548,33 @@ D_{\text{total}} = \sum_{k} D_k
 | Misalignment | Sai lệch không gian | Wrong mapping |
 | Adversarial manipulation | Thao túng có chủ đích | Spoofing |
 
-**Quy tắc \(\tau\)-to-Difference:**
-\[
-\Delta_2 = \tau(\Delta_1) - L + D
-\]
+**Quy tắc $\tau$-to-Difference:**
+$$\Delta_2 = \tau(\Delta_1) - L + D$$
 
-**Quy tắc \(\tau\)-to-Boundary:**
-\[
-B_2 = \tau(B_1)
-\]
+**Quy tắc $\tau$-to-Boundary:**
+$$B_2 = \tau(B_1)$$
 
-**Quy tắc \(\tau\)-to-Space:**
-\[
-\tau: S_1 \to S_2
-\]
+**Quy tắc $\tau$-to-Space:**
+$$\tau: S_1 \to S_2$$
 
-**Quy tắc \(\tau\)-to-Memory:**
-\[
-\text{Memory} \neq \text{Reality},\quad \text{Memory} = \tau(\text{previous state})
-\]
+**Quy tắc $\tau$-to-Memory:**
+$$\text{Memory} \neq \text{Reality},\quad \text{Memory} = \tau(\text{previous state})$$
 
-**Quy tắc \(\tau\)-to-Action:**
-\[
-A = \tau(\text{State} \to \text{Effect})
-\]
+**Quy tắc $\tau$-to-Action:**
+$$A = \tau(\text{State} \to \text{Effect})$$
 
-**Quy tắc \(\tau\)-to-Language:**
-\[
-\text{Language} = \tau(\text{Meaning} \to \text{Tokens})
-\]
+**Quy tắc $\tau$-to-Language:**
+$$\text{Language} = \tau(\text{Meaning} \to \text{Tokens})$$
 
 **Chất lượng dịch chuyển:**
-\[
-\tau_{\text{quality}} = \text{Fidelity} \times \text{Resolution} \times \text{ContextFit} \times \text{Efficiency} \times \text{Stability}
-\]
+$$\tau_{\text{quality}} = \text{Fidelity} \times \text{Resolution} \times \text{ContextFit} \times \text{Efficiency} \times \text{Stability}$$
 
-**Các chế độ thất bại (Failure Modes) của \(\tau\):**
+**Các chế độ thất bại (Failure Modes) của $\tau$:**
 
 | # | Failure Mode | Điều kiện | Hậu quả |
 |---|---|---|---|
-| 1 | Loss Dominance | \(L \gg \text{Signal}\) | Blindness, missing information |
-| 2 | Distortion Dominance | \(D \gg \text{Signal}\) | Hallucination, misinterpretation |
+| 1 | Loss Dominance | $L \gg \text{Signal}$ | Blindness, missing information |
+| 2 | Distortion Dominance | $D \gg \text{Signal}$ | Hallucination, misinterpretation |
 | 3 | Compression Collapse | Too much compression | Loss of nuance |
 | 4 | Over-expansion | Too much detail | Noise, overload |
 | 5 | Mapping Error | Wrong space mapping | Category error |
@@ -15735,7 +15591,7 @@ A = \tau(\text{State} \to \text{Effect})
 | 3 | Re-extract features | Adjust feature extraction |
 | 4 | Re-map meaning | Correct interpretation |
 | 5 | Cross-validate channels | Compare multiple sources |
-| 6 | Adjust weighting (\(\Pi\)) | Re-calibrate confidence |
+| 6 | Adjust weighting ($\Pi$) | Re-calibrate confidence |
 | 7 | Correct context | Update context model |
 | 8 | Increase resolution | Get more detail |
 | 9 | Switch representation | Alternative encoding |
@@ -15743,126 +15599,92 @@ A = \tau(\text{State} \to \text{Effect})
 | 11 | Trigger NoPrediction | Acknowledge uncertainty |
 
 **Bất biến của L4:**
-\[
-\boxed{\tau^{-1} \text{ does not exist} \rightarrow \text{No perfect translation, no reconstruction of reality from representation}}
-\]
+$$\boxed{\tau^{-1} \text{ does not exist} \rightarrow \text{No perfect translation, no reconstruction of reality from representation}}$$
 
 ---
 
-### L5 — CONSTRAINT GENERATOR (\(C\))
+### L5 — CONSTRAINT GENERATOR ($C$)
 
 **Định nghĩa:** Generator định nghĩa điều kiện hợp lệ / không hợp lệ, khả thi / không khả thi, ổn định / không ổn định. Ràng buộc là điều kiện tiên quyết cho luật, cấu trúc, và sự tồn tại bền vững.
 
-**Bản chất:** Không có \(C\), không có luật, không có ổn định, không có lọc, không có cấu trúc bền vững. \(C\) là nguồn gốc của mọi quy tắc và mọi giới hạn.
+**Bản chất:** Không có $C$, không có luật, không có ổn định, không có lọc, không có cấu trúc bền vững. $C$ là nguồn gốc của mọi quy tắc và mọi giới hạn.
 
 **Phương trình cơ bản:**
-\[
-C(x) \in \{\text{valid}, \text{invalid}\}
-\]
+$$C(x) \in \{\text{valid}, \text{invalid}\}$$
 
 **Tập hợp hợp lệ:**
-\[
-S_{\text{valid}} = \{x \in S \mid C(x) \text{ holds}\}
-\]
+$$S_{\text{valid}} = \{x \in S \mid C(x) \text{ holds}\}$$
 
 **Dạng mở rộng:**
-\[
-C(x) = \{x \mid \phi_i(x) \leq \theta_i \ \forall i\}
-\]
-Trong đó \(\phi_i\) là hàm ràng buộc, \(\theta_i\) là ngưỡng.
+$$C(x) = \{x \mid \phi_i(x) \leq \theta_i \ \forall i\}$$
+Trong đó $\phi_i$ là hàm ràng buộc, $\theta_i$ là ngưỡng.
 
 **Chồng ràng buộc (Constraint Stack):**
-\[
-C_{\text{total}} = \bigwedge_i C_i
-\]
+$$C_{\text{total}} = \bigwedge_i C_i$$
 
 **Ràng buộc mềm (Soft Constraint):**
-\[
-C_{\text{soft}}(x) = \text{penalty}(x)
-\]
+$$C_{\text{soft}}(x) = \text{penalty}(x)$$
 
 **Ràng buộc cứng (Hard Constraint):**
-\[
-C_{\text{hard}}(x) \in \{0, 1\}
-\]
+$$C_{\text{hard}}(x) \in \{0, 1\}$$
 
 **Điều kiện ổn định (Stability Condition):**
-\[
-\text{Stable}(x) \text{ nếu } \forall \text{ perturbation } \varepsilon: x + \varepsilon \in S_{\text{valid}}
-\]
+$$\text{Stable}(x) \text{ nếu } \forall \text{ perturbation } \varepsilon: x + \varepsilon \in S_{\text{valid}}$$
 
 **Áp lực ràng buộc (Constraint Pressure):**
-\[
-\text{Pressure} = \sum_i \text{violation}_i(x)
-\]
+$$\text{Pressure} = \sum_i \text{violation}_i(x)$$
 
-**Các dạng phụ của \(C\):**
+**Các dạng phụ của $C$:**
 
 | Dạng | Tên | Ví dụ |
 |---|---|---|
-| \(C_{\text{phys}}\) | Physical Constraints | gravity, thermodynamics, speed limits |
-| \(C_{\text{chem}}\) | Chemical Constraints | reaction limits, bond rules |
-| \(C_{\text{bio}}\) | Biological Constraints | metabolism, homeostasis, immune tolerance |
-| \(C_{\text{cog}}\) | Cognitive Constraints | attention, working memory, processing bandwidth |
-| \(C_{\text{info}}\) | Informational Constraints | signal-to-noise, bandwidth, compression limits |
-| \(C_{\text{social}}\) | Social Constraints | norms, roles, status limits |
-| \(C_{\text{legal}}\) | Legal Constraints | laws, contracts, rights |
-| \(C_{\text{econ}}\) | Economic Constraints | budget, liquidity, cost |
-| \(C_{\text{sys}}\) | System Constraints | architecture limits, protocol rules |
-| \(C_{\text{eth}}\) | Ethical Constraints | non-destruction, consent boundaries |
-| \(C_{\text{time}}\) | Temporal Constraints | deadlines, reaction windows |
-| \(C_{\text{env}}\) | Environmental Constraints | temperature, pressure, resources |
+| $C_{\text{phys}}$ | Physical Constraints | gravity, thermodynamics, speed limits |
+| $C_{\text{chem}}$ | Chemical Constraints | reaction limits, bond rules |
+| $C_{\text{bio}}$ | Biological Constraints | metabolism, homeostasis, immune tolerance |
+| $C_{\text{cog}}$ | Cognitive Constraints | attention, working memory, processing bandwidth |
+| $C_{\text{info}}$ | Informational Constraints | signal-to-noise, bandwidth, compression limits |
+| $C_{\text{social}}$ | Social Constraints | norms, roles, status limits |
+| $C_{\text{legal}}$ | Legal Constraints | laws, contracts, rights |
+| $C_{\text{econ}}$ | Economic Constraints | budget, liquidity, cost |
+| $C_{\text{sys}}$ | System Constraints | architecture limits, protocol rules |
+| $C_{\text{eth}}$ | Ethical Constraints | non-destruction, consent boundaries |
+| $C_{\text{time}}$ | Temporal Constraints | deadlines, reaction windows |
+| $C_{\text{env}}$ | Environmental Constraints | temperature, pressure, resources |
 
-**Chuỗi biến đổi của \(C\) qua các không gian biểu diễn:**
+**Chuỗi biến đổi của $C$ qua các không gian biểu diễn:**
 
-\[
-C_R \xrightarrow{\tau} C_I \xrightarrow{\tau} C_S \xrightarrow{\tau} C_E \xrightarrow{\tau} C_F \xrightarrow{\tau} C_M \xrightarrow{\tau} C_X \xrightarrow{\tau} C_P \xrightarrow{\tau} C_G \xrightarrow{\tau} C_A \xrightarrow{\tau} C_{Fb} \xrightarrow{\tau} C_U
-\]
+$$C_R \xrightarrow{\tau} C_I \xrightarrow{\tau} C_S \xrightarrow{\tau} C_E \xrightarrow{\tau} C_F \xrightarrow{\tau} C_M \xrightarrow{\tau} C_X \xrightarrow{\tau} C_P \xrightarrow{\tau} C_G \xrightarrow{\tau} C_A \xrightarrow{\tau} C_{Fb} \xrightarrow{\tau} C_U$$
 
 **Chất lượng ràng buộc:**
-\[
-C_{\text{quality}} = \text{Correctness} \times \text{Completeness} \times \text{Enforceability} \times \text{Adaptability}
-\]
+$$C_{\text{quality}} = \text{Correctness} \times \text{Completeness} \times \text{Enforceability} \times \text{Adaptability}$$
 
-**Quy tắc \(C\)-to-Space:**
-\[
-S_{\text{valid}} = S - \text{Violations}
-\]
+**Quy tắc $C$-to-Space:**
+$$S_{\text{valid}} = S - \text{Violations}$$
 
-**Quy tắc \(C\)-to-Action:**
-\[
-\text{ValidAction} = \text{Action} \in S_{\text{valid}}
-\]
+**Quy tắc $C$-to-Action:**
+$$\text{ValidAction} = \text{Action} \in S_{\text{valid}}$$
 
-**Quy tắc \(C\)-to-Capacity:**
-\[
-C(x) \text{ must respect } \Omega
-\]
+**Quy tắc $C$-to-Capacity:**
+$$C(x) \text{ must respect } \Omega$$
 
-**Quy tắc \(C\)-to-Boundary:**
-\[
-B \text{ enforces } C
-\]
+**Quy tắc $C$-to-Boundary:**
+$$B \text{ enforces } C$$
 
-**Quy tắc \(C\)-to-Law:**
-\[
-\text{Law} = \text{Stable}(C \text{ over time})
-\]
+**Quy tắc $C$-to-Law:**
+$$\text{Law} = \text{Stable}(C \text{ over time})$$
 
-**Quy tắc \(C\)-to-Collapse:**
-\[
-\text{Collapse} = \sum \text{violations} > \text{tolerance}
-\]
+**Quy tắc $C$-to-Collapse:**
+$$\text{Collapse} = \sum \text{violations} > \text{tolerance}$$
 
-**Các chế độ thất bại (Failure Modes) của \(C\):**
+**Các chế độ thất bại (Failure Modes) của $C$:**
 
 | # | Failure Mode | Điều kiện | Hậu quả |
 |---|---|---|---|
-| 1 | No Constraint | \(C = \emptyset\) | Chaos |
-| 2 | Overconstraint | \(S_{\text{valid}} = \emptyset\) | No feasible state |
+| 1 | No Constraint | $C = \emptyset$ | Chaos |
+| 2 | Overconstraint | $S_{\text{valid}} = \emptyset$ | No feasible state |
 | 3 | Wrong Constraint | Valid states removed | Invalid reasoning |
 | 4 | Weak Constraint | Invalid states allowed | Unsafe behavior |
-| 5 | Conflicting Constraints | \(C_1 \land C_2 = \emptyset\) | Deadlock |
+| 5 | Conflicting Constraints | $C_1 \land C_2 = \emptyset$ | Deadlock |
 | 6 | Hidden Constraint | Undetected limitation | Unexpected failure |
 | 7 | Dynamic Constraint Shift | Constraints change unnoticed | Instability |
 | 8 | Adversarial Constraint | Injected rule | Manipulation |
@@ -15878,140 +15700,102 @@ B \text{ enforces } C
 | 3 | Tighten weak constraints | Increase strictness |
 | 4 | Resolve conflicts | Prioritize |
 | 5 | Expose hidden constraints | Reveal limits |
-| 6 | Recalibrate thresholds | Adjust \(\theta_i\) |
+| 6 | Recalibrate thresholds | Adjust $\theta_i$ |
 | 7 | Enforce constraints | Apply rules |
-| 8 | Add missing constraints | Extend \(C\) |
+| 8 | Add missing constraints | Extend $C$ |
 | 9 | Trigger NoAction | If cannot satisfy |
 | 10 | Trigger NoPrediction | If cannot determine |
 
 **Bất biến của L5:**
-\[
-\boxed{\text{No } C \rightarrow \text{Chaos; Overconstraint } \rightarrow \text{Paralysis}}
-\]
+$$\boxed{\text{No } C \rightarrow \text{Chaos; Overconstraint } \rightarrow \text{Paralysis}}$$
 
 ---
 
-### L6 — CAPACITY GENERATOR (\(\Omega\))
+### L6 — CAPACITY GENERATOR ($\Omega$)
 
 **Định nghĩa:** Generator định nghĩa giới hạn tài nguyên – năng lượng, thời gian, bộ nhớ, chú ý, băng thông xử lý. Năng lực là điều kiện tiên quyết cho tính khả thi, sự sống còn, và các ngưỡng sụp đổ.
 
-**Bản chất:** Không có \(\Omega\), không có giới hạn, không có sự sống còn, không có sụp đổ. \(\Omega\) là nguồn gốc của mọi trade-off và mọi ưu tiên.
+**Bản chất:** Không có $\Omega$, không có giới hạn, không có sự sống còn, không có sụp đổ. $\Omega$ là nguồn gốc của mọi trade-off và mọi ưu tiên.
 
 **Phương trình cơ bản:**
-\[
-\text{Feasible}(x) = 1 \iff \text{Load}(x) \leq \Omega
-\]
+$$\text{Feasible}(x) = 1 \iff \text{Load}(x) \leq \Omega$$
 
 **Quá tải (Overload):**
-\[
-\text{Overload} = \text{Load} - \Omega
-\]
+$$\text{Overload} = \text{Load} - \Omega$$
 
 **Thông lượng (Throughput):**
-\[
-\text{Throughput} = \frac{\text{Processed}}{\text{Time}} \leq \Omega_{\text{rate}}
-]
-
-**Phân bổ năng lực (Capacity Allocation):**
-\[
+$$\text{Throughput} = \frac{\text{Processed}}{\text{Time}} \leq \Omega_{\text{rate}} ] **Phân bổ năng lực (Capacity Allocation):**$$
 \Omega_{\text{total}} = \sum_i \Omega_i
-\]
-\[
-\Omega_i = \text{Weight}_i \times \Omega_{\text{total}}
-\]
+$$$$ \Omega_i = \text{Weight}_i \times \Omega_{\text{total}}$$
 
 **Dự trữ (Reserve):**
-\[
-\Omega_{\text{reserve}} = \Omega_{\text{total}} - \Omega_{\text{used}}
-\]
+$$\Omega_{\text{reserve}} = \Omega_{\text{total}} - \Omega_{\text{used}}$$
 
 **Hiệu suất (Efficiency):**
-\[
-\text{EffectiveCapacity} = \Omega \times \text{Efficiency}
-\]
+$$\text{EffectiveCapacity} = \Omega \times \text{Efficiency}$$
 
 **Suy thoái (Degradation):**
-\[
-\Omega_{t+1} = \Omega_t - \text{Damage} + \text{Recovery}
-\]
+$$\Omega_{t+1} = \Omega_t - \text{Damage} + \text{Recovery}$$
 
-**Các dạng phụ của \(\Omega\):**
+**Các dạng phụ của $\Omega$:**
 
 | Dạng | Tên | Ví dụ |
 |---|---|---|
-| \(\Omega_{\text{energy}}\) | Energy Capacity | fuel, calories, power |
-| \(\Omega_{\text{time}}\) | Time Capacity | available processing time |
-| \(\Omega_{\text{compute}}\) | Compute Capacity | processing ability |
-| \(\Omega_{\text{attention}}\) | Attention Capacity | focus bandwidth |
-| \(\Omega_{\text{memory}}\) | Memory Capacity | storage limit |
-| \(\Omega_{\text{bio}}\) | Biological Capacity | physiological limits |
-| \(\Omega_{\text{emo}}\) | Emotional Capacity | tolerance for affect |
-| \(\Omega_{\text{social}}\) | Social Capacity | relationship bandwidth |
-| \(\Omega_{\text{econ}}\) | Economic Capacity | capital, liquidity |
-| \(\Omega_{\text{sys}}\) | System Capacity | infrastructure limits |
-| \(\Omega_{\text{eco}}\) | Ecological Capacity | carrying capacity |
-| \(\Omega_{\text{planet}}\) | Planetary Capacity | global limits |
+| $\Omega_{\text{energy}}$ | Energy Capacity | fuel, calories, power |
+| $\Omega_{\text{time}}$ | Time Capacity | available processing time |
+| $\Omega_{\text{compute}}$ | Compute Capacity | processing ability |
+| $\Omega_{\text{attention}}$ | Attention Capacity | focus bandwidth |
+| $\Omega_{\text{memory}}$ | Memory Capacity | storage limit |
+| $\Omega_{\text{bio}}$ | Biological Capacity | physiological limits |
+| $\Omega_{\text{emo}}$ | Emotional Capacity | tolerance for affect |
+| $\Omega_{\text{social}}$ | Social Capacity | relationship bandwidth |
+| $\Omega_{\text{econ}}$ | Economic Capacity | capital, liquidity |
+| $\Omega_{\text{sys}}$ | System Capacity | infrastructure limits |
+| $\Omega_{\text{eco}}$ | Ecological Capacity | carrying capacity |
+| $\Omega_{\text{planet}}$ | Planetary Capacity | global limits |
 
-**Chuỗi biến đổi của \(\Omega\) qua các không gian biểu diễn:**
+**Chuỗi biến đổi của $\Omega$ qua các không gian biểu diễn:**
 
-\[
-\Omega_R \xrightarrow{\tau} \Omega_I \xrightarrow{\tau} \Omega_S \xrightarrow{\tau} \Omega_E \xrightarrow{\tau} \Omega_F \xrightarrow{\tau} \Omega_M \xrightarrow{\tau} \Omega_X \xrightarrow{\tau} \Omega_P \xrightarrow{\tau} \Omega_G \xrightarrow{\tau} \Omega_A \xrightarrow{\tau} \Omega_{Fb} \xrightarrow{\tau} \Omega_U
-\]
+$$\Omega_R \xrightarrow{\tau} \Omega_I \xrightarrow{\tau} \Omega_S \xrightarrow{\tau} \Omega_E \xrightarrow{\tau} \Omega_F \xrightarrow{\tau} \Omega_M \xrightarrow{\tau} \Omega_X \xrightarrow{\tau} \Omega_P \xrightarrow{\tau} \Omega_G \xrightarrow{\tau} \Omega_A \xrightarrow{\tau} \Omega_{Fb} \xrightarrow{\tau} \Omega_U$$
 
 **Nút cổ chai (Bottleneck):**
-\[
-\Omega_{\text{bottleneck}} = \min_k(\Omega_k)
-\]
+$$\Omega_{\text{bottleneck}} = \min_k(\Omega_k)$$
 
 **Chất lượng năng lực:**
-\[
-\Omega_{\text{quality}} = \text{Size} \times \text{Efficiency} \times \text{Stability} \times \text{Reserve}
-\]
+$$\Omega_{\text{quality}} = \text{Size} \times \text{Efficiency} \times \text{Stability} \times \text{Reserve}$$
 
-**Quy tắc \(\Omega\)-to-Constraint:**
-\[
-C(x) \text{ feasible only if Load}(x) \leq \Omega
-\]
+**Quy tắc $\Omega$-to-Constraint:**
+$$C(x) \text{ feasible only if Load}(x) \leq \Omega$$
 
-**Quy tắc \(\Omega\)-to-Action:**
-\[
-\text{Action} = f(\Omega_{\text{available}})
-\]
+**Quy tắc $\Omega$-to-Action:**
+$$\text{Action} = f(\Omega_{\text{available}})$$
 
-**Quy tắc \(\Omega\)-to-Selection:**
-\[
-\Psi(x) \text{ biased by } \Omega
-\]
+**Quy tắc $\Omega$-to-Selection:**
+$$\Psi(x) \text{ biased by } \Omega$$
 
-**Quy tắc \(\Omega\)-to-Collapse:**
-\[
-\text{Collapse occurs when overload persists: } \int (\text{Load} - \Omega) dt > \text{threshold}
-\]
+**Quy tắc $\Omega$-to-Collapse:**
+$$\text{Collapse occurs when overload persists: } \int (\text{Load} - \Omega) dt > \text{threshold}$$
 
-**Quy tắc \(\Omega\)-to-Drift:**
-\[
-\text{Low capacity} \rightarrow \text{degraded feedback} \rightarrow \text{drift}
-\]
+**Quy tắc $\Omega$-to-Drift:**
+$$\text{Low capacity} \rightarrow \text{degraded feedback} \rightarrow \text{drift}$$
 
-**Quy tắc \(\Omega\)-to-Power:**
-\[
-\text{Power} \leq \Omega_{\text{controlled}}
-\]
+**Quy tắc $\Omega$-to-Power:**
+$$\text{Power} \leq \Omega_{\text{controlled}}$$
 
-**Các chế độ thất bại (Failure Modes) của \(\Omega\):**
+**Các chế độ thất bại (Failure Modes) của $\Omega$:**
 
 | # | Failure Mode | Điều kiện | Hậu quả |
 |---|---|---|---|
-| 1 | No Capacity | \(\Omega = 0\) | System cannot operate |
-| 2 | Overload | Load > \(\Omega\) | Degradation, failure |
-| 3 | Saturation | \(\Omega\) fully used | No flexibility |
+| 1 | No Capacity | $\Omega = 0$ | System cannot operate |
+| 2 | Overload | Load > $\Omega$ | Degradation, failure |
+| 3 | Saturation | $\Omega$ fully used | No flexibility |
 | 4 | Fragmentation | Capacity split inefficiently | Waste |
-| 5 | Misallocation | \(\Omega\) given to wrong tasks | Inefficiency |
+| 5 | Misallocation | $\Omega$ given to wrong tasks | Inefficiency |
 | 6 | Hidden Capacity Loss | Damage unnoticed | Unexpected failure |
-| 7 | Capacity Drift | \(\Omega\) changes without detection | Mis-calibration |
-| 8 | Adversarial Drain | External agent consumes \(\Omega\) | Resource exhaustion |
+| 7 | Capacity Drift | $\Omega$ changes without detection | Mis-calibration |
+| 8 | Adversarial Drain | External agent consumes $\Omega$ | Resource exhaustion |
 | 9 | Capacity Cascade | One overload triggers others | Systemic collapse |
-| 10 | False Capacity Signal | Perceived \(\Omega\) > real \(\Omega\) | Overcommitment |
+| 10 | False Capacity Signal | Perceived $\Omega$ > real $\Omega$ | Overcommitment |
 
 **Các chế độ phục hồi (Recovery Modes):**
 
@@ -16019,7 +15803,7 @@ C(x) \text{ feasible only if Load}(x) \leq \Omega
 |---|---|---|
 | 1 | Reduce load | Decrease demand |
 | 2 | Increase capacity | Add resources |
-| 3 | Reallocate resources | Re-assign \(\Omega_i\) |
+| 3 | Reallocate resources | Re-assign $\Omega_i$ |
 | 4 | Add reserve | Increase buffer |
 | 5 | Improve efficiency | Reduce waste |
 | 6 | Block drains | Stop resource leakage |
@@ -16029,122 +15813,86 @@ C(x) \text{ feasible only if Load}(x) \leq \Omega
 | 10 | Trigger NoPrediction | Stop if cannot |
 
 **Bất biến của L6:**
-\[
-\boxed{\text{Load} > \Omega \rightarrow \text{Degradation or failure}}
-\]
+$$\boxed{\text{Load} > \Omega \rightarrow \text{Degradation or failure}}$$
 
 ---
 
-### L7 — SELECTION GENERATOR (\(\Psi\))
+### L7 — SELECTION GENERATOR ($\Psi$)
 
 **Định nghĩa:** Generator chọn lọc cái tồn tại, được nhớ, được hành động, được ưu tiên. Chọn lọc là điều kiện tiên quyết cho trí nhớ, quyết định, tiến hóa, và sự sống còn.
 
-**Bản chất:** Không có \(\Psi\), không có trí nhớ, không có quyết định, không có học tập, không có tiến hóa, không có ưu tiên. \(\Psi\) là nguồn gốc của mọi sự tồn tại được chọn.
+**Bản chất:** Không có $\Psi$, không có trí nhớ, không có quyết định, không có học tập, không có tiến hóa, không có ưu tiên. $\Psi$ là nguồn gốc của mọi sự tồn tại được chọn.
 
 **Phương trình cơ bản:**
-\[
-\Psi(x) = \text{retain}(x)
-\]
+$$\Psi(x) = \text{retain}(x)$$
 
 **Dạng tập hợp:**
-\[
-\Psi: S \to S_{\text{subset}}
-\]
+$$\Psi: S \to S_{\text{subset}}$$
 
 **Dạng có trọng số:**
-\[
-\Psi(x) = \arg\max_x [\Pi(x) \times \text{Value}(x)] \text{ subject to } C, \Omega
-\]
+$$\Psi(x) = \arg\max_x [\Pi(x) \times \text{Value}(x)] \text{ subject to } C, \Omega$$
 
 **Chọn lọc ngưỡng:**
-\[
-\text{Selected} = \{x \mid \text{score}(x) \geq \text{threshold}\}
-\]
+$$\text{Selected} = \{x \mid \text{score}(x) \geq \text{threshold}\}$$
 
 **Chọn lọc tối ưu:**
-\[
-\Psi(x) = \arg\max U(x)
-\]
+$$\Psi(x) = \arg\max U(x)$$
 
 **Chọn lọc có ràng buộc:**
-\[
-\Psi(x) = \arg\max U(x) \text{ subject to } C(x), \Omega(x)
-\]
+$$\Psi(x) = \arg\max U(x) \text{ subject to } C(x), \Omega(x)$$
 
 **Chọn lọc cạnh tranh:**
-\[
-\Psi = \text{top-}k(x)
-\]
+$$\Psi = \text{top-}k(x)$$
 
 **Chọn lọc xác suất:**
-\[
-P(\text{select } x) \propto \exp(\text{Score}(x))
-\]
+$$P(\text{select } x) \propto \exp(\text{Score}(x))$$
 
 **Cập nhật trí nhớ (Memory Retention):**
-\[
-M_{t+1} = \Psi(M_t \cup \text{NewInput})
-\]
+$$M_{t+1} = \Psi(M_t \cup \text{NewInput})$$
 
-**Các dạng phụ của \(\Psi\):**
+**Các dạng phụ của $\Psi$:**
 
 | Dạng | Tên | Ứng dụng |
 |---|---|---|
-| \(\Psi_{\text{signal}}\) | Signal Selection | Which signals are attended |
-| \(\Psi_{\text{memory}}\) | Memory Selection | What is stored |
-| \(\Psi_{\text{action}}\) | Action Selection | Which action is taken |
-| \(\Psi_{\text{policy}}\) | Policy Selection | Which strategy used |
-| \(\Psi_{\text{feature}}\) | Feature Selection | Which patterns extracted |
-| \(\Psi_{\text{meaning}}\) | Meaning Selection | Which interpretation chosen |
-| \(\Psi_{\text{social}}\) | Social Selection | Which alliances/roles chosen |
-| \(\Psi_{\text{evolution}}\) | Evolutionary Selection | Which traits survive |
-| \(\Psi_{\text{econ}}\) | Economic Selection | Which investments chosen |
-| \(\Psi_{\text{system}}\) | System Selection | Which processes prioritized |
-| \(\Psi_{\text{risk}}\) | Risk Selection | Which risks avoided/accepted |
-| \(\Psi_{\text{attention}}\) | Attention Selection | Which inputs processed |
+| $\Psi_{\text{signal}}$ | Signal Selection | Which signals are attended |
+| $\Psi_{\text{memory}}$ | Memory Selection | What is stored |
+| $\Psi_{\text{action}}$ | Action Selection | Which action is taken |
+| $\Psi_{\text{policy}}$ | Policy Selection | Which strategy used |
+| $\Psi_{\text{feature}}$ | Feature Selection | Which patterns extracted |
+| $\Psi_{\text{meaning}}$ | Meaning Selection | Which interpretation chosen |
+| $\Psi_{\text{social}}$ | Social Selection | Which alliances/roles chosen |
+| $\Psi_{\text{evolution}}$ | Evolutionary Selection | Which traits survive |
+| $\Psi_{\text{econ}}$ | Economic Selection | Which investments chosen |
+| $\Psi_{\text{system}}$ | System Selection | Which processes prioritized |
+| $\Psi_{\text{risk}}$ | Risk Selection | Which risks avoided/accepted |
+| $\Psi_{\text{attention}}$ | Attention Selection | Which inputs processed |
 
-**Chuỗi biến đổi của \(\Psi\) qua các không gian biểu diễn:**
+**Chuỗi biến đổi của $\Psi$ qua các không gian biểu diễn:**
 
-\[
-\Psi_R \xrightarrow{\tau} \Psi_I \xrightarrow{\tau} \Psi_S \xrightarrow{\tau} \Psi_E \xrightarrow{\tau} \Psi_F \xrightarrow{\tau} \Psi_M \xrightarrow{\tau} \Psi_X \xrightarrow{\tau} \Psi_P \xrightarrow{\tau} \Psi_G \xrightarrow{\tau} \Psi_A \xrightarrow{\tau} \Psi_{Fb} \xrightarrow{\tau} \Psi_U
-\]
+$$\Psi_R \xrightarrow{\tau} \Psi_I \xrightarrow{\tau} \Psi_S \xrightarrow{\tau} \Psi_E \xrightarrow{\tau} \Psi_F \xrightarrow{\tau} \Psi_M \xrightarrow{\tau} \Psi_X \xrightarrow{\tau} \Psi_P \xrightarrow{\tau} \Psi_G \xrightarrow{\tau} \Psi_A \xrightarrow{\tau} \Psi_{Fb} \xrightarrow{\tau} \Psi_U$$
 
 **Chất lượng chọn lọc:**
-\[
-\Psi_{\text{quality}} = \text{Accuracy} \times \text{Relevance} \times \text{Efficiency} \times \text{Stability}
-\]
+$$\Psi_{\text{quality}} = \text{Accuracy} \times \text{Relevance} \times \text{Efficiency} \times \text{Stability}$$
 
-**Quy tắc \(\Psi\)-to-Capacity:**
-\[
-\Psi \text{ constrained by } \Omega \text{ (only top signals survive)}
-\]
+**Quy tắc $\Psi$-to-Capacity:**
+$$\Psi \text{ constrained by } \Omega \text{ (only top signals survive)}$$
 
-**Quy tắc \(\Psi\)-to-Constraint:**
-\[
-\Psi \text{ must respect } C
-\]
+**Quy tắc $\Psi$-to-Constraint:**
+$$\Psi \text{ must respect } C$$
 
-**Quy tắc \(\Psi\)-to-Feedback:**
-\[
-\Psi_{t+1} = \Psi_t + \Gamma
-\]
+**Quy tắc $\Psi$-to-Feedback:**
+$$\Psi_{t+1} = \Psi_t + \Gamma$$
 
-**Quy tắc \(\Psi\)-to-Learning:**
-\[
-\text{Learning} = \text{improved } \Psi
-\]
+**Quy tắc $\Psi$-to-Learning:**
+$$\text{Learning} = \text{improved } \Psi$$
 
-**Quy tắc \(\Psi\)-to-Evolution:**
-\[
-\text{Evolution} = \Psi \text{ over generations}
-\]
+**Quy tắc $\Psi$-to-Evolution:**
+$$\text{Evolution} = \Psi \text{ over generations}$$
 
-**Quy tắc \(\Psi\)-to-Identity:**
-\[
-\text{Identity} = \text{stable } \Psi \text{ patterns}
-\]
+**Quy tắc $\Psi$-to-Identity:**
+$$\text{Identity} = \text{stable } \Psi \text{ patterns}$$
 
-**Các chế độ thất bại (Failure Modes) của \(\Psi\):**
+**Các chế độ thất bại (Failure Modes) của $\Psi$:**
 
 | # | Failure Mode | Điều kiện | Hậu quả |
 |---|---|---|---|
@@ -16152,7 +15900,7 @@ M_{t+1} = \Psi(M_t \cup \text{NewInput})
 | 2 | Wrong Selection | Important dropped | Loss, error |
 | 3 | Over-selection | Too strict | Information loss |
 | 4 | Under-selection | Too loose | Noise |
-| 5 | Bias Selection | \(\Pi\) distorted | Systematic error |
+| 5 | Bias Selection | $\Pi$ distorted | Systematic error |
 | 6 | Stale Selection | Not updated | Outdated decisions |
 | 7 | Adversarial Selection | External manipulation | Capture |
 | 8 | Feedback Misuse | Wrong learning | Maladaptation |
@@ -16163,7 +15911,7 @@ M_{t+1} = \Psi(M_t \cup \text{NewInput})
 
 | # | Recovery Mode | Phương pháp |
 |---|---|---|
-| 1 | Re-weight signals | Adjust \(\Pi\) |
+| 1 | Re-weight signals | Adjust $\Pi$ |
 | 2 | Re-evaluate utility | Update value function |
 | 3 | Add randomness | Exploration |
 | 4 | Increase exploration | Broaden search |
@@ -16174,112 +15922,53 @@ M_{t+1} = \Psi(M_t \cup \text{NewInput})
 | 9 | Trigger NoPrediction | Stop if cannot |
 
 **Bất biến của L7:**
-\[
-\boxed{\text{No } \Psi \rightarrow \text{Overload; Wrong } \Psi \rightarrow \text{Choosing the wrong things}}
-\]
+$$\boxed{\text{No } \Psi \rightarrow \text{Overload; Wrong } \Psi \rightarrow \text{Choosing the wrong things}}$$
 
 ---
 
-### L8 — COUPLING GENERATOR (\(\Lambda\))
+### L8 — COUPLING GENERATOR ($\Lambda$)
 
 **Định nghĩa:** Generator kết nối các thành phần để một trạng thái ảnh hưởng đến trạng thái khác. Kết nối là điều kiện tiên quyết cho tương tác, lan truyền nhân quả, mạng lưới, và hành vi nổi sinh.
 
-**Bản chất:** Không có \(\Lambda\), không có tương tác, không có lan truyền nhân quả, không có hệ thống, không có mạng lưới, không có phản hồi. \(\Lambda\) là nguồn gốc của mọi sự phụ thuộc và mọi hiệu ứng dây chuyền.
+**Bản chất:** Không có $\Lambda$, không có tương tác, không có lan truyền nhân quả, không có hệ thống, không có mạng lưới, không có phản hồi. $\Lambda$ là nguồn gốc của mọi sự phụ thuộc và mọi hiệu ứng dây chuyền.
 
 **Phương trình cơ bản:**
-\[
-X_i(t+1) = X_i(t) + \sum_j \Lambda_{ij} \cdot X_j(t)
-\]
+$$X_i(t+1) = X_i(t) + \sum_j \Lambda_{ij} \cdot X_j(t)$$
 
 **Kết nối có trọng số:**
-\[
-\Lambda_{ij} = \text{Strength} \times \text{Direction} \times \text{Channel}
-\]
+$$\Lambda_{ij} = \text{Strength} \times \text{Direction} \times \text{Channel}$$
 
 **Kết nối có trễ:**
-\[
-X_i(t+1) = X_i(t) + \sum_j \Lambda_{ij} \cdot X_j(t - \tau_{ij})
-\]
+$$X_i(t+1) = X_i(t) + \sum_j \Lambda_{ij} \cdot X_j(t - \tau_{ij})$$
 
 **Kết nối phi tuyến:**
-\[
-X_i(t+1) = f\left(X_i, \sum_j \Lambda_{ij} X_j\right)
-\]
+$$X_i(t+1) = f\left(X_i, \sum_j \Lambda_{ij} X_j\right)$$
 
 **Điều kiện ổn định:**
-\[
-\text{System stable if } \text{spectral\_radius}(\Lambda) < 1
-]
-
-**Các dạng cấu trúc kết nối (Coupling Structures):**
-
-| Dạng | Mô tả | Ví dụ |
-|---|---|---|
-| Pairwise | Two nodes | Simple interaction |
-| Network | Many nodes | Social network |
-| Hierarchical | Layered | Organizational hierarchy |
-| Modular | Clustered | Ecosystem modules |
-| Fully connected | Dense | Complete graph |
-| Sparse | Limited links | Sparse network |
-
-**Các dạng phụ của \(\Lambda\):**
-
-| Dạng | Tên | Ứng dụng |
-|---|---|---|
-| \(\Lambda_{\text{phys}}\) | Physical Coupling | force, energy transfer |
-| \(\Lambda_{\text{info}}\) | Informational Coupling | signal flow |
-| \(\Lambda_{\text{bio}}\) | Biological Coupling | hormones, neural signals |
-| \(\Lambda_{\text{cog}}\) | Cognitive Coupling | belief influence |
-| \(\Lambda_{\text{emo}}\) | Emotional Coupling | affect contagion |
-| \(\Lambda_{\text{social}}\) | Social Coupling | peer influence, hierarchy |
-| \(\Lambda_{\text{econ}}\) | Economic Coupling | market dependency |
-| \(\Lambda_{\text{tech}}\) | Technological Coupling | system integration |
-| \(\Lambda_{\text{eco}}\) | Ecological Coupling | species interaction |
-| \(\Lambda_{\text{inst}}\) | Institutional Coupling | policy interaction |
-| \(\Lambda_{\text{scale}}\) | Cross-scale Coupling | micro → macro |
-| \(\Lambda_{\text{adv}}\) | Adversarial Coupling | manipulation pathways |
-
-**Chuỗi biến đổi của \(\Lambda\) qua các không gian biểu diễn:**
-
-\[
+$$\text{System stable if } \text{spectral\_radius}(\Lambda) < 1 ] **Các dạng cấu trúc kết nối (Coupling Structures):** | Dạng | Mô tả | Ví dụ | |---|---|---| | Pairwise | Two nodes | Simple interaction | | Network | Many nodes | Social network | | Hierarchical | Layered | Organizational hierarchy | | Modular | Clustered | Ecosystem modules | | Fully connected | Dense | Complete graph | | Sparse | Limited links | Sparse network | **Các dạng phụ của $\Lambda$:** | Dạng | Tên | Ứng dụng | |---|---|---| | $\Lambda_{\text{phys}}$ | Physical Coupling | force, energy transfer | | $\Lambda_{\text{info}}$ | Informational Coupling | signal flow | | $\Lambda_{\text{bio}}$ | Biological Coupling | hormones, neural signals | | $\Lambda_{\text{cog}}$ | Cognitive Coupling | belief influence | | $\Lambda_{\text{emo}}$ | Emotional Coupling | affect contagion | | $\Lambda_{\text{social}}$ | Social Coupling | peer influence, hierarchy | | $\Lambda_{\text{econ}}$ | Economic Coupling | market dependency | | $\Lambda_{\text{tech}}$ | Technological Coupling | system integration | | $\Lambda_{\text{eco}}$ | Ecological Coupling | species interaction | | $\Lambda_{\text{inst}}$ | Institutional Coupling | policy interaction | | $\Lambda_{\text{scale}}$ | Cross-scale Coupling | micro → macro | | $\Lambda_{\text{adv}}$ | Adversarial Coupling | manipulation pathways | **Chuỗi biến đổi của $\Lambda$ qua các không gian biểu diễn:**$$
 \Lambda_R \xrightarrow{\tau} \Lambda_I \xrightarrow{\tau} \Lambda_S \xrightarrow{\tau} \Lambda_E \xrightarrow{\tau} \Lambda_F \xrightarrow{\tau} \Lambda_M \xrightarrow{\tau} \Lambda_X \xrightarrow{\tau} \Lambda_P \xrightarrow{\tau} \Lambda_G \xrightarrow{\tau} \Lambda_A \xrightarrow{\tau} \Lambda_{Fb} \xrightarrow{\tau} \Lambda_U
-\]
-
-**Chất lượng kết nối:**
-\[
+$$**Chất lượng kết nối:**$$
 \Lambda_{\text{quality}} = \text{Accuracy} \times \text{Stability} \times \text{Directionality} \times \text{Control}
-\]
-
-**Quy tắc \(\Lambda\)-to-Difference:**
-\[
+$$**Quy tắc $\Lambda$-to-Difference:**$$
 \Lambda \text{ propagates } \Delta
-\]
-
-**Quy tắc \(\Lambda\)-to-Collapse:**
-\[
+$$**Quy tắc $\Lambda$-to-Collapse:**$$
 \text{Strong coupling} \rightarrow \text{cascade risk}
 ]
 
-**Quy tắc \(\Lambda\)-to-Resilience:**
-\[
-\text{Weak coupling} \rightarrow \text{isolation}
-]
-Cần có sự cân bằng.
-
-**Quy tắc \(\Lambda\)-to-Feedback:**
-\[
+**Quy tắc $\Lambda$-to-Resilience:**
+$$\text{Weak coupling} \rightarrow \text{isolation} ] Cần có sự cân bằng. **Quy tắc $\Lambda$-to-Feedback:**$$
 \text{Feedback} = \text{closed coupling loop}
 ]
 
-**Các chế độ thất bại (Failure Modes) của \(\Lambda\):**
+**Các chế độ thất bại (Failure Modes) của $\Lambda$:**
 
 | # | Failure Mode | Điều kiện | Hậu quả |
 |---|---|---|---|
-| 1 | No Coupling | \(\Lambda = 0\) | Isolation |
-| 2 | Overcoupling | \(\|\Lambda\| \gg 1\) | Cascade collapse |
-| 3 | Undercoupling | \(\|\Lambda\| \ll 1\) | Fragmentation |
+| 1 | No Coupling | $\Lambda = 0$ | Isolation |
+| 2 | Overcoupling | $\|\Lambda\| \gg 1$ | Cascade collapse |
+| 3 | Undercoupling | $\|\Lambda\| \ll 1$ | Fragmentation |
 | 4 | Wrong Coupling | Misaligned dependencies | Inefficiency |
-| 5 | Delayed Coupling | \(\tau \gg 0\) | Instability |
+| 5 | Delayed Coupling | $\tau \gg 0$ | Instability |
 | 6 | Nonlinear Explosion | Small input → large output | Chaos |
 | 7 | Hidden Coupling | Unseen dependency | Unexpected failure |
 | 8 | Adversarial Coupling | Manipulated links | Exploitation |
@@ -16290,7 +15979,7 @@ Cần có sự cân bằng.
 
 | # | Recovery Mode | Phương pháp |
 |---|---|---|
-| 1 | Decouple components | Reduce \(\Lambda\) |
+| 1 | Decouple components | Reduce $\Lambda$ |
 | 2 | Reduce coupling strength | Attenuate |
 | 3 | Increase isolation | Add barriers |
 | 4 | Restructure network | Re-wire |
@@ -16300,233 +15989,109 @@ Cần có sự cân bằng.
 | 8 | Monitor hidden links | Detect unseen |
 
 **Bất biến của L8:**
-\[
-\boxed{\text{No } \Lambda \rightarrow \text{Isolation; Too much } \Lambda \rightarrow \text{Cascade collapse}}
-\]
+$$\boxed{\text{No } \Lambda \rightarrow \text{Isolation; Too much } \Lambda \rightarrow \text{Cascade collapse}}$$
 
 ---
 
-### L9 — WEIGHTING / PRECISION GENERATOR (\(\Pi\))
+### L9 — WEIGHTING / PRECISION GENERATOR ($\Pi$)
 
 **Định nghĩa:** Generator gán tầm quan trọng, độ tin cậy, mức độ ảnh hưởng cho tín hiệu, trạng thái, và hành động. Trọng số là điều kiện tiên quyết cho sự chú ý, lòng tin, ưu tiên, và tách biệt tín hiệu khỏi nhiễu.
 
-**Bản chất:** Không có \(\Pi\), không có sự chú ý, không có lòng tin, không có ưu tiên, không có tách biệt tín hiệu/nhiễu. \(\Pi\) là nguồn gốc của mọi sự khác biệt về mức độ quan trọng.
+**Bản chất:** Không có $\Pi$, không có sự chú ý, không có lòng tin, không có ưu tiên, không có tách biệt tín hiệu/nhiễu. $\Pi$ là nguồn gốc của mọi sự khác biệt về mức độ quan trọng.
 
 **Phương trình cơ bản:**
-\[
-\text{Weighted}(x) = \Pi(x) \times x
-\]
+$$\text{Weighted}(x) = \Pi(x) \times x$$
 
 **Trọng số dự báo (Prediction Weighting):**
-\[
-\hat{\varepsilon} = \Pi \times (\text{Input} - \text{Prediction})
-\]
+$$\hat{\varepsilon} = \Pi \times (\text{Input} - \text{Prediction})$$
 
 **Trọng số chuẩn hóa:**
-\[
-\sum_i \Pi_i = 1
-\]
+$$\sum_i \Pi_i = 1$$
 
 **Trọng số độ chính xác (Precision Weighting):**
-\[
-\Pi = \frac{1}{\text{Variance}}
-\]
+$$\Pi = \frac{1}{\text{Variance}}$$
 
 **Trọng số Bayes (Bayesian Weighting):**
-\[
-\text{Posterior} \propto \text{Prior} \times \text{Likelihood}
-\]
+$$\text{Posterior} \propto \text{Prior} \times \text{Likelihood}$$
 
 **Phân bổ chú ý (Attention Allocation):**
-\[
-\text{Attention}_i = \frac{\Pi_i}{\sum_j \Pi_j}
-\]
+$$\text{Attention}_i = \frac{\Pi_i}{\sum_j \Pi_j}$$
 
 **Trọng số động (Dynamic Weighting):**
-\[
-\Pi_{t+1} = \Pi_t + \alpha \cdot \text{Feedback}
-\]
+$$\Pi_{t+1} = \Pi_t + \alpha \cdot \text{Feedback}$$
 
-**Các dạng phụ của \(\Pi\):**
+**Các dạng phụ của $\Pi$:**
 
 | Dạng | Tên | Ứng dụng |
 |---|---|---|
-| \(\Pi_{\text{signal}}\) | Signal Weighting | Input importance |
-| \(\Pi_{\text{prediction}}\) | Prediction Weighting | Model confidence |
-| \(\Pi_{\text{memory}}\) | Memory Weighting | Stored info importance |
-| \(\Pi_{\text{action}}\) | Action Weighting | Priority of actions |
-| \(\Pi_{\text{risk}}\) | Risk Weighting | Threat importance |
-| \(\Pi_{\text{reward}}\) | Reward Weighting | Gain importance |
-| \(\Pi_{\text{source}}\) | Source Weighting | Trust in source |
-| \(\Pi_{\text{time}}\) | Temporal Weighting | Recent vs past |
-| \(\Pi_{\text{social}}\) | Social Weighting | Peer influence |
-| \(\Pi_{\text{econ}}\) | Economic Weighting | Value scaling |
-| \(\Pi_{\text{bio}}\) | Biological Weighting | Salience via hormones |
-| \(\Pi_{\text{adv}}\) | Adversarial Weighting | Manipulated importance |
+| $\Pi_{\text{signal}}$ | Signal Weighting | Input importance |
+| $\Pi_{\text{prediction}}$ | Prediction Weighting | Model confidence |
+| $\Pi_{\text{memory}}$ | Memory Weighting | Stored info importance |
+| $\Pi_{\text{action}}$ | Action Weighting | Priority of actions |
+| $\Pi_{\text{risk}}$ | Risk Weighting | Threat importance |
+| $\Pi_{\text{reward}}$ | Reward Weighting | Gain importance |
+| $\Pi_{\text{source}}$ | Source Weighting | Trust in source |
+| $\Pi_{\text{time}}$ | Temporal Weighting | Recent vs past |
+| $\Pi_{\text{social}}$ | Social Weighting | Peer influence |
+| $\Pi_{\text{econ}}$ | Economic Weighting | Value scaling |
+| $\Pi_{\text{bio}}$ | Biological Weighting | Salience via hormones |
+| $\Pi_{\text{adv}}$ | Adversarial Weighting | Manipulated importance |
 
-**Chuỗi biến đổi của \(\Pi\) qua các không gian biểu diễn:**
+**Chuỗi biến đổi của $\Pi$ qua các không gian biểu diễn:**
 
-\[
-\Pi_R \xrightarrow{\tau} \Pi_I \xrightarrow{\tau} \Pi_S \xrightarrow{\tau} \Pi_E \xrightarrow{\tau} \Pi_F \xrightarrow{\tau} \Pi_M \xrightarrow{\tau} \Pi_X \xrightarrow{\tau} \Pi_P \xrightarrow{\tau} \Pi_G \xrightarrow{\tau} \Pi_A \xrightarrow{\tau} \Pi_{Fb} \xrightarrow{\tau} \Pi_U
-\]
+$$\Pi_R \xrightarrow{\tau} \Pi_I \xrightarrow{\tau} \Pi_S \xrightarrow{\tau} \Pi_E \xrightarrow{\tau} \Pi_F \xrightarrow{\tau} \Pi_M \xrightarrow{\tau} \Pi_X \xrightarrow{\tau} \Pi_P \xrightarrow{\tau} \Pi_G \xrightarrow{\tau} \Pi_A \xrightarrow{\tau} \Pi_{Fb} \xrightarrow{\tau} \Pi_U$$
 
 **Chất lượng trọng số:**
-\[
-\Pi_{\text{quality}} = \text{Accuracy} \times \text{Adaptivity} \times \text{Stability} \times \text{Calibration}
-]
-
-**Quy tắc \(\Pi\)-to-Selection:**
-\[
+$$\Pi_{\text{quality}} = \text{Accuracy} \times \text{Adaptivity} \times \text{Stability} \times \text{Calibration} ] **Quy tắc $\Pi$-to-Selection:**$$
 \Psi \text{ depends on } \Pi
 ]
 
-**Quy tắc \(\Pi\)-to-Feedback:**
-\[
-\text{Feedback updates } \Pi
-]
-
-**Quy tắc \(\Pi\)-to-Attention:**
-\[
+**Quy tắc $\Pi$-to-Feedback:**
+$$\text{Feedback updates } \Pi ] **Quy tắc $\Pi$-to-Attention:**$$
 \text{Attention} = \text{normalized } \Pi
 ]
 
-**Quy tắc \(\Pi\)-to-Hallucination:**
-\[
-\text{Hallucination occurs if prediction weight > signal weight}
-]
-
-**Các chế độ thất bại (Failure Modes) của \(\Pi\):**
-
-| # | Failure Mode | Điều kiện | Hậu quả |
-|---|---|---|---|
-| 1 | Flat Weighting | All signals equal | Noise |
-| 2 | Overweighting | Small signal dominates | Overreaction |
-| 3 | Underweighting | Important signal ignored | Blindness |
-| 4 | Bias Weighting | Systematic distortion | Consistent error |
-| 5 | Stale Weighting | Not updated | Outdated |
-| 6 | Oscillating Weights | Unstable system | Inconsistency |
-| 7 | Adversarial Weighting | Manipulated importance | Capture |
-| 8 | Miscalibration | Confidence ≠ accuracy | Over/under confidence |
-| 9 | Collapse Weighting | All \(\Pi \to 0\) or same | Paralysis |
-| 10 | Overconfidence | \(\Pi\) too high globally | Risk |
-
-**Các chế độ phục hồi (Recovery Modes):**
-
-| # | Recovery Mode | Phương pháp |
-|---|---|---|
-| 1 | Recalibrate weights | Adjust \(\Pi\) |
-| 2 | Use feedback | Incorporate outcomes |
-| 3 | Normalize weights | Ensure sum = 1 |
-| 4 | Reduce bias | Correct systematic error |
-| 5 | Cross-validate sources | Compare multiple |
-| 6 | Increase uncertainty handling | Add variance |
-| 7 | Reset weighting | Start over |
-
-**Bất biến của L9:**
-\[
+**Quy tắc $\Pi$-to-Hallucination:**
+$$\text{Hallucination occurs if prediction weight > signal weight} ] **Các chế độ thất bại (Failure Modes) của $\Pi$:** | # | Failure Mode | Điều kiện | Hậu quả | |---|---|---|---| | 1 | Flat Weighting | All signals equal | Noise | | 2 | Overweighting | Small signal dominates | Overreaction | | 3 | Underweighting | Important signal ignored | Blindness | | 4 | Bias Weighting | Systematic distortion | Consistent error | | 5 | Stale Weighting | Not updated | Outdated | | 6 | Oscillating Weights | Unstable system | Inconsistency | | 7 | Adversarial Weighting | Manipulated importance | Capture | | 8 | Miscalibration | Confidence ≠ accuracy | Over/under confidence | | 9 | Collapse Weighting | All $\Pi \to 0$ or same | Paralysis | | 10 | Overconfidence | $\Pi$ too high globally | Risk | **Các chế độ phục hồi (Recovery Modes):** | # | Recovery Mode | Phương pháp | |---|---|---| | 1 | Recalibrate weights | Adjust $\Pi$ | | 2 | Use feedback | Incorporate outcomes | | 3 | Normalize weights | Ensure sum = 1 | | 4 | Reduce bias | Correct systematic error | | 5 | Cross-validate sources | Compare multiple | | 6 | Increase uncertainty handling | Add variance | | 7 | Reset weighting | Start over | **Bất biến của L9:**$$
 \boxed{\text{Wrong } \Pi \rightarrow \text{Hallucination or blindness}}
-\]
-
----
-
-### L10 — PERTURBATION / NOISE GENERATOR (\(\Xi\))
-
-**Định nghĩa:** Generator tạo ra nhiễu, biến động, sốc, và sự gián đoạn có chủ đích hoặc ngẫu nhiên. Nhiễu là điều kiện tiên quyết cho sự khám phá, biến đổi, bất định, và sự kiện thiên nga đen.
-
-**Bản chất:** Không có \(\Xi\), không có ngẫu nhiên, không có khám phá, không có biến đổi, không có kiểm tra độ bền vững. \(\Xi\) là nguồn gốc của mọi sự không chắc chắn và mọi cú sốc.
-
-**Phương trình cơ bản:**
-\[
+$$--- ### L10 — PERTURBATION / NOISE GENERATOR ($\Xi$) **Định nghĩa:** Generator tạo ra nhiễu, biến động, sốc, và sự gián đoạn có chủ đích hoặc ngẫu nhiên. Nhiễu là điều kiện tiên quyết cho sự khám phá, biến đổi, bất định, và sự kiện thiên nga đen. **Bản chất:** Không có $\Xi$, không có ngẫu nhiên, không có khám phá, không có biến đổi, không có kiểm tra độ bền vững. $\Xi$ là nguồn gốc của mọi sự không chắc chắn và mọi cú sốc. **Phương trình cơ bản:**$$
 X' = X + \Xi
-\]
-
-**Nhiễu cộng (Additive Noise):**
-\[
+$$**Nhiễu cộng (Additive Noise):**$$
 X_{t+1} = X_t + \Xi_t
-\]
-
-**Nhiễu nhân (Multiplicative Noise):**
-\[
+$$**Nhiễu nhân (Multiplicative Noise):**$$
 X' = X \times (1 + \Xi)
-\]
-
-**Nhiễu ngẫu nhiên (Stochastic Noise):**
-\[
+$$**Nhiễu ngẫu nhiên (Stochastic Noise):**$$
 \Xi \sim \text{Distribution}(\mu, \sigma^2)
-\]
-
-**Nhiễu có giới hạn (Bounded Noise):**
-\[
+$$**Nhiễu có giới hạn (Bounded Noise):**$$
 |\Xi| \leq \text{limit}
-\]
-
-**Nhiễu đối kháng (Adversarial Noise):**
-\[
+$$**Nhiễu đối kháng (Adversarial Noise):**$$
 \Xi_{\text{adv}} = \arg\max \text{Disruption}(X)
-\]
-
-**Lan truyền nhiễu (Noise Propagation):**
-\[
+$$**Lan truyền nhiễu (Noise Propagation):**$$
 X_i(t+1) = X_i(t) + \sum_j \Lambda_{ij} \Xi_j
-\]
-
-**Các dạng phụ của \(\Xi\):**
-
-| Dạng | Tên | Ứng dụng |
-|---|---|---|
-| \(\Xi_{\text{random}}\) | Random Noise | Unstructured variation |
-| \(\Xi_{\text{env}}\) | Environmental Noise | External fluctuation |
-| \(\Xi_{\text{internal}}\) | Internal Noise | System instability |
-| \(\Xi_{\text{measure}}\) | Measurement Noise | Sensor error |
-| \(\Xi_{\text{process}}\) | Process Noise | Transformation error |
-| \(\Xi_{\text{shock}}\) | Shock | Sudden large perturbation |
-| \(\Xi_{\text{blackswan}}\) | Black Swan | Extreme out-of-model event |
-| \(\Xi_{\text{adv}}\) | Adversarial Noise | Intentional manipulation |
-| \(\Xi_{\text{drift}}\) | Drift Noise | Slow cumulative perturbation |
-| \(\Xi_{\text{coupled}}\) | Coupled Noise | Noise propagated via \(\Lambda\) |
-| \(\Xi_{\text{struct}}\) | Structural Noise | Architecture-level disturbance |
-| \(\Xi_{\text{unknown}}\) | Residual Unknown | Unmodelled variation |
-
-**Chuỗi biến đổi của \(\Xi\) qua các không gian biểu diễn:**
-
-\[
+$$**Các dạng phụ của $\Xi$:** | Dạng | Tên | Ứng dụng | |---|---|---| | $\Xi_{\text{random}}$ | Random Noise | Unstructured variation | | $\Xi_{\text{env}}$ | Environmental Noise | External fluctuation | | $\Xi_{\text{internal}}$ | Internal Noise | System instability | | $\Xi_{\text{measure}}$ | Measurement Noise | Sensor error | | $\Xi_{\text{process}}$ | Process Noise | Transformation error | | $\Xi_{\text{shock}}$ | Shock | Sudden large perturbation | | $\Xi_{\text{blackswan}}$ | Black Swan | Extreme out-of-model event | | $\Xi_{\text{adv}}$ | Adversarial Noise | Intentional manipulation | | $\Xi_{\text{drift}}$ | Drift Noise | Slow cumulative perturbation | | $\Xi_{\text{coupled}}$ | Coupled Noise | Noise propagated via $\Lambda$ | | $\Xi_{\text{struct}}$ | Structural Noise | Architecture-level disturbance | | $\Xi_{\text{unknown}}$ | Residual Unknown | Unmodelled variation | **Chuỗi biến đổi của $\Xi$ qua các không gian biểu diễn:**$$
 \Xi_R \xrightarrow{\tau} \Xi_I \xrightarrow{\tau} \Xi_S \xrightarrow{\tau} \Xi_E \xrightarrow{\tau} \Xi_F \xrightarrow{\tau} \Xi_M \xrightarrow{\tau} \Xi_X \xrightarrow{\tau} \Xi_P \xrightarrow{\tau} \Xi_G \xrightarrow{\tau} \Xi_A \xrightarrow{\tau} \Xi_{Fb} \xrightarrow{\tau} \Xi_U
-\]
-
-**Chất lượng nhiễu:**
-\[
+$$**Chất lượng nhiễu:**$$
 \Xi_{\text{quality}} = \text{Magnitude} \times \text{Frequency} \times \text{Structure} \times \text{Detectability}
-\]
-
-**Quy tắc \(\Xi\)-to-Difference:**
-\[
+$$**Quy tắc $\Xi$-to-Difference:**$$
 \Xi \text{ generates } \Delta
-\]
-
-**Quy tắc \(\Xi\)-to-Exploration:**
-\[
+$$**Quy tắc $\Xi$-to-Exploration:**$$
 \Xi \text{ enables exploration}
 ]
 
-**Quy tắc \(\Xi\)-to-Collapse:**
-\[
-\text{Large } \Xi \rightarrow \text{collapse}
-]
-
-**Quy tắc \(\Xi\)-to-Resilience:**
-\[
+**Quy tắc $\Xi$-to-Collapse:**
+$$\text{Large } \Xi \rightarrow \text{collapse} ] **Quy tắc $\Xi$-to-Resilience:**$$
 \text{Moderate } \Xi \rightarrow \text{adaptation}
 ]
 
-**Các chế độ thất bại (Failure Modes) của \(\Xi\):**
+**Các chế độ thất bại (Failure Modes) của $\Xi$:**
 
 | # | Failure Mode | Điều kiện | Hậu quả |
 |---|---|---|---|
-| 1 | No Perturbation | \(\Xi = 0\) | Rigidity |
+| 1 | No Perturbation | $\Xi = 0$ | Rigidity |
 | 2 | Excess Noise | Noise > Signal | Signal destroyed |
 | 3 | Hidden Perturbation | Undetected noise | Unknown error |
 | 4 | Adversarial Perturbation | Manipulated system | Capture |
-| 5 | Cascading Perturbation | Propagation via \(\Lambda\) | Systemic failure |
+| 5 | Cascading Perturbation | Propagation via $\Lambda$ | Systemic failure |
 | 6 | Delayed Perturbation | Lagged effect | Wrong attribution |
 | 7 | Structural Perturbation | Architecture damage | System failure |
 | 8 | Misattributed Noise | Wrong cause | Wrong correction |
@@ -16537,134 +16102,100 @@ X_i(t+1) = X_i(t) + \sum_j \Lambda_{ij} \Xi_j
 
 | # | Recovery Mode | Phương pháp |
 |---|---|---|
-| 1 | Filter noise | Remove \(\Xi\) |
+| 1 | Filter noise | Remove $\Xi$ |
 | 2 | Average signals | Reduce variance |
 | 3 | Robust estimation | Tolerant to outliers |
 | 4 | Increase signal strength | Boost power |
 | 5 | Detect anomalies | Identify outliers |
 | 6 | Isolate perturbation | Quarantine |
-| 7 | Decouple systems | Reduce \(\Lambda\) |
+| 7 | Decouple systems | Reduce $\Lambda$ |
 | 8 | Increase capacity buffer | Add reserve |
 | 9 | Trigger NoAction | Stop if cannot |
 | 10 | Trigger NoPrediction | Stop if cannot |
 
 **Bất biến của L10:**
-\[
-\boxed{\text{No } \Xi \rightarrow \text{Rigidity; Too much } \Xi \rightarrow \text{Chaos}}
-\]
+$$\boxed{\text{No } \Xi \rightarrow \text{Rigidity; Too much } \Xi \rightarrow \text{Chaos}}$$
 
 ---
 
-### L11 — FEEDBACK GENERATOR (\(\Gamma\))
+### L11 — FEEDBACK GENERATOR ($\Gamma$)
 
 **Định nghĩa:** Generator so sánh kết quả với kỳ vọng và tạo ra tín hiệu sửa lỗi. Phản hồi là điều kiện tiên quyết cho học tập, điều khiển, ổn định, và thích nghi.
 
-**Bản chất:** Không có \(\Gamma\), không có học tập, không có hiệu chỉnh, không có thích nghi, không có ổn định. \(\Gamma\) là nguồn gốc của mọi sự điều chỉnh và mọi sự cải thiện.
+**Bản chất:** Không có $\Gamma$, không có học tập, không có hiệu chỉnh, không có thích nghi, không có ổn định. $\Gamma$ là nguồn gốc của mọi sự điều chỉnh và mọi sự cải thiện.
 
 **Phương trình cơ bản:**
-\[
-\Gamma = \text{Compare}(\text{Actual}, \text{Expected})
-\]
+$$\Gamma = \text{Compare}(\text{Actual}, \text{Expected})$$
 
 **Sai số (Error):**
-\[
-\varepsilon = X_{\text{actual}} - X_{\text{predicted}}
-\]
+$$\varepsilon = X_{\text{actual}} - X_{\text{predicted}}$$
 
 **Sai số có trọng số:**
-\[
-\hat{\varepsilon} = \Pi \times \varepsilon
-\]
+$$\hat{\varepsilon} = \Pi \times \varepsilon$$
 
 **Tín hiệu phản hồi:**
-\[
-\Gamma = f(\hat{\varepsilon}, \text{delay}, \text{reliability})
-\]
+$$\Gamma = f(\hat{\varepsilon}, \text{delay}, \text{reliability})$$
 
 **Cập nhật tham số (Parameter Update):**
-\[
-\theta_{t+1} = \theta_t + \alpha \cdot \Gamma
-\]
+$$\theta_{t+1} = \theta_t + \alpha \cdot \Gamma$$
 
 **Hiệu chỉnh điều khiển (Control Correction):**
-\[
-\text{Action}_{\text{adjusted}} = \text{Action} - k \cdot \varepsilon
-\]
+$$\text{Action}_{\text{adjusted}} = \text{Action} - k \cdot \varepsilon$$
 
 **Phản hồi có trễ (Delayed Feedback):**
-\[
-\Gamma(t) = \varepsilon(t - \tau_{\text{delay}})
-\]
+$$\Gamma(t) = \varepsilon(t - \tau_{\text{delay}})$$
 
 **Phản hồi tổng hợp (Aggregated Feedback):**
-\[
-\Gamma_{\text{total}} = \sum_i \Gamma_i
-\]
+$$\Gamma_{\text{total}} = \sum_i \Gamma_i$$
 
-**Các dạng phụ của \(\Gamma\):**
+**Các dạng phụ của $\Gamma$:**
 
 | Dạng | Tên | Ứng dụng |
 |---|---|---|
-| \(\Gamma_{\text{positive}}\) | Positive Feedback | Amplifies signal |
-| \(\Gamma_{\text{negative}}\) | Negative Feedback | Stabilizes system |
-| \(\Gamma_{\text{delayed}}\) | Delayed Feedback | Time-lagged correction |
-| \(\Gamma_{\text{immediate}}\) | Immediate Feedback | Real-time correction |
-| \(\Gamma_{\text{local}}\) | Local Feedback | Within subsystem |
-| \(\Gamma_{\text{global}}\) | Global Feedback | System-wide |
-| \(\Gamma_{\text{internal}}\) | Internal Feedback | Self-generated |
-| \(\Gamma_{\text{external}}\) | External Feedback | Environment-generated |
-| \(\Gamma_{\text{adv}}\) | Adversarial Feedback | Manipulated signal |
-| \(\Gamma_{\text{noisy}}\) | Noisy Feedback | Distorted correction |
-| \(\Gamma_{\text{sparse}}\) | Sparse Feedback | Limited signal |
-| \(\Gamma_{\text{continuous}}\) | Continuous Feedback | Dense signal |
+| $\Gamma_{\text{positive}}$ | Positive Feedback | Amplifies signal |
+| $\Gamma_{\text{negative}}$ | Negative Feedback | Stabilizes system |
+| $\Gamma_{\text{delayed}}$ | Delayed Feedback | Time-lagged correction |
+| $\Gamma_{\text{immediate}}$ | Immediate Feedback | Real-time correction |
+| $\Gamma_{\text{local}}$ | Local Feedback | Within subsystem |
+| $\Gamma_{\text{global}}$ | Global Feedback | System-wide |
+| $\Gamma_{\text{internal}}$ | Internal Feedback | Self-generated |
+| $\Gamma_{\text{external}}$ | External Feedback | Environment-generated |
+| $\Gamma_{\text{adv}}$ | Adversarial Feedback | Manipulated signal |
+| $\Gamma_{\text{noisy}}$ | Noisy Feedback | Distorted correction |
+| $\Gamma_{\text{sparse}}$ | Sparse Feedback | Limited signal |
+| $\Gamma_{\text{continuous}}$ | Continuous Feedback | Dense signal |
 
-**Chuỗi biến đổi của \(\Gamma\) qua các không gian biểu diễn:**
+**Chuỗi biến đổi của $\Gamma$ qua các không gian biểu diễn:**
 
-\[
-\Gamma_R \xrightarrow{\tau} \Gamma_I \xrightarrow{\tau} \Gamma_S \xrightarrow{\tau} \Gamma_E \xrightarrow{\tau} \Gamma_F \xrightarrow{\tau} \Gamma_M \xrightarrow{\tau} \Gamma_X \xrightarrow{\tau} \Gamma_P \xrightarrow{\tau} \Gamma_G \xrightarrow{\tau} \Gamma_A \xrightarrow{\tau} \Gamma_{Fb} \xrightarrow{\tau} \Gamma_U
-\]
+$$\Gamma_R \xrightarrow{\tau} \Gamma_I \xrightarrow{\tau} \Gamma_S \xrightarrow{\tau} \Gamma_E \xrightarrow{\tau} \Gamma_F \xrightarrow{\tau} \Gamma_M \xrightarrow{\tau} \Gamma_X \xrightarrow{\tau} \Gamma_P \xrightarrow{\tau} \Gamma_G \xrightarrow{\tau} \Gamma_A \xrightarrow{\tau} \Gamma_{Fb} \xrightarrow{\tau} \Gamma_U$$
 
 **Chất lượng phản hồi:**
-\[
-\Gamma_{\text{quality}} = \text{Accuracy} \times \text{Timeliness} \times \text{Reliability} \times \text{Resolution}
-\]
+$$\Gamma_{\text{quality}} = \text{Accuracy} \times \text{Timeliness} \times \text{Reliability} \times \text{Resolution}$$
 
-**Quy tắc \(\Gamma\)-to-Mutation:**
-\[
-\Theta \text{ is driven by } \Gamma
-\]
+**Quy tắc $\Gamma$-to-Mutation:**
+$$\Theta \text{ is driven by } \Gamma$$
 
-**Quy tắc \(\Gamma\)-to-Stability:**
-\[
-\text{Negative feedback} \rightarrow \text{stability}
-]
-
-**Quy tắc \(\Gamma\)-to-Instability:**
-\[
+**Quy tắc $\Gamma$-to-Stability:**
+$$\text{Negative feedback} \rightarrow \text{stability} ] **Quy tắc $\Gamma$-to-Instability:**$$
 \text{Positive feedback} \rightarrow \text{amplification}
 ]
 
-**Quy tắc \(\Gamma\)-to-Learning:**
-\[
-\text{Learning} = \text{accumulated } \Gamma
-]
-
-**Quy tắc \(\Gamma\)-to-Trust:**
-\[
+**Quy tắc $\Gamma$-to-Learning:**
+$$\text{Learning} = \text{accumulated } \Gamma ] **Quy tắc $\Gamma$-to-Trust:**$$
 \text{Trust depends on reliable } \Gamma
 ]
 
-**Các chế độ thất bại (Failure Modes) của \(\Gamma\):**
+**Các chế độ thất bại (Failure Modes) của $\Gamma$:**
 
 | # | Failure Mode | Điều kiện | Hậu quả |
 |---|---|---|---|
-| 1 | No Feedback | \(\Gamma = 0\) | No correction |
-| 2 | Delayed Feedback | \(\tau \gg 0\) | Instability |
+| 1 | No Feedback | $\Gamma = 0$ | No correction |
+| 2 | Delayed Feedback | $\tau \gg 0$ | Instability |
 | 3 | Noisy Feedback | Noise > Signal | Wrong updates |
 | 4 | Biased Feedback | Systematic error | Consistent bias |
 | 5 | Missing Feedback | Blind learning | No improvement |
-| 6 | Overreaction | \(\Gamma\) too strong | Oscillation |
-| 7 | Underreaction | \(\Gamma\) too weak | Slow adaptation |
+| 6 | Overreaction | $\Gamma$ too strong | Oscillation |
+| 7 | Underreaction | $\Gamma$ too weak | Slow adaptation |
 | 8 | Feedback Loop Oscillation | Unstable cycles | Instability |
 | 9 | Adversarial Feedback | Manipulated correction | Capture |
 | 10 | Feedback Collapse | All signals ignored | Paralysis |
@@ -16675,7 +16206,7 @@ X_i(t+1) = X_i(t) + \sum_j \Lambda_{ij} \Xi_j
 |---|---|---|
 | 1 | Increase signal clarity | Reduce noise |
 | 2 | Reduce delay | Speed up |
-| 3 | Filter noise | Remove \(\Xi\) |
+| 3 | Filter noise | Remove $\Xi$ |
 | 4 | Cross-validate feedback | Compare sources |
 | 5 | Adjust gain | Reduce amplification |
 | 6 | Add redundancy | Multiple channels |
@@ -16684,129 +16215,93 @@ X_i(t+1) = X_i(t) + \sum_j \Lambda_{ij} \Xi_j
 | 9 | Trigger NoAction | Stop acting |
 
 **Bất biến của L11:**
-\[
-\boxed{\text{No } \Gamma \rightarrow \text{Drift; Delayed } \Gamma \rightarrow \text{Oscillation}}
-\]
+$$\boxed{\text{No } \Gamma \rightarrow \text{Drift; Delayed } \Gamma \rightarrow \text{Oscillation}}$$
 
 ---
 
-### L12 — MUTATION / ADAPTATION GENERATOR (\(\Theta\))
+### L12 — MUTATION / ADAPTATION GENERATOR ($\Theta$)
 
 **Định nghĩa:** Generator thay đổi chính hệ thống – tham số, cấu trúc, quy tắc, và bộ sinh (generators). Đột biến là điều kiện tiên quyết cho học tập, thích nghi, tiến hóa, và sự sống còn dưới sự thay đổi.
 
-**Bản chất:** Không có \(\Theta\), không có học tập, không có thích nghi, không có tiến hóa, không có sửa chữa. \(\Theta\) là nguồn gốc của mọi sự thay đổi có chủ đích và mọi sự cải tiến.
+**Bản chất:** Không có $\Theta$, không có học tập, không có thích nghi, không có tiến hóa, không có sửa chữa. $\Theta$ là nguồn gốc của mọi sự thay đổi có chủ đích và mọi sự cải tiến.
 
 **Phương trình cơ bản:**
-\[
-\Theta: \text{System}_t \to \text{System}_{t+1}
-\]
+$$\Theta: \text{System}_t \to \text{System}_{t+1}$$
 
 **Cập nhật tham số:**
-\[
-\theta_{t+1} = \theta_t + \Delta \theta
-\]
+$$\theta_{t+1} = \theta_t + \Delta \theta$$
 
 **Học tập (Learning):**
-\[
-\theta_{t+1} = \theta_t + \alpha \cdot \Gamma
-\]
+$$\theta_{t+1} = \theta_t + \alpha \cdot \Gamma$$
 
 **Đột biến cấu trúc (Structural Mutation):**
-\[
-\text{Structure}_{t+1} = \text{Structure}_t + \Delta \text{Structure}
-\]
+$$\text{Structure}_{t+1} = \text{Structure}_t + \Delta \text{Structure}$$
 
 **Đột biến chọn lọc (Selection Mutation):**
-\[
-\Psi_{t+1} = \Psi_t + \Delta \Psi
-\]
+$$\Psi_{t+1} = \Psi_t + \Delta \Psi$$
 
 **Đột biến trọng số (Weight Mutation):**
-\[
-\Pi_{t+1} = \Pi_t + \Delta \Pi
-\]
+$$\Pi_{t+1} = \Pi_t + \Delta \Pi$$
 
 **Đột biến ràng buộc (Constraint Mutation):**
-\[
-C_{t+1} = C_t + \Delta C
-\]
+$$C_{t+1} = C_t + \Delta C$$
 
 **Đột biến ranh giới (Boundary Mutation):**
-\[
-B_{t+1} = B_t + \Delta B
-\]
+$$B_{t+1} = B_t + \Delta B$$
 
 **Đột biến mô hình (Model Mutation):**
-\[
-\text{Model}_{t+1} = \text{Model}_t + \Delta \text{Model}
-\]
+$$\text{Model}_{t+1} = \text{Model}_t + \Delta \text{Model}$$
 
 **Đột biến đệ quy (Recursive Mutation):**
-\[
-\Theta \text{ acts on } \Theta
-\]
+$$\Theta \text{ acts on } \Theta$$
 
-**Các dạng phụ của \(\Theta\):**
+**Các dạng phụ của $\Theta$:**
 
 | Dạng | Tên | Ứng dụng |
 |---|---|---|
-| \(\Theta_{\text{param}}\) | Parameter Mutation | Small adjustments |
-| \(\Theta_{\text{struct}}\) | Structural Mutation | Architecture change |
-| \(\Theta_{\text{behavior}}\) | Behavioral Mutation | Policy change |
-| \(\Theta_{\text{memory}}\) | Memory Mutation | Update stored data |
-| \(\Theta_{\text{constraint}}\) | Constraint Mutation | Change limits |
-| \(\Theta_{\text{boundary}}\) | Boundary Mutation | Change separation |
-| \(\Theta_{\text{evolution}}\) | Evolutionary Mutation | Long-term adaptation |
-| \(\Theta_{\text{rapid}}\) | Rapid Adaptation | Short-term adjustment |
-| \(\Theta_{\text{adv}}\) | Adversarial Mutation | Forced change |
-| \(\Theta_{\text{random}}\) | Random Mutation | Stochastic change |
-| \(\Theta_{\text{directed}}\) | Directed Mutation | Goal-driven change |
-| \(\Theta_{\text{meta}}\) | Meta Mutation | Change mutation rules |
+| $\Theta_{\text{param}}$ | Parameter Mutation | Small adjustments |
+| $\Theta_{\text{struct}}$ | Structural Mutation | Architecture change |
+| $\Theta_{\text{behavior}}$ | Behavioral Mutation | Policy change |
+| $\Theta_{\text{memory}}$ | Memory Mutation | Update stored data |
+| $\Theta_{\text{constraint}}$ | Constraint Mutation | Change limits |
+| $\Theta_{\text{boundary}}$ | Boundary Mutation | Change separation |
+| $\Theta_{\text{evolution}}$ | Evolutionary Mutation | Long-term adaptation |
+| $\Theta_{\text{rapid}}$ | Rapid Adaptation | Short-term adjustment |
+| $\Theta_{\text{adv}}$ | Adversarial Mutation | Forced change |
+| $\Theta_{\text{random}}$ | Random Mutation | Stochastic change |
+| $\Theta_{\text{directed}}$ | Directed Mutation | Goal-driven change |
+| $\Theta_{\text{meta}}$ | Meta Mutation | Change mutation rules |
 
-**Chuỗi biến đổi của \(\Theta\) qua các không gian biểu diễn:**
+**Chuỗi biến đổi của $\Theta$ qua các không gian biểu diễn:**
 
-\[
-\Theta_R \xrightarrow{\tau} \Theta_I \xrightarrow{\tau} \Theta_S \xrightarrow{\tau} \Theta_E \xrightarrow{\tau} \Theta_F \xrightarrow{\tau} \Theta_M \xrightarrow{\tau} \Theta_X \xrightarrow{\tau} \Theta_P \xrightarrow{\tau} \Theta_G \xrightarrow{\tau} \Theta_A \xrightarrow{\tau} \Theta_{Fb} \xrightarrow{\tau} \Theta_U
-\]
+$$\Theta_R \xrightarrow{\tau} \Theta_I \xrightarrow{\tau} \Theta_S \xrightarrow{\tau} \Theta_E \xrightarrow{\tau} \Theta_F \xrightarrow{\tau} \Theta_M \xrightarrow{\tau} \Theta_X \xrightarrow{\tau} \Theta_P \xrightarrow{\tau} \Theta_G \xrightarrow{\tau} \Theta_A \xrightarrow{\tau} \Theta_{Fb} \xrightarrow{\tau} \Theta_U$$
 
 **Chất lượng đột biến:**
-\[
-\Theta_{\text{quality}} = \text{Accuracy} \times \text{Stability} \times \text{Adaptivity} \times \text{Safety}
-\]
+$$\Theta_{\text{quality}} = \text{Accuracy} \times \text{Stability} \times \text{Adaptivity} \times \text{Safety}$$
 
-**Quy tắc \(\Theta\)-to-Feedback:**
-\[
-\Theta \text{ is driven by } \Gamma
-\]
+**Quy tắc $\Theta$-to-Feedback:**
+$$\Theta \text{ is driven by } \Gamma$$
 
-**Quy tắc \(\Theta\)-to-Learning:**
-\[
-\text{Learning} = \text{structured } \Theta
-\]
+**Quy tắc $\Theta$-to-Learning:**
+$$\text{Learning} = \text{structured } \Theta$$
 
-**Quy tắc \(\Theta\)-to-Evolution:**
-\[
-\text{Evolution} = \text{repeated } \Theta + \Psi
-\]
+**Quy tắc $\Theta$-to-Evolution:**
+$$\text{Evolution} = \text{repeated } \Theta + \Psi$$
 
-**Quy tắc \(\Theta\)-to-Drift:**
-\[
-\text{Uncontrolled } \Theta = \text{drift}
-\]
+**Quy tắc $\Theta$-to-Drift:**
+$$\text{Uncontrolled } \Theta = \text{drift}$$
 
-**Quy tắc \(\Theta\)-to-Collapse:**
-\[
-\text{Bad } \Theta = \text{system failure}
-\]
+**Quy tắc $\Theta$-to-Collapse:**
+$$\text{Bad } \Theta = \text{system failure}$$
 
-**Các chế độ thất bại (Failure Modes) của \(\Theta\):**
+**Các chế độ thất bại (Failure Modes) của $\Theta$:**
 
 | # | Failure Mode | Điều kiện | Hậu quả |
 |---|---|---|---|
-| 1 | No Mutation | \(\Theta = 0\) | Stagnation |
-| 2 | Excess Mutation | \(|\Delta \theta| \gg \text{bound}\) | Instability |
+| 1 | No Mutation | $\Theta = 0$ | Stagnation |
+| 2 | Excess Mutation | $|\Delta \theta| \gg \text{bound}$ | Instability |
 | 3 | Wrong Mutation | Maladaptation | Worse performance |
-| 4 | Slow Mutation | \(\Delta \theta\) too small | Lag |
+| 4 | Slow Mutation | $\Delta \theta$ too small | Lag |
 | 5 | Overfitting Mutation | Too specific | Poor generalization |
 | 6 | Drift Mutation | Uncontrolled change | Degradation |
 | 7 | Adversarial Mutation | External manipulation | Capture |
@@ -16819,18 +16314,16 @@ B_{t+1} = B_t + \Delta B
 | # | Recovery Mode | Phương pháp |
 |---|---|---|
 | 1 | Rollback | Revert to previous |
-| 2 | Constrain mutation | Limit \(|\Delta \theta|\) |
-| 3 | Slow learning rate | Reduce \(\alpha\) |
+| 2 | Constrain mutation | Limit $|\Delta \theta|$ |
+| 3 | Slow learning rate | Reduce $\alpha$ |
 | 4 | Validate updates | Test before apply |
-| 5 | Add feedback loops | Increase \(\Gamma\) |
+| 5 | Add feedback loops | Increase $\Gamma$ |
 | 6 | Test changes | Sandbox |
 | 7 | Isolate mutation | Quarantine |
 | 8 | Trigger NoUpdate | Stop learning |
 
 **Bất biến của L12:**
-\[
-\boxed{\Theta = 0 \rightarrow \text{Stagnation}; \Theta \text{ too fast} \rightarrow \text{Instability}}
-\]
+$$\boxed{\Theta = 0 \rightarrow \text{Stagnation}; \Theta \text{ too fast} \rightarrow \text{Instability}}$$
 
 ---
 
@@ -16838,18 +16331,18 @@ B_{t+1} = B_t + \Delta B
 
 | Lớp | Generator | Chức năng cốt lõi | Bất biến |
 |---|---|---|---|
-| L1 | \(\Delta\) | Tạo phân biệt | Không \(\Delta\) → không gì tồn tại |
-| L2 | \(B\) | Tạo ranh giới | Không \(B\) → không identity |
-| L3 | \(S\) | Định nghĩa không gian | Không \(S\) → không gì có thể tồn tại |
-| L4 | \(\tau\) | Dịch chuyển giữa các không gian | \(\tau^{-1}\) không tồn tại |
-| L5 | \(C\) | Định nghĩa hợp lệ | Không \(C\) → hỗn loạn |
-| L6 | \(\Omega\) | Giới hạn tài nguyên | Load > \(\Omega\) → suy thoái |
-| L7 | \(\Psi\) | Chọn lọc | Không \(\Psi\) → quá tải |
-| L8 | \(\Lambda\) | Kết nối | \(\Lambda\) quá lớn → cascade |
-| L9 | \(\Pi\) | Gán tầm quan trọng | \(\Pi\) sai → hallucination |
-| L10 | \(\Xi\) | Tạo nhiễu, sốc | \(\Xi\) quá lớn → hỗn loạn |
-| L11 | \(\Gamma\) | Phản hồi | Không \(\Gamma\) → drift |
-| L12 | \(\Theta\) | Đột biến, thích nghi | \(\Theta\) quá nhanh → instability |
+| L1 | $\Delta$ | Tạo phân biệt | Không $\Delta$ → không gì tồn tại |
+| L2 | $B$ | Tạo ranh giới | Không $B$ → không identity |
+| L3 | $S$ | Định nghĩa không gian | Không $S$ → không gì có thể tồn tại |
+| L4 | $\tau$ | Dịch chuyển giữa các không gian | $\tau^{-1}$ không tồn tại |
+| L5 | $C$ | Định nghĩa hợp lệ | Không $C$ → hỗn loạn |
+| L6 | $\Omega$ | Giới hạn tài nguyên | Load > $\Omega$ → suy thoái |
+| L7 | $\Psi$ | Chọn lọc | Không $\Psi$ → quá tải |
+| L8 | $\Lambda$ | Kết nối | $\Lambda$ quá lớn → cascade |
+| L9 | $\Pi$ | Gán tầm quan trọng | $\Pi$ sai → hallucination |
+| L10 | $\Xi$ | Tạo nhiễu, sốc | $\Xi$ quá lớn → hỗn loạn |
+| L11 | $\Gamma$ | Phản hồi | Không $\Gamma$ → drift |
+| L12 | $\Theta$ | Đột biến, thích nghi | $\Theta$ quá nhanh → instability |
 
 ---
 
@@ -16875,32 +16368,32 @@ Mỗi generator sinh ra:
 
 | Generator | Số luật cơ bản | Số phương trình | Số failure modes | Số recovery modes | Tổng ước tính |
 |---|---|---|---|---|---|
-| \(\Delta\) (Difference) | ~500 | ~150 | 8 | 9 | ~4,000 |
-| \(B\) (Boundary) | ~600 | ~180 | 10 | 10 | ~5,000 |
-| \(S\) (Space) | ~550 | ~160 | 7 | 8 | ~4,000 |
-| \(\tau\) (Translation) | ~700 | ~220 | 8 | 11 | ~6,000 |
-| \(C\) (Constraint) | ~650 | ~190 | 10 | 10 | ~5,500 |
-| \(\Omega\) (Capacity) | ~600 | ~170 | 10 | 10 | ~5,000 |
-| \(\Psi\) (Selection) | ~550 | ~160 | 10 | 9 | ~4,500 |
-| \(\Lambda\) (Coupling) | ~700 | ~200 | 10 | 8 | ~6,000 |
-| \(\Pi\) (Weighting) | ~550 | ~160 | 10 | 7 | ~4,500 |
-| \(\Xi\) (Perturbation) | ~600 | ~180 | 10 | 10 | ~5,000 |
-| \(\Gamma\) (Feedback) | ~550 | ~160 | 10 | 8 | ~4,500 |
-| \(\Theta\) (Mutation) | ~600 | ~180 | 10 | 9 | ~5,000 |
+| $\Delta$ (Difference) | ~500 | ~150 | 8 | 9 | ~4,000 |
+| $B$ (Boundary) | ~600 | ~180 | 10 | 10 | ~5,000 |
+| $S$ (Space) | ~550 | ~160 | 7 | 8 | ~4,000 |
+| $\tau$ (Translation) | ~700 | ~220 | 8 | 11 | ~6,000 |
+| $C$ (Constraint) | ~650 | ~190 | 10 | 10 | ~5,500 |
+| $\Omega$ (Capacity) | ~600 | ~170 | 10 | 10 | ~5,000 |
+| $\Psi$ (Selection) | ~550 | ~160 | 10 | 9 | ~4,500 |
+| $\Lambda$ (Coupling) | ~700 | ~200 | 10 | 8 | ~6,000 |
+| $\Pi$ (Weighting) | ~550 | ~160 | 10 | 7 | ~4,500 |
+| $\Xi$ (Perturbation) | ~600 | ~180 | 10 | 10 | ~5,000 |
+| $\Gamma$ (Feedback) | ~550 | ~160 | 10 | 8 | ~4,500 |
+| $\Theta$ (Mutation) | ~600 | ~180 | 10 | 9 | ~5,000 |
 | **TỔNG** | **~7,150** | **~2,110** | **113** | **109** | **~59,000** |
 
-**Chi tiết một generator mẫu – \(\Delta\) (Difference):**
+**Chi tiết một generator mẫu – $\Delta$ (Difference):**
 
 | Loại cấu trúc | Số lượng | Ví dụ |
 |---|---|---|
-| Luật cơ bản | ~500 | "Không \(\Delta\) → không tín hiệu" |
-| Phương trình | ~150 | \(\Delta_t = X_t - X_{t-1}\) |
+| Luật cơ bản | ~500 | "Không $\Delta$ → không tín hiệu" |
+| Phương trình | ~150 | $\Delta_t = X_t - X_{t-1}$ |
 | Dạng phụ | ~12 | Spatial, temporal, intensity, directional, boundary, prediction, meaning, value, risk, identity |
 | Failure modes | 8 | No difference, too much, false, missed, distorted, misweighted, delayed, adversarial |
 | Recovery modes | 9 | Re-sensing, cross-validation, re-weighting, re-encoding, context repair, memory correction, gate tightening, NoPrediction, NoAction |
-| Quy tắc chuỗi | ~50 | \(\Delta_R \to \Delta_I \to \Delta_S \to \dots \to \Delta_U\) |
-| Tương tác với các generator khác | ~100 | \(\Delta \times B, \Delta \times \tau, \Delta \times C, \dots\) |
-| **Tổng cho \(\Delta\)** | **~4,000** | |
+| Quy tắc chuỗi | ~50 | $\Delta_R \to \Delta_I \to \Delta_S \to \dots \to \Delta_U$ |
+| Tương tác với các generator khác | ~100 | $\Delta \times B, \Delta \times \tau, \Delta \times C, \dots$ |
+| **Tổng cho $\Delta$** | **~4,000** | |
 
 ---
 
@@ -16956,11 +16449,9 @@ Mỗi generator sinh ra:
 
 **Cấu trúc ma trận:**
 
-\[
-M_{19 \times 19} = \text{Domains} \times \text{Invariants}
-\]
+$$M_{19 \times 19} = \text{Domains} \times \text{Invariants}$$
 
-Mỗi cell \(M_{ij} = \text{Intersection}(D_i, I_j)\) chứa:
+Mỗi cell $M_{ij} = \text{Intersection}(D_i, I_j)$ chứa:
 
 | Thành phần | Số lượng | Mô tả |
 |---|---|---|
@@ -16978,19 +16469,19 @@ Mỗi cell \(M_{ij} = \text{Intersection}(D_i, I_j)\) chứa:
 | Thành phần | Nội dung |
 |---|---|
 | Luật cơ bản | "Năng lượng không tự sinh ra hoặc mất đi" |
-| Phương trình | \(E = mc^2\), \(\nabla_\mu T^{\mu\nu} = 0\) |
+| Phương trình | $E = mc^2$, $\nabla_\mu T^{\mu\nu} = 0$ |
 | Ví dụ | Chuyển hóa khối lượng thành năng lượng |
 | Chế độ thất bại | Vi phạm bảo toàn → hệ thống không nhất quán |
 | Chế độ phục hồi | Phát hiện và báo cáo vi phạm |
 | Tương tác | Với Cell(Physics × Capacity), Cell(Physics × Flow) |
-| Tham số | \(c\) (tốc độ ánh sáng), \(G\) (hằng số hấp dẫn) |
+| Tham số | $c$ (tốc độ ánh sáng), $G$ (hằng số hấp dẫn) |
 
 **Chi tiết một cell mẫu – Cell(Economics × Capacity):**
 
 | Thành phần | Nội dung |
 |---|---|
 | Luật cơ bản | "Chi tiêu không thể vượt quá ngân sách" |
-| Phương trình | \(\text{Debt} \leq \text{GDP} \times \text{DebtThreshold}\) |
+| Phương trình | $\text{Debt} \leq \text{GDP} \times \text{DebtThreshold}$ |
 | Ví dụ | Khủng hoảng nợ công |
 | Chế độ thất bại | Vỡ nợ, mất khả năng thanh toán |
 | Chế độ phục hồi | Tái cấu trúc nợ, bơm thanh khoản |
@@ -17002,7 +16493,7 @@ Mỗi cell \(M_{ij} = \text{Intersection}(D_i, I_j)\) chứa:
 | Thành phần | Nội dung |
 |---|---|
 | Luật cơ bản | "Hệ miễn dịch phân biệt self và non-self" |
-| Phương trình | \(\text{ImmuneResponse} = \text{Detect}(\text{NonSelf}) - \text{Suppress}(\text{Autoimmune})\) |
+| Phương trình | $\text{ImmuneResponse} = \text{Detect}(\text{NonSelf}) - \text{Suppress}(\text{Autoimmune})$ |
 | Ví dụ | Phản ứng miễn dịch chống nhiễm trùng |
 | Chế độ thất bại | Tự miễn (tấn công self), suy giảm miễn dịch (không nhận diện non-self) |
 | Chế độ phục hồi | Điều hòa miễn dịch, ức chế phản ứng tự miễn |
@@ -17011,15 +16502,11 @@ Mỗi cell \(M_{ij} = \text{Intersection}(D_i, I_j)\) chứa:
 
 **Tổng số micro-laws từ ma trận:**
 
-\[
-19 \times 19 \times 160 = 361 \times 160 = 57,760 \text{ (luật + phương trình + failure + recovery)}
-\]
+$$19 \times 19 \times 160 = 361 \times 160 = 57,760 \text{ (luật + phương trình + failure + recovery)}$$
 
 Nhưng mỗi "luật" trong cell có thể mở rộng thành nhiều micro-laws khi kết hợp với các trục (axes) và vòng lặp (loops). Hệ số mở rộng trung bình: ~4–5.
 
-\[
-57,760 \times 4.5 \approx 260,000 \text{ micro-laws}
-\]
+$$57,760 \times 4.5 \approx 260,000 \text{ micro-laws}$$
 
 ---
 
@@ -17051,11 +16538,9 @@ Nhưng mỗi "luật" trong cell có thể mở rộng thành nhiều micro-laws
 
 **Cấu trúc ma trận:**
 
-\[
-M_{7 \times 7} = \text{Layers} \times \text{Operators}
-\]
+$$M_{7 \times 7} = \text{Layers} \times \text{Operators}$$
 
-Mỗi cell \(M_{ij} = \text{Function}(L_i, O_j)\) chứa ~29 sub-laws.
+Mỗi cell $M_{ij} = \text{Function}(L_i, O_j)$ chứa ~29 sub-laws.
 
 **Chi tiết một cell mẫu – Cell(Cognitive Layer × Selection):**
 
@@ -17063,15 +16548,13 @@ Mỗi cell \(M_{ij} = \text{Function}(L_i, O_j)\) chứa ~29 sub-laws.
 |---|---|
 | Tên function | Attention Selection |
 | Luật cơ bản | "Hệ thống nhận thức chỉ xử lý một phần nhỏ tín hiệu đầu vào" |
-| Phương trình | \(\text{Attended} = \text{TopK}(X_{\text{input}}, \Pi)\) |
+| Phương trình | $\text{Attended} = \text{TopK}(X_{\text{input}}, \Pi)$ |
 | Failure mode | Chú ý sai → bỏ lỡ tín hiệu quan trọng |
 | Recovery mode | Mở rộng chú ý, giảm ngưỡng |
 
 **Tổng số sub-laws:**
 
-\[
-7 \times 7 \times 29 = 49 \times 29 = 1,421
-\]
+$$7 \times 7 \times 29 = 49 \times 29 = 1,421$$
 
 ---
 
@@ -17091,10 +16574,10 @@ Mỗi cell \(M_{ij} = \text{Function}(L_i, O_j)\) chứa ~29 sub-laws.
 
 | Sub-law # | Nội dung | Phương trình |
 |---|---|---|
-| 1 | Cause precedes effect | \(t_{\text{cause}} < t_{\text{effect}}\) |
-| 2 | No action at a distance | \(\Delta s^2 \geq 0\) |
-| 3 | Intervention principle | \(P(Y \mid do(X=x)) \neq P(Y \mid X=x)\) |
-| 4 | Backdoor criterion | \(P(Y \mid do(X)) = \sum_Z P(Y \mid X, Z) P(Z)\) |
+| 1 | Cause precedes effect | $t_{\text{cause}} < t_{\text{effect}}$ |
+| 2 | No action at a distance | $\Delta s^2 \geq 0$ |
+| 3 | Intervention principle | $P(Y \mid do(X=x)) \neq P(Y \mid X=x)$ |
+| 4 | Backdoor criterion | $P(Y \mid do(X)) = \sum_Z P(Y \mid X, Z) P(Z)$ |
 | 5 | Frontdoor criterion | ... |
 | ... | ... | ... |
 
@@ -17104,30 +16587,24 @@ Mỗi cell \(M_{ij} = \text{Function}(L_i, O_j)\) chứa ~29 sub-laws.
 
 | # | Tensor | Mô tả | Chiều | Số micro-laws |
 |---|---|---|---|---|
-| 1 | \(T_{\Omega}\) | Overload tensor | 3×3 | ~1,000 |
-| 2 | \(T_{H}\) | Cohesion tensor | 13×13 | ~1,000 |
-| 3 | \(T_{F}\) | Fragmentation tensor | 13×13 | ~1,000 |
-| 4 | \(T_{S}\) | Shock tensor | 1×4 | ~1,000 |
-| 5 | \(T_{\text{Cross}}\) | Cross-asset confirmation | 2×6 | ~1,000 |
-| 6 | \(T_{\text{Time}}\) | Timing tensor | 3×3 | ~1,000 |
-| 7 | \(T_{\text{Meta}}\) | Meta-cognitive tensor | 1×7 | ~1,000 |
-| 8 | \(T_{\text{Signal}}\) | Signal tensor | 13×7×T | ~1,000 |
-| 9 | \(T_{\text{Liquidity}}\) | Liquidity tensor | 6×1 | ~1,000 |
-| 10 | \(T_{\text{Obligation}}\) | Obligation tensor | 6×1 | ~1,000 |
-| 11 | \(T_{\text{Causal}}\) | Causal graph tensor | N×N | ~1,000 |
-| 12 | \(T_{\text{Drift}}\) | Drift tensor | N×F | ~1,000 |
-| 13 | \(T_{\text{EdgeLife}}\) | Edge mortality tensor | 5×1 | ~1,000 |
-| 14 | \(T_{\text{Decision}}\) | Decision tensor | 4×4 | ~1,000 |
+| 1 | $T_{\Omega}$ | Overload tensor | 3×3 | ~1,000 |
+| 2 | $T_{H}$ | Cohesion tensor | 13×13 | ~1,000 |
+| 3 | $T_{F}$ | Fragmentation tensor | 13×13 | ~1,000 |
+| 4 | $T_{S}$ | Shock tensor | 1×4 | ~1,000 |
+| 5 | $T_{\text{Cross}}$ | Cross-asset confirmation | 2×6 | ~1,000 |
+| 6 | $T_{\text{Time}}$ | Timing tensor | 3×3 | ~1,000 |
+| 7 | $T_{\text{Meta}}$ | Meta-cognitive tensor | 1×7 | ~1,000 |
+| 8 | $T_{\text{Signal}}$ | Signal tensor | 13×7×T | ~1,000 |
+| 9 | $T_{\text{Liquidity}}$ | Liquidity tensor | 6×1 | ~1,000 |
+| 10 | $T_{\text{Obligation}}$ | Obligation tensor | 6×1 | ~1,000 |
+| 11 | $T_{\text{Causal}}$ | Causal graph tensor | N×N | ~1,000 |
+| 12 | $T_{\text{Drift}}$ | Drift tensor | N×F | ~1,000 |
+| 13 | $T_{\text{EdgeLife}}$ | Edge mortality tensor | 5×1 | ~1,000 |
+| 14 | $T_{\text{Decision}}$ | Decision tensor | 4×4 | ~1,000 |
 
-**Chi tiết một tensor mẫu – \(T_{\text{Time}}\):**
+**Chi tiết một tensor mẫu – $T_{\text{Time}}$:**
 
-\[
-T_{\text{Time}} = \begin{bmatrix}
-\frac{\partial TRS}{\partial \text{Event}} & \frac{\partial TRS}{\partial \text{Absorption}} & \frac{\partial TRS}{\partial \text{Liquidity}} \\
-\frac{\partial ATS}{\partial \text{Signal}} & \frac{\partial ATS}{\partial \text{Trust}} & \frac{\partial ATS}{\partial \text{TRS}} \\
-\frac{\partial RTS}{\partial \Omega} & \frac{\partial RTS}{\partial F} & \frac{\partial RTS}{\partial \text{MEP}}
-\end{bmatrix}
-\]
+$$T_{\text{Time}} = \begin{bmatrix} \frac{\partial TRS}{\partial \text{Event}} & \frac{\partial TRS}{\partial \text{Absorption}} & \frac{\partial TRS}{\partial \text{Liquidity}} \\ \frac{\partial ATS}{\partial \text{Signal}} & \frac{\partial ATS}{\partial \text{Trust}} & \frac{\partial ATS}{\partial \text{TRS}} \\ \frac{\partial RTS}{\partial \Omega} & \frac{\partial RTS}{\partial F} & \frac{\partial RTS}{\partial \text{MEP}} \end{bmatrix}$$
 
 Mỗi thành phần trong tensor này sinh ra ~30–40 micro-laws liên quan đến đạo hàm, ngưỡng, và điều kiện ổn định.
 
@@ -17149,12 +16626,12 @@ Mỗi thành phần trong tensor này sinh ra ~30–40 micro-laws liên quan đ�
 
 | Thành phần | Nội dung |
 |---|---|
-| Điều kiện vào | \(\Omega \geq \Omega_{\text{high}}, \Delta H < 0, \Delta F > 0, P \geq P_{\text{high}}\) |
-| Điều kiện ra | \(\Omega > \Omega_{\text{crit}}\) hoặc \(\Delta H < \Delta H_{\text{crit}}\) |
+| Điều kiện vào | $\Omega \geq \Omega_{\text{high}}, \Delta H < 0, \Delta F > 0, P \geq P_{\text{high}}$ |
+| Điều kiện ra | $\Omega > \Omega_{\text{crit}}$ hoặc $\Delta H < \Delta H_{\text{crit}}$ |
 | Biến trạng thái | Overload, cohesion rate, fragmentation rate |
 | Dấu hiệu sớm | RSI cao, phân kỳ, khối lượng giảm |
-| Xác suất chuyển tiếp | \(P(C3 \to C4) = 0.6, P(C3 \to C5) = 0.3, P(C3 \to C7) = 0.1\) |
-| Phương trình đặc trưng | \(\frac{d\Omega}{dt} = \alpha \Omega - \beta H\) |
+| Xác suất chuyển tiếp | $P(C3 \to C4) = 0.6, P(C3 \to C5) = 0.3, P(C3 \to C7) = 0.1$ |
+| Phương trình đặc trưng | $\frac{d\Omega}{dt} = \alpha \Omega - \beta H$ |
 | Luật kèm theo | ~328 |
 
 
@@ -17186,7 +16663,7 @@ Mỗi thành phần trong tensor này sinh ra ~30–40 micro-laws liên quan đ�
 |---|---|
 | Nguyên nhân chính | Thanh khoản biến mất, lệnh dừng lỗ dồn dập, HFT rút lui |
 | Dấu hiệu sớm | Bid-ask spread tăng đột biến, depth giảm, cancel velocity tăng |
-| Phương trình | \(\text{Collapse} = \mathbf{1}[\text{Liquidity} < \theta_{\text{liq}} \land \text{StopCascade} > \theta_{\text{stop}}]\) |
+| Phương trình | $\text{Collapse} = \mathbf{1}[\text{Liquidity} < \theta_{\text{liq}} \land \text{StopCascade} > \theta_{\text{stop}}]$ |
 | Tốc độ xảy ra | Trong vòng 5–30 phút |
 | Hậu quả | Giá giảm 5–20% trong thời gian ngắn |
 | Chế độ phục hồi | Circuit breaker, bơm thanh khoản, hồi phục sau 15–60 phút |
@@ -17234,7 +16711,7 @@ Mỗi thành phần trong tensor này sinh ra ~30–40 micro-laws liên quan đ�
 |---|---|
 | Nguyên nhân | Dữ liệu đầu vào thay đổi, môi trường thay đổi, feedback yếu |
 | Dấu hiệu | Độ chính xác giảm dần, sai số tăng dần |
-| Phương trình | \(\text{Drift} = \Delta \text{Error} - \Gamma\) |
+| Phương trình | $\text{Drift} = \Delta \text{Error} - \Gamma$ |
 | Tốc độ | Thường là chậm, tích lũy theo thời gian |
 | Hậu quả | Hệ thống dần trở nên không phù hợp |
 | Chế độ phục hồi | Cập nhật mô hình, thu thập dữ liệu mới, hiệu chỉnh |
@@ -17309,7 +16786,7 @@ Mỗi thành phần trong tensor này sinh ra ~30–40 micro-laws liên quan đ�
 |---|---|
 | Tương tác | Hành vi vi mô của từng trader → biến động vĩ mô của thị trường |
 | Cơ chế | Lan truyền qua mạng xã hội, hành vi bầy đàn, feedback loop |
-| Phương trình | \(\text{Macro}_t = \frac{1}{N} \sum_i \text{Micro}_{i,t} + \Lambda \cdot \text{Macro}_{t-1}\) |
+| Phương trình | $\text{Macro}_t = \frac{1}{N} \sum_i \text{Micro}_{i,t} + \Lambda \cdot \text{Macro}_{t-1}$ |
 | Điều kiện xuất hiện | Khi sự đa dạng vi mô vượt ngưỡng |
 | Ví dụ | Panic bán tháo lan rộng thành crash |
 | Luật kèm theo | ~50–100 |
@@ -17340,11 +16817,9 @@ Mỗi thành phần trong tensor này sinh ra ~30–40 micro-laws liên quan đ�
 
 Tất cả các cấu trúc trên được **đưa vào Interaction Tensor (L14)** dưới dạng các cell trong không gian:
 
-\[
-\text{Tensor}_{\text{interaction}} = \text{Generators}_{12} \times \text{Generators}_{12} \times \text{Axes}_{14} \times \text{Loops}_{15}
-\]
+$$\text{Tensor}_{\text{interaction}} = \text{Generators}_{12} \times \text{Generators}_{12} \times \text{Axes}_{14} \times \text{Loops}_{15}$$
 
-**Số cell:** \(12 \times 12 \times 14 \times 15 \approx 30,240\) cells
+**Số cell:** $12 \times 12 \times 14 \times 15 \approx 30,240$ cells
 
 **Mỗi cell chứa:**
 - ~15–25 micro-laws
@@ -17360,7 +16835,7 @@ Tất cả các cấu trúc trên được **đưa vào Interaction Tensor (L14)
 
 Tại mỗi bước thời gian, **URK (Universal Reasoning Kernel)** truy xuất các luật cần thiết dựa trên:
 
-1. **Trạng thái hiện tại** \(\boldsymbol{\mathcal{X}}_t\)
+1. **Trạng thái hiện tại** $\boldsymbol{\mathcal{X}}_t$
 2. **Miền đang hoạt động** (domain) – từ Input Field
 3. **Vòng lặp đang chạy** (loop)
 4. **Chế độ hiện tại** (mode)
@@ -17368,9 +16843,7 @@ Tại mỗi bước thời gian, **URK (Universal Reasoning Kernel)** truy xuấ
 
 **Công thức truy xuất:**
 
-\[
-\text{ActiveLaws} = \text{Retrieve}(\boldsymbol{\mathcal{X}}_t, \text{domain}, \text{loop}, \text{mode}, \text{layer})
-\]
+$$\text{ActiveLaws} = \text{Retrieve}(\boldsymbol{\mathcal{X}}_t, \text{domain}, \text{loop}, \text{mode}, \text{layer})$$
 
 **Quy tắc ưu tiên:**
 - Luật đặc thù cho domain hiện tại được ưu tiên
@@ -17389,10 +16862,10 @@ Lấy ví dụ một luật từ **Collapse Class #4 (Economic collapse)**:
 
 | Bước | Mô tả |
 |---|---|
-| 1. Sinh ra từ | \(\Omega\) (Capacity) × \(C\) (Constraint) × \(\Lambda\) (Coupling) |
+| 1. Sinh ra từ | $\Omega$ (Capacity) × $C$ (Constraint) × $\Lambda$ (Coupling) |
 | 2. Đặt trong | Ma trận Domain–Invariant tại cell (Economics × Capacity) |
-| 3. Chuẩn hóa | \(\text{Collapse} = \mathbf{1}[\text{Debt} > \text{Capacity} \land \text{Liquidity} < \text{Threshold}]\) |
-| 4. Tích hợp vào | Interaction Tensor tại cell (\(\Omega\), \(C\)) với axis = economic, loop = collapse |
+| 3. Chuẩn hóa | $\text{Collapse} = \mathbf{1}[\text{Debt} > \text{Capacity} \land \text{Liquidity} < \text{Threshold}]$ |
+| 4. Tích hợp vào | Interaction Tensor tại cell ($\Omega$, $C$) với axis = economic, loop = collapse |
 | 5. Thêm failure modes | Nợ tăng đột biến, mất thanh khoản đột ngột, lãi suất tăng vọt |
 | 6. Thêm recovery modes | Tái cấu trúc nợ, bơm thanh khoản, giảm lãi suất |
 | 7. Thực thi bởi | URK trong Runtime Field khi phát hiện economic domain và collapse loop |
@@ -17438,14 +16911,10 @@ QUYẾT ĐỊNH / HÀNH ĐỘNG / DỪNG
 
 Interaction Tensor là **cấu trúc trung tâm** của AMOS, nơi tất cả các cấu trúc luật, phương trình, vi trạng thái và tương tác được lưu trữ và tổ chức. Đây không phải là một tensor thông thường, mà là một **không gian tương tác đa chiều** có kích thước:
 
-\[
-\boxed{\text{Tensor}_{\text{interaction}} = \text{Generators}_{12} \times \text{Generators}_{12} \times \text{Axes}_{14} \times \text{Loops}_{15}}
-\]
+$$\boxed{\text{Tensor}_{\text{interaction}} = \text{Generators}_{12} \times \text{Generators}_{12} \times \text{Axes}_{14} \times \text{Loops}_{15}}$$
 
 **Kích thước cơ bản:**
-\[
-12 \times 12 \times 14 \times 15 = 30,240 \text{ cells}
-\]
+$$12 \times 12 \times 14 \times 15 = 30,240 \text{ cells}$$
 
 Mỗi cell là một **điểm tương tác** giữa hai generator cụ thể, dưới một axis cụ thể, trong một loop cụ thể.
 
@@ -17455,18 +16924,18 @@ Mỗi cell là một **điểm tương tác** giữa hai generator cụ thể, d
 
 | Ký hiệu | Generator | Mô tả ngắn |
 |---|---|---|
-| \(G_1\) | \(\Delta\) | Difference – Tạo phân biệt |
-| \(G_2\) | \(B\) | Boundary – Tạo ranh giới |
-| \(G_3\) | \(S\) | Space – Định nghĩa không gian |
-| \(G_4\) | \(\tau\) | Translation – Dịch chuyển |
-| \(G_5\) | \(C\) | Constraint – Ràng buộc |
-| \(G_6\) | \(\Omega\) | Capacity – Năng lực |
-| \(G_7\) | \(\Psi\) | Selection – Chọn lọc |
-| \(G_8\) | \(\Lambda\) | Coupling – Kết nối |
-| \(G_9\) | \(\Pi\) | Weighting – Trọng số |
-| \(G_{10}\) | \(\Xi\) | Perturbation – Nhiễu |
-| \(G_{11}\) | \(\Gamma\) | Feedback – Phản hồi |
-| \(G_{12}\) | \(\Theta\) | Mutation – Đột biến |
+| $G_1$ | $\Delta$ | Difference – Tạo phân biệt |
+| $G_2$ | $B$ | Boundary – Tạo ranh giới |
+| $G_3$ | $S$ | Space – Định nghĩa không gian |
+| $G_4$ | $\tau$ | Translation – Dịch chuyển |
+| $G_5$ | $C$ | Constraint – Ràng buộc |
+| $G_6$ | $\Omega$ | Capacity – Năng lực |
+| $G_7$ | $\Psi$ | Selection – Chọn lọc |
+| $G_8$ | $\Lambda$ | Coupling – Kết nối |
+| $G_9$ | $\Pi$ | Weighting – Trọng số |
+| $G_{10}$ | $\Xi$ | Perturbation – Nhiễu |
+| $G_{11}$ | $\Gamma$ | Feedback – Phản hồi |
+| $G_{12}$ | $\Theta$ | Mutation – Đột biến |
 
 ---
 
@@ -17474,29 +16943,29 @@ Mỗi cell là một **điểm tương tác** giữa hai generator cụ thể, d
 
 | # | Axis | Ký hiệu | Miền giá trị | Mô tả |
 |---|---|---|---|---|
-| 1 | Time | \(t\) | \(-\infty, +\infty\) | Thời gian tuyến tính |
-| 2 | Space | \(s\) | \(\mathbb{R}^3\) | Không gian vật lý |
-| 3 | Scale | \(sc\) | micro → meso → macro → planetary | Tỷ lệ phân tích |
-| 4 | Domain | \(d\) | 19 domains | Lĩnh vực (physics, biology, economics, etc.) |
-| 5 | Agent | \(a\) | self, individual, group, system, machine | Tác nhân |
-| 6 | Environment | \(e\) | internal, local, global, planetary | Môi trường |
-| 7 | Signal | \(sg\) | weak, medium, strong, saturated | Cường độ tín hiệu |
-| 8 | Representation Layer | \(r\) | 12 layers (R→I→S→E→F→M→X→P→G→A→Fb→U) | Lớp biểu diễn |
-| 9 | Risk | \(rk\) | 0 → 1 | Mức độ rủi ro |
-| 10 | Memory | \(m\) | 0 → 1 | Mức độ liên quan đến trí nhớ |
-| 11 | Action | \(ac\) | none, reflex, deliberate, strategic | Loại hành động |
-| 12 | Feedback | \(fb\) | 0 → 1 | Độ tin cậy phản hồi |
-| 13 | Uncertainty | \(u\) | known, uncertain, unknown, unknowable | Mức độ bất định |
-| 14 | Adversary | \(adv\) | 0 → 1 | Mức độ đối kháng |
+| 1 | Time | $t$ | $-\infty, +\infty$ | Thời gian tuyến tính |
+| 2 | Space | $s$ | $\mathbb{R}^3$ | Không gian vật lý |
+| 3 | Scale | $sc$ | micro → meso → macro → planetary | Tỷ lệ phân tích |
+| 4 | Domain | $d$ | 19 domains | Lĩnh vực (physics, biology, economics, etc.) |
+| 5 | Agent | $a$ | self, individual, group, system, machine | Tác nhân |
+| 6 | Environment | $e$ | internal, local, global, planetary | Môi trường |
+| 7 | Signal | $sg$ | weak, medium, strong, saturated | Cường độ tín hiệu |
+| 8 | Representation Layer | $r$ | 12 layers (R→I→S→E→F→M→X→P→G→A→Fb→U) | Lớp biểu diễn |
+| 9 | Risk | $rk$ | 0 → 1 | Mức độ rủi ro |
+| 10 | Memory | $m$ | 0 → 1 | Mức độ liên quan đến trí nhớ |
+| 11 | Action | $ac$ | none, reflex, deliberate, strategic | Loại hành động |
+| 12 | Feedback | $fb$ | 0 → 1 | Độ tin cậy phản hồi |
+| 13 | Uncertainty | $u$ | known, uncertain, unknown, unknowable | Mức độ bất định |
+| 14 | Adversary | $adv$ | 0 → 1 | Mức độ đối kháng |
 
 **Chi tiết một axis – Scale (sc):**
 
 | Mức scale | Ký hiệu | Kích thước đặc trưng | Ví dụ |
 |---|---|---|---|
-| Micro | μ | \(10^{-6} – 10^{-3}\) m | Phân tử, tế bào, neuron |
-| Meso | m | \(10^{-3} – 10^{0}\) m | Mô, cơ quan, cá thể |
-| Macro | M | \(10^{0} – 10^{6}\) m | Tổ chức, thành phố, quốc gia |
-| Planetary | P | \(10^{6} – 10^{8}\) m | Hành tinh, khí hậu, sinh quyển |
+| Micro | μ | $10^{-6} – 10^{-3}$ m | Phân tử, tế bào, neuron |
+| Meso | m | $10^{-3} – 10^{0}$ m | Mô, cơ quan, cá thể |
+| Macro | M | $10^{0} – 10^{6}$ m | Tổ chức, thành phố, quốc gia |
+| Planetary | P | $10^{6} – 10^{8}$ m | Hành tinh, khí hậu, sinh quyển |
 
 **Chi tiết một axis – Uncertainty (u):**
 
@@ -17513,28 +16982,28 @@ Mỗi cell là một **điểm tương tác** giữa hai generator cụ thể, d
 
 | # | Loop | Ký hiệu | Tần suất | Mô tả |
 |---|---|---|---|---|
-| 1 | Signal loop | \(L_{sig}\) | fastest | Xử lý tín hiệu thô |
-| 2 | Perception loop | \(L_{per}\) | very fast | Chuyển signal → perception |
-| 3 | Cognition loop | \(L_{cog}\) | fast | Xử lý nhận thức |
-| 4 | Action loop | \(L_{act}\) | fast → medium | Quyết định và hành động |
-| 5 | Feedback loop | \(L_{fb}\) | medium | Xử lý phản hồi |
-| 6 | Learning loop | \(L_{lrn}\) | medium → slow | Cập nhật mô hình |
-| 7 | Identity loop | \(L_{id}\) | slow | Duy trì bản sắc |
-| 8 | Social loop | \(L_{soc}\) | slow | Tương tác xã hội |
-| 9 | Institutional loop | \(L_{inst}\) | very slow | Thể chế, luật lệ |
-| 10 | Civilisation loop | \(L_{civ}\) | very slow | Chu kỳ văn minh |
-| 11 | Evolution loop | \(L_{evol}\) | slowest | Tiến hóa lâu dài |
-| 12 | Meta loop | \(L_{meta}\) | variable | Tự quan sát, tự điều chỉnh |
-| 13 | Collapse loop | \(L_{col}\) | triggered | Xử lý sụp đổ |
-| 14 | Recovery loop | \(L_{rec}\) | triggered | Phục hồi sau sụp đổ |
-| 15 | Black-swan loop | \(L_{bs}\) | rare | Xử lý sự kiện hiếm |
+| 1 | Signal loop | $L_{sig}$ | fastest | Xử lý tín hiệu thô |
+| 2 | Perception loop | $L_{per}$ | very fast | Chuyển signal → perception |
+| 3 | Cognition loop | $L_{cog}$ | fast | Xử lý nhận thức |
+| 4 | Action loop | $L_{act}$ | fast → medium | Quyết định và hành động |
+| 5 | Feedback loop | $L_{fb}$ | medium | Xử lý phản hồi |
+| 6 | Learning loop | $L_{lrn}$ | medium → slow | Cập nhật mô hình |
+| 7 | Identity loop | $L_{id}$ | slow | Duy trì bản sắc |
+| 8 | Social loop | $L_{soc}$ | slow | Tương tác xã hội |
+| 9 | Institutional loop | $L_{inst}$ | very slow | Thể chế, luật lệ |
+| 10 | Civilisation loop | $L_{civ}$ | very slow | Chu kỳ văn minh |
+| 11 | Evolution loop | $L_{evol}$ | slowest | Tiến hóa lâu dài |
+| 12 | Meta loop | $L_{meta}$ | variable | Tự quan sát, tự điều chỉnh |
+| 13 | Collapse loop | $L_{col}$ | triggered | Xử lý sụp đổ |
+| 14 | Recovery loop | $L_{rec}$ | triggered | Phục hồi sau sụp đổ |
+| 15 | Black-swan loop | $L_{bs}$ | rare | Xử lý sự kiện hiếm |
 
 **Mô tả chi tiết một loop – Collapse loop (L₁₃):**
 
 | Thuộc tính | Giá trị |
 |---|---|
 | Tần suất | Được kích hoạt khi phát hiện collapse risk |
-| Đầu vào | \(\Omega_{\text{load}} > \Omega_{\text{capacity}}\), \(\Xi > \Xi_{\text{threshold}}\) |
+| Đầu vào | $\Omega_{\text{load}} > \Omega_{\text{capacity}}$, $\Xi > \Xi_{\text{threshold}}$ |
 | Xử lý | Giảm action, ưu tiên bảo toàn, kích hoạt recovery |
 | Đầu ra | NoAction / ReducedAction / Lockdown |
 | Thời gian tồn tại | Cho đến khi recovery hoàn tất |
@@ -17543,28 +17012,16 @@ Mỗi cell là một **điểm tương tác** giữa hai generator cụ thể, d
 
 ### 2.2.5. CẤU TRÚC CỦA MỖI CELL TRONG INTERACTION TENSOR
 
-Mỗi cell được định danh bởi bộ chỉ số \((i, j, a, l)\) với:
+Mỗi cell được định danh bởi bộ chỉ số $(i, j, a, l)$ với:
 
-- \(i\): generator thứ nhất (1–12)
-- \(j\): generator thứ hai (1–12)
-- \(a\): axis (1–14)
-- \(l\): loop (1–15)
+- $i$: generator thứ nhất (1–12)
+- $j$: generator thứ hai (1–12)
+- $a$: axis (1–14)
+- $l$: loop (1–15)
 
 **Cấu trúc của một cell:**
 
-\[
-\boxed{
-\text{Cell}(G_i, G_j, a, l) =
-\begin{Bmatrix}
-\text{laws: } & \{L_1, L_2, \dots, L_{n}\} \\
-\text{equations: } & \{E_1, E_2, \dots, E_{m}\} \\
-\text{failure\_modes: } & \{F_1, F_2, \dots, F_{p}\} \\
-\text{recovery\_modes: } & \{R_1, R_2, \dots, R_{q}\} \\
-\text{parameters: } & \{P_1, P_2, \dots, P_{r}\} \\
-\text{cross\_references: } & \{C_1, C_2, \dots, C_{s}\}
-\end{Bmatrix}
-}
-\]
+$$\boxed{ \text{Cell}(G_i, G_j, a, l) = \begin{Bmatrix} \text{laws: } & \{L_1, L_2, \dots, L_{n}\} \\ \text{equations: } & \{E_1, E_2, \dots, E_{m}\} \\ \text{failure\_modes: } & \{F_1, F_2, \dots, F_{p}\} \\ \text{recovery\_modes: } & \{R_1, R_2, \dots, R_{q}\} \\ \text{parameters: } & \{P_1, P_2, \dots, P_{r}\} \\ \text{cross\_references: } & \{C_1, C_2, \dots, C_{s}\} \end{Bmatrix} }$$
 
 **Số lượng thành phần trong mỗi cell (ước tính):**
 
@@ -17582,7 +17039,7 @@ Mỗi cell được định danh bởi bộ chỉ số \((i, j, a, l)\) với:
 
 ### 2.2.6. VÍ DỤ CỤ THỂ VỀ MỘT CELL
 
-**Cell(\(\Delta\), \(B\), scale = macro, loop = perception)**
+**Cell($\Delta$, $B$, scale = macro, loop = perception)**
 
 Đây là cell mô tả tương tác giữa **Difference Generator** và **Boundary Generator** ở **scale macro** trong **perception loop**.
 
@@ -17595,36 +17052,36 @@ Mỗi cell được định danh bởi bộ chỉ số \((i, j, a, l)\) với:
 | L4 | Ranh giới có thể tạo ra sự khác biệt mới (inside vs outside) |
 | ... | (khoảng 15 laws) |
 | **Equations** | |
-| E1 | \(B = \text{Stable}(\Delta_{\text{inside/outside}})\) |
-| E2 | \(\text{Breach} = 1 \text{ if } \Delta_{\text{inside/outside}} < \theta\) |
-| E3 | \(\text{EdgeStrength} = |\Delta_{\text{inside}} - \Delta_{\text{outside}}|\) |
+| E1 | $B = \text{Stable}(\Delta_{\text{inside/outside}})$ |
+| E2 | $\text{Breach} = 1 \text{ if } \Delta_{\text{inside/outside}} < \theta$ |
+| E3 | $\text{EdgeStrength} = |\Delta_{\text{inside}} - \Delta_{\text{outside}}|$ |
 | ... | (khoảng 8 equations) |
 | **Failure modes** | |
-| F1 | False boundary: \(\Delta\) phát hiện sai → ranh giới ảo |
-| F2 | Missed boundary: \(\Delta\) bỏ sót → không có ranh giới |
-| F3 | Boundary drift: \(\Delta\) thay đổi chậm → ranh giới trôi |
+| F1 | False boundary: $\Delta$ phát hiện sai → ranh giới ảo |
+| F2 | Missed boundary: $\Delta$ bỏ sót → không có ranh giới |
+| F3 | Boundary drift: $\Delta$ thay đổi chậm → ranh giới trôi |
 | ... | (khoảng 5 failure modes) |
 | **Recovery modes** | |
-| R1 | Re-detect boundary: tăng độ nhạy \(\Delta\) |
+| R1 | Re-detect boundary: tăng độ nhạy $\Delta$ |
 | R2 | Reinforce boundary: tăng cường sự khác biệt |
 | R3 | Repair boundary: sửa ranh giới dựa trên feedback |
 | ... | (khoảng 5 recovery modes) |
 | **Parameters** | |
-| P1 | \(\theta_{\text{edge}}\): ngưỡng phát hiện ranh giới |
-| P2 | \(\alpha_{\text{decay}}\): tốc độ phân rã ranh giới |
-| P3 | \(\beta_{\text{reinforce}}\): hệ số củng cố ranh giới |
+| P1 | $\theta_{\text{edge}}$: ngưỡng phát hiện ranh giới |
+| P2 | $\alpha_{\text{decay}}$: tốc độ phân rã ranh giới |
+| P3 | $\beta_{\text{reinforce}}$: hệ số củng cố ranh giới |
 | ... | (khoảng 10 parameters) |
 | **Cross-references** | |
-| C1 | Cell(\(\Delta\), \(S\), scale = macro, loop = perception) |
-| C2 | Cell(\(B\), \(S\), scale = macro, loop = perception) |
-| C3 | Cell(\(\Delta\), \(B\), scale = meso, loop = perception) |
+| C1 | Cell($\Delta$, $S$, scale = macro, loop = perception) |
+| C2 | Cell($B$, $S$, scale = macro, loop = perception) |
+| C3 | Cell($\Delta$, $B$, scale = meso, loop = perception) |
 | ... | (khoảng 8 cross-references) |
 
 ---
 
 ### 2.2.7. MA TRẬN TƯƠNG TÁC GIỮA CÁC GENERATOR (12×12)
 
-Ma trận này thể hiện mức độ tương tác giữa các cặp generator. Mỗi ô \((i, j)\) chứa thông tin về cách \(G_i\) và \(G_j\) ảnh hưởng lẫn nhau.
+Ma trận này thể hiện mức độ tương tác giữa các cặp generator. Mỗi ô $(i, j)$ chứa thông tin về cách $G_i$ và $G_j$ ảnh hưởng lẫn nhau.
 
 **Ký hiệu mức độ tương tác:**
 - **0**: Không tương tác
@@ -17632,20 +17089,20 @@ Ma trận này thể hiện mức độ tương tác giữa các cặp generator
 - **2**: Tương tác trung bình (hai chiều, yếu)
 - **3**: Tương tác mạnh (hai chiều, mạnh)
 
-| | \(\Delta\) | \(B\) | \(S\) | \(\tau\) | \(C\) | \(\Omega\) | \(\Psi\) | \(\Lambda\) | \(\Pi\) | \(\Xi\) | \(\Gamma\) | \(\Theta\) |
+| | $\Delta$ | $B$ | $S$ | $\tau$ | $C$ | $\Omega$ | $\Psi$ | $\Lambda$ | $\Pi$ | $\Xi$ | $\Gamma$ | $\Theta$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| \(\Delta\) | 3 | 3 | 2 | 3 | 2 | 2 | 3 | 2 | 3 | 3 | 3 | 2 |
-| \(B\) | 3 | 3 | 3 | 2 | 3 | 2 | 3 | 2 | 2 | 2 | 2 | 1 |
-| \(S\) | 2 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | 2 | 2 | 1 |
-| \(\tau\) | 3 | 2 | 3 | 3 | 2 | 2 | 3 | 3 | 3 | 2 | 3 | 2 |
-| \(C\) | 2 | 3 | 3 | 2 | 3 | 3 | 3 | 2 | 2 | 2 | 3 | 2 |
-| \(\Omega\) | 2 | 2 | 2 | 2 | 3 | 3 | 3 | 2 | 3 | 3 | 3 | 3 |
-| \(\Psi\) | 3 | 3 | 2 | 3 | 3 | 3 | 3 | 2 | 3 | 2 | 3 | 3 |
-| \(\Lambda\) | 2 | 2 | 2 | 3 | 2 | 2 | 2 | 3 | 2 | 3 | 3 | 2 |
-| \(\Pi\) | 3 | 2 | 2 | 3 | 2 | 3 | 3 | 2 | 3 | 2 | 3 | 2 |
-| \(\Xi\) | 3 | 2 | 2 | 2 | 2 | 3 | 2 | 3 | 2 | 3 | 2 | 3 |
-| \(\Gamma\) | 3 | 2 | 2 | 3 | 3 | 3 | 3 | 3 | 3 | 2 | 3 | 3 |
-| \(\Theta\) | 2 | 1 | 1 | 2 | 2 | 3 | 3 | 2 | 2 | 3 | 3 | 3 |
+| $\Delta$ | 3 | 3 | 2 | 3 | 2 | 2 | 3 | 2 | 3 | 3 | 3 | 2 |
+| $B$ | 3 | 3 | 3 | 2 | 3 | 2 | 3 | 2 | 2 | 2 | 2 | 1 |
+| $S$ | 2 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | 2 | 2 | 1 |
+| $\tau$ | 3 | 2 | 3 | 3 | 2 | 2 | 3 | 3 | 3 | 2 | 3 | 2 |
+| $C$ | 2 | 3 | 3 | 2 | 3 | 3 | 3 | 2 | 2 | 2 | 3 | 2 |
+| $\Omega$ | 2 | 2 | 2 | 2 | 3 | 3 | 3 | 2 | 3 | 3 | 3 | 3 |
+| $\Psi$ | 3 | 3 | 2 | 3 | 3 | 3 | 3 | 2 | 3 | 2 | 3 | 3 |
+| $\Lambda$ | 2 | 2 | 2 | 3 | 2 | 2 | 2 | 3 | 2 | 3 | 3 | 2 |
+| $\Pi$ | 3 | 2 | 2 | 3 | 2 | 3 | 3 | 2 | 3 | 2 | 3 | 2 |
+| $\Xi$ | 3 | 2 | 2 | 2 | 2 | 3 | 2 | 3 | 2 | 3 | 2 | 3 |
+| $\Gamma$ | 3 | 2 | 2 | 3 | 3 | 3 | 3 | 3 | 3 | 2 | 3 | 3 |
+| $\Theta$ | 2 | 1 | 1 | 2 | 2 | 3 | 3 | 2 | 2 | 3 | 3 | 3 |
 
 **Tổng số tương tác:** Tổng các ô = ~250–300 tương tác có ý nghĩa.
 
@@ -17653,27 +17110,27 @@ Ma trận này thể hiện mức độ tương tác giữa các cặp generator
 
 ### 2.2.8. CHI TIẾT MỘT TƯƠNG TÁC CỤ THỂ
 
-**Tương tác giữa \(\Delta\) và \(\tau\) (Difference và Translation):**
+**Tương tác giữa $\Delta$ và $\tau$ (Difference và Translation):**
 
 | Thuộc tính | Giá trị |
 |---|---|
 | Mức độ tương tác | 3 (rất mạnh) |
 | Chiều tác động | Hai chiều |
-| Cơ chế | \(\Delta\) cung cấp sự khác biệt để \(\tau\) dịch chuyển; \(\tau\) có thể làm méo mó hoặc mất mát \(\Delta\) |
-| Phương trình chính | \(\Delta_2 = \tau(\Delta_1) - L + D\) |
-| Ví dụ | Cảm nhận sự khác biệt về nhiệt độ (\(\Delta\)) → dịch chuyển thành cảm giác nóng/lạnh (\(\tau\)) → có thể mất thông tin về mức độ chính xác |
-| Failure mode | \(\tau\) làm mất \(\Delta\) hoàn toàn → không cảm nhận được sự khác biệt |
-| Recovery mode | Tăng độ nhạy của \(\Delta\), cải thiện \(\tau\) |
+| Cơ chế | $\Delta$ cung cấp sự khác biệt để $\tau$ dịch chuyển; $\tau$ có thể làm méo mó hoặc mất mát $\Delta$ |
+| Phương trình chính | $\Delta_2 = \tau(\Delta_1) - L + D$ |
+| Ví dụ | Cảm nhận sự khác biệt về nhiệt độ ($\Delta$) → dịch chuyển thành cảm giác nóng/lạnh ($\tau$) → có thể mất thông tin về mức độ chính xác |
+| Failure mode | $\tau$ làm mất $\Delta$ hoàn toàn → không cảm nhận được sự khác biệt |
+| Recovery mode | Tăng độ nhạy của $\Delta$, cải thiện $\tau$ |
 
 ---
 
 ### 2.2.9. SỐ LƯỢNG MICRO-LAWS TRONG MỖI CELL
 
-Mỗi cell \((i, j, a, l)\) chứa một số lượng micro-laws thay đổi tùy theo:
+Mỗi cell $(i, j, a, l)$ chứa một số lượng micro-laws thay đổi tùy theo:
 
-- Mức độ tương tác giữa \(G_i\) và \(G_j\)
-- Độ phức tạp của axis \(a\)
-- Tần suất và vai trò của loop \(l\)
+- Mức độ tương tác giữa $G_i$ và $G_j$
+- Độ phức tạp của axis $a$
+- Tần suất và vai trò của loop $l$
 
 **Phân bố số lượng micro-laws (ước tính):**
 
@@ -17685,14 +17142,10 @@ Mỗi cell \((i, j, a, l)\) chứa một số lượng micro-laws thay đổi t�
 | 0 (không) | 14 | 15 | 0 | ~60 | 0 |
 
 **Tổng số micro-laws trong Interaction Tensor:**
-\[
-5,000 + 3,000 + 800 = \mathbf{8,800} \text{ (luật cơ bản)}
-\]
+$$5,000 + 3,000 + 800 = \mathbf{8,800} \text{ (luật cơ bản)}$$
 
 Khi nhân với hệ số mở rộng từ các phương trình, failure modes, recovery modes (mỗi luật cơ bản sinh ra ~10–50 biến thể), tổng số cấu trúc đạt:
-\[
-8,800 \times 30 \approx \mathbf{264,000} \text{ cấu trúc}
-\]
+$$8,800 \times 30 \approx \mathbf{264,000} \text{ cấu trúc}$$
 Kết hợp với các nguồn khác (ma trận 19×19, emergent space, v.v.), tổng số đạt **400,000–800,000**.
 
 ---
@@ -17815,65 +17268,61 @@ URK là **trái tim thực thi** của AMOS. Nó không phải là một thuật
 
 **Phương trình tổng quát:**
 
-\[
-\boxed{\boldsymbol{\mathcal{X}}_{t+1} = \Theta\left(\Gamma\left(\Psi\left(\Omega\left(C\left(\Pi\left(\tau\left(\Delta(\boldsymbol{\mathcal{X}}_t, \boldsymbol{\mathcal{U}}_t)\right)\right)\right)\right)\right)\right)\right) + \boldsymbol{\Lambda}\boldsymbol{\mathcal{X}}_t + \boldsymbol{\Xi}_t}
-\]
+$$\boxed{\boldsymbol{\mathcal{X}}_{t+1} = \Theta\left(\Gamma\left(\Psi\left(\Omega\left(C\left(\Pi\left(\tau\left(\Delta(\boldsymbol{\mathcal{X}}_t, \boldsymbol{\mathcal{U}}_t)\right)\right)\right)\right)\right)\right)\right) + \boldsymbol{\Lambda}\boldsymbol{\mathcal{X}}_t + \boldsymbol{\Xi}_t}$$
 
 **Thứ tự các phép toán là BẤT BIẾN – không thể đảo lộn:**
 
-\[
-\Delta \rightarrow \tau \rightarrow \Pi \rightarrow C \rightarrow \Omega \rightarrow \Psi \rightarrow \Gamma \rightarrow \Theta
-\]
+$$\Delta \rightarrow \tau \rightarrow \Pi \rightarrow C \rightarrow \Omega \rightarrow \Psi \rightarrow \Gamma \rightarrow \Theta$$
 
 **Giải thích từng bước:**
 
 | Bước | Generator | Chức năng trong thực thi |
 |---|---|---|
-| 1 | \(\Delta\) | Phát hiện sự khác biệt giữa trạng thái hiện tại và đầu vào |
-| 2 | \(\tau\) | Dịch chuyển sự khác biệt qua các không gian biểu diễn |
-| 3 | \(\Pi\) | Gán trọng số / tầm quan trọng cho các tín hiệu |
-| 4 | \(C\) | Áp dụng ràng buộc, lọc các trạng thái không hợp lệ |
-| 5 | \(\Omega\) | Kiểm tra giới hạn năng lực, đảm bảo khả thi |
-| 6 | \(\Psi\) | Chọn lọc hành động / trạng thái / trí nhớ |
-| 7 | \(\Gamma\) | Tạo phản hồi từ kết quả so với kỳ vọng |
-| 8 | \(\Theta\) | Cập nhật hệ thống dựa trên phản hồi |
+| 1 | $\Delta$ | Phát hiện sự khác biệt giữa trạng thái hiện tại và đầu vào |
+| 2 | $\tau$ | Dịch chuyển sự khác biệt qua các không gian biểu diễn |
+| 3 | $\Pi$ | Gán trọng số / tầm quan trọng cho các tín hiệu |
+| 4 | $C$ | Áp dụng ràng buộc, lọc các trạng thái không hợp lệ |
+| 5 | $\Omega$ | Kiểm tra giới hạn năng lực, đảm bảo khả thi |
+| 6 | $\Psi$ | Chọn lọc hành động / trạng thái / trí nhớ |
+| 7 | $\Gamma$ | Tạo phản hồi từ kết quả so với kỳ vọng |
+| 8 | $\Theta$ | Cập nhật hệ thống dựa trên phản hồi |
 
 **Sau đó, cộng thêm:**
-- \(\boldsymbol{\Lambda}\boldsymbol{\mathcal{X}}_t\): Tương tác kết nối (coupling) giữa các thành phần
-- \(\boldsymbol{\Xi}_t\): Nhiễu / perturbation
+- $\boldsymbol{\Lambda}\boldsymbol{\mathcal{X}}_t$: Tương tác kết nối (coupling) giữa các thành phần
+- $\boldsymbol{\Xi}_t$: Nhiễu / perturbation
 
 ---
 
 ### 2.3.2. CHI TIẾT TỪNG BƯỚC TRONG URK
 
-#### Bước 1: \(\Delta\) – Difference Detection
+#### Bước 1: $\Delta$ – Difference Detection
 
-**Đầu vào:** \(\boldsymbol{\mathcal{X}}_t\) (trạng thái hiện tại), \(\boldsymbol{\mathcal{U}}_t\) (đầu vào mới)
+**Đầu vào:** $\boldsymbol{\mathcal{X}}_t$ (trạng thái hiện tại), $\boldsymbol{\mathcal{U}}_t$ (đầu vào mới)
 
 **Các luật được sử dụng:**
 
 | Nguồn luật | Ví dụ | Số lượng luật áp dụng |
 |---|---|---|
-| \(\Delta\) generator | \(\Delta_t = X_t - X_{t-1}\) | ~500 |
+| $\Delta$ generator | $\Delta_t = X_t - X_{t-1}$ | ~500 |
 | Ma trận Domain–Invariant | Cell(Physics × Difference) | ~50 |
 | 7 Universal Law Families | Causality laws | ~30 |
-| 14 Universal Tensors | \(T_{\text{Signal}}\) | ~20 |
+| 14 Universal Tensors | $T_{\text{Signal}}$ | ~20 |
 | **Tổng** | | **~600** |
 
-**Đầu ra:** \(\Delta(\boldsymbol{\mathcal{X}}_t, \boldsymbol{\mathcal{U}}_t)\) – sự khác biệt được phát hiện
+**Đầu ra:** $\Delta(\boldsymbol{\mathcal{X}}_t, \boldsymbol{\mathcal{U}}_t)$ – sự khác biệt được phát hiện
 
 **Ví dụ cụ thể:**
 
 | Loại khác biệt | Công thức | Ứng dụng |
 |---|---|---|
-| Temporal | \(X_t - X_{t-1}\) | Phát hiện xu hướng |
-| Spatial | \(X(\text{pos}_1) - X(\text{pos}_2)\) | Phát hiện biên |
-| Prediction | \(\text{Input} - \text{Prediction}\) | Sai số dự báo |
-| Value | \(\text{Value}_t - \text{Value}_{t-1}\) | Lãi/lỗ |
+| Temporal | $X_t - X_{t-1}$ | Phát hiện xu hướng |
+| Spatial | $X(\text{pos}_1) - X(\text{pos}_2)$ | Phát hiện biên |
+| Prediction | $\text{Input} - \text{Prediction}$ | Sai số dự báo |
+| Value | $\text{Value}_t - \text{Value}_{t-1}$ | Lãi/lỗ |
 
 ---
 
-#### Bước 2: \(\tau\) – Translation
+#### Bước 2: $\tau$ – Translation
 
 **Đầu vào:** Kết quả từ bước 1
 
@@ -17881,32 +17330,32 @@ URK là **trái tim thực thi** của AMOS. Nó không phải là một thuật
 
 | Nguồn luật | Ví dụ | Số lượng luật áp dụng |
 |---|---|---|
-| \(\tau\) generator | \(Z_2 = \tau(Z_1) - L + D\) | ~700 |
-| 12-layer translation chain | \(X_R \to X_I \to X_S \to \dots \to X_U\) | ~12 × 50 = 600 |
+| $\tau$ generator | $Z_2 = \tau(Z_1) - L + D$ | ~700 |
+| 12-layer translation chain | $X_R \to X_I \to X_S \to \dots \to X_U$ | ~12 × 50 = 600 |
 | Ma trận Layer–Operator (7×7) | Cell(Cognitive × Translation) | ~30 |
 | **Tổng** | | **~1,330** |
 
-**Đầu ra:** \(\tau(\Delta(\cdot))\) – sự khác biệt đã được dịch chuyển qua các không gian biểu diễn
+**Đầu ra:** $\tau(\Delta(\cdot))$ – sự khác biệt đã được dịch chuyển qua các không gian biểu diễn
 
-**Các không gian biểu diễn trong chuỗi \(\tau\):**
+**Các không gian biểu diễn trong chuỗi $\tau$:**
 
 | Từ | Đến | Mất mát đặc trưng |
 |---|---|---|
-| \(X_R\) (Reality) | \(X_I\) (Interaction) | Non-contacted reality |
-| \(X_I\) (Interaction) | \(X_S\) (Signal) | Resolution, range |
-| \(X_S\) (Signal) | \(X_E\) (Encoding) | Quantization, compression |
-| \(X_E\) (Encoding) | \(X_F\) (Feature) | Detail, context |
-| \(X_F\) (Feature) | \(X_M\) (Meaning) | Ambiguity, bias |
-| \(X_M\) (Meaning) | \(X_X\) (State) | Complexity compression |
-| \(X_X\) (State) | \(X_P\) (Policy) | Alternative pruning |
-| \(X_P\) (Policy) | \(X_G\) (Gate) | Blocked actions |
-| \(X_G\) (Gate) | \(X_A\) (Action) | Intention vs execution gap |
-| \(X_A\) (Action) | \(X_{Fb}\) (Feedback) | Delayed effects |
-| \(X_{Fb}\) (Feedback) | \(X_U\) (Update) | Credit assignment error |
+| $X_R$ (Reality) | $X_I$ (Interaction) | Non-contacted reality |
+| $X_I$ (Interaction) | $X_S$ (Signal) | Resolution, range |
+| $X_S$ (Signal) | $X_E$ (Encoding) | Quantization, compression |
+| $X_E$ (Encoding) | $X_F$ (Feature) | Detail, context |
+| $X_F$ (Feature) | $X_M$ (Meaning) | Ambiguity, bias |
+| $X_M$ (Meaning) | $X_X$ (State) | Complexity compression |
+| $X_X$ (State) | $X_P$ (Policy) | Alternative pruning |
+| $X_P$ (Policy) | $X_G$ (Gate) | Blocked actions |
+| $X_G$ (Gate) | $X_A$ (Action) | Intention vs execution gap |
+| $X_A$ (Action) | $X_{Fb}$ (Feedback) | Delayed effects |
+| $X_{Fb}$ (Feedback) | $X_U$ (Update) | Credit assignment error |
 
 ---
 
-#### Bước 3: \(\Pi\) – Weighting
+#### Bước 3: $\Pi$ – Weighting
 
 **Đầu vào:** Kết quả từ bước 2
 
@@ -17914,26 +17363,26 @@ URK là **trái tim thực thi** của AMOS. Nó không phải là một thuật
 
 | Nguồn luật | Ví dụ | Số lượng luật áp dụng |
 |---|---|---|
-| \(\Pi\) generator | \(\text{Weighted}(x) = \Pi(x) \times x\) | ~550 |
-| Attention system | \(\text{Attention}_i = \Pi_i / \sum \Pi_j\) | ~100 |
-| Confidence calibration | \(\Pi = 1 / \text{Variance}\) | ~80 |
+| $\Pi$ generator | $\text{Weighted}(x) = \Pi(x) \times x$ | ~550 |
+| Attention system | $\text{Attention}_i = \Pi_i / \sum \Pi_j$ | ~100 |
+| Confidence calibration | $\Pi = 1 / \text{Variance}$ | ~80 |
 | Ma trận Domain–Invariant | Cell(Psychology × Weighting) | ~50 |
 | **Tổng** | | **~780** |
 
-**Đầu ra:** \(\Pi(\tau(\Delta(\cdot)))\) – các tín hiệu đã được gán trọng số
+**Đầu ra:** $\Pi(\tau(\Delta(\cdot)))$ – các tín hiệu đã được gán trọng số
 
 **Các loại trọng số:**
 
 | Loại | Công thức | Ứng dụng |
 |---|---|---|
-| Signal weight | \(\Pi_{\text{sig}} = f(\text{SNR})\) | Ưu tiên tín hiệu rõ |
-| Prediction weight | \(\Pi_{\text{pred}} = f(\text{confidence})\) | Tin tưởng dự báo |
-| Risk weight | \(\Pi_{\text{risk}} = f(\text{threat})\) | Ưu tiên cảnh báo |
-| Reward weight | \(\Pi_{\text{reward}} = f(\text{value})\) | Ưu tiên phần thưởng |
+| Signal weight | $\Pi_{\text{sig}} = f(\text{SNR})$ | Ưu tiên tín hiệu rõ |
+| Prediction weight | $\Pi_{\text{pred}} = f(\text{confidence})$ | Tin tưởng dự báo |
+| Risk weight | $\Pi_{\text{risk}} = f(\text{threat})$ | Ưu tiên cảnh báo |
+| Reward weight | $\Pi_{\text{reward}} = f(\text{value})$ | Ưu tiên phần thưởng |
 
 ---
 
-#### Bước 4: \(C\) – Constraint
+#### Bước 4: $C$ – Constraint
 
 **Đầu vào:** Kết quả từ bước 3
 
@@ -17941,26 +17390,26 @@ URK là **trái tim thực thi** của AMOS. Nó không phải là một thuật
 
 | Nguồn luật | Ví dụ | Số lượng luật áp dụng |
 |---|---|---|
-| \(C\) generator | \(C(x) \in \{\text{valid}, \text{invalid}\}\) | ~650 |
+| $C$ generator | $C(x) \in \{\text{valid}, \text{invalid}\}$ | ~650 |
 | 15 Collapse Classes | Economic collapse, structural collapse, etc. | ~2,500 |
 | 7 Cycles Evolution | C1–C7 transition constraints | ~2,300 |
 | Ma trận Domain–Invariant | Cell(Economics × Constraint) | ~50 |
 | **Tổng** | | **~5,500** |
 
-**Đầu ra:** \(C(\Pi(\tau(\Delta(\cdot))))\) – các trạng thái hợp lệ sau khi áp dụng ràng buộc
+**Đầu ra:** $C(\Pi(\tau(\Delta(\cdot))))$ – các trạng thái hợp lệ sau khi áp dụng ràng buộc
 
 **Các loại ràng buộc:**
 
 | Loại | Công thức | Hậu quả khi vi phạm |
 |---|---|---|
-| Physical | \(v \leq c\) (speed limit) | Impossible state |
-| Biological | \(\text{Load} \leq \Omega_{\text{metabolic}}\) | Fatigue, illness |
-| Economic | \(\text{Debt} \leq \text{GDP} \times \theta\) | Default |
-| Legal | \(\text{Action} \models \text{Law}\) | Illegal action blocked |
+| Physical | $v \leq c$ (speed limit) | Impossible state |
+| Biological | $\text{Load} \leq \Omega_{\text{metabolic}}$ | Fatigue, illness |
+| Economic | $\text{Debt} \leq \text{GDP} \times \theta$ | Default |
+| Legal | $\text{Action} \models \text{Law}$ | Illegal action blocked |
 
 ---
 
-#### Bước 5: \(\Omega\) – Capacity
+#### Bước 5: $\Omega$ – Capacity
 
 **Đầu vào:** Kết quả từ bước 4
 
@@ -17968,26 +17417,26 @@ URK là **trái tim thực thi** của AMOS. Nó không phải là một thuật
 
 | Nguồn luật | Ví dụ | Số lượng luật áp dụng |
 |---|---|---|
-| \(\Omega\) generator | \(\text{Feasible}(x) = 1 \iff \text{Load}(x) \leq \Omega\) | ~600 |
+| $\Omega$ generator | $\text{Feasible}(x) = 1 \iff \text{Load}(x) \leq \Omega$ | ~600 |
 | 7 Cycles Evolution | C3 overload detection | ~300 |
 | 15 Collapse Classes | Capacity exhaustion | ~500 |
 | Ma trận Domain–Invariant | Cell(Biology × Capacity) | ~50 |
 | **Tổng** | | **~1,450** |
 
-**Đầu ra:** \(\Omega(C(\Pi(\tau(\Delta(\cdot)))))\) – các trạng thái khả thi trong giới hạn năng lực
+**Đầu ra:** $\Omega(C(\Pi(\tau(\Delta(\cdot)))))$ – các trạng thái khả thi trong giới hạn năng lực
 
 **Các loại năng lực:**
 
 | Loại | Giới hạn | Hậu quả khi vượt |
 |---|---|---|
-| Energy | \(\text{Power} \leq \Omega_{\text{energy}}\) | Exhaustion |
-| Time | \(\text{Duration} \leq \Omega_{\text{time}}\) | Timeout |
-| Compute | \(\text{FLOPs} \leq \Omega_{\text{compute}}\) | Lag, crash |
-| Attention | \(\text{Tasks} \leq \Omega_{\text{attention}}\) | Distraction |
+| Energy | $\text{Power} \leq \Omega_{\text{energy}}$ | Exhaustion |
+| Time | $\text{Duration} \leq \Omega_{\text{time}}$ | Timeout |
+| Compute | $\text{FLOPs} \leq \Omega_{\text{compute}}$ | Lag, crash |
+| Attention | $\text{Tasks} \leq \Omega_{\text{attention}}$ | Distraction |
 
 ---
 
-#### Bước 6: \(\Psi\) – Selection
+#### Bước 6: $\Psi$ – Selection
 
 **Đầu vào:** Kết quả từ bước 5
 
@@ -17995,26 +17444,26 @@ URK là **trái tim thực thi** của AMOS. Nó không phải là một thuật
 
 | Nguồn luật | Ví dụ | Số lượng luật áp dụng |
 |---|---|---|
-| \(\Psi\) generator | \(\Psi(x) = \arg\max U(x) \text{ subject to } C, \Omega\) | ~550 |
-| Decision theory | \(\text{Selected} = \text{TopK}(\text{score})\) | ~200 |
-| Evolution | \(\text{Survival} = \Psi(\text{fitness})\) | ~300 |
+| $\Psi$ generator | $\Psi(x) = \arg\max U(x) \text{ subject to } C, \Omega$ | ~550 |
+| Decision theory | $\text{Selected} = \text{TopK}(\text{score})$ | ~200 |
+| Evolution | $\text{Survival} = \Psi(\text{fitness})$ | ~300 |
 | Ma trận Domain–Invariant | Cell(Evolution × Selection) | ~50 |
 | **Tổng** | | **~1,100** |
 
-**Đầu ra:** \(\Psi(\Omega(C(\Pi(\tau(\Delta(\cdot))))))\) – các hành động / trạng thái được chọn
+**Đầu ra:** $\Psi(\Omega(C(\Pi(\tau(\Delta(\cdot))))))$ – các hành động / trạng thái được chọn
 
 **Các loại chọn lọc:**
 
 | Loại | Cơ chế | Ứng dụng |
 |---|---|---|
-| Signal selection | \(\text{Attended} = \text{TopK}(\Pi \times \text{signal})\) | Chú ý |
-| Action selection | \(\text{Action} = \arg\max U(a)\) | Quyết định |
-| Memory selection | \(\text{Memory}_{t+1} = \Psi(\text{Memory}_t \cup \text{new})\) | Lưu trữ |
-| Evolution selection | \(\text{Species}_{t+1} = \Psi(\text{Species}_t, \text{fitness})\) | Tiến hóa |
+| Signal selection | $\text{Attended} = \text{TopK}(\Pi \times \text{signal})$ | Chú ý |
+| Action selection | $\text{Action} = \arg\max U(a)$ | Quyết định |
+| Memory selection | $\text{Memory}_{t+1} = \Psi(\text{Memory}_t \cup \text{new})$ | Lưu trữ |
+| Evolution selection | $\text{Species}_{t+1} = \Psi(\text{Species}_t, \text{fitness})$ | Tiến hóa |
 
 ---
 
-#### Bước 7: \(\Gamma\) – Feedback
+#### Bước 7: $\Gamma$ – Feedback
 
 **Đầu vào:** Kết quả từ bước 6, sau khi hành động đã được thực thi
 
@@ -18022,25 +17471,25 @@ URK là **trái tim thực thi** của AMOS. Nó không phải là một thuật
 
 | Nguồn luật | Ví dụ | Số lượng luật áp dụng |
 |---|---|---|
-| \(\Gamma\) generator | \(\varepsilon = \text{Actual} - \text{Expected}\) | ~550 |
-| Control theory | \(\Gamma = f(\varepsilon, \text{delay}, \text{reliability})\) | ~300 |
-| Learning theory | \(\theta_{t+1} = \theta_t + \alpha \Gamma\) | ~200 |
+| $\Gamma$ generator | $\varepsilon = \text{Actual} - \text{Expected}$ | ~550 |
+| Control theory | $\Gamma = f(\varepsilon, \text{delay}, \text{reliability})$ | ~300 |
+| Learning theory | $\theta_{t+1} = \theta_t + \alpha \Gamma$ | ~200 |
 | Ma trận Domain–Invariant | Cell(Control Theory × Feedback) | ~50 |
 | **Tổng** | | **~1,100** |
 
-**Đầu ra:** \(\Gamma(\Psi(\Omega(C(\Pi(\tau(\Delta(\cdot)))))))\) – tín hiệu phản hồi
+**Đầu ra:** $\Gamma(\Psi(\Omega(C(\Pi(\tau(\Delta(\cdot)))))))$ – tín hiệu phản hồi
 
 **Các loại phản hồi:**
 
 | Loại | Công thức | Ứng dụng |
 |---|---|---|
-| Error | \(\varepsilon = \text{Actual} - \text{Predicted}\) | Học |
-| Reward | \(R = f(\text{outcome}, \text{goal})\) | Reinforcement |
-| Social | \(\text{Trust}_{t+1} = \text{Trust}_t + \Delta(\text{outcome})\) | Tin tưởng |
+| Error | $\varepsilon = \text{Actual} - \text{Predicted}$ | Học |
+| Reward | $R = f(\text{outcome}, \text{goal})$ | Reinforcement |
+| Social | $\text{Trust}_{t+1} = \text{Trust}_t + \Delta(\text{outcome})$ | Tin tưởng |
 
 ---
 
-#### Bước 8: \(\Theta\) – Mutation / Update
+#### Bước 8: $\Theta$ – Mutation / Update
 
 **Đầu vào:** Kết quả từ bước 7
 
@@ -18048,36 +17497,36 @@ URK là **trái tim thực thi** của AMOS. Nó không phải là một thuật
 
 | Nguồn luật | Ví dụ | Số lượng luật áp dụng |
 |---|---|---|
-| \(\Theta\) generator | \(\theta_{t+1} = \theta_t + \alpha \Gamma\) | ~600 |
+| $\Theta$ generator | $\theta_{t+1} = \theta_t + \alpha \Gamma$ | ~600 |
 | Learning algorithms | SGD, Adam, etc. | ~200 |
 | Evolution algorithms | Mutation + selection | ~300 |
 | Ma trận Domain–Invariant | Cell(Evolution × Adaptation) | ~50 |
 | **Tổng** | | **~1,150** |
 
-**Đầu ra:** \(\Theta(\Gamma(\Psi(\Omega(C(\Pi(\tau(\Delta(\cdot))))))))\) – hệ thống đã được cập nhật
+**Đầu ra:** $\Theta(\Gamma(\Psi(\Omega(C(\Pi(\tau(\Delta(\cdot))))))))$ – hệ thống đã được cập nhật
 
 **Các loại cập nhật:**
 
 | Loại | Công thức | Ứng dụng |
 |---|---|---|
-| Parameter | \(\theta_{t+1} = \theta_t - \eta \nabla L\) | Học máy |
-| Model | \(\text{Model}_{t+1} = \text{Model}_t + \Delta \text{Model}\) | Cập nhật mô hình |
-| Policy | \(\pi_{t+1} = \pi_t + \Delta \pi\) | Cải thiện chính sách |
-| Identity | \(I_{t+1} = I_t + \Delta I\) (giới hạn) | Duy trì bản sắc |
+| Parameter | $\theta_{t+1} = \theta_t - \eta \nabla L$ | Học máy |
+| Model | $\text{Model}_{t+1} = \text{Model}_t + \Delta \text{Model}$ | Cập nhật mô hình |
+| Policy | $\pi_{t+1} = \pi_t + \Delta \pi$ | Cải thiện chính sách |
+| Identity | $I_{t+1} = I_t + \Delta I$ (giới hạn) | Duy trì bản sắc |
 
 ---
 
 ### 2.3.3. CÁC THÀNH PHẦN BỔ SUNG TRONG PHƯƠNG TRÌNH URK
 
-#### Thành phần \(\boldsymbol{\Lambda}\boldsymbol{\mathcal{X}}_t\) – Coupling
+#### Thành phần $\boldsymbol{\Lambda}\boldsymbol{\mathcal{X}}_t$ – Coupling
 
-**Đầu vào:** \(\boldsymbol{\mathcal{X}}_t\) (trạng thái hiện tại)
+**Đầu vào:** $\boldsymbol{\mathcal{X}}_t$ (trạng thái hiện tại)
 
 **Các luật được sử dụng:**
 
 | Nguồn luật | Ví dụ | Số lượng luật áp dụng |
 |---|---|---|
-| \(\Lambda\) generator | \(X_i(t+1) = X_i(t) + \sum_j \Lambda_{ij} X_j(t)\) | ~700 |
+| $\Lambda$ generator | $X_i(t+1) = X_i(t) + \sum_j \Lambda_{ij} X_j(t)$ | ~700 |
 | Network theory | Spectral radius < 1 for stability | ~300 |
 | Emergent interaction space | Cross-layer, cross-scale coupling | ~300,000+ |
 | **Tổng** | | **~301,000+** |
@@ -18086,13 +17535,11 @@ URK là **trái tim thực thi** của AMOS. Nó không phải là một thuật
 
 **Ví dụ:**
 
-\[
-X_{\text{market}}(t+1) = X_{\text{market}}(t) + \Lambda_{\text{market} \leftarrow \text{sentiment}} \cdot X_{\text{sentiment}}(t) + \Lambda_{\text{market} \leftarrow \text{liquidity}} \cdot X_{\text{liquidity}}(t)
-\]
+$$X_{\text{market}}(t+1) = X_{\text{market}}(t) + \Lambda_{\text{market} \leftarrow \text{sentiment}} \cdot X_{\text{sentiment}}(t) + \Lambda_{\text{market} \leftarrow \text{liquidity}} \cdot X_{\text{liquidity}}(t)$$
 
 ---
 
-#### Thành phần \(\boldsymbol{\Xi}_t\) – Perturbation / Noise
+#### Thành phần $\boldsymbol{\Xi}_t$ – Perturbation / Noise
 
 **Đầu vào:** Nhiễu ngẫu nhiên hoặc có cấu trúc từ môi trường
 
@@ -18100,9 +17547,9 @@ X_{\text{market}}(t+1) = X_{\text{market}}(t) + \Lambda_{\text{market} \leftarro
 
 | Nguồn luật | Ví dụ | Số lượng luật áp dụng |
 |---|---|---|
-| \(\Xi\) generator | \(X' = X + \Xi\) | ~600 |
-| Random process | \(\Xi \sim \mathcal{N}(0, \sigma^2)\) | ~200 |
-| Black swan | \(|\Xi| \gg \text{threshold}\) | ~300 |
+| $\Xi$ generator | $X' = X + \Xi$ | ~600 |
+| Random process | $\Xi \sim \mathcal{N}(0, \sigma^2)$ | ~200 |
+| Black swan | $|\Xi| \gg \text{threshold}$ | ~300 |
 | **Tổng** | | **~1,100** |
 
 **Chức năng:** Tạo ra sự không chắc chắn, biến động, và sự kiện hiếm.
@@ -18113,17 +17560,17 @@ X_{\text{market}}(t+1) = X_{\text{market}}(t) + \Lambda_{\text{market} \leftarro
 
 | Bước | Generator | Số luật sử dụng |
 |---|---|---|
-| 1 | \(\Delta\) | ~600 |
-| 2 | \(\tau\) | ~1,330 |
-| 3 | \(\Pi\) | ~780 |
-| 4 | \(C\) | ~5,500 |
-| 5 | \(\Omega\) | ~1,450 |
-| 6 | \(\Psi\) | ~1,100 |
-| 7 | \(\Gamma\) | ~1,100 |
-| 8 | \(\Theta\) | ~1,150 |
+| 1 | $\Delta$ | ~600 |
+| 2 | $\tau$ | ~1,330 |
+| 3 | $\Pi$ | ~780 |
+| 4 | $C$ | ~5,500 |
+| 5 | $\Omega$ | ~1,450 |
+| 6 | $\Psi$ | ~1,100 |
+| 7 | $\Gamma$ | ~1,100 |
+| 8 | $\Theta$ | ~1,150 |
 | **Tổng tuần tự** | | **~13,010** |
-| Coupling (\(\boldsymbol{\Lambda}\)) | | ~301,000+ |
-| Perturbation (\(\boldsymbol{\Xi}\)) | | ~1,100 |
+| Coupling ($\boldsymbol{\Lambda}$) | | ~301,000+ |
+| Perturbation ($\boldsymbol{\Xi}$) | | ~1,100 |
 | **TỔNG MỖI BƯỚC THỜI GIAN** | | **~315,000+** |
 
 ---
@@ -18134,16 +17581,16 @@ X_{\text{market}}(t+1) = X_{\text{market}}(t) + \Lambda_{\text{market} \leftarro
 
 | Bước | Generator | Hành động | Kết quả |
 |---|---|---|---|
-| 1 | \(\Delta\) | Phát hiện khối lượng giao dịch bất thường, giá giảm nhanh | \(\Delta = \text{giảm 5\%, volume tăng 300\%}\) |
-| 2 | \(\tau\) | Dịch chuyển thành tín hiệu "bán tháo" | \(X_M = \text{"panic"}\) |
-| 3 | \(\Pi\) | Gán trọng số cao cho tín hiệu rủi ro | \(\Pi_{\text{risk}} = 0.9\) |
-| 4 | \(C\) | Kiểm tra ràng buộc: có được bán không? | \(C = \text{allowed}\) |
-| 5 | \(\Omega\) | Kiểm tra năng lực: đủ thanh khoản? | \(\Omega = \text{sufficient}\) |
-| 6 | \(\Psi\) | Chọn hành động: bán | \(\text{Action} = \text{SELL}\) |
-| 7 | \(\Gamma\) | Sau khi bán, so sánh kết quả với kỳ vọng | \(\Gamma = \text{lợi nhuận +5\%}\) |
-| 8 | \(\Theta\) | Cập nhật chiến lược: tăng trọng số cho tín hiệu tương tự | \(\Pi_{\text{risk,new}} = 0.92\) |
-| + | \(\boldsymbol{\Lambda}\) | Lan truyền ảnh hưởng đến các tài sản khác | \(X_{\text{bond}} \uparrow, X_{\text{gold}} \uparrow\) |
-| + | \(\boldsymbol{\Xi}\) | Nhiễu từ tin tức bất ngờ | \(\Xi = \text{Fed tuyên bố khẩn cấp}\) |
+| 1 | $\Delta$ | Phát hiện khối lượng giao dịch bất thường, giá giảm nhanh | $\Delta = \text{giảm 5\%, volume tăng 300\%}$ |
+| 2 | $\tau$ | Dịch chuyển thành tín hiệu "bán tháo" | $X_M = \text{"panic"}$ |
+| 3 | $\Pi$ | Gán trọng số cao cho tín hiệu rủi ro | $\Pi_{\text{risk}} = 0.9$ |
+| 4 | $C$ | Kiểm tra ràng buộc: có được bán không? | $C = \text{allowed}$ |
+| 5 | $\Omega$ | Kiểm tra năng lực: đủ thanh khoản? | $\Omega = \text{sufficient}$ |
+| 6 | $\Psi$ | Chọn hành động: bán | $\text{Action} = \text{SELL}$ |
+| 7 | $\Gamma$ | Sau khi bán, so sánh kết quả với kỳ vọng | $\Gamma = \text{lợi nhuận +5\%}$ |
+| 8 | $\Theta$ | Cập nhật chiến lược: tăng trọng số cho tín hiệu tương tự | $\Pi_{\text{risk,new}} = 0.92$ |
+| + | $\boldsymbol{\Lambda}$ | Lan truyền ảnh hưởng đến các tài sản khác | $X_{\text{bond}} \uparrow, X_{\text{gold}} \uparrow$ |
+| + | $\boldsymbol{\Xi}$ | Nhiễu từ tin tức bất ngờ | $\Xi = \text{Fed tuyên bố khẩn cấp}$ |
 
 ---
 
@@ -18176,16 +17623,16 @@ X_{\text{market}}(t+1) = X_{\text{market}}(t) + \Lambda_{\text{market} \leftarro
 
 | Điều kiện | Hành động | Cơ chế |
 |---|---|---|
-| \(\Delta = 0\) (không có khác biệt) | NoUpdate, giữ nguyên trạng thái | Bỏ qua chu kỳ |
-| \(\tau\) mất mát quá lớn (\(L > \theta_L\)) | Giảm confidence, yêu cầu dữ liệu bổ sung | Trigger DataRequest |
-| \(\Pi\) mất cân bằng (overconfidence) | Giảm \(\Pi\), tăng uncertainty | Recalibration |
-| \(C\) vi phạm (hành động không hợp lệ) | Block action, chuyển sang ObserveOnly | NoAction |
-| \(\Omega\) quá tải (\(\text{Load} > \Omega\)) | Giảm tải, ưu tiên hành động sống còn | Survival mode |
-| \(\Psi\) không chọn được hành động nào | ObserveOnly, chờ thêm thông tin | NoAction |
-| \(\Gamma\) không đáng tin cậy | Giảm tốc độ học, tăng kiểm tra chéo | Slow learning |
-| \(\Theta\) đột biến quá lớn (\(|\Delta\theta| > \text{bound}\)) | Rollback, giảm learning rate | Safe mutation |
-| \(\Lambda\) gây cascade (spectral radius > 1) | Giảm coupling, thêm damping | Stability control |
-| \(\Xi\) quá lớn (black swan) | Chuyển sang chế độ bảo tồn, NoPrediction | Lockdown |
+| $\Delta = 0$ (không có khác biệt) | NoUpdate, giữ nguyên trạng thái | Bỏ qua chu kỳ |
+| $\tau$ mất mát quá lớn ($L > \theta_L$) | Giảm confidence, yêu cầu dữ liệu bổ sung | Trigger DataRequest |
+| $\Pi$ mất cân bằng (overconfidence) | Giảm $\Pi$, tăng uncertainty | Recalibration |
+| $C$ vi phạm (hành động không hợp lệ) | Block action, chuyển sang ObserveOnly | NoAction |
+| $\Omega$ quá tải ($\text{Load} > \Omega$) | Giảm tải, ưu tiên hành động sống còn | Survival mode |
+| $\Psi$ không chọn được hành động nào | ObserveOnly, chờ thêm thông tin | NoAction |
+| $\Gamma$ không đáng tin cậy | Giảm tốc độ học, tăng kiểm tra chéo | Slow learning |
+| $\Theta$ đột biến quá lớn ($|\Delta\theta| > \text{bound}$) | Rollback, giảm learning rate | Safe mutation |
+| $\Lambda$ gây cascade (spectral radius > 1) | Giảm coupling, thêm damping | Stability control |
+| $\Xi$ quá lớn (black swan) | Chuyển sang chế độ bảo tồn, NoPrediction | Lockdown |
 
 ---
 
@@ -18197,21 +17644,17 @@ X_{\text{market}}(t+1) = X_{\text{market}}(t) + \Lambda_{\text{market} \leftarro
 
 ---
 
-### 3.1. MASTER STATE TENSOR (\(\boldsymbol{\mathcal{X}}_t\)) – MỞ RỘNG HOÀN TOÀN
+### 3.1. MASTER STATE TENSOR ($\boldsymbol{\mathcal{X}}_t$) – MỞ RỘNG HOÀN TOÀN
 
 #### 3.1.1. Định nghĩa tổng quát
 
-Master State Tensor là **biểu diễn toán học đầy đủ nhất** của toàn bộ trạng thái hệ thống tại thời điểm \(t\). Nó tích hợp tất cả 12 chiều (dimensions) cơ bản, mỗi chiều có thể có nhiều giá trị rời rạc hoặc liên tục.
+Master State Tensor là **biểu diễn toán học đầy đủ nhất** của toàn bộ trạng thái hệ thống tại thời điểm $t$. Nó tích hợp tất cả 12 chiều (dimensions) cơ bản, mỗi chiều có thể có nhiều giá trị rời rạc hoặc liên tục.
 
-\[
-\boxed{\boldsymbol{\mathcal{X}}_t = \boldsymbol{\mathcal{X}}(t, r, s, d, a, e, l, m, p, u, \text{law\_family}, \text{invariant\_class})}
-\]
+$$\boxed{\boldsymbol{\mathcal{X}}_t = \boldsymbol{\mathcal{X}}(t, r, s, d, a, e, l, m, p, u, \text{law\_family}, \text{invariant\_class})}$$
 
 **Kích thước tensor lý thuyết:**
 
-\[
-\dim(\boldsymbol{\mathcal{X}}_t) = |t| \times |r| \times |s| \times |d| \times |a| \times |e| \times |l| \times |m| \times |p| \times |u| \times |\text{law\_family}| \times |\text{invariant\_class}|
-\]
+$$\dim(\boldsymbol{\mathcal{X}}_t) = |t| \times |r| \times |s| \times |d| \times |a| \times |e| \times |l| \times |m| \times |p| \times |u| \times |\text{law\_family}| \times |\text{invariant\_class}|$$
 
 Tuy nhiên, tensor này là **thưa (sparse)** – chỉ một phần nhỏ các tổ hợp là khả thi hoặc có ý nghĩa.
 
@@ -18219,67 +17662,61 @@ Tuy nhiên, tensor này là **thưa (sparse)** – chỉ một phần nhỏ các
 
 #### 3.1.2. Chi tiết từng chiều (Dimension)
 
-##### Chiều 1: \(t\) – Time
+##### Chiều 1: $t$ – Time
 
 | Thuộc tính | Giá trị |
 |---|---|
 | Kiểu | Liên tục (continuous) |
 | Đơn vị | Phụ thuộc vào ứng dụng (ms, s, ngày, năm) |
-| Phạm vi | \(-\infty\) đến \(+\infty\) (nhưng thực tế giới hạn bởi lịch sử) |
+| Phạm vi | $-\infty$ đến $+\infty$ (nhưng thực tế giới hạn bởi lịch sử) |
 | Độ phân giải | Biến đổi theo loop (fast loop: ms, slow loop: năm) |
 
 **Các mốc thời gian đặc biệt:**
 
 | Ký hiệu | Mô tả |
 |---|---|
-| \(t_0\) | Thời điểm khởi tạo hệ thống |
-| \(t_{\text{birth}}\) | Thời điểm emergence |
-| \(t_{\text{peak}}\) | Thời điểm đạt đỉnh (C3) |
-| \(t_{\text{collapse}}\) | Thời điểm sụp đổ (C6) |
-| \(t_{\text{reset}}\) | Thời điểm tái cấu trúc (C7) |
-| \(t_{\text{termination}}\) | Thời điểm kết thúc |
+| $t_0$ | Thời điểm khởi tạo hệ thống |
+| $t_{\text{birth}}$ | Thời điểm emergence |
+| $t_{\text{peak}}$ | Thời điểm đạt đỉnh (C3) |
+| $t_{\text{collapse}}$ | Thời điểm sụp đổ (C6) |
+| $t_{\text{reset}}$ | Thời điểm tái cấu trúc (C7) |
+| $t_{\text{termination}}$ | Thời điểm kết thúc |
 
 **Công thức cập nhật thời gian:**
-\[
-t_{n+1} = t_n + \Delta t_{\text{loop}}
-\]
-Trong đó \(\Delta t_{\text{loop}}\) phụ thuộc vào loop đang chạy:
-- Fast loop: \(\Delta t \approx 1\text{ms} – 1\text{s}\)
-- Mid loop: \(\Delta t \approx 1\text{s} – 1\text{ngày}\)
-- Slow loop: \(\Delta t \approx 1\text{ngày} – 1\text{năm}\)
+$$t_{n+1} = t_n + \Delta t_{\text{loop}}$$
+Trong đó $\Delta t_{\text{loop}}$ phụ thuộc vào loop đang chạy:
+- Fast loop: $\Delta t \approx 1\text{ms} – 1\text{s}$
+- Mid loop: $\Delta t \approx 1\text{s} – 1\text{ngày}$
+- Slow loop: $\Delta t \approx 1\text{ngày} – 1\text{năm}$
 
 ---
 
-##### Chiều 2: \(r\) – Representation Space (12 layers)
+##### Chiều 2: $r$ – Representation Space (12 layers)
 
 | # | Ký hiệu | Tên | Mô tả |
 |---|---|---|---|
-| 1 | \(R\) | Reality | Thực tại khách quan (không thể truy cập trực tiếp) |
-| 2 | \(I\) | Interaction | Tương tác giữa hệ thống và thực tại |
-| 3 | \(S\) | Signal | Tín hiệu đo lường được |
-| 4 | \(E\) | Encoding | Mã hóa nội bộ |
-| 5 | \(F\) | Feature | Đặc trưng trích xuất |
-| 6 | \(M\) | Meaning | Ý nghĩa, diễn giải |
-| 7 | \(X\) | Internal State | Trạng thái nội bộ tích hợp |
-| 8 | \(P\) | Policy | Các hành động khả thi |
-| 9 | \(G\) | Gate | Các hành động được phép |
-| 10 | \(A\) | Action | Hành động đã thực thi |
-| 11 | \(Fb\) | Feedback | Phản hồi quan sát được |
-| 12 | \(U\) | Update | Cập nhật hệ thống |
+| 1 | $R$ | Reality | Thực tại khách quan (không thể truy cập trực tiếp) |
+| 2 | $I$ | Interaction | Tương tác giữa hệ thống và thực tại |
+| 3 | $S$ | Signal | Tín hiệu đo lường được |
+| 4 | $E$ | Encoding | Mã hóa nội bộ |
+| 5 | $F$ | Feature | Đặc trưng trích xuất |
+| 6 | $M$ | Meaning | Ý nghĩa, diễn giải |
+| 7 | $X$ | Internal State | Trạng thái nội bộ tích hợp |
+| 8 | $P$ | Policy | Các hành động khả thi |
+| 9 | $G$ | Gate | Các hành động được phép |
+| 10 | $A$ | Action | Hành động đã thực thi |
+| 11 | $Fb$ | Feedback | Phản hồi quan sát được |
+| 12 | $U$ | Update | Cập nhật hệ thống |
 
 **Mối quan hệ giữa các lớp (bất khả nghịch):**
-\[
-R \xrightarrow{\tau_R} I \xrightarrow{\tau_I} S \xrightarrow{\tau_S} E \xrightarrow{\tau_E} F \xrightarrow{\tau_F} M \xrightarrow{\tau_M} X \xrightarrow{\tau_X} P \xrightarrow{\tau_P} G \xrightarrow{\tau_G} A \xrightarrow{\tau_A} Fb \xrightarrow{\tau_{Fb}} U
-\]
+$$R \xrightarrow{\tau_R} I \xrightarrow{\tau_I} S \xrightarrow{\tau_S} E \xrightarrow{\tau_E} F \xrightarrow{\tau_F} M \xrightarrow{\tau_M} X \xrightarrow{\tau_X} P \xrightarrow{\tau_P} G \xrightarrow{\tau_G} A \xrightarrow{\tau_A} Fb \xrightarrow{\tau_{Fb}} U$$
 
 **Công thức dịch chuyển giữa các lớp:**
-\[
-X_{k+1} = \tau_k(X_k) - L_k + D_k
-\]
+$$X_{k+1} = \tau_k(X_k) - L_k + D_k$$
 
 **Ma trận mất mát đặc trưng giữa các lớp:**
 
-| Từ | Đến | Mất mát đặc trưng (\(L_k\)) | Méo mó đặc trưng (\(D_k\)) |
+| Từ | Đến | Mất mát đặc trưng ($L_k$) | Méo mó đặc trưng ($D_k$) |
 |---|---|---|---|
 | R | I | Non-contacted reality | Interface limitations |
 | I | S | Resolution, range | Sensor noise, bias |
@@ -18295,60 +17732,54 @@ X_{k+1} = \tau_k(X_k) - L_k + D_k
 
 ---
 
-##### Chiều 3: \(s\) – Scale
+##### Chiều 3: $s$ – Scale
 
 | # | Ký hiệu | Tên | Kích thước đặc trưng | Ví dụ |
 |---|---|---|---|---|
-| 1 | \(\mu\) | Micro | \(10^{-6} – 10^{-3}\) m | Phân tử, tế bào, neuron, hạt |
-| 2 | \(m\) | Meso | \(10^{-3} – 10^{0}\) m | Mô, cơ quan, cá thể người |
-| 3 | \(M\) | Macro | \(10^{0} – 10^{6}\) m | Tổ chức, thành phố, quốc gia |
-| 4 | \(P\) | Planetary | \(10^{6} – 10^{8}\) m | Hành tinh, khí hậu, sinh quyển |
+| 1 | $\mu$ | Micro | $10^{-6} – 10^{-3}$ m | Phân tử, tế bào, neuron, hạt |
+| 2 | $m$ | Meso | $10^{-3} – 10^{0}$ m | Mô, cơ quan, cá thể người |
+| 3 | $M$ | Macro | $10^{0} – 10^{6}$ m | Tổ chức, thành phố, quốc gia |
+| 4 | $P$ | Planetary | $10^{6} – 10^{8}$ m | Hành tinh, khí hậu, sinh quyển |
 
 **Công thức chuyển đổi tỷ lệ (scaling):**
-\[
-X_{\text{macro}} = \mathcal{R}_{\text{micro} \to \text{macro}}(X_{\text{micro}})
-\]
-Trong đó \(\mathcal{R}\) là toán tử coarse-graining (renormalization).
+$$X_{\text{macro}} = \mathcal{R}_{\text{micro} \to \text{macro}}(X_{\text{micro}})$$
+Trong đó $\mathcal{R}$ là toán tử coarse-graining (renormalization).
 
 **Ví dụ coarse-graining:**
-\[
-X_{\text{macro}} = \frac{1}{N} \sum_{i=1}^{N} X_{\text{micro}, i}
-\]
+$$X_{\text{macro}} = \frac{1}{N} \sum_{i=1}^{N} X_{\text{micro}, i}$$
 
 **Bất biến tỷ lệ (Scale invariance):**
-\[
-\exists f: f(X_{\text{micro}}) = f(\mathcal{R}(X_{\text{micro}}))
-\]
+$$\exists f: f(X_{\text{micro}}) = f(\mathcal{R}(X_{\text{micro}}))$$
 
 ---
 
-##### Chiều 4: \(d\) – Domain (19 domains)
+##### Chiều 4: $d$ – Domain (19 domains)
 
 | # | Domain | Ký hiệu | Mô tả |
 |---|---|---|---|
-| 1 | Physics | \(d_{\text{phys}}\) | Vật lý (cơ, nhiệt, điện từ, lượng tử) |
-| 2 | Chemistry | \(d_{\text{chem}}\) | Hóa học (phản ứng, liên kết, nhiệt động) |
-| 3 | Biology | \(d_{\text{bio}}\) | Sinh học (tế bào, DNA, tiến hóa) |
-| 4 | Neuroscience | \(d_{\text{neuro}}\) | Khoa học thần kinh (não, neuron, neurotransmitter) |
-| 5 | Psychology | \(d_{\text{psych}}\) | Tâm lý học (nhận thức, cảm xúc, hành vi) |
-| 6 | Sociology | \(d_{\text{soc}}\) | Xã hội học (cấu trúc xã hội, mạng lưới) |
-| 7 | Economics | \(d_{\text{econ}}\) | Kinh tế học (thị trường, tài chính, lao động) |
-| 8 | Political Science | \(d_{\text{pol}}\) | Khoa học chính trị (quyền lực, thể chế) |
-| 9 | Anthropology | \(d_{\text{anth}}\) | Nhân học (văn hóa, nghi lễ, tín ngưỡng) |
-| 10 | History | \(d_{\text{hist}}\) | Lịch sử (chu kỳ, sụp đổ, văn minh) |
-| 11 | Ecology | \(d_{\text{eco}}\) | Sinh thái học (hệ sinh thái, tài nguyên) |
-| 12 | Climate Science | \(d_{\text{clim}}\) | Khí hậu học (thời tiết, biến đổi khí hậu) |
-| 13 | Information Theory | \(d_{\text{info}}\) | Lý thuyết thông tin (entropy, channel capacity) |
-| 14 | Control Theory | \(d_{\text{ctrl}}\) | Lý thuyết điều khiển (feedback, stability) |
-| 15 | Game Theory | \(d_{\text{game}}\) | Lý thuyết trò chơi (chiến lược, cân bằng) |
-| 16 | Complexity Science | \(d_{\text{comp}}\) | Khoa học phức hợp (hỗn loạn, emergence) |
-| 17 | Ethics | \(d_{\text{eth}}\) | Đạo đức học (luân lý, công lý, trách nhiệm) |
-| 18 | Epistemology | \(d_{\text{epist}}\) | Nhận thức luận (giới hạn tri thức, bất định) |
-| 19 | Ontology | \(d_{\text{ont}}\) | Bản thể luận (cấu trúc thực tại, tồn tại) |
+| 1 | Physics | $d_{\text{phys}}$ | Vật lý (cơ, nhiệt, điện từ, lượng tử) |
+| 2 | Chemistry | $d_{\text{chem}}$ | Hóa học (phản ứng, liên kết, nhiệt động) |
+| 3 | Biology | $d_{\text{bio}}$ | Sinh học (tế bào, DNA, tiến hóa) |
+| 4 | Neuroscience | $d_{\text{neuro}}$ | Khoa học thần kinh (não, neuron, neurotransmitter) |
+| 5 | Psychology | $d_{\text{psych}}$ | Tâm lý học (nhận thức, cảm xúc, hành vi) |
+| 6 | Sociology | $d_{\text{soc}}$ | Xã hội học (cấu trúc xã hội, mạng lưới) |
+| 7 | Economics | $d_{\text{econ}}$ | Kinh tế học (thị trường, tài chính, lao động) |
+| 8 | Political Science | $d_{\text{pol}}$ | Khoa học chính trị (quyền lực, thể chế) |
+| 9 | Anthropology | $d_{\text{anth}}$ | Nhân học (văn hóa, nghi lễ, tín ngưỡng) |
+| 10 | History | $d_{\text{hist}}$ | Lịch sử (chu kỳ, sụp đổ, văn minh) |
+| 11 | Ecology | $d_{\text{eco}}$ | Sinh thái học (hệ sinh thái, tài nguyên) |
+| 12 | Climate Science | $d_{\text{clim}}$ | Khí hậu học (thời tiết, biến đổi khí hậu) |
+| 13 | Information Theory | $d_{\text{info}}$ | Lý thuyết thông tin (entropy, channel capacity) |
+| 14 | Control Theory | $d_{\text{ctrl}}$ | Lý thuyết điều khiển (feedback, stability) |
+| 15 | Game Theory | $d_{\text{game}}$ | Lý thuyết trò chơi (chiến lược, cân bằng) |
+| 16 | Complexity Science | $d_{\text{comp}}$ | Khoa học phức hợp (hỗn loạn, emergence) |
+| 17 | Ethics | $d_{\text{eth}}$ | Đạo đức học (luân lý, công lý, trách nhiệm) |
+| 18 | Epistemology | $d_{\text{epist}}$ | Nhận thức luận (giới hạn tri thức, bất định) |
+| 19 | Ontology | $d_{\text{ont}}$ | Bản thể luận (cấu trúc thực tại, tồn tại) |
 
 **Ma trận tương tác giữa các domain:**
 
-Mỗi cặp domain \((d_i, d_j)\) có một **hệ số tương tác** \(\Lambda_{d_i, d_j}\):
+Mỗi cặp domain $(d_i, d_j)$ có một **hệ số tương tác** $\Lambda_{d_i, d_j}$:
 
 | | Phys | Chem | Bio | Neuro | Psych | Soc | Econ | Pol | ... |
 |---|---|---|---|---|---|---|---|---|---|
@@ -18364,75 +17795,69 @@ Mỗi cặp domain \((d_i, d_j)\) có một **hệ số tương tác** \(\Lambda
 
 ---
 
-##### Chiều 5: \(a\) – Agent
+##### Chiều 5: $a$ – Agent
 
 | # | Ký hiệu | Tên | Mô tả |
 |---|---|---|---|
-| 1 | \(a_{\text{self}}\) | Self | Chính hệ thống |
-| 2 | \(a_{\text{ind}}\) | Individual | Cá thể khác |
-| 3 | \(a_{\text{group}}\) | Group | Nhóm, tập thể |
-| 4 | \(a_{\text{sys}}\) | System | Hệ thống khác |
-| 5 | \(a_{\text{machine}}\) | Machine | Máy móc, AI khác |
+| 1 | $a_{\text{self}}$ | Self | Chính hệ thống |
+| 2 | $a_{\text{ind}}$ | Individual | Cá thể khác |
+| 3 | $a_{\text{group}}$ | Group | Nhóm, tập thể |
+| 4 | $a_{\text{sys}}$ | System | Hệ thống khác |
+| 5 | $a_{\text{machine}}$ | Machine | Máy móc, AI khác |
 
 **Công thức tương tác giữa các agent:**
-\[
-X_{a_i}(t+1) = X_{a_i}(t) + \sum_{j} \Lambda_{a_i, a_j} \cdot (X_{a_j}(t) - X_{a_i}(t))
-\]
+$$X_{a_i}(t+1) = X_{a_i}(t) + \sum_{j} \Lambda_{a_i, a_j} \cdot (X_{a_j}(t) - X_{a_i}(t))$$
 
 ---
 
-##### Chiều 6: \(e\) – Environment
+##### Chiều 6: $e$ – Environment
 
 | # | Ký hiệu | Tên | Mô tả |
 |---|---|---|---|
-| 1 | \(e_{\text{internal}}\) | Internal | Môi trường nội bộ hệ thống |
-| 2 | \(e_{\text{local}}\) | Local | Môi trường địa phương xung quanh |
-| 3 | \(e_{\text{global}}\) | Global | Môi trường toàn cầu |
-| 4 | \(e_{\text{planetary}}\) | Planetary | Môi trường hành tinh (khí hậu, sinh quyển) |
+| 1 | $e_{\text{internal}}$ | Internal | Môi trường nội bộ hệ thống |
+| 2 | $e_{\text{local}}$ | Local | Môi trường địa phương xung quanh |
+| 3 | $e_{\text{global}}$ | Global | Môi trường toàn cầu |
+| 4 | $e_{\text{planetary}}$ | Planetary | Môi trường hành tinh (khí hậu, sinh quyển) |
 
 **Công thức ảnh hưởng của môi trường:**
-\[
-X_{t+1} = F(X_t, E_t)
-\]
-Trong đó \(E_t\) là trạng thái môi trường tại thời điểm \(t\).
+$$X_{t+1} = F(X_t, E_t)$$
+Trong đó $E_t$ là trạng thái môi trường tại thời điểm $t$.
 
 ---
 
-##### Chiều 7: \(l\) – Loop (15 loops)
+##### Chiều 7: $l$ – Loop (15 loops)
 
 | # | Ký hiệu | Tên | Tần suất | Độ dài bước đặc trưng |
 |---|---|---|---|---|
-| 1 | \(l_{\text{sig}}\) | Signal loop | fastest | \(10^{-3} – 10^{0}\) s |
-| 2 | \(l_{\text{per}}\) | Perception loop | very fast | \(10^{-2} – 10^{1}\) s |
-| 3 | \(l_{\text{cog}}\) | Cognition loop | fast | \(10^{-1} – 10^{2}\) s |
-| 4 | \(l_{\text{act}}\) | Action loop | fast → medium | \(10^{0} – 10^{3}\) s |
-| 5 | \(l_{\text{fb}}\) | Feedback loop | medium | \(10^{1} – 10^{4}\) s |
-| 6 | \(l_{\text{lrn}}\) | Learning loop | medium → slow | \(10^{2} – 10^{5}\) s |
-| 7 | \(l_{\text{id}}\) | Identity loop | slow | \(10^{3} – 10^{6}\) s |
-| 8 | \(l_{\text{soc}}\) | Social loop | slow | \(10^{4} – 10^{7}\) s |
-| 9 | \(l_{\text{inst}}\) | Institutional loop | very slow | \(10^{5} – 10^{8}\) s |
-| 10 | \(l_{\text{civ}}\) | Civilisation loop | very slow | \(10^{6} – 10^{9}\) s |
-| 11 | \(l_{\text{evol}}\) | Evolution loop | slowest | \(10^{7} – 10^{10}\) s |
-| 12 | \(l_{\text{meta}}\) | Meta loop | variable | Phụ thuộc |
-| 13 | \(l_{\text{col}}\) | Collapse loop | triggered | Phụ thuộc sự kiện |
-| 14 | \(l_{\text{rec}}\) | Recovery loop | triggered | Phụ thuộc sự kiện |
-| 15 | \(l_{\text{bs}}\) | Black-swan loop | rare | Phụ thuộc sự kiện |
+| 1 | $l_{\text{sig}}$ | Signal loop | fastest | $10^{-3} – 10^{0}$ s |
+| 2 | $l_{\text{per}}$ | Perception loop | very fast | $10^{-2} – 10^{1}$ s |
+| 3 | $l_{\text{cog}}$ | Cognition loop | fast | $10^{-1} – 10^{2}$ s |
+| 4 | $l_{\text{act}}$ | Action loop | fast → medium | $10^{0} – 10^{3}$ s |
+| 5 | $l_{\text{fb}}$ | Feedback loop | medium | $10^{1} – 10^{4}$ s |
+| 6 | $l_{\text{lrn}}$ | Learning loop | medium → slow | $10^{2} – 10^{5}$ s |
+| 7 | $l_{\text{id}}$ | Identity loop | slow | $10^{3} – 10^{6}$ s |
+| 8 | $l_{\text{soc}}$ | Social loop | slow | $10^{4} – 10^{7}$ s |
+| 9 | $l_{\text{inst}}$ | Institutional loop | very slow | $10^{5} – 10^{8}$ s |
+| 10 | $l_{\text{civ}}$ | Civilisation loop | very slow | $10^{6} – 10^{9}$ s |
+| 11 | $l_{\text{evol}}$ | Evolution loop | slowest | $10^{7} – 10^{10}$ s |
+| 12 | $l_{\text{meta}}$ | Meta loop | variable | Phụ thuộc |
+| 13 | $l_{\text{col}}$ | Collapse loop | triggered | Phụ thuộc sự kiện |
+| 14 | $l_{\text{rec}}$ | Recovery loop | triggered | Phụ thuộc sự kiện |
+| 15 | $l_{\text{bs}}$ | Black-swan loop | rare | Phụ thuộc sự kiện |
 
 **Công thức cập nhật theo loop:**
-\[
-X_{t+1}^{(l)} = X_t^{(l)} + \Delta t_l \cdot F^{(l)}(X_t)
-\]
+$$X_{t+1}^{(l)} = X_t^{(l)} + \Delta t_l \cdot F^{(l)}(X_t)$$
 
 ---
 
-##### Chiều 8: \(m\) – Mode
+##### Chiều 8: $m$ – Mode
 
 | # | Ký hiệu | Tên | Mô tả | Đặc điểm |
 |---|---|---|---|---|
-| 1 | \(m_{\text{norm}}\) | Normal | Hoạt động bình thường | Tất cả các generator hoạt động đầy đủ |
-| 2 | \(m_{\text{deg}}\) | Degraded | Suy thoái | Một số generator bị giảm hiệu năng |
-| 3 | \(m_{\text{fail}}\) | Failure | Thất bại | Một số generator ngừng hoạt động |
-| 4 | \(m_{\text{rec}}\) | Recovery | Phục hồi | Đang khôi phục từ thất bại |
+| 1 | $m_{\text{norm}}$ | Normal | Hoạt động bình thường | Tất cả các generator hoạt động đầy đủ |
+| 2 | $m_{\text{deg}}$ | Degraded | Suy thoái | Một số generator bị giảm hiệu năng |
+| 3 | $m_{\text{fail}}$ | Failure | Thất bại | Một số generator ngừng hoạt động |
+| 4 | $m_{\text{rec}}$ | Recovery | Phục hồi | Đang khôi phục từ thất bại |
 
 **Ma trận chuyển tiếp giữa các mode:**
 
@@ -18445,104 +17870,94 @@ X_{t+1}^{(l)} = X_t^{(l)} + \Delta t_l \cdot F^{(l)}(X_t)
 
 ---
 
-##### Chiều 9: \(p\) – Parent Generator (12 generators)
+##### Chiều 9: $p$ – Parent Generator (12 generators)
 
 | # | Ký hiệu | Generator | Mô tả |
 |---|---|---|---|
-| 1 | \(p_{\Delta}\) | Difference | Tạo phân biệt |
-| 2 | \(p_B\) | Boundary | Tạo ranh giới |
-| 3 | \(p_S\) | Space | Định nghĩa không gian |
-| 4 | \(p_{\tau}\) | Translation | Dịch chuyển |
-| 5 | \(p_C\) | Constraint | Ràng buộc |
-| 6 | \(p_{\Omega}\) | Capacity | Năng lực |
-| 7 | \(p_{\Psi}\) | Selection | Chọn lọc |
-| 8 | \(p_{\Lambda}\) | Coupling | Kết nối |
-| 9 | \(p_{\Pi}\) | Weighting | Trọng số |
-| 10 | \(p_{\Xi}\) | Perturbation | Nhiễu |
-| 11 | \(p_{\Gamma}\) | Feedback | Phản hồi |
-| 12 | \(p_{\Theta}\) | Mutation | Đột biến |
+| 1 | $p_{\Delta}$ | Difference | Tạo phân biệt |
+| 2 | $p_B$ | Boundary | Tạo ranh giới |
+| 3 | $p_S$ | Space | Định nghĩa không gian |
+| 4 | $p_{\tau}$ | Translation | Dịch chuyển |
+| 5 | $p_C$ | Constraint | Ràng buộc |
+| 6 | $p_{\Omega}$ | Capacity | Năng lực |
+| 7 | $p_{\Psi}$ | Selection | Chọn lọc |
+| 8 | $p_{\Lambda}$ | Coupling | Kết nối |
+| 9 | $p_{\Pi}$ | Weighting | Trọng số |
+| 10 | $p_{\Xi}$ | Perturbation | Nhiễu |
+| 11 | $p_{\Gamma}$ | Feedback | Phản hồi |
+| 12 | $p_{\Theta}$ | Mutation | Đột biến |
 
 **Mỗi generator có một "trọng số ảnh hưởng" (influence weight) trong trạng thái hiện tại:**
-\[
-w_{p_i}(t) = \frac{\text{Activation}_i(t)}{\sum_j \text{Activation}_j(t)}
-\]
+$$w_{p_i}(t) = \frac{\text{Activation}_i(t)}{\sum_j \text{Activation}_j(t)}$$
 
 ---
 
-##### Chiều 10: \(u\) – Uncertainty Class
+##### Chiều 10: $u$ – Uncertainty Class
 
 | # | Ký hiệu | Tên | Mô tả | Xử lý của AMOS |
 |---|---|---|---|---|
-| 1 | \(u_{\text{known}}\) | Known | Có thể mô hình hóa chính xác | Dự báo bình thường |
-| 2 | \(u_{\text{uncertain}}\) | Uncertain | Có phân bố xác suất | Dự báo với confidence interval |
-| 3 | \(u_{\text{unknown}}\) | Unknown | Không có mô hình | ObserveOnly |
-| 4 | \(u_{\text{unknowable}}\) | Unknowable | Không thể biết về nguyên lý | NoPrediction |
+| 1 | $u_{\text{known}}$ | Known | Có thể mô hình hóa chính xác | Dự báo bình thường |
+| 2 | $u_{\text{uncertain}}$ | Uncertain | Có phân bố xác suất | Dự báo với confidence interval |
+| 3 | $u_{\text{unknown}}$ | Unknown | Không có mô hình | ObserveOnly |
+| 4 | $u_{\text{unknowable}}$ | Unknowable | Không thể biết về nguyên lý | NoPrediction |
 
 **Công thức cập nhật uncertainty:**
-\[
-u_{t+1} = f_u(u_t, \text{prediction\_error}, \text{novelty}, \text{surprise})
-\]
+$$u_{t+1} = f_u(u_t, \text{prediction\_error}, \text{novelty}, \text{surprise})$$
 
 **Ví dụ:**
-- Nếu prediction error nhỏ và ổn định → \(u_{\text{known}}\)
-- Nếu prediction error lớn nhưng có cấu trúc → \(u_{\text{uncertain}}\)
-- Nếu prediction error lớn và không có cấu trúc → \(u_{\text{unknown}}\)
-- Nếu không thể có mô hình về nguyên lý → \(u_{\text{unknowable}}\)
+- Nếu prediction error nhỏ và ổn định → $u_{\text{known}}$
+- Nếu prediction error lớn nhưng có cấu trúc → $u_{\text{uncertain}}$
+- Nếu prediction error lớn và không có cấu trúc → $u_{\text{unknown}}$
+- Nếu không thể có mô hình về nguyên lý → $u_{\text{unknowable}}$
 
 ---
 
-##### Chiều 11: \(\text{law\_family}\) – 7 Universal Law Families
+##### Chiều 11: $\text{law\_family}$ – 7 Universal Law Families
 
 | # | Ký hiệu | Law Family | Mô tả | Số sub-laws |
 |---|---|---|---|---|
-| 1 | \(L_{\text{cons}}\) | Conservation Laws | Bảo toàn (energy, momentum, charge, information) | ~200 |
-| 2 | \(L_{\text{ent}}\) | Entropy Laws | Entropy, arrow of time, dissipation | ~200 |
-| 3 | \(L_{\text{caus}}\) | Causality Laws | Nhân quả, locality, intervention | ~200 |
-| 4 | \(L_{\text{scal}}\) | Scaling Laws | Tỷ lệ, fractal, renormalization | ~200 |
-| 5 | \(L_{\text{stab}}\) | Stability Laws | Ổn định, feedback, bifurcation | ~200 |
-| 6 | \(L_{\text{sel}}\) | Selection Laws | Chọn lọc, survival, fitness | ~200 |
-| 7 | \(L_{\text{cr}}\) | Collapse–Regeneration Laws | Sụp đổ, tái sinh, chu kỳ | ~200 |
+| 1 | $L_{\text{cons}}$ | Conservation Laws | Bảo toàn (energy, momentum, charge, information) | ~200 |
+| 2 | $L_{\text{ent}}$ | Entropy Laws | Entropy, arrow of time, dissipation | ~200 |
+| 3 | $L_{\text{caus}}$ | Causality Laws | Nhân quả, locality, intervention | ~200 |
+| 4 | $L_{\text{scal}}$ | Scaling Laws | Tỷ lệ, fractal, renormalization | ~200 |
+| 5 | $L_{\text{stab}}$ | Stability Laws | Ổn định, feedback, bifurcation | ~200 |
+| 6 | $L_{\text{sel}}$ | Selection Laws | Chọn lọc, survival, fitness | ~200 |
+| 7 | $L_{\text{cr}}$ | Collapse–Regeneration Laws | Sụp đổ, tái sinh, chu kỳ | ~200 |
 
 **Mỗi law family đóng góp một phần vào phương trình trạng thái:**
-\[
-\Delta \boldsymbol{\mathcal{X}}_t^{(L_k)} = \alpha_k \cdot \text{Law}_k(\boldsymbol{\mathcal{X}}_t)
-\]
+$$\Delta \boldsymbol{\mathcal{X}}_t^{(L_k)} = \alpha_k \cdot \text{Law}_k(\boldsymbol{\mathcal{X}}_t)$$
 
 **Trọng số của từng law family trong trạng thái hiện tại:**
-\[
-w_{L_k}(t) = \frac{\text{Relevance}_k(t)}{\sum_j \text{Relevance}_j(t)}
-\]
+$$w_{L_k}(t) = \frac{\text{Relevance}_k(t)}{\sum_j \text{Relevance}_j(t)}$$
 
 ---
 
-##### Chiều 12: \(\text{invariant\_class}\) – 19 Invariants
+##### Chiều 12: $\text{invariant\_class}$ – 19 Invariants
 
 | # | Ký hiệu | Invariant | Mô tả |
 |---|---|---|---|
-| 1 | \(I_{\text{cons}}\) | Conservation | Bảo toàn |
-| 2 | \(I_{\text{bound}}\) | Boundary | Ranh giới |
-| 3 | \(I_{\text{cap}}\) | Capacity | Năng lực |
-| 4 | \(I_{\text{flow}}\) | Flow | Dòng chảy |
-| 5 | \(I_{\text{eq}}\) | Equilibrium | Cân bằng |
-| 6 | \(I_{\text{opt}}\) | Optimization | Tối ưu hóa |
-| 7 | \(I_{\text{sel}}\) | Selection | Chọn lọc |
-| 8 | \(I_{\text{adapt}}\) | Adaptation | Thích nghi |
-| 9 | \(I_{\text{coup}}\) | Coupling | Kết nối |
-| 10 | \(I_{\text{fb}}\) | Feedback | Phản hồi |
-| 11 | \(I_{\text{stab}}\) | Stability | Ổn định |
-| 12 | \(I_{\text{drift}}\) | Drift | Trôi dạt |
-| 13 | \(I_{\text{coll}}\) | Collapse | Sụp đổ |
-| 14 | \(I_{\text{reg}}\) | Regeneration | Tái sinh |
-| 15 | \(I_{\text{scal}}\) | Scaling | Tỷ lệ |
-| 16 | \(I_{\text{id}}\) | Identity | Đồng nhất |
-| 17 | \(I_{\text{info}}\) | Information | Thông tin |
-| 18 | \(I_{\text{unc}}\) | Uncertainty | Bất định |
-| 19 | \(I_{\text{pow}}\) | Power | Quyền lực |
+| 1 | $I_{\text{cons}}$ | Conservation | Bảo toàn |
+| 2 | $I_{\text{bound}}$ | Boundary | Ranh giới |
+| 3 | $I_{\text{cap}}$ | Capacity | Năng lực |
+| 4 | $I_{\text{flow}}$ | Flow | Dòng chảy |
+| 5 | $I_{\text{eq}}$ | Equilibrium | Cân bằng |
+| 6 | $I_{\text{opt}}$ | Optimization | Tối ưu hóa |
+| 7 | $I_{\text{sel}}$ | Selection | Chọn lọc |
+| 8 | $I_{\text{adapt}}$ | Adaptation | Thích nghi |
+| 9 | $I_{\text{coup}}$ | Coupling | Kết nối |
+| 10 | $I_{\text{fb}}$ | Feedback | Phản hồi |
+| 11 | $I_{\text{stab}}$ | Stability | Ổn định |
+| 12 | $I_{\text{drift}}$ | Drift | Trôi dạt |
+| 13 | $I_{\text{coll}}$ | Collapse | Sụp đổ |
+| 14 | $I_{\text{reg}}$ | Regeneration | Tái sinh |
+| 15 | $I_{\text{scal}}$ | Scaling | Tỷ lệ |
+| 16 | $I_{\text{id}}$ | Identity | Đồng nhất |
+| 17 | $I_{\text{info}}$ | Information | Thông tin |
+| 18 | $I_{\text{unc}}$ | Uncertainty | Bất định |
+| 19 | $I_{\text{pow}}$ | Power | Quyền lực |
 
 **Mỗi invariant đóng góp một ràng buộc vào trạng thái:**
-\[
-\text{Valid}(\boldsymbol{\mathcal{X}}_t) = 1 \iff \forall I_k: I_k(\boldsymbol{\mathcal{X}}_t) \text{ satisfied}
-\]
+$$\text{Valid}(\boldsymbol{\mathcal{X}}_t) = 1 \iff \forall I_k: I_k(\boldsymbol{\mathcal{X}}_t) \text{ satisfied}$$
 
 ---
 
@@ -18550,47 +17965,21 @@ w_{L_k}(t) = \frac{\text{Relevance}_k(t)}{\sum_j \text{Relevance}_j(t)}
 
 **Kích thước lý thuyết tối đa (nếu tất cả các tổ hợp đều khả thi):**
 
-\[
-\begin{aligned}
-\dim(\boldsymbol{\mathcal{X}}_t) = & |t| \times |r| \times |s| \times |d| \times |a| \times |e| \times |l| \times |m| \times |p| \times |u| \times |\text{law\_family}| \times |\text{invariant\_class}| \\
-= & \infty \times 12 \times 4 \times 19 \times 5 \times 4 \times 15 \times 4 \times 12 \times 4 \times 7 \times 19 \\
-= & \infty \times 12 \times 4 \times 19 \times 5 \times 4 \times 15 \times 4 \times 12 \times 4 \times 7 \times 19
-\end{aligned}
-\]
+$$\begin{aligned} \dim(\boldsymbol{\mathcal{X}}_t) = & |t| \times |r| \times |s| \times |d| \times |a| \times |e| \times |l| \times |m| \times |p| \times |u| \times |\text{law\_family}| \times |\text{invariant\_class}| \\ = & \infty \times 12 \times 4 \times 19 \times 5 \times 4 \times 15 \times 4 \times 12 \times 4 \times 7 \times 19 \\ = & \infty \times 12 \times 4 \times 19 \times 5 \times 4 \times 15 \times 4 \times 12 \times 4 \times 7 \times 19 \end{aligned}$$
 
 **Tích các số hữu hạn:**
-\[
-12 \times 4 = 48
-\]
-\[
-48 \times 19 = 912
-\]
-\[
-912 \times 5 = 4,560
-\]
-\[
-4,560 \times 4 = 18,240
-\]
-\[
-18,240 \times 15 = 273,600
-\]
-\[
-273,600 \times 4 = 1,094,400
-\]
-\[
-1,094,400 \times 12 = 13,132,800
-\]
-\[
-13,132,800 \times 4 = 52,531,200
-\]
-\[
-52,531,200 \times 7 = 367,718,400
-\]
-\[
-367,718,400 \times 19 = 6,986,649,600
-\]
+$$12 \times 4 = 48$$
+$$48 \times 19 = 912$$
+$$912 \times 5 = 4,560$$
+$$4,560 \times 4 = 18,240$$
+$$18,240 \times 15 = 273,600$$
+$$273,600 \times 4 = 1,094,400$$
+$$1,094,400 \times 12 = 13,132,800$$
+$$13,132,800 \times 4 = 52,531,200$$
+$$52,531,200 \times 7 = 367,718,400$$
+$$367,718,400 \times 19 = 6,986,649,600$$
 
-**Kích thước lý thuyết:** \(\approx 7 \times 10^9\) tổ hợp (không tính \(t\)).
+**Kích thước lý thuyết:** $\approx 7 \times 10^9$ tổ hợp (không tính $t$).
 
 **Độ thưa (sparsity) ước tính:** > 99.9% – chỉ một phần rất nhỏ các tổ hợp là khả thi hoặc có ý nghĩa.
 
@@ -18600,16 +17989,12 @@ w_{L_k}(t) = \frac{\text{Relevance}_k(t)}{\sum_j \text{Relevance}_j(t)}
 
 Để truy xuất một phần tử cụ thể của master state tensor:
 
-\[
-\boldsymbol{\mathcal{X}}_t(t, r, s, d, a, e, l, m, p, u, \text{law\_family}, \text{invariant\_class})
-\]
+$$\boldsymbol{\mathcal{X}}_t(t, r, s, d, a, e, l, m, p, u, \text{law\_family}, \text{invariant\_class})$$
 
 **Ví dụ truy xuất cụ thể:**
-\[
-\boldsymbol{\mathcal{X}}_t(2024, M, \text{macro}, \text{economics}, \text{self}, \text{global}, l_{\text{cog}}, m_{\text{norm}}, p_{\Pi}, u_{\text{known}}, L_{\text{stab}}, I_{\text{eq}})
-\]
+$$\boldsymbol{\mathcal{X}}_t(2024, M, \text{macro}, \text{economics}, \text{self}, \text{global}, l_{\text{cog}}, m_{\text{norm}}, p_{\Pi}, u_{\text{known}}, L_{\text{stab}}, I_{\text{eq}})$$
 
-**Nội dung của phần tử này:** Trạng thái của hệ thống tại năm 2024, ở lớp ý nghĩa (M), tỷ lệ macro, trong lĩnh vực kinh tế, của chính hệ thống, trong môi trường toàn cầu, trong vòng lặp nhận thức, ở chế độ bình thường, liên quan đến generator Weighting (\(\Pi\)), với mức độ bất định known, thuộc law family Stability, và invariant Equilibrium.
+**Nội dung của phần tử này:** Trạng thái của hệ thống tại năm 2024, ở lớp ý nghĩa (M), tỷ lệ macro, trong lĩnh vực kinh tế, của chính hệ thống, trong môi trường toàn cầu, trong vòng lặp nhận thức, ở chế độ bình thường, liên quan đến generator Weighting ($\Pi$), với mức độ bất định known, thuộc law family Stability, và invariant Equilibrium.
 
 ---
 
@@ -18680,38 +18065,26 @@ MASTER STATE TENSOR 𝓧ₜ
 
 ### 3.2.1. TỔNG QUAN CẤU TRÚC CELL TRONG INTERACTION TENSOR
 
-Interaction Tensor (L14) là không gian lưu trữ trung tâm của tất cả các luật, phương trình, và pattern trong AMOS. Mỗi cell được định danh bởi bộ chỉ số \((i, j, a, l)\) với:
+Interaction Tensor (L14) là không gian lưu trữ trung tâm của tất cả các luật, phương trình, và pattern trong AMOS. Mỗi cell được định danh bởi bộ chỉ số $(i, j, a, l)$ với:
 
-- \(i\): generator thứ nhất (1–12)
-- \(j\): generator thứ hai (1–12)
-- \(a\): axis (1–14)
-- \(l\): loop (1–15)
+- $i$: generator thứ nhất (1–12)
+- $j$: generator thứ hai (1–12)
+- $a$: axis (1–14)
+- $l$: loop (1–15)
 
 **Công thức tổng quát của một cell:**
 
-\[
-\boxed{\text{Cell}_{ijal} = \begin{Bmatrix}
-\text{laws:} & \mathcal{L}_{ijal} \\
-\text{equations:} & \mathcal{E}_{ijal} \\
-\text{failure\_modes:} & \mathcal{F}_{ijal} \\
-\text{recovery\_modes:} & \mathcal{R}_{ijal} \\
-\text{cross\_references:} & \mathcal{C}_{ijal} \\
-\text{parameters:} & \mathcal{P}_{ijal} \\
-\text{examples:} & \mathcal{X}_{ijal}
-\end{Bmatrix}}
-\]
+$$\boxed{\text{Cell}_{ijal} = \begin{Bmatrix} \text{laws:} & \mathcal{L}_{ijal} \\ \text{equations:} & \mathcal{E}_{ijal} \\ \text{failure\_modes:} & \mathcal{F}_{ijal} \\ \text{recovery\_modes:} & \mathcal{R}_{ijal} \\ \text{cross\_references:} & \mathcal{C}_{ijal} \\ \text{parameters:} & \mathcal{P}_{ijal} \\ \text{examples:} & \mathcal{X}_{ijal} \end{Bmatrix}}$$
 
 ---
 
 ### 3.2.2. CHI TIẾT CÁC THÀNH PHẦN CỦA MỘT CELL
 
-#### Thành phần 1: \(\mathcal{L}\) – Laws (Luật)
+#### Thành phần 1: $\mathcal{L}$ – Laws (Luật)
 
 Mỗi luật là một **mệnh đề logic hoặc bất biến** có dạng:
 
-\[
-\boxed{\text{IF } \text{condition} \text{ THEN } \text{conclusion}}
-\]
+$$\boxed{\text{IF } \text{condition} \text{ THEN } \text{conclusion}}$$
 
 **Phân loại luật theo mức độ tổng quát:**
 
@@ -18723,7 +18096,7 @@ Mỗi luật là một **mệnh đề logic hoặc bất biến** có dạng:
 | Loop-specific laws | Phụ thuộc vào loop | "Trong collapse loop, ưu tiên bảo toàn" | ~2–5 |
 | Instance-specific laws | Chỉ áp dụng cho một cấu hình cụ thể | "Khi Δ quá lớn và B yếu, ranh giới tan rã" | ~3–8 |
 
-**Ví dụ một luật cụ thể trong cell(\(\Delta, B, \text{scale=macro}, \text{loop=perception}\)):**
+**Ví dụ một luật cụ thể trong cell($\Delta, B, \text{scale=macro}, \text{loop=perception}$):**
 
 ```text
 LAW ID: L_ΔB_macro_perc_001
@@ -18737,7 +18110,7 @@ SOURCE: Δ generator × B generator interaction
 
 ---
 
-#### Thành phần 2: \(\mathcal{E}\) – Equations (Phương trình)
+#### Thành phần 2: $\mathcal{E}$ – Equations (Phương trình)
 
 Mỗi phương trình là một **biểu thức toán học** mô tả mối quan hệ định lượng giữa các biến.
 
@@ -18745,13 +18118,13 @@ Mỗi phương trình là một **biểu thức toán học** mô tả mối qua
 
 | Loại | Định nghĩa | Ví dụ | Số lượng trong một cell |
 |---|---|---|---|
-| Algebraic | Quan hệ đại số | \(B = \text{Stable}(\Delta_{\text{inside/outside}})\) | ~3–6 |
-| Differential | Quan hệ vi phân | \(\frac{dB}{dt} = \alpha \Delta - \beta B\) | ~1–3 |
-| Integral | Quan hệ tích phân | \(B(t) = \int_0^t \Delta(\tau) e^{-\beta(t-\tau)} d\tau\) | ~0–2 |
-| Logical | Quan hệ logic | \(\text{Breach} = 1 \iff \Delta < \theta\) | ~2–4 |
-| Probabilistic | Quan hệ xác suất | \(P(\text{Breach}) = \sigma(\alpha \Delta - \beta)\) | ~1–3 |
+| Algebraic | Quan hệ đại số | $B = \text{Stable}(\Delta_{\text{inside/outside}})$ | ~3–6 |
+| Differential | Quan hệ vi phân | $\frac{dB}{dt} = \alpha \Delta - \beta B$ | ~1–3 |
+| Integral | Quan hệ tích phân | $B(t) = \int_0^t \Delta(\tau) e^{-\beta(t-\tau)} d\tau$ | ~0–2 |
+| Logical | Quan hệ logic | $\text{Breach} = 1 \iff \Delta < \theta$ | ~2–4 |
+| Probabilistic | Quan hệ xác suất | $P(\text{Breach}) = \sigma(\alpha \Delta - \beta)$ | ~1–3 |
 
-**Ví dụ một phương trình cụ thể trong cell(\(\Delta, B, \text{scale=macro}, \text{loop=perception}\)):**
+**Ví dụ một phương trình cụ thể trong cell($\Delta, B, \text{scale=macro}, \text{loop=perception}$):**
 
 ```text
 EQ ID: E_ΔB_macro_perc_001
@@ -18765,15 +18138,13 @@ SOLUTION: B(t) = B₀e^{-βt} + (α/β)Δ_boundary(1 - e^{-βt}) + noise_term
 
 ---
 
-#### Thành phần 3: \(\mathcal{F}\) – Failure Modes (Chế độ thất bại)
+#### Thành phần 3: $\mathcal{F}$ – Failure Modes (Chế độ thất bại)
 
 Mỗi failure mode mô tả **cách thức mà hệ thống có thể thất bại** trong tương tác cụ thể này.
 
 **Cấu trúc của một failure mode:**
 
-\[
-\boxed{\text{Failure} = (\text{trigger}, \text{mechanism}, \text{consequence}, \text{severity}, \text{detectability})}
-\]
+$$\boxed{\text{Failure} = (\text{trigger}, \text{mechanism}, \text{consequence}, \text{severity}, \text{detectability})}$$
 
 **Phân loại failure modes theo mức độ nghiêm trọng:**
 
@@ -18785,7 +18156,7 @@ Mỗi failure mode mô tả **cách thức mà hệ thống có thể thất b�
 | Minor | MIN | Gây ảnh hưởng nhỏ | Ranh giới bị nhiễu |
 | Negligible | NEG | Không ảnh hưởng đáng kể | Ranh giới dao động nhẹ |
 
-**Ví dụ một failure mode trong cell(\(\Delta, B, \text{scale=macro}, \text{loop=perception}\)):**
+**Ví dụ một failure mode trong cell($\Delta, B, \text{scale=macro}, \text{loop=perception}$):**
 
 ```text
 FAILURE ID: F_ΔB_macro_perc_001
@@ -18800,17 +18171,15 @@ RECOVERY_POSSIBLE: true (requires identity reconstruction)
 
 ---
 
-#### Thành phần 4: \(\mathcal{R}\) – Recovery Modes (Chế độ phục hồi)
+#### Thành phần 4: $\mathcal{R}$ – Recovery Modes (Chế độ phục hồi)
 
 Mỗi recovery mode mô tả **cách thức hệ thống có thể phục hồi** từ thất bại.
 
 **Cấu trúc của một recovery mode:**
 
-\[
-\boxed{\text{Recovery} = (\text{trigger}, \text{mechanism}, \text{duration}, \text{cost}, \text{success\_rate})}
-\]
+$$\boxed{\text{Recovery} = (\text{trigger}, \text{mechanism}, \text{duration}, \text{cost}, \text{success\_rate})}$$
 
-**Ví dụ một recovery mode trong cell(\(\Delta, B, \text{scale=macro}, \text{loop=perception}\)):**
+**Ví dụ một recovery mode trong cell($\Delta, B, \text{scale=macro}, \text{loop=perception}$):**
 
 ```text
 RECOVERY ID: R_ΔB_macro_perc_001
@@ -18830,7 +18199,7 @@ STEPS:
 
 ---
 
-#### Thành phần 5: \(\mathcal{C}\) – Cross-References (Tham chiếu chéo)
+#### Thành phần 5: $\mathcal{C}$ – Cross-References (Tham chiếu chéo)
 
 Mỗi cross-reference chỉ ra **mối liên hệ giữa cell hiện tại và các cell khác**.
 
@@ -18844,7 +18213,7 @@ Mỗi cross-reference chỉ ra **mối liên hệ giữa cell hiện tại và c
 | Hierarchy | HIE | Cell này là cha/con của cell khác | Cell(Δ,B) là cha của Cell(Δ,B, loop=collapse) |
 | Contradiction | CON | Cell này mâu thuẫn với cell khác | Cell(Δ,B) và Cell(Δ, noB) |
 
-**Ví dụ cross-references trong cell(\(\Delta, B, \text{scale=macro}, \text{loop=perception}\)):**
+**Ví dụ cross-references trong cell($\Delta, B, \text{scale=macro}, \text{loop=perception}$):**
 
 ```text
 CROSS-REFERENCES:
@@ -18860,28 +18229,28 @@ CROSS-REFERENCES:
 
 ---
 
-#### Thành phần 6: \(\mathcal{P}\) – Parameters (Tham số)
+#### Thành phần 6: $\mathcal{P}$ – Parameters (Tham số)
 
 Mỗi cell chứa một tập hợp các **tham số cục bộ** điều chỉnh hành vi của các luật và phương trình.
 
-**Ví dụ các tham số trong cell(\(\Delta, B, \text{scale=macro}, \text{loop=perception}\)):**
+**Ví dụ các tham số trong cell($\Delta, B, \text{scale=macro}, \text{loop=perception}$):**
 
 | Ký hiệu | Tên | Giá trị mặc định | Phạm vi | Mô tả |
 |---|---|---|---|---|
-| \(\theta_{\text{edge}}\) | Edge threshold | 0.3 | [0,1] | Ngưỡng phát hiện ranh giới |
-| \(\alpha_B\) | Boundary growth rate | 0.8 | [0,2] | Tốc độ củng cố ranh giới |
-| \(\beta_B\) | Boundary decay rate | 0.2 | [0,1] | Tốc độ suy yếu ranh giới |
-| \(\gamma_B\) | Noise sensitivity | 0.05 | [0,0.5] | Độ nhạy với nhiễu |
-| \(\tau_{\text{memory}}\) | Memory time constant | 100 | [1,1000] | Thời gian duy trì ký ức ranh giới |
-| \(k_{\text{feedback}}\) | Feedback gain | 0.1 | [0,1] | Mức độ ảnh hưởng của phản hồi |
+| $\theta_{\text{edge}}$ | Edge threshold | 0.3 | [0,1] | Ngưỡng phát hiện ranh giới |
+| $\alpha_B$ | Boundary growth rate | 0.8 | [0,2] | Tốc độ củng cố ranh giới |
+| $\beta_B$ | Boundary decay rate | 0.2 | [0,1] | Tốc độ suy yếu ranh giới |
+| $\gamma_B$ | Noise sensitivity | 0.05 | [0,0.5] | Độ nhạy với nhiễu |
+| $\tau_{\text{memory}}$ | Memory time constant | 100 | [1,1000] | Thời gian duy trì ký ức ranh giới |
+| $k_{\text{feedback}}$ | Feedback gain | 0.1 | [0,1] | Mức độ ảnh hưởng của phản hồi |
 
 ---
 
-#### Thành phần 7: \(\mathcal{X}\) – Examples (Ví dụ cụ thể)
+#### Thành phần 7: $\mathcal{X}$ – Examples (Ví dụ cụ thể)
 
 Mỗi cell chứa một số **ví dụ cụ thể** minh họa cho các luật và phương trình.
 
-**Ví dụ trong cell(\(\Delta, B, \text{scale=macro}, \text{loop=perception}\)):**
+**Ví dụ trong cell($\Delta, B, \text{scale=macro}, \text{loop=perception}$):**
 
 ```text
 EXAMPLE ID: X_ΔB_macro_perc_001
@@ -18902,9 +18271,7 @@ OBSERVATION: When differences diminish (EU integration), border becomes weaker.
 ### 3.2.3. SỐ LƯỢNG CELL VÀ PHÂN BỐ
 
 **Tổng số cell trong Interaction Tensor:**
-\[
-N_{\text{cells}} = 12 \times 12 \times 14 \times 15 = 30,240 \text{ cells}
-\]
+$$N_{\text{cells}} = 12 \times 12 \times 14 \times 15 = 30,240 \text{ cells}$$
 
 **Phân bố số lượng thành phần trong mỗi cell (ước tính theo mức độ tương tác):**
 
@@ -18929,15 +18296,13 @@ N_{\text{cells}} = 12 \times 12 \times 14 \times 15 = 30,240 \text{ cells}
 | **TỔNG** | **~610,000** | **~1,950,000** | **~1,260,000** |
 
 **Sau khi nén và loại trùng lặp (L15 – Invariant Reduction):**
-\[
-\boxed{\text{Total unique structures} \approx 400,000\text{–}800,000}
-\]
+$$\boxed{\text{Total unique structures} \approx 400,000\text{–}800,000}$$
 
 ---
 
 ### 3.2.4. VÍ DỤ VỀ MỘT CELL HOÀN CHỈNH
 
-Dưới đây là một cell **hoàn chỉnh** cho cặp generator (\(\Delta, B\)) với axis = scale = macro, loop = perception.
+Dưới đây là một cell **hoàn chỉnh** cho cặp generator ($\Delta, B$) với axis = scale = macro, loop = perception.
 
 ```yaml
 Cell:
@@ -19155,18 +18520,16 @@ Tại mỗi bước thời gian, **URK (Universal Reasoning Kernel)** cần xác
 
 **Công thức tổng quát:**
 
-\[
-\boxed{\text{ActiveLaws} = \text{Retrieve}(\boldsymbol{\mathcal{X}}_t, \text{domain}, \text{loop}, \text{mode})}
-\]
+$$\boxed{\text{ActiveLaws} = \text{Retrieve}(\boldsymbol{\mathcal{X}}_t, \text{domain}, \text{loop}, \text{mode})}$$
 
 **Các tham số đầu vào:**
 
 | Tham số | Ký hiệu | Mô tả | Nguồn |
 |---|---|---|---|
-| Trạng thái hiện tại | \(\boldsymbol{\mathcal{X}}_t\) | Master state tensor | Từ bước thời gian trước |
-| Miền đang hoạt động | \(\text{domain}\) | Một trong 19 domains | Từ Input Field |
-| Vòng lặp đang chạy | \(\text{loop}\) | Một trong 15 loops | Từ Runtime Scheduler |
-| Chế độ hiện tại | \(\text{mode}\) | normal, degraded, failure, recovery | Từ State Engine |
+| Trạng thái hiện tại | $\boldsymbol{\mathcal{X}}_t$ | Master state tensor | Từ bước thời gian trước |
+| Miền đang hoạt động | $\text{domain}$ | Một trong 19 domains | Từ Input Field |
+| Vòng lặp đang chạy | $\text{loop}$ | Một trong 15 loops | Từ Runtime Scheduler |
+| Chế độ hiện tại | $\text{mode}$ | normal, degraded, failure, recovery | Từ State Engine |
 
 ---
 
@@ -19174,14 +18537,14 @@ Tại mỗi bước thời gian, **URK (Universal Reasoning Kernel)** cần xác
 
 #### Bước 1: Xác định bộ chỉ số (indexing) dựa trên trạng thái hiện tại
 
-Từ \(\boldsymbol{\mathcal{X}}_t\), URK xác định **bộ chỉ số hoạt động** \((i, j, a, l)\) cho Interaction Tensor.
+Từ $\boldsymbol{\mathcal{X}}_t$, URK xác định **bộ chỉ số hoạt động** $(i, j, a, l)$ cho Interaction Tensor.
 
 | Thành phần chỉ số | Giá trị được xác định từ | Phương pháp |
 |---|---|---|
-| \(i\) (generator thứ nhất) | Từ \(p\) (parent generator) trong state | Lấy giá trị hiện tại của \(p\) |
-| \(j\) (generator thứ hai) | Từ tương tác đang được xét | Duyệt qua các generator có tương tác |
-| \(a\) (axis) | Từ các chiều \(t, s, d, a, e, u\) | Kết hợp các giá trị hiện tại |
-| \(l\) (loop) | Từ tham số \(\text{loop}\) đầu vào | Lấy trực tiếp |
+| $i$ (generator thứ nhất) | Từ $p$ (parent generator) trong state | Lấy giá trị hiện tại của $p$ |
+| $j$ (generator thứ hai) | Từ tương tác đang được xét | Duyệt qua các generator có tương tác |
+| $a$ (axis) | Từ các chiều $t, s, d, a, e, u$ | Kết hợp các giá trị hiện tại |
+| $l$ (loop) | Từ tham số $\text{loop}$ đầu vào | Lấy trực tiếp |
 
 **Ví dụ:**
 ```
@@ -19205,7 +18568,7 @@ Thì bộ chỉ số kích hoạt:
 
 URK **duyệt qua Interaction Tensor** và chọn các cell có chỉ số khớp với bộ chỉ số đã xác định.
 
-**Số lượng cell được xét:** \(12 \times 12 = 144\) cell cho mỗi cặp \((i, j)\), nhưng chỉ một phần nhỏ được kích hoạt.
+**Số lượng cell được xét:** $12 \times 12 = 144$ cell cho mỗi cặp $(i, j)$, nhưng chỉ một phần nhỏ được kích hoạt.
 
 **Ma trận kích hoạt cell theo loop và mode:**
 
@@ -19240,24 +18603,22 @@ Các luật được sắp xếp theo **thứ tự ưu tiên** dựa trên:
 
 **Công thức tính điểm ưu tiên:**
 
-\[
-\boxed{\text{Priority}(L) = w_{\text{relevance}} \times \text{Relevance}(L, \boldsymbol{\mathcal{X}}_t) + w_{\text{urgency}} \times \text{Urgency}(L) + w_{\text{weight}} \times \text{Weight}(L) + w_{\text{recency}} \times \text{Recency}(L)}
-\]
+$$\boxed{\text{Priority}(L) = w_{\text{relevance}} \times \text{Relevance}(L, \boldsymbol{\mathcal{X}}_t) + w_{\text{urgency}} \times \text{Urgency}(L) + w_{\text{weight}} \times \text{Weight}(L) + w_{\text{recency}} \times \text{Recency}(L)}$$
 
 **Trọng số mặc định:**
 
 | Thành phần | Ký hiệu | Giá trị mặc định |
 |---|---|---|
-| Relevance weight | \(w_{\text{relevance}}\) | 0.4 |
-| Urgency weight | \(w_{\text{urgency}}\) | 0.3 |
-| Weight weight | \(w_{\text{weight}}\) | 0.2 |
-| Recency weight | \(w_{\text{recency}}\) | 0.1 |
+| Relevance weight | $w_{\text{relevance}}$ | 0.4 |
+| Urgency weight | $w_{\text{urgency}}$ | 0.3 |
+| Weight weight | $w_{\text{weight}}$ | 0.2 |
+| Recency weight | $w_{\text{recency}}$ | 0.1 |
 
 ---
 
 #### Bước 4: Áp dụng các luật đã chọn
 
-URK áp dụng các luật theo thứ tự ưu tiên, **cập nhật trạng thái \(\boldsymbol{\mathcal{X}}_t\)** thành \(\boldsymbol{\mathcal{X}}_{t+1}\).
+URK áp dụng các luật theo thứ tự ưu tiên, **cập nhật trạng thái $\boldsymbol{\mathcal{X}}_t$** thành $\boldsymbol{\mathcal{X}}_{t+1}$.
 
 **Quy tắc áp dụng:**
 - Luật có priority cao nhất được áp dụng trước
@@ -19275,9 +18636,7 @@ URK hỗ trợ **4 phương pháp truy xuất** chính, có thể được sử 
 Truy xuất các cell có chỉ số **khớp chính xác** với bộ chỉ số đầu vào.
 
 **Công thức:**
-\[
-\text{Cell}_{\text{direct}} = \text{Cell}(i, j, a, l) \quad \text{với} \quad i, j, a, l \text{ khớp chính xác}
-\]
+$$\text{Cell}_{\text{direct}} = \text{Cell}(i, j, a, l) \quad \text{với} \quad i, j, a, l \text{ khớp chính xác}$$
 
 **Ưu điểm:** Nhanh, chính xác
 **Nhược điểm:** Bỏ sót các cell liên quan nhưng không khớp chính xác
@@ -19291,11 +18650,9 @@ Truy xuất các cell có chỉ số **khớp chính xác** với bộ chỉ s�
 Truy xuất các cell có chỉ số **gần giống** với bộ chỉ số đầu vào, sử dụng **hàm khoảng cách** (distance function).
 
 **Công thức khoảng cách:**
-\[
-d(\text{cell}, \text{query}) = \sum_{k} w_k \cdot \delta(\text{axis}_k^{\text{cell}}, \text{axis}_k^{\text{query}})
-\]
+$$d(\text{cell}, \text{query}) = \sum_{k} w_k \cdot \delta(\text{axis}_k^{\text{cell}}, \text{axis}_k^{\text{query}})$$
 
-**Ngưỡng chấp nhận:** \(d(\text{cell}, \text{query}) \leq \theta_{\text{fuzzy}}\)
+**Ngưỡng chấp nhận:** $d(\text{cell}, \text{query}) \leq \theta_{\text{fuzzy}}$
 
 **Sử dụng khi:** Trạng thái hiện tại có uncertainty trung bình, cần xem xét các trường hợp tương tự
 
@@ -19320,14 +18677,12 @@ Truy xuất các cell dựa trên **ngữ cảnh hiện tại**, không chỉ d�
 Kết hợp cả 3 phương pháp trên, với **trọng số động** tùy theo tình huống.
 
 **Công thức:**
-\[
-\text{Cell}_{\text{hybrid}} = \alpha \cdot \text{Cell}_{\text{direct}} + \beta \cdot \text{Cell}_{\text{fuzzy}} + \gamma \cdot \text{Cell}_{\text{contextual}}
-\]
-với \(\alpha + \beta + \gamma = 1\)
+$$\text{Cell}_{\text{hybrid}} = \alpha \cdot \text{Cell}_{\text{direct}} + \beta \cdot \text{Cell}_{\text{fuzzy}} + \gamma \cdot \text{Cell}_{\text{contextual}}$$
+với $\alpha + \beta + \gamma = 1$
 
 **Trọng số mặc định theo mode:**
 
-| Mode | \(\alpha\) | \(\beta\) | \(\gamma\) |
+| Mode | $\alpha$ | $\beta$ | $\gamma$ |
 |---|---|---|---|
 | Normal | 0.7 | 0.2 | 0.1 |
 | Degraded | 0.5 | 0.3 | 0.2 |
@@ -19383,12 +18738,10 @@ Phân tán truy xuất trên **nhiều luồng (threads)**.
 Chỉ truy xuất các cell có **priority > ngưỡng**, bỏ qua các cell có priority thấp.
 
 **Ngưỡng động:**
-\[
-\theta_{\text{priority}} = \theta_{\text{base}} \times (1 - \text{load\_factor})
-\]
+$$\theta_{\text{priority}} = \theta_{\text{base}} \times (1 - \text{load\_factor})$$
 
 **Mặc định:**
-- \(\theta_{\text{base}} = 0.3\)
+- $\theta_{\text{base}} = 0.3$
 - Nếu load_factor cao (hệ thống bận), tăng ngưỡng để giảm tải
 
 ---
@@ -19525,19 +18878,17 @@ Luật được **sinh ra** từ sự tương tác của **3 generator**:
 
 | Generator | Vai trò trong luật |
 |---|---|
-| \(\Omega\) (Capacity) | Xác định giới hạn năng lực chi trả |
-| \(C\) (Constraint) | Xác định điều kiện hợp lệ / không hợp lệ |
-| \(\Lambda\) (Coupling) | Xác định sự lan truyền giữa các thành phần kinh tế |
+| $\Omega$ (Capacity) | Xác định giới hạn năng lực chi trả |
+| $C$ (Constraint) | Xác định điều kiện hợp lệ / không hợp lệ |
+| $\Lambda$ (Coupling) | Xác định sự lan truyền giữa các thành phần kinh tế |
 
 **Cơ chế sinh:**
-\[
-\text{Law}_{\text{collapse}} = \text{Generate}(\Omega, C, \Lambda, \text{domain=economics}, \text{loop=collapse})
-\]
+$$\text{Law}_{\text{collapse}} = \text{Generate}(\Omega, C, \Lambda, \text{domain=economics}, \text{loop=collapse})$$
 
 **Các bước sinh:**
-1. \(\Omega\) cung cấp khái niệm **"năng lực" (capacity)** và **"tải" (load)**
-2. \(C\) cung cấp khái niệm **"điều kiện biên" (threshold)**
-3. \(\Lambda\) cung cấp khái niệm **"lan truyền" (propagation)**
+1. $\Omega$ cung cấp khái niệm **"năng lực" (capacity)** và **"tải" (load)**
+2. $C$ cung cấp khái niệm **"điều kiện biên" (threshold)**
+3. $\Lambda$ cung cấp khái niệm **"lan truyền" (propagation)**
 4. Kết hợp → luật về sụp đổ khi load > capacity và có hiệu ứng lan truyền
 
 ---
@@ -19548,19 +18899,19 @@ Luật được **đặt vào** ma trận Domain–Invariant (19×19) tại cell
 
 | Thành phần | Giá trị |
 |---|---|
-| Domain | \(d_7\) (Economics) |
-| Invariant | \(I_3\) (Capacity) |
-| Cell ID | \(\text{Cell}_{d_7, I_3}\) |
+| Domain | $d_7$ (Economics) |
+| Invariant | $I_3$ (Capacity) |
+| Cell ID | $\text{Cell}_{d_7, I_3}$ |
 
 **Nội dung của cell Economics × Capacity:**
 
 | Thành phần | Nội dung |
 |---|---|
 | Các luật khác | ~50 luật liên quan đến capacity trong kinh tế |
-| Phương trình | \( \text{Debt} \leq \text{GDP} \times \theta_{\text{debt}} \) |
+| Phương trình | $ \text{Debt} \leq \text{GDP} \times \theta_{\text{debt}} $ |
 | Failure modes | Vỡ nợ, mất khả năng thanh toán, vỡ bong bóng |
 | Recovery modes | Tái cấu trúc nợ, bơm thanh khoản, in tiền |
-| Tham số | \(\theta_{\text{debt}}, \theta_{\text{liquidity}}, \theta_{\text{contagion}}\) |
+| Tham số | $\theta_{\text{debt}}, \theta_{\text{liquidity}}, \theta_{\text{contagion}}$ |
 
 ---
 
@@ -19569,23 +18920,17 @@ Luật được **đặt vào** ma trận Domain–Invariant (19×19) tại cell
 Luật được **chuẩn hóa** từ ngôn ngữ tự nhiên thành **công thức toán học chính xác**.
 
 **Công thức gốc:**
-\[
-\text{Collapse} = \mathbf{1}[\text{Debt} > \text{Capacity} \land \text{Liquidity} < \text{Threshold}]
-\]
+$$\text{Collapse} = \mathbf{1}[\text{Debt} > \text{Capacity} \land \text{Liquidity} < \text{Threshold}]$$
 
 **Công thức mở rộng với các yếu tố lan truyền (coupling):**
-\[
-\boxed{
-\text{Collapse} = \mathbf{1}\left[\text{Debt} > \Omega_{\text{GDP}} \times \theta_{\text{debt}} \quad \land \quad \text{Liquidity} < \theta_{\text{liquidity}} \quad \land \quad \sum_j \Lambda_{ij} \cdot \text{Stress}_j > \theta_{\text{contagion}}\right]
-}
-\]
+$$\boxed{ \text{Collapse} = \mathbf{1}\left[\text{Debt} > \Omega_{\text{GDP}} \times \theta_{\text{debt}} \quad \land \quad \text{Liquidity} < \theta_{\text{liquidity}} \quad \land \quad \sum_j \Lambda_{ij} \cdot \text{Stress}_j > \theta_{\text{contagion}}\right] }$$
 
 **Trong đó:**
-- \(\Omega_{\text{GDP}}\): Tổng sản phẩm quốc nội (năng lực chi trả)
-- \(\theta_{\text{debt}}\): Ngưỡng nợ an toàn (thường 0.6–0.9)
-- \(\theta_{\text{liquidity}}\): Ngưỡng thanh khoản tối thiểu
-- \(\theta_{\text{contagion}}\): Ngưỡng lan truyền rủi ro
-- \(\Lambda_{ij}\): Mức độ phụ thuộc kinh tế giữa khu vực i và j
+- $\Omega_{\text{GDP}}$: Tổng sản phẩm quốc nội (năng lực chi trả)
+- $\theta_{\text{debt}}$: Ngưỡng nợ an toàn (thường 0.6–0.9)
+- $\theta_{\text{liquidity}}$: Ngưỡng thanh khoản tối thiểu
+- $\theta_{\text{contagion}}$: Ngưỡng lan truyền rủi ro
+- $\Lambda_{ij}$: Mức độ phụ thuộc kinh tế giữa khu vực i và j
 
 ---
 
@@ -19594,9 +18939,7 @@ Luật được **chuẩn hóa** từ ngôn ngữ tự nhiên thành **công th�
 Luật được **tích hợp vào** Interaction Tensor (L14) tại cell cụ thể.
 
 **Định danh cell:**
-\[
-\text{Cell}_{(\Omega, C, \text{axis}=\text{economics}, \text{loop}=\text{collapse})}
-\]
+$$\text{Cell}_{(\Omega, C, \text{axis}=\text{economics}, \text{loop}=\text{collapse})}$$
 
 **Trong cell này, luật được lưu trữ dưới dạng:**
 
@@ -19693,16 +19036,16 @@ Khi URK phát hiện **domain = economics** và **loop = collapse**, nó **truy 
 
 | Bước | Generator | Hành động | Giá trị |
 |---|---|---|---|
-| 1 | \(\Delta\) | Phát hiện sự khác biệt | \(\Delta_{\text{debt}} = \text{Debt}_t - \text{Debt}_{t-1}\) (tăng 15%) |
-| 2 | \(\tau\) | Dịch chuyển thành tín hiệu | \(X_M = \text{"nợ tăng bất thường"}\) |
-| 3 | \(\Pi\) | Gán trọng số | \(\Pi_{\text{risk}} = 0.85\) |
-| 4 | \(C\) | Kiểm tra ràng buộc | \(\text{Debt} > \Omega_{\text{GDP}} \times \theta_{\text{debt}}\)? → **TRUE** |
-| 5 | \(\Omega\) | Kiểm tra năng lực | \(\text{Debt} = 120\% \text{ GDP} > \Omega\) → **overload** |
-| 6 | \(\Psi\) | Chọn hành động | Chọn kích hoạt **collapse protocol** |
-| 7 | \(\Gamma\) | Tạo phản hồi | \(\Gamma = \text{lợi nhuận giảm 30%}\) |
-| 8 | \(\Theta\) | Cập nhật hệ thống | Tăng trọng số cho collapse detection |
+| 1 | $\Delta$ | Phát hiện sự khác biệt | $\Delta_{\text{debt}} = \text{Debt}_t - \text{Debt}_{t-1}$ (tăng 15%) |
+| 2 | $\tau$ | Dịch chuyển thành tín hiệu | $X_M = \text{"nợ tăng bất thường"}$ |
+| 3 | $\Pi$ | Gán trọng số | $\Pi_{\text{risk}} = 0.85$ |
+| 4 | $C$ | Kiểm tra ràng buộc | $\text{Debt} > \Omega_{\text{GDP}} \times \theta_{\text{debt}}$? → **TRUE** |
+| 5 | $\Omega$ | Kiểm tra năng lực | $\text{Debt} = 120\% \text{ GDP} > \Omega$ → **overload** |
+| 6 | $\Psi$ | Chọn hành động | Chọn kích hoạt **collapse protocol** |
+| 7 | $\Gamma$ | Tạo phản hồi | $\Gamma = \text{lợi nhuận giảm 30%}$ |
+| 8 | $\Theta$ | Cập nhật hệ thống | Tăng trọng số cho collapse detection |
 
-**Luật cụ thể được áp dụng trong bước \(C\) (Constraint):**
+**Luật cụ thể được áp dụng trong bước $C$ (Constraint):**
 ```python
 if (debt > gdp * theta_debt) and (liquidity < theta_liquidity):
     collapse_risk = 1.0
@@ -19778,29 +19121,29 @@ else:
 
 | Bước | Generator | Giá trị đầu vào | Kết quả |
 |---|---|---|---|
-| 1 | \(\Delta\) | Debt tăng 25% trong quý | \(\Delta = 0.25\) |
-| 2 | \(\tau\) | Dịch chuyển | \(X_M = \text{"khủng hoảng nợ"}\) |
-| 3 | \(\Pi\) | Gán trọng số | \(\Pi_{\text{risk}} = 0.95\) |
-| 4 | \(C\) | Debt (120%) > \(\Omega_{\text{GDP}}\) (100%) | **TRUE** |
-| 5 | \(C\) | Liquidity (0.05) < \(\theta_{\text{liquidity}}\) (0.10) | **TRUE** |
-| 6 | \(C\) | **Cả hai điều kiện đều TRUE** | **Collapse = 1** |
-| 7 | \(\Psi\) | Chọn hành động | Kích hoạt **bán tháo / rút vốn** |
-| 8 | \(\Gamma\) | Phản hồi | Thị trường giảm 50% |
-| 9 | \(\Theta\) | Cập nhật | Tăng \(\Pi_{\text{risk}}\) cho tương lai |
+| 1 | $\Delta$ | Debt tăng 25% trong quý | $\Delta = 0.25$ |
+| 2 | $\tau$ | Dịch chuyển | $X_M = \text{"khủng hoảng nợ"}$ |
+| 3 | $\Pi$ | Gán trọng số | $\Pi_{\text{risk}} = 0.95$ |
+| 4 | $C$ | Debt (120%) > $\Omega_{\text{GDP}}$ (100%) | **TRUE** |
+| 5 | $C$ | Liquidity (0.05) < $\theta_{\text{liquidity}}$ (0.10) | **TRUE** |
+| 6 | $C$ | **Cả hai điều kiện đều TRUE** | **Collapse = 1** |
+| 7 | $\Psi$ | Chọn hành động | Kích hoạt **bán tháo / rút vốn** |
+| 8 | $\Gamma$ | Phản hồi | Thị trường giảm 50% |
+| 9 | $\Theta$ | Cập nhật | Tăng $\Pi_{\text{risk}}$ cho tương lai |
 
 ---
 
 ### 4.9. CÁC LUẬT LIÊN QUAN TRONG CÙNG CELL
 
-Ngoài luật chính về sụp đổ, cell (\(\Omega, C, \text{economics}, \text{collapse}\)) còn chứa các luật liên quan:
+Ngoài luật chính về sụp đổ, cell ($\Omega, C, \text{economics}, \text{collapse}$) còn chứa các luật liên quan:
 
 | Luật ID | Tên | Công thức | Vai trò |
 |---|---|---|---|
-| L_001 | DebtOverload | \(\text{Overload} = \max(0, \text{Debt} - \Omega_{\text{GDP}})\) | Đo mức độ quá tải nợ |
-| L_002 | LiquidityStress | \(\text{Stress} = \max(0, \theta_{\text{liquidity}} - \text{Liquidity})\) | Đo mức độ căng thẳng thanh khoản |
-| L_003 | ContagionRisk | \(\text{Risk} = \sum_j \Lambda_{ij} \cdot \text{Stress}_j\) | Đo rủi ro lan truyền |
-| L_004 | CollapseThreshold | \(\text{Collapse} = \mathbf{1}[\text{Overload} > \theta_1 \land \text{Stress} > \theta_2]\) | Luật chính |
-| L_005 | RecoveryTrigger | \(\text{Recovery} = \mathbf{1}[\text{Debt} < \theta_{\text{recovery}} \land \text{Liquidity} > \theta_{\text{liq\_recovery}}]\) | Kích hoạt phục hồi |
+| L_001 | DebtOverload | $\text{Overload} = \max(0, \text{Debt} - \Omega_{\text{GDP}})$ | Đo mức độ quá tải nợ |
+| L_002 | LiquidityStress | $\text{Stress} = \max(0, \theta_{\text{liquidity}} - \text{Liquidity})$ | Đo mức độ căng thẳng thanh khoản |
+| L_003 | ContagionRisk | $\text{Risk} = \sum_j \Lambda_{ij} \cdot \text{Stress}_j$ | Đo rủi ro lan truyền |
+| L_004 | CollapseThreshold | $\text{Collapse} = \mathbf{1}[\text{Overload} > \theta_1 \land \text{Stress} > \theta_2]$ | Luật chính |
+| L_005 | RecoveryTrigger | $\text{Recovery} = \mathbf{1}[\text{Debt} < \theta_{\text{recovery}} \land \text{Liquidity} > \theta_{\text{liq\_recovery}}]$ | Kích hoạt phục hồi |
 
 ---
 
@@ -19820,15 +19163,15 @@ Bảng dưới đây tổng hợp **toàn bộ các thành phần kiến trúc**
 |---|---|---|---|---|
 | Structural laws | 40,000–60,000 | Các định luật cấu trúc cốt lõi, được nén từ Interaction Tensor | L15 (Invariant Reduction) | URK (L17) |
 | Universal equations | 7,000–12,000 | Phương trình phổ quát xuyên lĩnh vực | Các cell trong Interaction Tensor (L14) | URK (L17) |
-| Human micro-states | 20,000–30,000 | Trạng thái vi mô của con người (sinh học, cảm xúc, nhận thức) | State tensor (\(\boldsymbol{\mathcal{X}}_t\)) | URK (L17), Observer (L18) |
+| Human micro-states | 20,000–30,000 | Trạng thái vi mô của con người (sinh học, cảm xúc, nhận thức) | State tensor ($\boldsymbol{\mathcal{X}}_t$) | URK (L17), Observer (L18) |
 | Domain–Invariant Matrix (19×19) | ~252,000 micro-laws | Sinh ra các cell trong Interaction Tensor | L14 (Interaction Tensor) | L15 (Invariant Reduction) |
-| Layer–Operator Matrix (7×7) | ~1,421 laws | Điều khiển translation chain qua 12 lớp biểu diễn | L4 (\(\tau\) generator) | URK (L17) |
+| Layer–Operator Matrix (7×7) | ~1,421 laws | Điều khiển translation chain qua 12 lớp biểu diễn | L4 ($\tau$ generator) | URK (L17) |
 | 7 Universal Law Families | ~1,400 sub-laws | Các họ luật phổ quát, được nén thành invariant classes | L15 (Invariant Reduction) | L16 (Instantiation) |
 | 14 Universal Tensors | ~14,000 micro-laws | Các tensor con của master tensor | L14 (Interaction Tensor) | URK (L17) |
-| 7 Cycles Evolution | ~2,300 laws | Điều khiển time engine và chuyển tiếp chu kỳ | L6 (\(\Omega\) generator), L3 (Time Engine) | URK (L17) |
-| 15 Collapse Classes | ~2,500 laws | Điều khiển phát hiện sụp đổ và xử lý khủng hoảng | L5 (\(C\) generator), L10 (\(\Xi\) generator) | URK (L17), Collapse Loop (L13) |
-| 10 Regeneration Classes | ~840 laws | Điều khiển phục hồi sau sụp đổ | L12 (\(\Theta\) generator) | URK (L17), Recovery Loop (L14) |
-| 12 Drift Modes | ~1,300 laws | Điều khiển phát hiện trôi dạt (drift) | L11 (\(\Gamma\) generator) | URK (L17), Meta Loop (L12) |
+| 7 Cycles Evolution | ~2,300 laws | Điều khiển time engine và chuyển tiếp chu kỳ | L6 ($\Omega$ generator), L3 (Time Engine) | URK (L17) |
+| 15 Collapse Classes | ~2,500 laws | Điều khiển phát hiện sụp đổ và xử lý khủng hoảng | L5 ($C$ generator), L10 ($\Xi$ generator) | URK (L17), Collapse Loop (L13) |
+| 10 Regeneration Classes | ~840 laws | Điều khiển phục hồi sau sụp đổ | L12 ($\Theta$ generator) | URK (L17), Recovery Loop (L14) |
+| 12 Drift Modes | ~1,300 laws | Điều khiển phát hiện trôi dạt (drift) | L11 ($\Gamma$ generator) | URK (L17), Meta Loop (L12) |
 | Species-level Logic | 1,000–2,000 laws | Cross-species instantiation và invariants | L16 (Instantiation) | URK (L17) |
 | Civilisation & Planetary Logic | 3,000–5,000 laws | Macro-scale instantiation cho văn minh và hành tinh | L16 (Instantiation) | URK (L17), Civilisation Loop (L10) |
 | Emergent Interaction Space | 300,000+ rules | Các tương tác bậc cao (pairwise, triple, cross-layer, cross-scale) | L14 (Interaction Tensor) | URK (L17) |
@@ -19881,18 +19224,18 @@ Bảng dưới đây tổng hợp **toàn bộ các thành phần kiến trúc**
 
 | Loại phương trình | Số lượng | Ví dụ |
 |---|---|---|
-| Algebraic | 2,000–3,500 | \(B = \text{Stable}(\Delta_{\text{inside/outside}})\) |
-| Differential | 1,500–2,500 | \(\frac{dB}{dt} = \alpha \Delta - \beta B\) |
-| Integral | 500–1,000 | \(B(t) = \int_0^t \Delta(\tau) e^{-\beta(t-\tau)} d\tau\) |
-| Logical | 1,500–2,500 | \(\text{Collapse} = \mathbf{1}[\text{Load} > \Omega]\) |
-| Probabilistic | 1,000–1,500 | \(P(\text{Collapse}) = \sigma(\alpha \cdot \text{Load} - \beta \cdot \Omega)\) |
+| Algebraic | 2,000–3,500 | $B = \text{Stable}(\Delta_{\text{inside/outside}})$ |
+| Differential | 1,500–2,500 | $\frac{dB}{dt} = \alpha \Delta - \beta B$ |
+| Integral | 500–1,000 | $B(t) = \int_0^t \Delta(\tau) e^{-\beta(t-\tau)} d\tau$ |
+| Logical | 1,500–2,500 | $\text{Collapse} = \mathbf{1}[\text{Load} > \Omega]$ |
+| Probabilistic | 1,000–1,500 | $P(\text{Collapse}) = \sigma(\alpha \cdot \text{Load} - \beta \cdot \Omega)$ |
 | **TỔNG** | **7,000–12,000** | |
 
 ---
 
 #### 5.2.3. Human Micro-states (20,000–30,000)
 
-**Định nghĩa:** Các trạng thái vi mô của con người, được ánh xạ vào state tensor \(\boldsymbol{\mathcal{X}}_t\).
+**Định nghĩa:** Các trạng thái vi mô của con người, được ánh xạ vào state tensor $\boldsymbol{\mathcal{X}}_t$.
 
 **Phân bố theo loại:**
 
@@ -19912,9 +19255,7 @@ Bảng dưới đây tổng hợp **toàn bộ các thành phần kiến trúc**
 **Định nghĩa:** Ma trận sinh ra các micro-laws từ sự kết hợp giữa 19 domain và 19 invariant.
 
 **Cấu trúc:**
-\[
-M_{19 \times 19} = \text{Domains} \times \text{Invariants}
-\]
+$$M_{19 \times 19} = \text{Domains} \times \text{Invariants}$$
 
 **Phân bố micro-laws theo cell:**
 
@@ -19932,9 +19273,7 @@ M_{19 \times 19} = \text{Domains} \times \text{Invariants}
 **Định nghĩa:** Ma trận điều khiển translation chain qua 7 lớp (Physical, Biological, Cognitive, Social, Economic, Political, Planetary) và 7 operator (Constraint, Gradient, Selection, Transmission, Transformation, Regulation, Collapse).
 
 **Cấu trúc:**
-\[
-M_{7 \times 7} = \text{Layers} \times \text{Operators}
-\]
+$$M_{7 \times 7} = \text{Layers} \times \text{Operators}$$
 
 **Phân bố laws theo cell:**
 
@@ -19969,20 +19308,20 @@ M_{7 \times 7} = \text{Layers} \times \text{Operators}
 
 | Tensor | Mô tả | Số micro-laws |
 |---|---|---|
-| \(T_{\Omega}\) | Overload tensor | ~1,000 |
-| \(T_{H}\) | Cohesion tensor | ~1,000 |
-| \(T_{F}\) | Fragmentation tensor | ~1,000 |
-| \(T_{S}\) | Shock tensor | ~1,000 |
-| \(T_{\text{Cross}}\) | Cross-asset confirmation | ~1,000 |
-| \(T_{\text{Time}}\) | Timing tensor | ~1,000 |
-| \(T_{\text{Meta}}\) | Meta-cognitive tensor | ~1,000 |
-| \(T_{\text{Signal}}\) | Signal tensor (13×7×T) | ~1,000 |
-| \(T_{\text{Liquidity}}\) | Liquidity tensor | ~1,000 |
-| \(T_{\text{Obligation}}\) | Obligation tensor | ~1,000 |
-| \(T_{\text{Causal}}\) | Causal graph tensor | ~1,000 |
-| \(T_{\text{Drift}}\) | Drift tensor | ~1,000 |
-| \(T_{\text{EdgeLife}}\) | Edge mortality tensor | ~1,000 |
-| \(T_{\text{Decision}}\) | Decision tensor | ~1,000 |
+| $T_{\Omega}$ | Overload tensor | ~1,000 |
+| $T_{H}$ | Cohesion tensor | ~1,000 |
+| $T_{F}$ | Fragmentation tensor | ~1,000 |
+| $T_{S}$ | Shock tensor | ~1,000 |
+| $T_{\text{Cross}}$ | Cross-asset confirmation | ~1,000 |
+| $T_{\text{Time}}$ | Timing tensor | ~1,000 |
+| $T_{\text{Meta}}$ | Meta-cognitive tensor | ~1,000 |
+| $T_{\text{Signal}}$ | Signal tensor (13×7×T) | ~1,000 |
+| $T_{\text{Liquidity}}$ | Liquidity tensor | ~1,000 |
+| $T_{\text{Obligation}}$ | Obligation tensor | ~1,000 |
+| $T_{\text{Causal}}$ | Causal graph tensor | ~1,000 |
+| $T_{\text{Drift}}$ | Drift tensor | ~1,000 |
+| $T_{\text{EdgeLife}}$ | Edge mortality tensor | ~1,000 |
+| $T_{\text{Decision}}$ | Decision tensor | ~1,000 |
 
 ---
 

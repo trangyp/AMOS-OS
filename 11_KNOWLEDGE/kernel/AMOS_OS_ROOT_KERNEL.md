@@ -1,15 +1,20 @@
 ---
 title: AMOS OS ROOT KERNEL
 type: kernel
+source: 11_KNOWLEDGE/kernel
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
 topic: amos-os-root
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-os-root, kernel]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
-
-
+# AMOS OS ROOT KERNEL
 
 ```json
 {

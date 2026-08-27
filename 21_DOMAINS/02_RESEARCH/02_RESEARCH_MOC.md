@@ -1,8 +1,15 @@
 ---
 title: "02 Research MOC"
 type: moc
-tags: [moc, 02-research]
+source: 21_DOMAINS/02_RESEARCH
+tags: [moc, 02-research, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 02 Research — Map of Content
 

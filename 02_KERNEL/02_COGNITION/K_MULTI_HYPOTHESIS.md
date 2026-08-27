@@ -1,6 +1,7 @@
 ---
 title: K MULTI HYPOTHESIS
 type: hypothesis
+source: 02_KERNEL/02_COGNITION
 artifact_id: AMOS-OS-K-MULTI-HYPOTHESIS
 canonical_name: K_MULTI_HYPOTHESIS
 artifact_type: kernel_multi_hypothesis_contract
@@ -25,8 +26,6 @@ aliases: "- AMOS Multi Hypothesis Kernel
   - Multi Hypothesis Kernel
   - K Multi Hypothesis
   - K_MULTI_HYPOTH..."---
-
-
 
 
 # K_MULTI_HYPOTHESIS
@@ -80,8 +79,13 @@ MOST REPEATED EXPLANATION
 →
 FALSE CONSENSUS
 ```
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 1. Architectural Position
 

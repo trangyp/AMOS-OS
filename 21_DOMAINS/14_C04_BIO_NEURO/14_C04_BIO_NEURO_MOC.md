@@ -1,8 +1,15 @@
 ---
 title: "14 C04 Bio Neuro MOC"
 type: moc
-tags: [moc, 14-c04-bio-neuro]
+source: 21_DOMAINS/14_C04_BIO_NEURO
+tags: [moc, 14-c04-bio-neuro, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 14 C04 Bio Neuro — Map of Content
 

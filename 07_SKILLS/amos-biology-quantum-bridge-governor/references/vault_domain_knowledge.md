@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-biology-quantum-bridge-governor]
+source: 07_SKILLS/amos-biology-quantum-bridge-governor/references
+tags: [reference, amos-biology-quantum-bridge-governor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault Domain Knowledge — Biology-Quantum Bridge Governor
 
@@ -218,3 +225,7 @@ This skill should be used in conjunction with `amos-cross-domain-tensor-composit
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

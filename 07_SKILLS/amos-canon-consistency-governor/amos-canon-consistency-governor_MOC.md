@@ -1,8 +1,15 @@
 ---
 title: "Amos-Canon-Consistency-Governor MOC"
 type: moc
-tags: [moc, amos-canon-consistency-governor]
+source: 07_SKILLS/amos-canon-consistency-governor
+tags: [moc, amos-canon-consistency-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Canon-Consistency-Governor — Map of Content
 

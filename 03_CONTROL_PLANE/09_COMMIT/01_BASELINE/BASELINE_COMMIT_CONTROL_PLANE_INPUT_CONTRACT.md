@@ -1,9 +1,14 @@
 ---
 title: BASELINE COMMIT CONTROL PLANE INPUT CONTRACT
 type: control-plane
-tags: [control_plane, 01_baseline]
+source: 03_CONTROL_PLANE/09_COMMIT/01_BASELINE
+tags: [control_plane, 01_baseline, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # BASELINE COMMIT CONTROL PLANE INPUT CONTRACT
@@ -75,3 +80,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[01_BASELINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

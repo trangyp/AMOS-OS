@@ -1,8 +1,15 @@
 ---
 title: "03 Governance Forums MOC"
 type: moc
-tags: [moc, 03-governance-forums]
+source: 23_OPERATING_MODEL/03_GOVERNANCE_FORUMS
+tags: [moc, 03-governance-forums, canon/operating-model]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 03 Governance Forums — Map of Content
 

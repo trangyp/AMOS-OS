@@ -1,9 +1,14 @@
 ---
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O02 RELATION CONTRACT
 type: lifecycle
-tags: [cognitive_matrix, o02_relation]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O02_RELATION/00_INDEX
+tags: [cognitive_matrix, o02_relation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O02 RELATION CONTRACT
@@ -78,3 +83,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/_AMOS_OS_MasterFile.uos copy.txt"
 origin_architect: "Trang Phan"
 type: canon-spec
+source: 11_KNOWLEDGE/amos-general
 tags: [canon-group/meta, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/X-crossscale, topic/universe-total-canon, amos-general]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
 
 

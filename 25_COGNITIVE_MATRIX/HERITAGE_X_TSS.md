@@ -1,6 +1,7 @@
 ---
 title: "Heritage × TSS"
 type: heritage
+source: 25_COGNITIVE_MATRIX
 artifact: "HERITAGE_X_TSS.md"
 artifact_id: "amos_25_cognitive_matrix_heritage_x_tss"
 origin_architect: "Trang Phan"
@@ -11,205 +12,257 @@ segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "ARTIFACT"
 path: "25_COGNITIVE_MATRIX/HERITAGE_X_TSS.md"
 
-tags: [amos_os, cognitive_matrix, matrix, 25_cognitive_matrix, artifact, canon_placeholder, rscf]
+tags:
+  - amos_os
+  - cognitive_matrix
+  - 25_cognitive_matrix
+  - artifact
+  - heritage
+  - heritage_intelligence
+  - heritage_decision_intelligence
+  - tss
+  - trang_system
+  - decision_governance
+  - lifecycle_transitions
+  - trust_scoring
+  - collapse_avoidance
+  - regime_shift
+  - timing_readiness
+  - self_refutation
+  - rscf
+  - canon_candidate
+  - canon/cognitive-matrix
 
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
+validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
----
 
+ingestion_action: "NATIVE_CANON_INGESTION"
+raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: AMOS_MODEL
+  provenance:
+    - HERITAGE_INTELLIGENCE_CANON
+    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
+    - AMOS_CORPUS
+  scope:
+    - DECISION_GOVERNANCE
+    - SYSTEM_LIFECYCLES
+    - COGNITIVE_MATRIX
+
+framework_binding:
+  heritage:
+    name: "Heritage Decision Intelligence™"
+    role: DECISION_INTELLIGENCE_AND_GOVERNANCE
+  tss:
+    name: "The Trang System™"
+    role: STRUCTURAL_SYSTEMS_DYNAMICS_AND_CYCLES
+  matrix_conjunction:
+    name: "Heritage × TSS Matrix"
+    artifact: "[[HERITAGE_X_TSS_MATRIX]]"
+
+epistemic_boundary:
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  framework_structure: VERIFIED_SOURCE_STRUCTURE
+  decision_rules: SOURCE_DEFINED_MODEL
+  historical_generality: SOURCE_CLAIM
+  empirical_decision_advantage: NOT_ESTABLISHED_GLOBALLY
+  runtime_enforcement: NOT_ESTABLISHED
+---
 
 
 # Heritage × TSS
 
-## 0. Status
-
-`HERITAGE_X_TSS.md` is an **ADD-ONLY placeholder** for the **Cognitive Matrix** plane segment at `25_COGNITIVE_MATRIX`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+`HERITAGE_X_TSS.md` is the source-grounded Cognitive Matrix integration artifact for:
 
 ```text
-PLACEHOLDER != IMPLEMENTED
+Heritage Decision Intelligence™
+×
+The Trang System™ (TSS)
+```
 
-ADDRESSABLE != VALIDATED
+It replaces the former `PLACEHOLDER` with a comprehensive framework governing high-stakes decision-making across systemic evolutionary cycles.
 
-DOCUMENTED != ENFORCED
+```text
+HERITAGE  →  How to decide, govern, time, and preserve viability under uncertainty.
+TSS       →  What structural state (C1–C7) and force vector (Ω, H, F, S) the system is in.
+```
 
-MODEL != OBSERVATION
+Combined:
 
-SOURCE_CLAIM != VERIFIED
+```text
+TSS SYSTEM DIAGNOSIS (State & Force Vector)
+                    ↓
+HERITAGE DECISION GOVERNANCE (Trust, Timing, Refutation, Viability)
+                    ↓
+GOVERNED STRATEGIC ACTION (Reversible, Staged, Audited)
+```
 
-CANON_CANDIDATE != CANONICAL
+Origin architect / steward: **Trang Phan**
 
-CANONICAL != EMPIRICAL_TRUTH
+---
 
-CAPABILITY != AUTHORITY
+# 1. Purpose and Division of Responsibility
 
-AUTHORIZATION != COMMIT
+The integration of Heritage Intelligence with The Trang System solves a fundamental governance dilemma:
 
+```text
+TSS asks:
+"What structural phase is this system in, and what stress fractures are developing?"
+
+Heritage asks:
+"Given this phase and these fractures, what decisions are viable, what actions are ethical, and when is the system ready to act?"
+```
+
+```yaml
+Responsibility_Division:
+  TSS_Domain:
+    - Identifies cycle location (C1: Emergence → C7: Reset)
+    - Measures four structural variables (Ω: Overload, H: Cohesion, F: Fragmentation, S: Shock)
+    - Traces structural velocity and drift (dΩ/dt, dH/dt, dF/dt, dS/dt)
+    - Maps long-term outcome attractors (Renewal, Termination, Absorption, Stagnation)
+
+  Heritage_Domain:
+    - Computes trust scores and collapse probabilities before decision commitment
+    - Evaluates timing readiness and regime-shift proximity
+    - Enforces adversarial self-refutation (testing the anti-thesis before action)
+    - Mandates ethical refusal and reversible rollback basins
+    - Binds authority to epoch-valid warrants (Capability ≠ Authority)
+```
+
+---
+
+# 2. Decision Intelligence Across the Seven TSS Cycles
+
+Heritage Decision Intelligence applies specialized decision heuristics tailored to the specific risk envelope of each TSS cycle:
+
+### Cycle-Specific Decision Envelopes
+
+| TSS Cycle | System Profile | Heritage Decision Stance | Primary Failure Mode Avoided |
+|---|---|---|---|
+| **C1: Emergence** | $\Omega \text{ low}, H \text{ high}, F \text{ low}$ | **Foundational Stamping:** Codify core invariants, decentralized authority roots, and clean rollback basins. | Over-centralization; brittle early lock-in. |
+| **C2: Expansion** | $\Omega \text{ rising}, H \text{ strong}, F \text{ low–mod}$ | **Capacity Scaling:** Invest growth surpluses directly into infrastructure buffers and coordination capacity. | Premature scale over-extension without reserves. |
+| **C3: Peak / Overreach** | $\Omega \text{ high}, H \text{ falling}, F \text{ rising}$ | **Proactive Pruning & Simplification:** De-scope non-essential commitments; purge bureaucratic drag before rupture. | Overconfidence; ignoring hidden structural strain. |
+| **C4: Fragmentation** | $\Omega \text{ high}, H \text{ low}, F \text{ high}$ | **Cohesion Re-anchoring:** Incentivize cross-silo alignment; halt aggressive external campaigns; address sub-group grievances. | Policy paralysis; accelerating civil conflict. |
+| **C5: Crisis–Shock** | $S \text{ high}, F \text{ high}, \Omega \text{ high}$ | **Emergency Triage & Staged Containment:** Protect core survival assets; execute pre-negotiated contingency protocols. | Panic escalation; irreversible catastrophic bets. |
+| **C6: Collapse** | $\Omega \text{ extreme}, H \text{ min}, F \text{ max}$ | **Heritage Preservation & Minimum Viable Core:** Preserve critical seed knowledge, cultural memory, and human trust networks. | Total memory loss; liquidation of foundational assets. |
+| **C7: Reset** | $\Omega \text{ falling}, H \text{ rising}, F \text{ falling}$ | **Constitutional Rebuilding:** Architect new social contracts on simplified, transparent, and resilient foundations. | Re-importing corrupted legacy failure modes. |
+
+---
+
+# 3. The 7 Core Heritage Mechanisms
+
+Heritage Decision Intelligence operationalizes seven canonical mechanisms to navigate TSS stress:
+
+```yaml
+Heritage_Mechanisms:
+  1_Trust_Scoring:
+    formula: "Trust = f(Integrity, Consistency, BoundaryRespect, RepairHistory)"
+    rule: "Never commit strategic capital to partners or systems where Trust < Cycle_Threshold"
+
+  2_Collapse_Probability_Estimation:
+    formula: "P_collapse ~ (Omega * F * S) / (H * Buffer_Reserves)"
+    rule: "When P_collapse exceeds regime threshold, switch from Optimization to Viability Preservation"
+
+  3_Regime_Shift_Detection:
+    indicator: "Sudden decorrelation of historical leading indicators or rapid dF/dt acceleration"
+    rule: "Invalidate pre-existing policy playbooks immediately upon verified regime shift"
+
+  4_Timing_Readiness:
+    assessment: "Systemic energy, stakeholder alignment, and resource buffer adequacy"
+    rule: "Good ideas executed at wrong cycle timing produce negative net consequence"
+
+  5_Adversarial_Self_Refutation:
+    protocol: "Actively construct and stress-test the strongest argument against the proposed decision"
+    rule: "If the anti-thesis identifies an unmitigated catastrophic failure basin, halt execution"
+
+  6_Gap_Classification:
+    classes: "[CRITICAL, DECISION_RELEVANT, EXPLANATORY, COSMETIC]"
+    rule: "Fail-closed on CRITICAL gaps (UNKNOWN/GAP != PASS)"
+
+  7_Ethical_Refusal_and_Rollback:
+    mandate: "Maintain explicit rollback basins and refuse actions that violate fundamental canonical invariants"
+    rule: "PROPOSAL != COMMIT; Capability != Authority"
+```
+
+---
+
+# 4. Epistemic Firewalls
+
+```text
+HERITAGE DECISION MODEL != GUARANTEED OUTCOME
+TSS CYCLE IDENTIFICATION != MECHANICAL DESTINY
+HIGH TRUST SCORE != ABSOLUTE INFALLIBILITY
+HISTORICAL PRECEDENT != CAUSAL EQUIVALENCE
 PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
+CAPABILITY != AUTHORITY
 LOGGED != APPROVED
-
 UNKNOWN/GAP != PASS
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+# 5. Cross-Framework Interconnections
+
+```text
+                  THE TRANG SYSTEM™ (TSS)
+                   ([[AMOS_X_TSS.md]])
+                            │
+                            ▼
+               HERITAGE DECISION INTELLIGENCE
+                 ([[HERITAGE_X_TSS.md]])
+                            │
+        ┌───────────────────┼───────────────────┐
+        ▼                   ▼                   ▼
+HERITAGE × TSS MATRIX      TPE                TRANG ∅
+([[HERITAGE_X_TSS_MATRIX]]) ([[AMOS_X_TPE]])   ([[HERITAGE_X_TRANG_ZERO]])
+```
+
+- **[[HERITAGE_X_TSS_MATRIX]]**: Multi-dimensional matrix representation for routing Heritage decisions across TSS cycles and scales.
+- **[[AMOS_X_TSS]]**: Upstream structural systems model providing cycle state ($C_1 \dots C_7$) and variable vector ($\Omega, H, F, S$).
+- **[[AMOS_X_TPE]]**: Prediction engine validating forward trajectories of proposed Heritage interventions.
+- **[[AMOS_X_QLS]] & [[AMOS_X_QCLA]]**: Ensures logical validity and causal admissibility of decision premises.
+- **[[HERITAGE_X_TRANG_ZERO]]**: Null-state boundary anchoring decision integrity to foundational non-negotiable principles.
 
 ---
 
-## 1. Purpose
-
-This artifact reserves the **Heritage × TSS** slot within the Cognitive Matrix plane. The Cognitive Matrix plane governs primitives L00-L29, lifecycle operations, control planes, scales, cell registry, routing, validation, generators.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
+# 6. RSCF Contract
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+RSCF:
+  node_id: amos_25_cognitive_matrix_heritage_x_tss
+  node_type: artifact
+  claim_class: AMOS_MODEL
+  state: SOURCE_GROUNDED
+  H:
+    identity: "Heritage × TSS Integration"
+    role: "Decision governance and strategic navigation across system lifecycles"
+  M:
+    components:
+      - cycle_governance: [C1_to_C7]
+      - mechanisms: [trust_scoring, collapse_estimation, timing_readiness, self_refutation, gap_classification, rollback]
+  L:
+    load_on_demand:
+      - cycle_specific_decision_receipts
+      - sensitivity_analysis_templates
+      - historical_governance_case_studies
+  confidence_ceiling:
+    source_model: SOURCE_BOUND
+    empirical_decision_advantage: UNKNOWN
+    runtime: UNKNOWN
 ```
 
 ---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `25_COGNITIVE_MATRIX · ARTIFACT` within the Cognitive Matrix plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-00_ROOT_MOC|AMOS MOC
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_25_cognitive_matrix_heritage_x_tss
-
-node_type: artifact
-
-path: 25_COGNITIVE_MATRIX/HERITAGE_X_TSS.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[AMOS_X_TSS]] · [[HERITAGE_X_TSS_MATRIX]] · [[AMOS_X_TPE]] · [[HERITAGE_X_TRANG_ZERO]] · [[AMOS_X_QLS]]
 
 ---
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]

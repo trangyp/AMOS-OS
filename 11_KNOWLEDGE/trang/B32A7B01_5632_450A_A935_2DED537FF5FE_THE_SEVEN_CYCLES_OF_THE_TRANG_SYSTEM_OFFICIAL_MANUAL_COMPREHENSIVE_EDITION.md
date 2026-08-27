@@ -3,7 +3,14 @@ title: B32A7B01 5632 450A A935 2DED537FF5FE THE SEVEN CYCLES OF THE TRANG SYSTEM
 tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/b32a7b01-5632-450a-a935-2ded537ff5fe-the, trang]
 type: note
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
+
 
 # B32A7B01 5632 450A A935 2DED537FF5FE THE SEVEN CYCLES OF THE TRANG SYSTEM OFFICIAL MANUAL COMPREHENSIVE EDITION
 

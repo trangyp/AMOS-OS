@@ -1,8 +1,15 @@
 ---
 title: cognitive engines
 type: reference
-tags: [reference, amos-c05-mind-behavior-master]
+source: 07_SKILLS/amos-c05-mind-behavior-master/references
+tags: [reference, amos-c05-mind-behavior-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Cognitive Engines
 
@@ -86,4 +93,5 @@ Each engine maps to AMOS omni-logic and can be orchestrated by the AMOS OS Agent
 - `cognitive/Cognitive_Architecture_Matrix.md` — architecture matrix
 
 ---
+- [[07_SKILLS_MOC]]
 **MOC:** [[references_MOC]]

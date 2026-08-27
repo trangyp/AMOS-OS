@@ -1,8 +1,15 @@
 ---
 title: "L27 Multi Agent Cognition MOC"
 type: moc
-tags: [moc, l27-multi-agent-cognition]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION
+tags: [moc, l27-multi-agent-cognition, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L27 Multi Agent Cognition — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: bizfin super engine
 type: reference
-tags: [reference, amos-c07-econ-finance-master]
+source: 07_SKILLS/amos-c07-econ-finance-master/references
+tags: [reference, amos-c07-econ-finance-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # BizFin SUPER Engine
 
@@ -143,3 +150,7 @@ created: 2026-08-22
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

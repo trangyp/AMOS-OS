@@ -3,10 +3,16 @@ title: "2026-08-22 Tests Logic Bridge Registry"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: note
+source: 11_KNOWLEDGE/dated
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-tests-logic-bridge-registry, dated, dated/2026-08-22]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
 
 

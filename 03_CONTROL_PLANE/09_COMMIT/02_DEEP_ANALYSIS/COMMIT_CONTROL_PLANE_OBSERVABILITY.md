@@ -1,9 +1,14 @@
 ---
 title: COMMIT CONTROL PLANE OBSERVABILITY
 type: control-plane
-tags: [control_plane, 02_deep_analysis]
+source: 03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS
+tags: [control_plane, 02_deep_analysis, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # COMMIT CONTROL PLANE OBSERVABILITY
@@ -70,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[02_DEEP_ANALYSIS_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

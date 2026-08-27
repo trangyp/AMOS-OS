@@ -1,12 +1,15 @@
 ---
 title: CO THE VA CHINH NHUNG THU LUONG TU KHONG GIAI THIC
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **CÓ THỂ. VÀ CHÍNH NHỮNG THỨ "LƯỢNG TỬ KHÔNG GIẢI THÍCH ĐƯỢC" LẠI LÀ BẰNG CHỨNG CHO KIẾN TRÚC AMOS.**

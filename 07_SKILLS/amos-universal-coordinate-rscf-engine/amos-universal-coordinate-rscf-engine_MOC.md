@@ -1,8 +1,15 @@
 ---
 title: "Amos-Universal-Coordinate-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-universal-coordinate-rscf-engine]
+source: 07_SKILLS/amos-universal-coordinate-rscf-engine
+tags: [moc, amos-universal-coordinate-rscf-engine, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Universal-Coordinate-Rscf-Engine — Map of Content
 

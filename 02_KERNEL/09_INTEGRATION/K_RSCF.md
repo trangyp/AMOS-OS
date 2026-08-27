@@ -1,9 +1,14 @@
 ---
 title: K RSCF
 type: rscf
-tags: [amos_os, 02_kernel]
+source: 02_KERNEL/09_INTEGRATION
+tags: [amos_os, 02_kernel, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # K RSCF
@@ -70,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[09_INTEGRATION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

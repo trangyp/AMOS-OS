@@ -1,8 +1,15 @@
 ---
 title: vietnamese writing engine
 type: reference
-tags: [reference, amos-c11-design-language-master]
+source: 07_SKILLS/amos-c11-design-language-master/references
+tags: [reference, amos-c11-design-language-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Vietnamese Writing Engine vInfinity
 
@@ -71,3 +78,7 @@ tags: [amos, vietnamese, writing, engine, v-infinity, executive, government, leg
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,9 +1,14 @@
 ---
 title: RISK REPAIR KERNEL README
 type: kernel
-tags: [amos_os, 02_kernel]
+source: 02_KERNEL/06_RISK_REPAIR
+tags: [amos_os, 02_kernel, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # RISK REPAIR KERNEL README
@@ -65,3 +70,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[06_RISK_REPAIR_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

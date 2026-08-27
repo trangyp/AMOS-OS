@@ -1,12 +1,15 @@
 ---
 title: BAO CAO CHUYEN SAU VE VIEC THIEU HUT LAO DONG TAI
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # **Báo cáo chuyên sâu về việc thiếu hụt lao động tại Australia 2025**

@@ -1,12 +1,15 @@
 ---
 title: THE LOGIC MODEL FOUNDATION VERSION 1 0
-tags: [logic, reasoning, formal]
+tags: [logic, reasoning, formal, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/logic
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
+
 ---
-
-
-
 
 
 # **THE LOGIC MODEL (FOUNDATION VERSION 1.0)**

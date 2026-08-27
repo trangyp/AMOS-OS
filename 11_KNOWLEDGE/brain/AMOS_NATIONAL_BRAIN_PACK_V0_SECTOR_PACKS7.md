@@ -1,15 +1,20 @@
 ---
 title: AMOS NATIONAL BRAIN PACK V0 SECTOR PACKS7
 type: brain
+source: 11_KNOWLEDGE/brain
 canon-group: tech-ai
 canon-type: os-module
 rscf-state: source-claim
 topic: amos-national-brain-pack-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-national-brain-pack-v0, brain]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
 ---
-
-
+# AMOS NATIONAL BRAIN PACK V0 SECTOR PACKS7
 
 ```json
 {

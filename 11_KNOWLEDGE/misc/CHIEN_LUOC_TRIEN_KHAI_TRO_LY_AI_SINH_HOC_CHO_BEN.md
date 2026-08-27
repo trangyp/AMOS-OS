@@ -1,15 +1,18 @@
 ---
 title: CHIEN LUOC TRIEN KHAI TRO LY AI SINH HOC CHO BEN
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
-# 🧭 **Chiến lược triển khai: Trợ lý AI Sinh học cho Bệnh nhân Không Giao Tiếp (NeuroSyncAI™ Health Interpreter)**
+# **Chiến lược triển khai: Trợ lý AI Sinh học cho Bệnh nhân Không Giao Tiếp (NeuroSyncAI™ Health Interpreter)**
 * * *
 ## **I. Tầm nhìn**
 Mục tiêu là đưa NeuroSyncAI™ trở thành **trợ lý AI sinh học đầu tiên** có khả năng đọc và phân tích **tín hiệu sinh lý tiền ngôn ngữ (pre-verbal)** để hỗ trợ **bệnh nhân hôn mê, sau phẫu thuật hoặc hạn chế giao tiếp**.

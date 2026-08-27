@@ -3,10 +3,14 @@ title: AMOS SIMULATION KERNEL V0 MATH FOUNDATIONS
 tags: [canon-group/biology, canon/model, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-simulation-kernel-v0, math]
 type: data
 source: 11_KNOWLEDGE/math
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: mathematical_model
+
 ---
-
-
-
+# AMOS SIMULATION KERNEL V0 MATH FOUNDATIONS
 
 ```json
 {

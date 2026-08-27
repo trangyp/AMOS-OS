@@ -1,12 +1,18 @@
 ---
 type: provenance
-tags: [amos, cognitive-matrix, l03, percept-formation, provenance, rscf, hml, governance]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
+tags: [amos, cognitive-matrix, l03, percept-formation, provenance, rscf, hml, governance, canon/cognitive-matrix]
 
 title: "L03_PERCEPT_FORMATION — Provenance"
 origin_architect: "Trang Phan"
 status: "MODEL_CONTRACT / UNIMPLEMENTED / UNVALIDATED"
 epistemic_class: "MODEL"
 runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 

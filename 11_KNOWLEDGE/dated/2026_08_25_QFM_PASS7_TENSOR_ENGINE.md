@@ -1,11 +1,16 @@
 ---
 title: 2026 08 25 QFM PASS7 TENSOR ENGINE
 type: engine
-tags: [daily/integrity-pass, topic/qfm-pass7-tensor-engine, dated, dated/2026-08-25]
+source: 11_KNOWLEDGE/dated
+tags: [daily/integrity-pass, topic/qfm-pass7-tensor-engine, dated, dated/2026-08-25, canon/knowledge]
 created: 2026-08-25
 conclusion_class: AMOS MODEL / DERIVED
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
-
 
 
 # 2026-08-25 Pass 7 — Tensor Checker Engine + Skill Enhancements + Final Empty Closure

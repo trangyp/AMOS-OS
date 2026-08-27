@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-qls-qic-substrate-mapper]
+source: 07_SKILLS/amos-qls-qic-substrate-mapper/references
+tags: [reference, amos-qls-qic-substrate-mapper, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 

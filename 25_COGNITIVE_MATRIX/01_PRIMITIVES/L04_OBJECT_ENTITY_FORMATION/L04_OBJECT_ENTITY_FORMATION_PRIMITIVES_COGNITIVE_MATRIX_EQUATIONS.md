@@ -1,7 +1,13 @@
 ---
 title: L04 OBJECT ENTITY FORMATION PRIMITIVES COGNITIVE MATRIX EQUATIONS
 type: note
-tags: [note, l04-object-entity-formation]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
+tags: [note, l04-object-entity-formation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -48,3 +54,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L
 
 ---
 **MOC:** [[L04_OBJECT_ENTITY_FORMATION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

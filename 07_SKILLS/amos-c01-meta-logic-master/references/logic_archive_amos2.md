@@ -1,8 +1,15 @@
 ---
 title: logic archive amos2
 type: reference
-tags: [reference, amos-c01-meta-logic-master]
+source: 07_SKILLS/amos-c01-meta-logic-master/references
+tags: [reference, amos-c01-meta-logic-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Logic Archive AMOS2
 
@@ -143,3 +150,7 @@ created: 2026-08-22
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

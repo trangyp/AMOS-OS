@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/training/Law_of_Law_Rule_of_2_and_Rule_of_4.pdf"
 origin_architect: "Trang Phan / Trang System™"
 type: training-manual
+source: 11_KNOWLEDGE/misc
 tags: [canon-group/meta, canon/law, rscf/claim, rscf/provenance, rscf/state/derived, rscf/D-distinction, rscf/T-topology, rscf/K-compression, rscf/B-boundary, topic/absolute-logic-model, misc]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 

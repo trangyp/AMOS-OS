@@ -1,8 +1,15 @@
 ---
 title: "O05 Memory MOC"
 type: moc
-tags: [moc, o05-memory]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY
+tags: [moc, o05-memory, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # O05 Memory — Map of Content
 

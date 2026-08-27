@@ -1,8 +1,15 @@
 ---
 title: "Amos-Super-Engines-Master MOC"
 type: moc
-tags: [moc, amos-super-engines-master]
+source: 07_SKILLS/amos-super-engines-master
+tags: [moc, amos-super-engines-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Super-Engines-Master — Map of Content
 

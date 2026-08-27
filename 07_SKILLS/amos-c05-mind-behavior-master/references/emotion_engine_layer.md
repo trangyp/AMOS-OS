@@ -1,8 +1,15 @@
 ---
 title: emotion engine layer
 type: reference
-tags: [reference, amos-c05-mind-behavior-master]
+source: 07_SKILLS/amos-c05-mind-behavior-master/references
+tags: [reference, amos-c05-mind-behavior-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Emotion Engine Layer
 
@@ -116,4 +123,5 @@ A symbolic emotion engine defining artificial emotional variables, thresholds, a
 - `engine/A/AMOS_Emotion_Engine_v0_Core7.md` — core7 variant
 
 ---
+- [[07_SKILLS_MOC]]
 **MOC:** [[references_MOC]]

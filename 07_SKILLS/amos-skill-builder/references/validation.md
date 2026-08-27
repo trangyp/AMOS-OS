@@ -1,8 +1,15 @@
 ---
 title: validation
 type: reference
-tags: [reference, amos-skill-builder]
+source: 07_SKILLS/amos-skill-builder/references
+tags: [reference, amos-skill-builder, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Skill Builder — Validation Reference
 
@@ -63,3 +70,7 @@ python3 scripts/workflow_audit.py                   # workflow validation
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

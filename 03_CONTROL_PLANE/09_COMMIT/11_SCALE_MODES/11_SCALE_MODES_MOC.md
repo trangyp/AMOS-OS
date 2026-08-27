@@ -1,8 +1,15 @@
 ---
 title: "11 Scale Modes MOC"
 type: moc
-tags: [moc, 11-scale-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/11_SCALE_MODES
+tags: [moc, 11-scale-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 11 Scale Modes — Map of Content
 

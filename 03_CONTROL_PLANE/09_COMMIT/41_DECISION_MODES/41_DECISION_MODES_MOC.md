@@ -1,8 +1,15 @@
 ---
 title: "41 Decision Modes MOC"
 type: moc
-tags: [moc, 41-decision-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/41_DECISION_MODES
+tags: [moc, 41-decision-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 41 Decision Modes — Map of Content
 

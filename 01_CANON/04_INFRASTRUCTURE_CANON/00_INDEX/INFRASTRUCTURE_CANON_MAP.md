@@ -1,9 +1,14 @@
 ---
 title: INFRASTRUCTURE CANON MAP
 type: canon
-tags: [amos_os, 01_canon]
+source: 01_CANON/04_INFRASTRUCTURE_CANON/00_INDEX
+tags: [amos_os, 01_canon, canon/universe]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INFRASTRUCTURE CANON MAP
@@ -59,3 +64,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

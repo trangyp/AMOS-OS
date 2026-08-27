@@ -1,12 +1,18 @@
 ---
 type: agent
-tags: [amos, cognitive-matrix, l02, attention, agents, rscf, hml, provenance, control-plane, ai]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
+tags: [amos, cognitive-matrix, l02, attention, agents, rscf, hml, provenance, control-plane, ai, canon/cognitive-matrix]
 
 title: "L02_ATTENTION — Agents"
 origin_architect: "Trang Phan"
 status: "MODEL_SPECIFICATION / UNVALIDATED"
 epistemic_class: "MODEL"
 runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -20,7 +26,7 @@ runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
 **Role:** `ATTENTION ALLOCATION / PRIORITIZATION / RESOURCE-BUDGET AGENT CONTRACT`  
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
-> **Source boundary:** the recoverable `L02_ATTENTION` source identifies this primitive as **attention allocation** whose role is to **budget scarce reasoning/observation resources**. The source is explicitly a non-canonical placeholder and prohibits invention of missing canon, equations, thresholds, empirical claims, or implementation status. :contentReference[oaicite:0]{index=0}
+> **Source boundary:** the recoverable `L02_ATTENTION` source identifies this primitive as **attention allocation** whose role is to **budget scarce reasoning/observation resources**. The source is explicitly a non-canonical placeholder and prohibits invention of missing canon, equations, thresholds, empirical claims, or implementation status.
 >
 > Accordingly, the agent architecture below is a source-bounded AMOS reconstruction. Exact canonical agent names, runtime bindings, thresholds, authority assignments, and implementation state remain `UNKNOWN/GAP`.
 
@@ -58,7 +64,6 @@ The recovered source supports only the primitive role:
 attention allocation;
 budget scarce reasoning/observation resources
 ```
-
 
 
 Therefore all specific agent roles in this document are classified as:
@@ -139,7 +144,6 @@ budget scarce reasoning/observation resources.
 ```
 
 
-
 The source also requires the following before promotion:
 
 ```text
@@ -159,7 +163,6 @@ Governance / authority boundary
 Freshness / regime validity
 Supersession / version lineage
 ```
-
 
 
 ## 2.2 Relevant AMOS Architecture Families

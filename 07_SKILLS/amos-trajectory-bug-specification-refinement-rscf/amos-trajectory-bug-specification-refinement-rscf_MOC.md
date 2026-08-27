@@ -1,8 +1,15 @@
 ---
 title: "Amos-Trajectory-Bug-Specification-Refinement-Rscf MOC"
 type: moc
-tags: [moc, amos-trajectory-bug-specification-refine]
+source: 07_SKILLS/amos-trajectory-bug-specification-refinement-rscf
+tags: [moc, amos-trajectory-bug-specification-refine, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Trajectory-Bug-Specification-Refinement-Rscf — Map of Content
 

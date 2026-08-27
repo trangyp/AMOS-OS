@@ -1,25 +1,15 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX INVARIANTS
 type: invariant
-tags: [cognitive_matrix, primitives, l01_sensing_observation, note]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
+tags: [cognitive_matrix, primitives, l01_sensing_observation, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-
-
-Below is the full paste-ready `L01_SENSING_OBSERVATION/INVARIANTS.md`. I keep the L01-specific invariant set at `AMOS_MODEL / CONDITIONAL` rather than presenting reconstructed rules as direct canon.
-
----
-tags:
-  - amos
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - invariants
-  - observation
-  - provenance
-  - rscf
-  - control-plane
----
 
 # L01_SENSING_OBSERVATION — Invariants
 

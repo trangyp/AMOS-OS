@@ -1,14 +1,19 @@
 ---
 title: MIGRATION HISTORY
 type: history
+source: 11_KNOWLEDGE/misc
 canon-group: meta
 canon-type: narrative
 rscf-state: source-claim
 topic: migration-history
 tags: [canon-group/tech-ai, canon/narrative, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/migration-history, misc]
 created: 2026-08-22
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Migration History

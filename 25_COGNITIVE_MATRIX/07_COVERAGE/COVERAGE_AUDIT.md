@@ -1,7 +1,13 @@
 ---
 title: COVERAGE AUDIT
 type: note
-tags: [note, 07-coverage]
+source: 25_COGNITIVE_MATRIX/07_COVERAGE
+tags: [note, 07-coverage, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -46,3 +52,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/07_COVERAGE/COV
 
 ---
 **MOC:** [[07_COVERAGE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

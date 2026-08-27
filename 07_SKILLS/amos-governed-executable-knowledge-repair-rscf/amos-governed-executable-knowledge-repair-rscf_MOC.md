@@ -1,8 +1,15 @@
 ---
 title: "Amos-Governed-Executable-Knowledge-Repair-Rscf MOC"
 type: moc
-tags: [moc, amos-governed-executable-knowledge-repai]
+source: 07_SKILLS/amos-governed-executable-knowledge-repair-rscf
+tags: [moc, amos-governed-executable-knowledge-repai, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Governed-Executable-Knowledge-Repair-Rscf — Map of Content
 

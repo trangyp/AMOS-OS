@@ -1,5 +1,6 @@
 ---
 type: canon
+source: 01_CANON/03_COGNITION_CANON
 artifact_id: AMOS-FULL-BRAIN-OS-CANON
 name: FULL_BRAIN_OS_CANON
 title: "AMOS Full Brain OS Canon — Unified Cognitive Systems Architecture"
@@ -30,7 +31,6 @@ aliases: "- AMOS Full Brain OS
 related: "see body"---
 
 
-
 # AMOS Full Brain OS Canon
 
 **Origin architect / steward:** Trang Phan
@@ -38,8 +38,13 @@ related: "see body"---
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 0. Purpose
 

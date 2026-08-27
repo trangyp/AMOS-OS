@@ -1,9 +1,14 @@
 ---
 title: FOREX DOMAINS README
 type: note
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/03_FOREX
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # FOREX DOMAINS README

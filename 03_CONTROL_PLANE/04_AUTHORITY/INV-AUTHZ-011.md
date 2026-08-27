@@ -1,9 +1,14 @@
 ---
 title: INV-AUTHZ-011
 type: invariant
-tags: [control_plane, inv-authz-011.md]
+source: 03_CONTROL_PLANE/04_AUTHORITY
+tags: [control_plane, inv-authz-011.md, canon/control-plane]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: authority_governance
 ---
-
 
 
 # INV-AUTHZ-011
@@ -70,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[04_AUTHORITY_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

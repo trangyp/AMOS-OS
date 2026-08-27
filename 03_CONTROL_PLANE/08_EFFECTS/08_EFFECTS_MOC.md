@@ -1,8 +1,15 @@
 ---
 title: "08 Effects MOC"
 type: moc
-tags: [moc, 08-effects]
+source: 03_CONTROL_PLANE/08_EFFECTS
+tags: [moc, 08-effects, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 08 Effects — Map of Content
 

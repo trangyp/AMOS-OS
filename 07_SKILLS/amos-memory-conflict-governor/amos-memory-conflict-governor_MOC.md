@@ -1,8 +1,15 @@
 ---
 title: "Amos-Memory-Conflict-Governor MOC"
 type: moc
-tags: [moc, amos-memory-conflict-governor]
+source: 07_SKILLS/amos-memory-conflict-governor
+tags: [moc, amos-memory-conflict-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Memory-Conflict-Governor — Map of Content
 

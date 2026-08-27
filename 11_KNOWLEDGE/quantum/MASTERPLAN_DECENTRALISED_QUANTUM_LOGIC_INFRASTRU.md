@@ -1,15 +1,18 @@
 ---
 title: MASTERPLAN DECENTRALISED QUANTUM LOGIC INFRASTRU
-tags: [quantum, physics, qfm]
+tags: [quantum, physics, qfm, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/quantum
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: quantum_reasoning
+
 ---
 
 
-
-
-
-# 🌍 Masterplan: Decentralised Quantum Logic Infrastructure for Energy, EROI, and Carbon Scoring
+# Masterplan: Decentralised Quantum Logic Infrastructure for Energy, EROI, and Carbon Scoring
 * * *
 ## 1\. Why Decentralisation Matters
   * **Problem today** : Carbon markets and energy registries are centralised → controlled by governments, consultancies, or NGOs → prone to corruption, double-counting, and political capture.

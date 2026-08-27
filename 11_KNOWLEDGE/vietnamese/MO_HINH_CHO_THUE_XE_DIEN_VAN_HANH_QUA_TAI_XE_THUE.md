@@ -1,12 +1,15 @@
 ---
 title: MO HINH CHO THUE XE DIEN VAN HANH QUA TAI XE THUE
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # Mô hình **cho thuê xe điện vận hành qua tài xế thuê (fleet leasing + vận hành chia sẻ)**
@@ -468,7 +471,7 @@ _(Áp dụng cho xe điện BYD, thuê 15 triệu/tháng, miễn phí sạc)_
 
 
 * * *
-### **🔹**
+### ****
 ### **Tóm tắt lợi ích hai bên**
 |              |
 | **Bên**      | **Lợi ích chính**                                                    |

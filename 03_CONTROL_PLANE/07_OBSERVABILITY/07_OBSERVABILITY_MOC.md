@@ -1,8 +1,15 @@
 ---
 title: "07 Observability MOC"
 type: moc
-tags: [moc, 07-observability]
+source: 03_CONTROL_PLANE/07_OBSERVABILITY
+tags: [moc, 07-observability, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 07 Observability — Map of Content
 

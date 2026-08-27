@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, mckinsey-transformation-org-structure-rscf]
+source: 07_SKILLS/mckinsey-transformation-org-structure-rscf/references
+tags: [reference, mckinsey-transformation-org-structure-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -229,3 +236,7 @@ The **Org Governance Engine** is an end-to-end kernel for diagnosing, designing,
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

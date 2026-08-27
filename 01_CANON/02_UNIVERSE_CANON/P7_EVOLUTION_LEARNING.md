@@ -1,147 +1,15 @@
 ---
 title: P7 EVOLUTION LEARNING
 type: note
-tags: [note, 02-universe-canon]
+source: 01_CANON/02_UNIVERSE_CANON
+tags: [note, 02-universe-canon, canon/universe]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
-
-Below is the **full replacement content** for:
-
-`01_CANON/02_UNIVERSE_CANON/P7_EVOLUTION_LEARNING.md`
-
-I preserve the supplied P7 laws as **source-supplied AMOS model constraints**, while keeping the exact definitions of `K-2`, `L9 Evolution Laws`, the “quantum library” 10-cycle pattern, and the `PV law` explicitly unresolved unless their defining corpus artifacts establish them.
-
-````md
----
-id: AMOS-CANON-U-P7-EVOLUTION-LEARNING
-title: "AMOS OS — P7 Evolution / Learning"
-
-tags:
-  - canon
-  - universe_canon
-  - evolution
-  - learning
-  - adaptation
-  - self_improvement
-  - anti_regression
-  - repair
-  - entropy
-  - cycles
-  - verification
-  - governance
-  - provenance
-  - rscf
-  - hml
-  - note
-
-origin_architect: "Trang Phan"
-artifact_type: "universe_canon_plane"
-
-class: "CANON_MODEL"
-epistemic_class: "AMOS_MODEL"
-conclusion_class: "DERIVED"
-
-canonical_status: "CONDITIONAL"
-specification_status: "PROPOSED_SPECIFICATION"
-validation_status: "ARCHITECTURE_DEFINED"
-implementation_status: "PARTIAL_OR_UNKNOWN"
-self_modification_status: "BOUNDED"
-kernel_self_modification: "EXCLUDED"
-empirical_status: "NOT_ESTABLISHED_BY_THIS_ARTIFACT"
-gap_status: "OPEN"
-
-updated: "2026-08-26"
-
-path: "01_CANON/02_UNIVERSE_CANON/P7_EVOLUTION_LEARNING.md"
-
-parent:
-  - "01_CANON"
-  - "01_CANON/02_UNIVERSE_CANON"
-
-upstream:
-  - "P1_REALITY_ENVIRONMENT.md"
-  - "P2_SENSE_EVIDENCE.md"
-  - "P3_KNOWLEDGE_MEMORY.md"
-  - "P4_COGNITION_MODELS.md"
-  - "P5_GOVERNANCE_AUTHORITY.md"
-  - "P6_EXECUTION_AGENCY.md"
-
-related:
-  - "00_ROOT/00_ROOT_MOC.md"
-  - "00_ROOT/00_ROOT_REGISTRY.md"
-  - "00_ROOT/00_ROOT_VERSIONING.md"
-  - "00_ROOT/00_ROOT_STATUS.md"
-  - "00_ROOT/00_ROOT_PROVENANCE.md"
-  - "00_ROOT/00_ROOT_LIFECYCLE.md"
-  - "02_KERNEL"
-  - "07_PROVENANCE"
-  - "08_GOVERNANCE"
-  - "09_DEPENDENCY_GRAPH"
-  - "10_CONTROL_PLANE"
-  - "11_VALIDATION"
-  - "12_GENERATORS"
-  - "13_AGENTS"
-  - "14_WORKFLOWS"
-  - "15_PROTOCOLS"
-  - "18_OBSERVABILITY"
-  - "19_DEPLOYMENT"
-  - "AMOS_7_PART_UNIVERSE_CANON"
-  - "HML_CANON"
-  - "AMOS_RSCF_NODES"
-
-declared_source_refs:
-  - "K-2"
-  - "L9 Evolution Laws"
-  - "quantum library pattern"
-  - "PV law"
-
-scope:
-  - evolution
-  - learning
-  - bounded_self_improvement
-  - adaptation
-  - learning_cycles
-  - refinement
-  - repair
-  - entropy
-  - anti_regression
-  - mutation
-  - promotion
-  - rollback
-  - validation
-  - invariants
-  - provenance
-  - versioning
-  - lineage
-  - experimentation
-  - selection
-  - retention
-  - retirement
-  - revalidation
-  - regime_change
-  - drift
-  - lifecycle
-  - controlled_optimization
-  - governed_evolution
-
-hard_rule: "EVOLUTION MAY IMPROVE IMPLEMENTATION; IT MUST NOT SILENTLY WEAKEN INTEGRITY"
-
-RSCF-NODE:
-  node_id: p7_evolution_learning
-  node_type: note
-  claim_class: AMOS_MODEL
-
-RSCF-RELATIONS:
-  - "INDEXED_BY: [[00_HOME]]"
-  - "INDEXED_BY: AMOS_RSCF_NODES"
-  - "CHILD_OF: AMOS_7_PART_UNIVERSE_CANON"
-  - "DEPENDS_ON: P1_REALITY_ENVIRONMENT"
-  - "DEPENDS_ON: P2_SENSE_EVIDENCE"
-  - "DEPENDS_ON: P3_KNOWLEDGE_MEMORY"
-  - "DEPENDS_ON: P4_COGNITION_MODELS"
-  - "DEPENDS_ON: P5_GOVERNANCE_AUTHORITY"
-  - "DEPENDS_ON: P6_EXECUTION_AGENCY"
----
 
 # P7 Evolution / Learning
 
@@ -4862,3 +4730,4 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[02_UNIVERSE_CANON_MOC]]
+```

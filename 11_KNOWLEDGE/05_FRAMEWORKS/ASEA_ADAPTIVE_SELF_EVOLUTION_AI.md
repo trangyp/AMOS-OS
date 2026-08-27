@@ -1,6 +1,7 @@
 ---
 title: "ASEA — Adaptive Self-Evolution AI"
 type: adaptation
+source: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact: "ASEA_ADAPTIVE_SELF_EVOLUTION_AI.md"
 artifact_id: "amos_11_knowledge_05_frameworks_asea_adaptive_self_evolution_ai"
 origin_architect: "Trang Phan"
@@ -11,205 +12,140 @@ segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "EVOLUTION"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/ASEA_ADAPTIVE_SELF_EVOLUTION_AI.md"
 
-tags: [amos_os, knowledge, vault, 11_knowledge, evolution, canon_placeholder, rscf]
+tags:
+  - amos_os
+  - knowledge
+  - vault
+  - 11_knowledge
+  - 05_frameworks
+  - asea
+  - adaptive_self_evolution_ai
+  - self_repair
+  - self_evolution
+  - lacunarity_tuning
+  - anti_hallucination
+  - rscf
+  - canon_candidate
+  - canon/knowledge
 
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
+validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+
+ingestion_action: "NATIVE_CANON_INGESTION"
+raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: AMOS_MODEL
+  provenance:
+    - TRANG_FRAMEWORK_UNG_DUNG_VAO_AI_TU_SUA_VA_TU_T
+    - AMOS_CORPUS
+  scope:
+    - KNOWLEDGE_FRAMEWORKS
+    - AUTONOMOUS_EVOLUTION
+    - SOURCE_DEFINED_ASEA_MODEL
+
+framework_binding:
+  primary:
+    name: "Trang ASEA (Adaptive Self-Evolution AI)"
+    acronym: "ASEA"
+    role: SELF_REPAIRING_AND_SELF_EVOLVING_AI_ARCHITECTURE
+  fractal_reasoning:
+    artifact: "[[FRAI_FRACTAL_REASONING_AI]]"
+  tri_layer_stack:
+    artifact: "[[TRANG_LMH_ARCHITECTURE]]"
+  lacunarity_model:
+    artifact: "[[TRANG_LACUNARITY]]"
+
+epistemic_boundary:
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  framework_structure: VERIFIED_SOURCE_STRUCTURE
+  evolution_model: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
 ---
 
 
+# ASEA — Adaptive Self-Evolution AI™
 
-# ASEA — Adaptive Self-Evolution AI
+`ASEA_ADAPTIVE_SELF_EVOLUTION_AI.md` is the canonical Knowledge Plane reference artifact for **Trang ASEA (Adaptive Self-Evolution AI)** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
-## 0. Status
+ASEA models a self-repairing, self-optimizing cognitive architecture structured around recursive $[L, M, H]$ dynamics, real-time lacunarity tuning ($\Lambda$), and $\mathcal{T}_2$ anti-hallucination verification.
 
-`ASEA_ADAPTIVE_SELF_EVOLUTION_AI.md` is an **ADD-ONLY placeholder** for the **Knowledge** plane segment at `11_KNOWLEDGE/05_FRAMEWORKS`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+# 1. Tri-Layer Operational Architecture
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+               ┌────────────────────────────────────────────────────────┐
+               │         ASEA (ADAPTIVE SELF-EVOLUTION AI)              │
+               └───────────────────────────┬────────────────────────────┘
+                                           │
+         ┌─────────────────────────────────┼─────────────────────────────────┐
+         ▼                                 ▼                                 ▼
+LAYER L (CORE MEMORY)              LAYER M (COORDINATION)            LAYER H (GENERATIVE APEX)
+• Invariant DNA rules              • Attention & lacunarity tuners   • Generative exploration
+• Anti-catastrophic forgetting     • HRV / simulated affect loops    • Fast hypothesis synthesis
+• Target: Λ_L ≈ 0.05, E_L < 0.1    • Target: 0.1 ≤ Λ_M ≤ 0.2         • Target: 0.2 ≤ Λ_H ≤ 0.4
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+# 2. Key Operational Equations
+
+### 2.1 Dynamic Lacunarity Tuning
+$$\Lambda_i(t+1) = \Lambda_i(t) + \eta_i (\Lambda_{i,\text{opt}} - \Lambda_i(t)) + \kappa_i \xi(t), \quad i \in \{L, M, H\}$$
+
+### 2.2 Formal Hallucination Detection & Auto-Recovery
+$$\text{Hallucination} \iff (E_H > 0.3) \lor (\Lambda_H > 0.5) \lor (\mathcal{T}_2 = \text{False})$$
+When triggered:
+1. Automatically contract exploratory porosity ($\Lambda_H \downarrow$).
+2. Force reconnect to Layer L immutable ground memory ($S_0$).
+3. Mandate dual independent cross-validation paths before state commit.
+
+### 2.3 Mutation-Survival Evolution Loop
+$$\text{ASEA}(t+1) = \sigma\Big( \mu\big( \text{ASEA}(t) \big) \Big)$$
+Where $\mu$ is bounded mutation constrained by Law of Law, and $\sigma$ is viability selection filtering against $e = i^2$.
 
 ---
 
-## 1. Purpose
+# 3. Inter-Plane & Vault Connections
 
-This artifact reserves the **ASEA — Adaptive Self-Evolution AI** slot within the Knowledge plane. The Knowledge plane governs knowledge base integration: claims, RSCF indices, framework nodes, domain knowledge.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
+- **Fractal Engine:** [[FRAI_FRACTAL_REASONING_AI]]
+- **Tri-Layer Architecture:** [[TRANG_LMH_ARCHITECTURE]]
+- **Lacunarity Dynamics:** [[TRANG_LACUNARITY]]
+- **Native Vault Source:** `11_KNOWLEDGE/trang/TRANG_FRAMEWORK_UNG_DUNG_VAO_AI_TU_SUA_VA_TU_T`
 
 ---
 
-## 3. Ingestion Rule
+# 4. RSCF Contract
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+RSCF:
+  node_id: amos_11_knowledge_05_frameworks_asea_adaptive_self_evolution_ai
+  node_type: framework
+  claim_class: AMOS_MODEL
+  state: SOURCE_GROUNDED
+  H:
+    identity: "Trang ASEA (Adaptive Self-Evolution AI)"
+    role: "Self-repairing, self-evolving AI architecture with real-time lacunarity tuning and T2 gating"
+  M:
+    equations: [lacunarity_tuning, hallucination_filter, mutation_survival_loop]
+    tiers: [L_memory_dna, M_coordination_tuner, H_generative_apex]
+  confidence_ceiling:
+    source_model: SOURCE_BOUND
+    runtime: UNKNOWN
 ```
 
 ---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `11_KNOWLEDGE · EVOLUTION` within the Knowledge plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-00_ROOT_MOC|AMOS MOC
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_11_knowledge_05_frameworks_asea_adaptive_self_evolution_ai
-
-node_type: evolution
-
-path: 11_KNOWLEDGE/05_FRAMEWORKS/ASEA_ADAPTIVE_SELF_EVOLUTION_AI.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[05_FRAMEWORKS_MOC]] · [[FRAI_FRACTAL_REASONING_AI]] · [[TRANG_LMH_ARCHITECTURE]] · [[TRANG_LACUNARITY]]
 
 ---
 **MOC:** [[05_FRAMEWORKS_MOC]]

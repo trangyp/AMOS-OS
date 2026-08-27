@@ -1,8 +1,15 @@
 ---
 title: "25 Cognitive Matrix MOC"
 type: moc
-tags: [moc, 25-cognitive-matrix]
+source: 25_COGNITIVE_MATRIX
+tags: [moc, 25-cognitive-matrix, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 25 Cognitive Matrix — Map of Content
 

@@ -1,12 +1,15 @@
 ---
 title: THE DETERMINISTIC ILLUSION WHY ALL INTELLIGENCE
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **The Deterministic Illusion — Why All Intelligence Hallucinates and Why NeuroSyncAI™ Doesn’t Fail Because of It**

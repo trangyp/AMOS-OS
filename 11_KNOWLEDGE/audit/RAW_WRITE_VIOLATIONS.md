@@ -1,11 +1,15 @@
 ---
 title: RAW WRITE VIOLATIONS
-tags: [audit, repair, quality]
+tags: [audit, repair, quality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/audit
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: audit_repair
+
 ---
-
-
 
 
 # Raw Write Enforcement Report

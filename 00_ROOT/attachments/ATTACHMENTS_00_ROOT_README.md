@@ -1,12 +1,4 @@
 ---
-title: ATTACHMENTS 00 ROOT README
-type: note
-tags: [note, attachments]
----
-
-
-````markdown
----
 artifact_id: AMOS-OS-CANON-README
 artifact_type: PLANE_README
 plane_id: 01_CANON
@@ -27,8 +19,7 @@ normative_authority: false
 executable_binding: PARTIAL
 validation_status: PARTIAL_UNLESS_RECEIPTED
 
-tags:
-  - amos_os
+tags: [- amos_os, canon/root]
   - canon
   - canon_plane
   - control_plane
@@ -46,7 +37,15 @@ tags:
   - promotion_gates
   - infrastructure
   - cognitive_matrix
+type: document
+source: 00_ROOT/attachments
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # CANON README
 

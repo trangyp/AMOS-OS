@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L02 ATTENTION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, primitives, l02_attention, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
+tags: [cognitive_matrix, primitives, l02_attention, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L02_ATTENTION — Attention allocation Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L02_ATTENTION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

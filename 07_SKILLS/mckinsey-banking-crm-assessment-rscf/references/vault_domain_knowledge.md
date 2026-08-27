@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, mckinsey-banking-crm-assessment-rscf]
+source: 07_SKILLS/mckinsey-banking-crm-assessment-rscf/references
+tags: [reference, mckinsey-banking-crm-assessment-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -279,3 +286,7 @@ Cooperation enhanceme
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,6 +1,7 @@
 ---
 title: K MEMORY IMMUNE
 type: memory
+source: 02_KERNEL/05_MEMORY
 artifact_id: AMOS-OS-K-MEMORY-IMMUNE
 canonical_name: K_MEMORY_IMMUNE
 artifact_type: kernel_memory_immune_contract
@@ -14,10 +15,13 @@ kernel_family: MEMORY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags: [amos-os, kernel, core, canon-group/tech-ai, kernel/memory, kernel/memory-immune, kernel/integrity, kernel/provenance, kernel/conflict, kernel/admission, kernel/recovery, kernel/security, rscf/memory, rscf/provenance, rscf/invalidation, topic/memory-integrity, topic/immune-system, topic/contamination, topic/quarantine, topic/poisoning, topic/sybil-hardening, topic/revalidation]
+tags: [amos-os, kernel, core, canon-group/tech-ai, kernel/memory, kernel/memory-immune, kernel/integrity, kernel/provenance, kernel/conflict, kernel/admission, kernel/recovery, kernel/security, rscf/memory, rscf/provenance, rscf/invalidation, topic/memory-integrity, topic/immune-system, topic/contamination, topic/quarantine, topic/poisoning, topic/sybil-hardening, topic/revalidation, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
-
 
 
 # K MEMORY IMMUNE

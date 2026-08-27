@@ -1,8 +1,15 @@
 ---
 title: 11k quantum library
 type: reference
-tags: [reference, amos-c03-physics-cosmos-master]
+source: 07_SKILLS/amos-c03-physics-cosmos-master/references
+tags: [reference, amos-c03-physics-cosmos-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # 11K Quantum Library v0.1.0
 
@@ -75,3 +82,7 @@ formal_expression: |ψ⟩ ∈ ℋ, ⟨ψ|ψ⟩ = 1 (pur
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

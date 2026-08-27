@@ -1,8 +1,15 @@
 ---
 title: "15 C05 Mind Behavior MOC"
 type: moc
-tags: [moc, 15-c05-mind-behavior]
+source: 21_DOMAINS/15_C05_MIND_BEHAVIOR
+tags: [moc, 15-c05-mind-behavior, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 15 C05 Mind Behavior — Map of Content
 

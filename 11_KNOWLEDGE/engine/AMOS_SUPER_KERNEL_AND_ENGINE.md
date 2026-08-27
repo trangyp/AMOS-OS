@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Dsc/"
 origin_architect: "Trang Phan"
 type: reference
-tags: [amos, super-kernel, super-engine, unified-meta-OS, 7-fused-kernels, deterministic, ULK, QCLA, UCP, 18-operators, 18-tensors, 5-modes, engine]
+source: 11_KNOWLEDGE/engine
+tags: [amos, super-kernel, super-engine, unified-meta-OS, 7-fused-kernels, deterministic, ULK, QCLA, UCP, 18-operators, 18-tensors, 5-modes, engine, canon/knowledge]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
 
 

@@ -1,8 +1,15 @@
 ---
 title: "03 Coding MOC"
 type: moc
-tags: [moc, 03-coding]
+source: 03_CONTROL_PLANE/09_COMMIT/03_CODING
+tags: [moc, 03-coding, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 03 Coding — Map of Content
 

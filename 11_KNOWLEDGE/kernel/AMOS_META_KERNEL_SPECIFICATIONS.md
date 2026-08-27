@@ -3,9 +3,13 @@ title: AMOS META KERNEL SPECIFICATIONS
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-meta-kernel-specifications, kernel]
 type: document
 source: 11_KNOWLEDGE/kernel
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
 
 
 # AMOS Meta-Kernel Specifications

@@ -1,6 +1,7 @@
 ---
 title: K SYSTEM STATE
 type: state
+source: 02_KERNEL/04_STATE
 artifact_id: AMOS-OS-K-SYSTEM-STATE
 canonical_name: K_SYSTEM_STATE
 artifact_type: kernel_system_state_contract
@@ -20,8 +21,6 @@ aliases: "- AMOS System State Kernel
   - System State Kernel
   - K System State
   - K_SYSTEM_STATE..."---
-
-
 
 
 # K SYSTEM STATE
@@ -70,8 +69,14 @@ VERSION != EPOCH
 PERSISTED != FINAL
 REPLICATED != AUTHORITATIVE
 ```
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
+# K SYSTEM STATE
 
 ## 1. System State Principle
 

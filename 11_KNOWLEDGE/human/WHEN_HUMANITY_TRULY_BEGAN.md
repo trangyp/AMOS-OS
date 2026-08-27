@@ -1,12 +1,15 @@
 ---
 title: WHEN HUMANITY TRULY BEGAN
-tags: [human, alignment, interaction]
+tags: [human, alignment, interaction, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/human
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: human_alignment
+
 ---
-
-
-
 
 
 # **When Humanity Truly Began**

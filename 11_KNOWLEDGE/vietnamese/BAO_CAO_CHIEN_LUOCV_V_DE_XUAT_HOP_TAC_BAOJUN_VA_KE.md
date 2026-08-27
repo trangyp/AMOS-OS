@@ -1,12 +1,15 @@
 ---
 title: BAO CAO CHIEN LUOCV V DE XUAT HOP TAC BAOJUN VA KE
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # **BÁO CÁO CHIẾN LƯỢCV/v: Đề xuất hợp tác Baojun và kế hoạch triển khai hệ sinh thái EV Unipower giai đoạn 2025–2030**

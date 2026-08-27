@@ -1,6 +1,7 @@
 ---
 title: K CAUSAL CLOSURE
 type: note
+source: 02_KERNEL/03_CAUSAL
 artifact_id: AMOS-OS-K-CAUSAL-CLOSURE
 canonical_name: K_CAUSAL_CLOSURE
 artifact_type: kernel_causal_closure_contract
@@ -25,8 +26,6 @@ aliases: "- AMOS Causal Closure Kernel
   - Causal Closure Kernel
   - K Causal Closure
   - K_CAUSAL_CLOSURE..."---
-
-
 
 
 # K CAUSAL CLOSURE
@@ -78,8 +77,13 @@ The target is:
 ```text
 SMALLEST SUFFICIENT CAUSAL CLOSURE
 ```
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 1. Core Law
 

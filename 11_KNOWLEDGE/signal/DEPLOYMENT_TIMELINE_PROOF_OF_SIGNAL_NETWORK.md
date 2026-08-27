@@ -1,12 +1,15 @@
 ---
 title: DEPLOYMENT TIMELINE PROOF OF SIGNAL NETWORK
-tags: [signal, processing, detection]
+tags: [signal, processing, detection, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/signal
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
 
 
 # **Deployment Timeline — Proof-of-Signal Network**

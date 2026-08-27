@@ -1,12 +1,15 @@
 ---
 title: REPORT VI SAO VIET NAM LA MOT TRONG NHUNG MOI TRUO
-tags: [reports, report, analysis]
+tags: [reports, report, analysis, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/reports
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: audit_report
+
 ---
-
-
-
 
 
 # **Report: Vì sao Việt Nam là một trong những môi trường xây dựng công nghệ đắt đỏ và rủi ro nhất thế giới – và các chuẩn mực quốc tế cho thấy điều gì**

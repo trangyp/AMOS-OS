@@ -1,6 +1,7 @@
 ---
 title: K BINDING
 type: note
+source: 02_KERNEL/09_INTEGRATION
 artifact_id: AMOS-OS-K-BINDING
 canonical_name: K_BINDING
 artifact_type: kernel_binding_contract
@@ -12,8 +13,12 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
-tags: [kernel, integration, note]
-
+tags: [kernel, integration, note, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 

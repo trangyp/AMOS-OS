@@ -1,8 +1,15 @@
 ---
 title: "Amos-Process-Compliance-Auditor-Rscf MOC"
 type: moc
-tags: [moc, amos-process-compliance-auditor-rscf]
+source: 07_SKILLS/amos-process-compliance-auditor-rscf
+tags: [moc, amos-process-compliance-auditor-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Process-Compliance-Auditor-Rscf — Map of Content
 

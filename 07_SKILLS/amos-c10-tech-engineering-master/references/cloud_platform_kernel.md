@@ -1,8 +1,15 @@
 ---
 title: cloud platform kernel
 type: reference
-tags: [reference, amos-c10-tech-engineering-master]
+source: 07_SKILLS/amos-c10-tech-engineering-master/references
+tags: [reference, amos-c10-tech-engineering-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Cloud Platform Kernel v0 Tech
 

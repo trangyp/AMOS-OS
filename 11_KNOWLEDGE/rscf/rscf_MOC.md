@@ -1,8 +1,15 @@
 ---
 title: "Rscf MOC"
 type: moc
-tags: [moc, rscf]
+source: 11_KNOWLEDGE/rscf
+tags: [moc, rscf, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: epistemic_framework
 ---
+
 
 # Rscf — Map of Content
 

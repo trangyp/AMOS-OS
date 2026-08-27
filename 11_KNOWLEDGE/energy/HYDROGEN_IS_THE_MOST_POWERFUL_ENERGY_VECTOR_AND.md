@@ -1,12 +1,15 @@
 ---
 title: HYDROGEN IS THE MOST POWERFUL ENERGY VECTOR AND
-tags: [energy, power, green]
+tags: [energy, power, green, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/energy
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: energy_system
+
 ---
-
-
-
 
 
 # **Hydrogen Is the Most Powerful Energy Vector — and the Safest One**

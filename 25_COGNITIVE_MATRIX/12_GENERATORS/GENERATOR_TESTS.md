@@ -1,8 +1,15 @@
 ---
 title: "12_GENERATORS — Generator Tests"
 type: test
-tags: [note, 12-generators]
+source: 25_COGNITIVE_MATRIX/12_GENERATORS
+tags: [note, 12-generators, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 12_GENERATORS — Generator Tests
 
@@ -4197,7 +4204,7 @@ TEST
 
 ```
 
-**Conclusion class:** `DERIVED / CONDITIONAL`. The test architecture is now defined from AMOS Full Brain OS and v4.4 principles, while exact test registries, validators, implementations, thresholds, and execution infrastructure remain explicit `UNKNOWN/GAP` rather than being fabricated. :contentReference[oaicite:3]{index=3}
+**Conclusion class:** `DERIVED / CONDITIONAL`. The test architecture is now defined from AMOS Full Brain OS and v4.4 principles, while exact test registries, validators, implementations, thresholds, and execution infrastructure remain explicit `UNKNOWN/GAP` rather than being fabricated.
 ```
 
 ---

@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Streaming-Attention-Sinks-Rscf MOC"
 type: moc
-tags: [moc, arxiv-streaming-attention-sinks-rscf]
+source: 07_SKILLS/arxiv-streaming-attention-sinks-rscf
+tags: [moc, arxiv-streaming-attention-sinks-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Streaming-Attention-Sinks-Rscf — Map of Content
 

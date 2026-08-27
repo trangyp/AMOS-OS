@@ -1,12 +1,18 @@
 ---
 type: agent
-tags: [amos, cognitive-matrix, l03, percept-formation, agents, perception, rscf, hml, governance]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
+tags: [amos, cognitive-matrix, l03, percept-formation, agents, perception, rscf, hml, governance, canon/cognitive-matrix]
 
 title: "L03_PERCEPT_FORMATION — Agents"
 origin_architect: "Trang Phan"
 status: "MODEL_AGENT_CONTRACT / UNIMPLEMENTED / UNVALIDATED"
 epistemic_class: "MODEL"
 runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -30,17 +36,7 @@ L03 agents are responsible for converting admitted and attended observations int
 
 Conceptually:
 
-\[
-ObservationSet
-\rightarrow
-FeatureBinding
-\rightarrow
-CandidatePercepts
-\rightarrow
-ConsistencyChecks
-\rightarrow
-PerceptState
-\]
+$$ObservationSet \rightarrow FeatureBinding \rightarrow CandidatePercepts \rightarrow ConsistencyChecks \rightarrow PerceptState$$
 
 subject to:
 
@@ -2042,7 +2038,7 @@ AUTHORITY TO COMMIT
 
 ```text
 
-The AMOS multimodal-perception layer used as the supporting architecture requires H/M/L, typed invariants/tensors, RSCF, falsifiers, and repair, while explicitly keeping source-defined constructs separate from external empirical validation. :contentReference[oaicite:0]{index=0}
+The AMOS multimodal-perception layer used as the supporting architecture requires H/M/L, typed invariants/tensors, RSCF, falsifiers, and repair, while explicitly keeping source-defined constructs separate from external empirical validation.
 ```
 
 ---

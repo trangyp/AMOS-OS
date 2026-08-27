@@ -1,26 +1,15 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX RSCF
 type: cognitive
-tags: [cognitive_matrix, primitives, l01_sensing_observation, note]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
+tags: [cognitive_matrix, primitives, l01_sensing_observation, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-
-
-Below is the full paste-ready content for `L01_SENSING_OBSERVATION/RSCF.md`. I’m keeping the L01-specific portions explicitly `MODEL`/gap-bounded where direct L01 canon has not been independently established, while the RSCF rules themselves follow the AMOS RSCF contract.
-
----
-tags:
-  - amos
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - rscf
-  - provenance
-  - evidence
-  - hml
-  - epistemic-governance
-  - control-plane
----
 
 # L01_SENSING_OBSERVATION — RSCF
 

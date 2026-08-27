@@ -1,8 +1,15 @@
 ---
 title: "C04 Reasoning MOC"
 type: moc
-tags: [moc, c04-reasoning]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C04_REASONING
+tags: [moc, c04-reasoning, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # C04 Reasoning — Map of Content
 

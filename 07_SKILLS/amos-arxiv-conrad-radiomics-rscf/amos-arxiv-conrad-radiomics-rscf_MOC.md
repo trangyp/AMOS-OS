@@ -1,8 +1,15 @@
 ---
 title: "Amos-Arxiv-Conrad-Radiomics-Rscf MOC"
 type: moc
-tags: [moc, amos-arxiv-conrad-radiomics-rscf]
+source: 07_SKILLS/amos-arxiv-conrad-radiomics-rscf
+tags: [moc, amos-arxiv-conrad-radiomics-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Arxiv-Conrad-Radiomics-Rscf — Map of Content
 

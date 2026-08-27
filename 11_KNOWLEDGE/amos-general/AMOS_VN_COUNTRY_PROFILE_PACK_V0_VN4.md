@@ -1,14 +1,19 @@
 ---
 title: AMOS VN COUNTRY PROFILE PACK V0 VN4
 type: note
+source: 11_KNOWLEDGE/amos-general
 canon-group: human-system
 canon-type: os-module
 rscf-state: source-claim
 topic: amos-vn-country-profile-pack-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-vn-country-profile-pack-v0, amos-general]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
-
 
 
 # AMOS Vn Country Profile Pack v0 Vn4
@@ -38,3 +43,6 @@ The original auto-fix process could not parse this file. The `autofixed_raw` fie
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,12 +1,17 @@
 ---
 title: WEB SOCKETS XS WS HIJACKING
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
-
-
+# WEB SOCKETS XS WS HIJACKING
 
 ## XS WS Hijacking
 What is it?

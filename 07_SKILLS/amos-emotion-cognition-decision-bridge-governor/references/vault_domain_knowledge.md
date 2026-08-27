@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-emotion-cognition-decision-bridge-governor]
+source: 07_SKILLS/amos-emotion-cognition-decision-bridge-governor/references
+tags: [reference, amos-emotion-cognition-decision-bridge-governor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault Domain Knowledge — Emotion-Cognition-Decision Bridge Governor
 
@@ -188,3 +195,7 @@ L4 (Emotion, Motivation & Behavior) is the primary bridge point between C05 emot
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

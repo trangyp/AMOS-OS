@@ -1,9 +1,14 @@
 ---
 title: P3 KNOWLEDGE MEMORY
 type: memory
-tags: [canon, universe_canon, note]
+source: 01_CANON/02_UNIVERSE_CANON
+tags: [canon, universe_canon, note, canon/universe]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
-
 
 
 # P3 — Knowledge & Memory Plane
@@ -47,3 +52,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[02_UNIVERSE_CANON_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

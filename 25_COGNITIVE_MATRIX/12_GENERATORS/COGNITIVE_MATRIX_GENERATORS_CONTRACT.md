@@ -1,12 +1,4 @@
 ---
-title: COGNITIVE MATRIX GENERATORS CONTRACT
-type: note
-tags: [note, 12-generators]
----
-
-
-````markdown
----
 artifact_id: AMOS-CM-11-VALIDATION-CONTRACT
 title: "Cognitive Matrix Validation Contract"
 path_target: "25_COGNITIVE_MATRIX/11_VALIDATION/COGNITIVE_MATRIX_VALIDATION_CONTRACT.md"
@@ -21,8 +13,7 @@ conclusion_class: CONDITIONAL
 canonical_status: CONDITIONAL
 implementation_status: PARTIAL
 rscf_state: derived
-tags:
-  - cognitive_matrix
+tags: [- cognitive_matrix, canon/cognitive-matrix]
   - validation
   - validation_contract
   - contract
@@ -35,7 +26,15 @@ tags:
   - regime_firewall
   - promotion
   - receipts
+type: document
+source: 25_COGNITIVE_MATRIX/12_GENERATORS
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # COGNITIVE MATRIX VALIDATION CONTRACT
 
@@ -94,11 +93,7 @@ The contract exists to prevent:
 
 The primary rule is:
 
-$$
-\boxed{
-Integrity > Completeness > Fluency > Speed
-}
-$$
+$$\boxed{ Integrity > Completeness > Fluency > Speed }$$
 
 Optimization, compression, caching, routing, local finalization, generation, and coordination avoidance MUST NOT weaken validation integrity.
 
@@ -145,34 +140,22 @@ and the conflict MUST remain visible until resolved through the applicable super
 
 # 3. Validation Objective
 
-For a candidate claim \(C\), validation determines whether sufficient evidence exists to license \(C\) within a declared applicability envelope.
+For a candidate claim $C$, validation determines whether sufficient evidence exists to license $C$ within a declared applicability envelope.
 
 Conceptually:
 
-$$
-V(C)=
-f(
-E,
-P,
-S,
-R,
-T,
-D,
-A,
-F
-)
-$$
+$$V(C)= f( E, P, S, R, T, D, A, F )$$
 
 where:
 
-* \(E\) = evidence;
-* \(P\) = provenance;
-* \(S\) = scope;
-* \(R\) = regime;
-* \(T\) = temporal validity/freshness;
-* \(D\) = dependency closure;
-* \(A\) = authority where consequential action is involved;
-* \(F\) = falsifier state.
+* $E$ = evidence;
+* $P$ = provenance;
+* $S$ = scope;
+* $R$ = regime;
+* $T$ = temporal validity/freshness;
+* $D$ = dependency closure;
+* $A$ = authority where consequential action is involved;
+* $F$ = falsifier state.
 
 Validation MUST NOT answer only:
 
@@ -186,29 +169,21 @@ It MUST answer the narrower and more useful question:
 
 # 4. Core Validation Law
 
-For any conclusion \(C\) supported by load-bearing premises:
+For any conclusion $C$ supported by load-bearing premises:
 
-$$
-P_1,P_2,\ldots,P_n
-$$
+$$P_1,P_2,\ldots,P_n$$
 
 the conclusion MUST NOT exceed the weakest unresolved load-bearing premise.
 
 Conceptually:
 
-$$
-Confidence(C)
-\leq
-\min_i Confidence(P_i)
-$$
+$$Confidence(C) \leq \min_i Confidence(P_i)$$
 
 subject to the system confidence ceiling.
 
 For this contract:
 
-$$
-Confidence(C) \leq 0.95
-$$
+$$Confidence(C) \leq 0.95$$
 
 unless a stronger canonical rule explicitly changes the ceiling.
 
@@ -263,11 +238,7 @@ Required evidence, dependency, authority, provenance, scope information, tempora
 
 Core invariant:
 
-$$
-\boxed{
-UNKNOWN/GAP \neq PASS
-}
-$$
+$$\boxed{ UNKNOWN/GAP \neq PASS }$$
 
 ---
 
@@ -331,13 +302,9 @@ Validation evidence applies to the version actually tested.
 
 Therefore:
 
-$$
-Validated(A,v_1)
-\not\Rightarrow
-Validated(A,v_2)
-$$
+$$Validated(A,v_1) \not\Rightarrow Validated(A,v_2)$$
 
-unless the differences between \(v_1\) and \(v_2\) are demonstrated to be irrelevant to the validated properties.
+unless the differences between $v_1$ and $v_2$ are demonstrated to be irrelevant to the validated properties.
 
 ---
 
@@ -354,15 +321,7 @@ provenance_epoch
 
 Therefore:
 
-$$
-state\_version
-\neq
-causal\_epoch
-\neq
-policy\_epoch
-\neq
-provenance\_epoch
-$$
+$$state\_version \neq causal\_epoch \neq policy\_epoch \neq provenance\_epoch$$
 
 by default.
 
@@ -493,17 +452,11 @@ does not produce four independent confirmations.
 
 Conceptually:
 
-$$
-IndependentEvidenceGain
-=
-f(independent\ ancestry)
-$$
+$$IndependentEvidenceGain = f(independent\ ancestry)$$
 
 not:
 
-$$
-f(number\ of\ documents)
-$$
+$$f(number\ of\ documents)$$
 
 ---
 
@@ -548,11 +501,7 @@ A conclusion valid inside one scope MUST NOT silently escape it.
 
 Thus:
 
-$$
-Valid(C,S_1)
-\not\Rightarrow
-Valid(C,S_2)
-$$
+$$Valid(C,S_1) \not\Rightarrow Valid(C,S_2)$$
 
 without a bridge that licenses the transfer.
 
@@ -582,21 +531,15 @@ A regime shift invalidates conclusions whose load-bearing validity conditions de
 
 Evidence MUST be freshness-bounded where time materially affects validity.
 
-For evidence \(E\):
+For evidence $E$:
 
-$$
-Valid(E,t)
-$$
+$$Valid(E,t)$$
 
 is not automatically persistent.
 
-Where the claim defines a freshness horizon \(\tau_c\):
+Where the claim defines a freshness horizon $\tau_c$:
 
-$$
-age(E) > \tau_c
-\Rightarrow
-freshness\ failure
-$$
+$$age(E) > \tau_c \Rightarrow freshness\ failure$$
 
 unless explicitly revalidated.
 
@@ -612,11 +555,7 @@ It does not automatically prove current state.
 
 Therefore:
 
-$$
-Observed(X,t_0)
-\not\Rightarrow
-Current(X,t_1)
-$$
+$$Observed(X,t_0) \not\Rightarrow Current(X,t_1)$$
 
 when the freshness condition is unresolved.
 
@@ -626,13 +565,9 @@ when the freshness condition is unresolved.
 
 Validation MUST traverse the smallest sufficient dependency closure capable of changing the conclusion.
 
-For claim \(C\):
+For claim $C$:
 
-$$
-Closure(C)
-=
-\{P_i \mid P_i \text{ can materially affect } C\}
-$$
+$$Closure(C) = \{P_i \mid P_i \text{ can materially affect } C\}$$
 
 Validation SHOULD avoid irrelevant global traversal.
 
@@ -663,19 +598,7 @@ Coordination MAY be avoided only when local finality is proven safe.
 
 Conceptually:
 
-$$
-LocalFinalityAllowed
-\iff
-ClosureKnown
-\land
-NoRelevantConflict
-\land
-ScopeCompatible
-\land
-EpochCompatible
-\land
-IndependenceDemonstrated
-$$
+$$LocalFinalityAllowed \iff ClosureKnown \land NoRelevantConflict \land ScopeCompatible \land EpochCompatible \land IndependenceDemonstrated$$
 
 Assumed independence is insufficient.
 
@@ -687,11 +610,7 @@ A local validation decision is final only for the proven dependency and applicab
 
 Local finality MUST NOT silently become global finality.
 
-$$
-LocalFinality(S)
-\not\Rightarrow
-GlobalFinality
-$$
+$$LocalFinality(S) \not\Rightarrow GlobalFinality$$
 
 ---
 
@@ -750,19 +669,11 @@ correlation
 
 Thus:
 
-$$
-Correlation(X,Y)
-\not\Rightarrow
-X\ causes\ Y
-$$
+$$Correlation(X,Y) \not\Rightarrow X\ causes\ Y$$
 
 and:
 
-$$
-X\ precedes\ Y
-\not\Rightarrow
-X\ causes\ Y
-$$
+$$X\ precedes\ Y \not\Rightarrow X\ causes\ Y$$
 
 ---
 
@@ -782,9 +693,7 @@ Validation MUST preserve materially supported competing hypotheses when availabl
 
 Given:
 
-$$
-H_1,H_2,\ldots,H_n
-$$
+$$H_1,H_2,\ldots,H_n$$
 
 if support remains incomparable or insufficient:
 
@@ -928,11 +837,7 @@ malformed
 
 Possessing the technical capability to perform an operation does not authorize the operation.
 
-$$
-Capability(A)
-\not\Rightarrow
-Authority(A)
-$$
+$$Capability(A) \not\Rightarrow Authority(A)$$
 
 Consequential mutation requires an applicable valid authority reference.
 
@@ -979,9 +884,7 @@ COMMITTED STATE
 
 Therefore:
 
-$$
-Proposal \neq Commit
-$$
+$$Proposal \neq Commit$$
 
 ---
 
@@ -1003,11 +906,7 @@ PROMOTION DECISION
 
 Therefore:
 
-$$
-TestPass
-\not\Rightarrow
-Promotion
-$$
+$$TestPass \not\Rightarrow Promotion$$
 
 ---
 
@@ -1033,19 +932,11 @@ A rollback basin specifies enough prior state and dependency information to rest
 
 Conceptually:
 
-$$
-S_0
-\xrightarrow{operation}
-S_1
-$$
+$$S_0 \xrightarrow{operation} S_1$$
 
 requires a recovery path:
 
-$$
-S_1^{invalid}
-\rightarrow
-S_0
-$$
+$$S_1^{invalid} \rightarrow S_0$$
 
 or another proven valid recovery state.
 
@@ -1108,15 +999,7 @@ COSMETIC
 
 Resolution order:
 
-$$
-CRITICAL
->
-DECISION\text{-}RELEVANT
->
-EXPLANATORY
->
-COSMETIC
-$$
+$$CRITICAL > DECISION\text{-}RELEVANT > EXPLANATORY > COSMETIC$$
 
 ---
 
@@ -1164,24 +1047,15 @@ For consequential conclusions, validation SHOULD identify the smallest premise, 
 
 Let:
 
-$$
-C=f(P_1,\ldots,P_n)
-$$
+$$C=f(P_1,\ldots,P_n)$$
 
 The validator SHOULD seek:
 
-$$
-P^*
-=
-\arg\min_{P_i}
-Cost(Test(P_i))
-$$
+$$P^* = \arg\min_{P_i} Cost(Test(P_i))$$
 
 subject to:
 
-$$
-P_i \text{ can flip } C
-$$
+$$P_i \text{ can flip } C$$
 
 This is the decision-changing sensitivity point.
 
@@ -1248,11 +1122,7 @@ It is not an independent source from the execution it records.
 
 Thus:
 
-$$
-Execution + Receipt
-\neq
-2\ independent\ validations
-$$
+$$Execution + Receipt \neq 2\ independent\ validations$$
 
 ---
 
@@ -1276,11 +1146,7 @@ It does not establish:
 
 Thus:
 
-$$
-TestPass
-\not\Rightarrow
-EmpiricalTruth
-$$
+$$TestPass \not\Rightarrow EmpiricalTruth$$
 
 ---
 
@@ -1288,11 +1154,7 @@ $$
 
 Benchmark success is evidence only within the benchmark's applicability envelope.
 
-$$
-BenchmarkPass(B)
-\not\Rightarrow
-UniversalValidity
-$$
+$$BenchmarkPass(B) \not\Rightarrow UniversalValidity$$
 
 Benchmark evidence SHOULD preserve:
 
@@ -1961,11 +1823,7 @@ PROMOTION
 
 Therefore:
 
-$$
-GeneratorOutput
-\neq
-CanonicalArtifact
-$$
+$$GeneratorOutput \neq CanonicalArtifact$$
 
 See:
 
@@ -1985,19 +1843,11 @@ Routing does not determine whether the resulting claim is true.
 
 Thus:
 
-$$
-CorrectRoute
-\not\Rightarrow
-ValidConclusion
-$$
+$$CorrectRoute \not\Rightarrow ValidConclusion$$
 
 and:
 
-$$
-ValidatedConclusion
-\not\Rightarrow
-AuthorizedRoute
-$$
+$$ValidatedConclusion \not\Rightarrow AuthorizedRoute$$
 
 The two surfaces remain separately governed.
 
@@ -2328,13 +2178,7 @@ Supersession MUST NOT erase historical provenance.
 
 The Cognitive Matrix Validation Contract establishes the following governing principle:
 
-$$
-\boxed{
-A\ conclusion\ is\ admissible\ only\ to\ the\ extent\
-licensed\ by\ its\ evidence,\ provenance,\ dependencies,\
-scope,\ regime,\ freshness,\ and\ applicable\ authority.
-}
-$$
+$$\boxed{ A\ conclusion\ is\ admissible\ only\ to\ the\ extent\ licensed\ by\ its\ evidence,\ provenance,\ dependencies,\ scope,\ regime,\ freshness,\ and\ applicable\ authority. }$$
 
 The contract therefore requires:
 

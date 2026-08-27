@@ -1,14 +1,17 @@
 ---
 title: MODE COVERAGE MATRIX
 type: coverage
-tags: [control_plane, commit, mode_index, note]
+source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
+tags: [control_plane, commit, mode_index, note, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
-
 `MODE_COVERAGE_MATRIX.md` in Drive is currently only the generic placeholder, so there is no substantive canonical matrix to reproduce verbatim. 
-
-Below is a **full substantive candidate replacement**. It is designed to work with `MODE_ADMISSION_QUEUE.md`, `MODE_COMPOSITION_REGISTRY.md`, and `MODE_CONFLICT_REGISTRY.md`, while keeping coverage claims distinct from implementation or empirical validation.
 
 ---
 artifact_id: AMOS-OS-MODE-COVERAGE-MATRIX
@@ -4525,7 +4528,7 @@ THAN COVERAGE DENSITY.
 
 ```
 
-This is `DERIVED / CANDIDATE_CANON`, not recovered original canon. The actual Drive file still contains only the reservation placeholder and explicitly warns against treating it as implemented logic or final canon. :contentReference[oaicite:1]{index=1}
+This is `DERIVED / CANDIDATE_CANON`, not recovered original canon. The actual Drive file still contains only the reservation placeholder and explicitly warns against treating it as implemented logic or final canon.
 ```
 
 ---

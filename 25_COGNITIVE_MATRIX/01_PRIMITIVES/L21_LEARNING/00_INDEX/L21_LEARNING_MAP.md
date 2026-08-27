@@ -1,9 +1,14 @@
 ---
 title: L21 LEARNING MAP
 type: map
-tags: [cognitive_matrix, l21_learning]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING/00_INDEX
+tags: [cognitive_matrix, l21_learning, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # L21 LEARNING MAP
@@ -56,3 +61,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

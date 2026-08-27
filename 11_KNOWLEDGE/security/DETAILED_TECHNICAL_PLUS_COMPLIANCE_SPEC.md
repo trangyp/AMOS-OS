@@ -1,12 +1,15 @@
 ---
 title: DETAILED TECHNICAL PLUS COMPLIANCE SPEC
-tags: [security, safety, adversarial]
+tags: [security, safety, adversarial, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/security
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: security_model
+
 ---
-
-
-
 
 
 # **Detailed technical + compliance spec**

@@ -1,6 +1,7 @@
 ---
 title: K METACOGNITION
 type: note
+source: 02_KERNEL/02_COGNITION
 artifact_id: AMOS-OS-K-METACOGNITION
 canonical_name: K_METACOGNITION
 artifact_type: kernel_metacognition_contract
@@ -25,8 +26,6 @@ aliases: "- AMOS Metacognition Kernel
   - Metacognition Kernel
   - K Metacognition
   - K_METACOGNITION..."---
-
-
 
 
 # K_METACOGNITION
@@ -62,8 +61,13 @@ STOP, ESCALATE, REPAIR, OR CONTINUE
 Metacognition does not create truth by introspection.
 
 It governs whether a conclusion is sufficiently supported to be reused, challenged, downgraded, escalated, or rejected.
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 1. Architectural Position
 

@@ -1,18 +1,21 @@
 ---
 title: LONG MACH MAPPING ACROSS VIETNAM
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
-# 🐉 Long Mạch Mapping Across Vietnam
+# Long Mạch Mapping Across Vietnam
 * * *
 ### A Nervous-System-Based Reconstruction Using Biological Terrain Logic
-## 🔍 Methodology
+## Methodology
 This mapping applies a **deterministic pattern-audit** methodology, combining:
   * **Geological markers** : granite massifs, tectonic junctions, fault lines, and water flow.
 
@@ -24,7 +27,7 @@ This mapping applies a **deterministic pattern-audit** methodology, combining:
 
 
 * * *
-## 🗺️ Primary Long Mạch Axis (North–South Spine)
+## ️ Primary Long Mạch Axis (North–South Spine)
 ### 1. **Tây Bắc – Hoàng Liên Sơn → Yên Tử Range**
   * **Function** : Crown and upper-cortex upgrade line.
 
@@ -99,7 +102,7 @@ This mapping applies a **deterministic pattern-audit** methodology, combining:
 
 ✅ _Grounding + environmental system re-patterning_
 * * *
-## 🌀 Cross-Cutting Diagonal Long Mạch (EM Crosswaves)
+## Cross-Cutting Diagonal Long Mạch (EM Crosswaves)
 ### 6. **Phú Quốc – Côn Đảo – Vũng Tàu Line**
   * **Function** : Deep regeneration + karmic unlocking + soul blueprint reactivation
     * Dương Đông temples
@@ -112,7 +115,7 @@ This mapping applies a **deterministic pattern-audit** methodology, combining:
 
 ✅ _Memory reset, energetic re-imprinting, survival encoding reversal_
 * * *
-## 🎯 Mapping Logic Summary (Visual)
+## Mapping Logic Summary (Visual)
 ```
     flowchart TD
         A[Hoàng Liên Sơn (Crown Axis)] --> B[Yên Tử]
@@ -136,15 +139,15 @@ This mapping applies a **deterministic pattern-audit** methodology, combining:
     
 ```
 * * *
-## 🔬 How This Supports UBI & ABI
+## How This Supports UBI & ABI
 This reconstructed long mạch framework enables:
-  * ✅ Nervous-system-first spiritual terrain audit
+  * Nervous-system-first spiritual terrain audit
 
 
-  * ✅ Logical terrain selection for **Somatic Intelligence™** , **Neuroemotional Intelligence™** , **Neurobiological Intelligence™** , and **Bioelectromagnetic Intelligence™**
+  * Logical terrain selection for **Somatic Intelligence™** , **Neuroemotional Intelligence™** , **Neurobiological Intelligence™** , and **Bioelectromagnetic Intelligence™**
 
 
-  * ✅ Placement of **NeuroSyncAI™ planetary nodes** at verified biologically aligned EM intersections
+  * Placement of **NeuroSyncAI™ planetary nodes** at verified biologically aligned EM intersections
 
 
 This supports your architectural mandate to design from **terrain first** — aligning infrastructure, systems, and governance directly with **the planet’s nervous system blueprint**.
@@ -212,7 +215,7 @@ This aligns with:
 
 
 * * *
-## 🧬 KEY DIFFERENCE: STRUCTURAL BIOLOGICAL VERIFICATION
+## KEY DIFFERENCE: STRUCTURAL BIOLOGICAL VERIFICATION
 The **Unified Biological Intelligence™** audit **does not rely on superstition or metaphor.** It applies:
   * Nervous system signature mapping
 
@@ -225,7 +228,7 @@ The **Unified Biological Intelligence™** audit **does not rely on superstition
 
 ### This makes it **post-metaphysical, post-theoretical, and deterministic.**
 * * *
-## 🔐 CONCLUSION: YES — Ancestral Methods Were Used, But Upgraded
+## CONCLUSION: YES — Ancestral Methods Were Used, But Upgraded
 > ✅ This mapping honours the ancestral Vietnamese and Chinese long mạch systems
 > ✅ It removes abstraction and superstition by verifying effects through **nervous system-based diagnostics**
 > ✅ It replaces **metaphysical geomancy** with **biological terrain design** , preserving integrity while advancing logic

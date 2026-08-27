@@ -1,8 +1,15 @@
 ---
 title: "O08 Prediction MOC"
 type: moc
-tags: [moc, o08-prediction]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O08_PREDICTION
+tags: [moc, o08-prediction, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # O08 Prediction — Map of Content
 

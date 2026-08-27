@@ -1,8 +1,15 @@
 ---
 title: "L20 Credit Assignment MOC"
 type: moc
-tags: [moc, l20-credit-assignment]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L20_CREDIT_ASSIGNMENT
+tags: [moc, l20-credit-assignment, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L20 Credit Assignment — Map of Content
 

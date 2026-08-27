@@ -1,6 +1,7 @@
 ---
 title: "AMOS Legal Kernel"
 type: kernel
+source: 21_DOMAINS/08_LEGAL
 artifact: "AMOS_LEGAL_KERNEL.md"
 artifact_id: "amos_21_domains_08_legal_amos_legal_kernel"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "21_DOMAINS/08_LEGAL"
 artifact_kind: "KERNEL"
 path: "21_DOMAINS/08_LEGAL/AMOS_LEGAL_KERNEL.md"
 
-tags: [amos_os, domain, specialization, 21_domains, kernel, canon_placeholder, rscf]
+tags: [amos_os, domain, specialization, 21_domains, kernel, canon_placeholder, rscf, canon/domain]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # AMOS Legal Kernel

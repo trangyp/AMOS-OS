@@ -1,8 +1,15 @@
 ---
 title: "Amos-Economic-Model MOC"
 type: moc
-tags: [moc, amos-economic-model]
+source: 07_SKILLS/amos-economic-model
+tags: [moc, amos-economic-model, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Economic-Model — Map of Content
 

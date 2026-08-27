@@ -1,9 +1,14 @@
 ---
 title: SUPERSEDED ARCHIVE README
 type: superseded
-tags: [amos_os, 24_archive]
+source: 24_ARCHIVE/02_SUPERSEDED
+tags: [amos_os, 24_archive, canon/archive]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # SUPERSEDED ARCHIVE README

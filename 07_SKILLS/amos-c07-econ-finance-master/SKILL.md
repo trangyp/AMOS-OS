@@ -1,14 +1,22 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-c07-econ-finance-master
 name: amos-c07-econ-finance-master
 description: "AMOS C07 Econ & Finance — unit economics, forex, investment, wealth, business analysis, market dynamics, trade. BizFin Engine: unit economics first, then scale. Use for financial analysis, economic..."
 parent_skill: none
 domain: c07
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c07-econ-finance-master]
+tags: [note, amos-c07-econ-finance-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
+
 
 # AMOS C07 — Economics & Finance Master Knowledge
 
@@ -89,3 +97,108 @@ The domain is organized into source families:
 
 Hard boundary (non-negotiable): every output is ana
 - [[AGENT_TEMPLATE]]
+
+---
+**MOC:** [[amos-c07-econ-finance-master_MOC]]
+
+## Examples
+
+- **Scenario**: When assessing unit economics, cash flow consistency, or business model viability
+  - **Input**: A query matching this skill's domain (c07)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When analyzing forex markets, investment risk, or wealth management decisions
+  - **Input**: A query matching this skill's domain (c07)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When performing scenario and sensitivity analysis on financial plans
+  - **Input**: A query matching this skill's domain (c07)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the c07 domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when c07 specialization is needed
+- **Peers**: Other skills in the `c07` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/11k_investment_agent.md` — loaded on demand
+- `references/australia_economy_engine.md` — loaded on demand
+- `references/australia_engine_layer.md` — loaded on demand
+- `references/bizfin_engine_sector_packs.md` — loaded on demand
+- `references/bizfin_kernel.md` — loaded on demand
+- `references/bizfin_super_engine.md` — loaded on demand
+- `references/business_finance_super_engine.md` — loaded on demand
+- `references/coercion_economy.md` — loaded on demand
+- `references/consulting_bizfin_engine.md` — loaded on demand
+- `references/datapoint_economic_role_mapping.md` — loaded on demand
+- `references/easy_fractal_money.md` — loaded on demand
+- `references/econ_finance_engine_cognitive.md` — loaded on demand
+- `references/econ_finance_engine_layer.md` — loaded on demand
+- `references/floating_economy_market.md` — loaded on demand
+- `references/fractal_economy.md` — loaded on demand
+- `references/global_signal_economy_masterplan.md` — loaded on demand
+- `references/innovative_private_sector_solutions.md` — loaded on demand
+- `references/market_econ_kernel.md` — loaded on demand
+- `references/money_regimes_structural_analysis.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/revenue_architecture_kernel.md` — loaded on demand
+- `references/sector_rotation_engine.md` — loaded on demand
+- `references/signal_economy_investor_pitch.md` — loaded on demand
+- `references/signal_economy_planetary_consent.md` — loaded on demand
+- `references/signal_economy_rollout_playbook.md` — loaded on demand
+- `references/signal_economy_trust_study.md` — loaded on demand
+- `references/subscription_agent.md` — loaded on demand
+- `references/ubi_super_engine.md` — loaded on demand
+- `references/uni_market_engine.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `references/vn_business_model_criteria.md` — loaded on demand
+- `references/vn_vscci_investment_proposal.md` — loaded on demand
+- `references/wealth_game_hack_5000.md` — loaded on demand
+- `references/wealth_game_hack_50000.md` — loaded on demand
+- `[[amos-c07-econ-finance-master_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-c07-econ-finance-master-workflow]]` — corresponding workflow
+- `[[amos-c07-econ-finance-master-agent]]` — corresponding agent
+

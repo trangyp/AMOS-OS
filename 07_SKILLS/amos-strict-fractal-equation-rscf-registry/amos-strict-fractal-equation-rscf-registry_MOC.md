@@ -1,8 +1,15 @@
 ---
 title: "Amos-Strict-Fractal-Equation-Rscf-Registry MOC"
 type: moc
-tags: [moc, amos-strict-fractal-equation-rscf-regist]
+source: 07_SKILLS/amos-strict-fractal-equation-rscf-registry
+tags: [moc, amos-strict-fractal-equation-rscf-regist, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Strict-Fractal-Equation-Rscf-Registry — Map of Content
 

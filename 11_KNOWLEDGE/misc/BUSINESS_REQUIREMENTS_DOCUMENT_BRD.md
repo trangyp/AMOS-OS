@@ -1,16 +1,19 @@
 ---
 title: BUSINESS REQUIREMENTS DOCUMENT BRD
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
-# **📘 BUSINESS REQUIREMENTS DOCUMENT (BRD)**
-# **🚖 Rider App (Khách hàng)**
+# **BUSINESS REQUIREMENTS DOCUMENT (BRD)**
+# **Rider App (Khách hàng)**
 ## **1) Chức năng bắt buộc**
   * **Đăng ký/Đăng nhập** : OTP qua SMS; lưu hồ sơ cơ bản (tên, SĐT).
 
@@ -60,7 +63,7 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-# **👨‍✈️ Driver App (Tài xế)**
+# **‍✈️ Driver App (Tài xế)**
 ## **1) Chức năng bắt buộc**
   * **Đăng nhập** : OTP; kiểm tra trạng thái kích hoạt (đã duyệt hồ sơ).
 
@@ -105,7 +108,7 @@ _(Nếu là EV: có thể thêm hiển thị % pin và trạm sạc gần nhất
 
 
 * * *
-# **🔗 Nền tảng chung (cho cả 2 app)**
+# **Nền tảng chung (cho cả 2 app)**
 ## **API bắt buộc (tối thiểu)**
   * **Auth** : /otp/send, /auth/verify
 
@@ -159,7 +162,7 @@ _(Nếu là EV: có thể thêm hiển thị % pin và trạm sạc gần nhất
 
 
 * * *
-# **🧱 Công nghệ đề xuất (nhẹ, triển khai nhanh)**
+# **Công nghệ đề xuất (nhẹ, triển khai nhanh)**
   * **Mobile** : Flutter (1 codebase cho Rider & Driver).
 
 
@@ -179,7 +182,7 @@ _(Nếu là EV: có thể thêm hiển thị % pin và trạm sạc gần nhất
 
 
 * * *
-# **🗓️ Kế hoạch delivery gợi ý (6 tuần “đủ chạy”)**
+# **️ Kế hoạch delivery gợi ý (6 tuần “đủ chạy”)**
   * **Tuần 1–2** : Auth + Map + Quote + Create Ride; Driver online/offline + nhận cuốc cơ bản.
 
 
@@ -193,7 +196,7 @@ _(Nếu là EV: có thể thêm hiển thị % pin và trạm sạc gần nhất
 
 
 * * *
-# **✅ Tiêu chí “xong” (Definition of Done – bản tối thiểu)**
+# **Tiêu chí “xong” (Definition of Done – bản tối thiểu)**
   * Đặt – nhận – hoàn thành cuốc **ổn định** ; tỷ lệ lỗi < 1%/1000 cuốc.
 
 
@@ -210,7 +213,7 @@ _(Nếu là EV: có thể thêm hiển thị % pin và trạm sạc gần nhất
 \
 Tuyệt vời — dưới đây là **bản yêu cầu đã bổ sung** (giữ cấu trúc MVP, thêm các hạng mục pháp lý, an toàn, khả dụng, và hook EV). Phần mới được đánh dấu **[MỚI]** để đội dev/QA nắm rõ phạm vi tăng thêm.
 * * *
-# **🚖 Rider App (Khách hàng)**
+# **Rider App (Khách hàng)**
 ## **1) Chức năng bắt buộc**
   * **Đăng ký/Đăng nhập** : OTP qua SMS; lưu hồ sơ cơ bản (tên, SĐT).
 
@@ -270,7 +273,7 @@ Tuyệt vời — dưới đây là **bản yêu cầu đã bổ sung** (giữ c
 
 
 * * *
-# **👨‍✈️ Driver App (Tài xế)**
+# **‍✈️ Driver App (Tài xế)**
 ## **1) Chức năng bắt buộc**
   * **Đăng nhập** : OTP; kiểm tra trạng thái kích hoạt (đã duyệt hồ sơ).
 **[MỚI]** **Chặn phiên đăng nhập trùng** (không cho 2 thiết bị hoạt động song song).
@@ -322,7 +325,7 @@ Tuyệt vời — dưới đây là **bản yêu cầu đã bổ sung** (giữ c
 
 
 * * *
-# **🧩 Yêu cầu nền tảng bổ sung (Backend/Compliance) — [MỚI]**
+# **Yêu cầu nền tảng bổ sung (Backend/Compliance) — [MỚI]**
 ## **A) Hóa đơn điện tử (bắt buộc pháp lý khi UniPower thu tiền)**
   * Tích hợp API nhà cung cấp HĐĐT (MISA/Viettel/FPT/VNPT/BKAV…).
 
@@ -370,7 +373,7 @@ Tuyệt vời — dưới đây là **bản yêu cầu đã bổ sung** (giữ c
 
 
 * * *
-# **📏 Non-Functional & QA — [MỚI]**
+# **Non-Functional & QA — [MỚI]**
   * **Hiệu năng** : P95 API chính ≤ 300 ms; P99 ≤ 800 ms.
 
 

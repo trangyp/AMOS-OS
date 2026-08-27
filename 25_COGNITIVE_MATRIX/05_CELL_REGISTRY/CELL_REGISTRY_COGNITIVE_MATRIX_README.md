@@ -1,9 +1,14 @@
 ---
 title: CELL REGISTRY COGNITIVE MATRIX README
 type: cognitive
-tags: [cognitive_matrix, cell_registry, readme, contract_filled]
+source: 25_COGNITIVE_MATRIX/05_CELL_REGISTRY
+tags: [cognitive_matrix, cell_registry, readme, contract_filled, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # 05_CELL_REGISTRY — Cell Registry Contract Overview
@@ -78,3 +83,6 @@ claim_class: DERIVED
 
 ---
 **MOC:** [[05_CELL_REGISTRY_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

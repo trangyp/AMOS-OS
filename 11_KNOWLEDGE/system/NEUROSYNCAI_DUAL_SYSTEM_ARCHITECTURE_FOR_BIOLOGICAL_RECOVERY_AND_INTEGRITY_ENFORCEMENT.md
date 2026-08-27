@@ -3,7 +3,14 @@ title: NEUROSYNCAI DUAL SYSTEM ARCHITECTURE FOR BIOLOGICAL RECOVERY AND INTEGRIT
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/neurosyncai-dual-system-architecture-for, system]
 type: note
 source: 11_KNOWLEDGE/system
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
+
 ---
+
 
 # NEUROSYNCAI DUAL SYSTEM ARCHITECTURE FOR BIOLOGICAL RECOVERY AND INTEGRITY ENFORCEMENT
 
@@ -1528,3 +1535,6 @@ NeuroSyncAI™ Dual-System Architecture for Biological Recovery and Integrity
 
 ---
 **MOC:** [[SYSTEM_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

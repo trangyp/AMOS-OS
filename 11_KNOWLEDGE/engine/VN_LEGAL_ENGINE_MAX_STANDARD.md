@@ -1,15 +1,20 @@
 ---
 title: VN LEGAL ENGINE MAX STANDARD
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: vn-legal-engine-max-standard
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/vn-legal-engine-max-standard, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
+# VN LEGAL ENGINE MAX STANDARD
 
 ```json
 {

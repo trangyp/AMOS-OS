@@ -1,8 +1,15 @@
 ---
 title: "09 Protocols MOC"
 type: moc
-tags: [moc, 09-protocols]
+source: 09_PROTOCOLS
+tags: [moc, 09-protocols, canon/protocol]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 09 Protocols — Map of Content
 

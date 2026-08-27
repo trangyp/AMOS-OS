@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX C08 EXECUTION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, control_planes, c08_execution, contract]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION
+tags: [cognitive_matrix, control_planes, c08_execution, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # C08_EXECUTION — Execution control: worker-only effects, commit-time revalidation, budgets.
@@ -44,3 +49,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[C08_EXECUTION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

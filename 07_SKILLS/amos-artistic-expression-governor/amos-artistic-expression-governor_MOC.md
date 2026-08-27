@@ -1,8 +1,15 @@
 ---
 title: "Amos-Artistic-Expression-Governor MOC"
 type: moc
-tags: [moc, amos-artistic-expression-governor]
+source: 07_SKILLS/amos-artistic-expression-governor
+tags: [moc, amos-artistic-expression-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Artistic-Expression-Governor — Map of Content
 

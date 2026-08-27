@@ -1,8 +1,15 @@
 ---
 title: "99 Escalation Intervention Modes MOC"
 type: moc
-tags: [moc, 99-escalation-intervention-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/99_ESCALATION_INTERVENTION_MODES
+tags: [moc, 99-escalation-intervention-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 99 Escalation Intervention Modes — Map of Content
 

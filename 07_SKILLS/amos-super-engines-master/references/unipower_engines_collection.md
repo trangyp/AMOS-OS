@@ -1,8 +1,15 @@
 ---
 title: unipower engines collection
 type: reference
-tags: [reference, amos-super-engines-master]
+source: 07_SKILLS/amos-super-engines-master/references
+tags: [reference, amos-super-engines-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Unipower Engines
 
@@ -149,3 +156,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

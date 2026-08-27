@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX O14 ACTION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, lifecycle_operations, o14_action, contract]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O14_ACTION
+tags: [cognitive_matrix, lifecycle_operations, o14_action, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # O14_ACTION — O14 Action
@@ -47,3 +52,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[O14_ACTION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

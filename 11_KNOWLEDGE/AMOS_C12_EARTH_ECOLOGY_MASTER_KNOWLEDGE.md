@@ -1,8 +1,15 @@
 ---
 title: "AMOS C12 — Earth & Ecology Master Knowledge"
 type: log
-tags: [knowledge, note]
+source: 11_KNOWLEDGE
+tags: [knowledge, note, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # AMOS C12 — Earth & Ecology Master Knowledge
 

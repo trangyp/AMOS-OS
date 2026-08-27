@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L08 REPRESENTATION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, primitives, l08_representation, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION
+tags: [cognitive_matrix, primitives, l08_representation, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L08_REPRESENTATION — Representation Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L08_REPRESENTATION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

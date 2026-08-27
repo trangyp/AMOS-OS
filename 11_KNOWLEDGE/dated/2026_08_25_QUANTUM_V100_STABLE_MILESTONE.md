@@ -1,10 +1,15 @@
 ---
 title: 2026 08 25 QUANTUM V100 STABLE MILESTONE
-tags: [dated, dated/2026-08-25]
+tags: [dated, dated/2026-08-25, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/dated
----
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 
+---
 
 
 # Quantum Library v1.0.0 — STABLE MILESTONE (2026-08-25)

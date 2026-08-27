@@ -1,8 +1,15 @@
 ---
 title: "02 Claims MOC"
 type: moc
-tags: [moc, 02-claims]
+source: 11_KNOWLEDGE/02_CLAIMS
+tags: [moc, 02-claims, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # 02 Claims — Map of Content
 

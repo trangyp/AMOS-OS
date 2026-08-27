@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-c02-math-compute-master]
+source: 07_SKILLS/amos-c02-math-compute-master
+tags: [note, amos-c02-math-compute-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-c02-math-compute-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS C02 — Math & Compute Master. Consolidates 100 sub
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-c02-math-compute-master_MOC]]

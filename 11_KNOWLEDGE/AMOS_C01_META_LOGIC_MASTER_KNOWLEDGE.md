@@ -1,5 +1,6 @@
 ---
 type: logic
+source: 11_KNOWLEDGE
 id: AMOS-C01-META-LOGIC-MASTER-KNOWLEDGE
 title: "AMOS C01 — Meta-Logic Master Knowledge"
 origin_architect: "Trang Phan"
@@ -14,9 +15,14 @@ placeholder_status: "NONE"
 version: "1.0"
 source_lineage: "see body"
 source_family_mapping: "see body"
-tags: [knowledge, note]
-
+tags: [knowledge, note, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # AMOS C01 — Meta-Logic Master Knowledge
 

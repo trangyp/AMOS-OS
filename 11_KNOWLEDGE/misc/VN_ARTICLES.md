@@ -1,22 +1,18 @@
 ---
 title: VN ARTICLES
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
 # Vn articles
-Good — then we stop playing **content** and move into **jurisdiction**.
-You don’t need “topics”.
-You need **positions that only a very small number of people in SEA can credibly occupy** — and that make age irrelevant.
-Below is the **strongest possible list** calibrated for:
-  * VN context
-
-
   * English language
 
 
@@ -288,7 +284,7 @@ Your articles must help them answer those.
 (Economic + Green Energy, VN-specific)
 These are **not soft**. These are **decision-grade**.
 * * *
-### 🔥 1. **Vì sao nhiều dự án năng lượng xanh không qua được vòng quyết định**
+### 1. **Vì sao nhiều dự án năng lượng xanh không qua được vòng quyết định**
 (_Why many green energy projects stall at the decision stage_)
 This is 🔥🔥🔥 in VN.
 Focus on:
@@ -316,7 +312,7 @@ This helps:
 
 No criticism. Just explanation.
 * * *
-### 🔥 2. **Nhà đầu tư nhìn gì trước khi rót vốn vào dự án xanh**
+### 2. **Nhà đầu tư nhìn gì trước khi rót vốn vào dự án xanh**
 (_What investors look for before funding green projects_)
 VN people LOVE investor perspective.
 Talk about:
@@ -334,7 +330,7 @@ Talk about:
 
 This article will get saved.
 * * *
-### 🔥 3. **Rủi ro vận hành là lý do chính khiến dự án chậm hoặc đội vốn**
+### 3. **Rủi ro vận hành là lý do chính khiến dự án chậm hoặc đội vốn**
 (_Operational risk as the main cause of delays and cost overruns_)
 This is economic, not ethical.
 Tie to:
@@ -352,7 +348,7 @@ Tie to:
 
 No blame. Just causality.
 * * *
-### 🔥 4. **Chuyển đổi năng lượng không thất bại vì công nghệ**
+### 4. **Chuyển đổi năng lượng không thất bại vì công nghệ**
 (_Why energy transition fails despite good technology_)
 Very strong.
 Explain:
@@ -370,7 +366,7 @@ Explain:
 
 VN understands this deeply.
 * * *
-### 🔥 5. **Tính bền vững trong năng lượng là bài toán quản trị**
+### 5. **Tính bền vững trong năng lượng là bài toán quản trị**
 (_Sustainability in energy is a governance problem_)
 This reframes everything.
 No activism.
@@ -378,18 +374,18 @@ Pure management logic.
 * * *
 ## ECONOMIC LEVERAGE ARTICLES (even stronger)
 * * *
-### 🔥 6. **Vì sao “làm nhanh” thường làm tăng chi phí**
+### 6. **Vì sao “làm nhanh” thường làm tăng chi phí**
 (_Why speed often increases costs_)
 VN culture is obsessed with speed.
 This is counter-intuitive and powerful.
 * * *
-### 🔥 7. **Chi phí lớn nhất không nằm trong dự toán**
+### 7. **Chi phí lớn nhất không nằm trong dự toán**
 (_The biggest costs are not in the budget_)
 Everyone knows this is true.  
 They just can’t articulate it.
 You give them language.
 * * *
-### 🔥 8. **Những rủi ro khiến dự án khó trình phê duyệt**
+### 8. **Những rủi ro khiến dự án khó trình phê duyệt**
 (_Risks that make projects hard to approve_)
 This is pure gold.
 People will read this to:
@@ -400,7 +396,7 @@ People will read this to:
 
 
 * * *
-### 🔥 9. **Vì sao dự án tốt vẫn không được triển khai**
+### 9. **Vì sao dự án tốt vẫn không được triển khai**
 (_Why good projects still don’t get implemented_)
 VN pain point.
 Answer:
@@ -417,7 +413,7 @@ Very safe, very sharp.
 * * *
 ## BRIDGE ARTICLE (where your real power shows)
 * * *
-### 🔥 10. **An toàn vận hành là điều kiện để dự án được phép tồn tại**
+### 10. **An toàn vận hành là điều kiện để dự án được phép tồn tại**
 (_Operational safety as a precondition for project viability_)
 This quietly introduces your core philosophy
 without ever saying “ethics”.
@@ -556,7 +552,7 @@ They are _less_ defensive when the subject is:
 This avoids politics entirely.
 * * *
 ## 4\. What to publish: ARTICLE THEMES (VN-safe)
-### 🟢 Article 1: **Ngôn ngữ và giới hạn khi nói về hệ thống**
+### Article 1: **Ngôn ngữ và giới hạn khi nói về hệ thống**
 (_Language and its limits in talking about systems_)
 Key points:
   * Vietnamese is excellent at:
@@ -577,7 +573,7 @@ Core idea:
 > Không phải thiếu tư duy — mà thiếu công cụ ngôn ngữ.
 That sentence is gold.
 * * *
-### 🟢 Article 2: **Vì sao “trách nhiệm” thường bị mơ hồ**
+### Article 2: **Vì sao “trách nhiệm” thường bị mơ hồ**
 (_Why responsibility is often vague_)
 You don’t blame people.  
 You explain:
@@ -594,7 +590,7 @@ Frame as:
 > linguistic ambiguity → operational ambiguity → risk
 Very safe.
 * * *
-### 🟢 Article 3: **Khi hiệu suất không có ngôn ngữ cho an toàn**
+### Article 3: **Khi hiệu suất không có ngôn ngữ cho an toàn**
 (_When performance lacks language for safety_)
 Talk about:
   * efficiency words are common
@@ -610,7 +606,7 @@ Key insight:
 > Khi không có từ ngữ rõ ràng, rủi ro trở nên vô hình.
 This is observation, not attack.
 * * *
-### 🟢 Article 4: **Động lực và áp lực: vấn đề không nằm ở con người**
+### Article 4: **Động lực và áp lực: vấn đề không nằm ở con người**
 (_Motivation and pressure: not a human flaw_)
 You explain:
   * how language frames pressure as virtue
@@ -625,7 +621,7 @@ You explain:
 Reframe:
 > Áp lực không tạo động lực — nó che giấu rủi ro.
 * * *
-### 🟢 Article 5: **Tại sao “làm thêm” thường thay thế cho quản lý**
+### Article 5: **Tại sao “làm thêm” thường thay thế cho quản lý**
 (_Why overtime substitutes for management_)
 You do NOT accuse.  
 You say:

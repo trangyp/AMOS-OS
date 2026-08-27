@@ -1,5 +1,6 @@
 ---
 type: naming
+source: 00_ROOT
 aliases:
 - NAMING_STANDARD
 
@@ -35,7 +36,6 @@ aliases: "- AMOS Naming Standard
 related: "see body"---
 
 
-
 # AMOS OS Naming Standard
 
 > **Status:** `ACTIVE_STANDARD`  
@@ -43,8 +43,13 @@ related: "see body"---
 > **AMOS_CORE target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  
 > **Conclusion class:** `AMOS_MODEL`
-
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
+
 
 # 0. Purpose
 

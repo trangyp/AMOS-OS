@@ -1,8 +1,15 @@
 ---
 title: "Amos-Organism-Os MOC"
 type: moc
-tags: [moc, amos-organism-os]
+source: 07_SKILLS/amos-organism-os
+tags: [moc, amos-organism-os, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Organism-Os — Map of Content
 

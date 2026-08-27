@@ -1,12 +1,15 @@
 ---
 title: THIET KE MO HINH MOI GIOI BAT DONG SAN
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 #  THIẾT KẾ MÔ HÌNH MÔI GIỚI BẤT ĐỘNG SẢN

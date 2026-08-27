@@ -1,64 +1,15 @@
 ---
 title: TASK RESOLVER
 type: task
-tags: [control_plane, task_contract, note]
+source: 03_CONTROL_PLANE/01_TASK_CONTRACT
+tags: [control_plane, task_contract, note, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-
-
-Confirmed: the Drive artifact `TASK_RESOLVER.md` exists in the intended Task Contract subsystem, but its current content is the same erroneous `# K COUNTERFACTUAL` placeholder rather than a substantive resolver specification.  
-
-The tree places it alongside `TASK_CONTRACT.md` under `03_CONTROL_PLANE/01_TASK_CONTRACT`. 
-
-Below is the full substantive replacement.
-
----
-artifact_id: AMOS-OS-CP-TASK-RESOLVER
-title: AMOS OS Task Resolver
-canonical_name: TASK_RESOLVER
-
-artifact_class: CONTROL_PLANE_RESOLVER
-plane: CONTROL_PLANE
-subsystem: TASK_CONTRACT
-canonical_location: 03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_RESOLVER.md
-
-origin_architect: Trang Phan
-amos_core_target: v4.4
-
-status: CANDIDATE_CANON
-conclusion_class: DERIVED
-
-parent:
-  - 03_CONTROL_PLANE/01_TASK_CONTRACT
-
-siblings:
-  - TASK_CONTRACT.md
-
-upstream:
-  - 00_ROOT
-  - 01_CANON
-  - 02_KERNEL
-  - 03_CONTROL_PLANE/00_INDEX/README.md
-  - 03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md
-  - 03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT.md
-
-downstream:
-  - 03_CONTROL_PLANE/02_CAPABILITY
-  - 03_CONTROL_PLANE/03_POLICY
-  - 03_CONTROL_PLANE/04_AUTHORITY
-  - 03_CONTROL_PLANE/05_PROVENANCE
-  - 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
-  - 03_CONTROL_PLANE/07_OBSERVABILITY
-  - 03_CONTROL_PLANE/08_EFFECTS
-  - 03_CONTROL_PLANE/09_COMMIT
-  - 04_RUNTIME
-
-implementation_status: SPECIFICATION
-empirical_validation_status: NOT_CLAIMED
-formal_verification_status: NOT_CLAIMED
-
-updated: 2026-08-26
----
 
 # AMOS OS — TASK RESOLVER
 
@@ -5934,7 +5885,7 @@ GOVERNANCE CONTINUE.
 
 ```
 
-This is a **substantive candidate replacement**, not recovered pre-existing canon: the actual Drive artifact currently contains only the misplaced placeholder text, so claiming that the specification above was the file's existing full content would be unsupported. :contentReference[oaicite:3]{index=3}
+This is a **substantive candidate replacement**, not recovered pre-existing canon: the actual Drive artifact currently contains only the misplaced placeholder text, so claiming that the specification above was the file's existing full content would be unsupported.
 ```
 
 ---

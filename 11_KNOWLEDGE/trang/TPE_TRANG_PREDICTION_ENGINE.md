@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/training/TPE_Official_Manual.pdf"
 origin_architect: "Trang Phan"
 type: training-manual
+source: 11_KNOWLEDGE/trang
 tags: [canon-group/meta, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/mu-mutation, rscf/X-crossscale, topic/prediction-forecasting-model, trang]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 

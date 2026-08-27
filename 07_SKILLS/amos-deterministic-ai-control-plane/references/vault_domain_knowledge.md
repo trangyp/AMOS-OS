@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-deterministic-ai-control-plane]
+source: 07_SKILLS/amos-deterministic-ai-control-plane/references
+tags: [reference, amos-deterministic-ai-control-plane, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -149,3 +156,7 @@ Real-time nervous system monitoring of memory, reaction, and cognition without o
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

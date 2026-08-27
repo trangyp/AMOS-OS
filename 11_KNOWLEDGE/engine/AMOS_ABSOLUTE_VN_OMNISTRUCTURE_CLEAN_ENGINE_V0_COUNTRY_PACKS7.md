@@ -1,15 +1,20 @@
 ---
 title: AMOS ABSOLUTE VN OMNISTRUCTURE CLEAN ENGINE V0 COUNTRY PACKS7
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-absolute-vn-omnistructure-clean-engine-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-absolute-vn-omnistructure-clean-eng, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
+# AMOS ABSOLUTE VN OMNISTRUCTURE CLEAN ENGINE V0 COUNTRY PACKS7
 
 ```json
 [

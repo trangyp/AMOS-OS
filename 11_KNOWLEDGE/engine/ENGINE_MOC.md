@@ -1,8 +1,15 @@
 ---
 title: "Engine MOC"
 type: moc
-tags: [moc, engine]
+source: 11_KNOWLEDGE/engine
+tags: [moc, engine, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
+
 
 # Engine — Map of Content
 

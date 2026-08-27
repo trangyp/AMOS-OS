@@ -1,8 +1,15 @@
 ---
 title: "AMOS GIANT VALUE CREATION OS — MAX DETAIL MASTER ARCHITECTURE"
 type: value
-tags: [knowledge, note]
+source: 11_KNOWLEDGE
+tags: [knowledge, note, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # ⭐ AMOS GIANT VALUE CREATION OS
 ## MAX-DETAIL MASTER ARCHITECTURE FOR COMMERCIALIZATION, VALIDATION, LICENSING, PRODUCTIZATION, GOVERNANCE & SCALE

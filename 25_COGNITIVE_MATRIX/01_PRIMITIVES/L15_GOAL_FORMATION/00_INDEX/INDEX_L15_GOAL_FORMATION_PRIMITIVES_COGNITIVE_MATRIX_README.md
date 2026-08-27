@@ -1,9 +1,14 @@
 ---
 title: INDEX L15 GOAL FORMATION PRIMITIVES COGNITIVE MATRIX README
 type: index
-tags: [cognitive_matrix, l15_goal_formation]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION/00_INDEX
+tags: [cognitive_matrix, l15_goal_formation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INDEX L15 GOAL FORMATION PRIMITIVES COGNITIVE MATRIX README
@@ -54,3 +59,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

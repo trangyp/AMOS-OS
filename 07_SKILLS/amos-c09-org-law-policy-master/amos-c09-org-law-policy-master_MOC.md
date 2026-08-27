@@ -1,8 +1,15 @@
 ---
 title: "Amos-C09-Org-Law-Policy-Master MOC"
 type: moc
-tags: [moc, amos-c09-org-law-policy-master]
+source: 07_SKILLS/amos-c09-org-law-policy-master
+tags: [moc, amos-c09-org-law-policy-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-C09-Org-Law-Policy-Master — Map of Content
 

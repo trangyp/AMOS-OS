@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-repair-harm-auditor]
+source: 07_SKILLS/amos-repair-harm-auditor/references
+tags: [reference, amos-repair-harm-auditor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -158,3 +165,7 @@ What distinctions must be preserved? What is mutating them? What is degrading co
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

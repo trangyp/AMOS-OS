@@ -1,15 +1,18 @@
 ---
 title: NEUROSYNCAI HEALTH COMPANION
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
-# 🌿 **NeuroSyncAI™ Health Companion**
+# **NeuroSyncAI™ Health Companion**
 * * *
 ###  _Biến dữ liệu sinh học thành trí tuệ cảm nhận – Giải pháp AI đầu tiên đọc hiểu tín hiệu cơ thể con người_
 * * *
@@ -57,7 +60,7 @@ Trong các bệnh viện, đặc biệt là **ICU, bệnh nhân hôn mê, và ch
 
 💡 _Ví dụ:_ “HRV giảm và EDA tăng nhẹ – có thể bệnh nhân khó chịu, cần kiểm tra vị trí dây truyền hoặc giảm ánh sáng.”
 * * *
-### 🧘‍♀️ **B. Hậu phẫu và hồi phục**
+### ‍♀️ **B. Hậu phẫu và hồi phục**
   * Theo dõi **cân bằng hệ thần kinh tự chủ** – đo mức căng thẳng, phục hồi, và đau.
 
 
@@ -69,7 +72,7 @@ Trong các bệnh viện, đặc biệt là **ICU, bệnh nhân hôn mê, và ch
 
 💡 _Ví dụ:_ “Phát hiện giao cảm tăng – bệnh nhân đang bị stress nội tạng, cần hỗ trợ thở sâu hoặc xoa bóp nhẹ.”
 * * *
-### 🧠 **C. Sức khỏe tinh thần và giấc ngủ**
+### **C. Sức khỏe tinh thần và giấc ngủ**
   * Theo dõi **chu kỳ stress – thư giãn – phục hồi** dựa trên HRV & nhịp tim.
 
 
@@ -81,7 +84,7 @@ Trong các bệnh viện, đặc biệt là **ICU, bệnh nhân hôn mê, và ch
 
 💡 _Ví dụ:_ “HRV thấp kéo dài, EDA tăng – bệnh nhân đang căng thẳng mạn tính, nên chuyển hướng sang trị liệu nhẹ.”
 * * *
-### ❤️ **D. Chăm sóc người cao tuổi & bệnh mãn tính**
+### ️ **D. Chăm sóc người cao tuổi & bệnh mãn tính**
   * Theo dõi **trạng thái cảm xúc và mệt mỏi** qua đồng hồ thông minh.
 
 
@@ -93,7 +96,7 @@ Trong các bệnh viện, đặc biệt là **ICU, bệnh nhân hôn mê, và ch
 
 💡 _Ví dụ:_ “EDA tăng và HRV giảm trong 15 phút – nguy cơ mệt tim, nên nghỉ và uống nước.”
 * * *
-### 👶 **E. Nhi khoa và trẻ tự kỷ (Autism & Neurodivergent Care)**
+### **E. Nhi khoa và trẻ tự kỷ (Autism & Neurodivergent Care)**
   * Theo dõi phản ứng sinh học khi trẻ tiếp xúc âm thanh, ánh sáng, người lạ.
 
 

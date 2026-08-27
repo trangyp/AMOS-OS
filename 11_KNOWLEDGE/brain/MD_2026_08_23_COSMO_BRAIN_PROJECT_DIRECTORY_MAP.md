@@ -1,14 +1,19 @@
 ---
 title: MD 2026 08 23 COSMO BRAIN PROJECT DIRECTORY MAP
 type: map
+source: 11_KNOWLEDGE/brain
 origin_architect: Trang Phan
 provenance: direct file inspection of cosmo-brain/ on 2026-08-23
 confidence: 0.95
 epistemic_class: OBSERVATION
 conclusion_class: VERIFIED
-tags: [cosmo-brain, project-map, typescript, amos, architecture, algorithms, governance, domains, schemas, registry, knowledge, prompts, brain]
+tags: [cosmo-brain, project-map, typescript, amos, architecture, algorithms, governance, domains, schemas, registry, knowledge, prompts, brain, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
 ---
-
 
 
 # Cosmo Brain Project Directory Map

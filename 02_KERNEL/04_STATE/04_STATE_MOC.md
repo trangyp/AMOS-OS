@@ -1,8 +1,15 @@
 ---
 title: "04 State MOC"
 type: moc
-tags: [moc, 04-state]
+source: 02_KERNEL/04_STATE
+tags: [moc, 04-state, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 04 State — Map of Content
 

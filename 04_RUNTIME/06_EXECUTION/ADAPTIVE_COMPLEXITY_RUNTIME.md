@@ -1,6 +1,7 @@
 ---
-title: "Adaptive Complexity Runtime"
+title: "Adaptive Complexity Runtime Specification"
 type: runtime
+source: 04_RUNTIME/06_EXECUTION
 artifact: "ADAPTIVE_COMPLEXITY_RUNTIME.md"
 artifact_id: "amos_04_runtime_06_execution_adaptive_complexity_runtime"
 origin_architect: "Trang Phan"
@@ -8,208 +9,115 @@ steward: "Trang Phan"
 system: "AMOS OS"
 plane: "04_RUNTIME"
 segment: "04_RUNTIME/06_EXECUTION"
-artifact_kind: "RUNTIME"
+artifact_kind: "RUNTIME_SPEC"
 path: "04_RUNTIME/06_EXECUTION/ADAPTIVE_COMPLEXITY_RUNTIME.md"
 
-tags: [amos_os, runtime, execution, 04_runtime, canon_placeholder, rscf]
+tags:
+  - amos_os
+  - runtime
+  - vault
+  - 04_runtime
+  - 06_execution
+  - adaptive_complexity_runtime
+  - system2_reasoning
+  - depth_governor
+  - rscf
+  - canon_candidate
+  - canon/runtime
 
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
+validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+
+ingestion_action: "NATIVE_CANON_INGESTION"
+raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+
+rscf:
+  state: SOURCE_GROUNDED
+  claim_class: AMOS_MODEL
+  provenance:
+    - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
+    - 11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI
+    - AMOS_CORPUS
+  scope:
+    - RUNTIME_EXECUTION
+    - ADAPTIVE_COMPLEXITY
+    - SOURCE_DEFINED_MODEL
+
+framework_binding:
+  execution_moc:
+    artifact: "[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]"
+  frai_framework:
+    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI]]"
+  matrix_binding:
+    artifact: "[[25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX]]"
+
+epistemic_boundary:
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  spec_structure: VERIFIED_SOURCE_STRUCTURE
+  execution_algorithm: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
 ---
 
+# Adaptive Complexity Runtime Execution Specification
 
+`ADAPTIVE_COMPLEXITY_RUNTIME.md` is the canonical Runtime Plane specification governing the dynamic depth scaling, multi-branch superposition, and deep formal proof synthesis (System 2 mode) within `04_RUNTIME/06_EXECUTION`.
 
-# Adaptive Complexity Runtime
+---
 
-## 0. Status
-
-`ADAPTIVE_COMPLEXITY_RUNTIME.md` is an **ADD-ONLY placeholder** for the **Runtime** plane segment at `04_RUNTIME/06_EXECUTION`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+# 1. Adaptive Complexity Reasoning Loop
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+  Complex Hypothesis / Multi-System Query
+     │
+  1. Complexity Metric Estimation ($K = f(\text{Entropy}, \text{Novelty}, \text{Risk})$)
+     │
+  2. Dynamic Search Tree Allocation (FRAI multi-scale expansion)
+     │
+  3. Parallel Hypothesis Superposition & Causal Verification (QCLA)
+     │
+  4. Real-Time Biological Cognitive Load Pacing (UBI throttler)
+     │
+  5. Multi-Branch Dominance Collapse -> Synthesized Proof Capsule
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+# 2. Inter-Plane & Vault Connections
+
+- **Execution MOC:** [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]
+- **FRAI Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI]]
+- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX]]
 
 ---
 
-## 1. Purpose
-
-This artifact reserves the **Adaptive Complexity Runtime** slot within the Runtime plane. The Runtime plane governs execution substrate binding kernel contracts to runnable operators under v4.4 runtime rules.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
+# 3. RSCF Contract
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+RSCF:
+  node_id: amos_04_runtime_06_execution_adaptive_complexity_runtime
+  node_type: runtime_spec
+  claim_class: AMOS_MODEL
+  state: SOURCE_GROUNDED
+  H:
+    identity: "Adaptive Complexity Runtime Specification"
+    role: "Deep System 2 dynamic complexity and multi-branch proof synthesis engine"
+  M:
+    reasoning_loop: [complexity_estimation, tree_allocation, hypothesis_superposition, bio_load_pacing, dominance_collapse]
+  confidence_ceiling:
+    source_model: SOURCE_BOUND
+    runtime: UNKNOWN
 ```
 
 ---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI]]
 
 ---
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `04_RUNTIME · RUNTIME` within the Runtime plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-00_ROOT_MOC|AMOS MOC
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_04_runtime_06_execution_adaptive_complexity_runtime
-
-node_type: runtime
-
-path: 04_RUNTIME/06_EXECUTION/ADAPTIVE_COMPLEXITY_RUNTIME.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
-
----
-**MOC:** [[06_EXECUTION_MOC]]
+**MOC:** [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]

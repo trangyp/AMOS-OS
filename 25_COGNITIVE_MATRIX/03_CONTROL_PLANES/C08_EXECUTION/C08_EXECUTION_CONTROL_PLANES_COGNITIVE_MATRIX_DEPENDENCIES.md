@@ -1,7 +1,13 @@
 ---
 title: C08 EXECUTION CONTROL PLANES COGNITIVE MATRIX DEPENDENCIES
 type: note
-tags: [note, c08-execution]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION
+tags: [note, c08-execution, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -48,3 +54,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/03_CONTROL_PLAN
 
 ---
 **MOC:** [[C08_EXECUTION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

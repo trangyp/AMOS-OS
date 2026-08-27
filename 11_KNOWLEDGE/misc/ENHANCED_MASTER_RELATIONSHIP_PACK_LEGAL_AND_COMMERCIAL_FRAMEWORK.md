@@ -3,7 +3,14 @@ title: ENHANCED MASTER RELATIONSHIP PACK LEGAL AND COMMERCIAL FRAMEWORK
 tags: [canon-group/planetary, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/enhanced-master-relationship-pack-legal-, misc]
 type: note
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
+
 
 # ENHANCED MASTER RELATIONSHIP PACK LEGAL AND COMMERCIAL FRAMEWORK
 

@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX INTEGRATION
 type: integration
-tags: [00_root, note]
+source: 00_ROOT
+tags: [00_root, note, canon/root]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
-
 
 
 # AMOS OS — Cognitive Matrix Integration

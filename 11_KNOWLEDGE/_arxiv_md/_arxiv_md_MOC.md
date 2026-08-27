@@ -1,8 +1,15 @@
 ---
 title: "arxiv_md MOC"
 type: moc
-tags: [moc, arxiv, knowledge]
+source: 11_KNOWLEDGE/_arxiv_md
+tags: [moc, arxiv, knowledge, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: arxiv
+  scope: AMOS_research
 ---
+
 
 # arxiv_md — Map of Content
 

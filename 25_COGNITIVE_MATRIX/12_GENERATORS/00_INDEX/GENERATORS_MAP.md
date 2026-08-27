@@ -1,16 +1,8 @@
 ---
-title: GENERATORS MAP
-type: note
-tags: [note, 00-index]
----
-
-
-````markdown
----
+title: "GENERATORS MAP"
 canon-group: reference
 rscf-state: derived
-tags:
-  - cognitive_matrix
+tags: [- cognitive_matrix, canon/cognitive-matrix]
   - generators
   - index
   - map
@@ -19,7 +11,15 @@ tags:
   - lineage
   - validation
   - rscf
+type: document
+source: 25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 12 Generators Map
 
@@ -59,23 +59,11 @@ It does not independently establish that every referenced generator artifact:
 
 The map records relationships. It does not manufacture their validation state.
 
-$$
-\boxed{
-Mapped(x) \neq Validated(x)
-}
-$$
+$$\boxed{ Mapped(x) \neq Validated(x) }$$
 
-$$
-\boxed{
-Indexed(x) \neq Implemented(x)
-}
-$$
+$$\boxed{ Indexed(x) \neq Implemented(x) }$$
 
-$$
-\boxed{
-Referenced(x) \neq Canonical(x)
-}
-$$
+$$\boxed{ Referenced(x) \neq Canonical(x) }$$
 
 ---
 
@@ -85,17 +73,15 @@ Within the Cognitive Matrix, a **generator** is modeled as a governed transforma
 
 Abstractly:
 
-$$
-G : I \times C \times S \rightarrow O
-$$
+$$G : I \times C \times S \rightarrow O$$
 
 where:
 
-* \(G\) = generator;
-* \(I\) = admitted input;
-* \(C\) = applicable context and constraints;
-* \(S\) = generator state/configuration;
-* \(O\) = candidate output.
+* $G$ = generator;
+* $I$ = admitted input;
+* $C$ = applicable context and constraints;
+* $S$ = generator state/configuration;
+* $O$ = candidate output.
 
 This equation describes the architectural model only.
 
@@ -107,13 +93,7 @@ It does not imply that every generator is a deterministic mathematical function 
 
 Generation is not equivalent to truth.
 
-$$
-\boxed{
-Generated
-\neq
-Verified
-}
-$$
+$$\boxed{ Generated \neq Verified }$$
 
 A generator may produce:
 
@@ -329,11 +309,7 @@ The subsystem contract and individual contract MUST NOT be assumed to be interch
 
 Conceptually:
 
-$$
-Contract_{generator}
-\subseteq
-Envelope(Contract_{subsystem})
-$$
+$$Contract_{generator} \subseteq Envelope(Contract_{subsystem})$$
 
 unless the applicable canon establishes another relationship.
 
@@ -401,15 +377,7 @@ These must not be silently treated as the same entity.
 
 For example:
 
-$$
-G_{family}
-\neq
-G_{v3}
-\neq
-Execution(G_{v3},t)
-\neq
-Output(G_{v3},t)
-$$
+$$G_{family} \neq G_{v3} \neq Execution(G_{v3},t) \neq Output(G_{v3},t)$$
 
 ---
 
@@ -432,11 +400,7 @@ dependency bindings
 
 A seed is not equivalent to a validated generator.
 
-$$
-Seed(G)
-\not\Rightarrow
-Valid(G)
-$$
+$$Seed(G) \not\Rightarrow Valid(G)$$
 
 ---
 
@@ -509,9 +473,7 @@ generator_input:
 
 Before generation:
 
-$$
-Admissible(I,G)
-$$
+$$Admissible(I,G)$$
 
 should be established where material.
 
@@ -576,19 +538,15 @@ It is not automatically evidence that the content is correct.
 
 Therefore:
 
-$$
-Output(G)=x
-$$
+$$Output(G)=x$$
 
 supports:
 
-> Generator \(G\) produced \(x\).
+> Generator $G$ produced $x$.
 
 It does not independently support:
 
-$$
-x=True
-$$
+$$x=True$$
 
 ---
 
@@ -690,11 +648,7 @@ routing integration
 
 Passing a finite test suite establishes only the result of those tests under their conditions.
 
-$$
-Pass(TestSet)
-\not\Rightarrow
-UniversalCorrectness
-$$
+$$Pass(TestSet) \not\Rightarrow UniversalCorrectness$$
 
 Tests must retain:
 
@@ -758,18 +712,11 @@ Validation is bounded.
 
 Conceptually:
 
-$$
-V =
-(System,Environment,Scale,Time,Regime,Method,Assumptions)
-$$
+$$V = (System,Environment,Scale,Time,Regime,Method,Assumptions)$$
 
 Therefore:
 
-$$
-Validated(G,V_1)
-\not\Rightarrow
-Validated(G,V_2)
-$$
+$$Validated(G,V_1) \not\Rightarrow Validated(G,V_2)$$
 
 ---
 
@@ -799,11 +746,7 @@ depending on the applicable generator class.
 
 # 25. Admission Is Not Promotion
 
-$$
-Admission
-\neq
-Promotion
-$$
+$$Admission \neq Promotion$$
 
 A generator may be admitted for:
 
@@ -875,11 +818,7 @@ Governance may authorize a status transition.
 
 It cannot make an unsupported empirical claim true.
 
-$$
-Promotion(x)
-\not\Rightarrow
-EmpiricalVerification(x)
-$$
+$$Promotion(x) \not\Rightarrow EmpiricalVerification(x)$$
 
 unless the promotion itself depends on valid empirical verification evidence.
 
@@ -909,25 +848,17 @@ what superseded it
 
 Conceptually:
 
-$$
-G@v_1
-\neq
-G@v_2
-$$
+$$G@v_1 \neq G@v_2$$
 
 even if both belong to the same generator family.
 
 Validation of:
 
-$$
-G@v_1
-$$
+$$G@v_1$$
 
 does not automatically validate:
 
-$$
-G@v_2
-$$
+$$G@v_2$$
 
 ---
 
@@ -949,11 +880,7 @@ Supersession does not erase lineage.
 
 # 32. Supersession Rule
 
-$$
-Superseded(x)
-\neq
-Deleted(x)
-$$
+$$Superseded(x) \neq Deleted(x)$$
 
 Historical artifacts may remain necessary for:
 
@@ -1027,15 +954,11 @@ G2 ← Seed S
 G3 ← Seed S
 ```
 
-and all produce claim \(C\).
+and all produce claim $C$.
 
 Then:
 
-$$
-3\ Outputs
-\neq
-3\ IndependentConfirmations
-$$
+$$3\ Outputs \neq 3\ IndependentConfirmations$$
 
 if the common seed is load-bearing.
 
@@ -1066,11 +989,7 @@ The generator subsystem SHOULD resist false confidence from replicated descendan
 
 Ten generators derived from one unsupported premise do not create ten independent pieces of evidence.
 
-$$
-N \times Descendant(P)
-\not\Rightarrow
-N \times IndependentEvidence(P)
-$$
+$$N \times Descendant(P) \not\Rightarrow N \times IndependentEvidence(P)$$
 
 ---
 
@@ -1147,15 +1066,7 @@ Generators inherit applicable upstream constraints.
 
 Conceptually:
 
-$$
-C_{task}
-\rightarrow
-C_{route}
-\rightarrow
-C_{generator}
-\rightarrow
-C_{output}
-$$
+$$C_{task} \rightarrow C_{route} \rightarrow C_{generator} \rightarrow C_{output}$$
 
 A generator must not silently remove a hard constraint.
 
@@ -1339,19 +1250,11 @@ where applicable.
 
 Benchmark performance is bounded.
 
-$$
-Performance(G,B)
-\not\Rightarrow
-UniversalPerformance(G)
-$$
+$$Performance(G,B) \not\Rightarrow UniversalPerformance(G)$$
 
 and:
 
-$$
-Pass(Benchmark)
-\not\Rightarrow
-UniversalValidity
-$$
+$$Pass(Benchmark) \not\Rightarrow UniversalValidity$$
 
 ---
 
@@ -1406,11 +1309,7 @@ GENERATORS_ROADMAP describes intended or proposed future development.
 
 Roadmap items are prospective.
 
-$$
-Roadmap(x)
-\not\Rightarrow
-Implemented(x)
-$$
+$$Roadmap(x) \not\Rightarrow Implemented(x)$$
 
 Roadmap content SHOULD remain clearly separated from active generator state.
 
@@ -1577,9 +1476,7 @@ G2 → H2
 
 with:
 
-$$
-H_1 \perp H_2
-$$
+$$H_1 \perp H_2$$
 
 If support remains equal, incomparable, correlated, or insufficient, preserve:
 
@@ -1595,13 +1492,7 @@ rather than force convergence.
 
 When generator outputs compete, prefer the cheapest high-information test that can distinguish them.
 
-$$
-Test^*
-=
-\arg\max_T
-\frac{ExpectedInformationGain(T)}
-{Cost(T)}
-$$
+$$Test^* = \arg\max_T \frac{ExpectedInformationGain(T)} {Cost(T)}$$
 
 subject to integrity and governance constraints.
 
@@ -1611,23 +1502,11 @@ subject to integrity and governance constraints.
 
 Generator output must not silently cross from structural/model similarity into causal assertion.
 
-$$
-Similarity
-\not\Rightarrow
-Causation
-$$
+$$Similarity \not\Rightarrow Causation$$
 
-$$
-Sequence
-\not\Rightarrow
-Causation
-$$
+$$Sequence \not\Rightarrow Causation$$
 
-$$
-Correlation
-\not\Rightarrow
-CausalEffect
-$$
+$$Correlation \not\Rightarrow CausalEffect$$
 
 Causal outputs require appropriately typed support.
 
@@ -1675,18 +1554,9 @@ A generator's derived confidence cannot exceed its weakest load-bearing premise 
 
 Conceptually:
 
-$$
-Conf(O)
-\le
-\min(
-Conf(P_1),
-Conf(P_2),
-...,
-Conf(P_n)
-)
-$$
+$$Conf(O) \le \min( Conf(P_1), Conf(P_2), ..., Conf(P_n) )$$
 
-for load-bearing premises \(P_i\), absent independent evidence that changes the dependency structure.
+for load-bearing premises $P_i$, absent independent evidence that changes the dependency structure.
 
 ---
 
@@ -1966,11 +1836,7 @@ generally denotes individual-generator concerns.
 
 For example:
 
-$$
-GENERATOR\_VALIDATION
-\neq
-GENERATORS\_VALIDATION
-$$
+$$GENERATOR\_VALIDATION \neq GENERATORS\_VALIDATION$$
 
 The former may validate one generator.
 
@@ -2239,11 +2105,7 @@ Relations should remain typed and must not be interpreted beyond their defined s
 
 Because this is a reference artifact:
 
-$$
-ReferenceMap
-\neq
-PrimaryCanon
-$$
+$$ReferenceMap \neq PrimaryCanon$$
 
 If this map conflicts with a valid higher-authority contract or current provenance-backed registry, the conflict must be surfaced and resolved through the applicable governance process.
 
@@ -2269,19 +2131,7 @@ the map SHOULD preserve the historical relationship when relevant rather than si
 
 All generator subsystem interpretation remains governed by:
 
-$$
-\boxed{
-Integrity
->
-Completeness
->
-Fluency
->
-Speed
->
-TokenSavings
-}
-$$
+$$\boxed{ Integrity > Completeness > Fluency > Speed > TokenSavings }$$
 
 This means a missing generator reference should remain a visible gap rather than being filled with invented content.
 
@@ -2316,19 +2166,7 @@ because these functions establish different things.
 
 The key distinction is:
 
-$$
-\boxed{
-Creation
-\neq
-Validation
-\neq
-Admission
-\neq
-Promotion
-\neq
-Canon
-}
-$$
+$$\boxed{ Creation \neq Validation \neq Admission \neq Promotion \neq Canon }$$
 
 ---
 
@@ -2475,27 +2313,11 @@ The generator map exists to answer:
 
 Therefore:
 
-$$
-\boxed{
-Map
-\rightarrow
-RelevantArtifact
-\rightarrow
-RequiredDependencies
-\rightarrow
-Evidence\ if\ required
-}
-$$
+$$\boxed{ Map \rightarrow RelevantArtifact \rightarrow RequiredDependencies \rightarrow Evidence\ if\ required }$$
 
 rather than:
 
-$$
-\boxed{
-Map
-\rightarrow
-LoadEverything
-}
-$$
+$$\boxed{ Map \rightarrow LoadEverything }$$
 
 The map preserves topology.
 

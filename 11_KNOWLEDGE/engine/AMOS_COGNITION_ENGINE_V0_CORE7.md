@@ -1,15 +1,20 @@
 ---
 title: AMOS COGNITION ENGINE V0 CORE7
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: biology
 canon-type: framework
 rscf-state: source-claim
 topic: amos-cognition-engine-v0
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-cognition-engine-v0, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
+# AMOS COGNITION ENGINE V0 CORE7
 
 ```json
 [

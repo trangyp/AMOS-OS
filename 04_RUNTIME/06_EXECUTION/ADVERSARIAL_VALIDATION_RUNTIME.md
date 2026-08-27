@@ -1,6 +1,7 @@
 ---
-title: "Adversarial Validation Runtime"
+title: "Adversarial Validation Runtime Specification"
 type: runtime
+source: 04_RUNTIME/06_EXECUTION
 artifact: "ADVERSARIAL_VALIDATION_RUNTIME.md"
 artifact_id: "amos_04_runtime_06_execution_adversarial_validation_runtime"
 origin_architect: "Trang Phan"
@@ -8,208 +9,111 @@ steward: "Trang Phan"
 system: "AMOS OS"
 plane: "04_RUNTIME"
 segment: "04_RUNTIME/06_EXECUTION"
-artifact_kind: "RUNTIME"
+artifact_kind: "RUNTIME_SPEC"
 path: "04_RUNTIME/06_EXECUTION/ADVERSARIAL_VALIDATION_RUNTIME.md"
 
-tags: [amos_os, runtime, execution, 04_runtime, canon_placeholder, rscf]
+tags:
+  - amos_os
+  - runtime
+  - vault
+  - 04_runtime
+  - 06_execution
+  - adversarial_validation_runtime
+  - stress_testing
+  - falsifier_synthesis
+  - rscf
+  - canon_candidate
+  - canon/runtime
 
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
+validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+
+ingestion_action: "NATIVE_CANON_INGESTION"
+raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+
+rscf:
+  state: SOURCE_GROUNDED
+  claim_class: AMOS_MODEL
+  provenance:
+    - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
+    - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
+    - AMOS_CORPUS
+  scope:
+    - RUNTIME_EXECUTION
+    - ADVERSARIAL_VALIDATION
+    - SOURCE_DEFINED_MODEL
+
+framework_binding:
+  execution_moc:
+    artifact: "[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]"
+  law_of_law:
+    artifact: "[[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]"
+
+epistemic_boundary:
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  spec_structure: VERIFIED_SOURCE_STRUCTURE
+  execution_algorithm: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
 ---
 
+# Adversarial Validation Runtime Specification
 
+`ADVERSARIAL_VALIDATION_RUNTIME.md` is the canonical Runtime Plane specification governing automated red-teaming, falsifier synthesis, and boundary stress-testing within `04_RUNTIME/06_EXECUTION`.
 
-# Adversarial Validation Runtime
+---
 
-## 0. Status
-
-`ADVERSARIAL_VALIDATION_RUNTIME.md` is an **ADD-ONLY placeholder** for the **Runtime** plane segment at `04_RUNTIME/06_EXECUTION`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+# 1. Adversarial Falsification Loop
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+  Proposed Theorem / Model Output ($M$)
+     │
+  1. Automated Falsifier Generation (Edge-Case Counterexample Synthesis)
+     │
+  2. Invariant Stress Testing (Law of Law: \mathcal{C}, \mathcal{E}, \mathcal{F})
+     │
+  3. Epistemic Boundary Probing (Tests model assumptions against non-compensatory bounds)
+     │
+  4. Robustness Verification Score Emitted ($R \ge 0.95$ required for commit)
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+# 2. Inter-Plane & Vault Connections
+
+- **Execution MOC:** [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]
+- **Law of Law:** [[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]
+- **DFAI Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY]]
 
 ---
 
-## 1. Purpose
-
-This artifact reserves the **Adversarial Validation Runtime** slot within the Runtime plane. The Runtime plane governs execution substrate binding kernel contracts to runnable operators under v4.4 runtime rules.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
+# 3. RSCF Contract
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+RSCF:
+  node_id: amos_04_runtime_06_execution_adversarial_validation_runtime
+  node_type: runtime_spec
+  claim_class: AMOS_MODEL
+  state: SOURCE_GROUNDED
+  H:
+    identity: "Adversarial Validation Runtime Specification"
+    role: "Automated red-teaming and falsifier synthesis engine for robust proof validation"
+  M:
+    falsification_loop: [falsifier_generation, invariant_stress_test, epistemic_probing, robustness_scoring]
+  confidence_ceiling:
+    source_model: SOURCE_BOUND
+    runtime: UNKNOWN
 ```
 
 ---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]
 
 ---
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `04_RUNTIME · RUNTIME` within the Runtime plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-00_ROOT_MOC|AMOS MOC
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_04_runtime_06_execution_adversarial_validation_runtime
-
-node_type: runtime
-
-path: 04_RUNTIME/06_EXECUTION/ADVERSARIAL_VALIDATION_RUNTIME.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
-
----
-**MOC:** [[06_EXECUTION_MOC]]
+**MOC:** [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]

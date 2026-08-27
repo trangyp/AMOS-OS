@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-bundle-manifold-concentration-rscf-engine]
+source: 07_SKILLS/amos-bundle-manifold-concentration-rscf-engine/references
+tags: [reference, amos-bundle-manifold-concentration-rscf-engine, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -221,3 +228,7 @@ A bridge is correct while
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

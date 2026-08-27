@@ -1,6 +1,7 @@
 ---
 title: "Biological Emotion Regulation"
 type: emotion
+source: 05_COGNITIVE_ORGANISM/07_EMOTION_REGULATION
 artifact: "BIOLOGICAL_EMOTION_REGULATION.md"
 artifact_id: "amos_05_cognitive_organism_07_emotion_regulation_biological_emotion_regulation"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "05_COGNITIVE_ORGANISM/07_EMOTION_REGULATION"
 artifact_kind: "REGULATION"
 path: "05_COGNITIVE_ORGANISM/07_EMOTION_REGULATION/BIOLOGICAL_EMOTION_REGULATION.md"
 
-tags: [amos_os, cognitive, organism, 05_cognitive_organism, regulation, canon_placeholder, rscf]
+tags: [amos_os, cognitive, organism, 05_cognitive_organism, regulation, canon_placeholder, rscf, canon/cognitive]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Biological Emotion Regulation

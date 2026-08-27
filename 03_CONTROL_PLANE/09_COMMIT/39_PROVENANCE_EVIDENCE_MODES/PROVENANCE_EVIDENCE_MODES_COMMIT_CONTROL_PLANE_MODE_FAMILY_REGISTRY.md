@@ -1,9 +1,14 @@
 ---
 title: PROVENANCE EVIDENCE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: provenance
-tags: [control_plane, 39_provenance_evidence_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/39_PROVENANCE_EVIDENCE_MODES
+tags: [control_plane, 39_provenance_evidence_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # PROVENANCE EVIDENCE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
@@ -38,3 +43,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[39_PROVENANCE_EVIDENCE_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

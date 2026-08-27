@@ -1,23 +1,18 @@
 ---
 title: ECO VALUE
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
 # Eco value
-Yes — **that stack is internally consistent and pushes value to the ceiling** , not just the IPO. Let me tighten it and make the logic explicit, in **capital-market language** , not hype.
-* * *
-## The upgraded stack (max value version)
-**VN → conversion + policy flexibility**
-Vietnam is where _constrained inputs_ are legally transformed:
-  * trapped Chinese capital → FDI / equipment / IP / tech equity
-
-
   * distressed legacy → clean NewCo
 
 
@@ -362,7 +357,7 @@ Mai Linh không cạnh tranh ứng dụng. Mai Linh tái định nghĩa mình th
 Vi phạm bất kỳ nguyên tắc nào, hệ thống sẽ tự thoái hóa thành **app/BI/đổi mới số bề mặt**.
 * * *
 ## **II. KIẾN TRÚC 3 LỚP**
-### **🔒 LỚP 1 — AI + TECH & DATA INFRASTRUCTURE (HẠ TẦNG QUYẾT ĐỊNH)**
+### **LỚP 1 — AI + TECH & DATA INFRASTRUCTURE (HẠ TẦNG QUYẾT ĐỊNH)**
   * Không marketing
 
 
@@ -381,7 +376,7 @@ Vi phạm bất kỳ nguyên tắc nào, hệ thống sẽ tự thoái hóa thà
   * Mọi logic “cho phép/giới hạn/từ chối” **nằm ở đây** và **chỉ ở đây**
 
 
-### **🧩 LỚP 2 — PRODUCT PRIMITIVES (NĂNG LỰC BÁN ĐƯỢC)**
+### **LỚP 2 — PRODUCT PRIMITIVES (NĂNG LỰC BÁN ĐƯỢC)**
   * Trừu tượng hóa năng lực của Lớp 1 thành “gói” bán được
 
 

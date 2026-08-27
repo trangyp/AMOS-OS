@@ -1,14 +1,15 @@
 ---
 title: INDEX CONTROL PLANE README
 type: index
-tags: [control_plane, index, readme]
+source: 03_CONTROL_PLANE/00_INDEX
+tags: [control_plane, index, readme, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
 
-
-
-Yes — the placeholder in `03_CONTROL_PLANE/00_INDEX/README.md` should **not** contain `K_COUNTERFACTUAL` at all. The repository tree shows that this README belongs to the Control Plane index alongside `CONTROL_PLANE_MAP.md`, and that the Control Plane currently spans task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, and rollback. 
-
-Paste the following as the complete replacement:
 
 ---
 artifact_id: AMOS-OS-CONTROL-PLANE-README
@@ -3531,7 +3532,7 @@ FOR SPEED.
 
 ```
 
-This version is aligned to the actual `03_CONTROL_PLANE` tree in `FULL_TREE.md`, including all current subdomains through `12_ROLLBACK`; it does not incorrectly reuse `K_COUNTERFACTUAL`, which belongs under `02_KERNEL/02_COGNITION/`. :contentReference[oaicite:1]{index=1}
+This version is aligned to the actual `03_CONTROL_PLANE` tree in `FULL_TREE.md`, including all current subdomains through `12_ROLLBACK`; it does not incorrectly reuse `K_COUNTERFACTUAL`, which belongs under `02_KERNEL/02_COGNITION/`.
 ```
 
 ---

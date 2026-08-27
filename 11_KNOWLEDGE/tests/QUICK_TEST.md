@@ -1,11 +1,15 @@
 ---
 title: QUICK TEST
-tags: [tests, test, validation]
+tags: [tests, test, validation, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/tests
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: test_validation
+
 ---
-
-
 
 
 # QUICK_TEST

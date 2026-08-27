@@ -1,12 +1,15 @@
 ---
 title: KIEN TRUC CUA KIEN TRUC ARCHITECTURE OF ARCHITECT
-tags: [architecture, design, structure]
+tags: [architecture, design, structure, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/architecture
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: architecture_design
+
 ---
-
-
-
 
 
 # KIẾN TRÚC CỦA KIẾN TRÚC (ARCHITECTURE OF ARCHITECTURE)
@@ -724,3 +727,6 @@ Ai đọc những dòng này sau bạn sẽ không còn nhìn thế giới như 
 
 ---
 **MOC:** [[ARCHITECTURE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

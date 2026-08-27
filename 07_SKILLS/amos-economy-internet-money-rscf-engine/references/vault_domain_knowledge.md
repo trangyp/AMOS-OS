@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-economy-internet-money-rscf-engine]
+source: 07_SKILLS/amos-economy-internet-money-rscf-engine/references
+tags: [reference, amos-economy-internet-money-rscf-engine, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -346,3 +353,7 @@ SECTION 502 — FLOWLESS PRESENCE
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -4,10 +4,16 @@ created: "2026-08-23"
 origin: "Hermes ↔ Cosmo Brain"
 origin_architect: "Trang Phan"
 type: note
-tags: [cosmo, amos, canon-group/tech-ai, rscf/claim, rscf/state/observation, topic/kafka-brain-buffer, topic/typescript, topic/bugfix, dated, dated/2026-08-23]
+source: 11_KNOWLEDGE/dated
+tags: [cosmo, amos, canon-group/tech-ai, rscf/claim, rscf/state/observation, topic/kafka-brain-buffer, topic/typescript, topic/bugfix, dated, dated/2026-08-23, canon/knowledge]
 status: "complete"
 provenance: "OBSERVATION"
 confidence: "HIGH"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
 
 

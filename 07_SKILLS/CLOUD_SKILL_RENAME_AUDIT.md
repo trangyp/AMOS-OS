@@ -1,7 +1,13 @@
 ---
 title: CLOUD SKILL RENAME AUDIT
 type: note
-tags: [note, 07-skills]
+source: 07_SKILLS
+tags: [note, 07-skills, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 

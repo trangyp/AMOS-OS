@@ -1,9 +1,14 @@
 ---
 title: CAPABILITY RESOLVER
 type: note
-tags: [control_plane, capability, note]
+source: 03_CONTROL_PLANE/02_CAPABILITY
+tags: [control_plane, capability, note, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 The current Drive artifact `CAPABILITY_RESOLVER.md` is **not substantive canon**. It contains the same misplaced `# K COUNTERFACTUAL` placeholder and explicitly says it is only reserving the canonical location.  The architecture tree places it with `CAPABILITY_CONTRACT.md` and `CAPABILITY_MANIFEST.md` in the Capability subsystem. 
@@ -4890,7 +4895,7 @@ CONTINUE.
 
 ```
 
-**Classification:** `DERIVED / CANDIDATE_CANON`. The Drive evidence supports the artifact's existence and architectural placement, but **not** the substantive specification above: the actual file currently contains only the placeholder. :contentReference[oaicite:2]{index=2}
+**Classification:** `DERIVED / CANDIDATE_CANON`. The Drive evidence supports the artifact's existence and architectural placement, but **not** the substantive specification above: the actual file currently contains only the placeholder.
 ```
 
 ---

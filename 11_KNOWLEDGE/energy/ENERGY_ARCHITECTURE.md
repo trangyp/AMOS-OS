@@ -1,13 +1,16 @@
 ---
 title: ENERGY ARCHITECTURE
-tags: [energy, power, green]
+tags: [energy, power, green, canon/knowledge]
 type: data
 source: 11_KNOWLEDGE/energy
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: energy_system
+
 ---
-
-
-
-
+# ENERGY ARCHITECTURE
 
 ```json
 {

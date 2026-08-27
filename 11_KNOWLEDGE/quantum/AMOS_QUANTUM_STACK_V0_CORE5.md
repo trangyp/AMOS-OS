@@ -1,14 +1,19 @@
 ---
 title: AMOS QUANTUM STACK V0 CORE5
 type: quantum
+source: 11_KNOWLEDGE/quantum
 canon-group: quantum
 canon-type: os-module
 rscf-state: source-claim
 topic: amos-quantum-stack-v0
 tags: [canon-group/quantum, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-quantum-stack-v0, quantum]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: quantum_reasoning
 ---
-
 
 
 # AMOS_Quantum_Stack_v0

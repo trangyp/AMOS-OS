@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX ROUTING CONTRACT
 type: cognitive
-tags: [cognitive_matrix, cognitive_matrix_routing_contract.md]
+source: 25_COGNITIVE_MATRIX/10_ROUTING
+tags: [cognitive_matrix, cognitive_matrix_routing_contract.md, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # COGNITIVE MATRIX ROUTING CONTRACT
@@ -75,3 +80,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[10_ROUTING_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

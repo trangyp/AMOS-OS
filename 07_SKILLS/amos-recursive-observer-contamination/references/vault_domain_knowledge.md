@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-recursive-observer-contamination]
+source: 07_SKILLS/amos-recursive-observer-contamination/references
+tags: [reference, amos-recursive-observer-contamination, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -222,3 +229,7 @@ Benchmark claims are bounded to the recorded test corpus/environment and must no
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

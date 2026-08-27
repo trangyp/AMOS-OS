@@ -1,15 +1,20 @@
 ---
 title: "TRANG ∅ / AMOS FOREX FRACTAL FIELD ENGINE"
 type: fractal
+source: 11_KNOWLEDGE/fractal
 subtitle: "Deep Canon-to-Empirical Architecture for Hexagon, Spiral, Entropy, Lacunarity, Cascade, Tát 2 and XAUUSD/FX"
 origin_architect: "Trang Phan"
 runtime_target: "AMOS_CORE v4.4 lineage + AMOS Forex Unified OS"
 version: "2.0-deep"
 status: "SOURCE_CANON_PRESERVED__EMPIRICAL_FIREWALL_ACTIVE"
 epistemic_classes: [SOURCE_CANON, SOURCE_CLAIM, OBSERVATION, DERIVED, AMOS_MODEL, CONDITIONAL, COMPETING, VERIFIED, UNKNOWN]
-tags: [fractal, math, self-similarity]
+tags: [fractal, math, self-similarity, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: fractal_system
 ---
-
 
 
 # 0. MASTER POSITION
@@ -20,22 +25,11 @@ It is a **domain projection of Trang ∅ into the AMOS Forex runtime**.
 
 The source architecture is preserved rather than deleted:
 
-\[
-\varnothing \rightarrow Possibility \rightarrow Asymmetry \rightarrow Distinction
-\rightarrow Relation \rightarrow Constraint \rightarrow Boundary \rightarrow Persistence
-\rightarrow Memory \rightarrow Entropy \rightarrow Mutation \rightarrow Selection
-\rightarrow Repair \rightarrow Recursion
-\]
+$$\varnothing \rightarrow Possibility \rightarrow Asymmetry \rightarrow Distinction \rightarrow Relation \rightarrow Constraint \rightarrow Boundary \rightarrow Persistence \rightarrow Memory \rightarrow Entropy \rightarrow Mutation \rightarrow Selection \rightarrow Repair \rightarrow Recursion$$
 
 Forex is mapped onto that grammar as a **model layer**:
 
-\[
-\mathcal F^{FX}_t =
-\mathcal P_I\{
-B_t,C_t,K_t,L_t,M_t,H_t,\Lambda_t,E_t,\mu_t,\sigma_t,
-R_t,D_t,I_t,Q_t,\Pi_t,\Xi_t,\Gamma_t,\Omega_t,\Psi_t
-\}
-\]
+$$\mathcal F^{FX}_t = \mathcal P_I\{ B_t,C_t,K_t,L_t,M_t,H_t,\Lambda_t,E_t,\mu_t,\sigma_t, R_t,D_t,I_t,Q_t,\Pi_t,\Xi_t,\Gamma_t,\Omega_t,\Psi_t \}$$
 
 where every symbol receives a market measurement contract before empirical use.
 
@@ -96,10 +90,7 @@ These remain attributable to Trang's source architecture.
 
 For Forex, each canon object must compile to one or more **observable candidates**:
 
-\[
-Compile_{FX}: CanonObject \rightarrow
-\{FeatureSpec, StateSpec, TransitionSpec, Falsifier\}
-\]
+$$Compile_{FX}: CanonObject \rightarrow \{FeatureSpec, StateSpec, TransitionSpec, Falsifier\}$$
 
 No candidate receives empirical status until its contract is frozen and tested.
 
@@ -109,32 +100,30 @@ No candidate receives empirical status until its contract is frozen and tested.
 
 Start from the source state:
 
-\[
-S(t)=\{B,C,K,L,M,H,\Lambda,E,\mu,\sigma,F,R,D,I,Q,\epsilon,\Pi,\Xi,\Gamma,\Omega,\Psi\}
-\]
+$$S(t)=\{B,C,K,L,M,H,\Lambda,E,\mu,\sigma,F,R,D,I,Q,\epsilon,\Pi,\Xi,\Gamma,\Omega,\Psi\}$$
 
 Forex projection:
 
 | Trang variable | FX interpretation | Measurement candidate | Class before validation |
 |---|---|---|---|
-| \(B\) | market boundary | range edge, liquidity boundary, structural S/R persistence | AMOS_MODEL |
-| \(C\) | constraint | spread, funding, rate differential, liquidity, volatility constraint | DERIVED |
-| \(K\) | memory | lag structure, hysteresis, path dependence, state persistence | AMOS_MODEL |
-| \(L,M,H\) | recursive scale | slow / decision / fast state relative to horizon | DERIVED |
-| \(\Lambda\) | structured gap | price-time occupancy lacunarity, liquidity void topology | AMOS_MODEL |
-| \(E\) | unresolved state complexity | entropy estimator over returns/states/regime posterior | AMOS_MODEL |
-| \(\mu\) | mutation | state innovation, jump, structural break | AMOS_MODEL |
-| \(\sigma\) | survival/selection | persistence of a candidate structure after perturbation | AMOS_MODEL |
-| \(F\) | transformation | state-transition operator | AMOS_MODEL |
-| \(R\) | repair | recovery toward viable state after shock | AMOS_MODEL |
-| \(D\) | degradation/debt | drawdown, instability, accumulated execution/forecast error | AMOS_MODEL |
-| \(I\) | integrity | cross-scale consistency + calibration + state coherence | AMOS_MODEL |
-| \(Q\) | quality | bounded evidence/forecast quality score | AMOS_MODEL |
-| \(\Pi\) | observer/environment | venue/feed/session/macro environment | DERIVED |
-| \(\Xi\) | perturbation | innovation / shock field | DERIVED |
-| \(\Gamma\) | constraint propagation | cross-market / portfolio / liquidity propagation | AMOS_MODEL |
-| \(\Omega\) | governing state | regime / global state | AMOS_MODEL |
-| \(\Psi\) | consequence | PnL/tail/exposure consequence state | DERIVED |
+| $B$ | market boundary | range edge, liquidity boundary, structural S/R persistence | AMOS_MODEL |
+| $C$ | constraint | spread, funding, rate differential, liquidity, volatility constraint | DERIVED |
+| $K$ | memory | lag structure, hysteresis, path dependence, state persistence | AMOS_MODEL |
+| $L,M,H$ | recursive scale | slow / decision / fast state relative to horizon | DERIVED |
+| $\Lambda$ | structured gap | price-time occupancy lacunarity, liquidity void topology | AMOS_MODEL |
+| $E$ | unresolved state complexity | entropy estimator over returns/states/regime posterior | AMOS_MODEL |
+| $\mu$ | mutation | state innovation, jump, structural break | AMOS_MODEL |
+| $\sigma$ | survival/selection | persistence of a candidate structure after perturbation | AMOS_MODEL |
+| $F$ | transformation | state-transition operator | AMOS_MODEL |
+| $R$ | repair | recovery toward viable state after shock | AMOS_MODEL |
+| $D$ | degradation/debt | drawdown, instability, accumulated execution/forecast error | AMOS_MODEL |
+| $I$ | integrity | cross-scale consistency + calibration + state coherence | AMOS_MODEL |
+| $Q$ | quality | bounded evidence/forecast quality score | AMOS_MODEL |
+| $\Pi$ | observer/environment | venue/feed/session/macro environment | DERIVED |
+| $\Xi$ | perturbation | innovation / shock field | DERIVED |
+| $\Gamma$ | constraint propagation | cross-market / portfolio / liquidity propagation | AMOS_MODEL |
+| $\Omega$ | governing state | regime / global state | AMOS_MODEL |
+| $\Psi$ | consequence | PnL/tail/exposure consequence state | DERIVED |
 
 This preserves the source ontology while preventing symbol-to-market overclaim.
 
@@ -142,24 +131,17 @@ This preserves the source ontology while preventing symbol-to-market overclaim.
 
 # 3. H/M/L IS RECURSIVE, NOT THREE TIMEFRAMES
 
-For target horizon \(h^\*\):
+For target horizon $h^\*$:
 
-\[
-\mathcal HML(h^\*)=
-\{L(h^\*),M(h^\*),H(h^\*)\}
-\]
+$$\mathcal HML(h^\*)= \{L(h^\*),M(h^\*),H(h^\*)\}$$
 
-- \(L\): slow governing/background field
-- \(M\): decision-scale mediator
-- \(H\): fast local realization/execution field
+- $L$: slow governing/background field
+- $M$: decision-scale mediator
+- $H$: fast local realization/execution field
 
 Each scale recursively decomposes:
 
-\[
-L=(L_L,L_M,L_H),\quad
-M=(M_L,M_M,M_H),\quad
-H=(H_L,H_M,H_H)
-\]
+$$L=(L_L,L_M,L_H),\quad M=(M_L,M_M,M_H),\quad H=(H_L,H_M,H_H)$$
 
 Example for XAUUSD 4h target:
 
@@ -184,15 +166,9 @@ The mapping is horizon-, venue-, session-, and data-dependent.
 
 Cross-scale integrity candidate:
 
-\[
-A_{HML,t}
-=
-1-\frac{
-d(z_L,z_M)+d(z_M,z_H)+d(z_H,z_L)
-}{3d_{max}}
-\]
+$$A_{HML,t} = 1-\frac{ d(z_L,z_M)+d(z_M,z_H)+d(z_H,z_L) }{3d_{max}}$$
 
-where \(z_X\) are normalized state embeddings and \(d\) is frozen before testing.
+where $z_X$ are normalized state embeddings and $d$ is frozen before testing.
 
 This is `AMOS_MODEL`, not a universal physical equation.
 
@@ -204,9 +180,7 @@ Trang canon treats hexagonal structure as stable adjacency/recursion. In Forex, 
 
 Define a market neighborhood graph:
 
-\[
-G_t=(V_t,E_t,W_t)
-\]
+$$G_t=(V_t,E_t,W_t)$$
 
 Nodes may represent:
 - price-volume cells;
@@ -217,29 +191,11 @@ Nodes may represent:
 
 A candidate **hexagonal stability tensor**:
 
-\[
-\mathcal X^{hex}_t=
-[
-DegSym_t,\,
-Rec_t,\,
-Boundary_t,\,
-Closure_t,\,
-Occupancy_t,\,
-Persistence_t
-]
-\]
+$$\mathcal X^{hex}_t= [ DegSym_t,\, Rec_t,\, Boundary_t,\, Closure_t,\, Occupancy_t,\, Persistence_t ]$$
 
 with:
 
-\[
-HexCoherence_t =
-w_1 DegSym_t+
-w_2 Rec_t+
-w_3 Boundary_t+
-w_4 Closure_t+
-w_5 Occupancy_t+
-w_6 Persistence_t
-\]
+$$HexCoherence_t = w_1 DegSym_t+ w_2 Rec_t+ w_3 Boundary_t+ w_4 Closure_t+ w_5 Occupancy_t+ w_6 Persistence_t$$
 
 Weights must be frozen or learned strictly inside TRAIN.
 
@@ -272,54 +228,31 @@ The source associates spiral/Fibonacci with memory-bearing growth.
 
 Forex translation should test **scale-memory propagation**, not visual spiral drawing.
 
-Let directional displacement at scale \(s\) be:
+Let directional displacement at scale $s$ be:
 
-\[
-D_t(s)=P_t-P_{t-s}
-\]
+$$D_t(s)=P_t-P_{t-s}$$
 
 and scale ratio:
 
-\[
-\rho_t(s_1,s_2)
-=
-\frac{|D_t(s_2)|+\epsilon}
-{|D_t(s_1)|+\epsilon}
-\]
+$$\rho_t(s_1,s_2) = \frac{|D_t(s_2)|+\epsilon} {|D_t(s_1)|+\epsilon}$$
 
 A Fibonacci/spiral hypothesis asks whether transition ratios cluster persistently near a frozen family:
 
-\[
-\Phi=\{\phi^{-2},\phi^{-1},1,\phi,\phi^2\}
-\]
+$$\Phi=\{\phi^{-2},\phi^{-1},1,\phi,\phi^2\}$$
 
 Define distance:
 
-\[
-d_\phi(\rho)=\min_{\varphi\in\Phi}|\log \rho-\log \varphi|
-\]
+$$d_\phi(\rho)=\min_{\varphi\in\Phi}|\log \rho-\log \varphi|$$
 
 and candidate resonance:
 
-\[
-FiboRes_t=\exp[-d_\phi(\rho_t)/\tau]
-\]
+$$FiboRes_t=\exp[-d_\phi(\rho_t)/\tau]$$
 
 But a serious test requires a null model. If the same clustering appears under surrogate/randomized paths preserving volatility and autocorrelation, the "Fibonacci" interpretation fails.
 
 A deeper spiral tensor:
 
-\[
-\mathcal S^{spiral}_t=
-[
-Direction_t,\,
-Expansion_t,\,
-Curvature_t,\,
-Memory_t,\,
-ScaleRatio_t,\,
-PhasePersistence_t
-]
-\]
+$$\mathcal S^{spiral}_t= [ Direction_t,\, Expansion_t,\, Curvature_t,\, Memory_t,\, ScaleRatio_t,\, PhasePersistence_t ]$$
 
 This preserves Trang's spiral concept while making it falsifiable.
 
@@ -329,56 +262,37 @@ This preserves Trang's spiral concept while making it falsifiable.
 
 The canon contains normalized Shannon entropy:
 
-\[
-E_X=-\frac{1}{\ln N}\sum_i p_i\ln p_i
-\]
+$$E_X=-\frac{1}{\ln N}\sum_i p_i\ln p_i$$
 
 Forex requires typed entropy channels.
 
 ## 6.1 Return-state entropy
 
-\[
-E^r_t=H_N(Bin(r_{t-w:t}))
-\]
+$$E^r_t=H_N(Bin(r_{t-w:t}))$$
 
 ## 6.2 Permutation entropy
 
-\[
-E^{perm}_t=
--\frac{1}{\log(m!)}
-\sum_\pi p(\pi)\log p(\pi)
-\]
+$$E^{perm}_t= -\frac{1}{\log(m!)} \sum_\pi p(\pi)\log p(\pi)$$
 
 ## 6.3 Regime entropy
 
-\[
-E^{reg}_t=
--\frac{\sum_k p_t(k)\log p_t(k)}{\log K}
-\]
+$$E^{reg}_t= -\frac{\sum_k p_t(k)\log p_t(k)}{\log K}$$
 
 ## 6.4 Directional entropy
 
-For \(p^\uparrow,p^\downarrow,p^0\):
+For $p^\uparrow,p^\downarrow,p^0$:
 
-\[
-E^{dir}_t=-\frac{\sum_jp_j\log p_j}{\log3}
-\]
+$$E^{dir}_t=-\frac{\sum_jp_j\log p_j}{\log3}$$
 
 ## 6.5 Cross-scale entropy
 
-\[
-E^{HML}_t=
-w_LE^L_t+w_ME^M_t+w_HE^H_t
-\]
+$$E^{HML}_t= w_LE^L_t+w_ME^M_t+w_HE^H_t$$
 
 The source thresholds such as `0.05`, `0.1–0.2`, `0.3` are retained as **SOURCE_CANON thresholds**. They do not become Forex thresholds automatically.
 
 Forex thresholds must be calibrated:
 
-\[
-\theta_E=
-f(pair,cadence,horizon,estimator,window,regime,session)
-\]
+$$\theta_E= f(pair,cadence,horizon,estimator,window,regime,session)$$
 
 Hence:
 
@@ -391,38 +305,25 @@ E_fx_threshold     = EMPIRICALLY_CALIBRATED_PARAMETER
 
 # 7. LACUNARITY FIELD — STRUCTURED VOID
 
-Trang's \(\Lambda\) is not deleted. It is given a market substrate.
+Trang's $\Lambda$ is not deleted. It is given a market substrate.
 
-Choose representation \(R\):
+Choose representation $R$:
 - price-time occupancy;
 - return-state occupancy;
 - liquidity-depth occupancy;
 - volatility-state occupancy.
 
-For box scale \(r\), let mass be \(M_r\).
+For box scale $r$, let mass be $M_r$.
 
-\[
-\Lambda_t(r)
-=
-\frac{\mathrm{Var}[M_r]}
-{\mathrm{E}[M_r]^2}
-\]
+$$\Lambda_t(r) = \frac{\mathrm{Var}[M_r]} {\mathrm{E}[M_r]^2}$$
 
 A multiscale lacunarity spectrum:
 
-\[
-\mathbf\Lambda_t=
-[\Lambda_t(r_1),...,\Lambda_t(r_n)]
-\]
+$$\mathbf\Lambda_t= [\Lambda_t(r_1),...,\Lambda_t(r_n)]$$
 
 and slope:
 
-\[
-\beta_{\Lambda,t}
-=
-\frac{d\log\Lambda_t(r)}
-{d\log r}
-\]
+$$\beta_{\Lambda,t} = \frac{d\log\Lambda_t(r)} {d\log r}$$
 
 Candidate interpretations:
 
@@ -443,9 +344,7 @@ Those interpretations remain representation-specific.
 
 Instead of asserting the source logistic relation as market law, test it:
 
-\[
-\mathcal P_t=(E_t,\Lambda_t)
-\]
+$$\mathcal P_t=(E_t,\Lambda_t)$$
 
 Estimate empirical phase regions:
 
@@ -459,9 +358,7 @@ COLLAPSE_RISK
 
 Then compare the observed mapping against the Trang source approximation:
 
-\[
-\Lambda \approx \frac{1}{1+e^{-k(E-0.5)}}
-\]
+$$\Lambda \approx \frac{1}{1+e^{-k(E-0.5)}}$$
 
 If rejected, preserve the source equation as canon but do not use it for FX decisions.
 
@@ -471,25 +368,15 @@ If rejected, preserve the source equation as canon but do not use it for FX deci
 
 Source:
 
-\[
-S_{t+1}=C(F(S_t,U_t,\xi_t))
-\]
+$$S_{t+1}=C(F(S_t,U_t,\xi_t))$$
 
 Forex projection:
 
-\[
-\tilde S_{t+1}
-=
-F_\theta(S_t,U_t,\xi_t)
-\]
+$$\tilde S_{t+1} = F_\theta(S_t,U_t,\xi_t)$$
 
-\[
-S_{t+1}
-=
-C_{\mathcal K_t}(\tilde S_{t+1})
-\]
+$$S_{t+1} = C_{\mathcal K_t}(\tilde S_{t+1})$$
 
-where \(C_{\mathcal K_t}\) tests whether a candidate state survives:
+where $C_{\mathcal K_t}$ tests whether a candidate state survives:
 - transaction costs;
 - regime consistency;
 - temporal validity;
@@ -500,17 +387,7 @@ where \(C_{\mathcal K_t}\) tests whether a candidate state survives:
 
 Mutation tensor:
 
-\[
-\mu_t=
-[
-Jump_t,
-Break_t,
-VolInnovation_t,
-CorrelationBreak_t,
-MacroSurprise_t,
-LiquidityShock_t
-]
-\]
+$$\mu_t= [ Jump_t, Break_t, VolInnovation_t, CorrelationBreak_t, MacroSurprise_t, LiquidityShock_t ]$$
 
 Survival is not "price went up." It is persistence of a candidate structure under the declared constraints.
 
@@ -520,60 +397,23 @@ Survival is not "price went up." It is persistence of a candidate structure unde
 
 Use Trang's persistence spine:
 
-\[
-Persistence
-\sim
-Boundary \times Continuity \times Feedback \times Memory
-\times Energy \times Coherence \times Adaptation
-\]
+$$Persistence \sim Boundary \times Continuity \times Feedback \times Memory \times Energy \times Coherence \times Adaptation$$
 
 Forex MODEL projection:
 
-\[
-P^{FX}_t=
-g(
-B_t,
-K_t,
-A_{HML,t},
-Cal_t,
-Liq_t,
-RegimeStability_t,
-Adapt_t
-)
-\]
+$$P^{FX}_t= g( B_t, K_t, A_{HML,t}, Cal_t, Liq_t, RegimeStability_t, Adapt_t )$$
 
 Dissolution pressure:
 
-\[
-D^{FX}_t=
-h(
-Jump_t,
-EntropyRise_t,
-LacunarityBreak_t,
-BoundaryFailure_t,
-CrossScaleConflict_t,
-LiquidityStress_t
-)
-\]
+$$D^{FX}_t= h( Jump_t, EntropyRise_t, LacunarityBreak_t, BoundaryFailure_t, CrossScaleConflict_t, LiquidityStress_t )$$
 
 Repair capacity:
 
-\[
-R^{FX}_t=
-q(
-MeanReversion_t,
-LiquidityRecovery_t,
-CalibrationRecovery_t,
-BoundaryReformation_t,
-RegimeStabilization_t
-)
-\]
+$$R^{FX}_t= q( MeanReversion_t, LiquidityRecovery_t, CalibrationRecovery_t, BoundaryReformation_t, RegimeStabilization_t )$$
 
 Candidate viability condition:
 
-\[
-R^{FX}_t>D^{FX}_t
-\]
+$$R^{FX}_t>D^{FX}_t$$
 
 is an AMOS model to test, not a universal market law.
 
@@ -619,11 +459,7 @@ R12 Persistent recovered state
 
 Transitions must be data-defined:
 
-\[
-P(C_{i+1}|C_i,X_t)
-\quad\text{and}\quad
-P(R_{j+1}|R_j,X_t)
-\]
+$$P(C_{i+1}|C_i,X_t) \quad\text{and}\quad P(R_{j+1}|R_j,X_t)$$
 
 The sequence can be:
 - supported;
@@ -640,41 +476,23 @@ That is the correct scientific treatment of canon.
 
 Source:
 
-\[
-T2(C)=True
-\iff
-\exists i\neq j:
-source_i(C)\land source_j(C)\land Independent(i,j)
-\]
+$$T2(C)=True \iff \exists i\neq j: source_i(C)\land source_j(C)\land Independent(i,j)$$
 
 AMOS v4.4 requires stronger independence semantics.
 
 Let evidence ancestry graph be:
 
-\[
-G_P=(V,E)
-\]
+$$G_P=(V,E)$$
 
 Collapse all descendants sharing the same effective origin into one ancestry group.
 
 Define:
 
-\[
-N_{ind}(C)
-=
-|\{root\_ancestry(e):e\ supports\ C\}|
-\]
+$$N_{ind}(C) = |\{root\_ancestry(e):e\ supports\ C\}|$$
 
 Then:
 
-\[
-T2^{FX}(C)=
-[N_{ind}(C)\ge2]
-\land ScopeCompatible
-\land RegimeCompatible
-\land Fresh
-\land NonConflict
-\]
+$$T2^{FX}(C)= [N_{ind}(C)\ge2] \land ScopeCompatible \land RegimeCompatible \land Fresh \land NonConflict$$
 
 Example:
 
@@ -722,9 +540,7 @@ UNKNOWN
 
 Example:
 
-\[
-Corr(r_{DXY},r_{XAU})<0
-\]
+$$Corr(r_{DXY},r_{XAU})<0$$
 
 does not license:
 
@@ -734,18 +550,7 @@ DXY causes gold down
 
 Model a dynamic dependence tensor:
 
-\[
-\mathcal C_t^{cross}
-=
-[
-\rho_t,
-LeadLag_t,
-Regime_t,
-MacroState_t,
-EventState_t,
-Freshness_t
-]
-\]
+$$\mathcal C_t^{cross} = [ \rho_t, LeadLag_t, Regime_t, MacroState_t, EventState_t, Freshness_t ]$$
 
 and preserve competing explanations:
 - USD denomination channel;
@@ -765,35 +570,17 @@ Forex has no single canonical tape.
 
 Observer state:
 
-\[
-O_t=
-[
-Broker,
-Venue,
-Feed,
-Timezone,
-Session,
-BarRule,
-ReceiveTime,
-DecisionTime,
-AvailabilityTime
-]
-\]
+$$O_t= [ Broker, Venue, Feed, Timezone, Session, BarRule, ReceiveTime, DecisionTime, AvailabilityTime ]$$
 
 A price fact is scoped to this observer context.
 
 Hard temporal invariant:
 
-\[
-availability(feature)
-\le decision\_time
-\]
+$$availability(feature) \le decision\_time$$
 
 and for derived feature DAG:
 
-\[
-A(v)=\max_{u\in parents(v)}A(u)+latency(v)
-\]
+$$A(v)=\max_{u\in parents(v)}A(u)+latency(v)$$
 
 No transformation may decrease availability time.
 
@@ -805,28 +592,15 @@ This is essential AMOS v3.5+ regime/freshness lineage.
 
 Regime posterior:
 
-\[
-p_t(k)=P(R_t=k|X_{\le t})
-\]
+$$p_t(k)=P(R_t=k|X_{\le t})$$
 
 Regime confidence:
 
-\[
-RC_t=
-1-
-\frac{-\sum_kp_t(k)\log p_t(k)}
-{\log K}
-\]
+$$RC_t= 1- \frac{-\sum_kp_t(k)\log p_t(k)} {\log K}$$
 
 But integrate with Trang phase structure:
 
-\[
-\Phi_t=
-[
-E_t,\Lambda_t,A_{HML,t},
-Boundary_t,Mutation_t,Repair_t
-]
-\]
+$$\Phi_t= [ E_t,\Lambda_t,A_{HML,t}, Boundary_t,Mutation_t,Repair_t ]$$
 
 Candidate phase classes:
 
@@ -839,7 +613,7 @@ REPAIR
 EXPANSION
 ```
 
-Low \(RC_t\) means epistemic ambiguity. It de-risks; it never generates alpha.
+Low $RC_t$ means epistemic ambiguity. It de-risks; it never generates alpha.
 
 ---
 
@@ -847,48 +621,23 @@ Low \(RC_t\) means epistemic ambiguity. It de-risks; it never generates alpha.
 
 All geometry must terminate in a probabilistic forecast contract:
 
-\[
-p(r_{t+h}|X_t,R_t,\mathcal G_t)
-\]
+$$p(r_{t+h}|X_t,R_t,\mathcal G_t)$$
 
 where:
 
-\[
-\mathcal G_t=
-[
-Hex_t,
-Spiral_t,
-E_t,
-\Lambda_t,
-HML_t,
-Cascade_t
-]
-\]
+$$\mathcal G_t= [ Hex_t, Spiral_t, E_t, \Lambda_t, HML_t, Cascade_t ]$$
 
 Outputs:
 
-\[
-\hat \mu_{t,h},
-\hat Q_{\alpha,t,h},
-P(r_{t+h}>0),
-P(Loss>L^\*),
-Uncertainty_t
-\]
+$$\hat \mu_{t,h}, \hat Q_{\alpha,t,h}, P(r_{t+h}>0), P(Loss>L^\*), Uncertainty_t$$
 
 Separate:
 
-\[
-U_t=
-(U_{aleatoric},U_{epistemic},U_{distributional})
-\]
+$$U_t= (U_{aleatoric},U_{epistemic},U_{distributional})$$
 
 Geometry has value only if:
 
-\[
-Loss(M_{base+geometry})
-<
-Loss(M_{base})
-\]
+$$Loss(M_{base+geometry}) < Loss(M_{base})$$
 
 on untouched chronological OOS, after selection-bias control.
 
@@ -924,12 +673,7 @@ not arbitrary collapse.
 
 Candidate router:
 
-\[
-Router_t:
-(R_t,\Phi_t,U_t)
-\rightarrow
-\{M_{trend},M_{range},M_{jump},M_{tail},M_{geometry},M_{fallback}\}
-\]
+$$Router_t: (R_t,\Phi_t,U_t) \rightarrow \{M_{trend},M_{range},M_{jump},M_{tail},M_{geometry},M_{fallback}\}$$
 
 Example:
 
@@ -1020,11 +764,7 @@ status:
 
 Derived confidence:
 
-\[
-Conf(C)
-\le
-\min_{p\in LoadBearing(C)}Conf(p)
-\]
+$$Conf(C) \le \min_{p\in LoadBearing(C)}Conf(p)$$
 
 unless independently revalidated.
 
@@ -1036,10 +776,7 @@ The Forex runtime does not claim to literally implement AMOS_CORE distributed ma
 
 Read snapshot:
 
-\[
-Snap_t=
-\{MarketStateVersion,FeatureVersion,ModelVersion,PolicyVersion\}
-\]
+$$Snap_t= \{MarketStateVersion,FeatureVersion,ModelVersion,PolicyVersion\}$$
 
 Before proposal release:
 
@@ -1053,17 +790,7 @@ This prevents a forecast generated under one state from being silently committed
 
 Atomic proposal bundle:
 
-\[
-Tx^{FX}=
-\{
-Forecast,
-Risk,
-ExecutionAssumptions,
-Evidence,
-Falsifiers,
-ReadSet
-\}
-\]
+$$Tx^{FX}= \{ Forecast, Risk, ExecutionAssumptions, Evidence, Falsifiers, ReadSet \}$$
 
 Partial promotion is forbidden.
 
@@ -1095,35 +822,15 @@ This matters for high-frequency Forex because unnecessary global recomputation c
 
 Domain utility candidate:
 
-\[
-U(a|S_t)=
-E[PnL(a)]
--\lambda_1 TailLoss(a)
--\lambda_2 Cost(a)
--\lambda_3 ModelUncertainty(a)
--\lambda_4 RegimeUncertainty(a)
--\lambda_5 ExecutionRisk(a)
-\]
+$$U(a|S_t)= E[PnL(a)] -\lambda_1 TailLoss(a) -\lambda_2 Cost(a) -\lambda_3 ModelUncertainty(a) -\lambda_4 RegimeUncertainty(a) -\lambda_5 ExecutionRisk(a)$$
 
 Proposal:
 
-\[
-a_t^\*=\arg\max_{a\in\{LONG,SHORT,FLAT\}}U(a|S_t)
-\]
+$$a_t^\*=\arg\max_{a\in\{LONG,SHORT,FLAT\}}U(a|S_t)$$
 
 but:
 
-\[
-TradeAllowed=
-TimestampSafe
-\land RegimeFit
-\land ModelValidEnough
-\land CostCleared
-\land TailRiskPass
-\land LiquidityPass
-\land PortfolioPass
-\land NoCriticalGap
-\]
+$$TradeAllowed= TimestampSafe \land RegimeFit \land ModelValidEnough \land CostCleared \land TailRiskPass \land LiquidityPass \land PortfolioPass \land NoCriticalGap$$
 
 If utility says LONG but `TradeAllowed=False`:
 
@@ -1141,27 +848,11 @@ Trang's future-debt architecture maps naturally to trading.
 
 Position debt:
 
-\[
-FD_t=
-ExitFragility_t+
-LiquidityDebt_t+
-EventExposure_t+
-CorrelationDebt_t+
-ModelDriftDebt_t
-\]
+$$FD_t= ExitFragility_t+ LiquidityDebt_t+ EventExposure_t+ CorrelationDebt_t+ ModelDriftDebt_t$$
 
 Option value of staying flat:
 
-\[
-OV_{flat,t}
-=
-Value(
-preserved\ capital,
-preserved\ risk\ budget,
-future\ information,
-future\ entry\ flexibility
-)
-\]
+$$OV_{flat,t} = Value( preserved\ capital, preserved\ risk\ budget, future\ information, future\ entry\ flexibility )$$
 
 A marginal forecast edge can be rejected when it destroys too much future optionality.
 

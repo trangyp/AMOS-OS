@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-reality-meta-law-auditor]
+source: 07_SKILLS/amos-reality-meta-law-auditor/references
+tags: [reference, amos-reality-meta-law-auditor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -258,3 +265,7 @@ Error calculation: `e_t = o_t - ō_t`
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

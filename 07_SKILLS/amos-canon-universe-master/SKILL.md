@@ -1,14 +1,22 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-canon-universe-master
 name: amos-canon-universe-master
 description: "AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants, law hierarchy, universe-scale canonical structures. Use for canon reasoning, universe-level analysis, or invariant ver..."
 parent_skill: none
 domain: canon
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-canon-universe-master]
+tags: [note, amos-canon-universe-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
+
 
 # AMOS 7-Part Universe Canon
 
@@ -56,7 +64,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 > Load only when specific domain detail is decision-relevant.
 
 
-
 > **Reference**: See `references/canonical_body_registry.md` (content_hash: b7f0a980543390d1) for the full canonical body registry ({len(systems)} systems, {len(kernels)} kernels).
 
 
@@ -80,3 +87,89 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 > **Reference**: See `references/full_canon_encyclopedia.md` (content_hash: 5c5e04107fde8c5a) for the Full Canon Product Encyclopedia
 - [[AGENT_TEMPLATE]]
+
+---
+**MOC:** [[amos-canon-universe-master_MOC]]
+
+## Examples
+
+- **Scenario**: When managing lifecycle operations across classify, validate, trace, assess, and detect
+  - **Input**: A query matching this skill's domain (canon)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When detecting drift in evidence chains, provenance freshness, or confidence calibration
+  - **Input**: A query matching this skill's domain (canon)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When validating outputs against domain constraints and epistemic class
+  - **Input**: A query matching this skill's domain (canon)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the canon domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when canon specialization is needed
+- **Peers**: Other skills in the `canon` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/absolute_integrity_architecture.md` — loaded on demand
+- `references/absolute_omniverse_model.md` — loaded on demand
+- `references/canon_integration_layer.md` — loaded on demand
+- `references/canon_integration_layer_model.md` — loaded on demand
+- `references/canonical_body_registry.md` — loaded on demand
+- `references/final_canonical_structure.md` — loaded on demand
+- `references/full_canon_encyclopedia.md` — loaded on demand
+- `references/heritage_intelligence.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/unified_legacy_framework.md` — loaded on demand
+- `references/universe_core.md` — loaded on demand
+- `references/universe_core_engine.md` — loaded on demand
+- `references/universe_interaction_engine.md` — loaded on demand
+- `references/universe_total_canon.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `[[amos-canon-universe-master_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-canon-universe-master-workflow]]` — corresponding workflow
+- `[[amos-canon-universe-master-agent]]` — corresponding agent
+

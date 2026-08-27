@@ -1,8 +1,15 @@
 ---
 title: "07 Provenance MOC"
 type: moc
-tags: [moc, 07-provenance]
+source: 01_CANON/07_PROVENANCE
+tags: [moc, 07-provenance, canon/universe]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 07 Provenance — Map of Content
 

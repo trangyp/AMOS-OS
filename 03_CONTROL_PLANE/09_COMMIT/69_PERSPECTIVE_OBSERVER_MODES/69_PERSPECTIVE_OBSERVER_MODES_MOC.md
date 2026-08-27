@@ -1,8 +1,15 @@
 ---
 title: "69 Perspective Observer Modes MOC"
 type: moc
-tags: [moc, 69-perspective-observer-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/69_PERSPECTIVE_OBSERVER_MODES
+tags: [moc, 69-perspective-observer-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 69 Perspective Observer Modes — Map of Content
 

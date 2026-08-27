@@ -1,8 +1,15 @@
 ---
 title: "42 Deliberation Modes MOC"
 type: moc
-tags: [moc, 42-deliberation-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/42_DELIBERATION_MODES
+tags: [moc, 42-deliberation-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 42 Deliberation Modes — Map of Content
 

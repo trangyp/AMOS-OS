@@ -157,5 +157,47 @@
     "file": "amos-biology-quantum-bridge-governor-agent.json",
     "class": null,
     "executable": true
+  },
+  "version": "1.1.0",
+  "reasoning_pattern": "Plan-Execute",
+  "termination_criteria": {
+    "max_steps": 10,
+    "max_tokens": 8000,
+    "stop_on_confidence_below": 0.3,
+    "stop_on_critical_gap": true,
+    "stop_on_scope_violation": true,
+    "human_in_the_loop": false
+  },
+  "error_recovery": {
+    "on_timeout": "return partial result with GAP flag",
+    "on_scope_violation": "reject and route to parent",
+    "on_contradiction": "flag CRITICAL_GAP and halt",
+    "on_provenance_loss": "mark as UNKNOWN and request human review",
+    "on_drift": "trigger drift alignment governor"
+  },
+  "context_management": {
+    "strategy": "progressive_disclosure",
+    "max_context_tokens": 4000,
+    "compaction_threshold": 0.8,
+    "scratchpad_enabled": true
+  },
+  "evaluation_metrics": {
+    "success_rate_target": 0.85,
+    "false_positive_rate_max": 0.1,
+    "avg_steps_target": 3.0,
+    "provenance_coverage_target": 1.0
+  },
+  "composition_rules": {
+    "can_delegate_to": [],
+    "can_receive_from": [],
+    "max_chain_depth": 3,
+    "requires_orchestrator": true
+  },
+  "observability": {
+    "trace_level": "full",
+    "log_inputs": true,
+    "log_outputs": true,
+    "log_intermediate": true,
+    "metrics_enabled": true
   }
 }

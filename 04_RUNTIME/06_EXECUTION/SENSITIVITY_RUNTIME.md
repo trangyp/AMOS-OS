@@ -1,6 +1,7 @@
 ---
 title: "Sensitivity Runtime"
 type: runtime
+source: 04_RUNTIME/06_EXECUTION
 artifact: "SENSITIVITY_RUNTIME.md"
 artifact_id: "amos_04_runtime_06_execution_sensitivity_runtime"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "04_RUNTIME/06_EXECUTION"
 artifact_kind: "RUNTIME"
 path: "04_RUNTIME/06_EXECUTION/SENSITIVITY_RUNTIME.md"
 
-tags: [amos_os, runtime, execution, 04_runtime, canon_placeholder, rscf]
+tags: [amos_os, runtime, execution, 04_runtime, canon_placeholder, rscf, canon/runtime]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Sensitivity Runtime

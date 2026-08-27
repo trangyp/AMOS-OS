@@ -1,13 +1,20 @@
 ---
 title: 5C JOURNEY WAVES V1 SHARED
 type: note
+source: 11_KNOWLEDGE/misc
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: 5c-journey-waves-v1-shared
 tags: [canon-group/tech-ai, canon/narrative, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/5c-journey-waves-v1-shared, misc]
 created: 2026-08-22
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 5C JOURNEY WAVES V1 SHARED
 

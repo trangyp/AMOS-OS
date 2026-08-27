@@ -1,8 +1,15 @@
 ---
 title: "O04 State MOC"
 type: moc
-tags: [moc, o04-state]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O04_STATE
+tags: [moc, o04-state, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # O04 State — Map of Content
 

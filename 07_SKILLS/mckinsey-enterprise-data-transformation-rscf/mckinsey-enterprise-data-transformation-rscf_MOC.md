@@ -1,8 +1,15 @@
 ---
 title: "Mckinsey-Enterprise-Data-Transformation-Rscf MOC"
 type: moc
-tags: [moc, mckinsey-enterprise-data-transformation-]
+source: 07_SKILLS/mckinsey-enterprise-data-transformation-rscf
+tags: [moc, mckinsey-enterprise-data-transformation-, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Mckinsey-Enterprise-Data-Transformation-Rscf — Map of Content
 

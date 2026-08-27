@@ -1,12 +1,15 @@
 ---
 title: UNI CARE PACKAGE GOI BAO HIEM TOAN DIEN CHO TAI
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **UNI CARE PACKAGE™ – GÓI BẢO HIỂM TOÀN DIỆN CHO TÀI XẾ UNIPOWER**

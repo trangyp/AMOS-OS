@@ -1,13 +1,20 @@
 ---
 title: HUMAN SYSTEMS ENGINE HSE VN
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: human-systems-engine-hse-vn
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/human-systems-engine-hse-vn, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
+
 
 # HUMAN SYSTEMS ENGINE HSE VN
 
@@ -5682,3 +5689,6 @@ Human Systems Engine™ HSE VN 112
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

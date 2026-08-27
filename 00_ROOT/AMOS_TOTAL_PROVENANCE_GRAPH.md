@@ -1,6 +1,7 @@
 ---
 title: "AMOS Total Provenance Graph"
 type: provenance
+source: 00_ROOT
 artifact: "AMOS_TOTAL_PROVENANCE_GRAPH.md"
 artifact_id: "amos_00_root_amos_total_provenance_graph"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "00_ROOT"
 artifact_kind: "PROVENANCE"
 path: "00_ROOT/AMOS_TOTAL_PROVENANCE_GRAPH.md"
 
-tags: [amos_os, root, index, 00_root, provenance, canon_placeholder, rscf]
+tags: [amos_os, root, index, 00_root, provenance, canon_placeholder, rscf, canon/root]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
-
 
 
 # AMOS Total Provenance Graph

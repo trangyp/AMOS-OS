@@ -1,9 +1,14 @@
 ---
 title: WORKFLOWS WORKFLOW CONTRACT
 type: workflow
-tags: [amos_os, 08_workflows]
+source: 08_WORKFLOWS
+tags: [amos_os, 08_workflows, canon/workflow]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: workflow_process
 ---
-
 
 
 # WORKFLOWS WORKFLOW CONTRACT

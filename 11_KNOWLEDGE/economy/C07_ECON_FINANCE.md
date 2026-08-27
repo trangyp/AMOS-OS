@@ -1,15 +1,20 @@
 ---
 title: C07 ECON FINANCE
 type: finance
+source: 11_KNOWLEDGE/economy
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: c07-econ-finance
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c07-econ-finance, economy]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: economic_model
 ---
-
-
+# C07 ECON FINANCE
 
 ```json
 {

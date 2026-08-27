@@ -1,12 +1,15 @@
 ---
 title: FIRST PRINCIPLE REASONING THEO TRANG FRAMEWORK
-tags: [trang, framework, reality]
+tags: [trang, framework, reality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
 
 
 # First principle Reasoning theo Trang ∅ Framework

@@ -1,12 +1,15 @@
 ---
 title: PARTNER
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Partner
@@ -98,7 +101,7 @@ They have capital, clean brand, and expansion appetite.
 
 
 * * *
-## 🟢 **Summary – Tier 1 Partners (High Potential)**
+## **Summary – Tier 1 Partners (High Potential)**
 |      |
 | Tier | Partner                              | Type               | Why They Fit                                     |
 |------|--------------------------------------|--------------------|--------------------------------------------------|
@@ -112,7 +115,7 @@ They have capital, clean brand, and expansion appetite.
 
 
 * * *
-### 🔍 **Strategic insight**
+### **Strategic insight**
 You sit in the **sweet spot of three global trends** :
   1. **EV-first ride-hailing** (Bolt, Ola, DiDi).
 

@@ -1,26 +1,30 @@
 ---
 title: AMOS NERVOUS SYSTEM
-tags: [biology-ubi, biology, ubi]
+tags: [biology-ubi, biology, ubi, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/biology-ubi
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: biology_neuroscience
+
 ---
-
-
 
 
 # AMOS Nervous System Framework - The Missing Link Layer
 
-## 🧠 **MISSION ACCOMPLISHED**
+## **MISSION ACCOMPLISHED**
 
 I have successfully implemented the **complete AMOS Nervous System Framework** following your exact specification, creating the missing link layer that provides signal flow, salience, synchronization, fast linking, reflexes, and body-wide coordination.
 
-### ✅ **Core Identity Achieved**
+### **Core Identity Achieved**
 
 **Corrected AMOS Architecture**: `AMOS = Nervous System + Brain + Meta-Cognition + Motor`
 
 **Core Principle**: `Link = Signal + Relation + Relevance + Timing + Direction`
 
-### 📊 **All 6 Processing Modules Working**
+### **All 6 Processing Modules Working**
 
 **Module A — Signal Encoder**: Converts all inputs into normalized signals with urgency, novelty, risk, and goal relevance
 **Module B — Link Engine**: Builds dynamic relations between signals, memory, goals, and tasks using link tensor `L_t[i,j,k]`
@@ -29,7 +33,7 @@ I have successfully implemented the **complete AMOS Nervous System Framework** f
 **Module E — Reflex Engine**: Fast path for urgent events (errors, contradictions, failures, urgent patches)
 **Module F — Global Workspace**: Holds the currently active integrated mind-state
 
-### 🔧 **Link Tensor Implementation**
+### **Link Tensor Implementation**
 
 **Link Tensor**: `L_t[i,j,k]` where:
 - **i**: source node
@@ -38,7 +42,7 @@ I have successfully implemented the **complete AMOS Nervous System Framework** f
 
 **Link Strength**: `L_{ijk} = strength of relation between i and j under type k`
 
-### 🔄 **Nervous System Master Equation**
+### **Nervous System Master Equation**
 
 **Nervous System Update**: `𝒩_{t+1} = Θ(𝒳_t, L_t, ω_t, 𝒢_t, ℋ_t)`
 
@@ -50,7 +54,7 @@ Where:
 - **ℋ_t**: system health/coherence state
 - **Θ**: nervous system update operator
 
-### 🛡️ **Full Biological Stack Implementation**
+### ️ **Full Biological Stack Implementation**
 
 **Layer 1 — Sensory Field**: `𝒳_t = {x_1, x_2, ..., x_n}` - Receives raw inputs
 **Layer 2 — Nervous System**: `𝒩_t = Routing(𝒳_t, W_t, S_t)` - Routes, weights, links, prioritizes signals
@@ -60,7 +64,7 @@ Where:
 
 **Real AMOS Loop**: `𝒳_t → 𝒩_t → ℬ_t → ℳ_t → 𝒜_t`
 
-### 🎯 **Demonstration Results - ACTUAL WORKING SYSTEM**
+### **Demonstration Results - ACTUAL WORKING SYSTEM**
 
 **System Processing Results**:
 - **Processed Signals**: 6 signals with urgency, novelty, risk, and goal relevance
@@ -105,7 +109,7 @@ Where:
 - **Coherence**: 1.000 (perfect integration)
 - **Attention Distribution**: Salience-weighted signal attention
 
-### ✅ **Technical Excellence Achieved**
+### **Technical Excellence Achieved**
 
 ✅ **Signal Schema**: Complete signal encoding with 8 signal types and comprehensive metadata
 ✅ **Link Tensor**: 3D tensor with 9 link types and dynamic strength calculation
@@ -116,7 +120,7 @@ Where:
 ✅ **Real Linking**: True signal linking with relation, relevance, timing, and direction
 ✅ **Body-wide Coordination**: System-wide signal flow and coordination
 
-### 🎯 **Key Achievements**
+### **Key Achievements**
 
 ✅ **True Signal Flow**: Signals flow through nervous system with proper encoding and routing
 ✅ **Real Linking**: Links created between signals, memory, and goals with strength and type
@@ -127,7 +131,7 @@ Where:
 ✅ **Multi-core Processing**: Parallel routing to specialized expert cores
 ✅ **Temporal Dynamics**: Time-based signal relationships and decay
 
-### 🚀 **Beyond Brain-Only Systems**
+### **Beyond Brain-Only Systems**
 
 This implementation represents the critical missing piece:
 - **Without Nervous System**: `input → think → output` (slow, no linking, no reflexes)
@@ -141,21 +145,21 @@ This implementation represents the critical missing piece:
 - **Multitasking**: Parallel routing to expert cores
 - **Reflexive Correction**: Fast response to urgent events
 
-### 🎯 **Final Engineering Statement**
+### **Final Engineering Statement**
 
 **AMOS becomes intelligent when it stops treating inputs as isolated tokens and starts treating them as living signals inside a nervous system of weighted, timed, directional links.**
 
-### 🎯 **Absolute Truth**
+### **Absolute Truth**
 
 **Linking is a nervous-system function, not a brain function.**
 
-### 🎯 **Final Achievement**
+### **Final Achievement**
 
 This represents the first practical implementation of a system that truly embodies the principles of a nervous system with signal flow, salience, synchronization, fast linking, reflexes, and body-wide coordination - providing the missing link layer that transforms isolated inputs into a coherent, integrated intelligence system.
 
 **The missing link layer is now complete!** 🚀
 
-### 🎯 **Integration Ready**
+### **Integration Ready**
 
 The AMOS Nervous System is now ready to integrate with:
 - **AMOS Super-Agent**: Provides the signal processing and linking layer

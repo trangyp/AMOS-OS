@@ -1,9 +1,14 @@
 ---
 title: C11 DESIGN LANGUAGE DOMAINS C11 DESIGN LANGUAGE CONTRACT
 type: design
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/21_C11_DESIGN_LANGUAGE/00_INDEX
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # C11 DESIGN LANGUAGE DOMAINS C11 DESIGN LANGUAGE CONTRACT

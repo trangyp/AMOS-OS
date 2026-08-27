@@ -1,8 +1,15 @@
 ---
 title: "01 Task Contract MOC"
 type: moc
-tags: [moc, 01-task-contract]
+source: 03_CONTROL_PLANE/01_TASK_CONTRACT
+tags: [moc, 01-task-contract, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 01 Task Contract — Map of Content
 

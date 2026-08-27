@@ -1,8 +1,15 @@
 ---
 title: "C08 Execution MOC"
 type: moc
-tags: [moc, c08-execution]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION
+tags: [moc, c08-execution, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # C08 Execution — Map of Content
 

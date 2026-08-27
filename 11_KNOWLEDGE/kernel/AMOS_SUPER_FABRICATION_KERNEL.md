@@ -1,15 +1,23 @@
 ---
 title: AMOS SUPER FABRICATION KERNEL
 type: kernel
+source: 11_KNOWLEDGE/kernel
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
 topic: amos-super-fabrication
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-super-fabrication, kernel]
 created: 2026-08-22
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
 
-
+# AMOS SUPER FABRICATION KERNEL
 
 ```json
 {

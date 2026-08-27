@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX ARCHITECTURE
 type: architecture
-tags: [cognitive_matrix, index, note]
+source: 25_COGNITIVE_MATRIX/00_INDEX
+tags: [cognitive_matrix, index, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # AMOS Cognitive Matrix Architecture
@@ -51,3 +56,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

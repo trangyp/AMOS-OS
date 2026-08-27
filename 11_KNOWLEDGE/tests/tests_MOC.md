@@ -1,8 +1,15 @@
 ---
 title: "Tests MOC"
 type: moc
-tags: [moc, tests]
+source: 11_KNOWLEDGE/tests
+tags: [moc, tests, canon/knowledge]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: test_validation
 ---
+
 
 # Tests — Map of Content
 

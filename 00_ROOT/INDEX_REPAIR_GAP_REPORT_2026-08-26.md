@@ -1,11 +1,16 @@
 ---
 title: INDEX REPAIR GAP REPORT 2026-08-26
 type: index
+source: 00_ROOT
 canon-group: reference
 rscf-state: derived
-tags: [gap-report, index-repair, audit]
+tags: [gap-report, index-repair, audit, canon/root]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
-
 
 
 # Index Repair Gap Report — 2026-08-26

@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-rscf-epistemic-master]
+source: 07_SKILLS/amos-rscf-epistemic-master
+tags: [note, amos-rscf-epistemic-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-rscf-epistemic-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS RSCF Epistemic Master. Consolidates 61 sub-skills.
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-rscf-epistemic-master_MOC]]

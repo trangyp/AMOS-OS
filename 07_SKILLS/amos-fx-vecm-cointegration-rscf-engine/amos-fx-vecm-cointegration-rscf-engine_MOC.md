@@ -1,8 +1,15 @@
 ---
 title: "Amos-Fx-Vecm-Cointegration-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-fx-vecm-cointegration-rscf-engine]
+source: 07_SKILLS/amos-fx-vecm-cointegration-rscf-engine
+tags: [moc, amos-fx-vecm-cointegration-rscf-engine, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Fx-Vecm-Cointegration-Rscf-Engine — Map of Content
 

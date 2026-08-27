@@ -1,10 +1,15 @@
 ---
 title: ENGINEERING MATH MODEL
 type: math
+source: 11_KNOWLEDGE/math
 aliases: [Engineering Math Kernel, AMOS_Engineering_Math]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/engineering-math-model, math]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: mathematical_model
 ---
-
 
 
 # AMOS Engineering Math Kernel

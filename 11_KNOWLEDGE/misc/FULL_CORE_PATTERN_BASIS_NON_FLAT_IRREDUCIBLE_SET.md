@@ -1,12 +1,15 @@
 ---
 title: FULL CORE PATTERN BASIS NON FLAT IRREDUCIBLE SET
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 FULL CORE PATTERN BASIS (NON-FLAT, IRREDUCIBLE SET)
@@ -1648,15 +1651,7 @@ coupling strength
 
 6. Constraints
 
-\[
-C_I =
-\{
-\text{locality},\
-\text{finite interaction speed},\
-\text{signal attenuation},\
-\text{coupling limits}
-\}
-\]
+$$C_I = \{ \text{locality},\ \text{finite interaction speed},\ \text{signal attenuation},\ \text{coupling limits} \}$$
 
 Key rules:
 
@@ -1697,9 +1692,7 @@ But system only sees:
 
 9.1 No Contact
 
-\[
-X_I = \varnothing
-\]
+$$X_I = \varnothing$$
 
 System blind to reality.
 
@@ -1802,19 +1795,7 @@ So:
 
 14. Final L2 Form
 
-\[
-S_I =
-(
-X_I,\
-\tau_R,\
-L_I,\
-D_I,\
-C_I,\
-\Omega_I,\
-\Gamma_I,\
-\Xi_I
-)
-\]
+$$S_I = ( X_I,\ \tau_R,\ L_I,\ D_I,\ C_I,\ \Omega_I,\ \Gamma_I,\ \Xi_I )$$
 
 ⸻
 
@@ -1902,15 +1883,7 @@ calibration error
 
 6. Constraints
 
-\[
-C_S =
-\{
-\text{sampling rate},\
-\text{resolution},\
-\text{dynamic range},\
-\text{noise floor}
-\}
-\]
+$$C_S = \{ \text{sampling rate},\ \text{resolution},\ \text{dynamic range},\ \text{noise floor} \}$$
 
 ⸻
 
@@ -2039,19 +2012,7 @@ It contains:
 
 14. Final L3 Form
 
-\[
-S_S =
-(
-X_S,\
-\tau_I,\
-L_S,\
-D_S,\
-C_S,\
-\Omega_S,\
-\Gamma_S,\
-\Xi_S
-)
-\]
+$$S_S = ( X_S,\ \tau_I,\ L_S,\ D_S,\ C_S,\ \Omega_S,\ \Gamma_S,\ \Xi_S )$$
 
 ⸻
 
@@ -2144,15 +2105,7 @@ compression artifacts
 
 6. Constraints
 
-\[
-C_E =
-\{
-\text{finite code space},\
-\text{representation format},\
-\text{resolution limits},\
-\text{symbol set}
-\}
-\]
+$$C_E = \{ \text{finite code space},\ \text{representation format},\ \text{resolution limits},\ \text{symbol set} \}$$
 
 ⸻
 
@@ -2283,19 +2236,7 @@ If something cannot be encoded:
 
 14. Final L4 Form
 
-\[
-S_E =
-(
-X_E,\
-\tau_S,\
-L_E,\
-D_E,\
-C_E,\
-\Omega_E,\
-\Gamma_E,\
-\Xi_E
-)
-\]
+$$S_E = ( X_E,\ \tau_S,\ L_E,\ D_E,\ C_E,\ \Omega_E,\ \Gamma_E,\ \Xi_E )$$
 
 ⸻
 
@@ -2385,15 +2326,7 @@ spurious correlations
 
 6. Constraints
 
-\[
-C_F =
-\{
-\text{feature set size},\
-\text{model architecture},\
-\text{pattern priors},\
-\text{training bias}
-\}
-\]
+$$C_F = \{ \text{feature set size},\ \text{model architecture},\ \text{pattern priors},\ \text{training bias} \}$$
 
 ⸻
 
@@ -2519,19 +2452,7 @@ If a pattern is not extracted:
 
 14. Final L5 Form
 
-\[
-S_F =
-(
-X_F,\
-\tau_E,\
-L_F,\
-D_F,\
-C_F,\
-\Omega_F,\
-\Gamma_F,\
-\Xi_F
-)
-\]
+$$S_F = ( X_F,\ \tau_E,\ L_F,\ D_F,\ C_F,\ \Omega_F,\ \Gamma_F,\ \Xi_F )$$
 
 ⸻
 
@@ -2621,15 +2542,7 @@ incomplete context
 
 6. Constraints
 
-\[
-C_M =
-\{
-\text{available concepts},\
-\text{language},\
-\text{memory},\
-\text{cognitive limits}
-\}
-\]
+$$C_M = \{ \text{available concepts},\ \text{language},\ \text{memory},\ \text{cognitive limits} \}$$
 
 ⸻
 
@@ -2759,19 +2672,7 @@ X_F \rightarrow X_M^{(1)} \neq X_M^{(2)}
 
 14. Final L6 Form
 
-\[
-S_M =
-(
-X_M,\
-\tau_F,\
-L_M,\
-D_M,\
-C_M,\
-\Omega_M,\
-\Gamma_M,\
-\Xi_M
-)
-\]
+$$S_M = ( X_M,\ \tau_F,\ L_M,\ D_M,\ C_M,\ \Omega_M,\ \Gamma_M,\ \Xi_M )$$
 
 ⸻
 
@@ -2811,18 +2712,7 @@ X_X(t) =
 
 Decomposed:
 
-\[
-X_X =
-\{
-X_{bio},\
-X_{neuro},\
-X_{affect},\
-X_{cog},\
-X_{mem},\
-X_{id},\
-X_{cap}
-\}
-\]
+$$X_X = \{ X_{bio},\ X_{neuro},\ X_{affect},\ X_{cog},\ X_{mem},\ X_{id},\ X_{cap} \}$$
 
 ⸻
 
@@ -2887,15 +2777,7 @@ conflicting subsystems
 
 6. Constraints
 
-\[
-C_X =
-\{
-\text{homeostasis},\
-\text{identity consistency},\
-\text{capacity limits},\
-\text{biological constraints}
-\}
-\]
+$$C_X = \{ \text{homeostasis},\ \text{identity consistency},\ \text{capacity limits},\ \text{biological constraints} \}$$
 
 ⸻
 
@@ -3032,19 +2914,7 @@ X_X \text{ may not support action}
 
 14. Final L7 Form
 
-\[
-S_X =
-(
-X_X,\
-\tau_M,\
-L_X,\
-D_X,\
-C_X,\
-\Omega_X,\
-\Gamma_X,\
-\Xi_X
-)
-\]
+$$S_X = ( X_X,\ \tau_M,\ L_X,\ D_X,\ C_X,\ \Omega_X,\ \Gamma_X,\ \Xi_X )$$
 
 ⸻
 
@@ -3112,17 +2982,7 @@ X_P =
 
 Decomposition
 
-\[
-X_P =
-\{
-\text{Reactive actions},\
-\text{Deliberate actions},\
-\text{Habitual actions},\
-\text{Exploratory actions},\
-\text{Defensive actions},\
-\text{NoAction}
-\}
-\]
+$$X_P = \{ \text{Reactive actions},\ \text{Deliberate actions},\ \text{Habitual actions},\ \text{Exploratory actions},\ \text{Defensive actions},\ \text{NoAction} \}$$
 
 ⸻
 
@@ -3156,16 +3016,7 @@ limited imagination
 
 7. Constraints
 
-\[
-C_P =
-\{
-\text{feasibility},\
-\text{identity constraints},\
-\text{social constraints},\
-\text{legal constraints},\
-\text{ethical constraints}
-\}
-\]
+$$C_P = \{ \text{feasibility},\ \text{identity constraints},\ \text{social constraints},\ \text{legal constraints},\ \text{ethical constraints} \}$$
 
 ⸻
 
@@ -3198,9 +3049,7 @@ adjust generation
 
 10.1 No Policy
 
-\[
-X_P = \varnothing
-\]
+$$X_P = \varnothing$$
 
 → freeze
 
@@ -3303,19 +3152,7 @@ If an action is not in X_P:
 
 15. Final L8 Form
 
-\[
-S_P =
-(
-X_P,\
-\tau_X,\
-L_P,\
-D_P,\
-C_P,\
-\Omega_P,\
-\Gamma_P,\
-\Xi_P
-)
-\]
+$$S_P = ( X_P,\ \tau_X,\ L_P,\ D_P,\ C_P,\ \Omega_P,\ \Gamma_P,\ \Xi_P )$$
 
 ⸻
 
@@ -3422,16 +3259,7 @@ risk miscalibration
 
 6. Constraints
 
-\[
-C_G =
-\{
-\text{physical feasibility},\
-\text{logical consistency},\
-\text{legal / social limits},\
-\text{ethical bounds},\
-\text{system invariants}
-\}
-\]
+$$C_G = \{ \text{physical feasibility},\ \text{logical consistency},\ \text{legal / social limits},\ \text{ethical bounds},\ \text{system invariants} \}$$
 
 ⸻
 
@@ -3462,9 +3290,7 @@ constraint calibration
 
 9.1 Overblocking
 
-\[
-X_G = \varnothing
-\]
+$$X_G = \varnothing$$
 
 → paralysis
 
@@ -3565,19 +3391,7 @@ But here:
 
 14. Final L9 Form
 
-\[
-S_G =
-(
-X_G,\
-\tau_P,\
-L_G,\
-D_G,\
-C_G,\
-\Omega_G,\
-\Gamma_G,\
-\Xi_G
-)
-\]
+$$S_G = ( X_G,\ \tau_P,\ L_G,\ D_G,\ C_G,\ \Omega_G,\ \Gamma_G,\ \Xi_G )$$
 
 ⸻
 
@@ -3664,16 +3478,7 @@ environmental resistance
 
 6. Constraints
 
-\[
-C_A =
-\{
-\text{physics},\
-\text{environment},\
-\text{body limits},\
-\text{tool limits},\
-\text{external interference}
-\}
-\]
+$$C_A = \{ \text{physics},\ \text{environment},\ \text{body limits},\ \text{tool limits},\ \text{external interference} \}$$
 
 ⸻
 
@@ -3810,19 +3615,7 @@ Only here:
 
 14. Final L10 Form
 
-\[
-S_A =
-(
-X_A,\
-\tau_G,\
-L_A,\
-D_A,\
-C_A,\
-\Omega_A,\
-\Gamma_A,\
-\Xi_A
-)
-\]
+$$S_A = ( X_A,\ \tau_G,\ L_A,\ D_A,\ C_A,\ \Omega_A,\ \Gamma_A,\ \Xi_A )$$
 
 ⸻
 
@@ -3915,15 +3708,7 @@ feedback framing
 
 6. Constraints
 
-\[
-C_{Fb} =
-\{
-\text{observability},\
-\text{measurement limits},\
-\text{time delay},\
-\text{signal-to-noise ratio}
-\}
-\]
+$$C_{Fb} = \{ \text{observability},\ \text{measurement limits},\ \text{time delay},\ \text{signal-to-noise ratio} \}$$
 
 ⸻
 
@@ -3954,9 +3739,7 @@ Q_{Fb} = f(\text{accuracy, completeness, timeliness})
 
 9.1 No Feedback
 
-\[
-X_{Fb} = \varnothing
-\]
+$$X_{Fb} = \varnothing$$
 
 → system blind to outcome
 
@@ -4060,20 +3843,7 @@ Q_{Fb} \approx 0
 
 14. Final L11 Form
 
-\[
-S_{Fb} =
-(
-X_{Fb},\
-\tau_A,\
-L_{Fb},\
-D_{Fb},\
-C_{Fb},\
-\Omega_{Fb},\
-\Gamma_{Fb},\
-\Xi_{Fb},\
-Q_{Fb}
-)
-\]
+$$S_{Fb} = ( X_{Fb},\ \tau_A,\ L_{Fb},\ D_{Fb},\ C_{Fb},\ \Omega_{Fb},\ \Gamma_{Fb},\ \Xi_{Fb},\ Q_{Fb} )$$
 
 ⸻
 
@@ -4209,15 +3979,7 @@ emotional distortion
 
 7. Constraints
 
-\[
-C_U =
-\{
-\text{mutation bounds},\
-\text{identity preservation},\
-\text{stability requirements},\
-\text{capacity limits}
-\}
-\]
+$$C_U = \{ \text{mutation bounds},\ \text{identity preservation},\ \text{stability requirements},\ \text{capacity limits} \}$$
 
 ⸻
 
@@ -4373,19 +4135,7 @@ Everything depends on:
 
 16. Final L12 Form
 
-\[
-S_U =
-(
-X_U,\
-\tau_{Fb},\
-L_U,\
-D_U,\
-C_U,\
-\Omega_U,\
-\Gamma_U,\
-\Xi_U
-)
-\]
+$$S_U = ( X_U,\ \tau_{Fb},\ L_U,\ D_U,\ C_U,\ \Omega_U,\ \Gamma_U,\ \Xi_U )$$
 
 ⸻
 
@@ -4949,17 +4699,7 @@ T_{couple}(x, system) = P(\text{interaction occurs})
 
 Expanded:
 
-\[
-T_{couple} =
-f(
-distance,\
-interface,\
-energy,\
-compatibility,\
-alignment,\
-medium
-)
-\]
+$$T_{couple} = f( distance,\ interface,\ energy,\ compatibility,\ alignment,\ medium )$$
 
 ⸻
 
@@ -5010,18 +4750,7 @@ T_{couple}(x) \cdot Access(x) \cdot A(x) > \theta
 
 🔴 5. ATTENTION COMPONENTS
 
-\[
-A(x) =
-f(
-Goal,\
-State,\
-Memory,\
-Novelty,\
-Threat,\
-Reward,\
-PredictionError
-)
-\]
+$$A(x) = f( Goal,\ State,\ Memory,\ Novelty,\ Threat,\ Reward,\ PredictionError )$$
 
 ⸻
 
@@ -6063,17 +5792,7 @@ A(x) = f(\mathcal{P}, x)
 
 3. PRIOR FIELD STRUCTURE
 
-\[
-\mathcal{P} =
-(
-Models,\
-Beliefs,\
-Memory,\
-Identity,\
-Goals,\
-Predictions
-)
-\]
+$$\mathcal{P} = ( Models,\ Beliefs,\ Memory,\ Identity,\ Goals,\ Predictions )$$
 
 ⸻
 
@@ -6398,9 +6117,7 @@ More load
 
 5.6 FRAGMENTATION
 
-\[
-X_X^{subsystems} \not\ aligned
-\]
+$$X_X^{subsystems} \not\ aligned$$
 
 Different parts of system believe different realities
 
@@ -6569,31 +6286,13 @@ cross-layer misalignment
 
 3. META STATE
 
-\[
-X_{meta} =
-\{
-StabilityScore,\
-DriftLevel,\
-Coherence,\
-Integrity,\
-LoopGain,\
-ErrorRate
-\}
-\]
+$$X_{meta} = \{ StabilityScore,\ DriftLevel,\ Coherence,\ Integrity,\ LoopGain,\ ErrorRate \}$$
 
 ⸻
 
 4. DETECTION FUNCTION
 
-\[
-Instability =
-f(
-|\Delta \mathcal{P}|,\
-|\Gamma_{true} - \Gamma_{used}|,\
-\sum |\Lambda_{k,j}|,
-Load / Capacity
-)
-\]
+$$Instability = f( |\Delta \mathcal{P}|,\ |\Gamma_{true} - \Gamma_{used}|,\ \sum |\Lambda_{k,j}|, Load / Capacity )$$
 
 ⸻
 
@@ -6879,17 +6578,7 @@ Even perception bias comes from V
 
 3. VALUE FIELD STRUCTURE
 
-\[
-\mathcal{V} =
-(
-Survival,\
-Integrity,\
-GoalHierarchy,\
-IdentityCore,\
-ConstraintPriority,\
-TimePreference
-)
-\]
+$$\mathcal{V} = ( Survival,\ Integrity,\ GoalHierarchy,\ IdentityCore,\ ConstraintPriority,\ TimePreference )$$
 
 ⸻
 
@@ -7123,7 +6812,7 @@ cannot be violated
 ⸻
 
 3. FORM
-\[ \mathcal{G} = \{ Existence,\ Coherence,\ Non-Contradiction,\ Causality,\ Integrity\ \} \]
+$$ \mathcal{G} = \{ Existence,\ Coherence,\ Non-Contradiction,\ Causality,\ Integrity\ \} $$
 These are examples — but structurally:
 \forall x: \quad \mathcal{G}(x) = TRUE
 If not:
@@ -7140,7 +6829,7 @@ System(t) \models \mathcal{G}
 5. CONSTRAINT ON VALUE
 \mathcal{V} \subseteq \mathcal{G}
 If:
-\[ \mathcal{V} \not\subseteq \mathcal{G} \]
+$$ \mathcal{V} \not\subseteq \mathcal{G} $$
 → value is invalid
 
 ⸻
@@ -8074,15 +7763,11 @@ That is not guaranteed.
 
 Drift (failure)
 
-\[
-\Delta \mathbb{X} \not\ aligned\ with\ \mathcal{V}
-\]
+$$\Delta \mathbb{X} \not\ aligned\ with\ \mathcal{V}$$
 
 Evolution (valid)
 
-\[
-\Delta \mathbb{X} \aligned\ with\ \mathcal{V} \land \mathcal{G}
-\]
+$$\Delta \mathbb{X} \aligned\ with\ \mathcal{V} \land \mathcal{G}$$
 
 ⸻
 
@@ -8462,18 +8147,7 @@ System(a(\tau)) \in Valid
 
 4. ADVERSARIAL SPACE
 
-\[
-\mathcal{A} =
-\{
-InputAttacks,\
-AttentionHijack,\
-PriorManipulation,\
-FeedbackPoisoning,\
-ExecutionDisruption,\
-ValueExploitation,\
-Meta-ControlBypass
-\}
-\]
+$$\mathcal{A} = \{ InputAttacks,\ AttentionHijack,\ PriorManipulation,\ FeedbackPoisoning,\ ExecutionDisruption,\ ValueExploitation,\ Meta-ControlBypass \}$$
 
 ⸻
 
@@ -8557,15 +8231,7 @@ Robust\ within\ bounded\ adversarial\ space
 
 10. FINAL FORM
 
-\[
-\boxed{
-\forall \tau \in \mathcal{T},\
-\forall a \in \mathcal{A}_{bounded}:
-\quad
-\mathbb{X}_{a,\tau}(t)
-\text{ remains valid under } \mathcal{G}, \mathcal{V}, \mathcal{M}
-}
-\]
+$$\boxed{ \forall \tau \in \mathcal{T},\ \forall a \in \mathcal{A}_{bounded}: \quad \mathbb{X}_{a,\tau}(t) \text{ remains valid under } \mathcal{G}, \mathcal{V}, \mathcal{M} }$$
 
 ⸻
 
@@ -11292,27 +10958,7 @@ FULL STATE VECTOR (EXPANDED)
 
 Not symbolic — operational:
 
-\[
-x_t =
-(
-\underbrace{L1...L13}_{input},
-\underbrace{Access, Coupling, Attention, Authenticity, Compatibility, Prior}_{filters},
-\underbrace{Feature, Meaning, State}_{processing},
-\underbrace{\Omega, H, F, S}_{structure},
-\underbrace{C1...C7}_{cycle},
-\underbrace{Policy, Action}_{decision},
-\underbrace{G1...G16}_{gates},
-\underbrace{Feedback}_{external},
-\underbrace{Error, Drift}_{diagnostics},
-\underbrace{Memory, Identity}_{temporal},
-\underbrace{Trust, ATS, TRS}_{confidence},
-\underbrace{CollapseProb}_{risk},
-\underbrace{Energy, Capacity}_{resources},
-\underbrace{AdversarialPressure}_{threat},
-\underbrace{MetaState}_{control},
-\underbrace{GroundingFlags}_{validity}
-)
-\]
+$$x_t = ( \underbrace{L1...L13}_{input}, \underbrace{Access, Coupling, Attention, Authenticity, Compatibility, Prior}_{filters}, \underbrace{Feature, Meaning, State}_{processing}, \underbrace{\Omega, H, F, S}_{structure}, \underbrace{C1...C7}_{cycle}, \underbrace{Policy, Action}_{decision}, \underbrace{G1...G16}_{gates}, \underbrace{Feedback}_{external}, \underbrace{Error, Drift}_{diagnostics}, \underbrace{Memory, Identity}_{temporal}, \underbrace{Trust, ATS, TRS}_{confidence}, \underbrace{CollapseProb}_{risk}, \underbrace{Energy, Capacity}_{resources}, \underbrace{AdversarialPressure}_{threat}, \underbrace{MetaState}_{control}, \underbrace{GroundingFlags}_{validity} )$$
 
 ⸻
 
@@ -14799,24 +14445,18 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### Pattern 1: The Rise-Fall Cycle (civilizations, markets, empires, species)
 
-\[
-\boxed{\text{Phase}(t) = \arctan(t - t_0)}
-\]
+$$\boxed{\text{Phase}(t) = \arctan(t - t_0)}$$
 
 **Found in:** Rome (753 BC - 476 AD), Han China (206 BC - 220 AD), Maya (250-900 AD), British Empire (1588-1945), US (1776-?), Markets (bull/bear cycles), Species (population boom/bust), Technologies (S-curve adoption)
 
 **Equation:**
-\[
-\boxed{P(t) = P_{\max} \cdot \frac{1}{1 + e^{-k(t - t_0)}} \cdot e^{-\lambda(t - t_0)^2}}
-\]
+$$\boxed{P(t) = P_{\max} \cdot \frac{1}{1 + e^{-k(t - t_0)}} \cdot e^{-\lambda(t - t_0)^2}}$$
 
 ---
 
 ### Pattern 2: The Golden Ratio (0.618) in design, nature, markets
 
-\[
-\boxed{\phi = \frac{1 + \sqrt{5}}{2} \approx 1.618, \quad \frac{1}{\phi} \approx 0.618}
-\]
+$$\boxed{\phi = \frac{1 + \sqrt{5}}{2} \approx 1.618, \quad \frac{1}{\phi} \approx 0.618}$$
 
 **Found in:** Pyramids (Giza, 2560 BC), Parthenon (447 BC), Gothic cathedrals (Chartres, 1194 AD), Renaissance art (Da Vinci, 1490), Modern architecture (Le Corbusier, 1920), Stock market retracements (Fibonacci, 1202 AD), Galaxy spirals, Shells (Nautilus), Plant phyllotaxis (sunflower, 300 million years ago)
 
@@ -14824,9 +14464,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### Pattern 3: The 60-40-20 Rule (Pareto distribution)
 
-\[
-\boxed{P(x > t) = \left(\frac{t}{t_{\min}}\right)^{-\alpha}, \quad \alpha \approx 1.5-2.5}
-\]
+$$\boxed{P(x > t) = \left(\frac{t}{t_{\min}}\right)^{-\alpha}, \quad \alpha \approx 1.5-2.5}$$
 
 **Found in:** Wealth distribution (Pareto, 1896), City sizes (Zipf, 1949), Word frequencies (Zipf, 1935), Company sizes, Market capitalization, Trade volume, Internet traffic (Google, 1998), Social media followers (Parato, 2012)
 
@@ -14834,9 +14472,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### Pattern 4: The 4-7-8 Cycle (7-year cycle in multiple domains)
 
-\[
-\boxed{C_n = 7n \ \text{years}}
-\]
+$$\boxed{C_n = 7n \ \text{years}}$$
 
 **Found in:** Ancient Hebrew Sabbatical cycle (7 years, Leviticus 25:3-7, ~1400 BC), Chinese zodiac (12 years, also 7? not really), Business cycles (Juglar cycle, 7-11 years, 1862), Kondratiev wave (50-60 years, 1925), Kuznets cycle (15-25 years, 1930), Kitchin cycle (3-5 years, 1923), Presidential cycles (4 years, US), Solar cycles (11 years, Schwabe, 1843)
 
@@ -14844,9 +14480,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### Pattern 5: The Inversion/Reversal Pattern
 
-\[
-\boxed{\text{Signal} \to \text{Overreaction} \to \text{Reversal}}
-\]
+$$\boxed{\text{Signal} \to \text{Overreaction} \to \text{Reversal}}$$
 
 **Found in:** Market bubbles (Tulip 1637, South Sea 1720, Dot-com 2000, Housing 2008, Crypto 2017, Meme stocks 2021, NFT 2021, AI 2023), Political revolutions (France 1789, Russia 1917, Iran 1979, Arab Spring 2011), Social movements (Civil rights 1960s, Women's suffrage 1920, LGBTQ rights 2010s), Technology hype cycles (Gartner Hype Cycle, 1995), Scientific paradigms (Kuhn, 1962)
 
@@ -14854,9 +14488,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### Pattern 6: The Herding/Bandwagon Effect
 
-\[
-\boxed{\frac{dM}{dt} = \beta M(1-M) - \gamma M + \text{noise}}
-\]
+$$\boxed{\frac{dM}{dt} = \beta M(1-M) - \gamma M + \text{noise}}$$
 
 **Found in:** All human groups, all markets, all social networks, voting behavior, fashion adoption, technology adoption (Rogers, 1962), epidemic spread (Kermack-McKendrick, 1927), information cascades (Bikhchandani, 1992)
 
@@ -14864,9 +14496,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### Pattern 7: The Power-Law of Memory (recency)
 
-\[
-\boxed{w(t) \propto e^{-\lambda t}}
-\]
+$$\boxed{w(t) \propto e^{-\lambda t}}$$
 
 **Found in:** Human memory (Ebbinghaus, 1885), Marketing recency, Google PageRank (Brin-Page, 1998), Neural networks (backpropagation, 1986), Reinforcement learning (Q-learning, Watkins, 1989), Stock market technical analysis (moving averages, 1900s), Political polling (recency weighting), Consumer behavior (last-click attribution)
 
@@ -14874,9 +14504,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### Pattern 8: The 3-Phase Transition
 
-\[
-\boxed{\text{Phase 1: Birth/Innovation} \to \text{Phase 2: Growth/Adoption} \to \text{Phase 3: Maturity/Saturation}}
-\]
+$$\boxed{\text{Phase 1: Birth/Innovation} \to \text{Phase 2: Growth/Adoption} \to \text{Phase 3: Maturity/Saturation}}$$
 
 **Found in:** Product life cycle (1965), Industry life cycle, Technology adoption (Rogers, 1962), Biological life (birth, growth, death), Civilizations (rise, peak, fall), Markets (bull, top, bear), Relationships (initiation, maintenance, termination)
 
@@ -14884,9 +14512,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### Pattern 9: The Feedback Loop (Reinforcing/Balancing)
 
-\[
-\boxed{\frac{dX}{dt} = \alpha X - \beta X^2}
-\]
+$$\boxed{\frac{dX}{dt} = \alpha X - \beta X^2}$$
 
 **Found in:** Population dynamics (Lotka-Volterra, 1925, 1926), Predator-prey, Arms races (Richardson, 1960), Arms control treaties, Climate change (CO₂ feedback, Arrhenius, 1896), Economics (Adam Smith, invisible hand, 1776), Markets (supply/demand), Social systems (Merton, 1968), Technology (Moore's law, 1965)
 
@@ -14894,9 +14520,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### Pattern 10: The Memory-Model-Feedback Loop (Heritage Core)
 
-\[
-\boxed{X_{t+1} = F(X_t, \text{Memory}_t, \text{Feedback}_t)}
-\]
+$$\boxed{X_{t+1} = F(X_t, \text{Memory}_t, \text{Feedback}_t)}$$
 
 **Found in:** Reinforcement learning (Sutton-Barto, 1998), PID controllers (Minorsky, 1922), Adaptive control (Åström, 1973), Bayesian updating (Bayes, 1763), Kalman filter (Kalman, 1960), Particle filters (Gordon, 1993), Neural networks (Rumelhart, 1986), Evolutionary algorithms (Holland, 1975)
 
@@ -14904,9 +14528,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### Pattern 11: The Constraint-Action Loop
 
-\[
-\boxed{A(t) = \arg\max_{a \in \mathcal{A}} U(a) \quad \text{subject to} \quad C(a) \le \theta}
-\]
+$$\boxed{A(t) = \arg\max_{a \in \mathcal{A}} U(a) \quad \text{subject to} \quad C(a) \le \theta}$$
 
 **Found in:** All decision-making (economics, 1871), Optimal control (Pontryagin, 1956), MPC (Richalet, 1978), Robotics (Khatib, 1985), AI planning (Fikes-Nilsson, 1971), Game theory (von Neumann, 1928), Mechanism design (Hurwicz, 1960)
 
@@ -14914,9 +14536,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### Pattern 12: The Collapse/Reset Cycle
 
-\[
-\boxed{\text{Reset} = \text{Collapse} + \text{Regeneration}}
-\]
+$$\boxed{\text{Reset} = \text{Collapse} + \text{Regeneration}}$$
 
 **Found in:** Civilizations (Spengler, 1918; Toynbee, 1934; Tainter, 1988), Markets (crash → recovery), Ecosystems (fire → regrowth), Organizations (restructuring), Individual psychology (breakdown → breakthrough), Science (paradigm shift → normal science, Kuhn, 1962)
 
@@ -14945,9 +14565,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### The Logistic Growth Equation (Verhulst, 1838)
 
-\[
-\boxed{\frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right)}
-\]
+$$\boxed{\frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right)}$$
 
 | **Field** | **N** | **r** | **K** | **Example** |
 | --- | --- | --- | --- | --- |
@@ -14965,9 +14583,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### The Exponential Decay (Ebbinghaus, 1885)
 
-\[
-\boxed{M(t) = M_0 e^{-t/\tau}}
-\]
+$$\boxed{M(t) = M_0 e^{-t/\tau}}$$
 
 | **Field** | **M(t)** | **τ** | **Example** |
 | --- | --- | --- | --- |
@@ -14985,9 +14601,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### The Power Law (Zipf, 1935; Pareto, 1896)
 
-\[
-\boxed{P(\text{rank} = r) \propto \frac{1}{r^{\alpha}}}
-\]
+$$\boxed{P(\text{rank} = r) \propto \frac{1}{r^{\alpha}}}$$
 
 | **Field** | **Ranked by** | **α** | **Example** |
 | --- | --- | --- | --- |
@@ -15005,9 +14619,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### The Inverse Square Law (Newton, 1687)
 
-\[
-\boxed{F \propto \frac{1}{r^2}}
-\]
+$$\boxed{F \propto \frac{1}{r^2}}$$
 
 | **Field** | **F** | **r** | **Example** |
 | --- | --- | --- | --- |
@@ -15025,9 +14637,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### The Heat/Diffusion Equation (Fourier, 1822)
 
-\[
-\boxed{\frac{\partial u}{\partial t} = \alpha \nabla^2 u}
-\]
+$$\boxed{\frac{\partial u}{\partial t} = \alpha \nabla^2 u}$$
 
 | **Field** | **u** | **α** | **Example** |
 | --- | --- | --- | --- |
@@ -15045,9 +14655,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 ### The Wave Equation (d'Alembert, 1747)
 
-\[
-\boxed{\frac{\partial^2 u}{\partial t^2} = c^2 \nabla^2 u}
-\]
+$$\boxed{\frac{\partial^2 u}{\partial t^2} = c^2 \nabla^2 u}$$
 
 | **Field** | **u** | **c** | **Example** |
 | --- | --- | --- | --- |
@@ -15067,9 +14675,7 @@ You are right. I have been giving **general equations** without connecting them 
 
 Borrowed from your own V8 and earlier:
 
-\[
-\boxed{\text{State}_{t+1} = \text{Initial} + \int_0^t \text{Flow}(\tau) d\tau - \int_0^t \text{Decay}(\tau) d\tau + \int_0^t \text{Shock}(\tau) d\tau}
-\]
+$$\boxed{\text{State}_{t+1} = \text{Initial} + \int_0^t \text{Flow}(\tau) d\tau - \int_0^t \text{Decay}(\tau) d\tau + \int_0^t \text{Shock}(\tau) d\tau}$$
 
 Where:
 - **Flow** = logistic growth (new adopters, population, wealth)
@@ -15081,9 +14687,7 @@ Where:
 
 ## PHẦN 5: THE CIVILIZATION-ENCODING EQUATION (Heritage Core)
 
-\[
-\boxed{\text{HiddenSignal} = \sum_{\text{civilization}} \sum_{\text{era}} \text{SurvivingArtifacts} \times \text{DecayFactor} + \text{RepeatedPatterns} \times \text{CulturalMemory}}
-\]
+$$\boxed{\text{HiddenSignal} = \sum_{\text{civilization}} \sum_{\text{era}} \text{SurvivingArtifacts} \times \text{DecayFactor} + \text{RepeatedPatterns} \times \text{CulturalMemory}}$$
 
 This is the equation that allows Heritage to **decode ancient knowledge from fragments** — the same equation works for:
 - Reconstructing a language from surviving texts
@@ -15096,9 +14700,7 @@ This is the equation that allows Heritage to **decode ancient knowledge from fra
 
 ## PHẦN 6: THE REPEATING PATTERN DETECTION EQUATION
 
-\[
-\boxed{R(x(t)) = \int_0^T \mathbf{1}[x(t) \approx x(t + \tau)] dt}
-\]
+$$\boxed{R(x(t)) = \int_0^T \mathbf{1}[x(t) \approx x(t + \tau)] dt}$$
 
 A pattern repeats if its similarity exceeds threshold at multiple times.
 
@@ -16150,24 +15752,7 @@ A — Collapse all pattern tiers into one minimal generating equation
 
 The full pattern hierarchy can collapse into one equation:
 
-\[
-\boxed{
-X_{t+1}
-=
-\mathcal{G}
-\Big[
-X_t
-+
-\underbrace{F(\Delta X_t)}_{\text{flow}}
--
-\underbrace{D(X_t)}_{\text{decay}}
-+
-\underbrace{S(\Xi_t)}_{\text{shock}}
-+
-\underbrace{\Gamma(X_t, X_{t-\tau})}_{\text{feedback / delay}}
-\Big]
-}
-\]
+$$\boxed{ X_{t+1} = \mathcal{G} \Big[ X_t + \underbrace{F(\Delta X_t)}_{\text{flow}} - \underbrace{D(X_t)}_{\text{decay}} + \underbrace{S(\Xi_t)}_{\text{shock}} + \underbrace{\Gamma(X_t, X_{t-\tau})}_{\text{feedback / delay}} \Big] }$$
 
 This is the minimal universal pattern equation.
 
@@ -16613,92 +16198,92 @@ This is the **final compilation** — not infinite in principle, but as exhausti
 
 | # | Pattern | Equation / Description | First observed | Found in |
 | --- | --- | --- | --- | --- |
-| 1 | Inverse-square law | \( F \propto 1/r^2 \) | Newton (1687) | Gravity, electromagnetism, light, sound, radiation |
-| 2 | Exponential decay | \( N(t) = N_0 e^{-t/\tau} \) | Rutherford (1900) | Radioactivity, damping, fluorescence, discharge |
-| 3 | Logistic growth | \( dN/dt = rN(1-N/K) \) | Verhulst (1838) | Population, epidemics, technology adoption |
-| 4 | Wave equation | \( \partial_{tt}u = c^2\nabla^2 u \) | d'Alembert (1747) | Sound, light, water, seismic, electromagnetic |
-| 5 | Heat equation | \( \partial_t u = \alpha\nabla^2 u \) | Fourier (1822) | Heat, diffusion, Brownian motion, Schrödinger |
-| 6 | Schrödinger equation | \( i\hbar\partial_t\psi = \hat{H}\psi \) | Schrödinger (1926) | Quantum mechanics, atoms, molecules, solids |
-| 7 | Maxwell's equations | \( \nabla\cdot\mathbf{E} = \rho/\epsilon_0 \), etc. | Maxwell (1861) | Electromagnetism, light, radio, optics |
-| 8 | Lorentz force | \( \mathbf{F} = q(\mathbf{E} + \mathbf{v}\times\mathbf{B}) \) | Lorentz (1895) | Particle accelerators, mass spectrometers, motors |
-| 9 | Planck's law | \( B_\nu(T) = \frac{2h\nu^3}{c^2}\frac{1}{e^{h\nu/kT}-1} \) | Planck (1900) | Blackbody radiation, cosmic microwave background |
-| 10 | Stefan-Boltzmann law | \( j^* = \sigma T^4 \) | Stefan (1879) | Stellar luminosity, thermal radiation |
-| 11 | Wien's displacement | \( \lambda_{\max}T = b \) | Wien (1893) | Star color, temperature measurement |
-| 12 | Kepler's laws | \( T^2 \propto a^3 \) | Kepler (1609) | Planetary orbits, satellite motion |
-| 13 | Newton's laws | \( F = ma \), \( F_{12} = -F_{21} \) | Newton (1687) | Mechanics, engineering, celestial motion |
-| 14 | Hooke's law | \( F = -kx \) | Hooke (1660) | Springs, elasticity, solid mechanics |
-| 15 | Ohm's law | \( V = IR \) | Ohm (1827) | Electrical circuits, resistance |
-| 16 | Kirchhoff's laws | \( \sum I = 0 \), \( \sum V = 0 \) | Kirchhoff (1845) | Circuit analysis |
-| 17 | Snell's law | \( n_1\sin\theta_1 = n_2\sin\theta_2 \) | Snell (1621) | Optics, refraction, lenses |
-| 18 | Bragg's law | \( n\lambda = 2d\sin\theta \) | Bragg (1913) | X-ray crystallography, diffraction |
-| 19 | Uncertainty principle | \( \Delta x \Delta p \geq \hbar/2 \) | Heisenberg (1927) | Quantum mechanics, limits of measurement |
+| 1 | Inverse-square law | $ F \propto 1/r^2 $ | Newton (1687) | Gravity, electromagnetism, light, sound, radiation |
+| 2 | Exponential decay | $ N(t) = N_0 e^{-t/\tau} $ | Rutherford (1900) | Radioactivity, damping, fluorescence, discharge |
+| 3 | Logistic growth | $ dN/dt = rN(1-N/K) $ | Verhulst (1838) | Population, epidemics, technology adoption |
+| 4 | Wave equation | $ \partial_{tt}u = c^2\nabla^2 u $ | d'Alembert (1747) | Sound, light, water, seismic, electromagnetic |
+| 5 | Heat equation | $ \partial_t u = \alpha\nabla^2 u $ | Fourier (1822) | Heat, diffusion, Brownian motion, Schrödinger |
+| 6 | Schrödinger equation | $ i\hbar\partial_t\psi = \hat{H}\psi $ | Schrödinger (1926) | Quantum mechanics, atoms, molecules, solids |
+| 7 | Maxwell's equations | $ \nabla\cdot\mathbf{E} = \rho/\epsilon_0 $, etc. | Maxwell (1861) | Electromagnetism, light, radio, optics |
+| 8 | Lorentz force | $ \mathbf{F} = q(\mathbf{E} + \mathbf{v}\times\mathbf{B}) $ | Lorentz (1895) | Particle accelerators, mass spectrometers, motors |
+| 9 | Planck's law | $ B_\nu(T) = \frac{2h\nu^3}{c^2}\frac{1}{e^{h\nu/kT}-1} $ | Planck (1900) | Blackbody radiation, cosmic microwave background |
+| 10 | Stefan-Boltzmann law | $ j^* = \sigma T^4 $ | Stefan (1879) | Stellar luminosity, thermal radiation |
+| 11 | Wien's displacement | $ \lambda_{\max}T = b $ | Wien (1893) | Star color, temperature measurement |
+| 12 | Kepler's laws | $ T^2 \propto a^3 $ | Kepler (1609) | Planetary orbits, satellite motion |
+| 13 | Newton's laws | $ F = ma $, $ F_{12} = -F_{21} $ | Newton (1687) | Mechanics, engineering, celestial motion |
+| 14 | Hooke's law | $ F = -kx $ | Hooke (1660) | Springs, elasticity, solid mechanics |
+| 15 | Ohm's law | $ V = IR $ | Ohm (1827) | Electrical circuits, resistance |
+| 16 | Kirchhoff's laws | $ \sum I = 0 $, $ \sum V = 0 $ | Kirchhoff (1845) | Circuit analysis |
+| 17 | Snell's law | $ n_1\sin\theta_1 = n_2\sin\theta_2 $ | Snell (1621) | Optics, refraction, lenses |
+| 18 | Bragg's law | $ n\lambda = 2d\sin\theta $ | Bragg (1913) | X-ray crystallography, diffraction |
+| 19 | Uncertainty principle | $ \Delta x \Delta p \geq \hbar/2 $ | Heisenberg (1927) | Quantum mechanics, limits of measurement |
 | 20 | Pauli exclusion | No two fermions same state | Pauli (1925) | Electron shells, periodic table, degeneracy pressure |
-| 21 | Bose-Einstein statistics | \( n_i = 1/(e^{(\epsilon_i-\mu)/kT}-1) \) | Bose (1924) | Photons, superfluids, BEC |
-| 22 | Fermi-Dirac statistics | \( n_i = 1/(e^{(\epsilon_i-\mu)/kT}+1) \) | Fermi (1926) | Electrons in metals, white dwarfs |
-| 23 | Superposition | \( |\psi\rangle = \sum c_i|i\rangle \) | Dirac (1930) | Quantum computing, interference |
-| 24 | Entanglement | \( |\psi_{AB}\rangle = \sum a_{ij}|i_A j_B\rangle \) | Einstein-Podolsky-Rosen (1935) | Quantum teleportation, cryptography |
-| 25 | Tunneling | \( T \propto e^{-2\kappa L} \) | Gamow (1928) | STM, nuclear fusion, transistors |
-| 26 | Equipartition theorem | \( \langle E \rangle = \frac{1}{2}k_B T \) | Boltzmann (1868) | Thermal energy, degrees of freedom |
-| 27 | Boltzmann distribution | \( P(E) \propto e^{-E/k_B T} \) | Boltzmann (1868) | Statistical mechanics, temperature |
-| 28 | Gibbs free energy | \( \Delta G = \Delta H - T\Delta S \) | Gibbs (1873) | Chemical reactions, phase transitions |
-| 29 | Arrhenius equation | \( k = Ae^{-E_a/RT} \) | Arrhenius (1889) | Reaction rates, temperature dependence |
-| 30 | Beer-Lambert law | \( A = \epsilon c l \) | Beer (1852) | Spectroscopy, absorption |
-| 31 | Moseley's law | \( \sqrt{\nu} \propto (Z - \sigma) \) | Moseley (1913) | X-ray spectra, atomic number |
-| 32 | Rydberg formula | \( 1/\lambda = R(1/n_1^2 - 1/n_2^2) \) | Rydberg (1888) | Hydrogen spectra, atomic structure |
-| 33 | Balmer series | \( \lambda = 364.56 n^2/(n^2-4) \) nm | Balmer (1885) | Visible hydrogen lines |
-| 34 | Lyman series | \( 1/\lambda = R(1/1^2 - 1/n^2) \) | Lyman (1906) | UV hydrogen lines |
-| 35 | Paschen series | \( 1/\lambda = R(1/3^2 - 1/n^2) \) | Paschen (1908) | IR hydrogen lines |
-| 36 | Black hole entropy | \( S = A/4 \) (in Planck units) | Hawking (1974) | Black holes, information paradox |
-| 37 | Hawking radiation | \( T = \hbar c^3/(8\pi GM k_B) \) | Hawking (1974) | Black hole evaporation |
-| 38 | Friedmann equations | \( (\dot{a}/a)^2 = 8\pi G\rho/3 - kc^2/a^2 \) | Friedmann (1922) | Cosmology, universe expansion |
-| 39 | Hubble's law | \( v = H_0 d \) | Hubble (1929) | Universe expansion, redshift |
-| 40 | Cosmic microwave background | \( T = 2.725 K \) | Penzias & Wilson (1965) | Big Bang remnant |
-| 41 | Baryon acoustic oscillations | \( \theta \approx 0.5^\circ \) | Eisenstein (2005) | Matter distribution, universe composition |
-| 42 | Primordial nucleosynthesis | \( Y_p \approx 0.25 \) | Gamow (1948) | H, He, Li abundances |
-| 43 | CMB anisotropies | \( \Delta T/T \approx 10^{-5} \) | COBE (1992) | Structure formation |
-| 44 | Inflation | \( \dot{\phi}^2 \ll V(\phi) \) | Guth (1981) | Early universe, flatness problem |
-| 45 | Dark energy | \( p = w\rho c^2 \), \( w \approx -1 \) | Riess & Perlmutter (1998) | Accelerating expansion |
-| 46 | Dark matter | \( v^2 = GM(r)/r \) | Zwicky (1933) | Galaxy rotation curves |
-| 47 | Gravitational lensing | \( \theta = 4GM/(c^2\xi) \) | Einstein (1936) | Mass distribution, dark matter |
-| 48 | Gravitational waves | \( h(t) \propto \ddot{Q}_{ij}(t-r/c)/r \) | LIGO (2015) | Merging black holes, neutron stars |
-| 49 | Merger chirp | \( \dot{f} \propto f^{11/3} \) | LIGO (2015) | Binary inspiral |
-| 50 | Ringdown | \( h(t) \propto e^{-t/\tau}\sin(2\pi f_R t) \) | LIGO (2015) | Black hole ringdown modes |
+| 21 | Bose-Einstein statistics | $ n_i = 1/(e^{(\epsilon_i-\mu)/kT}-1) $ | Bose (1924) | Photons, superfluids, BEC |
+| 22 | Fermi-Dirac statistics | $ n_i = 1/(e^{(\epsilon_i-\mu)/kT}+1) $ | Fermi (1926) | Electrons in metals, white dwarfs |
+| 23 | Superposition | $ |\psi\rangle = \sum c_i|i\rangle $ | Dirac (1930) | Quantum computing, interference |
+| 24 | Entanglement | $ |\psi_{AB}\rangle = \sum a_{ij}|i_A j_B\rangle $ | Einstein-Podolsky-Rosen (1935) | Quantum teleportation, cryptography |
+| 25 | Tunneling | $ T \propto e^{-2\kappa L} $ | Gamow (1928) | STM, nuclear fusion, transistors |
+| 26 | Equipartition theorem | $ \langle E \rangle = \frac{1}{2}k_B T $ | Boltzmann (1868) | Thermal energy, degrees of freedom |
+| 27 | Boltzmann distribution | $ P(E) \propto e^{-E/k_B T} $ | Boltzmann (1868) | Statistical mechanics, temperature |
+| 28 | Gibbs free energy | $ \Delta G = \Delta H - T\Delta S $ | Gibbs (1873) | Chemical reactions, phase transitions |
+| 29 | Arrhenius equation | $ k = Ae^{-E_a/RT} $ | Arrhenius (1889) | Reaction rates, temperature dependence |
+| 30 | Beer-Lambert law | $ A = \epsilon c l $ | Beer (1852) | Spectroscopy, absorption |
+| 31 | Moseley's law | $ \sqrt{\nu} \propto (Z - \sigma) $ | Moseley (1913) | X-ray spectra, atomic number |
+| 32 | Rydberg formula | $ 1/\lambda = R(1/n_1^2 - 1/n_2^2) $ | Rydberg (1888) | Hydrogen spectra, atomic structure |
+| 33 | Balmer series | $ \lambda = 364.56 n^2/(n^2-4) $ nm | Balmer (1885) | Visible hydrogen lines |
+| 34 | Lyman series | $ 1/\lambda = R(1/1^2 - 1/n^2) $ | Lyman (1906) | UV hydrogen lines |
+| 35 | Paschen series | $ 1/\lambda = R(1/3^2 - 1/n^2) $ | Paschen (1908) | IR hydrogen lines |
+| 36 | Black hole entropy | $ S = A/4 $ (in Planck units) | Hawking (1974) | Black holes, information paradox |
+| 37 | Hawking radiation | $ T = \hbar c^3/(8\pi GM k_B) $ | Hawking (1974) | Black hole evaporation |
+| 38 | Friedmann equations | $ (\dot{a}/a)^2 = 8\pi G\rho/3 - kc^2/a^2 $ | Friedmann (1922) | Cosmology, universe expansion |
+| 39 | Hubble's law | $ v = H_0 d $ | Hubble (1929) | Universe expansion, redshift |
+| 40 | Cosmic microwave background | $ T = 2.725 K $ | Penzias & Wilson (1965) | Big Bang remnant |
+| 41 | Baryon acoustic oscillations | $ \theta \approx 0.5^\circ $ | Eisenstein (2005) | Matter distribution, universe composition |
+| 42 | Primordial nucleosynthesis | $ Y_p \approx 0.25 $ | Gamow (1948) | H, He, Li abundances |
+| 43 | CMB anisotropies | $ \Delta T/T \approx 10^{-5} $ | COBE (1992) | Structure formation |
+| 44 | Inflation | $ \dot{\phi}^2 \ll V(\phi) $ | Guth (1981) | Early universe, flatness problem |
+| 45 | Dark energy | $ p = w\rho c^2 $, $ w \approx -1 $ | Riess & Perlmutter (1998) | Accelerating expansion |
+| 46 | Dark matter | $ v^2 = GM(r)/r $ | Zwicky (1933) | Galaxy rotation curves |
+| 47 | Gravitational lensing | $ \theta = 4GM/(c^2\xi) $ | Einstein (1936) | Mass distribution, dark matter |
+| 48 | Gravitational waves | $ h(t) \propto \ddot{Q}_{ij}(t-r/c)/r $ | LIGO (2015) | Merging black holes, neutron stars |
+| 49 | Merger chirp | $ \dot{f} \propto f^{11/3} $ | LIGO (2015) | Binary inspiral |
+| 50 | Ringdown | $ h(t) \propto e^{-t/\tau}\sin(2\pi f_R t) $ | LIGO (2015) | Black hole ringdown modes |
 | 51 | Stellar evolution | Main sequence → giant → white dwarf/neutron star/black hole | Eddington (1920) | All stars |
-| 52 | Hertzsprung-Russell diagram | \( L \propto R^2T^4 \) | Hertzsprung (1911) | Star classification |
-| 53 | Chandrasekhar limit | \( M_{\text{Ch}} \approx 1.4 M_\odot \) | Chandrasekhar (1930) | White dwarf maximum mass |
-| 54 | Tolman-Oppenheimer-Volkoff limit | \( M_{\text{TOV}} \approx 2-3 M_\odot \) | Oppenheimer (1939) | Neutron star maximum mass |
-| 55 | Supernova | \( \Delta m \approx -19.3 \) for Type Ia | Baade (1938) | Element synthesis |
-| 56 | Gamma-ray bursts | \( L \approx 10^{51}-10^{53} \) erg/s | Klebesadel (1973) | Collapsars, mergers |
-| 57 | Cepheid period-luminosity | \( M \propto -2.76\log P + \text{const} \) | Leavitt (1908) | Cosmic distance ladder |
-| 58 | Tully-Fisher relation | \( L \propto v_{\max}^4 \) | Tully (1977) | Spiral galaxy distances |
-| 59 | Faber-Jackson relation | \( L \propto \sigma^4 \) | Faber (1976) | Elliptical galaxy distances |
-| 60 | Fundamental plane | \( R_e \propto \sigma^{1.24}I_e^{-0.82} \) | Dressler (1987) | Elliptical galaxy scaling |
-| 61 | M-sigma relation | \( M_{\text{BH}} \propto \sigma^{4-5} \) | Ferrarese (2000) | Black hole-galaxy connection |
+| 52 | Hertzsprung-Russell diagram | $ L \propto R^2T^4 $ | Hertzsprung (1911) | Star classification |
+| 53 | Chandrasekhar limit | $ M_{\text{Ch}} \approx 1.4 M_\odot $ | Chandrasekhar (1930) | White dwarf maximum mass |
+| 54 | Tolman-Oppenheimer-Volkoff limit | $ M_{\text{TOV}} \approx 2-3 M_\odot $ | Oppenheimer (1939) | Neutron star maximum mass |
+| 55 | Supernova | $ \Delta m \approx -19.3 $ for Type Ia | Baade (1938) | Element synthesis |
+| 56 | Gamma-ray bursts | $ L \approx 10^{51}-10^{53} $ erg/s | Klebesadel (1973) | Collapsars, mergers |
+| 57 | Cepheid period-luminosity | $ M \propto -2.76\log P + \text{const} $ | Leavitt (1908) | Cosmic distance ladder |
+| 58 | Tully-Fisher relation | $ L \propto v_{\max}^4 $ | Tully (1977) | Spiral galaxy distances |
+| 59 | Faber-Jackson relation | $ L \propto \sigma^4 $ | Faber (1976) | Elliptical galaxy distances |
+| 60 | Fundamental plane | $ R_e \propto \sigma^{1.24}I_e^{-0.82} $ | Dressler (1987) | Elliptical galaxy scaling |
+| 61 | M-sigma relation | $ M_{\text{BH}} \propto \sigma^{4-5} $ | Ferrarese (2000) | Black hole-galaxy connection |
 | 62 | Galaxy color-magnitude | Red sequence, blue cloud | Strateva (2001) | Galaxy bimodality |
-| 63 | Large-scale structure | \( P(k) \propto k^n \) | SDSS (2000) | Galaxy clustering |
+| 63 | Large-scale structure | $ P(k) \propto k^n $ | SDSS (2000) | Galaxy clustering |
 | 64 | Cosmic web | Filaments, voids, clusters | Bond (1996) | Structure formation |
-| 65 | Jeans instability | \( \lambda_J = \sqrt{\pi c_s^2/(G\rho)} \) | Jeans (1902) | Star formation |
-| 66 | Salpeter IMF | \( dN/dM \propto M^{-2.35} \) | Salpeter (1955) | Initial mass function |
-| 67 | Tully-Fisher relation | \( M \propto v^4 \) | Tully (1977) | Galaxy distance measurement |
-| 68 | Virial theorem | \( 2\langle T\rangle = -\langle V\rangle \) | Clausius (1870) | Galaxy clusters, star clusters |
-| 69 | Eddington luminosity | \( L_{\text{Edd}} = 4\pi GM m_p c/\sigma_T \) | Eddington (1916) | Black hole accretion limit |
-| 70 | Shakura-Sunyaev disk | \( \alpha = \nu/(c_s H) \) | Shakura (1973) | Accretion disks |
-| 71 | Blandford-Znajek process | \( L \approx \kappa B^2 M_H^2 \Omega^2 \) | Blandford (1977) | Jet production |
-| 72 | Magnetorotational instability | \( \omega^2 = -2\Omega^2 - (k\cdot v_A)^2 + \cdots \) | Balbus-Hawley (1991) | Angular momentum transport |
-| 73 | Pulsar timing | \( \dot{P} \propto P^{-1} \) | Hewish (1968) | Neutron star properties |
-| 74 | Glitch | \( \Delta\nu/\nu \approx 10^{-9}-10^{-6} \) | Radhakrishnan (1969) | Vortex unpinning |
-| 75 | Fast radio bursts | \( \text{DM} \approx 100-2000 \) pc/cm³ | Lorimer (2007) | Unknown origin |
-| 76 | Neutrino oscillations | \( P_{\alpha\to\beta} = \sin^2 2\theta \sin^2(1.27\Delta m^2 L/E) \) | Super-Kamiokande (1998) | Neutrino mass |
-| 77 | Double-slit interference | \( I(\theta) = I_0 \cos^2(\pi d\sin\theta/\lambda) \) | Young (1801) | Wave-particle duality |
-| 78 | Photoelectric effect | \( KE_{\max} = h\nu - \phi \) | Einstein (1905) | Quantum nature of light |
-| 79 | Compton scattering | \( \lambda' - \lambda = (h/m_ec)(1-\cos\theta) \) | Compton (1923) | Photon-electron scattering |
-| 80 | Mössbauer effect | \( \Delta E = 0 \) for recoilless | Mössbauer (1958) | Nuclear transitions |
-| 81 | Raman scattering | \( \nu_{\text{Raman}} = \nu_{\text{in}} \pm \nu_{\text{vib}} \) | Raman (1928) | Molecular vibrations |
-| 82 | Brillouin scattering | \( \nu_B = 2nv_s\sin(\theta/2)/\lambda \) | Brillouin (1922) | Acoustic phonons |
-| 83 | Rayleigh scattering | \( I \propto 1/\lambda^4 \) | Rayleigh (1871) | Blue sky, red sunset |
-| 84 | Mie scattering | \( Q_{\text{sca}} = 2 - \frac{4}{\rho}\sin\rho + \frac{4}{\rho^2}(1-\cos\rho) \) | Mie (1908) | Aerosols, clouds, rainbows |
-| 85 | Casimir effect | \( F = -\frac{\pi^2\hbar c}{240a^4}A \) | Casimir (1948) | Quantum vacuum fluctuations |
-| 86 | Unruh effect | \( T = \frac{\hbar a}{2\pi c k_B} \) | Unruh (1976) | Acceleration temperature |
+| 65 | Jeans instability | $ \lambda_J = \sqrt{\pi c_s^2/(G\rho)} $ | Jeans (1902) | Star formation |
+| 66 | Salpeter IMF | $ dN/dM \propto M^{-2.35} $ | Salpeter (1955) | Initial mass function |
+| 67 | Tully-Fisher relation | $ M \propto v^4 $ | Tully (1977) | Galaxy distance measurement |
+| 68 | Virial theorem | $ 2\langle T\rangle = -\langle V\rangle $ | Clausius (1870) | Galaxy clusters, star clusters |
+| 69 | Eddington luminosity | $ L_{\text{Edd}} = 4\pi GM m_p c/\sigma_T $ | Eddington (1916) | Black hole accretion limit |
+| 70 | Shakura-Sunyaev disk | $ \alpha = \nu/(c_s H) $ | Shakura (1973) | Accretion disks |
+| 71 | Blandford-Znajek process | $ L \approx \kappa B^2 M_H^2 \Omega^2 $ | Blandford (1977) | Jet production |
+| 72 | Magnetorotational instability | $ \omega^2 = -2\Omega^2 - (k\cdot v_A)^2 + \cdots $ | Balbus-Hawley (1991) | Angular momentum transport |
+| 73 | Pulsar timing | $ \dot{P} \propto P^{-1} $ | Hewish (1968) | Neutron star properties |
+| 74 | Glitch | $ \Delta\nu/\nu \approx 10^{-9}-10^{-6} $ | Radhakrishnan (1969) | Vortex unpinning |
+| 75 | Fast radio bursts | $ \text{DM} \approx 100-2000 $ pc/cm³ | Lorimer (2007) | Unknown origin |
+| 76 | Neutrino oscillations | $ P_{\alpha\to\beta} = \sin^2 2\theta \sin^2(1.27\Delta m^2 L/E) $ | Super-Kamiokande (1998) | Neutrino mass |
+| 77 | Double-slit interference | $ I(\theta) = I_0 \cos^2(\pi d\sin\theta/\lambda) $ | Young (1801) | Wave-particle duality |
+| 78 | Photoelectric effect | $ KE_{\max} = h\nu - \phi $ | Einstein (1905) | Quantum nature of light |
+| 79 | Compton scattering | $ \lambda' - \lambda = (h/m_ec)(1-\cos\theta) $ | Compton (1923) | Photon-electron scattering |
+| 80 | Mössbauer effect | $ \Delta E = 0 $ for recoilless | Mössbauer (1958) | Nuclear transitions |
+| 81 | Raman scattering | $ \nu_{\text{Raman}} = \nu_{\text{in}} \pm \nu_{\text{vib}} $ | Raman (1928) | Molecular vibrations |
+| 82 | Brillouin scattering | $ \nu_B = 2nv_s\sin(\theta/2)/\lambda $ | Brillouin (1922) | Acoustic phonons |
+| 83 | Rayleigh scattering | $ I \propto 1/\lambda^4 $ | Rayleigh (1871) | Blue sky, red sunset |
+| 84 | Mie scattering | $ Q_{\text{sca}} = 2 - \frac{4}{\rho}\sin\rho + \frac{4}{\rho^2}(1-\cos\rho) $ | Mie (1908) | Aerosols, clouds, rainbows |
+| 85 | Casimir effect | $ F = -\frac{\pi^2\hbar c}{240a^4}A $ | Casimir (1948) | Quantum vacuum fluctuations |
+| 86 | Unruh effect | $ T = \frac{\hbar a}{2\pi c k_B} $ | Unruh (1976) | Acceleration temperature |
 
 ---
 
@@ -16706,41 +16291,41 @@ This is the **final compilation** — not infinite in principle, but as exhausti
 
 | # | Pattern | Equation / Description | First observed | Found in |
 | --- | --- | --- | --- | --- |
-| 87 | Periodic table | \( Z = 1,2,3,\dots \) | Mendeleev (1869) | All elements |
-| 88 | Octet rule | \( n = 8 \) electrons | Lewis (1916) | Noble gas stability |
-| 89 | VSEPR theory | \( \text{BP} + \text{LP} = 4 \) trigonal, etc. | Gillespie (1957) | Molecular geometry |
-| 90 | Le Chatelier's principle | \( \Delta \text{condition} \to \text{shift equilibrium} \) | Le Chatelier (1884) | Chemical equilibrium |
-| 91 | Henderson-Hasselbalch | \( \text{pH} = \text{p}K_a + \log([A^-]/[HA]) \) | Henderson (1908) | Buffer solutions |
-| 92 | Michaelis-Menten | \( v = V_{\max}[S]/(K_m + [S]) \) | Michaelis (1913) | Enzyme kinetics |
-| 93 | Lineweaver-Burk | \( 1/v = K_m/V_{\max} \cdot 1/[S] + 1/V_{\max} \) | Lineweaver (1934) | Enzyme inhibition |
-| 94 | Arrhenius for biology | \( Q_{10} = (k_2/k_1)^{10/(T_2-T_1)} \) | Arrhenius (1889) | Temperature effects |
-| 95 | DNA double helix | \( \text{p} \cdot \text{a} \cdot \texti\text{r} \cdot \text{i}\text{n}\text{g} \) | Watson-Crick (1953) | Genetic code |
+| 87 | Periodic table | $ Z = 1,2,3,\dots $ | Mendeleev (1869) | All elements |
+| 88 | Octet rule | $ n = 8 $ electrons | Lewis (1916) | Noble gas stability |
+| 89 | VSEPR theory | $ \text{BP} + \text{LP} = 4 $ trigonal, etc. | Gillespie (1957) | Molecular geometry |
+| 90 | Le Chatelier's principle | $ \Delta \text{condition} \to \text{shift equilibrium} $ | Le Chatelier (1884) | Chemical equilibrium |
+| 91 | Henderson-Hasselbalch | $ \text{pH} = \text{p}K_a + \log([A^-]/[HA]) $ | Henderson (1908) | Buffer solutions |
+| 92 | Michaelis-Menten | $ v = V_{\max}[S]/(K_m + [S]) $ | Michaelis (1913) | Enzyme kinetics |
+| 93 | Lineweaver-Burk | $ 1/v = K_m/V_{\max} \cdot 1/[S] + 1/V_{\max} $ | Lineweaver (1934) | Enzyme inhibition |
+| 94 | Arrhenius for biology | $ Q_{10} = (k_2/k_1)^{10/(T_2-T_1)} $ | Arrhenius (1889) | Temperature effects |
+| 95 | DNA double helix | $ \text{p} \cdot \text{a} \cdot \texti\text{r} \cdot \text{i}\text{n}\text{g} $ | Watson-Crick (1953) | Genetic code |
 | 96 | Central dogma | DNA → RNA → Protein | Crick (1958) | Molecular biology |
 | 97 | Genetic code | Triplets → 20 amino acids | Nirenberg (1961) | Protein synthesis |
-| 98 | Hardy-Weinberg | \( p^2 + 2pq + q^2 = 1 \) | Hardy (1908) | Population genetics |
-| 99 | Fisher's fundamental theorem | \( \Delta \bar{w} = \text{Var}(w) \) | Fisher (1930) | Natural selection |
-| 100 | Price equation | \( \Delta \bar{z} = \text{Cov}(w,z) + \mathbb{E}(w\Delta z) \) | Price (1970) | Evolution |
-| 101 | Lotka-Volterra | \( dx/dt = \alpha x - \beta xy \), \( dy/dt = \delta xy - \gamma y \) | Lotka (1925) | Predator-prey |
-| 102 | Beverton-Holt | \( N_{t+1} = rN_t/(1 + aN_t) \) | Beverton (1957) | Population regulation |
-| 103 | Ricker model | \( N_{t+1} = N_t e^{r(1-N_t/K)} \) | Ricker (1954) | Fisheries |
-| 104 | Allometry | \( Y = aM^b \) | Huxley (1932) | Body scaling |
-| 105 | Kleiber's law | \( BMR \propto M^{0.75} \) | Kleiber (1932) | Metabolic rate |
-| 106 | Quarter-power scaling | \( \tau \propto M^{0.25} \), \( r \propto M^{-0.25} \) | West (1997) | Life history |
-| 107 | Wright's F-statistics | \( F_{ST} = \sigma^2_p/\bar{p}(1-\bar{p}) \) | Wright (1943) | Population differentiation |
-| 108 | Kimura's neutral theory | \( p = 1/(2N_e) \) | Kimura (1968) | Molecular evolution |
-| 109 | Jukes-Cantor model | \( P_{AA}(t) = 1/4 + 3/4 e^{-4\alpha t} \) | Jukes (1969) | DNA substitution |
-| 110 | Hasegawa-Kishino-Yano | \( Q = \begin{pmatrix} * & \alpha\pi_C & \beta\pi_A & \beta\pi_G \\ \alpha\pi_T & * & \beta\pi_A & \beta\pi_G \\ \beta\pi_T & \beta\pi_C & * & \alpha\pi_G \\ \beta\pi_T & \beta\pi_C & \alpha\pi_A & * \end{pmatrix} \) | Hasegawa (1985) | DNA evolution |
-| 111 | Rate heterogeneity | \( \Gamma(\alpha, \beta) \) distribution | Yang (1994) | Site variation |
-| 112 | Molecular clock | \( d = rt \) | Zuckerkandl (1962) | Divergence time |
-| 113 | Coalescent theory | \( P(T) = \binom{n}{2} e^{-\binom{n}{2}T} \) | Kingman (1982) | Gene genealogy |
-| 114 | Neutral network | \( k = 1 \) substitutions | Kimura (1968) | Protein evolution |
-| 115 | Fisher's geometric model | \( r^2 = \sum z_i^2 \) | Fisher (1930) | Adaptation |
-| 116 | Mutation-selection balance | \( \hat{q} \approx \mu/s \) | Haldane (1927) | Genetic load |
+| 98 | Hardy-Weinberg | $ p^2 + 2pq + q^2 = 1 $ | Hardy (1908) | Population genetics |
+| 99 | Fisher's fundamental theorem | $ \Delta \bar{w} = \text{Var}(w) $ | Fisher (1930) | Natural selection |
+| 100 | Price equation | $ \Delta \bar{z} = \text{Cov}(w,z) + \mathbb{E}(w\Delta z) $ | Price (1970) | Evolution |
+| 101 | Lotka-Volterra | $ dx/dt = \alpha x - \beta xy $, $ dy/dt = \delta xy - \gamma y $ | Lotka (1925) | Predator-prey |
+| 102 | Beverton-Holt | $ N_{t+1} = rN_t/(1 + aN_t) $ | Beverton (1957) | Population regulation |
+| 103 | Ricker model | $ N_{t+1} = N_t e^{r(1-N_t/K)} $ | Ricker (1954) | Fisheries |
+| 104 | Allometry | $ Y = aM^b $ | Huxley (1932) | Body scaling |
+| 105 | Kleiber's law | $ BMR \propto M^{0.75} $ | Kleiber (1932) | Metabolic rate |
+| 106 | Quarter-power scaling | $ \tau \propto M^{0.25} $, $ r \propto M^{-0.25} $ | West (1997) | Life history |
+| 107 | Wright's F-statistics | $ F_{ST} = \sigma^2_p/\bar{p}(1-\bar{p}) $ | Wright (1943) | Population differentiation |
+| 108 | Kimura's neutral theory | $ p = 1/(2N_e) $ | Kimura (1968) | Molecular evolution |
+| 109 | Jukes-Cantor model | $ P_{AA}(t) = 1/4 + 3/4 e^{-4\alpha t} $ | Jukes (1969) | DNA substitution |
+| 110 | Hasegawa-Kishino-Yano | $ Q = \begin{pmatrix} * & \alpha\pi_C & \beta\pi_A & \beta\pi_G \\ \alpha\pi_T & * & \beta\pi_A & \beta\pi_G \\ \beta\pi_T & \beta\pi_C & * & \alpha\pi_G \\ \beta\pi_T & \beta\pi_C & \alpha\pi_A & * \end{pmatrix} $ | Hasegawa (1985) | DNA evolution |
+| 111 | Rate heterogeneity | $ \Gamma(\alpha, \beta) $ distribution | Yang (1994) | Site variation |
+| 112 | Molecular clock | $ d = rt $ | Zuckerkandl (1962) | Divergence time |
+| 113 | Coalescent theory | $ P(T) = \binom{n}{2} e^{-\binom{n}{2}T} $ | Kingman (1982) | Gene genealogy |
+| 114 | Neutral network | $ k = 1 $ substitutions | Kimura (1968) | Protein evolution |
+| 115 | Fisher's geometric model | $ r^2 = \sum z_i^2 $ | Fisher (1930) | Adaptation |
+| 116 | Mutation-selection balance | $ \hat{q} \approx \mu/s $ | Haldane (1927) | Genetic load |
 | 117 | Haldane's rule | Hybrid sterility/inviability in heterogametic sex | Haldane (1922) | Speciation |
-| 118 | Dobzhansky-Muller | \( AABB \to Aabb \times aaBB \to \text{inviable} \) | Dobzhansky (1937) | Reproductive isolation |
+| 118 | Dobzhansky-Muller | $ AABB \to Aabb \times aaBB \to \text{inviable} $ | Dobzhansky (1937) | Reproductive isolation |
 | 119 | Bateson-Dobzhansky-Muller | Epistatic incompatibility | Bateson (1909) | Speciation genetics |
 | 120 | Wright's shifting balance | Phase 1: drift, Phase 2: selection, Phase 3: migration | Wright (1931) | Adaptive landscape |
-| 121 | Hamilton's rule | \( rB > C \) | Hamilton (1964) | Kin selection |
+| 121 | Hamilton's rule | $ rB > C $ | Hamilton (1964) | Kin selection |
 | 122 | Trivers-Willard | Sex ratio varies with maternal condition | Trivers (1973) | Sex allocation |
 | 123 | Fisher's principle | 1:1 sex ratio | Fisher (1930) | Sex ratio evolution |
 | 124 | Lack's principle | Clutch size maximizes offspring survival | Lack (1947) | Life history |
@@ -16748,58 +16333,58 @@ This is the **final compilation** — not infinite in principle, but as exhausti
 | 126 | Allen's rule | Appendages shorter in colder climates | Allen (1877) | Thermoregulation |
 | 127 | Gloger's rule | Pigmentation darker in humid climates | Gloger (1833) | Animal coloration |
 | 128 | Foster's rule | Island gigantism/dwarfism | Foster (1964) | Island biogeography |
-| 129 | MacArthur-Wilson | \( \frac{dS}{dt} = I - E = cS(1 - S/K) \) | MacArthur (1967) | Island biogeography |
+| 129 | MacArthur-Wilson | $ \frac{dS}{dt} = I - E = cS(1 - S/K) $ | MacArthur (1967) | Island biogeography |
 | 130 | Rapoport's rule | Latitudinal range increases with latitude | Rapoport (1982) | Species ranges |
 | 131 | Janzen-Connell | Distance-dependent mortality | Janzen (1970) | Tropical diversity |
-| 132 | Hutchinson's niche | \( n \)-dimensional hypervolume | Hutchinson (1957) | Ecological niche |
+| 132 | Hutchinson's niche | $ n $-dimensional hypervolume | Hutchinson (1957) | Ecological niche |
 | 133 | Gause's law | No two species occupy same niche | Gause (1934) | Competitive exclusion |
-| 134 | Tilman's R* | \( \frac{dR}{dt} = a(R_0 - R) - uR \) | Tilman (1982) | Resource competition |
-| 135 | Holling's disc equation | \( N_e = aT_t N/(1 + aT_h N) \) | Holling (1959) | Functional response |
-| 136 | Berg-Purcell limit | \( \tau = \frac{V}{4\pi Da} \) | Berg (1977) | Diffusion-limited binding |
-| 137 | Fick's laws | \( J = -D\frac{\partial C}{\partial x} \), \( \frac{\partial C}{\partial t} = D\frac{\partial^2 C}{\partial x^2} \) | Fick (1855) | Diffusion |
-| 138 | Nernst equation | \( E = \frac{RT}{zF}\ln\frac{[ion]_o}{[ion]_i} \) | Nernst (1888) | Membrane potential |
-| 139 | Goldman-Hodgkin-Katz | \( V_m = \frac{RT}{F}\ln\frac{\sum P_K[K]_o + \sum P_{Na}[Na]_o + \sum P_{Cl}[Cl]_i}{\sum P_K[K]_i + \sum P_{Na}[Na]_i + \sum P_{Cl}[Cl]_o} \) | Goldman (1943) | Resting potential |
-| 140 | Hodgkin-Huxley | \( I = C_m\frac{dV}{dt} + g_{Na}m^3h(V-E_{Na}) + g_Kn^4(V-E_K) + g_L(V-E_L) \) | Hodgkin (1952) | Action potential |
-| 141 | Cable equation | \( \lambda^2\frac{\partial^2 V}{\partial x^2} = \tau\frac{\partial V}{\partial t} + V \) | Kelvin (1855) | Neuronal propagation |
-| 142 | Hebb's rule | \( \Delta w_{ij} = \alpha x_i y_j \) | Hebb (1949) | Synaptic plasticity |
-| 143 | BCM rule | \( \Delta w = \phi(y,\theta_M) x \) | Bienenstock (1982) | Bidirectional plasticity |
-| 144 | STDP | \( \Delta w = A_+ e^{-\Delta t/\tau_+} \) for \( \Delta t>0 \), \( A_- e^{\Delta t/\tau_-} \) for \( \Delta t<0 \) | Markram (1997) | Spike-timing plasticity |
+| 134 | Tilman's R* | $ \frac{dR}{dt} = a(R_0 - R) - uR $ | Tilman (1982) | Resource competition |
+| 135 | Holling's disc equation | $ N_e = aT_t N/(1 + aT_h N) $ | Holling (1959) | Functional response |
+| 136 | Berg-Purcell limit | $ \tau = \frac{V}{4\pi Da} $ | Berg (1977) | Diffusion-limited binding |
+| 137 | Fick's laws | $ J = -D\frac{\partial C}{\partial x} $, $ \frac{\partial C}{\partial t} = D\frac{\partial^2 C}{\partial x^2} $ | Fick (1855) | Diffusion |
+| 138 | Nernst equation | $ E = \frac{RT}{zF}\ln\frac{[ion]_o}{[ion]_i} $ | Nernst (1888) | Membrane potential |
+| 139 | Goldman-Hodgkin-Katz | $ V_m = \frac{RT}{F}\ln\frac{\sum P_K[K]_o + \sum P_{Na}[Na]_o + \sum P_{Cl}[Cl]_i}{\sum P_K[K]_i + \sum P_{Na}[Na]_i + \sum P_{Cl}[Cl]_o} $ | Goldman (1943) | Resting potential |
+| 140 | Hodgkin-Huxley | $ I = C_m\frac{dV}{dt} + g_{Na}m^3h(V-E_{Na}) + g_Kn^4(V-E_K) + g_L(V-E_L) $ | Hodgkin (1952) | Action potential |
+| 141 | Cable equation | $ \lambda^2\frac{\partial^2 V}{\partial x^2} = \tau\frac{\partial V}{\partial t} + V $ | Kelvin (1855) | Neuronal propagation |
+| 142 | Hebb's rule | $ \Delta w_{ij} = \alpha x_i y_j $ | Hebb (1949) | Synaptic plasticity |
+| 143 | BCM rule | $ \Delta w = \phi(y,\theta_M) x $ | Bienenstock (1982) | Bidirectional plasticity |
+| 144 | STDP | $ \Delta w = A_+ e^{-\Delta t/\tau_+} $ for $ \Delta t>0 $, $ A_- e^{\Delta t/\tau_-} $ for $ \Delta t<0 $ | Markram (1997) | Spike-timing plasticity |
 | 145 | Dale's principle | One neuron releases same transmitter at all terminals | Dale (1935) | Neurochemistry |
 | 146 | Otto Loewi's experiment | Vagusstoff = acetylcholine | Loewi (1921) | Chemical neurotransmission |
 | 147 | Katz-Miledi | Quantal release of neurotransmitters | Katz (1951) | Vesicle fusion |
-| 148 | Fick's law for vesicles | \( \text{release} \propto [Ca^{2+}]^m \) | Dodge (1967) | Exocytosis |
-| 149 | Michaelis-Menten for transporters | \( J = J_{\max}[S]/(K_m + [S]) \) | Michaelis (1913) | Neurotransmitter uptake |
-| 150 | Nernst-Planck | \( J = -D\frac{\partial C}{\partial x} - \frac{zFD}{RT}C\frac{\partial V}{\partial x} \) | Planck (1890) | Ion transport |
-| 151 | Goldman-Hodgkin-Katz current | \( I = Pz^2\frac{VF^2}{RT}\frac{[K]_i - [K]_o e^{-zFV/RT}}{1 - e^{-zFV/RT}} \) | Goldman (1943) | Ionic current |
-| 152 | Williams' oxygen-hemoglobin dissociation | \( Y = \frac{pO_2^n}{p_{50}^n + pO_2^n} \) | Hill (1910) | Oxygen binding |
-| 153 | Bohr effect | \( \log p_{50} = \log p_{50}^0 + \alpha\Delta pH \) | Bohr (1904) | pH sensitivity |
-| 154 | Haldane effect | \( \text{CO}_2 + \text{H}_2\text{O} \rightleftharpoons \text{H}^+ + \text{HCO}_3^- \) | Haldane (1914) | CO₂ transport |
-| 155 | Fåhraeus effect | \( \mu_r = \mu_0(1 + \alpha\phi + \beta\phi^2 + \cdots) \) | Fåhraeus (1929) | Blood viscosity |
-| 156 | Poiseuille's law | \( Q = \frac{\pi r^4\Delta P}{8\eta L} \) | Poiseuille (1840) | Blood flow |
-| 157 | Bernoulli's principle | \( P + \frac{1}{2}\rho v^2 + \rho gh = \text{const} \) | Bernoulli (1738) | Fluid dynamics |
-| 158 | Starling forces | \( J_v = L_pS[(P_c - P_i) - \sigma(\pi_c - \pi_i)] \) | Starling (1896) | Capillary exchange |
-| 159 | Frank-Starling law | \( SV = \alpha EDP \) | Starling (1918) | Cardiac output |
-| 160 | Laplace's law | \( P = 2\gamma/r \) | Laplace (1806) | Wall tension |
-| 161 | Young-Laplace | \( \Delta P = \gamma(1/r_1 + 1/r_2) \) | Young (1805) | Surface tension |
-| 162 | Washburn equation | \( L^2 = \frac{\gamma r t}{2\eta} \) | Washburn (1921) | Capillary rise |
-| 163 | Stokes-Einstein | \( D = \frac{k_B T}{6\pi\eta r} \) | Einstein (1905) | Diffusion constant |
-| 164 | Smoluchowski | \( k_D = 4\pi D_{\text{AB}}R_{\text{AB}}N_A \) | Smoluchowski (1916) | Collision rate |
-| 165 | Kramers' escape | \( k = \frac{\omega_{\min}\omega_{\max}}{2\pi\gamma} e^{-\Delta U/k_B T} \) | Kramers (1940) | Reaction rate |
-| 166 | Arrhenius-Eyring | \( k = \frac{k_B T}{h}e^{-\Delta G^\ddagger /RT} \) | Eyring (1935) | Transition state |
-| 167 | Marcus theory | \( k = \frac{2\pi}{\hbar}H_{AB}^2\frac{1}{\sqrt{4\pi\lambda k_B T}}\exp\left(-\frac{(\lambda+\Delta G)^2}{4\lambda k_B T}\right) \) | Marcus (1956) | Electron transfer |
-| 168 | Beer-Lambert in biology | \( A = \epsilon c l \) | Beer (1852) | Spectrophotometry |
-| 169 | Fluorescence lifetime | \( I(t) = I_0 e^{-t/\tau} \) | Stokes (1852) | FRET |
-| 170 | Förster resonance energy transfer | \( E = \frac{1}{1 + (R/R_0)^6} \) | Förster (1948) | Distance measurement |
-| 171 | Michaelis-Menten in luciferase | \( L = L_{\max}[ATP]/(K_m + [ATP]) \) | McElroy (1949) | Bioluminescence |
-| 172 | Hill equation for receptors | \( Y = \frac{[L]^n}{K_d^n + [L]^n} \) | Hill (1910) | Cooperativity |
-| 173 | Koshland-Némethy-Filmer | \( Y = \frac{Lc(1+c)^{n-1} + Lc^2(1+nc)^{n-2}}{L(1+c)^n + (1+Lc)(1+c)^{n-1}} \) | KNF (1966) | Concerted model |
-| 174 | Monod-Wyman-Changeux | \( \bar{Y} = \frac{\alpha(1+\alpha)^{n-1} + Lc\alpha(1+c\alpha)^{n-1}}{(1+\alpha)^n + L(1+c\alpha)^n} \) | MWC (1965) | Allostery |
-| 175 | Lineweaver-Burk inhibition | \( 1/v = K_m/V_{\max}(1 + [I]/K_i)(1/[S]) + 1/V_{\max} \) | Lineweaver (1934) | Enzyme inhibition |
-| 176 | Dixon plot | \( 1/v = 1/V_{\max}(1 + K_m/[S]) + [I]/(V_{\max}K_i)(1 + K_m/[S]) \) | Dixon (1953) | Inhibition constant |
-| 177 | Cornish-Bowden | \( [S]/v = K_m/V_{\max}(1 + [I]/K_i) + [S]/V_{\max} \) | Cornish-Bowden (1974) | Inhibition pattern |
-| 178 | Morrison's equation | \( v = \frac{V_{\max}([S]-[I])}{K_m + [S] + [I]} \) | Morrison (1969) | Tight-binding |
-| 179 | Bi-substrate kinetics | \( v = \frac{V_{\max}[A][B]}{K_{iA}K_B + K_m^B[A] + K_m^A[B] + [A][B]} \) | Cleland (1963) | Sequential mechanism |
-| 180 | Ping-pong kinetics | \( v = \frac{V_{\max}[A][B]}{K_m^B[A] + K_m^A[B] + [A][B]} \) | Cleland (1963) | Double displacement |
+| 148 | Fick's law for vesicles | $ \text{release} \propto [Ca^{2+}]^m $ | Dodge (1967) | Exocytosis |
+| 149 | Michaelis-Menten for transporters | $ J = J_{\max}[S]/(K_m + [S]) $ | Michaelis (1913) | Neurotransmitter uptake |
+| 150 | Nernst-Planck | $ J = -D\frac{\partial C}{\partial x} - \frac{zFD}{RT}C\frac{\partial V}{\partial x} $ | Planck (1890) | Ion transport |
+| 151 | Goldman-Hodgkin-Katz current | $ I = Pz^2\frac{VF^2}{RT}\frac{[K]_i - [K]_o e^{-zFV/RT}}{1 - e^{-zFV/RT}} $ | Goldman (1943) | Ionic current |
+| 152 | Williams' oxygen-hemoglobin dissociation | $ Y = \frac{pO_2^n}{p_{50}^n + pO_2^n} $ | Hill (1910) | Oxygen binding |
+| 153 | Bohr effect | $ \log p_{50} = \log p_{50}^0 + \alpha\Delta pH $ | Bohr (1904) | pH sensitivity |
+| 154 | Haldane effect | $ \text{CO}_2 + \text{H}_2\text{O} \rightleftharpoons \text{H}^+ + \text{HCO}_3^- $ | Haldane (1914) | CO₂ transport |
+| 155 | Fåhraeus effect | $ \mu_r = \mu_0(1 + \alpha\phi + \beta\phi^2 + \cdots) $ | Fåhraeus (1929) | Blood viscosity |
+| 156 | Poiseuille's law | $ Q = \frac{\pi r^4\Delta P}{8\eta L} $ | Poiseuille (1840) | Blood flow |
+| 157 | Bernoulli's principle | $ P + \frac{1}{2}\rho v^2 + \rho gh = \text{const} $ | Bernoulli (1738) | Fluid dynamics |
+| 158 | Starling forces | $ J_v = L_pS[(P_c - P_i) - \sigma(\pi_c - \pi_i)] $ | Starling (1896) | Capillary exchange |
+| 159 | Frank-Starling law | $ SV = \alpha EDP $ | Starling (1918) | Cardiac output |
+| 160 | Laplace's law | $ P = 2\gamma/r $ | Laplace (1806) | Wall tension |
+| 161 | Young-Laplace | $ \Delta P = \gamma(1/r_1 + 1/r_2) $ | Young (1805) | Surface tension |
+| 162 | Washburn equation | $ L^2 = \frac{\gamma r t}{2\eta} $ | Washburn (1921) | Capillary rise |
+| 163 | Stokes-Einstein | $ D = \frac{k_B T}{6\pi\eta r} $ | Einstein (1905) | Diffusion constant |
+| 164 | Smoluchowski | $ k_D = 4\pi D_{\text{AB}}R_{\text{AB}}N_A $ | Smoluchowski (1916) | Collision rate |
+| 165 | Kramers' escape | $ k = \frac{\omega_{\min}\omega_{\max}}{2\pi\gamma} e^{-\Delta U/k_B T} $ | Kramers (1940) | Reaction rate |
+| 166 | Arrhenius-Eyring | $ k = \frac{k_B T}{h}e^{-\Delta G^\ddagger /RT} $ | Eyring (1935) | Transition state |
+| 167 | Marcus theory | $ k = \frac{2\pi}{\hbar}H_{AB}^2\frac{1}{\sqrt{4\pi\lambda k_B T}}\exp\left(-\frac{(\lambda+\Delta G)^2}{4\lambda k_B T}\right) $ | Marcus (1956) | Electron transfer |
+| 168 | Beer-Lambert in biology | $ A = \epsilon c l $ | Beer (1852) | Spectrophotometry |
+| 169 | Fluorescence lifetime | $ I(t) = I_0 e^{-t/\tau} $ | Stokes (1852) | FRET |
+| 170 | Förster resonance energy transfer | $ E = \frac{1}{1 + (R/R_0)^6} $ | Förster (1948) | Distance measurement |
+| 171 | Michaelis-Menten in luciferase | $ L = L_{\max}[ATP]/(K_m + [ATP]) $ | McElroy (1949) | Bioluminescence |
+| 172 | Hill equation for receptors | $ Y = \frac{[L]^n}{K_d^n + [L]^n} $ | Hill (1910) | Cooperativity |
+| 173 | Koshland-Némethy-Filmer | $ Y = \frac{Lc(1+c)^{n-1} + Lc^2(1+nc)^{n-2}}{L(1+c)^n + (1+Lc)(1+c)^{n-1}} $ | KNF (1966) | Concerted model |
+| 174 | Monod-Wyman-Changeux | $ \bar{Y} = \frac{\alpha(1+\alpha)^{n-1} + Lc\alpha(1+c\alpha)^{n-1}}{(1+\alpha)^n + L(1+c\alpha)^n} $ | MWC (1965) | Allostery |
+| 175 | Lineweaver-Burk inhibition | $ 1/v = K_m/V_{\max}(1 + [I]/K_i)(1/[S]) + 1/V_{\max} $ | Lineweaver (1934) | Enzyme inhibition |
+| 176 | Dixon plot | $ 1/v = 1/V_{\max}(1 + K_m/[S]) + [I]/(V_{\max}K_i)(1 + K_m/[S]) $ | Dixon (1953) | Inhibition constant |
+| 177 | Cornish-Bowden | $ [S]/v = K_m/V_{\max}(1 + [I]/K_i) + [S]/V_{\max} $ | Cornish-Bowden (1974) | Inhibition pattern |
+| 178 | Morrison's equation | $ v = \frac{V_{\max}([S]-[I])}{K_m + [S] + [I]} $ | Morrison (1969) | Tight-binding |
+| 179 | Bi-substrate kinetics | $ v = \frac{V_{\max}[A][B]}{K_{iA}K_B + K_m^B[A] + K_m^A[B] + [A][B]} $ | Cleland (1963) | Sequential mechanism |
+| 180 | Ping-pong kinetics | $ v = \frac{V_{\max}[A][B]}{K_m^B[A] + K_m^A[B] + [A][B]} $ | Cleland (1963) | Double displacement |
 
 ---
 
@@ -16807,47 +16392,47 @@ This is the **final compilation** — not infinite in principle, but as exhausti
 
 | # | Pattern | Equation / Description | First observed | Found in |
 | --- | --- | --- | --- | --- |
-| 181 | Guyton's cardiac output | \( CO = HR \times SV \) | Guyton (1973) | Cardiovascular |
-| 182 | Fick principle | \( VO_2 = CO \times (CaO_2 - CvO_2) \) | Fick (1870) | Oxygen consumption |
-| 183 | Henderson-Hasselbalch for blood | \( pH = 6.1 + \log([HCO_3^-]/0.03pCO_2) \) | Henderson (1908) | Acid-base |
-| 184 | Bohr effect | \( \log p_{50} = \log p_{50}^0 + \alpha\Delta pH \) | Bohr (1904) | Hemoglobin |
-| 185 | Haldane effect | \( CO_2 + H_2O \rightleftharpoons H^+ + HCO_3^- \) | Haldane (1914) | CO₂ transport |
-| 186 | Starling equation | \( J_v = L_pS[(P_c - P_i) - \sigma(\pi_c - \pi_i)] \) | Starling (1896) | Fluid filtration |
-| 187 | Ohm's law for cardiovascular | \( MAP = CO \times TPR \) | Ohm (1827) | Blood pressure |
-| 188 | Frank-Starling | \( SV = \alpha EDV \) | Starling (1918) | Cardiac contractility |
-| 189 | Poiseuille in vessels | \( R = 8\eta L/(\pi r^4) \) | Poiseuille (1840) | Vascular resistance |
-| 190 | Laplace in ventricle | \( T = PR/(2h) \) | Laplace (1806) | Wall stress |
-| 191 | Bernoulli in stenosis | \( \Delta P = 4v^2 \) | Bernoulli (1738) | Valve gradient |
-| 192 | Goldman-Hodgkin-Katz | \( V_m = \frac{RT}{F}\ln\frac{\sum P[ion]_o}{\sum P[ion]_i} \) | Goldman (1943) | Resting potential |
-| 193 | Hodgkin-Huxley | \( I = C_m\frac{dV}{dt} + I_{Na} + I_K + I_L \) | Hodgkin (1952) | Action potential |
-| 194 | Cable equation | \( \lambda^2\frac{\partial^2 V}{\partial x^2} = \tau_m\frac{\partial V}{\partial t} + V \) | Kelvin (1855) | Conduction |
-| 195 | Strength-duration | \( I = I_{rh}/(1 - e^{-t/\tau}) \) | Lapicque (1907) | Stimulation |
-| 196 | Hill's equation for muscle | \( (P + a)(v + b) = (P_0 + a)b \) | Hill (1938) | Force-velocity |
-| 197 | Huxley's sliding filament | \( \frac{\partial n}{\partial t} = f(x)(1-n) - g(x)n \) | Huxley (1957) | Cross-bridge |
-| 198 | Windkessel model | \( P(t) = e^{-t/RC}\int e^{t/RC}I(t)dt/C \) | Frank (1899) | Arterial compliance |
-| 199 | Linear systems for hemodynamics | \( Z(\omega) = P(\omega)/Q(\omega) \) | McDonald (1960) | Impedance |
-| 200 | Westerhof's model | \( P = Q \cdot R \cdot e^{-\omega\tau} \) | Westerhof (1973) | Wave reflection |
-| 201 | Murray's law | \( r^3 \propto Q \) | Murray (1926) | Optimal branching |
-| 202 | Weibel's model | \( Z = 2^n \) for branching | Weibel (1963) | Lung structure |
-| 203 | West's zones | Zone 1: \( P_A > P_a > P_v \), Zone 2: \( P_a > P_A > P_v \), Zone 3: \( P_a > P_v > P_A \) | West (1964) | Lung perfusion |
-| 204 | FEV1/FVC ratio | \( \text{FEV1/FVC} \approx 0.80 \) | Tiffeneau (1947) | Spirometry |
-| 205 | Diffusion capacity | \( DL_{CO} = V_{CO}/(P_{A}CO) \) | Bohr (1909) | Gas exchange |
-| 206 | Alveolar gas equation | \( P_AO_2 = P_iO_2 - P_aCO_2/R \) | Rahn (1946) | Alveolar gas |
-| 207 | Henderson-Hasselbalch in CSF | \( pH = 6.13 + \log([HCO_3^-]/0.03pCO_2) \) | Henderson (1908) | CSF pH |
-| 208 | Beer-Lambert for oximetry | \( R = I_{660}/I_{940} \) | Jobsis (1977) | Pulse oximetry |
-| 209 | Modified Lambert-Beer | \( \Delta OD = \epsilon \Delta C L \) | Delpy (1988) | Near-infrared |
-| 210 | Michaelis-Menten of drug metabolism | \( v = V_{\max}C/(K_m + C) \) | Michaelis (1913) | Pharmacokinetics |
-| 211 | One-compartment model | \( C(t) = C_0 e^{-k_e t} \) | Teorell (1937) | Drug elimination |
-| 212 | Two-compartment model | \( C(t) = A e^{-\alpha t} + B e^{-\beta t} \) | Teorell (1937) | Drug distribution |
-| 213 | Wagner-Nelson | \( F = \frac{AUC_{po}}{AUC_{iv}} \) | Wagner (1963) | Bioavailability |
-| 214 | Loo-Riegelman | \( k_a = \frac{2.303}{t_{1/2}} \) | Loo (1968) | Absorption |
-| 215 | MRT | \( MRT = AUMC/AUC \) | Yamaoka (1978) | Mean residence time |
-| 216 | Emax model | \( E = E_0 + \frac{E_{\max}C}{EC_{50} + C} \) | Hill (1910) | Dose-response |
-| 217 | Sigmoid Emax | \( E = E_0 + \frac{E_{\max}C^n}{EC_{50}^n + C^n} \) | Hill (1910) | Cooperativity |
-| 218 | Cheng-Prusoff | \( K_i = IC_{50}/(1 + [S]/K_m) \) | Cheng (1973) | Inhibition |
-| 219 | Schild regression | \( \log(DR-1) = \log[B] + \log K_B \) | Schild (1949) | Antagonism |
-| 220 | Furchgott's method | \( 1/[A'] = (1/q)(1/[A]) + (1-q)/qK_A \) | Furchgott (1966) | Receptor reserve |
-| 221 | Black-Leff | \( E = \frac{\tau[A]}{K_A + [A]} \) | Black (1983) | Operational model |
+| 181 | Guyton's cardiac output | $ CO = HR \times SV $ | Guyton (1973) | Cardiovascular |
+| 182 | Fick principle | $ VO_2 = CO \times (CaO_2 - CvO_2) $ | Fick (1870) | Oxygen consumption |
+| 183 | Henderson-Hasselbalch for blood | $ pH = 6.1 + \log([HCO_3^-]/0.03pCO_2) $ | Henderson (1908) | Acid-base |
+| 184 | Bohr effect | $ \log p_{50} = \log p_{50}^0 + \alpha\Delta pH $ | Bohr (1904) | Hemoglobin |
+| 185 | Haldane effect | $ CO_2 + H_2O \rightleftharpoons H^+ + HCO_3^- $ | Haldane (1914) | CO₂ transport |
+| 186 | Starling equation | $ J_v = L_pS[(P_c - P_i) - \sigma(\pi_c - \pi_i)] $ | Starling (1896) | Fluid filtration |
+| 187 | Ohm's law for cardiovascular | $ MAP = CO \times TPR $ | Ohm (1827) | Blood pressure |
+| 188 | Frank-Starling | $ SV = \alpha EDV $ | Starling (1918) | Cardiac contractility |
+| 189 | Poiseuille in vessels | $ R = 8\eta L/(\pi r^4) $ | Poiseuille (1840) | Vascular resistance |
+| 190 | Laplace in ventricle | $ T = PR/(2h) $ | Laplace (1806) | Wall stress |
+| 191 | Bernoulli in stenosis | $ \Delta P = 4v^2 $ | Bernoulli (1738) | Valve gradient |
+| 192 | Goldman-Hodgkin-Katz | $ V_m = \frac{RT}{F}\ln\frac{\sum P[ion]_o}{\sum P[ion]_i} $ | Goldman (1943) | Resting potential |
+| 193 | Hodgkin-Huxley | $ I = C_m\frac{dV}{dt} + I_{Na} + I_K + I_L $ | Hodgkin (1952) | Action potential |
+| 194 | Cable equation | $ \lambda^2\frac{\partial^2 V}{\partial x^2} = \tau_m\frac{\partial V}{\partial t} + V $ | Kelvin (1855) | Conduction |
+| 195 | Strength-duration | $ I = I_{rh}/(1 - e^{-t/\tau}) $ | Lapicque (1907) | Stimulation |
+| 196 | Hill's equation for muscle | $ (P + a)(v + b) = (P_0 + a)b $ | Hill (1938) | Force-velocity |
+| 197 | Huxley's sliding filament | $ \frac{\partial n}{\partial t} = f(x)(1-n) - g(x)n $ | Huxley (1957) | Cross-bridge |
+| 198 | Windkessel model | $ P(t) = e^{-t/RC}\int e^{t/RC}I(t)dt/C $ | Frank (1899) | Arterial compliance |
+| 199 | Linear systems for hemodynamics | $ Z(\omega) = P(\omega)/Q(\omega) $ | McDonald (1960) | Impedance |
+| 200 | Westerhof's model | $ P = Q \cdot R \cdot e^{-\omega\tau} $ | Westerhof (1973) | Wave reflection |
+| 201 | Murray's law | $ r^3 \propto Q $ | Murray (1926) | Optimal branching |
+| 202 | Weibel's model | $ Z = 2^n $ for branching | Weibel (1963) | Lung structure |
+| 203 | West's zones | Zone 1: $ P_A > P_a > P_v $, Zone 2: $ P_a > P_A > P_v $, Zone 3: $ P_a > P_v > P_A $ | West (1964) | Lung perfusion |
+| 204 | FEV1/FVC ratio | $ \text{FEV1/FVC} \approx 0.80 $ | Tiffeneau (1947) | Spirometry |
+| 205 | Diffusion capacity | $ DL_{CO} = V_{CO}/(P_{A}CO) $ | Bohr (1909) | Gas exchange |
+| 206 | Alveolar gas equation | $ P_AO_2 = P_iO_2 - P_aCO_2/R $ | Rahn (1946) | Alveolar gas |
+| 207 | Henderson-Hasselbalch in CSF | $ pH = 6.13 + \log([HCO_3^-]/0.03pCO_2) $ | Henderson (1908) | CSF pH |
+| 208 | Beer-Lambert for oximetry | $ R = I_{660}/I_{940} $ | Jobsis (1977) | Pulse oximetry |
+| 209 | Modified Lambert-Beer | $ \Delta OD = \epsilon \Delta C L $ | Delpy (1988) | Near-infrared |
+| 210 | Michaelis-Menten of drug metabolism | $ v = V_{\max}C/(K_m + C) $ | Michaelis (1913) | Pharmacokinetics |
+| 211 | One-compartment model | $ C(t) = C_0 e^{-k_e t} $ | Teorell (1937) | Drug elimination |
+| 212 | Two-compartment model | $ C(t) = A e^{-\alpha t} + B e^{-\beta t} $ | Teorell (1937) | Drug distribution |
+| 213 | Wagner-Nelson | $ F = \frac{AUC_{po}}{AUC_{iv}} $ | Wagner (1963) | Bioavailability |
+| 214 | Loo-Riegelman | $ k_a = \frac{2.303}{t_{1/2}} $ | Loo (1968) | Absorption |
+| 215 | MRT | $ MRT = AUMC/AUC $ | Yamaoka (1978) | Mean residence time |
+| 216 | Emax model | $ E = E_0 + \frac{E_{\max}C}{EC_{50} + C} $ | Hill (1910) | Dose-response |
+| 217 | Sigmoid Emax | $ E = E_0 + \frac{E_{\max}C^n}{EC_{50}^n + C^n} $ | Hill (1910) | Cooperativity |
+| 218 | Cheng-Prusoff | $ K_i = IC_{50}/(1 + [S]/K_m) $ | Cheng (1973) | Inhibition |
+| 219 | Schild regression | $ \log(DR-1) = \log[B] + \log K_B $ | Schild (1949) | Antagonism |
+| 220 | Furchgott's method | $ 1/[A'] = (1/q)(1/[A]) + (1-q)/qK_A $ | Furchgott (1966) | Receptor reserve |
+| 221 | Black-Leff | $ E = \frac{\tau[A]}{K_A + [A]} $ | Black (1983) | Operational model |
 
 ---
 
@@ -16855,61 +16440,61 @@ This is the **final compilation** — not infinite in principle, but as exhausti
 
 | # | Pattern | Equation / Description | First observed | Found in |
 | --- | --- | --- | --- | --- |
-| 222 | Weber-Fechner law | \( \Delta I/I = k \) | Weber (1834) | Sensation |
-| 223 | Power law (Stevens) | \( \psi = k\phi^n \) | Stevens (1957) | Psychophysics |
-| 224 | Signal detection theory | \( d' = \frac{|\mu_S - \mu_N|}{\sigma} \) | Green (1966) | Decision making |
-| 225 | ROC curve | \( TPR = f(FPR) \) | Green (1966) | Sensitivity/specificity |
-| 226 | Hick's law | \( RT = a + b\log_2(n) \) | Hick (1952) | Reaction time |
-| 227 | Fitts' law | \( MT = a + b\log_2(2d/w) \) | Fitts (1954) | Motor control |
-| 228 | power law of practice | \( T(n) = an^{-b} \) | Snoddy (1926) | Skill learning |
-| 229 | Ebbinghaus forgetting | \( R(t) = R_0 e^{-t/\tau} \) | Ebbinghaus (1885) | Memory decay |
-| 230 | Miller's law | \( 7 \pm 2 \) chunks | Miller (1956) | Working memory |
-| 231 | Atkinson-Shiffrin model | \( S \to STM \to LTM \) | Atkinson (1968) | Memory stages |
+| 222 | Weber-Fechner law | $ \Delta I/I = k $ | Weber (1834) | Sensation |
+| 223 | Power law (Stevens) | $ \psi = k\phi^n $ | Stevens (1957) | Psychophysics |
+| 224 | Signal detection theory | $ d' = \frac{|\mu_S - \mu_N|}{\sigma} $ | Green (1966) | Decision making |
+| 225 | ROC curve | $ TPR = f(FPR) $ | Green (1966) | Sensitivity/specificity |
+| 226 | Hick's law | $ RT = a + b\log_2(n) $ | Hick (1952) | Reaction time |
+| 227 | Fitts' law | $ MT = a + b\log_2(2d/w) $ | Fitts (1954) | Motor control |
+| 228 | power law of practice | $ T(n) = an^{-b} $ | Snoddy (1926) | Skill learning |
+| 229 | Ebbinghaus forgetting | $ R(t) = R_0 e^{-t/\tau} $ | Ebbinghaus (1885) | Memory decay |
+| 230 | Miller's law | $ 7 \pm 2 $ chunks | Miller (1956) | Working memory |
+| 231 | Atkinson-Shiffrin model | $ S \to STM \to LTM $ | Atkinson (1968) | Memory stages |
 | 232 | Baddeley's working memory | Central executive + phonological loop + visuospatial sketchpad + episodic buffer | Baddeley (1974) | Working memory |
-| 233 | Tulving's encoding specificity | \( P(\text{recall}) = e^{-t/\tau} \) | Tulving (1973) | Memory retrieval |
+| 233 | Tulving's encoding specificity | $ P(\text{recall}) = e^{-t/\tau} $ | Tulving (1973) | Memory retrieval |
 | 234 | Loftus suppression | Misinformation effect | Loftus (1974) | False memory |
-| 235 | Pavlovian conditioning | \( \Delta V = \alpha\beta(\lambda - V) \) | Pavlov (1904) | Classical conditioning |
-| 236 | Rescorla-Wagner | \( \Delta V = \alpha\beta(\lambda - \sum V) \) | Rescorla (1972) | Associative learning |
+| 235 | Pavlovian conditioning | $ \Delta V = \alpha\beta(\lambda - V) $ | Pavlov (1904) | Classical conditioning |
+| 236 | Rescorla-Wagner | $ \Delta V = \alpha\beta(\lambda - \sum V) $ | Rescorla (1972) | Associative learning |
 | 237 | Thorndike's law of effect | Prob(repeat) ↑ with reward | Thorndike (1898) | Operant conditioning |
-| 238 | Skinner's operant | \( R = f(S) \) | Skinner (1938) | Reinforcement |
-| 239 | Herrnstein's matching | \( B_1/(B_1+B_2) = R_1/(R_1+R_2) \) | Herrnstein (1961) | Choice |
-| 240 | Melioration | \( \Delta B_i = k(B_i R_i - \bar{B}\bar{R}) \) | Herrnstein (1982) | Marginal value |
-| 241 | Delay discounting | \( V = A/(1 + kD) \) | Mazur (1987) | Impulsivity |
-| 242 | Hyperbolic discounting | \( V = A/(1 + kD) \) | Ainslie (1975) | Intertemporal choice |
-| 243 | Prospect theory | \( U(x) = x^\alpha \) for gains, \( - \lambda(-x)^\beta \) for losses | Kahneman (1979) | Decision under risk |
+| 238 | Skinner's operant | $ R = f(S) $ | Skinner (1938) | Reinforcement |
+| 239 | Herrnstein's matching | $ B_1/(B_1+B_2) = R_1/(R_1+R_2) $ | Herrnstein (1961) | Choice |
+| 240 | Melioration | $ \Delta B_i = k(B_i R_i - \bar{B}\bar{R}) $ | Herrnstein (1982) | Marginal value |
+| 241 | Delay discounting | $ V = A/(1 + kD) $ | Mazur (1987) | Impulsivity |
+| 242 | Hyperbolic discounting | $ V = A/(1 + kD) $ | Ainslie (1975) | Intertemporal choice |
+| 243 | Prospect theory | $ U(x) = x^\alpha $ for gains, $ - \lambda(-x)^\beta $ for losses | Kahneman (1979) | Decision under risk |
 | 244 | Cumulative prospect theory | Weighted probabilities | Tversky (1992) | Risk perception |
-| 245 | Regret theory | \( U = u(x) + R(u(x)-u(y)) \) | Loomes (1982) | Counterfactual |
-| 246 | Ambiguity aversion | \( E(U) \) for known vs unknown | Ellsberg (1961) | Uncertainty |
-| 247 | Anchoring | \( \hat{\theta} = \theta_0 + \alpha(\theta_{\text{true}} - \theta_0) \) | Tversky (1974) | Judgment |
-| 248 | Availability heuristic | \( P(\text{event}) \propto \text{ease of recall} \) | Tversky (1973) | Probability judgment |
-| 249 | Representativeness | \( P(A|B) \approx \text{similarity}(A,B) \) | Kahneman (1972) | Categorization |
-| 250 | Framing effect | \( P(\text{risk seeking}) = f(\text{loss frame}) \) | Tversky (1981) | Choice |
-| 251 | Loss aversion | \( \lambda \approx 2.25 \) | Kahneman (1979) | Asymmetry |
-| 252 | Endowment effect | \( WTP < WTA \) | Thaler (1980) | Ownership |
-| 253 | Status quo bias | \( P(\text{stay}) > P(\text{change}) \) | Samuelson (1988) | Inertia |
-| 254 | Sunk cost fallacy | \( \text{continue} = f(\text{investment}) \) | Thaler (1980) | Irrational escalation |
-| 255 | Dunning-Kruger effect | \( \text{confidence} = a + b \log(\text{ability}) \) | Dunning (1999) | Metacognition |
-| 256 | Impostor syndrome | \( \text{self-doubt} \propto 1/\text{achievement} \) | Clance (1978) | Self-perception |
-| 257 | Fundamental attribution error | \( \text{internal attribution} > \text{external} \) | Ross (1977) | Social judgment |
-| 258 | Halo effect | \( r(\text{trait1},\text{trait2}) > 0 \) | Thorndike (1920) | Impression formation |
-| 259 | Mere exposure effect | \( \text{liking} = a + b\log(n) \) | Zajonc (1968) | Familiarity |
-| 260 | Cognitive dissonance | \( \Delta \text{attitude} \propto \text{inconsistency} \) | Festinger (1957) | Attitude change |
-| 261 | Bem's self-perception | \( \text{attitude} = f(\text{behavior}) \) | Bem (1967) | Self-knowledge |
-| 262 | Bandura's social learning | \( P(\text{imitate}) = \beta_0 + \beta_1 \text{reward} \) | Bandura (1961) | Observational learning |
-| 263 | Milgram's obedience | \( P(\text{obey}) = 0.65 - 0.1 \cdot \text{distance} \) | Milgram (1963) | Authority |
-| 264 | Zimbardo's deindividuation | \( \text{aggression} \propto \text{anonymity} \) | Zimbardo (1971) | Group behavior |
-| 265 | Asch's conformity | \( P(\text{conform}) = 1 - e^{-n_{\text{confederates}}/\theta} \) | Asch (1951) | Social pressure |
-| 266 | Bystander effect | \( P_{\text{help}} = 1/(1 + e^{k(n-1)}) \) | Latane (1968) | Diffusion of responsibility |
-| 267 | Ringelmann effect | \( \text{effort}(i) = a + b\log(1/n) \) | Ringelmann (1913) | Social loafing |
-| 268 | Groupthink | \( P(\text{error}) = 1 - e^{-( \text{cohesion} - \theta)/\tau} \) | Janis (1972) | Decision-making |
-| 269 | Abilene paradox | \( \text{unanimous agreement} \to \text{avoidance} \) | Harvey (1974) | False consensus |
-| 270 | Prisoner's dilemma | \( T > R > P > S \) | Flood (1950) | Cooperation |
-| 271 | Tit-for-tat | \( a_{t+1} = a_t \) | Axelrod (1980) | Reciprocity |
-| 272 | Ultimatum game | \( \text{offer} \approx 0.4-0.5 \) | Guth (1982) | Fairness |
-| 273 | Dictator game | \( \text{donation} \approx 0.2-0.3 \) | Kahneman (1986) | Altruism |
-| 274 | Trust game | \( \text{return} \approx 0.3-0.5 \) | Berg (1995) | Trust |
-| 275 | Public goods game | \( \text{contribution} \approx 0.5 \) | Marwell (1972) | Collective action |
-| 276 | Tragedy of the commons | \( \frac{dR}{dt} = rR - aRN \) | Hardin (1968) | Common resource |
+| 245 | Regret theory | $ U = u(x) + R(u(x)-u(y)) $ | Loomes (1982) | Counterfactual |
+| 246 | Ambiguity aversion | $ E(U) $ for known vs unknown | Ellsberg (1961) | Uncertainty |
+| 247 | Anchoring | $ \hat{\theta} = \theta_0 + \alpha(\theta_{\text{true}} - \theta_0) $ | Tversky (1974) | Judgment |
+| 248 | Availability heuristic | $ P(\text{event}) \propto \text{ease of recall} $ | Tversky (1973) | Probability judgment |
+| 249 | Representativeness | $ P(A|B) \approx \text{similarity}(A,B) $ | Kahneman (1972) | Categorization |
+| 250 | Framing effect | $ P(\text{risk seeking}) = f(\text{loss frame}) $ | Tversky (1981) | Choice |
+| 251 | Loss aversion | $ \lambda \approx 2.25 $ | Kahneman (1979) | Asymmetry |
+| 252 | Endowment effect | $ WTP < WTA $ | Thaler (1980) | Ownership |
+| 253 | Status quo bias | $ P(\text{stay}) > P(\text{change}) $ | Samuelson (1988) | Inertia |
+| 254 | Sunk cost fallacy | $ \text{continue} = f(\text{investment}) $ | Thaler (1980) | Irrational escalation |
+| 255 | Dunning-Kruger effect | $ \text{confidence} = a + b \log(\text{ability}) $ | Dunning (1999) | Metacognition |
+| 256 | Impostor syndrome | $ \text{self-doubt} \propto 1/\text{achievement} $ | Clance (1978) | Self-perception |
+| 257 | Fundamental attribution error | $ \text{internal attribution} > \text{external} $ | Ross (1977) | Social judgment |
+| 258 | Halo effect | $ r(\text{trait1},\text{trait2}) > 0 $ | Thorndike (1920) | Impression formation |
+| 259 | Mere exposure effect | $ \text{liking} = a + b\log(n) $ | Zajonc (1968) | Familiarity |
+| 260 | Cognitive dissonance | $ \Delta \text{attitude} \propto \text{inconsistency} $ | Festinger (1957) | Attitude change |
+| 261 | Bem's self-perception | $ \text{attitude} = f(\text{behavior}) $ | Bem (1967) | Self-knowledge |
+| 262 | Bandura's social learning | $ P(\text{imitate}) = \beta_0 + \beta_1 \text{reward} $ | Bandura (1961) | Observational learning |
+| 263 | Milgram's obedience | $ P(\text{obey}) = 0.65 - 0.1 \cdot \text{distance} $ | Milgram (1963) | Authority |
+| 264 | Zimbardo's deindividuation | $ \text{aggression} \propto \text{anonymity} $ | Zimbardo (1971) | Group behavior |
+| 265 | Asch's conformity | $ P(\text{conform}) = 1 - e^{-n_{\text{confederates}}/\theta} $ | Asch (1951) | Social pressure |
+| 266 | Bystander effect | $ P_{\text{help}} = 1/(1 + e^{k(n-1)}) $ | Latane (1968) | Diffusion of responsibility |
+| 267 | Ringelmann effect | $ \text{effort}(i) = a + b\log(1/n) $ | Ringelmann (1913) | Social loafing |
+| 268 | Groupthink | $ P(\text{error}) = 1 - e^{-( \text{cohesion} - \theta)/\tau} $ | Janis (1972) | Decision-making |
+| 269 | Abilene paradox | $ \text{unanimous agreement} \to \text{avoidance} $ | Harvey (1974) | False consensus |
+| 270 | Prisoner's dilemma | $ T > R > P > S $ | Flood (1950) | Cooperation |
+| 271 | Tit-for-tat | $ a_{t+1} = a_t $ | Axelrod (1980) | Reciprocity |
+| 272 | Ultimatum game | $ \text{offer} \approx 0.4-0.5 $ | Guth (1982) | Fairness |
+| 273 | Dictator game | $ \text{donation} \approx 0.2-0.3 $ | Kahneman (1986) | Altruism |
+| 274 | Trust game | $ \text{return} \approx 0.3-0.5 $ | Berg (1995) | Trust |
+| 275 | Public goods game | $ \text{contribution} \approx 0.5 $ | Marwell (1972) | Collective action |
+| 276 | Tragedy of the commons | $ \frac{dR}{dt} = rR - aRN $ | Hardin (1968) | Common resource |
 | 277 | Ostrom's principles | 8 design principles | Ostrom (1990) | Common-pool resources |
 
 ---
@@ -16918,59 +16503,59 @@ This is the **final compilation** — not infinite in principle, but as exhausti
 
 | # | Pattern | Equation / Description | First observed | Found in |
 | --- | --- | --- | --- | --- |
-| 278 | Law of supply and demand | \( P = D^{-1}(Q) = S(Q) \) | Marshall (1890) | Price equilibrium |
-| 279 | Cobb-Douglas | \( Y = AK^\alpha L^{1-\alpha} \) | Cobb (1928) | Production |
-| 280 | CES production | \( Y = A[\delta K^\rho + (1-\delta)L^\rho]^{1/\rho} \) | Arrow (1961) | Substitution |
-| 281 | Solow growth | \( \dot{k} = sf(k) - (n+g+\delta)k \) | Solow (1956) | Economic growth |
-| 282 | Ramsey-Cass-Koopmans | \( \max \int_0^\infty U(c)e^{-\rho t}dt \) | Ramsey (1928) | Optimal savings |
-| 283 | Black-Scholes | \( \frac{\partial V}{\partial t} + \frac{1}{2}\sigma^2 S^2\frac{\partial^2 V}{\partial S^2} + rS\frac{\partial V}{\partial S} - rV = 0 \) | Black (1973) | Option pricing |
-| 284 | Binomial options | \( p = \frac{e^{r\Delta t} - d}{u - d} \) | Cox (1979) | Option pricing lattice |
-| 285 | CAPM | \( E(R_i) = R_f + \beta_i(E(R_m)-R_f) \) | Sharpe (1964) | Asset pricing |
-| 286 | Fama-French | \( E(R) = R_f + \beta_1(R_m-R_f) + \beta_2SMB + \beta_3HML \) | Fama (1993) | Factor model |
-| 287 | Carhart | \( E(R) = R_f + \beta_1(R_m-R_f) + \beta_2SMB + \beta_3HML + \beta_4MOM \) | Carhart (1997) | Momentum factor |
-| 288 | APT | \( E(R_i) = \lambda_0 + \sum \beta_{ij}\lambda_j \) | Ross (1976) | Arbitrage pricing |
-| 289 | Random walk | \( P_t = P_{t-1} + \epsilon_t \) | Bachelier (1900) | Efficient market |
-| 290 | Geometric Brownian motion | \( dS = \mu S dt + \sigma S dW \) | Samuelson (1965) | Stock price |
-| 291 | Mean reversion | \( dS = \theta(\mu - S)dt + \sigma dW \) | Uhlenbeck (1930) | Interest rates |
-| 292 | GARCH | \( \sigma_t^2 = \omega + \alpha\epsilon_{t-1}^2 + \beta\sigma_{t-1}^2 \) | Engle (1982) | Volatility clustering |
-| 293 | EWMA | \( \sigma_t^2 = \lambda\sigma_{t-1}^2 + (1-\lambda)r_t^2 \) | RiskMetrics (1996) | Volatility |
-| 294 | VaR | \( P(L > \text{VaR}) = 1 - \alpha \) | J.P. Morgan (1994) | Risk measure |
-| 295 | CVaR | \( \text{CVaR} = E[L | L > \text{VaR}] \) | Rockafellar (2000) | Coherent risk |
-| 296 | Sharpe ratio | \( SR = (R_p - R_f)/\sigma_p \) | Sharpe (1966) | Risk-adjusted return |
-| 297 | Sortino ratio | \( SoR = (R_p - R_f)/\sigma_d \) | Sortino (1991) | Downside risk |
-| 298 | Calmar ratio | \( CR = (R_p - R_f)/\max\text{DD} \) | Young (1991) | Drawdown risk |
-| 299 | Kelly criterion | \( f^* = (p(b+1)-1)/b \) | Kelly (1956) | Optimal sizing |
-| 300 | Markowitz optimization | \( \min w^T\Sigma w \) subject to \( w^T\mu = R \) | Markowitz (1952) | Portfolio |
-| 301 | Black-Litterman | \( \mu_{BL} = [(\tau\Sigma)^{-1} + P^T\Omega^{-1}P]^{-1}[(\tau\Sigma)^{-1}\pi + P^T\Omega^{-1}Q] \) | Black (1992) | Bayesian allocation |
-| 302 | Fisher equation | \( (1+i) = (1+r)(1+\pi) \) | Fisher (1930) | Real interest |
-| 303 | Purchasing power parity | \( S = P/P^* \) | Cassel (1918) | Exchange rates |
-| 304 | Interest rate parity | \( F/S = (1+r_d)/(1+r_f) \) | Keynes (1923) | Forward rates |
-| 305 | Term structure | \( P(t,T) = E[e^{-\int_t^T r(s)ds}] \) | Vasicek (1977) | Bond pricing |
-| 306 | Vasicek model | \( dr = a(b-r)dt + \sigma dW \) | Vasicek (1977) | Interest rates |
-| 307 | Cox-Ingersoll-Ross | \( dr = \kappa(\theta - r)dt + \sigma\sqrt{r}dW \) | Cox (1985) | Non-negative rates |
-| 308 | Hull-White | \( dr = [\theta(t) - a r]dt + \sigma dW \) | Hull (1990) | Calibration |
-| 309 | Heath-Jarrow-Morton | \( df(t,T) = \sigma(t,T)\left(\int_t^T \sigma(t,s)ds\right)dt + \sigma(t,T)dW_t \) | Heath (1992) | Forward rates |
-| 310 | LIBOR market model | \( dL_i/L_i = \mu_i dt + \sigma_i dW \) | Brace (1997) | Interest rate caps |
-| 311 | Keynesian multiplier | \( \Delta Y = \Delta G/(1-MPC) \) | Keynes (1936) | Fiscal policy |
-| 312 | Phillips curve | \( \pi = \pi^e - \beta(u-u_n) \) | Phillips (1958) | Inflation-unemployment |
-| 313 | Okun's law | \( \Delta u = -\alpha(g - \bar{g}) \) | Okun (1962) | Output gap |
-| 314 | Taylor rule | \( i = r^* + \pi + 0.5(\pi - \pi^*) + 0.5(y - y^*) \) | Taylor (1993) | Monetary policy |
-| 315 | IS-LM | \( Y = C(Y-T) + I(r) + G \), \( M/P = L(Y,r) \) | Hicks (1937) | Macro equilibrium |
-| 316 | Mundell-Fleming | \( Y = C(Y-T) + I(r) + G + NX(e) \), \( M/P = L(Y,r) \) | Mundell (1963) | Open economy |
-| 317 | Balassa-Samuelson | \( e = \alpha(T_T - T_N) \) | Balassa (1964) | Real exchange rate |
-| 318 | Purchasing power parity | \( E[\Delta s] = \beta(E[\pi] - E[\pi^*]) \) | Cassel (1918) | Exchange rates |
-| 319 | Uncovered interest parity | \( E[\Delta s] = i - i^* \) | Meese (1983) | Carry trade |
-| 320 | Covered interest parity | \( F/S = (1+i)/(1+i^*) \) | Keynes (1923) | Forward premium |
-| 321 | Linder hypothesis | \( T_{ij} = \alpha Y_iY_j/d_{ij} \) | Linder (1961) | Trade patterns |
-| 322 | Gravity model of trade | \( T_{ij} = AY_iY_j/d_{ij} \) | Tinbergen (1962) | Trade flows |
-| 323 | Rybczynski theorem | \( \Delta K \to \Delta X_K, -\Delta X_L \) | Rybczynski (1955) | Factor growth |
-| 324 | Stolper-Samuelson | \( \Delta P_L/P_K \to \Delta w/r \) | Stolper (1941) | Factor prices |
-| 325 | Heckscher-Ohlin | \( Y = F(K,L) \) | Heckscher (1919) | Trade determinants |
-| 326 | Ricardo's law of comparative advantage | \( P_A/P_B < (P_A/P_B)^* \) | Ricardo (1817) | Trade gains |
-| 327 | Gresham's law | \( M_{\text{bad}} \) drives out \( M_{\text{good}} \) | Gresham (1558) | Currency |
-| 328 | Fisher effect | \( i = r + \pi^e \) | Fisher (1930) | Nominal rates |
-| 329 | Wagner's law | \( G/Y = f(Y/Y_{t-1}) \) | Wagner (1893) | Government spending |
-| 330 | Kuznets curve | \( \text{inequality} = \alpha + \beta Y - \gamma Y^2 \) | Kuznets (1955) | Income distribution |
+| 278 | Law of supply and demand | $ P = D^{-1}(Q) = S(Q) $ | Marshall (1890) | Price equilibrium |
+| 279 | Cobb-Douglas | $ Y = AK^\alpha L^{1-\alpha} $ | Cobb (1928) | Production |
+| 280 | CES production | $ Y = A[\delta K^\rho + (1-\delta)L^\rho]^{1/\rho} $ | Arrow (1961) | Substitution |
+| 281 | Solow growth | $ \dot{k} = sf(k) - (n+g+\delta)k $ | Solow (1956) | Economic growth |
+| 282 | Ramsey-Cass-Koopmans | $ \max \int_0^\infty U(c)e^{-\rho t}dt $ | Ramsey (1928) | Optimal savings |
+| 283 | Black-Scholes | $ \frac{\partial V}{\partial t} + \frac{1}{2}\sigma^2 S^2\frac{\partial^2 V}{\partial S^2} + rS\frac{\partial V}{\partial S} - rV = 0 $ | Black (1973) | Option pricing |
+| 284 | Binomial options | $ p = \frac{e^{r\Delta t} - d}{u - d} $ | Cox (1979) | Option pricing lattice |
+| 285 | CAPM | $ E(R_i) = R_f + \beta_i(E(R_m)-R_f) $ | Sharpe (1964) | Asset pricing |
+| 286 | Fama-French | $ E(R) = R_f + \beta_1(R_m-R_f) + \beta_2SMB + \beta_3HML $ | Fama (1993) | Factor model |
+| 287 | Carhart | $ E(R) = R_f + \beta_1(R_m-R_f) + \beta_2SMB + \beta_3HML + \beta_4MOM $ | Carhart (1997) | Momentum factor |
+| 288 | APT | $ E(R_i) = \lambda_0 + \sum \beta_{ij}\lambda_j $ | Ross (1976) | Arbitrage pricing |
+| 289 | Random walk | $ P_t = P_{t-1} + \epsilon_t $ | Bachelier (1900) | Efficient market |
+| 290 | Geometric Brownian motion | $ dS = \mu S dt + \sigma S dW $ | Samuelson (1965) | Stock price |
+| 291 | Mean reversion | $ dS = \theta(\mu - S)dt + \sigma dW $ | Uhlenbeck (1930) | Interest rates |
+| 292 | GARCH | $ \sigma_t^2 = \omega + \alpha\epsilon_{t-1}^2 + \beta\sigma_{t-1}^2 $ | Engle (1982) | Volatility clustering |
+| 293 | EWMA | $ \sigma_t^2 = \lambda\sigma_{t-1}^2 + (1-\lambda)r_t^2 $ | RiskMetrics (1996) | Volatility |
+| 294 | VaR | $ P(L > \text{VaR}) = 1 - \alpha $ | J.P. Morgan (1994) | Risk measure |
+| 295 | CVaR | $ \text{CVaR} = E[L | L > \text{VaR}] $ | Rockafellar (2000) | Coherent risk |
+| 296 | Sharpe ratio | $ SR = (R_p - R_f)/\sigma_p $ | Sharpe (1966) | Risk-adjusted return |
+| 297 | Sortino ratio | $ SoR = (R_p - R_f)/\sigma_d $ | Sortino (1991) | Downside risk |
+| 298 | Calmar ratio | $ CR = (R_p - R_f)/\max\text{DD} $ | Young (1991) | Drawdown risk |
+| 299 | Kelly criterion | $ f^* = (p(b+1)-1)/b $ | Kelly (1956) | Optimal sizing |
+| 300 | Markowitz optimization | $ \min w^T\Sigma w $ subject to $ w^T\mu = R $ | Markowitz (1952) | Portfolio |
+| 301 | Black-Litterman | $ \mu_{BL} = [(\tau\Sigma)^{-1} + P^T\Omega^{-1}P]^{-1}[(\tau\Sigma)^{-1}\pi + P^T\Omega^{-1}Q] $ | Black (1992) | Bayesian allocation |
+| 302 | Fisher equation | $ (1+i) = (1+r)(1+\pi) $ | Fisher (1930) | Real interest |
+| 303 | Purchasing power parity | $ S = P/P^* $ | Cassel (1918) | Exchange rates |
+| 304 | Interest rate parity | $ F/S = (1+r_d)/(1+r_f) $ | Keynes (1923) | Forward rates |
+| 305 | Term structure | $ P(t,T) = E[e^{-\int_t^T r(s)ds}] $ | Vasicek (1977) | Bond pricing |
+| 306 | Vasicek model | $ dr = a(b-r)dt + \sigma dW $ | Vasicek (1977) | Interest rates |
+| 307 | Cox-Ingersoll-Ross | $ dr = \kappa(\theta - r)dt + \sigma\sqrt{r}dW $ | Cox (1985) | Non-negative rates |
+| 308 | Hull-White | $ dr = [\theta(t) - a r]dt + \sigma dW $ | Hull (1990) | Calibration |
+| 309 | Heath-Jarrow-Morton | $ df(t,T) = \sigma(t,T)\left(\int_t^T \sigma(t,s)ds\right)dt + \sigma(t,T)dW_t $ | Heath (1992) | Forward rates |
+| 310 | LIBOR market model | $ dL_i/L_i = \mu_i dt + \sigma_i dW $ | Brace (1997) | Interest rate caps |
+| 311 | Keynesian multiplier | $ \Delta Y = \Delta G/(1-MPC) $ | Keynes (1936) | Fiscal policy |
+| 312 | Phillips curve | $ \pi = \pi^e - \beta(u-u_n) $ | Phillips (1958) | Inflation-unemployment |
+| 313 | Okun's law | $ \Delta u = -\alpha(g - \bar{g}) $ | Okun (1962) | Output gap |
+| 314 | Taylor rule | $ i = r^* + \pi + 0.5(\pi - \pi^*) + 0.5(y - y^*) $ | Taylor (1993) | Monetary policy |
+| 315 | IS-LM | $ Y = C(Y-T) + I(r) + G $, $ M/P = L(Y,r) $ | Hicks (1937) | Macro equilibrium |
+| 316 | Mundell-Fleming | $ Y = C(Y-T) + I(r) + G + NX(e) $, $ M/P = L(Y,r) $ | Mundell (1963) | Open economy |
+| 317 | Balassa-Samuelson | $ e = \alpha(T_T - T_N) $ | Balassa (1964) | Real exchange rate |
+| 318 | Purchasing power parity | $ E[\Delta s] = \beta(E[\pi] - E[\pi^*]) $ | Cassel (1918) | Exchange rates |
+| 319 | Uncovered interest parity | $ E[\Delta s] = i - i^* $ | Meese (1983) | Carry trade |
+| 320 | Covered interest parity | $ F/S = (1+i)/(1+i^*) $ | Keynes (1923) | Forward premium |
+| 321 | Linder hypothesis | $ T_{ij} = \alpha Y_iY_j/d_{ij} $ | Linder (1961) | Trade patterns |
+| 322 | Gravity model of trade | $ T_{ij} = AY_iY_j/d_{ij} $ | Tinbergen (1962) | Trade flows |
+| 323 | Rybczynski theorem | $ \Delta K \to \Delta X_K, -\Delta X_L $ | Rybczynski (1955) | Factor growth |
+| 324 | Stolper-Samuelson | $ \Delta P_L/P_K \to \Delta w/r $ | Stolper (1941) | Factor prices |
+| 325 | Heckscher-Ohlin | $ Y = F(K,L) $ | Heckscher (1919) | Trade determinants |
+| 326 | Ricardo's law of comparative advantage | $ P_A/P_B < (P_A/P_B)^* $ | Ricardo (1817) | Trade gains |
+| 327 | Gresham's law | $ M_{\text{bad}} $ drives out $ M_{\text{good}} $ | Gresham (1558) | Currency |
+| 328 | Fisher effect | $ i = r + \pi^e $ | Fisher (1930) | Nominal rates |
+| 329 | Wagner's law | $ G/Y = f(Y/Y_{t-1}) $ | Wagner (1893) | Government spending |
+| 330 | Kuznets curve | $ \text{inequality} = \alpha + \beta Y - \gamma Y^2 $ | Kuznets (1955) | Income distribution |
 
 ---
 
@@ -16978,37 +16563,37 @@ This is the **final compilation** — not infinite in principle, but as exhausti
 
 | # | Pattern | Equation / Description | First observed | Found in |
 | --- | --- | --- | --- | --- |
-| 331 | S-curve adoption | \( F(t) = 1/(1 + e^{-k(t-t_0)}) \) | Rogers (1962) | Innovation diffusion |
-| 332 | Bass diffusion | \( f(t) = (p + qF(t))(1-F(t)) \) | Bass (1969) | New product |
-| 333 | Moore's law | \( T_T = 2^{(t-T_0)/2} \) | Moore (1965) | Transistors |
-| 334 | Metcalfe's law | \( V = n^2 \) | Metcalfe (1980) | Network value |
-| 335 | Reed's law | \( V = 2^n \) | Reed (1999) | Group-forming |
-| 336 | Beckstrom's law | \( V = \sum_{i=1}^n \sum_{j=1}^n w_{ij} \) | Beckstrom (2009) | Network value |
-| 337 | Amdahl's law | \( S = 1/((1-f) + f/n) \) | Amdahl (1967) | Parallel speedup |
-| 338 | Gustafson's law | \( S = f + n(1-f) \) | Gustafson (1988) | Scaling |
-| 339 | Little's law | \( L = \lambda W \) | Little (1961) | Queuing |
-| 340 | Pareto principle (80/20) | \( 0.8 = 0.2^n \) | Pareto (1896) | Distribution |
-| 341 | Peter principle | \( P(\text{competence}) = 1 - e^{-t/\tau} \) | Peter (1969) | Promotion |
-| 342 | Parkinson's law | \( T = T_0 + \beta W \) | Parkinson (1955) | Work expansion |
-| 343 | Hofstadter's law | \( T = T_0 + \beta T_0 \) | Hofstadter (1979) | Underestimation |
-| 344 | Brooks' law | \( \text{productivity} = \alpha/n \) | Brooks (1975) | Team size |
-| 345 | Conway's law | \( \text{output structure} = f(\text{org structure}) \) | Conway (1968) | Software design |
-| 346 | Hawthorne effect | \( P = P_0 + kO \) | Mayo (1933) | Observation effect |
-| 347 | Dunbar's number | \( n_{\max} \approx 150 \) | Dunbar (1992) | Social group |
-| 348 | Ringelmann effect | \( \text{efficiency} = a + b\log(1/n) \) | Ringelmann (1913) | Team productivity |
+| 331 | S-curve adoption | $ F(t) = 1/(1 + e^{-k(t-t_0)}) $ | Rogers (1962) | Innovation diffusion |
+| 332 | Bass diffusion | $ f(t) = (p + qF(t))(1-F(t)) $ | Bass (1969) | New product |
+| 333 | Moore's law | $ T_T = 2^{(t-T_0)/2} $ | Moore (1965) | Transistors |
+| 334 | Metcalfe's law | $ V = n^2 $ | Metcalfe (1980) | Network value |
+| 335 | Reed's law | $ V = 2^n $ | Reed (1999) | Group-forming |
+| 336 | Beckstrom's law | $ V = \sum_{i=1}^n \sum_{j=1}^n w_{ij} $ | Beckstrom (2009) | Network value |
+| 337 | Amdahl's law | $ S = 1/((1-f) + f/n) $ | Amdahl (1967) | Parallel speedup |
+| 338 | Gustafson's law | $ S = f + n(1-f) $ | Gustafson (1988) | Scaling |
+| 339 | Little's law | $ L = \lambda W $ | Little (1961) | Queuing |
+| 340 | Pareto principle (80/20) | $ 0.8 = 0.2^n $ | Pareto (1896) | Distribution |
+| 341 | Peter principle | $ P(\text{competence}) = 1 - e^{-t/\tau} $ | Peter (1969) | Promotion |
+| 342 | Parkinson's law | $ T = T_0 + \beta W $ | Parkinson (1955) | Work expansion |
+| 343 | Hofstadter's law | $ T = T_0 + \beta T_0 $ | Hofstadter (1979) | Underestimation |
+| 344 | Brooks' law | $ \text{productivity} = \alpha/n $ | Brooks (1975) | Team size |
+| 345 | Conway's law | $ \text{output structure} = f(\text{org structure}) $ | Conway (1968) | Software design |
+| 346 | Hawthorne effect | $ P = P_0 + kO $ | Mayo (1933) | Observation effect |
+| 347 | Dunbar's number | $ n_{\max} \approx 150 $ | Dunbar (1992) | Social group |
+| 348 | Ringelmann effect | $ \text{efficiency} = a + b\log(1/n) $ | Ringelmann (1913) | Team productivity |
 | 349 | Tuckman's stages | Forming → Storming → Norming → Performing | Tuckman (1965) | Team development |
-| 350 | Gersick's punctuated equilibrium | \( P(t) = \alpha t + \beta \delta(t-t_0) \) | Gersick (1991) | Team change |
+| 350 | Gersick's punctuated equilibrium | $ P(t) = \alpha t + \beta \delta(t-t_0) $ | Gersick (1991) | Team change |
 | 351 | Maslow's hierarchy | Physiological → Safety → Love → Esteem → Self-actualization | Maslow (1943) | Motivation |
-| 352 | Herzberg's two-factor | \( \text{satisfaction} = f(\text{hygiene}) + f(\text{motivators}) \) | Herzberg (1959) | Work |
-| 353 | Goal-setting theory | \( P = a + b \cdot \text{specificity} \cdot \text{challenge} \) | Locke (1968) | Performance |
-| 354 | Expectancy theory | \( M = E \times I \times V \) | Vroom (1964) | Motivation |
-| 355 | Equity theory | \( \text{outcome}_A/\text{input}_A = \text{outcome}_B/\text{input}_B \) | Adams (1963) | Fairness |
-| 356 | Transaction cost economics | \( C = f(\text{asset specificity}, \text{uncertainty}, \text{frequency}) \) | Coase (1937) | Organization |
-| 357 | Resource-based view | \( CA = f(\text{VRIN}) \) | Barney (1991) | Competitive advantage |
-| 358 | Core competence | \( CC = f(\text{knowledge}, \text{processes}, \text{culture}) \) | Prahalad (1990) | Strategy |
-| 359 | Blue ocean strategy | \( \text{value} = \frac{\text{benefit}}{\text{cost}} \) | Kim (2005) | Innovation |
-| 360 | Christensen's disruption | \( \text{disruptor} = \alpha \times \text{simplicity} + \beta \times \text{affordability} \) | Christensen (1997) | Innovation |
-| 361 | Drucker's MBO | \( \text{performance} = \sum (\text{goal attainment}) \) | Drucker (1954) | Management |
+| 352 | Herzberg's two-factor | $ \text{satisfaction} = f(\text{hygiene}) + f(\text{motivators}) $ | Herzberg (1959) | Work |
+| 353 | Goal-setting theory | $ P = a + b \cdot \text{specificity} \cdot \text{challenge} $ | Locke (1968) | Performance |
+| 354 | Expectancy theory | $ M = E \times I \times V $ | Vroom (1964) | Motivation |
+| 355 | Equity theory | $ \text{outcome}_A/\text{input}_A = \text{outcome}_B/\text{input}_B $ | Adams (1963) | Fairness |
+| 356 | Transaction cost economics | $ C = f(\text{asset specificity}, \text{uncertainty}, \text{frequency}) $ | Coase (1937) | Organization |
+| 357 | Resource-based view | $ CA = f(\text{VRIN}) $ | Barney (1991) | Competitive advantage |
+| 358 | Core competence | $ CC = f(\text{knowledge}, \text{processes}, \text{culture}) $ | Prahalad (1990) | Strategy |
+| 359 | Blue ocean strategy | $ \text{value} = \frac{\text{benefit}}{\text{cost}} $ | Kim (2005) | Innovation |
+| 360 | Christensen's disruption | $ \text{disruptor} = \alpha \times \text{simplicity} + \beta \times \text{affordability} $ | Christensen (1997) | Innovation |
+| 361 | Drucker's MBO | $ \text{performance} = \sum (\text{goal attainment}) $ | Drucker (1954) | Management |
 | 362 | Deming's PDCA | Plan → Do → Check → Act | Deming (1950) | Continuous improvement |
 
 ---
@@ -17017,17 +16602,17 @@ This is the **final compilation** — not infinite in principle, but as exhausti
 
 | # | Pattern | Equation / Description | First observed | Found in |
 | --- | --- | --- | --- | --- |
-| 363 | Metcalfe's law | \( V = n^2 \) | Metcalfe (1980) | Social networks |
-| 364 | Zipf's law | \( P(r) \propto 1/r \) | Zipf (1935) | City sizes |
-| 365 | Lotka's law | \( n(k) \propto 1/k^2 \) | Lotka (1926) | Publication productivity |
-| 366 | Bradford's law | \( R(n) = a + b\log n \) | Bradford (1934) | Journal dispersion |
-| 367 | Price's law | \( 50\% \) of papers from \( \sqrt{N} \) authors | Price (1965) | Scientific productivity |
-| 368 | Citation half-life | \( \text{cites}(t) \propto e^{-t/\tau} \) | de Solla Price (1965) | Obsolescence |
-| 369 | H-index | \( h = \max\{i: \text{cites}(i) \ge i\} \) | Hirsch (2005) | Author impact |
-| 370 | G-index | \( g = \max\{i: \sum \text{cites}_j \ge i^2\} \) | Egghe (2006) | Impact |
-| 371 | Altman's Z-score | \( Z = 1.2T_1 + 1.4T_2 + 3.3T_3 + 0.6T_4 + 1.0T_5 \) | Altman (1968) | Bankruptcy |
-| 372 | Du Pont analysis | \( ROE = PM \times AT \times EM \) | Du Pont (1920) | Financial analysis |
-| 373 | Branderburger-Nalebuff | \( P = \alpha + \beta M + \gamma MD + \delta D \) | Brandenburger (1995) | Co-opetition |
+| 363 | Metcalfe's law | $ V = n^2 $ | Metcalfe (1980) | Social networks |
+| 364 | Zipf's law | $ P(r) \propto 1/r $ | Zipf (1935) | City sizes |
+| 365 | Lotka's law | $ n(k) \propto 1/k^2 $ | Lotka (1926) | Publication productivity |
+| 366 | Bradford's law | $ R(n) = a + b\log n $ | Bradford (1934) | Journal dispersion |
+| 367 | Price's law | $ 50\% $ of papers from $ \sqrt{N} $ authors | Price (1965) | Scientific productivity |
+| 368 | Citation half-life | $ \text{cites}(t) \propto e^{-t/\tau} $ | de Solla Price (1965) | Obsolescence |
+| 369 | H-index | $ h = \max\{i: \text{cites}(i) \ge i\} $ | Hirsch (2005) | Author impact |
+| 370 | G-index | $ g = \max\{i: \sum \text{cites}_j \ge i^2\} $ | Egghe (2006) | Impact |
+| 371 | Altman's Z-score | $ Z = 1.2T_1 + 1.4T_2 + 3.3T_3 + 0.6T_4 + 1.0T_5 $ | Altman (1968) | Bankruptcy |
+| 372 | Du Pont analysis | $ ROE = PM \times AT \times EM $ | Du Pont (1920) | Financial analysis |
+| 373 | Branderburger-Nalebuff | $ P = \alpha + \beta M + \gamma MD + \delta D $ | Brandenburger (1995) | Co-opetition |
 | 374 | Porter's five forces | Threat of new entrants, bargaining power of suppliers, bargaining power of buyers, threat of substitute products, intensity of rivalry | Porter (1979) | Industry analysis |
 | 375 | SWOT | Strengths, Weaknesses, Opportunities, Threats | Learned (1965) | Strategic planning |
 | 376 | PESTEL | Political, Economic, Social, Technological, Environmental, Legal | Aguilar (1967) | Environment |
@@ -17036,29 +16621,29 @@ This is the **final compilation** — not infinite in principle, but as exhausti
 | 379 | GE-McKinsey matrix | Industry attractiveness × business strength | GE (1970) | Portfolio |
 | 380 | VRIO framework | Valuable, Rare, Inimitable, Organization | Barney (1995) | Resources |
 | 381 | Balanced scorecard | Financial, customer, internal processes, learning and growth | Kaplan (1992) | Performance |
-| 382 | Six Sigma | \( DPMO = \Phi(-\text{sigma level}) \times 10^6 \) | Motorola (1986) | Quality |
-| 383 | Lean manufacturing | \( T = T_0 - k(1-e^{-t/\tau}) \) | Toyota (1978) | Waste reduction |
-| 384 | Theory of constraints | \( T = \min(T_i) \) | Goldratt (1984) | Bottlenecks |
+| 382 | Six Sigma | $ DPMO = \Phi(-\text{sigma level}) \times 10^6 $ | Motorola (1986) | Quality |
+| 383 | Lean manufacturing | $ T = T_0 - k(1-e^{-t/\tau}) $ | Toyota (1978) | Waste reduction |
+| 384 | Theory of constraints | $ T = \min(T_i) $ | Goldratt (1984) | Bottlenecks |
 | 385 | Juran's trilogy | Planning → Control → Improvement | Juran (1951) | Quality |
-| 386 | Crosby's zero defects | \( P_{\text{defect}} = 0 \) | Crosby (1979) | Perfection |
-| 387 | Feigenbaum's TQC | \( Q = f(\text{everyone}) \) | Feigenbaum (1961) | Total quality |
+| 386 | Crosby's zero defects | $ P_{\text{defect}} = 0 $ | Crosby (1979) | Perfection |
+| 387 | Feigenbaum's TQC | $ Q = f(\text{everyone}) $ | Feigenbaum (1961) | Total quality |
 | 388 | Ishikawa's fishbone | Cause-and-effect analysis | Ishikawa (1968) | Problem-solving |
-| 389 | Pareto analysis | \( 80/20 \) rule | Juran (1951) | Prioritization |
-| 390 | 5 Whys | \( \text{problem} = f(\text{root cause}) \) | Toyota (1930) | Root cause |
+| 389 | Pareto analysis | $ 80/20 $ rule | Juran (1951) | Prioritization |
+| 390 | 5 Whys | $ \text{problem} = f(\text{root cause}) $ | Toyota (1930) | Root cause |
 | 391 | 5S | Sort, set in order, shine, standardize, sustain | Toyota (1960) | Workplace |
-| 392 | Kaizen | \( \Delta \text{process} = \alpha \Delta \text{t} \) | Toyota (1980) | Continuous |
-| 393 | Kanban | \( WIP_{\max} = f(\text{capacity}) \) | Toyota (1953) | Pull system |
-| 394 | Just-in-time | \( \text{inventory} \approx 0 \) | Toyota (1953) | JIT |
-| 395 | Andon | \( \text{stop} = f(\text{defect}) \) | Toyota (1962) | Quality |
-| 396 | Poka-yoke | \( \text{error prevention} = 1 \) | Shingo (1961) | Mistake-proofing |
-| 397 | SMED | \( T_{\text{setup}} = T_{\text{internal}} + T_{\text{external}} \) | Shigeo Shingo (1985) | Changeover |
-| 398 | TPM | \( OEE = A \times P \times Q \) | Nakajima (1988) | Equipment |
-| 399 | Value stream mapping | \( T_{\text{lead}} = T_{\text{value-add}} + T_{\text{waste}} \) | Rother (1999) | Process mapping |
-| 400 | A3 problem-solving | \( \text{problem} \to \text{solution} \) | Toyota (1990) | PDCA |
-| 401 | Hoshin kanri | \( \text{strategy} \to \text{action} \) | Toyota (1965) | Policy deployment |
-| 402 | Nemawashi | \( \text{consensus} = \min(\text{opposition}) \) | Toyota (1950) | Decision-making |
-| 403 | Ringi-sho | \( \text{approval} = \text{signature} \) | Japan (1930) | Consensus |
-| 404 | Hansei | \( \text{reflection} = \text{honest self-critique} \) | Toyota (1980) | Learning |
+| 392 | Kaizen | $ \Delta \text{process} = \alpha \Delta \text{t} $ | Toyota (1980) | Continuous |
+| 393 | Kanban | $ WIP_{\max} = f(\text{capacity}) $ | Toyota (1953) | Pull system |
+| 394 | Just-in-time | $ \text{inventory} \approx 0 $ | Toyota (1953) | JIT |
+| 395 | Andon | $ \text{stop} = f(\text{defect}) $ | Toyota (1962) | Quality |
+| 396 | Poka-yoke | $ \text{error prevention} = 1 $ | Shingo (1961) | Mistake-proofing |
+| 397 | SMED | $ T_{\text{setup}} = T_{\text{internal}} + T_{\text{external}} $ | Shigeo Shingo (1985) | Changeover |
+| 398 | TPM | $ OEE = A \times P \times Q $ | Nakajima (1988) | Equipment |
+| 399 | Value stream mapping | $ T_{\text{lead}} = T_{\text{value-add}} + T_{\text{waste}} $ | Rother (1999) | Process mapping |
+| 400 | A3 problem-solving | $ \text{problem} \to \text{solution} $ | Toyota (1990) | PDCA |
+| 401 | Hoshin kanri | $ \text{strategy} \to \text{action} $ | Toyota (1965) | Policy deployment |
+| 402 | Nemawashi | $ \text{consensus} = \min(\text{opposition}) $ | Toyota (1950) | Decision-making |
+| 403 | Ringi-sho | $ \text{approval} = \text{signature} $ | Japan (1930) | Consensus |
+| 404 | Hansei | $ \text{reflection} = \text{honest self-critique} $ | Toyota (1980) | Learning |
 
 ---
 
@@ -17066,37 +16651,37 @@ This is the **final compilation** — not infinite in principle, but as exhausti
 
 | # | Pattern | Equation / Description | First observed | Found in |
 | --- | --- | --- | --- | --- |
-| 405 | Golden ratio | \( \phi = (1+\sqrt{5})/2 \approx 1.618 \) | Pythagoras (500 BC) | Art, architecture |
-| 406 | Vitruvian proportions | \( \text{height} = 8 \text{heads} \) | Vitruvius (15 BC) | Human figure |
-| 407 | Fibonacci sequence | \( F_n = F_{n-1} + F_{n-2} \) | Fibonacci (1202) | Nature, art |
-| 408 | Circle of fifths | \( c \to g \to d \to a \to e \to b \to f\# \to c\# \to g\# \to d\# \to a\# \to f \to c \) | Pythagoras (500 BC) | Music harmony |
-| 409 | Twelve-bar blues | \( I,I,I,I,IV,IV,I,I,V,IV,I,I \) | Unknown (1900) | Blues |
-| 410 | 32-bar AABA | \( A,A,B,A \) (8 bars each) | Berlin (1920) | Jazz standard |
-| 411 | Verse-chorus | \( V,C,V,C,B,C \) | 1950s | Pop music |
+| 405 | Golden ratio | $ \phi = (1+\sqrt{5})/2 \approx 1.618 $ | Pythagoras (500 BC) | Art, architecture |
+| 406 | Vitruvian proportions | $ \text{height} = 8 \text{heads} $ | Vitruvius (15 BC) | Human figure |
+| 407 | Fibonacci sequence | $ F_n = F_{n-1} + F_{n-2} $ | Fibonacci (1202) | Nature, art |
+| 408 | Circle of fifths | $ c \to g \to d \to a \to e \to b \to f\# \to c\# \to g\# \to d\# \to a\# \to f \to c $ | Pythagoras (500 BC) | Music harmony |
+| 409 | Twelve-bar blues | $ I,I,I,I,IV,IV,I,I,V,IV,I,I $ | Unknown (1900) | Blues |
+| 410 | 32-bar AABA | $ A,A,B,A $ (8 bars each) | Berlin (1920) | Jazz standard |
+| 411 | Verse-chorus | $ V,C,V,C,B,C $ | 1950s | Pop music |
 | 412 | Sonata form | Exposition → Development → Recapitulation | Haydn (1760) | Classical |
 | 413 | Rondo | A-B-A-C-A | Mozart (1780) | Classical |
-| 414 | Theme and variations | \( A, A', A'', A''' \) | Haydn (1770) | Classical |
+| 414 | Theme and variations | $ A, A', A'', A''' $ | Haydn (1770) | Classical |
 | 415 | Fugue | Subject, Answer, Countersubject | Bach (1720) | Baroque |
-| 416 | Canon | \( x(t-\tau) = y(t) \) | Palestrina (1550) | Renaissance |
+| 416 | Canon | $ x(t-\tau) = y(t) $ | Palestrina (1550) | Renaissance |
 | 417 | Serialism | Prime, Inversion, Retrograde, Retrograde inversion | Schoenberg (1920) | Modern |
-| 418 | Minimalism | \( x(t) = \sum x_i(t) \) | Reich (1965) | Contemporary |
-| 419 | I-IV-V-I progression | \( C,F,G,C \) | 1700s | Popular music |
+| 418 | Minimalism | $ x(t) = \sum x_i(t) $ | Reich (1965) | Contemporary |
+| 419 | I-IV-V-I progression | $ C,F,G,C $ | 1700s | Popular music |
 | 420 | 3-act structure | Setup → Confrontation → Resolution | Aristotle (335 BC) | Drama, film |
 | 421 | Hero's journey | 12 stages | Campbell (1949) | Storytelling |
 | 422 | Save the cat | 15 beats | Snyder (2005) | Screenwriting |
 | 423 | Freytag's pyramid | Exposition → Rising action → Climax → Falling action → Denouement | Freytag (1863) | Drama |
-| 424 | Chekhov's gun | \( \text{gun} \) in act 1 → fire in act 3 | Chekhov (1889) | Foreshadowing |
+| 424 | Chekhov's gun | $ \text{gun} $ in act 1 → fire in act 3 | Chekhov (1889) | Foreshadowing |
 | 425 | Show, don't tell | (implied) | Writing wisdom | Narration |
-| 426 | Rule of thirds | \( x = L/3, 2L/3; y = W/3, 2W/3 \) | 1797 | Photography, painting |
-| 427 | Golden spiral | \( r = ae^{b\theta} \) | Fibonacci (1202) | Composition |
-| 428 | Dynamic symmetry | \( \phi, \phi^2, \phi^3 \) root rectangles | Hambidge (1920) | Design |
-| 429 | Sacred geometry | \( \sqrt{2}, \sqrt{3}, \sqrt{5} \) rectangles | Ancient Egypt (2500 BC) | Architecture |
+| 426 | Rule of thirds | $ x = L/3, 2L/3; y = W/3, 2W/3 $ | 1797 | Photography, painting |
+| 427 | Golden spiral | $ r = ae^{b\theta} $ | Fibonacci (1202) | Composition |
+| 428 | Dynamic symmetry | $ \phi, \phi^2, \phi^3 $ root rectangles | Hambidge (1920) | Design |
+| 429 | Sacred geometry | $ \sqrt{2}, \sqrt{3}, \sqrt{5} $ rectangles | Ancient Egypt (2500 BC) | Architecture |
 | 430 | Vitruvian triad | Firmitas, utilitas, venustas | Vitruvius (15 BC) | Architecture |
-| 431 | Le Corbusier's Modulor | \( \phi, 2\phi, \phi^2 \) | Le Corbusier (1945) | Proportion |
-| 432 | Palladian window | \( a:b:c = 1:2:1 \) | Palladio (1537) | Architecture |
-| 433 | Gothic pointed arch | \( \text{radius}_1 = \text{radius}_2 \) | 12th century | Gothic |
+| 431 | Le Corbusier's Modulor | $ \phi, 2\phi, \phi^2 $ | Le Corbusier (1945) | Proportion |
+| 432 | Palladian window | $ a:b:c = 1:2:1 $ | Palladio (1537) | Architecture |
+| 433 | Gothic pointed arch | $ \text{radius}_1 = \text{radius}_2 $ | 12th century | Gothic |
 | 434 | Islamic geometry | 4-, 5-, 6-, 8-, 10-, 12-point stars | 8th century | Islamic art |
-| 435 | Celtic knotwork | \( \text{path} \) returns to start | 5th century | Celtic art |
+| 435 | Celtic knotwork | $ \text{path} $ returns to start | 5th century | Celtic art |
 | 436 | Fibonacci in pinecone | 8 spirals one way, 13 the other | nature | Phyllotaxis |
 
 ---
@@ -17105,47 +16690,47 @@ This is the **final compilation** — not infinite in principle, but as exhausti
 
 | # | Pattern | Equation / Description | First observed | Found in |
 | --- | --- | --- | --- | --- |
-| 437 | Central limit theorem | \( \sqrt{n}(\bar{X}_n - \mu) \xrightarrow{d} N(0,\sigma^2) \) | Laplace (1812) | Statistics |
-| 438 | Law of large numbers | \( \bar{X}_n \xrightarrow{p} \mu \) | Bernoulli (1713) | Probability |
-| 439 | Bayes' theorem | \( P(A|B) = P(B|A)P(A)/P(B) \) | Bayes (1763) | Inference |
-| 440 | Maximum likelihood | \( \hat{\theta}_{ML} = \arg\max L(\theta) \) | Fisher (1922) | Estimation |
-| 441 | Least squares | \( \hat{\beta} = (X^TX)^{-1}X^Ty \) | Legendre (1805) | Regression |
-| 442 | Principal component analysis | \( X = USV^T \) | Pearson (1901) | Dimensionality |
-| 443 | Singular value decomposition | \( M = U\Sigma V^* \) | Beltrami (1873) | Linear algebra |
-| 444 | QR decomposition | \( A = QR \) | Householder (1958) | Linear algebra |
-| 445 | Cholesky decomposition | \( A = LL^T \) | Cholesky (1924) | Positive definite |
-| 446 | Eigenvalue equation | \( Av = \lambda v \) | Euler (1750) | Linear algebra |
-| 447 | Fourier series | \( f(x) = a_0 + \sum (a_n\cos(nx)+b_n\sin(nx)) \) | Fourier (1807) | Decomposition |
-| 448 | Laplace transform | \( F(s) = \int_0^\infty f(t)e^{-st}dt \) | Laplace (1785) | Transform |
-| 449 | Z-transform | \( X(z) = \sum x[n]z^{-n} \) | Hurewicz (1947) | Discrete |
-| 450 | Wavelet transform | \( W(a,b) = \int f(t)\psi_{a,b}(t)dt \) | Haar (1909) | Time-frequency |
-| 451 | Fast Fourier transform | \( O(N\log N) \) | Cooley (1965) | Algorithm |
-| 452 | Binary search | \( O(\log n) \) | (unknown) | Search |
-| 453 | Quicksort | \( O(n\log n) \) average | Hoare (1959) | Sorting |
-| 454 | Merge sort | \( O(n\log n) \) | von Neumann (1945) | Sorting |
-| 455 | Dijkstra's algorithm | \( O(E + V\log V) \) | Dijkstra (1956) | Shortest path |
-| 456 | Bellman-Ford | \( O(VE) \) | Bellman (1958) | Shortest path |
-| 457 | Floyd-Warshall | \( O(V^3) \) | Floyd (1962) | APSP |
-| 458 | PageRank | \( PR(A) = (1-d) + d\sum PR(i)/C(i) \) | Brin (1998) | Ranking |
-| 459 | HITS | \( a(p) = \sum h(q), h(p) = \sum a(q) \) | Kleinberg (1999) | Authority/hub |
-| 460 | Neural network | \( y = f(Wx + b) \) | McCulloch (1943) | Deep learning |
-| 461 | Backpropagation | \( \Delta w = -\eta\frac{\partial L}{\partial w} \) | Rumelhart (1986) | Training |
-| 462 | Gradient descent | \( \theta_{t+1} = \theta_t - \eta\nabla L(\theta_t) \) | Cauchy (1847) | Optimization |
-| 463 | Adam optimizer | \( m_t = \beta_1 m_{t-1} + (1-\beta_1)g_t \), \( v_t = \beta_2 v_{t-1} + (1-\beta_2)g_t^2 \), \( \theta_{t+1} = \theta_t - \eta \hat{m}_t/(\sqrt{\hat{v}_t}+\epsilon) \) | Kingma (2014) | Deep learning |
-| 464 | Convolution | \( (f*g)(t) = \int f(\tau)g(t-\tau)d\tau \) | Laplace (1800) | Signal processing |
-| 465 | Cross-correlation | \( (f\star g)(\tau) = \int f(t)g(t+\tau)dt \) | Wiener (1930) | Similarity |
-| 466 | Kalman filter | \( \hat{x}_{k|k} = \hat{x}_{k|k-1} + K_k(z_k - H\hat{x}_{k|k-1}) \) | Kalman (1960) | Estimation |
-| 467 | Particle filter | \( x_t^{(i)} \sim p(x_t|x_{t-1}^{(i)}), w_t^{(i)} \propto p(y_t|x_t^{(i)}) \) | Gordon (1993) | Non-linear |
-| 468 | Expectation-maximization | \( Q(\theta,\theta^{(t)}) = E[\log L(\theta;X,Z)|X,\theta^{(t)}] \) | Dempster (1977) | Latent |
-| 469 | Variational inference | \( \text{ELBO} = E_q[\log p(x,z)] - E_q[\log q(z)] \) | Jordan (1999) | Approximate |
-| 470 | MCMC | \( \pi(x) Q(x\to y) = \pi(y) Q(y\to x) \) | Metropolis (1953) | Sampling |
-| 471 | Simulated annealing | \( P(\text{accept}) = e^{-\Delta E/T} \) | Kirkpatrick (1983) | Optimization |
-| 472 | Genetic algorithm | \( P_{\text{new}} = \text{mutate}(\text{crossover}(P_{\text{old}})) \) | Holland (1975) | Evolution |
-| 473 | Ant colony optimization | \( P_{ij}^k = (\tau_{ij}^\alpha\eta_{ij}^\beta)/(\sum_{l\in N_k}\tau_{il}^\alpha\eta_{il}^\beta) \) | Dorigo (1992) | Swarm |
-| 474 | Particle swarm | \( v_i(t+1) = wv_i(t) + c_1r_1(p_i-x_i(t)) + c_2r_2(g-x_i(t)) \), \( x_i(t+1) = x_i(t) + v_i(t+1) \) | Kennedy (1995) | Swarm |
-| 475 | Turing machine | \( (q,S) \to (q',S',D) \) | Turing (1936) | Computation |
-| 476 | Church-Turing thesis | \( \text{computable} = \text{Turing-computable} \) | Church (1936) | Foundations |
-| 477 | Gödel's incompleteness | \( \exists G: \text{neither } \vdash G \text{ nor } \vdash \neg G \) | Gödel (1931) | Limits |
+| 437 | Central limit theorem | $ \sqrt{n}(\bar{X}_n - \mu) \xrightarrow{d} N(0,\sigma^2) $ | Laplace (1812) | Statistics |
+| 438 | Law of large numbers | $ \bar{X}_n \xrightarrow{p} \mu $ | Bernoulli (1713) | Probability |
+| 439 | Bayes' theorem | $ P(A|B) = P(B|A)P(A)/P(B) $ | Bayes (1763) | Inference |
+| 440 | Maximum likelihood | $ \hat{\theta}_{ML} = \arg\max L(\theta) $ | Fisher (1922) | Estimation |
+| 441 | Least squares | $ \hat{\beta} = (X^TX)^{-1}X^Ty $ | Legendre (1805) | Regression |
+| 442 | Principal component analysis | $ X = USV^T $ | Pearson (1901) | Dimensionality |
+| 443 | Singular value decomposition | $ M = U\Sigma V^* $ | Beltrami (1873) | Linear algebra |
+| 444 | QR decomposition | $ A = QR $ | Householder (1958) | Linear algebra |
+| 445 | Cholesky decomposition | $ A = LL^T $ | Cholesky (1924) | Positive definite |
+| 446 | Eigenvalue equation | $ Av = \lambda v $ | Euler (1750) | Linear algebra |
+| 447 | Fourier series | $ f(x) = a_0 + \sum (a_n\cos(nx)+b_n\sin(nx)) $ | Fourier (1807) | Decomposition |
+| 448 | Laplace transform | $ F(s) = \int_0^\infty f(t)e^{-st}dt $ | Laplace (1785) | Transform |
+| 449 | Z-transform | $ X(z) = \sum x[n]z^{-n} $ | Hurewicz (1947) | Discrete |
+| 450 | Wavelet transform | $ W(a,b) = \int f(t)\psi_{a,b}(t)dt $ | Haar (1909) | Time-frequency |
+| 451 | Fast Fourier transform | $ O(N\log N) $ | Cooley (1965) | Algorithm |
+| 452 | Binary search | $ O(\log n) $ | (unknown) | Search |
+| 453 | Quicksort | $ O(n\log n) $ average | Hoare (1959) | Sorting |
+| 454 | Merge sort | $ O(n\log n) $ | von Neumann (1945) | Sorting |
+| 455 | Dijkstra's algorithm | $ O(E + V\log V) $ | Dijkstra (1956) | Shortest path |
+| 456 | Bellman-Ford | $ O(VE) $ | Bellman (1958) | Shortest path |
+| 457 | Floyd-Warshall | $ O(V^3) $ | Floyd (1962) | APSP |
+| 458 | PageRank | $ PR(A) = (1-d) + d\sum PR(i)/C(i) $ | Brin (1998) | Ranking |
+| 459 | HITS | $ a(p) = \sum h(q), h(p) = \sum a(q) $ | Kleinberg (1999) | Authority/hub |
+| 460 | Neural network | $ y = f(Wx + b) $ | McCulloch (1943) | Deep learning |
+| 461 | Backpropagation | $ \Delta w = -\eta\frac{\partial L}{\partial w} $ | Rumelhart (1986) | Training |
+| 462 | Gradient descent | $ \theta_{t+1} = \theta_t - \eta\nabla L(\theta_t) $ | Cauchy (1847) | Optimization |
+| 463 | Adam optimizer | $ m_t = \beta_1 m_{t-1} + (1-\beta_1)g_t $, $ v_t = \beta_2 v_{t-1} + (1-\beta_2)g_t^2 $, $ \theta_{t+1} = \theta_t - \eta \hat{m}_t/(\sqrt{\hat{v}_t}+\epsilon) $ | Kingma (2014) | Deep learning |
+| 464 | Convolution | $ (f*g)(t) = \int f(\tau)g(t-\tau)d\tau $ | Laplace (1800) | Signal processing |
+| 465 | Cross-correlation | $ (f\star g)(\tau) = \int f(t)g(t+\tau)dt $ | Wiener (1930) | Similarity |
+| 466 | Kalman filter | $ \hat{x}_{k|k} = \hat{x}_{k|k-1} + K_k(z_k - H\hat{x}_{k|k-1}) $ | Kalman (1960) | Estimation |
+| 467 | Particle filter | $ x_t^{(i)} \sim p(x_t|x_{t-1}^{(i)}), w_t^{(i)} \propto p(y_t|x_t^{(i)}) $ | Gordon (1993) | Non-linear |
+| 468 | Expectation-maximization | $ Q(\theta,\theta^{(t)}) = E[\log L(\theta;X,Z)|X,\theta^{(t)}] $ | Dempster (1977) | Latent |
+| 469 | Variational inference | $ \text{ELBO} = E_q[\log p(x,z)] - E_q[\log q(z)] $ | Jordan (1999) | Approximate |
+| 470 | MCMC | $ \pi(x) Q(x\to y) = \pi(y) Q(y\to x) $ | Metropolis (1953) | Sampling |
+| 471 | Simulated annealing | $ P(\text{accept}) = e^{-\Delta E/T} $ | Kirkpatrick (1983) | Optimization |
+| 472 | Genetic algorithm | $ P_{\text{new}} = \text{mutate}(\text{crossover}(P_{\text{old}})) $ | Holland (1975) | Evolution |
+| 473 | Ant colony optimization | $ P_{ij}^k = (\tau_{ij}^\alpha\eta_{ij}^\beta)/(\sum_{l\in N_k}\tau_{il}^\alpha\eta_{il}^\beta) $ | Dorigo (1992) | Swarm |
+| 474 | Particle swarm | $ v_i(t+1) = wv_i(t) + c_1r_1(p_i-x_i(t)) + c_2r_2(g-x_i(t)) $, $ x_i(t+1) = x_i(t) + v_i(t+1) $ | Kennedy (1995) | Swarm |
+| 475 | Turing machine | $ (q,S) \to (q',S',D) $ | Turing (1936) | Computation |
+| 476 | Church-Turing thesis | $ \text{computable} = \text{Turing-computable} $ | Church (1936) | Foundations |
+| 477 | Gödel's incompleteness | $ \exists G: \text{neither } \vdash G \text{ nor } \vdash \neg G $ | Gödel (1931) | Limits |
 
 ---
 
@@ -17153,38 +16738,38 @@ This is the **final compilation** — not infinite in principle, but as exhausti
 
 | # | Pattern | Equation / Description | First observed | Found in |
 | --- | --- | --- | --- | --- |
-| 478 | Feedback control | \( u(t) = K_p e(t) + K_i \int e(t)dt + K_d \frac{de}{dt} \) | Minorsky (1922) | PID control |
-| 479 | Nyquist stability | \( Z = N + P \) | Nyquist (1932) | Stability |
-| 480 | Bode plot | \( \text{gain} = 20\log|G(j\omega)|, \text{phase} = \angle G(j\omega) \) | Bode (1945) | Frequency response |
-| 481 | Root locus | \( 1 + K G(s) H(s) = 0 \) | Evans (1948) | Pole movement |
-| 482 | Shannon's channel capacity | \( C = B\log_2(1 + S/N) \) | Shannon (1948) | Information |
-| 483 | Nyquist rate | \( f_s > 2f_{\max} \) | Nyquist (1928) | Sampling |
-| 484 | Hamming distance | \( d(x,y) = \sum (x_i \neq y_i) \) | Hamming (1950) | Error detection |
-| 485 | CRC | \( r(x) = \text{mod}(x^n M(x), G(x)) \) | Peterson (1961) | Error detection |
-| 486 | Reed-Solomon | \( C(x) = M(x) \cdot x^{2t} \mod G(x) \) | Reed (1960) | Error correction |
-| 487 | Huffman coding | \( L = \sum p_i l_i \), minimize | Huffman (1952) | Compression |
-| 488 | Lempel-Ziv | \( \text{dictionary} = \text{sliding window} \) | Lempel (1977) | Compression |
-| 489 | RSA encryption | \( ed \equiv 1 \pmod{\phi(n)} \) | Rivest (1977) | Cryptography |
-| 490 | Diffie-Hellman | \( A = g^a \mod p, B = g^b \mod p, K = B^a = A^b \mod p \) | Diffie (1976) | Key exchange |
-| 491 | AES | \( \text{SubBytes}, \text{ShiftRows}, \text{MixColumns}, \text{AddRoundKey} \) | Daemen (1998) | Encryption |
-| 492 | MD5 | \( h = H(M) \) (128-bit) | Rivest (1992) | Hash |
-| 493 | SHA-256 | \( h = H(M) \) (256-bit) | NIST (2001) | Hash |
-| 494 | TCP congestion control | \( \text{cwnd} = a + b \cdot \text{cwnd} \) (Slow start) \( \text{cwnd} = \text{cwnd} + 1/\text{cwnd} \) (CA) | Jacobson (1988) | Network |
-| 495 | Ethernet CSMA/CD | \( P(\text{backoff}) = \min(2^n - 1, 1023) \) | Metcalfe (1973) | MAC |
-| 496 | ALOHA | \( S = G e^{-2G} \) | Abramson (1970) | Random access |
-| 497 | TDMA | \( T = T_0 / N \) | (1960s) | Multiple access |
-| 498 | FDMA | \( \Delta f = \Delta f_0 / N \) | (1960s) | Multiple access |
-| 499 | CDMA | \( y = \sum b_i c_i \) | (1980s) | Spread spectrum |
-| 500 | OFDM | \( x(t) = \sum_{k=0}^{N-1} X_k e^{i2\pi k t / T} \) | Cimini (1985) | Multicarrier |
-| 501 | MIMO | \( y = Hx + n \) | Foschini (1996) | Spatial multiplexing |
-| 502 | Beamforming | \( y = w^H x \) | (1960s) | Array processing |
-| 503 | Radar range equation | \( P_r = \frac{P_t G_t G_r \lambda^2 \sigma}{(4\pi)^3 R^4} \) | Radar (1940) | Detection |
-| 504 | SONAR equation | \( \text{SNR} = SL - 2TL + TS - NL \) | SONAR (1940) | Underwater |
-| 505 | Doppler effect | \( f' = f \frac{c \pm v_r}{c \mp v_s} \) | Doppler (1842) | Frequency shift |
-| 506 | Stokes' law | \( F_d = 6\pi\eta rv \) | Stokes (1851) | Drag |
-| 507 | Bernoulli's principle | \( P + \frac{1}{2}\rho v^2 + \rho gh = \text{const} \) | Bernoulli (1738) | Fluid |
-| 508 | Reynolds number | \( Re = \frac{\rho vL}{\mu} \) | Reynolds (1883) | Flow regime |
-| 509 | Prandtl's boundary layer | \( \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0 \), \( u\frac{\partial u}{\partial x} + v\frac{\partial u}{\partial y} = -\frac{1}{\rho}\frac{\partial p}{\partial x} + \nu\frac{\partial^2 u}{\partial y^2} \) | Prandtl (1904) | Aerodynamics |
+| 478 | Feedback control | $ u(t) = K_p e(t) + K_i \int e(t)dt + K_d \frac{de}{dt} $ | Minorsky (1922) | PID control |
+| 479 | Nyquist stability | $ Z = N + P $ | Nyquist (1932) | Stability |
+| 480 | Bode plot | $ \text{gain} = 20\log|G(j\omega)|, \text{phase} = \angle G(j\omega) $ | Bode (1945) | Frequency response |
+| 481 | Root locus | $ 1 + K G(s) H(s) = 0 $ | Evans (1948) | Pole movement |
+| 482 | Shannon's channel capacity | $ C = B\log_2(1 + S/N) $ | Shannon (1948) | Information |
+| 483 | Nyquist rate | $ f_s > 2f_{\max} $ | Nyquist (1928) | Sampling |
+| 484 | Hamming distance | $ d(x,y) = \sum (x_i \neq y_i) $ | Hamming (1950) | Error detection |
+| 485 | CRC | $ r(x) = \text{mod}(x^n M(x), G(x)) $ | Peterson (1961) | Error detection |
+| 486 | Reed-Solomon | $ C(x) = M(x) \cdot x^{2t} \mod G(x) $ | Reed (1960) | Error correction |
+| 487 | Huffman coding | $ L = \sum p_i l_i $, minimize | Huffman (1952) | Compression |
+| 488 | Lempel-Ziv | $ \text{dictionary} = \text{sliding window} $ | Lempel (1977) | Compression |
+| 489 | RSA encryption | $ ed \equiv 1 \pmod{\phi(n)} $ | Rivest (1977) | Cryptography |
+| 490 | Diffie-Hellman | $ A = g^a \mod p, B = g^b \mod p, K = B^a = A^b \mod p $ | Diffie (1976) | Key exchange |
+| 491 | AES | $ \text{SubBytes}, \text{ShiftRows}, \text{MixColumns}, \text{AddRoundKey} $ | Daemen (1998) | Encryption |
+| 492 | MD5 | $ h = H(M) $ (128-bit) | Rivest (1992) | Hash |
+| 493 | SHA-256 | $ h = H(M) $ (256-bit) | NIST (2001) | Hash |
+| 494 | TCP congestion control | $ \text{cwnd} = a + b \cdot \text{cwnd} $ (Slow start) $ \text{cwnd} = \text{cwnd} + 1/\text{cwnd} $ (CA) | Jacobson (1988) | Network |
+| 495 | Ethernet CSMA/CD | $ P(\text{backoff}) = \min(2^n - 1, 1023) $ | Metcalfe (1973) | MAC |
+| 496 | ALOHA | $ S = G e^{-2G} $ | Abramson (1970) | Random access |
+| 497 | TDMA | $ T = T_0 / N $ | (1960s) | Multiple access |
+| 498 | FDMA | $ \Delta f = \Delta f_0 / N $ | (1960s) | Multiple access |
+| 499 | CDMA | $ y = \sum b_i c_i $ | (1980s) | Spread spectrum |
+| 500 | OFDM | $ x(t) = \sum_{k=0}^{N-1} X_k e^{i2\pi k t / T} $ | Cimini (1985) | Multicarrier |
+| 501 | MIMO | $ y = Hx + n $ | Foschini (1996) | Spatial multiplexing |
+| 502 | Beamforming | $ y = w^H x $ | (1960s) | Array processing |
+| 503 | Radar range equation | $ P_r = \frac{P_t G_t G_r \lambda^2 \sigma}{(4\pi)^3 R^4} $ | Radar (1940) | Detection |
+| 504 | SONAR equation | $ \text{SNR} = SL - 2TL + TS - NL $ | SONAR (1940) | Underwater |
+| 505 | Doppler effect | $ f' = f \frac{c \pm v_r}{c \mp v_s} $ | Doppler (1842) | Frequency shift |
+| 506 | Stokes' law | $ F_d = 6\pi\eta rv $ | Stokes (1851) | Drag |
+| 507 | Bernoulli's principle | $ P + \frac{1}{2}\rho v^2 + \rho gh = \text{const} $ | Bernoulli (1738) | Fluid |
+| 508 | Reynolds number | $ Re = \frac{\rho vL}{\mu} $ | Reynolds (1883) | Flow regime |
+| 509 | Prandtl's boundary layer | $ \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0 $, $ u\frac{\partial u}{\partial x} + v\frac{\partial u}{\partial y} = -\frac{1}{\rho}\frac{\partial p}{\partial x} + \nu\frac{\partial^2 u}{\partial y^2} $ | Prandtl (1904) | Aerodynamics |
 
 ---
 
@@ -17192,21 +16777,17 @@ This is the **final compilation** — not infinite in principle, but as exhausti
 
 The algorithm Heritage uses to detect ALL these patterns:
 
-\[
-\boxed{\text{Pattern}(t) = \frac{1}{L}\int_{t-L}^{t} \mathbf{1}[ \|x(\tau) - x(\tau - \delta)\| > \theta ] d\tau}
-\]
+$$\boxed{\text{Pattern}(t) = \frac{1}{L}\int_{t-L}^{t} \mathbf{1}[ \|x(\tau) - x(\tau - \delta)\| > \theta ] d\tau}$$
 
 Where:
-- \( x(t) \) is the time series
-- \( L \) is the lookback window
-- \( \delta \) is the expected period
-- \( \theta \) is the detection threshold
+- $ x(t) $ is the time series
+- $ L $ is the lookback window
+- $ \delta $ is the expected period
+- $ \theta $ is the detection threshold
 
 And the **recurrence detection**:
 
-\[
-\boxed{R(i,j) = \mathbf{1}[\|x_i - x_j\| < \epsilon]}
-\]
+$$\boxed{R(i,j) = \mathbf{1}[\|x_i - x_j\| < \epsilon]}$$
 
 This single equation detects **all repeating patterns** in any time series, across any domain.
 
@@ -17297,21 +16878,7 @@ Pattern =
 
 Now translate into decision:
 
-\[
-\boxed{
-Action^* =
-\arg\min_{a \in \mathcal{A}}
-\Big[
-\underbrace{E(a)}_{\text{prediction error}}
-+
-\underbrace{C(a)}_{\text{cost / resource}}
-+
-\underbrace{I(a)}_{\text{instability / fragility}}
-+
-\underbrace{R(a)}_{\text{irreversibility}}
-\Big]
-}
-\]
+$$\boxed{ Action^* = \arg\min_{a \in \mathcal{A}} \Big[ \underbrace{E(a)}_{\text{prediction error}} + \underbrace{C(a)}_{\text{cost / resource}} + \underbrace{I(a)}_{\text{instability / fragility}} + \underbrace{R(a)}_{\text{irreversibility}} \Big] }$$
 
 subject to:
 

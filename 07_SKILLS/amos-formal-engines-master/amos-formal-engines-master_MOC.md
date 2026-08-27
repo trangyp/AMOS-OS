@@ -1,8 +1,15 @@
 ---
 title: "Amos-Formal-Engines-Master MOC"
 type: moc
-tags: [moc, amos-formal-engines-master]
+source: 07_SKILLS/amos-formal-engines-master
+tags: [moc, amos-formal-engines-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Formal-Engines-Master — Map of Content
 

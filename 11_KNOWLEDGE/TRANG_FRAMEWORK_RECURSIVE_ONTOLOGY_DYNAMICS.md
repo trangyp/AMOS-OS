@@ -1,5 +1,6 @@
 ---
 type: trang-framework
+source: 11_KNOWLEDGE
 id: TRA-RESEARCH-RECURSIVE-ONTOLOGY-DYNAMICS
 title: "Trang Framework — Recursive Ontology, Emergence, and Computable Survival Dynamics"
 origin_architect: "Trang Phan"
@@ -25,9 +26,14 @@ cross_links: "see body"
 epistemic_regime: "THEORETICAL_RESEARCH"
 scope: "cross-scale recursive systems modeling"
 freshness_policy: "REVALIDATE_ON_DEPENDENCY_CHANGE"
-tags: [knowledge, note]
-
+tags: [knowledge, note, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # Trang Framework — Recursive Ontology, Emergence, and Computable Survival Dynamics
 

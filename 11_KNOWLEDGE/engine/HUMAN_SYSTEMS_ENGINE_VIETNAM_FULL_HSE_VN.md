@@ -1,10 +1,16 @@
 ---
 title: "Human Systems Engine Vietnam — Full 4,412KB PDF (2,819 lines, 0 GAP)"
 type: engine
+source: 11_KNOWLEDGE/engine
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/_Archive/Human_Systems_Engine_(HSE)_VN.pdf"
 origin_type: "SOURCE"
-tags: [amos, hse, vietnam, human-systems-engine, archetype, cycle, risk, politic, 63-provinces, 27-archetypes, 16-factors, 7-cycles, 4-human-types, 33-tech-roles, 4-power-layers, 5-policy-layers, MECE, deterministic, AI-ready, engine]
+tags: [amos, hse, vietnam, human-systems-engine, archetype, cycle, risk, politic, 63-provinces, 27-archetypes, 16-factors, 7-cycles, 4-human-types, 33-tech-roles, 4-power-layers, 5-policy-layers, MECE, deterministic, AI-ready, engine, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
 
 
@@ -139,3 +145,6 @@ All files under `/_00_Cosmo brain/md/` with YAML frontmatter and SOURCE/DERIVED/
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

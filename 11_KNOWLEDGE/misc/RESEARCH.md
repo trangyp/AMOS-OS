@@ -1,16 +1,19 @@
 ---
 title: RESEARCH
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
 # Research
-## **🔷 1. Double Diamond Model (Exploration to Resolution)**
+## **1. Double Diamond Model (Exploration to Resolution)**
 * * *
 ```
     graph TD
@@ -46,7 +49,7 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-### **🧠 Diagram Logic Overview:**
+### **Diagram Logic Overview:**
 |              |
 | **Phase**    | **Focus**                                                  |
 |--------------|------------------------------------------------------------|
@@ -56,7 +59,7 @@ source: 11_KNOWLEDGE/misc
 | **Deliver**  |  Deploys deterministic infrastructure bound to biology     |
 
 
-### 🧠 Double Diamond – _Signal Economy Critical Lens_
+### Double Diamond – _Signal Economy Critical Lens_
 ```
     flowchart LR
         subgraph D1[Discover & Define]
@@ -130,7 +133,7 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-### 🧩 Purpose of Each Phase:
+### Purpose of Each Phase:
 |              |
 | Phase        | Scientific Framing                                                                                              |
 |--------------|-----------------------------------------------------------------------------------------------------------------|
@@ -141,7 +144,7 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## 🧭 2. **Multi-Perspective Table Deep Dive**
+## 2. **Multi-Perspective Table Deep Dive**
 |                                              |
 | **Perspective**                              | **Summary**                                                                                                                     | **Key Belief**                                                                                                      | **Risks or Antagonist View**                                                                                                                                                           |
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -151,7 +154,7 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## 🔁 3. **State Comparison Framework Deep Dive**
+## 3. **State Comparison Framework Deep Dive**
 |                          |
 | **Dimension**            | **Current Digital Infrastructure**                                                                           | **Signal Economy™ Infrastructure**                                                                                                               |
 |--------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|

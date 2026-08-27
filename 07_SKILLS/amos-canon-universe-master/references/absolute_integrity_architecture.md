@@ -1,8 +1,15 @@
 ---
 title: absolute integrity architecture
 type: reference
-tags: [reference, amos-canon-universe-master]
+source: 07_SKILLS/amos-canon-universe-master/references
+tags: [reference, amos-canon-universe-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Absolute Integrity Architecture Canonical Root
 
@@ -315,3 +322,7 @@ ol > li {
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

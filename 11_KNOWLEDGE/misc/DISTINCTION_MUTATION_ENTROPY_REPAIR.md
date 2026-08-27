@@ -1,8 +1,14 @@
 ---
 title: DISTINCTION MUTATION ENTROPY REPAIR
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: note
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
@@ -1240,7 +1246,6 @@ A module is loaded when:
 ExpectedDecisionImpact(module)
 
 
-
 ContextCost(module)
 ]
 
@@ -1322,7 +1327,6 @@ Switch from Farmer to Hunter when:
 AnomalyRate
 
 
-
 \theta_A
 ]
 
@@ -1334,7 +1338,6 @@ Urgency
 Impact
 
 
-
 \theta_W
 ]
 
@@ -1342,7 +1345,6 @@ Switch to Diplomat when:
 
 [
 CrossDomainConflict
-
 
 
 \theta_D
@@ -2159,7 +2161,6 @@ and the central integrity condition is:
 [
 \boxed{
 RepairCapacity
-
 
 
 UnresolvedDecisionRelevantEntropy

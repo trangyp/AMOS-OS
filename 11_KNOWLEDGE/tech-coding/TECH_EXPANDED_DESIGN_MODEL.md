@@ -3,10 +3,16 @@ title: "AMOS Tech Expanded Design Engine Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: brain-model
+source: 11_KNOWLEDGE/tech-coding
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/tech-expanded-design-model, tech-coding]
 status: "active"
 provenance: "AMOS_Tech_Expanded_Design_Engine_v0.json"
 confidence: "STRUCTURAL"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: tech_engineering
 ---
 
 

@@ -1,8 +1,15 @@
 ---
 title: "03 Control Planes MOC"
 type: moc
-tags: [moc, 03-control-planes]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES
+tags: [moc, 03-control-planes, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 03 Control Planes — Map of Content
 

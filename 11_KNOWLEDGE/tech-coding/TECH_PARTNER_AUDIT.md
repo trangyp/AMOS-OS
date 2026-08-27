@@ -1,12 +1,15 @@
 ---
 title: TECH PARTNER AUDIT
-tags: [tech-coding, tech, coding]
+tags: [tech-coding, tech, coding, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/tech-coding
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: tech_engineering
+
 ---
-
-
-
 
 
 # Tech Partner Audit

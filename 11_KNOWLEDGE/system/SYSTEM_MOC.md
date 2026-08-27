@@ -1,8 +1,15 @@
 ---
 title: "System MOC"
 type: moc
-tags: [moc, system]
+source: 11_KNOWLEDGE/system
+tags: [moc, system, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
 ---
+
 
 # System — Map of Content
 

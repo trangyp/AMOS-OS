@@ -1,8 +1,15 @@
 ---
 title: hydrogen powerful energy vector
 type: reference
-tags: [reference, amos-c12-earth-ecology-master]
+source: 07_SKILLS/amos-c12-earth-ecology-master/references
+tags: [reference, amos-c12-earth-ecology-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Hydrogen as Most Powerful Energy Vector
 
@@ -315,3 +322,7 @@ ol > li {
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,8 +1,15 @@
 ---
 title: "L07 Memory MOC"
 type: moc
-tags: [moc, l07-memory]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY
+tags: [moc, l07-memory, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L07 Memory — Map of Content
 

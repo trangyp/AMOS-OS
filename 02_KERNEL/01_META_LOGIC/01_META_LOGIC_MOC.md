@@ -1,8 +1,15 @@
 ---
 title: "01 Meta Logic MOC"
 type: moc
-tags: [moc, 01-meta-logic]
+source: 02_KERNEL/01_META_LOGIC
+tags: [moc, 01-meta-logic, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 01 Meta Logic — Map of Content
 

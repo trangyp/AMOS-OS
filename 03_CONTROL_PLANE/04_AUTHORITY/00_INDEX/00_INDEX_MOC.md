@@ -1,8 +1,15 @@
 ---
 title: "00 Index MOC"
 type: moc
-tags: [moc, 00-index]
+source: 03_CONTROL_PLANE/04_AUTHORITY/00_INDEX
+tags: [moc, 00-index, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
+
 
 # 00 Index — Map of Content
 

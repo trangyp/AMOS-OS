@@ -1,8 +1,15 @@
 ---
 title: "95 Constraint Solving Modes MOC"
 type: moc
-tags: [moc, 95-constraint-solving-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/95_CONSTRAINT_SOLVING_MODES
+tags: [moc, 95-constraint-solving-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 95 Constraint Solving Modes — Map of Content
 

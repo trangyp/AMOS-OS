@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-knowledge-research-master]
+source: 07_SKILLS/amos-knowledge-research-master
+tags: [note, amos-knowledge-research-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-knowledge-research-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS Knowledge & Research Master. Consolidates 143 sub-s
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-knowledge-research-master_MOC]]

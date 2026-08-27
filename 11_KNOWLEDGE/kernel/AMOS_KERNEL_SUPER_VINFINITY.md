@@ -1,15 +1,20 @@
 ---
 title: AMOS KERNEL SUPER VINFINITY
 type: kernel
+source: 11_KNOWLEDGE/kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-kernel-super-vinfinity
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-kernel-super-vinfinity, kernel]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
-
-
+# AMOS KERNEL SUPER VINFINITY
 
 ```json
 {

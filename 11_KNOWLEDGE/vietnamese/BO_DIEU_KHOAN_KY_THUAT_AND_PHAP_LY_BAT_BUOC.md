@@ -1,12 +1,15 @@
 ---
 title: BO DIEU KHOAN KY THUAT AND PHAP LY BAT BUOC
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # **BỘ ĐIỀU KHOẢN KỸ THUẬT & PHÁP LÝ BẮT BUỘC**

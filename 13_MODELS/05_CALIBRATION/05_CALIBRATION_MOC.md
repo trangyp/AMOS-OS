@@ -1,8 +1,15 @@
 ---
 title: "05 Calibration MOC"
 type: moc
-tags: [moc, 05-calibration]
+source: 13_MODELS/05_CALIBRATION
+tags: [moc, 05-calibration, canon/model]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 05 Calibration — Map of Content
 

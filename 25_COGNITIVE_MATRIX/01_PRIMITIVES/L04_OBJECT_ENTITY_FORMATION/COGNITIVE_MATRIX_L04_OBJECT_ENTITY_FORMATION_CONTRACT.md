@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L04 OBJECT ENTITY FORMATION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, primitives, l04_object_entity_formation, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
+tags: [cognitive_matrix, primitives, l04_object_entity_formation, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L04_OBJECT_ENTITY_FORMATION — Object/entity formation Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L04_OBJECT_ENTITY_FORMATION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

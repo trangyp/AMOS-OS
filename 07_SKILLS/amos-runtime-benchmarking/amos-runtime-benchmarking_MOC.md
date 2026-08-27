@@ -1,8 +1,15 @@
 ---
 title: "Amos-Runtime-Benchmarking MOC"
 type: moc
-tags: [moc, amos-runtime-benchmarking]
+source: 07_SKILLS/amos-runtime-benchmarking
+tags: [moc, amos-runtime-benchmarking, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Runtime-Benchmarking — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: "98 Delegation Assignment Modes MOC"
 type: moc
-tags: [moc, 98-delegation-assignment-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/98_DELEGATION_ASSIGNMENT_MODES
+tags: [moc, 98-delegation-assignment-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 98 Delegation Assignment Modes — Map of Content
 

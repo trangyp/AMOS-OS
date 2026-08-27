@@ -1,8 +1,15 @@
 ---
 title: "22 Research MOC"
 type: moc
-tags: [moc, 22-research]
+source: 22_RESEARCH
+tags: [moc, 22-research, canon/research]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 22 Research — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: personality engine layer
 type: reference
-tags: [reference, amos-c05-mind-behavior-master]
+source: 07_SKILLS/amos-c05-mind-behavior-master/references
+tags: [reference, amos-c05-mind-behavior-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Personality Engine Layer
 
@@ -108,4 +115,5 @@ Created by Trang Phan, architect of Universal Reasoning Kernel (URK), AMOS Core 
 - `engine/A/AMOS_Consciousness_Engine_v0_Core7.md` — companion consciousness engine
 
 ---
+- [[07_SKILLS_MOC]]
 **MOC:** [[references_MOC]]

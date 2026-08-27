@@ -1,6 +1,7 @@
 ---
 title: K MEMORY CONFLICT
 type: memory
+source: 02_KERNEL/05_MEMORY
 artifact_id: AMOS-OS-K-MEMORY-CONFLICT
 canonical_name: K_MEMORY_CONFLICT
 artifact_type: kernel_memory_conflict_contract
@@ -14,10 +15,13 @@ kernel_family: MEMORY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags: [amos-os, kernel, core, canon-group/tech-ai, kernel/memory, kernel/memory-conflict, kernel/contradiction, kernel/provenance, kernel/epistemics, kernel/dependency, kernel/recovery, rscf/conflict, rscf/provenance, topic/memory, topic/conflict, topic/competing-hypotheses, topic/invalidation, topic/supersession, topic/provenance-topology]
+tags: [amos-os, kernel, core, canon-group/tech-ai, kernel/memory, kernel/memory-conflict, kernel/contradiction, kernel/provenance, kernel/epistemics, kernel/dependency, kernel/recovery, rscf/conflict, rscf/provenance, topic/memory, topic/conflict, topic/competing-hypotheses, topic/invalidation, topic/supersession, topic/provenance-topology, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
-
 
 
 # K MEMORY CONFLICT

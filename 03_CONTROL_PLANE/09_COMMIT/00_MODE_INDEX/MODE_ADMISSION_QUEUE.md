@@ -1,14 +1,17 @@
 ---
 title: MODE ADMISSION QUEUE
 type: note
-tags: [control_plane, commit, mode_index, note]
+source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
+tags: [control_plane, commit, mode_index, note, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
-
 `MODE_ADMISSION_QUEUE.md` currently contains only a generic README placeholder, so there is no substantive existing file to reproduce verbatim.  There is, however, a related AMOS structural placeholder for `25_CANON_ADMISSION_MODE.md` whose required contract explicitly calls for candidate/schema/provenance/contradiction/scope/authority/admitted/rejected state, transition graphs, entry/exit conditions, provenance, RSCF/GMEF, H/M/L, event bus, MVCC/read-set dependencies, observability, repair, tests, and supersession. 
-
-Below is a **full substantive candidate replacement** for `MODE_ADMISSION_QUEUE.md`. It should remain `CANDIDATE_CANON / DERIVED` until the governed canon/provenance process promotes it.
 
 ---
 artifact_id: AMOS-OS-MODE-ADMISSION-QUEUE
@@ -4156,7 +4159,7 @@ PRESERVED.
 
 ```
 
-The main provenance limit is important: this specification is **derived from AMOS v4.4 governance principles plus the related `25_CANON_ADMISSION_MODE` contract slots**, not recovered verbatim from the existing `MODE_ADMISSION_QUEUE.md`, because that file currently contains only a placeholder. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+The main provenance limit is important: this specification is **derived from AMOS v4.4 governance principles plus the related `25_CANON_ADMISSION_MODE` contract slots**, not recovered verbatim from the existing `MODE_ADMISSION_QUEUE.md`, because that file currently contains only a placeholder.
 ```
 
 ---

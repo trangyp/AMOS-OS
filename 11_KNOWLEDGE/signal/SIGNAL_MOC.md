@@ -1,8 +1,15 @@
 ---
 title: "Signal MOC"
 type: moc
-tags: [moc, signal]
+source: 11_KNOWLEDGE/signal
+tags: [moc, signal, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # Signal — Map of Content
 

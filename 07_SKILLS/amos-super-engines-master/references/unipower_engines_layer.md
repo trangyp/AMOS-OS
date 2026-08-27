@@ -1,8 +1,15 @@
 ---
 title: unipower engines layer
 type: reference
-tags: [reference, amos-super-engines-master]
+source: 07_SKILLS/amos-super-engines-master/references
+tags: [reference, amos-super-engines-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Unipower Engines Layer
 
@@ -193,4 +200,5 @@ Each Unipower engine maps to the AMOS omni-logic and can be orchestrated by the 
 - `_00_Cosmo brain/engine/A/AMOS Super Engines.md` — 5 Super Engines that unify all layers
 
 ---
+- [[07_SKILLS_MOC]]
 **MOC:** [[references_MOC]]

@@ -1,12 +1,15 @@
 ---
 title: TAI SAO NANG LUONG CHUA LANH SHAMAN LAI MANH
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # TẠI SAO “NĂNG LƯỢNG – CHỮA LÀNH – SHAMAN” LẠI MẠNH HƠN TÔN GIÁO THUẦN TÚY?

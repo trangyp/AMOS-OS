@@ -1,13 +1,20 @@
 ---
 title: 7 CULTURE
 type: note
+source: 11_KNOWLEDGE/misc
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: 7-culture
 tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/7-culture, misc]
 created: 2026-08-22
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 7 CULTURE
 

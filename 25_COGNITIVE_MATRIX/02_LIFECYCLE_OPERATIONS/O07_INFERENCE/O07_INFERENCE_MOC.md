@@ -1,8 +1,15 @@
 ---
 title: "O07 Inference MOC"
 type: moc
-tags: [moc, o07-inference]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O07_INFERENCE
+tags: [moc, o07-inference, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # O07 Inference — Map of Content
 

@@ -1,9 +1,14 @@
 ---
 title: COMPARISON BENCHMARK MODES COMMIT CONTROL PLANE README
 type: control-plane
-tags: [control_plane, 92_comparison_benchmark_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/92_COMPARISON_BENCHMARK_MODES
+tags: [control_plane, 92_comparison_benchmark_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # COMPARISON BENCHMARK MODES COMMIT CONTROL PLANE README
@@ -61,3 +66,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[92_COMPARISON_BENCHMARK_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

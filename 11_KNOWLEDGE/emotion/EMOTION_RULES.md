@@ -1,13 +1,16 @@
 ---
 title: EMOTION RULES
-tags: [emotion, affect, mind]
+tags: [emotion, affect, mind, canon/knowledge]
 type: data
 source: 11_KNOWLEDGE/emotion
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: emotion_model
+
 ---
-
-
-
-
+# EMOTION RULES
 
 ```json
 {

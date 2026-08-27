@@ -1,8 +1,15 @@
 ---
 title: omega biology implementation
 type: reference
-tags: [reference, amos-c04-bio-neuro-master]
+source: 07_SKILLS/amos-c04-bio-neuro-master/references
+tags: [reference, amos-c04-bio-neuro-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Omega Biology Implementation Complete
 
@@ -20,7 +27,7 @@ tags: [reports]
 **SYSTEM ID**: c66d1037545def14  
 **MODE**: STRUCTURAL • INVARIANT-FIRST • PROOF-OR-HYPOTHESIS • NO VIBES • NO UNSOURCED CLAIMS
 
-### ✅ HARD GATES SATISFIED
+### HARD GATES SATISFIED
 
 **B0 NO UNSOURCED FACT**: All claims sourced or marked HYP-
 - Gibbs free energy: NCBI Bookshelf verification
@@ -56,7 +63,7 @@ tags: [reports]
 - Selection loop: p_i(t+1) = (w_i * p_i(t)) / ȳ
 - Resource constraints included
 
-### ✅ CORE STRUCTURAL PRIMITIVES IMPLEMENTED
+### CORE STRUCTURAL PRIMITIVES IMPLEMENTED
 
 **ENERGY/THERMODYNAMICS**
 - ΔG: Gibbs free energy change (PROVEN, NCBI verified)
@@ -84,7 +91,7 @@ tags: [reports]
 - Falsification: Temperature dependence protocol
 - Measurable: 2D electronic spectroscopy oscillations
 
-### ✅ CROSS-SCALE INVARIANTS FORMALIZED
+### CROSS-SCALE INVARIANTS FORMALIZED
 
 **1) ENERGY FLOW INVARIANT**
 ```
@@ -135,9 +142,13 @@ R_depletion > R_regeneration + R_substitution → instability
 Scale: Civilisation | Status: HYP
 ```
 
-### ✅ QUANTUM BIOLOGY MODULE
+### QUANTUM BIOLOGY MODULE
 
 **REGI
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

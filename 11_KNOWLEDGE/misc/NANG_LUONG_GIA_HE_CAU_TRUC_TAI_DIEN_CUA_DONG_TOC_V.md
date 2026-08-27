@@ -1,12 +1,15 @@
 ---
 title: NANG LUONG GIA HE CAU TRUC TAI DIEN CUA DONG TOC V
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # NĂNG LƯỢNG GIA HỆ: CẤU TRÚC TÁI DIỄN CỦA DÒNG TỘC VIỆT QUA CHIỀU SÂU LỊCH SỬ VÀ VŨ TRỤ

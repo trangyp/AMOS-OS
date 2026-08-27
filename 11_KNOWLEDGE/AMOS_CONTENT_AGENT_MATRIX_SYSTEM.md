@@ -1,8 +1,15 @@
 ---
 title: "AMOS Content Agent Matrix — Governed Multi-Agent Content Operating System"
 type: agent
+source: 11_KNOWLEDGE
 tags: [agents, knowledge, vault, canon-group/tech-ai, canon/framework, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/content-agent, topic/content-matrix, topic/multi-agent, topic/content-marketing, topic/orchestration]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # AMOS Content Agent Matrix
 ## Governed Multi-Agent Content Operating System
@@ -2951,8 +2958,6 @@ The third rule is:
 **Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · AMOS_AGENT_SCHEMA_FULL · AMOS_AGENT_TEMPLATES · AMOS_AGENT_ONBOARDING_GUIDE · system_scan_agent · automation_profiles
 
 ```
-
-:contentReference[oaicite:0]{index=0}
 ```
 
 ---

@@ -1,14 +1,4 @@
 ---
-title: AMOS X NEUROSYNCAI MATRIX
-type: note
-tags: [note, 25-cognitive-matrix]
----
-
-
-Below is the **full-depth Markdown replacement** for `AMOS_X_NEUROSYNCAI_MATRIX.md`, built from the native Drive NeuroSyncAI source family rather than from the placeholder. The two principal sources establish the dual-system biological architecture, four UBI domains, deterministic detection/reflection/enforcement loop, fixed-output/no-learning claims, five-tier certifiable-intelligence stack, nine operational principles—including the previously missing ninth principle, **Self-Auditing Before Output**—and the biological analogies attached to those structures.  
-
-````markdown
----
 title: "AMOS × NeuroSyncAI Matrix"
 artifact: "AMOS_X_NEUROSYNCAI_MATRIX.md"
 artifact_id: "amos_25_cognitive_matrix_amos_x_neurosyncai_matrix"
@@ -22,8 +12,7 @@ segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "MATRIX"
 path: "25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI_MATRIX.md"
 
-tags:
-  - amos_os
+tags: [- amos_os, canon/cognitive-matrix]
   - 25_cognitive_matrix
   - cognitive_matrix
   - matrix
@@ -82,7 +71,15 @@ epistemic_boundary:
   runtime_determinism: "NOT_ESTABLISHED"
   certification: "NOT_ESTABLISHED"
   deployment: "NOT_ESTABLISHED"
+type: document
+source: 25_COGNITIVE_MATRIX
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # AMOS × NeuroSyncAI Matrix
 
@@ -219,29 +216,7 @@ UNKNOWN/GAP != PASS
 
 AMOS represents the NeuroSyncAI matrix as:
 
-$$
-\mathfrak{N}
-=
-D
-\times
-F
-\times
-T
-\times
-P
-\times
-C
-\times
-S
-\times
-E
-\times
-R
-\times
-A
-\times
-\tau
-$$
+$$\mathfrak{N} = D \times F \times T \times P \times C \times S \times E \times R \times A \times \tau$$
 
 where:
 
@@ -279,24 +254,7 @@ one biological domain
 
 Conceptually:
 
-$$
-\mathcal N
-=
-\langle
-\mathbb D,
-\mathbb F,
-\mathbb T,
-\mathbb P,
-\mathbb X,
-\mathbb O,
-\mathbb I,
-\mathbb G,
-\mathbb E,
-\mathbb A,
-\mathbb V,
-\mathbb R
-\rangle
-$$
+$$\mathcal N = \langle \mathbb D, \mathbb F, \mathbb T, \mathbb P, \mathbb X, \mathbb O, \mathbb I, \mathbb G, \mathbb E, \mathbb A, \mathbb V, \mathbb R \rangle$$
 
 with:
 
@@ -395,14 +353,7 @@ F2 = REFLECTION + ENFORCEMENT MODEL
 
 Formally:
 
-$$
-\mathbb F
-=
-\{
-F_D,
-F_{RE}
-\}
-$$
+$$\mathbb F = \{ F_D, F_{RE} \}$$
 
 ---
 
@@ -432,12 +383,7 @@ Health/clinical validity is not inferred from their presence in the architecture
 
 Conceptually:
 
-$$
-\mathcal D:
-O_t
-\rightarrow
-\hat X_t
-$$
+$$\mathcal D: O_t \rightarrow \hat X_t$$
 
 where:
 
@@ -448,9 +394,7 @@ X̂_t = estimated system state
 
 Critical firewall:
 
-$$
-\hat X_t \neq X_t^{true}
-$$
+$$\hat X_t \neq X_t^{true}$$
 
 An estimated state is not ground truth.
 
@@ -580,16 +524,7 @@ The stronger the effect, the stronger the required validation.
 
 Conceptually:
 
-$$
-\mathcal R:
-\hat X_t
-\times
-G_t
-\times
-I_t
-\rightarrow
-Y_t
-$$
+$$\mathcal R: \hat X_t \times G_t \times I_t \rightarrow Y_t$$
 
 where:
 
@@ -614,17 +549,7 @@ until authorized.
 
 Conceptually:
 
-$$
-\mathcal E:
-(Y_t,X_t,A_t,V_t)
-\rightarrow
-\{
-COMMIT,
-HOLD,
-REJECT,
-UNKNOWN
-\}
-$$
+$$\mathcal E: (Y_t,X_t,A_t,V_t) \rightarrow \{ COMMIT, HOLD, REJECT, UNKNOWN \}$$
 
 where:
 
@@ -718,16 +643,7 @@ No loop may continue indefinitely merely because the target state was not reache
 
 The source defines four UBI domains:
 
-$$
-\mathbb D
-=
-\{
-D_{NB},
-D_{NE},
-D_S,
-D_{BE}
-\}
-$$
+$$\mathbb D = \{ D_{NB}, D_{NE}, D_S, D_{BE} \}$$
 
 with:
 
@@ -744,16 +660,7 @@ D_BE = Bioelectromagnetic
 
 AMOS representation:
 
-$$
-X_t^{UBI}
-=
-\begin{bmatrix}
-N_b(t)\\
-N_e(t)\\
-S_o(t)\\
-B_e(t)
-\end{bmatrix}
-$$
+$$X_t^{UBI} = \begin{bmatrix} N_b(t)\\ N_e(t)\\ S_o(t)\\ B_e(t) \end{bmatrix}$$
 
 This is a structural normalization.
 
@@ -969,24 +876,11 @@ The source treats failures as capable of cascading across domains.
 
 AMOS represents coupling as:
 
-$$
-K_D
-=
-\begin{bmatrix}
-k_{11}&k_{12}&k_{13}&k_{14}\\
-k_{21}&k_{22}&k_{23}&k_{24}\\
-k_{31}&k_{32}&k_{33}&k_{34}\\
-k_{41}&k_{42}&k_{43}&k_{44}
-\end{bmatrix}
-$$
+$$K_D = \begin{bmatrix} k_{11}&k_{12}&k_{13}&k_{14}\\ k_{21}&k_{22}&k_{23}&k_{24}\\ k_{31}&k_{32}&k_{33}&k_{34}\\ k_{41}&k_{42}&k_{43}&k_{44} \end{bmatrix}$$
 
 where:
 
-$$
-k_{ij}
-=
-influence(D_i,D_j)
-$$
+$$k_{ij} = influence(D_i,D_j)$$
 
 Current epistemic status:
 
@@ -1050,13 +944,7 @@ No single architecture explanation is forced without discriminating evidence.
 
 The certifiable-intelligence source defines:
 
-$$
-\mathbb T
-=
-\{
-T_1,T_2,T_3,T_4,T_5
-\}
-$$
+$$\mathbb T = \{ T_1,T_2,T_3,T_4,T_5 \}$$
 
 where:
 
@@ -1159,19 +1047,11 @@ IdentityState:
 
 # 34. Identity Invariant
 
-$$
-Output
-\subseteq
-AllowedScope(Identity)
-$$
+$$Output \subseteq AllowedScope(Identity)$$
 
 but:
 
-$$
-AllowedScope
-\neq
-Authorization
-$$
+$$AllowedScope \neq Authorization$$
 
 Authorization remains separately required.
 
@@ -1309,9 +1189,7 @@ task-memory anchoring
 
 AMOS normalization:
 
-$$
-G_L=(V,E)
-$$
+$$G_L=(V,E)$$
 
 where:
 
@@ -1326,16 +1204,11 @@ A conclusion is valid only if its load-bearing subgraph is valid.
 
 # 41. Dependency Closure
 
-For conclusion \(C\):
+For conclusion $C$:
 
-$$
-Closure(C)
-=
-\{p_i:
-p_i \leadsto C\}
-$$
+$$Closure(C) = \{p_i: p_i \leadsto C\}$$
 
-Validation should traverse the smallest closure capable of changing \(C\).
+Validation should traverse the smallest closure capable of changing $C$.
 
 This prevents unnecessary global recomputation.
 
@@ -1436,20 +1309,7 @@ task finality
 
 # 46. Structural Audit Vector
 
-$$
-A_v
-=
-[
-P,
-I,
-M,
-L,
-T,
-O,
-S,
-R
-]
-$$
+$$A_v = [ P, I, M, L, T, O, S, R ]$$
 
 AMOS normalization:
 
@@ -1610,13 +1470,7 @@ falsifiers
 
 The certifiable-intelligence source defines nine internal principles.
 
-$$
-\mathbb P
-=
-\{
-P_1,\ldots,P_9
-\}
-$$
+$$\mathbb P = \{ P_1,\ldots,P_9 \}$$
 
 ---
 
@@ -1967,20 +1821,7 @@ NeuroSyncCell:
 
 NeuroSyncAI can be represented as:
 
-$$
-X_t
-=
-(
-D_t,
-I_t,
-M_t,
-L_t,
-T_t,
-A_t,
-P_t,
-G_t
-)
-$$
+$$X_t = ( D_t, I_t, M_t, L_t, T_t, A_t, P_t, G_t )$$
 
 where:
 
@@ -1999,19 +1840,7 @@ G = governance state
 
 # 69. State Transition Function
 
-$$
-X_{t+1}
-=
-\mathcal T(
-X_t,
-O_t,
-M_t,
-I_t,
-R_t,
-A_t,
-E_t
-)
-$$
+$$X_{t+1} = \mathcal T( X_t, O_t, M_t, I_t, R_t, A_t, E_t )$$
 
 where:
 
@@ -2030,26 +1859,11 @@ Transition is valid only if invariants pass.
 
 # 70. Transition Invariant
 
-$$
-Valid(X_{t+1})
-=
-I_{logic}
-\land
-I_{identity}
-\land
-I_{provenance}
-\land
-I_{scope}
-\land
-I_{authority}
-$$
+$$Valid(X_{t+1}) = I_{logic} \land I_{identity} \land I_{provenance} \land I_{scope} \land I_{authority}$$
 
 If false:
 
-$$
-X_{t+1}
-\neq COMMIT
-$$
+$$X_{t+1} \neq COMMIT$$
 
 ---
 
@@ -2122,15 +1936,7 @@ PersistentMemory:
 
 Conceptually:
 
-$$
-T_{IMT}
-=
-I
-\times
-M
-\times
-T
-$$
+$$T_{IMT} = I \times M \times T$$
 
 The system should not finalize if these are materially incompatible.
 
@@ -2151,9 +1957,7 @@ Example:
 
 NeuroSyncAI matrix evidence is stored as a graph.
 
-$$
-G_P=(V_P,E_P)
-$$
+$$G_P=(V_P,E_P)$$
 
 Nodes may be:
 
@@ -2492,14 +2296,7 @@ NO DRIFT
 
 # 90. Drift Detection
 
-$$
-Drift_t
-=
-distance(
-State_{baseline},
-State_t
-)
-$$
+$$Drift_t = distance( State_{baseline}, State_t )$$
 
 Exact distance metric depends on state type.
 
@@ -2595,17 +2392,7 @@ NeuroSyncAI source identity governance is not sufficient for AMOS authorization.
 
 AMOS requires:
 
-$$
-Authorized
-=
-Capability
-\land
-Authority
-\land
-Scope
-\land
-EpochValidity
-$$
+$$Authorized = Capability \land Authority \land Scope \land EpochValidity$$
 
 ---
 
@@ -2686,16 +2473,7 @@ A model may generate a candidate result without authority to execute it.
 
 A four-domain conclusion should use a consistent snapshot when domain interaction matters.
 
-$$
-Snapshot_t
-=
-(
-D_{NB,t},
-D_{NE,t},
-D_{S,t},
-D_{BE,t}
-)
-$$
+$$Snapshot_t = ( D_{NB,t}, D_{NE,t}, D_{S,t}, D_{BE,t} )$$
 
 Avoid:
 
@@ -2868,13 +2646,9 @@ These are AMOS-level regime examples, not native canon labels unless source-defi
 
 If:
 
-$$
-R_t
-\neq
-R_{t+1}
-$$
+$$R_t \neq R_{t+1}$$
 
-then conclusions dependent on \(R_t\) require revalidation.
+then conclusions dependent on $R_t$ require revalidation.
 
 ---
 
@@ -3515,13 +3289,9 @@ ProofCapsule:
 
 # 133. Confidence Ceiling Rule
 
-$$
-C(C)
-\le
-\min_i C(P_i)
-$$
+$$C(C) \le \min_i C(P_i)$$
 
-for load-bearing premises \(P_i\), unless independent revalidation exists.
+for load-bearing premises $P_i$, unless independent revalidation exists.
 
 Example:
 
@@ -3622,21 +3392,7 @@ It may mean the effective system input was not identical.
 
 Therefore define:
 
-$$
-Input_{effective}
-=
-UserInput
-+
-Memory
-+
-Identity
-+
-Config
-+
-Version
-+
-Environment
-$$
+$$Input_{effective} = UserInput + Memory + Identity + Config + Version + Environment$$
 
 ---
 
@@ -3644,11 +3400,7 @@ $$
 
 Only claim strict reproducibility when:
 
-$$
-Input_{effective}^{(1)}
-=
-Input_{effective}^{(2)}
-$$
+$$Input_{effective}^{(1)} = Input_{effective}^{(2)}$$
 
 within specified scope.
 
@@ -4471,9 +4223,9 @@ RSCF-RELATIONS:
 
 ```
 
-A material correction from the earlier draft: **P9 is no longer a gap.** The source explicitly names it **“Self-Auditing Before Output”** and says every response must pass an internal compliance check before delivery; its own summary associates principle 9 with preventing non-compliant or misaligned output. :contentReference[oaicite:4]{index=4}  
+A material correction from the earlier draft: **P9 is no longer a gap.** The source explicitly names it **“Self-Auditing Before Output”** and says every response must pass an internal compliance check before delivery; its own summary associates principle 9 with preventing non-compliant or misaligned output.  
 
-The source also explicitly describes the five tiers as Interface Infrastructure, Trainer Identity Embedding, Internal System Logic, Structural Audit Layer, and Metacognitive Loop™, with biological analogies and claimed failure modes each tier is meant to address. :contentReference[oaicite:7]{index=7} The separate dual-system source defines the four UBI domains and the detection → reflection → structurally aligned output → reject compensation/noise → reassess → repeat loop. :contentReference[oaicite:8]{index=8}
+The source also explicitly describes the five tiers as Interface Infrastructure, Trainer Identity Embedding, Internal System Logic, Structural Audit Layer, and Metacognitive Loop™, with biological analogies and claimed failure modes each tier is meant to address. The separate dual-system source defines the four UBI domains and the detection → reflection → structurally aligned output → reject compensation/noise → reassess → repeat loop.
 ```
 
 ---

@@ -1,9 +1,14 @@
 ---
 title: RESEARCH EXPERIMENTS CONTRACT
 type: research
-tags: [amos_os, 22_research]
+source: 22_RESEARCH/02_EXPERIMENTS
+tags: [amos_os, 22_research, canon/research]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # RESEARCH EXPERIMENTS CONTRACT

@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-budget-aware-optimizer-selection-rscf-engine]
+source: 07_SKILLS/amos-budget-aware-optimizer-selection-rscf-engine/references
+tags: [reference, amos-budget-aware-optimizer-selection-rscf-engine, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -194,3 +201,7 @@ coherence, entropy load, repair capacity, mutation potential, boundary integrity
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

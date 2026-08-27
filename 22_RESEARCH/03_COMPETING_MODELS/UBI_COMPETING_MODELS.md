@@ -1,6 +1,7 @@
 ---
 title: "UBI Competing Models"
 type: model
+source: 22_RESEARCH/03_COMPETING_MODELS
 artifact: "UBI_COMPETING_MODELS.md"
 artifact_id: "amos_22_research_03_competing_models_ubi_competing_models"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "22_RESEARCH/03_COMPETING_MODELS"
 artifact_kind: "MODEL"
 path: "22_RESEARCH/03_COMPETING_MODELS/UBI_COMPETING_MODELS.md"
 
-tags: [amos_os, research, arxiv, 22_research, model, canon_placeholder, rscf]
+tags: [amos_os, research, arxiv, 22_research, model, canon_placeholder, rscf, canon/research]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # UBI Competing Models

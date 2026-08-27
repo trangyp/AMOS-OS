@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, mckinsey-enterprise-data-transformation-rscf]
+source: 07_SKILLS/mckinsey-enterprise-data-transformation-rscf/references
+tags: [reference, mckinsey-enterprise-data-transformation-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -215,3 +222,7 @@ The `test_completion.py` seed counts updated to:
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

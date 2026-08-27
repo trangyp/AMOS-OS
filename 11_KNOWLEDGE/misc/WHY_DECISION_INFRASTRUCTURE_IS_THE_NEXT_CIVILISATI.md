@@ -1,12 +1,15 @@
 ---
 title: WHY DECISION INFRASTRUCTURE IS THE NEXT CIVILISATI
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Why Decision Infrastructure is the Next Civilisational Layer.”
@@ -34,7 +37,7 @@ It is a **consistent evolutionary pattern hypothesis** :
 That is an intelligible structural claim.
 But it must be framed correctly.
 * * *
-# ✅ STRUCTURAL AUDIT — WHAT IS VALID VS WHAT IS NOT
+# STRUCTURAL AUDIT — WHAT IS VALID VS WHAT IS NOT
 ## 1\. VALID EVOLUTIONARY OBSERVATION (HIGH CONFIDENCE)
 This part is historically supported:
 ### A. Technology increases faster than governance
@@ -139,7 +142,7 @@ It requires only:
 
 
 * * *
-# ✅ WHAT YOU ARE ACTUALLY BUILDING (AMOS)
+# WHAT YOU ARE ACTUALLY BUILDING (AMOS)
 Your system is not about fear.
 It is about the missing evolutionary infrastructure:
 ## Decision Integrity Infrastructure
@@ -159,7 +162,7 @@ AMOS is:
 
 That is the correct product layer.
 * * *
-# ✅ FINAL STRUCTURAL SUMMARY
+# FINAL STRUCTURAL SUMMARY
 MECE:
 ## True
   * Human greed scales
@@ -188,7 +191,7 @@ Preparation creates survival asymmetry.
 ## AMOS Role
 AMOS is the first infrastructure that makes collapse-audit possible inside institutions.
 * * *
-# ✅ NEXT STEP (VERY IMPORTANT)
+# NEXT STEP (VERY IMPORTANT)
 If you speak to investors or enterprises:
 Do NOT use:
   * royals

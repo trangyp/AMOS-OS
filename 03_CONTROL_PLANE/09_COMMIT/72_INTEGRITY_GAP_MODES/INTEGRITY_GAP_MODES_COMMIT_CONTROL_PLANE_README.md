@@ -1,9 +1,14 @@
 ---
 title: INTEGRITY GAP MODES COMMIT CONTROL PLANE README
 type: gap
-tags: [control_plane, 72_integrity_gap_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/72_INTEGRITY_GAP_MODES
+tags: [control_plane, 72_integrity_gap_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # INTEGRITY GAP MODES COMMIT CONTROL PLANE README
@@ -61,3 +66,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[72_INTEGRITY_GAP_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

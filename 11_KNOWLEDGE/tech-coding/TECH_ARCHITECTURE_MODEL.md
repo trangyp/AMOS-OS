@@ -1,10 +1,15 @@
 ---
 title: TECH ARCHITECTURE MODEL
 type: architecture
+source: 11_KNOWLEDGE/tech-coding
 aliases: [Tech Architecture Kernel, AMOS_Tech_Architecture, Tech Kernel]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/tech-architecture-model, tech-coding]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: tech_engineering
 ---
-
 
 
 # AMOS Tech Architecture Kernel

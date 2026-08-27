@@ -1,8 +1,15 @@
 ---
 title: "10 Epistemic Modes MOC"
 type: moc
-tags: [moc, 10-epistemic-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/10_EPISTEMIC_MODES
+tags: [moc, 10-epistemic-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 10 Epistemic Modes — Map of Content
 

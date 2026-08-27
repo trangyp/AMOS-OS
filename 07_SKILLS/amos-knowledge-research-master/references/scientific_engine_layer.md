@@ -1,8 +1,15 @@
 ---
 title: scientific engine layer
 type: reference
-tags: [reference, amos-knowledge-research-master]
+source: 07_SKILLS/amos-knowledge-research-master/references
+tags: [reference, amos-knowledge-research-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Scientific Engine Layer
 
@@ -26,3 +33,7 @@ Target: `amos-scientific-engine-layer`
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

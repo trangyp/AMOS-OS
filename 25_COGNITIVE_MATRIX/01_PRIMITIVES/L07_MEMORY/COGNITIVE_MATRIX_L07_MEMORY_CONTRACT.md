@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L07 MEMORY CONTRACT
 type: memory
-tags: [cognitive_matrix, primitives, l07_memory, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY
+tags: [cognitive_matrix, primitives, l07_memory, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L07_MEMORY — Memory Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L07_MEMORY_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,8 +1,15 @@
 ---
 title: "00 Legacy MOC"
 type: moc
-tags: [moc, 00-legacy]
+source: 24_ARCHIVE/00_LEGACY
+tags: [moc, 00-legacy, canon/archive]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 00 Legacy — Map of Content
 

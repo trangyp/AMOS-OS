@@ -1,15 +1,20 @@
 ---
 title: AMOS OMNIVERSE BRAIN CORE
 type: brain
+source: 11_KNOWLEDGE/brain
 canon-group: tech-ai
 canon-type: os-module
 rscf-state: source-claim
 topic: amos-omniverse-brain
 tags: [canon-group/tech-ai, canon/os-module, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-omniverse-brain, brain]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
 ---
-
-
+# AMOS OMNIVERSE BRAIN CORE
 
 ```json
 {

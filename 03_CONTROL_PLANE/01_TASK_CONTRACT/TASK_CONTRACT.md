@@ -1,63 +1,15 @@
 ---
 title: TASK CONTRACT
 type: task
-tags: [control_plane, task_contract, contract]
+source: 03_CONTROL_PLANE/01_TASK_CONTRACT
+tags: [control_plane, task_contract, contract, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-
-
-Confirmed: the current Drive `TASK_CONTRACT.md` is only a **275-byte erroneous placeholder** containing `# K COUNTERFACTUAL`; it has no actual Task Contract specification.  
-
-Below is the substantive replacement for:
-
-`03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT.md`
-
----
-artifact_id: AMOS-OS-CP-TASK-CONTRACT
-title: AMOS OS Task Contract
-canonical_name: TASK_CONTRACT
-
-artifact_class: CONTROL_PLANE_CONTRACT
-plane: CONTROL_PLANE
-subsystem: TASK_CONTRACT
-canonical_location: 03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT.md
-
-origin_architect: Trang Phan
-amos_core_target: v4.4
-
-status: CANDIDATE_CANON
-conclusion_class: DERIVED
-
-parent:
-  - 03_CONTROL_PLANE
-
-siblings:
-  - TASK_RESOLVER.md
-
-upstream:
-  - 00_ROOT
-  - 01_CANON
-  - 02_KERNEL
-  - 03_CONTROL_PLANE/00_INDEX/README.md
-  - 03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md
-
-downstream:
-  - 03_CONTROL_PLANE/02_CAPABILITY
-  - 03_CONTROL_PLANE/03_POLICY
-  - 03_CONTROL_PLANE/04_AUTHORITY
-  - 03_CONTROL_PLANE/05_PROVENANCE
-  - 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
-  - 03_CONTROL_PLANE/07_OBSERVABILITY
-  - 03_CONTROL_PLANE/08_EFFECTS
-  - 03_CONTROL_PLANE/09_COMMIT
-  - 04_RUNTIME
-
-implementation_status: SPECIFICATION
-empirical_validation_status: NOT_CLAIMED
-formal_verification_status: NOT_CLAIMED
-
-updated: 2026-08-26
----
 
 # AMOS OS — TASK CONTRACT
 
@@ -4928,9 +4880,9 @@ THE TASK MAY PROCEED.
 
 ```
 
-This is a **substantive candidate specification**, not a claim that these structures are already implemented or empirically validated. That distinction matters because the current repository file contains only the misplaced `K COUNTERFACTUAL` placeholder, so there is no existing substantive `TASK_CONTRACT.md` canon to reproduce verbatim. :contentReference[oaicite:2]{index=2}
+This is a **substantive candidate specification**, not a claim that these structures are already implemented or empirically validated. That distinction matters because the current repository file contains only the misplaced `K COUNTERFACTUAL` placeholder, so there is no existing substantive `TASK_CONTRACT.md` canon to reproduce verbatim.
 
-The placement itself is supported by the repository: `TASK_CONTRACT.md` belongs in `03_CONTROL_PLANE/01_TASK_CONTRACT`, paired with `TASK_RESOLVER.md`, rather than in the Kernel cognition area. :contentReference[oaicite:3]{index=3}
+The placement itself is supported by the repository: `TASK_CONTRACT.md` belongs in `03_CONTROL_PLANE/01_TASK_CONTRACT`, paired with `TASK_RESOLVER.md`, rather than in the Kernel cognition area.
 ```
 
 ---

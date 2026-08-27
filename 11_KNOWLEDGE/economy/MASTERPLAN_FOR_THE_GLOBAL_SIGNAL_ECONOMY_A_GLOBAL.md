@@ -1,12 +1,15 @@
 ---
 title: MASTERPLAN FOR THE GLOBAL SIGNAL ECONOMY A GLOBAL
-tags: [economy, finance, market]
+tags: [economy, finance, market, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/economy
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: economic_model
+
 ---
-
-
-
 
 
 # **Masterplan for the Global Signal Economy** : **A Global Health Data Network You Control**

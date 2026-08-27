@@ -1,13 +1,5 @@
 ---
-title: L9 EVOLUTION
-type: note
-tags: [note, 01-core-laws]
----
-
-
-````markdown
----
-tags: ['canon', 'core_laws', 'evolution', 'mutation', 'supersession', 'anti_regression', 'repair', 'rollback', 'gmef', 'rscf', 'governance']
+tags: ['canon', 'core_laws', 'evolution', 'mutation', 'supersession', 'anti_regression', 'repair', 'rollback', 'gmef', 'rscf', 'governance', canon/universe]
 title: "L9 Evolution Laws"
 origin_architect: "Trang Phan"
 updated: "2026-08-26"
@@ -15,7 +7,15 @@ status: "PROPOSED_SPECIFICATION"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "CONDITIONAL"
 implementation_status: "LOGIC_EXECUTABLE_IN_PART"
+type: document
+source: 01_CANON/01_CORE_LAWS
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L9 Evolution Laws
 

@@ -1,8 +1,15 @@
 ---
 title: "Human MOC"
 type: moc
-tags: [moc, human]
+source: 11_KNOWLEDGE/human
+tags: [moc, human, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: human_alignment
 ---
+
 
 # Human — Map of Content
 

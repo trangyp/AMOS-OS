@@ -4,10 +4,18 @@ created: "2026-08-22"
 origin: "Google Drive — Strategic_Partnership_Proposal_to_GCBAT.pdf (836KB)"
 origin_architect: "Quynh Trang Phan"
 type: business-proposal
+source: 11_KNOWLEDGE/misc
 tags: [canon-group/governance, canon/business, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/X-crossscale, topic/partnership-proposal, misc]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
 
 

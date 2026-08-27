@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Flow-Matching-Generative-Rscf MOC"
 type: moc
-tags: [moc, arxiv-flow-matching-generative-rscf]
+source: 07_SKILLS/arxiv-flow-matching-generative-rscf
+tags: [moc, arxiv-flow-matching-generative-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Flow-Matching-Generative-Rscf — Map of Content
 

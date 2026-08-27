@@ -1,12 +1,15 @@
 ---
 title: THAY RO PHAM GIA VA SU THAT BAI CUA GIAC NGO GIA
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # THẤY RÕ, PHẨM GIÁ VÀ SỰ THẤT BẠI CỦA GIÁC NGỘ GIẢ

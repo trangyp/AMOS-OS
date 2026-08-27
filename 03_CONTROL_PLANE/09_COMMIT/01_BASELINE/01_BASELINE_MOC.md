@@ -1,8 +1,15 @@
 ---
 title: "01 Baseline MOC"
 type: moc
-tags: [moc, 01-baseline]
+source: 03_CONTROL_PLANE/09_COMMIT/01_BASELINE
+tags: [moc, 01-baseline, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 01 Baseline — Map of Content
 

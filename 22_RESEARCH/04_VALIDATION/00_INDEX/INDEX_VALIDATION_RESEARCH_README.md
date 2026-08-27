@@ -1,9 +1,14 @@
 ---
 title: INDEX VALIDATION RESEARCH README
 type: index
-tags: [amos_os, 22_research]
+source: 22_RESEARCH/04_VALIDATION/00_INDEX
+tags: [amos_os, 22_research, canon/research]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INDEX VALIDATION RESEARCH README

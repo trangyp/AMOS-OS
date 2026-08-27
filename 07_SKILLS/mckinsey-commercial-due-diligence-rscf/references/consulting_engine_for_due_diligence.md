@@ -1,8 +1,15 @@
 ---
 title: consulting engine for due diligence
 type: reference
-tags: [reference, mckinsey-commercial-due-diligence-rscf]
+source: 07_SKILLS/mckinsey-commercial-due-diligence-rscf/references
+tags: [reference, mckinsey-commercial-due-diligence-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Consulting Engine for Due Diligence
 
@@ -30,3 +37,7 @@ Open original (in _reference/)
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

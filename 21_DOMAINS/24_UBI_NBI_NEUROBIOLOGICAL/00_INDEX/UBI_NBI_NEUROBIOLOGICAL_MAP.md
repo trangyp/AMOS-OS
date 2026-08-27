@@ -1,9 +1,14 @@
 ---
 title: UBI NBI NEUROBIOLOGICAL MAP
 type: map
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL/00_INDEX
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # UBI NBI NEUROBIOLOGICAL MAP

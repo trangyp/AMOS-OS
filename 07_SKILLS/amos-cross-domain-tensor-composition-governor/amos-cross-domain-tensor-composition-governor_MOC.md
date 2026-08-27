@@ -1,8 +1,15 @@
 ---
 title: "Amos-Cross-Domain-Tensor-Composition-Governor MOC"
 type: moc
-tags: [moc, amos-cross-domain-tensor-composition-gov]
+source: 07_SKILLS/amos-cross-domain-tensor-composition-governor
+tags: [moc, amos-cross-domain-tensor-composition-gov, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Cross-Domain-Tensor-Composition-Governor — Map of Content
 

@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX C04 REASONING CONTRACT
 type: cognitive
-tags: [cognitive_matrix, control_planes, c04_reasoning, contract]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C04_REASONING
+tags: [cognitive_matrix, control_planes, c04_reasoning, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # C04_REASONING — Reasoning control: operator scheduling, derivation lineage, chain validation.
@@ -44,3 +49,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[C04_REASONING_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

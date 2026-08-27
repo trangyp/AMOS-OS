@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-c12-earth-ecology-master]
+source: 07_SKILLS/amos-c12-earth-ecology-master
+tags: [note, amos-c12-earth-ecology-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-c12-earth-ecology-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS C12 — Earth & Ecology Master. Consolidates 29 sub
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-c12-earth-ecology-master_MOC]]

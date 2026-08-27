@@ -1,12 +1,15 @@
 ---
 title: TRANG ASEA ADAPTIVE SELF EVOLUTION AI
-tags: [trang, framework, reality]
+tags: [trang, framework, reality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
 
 
 # TRANG ASEA (ADAPTIVE SELF-EVOLUTION AI)
@@ -38,77 +41,38 @@ source: 11_KNOWLEDGE/trang
 * * *
 ## B. CÁC PHƯƠNG TRÌNH CỐT LÕI CỦA TRANG ASEA
 ### (1) Trạng thái của Trang ASEA tại thời điểm `t`
-\\[  
-\text{ASEA}(t) = \\{ L(t), M(t), H(t), \mu(t), \sigma(t), T2(t) \\}  
-\\]
-### (2) Một bước tiến hóa (một vòng lặp mutation – survival)
-\\[  
-\text{ASEA}(t+1) = \sigma\left( \mu\left( \text{ASEA}(t) \right) \right)  
-\\]
+\$$\text{ASEA}(t) = \\{ L(t), M(t), H(t), \mu(t), \sigma(t), T2(t) \\}  
+$$### (2) Một bước tiến hóa (một vòng lặp mutation – survival) \$$\text{ASEA}(t+1) = \sigma\left( \mu\left( \text{ASEA}(t) \right) \right)$$
 ### (3) Điều kiện sống sót (tổng quát)
-\\[  
-\text{Survive}(x) \iff E(x) < \theta_E \quad \land \quad \Lambda(x) > \theta_{\Lambda} \quad \land \quad T2(x) = \text{True}  
-\\]
-  * \\( E(x) \\): Entropy của thành phần / đột biến `x`
+\$$\text{Survive}(x) \iff E(x) < \theta_E \quad \land \quad \Lambda(x) > \theta_{\Lambda} \quad \land \quad T2(x) = \text{True}  
+$$* \$ E(x) \$: Entropy của thành phần / đột biến `x` * \$ \Lambda(x) \$: Lacunarity của `x` (đo "khoảng trống có cấu trúc") * \$ \theta_E = 0.3 \$: Ngưỡng entropy (hallucination) * \$ \theta_{\Lambda} = 0.1 \$: Ngưỡng lacunarity (nếu thấp quá, quá đặc → cứng nhắc → chết) ### (4) Điều chỉnh lacunarity cho từng tầng \$$\Lambda_L(t+1) = \Lambda_L(t) + \eta_L \cdot ( \Lambda_{\text{target},L} - \Lambda_L(t) ) + \kappa_L \cdot \xi(t) \$$\$$\Lambda_M(t+1) = \Lambda_M(t) + \eta_M \cdot ( \Lambda_{\text{target},M} - \Lambda_M(t) ) + \kappa_M \cdot \xi(t) \$$\$$\Lambda_H(t+1) = \Lambda_H(t) + \eta_H \cdot ( \Lambda_{\text{target},H} - \Lambda_H(t) ) + \kappa_H \cdot \xi(t)$$
+  * \$ \eta \$: Tốc độ học (learning rate)
 
 
-  * \\( \Lambda(x) \\): Lacunarity của `x` (đo "khoảng trống có cấu trúc")
+  * \$ \Lambda_{\text{target},L} \approx 0.05 \$ (L cần rất đặc, ổn định)
 
 
-  * \\( \theta_E = 0.3 \\): Ngưỡng entropy (hallucination)
+  * \$ \Lambda_{\text{target},M} \approx 0.2 \$ (M cần linh hoạt, vừa phải)
 
 
-  * \\( \theta_{\Lambda} = 0.1 \\): Ngưỡng lacunarity (nếu thấp quá, quá đặc → cứng nhắc → chết)
+  * \$ \Lambda_{\text{target},H} \approx 0.3 \$ (H có thể chịu rỗng hơn, để sáng tạo)
 
 
-### (4) Điều chỉnh lacunarity cho từng tầng
-\\[  
-\Lambda_L(t+1) = \Lambda_L(t) + \eta_L \cdot ( \Lambda_{\text{target},L} - \Lambda_L(t) ) + \kappa_L \cdot \xi(t)  
-\\]  
-\\[  
-\Lambda_M(t+1) = \Lambda_M(t) + \eta_M \cdot ( \Lambda_{\text{target},M} - \Lambda_M(t) ) + \kappa_M \cdot \xi(t)  
-\\]  
-\\[  
-\Lambda_H(t+1) = \Lambda_H(t) + \eta_H \cdot ( \Lambda_{\text{target},H} - \Lambda_H(t) ) + \kappa_H \cdot \xi(t)  
-\\]
-  * \\( \eta \\): Tốc độ học (learning rate)
+  * \$ \kappa \$: Hệ số nhiễu (để tránh bị kẹt trong tối ưu cục bộ)
 
 
-  * \\( \Lambda_{\text{target},L} \approx 0.05 \\) (L cần rất đặc, ổn định)
-
-
-  * \\( \Lambda_{\text{target},M} \approx 0.2 \\) (M cần linh hoạt, vừa phải)
-
-
-  * \\( \Lambda_{\text{target},H} \approx 0.3 \\) (H có thể chịu rỗng hơn, để sáng tạo)
-
-
-  * \\( \kappa \\): Hệ số nhiễu (để tránh bị kẹt trong tối ưu cục bộ)
-
-
-  * \\( \xi(t) \\): Nhiễu trắng (white noise)
+  * \$ \xi(t) \$: Nhiễu trắng (white noise)
 
 
 ### (5) Điều chỉnh entropy theo thời gian
-\\[  
-\frac{dE_L}{dt} = -\alpha_L E_L + \beta_L \cdot \text{InputRate} + \gamma_L \cdot \xi(t)  
-\\]  
-\\[  
-\frac{dE_M}{dt} = -\alpha_M E_M + \beta_M \cdot \text{ChangeRate} + \gamma_M \cdot \xi(t)  
-\\]  
-\\[  
-\frac{dE_H}{dt} = -\alpha_H E_H + \beta_H \cdot \text{NoveltyRate} + \gamma_H \cdot \xi(t)  
-\\]  
-(Entropy của `L` có xu hướng giảm về 0 nếu không có đầu vào mới; `H` có thể dao động mạnh.)
+\$$\frac{dE_L}{dt} = -\alpha_L E_L + \beta_L \cdot \text{InputRate} + \gamma_L \cdot \xi(t)  
+\$$\$$\frac{dE_M}{dt} = -\alpha_M E_M + \beta_M \cdot \text{ChangeRate} + \gamma_M \cdot \xi(t)  
+\$$\$$\frac{dE_H}{dt} = -\alpha_H E_H + \beta_H \cdot \text{NoveltyRate} + \gamma_H \cdot \xi(t)  
+\$$(Entropy của `L` có xu hướng giảm về 0 nếu không có đầu vào mới; `H` có thể dao động mạnh.)
 ### (6) Tát 2 nội bộ (Internal T2)
 Mỗi quyết định / kết luận `C` phải được xác nhận bởi ít nhất hai tầng (hoặc hai mô hình con):  
-\\[  
-T2(C) = \left[ \text{verify}_L(C) \land \text{verify}_M(C) \right] \lor \left[ \text{verify}_M(C) \land \text{verify}_H(C) \right] \lor \left[ \text{verify}_H(C) \land \text{verify}_L(C) \right]  
-\\]
-### (7) Phát hiện hallucination (tự nhận thức)
-\\[  
-\text{Hallucination} \iff \left( E_H > 0.3 \right) \lor \left( T2(C) = \text{False} \right) \lor \left( \Lambda_H > 0.5 \right)  
-\\]
+\$$T2(C) = \left[ \text{verify}_L(C) \land \text{verify}_M(C) \right] \lor \left[ \text{verify}_M(C) \land \text{verify}_H(C) \right] \lor \left[ \text{verify}_H(C) \land \text{verify}_L(C) \right]  
+$$### (7) Phát hiện hallucination (tự nhận thức) \$$\text{Hallucination} \iff \left( E_H > 0.3 \right) \lor \left( T2(C) = \text{False} \right) \lor \left( \Lambda_H > 0.5 \right)$$
 Khi hallucination được phát hiện, Trang ASEA sẽ **tự động** :
   * **Giảm**`**Λ_H**` (quay về vùng an toàn).
 

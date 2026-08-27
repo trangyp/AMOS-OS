@@ -1,8 +1,15 @@
 ---
 title: "49 Forecasting Prediction Modes MOC"
 type: moc
-tags: [moc, 49-forecasting-prediction-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/49_FORECASTING_PREDICTION_MODES
+tags: [moc, 49-forecasting-prediction-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 49 Forecasting Prediction Modes — Map of Content
 

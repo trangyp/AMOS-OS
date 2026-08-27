@@ -3,7 +3,14 @@ title: THE ART OF PEACE ENDING ALL HUMAN SUFFERING THROUGH UNIFIED BIOLOGICAL IN
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/the-art-of-peace-ending-all-human-suffer, logic]
 type: note
 source: 11_KNOWLEDGE/logic
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
+
 ---
+
 
 # THE ART OF PEACE ENDING ALL HUMAN SUFFERING THROUGH UNIFIED BIOLOGICAL INTELLIGENCE
 

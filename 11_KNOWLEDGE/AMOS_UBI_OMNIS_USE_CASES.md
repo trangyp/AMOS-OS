@@ -1,14 +1,20 @@
 ---
 title: "UBI Omnis™ — AMOS-Aligned Capability, Product, and Governance Map"
 type: note
+source: 11_KNOWLEDGE
 status: "CONDITIONAL / MODEL"
 origin_architect: "Trang Phan"
 framework_parent: "AMOS"
 domain_runtime: "UBI / biological-system modeling"
 version: "2026-08-25"
-tags: [knowledge, note]
-
+tags: [knowledge, note, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # UBI Omnis™ — AMOS-Aligned Capability, Product, and Governance Map
 

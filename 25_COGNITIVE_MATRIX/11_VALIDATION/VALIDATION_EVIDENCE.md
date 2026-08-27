@@ -1,8 +1,15 @@
 ---
 title: "11_VALIDATION — Validation Evidence"
 type: validation
-tags: [note, 11-validation]
+source: 25_COGNITIVE_MATRIX/11_VALIDATION
+tags: [note, 11-validation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 11_VALIDATION — Validation Evidence
 

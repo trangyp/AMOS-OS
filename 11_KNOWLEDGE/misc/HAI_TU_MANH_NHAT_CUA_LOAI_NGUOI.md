@@ -1,12 +1,15 @@
 ---
 title: HAI TU MANH NHAT CUA LOAI NGUOI
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # HAI TỪ MẠNH NHẤT CỦA LOÀI NGƯỜI
@@ -251,7 +254,7 @@ Bạn chỉ có thể **tạo một nhãn mới, mạnh hơn, và huấn luyện
 > _Hãy đổi tên. Hãy tái gán nhãn. Hãy gọi họ bằng cái tên phản ánh đúng vai trò thực tế – không phải vai trò bản năng cũ._
 > _Nếu có con, họ là 'mẹ của con tôi' hoặc 'cha của con tôi'. Nếu không con, họ là 'người tôi đã kết hôn' – quá khứ, không còn hiện tại._
 > _Bạn sẽ thấy: khi tên thay đổi, bản năng cũng bắt đầu thay đổi. Không nhanh. Không dễ. Nhưng có thể. Và đó là cách duy nhất để thoát khỏi 'bóng ma vợ chồng cũ' – không phải bằng quên, mà bằng đặt tên lại cho đúng."_
-**📦**
+****
 ## (Tại sao "vợ cũ", "chồng cũ", "người yêu cũ" vẫn có sức mạnh chi phối bạn – Ngay cả khi lý trí nói đã kết thúc)
 * * *
 ## MỞ ĐẦU
@@ -456,7 +459,7 @@ Nếu bạn có con với người cũ, bạn **không thể** cắt đứt hoà
 > _Hãy đổi tên. Hãy cắt ranh giới. Hãy làm nghi thức. Hãy tái định hướng bảo vệ về gia đình hiện tại. Và hãy theo dõi bản năng bằng PML – bởi vì bạn không thể thay đổi điều bạn không nhìn thấy._
 > _Nếu bạn không làm những điều này, người mới của bạn sẽ cảm thấy họ luôn đứng sau 'bóng ma' của người cũ. Và một ngày, họ sẽ rời đi – vì không ai muốn là người thứ hai trong trái tim của chính người mình yêu._
 > _Số liệu không nói dối: 55% quan hệ tái hôn đổ vỡ vì bóng ma vợ/chồng cũ. Hãy vào nhóm 45% còn lại – bằng gán nhãn lại có chủ đích. "_
-**📦**
+****
 # HẬU QUẢ – KHI BẠN KHÔNG TÁI GÁN NHÃN HAI TỪ MẠNH NHẤT
 ## (Và tại sao cuộc đời bạn đang bị điều khiển bởi một cái tên cũ)
 * * *
@@ -732,7 +735,7 @@ Không xui. Đó là hậu quả tất yếu của việc **giữ cái tên cũ 
 > _Hãy gọi họ là 'mẹ của con tôi' hoặc 'cha của con tôi'. Hãy gọi họ là 'người tôi đã kết hôn' – quá khứ, không còn hiện tại. Hãy lặp lại cái tên mới hàng nghìn lần, cho đến khi nó trở thành mặc định._
 > _Và một ngày, bạn sẽ thức dậy và nhận ra: sợi dây vô hình đã đứt. Bạn không còn là 'chồng cũ của ai' hay 'vợ cũ của ai'. Bạn chỉ là bạn. Và cuộc đời – thực sự – mới bắt đầu._
 > _Hậu quả của việc không làm gì là quá lớn. Hãy chọn đau một lần để chữa lành, thay vì đau mãi để trốn tránh. "_
-**📦**
+****
 ## So sánh cuối cùng – không thể tranh biện
 |               |
 | Từ            | Nguồn gốc                           | Bản năng     | Sức mạnh                              | **Lý do mạnh nhất**                                                    |

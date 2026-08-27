@@ -1,13 +1,20 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-information-boundary-governor
 name: amos-information-boundary-governor
 description: Information Boundary Governor — boundary and scope capability. Use when evaluating scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master routes to this specialized capability.
 parent_skill: amos-boundary-scope-master
 domain: boundary
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-information-boundary-governor]
+tags: [note, amos-information-boundary-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
 
 
@@ -95,3 +102,77 @@ Information boundary governance is an architectural construct. It does not prove
 
 ---
 **Links:** [[07_SKILLS_MOC]]
+
+## Related
+
+- [[amos-information-boundary-governor_MOC]]
+
+## Examples
+
+- **Scenario**: When boundary and scope governance for information boundary governor is needed within the boundary domain
+  - **Input**: A query matching this skill's domain (boundary)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When the parent skill (`amos-boundary-scope-master`) routes to this specialized capability
+  - **Input**: A query matching this skill's domain (boundary)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When a query requires boundary-specific reasoning grounded in vault sources
+  - **Input**: A query matching this skill's domain (boundary)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the boundary domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[amos-boundary-scope-master]]` — routes to this skill when boundary specialization is needed
+- **Peers**: Other skills in the `boundary` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/references_MOC.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `[[amos-information-boundary-governor_MOC]]` — skill Map of Content
+- `[[amos-boundary-scope-master]]` — parent skill
+- `[[amos-information-boundary-governor-workflow]]` — corresponding workflow
+- `[[amos-information-boundary-governor-agent]]` — corresponding agent
+

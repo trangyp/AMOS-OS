@@ -1,8 +1,15 @@
 ---
 title: "Amos-Economy-Internet-Money-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-economy-internet-money-rscf-engine]
+source: 07_SKILLS/amos-economy-internet-money-rscf-engine
+tags: [moc, amos-economy-internet-money-rscf-engine, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Economy-Internet-Money-Rscf-Engine — Map of Content
 

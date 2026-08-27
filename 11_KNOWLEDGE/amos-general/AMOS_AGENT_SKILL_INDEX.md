@@ -3,9 +3,13 @@ title: AMOS AGENT SKILL INDEX
 tags: [canon-group/tech-ai, canon/framework, rscf/state/observation, topic/amos-agent-skill-index, amos-general]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
 
 
 # AMOS Agent Skill Index
@@ -76,3 +80,6 @@ Orchestration layer: amos-agent-orchestration (routing/conflict), amos-agent-exe
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX PRIMITIVES CONTRACT
 type: cognitive
-tags: [cognitive_matrix, cognitive_matrix_primitives_contract.md]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES
+tags: [cognitive_matrix, cognitive_matrix_primitives_contract.md, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # COGNITIVE MATRIX PRIMITIVES CONTRACT
@@ -75,3 +80,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[01_PRIMITIVES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

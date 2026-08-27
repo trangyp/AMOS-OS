@@ -1,8 +1,15 @@
 ---
 title: validation
 type: reference
-tags: [reference, amos-workflow-builder]
+source: 07_SKILLS/amos-workflow-builder/references
+tags: [reference, amos-workflow-builder, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Workflow Builder Validation Gates
 
@@ -102,3 +109,7 @@ tags: [reference, amos-workflow-builder]
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

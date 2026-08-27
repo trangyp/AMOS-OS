@@ -1,8 +1,15 @@
 ---
 title: "Energy MOC"
 type: moc
-tags: [moc, energy]
+source: 11_KNOWLEDGE/energy
+tags: [moc, energy, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: energy_system
 ---
+
 
 # Energy — Map of Content
 

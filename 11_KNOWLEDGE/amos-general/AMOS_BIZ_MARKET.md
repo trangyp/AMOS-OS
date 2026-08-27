@@ -3,10 +3,14 @@ title: AMOS BIZ MARKET
 tags: [canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-ev-kernel-v0, amos-general]
 type: data
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
-
+# AMOS BIZ MARKET
 
 ```json
 {
@@ -511,3 +515,6 @@ source: 11_KNOWLEDGE/amos-general
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

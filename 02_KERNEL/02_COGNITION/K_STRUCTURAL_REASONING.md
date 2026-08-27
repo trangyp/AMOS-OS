@@ -1,6 +1,7 @@
 ---
 title: K STRUCTURAL REASONING
 type: reasoning
+source: 02_KERNEL/02_COGNITION
 artifact_id: AMOS-OS-K-STRUCTURAL-REASONING
 canonical_name: K_STRUCTURAL_REASONING
 artifact_type: kernel_reasoning_contract
@@ -26,8 +27,6 @@ aliases: "- K Structural Reasoning
   - Structural Reasoning Kernel
   - AMOS Structural Reasoning
   - K_STRUCTU..."---
-
-
 
 
 # K STRUCTURAL REASONING
@@ -61,8 +60,13 @@ WHAT SHOULD WE CONCLUDE?
 ```
 
 Its purpose is to prevent fluent reasoning from silently crossing missing distinctions, dependencies, scopes, regimes, or evidence boundaries.
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 1. Core Structural Law
 

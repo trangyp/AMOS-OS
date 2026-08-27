@@ -1,8 +1,15 @@
 ---
 title: "37 Uncertainty Modes MOC"
 type: moc
-tags: [moc, 37-uncertainty-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/37_UNCERTAINTY_MODES
+tags: [moc, 37-uncertainty-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 37 Uncertainty Modes — Map of Content
 

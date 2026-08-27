@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Grapheval-Reasoning-Coherence-Rscf MOC"
 type: moc
-tags: [moc, arxiv-grapheval-reasoning-coherence-rscf]
+source: 07_SKILLS/arxiv-grapheval-reasoning-coherence-rscf
+tags: [moc, arxiv-grapheval-reasoning-coherence-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Grapheval-Reasoning-Coherence-Rscf — Map of Content
 

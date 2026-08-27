@@ -1,11 +1,15 @@
 ---
 title: AI ARCHITECTURE FACTORY V2
-tags: [architecture, design, structure]
+tags: [architecture, design, structure, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/architecture
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: architecture_design
+
 ---
-
-
 
 
 # ai_architecture_factory_v2
@@ -186,3 +190,6 @@ if __name__ == "__main__":
 
 ---
 **MOC:** [[ARCHITECTURE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

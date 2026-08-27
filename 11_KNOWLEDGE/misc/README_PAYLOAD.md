@@ -1,12 +1,17 @@
 ---
 title: README PAYLOAD
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
-
-
+# README PAYLOAD
 
 ## These are not payloads I have created myself, they were sourced from other resources like:
 

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Bundle-Manifold-Concentration-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-bundle-manifold-concentration-rscf-]
+source: 07_SKILLS/amos-bundle-manifold-concentration-rscf-engine
+tags: [moc, amos-bundle-manifold-concentration-rscf-, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Bundle-Manifold-Concentration-Rscf-Engine — Map of Content
 

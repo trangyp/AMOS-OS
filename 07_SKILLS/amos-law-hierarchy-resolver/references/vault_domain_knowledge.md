@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-law-hierarchy-resolver]
+source: 07_SKILLS/amos-law-hierarchy-resolver/references
+tags: [reference, amos-law-hierarchy-resolver, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -225,3 +232,8 @@ layer_1_meta_logic_kernel → layer_2_structural_reasoning_engine → layer_3_co
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]
+```

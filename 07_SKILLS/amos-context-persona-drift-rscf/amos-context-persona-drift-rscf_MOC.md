@@ -1,8 +1,15 @@
 ---
 title: "Amos-Context-Persona-Drift-Rscf MOC"
 type: moc
-tags: [moc, amos-context-persona-drift-rscf]
+source: 07_SKILLS/amos-context-persona-drift-rscf
+tags: [moc, amos-context-persona-drift-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Context-Persona-Drift-Rscf — Map of Content
 

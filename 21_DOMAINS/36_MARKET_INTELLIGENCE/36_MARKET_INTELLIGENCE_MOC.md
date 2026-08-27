@@ -1,8 +1,15 @@
 ---
 title: "36 Market Intelligence MOC"
 type: moc
-tags: [moc, 36-market-intelligence]
+source: 21_DOMAINS/36_MARKET_INTELLIGENCE
+tags: [moc, 36-market-intelligence, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 36 Market Intelligence — Map of Content
 

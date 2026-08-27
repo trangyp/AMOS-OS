@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, arxiv-llm-judge-bias-geometry-rscf]
+source: 07_SKILLS/arxiv-llm-judge-bias-geometry-rscf/references
+tags: [reference, arxiv-llm-judge-bias-geometry-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -366,3 +373,4 @@ rscf/P-
 
 ---
 **MOC:** [[references_MOC]]
+```

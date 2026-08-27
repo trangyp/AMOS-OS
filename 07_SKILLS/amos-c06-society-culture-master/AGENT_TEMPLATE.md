@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-c06-society-culture-master]
+source: 07_SKILLS/amos-c06-society-culture-master
+tags: [note, amos-c06-society-culture-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-c06-society-culture-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS C06 — Society & Culture Master. Consolidates 17 s
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-c06-society-culture-master_MOC]]

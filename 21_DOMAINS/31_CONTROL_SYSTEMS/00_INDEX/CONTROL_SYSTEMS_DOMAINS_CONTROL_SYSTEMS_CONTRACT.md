@@ -1,9 +1,14 @@
 ---
 title: CONTROL SYSTEMS DOMAINS CONTROL SYSTEMS CONTRACT
 type: system
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/31_CONTROL_SYSTEMS/00_INDEX
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # CONTROL SYSTEMS DOMAINS CONTROL SYSTEMS CONTRACT

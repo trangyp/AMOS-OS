@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-c02-math-compute-master]
+source: 07_SKILLS/amos-c02-math-compute-master/references
+tags: [reference, amos-c02-math-compute-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # amos-c02-math-compute-master — Vault-Sourced Domain Knowledge
 
@@ -411,9 +418,6 @@ problems.** Heuristic solutions carry bound-gap reporting where bounds exist.
 - Multi-objective → expose the trade-off front rather than collapsing weights silently.
 
 
-
-
-
 ## Vault-Sourced Domain Content
 
 > Source: `11_KNOWLEDGE/AMOS_C02_MATH_COMPUTE_MASTER_KNOWLEDGE.md` (30478 bytes in vault)
@@ -660,3 +664,8 @@ C
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]
+```

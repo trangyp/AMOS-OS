@@ -1,8 +1,15 @@
 ---
 title: "L29 Evolution MOC"
 type: moc
-tags: [moc, l29-evolution]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L29_EVOLUTION
+tags: [moc, l29-evolution, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L29 Evolution — Map of Content
 

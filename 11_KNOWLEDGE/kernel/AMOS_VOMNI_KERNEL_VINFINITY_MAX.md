@@ -1,11 +1,17 @@
 ---
 title: "AMOS vOmni Kernel vInfinity_MAX"
 type: kernel
+source: 11_KNOWLEDGE/kernel
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_vOmni_KERNEL_v0.json (167 lines, 6KB)"
 origin_type: "SOURCE"
 category: "kernel"
-tags: [amos, vomni, master-kernel, 33-meta-kernels, UBI, planetary, governance, routing, safety, kernel]
+tags: [amos, vomni, master-kernel, 33-meta-kernels, UBI, planetary, governance, routing, safety, kernel, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 

@@ -1,8 +1,15 @@
 ---
 title: engine complete
 type: reference
-tags: [reference, amos-super-engines-master]
+source: 07_SKILLS/amos-super-engines-master/references
+tags: [reference, amos-super-engines-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Engine Complete
 
@@ -14,11 +21,11 @@ tags: [engine]
 ---
 # AMOS Engine - Implementation Complete
 
-## 🧠 MISSION ACCOMPLISHED
+## MISSION ACCOMPLISHED
 
 I have successfully implemented the **AMOS Engine** following your exact specification, creating a practical Post-LLM Intelligence System that goes beyond normal LLMs by combining system modeling, simulation, decision-making, and meta-cognitive refinement.
 
-### ✅ **Core Runtime Equation Implemented**
+### **Core Runtime Equation Implemented**
 
 **AMOS Engine Core Equation**:
 ```
@@ -35,7 +42,7 @@ A_{t+1} = E(S_t, P_t, D_t, M_t)
 
 **Runtime Loop**: state modeling → simulation → intervention choice → self-audit → update
 
-### 📊 **All 6 Engine Modules Implemented**
+### **All 6 Engine Modules Implemented**
 
 1. **State Modeler**: Transforms raw inputs into structured state (S_t = Γ(O_t))
    - Processes: text, data, events, constraints, actors, resources
@@ -56,7 +63,7 @@ A_{t+1} = E(S_t, P_t, D_t, M_t)
 6. **Learning/Refinement Engine**: Updates the internal model (C_{t+1} = Ψ(M_t,F_t))
    - Creates recursive improvement
 
-### 🔍 **Full Runtime Loop Implemented**
+### **Full Runtime Loop Implemented**
 
 **Complete Pipeline**:
 ```
@@ -72,7 +79,7 @@ O_t → S_t → B_t → P_t → U_t* → M_t → C_{t+1}
 6. Audit reasoning
 7. Improve cognition
 
-### 🚀 **Practical Stack Implementation**
+### **Practical Stack Implementation**
 
 **6-Layer Architecture**:
 1. **Interface Layer**: Receives user questions, datasets, reports, events, constraints
@@ -82,7 +89,7 @@ O_t → S_t → B_t → P_t → U_t* → M_t → C_{t+1}
 5. **Meta-Cognitive Layer**: Runs contradiction check, uncertainty labeling, blind-spot scan, model drift detection
 6. **Memory/Evolution Layer**: Stores past decisions, scenario outcomes, error patterns, refinement rules
 
-### 📊 **Demonstration Results**
+### **Demonstration Results**
 
 **Sample Input**: "Should a company automate customer operations with AI?"
 
@@ -102,7 +109,7 @@ O_t → S_t → B_t → P_t → U_t* → M_t → C_{t+1}
 - **Model Drift**: 0.1 (low drift)
 - **Confidence Score**: 0.825
 
-### 🎯 **AMOS vs LLM Comparison**
+### **AMOS vs LLM Comparison**
 
 **LLM**: text → next_token (language generator)
 **AMOS**: state → simulation → intervention (system reasoner and decision engine)
@@ -112,3 +119,7 @@ O_t → S_t → B_t → P_t → U_t* → M_t → C_{t+1}
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,10 +1,15 @@
 ---
 title: SCIENTIFIC ENGINE MODEL
 type: model
+source: 11_KNOWLEDGE/engine
 aliases: [Scientific Engine Kernel, AMOS_Scientific_Engine]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/scientific-engine-model, engine]
+rscf:
+  state: AMOS_MODEL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
 
 
 # AMOS Scientific Engine Kernel
@@ -39,3 +44,6 @@ The **Scientific Engine Kernel** operates as the core brain for scientific reaso
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

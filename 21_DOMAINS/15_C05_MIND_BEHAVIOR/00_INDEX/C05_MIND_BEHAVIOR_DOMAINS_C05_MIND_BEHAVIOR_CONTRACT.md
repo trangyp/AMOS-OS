@@ -1,9 +1,14 @@
 ---
 title: C05 MIND BEHAVIOR DOMAINS C05 MIND BEHAVIOR CONTRACT
 type: mind
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/15_C05_MIND_BEHAVIOR/00_INDEX
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # C05 MIND BEHAVIOR DOMAINS C05 MIND BEHAVIOR CONTRACT

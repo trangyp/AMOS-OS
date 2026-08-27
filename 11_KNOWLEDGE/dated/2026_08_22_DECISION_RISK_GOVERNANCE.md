@@ -1,10 +1,15 @@
 ---
 title: 2026 08 22 DECISION RISK GOVERNANCE
-tags: [dated, dated/2026-08-22]
+tags: [dated, dated/2026-08-22, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/dated
----
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 
+---
 
 
 # Decision Theory & Risk Governance (Gaps 222-229)

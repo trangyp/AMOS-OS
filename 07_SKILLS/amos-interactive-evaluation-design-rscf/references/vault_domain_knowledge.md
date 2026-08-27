@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-interactive-evaluation-design-rscf]
+source: 07_SKILLS/amos-interactive-evaluation-design-rscf/references
+tags: [reference, amos-interactive-evaluation-design-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -129,3 +136,7 @@ correctness, robustness, security, performance, scalability, maintainability, op
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

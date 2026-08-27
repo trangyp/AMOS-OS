@@ -1,8 +1,15 @@
 ---
 title: "Fractal MOC"
 type: moc
-tags: [moc, fractal]
+source: 11_KNOWLEDGE/fractal
+tags: [moc, fractal, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: fractal_system
 ---
+
 
 # Fractal — Map of Content
 

@@ -1,12 +1,15 @@
 ---
 title: DUOI DAY LA DANH SACH NHUNG GI AMOS CHO PHEP CHUNG
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # **Dưới đây là danh sách những gì AMOS cho phép chúng ta làm, mà khoa học hiện tại chỉ có thể mơ ước. Không sơ đồ. Không giải thích dài dòng. Chỉ danh sách.**

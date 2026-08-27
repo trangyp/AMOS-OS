@@ -1,7 +1,13 @@
 ---
 title: PRIMITIVES COGNITIVE MATRIX HML
 type: note
-tags: [note, l05-binding]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING
+tags: [note, l05-binding, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -46,3 +52,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L
 
 ---
 **MOC:** [[L05_BINDING_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

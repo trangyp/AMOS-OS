@@ -3,10 +3,14 @@ title: AMOS POLITICAL DYNAMICS KERNEL V0 HUMAN SOCIETY
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-political-dynamics-kernel-v0, kernel]
 type: data
 source: 11_KNOWLEDGE/kernel
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
+# AMOS POLITICAL DYNAMICS KERNEL V0 HUMAN SOCIETY
 
 ```json
 [

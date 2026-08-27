@@ -1,8 +1,15 @@
 ---
 title: "09 Governance Modes MOC"
 type: moc
-tags: [moc, 09-governance-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/09_GOVERNANCE_MODES
+tags: [moc, 09-governance-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 09 Governance Modes — Map of Content
 

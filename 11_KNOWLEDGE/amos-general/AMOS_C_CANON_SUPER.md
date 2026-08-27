@@ -1,15 +1,20 @@
 ---
 title: AMOS C CANON SUPER
 type: canon
+source: 11_KNOWLEDGE/amos-general
 canon-group: meta
 canon-type: law
 rscf-state: source-claim
 topic: amos-c-canon-super
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-c-canon-super, amos-general]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
-
-
+# AMOS C CANON SUPER
 
 ```json
 {
@@ -231,3 +236,6 @@ created: 2026-08-22
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

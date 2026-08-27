@@ -1,12 +1,15 @@
 ---
 title: THEORETICAL AND PRACTICAL FOUNDATIONS OF STATE MAN
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **Theoretical and Practical Foundations of State Management on Anti-Counterfeiting in Vietnam**

@@ -1,5 +1,6 @@
 ---
 type: neural
+source: 00_ROOT
 artifact_id: AMOS-OS-NEURAL-NETWORK
 name: AMOS_OS_NEURAL_NETWORK
 title: "AMOS Neural Network — Vault Graph Hub and Cross-Plane Connectivity Map"
@@ -36,15 +37,19 @@ aliases: "- AMOS Neural Network
 related: "see body"---
 
 
-
 # AMOS Neural Network
 
 > **Status:** `ACTIVE_MAP`  
 > **AMOS_CORE target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  
 > **Conclusion class:** `AMOS_MODEL`
-
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
+
 
 # 0. Purpose
 

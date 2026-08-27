@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Hermes ↔ Cosmo Brain"
 origin_architect: "Trang Phan"
 type: note
-tags: [cosmo, amos, canon-group/system, rscf/claim, rscf/state/observation, topic/implementation, topic/proof-checking, topic/kernel-gate, dated, dated/2026-08-22]
+source: 11_KNOWLEDGE/dated
+tags: [cosmo, amos, canon-group/system, rscf/claim, rscf/state/observation, topic/implementation, topic/proof-checking, topic/kernel-gate, dated, dated/2026-08-22, canon/knowledge]
 status: "verified"
 provenance: "OBSERVATION"
 confidence: "VERIFIED"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
 
 

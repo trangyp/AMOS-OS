@@ -1,15 +1,20 @@
 ---
 title: AMOS MEDICAL CLINICAL KERNEL V0 BIOLOGY COGNITION7
 type: kernel
+source: 11_KNOWLEDGE/kernel
 canon-group: biology
 canon-type: framework
 rscf-state: source-claim
 topic: amos-medical-clinical-kernel-v0
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-medical-clinical-kernel-v0, kernel]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
-
-
+# AMOS MEDICAL CLINICAL KERNEL V0 BIOLOGY COGNITION7
 
 ```json
 [

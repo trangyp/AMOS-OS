@@ -1,8 +1,15 @@
 ---
 title: "33 Interaction Expression Modes MOC"
 type: moc
-tags: [moc, 33-interaction-expression-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/33_INTERACTION_EXPRESSION_MODES
+tags: [moc, 33-interaction-expression-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 33 Interaction Expression Modes — Map of Content
 

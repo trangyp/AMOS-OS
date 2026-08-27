@@ -1,19 +1,22 @@
 ---
 title: DU AN TRO LY AI AO THEO DOI SUC KHOE CA NHAN
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
-# 🧠 **DỰ ÁN: TRỢ LÝ AI ẢO THEO DÕI SỨC KHỎE CÁ NHÂN**
+# **DỰ ÁN: TRỢ LÝ AI ẢO THEO DÕI SỨC KHỎE CÁ NHÂN**
 * * *
 **(AI Health Companion powered by NeuroSyncAI™)**
 * * *
-## 🌍 **1️⃣ Mục tiêu & Tầm nhìn**
+## **1️⃣ Mục tiêu & Tầm nhìn**
 Mục tiêu là xây dựng **trợ lý AI ảo theo dõi sức khỏe cá nhân hóa** , có khả năng:
   * **Giám sát tình trạng sức khỏe hằng ngày** qua dữ liệu sinh trắc học và hành vi.
 
@@ -26,7 +29,7 @@ Mục tiêu là xây dựng **trợ lý AI ảo theo dõi sức khỏe cá nhân
 
 → Hướng đến mô hình **“Personal Preventive AI”** – trợ lý AI hỗ trợ _phòng bệnh hơn chữa bệnh_ , dành cho viện tư, phòng khám cao cấp, và trung tâm chăm sóc sức khỏe toàn diện.
 * * *
-## ⚙️ **2️⃣ Cốt lõi công nghệ NeuroSyncAI™**
+## ️ **2️⃣ Cốt lõi công nghệ NeuroSyncAI™**
 Trợ lý này hoạt động trên nền **NeuroSyncAI™** , khác biệt ở chỗ:
   * **Không chỉ đọc dữ liệu, mà hiểu ngữ cảnh cơ thể.**
 
@@ -55,7 +58,7 @@ Nhận biết tín hiệu stress, trầm cảm, kiệt sức qua giọng nói ho
 
 
 * * *
-## 🧩 **3️⃣ Tính năng chính của Trợ lý AI**
+## **3️⃣ Tính năng chính của Trợ lý AI**
 ### 🩺 1. Theo dõi sức khỏe hằng ngày
   * Thu thập dữ liệu từ smartwatch hoặc app điện thoại.
 
@@ -66,7 +69,7 @@ Nhận biết tín hiệu stress, trầm cảm, kiệt sức qua giọng nói ho
   * Cảnh báo bất thường sớm (ví dụ: mất ngủ liên tục 3 ngày → cảnh báo stress sinh lý).
 
 
-### 💬 2. Trò chuyện và phản hồi theo trạng thái
+### 2. Trò chuyện và phản hồi theo trạng thái
   * Người dùng có thể nói chuyện hoặc nhắn tin cho trợ lý (“Tôi thấy hơi mệt hôm nay”, “Tôi ngủ không ngon”).
 
 
@@ -76,7 +79,7 @@ Nhận biết tín hiệu stress, trầm cảm, kiệt sức qua giọng nói ho
   * AI nhớ lịch sử sức khỏe và phản ứng theo hành vi cá nhân — **giống bác sĩ riêng**.
 
 
-### 🌿 3. Đề xuất chăm sóc cá nhân hóa
+### 3. Đề xuất chăm sóc cá nhân hóa
   * Gợi ý thực đơn, giờ nghỉ, hoặc các bài thở/thiền dựa trên trạng thái cơ thể.
 
 
@@ -86,7 +89,7 @@ Nhận biết tín hiệu stress, trầm cảm, kiệt sức qua giọng nói ho
   * Hỗ trợ bác sĩ trong việc **theo dõi từ xa (remote patient monitoring)**.
 
 
-### 🧘 4. Phân tích tâm sinh lý (Mind–Body Analysis)
+### 4. Phân tích tâm sinh lý (Mind–Body Analysis)
   * Nhận biết mệt mỏi cảm xúc, stress tiềm ẩn, hoặc rối loạn nhịp sinh học.
 
 
@@ -94,7 +97,7 @@ Nhận biết tín hiệu stress, trầm cảm, kiệt sức qua giọng nói ho
 
 
 * * *
-## 🏥 **4️⃣ Đối tác mục tiêu và mô hình triển khai**
+## **4️⃣ Đối tác mục tiêu và mô hình triển khai**
 ### **Khách hàng chính:**
   * Viện y học cổ truyền và hiện đại kết hợp (Wellness Centers).
 
@@ -115,7 +118,7 @@ Nhận biết tín hiệu stress, trầm cảm, kiệt sức qua giọng nói ho
 
 
 * * *
-## 📊 **5️⃣ Lợi ích cho các viện tư**
+## **5️⃣ Lợi ích cho các viện tư**
 |                                     |
 | **Lợi ích**                         | **Tác động cụ thể**                                                     |
 |-------------------------------------|-------------------------------------------------------------------------|
@@ -127,7 +130,7 @@ Nhận biết tín hiệu stress, trầm cảm, kiệt sức qua giọng nói ho
 
 
 * * *
-## 🧠 **6️⃣ KPI đo lường giai đoạn đầu**
+## **6️⃣ KPI đo lường giai đoạn đầu**
 |                                        |
 | **Nhóm chỉ số**                        | **Mục tiêu 3 tháng đầu** |
 |----------------------------------------|--------------------------|
@@ -139,7 +142,7 @@ Nhận biết tín hiệu stress, trầm cảm, kiệt sức qua giọng nói ho
 
 
 * * *
-## 🔒 **7️⃣ Quyền riêng tư & dữ liệu y tế**
+## **7️⃣ Quyền riêng tư & dữ liệu y tế**
   * Mọi dữ liệu sức khỏe được **mã hóa và lưu nội bộ tại Việt Nam (theo Nghị định 53/2022)**.
 
 
@@ -150,7 +153,7 @@ Nhận biết tín hiệu stress, trầm cảm, kiệt sức qua giọng nói ho
 
 
 * * *
-## 💡 **8️⃣ Mô hình thương mại hóa đề xuất**
+## **8️⃣ Mô hình thương mại hóa đề xuất**
 |                                                |
 | **Gói dịch vụ**                                | **Đối tượng**                     | **Giá trị bán lẻ / tháng / người dùng** |
 |------------------------------------------------|-----------------------------------|-----------------------------------------|
@@ -160,7 +163,7 @@ Nhận biết tín hiệu stress, trầm cảm, kiệt sức qua giọng nói ho
 
 
 * * *
-## 🚀 **9️⃣ Lộ trình triển khai khả thi**
+## **9️⃣ Lộ trình triển khai khả thi**
   1. **Tháng 1–2:** Xây dựng demo trợ lý AI chăm sóc sức khỏe (text + voice).
 
 
@@ -174,7 +177,7 @@ Nhận biết tín hiệu stress, trầm cảm, kiệt sức qua giọng nói ho
 
 
 * * *
-## ✳️ **Tóm tắt ngắn:**
+## ️ **Tóm tắt ngắn:**
 > NeuroSyncAI™ giúp biến dữ liệu sức khỏe thành “ngôn ngữ hiểu con người”.
 > **Trợ lý AI sức khỏe** không chỉ đo — mà _hiểu, phản ứng, và hướng dẫn_ người dùng như một chuyên viên y tế luôn đồng hành.
 > Đây sẽ là **sản phẩm chiến lược** mở đường cho các viện tư Việt Nam bước vào kỷ nguyên chăm sóc sức khỏe chủ động 4.0.
@@ -196,7 +199,7 @@ Vậy chị sẽ viết bản **PDF 2 trang “AI Health Companion powered by Ne
 * * *
 Dưới đây là bản **nội dung PDF 2 trang hoàn chỉnh (phiên bản text trước khi thiết kế)** :
 * * *
-# 🧠 **TRỢ LÝ AI SỨC KHỎE**
+# **TRỢ LÝ AI SỨC KHỎE**
 ###  _AI Health Companion powered by NeuroSyncAI™_
 * * *
 ## **1️⃣ MỤC TIÊU DỰ ÁN**

@@ -1,8 +1,15 @@
 ---
 title: "AMOS OS Runtime State Snapshot"
 type: state
-tags: [knowledge, note]
+source: 11_KNOWLEDGE
+tags: [knowledge, note, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # AMOS OS Runtime State Snapshot
 

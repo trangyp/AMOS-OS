@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-memory-systems-master]
+source: 07_SKILLS/amos-memory-systems-master
+tags: [note, amos-memory-systems-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-memory-systems-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS Memory Systems Master. Consolidates 3 sub-skills.
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-memory-systems-master_MOC]]

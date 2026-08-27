@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX M MID SCALE CONTRACT
 type: cognitive
-tags: [cognitive_matrix, scales, m_mid_scale, contract]
+source: 25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE
+tags: [cognitive_matrix, scales, m_mid_scale, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # M_MID_SCALE — Mid scale: domain policy and planning; medium rigor, batched evaluation.
@@ -42,3 +47,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[M_MID_SCALE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

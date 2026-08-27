@@ -1,8 +1,15 @@
 ---
 title: "82 Finalization Checkpoint Modes MOC"
 type: moc
-tags: [moc, 82-finalization-checkpoint-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/82_FINALIZATION_CHECKPOINT_MODES
+tags: [moc, 82-finalization-checkpoint-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 82 Finalization Checkpoint Modes — Map of Content
 

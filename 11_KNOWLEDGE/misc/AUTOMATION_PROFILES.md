@@ -3,10 +3,14 @@ title: AUTOMATION PROFILES
 tags: [canon-group/biology, canon/narrative, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/automation-profiles, misc]
 type: data
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
+# AUTOMATION PROFILES
 
 ```json
 {

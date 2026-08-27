@@ -1,12 +1,15 @@
 ---
 title: HUMAIN LEADERSHIP
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Humain leadership 
@@ -3388,7 +3391,7 @@ This prevents:
 
 
 * * *
-### 🔟 Endings are dignified, not avoided
+### Endings are dignified, not avoided
 A humane system **does not avoid exits**.
 It does exits like this:
   * no humiliation

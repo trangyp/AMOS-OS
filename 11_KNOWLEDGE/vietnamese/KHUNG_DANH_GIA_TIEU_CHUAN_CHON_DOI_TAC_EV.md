@@ -1,12 +1,15 @@
 ---
 title: KHUNG DANH GIA TIEU CHUAN CHON DOI TAC EV
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # **KHUNG ĐÁNH GIÁ TIÊU CHUẨN CHỌN ĐỐI TÁC EV**
@@ -466,7 +469,7 @@ Bộ 3 tiêu chí này xác định mức **phù hợp thực tế với thị t
 
 
 * * *
-# **🟩 KẾT LUẬN – BẢN 31 TIÊU CHÍ ĐÃ ĐẦY ĐỦ & KHÔNG CÒN LỖ HỔNG**
+# **KẾT LUẬN – BẢN 31 TIÊU CHÍ ĐÃ ĐẦY ĐỦ & KHÔNG CÒN LỖ HỔNG**
   * Bao trùm toàn bộ các rủi ro có thể xảy ra trong **nhập khẩu – vận hành – bảo hành – mở rộng đội xe**.
 
 

@@ -1,16 +1,4 @@
 ---
-title: AMOS COLLAPSE SPACE COVERAGE AUDIT
-tags: [amos-general, amos, general]
-type: code
-source: 11_KNOWLEDGE/amos-general
----
-
-
-
-
-
-````markdown
----
 title: AMOS Collapse-Space Coverage Audit
 version: 2.0.0
 created: 2026-08-25
@@ -27,7 +15,16 @@ amos_alignment:
   - Causal Firewall
   - Scope/Regime Firewall
   - Measurement Integrity
+type: document
+source: 11_KNOWLEDGE/amos-general
+tags: [amos_os, amos-general, canon/knowledge]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # AMOS Collapse-Space Coverage Audit
 
@@ -1368,10 +1365,4 @@ The legacy document remains useful as historical source material, but its numeri
 **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · amos-7-part-universe-canon-full · amos-16-canonical-laws-existence · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ```
-
-:contentReference[oaicite:0]{index=0}
 ```
-```
-
----
-**MOC:** [[AMOS-GENERAL_MOC]]

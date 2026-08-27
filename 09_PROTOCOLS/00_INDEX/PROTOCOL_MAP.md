@@ -1,9 +1,14 @@
 ---
 title: PROTOCOL MAP
 type: protocol
-tags: [amos_os, 09_protocols]
+source: 09_PROTOCOLS/00_INDEX
+tags: [amos_os, 09_protocols, canon/protocol]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # PROTOCOL MAP

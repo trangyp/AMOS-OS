@@ -1,8 +1,15 @@
 ---
 title: "Control MOC"
 type: moc
-tags: [moc, control]
+source: 11_KNOWLEDGE/control
+tags: [moc, control, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: control_plane
 ---
+
 
 # Control — Map of Content
 

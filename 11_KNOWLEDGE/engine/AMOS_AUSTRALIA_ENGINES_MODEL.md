@@ -3,9 +3,13 @@ title: AMOS AUSTRALIA ENGINES MODEL
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/state/derived, topic/amos-australia-engines-model, engine]
 type: document
 source: 11_KNOWLEDGE/engine
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
+
 ---
-
-
 
 
 # AMOS Australia Engines Model
@@ -36,3 +40,6 @@ This model documents the three unified kernels operating within the `amos-austra
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

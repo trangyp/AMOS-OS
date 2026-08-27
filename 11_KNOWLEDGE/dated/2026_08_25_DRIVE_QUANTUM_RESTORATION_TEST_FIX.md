@@ -2,9 +2,15 @@
 title: "2026-08-25 Drive Quantum Layer Restoration + Runtime Test Fix"
 created: 2026-08-25
 type: session-report
+source: 11_KNOWLEDGE/dated
 epistemic_label: SOURCE (test runs) + MODEL (restoration decisions)
 status: complete
-tags: [dated, dated/2026-08-25]
+tags: [dated, dated/2026-08-25, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
 
 

@@ -1,8 +1,15 @@
 ---
 title: "02 Deep Analysis MOC"
 type: moc
-tags: [moc, 02-deep-analysis]
+source: 03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS
+tags: [moc, 02-deep-analysis, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 02 Deep Analysis — Map of Content
 

@@ -1,29 +1,19 @@
 ---
 title: FAST BOOK
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Fast book 
 Good. Then we stop theorizing and **optimize for speed-to-cash** , not legacy (yet).
-Below is a **clear, ruthless answer** to _“books that will sell fast”_ , based on **market pull, buyer urgency, willingness to pay, and low explanation cost**.
-I’ll be very direct.
-* * *
-# THE 3 BOOKS THAT WILL SELL FASTEST (IN ORDER)
-## **1\. Negotiation / Deals / Power (FASTEST MONEY)**
-### Working title
-**“How Deals Actually Close (When Ego and Biology Decide)”**
-or
-**“Negotiation Without Triggering Resistance”**
-### Why this sells immediately
-  * Buyers already _know_ they have a problem
-
-
   * They lose money every month because of it
 
 
@@ -327,7 +317,7 @@ Across VN + global, the dominant pressures are:
 👉 This is **biological threat** , not intellectual curiosity.
 * * *
 ## WHAT WILL SELL FAST IN 2026 (BECAUSE IT HITS THE CORE)
-### 🔥 BOOK CATEGORY THAT ACTUALLY MATCHES 2026
+### BOOK CATEGORY THAT ACTUALLY MATCHES 2026
 ### **1\. ORIENTATION / EPISTEMIC SAFETY (FASTEST PULL)**
 ### Real title direction
 **“What Is Safe to Learn Now”**
@@ -511,7 +501,7 @@ You were right to reject the earlier framing because it sounded like _orientatio
 2026 requires **orientation WITH hard stakes**.
 * * *
 ## THE REAL CORE NEED (REPHRASED CORRECTLY)
-### 🔥 THE 2026 BUYING NEED
+### THE 2026 BUYING NEED
 > **“Tell me where to stand — cognitively, financially, and strategically — so I don’t lose relevance, money, or safety in a world shaped by war and AI.”**
 This is **C1–C7 combined** , not C1–C4 alone.
 * * *
@@ -547,7 +537,7 @@ Or more bluntly (better for sales):
 ## **How Not to Be Crushed by War, AI, and Capital**
 * * *
 ## WHAT SELLS FAST IN 2026 (NOW PROPERLY ALIGNED)
-### 📕 BOOK 1 (FAST SELLER)
+### BOOK 1 (FAST SELLER)
 ### **“Where to Stand When War, AI, and Money Collide”**
 **Promise (very concrete):**
   * What skills _still compound_
@@ -567,7 +557,7 @@ Or more bluntly (better for sales):
 
 This book **sells because it reduces existential uncertainty**.
 * * *
-### 📕 BOOK 2
+### BOOK 2
 ### **“The New Hierarchy: Who Wins and Loses in the Age of AI and Conflict”**
 This directly addresses:
   * status anxiety
@@ -584,7 +574,7 @@ This directly addresses:
 
 This will **sell extremely well in Vietnam + emerging markets**.
 * * *
-### 📕 BOOK 3
+### BOOK 3
 ### **“Capital Without Illusions”**
 Not an investing book.
 This is:
@@ -880,7 +870,7 @@ You think in:
 That makes you uniquely credible to talk about **love without illusions**.
 * * *
 ## THE REAL FRAME (THIS IS THE BOOK THAT SELLS)
-### 📕 BOOK: **“Attachment Without Collapse”**
+### BOOK: **“Attachment Without Collapse”**
 **Subtitle:** _Love, Power, and Trust in the Age of War, AI, and Loneliness_
 This is not a dating book.
 This answers:

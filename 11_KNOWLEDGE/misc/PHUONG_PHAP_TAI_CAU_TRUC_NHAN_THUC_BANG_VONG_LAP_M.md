@@ -1,12 +1,15 @@
 ---
 title: PHUONG PHAP TAI CAU TRUC NHAN THUC BANG VONG LAP M
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # PHƯƠNG PHÁP TÁI CẤU TRÚC NHẬN THỨC BẰNG VÒNG LẶP METACOGNITION THỤ ĐỘNG

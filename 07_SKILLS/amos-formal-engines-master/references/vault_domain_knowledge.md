@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-formal-engines-master]
+source: 07_SKILLS/amos-formal-engines-master/references
+tags: [reference, amos-formal-engines-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # amos-formal-engines-master — Vault-Sourced Domain Knowledge
 
@@ -36,15 +43,7 @@ Its function is to transform an oversized field of possible observations, claims
 
 Conceptually:
 
-\[
-Candidate\ Space
-\rightarrow
-Attention\ Selection
-\rightarrow
-Resource\ Allocation
-\rightarrow
-Focused\ Processing
-\]
+$$Candidate\ Space \rightarrow Attention\ Selection \rightarrow Resource\ Allocation \rightarrow Focused\ Processing$$
 
 subject to:
 
@@ -940,8 +939,6 @@ Which reasoning path should receive resources next?
 ---
 
 ## L — Local Attention
-
-
 
 
 ## Vault-Sourced Domain Content

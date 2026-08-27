@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX O00 DISTINCTION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, lifecycle_operations, o00_distinction, contract]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION
+tags: [cognitive_matrix, lifecycle_operations, o00_distinction, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # O00_DISTINCTION — Drawing boundaries: what is distinct from what, under scope compatibility checks.
@@ -47,3 +52,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[O00_DISTINCTION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

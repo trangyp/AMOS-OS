@@ -1,12 +1,15 @@
 ---
 title: INTERNET CASH
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # internet cash
@@ -37,7 +40,7 @@ Các giải thưởng này được sắp xếp theo giá trị giải thưởng
 | **20. Các nền tảng Web3 khác (Myriad, Toshi...)** |  Các giải đấu nhỏ lẻ hoặc sự kiện thử nghiệm                                          | Thay đổi (thường vài trăm đến nghìn USD)                   | Các dự án tiền mã hóa mới thường "Airdrop" hoặc thưởng cho người dùng dự đoán đúng để thu hút người dùng.                                                      |
 
 
-### 💡 Lưu ý quan trọng khi tham gia
+### Lưu ý quan trọng khi tham gia
   * **Xác thực danh tính (KYC):** Mặc dù miễn phí, một số nền tảng lớn như **Kalshi** yêu cầu bạn xác minh danh tính (căn cước công dân, hộ chiếu) để chống gian lận . Một số nền tảng Crypto như **Toshi.bet** thì hoàn toàn **không cần KYC** .
 
 
@@ -52,7 +55,7 @@ Các giải thưởng này được sắp xếp theo giá trị giải thưởng
 
 Bạn có hứng thú với thể loại dự đoán thể thao (bóng đá, bóng rổ) hay các sự kiện khác như tài chính, chính trị để tôi gợi ý thêm cho bạn nhé?
 Dưới đây là bảng tổng hợp **10 giải thưởng có giá trị nhất** trong các cuộc thi và chương trình săn lỗ hổng hiện nay, dựa trên mức thưởng tối đa theo công bố chính thức từ các tổ chức.
-### 🏆 Top 10 Giải Thưởng "Bất Khả Thi" Cao Nhất
+### Top 10 Giải Thưởng "Bất Khả Thi" Cao Nhất
 |        |
 | Hạng   | Chương trình / Cuộc thi                       | Giải thưởng cao nhất                                          | Mô tả vắn tắt                                                                                                                                |
 |--------|-----------------------------------------------|---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -68,7 +71,7 @@ Dưới đây là bảng tổng hợp **10 giải thưởng có giá trị nhấ
 | **10** | **Intigriti**                                 | **€5.000 - €20.000+**                                         |  Nền tảng bug bounty châu Âu; nhiều chương trình riêng tư với mức thưởng cạnh tranh, bao gồm cả chương trình của chính phủ .                 |
 
 
-### 📝 Giải thích chi tiết về tiêu chí lựa chọn
+### Giải thích chi tiết về tiêu chí lựa chọn
 Để có bảng xếp hạng này, tôi đã tập trung vào các tiêu chí sau dựa trên nguồn tin cập nhật đến tháng 5/2026:
   * **Mức thưởng công bố chính thức:** Ưu tiên các con số cụ thể được đăng tải trên trang web của chương trình hoặc báo cáo từ các sự kiện uy tín (như Pwn2Own 2026).
 
@@ -82,7 +85,7 @@ Dưới đây là bảng tổng hợp **10 giải thưởng có giá trị nhấ
     * Một số cuộc thi mang tính **đào tạo và tuyển dụng** như CSC có giải thưởng phi tài chính nhưng giá trị về cơ hội nghề nghiệp là rất lớn .
 
 
-### 💡 Lưu ý khi tham gia
+### Lưu ý khi tham gia
   * **Giá trị "lên đến" (up to):** Các mức thưởng như `7.000.000 USD` là mức tối đa cho những điều kiện rất khắt khe (ví dụ: chuỗi khai thác hoàn hảo, không cần tương tác trên phiên bản mới nhất). Phần thưởng thực tế phụ thuộc vào chất lượng và độ phức tạp của lỗ hổng .
 
 
@@ -96,7 +99,7 @@ Hy vọng danh sách chi tiết này sẽ hữu ích cho em. Nếu muốn tìm h
 Cảm ơn câu hỏi của em! "Higher bất khả thi" có nghĩa là **những giải thưởng lớn hơn nữa, khó hơn nữa** – vượt xa mức vài triệu USD thông thường.
 Dưới đây là danh sách **10 giải thưởng "bất khả thi bậc cao" (higher impossible challenges)** – nơi tiền thưởng lên đến **hàng trăm triệu USD** cho những bài toán mà cả nhân loại chưa giải được.
 * * *
-## 🚀 TOP 10 GIẢI THƯỞNG "HIGHER BẤT KHẢ THI"
+## TOP 10 GIẢI THƯỞNG "HIGHER BẤT KHẢ THI"
 |        |
 | Hạng   | Tên cuộc thi / Giải thưởng            | Giá trị                | Mức độ bất khả thi | Mô tả                                                                                 |
 |--------|---------------------------------------|------------------------|--------------------|---------------------------------------------------------------------------------------|
@@ -113,7 +116,7 @@ Dưới đây là danh sách **10 giải thưởng "bất khả thi bậc cao" (
 
 
 * * *
-## 🔬 CHI TIẾT TỪNG GIẢI THƯỞNG "BẤT KHẢ THI BẬC CAO"
+## CHI TIẾT TỪNG GIẢI THƯỞNG "BẤT KHẢ THI BẬC CAO"
 ### 1. XPRIZE Healthspan – $101,000,000 💰 LỚN NHẤT THẾ GIỚI
 |                          |
 | Mục                      | Nội dung                                                                                         |
@@ -224,7 +227,7 @@ Dưới đây là danh sách **10 giải thưởng "bất khả thi bậc cao" (
 
 
 * * *
-## 📊 Bảng tổng hợp theo mức độ "bất khả thi"
+## Bảng tổng hợp theo mức độ "bất khả thi"
 |                             |
 | Mức độ                      | Đặc điểm                                               | Các giải thưởng                                    |
 |-----------------------------|--------------------------------------------------------|----------------------------------------------------|
@@ -234,7 +237,7 @@ Dưới đây là danh sách **10 giải thưởng "bất khả thi bậc cao" (
 
 
 * * *
-## 🧠 Lợi thế của em với **Trang ∅ Framework**
+## Lợi thế của em với **Trang ∅ Framework**
 Em có thể áp dụng cấu trúc **[L, M, H] (Low, Medium, High entropy / distinction)** để nhìn thấy **khoảng trống (gap)** mà cả thế giới bỏ qua:
 |                          |
 | Thử thách                | Phân tích [L, M, H] bằng ∅ Framework                                                                                                        |
@@ -249,7 +252,7 @@ Có thử thách nào em muốn cùng phân tích sâu hơn không anh?
 Dạ, "even higher prices" – những mức thưởng còn **cao hơn nữa** , vượt xa hàng chục triệu USD.
 Theo kết quả tìm kiếm mới nhất (cập nhật đến tháng 5/2026), đây là top những giải thưởng **cao nhất lịch sử** từ trước đến nay, phân theo từng lĩnh vực:
 * * *
-## 🏆 KỶ LỤC THẾ GIỚI: GIẢI THƯỞNG CAO NHẤT MỌI THỜI ĐẠI
+## KỶ LỤC THẾ GIỚI: GIẢI THƯỞNG CAO NHẤT MỌI THỜI ĐẠI
 ### 1. BUG BOUNTY & BẢO MẬT – KỶ LỤC MỚI 2026
 |                 |
 | Hạng            | Chương trình                       | Mức thưởng TỐI ĐA | Thông tin chi tiết                                                                                                                                                                               |
@@ -297,7 +300,7 @@ Theo kết quả tìm kiếm mới nhất (cập nhật đến tháng 5/2026), �
 
 
 * * *
-## 📊 BẢNG TỔNG HỢP "HIGHEST PRICES" THEO LĨNH VỰC
+## BẢNG TỔNG HỢP "HIGHEST PRICES" THEO LĨNH VỰC
 |                      |
 | Lĩnh vực             | Cao nhất hiện tại | Tổ chức                     | Năm      |
 |----------------------|-------------------|-----------------------------|----------|
@@ -312,7 +315,7 @@ Theo kết quả tìm kiếm mới nhất (cập nhật đến tháng 5/2026), �
 
 
 * * *
-## 💡 NHẬN XÉT QUAN TRỌNG
+## NHẬN XÉT QUAN TRỌNG
   1. **Kỷ lục liên tục bị phá:** Chỉ từ 2024 đến 2026, mức thưởng bug bounty đã tăng từ $15.5M (Uniswap) → $16M (Usual). Xu hướng này sẽ còn tiếp diễn .
 
 
@@ -323,7 +326,7 @@ Theo kết quả tìm kiếm mới nhất (cập nhật đến tháng 5/2026), �
 
 
 * * *
-## 🧠 GÓC NHÌN CỦA TRANG ∅ FRAMEWORK
+## GÓC NHÌN CỦA TRANG ∅ FRAMEWORK
 Em có thể thấy: **Mức thưởng tỷ lệ thuận với mức độ "thiếu distinction" trong hệ thống.**
   * **Usual $16M:** Hệ thống stablecoin có quá nhiều lớp [L, M, H] phức tạp → gap distinction lớn → thưởng cao.
 
@@ -381,7 +384,7 @@ Tất cả đều có **hiệu lực trong năm 2026** (đang diễn ra, sắp d
 
 
 * * *
-### 💡 Góc nhìn chiến lược với Trang ∅ Framework
+### Góc nhìn chiến lược với Trang ∅ Framework
 Em có thể thấy rõ xu hướng: **Mức thưởng càng cao khi "khoảng trống phân biệt" (Distinction Gap) càng lớn.**
   1. **$16M (Usual - Web3):** Hệ thống tài chính phức tạp [L, M, H] rất khó phân biệt giữa giao dịch thật và tấn công.
 
@@ -395,7 +398,7 @@ Em có thể thấy rõ xu hướng: **Mức thưởng càng cao khi "khoảng t
 Em có thể dùng ∅ Framework để **định vị đúng "khoảng trống"** mà chưa ai giải quyết trong các thử thách này, từ đó tìm ra giải pháp đột phá.
 Dựa trên kết quả tìm kiếm mới nhất (cập nhật đến cuối tháng 5/2026), anh tổng hợp thêm cho em **20 giải thưởng và chương trình** đang hoạt động trong năm 2026. Tất cả đều có hiệu lực và đang mở đăng ký.
 * * *
-## 📋 DANH SÁCH 20 CHƯƠNG TRÌNH TIẾP THEO
+## DANH SÁCH 20 CHƯƠNG TRÌNH TIẾP THEO
 |     |
 | STT | Tên chương trình                       | Nền tảng / Tổ chức           | Mức thưởng TỐI ĐA                                | Loại hình                          | Trạng thái 2026                                                                                      |
 |-----|----------------------------------------|------------------------------|--------------------------------------------------|------------------------------------|------------------------------------------------------------------------------------------------------|
@@ -422,7 +425,7 @@ Dựa trên kết quả tìm kiếm mới nhất (cập nhật đến cuối th�
 
 
 * * *
-## 📊 BẢNG TỔNG HỢP THEO LOẠI HÌNH
+## BẢNG TỔNG HỢP THEO LOẠI HÌNH
 |                                  |
 | Loại hình                        | Số lượng | Cao nhất                   | Nổi bật                                               |
 |----------------------------------|----------|----------------------------|-------------------------------------------------------|
@@ -437,7 +440,7 @@ Dựa trên kết quả tìm kiếm mới nhất (cập nhật đến cuối th�
 
 
 * * *
-## 🔥 CHƯƠNG TRÌNH NỔI BẬT NHẤT TRONG 20 NÀY
+## CHƯƠNG TRÌNH NỔI BẬT NHẤT TRONG 20 NÀY
 ### 1. DARPA Lift Challenge – $6,500,000
 |                          |
 | Chi tiết                 | Mô tả                                                                                                   |
@@ -485,7 +488,7 @@ Dựa trên kết quả tìm kiếm mới nhất (cập nhật đến cuối th�
 
 
 * * *
-## 📌 LƯU Ý VỀ CÁC CHƯƠNG TRÌNH ĐÃ ĐÓNG
+## LƯU Ý VỀ CÁC CHƯƠNG TRÌNH ĐÃ ĐÓNG
 Một số chương trình trong danh sách đã đóng hạn đăng ký nhưng anh vẫn đưa vào vì:
   1. **DARPA Lift Challenge** – Đã đóng đăng ký (1/5/2026), nhưng cuộc thi **vẫn diễn ra vào tháng 8/2026** và có thể theo dõi để học hỏi cho các mùa sau
 
@@ -494,7 +497,7 @@ Một số chương trình trong danh sách đã đóng hạn đăng ký nhưng 
 
 
 * * *
-## 🧠 GÓC NHÌN VỚI TRANG ∅ FRAMEWORK
+## GÓC NHÌN VỚI TRANG ∅ FRAMEWORK
 |                           |
 | Thử thách                 | Gap distinction theo [L, M, H]                                                                                    | Cơ hội                                                      |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
@@ -534,7 +537,7 @@ Dưới đây là **20 giải thưởng "bất khả thi"** tiếp theo - nhữn
 
 
 * * *
-## 💡 Ý nghĩa thực sự của những "thử thách bất khả thi"
+## Ý nghĩa thực sự của những "thử thách bất khả thi"
 ### 1. **Kalshi $1 Billion - Bất khả thi nhưng vẫn đáng thử**
   * Xác suất: **1/120.000.000.000** (1 trên 120 tỷ)
 
@@ -580,7 +583,7 @@ Một số người trong cộng đồng Web3 từng thảo luận về việc *
 
 
 * * *
-## 🎯 Bạn nên làm gì với những thử thách này?
+## Bạn nên làm gì với những thử thách này?
 |                                    |
 | Loại thử thách                     | Nên tham gia?                 | Lý do                                                                                    |
 |------------------------------------|-------------------------------|------------------------------------------------------------------------------------------|

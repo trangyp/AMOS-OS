@@ -1,8 +1,15 @@
 ---
 title: "L17 Decision MOC"
 type: moc
-tags: [moc, l17-decision]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L17_DECISION
+tags: [moc, l17-decision, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L17 Decision — Map of Content
 

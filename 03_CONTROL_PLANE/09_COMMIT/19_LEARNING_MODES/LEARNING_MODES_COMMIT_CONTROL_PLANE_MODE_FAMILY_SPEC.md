@@ -1,9 +1,14 @@
 ---
 title: LEARNING MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
-tags: [control_plane, 19_learning_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/19_LEARNING_MODES
+tags: [control_plane, 19_learning_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # LEARNING MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
@@ -70,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[19_LEARNING_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

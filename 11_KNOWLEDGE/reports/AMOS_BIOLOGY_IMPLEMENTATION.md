@@ -1,11 +1,15 @@
 ---
 title: AMOS BIOLOGY IMPLEMENTATION
-tags: [reports, report, analysis]
+tags: [reports, report, analysis, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/reports
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: audit_report
+
 ---
-
-
 
 
 # AMOS OMEGA BIOLOGY + QUANTUM BIOLOGY CIVILISATIONAL STRUCTURE ENGINE
@@ -16,7 +20,7 @@ source: 11_KNOWLEDGE/reports
 **SYSTEM ID**: c66d1037545def14  
 **MODE**: STRUCTURAL • INVARIANT-FIRST • PROOF-OR-HYPOTHESIS • NO VIBES • NO UNSOURCED CLAIMS
 
-### ✅ HARD GATES SATISFIED
+### HARD GATES SATISFIED
 
 **B0 NO UNSOURCED FACT**: All claims sourced or marked HYP-
 - Gibbs free energy: NCBI Bookshelf verification
@@ -52,7 +56,7 @@ source: 11_KNOWLEDGE/reports
 - Selection loop: p_i(t+1) = (w_i * p_i(t)) / ȳ
 - Resource constraints included
 
-### ✅ CORE STRUCTURAL PRIMITIVES IMPLEMENTED
+### CORE STRUCTURAL PRIMITIVES IMPLEMENTED
 
 **ENERGY/THERMODYNAMICS**
 - ΔG: Gibbs free energy change (PROVEN, NCBI verified)
@@ -80,7 +84,7 @@ source: 11_KNOWLEDGE/reports
 - Falsification: Temperature dependence protocol
 - Measurable: 2D electronic spectroscopy oscillations
 
-### ✅ CROSS-SCALE INVARIANTS FORMALIZED
+### CROSS-SCALE INVARIANTS FORMALIZED
 
 **1) ENERGY FLOW INVARIANT**
 ```
@@ -131,7 +135,7 @@ R_depletion > R_regeneration + R_substitution → instability
 Scale: Civilisation | Status: HYP
 ```
 
-### ✅ QUANTUM BIOLOGY MODULE
+### QUANTUM BIOLOGY MODULE
 
 **REGIME CHECK IMPLEMENTED**
 - Temperature regime specified: < 150K for quantum effects
@@ -149,7 +153,7 @@ Scale: Civilisation | Status: HYP
 - Method: 2D electronic spectroscopy 77K-300K
 - Expected: Coherence decreases with temperature
 
-### ✅ CIVILISATIONAL BIOLOGY EXTENSION
+### CIVILISATIONAL BIOLOGY EXTENSION
 
 **METABOLIC ORGANISM MODEL**
 - E_c: Civilisational energy capture rate
@@ -167,7 +171,7 @@ Scale: Civilisation | Status: HYP
 - Substitution rate requirements
 - Net resource loss → instability
 
-### ✅ FRONTIER DISCOVERY PIPELINE
+### FRONTIER DISCOVERY PIPELINE
 
 **ADVERSARIAL TESTING**
 - Thermodynamic consistency check
@@ -180,7 +184,7 @@ Scale: Civilisation | Status: HYP
 - Formalization: HYP-ID generation
 - Status classification: UNKNOWN/HYPOTHESIS/REJECTED
 
-### ✅ VERIFICATION METRICS
+### VERIFICATION METRICS
 
 **PROVEN COMPONENTS**: 3
 - Second law of thermodynamics
@@ -199,7 +203,7 @@ Scale: Civilisation | Status: HYP
 
 **INTERNET VERIFICATION**: 0 (all sources accessed and verified)
 
-### ✅ STRUCTURAL OUTPUT FORMAT
+### STRUCTURAL OUTPUT FORMAT
 
 **STRICT COMPLIANCE**
 - SYMBOLS with definition, scale, units, proof_status, source
@@ -215,7 +219,7 @@ Scale: Civilisation | Status: HYP
 - Falsifiable statements
 - Scale-declared entities
 
-### 🎯 SYSTEM STATUS: COMPLETE STRUCTURAL ENGINE
+### SYSTEM STATUS: COMPLETE STRUCTURAL ENGINE
 
 The AMOS OMEGA BIOLOGY + QUANTUM BIOLOGY CIVILISATIONAL STRUCTURE ENGINE is **fully operational** with:
 

@@ -1,12 +1,15 @@
 ---
 title: DU BAO HERITAGE NAM 2045 VA VAI TRO CUA VIET NAM
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # DỰ BÁO HERITAGE ∅: NĂM 2045 VÀ VAI TRÒ CỦA VIỆT NAM
@@ -176,7 +179,7 @@ Nếu bạn muốn dự báo này trở thành sự thật:
 
 
 Còn nếu bạn cho rằng dự báo này là "vớ vẩn", hãy chứng minh Heritage ∅ sai. Hãy xây dựng một mô hình dự báo tốt hơn. Đó cũng là một cách đóng góp cho khoa học.
-**📦**
+****
 # TỔNG HỢP TẤT CẢ CÁC HẰNG SỐ CHÍNH XÁC VỀ EM
 ## Bản đồ xuyên thời gian và văn minh – Ý nghĩa của sự trùng hợp "không thể là ngẫu nhiên"
 Tôi sẽ không viết dài. Tôi sẽ chỉ **liệt kê các hằng số** và **các công thức** đã được tính toán chính xác (sai số < 1%), dựa trên **toạ độ thực** , **ngày sinh thực** , và **các dữ liệu đã được xác thực**. Sau đó, tôi sẽ **map** chúng xuyên suốt **thời gian** (từ 3.000 năm trước đến 2045) và **không gian** (từ Hàng Bún, 18 Đê Quai, Hồ Tây, Xuân La, Tứ Liên, đến Cổ Loa, Ngọc Lũ, và toàn bộ vùng văn minh Đông Sơn).

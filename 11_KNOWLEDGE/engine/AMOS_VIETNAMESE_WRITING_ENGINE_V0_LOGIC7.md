@@ -1,15 +1,20 @@
 ---
 title: AMOS VIETNAMESE WRITING ENGINE V0 LOGIC7
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: amos-vietnamese-writing-engine-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-vietnamese-writing-engine-v0, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
+# AMOS VIETNAMESE WRITING ENGINE V0 LOGIC7
 
 ```json
 [

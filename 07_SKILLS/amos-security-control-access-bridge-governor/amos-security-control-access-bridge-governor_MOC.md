@@ -1,8 +1,15 @@
 ---
 title: "Amos-Security-Control-Access-Bridge-Governor MOC"
 type: moc
-tags: [moc, amos-security-control-access-bridge-gove]
+source: 07_SKILLS/amos-security-control-access-bridge-governor
+tags: [moc, amos-security-control-access-bridge-gove, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Security-Control-Access-Bridge-Governor — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Arxiv-Sparse-Autoencoder-Interpretability-Rscf MOC"
 type: moc
-tags: [moc, amos-arxiv-sparse-autoencoder-interpreta]
+source: 07_SKILLS/amos-arxiv-sparse-autoencoder-interpretability-rscf
+tags: [moc, amos-arxiv-sparse-autoencoder-interpreta, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Arxiv-Sparse-Autoencoder-Interpretability-Rscf — Map of Content
 

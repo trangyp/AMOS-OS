@@ -1,7 +1,13 @@
 ---
 title: L20 CREDIT ASSIGNMENT PRIMITIVES COGNITIVE MATRIX DEFINITION
 type: note
-tags: [note, l20-credit-assignment]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L20_CREDIT_ASSIGNMENT
+tags: [note, l20-credit-assignment, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -46,3 +52,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L
 
 ---
 **MOC:** [[L20_CREDIT_ASSIGNMENT_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,8 +1,15 @@
 ---
 title: vietnamese writing engine
 type: reference
-tags: [reference, amos-c06-society-culture-master]
+source: 07_SKILLS/amos-c06-society-culture-master/references
+tags: [reference, amos-c06-society-culture-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Vietnamese Writing Engine
 
@@ -26,3 +33,7 @@ Lu\u00f4n hi\u1ec7u qu\u1ea3, b\u1ea5t k\u1ec3 ch\u1ee7 \u0111\u1ec1.\",\n      
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

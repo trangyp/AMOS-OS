@@ -1,12 +1,15 @@
 ---
 title: BAO CAO NGHIEN CUU TOAN DIEN VE THI TRUONG TAI XE
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **BÁO CÁO NGHIÊN CỨU TOÀN DIỆN VỀ THỊ TRƯỜNG TÀI XẾ VIỆT NAM (2025)**

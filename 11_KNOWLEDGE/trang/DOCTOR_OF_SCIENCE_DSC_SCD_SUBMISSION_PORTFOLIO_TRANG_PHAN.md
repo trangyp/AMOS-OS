@@ -3,7 +3,14 @@ title: DOCTOR OF SCIENCE DSC SCD SUBMISSION PORTFOLIO TRANG PHAN
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/doctor-of-science-dsc-scd-submission-por, trang]
 type: note
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
+
 
 # DOCTOR OF SCIENCE DSC SCD SUBMISSION PORTFOLIO TRANG PHAN
 

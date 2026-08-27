@@ -1,8 +1,15 @@
 ---
 title: gmef full
 type: reference
-tags: [reference, gmef-governance]
+source: 07_SKILLS/gmef-governance/references
+tags: [reference, gmef-governance, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Governed Machine Evolution Framework (GMEF)
 

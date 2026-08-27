@@ -1,8 +1,15 @@
 ---
 title: "Mckinsey-Strategy-Portfolio-Engine MOC"
 type: moc
-tags: [moc, mckinsey-strategy-portfolio-engine]
+source: 07_SKILLS/mckinsey-strategy-portfolio-engine
+tags: [moc, mckinsey-strategy-portfolio-engine, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Mckinsey-Strategy-Portfolio-Engine — Map of Content
 

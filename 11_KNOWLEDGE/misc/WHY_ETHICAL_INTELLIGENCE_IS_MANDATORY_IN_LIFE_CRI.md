@@ -1,12 +1,15 @@
 ---
 title: WHY ETHICAL INTELLIGENCE IS MANDATORY IN LIFE CRI
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **Why Ethical Intelligence™ Is Mandatory in Life-Critical Energy Systems**

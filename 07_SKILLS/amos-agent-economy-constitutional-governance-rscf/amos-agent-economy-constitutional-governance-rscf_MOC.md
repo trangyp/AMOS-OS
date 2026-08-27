@@ -1,8 +1,15 @@
 ---
 title: "Amos-Agent-Economy-Constitutional-Governance-Rscf MOC"
 type: moc
-tags: [moc, amos-agent-economy-constitutional-govern]
+source: 07_SKILLS/amos-agent-economy-constitutional-governance-rscf
+tags: [moc, amos-agent-economy-constitutional-govern, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Agent-Economy-Constitutional-Governance-Rscf — Map of Content
 

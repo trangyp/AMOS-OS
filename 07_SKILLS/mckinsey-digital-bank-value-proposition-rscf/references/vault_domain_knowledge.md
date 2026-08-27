@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, mckinsey-digital-bank-value-proposition-rscf]
+source: 07_SKILLS/mckinsey-digital-bank-value-proposition-rscf/references
+tags: [reference, mckinsey-digital-bank-value-proposition-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -267,3 +274,7 @@ Cooperation enhanceme
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

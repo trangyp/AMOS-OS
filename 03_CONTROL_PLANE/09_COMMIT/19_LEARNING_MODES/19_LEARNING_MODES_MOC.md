@@ -1,8 +1,15 @@
 ---
 title: "19 Learning Modes MOC"
 type: moc
-tags: [moc, 19-learning-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/19_LEARNING_MODES
+tags: [moc, 19-learning-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 19 Learning Modes — Map of Content
 

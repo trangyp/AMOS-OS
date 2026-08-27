@@ -1,9 +1,14 @@
 ---
 title: OBSERVABILITY OBSERVABILITY MAP
 type: map
-tags: [amos_os, 17_observability]
+source: 17_OBSERVABILITY/00_INDEX
+tags: [amos_os, 17_observability, canon/observability]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # OBSERVABILITY OBSERVABILITY MAP

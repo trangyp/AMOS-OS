@@ -1,10 +1,15 @@
 ---
 title: DOCUMENTATION ENGINE MODEL
 type: model
+source: 11_KNOWLEDGE/engine
 aliases: [Corporate Documentation Engine, AMOS_Documentation, Corp Doc Engine]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/documentation-engine-model, engine]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
 
 
 # AMOS Corporate Documentation Engine
@@ -41,3 +46,6 @@ To ensure safety and structural consistency, the engine applies overlays before 
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

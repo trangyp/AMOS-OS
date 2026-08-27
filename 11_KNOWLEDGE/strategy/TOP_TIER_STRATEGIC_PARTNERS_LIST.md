@@ -1,12 +1,15 @@
 ---
 title: TOP TIER STRATEGIC PARTNERS LIST
-tags: [strategy, game, planning]
+tags: [strategy, game, planning, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/strategy
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: strategy_game
+
 ---
-
-
-
 
 
 # **Top-Tier Strategic Partners List**

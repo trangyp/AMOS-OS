@@ -1,15 +1,20 @@
 ---
 title: HSE VIETNAM MASTER
 type: note
+source: 11_KNOWLEDGE/misc
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: hse-vietnam-master
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/hse-vietnam-master, misc]
 created: 2026-08-22
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
-
+# HSE VIETNAM MASTER
 
 ```json
 {

@@ -1,8 +1,15 @@
 ---
 title: "Brain MOC"
 type: moc
-tags: [moc, brain]
+source: 11_KNOWLEDGE/brain
+tags: [moc, brain, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
 ---
+
 
 # Brain — Map of Content
 

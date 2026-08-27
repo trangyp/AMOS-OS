@@ -1,9 +1,14 @@
 ---
 title: L26 SOCIAL COGNITION MAP
 type: map
-tags: [cognitive_matrix, l26_social_cognition]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L26_SOCIAL_COGNITION/00_INDEX
+tags: [cognitive_matrix, l26_social_cognition, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # L26 SOCIAL COGNITION MAP
@@ -56,3 +61,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

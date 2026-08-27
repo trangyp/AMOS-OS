@@ -1,9 +1,14 @@
 ---
 title: RECOVERY DEGRADED MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
-tags: [control_plane, 13_recovery_degraded_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/13_RECOVERY_DEGRADED_MODES
+tags: [control_plane, 13_recovery_degraded_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # RECOVERY DEGRADED MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
@@ -38,3 +43,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[13_RECOVERY_DEGRADED_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

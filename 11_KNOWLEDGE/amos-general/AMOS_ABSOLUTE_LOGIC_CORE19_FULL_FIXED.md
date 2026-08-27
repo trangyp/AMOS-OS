@@ -1,6 +1,7 @@
 ---
 title: AMOS ABSOLUTE LOGIC CORE19 FULL FIXED
 type: logic
+source: 11_KNOWLEDGE/amos-general
 name: amos-absolute-logic-core19-full
 version: 2.1.0
 updated: 2026-08-25
@@ -11,10 +12,13 @@ status: active
 source_alignment: AMOS_CORE v3.0→v4.4
 conclusion_class: SOURCE_ALIGNED_MODEL
 description: "see body"
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
-
-
 
 
 # AMOS Absolute Logic / Core-19

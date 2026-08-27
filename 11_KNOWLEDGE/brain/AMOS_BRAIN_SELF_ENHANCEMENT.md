@@ -3,9 +3,13 @@ title: AMOS BRAIN SELF ENHANCEMENT
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-brain-self-enhancement, brain]
 type: document
 source: 11_KNOWLEDGE/brain
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
+
 ---
-
-
 
 
 # AMOS Brain Self-Enhancement Analysis
@@ -218,3 +222,6 @@ The brain defines language dimensions: Phonology, Syntax, Semantics, Pragmatics,
 
 ---
 **Links:** [[BRAIN_MOC]] | [[KNOWLEDGE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

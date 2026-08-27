@@ -1,8 +1,15 @@
 ---
 title: "02 Decision Rights MOC"
 type: moc
-tags: [moc, 02-decision-rights]
+source: 23_OPERATING_MODEL/02_DECISION_RIGHTS
+tags: [moc, 02-decision-rights, canon/operating-model]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 02 Decision Rights — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Universal-Coordinate-System MOC"
 type: moc
-tags: [moc, amos-universal-coordinate-system]
+source: 07_SKILLS/amos-universal-coordinate-system
+tags: [moc, amos-universal-coordinate-system, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Universal-Coordinate-System — Map of Content
 

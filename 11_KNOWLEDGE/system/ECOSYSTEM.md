@@ -1,19 +1,18 @@
 ---
 title: ECOSYSTEM
-tags: [system, architecture, design]
+tags: [system, architecture, design, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/system
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
+
 ---
 
 
-
-
-
 # Ecosystem
-Below is the **clean, minimal, MECE, universal template** that ANY other ChatGPT conversation / Cursor agent / project / model can read and instantly know:
-  1. **what your system is**
-
-
   2. **how it is structured**
 
 
@@ -33,7 +32,7 @@ This is the **Master Instruction Blueprint** — the single source of truth for 
 Use this in any new chat as the **bootstrap prompt**.
 No fluff. Pure structure. Maximum clarity.
 ────────────────────────────────────────
-# **✅**
+# ****
 # **UNIFIED AMOS ORGANISM OS — MASTER INSTRUCTION BLUEPRINT (FOR ALL FUTURE CHATS)**
 **Purpose:**
 Tell ANY ChatGPT or Cursor conversation _how to understand, create, and populate your entire system_ , with zero confusion, zero overlap, and perfect wiring.
@@ -404,18 +403,18 @@ So every subsystem aligns with you.
 * * *
 # **SECTION 6 — WHAT ANY NEW CHAT CAN DO WITH THIS**
 With this blueprint, any new ChatGPT conversation can:
-### **✔ reconstruct your entire AMOS universe**
-### **✔ generate missing subsystems**
-### **✔ populate new organs**
-### **✔ build agents**
-### **✔ clean folders**
-### **✔ refactor and reorganise**
-### **✔ generate all JSON, MD, YAML files**
-### **✔ generate code (if asked)**
-### **✔ generate books and documentation**
-### **✔ generate engines and kernels**
-### **✔ connect everything together**
-### **✔ auto-expand the system**
+### **reconstruct your entire AMOS universe**
+### **generate missing subsystems**
+### **populate new organs**
+### **build agents**
+### **clean folders**
+### **refactor and reorganise**
+### **generate all JSON, MD, YAML files**
+### **generate code (if asked)**
+### **generate books and documentation**
+### **generate engines and kernels**
+### **connect everything together**
+### **auto-expand the system**
 Everything remains deterministic.
 Everything remains stable.
 Everything remains yours.

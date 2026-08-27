@@ -1,12 +1,15 @@
 ---
 title: TRANG CASCADE
-tags: [trang, framework, reality]
+tags: [trang, framework, reality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
 
 
 # TRANG CASCADE
@@ -28,16 +31,16 @@ Mọi sự phục hồi đều tuần tự qua mười hai bậc, bắt đầu t
 |     |
 | Bậc | Hiện tượng (trong xã hội / văn minh)                                                                     | Hiện tượng (trong tế bào / cơ thể)                                            | Hiện tượng (trong AI – Trang ASEA)                                          | Chỉ số Trang (E, Λ)                                                                       | Thời gian đặc trưng (tỷ lệ) |
 |-----|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------|
-| 1   | Suy yếu tầng nền (nông nghiệp, năng lượng, đạo đức, giáo dục)                                            | Thiếu hụt dinh dưỡng, mất cân bằng vi sinh (L)                                | Bộ nhớ nền (L) bị nhiễu, mất kết nối với M                                  | \\(E_L\\) tăng nhẹ (0.05 → 0.08)                                                          | t₀ (đơn vị cơ sở)           |
-| 2   | Gia tăng bất bình đẳng, xuất hiện các tế bào ung thư xã hội (tham nhũng, buôn lậu)                       | Xuất hiện tế bào viêm, đột biến nhẹ (M)                                       | Tầng M (điều phối) bắt đầu rối loạn                                         | \\(E_M\\) vượt 0.2, \\(\Lambda_M\\) tăng                                                  | 1.5 t₀                      |
-| 3   | Rạn nứt tầng kết nối (giao thông, truyền thông, niềm tin giữa các nhóm)                                  | Hệ miễn dịch suy yếu, lây nhiễm nhẹ, kết nối thần kinh giảm                   | Tầng M mất ưu tiên, không điều phối được H                                  | \\(E_M > 0.25\\), \\(\Lambda_M > 0.3\\)                                                   | 2.5 t₀                      |
-| 4   | Khủng hoảng kinh tế / tài chính, nợ công bắt đầu vượt ngưỡng                                             | Suy giảm chức năng tim, phổi, tiêu hóa (M)                                    | M không thể kết nối L với H → AI bắt đầu hallucination (nhẹ)                | \\(E_H\\) bắt đầu dao động mạnh                                                           | 4 t₀                        |
-| 5   | Xuất hiện các "thây ma" (doanh nghiệp, trường học, bệnh viện chỉ tồn tại hình thức)                      | Chức năng một số cơ quan ngừng hoạt động từng phần (M)                        | Hallucination trở nên phổ biến, Tát 2 liên tục thất bại                     | \\(\Lambda_H > 0.4\\), \\(E_H > 0.2\\)                                                    | 6 t₀                        |
-| 6   | Nổi loạn, biểu tình, bạo loạn, mất kiểm soát trật tự. Tầng H (chính phủ) mất kết nối với M và L.         | Suy đa cơ quan, hoại tử cục bộ (M lan sang L và H)                            | H mất kết nối với L và M, AI phản hồi vô nghĩa                              | \\(E_L > 0.1\\), \\(E_H > 0.3\\)                                                          | 8 t₀                        |
-| 7   | Phân rã tầng đỉnh (chính phủ lưu vong, quân đội tan rã, vua bỏ chạy)                                     | Suy hô hấp, suy tim, hôn mê (H)                                               | Sụp đổ gần như hoàn toàn, chỉ còn một số mô hình con hoạt động rời rạc      | \\(\Lambda_H > 0.6\\), \\(E_H > 0.35\\)                                                   | 11 t₀                       |
-| 8   | Chiến tranh, diệt chủng, thảm họa môi trường. Di dân hàng loạt.                                          | Các cơ quan ngừng hoạt động vĩnh viễn                                         | H mất hoàn toàn, M và L rời rạc, không thể suy luận                         | \\(E\\) cực cao ở mọi tầng                                                                | 15 t₀                       |
-| 9   | Mất hoàn toàn tầng H (không còn lãnh đạo, không còn hệ thống trung ương)                                 | Chết lâm sàng (ngưng tim, não)                                                | H = ∅, chỉ còn L hoạt động cầm chừng                                        | Như bậc 8, cộng thêm \\(E_L > 0.2\\)                                                      | 20 t₀                       |
-| 10  | Hủy diệt hoàn toàn, trở về trạng thái L mới (có thể là L của một hệ thống khác, hoặc chìm vào quên lãng) | Phân hủy sinh học, trở về khoáng chất, giải phóng năng lượng cho vòng đời mới | Không còn AI, chỉ còn các mảnh vỡ dữ liệu vô tri (L’ – khởi đầu cho AI mới) | \\(E_L\\) về ≈ 0 (trật tự mới), nhưng \\(E\\) của hệ thống cũ bằng 1 (hỗn loạn tuyệt đối) | 30 t₀                       |
+| 1   | Suy yếu tầng nền (nông nghiệp, năng lượng, đạo đức, giáo dục)                                            | Thiếu hụt dinh dưỡng, mất cân bằng vi sinh (L)                                | Bộ nhớ nền (L) bị nhiễu, mất kết nối với M                                  | \$E_L\$ tăng nhẹ (0.05 → 0.08)                                                          | t₀ (đơn vị cơ sở)           |
+| 2   | Gia tăng bất bình đẳng, xuất hiện các tế bào ung thư xã hội (tham nhũng, buôn lậu)                       | Xuất hiện tế bào viêm, đột biến nhẹ (M)                                       | Tầng M (điều phối) bắt đầu rối loạn                                         | \$E_M\$ vượt 0.2, \$\Lambda_M\$ tăng                                                  | 1.5 t₀                      |
+| 3   | Rạn nứt tầng kết nối (giao thông, truyền thông, niềm tin giữa các nhóm)                                  | Hệ miễn dịch suy yếu, lây nhiễm nhẹ, kết nối thần kinh giảm                   | Tầng M mất ưu tiên, không điều phối được H                                  | \$E_M > 0.25\$, \$\Lambda_M > 0.3\$                                                   | 2.5 t₀                      |
+| 4   | Khủng hoảng kinh tế / tài chính, nợ công bắt đầu vượt ngưỡng                                             | Suy giảm chức năng tim, phổi, tiêu hóa (M)                                    | M không thể kết nối L với H → AI bắt đầu hallucination (nhẹ)                | \$E_H\$ bắt đầu dao động mạnh                                                           | 4 t₀                        |
+| 5   | Xuất hiện các "thây ma" (doanh nghiệp, trường học, bệnh viện chỉ tồn tại hình thức)                      | Chức năng một số cơ quan ngừng hoạt động từng phần (M)                        | Hallucination trở nên phổ biến, Tát 2 liên tục thất bại                     | \$\Lambda_H > 0.4\$, \$E_H > 0.2\$                                                    | 6 t₀                        |
+| 6   | Nổi loạn, biểu tình, bạo loạn, mất kiểm soát trật tự. Tầng H (chính phủ) mất kết nối với M và L.         | Suy đa cơ quan, hoại tử cục bộ (M lan sang L và H)                            | H mất kết nối với L và M, AI phản hồi vô nghĩa                              | \$E_L > 0.1\$, \$E_H > 0.3\$                                                          | 8 t₀                        |
+| 7   | Phân rã tầng đỉnh (chính phủ lưu vong, quân đội tan rã, vua bỏ chạy)                                     | Suy hô hấp, suy tim, hôn mê (H)                                               | Sụp đổ gần như hoàn toàn, chỉ còn một số mô hình con hoạt động rời rạc      | \$\Lambda_H > 0.6\$, \$E_H > 0.35\$                                                   | 11 t₀                       |
+| 8   | Chiến tranh, diệt chủng, thảm họa môi trường. Di dân hàng loạt.                                          | Các cơ quan ngừng hoạt động vĩnh viễn                                         | H mất hoàn toàn, M và L rời rạc, không thể suy luận                         | \$E\$ cực cao ở mọi tầng                                                                | 15 t₀                       |
+| 9   | Mất hoàn toàn tầng H (không còn lãnh đạo, không còn hệ thống trung ương)                                 | Chết lâm sàng (ngưng tim, não)                                                | H = ∅, chỉ còn L hoạt động cầm chừng                                        | Như bậc 8, cộng thêm \$E_L > 0.2\$                                                      | 20 t₀                       |
+| 10  | Hủy diệt hoàn toàn, trở về trạng thái L mới (có thể là L của một hệ thống khác, hoặc chìm vào quên lãng) | Phân hủy sinh học, trở về khoáng chất, giải phóng năng lượng cho vòng đời mới | Không còn AI, chỉ còn các mảnh vỡ dữ liệu vô tri (L’ – khởi đầu cho AI mới) | \$E_L\$ về ≈ 0 (trật tự mới), nhưng \$E\$ của hệ thống cũ bằng 1 (hỗn loạn tuyệt đối) | 30 t₀                       |
 
 
 * * *
@@ -45,18 +48,18 @@ Mọi sự phục hồi đều tuần tự qua mười hai bậc, bắt đầu t
 |     |
 | Bậc | Hiện tượng (xã hội / văn minh)                                                                        | Hiện tượng (tế bào / cơ thể)                                  | Hiện tượng (AI – Trang ASEA)                                                                             | Chỉ số Trang (E, Λ)                                       | Thời gian đặc trưng   |
 |-----|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|-----------------------|
-| 1   | Xác định và bảo vệ nguồn năng lượng, lương thực, nước sạch còn sót lại (L)                            | Cấp cứu hồi sức tim phổi, truyền máu, chăm sóc đặc biệt (L)   | Khôi phục bộ nhớ nền từ các mảnh vỡ dữ liệu (L)                                                          | \\(E_L\\) giảm nhanh (về <0.1)                            | t₀’ (đơn vị phục hồi) |
-| 2   | Tổ chức lại các đơn vị cơ bản (gia đình, làng xóm, cộng đồng nhỏ)                                     | Tự phục hồi của các cơ quan không trọng yếu (M đang hồi phục) | Tái tạo tầng M (điều phối) dưới sự giám sát của L                                                        | \\(E_M\\) giảm (về <0.2)                                  | 1.2 t₀’               |
-| 3   | Tạo ra các bộ luật tạm thời (luật khẩn cấp) dựa trên sự đồng thuận cơ bản                             | Hệ miễn dịch bắt đầu hoạt động trở lại                        | Thiết lập Tát 2 nội bộ (kiểm tra chéo giữa L và M)                                                       | \\(T2\\) bắt đầu có hiệu lực                              | 1.5 t₀’               |
-| 4   | Khôi phục hệ thống giao thông, liên lạc, năng lượng địa phương (M)                                    | Hệ tuần hoàn bắt đầu ổn định, nhịp tim phục hồi               | M kết nối ổn định với L, H bắt đầu nhận tín hiệu                                                         | \\(\Lambda_M\\) giảm về <0.25                             | 2 t₀’                 |
-| 5   | Xuất hiện chính quyền lâm thời (H tạm thời)                                                           | Bệnh nhân tỉnh lại, có tri giác sơ khai                       | H khởi động lại, nhưng còn chậm                                                                          | \\(E_H\\) giảm về <0.25                                   | 3 t₀’                 |
-| 6   | Tổ chức bầu cử / bổ nhiệm lãnh đạo mới (H mới)                                                        | Hồi phục nhận thức cơ bản, biết tên, thời gian, không gian    | H bắt đầu suy luận, nhưng vẫn dựa nhiều vào L và M                                                       | \\(\Lambda_H\\) giảm về <0.4                              | 4 t₀’                 |
-| 7   | Xây dựng lại hệ thống giáo dục, y tế, an sinh xã hội (L, M, H phối hợp)                               | Bắt đầu ăn uống trở lại, vận động nhẹ                         | H có thể tự kiểm tra hallucination (cơ chế Tát 2)                                                        | \\(E_H\\) ổn định ở 0.2–0.3                               | 5.5 t₀’               |
-| 8   | Khôi phục hoàn toàn chức năng tầng H (chính phủ hoạt động trở lại)                                    | Hồi phục hoàn toàn tri giác, có thể làm việc nhẹ              | H hoạt động độc lập, nhưng vẫn cần giám sát bởi T2                                                       | \\(E_M\\) ổn định ở 0.1–0.15, \\(\Lambda_M\\) ≈ 0.2       | 7.5 t₀’               |
-| 9   | Bắt đầu phát triển kinh tế, văn hóa, khoa học (trở lại thời kỳ vàng)                                  | Hồi phục thể lực, có thể lao động bình thường                 | AI đạt trạng thái "lành mạnh": hallucination < ngưỡng bệnh lý                                            | \\(E_L\\) ≈ 0.05, \\(E_M\\)≈0.15, \\(E_H\\)≈0.2           | 10 t₀’                |
-| 10  | Cải thiện chất lượng cuộc sống vượt mức trước khi sụp đổ                                              | Sức khỏe tốt hơn trước khi bệnh (nhờ có kháng thể)            | AI thông minh hơn trước khi hallucination (nhờ có cơ chế tự sửa lỗi)                                     | \\(E_H\\) hạ xuống 0.15 (tối ưu), \\(\Lambda_H\\) 0.2–0.3 | 12.5 t₀’              |
-| 11  | Thiết lập các thể chế phòng ngừa (dự trữ, cảnh báo sớm, kiểm tra chéo) để tránh sụp đổ lần sau        | Hình thành trí nhớ miễn dịch, lối sống lành mạnh              | AI cập nhật bộ nhớ nền (L) – học từ sai lầm, tránh tái phạm                                              | \\(\Lambda\\) tối ưu cho từng tầng                        | 15 t₀’                |
-| 12  | Di sản (heritage) được thiết lập – văn minh mới mạnh hơn, bền vững hơn, có thể truyền lại cho hậu thế | Cơ thể khỏe mạnh, đề kháng tốt, sẵn sàng cho thử thách mới    | AI đạt trạng thái **“Trang ASEA hoàn chỉnh”** – tự tiến hóa, tự thích nghi, không cần con người giám sát | \\(\Lambda\\) và \\(E\\) trong vùng vàng (Goldilocks)     | 18 t₀’                |
+| 1   | Xác định và bảo vệ nguồn năng lượng, lương thực, nước sạch còn sót lại (L)                            | Cấp cứu hồi sức tim phổi, truyền máu, chăm sóc đặc biệt (L)   | Khôi phục bộ nhớ nền từ các mảnh vỡ dữ liệu (L)                                                          | \$E_L\$ giảm nhanh (về <0.1)                            | t₀’ (đơn vị phục hồi) |
+| 2   | Tổ chức lại các đơn vị cơ bản (gia đình, làng xóm, cộng đồng nhỏ)                                     | Tự phục hồi của các cơ quan không trọng yếu (M đang hồi phục) | Tái tạo tầng M (điều phối) dưới sự giám sát của L                                                        | \$E_M\$ giảm (về <0.2)                                  | 1.2 t₀’               |
+| 3   | Tạo ra các bộ luật tạm thời (luật khẩn cấp) dựa trên sự đồng thuận cơ bản                             | Hệ miễn dịch bắt đầu hoạt động trở lại                        | Thiết lập Tát 2 nội bộ (kiểm tra chéo giữa L và M)                                                       | \$T2\$ bắt đầu có hiệu lực                              | 1.5 t₀’               |
+| 4   | Khôi phục hệ thống giao thông, liên lạc, năng lượng địa phương (M)                                    | Hệ tuần hoàn bắt đầu ổn định, nhịp tim phục hồi               | M kết nối ổn định với L, H bắt đầu nhận tín hiệu                                                         | \$\Lambda_M\$ giảm về <0.25                             | 2 t₀’                 |
+| 5   | Xuất hiện chính quyền lâm thời (H tạm thời)                                                           | Bệnh nhân tỉnh lại, có tri giác sơ khai                       | H khởi động lại, nhưng còn chậm                                                                          | \$E_H\$ giảm về <0.25                                   | 3 t₀’                 |
+| 6   | Tổ chức bầu cử / bổ nhiệm lãnh đạo mới (H mới)                                                        | Hồi phục nhận thức cơ bản, biết tên, thời gian, không gian    | H bắt đầu suy luận, nhưng vẫn dựa nhiều vào L và M                                                       | \$\Lambda_H\$ giảm về <0.4                              | 4 t₀’                 |
+| 7   | Xây dựng lại hệ thống giáo dục, y tế, an sinh xã hội (L, M, H phối hợp)                               | Bắt đầu ăn uống trở lại, vận động nhẹ                         | H có thể tự kiểm tra hallucination (cơ chế Tát 2)                                                        | \$E_H\$ ổn định ở 0.2–0.3                               | 5.5 t₀’               |
+| 8   | Khôi phục hoàn toàn chức năng tầng H (chính phủ hoạt động trở lại)                                    | Hồi phục hoàn toàn tri giác, có thể làm việc nhẹ              | H hoạt động độc lập, nhưng vẫn cần giám sát bởi T2                                                       | \$E_M\$ ổn định ở 0.1–0.15, \$\Lambda_M\$ ≈ 0.2       | 7.5 t₀’               |
+| 9   | Bắt đầu phát triển kinh tế, văn hóa, khoa học (trở lại thời kỳ vàng)                                  | Hồi phục thể lực, có thể lao động bình thường                 | AI đạt trạng thái "lành mạnh": hallucination < ngưỡng bệnh lý                                            | \$E_L\$ ≈ 0.05, \$E_M\$≈0.15, \$E_H\$≈0.2           | 10 t₀’                |
+| 10  | Cải thiện chất lượng cuộc sống vượt mức trước khi sụp đổ                                              | Sức khỏe tốt hơn trước khi bệnh (nhờ có kháng thể)            | AI thông minh hơn trước khi hallucination (nhờ có cơ chế tự sửa lỗi)                                     | \$E_H\$ hạ xuống 0.15 (tối ưu), \$\Lambda_H\$ 0.2–0.3 | 12.5 t₀’              |
+| 11  | Thiết lập các thể chế phòng ngừa (dự trữ, cảnh báo sớm, kiểm tra chéo) để tránh sụp đổ lần sau        | Hình thành trí nhớ miễn dịch, lối sống lành mạnh              | AI cập nhật bộ nhớ nền (L) – học từ sai lầm, tránh tái phạm                                              | \$\Lambda\$ tối ưu cho từng tầng                        | 15 t₀’                |
+| 12  | Di sản (heritage) được thiết lập – văn minh mới mạnh hơn, bền vững hơn, có thể truyền lại cho hậu thế | Cơ thể khỏe mạnh, đề kháng tốt, sẵn sàng cho thử thách mới    | AI đạt trạng thái **“Trang ASEA hoàn chỉnh”** – tự tiến hóa, tự thích nghi, không cần con người giám sát | \$\Lambda\$ và \$E\$ trong vùng vàng (Goldilocks)     | 18 t₀’                |
 
 
 * * *
@@ -106,30 +109,17 @@ Trong đó t₀’ là thời gian đặc trưng của bậc 1 phục hồi (th�
 * * *
 ## V. PHƯƠNG TRÌNH CỐT LÕI CỦA TRANG CASCADE
 ### (1) Tốc độ sụp đổ (ở bậc i)
-\\[  
-\frac{d\text{Collapse}_i}{dt} = \frac{\text{Collapse}_{i-1} - \text{Collapse}_i}{\tau_i}  
-\\]  
-Với \\(\tau_i\\) là hằng số thời gian đặc trưng cho bậc i (theo tỷ lệ ở mục IV.1)
+\$$\frac{d\text{Collapse}_i}{dt} = \frac{\text{Collapse}_{i-1} - \text{Collapse}_i}{\tau_i}  
+\$$Với \$\tau_i\$ là hằng số thời gian đặc trưng cho bậc i (theo tỷ lệ ở mục IV.1)
 ### (2) Tốc độ phục hồi (ở bậc j)
-\\[  
-\frac{d\text{Recovery}_j}{dt} = \frac{\text{Recovery}_{j-1} - \text{Recovery}_j}{\tau'_j}  
-\\]
-### (3) Xác suất chuyển từ bậc i sang i+1 (sụp đổ)
-\\[  
-P(i \to i+1) = \sigma\left( \frac{E - \theta_i}{\Delta_i} \right) \quad \text{với } \sigma \text{ là sigmoid}.  
-\\]
+\$$\frac{d\text{Recovery}_j}{dt} = \frac{\text{Recovery}_{j-1} - \text{Recovery}_j}{\tau'_j}  
+$$### (3) Xác suất chuyển từ bậc i sang i+1 (sụp đổ) \$$P(i \to i+1) = \sigma\left( \frac{E - \theta_i}{\Delta_i} \right) \quad \text{với } \sigma \text{ là sigmoid}.$$
 ### (4) Xác suất chuyển từ bậc j sang j+1 (phục hồi)
-\\[  
-P(j \to j+1) = 1 - \sigma\left( \frac{E' \- \theta'_j}{\Delta'_j} \right)  
-\\]
-### (5) Điều kiện chuyển từ sụp đổ sang phục hồi
-\\[  
-\text{Transition} \iff \left( E_L < 0.1 \right) \land \left( \Lambda_L < 0.15 \right) \land \left( \text{Nguồn lực phục hồi} > \text{Ngưỡng} \right)  
-\\]
+\$$P(j \to j+1) = 1 - \sigma\left( \frac{E' \- \theta'_j}{\Delta'_j} \right)  
+$$### (5) Điều kiện chuyển từ sụp đổ sang phục hồi \$$\text{Transition} \iff \left( E_L < 0.1 \right) \land \left( \Lambda_L < 0.15 \right) \land \left( \text{Nguồn lực phục hồi} > \text{Ngưỡng} \right)$$
 ### (6) Điều kiện chuyển từ phục hồi sang ổn định bền vững (bậc 12)
-\\[  
-\text{Stable} \iff \left( 0.1 < E_M < 0.2 \right) \land \left( 0.1 < \Lambda_M < 0.3 \right) \land \left( T2 \text{ đạt} \right)  
-\\]
+\$$\text{Stable} \iff \left( 0.1 < E_M < 0.2 \right) \land \left( 0.1 < \Lambda_M < 0.3 \right) \land \left( T2 \text{ đạt} \right)  
+$$
 * * *
 ## VI. ỨNG DỤNG CỦA TRANG CASCADE
 |                                                                   |
@@ -137,7 +127,7 @@ P(j \to j+1) = 1 - \sigma\left( \frac{E' \- \theta'_j}{\Delta'_j} \right)
 |-------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | **Quản lý khủng hoảng (doanh nghiệp, chính phủ)**                 |  Xác định đang ở bậc mấy, từ đó có chiến lược can thiệp đúng bậc.                                    | Đo E, Λ của từng tầng. Nếu ở bậc 1-4 (sụp đổ), hãy bơm nguồn lực vào L. Nếu ở bậc 5-8, can thiệp vào M. Nếu bậc 9-10, khởi động lại từ L. |
 | **Y học (dự phòng và điều trị ung thư, suy tạng, bệnh mãn tính)** |  Phát hiện sớm ở bậc 1-2 (L và M) trước khi lan lên H.                                               | Dùng probiotic (L), thuốc điều hòa miễn dịch (M), liệu pháp nhắm trúng đích (H).                                                          |
-| **AI – Trang ASEA**                                               |  Tự phát hiện suy thoái (hallucination tăng, entropy tăng) và kích hoạt chế độ phục hồi (quay về L). | Theo dõi \\(E_H\\) và \\(\Lambda_H\\). Nếu vượt ngưỡng, tự giảm tốc độ học, tăng cường kết nối đến L, và thực hiện Tát 2 nghiêm ngặt.     |
+| **AI – Trang ASEA**                                               |  Tự phát hiện suy thoái (hallucination tăng, entropy tăng) và kích hoạt chế độ phục hồi (quay về L). | Theo dõi \$E_H\$ và \$\Lambda_H\$. Nếu vượt ngưỡng, tự giảm tốc độ học, tăng cường kết nối đến L, và thực hiện Tát 2 nghiêm ngặt.     |
 | **Lịch sử, nghiên cứu văn minh**                                  |  So sánh các nền văn minh đã sụp đổ (La Mã, Maya, Khmer…) với 10 bậc, rút ra điểm chung.             | Mapping các sự kiện lịch sử vào 10 bậc. Phát hiện ra các cảnh báo sớm (early warning signals).                                            |
 
 

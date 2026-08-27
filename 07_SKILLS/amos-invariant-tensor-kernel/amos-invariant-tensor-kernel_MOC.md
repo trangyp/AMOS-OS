@@ -1,8 +1,15 @@
 ---
 title: "Amos-Invariant-Tensor-Kernel MOC"
 type: moc
-tags: [moc, amos-invariant-tensor-kernel]
+source: 07_SKILLS/amos-invariant-tensor-kernel
+tags: [moc, amos-invariant-tensor-kernel, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Invariant-Tensor-Kernel — Map of Content
 

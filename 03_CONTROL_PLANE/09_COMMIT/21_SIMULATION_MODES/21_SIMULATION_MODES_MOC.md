@@ -1,8 +1,15 @@
 ---
 title: "21 Simulation Modes MOC"
 type: moc
-tags: [moc, 21-simulation-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/21_SIMULATION_MODES
+tags: [moc, 21-simulation-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 21 Simulation Modes — Map of Content
 

@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L06 WORKING STATE CONTRACT
 type: state
-tags: [cognitive_matrix, primitives, l06_working_state, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE
+tags: [cognitive_matrix, primitives, l06_working_state, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L06_WORKING_STATE — Working state Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L06_WORKING_STATE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

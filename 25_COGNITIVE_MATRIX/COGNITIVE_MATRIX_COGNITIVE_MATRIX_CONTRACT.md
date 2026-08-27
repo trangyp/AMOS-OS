@@ -1,16 +1,8 @@
 ---
-title: COGNITIVE MATRIX COGNITIVE MATRIX CONTRACT
-type: note
-tags: [note, 25-cognitive-matrix]
----
-
-
-````markdown
----
+title: "COGNITIVE MATRIX COGNITIVE MATRIX CONTRACT"
 canon-group: governance
 rscf-state: derived
-tags:
-  - cognitive_matrix
+tags: [- cognitive_matrix, canon/cognitive-matrix]
   - generators
   - index
   - contract
@@ -21,7 +13,15 @@ tags:
   - promotion
   - supersession
   - rscf
+type: document
+source: 25_COGNITIVE_MATRIX
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 12 Generators Contract
 
@@ -81,21 +81,7 @@ The contract exists to prevent **generation capability** from being confused wit
 
 The governing distinction is:
 
-$$
-\boxed{
-Generate(x)
-\neq
-Verify(x)
-\neq
-Validate(x)
-\neq
-Admit(x)
-\neq
-Promote(x)
-\neq
-Canonize(x)
-}
-$$
+$$\boxed{ Generate(x) \neq Verify(x) \neq Validate(x) \neq Admit(x) \neq Promote(x) \neq Canonize(x) }$$
 
 A generator produces a candidate result.
 
@@ -177,26 +163,22 @@ A generator is a governed transformation mechanism that accepts an admitted inpu
 
 Conceptually:
 
-$$
-G(I,C,S,E) \rightarrow O
-$$
+$$G(I,C,S,E) \rightarrow O$$
 
 where:
 
-* \(G\) = generator identity and version;
-* \(I\) = admitted input;
-* \(C\) = applicable constraints;
-* \(S\) = generator configuration/state;
-* \(E\) = execution environment;
-* \(O\) = generated output.
+* $G$ = generator identity and version;
+* $I$ = admitted input;
+* $C$ = applicable constraints;
+* $S$ = generator configuration/state;
+* $E$ = execution environment;
+* $O$ = generated output.
 
 For non-deterministic generators:
 
-$$
-G(I,C,S,E,\xi) \rightarrow O
-$$
+$$G(I,C,S,E,\xi) \rightarrow O$$
 
-where \(\xi\) represents stochastic or otherwise variable execution state.
+where $\xi$ represents stochastic or otherwise variable execution state.
 
 This notation is an architectural model.
 
@@ -271,17 +253,7 @@ These are different objects.
 
 Formally:
 
-$$
-G_{family}
-\neq
-G_{version}
-\neq
-G_{configuration}
-\neq
-Execution(G)
-\neq
-Output(G)
-$$
+$$G_{family} \neq G_{version} \neq G_{configuration} \neq Execution(G) \neq Output(G)$$
 
 A result produced by one version MUST NOT silently be attributed to another.
 
@@ -369,25 +341,17 @@ It must not silently invalidate an inherited hard constraint.
 
 Let:
 
-$$
-C_P
-$$
+$$C_P$$
 
 be a parent contract and:
 
-$$
-C_C
-$$
+$$C_C$$
 
 a child generator contract.
 
 Then:
 
-$$
-Hard(C_P)
-\subseteq
-Effective(C_C)
-$$
+$$Hard(C_P) \subseteq Effective(C_C)$$
 
 unless an authorized supersession explicitly changes the parent rule.
 
@@ -451,11 +415,7 @@ where known.
 
 Registration does not imply validation.
 
-$$
-Registered(G)
-\not\Rightarrow
-Validated(G)
-$$
+$$Registered(G) \not\Rightarrow Validated(G)$$
 
 ---
 
@@ -463,15 +423,15 @@ $$
 
 Registry presence establishes:
 
-> the subsystem has a registered representation of generator \(G\).
+> the subsystem has a registered representation of generator $G$.
 
 It does not establish:
 
-> generator \(G\) works correctly.
+> generator $G$ works correctly.
 
 Nor does it establish:
 
-> generator \(G\) is currently admitted.
+> generator $G$ is currently admitted.
 
 ---
 
@@ -504,17 +464,11 @@ A generator MUST NOT convert unsupported seed content into stronger evidence mer
 
 If:
 
-$$
-SeedClaim=P
-$$
+$$SeedClaim=P$$
 
-and \(P\) is unsupported, then:
+and $P$ is unsupported, then:
 
-$$
-Generate(P)
-\not\Rightarrow
-Verify(P)
-$$
+$$Generate(P) \not\Rightarrow Verify(P)$$
 
 ---
 
@@ -594,9 +548,7 @@ generator_input:
 
 Before consequential generation, the subsystem SHOULD determine whether:
 
-$$
-Admissible(I,G)
-$$
+$$Admissible(I,G)$$
 
 holds.
 
@@ -637,19 +589,7 @@ Every generator execution inherits applicable constraints from upstream context.
 
 Conceptually:
 
-$$
-C_{effective}
-=
-C_{root}
-\cup
-C_{task}
-\cup
-C_{mode}
-\cup
-C_{generator}
-\cup
-C_{execution}
-$$
+$$C_{effective} = C_{root} \cup C_{task} \cup C_{mode} \cup C_{generator} \cup C_{execution}$$
 
 subject to valid precedence and compatibility rules.
 
@@ -681,9 +621,7 @@ A downstream stage MUST NOT silently remove a hard upstream constraint.
 
 If:
 
-$$
-C_a \land C_b = \bot
-$$
+$$C_a \land C_b = \bot$$
 
 for required constraints, execution SHOULD NOT proceed as if both are satisfied.
 
@@ -725,10 +663,7 @@ Before relying on generator output, the subsystem SHOULD establish the required 
 
 Conceptually:
 
-$$
-Closure(G)=
-\{D_1,D_2,\ldots,D_n\}
-$$
+$$Closure(G)= \{D_1,D_2,\ldots,D_n\}$$
 
 Only dependencies capable of materially changing the result need to be traversed.
 
@@ -736,18 +671,13 @@ Only dependencies capable of materially changing the result need to be traversed
 
 # 25. Dependency Failure
 
-If load-bearing dependency \(D\) fails:
+If load-bearing dependency $D$ fails:
 
-$$
-D = INVALID
-$$
+$$D = INVALID$$
 
 then dependent conclusions SHOULD be invalidated:
 
-$$
-Descendants(D)
-\rightarrow INVALIDATE
-$$
+$$Descendants(D) \rightarrow INVALIDATE$$
 
 while unrelated conclusions remain intact.
 
@@ -809,19 +739,15 @@ Exact canonical state vocabularies belong to their dedicated artifacts.
 
 A generator MUST NOT be described as deterministic unless the applicable execution conditions support that claim.
 
-For deterministic generator \(G\):
+For deterministic generator $G$:
 
-$$
-G(I,S,E)=O
-$$
+$$G(I,S,E)=O$$
 
 should remain stable under the declared deterministic envelope.
 
 For stochastic generators:
 
-$$
-G(I,S,E,\xi)
-$$
+$$G(I,S,E,\xi)$$
 
 may legitimately produce multiple outputs.
 
@@ -913,13 +839,7 @@ generator_output:
 
 The core epistemic firewall is:
 
-$$
-\boxed{
-Generated(x)
-\not\Rightarrow
-True(x)
-}
-$$
+$$\boxed{ Generated(x) \not\Rightarrow True(x) }$$
 
 A generator output directly establishes only that the generator produced the output under the recorded execution conditions.
 
@@ -971,19 +891,11 @@ SOURCE_CLAIM
 
 and derives output from it without independent validation, the transformation does not convert the source claim into an observation.
 
-$$
-SOURCE\_CLAIM
-\xrightarrow{Generator}
-DERIVED
-$$
+$$SOURCE\_CLAIM \xrightarrow{Generator} DERIVED$$
 
 not:
 
-$$
-SOURCE\_CLAIM
-\xrightarrow{Generator}
-OBSERVATION
-$$
+$$SOURCE\_CLAIM \xrightarrow{Generator} OBSERVATION$$
 
 ---
 
@@ -1055,19 +967,15 @@ G2 ← Source S
 G3 ← Source S
 ```
 
-and all output claim \(C\).
+and all output claim $C$.
 
 Then:
 
-$$
-Count(Output_C)=3
-$$
+$$Count(Output_C)=3$$
 
 does not imply:
 
-$$
-IndependentEvidence(C)=3
-$$
+$$IndependentEvidence(C)=3$$
 
 ---
 
@@ -1097,11 +1005,7 @@ when those commonalities are load-bearing.
 
 The subsystem MUST NOT permit artificial confidence inflation through duplicated or recursively derived generators.
 
-$$
-N \times Descendant(P)
-\neq
-N \times IndependentEvidence(P)
-$$
+$$N \times Descendant(P) \neq N \times IndependentEvidence(P)$$
 
 ---
 
@@ -1198,19 +1102,15 @@ integration tests
 
 # 45. Test Evidence Boundary
 
-$$
-Pass(T)
-$$
+$$Pass(T)$$
 
 establishes only:
 
-> the tested behavior passed test \(T\) under the recorded test conditions.
+> the tested behavior passed test $T$ under the recorded test conditions.
 
 It does not establish:
 
-$$
-UniversalCorrectness(G)
-$$
+$$UniversalCorrectness(G)$$
 
 ---
 
@@ -1270,18 +1170,11 @@ Every meaningful validation claim SHOULD inherit an applicability envelope.
 
 Conceptually:
 
-$$
-V =
-(Population,System,Environment,Scale,Time,Regime,Method,Assumptions)
-$$
+$$V = (Population,System,Environment,Scale,Time,Regime,Method,Assumptions)$$
 
 Thus:
 
-$$
-Validated(G,V_1)
-\not\Rightarrow
-Validated(G,V_2)
-$$
+$$Validated(G,V_1) \not\Rightarrow Validated(G,V_2)$$
 
 ---
 
@@ -1333,21 +1226,7 @@ Admission SHOULD be explicit.
 
 Conceptually:
 
-$$
-Admit(G)
-=
-ContractOK
-\land
-IdentityKnown
-\land
-DependenciesOK
-\land
-ConstraintsOK
-\land
-RequiredValidationOK
-\land
-GovernanceOK
-$$
+$$Admit(G) = ContractOK \land IdentityKnown \land DependenciesOK \land ConstraintsOK \land RequiredValidationOK \land GovernanceOK$$
 
 with actual requirements determined by generator class and stakes.
 
@@ -1378,11 +1257,7 @@ Admission establishes permission within a defined envelope.
 
 It does not establish universal truth or capability.
 
-$$
-Admitted(G,S)
-\not\Rightarrow
-Valid(G,\forall S)
-$$
+$$Admitted(G,S) \not\Rightarrow Valid(G,\forall S)$$
 
 ---
 
@@ -1438,11 +1313,7 @@ promotion:
 
 # 56. Promotion Firewall
 
-$$
-Promotion(G)
-\not\Rightarrow
-Truth(Output(G))
-$$
+$$Promotion(G) \not\Rightarrow Truth(Output(G))$$
 
 Governance may authorize status.
 
@@ -1462,15 +1333,11 @@ A generator version SHOULD preserve enough identity to reconstruct its lineage.
 
 # 58. Version Law
 
-$$
-G@v_1
-\neq
-G@v_2
-$$
+$$G@v_1 \neq G@v_2$$
 
 unless the applicable versioning contract explicitly defines equivalence.
 
-Validation attached to \(v_1\) MUST NOT silently migrate to \(v_2\).
+Validation attached to $v_1$ MUST NOT silently migrate to $v_2$.
 
 ---
 
@@ -1515,11 +1382,7 @@ historical lineage
 
 # 61. Supersession Law
 
-$$
-Superseded(G_{old})
-\neq
-Erased(G_{old})
-$$
+$$Superseded(G_{old}) \neq Erased(G_{old})$$
 
 Old versions may remain necessary for:
 
@@ -1560,11 +1423,9 @@ Generators MAY be composed only when their contracts are compatible.
 
 For:
 
-$$
-G_2(G_1(I))
-$$
+$$G_2(G_1(I))$$
 
-the output contract of \(G_1\) must satisfy the relevant input contract of \(G_2\).
+the output contract of $G_1$ must satisfy the relevant input contract of $G_2$.
 
 ---
 
@@ -1572,19 +1433,7 @@ the output contract of \(G_1\) must satisfy the relevant input contract of \(G_2
 
 Conceptually:
 
-$$
-Compatible(G_1,G_2)
-=
-TypeCompatible
-\land
-ScopeCompatible
-\land
-RegimeCompatible
-\land
-ConstraintCompatible
-\land
-ProvenanceCompatible
-$$
+$$Compatible(G_1,G_2) = TypeCompatible \land ScopeCompatible \land RegimeCompatible \land ConstraintCompatible \land ProvenanceCompatible$$
 
 where applicable.
 
@@ -1606,7 +1455,7 @@ G2
 O2
 ```
 
-\(O_2\) remains causally/provenance dependent on \(O_1\) where \(O_1\) is load-bearing.
+$O_2$ remains causally/provenance dependent on $O_1$ where $O_1$ is load-bearing.
 
 The second generator does not create independent confirmation.
 
@@ -1618,10 +1467,7 @@ Where multiple generator operations form one logically indivisible reasoning uni
 
 Conceptually:
 
-$$
-Transaction =
-\{G_1,G_2,\ldots,G_n\}
-$$
+$$Transaction = \{G_1,G_2,\ldots,G_n\}$$
 
 with shared constraints and dependencies preserved.
 
@@ -1638,7 +1484,7 @@ G1 ──► O1 ──► G3
 G2 ──► O2
 ```
 
-If \(G1\) fails:
+If $G1$ fails:
 
 ```text
 invalidate O1
@@ -1714,17 +1560,7 @@ execution complexity
 
 only after integrity requirements are preserved.
 
-$$
-Integrity
->
-Completeness
->
-Fluency
->
-Speed
->
-TokenSavings
-$$
+$$Integrity > Completeness > Fluency > Speed > TokenSavings$$
 
 ---
 
@@ -1891,13 +1727,9 @@ Do not automatically destroy unrelated proof state.
 
 # 78. Confidence Ceiling
 
-For load-bearing premises \(P_1,\ldots,P_n\):
+For load-bearing premises $P_1,\ldots,P_n$:
 
-$$
-Conf(O)
-\le
-\min_i Conf(P_i)
-$$
+$$Conf(O) \le \min_i Conf(P_i)$$
 
 unless independent revalidation changes the evidence structure.
 
@@ -1937,13 +1769,7 @@ Instead of accumulating redundant generator outputs, prefer a high-information d
 
 Conceptually:
 
-$$
-T^*
-=
-\arg\max_T
-\frac{ExpectedDecisionRelevantInformation(T)}
-{Cost(T)}
-$$
+$$T^* = \arg\max_T \frac{ExpectedDecisionRelevantInformation(T)} {Cost(T)}$$
 
 subject to integrity, safety, and governance constraints.
 
@@ -2010,23 +1836,11 @@ Structural resemblance alone cannot establish causal effect.
 
 # 84. Causal Claim Rule
 
-$$
-StructuralSimilarity
-\not\Rightarrow
-Causation
-$$
+$$StructuralSimilarity \not\Rightarrow Causation$$
 
-$$
-TemporalSequence
-\not\Rightarrow
-Causation
-$$
+$$TemporalSequence \not\Rightarrow Causation$$
 
-$$
-Correlation
-\not\Rightarrow
-CausalEffect
-$$
+$$Correlation \not\Rightarrow CausalEffect$$
 
 A causal output requires appropriately typed evidence.
 
@@ -2053,19 +1867,15 @@ assumptions
 
 # 86. Scope Generalization Rule
 
-If output \(O\) is supported within scope \(S_1\):
+If output $O$ is supported within scope $S_1$:
 
-$$
-Supported(O,S_1)
-$$
+$$Supported(O,S_1)$$
 
 it MUST NOT silently become:
 
-$$
-Supported(O,S_2)
-$$
+$$Supported(O,S_2)$$
 
-where \(S_2\) extends beyond the validated envelope.
+where $S_2$ extends beyond the validated envelope.
 
 ---
 
@@ -2075,9 +1885,7 @@ Generator outputs may become stale after regime change.
 
 If:
 
-$$
-R_t \neq R_{t+1}
-$$
+$$R_t \neq R_{t+1}$$
 
 then conclusions depending on the old regime SHOULD be reconsidered.
 
@@ -2089,17 +1897,11 @@ For consequential generator conclusions, the subsystem SHOULD identify the small
 
 Conceptually:
 
-$$
-P^*
-=
-\arg\min_P Cost(Test(P))
-$$
+$$P^* = \arg\min_P Cost(Test(P))$$
 
 subject to:
 
-$$
-Flip(Result\mid P)
-$$
+$$Flip(Result\mid P)$$
 
 being plausible.
 
@@ -2249,11 +2051,7 @@ correlated evidence
 
 Audit success does not automatically imply empirical correctness.
 
-$$
-AuditPass
-\not\Rightarrow
-UniversalValidity
-$$
+$$AuditPass \not\Rightarrow UniversalValidity$$
 
 ---
 
@@ -2287,11 +2085,7 @@ generator_benchmark:
 
 # 99. Benchmark Boundary
 
-$$
-BenchmarkSuccess(G,B)
-\not\Rightarrow
-UniversalSuccess(G)
-$$
+$$BenchmarkSuccess(G,B) \not\Rightarrow UniversalSuccess(G)$$
 
 Reported benchmark performance remains bounded by:
 
@@ -2386,17 +2180,9 @@ Historical artifacts SHOULD NOT be silently rewritten to appear as if current ar
 
 GENERATORS_ROADMAP contains prospective development.
 
-$$
-Roadmap
-\neq
-Implementation
-$$
+$$Roadmap \neq Implementation$$
 
-$$
-Planned
-\neq
-Validated
-$$
+$$Planned \neq Validated$$
 
 ---
 
@@ -2463,11 +2249,7 @@ A generator MUST NOT bypass a governing restriction merely because generation is
 
 Capability does not imply authorization.
 
-$$
-Can(G,x)
-\not\Rightarrow
-May(G,x)
-$$
+$$Can(G,x) \not\Rightarrow May(G,x)$$
 
 ---
 
@@ -3044,35 +2826,11 @@ The generator subsystem exists to create useful candidate structures without all
 
 Therefore the governing chain is:
 
-$$
-\boxed{
-Input
-\rightarrow
-Admission
-\rightarrow
-Generator
-\rightarrow
-Output
-\rightarrow
-Challenge
-\rightarrow
-Validation
-\rightarrow
-Governance
-}
-$$
+$$\boxed{ Input \rightarrow Admission \rightarrow Generator \rightarrow Output \rightarrow Challenge \rightarrow Validation \rightarrow Governance }$$
 
 not:
 
-$$
-\boxed{
-Input
-\rightarrow
-Generator
-\rightarrow
-Truth
-}
-$$
+$$\boxed{ Input \rightarrow Generator \rightarrow Truth }$$
 
 The subsystem MUST preserve:
 
@@ -3095,23 +2853,11 @@ whenever they are material to the validity of the result.
 
 Its deepest invariant is:
 
-$$
-\boxed{
-Capability\ to\ Generate
-\neq
-Authority\ to\ Assert
-}
-$$
+$$\boxed{ Capability\ to\ Generate \neq Authority\ to\ Assert }$$
 
 and:
 
-$$
-\boxed{
-Generation
-\neq
-Evidence
-}
-$$
+$$\boxed{ Generation \neq Evidence }$$
 
 unless the generation event itself is the fact being evidenced.
 

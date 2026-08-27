@@ -1,8 +1,15 @@
 ---
 title: "Amos-Reality-Meta-Law-Auditor MOC"
 type: moc
-tags: [moc, amos-reality-meta-law-auditor]
+source: 07_SKILLS/amos-reality-meta-law-auditor
+tags: [moc, amos-reality-meta-law-auditor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Reality-Meta-Law-Auditor — Map of Content
 

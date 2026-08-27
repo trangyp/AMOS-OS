@@ -1,8 +1,15 @@
 ---
 title: "73 Retrieval Context Modes MOC"
 type: moc
-tags: [moc, 73-retrieval-context-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/73_RETRIEVAL_CONTEXT_MODES
+tags: [moc, 73-retrieval-context-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 73 Retrieval Context Modes — Map of Content
 

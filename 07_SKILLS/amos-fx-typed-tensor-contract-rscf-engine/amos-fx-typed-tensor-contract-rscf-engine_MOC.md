@@ -1,8 +1,15 @@
 ---
 title: "Amos-Fx-Typed-Tensor-Contract-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-fx-typed-tensor-contract-rscf-engin]
+source: 07_SKILLS/amos-fx-typed-tensor-contract-rscf-engine
+tags: [moc, amos-fx-typed-tensor-contract-rscf-engin, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Fx-Typed-Tensor-Contract-Rscf-Engine — Map of Content
 

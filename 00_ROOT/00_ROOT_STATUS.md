@@ -1,9 +1,14 @@
 ---
 title: 00 ROOT STATUS
 type: status
-tags: [amos_os, 00_root]
+source: 00_ROOT
+tags: [amos_os, 00_root, canon/root]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
-
 
 
 # 00 ROOT STATUS

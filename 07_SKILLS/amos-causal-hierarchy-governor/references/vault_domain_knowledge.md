@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-causal-hierarchy-governor]
+source: 07_SKILLS/amos-causal-hierarchy-governor/references
+tags: [reference, amos-causal-hierarchy-governor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -274,4 +281,5 @@ class Formula:
             args_str = ", ".join(repr(a) for a in
 
 ---
+- [[07_SKILLS_MOC]]
 **MOC:** [[references_MOC]]

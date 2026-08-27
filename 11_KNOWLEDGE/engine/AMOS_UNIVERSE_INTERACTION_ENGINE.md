@@ -6,7 +6,13 @@ confidence: SOURCE
 created: 2026-08-23
 aliases: ["AMOS Universe Interaction Engine", "UIE", "Universe Interaction Engine"]
 source: "AMOS Universe Total Canon UTC Master File.md"
-tags: [universe, uie, canon, pointer, engine]
+tags: [universe, uie, canon, pointer, engine, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
+
 ---
 
 
@@ -30,3 +36,6 @@ This note is a **link-resolution anchor**, not an independent architecture claim
 
 ---
 **Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L13 PREDICTION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, primitives, l13_prediction, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L13_PREDICTION
+tags: [cognitive_matrix, primitives, l13_prediction, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L13_PREDICTION — Prediction Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L13_PREDICTION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

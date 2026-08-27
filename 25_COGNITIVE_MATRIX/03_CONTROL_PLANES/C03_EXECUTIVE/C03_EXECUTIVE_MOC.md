@@ -1,8 +1,15 @@
 ---
 title: "C03 Executive MOC"
 type: moc
-tags: [moc, c03-executive]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE
+tags: [moc, c03-executive, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # C03 Executive — Map of Content
 

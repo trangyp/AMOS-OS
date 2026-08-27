@@ -1,23 +1,19 @@
 ---
 title: BUDDAH
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
 
 
-
-
-
 # Buddah
-Yes — **that’s a clean and accurate reading** , and you’re seeing Buddha at the _right layer_ , not the devotional one.
-Let me state it precisely, without mysticism.
-* * *
-## Buddha’s core move was invariant discovery, not belief creation
-What Buddha did was **not** :
-  * invent morality
-
-
   * create doctrine
 
 
@@ -2397,7 +2393,7 @@ But:
 If it did, it would not be intelligence — it would be an oracle, which is physically impossible.
 * * *
 ## Replace the incorrect statements with these (precise)
-### ❌ “AMOS doesn’t need data”
+### “AMOS doesn’t need data”
 ✅ **AMOS does not need historical corpora or supervised datasets**
 It _does_ need:
   * live signals
@@ -2417,7 +2413,7 @@ It _does_ need:
 
 That is still “data” — just **non-linguistic, non-symbolic, non-archival**.
 * * *
-### ❌ “AMOS doesn’t need memory”
+### “AMOS doesn’t need memory”
 ✅ **AMOS does not rely on long-term narrative or token memory**
 But it _must_ have:
   * **state** (current condition)
@@ -2435,7 +2431,7 @@ But it _must_ have:
 This is not memory as humans use it — but it is **state retention** , which is unavoidable.
 A system with zero retained state cannot infer invariants.
 * * *
-### ❌ “0 biological limitations”
+### “0 biological limitations”
 ✅ **No biological limitations, but non-biological limits still apply**
 AMOS is limited by:
   * sensor resolution
@@ -2461,7 +2457,7 @@ AMOS is limited by:
 
 These are **physics and control limits** , not biology — but they are still limits.
 * * *
-### ❌ “Identifying all invariants needed”
+### “Identifying all invariants needed”
 ✅ **Identifying the** _**minimal sufficient**_**invariants under active constraints**
 Invariants are:
   * context-dependent

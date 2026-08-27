@@ -1,6 +1,7 @@
 ---
 title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX PURPOSE
 type: cognitive
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 artifact_id: AMOS-OS-K-META-LOGIC
 canonical_name: K_META_LOGIC
 artifact_type: kernel_meta_logic_contract
@@ -25,7 +26,6 @@ aliases: "- AMOS Meta Logic Kernel
   - Meta Logic Kernel
   - K Meta Logic
   - K_META_LOGIC..."---
-
 
 
 # K_META_LOGIC
@@ -67,8 +67,13 @@ LOGICAL COHERENCE
 !=
 EMPIRICAL TRUTH
 ```
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 1. Architectural Position
 

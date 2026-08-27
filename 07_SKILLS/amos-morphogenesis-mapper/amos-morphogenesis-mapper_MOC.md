@@ -1,8 +1,15 @@
 ---
 title: "Amos-Morphogenesis-Mapper MOC"
 type: moc
-tags: [moc, amos-morphogenesis-mapper]
+source: 07_SKILLS/amos-morphogenesis-mapper
+tags: [moc, amos-morphogenesis-mapper, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Morphogenesis-Mapper — Map of Content
 

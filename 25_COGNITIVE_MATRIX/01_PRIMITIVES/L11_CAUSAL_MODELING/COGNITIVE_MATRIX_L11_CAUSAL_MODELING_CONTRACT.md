@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L11 CAUSAL MODELING CONTRACT
 type: cognitive
-tags: [cognitive_matrix, primitives, l11_causal_modeling, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L11_CAUSAL_MODELING
+tags: [cognitive_matrix, primitives, l11_causal_modeling, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L11_CAUSAL_MODELING — Causal modeling Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L11_CAUSAL_MODELING_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

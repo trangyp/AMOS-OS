@@ -1,8 +1,15 @@
 ---
 title: "Amos-Core19-Logic-Kernel MOC"
 type: moc
-tags: [moc, amos-core19-logic-kernel]
+source: 07_SKILLS/amos-core19-logic-kernel
+tags: [moc, amos-core19-logic-kernel, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Core19-Logic-Kernel — Map of Content
 

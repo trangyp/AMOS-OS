@@ -9,6 +9,12 @@ status: "active"
 provenance: "OBSERVATION"
 confidence: "DERIVED"
 source: "Ingest batch 2026-08-22"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
 
 

@@ -1,8 +1,15 @@
 ---
 title: consciousness engine layer
 type: reference
-tags: [reference, amos-c05-mind-behavior-master]
+source: 07_SKILLS/amos-c05-mind-behavior-master/references
+tags: [reference, amos-c05-mind-behavior-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Consciousness Engine Layer
 
@@ -114,4 +121,5 @@ Coverage targets (all 100%): emotion_states, somatic_state_patterns, relational_
 - `engine/C/consciousness_engine_v0.md` — consciousness engine v0
 
 ---
+- [[07_SKILLS_MOC]]
 **MOC:** [[references_MOC]]

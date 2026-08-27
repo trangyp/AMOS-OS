@@ -1,8 +1,15 @@
 ---
 title: "28 Engineering Math MOC"
 type: moc
-tags: [moc, 28-engineering-math]
+source: 21_DOMAINS/28_ENGINEERING_MATH
+tags: [moc, 28-engineering-math, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 28 Engineering Math — Map of Content
 

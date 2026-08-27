@@ -3,9 +3,13 @@ title: AMOS BRAIN LEARNING SESSION SUMMARY
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-brain-learning-session-summary, brain]
 type: document
 source: 11_KNOWLEDGE/brain
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
+
 ---
-
-
 
 
 # AMOS_Brain_Learning_Session_2026_08_22.md

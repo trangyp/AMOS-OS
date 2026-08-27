@@ -1,9 +1,14 @@
 ---
 title: INDEX C02 METACOGNITIVE CONTROL PLANES COGNITIVE MATRIX README
 type: index
-tags: [cognitive_matrix, c02_metacognitive]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C02_METACOGNITIVE/00_INDEX
+tags: [cognitive_matrix, c02_metacognitive, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INDEX C02 METACOGNITIVE CONTROL PLANES COGNITIVE MATRIX README
@@ -54,3 +59,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

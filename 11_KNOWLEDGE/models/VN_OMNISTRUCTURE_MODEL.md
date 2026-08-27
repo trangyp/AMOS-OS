@@ -3,10 +3,16 @@ title: "AMOS Vietnam Omnistructure Model"
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: brain-model
+source: 11_KNOWLEDGE/models
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/vn-omnistructure-model, models]
 status: "active"
 provenance: "VN_OMNISTRUCTURE.txt.txt"
 confidence: "STRUCTURAL"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: model_specification
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 type: canon
+source: 01_CANON/00_INDEX
 artifact_id: AMOS-OS-CANON-MAP
 name: AMOS_OS_CANON_MAP
 title: "AMOS OS Canon Map — Canonical Authority, Lineage, Provenance, and Promotion Topology"
@@ -37,7 +38,6 @@ aliases: "- AMOS Canon Map
 related: "see body"---
 
 
-
 # AMOS OS Canon Map
 
 **Origin architect / steward:** Trang Phan
@@ -45,8 +45,14 @@ related: "see body"---
 > **Status:** `ACTIVE_MAP`  
 > **AMOS_CORE target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
+
+# AMOS OS Canon Map — Canonical Authority, Lineage, Provenance, and Promotion Topology
 
 ## 0. Purpose
 

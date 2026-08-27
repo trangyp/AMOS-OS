@@ -1,8 +1,15 @@
 ---
 title: "Amos-Fx-Predictive-Fractal-Engine MOC"
 type: moc
-tags: [moc, amos-fx-predictive-fractal-engine]
+source: 07_SKILLS/amos-fx-predictive-fractal-engine
+tags: [moc, amos-fx-predictive-fractal-engine, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Fx-Predictive-Fractal-Engine — Map of Content
 

@@ -1,13 +1,20 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-arxiv-multistage-order-causal-discovery-rscf
 name: amos-arxiv-multistage-order-causal-discovery-rscf
 description: Arxiv Multistage Order Causal Discovery — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-arxiv-multistage-order-causal-discovery-rscf]
+tags: [note, amos-arxiv-multistage-order-causal-discovery-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
 
 
@@ -112,3 +119,77 @@ This file is designed as a stabl
 
 ---
 **Links:** [[07_SKILLS_MOC]]
+
+## Related
+
+- [[amos-arxiv-multistage-order-causal-discovery-rscf_MOC]]
+
+## Examples
+
+- **Scenario**: When arxiv research paper rscf skill for arxiv: multistage order causal discovery rscf is needed within the arxiv domain
+  - **Input**: A query matching this skill's domain (arxiv)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When the parent skill (`amos-knowledge-research-master`) routes to this specialized capability
+  - **Input**: A query matching this skill's domain (arxiv)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When a query requires arxiv-specific reasoning grounded in vault sources
+  - **Input**: A query matching this skill's domain (arxiv)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the arxiv domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[amos-knowledge-research-master]]` — routes to this skill when arxiv specialization is needed
+- **Peers**: Other skills in the `arxiv` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/causal_discovery_spec.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `[[amos-arxiv-multistage-order-causal-discovery-rscf_MOC]]` — skill Map of Content
+- `[[amos-knowledge-research-master]]` — parent skill
+- `[[amos-arxiv-multistage-order-causal-discovery-rscf-workflow]]` — corresponding workflow
+- `[[amos-arxiv-multistage-order-causal-discovery-rscf-agent]]` — corresponding agent
+

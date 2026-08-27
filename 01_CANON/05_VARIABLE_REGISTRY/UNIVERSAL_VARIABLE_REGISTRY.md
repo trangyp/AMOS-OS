@@ -1,5 +1,6 @@
 ---
 type: variable
+source: 01_CANON/05_VARIABLE_REGISTRY
 artifact_id: AMOS-UNIVERSAL-VARIABLE-REGISTRY
 name: UNIVERSAL_VARIABLE_REGISTRY
 title: "AMOS Universal Variable Registry"
@@ -27,7 +28,6 @@ aliases: "- AMOS Universal Variable Registry
   - AMOS Variable Registry
   - AM..."
 related: "see body"---
-
 
 
 # AMOS Universal Variable Registry
@@ -92,8 +92,13 @@ VERSION
 The registry is a semantic identity layer.
 
 It is not a store of all runtime values.
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 1. Hard Boundary
 

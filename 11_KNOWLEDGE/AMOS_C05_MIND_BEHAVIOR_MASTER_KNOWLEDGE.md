@@ -1,8 +1,15 @@
 ---
 title: "AMOS C05 — Mind & Behavior Master Knowledge"
 type: mind
-tags: [knowledge, note]
+source: 11_KNOWLEDGE
+tags: [knowledge, note, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # AMOS C05 — Mind & Behavior Master Knowledge
 

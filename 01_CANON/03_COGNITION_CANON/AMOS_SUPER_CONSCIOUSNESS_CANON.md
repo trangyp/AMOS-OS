@@ -1,6 +1,7 @@
 ---
 title: "AMOS Super Consciousness Canon"
 type: canon
+source: 01_CANON/03_COGNITION_CANON
 artifact: "AMOS_SUPER_CONSCIOUSNESS_CANON.md"
 artifact_id: "amos_01_canon_03_cognition_canon_amos_super_consciousness_canon"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "01_CANON/03_COGNITION_CANON"
 artifact_kind: "CANON"
 path: "01_CANON/03_COGNITION_CANON/AMOS_SUPER_CONSCIOUSNESS_CANON.md"
 
-tags: [amos_os, canon, universe, 01_canon, canon_placeholder, rscf]
+tags: [amos_os, canon, universe, 01_canon, canon_placeholder, rscf, canon/universe]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # AMOS Super Consciousness Canon

@@ -1,8 +1,15 @@
 ---
 title: "01 Canon MOC"
 type: moc
-tags: [moc, 01-canon]
+source: 01_CANON
+tags: [moc, 01-canon, canon/universe]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 01 Canon — Map of Content
 
@@ -28,3 +35,6 @@ tags: [moc, 01-canon]
 
 ---
 **Parent:** [[AMOS_HOME]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

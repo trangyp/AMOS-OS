@@ -1,8 +1,15 @@
 ---
 title: "Amos-Tensor-Train-Sketching-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-tensor-train-sketching-rscf-engine]
+source: 07_SKILLS/amos-tensor-train-sketching-rscf-engine
+tags: [moc, amos-tensor-train-sketching-rscf-engine, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Tensor-Train-Sketching-Rscf-Engine — Map of Content
 

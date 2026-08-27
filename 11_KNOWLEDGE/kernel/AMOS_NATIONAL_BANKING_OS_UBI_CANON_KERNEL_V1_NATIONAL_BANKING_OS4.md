@@ -1,15 +1,20 @@
 ---
 title: AMOS NATIONAL BANKING OS UBI CANON KERNEL V1 NATIONAL BANKING OS4
 type: canon
+source: 11_KNOWLEDGE/kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-national-banking-os-ubi-canon-kernel-v1
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-national-banking-os-ubi-canon-kerne, kernel]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
-
-
+# AMOS NATIONAL BANKING OS UBI CANON KERNEL V1 NATIONAL BANKING OS4
 
 ```json
 [

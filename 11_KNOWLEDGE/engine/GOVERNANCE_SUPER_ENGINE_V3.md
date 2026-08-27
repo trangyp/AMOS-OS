@@ -1,15 +1,20 @@
 ---
 title: GOVERNANCE SUPER ENGINE V3
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: governance-super-engine-v3
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/governance-super-engine-v3, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
+# GOVERNANCE SUPER ENGINE V3
 
 ```json
 {
@@ -909,3 +914,6 @@ created: 2026-08-22
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

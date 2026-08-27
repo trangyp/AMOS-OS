@@ -1,8 +1,15 @@
 ---
 title: "Amos-Information-Theory-Master MOC"
 type: moc
-tags: [moc, amos-information-theory-master]
+source: 07_SKILLS/amos-information-theory-master
+tags: [moc, amos-information-theory-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Information-Theory-Master — Map of Content
 

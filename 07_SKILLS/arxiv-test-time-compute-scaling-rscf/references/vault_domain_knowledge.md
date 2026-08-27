@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, arxiv-test-time-compute-scaling-rscf]
+source: 07_SKILLS/arxiv-test-time-compute-scaling-rscf/references
+tags: [reference, arxiv-test-time-compute-scaling-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 

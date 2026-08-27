@@ -1,8 +1,15 @@
 ---
 title: "Amos-Repair-Priority-Governor MOC"
 type: moc
-tags: [moc, amos-repair-priority-governor]
+source: 07_SKILLS/amos-repair-priority-governor
+tags: [moc, amos-repair-priority-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Repair-Priority-Governor — Map of Content
 

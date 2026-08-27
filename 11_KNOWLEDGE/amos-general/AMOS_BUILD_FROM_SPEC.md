@@ -3,10 +3,14 @@ title: AMOS BUILD FROM SPEC
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-build-from-spec, amos-general]
 type: data
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
-
+# AMOS BUILD FROM SPEC
 
 ```json
 {\rtf1\ansi\ansicpg1252\cocoartf2867

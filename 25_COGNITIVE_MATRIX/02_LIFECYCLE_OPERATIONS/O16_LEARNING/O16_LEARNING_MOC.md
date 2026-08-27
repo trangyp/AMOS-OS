@@ -1,8 +1,15 @@
 ---
 title: "O16 Learning MOC"
 type: moc
-tags: [moc, o16-learning]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O16_LEARNING
+tags: [moc, o16-learning, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # O16 Learning — Map of Content
 

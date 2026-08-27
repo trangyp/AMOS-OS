@@ -1,12 +1,15 @@
 ---
 title: CHIEN LUOC DU LIEU HOP DEN UNITAXI BIEN DU LIE
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # **Chiến lược dữ liệu “Hộp đen” UniTaxi – Biến dữ liệu thành tài sản sinh lời**

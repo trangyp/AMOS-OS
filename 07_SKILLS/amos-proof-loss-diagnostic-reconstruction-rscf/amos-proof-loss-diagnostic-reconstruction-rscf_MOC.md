@@ -1,8 +1,15 @@
 ---
 title: "Amos-Proof-Loss-Diagnostic-Reconstruction-Rscf MOC"
 type: moc
-tags: [moc, amos-proof-loss-diagnostic-reconstructio]
+source: 07_SKILLS/amos-proof-loss-diagnostic-reconstruction-rscf
+tags: [moc, amos-proof-loss-diagnostic-reconstructio, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Proof-Loss-Diagnostic-Reconstruction-Rscf — Map of Content
 

@@ -3,10 +3,14 @@ title: TECH ENGINE ROOT
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/tech-engine, engine]
 type: data
 source: 11_KNOWLEDGE/engine
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
+
 ---
-
-
-
+# TECH ENGINE ROOT
 
 ```json
 {
@@ -3029,3 +3033,6 @@ source: 11_KNOWLEDGE/engine
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

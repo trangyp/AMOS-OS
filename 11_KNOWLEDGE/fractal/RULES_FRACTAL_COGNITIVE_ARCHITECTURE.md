@@ -1,8 +1,14 @@
 ---
 title: RULES FRACTAL COGNITIVE ARCHITECTURE
-tags: [fractal, math, self-similarity]
+tags: [fractal, math, self-similarity, canon/knowledge]
 type: note
 source: 11_KNOWLEDGE/fractal
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: fractal_system
+
 ---
 
 

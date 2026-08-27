@@ -3,9 +3,13 @@ title: AMOS BRAIN LEARNING MEMORY
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-brain-learning-memory, brain]
 type: document
 source: 11_KNOWLEDGE/brain
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
+
 ---
-
-
 
 
 # AMOS Brain: What I Learned (Updated with Corrected Architecture)

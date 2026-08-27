@@ -1,9 +1,14 @@
 ---
 title: MODE INDEX COMMIT CONTROL PLANE README
 type: index
-tags: [control_plane, 00_mode_index]
+source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
+tags: [control_plane, 00_mode_index, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # MODE INDEX COMMIT CONTROL PLANE README
@@ -73,3 +78,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_MODE_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

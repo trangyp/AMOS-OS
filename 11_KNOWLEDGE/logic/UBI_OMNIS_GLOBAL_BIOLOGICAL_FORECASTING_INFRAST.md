@@ -1,12 +1,15 @@
 ---
 title: UBI OMNIS GLOBAL BIOLOGICAL FORECASTING INFRAST
-tags: [logic, reasoning, formal]
+tags: [logic, reasoning, formal, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/logic
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
+
 ---
-
-
-
 
 
 # **UBI OMNIS™ — GLOBAL BIOLOGICAL FORECASTING INFRASTRUCTURE**
@@ -118,19 +121,19 @@ source: 11_KNOWLEDGE/logic
 
 
 ### **Predictive Capabilities**
-  * ✅ Destabilizing conditions
+  * Destabilizing conditions
 
 
-  * ✅ Overload windows
+  * Overload windows
 
 
-  * ✅ Flare-prone environments
+  * Flare-prone environments
 
 
-  * ✅ Recovery timing
+  * Recovery timing
 
 
-  * ✅ Safe operating load
+  * Safe operating load
 
 
 **Impact** : Addresses 70% of global healthcare spending burden while operating outside medical regulation.
@@ -295,22 +298,22 @@ source: 11_KNOWLEDGE/logic
 * * *
 ## **9\. Risk Mitigation & Strategic Positioning**
 ### **Integrated Blind Spot Corrections**
-  * ✅ **Market sizing** : Realistic TAM with achievable penetration
+  * **Market sizing** : Realistic TAM with achievable penetration
 
 
-  * ✅ **Regulatory strategy** : Non-medical positioning avoids FDA/EMA complexity
+  * **Regulatory strategy** : Non-medical positioning avoids FDA/EMA complexity
 
 
-  * ✅ **Technical architecture** : Hardware-agnostic, software-centric
+  * **Technical architecture** : Hardware-agnostic, software-centric
 
 
-  * ✅ **Commercial model** : Multi-vertical licensing prevents single-point dependency
+  * **Commercial model** : Multi-vertical licensing prevents single-point dependency
 
 
-  * ✅ **Data strategy** : Privacy-by-design enables global deployment
+  * **Data strategy** : Privacy-by-design enables global deployment
 
 
-  * ✅ **Category creation** : Clear infrastructure positioning vs. product company
+  * **Category creation** : Clear infrastructure positioning vs. product company
 
 
 ### **Strategic Advantages Embedded**

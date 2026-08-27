@@ -1,12 +1,17 @@
 ---
 title: XSS DOM THINGS TO TRY
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
-
-
+# XSS DOM THINGS TO TRY
 
 ### Things to Try
 If JQuery is being used & there is a sink that can alter DOM Elements (like attr())

@@ -1,6 +1,7 @@
 ---
-title: "Total Engine Matrix"
-type: engine
+title: "Total Engine Cross-Plane Matrix"
+type: cognitive_matrix
+source: 25_COGNITIVE_MATRIX
 artifact: "TOTAL_ENGINE_MATRIX.md"
 artifact_id: "amos_25_cognitive_matrix_total_engine_matrix"
 origin_architect: "Trang Phan"
@@ -8,208 +9,107 @@ steward: "Trang Phan"
 system: "AMOS OS"
 plane: "25_COGNITIVE_MATRIX"
 segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX"
+artifact_kind: "MATRIX_TABLE"
 path: "25_COGNITIVE_MATRIX/TOTAL_ENGINE_MATRIX.md"
 
-tags: [amos_os, cognitive_matrix, matrix, 25_cognitive_matrix, canon_placeholder, rscf]
+tags:
+  - amos_os
+  - cognitive_matrix
+  - vault
+  - 25_cognitive_matrix
+  - total_engine_matrix
+  - engine_routing
+  - multi_engine_convergence
+  - rscf
+  - canon_candidate
+  - canon/matrix
 
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
+validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+
+ingestion_action: "NATIVE_CANON_INGESTION"
+raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: AMOS_MODEL
+  provenance:
+    - 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
+    - 11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC
+    - AMOS_CORPUS
+  scope:
+    - COGNITIVE_MATRIX
+    - MASTER_ENGINE_MATRIX
+    - SOURCE_DEFINED_MODEL
+
+framework_binding:
+  control_plane:
+    artifact: "[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC]]"
+  knowledge_frameworks:
+    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC]]"
+
+epistemic_boundary:
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  matrix_structure: VERIFIED_SOURCE_STRUCTURE
+  cross_plane_routing: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
 ---
 
 
+# Total Engine Cross-Plane Routing Matrix Table
 
-# Total Engine Matrix
-
-## 0. Status
-
-`TOTAL_ENGINE_MATRIX.md` is an **ADD-ONLY placeholder** for the **Cognitive Matrix** plane segment at `25_COGNITIVE_MATRIX`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-Origin architect / steward:
-
-**Trang Phan**
+`TOTAL_ENGINE_MATRIX.md` is the master convergence table mapping all computational, biological, predictive, and logical engines across AMOS OS.
 
 ---
 
-## 1. Purpose
+# 1. Total Engine Convergence Grid
 
-This artifact reserves the **Total Engine Matrix** slot within the Cognitive Matrix plane. The Cognitive Matrix plane governs primitives L00-L29, lifecycle operations, control planes, scales, cell registry, routing, validation, generators.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
+| Engine Cluster | Primary Engine Artifacts | Core Function | Operational Formula |
+| :--- | :--- | :--- | :--- |
+| **Biological Alignment** | [[AMOS_UBI_SUPER_ENGINE]], [[NEUROSYNCAI_RECOVERY_ENGINE]] | Alignment & Fatigue Pacing | $i = (\text{NBI}\cdot\text{NEI}\cdot\text{SI}\cdot\text{BEI})^{1/4}, e = i^2$ |
+| **Structural Foresight** | [[TPE_TRANG_PREDICTION_ENGINE]], [[TSS_SEVEN_CYCLES]] | 7-Phase Lifecycle Forecasting | $i_{\text{TSS}} = [H(1-\Omega)(1-F)(1-S)]^{1/4}$ |
+| **Deterministic AI** | [[LDAI_LOGICALLY_DETERMINISTIC_AI]], [[DOMAIN_CANON_PROGRAMMING]] | Syntax-Invariant Logic Closure | $\text{Proof} \vdash \Delta S_{t+1}$ |
+| **Fractal Reasoning** | [[FRAI_FRACTAL_REASONING_AI]], [[TRANG_LACUNARITY]] | Recursive Multi-Scale Search | $\text{FRAI} = \langle \mathcal{D}, \mathcal{S}, \mathcal{R}, \mathcal{I}, \mathcal{A}, \mathcal{T}_2 \rangle$ |
+| **Autonomous Evolution** | [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]] | Self-Repairing Mutation Gating | $\text{ASEA}(t+1) = \sigma(\mu(\text{ASEA}(t)))$ |
 
 ---
 
-## 3. Ingestion Rule
+# 2. Inter-Plane & Vault Connections
+
+- **Control Plane MOC:** [[03_CONTROL_PLANE_MOC]]
+- **Knowledge Frameworks:** [[05_FRAMEWORKS_MOC]]
+- **Cognitive Matrix MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+
+---
+
+# 3. RSCF Contract
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+RSCF:
+  node_id: amos_25_cognitive_matrix_total_engine_matrix
+  node_type: matrix_table
+  claim_class: AMOS_MODEL
+  state: SOURCE_GROUNDED
+  H:
+    identity: "Total Engine Matrix Table"
+    role: "Master convergence grid connecting computational, biological, predictive, and logic engines"
+  M:
+    routed_engines: [biological_alignment, structural_foresight, deterministic_ai, fractal_reasoning, autonomous_evolution]
+  confidence_ceiling:
+    source_model: SOURCE_BOUND
+    runtime: UNKNOWN
 ```
 
 ---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `25_COGNITIVE_MATRIX · MATRIX` within the Cognitive Matrix plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-00_ROOT_MOC|AMOS MOC
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_25_cognitive_matrix_total_engine_matrix
-
-node_type: matrix
-
-path: 25_COGNITIVE_MATRIX/TOTAL_ENGINE_MATRIX.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[03_CONTROL_PLANE_MOC]] · [[05_FRAMEWORKS_MOC]]
 
 ---
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]

@@ -1,8 +1,15 @@
 ---
 title: "CARE AS INFRASTRUCTURE"
 type: infrastructure
-tags: [care-as-infrastructure, misc, reference]
+source: 11_KNOWLEDGE/misc
+tags: [care-as-infrastructure, misc, reference, canon/knowledge]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Care-as-Infrastructure
 

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Code-Agent-Harness-Rscf MOC"
 type: moc
-tags: [moc, amos-code-agent-harness-rscf]
+source: 07_SKILLS/amos-code-agent-harness-rscf
+tags: [moc, amos-code-agent-harness-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Code-Agent-Harness-Rscf — Map of Content
 

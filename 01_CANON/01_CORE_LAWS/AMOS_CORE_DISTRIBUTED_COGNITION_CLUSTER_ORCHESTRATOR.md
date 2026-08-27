@@ -1,14 +1,21 @@
 ---
 title: AMOS CORE DISTRIBUTED COGNITION CLUSTER ORCHESTRATOR
 type: note
+source: 01_CANON/01_CORE_LAWS
 canon-group: amos-core
 rscf-state: model
 schema_family: RSCF
 schema_role: KNOWLEDGE_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
-tags: [AMOS, cognitive, distributed-cognition, orchestrator, rscf, governance]
+tags: [AMOS, cognitive, distributed-cognition, orchestrator, rscf, governance, canon/universe]
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: core_laws
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
-
 
 
 # AMOS CORE — Distributed Cognition Cluster Orchestrator
@@ -484,3 +491,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[01_CORE_LAWS_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

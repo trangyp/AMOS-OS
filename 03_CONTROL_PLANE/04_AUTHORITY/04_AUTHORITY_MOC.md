@@ -1,8 +1,15 @@
 ---
 title: "04 Authority MOC"
 type: moc
-tags: [moc, 04-authority]
+source: 03_CONTROL_PLANE/04_AUTHORITY
+tags: [moc, 04-authority, canon/control-plane]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: authority_governance
 ---
+
 
 # 04 Authority — Map of Content
 

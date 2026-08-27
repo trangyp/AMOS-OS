@@ -1,8 +1,15 @@
 ---
 title: "Quantum MOC"
 type: moc
-tags: [moc, quantum]
+source: 11_KNOWLEDGE/quantum
+tags: [moc, quantum, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: quantum_reasoning
 ---
+
 
 # Quantum — Map of Content
 

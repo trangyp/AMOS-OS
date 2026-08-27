@@ -3,7 +3,14 @@ title: THE SYSTEM
 tags: [canon-group/planetary, canon/narrative, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/the-system, system]
 type: note
 source: 11_KNOWLEDGE/system
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
+
 ---
+
 
 # THE SYSTEM
 
@@ -323,3 +330,6 @@ That’s the common biology.
 
 ---
 **MOC:** [[SYSTEM_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

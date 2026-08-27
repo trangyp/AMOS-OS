@@ -1,9 +1,14 @@
 ---
 title: TEST MAP
 type: test
-tags: [amos_os, 19_tests]
+source: 19_TESTS/00_INDEX
+tags: [amos_os, 19_tests, canon/test]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # TEST MAP

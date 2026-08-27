@@ -3,7 +3,14 @@ title: ABSOLUTE HUMAN VERSION ROOT
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/derived, topic/absolute-human-final-version, human]
 type: note
 source: 11_KNOWLEDGE/human
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: human_alignment
+
 ---
+
 
 # ABSOLUTE HUMAN VERSION ROOT
 

@@ -1,11 +1,15 @@
 ---
 title: MEMORY ARCHITECTURE
-tags: [memory, state, persistence]
+tags: [memory, state, persistence, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/memory
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: memory_system
+
 ---
-
-
 
 
 # Memory Architecture

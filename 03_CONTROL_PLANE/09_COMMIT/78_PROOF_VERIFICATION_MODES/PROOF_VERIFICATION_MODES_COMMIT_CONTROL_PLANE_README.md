@@ -1,9 +1,14 @@
 ---
 title: PROOF VERIFICATION MODES COMMIT CONTROL PLANE README
 type: control-plane
-tags: [control_plane, 78_proof_verification_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/78_PROOF_VERIFICATION_MODES
+tags: [control_plane, 78_proof_verification_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # PROOF VERIFICATION MODES COMMIT CONTROL PLANE README
@@ -61,3 +66,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[78_PROOF_VERIFICATION_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

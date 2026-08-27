@@ -1,8 +1,15 @@
 ---
 title: rscf state architecture
 type: reference
-tags: [reference, amos-rscf-epistemic-master]
+source: 07_SKILLS/amos-rscf-epistemic-master/references
+tags: [reference, amos-rscf-epistemic-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # RSCF State Architecture
 

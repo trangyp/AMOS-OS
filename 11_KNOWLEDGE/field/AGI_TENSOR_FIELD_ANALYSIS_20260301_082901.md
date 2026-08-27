@@ -1,13 +1,16 @@
 ---
 title: AGI TENSOR FIELD ANALYSIS 20260301 082901
-tags: [field, physics, domain]
+tags: [field, physics, domain, canon/knowledge]
 type: data
 source: 11_KNOWLEDGE/field
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: field_physics
+
 ---
-
-
-
-
+# AGI TENSOR FIELD ANALYSIS 20260301 082901
 
 ```json
 {

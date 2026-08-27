@@ -1,8 +1,15 @@
 ---
 title: "20 C10 Tech Engineering MOC"
 type: moc
-tags: [moc, 20-c10-tech-engineering]
+source: 21_DOMAINS/20_C10_TECH_ENGINEERING
+tags: [moc, 20-c10-tech-engineering, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 20 C10 Tech Engineering — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: "AMOS Tech Engine V∞ — Universal Technical Reasoning Kernel"
 type: reference
+source: 11_KNOWLEDGE/engine
 tags: [canon-group/tech-ai, amos, tech-engine, technical-reasoning, triple-density, computation, information, causality, interaction, identity, structure, state, transition, canon/framework, rscf/state/observation, rscf/claim, rscf/provenance, topic/amos-tech-engine-v]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
+
 
 # AMOS Tech Engine V∞
 
@@ -75,3 +82,6 @@ The Tech Engine V∞ serves as the universal technical reasoning substrate for A
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

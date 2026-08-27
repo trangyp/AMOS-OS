@@ -1,8 +1,15 @@
 ---
 title: "L05 Binding MOC"
 type: moc
-tags: [moc, l05-binding]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING
+tags: [moc, l05-binding, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L05 Binding — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-canon-universe-master]
+source: 07_SKILLS/amos-canon-universe-master/references
+tags: [reference, amos-canon-universe-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # amos-canon-universe-master — Vault-Sourced Domain Knowledge
 
@@ -1008,8 +1015,6 @@ Canon constrains all seven parts.
 Canon itself must not be confused with the uni
 
 
-
-
 ## Vault-Sourced Domain Content
 
 > Source: `01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON.md` (33919 bytes in vault)
@@ -1510,3 +1515,8 @@ WHAT T
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]
+```

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Arxiv-Quantum-Koopman-Rscf MOC"
 type: moc
-tags: [moc, amos-arxiv-quantum-koopman-rscf]
+source: 07_SKILLS/amos-arxiv-quantum-koopman-rscf
+tags: [moc, amos-arxiv-quantum-koopman-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Arxiv-Quantum-Koopman-Rscf — Map of Content
 

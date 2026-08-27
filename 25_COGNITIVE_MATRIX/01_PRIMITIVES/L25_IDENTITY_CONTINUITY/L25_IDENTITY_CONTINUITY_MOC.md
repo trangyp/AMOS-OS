@@ -1,8 +1,15 @@
 ---
 title: "L25 Identity Continuity MOC"
 type: moc
-tags: [moc, l25-identity-continuity]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L25_IDENTITY_CONTINUITY
+tags: [moc, l25-identity-continuity, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L25 Identity Continuity — Map of Content
 

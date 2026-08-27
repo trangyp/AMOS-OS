@@ -1,8 +1,15 @@
 ---
 title: audit quality max
 type: reference
-tags: [reference, amos-audit-repair-master]
+source: 07_SKILLS/amos-audit-repair-master/references
+tags: [reference, amos-audit-repair-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Audit Quality MAX
 
@@ -90,3 +97,7 @@ created: 2026-08-22
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,9 +1,14 @@
 ---
 title: CONTROL PLANE EXPOSURE CONTRACT
 type: control-plane
-tags: [control_plane, control_plane_exposure_contract.md]
+source: 03_CONTROL_PLANE/10_EXPOSURE
+tags: [control_plane, control_plane_exposure_contract.md, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # CONTROL PLANE EXPOSURE CONTRACT
@@ -75,3 +80,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[10_EXPOSURE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

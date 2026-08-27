@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-c03-physics-cosmos-master]
+source: 07_SKILLS/amos-c03-physics-cosmos-master
+tags: [note, amos-c03-physics-cosmos-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-c03-physics-cosmos-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS C03 — Physics & Cosmos Master. Consolidates 98 su
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-c03-physics-cosmos-master_MOC]]

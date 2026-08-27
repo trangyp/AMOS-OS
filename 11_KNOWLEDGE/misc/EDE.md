@@ -1,8 +1,15 @@
 ---
 title: "EDE"
 type: note
-tags: [truth-preservation, misc, reference]
+source: 11_KNOWLEDGE/misc
+tags: [truth-preservation, misc, reference, canon/knowledge]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Truth-Preserving Biological Operating System
 

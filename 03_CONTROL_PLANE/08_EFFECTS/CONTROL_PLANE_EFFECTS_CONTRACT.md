@@ -1,9 +1,14 @@
 ---
 title: CONTROL PLANE EFFECTS CONTRACT
 type: control-plane
-tags: [control_plane, control_plane_effects_contract.md]
+source: 03_CONTROL_PLANE/08_EFFECTS
+tags: [control_plane, control_plane_effects_contract.md, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # CONTROL PLANE EFFECTS CONTRACT
@@ -75,3 +80,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[08_EFFECTS_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

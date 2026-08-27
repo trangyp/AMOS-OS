@@ -1,12 +1,15 @@
 ---
 title: BAN DE XUAT DAU TU DU AN VSCCI
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # BẢN ĐỀ XUẤT ĐẦU TƯ: DỰ ÁN VSCCI

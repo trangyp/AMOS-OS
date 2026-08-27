@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-c10-tech-engineering-master]
+source: 07_SKILLS/amos-c10-tech-engineering-master
+tags: [note, amos-c10-tech-engineering-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-c10-tech-engineering-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS C10 — Tech & Engineering Master. Consolidates 54 
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-c10-tech-engineering-master_MOC]]

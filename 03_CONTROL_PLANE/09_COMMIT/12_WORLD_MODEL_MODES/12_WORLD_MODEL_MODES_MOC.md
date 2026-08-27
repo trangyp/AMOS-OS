@@ -1,8 +1,15 @@
 ---
 title: "12 World Model Modes MOC"
 type: moc
-tags: [moc, 12-world-model-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/12_WORLD_MODEL_MODES
+tags: [moc, 12-world-model-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 12 World Model Modes — Map of Content
 

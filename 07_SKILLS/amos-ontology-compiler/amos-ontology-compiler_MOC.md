@@ -1,8 +1,15 @@
 ---
 title: "Amos-Ontology-Compiler MOC"
 type: moc
-tags: [moc, amos-ontology-compiler]
+source: 07_SKILLS/amos-ontology-compiler
+tags: [moc, amos-ontology-compiler, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Ontology-Compiler — Map of Content
 

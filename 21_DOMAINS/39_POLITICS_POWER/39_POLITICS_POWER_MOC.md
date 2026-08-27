@@ -1,8 +1,15 @@
 ---
 title: "39 Politics Power MOC"
 type: moc
-tags: [moc, 39-politics-power]
+source: 21_DOMAINS/39_POLITICS_POWER
+tags: [moc, 39-politics-power, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 39 Politics Power — Map of Content
 

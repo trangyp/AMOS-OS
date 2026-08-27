@@ -1,8 +1,15 @@
 ---
 title: "09 Integration MOC"
 type: moc
-tags: [moc, 09-integration]
+source: 02_KERNEL/09_INTEGRATION
+tags: [moc, 09-integration, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 09 Integration — Map of Content
 

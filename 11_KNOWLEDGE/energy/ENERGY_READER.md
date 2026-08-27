@@ -1,12 +1,15 @@
 ---
 title: ENERGY READER
-tags: [energy, power, green]
+tags: [energy, power, green, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/energy
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: energy_system
+
 ---
-
-
-
 
 
 # Energy reader
@@ -69,7 +72,7 @@ source: 11_KNOWLEDGE/energy
 [47.7/50: Māori Tohunga](<Energy%20reader/47%207%2050%20M%C4%81ori%20Tohunga%20255c5e6f95bd80cf96f1cb9af94cbbeb.html>)
 [47.7/50: Diné Healers](<Energy%20reader/47%207%2050%20Din%C3%A9%20Healers%20255c5e6f95bd8094baefd004fbf51527.html>)
 [48.2/50: Indigenous Aboriginal Australian Healers](<Energy%20reader/48%202%2050%20Indigenous%20Aboriginal%20Australian%20Healers%20255c5e6f95bd80febdecd8b32e35fa1c.html>)
-[48.5/50: Sápara Elders (Amazon)](<Energy%20reader/48%205%2050%20S%C3%A1para%20Elders%20\(Amazon\)%20255c5e6f95bd80e698d2df2e6988050d.html>)
+[48.5/50: Sápara Elders (Amazon)](<Energy%20reader/48%205%2050%20S%C3%A1para%20Elders%20$Amazon$%20255c5e6f95bd80e698d2df2e6988050d.html>)
 [47.5/50: Robin Wall Kimmerer](<Energy%20reader/47%205%2050%20Robin%20Wall%20Kimmerer%20255c5e6f95bd8097a4e9d3270f8cee56.html>)
 [47.5/50: Angaangaq Angakkorsuaq](<Energy%20reader/47%205%2050%20Angaangaq%20Angakkorsuaq%20255c5e6f95bd803f813dc9576ab32f08.html>)
 \--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]

@@ -1,5 +1,6 @@
 ---
 type: canon
+source: 01_CANON/03_COGNITION_CANON
 artifact_id: AMOS-COGNITION-CANON
 name: COGNITION_CANON
 title: "AMOS Cognition Canon — Governed Reasoning, Epistemic Integrity, and Adaptive Intelligence"
@@ -30,7 +31,6 @@ aliases: "- AMOS Cognition Canon
 related: "see body"---
 
 
-
 # AMOS Cognition Canon
 
 **Origin architect / steward:** Trang Phan
@@ -38,8 +38,13 @@ related: "see body"---
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 0. Purpose
 

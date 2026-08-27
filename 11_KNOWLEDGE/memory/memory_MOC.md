@@ -1,8 +1,15 @@
 ---
 title: "Memory MOC"
 type: moc
-tags: [moc, memory]
+source: 11_KNOWLEDGE/memory
+tags: [moc, memory, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: memory_system
 ---
+
 
 # Memory — Map of Content
 

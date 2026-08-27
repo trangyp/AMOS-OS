@@ -1,9 +1,14 @@
 ---
 title: OBSERVABILITY README
 type: observability
-tags: [amos_os, 17_observability]
+source: 17_OBSERVABILITY
+tags: [amos_os, 17_observability, canon/observability]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # OBSERVABILITY README

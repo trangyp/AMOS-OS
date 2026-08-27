@@ -1,9 +1,14 @@
 ---
 title: LINEAGE GRAPH
 type: graph
-tags: [control_plane, lineage_graph.md]
+source: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
+tags: [control_plane, lineage_graph.md, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # LINEAGE GRAPH
@@ -70,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[06_SEMANTIC_TRANSACTION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

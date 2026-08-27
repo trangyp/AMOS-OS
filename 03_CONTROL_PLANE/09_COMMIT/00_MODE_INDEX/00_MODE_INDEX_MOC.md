@@ -1,8 +1,15 @@
 ---
 title: "00 Mode Index MOC"
 type: moc
-tags: [moc, 00-mode-index]
+source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
+tags: [moc, 00-mode-index, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 00 Mode Index — Map of Content
 

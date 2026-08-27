@@ -1,12 +1,15 @@
 ---
 title: TO DO
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # To Do
@@ -328,12 +331,12 @@ You have a file and you need to save it. **DO NOT save it anywhere until you ans
 ## **QUESTION 1 — IS THIS FILE RELATED TO GRANTS?**
 Ask yourself:
 > “Is this file about funding, grants, applications, or tenders?”
-  * ❌ **NO** →
+  * **NO** →
 This file does **not** belong in GRANTS_MASTER.
 Stop and ask the manager where it goes.
 
 
-  * ✅ **YES** →
+  * **YES** →
 Continue to Question 2.
 
 
@@ -351,7 +354,7 @@ Examples:
   * Overview list
 
 
-  * ✅ **YES** →
+  * **YES** →
 Save in:
 
 
@@ -361,7 +364,7 @@ Save in:
   * STOP.
 
 
-  * ❌ **NO** →
+  * **NO** →
 Continue to Question 3.
 
 
@@ -379,7 +382,7 @@ Examples:
   * Pages listing many grants
 
 
-  * ✅ **YES** →
+  * **YES** →
 Save in:
 
 
@@ -394,7 +397,7 @@ Save in:
 STOP.
 
 
-  * ❌ **NO** →
+  * **NO** →
 Continue to Question 4.
 
 
@@ -412,11 +415,11 @@ Examples:
   * Draft application for one grant
 
 
-  * ❌ **NO** →
+  * **NO** →
 Stop and ask the manager.
 
 
-  * ✅ **YES** →
+  * **YES** →
 Continue to Question 5.
 
 
@@ -424,7 +427,7 @@ Continue to Question 5.
 ## **QUESTION 5 — HAS THIS GRANT BEEN SUBMITTED YET?**
 Ask:
 > “Has the application already been officially submitted?”
-  * ❌ **NO (not submitted yet)** →
+  * **NO (not submitted yet)** →
 Go to:
 
 
@@ -435,7 +438,7 @@ Go to:
 Continue to Question 6.
 
 
-  * ✅ **YES (already s ubmitted)** →
+  * **YES (already s ubmitted)** →
 Go to:
 
 
@@ -465,7 +468,7 @@ Examples:
   * Official program overview
 
 
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -488,7 +491,7 @@ Examples:
   * Copied eligibility clauses
 
 
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -514,7 +517,7 @@ Examples:
   * Highlighted risk text
 
 
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -540,7 +543,7 @@ Examples:
   * Submission instructions
 
 
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -563,7 +566,7 @@ Examples:
   * Funding allocation tables
 
 
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -586,7 +589,7 @@ Examples:
   * In-progress text
 
 
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -609,7 +612,7 @@ Examples:
   * Reporting template
 
 
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -618,7 +621,7 @@ Examples:
   * STOP.
 
 
-  * ❌ NO → Continue.
+  * NO → Continue.
 
 
 * * *
@@ -635,7 +638,7 @@ Examples:
   * Strategy papers
 
 
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -648,7 +651,7 @@ Examples:
 ## **QUESTION 9 — IS THIS FINISHED OR NO LONGER ACTIVE?**
 Ask:
 > “Is this from a rejected, closed, or abandoned grant?”
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -657,7 +660,7 @@ Ask:
   * STOP.
 
 
-  * ❌ NO → Ask the manager.
+  * NO → Ask the manager.
 
 
 * * *
@@ -717,12 +720,12 @@ You have a file and you need to save it.
 ## **QUESTION 1 — IS THIS FILE RELATED TO GRANTS?**
 Ask yourself:
 > “Is this file about funding, grants, applications, or tenders?”
-  * ❌ **NO** →
+  * **NO** →
 This file does **not** belong in GRANTS_MASTER.
 Stop and ask the manager where it goes.
 
 
-  * ✅ **YES** →
+  * **YES** →
 Continue to Question 2.
 
 
@@ -740,7 +743,7 @@ Examples:
   * Overview list
 
 
-  * ✅ **YES** →
+  * **YES** →
 Save in:
 
 
@@ -750,7 +753,7 @@ Save in:
   * STOP.
 
 
-  * ❌ **NO** →
+  * **NO** →
 Continue to Question 3.
 
 
@@ -768,7 +771,7 @@ Examples:
   * Pages listing many grants
 
 
-  * ✅ **YES** →
+  * **YES** →
 Save in:
 
 
@@ -783,7 +786,7 @@ Save in:
 STOP.
 
 
-  * ❌ **NO** →
+  * **NO** →
 Continue to Question 4.
 
 
@@ -801,11 +804,11 @@ Examples:
   * Draft application for one grant
 
 
-  * ❌ **NO** →
+  * **NO** →
 Stop and ask the manager.
 
 
-  * ✅ **YES** →
+  * **YES** →
 Continue to Question 5.
 
 
@@ -813,7 +816,7 @@ Continue to Question 5.
 ## **QUESTION 5 — HAS THIS GRANT BEEN SUBMITTED YET?**
 Ask:
 > “Has the application already been officially submitted?”
-  * ❌ **NO (not submitted yet)** →
+  * **NO (not submitted yet)** →
 Go to:
 
 
@@ -824,7 +827,7 @@ Go to:
 Continue to Question 6.
 
 
-  * ✅ **YES (already s ubmitted)** →
+  * **YES (already s ubmitted)** →
 Go to:
 
 
@@ -854,7 +857,7 @@ Examples:
   * Official program overview
 
 
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -877,7 +880,7 @@ Examples:
   * Copied eligibility clauses
 
 
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -903,7 +906,7 @@ Examples:
   * Highlighted risk text
 
 
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -929,7 +932,7 @@ Examples:
   * Submission instructions
 
 
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -952,7 +955,7 @@ Examples:
   * Funding allocation tables
 
 
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -975,7 +978,7 @@ Examples:
   * In-progress text
 
 
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -998,7 +1001,7 @@ Examples:
   * Reporting template
 
 
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -1007,7 +1010,7 @@ Examples:
   * STOP.
 
 
-  * ❌ NO → Continue.
+  * NO → Continue.
 
 
 * * *
@@ -1024,7 +1027,7 @@ Examples:
   * Strategy papers
 
 
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -1037,7 +1040,7 @@ Examples:
 ## **QUESTION 9 — IS THIS FINISHED OR NO LONGER ACTIVE?**
 Ask:
 > “Is this from a rejected, closed, or abandoned grant?”
-  * ✅ YES → Save in:
+  * YES → Save in:
 
 
 ```
@@ -1046,7 +1049,7 @@ Ask:
   * STOP.
 
 
-  * ❌ NO → Ask the manager.
+  * NO → Ask the manager.
 
 
 * * *

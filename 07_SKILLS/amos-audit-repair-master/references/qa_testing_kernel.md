@@ -1,8 +1,15 @@
 ---
 title: qa testing kernel
 type: reference
-tags: [reference, amos-audit-repair-master]
+source: 07_SKILLS/amos-audit-repair-master/references
+tags: [reference, amos-audit-repair-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # QA Testing Kernel
 

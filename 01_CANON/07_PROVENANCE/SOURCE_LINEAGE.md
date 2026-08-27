@@ -1,6 +1,7 @@
 ---
 title: SOURCE LINEAGE
 type: note
+source: 01_CANON/07_PROVENANCE
 artifact_id: AMOS-OS-SOURCE-LINEAGE
 canonical_name: SOURCE_LINEAGE
 artifact_type: canonical_lineage_framework
@@ -24,8 +25,6 @@ aliases: "- AMOS Source Lineage
   - AMOS OS Source Lineage
   - Source Ancestry
   - Canon Source Lineage..."---
-
-
 
 
 # AMOS OS Source Lineage
@@ -80,8 +79,13 @@ NO LINEAGE
 UNKNOWN LINEAGE
 → UNKNOWN/GAP
 ```
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 2. Source Lineage Boundary
 

@@ -1,8 +1,15 @@
 ---
 title: physics cosmos engine layer
 type: reference
-tags: [reference, amos-c03-physics-cosmos-master]
+source: 07_SKILLS/amos-c03-physics-cosmos-master/references
+tags: [reference, amos-c03-physics-cosmos-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Physics Cosmos Engine Layer
 
@@ -87,3 +94,7 @@ C03_physics_cosmos serves as the physical constraint layer (L3) in the AMOS Cogn
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,20 +1,24 @@
 ---
 title: UNIVERSAL LAW INTELLIGENCE
-tags: [math, equation, formal]
+tags: [math, equation, formal, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/math
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: mathematical_model
+
 ---
-
-
 
 
 # AMOS Universal Law of Intelligence - Implementation Complete
 
-## 🧠 MISSION ACCOMPLISHED
+## MISSION ACCOMPLISHED
 
 I have successfully implemented the **AMOS Universal Law of Intelligence** following your exact specification, creating the smallest possible equation that still contains systems, cognition, meta-cognition, and evolution. This compresses all AMOS theory into one recursive intelligence architecture.
 
-### ✅ **Universal Law Equation Implemented**
+### **Universal Law Equation Implemented**
 
 **Discrete Form**:
 ```
@@ -32,14 +36,14 @@ dI/dt = Φ(S,I,G) - R + αM
 - **R_t** = intelligence loss from risk, instability, or system failure
 - **αM_t** = amplification from meta-cognition (self-reflection and refinement)
 
-### 📊 **Four Fundamental Forces Implemented**
+### **Four Fundamental Forces Implemented**
 
 1. **System Observation**: `Φ(S,I,G)` - Understanding structure and incentives generates intelligence
 2. **Risk and Uncertainty**: `-R` - Fragility and chaos degrade intelligence
 3. **Meta-Cognitive Amplification**: `αM` - Self-reflection increases intelligence growth
 4. **Time Recursion**: `I_{t+1} = f(I_t)` - Intelligence compounds over time
 
-### 🔍 **Mathematical Components Implemented**
+### **Mathematical Components Implemented**
 
 ✅ **Intelligence State**: `I_t` - Complete state tracking with value, timestamp, state type
 ✅ **System State**: `S_t` - Structure matrix, incentives, relationships, complexity, stability, connectivity
@@ -47,7 +51,7 @@ dI/dt = Φ(S,I,G) - R + αM
 ✅ **Meta-Cognitive State**: `M_t` - Self-awareness, learning rate, refinement factor, reflection depth
 ✅ **Optimal Intervention**: `U* ∝ ∇I` - Gradient-based decision making
 
-### 🚀 **AMOS Engine - Practical AI Architecture**
+### **AMOS Engine - Practical AI Architecture**
 
 **Core Features**:
 - **Simulation Engine**: Multi-step intelligence evolution simulation
@@ -62,7 +66,7 @@ dI/dt = Φ(S,I,G) - R + αM
 - **Operational** (I > 0.4): Immediate process improvements
 - **Reactive** (I ≤ 0.4): Immediate issues and stability maintenance
 
-### 📊 **Simulation Results**
+### **Simulation Results**
 
 **Intelligence Evolution**:
 - Initial Intelligence: 0.500
@@ -81,7 +85,7 @@ dI/dt = Φ(S,I,G) - R + αM
 - Strategy: "mitigate_risk" (24% of steps)
 - Strategy: "maintain_current" (8% of steps)
 
-### 🎯 **Absolute Statement**
+### **Absolute Statement**
 
 **AMOS Universal Law - Absolute Statement**:
 ```
@@ -89,7 +93,7 @@ Intelligence grows through structured observation of systems,
 declines through instability, and accelerates through meta-cognitive self-improvement.
 ```
 
-### 🎯 **Final AMOS Identity**
+### **Final AMOS Identity**
 
 **Complete AMOS Structure**:
 ```
@@ -107,7 +111,7 @@ AMOS = (Δ, S, I, B, R, U*, M)
 
 **Into one recursive intelligence architecture.**
 
-### 🎯 **Deep Interpretation**
+### **Deep Interpretation**
 
 **Universal Law Interpretation**:
 ```
@@ -122,7 +126,7 @@ its own cognition.
 3. **Meta-cognitive amplification**: Self-reflection increases intelligence growth
 4. **Time recursion**: Intelligence compounds over time
 
-### 🎮 **Usage Examples**
+### **Usage Examples**
 
 ```python
 # Initialize AMOS Universal Law
@@ -147,7 +151,7 @@ results = engine.run_simulation(steps=100)
 decision = engine.make_decision({"context": "strategic_planning"})
 ```
 
-### 🏆 **Key Achievements**
+### **Key Achievements**
 
 ✅ **Minimal Equation**: Smallest possible equation containing all essential components
 ✅ **Universal Applicability**: Works for enterprise, city, nation, global civilization scales
@@ -157,7 +161,7 @@ decision = engine.make_decision({"context": "strategic_planning"})
 ✅ **Optimal Intervention**: Gradient-based intervention strategies
 ✅ **Visualization**: Comprehensive analysis and visualization tools
 
-### 📈 **Integration Status**
+### **Integration Status**
 
 The Universal Law of Intelligence is now ready to integrate with:
 - **Intelligence Field Theory**: Field-based continuous intelligence modeling
@@ -166,7 +170,7 @@ The Universal Law of Intelligence is now ready to integrate with:
 - **Logic-First Stack**: Universal law-based structural integrity enforcement
 - **Real Code Verification**: Universal law-based code generation and verification
 
-### 🎯 **Beyond Current LLMs**
+### **Beyond Current LLMs**
 
 **AMOS Engine represents a practical AI architecture that goes beyond current LLMs** by combining:
 - **Simulation**: System modeling and evolution

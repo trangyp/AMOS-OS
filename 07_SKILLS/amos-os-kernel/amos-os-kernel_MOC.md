@@ -1,8 +1,15 @@
 ---
 title: "Amos-Os-Kernel MOC"
 type: moc
-tags: [moc, amos-os-kernel]
+source: 07_SKILLS/amos-os-kernel
+tags: [moc, amos-os-kernel, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Os-Kernel — Map of Content
 

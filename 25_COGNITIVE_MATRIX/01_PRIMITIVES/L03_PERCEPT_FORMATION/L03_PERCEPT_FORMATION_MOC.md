@@ -1,8 +1,15 @@
 ---
 title: "L03 Percept Formation MOC"
 type: moc
-tags: [moc, l03-percept-formation]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
+tags: [moc, l03-percept-formation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L03 Percept Formation — Map of Content
 

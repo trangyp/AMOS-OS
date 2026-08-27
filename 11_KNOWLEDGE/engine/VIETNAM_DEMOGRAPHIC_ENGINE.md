@@ -7,11 +7,15 @@ tags: "canon-group/biology,
     rscf/state/source..."
 type: document
 source: 11_KNOWLEDGE/engine
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
+
 ---
 
-
-
-
+# VIETNAM DEMOGRAPHIC ENGINE
 
 ## Ha Noi
 

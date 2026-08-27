@@ -1,12 +1,15 @@
 ---
 title: BAO CAO KY THUAT TICH HOP UNITAXI APK
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **BÁO CÁO KỸ THUẬT – TÍCH HỢP UNITAXI (APK)**

@@ -1,9 +1,14 @@
 ---
 title: 00 ROOT CONTRACT
 type: note
-tags: [00_root, contract]
+source: 00_ROOT
+tags: [00_root, contract, canon/root]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: root_index
 ---
-
 
 
 # AMOS OS — 00 Root Contract

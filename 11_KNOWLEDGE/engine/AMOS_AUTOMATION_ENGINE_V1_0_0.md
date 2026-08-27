@@ -1,16 +1,20 @@
 ---
 title: AMOS AUTOMATION ENGINE V1 0 0
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-automation-engine-v1-0-0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-automation-engine-v1-0-0, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
-
+# AMOS AUTOMATION ENGINE V1 0 0
 
 ```json
 {

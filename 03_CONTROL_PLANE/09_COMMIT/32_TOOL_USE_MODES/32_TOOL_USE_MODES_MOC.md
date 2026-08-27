@@ -1,8 +1,15 @@
 ---
 title: "32 Tool Use Modes MOC"
 type: moc
-tags: [moc, 32-tool-use-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/32_TOOL_USE_MODES
+tags: [moc, 32-tool-use-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 32 Tool Use Modes — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: "25 Ubi Nei Neuroemotional MOC"
 type: moc
-tags: [moc, 25-ubi-nei-neuroemotional]
+source: 21_DOMAINS/25_UBI_NEI_NEUROEMOTIONAL
+tags: [moc, 25-ubi-nei-neuroemotional, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 25 Ubi Nei Neuroemotional — Map of Content
 

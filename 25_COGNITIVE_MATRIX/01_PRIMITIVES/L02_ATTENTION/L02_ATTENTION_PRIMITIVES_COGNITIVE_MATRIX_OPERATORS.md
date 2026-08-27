@@ -1,9 +1,14 @@
 ---
 title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX OPERATORS
 type: cognitive
-tags: [cognitive_matrix, primitives, l02_attention, note]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
+tags: [cognitive_matrix, primitives, l02_attention, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 The source placeholder explicitly defines L02 as **“attention allocation; budget scarce reasoning/observation resources”** and requires operators/kernels, invariants, H/M/L, interfaces, dependencies, provenance, repair, tests, governance, freshness, and version lineage before promotion. It also explicitly prohibits inventing missing canon or implementation status. 

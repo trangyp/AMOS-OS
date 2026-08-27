@@ -1,8 +1,15 @@
 ---
 title: "Architecture MOC"
 type: moc
-tags: [moc, architecture]
+source: 11_KNOWLEDGE/architecture
+tags: [moc, architecture, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: architecture_design
 ---
+
 
 # Architecture — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: "Audit MOC"
 type: moc
-tags: [moc, audit]
+source: 11_KNOWLEDGE/audit
+tags: [moc, audit, canon/knowledge]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: audit_repair
 ---
+
 
 # Audit — Map of Content
 

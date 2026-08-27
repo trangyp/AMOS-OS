@@ -1,7 +1,13 @@
 ---
 title: COGNITIVE MATRIX AUTHORITY
 type: note
-tags: [note, c06-memory]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY
+tags: [note, c06-memory, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -48,3 +54,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/03_CONTROL_PLAN
 
 ---
 **MOC:** [[C06_MEMORY_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

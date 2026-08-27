@@ -1,8 +1,15 @@
 ---
 title: "40 Hse Safety MOC"
 type: moc
-tags: [moc, 40-hse-safety]
+source: 21_DOMAINS/40_HSE_SAFETY
+tags: [moc, 40-hse-safety, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 40 Hse Safety — Map of Content
 

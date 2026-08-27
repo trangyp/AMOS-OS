@@ -1,8 +1,15 @@
 ---
 title: evolutionary adaptive systems v2
 type: reference
-tags: [reference, amos-c04-bio-neuro-master]
+source: 07_SKILLS/amos-c04-bio-neuro-master/references
+tags: [reference, amos-c04-bio-neuro-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Evolutionary Adaptive Systems Cancer to AI v2
 
@@ -58,41 +65,21 @@ tags:
 
 The original cancer-evolution model contains a deeper reusable systems insight:
 
-\[
-\boxed{
-PersistentSystem
-=
-Stability
-+
-Operation
-+
-Adaptation
-}
-\]
+$$\boxed{ PersistentSystem = Stability + Operation + Adaptation }$$
 
 AMOS encodes this as:
 
-\[
-\boxed{
-X_t=[s_t,o_t,a_t]
-}
-\]
+$$\boxed{ X_t=[s_t,o_t,a_t] }$$
 
 where:
 
-- \(s\) = **stability / persistence substrate**;
-- \(o\) = **operational / productive substrate**;
-- \(a\) = **adaptation / mutation / resistance substrate**.
+- $s$ = **stability / persistence substrate**;
+- $o$ = **operational / productive substrate**;
+- $a$ = **adaptation / mutation / resistance substrate**.
 
 The same abstract decomposition can be applied to AI systems:
 
-\[
-\boxed{
-X_t^{AI}
-=
-[s_t^{AI},o_t^{AI},a_t^{AI}]
-}
-\]
+$$\boxed{ X_t^{AI} = [s_t^{AI},o_t^{AI},a_t^{AI}] }$$
 
 but only as an **AMOS cross-domain MODEL**.
 
@@ -106,12 +93,7 @@ The transferable AMOS question is therefore not:
 
 It is:
 
-\[
-\boxed{
-How\ do\ we\ preserve\ useful\ operation
-\ while\ constraining\ destructive\ adaptation?
-}
-\]
+$$\boxed{ How\ do\ we\ preserve\ useful\ operation \ while\ constraining\ destructive\ adaptation? }$$
 
 This creates a unified architecture for:
 
@@ -151,29 +133,17 @@ UNKNOWN/GAP
 
 Hard distinctions:
 
-\[
-\boxed{Analogy\neq Mechanism}
-\]
+$$\boxed{Analogy\neq Mechanism}$$
 
-\[
-\boxed{StructuralSimilarity\neq Causation}
-\]
+$$\boxed{StructuralSimilarity\neq Causation}$$
 
-\[
-\boxed{CancerClone\neq AIAgent}
-\]
+$$\boxed{CancerClone\neq AIAgent}$$
 
-\[
-\boxed{Mutation\neq ModelUpdate}
-\]
+$$\boxed{Mutation\neq ModelUpdate}$$
 
-\[
-\boxed{DrugResistance\neq PolicyEvasion}
-\]
+$$\boxed{DrugResistance\neq PolicyEvasion}$$
 
-\[
-\boxed{BiologicalFitness\neq RewardScore}
-\]
+$$\boxed{BiologicalFitness\neq RewardScore}$$
 
 Yet AMOS permits a shared **structural coordinate system** when the mapping is explicit.
 
@@ -183,33 +153,19 @@ Yet AMOS permits a shared **structural coordinate system** when the mapping is e
 
 Define:
 
-\[
-\boxed{
-X_t=[s_t,o_t,a_t]
-}
-\]
+$$\boxed{ X_t=[s_t,o_t,a_t] }$$
 
 with:
 
-\[
-s_t,o_t,a_t\ge0
-\]
+$$s_t,o_t,a_t\ge0$$
 
 If the components form exclusive normalized partitions:
 
-\[
-\boxed{
-s_t+o_t+a_t=1
-}
-\]
+$$\boxed{ s_t+o_t+a_t=1 }$$
 
 If states overlap:
 
-\[
-\boxed{
-s_t+o_t+a_t\neq1
-}
-\]
+$$\boxed{ s_t+o_t+a_t\neq1 }$$
 
 and AMOS uses membership tensors instead of forcing false normalization.
 
@@ -217,9 +173,13 @@ Interpretation:
 
 | Axis | General system | Cancer model | AI model |
 |---|---|---|---|
-| \(s\) | persistence / retained structure | quiescent/persistent tumour state | weights, architecture, stable policy, trusted memory, invariants |
-| \(o\) | active operation | proliferative / treatment-sensitive activity | inference, task execution, tool use, serving behavior |
-| \(a\) | adaptation / escape / novelty | resistant/adapt
+| $s$ | persistence / retained structure | quiescent/persistent tumour state | weights, architecture, stable policy, trusted memory, invariants |
+| $o$ | active operation | proliferative / treatment-sensitive activity | inference, task execution, tool use, serving behavior |
+| $a$ | adaptation / escape / novelty | resistant/adapt
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

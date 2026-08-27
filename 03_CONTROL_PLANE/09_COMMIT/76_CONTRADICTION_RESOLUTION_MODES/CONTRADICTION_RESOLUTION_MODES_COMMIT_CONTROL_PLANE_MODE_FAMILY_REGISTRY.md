@@ -1,9 +1,14 @@
 ---
 title: CONTRADICTION RESOLUTION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
-tags: [control_plane, 76_contradiction_resolution_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/76_CONTRADICTION_RESOLUTION_MODES
+tags: [control_plane, 76_contradiction_resolution_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # CONTRADICTION RESOLUTION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
@@ -38,3 +43,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[76_CONTRADICTION_RESOLUTION_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

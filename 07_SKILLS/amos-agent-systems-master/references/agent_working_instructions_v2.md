@@ -1,8 +1,15 @@
 ---
 title: agent working instructions v2
 type: reference
-tags: [reference, amos-agent-systems-master]
+source: 07_SKILLS/amos-agent-systems-master/references
+tags: [reference, amos-agent-systems-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Agent Working Instructions V2
 
@@ -12,11 +19,11 @@ tags: [reference, amos-agent-systems-master]
 ---
 tags: [agents]
 ---
-# 🚨 AGENT WORKING INSTRUCTIONS - MANDATORY READING
+# AGENT WORKING INSTRUCTIONS - MANDATORY READING
 
-## 📋 PRE-WORK REQUIREMENTS
+## PRE-WORK REQUIREMENTS
 
-### **🔧 BEFORE STARTING ANY WORK**
+### **BEFORE STARTING ANY WORK**
 1. **READ SYSTEM ARCHITECTURE REPORT**: `AMOS_SYSTEM_ARCHITECTURE_REPORT_V2.md`
 2. **UNDERSTAND PACK ARCHITECTURE**: Review kernel pack registry system
 3. **VALIDATE SYSTEM STATUS**: Check all components are operational
@@ -25,9 +32,9 @@ tags: [agents]
 
 ---
 
-## 🎯 WORKING GUIDELINES
+## WORKING GUIDELINES
 
-### **✅ REQUIRED PATTERNS**
+### **REQUIRED PATTERNS**
 
 #### **1. Singleton Brain Master**
 ```python
@@ -72,52 +79,52 @@ obj = memory_optimizer.get_cached_object('key', factory_function)
 
 ---
 
-## 🚫 STRICT RESTRICTIONS
+## STRICT RESTRICTIONS
 
-### **📝 FILE OPERATIONS**
+### **FILE OPERATIONS**
 ```python
-# ❌ FORBIDDEN: Direct file operations
+# FORBIDDEN: Direct file operations
 with open('file.txt', 'w') as f:
     f.write('data')
 
-# ✅ REQUIRED: Use kernel file operations
+# REQUIRED: Use kernel file operations
 from master import AMOSBrainMaster
 master = AMOSBrainMaster.get_instance()
 file_op = FileOperation('write', 'file.txt', 'data')
 master.persist(file_op)
 ```
 
-### **🔧 CONFIGURATION**
+### **CONFIGURATION**
 ```python
-# ❌ FORBIDDEN: Direct config loading
+# FORBIDDEN: Direct config loading
 import json
 with open('config.json') as f:
     config = json.load(f)
 
-# ✅ REQUIRED: Use BrainContext
+# REQUIRED: Use BrainContext
 from kernel import BrainContext
 context = BrainContext(kernel, {})
 config = context.get_shared_state('config', {})
 ```
 
-### **🧠 BRAIN OPERATIONS**
+### **BRAIN OPERATIONS**
 ```python
-# ❌ FORBIDDEN: Direct brain usage
+# FORBIDDEN: Direct brain usage
 from brain import AMOSBrain
 brain = AMOSBrain()
 
-# ✅ REQUIRED: Use kernel routing
+# REQUIRED: Use kernel routing
 kernel.get_brain_service('process_data')
 ```
 
-### **📦 PACK CREATION**
+### **PACK CREATION**
 ```python
-# ❌ FORBIDDEN: Unauthorized pack creation
+# FORBIDDEN: Unauthorized pack creation
 class MyPack:
     def __init__(self):
         self.initialize()
 
-# ✅ REQUIRED: Use PackInterface and registry
+# REQUIRED: Use PackInterface and registry
 from kernel import PackInterface
 class MyPack(PackInterface):
     def _get_capabilities(self):
@@ -126,9 +133,9 @@ class MyPack(PackInterface):
 
 ---
 
-## 🧪 TESTING REQUIREMENTS
+## TESTING REQUIREMENTS
 
-### **📊 Integration Tests**
+### **Integration Tests**
 ```python
 # ALWAYS run integration tests before deployment
 from tests.simple_integration_tests import simple_integration_test_suite
@@ -138,7 +145,7 @@ if test_report['summary']['success_rate'] < 80:
     raise DeploymentError("Integration tests failed")
 ```
 
-### **⚡ Performance Tests**
+### **Performance Tests**
 ```python
 # ALWAYS validate performance
 from core.performance_hardener import performance_hardener
@@ -148,7 +155,7 @@ if not status['monitoring']:
     raise PerformanceError("Performance monitoring not active")
 ```
 
-### **🔒 Security Tests**
+### **Security Tests**
 ```python
 # ALWAYS validate security
 from core.advanced_security_enhancer import advanced_security_enhancer
@@ -160,9 +167,9 @@ if not metrics['monitoring_active']:
 
 ---
 
-## 📏 QUALITY STANDARDS
+## QUALITY STANDARDS
 
-### **✅ PERFORMANCE REQUIREMENTS**
+### **PERFORMANCE REQUIREMENTS**
 - Operations must complete in **sub-millisecond** time
 - Cache hit rate must be **≥ 50%**
 - Memory usage must be **optimized** with bounded collections
@@ -170,3 +177,7 @@ if not metrics['monitoring_active']:
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

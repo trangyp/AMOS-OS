@@ -1,6 +1,7 @@
 ---
 title: 2026 08 22 AMOS GO BOARD 19X19 FORMAL SYSTEM
 type: system
+source: 11_KNOWLEDGE/dated
 origin_architect: Trang Phan
 provenance: docs/AMOS-Go-Board-19x19.md; cosmo-brain/AMOS_GO_BOARD_19X19.py; cosmo-brain/AMOS_GO_BOARD_19X19_STRATEGIC.py
 confidence: 0.92
@@ -8,8 +9,12 @@ epistemic_class: SOURCE_DERIVED
 conclusion_label: VERIFIED_PRESENT
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-amos-go-board-19x19-formal-sy, dated, dated/2026-08-22]
 date: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
-
 
 
 # AMOS 19×19 Go Board — Formal System

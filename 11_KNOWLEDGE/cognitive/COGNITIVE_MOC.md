@@ -1,8 +1,15 @@
 ---
 title: "Cognitive MOC"
 type: moc
-tags: [moc, cognitive]
+source: 11_KNOWLEDGE/cognitive
+tags: [moc, cognitive, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: cognitive_model
 ---
+
 
 # Cognitive — Map of Content
 

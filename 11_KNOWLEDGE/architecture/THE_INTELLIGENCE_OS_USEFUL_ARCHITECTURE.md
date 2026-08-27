@@ -1,6 +1,7 @@
 ---
 title: THE INTELLIGENCE OS USEFUL ARCHITECTURE
 type: architecture
+source: 11_KNOWLEDGE/architecture
 canon-group: tech-ai
 canon-type: architecture
 rscf-state: source-claim
@@ -8,11 +9,13 @@ topic: intelligence-os-company-architecture
 status: standalone-architecture
 version: v1.0
 source-title: "The Intelligence OS™ — A Multi-Layered, Scalable Product Company"
-tags: [intelligence-os, architecture, design, product-company, commercial-architecture, operating-system, product-platform, domain-portfolio, intelligence-infrastructure, rscf/C-constraint, rscf/G-relation, rscf/M-memory, rscf/S-state, rscf/T-topology, rscf/X-cross-scale, rscf/type-system]
-
+tags: [intelligence-os, architecture, design, product-company, commercial-architecture, operating-system, product-platform, domain-portfolio, intelligence-infrastructure, rscf/C-constraint, rscf/G-relation, rscf/M-memory, rscf/S-state, rscf/T-topology, rscf/X-cross-scale, rscf/type-system, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: architecture_design
 ---
-
-
 
 
 # The Intelligence OS™
@@ -24,31 +27,11 @@ tags: [intelligence-os, architecture, design, product-company, commercial-archit
 
 The architecture separates:
 
-\[
-\boxed{
-Core\ Intelligence
-\neq
-Domain\ Product
-\neq
-Commercial\ Layer
-\neq
-Company\ Value
-}
-\]
+$$\boxed{ Core\ Intelligence \neq Domain\ Product \neq Commercial\ Layer \neq Company\ Value }$$
 
 The primary system relationship is:
 
-\[
-\boxed{
-CoreEngine
-\rightarrow
-DomainProducts
-\rightarrow
-CommercialSystems
-\rightarrow
-CompanyScale
-}
-\]
+$$\boxed{ CoreEngine \rightarrow DomainProducts \rightarrow CommercialSystems \rightarrow CompanyScale }$$
 
 The source frames the system as a reusable intelligence substrate rather than a single application.
 
@@ -76,23 +59,11 @@ The architecture should preserve these categories separately.
 
 In particular:
 
-\[
-\boxed{
-Architecture\ Plausibility
-\neq
-Commercial\ Validation
-}
-\]
+$$\boxed{ Architecture\ Plausibility \neq Commercial\ Validation }$$
 
 and:
 
-\[
-\boxed{
-Projected\ Revenue
-\neq
-Observed\ Revenue
-}
-\]
+$$\boxed{ Projected\ Revenue \neq Observed\ Revenue }$$
 
 ---
 
@@ -126,17 +97,7 @@ The source can be represented as:
 
 The system is therefore fundamentally:
 
-\[
-\boxed{
-Platform
-+
-Portfolio
-+
-Commercialization
-+
-Scale
-}
-\]
+$$\boxed{ Platform + Portfolio + Commercialization + Scale }$$
 
 ---
 
@@ -159,13 +120,7 @@ How products are packaged, sold, governed, supported, and scaled.
 
 These layers must not be collapsed.
 
-\[
-\boxed{
-IntelligenceCapability
-\neq
-ProductMarketFit
-}
-\]
+$$\boxed{ IntelligenceCapability \neq ProductMarketFit }$$
 
 ---
 
@@ -175,13 +130,7 @@ Level 0 is the shared engine beneath all commercial domains.
 
 Conceptually:
 
-\[
-\boxed{
-L_0
-=
-CoreIntelligence
-}
-\]
+$$\boxed{ L_0 = CoreIntelligence }$$
 
 Its role is to provide reusable primitives such as:
 
@@ -204,13 +153,7 @@ A Level 0 capability should be reusable across multiple domain products.
 
 # 6. Core Engine Invariant
 
-\[
-\boxed{
-DomainLogic
-\notin
-Core
-}
-\]
+$$\boxed{ DomainLogic \notin Core }$$
 
 except where that logic is genuinely universal.
 
@@ -231,63 +174,27 @@ uncontrolled product divergence
 
 Represent the Level 0 engine as:
 
-\[
-\boxed{
-K_0[
-R,
-M,
-P,
-S,
-O,
-V,
-D
-]
-}
-\]
+$$\boxed{ K_0[ R, M, P, S, O, V, D ] }$$
 
 where:
 
-- \(R\) = reasoning;
-- \(M\) = memory;
-- \(P\) = prediction;
-- \(S\) = simulation;
-- \(O\) = orchestration;
-- \(V\) = validation;
-- \(D\) = domain routing.
+- $R$ = reasoning;
+- $M$ = memory;
+- $P$ = prediction;
+- $S$ = simulation;
+- $O$ = orchestration;
+- $V$ = validation;
+- $D$ = domain routing.
 
 ---
 
 # 8. Core State
 
-\[
-\boxed{
-X_0(t)
-=
-[
-Knowledge_t,
-Memory_t,
-Context_t,
-Models_t,
-Policies_t,
-Capabilities_t
-]
-}
-\]
+$$\boxed{ X_0(t) = [ Knowledge_t, Memory_t, Context_t, Models_t, Policies_t, Capabilities_t ] }$$
 
 The core evolves through:
 
-\[
-\boxed{
-X_0(t+1)
-=
-F(
-X_0(t),
-Evidence_t,
-Feedback_t,
-ValidatedUpdates_t
-)
-}
-\]
+$$\boxed{ X_0(t+1) = F( X_0(t), Evidence_t, Feedback_t, ValidatedUpdates_t ) }$$
 
 ---
 
@@ -297,38 +204,17 @@ The source specifies **15 commercial domains** built on top of the shared intell
 
 The architectural invariant is:
 
-\[
-\boxed{
-N_{domains}=15
-}
-\]
+$$\boxed{ N_{domains}=15 }$$
 
 for the source-defined portfolio.
 
 Each domain should be represented as:
 
-\[
-\boxed{
-D_i
-=
-(
-Problem,
-Users,
-IntelligenceUse,
-Product,
-Data,
-Workflow,
-RevenueModel,
-Risk
-)
-}
-\]
+$$\boxed{ D_i = ( Problem, Users, IntelligenceUse, Product, Data, Workflow, RevenueModel, Risk ) }$$
 
 for:
 
-\[
-i=1,\dots,15
-\]
+$$i=1,\dots,15$$
 
 ---
 
@@ -355,23 +241,7 @@ Each domain product should answer:
 
 A portfolio-wide domain tensor is:
 
-\[
-\boxed{
-\mathcal{D}
-[
-domain,
-segment,
-problem,
-capability,
-data,
-workflow,
-risk,
-pricing,
-value,
-maturity
-]
-}
-\]
+$$\boxed{ \mathcal{D} [ domain, segment, problem, capability, data, workflow, risk, pricing, value, maturity ] }$$
 
 This allows direct comparison among the 15 commercial domains.
 
@@ -397,21 +267,7 @@ A domain should not be treated as commercially mature merely because the technic
 
 # 13. Domain Promotion Gate
 
-\[
-\boxed{
-Promote(D_i)
-=
-ProblemValidated
-\land
-ProductValidated
-\land
-ValueMeasured
-\land
-RiskAcceptable
-\land
-DeliveryRepeatable
-}
-\]
+$$\boxed{ Promote(D_i) = ProblemValidated \land ProductValidated \land ValueMeasured \land RiskAcceptable \land DeliveryRepeatable }$$
 
 ---
 
@@ -437,20 +293,7 @@ The exact naming should remain source-controlled where later canon provides it.
 
 # 15. Level Hierarchy Equation
 
-\[
-\boxed{
-L_{n+1}
-=
-Scale(
-L_n,
-Users,
-Products,
-Capital,
-Operations,
-Governance
-)
-}
-\]
+$$\boxed{ L_{n+1} = Scale( L_n, Users, Products, Capital, Operations, Governance ) }$$
 
 The source architecture assumes increasing organizational complexity as commercial scope expands.
 
@@ -473,33 +316,13 @@ but must not corrupt the validated intelligence foundation.
 
 Therefore:
 
-\[
-\boxed{
-CommercialScale
-\not\Rightarrow
-CoreIntegrityLoss
-}
-\]
+$$\boxed{ CommercialScale \not\Rightarrow CoreIntegrityLoss }$$
 
 ---
 
 # 17. Level Dependency Tensor
 
-\[
-\boxed{
-\mathcal{L}
-[
-level,
-capabilities,
-dependencies,
-users,
-revenue,
-governance,
-risk,
-maturity
-]
-}
-\]
+$$\boxed{ \mathcal{L} [ level, capabilities, dependencies, users, revenue, governance, risk, maturity ] }$$
 
 ---
 
@@ -507,13 +330,7 @@ maturity
 
 A critical architecture distinction is:
 
-\[
-\boxed{
-Platform
-\neq
-Product
-}
-\]
+$$\boxed{ Platform \neq Product }$$
 
 The Intelligence OS is the platform substrate.
 
@@ -521,15 +338,11 @@ Commercial products are domain-specific manifestations.
 
 A healthy architecture should maximize:
 
-\[
-Reuse(Core)
-\]
+$$Reuse(Core)$$
 
 while minimizing:
 
-\[
-DomainCoupling(Core)
-\]
+$$DomainCoupling(Core)$$
 
 ---
 
@@ -537,17 +350,7 @@ DomainCoupling(Core)
 
 Define:
 
-\[
-\boxed{
-CoreLeverage
-=
-\frac{
-\sum_i ReusedCapability_i
-}{
-TotalCapabilityCost
-}
-}
-\]
+$$\boxed{ CoreLeverage = \frac{ \sum_i ReusedCapability_i }{ TotalCapabilityCost } }$$
 
 Higher reuse can improve portfolio economics if domain quality is preserved.
 
@@ -559,19 +362,11 @@ This is a derived MODEL metric.
 
 Each commercial domain should be able to evolve without breaking unrelated domains.
 
-\[
-\boxed{
-Change(D_i)
-\not\Rightarrow
-Failure(D_j)
-}
-\]
+$$\boxed{ Change(D_i) \not\Rightarrow Failure(D_j) }$$
 
 for unrelated:
 
-\[
-i\neq j
-\]
+$$i\neq j$$
 
 unless they share an explicit dependency.
 
@@ -581,29 +376,15 @@ unless they share an explicit dependency.
 
 The optimal architecture is:
 
-\[
-\boxed{
-SharedIntelligence
-+
-DomainSpecialization
-}
-\]
+$$\boxed{ SharedIntelligence + DomainSpecialization }$$
 
 not:
 
-\[
-\boxed{
-OneUniversalProduct
-}
-\]
+$$\boxed{ OneUniversalProduct }$$
 
 and not:
 
-\[
-\boxed{
-15IndependentStacks
-}
-\]
+$$\boxed{ 15IndependentStacks }$$
 
 ---
 
@@ -629,52 +410,23 @@ REVENUE
 
 Therefore:
 
-\[
-\boxed{
-Revenue
-\text{ must be downstream of measurable user value}
-}
-\]
+$$\boxed{ Revenue \text{ must be downstream of measurable user value} }$$
 
 ---
 
 # 23. Commercial Equation
 
-For domain \(i\):
+For domain $i$:
 
-\[
-\boxed{
-Revenue_i
-=
-Customers_i
-\times
-ARPU_i
-\times
-Retention_i
-}
-\]
+$$\boxed{ Revenue_i = Customers_i \times ARPU_i \times Retention_i }$$
 
 or, for usage-based models:
 
-\[
-\boxed{
-Revenue_i
-=
-Usage_i
-\times
-PricePerUnit_i
-}
-\]
+$$\boxed{ Revenue_i = Usage_i \times PricePerUnit_i }$$
 
 Total company revenue:
 
-\[
-\boxed{
-Revenue_{total}
-=
-\sum_{i=1}^{15} Revenue_i
-}
-\]
+$$\boxed{ Revenue_{total} = \sum_{i=1}^{15} Revenue_i }$$
 
 These are standard economic identities, not source-validated forecasts.
 
@@ -682,49 +434,17 @@ These are standard economic identities, not source-validated forecasts.
 
 # 24. Contribution Margin
 
-\[
-\boxed{
-CM_i
-=
-Revenue_i
--
-VariableCost_i
-}
-\]
+$$\boxed{ CM_i = Revenue_i - VariableCost_i }$$
 
 Portfolio contribution margin:
 
-\[
-\boxed{
-CM_{portfolio}
-=
-\sum_i CM_i
--
-SharedCoreCost
-}
-\]
+$$\boxed{ CM_{portfolio} = \sum_i CM_i - SharedCoreCost }$$
 
 ---
 
 # 25. Domain Economics Tensor
 
-\[
-\boxed{
-E_i=
-[
-TAM,
-Customers,
-ARPU,
-Retention,
-GrossMargin,
-CAC,
-LTV,
-DeliveryCost,
-Growth,
-Risk
-]
-}
-\]
+$$\boxed{ E_i= [ TAM, Customers, ARPU, Retention, GrossMargin, CAC, LTV, DeliveryCost, Growth, Risk ] }$$
 
 ---
 
@@ -740,66 +460,27 @@ $15B–$30B founder net worth
 
 These must be represented as:
 
-\[
-\boxed{
-SOURCE\_FORECAST
-}
-\]
+$$\boxed{ SOURCE\_FORECAST }$$
 
 not:
 
-\[
-\boxed{
-VERIFIED\_OUTCOME
-}
-\]
+$$\boxed{ VERIFIED\_OUTCOME }$$
 
 ---
 
 # 27. Economic Projection Firewall
 
-\[
-\boxed{
-ArchitecturalScale
-\not\Rightarrow
-RevenueScale
-}
-\]
+$$\boxed{ ArchitecturalScale \not\Rightarrow RevenueScale }$$
 
-\[
-\boxed{
-MarketOpportunity
-\not\Rightarrow
-MarketCapture
-}
-\]
+$$\boxed{ MarketOpportunity \not\Rightarrow MarketCapture }$$
 
-\[
-\boxed{
-ValuationScenario
-\not\Rightarrow
-EnterpriseValue
-}
-\]
+$$\boxed{ ValuationScenario \not\Rightarrow EnterpriseValue }$$
 
 ---
 
 # 28. Revenue Scenario Tensor
 
-\[
-\boxed{
-R_s[
-scenario,
-domain,
-customers,
-pricing,
-growth,
-retention,
-margin,
-time
-]
-}
-\]
+$$\boxed{ R_s[ scenario, domain, customers, pricing, growth, retention, margin, time ] }$$
 
 Recommended scenarios:
 
@@ -818,28 +499,11 @@ The source ceiling should be preserved as the highest scenario, not the default 
 
 A simple revenue-multiple scenario:
 
-\[
-\boxed{
-EV
-=
-Revenue
-\times
-Multiple
-}
-\]
+$$\boxed{ EV = Revenue \times Multiple }$$
 
 A cash-flow valuation can instead use:
 
-\[
-\boxed{
-EV
-=
-\sum_{t=1}^{T}
-\frac{FCF_t}{(1+r)^t}
-+
-TerminalValue
-}
-\]
+$$\boxed{ EV = \sum_{t=1}^{T} \frac{FCF_t}{(1+r)^t} + TerminalValue }$$
 
 Any valuation conclusion depends on assumptions.
 
@@ -849,15 +513,7 @@ Any valuation conclusion depends on assumptions.
 
 Founder value should be modeled as:
 
-\[
-\boxed{
-FounderValue
-=
-EnterpriseEquityValue
-\times
-FounderOwnership
-}
-\]
+$$\boxed{ FounderValue = EnterpriseEquityValue \times FounderOwnership }$$
 
 subject to:
 
@@ -902,32 +558,13 @@ VALIDATED DOMAIN COMPETENCE
 
 Therefore:
 
-\[
-\boxed{
-GeneralArchitecture
-\not\Rightarrow
-UniversalExpertise
-}
-\]
+$$\boxed{ GeneralArchitecture \not\Rightarrow UniversalExpertise }$$
 
 ---
 
 # 33. Intelligence Capability Tensor
 
-\[
-\boxed{
-I[
-domain,
-task,
-accuracy,
-reliability,
-latency,
-cost,
-evidence,
-risk
-]
-}
-\]
+$$\boxed{ I[ domain, task, accuracy, reliability, latency, cost, evidence, risk ] }$$
 
 Capability should be measured per task/domain rather than inferred globally.
 
@@ -995,18 +632,7 @@ Can the business deliver profitably?
 
 # 38. Validation Tensor
 
-\[
-\boxed{
-V=
-[
-Technical,
-Product,
-Commercial,
-Operational,
-Regulatory
-]
-}
-\]
+$$\boxed{ V= [ Technical, Product, Commercial, Operational, Regulatory ] }$$
 
 A commercially scalable domain requires sufficient evidence across all applicable axes.
 
@@ -1067,15 +693,7 @@ operations
 
 This creates another leverage layer:
 
-\[
-\boxed{
-CommercialLeverage
-=
-SharedCommercialCapability
-\times
-DomainReuse
-}
-\]
+$$\boxed{ CommercialLeverage = SharedCommercialCapability \times DomainReuse }$$
 
 ---
 
@@ -1085,19 +703,11 @@ Not all functions should be centralized.
 
 Centralize when:
 
-\[
-ReuseBenefit
->
-CoordinationCost
-\]
+$$ReuseBenefit > CoordinationCost$$
 
 Decentralize when:
 
-\[
-DomainSpecificity
->
-SharedValue
-\]
+$$DomainSpecificity > SharedValue$$
 
 ---
 
@@ -1105,43 +715,13 @@ SharedValue
 
 The total company can be represented:
 
-\[
-\boxed{
-\mathcal{C}
-[
-Core,
-Domains,
-Products,
-Customers,
-Operations,
-Capital,
-Governance,
-Revenue,
-Risk,
-Time
-]
-}
-\]
+$$\boxed{ \mathcal{C} [ Core, Domains, Products, Customers, Operations, Capital, Governance, Revenue, Risk, Time ] }$$
 
 ---
 
 # 43. Portfolio Tensor
 
-\[
-\boxed{
-\mathcal{P}
-[
-domain,
-market,
-maturity,
-growth,
-margin,
-capital,
-risk,
-strategicFit
-]
-}
-\]
+$$\boxed{ \mathcal{P} [ domain, market, maturity, growth, margin, capital, risk, strategicFit ] }$$
 
 This is the primary portfolio-governance tensor.
 
@@ -1151,30 +731,11 @@ This is the primary portfolio-governance tensor.
 
 For finite investment:
 
-\[
-\boxed{
-\sum_{i=1}^{15} Capital_i
-\leq
-Capital_{available}
-}
-\]
+$$\boxed{ \sum_{i=1}^{15} Capital_i \leq Capital_{available} }$$
 
 Allocate based on:
 
-\[
-\boxed{
-Priority_i
-=
-f(
-Market,
-Evidence,
-StrategicFit,
-Return,
-Risk,
-CapabilityReuse
-)
-}
-\]
+$$\boxed{ Priority_i = f( Market, Evidence, StrategicFit, Return, Risk, CapabilityReuse ) }$$
 
 ---
 
@@ -1182,13 +743,7 @@ CapabilityReuse
 
 The existence of 15 possible domains does not imply simultaneous investment in all 15.
 
-\[
-\boxed{
-PortfolioBreadth
-\neq
-ExecutionPriority
-}
-\]
+$$\boxed{ PortfolioBreadth \neq ExecutionPriority }$$
 
 The architecture should preserve optionality while sequencing investment.
 
@@ -1218,27 +773,9 @@ This reduces capital and execution risk.
 
 # 47. Beachhead Equation
 
-Choose a beachhead domain \(D_i\) maximizing:
+Choose a beachhead domain $D_i$ maximizing:
 
-\[
-\boxed{
-B_i
-=
-\frac{
-ProblemSeverity
-\times
-AbilityToWin
-\times
-CoreReuse
-\times
-WillingnessToPay
-}{
-ExecutionComplexity
-\times
-Risk
-}
-}
-\]
+$$\boxed{ B_i = \frac{ ProblemSeverity \times AbilityToWin \times CoreReuse \times WillingnessToPay }{ ExecutionComplexity \times Risk } }$$
 
 **Class:** MODEL.
 
@@ -1268,25 +805,11 @@ This is only valid if data, privacy, regulatory, and domain boundaries permit re
 
 # 49. Flywheel Equation
 
-\[
-\boxed{
-CoreValue_{t+1}
-=
-CoreValue_t
-+
-ValidatedReusableLearning_t
-}
-\]
+$$\boxed{ CoreValue_{t+1} = CoreValue_t + ValidatedReusableLearning_t }$$
 
 not:
 
-\[
-CoreValue_{t+1}
-=
-CoreValue_t
-+
-AllDomainData_t
-\]
+$$CoreValue_{t+1} = CoreValue_t + AllDomainData_t$$
 
 because not all domain data is transferable or permissible.
 
@@ -1294,17 +817,7 @@ because not all domain data is transferable or permissible.
 
 # 50. Knowledge Reuse Invariant
 
-\[
-\boxed{
-Reuse
-\Rightarrow
-ScopeCompatibility
-\land
-Permission
-\land
-Provenance
-}
-\]
+$$\boxed{ Reuse \Rightarrow ScopeCompatibility \land Permission \land Provenance }$$
 
 ---
 
@@ -1329,21 +842,7 @@ No moat should be assumed without observed market evidence.
 
 # 52. Moat Tensor
 
-\[
-\boxed{
-M=
-[
-Technology,
-Data,
-Workflow,
-Distribution,
-Brand,
-SwitchingCost,
-Network,
-Regulation
-]
-}
-\]
+$$\boxed{ M= [ Technology, Data, Workflow, Distribution, Brand, SwitchingCost, Network, Regulation ] }$$
 
 ---
 
@@ -1351,23 +850,7 @@ Regulation
 
 The company should track:
 
-\[
-\boxed{
-R=
-[
-Technical,
-Product,
-Market,
-Financial,
-Legal,
-Regulatory,
-Operational,
-Security,
-Reputation,
-Concentration
-]
-}
-\]
+$$\boxed{ R= [ Technical, Product, Market, Financial, Legal, Regulatory, Operational, Security, Reputation, Concentration ] }$$
 
 ---
 
@@ -1375,13 +858,7 @@ Concentration
 
 A shared core creates leverage but also common-mode risk.
 
-\[
-\boxed{
-SharedCoreFailure
-\Rightarrow
-MultiDomainImpact
-}
-\]
+$$\boxed{ SharedCoreFailure \Rightarrow MultiDomainImpact }$$
 
 Therefore core validation must be stronger than local product validation.
 
@@ -1389,31 +866,13 @@ Therefore core validation must be stronger than local product validation.
 
 # 55. Common-Mode Risk Tensor
 
-\[
-\boxed{
-R_c=
-[
-CoreDependency,
-SharedModel,
-SharedMemory,
-SharedInfra,
-SharedSecurity,
-SharedPolicy
-]
-}
-\]
+$$\boxed{ R_c= [ CoreDependency, SharedModel, SharedMemory, SharedInfra, SharedSecurity, SharedPolicy ] }$$
 
 ---
 
 # 56. Isolation Invariant
 
-\[
-\boxed{
-DomainFailure
-\not\Rightarrow
-GlobalFailure
-}
-\]
+$$\boxed{ DomainFailure \not\Rightarrow GlobalFailure }$$
 
 unless the failed component is intentionally shared.
 
@@ -1433,12 +892,7 @@ versioning
 
 As portfolio breadth increases:
 
-\[
-\boxed{
-GovernanceRequirement
-\uparrow
-}
-\]
+$$\boxed{ GovernanceRequirement \uparrow }$$
 
 Governance must cover:
 
@@ -1456,20 +910,7 @@ commercial commitments
 
 # 58. Governance Tensor
 
-\[
-\boxed{
-G=
-[
-DecisionRights,
-Authority,
-Evidence,
-Risk,
-Capital,
-Version,
-Audit
-]
-}
-\]
+$$\boxed{ G= [ DecisionRights, Authority, Evidence, Risk, Capital, Version, Audit ] }$$
 
 ---
 
@@ -1477,15 +918,7 @@ Audit
 
 A higher organizational level should exist only when lower-level complexity requires it.
 
-\[
-\boxed{
-Level_{n+1}
-\text{ exists iff }
-CoordinationNeed_n
->
-LocalCapacity_n
-}
-\]
+$$\boxed{ Level_{n+1} \text{ exists iff } CoordinationNeed_n > LocalCapacity_n }$$
 
 This prevents premature bureaucracy.
 
@@ -1493,20 +926,7 @@ This prevents premature bureaucracy.
 
 # 60. Organizational Complexity Equation
 
-\[
-\boxed{
-Complexity
-=
-f(
-Domains,
-Products,
-Customers,
-Regions,
-Regulation,
-Dependencies
-)
-}
-\]
+$$\boxed{ Complexity = f( Domains, Products, Customers, Regions, Regulation, Dependencies ) }$$
 
 Organizational structure should follow actual complexity, not aspirational valuation.
 
@@ -1588,17 +1008,7 @@ C10  One domain's validation cannot automatically validate another.
 
 ### E01 — Master Product Architecture
 
-\[
-\boxed{
-IntelligenceOS
-=
-CoreEngine
-+
-DomainPortfolio
-+
-CommercialSystem
-}
-\]
+$$\boxed{ IntelligenceOS = CoreEngine + DomainPortfolio + CommercialSystem }$$
 
 **Class:** DERIVED
 
@@ -1606,17 +1016,7 @@ CommercialSystem
 
 ### E02 — Core Reuse
 
-\[
-\boxed{
-CoreLeverage
-=
-\frac{
-ReusableCapability
-}{
-CoreCost
-}
-}
-\]
+$$\boxed{ CoreLeverage = \frac{ ReusableCapability }{ CoreCost } }$$
 
 **Class:** MODEL
 
@@ -1624,17 +1024,7 @@ CoreCost
 
 ### E03 — Domain Revenue
 
-\[
-\boxed{
-Revenue_i
-=
-Customers_i
-\times
-ARPU_i
-\times
-Retention_i
-}
-\]
+$$\boxed{ Revenue_i = Customers_i \times ARPU_i \times Retention_i }$$
 
 **Class:** MODEL / BUSINESS IDENTITY
 
@@ -1642,13 +1032,7 @@ Retention_i
 
 ### E04 — Portfolio Revenue
 
-\[
-\boxed{
-Revenue_{total}
-=
-\sum_{i=1}^{15}Revenue_i
-}
-\]
+$$\boxed{ Revenue_{total} = \sum_{i=1}^{15}Revenue_i }$$
 
 **Class:** BUSINESS IDENTITY
 
@@ -1656,13 +1040,7 @@ Revenue_{total}
 
 ### E05 — Contribution Margin
 
-\[
-\boxed{
-CM_i
-=
-Revenue_i-VariableCost_i
-}
-\]
+$$\boxed{ CM_i = Revenue_i-VariableCost_i }$$
 
 **Class:** BUSINESS IDENTITY
 
@@ -1670,13 +1048,7 @@ Revenue_i-VariableCost_i
 
 ### E06 — Portfolio Contribution
 
-\[
-\boxed{
-CM_P
-=
-\sum_i CM_i-SharedCoreCost
-}
-\]
+$$\boxed{ CM_P = \sum_i CM_i-SharedCoreCost }$$
 
 **Class:** MODEL
 
@@ -1684,13 +1056,7 @@ CM_P
 
 ### E07 — Enterprise Value
 
-\[
-\boxed{
-EV
-=
-Revenue\times Multiple
-}
-\]
+$$\boxed{ EV = Revenue\times Multiple }$$
 
 **Class:** SCENARIO MODEL
 
@@ -1698,13 +1064,7 @@ Revenue\times Multiple
 
 ### E08 — Founder Value
 
-\[
-\boxed{
-FV
-=
-EquityValue\times FounderOwnership
-}
-\]
+$$\boxed{ FV = EquityValue\times FounderOwnership }$$
 
 **Class:** SCENARIO MODEL
 
@@ -1712,25 +1072,7 @@ EquityValue\times FounderOwnership
 
 ### E09 — Beachhead Priority
 
-\[
-\boxed{
-B_i
-=
-\frac{
-ProblemSeverity
-\times
-AbilityToWin
-\times
-CoreReuse
-\times
-WillingnessToPay
-}{
-ExecutionComplexity
-\times
-Risk
-}
-}
-\]
+$$\boxed{ B_i = \frac{ ProblemSeverity \times AbilityToWin \times CoreReuse \times WillingnessToPay }{ ExecutionComplexity \times Risk } }$$
 
 **Class:** MODEL
 
@@ -1738,13 +1080,7 @@ Risk
 
 ### E10 — Level Scale
 
-\[
-\boxed{
-L_{n+1}
-=
-Scale(L_n,CoordinationDemand)
-}
-\]
+$$\boxed{ L_{n+1} = Scale(L_n,CoordinationDemand) }$$
 
 **Class:** MODEL
 
@@ -1752,13 +1088,7 @@ Scale(L_n,CoordinationDemand)
 
 ### E11 — Capital Constraint
 
-\[
-\boxed{
-\sum_i Capital_i
-\leq
-Capital_{available}
-}
-\]
+$$\boxed{ \sum_i Capital_i \leq Capital_{available} }$$
 
 **Class:** CONSTRAINT
 
@@ -1766,15 +1096,7 @@ Capital_{available}
 
 ### E12 — Core Evolution
 
-\[
-\boxed{
-Core_{t+1}
-=
-Core_t
-+
-ValidatedReusableLearning_t
-}
-\]
+$$\boxed{ Core_{t+1} = Core_t + ValidatedReusableLearning_t }$$
 
 **Class:** MODEL
 
@@ -1784,186 +1106,51 @@ ValidatedReusableLearning_t
 
 ### T01 — Core Intelligence Tensor
 
-\[
-K_0[
-Reasoning,
-Memory,
-Prediction,
-Simulation,
-Orchestration,
-Validation,
-Routing
-]
-\]
+$$K_0[ Reasoning, Memory, Prediction, Simulation, Orchestration, Validation, Routing ]$$
 
 ### T02 — Domain Tensor
 
-\[
-D[
-Domain,
-Segment,
-Problem,
-Capability,
-Data,
-Workflow,
-Risk,
-Pricing,
-Value,
-Maturity
-]
-\]
+$$D[ Domain, Segment, Problem, Capability, Data, Workflow, Risk, Pricing, Value, Maturity ]$$
 
 ### T03 — Level Tensor
 
-\[
-L[
-Level,
-Capability,
-Dependency,
-User,
-Revenue,
-Governance,
-Risk,
-Maturity
-]
-\]
+$$L[ Level, Capability, Dependency, User, Revenue, Governance, Risk, Maturity ]$$
 
 ### T04 — Domain Economics Tensor
 
-\[
-E[
-TAM,
-Customers,
-ARPU,
-Retention,
-Margin,
-CAC,
-LTV,
-Cost,
-Growth,
-Risk
-]
-\]
+$$E[ TAM, Customers, ARPU, Retention, Margin, CAC, LTV, Cost, Growth, Risk ]$$
 
 ### T05 — Company Tensor
 
-\[
-C[
-Core,
-Domains,
-Products,
-Customers,
-Operations,
-Capital,
-Governance,
-Revenue,
-Risk,
-Time
-]
-\]
+$$C[ Core, Domains, Products, Customers, Operations, Capital, Governance, Revenue, Risk, Time ]$$
 
 ### T06 — Portfolio Tensor
 
-\[
-P[
-Domain,
-Market,
-Maturity,
-Growth,
-Margin,
-Capital,
-Risk,
-StrategicFit
-]
-\]
+$$P[ Domain, Market, Maturity, Growth, Margin, Capital, Risk, StrategicFit ]$$
 
 ### T07 — Capability Tensor
 
-\[
-I[
-Domain,
-Task,
-Accuracy,
-Reliability,
-Latency,
-Cost,
-Evidence,
-Risk
-]
-\]
+$$I[ Domain, Task, Accuracy, Reliability, Latency, Cost, Evidence, Risk ]$$
 
 ### T08 — Validation Tensor
 
-\[
-V[
-Technical,
-Product,
-Commercial,
-Operational,
-Regulatory
-]
-\]
+$$V[ Technical, Product, Commercial, Operational, Regulatory ]$$
 
 ### T09 — Moat Tensor
 
-\[
-M[
-Technology,
-Data,
-Workflow,
-Distribution,
-Brand,
-SwitchingCost,
-Network,
-Regulation
-]
-\]
+$$M[ Technology, Data, Workflow, Distribution, Brand, SwitchingCost, Network, Regulation ]$$
 
 ### T10 — Risk Tensor
 
-\[
-R[
-Technical,
-Product,
-Market,
-Financial,
-Legal,
-Regulatory,
-Operational,
-Security,
-Reputation,
-Concentration
-]
-\]
+$$R[ Technical, Product, Market, Financial, Legal, Regulatory, Operational, Security, Reputation, Concentration ]$$
 
 ### T11 — Governance Tensor
 
-\[
-G[
-DecisionRights,
-Authority,
-Evidence,
-Risk,
-Capital,
-Version,
-Audit
-]
-\]
+$$G[ DecisionRights, Authority, Evidence, Risk, Capital, Version, Audit ]$$
 
 ### T12 — Revenue Scenario Tensor
 
-\[
-R_s[
-Scenario,
-Domain,
-Customers,
-Pricing,
-Growth,
-Retention,
-Margin,
-Time
-]
-\]
+$$R_s[ Scenario, Domain, Customers, Pricing, Growth, Retention, Margin, Time ]$$
 
 ---
 
@@ -2094,76 +1281,32 @@ commercial ceiling or universal capability claims.
 
 # 68. Final Architecture
 
-\[
-\boxed{
-The\ Intelligence\ OS
-=
-SharedCore
-+
-15DomainPortfolio
-+
-CommercialHierarchy
-}
-\]
+$$\boxed{ The\ Intelligence\ OS = SharedCore + 15DomainPortfolio + CommercialHierarchy }$$
 
 with:
 
-\[
-\boxed{
-Level0
-\rightarrow
-DomainProducts
-\rightarrow
-Levels1\text{–}6
-\rightarrow
-CompanyScale
-}
-\]
+$$\boxed{ Level0 \rightarrow DomainProducts \rightarrow Levels1\text{–}6 \rightarrow CompanyScale }$$
 
 The architecture's strongest commercial proposition is:
 
-\[
-\boxed{
-OneValidatedCore
-\rightarrow
-ManyValidatedProducts
-}
-\]
+$$\boxed{ OneValidatedCore \rightarrow ManyValidatedProducts }$$
 
 not:
 
-\[
-\boxed{
-OneCore
-\rightarrow
-AutomaticUniversalBusiness
-}
-\]
+$$\boxed{ OneCore \rightarrow AutomaticUniversalBusiness }$$
 
 The core strategic invariant is:
 
-\[
-\boxed{
-Reuse\ what\ is\ truly\ universal;
-specialize\ what\ is\ genuinely\ domain-specific.
-}
-\]
+$$\boxed{ Reuse\ what\ is\ truly\ universal; specialize\ what\ is\ genuinely\ domain-specific. }$$
 
 The core economic invariant is:
 
-\[
-\boxed{
-Value
-\rightarrow
-Adoption
-\rightarrow
-Retention
-\rightarrow
-Revenue
-}
-\]
+$$\boxed{ Value \rightarrow Adoption \rightarrow Retention \rightarrow Revenue }$$
 
 and the source's high-end revenue, valuation, and founder-wealth figures should remain **scenario ceilings until supported by observed commercial evidence**.
 
 ---
 **Links:** [[ARCHITECTURE_MOC]] | [[KNOWLEDGE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,8 +1,15 @@
 ---
 title: "Economy MOC"
 type: moc
-tags: [moc, economy]
+source: 11_KNOWLEDGE/economy
+tags: [moc, economy, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: economic_model
 ---
+
 
 # Economy — Map of Content
 

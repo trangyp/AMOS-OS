@@ -1,9 +1,14 @@
 ---
 title: SECURITY README
 type: security
-tags: [amos_os, 18_security]
+source: 18_SECURITY
+tags: [amos_os, 18_security, canon/security]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # SECURITY README

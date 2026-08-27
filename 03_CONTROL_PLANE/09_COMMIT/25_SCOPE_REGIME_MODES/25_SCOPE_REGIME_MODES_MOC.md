@@ -1,8 +1,15 @@
 ---
 title: "25 Scope Regime Modes MOC"
 type: moc
-tags: [moc, 25-scope-regime-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/25_SCOPE_REGIME_MODES
+tags: [moc, 25-scope-regime-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 25 Scope Regime Modes — Map of Content
 

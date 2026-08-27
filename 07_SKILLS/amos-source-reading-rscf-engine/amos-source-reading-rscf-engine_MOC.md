@@ -1,8 +1,15 @@
 ---
 title: "Amos-Source-Reading-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-source-reading-rscf-engine]
+source: 07_SKILLS/amos-source-reading-rscf-engine
+tags: [moc, amos-source-reading-rscf-engine, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Source-Reading-Rscf-Engine — Map of Content
 

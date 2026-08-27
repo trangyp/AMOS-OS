@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-trust-formation-governor]
+source: 07_SKILLS/amos-trust-formation-governor/references
+tags: [reference, amos-trust-formation-governor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -177,3 +184,7 @@ C1 (Seed) \u2192 C2 (Build) \u2192 C3 (Peak) \u2192 C4 (Fragment) \u2192 C5 (Cas
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

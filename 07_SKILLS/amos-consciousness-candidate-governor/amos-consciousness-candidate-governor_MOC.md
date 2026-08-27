@@ -1,8 +1,15 @@
 ---
 title: "Amos-Consciousness-Candidate-Governor MOC"
 type: moc
-tags: [moc, amos-consciousness-candidate-governor]
+source: 07_SKILLS/amos-consciousness-candidate-governor
+tags: [moc, amos-consciousness-candidate-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Consciousness-Candidate-Governor — Map of Content
 

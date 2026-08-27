@@ -1,8 +1,15 @@
 ---
 title: "Amos-Risk-Constraint-Governor MOC"
 type: moc
-tags: [moc, amos-risk-constraint-governor]
+source: 07_SKILLS/amos-risk-constraint-governor
+tags: [moc, amos-risk-constraint-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Risk-Constraint-Governor — Map of Content
 

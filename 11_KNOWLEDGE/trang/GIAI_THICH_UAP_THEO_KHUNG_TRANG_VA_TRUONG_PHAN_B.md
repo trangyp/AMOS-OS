@@ -1,12 +1,15 @@
 ---
 title: GIAI THICH UAP THEO KHUNG TRANG VA TRUONG PHAN B
-tags: [trang, framework, reality]
+tags: [trang, framework, reality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
 
 
 # GIẢI THÍCH UAP THEO KHUNG TRANG ∅ VÀ TRƯỜNG PHÂN BIỆT

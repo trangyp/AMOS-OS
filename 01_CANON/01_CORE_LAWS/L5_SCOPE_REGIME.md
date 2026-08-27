@@ -1,19 +1,19 @@
 ---
-title: L5 SCOPE REGIME
-type: note
-tags: [note, 01-core-laws]
----
-
-
-````markdown
----
-tags: ['canon', 'core_laws', 'scope', 'regime', 'temporal', 'freshness', 'applicability', 'rscf', 'governance']
+tags: ['canon', 'core_laws', 'scope', 'regime', 'temporal', 'freshness', 'applicability', 'rscf', 'governance', canon/universe]
 title: "L5 Scope, Regime, and Temporal Laws"
 origin_architect: "Trang Phan"
 status: "AMOS_MODEL"
 canon_status: "PROPOSED_CANON_CONTENT"
 epistemic_class: "AMOS_MODEL"
+type: document
+source: 01_CANON/01_CORE_LAWS
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L5 Scope, Regime, and Temporal Laws
 

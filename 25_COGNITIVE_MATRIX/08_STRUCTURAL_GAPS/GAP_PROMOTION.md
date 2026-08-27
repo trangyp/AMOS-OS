@@ -1,7 +1,13 @@
 ---
 title: GAP PROMOTION
 type: note
-tags: [note, 08-structural-gaps]
+source: 25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS
+tags: [note, 08-structural-gaps, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -46,3 +52,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/08_STRUCTURAL_G
 
 ---
 **MOC:** [[08_STRUCTURAL_GAPS_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,12 +1,4 @@
 ---
-title: L0 INTEGRITY
-type: note
-tags: [note, 01-core-laws]
----
-
-
-````markdown
----
 title: "AMOS Core Laws — L0 Integrity Laws"
 artifact: "L0_INTEGRITY.md"
 artifact_id: "AMOS_CORE_LAWS_L0_INTEGRITY"
@@ -18,8 +10,7 @@ domain: "01_CORE_LAWS"
 law_family: "L0_INTEGRITY"
 path: "01_CANON/01_CORE_LAWS/L0_INTEGRITY.md"
 
-tags:
-  - canon
+tags: [- canon, canon/universe]
   - core_laws
   - integrity
   - invariants
@@ -35,7 +26,15 @@ epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
 implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
+type: document
+source: 01_CANON/01_CORE_LAWS
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L0 Integrity Laws
 

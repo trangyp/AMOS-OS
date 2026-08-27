@@ -1,13 +1,20 @@
 ---
 title: 5B JOURNEY INCUBATE V2 SHARED
 type: note
+source: 11_KNOWLEDGE/misc
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: 5b-journey-incubate-v2-shared
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/5b-journey-incubate-v2-shared, misc]
 created: 2026-08-22
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 5B JOURNEY INCUBATE V2 SHARED
 

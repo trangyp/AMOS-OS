@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L05 BINDING CONTRACT
 type: cognitive
-tags: [cognitive_matrix, primitives, l05_binding, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING
+tags: [cognitive_matrix, primitives, l05_binding, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L05_BINDING — Binding Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L05_BINDING_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

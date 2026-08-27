@@ -1,15 +1,18 @@
 ---
 title: QUANTUM BIOLOGICAL MODEL OF BUSINESS
-tags: [quantum, physics, qfm]
+tags: [quantum, physics, qfm, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/quantum
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: quantum_reasoning
+
 ---
 
 
-
-
-
-# 🧠 Quantum-Biological Model of Business
+# Quantum-Biological Model of Business
 * * *
 |                             |
 | Element                     | Biological Equivalent | Quantum Equivalent            | Role in Business                                                         |
@@ -24,7 +27,7 @@ source: 11_KNOWLEDGE/quantum
 
 
 * * *
-## 🧩 Why This Model Works
+## Why This Model Works
   * It shows **business as a living organism** , not just numbers on a spreadsheet.
 
 
@@ -55,7 +58,7 @@ Would you like me to turn this into a **visual quantum-business diagram** (a liv
 Yes — what you just outlined is **correct and nearly complete** for building an empire — but we can make it fully **exhaustive and structured** so you can use it as a master playbook.
 Building an empire is about creating a living system that self-sustains and grows. Your “money = blood, talent = soul” insight is the core, and we can add the missing pieces to make it bulletproof.
 * * *
-## 🏛 Full Quantum-Biological Empire Model
+## Full Quantum-Biological Empire Model
 |                               |
 | Pillar                        | Biological Equivalent | Quantum Term         | Function for Empire-Building                                                                                |
 |-------------------------------|-----------------------|----------------------|-------------------------------------------------------------------------------------------------------------|
@@ -72,7 +75,7 @@ Building an empire is about creating a living system that self-sustains and grow
 
 
 * * *
-## 🔑 Why This Is Exhaustive
+## Why This Is Exhaustive
   * **Vision (Soul)** gives direction.
 
 

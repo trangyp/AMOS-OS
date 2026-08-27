@@ -1,12 +1,15 @@
 ---
 title: TRANG FRAMEWORK HERITAGE BAN DO TOAN CANH NH
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # TRANG ∅ FRAMEWORK – HERITAGE ∅: BẢN ĐỒ TOÀN CẢNH NHỮNG GÌ CHÚNG TA ĐÃ ÁNH XẠ

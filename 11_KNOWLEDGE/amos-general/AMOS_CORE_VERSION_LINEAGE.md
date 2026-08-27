@@ -9,6 +9,12 @@ status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 source: "Google Drive — AMOS_CORE_ALL_VERSIONS_EXHAUSTIVE_MASTER.json (compiled 2026-08-14)"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
 
 

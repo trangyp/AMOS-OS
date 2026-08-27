@@ -1,8 +1,15 @@
 ---
 title: "L00_REALITY_ENVIRONMENT — Provenance"
 type: provenance
-tags: [amos, provenance, evidence, lineage, ancestry, sybil-hardening, trust, reality-environment, rscf, hml, tensors, control-plane]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
+tags: [amos, provenance, evidence, lineage, ancestry, sybil-hardening, trust, reality-environment, rscf, hml, tensors, control-plane, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L00_REALITY_ENVIRONMENT — Provenance
 
@@ -3320,7 +3327,7 @@ The governing architectural principle is:
 
 ```
 
-This is the cleaned, paste-ready Markdown version of the uploaded provenance content. :contentReference[oaicite:0]{index=0}
+This is the cleaned, paste-ready Markdown version of the uploaded provenance content.
 ```
 
 ---

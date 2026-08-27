@@ -1,12 +1,15 @@
 ---
 title: ARCHITECTURE OF ARCHITECTURE
-tags: [architecture, design, structure]
+tags: [architecture, design, structure, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/architecture
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: architecture_design
+
 ---
-
-
-
 
 
 # **ARCHITECTURE OF ARCHITECTURE**
@@ -821,8 +824,11 @@ Multiply by:
 # **FINAL LINE**
 **AMOS = Parent generators × representation transformations × cross-parent interactions × recursion across time and scale**
 * * *
-[AMOS — FULL EXPANSION ARCHITECTURE (NON-FLAT, GENERATIVE)](<ARCHITECTURE%20OF%20ARCHITECTURE/AMOS%20%E2%80%94%20FULL%20EXPANSION%20ARCHITECTURE%20\(NON-FLAT,%20GENE%20353c5e6f95bd8001b4c2fe621cb4d0f2.html>)
+[AMOS — FULL EXPANSION ARCHITECTURE (NON-FLAT, GENERATIVE)](<ARCHITECTURE%20OF%20ARCHITECTURE/AMOS%20%E2%80%94%20FULL%20EXPANSION%20ARCHITECTURE%20$NON-FLAT,%20GENE%20353c5e6f95bd8001b4c2fe621cb4d0f2.html>)
 \--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
 **MOC:** [[ARCHITECTURE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

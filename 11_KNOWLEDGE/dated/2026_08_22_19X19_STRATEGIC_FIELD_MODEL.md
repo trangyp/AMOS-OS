@@ -1,6 +1,7 @@
 ---
 title: 2026 08 22 19X19 STRATEGIC FIELD MODEL
 type: model
+source: 11_KNOWLEDGE/dated
 origin_architect: Trang Phan (user-supplied 75-section formal spec) + AMOS MODEL extension
 provenance: user-supplied 19×19 strategic-ontology completion; base geometry already in cosmo-brain/AMOS_GO_BOARD_19X19.py (905 lines, 361 cells, 684 edges, D4 symmetry, 12-var cell)
 confidence: 0.92
@@ -8,8 +9,12 @@ epistemic_class: SOURCE_DERIVED
 conclusion_label: VERIFIED_PRESENT
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-19x19-strategic-field-model, dated, dated/2026-08-22]
 date: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
-
 
 
 # 19×19 Architecture — Computationally Complete Strategic Field Model

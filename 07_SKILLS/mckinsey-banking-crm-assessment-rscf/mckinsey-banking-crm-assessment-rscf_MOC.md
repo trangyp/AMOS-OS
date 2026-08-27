@@ -1,8 +1,15 @@
 ---
 title: "Mckinsey-Banking-Crm-Assessment-Rscf MOC"
 type: moc
-tags: [moc, mckinsey-banking-crm-assessment-rscf]
+source: 07_SKILLS/mckinsey-banking-crm-assessment-rscf
+tags: [moc, mckinsey-banking-crm-assessment-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Mckinsey-Banking-Crm-Assessment-Rscf — Map of Content
 

@@ -1,9 +1,14 @@
 ---
 title: INDEX SECURITY README
 type: index
-tags: [amos_os, 18_security]
+source: 18_SECURITY/00_INDEX
+tags: [amos_os, 18_security, canon/security]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INDEX SECURITY README

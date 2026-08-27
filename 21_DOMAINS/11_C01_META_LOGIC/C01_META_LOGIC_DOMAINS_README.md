@@ -1,9 +1,14 @@
 ---
 title: C01 META LOGIC DOMAINS README
 type: logic
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/11_C01_META_LOGIC
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # C01 META LOGIC DOMAINS README

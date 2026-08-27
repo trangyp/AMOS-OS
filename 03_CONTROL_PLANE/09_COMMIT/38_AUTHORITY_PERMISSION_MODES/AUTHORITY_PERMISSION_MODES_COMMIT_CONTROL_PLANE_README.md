@@ -1,9 +1,14 @@
 ---
 title: AUTHORITY PERMISSION MODES COMMIT CONTROL PLANE README
 type: authority
-tags: [control_plane, 38_authority_permission_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/38_AUTHORITY_PERMISSION_MODES
+tags: [control_plane, 38_authority_permission_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # AUTHORITY PERMISSION MODES COMMIT CONTROL PLANE README
@@ -61,3 +66,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[38_AUTHORITY_PERMISSION_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-super-engines-master]
+source: 07_SKILLS/amos-super-engines-master/references
+tags: [reference, amos-super-engines-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # amos-super-engines-master — Vault-Sourced Domain Knowledge
 
@@ -238,21 +245,7 @@ X_t = {
 
 System evolution:
 
-\[
-X_{t+1}
-=
-\mathcal{F}
-(
-X_t,
-P_t,
-A_t,
-E_t,
-M_t,
-G_t,
-\Pi_t,
-R_t
-)
-\]
+$$X_{t+1} = \mathcal{F} ( X_t, P_t, A_t, E_t, M_t, G_t, \Pi_t, R_t )$$
 
 where:
 
@@ -1177,8 +1170,6 @@ arousal
 safety_est
 
 
-
-
 ## Vault-Sourced Domain Content
 
 > Source: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS.md` (46282 bytes in vault)
@@ -1368,3 +1359,8 @@ diversity/coherence governance
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]
+```

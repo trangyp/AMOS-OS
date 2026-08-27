@@ -1,6 +1,7 @@
 ---
 title: "Proof-Based Coordination Avoidance"
 type: proof
+source: 01_CANON/04_INFRASTRUCTURE_CANON
 artifact: "PROOF_BASED_COORDINATION_AVOIDANCE.md"
 artifact_id: "amos_01_canon_04_infrastructure_canon_proof_based_coordination_avoidance"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "01_CANON/04_INFRASTRUCTURE_CANON"
 artifact_kind: "ARTIFACT"
 path: "01_CANON/04_INFRASTRUCTURE_CANON/PROOF_BASED_COORDINATION_AVOIDANCE.md"
 
-tags: [amos_os, canon, universe, 01_canon, artifact, canon_placeholder, rscf]
+tags: [amos_os, canon, universe, 01_canon, artifact, canon_placeholder, rscf, canon/universe]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Proof-Based Coordination Avoidance

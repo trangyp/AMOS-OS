@@ -1,12 +1,15 @@
 ---
 title: THE TRANG SYSTEM TSS OFFICIAL MANUAL
-tags: [trang, framework, reality]
+tags: [trang, framework, reality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
 
 
 # **The Trang System™ (TSS) – Official Manual**

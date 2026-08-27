@@ -1,9 +1,14 @@
 ---
 title: COMPETING MODELS RESEARCH README
 type: model
-tags: [amos_os, 22_research]
+source: 22_RESEARCH/03_COMPETING_MODELS
+tags: [amos_os, 22_research, canon/research]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # COMPETING MODELS RESEARCH README

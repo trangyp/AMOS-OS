@@ -1,18 +1,21 @@
 ---
 title: SO TAY TAC PHONG UNITAXI
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
-# **📘 SỔ TAY TÁC PHONG UNITAXI**
+# **SỔ TAY TÁC PHONG UNITAXI**
 **Phiên bản nội bộ – 2025**
 * * *
-# **📖 Lời chào mừng**
+# **Lời chào mừng**
 ### **Chào mừng bạn đến với Unitaxi!**
 Cảm ơn bạn đã chọn trở thành một phần của Unitaxi. Từ hôm nay, bạn không chỉ lái một chiếc xe hay đứng trong một ca trực. **Bạn chính là gương mặt của cả hệ thống.** Là người khách nhìn thấy đầu tiên, và cũng là người khách nhớ lâu nhất. Mỗi chuyến xe bạn chạy, mỗi câu nói bạn thốt ra, mỗi hành động nhỏ bạn làm — đều góp phần tạo nên ấn tượng về Unitaxi trong mắt khách hàng.
 Sổ tay này được viết để giúp bạn:
@@ -42,7 +45,7 @@ Unitaxi không chỉ xây dựng một hãng xe, mà còn hướng đến tạo 
 Trong một đất nước đông đúc, vội vã và đầy áp lực như Việt Nam, điều duy nhất khách hàng tìm kiếm khi lên xe là cảm giác **an toàn**. Khi họ nhận ra điều đó từ bạn, không cần bất kỳ lời quảng cáo nào khác. **Nghề lái xe** vì thế trở thành một **nghề đẹp** – đẹp ở **sự tử tế** , ở **sự bình tĩnh** , và ở cái tâm đưa người khác về nhà **an toàn**.
 Tại Unitaxi, chúng tôi tin rằng một tài xế **tự trọng** sẽ tạo nên một dịch vụ **tự hào**. **Cảm ơn bạn đã đồng hành cùng chúng tôi trên hành trình này!**
 * * *
-# **📖 Triết lý phục vụ Unitaxi**
+# **Triết lý phục vụ Unitaxi**
 ### 1\. AN TOÀN TUYỆT ĐỐI – NỀN TẢNG CỦA MỌI HÀNH VI
 **An toàn** là ưu tiên tối thượng, vì không có nó, **tử tế** hay lịch sự đều vô nghĩa. Tài xế giỏi lái êm, đều, giữ khoảng cách, quan sát chủ động, tỉnh táo, tránh lái khi mệt mỏi, và tuân thủ đèn vàng-đỏ, không đọc tin nhắn hay mất bình tĩnh với khách khó. Tai nạn nhỏ hại **hình ảnh thương hiệu** , phanh gấp mất **niềm tin** , mất tập trung nguy hiểm cho chính bạn. Unitaxi đặt **an toàn** trên tốc độ, điểm số, doanh thu để tôn trọng khách và **nghề nghiệp**.
 ### 2\. TÔN TRỌNG & LỊCH SỰ – KHÔNG PHÂN BIỆT AI
@@ -51,7 +54,7 @@ Tại Unitaxi, chúng tôi tin rằng một tài xế **tự trọng** sẽ tạ
 “Chăm khách như người thân” là **quan tâm** đúng lúc, chu đáo vừa đủ, không phiền, không giả tạo. Unitaxi mong tài xế thể hiện **tử tế** và **tinh tế**.
 Khách không chỉ là người đi xe, mà là cá nhân với mệt mỏi, áp lực. Bạn làm hành trình họ dễ chịu hơn: người Việt nhạy với **thái độ** , nụ cười hay lời nói đúng lúc vượt xa giá cả; 80% ấn tượng từ chi tiết nhỏ như tin nhắn, ô mưa, nhắc **an toàn**. **Tử tế** đúng lúc giảm khiếu nại, tăng quay lại, là **marketing** tự nhiên; hành động **tinh tế** dịu khách vội, giảm xung đột. **Niềm tin** mạnh mẽ với người già, trẻ em, khách bệnh viện hay mưa/nắng – không mua được bằng quảng cáo. Phù hợp **văn hóa Việt Nam** trân trọng **tôn trọng** , **tinh tế** , Unitaxi đặt nó làm trung tâm **văn hóa phục vụ**.
 * * *
-# **📖 Bộ 8 Chuẩn Tác phong Unitaxi**
+# **Bộ 8 Chuẩn Tác phong Unitaxi**
 ### 1\. AN TOÀN TRƯỚC – SAU – LUÔN LUÔN
   * **Chuẩn:** Tránh phanh gấp, tăng tốc đột ngột hay mất tập trung.
 
@@ -132,10 +135,10 @@ Khách không chỉ là người đi xe, mà là cá nhân với mệt mỏi, á
   * **Hành vi:** Giữ áo quần phẳng phiu, giày dép sạch sẽ, tư thế đứng, đi và mở cửa thể hiện rõ **sự chuyên nghiệp**.
 
 
-### 💛 ĐÂY LÀ “DNA CỦA UNITAXI”
+### ĐÂY LÀ “DNA CỦA UNITAXI”
 Không chỉ là khẩu hiệu hay hình thức, đây là bộ khung **tác phong** mà mỗi thành viên phải duy trì mỗi ngày. Nhờ đó, Unitaxi trở thành dịch vụ được khách **tin tưởng** , **lựa chọn** và **giới thiệu** , khẳng định vị thế trên thị trường.
 * * *
-# **📖 Hình ảnh & đồng phục**
+# **Hình ảnh & đồng phục**
 Bạn chính là hình ảnh đại diện của Unitaxi. Mỗi khi khách bước lên xe, họ chỉ thấy bạn – không thấy công ty hay hệ thống. Vì vậy, **tác phong** , **đồng phục** , và **cách bạn xuất hiện** chính là thương hiệu sống động của Unitaxi.
   * **1\. Đồng phục sạch sẽ – Gọn gàng:**
     * Giữ áo quần phẳng phiu, không nhăn, không ố bẩn.
@@ -166,7 +169,7 @@ Bạn chính là hình ảnh đại diện của Unitaxi. Mỗi khi khách bư�
 
 **Lý do:** Dáng đứng và cách mở cửa là “ngôn ngữ im lặng” thể hiện **tôn trọng**. Khi bạn xuất hiện chỉnh chu, tự tin, và đúng tác phong, khách hàng tự nhiên đáp lại bằng sự **lịch sự** và **tin tưởng**.
 * * *
-# **📖 Xe sạch = Khách dễ chịu**
+# **Xe sạch = Khách dễ chịu**
 Một chiếc xe sạch, thoáng, không mùi chính là ấn tượng đầu tiên — và thường là ấn tượng mạnh nhất. Trước mỗi ca, bạn chỉ cần **1 phút** để kiểm tra:
   * **Ghế & thảm sạch**, không bụi, không vụn đồ ăn
 
@@ -184,7 +187,7 @@ Một chiếc xe sạch, thoáng, không mùi chính là ấn tượng đầu ti
 
 
 **Khách bước lên xe và thấy dễ chịu ngay lập tức → 80% ấn tượng tốt đã hình thành.** Họ cảm nhận được sự chuyên nghiệp, sự tôn trọng và sự chuẩn mực từ bạn.
-### **📌 Checklist vệ sinh nhanh 30 giây giữa các chuyến**
+### **Checklist vệ sinh nhanh 30 giây giữa các chuyến**
 Chỉ cần **30 giây** để giữ xe sạch – gọn – dễ chịu:
   1. **Miết nhanh tay lên ghế** → kiểm tra bụi, vụn bánh, tóc.
 
@@ -205,7 +208,7 @@ Chỉ cần **30 giây** để giữ xe sạch – gọn – dễ chịu:
 
 
 ➡ Xe sạch → khách dễ chịu → tài xế tự tin → hành trình êm.
-### **📌 Quy chuẩn mùi – ánh sáng – âm lượng trong xe**
+### **Quy chuẩn mùi – ánh sáng – âm lượng trong xe**
 ### **1\. Mùi trong xe**
   * Không dùng nước hoa nồng.
 
@@ -243,7 +246,7 @@ Chỉ cần **30 giây** để giữ xe sạch – gọn – dễ chịu:
 
 
 Mùi – ánh sáng – âm lượng ổn định giúp khách **dễ chịu 70%** mà không cần nói nhiều.
-### **📌 Tiêu chuẩn dọn xe cuối ca (3 phút)**
+### **Tiêu chuẩn dọn xe cuối ca (3 phút)**
 Mỗi ca kết thúc, dành đúng **3 phút** :
 ### **Phút 1 – Thu gom & kiểm tra**
   * Nhặt toàn bộ rác: chai nước, giấy, bao bì.
@@ -277,51 +280,51 @@ Mỗi ca kết thúc, dành đúng **3 phút** :
 
 Xe sạch cuối ca → **bắt đầu ca sau với trạng thái 100%** → giảm stress → tăng hiệu quả làm việc.
 * * *
-# **📖 Những điều tuyệt đối không làm**
+# **Những điều tuyệt đối không làm**
 Các hành vi dưới đây **tuyệt đối không được phép** , dù trong bất kỳ hoàn cảnh nào. Chúng gây nguy hiểm, làm mất niềm tin của khách và tổn hại trực tiếp đến hình ảnh Unitaxi.
 ## **1\. An toàn & Lái xe**
-**❌ Không phanh gấp – đánh lái mạnh** → Gây say xe, nguy hiểm cho khách, ảnh hưởng đánh giá.
-**❌ Không vượt đèn đỏ – đèn vàng** → Ảnh hưởng an toàn và pháp lý.
-**❌ Không lái xe khi buồn ngủ, mệt, hoa mắt** → Nếu có dấu hiệu xuống sức → dừng ca / xin đổi ca.
-**❌ Không vừa lái vừa làm việc riêng** → Không đọc tin nhắn, không xem video, không chỉnh mạng xã hội.
-**❌ Không lái xe khi đã sử dụng rượu bia, thuốc lá điện tử, chất kích thích.**
+**Không phanh gấp – đánh lái mạnh** → Gây say xe, nguy hiểm cho khách, ảnh hưởng đánh giá.
+**Không vượt đèn đỏ – đèn vàng** → Ảnh hưởng an toàn và pháp lý.
+**Không lái xe khi buồn ngủ, mệt, hoa mắt** → Nếu có dấu hiệu xuống sức → dừng ca / xin đổi ca.
+**Không vừa lái vừa làm việc riêng** → Không đọc tin nhắn, không xem video, không chỉnh mạng xã hội.
+**Không lái xe khi đã sử dụng rượu bia, thuốc lá điện tử, chất kích thích.**
 ## **2\. Điện thoại & Thiết bị cá nhân**
-**❌ Không sử dụng điện thoại cá nhân khi xe đang di chuyển** → Chỉ được phép dùng **app điều phối**.
-**❌ Không cầm máy, trả lời cuộc gọi riêng khi có khách** → Nếu bắt buộc → xin phép khách.
-**❌ Không cắm sạc – cắm loa tùy tiện gây vướng víu.**
+**Không sử dụng điện thoại cá nhân khi xe đang di chuyển** → Chỉ được phép dùng **app điều phối**.
+**Không cầm máy, trả lời cuộc gọi riêng khi có khách** → Nếu bắt buộc → xin phép khách.
+**Không cắm sạc – cắm loa tùy tiện gây vướng víu.**
 ## **3\. Giao tiếp & Ứng xử**
-**❌ Không tranh cãi với khách** → Nếu khách căng thẳng → giữ giọng nhẹ – chuyển cho điều phối.
-**❌ Không nói tục, không dùng từ xúc phạm** → Dù khách sai → tài xế luôn phải giữ chuẩn.
-**❌ Không bình luận về giới tính, tôn giáo, gia đình, tiền bạc** → Chuẩn quốc tế cấm tuyệt đối.
-**❌ Không hỏi chuyện riêng tư khi khách không chủ động chia sẻ.**
-**❌ Không tỏ thái độ, thở dài, liếc nhìn bực bội.**
+**Không tranh cãi với khách** → Nếu khách căng thẳng → giữ giọng nhẹ – chuyển cho điều phối.
+**Không nói tục, không dùng từ xúc phạm** → Dù khách sai → tài xế luôn phải giữ chuẩn.
+**Không bình luận về giới tính, tôn giáo, gia đình, tiền bạc** → Chuẩn quốc tế cấm tuyệt đối.
+**Không hỏi chuyện riêng tư khi khách không chủ động chia sẻ.**
+**Không tỏ thái độ, thở dài, liếc nhìn bực bội.**
 ## **4\. Âm thanh – mùi – môi trường trong xe**
-**❌ Không hút thuốc, kể cả khi xe không có khách** → Mùi thuốc lưu trên ghế, áo → khách đánh giá xấu ngay lập tức.
-**❌ Không mở nhạc ồn, nhạc lời, nhạc remix** → Chuẩn quốc tế: **music off hoặc nhạc nhẹ – nhỏ – không lời**.
-**❌ Không mở radio thời sự/hài kịch có nội dung gây kích động.**
-**❌ Không bật đèn cabin liên tục gây khó chịu.**
+**Không hút thuốc, kể cả khi xe không có khách** → Mùi thuốc lưu trên ghế, áo → khách đánh giá xấu ngay lập tức.
+**Không mở nhạc ồn, nhạc lời, nhạc remix** → Chuẩn quốc tế: **music off hoặc nhạc nhẹ – nhỏ – không lời**.
+**Không mở radio thời sự/hài kịch có nội dung gây kích động.**
+**Không bật đèn cabin liên tục gây khó chịu.**
 * * *
 ## **5\. Hình ảnh & Tác phong**
-**❌ Không mặc quần đùi, dép lê, áo nhàu, áo ướt**
-**❌ Không để lộ hình xăm lớn (nếu có → che lại theo chuẩn quốc tế).**
-**❌ Không để xe bẩn: bụi, rác, chai nước cũ.**
-**❌ Không để mùi cơ thể, mùi thức ăn, mùi thuốc lá trong xe.**
-**❌ Không mang thức ăn có mùi nặng lên xe.**
+**Không mặc quần đùi, dép lê, áo nhàu, áo ướt**
+**Không để lộ hình xăm lớn (nếu có → che lại theo chuẩn quốc tế).**
+**Không để xe bẩn: bụi, rác, chai nước cũ.**
+**Không để mùi cơ thể, mùi thức ăn, mùi thuốc lá trong xe.**
+**Không mang thức ăn có mùi nặng lên xe.**
 ## **6\. Quy trình & Dữ liệu**
-**❌ Không tự ý thay đổi tuyến để tăng tiền** → Tối kỵ, vi phạm đạo đức nghề nghiệp toàn cầu.
-**❌ Không tắt app, không hủy cuốc tùy tiện** → Gây mất niềm tin hệ thống.
-**❌ Không báo sai tình trạng pin, nhiên liệu, sự cố.**
-**❌ Không giao tiếp qua voice/chat nội bộ bằng ngôn từ thiếu chuẩn.**
+**Không tự ý thay đổi tuyến để tăng tiền** → Tối kỵ, vi phạm đạo đức nghề nghiệp toàn cầu.
+**Không tắt app, không hủy cuốc tùy tiện** → Gây mất niềm tin hệ thống.
+**Không báo sai tình trạng pin, nhiên liệu, sự cố.**
+**Không giao tiếp qua voice/chat nội bộ bằng ngôn từ thiếu chuẩn.**
 ## **7\. Hành vi rủi ro cao**
 Các hành vi dưới đây = **chấm dứt hợp đồng ngay lập tức** (theo chuẩn Grab/Uber):
-**❌ Sàm sỡ, đụng chạm không được phép**
-**❌ Nhìn chằm chằm qua gương, cố tình quan sát cơ thể khách**
-**❌ Gợi ý tình cảm, đùa nhạy cảm, lời nói hai nghĩa**
-**❌ Lừa đảo, vòi tiền, gợi ý “tip”, gợi ý thanh toán ngoài app**
-**❌ Bỏ khách giữa đường không lý do**
-**❌ Cố tình đe dọa, quát nạt, gây áp lực tâm lý**
-**❌ Giữ đồ khách hoặc không trả lại khi biết khách quên**
-# **🎯 Kết luận**
+**Sàm sỡ, đụng chạm không được phép**
+**Nhìn chằm chằm qua gương, cố tình quan sát cơ thể khách**
+**Gợi ý tình cảm, đùa nhạy cảm, lời nói hai nghĩa**
+**Lừa đảo, vòi tiền, gợi ý “tip”, gợi ý thanh toán ngoài app**
+**Bỏ khách giữa đường không lý do**
+**Cố tình đe dọa, quát nạt, gây áp lực tâm lý**
+**Giữ đồ khách hoặc không trả lại khi biết khách quên**
+# **Kết luận**
 “Những điều tuyệt đối không làm” là **rào chắn bảo vệ** :
   * **An toàn của khách**
 
@@ -334,7 +337,7 @@ Các hành vi dưới đây = **chấm dứt hợp đồng ngay lập tức** (t
 
 Không chỉ phục vụ khách, chúng ta **đại diện cho thương hiệu**. Một hành vi sai có thể phá hỏng hàng ngàn hành vi đúng.
 * * *
-# **📖 Khi nhận cuốc**
+# **Khi nhận cuốc**
 **Mục tiêu của Unitaxi:** Tạo cảm giác **an tâm** , **rõ ràng** , không bị **bỏ rơi** cho khách ngay phút đầu, dựa trên nguyên tắc quốc tế: **ngắn** , **rõ** , **trấn an** (theo chuẩn Uber, Lyft, Grab, Bolt).
   * **Nhắn tin xác nhận:** “Em đang đến, khoảng 2 phút nữa tới ạ.” (Giảm lo lắng, chuẩn bắt buộc Unitaxi).
 
@@ -391,7 +394,7 @@ Không chỉ phục vụ khách, chúng ta **đại diện cho thương hiệu**
 
 
 * * *
-# **📖 Khi khách bước lên xe**
+# **Khi khách bước lên xe**
 **Mục tiêu:** Trong 10 giây đầu, khách cảm nhận **an toàn** , **dễ chịu** , **tôn trọng** , **chuyên nghiệp** – tiêu chuẩn cơ bản của các hệ thống taxi công nghệ toàn cầu (Uber, Lyft, Bolt, Grab).
   * **Chào nhẹ – một câu – đúng mực:** “Em chào anh/chị, mình đi tới X đúng không ạ?” (Lịch sự, không thừa lời, không áp lực).
 
@@ -436,7 +439,7 @@ Không chỉ phục vụ khách, chúng ta **đại diện cho thương hiệu**
 
 
 * * *
-# **📖 Trong suốt chuyến đi**
+# **Trong suốt chuyến đi**
 **Mục tiêu:** Đảm bảo **an toàn** , **dễ chịu** , ổn định **cảm xúc** khách; giảm rủi ro **xung đột** ; tạo cảm giác **tinh tế** , **chuyên nghiệp** , và biết **quan sát**. Khách đánh giá qua cảm giác cơ thể trên xe, không chỉ lời nói.
 ### I. CHUẨN AN TOÀN & ĐIỀU KHIỂN XE
   * **Lái êm – không phanh gấp – không đánh lái mạnh:** Tiêu chuẩn số 1 quốc tế.
@@ -509,7 +512,7 @@ Không chỉ phục vụ khách, chúng ta **đại diện cho thương hiệu**
 
 
 * * *
-# **📖 Chăm khách đặc biệt**
+# **Chăm khách đặc biệt**
 Khách đặc biệt = những người có **nhu cầu khác nhau** , dễ nhạy cảm hơn, và cần được quan tâm đúng mực. Mục tiêu của Unitaxi: **an toàn – tinh tế – không làm quá – không làm phiền**. Chia theo 7 nhóm rõ ràng, dễ nhớ, không trùng lặp:
 ### I. TRẺ NHỎ & GIA ĐÌNH CÓ TRẺ
   * **Trẻ nhỏ say xe:** Giảm tốc, chạy êm, hạn chế cua gấp, mở nhẹ cửa kính.
@@ -609,7 +612,7 @@ Khách đặc biệt = những người có **nhu cầu khác nhau** , dễ nh�
 
 
 * * *
-# **📖 Trước khi khách xuống xe**
+# **Trước khi khách xuống xe**
 **Mục tiêu:** Đảm bảo **an toàn tuyệt đối** , kết thúc chuyến xe với cảm giác **dễ chịu** , và duy trì **hình ảnh chuyên nghiệp** đến giây cuối.
 ### I. NHẮC KIỂM TRA TÀI SẢN CÁ NHÂN
   * **Nhắc đồ cá nhân:** “Anh/chị kiểm tra giúp ví – điện thoại – chìa khoá nhé.” (Tiêu chuẩn toàn cầu, giảm 80% quên đồ).
@@ -695,7 +698,7 @@ Khách đặc biệt = những người có **nhu cầu khác nhau** , dễ nh�
 
 
 * * *
-# **📖 Sau chuyến**
+# **Sau chuyến**
 **Mục tiêu:** Kết thúc chuyến xe **tử tế** , **rõ ràng** , **chuyên nghiệp** ; giữ **hình ảnh thống nhất** của hãng; tăng khả năng khách **quay lại**.
 ### I. TIN NHẮN CẢM ƠN NGẮN – ĐÚNG CHUẨN
   * **Tin nhắn tiêu chuẩn:** “Em cảm ơn anh/chị đã đi Unitaxi.” (Ngắn, trung tính, lịch sự – chuẩn Uber “Short gratitude message”).
@@ -749,7 +752,7 @@ Khách đặc biệt = những người có **nhu cầu khác nhau** , dễ nh�
 
 
 * * *
-# **📖 Khoảnh khắc nhỏ tạo ấn tượng tốt**
+# **Khoảnh khắc nhỏ tạo ấn tượng tốt**
 Trong dịch vụ vận chuyển, trải nghiệm khách hàng chỉ kéo dài vài phút, nhưng cảm xúc của họ được định hình bởi những chi tiết nhỏ nhất. Những khoảnh khắc ngắn ngủi, thường chỉ vài giây, đóng góp tới 80% ấn tượng tổng thể của cả chuyến đi. Dưới đây là lý do cụ thể, được xây dựng theo phương pháp MECE, giải thích rõ ràng và thuyết phục, phù hợp với văn phong doanh nghiệp Việt Nam.
 ### 1\. KHOẢNH KHẮC ĐẦU VÀ CUỐI CÓ SỨC NẶNG LỚN NHẤT
 Theo chuẩn quốc tế, khách hàng ghi nhớ mở đầu, cao điểm và kết thúc – hiệu ứng “đỉnh – cuối”.
@@ -801,7 +804,7 @@ Không cần diễn, nói nhiều, làm quá hay cười gượng. Chỉ cần �
 
 Một chuyến đi tốt với khách không phải là hoàn hảo, mà là có những khoảnh khắc nhỏ mang lại **an tâm** , **dễ chịu** , **tôn trọng** , **quan tâm đúng mực**. Những chi tiết này xây dựng **ấn tượng lớn** , định hình hình ảnh Unitaxi và giúp tài xế tự hào về **nghề nghiệp**.
 * * *
-# **📖 Kỷ luật giờ giấc & sức khoẻ**
+# **Kỷ luật giờ giấc & sức khoẻ**
 Một tài xế chuyên nghiệp không chỉ thể hiện kỹ năng lái xe điêu luyện mà còn duy trì **tỉnh táo** , **bình tĩnh** , và **sức khỏe tốt** suốt ca làm việc. Kỷ luật về sức khỏe và giờ giấc là nền tảng cốt lõi đảm bảo **an toàn** , **thu nhập ổn định** , và xây dựng **hình ảnh nghề nghiệp** vững mạnh cho Unitaxi. Dưới đây là các tiêu chuẩn được xây dựng theo phương pháp MECE, tích hợp quy trình quốc tế (Uber, Lyft, Grab, Toyota Driving Safety, WHO, Japan Safe Driving Institute) và tối ưu hóa theo văn hóa Việt Nam, dễ dàng đào tạo và áp dụng thực tế.
 ### I. QUY TRÌNH NGHỈ GIỮA CA – TIÊU CHUẨN QUỐC TẾ
 **(Uber, Lyft, Grab, Toyota Driving Safety)**
@@ -920,7 +923,7 @@ Gặp bất kỳ dấu hiệu nào dưới đây, tài xế phải dừng xe l�
 
 
 * * *
-# **📖 Làm việc với điều phối & kỹ thuật**
+# **Làm việc với điều phối & kỹ thuật**
 **(Chuẩn hóa giao tiếp nội bộ – Giảm xung đột – Giảm lỗi vận hành – Tăng tốc xử lý sự cố)**
 Hợp tác hiệu quả giữa **Tài xế** , **Điều phối** , và **Kỹ thuật** là nền tảng cốt lõi để duy trì hệ thống vận hành ổn định của Unitaxi. Một câu nói rõ ràng, đúng mực có thể giảm 50–70% sai sót và rút ngắn thời gian xử lý sự cố. Nội dung dưới đây cung cấp chuẩn hành vi chi tiết cho từng luồng giao tiếp, được xây dựng theo phương pháp MECE, tuân thủ tiêu chuẩn quốc tế (Uber, Lyft, Grab, Bolt), và tối ưu hóa phù hợp với văn hóa doanh nghiệp Việt Nam, dễ áp dụng cho tài xế, điều phối, và kỹ thuật.
 ### I. TÀI XẾ → ĐIỀU PHỐI
@@ -1040,7 +1043,7 @@ Hợp tác hiệu quả giữa **Tài xế** , **Điều phối** , và **Kỹ t
 
 
 * * *
-# **📖 Lời kết & Cam kết**
+# **Lời kết & Cam kết**
 Bạn chính là người mang hình ảnh Unitaxi đến với khách hàng mỗi ngày. Một câu nói nhẹ nhàng, một hành động nhỏ nhặt – đôi khi lại tạo nên sự khác biệt lớn lao hơn bạn tưởng tượng.
 Trong mọi tình huống, hãy ghi nhớ ba giá trị cốt lõi dẫn dắt công việc của bạn:
   * **1\. An toàn là số 1:** An toàn cho khách, cho chính bạn, và cho toàn hệ thống. Không có an toàn, không thể có dịch vụ chất lượng.
@@ -1053,7 +1056,7 @@ Trong mọi tình huống, hãy ghi nhớ ba giá trị cốt lõi dẫn dắt c
 
 
 * * *
-### ✨ CAM KẾT CỦA NGƯỜI LÀM NGHỀ UNITAXI
+### CAM KẾT CỦA NGƯỜI LÀM NGHỀ UNITAXI
 Công việc của bạn không chỉ dừng ở việc lái xe, điều phối hay hỗ trợ kỹ thuật. Bạn đang trao đi:
   * **Sự an tâm** cho người đang vội vã,
 

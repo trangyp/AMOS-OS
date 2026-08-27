@@ -3,10 +3,14 @@ title: AMOS UX DESIGN KERNEL V0 TECH7 3
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-ux-design-kernel-v0, kernel]
 type: data
 source: 11_KNOWLEDGE/kernel
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
+# AMOS UX DESIGN KERNEL V0 TECH7 3
 
 ```json
 {

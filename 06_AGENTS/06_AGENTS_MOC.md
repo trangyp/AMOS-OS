@@ -1,8 +1,15 @@
 ---
 title: "06 Agents MOC"
 type: moc
-tags: [moc, 06-agents]
+source: 06_AGENTS
+tags: [moc, 06-agents, canon/agent]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 06 Agents — Map of Content
 

@@ -1,6 +1,7 @@
 ---
 title: "AMOS OS Root Authorization"
 type: note
+source: 00_ROOT
 artifact: "00_ROOT_AUTHORIZATION.md"
 artifact_id: "AMOS_AUTH_ROOT_000"
 origin_architect: "Trang Phan"
@@ -18,7 +19,12 @@ canonical_status: "UNKNOWN/GAP"
 implementation_status: "UNKNOWN/GAP"
 validation_status: "UNKNOWN/GAP"
 active_root_authority: "UNBOUND"
-tags: [note, 00-root]
+tags: [note, 00-root, canon/root]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 

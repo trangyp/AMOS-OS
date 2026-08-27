@@ -1,8 +1,15 @@
 ---
 title: "85 Interpretation Semantic Modes MOC"
 type: moc
-tags: [moc, 85-interpretation-semantic-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/85_INTERPRETATION_SEMANTIC_MODES
+tags: [moc, 85-interpretation-semantic-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 85 Interpretation Semantic Modes — Map of Content
 

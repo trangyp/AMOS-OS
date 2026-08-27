@@ -1,5 +1,6 @@
 ---
 type: note
+source: 00_ROOT
 artifact_id: AMOS-OS-ROOT
 name: AMOS_OS
 title: "AMOS OS — Governed Cognitive Operating Architecture"
@@ -31,7 +32,6 @@ aliases: "- AMOS OS
 related: "see body"---
 
 
-
 # AMOS OS
 
 **Origin architect / steward:** Trang Phan
@@ -57,8 +57,13 @@ SPEED
 >
 TOKEN SAVINGS
 ```
-
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
+
 
 # 1. System Spine
 

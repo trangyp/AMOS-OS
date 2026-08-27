@@ -1,24 +1,15 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX OPERATORS
 type: cognitive
-tags: [cognitive_matrix, primitives, l01_sensing_observation, note]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
+tags: [cognitive_matrix, primitives, l01_sensing_observation, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-
-
-Below is the full paste-ready `L01_SENSING_OBSERVATION / OPERATORS.md`. I’m keeping the exact L01 operator registry explicitly **MODEL / canon-bounded**, rather than presenting reconstructed operators as validated canon.
-
----
-tags:
-  - amos
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - operators
-  - provenance
-  - control-plane
-  - rscf
----
 
 # L01_SENSING_OBSERVATION — Operators
 

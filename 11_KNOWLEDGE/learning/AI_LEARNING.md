@@ -1,12 +1,15 @@
 ---
 title: AI LEARNING
-tags: [learning, training, adaptation]
+tags: [learning, training, adaptation, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/learning
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: learning_system
+
 ---
-
-
-
 
 
 # Ai learning

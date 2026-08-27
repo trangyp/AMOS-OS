@@ -1,5 +1,6 @@
 ---
 type: canon
+source: 01_CANON/04_INFRASTRUCTURE_CANON
 artifact_id: AMOS-INFRASTRUCTURE-CANON
 name: INFRASTRUCTURE_CANON
 title: "AMOS Infrastructure Canon — Substrate, Resource, Deployment, Resilience, and Operational Foundations"
@@ -29,7 +30,6 @@ aliases: "- AMOS Infrastructure Canon
   - AMOS Ope..."---
 
 
-
 # AMOS Infrastructure Canon
 
 **Origin architect / steward:** Trang Phan
@@ -37,8 +37,13 @@ aliases: "- AMOS Infrastructure Canon
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 0. Purpose
 

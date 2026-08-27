@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-c10-tech-engineering-master]
+source: 07_SKILLS/amos-c10-tech-engineering-master/references
+tags: [reference, amos-c10-tech-engineering-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # amos-c10-tech-engineering-master — Vault-Sourced Domain Knowledge
 
@@ -401,8 +408,6 @@ architecture violation.
 `closed` (normal traffic)
 → `open` on failure threshold (all calls rejected fast)
 → `half_open` after cooldown (
-
-
 
 
 ## Vault-Sourced Domain Content

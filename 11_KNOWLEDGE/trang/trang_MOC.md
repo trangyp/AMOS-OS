@@ -1,8 +1,15 @@
 ---
 title: "Trang MOC"
 type: moc
-tags: [moc, trang]
+source: 11_KNOWLEDGE/trang
+tags: [moc, trang, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # Trang — Map of Content
 

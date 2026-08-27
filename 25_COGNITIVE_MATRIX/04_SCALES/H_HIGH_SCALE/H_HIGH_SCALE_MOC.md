@@ -1,8 +1,15 @@
 ---
 title: "H High Scale MOC"
 type: moc
-tags: [moc, h-high-scale]
+source: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE
+tags: [moc, h-high-scale, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # H High Scale — Map of Content
 

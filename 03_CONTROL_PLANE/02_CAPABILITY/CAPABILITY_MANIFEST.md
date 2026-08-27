@@ -1,26 +1,15 @@
 ---
 title: CAPABILITY MANIFEST
 type: manifest
-tags: [control_plane, capability, note]
+source: 03_CONTROL_PLANE/02_CAPABILITY
+tags: [control_plane, capability, note, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-
-
-Below is the **full paste-ready `CAPABILITY_MANIFEST.md`**, designed to sit beside `CAPABILITY_CONTRACT.md`. It is a substantive manifest specification, not a placeholder, while preserving the boundary between architecture definition and validated runtime implementation.
-
----
-title: "AMOS Capability Manifest"
-artifact: "CAPABILITY_MANIFEST.md"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-artifact_class: "GOVERNED_CAPABILITY_MANIFEST"
-status: "PROPOSED / STRUCTURALLY_COMPLETE / IMPLEMENTATION-UNVALIDATED"
-epistemic_class: "MODEL"
-version: "1.0.0"
-updated: "2026-08-26"
-authority: "NONE_BY_DEFAULT"
----
 
 # AMOS Capability Manifest
 

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Benchmark-Forensics MOC"
 type: moc
-tags: [moc, amos-benchmark-forensics]
+source: 07_SKILLS/amos-benchmark-forensics
+tags: [moc, amos-benchmark-forensics, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Benchmark-Forensics — Map of Content
 

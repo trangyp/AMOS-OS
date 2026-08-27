@@ -1,8 +1,15 @@
 ---
 title: defense security civil protection
 type: reference
-tags: [reference, amos-security-safety-master]
+source: 07_SKILLS/amos-security-safety-master/references
+tags: [reference, amos-security-safety-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Defense Security and Civil Protection Systems
 
@@ -315,3 +322,7 @@ ol > li {
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

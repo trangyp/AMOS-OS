@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-arxiv-spatial-speech-perception-rscf]
+source: 07_SKILLS/amos-arxiv-spatial-speech-perception-rscf/references
+tags: [reference, amos-arxiv-spatial-speech-perception-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -366,3 +373,4 @@ rscf/P-
 
 ---
 **MOC:** [[references_MOC]]
+```

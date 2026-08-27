@@ -1,9 +1,14 @@
 ---
 title: L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX AGENTS
 type: agent
-tags: [cognitive_matrix, primitives, l00_reality_environment, note]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
+tags: [cognitive_matrix, primitives, l00_reality_environment, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L00_REALITY_ENVIRONMENT — Agents

@@ -1,12 +1,15 @@
 ---
 title: NGUOI NGOAI HANH TINH VA CAC CONG TRINH CO DAI KHO
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # "NGƯỜI NGOÀI HÀNH TINH" VÀ CÁC CÔNG TRÌNH CỔ ĐẠI "KHÔNG THỂ GIẢI THÍCH"

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Distributed-Causal-Evolution-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-distributed-causal-evolution-rscf-e]
+source: 07_SKILLS/amos-distributed-causal-evolution-rscf-engine
+tags: [moc, amos-distributed-causal-evolution-rscf-e, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Distributed-Causal-Evolution-Rscf-Engine — Map of Content
 

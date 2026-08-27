@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-agent-systems-master]
+source: 07_SKILLS/amos-agent-systems-master
+tags: [note, amos-agent-systems-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-agent-systems-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS Agent Systems Master. Consolidates 11 sub-skills.
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-agent-systems-master_MOC]]

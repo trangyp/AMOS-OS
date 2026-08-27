@@ -1,18 +1,21 @@
 ---
 title: PSI V6 META EFFECTIVENESS PROFILE CO BINH
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
-# **🧠 PSI v6 Meta-Effectiveness Profile — Cô Bình**
+# **PSI v6 Meta-Effectiveness Profile — Cô Bình**
 ⦿ Role: Skeptical mentor and interpreter, active in spiritual–scientific dialogue, emphasising responsibility, critical inquiry, and protection against manipulation.
 * * *
-## **✅ Dual Score Summary**
+## **Dual Score Summary**
 |                                    |
 | **Dimension**                      | **Score (out of 50)** | **Commentary**                                                                                                                                                                 |
 |------------------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -21,7 +24,7 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## **🔍 Component Breakdown — Intrinsic Intelligence Score (IIS)**
+## **Component Breakdown — Intrinsic Intelligence Score (IIS)**
 |                                          |
 | **Component**                            | **Max** | **Score** | **Rationale**                                                                                                                                                                                             |
 |------------------------------------------|---------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -34,7 +37,7 @@ source: 11_KNOWLEDGE/misc
 
 🔹 **Total IIS: 30 / 50**
 * * *
-## **🌍 Component Breakdown — Environmental Adoption Score (EAS)**
+## **Component Breakdown — Environmental Adoption Score (EAS)**
 |                            |
 | **Component**              | **Max** | **Score** | **Rationale**                                                                                                                                                     |
 |----------------------------|---------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -47,7 +50,7 @@ source: 11_KNOWLEDGE/misc
 
 🔹 **Total EAS: 26.5 / 50**
 * * *
-## **🏁 Final Score**
+## **Final Score**
   * **Intrinsic Intelligence Score (IIS): 30 / 50**
 
 

@@ -1,8 +1,15 @@
 ---
 title: human interaction engine layer
 type: reference
-tags: [reference, amos-c05-mind-behavior-master]
+source: 07_SKILLS/amos-c05-mind-behavior-master/references
+tags: [reference, amos-c05-mind-behavior-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Human Interaction Engine Layer
 
@@ -114,4 +121,5 @@ HIE is a submodule of the AMOS Super Consciousness Engine. It converts abstract 
 - `engine/A/AMOS_Human_Intelligence_Engine_v0_Core7.md` — Human Intelligence Super Engine
 
 ---
+- [[07_SKILLS_MOC]]
 **MOC:** [[references_MOC]]

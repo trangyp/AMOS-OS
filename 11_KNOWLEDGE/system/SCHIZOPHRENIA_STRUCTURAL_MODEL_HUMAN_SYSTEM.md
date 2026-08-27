@@ -1,6 +1,7 @@
 ---
 title: SCHIZOPHRENIA STRUCTURAL MODEL HUMAN SYSTEM
 type: model
+source: 11_KNOWLEDGE/system
 origin: external — "The Complete Human System" (canonical version)
 provenance: direct ingestion of Chapter 16 (Schizophrenia — Complete Grounding)
 confidence: 0.95
@@ -11,8 +12,12 @@ date: 2026-08-22
 source_title: "The Complete Human System — Chapter 16: Schizophrenia — Complete Grounding"
 source_type: book-manuscript
 source_url: local-ingestion
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
 ---
-
 
 
 # Schizophrenia Structural Model — Complete Human System
@@ -144,3 +149,6 @@ This is presented as a structural model — a way of organizing the observed neu
 
 ---
 **MOC:** [[SYSTEM_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

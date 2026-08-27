@@ -1,6 +1,7 @@
 ---
 title: K IDENTITY
 type: identity
+source: 02_KERNEL/04_STATE
 artifact_id: AMOS-OS-K-IDENTITY
 canonical_name: K_IDENTITY
 artifact_type: kernel_identity_contract
@@ -21,8 +22,6 @@ aliases: "- AMOS Identity Kernel
   - Identity Kernel
   - K Identity
   - K_IDENTITY..."---
-
-
 
 
 # K IDENTITY
@@ -63,8 +62,14 @@ COPY != ORIGINAL
 DERIVATION != INDEPENDENT ORIGIN
 SIMILARITY != SAMENESS
 ```
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
+# K IDENTITY
 
 ## 1. Identity Principle
 

@@ -1,8 +1,15 @@
 ---
 title: pragmatic action
 type: reference
-tags: [reference, amos-active-inference-governor]
+source: 07_SKILLS/amos-active-inference-governor/references
+tags: [reference, amos-active-inference-governor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Active Inference Governor — Pragmatic Action Detail
 
@@ -963,3 +970,7 @@ For simple cases compress aggressively.
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

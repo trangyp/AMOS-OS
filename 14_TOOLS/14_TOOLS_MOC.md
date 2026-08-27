@@ -1,8 +1,15 @@
 ---
 title: "14 Tools MOC"
 type: moc
-tags: [moc, 14-tools]
+source: 14_TOOLS
+tags: [moc, 14-tools, canon/tool]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 14 Tools — Map of Content
 

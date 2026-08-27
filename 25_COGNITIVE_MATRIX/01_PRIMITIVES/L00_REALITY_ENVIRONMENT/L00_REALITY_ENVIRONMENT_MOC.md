@@ -1,8 +1,15 @@
 ---
 title: "L00 Reality Environment MOC"
 type: moc
-tags: [moc, l00-reality-environment]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
+tags: [moc, l00-reality-environment, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L00 Reality Environment — Map of Content
 

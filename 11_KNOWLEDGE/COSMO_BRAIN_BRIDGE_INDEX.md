@@ -1,11 +1,16 @@
 ---
 title: COSMO BRAIN BRIDGE INDEX
 type: index
+source: 11_KNOWLEDGE
 canon-group: reference
 rscf-state: derived
-tags: [moc, index, bridge, cosmo-brain]
+tags: [moc, index, bridge, cosmo-brain, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
-
 
 
 # Cosmo Brain Bridge Index
@@ -2467,10 +2472,10 @@ tags: [moc, index, bridge, cosmo-brain]
 - “The Intelligence OS™” — A Multi-Layered, Scalable — `docs/brain/“The Intelligence OS™” — A Multi-Layered, Scalable.md`
 - ∞ và ● — `docs/brain/∞ và ●.md`
 - ■ The Signal Economy™ — `docs/brain/■ The Signal Economy™.md`
-- ✅ LOGIC GAP COMPARISON (% of the total collapse fa — `docs/brain/✅ LOGIC GAP COMPARISON (% of the total collapse fa.md`
-- ✅ THE 7-PART UNIVERSE CANON — `docs/brain/✅ THE 7-PART UNIVERSE CANON.md`
-- ✦ Bão Mặt Trời và bão sao Thổ tồn tại vĩnh viễn, c — `docs/brain/✦ Bão Mặt Trời và bão sao Thổ tồn tại vĩnh viễn, c.md`
-- ✦ Lục giác, Xoắn ốc, và Thị trường Forex – Bản gia — `docs/brain/✦ Lục giác, Xoắn ốc, và Thị trường Forex – Bản gia.md`
+- LOGIC GAP COMPARISON (% of the total collapse fa — `docs/brain/✅ LOGIC GAP COMPARISON (% of the total collapse fa.md`
+- THE 7-PART UNIVERSE CANON — `docs/brain/✅ THE 7-PART UNIVERSE CANON.md`
+- Bão Mặt Trời và bão sao Thổ tồn tại vĩnh viễn, c — `docs/brain/✦ Bão Mặt Trời và bão sao Thổ tồn tại vĩnh viễn, c.md`
+- Lục giác, Xoắn ốc, và Thị trường Forex – Bản gia — `docs/brain/✦ Lục giác, Xoắn ốc, và Thị trường Forex – Bản gia.md`
 - ⭐ BỘ QUY TẮC TÁC PHONG & KỶ LUẬT UNITAXI – BẢN 360 — `docs/brain/⭐ BỘ QUY TẮC TÁC PHONG & KỶ LUẬT UNITAXI – BẢN 360.md`
 - ⭐ Cross-Species Group Model — `docs/brain/⭐ Cross-Species Group Model.md`
 - ⭐ EXTERNAL VALIDATION OF YOUR STACK (QLS + UCP + U — `docs/brain/⭐ EXTERNAL VALIDATION OF YOUR STACK (QLS + UCP + U.md`
@@ -2482,55 +2487,55 @@ tags: [moc, index, bridge, cosmo-brain]
 - ⭐ Toàn cảnh EV Việt Nam — `docs/brain/⭐ Toàn cảnh EV Việt Nam.md`
 - ⭐ ĐIỀU TRỊ UNG THƯ THEO TIẾN HÓA — `docs/brain/⭐ ĐIỀU TRỊ UNG THƯ THEO TIẾN HÓA.md`
 - 🇻🇳 Why Vietnam Has No Airport Car Rental Industry — `docs/brain/🇻🇳 Why Vietnam Has No Airport Car Rental Industry.md`
-- 🌌 KIẾN TRÚC FRACTAL CỦA Ý THỨC, CHIÊM TINH, VẬT CH — `docs/brain/🌌 KIẾN TRÚC FRACTAL CỦA Ý THỨC, CHIÊM TINH, VẬT CH.md`
-- 🌍 AI for Leaders – BOD Quick Guide — `docs/brain/🌍 AI for Leaders – BOD Quick Guide.md`
-- 🌍 Masterplan Decentralised Quantum Logic Infrastru — `docs/brain/🌍 Masterplan Decentralised Quantum Logic Infrastru.md`
-- 🌍 The Complete Ecosystem — `docs/brain/🌍 The Complete Ecosystem.md`
-- 🌍 The Complete Trust & Signal Ecosystem — `docs/brain/🌍 The Complete Trust & Signal Ecosystem.md`
-- 🌍 The Energy–EROI–Carbon Scoring Network — `docs/brain/🌍 The Energy–EROI–Carbon Scoring Network.md`
-- 🌏 QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ — `docs/brain/🌏 QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ.md`
-- 🌏 The System_ — `docs/brain/🌏 The System_.md`
-- 🌐 Decentralised Energy–EROI–Carbon Scoring Network — `docs/brain/🌐 Decentralised Energy–EROI–Carbon Scoring Network.md`
-- 🌐 Smart Device Owner Communities — `docs/brain/🌐 Smart Device Owner Communities.md`
-- 🌿 NeuroSyncAI™ Health Companion — `docs/brain/🌿 NeuroSyncAI™ Health Companion.md`
-- 🐉 Long Mạch Mapping Across Vietnam — `docs/brain/🐉 Long Mạch Mapping Across Vietnam.md`
-- 💡 Phân tích các công trình cuối đời — `docs/brain/💡 Phân tích các công trình cuối đời.md`
-- 💼 NeuroSyncAI™ + Smartwatch – Hệ Trí Tuệ Sinh Học — `docs/brain/💼 NeuroSyncAI™ + Smartwatch – Hệ Trí Tuệ Sinh Học.md`
-- 📊 PHÂN TÍCH CHIẾN LƯỢC UNITAXI – UNI LOGISTIC — `docs/brain/📊 PHÂN TÍCH CHIẾN LƯỢC UNITAXI – UNI LOGISTIC.md`
-- 📌 UNI MAPS – ĐỀ XUẤT CHIẾN LƯỢC — `docs/brain/📌 UNI MAPS – ĐỀ XUẤT CHIẾN LƯỢC.md`
-- 📑 Full Strategy – Vietnam Trust Marketplace — `docs/brain/📑 Full Strategy – Vietnam Trust Marketplace.md`
-- 📘 BUSINESS REQUIREMENTS DOCUMENT (BRD) — `docs/brain/📘 BUSINESS REQUIREMENTS DOCUMENT (BRD).md`
-- 📘 SỔ TAY TÁC PHONG UNITAXI — `docs/brain/📘 SỔ TAY TÁC PHONG UNITAXI.md`
-- 📘 TRANG ∅ – Cách Thức Thị Trường FOREX Thực Sự Vận — `docs/brain/📘 TRANG ∅ – Cách Thức Thị Trường FOREX Thực Sự Vận.md`
-- 📘 Unified Biological Governance™ — Tái cấu trúc tổ — `docs/brain/📘 Unified Biological Governance™ — Tái cấu trúc tổ.md`
-- 📜 PRIVATE LETTER — `docs/brain/📜 PRIVATE LETTER.md`
-- 🔁 UBI + NeuroSyncAI Integration Framework Across t — `docs/brain/🔁 UBI + NeuroSyncAI Integration Framework Across t.md`
-- 🔍 Phát hiện Kiến trúc fractal ẩn – Không phải tự n — `docs/brain/🔍 Phát hiện Kiến trúc fractal ẩn – Không phải tự n.md`
-- 🔐 TrueVault Integration NeuroSyncAI™ + Unified Bio — `docs/brain/🔐 TrueVault Integration NeuroSyncAI™ + Unified Bio.md`
-- 🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK — `docs/brain/🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK.md`
-- 🔗 NEUROPAK INTEGRATION — `docs/brain/🔗 NEUROPAK INTEGRATION.md`
-- 🔥 UCP — Unified Collapse Prediction™ — `docs/brain/🔥 UCP — Unified Collapse Prediction™.md`
-- 🔭 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43 — `docs/brain/🔭 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43.md`
-- 🔹 Exhaustive Mapping 2023–2025 Insurance Use Cases — `docs/brain/🔹 Exhaustive Mapping 2023–2025 Insurance Use Cases.md`
-- 🔹 How The Floating Economy Uses the Market — `docs/brain/🔹 How The Floating Economy Uses the Market.md`
-- 🧠 AMOS - LIVING BRAIN ORGANISM IS ALIVE! 🧠 — `docs/brain/🧠 AMOS - LIVING BRAIN ORGANISM IS ALIVE! 🧠.md`
-- 🧠 DỰ ÁN TRỢ LÝ AI ẢO THEO DÕI SỨC KHỎE CÁ NHÂN — `docs/brain/🧠 DỰ ÁN TRỢ LÝ AI ẢO THEO DÕI SỨC KHỎE CÁ NHÂN.md`
-- 🧠 Global Raw Intelligence Audit Framework™ (GRIAF™ — `docs/brain/🧠 Global Raw Intelligence Audit Framework™ (GRIAF™.md`
-- 🧠 NeuroSyncAI™ and Unified Biological Intelligence — `docs/brain/🧠 NeuroSyncAI™ and Unified Biological Intelligence.md`
-- 🧠 NeuroSyncAI™ as a Cryptographically Sealed Biolo — `docs/brain/🧠 NeuroSyncAI™ as a Cryptographically Sealed Biolo.md`
-- 🧠 PSI v6 Meta-Effectiveness Profile — Cô Bình — `docs/brain/🧠 PSI v6 Meta-Effectiveness Profile — Cô Bình.md`
-- 🧠 Quantum-Biological Model of Business — `docs/brain/🧠 Quantum-Biological Model of Business.md`
-- 🧠 The End of Productivity as We Know It — `docs/brain/🧠 The End of Productivity as We Know It.md`
-- 🧠 UBI + NeuroSyncAI Integration with ConsentX — `docs/brain/🧠 UBI + NeuroSyncAI Integration with ConsentX.md`
-- 🧠 What NeuroSyncAI™ Can Realistically Do Now — `docs/brain/🧠 What NeuroSyncAI™ Can Realistically Do Now.md`
-- 🧠 ĐỊNH LƯỢNG HÓA FRACTAL INTELLIGENCE (FQ) THÀNH B — `docs/brain/🧠 ĐỊNH LƯỢNG HÓA FRACTAL INTELLIGENCE (FQ) THÀNH B.md`
-- 🧩 1 Danh mục IP (Sở hữu trí tuệ) bạn hiện có — `docs/brain/🧩 1 Danh mục IP (Sở hữu trí tuệ) bạn hiện có.md`
-- 🧩 Chiến Lược Ứng Dụng NeuroSyncAI™ Trong Quản Lý & — `docs/brain/🧩 Chiến Lược Ứng Dụng NeuroSyncAI™ Trong Quản Lý &.md`
-- 🧬 BẠN NÓI ĐÚNG TÔI ĐÃ BỎ QUA TUYỆT ĐỐI CỐT LÕI — `docs/brain/🧬 BẠN NÓI ĐÚNG TÔI ĐÃ BỎ QUA TUYỆT ĐỐI CỐT LÕI.md`
-- 🧬 ID Exchange + UBI + NeuroSyncAI™ — `docs/brain/🧬 ID Exchange + UBI + NeuroSyncAI™.md`
-- 🧬 Unified Biological Intelligence™ and the Restora — `docs/brain/🧬 Unified Biological Intelligence™ and the Restora.md`
-- 🧭 Chiến lược triển khai Trợ lý AI Sinh học cho Bện — `docs/brain/🧭 Chiến lược triển khai Trợ lý AI Sinh học cho Bện.md`
-- 🧱 KHUNG CỐT LÕI (TRANG ∅ FRAMEWORK)CORE — `docs/brain/🧱 KHUNG CỐT LÕI (TRANG ∅ FRAMEWORK)CORE.md`
+- KIẾN TRÚC FRACTAL CỦA Ý THỨC, CHIÊM TINH, VẬT CH — `docs/brain/🌌 KIẾN TRÚC FRACTAL CỦA Ý THỨC, CHIÊM TINH, VẬT CH.md`
+- AI for Leaders – BOD Quick Guide — `docs/brain/🌍 AI for Leaders – BOD Quick Guide.md`
+- Masterplan Decentralised Quantum Logic Infrastru — `docs/brain/🌍 Masterplan Decentralised Quantum Logic Infrastru.md`
+- The Complete Ecosystem — `docs/brain/🌍 The Complete Ecosystem.md`
+- The Complete Trust & Signal Ecosystem — `docs/brain/🌍 The Complete Trust & Signal Ecosystem.md`
+- The Energy–EROI–Carbon Scoring Network — `docs/brain/🌍 The Energy–EROI–Carbon Scoring Network.md`
+- QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ — `docs/brain/🌏 QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ.md`
+- The System_ — `docs/brain/🌏 The System_.md`
+- Decentralised Energy–EROI–Carbon Scoring Network — `docs/brain/🌐 Decentralised Energy–EROI–Carbon Scoring Network.md`
+- Smart Device Owner Communities — `docs/brain/🌐 Smart Device Owner Communities.md`
+- NeuroSyncAI™ Health Companion — `docs/brain/🌿 NeuroSyncAI™ Health Companion.md`
+- Long Mạch Mapping Across Vietnam — `docs/brain/🐉 Long Mạch Mapping Across Vietnam.md`
+- Phân tích các công trình cuối đời — `docs/brain/💡 Phân tích các công trình cuối đời.md`
+- NeuroSyncAI™ + Smartwatch – Hệ Trí Tuệ Sinh Học — `docs/brain/💼 NeuroSyncAI™ + Smartwatch – Hệ Trí Tuệ Sinh Học.md`
+- PHÂN TÍCH CHIẾN LƯỢC UNITAXI – UNI LOGISTIC — `docs/brain/📊 PHÂN TÍCH CHIẾN LƯỢC UNITAXI – UNI LOGISTIC.md`
+- UNI MAPS – ĐỀ XUẤT CHIẾN LƯỢC — `docs/brain/📌 UNI MAPS – ĐỀ XUẤT CHIẾN LƯỢC.md`
+- Full Strategy – Vietnam Trust Marketplace — `docs/brain/📑 Full Strategy – Vietnam Trust Marketplace.md`
+- BUSINESS REQUIREMENTS DOCUMENT (BRD) — `docs/brain/📘 BUSINESS REQUIREMENTS DOCUMENT (BRD).md`
+- SỔ TAY TÁC PHONG UNITAXI — `docs/brain/📘 SỔ TAY TÁC PHONG UNITAXI.md`
+- TRANG ∅ – Cách Thức Thị Trường FOREX Thực Sự Vận — `docs/brain/📘 TRANG ∅ – Cách Thức Thị Trường FOREX Thực Sự Vận.md`
+- Unified Biological Governance™ — Tái cấu trúc tổ — `docs/brain/📘 Unified Biological Governance™ — Tái cấu trúc tổ.md`
+- PRIVATE LETTER — `docs/brain/📜 PRIVATE LETTER.md`
+- UBI + NeuroSyncAI Integration Framework Across t — `docs/brain/🔁 UBI + NeuroSyncAI Integration Framework Across t.md`
+- Phát hiện Kiến trúc fractal ẩn – Không phải tự n — `docs/brain/🔍 Phát hiện Kiến trúc fractal ẩn – Không phải tự n.md`
+- TrueVault Integration NeuroSyncAI™ + Unified Bio — `docs/brain/🔐 TrueVault Integration NeuroSyncAI™ + Unified Bio.md`
+- INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK — `docs/brain/🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK.md`
+- NEUROPAK INTEGRATION — `docs/brain/🔗 NEUROPAK INTEGRATION.md`
+- UCP — Unified Collapse Prediction™ — `docs/brain/🔥 UCP — Unified Collapse Prediction™.md`
+- 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43 — `docs/brain/🔭 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43.md`
+- Exhaustive Mapping 2023–2025 Insurance Use Cases — `docs/brain/🔹 Exhaustive Mapping 2023–2025 Insurance Use Cases.md`
+- How The Floating Economy Uses the Market — `docs/brain/🔹 How The Floating Economy Uses the Market.md`
+- AMOS - LIVING BRAIN ORGANISM IS ALIVE! 🧠 — `docs/brain/🧠 AMOS - LIVING BRAIN ORGANISM IS ALIVE! 🧠.md`
+- DỰ ÁN TRỢ LÝ AI ẢO THEO DÕI SỨC KHỎE CÁ NHÂN — `docs/brain/🧠 DỰ ÁN TRỢ LÝ AI ẢO THEO DÕI SỨC KHỎE CÁ NHÂN.md`
+- Global Raw Intelligence Audit Framework™ (GRIAF™ — `docs/brain/🧠 Global Raw Intelligence Audit Framework™ (GRIAF™.md`
+- NeuroSyncAI™ and Unified Biological Intelligence — `docs/brain/🧠 NeuroSyncAI™ and Unified Biological Intelligence.md`
+- NeuroSyncAI™ as a Cryptographically Sealed Biolo — `docs/brain/🧠 NeuroSyncAI™ as a Cryptographically Sealed Biolo.md`
+- PSI v6 Meta-Effectiveness Profile — Cô Bình — `docs/brain/🧠 PSI v6 Meta-Effectiveness Profile — Cô Bình.md`
+- Quantum-Biological Model of Business — `docs/brain/🧠 Quantum-Biological Model of Business.md`
+- The End of Productivity as We Know It — `docs/brain/🧠 The End of Productivity as We Know It.md`
+- UBI + NeuroSyncAI Integration with ConsentX — `docs/brain/🧠 UBI + NeuroSyncAI Integration with ConsentX.md`
+- What NeuroSyncAI™ Can Realistically Do Now — `docs/brain/🧠 What NeuroSyncAI™ Can Realistically Do Now.md`
+- ĐỊNH LƯỢNG HÓA FRACTAL INTELLIGENCE (FQ) THÀNH B — `docs/brain/🧠 ĐỊNH LƯỢNG HÓA FRACTAL INTELLIGENCE (FQ) THÀNH B.md`
+- 1 Danh mục IP (Sở hữu trí tuệ) bạn hiện có — `docs/brain/🧩 1 Danh mục IP (Sở hữu trí tuệ) bạn hiện có.md`
+- Chiến Lược Ứng Dụng NeuroSyncAI™ Trong Quản Lý & — `docs/brain/🧩 Chiến Lược Ứng Dụng NeuroSyncAI™ Trong Quản Lý &.md`
+- BẠN NÓI ĐÚNG TÔI ĐÃ BỎ QUA TUYỆT ĐỐI CỐT LÕI — `docs/brain/🧬 BẠN NÓI ĐÚNG TÔI ĐÃ BỎ QUA TUYỆT ĐỐI CỐT LÕI.md`
+- ID Exchange + UBI + NeuroSyncAI™ — `docs/brain/🧬 ID Exchange + UBI + NeuroSyncAI™.md`
+- Unified Biological Intelligence™ and the Restora — `docs/brain/🧬 Unified Biological Intelligence™ and the Restora.md`
+- Chiến lược triển khai Trợ lý AI Sinh học cho Bện — `docs/brain/🧭 Chiến lược triển khai Trợ lý AI Sinh học cho Bện.md`
+- KHUNG CỐT LÕI (TRANG ∅ FRAMEWORK)CORE — `docs/brain/🧱 KHUNG CỐT LÕI (TRANG ∅ FRAMEWORK)CORE.md`
 
 ### `docs/moc/` (210 files)
 
@@ -3266,7 +3271,7 @@ tags: [moc, index, bridge, cosmo-brain]
 - TRUTH_CALIBRATION_IMPLEMENTATION_COMPLETE — `_00_Cosmo brain/audit/TRUTH_CALIBRATION_IMPLEMENTATION_COMPLETE.md`
 - UBS-Backed Gold Transaction → Audited Impact (One- — `_00_Cosmo brain/audit/UBS-Backed Gold Transaction → Audited Impact (One-.md`
 - raw_write_violations — `_00_Cosmo brain/audit/raw_write_violations.md`
-- 🧠 Global Raw Intelligence Audit Framework™ (GRIAF™ — `_00_Cosmo brain/audit/🧠 Global Raw Intelligence Audit Framework™ (GRIAF™.md`
+- Global Raw Intelligence Audit Framework™ (GRIAF™ — `_00_Cosmo brain/audit/🧠 Global Raw Intelligence Audit Framework™ (GRIAF™.md`
 - AMOS_BIOLOGICAL_CONSCIOUSNESS_ENGINE_COMPLETION_REPORT — `_00_Cosmo brain/biology-ubi/AMOS_BIOLOGICAL_CONSCIOUSNESS_ENGINE_COMPLETION_REPORT.md`
 - AMOS_BIOLOGICAL_CONSCIOUSNESS_ENGINE_FINAL_REPORT — `_00_Cosmo brain/biology-ubi/AMOS_BIOLOGICAL_CONSCIOUSNESS_ENGINE_FINAL_REPORT.md`
 - AMOS_EMBODIED_MACHINE_FINAL_COMPLETE — `_00_Cosmo brain/biology-ubi/AMOS_EMBODIED_MACHINE_FINAL_COMPLETE.md`
@@ -3286,10 +3291,10 @@ tags: [moc, index, bridge, cosmo-brain]
 - Why Modern Education Fights Human Biology — `_00_Cosmo brain/biology-ubi/Why Modern Education Fights Human Biology.md`
 - ubi_baseline_rule — `_00_Cosmo brain/biology-ubi/ubi_baseline_rule.md`
 - ubi_immune_integrity — `_00_Cosmo brain/biology-ubi/ubi_immune_integrity.md`
-- 🔁 UBI + NeuroSyncAI Integration Framework Across t — `_00_Cosmo brain/biology-ubi/🔁 UBI + NeuroSyncAI Integration Framework Across t.md`
-- 🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK — `_00_Cosmo brain/biology-ubi/🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK.md`
-- 🧠 UBI + NeuroSyncAI Integration with ConsentX — `_00_Cosmo brain/biology-ubi/🧠 UBI + NeuroSyncAI Integration with ConsentX.md`
-- 🧬 ID Exchange + UBI + NeuroSyncAI™ — `_00_Cosmo brain/biology-ubi/🧬 ID Exchange + UBI + NeuroSyncAI™.md`
+- UBI + NeuroSyncAI Integration Framework Across t — `_00_Cosmo brain/biology-ubi/🔁 UBI + NeuroSyncAI Integration Framework Across t.md`
+- INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK — `_00_Cosmo brain/biology-ubi/🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK.md`
+- UBI + NeuroSyncAI Integration with ConsentX — `_00_Cosmo brain/biology-ubi/🧠 UBI + NeuroSyncAI Integration with ConsentX.md`
+- ID Exchange + UBI + NeuroSyncAI™ — `_00_Cosmo brain/biology-ubi/🧬 ID Exchange + UBI + NeuroSyncAI™.md`
 - AGENTS (AMOS_MD_BRAIN) — `_00_Cosmo brain/brain/A/AGENTS (AMOS_MD_BRAIN).md`
 - AMOS Brain Engine Specs — `_00_Cosmo brain/brain/A/AMOS Brain Engine Specs.md`
 - AMOS Brain Supreme Operational Status — `_00_Cosmo brain/brain/A/AMOS Brain Supreme Operational Status.md`
@@ -3389,7 +3394,7 @@ tags: [moc, index, bridge, cosmo-brain]
 - brain-consistency-audit — `_00_Cosmo brain/brain/B/brain-consistency-audit.md`
 - brain_master_os_v0 — `_00_Cosmo brain/brain/B/brain_master_os_v0.md`
 - brain_v2 — `_00_Cosmo brain/brain/B/brain_v2.md`
-- 🧠 AMOS - LIVING BRAIN ORGANISM IS ALIVE! 🧠 — `_00_Cosmo brain/brain/E/🧠 AMOS - LIVING BRAIN ORGANISM IS ALIVE! 🧠.md`
+- AMOS - LIVING BRAIN ORGANISM IS ALIVE! 🧠 — `_00_Cosmo brain/brain/E/🧠 AMOS - LIVING BRAIN ORGANISM IS ALIVE! 🧠.md`
 - manifest (AMOS_MD_BRAIN) — `_00_Cosmo brain/brain/M/manifest (AMOS_MD_BRAIN).md`
 - md__2026-08-23 AMOS Canon LEGACY BRAIN2 Core — `_00_Cosmo brain/brain/M/md__2026-08-23 AMOS Canon LEGACY BRAIN2 Core.md`
 - md__2026-08-23 AMOS Cosmo Brain Core Architecture Map — `_00_Cosmo brain/brain/M/md__2026-08-23 AMOS Cosmo Brain Core Architecture Map.md`
@@ -3638,8 +3643,8 @@ tags: [moc, index, bridge, cosmo-brain]
 - wealth_game_hack_50000_equations — `_00_Cosmo brain/economy/wealth_game_hack_50000_equations.md`
 - wealth_game_hack_5000_hidden_overlooked_equations — `_00_Cosmo brain/economy/wealth_game_hack_5000_hidden_overlooked_equations.md`
 - wealth_game_hack_5000_key_equations — `_00_Cosmo brain/economy/wealth_game_hack_5000_key_equations.md`
-- 📑 Full Strategy – Vietnam Trust Marketplace — `_00_Cosmo brain/economy/📑 Full Strategy – Vietnam Trust Marketplace.md`
-- 🔹 How The Floating Economy Uses the Market — `_00_Cosmo brain/economy/🔹 How The Floating Economy Uses the Market.md`
+- Full Strategy – Vietnam Trust Marketplace — `_00_Cosmo brain/economy/📑 Full Strategy – Vietnam Trust Marketplace.md`
+- How The Floating Economy Uses the Market — `_00_Cosmo brain/economy/🔹 How The Floating Economy Uses the Market.md`
 - Emotion_Rules — `_00_Cosmo brain/emotion/Emotion_Rules.md`
 - emotion — `_00_Cosmo brain/emotion/emotion.md`
 - thoughts and emotion — `_00_Cosmo brain/emotion/thoughts and emotion.md`
@@ -3656,8 +3661,8 @@ tags: [moc, index, bridge, cosmo-brain]
 - energy_architecture — `_00_Cosmo brain/energy/energy_architecture.md`
 - ubi_update_energy_from_activity — `_00_Cosmo brain/energy/ubi_update_energy_from_activity.md`
 - vn_cultural_ritual_gia_he_energy_10000_equations_invariants — `_00_Cosmo brain/energy/vn_cultural_ritual_gia_he_energy_10000_equations_invariants.md`
-- 🌍 The Energy–EROI–Carbon Scoring Network — `_00_Cosmo brain/energy/🌍 The Energy–EROI–Carbon Scoring Network.md`
-- 🌐 Decentralised Energy–EROI–Carbon Scoring Network — `_00_Cosmo brain/energy/🌐 Decentralised Energy–EROI–Carbon Scoring Network.md`
+- The Energy–EROI–Carbon Scoring Network — `_00_Cosmo brain/energy/🌍 The Energy–EROI–Carbon Scoring Network.md`
+- Decentralised Energy–EROI–Carbon Scoring Network — `_00_Cosmo brain/energy/🌐 Decentralised Energy–EROI–Carbon Scoring Network.md`
 - AMOS 7PT Canon Migration Engine — `_00_Cosmo brain/engine/A/AMOS 7PT Canon Migration Engine.md`
 - AMOS Academic Writing Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Academic Writing Engine vInfinity.md`
 - AMOS Audit Quality Engine v0 — `_00_Cosmo brain/engine/A/AMOS Audit Quality Engine v0.md`
@@ -3954,8 +3959,8 @@ tags: [moc, index, bridge, cosmo-brain]
 - tru_ta_ma_duoi_nguyen_ly_fractal_l_m_h_lacuna — `_00_Cosmo brain/fractal/tru_ta_ma_duoi_nguyen_ly_fractal_l_m_h_lacuna.md`
 - x25000_hierarchical_fractal — `_00_Cosmo brain/fractal/x25000_hierarchical_fractal.md`
 - x25000_strict_fractal_equations_only — `_00_Cosmo brain/fractal/x25000_strict_fractal_equations_only.md`
-- 🌌 KIẾN TRÚC FRACTAL CỦA Ý THỨC, CHIÊM TINH, VẬT CH — `_00_Cosmo brain/fractal/🌌 KIẾN TRÚC FRACTAL CỦA Ý THỨC, CHIÊM TINH, VẬT CH.md`
-- 🔍 Phát hiện Kiến trúc fractal ẩn – Không phải tự n — `_00_Cosmo brain/fractal/🔍 Phát hiện Kiến trúc fractal ẩn – Không phải tự n.md`
+- KIẾN TRÚC FRACTAL CỦA Ý THỨC, CHIÊM TINH, VẬT CH — `_00_Cosmo brain/fractal/🌌 KIẾN TRÚC FRACTAL CỦA Ý THỨC, CHIÊM TINH, VẬT CH.md`
+- Phát hiện Kiến trúc fractal ẩn – Không phải tự n — `_00_Cosmo brain/fractal/🔍 Phát hiện Kiến trúc fractal ẩn – Không phải tự n.md`
 - 3a. Governance - org structure - v5 — `_00_Cosmo brain/governance/3a. Governance - org structure - v5.md`
 - 3b. Governance - process v8 — `_00_Cosmo brain/governance/3b. Governance - process v8.md`
 - 3c. Governance - Delivery and value mgmt v6 — `_00_Cosmo brain/governance/3c. Governance - Delivery and value mgmt v6.md`
@@ -3978,7 +3983,7 @@ tags: [moc, index, bridge, cosmo-brain]
 - ai_governance_stack — `_00_Cosmo brain/governance/ai_governance_stack.md`
 - amos-governance-economy-layer — `_00_Cosmo brain/governance/amos-governance-economy-layer.md`
 - governance_economy_structured — `_00_Cosmo brain/governance/governance_economy_structured.md`
-- 📘 Unified Biological Governance™ — Tái cấu trúc tổ — `_00_Cosmo brain/governance/📘 Unified Biological Governance™ — Tái cấu trúc tổ.md`
+- Unified Biological Governance™ — Tái cấu trúc tổ — `_00_Cosmo brain/governance/📘 Unified Biological Governance™ — Tái cấu trúc tổ.md`
 - ABSOLUTE-HUMAN — `_00_Cosmo brain/human/ABSOLUTE-HUMAN.md`
 - A_Deterministic_Architecture_for_HumanMachine_Alignment — `_00_Cosmo brain/human/A_Deterministic_Architecture_for_HumanMachine_Alignment.md`
 - Absolute-Human (final version)_root — `_00_Cosmo brain/human/Absolute-Human (final version)_root.md`
@@ -4280,8 +4285,8 @@ tags: [moc, index, bridge, cosmo-brain]
 - Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence — `_00_Cosmo brain/logic/Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence.md`
 - cc982116-f9b3-4fa5-b9ea-31fa41b20f73_Redefining_Logic — `_00_Cosmo brain/logic/cc982116-f9b3-4fa5-b9ea-31fa41b20f73_Redefining_Logic.md`
 - deterministic_logic_architecture — `_00_Cosmo brain/logic/deterministic_logic_architecture.md`
-- 🧠 NeuroSyncAI™ and Unified Biological Intelligence — `_00_Cosmo brain/logic/🧠 NeuroSyncAI™ and Unified Biological Intelligence.md`
-- 🧬 Unified Biological Intelligence™ and the Restora — `_00_Cosmo brain/logic/🧬 Unified Biological Intelligence™ and the Restora.md`
+- NeuroSyncAI™ and Unified Biological Intelligence — `_00_Cosmo brain/logic/🧠 NeuroSyncAI™ and Unified Biological Intelligence.md`
+- Unified Biological Intelligence™ and the Restora — `_00_Cosmo brain/logic/🧬 Unified Biological Intelligence™ and the Restora.md`
 - AMOS Engineering Math Kernel vInfinity — `_00_Cosmo brain/math/AMOS Engineering Math Kernel vInfinity.md`
 - AMOS_C02_Math_Compute — `_00_Cosmo brain/math/AMOS_C02_Math_Compute.md`
 - AMOS_C02_Math_Compute_SUPER — `_00_Cosmo brain/math/AMOS_C02_Math_Compute_SUPER.md`
@@ -4356,7 +4361,7 @@ tags: [moc, index, bridge, cosmo-brain]
 - ai_non_overlap_batch5 — `_00_Cosmo brain/misc/A/ai_non_overlap_batch5.md`
 - arrayterator — `_00_Cosmo brain/misc/A/arrayterator.md`
 - automation_profiles — `_00_Cosmo brain/misc/A/automation_profiles.md`
-- 🌍 AI for Leaders – BOD Quick Guide — `_00_Cosmo brain/misc/A/🌍 AI for Leaders – BOD Quick Guide.md`
+- AI for Leaders – BOD Quick Guide — `_00_Cosmo brain/misc/A/🌍 AI for Leaders – BOD Quick Guide.md`
 - 5b. Journey - Incubate v2 - shared — `_00_Cosmo brain/misc/B/5b. Journey - Incubate v2 - shared.md`
 - 6b. People - Onboarding — `_00_Cosmo brain/misc/B/6b. People - Onboarding.md`
 - BÁO CÁO CHIẾN LƯỢC & PHÁP LÝ — `_00_Cosmo brain/misc/B/BÁO CÁO CHIẾN LƯỢC & PHÁP LÝ.md`
@@ -4399,7 +4404,7 @@ tags: [moc, index, bridge, cosmo-brain]
 - benchmark-claims — `_00_Cosmo brain/misc/B/benchmark-claims.md`
 - blood_flow_response_operator — `_00_Cosmo brain/misc/B/blood_flow_response_operator.md`
 - britishCommunication — `_00_Cosmo brain/misc/B/britishCommunication.md`
-- 📘 BUSINESS REQUIREMENTS DOCUMENT (BRD) — `_00_Cosmo brain/misc/B/📘 BUSINESS REQUIREMENTS DOCUMENT (BRD).md`
+- BUSINESS REQUIREMENTS DOCUMENT (BRD) — `_00_Cosmo brain/misc/B/📘 BUSINESS REQUIREMENTS DOCUMENT (BRD).md`
 - 5c. Journey - Waves v1 - shared — `_00_Cosmo brain/misc/C0/5c. Journey - Waves v1 - shared.md`
 - 6c. People - Capability building v2 — `_00_Cosmo brain/misc/C0/6c. People - Capability building v2.md`
 - C04_bio_neuro — `_00_Cosmo brain/misc/C0/C04_bio_neuro.md`
@@ -4432,8 +4437,8 @@ tags: [moc, index, bridge, cosmo-brain]
 - Chương 8 — Vòng Lặp Phẩm Giá Khi An Toàn, Công Lý — `_00_Cosmo brain/misc/CH/Chương 8 — Vòng Lặp Phẩm Giá Khi An Toàn, Công Lý.md`
 - cheap dien — `_00_Cosmo brain/misc/CH/cheap dien.md`
 - chiêm tinh — `_00_Cosmo brain/misc/CH/chiêm tinh.md`
-- 🧩 Chiến Lược Ứng Dụng NeuroSyncAI™ Trong Quản Lý & — `_00_Cosmo brain/misc/CH/🧩 Chiến Lược Ứng Dụng NeuroSyncAI™ Trong Quản Lý &.md`
-- 🧭 Chiến lược triển khai Trợ lý AI Sinh học cho Bện — `_00_Cosmo brain/misc/CH/🧭 Chiến lược triển khai Trợ lý AI Sinh học cho Bện.md`
+- Chiến Lược Ứng Dụng NeuroSyncAI™ Trong Quản Lý & — `_00_Cosmo brain/misc/CH/🧩 Chiến Lược Ứng Dụng NeuroSyncAI™ Trong Quản Lý &.md`
+- Chiến lược triển khai Trợ lý AI Sinh học cho Bện — `_00_Cosmo brain/misc/CH/🧭 Chiến lược triển khai Trợ lý AI Sinh học cho Bện.md`
 - CIVILIZATIONAL SCALE FRAMEWORK (CSF) — `_00_Cosmo brain/misc/CI/CIVILIZATIONAL SCALE FRAMEWORK (CSF).md`
 - CLAIM_CLASSES — `_00_Cosmo brain/misc/CL/CLAIM_CLASSES.md`
 - Click_Jacking--Construction — `_00_Cosmo brain/misc/CL/Click_Jacking--Construction.md`
@@ -4517,8 +4522,8 @@ tags: [moc, index, bridge, cosmo-brain]
 - discovery — `_00_Cosmo brain/misc/D/discovery.md`
 - doctpr — `_00_Cosmo brain/misc/D/doctpr.md`
 - domain_jsonl_loader — `_00_Cosmo brain/misc/D/domain_jsonl_loader.md`
-- 🧠 DỰ ÁN TRỢ LÝ AI ẢO THEO DÕI SỨC KHỎE CÁ NHÂN — `_00_Cosmo brain/misc/D/🧠 DỰ ÁN TRỢ LÝ AI ẢO THEO DÕI SỨC KHỎE CÁ NHÂN.md`
-- 🧩 1 Danh mục IP (Sở hữu trí tuệ) bạn hiện có — `_00_Cosmo brain/misc/D/🧩 1 Danh mục IP (Sở hữu trí tuệ) bạn hiện có.md`
+- DỰ ÁN TRỢ LÝ AI ẢO THEO DÕI SỨC KHỎE CÁ NHÂN — `_00_Cosmo brain/misc/D/🧠 DỰ ÁN TRỢ LÝ AI ẢO THEO DÕI SỨC KHỎE CÁ NHÂN.md`
+- 1 Danh mục IP (Sở hữu trí tuệ) bạn hiện có — `_00_Cosmo brain/misc/D/🧩 1 Danh mục IP (Sở hữu trí tuệ) bạn hiện có.md`
 - EMAIL MESSAGE YÊU CẦU BÀN GIAO — `_00_Cosmo brain/misc/E/EMAIL MESSAGE YÊU CẦU BÀN GIAO.md`
 - ENTROPY_LACUNARITY — `_00_Cosmo brain/misc/E/ENTROPY_LACUNARITY.md`
 - EQUATIONS (docs) — `_00_Cosmo brain/misc/E/EQUATIONS (docs).md`
@@ -4554,7 +4559,7 @@ tags: [moc, index, bridge, cosmo-brain]
 - eq.cog.ethical_violation_score — `_00_Cosmo brain/misc/E/eq.cog.ethical_violation_score.md`
 - eq.cog.relationship_tension_score — `_00_Cosmo brain/misc/E/eq.cog.relationship_tension_score.md`
 - equations — `_00_Cosmo brain/misc/E/equations.md`
-- 🔹 Exhaustive Mapping 2023–2025 Insurance Use Cases — `_00_Cosmo brain/misc/E/🔹 Exhaustive Mapping 2023–2025 Insurance Use Cases.md`
+- Exhaustive Mapping 2023–2025 Insurance Use Cases — `_00_Cosmo brain/misc/E/🔹 Exhaustive Mapping 2023–2025 Insurance Use Cases.md`
 - FINAL_GATE — `_00_Cosmo brain/misc/F/FINAL_GATE.md`
 - FINAL_INTEGRATION_MISSION_STATUS — `_00_Cosmo brain/misc/F/FINAL_INTEGRATION_MISSION_STATUS.md`
 - FIN_BANKING_BASELINE — `_00_Cosmo brain/misc/F/FIN_BANKING_BASELINE.md`
@@ -4695,7 +4700,7 @@ tags: [moc, index, bridge, cosmo-brain]
 - languageCore — `_00_Cosmo brain/misc/L/languageCore.md`
 - link — `_00_Cosmo brain/misc/L/link.md`
 - loader_2 — `_00_Cosmo brain/misc/L/loader_2.md`
-- 🐉 Long Mạch Mapping Across Vietnam — `_00_Cosmo brain/misc/L/🐉 Long Mạch Mapping Across Vietnam.md`
+- Long Mạch Mapping Across Vietnam — `_00_Cosmo brain/misc/L/🐉 Long Mạch Mapping Across Vietnam.md`
 - $$ — `_00_Cosmo brain/misc/M/$$.md`
 - 19 — `_00_Cosmo brain/misc/M/19.md`
 - 90% — `_00_Cosmo brain/misc/M/90%.md`
@@ -4754,11 +4759,11 @@ tags: [moc, index, bridge, cosmo-brain]
 - Note_Title — `_00_Cosmo brain/misc/N/Note_Title.md`
 - ndarray_misc — `_00_Cosmo brain/misc/N/ndarray_misc.md`
 - nobel sinh hoc — `_00_Cosmo brain/misc/N/nobel sinh hoc.md`
-- 🌿 NeuroSyncAI™ Health Companion — `_00_Cosmo brain/misc/N/🌿 NeuroSyncAI™ Health Companion.md`
-- 💼 NeuroSyncAI™ + Smartwatch – Hệ Trí Tuệ Sinh Học — `_00_Cosmo brain/misc/N/💼 NeuroSyncAI™ + Smartwatch – Hệ Trí Tuệ Sinh Học.md`
-- 🔗 NEUROPAK INTEGRATION — `_00_Cosmo brain/misc/N/🔗 NEUROPAK INTEGRATION.md`
-- 🔭 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43 — `_00_Cosmo brain/misc/N/🔭 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43.md`
-- 🧠 NeuroSyncAI™ as a Cryptographically Sealed Biolo — `_00_Cosmo brain/misc/N/🧠 NeuroSyncAI™ as a Cryptographically Sealed Biolo.md`
+- NeuroSyncAI™ Health Companion — `_00_Cosmo brain/misc/N/🌿 NeuroSyncAI™ Health Companion.md`
+- NeuroSyncAI™ + Smartwatch – Hệ Trí Tuệ Sinh Học — `_00_Cosmo brain/misc/N/💼 NeuroSyncAI™ + Smartwatch – Hệ Trí Tuệ Sinh Học.md`
+- NEUROPAK INTEGRATION — `_00_Cosmo brain/misc/N/🔗 NEUROPAK INTEGRATION.md`
+- 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43 — `_00_Cosmo brain/misc/N/🔭 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43.md`
+- NeuroSyncAI™ as a Cryptographically Sealed Biolo — `_00_Cosmo brain/misc/N/🧠 NeuroSyncAI™ as a Cryptographically Sealed Biolo.md`
 - OAuth--Exploiting_Vulnerabilities — `_00_Cosmo brain/misc/O/OAuth--Exploiting_Vulnerabilities.md`
 - OAuth--Grant_Types--Implicit_Type — `_00_Cosmo brain/misc/O/OAuth--Grant_Types--Implicit_Type.md`
 - OAuth--Grant_Types — `_00_Cosmo brain/misc/O/OAuth--Grant_Types.md`
@@ -4794,7 +4799,7 @@ tags: [moc, index, bridge, cosmo-brain]
 - PHƯƠNG PHÁP TÁI CẤU TRÚC NHẬN THỨC BẰNG VÒNG LẶP M — `_00_Cosmo brain/misc/PH/PHƯƠNG PHÁP TÁI CẤU TRÚC NHẬN THỨC BẰNG VÒNG LẶP M.md`
 - Phân tích VN — `_00_Cosmo brain/misc/PH/Phân tích VN.md`
 - Phân tích tình hình Việt Nam và bối cảnh toàn cầu — `_00_Cosmo brain/misc/PH/Phân tích tình hình Việt Nam và bối cảnh toàn cầu.md`
-- 📊 PHÂN TÍCH CHIẾN LƯỢC UNITAXI – UNI LOGISTIC — `_00_Cosmo brain/misc/PH/📊 PHÂN TÍCH CHIẾN LƯỢC UNITAXI – UNI LOGISTIC.md`
+- PHÂN TÍCH CHIẾN LƯỢC UNITAXI – UNI LOGISTIC — `_00_Cosmo brain/misc/PH/📊 PHÂN TÍCH CHIẾN LƯỢC UNITAXI – UNI LOGISTIC.md`
 - PISync™ (Planetary Intelligence Synchrony™) – Offi — `_00_Cosmo brain/misc/PI/PISync™ (Planetary Intelligence Synchrony™) – Offi.md`
 - PITM — `_00_Cosmo brain/misc/PI/PITM.md`
 - Plan — `_00_Cosmo brain/misc/PL/Plan.md`
@@ -4830,7 +4835,7 @@ tags: [moc, index, bridge, cosmo-brain]
 - PSI Evaluation Nguyễn Xuân Minh — `_00_Cosmo brain/misc/PS/PSI Evaluation Nguyễn Xuân Minh.md`
 - PSI Evaluation Tôn Nữ Xuân Quyên — `_00_Cosmo brain/misc/PS/PSI Evaluation Tôn Nữ Xuân Quyên.md`
 - PSI Evaluation Trần Vũ Khánh Chi — `_00_Cosmo brain/misc/PS/PSI Evaluation Trần Vũ Khánh Chi.md`
-- 🧠 PSI v6 Meta-Effectiveness Profile — Cô Bình — `_00_Cosmo brain/misc/PS/🧠 PSI v6 Meta-Effectiveness Profile — Cô Bình.md`
+- PSI v6 Meta-Effectiveness Profile — Cô Bình — `_00_Cosmo brain/misc/PS/🧠 PSI v6 Meta-Effectiveness Profile — Cô Bình.md`
 - Public Messaging - Making Consent Infrastructure Relatable — `_00_Cosmo brain/misc/PU/Public Messaging - Making Consent Infrastructure Relatable.md`
 - Public messaging — `_00_Cosmo brain/misc/PU/Public messaging.md`
 - Publishable Articles — `_00_Cosmo brain/misc/PU/Publishable Articles.md`
@@ -4841,7 +4846,7 @@ tags: [moc, index, bridge, cosmo-brain]
 - QUYỀN LỢI BẢO HIỂM XE CƠ GIỚI TASCO — `_00_Cosmo brain/misc/Q/QUYỀN LỢI BẢO HIỂM XE CƠ GIỚI TASCO.md`
 - Quang LLV — `_00_Cosmo brain/misc/Q/Quang LLV.md`
 - Quy che gia tren app — `_00_Cosmo brain/misc/Q/Quy che gia tren app.md`
-- 🌏 QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ — `_00_Cosmo brain/misc/Q/🌏 QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ.md`
+- QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ — `_00_Cosmo brain/misc/Q/🌏 QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ.md`
 - README-Payload — `_00_Cosmo brain/misc/R/README-Payload.md`
 - REALITY GRAMMAR EQUATION v0 — `_00_Cosmo brain/misc/R/REALITY GRAMMAR EQUATION v0.md`
 - REALITY_TRANSCENDENCE_INTEGRATION_COMPLETE — `_00_Cosmo brain/misc/R/REALITY_TRANSCENDENCE_INTEGRATION_COMPLETE.md`
@@ -4900,8 +4905,8 @@ tags: [moc, index, bridge, cosmo-brain]
 - simple_demo — `_00_Cosmo brain/misc/S/simple_demo.md`
 - skeleton_load_capacity — `_00_Cosmo brain/misc/S/skeleton_load_capacity.md`
 - skeleton_response_operator — `_00_Cosmo brain/misc/S/skeleton_response_operator.md`
-- 🌐 Smart Device Owner Communities — `_00_Cosmo brain/misc/S/🌐 Smart Device Owner Communities.md`
-- 📘 SỔ TAY TÁC PHONG UNITAXI — `_00_Cosmo brain/misc/S/📘 SỔ TAY TÁC PHONG UNITAXI.md`
+- Smart Device Owner Communities — `_00_Cosmo brain/misc/S/🌐 Smart Device Owner Communities.md`
+- SỔ TAY TÁC PHONG UNITAXI — `_00_Cosmo brain/misc/S/📘 SỔ TAY TÁC PHONG UNITAXI.md`
 - TÀI LIỆU KIẾN TRÚC & SẢN PHẨM — `_00_Cosmo brain/misc/TA/TÀI LIỆU KIẾN TRÚC & SẢN PHẨM.md`
 - TẠI SAO 10 – NGUỒN GỐC CỦA CON SỐ MƯỜI TRONG CASCA — `_00_Cosmo brain/misc/TA/TẠI SAO 10 – NGUỒN GỐC CỦA CON SỐ MƯỜI TRONG CASCA.md`
 - TẠI SAO “NĂNG LƯỢNG – CHỮA LÀNH – SHAMAN” LẠI MẠNH — `_00_Cosmo brain/misc/TA/TẠI SAO “NĂNG LƯỢNG – CHỮA LÀNH – SHAMAN” LẠI MẠNH.md`
@@ -4934,7 +4939,7 @@ tags: [moc, index, bridge, cosmo-brain]
 - Thủ cho Baojun E6 vào Việt Nam — `_00_Cosmo brain/misc/TH/Thủ cho Baojun E6 vào Việt Nam.md`
 - Thực tại — `_00_Cosmo brain/misc/TH/Thực tại.md`
 - the first chemical artificial neuron — `_00_Cosmo brain/misc/TH/the first chemical artificial neuron.md`
-- 🧠 The End of Productivity as We Know It — `_00_Cosmo brain/misc/TH/🧠 The End of Productivity as We Know It.md`
+- The End of Productivity as We Know It — `_00_Cosmo brain/misc/TH/🧠 The End of Productivity as We Know It.md`
 - TÌNH YÊU, HY VỌNG, VÀ SÓNG NÃO — `_00_Cosmo brain/misc/TI/TÌNH YÊU, HY VỌNG, VÀ SÓNG NÃO.md`
 - Tính toán — `_00_Cosmo brain/misc/TI/Tính toán.md`
 - tinh forex — `_00_Cosmo brain/misc/TI/tinh forex.md`
@@ -4953,7 +4958,7 @@ tags: [moc, index, bridge, cosmo-brain]
 - Try AI meeting notes@April 6, 2026 10 05 AM — `_00_Cosmo brain/misc/TR/Try AI meeting notes@April 6, 2026 10 05 AM.md`
 - translation — `_00_Cosmo brain/misc/TR/translation.md`
 - tri nuoc — `_00_Cosmo brain/misc/TR/tri nuoc.md`
-- 🔐 TrueVault Integration NeuroSyncAI™ + Unified Bio — `_00_Cosmo brain/misc/TR/🔐 TrueVault Integration NeuroSyncAI™ + Unified Bio.md`
+- TrueVault Integration NeuroSyncAI™ + Unified Bio — `_00_Cosmo brain/misc/TR/🔐 TrueVault Integration NeuroSyncAI™ + Unified Bio.md`
 - Tuning — `_00_Cosmo brain/misc/TU/Tuning.md`
 - U — `_00_Cosmo brain/misc/U/U.md`
 - UBS-Backed SKR Gold Transaction — Investor Deck — `_00_Cosmo brain/misc/U/UBS-Backed SKR Gold Transaction — Investor Deck.md`
@@ -4994,7 +4999,7 @@ tags: [moc, index, bridge, cosmo-brain]
 - ufunc_config — `_00_Cosmo brain/misc/U/ufunc_config.md`
 - unified_generator — `_00_Cosmo brain/misc/U/unified_generator.md`
 - unipower-unitaxi-mece — `_00_Cosmo brain/misc/U/unipower-unitaxi-mece.md`
-- 🔥 UCP — Unified Collapse Prediction™ — `_00_Cosmo brain/misc/U/🔥 UCP — Unified Collapse Prediction™.md`
+- UCP — Unified Collapse Prediction™ — `_00_Cosmo brain/misc/U/🔥 UCP — Unified Collapse Prediction™.md`
 - V3_2_1 — `_00_Cosmo brain/misc/V/V3_2_1.md`
 - V3_4_1 — `_00_Cosmo brain/misc/V/V3_4_1.md`
 - V3_7_1 — `_00_Cosmo brain/misc/V/V3_7_1.md`
@@ -5061,7 +5066,7 @@ tags: [moc, index, bridge, cosmo-brain]
 - wikilinks — `_00_Cosmo brain/misc/W/wikilinks.md`
 - workers — `_00_Cosmo brain/misc/W/workers.md`
 - workspace (obsidian) — `_00_Cosmo brain/misc/W/workspace (obsidian).md`
-- 🧠 What NeuroSyncAI™ Can Realistically Do Now — `_00_Cosmo brain/misc/W/🧠 What NeuroSyncAI™ Can Realistically Do Now.md`
+- What NeuroSyncAI™ Can Realistically Do Now — `_00_Cosmo brain/misc/W/🧠 What NeuroSyncAI™ Can Realistically Do Now.md`
 - 19x19 Sparse Coupling Matrix — `_00_Cosmo brain/misc/X/19x19 Sparse Coupling Matrix.md`
 - X — `_00_Cosmo brain/misc/X/X.md`
 - XPRIZE Water Scarcity — `_00_Cosmo brain/misc/X/XPRIZE Water Scarcity.md`
@@ -5172,8 +5177,8 @@ tags: [moc, index, bridge, cosmo-brain]
 - quantum_architecture — `_00_Cosmo brain/quantum/quantum_architecture.md`
 - quantum_stack_v0 — `_00_Cosmo brain/quantum/quantum_stack_v0.md`
 - tech_quantum_engine_v0 — `_00_Cosmo brain/quantum/tech_quantum_engine_v0.md`
-- 🌍 Masterplan Decentralised Quantum Logic Infrastru — `_00_Cosmo brain/quantum/🌍 Masterplan Decentralised Quantum Logic Infrastru.md`
-- 🧠 Quantum-Biological Model of Business — `_00_Cosmo brain/quantum/🧠 Quantum-Biological Model of Business.md`
+- Masterplan Decentralised Quantum Logic Infrastru — `_00_Cosmo brain/quantum/🌍 Masterplan Decentralised Quantum Logic Infrastru.md`
+- Quantum-Biological Model of Business — `_00_Cosmo brain/quantum/🧠 Quantum-Biological Model of Business.md`
 - AMOS_BRAIN_2026_AGI_BREAKTHROUGH_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_2026_AGI_BREAKTHROUGH_COMPLETE.md`
 - AMOS_BRAIN_2026_MAX_ENHANCEMENT_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_2026_MAX_ENHANCEMENT_COMPLETE.md`
 - AMOS_BRAIN_2026_SUPREME_QUANTUM_COMPLETE — `_00_Cosmo brain/reports/AMOS_BRAIN_2026_SUPREME_QUANTUM_COMPLETE.md`
@@ -5345,9 +5350,9 @@ tags: [moc, index, bridge, cosmo-brain]
 - amos-uni-system-operations-layer — `_00_Cosmo brain/system/amos-uni-system-operations-layer.md`
 - system_scan_agent — `_00_Cosmo brain/system/system_scan_agent.md`
 - systems — `_00_Cosmo brain/system/systems.md`
-- 🌍 The Complete Ecosystem — `_00_Cosmo brain/system/🌍 The Complete Ecosystem.md`
-- 🌍 The Complete Trust & Signal Ecosystem — `_00_Cosmo brain/system/🌍 The Complete Trust & Signal Ecosystem.md`
-- 🌏 The System_ — `_00_Cosmo brain/system/🌏 The System_.md`
+- The Complete Ecosystem — `_00_Cosmo brain/system/🌍 The Complete Ecosystem.md`
+- The Complete Trust & Signal Ecosystem — `_00_Cosmo brain/system/🌍 The Complete Trust & Signal Ecosystem.md`
+- The System_ — `_00_Cosmo brain/system/🌏 The System_.md`
 - Code — `_00_Cosmo brain/tech-coding/Code.md`
 - Coding — `_00_Cosmo brain/tech-coding/Coding.md`
 - Coding_MAX — `_00_Cosmo brain/tech-coding/Coding_MAX.md`
@@ -5411,8 +5416,8 @@ tags: [moc, index, bridge, cosmo-brain]
 - trang_amos_reality_architecture_master_max_detail — `_00_Cosmo brain/trang/trang_amos_reality_architecture_master_max_detail.md`
 - trang_framework_l_m_h_lambda_e_t2_ap_dung_ch — `_00_Cosmo brain/trang/trang_framework_l_m_h_lambda_e_t2_ap_dung_ch.md`
 - trang_l_m_h_dinh_nghia_va_phuong_trinh — `_00_Cosmo brain/trang/trang_l_m_h_dinh_nghia_va_phuong_trinh.md`
-- 📘 TRANG ∅ – Cách Thức Thị Trường FOREX Thực Sự Vận — `_00_Cosmo brain/trang/📘 TRANG ∅ – Cách Thức Thị Trường FOREX Thực Sự Vận.md`
-- 🧱 KHUNG CỐT LÕI (TRANG ∅ FRAMEWORK)CORE — `_00_Cosmo brain/trang/🧱 KHUNG CỐT LÕI (TRANG ∅ FRAMEWORK)CORE.md`
+- TRANG ∅ – Cách Thức Thị Trường FOREX Thực Sự Vận — `_00_Cosmo brain/trang/📘 TRANG ∅ – Cách Thức Thị Trường FOREX Thực Sự Vận.md`
+- KHUNG CỐT LÕI (TRANG ∅ FRAMEWORK)CORE — `_00_Cosmo brain/trang/🧱 KHUNG CỐT LÕI (TRANG ∅ FRAMEWORK)CORE.md`
 - ABSOLUTE OMNIVERSE U∞_Universe_Packs — `_00_Cosmo brain/universe-cosmos/ABSOLUTE OMNIVERSE U∞_Universe_Packs.md`
 - ABSOLUTE OMNIVERSE U∞_Universe_Packs_Universe_Packs — `_00_Cosmo brain/universe-cosmos/ABSOLUTE OMNIVERSE U∞_Universe_Packs_Universe_Packs.md`
 - C03_physics_cosmos — `_00_Cosmo brain/universe-cosmos/C03_physics_cosmos.md`
@@ -5519,10 +5524,10 @@ tags: [moc, index, bridge, cosmo-brain]
 - Đề xuất phê duyệt mua và triển khai giải pháp nền — `_00_Cosmo brain/vietnamese/Đề xuất phê duyệt mua và triển khai giải pháp nền.md`
 - Động cơ fractal vĩnh cửu — `_00_Cosmo brain/vietnamese/Động cơ fractal vĩnh cửu.md`
 - Đột phá thật sự của NeuroSyncAI™ — `_00_Cosmo brain/vietnamese/Đột phá thật sự của NeuroSyncAI™.md`
-- 💡 Phân tích các công trình cuối đời — `_00_Cosmo brain/vietnamese/💡 Phân tích các công trình cuối đời.md`
-- 📌 UNI MAPS – ĐỀ XUẤT CHIẾN LƯỢC — `_00_Cosmo brain/vietnamese/📌 UNI MAPS – ĐỀ XUẤT CHIẾN LƯỢC.md`
-- 🧠 ĐỊNH LƯỢNG HÓA FRACTAL INTELLIGENCE (FQ) THÀNH B — `_00_Cosmo brain/vietnamese/🧠 ĐỊNH LƯỢNG HÓA FRACTAL INTELLIGENCE (FQ) THÀNH B.md`
-- 🧬 BẠN NÓI ĐÚNG TÔI ĐÃ BỎ QUA TUYỆT ĐỐI CỐT LÕI — `_00_Cosmo brain/vietnamese/🧬 BẠN NÓI ĐÚNG TÔI ĐÃ BỎ QUA TUYỆT ĐỐI CỐT LÕI.md`
+- Phân tích các công trình cuối đời — `_00_Cosmo brain/vietnamese/💡 Phân tích các công trình cuối đời.md`
+- UNI MAPS – ĐỀ XUẤT CHIẾN LƯỢC — `_00_Cosmo brain/vietnamese/📌 UNI MAPS – ĐỀ XUẤT CHIẾN LƯỢC.md`
+- ĐỊNH LƯỢNG HÓA FRACTAL INTELLIGENCE (FQ) THÀNH B — `_00_Cosmo brain/vietnamese/🧠 ĐỊNH LƯỢNG HÓA FRACTAL INTELLIGENCE (FQ) THÀNH B.md`
+- BẠN NÓI ĐÚNG TÔI ĐÃ BỎ QUA TUYỆT ĐỐI CỐT LÕI — `_00_Cosmo brain/vietnamese/🧬 BẠN NÓI ĐÚNG TÔI ĐÃ BỎ QUA TUYỆT ĐỐI CỐT LÕI.md`
 
 ## `.devin/` (717 files)
 

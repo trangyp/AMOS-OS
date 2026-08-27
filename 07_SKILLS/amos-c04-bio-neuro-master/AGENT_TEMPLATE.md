@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-c04-bio-neuro-master]
+source: 07_SKILLS/amos-c04-bio-neuro-master
+tags: [note, amos-c04-bio-neuro-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-c04-bio-neuro-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS C04 — Bio & Neuro Master. Consolidates 44 sub-ski
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-c04-bio-neuro-master_MOC]]

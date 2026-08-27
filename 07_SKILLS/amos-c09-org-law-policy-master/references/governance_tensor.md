@@ -1,8 +1,15 @@
 ---
 title: governance tensor
 type: reference
-tags: [reference, amos-c09-org-law-policy-master]
+source: 07_SKILLS/amos-c09-org-law-policy-master/references
+tags: [reference, amos-c09-org-law-policy-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Governance Tensor
 
@@ -42,3 +49,7 @@ MayAct = Capability ∧ Authority ∧ ScopeFit ∧ EvidenceGate ∧ ConstraintPa
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

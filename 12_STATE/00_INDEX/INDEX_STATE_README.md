@@ -1,9 +1,14 @@
 ---
 title: INDEX STATE README
 type: index
-tags: [amos_os, 12_state]
+source: 12_STATE/00_INDEX
+tags: [amos_os, 12_state, canon/state]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INDEX STATE README

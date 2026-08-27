@@ -1,8 +1,15 @@
 ---
 title: output patterns
 type: reference
-tags: [reference, amos-skill-builder]
+source: 07_SKILLS/amos-skill-builder/references
+tags: [reference, amos-skill-builder, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Skill Builder — Output Patterns Reference
 
@@ -68,3 +75,7 @@ tags: [reference, amos-skill-builder]
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

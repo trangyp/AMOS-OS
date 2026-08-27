@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, arxiv-grouped-query-attention-rscf]
+source: 07_SKILLS/arxiv-grouped-query-attention-rscf/references
+tags: [reference, arxiv-grouped-query-attention-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -451,3 +458,4 @@ rscf/P-
 
 ---
 **MOC:** [[references_MOC]]
+```

@@ -9,6 +9,12 @@ status: "active"
 provenance: "OBSERVATION"
 confidence: "DERIVED"
 source: "Ingest batch 2026-08-22"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
+
 ---
 
 
@@ -219,3 +225,6 @@ Which means: high capacity + high vulnerability + high plasticity.
 
 ---
 **MOC:** [[SYSTEM_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

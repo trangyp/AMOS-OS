@@ -1,9 +1,14 @@
 ---
 title: LIFECYCLE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: lifecycle
-tags: [control_plane, 40_lifecycle_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/40_LIFECYCLE_MODES
+tags: [control_plane, 40_lifecycle_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # LIFECYCLE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
@@ -74,3 +79,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[40_LIFECYCLE_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

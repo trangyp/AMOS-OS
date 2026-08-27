@@ -1,15 +1,20 @@
 ---
 title: C03 PHYSICS COSMOS SUPER X3000
 type: physics
+source: 11_KNOWLEDGE/universe-cosmos
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
 topic: c03-physics-cosmos-super-x3000
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c03-physics-cosmos-super-x3000, universe-cosmos]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: universe_cosmos
 ---
-
-
+# C03 PHYSICS COSMOS SUPER X3000
 
 ```json
 {

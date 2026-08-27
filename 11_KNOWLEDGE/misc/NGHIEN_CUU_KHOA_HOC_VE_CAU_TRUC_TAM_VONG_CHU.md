@@ -1,12 +1,15 @@
 ---
 title: NGHIEN CUU KHOA HOC VE CAU TRUC TAM VONG CHU
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Nghiên cứu khoa học về cấu trúc “tâm – vòng – chu kỳ” trong thiên văn học Đông Nam Á cổ đại

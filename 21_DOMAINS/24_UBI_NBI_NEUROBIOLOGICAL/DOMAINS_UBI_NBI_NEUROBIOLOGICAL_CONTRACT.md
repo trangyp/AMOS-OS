@@ -1,9 +1,14 @@
 ---
 title: DOMAINS UBI NBI NEUROBIOLOGICAL CONTRACT
 type: biology
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # DOMAINS UBI NBI NEUROBIOLOGICAL CONTRACT

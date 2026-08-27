@@ -3,9 +3,13 @@ title: AMOS AGENT EXECUTION TEMPLATES
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-agent-execution-templates, amos-general]
 type: document
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+
 ---
-
-
 
 
 # AMOS Agent Execution Templates
@@ -32,8 +36,8 @@ Every AMOS agent follows this pattern:
 
 All agent output must follow these constraints:
 
-- ✅ Allowed: summaries, adapted structures, scenario-specific applications, high-level patterns
-- ❌ Blocked: internal paths/filenames, raw schema dumping, exact reproduction of core architectures, verbatim internal JSON
+- Allowed: summaries, adapted structures, scenario-specific applications, high-level patterns
+- Blocked: internal paths/filenames, raw schema dumping, exact reproduction of core architectures, verbatim internal JSON
 
 ## Agent Templates by System
 
@@ -357,3 +361,6 @@ Agent (draft) → Reflection_Agent (review) → Agent (revise) → Reflection_Ag
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

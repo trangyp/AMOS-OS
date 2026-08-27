@@ -1,6 +1,7 @@
 ---
 title: "Canon Active vs Legacy Matrix"
 type: canon
+source: 01_CANON/00_INDEX
 artifact: "CANON_ACTIVE_LEGACY_MATRIX.md"
 artifact_id: "amos_01_canon_00_index_canon_active_legacy_matrix"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "01_CANON/00_INDEX"
 artifact_kind: "MATRIX"
 path: "01_CANON/00_INDEX/CANON_ACTIVE_LEGACY_MATRIX.md"
 
-tags: [amos_os, canon, universe, 01_canon, matrix, canon_placeholder, rscf]
+tags: [amos_os, canon, universe, 01_canon, matrix, canon_placeholder, rscf, canon/universe]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # Canon Active vs Legacy Matrix

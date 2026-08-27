@@ -1,6 +1,7 @@
 ---
-title: "Heritage × Trang Zero"
-type: trang-framework
+title: "Heritage × TRANG Zero"
+type: heritage
+source: 25_COGNITIVE_MATRIX
 artifact: "HERITAGE_X_TRANG_ZERO.md"
 artifact_id: "amos_25_cognitive_matrix_heritage_x_trang_zero"
 origin_architect: "Trang Phan"
@@ -11,205 +12,155 @@ segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "ARTIFACT"
 path: "25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO.md"
 
-tags: [amos_os, cognitive_matrix, matrix, 25_cognitive_matrix, artifact, canon_placeholder, rscf]
+tags:
+  - amos_os
+  - cognitive_matrix
+  - 25_cognitive_matrix
+  - artifact
+  - heritage
+  - trang_zero
+  - trang_null
+  - null_state_ground
+  - invariant_root
+  - decision_governance
+  - anti_autopoisoning
+  - ground_state
+  - rscf
+  - canon_candidate
+  - canon/cognitive-matrix
 
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
+validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+
+ingestion_action: "NATIVE_CANON_INGESTION"
+raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: AMOS_MODEL
+  provenance:
+    - TRANG_ZERO_FRAMEWORK_CANON
+    - HERITAGE_INTELLIGENCE_CANON
+    - AMOS_CORPUS
+  scope:
+    - FOUNDATIONAL_INVARIANTS
+    - NULL_STATE_GOVERNANCE
+    - COGNITIVE_MATRIX
+
+framework_binding:
+  heritage:
+    name: "Heritage Decision Intelligence™"
+    role: DECISION_INTELLIGENCE_AND_GOVERNANCE
+  trang_zero:
+    name: "Trang ∅ / Trang Zero Framework"
+    role: ABSOLUTE_NULL_STATE_AND_INVARIANT_ROOT
+  matrix_conjunction:
+    name: "Heritage × TRANG Zero Matrix"
+    artifact: "[[HERITAGE_X_TRANG_ZERO_MATRIX]]"
+
+epistemic_boundary:
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  framework_structure: VERIFIED_SOURCE_STRUCTURE
+  ontological_boundary: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
 ---
 
 
+# Heritage × TRANG Zero
 
-# Heritage × Trang Zero
-
-## 0. Status
-
-`HERITAGE_X_TRANG_ZERO.md` is an **ADD-ONLY placeholder** for the **Cognitive Matrix** plane segment at `25_COGNITIVE_MATRIX`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+`HERITAGE_X_TRANG_ZERO.md` is the source-grounded Cognitive Matrix integration artifact for:
 
 ```text
-PLACEHOLDER != IMPLEMENTED
+Heritage Decision Intelligence™
+×
+Trang ∅ (Trang Zero Framework)
+```
 
-ADDRESSABLE != VALIDATED
+It replaces the former `PLACEHOLDER` with a foundational specification establishing how decision intelligence roots itself in the absolute invariant null-state ($S_0 / \emptyset$).
 
-DOCUMENTED != ENFORCED
+```text
+TRANG ∅    →  The unconditioned ground state, pre-distinction null potential, and non-negotiable invariants.
+HERITAGE   →  The historical decision intelligence that tests actions against drift, corruption, and systemic loss.
+```
 
-MODEL != OBSERVATION
+Combined:
 
-SOURCE_CLAIM != VERIFIED
+```text
+PROPOSED STRATEGIC ACTION
+           ↓
+TRANG ∅ NULL-STATE AUDIT (Does this violate invariant root / introduce unrepairable entropy?)
+           ↓
+HERITAGE DECISION VALIDATION (Trust, Timing, Self-Refutation, Reversibility)
+           ↓
+GOVERNED STATE COMMIT / ETHICAL REFUSAL
+```
 
-CANON_CANDIDATE != CANONICAL
+Origin architect / steward: **Trang Phan**
 
-CANONICAL != EMPIRICAL_TRUTH
+---
 
-CAPABILITY != AUTHORITY
+# 1. Purpose and Foundational Architecture
 
-AUTHORIZATION != COMMIT
+The intersection of **Heritage Decision Intelligence** with **Trang ∅** establishes the ultimate stop-condition and anti-autopoisoning firewall for AMOS:
 
+1. **The Null Anchor ($\emptyset$):** Every complex reasoning graph, model derivation, and strategic proposal must be verifiable back to an uncorrupted ground state ($S_0$).
+2. **Zero-Point Reset:** When systemic overload ($\Omega$), fragmentation ($F$), or model hallucination exceeds recoverable bounds, Trang ∅ provides the clean rollback basin: clearing ungrounded state without losing foundational invariants.
+3. **Anti-Autopoisoning:** Prevents recursive decision echo and self-justifying circularity by forcing every decision cycle to prove its value relative to null-state neutrality ($E_{\text{net}} > E_0$).
+
+---
+
+# 2. Epistemic Firewalls
+
+```text
+NULL-STATE MODEL (Trang ∅) != PHYSICAL NIHILISM
+INVARIANT ROOT != RIGID UNRESPONSIVE STAGNATION
+HERITAGE WISDOM != UNCRITICAL REPETITION OF TRADITION
 PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
+CAPABILITY != AUTHORITY
 UNKNOWN/GAP != PASS
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+# 3. Cross-Framework Interconnections
+
+- **[[HERITAGE_X_TRANG_ZERO_MATRIX]]**: Routing matrix mapping null-state validation across all decision classes.
+- **[[HERITAGE_X_TSS]]**: Decision governance across active dynamic cycles ($C_1 \dots C_7$).
+- **[[AMOS_X_TRANG_REALITY]]**: Upstream pre-symbolic ontology ($P \to D \to R \to C \to F \to M$).
+- **[[AMOS_X_QLS]]**: Enforces logical consistency and non-contradiction relative to ground invariants.
 
 ---
 
-## 1. Purpose
-
-This artifact reserves the **Heritage × Trang Zero** slot within the Cognitive Matrix plane. The Cognitive Matrix plane governs primitives L00-L29, lifecycle operations, control planes, scales, cell registry, routing, validation, generators.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
+# 4. RSCF Contract
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+RSCF:
+  node_id: amos_25_cognitive_matrix_heritage_x_trang_zero
+  node_type: artifact
+  claim_class: AMOS_MODEL
+  state: SOURCE_GROUNDED
+  H:
+    identity: "Heritage × TRANG Zero"
+    role: "Null-state grounding and invariant root decision governance"
+  M:
+    primitives: [null_state_ground, invariant_anchor, anti_autopoisoning, rollback_basin]
+  L:
+    load_on_demand: [zero_state_audit_receipts, invariant_verification_rules]
+  confidence_ceiling:
+    source_model: SOURCE_BOUND
+    runtime: UNKNOWN
 ```
 
 ---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `25_COGNITIVE_MATRIX · ARTIFACT` within the Cognitive Matrix plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-00_ROOT_MOC|AMOS MOC
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_25_cognitive_matrix_heritage_x_trang_zero
-
-node_type: artifact
-
-path: 25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[HERITAGE_X_TRANG_ZERO_MATRIX]] · [[HERITAGE_X_TSS]] · [[AMOS_X_TRANG_REALITY]] · [[AMOS_X_QLS]]
 
 ---
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]

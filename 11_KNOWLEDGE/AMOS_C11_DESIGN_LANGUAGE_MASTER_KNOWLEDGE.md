@@ -1,5 +1,6 @@
 ---
 type: design
+source: 11_KNOWLEDGE
 id: AMOS-C11-DESIGN-LANGUAGE-MASTER-KNOWLEDGE
 title: "AMOS C11 — Design & Language Master Knowledge"
 origin_architect: "Trang Phan"
@@ -14,9 +15,14 @@ placeholder_status: "NONE"
 version: "1.1"
 source_lineage: "see body"
 source_family_mapping: "see body"
-tags: [knowledge, note]
-
+tags: [knowledge, note, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # AMOS C11 — Design & Language Master Knowledge
 

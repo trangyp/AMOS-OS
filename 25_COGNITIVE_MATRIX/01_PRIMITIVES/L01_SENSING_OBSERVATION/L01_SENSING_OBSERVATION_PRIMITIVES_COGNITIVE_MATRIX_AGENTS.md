@@ -1,33 +1,15 @@
 ---
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX AGENTS
 type: agent
-tags: [cognitive_matrix, primitives, l01_sensing_observation, note]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
+tags: [cognitive_matrix, primitives, l01_sensing_observation, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-
-
-Below is the full paste-ready `L01_SENSING_OBSERVATION/AGENTS.md`. I’m keeping direct L01 agent canon explicitly gap-bounded rather than inventing it; the agent architecture is therefore classified as `MODEL / CONDITIONAL`.
-
----
-tags:
-  - amos
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - agents
-  - perception
-  - observation
-  - measurement
-  - provenance
-  - multimodal
-  - control-plane
-  - validation
-  - rscf
-  - rscf/S-state
-  - rscf/T-topology
-  - rscf/C-constraint
-  - rscf/type-model
----
 
 # L01_SENSING_OBSERVATION — Agents
 

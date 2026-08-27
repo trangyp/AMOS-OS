@@ -3,9 +3,13 @@ title: AMOS UNI AI INTELLIGENCE ENGINE MODEL
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-uni-ai-intelligence-engine-model, engine]
 type: document
 source: 11_KNOWLEDGE/engine
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
+
 ---
-
-
 
 
 # AMOS Uni AI Intelligence Engine Model
@@ -41,3 +45,6 @@ Culture, Customer Experience, Data/Analytics, EV Charging, Finance, Governance, 
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

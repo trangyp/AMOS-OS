@@ -3,7 +3,14 @@ title: A THE LIVING STATE MONETISATION THESIS A ECONOMIC PARADIGM
 tags: [canon-group/planetary, canon/narrative, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/a-the-living-state-monetisation-thesis-a, economy]
 type: note
 source: 11_KNOWLEDGE/economy
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: economic_model
+
 ---
+
 
 # A THE LIVING STATE MONETISATION THESIS A ECONOMIC PARADIGM
 

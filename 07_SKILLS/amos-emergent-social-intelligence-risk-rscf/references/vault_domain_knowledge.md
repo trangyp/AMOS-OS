@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-emergent-social-intelligence-risk-rscf]
+source: 07_SKILLS/amos-emergent-social-intelligence-risk-rscf/references
+tags: [reference, amos-emergent-social-intelligence-risk-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -175,3 +182,7 @@ LLM output ca
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,12 +1,15 @@
 ---
 title: THE CASE FOR SPACE IF EARTH COMES FIRST
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **The Case for Space — If Earth Comes First**

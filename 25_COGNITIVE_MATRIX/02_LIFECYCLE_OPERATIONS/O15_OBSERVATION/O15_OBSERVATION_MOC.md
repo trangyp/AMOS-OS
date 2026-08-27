@@ -1,8 +1,15 @@
 ---
 title: "O15 Observation MOC"
 type: moc
-tags: [moc, o15-observation]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION
+tags: [moc, o15-observation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # O15 Observation — Map of Content
 

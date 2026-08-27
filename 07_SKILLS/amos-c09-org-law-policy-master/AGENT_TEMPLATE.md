@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-c09-org-law-policy-master]
+source: 07_SKILLS/amos-c09-org-law-policy-master
+tags: [note, amos-c09-org-law-policy-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-c09-org-law-policy-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS C09 — Org, Law & Policy Master. Consolidates 29 s
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-c09-org-law-policy-master_MOC]]

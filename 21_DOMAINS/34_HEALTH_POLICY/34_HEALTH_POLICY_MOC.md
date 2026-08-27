@@ -1,8 +1,15 @@
 ---
 title: "34 Health Policy MOC"
 type: moc
-tags: [moc, 34-health-policy]
+source: 21_DOMAINS/34_HEALTH_POLICY
+tags: [moc, 34-health-policy, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 34 Health Policy — Map of Content
 

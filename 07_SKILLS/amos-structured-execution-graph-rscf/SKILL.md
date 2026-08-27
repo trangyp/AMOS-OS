@@ -1,13 +1,20 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-structured-execution-graph-rscf
 name: amos-structured-execution-graph-rscf
 description: Structured Execution Graph — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-structured-execution-graph-rscf]
+tags: [note, amos-structured-execution-graph-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
 
 
@@ -94,3 +101,77 @@ Complete AMOS v1 production for declared scope only when all of these are simult
 
 ---
 **Links:** [[07_SKILLS_MOC]]
+
+## Related
+
+- [[amos-structured-execution-graph-rscf_MOC]]
+
+## Examples
+
+- **Scenario**: When monitoring runtime stability: drift, oscillation, divergence
+  - **Input**: A query matching this skill's domain (runtime)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When calibrating feedback control loops for stable operation
+  - **Input**: A query matching this skill's domain (runtime)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When decomposing complex operations into primitive steps
+  - **Input**: A query matching this skill's domain (runtime)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the runtime domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[amos-os-runtime-master]]` — routes to this skill when runtime specialization is needed
+- **Peers**: Other skills in the `runtime` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/amos-structured-execution-graph-rscf_code.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `[[amos-structured-execution-graph-rscf_MOC]]` — skill Map of Content
+- `[[amos-os-runtime-master]]` — parent skill
+- `[[amos-structured-execution-graph-rscf-workflow]]` — corresponding workflow
+- `[[amos-structured-execution-graph-rscf-agent]]` — corresponding agent
+

@@ -1,15 +1,20 @@
 ---
 title: AMOS ENGINEERING AND MATHEMATICS ENGINE V0 COGNITIVE4
 type: cognitive
+source: 11_KNOWLEDGE/cognitive
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-engineering-and-mathematics-engine-v0
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-engineering-and-mathematics-engine-, cognitive]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: cognitive_model
 ---
-
-
+# AMOS ENGINEERING AND MATHEMATICS ENGINE V0 COGNITIVE4
 
 ```json
 [

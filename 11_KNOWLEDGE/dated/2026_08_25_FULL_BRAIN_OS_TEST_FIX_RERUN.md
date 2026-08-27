@@ -1,9 +1,15 @@
 ---
 title: 2026-08-25 Full Brain OS Test-Fix-Rerun and External Substrate Research
 type: daily-learning
+source: 11_KNOWLEDGE/dated
 date: 2026-08-25
 epistemic: DERIVED/VERIFIED
-tags: [testing, infrastructure, full-brain-os, open-source, enforcement, dated, dated/2026-08-25]
+tags: [testing, infrastructure, full-brain-os, open-source, enforcement, dated, dated/2026-08-25, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
 
 

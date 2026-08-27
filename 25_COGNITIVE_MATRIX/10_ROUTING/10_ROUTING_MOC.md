@@ -1,8 +1,15 @@
 ---
 title: "10 Routing MOC"
 type: moc
-tags: [moc, 10-routing]
+source: 25_COGNITIVE_MATRIX/10_ROUTING
+tags: [moc, 10-routing, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 10 Routing — Map of Content
 

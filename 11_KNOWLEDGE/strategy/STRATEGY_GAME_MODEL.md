@@ -1,10 +1,15 @@
 ---
 title: STRATEGY GAME MODEL
 type: strategy
+source: 11_KNOWLEDGE/strategy
 aliases: [Strategy Game Engine, AMOS_Strategy_Game]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/strategy-game-model, strategy]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: strategy_game
 ---
-
 
 
 # AMOS Strategy & Game Engine

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Self-Regulated-Simulative-Planning-Rscf MOC"
 type: moc
-tags: [moc, amos-self-regulated-simulative-planning-]
+source: 07_SKILLS/amos-self-regulated-simulative-planning-rscf
+tags: [moc, amos-self-regulated-simulative-planning-, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Self-Regulated-Simulative-Planning-Rscf — Map of Content
 

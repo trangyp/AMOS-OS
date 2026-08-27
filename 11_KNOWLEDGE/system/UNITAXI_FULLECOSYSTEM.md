@@ -1,15 +1,20 @@
 ---
 title: UNITAXI FULLECOSYSTEM
 type: system
+source: 11_KNOWLEDGE/system
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
 topic: unitaxi-fullecosystem
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/unitaxi-fullecosystem, system]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
 ---
-
-
+# UNITAXI FULLECOSYSTEM
 
 ```json
 {

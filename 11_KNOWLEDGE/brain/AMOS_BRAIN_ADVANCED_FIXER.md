@@ -1,11 +1,15 @@
 ---
 title: AMOS BRAIN ADVANCED FIXER
-tags: [brain, cognitive, neural]
+tags: [brain, cognitive, neural, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/brain
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
+
 ---
-
-
 
 
 # -*- coding: utf-8 -*-
@@ -91,12 +95,12 @@ class AMOSBrainAdvancedFixer:
                     "validation": "import_syntax_check"
                 },
                 {
-                    "pattern": r'(\w+)\s*\[\s*\]',
+                    "pattern": r'(\w+)\s*$$\s*$$',
                     "replacement": r'\1[]',
                     "validation": "bracket_syntax_check"
                 },
                 {
-                    "pattern": r'(\w+)\s*\(\s*\)',
+                    "pattern": r'(\w+)\s*$\s*$',
                     "replacement": r'\1()',
                     "validation": "parentheses_syntax_check"
                 }

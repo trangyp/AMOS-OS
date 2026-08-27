@@ -5,8 +5,13 @@ created: 2026-08-22
 updated: 2026-08-22
 source: "The Complete Human System (book manuscript — two versions ingested)"
 tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/memory-the-complete-human-system, system]
----
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
 
+---
 
 
 # The Complete Human System — Integrated Insights (v2 — Epistemically Audited)
@@ -212,3 +217,6 @@ No verified framework currently derives this. Every known system reaches this bo
 
 ---
 **MOC:** [[SYSTEM_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

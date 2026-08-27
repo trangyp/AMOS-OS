@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-c04-bio-neuro-master]
+source: 07_SKILLS/amos-c04-bio-neuro-master/references
+tags: [reference, amos-c04-bio-neuro-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # amos-c04-bio-neuro-master — Vault-Sourced Domain Knowledge
 
@@ -355,8 +362,6 @@ Verified components underneath:
 - trust
 
 
-
-
 ## Vault-Sourced Domain Content
 
 > Source: `11_KNOWLEDGE/AMOS_C04_BIO_NEURO_MASTER_KNOWLEDGE.md` (29455 bytes in vault)
@@ -593,3 +598,7 @@ A new biology/neuro claim may move from `MODEL` toward stronger status only when
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

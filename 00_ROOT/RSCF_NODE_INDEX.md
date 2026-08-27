@@ -1,5 +1,6 @@
 ---
 type: index
+source: 00_ROOT
 aliases:
 - RSCF Node Index
 - AMOS RSCF Nodes Index
@@ -10,10 +11,14 @@ document_version: 1.0.0
 origin_architect: Trang Phan
 rscf_state: derived
 status: ACTIVE_MOC
-tags: [moc, amos_os, root, rscf, index, navigation]
+tags: [moc, amos_os, root, rscf, index, navigation, canon/root]
 title: RSCF Node Index
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
-
 
 
 # RSCF Node Index

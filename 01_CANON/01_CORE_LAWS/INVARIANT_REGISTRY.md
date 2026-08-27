@@ -1,8 +1,15 @@
 ---
 title: "AMOS Invariant Registry — Constitutional and Runtime Integrity Constraints"
 type: invariant
+source: 01_CANON/01_CORE_LAWS
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, invariants, invariant-registry, constitutional-invariants, runtime-invariants, integrity, epistemics, provenance, dependency-closure, causality, scope, regime, freshness, authority, governance, rscf, gmef, recovery, anti-regression, canon-group/tech-ai, canon/registry, canon/invariant, rscf/claim, rscf/provenance, rscf/state/derived, topic/invariant-registry]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: core_laws
 ---
+
 
 # AMOS Invariant Registry
 

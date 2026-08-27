@@ -1,8 +1,16 @@
 ---
 title: "GENERATOR OUTPUT"
 type: generator
-tags: [12_GENERATORS, cognitive_matrix, matrix]
+source: 25_COGNITIVE_MATRIX/12_GENERATORS
+tags: [12_GENERATORS, cognitive_matrix, matrix, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
+# GENERATOR OUTPUT
 
 ## 0. Contract Declaration
 
@@ -12,11 +20,7 @@ A generator output is **not automatically knowledge, evidence, truth, authorizat
 
 The primary law is:
 
-$$
-\boxed{
-Generate \neq Validate \neq Canonize \neq Authorize \neq Commit
-}
-$$
+$$\boxed{ Generate \neq Validate \neq Canonize \neq Authorize \neq Commit }$$
 
 A generator produces a candidate artifact.
 
@@ -24,9 +28,7 @@ That artifact acquires stronger status only through the appropriate downstream v
 
 Therefore:
 
-$$
-Output(G) = Candidate
-$$
+$$Output(G) = Candidate$$
 
 unless an explicitly governed downstream process establishes otherwise.
 
@@ -70,43 +72,29 @@ ACCEPTANCE / USE / COMMITMENT
 
 # 2. Fundamental Output Law
 
-For generator \(G\), task \(T\), evidence \(E\), context \(C\), constraints \(K\), and state \(S\):
+For generator $G$, task $T$, evidence $E$, context $C$, constraints $K$, and state $S$:
 
-$$
-O = G(T,E,C,K,S)
-$$
+$$O = G(T,E,C,K,S)$$
 
 does **not** imply:
 
-$$
-O = Truth
-$$
+$$O = Truth$$
 
 nor:
 
-$$
-O = VerifiedKnowledge
-$$
+$$O = VerifiedKnowledge$$
 
 nor:
 
-$$
-O = AuthorizedAction
-$$
+$$O = AuthorizedAction$$
 
 nor:
 
-$$
-O = Canon
-$$
+$$O = Canon$$
 
 The strongest initial interpretation is normally:
 
-$$
-\boxed{
-O = GENERATED\_CANDIDATE
-}
-$$
+$$\boxed{ O = GENERATED\_CANDIDATE }$$
 
 with epistemic typing applied to its constituent claims.
 
@@ -183,17 +171,13 @@ Output MUST remain associated with the generator version that created it.
 
 If:
 
-$$
-O = G_{v_1}(X)
-$$
+$$O = G_{v_1}(X)$$
 
 then later existence of:
 
-$$
-G_{v_2}
-$$
+$$G_{v_2}$$
 
-does not rewrite the historical identity of \(O\).
+does not rewrite the historical identity of $O$.
 
 Therefore:
 
@@ -224,9 +208,7 @@ generation_context:
 
 This is necessary because:
 
-$$
-OutputValidity
-$$
+$$OutputValidity$$
 
 cannot generally exceed the validity of its load-bearing inputs.
 
@@ -238,11 +220,9 @@ Generation MUST NOT erase provenance.
 
 If:
 
-$$
-E \rightarrow G \rightarrow O
-$$
+$$E \rightarrow G \rightarrow O$$
 
-then output \(O\) inherits a dependency relationship to \(E\).
+then output $O$ inherits a dependency relationship to $E$.
 
 Generation does not transform:
 
@@ -278,11 +258,7 @@ SOURCE A
 
 Formally:
 
-$$
-SharedAncestor(O_1,O_2)
-\Rightarrow
-Independence(O_1,O_2)\ not\ established
-$$
+$$SharedAncestor(O_1,O_2) \Rightarrow Independence(O_1,O_2)\ not\ established$$
 
 ---
 
@@ -292,19 +268,13 @@ Generator multiplicity cannot manufacture evidence independence.
 
 Suppose:
 
-$$
-G_1(E),G_2(E),...,G_n(E)
-$$
+$$G_1(E),G_2(E),...,G_n(E)$$
 
-all produce claim \(C\).
+all produce claim $C$.
 
 It is invalid to infer:
 
-$$
-n\ Outputs
-=
-n\ IndependentConfirmations
-$$
+$$n\ Outputs = n\ IndependentConfirmations$$
 
 without provenance-independent support.
 
@@ -387,13 +357,9 @@ Use `DERIVED` when a conclusion follows from identified premises through a reaso
 
 Conceptually:
 
-$$
-P_1,P_2,\ldots,P_n
-\vdash
-C
-$$
+$$P_1,P_2,\ldots,P_n \vdash C$$
 
-The derivation SHOULD retain dependency links to \(P_i\).
+The derivation SHOULD retain dependency links to $P_i$.
 
 A derived conclusion does not become independent evidence for its own premises.
 
@@ -439,11 +405,7 @@ is valid output.
 
 AMOS MUST NOT convert missing evidence into fluent completion.
 
-$$
-MissingEvidence
-\not\Rightarrow
-PermissionToInfer
-$$
+$$MissingEvidence \not\Rightarrow PermissionToInfer$$
 
 ---
 
@@ -477,21 +439,15 @@ The whole artifact MUST NOT be assigned the strongest class present within it.
 
 # 18. Confidence Ceiling
 
-For output claim \(C\) depending on premises:
+For output claim $C$ depending on premises:
 
-$$
-P_1,P_2,\ldots,P_n
-$$
+$$P_1,P_2,\ldots,P_n$$
 
 derived confidence is bounded by the weakest load-bearing premise unless independently revalidated.
 
 Conceptually:
 
-$$
-Conf(C)
-\le
-\min_i Conf(P_i)
-$$
+$$Conf(C) \le \min_i Conf(P_i)$$
 
 A generator MUST NOT increase confidence simply through fluency, detail, repetition, or internal agreement.
 
@@ -519,17 +475,13 @@ Before an output is treated as locally final, AMOS SHOULD establish that all dep
 
 Let:
 
-$$
-D(O)
-$$
+$$D(O)$$
 
-represent dependency closure for output \(O\).
+represent dependency closure for output $O$.
 
 Fast-path use requires sufficient confidence that:
 
-$$
-D(O)=Known
-$$
+$$D(O)=Known$$
 
 relative to the required proof scope.
 
@@ -552,13 +504,9 @@ scope:
   assumptions: []
 ```
 
-An output valid under \(S_1\) cannot silently become universal.
+An output valid under $S_1$ cannot silently become universal.
 
-$$
-Valid(O,S_1)
-\not\Rightarrow
-Valid(O,S_2)
-$$
+$$Valid(O,S_1) \not\Rightarrow Valid(O,S_2)$$
 
 ---
 
@@ -595,23 +543,17 @@ Generator output does not refresh stale evidence.
 
 If:
 
-$$
-E@t_0
-$$
+$$E@t_0$$
 
-is stale at \(t_1\), then:
+is stale at $t_1$, then:
 
-$$
-G(E)@t_1
-$$
+$$G(E)@t_1$$
 
 remains dependent on stale evidence.
 
 Therefore:
 
-$$
-Generation \neq Refresh
-$$
+$$Generation \neq Refresh$$
 
 Temporal metadata SHOULD include:
 
@@ -642,9 +584,7 @@ state:
 
 If current state differs materially:
 
-$$
-S_{generated} \neq S_{current}
-$$
+$$S_{generated} \neq S_{current}$$
 
 then the output may become:
 
@@ -699,19 +639,7 @@ environment
 
 Conceptually:
 
-$$
-K_O
-=
-K_{root}
-\cup
-K_{task}
-\cup
-K_{mode}
-\cup
-K_{generator}
-\cup
-K_{governance}
-$$
+$$K_O = K_{root} \cup K_{task} \cup K_{mode} \cup K_{generator} \cup K_{governance}$$
 
 subject to precedence and compatibility rules.
 
@@ -721,10 +649,7 @@ subject to precedence and compatibility rules.
 
 If output violates a valid hard constraint:
 
-$$
-\exists k\in K_{hard}:
-Violates(O,k)
-$$
+$$\exists k\in K_{hard}: Violates(O,k)$$
 
 then:
 
@@ -742,15 +667,11 @@ Constraints SHOULD propagate through generated descendants.
 
 If:
 
-$$
-O_1 \rightarrow O_2
-$$
+$$O_1 \rightarrow O_2$$
 
-and constraint \(K\) remains applicable, then:
+and constraint $K$ remains applicable, then:
 
-$$
-K(O_1)\rightarrow K(O_2)
-$$
+$$K(O_1)\rightarrow K(O_2)$$
 
 unless an explicit governed transformation modifies its applicability.
 
@@ -781,19 +702,11 @@ An output generated for one task MUST NOT automatically be reused for a material
 
 The ability to generate an output does not establish permission to execute it.
 
-$$
-CanGenerate(A)
-\neq
-CanExecute(A)
-$$
+$$CanGenerate(A) \neq CanExecute(A)$$
 
 and:
 
-$$
-CanExecute(A)
-\neq
-AuthorizedToExecute(A)
-$$
+$$CanExecute(A) \neq AuthorizedToExecute(A)$$
 
 Generator Output MUST preserve this distinction.
 
@@ -827,11 +740,7 @@ Authority SHOULD be checked at commitment time when an output would create exter
 
 A previously authorized generation does not necessarily imply current authority to commit.
 
-$$
-Authority_{generate}
-\neq
-Authority_{commit}
-$$
+$$Authority_{generate} \neq Authority_{commit}$$
 
 Commit-time validation SHOULD account for:
 
@@ -871,11 +780,7 @@ Generation does not grant permission to disclose.
 
 Where information exposure matters:
 
-$$
-OutputContent
-\subseteq
-AuthorizedNecessaryInformation
-$$
+$$OutputContent \subseteq AuthorizedNecessaryInformation$$
 
 The system SHOULD emit the minimum information sufficient to satisfy the authorized objective.
 
@@ -992,19 +897,7 @@ A previously validated output MAY be reused only while relevant validity conditi
 
 Conceptually:
 
-$$
-Reusable(O)
-=
-DependenciesValid
-\land
-ScopeCompatible
-\land
-RegimeCompatible
-\land
-Fresh
-\land
-NonConflict
-$$
+$$Reusable(O) = DependenciesValid \land ScopeCompatible \land RegimeCompatible \land Fresh \land NonConflict$$
 
 If any load-bearing condition fails:
 
@@ -1043,9 +936,7 @@ Output status remains distinct from RSCF resolution status.
 
 When output depends on multiple RSCFs:
 
-$$
-O=f(R_1,R_2,\ldots,R_n)
-$$
+$$O=f(R_1,R_2,\ldots,R_n)$$
 
 AMOS SHOULD ensure that the relevant combined state is coherent for the conclusion being generated.
 
@@ -1126,11 +1017,7 @@ execution risk
 
 Thus:
 
-$$
-Compression
-\neq
-EpistemicErasure
-$$
+$$Compression \neq EpistemicErasure$$
 
 ---
 
@@ -1152,11 +1039,7 @@ System A and System B share causal mechanism M.
 
 Therefore:
 
-$$
-StructuralSimilarity
-\not\Rightarrow
-CausalEquivalence
-$$
+$$StructuralSimilarity \not\Rightarrow CausalEquivalence$$
 
 ---
 
@@ -1251,18 +1134,16 @@ This prevents preference optimization from being misrepresented as factual proof
 
 # 52. Recommendation Output
 
-Recommendation \(R\) SHOULD be interpretable as:
+Recommendation $R$ SHOULD be interpretable as:
 
-$$
-R=f(E,O,K,U,Risk)
-$$
+$$R=f(E,O,K,U,Risk)$$
 
 where:
 
-* \(E\) = evidence,
-* \(O\) = objectives,
-* \(K\) = constraints,
-* \(U\) = uncertainty,
+* $E$ = evidence,
+* $O$ = objectives,
+* $K$ = constraints,
+* $U$ = uncertainty,
 * `Risk` = consequence profile.
 
 Changing objectives may legitimately change the recommendation without changing underlying facts.
@@ -1349,23 +1230,7 @@ The same generator output structure may therefore receive different admission re
 
 Before consequential use, output MAY pass through an admission predicate:
 
-$$
-Admit(O)
-=
-Integrity
-\land
-ConstraintCompliance
-\land
-ScopeValidity
-\land
-RegimeValidity
-\land
-Freshness
-\land
-ProvenanceAdequacy
-\land
-RiskAcceptability
-$$
+$$Admit(O) = Integrity \land ConstraintCompliance \land ScopeValidity \land RegimeValidity \land Freshness \land ProvenanceAdequacy \land RiskAcceptability$$
 
 with additional conditions where required.
 
@@ -1466,11 +1331,9 @@ and their relationship must be explicit.
 
 Outputs MAY be finalized relative to a causal epoch:
 
-$$
-O@E_n
-$$
+$$O@E_n$$
 
-If later state \(E_{n+1}\) changes a load-bearing dependency:
+If later state $E_{n+1}$ changes a load-bearing dependency:
 
 ```text
 REVALIDATE affected output
@@ -1508,11 +1371,7 @@ Global coordination SHOULD be avoided where local proof is sufficient.
 
 The system MAY finalize output without unnecessary global recomputation when it can establish:
 
-$$
-LocalProof
-\Rightarrow
-DecisionSufficiency
-$$
+$$LocalProof \Rightarrow DecisionSufficiency$$
 
 under the relevant dependency envelope.
 
@@ -1520,17 +1379,13 @@ under the relevant dependency envelope.
 
 # 65. Failure Localization
 
-If premise \(P\) fails:
+If premise $P$ fails:
 
-$$
-Invalidate(P)
-$$
+$$Invalidate(P)$$
 
 then invalidate:
 
-$$
-Descendants(P)
-$$
+$$Descendants(P)$$
 
 only.
 
@@ -1615,15 +1470,11 @@ inventing source independence
 
 If output refers to benchmark success:
 
-$$
-Success(Benchmark)
-$$
+$$Success(Benchmark)$$
 
 it MUST NOT infer:
 
-$$
-UniversalValidity
-$$
+$$UniversalValidity$$
 
 without appropriate evidence.
 
@@ -1637,9 +1488,7 @@ Reported performance values remain environment-bound unless validated otherwise.
 
 For example:
 
-$$
-Latency = L
-$$
+$$Latency = L$$
 
 may depend on:
 
@@ -1692,11 +1541,7 @@ supersession
 
 Therefore:
 
-$$
-GeneratorOutput
-\not\Rightarrow
-Canon
-$$
+$$GeneratorOutput \not\Rightarrow Canon$$
 
 ---
 
@@ -2196,23 +2041,11 @@ This permits reuse without blindly regenerating.
 
 # 85. Output Comparison
 
-When comparing outputs \(O_1\) and \(O_2\), AMOS SHOULD compare more than textual similarity.
+When comparing outputs $O_1$ and $O_2$, AMOS SHOULD compare more than textual similarity.
 
 Relevant dimensions include:
 
-$$
-Compare(O_1,O_2)=
-\{
-claims,
-evidence,
-provenance,
-scope,
-regime,
-dependencies,
-uncertainty,
-falsifiers
-\}
-$$
+$$Compare(O_1,O_2)= \{ claims, evidence, provenance, scope, regime, dependencies, uncertainty, falsifiers \}$$
 
 Two outputs may look different while being epistemically equivalent, or look similar while resting on incompatible evidence.
 
@@ -2268,18 +2101,7 @@ Output quality SHOULD NOT be reduced to fluency.
 
 Conceptually:
 
-$$
-Q(O)=f(
-Integrity,
-Support,
-Scope,
-Provenance,
-Freshness,
-CausalDiscipline,
-ConstraintCompliance,
-UserFit
-)
-$$
+$$Q(O)=f( Integrity, Support, Scope, Provenance, Freshness, CausalDiscipline, ConstraintCompliance, UserFit )$$
 
 Optimization may improve presentation only if these properties are preserved or improved.
 
@@ -2441,13 +2263,7 @@ FINAL CANON = NOT ESTABLISHED
 
 The output layer exists to prevent a fundamental category error:
 
-$$
-\boxed{
-A\ system's\ ability\ to\ produce\ a\ statement
-\neq
-evidence\ that\ the\ statement\ is\ true.
-}
-$$
+$$\boxed{ A\ system's\ ability\ to\ produce\ a\ statement \neq evidence\ that\ the\ statement\ is\ true. }$$
 
 Therefore every consequential generated output must preserve the distinction between:
 
@@ -2465,37 +2281,11 @@ WHAT MAY BE COMMITTED
 
 The governing chain is:
 
-$$
-\boxed{
-Task
-\rightarrow
-Generator
-\rightarrow
-Candidate
-\rightarrow
-Provenance
-\rightarrow
-Validation
-\rightarrow
-Falsification
-\rightarrow
-Admission
-\rightarrow
-Governance
-\rightarrow
-Commit
-}
-$$
+$$\boxed{ Task \rightarrow Generator \rightarrow Candidate \rightarrow Provenance \rightarrow Validation \rightarrow Falsification \rightarrow Admission \rightarrow Governance \rightarrow Commit }$$
 
 and never:
 
-$$
-\boxed{
-Generator
-\rightarrow
-Truth
-}
-$$
+$$\boxed{ Generator \rightarrow Truth }$$
 
 ---
 

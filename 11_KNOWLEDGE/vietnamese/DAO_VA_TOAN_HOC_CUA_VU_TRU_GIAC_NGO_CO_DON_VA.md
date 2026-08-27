@@ -1,12 +1,15 @@
 ---
 title: DAO VA TOAN HOC CUA VU TRU GIAC NGO CO DON VA
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # **ĐẠO VÀ TOÁN HỌC CỦA VŨ TRỤ — GIÁC NGỘ, CÔ ĐƠN, VÀ LỜI SẤM CỦA THỜI ĐẠI**

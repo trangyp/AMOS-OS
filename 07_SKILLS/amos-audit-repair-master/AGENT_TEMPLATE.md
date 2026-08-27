@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-audit-repair-master]
+source: 07_SKILLS/amos-audit-repair-master
+tags: [note, amos-audit-repair-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-audit-repair-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS Audit & Repair Master. Consolidates 8 sub-skills.
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-audit-repair-master_MOC]]

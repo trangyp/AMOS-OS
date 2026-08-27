@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-closed-loop-learning-governor]
+source: 07_SKILLS/amos-closed-loop-learning-governor/references
+tags: [reference, amos-closed-loop-learning-governor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -30,34 +37,22 @@ This note formalizes the source mapping of:
 
 into the AMOS structural primitives:
 
-\[
-\boxed{
-D,\ M,\ E,\ R
-}
-\]
+$$\boxed{ D,\ M,\ E,\ R }$$
 
 where:
 
-- \(D\) = Distinction
-- \(M\) = Mutation
-- \(E\) = Entropy
-- \(R\) = Repair
+- $D$ = Distinction
+- $M$ = Mutation
+- $E$ = Entropy
+- $R$ = Repair
 
 and the two source-defined loop states:
 
-\[
-\boxed{
-\infty
-}
-\]
+$$\boxed{ \infty }$$
 
 and:
 
-\[
-\boxed{
-\bullet
-}
-\]
+$$\boxed{ \bullet }$$
 
 The architecture preserves the source claim that these modules can be interpreted through D/M/E/R, but it does **not** preserve unsupported numerical fit scores such as 92–99% as measured evidence because the source provides no reproducible scoring function, benchmark, denominator, or calibration procedure.
 
@@ -128,32 +123,15 @@ must not be promoted from framework terms into empirical truth without independe
 
 The base architecture is:
 
-\[
-\boxed{
-D \rightarrow M \rightarrow E \rightarrow R
-}
-\]
+$$\boxed{ D \rightarrow M \rightarrow E \rightarrow R }$$
 
 but this is not necessarily a one-way causal chain.
 
 A more accurate runtime model is:
 
-\[
-\boxed{
-X_{t+1}
-=
-F(
-D_t,
-M_t,
-E_t,
-R_t,
-X_t,
-U_t
-)
-}
-\]
+$$\boxed{ X_{t+1} = F( D_t, M_t, E_t, R_t, X_t, U_t ) }$$
 
-where \(U_t\) represents external input or environment.
+where $U_t$ represents external input or environment.
 
 ---
 
@@ -178,21 +156,7 @@ fractal structures
 
 A distinction object is:
 
-\[
-\boxed{
-D_i=
-(
-id,
-left,
-right,
-criterion,
-scope,
-observer,
-provenance,
-status
-)
-}
-\]
+$$\boxed{ D_i= ( id, left, right, criterion, scope, observer, provenance, status ) }$$
 
 A distinction is valid only if the separation criterion is explicit.
 
@@ -337,3 +301,8 @@ Results:
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]
+```

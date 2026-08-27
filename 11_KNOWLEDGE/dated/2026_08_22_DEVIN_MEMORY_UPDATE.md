@@ -1,6 +1,7 @@
 ---
 title: 2026 08 22 DEVIN MEMORY UPDATE
 type: memory
+source: 11_KNOWLEDGE/dated
 origin_architect: Devin (AMOS session)
 provenance: direct verification — Python import of AMOS_V22_INTEGRATION constants + _selftest() + ls counts
 confidence: 0.95
@@ -8,8 +9,12 @@ epistemic_class: OBSERVATION
 conclusion_label: VERIFIED
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-devin-memory-update, dated, dated/2026-08-22]
 date: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: temporal_log
 ---
-
 
 
 # Devin Memory Update — 2026-08-22

@@ -1,10 +1,14 @@
 ---
 title: COGNITIVE MATRIX MAP
 type: map
-tags: [cognitive_matrix, matrix, cognition]
+source: 25_COGNITIVE_MATRIX/00_INDEX
+tags: [cognitive_matrix, matrix, cognition, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
-
 
 
 # COGNITIVE MATRIX MAP
@@ -62,3 +66,6 @@ node_id: cognitive_matrix_25_cognitive_matrix_00_index_cognitive_matrix_map
 node_type: note
 path: 25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

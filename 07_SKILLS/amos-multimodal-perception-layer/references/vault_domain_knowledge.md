@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-multimodal-perception-layer]
+source: 07_SKILLS/amos-multimodal-perception-layer/references
+tags: [reference, amos-multimodal-perception-layer, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -226,3 +233,7 @@ I have successfully implemented the **complete AMOS Nervous System Framework** f
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

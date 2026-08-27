@@ -1,12 +1,15 @@
 ---
 title: QUANTUM LOGIC SCAFFOLD QLS OFFICIAL MANUAL
-tags: [quantum, physics, qfm]
+tags: [quantum, physics, qfm, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/quantum
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: quantum_reasoning
+
 ---
-
-
-
 
 
 # **Quantum Logic Scaffold™ (QLS) – Official Manual**

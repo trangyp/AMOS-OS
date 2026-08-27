@@ -1,11 +1,15 @@
 ---
 title: TENSORS
-tags: [tensor, knowledge, vault]
+tags: [tensor, knowledge, vault, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/root
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
 
 
 # Typed Tensor

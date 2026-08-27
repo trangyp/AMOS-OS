@@ -1,15 +1,20 @@
 ---
 title: AMOS NATIONAL BANKING OS IDENTITY KERNEL V1 NATIONAL BANKING OS4
 type: kernel
+source: 11_KNOWLEDGE/kernel
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-national-banking-os-identity-kernel-v1
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-national-banking-os-identity-kernel, kernel]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
-
-
+# AMOS NATIONAL BANKING OS IDENTITY KERNEL V1 NATIONAL BANKING OS4
 
 ```json
 [

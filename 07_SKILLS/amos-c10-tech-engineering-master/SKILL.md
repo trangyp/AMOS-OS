@@ -1,14 +1,22 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-c10-tech-engineering-master
 name: amos-c10-tech-engineering-master
 description: "AMOS C10 Tech & Engineering — coding, software engineering, automation, DevOps, architecture, factory systems, production. Use for software development, engineering design, or technical architecture."
 parent_skill: none
 domain: c10
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c10-tech-engineering-master]
+tags: [note, amos-c10-tech-engineering-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
+
 
 # AMOS C10 — Tech & Engineering Master Knowledge
 
@@ -87,3 +95,115 @@ The domain is organized into source families:
 
 Engineering recommendations are always scope-, scale-, workload-, team-, and constraint-dependent. No design output constitutes a guaranteed working system — all require validation, testing, implementation, and operational monitoring. Implicit coupling is an architecture violatio
 - [[AGENT_TEMPLATE]]
+
+---
+**MOC:** [[amos-c10-tech-engineering-master_MOC]]
+
+## Examples
+
+- **Scenario**: When designing software architecture, system implementation, or technical infrastructure
+  - **Input**: A query matching this skill's domain (c10)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When performing coding, software engineering, automation, or DevOps tasks
+  - **Input**: A query matching this skill's domain (c10)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When selecting architectural patterns and analyzing reliability/failure modes
+  - **Input**: A query matching this skill's domain (c10)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the c10 domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when c10 specialization is needed
+- **Peers**: Other skills in the `c10` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/11k_architecture_decision_record.md` — loaded on demand
+- `references/11k_component_map.md` — loaded on demand
+- `references/architecture_of_architecture.md` — loaded on demand
+- `references/automation_engine_layer.md` — loaded on demand
+- `references/automation_engine_v1.md` — loaded on demand
+- `references/automation_super_engine.md` — loaded on demand
+- `references/cloud_platform_kernel.md` — loaded on demand
+- `references/coding_engine.md` — loaded on demand
+- `references/coding_engine_gpt.md` — loaded on demand
+- `references/coding_engine_layer.md` — loaded on demand
+- `references/coding_engine_ultra.md` — loaded on demand
+- `references/coding_engine_vinfinity.md` — loaded on demand
+- `references/cpu_ram_optimization.md` — loaded on demand
+- `references/data_engineering_kernel.md` — loaded on demand
+- `references/deployment_guide.md` — loaded on demand
+- `references/design_kernel.md` — loaded on demand
+- `references/fabrication_engine.md` — loaded on demand
+- `references/implementation_manifest.md` — loaded on demand
+- `references/kernels_tech.md` — loaded on demand
+- `references/load_map.md` — loaded on demand
+- `references/mechanical_structural_engine_cognitive.md` — loaded on demand
+- `references/mechanical_structural_engine_layer.md` — loaded on demand
+- `references/ml_engineering_kernel.md` — loaded on demand
+- `references/omega_thinking_engine.md` — loaded on demand
+- `references/omni_factory_engine.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/super_factory_engine_v2.md` — loaded on demand
+- `references/tech_architecture_kernel.md` — loaded on demand
+- `references/tech_architecture_model.md` — loaded on demand
+- `references/tech_design_engine.md` — loaded on demand
+- `references/tech_engine_model.md` — loaded on demand
+- `references/tech_engine_unipower.md` — loaded on demand
+- `references/tech_engine_vinfinity.md` — loaded on demand
+- `references/tech_partner_audit.md` — loaded on demand
+- `references/tech_quantum_engine_domains.md` — loaded on demand
+- `references/tech_quantum_engine_model.md` — loaded on demand
+- `references/tech_super_engine.md` — loaded on demand
+- `references/total_technical_engine_model.md` — loaded on demand
+- `references/total_technical_engine_universe.md` — loaded on demand
+- `references/unix_automated_tools.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `[[amos-c10-tech-engineering-master_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-c10-tech-engineering-master-workflow]]` — corresponding workflow
+- `[[amos-c10-tech-engineering-master-agent]]` — corresponding agent
+

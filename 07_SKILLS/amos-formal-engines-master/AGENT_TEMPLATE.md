@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-formal-engines-master]
+source: 07_SKILLS/amos-formal-engines-master
+tags: [note, amos-formal-engines-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-formal-engines-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS Formal Engines Master. Consolidates 24 sub-skills.
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-formal-engines-master_MOC]]

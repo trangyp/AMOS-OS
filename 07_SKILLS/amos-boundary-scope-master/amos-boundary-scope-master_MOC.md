@@ -1,8 +1,15 @@
 ---
 title: "Amos-Boundary-Scope-Master MOC"
 type: moc
-tags: [moc, amos-boundary-scope-master]
+source: 07_SKILLS/amos-boundary-scope-master
+tags: [moc, amos-boundary-scope-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Boundary-Scope-Master — Map of Content
 

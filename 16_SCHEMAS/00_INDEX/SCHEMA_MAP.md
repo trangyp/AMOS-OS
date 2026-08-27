@@ -1,9 +1,14 @@
 ---
 title: SCHEMA MAP
 type: map
-tags: [amos_os, 16_schemas]
+source: 16_SCHEMAS/00_INDEX
+tags: [amos_os, 16_schemas, canon/schema]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # SCHEMA MAP

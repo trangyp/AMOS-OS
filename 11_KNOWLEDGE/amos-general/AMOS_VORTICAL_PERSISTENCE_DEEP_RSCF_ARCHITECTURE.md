@@ -1,6 +1,7 @@
 ---
 title: "AMOS Vortical Persistence — Deep RSCF Architecture"
 type: architecture
+source: 11_KNOWLEDGE/amos-general
 subtitle: "Solar magnetic activity, Saturn's hexagon, tornadoes, and tropical cyclones as persistence/dissolution systems"
 origin_architect: "Trang Phan"
 source_lineage: "Refined from uploaded Trang ∅ vortex comparison note"
@@ -10,9 +11,13 @@ empirical_boundary: "DOMAIN_EMPIRICAL claims require independent source validati
 amos_runtime_alignment: "see body"
 updated: "2026-08-25"
 status: "CONDITIONAL_RESEARCH_CAPSULE"
-tags: [amos-general, amos, general]
+tags: [amos-general, amos, general, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
-
 
 
 # AMOS Vortical Persistence — Deep RSCF Architecture
@@ -92,19 +97,17 @@ A vortex analysis is meaningless until the **identity-bearing object** is define
 
 Define:
 
-\[
-\mathcal{S} = (B,\Omega,\Phi,\Sigma,\mathcal{I},\tau,\mathcal{R})
-\]
+$$\mathcal{S} = (B,\Omega,\Phi,\Sigma,\mathcal{I},\tau,\mathcal{R})$$
 
 where:
 
-- \(B\): system boundary;
-- \(\Omega\): state space;
-- \(\Phi\): flows through or within the system;
-- \(\Sigma\): structural organization;
-- \(\mathcal{I}\): identity invariants;
-- \(\tau\): characteristic timescale;
-- \(\mathcal{R}\): regime/environment.
+- $B$: system boundary;
+- $\Omega$: state space;
+- $\Phi$: flows through or within the system;
+- $\Sigma$: structural organization;
+- $\mathcal{I}$: identity invariants;
+- $\tau$: characteristic timescale;
+- $\mathcal{R}$: regime/environment.
 
 This is an `AMOS_MODEL`.
 
@@ -140,24 +143,21 @@ The identity object must be fixed before comparing lifetime.
 
 The seven parts are treated as a **persistence axis**, not as proof of universal physical ontology.
 
-For a target system \(S\):
+For a target system $S$:
 
-\[
-P_7(S)=
-[C,F,S_t,E_n,T,A,X]
-\]
+$$P_7(S)= [C,F,S_t,E_n,T,A,X]$$
 
 where:
 
-- \(C\) = Constraint
-- \(F\) = Flow
-- \(S_t\) = Structure
-- \(E_n\) = Enforcement
-- \(T\) = Time
-- \(A\) = Adaptation
-- \(X\) = Termination
+- $C$ = Constraint
+- $F$ = Flow
+- $S_t$ = Structure
+- $E_n$ = Enforcement
+- $T$ = Time
+- $A$ = Adaptation
+- $X$ = Termination
 
-Do not confuse `Structure` \(S_t\) with the whole system \(S\).
+Do not confuse `Structure` $S_t$ with the whole system $S$.
 
 ---
 
@@ -165,14 +165,7 @@ Do not confuse `Structure` \(S_t\) with the whole system \(S\).
 
 Use H/M/L as a functional decomposition:
 
-\[
-X_{HML}(t)=
-\begin{bmatrix}
-x_L(t)\\
-x_M(t)\\
-x_H(t)
-\end{bmatrix}
-\]
+$$X_{HML}(t)= \begin{bmatrix} x_L(t)\\ x_M(t)\\ x_H(t) \end{bmatrix}$$
 
 with:
 
@@ -182,17 +175,15 @@ with:
 
 Cross-scale coupling:
 
-\[
-x_i(t+\Delta t)=F_i\left(x_i(t),\sum_{j\neq i}K_{ij}x_j(t),u_i(t),\eta_i(t)\right)
-\]
+$$x_i(t+\Delta t)=F_i\left(x_i(t),\sum_{j\neq i}K_{ij}x_j(t),u_i(t),\eta_i(t)\right)$$
 
 where:
 
-- \(K_{ij}\) = coupling from scale \(j\) to scale \(i\);
-- \(u_i\) = external forcing;
-- \(\eta_i\) = unresolved disturbance/noise.
+- $K_{ij}$ = coupling from scale $j$ to scale $i$;
+- $u_i$ = external forcing;
+- $\eta_i$ = unresolved disturbance/noise.
 
-This does **not** imply linear physical coupling. \(K\) is a structural stub until domain equations instantiate it.
+This does **not** imply linear physical coupling. $K$ is a structural stub until domain equations instantiate it.
 
 ## 4.1 Upward and downward constraints
 
@@ -213,43 +204,35 @@ Do not infer causality from scale ordering alone.
 
 Use the AMOS persistence state:
 
-\[
-x_t=(B_t,M_t,C_t,E_t,R_t,I_t)
-\]
+$$x_t=(B_t,M_t,C_t,E_t,R_t,I_t)$$
 
 where:
 
-- \(B_t\): boundary integrity;
-- \(M_t\): memory / retained structural state;
-- \(C_t\): coherence;
-- \(E_t\): entropy/load/disorder channel;
-- \(R_t\): repair/restoring capacity;
-- \(I_t\): identity integrity.
+- $B_t$: boundary integrity;
+- $M_t$: memory / retained structural state;
+- $C_t$: coherence;
+- $E_t$: entropy/load/disorder channel;
+- $R_t$: repair/restoring capacity;
+- $I_t$: identity integrity.
 
 Candidate persistence functional:
 
-\[
-P_t=f(B_t,M_t,C_t,R_t)-g(E_t,Drift_t)
-\]
+$$P_t=f(B_t,M_t,C_t,R_t)-g(E_t,Drift_t)$$
 
 and state evolution:
 
-\[
-x_{t+1}=F_r(x_t,u_t,repair_t,shock_t)
-\]
+$$x_{t+1}=F_r(x_t,u_t,repair_t,shock_t)$$
 
 A dissolution event is not "high entropy" by definition.
 
 AMOS dissolution condition:
 
-\[
-D_t=1
-\]
+$$D_t=1$$
 
 when:
 
 1. one or more required identity invariants fail; **and**
-2. no admissible repair path restores them inside recovery window \(\Delta T_R\).
+2. no admissible repair path restores them inside recovery window $\Delta T_R$.
 
 Therefore:
 
@@ -269,27 +252,23 @@ For vortex persistence, introduce three conceptually distinct balances.
 
 ## 6.1 Energy/forcing balance
 
-\[
-\dot{Q}=Q_{in}-Q_{loss}
-\]
+$$\dot{Q}=Q_{in}-Q_{loss}$$
 
-where \(Q\) may represent a domain-appropriate energy or forcing budget.
+where $Q$ may represent a domain-appropriate energy or forcing budget.
 
-This is only physically meaningful when \(Q\) is defined using actual domain units.
+This is only physically meaningful when $Q$ is defined using actual domain units.
 
 AMOS abstraction:
 
-\[
-\Gamma_F=\frac{Q_{in}}{Q_{loss}+\epsilon}
-\]
+$$\Gamma_F=\frac{Q_{in}}{Q_{loss}+\epsilon}$$
 
-where \(\Gamma_F\) is a dimensionless sustaining-flow ratio.
+where $\Gamma_F$ is a dimensionless sustaining-flow ratio.
 
 Interpretation:
 
-- \(\Gamma_F > 1\): net sustaining forcing candidate;
-- \(\Gamma_F \approx 1\): near-balance;
-- \(\Gamma_F < 1\): decay pressure.
+- $\Gamma_F > 1$: net sustaining forcing candidate;
+- $\Gamma_F \approx 1$: near-balance;
+- $\Gamma_F < 1$: decay pressure.
 
 This alone is insufficient for persistence because a system can have abundant energy but lose coherent identity.
 
@@ -297,45 +276,30 @@ This alone is insufficient for persistence because a system can have abundant en
 
 Define:
 
-\[
-\Gamma_R=\frac{R_{restore}}{P_{disturb}+\epsilon}
-\]
+$$\Gamma_R=\frac{R_{restore}}{P_{disturb}+\epsilon}$$
 
 where:
 
-- \(R_{restore}\): observed restoring tendency after perturbation;
-- \(P_{disturb}\): perturbation magnitude/pressure.
+- $R_{restore}$: observed restoring tendency after perturbation;
+- $P_{disturb}$: perturbation magnitude/pressure.
 
 Candidate condition:
 
-\[
-\Gamma_R > 1
-\]
+$$\Gamma_R > 1$$
 
 implies restoring dynamics dominate the measured perturbation in that regime.
 
 ## 6.3 Boundary compatibility
 
-\[
-B_c = h(BoundaryState, Regime)
-\]
+$$B_c = h(BoundaryState, Regime)$$
 
 A structure can have sufficient energy and restoring behavior but still fail if the boundary conditions leave the valid regime.
 
 Candidate persistence:
 
-\[
-\Pi_t =
-\mathbb{1}[\Gamma_F>\theta_F]
-\cdot
-\mathbb{1}[\Gamma_R>\theta_R]
-\cdot
-\mathbb{1}[B_c>\theta_B]
-\cdot
-I_t
-\]
+$$\Pi_t = \mathbb{1}[\Gamma_F>\theta_F] \cdot \mathbb{1}[\Gamma_R>\theta_R] \cdot \mathbb{1}[B_c>\theta_B] \cdot I_t$$
 
-All thresholds \(\theta_*\) are **regime-specific calibration parameters**, not AMOS universal constants.
+All thresholds $\theta_*$ are **regime-specific calibration parameters**, not AMOS universal constants.
 
 ---
 
@@ -349,15 +313,11 @@ Use only when a domain-specific thermodynamic/statistical definition exists.
 
 Examples:
 
-\[
-S=k_B\ln \Omega
-\]
+$$S=k_B\ln \Omega$$
 
 or a valid information measure:
 
-\[
-H(X)=-\sum_x p(x)\log p(x)
-\]
+$$H(X)=-\sum_x p(x)\log p(x)$$
 
 These have explicit mathematical meanings.
 
@@ -365,15 +325,7 @@ These have explicit mathematical meanings.
 
 AMOS may define a model variable:
 
-\[
-E^{AMOS}=h(
-contradiction,
-fragmentation,
-unresolved_variance,
-structural_drift,
-repair_burden
-)
-\]
+$$E^{AMOS}=h( contradiction, fragmentation, unresolved_variance, structural_drift, repair_burden )$$
 
 but it must be labeled `AMOS_MODEL`.
 
@@ -397,26 +349,15 @@ They are not interchangeable.
 
 Lacunarity is representation-dependent.
 
-Let \(I_r(x)\) be a chosen spatial/temporal representation at resolution \(r\). A lacunarity statistic may be written abstractly as:
+Let $I_r(x)$ be a chosen spatial/temporal representation at resolution $r$. A lacunarity statistic may be written abstractly as:
 
-\[
-\Lambda(r)=\frac{\mathrm{Var}[M_r]}{\mathrm{E}[M_r]^2}+1
-\]
+$$\Lambda(r)=\frac{\mathrm{Var}[M_r]}{\mathrm{E}[M_r]^2}+1$$
 
-for a box-mass measure \(M_r\), depending on the specific method.
+for a box-mass measure $M_r$, depending on the specific method.
 
 Critical consequence:
 
-\[
-\Lambda = \Lambda(
-representation,
-resolution,
-segmentation,
-metric,
-sampling,
-time
-)
-\]
+$$\Lambda = \Lambda( representation, resolution, segmentation, metric, sampling, time )$$
 
 Therefore:
 
@@ -497,10 +438,7 @@ Candidate restoring/renewal process:
 ### V. Time
 Multiple clocks:
 
-\[
-T=
-\{seconds,\ minutes,\ hours,\ days,\ years,\ stellar\ lifetime\}
-\]
+$$T= \{seconds,\ minutes,\ hours,\ days,\ years,\ stellar\ lifetime\}$$
 
 ### VI. Adaptation
 The magnetic system reorganizes after eruptions and polarity changes.
@@ -511,9 +449,7 @@ The larger magnetic regime persists while stellar driving remains in the relevan
 
 ## 9.4 Persistence state
 
-\[
-x^\odot_t=(B^\odot,M^\odot,C^\odot,E^\odot,R^\odot,I^\odot)
-\]
+$$x^\odot_t=(B^\odot,M^\odot,C^\odot,E^\odot,R^\odot,I^\odot)$$
 
 A useful identity invariant might be:
 
@@ -607,10 +543,7 @@ Unknown full termination threshold.
 
 Define:
 
-\[
-\partial R_{hex}=
-\{x: perturbation\ recovery\ succeeds\ on\ one\ side,\ fails\ on\ the\ other\}
-\]
+$$\partial R_{hex}= \{x: perturbation\ recovery\ succeeds\ on\ one\ side,\ fails\ on\ the\ other\}$$
 
 Research question:
 
@@ -699,21 +632,13 @@ Possible termination pathways:
 
 Let:
 
-\[
-I_{tor}=I(
-coherent\ vortex,
-surface\ connection,
-parent\ coupling
-)
-\]
+$$I_{tor}=I( coherent\ vortex, surface\ connection, parent\ coupling )$$
 
 Dissolution:
 
-\[
-D_{tor}=1
-\]
+$$D_{tor}=1$$
 
-when identity invariants fail and the restoring flow cannot re-establish them within \(\Delta T_R\).
+when identity invariants fail and the restoring flow cannot re-establish them within $\Delta T_R$.
 
 ## 11.5 Important correction
 
@@ -802,13 +727,7 @@ because identity-defining properties change while a coherent cyclone may continu
 
 Define:
 
-\[
-V_{system}=
-[
-C,\ F,\ S,\ En,\ T,\ A,\ X,\
-\Gamma_F,\Gamma_R,B_c,I
-]
-\]
+$$V_{system}= [ C,\ F,\ S,\ En,\ T,\ A,\ X,\ \Gamma_F,\Gamma_R,B_c,I ]$$
 
 A qualitative comparison:
 
@@ -827,9 +746,7 @@ Values are qualitative until calibrated.
 
 AMOS separates:
 
-\[
-Duration \neq PersistenceQuality
-\]
+$$Duration \neq PersistenceQuality$$
 
 A system can:
 - last a long time while drifting strongly;
@@ -839,26 +756,13 @@ A system can:
 
 Define identity retention:
 
-\[
-I_R(t_0,t_1)=
-sim(
-\mathcal{I}(x_{t_0}),
-\mathcal{I}(x_{t_1})
-)
-\]
+$$I_R(t_0,t_1)= sim( \mathcal{I}(x_{t_0}), \mathcal{I}(x_{t_1}) )$$
 
 where `sim` must be domain-defined.
 
 Persistence candidate:
 
-\[
-Persistence =
-Duration
-\times
-IdentityRetention
-\times
-RegimeValidity
-\]
+$$Persistence = Duration \times IdentityRetention \times RegimeValidity$$
 
 This is an `AMOS_MODEL`.
 
@@ -868,9 +772,7 @@ This is an `AMOS_MODEL`.
 
 Each system has several relevant clocks:
 
-\[
-T = [T_{micro},T_{meso},T_{macro},T_{regime}]
-\]
+$$T = [T_{micro},T_{meso},T_{macro},T_{regime}]$$
 
 Example:
 
@@ -902,22 +804,9 @@ A mechanism at one timescale cannot be assumed to explain persistence at another
 
 # 16. Causal hierarchy
 
-For any proposed persistence driver \(Z\), classify:
+For any proposed persistence driver $Z$, classify:
 
-\[
-CausalType(Z)\in
-\{
-association,
-enabler,
-constraint,
-mediator,
-feedback,
-necessary,
-sufficient,
-mechanism,
-intervention\ effect
-\}
-\]
+$$CausalType(Z)\in \{ association, enabler, constraint, mediator, feedback, necessary, sufficient, mechanism, intervention\ effect \}$$
 
 Example: warm ocean for tropical cyclone persistence.
 
@@ -944,24 +833,11 @@ Persistence claims require regime labels.
 
 Define regime vector:
 
-\[
-\rho=
-[
-environment,
-forcing,
-boundary,
-scale,
-measurement,
-season,
-state
-]
-\]
+$$\rho= [ environment, forcing, boundary, scale, measurement, season, state ]$$
 
-A model \(M\) is reusable only if:
+A model $M$ is reusable only if:
 
-\[
-Compat(\rho_{train},\rho_{target})=1
-\]
+$$Compat(\rho_{train},\rho_{target})=1$$
 
 or uncertainty is explicitly propagated.
 
@@ -994,48 +870,29 @@ normalization]
 ## 18.2 Candidate metrics
 
 ### Spatial lacunarity
-\[
-\Lambda(r)
-\]
+$$\Lambda(r)$$
 
 ### Shannon entropy
-\[
-H=-\sum p_i\log p_i
-\]
+$$H=-\sum p_i\log p_i$$
 
 ### Spectral entropy
-\[
-H_s=-\sum_k P_k\log P_k
-\]
+$$H_s=-\sum_k P_k\log P_k$$
 
 ### Coherence
-\[
-C=1-\frac{H_s}{H_{max}}
-\]
+$$C=1-\frac{H_s}{H_{max}}$$
 
 ### Persistence time
-\[
-T_p=\inf\{t>t_0:I_R(t_0,t)<\theta_I\}
-\]
+$$T_p=\inf\{t>t_0:I_R(t_0,t)<\theta_I\}$$
 
 ## 18.3 Test
 
 Estimate whether:
 
-\[
-T_p
-=
-\beta_0+
-\beta_1\Lambda+
-\beta_2H_s+
-\beta_3\Gamma_F+
-\beta_4\Gamma_R+
-\epsilon
-\]
+$$T_p = \beta_0+ \beta_1\Lambda+ \beta_2H_s+ \beta_3\Gamma_F+ \beta_4\Gamma_R+ \epsilon$$
 
 has stable out-of-sample predictive value.
 
-If \(\beta_1\) is unstable or loses significance after controlling for physical baselines, lacunarity should not be promoted as a persistence driver.
+If $\beta_1$ is unstable or loses significance after controlling for physical baselines, lacunarity should not be promoted as a persistence driver.
 
 This is the difference between **AMOS metaphor** and **AMOS empirical research program**.
 
@@ -1081,25 +938,17 @@ beyond appropriate baselines.
 
 ## H-P1 Sustaining-flow hypothesis
 
-\[
-\Gamma_F \uparrow
-\Rightarrow
-E[T_p] \uparrow
-\]
+$$\Gamma_F \uparrow \Rightarrow E[T_p] \uparrow$$
 
 within a fixed domain/regime.
 
-**Falsifier:** after controlling for physical regime, \(\Gamma_F\) has no stable relation to persistence.
+**Falsifier:** after controlling for physical regime, $\Gamma_F$ has no stable relation to persistence.
 
 ---
 
 ## H-P2 Restoring-capacity hypothesis
 
-\[
-\Gamma_R \uparrow
-\Rightarrow
-P(recovery\ after\ perturbation)\uparrow
-\]
+$$\Gamma_R \uparrow \Rightarrow P(recovery\ after\ perturbation)\uparrow$$
 
 **Falsifier:** recovery probability is independent of measured restoring response.
 
@@ -1107,11 +956,7 @@ P(recovery\ after\ perturbation)\uparrow
 
 ## H-P3 Cross-scale coupling hypothesis
 
-\[
-Stability(K_{LM},K_{MH})
-\Rightarrow
-greater\ macro\ persistence
-\]
+$$Stability(K_{LM},K_{MH}) \Rightarrow greater\ macro\ persistence$$
 
 **Falsifier:** disruption of hypothesized mesoscopic coupling does not affect macro persistence.
 
@@ -1119,9 +964,7 @@ greater\ macro\ persistence
 
 ## H-P4 Structural-gap hypothesis
 
-\[
-\Lambda(r)
-\]
+$$\Lambda(r)$$
 
 contains persistence-relevant information beyond basic geometric complexity.
 
@@ -1133,10 +976,7 @@ contains persistence-relevant information beyond basic geometric complexity.
 
 Dissolution probability increases near identifiable boundary/regime changes.
 
-\[
-P(D_{t+\Delta}=1|\rho_t\rightarrow\rho_{crit}) >
-P(D_{t+\Delta}=1|\rho_t\ stable)
-\]
+$$P(D_{t+\Delta}=1|\rho_t\rightarrow\rho_{crit}) > P(D_{t+\Delta}=1|\rho_t\ stable)$$
 
 **Falsifier:** no detectable association after correcting for confounding variables.
 
@@ -1146,17 +986,11 @@ P(D_{t+\Delta}=1|\rho_t\ stable)
 
 Each claim becomes a node:
 
-\[
-N=
-(id,type,HML,claim,scope,regime,time,observer,provenance,confidence,falsifier,status)
-\]
+$$N= (id,type,HML,claim,scope,regime,time,observer,provenance,confidence,falsifier,status)$$
 
 Each dependency:
 
-\[
-E=
-(parent,child,edge\_type,load\_bearing,independence,condition)
-\]
+$$E= (parent,child,edge\_type,load\_bearing,independence,condition)$$
 
 ## Example claim capsule
 
@@ -1183,11 +1017,7 @@ E=
 
 Confidence ceiling:
 
-\[
-Conf(N\text{-SAT-AMOS-02})
-\le
-\min Conf(load\ bearing\ premises)
-\]
+$$Conf(N\text{-SAT-AMOS-02}) \le \min Conf(load\ bearing\ premises)$$
 
 ---
 
@@ -1390,42 +1220,21 @@ This is compatible with the AMOS 7-Part persistence axis and AMOS Persistence/Di
 
 The deepest reusable proposition is:
 
-\[
-Persistence
-\neq
-mere\ activity
-\]
+$$Persistence \neq mere\ activity$$
 
 and:
 
-\[
-Persistence
-\neq
-mere\ duration
-\]
+$$Persistence \neq mere\ duration$$
 
 Instead:
 
-\[
-Persistence =
-IdentityContinuity
-\land
-RegimeValidity
-\land
-SufficientSustainingFlow
-\land
-SufficientRestoringCapacity
-\land
-BoundaryCompatibility
-\]
+$$Persistence = IdentityContinuity \land RegimeValidity \land SufficientSustainingFlow \land SufficientRestoringCapacity \land BoundaryCompatibility$$
 
 subject to measurement and domain validation.
 
 Dissolution:
 
-\[
-D=1
-\]
+$$D=1$$
 
 when required identity invariants fail and no admissible repair path restores them inside the recovery window.
 

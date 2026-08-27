@@ -1,6 +1,7 @@
 ---
 title: "Provenance Independence Calibration"
 type: provenance
+source: 13_MODELS/05_CALIBRATION
 artifact: "PROVENANCE_INDEPENDENCE_CALIBRATION.md"
 artifact_id: "amos_13_models_05_calibration_provenance_independence_calibration"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "13_MODELS/05_CALIBRATION"
 artifact_kind: "PROVENANCE"
 path: "13_MODELS/05_CALIBRATION/PROVENANCE_INDEPENDENCE_CALIBRATION.md"
 
-tags: [amos_os, model, specification, 13_models, provenance, canon_placeholder, rscf]
+tags: [amos_os, model, specification, 13_models, provenance, canon_placeholder, rscf, canon/model]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Provenance Independence Calibration

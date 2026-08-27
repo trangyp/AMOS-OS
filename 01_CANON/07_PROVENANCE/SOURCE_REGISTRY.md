@@ -1,6 +1,7 @@
 ---
 title: SOURCE REGISTRY
 type: registry
+source: 01_CANON/07_PROVENANCE
 artifact_id: AMOS-OS-SOURCE-REGISTRY
 canonical_name: SOURCE_REGISTRY
 artifact_type: canonical_source_registry
@@ -23,8 +24,6 @@ tags: [amos-os, canon, universe, canon-group/meta, canon/framework, canon/regist
 aliases: "- AMOS Source Registry
   - AMOS OS Source Registry
   - Canon Source Registry..."---
-
-
 
 
 # AMOS OS Source Registry
@@ -67,8 +66,13 @@ CAN IT STILL BE RELIED UPON?
 The registry is not a list of things believed to be true.
 
 It is a typed source-identity and provenance control structure.
-
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 2. Core Law
 

@@ -1,8 +1,15 @@
 ---
 title: "Emotion MOC"
 type: moc
-tags: [moc, emotion]
+source: 11_KNOWLEDGE/emotion
+tags: [moc, emotion, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: emotion_model
 ---
+
 
 # Emotion — Map of Content
 

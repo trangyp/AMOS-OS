@@ -1,8 +1,15 @@
 ---
 title: "Amos-Fx-Macro-Differential-Mapper MOC"
 type: moc
-tags: [moc, amos-fx-macro-differential-mapper]
+source: 07_SKILLS/amos-fx-macro-differential-mapper
+tags: [moc, amos-fx-macro-differential-mapper, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Fx-Macro-Differential-Mapper — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: "O10 Value MOC"
 type: moc
-tags: [moc, o10-value]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O10_VALUE
+tags: [moc, o10-value, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # O10 Value — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-fx-predictive-fractal-engine]
+source: 07_SKILLS/amos-fx-predictive-fractal-engine/references
+tags: [reference, amos-fx-predictive-fractal-engine, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -403,3 +410,7 @@ Deterministic analysis should distinguish between:
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

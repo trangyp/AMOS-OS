@@ -1,9 +1,14 @@
 ---
 title: INDEX SKILLS SKILL CONTRACT
 type: index
-tags: [amos_os, 07_skills]
+source: 07_SKILLS/00_INDEX
+tags: [amos_os, 07_skills, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INDEX SKILLS SKILL CONTRACT

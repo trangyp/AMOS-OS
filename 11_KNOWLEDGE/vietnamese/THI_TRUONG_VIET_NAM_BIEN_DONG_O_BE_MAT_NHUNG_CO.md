@@ -1,12 +1,15 @@
 ---
 title: THI TRUONG VIET NAM BIEN DONG O BE MAT NHUNG CO
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # **Thị trường Việt Nam: biến động ở bề mặt – nhưng có thể dự đoán hoàn toàn ở tầng cấu trúc**
@@ -1034,7 +1037,7 @@ Chi phí = gần như 0 → lợi nhuận cao nhất trong tất cả dòng ti�
 # **C. 5-YEAR BUSINESS PLAN (đầy đủ tech, AI, data, automation)**
 * * *
 ## **PHASE 1 (Năm 1–2): Xây “dopamine engine” + nền tech**
-## **🎯 Goal: chứng minh 3 cộng đồng trục → tạo data → tạo UGC → lấy tiền brand.**
+## **Goal: chứng minh 3 cộng đồng trục → tạo data → tạo UGC → lấy tiền brand.**
 ### **1\. Xây 3 community vertical**
   * Millennials city-life
 
@@ -1082,7 +1085,7 @@ Chi phí = gần như 0 → lợi nhuận cao nhất trong tất cả dòng ti�
 
 * * *
 # **PHASE 2 (Năm 3–4): Mở rộng thành multi-community platform**
-## **🎯 Goal: bán gói 12 tháng → tạo recurring money.**
+## **Goal: bán gói 12 tháng → tạo recurring money.**
 ### **1\. Từ 3 community → lên 5–7 community niche**
   * thêm wellness, subculture (lofi, minimal, hiphop niche), food & craft…
 
@@ -1127,7 +1130,7 @@ Chi phí = gần như 0 → lợi nhuận cao nhất trong tất cả dòng ti�
 
 * * *
 # **PHASE 3 (Năm 5): Chuyển sang mô hình platform – IP – data**
-## **🎯 Goal: lợi nhuận tri thức → biên lợi nhuận cao → scale không giới hạn.**
+## **Goal: lợi nhuận tri thức → biên lợi nhuận cao → scale không giới hạn.**
 ### **1\. License IP & format**
   * bán concept cho tỉnh/thành
 
@@ -1920,7 +1923,7 @@ Ví dụ:
 * * *
 # **I. PHÂN KHÚC 1 – MILLENNIALS (26–40) — “URBAN EXPERIENCE PLATFORM”**
 * * *
-## **🎯 1. P &L 1 EVENT (Micro-festival / 800–1.200 người)**
+## **1. P &L 1 EVENT (Micro-festival / 800–1.200 người)**
 ### **REVENUE**
 |                         |
 | **Nguồn thu**           | **VN Benchmark**    | **Giá trị (VNĐ)** |
@@ -1931,7 +1934,7 @@ Ví dụ:
 | Ticket                  | 150k–250k           | **150–250 triệu** |
 
 
-**📌 Tổng Revenue: 640–1.090 triệu**
+**Tổng Revenue: 640–1.090 triệu**
 * * *
 ### **COST**
 |                           |
@@ -1946,13 +1949,13 @@ Ví dụ:
 | Merch cost                | 25–40%        | 30–60                |
 
 
-**📌 Tổng Cost: 160–280 triệu**
+**Tổng Cost: 160–280 triệu**
 * * *
 ### **⭐ PROFIT (Event-based)**
 **→ 480–850 triệu revenue – 160–280 cost = 320–570 triệu/event**
 **Biên lợi nhuận: 48–62%**
 * * *
-## **🎯 2. P &L CẢ NĂM (6–8 event + sponsorship package)**
+## **2. P &L CẢ NĂM (6–8 event + sponsorship package)**
 **Sponsorship 12 tháng:**
 → 1,2 – 2,4 tỷ
 **Event revenue (8 event x 800–1.200 người):**
@@ -1968,7 +1971,7 @@ Ví dụ:
 * * *
 # **II. PHÂN KHÚC 2 – GEN X (50–70) — “HERITAGE & LEGACY PLATFORM”**
 * * *
-## **🎯 1. P &L 1 EVENT (500–1.000 người, ticket cao hơn)**
+## **1. P &L 1 EVENT (500–1.000 người, ticket cao hơn)**
 ### **REVENUE**
 |                         |
 | **Nguồn thu**           | **Benchmark**   | **Giá trị**       |
@@ -1979,7 +1982,7 @@ Ví dụ:
 | VIP table / add-on      | 5–15%           | **80–150 triệu**  |
 
 
-**📌 Tổng Revenue: 800–1.500 triệu**
+**Tổng Revenue: 800–1.500 triệu**
 * * *
 ### **COST**
 |              |
@@ -1993,13 +1996,13 @@ Ví dụ:
 | Merch cost   | 30–40 triệu   | 30–50       |
 
 
-**📌 T ổng Cost: 200–350 triệu**
+**T ổng Cost: 200–350 triệu**
 * * *
 ### **⭐ PROFIT (Event-based)**
 **→ 600–1.150 triệu/event**
 **Biên lợi nhuận: 55–72%**
 * * *
-## **🎯 2. P &L CẢ NĂM (4–6 event + sponsorship package)**
+## **2. P &L CẢ NĂM (4–6 event + sponsorship package)**
 **Sponsorship 12 tháng:**
 → 1,2 – 2,4 tỷ
 **Event revenue (6 event):**
@@ -2017,7 +2020,7 @@ Ví dụ:
 * * *
 # **III. PHÂN KHÚC 3 – KIDS & FAMILY (5–12) — “EDUTAINMENT PLATFORM”**
 * * *
-## **🎯 1. P &L 1 EVENT (700–1.200 pax / workshop + micro-festival)**
+## **1. P &L 1 EVENT (700–1.200 pax / workshop + micro-festival)**
 ### **REVENUE**
 |                    |
 | **Nguồn thu**      | **Benchmark** | **Giá trị**       |
@@ -2028,7 +2031,7 @@ Ví dụ:
 | Booth partner      | 1–3 brand nhỏ | **30–60 triệu**   |
 
 
-**📌 Tổng Revenue: 540–880 triệu**
+**Tổng Revenue: 540–880 triệu**
 * * *
 ### **COST**
 |                           |
@@ -2042,13 +2045,13 @@ Ví dụ:
 | Merch cost                | 20–30 triệu   | 20–40       |
 
 
-**📌 Tổng Cost: 100–170 triệu**
+**Tổng Cost: 100–170 triệu**
 * * *
 ### **⭐ PROFIT (Event-based)**
 **→ 440–710 triệu/event**
 **Biên lợi nhuận: 50–65%**
 * * *
-## **🎯 2. P &L CẢ NĂM (6–10 event + school activation)**
+## **2. P &L CẢ NĂM (6–10 event + school activation)**
 **Sponsorship 12 tháng:**
 → 1,2 – 2 tỷ
 **Event revenue (10 event):**

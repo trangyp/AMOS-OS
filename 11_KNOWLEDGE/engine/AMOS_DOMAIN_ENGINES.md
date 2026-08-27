@@ -4,11 +4,17 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Domains/"
 origin_architect: "Trang Phan"
 type: reference
-tags: [canon-group/tech-ai, domain-engines, tech-systems, science-health, org-risk-policy, sub-domains, canon-group/human-system, governance, risk, compliance, scientific, medical-clinical, academic-writing, vietnamese-writing, engine]
+tags: [canon-group/tech-ai, domain-engines, tech-systems, science-health, org-risk-policy, sub-domains, canon-group/human-system, governance, risk, compliance, scientific, medical-clinical, academic-writing, vietnamese-writing, engine, canon/knowledge]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 source: "Google Drive /_00_AMOS_CANON/Domains/ (4 subfolders, 15 engine JSON files)"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
+
 ---
 
 
@@ -202,7 +208,6 @@ The 17 domain engines form the **application layer** of AMOS — they consume th
 ## Source
 
 All engine specs from: `Google Drive /_00_AMOS_CANON/Domains/` (4 subfolders, 15 JSON files + 2 Sub engines)
-
 
 
 ## RSCF Links

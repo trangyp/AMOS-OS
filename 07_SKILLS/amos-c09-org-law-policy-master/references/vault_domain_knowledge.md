@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-c09-org-law-policy-master]
+source: 07_SKILLS/amos-c09-org-law-policy-master/references
+tags: [reference, amos-c09-org-law-policy-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # amos-c09-org-law-policy-master — Vault-Sourced Domain Knowledge
 
@@ -339,8 +346,6 @@ Which law applies typically depends on some combination of:
 1. Enumer
 
 
-
-
 ## Vault-Sourced Domain Content
 
 > Source: `11_KNOWLEDGE/AMOS_C09_ORG_LAW_POLICY_MASTER_KNOWLEDGE.md` (36393 bytes in vault)
@@ -492,3 +497,7 @@ statement CONDITIONAL with the trigger condition named.
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

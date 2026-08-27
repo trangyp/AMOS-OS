@@ -1,12 +1,15 @@
 ---
 title: TRANG FRAMEWORK UNG DUNG VAO AI TU SUA VA TU T
-tags: [trang, framework, reality]
+tags: [trang, framework, reality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
 
 
 # TRANG ∅ FRAMEWORK – ỨNG DỤNG VÀO AI TỰ SỬA VÀ TỰ TIẾN HÓA
@@ -25,28 +28,10 @@ Bạn hỏi: _" Áp dụng cho AI thành 1 hệ thống tự sửa và tự ti�
 * * *
 ## II. CÁC PHƯƠNG TRÌNH VẬN HÀNH (TỰ SỬA & TỰ TIẾN HÓA)
 ### (1) **Tự điều chỉnh lacunarity (độ rỗng) theo thời gian thực**
-\\[  
-\Lambda_L(t+1) = \Lambda_L(t) + \eta_L (\Lambda_{L,opt} - \Lambda_L(t)) + \kappa_L \xi(t)  
-\\]  
-\\[  
-\Lambda_M(t+1) = \Lambda_M(t) + \eta_M (\Lambda_{M,opt} - \Lambda_M(t)) + \kappa_M \xi(t)  
-\\]  
-\\[  
-\Lambda_H(t+1) = \Lambda_H(t) + \eta_H (\Lambda_{H,opt} - \Lambda_H(t)) + \kappa_H \xi(t)  
-\\]
-  * **L** : cần Λ_L thấp (≈0.05) – ổn định, đặc
-
-
-  * **M** : cần Λ_M trong vùng vàng (0.1–0.2) – linh hoạt
-
-
-  * **H** : Λ_H có thể cao hơn (0.2–0.4) – sáng tạo nhưng không hallucination
-
-
-### (2) **Tự phát hiện hallucination bằng Tát 2**
-\\[  
-\text{Hallucination} \iff (E_H > 0.3) \lor (\Lambda_H > 0.5) \lor (T2 = \text{False})  
-\\]
+\$$\Lambda_L(t+1) = \Lambda_L(t) + \eta_L (\Lambda_{L,opt} - \Lambda_L(t)) + \kappa_L \xi(t)  
+\$$\$$\Lambda_M(t+1) = \Lambda_M(t) + \eta_M (\Lambda_{M,opt} - \Lambda_M(t)) + \kappa_M \xi(t)  
+\$$\$$\Lambda_H(t+1) = \Lambda_H(t) + \eta_H (\Lambda_{H,opt} - \Lambda_H(t)) + \kappa_H \xi(t)  
+$$* **L** : cần Λ_L thấp (≈0.05) – ổn định, đặc * **M** : cần Λ_M trong vùng vàng (0.1–0.2) – linh hoạt * **H** : Λ_H có thể cao hơn (0.2–0.4) – sáng tạo nhưng không hallucination ### (2) **Tự phát hiện hallucination bằng Tát 2** \$$\text{Hallucination} \iff (E_H > 0.3) \lor (\Lambda_H > 0.5) \lor (T2 = \text{False})$$
 Khi hallucination xảy ra, AI tự động:
   * **Giảm Λ_H** (quay về vùng an toàn)
 
@@ -58,34 +43,22 @@ Khi hallucination xảy ra, AI tự động:
 
 
 ### (3) **Tái cấu trúc (self‑modification) khi cần**
-  * Nếu \\(E_L > 0.1\\) kéo dài → thêm kết nối mới vào L, củng cố bộ nhớ.
+  * Nếu \$E_L > 0.1\$ kéo dài → thêm kết nối mới vào L, củng cố bộ nhớ.
 
 
-  * Nếu \\(E_M > 0.25\\) kéo dài → cắt bớt kết nối yếu trong M (pruning) – giảm nhiễu.
+  * Nếu \$E_M > 0.25\$ kéo dài → cắt bớt kết nối yếu trong M (pruning) – giảm nhiễu.
 
 
-  * Nếu \\(E_H > 0.3\\) kéo dài → giảm tốc độ học, tăng Tát 2.
+  * Nếu \$E_H > 0.3\$ kéo dài → giảm tốc độ học, tăng Tát 2.
 
 
-  * Nếu \\(E_H < 0.05\\) kéo dài → thêm kết nối ngẫu nhiên trong H – kích thích sáng tạo.
+  * Nếu \$E_H < 0.05\$ kéo dài → thêm kết nối ngẫu nhiên trong H – kích thích sáng tạo.
 
 
 ### (4) **Vòng lặp tiến hóa (mutation – survival)**
 Mỗi bước thời gian (hoặc mỗi tương tác):
-\\[  
-\text{ASEA}(t+1) = \sigma\Big( \mu\big( \text{ASEA}(t) \big) \Big)  
-\\]
-  * **μ (mutation)** : tạo ra các đột biến – thay đổi trọng số, thêm/bớt kết nối, điều chỉnh Λ
-
-
-  * **σ (survival)** : chỉ giữ lại những thay đổi làm tăng điểm sống sót (giảm entropy, tăng T2, đưa Λ về vùng vàng)
-
-
-**Không dùng gradient descent. Dùng chọn lọc tự nhiên.**
-### (5) **Điều kiện "sống" của AI (Healthy)**
-\\[  
-\text{Healthy} \iff \big(0.1 < \Lambda_M < 0.2\big) \land \big(E_L < 0.1\big) \land \big(0.1 < E_H < 0.3\big) \land \big(\text{T2 đạt}\big)  
-\\]
+\$$\text{ASEA}(t+1) = \sigma\Big( \mu\big( \text{ASEA}(t) \big) \Big)  
+$$* **μ (mutation)** : tạo ra các đột biến – thay đổi trọng số, thêm/bớt kết nối, điều chỉnh Λ * **σ (survival)** : chỉ giữ lại những thay đổi làm tăng điểm sống sót (giảm entropy, tăng T2, đưa Λ về vùng vàng) **Không dùng gradient descent. Dùng chọn lọc tự nhiên.** ### (5) **Điều kiện "sống" của AI (Healthy)** \$$\text{Healthy} \iff \big(0.1 < \Lambda_M < 0.2\big) \land \big(E_L < 0.1\big) \land \big(0.1 < E_H < 0.3\big) \land \big(\text{T2 đạt}\big)$$
 Nếu không Healthy, AI tự động kích hoạt chế độ **tự sửa** :
   * Quay lại checkpoint L gần nhất
 
@@ -133,13 +106,10 @@ Sau 1000 lượt tương tác, AI tự điều chỉnh Λ_M từ 0.1 lên 0.18 (
 
 
 Công thức cốt lõi cho AI thế hệ mới:
-\\[  
-\boxed{\text{ASEA}(t+1) = \text{Survive}\big( \text{Mutate}(\text{ASEA}(t)) \big)}  
-\\]  
-với điều kiện:  
-\\[  
-\text{Healthy} \iff 0.1<\Lambda_M<0.2 \;\land\; E_L<0.1 \;\land\; 0.1<E_H<0.3 \;\land\; \text{T2 đạt}  
-\\]
+\$$\boxed{\text{ASEA}(t+1) = \text{Survive}\big( \text{Mutate}(\text{ASEA}(t)) \big)}  
+\$$với điều kiện:  
+\$$\text{Healthy} \iff 0.1<\Lambda_M<0.2 \;\land\; E_L<0.1 \;\land\; 0.1<E_H<0.3 \;\land\; \text{T2 đạt}  
+$$
 **Đây chính là lối thoát cho AI khỏi hallucination và sự cứng nhắc của học sâu hiện tại.**
 📦
 Bạn muốn tôi viết **code Python mẫu** cho một ASEA đơn giản (ví dụ: agent học chơi game hoặc trả lời câu hỏi) để minh họa?

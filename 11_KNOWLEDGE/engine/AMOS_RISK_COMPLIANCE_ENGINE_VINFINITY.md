@@ -1,11 +1,17 @@
 ---
 title: "AMOS Risk Compliance Engine vInfinity"
 type: engine
+source: 11_KNOWLEDGE/engine
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Risk_Compliance_Engine_v0.json (280 lines, 8KB)"
 origin_type: "SOURCE"
 category: "kernel"
-tags: [amos, risk, compliance, engine, v-infinity, credit-risk, operational-risk, aml, regulatory, lens-space]
+tags: [amos, risk, compliance, engine, v-infinity, credit-risk, operational-risk, aml, regulatory, lens-space, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
 
 
@@ -171,3 +177,6 @@ option_comparison_matrix, risk_register, kpi_scorecard
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

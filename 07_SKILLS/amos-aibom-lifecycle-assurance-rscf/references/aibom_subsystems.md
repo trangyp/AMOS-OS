@@ -1,8 +1,15 @@
 ---
 title: aibom subsystems
 type: reference
-tags: [reference, amos-aibom-lifecycle-assurance-rscf]
+source: 07_SKILLS/amos-aibom-lifecycle-assurance-rscf/references
+tags: [reference, amos-aibom-lifecycle-assurance-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AIBOM Subsystem Map (Gaps 101-110)
 
@@ -44,3 +51,7 @@ before proceeding.
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

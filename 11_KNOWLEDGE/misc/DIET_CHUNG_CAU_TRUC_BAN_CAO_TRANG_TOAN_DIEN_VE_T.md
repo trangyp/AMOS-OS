@@ -1,12 +1,15 @@
 ---
 title: DIET CHUNG CAU TRUC BAN CAO TRANG TOAN DIEN VE T
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # DIỆT CHỦNG CẤU TRÚC – BẢN CÁO TRẠNG TOÀN DIỆN VỀ TỘI ÁC LỚN NHẤT CỦA NHÂN LOẠI

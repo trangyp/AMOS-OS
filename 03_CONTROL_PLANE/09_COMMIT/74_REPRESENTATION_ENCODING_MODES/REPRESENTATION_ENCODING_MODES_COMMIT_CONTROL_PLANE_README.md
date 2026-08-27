@@ -1,9 +1,14 @@
 ---
 title: REPRESENTATION ENCODING MODES COMMIT CONTROL PLANE README
 type: control-plane
-tags: [control_plane, 74_representation_encoding_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/74_REPRESENTATION_ENCODING_MODES
+tags: [control_plane, 74_representation_encoding_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # REPRESENTATION ENCODING MODES COMMIT CONTROL PLANE README
@@ -61,3 +66,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[74_REPRESENTATION_ENCODING_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

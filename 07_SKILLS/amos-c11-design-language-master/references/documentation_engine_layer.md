@@ -1,8 +1,15 @@
 ---
 title: documentation engine layer
 type: reference
-tags: [reference, amos-c11-design-language-master]
+source: 07_SKILLS/amos-c11-design-language-master/references
+tags: [reference, amos-c11-design-language-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Documentation Engine Layer
 
@@ -31,3 +38,7 @@ confidence: "VERIFIED"
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

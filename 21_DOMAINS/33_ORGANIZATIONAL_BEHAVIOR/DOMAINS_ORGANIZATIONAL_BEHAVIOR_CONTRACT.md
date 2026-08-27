@@ -1,9 +1,14 @@
 ---
 title: DOMAINS ORGANIZATIONAL BEHAVIOR CONTRACT
 type: behavior
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/33_ORGANIZATIONAL_BEHAVIOR
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # DOMAINS ORGANIZATIONAL BEHAVIOR CONTRACT

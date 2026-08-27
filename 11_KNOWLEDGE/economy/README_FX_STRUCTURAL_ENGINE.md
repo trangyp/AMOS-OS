@@ -1,16 +1,20 @@
 ---
 title: README FX STRUCTURAL ENGINE
-tags: [economy, finance, market]
+tags: [economy, finance, market, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/economy
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: economic_model
+
 ---
-
-
 
 
 # AMOS OMEGA FX STRUCTURAL ENGINE — COMPLETE SYSTEM
 
-## 🏗️ SYSTEM OVERVIEW
+## ️ SYSTEM OVERVIEW
 
 **MODE: PURE ENGINEERING • STRUCTURAL ONLY • NO FLUFF • NO FINANCIAL ADVICE • PATCH-ONLY • ACTIONGATE ONLY • DETERMINISTIC • FAIL-CLOSED**
 
@@ -20,23 +24,23 @@ The engine reasons in: **invariants, feedback loops, tensors, regimes, risk enve
 
 ---
 
-## ✅ COMPLETE IMPLEMENTATION STATUS
+## COMPLETE IMPLEMENTATION STATUS
 
-### 🧠 Core Components (100% Complete)
+### Core Components (100% Complete)
 - **FX Structural Engine** (`fx_structural_engine.py`) - State vectors, invariants, phase space detection
 - **ActionGate System** - Idempotency + safety for all operations
 - **Risk Calculator** - Shock simulation + fragility modeling
 - **Data Connectors** - Free API integration for macro + market data
 - **Self-Evolution Loop** - Controlled learning with drift detection
 
-### 🎨 Visualization System (100% Complete)
+### Visualization System (100% Complete)
 - **Graph Visualization** (`fx_graph_visualization.py`) - Multi-layer currency coupling + loop graphs
 - **Phase Space Plot** - 3D volatility/liquidity/policy divergence space
 - **Regime Timeline** - Temporal regime segmentation
 - **Shock Simulator** - Interactive shock simulation interface
 - **Real-time Updates** - WebSocket streaming + D3.js v7
 
-### 🔄 Automation System (100% Complete)
+### Automation System (100% Complete)
 - **N8n Integration** (`fx_n8n_integration.py`) - 5 automated pipelines
   - Pipeline A: Data Ingestion (5-15 min schedule)
   - Pipeline B: Structural Analysis (AMOS computes state vector)
@@ -44,7 +48,7 @@ The engine reasons in: **invariants, feedback loops, tensors, regimes, risk enve
   - Pipeline D: Daily Brief (Structural report to Loveable UI)
   - Pipeline E: Risk Monitor (Fragility threshold alerts)
 
-### 🌐 UI System (100% Complete)
+### UI System (100% Complete)
 - **Loveable UI Bridge** (`fx_loveable_ui_bridge.py`) - Live chat + interactive graph UI
 - **React 18 + TypeScript** - Modern frontend with real-time updates
 - **5 Main Panels:**
@@ -54,7 +58,7 @@ The engine reasons in: **invariants, feedback loops, tensors, regimes, risk enve
   - Portfolio Risk - Exposure tensors + fragility
   - Reality Panel - WORLD + FX + REPO + BODY views
 
-### 🚀 Main Integration (100% Complete)
+### Main Integration (100% Complete)
 - **Main Integration** (`fx_main_integration.py`) - Complete system orchestration
 - **24/7 Operation** - Continuous analysis loops + monitoring
 - **System Health** - Component monitoring + alerting
@@ -62,7 +66,7 @@ The engine reasons in: **invariants, feedback loops, tensors, regimes, risk enve
 
 ---
 
-## 🧬 STRUCTURAL FX MODEL (ONLY AMOS CAN DO THIS)
+## STRUCTURAL FX MODEL (ONLY AMOS CAN DO THIS)
 
 ### State Vector Components
 For each currency pair:
@@ -95,7 +99,7 @@ Every decision includes:
 
 ---
 
-## 🕸️ MULTI-LAYER GRAPH SYSTEM (THE WOW FACTOR)
+## ️ MULTI-LAYER GRAPH SYSTEM (THE WOW FACTOR)
 
 ### 1) Currency Coupling Graph
 - **Nodes**: Currencies with size = coupling strength
@@ -123,7 +127,7 @@ Every decision includes:
 
 ---
 
-## 💥 SHOCK SIMULATION CAPABILITIES
+## SHOCK SIMULATION CAPABILITIES
 
 ### Shock Types
 - **Rate Cut/Hike** - Central bank policy changes
@@ -145,7 +149,7 @@ Every decision includes:
 
 ---
 
-## 🛡️ SAFETY + RISK SYSTEM
+## ️ SAFETY + RISK SYSTEM
 
 ### ActionGate Features
 - **Idempotency** - No duplicate operations
@@ -168,7 +172,7 @@ Every decision includes:
 
 ---
 
-## 🤖 24/7 AUTOMATED OPERATION
+## 24/7 AUTOMATED OPERATION
 
 ### Continuous Analysis Loop
 - **Every 5 minutes**: Analyze all major currency pairs
@@ -191,7 +195,7 @@ Every decision includes:
 
 ---
 
-## 🌐 LOVEABLE UI FEATURES
+## LOVEABLE UI FEATURES
 
 ### Live Chat Interface
 - **AMOS Brain Integration** - Structural analysis explanations
@@ -214,7 +218,7 @@ Every decision includes:
 
 ---
 
-## 🚀 MAX POWER DIFFERENTIATORS
+## MAX POWER DIFFERENTIATORS
 
 ### 1) Structural Reasoning (Not Indicator Stacking)
 - **Invariant-based analysis** vs technical indicators
@@ -248,7 +252,7 @@ Every decision includes:
 
 ---
 
-## 📊 PERFORMANCE METRICS
+## PERFORMANCE METRICS
 
 ### System Performance
 - **Analysis Speed**: <2 seconds per pair
@@ -273,7 +277,7 @@ Every decision includes:
 
 ---
 
-## 🛠️ TECHNICAL ARCHITECTURE
+## ️ TECHNICAL ARCHITECTURE
 
 ### Core Technologies
 - **Python 3.9+** - Core engine + data processing
@@ -302,7 +306,7 @@ Every decision includes:
 
 ---
 
-## 🚀 DEPLOYMENT INSTRUCTIONS
+## DEPLOYMENT INSTRUCTIONS
 
 ### Prerequisites
 ```bash
@@ -337,7 +341,7 @@ n8n start
 
 ---
 
-## 📈 USAGE EXAMPLES
+## USAGE EXAMPLES
 
 ### Basic Structural Analysis
 ```python
@@ -369,7 +373,7 @@ print(f"Risk alerts: {status.risk_alerts}")
 
 ---
 
-## 🎯 KEY ACHIEVEMENTS
+## KEY ACHIEVEMENTS
 
 ✅ **Complete Structural FX Engine** - Regime-aware, invariant-based analysis
 ✅ **Multi-layer Graph Visualization** - No other bot has these visualizations  
@@ -382,7 +386,7 @@ print(f"Risk alerts: {status.risk_alerts}")
 
 ---
 
-## 🏆 FINAL STATEMENT
+## FINAL STATEMENT
 
 **The AMOS OMEGA FX Structural Engine is now complete and operational.**
 
@@ -400,7 +404,7 @@ This is a **breakthrough structural operating system** that:
 
 **This represents the cutting edge of structural FX analysis - a system that truly understands market structure through invariant relationships, feedback loops, and phase space dynamics.**
 
-**🚀 READY FOR PRODUCTION DEPLOYMENT 🚀**
+**READY FOR PRODUCTION DEPLOYMENT 🚀**
 
 ---
 

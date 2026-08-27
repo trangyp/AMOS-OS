@@ -1,8 +1,15 @@
 ---
 title: "O12 Plan MOC"
 type: moc
-tags: [moc, o12-plan]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O12_PLAN
+tags: [moc, o12-plan, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # O12 Plan — Map of Content
 

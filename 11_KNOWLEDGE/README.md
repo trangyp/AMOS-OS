@@ -1,10 +1,15 @@
 ---
 title: README
-tags: [moc, index]
+tags: [moc, index, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/root
----
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 
+---
 
 
 # 01_BRAIN

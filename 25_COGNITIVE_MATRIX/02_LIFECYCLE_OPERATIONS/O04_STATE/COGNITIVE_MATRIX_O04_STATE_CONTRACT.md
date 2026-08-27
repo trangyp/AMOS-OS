@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX O04 STATE CONTRACT
 type: state
-tags: [cognitive_matrix, lifecycle_operations, o04_state, contract]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O04_STATE
+tags: [cognitive_matrix, lifecycle_operations, o04_state, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # O04_STATE — State transitions under MVCC/CAS discipline; epoch-bound snapshots.
@@ -47,3 +52,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[O04_STATE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

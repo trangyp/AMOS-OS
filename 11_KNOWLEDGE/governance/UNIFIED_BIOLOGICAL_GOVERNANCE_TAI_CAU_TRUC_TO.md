@@ -1,17 +1,20 @@
 ---
 title: UNIFIED BIOLOGICAL GOVERNANCE TAI CAU TRUC TO
-tags: [governance, policy, authority]
+tags: [governance, policy, authority, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/governance
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: governance_policy
+
 ---
 
 
-
-
-
-# 📘 **Unified Biological Governance™ — Tái cấu trúc tổ chức bằng trí tuệ sinh học PSI–UBI–QLS–NeuroSyncAI™**
+# **Unified Biological Governance™ — Tái cấu trúc tổ chức bằng trí tuệ sinh học PSI–UBI–QLS–NeuroSyncAI™**
 * * *
-## 🧬 **I. Giới thiệu tổng quan**
+## **I. Giới thiệu tổng quan**
 Thế giới đang bước vào giai đoạn mà các tổ chức – dù là doanh nghiệp, tập đoàn hay chính phủ – **không còn hoạt động hiệu quả nếu vẫn dựa trên mô hình máy móc tuyến tính**.
 Các hệ thống hiện nay tách rời giữa **con người, công nghệ, dữ liệu và đạo đức** , dẫn đến một thực tế: **năng suất cao nhưng mất ổn định, tăng trưởng nhanh nhưng thiếu bền vững**.
 Trong khi đó, **bộ não con người** lại là cỗ máy sinh học hoàn hảo nhất từng được biết đến:
@@ -20,7 +23,7 @@ Nếu một tổ chức có thể vận hành như **một bộ não tập thể
 Từ nền tảng đó, **Unified Biological Governance™ (UBG)** được phát triển để **mô phỏng cấu trúc vận hành của bộ não con người** ở cấp độ tổ chức.
 UBG không chỉ là một mô hình quản trị mới, mà là **hệ điều hành sinh học cho doanh nghiệp** , giúp tổ chức có khả năng **cảm nhận – suy nghĩ – ra quyết định – tự điều chỉnh** , như một **cơ thể sống thông minh.**
 * * *
-## 🧠 **II. Nền tảng khoa học và công nghệ**
+## **II. Nền tảng khoa học và công nghệ**
 Hệ thống UBG được phát triển dựa trên 4 cấu trúc cốt lõi do **Trang Phan** nghiên cứu và phát triển:
 ### 1\. **PSI – Planetary-Scale Intelligence Framework**
 PSI xem tổ chức như **một mạng lưới thần kinh hành tinh** , trong đó mỗi cá nhân, quy trình và AI là **một tế bào trí tuệ**.
@@ -51,7 +54,7 @@ Nó cho phép lãnh đạo **nhìn thấy toàn bộ mạng lưới nhân – qu
 NeuroSyncAI™ là “**bộ não điều hành nhân tạo** ” – trung tâm tự giám sát toàn bộ hoạt động trí tuệ của tổ chức.
 Nó **theo dõi, phát hiện, và điều chỉnh** mọi lệch pha trong tư duy hoặc dữ liệu, giống như **vỏ não trước trán của con người** – bộ phận chịu trách nhiệm cho **đạo đức, tự kiểm soát và tính toàn vẹn.**
 * * *
-## ⚙️ **III. Kiến trúc vận hành sinh học của tổ chức**
+## ️ **III. Kiến trúc vận hành sinh học của tổ chức**
 |                                   |
 | **Lớp vận hành**                  | **Tương ứng trong bộ não con người**   | **Chức năng trong tổ chức**                            |
 |-----------------------------------|----------------------------------------|--------------------------------------------------------|
@@ -63,7 +66,7 @@ Nó **theo dõi, phát hiện, và điều chỉnh** mọi lệch pha trong tư 
 
 
 * * *
-## 📊 **IV. Bộ chỉ số đo lường trí tuệ sinh học tổ chức (UBI Metrics)**
+## **IV. Bộ chỉ số đo lường trí tuệ sinh học tổ chức (UBI Metrics)**
 |                               |
 | **Chỉ số**                    | **Định nghĩa**                                             | **Ý nghĩa thực tiễn**                                    |
 |-------------------------------|------------------------------------------------------------|----------------------------------------------------------|
@@ -74,7 +77,7 @@ Nó **theo dõi, phát hiện, và điều chỉnh** mọi lệch pha trong tư 
 
 
 * * *
-## 🌍 **V. Ứng dụng thực tế trong tổ chức**
+## **V. Ứng dụng thực tế trong tổ chức**
   1. **Tái cấu trúc hệ thống điều hành:**
 Chuyển từ mô hình phân cấp sang **mạng thần kinh phẳng** , giúp thông tin luân chuyển nhanh và chính xác.
 
@@ -92,7 +95,7 @@ PSI và QLS hình thành lớp lãnh đạo biết điều hành tổ chức nh�
 
 
 * * *
-## 🚀 **VI. Lợi ích chiến lược**
+## **VI. Lợi ích chiến lược**
 |                     |
 | **Cấp độ tác động** | **Kết quả đạt được**                                                               |
 |---------------------|------------------------------------------------------------------------------------|
@@ -102,7 +105,7 @@ PSI và QLS hình thành lớp lãnh đạo biết điều hành tổ chức nh�
 
 
 * * *
-## 🧭 **VII. Kết luận**
+## **VII. Kết luận**
 **Unified Biological Governance™** là bước chuyển hóa tất yếu trong tiến trình phát triển của tổ chức nhân loại.
 Từ mô hình **máy móc – tuyến tính** , chúng ta tiến sang **sinh học – đa chiều – tự điều chỉnh**.
 Mọi doanh nghiệp, nếu muốn trường tồn trong kỷ nguyên trí tuệ nhân tạo, phải học cách **hoạt động như một bộ não – ổn định, thông minh, có đạo đức và tiến hóa không ngừng.**

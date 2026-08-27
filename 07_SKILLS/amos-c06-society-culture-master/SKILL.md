@@ -1,14 +1,22 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-c06-society-culture-master
 name: amos-c06-society-culture-master
 description: "AMOS C06 Society & Culture — social dynamics, cultural analysis, Vietnamese language/regional analysis, linguistic patterns, anthropology. Use for social analysis, cultural reasoning, or Vietnamese..."
 parent_skill: none
 domain: c06
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c06-society-culture-master]
+tags: [note, amos-c06-society-culture-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
+
 
 # AMOS C06 — Society & Culture Master Knowledge
 
@@ -86,3 +94,99 @@ The domain is organized into source families:
 
 Social analysis is always context-, population-, institution-, and timescale-dependent. Contested sociological claims are COMPETING-tagged. Political analysis must remain descriptive unless prescription is explicitly framed. Alternative interpretations REQUIR
 - [[AGENT_TEMPLATE]]
+
+---
+**MOC:** [[amos-c06-society-culture-master_MOC]]
+
+## Examples
+
+- **Scenario**: When analyzing social dynamics, power structures, or collective action patterns
+  - **Input**: A query matching this skill's domain (c06)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When performing cultural analysis, linguistic pattern analysis, or anthropological reasoning
+  - **Input**: A query matching this skill's domain (c06)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When analyzing Vietnamese language/regional patterns and heritage
+  - **Input**: A query matching this skill's domain (c06)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the c06 domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when c06 specialization is needed
+- **Peers**: Other skills in the `c06` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/cci_official_manual.md` — loaded on demand
+- `references/china_engines_model.md` — loaded on demand
+- `references/cultural_bifurcation_emotion_logic.md` — loaded on demand
+- `references/dignity.md` — loaded on demand
+- `references/domain_config.md` — loaded on demand
+- `references/humanity_ice_age_to_present.md` — loaded on demand
+- `references/marketing_gtm_kernel.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/society_culture_engine_cognitive.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `references/vietnam_engine_layer.md` — loaded on demand
+- `references/vietnam_engines_model.md` — loaded on demand
+- `references/vietnam_environment_report.md` — loaded on demand
+- `references/vietnamese_fractal_logic_analysis.md` — loaded on demand
+- `references/vietnamese_writing_engine.md` — loaded on demand
+- `references/vietnamese_writing_model.md` — loaded on demand
+- `references/vn_absolute_architecture.md` — loaded on demand
+- `references/vn_governance_politics_pack.md` — loaded on demand
+- `references/vn_labor_shortage_report.md` — loaded on demand
+- `references/vn_marketing_strategy.md` — loaded on demand
+- `references/vn_omnistructure_clean_engine.md` — loaded on demand
+- `references/vn_omnistructure_engine.md` — loaded on demand
+- `references/vn_omnistructure_model.md` — loaded on demand
+- `references/vn_trust_marketplace_strategy.md` — loaded on demand
+- `references/when_humanity_began.md` — loaded on demand
+- `[[amos-c06-society-culture-master_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-c06-society-culture-master-workflow]]` — corresponding workflow
+- `[[amos-c06-society-culture-master-agent]]` — corresponding agent
+

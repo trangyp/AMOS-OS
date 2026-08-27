@@ -1,8 +1,15 @@
 ---
 title: "AMOS C09 — Organization, Law & Policy Master Knowledge"
 type: law
-tags: [knowledge, note]
+source: 11_KNOWLEDGE
+tags: [knowledge, note, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
+
 
 # AMOS C09 — Organization, Law & Policy Master Knowledge
 

@@ -1,9 +1,14 @@
 ---
 title: C07 PERCEPTION MAP
 type: map
-tags: [cognitive_matrix, c07_perception]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C07_PERCEPTION/00_INDEX
+tags: [cognitive_matrix, c07_perception, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # C07 PERCEPTION MAP
@@ -56,3 +61,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

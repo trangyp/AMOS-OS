@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-absolute-primitive-decomposer]
+source: 07_SKILLS/amos-absolute-primitive-decomposer/references
+tags: [reference, amos-absolute-primitive-decomposer, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -228,3 +235,8 @@ This model is invoked by the `amos-canon-integration-layer` and the `amos-reason
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]
+```

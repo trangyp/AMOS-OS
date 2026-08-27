@@ -1,8 +1,15 @@
 ---
 title: "Amos-Fx-Bayesian-Neural-Sde-Calibration-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-fx-bayesian-neural-sde-calibration-]
+source: 07_SKILLS/amos-fx-bayesian-neural-sde-calibration-rscf-engine
+tags: [moc, amos-fx-bayesian-neural-sde-calibration-, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Fx-Bayesian-Neural-Sde-Calibration-Rscf-Engine — Map of Content
 

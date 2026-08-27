@@ -1,8 +1,15 @@
 ---
 title: "Amos-Persistence-Dissolution-Rscf-Dynamics MOC"
 type: moc
-tags: [moc, amos-persistence-dissolution-rscf-dynami]
+source: 07_SKILLS/amos-persistence-dissolution-rscf-dynamics
+tags: [moc, amos-persistence-dissolution-rscf-dynami, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Persistence-Dissolution-Rscf-Dynamics — Map of Content
 

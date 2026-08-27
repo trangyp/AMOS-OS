@@ -1,5 +1,6 @@
 ---
 type: note
+source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
 artifact_id: AMOS-MODE-PLACEHOLDER-AUDIT-2026-08-25
 title: "AMOS Mode Placeholder Coverage Audit"
 document_version: "1.0.0"
@@ -9,9 +10,14 @@ origin_architect: "Trang Phan"
 steward: "Trang Phan"
 conclusion_class: "DERIVED"
 status: "CURRENT_SCAFFOLD_AUDIT"
-tags: [control_plane, commit, mode_index, note]
-
+tags: [control_plane, commit, mode_index, note, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # AMOS Mode Placeholder Coverage Audit
 

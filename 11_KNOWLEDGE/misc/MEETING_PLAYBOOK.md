@@ -1,12 +1,15 @@
 ---
 title: MEETING PLAYBOOK
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **Meeting Playbook™**
@@ -179,13 +182,13 @@ Top-down communication is the practice of **sharing decisions, priorities, and c
 
 
 **Success Metrics:**
-  * ✅ Decision logged before end of meeting.
+  * Decision logged before end of meeting.
 
 
-  * ✅ No repeat discussion next week.
+  * No repeat discussion next week.
 
 
-  * ✅ Owner updates Jira/Slack within 24 hours.
+  * Owner updates Jira/Slack within 24 hours.
 
 
 * * *
@@ -216,13 +219,13 @@ Top-down communication is the practice of **sharing decisions, priorities, and c
 
 
 **Success Metrics:**
-  * ✅ ≥70% blockers resolved in-session.
+  * ≥70% blockers resolved in-session.
 
 
-  * ✅ Jira board cleared of “red” items within 24h.
+  * Jira board cleared of “red” items within 24h.
 
 
-  * ✅ No surprises for leadership later.
+  * No surprises for leadership later.
 
 
 * * *
@@ -256,13 +259,13 @@ Top-down communication is the practice of **sharing decisions, priorities, and c
 
 
 **Success Metrics:**
-  * ✅ Jira roadmap complete with owners + dates.
+  * Jira roadmap complete with owners + dates.
 
 
-  * ✅ Budget request finalised same day.
+  * Budget request finalised same day.
 
 
-  * ✅ Risks tracked in Google Sheet or risk register.
+  * Risks tracked in Google Sheet or risk register.
 
 
 * * *
@@ -287,13 +290,13 @@ Top-down communication is the practice of **sharing decisions, priorities, and c
 
 
 **Success Metrics:**
-  * ✅ Standup ≤15 mins.
+  * Standup ≤15 mins.
 
 
-  * ✅ Jira board reflects reality (no stale tasks).
+  * Jira board reflects reality (no stale tasks).
 
 
-  * ✅ <2 unplanned escalations after standup.
+  * <2 unplanned escalations after standup.
 
 
 * * *
@@ -321,13 +324,13 @@ Top-down communication is the practice of **sharing decisions, priorities, and c
 
 
 **Success Metrics:**
-  * ✅ ≥10 ideas generated.
+  * ≥10 ideas generated.
 
 
-  * ✅ Top ideas validated within 48h.
+  * Top ideas validated within 48h.
 
 
-  * ✅ Next sprint includes at least 1 experiment.
+  * Next sprint includes at least 1 experiment.
 
 
 * * *
@@ -355,10 +358,10 @@ Top-down communication is the practice of **sharing decisions, priorities, and c
 
 
 **Success Metrics:**
-  * ✅ Clear yes/no/redirect recorded.
+  * Clear yes/no/redirect recorded.
 
 
-  * ✅ Execs never ask for same data twice.
+  * Execs never ask for same data twice.
 
 
 * * *
@@ -383,10 +386,10 @@ Top-down communication is the practice of **sharing decisions, priorities, and c
 
 
 **Success Metrics:**
-  * ✅ ≥2 process improvements implemented.
+  * ≥2 process improvements implemented.
 
 
-  * ✅ Fewer repeat issues next cycle.
+  * Fewer repeat issues next cycle.
 
 
 * * *
@@ -411,10 +414,10 @@ Top-down communication is the practice of **sharing decisions, priorities, and c
 
 
 **Success Metrics:**
-  * ✅ Team member reports feeling supported.
+  * Team member reports feeling supported.
 
 
-  * ✅ Blockers resolved within a week.
+  * Blockers resolved within a week.
 
 
 * * *
@@ -468,7 +471,7 @@ Success = No Slack/Telegram thread longer than 15 messages without a resolution 
 * * *
 * * *
 # **Decision-Making Meetings – Deep Dive**
-### **✅ Facilitator Checklist (Before Meeting)**
+### **Facilitator Checklist (Before Meeting)**
   * Confirm **purpose** of the meeting in 1 sentence: _“We are here to decide X so Y can move forward.”_
 
 
@@ -485,7 +488,7 @@ Success = No Slack/Telegram thread longer than 15 messages without a resolution 
 
 
 * * *
-### **❓ Question Prompts (During Meeting)**
+### **Question Prompts (During Meeting)**
   1. **Clarify Readiness:**
      * “Do we have enough data to decide today?”
      * “Is anyone missing critical context?”
@@ -507,7 +510,7 @@ Success = No Slack/Telegram thread longer than 15 messages without a resolution 
 
 
 * * *
-### **📝 Outcome Logging (End of Meeting)**
+### **Outcome Logging (End of Meeting)**
 Capture decisions in a shared doc or Jira ticket:
 |                                     |
 | **Decision**                        | **Owner**           | **Due Date** | **Next Review** |
@@ -519,7 +522,7 @@ Capture decisions in a shared doc or Jira ticket:
 Post **recap in T elegram** immediately after — no one leaves unclear about the outcome.
 * * *
 # **Problem-Solving / Triage Meetings – Deep Dive**
-### **✅ Facilitator Checklist (Before Meeting)**
+### **Facilitator Checklist (Before Meeting)**
   * Confirm **urgent blocker** is real — not just a status update.
 
 
@@ -536,7 +539,7 @@ Post **recap in T elegram** immediately after — no one leaves unclear about th
 
 
 * * *
-### **❓ Question Prompts (During Meeting)**
+### **Question Prompts (During Meeting)**
   1. **Identify the Core Blocker:**
      * “What is the #1 thing preventing progress right now?”
      * “Where exactly is the issue occurring — tool, process, supplier?”
@@ -560,7 +563,7 @@ Post **recap in T elegram** immediately after — no one leaves unclear about th
 
 
 * * *
-### **📝 Outcome Logging (End of Meeting)**
+### **Outcome Logging (End of Meeting)**
 Capture each blocker resolution live in a doc or Jira comment:
 |                                        |
 | **Blocker**                            | **Resolution**                             | **Owner**     | **Due Date** |
@@ -575,7 +578,7 @@ Send recap in **Telegram / Slack** with:
 📌 Escalations (if any)
 * * *
 # **Planning / Roadmap Sessions – Deep Dive**
-### **✅ Facilitator Checklist (Before Meeting)**
+### **Facilitator Checklist (Before Meeting)**
   * Prepare **current-state snapshot** (active projects, budgets, resource map).
 
 
@@ -592,7 +595,7 @@ Send recap in **Telegram / Slack** with:
 
 
 * * *
-### **❓ Question Prompts (During Meeting)**
+### **Question Prompts (During Meeting)**
   1. **Clarify Goals & Success Metrics:**
      * “What are the top 3 measurable outcomes we must deliver this quarter?”
      * “Which KPI, revenue target, or cost-saving is most critical?”
@@ -616,7 +619,7 @@ Send recap in **Telegram / Slack** with:
 
 
 * * *
-### **📝 Outcome Logging (End of Meeting)**
+### **Outcome Logging (End of Meeting)**
 Lock everything into a shared source of truth before closing:
 |                                     |
 | **Priority**                        | **Owner**  | **Start Date** | **Due Date** | **Dependencies**                          |
@@ -631,7 +634,7 @@ Post recap within 15 mins to:
 📌 **Telegram** – Summary for leadership (“3 priorities locked, budget gaps flagged”)
 * * *
 # **Decision-Making Meetings – Deep Dive**
-### **✅ Facilitator Checklist (Before Meeting)**
+### **Facilitator Checklist (Before Meeting)**
   * Gather **all relevant data** (financial models, supplier quotes, user feedback).
 
 
@@ -648,7 +651,7 @@ Post recap within 15 mins to:
 
 
 * * *
-### **❓ Question Prompts (During Meeting)**
+### **Question Prompts (During Meeting)**
   1. **Clarify the Decision:**
      * “What exact decision are we making today?”
      * “What does a ‘yes’ or ‘no’ mean in action?”
@@ -671,7 +674,7 @@ Post recap within 15 mins to:
 
 
 * * *
-### **📝 Outcome Logging (End of Meeting)**
+### **Outcome Logging (End of Meeting)**
 |                                    |
 | **Decision**                       | **Chosen Option** | **Owner**       | **Execution Date**       | **Follow-up**                  |
 |------------------------------------|-------------------|-----------------|--------------------------|--------------------------------|
@@ -685,7 +688,7 @@ Post recap within 15 mins to:
 📌 **Telegram** – Short message: “Decision made: Supplier A chosen. Linh owns execution.”
 * * *
 # **Problem-Solving / Triage Meetings – Deep Dive**
-### **✅ Facilitator Checklist (Before Meeting)**
+### **Facilitator Checklist (Before Meeting)**
   * Review **Jira / dashboard** to see current blockers.
 
 
@@ -702,7 +705,7 @@ Post recap within 15 mins to:
 
 
 * * *
-### **❓ Question Prompts (During Meeting)**
+### **Question Prompts (During Meeting)**
   1. **Identify the Blocker Clearly:**
      * “What exactly is stopping this from moving forward?”
      * “Is this a decision gap, a missing resource, or unclear ownership?”
@@ -728,7 +731,7 @@ Post recap within 15 mins to:
 
 
 * * *
-### **📝 Outcome Logging (End of Meeting)**
+### **Outcome Logging (End of Meeting)**
 |                             |
 | **Blocker**                 | **Category**    | **Resolution / Next Step**        | **Owner** | **Due Date** |
 |-----------------------------|-----------------|-----------------------------------|-----------|--------------|
@@ -742,7 +745,7 @@ Post recap within 15 mins to:
 📌 **Telegram** – Short status post: “3 blockers cleared, 2 escalated to leadership”
 * * *
 # **Planning / Roadmap Sessions – Deep Dive**
-### **✅ Facilitator Checklist (Before Meeting)**
+### **Facilitator Checklist (Before Meeting)**
   * Collect **all current projects, priorities, and backlog items** (from Jira, Google Sheets).
 
 
@@ -759,7 +762,7 @@ Post recap within 15 mins to:
 
 
 * * *
-### **❓ Question Prompts (During Meeting)**
+### **Question Prompts (During Meeting)**
 **1. Set the Context:**
   * “What are the top 3 outcomes we must deliver this quarter?”
 
@@ -801,7 +804,7 @@ Post recap within 15 mins to:
 
 
 * * *
-### **📝 Outcome Logging (End of Meeting)**
+### **Outcome Logging (End of Meeting)**
 |                         |
 | **Initiative**          | **Owner** | **Start Date** | **Target Completion** | **KPI / Success Metric**                  |
 |-------------------------|-----------|----------------|-----------------------|-------------------------------------------|
@@ -815,7 +818,7 @@ Post recap within 15 mins to:
 📌 **Telegram** – Summary post: “Q2 roadmap locked: 3 major initiatives, owners assigned.”
 * * *
 # **Innovation / Ideation Workshops – Deep Dive**
-### **✅ Facilitator Checklist (Before Meeting)**
+### **Facilitator Checklist (Before Meeting)**
   * Define **problem statement or opportunity area** (1–2 sentences).
 
 
@@ -832,7 +835,7 @@ Post recap within 15 mins to:
 
 
 * * *
-### **❓ Question Prompts (During Meeting)**
+### **Question Prompts (During Meeting)**
 **1. Warm-Up (5 mins)**
   * “If budget and resources were unlimited, what would we do?”
 
@@ -874,7 +877,7 @@ Post recap within 15 mins to:
 
 
 * * *
-### **📝 Outcome Logging (End of Meeting)**
+### **Outcome Logging (End of Meeting)**
 |                             |
 | **Idea / Concept**          | **Owner** | **Next Step**                | **Test Date** | **Success Metric**        |
 |-----------------------------|-----------|------------------------------|---------------|---------------------------|
@@ -888,7 +891,7 @@ Post recap within 15 mins to:
 📌 **Telegram** – Post top 3 ideas with owners to create public accountability.
 * * *
 # **Stakeholder Reviews – Deep Dive**
-### **✅ Facilitator Checklist (Before Meeting)**
+### **Facilitator Checklist (Before Meeting)**
   * Define **objective** : decision, approval, or funding ask.
 
 
@@ -908,7 +911,7 @@ Post recap within 15 mins to:
 
 
 * * *
-### **❓ Question Prompts (During Meeting)**
+### **Question Prompts (During Meeting)**
 **1. Opening Alignment (5 mins)**
   * “Are there any urgent risks or changes we need to address upfront?”
 
@@ -944,7 +947,7 @@ Post recap within 15 mins to:
 
 
 * * *
-### **📝 Outcome Logging (End of Meeting)**
+### **Outcome Logging (End of Meeting)**
 |                                  |
 | **Decision / Approval**          | **Owner** | **Due Date** | **Follow-Up**                 |
 |----------------------------------|-----------|--------------|-------------------------------|
@@ -958,7 +961,7 @@ Post recap within 15 mins to:
 📌 **Telegram** – Post summary in leadership channel for visibility.
 * * *
 # **Retrospectives / Post-Mortems – Deep Dive**
-### **✅ Facilitator Checklist (Before Session)**
+### **Facilitator Checklist (Before Session)**
   * Define **scope** : which project, campaign, sprint, or incident are we reviewing?
 
 
@@ -975,7 +978,7 @@ Post recap within 15 mins to:
 
 
 * * *
-### **❓ Question Prompts (During Session)**
+### **Question Prompts (During Session)**
 **1. Opening Context (5 mins)**
   * “What was the original goal and success metric for this project?”
 
@@ -1014,7 +1017,7 @@ Post recap within 15 mins to:
 
 
 * * *
-### **📝 Outcome Logging (End of Session)**
+### **Outcome Logging (End of Session)**
 |                                                    |
 | **Lesson / Action Item**                           | **Owner**     | **Deadline** | **Loop Closure**                        |
 |----------------------------------------------------|---------------|--------------|-----------------------------------------|
@@ -1028,7 +1031,7 @@ Post recap within 15 mins to:
 📌 **Team Handbook** – Update SOPs, templates, or checklists immediately so future teams benefit.
 * * *
 # **1:1s & Coaching Sessions – Deep Dive**
-### **✅ Facilitator Checklist (Before Session)**
+### **Facilitator Checklist (Before Session)**
   * **Review last 1:1 notes** : open loops, previous commitments.
 
 
@@ -1045,7 +1048,7 @@ Post recap within 15 mins to:
 
 
 * * *
-### **❓ Question Prompts (During Session)**
+### **Question Prompts (During Session)**
 **1. Opening (5 mins)**
   * “What’s going well for you right now?”
 
@@ -1094,7 +1097,7 @@ Post recap within 15 mins to:
 
 
 * * *
-### **📝 Outcome Logging (End of Session)**
+### **Outcome Logging (End of Session)**
 |                                            |
 | **Commitment / Action**                    | **Owner**   | **Due Date** | **Loop Closure**              |
 |--------------------------------------------|-------------|--------------|-------------------------------|

@@ -1,11 +1,15 @@
 ---
 title: AMOS CRYPTO TENSOR ANALYSIS
-tags: [reports, report, analysis]
+tags: [reports, report, analysis, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/reports
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: audit_report
+
 ---
-
-
 
 
 # AMOS OMEGA CRYPTO ADVANCED TENSOR ANALYSIS - COMPLETE

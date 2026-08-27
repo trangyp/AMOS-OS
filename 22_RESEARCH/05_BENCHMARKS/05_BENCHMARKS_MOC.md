@@ -1,8 +1,15 @@
 ---
 title: "05 Benchmarks MOC"
 type: moc
-tags: [moc, 05-benchmarks]
+source: 22_RESEARCH/05_BENCHMARKS
+tags: [moc, 05-benchmarks, canon/research]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 05 Benchmarks — Map of Content
 

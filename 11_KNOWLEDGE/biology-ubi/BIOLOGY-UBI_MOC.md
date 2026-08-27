@@ -1,8 +1,15 @@
 ---
 title: "Biology-Ubi MOC"
 type: moc
-tags: [moc, biology-ubi]
+source: 11_KNOWLEDGE/biology-ubi
+tags: [moc, biology-ubi, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: biology_neuroscience
 ---
+
 
 # Biology-Ubi — Map of Content
 

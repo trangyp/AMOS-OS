@@ -5,8 +5,13 @@ created: 2026-08-22
 updated: 2026-08-22
 source: "The Complete Human System — Book Three: Manipulation + Book Four: Addiction"
 tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/cheat-sheet-manipulation-compression, misc]
----
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 
+---
 
 
 # Manipulation Compression — Practical Cheat Sheet

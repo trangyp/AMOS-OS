@@ -1,20 +1,24 @@
 ---
 title: SYMBOL PARSER
-tags: [tech-coding, tech, coding]
+tags: [tech-coding, tech, coding, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/tech-coding
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: tech_engineering
+
 ---
-
-
 
 
 # AMOS Symbol-Semantic Parser Implementation Complete
 
-## 🎯 MISSION ACCOMPLISHED
+## MISSION ACCOMPLISHED
 
 I have successfully implemented the **AMOS Symbol-Semantic Parser** following the exact rule set provided, enabling AMOS to correctly disambiguate mathematical symbols like `u`, `u_x`, `ux`, `u_t`, and `u_xx` based on context.
 
-### ✅ **Core Components Implemented**
+### **Core Components Implemented**
 
 1. **Enhanced Symbol Parser** (`enhanced_symbol_parser.py`)
    - Framework detection (Algebra, Calculus, PDE, Vector, Software)
@@ -33,7 +37,7 @@ I have successfully implemented the **AMOS Symbol-Semantic Parser** following th
    - Symbol meanings properly resolved
    - Universal parsing formula working
 
-### 🧠 **Rule Set Implementation**
+### **Rule Set Implementation**
 
 **Rule A - Unknown Function Rule**: ✅
 ```
@@ -55,7 +59,7 @@ u_x := x-component of vector u iff vector/tensor framework is active
 u_x := named symbol only iff no differential or vector semantics are declared
 ```
 
-### 📊 **Framework Detection Results**
+### **Framework Detection Results**
 
 | Expression | Framework | u_x Meaning | ux Meaning |
 |------------|-----------|-------------|------------|
@@ -65,7 +69,7 @@ u_x := named symbol only iff no differential or vector semantics are declared
 | `\mathbf{u} = (u_x, u_y, u_z)` | Vector | x-component of vector u | plain identifier ux |
 | `u = state` | Software | symbol u_x (label) | plain identifier ux |
 
-### 🎯 **Universal Parsing Formula**
+### **Universal Parsing Formula**
 
 Successfully implemented:
 ```
@@ -76,7 +80,7 @@ Parse(u_x) = {
 }
 ```
 
-### 🔍 **Key Distinctions Maintained**
+### **Key Distinctions Maintained**
 
 ✅ **u_x ≠ ux** (critical distinction preserved)
 - `u_x` = structured notation with semantic meaning
@@ -87,7 +91,7 @@ Parse(u_x) = {
 - No guessing - formal rule-based disambiguation
 - Strong AMOS rule: "Never infer derivative semantics from ux alone"
 
-### 🚀 **Integration with AMOS Brain**
+### **Integration with AMOS Brain**
 
 The symbol parser is now integrated with:
 - **Mathematical Code Engine** - converts symbols to equations
@@ -95,7 +99,7 @@ The symbol parser is now integrated with:
 - **Self-Programming Engine** - generates code from symbols
 - **Complete AMOS API** - serves symbol analysis via REST API
 
-### 📈 **Demonstration Output**
+### **Demonstration Output**
 
 The parser correctly handles:
 - **Scalar Algebra**: `u = 3x + 1` → u is scalar variable
@@ -104,7 +108,7 @@ The parser correctly handles:
 - **Vector Framework**: `\mathbf{u} = (u_x, u_y, u_z)` → u_x is component
 - **Software Framework**: `ux = gradient_x(u)` → ux is identifier
 
-### 🎮 **Usage in AMOS**
+### **Usage in AMOS**
 
 ```python
 from app.math.enhanced_symbol_parser import EnhancedSymbolParser
@@ -114,7 +118,7 @@ meaning = parser.resolve_symbol("u_x", "u(x) = x^2")
 # Returns: "∂u/∂x"
 ```
 
-## 🏆 **FINAL STATUS**
+## **FINAL STATUS**
 
 ✅ **COMPLETED**: AMOS Symbol-Semantic Parser
 ✅ **RULES**: All 4 formal rules implemented

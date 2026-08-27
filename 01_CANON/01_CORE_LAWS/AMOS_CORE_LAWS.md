@@ -1,5 +1,6 @@
 ---
 type: law
+source: 01_CANON/01_CORE_LAWS
 artifact_id: AMOS-CORE-LAWS
 name: AMOS_CORE_LAWS
 title: "AMOS Core Laws — Constitutional Invariants of AMOS OS"
@@ -32,7 +33,6 @@ aliases: "- AMOS Core Laws
 related: "see body"---
 
 
-
 # AMOS Core Laws
 
 **Origin architect / steward:** Trang Phan
@@ -40,8 +40,14 @@ related: "see body"---
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **Law-set target:** `AMOS_CORE v4.4`  
 > **Conclusion class:** `AMOS_MODEL`
-
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: core_laws
 ---
+
+# AMOS Core Laws — Constitutional Invariants of AMOS OS
 
 ## 0. Purpose
 

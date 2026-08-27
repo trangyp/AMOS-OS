@@ -1,14 +1,19 @@
 ---
 title: AMOS CORE FULL
 type: note
+source: 11_KNOWLEDGE/amos-general
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
 topic: amos-core-full
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-core-full, amos-general]
 created: 2026-08-22
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
-
 
 
 """

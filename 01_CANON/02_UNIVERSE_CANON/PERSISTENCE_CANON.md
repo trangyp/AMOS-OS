@@ -1,5 +1,6 @@
 ---
 type: canon
+source: 01_CANON/02_UNIVERSE_CANON
 artifact_id: AMOS-PERSISTENCE-CANON
 name: PERSISTENCE_CANON
 title: "AMOS Persistence Canon — Durable State, Provenance, Recovery, and Causal Continuity"
@@ -30,7 +31,6 @@ aliases: "- AMOS Persistence Canon
 related: "see body"---
 
 
-
 # AMOS Persistence Canon
 
 **Origin architect / steward:** Trang Phan
@@ -38,8 +38,13 @@ related: "see body"---
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`
-
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
+
 
 # 0. Purpose
 

@@ -1,5 +1,6 @@
 ---
 type: registry
+source: 01_CANON/05_VARIABLE_REGISTRY
 artifact_id: AMOS-SYMBOL-REGISTRY
 name: SYMBOL_REGISTRY
 title: "AMOS Symbol Registry — Canonical Symbols, Operators, Types, States, and Semantic Identity"
@@ -29,7 +30,6 @@ aliases: "- AMOS Symbol Registry
   - AMOS Semantic Symbol Table..."---
 
 
-
 # AMOS Symbol Registry
 
 **Origin architect / steward:** Trang Phan
@@ -37,8 +37,13 @@ aliases: "- AMOS Symbol Registry
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 0. Purpose
 

@@ -1,9 +1,14 @@
 ---
 title: L27 MULTI AGENT COGNITION MAP
 type: agent
-tags: [cognitive_matrix, l27_multi_agent_cognition]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION/00_INDEX
+tags: [cognitive_matrix, l27_multi_agent_cognition, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # L27 MULTI AGENT COGNITION MAP
@@ -56,3 +61,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

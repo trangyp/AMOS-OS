@@ -1,12 +1,15 @@
 ---
 title: KE HOACH CHIEN LUOC MARKETING VAN HANH TANG TRUO
-tags: [economy, finance, market]
+tags: [economy, finance, market, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/economy
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: economic_model
+
 ---
-
-
-
 
 
 # **Kế hoạch Chiến lược Marketing – Vận hành tăng trưởng cho UniTaxi**
@@ -1670,7 +1673,7 @@ Mỗi xe = 1 studio mini.
 UniTaxi chỉ cần **đúng cảm giác – đúng thần kinh – đúng khoảnh khắc**.
 Công thức cuối:
 > [Xe tử tế] × [Tài xế tử tế] × [Vibe đẹp] × [Nội dung thật] = Lan toả vô hạn với chi phí cực thấp.
-# **📘 SỔ TAY TÁC NGHIỆP 30 NGÀY CHO ĐỘI MARKETING UNiTAXI**
+# **SỔ TAY TÁC NGHIỆP 30 NGÀY CHO ĐỘI MARKETING UNiTAXI**
  _(Phiên bản chi tiết nhất từng được viết cho thị trường Việt Nam — Theo chuẩn vận hành thực chiến của Grab, SM, Baemin nhưng tối ưu hóa chi phí theo mô hình tài sản nhẹ.)_
 * * *
 # **I. NGUYÊN TẮC XUYÊN SUỐT CHO 30 NGÀY ĐẦU**
@@ -1699,9 +1702,9 @@ Không chạy 5 chiến dịch một lúc, junior không xử lý được.
 
 
 # **II. KẾ HOẠCH 30 NGÀY – THEO NGÀY**
-## **🟦 GIAI ĐOẠN 1: Thiết lập nền tảng – Ngày 1 → Ngày 7**
+## **GIAI ĐOẠN 1: Thiết lập nền tảng – Ngày 1 → Ngày 7**
 * * *
-## **📅 NGÀY 1 – Chuẩn hóa toàn bộ tài sản marketing**
+## **NGÀY 1 – Chuẩn hóa toàn bộ tài sản marketing**
 **Checklist:**
   1. Tạo 1 folder tên:
      * “UniTaxi – Marketing Master”
@@ -1721,7 +1724,7 @@ Không chạy 5 chiến dịch một lúc, junior không xử lý được.
 
 
 * * *
-## **📅 NGÀY 2 – Tạo 1 thư viện 50 caption gốc**
+## **NGÀY 2 – Tạo 1 thư viện 50 caption gốc**
 Không chờ “có cảm hứng”.
 Phải viết trước: **50 caption** chia theo 10 nhóm tình huống:
   1. Đi chơi tối
@@ -1763,7 +1766,7 @@ Phải viết trước: **50 caption** chia theo 10 nhóm tình huống:
 
 Junior làm 1 buổi sáng là xong.
 * * *
-## **📅 NGÀY 3 – Tạo 5 mẫu video nền (Template gốc)**
+## **NGÀY 3 – Tạo 5 mẫu video nền (Template gốc)**
 Junior mở CapCut → tạo 5 kiểu khung video:
   1. Khung “đi chơi tối”
 
@@ -1782,7 +1785,7 @@ Junior mở CapCut → tạo 5 kiểu khung video:
 
 Mỗi video 10–12 giây.
 * * *
-## **📅 NGÀY 4 – Viết 3 script video ngắn đầu tiên**
+## **NGÀY 4 – Viết 3 script video ngắn đầu tiên**
 Junior script:
   1. “Cảm giác bước vào xe êm, ánh sáng nhẹ.”
 
@@ -1795,7 +1798,7 @@ Junior script:
 
 Đội quay dùng điện thoại quay thật → 80% hiệu quả đến từ sự chân thật.
 * * *
-## **📅 NGÀY 5 – Thiết kế 8 bài post nền**
+## **NGÀY 5 – Thiết kế 8 bài post nền**
 Nội dung:
   * 4 bài “lợi ích cảm giác”
 
@@ -1808,7 +1811,7 @@ Nội dung:
 
 Mỗi bài 2–3 nội dung hình ảnh.
 * * *
-## **📅 NGÀY 6 – Thiết lập lịch đăng 30 ngày**
+## **NGÀY 6 – Thiết lập lịch đăng 30 ngày**
 Junior mở Google Sheet → tạo bảng:
   * Ngày đăng
 
@@ -1824,7 +1827,7 @@ Junior mở Google Sheet → tạo bảng:
 
 Tạo lịch 30 ngày, mỗi ngày 1 nội dung.
 * * *
-## **📅 NGÀY 7 – Test thông báo thử (Push)**
+## **NGÀY 7 – Test thông báo thử (Push)**
 Nội dung gửi thử:
   * “Tối nay nếu đi chơi, thử UniTaxi – xe sạch, đèn ấm.”
 
@@ -1835,10 +1838,10 @@ Nội dung gửi thử:
 Chỉ gửi cho 100 khách đầu tiên để đo hiệu quả.
 * * *
 * * *
-# **🟩 GIAI ĐOẠN 2: Tăng tải – Tăng chuyến đầu – Ngày 8 → Ngày 20**
+# **GIAI ĐOẠN 2: Tăng tải – Tăng chuyến đầu – Ngày 8 → Ngày 20**
 Đây là **giai đoạn quan trọng nhất**.
 * * *
-## **📅 NGÀY 8 – Kích hoạt Kênh TikTok (kênh bắt buộc)**
+## **NGÀY 8 – Kích hoạt Kênh TikTok (kênh bắt buộc)**
 TikTok = 80% khách Gen Z + 60% khách Gen Y.
 Junior làm:
   1. Đăng 3 video đầu (dựng sẵn ngày 4).
@@ -1854,7 +1857,7 @@ Junior làm:
 
 
 * * *
-## **📅 NGÀY 9 – Kích hoạt Facebook**
+## **NGÀY 9 – Kích hoạt Facebook**
 Junior đăng bài:
   * 1 bài chia sẻ “Trải nghiệm êm – sạch – tối nhẹ”
 
@@ -1871,7 +1874,7 @@ Quan trọng:
 
 
 * * *
-## **📅 NGÀY 10 – Đăng loạt 10 bài đầu**
+## **NGÀY 10 – Đăng loạt 10 bài đầu**
 Junior dùng 10 caption viết ngày 2.
 Hình ảnh:
   * Xe ban đêm
@@ -1884,7 +1887,7 @@ Hình ảnh:
 
 
 * * *
-## **📅 NGÀY 11 – Mở chiến dịch “Đi tối cho an tâm”**
+## **NGÀY 11 – Mở chiến dịch “Đi tối cho an tâm”**
 Kênh chính:
   * TikTok
 
@@ -1908,7 +1911,7 @@ Junior chạy ads dạng:
 Mục tiêu:
 → **Tải app / Đặt chuyến đầu**
 * * *
-## **📅 NGÀY 12 – Liên kết 5 quán bar / pub đầu tiên**
+## **NGÀY 12 – Liên kết 5 quán bar / pub đầu tiên**
 Junior in QR đặt xe → đặt tại:
   * cửa vào,
 
@@ -1925,7 +1928,7 @@ Nội dung QR:
 
 Mỗi điểm ít nhất 20 khách thử.
 * * *
-## **📅 NGÀY 13 – Chạy tài xế “giới thiệu khách mới”**
+## **NGÀY 13 – Chạy tài xế “giới thiệu khách mới”**
 Mỗi tài xế được cấp mã:
   * KH mới giảm 20k
 
@@ -1938,7 +1941,7 @@ Junior ghi lại:
 
 
 * * *
-## **📅 NGÀY 14 – Kích hoạt “Thời tiết marketing” (mưa → khách tăng)**
+## **NGÀY 14 – Kích hoạt “Thời tiết marketing” (mưa → khách tăng)**
 Junior làm:
   * Khi mưa đến khu vực quận 1, 3, Bình Thạnh → gửi thông báo:
     * “Mưa rồi, đi UniTaxi để đỡ ướt và an toàn hơn.”
@@ -1946,7 +1949,7 @@ Junior làm:
 
 Tăng ngay 15–40% chuyến.
 * * *
-## **📅 NGÀY 15 – Ký hợp tác 3 rạp phim đầu tiên**
+## **NGÀY 15 – Ký hợp tác 3 rạp phim đầu tiên**
 Junior liên hệ CGV/ Lotte/ BHD:
   * Xin đặt 1 biển QR tại lối ra.
 
@@ -1955,14 +1958,14 @@ Junior liên hệ CGV/ Lotte/ BHD:
 
 
 * * *
-## **📅 NGÀY 16 – Làm clip “đời sống” 1**
+## **NGÀY 16 – Làm clip “đời sống” 1**
 Ví dụ:
   * “Tối thứ 6 đi xem phim mệt rồi, lên UniTaxi thấy ánh sáng ấm – nhẹ.”
 
 
 Junior quay bằng điện thoại → đăng TikTok.
 * * *
-## **📅 NGÀY 17 – Triển khai “Trip Mode: Đi mệt”**
+## **NGÀY 17 – Triển khai “Trip Mode: Đi mệt”**
 App bật:
   * Chế độ:
     * không nhạc
@@ -1975,7 +1978,7 @@ Junior quay video:
 
 
 * * *
-## **📅 NGÀY 18 – Mở chiến dịch “An toàn cho nữ ban đêm”**
+## **NGÀY 18 – Mở chiến dịch “An toàn cho nữ ban đêm”**
   1. Post chủ đề:
      * tài xế không nhìn soi gương
      * thả ở nơi sáng
@@ -1991,7 +1994,7 @@ Junior quay video:
 
 
 * * *
-## **📅 NGÀY 19 – Chiến dịch “Đi mưa – đi nắng – đi lười”**
+## **NGÀY 19 – Chiến dịch “Đi mưa – đi nắng – đi lười”**
 Junior tạo 3 video:
   * “Trời nắng 38 độ – đừng tự hành mình”
 
@@ -2004,7 +2007,7 @@ Junior tạo 3 video:
 
 Đăng 1 video/ ngày.
 * * *
-## **📅 NGÀY 20 – Tối ưu chuyển đổi theo dữ liệu**
+## **NGÀY 20 – Tối ưu chuyển đổi theo dữ liệu**
 Junior kiểm tra dashboard:
   * Video nào nhiều lượt tải nhất?
 
@@ -2018,9 +2021,9 @@ Junior kiểm tra dashboard:
 Giảm các nội dung kém; nhân đôi nội dung mạnh.
 * * *
 * * *
-# **🟥 GIAI ĐOẠN 3: Mở rộng – Chiếm thói quen – Ngày 21 → Ngày 30**
+# **GIAI ĐOẠN 3: Mở rộng – Chiếm thói quen – Ngày 21 → Ngày 30**
 * * *
-## **📅 NGÀY 21 – Ra mắt “Gói đi chơi cuối tuần”**
+## **NGÀY 21 – Ra mắt “Gói đi chơi cuối tuần”**
 Gói:
   * 3 chuyến tối thứ 6–7–CN
 
@@ -2033,7 +2036,7 @@ Junior quay video:
 
 
 * * *
-## **📅 NGÀY 22 – Hợp tác 5 chung cư lớn**
+## **NGÀY 22 – Hợp tác 5 chung cư lớn**
 Junior liên hệ:
   * Chung cư Vinhomes, Masteri, Sunrise, Saigon Pearl…
 
@@ -2043,7 +2046,7 @@ Junior liên hệ:
 
 
 * * *
-## **📅 NGÀY 23 – Chiến dịch “Đi sân bay không lo bị hủy”**
+## **NGÀY 23 – Chiến dịch “Đi sân bay không lo bị hủy”**
 Junior tạo:
   * Video tài xế hỗ trợ vali
 
@@ -2056,14 +2059,14 @@ Push:
 
 
 * * *
-## **📅 NGÀY 24 – Nhắm nhóm đi gym – spa – siêu thị**
+## **NGÀY 24 – Nhắm nhóm đi gym – spa – siêu thị**
 Junior in QR đặt xe → gửi 50 spa/gym.
 Post:
   * “Đi gym xong mệt – vào UniTaxi êm.”
 
 
 * * *
-## **📅 NGÀY 25 – Gia tăng điểm chạm cộng đồng**
+## **NGÀY 25 – Gia tăng điểm chạm cộng đồng**
 Junior làm:
   * 1 cuộc khảo sát nhỏ:
     * hỏi khách thích gì nhất trong 3 yếu tố:
@@ -2074,7 +2077,7 @@ Junior làm:
 
 Post kết quả.
 * * *
-## **📅 NGÀY 26 – Sản xuất 5 video “testimonials thật”**
+## **NGÀY 26 – Sản xuất 5 video “testimonials thật”**
 Junior phỏng vấn khách thật:
   * vì sao họ thích UniTaxi,
 
@@ -2087,7 +2090,7 @@ Video dạng:
 
 
 * * *
-## **📅 NGÀY 27 – Làm chiến dịch “UniTaxi vibe buổi tối”**
+## **NGÀY 27 – Làm chiến dịch “UniTaxi vibe buổi tối”**
 Junior quay:
   * 3 cảnh xe đèn ấm,
 
@@ -2099,7 +2102,7 @@ Junior quay:
 
 
 * * *
-## **📅 NGÀY 28 – Hợp tác quán ăn tối – quán rượu nhẹ – trà bánh**
+## **NGÀY 28 – Hợp tác quán ăn tối – quán rượu nhẹ – trà bánh**
 Những điểm:
   * quận 1, Bình Thạnh, Phú Nhuận, Thảo Điền.
 
@@ -2112,7 +2115,7 @@ QR để tại:
 
 
 * * *
-## **📅 NGÀY 29 – Chạy chiến dịch “Mưa to đặc biệt”**
+## **NGÀY 29 – Chạy chiến dịch “Mưa to đặc biệt”**
 Junior theo dõi radar mưa:
   * khi mưa:
     * đẩy push ngay:
@@ -2122,7 +2125,7 @@ Junior theo dõi radar mưa:
 kết quả:
 → tỷ lệ đặt chuyến tăng **40–70%**.
 * * *
-## **📅 NGÀY 30 – Tổng kết 1 tháng**
+## **NGÀY 30 – Tổng kết 1 tháng**
 Junior làm báo cáo:
   1. Tổng video đã đăng
 

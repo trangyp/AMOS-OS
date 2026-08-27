@@ -1,6 +1,7 @@
 ---
 title: CONFLICT REGISTRY
 type: registry
+source: 01_CANON/08_SUPERSESSION
 artifact_id: AMOS-OS-CONFLICT-REGISTRY
 canonical_name: CONFLICT_REGISTRY
 artifact_type: canonical_conflict_registry
@@ -23,8 +24,6 @@ tags: [amos-os, canon, universe, canon-group/meta, canon/framework, canon/regist
 aliases: "- AMOS Conflict Registry
   - AMOS OS Conflict Registry
   - Canon Conflict Registry..."---
-
-
 
 
 # AMOS OS Conflict Registry
@@ -60,8 +59,13 @@ TEST RESULTS
 ```
 
 The registry exists so contradiction is never silently removed for fluency, convenience, majority agreement, or premature convergence.
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 2. Core Law
 

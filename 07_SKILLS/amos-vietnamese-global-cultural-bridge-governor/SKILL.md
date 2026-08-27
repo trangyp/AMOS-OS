@@ -1,6 +1,7 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor
 name: amos-vietnamese-global-cultural-bridge-governor
 description: Vietnamese-Global Cultural Bridge Governor — cross-domain capability bridging C06 Vietnamese-specific cultural systems (F07 Vietnam Regional, gia hệ energy models) with C06 global frameworks (F01-F06, F08-F10). Governs bidirectional translation preserving Vietnamese cultural specificity while enabling global comparison. Enforces universalization firewall (no VN-specific claim universalized without cross-cultural evidence) and cultural specificity preservation (no global model applied to VN context without validation). Use when Vietnamese cultural claims need translation to global framework terms, when global models need validation for Vietnamese context, or when the bidirectional cultural bridge needs governance. Use when amos-c06-society-culture-master routes to this specialized capability.
 parent_skill: amos-c06-society-culture-master
@@ -10,7 +11,13 @@ epistemic_class: SOURCE_CLAIM
 claim_ceiling: 0.9
 status: production_ready
 created: 2026-08-27
-tags: [note, amos-vietnamese-global-cultural-bridge-governor]
+tags: [note, amos-vietnamese-global-cultural-bridge-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
 
 
@@ -70,3 +77,86 @@ Bidirectional translation with two firewall rules:
 
 ---
 **Links:** [[07_SKILLS_MOC]]
+
+## Related
+
+- [[amos-vietnamese-global-cultural-bridge-governor_MOC]]
+
+## Examples
+
+- **Scenario**: When Vietnamese cultural claims need translation to global framework terms
+  - **Input**: A query matching this skill's domain (cross-domain (C06 Vietnamese ↔ Global))
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When global models need validation for Vietnamese context
+  - **Input**: A query matching this skill's domain (cross-domain (C06 Vietnamese ↔ Global))
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When governing the bidirectional cultural bridge (BRIDGE_PERMITTED / BLOCKED / CONDITIONAL)
+  - **Input**: A query matching this skill's domain (cross-domain (C06 Vietnamese ↔ Global))
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the cross-domain (C06 Vietnamese ↔ Global) domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[amos-c06-society-culture-master]]` — routes to this skill when cross-domain (C06 Vietnamese ↔ Global) specialization is needed
+- **Peers**: Other skills in the `cross-domain (C06 Vietnamese ↔ Global)` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/references_MOC.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `references/vn_20_impossible_competitions.md` — loaded on demand
+- `references/vn_akashic_thong_thien.md` — loaded on demand
+- `references/vn_amos_absolute_architecture.md` — loaded on demand
+- `references/vn_amos_absolute_integration.md` — loaded on demand
+- `references/vn_cross_time_civilization_journey.md` — loaded on demand
+- `references/vn_gia_he_dieu_tiet.md` — loaded on demand
+- `references/vn_map_of_everything.md` — loaded on demand
+- `references/vn_neural_invariance_silence.md` — loaded on demand
+- `references/vn_what_you_discovered.md` — loaded on demand
+- `[[amos-vietnamese-global-cultural-bridge-governor_MOC]]` — skill Map of Content
+- `[[amos-c06-society-culture-master]]` — parent skill
+- `[[amos-vietnamese-global-cultural-bridge-governor-workflow]]` — corresponding workflow
+- `[[amos-vietnamese-global-cultural-bridge-governor-agent]]` — corresponding agent
+

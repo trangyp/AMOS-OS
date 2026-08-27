@@ -1,13 +1,20 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-active-inference-governor
 name: amos-active-inference-governor
 description: Govern active-inference-style perception-belief-action loops inside AMOS by separating observations, latent-state beliefs, uncertainty, preferences or goals, candidate actions, expected consequences, prediction error, evidence updates, authority, and actual effects. Use when an AMOS agent must decide whether to update beliefs, gather information, act, continue observing, or stop; when prediction-error minimization could conflict with truth, safety, authority, or user intent; when perception and action form a feedback loop; or when amos-c05-mind-behavior-master routes a cognition/behavior task requiring bounded active inference. Treat active inference as an AMOS_MODEL unless independently grounded in established domain theory; never use it to claim consciousness, neuroscience proof, free-energy-theory validation, or autonomous authority.
 parent_skill: amos-c05-mind-behavior-master
 domain: mind_behavior
 origin_architect: Trang Phan
 epistemic_class: AMOS_MODEL
-tags: [note, amos-active-inference-governor]
+tags: [note, amos-active-inference-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
 
 
@@ -74,3 +81,78 @@ BELIEF_UPDA
 
 ---
 **Links:** [[07_SKILLS_MOC]]
+
+## Related
+
+- [[amos-active-inference-governor_MOC]]
+```
+
+## Examples
+
+- **Scenario**: When an AMOS agent must decide whether to update beliefs, gather information, act, continue observing, or stop
+  - **Input**: A query matching this skill's domain (mind_behavior)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When prediction-error minimization could conflict with truth, safety, authority, or user intent
+  - **Input**: A query matching this skill's domain (mind_behavior)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When perception and action form a feedback loop requiring governed selection
+  - **Input**: A query matching this skill's domain (mind_behavior)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the mind_behavior domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[amos-c05-mind-behavior-master]]` — routes to this skill when mind_behavior specialization is needed
+- **Peers**: Other skills in the `mind_behavior` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/pragmatic_action.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `[[amos-active-inference-governor_MOC]]` — skill Map of Content
+- `[[amos-c05-mind-behavior-master]]` — parent skill
+- `[[amos-active-inference-governor-workflow]]` — corresponding workflow
+- `[[amos-active-inference-governor-agent]]` — corresponding agent
+

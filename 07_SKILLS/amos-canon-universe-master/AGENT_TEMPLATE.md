@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-canon-universe-master]
+source: 07_SKILLS/amos-canon-universe-master
+tags: [note, amos-canon-universe-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-canon-universe-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS Canon & Universe Master. Consolidates 42 sub-skills
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-canon-universe-master_MOC]]

@@ -3,7 +3,15 @@ title: PLANETARY CONSENT INFRASTRUCTURE INVESTOR BRIEF
 tags: [canon-group/planetary, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/planetary-consent-infrastructure-investo, misc]
 type: note
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
+
 
 # PLANETARY CONSENT INFRASTRUCTURE INVESTOR BRIEF
 

@@ -1,8 +1,15 @@
 ---
 title: vn map of everything
 type: reference
-tags: [reference, amos-vietnamese-global-cultural-bridge-governor]
+source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/references
+tags: [reference, amos-vietnamese-global-cultural-bridge-governor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Map of Everything
 
@@ -318,3 +325,7 @@ ol > li {
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

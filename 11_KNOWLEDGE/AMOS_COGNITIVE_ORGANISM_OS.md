@@ -1,11 +1,15 @@
 ---
 title: AMOS COGNITIVE ORGANISM OS
-tags: [knowledge, note]
+tags: [knowledge, note, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/root
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
 
 
 # AMOS COGNITIVE ORGANISM OS
@@ -232,21 +236,7 @@ X_t = {
 
 System evolution:
 
-\[
-X_{t+1}
-=
-\mathcal{F}
-(
-X_t,
-P_t,
-A_t,
-E_t,
-M_t,
-G_t,
-\Pi_t,
-R_t
-)
-\]
+$$X_{t+1} = \mathcal{F} ( X_t, P_t, A_t, E_t, M_t, G_t, \Pi_t, R_t )$$
 
 where:
 
@@ -1394,19 +1384,7 @@ HardConstraints(option)=true
 
 AMOS model:
 
-\[
-U(a)
-=
-V(a)
--
-R(a)
--
-C(a)
--
-D_f(a)
-+
-O_v(a)
-\]
+$$U(a) = V(a) - R(a) - C(a) - D_f(a) + O_v(a)$$
 
 where:
 
@@ -1811,21 +1789,15 @@ DETECT
 
 Define deviation burden:
 
-\[
-D(t)
-\]
+$$D(t)$$
 
 and repair capacity:
 
-\[
-R(t)
-\]
+$$R(t)$$
 
 Collapse risk rises when:
 
-\[
-D(t) > R(t)
-\]
+$$D(t) > R(t)$$
 
 This is a model, not universal biological law.
 
@@ -2232,11 +2204,7 @@ Every edge has provenance.
 
 # 119. CONFIDENCE CEILING
 
-\[
-Conf(C)
-\le
-\min_i Conf(P_i)
-\]
+$$Conf(C) \le \min_i Conf(P_i)$$
 
 unless independently revalidated.
 

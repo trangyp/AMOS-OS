@@ -1,9 +1,14 @@
 ---
 title: DOMAINS RESEARCH MAP
 type: map
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/02_RESEARCH/00_INDEX
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # DOMAINS RESEARCH MAP

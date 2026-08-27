@@ -1,12 +1,15 @@
 ---
 title: HUMAN STABILITY IS THE ONLY RENEWABLE RESOURCE
-tags: [human, alignment, interaction]
+tags: [human, alignment, interaction, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/human
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: human_alignment
+
 ---
-
-
-
 
 
 # **Human Stability Is the Only Renewable Resource**

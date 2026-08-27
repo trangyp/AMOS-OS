@@ -1,8 +1,15 @@
 ---
 title: "AMOS CORE-19 v0.3 — Formal Specification (Lean-style)"
 type: reference
+source: 11_KNOWLEDGE/amos-general
 tags: [canon-group/tech-ai, amos, deterministic-logic, formal-spec, CORE-19, lean, theorem-proving, sorts, predicates, canon/framework, rscf/state/observation, rscf/claim, rscf/provenance, topic/amos-core-19-formal-spec-lean]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
 ---
+
 
 # AMOS CORE-19 v0.3 — Formal Specification (Lean-style)
 
@@ -79,3 +86,6 @@ This formal spec underpins the Core-19 reasoning kernel used across all AMOS eng
 
 ---
 **MOC:** [[AMOS-GENERAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

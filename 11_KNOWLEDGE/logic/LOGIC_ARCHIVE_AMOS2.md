@@ -1,15 +1,20 @@
 ---
 title: LOGIC ARCHIVE AMOS2
 type: archive
+source: 11_KNOWLEDGE/logic
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: logic
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/logic, logic]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
 ---
-
-
+# LOGIC ARCHIVE AMOS2
 
 ```json
 {

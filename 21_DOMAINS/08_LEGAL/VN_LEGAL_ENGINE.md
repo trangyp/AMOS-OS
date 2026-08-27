@@ -1,6 +1,7 @@
 ---
 title: "VN Legal Engine"
 type: engine
+source: 21_DOMAINS/08_LEGAL
 artifact: "VN_LEGAL_ENGINE.md"
 artifact_id: "amos_21_domains_08_legal_vn_legal_engine"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "21_DOMAINS/08_LEGAL"
 artifact_kind: "ENGINE"
 path: "21_DOMAINS/08_LEGAL/VN_LEGAL_ENGINE.md"
 
-tags: [amos_os, domain, specialization, 21_domains, engine, canon_placeholder, rscf]
+tags: [amos_os, domain, specialization, 21_domains, engine, canon_placeholder, rscf, canon/domain]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # VN Legal Engine

@@ -1,12 +1,15 @@
 ---
 title: GIAI PHAP SU DUNG CAT BIEN CHO BE TONG BEN VUNG TA
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **GIẢI PHÁP SỬ DỤNG CÁT BIỂN CHO BÊ TÔNG BỀN VỮNG TẠI VIỆT NAM**

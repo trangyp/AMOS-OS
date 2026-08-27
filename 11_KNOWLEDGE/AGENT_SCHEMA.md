@@ -1,5 +1,6 @@
 ---
 type: agent
+source: 11_KNOWLEDGE
 artifact_id: AMOS-AGENT-SCHEMA
 name: amos-agent-schema-full
 title: "AMOS Agent Schema — Full Governed Specification"
@@ -23,8 +24,12 @@ aliases: "- AGENT_SCHEMA
   - AMOS Agent Schema
   - Unified Agent Construction Schema..."
 governing_law: "integrity > completeness > fluency > speed > token savings"
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
-
 
 
 # AMOS Agent Schema — Full Governed Specification
@@ -1408,30 +1413,17 @@ F18 HIDDEN_REASONING_DISCLOSURE
 
 Conceptual AMOS model:
 
-\[
-A_{t+1}
-=
-\Pi_I
-\left[
-F(
-A_t,
-U_t,
-E_t,
-M_t,
-S_t
-)
-\right]
-\]
+$$A_{t+1} = \Pi_I \left[ F( A_t, U_t, E_t, M_t, S_t ) \right]$$
 
 where:
 
-- \(A_t\): agent state;
-- \(U_t\): user/task input;
-- \(E_t\): admitted evidence;
-- \(M_t\): valid memory;
-- \(S_t\): session/control state;
-- \(F\): worker transition;
-- \(\Pi_I\): invariant projection.
+- $A_t$: agent state;
+- $U_t$: user/task input;
+- $E_t$: admitted evidence;
+- $M_t$: valid memory;
+- $S_t$: session/control state;
+- $F$: worker transition;
+- $\Pi_I$: invariant projection.
 
 Class: `AMOS_MODEL`
 

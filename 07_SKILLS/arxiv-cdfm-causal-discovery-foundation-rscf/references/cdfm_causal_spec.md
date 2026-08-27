@@ -1,8 +1,15 @@
 ---
 title: cdfm causal spec
 type: reference
-tags: [reference, arxiv-cdfm-causal-discovery-foundation-rscf]
+source: 07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf/references
+tags: [reference, arxiv-cdfm-causal-discovery-foundation-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # JSON Specification
 
@@ -35,3 +42,7 @@ tags: [reference, arxiv-cdfm-causal-discovery-foundation-rscf]
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

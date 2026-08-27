@@ -1,8 +1,15 @@
 ---
 title: "12 Generators MOC"
 type: moc
-tags: [moc, 12-generators]
+source: 25_COGNITIVE_MATRIX/12_GENERATORS
+tags: [moc, 12-generators, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 12 Generators — Map of Content
 

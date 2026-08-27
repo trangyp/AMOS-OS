@@ -1,12 +1,15 @@
 ---
 title: PHAN CONG TRACH NHIEM 10 HANH DONG TRIEN KHAI GAP
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # **PHÂN CÔNG TRÁCH NHIỆM: 10 HÀNH ĐỘNG TRIỂN KHAI GẤP**

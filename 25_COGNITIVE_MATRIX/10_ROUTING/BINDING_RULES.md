@@ -1,5 +1,6 @@
 ---
 type: rule
+source: 25_COGNITIVE_MATRIX/10_ROUTING
 artifact_id: AMOS-CM-10-ROUTING-BINDING-RULES
 title: "10_ROUTING — Binding Rules"
 
@@ -39,7 +40,7 @@ gmef_role: "- ROUTING_GOVERNANCE_BOUNDARY
   - BINDING_POLICY_GATE
   - CAPABILITY_SELECTION_GATE..."
 hml_scope: "see body"
-tags: [identity:, cognitive_matrix, matrix, AMOS, AMOS_OS, AMOS_CORE, AMOS_CORE_v4_4, COGNITIVE_MATRIX, ROUTING, BINDING_RULES]
+tags: [{'identity':-None}, cognitive_matrix, matrix, AMOS, AMOS_OS, AMOS_CORE, AMOS_CORE_v4_4, COGNITIVE_MATRIX, ROUTING, BINDING_RULES, canon/cognitive-matrix]
 
 architecture: "see body"---
 
@@ -55,8 +56,13 @@ architecture: "see body"---
 > **Conclusion class:** `UNKNOWN/GAP`
 >
 > **AMOS_CORE target:** `v4.4`
-
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 0. Purpose
 
@@ -3056,7 +3062,7 @@ UNBOUND
 
 ```
 
-This contract keeps routing aligned with the AMOS Full Brain OS integrity boundary: route only what is materially needed, preserve provenance/scope/regime constraints, expose ambiguity instead of forcing a fluent selection, and never let capability selection become authority. :contentReference[oaicite:0]{index=0}
+This contract keeps routing aligned with the AMOS Full Brain OS integrity boundary: route only what is materially needed, preserve provenance/scope/regime constraints, expose ambiguity instead of forcing a fluent selection, and never let capability selection become authority.
 ```
 
 ---

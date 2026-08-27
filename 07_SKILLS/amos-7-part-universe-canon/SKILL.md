@@ -1,7 +1,14 @@
 ---
 title: SKILL
 type: note
-tags: [note, amos-7-part-universe-canon]
+source: 07_SKILLS/amos-7-part-universe-canon
+tags: [note, amos-7-part-universe-canon, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
 
 
@@ -41,7 +48,7 @@ tags: [note, amos-7-part-universe-canon]
 - **Definition:** Constrained throughput across a system. Flow is not possession. Flow is conversion under limits.
 - **Properties:** Input → transformation → output · Bottlenecks · Leakage · Queues
 - **Examples:** Energy through matter, blood through organs, supplies through armies, capital through economies
-- **⚠️ GENUINE GAP:** The vault has no first-class canon for Flow. This is the single most valuable addition this canon makes.
+- **️ GENUINE GAP:** The vault has no first-class canon for Flow. This is the single most valuable addition this canon makes.
 
 ### Part III — Structure
 - **What holds flow together**
@@ -90,3 +97,62 @@ The 7-part canon's Enforcement (Part IV) directly gates the AMOS_OS Law Stack:
 
 ---
 **MOC:** [[amos-7-part-universe-canon_MOC]]
+
+## Examples
+
+- **Scenario**: When auditing whether a theory, system, institution, or explanation is structurally complete (must answer all 7 parts)
+  - **Input**: A query matching this skill's domain ()
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When analyzing why a system emerges, operates, changes, survives, collapses, or recovers
+  - **Input**: A query matching this skill's domain ()
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When identifying the genuine gap (Part II — Flow) that no other canon first-class covers
+  - **Input**: A query matching this skill's domain ()
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the  domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Peers**: Other skills in the `` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+

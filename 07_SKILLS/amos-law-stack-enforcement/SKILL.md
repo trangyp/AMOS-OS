@@ -1,7 +1,14 @@
 ---
 title: SKILL
 type: note
-tags: [note, amos-law-stack-enforcement]
+source: 07_SKILLS/amos-law-stack-enforcement
+tags: [note, amos-law-stack-enforcement, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
 
 
@@ -51,3 +58,62 @@ This skill enforces the **Law of Law™/Rule of 2™/Rule of 4™** — the most
 
 ---
 **MOC:** [[amos-law-stack-enforcement_MOC]]
+
+## Examples
+
+- **Scenario**: When validating whether a system's rules hold across scale transitions
+  - **Input**: A query matching this skill's domain ()
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When checking if a proposed law adheres to the Law of Law™/Rule of 2™/Rule of 4™ hierarchy
+  - **Input**: A query matching this skill's domain ()
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When a draft law short-circuits the canonical order: LoL→R2→R4 (contradictory drafts fail gate)
+  - **Input**: A query matching this skill's domain ()
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the  domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Peers**: Other skills in the `` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+

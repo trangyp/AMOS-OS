@@ -1,15 +1,18 @@
 ---
 title: THE ECOSYSTEM
-tags: [system, architecture, design]
+tags: [system, architecture, design, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/system
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
+
 ---
 
 
-
-
-
-# **🌍 The Complete Ecosystem**
+# **The Complete Ecosystem**
 > **We don’t sell technology. We reduce operational risk and wasted effort in fast-growing Vietnamese companies. Technology is just one of the tools.**
 _Compassion without standards is not kindness — it’s confusion._
 ### **1\. Planetary Foundation**
@@ -119,7 +122,7 @@ _Compassion without standards is not kindness — it’s confusion._
 
 This structure creates the **Signal Economy Stack** — a fully integrated planetary infrastructure.
 * * *
-# **🌍 The Scoring Layer: The Crown of the Signal Economy**
+# **The Scoring Layer: The Crown of the Signal Economy**
 At the heart of the ecosystem lies the **Scoring Layer** , or **Trust Stack**. This layer transforms raw signals into **indices** that are universally understandable, comparable, and tradable. It is the **planetary dashboard** that closes the loop between capture, consent, intelligence, and economy.
 ### **The Core Indices**
   1. **Personal Trust Index (PTI)**
@@ -165,7 +168,7 @@ At the heart of the ecosystem lies the **Scoring Layer** , or **Trust Stack**. T
 
 
 * * *
-# **🚀 Why This Matters**
+# **Why This Matters**
   * Without these indices, PCI and the Signal Economy are **just infrastructure**.
 
 
@@ -179,7 +182,7 @@ At the heart of the ecosystem lies the **Scoring Layer** , or **Trust Stack**. T
 
 
 * * *
-# **📊 Ecosystem + Scoring Layer Map**
+# **Ecosystem + Scoring Layer Map**
 ```
     flowchart TB
         subgraph L1["Layer 1 — Capture"]
@@ -241,7 +244,7 @@ At the heart of the ecosystem lies the **Scoring Layer** , or **Trust Stack**. T
     
 ```
 * * *
-# **🌐 The Value Creation Flywheel**
+# **The Value Creation Flywheel**
 The **Signal Economy™** grows like a living organism — one loop at a time. Each turn of the flywheel strengthens trust, adoption, and revenue, while pulling in more signals to fuel the next cycle.
 ### **1\. Signals Captured**
 It begins with signals: from humans, machines, organisations, and the planet.
@@ -336,7 +339,7 @@ As adoption grows, more devices, people, and organisations connect their signals
 
 This expansion is **self-reinforcing** — the more the system is used, the more valuable it becomes.
 * * *
-## **🚀 Why This Works**
+## **Why This Works**
 The flywheel compounds because **trust fuels adoption, and adoption fuels trust**. Unlike traditional platforms that rely on centralised control, this system builds monopoly power through **protocol-level trust**.
 It scales across finance, insurance, healthcare, energy, and talent — the highest-value sectors of the global economy.
 In the 20th century, money was the base unit of trust.
@@ -759,7 +762,7 @@ Each sector feeds signals back into the ledger, accelerating trust, adoption, an
 * * *
 💡 **Investor Framing:** This is a **multi-tens-of-billions annual revenue opportunity** , spanning SaaS, transaction fees, certification markets, and sovereign benchmarks. The Signal Economy has the potential to be as big as Visa, Moody’s, and LinkedIn — **combined into one planetary infrastructure layer**.
 * * *
-## **✅ Accurate Foundations (based on real markets)**
+## **Accurate Foundations (based on real markets)**
   * **HR Tech ($40B/year)** and **Digital Health ($80B/year)** are well-documented global markets with strong growth rates. Capturing **0.5–1%** is realistic for an ambitious entrant.
 
 
@@ -773,7 +776,7 @@ Each sector feeds signals back into the ledger, accelerating trust, adoption, an
 
 
 * * *
-## **⚖️ Where It’s Extrapolated (visionary but not yet proven)**
+## **️ Where It’s Extrapolated (visionary but not yet proven)**
   * The **Signal Economy architecture** (signals + consent + scoring) doesn’t exist yet — so capture rates (1–2% of global flows) are **strategic assumptions** , not certainties.
 
 
@@ -784,7 +787,7 @@ Each sector feeds signals back into the ledger, accelerating trust, adoption, an
 
 
 * * *
-## **🔍 Accuracy Summary**
+## **Accuracy Summary**
   * The **market sizes and percentage assumptions are accurate** relative to industry benchmarks.
 
 
@@ -803,3 +806,6 @@ _Compassion without standards is not kindness — it’s confusion._
 
 ---
 **MOC:** [[SYSTEM_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

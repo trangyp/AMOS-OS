@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-arxiv-autonomous-scientific-knowledge-rscf]
+source: 07_SKILLS/amos-arxiv-autonomous-scientific-knowledge-rscf/references
+tags: [reference, amos-arxiv-autonomous-scientific-knowledge-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -218,3 +225,8 @@ GOOD: Approximately 80% of the ~100,000 vag
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]
+```

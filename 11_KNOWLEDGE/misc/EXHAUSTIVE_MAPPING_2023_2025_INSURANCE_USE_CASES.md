@@ -1,15 +1,18 @@
 ---
 title: EXHAUSTIVE MAPPING 2023 2025 INSURANCE USE CASES
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
-# 🔹 Exhaustive Mapping: 2023–2025 Insurance Use Cases to UBI
+# Exhaustive Mapping: 2023–2025 Insurance Use Cases to UBI
 * * *
 ### 1\. **Health & Wellness Management**
 **Industry Focus** : Personalized wellness programs, prevention over treatment
@@ -109,7 +112,7 @@ source: 11_KNOWLEDGE/misc
 
 ➡️ **2025 Shift** : New underwriting benchmark = **measurable nervous system alignment**.
 * * *
-## 🔹 Summary Table
+## Summary Table
 |                             |
 | Use Case                    | Replaced By UBI With…                                        |
 |-----------------------------|--------------------------------------------------------------|
@@ -123,7 +126,7 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## ✅ Strategic Implication for Insurers (2025–2030)
+## Strategic Implication for Insurers (2025–2030)
 Insurers who adopt UBI and NeuroSyncAI™:
   * Drastically **reduce risk exposure**
 

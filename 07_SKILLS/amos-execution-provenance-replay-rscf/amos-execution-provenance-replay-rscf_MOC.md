@@ -1,8 +1,15 @@
 ---
 title: "Amos-Execution-Provenance-Replay-Rscf MOC"
 type: moc
-tags: [moc, amos-execution-provenance-replay-rscf]
+source: 07_SKILLS/amos-execution-provenance-replay-rscf
+tags: [moc, amos-execution-provenance-replay-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Execution-Provenance-Replay-Rscf — Map of Content
 

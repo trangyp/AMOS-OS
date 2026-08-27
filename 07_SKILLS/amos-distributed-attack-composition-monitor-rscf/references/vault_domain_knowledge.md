@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-distributed-attack-composition-monitor-rscf]
+source: 07_SKILLS/amos-distributed-attack-composition-monitor-rscf/references
+tags: [reference, amos-distributed-attack-composition-monitor-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -182,3 +189,7 @@ If you want to retrieve multiple values in single column
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

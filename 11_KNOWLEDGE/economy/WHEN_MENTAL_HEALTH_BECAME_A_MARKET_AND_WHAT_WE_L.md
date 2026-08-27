@@ -1,12 +1,15 @@
 ---
 title: WHEN MENTAL HEALTH BECAME A MARKET AND WHAT WE L
-tags: [economy, finance, market]
+tags: [economy, finance, market, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/economy
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: economic_model
+
 ---
-
-
-
 
 
 # **When Mental Health Became a Market — and What We Lost About Being Human**

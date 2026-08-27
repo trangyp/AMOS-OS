@@ -1,12 +1,15 @@
 ---
 title: UNIVERSE
-tags: [universe-cosmos, universe, cosmos]
+tags: [universe-cosmos, universe, cosmos, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/universe-cosmos
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: universe_cosmos
+
 ---
-
-
-
 
 
 # Final universe

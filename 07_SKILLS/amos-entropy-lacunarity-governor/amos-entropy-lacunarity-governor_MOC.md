@@ -1,8 +1,15 @@
 ---
 title: "Amos-Entropy-Lacunarity-Governor MOC"
 type: moc
-tags: [moc, amos-entropy-lacunarity-governor]
+source: 07_SKILLS/amos-entropy-lacunarity-governor
+tags: [moc, amos-entropy-lacunarity-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Entropy-Lacunarity-Governor — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: "31 Multi Agent Modes MOC"
 type: moc
-tags: [moc, 31-multi-agent-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/31_MULTI_AGENT_MODES
+tags: [moc, 31-multi-agent-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 31 Multi Agent Modes — Map of Content
 

@@ -1,12 +1,15 @@
 ---
 title: WHY SPEED IS A MORAL DECISION
-tags: [speed, performance, optimization]
+tags: [speed, performance, optimization, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/speed
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: performance_optimization
+
 ---
-
-
-
 
 
 # **Why Speed Is a Moral Decision**

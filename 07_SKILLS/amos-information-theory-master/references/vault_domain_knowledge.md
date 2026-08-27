@@ -1,22 +1,5 @@
 ---
-title: vault domain knowledge
-type: reference
-tags: [reference, amos-information-theory-master]
----
-
-# amos-information-theory-master — Vault-Sourced Domain Knowledge
-
-> Load this reference only when detailed domain knowledge is needed.
-> This content was moved from SKILL.md for progressive loading.
-
----
-
-> **Source**: `01_CANON/01_CORE_LAWS/L6_UNCERTAINTY.md` from the AMOS_OS Obsidian vault.
-> This is substantive domain knowledge, not script-generated content.
-
-```markdown
----
-tags: ['canon', 'core_laws', 'uncertainty', 'confidence', 'unknown', 'competing', 'rscf', 'governance']
+tags: ['canon', 'core_laws', 'uncertainty', 'confidence', 'unknown', 'competing', 'rscf', 'governance', canon/skill]
 title: "L6 Uncertainty Laws"
 origin_architect: "Trang Phan"
 updated: "2026-08-26"
@@ -24,7 +7,15 @@ status: "PROPOSED_SPECIFICATION"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "CONDITIONAL"
 implementation_status: "LOGIC_EXECUTABLE_IN_PART"
+type: document
+source: 07_SKILLS/amos-information-theory-master/references
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L6 Uncertainty Laws
 
@@ -958,8 +949,6 @@ Examples:
 * unknown target identity;
 
 
-
-
 ## Vault-Sourced Domain Content
 
 > Source: `01_CANON/01_CORE_LAWS/L6_UNCERTAINTY.md` (54038 bytes in vault)
@@ -1503,3 +1492,7 @@ Absent a recognized stro
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

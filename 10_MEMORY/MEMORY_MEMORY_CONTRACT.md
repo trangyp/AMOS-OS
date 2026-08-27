@@ -1,9 +1,14 @@
 ---
 title: MEMORY MEMORY CONTRACT
 type: memory
-tags: [amos_os, 10_memory]
+source: 10_MEMORY
+tags: [amos_os, 10_memory, canon/memory]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # MEMORY MEMORY CONTRACT

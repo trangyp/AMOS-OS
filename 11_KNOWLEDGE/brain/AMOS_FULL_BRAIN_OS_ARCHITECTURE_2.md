@@ -1,8 +1,14 @@
 ---
 type: doc
+source: 11_KNOWLEDGE/brain
 title: Bridge to AMOS Full Brain OS Architecture
 created: 2026-08-22
 tags: [canon-group/tech-ai, canon/os-module, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-full-brain-os-architecture, brain]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
 ---
 
 
@@ -26,3 +32,6 @@ Resolved to: `amos-general/0/00_AMOS_Full_Brain_OS_Architecture.md`
 
 ---
 **MOC:** [[BRAIN_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

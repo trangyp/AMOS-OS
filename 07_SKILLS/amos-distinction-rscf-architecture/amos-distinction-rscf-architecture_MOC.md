@@ -1,8 +1,15 @@
 ---
 title: "Amos-Distinction-Rscf-Architecture MOC"
 type: moc
-tags: [moc, amos-distinction-rscf-architecture]
+source: 07_SKILLS/amos-distinction-rscf-architecture
+tags: [moc, amos-distinction-rscf-architecture, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Distinction-Rscf-Architecture — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, arxiv-flow-matching-generative-rscf]
+source: 07_SKILLS/arxiv-flow-matching-generative-rscf/references
+tags: [reference, arxiv-flow-matching-generative-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -136,3 +143,7 @@ N=54 neurotypical, N=633 ADHD, N=240 autism, N=200 dyslexic, N=50 twice-exceptio
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

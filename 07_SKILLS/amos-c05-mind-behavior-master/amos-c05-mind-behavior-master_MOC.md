@@ -1,8 +1,15 @@
 ---
 title: "Amos-C05-Mind-Behavior-Master MOC"
 type: moc
-tags: [moc, amos-c05-mind-behavior-master]
+source: 07_SKILLS/amos-c05-mind-behavior-master
+tags: [moc, amos-c05-mind-behavior-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-C05-Mind-Behavior-Master — Map of Content
 

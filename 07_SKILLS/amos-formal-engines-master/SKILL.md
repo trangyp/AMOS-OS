@@ -1,14 +1,22 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-formal-engines-master
 name: amos-formal-engines-master
 description: AMOS Formal Engines — MURK 19x19, Go Board 19x19, tensor composition, formal specifications, proof systems. 6 typed tensors (T_R, T_F, T_E, T_C, T_G, T_M) with 5-check axis table. Use for formal re...
 parent_skill: none
 domain: formal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-formal-engines-master]
+tags: [note, amos-formal-engines-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
+
 
 # L02_ATTENTION — Purpose
 
@@ -91,3 +99,88 @@ The Go Board 19x19 is a formal system implementing 62+ sections from a 75-sectio
 - **Aji system**: DAG with half-life and latent threat tracking
 - **Memory system**: decay, classes, prio
 - [[AGENT_TEMPLATE]]
+
+---
+**MOC:** [[amos-formal-engines-master_MOC]]
+
+## Examples
+
+- **Scenario**: When performing formal verification, symbolic execution, proof checking, or mathematical reasoning
+  - **Input**: A query matching this skill's domain (formal)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When using MURK 19x19 interaction matrix for absolute logic reasoning
+  - **Input**: A query matching this skill's domain (formal)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When using Go Board 19x19 for compositional game-theoretic analysis
+  - **Input**: A query matching this skill's domain (formal)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the formal domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[none]]` — routes to this skill when formal specialization is needed
+- **Peers**: Other skills in the `formal` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/11k_murk_audit.md` — loaded on demand
+- `references/amatrix_dynamics.md` — loaded on demand
+- `references/constraint_engine.md` — loaded on demand
+- `references/equation_firewall.md` — loaded on demand
+- `references/murk_engine_expansion.md` — loaded on demand
+- `references/omega_advanced_tensor_analysis.md` — loaded on demand
+- `references/qfm_adversarial_hardening.md` — loaded on demand
+- `references/qfm_architecture_refinement.md` — loaded on demand
+- `references/qfm_consolidation.md` — loaded on demand
+- `references/qfm_five_layer_architecture.md` — loaded on demand
+- `references/qfm_max_power_consolidation.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `references/tensor_composition_governance.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `[[amos-formal-engines-master_MOC]]` — skill Map of Content
+- `[[none]]` — parent skill
+- `[[amos-formal-engines-master-workflow]]` — corresponding workflow
+- `[[amos-formal-engines-master-agent]]` — corresponding agent
+

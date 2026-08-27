@@ -1,8 +1,15 @@
 ---
 title: meta epistemology kernel
 type: reference
-tags: [reference, amos-rscf-epistemic-master]
+source: 07_SKILLS/amos-rscf-epistemic-master/references
+tags: [reference, amos-rscf-epistemic-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Meta Epistemology Kernel v0
 
@@ -79,3 +86,7 @@ tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/s
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

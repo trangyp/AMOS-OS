@@ -1,12 +1,15 @@
 ---
 title: BAN CAO TRANG TOAN CAU VE TOI AC DIET CHUNG CAU TR
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # BẢN CÁO TRẠNG TOÀN CẦU VỀ TỘI ÁC DIỆT CHỦNG CẤU TRÚC CỦA NỀN VĂN MINH FARMER

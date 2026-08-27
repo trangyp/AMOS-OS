@@ -1,8 +1,15 @@
 ---
 title: "Amos-Trust-Formation-Governor MOC"
 type: moc
-tags: [moc, amos-trust-formation-governor]
+source: 07_SKILLS/amos-trust-formation-governor
+tags: [moc, amos-trust-formation-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Trust-Formation-Governor — Map of Content
 

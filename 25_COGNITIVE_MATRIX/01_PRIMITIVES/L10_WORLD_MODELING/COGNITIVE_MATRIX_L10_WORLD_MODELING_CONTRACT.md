@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX L10 WORLD MODELING CONTRACT
 type: cognitive
-tags: [cognitive_matrix, primitives, l10_world_modeling, contract]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING
+tags: [cognitive_matrix, primitives, l10_world_modeling, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # L10_WORLD_MODELING — World modeling Contract
@@ -52,3 +57,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L10_WORLD_MODELING_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

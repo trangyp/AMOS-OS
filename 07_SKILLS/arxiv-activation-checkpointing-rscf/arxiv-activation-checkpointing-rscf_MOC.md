@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Activation-Checkpointing-Rscf MOC"
 type: moc
-tags: [moc, arxiv-activation-checkpointing-rscf]
+source: 07_SKILLS/arxiv-activation-checkpointing-rscf
+tags: [moc, arxiv-activation-checkpointing-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Activation-Checkpointing-Rscf — Map of Content
 

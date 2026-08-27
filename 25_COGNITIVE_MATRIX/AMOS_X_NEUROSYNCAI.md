@@ -1,14 +1,4 @@
 ---
-title: AMOS X NeuroSyncAI
-type: note
-tags: [note, cognitive-matrix, neurosyncai]
----
-
-
-Below is the full populated Markdown for `AMOS_X_NEUROSYNCAI.md`, replacing the placeholder with the substantive NeuroSyncAI framework rather than the matrix-only representation. It is grounded in the native Drive source family: the Dual-System Architecture defines NeuroSyncAI as a source-described deterministic infrastructure built around four UBI domains, diagnostic and reflection/enforcement models, and a detect → reflect → aligned output → reject compensation/noise → reassess loop; the Certifiable Intelligence Infrastructure source adds the five-tier stack and nine operational principles, including **Self-Auditing Before Output**.  
-
-````markdown
----
 title: "AMOS × NeuroSyncAI"
 artifact: "AMOS_X_NEUROSYNCAI.md"
 artifact_id: "amos_25_cognitive_matrix_amos_x_neurosyncai"
@@ -22,8 +12,7 @@ segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "ARTIFACT"
 path: "25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI.md"
 
-tags:
-  - amos_os
+tags: [- amos_os, canon/cognitive-matrix]
   - 25_cognitive_matrix
   - artifact
   - neurosyncai
@@ -81,7 +70,15 @@ epistemic_boundary:
   runtime_determinism: "NOT_ESTABLISHED"
   certification: "NOT_ESTABLISHED"
   deployment: "NOT_ESTABLISHED"
+type: document
+source: 25_COGNITIVE_MATRIX
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # AMOS × NeuroSyncAI
 
@@ -408,21 +405,7 @@ This decomposition is required because a system may satisfy some forms of determ
 
 Strict reproducibility requires defining the full effective input.
 
-$$
-I_{eff}
-=
-I_u
-+
-M
-+
-ID
-+
-C
-+
-V
-+
-E
-$$
+$$I_{eff} = I_u + M + ID + C + V + E$$
 
 where:
 
@@ -482,12 +465,7 @@ measure deviation
 
 AMOS translates the architecture into a state-estimation function:
 
-$$
-\mathcal D:
-O_t
-\rightarrow
-\hat X_t
-$$
+$$\mathcal D: O_t \rightarrow \hat X_t$$
 
 where:
 
@@ -498,9 +476,7 @@ X̂_t = estimated state
 
 Critical invariant:
 
-$$
-\hat X_t \neq X_{true}
-$$
+$$\hat X_t \neq X_{true}$$
 
 An estimated state is not direct access to reality.
 
@@ -651,16 +627,7 @@ because they have different governance burdens.
 
 Conceptually:
 
-$$
-Y_t
-=
-\mathcal R(
-\hat X_t,
-I_t,
-M_t,
-G_t
-)
-$$
+$$Y_t = \mathcal R( \hat X_t, I_t, M_t, G_t )$$
 
 where:
 
@@ -680,16 +647,7 @@ Y  = candidate reflection
 
 Conceptually:
 
-$$
-A_t
-=
-\mathcal E(
-Y_t,
-Auth_t,
-V_t,
-Risk_t
-)
-$$
+$$A_t = \mathcal E( Y_t, Auth_t, V_t, Risk_t )$$
 
 with result:
 
@@ -791,16 +749,7 @@ These form the source biological state architecture.
 
 AMOS normalization:
 
-$$
-X^{UBI}
-=
-[
-N_b,
-N_e,
-S_o,
-B_e
-]
-$$
+$$X^{UBI} = [ N_b, N_e, S_o, B_e ]$$
 
 where:
 
@@ -1037,24 +986,11 @@ The source states that severe dysfunction may involve multiple domains simultane
 
 AMOS represents:
 
-$$
-X_{system}
-=
-[
-X_{NB},
-X_{NE},
-X_S,
-X_{BE}
-]
-$$
+$$X_{system} = [ X_{NB}, X_{NE}, X_S, X_{BE} ]$$
 
 Cross-domain interaction may be modeled as:
 
-$$
-K_{ij}
-=
-Influence(D_i,D_j)
-$$
+$$K_{ij} = Influence(D_i,D_j)$$
 
 but all such coefficients remain:
 
@@ -1345,9 +1281,7 @@ AMOS maps this to a dependency graph.
 
 # 40. Logic Graph
 
-$$
-G_L=(V,E)
-$$
+$$G_L=(V,E)$$
 
 where:
 
@@ -1362,13 +1296,9 @@ Each conclusion inherits the validity of load-bearing nodes.
 
 # 41. Dependency Closure
 
-For conclusion \(C\):
+For conclusion $C$:
 
-$$
-Closure(C)
-=
-\{p_i : p_i \leadsto C\}
-$$
+$$Closure(C) = \{p_i : p_i \leadsto C\}$$
 
 AMOS validates the smallest result-changing dependency closure.
 
@@ -1444,19 +1374,7 @@ AMOS adds explicit provenance, scope, regime, and authority checks.
 
 # 45. Audit Vector
 
-$$
-A=
-[
-P,
-I,
-M,
-L,
-T,
-S,
-R,
-Auth
-]
-$$
+$$A= [ P, I, M, L, T, S, R, Auth ]$$
 
 where:
 
@@ -1957,20 +1875,7 @@ scientific source exists
 
 AMOS represents NeuroSyncAI system state as:
 
-$$
-X_t
-=
-(
-B_t,
-I_t,
-M_t,
-L_t,
-T_t,
-A_t,
-P_t,
-G_t
-)
-$$
+$$X_t = ( B_t, I_t, M_t, L_t, T_t, A_t, P_t, G_t )$$
 
 where:
 
@@ -1989,19 +1894,7 @@ G = governance
 
 # 68. State Transition Function
 
-$$
-X_{t+1}
-=
-\mathcal T(
-X_t,
-O_t,
-M_t,
-I_t,
-R_t,
-Auth_t,
-E_t
-)
-$$
+$$X_{t+1} = \mathcal T( X_t, O_t, M_t, I_t, R_t, Auth_t, E_t )$$
 
 where:
 
@@ -2018,19 +1911,7 @@ E = evidence
 
 # 69. Transition Validity
 
-$$
-Valid(X_{t+1})
-=
-I_{logic}
-\land
-I_{identity}
-\land
-I_{provenance}
-\land
-I_{scope}
-\land
-I_{authority}
-$$
+$$Valid(X_{t+1}) = I_{logic} \land I_{identity} \land I_{provenance} \land I_{scope} \land I_{authority}$$
 
 If any critical invariant fails:
 
@@ -2128,15 +2009,7 @@ RELEVANT != AUTHORIZED
 
 These three structures form a core governance triad.
 
-$$
-G_{IMT}
-=
-Identity
-\times
-Memory
-\times
-Task
-$$
+$$G_{IMT} = Identity \times Memory \times Task$$
 
 Example:
 
@@ -2155,9 +2028,7 @@ Example:
 
 NeuroSyncAI evidence must remain ancestry-aware.
 
-$$
-G_P=(V,E)
-$$
+$$G_P=(V,E)$$
 
 Node types:
 
@@ -2248,17 +2119,7 @@ SOURCE_CLAIM
 
 AMOS requires authority to remain separate from identity and capability.
 
-$$
-Authorized
-=
-Capability
-\land
-Authority
-\land
-Scope
-\land
-EpochValidity
-$$
+$$Authorized = Capability \land Authority \land Scope \land EpochValidity$$
 
 ---
 
@@ -2682,14 +2543,7 @@ NO LEARNING != NO DRIFT
 
 # 98. Drift Model
 
-$$
-Drift_t
-=
-distance(
-State_{baseline},
-State_t
-)
-$$
+$$Drift_t = distance( State_{baseline}, State_t )$$
 
 Exact distance metrics depend on state type.
 
@@ -2762,16 +2616,7 @@ rather than preserving finality blindly.
 
 An integrated UBI conclusion should read a consistent state snapshot.
 
-$$
-Snapshot_t
-=
-(
-NB_t,
-NE_t,
-S_t,
-BE_t
-)
-$$
+$$Snapshot_t = ( NB_t, NE_t, S_t, BE_t )$$
 
 Avoid materially inconsistent reads such as:
 
@@ -3186,15 +3031,11 @@ ProofCapsule:
 
 # 119. Confidence Ceiling
 
-For conclusion \(C\):
+For conclusion $C$:
 
-$$
-Confidence(C)
-\le
-\min_i Confidence(P_i)
-$$
+$$Confidence(C) \le \min_i Confidence(P_i)$$
 
-for load-bearing premises \(P_i\), unless independently revalidated.
+for load-bearing premises $P_i$, unless independently revalidated.
 
 A detailed architecture description cannot raise the confidence of an unvalidated biological mechanism.
 
@@ -4339,9 +4180,9 @@ RSCF-RELATIONS:
 
 ```
 
-The most important source-backed elements above are not inferred from the file names: the Dual-System source explicitly defines the four UBI domains, the two functional models, the fixed-output/no-adaptation/no-learning positioning, the biological failure model, and the detect → reflect → structurally aligned output → reject compensation/noise → reassess loop. :contentReference[oaicite:3]{index=3} The certifiable-infrastructure source separately defines the five tiers, identity governance, memory-integrated reasoning, task finality, traceability, structural audit, metacognitive regulation, and all nine operational principles. :contentReference[oaicite:4]{index=4} 
+The most important source-backed elements above are not inferred from the file names: the Dual-System source explicitly defines the four UBI domains, the two functional models, the fixed-output/no-adaptation/no-learning positioning, the biological failure model, and the detect → reflect → structurally aligned output → reject compensation/noise → reassess loop. The certifiable-infrastructure source separately defines the five tiers, identity governance, memory-integrated reasoning, task finality, traceability, structural audit, metacognitive regulation, and all nine operational principles. 
 
-I preserved the strongest biological, clinical, deterministic, deployment, and certifiability statements as **source claims/models** rather than silently promoting them to verified empirical facts. That distinction is especially important because the source itself makes strong claims about trauma, PTSD, burnout, diagnostics, nervous-system recovery, deterministic certainty, sovereign deployment, and certification. :contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7}
+I preserved the strongest biological, clinical, deterministic, deployment, and certifiability statements as **source claims/models** rather than silently promoting them to verified empirical facts. That distinction is especially important because the source itself makes strong claims about trauma, PTSD, burnout, diagnostics, nervous-system recovery, deterministic certainty, sovereign deployment, and certification.
 ```
 
 ---

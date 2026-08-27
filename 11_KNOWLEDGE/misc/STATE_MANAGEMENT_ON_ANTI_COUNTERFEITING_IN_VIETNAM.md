@@ -1,12 +1,15 @@
 ---
 title: STATE MANAGEMENT ON ANTI COUNTERFEITING IN VIETNAM
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **State Management on Anti-Counterfeiting in Vietnam: Strategic Directions and Solutions**

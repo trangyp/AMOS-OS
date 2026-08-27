@@ -1,8 +1,15 @@
 ---
 title: "Amos-Skill-Builder MOC"
 type: moc
-tags: [moc, amos-skill-builder]
+source: 07_SKILLS/amos-skill-builder
+tags: [moc, amos-skill-builder, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Skill-Builder — Map of Content
 

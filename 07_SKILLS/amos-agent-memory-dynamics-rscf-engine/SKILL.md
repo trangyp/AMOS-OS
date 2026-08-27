@@ -1,13 +1,20 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine
 name: amos-agent-memory-dynamics-rscf-engine
 description: Agent Memory Dynamics — memory systems capability. Use when memory management, context continuity, or memory conflict resolution. Use when amos-memory-systems-master routes to this specialized capability.
 parent_skill: amos-memory-systems-master
 domain: memory
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-agent-memory-dynamics-rscf-engine]
+tags: [note, amos-agent-memory-dynamics-rscf-engine, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
 
 
@@ -106,3 +113,77 @@ AMOS has 36 agents organized into 7 canonical systems. This
 
 ---
 **Links:** [[07_SKILLS_MOC]]
+
+## Related
+
+- [[amos-agent-memory-dynamics-rscf-engine_MOC]]
+
+## Examples
+
+- **Scenario**: When managing memory: storage, retrieval, decay, consolidation
+  - **Input**: A query matching this skill's domain (memory)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When resolving memory conflicts: contradictions, staleness, priority
+  - **Input**: A query matching this skill's domain (memory)
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When enforcing memory firewall: preventing unauthorized access
+  - **Input**: A query matching this skill's domain (memory)
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the memory domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[amos-memory-systems-master]]` — routes to this skill when memory specialization is needed
+- **Peers**: Other skills in the `memory` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/amos-agent-memory-dynamics-rscf-engine_code.md` — loaded on demand
+- `references/references_MOC.md` — loaded on demand
+- `[[amos-agent-memory-dynamics-rscf-engine_MOC]]` — skill Map of Content
+- `[[amos-memory-systems-master]]` — parent skill
+- `[[amos-agent-memory-dynamics-rscf-engine-workflow]]` — corresponding workflow
+- `[[amos-agent-memory-dynamics-rscf-engine-agent]]` — corresponding agent
+

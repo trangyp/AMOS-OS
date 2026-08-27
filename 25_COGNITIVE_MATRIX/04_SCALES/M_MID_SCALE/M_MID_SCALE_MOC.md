@@ -1,8 +1,15 @@
 ---
 title: "M Mid Scale MOC"
 type: moc
-tags: [moc, m-mid-scale]
+source: 25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE
+tags: [moc, m-mid-scale, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # M Mid Scale — Map of Content
 

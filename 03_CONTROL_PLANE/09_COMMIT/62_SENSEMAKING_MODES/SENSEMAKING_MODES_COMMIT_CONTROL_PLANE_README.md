@@ -1,9 +1,14 @@
 ---
 title: SENSEMAKING MODES COMMIT CONTROL PLANE README
 type: control-plane
-tags: [control_plane, 62_sensemaking_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/62_SENSEMAKING_MODES
+tags: [control_plane, 62_sensemaking_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # SENSEMAKING MODES COMMIT CONTROL PLANE README
@@ -61,3 +66,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[62_SENSEMAKING_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

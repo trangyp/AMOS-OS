@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Future-Confidence-Distillation-Rscf MOC"
 type: moc
-tags: [moc, arxiv-future-confidence-distillation-rsc]
+source: 07_SKILLS/arxiv-future-confidence-distillation-rscf
+tags: [moc, arxiv-future-confidence-distillation-rsc, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Future-Confidence-Distillation-Rscf — Map of Content
 

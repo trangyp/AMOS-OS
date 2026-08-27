@@ -1,8 +1,15 @@
 ---
 title: "92 Comparison Benchmark Modes MOC"
 type: moc
-tags: [moc, 92-comparison-benchmark-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/92_COMPARISON_BENCHMARK_MODES
+tags: [moc, 92-comparison-benchmark-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 92 Comparison Benchmark Modes — Map of Content
 

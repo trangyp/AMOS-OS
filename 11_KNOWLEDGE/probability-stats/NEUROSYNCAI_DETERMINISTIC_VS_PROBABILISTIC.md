@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — NeuroSyncAI_vs_GenAI.pdf (760KB) + Dual-System.pdf (925KB)"
 origin_architect: "Trang Phan"
 type: research-paper
-tags: [neurosyncai, deterministic, certifiable-intelligence, drift-proof, memory-gating, identity-container, auditability, vs-genai, infrastructure-grade, 5-gate-architecture, probability-stats]
+source: 11_KNOWLEDGE/probability-stats
+tags: [neurosyncai, deterministic, certifiable-intelligence, drift-proof, memory-gating, identity-container, auditability, vs-genai, infrastructure-grade, 5-gate-architecture, probability-stats, canon/knowledge]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: probability_statistics
 ---
 
 

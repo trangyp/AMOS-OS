@@ -1,12 +1,15 @@
 ---
 title: MAP CAC HANG SO E 2 137 432 360 VA L
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # MAP CÁC HẰNG SỐ (π, e, φ, √2, 137, 432, 360…) VÀ LỤC GIÁC, XOẮN ỐC LÊN TRỐNG ĐỒNG ĐÔNG SƠN, TIỀN ĐÔNG SƠN, VÀ CÁC NỀN VĂN MINH CỔ VIỆT NAM

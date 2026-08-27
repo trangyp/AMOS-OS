@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, arxiv-autosota-research-automation-rscf]
+source: 07_SKILLS/arxiv-autosota-research-automation-rscf/references
+tags: [reference, arxiv-autosota-research-automation-rscf, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -163,3 +170,7 @@ All fully specified: architecture, runtime, testing, memory, self_correction, ro
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

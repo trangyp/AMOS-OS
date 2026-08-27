@@ -3,7 +3,14 @@ title: UNIFIED BIOLOGICAL INTELLIGENCE UBI A INFRASTRUCTURE FOR INTELLIGENCE
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/unified-biological-intelligence-ubi-a-ne, logic]
 type: note
 source: 11_KNOWLEDGE/logic
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
+
 ---
+
 
 # UNIFIED BIOLOGICAL INTELLIGENCE UBI A INFRASTRUCTURE FOR INTELLIGENCE
 

@@ -1,13 +1,17 @@
 ---
 title: AMOS X HERITAGE
 type: note
-tags: [note, 25-cognitive-matrix]
+source: 25_COGNITIVE_MATRIX
+tags: [note, 25-cognitive-matrix, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
 Agreed. The previous version was too skeletal. The Drive source is much richer: the primary `heritage_intelligence.md` alone is ~464 KB, and there are multiple Heritage-lineage artifacts, including a ~650 KB `HERITAGE INTELLIGENCE.md`, a ~448 KB `HERITAGE INTELLIGENCE™.md`, and the Heritage ∅ corpus.   
-
-Below is the more appropriate **dense canonical MD**, not a placeholder with a longer table of contents.
 
 ````md
 ---
@@ -393,12 +397,7 @@ independent validation required
 
 The source gives:
 
-$$
-E_{\text{AMOS}}
-=
-B \times \Omega \times \Gamma \times UBI
-\times Coherence \times Stability
-$$
+$$E_{\text{AMOS}} = B \times \Omega \times \Gamma \times UBI \times Coherence \times Stability$$
 
 and associates permitted action with an Integrity threshold.
 
@@ -428,14 +427,7 @@ high.
 
 The source defines:
 
-$$
-Purpose
-=
-Value
-\times Integrity
-\times LifePreservation
-\times TimeHorizon
-$$
+$$Purpose = Value \times Integrity \times LifePreservation \times TimeHorizon$$
 
 This is the transition into **Heritage ∅**.
 
@@ -719,11 +711,7 @@ Inputs include:
 
 Conceptually:
 
-$$
-OpportunityCost(a)
-=
-Return(best\ alternative)-Return(a)
-$$
+$$OpportunityCost(a) = Return(best\ alternative)-Return(a)$$
 
 The actual implementation requires domain-specific definition.
 
@@ -762,15 +750,7 @@ from an initial shock that has not yet been absorbed.
 
 Source formulation:
 
-$$
-RI
-=
-InitialShock
--
-AbsorbedPrice
--
-NarrativeSaturation
-$$
+$$RI = InitialShock - AbsorbedPrice - NarrativeSaturation$$
 
 Interpretation:
 
@@ -815,17 +795,7 @@ without evidence.
 
 Source formulation:
 
-$$
-MEP
-=
-PivotPoint
-+
-\alpha ATR
-+
-\beta Fib
-+
-\gamma P/E_{neutral}
-$$
+$$MEP = PivotPoint + \alpha ATR + \beta Fib + \gamma P/E_{neutral}$$
 
 MEP represents a modeled expectation reference point.
 
@@ -867,15 +837,11 @@ A signal is not assumed to preserve meaning across all environments.
 
 Therefore:
 
-$$
-SignalMeaning = f(Signal, Regime)
-$$
+$$SignalMeaning = f(Signal, Regime)$$
 
 rather than:
 
-$$
-SignalMeaning = f(Signal)
-$$
+$$SignalMeaning = f(Signal)$$
 
 The source refers to seven market regimes.
 
@@ -1093,11 +1059,7 @@ Confidence should respond to historical error.
 
 Conceptually:
 
-$$
-C_{calibrated}
-=
-f(C_{raw}, ErrorHistory, Regime, Reliability)
-$$
+$$C_{calibrated} = f(C_{raw}, ErrorHistory, Regime, Reliability)$$
 
 A model that repeatedly overstates certainty should have future confidence
 reduced.
@@ -1208,15 +1170,7 @@ Heritage separates timing into three principal indicators.
 
 ## TRS — Timing Readiness
 
-$$
-TRS
-=
-EventAlign
-\times AbsorptionState
-\times LiquiditySuitability
-\times SessionQuality
-\times CompressionFit
-$$
+$$TRS = EventAlign \times AbsorptionState \times LiquiditySuitability \times SessionQuality \times CompressionFit$$
 
 Source threshold:
 
@@ -1231,13 +1185,7 @@ calibrated.
 
 ## ATS — Action Timing
 
-$$
-ATS
-=
-SignalStrength
-\times Trust
-\times TRS
-$$
+$$ATS = SignalStrength \times Trust \times TRS$$
 
 Source threshold:
 
@@ -1249,16 +1197,7 @@ ATS > 70% → full action
 
 ## RTS — Reversal Timing
 
-$$
-RTS
-=
-\Omega
-\times F
-\times RemainingInfoDecay
-\times MEPDistance
-\times ExhaustionPattern
-\times TimingAlignment
-$$
+$$RTS = \Omega \times F \times RemainingInfoDecay \times MEPDistance \times ExhaustionPattern \times TimingAlignment$$
 
 Source threshold:
 
@@ -1278,18 +1217,7 @@ SOURCE_THRESHOLD != UNIVERSALLY_VALID_THRESHOLD
 
 The primary source state vector contains seven variables:
 
-$$
-X_H =
-[
-\Omega,
-H,
-F,
-S,
-MEP,
-RI,
-Trust
-]
-$$
+$$X_H = [ \Omega, H, F, S, MEP, RI, Trust ]$$
 
 where:
 
@@ -1309,13 +1237,7 @@ Trust = aggregate trust state
 
 Source formulation:
 
-$$
-\Omega
-=
-\frac{Price-MA50}{\sigma_{50}}w_{vol}
-+
-\frac{RSI-50}{50}w_{rsi}
-$$
+$$\Omega = \frac{Price-MA50}{\sigma_{50}}w_{vol} + \frac{RSI-50}{50}w_{rsi}$$
 
 Purpose:
 
@@ -1337,15 +1259,7 @@ It is one state component.
 
 Source formulation:
 
-$$
-H
-=
-\frac{
-\sum 1[sign(L_i)=sign(consensus)]w_i
-}{
-\sum w_i
-}
-$$
+$$H = \frac{ \sum 1[sign(L_i)=sign(consensus)]w_i }{ \sum w_i }$$
 
 `H` measures agreement among signal layers.
 
@@ -1367,13 +1281,7 @@ AMOS therefore requires provenance topology alongside `H`.
 
 Source formulation:
 
-$$
-F
-=
-1-H
-+
-\frac{contradictions}{total\_pairs}
-$$
+$$F = 1-H + \frac{contradictions}{total\_pairs}$$
 
 `F` measures internal disagreement.
 
@@ -1396,15 +1304,7 @@ Contradiction may contain information.
 
 Source formulation:
 
-$$
-S
-=
-\frac{\Delta Price}{\sigma_{short}}
-+
-\frac{\Delta Volume}{VolumeMA}
-+
-NewsScore
-$$
+$$S = \frac{\Delta Price}{\sigma_{short}} + \frac{\Delta Volume}{VolumeMA} + NewsScore$$
 
 Shock measures abrupt displacement.
 
@@ -1450,20 +1350,7 @@ Therefore RI is not assumed monotonic in all environments.
 
 Source formulation:
 
-$$
-Trust
-=
-H
-\times Reliability
-\times RegimeClarity
-\times CrossAlign
--
-F
--
-S
--
-Noise
-$$
+$$Trust = H \times Reliability \times RegimeClarity \times CrossAlign - F - S - Noise$$
 
 This is one of the most important Heritage state variables.
 
@@ -1486,15 +1373,7 @@ provenance-aware
 
 The source defines:
 
-$$
-\boxed{
-RS
-=
-\sum_{i=1}^{13} w_iL_i
--
-\lambda L_{12}
-}
-$$
+$$\boxed{ RS = \sum_{i=1}^{13} w_iL_i - \lambda L_{12} }$$
 
 This attempts to recover decision-relevant signal from the Heritage
 layers while penalizing noise.
@@ -1523,34 +1402,7 @@ The reconstructed signal remains `DERIVED`.
 
 The Heritage source defines:
 
-$$
-Permission =
-\begin{cases}
-Full &
-ATS>70\%,
-Trust>70\%,
-TRS>70\%,
-CollapseProb<30\%
-\\
-Reduced &
-50\%<ATS<70\%,
-Trust>50\%,
-CollapseProb<50\%
-\\
-Bias\ only &
-SignalStrength>60\%,
-Trust<50\%
-\\
-No\ trade &
-Trust<30\%
-\lor ATS<40\%
-\lor CollapseProb>70\%
-\\
-Lockout &
-BlackSwan
-\lor EthicsViolation
-\end{cases}
-$$
+$$Permission = \begin{cases} Full & ATS>70\%, Trust>70\%, TRS>70\%, CollapseProb<30\% \\ Reduced & 50\%<ATS<70\%, Trust>50\%, CollapseProb<50\% \\ Bias\ only & SignalStrength>60\%, Trust<50\% \\ No\ trade & Trust<30\% \lor ATS<40\% \lor CollapseProb>70\% \\ Lockout & BlackSwan \lor EthicsViolation \end{cases}$$
 
 For AMOS this becomes a generic governed-action pattern:
 
@@ -1570,19 +1422,7 @@ The numeric thresholds remain source parameters.
 
 Source formulation:
 
-$$
-CollapseProb
-=
-\sigma(
-\beta_0
-+\beta_1\Omega
-+\beta_2F
-+\beta_3S
-+\beta_4MEPDistance
-+\beta_5RI
-+\beta_6LiquidityFragility
-)
-$$
+$$CollapseProb = \sigma( \beta_0 +\beta_1\Omega +\beta_2F +\beta_3S +\beta_4MEPDistance +\beta_5RI +\beta_6LiquidityFragility )$$
 
 This is structurally a logistic model.
 
@@ -1646,17 +1486,11 @@ I-3  Causality
 
 Source forms include:
 
-$$
-\Delta S \geq 0
-$$
+$$\Delta S \geq 0$$
 
-$$
-I(Y;X) \leq H(Y)
-$$
+$$I(Y;X) \leq H(Y)$$
 
-$$
-t_{cause}<t_{effect}
-$$
+$$t_{cause}<t_{effect}$$
 
 Applicability must respect the underlying scientific definitions.
 
@@ -1672,9 +1506,7 @@ I-6 Recency bias
 
 The source includes:
 
-$$
-w(t)\propto e^{-\lambda t}
-$$
+$$w(t)\propto e^{-\lambda t}$$
 
 for recency weighting.
 
@@ -1737,17 +1569,11 @@ I-15 Coordination breakdown
 
 Source examples include:
 
-$$
-\frac{dM}{dt}
-=
-\beta M(1-M)
-$$
+$$\frac{dM}{dt} = \beta M(1-M)$$
 
 and:
 
-$$
-Attention \propto \frac{1}{rank^\alpha}
-$$
+$$Attention \propto \frac{1}{rank^\alpha}$$
 
 These are model forms, not universal social laws.
 
@@ -2206,11 +2032,7 @@ time horizon
 
 Source equation:
 
-$$
-\boxed{
-Purpose = V \times I \times L \times T
-}
-$$
+$$\boxed{ Purpose = V \times I \times L \times T }$$
 
 where the source defines:
 
@@ -2298,9 +2120,7 @@ A locally beneficial action may be globally destructive over time.
 
 Therefore:
 
-$$
-Value(t_1) \neq Value(t_2)
-$$
+$$Value(t_1) \neq Value(t_2)$$
 
 in general.
 
@@ -3041,12 +2861,13 @@ That boundary is part of the architecture itself.
 
 ```
 
-This is grounded in the actual Drive artifact: it explicitly defines Heritage Intelligence as a multi-layer decision-governance system, gives the six axioms, the T−4→T15 architecture, the ten core signal layers, 15 modules, seven primary state variables, TRS/ATS/RTS, the five principal equations, seven tensors, and the invariant families. :contentReference[oaicite:3]{index=3}
+This is grounded in the actual Drive artifact: it explicitly defines Heritage Intelligence as a multi-layer decision-governance system, gives the six axioms, the T−4→T15 architecture, the ten core signal layers, 15 modules, seven primary state variables, TRS/ATS/RTS, the five principal equations, seven tensors, and the invariant families.
 
-I also deliberately **did not promote the source formulas into verified laws**. For example, the Drive source itself gives `Trust = H × Reliability × RegimeClarity × CrossAlign − F − S − Noise`, the permission thresholds, CollapseProb logistic form, Integrity equation, and Purpose equation; those are faithfully preserved above as Heritage models, while calibration/runtime validity remains separate. :contentReference[oaicite:4]{index=4}
+I also deliberately **did not promote the source formulas into verified laws**. For example, the Drive source itself gives `Trust = H × Reliability × RegimeClarity × CrossAlign − F − S − Noise`, the permission thresholds, CollapseProb logistic form, Integrity equation, and Purpose equation; those are faithfully preserved above as Heritage models, while calibration/runtime validity remains separate.
 
 The next level beyond this would be a true **MAX-detail ingestion** of the hundreds of KB of Heritage source: not 70 sections summarizing it, but extraction of every named law, equation, invariant, version, matrix, tensor, gap, state, threshold, module I/O contract, and Heritage ∅ extension into the RSCF artifact.
 ```
 
 ---
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+```

@@ -1,13 +1,22 @@
 ---
 title: 3A GOVERNANCE ORG STRUCTURE V5
 type: structure
+source: 11_KNOWLEDGE/governance
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: 3a-governance-org-structure-v5
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/3a-governance-org-structure-v5, governance]
 created: 2026-08-22
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: governance_policy
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
+
 
 # 3A GOVERNANCE ORG STRUCTURE V5
 

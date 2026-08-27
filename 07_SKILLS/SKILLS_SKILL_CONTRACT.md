@@ -1,9 +1,14 @@
 ---
 title: SKILLS SKILL CONTRACT
 type: skill
-tags: [amos_os, 07_skills]
+source: 07_SKILLS
+tags: [amos_os, 07_skills, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # SKILLS SKILL CONTRACT

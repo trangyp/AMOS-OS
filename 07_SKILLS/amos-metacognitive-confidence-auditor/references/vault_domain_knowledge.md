@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-metacognitive-confidence-auditor]
+source: 07_SKILLS/amos-metacognitive-confidence-auditor/references
+tags: [reference, amos-metacognitive-confidence-auditor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Vault-Sourced Domain Knowledge
 
@@ -165,4 +172,5 @@ or decisions that require evidence-grounded conclusions.
 ---
 
 ---
+- [[07_SKILLS_MOC]]
 **MOC:** [[references_MOC]]

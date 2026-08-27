@@ -1,5 +1,6 @@
 ---
 type: rule
+source: 00_ROOT
 artifact_id: AMOS-OS-ROOT
 name: AMOS_OS
 title: "AMOS OS — Governed Cognitive Operating Architecture"
@@ -29,7 +30,6 @@ aliases: "- AMOS OS
   - AMOS Cognitive Operating System
   - AMOS Universal Operating..."
 related: "see body"---
-
 
 
 # AMOS OS
@@ -65,8 +65,13 @@ OBSERVATION
 The operating principle is:
 
 > **Integrity > completeness > fluency > speed > token savings.**
-
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
+
 
 # 1. Root Architecture
 

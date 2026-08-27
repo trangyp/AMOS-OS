@@ -1,15 +1,18 @@
 ---
 title: THE TRUST AND SIGNAL ECOSYSTEM
-tags: [system, architecture, design]
+tags: [system, architecture, design, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/system
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
+
 ---
 
 
-
-
-
-# **🌍 The Complete Trust & Signal Ecosystem**
+# **The Complete Trust & Signal Ecosystem**
 ## **Design Principles**
   * **MECE** : Each layer has a single primary responsibility; no overlap.
 
@@ -1484,7 +1487,7 @@ If you want next, I can:
 
 
 Just say which one.
-# **📊 Ecosystem + Scoring Layer Map**
+# **Ecosystem + Scoring Layer Map**
 ```
     flowchart TB
         subgraph L1["Layer 1 — Capture"]
@@ -1770,3 +1773,6 @@ Each sector feeds signals back into the ledger, accelerating trust, adoption, an
 
 ---
 **MOC:** [[SYSTEM_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

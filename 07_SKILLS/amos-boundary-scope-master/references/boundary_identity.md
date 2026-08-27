@@ -1,8 +1,15 @@
 ---
 title: boundary identity
 type: reference
-tags: [reference, amos-boundary-scope-master]
+source: 07_SKILLS/amos-boundary-scope-master/references
+tags: [reference, amos-boundary-scope-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Boundary Identity
 

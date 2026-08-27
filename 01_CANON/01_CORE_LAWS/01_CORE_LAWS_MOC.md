@@ -1,8 +1,15 @@
 ---
 title: "01 Core Laws MOC"
 type: moc
-tags: [moc, 01-core-laws]
+source: 01_CANON/01_CORE_LAWS
+tags: [moc, 01-core-laws, canon/universe]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: core_laws
 ---
+
 
 # 01 Core Laws — Map of Content
 
@@ -80,3 +87,6 @@ tags: [moc, 01-core-laws]
 
 ---
 **Parent:** [[01_CANON_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

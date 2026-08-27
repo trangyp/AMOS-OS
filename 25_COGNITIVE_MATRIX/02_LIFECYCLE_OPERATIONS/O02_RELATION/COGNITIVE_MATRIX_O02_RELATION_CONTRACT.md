@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX O02 RELATION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, lifecycle_operations, o02_relation, contract]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O02_RELATION
+tags: [cognitive_matrix, lifecycle_operations, o02_relation, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # O02_RELATION — Declaring typed relations between objects; relation ≠ similarity.
@@ -47,3 +52,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[O02_RELATION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,7 +1,13 @@
 ---
 title: INDEX CANON CANON CONTRACT
 type: note
-tags: [note, 00-index]
+source: 01_CANON/00_INDEX
+tags: [note, 00-index, canon/universe]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
 
 

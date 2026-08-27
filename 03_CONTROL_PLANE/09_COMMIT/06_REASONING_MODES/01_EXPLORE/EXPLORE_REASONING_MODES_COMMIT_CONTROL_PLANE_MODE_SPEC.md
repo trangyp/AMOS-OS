@@ -1,9 +1,14 @@
 ---
 title: EXPLORE REASONING MODES COMMIT CONTROL PLANE MODE SPEC
 type: control-plane
-tags: [control_plane, 06_reasoning_modes/01_explore]
+source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/01_EXPLORE
+tags: [control_plane, 06_reasoning_modes/01_explore, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # EXPLORE REASONING MODES COMMIT CONTROL PLANE MODE SPEC
@@ -38,3 +43,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[01_EXPLORE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

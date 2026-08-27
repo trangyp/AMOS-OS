@@ -1,11 +1,15 @@
 ---
 title: FRACTAL MATH CONTRACT
-tags: [fractal, math, self-similarity]
+tags: [fractal, math, self-similarity, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/fractal
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: fractal_system
+
 ---
-
-
 
 
 # Fractal Math Contract

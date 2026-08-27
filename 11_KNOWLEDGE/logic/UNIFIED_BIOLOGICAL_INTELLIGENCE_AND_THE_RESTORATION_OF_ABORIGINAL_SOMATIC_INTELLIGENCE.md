@@ -3,7 +3,14 @@ title: UNIFIED BIOLOGICAL INTELLIGENCE AND THE RESTORATION OF ABORIGINAL SOMATIC
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/unified-biological-intelligence-and-the-, logic]
 type: note
 source: 11_KNOWLEDGE/logic
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: logic_kernel
+
 ---
+
 
 # UNIFIED BIOLOGICAL INTELLIGENCE AND THE RESTORATION OF ABORIGINAL SOMATIC INTELLIGENCE
 

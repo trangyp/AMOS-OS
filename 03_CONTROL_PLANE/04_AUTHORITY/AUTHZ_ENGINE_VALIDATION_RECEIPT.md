@@ -1,5 +1,6 @@
 ---
 type: authority
+source: 03_CONTROL_PLANE/04_AUTHORITY
 artifact_id: AMOS-CP-04-AUTHZ-ENGINE-RECEIPT
 title: "AUTHZ Invariant Engine — Execution Receipt"
 artifact_class: VALIDATION_EVIDENCE
@@ -8,7 +9,12 @@ executor: Hermes agent (ox-alpha)
 updated: 2026-08-26
 epistemic_class: DERIVED
 conclusion_class: PARTIAL
-tags: [note, 04-authority]
+tags: [note, 04-authority, canon/control-plane]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: authority_governance
 ---
 
 
@@ -76,3 +82,6 @@ python3 03_CONTROL_PLANE/04_AUTHORITY/authz_invariant_engine.py
 
 ---
 **MOC:** [[04_AUTHORITY_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

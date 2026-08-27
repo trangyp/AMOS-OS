@@ -1,8 +1,15 @@
 ---
 title: "Learning MOC"
 type: moc
-tags: [moc, learning]
+source: 11_KNOWLEDGE/learning
+tags: [moc, learning, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: learning_system
 ---
+
 
 # Learning — Map of Content
 

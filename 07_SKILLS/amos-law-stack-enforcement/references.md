@@ -1,7 +1,13 @@
 ---
 title: references
 type: note
-tags: [note, amos-law-stack-enforcement]
+source: 07_SKILLS/amos-law-stack-enforcement
+tags: [note, amos-law-stack-enforcement, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 

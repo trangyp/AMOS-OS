@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX O13 DECISION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, lifecycle_operations, o13_decision, contract]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O13_DECISION
+tags: [cognitive_matrix, lifecycle_operations, o13_decision, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # O13_DECISION — O13 Decision
@@ -47,3 +52,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[O13_DECISION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Flash-Attention-Io-Rscf MOC"
 type: moc
-tags: [moc, arxiv-flash-attention-io-rscf]
+source: 07_SKILLS/arxiv-flash-attention-io-rscf
+tags: [moc, arxiv-flash-attention-io-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Flash-Attention-Io-Rscf — Map of Content
 

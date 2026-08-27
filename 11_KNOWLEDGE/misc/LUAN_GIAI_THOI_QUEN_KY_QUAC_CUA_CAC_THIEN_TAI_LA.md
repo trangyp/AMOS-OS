@@ -1,12 +1,15 @@
 ---
 title: LUAN GIAI THOI QUEN KY QUAC CUA CAC THIEN TAI LA
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Luận giải: “Thói quen kỳ quặc” của các thiên tài là cơ chế giảm nhiễu và tăng độ chính xác hệ thần kinh

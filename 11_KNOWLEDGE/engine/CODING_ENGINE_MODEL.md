@@ -1,10 +1,15 @@
 ---
 title: CODING ENGINE MODEL
 type: model
+source: 11_KNOWLEDGE/engine
 aliases: [Unified Coding Engine, AMOS_Coding_Engine, Coding Kernel, Tech Engine vInfinity]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/observation, topic/coding-engine-model, engine]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
 
 
 # AMOS Unified Coding Engine
@@ -48,3 +53,6 @@ Solutions are optimized across 10 dimensions:
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

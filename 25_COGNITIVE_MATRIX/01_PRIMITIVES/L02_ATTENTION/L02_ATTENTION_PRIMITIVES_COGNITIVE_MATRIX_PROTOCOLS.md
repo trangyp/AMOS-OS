@@ -1,14 +1,17 @@
 ---
 title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX PROTOCOLS
 type: protocol
-tags: [cognitive_matrix, primitives, l02_attention, note]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
+tags: [cognitive_matrix, primitives, l02_attention, note, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
-
 Drive inspection confirms that the `L02_ATTENTION` folder currently contains only `PLACEHOLDER.md`; there is no recovered canonical `PROTOCOLS.md`.  The placeholder defines L02 as attention allocation over scarce reasoning/observation resources, but explicitly forbids inventing missing canon, equations, thresholds, empirical claims, or implementation status. 
-
-Below is the source-bounded, paste-ready protocol contract. Protocol names and message schemas are therefore **AMOS_MODEL**, not recovered canon.
 
 ---
 tags:

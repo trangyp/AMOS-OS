@@ -1,9 +1,14 @@
 ---
 title: DOMAINS C08 STRATEGY GAME CONTRACT
 type: strategy
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/18_C08_STRATEGY_GAME
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # DOMAINS C08 STRATEGY GAME CONTRACT

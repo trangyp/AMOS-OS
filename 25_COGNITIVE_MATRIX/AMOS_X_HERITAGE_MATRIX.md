@@ -1,8 +1,15 @@
 ---
 title: "AMOS × Heritage Matrix"
 type: heritage
-tags: [amos_os, cognitive_matrix, matrix, 25_cognitive_matrix, heritage, heritage_intelligence, heritage_void, decision_governance, uncertainty, regime_detection, provenance, rscf]
+source: 25_COGNITIVE_MATRIX
+tags: [amos_os, cognitive_matrix, matrix, 25_cognitive_matrix, heritage, heritage_intelligence, heritage_void, decision_governance, uncertainty, regime_detection, provenance, rscf, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # AMOS × Heritage Matrix
 
@@ -417,21 +424,7 @@ Persistent Evidence
 
 The source gives:
 
-\[
-E_{\text{AMOS}}
-=
-B
-\times
-\Omega
-\times
-\Gamma
-\times
-UBI
-\times
-Coherence
-\times
-Stability
-\]
+$$E_{\text{AMOS}} = B \times \Omega \times \Gamma \times UBI \times Coherence \times Stability$$
 
 where the exact semantic mapping of each symbol must be preserved from native source context when used quantitatively.
 
@@ -453,23 +446,11 @@ No threshold is universal unless independently calibrated.
 
 The Heritage ∅ source defines:
 
-\[
-Purpose
-=
-Value
-\times
-Integrity
-\times
-LifePreservation
-\times
-TimeHorizon
-\]
+$$Purpose = Value \times Integrity \times LifePreservation \times TimeHorizon$$
 
 or compactly:
 
-\[
-P = V \times I \times L \times T
-\]
+$$P = V \times I \times L \times T$$
 
 where:
 
@@ -1159,12 +1140,7 @@ manipulation
 
 A source-defined example:
 
-\[
-NoiseScore
-=
-\frac{CancelRate - NormalCancelRate}
-{NormalCancelRate}
-\]
+$$NoiseScore = \frac{CancelRate - NormalCancelRate} {NormalCancelRate}$$
 
 ### Decision effect
 
@@ -1186,17 +1162,7 @@ MEP
 
 Source formula:
 
-\[
-MEP
-=
-PivotPoint
-+
-\alpha ATR
-+
-\beta Fib
-+
-\gamma P/E_{neutral}
-\]
+$$MEP = PivotPoint + \alpha ATR + \beta Fib + \gamma P/E_{neutral}$$
 
 ### Meaning
 
@@ -1517,11 +1483,7 @@ This is the core Heritage dynamic state vector.
 
 The central state vector is:
 
-\[
-X_H
-=
-(\Omega,H,F,S,MEP,RI,Trust)
-\]
+$$X_H = (\Omega,H,F,S,MEP,RI,Trust)$$
 
 ---
 
@@ -1535,13 +1497,7 @@ Overload
 
 Simplified form:
 
-\[
-\Omega
-=
-\frac{Price-MA_{50}}{\sigma_{50}}w_{vol}
-+
-\frac{RSI-50}{50}w_{rsi}
-\]
+$$\Omega = \frac{Price-MA_{50}}{\sigma_{50}}w_{vol} + \frac{RSI-50}{50}w_{rsi}$$
 
 Expanded source variants additionally include:
 
@@ -1558,18 +1514,7 @@ Measures whether the system/market is stretched or overloaded.
 
 ## 10.2 H — Cohesion
 
-\[
-H
-=
-\frac{
-\sum_i
-1[
-sign(L_i)=sign(consensus)
-]w_i
-}{
-\sum_i w_i
-}
-\]
+$$H = \frac{ \sum_i 1[ sign(L_i)=sign(consensus) ]w_i }{ \sum_i w_i }$$
 
 ### Meaning
 
@@ -1597,13 +1542,7 @@ means fragmentation or disagreement.
 
 Source relation:
 
-\[
-F
-=
-1-H
-+
-\frac{Contradictions}{TotalPairs}
-\]
+$$F = 1-H + \frac{Contradictions}{TotalPairs}$$
 
 ### Meaning
 
@@ -1621,15 +1560,7 @@ structural breakdown
 
 Source representation:
 
-\[
-S
-=
-\frac{\Delta Price}{\sigma_{short}}
-+
-\frac{\Delta Volume}{VolumeMA}
-+
-NewsScore
-\]
+$$S = \frac{\Delta Price}{\sigma_{short}} + \frac{\Delta Volume}{VolumeMA} + NewsScore$$
 
 ### Meaning
 
@@ -1639,17 +1570,7 @@ Magnitude of sudden external or internal disruption.
 
 ## 10.5 MEP — Market Expectation Point
 
-\[
-MEP
-=
-PivotPoint
-+
-\alpha ATR
-+
-\beta Fib
-+
-\gamma P/E_{neutral}
-\]
+$$MEP = PivotPoint + \alpha ATR + \beta Fib + \gamma P/E_{neutral}$$
 
 ### Use
 
@@ -1659,15 +1580,7 @@ Reference for expectation distance and regime transition.
 
 ## 10.6 RI — Remaining Information
 
-\[
-RI
-=
-InitialShock
--
-AbsorbedPrice
--
-NarrativeSaturation
-\]
+$$RI = InitialShock - AbsorbedPrice - NarrativeSaturation$$
 
 ### Interpretation
 
@@ -1679,23 +1592,7 @@ Tracks the remaining informational budget of an event.
 
 Source representation:
 
-\[
-Trust
-=
-H
-\times
-Reliability
-\times
-RegimeClarity
-\times
-CrossAlign
--
-F
--
-S
--
-Noise
-\]
+$$Trust = H \times Reliability \times RegimeClarity \times CrossAlign - F - S - Noise$$
 
 ### Meaning
 
@@ -1723,19 +1620,7 @@ Heritage distinguishes signal quality from temporal readiness.
 
 ## 11.1 TRS — Timing Readiness Score
 
-\[
-TRS
-=
-EventAlign
-\times
-AbsorptionState
-\times
-LiquiditySuitability
-\times
-SessionQuality
-\times
-CompressionFit
-\]
+$$TRS = EventAlign \times AbsorptionState \times LiquiditySuitability \times SessionQuality \times CompressionFit$$
 
 Source threshold:
 
@@ -1749,15 +1634,7 @@ timing ready
 
 ## 11.2 ATS — Action Timing Score
 
-\[
-ATS
-=
-SignalStrength
-\times
-Trust
-\times
-TRS
-\]
+$$ATS = SignalStrength \times Trust \times TRS$$
 
 Source threshold:
 
@@ -1771,21 +1648,7 @@ full action candidate
 
 ## 11.3 RTS — Reversal Timing Score
 
-\[
-RTS
-=
-\Omega
-\times
-F
-\times
-RemainingInfoDecay
-\times
-MEPDistance
-\times
-ExhaustionPattern
-\times
-TimingAlignment
-\]
+$$RTS = \Omega \times F \times RemainingInfoDecay \times MEPDistance \times ExhaustionPattern \times TimingAlignment$$
 
 Source threshold:
 
@@ -1805,15 +1668,7 @@ Thresholds are source-defined model values, not universal empirical constants.
 
 ## 12.1 Signal Resurrection Function
 
-\[
-\boxed{
-RS
-=
-\sum_{i=1}^{13} w_iL_i
--
-\lambda L_{12}
-}
-\]
+$$\boxed{ RS = \sum_{i=1}^{13} w_iL_i - \lambda L_{12} }$$
 
 Interpretation:
 
@@ -1829,37 +1684,7 @@ intentional-noise penalty
 
 Source structure:
 
-\[
-Permission =
-\begin{cases}
-Full &
-ATS>70\%,
-Trust>70\%,
-TRS>70\%,
-CollapseProb<30\%
-\\
-Reduced &
-50\%<ATS<70\%,
-Trust>50\%,
-CollapseProb<50\%
-\\
-BiasOnly &
-SignalStrength>60\%,
-Trust<50\%
-\\
-NoTrade &
-Trust<30\%
-\lor
-ATS<40\%
-\lor
-CollapseProb>70\%
-\\
-Lockout &
-BlackSwan
-\lor
-EthicsViolation
-\end{cases}
-\]
+$$Permission = \begin{cases} Full & ATS>70\%, Trust>70\%, TRS>70\%, CollapseProb<30\% \\ Reduced & 50\%<ATS<70\%, Trust>50\%, CollapseProb<50\% \\ BiasOnly & SignalStrength>60\%, Trust<50\% \\ NoTrade & Trust<30\% \lor ATS<40\% \lor CollapseProb>70\% \\ Lockout & BlackSwan \lor EthicsViolation \end{cases}$$
 
 ### AMOS translation
 
@@ -1884,25 +1709,7 @@ signal
 
 ## 12.3 Collapse Probability
 
-\[
-CollapseProb
-=
-\sigma(
-\beta_0
-+
-\beta_1\Omega
-+
-\beta_2F
-+
-\beta_3S
-+
-\beta_4MEPDistance
-+
-\beta_5RI
-+
-\beta_6LiquidityFragility
-)
-\]
+$$CollapseProb = \sigma( \beta_0 + \beta_1\Omega + \beta_2F + \beta_3S + \beta_4MEPDistance + \beta_5RI + \beta_6LiquidityFragility )$$
 
 ### Type
 
@@ -1916,21 +1723,7 @@ Requires empirical calibration.
 
 ## 12.4 Integrity / Energy
 
-\[
-E_{\text{AMOS}}
-=
-B
-\times
-\Omega
-\times
-\Gamma
-\times
-UBI
-\times
-Coherence
-\times
-Stability
-\]
+$$E_{\text{AMOS}} = B \times \Omega \times \Gamma \times UBI \times Coherence \times Stability$$
 
 ### Note
 
@@ -1940,17 +1733,7 @@ Symbol meanings must be loaded from the native source context before quantitativ
 
 ## 12.5 Heritage ∅ Purpose
 
-\[
-Purpose
-=
-V
-\times
-I
-\times
-L
-\times
-T
-\]
+$$Purpose = V \times I \times L \times T$$
 
 with:
 
@@ -2086,15 +1869,11 @@ The following block is directly recoverable from the native source.
 
 ### I-1 — Entropy Non-Decrease
 
-\[
-\Delta S \ge 0
-\]
+$$\Delta S \ge 0$$
 
 ### I-2 — Information Does Not Arise From Nothing
 
-\[
-I(Y;X) \le H(Y)
-\]
+$$I(Y;X) \le H(Y)$$
 
 ### I-3 — Causal Ordering
 
@@ -2138,11 +1917,7 @@ Source identifies collective following behavior as a recurring system property.
 
 ## I-6 — Recency Bias
 
-\[
-w(t)
-\propto
-e^{-\lambda t}
-\]
+$$w(t) \propto e^{-\lambda t}$$
 
 ---
 
@@ -2152,11 +1927,7 @@ e^{-\lambda t}
 
 Source model:
 
-\[
-DecisionQuality
-\propto
-\frac{1}{\sqrt{Load}}
-\]
+$$DecisionQuality \propto \frac{1}{\sqrt{Load}}$$
 
 ### Type
 
@@ -2232,11 +2003,7 @@ Correlation at distance is not sufficient proof of quantum entanglement.
 
 ## I-13 — Meme Propagation
 
-\[
-\frac{dM}{dt}
-=
-\beta M(1-M)
-\]
+$$\frac{dM}{dt} = \beta M(1-M)$$
 
 ### Type
 
@@ -2246,11 +2013,7 @@ Correlation at distance is not sufficient proof of quantum entanglement.
 
 ## I-14 — Power-Law Attention
 
-\[
-Attention
-\propto
-\frac{1}{rank^\alpha}
-\]
+$$Attention \propto \frac{1}{rank^\alpha}$$
 
 ---
 
@@ -2302,25 +2065,19 @@ Traceable
 
 ## I-19 — Non-Contradiction
 
-\[
-\neg(A \land \neg A)
-\]
+$$\neg(A \land \neg A)$$
 
 ---
 
 ## I-20 — Identity
 
-\[
-x=x
-\]
+$$x=x$$
 
 ---
 
 ## I-21 — Excluded Middle
 
-\[
-A \lor \neg A
-\]
+$$A \lor \neg A$$
 
 ### Regime caution
 
@@ -2342,9 +2099,7 @@ This is one of the most important AMOS-compatible Heritage invariants.
 
 ## I-23 — Humility
 
-\[
-P(correct) \le 1
-\]
+$$P(correct) \le 1$$
 
 ### Interpretation
 
@@ -2384,10 +2139,7 @@ Liquidity can disappear
 
 Source expression:
 
-\[
-\exists t:
-Shock(t)>\theta_{shock}
-\]
+$$\exists t: Shock(t)>\theta_{shock}$$
 
 ### Interpretation
 
@@ -2472,13 +2224,7 @@ Heuristic fallback
 
 General source pattern:
 
-\[
-HeuristicFallback
-=
-SimpleRule
-\times
-ConfidenceReduction
-\]
+$$HeuristicFallback = SimpleRule \times ConfidenceReduction$$
 
 ### Principle
 
@@ -2566,11 +2312,7 @@ Observe identity drift rather than pretending it cannot occur.
 
 ## Gap 7 — Objective Instability
 
-\[
-\Pi_t
-\neq
-\Pi_{t+1}
-\]
+$$\Pi_t \neq \Pi_{t+1}$$
 
 Source handling:
 
@@ -3159,11 +2901,7 @@ subject to:
 
 The governing purpose equation is:
 
-\[
-Purpose
-=
-V \times I \times L \times T
-\]
+$$Purpose = V \times I \times L \times T$$
 
 ---
 

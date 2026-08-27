@@ -1,15 +1,18 @@
 ---
 title: SMART DEVICE OWNER COMMUNITIES
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
-# **🌐 Smart Device Owner Communities**
+# **Smart Device Owner Communities**
 |       |
 | **#** | **Community / Platform**                               | **Website**                                    | **Description**                                                                    | **Integration / API Notes**                                      |
 |-------|--------------------------------------------------------|------------------------------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------|
@@ -65,7 +68,7 @@ source: 11_KNOWLEDGE/misc
 | 50    | **Wellness Program Platforms (Virgin Pulse, Limeade)** |  https://www.virginpulse.com                   | Corporate wellness app networks syncing wearables.                                 | Enterprise-level APIs for workforce data.                        |
 
 
-## **🏥 Healthcare Networks & Research Cohorts (Top 50)**
+## **Healthcare Networks & Research Cohorts (Top 50)**
 |       |
 | **#** | **Institution / Platform**             | **Website**                                              | **Description**                                                  | **API / Integration Notes**                                  |
 |-------|----------------------------------------|----------------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------------------|
@@ -121,7 +124,7 @@ source: 11_KNOWLEDGE/misc
 | 50    | **Human API**                          |  https://www.humanapi.co                                 | Health data network aggregating medical records + wearables.     | Unified API for health data access (user consent required).  |
 
 
-## **👥 Smart Device Owner Communities (New 50)**
+## **Smart Device Owner Communities (New 50)**
 |       |
 | **#** | **Community / Platform**                        | **Website**                                | **Description**                                            | **Integration / API Notes**                           |
 |-------|-------------------------------------------------|--------------------------------------------|------------------------------------------------------------|-------------------------------------------------------|
@@ -177,7 +180,7 @@ source: 11_KNOWLEDGE/misc
 | 50    | **Apollo Neuro Users**                          |  https://apolloneuro.com                   | Haptic neuro-modulation wearable owners.                   | Developer API for vibration patterns.                 |
 
 
-## **👥 Smart Device Owner Communities (Next 50)**
+## **Smart Device Owner Communities (Next 50)**
 |       |
 | **#** | **Community / Platform**                      | **Website**                                     | **Description**                                                | **Integration / API Notes**                          |
 |-------|-----------------------------------------------|-------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------|
@@ -233,7 +236,7 @@ source: 11_KNOWLEDGE/misc
 | 100   | **Natural Cycles Users**                      |  https://www.naturalcycles.com                  | Certified digital contraceptive + cycle tracker.               | Partner integration for aggregated cycle data.       |
 
 
-## **🧠 Mental Health & Biohacker Communities (101–150)**
+## **Mental Health & Biohacker Communities (101–150)**
 |       |
 | **#** | **Community / Platform**               | **Website**                          | **Description**                                                            | **Integration / API Notes**                             |
 |-------|----------------------------------------|--------------------------------------|----------------------------------------------------------------------------|---------------------------------------------------------|
@@ -290,7 +293,7 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## **🏋️‍♂️ Longevity, Chronic Care & Fitness Communities (151–200)**
+## **️‍♂️ Longevity, Chronic Care & Fitness Communities (151–200)**
 |       |
 | **#** | **Community / Platform**                 | **Website**                             | **Description**                                         | **Integration / API Notes**                        |
 |-------|------------------------------------------|-----------------------------------------|---------------------------------------------------------|----------------------------------------------------|
@@ -346,7 +349,7 @@ source: 11_KNOWLEDGE/misc
 | 200   | **BioCoach Users**                       |  https://biocoach.io                    | Metabolic health members using ketone/glucose monitors. | Partner API for real-time metabolic d ata.         |
 
 
-## **🧠 Mental Health, Women’s Health, & Corporate Wellness Communities (201–250)**
+## **Mental Health, Women’s Health, & Corporate Wellness Communities (201–250)**
 |       |
 | **#** | **Community / Platform**                    | **Website**                           | **Description**                                           | **Integration / API Notes**                                  |
 |-------|---------------------------------------------|---------------------------------------|-----------------------------------------------------------|--------------------------------------------------------------|
@@ -403,7 +406,7 @@ source: 11_KNOWLEDGE/misc
 
 
 * * *
-## **👥 Smart Device Owner Communities (Batch 3: #101–150)**
+## **Smart Device Owner Communities (Batch 3: #101–150)**
 |       |
 | **#** | **Community / Platform**               | **Website**                                | **Description**                                                                                  | **Integration / Partner Notes**                                       |
 |-------|----------------------------------------|--------------------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|

@@ -1,8 +1,15 @@
 ---
 title: "O01 Object MOC"
 type: moc
-tags: [moc, o01-object]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O01_OBJECT
+tags: [moc, o01-object, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # O01 Object — Map of Content
 

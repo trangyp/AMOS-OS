@@ -1,12 +1,15 @@
 ---
 title: TRANG LDAI LOGICALLY DETERMINISTIC ARTIFICIAL INT
-tags: [trang, framework, reality]
+tags: [trang, framework, reality, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/trang
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
-
 
 
 # TRANG LDAI (LOGICALLY DETERMINISTIC ARTIFICIAL INTELLIGENCE)
@@ -449,7 +452,7 @@ Báo cáo này đã trình bày **AI Xác định Luận lý Trang (Trang LDAI)*
 > _AI hiện tại có thể trò chuyện, viết thơ, tóm tắt văn bản – nhưng không thể suy luận logic một cách xác định và đáng tin cậy. Trang LDAI được xây dựng để lấp đầy khoảng trống đó. Nó không thay thế toàn bộ AI hiện tại, nhưng là một thành phần nền tảng trong Trang ∅ Framework – đảm bảo rằng mọi suy luận logic đều chính xác, xác định, và có thể giải thích được._
 > _Trong một thế giới mà AI ngày càng được sử dụng trong y học, luật pháp, hàng không, và các lĩnh vực đòi hỏi độ tin cậy tuyệt đối, một AI không thể nói dối – không thể hallucinate – không còn là lựa chọn. Đó là yêu cầu sống còn. Trang LDAI là bước đầu tiên hướng tới yêu cầu đó._
 * * *
-**📦** Hết báo cáo.
+**** Hết báo cáo.
 \--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---

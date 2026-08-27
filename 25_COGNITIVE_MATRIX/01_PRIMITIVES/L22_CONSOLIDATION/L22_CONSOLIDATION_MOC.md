@@ -1,8 +1,15 @@
 ---
 title: "L22 Consolidation MOC"
 type: moc
-tags: [moc, l22-consolidation]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L22_CONSOLIDATION
+tags: [moc, l22-consolidation, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L22 Consolidation — Map of Content
 

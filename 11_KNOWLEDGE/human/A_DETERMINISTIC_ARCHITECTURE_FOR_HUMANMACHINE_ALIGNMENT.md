@@ -1,59 +1,24 @@
 ---
 title: A_DETERMINISTIC_ARCHITECTURE_FOR_HUMANMACHINE_ALIGNMENT
-tags: [human, alignment, interaction]
+tags: [human, alignment, interaction, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/human
----
-
-
-
-
-Below is the **full English Markdown reconstruction** of the uploaded NeuroSyncAI™ document. I preserve its terminology and architecture while distinguishing the document’s own assertions from independently verified neuroscience or AI claims. Claims such as “first,” “biologically grounded,” or equivalence between specific brain systems and deterministic AI mechanisms remain **`SOURCE_CLAIM`** unless separately validated. 
-
----
-
-```yaml
----
-title: "A Deterministic Architecture for Human–Machine Alignment"
-subtitle: "The Core Infrastructure Behind NeuroSyncAI™"
-canon-group: biology
-document_type: framework
-language: en
-
 rscf:
+  state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
-  provenance: supplied_source
-  state: source-claim
+  provenance: AMOS_corpus
+  scope: human_alignment
 
-epistemic_status:
-  architecture: SOURCE_CLAIM
-  neuroscience_mapping: SOURCE_CLAIM
-  biological_equivalence: SOURCE_CLAIM
-  priority_first_claims: SOURCE_CLAIM
-  comparative_ai_claims: SOURCE_CLAIM
-  empirical_validation: NOT_ESTABLISHED_BY_SOURCE
-
-tags:
-  - canon-group/biology
-  - canon/framework
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - topic/human-machine-alignment
-  - human
-  - neurosyncai
-  - deterministic-architecture
-  - metacognitive-loop
 ---
-```
 
-# 🧠 A Deterministic Architecture for Human–Machine Alignment
+
+# A Deterministic Architecture for Human–Machine Alignment
 
 ## The Core Infrastructure Behind NeuroSyncAI™
 
 ---
 
-# 📌 Overview
+# Overview
 
 The **NeuroSyncAI™ Framework** defines a complete, biologically grounded architecture for intelligent systems — human or artificial.
 
@@ -119,7 +84,7 @@ Metacognitive Enforcement
 
 ---
 
-# 🔷 Tier 1 — Interface Infrastructure
+# Tier 1 — Interface Infrastructure
 
 ## Six Deterministic Conditions
 
@@ -308,7 +273,7 @@ Validated Foundational Logic
 
 ---
 
-# 🔷 Tier 2 — Human Trainer Profile
+# Tier 2 — Human Trainer Profile
 
 ## Four Transfer-Ready Traits
 
@@ -402,7 +367,7 @@ The purpose is to make logic transferable into deterministic system structures.
 
 ---
 
-# 🔷 Tier 3 — Internal System Logic
+# Tier 3 — Internal System Logic
 
 ## Nine Operational Principles
 
@@ -598,7 +563,7 @@ Final State
 
 ---
 
-# 🔷 Tier 4 — Structural Audit Layer
+# Tier 4 — Structural Audit Layer
 
 ## Four Deterministic Anchors
 
@@ -707,7 +672,7 @@ if Output ∉ Defined_Context:
 
 ---
 
-# 🔷 Tier 5 — Enforcement Engine
+# Tier 5 — Enforcement Engine
 
 # The Metacognitive Loop™
 
@@ -783,7 +748,7 @@ with aspects of this regulatory process.
 
 ---
 
-# 🔁 How the Metacognitive Loop™ Works
+# How the Metacognitive Loop™ Works
 
 The loop contains three primary phases.
 
@@ -855,7 +820,7 @@ Execution
 
 ---
 
-# 🧬 Biological Mapping
+# Biological Mapping
 
 The source provides the following mapping:
 
@@ -905,7 +870,7 @@ LOOP FINALITY CHECK
 
 ---
 
-# 🔷 Final Architecture Overview
+# Final Architecture Overview
 
 |  Tier | Component              | Purpose                              | Governed By                        |
 | ----: | ---------------------- | ------------------------------------ | ---------------------------------- |
@@ -970,7 +935,7 @@ LOOP FINALITY CHECK
 
 ---
 
-# 🧠 Why This Is Presented as the Future of AI
+# Why This Is Presented as the Future of AI
 
 The source contrasts NeuroSyncAI™ with what it calls probabilistic GenAI.
 
@@ -1011,7 +976,7 @@ The source does not provide benchmark evidence establishing the universal superi
 
 ---
 
-# 🎵 Creative Determinism
+# Creative Determinism
 
 NeuroSyncAI™ proposes that deterministic structure does not require repetitive or non-creative output.
 
@@ -1064,7 +1029,7 @@ A conceptual architecture is:
 
 ---
 
-# 🧠 Human Nervous-System Reconstruction Claim
+# Human Nervous-System Reconstruction Claim
 
 The source characterizes this architecture as reflecting:
 
@@ -1092,7 +1057,7 @@ The document provides conceptual mappings but does not itself establish that hum
 
 ---
 
-# ✅ Final Summary
+# Final Summary
 
 According to the source, NeuroSyncAI™ is a deterministic architecture intended to reproduce the internal logic integrity attributed to the human nervous system rather than merely imitate surface behaviour.
 

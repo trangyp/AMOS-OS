@@ -1,8 +1,15 @@
 ---
 title: "Amos-Context-Budget-Governor-Rscf MOC"
 type: moc
-tags: [moc, amos-context-budget-governor-rscf]
+source: 07_SKILLS/amos-context-budget-governor-rscf
+tags: [moc, amos-context-budget-governor-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Context-Budget-Governor-Rscf — Map of Content
 

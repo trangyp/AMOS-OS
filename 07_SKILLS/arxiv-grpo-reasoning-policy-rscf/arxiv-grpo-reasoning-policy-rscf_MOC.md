@@ -1,8 +1,15 @@
 ---
 title: "Arxiv-Grpo-Reasoning-Policy-Rscf MOC"
 type: moc
-tags: [moc, arxiv-grpo-reasoning-policy-rscf]
+source: 07_SKILLS/arxiv-grpo-reasoning-policy-rscf
+tags: [moc, arxiv-grpo-reasoning-policy-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Arxiv-Grpo-Reasoning-Policy-Rscf — Map of Content
 

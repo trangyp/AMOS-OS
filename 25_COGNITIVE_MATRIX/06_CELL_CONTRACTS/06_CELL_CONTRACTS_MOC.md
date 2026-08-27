@@ -1,8 +1,15 @@
 ---
 title: "06 Cell Contracts MOC"
 type: moc
-tags: [moc, 06-cell-contracts]
+source: 25_COGNITIVE_MATRIX/06_CELL_CONTRACTS
+tags: [moc, 06-cell-contracts, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 06 Cell Contracts — Map of Content
 

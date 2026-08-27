@@ -1,8 +1,15 @@
 ---
 title: vault domain knowledge
 type: reference
-tags: [reference, amos-trang-framework-master]
+source: 07_SKILLS/amos-trang-framework-master/references
+tags: [reference, amos-trang-framework-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # amos-trang-framework-master — Vault-Sourced Domain Knowledge
 
@@ -1609,8 +1616,6 @@ small state-space deformation.
 Quantum chưa rõ obse
 
 
-
-
 ## Vault-Sourced Domain Content
 
 > Source: `01_CANON/02_UNIVERSE_CANON/P7_EVOLUTION_LEARNING.md` (62066 bytes in vault)
@@ -1653,3 +1658,7 @@ Candidate changes become accepted without validation.
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

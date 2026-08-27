@@ -1,8 +1,15 @@
 ---
 title: "O00 Distinction MOC"
 type: moc
-tags: [moc, o00-distinction]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION
+tags: [moc, o00-distinction, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # O00 Distinction — Map of Content
 

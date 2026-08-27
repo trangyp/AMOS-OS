@@ -1,8 +1,15 @@
 ---
 title: "Amos-Ai-Architecture-Factory-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-ai-architecture-factory-rscf-engine]
+source: 07_SKILLS/amos-ai-architecture-factory-rscf-engine
+tags: [moc, amos-ai-architecture-factory-rscf-engine, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Ai-Architecture-Factory-Rscf-Engine — Map of Content
 

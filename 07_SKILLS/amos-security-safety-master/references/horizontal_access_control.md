@@ -1,8 +1,15 @@
 ---
 title: horizontal access control
 type: reference
-tags: [reference, amos-security-safety-master]
+source: 07_SKILLS/amos-security-safety-master/references
+tags: [reference, amos-security-safety-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Horizontal Access Control
 

@@ -1,12 +1,15 @@
 ---
 title: KE DANH DOI LICH SU VAN MINH NHU CUOC PHAN BOI C
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 ![](https://app.notion.com/images/page-cover/nasa_space_shuttle_columbia.jpg)

@@ -1,15 +1,20 @@
 ---
 title: ORG GOVERNANCE ENGINE VINFINITY V2 0 0
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: org-governance-engine-vinfinity-v2-0-0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/org-governance-engine-vinfinity-v2-0-0, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
+# ORG GOVERNANCE ENGINE VINFINITY V2 0 0
 
 ```json
 {
@@ -170,3 +175,6 @@ created: 2026-08-22
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

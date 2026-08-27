@@ -1,12 +1,15 @@
 ---
 title: A CULTURALLY GROUNDED DIGITAL LEARNING PLATFORM TO
-tags: [learning, training, adaptation]
+tags: [learning, training, adaptation, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/learning
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: learning_system
+
 ---
-
-
-
 
 
 # **A Culturally-Grounded Digital Learning Platform to Support Aboriginal Knowledge, Confidence, and Continuity**

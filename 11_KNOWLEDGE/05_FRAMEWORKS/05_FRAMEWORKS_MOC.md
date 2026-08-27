@@ -1,8 +1,15 @@
 ---
 title: "05 Frameworks MOC"
 type: moc
-tags: [moc, 05-frameworks]
+source: 11_KNOWLEDGE/05_FRAMEWORKS
+tags: [moc, 05-frameworks, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: framework_registry
 ---
+
 
 # 05 Frameworks — Map of Content
 

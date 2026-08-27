@@ -1,8 +1,15 @@
 ---
 title: "62 Sensemaking Modes MOC"
 type: moc
-tags: [moc, 62-sensemaking-modes]
+source: 03_CONTROL_PLANE/09_COMMIT/62_SENSEMAKING_MODES
+tags: [moc, 62-sensemaking-modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 62 Sensemaking Modes — Map of Content
 

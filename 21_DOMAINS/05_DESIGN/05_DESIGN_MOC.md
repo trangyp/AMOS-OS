@@ -1,8 +1,15 @@
 ---
 title: "05 Design MOC"
 type: moc
-tags: [moc, 05-design]
+source: 21_DOMAINS/05_DESIGN
+tags: [moc, 05-design, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 05 Design — Map of Content
 

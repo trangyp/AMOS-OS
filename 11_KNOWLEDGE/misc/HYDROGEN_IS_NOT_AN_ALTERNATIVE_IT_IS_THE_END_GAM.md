@@ -1,12 +1,15 @@
 ---
 title: HYDROGEN IS NOT AN ALTERNATIVE IT IS THE END GAM
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **Hydrogen Is Not an Alternative — It Is the End Game**

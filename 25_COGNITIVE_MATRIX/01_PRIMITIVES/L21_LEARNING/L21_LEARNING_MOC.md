@@ -1,8 +1,15 @@
 ---
 title: "L21 Learning MOC"
 type: moc
-tags: [moc, l21-learning]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING
+tags: [moc, l21-learning, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # L21 Learning — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Hierarchical-Stack-Orchestration-Rscf MOC"
 type: moc
-tags: [moc, amos-hierarchical-stack-orchestration-rs]
+source: 07_SKILLS/amos-hierarchical-stack-orchestration-rscf
+tags: [moc, amos-hierarchical-stack-orchestration-rs, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Hierarchical-Stack-Orchestration-Rscf — Map of Content
 

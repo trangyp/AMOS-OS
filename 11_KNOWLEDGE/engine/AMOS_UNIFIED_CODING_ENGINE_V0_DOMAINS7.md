@@ -1,15 +1,20 @@
 ---
 title: AMOS UNIFIED CODING ENGINE V0 DOMAINS7
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-unified-coding-engine-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-unified-coding-engine-v0, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
+# AMOS UNIFIED CODING ENGINE V0 DOMAINS7
 
 ```json
 [
@@ -447,3 +452,6 @@ enabling cross-domain inference flow.\",\n          \"components\": [\n         
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

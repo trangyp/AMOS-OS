@@ -1,8 +1,15 @@
 ---
 title: omega crypto structural engine
 type: reference
-tags: [reference, amos-security-safety-master]
+source: 07_SKILLS/amos-security-safety-master/references
+tags: [reference, amos-security-safety-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # AMOS Omega Crypto Structural Engine Completion
 
@@ -82,3 +89,7 @@ tags: [reports]
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

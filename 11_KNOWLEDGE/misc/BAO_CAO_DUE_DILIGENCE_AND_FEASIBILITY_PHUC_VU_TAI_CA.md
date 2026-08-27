@@ -1,12 +1,15 @@
 ---
 title: BAO CAO DUE DILIGENCE AND FEASIBILITY PHUC VU TAI CA
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **BÁO CÁO DUE DILIGENCE & FEASIBILITY PHỤC VỤ TÁI CẤU TRÚC DOANH NGHIỆP**

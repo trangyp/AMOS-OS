@@ -3,9 +3,13 @@ title: AMOS CHINA ENGINES MODEL
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/state/derived, topic/amos-china-engines-model, engine]
 type: document
 source: 11_KNOWLEDGE/engine
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
+
 ---
-
-
 
 
 # AMOS China Engines Model
@@ -32,3 +36,6 @@ This model documents the unified structural kernels operating within the `amos-c
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

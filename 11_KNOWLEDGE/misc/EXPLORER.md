@@ -1,12 +1,15 @@
 ---
 title: EXPLORER
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Hack The Box - Explore
@@ -38,10 +41,7 @@ I never worked out what **41567** was doing.
 
 ## Analysis
 
-The two services I wanted to look at in more detail were ADB and ES File Explorer. I'd never played with Android devices before, so I looked a little more into what each of the services did. I also searched if there were any known vulnerabilities/CVE's associated with them. And ... ✨***VOILA***✨
-
-
-ES File explorer had a CVE associated with it ([CVE-2019-6447](https://www.cvedetails.com/cve/CVE-2019-6447)). The exploit allows remote users to read arbitraty files from anywhere on the network over port **59777**.
+The two services I wanted to look at in more detail were ADB and ES File Explorer. I'd never played with Android devices before, so I looked a little more into what each of the services did. I also searched if there were any known vulnerabilities/CVE's associated with them. And ... ✨***VOILA***ES File explorer had a CVE associated with it ([CVE-2019-6447](https://www.cvedetails.com/cve/CVE-2019-6447)). The exploit allows remote users to read arbitraty files from anywhere on the network over port **59777**.
 
 Digging around more, I found an [exploit script](https://www.exploit-db.com/exploits/50070) on exploit-db. I played around with the script and saw it can list and retrieve files from the system. Eventually I found a file called `creds.jpg` which looked promising.
 

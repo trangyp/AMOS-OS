@@ -1,13 +1,20 @@
 ---
 title: SKILL
 type: skill
+source: 07_SKILLS/amos-emotion-cognition-decision-bridge-governor
 name: amos-emotion-cognition-decision-bridge-governor
 description: Emotion-Cognition-Decision Bridge Governor — mind and behavior capability. Bridges C05 emotion/personality/behavior engines with C01 meta-logic decision gates and C10 technical decision-making. Enforces the emotion influence gating invariant (emotion may bias prioritization and tone, NEVER facts or logic), connects C05's 5-axis emotion state to C01's reasoning mode selection, and unifies C05's decision style ordering with C10's diagnose-before-edit principle. Use when a decision requires both emotional state awareness and cognitive/technical rigor. Use when amos-c05-mind-behavior-master routes to this specialized capability.
 parent_skill: amos-c05-mind-behavior-master
 domain: cross-domain (C05→C01→C10)
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-emotion-cognition-decision-bridge-governor]
+tags: [note, amos-emotion-cognition-decision-bridge-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+version: "1.1.0"
 ---
 
 
@@ -55,3 +62,77 @@ The `_00_Cosmo brain` exploration explicitly identified this gap: *"Emotion ↔ 
 
 ---
 **Links:** [[07_SKILLS_MOC]]
+
+## Related
+
+- [[amos-emotion-cognition-decision-bridge-governor_MOC]]
+
+## Examples
+
+- **Scenario**: When a decision requires both emotional state awareness (C05) and cognitive/technical rigor (C01/C10)
+  - **Input**: A query matching this skill's domain (cross-domain (C05→C01→C10))
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When routing a query based on emotional state (e.g., high risk_alert → conservative mode)
+  - **Input**: A query matching this skill's domain (cross-domain (C05→C01→C10))
+  - **Output**: Structured result with epistemic labels and provenance
+
+- **Scenario**: When resolving a technical trade-off using C05's decision style ordering
+  - **Input**: A query matching this skill's domain (cross-domain (C05→C01→C10))
+  - **Output**: Structured result with epistemic labels and provenance
+
+
+## Anti-Patterns
+
+- **Do not use** for tasks outside the cross-domain (C05→C01→C10) domain
+- **Do not use** when the query requires empirical validation that this skill cannot provide
+- **Do not use** when a parent skill or higher-level orchestrator should route instead
+- **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
+- **Do not chain** more than 3 skills without explicit orchestrator approval
+
+
+## Composition
+
+- **Parent**: `[[amos-c05-mind-behavior-master]]` — routes to this skill when cross-domain (C05→C01→C10) specialization is needed
+- **Peers**: Other skills in the `cross-domain (C05→C01→C10)` domain may be composed in sequence
+- **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
+- **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
+- **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
+
+
+## Evaluation
+
+### Success Criteria
+
+- Output includes epistemic class label (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)
+- Output includes provenance reference to source evidence
+- Output includes confidence ceiling (capped at 0.95 for DERIVED, 1.0 for SOURCE_CANON)
+- Output includes gap flags for unresolved unknowns
+- Output does not exceed declared scope
+
+### Failure Modes
+
+- **Overreach**: Output claims validity beyond its epistemic class
+- **Scope creep**: Output addresses questions outside the declared domain
+- **Provenance loss**: Output cannot trace back to source evidence
+- **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
+
+
+## Error Handling
+
+- **On scope violation**: Reject the query and route back to parent skill
+- **On missing evidence**: Flag as GAP and reduce confidence ceiling to 0.5
+- **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
+- **On provenance loss**: Mark output as UNKNOWN and require human review
+- **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
+
+
+## References
+
+- `references/references_MOC.md` — loaded on demand
+- `references/vault_domain_knowledge.md` — loaded on demand
+- `[[amos-emotion-cognition-decision-bridge-governor_MOC]]` — skill Map of Content
+- `[[amos-c05-mind-behavior-master]]` — parent skill
+- `[[amos-emotion-cognition-decision-bridge-governor-workflow]]` — corresponding workflow
+- `[[amos-emotion-cognition-decision-bridge-governor-agent]]` — corresponding agent
+

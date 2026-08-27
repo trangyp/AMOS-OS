@@ -1,15 +1,4 @@
 ---
-title: GENERATORS VERSIONING
-type: generator
-tags: [cognitive_matrix, generators, note]
----
-
-
-
-The Drive search did **not recover an authoritative AMOS artifact named `12 Generators Versioning`**; it returned unrelated generator/version materials and architecture-generator files instead.   So the replacement below is intentionally classified **`DERIVED / CANDIDATE_CANON`**, not recovered canon.
-
-````markdown
----
 artifact_id: AMOS-OS-12-GENERATORS-VERSIONING
 title: 12 Generators Versioning
 canonical_name: GENERATORS_VERSIONING
@@ -52,7 +41,16 @@ supersession_required: true
 promotion_required: true
 
 updated: 2026-08-26
+type: document
+source: 25_COGNITIVE_MATRIX/12_GENERATORS
+tags: [amos_os, 12_GENERATORS, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 12 GENERATORS VERSIONING
 

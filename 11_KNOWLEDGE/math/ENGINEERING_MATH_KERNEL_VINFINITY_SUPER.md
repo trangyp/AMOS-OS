@@ -1,15 +1,20 @@
 ---
 title: ENGINEERING MATH KERNEL VINFINITY SUPER
 type: kernel
+source: 11_KNOWLEDGE/math
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: engineering-math-kernel-vinfinity-super
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/engineering-math-kernel-vinfinity-super, math]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: mathematical_model
 ---
-
-
+# ENGINEERING MATH KERNEL VINFINITY SUPER
 
 ```json
 {

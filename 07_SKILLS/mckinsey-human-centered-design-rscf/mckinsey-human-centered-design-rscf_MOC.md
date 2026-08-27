@@ -1,8 +1,15 @@
 ---
 title: "Mckinsey-Human-Centered-Design-Rscf MOC"
 type: moc
-tags: [moc, mckinsey-human-centered-design-rscf]
+source: 07_SKILLS/mckinsey-human-centered-design-rscf
+tags: [moc, mckinsey-human-centered-design-rscf, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Mckinsey-Human-Centered-Design-Rscf — Map of Content
 

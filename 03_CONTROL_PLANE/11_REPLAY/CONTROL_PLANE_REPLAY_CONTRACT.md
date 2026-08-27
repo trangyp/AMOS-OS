@@ -1,9 +1,14 @@
 ---
 title: CONTROL PLANE REPLAY CONTRACT
 type: control-plane
-tags: [control_plane, control_plane_replay_contract.md]
+source: 03_CONTROL_PLANE/11_REPLAY
+tags: [control_plane, control_plane_replay_contract.md, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # CONTROL PLANE REPLAY CONTRACT
@@ -75,3 +80,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[11_REPLAY_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

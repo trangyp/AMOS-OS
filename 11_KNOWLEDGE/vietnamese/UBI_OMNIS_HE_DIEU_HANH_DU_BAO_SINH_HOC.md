@@ -1,8 +1,15 @@
 ---
 title: "UBI Omnis™ — AMOS Biological Forecasting & Resilience Intelligence Architecture"
 type: note
-tags: [vietnamese, vietnam, regional]
+source: 11_KNOWLEDGE/vietnamese
+tags: [vietnamese, vietnam, regional, canon/knowledge]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
 ---
+
 
 # UBI Omnis™
 

@@ -1,13 +1,16 @@
 ---
 title: AMOS CONSULTING AMOS INVEST AMOS CANON TECH ENGINE
-tags: [engine, processing, runtime]
+tags: [engine, processing, runtime, canon/knowledge]
 type: data
 source: 11_KNOWLEDGE/engine
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
+
 ---
-
-
-
-
+# AMOS CONSULTING AMOS INVEST AMOS CANON TECH ENGINE
 
 ```json
 {
@@ -3031,3 +3034,6 @@ source: 11_KNOWLEDGE/engine
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

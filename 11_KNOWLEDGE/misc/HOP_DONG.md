@@ -1,12 +1,15 @@
 ---
 title: HOP DONG
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # Hop dong
@@ -219,16 +222,16 @@ Tại **GENERAL TERMS – Article 1.1** ghi rõ:
 
 
 ## **B. Điều khoản cần sửa / loại bỏ**
-  * ❌ Toàn bộ clause “USED VEHICLES”
+  * Toàn bộ clause “USED VEHICLES”
 
 
-  * ❌ Miễn trừ toàn bộ trách nhiệm chất lượng
+  * Miễn trừ toàn bộ trách nhiệm chất lượng
 
 
-  * ❌ Luật áp dụng độc quyền Trung Quốc (cần trung lập hoặc VN/SG)
+  * Luật áp dụng độc quyền Trung Quốc (cần trung lập hoặc VN/SG)
 
 
-  * ❌ Tài phán tại nơi Seller
+  * Tài phán tại nơi Seller
 
 
 * * *
@@ -240,7 +243,7 @@ Hợp đồng này:
   * Phù hợp **mua xe cũ giá rẻ**
 
 
-  * ❌ Không phù hợp **nhập xe mẫu EV cho đăng kiểm Việt Nam**  
+  * Không phù hợp **nhập xe mẫu EV cho đăng kiểm Việt Nam**  
   
 Dưới đây là danh sách **rủi ro pháp lý “còn thiếu” cần bổ sung** vào quy trình nhập **02 xe Baojun mẫu theo hình thức nhập khẩu ủy thác** , theo cấu trúc **MECE, không hở khe** (kèm gợi ý “điều khoản/phương án khóa rủi ro” để đưa thẳng vào hợp đồng và quy chế nội bộ).
 
@@ -417,10 +420,10 @@ Dưới đây là danh sách **rủi ro pháp lý “còn thiếu” cần bổ 
   * Bổ sung trong **PHÒNG KỸ THUẬT – VẬN HÀNH** : “chuẩn sạc/tương thích, an toàn điện/PCCC điểm sạc, quy trình xử lý pin & linh kiện”.
 
 
-[A) Account + Infrastructure Setup (Execution-only)](<A\)%20Account%20+%20Infrastructure%20Setup%20\(Execution-only\)%202ddc5e6f95bd80e9ace6df548e2d0066.html>)
+[A) Account + Infrastructure Setup (Execution-only)](<A$%20Account%20+%20Infrastructure%20Setup%20$Execution-only$%202ddc5e6f95bd80e9ace6df548e2d0066.html>)
 [HỢP ĐỒNG MUA BÁN](<H%E1%BB%A2P%20%C4%90%E1%BB%92NG%20MUA%20B%C3%81N%202cfc5e6f95bd80b2b60cd3e79afa4842.html>)
-[HÓA ĐƠN CHIẾU LỆ (PROFORMA INVOICE)](<H%C3%93A%20%C4%90%C6%A0N%20CHI%E1%BA%BEU%20L%E1%BB%86%20\(PROFORMA%20INVOICE\)%202cfc5e6f95bd80b9be2ec466d9e3aea8.html>)
-[ĐỀ XUẤT CHỈNH SỬA HỢP ĐỒNG – BẢO VỆ BÊN MUA (UNIPOWER)](<%C4%90%E1%BB%80%20XU%E1%BA%A4T%20CH%E1%BB%88NH%20S%E1%BB%ACA%20H%E1%BB%A2P%20%C4%90%E1%BB%92NG%20%E2%80%93%20B%E1%BA%A2O%20V%E1%BB%86%20B%C3%8AN%20MUA%20\(UNIPO%202cfc5e6f95bd801cbceadcb40b593fa0.html>)
+[HÓA ĐƠN CHIẾU LỆ (PROFORMA INVOICE)](<H%C3%93A%20%C4%90%C6%A0N%20CHI%E1%BA%BEU%20L%E1%BB%86%20$PROFORMA%20INVOICE$%202cfc5e6f95bd80b9be2ec466d9e3aea8.html>)
+[ĐỀ XUẤT CHỈNH SỬA HỢP ĐỒNG – BẢO VỆ BÊN MUA (UNIPOWER)](<%C4%90%E1%BB%80%20XU%E1%BA%A4T%20CH%E1%BB%88NH%20S%E1%BB%ACA%20H%E1%BB%A2P%20%C4%90%E1%BB%92NG%20%E2%80%93%20B%E1%BA%A2O%20V%E1%BB%86%20B%C3%8AN%20MUA%20$UNIPO%202cfc5e6f95bd801cbceadcb40b593fa0.html>)
 [VĂN BẢN THẨM ĐỊNH CHIẾN LƯỢC ](<V%C4%82N%20B%E1%BA%A2N%20TH%E1%BA%A8M%20%C4%90%E1%BB%8ANH%20CHI%E1%BA%BEN%20L%C6%AF%E1%BB%A2C%202ddc5e6f95bd80d78354c425f2b2fd4c.html>)
 [Untitled](<Untitled%202ddc5e6f95bd8075804ad2c4529daebd.html>)
 [TỜ TRÌNH / THƯ B ÀY TỎ NGUYỆN VỌNG](<T%E1%BB%9C%20TR%C3%8CNH%20TH%C6%AF%20B%C3%80Y%20T%E1%BB%8E%20NGUY%E1%BB%86N%20V%E1%BB%8CNG%202dfc5e6f95bd803abed3d88fb9daf85d.html>)

@@ -1,12 +1,18 @@
 ---
 type: workflow
-tags: [amos, cognitive-matrix, l01, sensing-observation, workflows, rscf, provenance, hml, control-plane]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
+tags: [amos, cognitive-matrix, l01, sensing-observation, workflows, rscf, provenance, hml, control-plane, canon/cognitive-matrix]
 
 title: "L01_SENSING_OBSERVATION — Workflows"
 origin_architect: "Trang Phan"
 status: "MODEL_SPECIFICATION / UNVALIDATED"
 epistemic_class: "MODEL"
 runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -18,7 +24,7 @@ runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
 **Artifact:** `WORKFLOWS.md`  
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
-> **Source boundary:** the currently recoverable Drive artifact defines L01 as the sensing/observation primitive whose role includes distinguishing observations from source claims and derived state. It explicitly remains a non-canonical placeholder and requires workflows/interfaces, provenance, failure/repair, tests, governance, freshness, regime validity, and version lineage before promotion. :contentReference[oaicite:0]{index=0}
+> **Source boundary:** the currently recoverable Drive artifact defines L01 as the sensing/observation primitive whose role includes distinguishing observations from source claims and derived state. It explicitly remains a non-canonical placeholder and requires workflows/interfaces, provenance, failure/repair, tests, governance, freshness, regime validity, and version lineage before promotion.
 >
 > Therefore the workflow architecture below is a bounded AMOS reconstruction, not recovered verbatim L01 canon.
 
@@ -116,7 +122,6 @@ Supersession / version lineage
 ```
 
 
-
 ## 1.2 Runtime Lineage
 
 The recovered placeholder identifies:
@@ -125,7 +130,6 @@ The recovered placeholder identifies:
 runtime_alignment:
   AMOS Full Brain OS / AMOS_CORE v4.4 lineage
 ```
-
 
 
 ## 1.3 Canon Status

@@ -1,8 +1,15 @@
 ---
 title: equation firewall
 type: reference
-tags: [reference, amos-formal-engines-master]
+source: 07_SKILLS/amos-formal-engines-master/references
+tags: [reference, amos-formal-engines-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Equation Firewall
 

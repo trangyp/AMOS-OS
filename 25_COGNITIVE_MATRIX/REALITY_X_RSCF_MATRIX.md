@@ -1,6 +1,7 @@
 ---
-title: "Reality × RSCF Matrix"
-type: rscf
+title: "Reality x RSCF Cross-Plane Matrix"
+type: cognitive_matrix
+source: 25_COGNITIVE_MATRIX
 artifact: "REALITY_X_RSCF_MATRIX.md"
 artifact_id: "amos_25_cognitive_matrix_reality_x_rscf_matrix"
 origin_architect: "Trang Phan"
@@ -8,208 +9,106 @@ steward: "Trang Phan"
 system: "AMOS OS"
 plane: "25_COGNITIVE_MATRIX"
 segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX"
+artifact_kind: "MATRIX_TABLE"
 path: "25_COGNITIVE_MATRIX/REALITY_X_RSCF_MATRIX.md"
 
-tags: [amos_os, cognitive_matrix, matrix, 25_cognitive_matrix, canon_placeholder, rscf]
+tags:
+  - amos_os
+  - cognitive_matrix
+  - vault
+  - 25_cognitive_matrix
+  - reality_x_rscf_matrix
+  - matrix_table
+  - proof_capsule_routing
+  - rscf
+  - canon_candidate
+  - canon/matrix
 
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
+validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+
+ingestion_action: "NATIVE_CANON_INGESTION"
+raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: AMOS_MODEL
+  provenance:
+    - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE
+    - 11_KNOWLEDGE/03_RSCF/TRANG_REALITY_RSCF_INDEX
+    - AMOS_CORPUS
+  scope:
+    - COGNITIVE_MATRIX
+    - CROSS_PLANE_MATRIX_TABLE
+    - SOURCE_DEFINED_MODEL
+
+framework_binding:
+  reality_master:
+    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE]]"
+  rscf_index:
+    artifact: "[[11_KNOWLEDGE/03_RSCF/TRANG_REALITY_RSCF_INDEX]]"
+
+epistemic_boundary:
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  matrix_structure: VERIFIED_SOURCE_STRUCTURE
+  cross_plane_routing: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
 ---
 
 
+# Reality x RSCF Cross-Plane Routing Matrix Table
 
-# Reality × RSCF Matrix
-
-## 0. Status
-
-`REALITY_X_RSCF_MATRIX.md` is an **ADD-ONLY placeholder** for the **Cognitive Matrix** plane segment at `25_COGNITIVE_MATRIX`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-Origin architect / steward:
-
-**Trang Phan**
+`REALITY_X_RSCF_MATRIX.md` provides the routing table mapping pre-symbolic ontological structures directly to formal RSCF proof capsules and confidence ceilings.
 
 ---
 
-## 1. Purpose
+# 1. Reality to RSCF Proof Routing Grid
 
-This artifact reserves the **Reality × RSCF Matrix** slot within the Cognitive Matrix plane. The Cognitive Matrix plane governs primitives L00-L29, lifecycle operations, control planes, scales, cell registry, routing, validation, generators.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
+| Reality Structure | RSCF Node Target | Claim Class | Epistemic Bound | Confidence Ceiling |
+| :--- | :--- | :--- | :--- | :--- |
+| **Pre-Symbolic Spine ($P \to D \to R$)** | `RSCF-TRG-001` | `AMOS_MODEL` | Structural Model Bound | `SOURCE_BOUND` |
+| **Trang ∅ Null Invariant ($S_0$)** | `RSCF-TRG-002` | `SYSTEM_INVARIANT` | Absolute Non-Negotiable | `GROUND_CONSERVED` |
+| **Khung Trang Dynamics** | `RSCF-TRG-003` | `MATHEMATICAL_MODEL` | Computable Decoupling | `FORMAL_DERIVED` |
+| **Trang Lacunarity ($\Lambda$)** | `RSCF-TRG-004` | `MATHEMATICAL_MODEL` | Spatial Texture Bound | `FORMAL_DERIVED` |
 
 ---
 
-## 3. Ingestion Rule
+# 2. Inter-Plane & Vault Connections
+
+- **Reality Framework:** [[TRANG_REALITY_ARCHITECTURE]]
+- **Reality RSCF Index:** [[TRANG_REALITY_RSCF_INDEX]]
+- **RSCF MOC:** [[03_RSCF_MOC]]
+
+---
+
+# 3. RSCF Contract
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+RSCF:
+  node_id: amos_25_cognitive_matrix_reality_x_rscf_matrix
+  node_type: matrix_table
+  claim_class: AMOS_MODEL
+  state: SOURCE_GROUNDED
+  H:
+    identity: "Reality x RSCF Matrix Table"
+    role: "Routing table mapping pre-symbolic reality structures to RSCF proof capsules"
+  M:
+    routed_nodes: [RSCF-TRG-001, RSCF-TRG-002, RSCF-TRG-003, RSCF-TRG-004]
+  confidence_ceiling:
+    source_model: SOURCE_BOUND
+    runtime: UNKNOWN
 ```
 
 ---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `25_COGNITIVE_MATRIX · MATRIX` within the Cognitive Matrix plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-00_ROOT_MOC|AMOS MOC
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_25_cognitive_matrix_reality_x_rscf_matrix
-
-node_type: matrix
-
-path: 25_COGNITIVE_MATRIX/REALITY_X_RSCF_MATRIX.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[TRANG_REALITY_ARCHITECTURE]] · [[TRANG_REALITY_RSCF_INDEX]]
 
 ---
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]

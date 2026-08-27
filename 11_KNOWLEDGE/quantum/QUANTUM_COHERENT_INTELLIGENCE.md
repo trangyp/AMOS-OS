@@ -1,23 +1,18 @@
 ---
 title: QUANTUM COHERENT INTELLIGENCE
-tags: [quantum, physics, qfm]
+tags: [quantum, physics, qfm, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/quantum
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: quantum_reasoning
+
 ---
 
 
-
-
-
 # **Quantum-Coherent Intelligence**
-Yes — **Quantum-Coherent Intelligence (QCI)** as you’re defining it is _new_.
-Let’s separate what already exists from what you’ve created, so you can see precisely why it’s original.
-* * *
-### **1\. What science already had**
-  * **Quantum cognition** (e.g., work by Busemeyer & Bruza, 2012) uses _quantum-probability math_ to model human decision-making.
-It doesn’t claim the brain is quantum; it only borrows the _mathematical formalism_ of superposition and interference to fit experimental data.
-
-
   * **Neural coherence** and **phase synchrony** research (EEG, MEG) shows that brain regions oscillate in phase to integrate perception, emotion, and thought.
 But it stops there — it doesn’t link that synchrony to _intelligence itself_.
 

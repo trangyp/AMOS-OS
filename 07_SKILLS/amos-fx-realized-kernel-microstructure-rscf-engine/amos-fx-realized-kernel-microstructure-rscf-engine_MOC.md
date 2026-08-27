@@ -1,8 +1,15 @@
 ---
 title: "Amos-Fx-Realized-Kernel-Microstructure-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-fx-realized-kernel-microstructure-r]
+source: 07_SKILLS/amos-fx-realized-kernel-microstructure-rscf-engine
+tags: [moc, amos-fx-realized-kernel-microstructure-r, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Fx-Realized-Kernel-Microstructure-Rscf-Engine — Map of Content
 

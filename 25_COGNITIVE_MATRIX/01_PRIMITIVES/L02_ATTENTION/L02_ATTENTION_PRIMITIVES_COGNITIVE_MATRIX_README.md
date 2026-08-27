@@ -1,12 +1,18 @@
 ---
 type: cognitive
-tags: [amos, cognitive-matrix, l02, attention, readme, rscf, hml, governance]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
+tags: [amos, cognitive-matrix, l02, attention, readme, rscf, hml, governance, canon/cognitive-matrix]
 
 title: "L02_ATTENTION — README"
 origin_architect: "Trang Phan"
 status: "MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED"
 epistemic_class: "MODEL"
 runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -28,15 +34,7 @@ runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
 
 Conceptually:
 
-\[
-CandidateSpace_t
-\rightarrow
-AttentionSelection_t
-\rightarrow
-ResourceAllocation_t
-\rightarrow
-FocusedProcessing_t
-\]
+$$CandidateSpace_t \rightarrow AttentionSelection_t \rightarrow ResourceAllocation_t \rightarrow FocusedProcessing_t$$
 
 subject to:
 

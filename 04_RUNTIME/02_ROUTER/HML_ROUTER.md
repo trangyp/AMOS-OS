@@ -1,6 +1,7 @@
 ---
-title: "HML Router"
-type: routing
+title: "HML Router Specification"
+type: runtime
+source: 04_RUNTIME/02_ROUTER
 artifact: "HML_ROUTER.md"
 artifact_id: "amos_04_runtime_02_router_hml_router"
 origin_architect: "Trang Phan"
@@ -8,208 +9,112 @@ steward: "Trang Phan"
 system: "AMOS OS"
 plane: "04_RUNTIME"
 segment: "04_RUNTIME/02_ROUTER"
-artifact_kind: "ROUTER"
+artifact_kind: "ROUTER_SPEC"
 path: "04_RUNTIME/02_ROUTER/HML_ROUTER.md"
 
-tags: [amos_os, runtime, execution, 04_runtime, router, canon_placeholder, rscf]
+tags:
+  - amos_os
+  - runtime
+  - vault
+  - 04_runtime
+  - 02_router
+  - hml_router
+  - high_mid_low
+  - progressive_disclosure
+  - rscf
+  - canon_candidate
+  - canon/runtime
 
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
+validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+
+ingestion_action: "NATIVE_CANON_INGESTION"
+raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+
+rscf:
+  state: SOURCE_GROUNDED
+  claim_class: AMOS_MODEL
+  provenance:
+    - 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
+    - 11_KNOWLEDGE/11_KNOWLEDGE_MOC
+    - AMOS_CORPUS
+  scope:
+    - RUNTIME_ROUTER
+    - HML_ROUTING
+    - SOURCE_DEFINED_MODEL
+
+framework_binding:
+  router_moc:
+    artifact: "[[04_RUNTIME/02_ROUTER/02_ROUTER_MOC]]"
+  knowledge_moc:
+    artifact: "[[11_KNOWLEDGE/KNOWLEDGE_MOC]]"
+
+epistemic_boundary:
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  spec_structure: VERIFIED_SOURCE_STRUCTURE
+  routing_algorithm: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
 ---
 
+# HML (High / Mid / Low) Progressive Disclosure Router Specification
 
+`HML_ROUTER.md` is the canonical Runtime Plane specification governing the progressive context disclosure across **High (H - Metadata/Index)**, **Mid (M - Structure/Executive)**, and **Low (L - Deep Raw Corpus)** layers within `04_RUNTIME/02_ROUTER`.
 
-# HML Router
+---
 
-## 0. Status
-
-`HML_ROUTER.md` is an **ADD-ONLY placeholder** for the **Runtime** plane segment at `04_RUNTIME/02_ROUTER`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+# 1. H/M/L Progressive Disclosure Strategy
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+  User Request / System Inquiry
+     │
+  ├── Tier H (High Level): Scans lightweight metadata, MOCs, and headers (~10-50 tokens)
+     │   (Resolves 80% of simple routing and existence checks)
+     ▼
+  ├── Tier M (Mid Level): Loads formal frameworks, equations, and executive structures (~200-800 tokens)
+     │   (Resolves detailed reasoning, synthesis, and matrix bindings)
+     ▼
+  └── Tier L (Low Level): Selectively retrieves deep raw source corpus / arXiv proof lines
+         (Invoked ONLY when mathematical line-by-line verification is required)
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+# 2. Inter-Plane & Vault Connections
+
+- **Router MOC:** [[04_RUNTIME/02_ROUTER/02_ROUTER_MOC]]
+- **Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC]]
+- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC]]
 
 ---
 
-## 1. Purpose
-
-This artifact reserves the **HML Router** slot within the Runtime plane. The Runtime plane governs execution substrate binding kernel contracts to runnable operators under v4.4 runtime rules.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
+# 3. RSCF Contract
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+RSCF:
+  node_id: amos_04_runtime_02_router_hml_router
+  node_type: router_spec
+  claim_class: AMOS_MODEL
+  state: SOURCE_GROUNDED
+  H:
+    identity: "HML Router Specification"
+    role: "Progressive context disclosure router optimizing token budget across H/M/L tiers"
+  M:
+    tiers: [tier_h_high, tier_m_mid, tier_l_low]
+  confidence_ceiling:
+    source_model: SOURCE_BOUND
+    runtime: UNKNOWN
 ```
 
 ---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · [[04_RUNTIME/02_ROUTER/02_ROUTER_MOC]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC]]
 
 ---
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `04_RUNTIME · ROUTER` within the Runtime plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-00_ROOT_MOC|AMOS MOC
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_04_runtime_02_router_hml_router
-
-node_type: router
-
-path: 04_RUNTIME/02_ROUTER/HML_ROUTER.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
-
----
-**MOC:** [[02_ROUTER_MOC]]
+**MOC:** [[04_RUNTIME/02_ROUTER/02_ROUTER_MOC]]

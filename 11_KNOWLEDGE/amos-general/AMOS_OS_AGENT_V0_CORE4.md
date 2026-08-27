@@ -3,10 +3,16 @@ title: AMOS OS AGENT V0 CORE4
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-os-agent-v0, amos-general]
 type: data
 source: 11_KNOWLEDGE/amos-general
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_architecture
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
 
-
-
+# AMOS OS AGENT V0 CORE4
 
 ```json
 [

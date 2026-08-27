@@ -1,9 +1,14 @@
 ---
 title: AUTHORITY RESOLVER
 type: authority
-tags: [control_plane, authority, note]
+source: 03_CONTROL_PLANE/04_AUTHORITY
+tags: [control_plane, authority, note, canon/control-plane]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: authority_governance
 ---
-
 
 
 # AUTHORITY_RESOLVER.md

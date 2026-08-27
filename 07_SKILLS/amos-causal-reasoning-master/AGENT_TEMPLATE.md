@@ -1,8 +1,15 @@
 ---
 title: AGENT TEMPLATE
 type: note
-tags: [note, amos-causal-reasoning-master]
+source: 07_SKILLS/amos-causal-reasoning-master
+tags: [note, amos-causal-reasoning-master, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Agent Template: amos-causal-reasoning-master
 
@@ -31,3 +38,6 @@ Domain master agent for AMOS Causal Reasoning Master. Consolidates 3 sub-skills.
 
 ---
 **MOC:** [[SKILL]]
+
+---
+**MOC:** [[amos-causal-reasoning-master_MOC]]

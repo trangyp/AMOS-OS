@@ -4,6 +4,7 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Core/"
 origin_architect: "Trang Phan"
 type: reference
+source: 11_KNOWLEDGE/brain
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-brain-engine-specs, brain]
 status: "active"
 provenance: "VERIFIED"
@@ -15,8 +16,14 @@ sources: "see body"---
 
 Ingest summary of key AMOS brain engine specs from Google Drive (`_00_AMOS_CANON/Core/`).  
 All specs authored by **Trang Phan**.
-
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: cognitive_architecture
 ---
+
+# AMOS Brain Engine Specs
 
 ## 1. AMOS_Cognition_Engine_v0 (AMOS_COGNITION_INFINITY_KERNEL)
 

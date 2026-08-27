@@ -1,52 +1,15 @@
 ---
 title: GENERATORS COGNITIVE MATRIX README
 type: cognitive
-tags: [cognitive_matrix, generators, readme]
+source: 25_COGNITIVE_MATRIX/12_GENERATORS
+tags: [cognitive_matrix, generators, readme, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-
-
-Below is a **full replacement README** for `12_GENERATORS`. It treats the branch as an AMOS infrastructure layer for governed generation rather than a collection of arbitrary content-producing scripts. The structure is **DERIVED / CONDITIONAL** from the Full Brain OS, v4.4 runtime, RSCF, authority/control-plane, deployment, and provenance rules; it does not claim that every proposed generator type already exists in source canon. The Full Brain architecture explicitly separates cognition, runtime, control/authority, and deployment, so generators must preserve those boundaries.  
-
----
-id: AMOS-12-GENERATORS
-title: "12_GENERATORS — Governed Generation Infrastructure"
-origin_architect: "Trang Phan"
-artifact_type: "architecture_readme"
-
-class: "MATRIX_INFRASTRUCTURE"
-conclusion_class: "DERIVED"
-canon_status: "CONDITIONAL"
-validation_status: "ARCHITECTURE_DEFINED_IMPLEMENTATION_PARTIAL_OR_UNKNOWN"
-gap_status: "OPEN"
-
-scope:
-  - generator_contracts
-  - generator_registry
-  - generation_planning
-  - generation_execution
-  - artifact_generation
-  - knowledge_generation
-  - hypothesis_generation
-  - simulation_generation
-  - code_and_fabrication_generation
-  - provenance
-  - validation
-  - authority
-  - commit_control
-
-runtime_dependencies:
-  - "AMOS_FULL_BRAIN_OS"
-  - "OMNI_KERNEL"
-  - "BRAIN_CORE"
-  - "OMNIVERSE_BRAIN"
-  - "AMOS_OS_KERNEL_v4.4"
-  - "RSCF"
-  - "HML"
-  - "INFRASTRUCTURE_CONTROL_PLANE"
-
-hard_rule: "GENERATION != TRUTH != AUTHORITY != COMMIT"
----
 
 # 12_GENERATORS
 
@@ -2670,7 +2633,7 @@ READY
 
 ```
 
-This is the appropriate replacement for the current placeholder README: the **branch-level architecture is now substantially defined**, while the actual registry of implemented generators remains an explicit gap rather than being fabricated. The key AMOS Full Brain boundary underneath it is that capability, runtime reasoning, authority, and deployment are distinct layers; a generator can produce a candidate without acquiring execution or commit authority. :contentReference[oaicite:2]{index=2}
+This is the appropriate replacement for the current placeholder README: the **branch-level architecture is now substantially defined**, while the actual registry of implemented generators remains an explicit gap rather than being fabricated. The key AMOS Full Brain boundary underneath it is that capability, runtime reasoning, authority, and deployment are distinct layers; a generator can produce a candidate without acquiring execution or commit authority.
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. The contract is AMOS-consistent; exact generator implementations and the canonical generator inventory remain `UNKNOWN/GAP`.
 ```

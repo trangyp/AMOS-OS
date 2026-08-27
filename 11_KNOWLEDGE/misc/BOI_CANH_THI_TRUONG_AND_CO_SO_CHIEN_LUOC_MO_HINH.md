@@ -1,12 +1,15 @@
 ---
 title: BOI CANH THI TRUONG AND CO SO CHIEN LUOC MO HINH
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
-
-
-
 
 
 # **BỐI CẢNH THỊ TRƯỜNG & CƠ SỞ CHIẾN LƯỢC – MÔ HÌNH “XE ĐIỆN + VIỆC LÀM + TÍN DỤNG VI MÔ” CHO SINH VIÊN VIỆT NAM**

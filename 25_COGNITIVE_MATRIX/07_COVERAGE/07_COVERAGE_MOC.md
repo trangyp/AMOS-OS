@@ -1,8 +1,15 @@
 ---
 title: "07 Coverage MOC"
 type: moc
-tags: [moc, 07-coverage]
+source: 25_COGNITIVE_MATRIX/07_COVERAGE
+tags: [moc, 07-coverage, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 07 Coverage — Map of Content
 

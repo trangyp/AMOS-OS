@@ -4,10 +4,16 @@ created: "2026-08-22"
 origin: "Google Drive — new troy/Public Messaging - Making Consent Infrastructure Relatable.pdf"
 origin_architect: "Quynh Trang Phan"
 type: framework
-tags: [planetary-consent, public-messaging, relatable-anecdotes, smart-home, ethical-coffee, city-planning, forest-voice, Q&A, community-engagement, misc]
+source: 11_KNOWLEDGE/misc
+tags: [planetary-consent, public-messaging, relatable-anecdotes, smart-home, ethical-coffee, city-planning, forest-voice, Q&A, community-engagement, misc, canon/knowledge]
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 

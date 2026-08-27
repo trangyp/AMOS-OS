@@ -1,8 +1,15 @@
 ---
 title: "Pdfs MOC"
 type: moc
-tags: [moc, pdfs]
+source: 07_SKILLS/pdfs
+tags: [moc, pdfs, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Pdfs — Map of Content
 

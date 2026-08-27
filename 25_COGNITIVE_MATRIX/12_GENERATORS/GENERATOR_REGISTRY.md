@@ -1,16 +1,6 @@
 ---
-title: GENERATOR REGISTRY
-type: note
-tags: [note, 12-generators]
----
-
-
-Below is the substantive replacement for `GENERATOR_REGISTRY.md`. I checked the connected Drive generator material first; the canonical `12_GENERATORS` folder currently exposes only a builder script, while broader Drive search surfaces generator source artifacts such as `unified_generator.md` and `hierarchical_ai_architecture_generator.md`. I therefore treat the registry below as an **AMOS model/specification**, not as proof that a populated runtime registry already exists.  
-
-````markdown
----
-tags:
-  - cognitive_matrix
+title: "GENERATOR REGISTRY"
+tags: [- cognitive_matrix, canon/cognitive-matrix]
   - generators
   - registry
   - governance
@@ -19,7 +9,15 @@ tags:
   - capability
   - versioning
   - lifecycle
+type: document
+source: 25_COGNITIVE_MATRIX/12_GENERATORS
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Generator Registry
 
@@ -82,21 +80,7 @@ GENERATION
 
 The governing distinction is:
 
-$$
-\boxed{
-Registered
-\neq
-Validated
-\neq
-Promoted
-\neq
-Selected
-\neq
-Executed
-\neq
-Canonical
-}
-$$
+$$\boxed{ Registered \neq Validated \neq Promoted \neq Selected \neq Executed \neq Canonical }$$
 
 No registry entry acquires stronger epistemic or operational status merely by existing in the registry.
 
@@ -155,51 +139,19 @@ It does not manufacture that state.
 
 Therefore:
 
-$$
-Entry(G) \not\Rightarrow Valid(G)
-$$
+$$Entry(G) \not\Rightarrow Valid(G)$$
 
 and:
 
-$$
-Entry(G) \not\Rightarrow Executable(G)
-$$
+$$Entry(G) \not\Rightarrow Executable(G)$$
 
 ---
 
 # 3. Core Registry Law
 
-For generator \(G\):
+For generator $G$:
 
-$$
-Registry(G)
-=
-Identity
-+
-Version
-+
-Lineage
-+
-Contract
-+
-Capability
-+
-Dependency
-+
-Scope
-+
-Regime
-+
-Provenance
-+
-Validation
-+
-Promotion
-+
-Lifecycle
-+
-ResolutionMetadata
-$$
+$$Registry(G) = Identity + Version + Lineage + Contract + Capability + Dependency + Scope + Regime + Provenance + Validation + Promotion + Lifecycle + ResolutionMetadata$$
 
 subject to applicable constraints.
 
@@ -249,9 +201,7 @@ GENERATOR FAMILY
 
 Formally:
 
-$$
-Family(G) \neq Version(G)
-$$
+$$Family(G) \neq Version(G)$$
 
 Example:
 
@@ -269,18 +219,11 @@ A new version does not require a new conceptual family unless the identity bound
 
 A fully qualified generator registry key SHOULD conceptually bind:
 
-$$
-K_G =
-(generator\_id,\ version)
-$$
+$$K_G = (generator\_id,\ version)$$
 
 and MAY additionally bind an immutable artifact digest:
 
-$$
-K_G^*
-=
-(generator\_id,\ version,\ hash)
-$$
+$$K_G^* = (generator\_id,\ version,\ hash)$$
 
 Example:
 
@@ -342,9 +285,7 @@ C
 
 are aliases of the same generator:
 
-$$
-A \equiv B \equiv C
-$$
+$$A \equiv B \equiv C$$
 
 for identity resolution.
 
@@ -481,37 +422,18 @@ An entry SHOULD NOT become operationally admissible merely because it is registe
 
 Operational admission may depend on:
 
-$$
-Admissible(G,T,M,E)
-$$
+$$Admissible(G,T,M,E)$$
 
 where:
 
-* \(G\) = generator;
-* \(T\) = task;
-* \(M\) = mode;
-* \(E\) = environment/regime.
+* $G$ = generator;
+* $T$ = task;
+* $M$ = mode;
+* $E$ = environment/regime.
 
 Conceptually:
 
-$$
-Admissible =
-Registered
-\land
-VersionValid
-\land
-ContractCompatible
-\land
-CapabilitySufficient
-\land
-DependencyValid
-\land
-ScopeCompatible
-\land
-RegimeCompatible
-\land
-NotInvalidated
-$$
+$$Admissible = Registered \land VersionValid \land ContractCompatible \land CapabilitySufficient \land DependencyValid \land ScopeCompatible \land RegimeCompatible \land NotInvalidated$$
 
 plus task-specific governance.
 
@@ -644,11 +566,7 @@ capability:
 
 Thus:
 
-$$
-DeclaredCapability
-\neq
-ValidatedCapability
-$$
+$$DeclaredCapability \neq ValidatedCapability$$
 
 ---
 
@@ -720,11 +638,7 @@ Which have valid dependencies?
 
 Conceptually:
 
-$$
-Candidates(C)
-=
-\{G \mid Provides(G,C)\}
-$$
+$$Candidates(C) = \{G \mid Provides(G,C)\}$$
 
 followed by admissibility filtering.
 
@@ -771,21 +685,13 @@ SELECTION / COMPETING / GAP
 
 # 23. Resolution Is Not Registry Mutation
 
-Selecting generator \(G\) for a task does not automatically modify \(G\)'s registry status.
+Selecting generator $G$ for a task does not automatically modify $G$'s registry status.
 
-$$
-Selected(G,T)
-\not\Rightarrow
-Promoted(G)
-$$
+$$Selected(G,T) \not\Rightarrow Promoted(G)$$
 
 and:
 
-$$
-SuccessfulRun(G,T)
-\not\Rightarrow
-Validated(G)
-$$
+$$SuccessfulRun(G,T) \not\Rightarrow Validated(G)$$
 
 Evidence from execution MAY later enter an appropriate validation process.
 
@@ -810,7 +716,7 @@ scope:
   excluded: []
 ```
 
-A generator validated under \(S_1\) is not automatically validated under \(S_2\).
+A generator validated under $S_1$ is not automatically validated under $S_2$.
 
 ---
 
@@ -907,11 +813,7 @@ all descend from the same underlying generator or evidence base, the registry SH
 
 Three registry entries do not necessarily imply three independent generators.
 
-$$
-EntryCount
-\neq
-IndependentGeneratorCount
-$$
+$$EntryCount \neq IndependentGeneratorCount$$
 
 ---
 
@@ -971,15 +873,9 @@ G1 ─────► G3
 G2 ───────┘
 ```
 
-For generator \(G\):
+For generator $G$:
 
-$$
-D(G)
-=
-D_{direct}(G)
-\cup
-D_{material-transitive}(G)
-$$
+$$D(G) = D_{direct}(G) \cup D_{material-transitive}(G)$$
 
 Only material dependency closure needs to be traversed for a given decision.
 
@@ -1061,13 +957,7 @@ Composition identity is distinct from member identities.
 
 # 36. Composition Law
 
-$$
-Validated(G_1)
-\land
-Validated(G_2)
-\not\Rightarrow
-Validated(Compose(G_1,G_2))
-$$
+$$Validated(G_1) \land Validated(G_2) \not\Rightarrow Validated(Compose(G_1,G_2))$$
 
 because composition may introduce:
 
@@ -1297,17 +1187,11 @@ The weakest accurate class governs.
 
 If generator admissibility depends on:
 
-$$
-P_1,P_2,\ldots,P_n
-$$
+$$P_1,P_2,\ldots,P_n$$
 
 then:
 
-$$
-Confidence(Admissibility)
-\leq
-\min Confidence(P_i)
-$$
+$$Confidence(Admissibility) \leq \min Confidence(P_i)$$
 
 for load-bearing premises unless independently revalidated.
 
@@ -1362,17 +1246,11 @@ MUST be preserved.
 
 If:
 
-$$
-Support(G_1)
-\approx
-Support(G_2)
-$$
+$$Support(G_1) \approx Support(G_2)$$
 
 or the evidence is incomparable:
 
-$$
-Select(G_1)
-$$
+$$Select(G_1)$$
 
 MUST NOT be manufactured merely to produce a single answer.
 
@@ -1392,13 +1270,7 @@ resolution:
 
 Where competition matters, the system SHOULD seek a high-information discriminating test.
 
-$$
-T^*
-=
-\arg\max_T
-\frac{ExpectedDecisionInformation(T)}
-{Cost(T)}
-$$
+$$T^* = \arg\max_T \frac{ExpectedDecisionInformation(T)} {Cost(T)}$$
 
 subject to safety and governance constraints.
 
@@ -1410,17 +1282,11 @@ The registry SHOULD support coverage analysis.
 
 For capability set:
 
-$$
-C=\{c_1,c_2,\ldots,c_n\}
-$$
+$$C=\{c_1,c_2,\ldots,c_n\}$$
 
 define:
 
-$$
-Coverage(c_i)
-=
-\{G \mid Provides(G,c_i)\}
-$$
+$$Coverage(c_i) = \{G \mid Provides(G,c_i)\}$$
 
 This enables detection of:
 
@@ -1438,9 +1304,7 @@ UNVALIDATED COVERAGE
 
 If five generators claim a capability:
 
-$$
-|\ Coverage(C)\ |=5
-$$
+$$|\ Coverage(C)\ |=5$$
 
 this does not mean the capability has five independently reliable implementations.
 
@@ -1454,21 +1318,7 @@ Implementations MAY use a resolution score, but scoring MUST NOT override hard i
 
 Conceptually:
 
-$$
-Score(G,T)
-=
-w_cC
-+
-w_vV
-+
-w_sS
-+
-w_rR
-+
-w_fF
--
-w_kK
-$$
+$$Score(G,T) = w_cC + w_vV + w_sS + w_rR + w_fF - w_kK$$
 
 where dimensions MAY represent:
 
@@ -1483,11 +1333,7 @@ cost/risk
 
 But:
 
-$$
-HardConstraintViolation(G)
-\Rightarrow
-Inadmissible(G)
-$$
+$$HardConstraintViolation(G) \Rightarrow Inadmissible(G)$$
 
 regardless of score.
 
@@ -1741,19 +1587,7 @@ may be required.
 
 Localized registry resolution is admissible only when:
 
-$$
-DependencyClosure
-\land
-ProvenanceIndependence
-\land
-ScopeCompatibility
-\land
-RegimeCompatibility
-\land
-Freshness
-\land
-NonConflict
-$$
+$$DependencyClosure \land ProvenanceIndependence \land ScopeCompatibility \land RegimeCompatibility \land Freshness \land NonConflict$$
 
 are sufficiently established for the decision.
 
@@ -1831,13 +1665,7 @@ Binding is not execution.
 
 If the generator version or load-bearing registry state changes after binding but before consequential execution, the binding SHOULD be rechecked.
 
-$$
-State_{bind}
-\neq
-State_{commit}
-\Rightarrow
-Revalidate
-$$
+$$State_{bind} \neq State_{commit} \Rightarrow Revalidate$$
 
 when the difference is material.
 
@@ -1872,12 +1700,7 @@ This is a conceptual consistency pattern, not a claim about literal implementati
 
 A generator transition MAY use compare-and-swap semantics:
 
-$$
-CAS(
-expected\_state,
-new\_state
-)
-$$
+$$CAS( expected\_state, new\_state )$$
 
 If expected state no longer matches:
 
@@ -1895,9 +1718,7 @@ Some tasks require multiple generators as one reasoning unit.
 
 Example:
 
-$$
-G_A + G_B + G_C
-$$
+$$G_A + G_B + G_C$$
 
 If correctness depends on the complete set:
 
@@ -1920,7 +1741,7 @@ registry_snapshot:
   epoch: E42
 ```
 
-A binding valid under \(E_{42}\) does not automatically survive a material causal change in \(E_{43}\).
+A binding valid under $E_{42}$ does not automatically survive a material causal change in $E_{43}$.
 
 ---
 
@@ -2010,25 +1831,17 @@ Invalidation SHOULD be targeted.
 
 # 78. Targeted Invalidation
 
-If dependency \(D\) fails:
+If dependency $D$ fails:
 
-$$
-Invalidate(D)
-$$
+$$Invalidate(D)$$
 
-then only generator states dependent on \(D\) should be reconsidered.
+then only generator states dependent on $D$ should be reconsidered.
 
-$$
-Invalidate(D)
-\Rightarrow
-Invalidate(Descendants(D))
-$$
+$$Invalidate(D) \Rightarrow Invalidate(Descendants(D))$$
 
 not:
 
-$$
-Invalidate(AllGenerators)
-$$
+$$Invalidate(AllGenerators)$$
 
 ---
 
@@ -2096,9 +1909,7 @@ AMOS MUST NOT arbitrarily merge them.
 
 If:
 
-$$
-Hash(G,V,A) \neq Hash(G,V,B)
-$$
+$$Hash(G,V,A) \neq Hash(G,V,B)$$
 
 for two artifacts claiming identical identity/version:
 
@@ -2793,27 +2604,19 @@ unless independently validated.
 
 Therefore:
 
-$$
-Documented(G,C)
-\not\Rightarrow
-EmpiricallyVerified(G,C)
-$$
+$$Documented(G,C) \not\Rightarrow EmpiricallyVerified(G,C)$$
 
 ---
 
 # 102. Structural Similarity Firewall
 
-If generator \(G_1\) resembles validated generator \(G_2\):
+If generator $G_1$ resembles validated generator $G_2$:
 
-$$
-Similar(G_1,G_2)
-$$
+$$Similar(G_1,G_2)$$
 
 this does not establish:
 
-$$
-Valid(G_1)
-$$
+$$Valid(G_1)$$
 
 Structural similarity may justify a hypothesis or test strategy, not automatic promotion.
 
@@ -2912,29 +2715,11 @@ artifact:
 
 # 106. Final Registry Law
 
-$$
-\boxed{
-Registry
-=
-Identity
-+
-Lineage
-+
-Evidence\ State
-+
-Operational\ Constraints
-}
-$$
+$$\boxed{ Registry = Identity + Lineage + Evidence\ State + Operational\ Constraints }$$
 
 but:
 
-$$
-\boxed{
-Registry\ Presence
-\neq
-Trust
-}
-$$
+$$\boxed{ Registry\ Presence \neq Trust }$$
 
 The registry exists so AMOS can know not merely that a generator has a name, but:
 

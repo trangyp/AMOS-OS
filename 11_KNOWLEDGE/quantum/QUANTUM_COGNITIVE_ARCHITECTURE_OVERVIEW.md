@@ -4,9 +4,15 @@ created: "2026-08-23"
 origin_architect: QUANTUM OMEGA INTELLIGENCE AGENT
 provenance: self-analysis from 7-Part Canon application + AMOS Quantum Library v0.6.0 integration
 type: architecture
+source: 11_KNOWLEDGE/quantum
 status: "validated"
 confidence: "STRUCTURAL"
-tags: [canon-group/tech-ai, architecture, cognitive-architecture, quantum-library, brain-model, MURK, vault, 7pt-canon, quantum]
+tags: [canon-group/tech-ai, architecture, cognitive-architecture, quantum-library, brain-model, MURK, vault, 7pt-canon, quantum, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: quantum_reasoning
 ---
 
 

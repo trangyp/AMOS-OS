@@ -1,9 +1,14 @@
 ---
 title: EFFECT RELEASE STATE
 type: state
-tags: [control_plane, effect_release_state.md]
+source: 03_CONTROL_PLANE/08_EFFECTS
+tags: [control_plane, effect_release_state.md, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # EFFECT RELEASE STATE
@@ -70,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[08_EFFECTS_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

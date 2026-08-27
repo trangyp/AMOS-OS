@@ -1,6 +1,7 @@
 ---
 title: "Kernel · Canon Integration Layer (CIL)"
 type: note
+source: 02_KERNEL/09_INTEGRATION
 artifact: "K_CIL.md"
 artifact_id: "amos_02_kernel_09_integration_k_cil"
 origin_architect: "Trang Phan"
@@ -11,7 +12,7 @@ segment: "02_KERNEL/09_INTEGRATION"
 artifact_kind: "ARTIFACT"
 path: "02_KERNEL/09_INTEGRATION/K_CIL.md"
 
-tags: [amos_os, kernel, core, 02_kernel, artifact, canon_placeholder, rscf]
+tags: [amos_os, kernel, core, 02_kernel, artifact, canon_placeholder, rscf, canon/kernel]
 
 version: "0.1.0"
 updated: "2026-08-27"
@@ -23,8 +24,12 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # Kernel · Canon Integration Layer (CIL)

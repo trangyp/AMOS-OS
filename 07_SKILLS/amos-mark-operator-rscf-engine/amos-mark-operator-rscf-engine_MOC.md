@@ -1,8 +1,15 @@
 ---
 title: "Amos-Mark-Operator-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-mark-operator-rscf-engine]
+source: 07_SKILLS/amos-mark-operator-rscf-engine
+tags: [moc, amos-mark-operator-rscf-engine, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Mark-Operator-Rscf-Engine — Map of Content
 

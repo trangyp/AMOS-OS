@@ -1,8 +1,15 @@
 ---
 title: regime freshness
 type: reference
-tags: [reference, amos-information-theory-master]
+source: 07_SKILLS/amos-information-theory-master/references
+tags: [reference, amos-information-theory-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Regime Freshness
 

@@ -1,9 +1,14 @@
 ---
 title: QUANTUM SYSTEMS DOMAINS QUANTUM SYSTEMS CONTRACT
 type: quantum
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/41_QUANTUM_SYSTEMS/00_INDEX
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # QUANTUM SYSTEMS DOMAINS QUANTUM SYSTEMS CONTRACT

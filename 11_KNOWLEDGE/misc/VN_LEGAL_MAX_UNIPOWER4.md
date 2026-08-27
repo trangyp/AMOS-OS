@@ -1,15 +1,20 @@
 ---
 title: VN LEGAL MAX UNIPOWER4
 type: legal
+source: 11_KNOWLEDGE/misc
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: vn-legal-max
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/vn-legal-max, misc]
 created: 2026-08-22
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
-
+# VN LEGAL MAX UNIPOWER4
 
 ```json
 [

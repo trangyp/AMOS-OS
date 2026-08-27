@@ -1,12 +1,18 @@
 ---
 type: dependency
-tags: [amos, cognitive-matrix, l02, attention, dependencies, rscf, hml, provenance]
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
+tags: [amos, cognitive-matrix, l02, attention, dependencies, rscf, hml, provenance, canon/cognitive-matrix]
 
 title: "L02_ATTENTION — Dependencies"
 origin_architect: "Trang Phan"
 status: "MODEL_SPECIFICATION / UNVALIDATED"
 epistemic_class: "MODEL"
 runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 

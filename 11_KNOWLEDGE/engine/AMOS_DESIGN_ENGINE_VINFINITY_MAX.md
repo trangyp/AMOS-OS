@@ -1,11 +1,17 @@
 ---
 title: "AMOS Design Engine vInfinity_MAX (X1000)"
 type: engine
+source: 11_KNOWLEDGE/engine
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Design_Engine_v0.json (5,875 lines, 215KB)"
 origin_type: "SOURCE"
 category: "kernel"
-tags: [amos, design, engine, v-infinity, x1000, tech, architecture, systems, fabrication, audit, quantum]
+tags: [amos, design, engine, v-infinity, x1000, tech, architecture, systems, fabrication, audit, quantum, canon/knowledge]
+rscf:
+  state: AMOS_MODEL
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
 
 
@@ -139,3 +145,6 @@ compress_existing_design_space, expand_to_new_domains_on_demand, generate_multi_
 
 ---
 **MOC:** [[ENGINE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

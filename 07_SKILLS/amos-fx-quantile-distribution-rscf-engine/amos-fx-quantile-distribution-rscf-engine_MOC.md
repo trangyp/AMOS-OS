@@ -1,8 +1,15 @@
 ---
 title: "Amos-Fx-Quantile-Distribution-Rscf-Engine MOC"
 type: moc
-tags: [moc, amos-fx-quantile-distribution-rscf-engin]
+source: 07_SKILLS/amos-fx-quantile-distribution-rscf-engine
+tags: [moc, amos-fx-quantile-distribution-rscf-engin, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Fx-Quantile-Distribution-Rscf-Engine — Map of Content
 

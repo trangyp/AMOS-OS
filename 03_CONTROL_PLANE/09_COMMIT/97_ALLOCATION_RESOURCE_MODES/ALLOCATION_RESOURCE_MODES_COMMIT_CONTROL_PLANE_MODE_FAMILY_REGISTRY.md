@@ -1,9 +1,14 @@
 ---
 title: ALLOCATION RESOURCE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
-tags: [control_plane, 97_allocation_resource_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/97_ALLOCATION_RESOURCE_MODES
+tags: [control_plane, 97_allocation_resource_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # ALLOCATION RESOURCE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
@@ -38,3 +43,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[97_ALLOCATION_RESOURCE_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

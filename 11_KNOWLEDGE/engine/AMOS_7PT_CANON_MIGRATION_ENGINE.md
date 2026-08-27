@@ -1,13 +1,15 @@
 ---
 title: AMOS 7PT CANON MIGRATION ENGINE
-tags: [engine, processing, runtime]
+tags: [engine, processing, runtime, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/engine
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
+
 ---
-
-
-
-
 
 
 """
@@ -375,7 +377,7 @@ def build_7q_canonical_test(part: str) -> str:
     for index, question in enumerate(CANONICAL_QUESTIONS):
         if index == owned_index:
             lines.append(
-                f"{index + 1}. **{question}** — **✓ PASS.** "
+                f"{index + 1}. **{question}** — **PASS.** "
                 f"{owned_answer(part)}"
             )
         else:
@@ -809,3 +811,6 @@ A successful Python execution proves only that the transformation executed and i
 
 ---
 **Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

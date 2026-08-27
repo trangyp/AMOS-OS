@@ -1,5 +1,6 @@
 ---
 type: note
+source: 00_ROOT
 aliases:
 - AMOS MOC
 - AMOS OS MOC
@@ -49,8 +50,12 @@ steward: Trang Phan
 tags: [amos, amos_os, root, amos-os, moc, map-of-content, root-index, architecture, system-map, dependency-map, navigation, canon, kernel, control-plane, runtime, cognitive-organism, agents, skills, workflows, protocols, memory, knowledge, state, models, tools, interfaces, schemas, observability, security, tests, operations, domains, research, operating-model, archive, cognitive-matrix, rscf, gmef, hml, provenance, authority, lifecycle, failure-recovery, canon-group/tech-ai, canon/navigation, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/moc, topic/root-navigation]
 title: AMOS OS — Master Map of Content
 updated: 2026-08-26
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
-
 
 
 # AMOS OS — Master Map of Content

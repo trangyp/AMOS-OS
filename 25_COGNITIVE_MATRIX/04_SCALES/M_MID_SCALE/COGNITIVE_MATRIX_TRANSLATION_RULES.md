@@ -1,7 +1,13 @@
 ---
 title: COGNITIVE MATRIX TRANSLATION RULES
 type: note
-tags: [note, m-mid-scale]
+source: 25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE
+tags: [note, m-mid-scale, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -48,3 +54,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/04_SCALES/M_MID
 
 ---
 **MOC:** [[M_MID_SCALE_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,9 +1,14 @@
 ---
 title: INDEX ORGANIZATIONAL BEHAVIOR DOMAINS README
 type: index
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/33_ORGANIZATIONAL_BEHAVIOR/00_INDEX
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # INDEX ORGANIZATIONAL BEHAVIOR DOMAINS README

@@ -1,9 +1,14 @@
 ---
 title: RISK SAFETY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
-tags: [control_plane, 36_risk_safety_modes]
+source: 03_CONTROL_PLANE/09_COMMIT/36_RISK_SAFETY_MODES
+tags: [control_plane, 36_risk_safety_modes, canon/control-plane]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # RISK SAFETY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
@@ -70,3 +75,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[36_RISK_SAFETY_MODES_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

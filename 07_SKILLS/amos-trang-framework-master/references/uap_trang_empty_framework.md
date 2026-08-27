@@ -1,8 +1,15 @@
 ---
 title: uap trang empty framework
 type: reference
-tags: [reference, amos-trang-framework-master]
+source: 07_SKILLS/amos-trang-framework-master/references
+tags: [reference, amos-trang-framework-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # UAP Explanation via Trang ∅ Framework
 
@@ -316,3 +323,7 @@ ol > li {
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

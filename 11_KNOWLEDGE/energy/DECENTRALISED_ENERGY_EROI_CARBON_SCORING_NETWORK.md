@@ -1,15 +1,18 @@
 ---
 title: DECENTRALISED ENERGY EROI CARBON SCORING NETWORK
-tags: [energy, power, green]
+tags: [energy, power, green, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/energy
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: energy_system
+
 ---
 
 
-
-
-
-# **🌐 Decentralised Energy–EROI–Carbon Scoring Network**
+# **Decentralised Energy–EROI–Carbon Scoring Network**
 ### **A Quantum-Logic Aligned Masterplan**
 * * *
 ## **0) Premise**

@@ -1,8 +1,15 @@
 ---
 title: "Amos-Narrative-Integrity-Governor MOC"
 type: moc
-tags: [moc, amos-narrative-integrity-governor]
+source: 07_SKILLS/amos-narrative-integrity-governor
+tags: [moc, amos-narrative-integrity-governor, canon/skill]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # Amos-Narrative-Integrity-Governor — Map of Content
 

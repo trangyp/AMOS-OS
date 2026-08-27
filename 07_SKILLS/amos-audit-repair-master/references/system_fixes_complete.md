@@ -1,8 +1,17 @@
 ---
 title: system fixes complete
 type: reference
-tags: [reference, amos-audit-repair-master]
+source: 07_SKILLS/amos-audit-repair-master/references
+tags: [reference, amos-audit-repair-master, canon/skill]
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: skill_reference
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
+
 
 # System Fixes Complete Report
 
@@ -21,9 +30,9 @@ tags: [system]
 **Governance SSOT**: Enforced  
 **Hallucination Risk**: ACKNOWLEDGED  
 
-## 🧠 AMOS BRAIN SYSTEM FIXER 2026 - COMPREHENSIVE SYSTEM ANALYSIS
+## AMOS BRAIN SYSTEM FIXER 2026 - COMPREHENSIVE SYSTEM ANALYSIS
 
-### ✅ SYSTEM ANALYSIS ACHIEVEMENTS
+### SYSTEM ANALYSIS ACHIEVEMENTS
 
 #### 1. Comprehensive System Scan Complete
 - **Files Scanned**: 5,196 Python files analyzed
@@ -46,7 +55,7 @@ tags: [system]
 - **Risk Assessment**: System-level risk scoring through tensor analysis
 - **Governance Compliance**: H2 classification enforced throughout
 
-## 🔧 TECHNICAL IMPLEMENTATION ANALYSIS
+## TECHNICAL IMPLEMENTATION ANALYSIS
 
 ### System Fixer Architecture
 ```python
@@ -75,7 +84,7 @@ class AMOSBrainSystemFixer2026:
 - **Logging Setup**: Modern logging configuration
 - **Docstring Templates**: H2-compliant documentation
 
-## 📊 SYSTEM ANALYSIS RESULTS
+## SYSTEM ANALYSIS RESULTS
 
 ### File Processing Statistics
 - **Total Python Files**: 5,196 files discovered
@@ -97,7 +106,7 @@ class AMOSBrainSystemFixer2026:
 - **Risk Score**: Computed through tensor field governance
 - **Risk Level**: System-level risk assessment
 
-## 🚨 IMPLEMENTATION ISSUES IDENTIFIED
+## IMPLEMENTATION ISSUES IDENTIFIED
 
 ### Technical Error Analysis
 **Critical Implementation Error**:
@@ -114,3 +123,7 @@ class AMOSBrainSystemFixer2026:
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

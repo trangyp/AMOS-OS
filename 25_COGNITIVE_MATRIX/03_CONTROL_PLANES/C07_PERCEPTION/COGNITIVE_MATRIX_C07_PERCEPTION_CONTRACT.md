@@ -1,9 +1,14 @@
 ---
 title: COGNITIVE MATRIX C07 PERCEPTION CONTRACT
 type: cognitive
-tags: [cognitive_matrix, control_planes, c07_perception, contract]
+source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C07_PERCEPTION
+tags: [cognitive_matrix, control_planes, c07_perception, contract, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
 
 
 # C07_PERCEPTION — Perception control: reality gate, evidence admission typing, observer-effect logging.
@@ -44,3 +49,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[C07_PERCEPTION_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

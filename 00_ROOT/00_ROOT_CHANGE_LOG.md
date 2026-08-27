@@ -1,6 +1,7 @@
 ---
 title: "AMOS OS Root Change Log"
 type: changelog
+source: 00_ROOT
 artifact: "00_ROOT_CHANGE_LOG.md"
 artifact_id: "AMOS_ROOT_CHANGE_LOG_000"
 origin_architect: "Trang Phan"
@@ -17,7 +18,12 @@ epistemic_class: "MODEL"
 canonical_status: "UNKNOWN/GAP"
 implementation_status: "UNKNOWN/GAP"
 validation_status: "UNKNOWN/GAP"
-tags: [note, 00-root]
+tags: [note, 00-root, canon/root]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 

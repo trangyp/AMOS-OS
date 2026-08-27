@@ -1,12 +1,15 @@
 ---
 title: HYDROGEN IN OFFSHORE ENERGY SYSTEMS WHY SAFETY NO
-tags: [system, architecture, design]
+tags: [system, architecture, design, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/system
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
+
 ---
-
-
-
 
 
 # **Hydrogen in Offshore Energy Systems:** Why Safety, Not Efficiency, Is the Decisive Variable
@@ -249,3 +252,6 @@ It is a **risk-management instrument**.
 
 ---
 **MOC:** [[SYSTEM_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

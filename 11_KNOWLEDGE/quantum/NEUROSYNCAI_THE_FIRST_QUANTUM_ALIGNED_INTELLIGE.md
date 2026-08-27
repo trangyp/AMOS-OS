@@ -1,12 +1,16 @@
 ---
 title: NEUROSYNCAI THE FIRST QUANTUM ALIGNED INTELLIGE
-tags: [quantum, physics, qfm]
+tags: [quantum, physics, qfm, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/quantum
+rscf:
+  state: CONDITIONAL
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: quantum_reasoning
+overclaim_risk: true
+overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
 ---
-
-
-
 
 
 # **NeuroSyncAI™ – The First Quantum-Aligned Intelligence Architecture**

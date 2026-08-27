@@ -1,15 +1,20 @@
 ---
 title: C12 EARTH ECOLOGY
 type: log
+source: 11_KNOWLEDGE/misc
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: c12-earth-ecology
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c12-earth-ecology, misc]
 created: 2026-08-22
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
-
+# C12 EARTH ECOLOGY
 
 ```json
 {

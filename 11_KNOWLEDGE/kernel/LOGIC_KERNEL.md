@@ -1,11 +1,15 @@
 ---
 title: LOGIC KERNEL
-tags: [kernel, core, runtime]
+tags: [kernel, core, runtime, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/kernel
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: EMPIRICAL
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+
 ---
-
-
 
 
 # Deterministic Logic Kernel

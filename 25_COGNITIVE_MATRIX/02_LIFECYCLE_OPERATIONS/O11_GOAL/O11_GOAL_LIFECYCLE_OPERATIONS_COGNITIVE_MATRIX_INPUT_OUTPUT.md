@@ -1,7 +1,13 @@
 ---
 title: O11 GOAL LIFECYCLE OPERATIONS COGNITIVE MATRIX INPUT OUTPUT
 type: note
-tags: [note, o11-goal]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O11_GOAL
+tags: [note, o11-goal, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -48,3 +54,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/02_LIFECYCLE_OP
 
 ---
 **MOC:** [[O11_GOAL_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

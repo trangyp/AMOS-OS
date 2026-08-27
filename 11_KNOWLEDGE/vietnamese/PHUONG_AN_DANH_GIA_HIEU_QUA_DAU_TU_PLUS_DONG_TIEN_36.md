@@ -1,12 +1,15 @@
 ---
 title: PHUONG AN DANH GIA HIEU QUA DAU TU PLUS DONG TIEN 36
-tags: [vietnamese, vietnam, regional]
+tags: [vietnamese, vietnam, regional, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/vietnamese
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: vietnamese_regional
+
 ---
-
-
-
 
 
 # **Phương án đánh giá hiệu quả đầu tư + dòng tiền 36 tháng cho 20 xe BOX E2**

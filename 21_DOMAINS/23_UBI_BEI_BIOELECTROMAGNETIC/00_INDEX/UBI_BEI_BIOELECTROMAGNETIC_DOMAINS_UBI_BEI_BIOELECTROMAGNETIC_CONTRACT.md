@@ -1,9 +1,14 @@
 ---
 title: UBI BEI BIOELECTROMAGNETIC DOMAINS UBI BEI BIOELECTROMAGNETIC CONTRACT
 type: note
-tags: [amos_os, 21_domains]
+source: 21_DOMAINS/23_UBI_BEI_BIOELECTROMAGNETIC/00_INDEX
+tags: [amos_os, 21_domains, canon/domain]
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
 ---
-
 
 
 # UBI BEI BIOELECTROMAGNETIC DOMAINS UBI BEI BIOELECTROMAGNETIC CONTRACT

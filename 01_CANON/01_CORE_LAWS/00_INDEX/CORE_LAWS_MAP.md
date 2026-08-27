@@ -1,12 +1,4 @@
 ---
-title: CORE LAWS MAP
-type: note
-tags: [note, 00-index]
----
-
-
-````markdown
----
 title: "AMOS Core Laws Map"
 artifact: "CORE_LAWS_MAP.md"
 artifact_id: "AMOS_CORE_LAWS_MAP"
@@ -17,8 +9,7 @@ layer: "01_CANON"
 domain: "CORE_LAWS"
 path: "01_CANON/01_CORE_LAWS/00_INDEX/CORE_LAWS_MAP.md"
 
-tags:
-  - canon
+tags: [- canon, canon/universe]
   - core_laws
   - index
   - map
@@ -36,7 +27,15 @@ epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
 implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
+type: document
+source: 01_CANON/01_CORE_LAWS/00_INDEX
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 01 Core Laws Map
 

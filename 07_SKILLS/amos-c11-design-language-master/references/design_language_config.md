@@ -1,8 +1,15 @@
 ---
 title: design language config
 type: reference
-tags: [reference, amos-c11-design-language-master]
+source: 07_SKILLS/amos-c11-design-language-master/references
+tags: [reference, amos-c11-design-language-master, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # C11 Design Language & Systems Semantics — Domain Configuration
 
@@ -64,3 +71,7 @@ Define and govern the full design language for products, systems, brands, interf
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

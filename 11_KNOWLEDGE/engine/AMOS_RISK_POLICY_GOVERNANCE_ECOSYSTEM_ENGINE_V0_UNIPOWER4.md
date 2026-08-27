@@ -1,15 +1,20 @@
 ---
 title: AMOS RISK POLICY GOVERNANCE ECOSYSTEM ENGINE V0 UNIPOWER4
 type: engine
+source: 11_KNOWLEDGE/engine
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: amos-risk-policy-governance-ecosystem-engine-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-risk-policy-governance-ecosystem-en, engine]
 created: 2026-08-22
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: engine_specification
 ---
-
-
+# AMOS RISK POLICY GOVERNANCE ECOSYSTEM ENGINE V0 UNIPOWER4
 
 ```json
 [

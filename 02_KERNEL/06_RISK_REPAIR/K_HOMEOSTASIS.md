@@ -1,6 +1,7 @@
 ---
 title: K HOMEOSTASIS
 type: note
+source: 02_KERNEL/06_RISK_REPAIR
 artifact_id: AMOS-OS-K-HOMEOSTASIS
 canonical_name: K_HOMEOSTASIS
 artifact_type: kernel_homeostasis_contract
@@ -14,10 +15,13 @@ kernel_family: STABILITY
 scope: AMOS_OS
 updated: 2026-08-26
 
-tags: [amos-os, kernel, core, kernel/homeostasis, kernel/stability, kernel/invariants, kernel/state, kernel/recovery, kernel/feedback, kernel/adaptation, kernel/provenance, kernel/causal-epoch, kernel/context, kernel/memory, rscf, rscf/validation, topic/homeostasis, topic/dynamic-stability, topic/drift-detection, topic/feedback-control, topic/bounded-adaptation, topic/failure-containment, topic/revalidation]
+tags: [amos-os, kernel, core, kernel/homeostasis, kernel/stability, kernel/invariants, kernel/state, kernel/recovery, kernel/feedback, kernel/adaptation, kernel/provenance, kernel/causal-epoch, kernel/context, kernel/memory, rscf, rscf/validation, topic/homeostasis, topic/dynamic-stability, topic/drift-detection, topic/feedback-control, topic/bounded-adaptation, topic/failure-containment, topic/revalidation, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
-
-
 
 
 # K HOMEOSTASIS

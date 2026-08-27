@@ -1,7 +1,13 @@
 ---
 title: O03 BINDING LIFECYCLE OPERATIONS COGNITIVE MATRIX DEFINITION
 type: note
-tags: [note, o03-binding]
+source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O03_BINDING
+tags: [note, o03-binding, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 
@@ -46,3 +52,6 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/02_LIFECYCLE_OP
 
 ---
 **MOC:** [[O03_BINDING_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

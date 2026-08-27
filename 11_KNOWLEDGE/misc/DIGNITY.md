@@ -1,42 +1,18 @@
 ---
 title: DIGNITY
-tags: [misc, reference, general]
+tags: [misc, reference, general, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/misc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+
 ---
 
 
-
-
-
 # Dignity 
-Short answer: **yes — dignity is more fundamental than trust** , and **biological safety is the minimum condition for anything else to exist**.
-Longer, precise framing (no moralizing, just structure):
-### 1\. Biological safety is the **floor**
-Food, shelter, physical safety, medical stability.
-Without this layer, the nervous system is in survival mode. There is **no trust, no ethics, no meaning** — only threat response. This is pure biology.
-So yes: **biological safety is the bare minimum to survive** , not to live well.
-* * *
-### 2\. Dignity is the **first human layer above survival**
-Dignity answers a different question than trust.
-  * Safety asks: _“Will I live?”_
-
-
-  * Dignity asks: _“Am I still a person?”_
-
-
-A human can survive **without trust** , but cannot remain psychologically intact **without dignity**.
-Dignity preserves **agency, self-respect, and boundary integrity** even in unequal or hostile conditions.
-This is why:
-  * Prisoners, refugees, the poor, or the sick fight hardest not for comfort—but to not be humiliated.
-
-
-  * People will endure risk, loss, even pain **to preserve dignity**.
-
-
-  * Once dignity is stripped, compliance may increase, but **the person collapses internally**.
-
-
 Dignity is **non-transactional**. It does not require belief in the other party.
 * * *
 ### 3\. Trust is **optional and conditional**

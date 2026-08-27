@@ -1,8 +1,15 @@
 ---
 title: "07 Authority MOC"
 type: moc
-tags: [moc, 07-authority]
+source: 02_KERNEL/07_AUTHORITY
+tags: [moc, 07-authority, canon/kernel]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 07 Authority — Map of Content
 

@@ -1,8 +1,15 @@
 ---
 title: canon
 type: reference
-tags: [reference, amos-skill-builder]
+source: 07_SKILLS/amos-skill-builder/references
+tags: [reference, amos-skill-builder, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # Skill Builder — Canon Reference
 
@@ -40,3 +47,7 @@ The AMOS canon is the authoritative knowledge base sourced from the Obsidian vau
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

@@ -1,13 +1,20 @@
 ---
 title: 6C PEOPLE CAPABILITY BUILDING V2
 type: note
+source: 11_KNOWLEDGE/misc
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: 6c-people-capability-building-v2
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/6c-people-capability-building-v2, misc]
 created: 2026-08-22
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 6C PEOPLE CAPABILITY BUILDING V2
 

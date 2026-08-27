@@ -1,8 +1,15 @@
 ---
 title: "01 Roles MOC"
 type: moc
-tags: [moc, 01-roles]
+source: 23_OPERATING_MODEL/01_ROLES
+tags: [moc, 01-roles, canon/operating-model]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
+
 
 # 01 Roles — Map of Content
 

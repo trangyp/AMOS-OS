@@ -1,8 +1,15 @@
 ---
 title: mvp ai roleplay language learning
 type: reference
-tags: [reference, amos-learning-memory-knowledge-feedback-governor]
+source: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor/references
+tags: [reference, amos-learning-memory-knowledge-feedback-governor, canon/skill]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
 ---
+
 
 # MVP Requirements AI Roleplay Language Learning
 
@@ -315,3 +322,7 @@ ol > li {
 
 ---
 **MOC:** [[references_MOC]]
+
+## Related
+
+- [[07_SKILLS_MOC]]

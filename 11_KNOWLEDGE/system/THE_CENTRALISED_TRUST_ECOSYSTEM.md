@@ -1,12 +1,15 @@
 ---
 title: THE CENTRALISED TRUST ECOSYSTEM
-tags: [system, architecture, design]
+tags: [system, architecture, design, canon/knowledge]
 type: document
 source: 11_KNOWLEDGE/system
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: system_design
+
 ---
-
-
-
 
 
 # **The Centralised Trust Ecosystem**
@@ -351,3 +354,6 @@ PAQS = Normalised weighted sum × Recency × Volume Confidence − Recall/Fraud 
 
 ---
 **MOC:** [[SYSTEM_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
